@@ -1,0 +1,213 @@
+<html>
+  <head>
+    <title>Math Olympiads: Problem Solutions</title></title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style1.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    <script type="text/javascript">//this function gets called when the player is ready    
+      function onYouTubePlayerReady (playerId) {
+        ytplayer = document.getElementById("myytplayer");
+        console.log(ytplayer);
+      }
+      //generic seekTo function taking a player element and seconds as parameters    
+      function playerSeekTo(player, seconds) {
+        player.seekTo(seconds);
+      }</script>
+    <script type="text/javascript">      var ytplayer;  
+      $(document).ready(function() {
+        swfobject.embedSWF("//www.youtube.com/e/SFmo2aeTFT0?enablejsapi=1&playerapiid=ytplayer &version=3",
+        "ytapiplayer", // where the embedded player ends up
+        "560", // width    
+        "315", // height    
+        "8", // swf version    
+        null,
+        null, {
+            allowScriptAccess: "always"
+        }, {
+            id: "myytplayer"
+        });   
+      });</script>
+  </head>
+  <body>
+<table border="0" width="100%">
+  <tr>
+    <td>
+      <a href="http://www.dudajevagatve.lv/mathexam/index.html">
+        <img src="/biglogo.png" border="0" height="47" width="144" alt="Logo: Dudajeva gatve"/>
+      </a>
+    </td>
+    <td>
+      <nav>
+        <ul>
+          <li>
+            <a href="/mathexam/index.html">Sākums <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/mathexam/index-ad.html">Reklāmraksts</a>
+                </li>
+                <li>
+                  <a href="/math/contest-math-class.html">TikVaiCik konkurss</a>
+                </li>
+                <li>
+                  <a href="/mathexam/other-videos-fr.html">Video franciski</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/mathexam/videos-overview.html">Video <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/math/amo38-list.html">Ao2011</a>
+                </li>
+                <li>
+                  <a href="/math/amo39-list.html">Ao2012</a>
+                </li>
+                <li>
+                  <a href="/math/amo40-list.html">Ao2013</a>
+                </li>
+                <li>
+                  <a href="/math/amo41-list.html">Ao2014</a>
+                </li>
+                <li>
+                  <a href="/math/sol61-list.html">So2011</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/mathexam/topics-nms.html">Testi <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/mathexam/topics-nms-5-8.html">Tēmas (5.-8.kl.)</a>
+                </li>
+                <li>
+                  <a href="/mathexam/topics-nms-9-12.html">Tēmas (9.-12.kl.)</a>
+                </li>
+                <li>
+                  <a href="/mathexam/all-topics.html">Visas tēmas</a>
+                </li>
+                <li>
+                  <a href="/math/index.html">Video šķirotājs</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/nt/index.html">Sk.teorija<span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/nt/problems.html">Uzdevumi</a>
+                </li>
+                <li>
+                  <a href="/nt/course-book.html">Kursa grāmata</a>
+                </li>
+                <li>
+                  <a href="/nt/nt-7-8.html">Pašiem mazākajiem</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/schoolmap/index.html">Statistika <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/schoolmap/ao2016-map.html">Ao2016 Karte</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </td>
+  </tr>
+</table>
+    <p>
+      <a href="http://www.dudajevagatve.lv/math/amo40-list.html">
+        Uzdevumu saraksts
+      </a>
+    </p>
+    <h1>40.AMO, 9.klases 4.uzdevums</h1>
+    <div class="problem">Dota skaitļu virkne <img src="http://chart.apis.google.com/chart?cht=tx&chl=x_0,%5C;x_1,%5C;x_2,%5C;x_3%5Cldots" alt="x(0),x(1),x(2),x(3)"/>, kurā <img src="http://chart.apis.google.com/chart?cht=tx&chl=x_0%26gt;0" alt="x(0)&gt;0"/> un <img src="http://chart.apis.google.com/chart?cht=tx&chl=x_{n+1}=x_n%2B%5Cfrac{2}{x_n}" alt="x(n+1)=x(n)+2/x(n)"/> visiem <img src="http://chart.apis.google.com/chart?cht=tx&chl=n%26gt;=0" alt="n&gt;=0"/>. Pierādīt, ka <img src="http://chart.apis.google.com/chart?cht=tx&chl=x_{100}%26gt;20" alt="x(100)&gt;20"/>.</div>
+    <br/>
+    <table>
+      <tr>
+        <td>
+          <div id="ytapiplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
+        </td>
+        <td>
+          <div class="line">
+            <b>Uzdevuma saprašana</b>
+          </div>
+          <div class="indentedLine">
+            <span>(a) 0:29</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,29); return false;">
+              Virkni viennozīmīgi uzdod pirmais loceklis un formula, kas ļauj izrēķināt katru nākamo locekli.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(b) 0:49</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,49); return false;">
+              Visi virknes locekļi ir pozitīvi.
+            </a>
+          </div>
+          <div class="line">
+            <b>Risināšanas plāns</b>
+          </div>
+          <div class="indentedLine">
+            <span>(a) 1:13</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,73); return false;">
+              Kāpinot kvadrātā, mainīgais x_n var noīsināties. Metode: Kāpināšana kvadrātā.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(b) 2:49</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,169); return false;">
+              Locekļa atmešana un pāreja uz nevienādību. Metode: Pāreja uz nevienādību.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(c) 3:23</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,203); return false;">
+              Ja katrs nākamais virknes locekļa kvadrāts ir par 4 lielāks nekā iepriekšējā locekļa kvadrāts, tad simtais locekļa kvadrāts būs par 400 lielāks nekā nulltā locekļa kvadrāts. Metode: Indukcija.
+            </a>
+          </div>
+          <div class="line">
+            <b>Atskats</b>
+          </div>
+          <div class="indentedLine">
+            <span>(a) 5:18</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,318); return false;">
+              Kas notiek, ja dažādām x_0 vērtībām izrēķina x_100, un attēlo grafika veidā.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(b) 6:30</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,390); return false;">
+              Vai x_100 noteikti ir lielāks par 20 un pie kura x_0 var iegūt vismazāko x_100 vērtību.
+            </a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <p>
+      <b>Norādes</b>
+      <a href="http://nms.lu.lv/uzdevumu-arhivs/latvijas-olimpiades/">
+        Latvijas olimpiāžu uzdevumu arhīvs
+      </a>
+    </p>
+    <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32739031-1', 'dudajevagatve.lv');
+  ga('send', 'pageview');</script>
+  </body>
+</html>

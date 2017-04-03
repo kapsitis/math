@@ -1,0 +1,41 @@
+{
+  "1" : {
+    "changed" : 0,
+    "col1" : 7,
+    "col2" : 8,
+    "col3" : 9,
+    "player" : "N"
+  },
+  "2" : {
+    "changed" : 1,
+    "col1" : 5,
+    "col2" : 7,
+    "col3" : 9,
+    "player" : "A"
+  },
+  "3" : {
+    "changed" : 3,
+    "col1" : 5,
+    "col2" : 7,
+    "col3" : 2,
+    "player" : "B"
+  },
+  "moves" : {
+    "-K4e7FIlPtGe2_IkYGYx" : {
+      "moveChanged" : 1,
+      "moveCol1" : 3,
+      "moveCol2" : 5,
+      "moveCol3" : 7,
+      "moveId" : 1,
+      "movePlayer" : "A"
+    },
+    "-K4eBrV27Mn_obVCEHW0" : {
+      "moveChanged" : 1,
+      "moveCol1" : 1,
+      "moveCol2" : 123,
+      "moveCol3" : 2,
+      "moveId" : 2,
+      "movePlayer" : "B"
+    }
+  }
+}

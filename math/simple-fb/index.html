@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="simpleApp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-controller="SimpleCtrl">
+    <!-- anything typed in here is magically saved to our Firebase database! -->
+    <input type="text" ng-model="data.col1"/>
+    <!-- all changes from our Firebase database magically appear here! -->
+    <h1>You said: {{data.col1}}</h1>
+  </body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Simple</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+
+<body ng-app="simpleApp">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+
+<script src="app.js"></script>
+<script src="simple.ctl.js"></script>
+
+<table border=1>
+<tr>
+<td>{{profile.col1}}</td>
+<td>{{profile.col2}}</td>
+<td>{{profile.col3}}</td>
+</tr>
+</table>
+
+</body>
+</html>
+-->

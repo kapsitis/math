@@ -1,0 +1,201 @@
+<html>
+  <head>
+    <title>Math Olympiads: Problem Solutions</title></title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style1.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    <script type="text/javascript">//this function gets called when the player is ready    
+      function onYouTubePlayerReady (playerId) {
+        ytplayer = document.getElementById("myytplayer");
+        console.log(ytplayer);
+      }
+      //generic seekTo function taking a player element and seconds as parameters    
+      function playerSeekTo(player, seconds) {
+        player.seekTo(seconds);
+      }</script>
+    <script type="text/javascript">      var ytplayer;  
+      $(document).ready(function() {
+        swfobject.embedSWF("//www.youtube.com/e/gKwJyRVBxk8?enablejsapi=1&playerapiid=ytplayer &version=3",
+        "ytapiplayer", // where the embedded player ends up
+        "560", // width    
+        "315", // height    
+        "8", // swf version    
+        null,
+        null, {
+            allowScriptAccess: "always"
+        }, {
+            id: "myytplayer"
+        });   
+      });</script>
+  </head>
+  <body>
+<table border="0" width="100%">
+  <tr>
+    <td>
+      <a href="http://www.dudajevagatve.lv/mathexam/index.html">
+        <img src="/biglogo.png" border="0" height="47" width="144" alt="Logo: Dudajeva gatve"/>
+      </a>
+    </td>
+    <td>
+      <nav>
+        <ul>
+          <li>
+            <a href="/mathexam/index.html">Sākums <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/mathexam/index-ad.html">Reklāmraksts</a>
+                </li>
+                <li>
+                  <a href="/math/contest-math-class.html">TikVaiCik konkurss</a>
+                </li>
+                <li>
+                  <a href="/mathexam/other-videos-fr.html">Video franciski</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/mathexam/videos-overview.html">Video <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/math/amo38-list.html">Ao2011</a>
+                </li>
+                <li>
+                  <a href="/math/amo39-list.html">Ao2012</a>
+                </li>
+                <li>
+                  <a href="/math/amo40-list.html">Ao2013</a>
+                </li>
+                <li>
+                  <a href="/math/amo41-list.html">Ao2014</a>
+                </li>
+                <li>
+                  <a href="/math/sol61-list.html">So2011</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/mathexam/topics-nms.html">Testi <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/mathexam/topics-nms-5-8.html">Tēmas (5.-8.kl.)</a>
+                </li>
+                <li>
+                  <a href="/mathexam/topics-nms-9-12.html">Tēmas (9.-12.kl.)</a>
+                </li>
+                <li>
+                  <a href="/mathexam/all-topics.html">Visas tēmas</a>
+                </li>
+                <li>
+                  <a href="/math/index.html">Video šķirotājs</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/nt/index.html">Sk.teorija<span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/nt/problems.html">Uzdevumi</a>
+                </li>
+                <li>
+                  <a href="/nt/course-book.html">Kursa grāmata</a>
+                </li>
+                <li>
+                  <a href="/nt/nt-7-8.html">Pašiem mazākajiem</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/schoolmap/index.html">Statistika <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/schoolmap/ao2016-map.html">Ao2016 Karte</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </td>
+  </tr>
+</table>
+    <p>
+      <a href="http://www.dudajevagatve.lv/math/amo39-list.html">
+        Uzdevumu saraksts
+      </a>
+    </p>
+    <h1>39.AMO, 9.klases 4.uzdevums</h1>
+    <div class="problem">Uz tāfeles uzrakstītas deviņas zvaigznītes * * * * * * * * *.<br/> Jānis ieraksta kādas zvaigznītes vietā jebkuru ciparu no 1 līdz 9. Pēc tam Pēteris jebkuru divu citu zvaigznīšu vietā ieraksta divus ciparus (tie var arī atkārtoties). Pēc tam vēl divas reizes viņi atkārto šo darbību. Pēteris uzvar, ja iegūtais deviņciparu skaitlis dalās ar 37. Vai Pēteris vienmēr var uzvarēt?</div>
+    <br/>
+    <table>
+      <tr>
+        <td>
+          <div id="ytapiplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
+        </td>
+        <td>
+          <div class="line">
+            <b>Risināšanas plāns</b>
+          </div>
+          <div class="indentedLine">
+            <span>(a) 0:45</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,45); return false;">
+              Divu spēlētāju spēļu pozīciju grafs ar atgriešanos līzsvarā. Metode: Spēles vizualizācija ar grafu.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(b) 2:27</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,147); return false;">
+              Nonākšana laimīgajā pozīcijā - kur skaitlis dalās ar 37 (zvaigznīšu vietā nulles). Metode: Invariantu metode.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(c) 3:20</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,200); return false;">
+              Par cik palielinās atlikums katrā gājienā? Metode: Skaitļa decimālpieraksts.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(d) 4:24</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,264); return false;">
+              Skaitļa ciparu dotie atlikumi. Metode: Atlikumu aritmētika.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(e) 8:13</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,493); return false;">
+              Skaitļa 111 īpašība un tās lietojums spēles stratēģijā. Metode: Konstrukcija.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(f) 12:42</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,762); return false;">
+              Vai Jānis var apdraudēt Pētera stratēģiju.
+            </a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <p>
+      <b>Norādes</b>
+      <a href="http://nms.lu.lv/uzdevumu-arhivs/latvijas-olimpiades/">
+        Latvijas olimpiāžu uzdevumu arhīvs
+      </a>
+    </p>
+    <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32739031-1', 'dudajevagatve.lv');
+  ga('send', 'pageview');</script>
+  </body>
+</html>

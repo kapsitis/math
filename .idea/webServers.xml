@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6b07d3df-b298-4c79-a651-92f9d6b45fa2" name="math" url="http://www.dudajevagatve.lv">
+        <fileTransfer host="www.dudajevagatve.lv" port="22" rootFolder="/home/lighttpd/dudajevagatve.lv/http/math" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

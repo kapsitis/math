@@ -1,0 +1,209 @@
+<html>
+  <head>
+    <title>Math Olympiads: Problem Solutions</title></title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style1.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    <script type="text/javascript">//this function gets called when the player is ready    
+      function onYouTubePlayerReady (playerId) {
+        ytplayer = document.getElementById("myytplayer");
+        console.log(ytplayer);
+      }
+      //generic seekTo function taking a player element and seconds as parameters    
+      function playerSeekTo(player, seconds) {
+        player.seekTo(seconds);
+      }</script>
+    <script type="text/javascript">      var ytplayer;  
+      $(document).ready(function() {
+        swfobject.embedSWF("//www.youtube.com/e/6DJBsQoRog0?enablejsapi=1&playerapiid=ytplayer &version=3",
+        "ytapiplayer", // where the embedded player ends up
+        "560", // width    
+        "315", // height    
+        "8", // swf version    
+        null,
+        null, {
+            allowScriptAccess: "always"
+        }, {
+            id: "myytplayer"
+        });   
+      });</script>
+  </head>
+  <body>
+<table border="0" width="100%">
+  <tr>
+    <td>
+      <a href="http://www.dudajevagatve.lv/mathexam/index.html">
+        <img src="/biglogo.png" border="0" height="47" width="144" alt="Logo: Dudajeva gatve"/>
+      </a>
+    </td>
+    <td>
+      <nav>
+        <ul>
+          <li>
+            <a href="/mathexam/index.html">Sākums <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/mathexam/index-ad.html">Reklāmraksts</a>
+                </li>
+                <li>
+                  <a href="/math/contest-math-class.html">TikVaiCik konkurss</a>
+                </li>
+                <li>
+                  <a href="/mathexam/other-videos-fr.html">Video franciski</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/mathexam/videos-overview.html">Video <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/math/amo38-list.html">Ao2011</a>
+                </li>
+                <li>
+                  <a href="/math/amo39-list.html">Ao2012</a>
+                </li>
+                <li>
+                  <a href="/math/amo40-list.html">Ao2013</a>
+                </li>
+                <li>
+                  <a href="/math/amo41-list.html">Ao2014</a>
+                </li>
+                <li>
+                  <a href="/math/sol61-list.html">So2011</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/mathexam/topics-nms.html">Testi <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/mathexam/topics-nms-5-8.html">Tēmas (5.-8.kl.)</a>
+                </li>
+                <li>
+                  <a href="/mathexam/topics-nms-9-12.html">Tēmas (9.-12.kl.)</a>
+                </li>
+                <li>
+                  <a href="/mathexam/all-topics.html">Visas tēmas</a>
+                </li>
+                <li>
+                  <a href="/math/index.html">Video šķirotājs</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/nt/index.html">Sk.teorija<span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/nt/problems.html">Uzdevumi</a>
+                </li>
+                <li>
+                  <a href="/nt/course-book.html">Kursa grāmata</a>
+                </li>
+                <li>
+                  <a href="/nt/nt-7-8.html">Pašiem mazākajiem</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/schoolmap/index.html">Statistika <span class='caret'></span></a>
+            <div>
+              <ul>
+                <li>
+                  <a href="/schoolmap/ao2016-map.html">Ao2016 Karte</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </td>
+  </tr>
+</table>
+    <p>
+      <a href="http://www.dudajevagatve.lv/math/amo40-list.html">
+        Uzdevumu saraksts
+      </a>
+    </p>
+    <h1>40.AMO, 12.klases 4.uzdevums</h1>
+    <div class="problem">Kādas valodas alfabētā ir <img src="http://chart.apis.google.com/chart?cht=tx&chl=i" alt="i"/> patskaņi (<img src="http://chart.apis.google.com/chart?cht=tx&chl=i%5Cgeq2" alt="i&gt;=2"/>) un <img src="http://chart.apis.google.com/chart?cht=tx&chl=j" alt="j"/> līdzskaņi (<img src="http://chart.apis.google.com/chart?cht=tx&chl=j%5Cgeq2" alt="j&gt;=2"/>). Šajā valodā par vārdu sauc jebkuru galīgu burtu (patskaņu un līdzskaņu) virkni, kas satur vismaz vienu burtu un kurā nekādi divi patskaņi neparādās pēc kārtas un pēc kārtas uzrakstīti līdzskaņi ir ne vairāk kā divi (piemēram, ja "A" ir patskanis, bet "B" – līdzskanis, tad, piemēram, "ABBA" ir vārds, turpretī "BAAB" un "ABBBA" nav vārdi). Ar <img src="http://chart.apis.google.com/chart?cht=tx&chl=S(n)" alt="S(n)"/> apzīmēsim visu to vārdu skaitu, kuri sastāv no <img src="http://chart.apis.google.com/chart?cht=tx&chl=n" alt="n"/> burtiem, <img src="http://chart.apis.google.com/chart?cht=tx&chl=n%5Cgeq1" alt="n&gt;=1"/>. Pierādīt, ka visiem naturāliem skaitļiem n ir spēkā vienādība <img src="http://chart.apis.google.com/chart?cht=tx&chl=S(n%2B3)%5C,=%5C,i%5C,%5Ccdot%5C,j%5C,%5Ccdot%5C,S(n%2B1)%5C,%2B%5C,i%5C,%5Ccdot%5C,j^2%5C,%5Ccdot%5C,S(n)" alt="S(n+3)=i*j*S(n+1)+i*j^2*S(n)"/>.</div>
+    <br/>
+    <table>
+      <tr>
+        <td>
+          <div id="ytapiplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
+        </td>
+        <td>
+          <div class="line">
+            <b>Uzdevuma saprašana</b>
+          </div>
+          <div class="indentedLine">
+            <span>(a) 1:06</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,66); return false;">
+              Kas ir formālās valodas? Kādi ir ierobežojumi vārdu veidošanai.
+            </a>
+          </div>
+          <div class="line">
+            <b>Risināšanas plāns</b>
+          </div>
+          <div class="indentedLine">
+            <span>(a) 1:32</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,92); return false;">
+              Orientēts grafs, kas parāda patskaņu/līdzskaņu izvēlēšanos - pirmos 3 soļus. Metode: Lēmumu koki.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(b) 4:53</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,293); return false;">
+              Apzīmējumi P(n) un L(n) - n-burtu vārdu skaits (arī lēmumu koks), kas sākas attiecīgi ar patskani vai ar līdzskani. Metode: Apzīmējumu ieviešana.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(c) 6:40</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,400); return false;">
+              Identiskie pārveidojumi ar P(n) un L(n) apzīmējumiem. Metode: Summas locekļu pārgrupēšana.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(d) 7:48</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,468); return false;">
+              Patskaņu un līdzskaņu virknīšu saskaitīšana. Metode: Reizināšanas likums kombinatorikā.
+            </a>
+          </div>
+          <div class="indentedLine">
+            <span>(e) 10:10</span>
+            <a href="#" onclick="playerSeekTo(ytplayer,610); return false;">
+              Pierādāmās formulas iegūšana. Metode: Summas locekļu pārgrupēšana.
+            </a>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <h4>Piezīmes</h4>
+    <ol>
+      <li>Iegūtā formula ir rekursīva izteiksme, kas ļauj rēķināt jebkura garuma vārdu skaitu dotajā valodā. Izteikt S(1), S(2), S(3)</li>
+      <li>Ar kādu citu skaitļu atlikumiem iespējams pamatot, ka vienādojumam nav atrisinājumu?</li>
+    </ol>
+    <p>
+      <b>Norādes</b>
+      <a href="http://nms.lu.lv/uzdevumu-arhivs/latvijas-olimpiades/">
+        Latvijas olimpiāžu uzdevumu arhīvs
+      </a>
+    </p>
+    <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32739031-1', 'dudajevagatve.lv');
+  ga('send', 'pageview');</script>
+  </body>
+</html>
