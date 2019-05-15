@@ -1,3 +1,3 @@
 #!/bin/bash
-landslide $1/exam.md -t ../slides/themes/ddgatve -d $1/exam.html
+landslide $1/content.md -t themes/ddgatve -d $1/content.html
 
