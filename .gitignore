@@ -18,3 +18,4 @@ src/site/**/*.html
 !src/site/prob/themes/ddgatve/base.html
 !src/site/exam/themes/ddgatve/base.html
 !src/site/tale/themes/ddgatve/base.html
+!src/site/index.html
