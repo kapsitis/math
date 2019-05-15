@@ -1,0 +1,17 @@
+.classpath
+.cache-main
+.DS_Store
+.settings
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.out
+*/.Rhistory
+**/.Rhistory
+*/.RData
+**/.RData
+bin/
+target/
+src/site/**/*.html
