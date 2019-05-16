@@ -33,11 +33,30 @@ ciparu 1, arī rodas kāda vesela skaitļa kvadrāts.
 
 <small>
 
-* [alg.expand.binom.cubes](#)
-* [div.properties.add](#)
-* [div.properties.product](#)
+* [misc.beginatend](#)
+* [misc.experiment](#)
+* [notation.algor.square5](#)
+* [notation.dec.numdigits.square](#)
+* [alg.factorize.sqdiff](#)
 
 </small>
+
+----
+
+# Vienādojumu sistēmas
+
+* Ja $n=3$, var aplūkot pilnus kvadrātus, kas satur četrus ciparus un
+sākas ar "1": $32^2=1024$, $33^2 = 1089$, $34^2 = 1156$ un 
+$35^2 = 1225$. Tas arī ir pirmais skaitlis, kuram nometot pirmo ciparu 
+iegūst kvadrātu: $225 = 15^2$. 
+* Redzam arī, ka $35^2 - 15^2 = (35-15)(35+15)=20\cdot 50 = 1000$. 
+* Nākamā sistēmiņa: $a+b=200$, $a-b=50$. Tātad 
+$$a = 125,\;\; b = 75,\;\;125^2 - 75^2=10000.$$
+* Skaitļus $15$, $35$, $75$, $125$ u.c. var ātri kāpināt kvadrātā:
+
+$75^2 = 5625$, jo $7 \cdot 8 = 56$.  
+$125^2 = 15625$, jo $12 \cdot 13 = 156$.
+
 
 ----
 
@@ -61,6 +80,13 @@ savā starpā vienādi?
 m равны между собой?
 -->
 
+<small>
+
+* [mod.rem.expr](#)
+* [mod.rem.values](#)
+
+</small>
+
 ----
 
 # <lo-sample/> EE.PK.2012.10.4
@@ -72,6 +98,12 @@ kuri apmierina vienādojumu $(a + b)(b + c)(c + a) = 123456789$?
 Сколько существует комплектов целых чисел $(a, b, c)$, 
 которые удовлетворяют уравнению $(a + b)(b + c)(c + a) = 123456789$?
 -->
+
+<small>
+
+* [mod.parity.cases](#)
+
+</small>
 
 ---
 
@@ -86,6 +118,30 @@ dalās ar $10$.
 квадратов целых чисел найдутся два таких, разность которых делится
 на $10$.
 -->
+
+<small>
+
+* [mod.expr.square](#)
+* [misc.exhaustive](#)
+* [misc.pigeonhole](#)
+
+</small>
+
+----
+
+# Dirihlē princips
+
+* Ievērojam, ka skaitļa kvadrāta atlikums, dalot ar $10$, atkarīgs tikai no paša skaitļa atlikuma.
+* Pārbaudām pilno kvadrātu atlikumus:
+
+<table>
+<tr><th>$x$</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+<tr><th>$x^2$</th><td>1</td><td>4</td><td>9</td><td>16</td><td>25</td><td>36</td><td>49</td><td>64</td><td>81</td><td>100</td></tr>
+<tr><th>$x^2\;\mbox{mod}\;10$</th><td>1</td><td>4</td><td>9</td><td>6</td><td>5</td><td>6</td><td>9</td><td>4</td><td>1</td><td>0</td></tr>
+</table>
+
+* Starp šiem atlikumiem ir seši atšķirīgi: $1,4,9,6,5,0$.
+* Ja izvēlas septiņus, tad divi sakritīs (Dirihlē princips). 
 
 ----
 
@@ -102,6 +158,23 @@ Atrast visas iespējamās $n$ vērtības.
 число в третьей вершине. Найти все возможные значения числа $n$.
 -->
 
+<small>
+
+* [div.common.lcm](#)
+* [div.common.lcm.mult](#)
+* [misc.exhaustive](#)
+
+</small>
+
+-----
+
+
+* Prasības: $14 \cdot 20$ dalās ar $n$, $14n$ dalās ar $20$, $20n$ dalās ar $14$
+* $n$ ir $280$ dalītājs, vienlaikus $n$ dalās ar $2$, $5$, $7$. 
+* Tātad $n = 2 \cdot 5 \cdot 7 k = 70k$, kas ir $280$ dalītājs.
+* Trīs $n$ vērtības: $(70, 140, 280)$. 
+
+
 ----
 
 # <lo-sample/> EE.PK.2015.10.3
@@ -116,6 +189,13 @@ b) Tas pats jautājums, ja $x$ un $y$ ir veseli skaitļi.
 б) Тот же вопрос, при условии, что $x$ и $y$ − целые числа
 -->
 
+<small>
+
+* [alg.factorize.sqdiff](#)
+* [div.pfactor.prop.numdivisors](#)
+
+</small>
+
 ---
 
 # <lo-sample/> EE.PK.2015.10.6
@@ -127,6 +207,12 @@ veselo skaitļu no $1$ līdz $n$ ciparu summa ir pāru skaitlis?
 Существует ли такое положительное целое число $n$, что у более половины
 из целых чисел от $1$ до $n$ сумма цифр чётна?
 -->
+
+<small>
+
+* [misc.induction](#)
+
+</small>
 
 ---
 
@@ -149,7 +235,7 @@ b) $n = 3$?
 # <lo-sample/> EE.PK.2016.10.4
 
 Vai eksistē tāds vienādojuma 
-$x^2 + y^2 + z^2 + w^2 = 3 + xy + y z + zw$,
+$x^2 + y^2 + z^2 + w^2 = 3 + xy + yz + zw$,
 atrisinājums, kuram $x$, $y$, $z$ un $w$ ir dažādi veseli skaitļi?
 
 
@@ -158,6 +244,13 @@ atrisinājums, kuram $x$, $y$, $z$ un $w$ ir dažādi veseli skaitļi?
 $x^2 + y^2 + z^2 + w^2 = 3 + xy + y z + zw$,
 при котором $x$, $y$, $z$ и $w$ различные целые числа?
 -->
+
+<small>
+
+* [alg.ineq.fullsquare](#)
+
+</small>
+
 
 ----
 
