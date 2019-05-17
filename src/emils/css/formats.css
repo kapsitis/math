@@ -1,0 +1,15 @@
+.reveal p {
+    text-align: left;
+}
+.reveal ol {
+    counter-reset: list
+}
+	    
+.reveal ol > li {
+    list-style: none;
+}
+
+.reveal ol > li:before {
+    content: counter(list, lower-alpha) ") ";
+    counter-increment: list;
+}

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(saldejums)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/white.css" id="theme"/>
+
+<link rel="stylesheet" href="./css/formats.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<section id="slide-sec-">
+<h2 id="org96a4d52">Skaitļu teorija:  11. kl. Latvijas olimpiādēs</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org7867c30">LV.NO.2010.11.1</h2>
+<p>
+Dots, ka \(p\) un \(q\) ir naturāli skaitļi un kvadrātvienādojuma \(x^2 + px + q = 0\)
+saknes ir \(x_1\) un \(x_2\).  Pierādīt, ka
+</p>
+<ol>
+<li>\(x_1^2 +x^2_2\),</li>
+<li>\(x_1^8 + x_2^8\),</li>
+<li>\(x_1^5 + x_2^5\),</li>
+
+</ol>
+<p>
+ir vesels skaitlis.
+</p>
+
+<ul>
+<li>[alg.poly]</li>
+<li>[alg.expand.binom]</li>
+<li>[alg.factorize.powsum]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="orge7c3d87">LV.VO.2010.11.4</h2>
+<p>
+Par Fibonači skaitļu virkni sauc virkni \(F_1=1; F_2=1; F_{i+2}=F_i+F_{i+1}\) pie
+\(i≥1\). Pierādīt, ka katram naturālam skaitlim \(n\) Fibonači skaitļu virknē ir tāds
+virknes loceklis, kas dalās ar \(n\).
+</p>
+
+<ul>
+<li>[seq.fibonacci]</li>
+<li>[mod.cases]</li>
+<li>[seq.prop.periodic.finstate]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="orgda8bde9">LV.NO.2011.11.4</h2>
+<p>
+Zināms, ka \(a\) un \(b\) ir naturāli skaitļi, pie tam \(a^b + 1\) dalās ar \(21\). Kāda ir
+mazākā iespējamā summas \(a+b\) vērtība?
+</p>
+
+<ul>
+<li>[alg.factorize.powsum]</li>
+<li>[alg.factorize.sqdiff]</li>
+<li>[mod.parity.cases]</li>
+<li>[misc.exhaustive]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org0f0e516">LV.VO.2011.11.3</h2>
+<p>
+Atrast visus pirmskaitļus \(p\), kuriem skaitlis \(p^{p^2-5} + 2\) arī ir
+pirmskaitlis.
+</p>
+
+<ul>
+<li>[mod.cases]</li>
+<li>[mod.exponent.one]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="orge258e8d">LV.AO.2011.11.5</h2>
+<p>
+Vai pa riņķa līniju var izvietot \(2011\) dažādus naturālus skaitļus tā, ka
+jebkuriem diviem blakus esošiem skaitļiem lielākā skaitļa attiecība pret mazāko
+ir pirmskaitlis?
+</p>
+
+<ul>
+<li>[div.pfactor]</li>
+<li>[mod.parity.cases]</li>
+<li>[misc.contradiction]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org5ee22f3">LV.NO.2012.11.1</h2>
+<p>
+Vai eksistē tāds naturāls skaitlis m, kura ciparu reizinājums ir vienāds ar
+simetrisku \(8\) &#x2013; ciparu skaitli?  (Par <i>simetrisku</i> sauc skaitli, kas vienādi lasāms
+no abiem galiem.)
+</p>
+
+<ul>
+<li>[notation.dec]</li>
+<li>[notation.divrules.11]</li>
+<li>[misc.contradiction]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org004eecf">LV.VO.2012.11.1</h2>
+<p>
+Pierādīt, ka eksistē bezgalīgi daudz naturālu skaitļu \(a\), kuriem skaitlis \(n^4+a\) ir
+salikts skaitlis visiem naturāliem skaitļiem \(n>1\).
+</p>
+
+<ul>
+<li>[alg.factorize]</li>
+<li>[misc.construction]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="orgad03255">LV.AO.2012.11.1</h2>
+<p>
+Pierādi, ka nav tāda naturāla skaitļa \(n\), ka skaitlis \(n^2 -3n -1\) dalās ar
+\(169\).
+</p>
+
+<ul>
+<li>[alg.factorize]</li>
+<li>[div.properties]</li>
+<li>[misc.contradiction]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org449ea49">LV.NO.2013.11.4</h2>
+<p>
+Polinoms \(P(x)\) ar veseliem koeficientiem četrām veselām \(x\) vērtībām pieņem
+vērtību \(2000\). Pierādīt, ka nav tādas veselas \(x\) vērtības, pie kuras dotais
+polinoms pieņem vērtību \(2013\).
+</p>
+
+<ul>
+<li>[alg.poly.int]</li>
+<li>[div.pfactor.prop.numdivisors]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="orgd3884d6">LV.VO.2014.11.2</h2>
+<p>
+Noteikt, kāds ir lielākais skaits, cik no pieciem naturāliem skaitļiem \(a\), \(a+14\),
+\(a+22\), \(a+32\), \(a+46\) var būt pirmskaitļi.
+</p>
+
+<ul>
+<li>[mod.rem.expr]</li>
+<li>[misc.exhaustive]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="orga3c5329">LV.AO.2014.11.4</h2>
+<p>
+Doti \(99\) naturāli skaitļi.  Zināms, ka nav tāda skaitļa, ar ko dalītos visi šie
+skaitļi, un ka jebkuru \(50\) skaitļu reizinājums dalās ar atlikušo \(49\) skaitļu
+reizinājumu. Pierādīt, ka visu \(99\) skaitļu reizinājums ir naturāla skaitļa
+kvadrāts.
+</p>
+
+<ul>
+<li>[div.pfactor.prop]</li>
+<li>[div.pfactor.powers.squares]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org16fc23e">LV.NO.2015.11.3</h2>
+<p>
+Kāds ir mazākais naturālais skaitlis \(n\), kuru iespējams izteikt kā trīs dažādu
+naturālu skaitļu \(a,b\) un \(c\) summu tā, ka visi skaitļi \(a+b, a+c, b+c\) ir naturālu
+skaitļu kvadrāti?
+</p>
+
+<ul>
+<li>[mod.parity]</li>
+<li>[misc.bounds]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org5297253">LV.VO.2015.11.4</h2>
+<p>
+Naturāli skaitļi \(a, b\) un \(c\) ir savstarpēji pirmskaitļi un visi ir lielāki
+nekā \(50\). Zināms, ka \(a+b\) dalās ar \(c\) un \(b+c\) dalās ar \(a\). Atrast mazāko iespējamo
+\(b\) vērtību!
+</p>
+
+<ul>
+<li>[div.properties.product]</li>
+<li>[alg.factorize]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="orgaf072e5">LV.AO.2015.11.3</h2>
+<p>
+Naturālam skaitlim \(n\) ar \(M(n)\) apzīmēsim mazāko naturālo skaitli, kas beidzas
+ar \(n\) un kura ciparu summa ir \(n\).  Piemēram, \(M(13)=913\). Pierādīt, ka ir bezgalīgi
+daudz tādu \(n\), ka \(M(n)\) dalās ar \(n\).
+</p>
+
+<ul>
+<li>[div.notation.dec.numdigits]</li>
+<li>[misc.construction]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="orge9c2dcc">LV.NO.2016.11.2</h2>
+<p>
+Pierādīt, ka starp jebkuriem pieciem naturālu skaitļu kvadrātiem var atrast
+divus tādus, ka to summa vai starpība dalās ar \(13\).
+</p>
+
+<ul>
+<li>[mod.cases.squares]</li>
+<li>[mod.expr]</li>
+<li>[misc.exhaustion]</li>
+<li>[misc.pigeonhole]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org3b4604f">LV.VO.2016.11.1</h2>
+<p>
+Zināms, ka \(x\) un \(y\) ir tādi naturāli skaitļi, ka \(xy^{433}\) ir naturāla
+skaitļa $2016.$ pakāpe. Pierādīt, ka arī \(x^{433}y\) ir naturāla skaitļa
+\(2016\). pakāpe!
+</p>
+
+<ul>
+<li>[alg.powers.prod]</li>
+<li>[div.properties]</li>
+<li>[misc.contradiction]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org5f84db2">LV.AO.2016.11.2</h2>
+<p>
+Vai var atrast tādu naturālus skaitļus \(x, y\) un \(z\), ka \(x^2 +y^2 +z^2 =
+  \underbrace{111\dots 1}_\text{2016}\) ?
+</p>
+
+<ul>
+<li>[mod.cases.squares]</li>
+<li>[mod.parity]</li>
+<li>[misc.exhaustive]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org438968a">LV.NO.2017.11.3</h2>
+<p>
+Atrisināt naturālos skaitļos vienādojumu sistēmu:
+</p>
+
+<div>
+\begin{cases}
+       x+z =2017 \\
+       31xz = y^2
+\end{cases}
+
+</div>
+
+<ul>
+<li>[div.properties]</li>
+<li>[misc.bounds]</li>
+<li>[misc.exhaustive]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org7bad2b8">LV.VO.2017.11.4</h2>
+<p>
+Pierādīt, ka no jebkuriem \(17\) naturāliem skaitļiem var izvēlēties \(9\) skaitļus tā,
+lai to summa dalītos ar \(9\).
+</p>
+
+<ul>
+<li>[mod.expr]</li>
+<li>[misc.pigeonhole]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="orgebd4ad5">LV.NO.2018.11.4</h2>
+<p>
+No cipariem \(1, 2, 3, 4, 5, 6, 7, 8, 9\), katru izmantojot divas reizes, izveidoja
+vienu septiņciparu, vienu sešciparu un vienu piecciparu skaitli. Ar kādu lielāko
+nuļļu skaitu var beigties trīs izveidoto skaitļu summa?
+</p>
+
+<ul>
+<li>[notation.divrules.3or9.divides]</li>
+<li>[misc.construction]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org2201926">LV.VO.2018.11.3</h2>
+<p>
+Skaitļus \(a,b,c,d,e\) sauksim par skaistu piecinieku, ja tiem piemīt šādas
+īpašības:
+</p>
+<ul>
+<li>tie ir pieci pēc kārtas esoši naturāli skaitļi;</li>
+<li>katrs no tiem dalās ar savu ciparu summu.</li>
+
+</ul>
+<p>
+Piemēram, skaists piecinieks ir \(6, 7, 8, 9, 10\). <b>a)</b> Atrast tādu skaistu
+piecinieku, kurā mazākais skaitlis ir lielāks nekā \(10\). <b>b)</b> Pierādīt, ka
+eksistē bezgalīgi daudz skaistu piecinieku!
+</p>
+
+<ul>
+<li>[notation.dec.digsum]</li>
+<li>[misc.construction]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org6544f78">LV.AO.2018.11.4</h2>
+<p>
+Vai eksistē tādi naturāli skaitļi \(m\) un \(n\), ka \(m^2 - n^2 =2mn\)? 
+</p>
+
+<ul>
+<li>[mod.parity]</li>
+<li>[alg.factorize]</li>
+<li>[misc.contradiction]</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org148d031">LV.VO.2019.11.3</h2>
+<p>
+Pierādīt, ka nevienai naturālai \(n\) vērtībai izteiksmes \(13^n + 10^n + 7^n +
+  3^n\) vērtība nav naturāla skaitļa kvadrāts!
+</p>
+
+<ul>
+<li>[mod.rem.values]</li>
+<li>[mod.cases.squares]</li>
+<li>[mod.parity]</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'swipe', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

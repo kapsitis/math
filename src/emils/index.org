@@ -1,0 +1,205 @@
+#+REVEAL_ROOT: ./reveal.js/
+#+OPTIONS: toc:nil num:nil reveal_title_slide:nil
+#+REVEAL_TRANS: swipe
+#+REVEAL_THEME: white
+#+REVEAL_EXTRA_CSS: ./css/formats.css
+
+* Skaitļu teorija:  11. kl. Latvijas olimpiādēs
+
+* LV.NO.2010.11.1
+  Dots, ka $p$ un $q$ ir naturāli skaitļi un kvadrātvienādojuma $x^2 + px + q = 0$
+  saknes ir $x_1$ un $x_2$.  Pierādīt, ka
+  a) $x_1^2 +x^2_2$,
+  b) $x_1^8 + x_2^8$,
+  c) $x_1^5 + x_2^5$,
+  ir vesels skaitlis.
+  
+  - [alg.poly]
+  - [alg.expand.binom]
+  - [alg.factorize.powsum]
+
+* LV.VO.2010.11.4
+  Par Fibonači skaitļu virkni sauc virkni $F_1=1; F_2=1; F_{i+2}=F_i+F_{i+1}$ pie
+  $i≥1$. Pierādīt, ka katram naturālam skaitlim $n$ Fibonači skaitļu virknē ir tāds
+  virknes loceklis, kas dalās ar $n$.
+
+  - [seq.fibonacci]
+  - [mod.cases]
+  - [seq.prop.periodic.finstate]
+
+* LV.NO.2011.11.4
+  Zināms, ka $a$ un $b$ ir naturāli skaitļi, pie tam $a^b + 1$ dalās ar $21$. Kāda ir
+  mazākā iespējamā summas $a+b$ vērtība?
+
+  - [alg.factorize.powsum]
+  - [alg.factorize.sqdiff]
+  - [mod.parity.cases]
+  - [misc.exhaustive]
+
+* LV.VO.2011.11.3
+  Atrast visus pirmskaitļus $p$, kuriem skaitlis $p^{p^2-5} + 2$ arī ir
+  pirmskaitlis.
+  
+  - [mod.cases]
+  - [mod.exponent.one]
+
+* LV.AO.2011.11.5
+  Vai pa riņķa līniju var izvietot $2011$ dažādus naturālus skaitļus tā, ka
+  jebkuriem diviem blakus esošiem skaitļiem lielākā skaitļa attiecība pret mazāko
+  ir pirmskaitlis?
+  
+  - [div.pfactor]
+  - [mod.parity.cases]
+  - [misc.contradiction]
+  
+* LV.NO.2012.11.1
+  Vai eksistē tāds naturāls skaitlis m, kura ciparu reizinājums ir vienāds ar
+  simetrisku $8$ -- ciparu skaitli?  (Par /simetrisku/ sauc skaitli, kas vienādi lasāms
+  no abiem galiem.)
+
+  - [notation.dec]
+  - [notation.divrules.11]
+  - [misc.contradiction]
+
+* LV.VO.2012.11.1
+  Pierādīt, ka eksistē bezgalīgi daudz naturālu skaitļu $a$, kuriem skaitlis $n^4+a$ ir
+  salikts skaitlis visiem naturāliem skaitļiem $n>1$.
+  
+  - [alg.factorize]
+  - [misc.construction]
+
+* LV.AO.2012.11.1
+  Pierādi, ka nav tāda naturāla skaitļa $n$, ka skaitlis $n^2 -3n -1$ dalās ar
+  $169$.
+
+  - [alg.factorize]
+  - [div.properties]
+  - [misc.contradiction]
+  
+* LV.NO.2013.11.4
+  Polinoms $P(x)$ ar veseliem koeficientiem četrām veselām $x$ vērtībām pieņem
+  vērtību $2000$. Pierādīt, ka nav tādas veselas $x$ vērtības, pie kuras dotais
+  polinoms pieņem vērtību $2013$.
+  
+  - [alg.poly.int]
+  - [div.pfactor.prop.numdivisors]
+
+* LV.VO.2014.11.2
+  Noteikt, kāds ir lielākais skaits, cik no pieciem naturāliem skaitļiem $a$, $a+14$,
+  $a+22$, $a+32$, $a+46$ var būt pirmskaitļi.
+  
+  - [mod.rem.expr]
+  - [misc.exhaustive]
+
+* LV.AO.2014.11.4
+  Doti $99$ naturāli skaitļi.  Zināms, ka nav tāda skaitļa, ar ko dalītos visi šie
+  skaitļi, un ka jebkuru $50$ skaitļu reizinājums dalās ar atlikušo $49$ skaitļu
+  reizinājumu. Pierādīt, ka visu $99$ skaitļu reizinājums ir naturāla skaitļa
+  kvadrāts.
+
+  - [div.pfactor.prop]
+  - [div.pfactor.powers.squares]
+
+* LV.NO.2015.11.3
+  Kāds ir mazākais naturālais skaitlis $n$, kuru iespējams izteikt kā trīs dažādu
+  naturālu skaitļu $a,b$ un $c$ summu tā, ka visi skaitļi $a+b, a+c, b+c$ ir naturālu
+  skaitļu kvadrāti?
+
+  - [mod.parity]
+  - [misc.bounds]
+  
+* LV.VO.2015.11.4
+  Naturāli skaitļi $a, b$ un $c$ ir savstarpēji pirmskaitļi un visi ir lielāki
+  nekā $50$. Zināms, ka $a+b$ dalās ar $c$ un $b+c$ dalās ar $a$. Atrast mazāko iespējamo
+  $b$ vērtību!
+  
+  - [div.properties.product]
+  - [alg.factorize]
+
+* LV.AO.2015.11.3
+  Naturālam skaitlim $n$ ar $M(n)$ apzīmēsim mazāko naturālo skaitli, kas beidzas
+  ar $n$ un kura ciparu summa ir $n$.  Piemēram, $M(13)=913$. Pierādīt, ka ir bezgalīgi
+  daudz tādu $n$, ka $M(n)$ dalās ar $n$.
+
+  - [div.notation.dec.numdigits]
+  - [misc.construction]
+
+* LV.NO.2016.11.2
+  Pierādīt, ka starp jebkuriem pieciem naturālu skaitļu kvadrātiem var atrast
+  divus tādus, ka to summa vai starpība dalās ar $13$.
+  
+  - [mod.cases.squares]
+  - [mod.expr]
+  - [misc.exhaustion]
+  - [misc.pigeonhole]
+
+* LV.VO.2016.11.1
+  Zināms, ka $x$ un $y$ ir tādi naturāli skaitļi, ka $xy^{433}$ ir naturāla
+  skaitļa $2016.$ pakāpe. Pierādīt, ka arī $x^{433}y$ ir naturāla skaitļa
+  $2016$. pakāpe!
+  
+  - [alg.powers.prod]
+  - [div.properties]
+  - [misc.contradiction]
+
+* LV.AO.2016.11.2
+  Vai var atrast tādu naturālus skaitļus $x, y$ un $z$, ka $x^2 +y^2 +z^2 =
+  \underbrace{111\dots 1}_\text{2016}$ ?
+  
+  - [mod.cases.squares]
+  - [mod.parity]
+  - [misc.exhaustive]
+
+* LV.NO.2017.11.3
+  Atrisināt naturālos skaitļos vienādojumu sistēmu:
+
+  \begin{cases}
+	 x+z =2017 \\
+	 31xz = y^2
+  \end{cases}
+
+  - [div.properties]
+  - [misc.bounds]
+  - [misc.exhaustive]
+
+* LV.VO.2017.11.4
+  Pierādīt, ka no jebkuriem $17$ naturāliem skaitļiem var izvēlēties $9$ skaitļus tā,
+  lai to summa dalītos ar $9$.
+  
+  - [mod.expr]
+  - [misc.pigeonhole]
+
+* LV.NO.2018.11.4
+  No cipariem $1, 2, 3, 4, 5, 6, 7, 8, 9$, katru izmantojot divas reizes, izveidoja
+  vienu septiņciparu, vienu sešciparu un vienu piecciparu skaitli. Ar kādu lielāko
+  nuļļu skaitu var beigties trīs izveidoto skaitļu summa?
+  
+  - [notation.divrules.3or9.divides]
+  - [misc.construction]
+
+* LV.VO.2018.11.3
+  Skaitļus $a,b,c,d,e$ sauksim par skaistu piecinieku, ja tiem piemīt šādas
+  īpašības:
+  - tie ir pieci pēc kārtas esoši naturāli skaitļi;
+  - katrs no tiem dalās ar savu ciparu summu.
+  Piemēram, skaists piecinieks ir $6, 7, 8, 9, 10$. *a)* Atrast tādu skaistu
+  piecinieku, kurā mazākais skaitlis ir lielāks nekā $10$. *b)* Pierādīt, ka
+  eksistē bezgalīgi daudz skaistu piecinieku!
+
+  - [notation.dec.digsum]
+  - [misc.construction]
+
+* LV.AO.2018.11.4
+  Vai eksistē tādi naturāli skaitļi $m$ un $n$, ka $m^2 - n^2 =2mn$? 
+  
+  - [mod.parity]
+  - [alg.factorize]
+  - [misc.contradiction]
+
+* LV.VO.2019.11.3
+  Pierādīt, ka nevienai naturālai $n$ vērtībai izteiksmes $13^n + 10^n + 7^n +
+  3^n$ vērtība nav naturāla skaitļa kvadrāts!
+
+  - [mod.rem.values]
+  - [mod.cases.squares]
+  - [mod.parity]
