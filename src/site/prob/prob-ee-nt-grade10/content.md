@@ -1280,7 +1280,7 @@ b) skaitlis $9876543210$?
 # <lo-sample/> EE.LVS.2015.noorem.4
 
 Kurš no skaitļiem lielāks: $2^{2014}$ vai
-$3^303 \cdot 4^{404} \cdot 5^{505}$?
+$3^{303} \cdot 4^{404} \cdot 5^{505}$?
 
 <!--
 Какое из чисел больше, $2^{2014}$ или 
@@ -1395,5 +1395,730 @@ dalījums ar savu ciparu summu ir mazākais iespējamais.
 которых на сумму своих цифр будет наименьшим возможным.
 -->
 
+
+-----
+
+# <lo-sample/> EE.LVS.2016.noorem.1
+
+Skaitlī 
+$$0,123456789101112\;\ldots\;998999$$
+pēc komata ir visi pozitīvie skaitļi no $1$ līdz $999$.
+Atrast šī skaitļa $2015$-to ciparu pēc komata.
+
+
+<!--
+В числе
+$$0,123456789101112\;\ldots\;998999$$
+после запятой идут подряд все положительные целые числа от $1$ до $999$.
+Найти $2015$-ую после запятой цифру этого числа.
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2016.noorem.2
+
+Nosauksim naturālu skaitli $n$ par interesantu, ja eksistē 
+naturāls skaitlis $m$ un naturāli skaitļi $a$ un $b$, kas
+mazāki par $m$, kuriem $\frac{m^2}{ab}=n$. Piemēram, skaitlis $10$ ir interesants, 
+jo $\frac{20^2}{4\cdot{}10}=10$.  
+Atrast vismazāko interesanto skaitli.
+
+<!--
+Назовём положительное целое число $n$ интересным, если существуют 
+положительное целое число $m$ и положительные целые числа $a$ и $b$ меньшие
+чем $m$, при которых $\frac{m^2}{ab}=n$. Например, число $10$ интересное, так как
+$\frac{20^2}{4\cdot{}10}=10$.  
+Найти наименьшее интересное число.
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2016.noorem.3
+
+Katrā no trim gadījumiem, noskaidrot, vai 
+eksistē divciparu skaitlis $n$, kurš nebeidzas ar nulli un apmierina attiecīgo nosacījumu:  
+a) visi skaitļi, ko iegūst, ievietojot vienu vai dažas nulles starp tā cipariem, 
+dalās ar sākotnējo skaitli.  
+b) neviens skaitlis, ko iegūst, ievietojot vienu vai dažas nulles starp tā cipariem, 
+nedalās ar sākotnējo skaitli.  
+c) daži no skaitļiem, ko iegūst, ievietojot vienu vai dažas nulles starp tā cipariem, 
+dalās, bet daži nedalās ar sākotnējo skaitli.
+
+<!--
+Существует ли не оканчивающееся на нуль двузначное число n такое, что  
+а) все числа, получаемые при добавлении одного или нескольких нулей
+между его цифрами, делятся на него?  
+б) ни одно число, получаемое при добавлении одного или нескольких
+нулей между его цифрами, не делится на него?  
+в) какие-то из чисел, получаемых при добавлении одного или нескольких 
+нулей между его цифрами, делятся, а какие-то не делятся на него?
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2016.noorem.6
+
+Cik ir piecciparu skaitļu, kas dalās ar $8$ un nesatur savā pierakstā ciparu nulle?
+
+<!--
+Сколько пятизначных делящихся на 8 чисел не имеют в своей записи цифры нуль?
+-->
+
+
+----
+
+# <lo-sample/> EE.LVS.2016.vanem.1
+
+a) Atrast lielāko skaitli, kurš ir četru dažādu divciparu skaitļu lielākais kopīgais dalītājs.  
+b) Atrast lielāko skaitli, kurš ir četru dažādu divciparu skaitļu mazākais kopīgais dalāmais.
+
+<!--
+а) Найти наибольшее число, являющееся наибольшим общим делителем
+каких-то четырёх различных двузначных чисел.  
+б) Найти наибольшее число, являющееся наименьшим общим кратным
+каких-то четырёх различных двузначных чисел.
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2016.vanem.3
+
+Dots naturāls skaitlis $n$, kam gan $n+1$, $n+3$, $n+7$ un $n+9$, gan arī
+$n+31$, $n+33$, $n+37$ un $n+39$ - ir pirmskaitļi. Atrast atlikumu, dalot
+skaitli $n$ ar $210$.
+
+<!--
+Дано натуральное число $n$ такое, что как $n+1$, $n+3$, $n+7$ и $n+9$, так и
+$n+31$, $n+33$, $n+37$ и $n+39$ − простые числа. Найти остаток от деления
+числа $n$ на $210$.
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2016.noorem.1
+
+Kertu pieder viens cipars $4$ un cik patīk daudz ciparu $3$. 
+Izvietojot šos ciparus kaut kādā secībā, Kertu nolēma izveidot skaitli, 
+kurš dalītos ar iespējami daudziem skaitļiem no $1$ līdz $9$. 
+Kāds ir mazākais šāds skaitlis, kuru viņa var izveidot, ja  
+a) Kertu aplūko tikai tos skaitļus, kas satur abus ciparus?  
+b) Skaitļiem nav noteikti jāsatur abi cipari?
+
+<!--
+У Карины есть одна цифра $4$ и сколько угодно цифр $3$. Располагая эти
+цифры одну за другой, Карина решила составить число, 
+которое бы делилось на как можно больше чисел от $1$ до $9$. 
+Каково наименьшее такое число, если
+а) Карина учитывает только те числа, которые содержат обе цифры?
+б) числа не обязаны содержать обе цифры?
+-->
+
+
+----
+
+# <lo-sample/> EE.LVT.2016.noorem.3
+
+Veseli skaitļi $a,b,c,d,e,f$ apmierina nosacījumu $a+c+e=b+d+f$.
+Pierādīt, ka $100000a + 10000b + 1000c + 100d + 10e + f$ dalās ar $11$.
+
+<!--
+Целые числа $a,b,c,d,e,f$ удовлетворяют условию $a+c+e=b+d+f$.
+Доказать, что $100000a + 10000b + 1000c + 100d + 10e + f$ делится на $11$.
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2016.vanem.1
+
+Vai eksistē tāds nepāru naturāls skaitlis $p$, ka 
+no $p$ atšķirīgu skaitļa $p$ dalītāju summa ir lielāka par skaitli $p$? 
+
+<!--
+Существует ли такое нечётное положительное число $p$, 
+что сумма отличных от $p$ положительных делителей числа $p$ больше числа $p$?
+-->
+
+
+----
+
+# <lo-sample/> EE.LVT.2016.vanem.4
+
+Izgudrotājs iepazīstināja karali ar savu jauno spēli uz rūtiņu laukuma ar
+izmēru $9\times{}10$. Karalis apsolīja viņam par pirmo rūtiņu vienu 
+rīsu graudiņu, par otru rūtiņu - arī vienu graudiņu, bet 
+par katru nākamo rūtiņu - tik daudz graudiņu, cik ir iepriekšējās divās rūtiņās kopā.
+Pierādīt, ka par pēdējo rūtiņu izgudrotājs, saskaņā ar karaļa solījumu, 
+nopelnīs vairāk kā $2015^4$
+rīsa graudiņu.
+
+
+<!--
+Мудрец представил королю свою новую интересную игру на клетчатом
+поле размером $9\times{}10$. Король пообещал заплатить ему за первую 
+клетку одно рисовое зёрнышко, за вторую клетку также одно зёрнышко, а за
+каждую последующую клетку столько же зёрен, сколько за предыдущие
+две клетки вместе. Доказать, что за последнюю клетку мудрец, согласно
+обещанию короля, заработает более чем $2015^4$
+рисовых зёрен.
+-->
+
+
+----
+
+# <lo-sample/> EE.LVS.2017.noorem.2
+
+Uz tāfeles uzrakstītas $11$ daļas, kuru skaitītāji un saucēji ir
+visi naturālie skaitļi no $1$ līdz $22$. Kāds lielākais iespējamais
+skaits no šīm daļām var būt veseli skaitļi? 
+
+<!--
+На доске записано $11$ дробей, числителями и знаменателями которых 
+являются все целые числа от $1$ до $22$. Каково наибольшее возможное 
+количество дробей, значения которых являются целыми числами?
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2017.noorem.3
+
+Juku izvirzīja matemātiskā pulciņā šādu hipotēzi: Vienmēr, 
+ja divu savstarpēju pirmskaitļu $x$ un $y$ reizinājums 
+dalās ar citu divu savstarpēju pirmskaitļu $a$ un $b$ reizinājumu, 
+tad vismaz viens no skaitļiem $x$ un $y$ dalās ar $a$ vai ar $b$. 
+Vai Juku hipotēze ir patiesa?  
+*Piezīme:* Divus veselus skaitļus $a$ un $b$ sauc par savstarpējiem 
+pirmskaitļiem, ja to lielākais kopīgais dalītājs $\mbox{НОД}(a, b) = 1$.
+
+<!--
+Юра выдвинул на математическом кружке следующую гипотезу: всегда,
+когда произведение двух взаимно простых целых чисел $x$ и $y$ делится на
+произведение двух взаимно простых целых чисел $a$ и $b$, то хотя бы одно
+из чисел $x$ и $y$ делится на $a$ или на $b$. Выполняется ли гипотеза Юры?
+Примечание. Говорят, что целые числа $a$ и $b$ взаимно просты, если
+$\mbox{НОД}(a, b) = 1$.
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2017.noorem.6
+
+Vai eksistē tāds naturāls skaitlis $n$, kuram ir tieši $9$ pozitīvi 
+dalītāji, bet visus tā dalītājus var novietot tabulā 
+$3\times{}3$ tā, lai katrā rindiņā, katrā kolonnā un abās diagonālēs 
+skaitļu reizinājums būtu viens un tas pats?
+
+<!--
+Найдётся ли такое положительное целое число $n$, у которого ровно 
+$9$ положительных делителей, а все его делители можно расположить 
+в таблице $3\times{}3$ таким образом, что произведение чисел каждой строки, каждого
+столбца и обеих диагоналей будет одинаковым?
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2017.vanem.2
+
+Definējam virkni $a_1=1$ un $a_n = n \cdot a_{\lfloor{}n/2\rfloor}$, 
+visiem $n>1$. Pierādīt, ka $a_n>n^2$  
+katram $n \geq 12$.
+*Piezīme:* Skaitļa $x$ veselā daļa $\lfloor x \rfloor$ ir lielākais veselais skaitlis, kas 
+nepārsniedz $x$. Piemēram, $\lfloor 4,6 \rfloor = 4$. Tātad $a_2 = 2 \cdot a_1$, 
+$a_3 = 3 \cdot a_1$, $a_4 = 4 \cdot a_2$, 
+$a_5 = 5 \cdot a_2$ utt.
+
+
+<!--
+Зададим $a_1=1$ и $a_n = n \cdot a_{\lfloor{}n/2\rfloor}$
+для каждого $n>1$. Доказать, что $a_n>n^2$
+для каждого $n \geq 12$.
+*Примечание.* Целая часть $\lfloor x \rfloor$ числа $x$ − это наибольшее целое число, не
+превышающее числа $x$. Например, $\lfloor 4,6 \rfloor = 4$. Т.е. $a_2 = 2 \cdot a_1$, 
+$a_3 = 3 \cdot a_1$, $a_4 = 4 \cdot a_2$, 
+$a_5 = 5 \cdot a_2$ и т.д.
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2017.vanem.3
+
+Kati un Peeter spēlē sekojošu spēli. Vispirms Kati uzraksta uz tāfeles
+kādu naturālu skaitli $a > 2016$. Pēc tam Peeter pieraksta jaunus skaitļus: 
+katrā solī viņš pievieno skaitli $2016b + 1$, kur $b$
+− lielākais skaitlis, kas tobrīd ir uz tāfeles. Peeter uzvar, 
+ja viņš kādā solī uzraksta uz tāfeles skaitli, kas dalās ar $2017$. Ja viņš to nevar izdarīt, 
+tad uzvar Kati. Vai Kati var uzvarēt, un ja jā, tad kāds ir mazākais skaitlis $a$, kas
+viņai jāuzraksta uz tāfeles, lai uzvarētu? 
+
+<!--
+Катя и Петя играют в следующую игру. Вначале Катя записывает на доске
+какое-то целое положительное число $a > 2016$. Затем Петя дописывает
+на доску числа, на каждом шаге добавляя туда число $2016b + 1$, где $b$
+− наибольшее на данный момент число на доске. Петя выиграет, если на
+каком-то шаге запишет на доске число, делящееся на $2017$. Если он это
+сделать не может, то выигрывает Катя. Может ли Катя выиграть игру и
+если да, то каково наименьшее число $a$, которое она должна записать на
+доске, чтобы выиграть?
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2017.vanem.6
+
+Atrast visus naturālos skaitļus $n$, kuriem visus $n$ pozitīvos dalītājus
+var bez atkārtošanās izrakstīt taisnstūrveida tabulā tā, lai katrā tabulas 
+šūnā būtu tieši viens dalītājs, skaitļu summas visās tabulas rindiņās ir vienādas, 
+un arī skaitļu summas visās tabulas kolonnās ir vienādas. 
+
+<!--
+Найти все целые положительные числа $n$, при которых все 
+положительные делители числа $n$ можно без повторений расположить 
+в прямоугольную таблицу так, что в каждой ячейке находится ровно один делитель,
+сумма чисел в каждой строке одинакова, а также сумма чисел в каждом
+столбце одинакова.
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2017.noorem.2
+
+Juku iedomājās trīsciparu skaitli. Ja šī skaitļa ciparus pieraksta pretējā secībā, 
+tad iegūst to pašu trīsciparu skaitli. Juku ievēroja, ka, pieskaitot iedomātajam 
+skaitlim $2016$, iegūsim četrciparu skaitli, kurš arī nemainās, pierakstot
+tā ciparus pretējā secībā. Kādu skaitli iedomājās Juku? 
+
+<!--
+Костя задумал трёхзначное число. Если записать цифры этого числа в обратном порядке, 
+то получим то же самое трёхзначное число. Костя заметил, что если прибавить к 
+задуманному числу $2016$, то получим четырёхзначное число, 
+которое не изменится, если записать его цифры в обратном
+порядке. Какое число задумал Костя?
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2017.noorem.3
+
+Ar $n$ apzīmēts naturāls skaitlis. Pierādīt, ka mazākais kopīgais dalāmais 
+jebkuriem $n$ pēc kārtas sekojošiem naturāliem skaitļiem dalās ar mazāko kopīgo 
+dalāmo skaitļiem $1,2,\ldots,n$.  
+*Piezīme:* Par jebkura skaitļu daudzuma mazāko kopīgo dalāmo sauc mazāko naturālo skaitli, 
+kurš dalās ar visiem šiem skaitļiem. 
+
+<!--
+Пусть $n$ − положительное целое число. Доказать, что наименьшее общее
+кратное любых $n$ последовательных положительных целых чисел делится
+на наименьшее общее кратное чисел $1,2,\ldots,n$.  
+*Примечание.* Наименьшим общим кратным любого количества положительных 
+целых чисел называют наименьшее положительное целое число,
+которое делится на все эти числа.
+--> 
+
+----
+
+# <lo-sample/> EE.LVT.2017.noorem.4
+
+a) Vai jebkuriem diviem vienādas paritātes skaitļiem $a$ un $b$ var atrast 
+tādus daļskaitļus $x$ un $y$, ka gan $x+y$, gan $ax+by$ ir veseli skaitļi?  
+b) Tas pats jautājums, ja $a$ un $b$ ir dažādas paritātes skaitļi.  
+*Piezīme:* Par daļskaitli saucam skaitli, kas nav nav vesels.  
+Paritāte izsaka, vai skaitlis dalās ar $2$. Tādējādi divi veseli skaitļi 
+ar vienādu paritāti būs abi pāru vai abi nepāru. Bet no diviem dažādas paritātes
+skaitļiem viens ir pāru un otrs ir nepāru.
+
+<!--
+а) Можно ли при любых заданных целых числах одинаковой чётности $a$
+и $b$ найти такие дробные числа $x$ и $y$, что как $x+y$, так и $ax+by$
+будут целыми числами?  
+б) Тот же вопрос, если $a$ и $b$ разной чётности.  
+*Примечание.* Дробным числом называют число, которое не является целым. 
+Чётность показывает, делится ли число на $2$. Таким образом, два
+целых числа одинаковой чётности либо оба чётные, либо оба нечётные, а
+среди двух целых чисел разной чётности одно чётное и одно нечётное.
+-->
+
+
+----
+
+# <lo-sample/> EE.LVT.2017.vanem.1
+
+Sniegpārsliņas aplīšos ierakstīti visi naturālie skaitļi no $1$ līdz $13$ tā, 
+ka piecu skaitļu summa uz katras no taisnēm un arī septiņu centrālo 
+skaitļu summa visas ir vienādas savā starpā. Atrast šo summu, ja
+zināms, ka tā ir mazākā iespējamā.
+
+![Sniegpārsliņa](EE.LVT.2017.vanem.1.png)
+
+<!--
+В снежинке в кружках записаны все натуральные
+числа от 1 до 13 так, что суммы пяти чисел, находящихся на каждой из прямых, 
+а также сумма семи центральных чисел, все равны между собой. 
+Найти эту сумму, если известно, что она наименьшая из возможных.
+-->
+
+
+----
+
+# <lo-sample/> EE.LVT.2017.vanem.2
+
+Cik veidos var aizstāt burtus ar cipariem tā, lai iegūtu pareizu 
+saskaitīšanas darbību? Vienādiem burtiem visur atbilst vienādi cipari, 
+dažādiem burtiem - dažādi cipari. 
+
+![Skaitļu rēbuss](EE.LVT.2017.vanem.2.png)
+
+<!--
+Сколькими способами можно заменить буквы на цифры так, чтобы получилось 
+корректное сложение? Одинаковым буквам везде соответствуют одинаковые цифры, 
+разным буквам разные цифры.
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2017.vanem.3
+
+Mašai dārzā ir elektriskais karuselis, kurā viņa katru dienu vizinās. 
+Viņai patīk kārtība, tādēļ pēc lietošanas vienmēr atstāj karuseli 
+vienā un tanī pašā stāvoklī. Tomēr katru nakti dārzā iezogas trīs lāči
+un ķeras pie karuseļa griešanas. Lāču tēvs vienā solī pagriež karuseli 
+tieši par $\frac{1}{7}$ no pilna apgrieziena. 
+Lāču māte vienā solī pagriež karuseli tieši par 
+$\frac{1}{9}$ no pilna apgrieziena. Mazais lācītis vienā solī pagriež karuseli 
+tieši par $\frac{1}{32}$ no pilna apgrieziena. Katrs no lāčiem var griezt
+karuseli tik reižu, cik vēlas. Cik dažādus karuseļa stāvokļus Maša var
+ieraudzīt nākamajā rītā?
+
+<!--
+У Маши в саду есть электрическая карусель, на которой она катается
+каждый день. Она любит порядок и поэтому после использования всегда
+оставляет карусель в одном и том же положении. Однако каждую ночь
+в сад прокрадываются три медведя и принимаются вращать карусель.
+Мишка-папа за раз поворачивает карусель ровно на
+$\frac{1}{7}$
+оборота. Мишка-мама за раз поворачивает карусель ровно на
+$\frac{1}{9}$ оборота. Медвежёнок за
+раз поворачивает карусель ровно на
+$\frac{1}{32}$ оборота. Каждый из медведей может вращать 
+карусель столько раз, сколько захочет. Сколько различных
+вариантов положения карусели может обнаружить Маша утром?
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2018.noorem.3
+
+Mari ieraksta burtnīcā $8$ pirmskaitļus, kas mazāki par $200$ (starp 
+šiem pirmskaitļiem var būt arī atkārtojumi). Pirmajam 
+pirmskaitlim viņa pieskaita $1$, otrajam $2$, trešajam $3$, utt., pēdējam $8$. 
+Pēc tam visas $8$ summas sareizina. Atrast lielāko $2$ pakāpi, ar kuru var 
+dalīties iegūtais reizinājums.
+<!--
+Маша записывает в тетради $8$ простых чисел, меньших чем $200$ (среди
+простых чисел могут быть повторяющиеся). Далее к первому простому
+числу она прибавляет $1$, ко второму $2$, к третьему $3$ и т.д. 
+пока не прибавит к последнему $8$, затем перемножает все полученные $8$ сумм. Найти
+наибольшую степень числа $2$, на которую может делится полученное произведение.
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2018.noorem.4
+
+Cik veidos zīmējumā var aizstāt burtus ar cipariem tā, lai rastos pareiza darbība? 
+Vienādus burtus jāaizstāj ar vienādiem cipariem, dažādus burtus - ar dažādiem cipariem. 
+
+![Skaitļu rēbuss](EE.LVS.2018.noorem.4.png)
+
+<!--
+Сколькими способами можно на рисунке заменить буквы цифрами так, 
+чтобы получилось корректное действие? Одну и ту же букву нужно заменять на ту же
+цифру, разные буквы на разные цифры.
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2018.vanem.2
+
+Atrast lielāko naturālo skaitli, kas nepārsniedz $500$ un kuram 
+nevar atrast citu naturālu skaitli, kas ir mazāks par $500$ un kurš
+dalītos ar mazāk dažādiem pirmskaitļiem.
+
+<!--
+Найти наибольшее целое положительное число меньше чем 500, 
+для которого не найдётся ни одного целого положительного числа меньше чем
+$500$, имеющего больше различных простых делителей.
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2018.vanem.3
+
+Par racionālu skaitļu $u$ un $v$ mediānu sauc skaitli $x = \frac{a + c}{b + d}$, kur
+$\frac{a}{b}$ un $\frac{c}{d}$ Ir attiecīgi skaitļu $u$ un $v$ izteiksmes nesaīsināmu daļu veidā. 
+Pierādīt, ka jebkuriem dažādiem pozitīviem racionāliem skaitļiem $u$ un $x$ var atrast
+bezgalīgi daudzus pozitīvus racionaļus skaitļus $v$, kam $x$ ir $u$ un $v$ mediāna.
+
+<!--
+Медианта рациональных чисел $u$ и $v$ − это число $x = \frac{a + c}{b + d}$, где
+$\frac{a}{b}$ и
+$\frac{c}{d}$
+являются соответственно представлениями чисел $u$ и $v$ в виде несократимых дробей.
+Доказать, что для любых различных положительных рациональных чисел
+$u$ и $x$ можно найти бесконечно много положительных рациональных чисел 
+$v$ таких, что $x$ будет медиантой $u$ и $v$.
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2018.noorem.2
+
+Pierakstā
+$$0\;\;1\;\;2\;\;3\;\;4\;\;5\;\;6\;\;7\;\;8\;\;9$$
+starp katriem diviem pēc kārtas sekojošiem cipariem liek zīmi "plus" vai "mīnuss".  
+a) Atrast mazāko pozitīvo nepāru skaitli, kuru nevar iegūt kā šādas izteiksmes vērtību.  
+b) Atrast mazāko pozitīvo pāru skaitli, kuru nevar iegūt kā šādas izteiksmes vērtību. 
+
+
+
+<!--
+В записи
+$$0\;\;1\;\;2\;\;3\;\;4\;\;5\;\;6\;\;7\;\;8\;\;9$$
+между каждыми двумя идущими подряд цифрами ставят знак "плюс" или
+"минус".  
+а) Найти наименьшее положительное нечётное число, которое невозможно получить как значение такого выражения.  
+б) Найти наименьшее положительное чётное число, которое невозможно
+получить как значение такого выражения.
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2018.noorem.3
+
+Vai var atrast tādus četrus dažādus pirmskaitļus, no kuriem izvēloties jebkurus trīs, to summa arī ir pirmskaitlis. 
+
+<!--
+Найдутся ли четыре различных простых числа, сумма любых трёх из которых будет также простым числом?
+-->
+
+
+----
+
+# <lo-sample/> EE.LVT.2018.vanem.2
+
+Taisnleņka trijstūrī visi malu garumi ir veseli skaitļi. 
+Vienas katetes garums ir nepāru pirmskaitlis $p$. Atrast divu 
+pārējo šī trijstūra malu garumus. 
+
+<!--
+В прямоугольном треугольнике длины всех сторон целочисленны. Длина
+одного катета − нечётное простое число $p$. Найти длины других двух
+сторон этого треугольника.
+--> 
+
+----
+
+# <lo-sample/> EE.LVT.2018.vanem.3
+
+Vai eksistē pieci dažādi pirmskaitļi, no kuriem izvēloties jebkurus trīs, to summa arī ir pirmskaitlis?
+
+<!--
+Найдутся ли пять различных простых чисел, сумма каждых трёх из которых также является простым числом?
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2019.noorem.1
+
+Skaitļus $1,2,\ldots,2018$ pieraksta vienu pēc otra bez atstarpēm, 
+turklāt no pieraksta izlaiž visus ciparus $8$. Vai iegūtais skaitlis
+dalās ar $3$?
+
+<!--
+Числа $1,2,\ldots,2018$ записываются одно за другим без промежутков,
+причём все цифры $8$ при записи пропускаются. Делится ли полученное число
+на $3$?
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2019.noorem.3
+
+Naturāli skaitļi $n$, $m$ un $k$ ir tādi, ka $\mbox{MKD}(m,k)$ dalās ar
+$n$, bet $\mbox{MKD}(n,k)$ dalās ar $m$. Pierādīt, ka
+$n\cdot\mbox{LKD}(m,k) = m\cdot\mbox{LKD}(n,k)$.  
+*Piezīme.* $\mbox{LDK}(a,b)$ apzīmē skaitļu $a$ un $b$ lielāko kopīgo dalītāju, bet
+$\mbox{MKD}$ apzīmē skaitļu $a$ un $b$ mazāko kopīgo dalāmo. 
+
+
+<!--
+Целые положительные числа $n$, $m$ и $k$ таковы, что $\mbox{НОК}(m,k)$ делится на
+$n$, а $\mbox{НОК}(n,k)$ делится на $m$. Доказать, что 
+$n\cdot\mbox{НОД}(m,k) = m\cdot\mbox{НОД}(n,k)$.  
+*Примечание.* $\mbox{НОД}(a,b)$ обозначает наибольший общий делитель чисел $a$
+и $b$, а $\mbox{НОК}(a,b)$ – наименьшее общее кратное чисел $a$ и $b$.
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2019.noorem.4
+
+
+Brālim Jüri ir māsa Mari. Viņu māte gaida dvīņus. Ja piedzimtu
+abi puisīši, tad Jüri būs tieši $k$ reizes vairāk brāļu nekā māsu. 
+Ja piedzimtu abas meitenītes, tad Mari būs $l$ reizes mazāk māsu nekā brāļu. 
+Tomēr piedzima viens puisītis un viena meitenīte. Cik reizes piedzimušajam 
+puisītim ir vairāk brāļu nekā māsu? Un cik reizes piedzimušajai meitenītei
+mazāk māsu kā brāļu?
+
+<!--
+Мама Юры и Маши ждёт двойняшек. Если родятся мальчики, то у Юры
+будет ровно в $k$ раз больше братьев, чем сестёр. Если родятся девочки, то
+у Маши будет ровно в $l$ раз меньше сестёр, чем братьев. Однако подходит
+время и рождаются мальчик и девочка. Во сколько раз у родившегося
+мальчика больше братьев, чем сестёр, и во сколько раз у родившейся
+девочки меньше сестёр, чем братьев?
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2019.noorem.6
+
+Skaitļus no $1$ līdz $9$ ieraksta tabulā $3 \times 3$ rūtiņas tā, ka
+ikvienā rūtiņā ir viens skaitlis un skaitļi neatkārtojas.
+Atrast lielāko iespējamo skaitu ar tādu rūtiņu pāriem, kam ir 
+kopīga mala un kur skaitlis no vienas rūtiņas dalās ar skaitli no otras rūtiņas.
+
+<!--
+Числа от $1$ до $9$ записываются в ячейки таблицы $3 \times 3$ 
+так, что в каждой ячейке ровно одно число, причём числа не повторяются. 
+Найти наибольшее возможное число пар имеющих общую сторону ячеек, 
+где число из первой ячейки делится на число из второй ячейки.
+-->
+
+----
+
+# <lo-sample/> EE.LVS.2019.vanem.3
+
+Bēniņos atrastam kalkulatoram ir taustiņi no $1$ līdz $9$ 
+un viens darbības taustiņš $\otimes$, kur 
+$x \otimes y$ apzīmē skaitli $x+\frac{x\cdot{}y}{x-y}$. 
+Pirmoreiz nospiežot darbības taustiņu, uz ekrāna paliek 
+līdz tam ievadītais skaitlis, bet pēc katras nākamās 
+šī taustiņa nospiešanas uz ekrāna parādās skaitlis $x \otimes y$, 
+kur $y$ - vesels skaitlis, kurš ievadīts tieši pirms iepriekšējās darbības 
+taustiņa nospiešanas, bet $x$ - skaitlis, kurš bija uz ekrāna 
+līdz skaitļa $y$ ievadīšanai. Piemēram, ja lietotājs nospiež taustiņus 
+secībā $2$, $2$, $\otimes$, 
+$3$, $3$, $\otimes$, $4$, $4$, $\otimes$, 
+tad uz ekrāna būs attiecīgi redzami skaitļi $2$, $22$, $22$, $3$, $33$, $-44$
+(darbības $22 \otimes 33$ rezultāts), $4$, $44$, $-22$ 
+(darbības $(-44) \otimes 44$ rezultāts).
+Ja lietotājs nospiež darbības taustiņu pašā sākumā, nospiež to divreiz pēc 
+kārtas vai pieļauj tādas darbības izpildi, kuras vērtība nav vesels skaitlis, 
+tad kalkulators salūst. Vai uz šī kalkulatora var uz ekrāna iegūt skaitli $2018$? 
+
+<!--
+У найденного на чердаке калькулятора есть клавиши от $1$ до $9$ и клавиша
+действия $\otimes$, где $x \otimes y$ обозначает число $x+\frac{x\cdot{}y}{x-y}$. 
+При первоначальном
+нажатии клавиши действия на экране остаётся введённое до этого число,
+а после каждого следующего нажатия на экране появляется число $x \otimes y$,
+где $y$ – целое число, введённое непосредственно перед нажатием клавиши
+действия, а $x$ – число, бывшее на экране до ввода числа $y$. Например,
+если пользователь нажимает клавиши в порядке $2$, $2$, $\otimes$, 
+$3$, $3$, $\otimes$, $4$, $4$, $\otimes$, 
+то на экране соответственно будут видны числа $2$, $22$, $22$, $3$, $33$, $-44$
+(результат действия $22 \otimes 33$), $4$, $44$, $-22$ 
+(результат действия $(-44) \otimes 44$).
+Если пользователь нажимает клавишу действия в самом начале, нажимает
+её два раза подряд или допускает выполнение действия, значения которого
+не является целым числом, то калькулятор выходит из строя. Можно ли
+на этом калькуляторе получить на экране число $2018$?
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2019.noorem.1
+
+a) Vai eksistē divi dažādi naturāli skaitļi, kuru kvadrātu summa ir 
+kāda vesela skaitļa kubs?  
+b) Tas pats jautājums, ja kuba vietā ir ceturtā pakāpe. 
+
+<!--
+а) Найдутся ли два различных положительных целых числа, сумма
+квадратов которых является кубом какого-то целого числа?
+б) Тот же вопрос, если вместо куба четвёртая степень.
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2019.noorem.3
+
+Nerātnais Juku nodzēsa desmitciparu skaitlim uz tāfeles 
+divus ciparus tā, ka palika pieraksts 
+$$\ast\,2\,0\,1\,8\ast2\,0\,1\,9$$ 
+(zvaigznītes apzīmē nodzēstos ciparus). Atrast visas iespējas, 
+kāds varēja būt sākotnējais skaitlis, ja zināms, ka tas
+dalījās ar $99$. 
+
+<!--
+Шаловливый Юра стёр в написанном на доске десятизначном числе две
+цифры так, что осталась запись $\ast{}2018\ast{}2019$ (звёздочки обозначают 
+стёртые цифры). Найти все возможности, чему могло равняться изначальное
+число, если известно, что оно делилось на $99$.
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2019.noorem.4
+
+Uz datora ekrāna cits zem cita parādās skaitļi. 
+Vienmēr, ja pēc kārtas parādījās skaitļi $a$ un $b$, 
+tad nākamais tur parādīsies skaitlis $ab-1$. 
+Pirmie uz ekrāna parādījās skaitļi $1$ un $2$. 
+Atrast skaitli, kurš tur parādīsies kā $2018$-tais.
+
+<!--
+На экране компьютера одно под другим поочерёдно появляются числа.
+Всегда, когда друг за другом появляются числа $a$ и $b$, 
+следующим появляется число $ab-1$. 
+Первыми на экране появились числа $1$ и $2$. Найти
+число, которое появилось $2018$-м.
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2019.vanem.1
+
+Sauksim skaitli par *skaistu*, ja tas atšķiras
+no kāda vesela skaitļa kvadrāta mazāk nekā par $10\%$. 
+Pierādīt, ka vienādojumam 
+$$x^3 + y^3 = z^2$$
+ir bezgalīgi daudz risinājumu, 
+kur $x$, $y$ un $z$ ir skaisti naturāli skaitļi. 
+
+<!--
+Назовём число красивым, если оно отличается 
+от квадрата какого-то целого числа меньше, 
+чем на $10\%$. Доказать, что у уравнения
+$$x^3 + y^3 = z^2$$
+есть бесконечно много решений, 
+где $x$, $y$ и $z$ – красивые целые положительные числа.
+-->
+
+----
+
+# <lo-sample/> EE.LVT.2019.vanem.3
+
+Naturāli skaitļi $a$ un $b$ ir tādi, 
+ka daļas 
+$$\frac{5a^4 + a^2}{b^4 + 3b^2 + 4}$$
+vērtība ir vesels skaitlis. Pierādīt, ka $a$ ir salikts
+skaitlis. 
+
+<!--
+Целые положительные числа $a$ и $b$ таковы, что значение дроби
+$$\frac{5a^4 + a^2}{b^4 + 3b^2 + 4}$$
+целочисленно. Доказать, что $a$ – составное число.
+-->
 
 
