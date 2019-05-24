@@ -1192,3 +1192,1023 @@ a (not necessarily positive) divisor of $n$.
 
 
 
+
+
+# <lo-sample/> LT.RAJ.2010.9_10.1
+
+Savākušies riekstu, iz meža pa pāriem iznāk bērni. 
+Katrā pārī ir meitene un puisis. Bez tam, 
+katram puisim ir divreiz vairāk vai divreiz mazāk 
+nekā meitenei viņa pārī. Vai var būt tā, ka 
+visiem bērniem kopā ir $2009$?
+
+<!--
+Prisirinkę riešutų, iš miško poromis išeina vaikai. 
+Kiekvienoje poroje yra mergaitė ir berniukas. 
+Be to, kiekvienas berniukas turi dvigubai daugiau arba
+perpus mažiau riešutų nei jo porininkė mergaitė. 
+Ar gali būti taip, kad iš viso vaikai
+turi $2009$ riešutus?
+-->
+
+# <lo-sample/> LT.RAJ.2010.9_10.4
+
+Atrodiet visus trīsciparu skaitļus, kuri ir $12$
+reizes lielāki par savu ciparu summu. 
+
+<!--
+Raskite visus triženklius skaičius, kurie $12$ 
+kartų didesni už savo skaitmenų sumą.
+-->
+
+# <lo-sample/> LT.RAJ.2010.11_12.2
+
+Petrjuks izvēlējās trīs dažādus nenulles ciparus. 
+Tad viņš saskaitīja visus deviņus divciparu skaitļus, 
+ko var uzrakstīt, izmantojot tikai šos trīs ciparus, 
+bet iegūto summu izdalīja ar $3$. Tādā veidā viņš
+ieguva trīsciparu skaitli, kura decimālajā pierakstā 
+atpazina visus trīs sākotnējos ciparus. Kuru 
+skaitli ieguva Petrjuks?
+
+<!--
+Petriukas pasirinko tris skirtingus nenulinius skaitmenis. 
+Tada visus devynis dviženklius skaičius, kuriuos 
+galima užrašyti naudojantis vien tais trimis
+skaitmenimis, jis sudėjo, o sumą padalijo iš $3$. 
+Tokiu būdu jis gavo triženklį skaičių,
+kurio dešimtainėje išraiškoje atpažino 
+visus tris pradinius skaitmenis. Kokį skaičių gavo
+Petriukas?
+-->
+
+# <lo-sample/> LT.RAJ.2010.11_12.3
+
+Atrodiet visus naturālos skaitļus $n$, kuriem 
+vienādojumam $2x + 3y = n$
+ir vairāk veselu nenegatīvu atrisinājumu
+$(x, y)$ nekā vienādojumiem $2x + 3y = n + 1$.
+
+<!--
+Raskite visus natūraliuosius skaičius $n$, 
+kuriems lygtis $2x + 3y = n$
+turi daugiau sveikųjų neneigiamų sprendinių 
+$(x, y)$ nei lygtis $2x + 3y = n + 1$.
+-->
+
+# <lo-sample/> LT.RAJ.2011.9_10.2
+
+Divu naturālo skaitļu $m$ un $n$ mazākais kopīgais
+dalāmais ir $8$ reizes lielāks par šo skaitļu lielāko 
+kopīgo dalītāju. Pierādiet, ka $m$ dalās ar $n$ vai arī
+$n$ dalās ar $m$. 
+
+<!--
+Dviejų natūraliųjų skaičių $m$ ir $n$ mažiausias 
+bendrasis kartotinis $8$ kartus didesnis už tų skaičių 
+didžiausią bendrąjį daliklį. Įrodykite, kad $m$ dalijasi iš $n$
+arba $n$ dalijasi iš $m$.
+-->
+
+# <lo-sample/> LT.RAJ.2011.9_10.4
+
+Dots vienādojums$x^2 + 5y^3 = t^2$.  
+a) Vai šī vienādojuma veselo atrisinājumu kopa ir galīga?  
+b) Vai šī vienādojuma naturālo atrisinājumu kopa ir galīga?
+
+<!--
+Duota lygtis $x^2 + 5y^3 = t^2$.  
+a) Ar šios lygties sveikųjų sprendinių aibė baigtinė?  
+b) Ar šios lygties natūraliųjų sprendinių aibė baigtinė?
+-->
+
+# <lo-sample/> LT.RAJ.2011.11_12.1
+
+Naturāli skaitļi $m$ un $n$ apmierina vienādību 
+$(m−n)^2 = \frac{4mn}{m+n−1}$.
+Pierādiet, ka $m+n$ ir naturāla skaitļa kvadrāts.
+
+<!--
+Natūralieji skaičiai $m$ ir $n$ tenkina lygybę 
+$(m−n)^2 = \frac{4mn}{m+n−1}$. Įrodykite,
+kad $m+n$ yra natūraliojo skaičiaus kvadratas. 
+-->
+
+# <lo-sample/> LT.RAJ.2011.11_12.3
+
+Divu naturālu skaitļu reizinajums ir naturāla 
+skaitļa kvadrāts.  
+a) Pierādiet, ka šo divu skaitļu starpība 
+nevar būt vienāda ar $2$.  
+b) Kādi var būt šie divi skaitļi, ja to starpība
+vienāda ar $3$? Atrodiet visus variantus. 
+
+<!--
+Dviejų natūraliųjų skaičių sandauga 
+yra natūraliojo skaičiaus kvadratas.  
+a) Įrodykite, kad tų dviejų skaičių skirtumas 
+negali būti lygus $2$.  
+b) Kokie gali būti tie du skaičiai, 
+jei jų skirtumas lygus $3$? Raskite visus variantus.
+-->
+
+# <lo-sample/> LT.VILNIUS.2011.9_10.4
+
+$p$ un $q$ ir tādi pirmskaitļi, ka 
+$p^2+1$ dalās ar $q$, bet $q^2-1$ dalās
+ar $p$. Pierādiet, ka $p+q+1$ ir salikts skaitlis.
+
+<!--
+$p$ ir $q$ – tokie pirminiai skaičiai, kad 
+$p^2+1$ dalijasi iš $q$, o $q^2-1$ dalijasi
+iš $p$. Įrodykite, kad $p+q+1$ – sudėtinis skaičius.
+-->
+
+# <lo-sample/> LT.VILNIUS.2011.11_12.4
+
+Atrodiet visus veselos skaitļus $x$, 
+kuriem skaitlis $$2^x + 5$ ir
+racionāla skaitļa kvadrāts.
+
+<!--
+Raskite visus sveikuosius skaičius $x$, 
+su kuriais skaičius $2^x + 5$ yra
+racionalaus skaičiaus kvadratas.
+-->
+
+# <lo-sample/> LT.RAJ.2012.9_10.1
+
+Pamāte lika Sigutei atnest no ezera tik daudz ūdens, 
+cik ieiet spainī, bet pašu spaini noslēpa. 
+Sigute atrada divus toverus, vienu - $9$ reizes ietilpīgāku 
+par spaini, bet otru - $13$ reizes.  
+a) Izdomājiet, kā Sigutei izpildīt Pamātes rīkojumu, 
+izmantojot vien šos toverus.  
+b) Citreiz Pamāte lika vienu reizi atnest tieši tik 
+ezera ūdens, cik ieiet $7$ tādos spaiņos. Kā Sigutei 
+to izdarīt (vēl arvien, izmantojot tikai tos pašus toverus)?  
+c) Kādu vēl spaiņu skaitu Sigute var izmērīt ar šiem 
+diviem toveriem? Atrodiet visus variantus.
+
+<!--
+Pamotė liepė Sigutei atnešti iš ežero tiek vandens, 
+kiek telpa į kibirą, bet patį kibirą paslėpė. 
+Sigutė terado du kubilus, vieną − $9$ kartus talpesnį už kibirą,
+o kitą − $13$ kartų.  
+a) Sugalvokite, kaip Sigutei įvykdyti Pamotės paliepimą, 
+naudojantis vien šiais kubilais.  
+b) Kitąsyk Pamotė liepė per vieną kartą atnešti 
+lygiai tiek ežero vandens, kiek
+telpa $7$ tokiuose kibiruose. Kaip Sigutei tai padaryti 
+(vėlgi turint tik tuos pačius kubilus)?  
+c) Kiek dar kibirų vandens Sigutė gali tiksliai 
+pamatuoti dviem kubilais? Raskite visus variantus.
+-->
+
+# <lo-sample/> LT.RAJ.2012.9_10.2
+
+Atrodiet visus trīsciparu skaitļus $\overline{abc}$, 
+kuru cipari $a$, $b$ un $c$ apmierina vienādību
+$$56a + 7b + c = 426.$$
+
+
+<!--
+Raskite visus triženklius skaičius $\overline{abc}$, 
+kurių skaitmenys $a$, $b$ ir $c$ tenkina lygybę
+$$56a + 7b + c = 426.$$
+-->
+
+# <lo-sample/> LT.RAJ.2012.11_12.2
+
+Naturāli skaitļi bez atstarpēm pēc kaŗtas sarakstīti 
+viens pēc cita:
+$$12345678910111213\ldots$$
+a) Kāds ir trīsdesmitais cipars šajā virknē?  
+b) Kādi ir simtais un $400$-ais cipari?  
+c) Kāds ir $2012$-ais cipars?
+
+<!--
+Natūralieji skaičiai be tarpų iš eilės surašyti vienas po kito:
+$$12345678910111213\ldots$$
+a) Koks yra trisdešimtasis skaitmuo šioje sekoje?  
+b) Koks yra šimtasis bei $400$-asis skaitmenys?  
+c) Koks yra $2012$-asis skaitmuo?
+-->
+
+# <lo-sample/> LT.RAJ.2012.11_12.3
+
+Dota tāda veselu skaitļu virkne $x_1, x_2, x_3, \ldots$, 
+ka $x_1 = 1$, $x_2 = 2$ un
+katram naturālam $n > 2$ ir spēkā viena no divām vienādībām:
+$x_n = x_{n-1} - x_{n-2}$ vai $x_n = -(x_{n-1} - x_{n-2})$.  
+a) Atrodiet $x_{2012}$ un summu $x_1 + x_2 + \ldots + x_{2012}$, 
+ja zināms, ka visi virknes locekļi ir nenegatīvi.  
+b) Pierādīt, ka nav tādas virknes, kas apmierina 
+uzdevuma nosacījumu un $x_{2012} = 1$.  
+c) Pierādīt, ka eksistē tādas uzdevuma nosacījumu apmierinošas 
+virknes, ka $x_{2012} = 2$ un 
+$x_{2012} = 4$.  
+d) Pierādīt, ka eksistē tāda uzdevuma nosacījumu apmierinoša
+virkne, ka $x_{2012} = 2012$.
+
+<!--
+Duota tokia sveikųjų skaičių seka $x_1, x_2, x_3, \ldots$, 
+kad $x_1 = 1$, $x_2 = 2$ ir
+kiekvienam natūraliajam $n > 2$ galioja viena iš dviejų lygybių:
+$x_n = x_{n-1} - x_{n-2}$ arba $x_n = -(x_{n-1} - x_{n-2})$.  
+a) Raskite $x_{2012}$ ir sumą $x_1 + x_2 + \ldots + x_{2012}$, 
+jei žinoma, kad visi sekos nariai
+neneigiami.  
+b) Įrodykite, kad nėra tokios uždavinio 
+sąlygą tenkinačios sekos, kad $x_{2012} = 1$.  
+c) Įrodykite, kad egizstuoja tokios uždavinio 
+sąlygą tenkinačios sekos, kad $x_{2012} = 2$ ir 
+kad $x_{2012} = 4$.  
+d) Įrodykite, kad egzistuoja tokia uždavinio sąlygą 
+tenkinati seka, kad $x_{2012} = 2012$.
+-->
+
+
+# <lo-sample/> LT.RAJ.2012.11_12.5
+
+Dots vienādojums
+$$(x^2 − y)(y^2 − x) + x^3 + y^3 = a,$$
+kur $a$ ir attiecīgs vesels skaitlis.  
+a) Atrodiet visus naturālus vienādojuma atrisinājumus $(x, y)$, 
+kad $a = 2$ un kad $a = 0$.  
+b) Atrodiet vismaz pa vienai naturālai $a$ vērtībai, ar kuru 
+vienādojumam ir tieši $2$ un tieši $3$ naturāli atrisinājumi 
+$(x,y)$.  
+c) Vai ar kādu naturālu $a$ vērtību dotajam vienādojumam ir tieši 
+$2012$ naturālu atrisinājumu $(x,y)$? Atbildi pamatojiet.  
+d) Pierādiet, ka, ja ar atbilstošu naturālu skaitli $a>20$
+vienādojumam ir vismaz viens naturāls atrisinājums $(x,y)$, 
+tad skaitlim $a$ ir vismaz $8$ dažādi naturāli dalītāji 
+(ieskaitot vieninieku un viņu pašu).
+
+<!--
+Duota lygtis
+$$(x^2 − y)(y^2 − x) + x^3 + y^3 = a,$$
+kur $a$ yra tam tikras sveikasis skaičius.  
+a) Raskite visus natūraliuosius lygties sprendinius $(x, y)$, 
+kai $a = 2$ ir kai $a = 0$.  
+b) Raskite po bent vieną natūraliąją $a$ reikšmę, 
+su kuria lygtis turi lygiai $2$ ir lygiai
+$3$ natūraliuosius sprendinius $(x, y)$.  
+c) Ar turi su kokia nors natūraliąja $a$ reikšme 
+duotoji lygtis lygiai $2012$ natūraliųjų
+sprendinių $(x, y)$? Atsakymą pagrįskite.  
+d) Įrodykite, kad jei su tam tikru natūraliuoju 
+skaičiumi $a > 20$ lygtis turi bent
+vieną natūralųjį sprendinį $(x, y)$, 
+tai skaičius $a$ turi mažiausiai $8$ skirtingus 
+natūraliuosius daliklius (įskaitant vienetą ir jį patį).
+-->
+
+# <lo-sample/> LT.RAJ.2013.9_10.1
+
+Četriem pēc kārtas sekojošiem naturāliem skaitļiem 
+apgriezto skaitļu summa vienāda ar $19/20$. 
+Atrodiet šos naturālos skaitļus.
+
+<!--
+Keturiems iš eilės einantiems natūraliesiems 
+skaičiams atvirkštinių skaičių suma lygi $19/20$. 
+Raskite šiuos natūraliuosius skaičius.
+-->
+
+# <lo-sample/> LT.RAJ.2013.9_10.5
+
+Atrodiet naturālu skaitļu $p$, $p+8$ un
+$2p^2+43$ reizinājumu, ja zināms, ka 
+visi trīs skaitļi ir pirmskaitļi.
+
+<!--
+Raskite natūraliųjų skaičių $p$, $p+8$ ir 
+$2p^2+43$ sandaugą, jei žinoma,
+kad visi trys skaičiai yra pirminiai.
+-->
+
+# <lo-sample/> LT.RAJ.2013.9_10.4A
+
+Veseli skaitļi $x$, $y$ un $z$ apmierina vienādojumu
+$$x^2 + xy + y^2 = 2013z^2.$$
+a) Atrodiet kaut vienu šī vienādojuma atrisinājumu $(x,y,z)$.  
+b) Atrodiet visus šī vienādojuma atrisinājumus $(x,y,z)$.
+
+<!--
+Sveikieji skaičiai $x$, $y$ ir $z$ tenkina lygtį
+$$x^2 + xy + y^2 = 2013z^2.$$
+a) Raskite bent vieną šios lygties sprendinį $(x,y,z)$.  
+b) Raskite visus šios lygties sprendinius $(x,y,z)$.
+-->
+
+# <lo-sample/> LT.RAJ.2013.11_12.3
+
+Rakstniekam Grebļūnam ir alerģija pret skaitļiem $2$ un $5$. 
+Tādēļ visās viņa grāmatās lappuses sanumurētas, izlaižot
+ikvienu šo abu skaitļu daudzkārtni. 
+Rakstniekam Kočelam ir alerģija pret skaitļiem $3$ un $7$. 
+Tādēļ viņa grāmatās tāpat izlaisti lappušu numuri, kuri 
+ir attiecīgo skaitļu daudzkārtņi. 
+Bibliotekāre atšķīrusi pēdējās lappuses kaut kādās
+četrās šo autoru grāmatās, ievērojusi, ka
+pēdējo lappušu numuri ir $501$, $80$, $400$, $1049$ 
+(pēdējo grāmatu rakstījuši abi šie autori kopīgi).
+Cik lappušu šajās grāmatās ir patiesībā?
+
+
+<!--
+Rašytojas Grėbliūnas yra alergiškas skaičiams $2$ ir $5$. 
+Todėl visose jo knygose puslapiai sunumeruoti 
+praleidžiant kiekvieno iš šių skaičių kartotinius. 
+Rašytojas Kočėlas alergiškas skaičiams 3 ir 7. 
+Todėl jo knygose taip pat praleidžiami visi
+atitinkami puslapiai. Bibliotekininkė atsivertusi 
+paskutiniuosius keturių šių rašytojų
+knygų puslapius pamanė, kad puslapių jose 
+yra po 501, 80, 400 ir 1049 (paskutinė
+knyga rašyta abiejų autorių bendrai). 
+Po kiek puslapių šiose knygose yra iš tikrųjų?
+-->
+
+
+# <lo-sample/> LT.RAJ.2013.11_12.4
+
+a) Vai vienādojumam
+$$\frac{3x^2 + 16xy + 15y^2}{x^2 + y^2} = 21$$
+ir atrisinājums? Atbildi pamatojiet.  
+b) Atrodiet lielāko izteiksmes 
+$$\frac{3x^2 + 16xy + 15y^2}{x^2 + y^2}$$
+vērtība.  
+c) Taisnleņķa trijstūra katešu garumi 
+$u$ un $v$ un izteiksmes 
+$$\frac{ux^2 + vxy}{x^2 + y^2}$$
+lielākā vērtība $M$ ir naturāli skaitļi. Pierādiet, 
+ka trijstūra hipotenūzas garums arī ir naturāls skaitlis. 
+(Te $x$ un $y$ ir jebkuri reāli skaitļi, 
+ar kuriem definētas izteiksmes.)
+
+<!--
+a) Ar lygtis
+$$\frac{3x^2 + 16xy + 15y^2}{x^2 + y^2} = 21$$
+turi sprendinių? Atsakymą pagrįskite.  
+b) Raskite didžiausią reiškinio
+$$\frac{3x^2 + 16xy + 15y^2}{x^2 + y^2}$$
+reikšmę.  
+c) Stačiojo trikampio statinių ilgiai 
+$u$ ir $v$ bei reiškinio 
+$$\frac{ux^2 + vxy}{x^2 + y^2}$$
+didžiausia reikšmė $M$ 
+yra natūralieji skaičiai. Įrodykite, kad trikampio 
+įžambinės ilgis taip pat yra natūralusis skaičius.
+(Čia $x$ ir $y$ visur yra bet kokie realieji skaičiai, 
+kuriems reiškiniai apibrėžti.)
+-->
+
+
+# <lo-sample/> LT.RAJ.2014.9_10.4
+
+Naturāls skaitlis $n$ ir tāds, ka
+$n^2 + 26$ dalās ar $n+2$. Atrodiet  
+a) vismaz divus tādus naturālus skaitļus $n$;  
+b) visus tādus naturālus skaitļus $n$.
+
+<!--
+Natūralusis skaičius $n$ yra toks, kad 
+$n^2 + 26$ dalijasi iš $n+2$. Raskite  
+a) bent du tokius natūraliuosius skaičius $n$;  
+b) visus tokius natūraliuosius skaičius $n$.
+-->
+
+# <lo-sample/> LT.RAJ.2015.9_10.1
+
+Burti $a$, $b$, $c$ un $d$ apzīmē atšķirīgus
+ciparus. Sareizinot divciparu naturālus skaitļus
+$\overline{ab}$ un $\overline{cb}$, 
+iegūts trīsciparu skaitlis $\overline{ddd}$. Atrodiet visas
+izteiksmes $(a + c)(a^2 + c^2)(a^a + c^c)$ vērtības.
+
+<!--
+Raidės $a$, $b$, $c$ ir $d$ žymi skirtingus 
+skaitmenis. Sudauginus dviženklius
+natūraliuosius skaičius $\overline{ab}$ ir $\overline{cb}$, 
+gaunamas triženklis skaičius $\overline{ddd}$. Raskite visas galimas
+reiškinio $(a + c)(a^2 + c^2)(a^a + c^c)$ reikšmes.
+-->
+
+# <lo-sample/> LT.RAJ.2015.9_10.2
+
+Piecu pēc kārtas sekojošu naturālu skaitļu 
+virknē pirmo trīs skaitļu kvadrātu summa vienāda
+ar pēdējo divu skaitļu kvadrātu summu. 
+a) ARaskite bent vieną
+tokį rinkinį. b) Ar yra daugiau tokių rinkinių?
+
+<!--
+Penkių iš eilės einančių natūraliųjų skaičių 
+sekoje pirmųjų trijų skaičių
+kvadratų suma lygi paskutiniųjų dviejų skaičių 
+kvadratų sumai. a) Raskite bent vieną
+tokį rinkinį. b) Ar yra daugiau tokių rinkinių?
+-->
+
+# <lo-sample/> LT.RAJ.2015.9_10.5
+
+Atrodiet visus reālos skaitļus $x \neq 0$, 
+kuriem abi skaitļi $x+\sqrt{35}$
+un $\frac{1}{x}-\sqrt{35}$ ir veseli.  
+*Piezīme.* Galima naudotis faktu, kad jei natūralusis 
+skaičius $a$ nėra tikslusis kvadratas, tai $\sqrt{a}$ 
+yra iracionalusis skaičius.
+
+<!--
+Raskite visus realiuosius skaičius $x \neq 0$, 
+su kuriais abu skaičiai $x+\sqrt{35}$
+ir $\frac{1}{x}-\sqrt{35}$ yra sveikieji.  
+*Pastaba.* Galima naudotis faktu, kad jei natūralusis 
+skaičius $a$ nėra tikslusis kvadratas, tai $\sqrt{a}$ 
+yra iracionalusis skaičius.
+-->
+
+
+# <lo-sample/> LT.RAJ.2015.11_12.1
+
+Aiste uzrakstīja skaitļu virkni:
+$$1 \cdot (2-3)^4, 4 \cdot (5-6)^7, 7 \cdot (8-9)^{10},\ldots, 
+2014 \cdot (2015-2016)^{2017}.$$
+a) Cik locekļu veido Aistes virkni?  
+b) Kam vienādi visu virknes locekļu summa?  
+c) Kāds ir pēdējais cipars visu virknes locekļu kvadrātu summai?
+
+<!--
+Aistė užrašė skaičių seką:
+$$1 \cdot (2-3)^4, 4 \cdot (5-6)^7, 7 \cdot (8-9)^{10},\ldots, 
+2014 \cdot (2015-2016)^{2017}.$$
+a) Kiek narių sudaro Aistės seką?  
+b) Kam lygi visų sekos narių suma?  
+c) Koks yra paskutinis visų sekos narių kvadratų sumos skaitmuo?
+-->
+
+
+# <lo-sample/> LT.RAJ.2015.11_12.4
+
+Astoņus ciparus $1$, $2$, $3$, $4$, $5$, $6$, 
+$7$, $8$ sarakstot noteiktā secībā, 
+iegūts astoņciparu skaitlis $n = \overline{ABCDEFGH}$. 
+Par sešiem trīsciparu skaitļiem $\overline{ABC}$,
+$\overline{BCD}$, $\ldots$, $\overline{FGH}$ 
+ir zināms, ka pirmais no tiem dalās ar $7$, 
+otrais – ar $6$, trešais – iš $5$, $\ldots$, 
+sestais – iš $2$. Bez tam, skailis $\overline{DEF}$, 
+kurš dalās ar $4$, nedalās ar $8$. Atrodiet
+tādu skaitli $n$ un pierādiet, ka tas ir viens vienīgs.
+
+<!--
+Aštuonis skaitmenis $1$, $2$, $3$, $4$, $5$, $6$, 
+$7$, $8$ surašius tam tikra tvarka,
+gautas aštuonženklis skaičius $n = \overline{ABCDEFGH}$. 
+Apie šešis triženklius skaičius $\overline{ABC}$,
+$\overline{BCD}$, $\ldots$, $\overline{FGH}$ 
+yra žinoma, kad pirmasis iš jų dalijasi iš $7$, 
+antrasis – iš $6$, trečiasis – iš $5$, $\ldots$, 
+šeštasis – iš $2$. Be to, skaičius $\overline{DEF}$, 
+kuris dalijasi iš $4$, nesidalija iš $8$. Raskite
+tokį skaičių $n$ ir įrodykite, kad jis vienintelis.
+-->
+
+# <lo-sample/> LT.RAJ.2015.11_12.5
+
+Zināms, ka reāls skaitlis $x$ nav vienāds ar $0$, un 
+ka tieši trīs no četriem skaitļiem
+$$x, x + x^{-1}, x^2 + x^{-2}, x2 − 4x$$
+ir veseli. Atrodiet visas iespējamās skaitļa $x$ vērtības.
+*Piezīme.* Var izmantot faktu, ka, ja naturāls skaitlis $a$ 
+nav pilns kvadr'ats, tad 
+$\sqrt{a}$ ir iracionāls skaitlis.
+
+<!--
+Žinoma, kad realusis skaičius $x$ nelygus $0$ 
+ir kad lygiai trys iš keturių skaičių
+$$x, x + x^{-1}, x^2 + x^{-2}, x2 − 4x$$
+yra sveikieji. Raskite visas galimas skaičiaus $x$ reikšmes.
+*Pastaba.* Galima naudotis faktu, kad jei natūralusis 
+skaičius $a$ nėra tikslusis kvadratas, tai 
+$\sqrt{a}$ yra iracionalusis skaičius.
+-->
+
+
+# <lo-sample/> LT.RAJ.2016.9_10.3
+
+Atrodiet mazāko naturālu sešciparu skaitli, 
+kuram visi cipari ir atšķirīgi un kurš 
+dalās ar $2$, $3$, $4$, $5$ un $6$.
+
+<!--
+Raskite mažiausią natūralųjį šešiaženklį skaičių, 
+kurio visi skaitmenys
+yra skirtingi ir kuris dalijasi iš $2$, $3$, $4$, $5$ ir $6$.
+-->
+
+# <lo-sample/> LT.RAJ.2016.9_10.4
+
+Ir doti trīs dažādi naturāli skaitļi. 
+Jebkuru divu šo skaitļu summa dalās ar atlikušo skaitli.  
+a) Atrast kaut vienu šādu skaitļu trijnieku, kurā
+lielākais skaitlis būtu $9009$.  
+b) Pierādiet, ka jebkura šāda trijnieka skaitļu summa dalās 
+ar $6$. 
+
+<!--
+Duoti trys skirtingi natūralieji skaičiai. 
+Bet kurių dviejų skaičių suma
+dalijasi iš likusio skaičiaus. 
+a) Raskite bent vieną tokį skaičių trejetą, 
+kuriame didžiausias skaičius būtų $9009$. 
+b) Įrodykite, kad bet kurio tokio trejeto skaičių suma dalijasi
+iš $6$.
+-->
+
+
+# <lo-sample/> LT.RAJ.2016.11_12.1
+
+Kad ganam jautāja, cik viņš audzē aitu, āžu un 
+ēzeļu, viņš atbildēja: 
+„Ja puse no manām aitām pārvērstos par ēzeļiem, 
+tad āžu man būtu divreiz vairāk nekā ēzeļu. 
+Ja pusi no maniem ēzeļiem pārvērstos par āžiem, tad 
+āžu man būtu par pieciem vairāk nekā aitu. 
+Ja pusi no maniem āžiem kļūtu par aitām, tad 
+aitu man būtū septiņreiz vairāk nekā ēzeļu." 
+Cik pavisam dzīvnieku audzē gans?
+
+<!--
+Kai piemens paklausė, kiek jis augina avių, 
+ožkų ir asilų, jis atsakė:
+„Jei pusė mano avių virstų asilais, ožkų 
+turėčiau dvigubai daugiau nei asilų. Jei pusė
+mano asilų virstų ožkomis, ožkų turėčiau 
+penkiomis daugiau nei avių. Jei pusė mano
+ožkų virstų avimis, tai avių turėčiau septynis 
+kartus daugiau nei asilų.” Kiek iš viso
+gyvūnų augina piemuo?
+-->
+
+
+
+# <lo-sample/> LT.RAJ.2016.11_12.4
+
+Onute uz četrām kartiņām uzraksta pa ciparam. 
+Izmantojot visas $4$ kartiņas, viņa izveidoja 
+divus divciparus naturālus skaitļus. 
+Jonuks novēroja, ka divas kartiņas ir vienādas, vienu 
+no tām novāca un no atlikušajiem trim cipariem izveidoja
+trīsciparu skaitli $n = \overline{ABC}$, kas vienāds ar Onutes
+divciparu skaitļu summu. Atrodiet visas 
+iespējamās skaitļa $n$ vērtības. 
+
+<!--
+Onutė keturiose kortelėse užrašė po skaitmenį. 
+Panaudojusi visas $4$ korteles, ji sudarė du 
+dviženklius natūraliuosius skaičius. Jonukas pastebėjo, kad
+dvi kortelės vienodos, pašalino vieną iš jų ir iš 
+likusių trijų skirtingų skaitmenų sudarė
+triženklį skaičių $n = ABC$, lygų Onutės dviženklių 
+skaičių sumai. Raskite visas galimas
+skaičiaus $n$ reikšmes.
+-->
+
+# <lo-sample/> LT.RAJ.2016.11_12.4
+
+Dota funkcija $f(x) = \frac{x^3}{1+x^3}$. 
+Ikvienam naturālu skaitļu pārim 
+$(a,b)$, kad $1 \leq a, b \leq 2016$, 
+ir aprēķināta funkcijas vērtība
+$f\left( \frac{a}{b} \right)$ un tad ir atrodama visu 
+šīs funkcijas vērtību summa $s$. 
+Pierādīt, ka $2s$ ir vesela skaitļa kvadrāts.
+
+<!--
+Duota funkcija $f(x) = \frac{x^3}{1+x^3}$. 
+Kiekvienai natūraliųjų skaičių porai
+$(a,b)$, kai $1 \leq a, b \leq 2016$, 
+apskaičiuojama funkcijos reikšmė 
+$f\left( \frac{a}{b} \right)$ ir tada randama visų
+šių funkcijos reikšmių suma $s$. 
+Įrodykite, kad $2s$ yra sveikojo skaičiaus kvadratas.
+-->
+
+
+# <lo-sample/> LT.RAJ.2017.9_10.1
+
+Cik ir piecciparu skaitļu $\overline{ab51c}$, kuri dalās ar $72$?
+
+<!--
+Kiek yra penkiaženklių skaičių $\overline{ab51c}$, kurie dalijasi iš $72$?
+-->
+
+# <lo-sample/> LT.RAJ.2017.9_10.4
+
+Ikvienā $3 \times 4$ tabulas rūtiņā
+Sofija ierakstīja pa vienam naturālam skaitlim. 
+Visi tabulā ierakstītie skaitļi ir atšķirīgi. 
+Izrādījās, ka visās tabulas rindiņās skaitļu summas
+ir savā starpā vienādas un arī visās tabulas
+kolonnās skaitļu summas ir savā starpā vienādas. 
+Visu tabulā ierakstīto skaitļu summu apzīmēsim ar $s$. 
+Atrodiet visas iespējamās summas $s$, kas mazākas par $130$. 
+
+
+<!--
+Kiekviename $3 \times 4$ lentelės langelyje 
+Sofija įrašė po vieną natūralųjį
+skaičių. Visi lentelėje įrašyti skaičiai yra skirtingi. 
+Paaiškėjo, kad visų eilučių skaičių
+sumos yra tarpusavyje lygios ir visų stulpelių 
+skaičių sumos yra tarpusavyje lygios.
+Visų lentelėje parašytų skaičių sumą pažymėkime $s$. 
+Raskite visas įmanomas sumos $s$
+reikšmes, mažesnes už $130$.
+-->
+
+
+
+# <lo-sample/> LT.RAJ.2017.11_12.1
+
+Tādu naturālu $n$-ciparu skaitļu, kuru 
+decimālpierakstā nav cipara $2$, bet
+ir vismaz viens cipars $1$, 
+skaitu apzīmējam ar $a_n$.  
+a) Atrodiet skaitļa $a_6$ decimālpierakstu.  
+b) Pierādiet, ka  
+$\sqrt{2a_7 - 16a_6}$ 
+ir vesels skaitlis. 
+
+<!--
+Natūraliųjų $n$-ženklių skaičių, kurių 
+dešimtainėje išraiškoje nėra skaitmens $2$, 
+bet yra bent vienas skaitmuo $1$, 
+kiekį pažymėkime $a_n$. 
+a) Raskite skaičiaus $a_6$
+dešimtainę išraišką. 
+b) Įrodykite, kad 
+$\sqrt{2a_7 - 16a_6}$ 
+yra sveikasis skaičius.
+-->
+
+# <lo-sample/> LT.RAJ.2017.11_12.4
+
+Kādā ārvalstu pilsētā publiskā transporta biļete
+ir derīga $7$ dienas vai $30$ dienas. 
+Biļetes attiecīgi maksā $7$ EUR $3$ centus, vai 
+$30$ EUR. Students ir nodomājis būt pilsētā $3$
+gadus, t.i. $1096$ dienas, bet sabiedrisko 
+transportu izmantot ikdienas. 
+Kāds ir mazākais naudas daudzums, ko viņš
+var iztērēt biļetēm? 
+
+<!--
+Viename užsienio mieste viešojo transporto 
+bilietas galioja $7$ dienas
+arba $30$ dienų. Bilietas atitinkamai kainuoja 
+$7$ Eur $3$ ct arba $30$ Eur. Studentas ketina
+mieste išbūti $3$ metus, t. y. 
+$1096$ dienas, o viešuoju transportu naudotis kasdien. Kiek
+mažiausiai pinigų jis gali išleisti bilietams?
+-->
+
+# <lo-sample/> LT.RAJ.2017.11_12.5
+
+
+Naturāli skaitļi $a$, $m$, $n$ apmierina
+vienādojumu 
+$$(a^2 + 2)^m = (2a - 1)^n.$$
+Atrodiet visas iespējamās skaitļaa $a$ vērtības.
+
+<!--
+Natūralieji skaičiai $a$, $m$, $n$ tenkina lygtį
+$$(a^2 + 2)^m = (2a - 1)^n.$$
+Raskite visas galimas skaičiaus $a$ reikšmes.
+--> 
+
+
+
+
+
+
+
+
+
+
+
+
+# <lo-sample/> LT.VUMIF.2016.9.3
+
+Atrodiet visas naturālas $n$ vērtības, kurām skaitli s
+$\frac{n^3 + 3}{n^2 + 7}$
+ir naturāls.
+
+<!--
+Raskite visas natūraliąsias $n$ reikšmes, su kuriomis skaičius
+$\frac{n^3 + 3}{n^2 + 7}$
+yra natūralusis.
+-->
+
+# <lo-sample/> LT.VUMIF.2016.10.3
+
+Atrodiet mazāko naturālo skaitli $n$, kuram skaitļi 
+$\sqrt[5]{5n}$, $\sqrt[6]{6n}$, $\sqrt[7]{7n}$
+ir naturāli. 
+
+<!--
+Raskite mažiausią natūralųjį skaičių $n$, kuriam skaičiai
+$\sqrt[5]{5n}$, $\sqrt[6]{6n}$, $\sqrt[7]{7n}$
+yra natūralieji.
+-->
+
+# <lo-sample/> LT.VUMIF.2016.11_12.1
+
+Agne savā traukā ielēja $p$ litrus ūdens, 
+bet Bens savā traukā ielēja $q$ litrus ūdens. 
+Pārmaiņus veikdami gājienus, viņi spēlē sekojošu spēli. 
+Gājiena laikā spēlētājs no sava trauka otra spēlētāja
+traukā ielej tik daudz ūdens, 
+cik ūdens jau ir otrā spēlētāja traukā.
+Spēli sāk Agne. Pēc simts gājieniem Agnes traukā
+bija $q$ litri ūdens, bet Bena traukā - $p$ litri ūdens. 
+Atrodiet $\frac{p}{q}$.
+
+<!--
+Agnė į savo turimą indą įpylė $p$ litrų vandens, 
+o Benas į savąjį indą įpylė $q$ litrų vandens.
+Pakaitomis atlikdami ėjimus, jie žaidžia tokį žaidimą. 
+Ėjimo metu žaidėjas iš savo indo į
+kito žaidėjo indą turi įpilti tiek vandens, 
+kiek jo tuo metu yra kito žaidėjo inde. Žaidimą
+pradėjo Agnė. Po šimto ėjimų Agnės inde buvo $q$ 
+litrų vandens, o Beno – $p$ litrų vandens.
+Raskite $\frac{p}{q}$.
+-->
+
+
+# <lo-sample/> LT.VUMIF.2016.11_12.3
+
+Noskaidrojiet, vai eksistē tāds naturāls skaitlis $n$, ka 
+skaitlis $n \cdot 2^{2016} - 7$ ir
+naturāla skaitļa kvadrāts.
+
+<!--
+Nustatykite, ar egzistuoja toks natūralusis skaičius $n$, 
+kad skaičius $n \cdot 2^{2016} - 7$ yra
+natūraliojo skaičiaus kvadratas.
+-->
+
+# <lo-sample/> LT.VUMIF.2017.9.2
+
+Vai izmantojot tieši pa vienai reizei visus desmit ciparus 
+$0,1,2,\ldots,9$ var uzrakstīt divus naturālus skaitļus, ka 
+viens skaitlis būtu otra kvadrāts?  
+*Piezīme.* Pirmais skaitļa cipars nevar būt nulle.
+
+<!--
+Ar panaudojus po lygiai vieną kartą visus dešimt skaitmenų
+$0,1,2,\ldots,9$ galima užrašyti du natūraliuosius skaičius, 
+kad vienas skaičius būtų kito kvadratas?  
+*Pastaba.* Pirmasis skaičiaus skaitmuo negali būti nulis. 
+-->
+
+# <lo-sample/> LT.VUMIF.2017.10.1
+
+Atrodiet visus veselu skaitļu pārus $(a,b)$, 
+kuriem eksistē tādi veseli skaitļi $x$ un
+$y$, ka
+$$8x^4 + 8y^4 = a^4 + 6a^2b^2 + b^4.$$
+
+
+<!--
+Raskite visas sveikųjų skaičių poras $(a,b)$, 
+kurioms egzistuoja tokie sveikieji skaičiai $x$ ir
+$y$, kad
+$$8x^4 + 8y^4 = a^4 + 6a^2b^2 + b^4.$$
+-->
+
+# <lo-sample/> LT.VUMIF.2017.10.2
+
+Atrodiet visus veselo skaitļu $m$ un $n$ pārus
+$(m,n)$, kas apmierina vienādību 
+$$m^2 + 2m - 9 = n^2 + n.$$
+
+<!--
+Raskite visas sveikųjų skaičių $m$ ir $n$ poras 
+$(m, n)$, tenkinančias lygybę
+$$m^2 + 2m - 9 = n^2 + n.$$
+-->
+
+# <lo-sample/> LT.VUMIF.2017.11_12.2
+
+Atrodiet vienādojuma
+$$x^2y^2 + 208 + 4(\mbox{LKD}(x,y) + \mbox{MKD}(x,y))^2$$
+visus naturālos atrisinājumus $(x,y)$. 
+Šeit $\mbox{LKD}(x,y)$ un $\mbox{MKD}(x,y)$ attiecīgi apzīmē skaitļu 
+$x$ un $y$ lielāko kopīgo dalītāju un mazāko kopīgo dalāmo. 
+
+<!--
+Raskite lygties
+$$x^2y^2 + 208 + 4(\mbox{DBD}(x,y) + \mbox{MBK}(x,y))^2$$
+visus natūraliuosius sprendinius $(x,y)$. 
+Čia $\mbox{DBD}(x,y)$ ir $\mbox{MBK}(x,y)$ atitinkamai žymi
+skaičių $x$ ir $y$ didžiausią bendrą daliklį ir 
+mažiausią bendrą kartotinį.
+-->
+
+# <lo-sample/> LT.VUMIF.2017.11_12.4
+
+Uz tāfeles uzrakstīts skaitlis $636363$. 
+Divi spēlētāji $A$ un $B$ pārmaiņus veic gājienus, 
+pirmo gājienu izdara $A$. 
+Gājiena laikā ir jānodzēš uz tāfeles esošais skaitlis un 
+jāuzraksta tā starpība ar jebkuru viņa naturālu dalītāju. 
+Spēlētājs, kurš uzraksta $0$, zaudē. Noskaidrojiet, kuram 
+spēlētājam ir uzvaras stratēģija, un parādiet to.
+
+<!--
+Lentoje užrašytas skaičius $636363$. 
+Du žaidėjai $A$ ir $B$ pakaitomis atlieka ėjimus, pirmąjį
+ėjimą atlieka $A$. Ėjimo metu reikia nutrinti 
+lentoje esantį skaičių ir užrašyti jo ir bet kurio
+jo natūraliojo daliklio skirtumą. Žaidėjas, užrašęs 
+skaičių $0$, pralaimi. Nustatykite, kuris
+žaidėjas turi pergalės strategiją, ir nurodykite ją.
+-->
+
+# <lo-sample/> LT.VUMIF.2018.9.4
+
+Naturālam skaitlim $M = 3N$ 
+ir tikpat ciparu, cik naturālam skaitlim $N > 10$. 
+Lai iegūtu skaitli $M$, vajag palielināt
+ikvienu skaitļa $N$ ciparu: vienam no cipariem 
+pieskaitīt $2$, bet pie atlikušajiem cipariem 
+pieskaitīt pa nepāru naturālam skaitlim (ne obligāti 
+visiem to pašu). 
+Atrodiet visas iespējamās skaitļa $N$ pēdējā 
+cipara vērtības.
+
+<!--
+Natūralusis skaičius $M = 3N$ 
+turi tiek pat skaitmenų, kaip ir
+natūralusis skaičius $N > 10$. 
+Norint gauti skaičių $M$, reikia padidinti 
+kiekvieną iš skaičiaus $N$ skaitmenų: prie vieno skaitmens
+pridėti $2$, o prie likusių skaitmenų 
+pridėti po nelyginį natūralųjį
+skaičių (nebūtinai po tą patį). 
+Raskite visas galimas skaičiaus $N$
+paskutinio skaitmens reikšmes.
+-->
+
+# <lo-sample/> LT.VUMIF.2018.10.4
+
+Skaitļa $n>1$ visu pozitīvo dalītāju 
+(ieskaitot $1$ un $n$) reizinājums vienāds ar $n^3$.
+Norādiet visas iespējamās skaitļa $n$ vērtības, 
+uzrakstot, kāds var būt skaitļa $n$ sadalījums pirmreizinātājos. 
+
+<!--
+Skaičiaus $n>1$ visų teigiamų daliklių 
+(įskaitant $1$ ir $n$) sandauga lygi $n^3$.
+Nurodykite visas galimas skaičiaus $n$ reikšmes, 
+užrašydami, koks gali būti skaičiaus $n$ 
+skaidinys pirminiais daugikliais.
+-->
+
+
+# <lo-sample/> LT.VUMIF.2018.11_12.4
+
+Naturālie skaitļi $p$, $x$, $y$ apmierina vienādojumus:
+Natūralieji skaičiai $p$, $x$, $y$ tenkina lygtis:
+$p + 1 = 2x^2,\;\;p^2 + 1 = 2y^2.$$
+Noskaidrojiet visas iespējamās skaitļa $p$ vērtības, ja 
+zināms, ka šis skaitlis ir pirmskaitlis. 
+
+<!--
+Natūralieji skaičiai $p$, $x$, $y$ tenkina lygtis:
+$p + 1 = 2x^2,\;\;p^2 + 1 = 2y^2.$$
+Nustatykite visas galimas skaičiaus $p$ reikšmes, 
+jei žinoma, kad šis skaičius pirminis.
+-->
+
+# <lo-sample/> LT.VUMIF.2019.9.1
+
+Atrodiet visus veselu skaitļu trijniekus $(x,y,z)$, 
+kas apmierina vienādojumu sistēmu
+$$
+\left\{ \begin{array}{l}
+x^3 + y^3 = z^3 + 1,\\
+y^2 - x^2 = x+y,\\
+2x^3 - 6x = z^3 - 4x^2.
+\end{array} \right.$$
+
+<!--
+Raskite visus sveikųjų skaičių trejetus $(x,y,z)$, 
+tenkinančius lygčių sistemą
+$$
+\left\{ \begin{array}{l}
+x^3 + y^3 = z^3 + 1,\\
+y^2 - x^2 = x+y,\\
+2x^3 - 6x = z^3 - 4x^2.
+\end{array} \right.$$
+-->
+
+# <lo-sample/> LT.VUMIF.2019.9.1
+
+Algis un Balis spēlē sekojošu spēli, 
+pārmaiņus izdarīdami gājienus. Sākumā 
+ir divas monētu kaudzītes: vienā kaudzītē
+ir $m$ monētas, bet otrā $n$ monētas.
+Gājiena laikā jāveic jebkura viena no trim 
+sekojošām darbībām:
+1) izmest vienu monētu no jebkuras kaudzītes;
+2) izmest pa vienai monētai no abām kaudzītēm; 
+3) pārcelt vienu monētu no jebkuras kaudzītes uz otru kaudzīti. 
+Sāk Algis. Spēlētājs, kurš nevar veikt gājienu, zaudē. 
+Noskaidrojiet visus naturālu skaitļu pārus $(m,n)$, 
+kuriem Balim ir uzvaras stratēģija, t.i. kurām viņš var
+nodrošināt uzvaru, lai kā spēlētu Algis. 
+
+<!--
+Algis ir Balys žaidžia tokį žaidimą, 
+pakaitomis atlikdami ėjimus. Pradžioje
+yra dvi monetų krūvelės: vienoje krūvelėje 
+yra $m$ monetų, o kitoje yra $n$
+monetų. Ėjimo metu reikia atlikti bet 
+kurį vieną iš šių trijų veiksmų: 
+1) išmesti vieną monetą iš bet kurios krūvelės; 
+2) išmesti po vieną monetą iš abiejų krūvelių; 
+3) perkelti vieną monetą iš bet kurios krūvelės į kitą. 
+Pradeda Algis. Žaidėjas, negalintis atlikti ėjimo, 
+pralaimi. Nustatykite visas natūraliųjų skaičių $(m,n)$ 
+poras, kurioms Balys turi pergalės strategiją, t. y.
+kurioms jis gali užsitikrinti pergalę, 
+kad ir kaip žaistų Algis.
+-->
+
+# <lo-sample/> LT.VUMIF.2019.9.4
+
+Jurgis uzrakstīja trīs naturālus skaitļus, 
+no kuriem katrs beidzas ar to pašu ciparu, ar kuru 
+beidzas pārējo divu skaitļu summa, un sareizināja tos. 
+Jurgis uzrakstīja tikai reizinājuma pēdējos trīs 
+ciparus. Kādu ciparu trijnieku viņš varēja iegūt? 
+Atrodiet visas iespējas. 
+
+<!--
+Jurgis užrašė tris natūraliuosius skaičius, 
+iš kurių kiekvienas baigiasi tuo
+pačiu skaitmeniu kaip kitų dviejų skaičių 
+suma, ir sudaugino juos. Jurgis
+užrašė tik sandaugos paskutinius tris 
+skaitmenis. Kokį skaitmenų trejetą jis
+galėjo gauti? Raskite visas galimybes.
+-->
+
+
+# <lo-sample/> LT.VUMIF.2019.10.4
+
+Naturālu skaitli sauksim par *septiņīgu*, 
+ja tam ir tieši $70$ ciparu: $10$ vieninieku, 
+$10$ divnieku, $\ldots$, $10$ septiņnkieku. 
+Pierādīt, ka, ja viens septiņīgs skaitlis dalās
+ar citu septiņīgu skaitli, tad tie ir vienādi. 
+
+<!--
+Natūralųjį skaičių vadinsime *septintiniu*, 
+jei jis turi lygiai $70$ skaitmenų: $10$
+vienetų, $10$ dvejetų, $\ldots$, $10$ septynetų. 
+Įrodykite, kad jei vienas septintinis
+skaičius dalijasi iš kito, tai jie lygūs.
+-->
+
+# <lo-sample/> LT.VUMIF.2019.11_12.4
+
+Naturālu skaitli sauksim par *piecīgu*, ja
+tam ir tieši $500$ ciparu: pa $100$ divnieku, 
+trijnieku, četrinieku, piecinieku un sešinieku. 
+Pie piecīga skaitļa $M$ labajā pusē pierakstot 
+divus ciparus $81$, iegūts skaitlis 
+$N = \overline{M81}$. Pierādiet, ka  
+a) $M$ nedalās ne ar vienu piecīgu skaitli, izņemot sevi pašu;  
+b) $N$ nedalās ne ar vienu piecīgu skaitli. 
+
+<!--
+Natūralųjį skaičių vadinsime *penktiniu*, 
+jei jis turi lygiai $500$ skaitmenų: po
+$100$ dvejetų, trejetų, ketvertų, penketų ir šešetų. 
+Prie penktinio skaičiaus $M$
+iš dešinės prirašius du skaitmenis $81$, 
+gautas skaičius $N = \overline{M81}$. Įrodykite,
+kad a) $M$ nesidalija iš jokio penktinio skaičiaus, 
+išskyrus save patį; 
+b) $N$ nesidalija iš jokio penktinio skaičiaus.
+-->
+
+
