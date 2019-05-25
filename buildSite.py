@@ -13,14 +13,14 @@ def copyDirectory(src, dest):
     except OSError as e:
         print('Directory not copied. Error: %s' % e)
 
-resTypes = ['exam', 'prob', 'tale']
+resTypes = ['prob', 'tale']
 
 for resType in resTypes:
     ROOT = 'src/site/%s' % resType
     themePath = '%s/themes/ddgatve' % ROOT
     subDirectories = set(next(os.walk(ROOT))[1]).difference(set(['themes']))
     for dd in subDirectories:
-        print("Processing with landslide %s" % dd)
+        print('Processing with pandoc/reveal, dir=%s' % dd)
         srcPath = '%s/%s/content.md' % (ROOT,dd)
         destPath = '%s/%s/content.html' % (ROOT,dd)
         # subprocess.call(['landslide','--relative',srcPath,'-t',themePath,'-d',destPath])
