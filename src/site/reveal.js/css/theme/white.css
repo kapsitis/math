@@ -111,6 +111,23 @@ body {
   text-align: left;
 }
 
+/* KAP */
+
+blue {
+  color: #0070C0 !important;
+  /* color: #000080 !impportant; */
+}
+
+
+red {
+  color: #FF0000 !important;
+}
+
+green {
+  color: darkgreen !important;
+}
+
+
 
 .reveal small {
   text-align: left !important;
