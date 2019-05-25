@@ -23,12 +23,13 @@ for resType in resTypes:
         print('Processing with pandoc/reveal, dir=%s' % dd)
         srcPath = '%s/%s/content.md' % (ROOT,dd)
         destPath = '%s/%s/content.html' % (ROOT,dd)
+        workingDir = '%s/%s' % (ROOT,dd)
         # subprocess.call(['landslide','--relative',srcPath,'-t',themePath,'-d',destPath])
        	subprocess.call(['pandoc','-t','revealjs','-s',
 		'-o','content.html','content.md','--slide-level=2',
 		'-V','revealjs-url=../../reveal.js','--metadata pagetitle="Uzdevumi"',
     		'--mathjax="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"',
-		'-V','theme="white"'], cwd=dd)
+		'-V','theme="white"'], cwd=workingDir)
         copyDirectory('%s/%s' % (ROOT,dd), 'target/%s/%s' % (resType,dd))
 
 
