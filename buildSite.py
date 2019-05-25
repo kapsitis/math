@@ -31,6 +31,6 @@ for resType in resTypes:
     		'--mathjax="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"',
 		'-V','theme="white"'], cwd=workingDir)
         copyDirectory('%s/%s' % (ROOT,dd), 'target/%s/%s' % (resType,dd))
-
+copyDirectory('src/site/reveal.js', 'target/reveal.js')
 
 
