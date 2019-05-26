@@ -605,7 +605,7 @@ skaičių sumai. Raskite visas galimas
 skaičiaus $n$ reikšmes.
 -->
 
-# <lo-sample/> LT.RAJ.2016.11_12.4
+# <lo-sample/> LT.RAJ.2016.11_12.5
 
 Dota funkcija $f(x) = \frac{x^3}{1+x^3}$. 
 Ikvienam naturālu skaitļu pārim 

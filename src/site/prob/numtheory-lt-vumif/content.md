@@ -236,7 +236,7 @@ y^2 - x^2 = x+y,\\
 \end{array} \right.$$
 -->
 
-# <lo-sample/> LT.VUMIF.2019.9.1
+# <lo-sample/> LT.VUMIF.2019.9.2
 
 Algis un Balis spēlē sekojošu spēli, 
 pārmaiņus izdarīdami gājienus. Sākumā 
