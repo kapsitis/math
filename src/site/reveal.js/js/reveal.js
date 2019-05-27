@@ -392,7 +392,10 @@
 
 		initialized = true;
 
+		//KAP
+		applyLogo();
 		applyHeaderStyles();
+
 		checkCapabilities();
 
 		if( !features.transforms2d && !features.transforms3d ) {
@@ -444,6 +447,38 @@
 	}
 
 
+
+    // KAP
+    var getAsterisk = function() {
+        var theP = document.createElement("p"); 
+        theP.setAttribute("style","position:absolute;top:4px;right:16px;z-index:1;");
+	var theAsterisk = document.createElement("img");
+        theAsterisk.setAttribute("src","asterisk.png");
+	theAsterisk.setAttribute("width","43");
+        theAsterisk.setAttribute("alt","asterisk");
+        theP.appendChild(theAsterisk);
+        return theP;
+    };
+
+    // KAP
+    var getLogo = function() {
+	var theLogo = document.createElement("img");
+        theLogo.setAttribute("src","biglogo.png");
+	theLogo.setAttribute("width","144");
+        theLogo.setAttribute("alt","logo");
+        theLogo.setAttribute("style","border:0;");
+
+	var theLink = document.createElement("a");
+        theLink.setAttribute("href","http://85.254.250.28/training/");
+        theLink.setAttribute("class","image");
+        theLink.appendChild(theLogo);
+
+        var theP = document.createElement("p");
+        theP.setAttribute("style","position:absolute;top:20px;left:0px;z-index:1;");
+        theP.appendChild(theLink);
+        return theP;
+    };
+
     // KAP
     var applyHeaderStyles = function() {
         var x = document.getElementsByTagName("h1");
@@ -452,13 +487,13 @@
         for (var i = 0; i < x.length; i++) {
             if (x[i].innerHTML.indexOf("lo-sample") !== -1) {
                 x[i].classList.add('sample');
-		//theAsterisk = getAsterisk();
-		//x[i].parentNode.insertBefore(theAsterisk,x[i].parentNode.firstChild);
+		var theAsterisk = getAsterisk();
+		x[i].parentNode.insertBefore(theAsterisk,x[i].parentNode.firstChild);
                 console.log("Added class 'sample'");		
             } else if (x[i].innerHTML.indexOf("lo-summary") !== -1) {
                 x[i].classList.add('summary');
-		//theAsterisk = getAsterisk();
-		//x[i].parentNode.insertBefore(theAsterisk,x[i].parentNode.firstChild);
+		var theAsterisk = getAsterisk();
+		x[i].parentNode.insertBefore(theAsterisk,x[i].parentNode.firstChild);
                 console.log("Added class 'summary'");
             } else {
                 x[i].classList.add('default');
@@ -467,7 +502,13 @@
 
     };
 
-
+    // KAP
+    var applyLogo = function() {
+        var x = document.getElementsByClassName("title-slide");
+        console.log("Found first slide");
+        var theLogo = getLogo();
+        x[0].insertBefore(theLogo,x[0].firstChild);
+    };
 
 
 

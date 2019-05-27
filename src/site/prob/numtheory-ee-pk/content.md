@@ -43,7 +43,7 @@ ciparu 1, arī rodas kāda vesela skaitļa kvadrāts.
 
 
 
-# Vienādojumu sistēmas
+## Vienādojumu sistēmas
 
 * Ja $n=3$, var aplūkot pilnus kvadrātus, kas satur četrus ciparus un
 sākas ar "1": $32^2=1024$, $33^2 = 1089$, $34^2 = 1156$ un 
@@ -52,6 +52,10 @@ iegūst kvadrātu: $225 = 15^2$.
 * Redzam arī, ka $35^2 - 15^2 = (35-15)(35+15)=20\cdot 50 = 1000$. 
 * Nākamā sistēmiņa: $a+b=200$, $a-b=50$. Tātad 
 $$a = 125,\;\; b = 75,\;\;125^2 - 75^2=10000.$$
+
+
+## Algebriskās identitātes
+
 * Skaitļus $15$, $35$, $75$, $125$ u.c. var ātri kāpināt kvadrātā:
 
 $75^2 = 5625$, jo $7 \cdot 8 = 56$.  
@@ -87,6 +91,20 @@ m равны между собой?
 
 </small>
 
+## Algebriski pateikts apgalvojums par atlikumu
+
+Ja $n$ dalot ar $m$ rezultāts ir $a$ un atlikums ir $a$, tad
+$$n = am + a$$
+jeb $n = a(m+1)$. Redzam, ka $n$ dalās ar $(m+1)$. 
+
+Otrā virzienā secināt nevar, jo var gadīties, ka $a\geq m$, bet
+atlikumi, dalot ar $m$ var būt tikai no kopas $\{ 0,\ldots,m-1 \}$.
+
+Teiksim, $n = 100$, $m=4$. Tad $100$ dalās ar $m+1= 5$. 
+Bet dalījums ($100$ dalot ar $4$) ir $25$, bet atlikums ir $0$
+un $0 \neq 25$. 
+
+
 
 
 # <lo-sample/> EE.PK.2012.10.4
@@ -101,10 +119,30 @@ kuri apmierina vienādojumu $(a + b)(b + c)(c + a) = 123456789$?
 
 <small>
 
+* [notation.divrules.2or5or10.divides](#)
 * [mod.parity.cases](#)
 
 </small>
 
+## Dalāmības pazīmes
+
+* $123456789$ ir nepāru skaitlis (pēdējais cipars)
+* $123456789$  arī dalās ar $9$ (ciparu summa)
+
+Ko var secināt par reizinājumu $(a+b)(b+c)(c+a)$? 
+
+* Izdevīgāk lietot pazīmes, ka reizinājums ar kaut ko *nedalās* 
+(jo tad neviens reizinātājs nedalās). 
+
+## Paritāte
+
+Ja $(a + b)(b + c)(c + a)$ ir nepāru skaitlis, tad 
+
+* $a$ un $b$ ir atšķirīga paritāte
+* $b$ un $c$ ir atšķirīga paritāte
+* $c$ un $a$ ir atšķirīga paritāte
+
+Iegūta pretruna: Ja $a$ ir pāru, tad $b$ ir nepāru, tad $c$ ir pāru, tad $a$ ir nepāru utml.
 
 
 # <lo-sample/> EE.PK.2013.10.3
@@ -129,7 +167,7 @@ dalās ar $10$.
 
 
 
-# Dirihlē princips
+## Dirihlē princips
 
 * Ievērojam, ka skaitļa kvadrāta atlikums, dalot ar $10$, atkarīgs tikai no paša skaitļa atlikuma.
 * Pārbaudām pilno kvadrātu atlikumus:
@@ -167,7 +205,7 @@ Atrast visas iespējamās $n$ vērtības.
 </small>
 
 
-
+## Par mazāko kopīgo dalāmo
 
 * Prasības: $14 \cdot 20$ dalās ar $n$, $14n$ dalās ar $20$, $20n$ dalās ar $14$
 * $n$ ir $280$ dalītājs, vienlaikus $n$ dalās ar $2$, $5$, $7$. 
@@ -192,10 +230,24 @@ b) Tas pats jautājums, ja $x$ un $y$ ir veseli skaitļi.
 <small>
 
 * [alg.factorize.sqdiff](#)
-* [div.pfactor.prop.numdivisors](#)
+* [mod.parity.cases](#)
+* [misc.exhaustive](#)
+* [alg.linear](#)
 
 </small>
 
+## Dalīšana reizinātājos
+
+1. $x^2 - y^2$ dalās reizinātājos: $(x-y)(x+y)$. Lai iegūtu $100$, 
+gan $x-y$, gan $x+y$ ir $100$ dalītāji.
+2. $x-y$ un $x+y$ ir vienāda paritāte; lai reizinājums būtu $100$, 
+tie abi ir pāru skaitļi. 
+3. Aplūkojam visus gadījumus, kā $100$ var izteikt kā divu pāru 
+skaitļu reizinājumu: 
+$$2 \cdot 50 = 10 \cdot 10 = (-2) \cdot (-50) = (-10) \cdot (-10)$$
+4. Citi veidi: $1 \cdot 100$, $4 \cdot 25$ vai $5 \cdot 20$ neder, 
+jo reizinātāju paritātes ir dažādas - neeksistēs veselos skaitļos atrisinājumi
+lineāru vienādojumu sistēmai  $x-y=1$ un $x+y=100$ utml.
 
 
 # <lo-sample/> EE.PK.2015.10.6
@@ -210,9 +262,36 @@ veselo skaitļu no $1$ līdz $n$ ciparu summa ir pāru skaitlis?
 
 <small>
 
+* [seq.define](#)
+* [misc.experiment](#)
 * [misc.induction](#)
 
 </small>
+
+## Eksperimentēšana
+
+Definējam funkcijas:
+
+* $P(n)$ - cik daudziem skaitļiem no $1$ līdz $n$ ciparu summa ir pāru skaitlis
+* $N(n)$ - cik daudziem skaitļiem no $1$ līdz $n$ ciparu summa ir nepāru skaitlis
+* $f(n) = N(n) - P(n)$ - par cik nepāru ciparu summu bija vairāk nekā
+pāru ciparu summu skaitļiem intervālā $[1;n]$.
+
+**Apgalvojums:** Visiem $n$ ir spēkā $f(n) \geq 0$. T.i. vienmēr $N(n) \geq P(n)$. 
+
+## Induktīvā pāreja
+
+Aplūkojam $f(n)$ vērtības visiem $n$, kas dalās ar $10$. 
+
+<table>
+<tr>
+<th>$n$</th><td>10</td><td>20</td><td>30</td><td>40</td></tr>
+</tr>
+<tr>
+<th>$f(n)$</th><td>10</td><td>20</td><td>30</td><td>40</td></tr>
+</tr>
+</table>
+
 
 
 
@@ -230,6 +309,37 @@ b) $n = 3$?
 б) $n = 3$?
 -->
 
+<small>
+
+* [div.alg]
+* [div.common.lcm.frac]
+
+</small>
+
+
+## Pārtulkojam apgalvojumu algebriski
+
+**Gadījums n=2:**
+
+* Apzīmējam abu skaitļu $a,b$ mazāko kopīgo dalāmo ar $m$. 
+* Tad $m = xa$ un $m = yb$. Ja nu $m=a+b$, tad $m = m/x+m/y$ jeb
+$$1 = \frac{1}{x} + \frac{1}{y}.$$
+
+Šim vienādojumam nav atrisinājumu veselos skaitļos $x,y$, 
+jo nevar izvēlēties $x=y=2$ (šādā gadījumā $a=b$ un to 
+MKD nebūs divreiz lielāks).
+
+## Gadījums n=3
+
+* Līdzīgi kā iepriekš apzīmējam $m=\mbox{MKD}(a,b,c)$. 
+* Apzīmējam $m=xa$, $m=yb$, $m=zc$.
+* Tad $m=a+b+c$ ir ekvivalents vienādojumam:
+
+$$1 = \frac{1}{x} + \frac{1}{y} + \frac{1}{z}.$$
+
+* Var izvēlēties $x=2$, $y=3$ un $z=6$. Ja $m=30$, tad
+$(a,b,c)=(15,10,5)$.  
+* Šis piemērs der, jo $\mbox{MKD}(15,10,5)=30$ un $15+10+5=30$.
 
 
 # <lo-sample/> EE.PK.2016.10.4
@@ -264,6 +374,39 @@ $324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
 $324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
 -->
 
+<small>
+
+* [div.pfactor.algorithm](#)
+* [alg.powers.prod](#)
+* [div.pfactor.expsystem](#)
+* [alg.linear](#)
+
+</small>
+
+## Dalām pirmreizinātājos
+
+Abās vienādojuma pusēs ir daži salikti skaitļi - 
+$324$ un $4$. 
+
+1. Sadalām skaitli $324$ pirmreizinātājos:  
+$324=18 \cdot 18=(2 \cdot 3^2)^2 = 2^2 \cdot 3^4.$
+2. Sadalām arī $4$ pirmereizinātājos:  
+$4 = 2^2$. 
+
+
+## Pielīdzinām pirmskaitļu kāpinātājus
+
+Pārrakstām uzdevuma vienādojumu: 
+$$(2^2 \cdot 3^4)^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot (2^2)^{y−4}$$
+$$2^{2(x+y)} \cdot 3^{4(x+y)} = 2^{x−y} \cdot 3^{x−3} \cdot 2^{2(y−4)}$$
+
+Pielīdzinām pirmskaitļu pakāpes:
+
+$$\left\{ \begin{array}{l}
+2(x+y) = (x-y) + 2(y-4) \\
+4(x+y) = x-3
+\end{array}
+\right.$$
 
 
 # <lo-sample/> EE.PK.2017.10.3
