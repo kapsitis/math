@@ -65,12 +65,9 @@ Atrisināt naturālos skaitļos vienādojumu $x^3 = y! + 2$.
 </table>
 
 <table>
-<tr><th>$y$</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
-    <td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
-<tr><th>$y!$</th><td>1</td><td>2</td><td>6</td><td>24</td><td>120</td>
-    <td>720</td><td>5040</td><td>40320</td><td>362880</td><td>3628800</td></tr>
-<tr><th>$y!+2$</th><td>3</td><td>4</td><td>8</td><td>26</td><td>122</td>
-    <td>722</td><td>5042</td><td>40322</td><td>362882</td><td>3628802</td></tr>
+<tr><th>$y$</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+<tr><th>$y!$</th><td>1</td><td>2</td><td>6</td><td>24</td><td>120</td><td>720</td><td>5040</td><td>40320</td><td>362880</td><td>3628800</td></tr>
+<tr><th>$y!+2$</th><td>3</td><td>4</td><td>8</td><td>26</td><td>122</td><td>722</td><td>5042</td><td>40322</td><td>362882</td><td>3628802</td></tr>
 </table>
 
 * Redzam, ka $2^3 = 3!+2$ (ja $x=2, y=3$). 

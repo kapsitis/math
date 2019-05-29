@@ -1,12 +1,6 @@
 # &nbsp;
 
-<hgroup>
-
-
-<h1 style="font-size:32pt">Skaitļu teorija:<br/>
-10.kl. Igaunijas olimpiādes</h1>
-
-</hgroup><hgroup>
+<h1 style="font-size:28pt">Skaitļu teorija: Igaunijas olimpiādes, 10.kl.</h1>
 
 * **EE.PK** - Eesti Piirkonnavoor (Igaunijas reģionu kārta)
 * **EE.LO** - Eesti Lõppvoor (Igaunijas gala/valsts kārta)
@@ -15,11 +9,10 @@
 
 [Matemaatikaolümpiaadid ](http://www.math.olympiaadid.ut.ee/html/index.php)
 
-</hgroup>
 
 
 
-# <lo-sample/> EE.LVS.2010.noorem.1
+# <lo-sample/> EE.LVS.2009.noorem.1
 
 Atrast visus naturālos skaitļus $n$, kuriem 
 $1 + 2^2 + 3^3 + 4^n$
@@ -31,8 +24,39 @@ $1 + 2^2 + 3^3 + 4^n$
 является квадратом некоторого целого числа.
 -->
 
+<small>
 
-# <lo-sample/> EE.LVS.2010.vanem.1
+* [alg.powers.nested](#)
+* [seq.gaps.squares](#)
+* [alg.ineq.equations](#)
+* [misc.exhaustive](#)
+
+</small>
+
+## Attālumi starp pilniem kvadrātiem
+
+* Arī $4^n = (2^n)^2$ ir pilns kvadrāts. 
+* Tad $(2^n)^2 + 1 + 2^2 + 3^3 = (2^n)^2 +32$ vērtībām
+$N = 2^n \geq 16$ noteikti nav pilns kvadrāts, jo nākamais
+pilnais kvadrāts:
+$$(N+1)^2 = N^2 + 2N+ 1 \geq N^2 + 33.$$
+* Piemēram $4^4 = 16^2 = 256$. Bet jau nākamais 
+pilnais kvadrāts $17^2 = 289$. Atstarpe ir $33$. 
+
+## Ievietojam n=1,2,3
+
+* Vērtība $n=4$ neder, kā jau redzējām, jo $288$ nav pilns kvadrāts.
+* Vērtībām $n>4$ attālumi starp $4^n$ un nākamo pilno kvadrātu 
+vēl vairāk pieaug (un ir vairāk par $33$). 
+* Ievietojam visas $n=1,2,3$:
+$$4^1 + 32 = 36;\;4^2 + 32 = 48;\;4^3 + 32 = 96.$$
+* Secinām, ka tikai pie $n=1$ skaitlis $1 + 2^2 + 3^3 + 4^n = 36$ 
+ir pilns kvadrāts.
+
+
+
+
+# <lo-sample/> EE.LVS.2009.vanem.1
 
 Vai eksistē pirmskaitlis $p$, kuram
 $p^3 + 2008$ un $p^3 + 2010$ arī
@@ -44,12 +68,40 @@ $p^3 + 2008$ и $p^3 + 2010$ также
 являются простыми числами?
 -->
 
+<small>
 
-# <lo-sample/> EE.LVT.2010.noorem.1
+* [mod.exponent.small](#)
+* [mod.equation.contradict](#)
+
+</small>
+
+## Atlikumi
+
+Kubiskām funkcijām $p^3$ mēdz būt izdevīgi aplūkot 
+atlikumus, dalot ar $7$ vai $9$. Ir zināms, ka 
+
+$$\left\{ \begin{array}{ll}
+p^3 \equiv 0,1,6 & (\mbox{mod}\,7)\\
+p^3 \equiv 0,1,8 & (\mbox{mod}\,9)\\
+\end{array} \right.$$
+
+## Pretrunas modulis
+
+* Pieskaitāmie skaitļi $2008, 2010$ dod atlikumus $6$ un $1$, 
+dalot ar $7$. 
+* Lai neviena no summām $p^3 + 2008$, $p^3 + 2010$ nedalītos ar $7$, 
+jābūt $p^3 \equiv 0$ jeb $p$ jādalās ar $7$. 
+* Vienīgais pirmskaitlis, kas dalās ar $7$, ir pats $7$. 
+* $7^3 + 2010 = 2353$. Šis skaitlis dalās ar $13$. 
+
+*Secinājums.* Tāda pirmskaitļa $p$ nav.
+
+
+
+# <lo-sample/> EE.LVT.2009.noorem.1
 
 Atrast visus vienādojuma $xy-3x+7y = 2030$ atrisinājumus 
 naturālos skaitļos.
-
 
 <!--
 Найти все решения уравнения $xy-3x+7y = 2030$ в положительных целых
@@ -57,7 +109,8 @@ naturālos skaitļos.
 -->
 
 
-# <lo-sample/> EE.LVT.2010.noorem.5
+
+# <lo-sample/> EE.LVT.2009.noorem.5
 
 Sauksim naturālu skaitli $n$ par *pirmskaittiecīgu*, ja 
 eksistē vismaz trīs tādi pirmskaitļi, kuriem nodzēšot pēdējo 
@@ -72,19 +125,26 @@ divi naturāli pirmskaittiecīgi skaitļi atšķiras vismaz par $3$.
 -->
 
 
-# <lo-sample/> EE.LVT.2010.vanem.3
+# <lo-sample/> EE.LVT.2009.vanem.3
+
+<div style="font-size:70%">
 
 Sauksim naturālu skaitli $n$ par *tīru*, ja tas neietilpst nevienā
 veselu skaitļu virknē
 $c_0, c_1, c_2, \ldots$ , kur $0 < c_0 < n$,
 un ko visiem $i > 0$ definē šādi:
-$$c_i = \frac{c_{i-1}}{2},\;\;\mbox{ja $c_{i−1}$ ir pāru,}$$
-$$c_i = 3c_{i-1} - 1,\;\;\mbox{ja $c_{i-1}$ ir nepāru.}$$
+$$c_i = \left\{
+\begin{array}{ll}
+\frac{c_{i-1}}{2}, & \mbox{ja $c_{i−1}$ ir pāru,}\\
+3c_{i-1} - 1, & \mbox{ja $c_{i-1}$ ir nepāru.}
+\end{array} \right.$$
 Piemēram, skaitlis $10$ nav tīrs, jo tas ietilpst virknē 
 $5, 14, 7, 20, 10, \ldots$, kas apmierina virknes nosacījumus.  
 a) Vai katrs naturāls skaitlis, kurš dalās ar $3$, ir tīrs?  
 b) Pierādīt, ka, ja $n > 1$ ir tīrs, bet nedalās ar $3$, tad
 skaitlis $n + 1$ dalās ar $6$.
+
+</div>
 
 <!--
 Назовём положительное целое число $n$ чистым, если оно не содержится
@@ -104,7 +164,17 @@ $5, 14, 7, 20, 10, \ldots$, удовлетворяющей условиям за
 -->
 
 
-# <lo-sample/> EE.LVS.2011.noorem.1
+
+
+
+
+## 
+
+
+
+
+
+# <lo-sample/> EE.LVS.2010.noorem.1
 
 Atrast visus naturālos skaitļus $n$, kuriem 
 visu viņu pozitīvo dalītāju reizinājums nav skaitļa $n$
@@ -118,7 +188,7 @@ pakāpe ar veselu kāpinātāju.
 -->
 
 
-# <lo-sample/> EE.LVS.2011.noorem.5
+# <lo-sample/> EE.LVS.2010.noorem.5
 
 Atrast visus naturālu skaitļu pārus $(n,k)$, kuriem
 $n! + (n + 1)! = k! + 120$.  
@@ -132,7 +202,7 @@ $n! + (n + 1)! = k! + 120$.
 
 
 
-# <lo-sample/> EE.LVS.2011.vanem.1
+# <lo-sample/> EE.LVS.2010.vanem.1
 
 Pierādīt, ka nevienu naturālu skaitli, starp kura cipariem pa 
 vienai reizei atrodami cipari $2$ un $1$, bet visi pārējie cipari ir
@@ -148,7 +218,7 @@ vai divu veselu skaitļu kubu summu.
 
 
 
-# <lo-sample/> EE.LVS.2011.vanem.2
+# <lo-sample/> EE.LVS.2010.vanem.2
 
 Ar $P(x)$ apzīmēts polinoms ar veseliem koeficientiem, 
 kas apmierina nosacījumu $P(2010) = P(201) = 2010$.  
@@ -164,7 +234,7 @@ b) Kāda ir mazākā iespējamā $P(2011)$ pozitīvā vērtība?
 
 
 
-# <lo-sample/> EE.LVT.2011.noorem.1
+# <lo-sample/> EE.LVT.2010.noorem.1
 
 Atrast visus naturālos skaitļus, kuru pierakstā nav vairāk par četriem
 cipariem, un kuri, nodzēšot pirmo ciparu, samazinās tieši $25$ reizes
@@ -179,7 +249,7 @@ cipariem, un kuri, nodzēšot pirmo ciparu, samazinās tieši $25$ reizes
 
 
 
-# <lo-sample/> EE.LVT.2011.noorem.1
+# <lo-sample/> EE.LVT.2010.noorem.1
 
 Aplūkosim naturālus skaitļus $N$, kuriem ir tieši $6$ 
 pozitīvi dalītāji - apzīmēsim šos dalītājus ar 
@@ -209,7 +279,7 @@ $6$ положительных делителей и которое не явл�
 
 
 
-# <lo-sample/> EE.LVT.2011.vanem.5
+# <lo-sample/> EE.LVT.2010.vanem.5
 
 Cik ir tādu naturālu skaitļu, kas dalās ar $2010$, kuriem ir 
 tieši $2010$ pozitīvu dalītāju (ieskaitot $1$ un pašu skaitli)? 
@@ -222,7 +292,10 @@ tieši $2010$ pozitīvu dalītāju (ieskaitot $1$ un pašu skaitli)?
 
 
 
-# <lo-sample/> EE.LVS.2012.noorem.1
+
+
+
+# <lo-sample/> EE.LVS.2011.noorem.1
 
 Atrast visus četrciparu skaitļus, kam, nodzēšot
 jebkuru ciparu, rodas trīsciparu skaitlis, kurš ir 
@@ -236,7 +309,7 @@ sākotnējā skaitļa dalītājs.
 
 
 
-# <lo-sample/> EE.LVS.2012.vanem.1
+# <lo-sample/> EE.LVS.2011.vanem.1
 
 Katram naturālam skaitlim $n$ apzīmēsim ar simbolu 
 $a_n$ lielāko skaitļa $2$ pakāpi, ar ko dalās skaitlis $n$
@@ -258,7 +331,7 @@ $$\frac{1}{a_i} + \frac{1}{a_{i+1}} + \ldots + \frac{1}{a_j}$$
 
 
 
-# <lo-sample/> EE.LVT.2012.noorem.1
+# <lo-sample/> EE.LVT.2011.noorem.1
 
 Pierādīt, ka vienādojumam
 $$2x^3 − y^2 = 3$$
@@ -272,7 +345,7 @@ $$2x^3 − y^2 = 3$$
 
 
 
-# <lo-sample/> EE.LVT.2012.noorem.5
+# <lo-sample/> EE.LVT.2011.noorem.5
 
 Vai var gadīties, ka trijstūrim ar veseliem malu garumiem
 perimetrs dalās ar divkāršotu trijstūra pašas garākās malas garumu. 
@@ -285,7 +358,7 @@ perimetrs dalās ar divkāršotu trijstūra pašas garākās malas garumu.
 
 
 
-# <lo-sample/> EE.LVT.2012.vanem.1
+# <lo-sample/> EE.LVT.2011.vanem.1
 
 Pierādīt, ka jebkuram pozitīvam skaitlim $n$ pirmo $n$ 
 pirmskaitļu summa ir lielāka par $n^2$. 
@@ -297,7 +370,7 @@ pirmskaitļu summa ir lielāka par $n^2$.
 
 
 
-# <lo-sample/> EE.LVT.2012.vanem.2
+# <lo-sample/> EE.LVT.2011.vanem.2
 
 Atrast visus naturālu skaitļu trijniekus $(a,b,c)$, 
 kuriem izpildās vienādība
@@ -312,7 +385,8 @@ $$a^{bc} + b^{ca} + c^{ab} = 3abc.$$
 
 
 
-# <lo-sample/> EE.LVS.2013.noorem.1
+
+# <lo-sample/> EE.LVS.2012.noorem.1
 
 Cik ir tādu sešciparu naturālu skaitļu, kuru pierakstā ir 
 cipari $0$, $1$, $2$, $3$, $4$ un $5$ katrs vienu reizi un 
@@ -326,7 +400,7 @@ kuri dalās ar katru savu ciparu, kas nav nulle.
 
 
 
-# <lo-sample/> EE.LVS.2013.noorem.2
+# <lo-sample/> EE.LVS.2012.noorem.2
 
 No nulles atšķirīgi veseli skaitļi $a$, $b$ un $c$ apmierina nosacījumu
 $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=0$.
@@ -345,7 +419,7 @@ $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=0$.
 
 
 
-# <lo-sample/> EE.LVS.2013.noorem.3
+# <lo-sample/> EE.LVS.2012.noorem.3
 
 Skolotājs pateica Jüri divus veselus skaitļus $a$ un $b$, kas nav nulles, 
 turklāt $b$ dalās ar $a$. Jüri ir jāatrod tādu nenulles veselu 
@@ -363,7 +437,7 @@ $ax^2+bx+c=0$ являлись целыми числами. Всегда ли у
 
 
 
-# <lo-sample/> EE.LVS.2013.vanem.1
+# <lo-sample/> EE.LVS.2012.vanem.1
 
 Atrast visus naturālos skaitļus, kuri ir tieši $2013$ reizes lielāki 
 par savu ciparu summu. 
@@ -375,7 +449,7 @@ par savu ciparu summu.
 
 
 
-# <lo-sample/> EE.LVS.2013.vanem.2
+# <lo-sample/> EE.LVS.2012.vanem.2
 
 Atrast visus atlikumus, kurus, dalot ar $6$, dod vesels
 skaitlis $n$, kurš kādam veselam $m$ apmierina vienādību 
@@ -390,7 +464,7 @@ $n^3 = m^2 + m + 1$.
 
 
 
-# <lo-sample/> EE.LVS.2013.vanem.3
+# <lo-sample/> EE.LVS.2012.vanem.3
 
 Pierādīt, ka $(2n)! < n^{2n}$
 katram veselam skaitlim $n \geq 3$.
@@ -406,7 +480,7 @@ sauc reizinājumu $1\cdot{}2\cdot\ldots\cdot{}x$.*
 
 
 
-# <lo-sample/> EE.LVT.2013.noorem.1
+# <lo-sample/> EE.LVT.2012.noorem.1
 
 Kärt uzraksta uz tāfeles daļas $\frac{1}{2}$
 un $\frac{1}{3}$, bet Märt uzraksta uz papīra $10$ 
@@ -441,7 +515,7 @@ $\frac{1 + 3}{3 + 5} = \frac{4}{8} = \frac{1}{2}$.)
 
 
 
-# <lo-sample/> EE.LVT.2013.noorem.5
+# <lo-sample/> EE.LVT.2012.noorem.5
 
 Atrast visus tos veselu skaitļu pārus $(a, b)$, kuriem
 $(a + 1)(b − 1) = a^2b^2$.
@@ -453,7 +527,7 @@ $(a + 1)(b − 1) = a^2b^2$.
 
 
 
-# <lo-sample/> EE.LVT.2013.vanem.1
+# <lo-sample/> EE.LVT.2012.vanem.1
 
 Ar $a$ un $b$ apzīmējam tādus naturālus skaitļus, ka $b$ dalās ar $a$, bet
 pierakstot skaitļus $a$ un $b$ vienu aiz otra šajā secībā, 
@@ -468,7 +542,7 @@ $(a + b)^2$. Доказать, что $\frac{b}{a}=6$.
 
 
 
-# <lo-sample/> EE.LVT.2013.vanem.2
+# <lo-sample/> EE.LVT.2012.vanem.2
 
 Ar $x$ un $y$ ir dažādi naturāli skaitļi. Pierādīt, ka 
 $$\frac{x^2 + 4xy + y^2}{x^3 − y^3}$$
@@ -482,7 +556,7 @@ $$\frac{x^2 + 4xy + y^2}{x^3 − y^3}$$
 
 
 
-# <lo-sample/> EE.LVT.2013.vanem.5
+# <lo-sample/> EE.LVT.2012.vanem.5
 
 Atrast visas funkcijas $f$, kas definēta naturāliem skaitļiem
 un pieņem naturālas vērtības, kas apmierina nosacījumu: 
@@ -500,7 +574,12 @@ $a_1,\ldots,a_k$ число $f(a_1)+\ldots+f(a_k)$ делится
 
 
 
-# <lo-sample/> EE.LVS.2014.noorem.1
+
+
+
+
+
+# <lo-sample/> EE.LVS.2013.noorem.1
 
 Volli grib no naturāliem skaitļiem
 $1, 2, 3, \ldots, 100$ izvēlēties $x$ skaitļus tā, 
@@ -521,14 +600,14 @@ $1, 2, 3, \ldots, 100$ всего $x$ чисел так,
 
 
 
-# <lo-sample/> EE.LVS.2014.noorem.2
+# <lo-sample/> EE.LVS.2013.noorem.2
 
 Vienādiem burtiem atbilst vienādi cipari, 
 bet dažādiem burtiem - dažādi cipari. 
 Atrast visus veidus, kā aizstāt burtus ar cipariem tā, 
 lai darbība izrādītos pareiza.
 
-![Saskaitīšana stabiņā](EE.LVS.2014.noorem.2.png)
+![Saskaitīšana stabiņā](EE.LVS.2013.noorem.2.png)
 
 <!--
 Одинаковым буквам соответствуют одинаковые цифры, 
@@ -539,7 +618,7 @@ lai darbība izrādītos pareiza.
 
 
 
-# <lo-sample/> EE.LVS.2014.noorem.3
+# <lo-sample/> EE.LVS.2013.noorem.3
 
 Doti naturāli skaitļi $a, b, c$, 
 to lielākais kopīgais dalītājs ir $1$. 
@@ -557,7 +636,7 @@ Pierādīt, ka arī $a-b$ dalās ar $c$.
 
 
 
-# <lo-sample/> EE.LVS.2014.vanem.1
+# <lo-sample/> EE.LVS.2013.vanem.1
 
 Atrast veselo daļu skaitlim 
 $$A = \sqrt{2013 + \sqrt{2012 + \sqrt{2011 + \ldots \sqrt{2 +\sqrt{1}}}}}.$$
@@ -574,7 +653,7 @@ $$A = \sqrt{2013 + \sqrt{2012 + \sqrt{2011 + \ldots \sqrt{2 +\sqrt{1}}}}}.$$
 
 
 
-# <lo-sample/> EE.LVS.2014.vanem.2
+# <lo-sample/> EE.LVS.2013.vanem.2
 
 Atrast visus naturālos skaitļus $n$, kuriem atradīsies tādi 
 pirmskaitļi $p$ un $q$, ka 
@@ -589,7 +668,7 @@ $$p(p + 1) + q(q + 1) = n(n + 1).$$
 
 
 
-# <lo-sample/> EE.LVT.2014.noorem.1
+# <lo-sample/> EE.LVT.2013.noorem.1
 
 Sauksim naturālu skaitli par *interesantu*, ja 
 skaitlis, kuru veido jebkuri divi
@@ -612,7 +691,7 @@ $19$, $63$ кратно числу $21$, а $38$ кратно числу $19$.
 
 
 
-# <lo-sample/> EE.LVT.2014.noorem.3
+# <lo-sample/> EE.LVT.2013.noorem.3
 
 Par naturāla skaitļa $n$ *nepāra daļu* sauksim lielāko 
 nepāra naturālo skaitli, ar kuru dalās $n$.
@@ -630,7 +709,7 @@ skaitļu nepāru daļu reizinājumu.
 
 
 
-# <lo-sample/> EE.LVT.2014.vanem.1
+# <lo-sample/> EE.LVT.2013.vanem.1
 
 Atrast visus tos pozitīvu racionālu skaitļu pārus, 
 kuriem pārī ietilpstošo skaitļu summa ir vesels skaitlis, 
@@ -645,7 +724,7 @@ un arī šo skaitļu apgriezto lielumu summa ir vesels skaitlis.
 
 
 
-# <lo-sample/> EE.LVT.2014.vanem.5
+# <lo-sample/> EE.LVT.2013.vanem.5
 
 a) Vai atradīsies tāds vesels skaitlis $c$ un polinoms $P(x)$ 
 ar veseliem koeficientiem, kam $P(c) \neq c$, bet $P(P(c)) = c$?  
@@ -672,7 +751,11 @@ $P(x) = a_0 + a_1x + a_2x^2 +\ldots+ a_n x^n$,
 
 
 
-# <lo-sample/> EE.LVS.2015.noorem.1
+
+
+
+
+# <lo-sample/> EE.LVS.2014.noorem.1
 
 Atrast tādu vismazāko naturālo $n$, kuram katrs no cipariem 
 no $0$ līdz $9$ būtu decimālpierakstā kaut vienam no 
@@ -689,7 +772,7 @@ un $n+6$.
 
 
 
-# <lo-sample/> EE.LVS.2015.noorem.3
+# <lo-sample/> EE.LVS.2014.noorem.3
 
 Vispirms uz lapiņas uzraksta skaitli $1$. 
 Katrā solī zem pēdējā uzrakstītā skaitļa uzraksta 
@@ -716,7 +799,7 @@ b) skaitlis $9876543210$?
 
 
 
-# <lo-sample/> EE.LVS.2015.noorem.4
+# <lo-sample/> EE.LVS.2014.noorem.4
 
 Kurš no skaitļiem lielāks: $2^{2014}$ vai
 $3^{303} \cdot 4^{404} \cdot 5^{505}$?
@@ -728,7 +811,7 @@ $3^303 \cdot 4^{404} \cdot 5^{505}$?
 
 
 
-# <lo-sample/> EE.LVS.2015.vanem.1
+# <lo-sample/> EE.LVS.2014.vanem.1
 
 Atrast visus tos naturālos skaitļus $n$, kuriem 
 vienādojumam 
@@ -744,7 +827,7 @@ $(x^2+y^2)^n = (xy)^{2014}$ имеет решение в положительн�
 
 
 
-# <lo-sample/> EE.LVT.2015.noorem.1
+# <lo-sample/> EE.LVT.2014.noorem.1
 
 Pēc kārtas sekojoši naturāli skaitļi, sākot
 ar $1$, sadalīti grupās pa desmit tā, ka 
@@ -767,7 +850,7 @@ $2014$?
 
 
 
-# <lo-sample/> EE.LVT.2015.noorem.2
+# <lo-sample/> EE.LVT.2014.noorem.2
 
 Ar $d_n$ apzīmējam skaitli vai skaitļa daļu, 
 ko veido $n$ pēc kārtas sekojoši cipari $d$. 
@@ -789,7 +872,7 @@ $3_a2_b5_c + 2_c5_a3_b = 5_38_17_d5_28_3$,
 
 
 
-# <lo-sample/> EE.LVT.2015.noorem.3
+# <lo-sample/> EE.LVT.2014.noorem.3
 
 Pierādīt, ka patvaļīgu naturālu skaitļu $n$ un $m$
 mazākā kopīgā dalāmā kvadrāts dalās ar to 
@@ -807,7 +890,7 @@ lielākā kopīgā dalītāja kvadrātu.
 
 
 
-# <lo-sample/> EE.LVT.2015.vanem.1
+# <lo-sample/> EE.LVT.2014.vanem.1
 
 Vai eksistē tāds vesels skaitlis $x$, ka 
 $2 \leq x \leq m-1$, un $x^2 - x$ dalās ar $m$, ka  
@@ -824,7 +907,7 @@ $x^2 − x$ делится на $m$, если
 
 
 
-# <lo-sample/> EE.LVT.2015.vanem.3
+# <lo-sample/> EE.LVT.2014.vanem.3
 
 Atrast visus tos četrciparu naturālos skaitļus, kuru
 dalījums ar savu ciparu summu ir mazākais iespējamais. 
@@ -837,7 +920,13 @@ dalījums ar savu ciparu summu ir mazākais iespējamais.
 
 
 
-# <lo-sample/> EE.LVS.2016.noorem.1
+
+
+
+
+
+
+# <lo-sample/> EE.LVS.2015.noorem.1
 
 Skaitlī 
 $$0,123456789101112\;\ldots\;998999$$
@@ -854,7 +943,7 @@ $$0,123456789101112\;\ldots\;998999$$
 
 
 
-# <lo-sample/> EE.LVS.2016.noorem.2
+# <lo-sample/> EE.LVS.2015.noorem.2
 
 Nosauksim naturālu skaitli $n$ par interesantu, ja eksistē 
 naturāls skaitlis $m$ un naturāli skaitļi $a$ un $b$, kas
@@ -872,7 +961,7 @@ $\frac{20^2}{4\cdot{}10}=10$.
 
 
 
-# <lo-sample/> EE.LVS.2016.noorem.3
+# <lo-sample/> EE.LVS.2015.noorem.3
 
 Katrā no trim gadījumiem, noskaidrot, vai 
 eksistē divciparu skaitlis $n$, kurš nebeidzas ar nulli un apmierina attiecīgo nosacījumu:  
@@ -895,7 +984,7 @@ dalās, bet daži nedalās ar sākotnējo skaitli.
 
 
 
-# <lo-sample/> EE.LVS.2016.noorem.6
+# <lo-sample/> EE.LVS.2015.noorem.6
 
 Cik ir piecciparu skaitļu, kas dalās ar $8$ un nesatur savā pierakstā ciparu nulle?
 
@@ -906,7 +995,7 @@ Cik ir piecciparu skaitļu, kas dalās ar $8$ un nesatur savā pierakstā ciparu
 
 
 
-# <lo-sample/> EE.LVS.2016.vanem.1
+# <lo-sample/> EE.LVS.2015.vanem.1
 
 a) Atrast lielāko skaitli, kurš ir četru dažādu divciparu skaitļu lielākais kopīgais dalītājs.  
 b) Atrast lielāko skaitli, kurš ir četru dažādu divciparu skaitļu mazākais kopīgais dalāmais.
@@ -920,7 +1009,7 @@ b) Atrast lielāko skaitli, kurš ir četru dažādu divciparu skaitļu mazākai
 
 
 
-# <lo-sample/> EE.LVS.2016.vanem.3
+# <lo-sample/> EE.LVS.2015.vanem.3
 
 Dots naturāls skaitlis $n$, kam gan $n+1$, $n+3$, $n+7$ un $n+9$, gan arī
 $n+31$, $n+33$, $n+37$ un $n+39$ - ir pirmskaitļi. Atrast atlikumu, dalot
@@ -934,7 +1023,7 @@ $n+31$, $n+33$, $n+37$ и $n+39$ − простые числа. Найти ос�
 
 
 
-# <lo-sample/> EE.LVT.2016.noorem.1
+# <lo-sample/> EE.LVT.2015.noorem.1
 
 Kertu pieder viens cipars $4$ un cik patīk daudz ciparu $3$. 
 Izvietojot šos ciparus kaut kādā secībā, Kertu nolēma izveidot skaitli, 
@@ -955,7 +1044,7 @@ b) Skaitļiem nav noteikti jāsatur abi cipari?
 
 
 
-# <lo-sample/> EE.LVT.2016.noorem.3
+# <lo-sample/> EE.LVT.2015.noorem.3
 
 Veseli skaitļi $a,b,c,d,e,f$ apmierina nosacījumu $a+c+e=b+d+f$.
 Pierādīt, ka $100000a + 10000b + 1000c + 100d + 10e + f$ dalās ar $11$.
@@ -967,7 +1056,7 @@ Pierādīt, ka $100000a + 10000b + 1000c + 100d + 10e + f$ dalās ar $11$.
 
 
 
-# <lo-sample/> EE.LVT.2016.vanem.1
+# <lo-sample/> EE.LVT.2015.vanem.1
 
 Vai eksistē tāds nepāru naturāls skaitlis $p$, ka 
 no $p$ atšķirīgu skaitļa $p$ dalītāju summa ir lielāka par skaitli $p$? 
@@ -980,7 +1069,7 @@ no $p$ atšķirīgu skaitļa $p$ dalītāju summa ir lielāka par skaitli $p$?
 
 
 
-# <lo-sample/> EE.LVT.2016.vanem.4
+# <lo-sample/> EE.LVT.2015.vanem.4
 
 Izgudrotājs iepazīstināja karali ar savu jauno spēli uz rūtiņu laukuma ar
 izmēru $9\times{}10$. Karalis apsolīja viņam par pirmo rūtiņu vienu 
@@ -1004,7 +1093,10 @@ rīsa graudiņu.
 
 
 
-# <lo-sample/> EE.LVS.2017.noorem.2
+
+
+
+# <lo-sample/> EE.LVS.2016.noorem.2
 
 Uz tāfeles uzrakstītas $11$ daļas, kuru skaitītāji un saucēji ir
 visi naturālie skaitļi no $1$ līdz $22$. Kāds lielākais iespējamais
@@ -1018,7 +1110,7 @@ skaits no šīm daļām var būt veseli skaitļi?
 
 
 
-# <lo-sample/> EE.LVS.2017.noorem.3
+# <lo-sample/> EE.LVS.2016.noorem.3
 
 Juku izvirzīja matemātiskā pulciņā šādu hipotēzi: Vienmēr, 
 ja divu savstarpēju pirmskaitļu $x$ un $y$ reizinājums 
@@ -1039,7 +1131,7 @@ $\mbox{НОД}(a, b) = 1$.
 
 
 
-# <lo-sample/> EE.LVS.2017.noorem.6
+# <lo-sample/> EE.LVS.2016.noorem.6
 
 Vai eksistē tāds naturāls skaitlis $n$, kuram ir tieši $9$ pozitīvi 
 dalītāji, bet visus tā dalītājus var novietot tabulā 
@@ -1055,7 +1147,7 @@ $9$ положительных делителей, а все его делите
 
 
 
-# <lo-sample/> EE.LVS.2017.vanem.2
+# <lo-sample/> EE.LVS.2016.vanem.2
 
 Definējam virkni $a_1=1$ un $a_n = n \cdot a_{\lfloor{}n/2\rfloor}$, 
 visiem $n>1$. Pierādīt, ka $a_n>n^2$  
@@ -1078,7 +1170,7 @@ $a_5 = 5 \cdot a_2$ и т.д.
 
 
 
-# <lo-sample/> EE.LVS.2017.vanem.3
+# <lo-sample/> EE.LVS.2016.vanem.3
 
 Kati un Peeter spēlē sekojošu spēli. Vispirms Kati uzraksta uz tāfeles
 kādu naturālu skaitli $a > 2016$. Pēc tam Peeter pieraksta jaunus skaitļus: 
@@ -1101,7 +1193,7 @@ viņai jāuzraksta uz tāfeles, lai uzvarētu?
 
 
 
-# <lo-sample/> EE.LVS.2017.vanem.6
+# <lo-sample/> EE.LVS.2016.vanem.6
 
 Atrast visus naturālos skaitļus $n$, kuriem visus $n$ pozitīvos dalītājus
 var bez atkārtošanās izrakstīt taisnstūrveida tabulā tā, lai katrā tabulas 
@@ -1118,7 +1210,7 @@ un arī skaitļu summas visās tabulas kolonnās ir vienādas.
 
 
 
-# <lo-sample/> EE.LVT.2017.noorem.2
+# <lo-sample/> EE.LVT.2016.noorem.2
 
 Juku iedomājās trīsciparu skaitli. Ja šī skaitļa ciparus pieraksta pretējā secībā, 
 tad iegūst to pašu trīsciparu skaitli. Juku ievēroja, ka, pieskaitot iedomātajam 
@@ -1135,7 +1227,7 @@ tā ciparus pretējā secībā. Kādu skaitli iedomājās Juku?
 
 
 
-# <lo-sample/> EE.LVT.2017.noorem.3
+# <lo-sample/> EE.LVT.2016.noorem.3
 
 Ar $n$ apzīmēts naturāls skaitlis. Pierādīt, ka mazākais kopīgais dalāmais 
 jebkuriem $n$ pēc kārtas sekojošiem naturāliem skaitļiem dalās ar mazāko kopīgo 
@@ -1154,7 +1246,7 @@ kurš dalās ar visiem šiem skaitļiem.
 
 
 
-# <lo-sample/> EE.LVT.2017.noorem.4
+# <lo-sample/> EE.LVT.2016.noorem.4
 
 a) Vai jebkuriem diviem vienādas paritātes skaitļiem $a$ un $b$ var atrast 
 tādus daļskaitļus $x$ un $y$, ka gan $x+y$, gan $ax+by$ ir veseli skaitļi?  
@@ -1178,14 +1270,14 @@ skaitļiem viens ir pāru un otrs ir nepāru.
 
 
 
-# <lo-sample/> EE.LVT.2017.vanem.1
+# <lo-sample/> EE.LVT.2016.vanem.1
 
 Sniegpārsliņas aplīšos ierakstīti visi naturālie skaitļi no $1$ līdz $13$ tā, 
 ka piecu skaitļu summa uz katras no taisnēm un arī septiņu centrālo 
 skaitļu summa visas ir vienādas savā starpā. Atrast šo summu, ja
 zināms, ka tā ir mazākā iespējamā.
 
-![Sniegpārsliņa](EE.LVT.2017.vanem.1.png)
+![Sniegpārsliņa](EE.LVT.2016.vanem.1.png)
 
 <!--
 В снежинке в кружках записаны все натуральные
@@ -1197,13 +1289,13 @@ zināms, ka tā ir mazākā iespējamā.
 
 
 
-# <lo-sample/> EE.LVT.2017.vanem.2
+# <lo-sample/> EE.LVT.2016.vanem.2
 
 Cik veidos var aizstāt burtus ar cipariem tā, lai iegūtu pareizu 
 saskaitīšanas darbību? Vienādiem burtiem visur atbilst vienādi cipari, 
 dažādiem burtiem - dažādi cipari. 
 
-![Skaitļu rēbuss](EE.LVT.2017.vanem.2.png)
+![Skaitļu rēbuss](EE.LVT.2016.vanem.2.png)
 
 <!--
 Сколькими способами можно заменить буквы на цифры так, чтобы получилось 
@@ -1213,7 +1305,7 @@ dažādiem burtiem - dažādi cipari.
 
 
 
-# <lo-sample/> EE.LVT.2017.vanem.3
+# <lo-sample/> EE.LVT.2016.vanem.3
 
 Mašai dārzā ir elektriskais karuselis, kurā viņa katru dienu vizinās. 
 Viņai patīk kārtība, tādēļ pēc lietošanas vienmēr atstāj karuseli 
@@ -1243,7 +1335,10 @@ $\frac{1}{32}$ оборота. Каждый из медведей может в�
 
 
 
-# <lo-sample/> EE.LVS.2018.noorem.3
+
+
+
+# <lo-sample/> EE.LVS.2017.noorem.3
 
 Mari ieraksta burtnīcā $8$ pirmskaitļus, kas mazāki par $200$ (starp 
 šiem pirmskaitļiem var būt arī atkārtojumi). Pirmajam 
@@ -1260,12 +1355,12 @@ dalīties iegūtais reizinājums.
 
 
 
-# <lo-sample/> EE.LVS.2018.noorem.4
+# <lo-sample/> EE.LVS.2017.noorem.4
 
 Cik veidos zīmējumā var aizstāt burtus ar cipariem tā, lai rastos pareiza darbība? 
 Vienādus burtus jāaizstāj ar vienādiem cipariem, dažādus burtus - ar dažādiem cipariem. 
 
-![Skaitļu rēbuss](EE.LVS.2018.noorem.4.png)
+![Skaitļu rēbuss](EE.LVS.2017.noorem.4.png)
 
 <!--
 Сколькими способами можно на рисунке заменить буквы цифрами так, 
@@ -1275,7 +1370,7 @@ Vienādus burtus jāaizstāj ar vienādiem cipariem, dažādus burtus - ar daž�
 
 
 
-# <lo-sample/> EE.LVS.2018.vanem.2
+# <lo-sample/> EE.LVS.2017.vanem.2
 
 Atrast lielāko naturālo skaitli, kas nepārsniedz $500$ un kuram 
 nevar atrast citu naturālu skaitli, kas ir mazāks par $500$ un kurš
@@ -1289,7 +1384,7 @@ $500$, имеющего больше различных простых дели�
 
 
 
-# <lo-sample/> EE.LVS.2018.vanem.3
+# <lo-sample/> EE.LVS.2017.vanem.3
 
 Par racionālu skaitļu $u$ un $v$ mediānu sauc skaitli $x = \frac{a + c}{b + d}$, kur
 $\frac{a}{b}$ un $\frac{c}{d}$ Ir attiecīgi skaitļu $u$ un $v$ izteiksmes nesaīsināmu daļu veidā. 
@@ -1308,7 +1403,7 @@ $v$ таких, что $x$ будет медиантой $u$ и $v$.
 
 
 
-# <lo-sample/> EE.LVT.2018.noorem.2
+# <lo-sample/> EE.LVT.2017.noorem.2
 
 Pierakstā
 $$0\;\;1\;\;2\;\;3\;\;4\;\;5\;\;6\;\;7\;\;8\;\;9$$
@@ -1330,7 +1425,7 @@ $$0\;\;1\;\;2\;\;3\;\;4\;\;5\;\;6\;\;7\;\;8\;\;9$$
 
 
 
-# <lo-sample/> EE.LVT.2018.noorem.3
+# <lo-sample/> EE.LVT.2017.noorem.3
 
 Vai var atrast tādus četrus dažādus pirmskaitļus, no kuriem izvēloties jebkurus trīs, to summa arī ir pirmskaitlis. 
 
@@ -1341,7 +1436,7 @@ Vai var atrast tādus četrus dažādus pirmskaitļus, no kuriem izvēloties jeb
 
 
 
-# <lo-sample/> EE.LVT.2018.vanem.2
+# <lo-sample/> EE.LVT.2017.vanem.2
 
 Taisnleņka trijstūrī visi malu garumi ir veseli skaitļi. 
 Vienas katetes garums ir nepāru pirmskaitlis $p$. Atrast divu 
@@ -1355,7 +1450,7 @@ pārējo šī trijstūra malu garumus.
 
 
 
-# <lo-sample/> EE.LVT.2018.vanem.3
+# <lo-sample/> EE.LVT.2017.vanem.3
 
 Vai eksistē pieci dažādi pirmskaitļi, no kuriem izvēloties jebkurus trīs, to summa arī ir pirmskaitlis?
 
@@ -1365,7 +1460,7 @@ Vai eksistē pieci dažādi pirmskaitļi, no kuriem izvēloties jebkurus trīs, 
 
 
 
-# <lo-sample/> EE.LVS.2019.noorem.1
+# <lo-sample/> EE.LVS.2018.noorem.1
 
 Skaitļus $1,2,\ldots,2018$ pieraksta vienu pēc otra bez atstarpēm, 
 turklāt no pieraksta izlaiž visus ciparus $8$. Vai iegūtais skaitlis
@@ -1379,7 +1474,7 @@ dalās ar $3$?
 
 
 
-# <lo-sample/> EE.LVS.2019.noorem.3
+# <lo-sample/> EE.LVS.2018.noorem.3
 
 Naturāli skaitļi $n$, $m$ un $k$ ir tādi, ka $\mbox{MKD}(m,k)$ dalās ar
 $n$, bet $\mbox{MKD}(n,k)$ dalās ar $m$. Pierādīt, ka
@@ -1398,7 +1493,7 @@ $n\cdot\mbox{НОД}(m,k) = m\cdot\mbox{НОД}(n,k)$.
 
 
 
-# <lo-sample/> EE.LVS.2019.noorem.4
+# <lo-sample/> EE.LVS.2018.noorem.4
 
 
 Brālim Jüri ir māsa Mari. Viņu māte gaida dvīņus. Ja piedzimtu
@@ -1419,7 +1514,7 @@ mazāk māsu kā brāļu?
 
 
 
-# <lo-sample/> EE.LVS.2019.noorem.6
+# <lo-sample/> EE.LVS.2018.noorem.6
 
 Skaitļus no $1$ līdz $9$ ieraksta tabulā $3 \times 3$ rūtiņas tā, ka
 ikvienā rūtiņā ir viens skaitlis un skaitļi neatkārtojas.
@@ -1435,7 +1530,7 @@ kopīga mala un kur skaitlis no vienas rūtiņas dalās ar skaitli no otras rūt
 
 
 
-# <lo-sample/> EE.LVS.2019.vanem.3
+# <lo-sample/> EE.LVS.2018.vanem.3
 
 Bēniņos atrastam kalkulatoram ir taustiņi no $1$ līdz $9$ 
 un viens darbības taustiņš $\otimes$, kur 
@@ -1476,7 +1571,7 @@ $3$, $3$, $\otimes$, $4$, $4$, $\otimes$,
 
 
 
-# <lo-sample/> EE.LVT.2019.noorem.1
+# <lo-sample/> EE.LVT.2018.noorem.1
 
 a) Vai eksistē divi dažādi naturāli skaitļi, kuru kvadrātu summa ir 
 kāda vesela skaitļa kubs?  
@@ -1490,7 +1585,7 @@ b) Tas pats jautājums, ja kuba vietā ir ceturtā pakāpe.
 
 
 
-# <lo-sample/> EE.LVT.2019.noorem.3
+# <lo-sample/> EE.LVT.2018.noorem.3
 
 Nerātnais Juku nodzēsa desmitciparu skaitlim uz tāfeles 
 divus ciparus tā, ka palika pieraksts 
@@ -1508,7 +1603,7 @@ dalījās ar $99$.
 
 
 
-# <lo-sample/> EE.LVT.2019.noorem.4
+# <lo-sample/> EE.LVT.2018.noorem.4
 
 Uz datora ekrāna cits zem cita parādās skaitļi. 
 Vienmēr, ja pēc kārtas parādījās skaitļi $a$ un $b$, 
@@ -1526,7 +1621,7 @@ Atrast skaitli, kurš tur parādīsies kā $2018$-tais.
 
 
 
-# <lo-sample/> EE.LVT.2019.vanem.1
+# <lo-sample/> EE.LVT.2018.vanem.1
 
 Sauksim skaitli par *skaistu*, ja tas atšķiras
 no kāda vesela skaitļa kvadrāta mazāk nekā par $10\%$. 
@@ -1546,7 +1641,7 @@ $$x^3 + y^3 = z^2$$
 
 
 
-# <lo-sample/> EE.LVT.2019.vanem.3
+# <lo-sample/> EE.LVT.2018.vanem.3
 
 Naturāli skaitļi $a$ un $b$ ir tādi, 
 ka daļas 

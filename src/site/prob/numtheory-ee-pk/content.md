@@ -1,12 +1,6 @@
 # &nbsp;
 
-<hgroup>
-
-
-<h1 style="font-size:32pt">Skaitļu teorija:<br/>
-10.kl. Igaunijas olimpiādes</h1>
-
-</hgroup><hgroup>
+<h1 style="font-size:28pt">Skaitļu teorija: Igaunijas olimpiādes, 10.kl.</h1>
 
 * <blue>**EE.PK** - **Eesti Piirkonnavoor** (Igaunijas reģionu kārta)</blue>
 * **EE.LO** - Eesti Lõppvoor (Igaunijas gala/valsts kārta)
@@ -15,7 +9,6 @@
 
 [Matemaatikaolümpiaadid ](http://www.math.olympiaadid.ut.ee/html/index.php)
 
-</hgroup>
 
 
 
@@ -272,8 +265,8 @@ veselo skaitļu no $1$ līdz $n$ ciparu summa ir pāru skaitlis?
 
 Definējam funkcijas:
 
-* $P(n)$ - cik daudziem skaitļiem no $1$ līdz $n$ ciparu summa ir pāru skaitlis
 * $N(n)$ - cik daudziem skaitļiem no $1$ līdz $n$ ciparu summa ir nepāru skaitlis
+* $P(n)$ - cik daudziem skaitļiem no $1$ līdz $n$ ciparu summa ir pāru skaitlis
 * $f(n) = N(n) - P(n)$ - par cik nepāru ciparu summu bija vairāk nekā
 pāru ciparu summu skaitļiem intervālā $[1;n]$.
 
@@ -281,18 +274,27 @@ pāru ciparu summu skaitļiem intervālā $[1;n]$.
 
 ## Induktīvā pāreja
 
-Aplūkojam $f(n)$ vērtības visiem $n$, kas dalās ar $10$. 
+Aplūkojam $f(n)$ vērtības dažiem pirmajiem $n$: 
+
+<table>
+<tr>
+<th>$n$</th><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+</tr>
+<tr>
+<th>$f(n)$</th><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+</tr>
+</table>
+
+Tālāk - tiem $n$, kas dalās ar $10$.
 
 <table>
 <tr>
 <th>$n$</th><td>10</td><td>20</td><td>30</td><td>40</td></tr>
 </tr>
 <tr>
-<th>$f(n)$</th><td>10</td><td>20</td><td>30</td><td>40</td></tr>
+<th>$f(n)$</th><td>2</td><td>0</td><td>2</td><td>0</td></tr>
 </tr>
 </table>
-
-
 
 
 # <lo-sample/> EE.PK.2016.10.3
@@ -358,8 +360,21 @@ $x^2 + y^2 + z^2 + w^2 = 3 + xy + y z + zw$,
 <small>
 
 * [alg.ineq.fullsquare](#)
+* [alg.ineq.equations](#)
 
 </small>
+
+
+
+## Algebriski pārveidojumi nevienādībai
+
+$$2x^2 + 2y^2 + 2z^2 + 2w^2 = 6 + 2xy + 2yz + 2zw$$
+$$x^2+(x^2 - 2xy + y^2) + \ldots + (z^2 - 2zw + w^2) + w^2 = 6.$$
+$$x^2 + (x - y)^2 + (y-z)^2 + (z-w)^2 + w^2 = 6.$$
+
+Četru vai piecu nenulles pilnu kvadrātu summa nevar būt $6$, jo 
+neviens no šiem kvadrātiem nevar būt $2^2$ vai lielāks. 
+
 
 
 
@@ -408,6 +423,18 @@ $$\left\{ \begin{array}{l}
 \end{array}
 \right.$$
 
+## Risinām lineāru sistēmu
+
+$$\left\{ \begin{array}{l}
+x+y = -8 \\
+3x+4y = -3
+\end{array}
+\right.$$
+
+No pirmā vienādojuma izsaka $y=-8-x$ un ievieto otrajā:
+
+$3x + 4(-8-x) = -32-x = -3$. Tad $(x,y)=(-29,21)$.
+
 
 # <lo-sample/> EE.PK.2017.10.3
 
@@ -421,6 +448,52 @@ $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d
 $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d}.$$
 -->
 
+<small>
+
+* [misc.symmetry](#)
+* [misc.experiment](#)
+* [seq.arithm.expr](#)
+* [alg.sums.linear](#)
+
+</small>
+
+## Papildu pieņēmumi (simetrija)
+
+Tā kā visi skaitļi ir dažādi, tad varam ieviest apzīmējumus tā, 
+ka $\frac{1}{a} > \frac{1}{b} > \frac{1}{c} > \frac{1}{d}$ un 
+visas starpības ir pozitīvas. 
+
+Ja starpības patiesībā ir negatīvas, tad aizstājam $(a,b,c,d)$ ar
+pretējā secībā pārrakstītu skaitļu četrinieku $(d,c,b,a)$. 
+
+Varam tātad pieņemt, ka $a < b < c < d$ un tad tiem 
+apgrieztie skaitļi veido dilstošu aritmētisku progresiju. 
+
+## Sākam ievietot vērtības skaitlim a
+
+* Ja $a=2$, tad nesanāk, jo pat tuvākā starpība: $\frac{1}{2}-\frac{1}{3}$
+jeb aritmētiskās progresijas diference ir $1/6$ un no $\frac{1}{2}$ to 
+nevar atņemt trīsreiz, lai rezultāts joprojām būtu pozitīvs.
+* Ja $a=3$, tad sanāk progresija: 
+$$\frac{1}{3},\frac{1}{4},\frac{1}{6},\frac{1}{12}$$
+
+## Izmantojam linearitāti
+
+Eksistējošu atrisinājumu var piereizināt
+ar vienu un to pašu skaitli $m$: 
+
+No 
+$$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d}.$$
+izriet, ka arī
+$$\frac{1}{ma} - \frac{1}{mb} =\frac{1}{mb} - \frac{1}{mc} =\frac{1}{mc} - \frac{1}{md}.$$
+
+## Atbildes
+
+Tātad bez $(a,b,c,d)=(3,4,6,12)$ var ņemt arī 
+$(a,b,c,d)=(6,8,12,24)$, utt.
+
+Eksistē arī citādas atbildes, kuras uz $(3,4,6,12)$ vai tā 
+daudzkārtņiem reducēt nevar. 
 
 
 # <lo-sample/> EE.PK.2018.10.3
@@ -439,7 +512,49 @@ Atrast visas iespējamās vērtības Mari iedomātajam skaitlim.
 Найти все возможные значения задуманного Машей числа.
 -->
 
+<small>
 
+* [alg.equation](#)
+* [notation.dec.combine.poly](#)
+* [misc.exhaustive](#)
+
+</small>
+
+
+## Vienādojuma sastādīšana
+
+* $x$ ... tāds bija Mari iedomātais skaitlis. 
+* Tad $3x=\overline{abc}$ un $4x=\overline{cab}$. 
+* No desmitkāršota $4x=\overline{cab}$ atņemsim 
+ $3x=\overline{abc}$ (lai $a$ un $b$ noīsinātos). 
+
+$$40x - 3x = \overline{cab0}-\overline{abc}=\overline{c000} - c = 999\cdot{}c.$$
+
+Iegūstam, ka $37x = 999c$ jeb $x = 27c$, kur $c$ ir cipars. 
+
+## Gadījumu pārlase
+
+* Cipars $c \neq 0$, jo citādi 
+$\overline{cab}$ nebūtu trīsciparu. 
+* Cipars $c \neq 1$, jo $3 \cdot 27 = 81$ nav trīsciparu.
+* Astoņas citas vērtības $c=2,3,4,5,6,7,8,9$ der. 
+
+Apkopojam tabulā $x=27c$, $3x$ un $4x$:
+
+<table>
+<tr>
+<th>$x$</th><td>54</td><td>81</td><td>108</td><td>135</td><td>162</td><td>189</td><td>216</td><td>243</td>
+</tr>
+<tr>
+<th>$3x$</th><td>162</td><td>243</td><td>324</td><td>405</td><td>486</td><td>567</td><td>648</td><td>729</td>
+</tr>
+<tr>
+<th>$4x$</th><td>216</td><td>324</td><td>432</td><td>540</td><td>648</td><td>756</td><td>864</td><td>972</td>
+</tr>
+</table>
+
+Pēdējā rindiņā skaitļi iegūstami, pārceļot priekšpēdējās rindiņas skaitlim 
+pēdējo ciparu uz sākumu.
 
 
 # <lo-sample/> EE.PK.2019.10.3
@@ -451,5 +566,42 @@ kas apmierina vienādību $22a + 15b = 2019$?
 Сколько найдётся пар неотрицательных целых чисел $(a, b)$, 
 удовлетворяющих равенству $22a + 15b = 2019$?
 -->
+
+<small>
+
+* [misc.extreme.param](#)
+* [mod.expr.sum](#)
+* [misc.experiment](#)
+* [seq.arithm.mod.gaps](#)
+
+</small>
+
+## Lielākā iespējamā a vērtība
+
+Iedomāsimies, ka vispirms vēlamies atrast lielāko 
+iespējamo $a$ un mazāko $b$. T.i. cik reizes saskaitāmo 
+$22$ var iekļaut garajā summā, kas ir $2019$. 
+
+$$2019:22\;=\;91,\,\mbox{Atl.}17$$
+
+* Acīmredzot, $17$ nedalās ar $15$, t.i. pie $a=91$ vienādojumu 
+atrisināt nevar. 
+* Pakāpeniski samazinām $a$ par $k=1,2,\ldots$.
+* Gaidām brīdi, kad $17+22k$ jeb $17+7k$ dalās ar $15$. 
+* Pie $k=4$ izteiksme $17 + 7\cdot{}4=17+28=45$ dalās ar $15$.
+* Tātad, $a=91$ jāsamazina par $4$, t.i. der $a=87$. 
+
+## 2 pretējas aritmētiskas progresijas
+
+Pirmais atrisinājums ir $(a,b)=(87,7)$, jo 
+$$87\cdot{}22+7\cdot{}15=2019$$. 
+
+* Aritmētiskajā progresijā $c_k=2019-15k$ katrs $22$-tais loceklis
+dalās ar $22$, jo diference $-15$ ir savstarpējs pirmskaitlis ar $22$. 
+* Tātad, der $b=7,29,51,\ldots$ savukārt $a$ vērtībai (ja $b$ pieaug
+par $22$) ir jāsamazinās par $15$, lai summa nemainītos. 
+* Iegūstam atrisinājumus $(a;b)$:
+$$(87;7),\;(72;29),\;(57;51),\;(42;73),\;(27;95),\;(12;117).$$
+
 
 

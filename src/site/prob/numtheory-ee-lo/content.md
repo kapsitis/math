@@ -1,12 +1,6 @@
 # &nbsp;
 
-<hgroup>
-
-
-<h1 style="font-size:32pt">Skaitļu teorija:<br/>
-10.kl. Igaunijas olimpiādes</h1>
-
-</hgroup><hgroup>
+<h1 style="font-size:28pt">Skaitļu teorija: Igaunijas olimpiādes, 10.kl.</h1>
 
 * EE.PK - Eesti Piirkonnavoor (Igaunijas reģionu kārta)
 * <blue>**EE.LO** - **Eesti Lõppvoor** (Igaunijas gala/valsts kārta)</blue>
@@ -15,7 +9,6 @@
 
 [Matemaatikaolümpiaadid ](http://www.math.olympiaadid.ut.ee/html/index.php)
 
-</hgroup>
 
 
 
