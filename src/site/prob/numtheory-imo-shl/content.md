@@ -4,6 +4,7 @@
 
 * <blue>**IMO** - **International Mathematical Olympiad** (Starptautiskā matemātikas olimpiāde)</blue>
 * <span style="color:#FF6C0C">**IMO.SHL** - **IMO Shortlists** (IMO īsie saraksti)</span>
+* Krājumā nav iekļauti uzdevumi **IMO.2017.6** un **IMO.2018.3**.
 
 ["IMO Official" page](https://www.imo-official.org/problems.aspx)
 
