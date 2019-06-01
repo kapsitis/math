@@ -1,6 +1,6 @@
-# Skaitļu teorija (LT, 10.kl.)
+# &nbsp;
 
-<div style="font-size:100%">
+<h1 style="font-size:28pt">Skaitļu teorija (LT, 10.kl.)</h1>
 
 * **LT.LKMMO** - Lietuvos komandinė mokinių matematikos 
 olimpiada (Lietuvas komandveida skolēnu matemātikas olimpiāde)
@@ -15,14 +15,11 @@ rīkota olimpiāde skolēniem)</blue>
 
 [Matematikos olimpiados](http://mif.vu.lt/matematikos-olimpiados/)
 
-</div>
-
-
 
 
 # <lo-sample/> LT.VUMIF.2016.9.3
 
-Atrodiet visas naturālas $n$ vērtības, kurām skaitli s
+Atrodiet visas naturālas $n$ vērtības, kurām skaitlis
 $\frac{n^3 + 3}{n^2 + 7}$
 ir naturāls.
 
@@ -31,6 +28,42 @@ Raskite visas natūraliąsias $n$ reikšmes, su kuriomis skaičius
 $\frac{n^3 + 3}{n^2 + 7}$
 yra natūralusis.
 -->
+
+<small>
+
+* [alg.poly.division](#)
+* [alg.ineq.equations](#)
+* [misc.exhaustive](#)
+
+</small>
+
+## Dalām divus polinomus
+
+Ja skaitītājā polinoma pakāpe (kubs) ir vismaz tāda
+pati kā saucējā (kvadrāts), tad tos var dalīt, iegūstot
+atlikumu:
+
+$$\frac{n^3 + 3}{n^2 + 7} = \frac{n(n^2 + 7) - 7n + 3}{n^2 + 7} = 
+n + \frac{-7n+3}{n^2 + 7}.$$
+
+* Skaitītājs un saucējs ir pozitīvi naturāliem $n$, t.i. dalījums
+būs naturāls t.t.t. ja daļa $\frac{-7n+3}{n^2+7}$ ir vesela. 
+* Ja $n \geq 7$, tad daļa nav vesela, jo
+$$|n^2 + 7| \geq |7n + 7| > |-7n+3|$$
+
+## Pilnā pārlase
+
+$\frac{-7n+3}{n^2+7}$ ievietojam 
+visas vērtības $n=1,2,3,4,5,6$. (Lielākas ievietojot, 
+nav cerību iegūt naturālu skaitli, 
+jo tām saucēja modulis pārsniedz skaitītāja
+moduli.)
+
+* Ja $n=2$, tad $\frac{-7n+3}{n^2 + 7} = \frac{-11}{11} = -1$. 
+* Ja $n=5$, tad $\frac{-7n+3}{n^2 + 7} = \frac{-32}{32} = -1$. 
+* Vērtībām $n=1,3,4,6$ sanāk daļskaitļi.
+
+
 
 # <lo-sample/> LT.VUMIF.2016.10.3
 
@@ -43,6 +76,14 @@ Raskite mažiausią natūralųjį skaičių $n$, kuriam skaičiai
 $\sqrt[5]{5n}$, $\sqrt[6]{6n}$, $\sqrt[7]{7n}$
 yra natūralieji.
 -->
+
+<small>
+
+* [div.pfactor.powers.higher](#)
+* 
+
+
+</small>
 
 # <lo-sample/> LT.VUMIF.2016.11_12.1
 

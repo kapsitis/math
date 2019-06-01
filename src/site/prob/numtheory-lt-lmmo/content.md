@@ -1,6 +1,6 @@
-# Skaitļu teorija (LT, 10.kl.)
+# &nbsp;
 
-<div style="font-size:100%">
+<h1 style="font-size:28pt">Skaitļu teorija (LT, 10.kl.)</h1>
 
 * **LT.LKMMO** - Lietuvos komandinė mokinių matematikos 
 olimpiada (Lietuvas komandveida skolēnu matemātikas olimpiāde)
@@ -14,8 +14,6 @@ informatikos fakulteto olimpiada (Viļņas universitātes
 rīkota olimpiāde skolēniem)
 
 [Matematikos olimpiados](http://mif.vu.lt/matematikos-olimpiados/)
-
-</div>
 
 
 # <lo-sample/> LT.LMMO.2010.9_10.4
