@@ -87,19 +87,62 @@ Vai skaitli $2013$ var izteikt kā divu veselu skaitļu kubu starpību?
 <small>
 
 * [mod.cases.cubes](#)
+* [mod.exponent.small](#)
 * [notation.divrules.3or9.remainder](#)
+* [mod.expr.diff](#)
+* [mod.equation.contradict](#)
 
 </small>
 
 
+## Stratēģija: Pāreja uz atlikumiem
+
+* Ne visi atlikumi ir iespējami, ja pilnu kubu dala ar $m$:
+
+**Apgalvojums:**
+ 
+* $n^3$, dalot ar $m=7$, dod atlikumus
+$0,1,6$ ($6$ vietā var rakstīt arī $-1$, kas atšķiras no $6$ par $7$). 
+* $n^3$, dalot ar $m=9$, dod atlikumus
+$0,1,8$ ($6$ vietā var rakstīt arī $-1$). 
+
+Apgalvojumu priekš $m=7$ pierāda, kāpinot skaitļus no $0$ līdz $6$ kubā, 
+aplūkojot atlikumus. Lielākiem skaitļiem atlikumi atkārtosies.  
+Priekš $m=9$ līdzīgi aplūko skaitļus no $0$ līdz $8$
+(vai, ja vēlamies, no $-4$ līdz $4$). 
+
+## Pretrunas modulis
+
+$2013$ dod atlikumu $6$, dalot ar $9$ (un atlikumu $4$, dalot ar $7$).  
+Atlikumu $4$, dalot ar $7$, nevar iegūt kā divu kubu starpību.
+Aplūkojam "atņemšanas tabulu" atlikumiem, dalot ar $m=7$:
+
+<table>
+<tr>
+<th>$(\mbox{mod}\,7)$</th><th>0</th><th>1</th><th>6</th>
+</tr>
+<tr>
+<th>0</th><td>0</td><td>6</td><td>1</td>
+</tr>
+<tr>
+<th>1</th><td>1</td><td>0</td><td>2</td>
+</tr>
+<tr>
+<th>6</th><td>6</td><td>5</td><td>0</td>
+</tr>
+</table>
+
+Atņemot divus pilnus kubus, atlikums dalot ar $7$ var būt
+$0,1,2,5,6$, bet tas nevar būt $4$.  
+(Līdzīgu spriedumu var arī par atlikumiem, dalot ar $m=9$.)
 
 # <lo-sample/> EE.LO.2014.10.1
 
 Ar $a$ un $n$ apzīmēti naturāli skaitļi. Pierādīt, ka 
 $$\left\lfloor \frac{a}{n} \right\rfloor + \left\lfloor \frac{a+1}{n} \right\rfloor + \ldots + \left\lfloor \frac{a+n-1}{n} \right\rfloor = a.$$
-*Piezīme. Katram reālam skaitlim $x$, 
+*Piezīme.* Katram reālam skaitlim $x$, 
 $\lfloor x \rfloor$ apzīmē skaitļa $x$ (apakšējo) veselo daļu, 
-t.i. vislielāko veselo skaitli, kas nepārsniedz $x$.*
+t.i. vislielāko veselo skaitli, kas nepārsniedz $x$.
 
 
 <!-- 
@@ -156,7 +199,7 @@ secībā. Apzīmēsim viena zem otra uzrakstīto skaitļu reizinājumu
 summu ar $S(n)$. Piemēram, 
 $S(6) = 1\cdot{}6 + 2\cdot{}5 + 3\cdot{}4 + 4\cdot{}3 + 5\cdot{}2 + 6\cdot{}1 = 56$.)
 Pierādīt, ka jebkuram naturālam skaitlim $n$ izpildās vienādības
-$$S(n + 1) − S(n) = 1 + 2 + . . . + n + (n + 1),$$
+$$S(n + 1) − S(n) = 1 + 2 + \ldots + n + (n + 1),$$
 $$S(n + 1) + S(n) = 1^2 + 2^2 + \ldots + n^2 + (n + 1)^2.$$
 
 <!--
@@ -165,7 +208,7 @@ $$S(n + 1) + S(n) = 1^2 + 2^2 + \ldots + n^2 + (n + 1)^2.$$
 произведений записанных друг над другом чисел через $S(n)$. (Например,
 $S(6) = 1\cdot{}6 + 2\cdot{}5 + 3\cdot{}4 + 4\cdot{}3 + 5\cdot{}2 + 6\cdot{}1 = 56$.)
 Доказать, что для каждого натурального числа $n$ выполняются равенства
-$$S(n + 1) − S(n) = 1 + 2 + . . . + n + (n + 1),$$
+$$S(n + 1) − S(n) = 1 + 2 + \ldots + n + (n + 1),$$
 $$S(n + 1) + S(n) = 1^2 + 2^2 + \ldots + n^2 + (n + 1)^2.$$
 -->
 
@@ -186,7 +229,7 @@ par skaitli, ko iegūst, pārliekot pirmo ciparu uz beigām.
 # <lo-sample/> EE.LO.2016.10.2
 
 Atrast visus veselu skaitļu pārus $(a,b)$, kuriem izpildās vienādība
-$$3(a^2 + b^2) − 7(a + b) = −4.$$
+$$3(a^2 + b^2) - 7(a + b) = -4.$$
 
 <!--
 Найти все пары целых чисел $(a, b)$, для которых выполняется равенство
@@ -271,6 +314,25 @@ Atrast visus veselu skaitļu pārus $(x, y)$, kuriem $x − y = \frac{x}{y}$.
 <!--
 Найти все пары целых чисел $(x, y)$, при которых $x − y = \frac{x}{y}$.
 -->
+
+<small>
+
+* [alg.factorize](#)
+* [div.common.gcd.subsequent](#)
+
+</small>
+
+## Algebrisks pārveidojums
+
+$$xy - y^2 = x\;\Rightarrow\;xy-x=y^2\;\Rightarrow\;x(y-1)=y^2.$$
+
+* Ja $y \geq 0$, tad der $y=2$. Un atrisinājums $(x;y)=(4;2)$.
+* Citi $y \geq 0$ neder: 
+    - $y=0$ neder (ar nulli nevar dalīt)
+    - $y=1$ neder, jo $x-1 \neq x$
+    - $y^2$ nedalās ar $y-1$, ja tas lielāks par $1$. 
+* Vērtības $y < 0$ arī neder (arī $y^2$ nedalās ar $y-1$, kas
+ir divi pēc kārtas sekojoši skaitļi, kuriem nav kopīgu dalītāju).
 
 
 

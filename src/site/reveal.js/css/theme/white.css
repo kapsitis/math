@@ -72,8 +72,7 @@ body {
 
 
 /* KAP added */
-.reveal h1.sample {
-  background-color: #FF6C0C;
+.reveal h1.sample, .reveal h1.summary {
   color: white;
   padding: 2px 20px 2px 20px;
   -moz-border-radius-topleft: 20px;
@@ -87,6 +86,16 @@ body {
   border-bottom-left-radius: 20px;
   -moz-border-radius-bottomleft: 20px;
   -webkit-border-bottom-left-radius: 20px;
+}
+
+/* KAP added */
+.reveal h1.sample {
+  background-color: #FF6C0C;
+}
+
+/* KAP added */
+.reveal h1.summary {
+  background-color: #0095CD;
 }
 
 
