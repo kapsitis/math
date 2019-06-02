@@ -1,8 +1,10 @@
-# Skaitļu teorija: 10.kl. LV
+# &nbsp;
+
+<h1 style="font-size:28pt">Skaitļu teorija: 10.kl. LV</h1>
 
 * 10.kl. skaitļu teorija (no 2010.g.)
     - LV.NO - novadu olimpiāde (2.posms)
-    - LV.VO - valsts olimpiāde (3.posms)
+    - <blue>LV.VO - valsts olimpiāde (3.posms)</blue>
     - LV.AO - atklātā olimpiāde
 
 

@@ -313,8 +313,8 @@ b) $n = 3$?
 
 <small>
 
-* [div.alg]
-* [div.common.lcm.frac]
+* [div.alg](#)
+* [div.common.lcm.frac](#)
 
 </small>
 
