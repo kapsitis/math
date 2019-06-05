@@ -235,6 +235,57 @@ $(m, n)$, tenkinančias lygybę
 $$m^2 + 2m - 9 = n^2 + n.$$
 -->
 
+<small>
+
+* [alg.completesquare](#)
+* [seq.gaps.squares](#)
+* [alg.ineq.monotonicity](#)
+* [misc.exhaustive](#)
+
+</small>
+
+## Atdalām pilno kvadrātu
+
+Pārrakstām doto vienādību:  
+$m^2 +2m +1 -10 = n^2 + n.$  
+$(m+1)^2 = n^2 + n + 10.$
+
+Jāatrod tie $n$, kuriem 
+$n^2 + n + 10$ ir pilns kvadrāts, tad
+$$m = \sqrt{n^2+n+10} - 1.$$
+
+## Atstarpes starp blakus kvadrātiem
+
+* Aiz $n^2$ nākamais pilnais kvadrāts ir 
+$(n+1)^2 = n^2 + 2n + 1$, bet iepriekšējais
+pilnais kvadrāts ir $n^2 - 2n + 1$. 
+* Ja $n>0$, tad pie $n \geq 10$:
+$$n^2 + n + 10 < n^2 + 2n + 1.$$
+* Ja $n=0$, tad $n^2 + n + 10 = 10$ nav pilns kvadrāts.
+* Ja $n<0$, tad $f(n) = n^2 + n + 10$ 
+pieņem vērtības $10,12,16,22,30,40,52,66,82,100,\ldots$
+pie $n \in \{ -1,-2,\ldots,-10 \}$. 
+* Parabola $n^2 + n + 10$ ir simetriska, tāpēc
+vērtība pie pozitīva $n_1$ ir tāda pati kā pie negatīva 
+$-1-n_1$. 
+
+
+## Pilnā pārlase pozitīvo n atrašanai
+
+* Ievietojam $n$ vērtības $1,2,\ldots,10$. 
+* $n^2 + n+10$ attiecīgās vērtības ir 
+$12,16,22,30,40,52,66,82,100,120$
+* Kopā ar negatīvajām vērtībām, iegūstam, ka 
+$n$ vērtības var būt $-10,-3,2,9$. 
+* Atrisinājumi:
+$$(m,n) \in \{ (9; -10), (3; -3), (3; 2), (9; 9) \}.$$
+
+
+
+
+
+
+
 # <lo-sample/> LT.VUMIF.2017.11_12.2
 
 Atrodiet vienādojuma
