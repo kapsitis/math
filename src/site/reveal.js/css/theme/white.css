@@ -98,6 +98,12 @@ body {
   background-color: #0095CD;
 }
 
+/* KAP added */
+hgroup {
+  float: left;
+  width: 50%;
+}
+
 
 .reveal h1 {
   font-size: 1.2em; 
