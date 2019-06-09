@@ -656,7 +656,7 @@ TODO: Trīs ciparnīcas
 **BW.2016.5:** Dots pirmskaitlis $p>3$, kuram $p \equiv 3\;(\mbox{mod}\,4)$. 
 Dotam naturālam $n$
 skaitlim $a_0$ virkni $a_0, a_1,\ldots$ definē kā 
-$a_n = $a_{n-1}^{2^n}$ visiem $n = 1, 2,\ldots$. 
+$a_n = a_{n-1}^{2^n}$ visiem $n = 1, 2,\ldots$. 
 Pierādīt, ka $a_0$ var izvēlēties
 tā, ka apakšvirkne $a_N, a_{N+1}, a_{N+2},\ldots$ nav konstanta 
 pēc moduļa $p$ nevienam naturālam $N$.
@@ -729,10 +729,8 @@ abc
 
 * Tai vietā, lai risinātu kongruences pēc salikta skaitļa $m$ moduļa, var 
 tās risināt pret pirmskaitļiem (vai to pakāpēm) un rezultātus kombinēt. 
-* Ķīniešu atlikumu teorēma ļauj uzkonstruēt (parasti milzīgi lielu) 
-skaitli ar neparastām īpašībām. Piemēram, lietojot "diagonalizācijas spriedumus" - 
-katrā kongruencē "pievienojot" jaunu īpašību pret kādu pirmskaitli $p_k$;
-konstruēt skaitli pēc šo pirmskaitļu reizinājuma $P = p_1p_2\ldots{}p_n$ moduļa.
+* Ķīniešu atlikumu teorēma ļauj konstruēt (parasti milzīgi lielu) 
+skaitli ar speciālām īpašībām.
 
 </hgroup>
 
@@ -774,7 +772,7 @@ $$x \equiv 52\;(\mbox{mod}\,105)$$
 
 ![Atlikumi ar 35](mod35.jpg)
 
-Atlikumu pārim $(6;2)$ dalot attiecīgi ar $(7;5)$ atbilst
+Atlikumu pārim $(6;2)$ dalot attiecīgi ar $7$ un $5$ atbilst
 atlikums $27$, dalot ar $35$. 
 
 
@@ -799,8 +797,8 @@ nav pirmskaitļa pakāpe, ieskaitot pirmo.
 # <lo-sample/> IMO.2009.1
 
 Dots naturāls skaitlis $n$ un $a_1, a_2, a_3, \ldots, a_k$ ($k \geq 2$) 
-ir dažādi veseli skaitļi no kopas $\{1, 2, \ldots , n\}$ ka $n$ dala $a_i (a_{i+1} − 1)$
-pie $i = 1, 2,\ldots,k−1$. Pierādīt, a $n$ nedala $a_k(a_1−1)$.
+ir dažādi veseli skaitļi no kopas $\{1, 2, \ldots , n\}$ ka $n$ dala $a_i (a_{i+1} - 1)$
+pie $i = 1, 2,\ldots,k-1$. Pierādīt, ka $n$ nedala $a_k(a_1-1)$.
 
 # <lo-sample/> IMO.2016.4/IMO.SHL.2016.N3
 
