@@ -3,7 +3,6 @@
 <hgroup>
 
 <h1 style="font-size:32pt">Skaitļu reizināšanas struktūras</h1>
-
 </hgroup><hgroup>
 
 <span style="color:darkgreen">**(1) Grupas un to īpašības**</span>  
@@ -15,6 +14,56 @@
 (7) [Henzela lemma](#section-6)
 
 </hgroup>
+
+## Grupu motivācija
+
+<hgroup>
+
+<div style="font-size:40pt; color:darkgreen">Kāpēc jādefinē grupas, gredzeni, lauki u.c. abstraktās algebras struktūras?</div>
+
+</hgroup>
+
+<hgroup>
+
+* Īsi un korekti formulē algebrisku struktūru pamatīpašības.
+* Klasificē matemātisko objektu/operāciju zvērudārzu pēc šīm īpašībām. 
+* Pārnes izpētītās lietas uz jaunām algebriskām struktūrām.
+
+</hgroup>
+
+## (1) Ceļa karte
+
+<table>
+<tr>
+<td style="text-align:left">
+**Monoīdi:**  
+$\mathbb{N}$ ar reizināšanu  
+$\mathbb{Z}_{0+}$ ar saskaitīšanu  
+Funkcijas ar kompozīciju
+</td>
+<td style="text-align:left; background-color: lightblue;">
+**Grupas:**  
+$\mathbb{Z}$ ar saskaitīšanu  
+$\mathbb{Q}_{\neq 0}$ ar reizināšanu  
+Bijektīvas funkcijas ar kompozīciju 
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+**Gredzeni:**  
+$\mathbb{Z}$ ar saskaitīšanu, reizināšanu  
+Kongruenču klases $\mathbb{Z}_n$  
+Viena mainīgā polinomi
+</td>
+<td style="text-align:left">
+**Lauki:**  
+$\mathbb{Q}$ ar saskaitīšanu, reizināšanu  
+Kongruenču klases $\Phi(p)$ pirmskaitlim $p$  
+Viena mainīgā racionālas daļas
+</td>
+</tr>
+</table>
+
 
 # <lo-summary/> Grupas definīcija
 
@@ -59,6 +108,21 @@ Un $\left( a^{-1} \right)^{-1} = a$ ($a$ inversā
 inversais ir pats $a$).
 
 
+## Citas grupu īpašības
+
+**Apgalvojums:** (1) Ja $\mathbb{G}$ ir grupa ar (kreiso) vienības elementu $e$, 
+tad tas ir arī labais vienības elements:
+$$(\forall a \in \mathbb{G})(a \ast e = a).$$
+(2) Katrā grupā ir tieši viens vienības elements. 
+
+**Pierādījums:** (1) Pārveidojam izteiksmi $a \ast e = a \ast a^{-1} \ast a$:
+$$a \ast (a^{-1} \ast a) = (a \ast a^{-1}) \ast a = e \ast a = a.$$
+(2) Ja būtu divi vienības elementi $e_1$ un $e_2$, tad
+$$e_1 = e_1 \ast e_2 = e_2.\;\blacksquare$$
+
+
+
+
 # <lo-summary/> Bijektīvi pārveidojumi veido grupu
 
 ![Simetriju grupa](symmetric-group.png)
@@ -99,20 +163,43 @@ $$\mathbb{Z} = \{ 0,1,2,\ldots,m-1 \}.$$
 operāciju veido grupu: $(\mathbb{Z}_m)^{+}$. 
 
 
-
-
 ## Aditīvā cikla garums 
 
-**Apgalvojums:** Naturāliem skaitļiem $m$ un $d$, 
-aritmētiskās progresijas $a_k = a_0 + k \cdot d$ 
-cikls iestājas pēc 
-$$l = \frac{m}{\mbox{LKD}(a,m)}$$
-soļiem. 
+**Apgalvojums:** Naturāliem skaitļiem $m$ un $d$ apskatām 
+"aritmētisku progresiju" ar kongruenču klasēm:
+$$a_k = (a_0 + k \cdot d)\,\mbox{mod}\,m.$$ 
+Tad šīs progresijas periods jeb cikla garums - mazākais $L$, kuram $a_0=a_L$
+(un vispār $a_k \equiv a_{k+L}$ ir 
+$$L = \frac{m}{\mbox{LKD}(a,m)}.$$ 
+
+## Piemērs par aditīvo ciklu
+
+<hgroup>
+
+TODO: Bilde ar ciparnīcu.
+
+</hgroup>
+
+
+<hgroup> 
 
 **Piemērs:** Ja pulksteņa stundu rādītājam ir $m=12$ stāvokļi
 un to ikreiz padzen uz priekšu par $9$ stundām, tad 
 pēc $\frac{12}{\mbox{LKD}(9,12)} = \frac{12}{3}=4$ soļiem 
 rādītājs atgriezīsies sākumstāvoklī. 
+
+</hgroup>
+
+
+## Aditīvā apgalvojuma pierādījums
+
+*Pierādījums:* Ja $T \in \mathbb{N}$ ir kaut kāds skaitlis, kuram 
+izpildās $a_k \equiv a_{k+T}\;(\mbox{mod}\,m)$, 
+tad 
+$$a_{k+T} - a_{k} = T \cdot d$$ 
+dalās ar $m$. 
+
+TODO: Pabeigt pierādījumu.
 
 
 # <lo-summary/> Z6 un Z7 summas/reizinājumi
@@ -187,7 +274,7 @@ līdzīgi kā $2^{n}\;(\mbox{mod}\,5)$
 </table>
 
 
-# <lo-sample/> Multiplikatīvā grupa
+# <lo-summary/> Multiplikatīvā grupa
 
 **Definīcija:** Ar $\Phi(n)$ apzīmēsim visus tos atlikumus no $\mathbb{Z}$, 
 kas ir savstarpēji pirmskaitļi ar $n$. 
@@ -227,7 +314,16 @@ TODO: Kaut kāda bildīte, kur atlikumi sajaucas
 
 ## Lemmas pierādījums
 
+*Pierādījums.* (1) Ja $a,x \in \Phi(n)$ (abi skaitļi ir savstarpēji 
+pirmskaitļi ar $n$, tad arī to reizinājums $ax \in \Phi(n)$.  
+(2) Ja $ax$ un $ay$ pieder tai pašai kongruenču klasei $(\mbox{mod}\,m)$, 
+tad $ax - ay=a(x-y)$ dalās ar $m$. 
 
+$a$ un $m$ nav kopīgu dalītāju, tādēļ arī $(x-y)$ dalās ar $m$. 
+Tā kā $x$ un $y$ abi ir atlikumi $(\mbox{mod}\,m)$, tad 
+$x-y$. Tātad:
+$$x \neq y\;\Rightarrow{}\;ax \neq ay.$$
+Dabūjam, ka funkcija, kas $x$ piekārto $ax$ ir *injektīva*. $\blacksquare$
 
 # <lo-summary/> Φ(8) un matrača simetrija
 
@@ -272,33 +368,6 @@ $\blacksquare$
 
 
 
-# <lo-sample/> IMO.SHL.2014.N4
-
-**IMO.SHL.2014.N4:** 
-Ar $n > 1$ apzīmēts kāds naturāls skaitlis. Pierādīt, ka
-bezgalīgi daudzi locekļi virknei 
-$(a_k)_{k \geq 1}$, kas definēta ar
-$$a_k=\left\lfloor\frac{n^k}{k}\right\rfloor,$$ 
-ir nepāru skaitļi.  
-(Reālam skaitlim $x$, $\lfloor x\rfloor$ apzīmē 
-lielāko veselo skaitli, kas nepārsniedz $x$.)
-
-
-<!--
-Let $n > 1$ be a given integer. Prove that 
-infinitely many terms of the sequence 
-$(a_k )_{k \geq 1}$, defined by 
-$$a_k=\left\lfloor\frac{n^k}{k}\right\rfloor,$$ 
-are odd.  
-(For a real number $x$, $\lfloor x\rfloor$ denotes 
-the largest integer not exceeding $x$.)
--->
-
-
-## Empīrisks stāsts
-
-abc
-
 
 
 
@@ -332,11 +401,32 @@ abc
 </hgroup>
 
 
+## Eilera teorēmas motivācija
+
+<hgroup>
+
+<div style="font-size:32pt; color:darkgreen">Kādiem mērķiem var izmantot 
+Eilera/Fermā teorēmu kongruences?</div>
+
+![Rubika ornaments](rubik-cube-ornament.png)
+
+</hgroup>
+
+<hgroup>
+
+* Efektīvi kāpina lielus skaitļus pēc moduļa  
+$a^b \equiv c\;(\mbox{mod}\,m),$  
+ko lieto RSA (publiskās atslēgas) kriptogrāfijā.
+* Uzzina, cik tālu jāvirzās vienā virzienā, lai atgrieztos sākumpunktā.
+* Vizualizē kongruences klašu ciklus un ritmus.
+* Uzzina periodisku decimāldaļu ($1/13$ u.c.) periodus.
+
+</hgroup>
 
 
 
 
-# <lo-sample/> Eilera teorēma
+# <lo-summary/> Eilera teorēma
 
 **Teorēma:** Ja $a$ un $n$ ir savstarpēji pirmskaitļi, tad  $a^{\varphi(n)} \equiv
 1\;(\mbox{mod}\,n)$.  
@@ -346,11 +436,11 @@ Funkciju $\varphi(n)$ sauc par *Eilera funkciju*.
 
 ## Eilera teorēmas pierādījums
 
-def
+TODO: Pierādijums, kur sareizina visus $\Phi(n)$ elementus.
 
-# <lo-sample/> Mazā Fermā teorēma
+# <lo-summary/> Mazā Fermā teorēma
 
-**Teorēma:** Ja $p ir pirmskaitlis un $\mbox{LKD}(a, p) = 1$, 
+**Teorēma:** Ja $p$ ir pirmskaitlis un $\mbox{LKD}(a, p) = 1$, 
 tad $a^{p−1} \equiv 1\;(\mbox{mod}\,p)$.
 
 
@@ -420,17 +510,38 @@ Prove that Eduardo has a winning strategy.
 
 </hgroup><hgroup>
 
-<span>(1) Grupas un to īpašības</span>  
-(2) Eilera/Fermā teorēmas  
+<span>(1) [Grupas un to īpašības](#section)</span>  
+(2) [Eilera/Fermā teorēmas](#section-1)  
 <span style="color:darkgreen">**(3) Primitīvo sakņu teorēma**</span>  
-(4) Ķīniešu atlikumu teorēma  
-(5) Valuāciju ievads  
-(6) Valuācijas priekš $x^n \pm y^n$  
-(7) Henzela lemma
+(4) [Ķīniešu atlikumu teorēma](#section-3)  
+(5) [Valuāciju ievads](#section-4)  
+(6) [Valuācijas priekš $x^n \pm y^n$](#section-5)  
+(7) [Henzela lemma](#section-6)
 
 </hgroup>
 
-# <lo-sample/> Kas ir primitīvās saknes
+
+## (3) Motivācija
+
+<hgroup>
+
+<h1 style="font-size:40pt; color: darkgreen">Kāpēc jāzina primitīvās saknes?</h1>
+
+</hgroup>
+<hgroup>
+
+* Primitīvā sakne $g$ demonstrē, ka grupa ar $n$ elementiem ir *cikliska* - tās 
+elementus var "sarakstīt aplī" $g^0, g^1, \ldots, g^{n-1}$. 
+* Primitīvā sakne var kalpot par "logaritma bāzi" - katram 
+grupas elementam $x \in \mathbb{G}$ tad eksistē $k$, ka
+$g^k \equiv x\;(\mbox{mod}\,m)$. 
+
+
+</hgroup>
+
+
+
+# <lo-summary/> Kas ir primitīvās saknes
 
 **Definīcija:** Skaitli $g$ sauc par primitīvo sakni pēc $(\mbox{mod}\,n)$, 
 ja katram skaitlim $a$, kas ir savstarpējs pirmskaitlis, eksistē 
@@ -471,8 +582,114 @@ kuras pakāpes $g^0, g^1, g^2, \ldots$ pieņem visas vērtības šajā grupā.
 
 ## Teorēmas pierādījums
 
-ghi
+*Pierādījums:* Pieņemsim, ka $\Phi(p)$ elementu vidū lielākā iespējamā *grupas elementa kārta*
+(t.i. mazākais $n$, kuram $a^n = e$) ir $n<p-1$. 
+Pierādīt, ka no šejienes seko 
+$$x^n \equiv 1\;(\mbox{mod}\,p)$$ 
+visiem $x \not\equiv 0$ (tādu pavisam ir $p-1$). 
+Tas būtu pretrunā ar 
+[Lagranža polinomu kongruences teorēmu](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_%28number_theory%29). 
 
+
+
+# <lo-summary/> Mult.grupa, kas nav cikliska
+
+<hgroup>
+
+![Divi cikli](disjoint-loops.svg)
+
+</hgroup>
+
+<hgroup>
+
+$\Phi(21)$ satur $(3-1)(7-1)=12$ elementus. 
+Tos nevar apstaigāt ar viena skaitļa (primitīvās 
+saknes) pakāpēm.   
+Atkārtoti reizinot ar jebkuru skaitli no $\Phi(21)$ rodas 
+divi vai vairāki cikli.  
+Piemērā reizina ar $a = 5$.
+
+</hgroup>
+
+
+# <lo-summary/> Karmaikla skaitļi 
+
+**Definīcija:** Karmaikla (Carmichael) skaitlis ir tāds salikts skaitlis $n$, 
+kurš katram $a$, kas ir savstarpējs pirmskaitlis ar $n$ izpilda kongruenci:
+$$a^{n-1} \equiv 1\;(\mbox{mod} n).$$  
+Sk. [Carmichael number](https://en.wikipedia.org/wiki/Carmichael_number)
+
+*Piemērs.* Apskatām $561 = 3 \cdot 11 \cdot 17$. Izpildās dalāmības:
+$$(3-1) \mid 560,\;\;(11-1) \mid 560,\;\;(17-1) \mid 560.$$
+
+
+## Kaut kas līdzīgs Fermā teorēmai
+
+Arī Mazā Fermā teorēma sola to pašu: 
+$$a^{n-1} \equiv 1\;(\mbox{mod}\,n),\;\;\mbox{kur}\;\mbox{LKD}(a,n)=1.$$
+vai 
+$$b^{n} \equiv b\;(\mbox{mod}\,n),\;\;\mbox{katram}\;b\in\mathbb{Z}.$$
+
+
+## Principiāla atšķirība
+
+<hgroup>
+
+TODO: Viena ciparnīca
+
+</hgroup>
+
+<hgroup>
+
+TODO: Trīs ciparnīcas
+
+</hgroup>
+
+## Jautājums
+
+**Jautājums:** Vai Karmaikla skaitlis var būt pāru? 
+
+
+
+# <lo-sample/> BW.2016.5
+
+**BW.2016.5:** Dots pirmskaitlis $p>3$, kuram $p \equiv 3\;(\mbox{mod}\,4)$. 
+Dotam naturālam $n$
+skaitlim $a_0$ virkni $a_0, a_1,\ldots$ definē kā 
+$a_n = $a_{n-1}^{2^n}$ visiem $n = 1, 2,\ldots$. 
+Pierādīt, ka $a_0$ var izvēlēties
+tā, ka apakšvirkne $a_N, a_{N+1}, a_{N+2},\ldots$ nav konstanta 
+pēc moduļa $p$ nevienam naturālam $N$.
+
+
+
+
+# <lo-sample/> IMO.SHL.2014.N4
+
+**IMO.SHL.2014.N4:** 
+Ar $n > 1$ apzīmēts kāds naturāls skaitlis. Pierādīt, ka
+bezgalīgi daudzi locekļi virknei 
+$(a_k)_{k \geq 1}$, kas definēta ar
+$$a_k=\left\lfloor\frac{n^k}{k}\right\rfloor,$$ 
+ir nepāru skaitļi.  
+(Reālam skaitlim $x$, $\lfloor x\rfloor$ apzīmē 
+lielāko veselo skaitli, kas nepārsniedz $x$.)
+
+
+<!--
+Let $n > 1$ be a given integer. Prove that 
+infinitely many terms of the sequence 
+$(a_k )_{k \geq 1}$, defined by 
+$$a_k=\left\lfloor\frac{n^k}{k}\right\rfloor,$$ 
+are odd.  
+(For a real number $x$, $\lfloor x\rfloor$ denotes 
+the largest integer not exceeding $x$.)
+-->
+
+
+## Empīrisks stāsts
+
+abc
 
 
 
@@ -489,15 +706,36 @@ ghi
 
 </hgroup><hgroup>
 
-<span>(1) Grupas un to īpašības</span>  
-(2) Eilera/Fermā teorēmas  
-(3) Primitīvo sakņu teorēma  
+<span>(1) [Grupas un to īpašības](#section)</span>  
+(2) [Eilera/Fermā teorēmas](#section-1)  
+(3) [Primitīvo sakņu teorēma](#section-2)  
 <span style="color:darkgreen">**(4) Ķīniešu atlikumu teorēma**</span>   
-(5) Valuāciju ievads  
-(6) Valuācijas priekš $x^n \pm y^n$  
-(7) Henzela lemma
+(5) [Valuāciju ievads](#section-4)  
+(6) [Valuācijas priekš $x^n \pm y^n$](#section-5)  
+(7) [Henzela lemma](#section-6)
 
 </hgroup>
+
+## (4) Ķīniešu atlikumu teorēmas motivācija
+
+<hgroup>
+
+<div style="font-size:40pt; color:darkgreen">Kādēļ jāzina 
+ķīniešu atlikumu teorēma</div> 
+
+</hgroup>
+
+<hgroup>
+
+* Tai vietā, lai risinātu kongruences pēc salikta skaitļa $m$ moduļa, var 
+tās risināt pret pirmskaitļiem (vai to pakāpēm) un rezultātus kombinēt. 
+* Ķīniešu atlikumu teorēma ļauj uzkonstruēt (parasti milzīgi lielu) 
+skaitli ar neparastām īpašībām. Piemēram, lietojot "diagonalizācijas spriedumus" - 
+katrā kongruencē "pievienojot" jaunu īpašību pret kādu pirmskaitli $p_k$;
+konstruēt skaitli pēc šo pirmskaitļu reizinājuma $P = p_1p_2\ldots{}p_n$ moduļa.
+
+</hgroup>
+
 
 
 
@@ -590,6 +828,11 @@ is fragrant?
 -->
 
 
+
+
+
+
+
 # &nbsp;
 
 <hgroup>
@@ -598,15 +841,36 @@ is fragrant?
 
 </hgroup><hgroup>
 
-<span>(1) Grupas un to īpašības</span>  
-(2) Eilera/Fermā teorēmas  
-(3) Primitīvo sakņu teorēma  
-(4) Ķīniešu atlikumu teorēma  
+<span>(1) [Grupas un to īpašības](#section)</span>  
+(2) [Eilera/Fermā teorēmas](#section-1)  
+(3) [Primitīvo sakņu teorēma](#section-2)  
+(4) [Ķīniešu atlikumu teorēma](#section-3)  
 <span style="color:darkgreen">**(5) Valuāciju ievads**</span>  
-(6) Valuācijas priekš $x^n \pm y^n$  
-(7) Henzela lemma
+(6) [Valuācijas priekš $x^n \pm y^n$](#section-5)  
+(7) [Henzela lemma](#section-6)
 
 </hgroup>
+
+
+## (5) Valuāciju motivācija
+
+
+<hgroup>
+
+<div style="font-size:40pt; color:darkgreen">Kādēļ jāizmanto valuācijas?</div> 
+
+</hgroup>
+
+<hgroup>
+
+* Dažreiz ar atlikumu vienkārši pēc pirmskaitļa moduļa $p$ nepietiek. 
+Ir jāpamato skaitļu $a,b$ kongruence pēc $p^k$ <red>$Leftrightarrow$</red> 
+$(a-b)$ dalāmība ar $p^k$. 
+* Ir "kāpinātāja pacelšanas" rezultāti, kur konstrukcija soli pa solim paceļ $p^k$ 
+kāpinātāju $k$. Pēc tam, kad kāpinātāji pacelti, var lietot Ķīniešu atlikumu teorēmu. 
+
+</hgroup>
+
 
 
 # <lo-sample/> UK.BMO1.2013.3
@@ -647,9 +911,10 @@ skaitļa $a_m$ ciparu summa ir $3$).
 ne ar $9$, iegūstam skaitli, kas dalās ar $3^{2014}$ (bet ne ar
 $3^{2015}$). 
 
-# <lo-summary/> Valuācijas definīcija
+# <lo-summary/> Valuācijas definīcija/īpašības
 
-**Definīcija:** Par vesela skaitļa $a \neq 0$ valuāciju pirmskaitlim $p$ sauksim 
+**Definīcija:** Pieņemsim, ka $p$ ir jebkurš pirmskaitlis. 
+Par vesela skaitļa $a \neq 0$ $p$-adisko valuāciju sauc 
 veselu nenegatīvu $k=\nu_p(a)$, ka $a$ dalās ar $p^k$, bet nedalās ar 
 $p^{k+1}$. 
 
@@ -663,7 +928,11 @@ ar valuāciju $0$ - lielākā pakāpe, ar ko tie dalās ir $3^0=1$.
 nedalās ar $9=3^2$. 
 
 
+## p-Valuāciju īpašības
 
+* $\nu_p(ab) = \nu_p(a) + \nu_p(b).
+* $\nu_p(a+b) \geq \mbox{min}(\nu_p(a),\nu_p(b)).
+* $\nu_p(a+b) = \mbox{min}(\nu_p(a),\nu_p(b)), ja $\nu_p(a) \neq \nu_p(b)$. 
 
 
 
@@ -679,15 +948,39 @@ nedalās ar $9=3^2$.
 
 </hgroup><hgroup>
 
-<span>(1) Grupas un to īpašības</span>  
-(2) Eilera/Fermā teorēmas  
-(3) Primitīvo sakņu teorēma  
-(4) Ķīniešu atlikumu teorēma  
-(5) Valuāciju ievads  
+<span>(1) [Grupas un to īpašības](#section)</span>  
+(2) [Eilera/Fermā teorēmas](#section-1)  
+(3) [Primitīvo sakņu teorēma](#section-2)  
+(4) [Ķīniešu atlikumu teorēma](#section-3)  
+(5) [Valuāciju ievads](#section-4)  
 <span style="color:darkgreen">**(6) Valuācijas priekš $x^n \pm y^n$**</span>  
-(7) Henzela lemma
+(7) [Henzela lemma](#section-6)
 
 </hgroup>
+
+
+## (6) LTE motivācija
+
+
+<hgroup>
+
+<div style="font-size:40pt; color:darkgreen">Kādēļ jāzina LTE lemmas?</div> 
+
+</hgroup>
+
+<hgroup>
+
+* Kongruencēs $a^n \equiv 1$ nosakot kāpinātāju, kas nodrošina kongruenci
+($a^n - 1$ dalāmību ar $p^k$)
+var lietot Eilera/Fermā teorēmas novērtējumu, bet tas parasti ir ļoti neprecīzs, 
+parasti ar to vien nepietiek.
+* Izteiksmes $a^n - b^n$ un $a^n + b^n$ bieži rodas, summējot ģeometriskas progresijas, 
+pierakstot skaitļus ar īpatnēju/simetrisku decimālpierakstu. Šo izteiksmju valuācijas
+veido raksturīgu "zāģveida funkciju": $a^n \pm b^n$ $p$-valuācija atspoguļo $n$ 
+$p$-valuāciju.
+
+</hgroup>
+
 
 
 # <lo-summary/> Ievads 
@@ -746,15 +1039,35 @@ sava vērtību apgabala (šajā gadījumā $\mathbb{N}$).
 
 </hgroup><hgroup>
 
-<span>(1) Grupas un to īpašības</span>  
-(2) Eilera/Fermā teorēmas  
-(3) Primitīvo sakņu teorēma  
-(4) Ķīniešu atlikumu teorēma  
-(5) Valuāciju ievads  
-(6) Valuācijas priekš $x^n \pm y^n$  
+<span>(1) [Grupas un to īpašības](#section)</span>  
+(2) [Eilera/Fermā teorēmas](#section-1)  
+(3) [Primitīvo sakņu teorēma](#section-2)  
+(4) [Ķīniešu atlikumu teorēma](#section-3)  
+(5) [Valuāciju ievads](#section-4)  
+(6) [Valuācijas priekš $x^n \pm y^n$](#section-5)  
 <span style="color:darkgreen">**(7) Henzela lemma**</span>
 
 </hgroup>
+
+
+## (7) Henzela lemmas motivācija
+
+
+<hgroup>
+
+<div style="font-size:40pt; color:darkgreen">Kādēļ jāzina Henzela lemma?</div> 
+
+</hgroup>
+
+<hgroup>
+
+* Polinomi ar veseliem koeficientiem (vai vismaz - veselām vērtībām) ir bieži 
+protagonisti skaitļu teorijas uzdevumkos. 
+* Dažreiz jāpamato nevis kongruence, kur kongruencē ietilpstošajai izteiksmei 
+ir liels kāpinātājs, bet gan kongruence, kuras modulim ir liels kāpinātājs.
+
+</hgroup>
+
 
 # <lo-sample/> LT.VUMIF.2016.11_12.3
 
@@ -773,7 +1086,7 @@ $$x^2 \equiv -7\;(\mbox{mod}\,2^{2016}).$$
 
 Daži ir mācījušies par Ležandra un Jakobi simboliem 
 (*kvadrātiskajiem atlikumiem* jeb *quadratic
-residues*)...
+residues*).
 
 # <lo-summary/> Kāpinātāja iteratīva pacelšana
 
@@ -785,12 +1098,15 @@ var atrisināt. Der, teiksim, $x=\pm 3$.
 
 # <lo-summary/> Henzela lemma
 
-**Lemma:** Ja polinomam $P(x)$ ir vienkārša sakne pēc kāda pirmskaitļa 
-moduļa $p$, tad $P(x)$ būs vienkārša
-sakne arī pēc jebkuras šī pirmskaitļa pakāpes $p^k$.  
-*Piezīme.* $P(x)$ ir vienkārša sakne $x_0$ pēc
-moduļa $p$, ja $P(x_0) \equiv 0\;(\mbox{mod}\,p)$, 
-bet polinoma atvasinājuma vērtība $P'(x_0) \not\equiv 0\;(\mbox{mod}\,p)$.
+**Lemma:** Dots, ka $p$ ir pirmskaitlis un polinomam $P(x)$ 
+ir *vienkārša sakne* $x_0$ pēc $(\mbox{mod}\,p)$:
+$$\left\{ \begin{array}{ll}
+P(x_0) \equiv 0 & (\mbox{mod}\,p)\\
+P'(x_0) \not\equiv 0 & (\mbox{mod}\,p)
+\end{array} \right.$$
+Tad $P(x)$ būs vienkārša
+sakne arī $(\mbox{mod}\,p^k)$ katra šī pirmskaitļa pakāpei $p^k$.  
+[Hensel's lemma](https://en.wikipedia.org/wiki/Hensel%27s_lemma)
 
 ## Pierādījums 
 
@@ -808,6 +1124,32 @@ $$P(x_1) \equiv 0\;(\mbox{mod}\,p^{k+m})\;\;\mbox{un}\;\; x_0 \equiv x_1\;(\mbox
 $$x_1 = x_0 - P(x_0) \cdot a,$$
 kur koeficientu $a$ izvēlas tā, ka
 $$a \equiv \left( P'(x_0) \right)^{-1}\;(\mbox{mod}\,p^m).$$
+
+
+# <lo-summary/> Ņūtona pieskaru metode
+
+<hgroup>
+
+![Pieskaru metode](tangent-method.jpeg)
+
+</hgroup>
+
+
+<hgroup>
+
+Vienādojums:
+$$f(x)=x^2-a = 0.$$
+
+Pieskaru metode sakni meklē kā virknes robežu:  
+$$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)} = $$
+$$ = x_n - \frac{x_n^2 - a}{2x_n}.$$
+
+
+</hgroup>
+
+
+
+
 
 
 # <lo-sample/> Uzdevums
