@@ -129,15 +129,11 @@ $$e_1 = e_1 \ast e_2 = e_2.\;\blacksquare$$
 
 ## Bijektīvās funkcijas
 
-**Definīcija:** Funkciju $f:X \rightarrow Y$ sauc par bijektīvu, ja 
-katrai tās vērtībai $y \in Y$ eksistē precīzi viens arguments $x \in X$, 
-ka $f(x) = y$.
+**Definīcija:** Funkciju $f:A \rightarrow B$ sauc par bijektīvu, ja 
+katrai tās vērtībai $y \in B$ eksistē precīzi viens arguments $x \in A$, 
+ka $f(x) = y$.  (Nav nepārklātu $y \in B$ un nav kolīziju/saskriešanos.)
 
-1. Nav elementu $y \in Y$, kas nav $f$ vērtības. 
-2. Nav elementu $y \in Y$, kam $f(x_1)=f(x_2)=y$ un $x_1 \neq x_2$
-(t.i. nav kolīziju jeb "saskriešanos"). 
-
-### TODO: Zīmējums ar kolīziju
+![Bijektīvas funkcijas](bijective-functions.png)
 
 
 
@@ -172,11 +168,11 @@ Tad šīs progresijas periods jeb cikla garums - mazākais $L$, kuram $a_0=a_L$
 (un vispār $a_k \equiv a_{k+L}$ ir 
 $$L = \frac{m}{\mbox{LKD}(a,m)}.$$ 
 
+
+
 ## Piemērs par aditīvo ciklu
 
 <hgroup>
-
-TODO: Bilde ar ciparnīcu.
 
 </hgroup>
 
@@ -291,11 +287,11 @@ kas ir savstarpēji pirmskaitļi ar $n$.
 **Apgalvojums:** $\Phi(n)$ ar kompozīcijas operāciju - reizināšanu 
 veido grupu. 
 
-*Pierādījums.*  
+*Kas ir jāpierāda:*  
 (A) Reizināšana atlikumiem $a,b \in \Phi(n)$ ir definēta un 
 arī atlikums $a\cdot{}b$ ir savst.pirmskaitlis ar $n$.  
 (B) $1 \in \Phi(n)$ ir vienības elements attiecībā uz reizināšanu.  
-(C) Katram atlikumam $a \in \Phi(n)$ eksistē inversais. 
+(C) Katram atlikumam $a \in \Phi(n)$ eksistē inversais. (Pierādījumu sk. zemāk)
 
 
 ## Lemma par kongruenču klasēm
@@ -310,7 +306,14 @@ savstarpēji pirmskaitļi ar $n$.
 
 ## Lemmas ilustrācija
 
-TODO: Kaut kāda bildīte, kur atlikumi sajaucas
+![Modulārā reizināšana](modular-arithmetic.svg)
+
+* Attēlā ir funkcijas $f(x) = 1\cdot{}x$ un $g(x)=3\cdot{}x$ no 
+kopas $\Phi(10)$ uz $\Phi(10)$. 
+* Abas ir bijektīvas funkcijas, abām var atrisināt vienādojumu  
+$f(x)=1$.
+
+<red>Reizinot ar konstanti $\Phi(x)$ elementus, nerodas kolīzijas!</red>
 
 ## Lemmas pierādījums
 
@@ -323,7 +326,23 @@ $a$ un $m$ nav kopīgu dalītāju, tādēļ arī $(x-y)$ dalās ar $m$.
 Tā kā $x$ un $y$ abi ir atlikumi $(\mbox{mod}\,m)$, tad 
 $x-y$. Tātad:
 $$x \neq y\;\Rightarrow{}\;ax \neq ay.$$
-Dabūjam, ka funkcija, kas $x$ piekārto $ax$ ir *injektīva*. $\blacksquare$
+Tātad funkcija, kas $x$ piekārto $ax$ ir *injektīva*.  $\blacksquare$
+
+## Lemma par inverso elementu
+
+**Lemma:** Katram atlikumam $a \in \Phi(n)$ eksistē inversais. 
+
+*Pierādījums.* Iepriekšējā lemma apgalvoja, ka jebkuram $a \in \Phi(n)$ funkcija
+$f(x) = a \cdot x$ ir injektīva (nevar būt kolīzija, kur $x_1 \neq x_2$, bet
+$f(x_1) = f(x_2)$.  
+Tā kā $\Phi(n)$ ir galīga kopa, tad reizināšana ir ne vien injektīva, bet arī 
+sirjektīva (un bijektīva).  
+Tātad eksistē tāds elements $b$, kuram $a \cdot b = 1$. $\blacksquare$
+
+
+
+
+
 
 # <lo-summary/> Φ(8) un matrača simetrija
 
@@ -434,14 +453,28 @@ ko lieto RSA (publiskās atslēgas) kriptogrāfijā.
 skaitu no $\{ 0, \ldots, n-1 \}$, kas ir savstarpēji pirmskaitļi ar $n$.  
 Funkciju $\varphi(n)$ sauc par *Eilera funkciju*. 
 
-## Eilera teorēmas pierādījums
+## Eilera teorēmas pierādījums (1. no 2)
 
-TODO: Pierādijums, kur sareizina visus $\Phi(n)$ elementus.
+*Pierādījums.* Aplūkojam visas kongruenču klases, kas ir savst. pirmskaitļi ar $n$: 
+$$\Phi(n) = \{ a_1, a_2, \ldots, a_{\varphi(n)} \}.$$
+Saskaņā ar lemmu arī reizinājumi ar konstantu $a$ veido šīs pašas kongruenču klases:
+$$\Phi(n) = \{ aa_1, aa_2, \ldots, aa_{\varphi(n)} \}.$$
+
+## Eilera teorēmas pierādījums (2. no 2)
+
+Sareizinām visus $\Phi(n)$ elementus abās izteiksmēs:
+$$(aa_1)(aa_2)\cdots(aa_{\varphi(n)}) \equiv a_1a_2\cdots{}a_{\varphi(n)}\;(\mbox{mod}\,n).$$
+
+Noīsinām abas puses un iegūstam, ka $a^{\varphi(n)} \equiv 1$. $\blacksquare$  
+(Ko Vilsona teorēma saka par visu $\Phi(n)$ reizinājumu, ar kuru noīsinājām?) 
 
 # <lo-summary/> Mazā Fermā teorēma
 
 **Teorēma:** Ja $p$ ir pirmskaitlis un $\mbox{LKD}(a, p) = 1$, 
 tad $a^{p−1} \equiv 1\;(\mbox{mod}\,p)$.
+
+*Pierādījums.* Šis ir Eilera teorēmas atsevišķs gadījums pirmskaitļiem, jo 
+$\varphi(p) = p-1$. $\blacksquare$
 
 
 # <lo-sample/> IMO.SHL.2017.N2
@@ -521,7 +554,7 @@ Prove that Eduardo has a winning strategy.
 </hgroup>
 
 
-## (3) Motivācija
+## Primitīvo sakņu motivācija
 
 <hgroup>
 
@@ -588,7 +621,10 @@ Pierādīt, ka no šejienes seko
 $$x^n \equiv 1\;(\mbox{mod}\,p)$$ 
 visiem $x \not\equiv 0$ (tādu pavisam ir $p-1$). 
 Tas būtu pretrunā ar 
-[Lagranža polinomu kongruences teorēmu](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_%28number_theory%29). 
+[Lagranža polinomu kongruences teorēmu](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_%28number_theory%29).  
+(Pēc indukcijas: Dalot polinomu ar $(x-x_0)$, kur $x_0$ ir polinoma sakne - un pārtaisot 
+visus koeficientus pēc moduļa $p$, iegūstam polinomu, kura pakāpe ir 
+vismaz par $1$ mazāka, utt.)
 
 
 
@@ -631,6 +667,7 @@ vai
 $$b^{n} \equiv b\;(\mbox{mod}\,n),\;\;\mbox{katram}\;b\in\mathbb{Z}.$$
 
 
+<!--
 ## Principiāla atšķirība
 
 <hgroup>
@@ -649,7 +686,7 @@ TODO: Trīs ciparnīcas
 
 **Jautājums:** Vai Karmaikla skaitlis var būt pāru? 
 
-
+-->
 
 # <lo-sample/> BW.2016.5
 
@@ -687,9 +724,7 @@ the largest integer not exceeding $x$.)
 -->
 
 
-## Empīrisks stāsts
 
-abc
 
 
 
@@ -981,11 +1016,38 @@ $p$-valuāciju.
 
 
 
-# <lo-summary/> Ievads 
+# <lo-summary/> Bibliogrāfija 
+
+1. [Lifting the Exponent (intro)](https://brilliant.org/wiki/lifting-the-exponent/)
+2. [Lifting the Exponent by Amir Hossein Parvardi](https://www.academia.edu/4034266/Lifting_The_Exponent_Lemma_LTE_)
+
+Visas šīs lemmas aplūko augstāko pirmskaitļa $p$ pakāpi, ar kuru dalās $a^n - b^n$ vai $a^n + b^n$. 
+To jau agrāk saucām par $p$-valuāciju.   
+Uz $a$ un $b$ uzlikti daži papildu nosacījumi, bet ja tie neizpildās, tad 
+$p$-valuāciju var viegli redzēt.
+
+# <lo-summary/> Lemma, ja n nedalās ar p
+
+**Lemma:** Pieņemsim, ka veselu skaitļu starpība $x - y$ dalās ar $p$, bet paši 
+$x$, $y$ nedalās ar $p$. Un arī kāpinātājs $n$ nedalās ar $p$. Tad 
+$$\nu_p(x^n - y^n) = \nu(x - y).$$
+
+*Pierādījums:* Algebriska identitāte:  
+$x^n - y^n = (x - y)(x^{n-1} + \ldots + y^{n-1})$  
+Tā kā $x \equiv y\;(\mbox{mod}\,p)$, tad garās iekavas satur
+$n$ saskaitāmos, kas visi kongruenti ar $x^{n-1}$, t.i. visa summa ir $nx^{n-1}$.  
+Tā nedalās ar $p$, jo $n$ un $x$ nedalās ar $p$. $\blacksquare$
 
 
-1. [Lifting the Expontnt](https://brilliant.org/wiki/lifting-the-exponent/)
+# <lo-summary/> Pirmā LTE teorēma
 
+**Teorēma:** Pieņemsim, ka veselu skaitļu starpība $x - y$ dalās ar $p$, bet paši 
+$x$, $y$ nedalās ar $p$. Tad 
+$$\nu_p(x^n - y^n) = \nu(x - y) + \nu(n).$$
+
+*Pierādījuma ideja:* Atkārtoti dala $x^n - y^n$ reizinātājos. Vispirms atdala to reizinātāju, kurš ar 
+$p$ nedalās (var izmantot iepriekšējo lemmu).   
+Pēc tam iegūst $x^{p^k} - y^{p^k}$, ko var dalīt reizinātājos atkārtoti.
 
 
 
