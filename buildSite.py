@@ -33,4 +33,16 @@ for resType in resTypes:
         copyDirectory('%s/%s' % (ROOT,dd), 'target/%s/%s' % (resType,dd))
 copyDirectory('src/site/reveal.js', 'target/reveal.js')
 
+ROOT = 'src/site/static'
+tex_files = os.listdir(ROOT)
+print('xxxx %s' % tex_files)
+for ff in tex_files:
+    if ff.endswith('.tex'):
+        print('Currently processing %s' % ff)
+        subprocess.call(['xelatex',ff], cwd=ROOT)
+
+copyDirectory(ROOT, 'target/static')
+
+
+
 

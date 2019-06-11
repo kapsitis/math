@@ -15,6 +15,7 @@
 bin/
 target/
 src/site/**/*.html
+src/site/static/*.pdf
 !src/site/prob/themes/ddgatve/base.html
 !src/site/exam/themes/ddgatve/base.html
 !src/site/tale/themes/ddgatve/base.html
