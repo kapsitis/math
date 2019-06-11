@@ -105,7 +105,7 @@ $$a \ast a^{-1} = e.$$
 Tātad katrs kreisais inversais
 elements ir arī labais inversais elements.  
 Un $\left( a^{-1} \right)^{-1} = a$ ($a$ inversā
-inversais ir pats $a$).
+inversais ir pats $a$). $\blacksquare$
 
 
 ## Citas grupu īpašības
@@ -135,6 +135,31 @@ ka $f(x) = y$.  (Nav nepārklātu $y \in B$ un nav kolīziju/saskriešanos.)
 
 ![Bijektīvas funkcijas](bijective-functions.png)
 
+
+# <lo-summary/> Iteratīvi cikli galīgā kopā
+
+**Apgalvojums:** Ja $X$ ir galīga kopa un $f:X\rightarrow{}X$ ir 
+funkcija, kas kopas $X$ elementus attēlo atkal kopā $X$, tad
+jebkuram $a_0 \in X$ virkne:
+$$x_{k+1} = f(x_k),\;k\geq 0$$
+ir periodiska sākot no kādas vietas.
+
+*Pierādījums.* Ja kopā $X$ ir $M$ elementu, tad vēlākais pēc $M$ gājieniem
+kopā $X$ aptrūksies elementu un $x_k$ sakritīs ar kādu jau agrāk 
+sastaptu elementu. Tad $x_k$ elementi sāks cikliski atkārtoties.
+
+## Kolīzijas rada priekšperiodus
+
+1. Ikreiz, kad funkcija $f: X \rightarrow X$ nav injektīva (t.i. 
+atrodas divi dažādi $a,b \in X$, kuriem $f(a)=f(b)$, 
+tad virknei $x_{k+1} = f(x_k)$ var būt priekšperiods.
+2. Ja $f$ ir injektīva, tad virkne $x_k$ ir cikliska 
+bez priekšperioda.
+
+
+Tikai situācijās, kur visas $f$ ir injektīvas (un rada ciklus bez 
+priekšperiodiem) var cerēt, ka eksistēs inversās funkcijas $f^{-1}$ 
+un tās veidos grupu attiecībā pret funkciju kompozīciju. 
 
 
 # <lo-summary/> Piemērs: Matrača simetriju grupa
@@ -174,28 +199,20 @@ $$L = \frac{m}{\mbox{LKD}(a,m)}.$$
 
 <hgroup>
 
+![Ciparnīca](clock-face.svg)
+
 </hgroup>
 
 
 <hgroup> 
 
 **Piemērs:** Ja pulksteņa stundu rādītājam ir $m=12$ stāvokļi
-un to ikreiz padzen uz priekšu par $9$ stundām, tad 
+un to ikreiz pagriež $9$ stundas pret pulksteņa rādītāju virzienam, tad 
 pēc $\frac{12}{\mbox{LKD}(9,12)} = \frac{12}{3}=4$ soļiem 
 rādītājs atgriezīsies sākumstāvoklī. 
 
 </hgroup>
 
-
-## Aditīvā apgalvojuma pierādījums
-
-*Pierādījums:* Ja $T \in \mathbb{N}$ ir kaut kāds skaitlis, kuram 
-izpildās $a_k \equiv a_{k+T}\;(\mbox{mod}\,m)$, 
-tad 
-$$a_{k+T} - a_{k} = T \cdot d$$ 
-dalās ar $m$. 
-
-TODO: Pabeigt pierādījumu.
 
 
 # <lo-summary/> Z6 un Z7 summas/reizinājumi
@@ -386,7 +403,19 @@ Tāpēc $(p-1)!$ kongruents ar $p-1$ jeb $-1$.
 $\blacksquare$
 
 
+## Vilsona teorēma nepirmskaitļiem?
 
+Aplūkojam $\Phi(n)$ reizinājumu: Reizinām visus 
+tos atlikumus no $0$ līdz $n-1$, kuri ir savstarpēji 
+pirmskaitļi ar $n$. 
+
+* Ja $n=8$, tad $1 \cdot 3 \cdot 5 \cdot 7 = 105$. 
+<red>$105 \equiv 1 \not\equiv -1\;(\mbox{mod}\,8$.</red>
+* Ja $n=9$, tad $1 \cdot 2 \cdot 4 \cdot 5 \cdot 7 \cdot 8 = 2240$. 
+<blue>$2240 \equiv -1\;(\mbox{mod}\,9)$</blue>
+
+**Jautājums:** Kuros gadījumos reizinājums būs 
+kongruents ar $-1$ pēc $n$ moduļa?
 
 
 
@@ -778,8 +807,13 @@ skaitli ar speciālām īpašībām.
 savstarpēji pirmskaitļi un $M = m_1 \cdot \ldots \cdot m_k$ ir 
 viņu reizinājums. Tad katram veselu skaitļu komplektam 
 $(x_1,\ldots,x_k)$ ir tieši viena kongruenču klase
-$x\;(\mbox{mod}\,M)$, kurai 
-$$x \equiv x_i\;(\mbox{mod}\,m_i),\;\mbox{kur}\;i \in \{ 1, \ldots, k \}.$$
+$x^{\ast}\;(\mbox{mod}\,M)$, kurai 
+
+$$\left\{ \begin{array}{ll}
+x \equiv x_1 & (\mbox{mod}\,m_1)\\
+\ldots & \ldots\\
+x \equiv x_k & (\mbox{mod}\,m_k)
+\end{array} \right. \Leftrightarrow x \equiv x^{\ast}\,(\mbox{mod}\,M)$$
 
 
 ## Ķīniešu atlikumu teorēmas piemērs
