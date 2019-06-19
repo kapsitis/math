@@ -464,7 +464,7 @@
     var getLogo = function() {
 	var theLogo = document.createElement("img");
         theLogo.setAttribute("src","biglogo.png");
-	//theLogo.setAttribute("width","144");
+	theLogo.setAttribute("width","144");
         theLogo.setAttribute("alt","logo");
         theLogo.setAttribute("style","border:0;");
 
