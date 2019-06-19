@@ -138,11 +138,6 @@ pēc tam darbina Wireshark vai citus diagnostikas rīkus, atbild uz jautājumiem
 lai varētu pamanīt interesantās datu noplūdes, atfiltrējot "troksni", u.c.) Kursa laikā ir kādi 3 praktiskie darbi.
 
 
-# <lo-summary/> Idejas LU: 
-
-
-
-
 # <lo-summary/> Kursa mācīšanas konteksts
 
 Līdzīgi kursi:
