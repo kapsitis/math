@@ -4,7 +4,6 @@
 
 * <blue>**IMO** - **International Mathematical Olympiad** (Starptautiskā matemātikas olimpiāde)</blue>
 * <span style="color:#FF6C0C">**IMO.SHL** - **IMO Shortlists** (IMO īsie saraksti)</span>
-* Krājumā nav iekļauti uzdevumi **IMO.2017.6** un **IMO.2018.3**.
 
 ["IMO Official" page](https://www.imo-official.org/problems.aspx)
 
@@ -141,6 +140,86 @@ dalās ar $a!+b!$. Pierādīt, ka $3a \geq 2b + 2$.
 Let $a$ and $b$ be positive integers such that 
 $a! + b!$ divides $a!b!$. Prove that $3a \geq 2b + 2$.
 -->
+
+<small>
+
+* [misc.symmetry](#)
+
+</small>
+
+
+## Izmantojam simetriju
+
+* Ja $a = 1$, tad neder neviens naturāls $b$, jo $a! + b! > a!b!$. 
+* Pieņemam, ka $1 < a \leq b$ (ja tas neizpildās, apmainām apzīmējumus $a$ un $b$).
+* Mums jāpierāda, ka $3a \geq 2b + 2$ (un varbūtējās $a$ un $b$ apmainīšanas dēļ arī - 
+$3b \geq 2a + 2$, kas gan vienmēr ir pareizi, ja $b \geq a \geq 2$.
+* Pieņemsim no pretējā, ka $3a \geq 2b + 2$ nav spēkā jeb $3a < 2b + 2$. 
+Attēlosim pretrunu dodošās $b$ vērtības katram $a$:
+
+<table>
+<tr>
+<th>$a$</th><td>2</td><td>3</td><td>4</td><td>5</td>
+</tr>
+<tr>
+<th>$b$</th><td>\geq 2</td><td>\geq 3</td><td>\geq 4</td><td>\geq 4</td>
+</tr>
+</table>
+
+
+
+## Tabuliņa ar dalāmību
+
+TODO: Simetriska tabuliņa, kur atzīmēta $a!b!$ dalāmība
+$a! + b!$. 
+
+
+
+## Ja b-a = 1
+
+**Apgalvojums:** Naturāliem $a,b$, kam $b = a+1$, skaitlis
+$$\frac{a!b!}{a! + b!} = \frac{b!}{1+b} = \frac{(a+1)!}{a + 2}$$
+ir vesels tad un tikai tad, ja $a+2$ nav pirmskaitlis un $a \neq 4$.
+
+## Ja b-a = 1: Pierādījums
+
+*Pierādījums.* Ja $a+2$ ir pirmskaitlis, tad neviens no skaitļiem, 
+kas ietilpst $(a+1)!$ reizinājumā, ar to nedalās.  
+Pieņemam, ka $a+2$ nav pirmskaitlis un to var sadalīt reizinātājos $A \cdot B$, kur $A,B>1$.  
+(1) Ja bez tam $A \neq B$, tad $(a+1)!$ reizinājums saturēs gan $A$, gan $B.  
+(2) Ja $A = B$ un $a+2 > 4$, tad $a+2 = A^2 > 4$. Reizinājums $(a+1)!$ saturēs
+vismaz divus skaitļus, kuri dalās ar $A$. $\blacksquare$
+
+
+
+## Ja b-a=2
+
+1. $\frac{15!17!}{15! + 17!} = \frac{17!}{1 + 16\cdot{}17} = \frac{17!}{3\cdot{}7\cdot{}13}$
+2. $\frac{29!31!}{29! + 31!} = \frac{31!}{1 + 30\cdot{}31} = \frac{31!}{7\cdot{}7\cdot{}19}$
+3. $\frac{48!50!}{48! + 50!} = \frac{50!}{1 + 49\cdot{}50} = \frac{50!}{3\cdot{}19\cdot{}43}$
+4. $\frac{66! 68!}{66! + 68!} = \frac{68!}{1 + 67\cdot{}68} = \frac{68!}{3\cdot{}7\cdot{}7\cdot{}31}$
+4. $\frac{67! 69!}{67! + 69!} = \frac{69!}{1 + 68\cdot{}69} = \frac{68!}{13\cdot{}19\cdot{}19}$
+
+
+## Citi piemēri 
+
+1. $\frac{133!136!}{133! + 136!} = \frac{136!}{1 + 134\cdot{}135\cdot{}136} = \frac{136!}{7\cdot{}7\cdot{}23\cdot{}37\cdot{}59}$
+2. $\frac{78!82!}{78! + 82!} =  \frac{82!}{1 + 79\cdot{}80\cdot{}81\cdot{}82} = \frac{82!}{11^2\cdot{}19^2\cdot{}31^2}$
+3. $\frac{13091!13096!}{13091! + 13096!} =  \frac{13096!}{1 + 13092\cdot{}13093\cdot{}13094\cdot{}13095\cdot{}13096} =$  
+$= \frac{13096!}{7\cdot{}79\cdot{}1109\cdot{}3119\cdot{}3821\cdot{}5381\cdot{}9787}$
+
+
+
+
+## Sadalījuma funkcija 
+
+vect is $[9999, 8771, 1967, 202, 1123, 0, 0, 0, 0, 0, 0]$
+
+
+
+
+
+
 
 # <lo-sample/> IMO.SHL.2015.N3
 
@@ -523,6 +602,39 @@ $$\frac{5^51^1 - 1}{5^11^5-1}=\frac{3124}{4}=781.$$
 
 
 
+# <lo-summary/> IMO.2017.6/IMO.SHL.2017.N7
+
+<div style="font-size:70%">
+
+Sakārtots veselu skaitļu pāris $(x, y)$ ir primitīvs punkts, ja $x$ un $y$ lielākais kopīgais
+dalītājs ir $1$. Pierādiet, ka katrai galīgai primitīvu punktu kopai $S$ eksistē tāds vesels pozitīvs skaitlis
+$n$ un tādi veseli skaitļi $a_0,a_1,\ldots,a_n$, ka katram $(x, y)$ pārim no $S$ izpildās:
+$$a_0x^n + a_1x^{n−1}y + a_2x^{n−2}y^2 + \cdots + a_{n−1}xy^{n−1} + a_n y^n = 1.$$
+
+</div>
+
+
+<!-- Kombinatorika -->
+<!--
+# <lo-summary/> IMO.2018.3
+
+<div style="font-size:70%">
+
+Par *anti-Paskāla* trijstūri sauksim tādu skaitļu izkārtojumu vienādsānu trijstūrī,
+ka, izņemot apakšējo rindu, katrs skaitlis ir divu zemākstāvošo skaitļu starpības absolūtā vērtība.
+Piemēram, šāds izkārtojums ir anti-Paskāla trijstūris ar četrām rindām, kurš satur visus naturālos
+skaitļus no $1$ līdz $10$:
+$$\begin{array}{ccccccc}
+  &   &   & 4 &   &   & \\[0.1cm]
+  &   & 2 &   & 6 &   & \\[0.1cm]
+  & 5 &   & 7 &   & 1 & \\[0.1cm]
+8 &   & 3 &   & 10 &   & 9
+\end{array}$$
+Vai eksistē anti-Paskāla trijstūris ar $2018$ rindām, kurš satur visus naturālos skaitļus no $1$ līdz
+$1 + 2 + \cdots + 2018$?
+
+</div>
+-->
 
 
 # <lo-summary/> IMO.2018.5

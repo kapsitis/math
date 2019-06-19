@@ -2,6 +2,8 @@
 .cache-main
 .DS_Store
 .settings
+.project
+.pydevproject
 *.aux
 *.bbl
 *.blg
@@ -16,6 +18,7 @@ bin/
 target/
 src/site/**/*.html
 src/site/static/*.pdf
+src/site/source_material
 !src/site/prob/themes/ddgatve/base.html
 !src/site/exam/themes/ddgatve/base.html
 !src/site/tale/themes/ddgatve/base.html

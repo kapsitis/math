@@ -13,7 +13,7 @@ def copyDirectory(src, dest):
     except OSError as e:
         print('Directory not copied. Error: %s' % e)
 
-resTypes = ['prob', 'tale']
+resTypes = ['prob', 'tale', 'miscellaneous']
 
 for resType in resTypes:
     ROOT = 'src/site/%s' % resType
