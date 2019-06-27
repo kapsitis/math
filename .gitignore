@@ -4,6 +4,7 @@
 .settings
 .project
 .pydevproject
+**/__pycache__
 *.aux
 *.bbl
 *.blg

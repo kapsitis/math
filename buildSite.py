@@ -47,6 +47,7 @@ def main():
     		'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
 		'-V','theme=white'], cwd=workingDir)
             copyDirectory('%s/%s' % (ROOT,dd), 'target/%s/%s' % (resType,dd))
+        shutil.copy2('src/site/%s/index.html' % resType, 'target/%s/' % resType)
     copyDirectory('src/site/reveal.js', 'target/reveal.js')
     copyDirectory('src/site/analysis', 'target/analysis')
     copyDirectory('src/site/downloads', 'target/downloads')
@@ -61,6 +62,7 @@ def main():
             print('Currently processing %s' % ff)
             subprocess.call(['xelatex',ff], cwd=ROOT)
     copyDirectory(ROOT, 'target/static')
+    shutil.copy2('src/site/index.html', 'target/')
 
 
 
