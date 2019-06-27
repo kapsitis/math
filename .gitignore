@@ -16,7 +16,9 @@
 **/.RData
 bin/
 target/
-src/site/**/*.html
+src/site/miscellaneous/**/*.html
+src/site/prob/**/*.html
+src/site/tale/**/*.html
 src/site/static/*.pdf
 src/site/source_material
 !src/site/prob/themes/ddgatve/base.html
