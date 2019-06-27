@@ -4,11 +4,20 @@
 
 
 
+
+# Telegrammas/SMS/Twitter (140 burti)
+
+![Telegrammas](telegraph-sample.gif)
+
+Cipari, pieturzīmes, visādu valodu burti, bet ne formulas.
+
+</hgroup>
+
 # <lo-sample/> IMO.SHL.2014.N6
 
-Ar $a_1 < a_2 <  \cdots <a_n$ apzīmējam naturālus skaitļus, kas ir 
+Ar $a_1 < a_2 < \cdots <a_n$ apzīmējam naturālus skaitļus, kas ir 
 savstarpēji pirmskaitļi. Turklāt $a_1$ ir pirmskaitlis un
-$a_1 \ge n + 2$. Reālās taisnes nogrieznī $I = [0, a_1 a_2  \cdots a_n ]$ 
+$a_1 \geq n + 2$. Reālās taisnes nogrieznī $I = [0, a_1 a_2  \cdots a_n ]$ 
 atzīmējam visus veselos skaitļus, kas dalās ar vismaz vienu no 
 skaitļiem
 $a_1 ,   \ldots , a_n$. Šie punkti sadala $I$ vairākos mazākos nogriežņos.
@@ -24,6 +33,36 @@ Prove that the sum of the squares of the lengths of these segments is divisible 
 -->
 
 
+## Jautājums 1.1
+
+Apzīmējam $N=3\cdot{}5\cdot{}7\cdot{}11$. Skaitļu intervālā $[0,N]$ 
+nokrāsojam sarkanus visus tos punktus, kuri dalās ar vismaz vienu 
+no skaitļiem $3,5,7$ vai $11$. Cik ir tādu intervālu $I \subseteq [0,N]$
+garumā $1$, kam abi galapunkti ir sarkani?
+
+
+## Telegramma (192 simboli)
+
+<small>
+
+`Apzīmē f(d) - cik [0;N] satur intervālus garumā d,`  
+`kuros nav neviena sarkana punkta.`  
+`f(1)=3*5*7*11,`  
+`f(2)=(3-1)(5-1)(7-1)(11-1),`  
+`f(3)=(3-2)(5-2)(7-2)(11-2),`  
+`f(4)=f(5)=...=0`  
+`Atbilde: f(1)-2f(2)+f(3)`
+
+</small>
+ 
+
+## Jautājums 1.2
+
+Kāds atlikums rodas, ja summu 
+$$\sum_{k=1}^{103} (1+2k^{17})^7$$
+dala ar $103$? 
+
+
 # <lo-sample/> IMO.SHL.2014.N7
 
 Dots naturāls skaitlis $c \ge 1$. Definējam naturālu skaitļu 
@@ -32,7 +71,7 @@ $$a_{n+1}=a_n^3-4c\cdot a_n^2+5c^2\cdot a_n+c$$
 visiem $n \geq 1$. 
 Pierādīt, ka jebkuram naturālam $n \geq 2$ eksistē
 pirmskaitlis $p$, ar kuru dalās $a_n$, bet nedalās 
-neviens no skaitļiem $a_1 , \ldots , a_{n-1}$ .
+neviens no skaitļiem $a_1,\ldots,a_{n-1}$.
 
 
 
@@ -198,5 +237,65 @@ $$f(x,y) = a_0x^n + a_1x^{n-1}y + a_2x^{n-2}y^2 +
 -->
 
 
+# <lo-sample/> IMO.SHL.2018.N3
+
+Definējam virkni $a_0, a_1, a_2,\ldots$
+ar sakarību $a_n = 2^n + 2^{\lfloor n/2 \rfloor}$. 
+Pierādīt, ka eksistē bezgalīgi daudzi šīs virknes locekļi, 
+ko var izteikt kā (divu vai vairāku) šīs virknes 
+locekļu summu. Kā arī bezgalīgi daudzi locekļi, 
+kurus tādā veidā nevar izteikt.
+<!--
+Define the sequence $a_0, a_1, a_2,\ldots$
+by $a_n = 2^n + 2^{\lfloor n/2 \rfloor}$. 
+Prove that there are infinitely many terms of the sequence
+which can be expressed as a sum of (two or more)
+distinct terms of the sequence, as well as infinitely 
+many of those which cannot be expressed in such a way.
+-->
+
+
+# <lo-sample/> IMO.SHL.2018.N6
+
+Dota $f\,:\,\{1,2,3,\ldots\}\,\rightarrow\{2,3,\ldots\}$, 
+funkcija, kas apmierina sakarību
+$f(m+n)\,\mid\,f(m)+f(n)$ ($f(m+n)$ ir $f(m)+f(n)$ dalītājs)
+visiem naturālu skaitļu pāriem $m,n$. Pierādīt, ka 
+eksistē naturāls skaitlis $c>1$, kurš ir visu 
+$f$ vērtību dalītājs.
+
+
+
+<!--
+Let $f\,:\,\{1,2,3,\ldots\}\,\rightarrow\{2,3,\ldots\}$
+be a function such that $f(m+n)\,\mid\,f(m)+f(n)$
+for all pairs $m,n$ of positive integers. Prove
+that there exists a positive integer $c>1$ which 
+divides all values of $f$.
+-->
+
+
+
+
+# <lo-sample/> IMO.SHL.2018.N7
+
+Dots vesels skaitlis $n \geq 2018$ un 
+$a_1,a_2,\ldots,a_n,b_1,b_2,\ldots,b_n$
+ir pa pāriem dažādi naturāli skaitļi, kas 
+nepārsniedz $5n$. Pieņemsim, ka virkne
+$$\frac{a_1}{b_1},\frac{a_2}{b_2},\ldots,\frac{a_n}{b_n}$$
+veido aritmētisku progresiju. Pierādīt, ka visi virknes locekļi 
+ir savā starpā vienādi.
+
+
+<!--
+Let $n \geq 2018$ be an integer, and let 
+$a_1,a_2,\ldots,a_n,b_1,b_2,\ldots,b_n$
+be pairwise distincst positive integers not 
+exceeding $5n$. Suppose that the sequence 
+$$\frac{a_1}{b_1},\frac{a_2}{b_2},\ldots,\frac{a_n}{b_1n}$$
+forms an arithmetic progression. Prove that the terms 
+of the sequence are equal.
+-->
 
 
