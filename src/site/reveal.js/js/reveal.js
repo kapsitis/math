@@ -469,7 +469,7 @@
         theLogo.setAttribute("style","border:0;");
 
 	var theLink = document.createElement("a");
-        theLink.setAttribute("href","http://85.254.250.28/training/");
+        theLink.setAttribute("href","../index.html");
         theLink.setAttribute("class","image");
         theLink.appendChild(theLogo);
 

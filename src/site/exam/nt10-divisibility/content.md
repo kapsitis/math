@@ -1,3 +1,13 @@
+# &nbsp;
+
+<h1 style="font-size:28pt">Skaitļu teorija: Testi</h1>
+
+* Algebras prasmes sk.teorijā
+* <blue>Dalāmības prasmes</blue>
+* Modulārās aritmētikas prasmes
+
+
+
 # Q.NT10.DIV.1
 
 Ja zināms, ka $n$ ir nepāru skaitlis, atrast augstāko skaitļa $2$ pakāpi, 
@@ -16,9 +26,6 @@ ar kuru noteikti dalās $n^3-n$.
 
 > [LV.AO.2018.10.4](#)
 
-----
-
-# Q.NT10.DIV.2
 
 
 

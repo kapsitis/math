@@ -1,3 +1,13 @@
+# &nbsp;
+
+<h1 style="font-size:28pt">Skaitļu teorija: Testi</h1>
+
+* Algebras prasmes sk.teorijā
+* Dalāmības prasmes
+* <blue>Modulārās aritmētikas prasmes</blue>
+
+
+
 # Q.NT10.MOD.1
 
 Vai eksistē skaitlis $x \in [1,100]$, kuram 
@@ -12,7 +22,7 @@ atlikumu $2$, dalot ar $4$.
  
 > [LV.NO.2015.10.4](#)
 
----
+
 
 # Q.NT10.MOD.2
 
@@ -33,7 +43,7 @@ Ja $n$ ir nepāru skaitlis, tad $f(n)$ ir nepāru (divu nepāru skaitļu summa).
 
 > [LV.VO.2015.10.2](#)
 
----
+
 
 # Q.NT10.MOD.3
 
@@ -57,7 +67,9 @@ ne vien ar $8$, bet arī ar $16$ (jebkuram $n$).
 
 > [LV.VO.2015.10.2](#)
 
----
+
+
+
 
 # Q.NT10.MOD.4
 
@@ -79,7 +91,9 @@ Tādēļ $n$ ir nepāru skaitlis. Var, teiksim, ņemt $(n,n+9,n+22)=(27,36,49)$.
 
 > [LV.NO.2015.10.4](#)
 
----
+
+
+
 
 # Q.NT10.MOD.5
 
@@ -101,7 +115,9 @@ Tādēļ $n$ ir pāru skaitlis. Var izvēlēties, piemēram, $(n,n+11,n+33)=(16,
 
 > [LV.NO.2015.10.4](#)
 
----
+
+
+
 
 # Q.NT10.MOD.6
 
@@ -127,7 +143,8 @@ ir divi pirmskaitļi ($101$ un $103$); ir arī vairāki citi *dvīņu pirmskait�
 
 > [LV.VO.2019.10.1](#)
 
---- 
+
+
 
 # Q.NT10.MOD.7
 
@@ -144,7 +161,9 @@ Lielākais skaitlis, kuru nevar šādi izteikt ir $9$.
 
 > [LV.VO.2019.10.1](#)
 
-----
+
+
+
 
 # Q.NT10.MOD.8
 
@@ -168,7 +187,9 @@ lai noskaidrotu pareizo atbildi).
 
 > [LV.NO.2010.10.4](#)
 
------
+
+
+
 
 
 # Q.NT10.MOD.9
@@ -193,7 +214,8 @@ noskaidrotu pareizo atbildi).
 
 > [LV.NO.2010.10.4](#)
 
----
+
+
 
 # Q.NT10.MOD.10
 
@@ -208,7 +230,9 @@ skaitļi. Tad no visām $15$ summām tieši $3\cdot{}3 =9$ būs tādas, kas ir n
 
 > [LV.AO.2014.10.4](#)
 
----
+
+
+
 
 # Q.NT10.MOD.11
 
@@ -222,7 +246,8 @@ visas $15$ summas (tik veidos $2$ var izvēlēties no $6$) būs pāru skaitļi.
 
 > [LV.AO.2014.10.4](#)
 
----
+
+
 
 # Q.NT10.MOD.12
 
@@ -245,7 +270,9 @@ Pārbaudām summas: $5+2$, $2+1$, $4+9$, $9+11$. No tām tikai pirmā dalās ar 
 
 > [LV.VO.2017.10.2](#)
 
-----
+
+
+
 
 # Q.NT10.MOD.13
 
@@ -267,7 +294,9 @@ vienīgi tad, ja $n$ dalās ar $3$.
 
 > [LV.AO.2012.10.1](#)
 
-----
+
+
+
 
 # Q.NT10.MOD.14
 
@@ -292,7 +321,10 @@ Iegūstam $(3k+2)^2=9k^2 + 12k + 4$ un $4$ dod atlikumu $1$.
 
 > [LV.VO.2013.10.4](#)
 
----
+
+
+
+
 
 # Q.NT10.MOD.15
 
@@ -308,7 +340,8 @@ pēdējie cipari sāk atkārtoties).
 
 > [LV.VO.2013.10.4](#)
 
----
+
+
 
 # Q.NT10.MOD.16
 
@@ -328,7 +361,9 @@ atlikums ir $8$.
 
 > [LV.AO.2016.10.2](#)
 
----
+
+
+
 
 # Q.NT10.MOD.17
 
@@ -351,7 +386,8 @@ Der, piemēram, $50^2 - 2020 = 480 = 120\cdot{}4$.
 
 > [LV.AO.2016.10.2](#)
 
----
+
+
 
 # Q.NT10.MOD.18
 
@@ -366,7 +402,9 @@ pašu atlikumu kā $1\cdot{}1\cdot{}1 = 1$.
 Garāks risinājums ir atverot iekavas: $(3k+1)^3=27k^3 + 27k^2 + 9k + 1$. 
 Visi saskaitāmie dalās ar $9$ bez atlikuma, bet pēdējais dod atlikumu $1$.
 
-----
+
+
+
 
 # Q.NT10.MOD.19
 
@@ -386,7 +424,9 @@ Atrast to $d$, kuram atlikums nav atkarīgs no skaitļa $n$ izvēles.
 **Skaidrojums:** Dalot ar $6$, gan $13^n$, gan arī $7^n$ dos tādu pašu atlikumu kā 
 $1^n$ (jo $13$ un $7$, dalot ar $6$, dod atlikumu $1$).
 
----
+
+
+
 
 # Q.NT10.MOD.20
 

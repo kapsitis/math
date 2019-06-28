@@ -29,7 +29,7 @@ def main():
     rmDirectory('target')
 
     ## Which directories contain reveal.js slides
-    resTypes = ['prob', 'tale', 'miscellaneous']
+    resTypes = ['prob', 'exam', 'tale', 'miscellaneous']
 
     for resType in resTypes:
         ROOT = 'src/site/%s' % resType
@@ -51,7 +51,7 @@ def main():
     copyDirectory('src/site/reveal.js', 'target/reveal.js')
     copyDirectory('src/site/analysis', 'target/analysis')
     copyDirectory('src/site/downloads', 'target/downloads')
-    copyDirectory('src/site/exam', 'target/exam')
+    #copyDirectory('src/site/exam', 'target/exam')
     copyDirectory('src/site/main', 'target/main')
     ## Compile all TEX files under "static"
     ROOT = 'src/site/static'

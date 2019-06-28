@@ -1,3 +1,13 @@
+# &nbsp;
+
+<h1 style="font-size:28pt">Skaitļu teorija: Testi</h1>
+
+* <blue>Algebras prasmes sk.teorijā</blue>
+* Dalāmības prasmes
+* Modulārās aritmētikas prasmes
+
+
+
 # Q.NT10.ALG.1
 
 Aritmētiskā progresijā $a, a+d, a+2d, a+3d, \ldots$ 
@@ -13,7 +23,7 @@ $(a+3d)^2$ dod $6ad$. Saskaitot $2ad+4ad+6ad$ iegūstam $12ad$.
 
 > [LV.AO.2016.10.3](#)
 
----
+
 
 # Q.NT10.ALG.2
 
@@ -32,7 +42,8 @@ Saskaitām $9x^2 + x^2 + x^2 + 9x^2 = 20x^2$.
 
 > [LV.AO.2016.10.3](#)
 
-----
+
+
 
 # Q.NT10.ALG.3
 
@@ -49,7 +60,9 @@ $$3xy^2 = 3a(3b)^2 = 27ab^2.$$
 
 > [LV.NO.2010.10.2](#)
 
-----
+
+
+
 
 # Q.NT10.ALG.4
 
@@ -67,7 +80,8 @@ dod summā $2^4 = 16$.
 
 > [LV.NO.2010.10.2](#)
 
-----
+
+
 
 # Q.NT10.ALG.5
 
@@ -83,6 +97,8 @@ Ja zināms, ka $f(4)=14$, kādas vērtības var pieņemt $f(7)$:
 3. $23$
 4. $24$
 
+</small>
+
 **Atbilde:** `C`  
 **Skaidrojums:** Var pamatot, ka $f(7)-f(4)$ dalās ar $(7-4)$ (izmanto to, ka $x_1^2 - x_2^2$ 
 dalās ar $x_1 - x_2$). Tādēļ $f(7)-f(4)$ dalās ar $3$ jeb $f(7)-14$ dalās ar $3$.  
@@ -90,7 +106,9 @@ Vienīgais skaitlis, kurš der ir $23$, jo $23 - 14 = 9$.
 
 > [LV.VO.2011.10.4](#)
 
----- 
+
+
+
 
 # Q.NT10.ALG.6
 
@@ -111,7 +129,8 @@ ja dala $a^3-b^3$ ar $a-b$, tad iegūst $a^2 + ab + b^2$, kas ir vesels.
 
 > [LV.VO.2011.10.4](#)
 
-----
+
+
 
 # Q.NT10.ALG.7
 
@@ -133,7 +152,8 @@ Tas tādēļ, ka jebkurai pakāpei $n$, $(x^n - y^n)$ dalās ar $(x-y)$.
 
 > [LV.VO.2011.10.4](#)
 
-----
+
+
 
 # Q.NT10.ALG.8
 
@@ -154,7 +174,9 @@ iegūstams, kāpinot kvadrātā $(n+3)$.
 
 > [LV.AO.2016.10.3](#)
 
---- 
+
+
+
 
 # Q.NT10.ALG.9
 
@@ -177,7 +199,9 @@ $n=-2$. Tas gan nav naturāls skaitlis. Tāpēc $m$ nekad nesanāk pilns kvadrā
 
 > [LV.AO.2016.10.3](#)
 
-----
+
+
+
 
 # Q.NT10.ALG.10
 
@@ -201,7 +225,9 @@ Tātad $y=\sqrt{x^5/10}$ beidzas vismaz ar $2$ nullēm, jo $x^5/10$ dalās ar $1
 
 > [LV.NO.2010.10.4](#)
 
-------
+
+
+
 
 # Q.NT10.ALG.11
 
@@ -216,12 +242,16 @@ Zināms, ka $x^3 = 6y^2$. Ar kādu augstāko skaitļa $2$ pakāpi noteikti dalā
 3. $x^3$ dalās ar $8=2^3$.
 4. $x^3$ dalās ar $16=2^4$.
 
+</small>
+
 **Atbilde:** `C`  
 **Skaidrojums:** $x$ noteikti ir pāru skaitlis $2k$, tādēļ $x^3=(2k)^3=8k^3$ dalās ar $8$.
 
 > [LV.NO.2010.10.4](#)
 
--------
+
+
+
 
 # Q.NT10.ALG.12
 
@@ -244,7 +274,8 @@ abu daļu saucējos ir papildu reizinātājs $2$.
 
 > [LV.VO.2016.10.3](#)
 
-----
+
+
 
 # Q.NT10.ALG.13
 
@@ -260,7 +291,7 @@ $\frac{3}{7}$ ir lielāka arī par $\frac{1}{3}$, šo daļu starpība ir $\frac{
 
 > [LV.VO.2016.10.3](#)
 
-----
+
 
 # Q.NT10.ALG.14
 
@@ -284,7 +315,9 @@ $9 < 10$. Tādēļ vienmēr $A > B$.
 
 > [LV.AO.2015.10.3](#)
 
-----
+
+
+
 
 # Q.NT10.ALG.15
 
@@ -305,7 +338,10 @@ tādēļ arī visa izteiksme samazinās.
 
 > [LV.VO.2013.10.1](#)
 
-----
+
+
+
+
 
 # Q.NT10.ALG.16
 
@@ -324,7 +360,9 @@ Trijos gadījumos starpība $\frac{1}{6}-\frac{1}{a}$ ir formā $\frac{1}{b}$.
 
 > [LV.VO.2013.10.1](#)
 
----
+
+
+
 
 # Q.NT10.ALG.17
 
@@ -345,7 +383,9 @@ jo tam arī vajadzētu vismaz četras $8$-centu pastmarkas.
 
 > [LV.VO.2014.10.3](#)
 
----
+
+
+
 
 # Q.NT10.ALG.18
 
@@ -369,7 +409,9 @@ Citos variantos var viegli atrast pretpiemērus.
 
 > [LV.VO.2016.10.1](#)
 
----
+
+
+
 
 # Q.NT10.ALG.19
 
@@ -386,7 +428,9 @@ dalās ar $2^1$. Viss kopā dalās ar $2^{16}$ jeb $x=16$.
 
 > [LV.VO.2016.10.1](#)
 
-----
+
+
+
 
 # Q.NT10.ALG.20
 

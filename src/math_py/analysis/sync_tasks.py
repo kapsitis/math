@@ -71,11 +71,41 @@ def escape_math_seq(arg):
         result.append(escape_math(word))
     return ' '.join(result)
 
+def get_backlinks():    
+    prob_dir_lst = ['numtheory-ee-pk' ,'numtheory-ee-lo', 'numtheory-ee-lvs-lvt', 
+                'numtheory-lv-no-78', 'numtheory-lv-no', 'numtheory-lv-vo', 
+                'numtheory-lv-ao', 'numtheory-lt-lkmmo', 'numtheory-lt-ldk',
+                'numtheory-lt-raj',  'numtheory-lt-lmmo', 'numtheory-lt-vumif']
+    result = {}
+    
+    cur_skill = ''
+    cur_probid = ''
+    for prob_dir in prob_dir_lst:
+        with open('src/site/prob/%s/content.md' % prob_dir) as prob_input:
+            for prob_lin in prob_input:
+                if re.match('# <lo-sample/> .*', prob_lin):
+                    cur_probid = re.sub('# <lo-sample/> ([^\s]+)','\g<1>', prob_lin).strip()
+                    #print('probid = "%s"' % cur_probid)
+                elif re.match('\* \[[^\[\]]+\]\(#\)\s*', prob_lin):
+                    cur_skill = re.sub('\* \[([^\[\]]+)\]\(#\)\s*','\g<1>', prob_lin).strip()
+                    #print('skillid = "%s"' % cur_skill)
+                    if cur_skill in result: 
+                        result[cur_skill].append((prob_dir, cur_probid))
+                    else:
+                        result[cur_skill] = [(prob_dir, cur_probid)]
+    
+    #result['alg.equation'] = [('numtheory-lv-no', 'LV.NO.2010.10.2'),('numtheory-lv-no', 'LV.NO.2010.10.4')] 
+    return result   
+
+
 def main(): 
     # Change current directory, if invoked directly
     the_dir = os.getcwd()    
     if the_dir.endswith('/src/math_py/analysis'):
         os.chdir("../../..")
+    
+    the_dict = get_backlinks()
+    
     
     response = requests.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vQvAsYeFYhuFLmLgtMiYFeQFeeO4e0DgteRXRg1zpQ2iMcWZr-mIgdyDYnh1IoKq4l5v9C-JAE1-Qcy/pub?gid=0&single=true&output=csv')
     assert response.status_code == 200, 'Wrong status code'
@@ -95,20 +125,32 @@ def main():
         out.write('  <col class="bbb">')
         out.write('  <col class="ccc">')
         out.write('</colgroup><tbody>')
-        out.write('<tr><th>Prasmes kods</th><th>Apraksts</th><th>Piemēri, t.sk kanoniskie</th></tr>\n')
+        out.write('<tr><th>Prasmes kods</th><th>Apraksts</th><th>Piemēri</th></tr>\n')
         nrow = 0
         for row in tasks:
+            skill_id = row[5]
+            backLinks = 'N/A'
+            if skill_id in the_dict:
+                pairs = the_dict[skill_id]
+                links = list()
+                for pair in pairs:
+                    prob_file = pair[0]
+                    upper_id = pair[1]
+                    lower_id = pair[1].lower()
+                    links.append('<a href="../prob/%s/content.html#/%s">%s</a>' % (prob_file,lower_id,upper_id))
+                backLinks = ', '.join(links)
             rowclass = 'odd'
             if nrow % 2 == 0:
                 rowclass = 'even' 
             if nrow > 0:
                 labels = get_label_seq([row[0],row[1],row[2],row[3],row[4]])
                 my_esc = escape_math_seq(row[6])
-                out.write('<tr class="%s"><td><code>%s</code> %s</td><td>%s</td><td>Blah</td></tr>\n' % (rowclass, labels, row[5], my_esc))
+                out.write('<tr class="%s"><td><code>%s</code> %s</td><td>%s</td><td>%s</td></tr>\n' % (rowclass, labels, skill_id, my_esc, backLinks))
             nrow = nrow + 1
         out.write('</tbody></table>\n\n</html>')
     out.close()
 
 if __name__ == '__main__':
     main()
+    
 

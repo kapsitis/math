@@ -23,6 +23,8 @@ src/site/prob/**/*.html
 !src/site/prob/index.html
 src/site/tale/**/*.html
 !src/site/tale/index.html
+src/site/exam/**/*.html
+!src/site/exam/index.html
 src/site/static/*.pdf
 src/site/source_material
 !src/site/prob/themes/ddgatve/base.html
