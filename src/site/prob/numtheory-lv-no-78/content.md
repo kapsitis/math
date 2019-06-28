@@ -31,6 +31,7 @@ vismaz viens interesants.
 <!--
 tag=decimal_notation
 genre=special_numbers
+questionType=Find.Any,Find.Count,Prove.ForAll
 -->
 
 ## Atlikumi, dalot ar 9 
@@ -71,6 +72,7 @@ atrastos skaitļi $\frac{4}{3}$; $\frac{4}{5}$; $\frac{5}{2}$?
 <!--
 tag=blackboard
 genre=finding_path
+questionType=ProveDisprove.Exists
 -->
 
 
@@ -102,6 +104,7 @@ katru vienu reizi. Vai to var izdarīt, ja
 <!--
 tag=table
 genre=magic_configuration
+questionType=ProveDisprove.Exists
 -->
 
 
@@ -140,6 +143,7 @@ skaitļu summu (pavisam būs $12$ summas). Kādu mazāko skaitu dažādu vērtī
 <!--
 tag=table
 genre=optimization
+questionType=Find.Min
 -->
 
 ## Piemēra konstrukcija
@@ -172,6 +176,7 @@ pārējām kartītēm.
 <!--
 tag=table
 genre=construction
+questionType=Find.Any,ProveDisprove.Exists
 -->
 
 
@@ -187,6 +192,10 @@ Dots, ka $A$ un $B$ ir trīsciparu naturāli skaitļi,
 pie tam $A$ simtu cipars sakrīt ar $A$ vienu
 ciparu. Zināms arī, ka $A-B=297$ un $B$ ciparu summa ir $23$. Atrast $A$ un $B$.
 
+
+<!--
+questionType=Find.All
+-->
 
 
 # <lo-sample/> NO.2000.10.2 

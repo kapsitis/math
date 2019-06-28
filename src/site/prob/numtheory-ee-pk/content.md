@@ -18,11 +18,6 @@ Pierādīt, ka jebkuram veselam $n \geq 3$ atradīsies tāds $n$-ciparu
 skaitlis, kurš ir vesela skaitļa kvadrāts, un, pierakstot tam sākumā 
 ciparu 1, arī rodas kāda vesela skaitļa kvadrāts.
 
-<!--
-Доказать, что для каждого целого числа $n \geq 3$ найдётся такое $n$-значное
-число, которое является квадратом целого числа и при добавлении в его
-начало цифры 1 также получится квадрат некоторого целого числа.
--->
 
 <small>
 
@@ -34,6 +29,16 @@ ciparu 1, arī rodas kāda vesela skaitļa kvadrāts.
 
 </small>
 
+<!--
+ru=
+Доказать, что для каждого целого числа $n \geq 3$ найдётся такое $n$-значное
+число, которое является квадратом целого числа и при добавлении в его
+начало цифры 1 также получится квадрат некоторого целого числа.
+-->
+
+<!--
+questionType=Prove.ForAll
+-->
 
 
 ## Vienādojumu sistēmas
@@ -67,7 +72,15 @@ b) Vai izpildās arī apgrieztais apgalvojums: Vienmēr, kad skaitlis
 $n$ dalās ar $m+1$, tad dalījums un atlikums, ja $n$ dala ar $m$, ir 
 savā starpā vienādi? 
 
+<small>
+
+* [mod.rem.expr](#)
+* [mod.rem.values](#)
+
+</small>
+
 <!--
+ru=
 На уроке математики Юра должен был поделить положительное целое
 число $n$ на положительное целое число $m$, чтобы найти частное и остаток.
 а) Доказать, что если найденные частное и остаток равны между собой,
@@ -77,12 +90,9 @@ savā starpā vienādi?
 m равны между собой?
 -->
 
-<small>
-
-* [mod.rem.expr](#)
-* [mod.rem.values](#)
-
-</small>
+<!--
+questionType=Prove.ForAll,ProveDisprove.ForAll
+-->
 
 ## Algebriski pateikts apgalvojums par atlikumu
 
@@ -105,17 +115,22 @@ un $0 \neq 25$.
 Cik ir veselu skaitļu komplektu $(a, b, c)$, 
 kuri apmierina vienādojumu $(a + b)(b + c)(c + a) = 123456789$?
 
-<!--
-Сколько существует комплектов целых чисел $(a, b, c)$, 
-которые удовлетворяют уравнению $(a + b)(b + c)(c + a) = 123456789$?
--->
-
 <small>
 
 * [notation.divrules.2or5or10.divides](#)
 * [mod.parity.cases](#)
 
 </small>
+
+<!--
+ru=
+Сколько существует комплектов целых чисел $(a, b, c)$, 
+которые удовлетворяют уравнению $(a + b)(b + c)(c + a) = 123456789$?
+-->
+
+<!--
+questionType=Find.Count
+-->
 
 ## Dalāmības pazīmes
 
@@ -144,12 +159,6 @@ Atrast mazāko naturālo skaitli $n$, kuram starp jebkuriem $n$
 veselu skaitļu kvadrātiem atradīsies divi tādi, kuru starpība
 dalās ar $10$. 
 
-<!--
-Найти наименьшее натуральное число $n$, при котором среди любых n
-квадратов целых чисел найдутся два таких, разность которых делится
-на $10$.
--->
-
 <small>
 
 * [mod.expr.square](#)
@@ -157,6 +166,17 @@ dalās ar $10$.
 * [misc.pigeonhole](#)
 
 </small>
+
+<!--
+ru=
+Найти наименьшее натуральное число $n$, при котором среди любых n
+квадратов целых чисел найдутся два таких, разность которых делится
+на $10$.
+-->
+
+<!--
+questionType=Find.Min
+-->
 
 
 
@@ -182,13 +202,6 @@ Vienādmalu trijstūra virsotnēs ierakstīti naturāli skaitļi $14$, $20$ un $
 Jebkuru divu virsotņu skaitļu reizinājums dalās ar skaitli trešajā virsotnē. 
 Atrast visas iespējamās $n$ vērtības.
 
-
-<!--
-В вершины равностороннего треугольника записаны положительные целые числа 14, 20 и $n$. 
-Произведение чисел любых двух вершин делится на
-число в третьей вершине. Найти все возможные значения числа $n$.
--->
-
 <small>
 
 * [div.common.lcm](#)
@@ -196,6 +209,18 @@ Atrast visas iespējamās $n$ vērtības.
 * [misc.exhaustive](#)
 
 </small>
+
+<!--
+ru=
+В вершины равностороннего треугольника записаны положительные целые числа 14, 20 и $n$. 
+Произведение чисел любых двух вершин делится на
+число в третьей вершине. Найти все возможные значения числа $n$.
+-->
+
+<!--
+questionType=Find.All
+-->
+
 
 
 ## Par mazāko kopīgo dalāmo
@@ -214,12 +239,6 @@ Atrast visas iespējamās $n$ vērtības.
 $x − y$ mazāko iespējamo vērtību.  
 b) Tas pats jautājums, ja $x$ un $y$ ir veseli skaitļi.
 
-<!--
-а) Известно, что $x^2 − y^2 = 100$, где $x$ и $y$ − натуральные числа. Найти
-наименьшее возможное значение выражения $x − y$.  
-б) Тот же вопрос, при условии, что $x$ и $y$ − целые числа
--->
-
 <small>
 
 * [alg.factorize.sqdiff](#)
@@ -228,6 +247,18 @@ b) Tas pats jautājums, ja $x$ un $y$ ir veseli skaitļi.
 * [alg.linear](#)
 
 </small>
+
+<!--
+ru=
+а) Известно, что $x^2 − y^2 = 100$, где $x$ и $y$ − натуральные числа. Найти
+наименьшее возможное значение выражения $x − y$.  
+б) Тот же вопрос, при условии, что $x$ и $y$ − целые числа
+-->
+
+<!--
+questionType=Find.Min
+-->
+
 
 ## Dalīšana reizinātājos
 
@@ -248,11 +279,6 @@ lineāru vienādojumu sistēmai  $x-y=1$ un $x+y=100$ utml.
 Vai eksistē tāds naturāls skaitlis $n$, ka vairāk nekā pusei 
 veselo skaitļu no $1$ līdz $n$ ciparu summa ir pāru skaitlis?
 
-<!--
-Существует ли такое положительное целое число $n$, что у более половины
-из целых чисел от $1$ до $n$ сумма цифр чётна?
--->
-
 <small>
 
 * [seq.define](#)
@@ -260,6 +286,17 @@ veselo skaitļu no $1$ līdz $n$ ciparu summa ir pāru skaitlis?
 * [misc.induction](#)
 
 </small>
+
+<!--
+ru=
+Существует ли такое положительное целое число $n$, что у более половины
+из целых чисел от $1$ до $n$ сумма цифр чётна?
+-->
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
 
 ## Eksperimentēšana
 
@@ -304,19 +341,25 @@ būtu vienāda ar to mazāko kopīgo dalāmo, ja
 a) $n = 2$?  
 b) $n = 3$?
 
-<!--
-Можно ли подобрать такие $n$ положительных целых чисел, 
-чтобы их сумма равнялась их же наименьшему общему кратному, если
-а) $n = 2$?  
-б) $n = 3$?
--->
-
 <small>
 
 * [div.alg](#)
 * [div.common.lcm.frac](#)
 
 </small>
+
+<!--
+ru=
+Можно ли подобрать такие $n$ положительных целых чисел, 
+чтобы их сумма равнялась их же наименьшему общему кратному, если
+а) $n = 2$?  
+б) $n = 3$?
+-->
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
 
 
 ## Pārtulkojam apgalvojumu algebriski
@@ -350,19 +393,23 @@ Vai eksistē tāds vienādojuma
 $x^2 + y^2 + z^2 + w^2 = 3 + xy + yz + zw$,
 atrisinājums, kuram $x$, $y$, $z$ un $w$ ir dažādi veseli skaitļi?
 
-
-<!--
-Существует ли такое решение уравнения
-$x^2 + y^2 + z^2 + w^2 = 3 + xy + y z + zw$,
-при котором $x$, $y$, $z$ и $w$ различные целые числа?
--->
-
 <small>
 
 * [alg.ineq.fullsquare](#)
 * [alg.ineq.equations](#)
 
 </small>
+
+<!--
+ru=
+Существует ли такое решение уравнения
+$x^2 + y^2 + z^2 + w^2 = 3 + xy + y z + zw$,
+при котором $x$, $y$, $z$ и $w$ различные целые числа?
+-->
+
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 
@@ -384,11 +431,6 @@ neviens no šiem kvadrātiem nevar būt $2^2$ vai lielāks.
 Atrast visus veselu skaitļu pārus $(x,y)$, kuriem 
 $324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
 
-<!--
-Найти все пары целых чисел $(x,y)$, при которых
-$324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
--->
-
 <small>
 
 * [div.pfactor.algorithm](#)
@@ -397,6 +439,19 @@ $324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
 * [alg.linear](#)
 
 </small>
+
+<!--
+ru=
+Найти все пары целых чисел $(x,y)$, при которых
+$324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
+-->
+
+<!--
+questionType=Find.All
+-->
+
+
+
 
 ## Dalām pirmreizinātājos
 
@@ -442,12 +497,6 @@ Pierādīt, ka atradīsies bezgalīgi daudz četrinieku, ko veido
 dažādi naturāli skaitļi, kuriem
 $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d}.$$
 
-<!--
-Доказать, что найдётся бесконечно много четвёрок различных 
-целых положительных чисел $(a, b, c, d)$, при которых
-$$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d}.$$
--->
-
 <small>
 
 * [misc.symmetry](#)
@@ -456,6 +505,18 @@ $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d
 * [alg.sums.linear](#)
 
 </small>
+
+<!--
+ru=
+Доказать, что найдётся бесконечно много четвёрок различных 
+целых положительных чисел $(a, b, c, d)$, при которых
+$$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d}.$$
+-->
+
+<!--
+questionType=Find.InfinitelyMany
+-->
+
 
 ## Papildu pieņēmumi (simetrija)
 
@@ -504,6 +565,14 @@ skaitli ar $3$ un pārceļot rezultāta pēdējo ciparu uz sākumu,
 negaidīti ieguva tādu pašu trīsciparu skaitli. 
 Atrast visas iespējamās vērtības Mari iedomātajam skaitlim. 
 
+<small>
+
+* [alg.equation](#)
+* [notation.dec.combine.poly](#)
+* [misc.exhaustive](#)
+
+</small>
+
 <!--
 Маша задумала одно натуральное число. Умножив это число на 4, 
 она получила какое-то трёхзначное число. А когда она умножила первоначальное 
@@ -512,13 +581,9 @@ Atrast visas iespējamās vērtības Mari iedomātajam skaitlim.
 Найти все возможные значения задуманного Машей числа.
 -->
 
-<small>
-
-* [alg.equation](#)
-* [notation.dec.combine.poly](#)
-* [misc.exhaustive](#)
-
-</small>
+<!--
+questionType=Find.All
+-->
 
 
 ## Vienādojuma sastādīšana
@@ -562,11 +627,6 @@ pēdējo ciparu uz sākumu.
 Cik ir tādu veselu negatīvu skaitļu pāru $(a,b)$, 
 kas apmierina vienādību $22a + 15b = 2019$?
 
-<!--
-Сколько найдётся пар неотрицательных целых чисел $(a, b)$, 
-удовлетворяющих равенству $22a + 15b = 2019$?
--->
-
 <small>
 
 * [misc.extreme.param](#)
@@ -575,6 +635,17 @@ kas apmierina vienādību $22a + 15b = 2019$?
 * [seq.arithm.mod.gaps](#)
 
 </small>
+
+<!--
+ru=
+Сколько найдётся пар неотрицательных целых чисел $(a, b)$, 
+удовлетворяющих равенству $22a + 15b = 2019$?
+-->
+
+<!--
+questionType=Find.Count
+-->
+
 
 ## Lielākā iespējamā a vērtība
 

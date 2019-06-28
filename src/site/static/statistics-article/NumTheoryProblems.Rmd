@@ -1,0 +1,14 @@
+---
+title: "Number Theory Problems"
+output:
+  pdf_document: default
+  word_document: default
+date: "June 28, 2019"
+---
+
+## R Markdown
+
+* `Find.All` (often assumed that the answer is unique; sometimes we need to find a 
+single number, sometimes - a pair of numbers)
+* `ProveDisprove.Exists` (typically this requires a constructive proof, but the question
+is about the fact of existence rather than finding an example.)
