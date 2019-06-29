@@ -1,14 +1,109 @@
 ---
-title: "Number Theory Problems"
+title: "Number Theory Problems by Grade"
 output:
   pdf_document: default
   word_document: default
 date: "June 28, 2019"
 ---
 
-## R Markdown
+**Abstract:** In this article we study olympiad problems in number theory (NT) 
+offered in Latvia and Estonia. We compare the olympiad papers 
+by grade and sort them by these attributes:
 
-* `Find.All` (often assumed that the answer is unique; sometimes we need to find a 
-single number, sometimes - a pair of numbers)
-* `ProveDisprove.Exists` (typically this requires a constructive proof, but the question
-is about the fact of existence rather than finding an example.)
+* **skills** - ability to perform certain groups of tasks,
+* **question type** - what is the required result. Is 
+it a proof for a general case, a proof by providing a counterexample, 
+finding all numbers satisfying some statement, etc.), 
+* **genre** a narrower category that often implies the question type
+such as integer equations, analyzing adversarial games, filling a table,
+* **concepts** appearing in the problem (for example, problems 
+mentioning prime numbers, greatest common divisors, floor function). 
+
+## Introduction
+
+Secondary schools and gymnasiums in Latvia and Estonia share many similarities. 
+* Primary education (Grades 1-6, typically for 7-13 year olds) is a prerequisite for 
+secondary education. Some olympiads and competitions target this age group 
+(for example, [Latvian Open Mathematical Olympiad](http://nms.lu.lv/in-english/en-mathematical-contests/#AMO) 
+includes grades 5-6). This study only includes problems starting from Grade 7. 
+* Secondary education has 2 levels - lower secondary is Grades 7-9 (ages 14-16), 
+upper secondary is Grades 10-12 (ages 17-19).
+* Various NT concepts (divisibility, remainders, 
+prime numbers, lcd and gcm, decimal notation) are already covered in Grades 5-6, 
+so the "theory" part in the number theory problems is almost the same for
+Grades 7-12. 
+* Olympiads in Latvia and in Estonia follow a similar pattern. It starts with the 
+regional tour followed by the national tour (both events limit the number of 
+participants; in particular, only the highest scoring students from the regional 
+tours may enter the national tour). In addition, there is the open tour
+(in Estonia there are even two open tours per year), where everyone 
+can participate. 
+
+**Existing guidelines:**  
+
+Most olympiad papers in Latvian and Estonian olympiads
+(regional, national and open tours) have 5 problems. On average, 
+each olympiad paper has 1 NT problem (others are on geometry, algebera, 
+combinatorics and/or "school problems").
+
+1. Junior grades do not get NT problems that use some advanced concepts 
+that are mostly covered after Grade 9 (geometrical progressions, 
+exponential functions or logarithms, floor function $\lfloor x \rfloor$).
+2. Problems involving ellipsis or sum notation 
+such as $F(1) + F(2) + \ldots + F(n)$ or $\sum_{k=1}^nF(k)$.
+3. Steps that introduce a higher level of abstraction. For 
+example, problem using the "regular" rule of divisibility by $9$ ($9$ divides
+a number if and only if $9$ divides the sum of its digits) is fine for 
+all grades 7-12, but a generalization (each number $n$ is congruent to the sum of 
+its digits modulo $9$) is only used for grades 10-12.
+
+The goal of this paper is to find empirical evidence of other differences
+caused by conscious or unconscious choices of the problem selection committees
+in both countries. This would be necessary to plan curricula for additional 
+training in the number theory for different age groups.
+
+## Metadata for Olympiad Problems
+
+
+## Skills for "Junior" and "Senior" NT Problems
+
+
+## Differences by Question Type
+
+* **Find.All** - find all objects satisfying the condition 
+and prove that there are no others. In some problems the question 
+implicitly assumes that the number was unique (for example, "Which was 
+the number guessed by Joe?", EE.LVT.2016.noorem.2). 
+Still, a full solution would need to prove the uniqueness of the answer. 
+The objects to find may also differ. They may be 
+integer numbers, pairs or $n$-tuples of integer numbers, 
+series of moves to achieve some result, sequences or solutions to 
+functional equations.
+* `Prove.Exists` (typically this requires a constructive proof, but the question
+is about the fact of existence rather than finding an example.) Sometimes 
+the object that should exist is a natural or integer number. A pair of numbers or 
+even a path. 
+* `ProveDisprove.Exists`
+
+## Differences by Genre
+
+## Differences by Concepts
+
+5 categories - only junior concepts; predominantly junior, mixed, 
+predominantly senior, only senior. 
+
+## Conclusions
+
+1. NT problems offered to senior students (grades 10-12) need more skills compared
+to the NT problems offered to junior students (grades 7-9); in fact the former
+skills are a proper superset.
+2. Question types and genres differ more strongly by country (Latvia vs Estonia)
+than by age. There are
+certain "national traditions" how the olympiad problems in NT are formulated.
+3. The concepts used in junior grades are partly replaced
+
+## Bibliography
+
+
+
+

@@ -789,6 +789,9 @@ $$A = \sqrt{2013 + \sqrt{2012 + \sqrt{2011 + \ldots \sqrt{2 +\sqrt{1}}}}}.$$
 целое число, которое не превышает данное число.
 -->
 
+<!--
+questionType=Compute
+-->
 
 
 # <lo-sample/> EE.LVS.2013.vanem.2
@@ -804,6 +807,11 @@ ru=
 числа $p$ и $q$, что
 $$p(p + 1) + q(q + 1) = n(n + 1).$$
 -->
+
+<!--
+questionType=Find.All
+-->
+
 
 
 
@@ -829,6 +837,10 @@ $19$, $63$ кратно числу $21$, а $38$ кратно числу $19$.
 Сколько всего существует $2013$-значных интересных чисел?
 -->
 
+<!--
+questionType=Find.Count
+-->
+
 
 
 # <lo-sample/> EE.LVT.2013.noorem.3
@@ -848,6 +860,10 @@ ru=
 двух последовательных положительных целых чисел?
 -->
 
+<!--
+questionType=ProveDisprove.Exists
+-->
+
 
 
 # <lo-sample/> EE.LVT.2013.vanem.1
@@ -862,6 +878,10 @@ ru=
 Найти все такие пары положительных рациональных чисел, при которых
 сумма входящих в пару чисел является целым числом, 
 а также сумма обратных им чисел является целым числом.
+-->
+
+<!--
+questionType=Find.All
 -->
 
 
@@ -891,6 +911,9 @@ $P(x) = a_0 + a_1x + a_2x^2 +\ldots+ a_n x^n$,
 где $n$ − натуральное число и $a_0,a_1,a_2,\ldots,a_n$ − целые числа.
 -->
 
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 
@@ -912,6 +935,10 @@ ru=
 цифр от $0$ до $9$ присутствовала бы в записи хотя бы одного 
 из шести последовательных чисел $n+1$, $n+2$, $n+3$, $n+4$, $n+5$ 
 и $n+6$.
+-->
+
+<!--
+questionType=Find.Min
 -->
 
 
@@ -942,7 +969,9 @@ ru=
 б) число $9876543210$?
 -->
 
-
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 # <lo-sample/> EE.LVS.2014.noorem.4
 
@@ -955,6 +984,9 @@ ru=
 $3^303 \cdot 4^{404} \cdot 5^{505}$?
 -->
 
+<!--
+questionType=Compute
+-->
 
 
 # <lo-sample/> EE.LVS.2014.vanem.1
@@ -972,6 +1004,10 @@ ru=
 $(x^2+y^2)^n = (xy)^{2014}$ имеет решение в положительных целых числах.
 -->
 
+
+<!--
+questionType=Find.All
+-->
 
 
 # <lo-sample/> EE.LVT.2014.noorem.1
@@ -996,7 +1032,9 @@ ru=
 самого с номером его группы равна $2014$?
 -->
 
-
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 # <lo-sample/> EE.LVT.2014.noorem.2
 
@@ -1019,6 +1057,9 @@ $3_a2_b5_c + 2_c5_a3_b = 5_38_17_d5_28_3$,
 целые числа. Найти числа $a$, $b$, $c$ и $d$.
 -->
 
+<!--
+questionType=Compute
+-->
 
 
 # <lo-sample/> EE.LVT.2014.noorem.3
@@ -1038,6 +1079,9 @@ ru=
 наибольшего общего делителя чисел $n$ и $m$.
 -->
 
+<!--
+questionType=Prove.ForAll
+-->
 
 
 # <lo-sample/> EE.LVT.2014.vanem.1
@@ -1055,6 +1099,9 @@ $x^2 − x$ делится на $m$, если
 б) $m = 2015$?
 -->
 
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 
@@ -1069,7 +1116,9 @@ ru=
 которых на сумму своих цифр будет наименьшим возможным.
 -->
 
-
+<!--
+questionType=Find.All
+-->
 
 
 
@@ -1085,7 +1134,6 @@ $$0,123456789101112\;\ldots\;998999$$
 pēc komata ir visi pozitīvie skaitļi no $1$ līdz $999$.
 Atrast šī skaitļa $2015$-to ciparu pēc komata.
 
-
 <!--
 ru=
 В числе
@@ -1094,6 +1142,9 @@ $$0,123456789101112\;\ldots\;998999$$
 Найти $2015$-ую после запятой цифру этого числа.
 -->
 
+<!--
+questionType=Compute
+-->
 
 
 # <lo-sample/> EE.LVS.2015.noorem.2
@@ -1113,6 +1164,9 @@ $\frac{20^2}{4\cdot{}10}=10$.
 Найти наименьшее интересное число.
 -->
 
+<!--
+questionType=Find.Min
+-->
 
 
 # <lo-sample/> EE.LVS.2015.noorem.3
@@ -1137,7 +1191,9 @@ ru=
 нулей между его цифрами, делятся, а какие-то не делятся на него?
 -->
 
-
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 # <lo-sample/> EE.LVS.2015.noorem.6
 
@@ -1148,6 +1204,9 @@ ru=
 Сколько пятизначных делящихся на 8 чисел не имеют в своей записи цифры нуль?
 -->
 
+<!--
+questionType=Find.Count
+-->
 
 
 
@@ -1164,6 +1223,9 @@ ru=
 каких-то четырёх различных двузначных чисел.
 -->
 
+<!--
+questionType=Find.Max
+-->
 
 
 # <lo-sample/> EE.LVS.2015.vanem.3
@@ -1179,6 +1241,9 @@ $n+31$, $n+33$, $n+37$ и $n+39$ − простые числа. Найти ос�
 числа $n$ на $210$.
 -->
 
+<!--
+questionType=Compute
+-->
 
 
 # <lo-sample/> EE.LVT.2015.noorem.1
@@ -1201,6 +1266,9 @@ ru=
 -->
 
 
+<!--
+questionType=Find.Min
+-->
 
 
 # <lo-sample/> EE.LVT.2015.noorem.3
@@ -1214,6 +1282,9 @@ ru=
 Доказать, что $100000a + 10000b + 1000c + 100d + 10e + f$ делится на $11$.
 -->
 
+<!--
+questionType=Prove.ForAll
+-->
 
 
 # <lo-sample/> EE.LVT.2015.vanem.1
@@ -1227,6 +1298,9 @@ ru=
 что сумма отличных от $p$ положительных делителей числа $p$ больше числа $p$?
 -->
 
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 
@@ -1253,6 +1327,9 @@ ru=
 -->
 
 
+<!--
+questionType=Compute
+-->
 
 
 
@@ -1271,7 +1348,9 @@ ru=
 количество дробей, значения которых являются целыми числами?
 -->
 
-
+<!--
+questionType=Find.Max
+-->
 
 # <lo-sample/> EE.LVS.2016.noorem.3
 
@@ -1281,7 +1360,7 @@ dalās ar citu divu savstarpēju pirmskaitļu $a$ un $b$ reizinājumu,
 tad vismaz viens no skaitļiem $x$ un $y$ dalās ar $a$ vai ar $b$. 
 Vai Juku hipotēze ir patiesa?  
 *Piezīme:* Divus veselus skaitļus $a$ un $b$ sauc par savstarpējiem 
-pirmskaitļiem, ja to lielākais kopīgais dalītājs $\mbox{НОД}(a, b) = 1$.
+pirmskaitļiem, ja to lielākais kopīgais dalītājs $\mbox{LKD}(a, b) = 1$.
 
 <!--
 ru=
@@ -1293,6 +1372,10 @@ ru=
 $\mbox{НОД}(a, b) = 1$.
 -->
 
+
+<!--
+questionType=ProveDisprove.ForAll
+-->
 
 
 # <lo-sample/> EE.LVS.2016.noorem.6
@@ -1310,18 +1393,20 @@ $9$ положительных делителей, а все его делите
 столбца и обеих диагоналей будет одинаковым?
 -->
 
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 # <lo-sample/> EE.LVS.2016.vanem.2
 
 Definējam virkni $a_1=1$ un $a_n = n \cdot a_{\lfloor{}n/2\rfloor}$, 
-visiem $n>1$. Pierādīt, ka $a_n>n^2$  
-katram $n \geq 12$.
-*Piezīme:* Skaitļa $x$ veselā daļa $\lfloor x \rfloor$ ir lielākais veselais skaitlis, kas 
+visiem $n>1$. Pierādīt, ka $a_n>n^2$ katram $n \geq 12$.  
+*Piezīme:* Skaitļa $x$ veselā daļa $\lfloor x \rfloor$ 
+ir lielākais veselais skaitlis, kas 
 nepārsniedz $x$. Piemēram, $\lfloor 4,6 \rfloor = 4$. Tātad $a_2 = 2 \cdot a_1$, 
 $a_3 = 3 \cdot a_1$, $a_4 = 4 \cdot a_2$, 
 $a_5 = 5 \cdot a_2$ utt.
-
 
 <!--
 ru=
@@ -1334,6 +1419,9 @@ $a_3 = 3 \cdot a_1$, $a_4 = 4 \cdot a_2$,
 $a_5 = 5 \cdot a_2$ и т.д.
 -->
 
+<!--
+questionType=Prove.ForAll
+-->
 
 
 # <lo-sample/> EE.LVS.2016.vanem.3
@@ -1358,6 +1446,9 @@ ru=
 доске, чтобы выиграть?
 -->
 
+<!--
+questionType=Algorithm,Find.Min
+-->
 
 
 # <lo-sample/> EE.LVS.2016.vanem.6
@@ -1376,7 +1467,9 @@ ru=
 столбце одинакова.
 -->
 
-
+<!--
+questionType=Find.All
+-->
 
 # <lo-sample/> EE.LVT.2016.noorem.2
 
@@ -1394,7 +1487,9 @@ ru=
 порядке. Какое число задумал Костя?
 -->
 
-
+<!--
+questionType=Find.All
+-->
 
 # <lo-sample/> EE.LVT.2016.noorem.3
 
@@ -1414,6 +1509,9 @@ ru=
 которое делится на все эти числа.
 --> 
 
+<!--
+questionType=Prove.ForAll
+-->
 
 
 # <lo-sample/> EE.LVT.2016.noorem.4
@@ -1438,6 +1536,9 @@ ru=
 среди двух целых чисел разной чётности одно чётное и одно нечётное.
 -->
 
+<!--
+questionType=ProveDisprove.ForAll
+-->
 
 
 
@@ -1458,7 +1559,9 @@ ru=
 Найти эту сумму, если известно, что она наименьшая из возможных.
 -->
 
-
+<!--
+questionType=Find.Min
+-->
 
 
 # <lo-sample/> EE.LVT.2016.vanem.2
@@ -1476,6 +1579,9 @@ ru=
 разным буквам разные цифры.
 -->
 
+<!--
+questionType=Find.Count
+-->
 
 
 # <lo-sample/> EE.LVT.2016.vanem.3
@@ -1507,6 +1613,9 @@ $\frac{1}{32}$ оборота. Каждый из медведей может в�
 вариантов положения карусели может обнаружить Маша утром?
 -->
 
+<!--
+questionType=Find.Count
+-->
 
 
 
@@ -1519,6 +1628,7 @@ Mari ieraksta burtnīcā $8$ pirmskaitļus, kas mazāki par $200$ (starp
 pirmskaitlim viņa pieskaita $1$, otrajam $2$, trešajam $3$, utt., pēdējam $8$. 
 Pēc tam visas $8$ summas sareizina. Atrast lielāko $2$ pakāpi, ar kuru var 
 dalīties iegūtais reizinājums.
+
 <!--
 ru=
 Маша записывает в тетради $8$ простых чисел, меньших чем $200$ (среди
@@ -1528,12 +1638,17 @@ ru=
 наибольшую степень числа $2$, на которую может делится полученное произведение.
 -->
 
+<!--
+questionType=Find.Max
+-->
 
 
 # <lo-sample/> EE.LVS.2017.noorem.4
 
-Cik veidos zīmējumā var aizstāt burtus ar cipariem tā, lai rastos pareiza darbība? 
-Vienādus burtus jāaizstāj ar vienādiem cipariem, dažādus burtus - ar dažādiem cipariem. 
+Cik veidos zīmējumā var aizstāt burtus ar cipariem tā, 
+lai rastos pareiza darbība? 
+Vienādus burtus jāaizstāj ar vienādiem cipariem, 
+dažādus burtus - ar dažādiem cipariem.
 
 ![Skaitļu rēbuss](EE.LVS.2017.noorem.4.png)
 
@@ -1544,6 +1659,9 @@ ru=
 цифру, разные буквы на разные цифры.
 -->
 
+<!--
+questionType=Find.Count
+-->
 
 
 # <lo-sample/> EE.LVS.2017.vanem.2
@@ -1559,6 +1677,9 @@ ru=
 $500$, имеющего больше различных простых делителей.
 -->
 
+<!--
+questionType=Find.Max
+-->
 
 
 # <lo-sample/> EE.LVS.2017.vanem.3
@@ -1579,6 +1700,10 @@ $u$ и $x$ можно найти бесконечно много положит�
 $v$ таких, что $x$ будет медиантой $u$ и $v$.
 -->
 
+<!--
+questionType=Prove.Exists.InfinitelyMany
+-->
+
 
 
 # <lo-sample/> EE.LVT.2017.noorem.2
@@ -1588,8 +1713,6 @@ $$0\;\;1\;\;2\;\;3\;\;4\;\;5\;\;6\;\;7\;\;8\;\;9$$
 starp katriem diviem pēc kārtas sekojošiem cipariem liek zīmi "plus" vai "mīnuss".  
 a) Atrast mazāko pozitīvo nepāru skaitli, kuru nevar iegūt kā šādas izteiksmes vērtību.  
 b) Atrast mazāko pozitīvo pāru skaitli, kuru nevar iegūt kā šādas izteiksmes vērtību. 
-
-
 
 <!--
 ru=
@@ -1602,11 +1725,15 @@ $$0\;\;1\;\;2\;\;3\;\;4\;\;5\;\;6\;\;7\;\;8\;\;9$$
 получить как значение такого выражения.
 -->
 
+<!--
+questionType=Find.Min
+-->
 
 
 # <lo-sample/> EE.LVT.2017.noorem.3
 
-Vai var atrast tādus četrus dažādus pirmskaitļus, no kuriem izvēloties jebkurus trīs, to summa arī ir pirmskaitlis. 
+Vai var atrast tādus četrus dažādus pirmskaitļus, 
+no kuriem izvēloties jebkurus trīs, to summa arī ir pirmskaitlis. 
 
 <!--
 ru=
@@ -1614,6 +1741,9 @@ ru=
 -->
 
 
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 # <lo-sample/> EE.LVT.2017.vanem.2
@@ -1629,17 +1759,24 @@ ru=
 сторон этого треугольника.
 --> 
 
-
+<!--
+questionType=Find.All
+-->
 
 # <lo-sample/> EE.LVT.2017.vanem.3
 
-Vai eksistē pieci dažādi pirmskaitļi, no kuriem izvēloties jebkurus trīs, to summa arī ir pirmskaitlis?
+Vai eksistē pieci dažādi pirmskaitļi, no kuriem izvēloties 
+jebkurus trīs, to summa arī ir pirmskaitlis?
 
 <!--
 ru=
 Найдутся ли пять различных простых чисел, сумма каждых трёх из которых также является простым числом?
 -->
 
+
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 # <lo-sample/> EE.LVS.2018.noorem.1
@@ -1655,7 +1792,9 @@ ru=
 на $3$?
 -->
 
-
+<!--
+questionType=Compute
+-->
 
 # <lo-sample/> EE.LVS.2018.noorem.3
 
@@ -1675,6 +1814,9 @@ $n\cdot\mbox{НОД}(m,k) = m\cdot\mbox{НОД}(n,k)$.
 и $b$, а $\mbox{НОК}(a,b)$ – наименьшее общее кратное чисел $a$ и $b$.
 -->
 
+<!--
+questionType=Prove.ForAll
+-->
 
 
 # <lo-sample/> EE.LVS.2018.noorem.4
@@ -1697,6 +1839,9 @@ ru=
 девочки меньше сестёр, чем братьев?
 -->
 
+<!--
+questionType=Find.All
+-->
 
 
 # <lo-sample/> EE.LVS.2018.noorem.6
@@ -1714,6 +1859,10 @@ ru=
 где число из первой ячейки делится на число из второй ячейки.
 -->
 
+
+<!--
+questionType=Find.Max
+-->
 
 
 # <lo-sample/> EE.LVS.2018.vanem.3
@@ -1757,6 +1906,10 @@ $3$, $3$, $\otimes$, $4$, $4$, $\otimes$,
 -->
 
 
+<!--
+questionType=Algorithm,ProveDisprove.Exists
+-->
+
 
 # <lo-sample/> EE.LVT.2018.noorem.1
 
@@ -1771,6 +1924,10 @@ ru=
 б) Тот же вопрос, если вместо куба четвёртая степень.
 -->
 
+
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 # <lo-sample/> EE.LVT.2018.noorem.3
@@ -1791,6 +1948,9 @@ ru=
 -->
 
 
+<!--
+questionType=Find.All
+-->
 
 # <lo-sample/> EE.LVT.2018.noorem.4
 
@@ -1809,6 +1969,10 @@ ru=
 число, которое появилось $2018$-м.
 -->
 
+
+<!--
+questionType=Compute
+-->
 
 
 # <lo-sample/> EE.LVT.2018.vanem.1
@@ -1831,6 +1995,10 @@ $$x^3 + y^3 = z^2$$
 -->
 
 
+<!--
+questionType=Prove.Exists.InfinitelyMany
+-->
+
 
 # <lo-sample/> EE.LVT.2018.vanem.3
 
@@ -1846,5 +2014,12 @@ ru=
 $$\frac{5a^4 + a^2}{b^4 + 3b^2 + 4}$$
 целочисленно. Доказать, что $a$ – составное число.
 -->
+
+
+<!--
+questionType=Prove.ForAll
+-->
+
+
 
 

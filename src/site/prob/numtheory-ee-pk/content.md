@@ -12,6 +12,682 @@
 
 
 
+
+# <lo-sample/> EE.PK.1994.7B.2 
+
+Atrast mazāko naturālo skaitli, kura pierakstā ir tikai cipari $5$ un $9$, 
+kurš satur tos vienādā skaitā un dalās ar $5$ un $9$. 
+
+<small>
+
+* [notation.divrules.3or9.divides](#)
+* [notation.divrules.pow2or5.divides](#)
+
+</small>
+
+<!--
+questionType=Find.Min
+-->
+
+
+## Skaitļa īpašības
+
+* Skaitlis ir nepāru, jo tajā nav pāru ciparu
+* Skaitlim jābeidzas ar $5$, jo tas dalās ar $5$
+* Skaitļa ciparu summai jādalās ar $9$, jo tas dalās ar $9$. 
+Tātad tajā jābūt vismaz deviņiem cipariem "5". 
+* Cipari "5", kur iespējams, jāliek skaitļa sākumā, lai 
+būtu iespējami mazāks.
+
+Atbilde: `555555559999999995`.
+
+
+# <lo-sample/> EE.PK.1994.8B.2 
+
+Atrast visus veselos skaitļus $n$, kuriem skaitlis 
+${\displaystyle \frac{n^2 - 4}{n^2 - 1}}$ ir vesels.
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.1995.7B.2
+
+Atrast mazāko pirmskaitli, kas dod atlikumu $1$, dalot
+ar katru no skaitļiem $3$, $4$, $5$ un $8$. 
+
+<!--
+questionType=Find.Min
+-->
+
+
+
+# <lo-sample/> EE.PK.1995.8B.3
+
+Vai var aizpildīt tabulu, kas satur
+
+1. $4 \times 4$ rūtiņas
+2. $5 \times 5$ rūtiņas
+
+ar veseliem skaitļiem tā, lai skaitļu reizinājums katrā kolonnā 
+būtu pozitīvs, bet katrā rindiņā – negatīvs?
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+
+
+
+
+
+
+
+# <lo-sample/> EE.PK.1996.7B.3
+
+Kādus ciparus jāieraksta piecciparu skaitlim $517\ast\ast$ 
+zvaigznīšu vietā, lai iegūtais skaitlis dalītos vienlaikus
+ar skaitļiem $6$, $7$ un $9$?
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.1996.8B.3
+
+Trīs skolnieku vecumi ir veseli skaitļi, kuru reizinājums ir $1872$. 
+Pie tam pēc vecuma vidējais skolēns ir vecāks par jaunāko 
+par tikpat daudz gadiem, par cik viņš jaunāks par pašu vecāko. 
+Atrast skolēnu vecumus. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.1996.9B.2
+
+Atrast skaitli $c$, ja 
+$(a+b):(b+c):(c+a)=6:7:8$ un $a+b+c=14$. 
+
+<!--
+questionType=Find.All
+-->
+
+
+
+
+
+
+# <lo-sample/> EE.PK.1997.7B.1
+
+Atrast naturālus skaitļus $x$, $y$ un $z$, lai izpildītos vienādība
+$$x + \frac{1}{y + \frac{1}{z}} = 1\frac{3}{7}.$$
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.1997.8B.1
+
+Veselam pozitīvam skaitlim $a$ visi cipari ir dažādi. 
+No šī skaitļa cipariem var izveidot sešus dažādus divciparu skaitļus, 
+kuriem desmitu cipars atšķiras no vienu cipara. 
+Visu šo sešu skaitļu summa ir divreiz lielāka nekā skaitlis $a$. 
+Atrast skaitli $a$. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.1997.8B.1
+
+Dalot veselu skaitli $N \geq 5$ ar $3$, 
+rodas atlikums $2$. Pierādīt, ka skaitļa $N$
+kvadrātu nevar izteikt kā pirmskaitļa un 
+kāda vesela skaitļa kvadrāta summu.
+
+<!--
+questionType=Prove.ForAll.NotExists
+-->
+
+
+# <lo-sample/> EE.PK.1998.7B.2
+
+Trīsciparu skaitļa pēdējo ciparu pārliek pirmajā vietā, nemainot
+pārējo ciparu secību. Šādi iegūtais skaitlis ir lielāks par $400$ 
+par tikpat daudz, par cik sākotnējais skaitlis ir mazāks par $400$. 
+Atrast sākotnējo skaitli, ja zināms, ka tas beidzas ar ciparu $4$. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.1998.7B.3
+
+Nošu krājuma lapas ir nesastiprinātas; visas tā lappuses,
+sākot ar pirmo, sanumurētas ar skaitļiem $1,2,3,4,\ldots$. 
+Juku saskaitīja nejauši izraudzītām $15$ lapām visus
+$30$ lappušu numurus un ieguva skaitli $1998$. 
+Pēc tam Juku saskaitīja numurus pirmo $10$ krājuma lapu 
+lappusēm un ieguva $210$. 
+
+1. Vai Juku saskaitīja pareizi pirmajā reizē? 
+2. Vai Juku saskaitīja pareizi otrajā reizē?
+
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+
+
+# <lo-sample/> EE.PK.1998.8B.1
+
+Trīsciparu skaitlī nodzēsa simtu ciparu un ieguva divciparu skaitli, kurš 
+septiņas reizes mazāks par sākotnējo skaitli. Atrast visus šādus 
+trīsciparu skaitļus. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.1998.9B.1
+
+Atrast visus pirmskaitļus, ar kuriem dalās starpība
+$$6 \cdot 66 \cdot 666 \cdot 6666 - 
+4 \cdot 44 \cdot 444 \cdot 4444.$$
+
+<!--
+questionType=Find.All
+-->
+
+
+
+# <lo-sample/> EE.PK.1999.7B.1
+
+No viena mēneša tabulkalendāra (datumi attēloti pa vienai nedēļai katrā rindiņā)
+izgrieza kvadrātu ar izmēriem $2 \times 2$ dienas.
+Šo četru skaitļu summa dalījās ar $16$. Kāds skaitlis var 
+būt labajā apakšējā kvadrāta stūrī?
+
+<!--
+questionType=Find.All
+-->
+
+
+
+# <lo-sample/> EE.PK.1999.7B.3
+
+<div style="font-size:80%">
+
+Kivisillu (*Kivisilla*) ģimene satiekas pirmajā jūlijā - reizi trijos gados. 
+Nesenākajā tikšanās reizē ģimenes locekļi teica par savu vecumu sekojošo:  
+Marija (*Mari*): Man šobrīd ir tik gadu, cik bija Jurim iepriekšējā tikšanās reizē.  
+Juris (*Jüri*): Nākamajā tikšanās reizē man būs tik gadu, cik tagad Pēterim.  
+Pēteris (*Peeter*): Iepriekšējā tikšanās reizē Kārlis bija par mani tieši trīs 
+reizes vecāks.  
+Kārlis (*Karl*) Tagad esmu tieši divreiz jaunāks par mūsu pašu vecāko radinieci, 
+tanti Lēnu (*Leena*).  
+Cik gadu bija Marijai, Jurim, Pēterim, Kārlim un tantei Lēnai nesenākajā tikšanās reizē, 
+ja viņu vecumu summa ir $165$? (Vecumu nosaka pilnos gados.)
+
+</div>
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.1999.8B.3
+
+Pazīstamais matemātiķis-izgudrotājs $N$ uzrakstīja uz vienas 
+kartītes vienu trīsciparu skaitli, bet uz otras kartītes citu 
+trīsciparu skaitli. Novietojot šīs kartītes blakus, viņš 
+ieguva sešciparu skaitli. Samainot kartītes vietām, $N$ pārsteigts
+ievēroja, ka šādi iegūtais sešciparu skaitlis ir lielāks par pirmo 
+tieši sešas reizes. Kādus divus trīsciparu skaitļus uzrakstīja $N$? 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.1999.9B.3
+
+Vai eksistē skaitlis, kura pierakstā ir 
+$138$ cipari "1", $24$ cipari "6" 
+un $11$ cipari "9", un kas ir kāda vesela 
+skaitļa kvadrāts?
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+
+
+# <lo-sample/> EE.PK.2000.7B.3
+
+<div style="font-size:80%">
+
+Pirms Annika (*Annika*), Tomijs (*Tommy*) 
+un Pepija (*Pipi*) aizbrauca no Kurunuruvutisāres 
+(*Kurrunurruvutisaare*), 
+kapteinis Garzeķe (*Pikksukk*) lika iznest no bagātību alas
+$35$ kastes ar kārtas numuriem $1,2,3,\ldots,35$, 
+kur katras kastes kārtas numurs atbilda pērļu skaitam kastē. 
+Tomijs ieguva visas kastes, kuru numurs dalījās ar trīs, 
+bet nedalījās ne ar četri, ne ar pieci. 
+Annika ieguva visas kastes, kuru numurs dalījās ar četri, 
+bet nedalījās ne ar trīs, ne ar pieci. Pepija ieguva visas
+kastes, kuru numurs dalījās ar pieci, bet nedalījās ne ar 
+trīs, ne ar četri. Pēc tam kapteinis Garzeķe iztukšoja atlikušās
+kastes, kuru numurs dalījās ar kādu no skaitļiem: 
+trīs, četri vai pieci, un to saturu izdalīja bērniem tā, lai 
+beigās katram būtu vienāds pērļu skaits. Cik pērļu kapteinis
+pielika klāt katram no bērniem? 
+
+</div>
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2000.8B.1
+
+Atrast visus tos naturālos skaitļus, kuriem ciparu reizinājums 
+ir $2000$, starp cipariem nav cipara $1$ un jebkuriem 
+diviem blakus cipariem, cipars pa kreisi nepārsniedz ciparu pa labi. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2000.9B.1
+
+Atrast visus pirmskaitļu četriniekus $(p,q,s,t)$, 
+kas apmierina vienādojumu sistēmu:
+$$\left\{
+\begin{array}{l}
+p + q = s\\
+2p + q = t.
+\end{array} \right.$$
+
+
+<!--
+questionType=Find.All
+-->
+
+# <lo-sample/> EE.PK.2001.7B.3
+
+Zināms, ka $a$, $b$ un $10a+b$ ir pirmskaitļi un $a \leq b < 10$. 
+Atrast visas iespējamās reizinājuma $ab \cdot (10+b)$ vērtības. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2001.8B.1
+
+Ja Tāvi (*Taavi*) datorā ievada naturālu skaitli $n$, tad
+dators sareizinās visus naturālos skaitļus no $1$ līdz $n$ 
+un parādīs rezultātu uz ekrāna. Piemēram, ievadot skaitli $6$ 
+dators aprēķinās reizinājumu $1 \cdot 2 \cdot 3 \cdot 4 \cdot 5 \cdot 6$
+un parādīs uz ekrāna skaitli $720$. Ja atrastais reizinājums 
+dalās ar $2001$, tad dators turklāt atskaņos mūziku. 
+Kādu mazāko naturālo skaitli jāievada Tāvi datorā, lai dators atskaņotu mūziku? 
+
+<!--
+questionType=Find.Min
+-->
+
+
+# <lo-sample/> EE.PK.2001.9B.1
+
+Rēķinvedis Juris ievērojis, ka 2001.gadā viņa 
+vecums kļūs vienāds ar viņa dzimšanas gada 
+divkāršotu ciparu summu. Pārdomājot tālāk, viņš
+izbrīnīts ievēroja, ka tas pats notiks ar viņa
+māsu Jūliju, kura ir par viņu vairākus gadus jaunāka. 
+Cik gadu šogad (2001.gadā) paliks Jurim un Jūlijai?
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2001.9B.3
+
+Dots vesels skaitlis $k$. Pierādīt, ka, ja 
+$k^2 -k$ nedalās ar $6$, tad $k^2 - k - 2$ 
+dalās ar $18$. 
+
+<!--
+questionType=Prove.ForAll
+-->
+
+
+# <lo-sample/> EE.PK.2002.7B.1 
+
+Trīs draugi Reins, Madis un Ahto apmeklē bibliotēkas kafejnīcu 
+vienmēr 14:00, bet Reins to dara katru ceturto, Madis –
+katru piekto, bet Ahto – katru sesto dienu. 
+Pēdējo reizi viņi visi satikās šajā kafejnīcā pirmdien, 
+2002.\ gada 7.\ janvārī. Pēc cik dienām, kurā datumā un kurā 
+nedēļas dienā viņi visi satiksies kafejnīcā nākamajā reizē? 
+
+<!--
+questionType=Find.Only
+-->
+
+
+# <lo-sample/> EE.PK.2002.8B.1 
+
+Skaitli $15$ var izteikt gan kā trīs, gan kā piecu 
+pēc kārtas sekojošu naturālu skaitļu summu: 
+$15 = 4+5+6$ un $15 = 1+2+3+4+5$.
+Atrast visus tādus naturālos skaitļus, kas mazāki par $100$, 
+kurus var izteikt gan kā trīs, gan kā piecu pēc kārtas sekojošu 
+naturālu skaitļu summu. Pamatot, kāpēc šo skaitļu nav vairāk. 
+
+<!--
+questionType=Find.All,NoteOnProof
+-->
+
+
+# <lo-sample/> EE.PK.2003.7B.3 
+
+Uzvarošie numuri loterijā ir četri divciparu pirmskaitļi 
+$AB$, $BC$, $CD$ un $DA$. Atrast šos uzvarošos numurus, ja 
+dažādiem burtiem $A$, $B$, $C$, $D$ atbilst dažādi cipari. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2003.8B.1 
+
+Doti trīs skaitļi, kuru summa ir $49$. Ja vienam no tiem 
+pieskaita $3$, no otra atņem $3$, bet trešo reizina ar $3$, 
+tad rezultāts katru reizi ir tas pats skaitlis $n$. 
+Atrast trīs dotos skaitļus. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2003.8B.3 
+
+Dārgumu krātuvē bija $N$ lādītes, kurās kopā bija pavisam 
+$462$ dārgakmeņi, pie tam katrā lādītē dārgakmeņu skaits bija 
+vienāds. Dārgumu krātuves kasierim vajadzēja četras tukšas
+lādītes un viņš varēja izvietot četru lādīšu dārgakmeņus pa 
+atlikušajām lādītēm tā, lai katrā lādītē atkal būtu vienāds skaits
+dārgakeņu. Atrast visas iespējamās lādīšu skaita $N$ vērtības. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2004.7B.1 
+
+Atrast visus tādus trīsciparu nepāru naturālus skaitļus $a$, 
+kuru reizinājums ar skaitli $748$ beidzas ar cipariem $2004$.
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2004.8B.1 
+
+Atrast visus tos trīsciparu naturālos skaitļus, kuri 
+paši ir kāda naturāla skaitļa kvadrāti, un kuriem, 
+nodzēšot simtu ciparu, paliek divciparu skaitlis, kurš 
+arī ir naturāla skaitļa kvadrāts.
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2004.8B.3 
+
+Juris (*Jüri*) un Marija (*Mari*) dzīvo tajā pašā daudzdzīvokļu ēkā. 
+Katrā ēkas stāvā atrodas $10$ dzīvokļi $1, 2, \ldots, 10$, 
+otrajā stāvā dzīvokļi $11, 12, \ldots, 20$, utt. 
+Zināms, ka Jura dzīvokļa stāva numurs sakrīt ar Marijas 
+dzīvokļa numuru, turklāt Jura un Marijas dzīvokļu numuru summa ir $239$. 
+Atrast Jura dzīvokļa numuru. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2005.7B.1 
+
+<hgroup>
+
+Ierakstīt katrā rūtiņā pa vienam ciparam tā, lai iegūtie divciparu 
+skaitļi nesāktos ar nulli un izpildītu zemāk izklāstītos nosacījumus. 
+Paskaidrot, kādē secībā tika aizpildītas rūtiņas un pamatot, 
+kādēļ citu iespēju aizpildīt rūtiņas, izņemot jūsu atrastās, nav. 
+
+</hgroup>
+
+<hgroup>
+
+![tabula](EE.PK.2005.7B.1.png)
+
+Pa labi:  
+(A) Skaitļa $3$ daudzkārtnis.  
+(B) Trīskāršots pirmskaitlis.  
+
+Uz leju:  
+(C) Skaitļa $25$ daudzkārtnis.  
+(D) Naturāla skaitļa kvadrāts.
+
+</hgroup>
+
+
+<!--
+questionType=Find.All
+-->
+
+
+
+# <lo-sample/> EE.PK.2005.8B.1 
+
+<hgroup style="font-size:80%">
+
+Ierakstīt katrā rūtiņā pa vienam ciparam tā, lai iegūtie trīsciparu 
+skaitļi nesāktos ar nulli un izpildītu zemāk izklāstītos nosacījumus. 
+Paskaidrot, kādē secībā tika aizpildītas rūtiņas un pamatot, 
+kādēļ citu iespēju aizpildīt rūtiņas, izņemot jūsu atrastās, nav.
+
+![tabula](EE.PK.2005.8B.1.png)
+
+</hgroup>
+
+<hgroup style="font-size:80%">
+
+Pa labi:  
+(A) Naturāla skaitļa kvadrāts, kas dalās ar $5$.   
+(B) Skaitlis, kas dalās ar $5$ un ar $6$.   
+(C) Skaitlis, kura visi cipari ir nepāru, un ciparu summa vienāda ar $11$. 
+
+Uz leju:  
+(D) Skaitlis, kurš par $222$ lielāks par vienīgo trīsciparu dalītāju skaitlim $2005$.  
+(E) Skaitlis, kura divi cipari ir pāru, un kurš, dalot ar $4$, dod atlikumu $1$.  
+(F) Skaitlis, kas dalās ar $3$. 
+
+</hgroup>
+
+<!--
+questionType=Find.All
+-->
+
+
+
+# <lo-sample/> EE.PK.2006.7B.3 
+
+Paroles izveidošanai Keita (*Keit*) paņēma divus pēdējos 
+ciparus savam dzimšanas gadam $1992$ un pievienoja tiem sākumā 
+kā pirmo ciparu savas dzimšanas datumu, bet beigās kā 
+pēdējo ciparu - savas dzimšanas mēneša numuru. 
+Iegūtais četrciparu skaitlis dalījās ar viņas abu brāļu 
+vecumiem, bet nedalījās ar māsas vecumu. 
+Vienam Keitas brālim ir $2$ gadi, otram $9$ gadi, bet māsai $7$ gadi. 
+Atrast visas iespējas, kāds var būt Keitas dzimšanas mēnesis un datums. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2006.8B.3 
+
+Līa (*Liia*) izvēlējusies paroli, kas sastāv no četriem 
+dažādiem cipariem; un, saskaitot katrus trīs no tiem, 
+iegūst pirmskaitli. No kādiem cipariem sastāv Līas parole? 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2007.7B.1 
+
+Ozoliņu (*Tammel*) ģimenē šis gads ir īpašs sekojošā nozīmē: 
+gada beigu brīdī katra ģimenes locekļa vecums ir divciparu 
+vesels skaitlis, kurš tieši $7$ reizes lielāks par savu ciparu summu. 
+Atrast visu ģimenes locekļu dzimšanas gadus [pieņemot, ka pašreizējais
+gads ir 2007.g.], ja ģimenes locekļu vecumi ir visi skaitļi 
+ar minēto īpašību. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2007.8B.1 
+
+Voldemārs (*Volli*) uzrakstīja uz tāfeles naturālu skaitli. 
+Viņš to pareizināja ar $9$ un nodzēsa reizinājuma pēdējo ciparu. 
+Iegūto skaitli viņš pareizināja ar $5$ un atkal nodzēsa 
+reizinājuma pēdējo ciparu. Atrast visus naturālos skaitļus, 
+ko Voldemārs varēja uzrakstīt pašā sākumā. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2008.7B.2 
+
+Atrast visus tos skaitļus, kuriem gan pats skaitlis, gan arī skaitlis, 
+kasa iegūts samainot ciparu secību uz pretējo, ir trīsciparu un 
+dalās gan ar $4$, gan ar $9$. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2008.8B.2 
+
+Perts (*Pärt*) uzrakstīja uz papīra $5$ pozitīvus veselus skaitļus, 
+kas visi mazāki par $150$. Izrādījās, ka katrs skaitlis ir pusotru reizi lielāks 
+par iepriekšējo. Kādus skaitļus Perts uzrakstīja uz papīra?
+
+<!--
+questionType=Find.All
+-->
+
+
+
+# <lo-sample/> EE.PK.2009.7B.2 
+
+Skaitļi $\overline{ab4}$, $\overline{b03}$, $\overline{b3c}$ un $\overline{ba1}$
+– ir četri trīsciparu skaitļi augošā secībā, 
+turklāt jebkuru divu blakusesošu skaitļu starpība ir viena un tā pati. 
+Atrast ciparus $a$, $b$ un $c$.\\
+Piezīme: Pieraksts $\overline{xyz}$ apzīmē skaitli, kura cipari, lasot no 
+kreisās uz labo pusi, ir $x$, $y$, un $z$.
+
+<!--
+questionType=Find.All
+-->
+
+
+
+# <lo-sample/> EE.PK.2009.8B.2 
+
+Doti $a$, $b$, $c$, $d$, $e$ un $f$ – dažādi skaitļi 
+no saraksta $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$. 
+Zināms, ka $a \cdot b = c \cdot d \cdot e \cdot f$. Atrast iespējamās 
+vērtības summai $a + b + c + d + e + f$.
+
+<!--
+questionType=Find.All
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# <lo-sample/> EE.PK.2010.7B.1 
+
+Divciparu skaitlim pieskaitīja trīsciparu skaitli un rezultātā 
+ieguva četrciparu skaitli. Visi šie trīs skaitļi ir ar šādu īpašību:
+tos nolasot no kreisās uz labo pusi, kā arī no labās uz kreiso pusi, 
+iegūstam vienu un to pašu skaitli. Atrast visus šādus skaitļu trijniekus. 
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2010.8B.1 
+
+Nodzēšot vienu ciparu trīsciparu skaitlī, iegūst divciparu skaitli, 
+kuru saskaitot ar sākotnējo trīsciparu skaitli, summa ir $221$. 
+Atrast visus trīsciparu skaitļus ar šo īpašību. 
+
+<!--
+questionType=Find.All
+-->
+
+
+
+
+
+
 # <lo-sample/> EE.PK.2010.10.5
 
 Pierādīt, ka jebkuram veselam $n \geq 3$ atradīsies tāds $n$-ciparu
@@ -59,6 +735,50 @@ $$a = 125,\;\; b = 75,\;\;125^2 - 75^2=10000.$$
 $75^2 = 5625$, jo $7 \cdot 8 = 56$.  
 $125^2 = 15625$, jo $12 \cdot 13 = 156$.
 
+
+
+
+
+
+
+# <lo-sample/> EE.PK.2011.7B.1 
+
+Aplūkosim naturālus skaitļus, kuriem izpildās sekojoši nosacījumi:
+
+1. visi skaitļa cipari ir atšķirīgi un novietoti augošā secībā
+no kreisās uz labo pusi;
+2. skaitlis nesatur ciparu $5$;
+3. skaitļa ciparu summa dalās ar $5$. 
+
+Vai eksistē šos noteikumus apmierinoši 
+
+<div class="enum-a">
+
+1. sešciparu skaitļi;
+2. septiņciparu skaitļi?
+
+</div>
+
+Ja tādi eksistē, tad atrast mazāko un lielāko tādu skaitli; ja 
+neeksistē, tad pamatot, kāpēc. 
+
+<!--
+questionType=Find.Min,Find.Max,Prove.NotExists
+-->
+
+
+
+# <lo-sample/> EE.PK.2011.8B.3 
+
+Vienu cipars naturālu skaitļu $n$ un $n+2$ reizinājumā vienāds ar $4$. 
+
+1. Atrast šī reizinājuma visas iespējamās desmitu cipara vērtības.
+2. Atrast mazāko un lielāko skaitli $n$, kuram izpildās uzdevuma nosacījums, 
+un kuram skaitļu $n$ un $n+2$ reizinājums ir četrciparu skaitlis. 
+
+<!--
+questionType=Find.All,Find.Min,Find.Max
+-->
 
 
 
@@ -110,6 +830,33 @@ un $0 \neq 25$.
 
 
 
+
+
+# <lo-sample/> EE.PK.2012.7B.3 
+
+Saskaitīšanas piemērā 
+$$KAKS + KOLM = VIIS$$
+dažādiem burtiem atbilst dažādi cipari, bet vienādiem burtiem – 
+vienādi cipari. Atrast lielāko četrciparu skaitli, kurš var atbilst 
+vārdam $VIIS$. 
+
+<!--
+questionType=Find.Max
+-->
+
+
+# <lo-sample/> EE.PK.2012.8B.2 
+
+Atrast visus trīsciparu naturālos skaitļus, kuri dalās ar $4$, $5$ un $6$, 
+bet nedalās ar skaitļiem $7$, $8$ un $9$. 
+
+<!--
+questionType=Find.All
+-->
+
+
+
+
 # <lo-sample/> EE.PK.2012.10.4
 
 Cik ir veselu skaitļu komplektu $(a, b, c)$, 
@@ -151,6 +898,27 @@ Ja $(a + b)(b + c)(c + a)$ ir nepāru skaitlis, tad
 * $c$ un $a$ ir atšķirīga paritāte
 
 Iegūta pretruna: Ja $a$ ir pāru, tad $b$ ir nepāru, tad $c$ ir pāru, tad $a$ ir nepāru utml.
+
+
+
+
+
+# <lo-sample/> EE.PK.2013.8B.1 
+
+Doti seši pirmskaitļi $a$, $b$, $c$, $d$, $e$ un $f$, kuru reizinājums 
+ir pāru skaitlis. Zināms, ka skaitlis $c$ lielāks par skaitli $d$, bet
+mazāks par skaitli $b$. Skaitlis $e$ ir lielāks par skaitli $d$, bet 
+skaitlis $f$ ir mazāks par skaitli $a$. Skaitlis $c$ ir lielāks par skaitli $e$, 
+bet skaitlis $b$ ir mazāks par skaitli $f$. Atrast visus šos skaitļus, ja 
+lielākais no tiem vienāds ar $23$, bet skaitļi $a+d$ un $a-d$ nedalās ne ar 
+vienu no dotajiem pirmskaitļiem. 
+
+<!--
+questionType=Find.All
+-->
+
+
+
 
 
 # <lo-sample/> EE.PK.2013.10.3
@@ -196,9 +964,49 @@ questionType=Find.Min
 
 
 
+
+
+
+
+
+
+# <lo-sample/> EE.PK.2014.7B.1 
+
+Dotajā reizināšanas piemērā atrast burtiem atbilstošos ciparus, 
+ja dažādiem burtiem atbilst dažādi cipari. 
+
+![rebuss](EE.PK.2014.7B.1.png)
+
+
+<!--
+questionType=Find.All
+-->
+
+
+
+# <lo-sample/> EE.PK.2014.8B.1 
+
+Uz tāfeles uzrakstīta izteiksme $m(m + n)(m + 3n)$.
+
+1. Vai dotās izteiksmes vērtība vienmēr būs pāru skaitlis, 
+ja $m$ un $n$ ir veseli pozitīvi skaitļi? 
+2. $17$-gadīgā Pille šorīt ievēroja, ka ievietojot skaitļu 
+$m$ un $n$ vietā kaut kādā secībā viņas vecumu un viņas jaunākā 
+brāļa vecumu pilnos gados, tad izteiksmes vērtība būs vienāda 
+ar to gadu, kurā jaunākais brālis iemācījās peldēt. Cik šobrīd 
+gadu jaunākajam Pilles brālim?
+
+
+<!--
+questionType=ProveDisprove.All,Find.All
+-->
+
+
+
+
 # <lo-sample/> EE.PK.2014.10.3
 
-Vienādmalu trijstūra virsotnēs ierakstīti naturāli skaitļi $14$, $20$ un $n$.. 
+Vienādmalu trijstūra virsotnēs ierakstīti naturāli skaitļi $14$, $20$ un $n$. 
 Jebkuru divu virsotņu skaitļu reizinājums dalās ar skaitli trešajā virsotnē. 
 Atrast visas iespējamās $n$ vērtības.
 
@@ -233,11 +1041,28 @@ questionType=Find.All
 
 
 
+
+
+
+
+
+# <lo-sample/> EE.PK.2015.8B.1 
+
+Skaitli $2015$ var izteikt kā divu tādu naturālu skaitļu summu, 
+no kuriem pirmo skaitli iegūst, ja otrajā skaitlī nodzēš pēdējo ciparu. Atrast visus 
+šādus naturālu skaitļu pārus. 
+
+<!--
+questionType=Find.All
+-->
+
+
+
 # <lo-sample/> EE.PK.2015.10.3
 
-а) Zināms, ka $x^2 − y^2 = 100$, kur $x$ и $y$ ir naturāli skaitļi. Atrast izteiksmes 
+(а) Zināms, ka $x^2 − y^2 = 100$, kur $x$ и $y$ ir naturāli skaitļi. Atrast izteiksmes 
 $x − y$ mazāko iespējamo vērtību.  
-b) Tas pats jautājums, ja $x$ un $y$ ir veseli skaitļi.
+(b) Tas pats jautājums, ja $x$ un $y$ ir veseli skaitļi.
 
 <small>
 
@@ -334,6 +1159,41 @@ Tālāk - tiem $n$, kas dalās ar $10$.
 </table>
 
 
+
+
+
+
+
+
+# <lo-sample/> EE.PK.2016.7B.3 
+
+Par četriem veseliem skaitļiem $a$, $b$, $c$ un $d$ zināms, ka 
+
+1. Reizinājums $abc$ dalās ar $9$, bet ne ar $27$. 
+2. Reizinājums $bcd$ dalās ar $3$, bet ne ar $9$. 
+3. Reizinājums $acd$ dalās ar $9$, bet ne ar $27$. 
+
+Kuri no dotajiem četriem skaitļiem $a$, $b$, $c$ un $d$ dalās ar $3$?
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2016.8B.2 
+
+Uzņēmējam bankas kontā bija $x$ eiro un $y$ eirocenti, turklāt 
+$x$ dalījās ar $7$, bet $y$ dalījās ar $3$. Pēc tam, kad viņš 
+samaksāja par pirkumu $77$ eiro un $22$ eirocentus, kontā viņam 
+palika $y$ eiro un $x$ centi. Cik pavisam naudas viņam tagad 
+palicis bankas kontā? 
+
+<!--
+questionType=Find.All
+-->
+
+
+
 # <lo-sample/> EE.PK.2016.10.3
 
 Vai var atrast tādus $n$ naturālus skaitļus, lai to summa 
@@ -423,6 +1283,44 @@ $$x^2 + (x - y)^2 + (y-z)^2 + (z-w)^2 + w^2 = 6.$$
 neviens no šiem kvadrātiem nevar būt $2^2$ vai lielāks. 
 
 
+
+
+
+
+
+
+
+# <lo-sample/> EE.PK.2017.7B.1 
+
+Vienā virknē uzrakstīti $7$ naturāli skaitļi, no kuriem pirmais 
+ir $a$ un otrais $b$. Katru nākamo skaitli šajā virknē 
+iegūst, saskaitot divus skaitļus, kuri ir tieši pirms viņa.
+
+1. Atrast pēdējo skaitli virknē, izsakot to ar $a$ un $b$.
+2. Atrast lielāko iespējamo $a$ vērtību, ja zināms, ka virknē pēdējais
+skaitlis ir $2017$. 
+
+
+<!--
+questionType=Find.All,Find.Max
+-->
+
+
+
+
+# <lo-sample/> EE.PK.2017.8B.1 
+
+Daļas $\frac{1}{2}$ skaitītājam atļauts pieskaitīt jebkuru skaitu divnieku, 
+bet saucējam atļauts pieskaitīt jebkuru skaitu trijnieku. Vai iespējams rezultātā
+iegūt daļu, kas vienāda ar
+
+1. skaitli $\frac{3}{4}$?
+2. skaitli $\frac{5}{6}$? 
+
+
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 
@@ -620,6 +1518,53 @@ Apkopojam tabulā $x=27c$, $3x$ un $4x$:
 
 Pēdējā rindiņā skaitļi iegūstami, pārceļot priekšpēdējās rindiņas skaitlim 
 pēdējo ciparu uz sākumu.
+
+
+
+
+
+
+
+
+# <lo-sample/> EE.PK.2019.7B.1
+
+Sven's uzrakstījis burtnīcā skaitļus $2, 3, 5, 7, 8, 10, 11$ 
+tādā secībā, ka pirmo četru skaitļu summa vienāda ar pēdējo 
+četru skaitļu summu. Kurš skaitlis
+var būt uzrakstīts vidū? Atrast visas iespējas.
+
+<!--
+ru=
+Саша записывает числа $2, 3, 5, 7, 8, 10, 11$ в тетрадку в 
+таком порядке, что сумма первых четырёх чисел равна сумме 
+последних четырёх чисел. Найти все возможности, 
+какое число может быть записано посередине.
+-->
+
+<!--
+questionType=Find.All
+-->
+
+
+# <lo-sample/> EE.PK.2019.8B.1
+
+
+Esta izvēlējās divus naturālus skaitļus. Vienu no tiem viņa pareizināja 
+ar $20$, bet otru – ar $19$. Iegūto reizinājumu summa vienāda ar $292$. 
+Atrast visas iespējas, kādi var būt Estas izvēlētie skaitļi.
+
+<!--
+Элла выбрала два натуральных числа. Одно из них она умножила на $20$,
+а другое – на $19$. Сумма полученных произведений равна $292$. Найти все
+возможности, чему могут быть равны два задуманных числа Эллы.
+-->
+
+<!--
+questionType=Find.All
+-->
+
+
+
 
 
 # <lo-sample/> EE.PK.2019.10.3
