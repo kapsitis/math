@@ -180,10 +180,10 @@ questionType=Find.Any,ProveDisprove.Exists
 -->
 
 
-## ABC
+## Gadījumu šķirošana
 
-Ja četri skaitļi vienādi, var ņemt $(1,1,1,1,2)$. 
-
+* Ja visi $5$ skaitļi vienādi ar $a$, tad nevar gadīties, ka $3a$ dalās ar $2a$. 
+* Ja četri skaitļi vienādi un viens atšķiras, var izvēlēties komplektu $(1,1,1,1,2)$. 
 
 
 # <lo-sample/> NO.2000.10.1 

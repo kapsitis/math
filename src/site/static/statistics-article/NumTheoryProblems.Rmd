@@ -70,7 +70,7 @@ training in the number theory for different age groups.
 
 ## Differences by Question Type
 
-* **Find.All** - find all objects satisfying the condition 
+    * **Find.All** - Find all objects satisfying the condition 
 and prove that there are no others. In some problems the question 
 implicitly assumes that the number was unique (for example, "Which was 
 the number guessed by Joe?", EE.LVT.2016.noorem.2). 
@@ -79,11 +79,11 @@ The objects to find may also differ. They may be
 integer numbers, pairs or $n$-tuples of integer numbers, 
 series of moves to achieve some result, sequences or solutions to 
 functional equations.
-* `Prove.Exists` (typically this requires a constructive proof, but the question
-is about the fact of existence rather than finding an example.) Sometimes 
+    * **Prove.Exists** - Typically this requires a constructive proof, but the question
+is about the fact of existence rather than finding an example. Sometimes 
 the object that should exist is a natural or integer number. A pair of numbers or 
 even a path. 
-* `ProveDisprove.Exists`
+    * **ProveDisprove.Exists** - In this case 
 
 ## Differences by Genre
 
