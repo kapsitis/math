@@ -152,7 +152,7 @@ kvadrātu nevar izteikt kā pirmskaitļa un
 kāda vesela skaitļa kvadrāta summu.
 
 <!--
-questionType=Prove.ForAll.NotExists
+questionType=Prove.Other
 -->
 
 
@@ -998,7 +998,7 @@ gadu jaunākajam Pilles brālim?
 
 
 <!--
-questionType=ProveDisprove.All,Find.All
+questionType=ProveDisprove.ForAll,Find.All
 -->
 
 
@@ -1412,7 +1412,7 @@ $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d
 -->
 
 <!--
-questionType=Find.InfinitelyMany
+questionType=Prove.Other
 -->
 
 

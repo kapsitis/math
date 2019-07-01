@@ -207,6 +207,12 @@ no katriem diviem skaitļiem, kas
 ierakstīti rūtiņās ar kopīgu malu, viens dalītos ar otru.\\
 Vai to var izdarīt, ja (a) $n=15$, (b) $n=13$?
 
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+
+
 
 
 # <lo-sample/> LV.NO.2000.10.5 
@@ -217,6 +223,9 @@ nekādu divu izvēlēto skaitļu summa nav $21$.
 Aprēķināt visu izvēlēto skaitļu kvadrātu
 summu.
 
+<!--
+questionType=Find.All
+-->
 
 
 
@@ -227,12 +236,16 @@ summu.
 
 # <lo-sample/> LV.NO.2000.11.1 
 
-[seeAlso:NO.2001.11.1](#NO.2001.11.1)  
 Ar $\lfloor a \rfloor$ apzīmējam lielāko veselo skaitli, kas nepārsniedz $a$. 
 Piemēram, $\lfloor 4.8 \rfloor=4$; $\lfloor 5 \rfloor=5$.
 Atrisināt pozitīvos skaitļos vienādojumu
 $$ x \left\lfloor x \left\lfloor x \right\rfloor \right\rfloor = 41. $$
 
+
+<!--
+seeAlso=LV.NO.2001.11.1
+questionType=Find.All
+-->
 
 
 ## ABC
@@ -249,6 +262,9 @@ kvadrātu summu.
 2. atrast vienu tādu skaitli $n$,
 3. pierādīt, ka citu tādu $n$ nav.
 
+<!--
+questionType=Prove.ForAll,Find.Any,Prove.NotExists
+-->
 
 
 
@@ -259,14 +275,16 @@ kvadrātu summu.
 
 # <lo-sample/> LV.NO.2000.12.1 
 
-[seeAlso:NO.2001.12.1](#NO.2001.12.1)  
-[seeAlso:NO.2003.12.1](#NO.2003.12.1)  
-[seeAlso:NO.2004.12.1](#NO.2004.12.1)  
 Skaitļu virknē pirmais un otrais loceklis abi ir 1, bet katrs nākošais vienāds ar abu
 iepriekšējo summu. Vai ar $5$ dalās šīs virknes
 (a) $21$-ais, (b) $2000$-ais loceklis?
 
-
+<!--
+seeAlso=NO.2001.12.1
+seeAlso=NO.2003.12.1
+seeAlso=NO.2004.12.1
+questionType=Find.Only
+-->
 
 ## ABC
 
@@ -291,6 +309,10 @@ Kuru nedēļas dienu otrajā gadā ir visvairāk?
 
 </small>
 
+<!--
+questionType=Find.All
+-->
+
 
 ## ABC
  
@@ -314,6 +336,9 @@ no kuriem katriem diviem lielākais kopīgais dalītājs ir $1$?
 
 </small>
 
+<!--
+questionType=Find.Max
+-->
 
 ## ABC
  
@@ -324,7 +349,7 @@ no kuriem katriem diviem lielākais kopīgais dalītājs ir $1$?
 
 Uzrakstiet kaut vienu desmitciparu skaitli, kam visi 
 cipari ir dažādi un kam piemīt īpašība: izsvītrojot jebkurus $n$ ciparus
-($n$ \textendash{} jebkurš naturāls skaitlis, kas nepārsniedz $6$), 
+($n$ – jebkurš naturāls skaitlis, kas nepārsniedz $6$), 
 atlikušie cipari (tai pašā secībā) veido saliktu skaitli. 
 Pamatojiet savu risinājumu. 
 
@@ -335,6 +360,10 @@ Pamatojiet savu risinājumu.
 
 </small>
 
+
+<!--
+questionType=Find.Max
+-->
 
 ## ABC
  
@@ -2829,7 +2858,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b) = 150015$?
 # <lo-sample/> LV.NO.2019.7.5
 
 Uz tāfeles uzrakstītas deviņas zvaigznītes 
-$\ast\;\ast\;\ast\;\ast\;\ast\;\ast\;\ast\;\ast\;\ast\$. 
+$$\ast\;\ast\;\ast\;\ast\;\ast\;\ast\;\ast\;\ast\;\ast.$$
 Mārtiņš ieraksta kādas zvaigznītes vietā jebkuru ciparu
 no $1$ līdz $9$. Pēc tam Rihards jebkuru divu citu zvaigznīšu vietā ieraksta 
 divus nenulles ciparus (tie var arī
@@ -2854,9 +2883,12 @@ $\frac{4}{3}, \frac{4}{5}, \frac{5}{2}$.
 
 # <lo-sample/> LV.NO.2019.8.5
 
-5. Izmantojot divus atšķirīgus nenulles ciparus $x$ un $y$ ir izveidoti divi trīsciparu skaitļi
-$\overline{xyx}$ un $\overline{yxy}$. Zināms, ka $\overline{xyx}$
-dalās ar $3$, bet $\overline{yxy}$ dalās ar $4$. Kāds var būt izveidotais trīsciparu skaitlis $\overline{yxy}$?
+Izmantojot divus atšķirīgus nenulles ciparus $x$ un $y$ 
+ir izveidoti divi trīsciparu skaitļi
+$\overline{xyx}$ un $\overline{yxy}$. 
+Zināms, ka $\overline{xyx}$
+dalās ar $3$, bet $\overline{yxy}$ dalās ar $4$. 
+Kāds var būt izveidotais trīsciparu skaitlis $\overline{yxy}$?
 
 
 # <lo-sample/> LV.NO.2019.9.5

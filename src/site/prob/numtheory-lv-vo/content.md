@@ -22,6 +22,10 @@ $f(2011) = 100$, bet $f(11) = 1000$?
 
 </small>
 
+<!--
+questionType=ProveDisprove.Exists
+-->
+
 
 # <lo-sample/> LV.VO.2012.10.3
 
@@ -35,6 +39,11 @@ Pierādīt, ka skaitļa $N^2$ decimālajā pierakstā nav cipara $0$.
 * [seq.geom.decnotation](#)
 
 </small>
+
+<!--
+questionType=Prove.ForAll
+-->
+
 
 
 ## 66...66 kāpināšana kvadrātā
@@ -72,6 +81,10 @@ nav atrisinājuma naturālos skaitļos.
 
 </small>
 
+<!--
+questionType=Prove.NotExists
+-->
+
 
 
 ## Sākotnējie secinājumi par mainīgajiem
@@ -106,6 +119,12 @@ skaitļa kvadrāti.
 * [mod.expr.square](#)
 
 </small>
+
+
+<!--
+questionType=Prove.Other
+-->
+
 
 
 ## Fibonači virknes atlikumi, dalot ar 3
@@ -151,6 +170,12 @@ $\frac{n^3+3}{n+3}$, gan $\frac{n^4+4}{n+4}$ ir veseli skaitļi.
 * [div.pfactor.prop.numdivisors](#)
 
 </small>
+
+
+<!--
+questionType=Find.All
+-->
+
 
 
 ## Polinomu dalīšana ar atlikumu
@@ -234,6 +259,10 @@ iespējams apmaksāt izmantojot tikai šīs pastmarkas?
 
 </small>
 
+<!--
+questionType=Find.Max
+-->
+
 
 ## Summas, kuras var nomaksāt
 
@@ -269,6 +298,9 @@ dalās ar $10$.
 
 </small>
 
+<!--
+questionType=Prove.ForAll
+-->
 
 ## Dalāmība ar 2 un 5
 
@@ -296,6 +328,9 @@ Pierādīt, ka arī $x^{433}y$ ir naturāla skaitļa 2016. pakāpe.
 
 </small>
 
+<!--
+questionType=Prove.ForAll
+-->
 
 ## Pilnas pakāpes
 
@@ -342,6 +377,9 @@ $$\frac{1}{n}=\frac{1}{x(x+1)}+\frac{1}{(x+1)(x+2)}+\cdots{}+\frac{1}{y(y+1)}.$$
 
 </small>
 
+<!--
+questionType=Prove.Other
+-->
 
 ## Algebrisks triks: Pārveidojums par starpību
 
@@ -383,6 +421,10 @@ Pierādīt, ka tā ciparus var pārkārtot citā secībā tā, lai jauniegūtais
 * [misc.exhaustive](#)
 
 </small>
+
+<!--
+questionType=Prove.ForAll
+-->
 
 
 ## Sākotnēji apsvērumi
@@ -430,6 +472,10 @@ Piemēram, skaists trijnieks ir $8$, $9$, $10$.
 
 </small>
 
+<!--
+questionType=Prove.Exists,Prove.Other
+-->
+
 
 ## Vienkāršāks uzdevums: 
 
@@ -460,6 +506,10 @@ var izteikt kā pirmskaitļa un salikta skaitļa summu!
 * [mod.parity.cases](#)
 
 </small>
+
+<!--
+questionType=Prove.ForAll
+-->
 
 
 ## Empīriskā matemātika...
@@ -492,5 +542,13 @@ vērtība nav naturāla skaitļa kvadrāts!
 * [notation.divrules.composite](#)
 
 </small>
+
+
+<!--
+questionType=Prove.NotExists
+-->
+
+
+
 
 

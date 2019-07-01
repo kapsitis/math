@@ -319,7 +319,7 @@ $6$ положительных делителей и которое не явл�
 -->
 
 <!--
-questionType=Find.Min,Prove.Exists.InfinitelyMany
+questionType=Find.Min,Prove.Other
 -->
 
 
@@ -520,7 +520,7 @@ $ax^2+bx+c=0$ являлись целыми числами. Всегда ли у
 -->
 
 <!--
-questionType=ProveDisprove.ForAll.Exists
+questionType=ProveDisprove.Other
 -->
 
 
@@ -616,7 +616,7 @@ $\frac{1 + 3}{3 + 5} = \frac{4}{8} = \frac{1}{2}$.)
 -->
 
 <!--
-questionType=ProveDisprove.ForAll.Exists
+questionType=ProveDisprove.Other
 -->
 
 
@@ -790,7 +790,7 @@ $$A = \sqrt{2013 + \sqrt{2012 + \sqrt{2011 + \ldots \sqrt{2 +\sqrt{1}}}}}.$$
 -->
 
 <!--
-questionType=Compute
+questionType=Find.Only
 -->
 
 
@@ -985,7 +985,7 @@ $3^303 \cdot 4^{404} \cdot 5^{505}$?
 -->
 
 <!--
-questionType=Compute
+questionType=Find.Only
 -->
 
 
@@ -1058,7 +1058,7 @@ $3_a2_b5_c + 2_c5_a3_b = 5_38_17_d5_28_3$,
 -->
 
 <!--
-questionType=Compute
+questionType=Find.Only
 -->
 
 
@@ -1143,7 +1143,7 @@ $$0,123456789101112\;\ldots\;998999$$
 -->
 
 <!--
-questionType=Compute
+questionType=Find.Only
 -->
 
 
@@ -1242,7 +1242,7 @@ $n+31$, $n+33$, $n+37$ и $n+39$ − простые числа. Найти ос�
 -->
 
 <!--
-questionType=Compute
+questionType=Find.Only
 -->
 
 
@@ -1328,7 +1328,7 @@ ru=
 
 
 <!--
-questionType=Compute
+questionType=Find.Only
 -->
 
 
@@ -1701,7 +1701,7 @@ $v$ таких, что $x$ будет медиантой $u$ и $v$.
 -->
 
 <!--
-questionType=Prove.Exists.InfinitelyMany
+questionType=Prove.Other
 -->
 
 
@@ -1793,7 +1793,7 @@ ru=
 -->
 
 <!--
-questionType=Compute
+questionType=Find.Only
 -->
 
 # <lo-sample/> EE.LVS.2018.noorem.3
@@ -1971,7 +1971,7 @@ ru=
 
 
 <!--
-questionType=Compute
+questionType=Find.Only
 -->
 
 
@@ -1996,7 +1996,7 @@ $$x^3 + y^3 = z^2$$
 
 
 <!--
-questionType=Prove.Exists.InfinitelyMany
+questionType=Prove.Other
 -->
 
 

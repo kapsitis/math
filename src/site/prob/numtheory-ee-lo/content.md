@@ -208,7 +208,7 @@ ru=
 
 
 <!--
-questionType=Prove.ForAll.Exists
+questionType=Prove.Other
 -->
 
 
