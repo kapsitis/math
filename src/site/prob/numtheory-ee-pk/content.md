@@ -48,6 +48,7 @@ Atrast visus veselos skaitļus $n$, kuriem skaitlis
 ${\displaystyle \frac{n^2 - 4}{n^2 - 1}}$ ir vesels.
 
 <!--
+concepts=integer-polynomials
 questionType=Find.All
 -->
 
@@ -58,6 +59,7 @@ Atrast mazāko pirmskaitli, kas dod atlikumu $1$, dalot
 ar katru no skaitļiem $3$, $4$, $5$ un $8$. 
 
 <!--
+concepts=primes
 questionType=Find.Min
 -->
 
@@ -74,6 +76,7 @@ ar veseliem skaitļiem tā, lai skaitļu reizinājums katrā kolonnā
 būtu pozitīvs, bet katrā rindiņā – negatīvs?
 
 <!--
+genre=fill-in-table
 questionType=ProveDisprove.Exists
 -->
 
@@ -91,6 +94,7 @@ zvaigznīšu vietā, lai iegūtais skaitlis dalītos vienlaikus
 ar skaitļiem $6$, $7$ un $9$?
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -103,6 +107,7 @@ par tikpat daudz gadiem, par cik viņš jaunāks par pašu vecāko.
 Atrast skolēnu vecumus. 
 
 <!--
+genre=word-problem
 questionType=Find.All
 -->
 
@@ -127,6 +132,7 @@ Atrast naturālus skaitļus $x$, $y$ un $z$, lai izpildītos vienādība
 $$x + \frac{1}{y + \frac{1}{z}} = 1\frac{3}{7}.$$
 
 <!--
+genre=integer-equation
 questionType=Find.All
 -->
 
@@ -140,6 +146,7 @@ Visu šo sešu skaitļu summa ir divreiz lielāka nekā skaitlis $a$.
 Atrast skaitli $a$. 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -152,6 +159,7 @@ kvadrātu nevar izteikt kā pirmskaitļa un
 kāda vesela skaitļa kvadrāta summu.
 
 <!--
+concepts=primes
 questionType=Prove.Other
 -->
 
@@ -164,6 +172,7 @@ par tikpat daudz, par cik sākotnējais skaitlis ir mazāks par $400$.
 Atrast sākotnējo skaitli, ja zināms, ka tas beidzas ar ciparu $4$. 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -182,6 +191,7 @@ lappusēm un ieguva $210$.
 
 
 <!--
+concepts=arithmetic-progression
 questionType=ProveDisprove.Exists
 -->
 
@@ -194,6 +204,7 @@ septiņas reizes mazāks par sākotnējo skaitli. Atrast visus šādus
 trīsciparu skaitļus. 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -205,6 +216,7 @@ $$6 \cdot 66 \cdot 666 \cdot 6666 -
 4 \cdot 44 \cdot 444 \cdot 4444.$$
 
 <!--
+concepts=primes
 questionType=Find.All
 -->
 
@@ -218,6 +230,7 @@ izgrieza kvadrātu ar izmēriem $2 \times 2$ dienas.
 būt labajā apakšējā kvadrāta stūrī?
 
 <!--
+genre=fill-in-table
 questionType=Find.All
 -->
 
@@ -241,6 +254,7 @@ ja viņu vecumu summa ir $165$? (Vecumu nosaka pilnos gados.)
 </div>
 
 <!--
+genre=word-problem
 questionType=Find.All
 -->
 
@@ -255,6 +269,7 @@ ievēroja, ka šādi iegūtais sešciparu skaitlis ir lielāks par pirmo
 tieši sešas reizes. Kādus divus trīsciparu skaitļus uzrakstīja $N$? 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -296,6 +311,7 @@ pielika klāt katram no bērniem?
 </div>
 
 <!--
+genre=word-problem
 questionType=Find.All
 -->
 
@@ -307,6 +323,7 @@ ir $2000$, starp cipariem nav cipara $1$ un jebkuriem
 diviem blakus cipariem, cipars pa kreisi nepārsniedz ciparu pa labi. 
 
 <!--
+genre=string-counting
 questionType=Find.All
 -->
 
@@ -323,6 +340,7 @@ p + q = s\\
 
 
 <!--
+concepts=primes
 questionType=Find.All
 -->
 
@@ -332,6 +350,7 @@ Zināms, ka $a$, $b$ un $10a+b$ ir pirmskaitļi un $a \leq b < 10$.
 Atrast visas iespējamās reizinājuma $ab \cdot (10+b)$ vērtības. 
 
 <!--
+concepts=primes
 questionType=Find.All
 -->
 
@@ -347,6 +366,7 @@ dalās ar $2001$, tad dators turklāt atskaņos mūziku.
 Kādu mazāko naturālo skaitli jāievada Tāvi datorā, lai dators atskaņotu mūziku? 
 
 <!--
+genre=procedure
 questionType=Find.Min
 -->
 
@@ -361,6 +381,7 @@ māsu Jūliju, kura ir par viņu vairākus gadus jaunāka.
 Cik gadu šogad (2001.gadā) paliks Jurim un Jūlijai?
 
 <!--
+genre=word-problem
 questionType=Find.All
 -->
 
@@ -386,6 +407,7 @@ Pēdējo reizi viņi visi satikās šajā kafejnīcā pirmdien,
 nedēļas dienā viņi visi satiksies kafejnīcā nākamajā reizē? 
 
 <!--
+genre=word-problem
 questionType=Find.Only
 -->
 
@@ -400,6 +422,7 @@ kurus var izteikt gan kā trīs, gan kā piecu pēc kārtas sekojošu
 naturālu skaitļu summu. Pamatot, kāpēc šo skaitļu nav vairāk. 
 
 <!--
+concepts=arithmetic-progression
 questionType=Find.All,NoteOnProof
 -->
 
@@ -407,10 +430,12 @@ questionType=Find.All,NoteOnProof
 # <lo-sample/> EE.PK.2003.7B.3 
 
 Uzvarošie numuri loterijā ir četri divciparu pirmskaitļi 
-$AB$, $BC$, $CD$ un $DA$. Atrast šos uzvarošos numurus, ja 
+$\overline{AB}$, $\overline{BC}$, $\overline{CD}$ un 
+$\overline{DA}$. Atrast šos uzvarošos numurus, ja 
 dažādiem burtiem $A$, $B$, $C$, $D$ atbilst dažādi cipari. 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -437,6 +462,7 @@ atlikušajām lādītēm tā, lai katrā lādītē atkal būtu vienāds skaits
 dārgakeņu. Atrast visas iespējamās lādīšu skaita $N$ vērtības. 
 
 <!--
+genre=word-problem
 questionType=Find.All
 -->
 
@@ -459,6 +485,8 @@ nodzēšot simtu ciparu, paliek divciparu skaitlis, kurš
 arī ir naturāla skaitļa kvadrāts.
 
 <!--
+concepts=full-square
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -473,6 +501,7 @@ dzīvokļa numuru, turklāt Jura un Marijas dzīvokļu numuru summa ir $239$.
 Atrast Jura dzīvokļa numuru. 
 
 <!--
+genre=word-problem
 questionType=Find.All
 -->
 
@@ -504,6 +533,7 @@ Uz leju:
 
 
 <!--
+genre=fill-in-table
 questionType=Find.All
 -->
 
@@ -537,6 +567,8 @@ Uz leju:
 </hgroup>
 
 <!--
+genre=fill-in-table
+concepts=full-square,sum-of-digits
 questionType=Find.All
 -->
 
@@ -554,6 +586,7 @@ Vienam Keitas brālim ir $2$ gadi, otram $9$ gadi, bet māsai $7$ gadi.
 Atrast visas iespējas, kāds var būt Keitas dzimšanas mēnesis un datums. 
 
 <!--
+genre=string-counting
 questionType=Find.All
 -->
 
@@ -565,6 +598,8 @@ dažādiem cipariem; un, saskaitot katrus trīs no tiem,
 iegūst pirmskaitli. No kādiem cipariem sastāv Līas parole? 
 
 <!--
+genre=string-counting
+concepts=primes
 questionType=Find.All
 -->
 
@@ -579,6 +614,7 @@ gads ir 2007.g.], ja ģimenes locekļu vecumi ir visi skaitļi
 ar minēto īpašību. 
 
 <!--
+genre=word-problem
 questionType=Find.All
 -->
 
@@ -592,6 +628,7 @@ reizinājuma pēdējo ciparu. Atrast visus naturālos skaitļus,
 ko Voldemārs varēja uzrakstīt pašā sākumā. 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -599,10 +636,11 @@ questionType=Find.All
 # <lo-sample/> EE.PK.2008.7B.2 
 
 Atrast visus tos skaitļus, kuriem gan pats skaitlis, gan arī skaitlis, 
-kasa iegūts samainot ciparu secību uz pretējo, ir trīsciparu un 
+kas iegūts samainot ciparu secību uz pretējo, ir trīsciparu un 
 dalās gan ar $4$, gan ar $9$. 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -614,6 +652,7 @@ kas visi mazāki par $150$. Izrādījās, ka katrs skaitlis ir pusotru reizi lie
 par iepriekšējo. Kādus skaitļus Perts uzrakstīja uz papīra?
 
 <!--
+concepts=geometric-progression
 questionType=Find.All
 -->
 
@@ -624,11 +663,12 @@ questionType=Find.All
 Skaitļi $\overline{ab4}$, $\overline{b03}$, $\overline{b3c}$ un $\overline{ba1}$
 – ir četri trīsciparu skaitļi augošā secībā, 
 turklāt jebkuru divu blakusesošu skaitļu starpība ir viena un tā pati. 
-Atrast ciparus $a$, $b$ un $c$.\\
-Piezīme: Pieraksts $\overline{xyz}$ apzīmē skaitli, kura cipari, lasot no 
+Atrast ciparus $a$, $b$ un $c$.  
+*Piezīme.* Pieraksts $\overline{xyz}$ apzīmē skaitli, kura cipari, lasot no 
 kreisās uz labo pusi, ir $x$, $y$, un $z$.
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -669,6 +709,7 @@ tos nolasot no kreisās uz labo pusi, kā arī no labās uz kreiso pusi,
 iegūstam vienu un to pašu skaitli. Atrast visus šādus skaitļu trijniekus. 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -680,6 +721,7 @@ kuru saskaitot ar sākotnējo trīsciparu skaitli, summa ir $221$.
 Atrast visus trīsciparu skaitļus ar šo īpašību. 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -713,6 +755,7 @@ ru=
 -->
 
 <!--
+concepts=full-square
 questionType=Prove.ForAll
 -->
 
@@ -759,8 +802,8 @@ Vai eksistē šos noteikumus apmierinoši
 
 </div>
 
-Ja tādi eksistē, tad atrast mazāko un lielāko tādu skaitli; ja 
-neeksistē, tad pamatot, kāpēc. 
+Ja tādi eksistē, tad atrast mazāko un lielāko tādu skaitli; 
+ja neeksistē, tad pamatot, kāpēc. 
 
 <!--
 questionType=Find.Min,Find.Max,Prove.NotExists
@@ -841,6 +884,7 @@ vienādi cipari. Atrast lielāko četrciparu skaitli, kurš var atbilst
 vārdam $VIIS$. 
 
 <!--
+genre=cryptarithm
 questionType=Find.Max
 -->
 
@@ -876,6 +920,7 @@ ru=
 -->
 
 <!--
+genre=integer-equation
 questionType=Find.Count
 -->
 
@@ -931,7 +976,7 @@ dalās ar $10$.
 
 * [mod.expr.square](#)
 * [misc.exhaustive](#)
-* [misc.pigeonhole](#)
+* [misc.extreme.pigeonhole](#)
 
 </small>
 
@@ -943,6 +988,7 @@ ru=
 -->
 
 <!--
+concepts=full-square
 questionType=Find.Min
 -->
 
@@ -979,6 +1025,7 @@ ja dažādiem burtiem atbilst dažādi cipari.
 
 
 <!--
+genre=cryptarithm
 questionType=Find.All
 -->
 
@@ -998,6 +1045,7 @@ gadu jaunākajam Pilles brālim?
 
 
 <!--
+genre=word-problem
 questionType=ProveDisprove.ForAll,Find.All
 -->
 
@@ -1053,6 +1101,7 @@ no kuriem pirmo skaitli iegūst, ja otrajā skaitlī nodzēš pēdējo ciparu. A
 šādus naturālu skaitļu pārus. 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -1081,6 +1130,7 @@ ru=
 -->
 
 <!--
+genre=optimization
 questionType=Find.Min
 -->
 
@@ -1119,6 +1169,7 @@ ru=
 -->
 
 <!--
+concepts=sum-of-digits
 questionType=ProveDisprove.Exists
 -->
 
@@ -1217,6 +1268,7 @@ ru=
 -->
 
 <!--
+concepts=gcd
 questionType=ProveDisprove.Exists
 -->
 
@@ -1268,6 +1320,7 @@ $x^2 + y^2 + z^2 + w^2 = 3 + xy + y z + zw$,
 -->
 
 <!--
+genre=integer-equation
 questionType=ProveDisprove.Exists
 -->
 
@@ -1302,6 +1355,7 @@ skaitlis ir $2017$.
 
 
 <!--
+concept=recurrent-sequence
 questionType=Find.All,Find.Max
 -->
 
@@ -1345,6 +1399,7 @@ $324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
 -->
 
 <!--
+genre=integer-equation
 questionType=Find.All
 -->
 
@@ -1480,6 +1535,7 @@ Atrast visas iespējamās vērtības Mari iedomātajam skaitlim.
 -->
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -1560,6 +1616,7 @@ Atrast visas iespējas, kādi var būt Estas izvēlētie skaitļi.
 -->
 
 <!--
+genre=integer-equation
 questionType=Find.All
 -->
 
@@ -1588,6 +1645,8 @@ ru=
 -->
 
 <!--
+genre=integer-equation
+concepts=linear-expression
 questionType=Find.Count
 -->
 

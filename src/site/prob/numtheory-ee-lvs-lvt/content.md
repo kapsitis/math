@@ -36,6 +36,7 @@ $1 + 2^2 + 3^3 + 4^n$
 
 <!--
 questionType=Find.All
+genre=integer-equation
 -->
 
 ## Attālumi starp pilniem kvadrātiem
@@ -83,6 +84,7 @@ $p^3 + 2008$ и $p^3 + 2010$ также
 
 <!--
 questionType=ProveDisprove.Exists
+concepts=primes
 -->
 
 
@@ -122,6 +124,7 @@ ru=
 
 <!--
 questionType=Find.All
+genre=integer-equation
 -->
 
 
@@ -143,6 +146,8 @@ ru=
 
 <!--
 questionType=Prove.ForAll
+genre=digit-manipulation
+concepts=primes
 -->
 
 
@@ -188,6 +193,7 @@ $5, 14, 7, 20, 10, \ldots$, удовлетворяющей условиям за
 
 <!--
 questionType=ProveDisprove.ForAll,Prove.ForAll
+genre=sequence-properties
 -->
 
 
@@ -209,6 +215,7 @@ ru=
 
 <!--
 questionType=Find.All
+concepts=divisors
 -->
 
 
@@ -227,6 +234,7 @@ $n! + (n + 1)! = k! + 120$.
 
 <!--
 questionType=Find.All
+concepts=factorial
 -->
 
 
@@ -247,6 +255,7 @@ ru=
 
 <!--
 questionType=Prove.NotExists
+concepts=power-sums
 -->
 
 
@@ -268,6 +277,7 @@ ru=
 
 <!--
 questionType=ProveDisprove.Exists,Find.Min
+concepts=integer-polynomial
 -->
 
 
@@ -287,6 +297,7 @@ ru=
 
 <!--
 questionType=Find.All
+genre=digit-manipulation
 -->
 
 
@@ -320,6 +331,7 @@ $6$ положительных делителей и которое не явл�
 
 <!--
 questionType=Find.Min,Prove.Other
+concepts=divisors
 -->
 
 
@@ -338,6 +350,7 @@ ru=
 
 <!--
 questionType=Find.Count
+concepts=divisors
 -->
 
 
@@ -359,6 +372,7 @@ ru=
 
 <!--
 questionType=Find.All
+genre=digit-manipulation
 -->
 
 
@@ -385,6 +399,7 @@ $$\frac{1}{a_i} + \frac{1}{a_{i+1}} + \ldots + \frac{1}{a_j}$$
 
 <!--
 questionType=Prove.ForAll
+concepts=valuations
 -->
 
 
@@ -403,6 +418,7 @@ $$2x^3 − y^2 = 3$$
 
 <!--
 questionType=Prove.NotExists
+genre=integer-equation
 -->
 
 
@@ -421,6 +437,7 @@ ru=
 
 <!--
 questionType=ProveDisprove.Exists
+genre=integer-geometry
 -->
 
 
@@ -438,6 +455,7 @@ ru=
 
 <!--
 questionType=Prove.ForAll
+concepts=primes
 -->
 
 
@@ -457,6 +475,7 @@ $$a^{bc} + b^{ca} + c^{ab} = 3abc.$$
 
 <!--
 questionType=Find.All
+genre=integer-equation
 -->
 
 
@@ -499,6 +518,7 @@ $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=0$.
 
 <!--
 questionType=Prove.Exists
+concepts=coprimes
 -->
 
 
@@ -521,6 +541,7 @@ $ax^2+bx+c=0$ являлись целыми числами. Всегда ли у
 
 <!--
 questionType=ProveDisprove.Other
+concepts=quadratic-equation
 -->
 
 
@@ -537,6 +558,7 @@ ru=
 
 <!--
 questionType=Find.All
+concepts=sum-of-digits
 -->
 
 
@@ -556,6 +578,7 @@ $n^3 = m^2 + m + 1$.
 
 <!--
 questionType=Find.All
+concepts=remainder
 -->
 
 
@@ -577,6 +600,8 @@ sauc reizinājumu $1\cdot{}2\cdot\ldots\cdot{}x$.*
 
 <!--
 questionType=Prove.ForAll
+concepts=factorial
+genre=proving-inequality
 -->
 
 
@@ -617,6 +642,7 @@ $\frac{1 + 3}{3 + 5} = \frac{4}{8} = \frac{1}{2}$.)
 
 <!--
 questionType=ProveDisprove.Other
+genre=game
 -->
 
 
@@ -634,6 +660,7 @@ $(a + 1)(b − 1) = a^2b^2$.
 
 <!--
 questionType=Find.All
+genre=integer-equation
 -->
 
 
@@ -653,6 +680,7 @@ $(a + b)^2$. Доказать, что $\frac{b}{a}=6$.
 
 <!--
 questionType=Prove.ForAll
+genre=digit-manipulation
 -->
 
 
@@ -694,7 +722,7 @@ $a_1,\ldots,a_k$ число $f(a_1)+\ldots+f(a_k)$ делится
 
 <!--
 questionType=Find.All
-genre=functional_equation
+genre=functional-equation
 -->
 
 
@@ -746,6 +774,7 @@ ru=
 
 <!--
 questionType=Find.All
+genre=cryptarithm
 -->
 
 
@@ -769,6 +798,7 @@ ru=
 
 <!--
 questionType=Find.All
+concepts=gcd
 -->
 
 
@@ -791,6 +821,7 @@ $$A = \sqrt{2013 + \sqrt{2012 + \sqrt{2011 + \ldots \sqrt{2 +\sqrt{1}}}}}.$$
 
 <!--
 questionType=Find.Only
+concepts=square-root
 -->
 
 
@@ -810,6 +841,7 @@ $$p(p + 1) + q(q + 1) = n(n + 1).$$
 
 <!--
 questionType=Find.All
+concepts=primes
 -->
 
 
@@ -839,6 +871,7 @@ $19$, $63$ кратно числу $21$, а $38$ кратно числу $19$.
 
 <!--
 questionType=Find.Count
+genre=string-counting
 -->
 
 
@@ -888,9 +921,9 @@ questionType=Find.All
 
 # <lo-sample/> EE.LVT.2013.vanem.5
 
-a) Vai atradīsies tāds vesels skaitlis $c$ un polinoms $P(x)$ 
+(a) Vai atradīsies tāds vesels skaitlis $c$ un polinoms $P(x)$ 
 ar veseliem koeficientiem, kam $P(c) \neq c$, bet $P(P(c)) = c$?  
-b) Vai atradīsies tāds vesels skaitlis $c$ un polinoms $P(x)$ 
+(b) Vai atradīsies tāds vesels skaitlis $c$ un polinoms $P(x)$ 
 ar veseliem koeficientiem, kam $P(c) \neq c$ un $P(P(c)) \neq c$, 
 bet $P(P(P(c))) = c$?  
 *Piezīme:* Par polinomu ar veseliem koeficientiem sauc
@@ -913,6 +946,7 @@ $P(x) = a_0 + a_1x + a_2x^2 +\ldots+ a_n x^n$,
 
 <!--
 questionType=ProveDisprove.Exists
+concepts=integer-polynomials
 -->
 
 
@@ -939,6 +973,7 @@ ru=
 
 <!--
 questionType=Find.Min
+genre=digit-manipulation
 -->
 
 
@@ -971,6 +1006,7 @@ ru=
 
 <!--
 questionType=ProveDisprove.Exists
+genre=digit-manipulation
 -->
 
 # <lo-sample/> EE.LVS.2014.noorem.4
@@ -986,6 +1022,7 @@ $3^303 \cdot 4^{404} \cdot 5^{505}$?
 
 <!--
 questionType=Find.Only
+genre=proving-inequality
 -->
 
 
@@ -1007,6 +1044,7 @@ $(x^2+y^2)^n = (xy)^{2014}$ имеет решение в положительн�
 
 <!--
 questionType=Find.All
+genre=integer-equation
 -->
 
 
@@ -1058,6 +1096,7 @@ $3_a2_b5_c + 2_c5_a3_b = 5_38_17_d5_28_3$,
 -->
 
 <!--
+genre=decimal-manipulation
 questionType=Find.Only
 -->
 
@@ -1066,9 +1105,9 @@ questionType=Find.Only
 
 Pierādīt, ka patvaļīgu naturālu skaitļu $n$ un $m$
 mazākā kopīgā dalāmā kvadrāts dalās ar to 
-reizināmumu $nm$, bet 
+reizinājumu $nm$, bet 
 $nm$ savukārt dalās ar skaitļu $n$ un $m$ 
-lielākā kopīgā dalītāja kvadrātu. 
+lielākā kopīgā dalītāja kvadrātu.
 
 <!--
 ru=
@@ -1080,6 +1119,7 @@ ru=
 -->
 
 <!--
+concepts=lcm,gcd
 questionType=Prove.ForAll
 -->
 
@@ -1118,6 +1158,7 @@ ru=
 
 <!--
 questionType=Find.All
+genre=optimization
 -->
 
 
@@ -1192,6 +1233,7 @@ ru=
 -->
 
 <!--
+genre=digit-manipulation
 questionType=ProveDisprove.Exists
 -->
 
@@ -1224,6 +1266,7 @@ ru=
 -->
 
 <!--
+concepts=lcm,gcd
 questionType=Find.Max
 -->
 
@@ -1242,6 +1285,7 @@ $n+31$, $n+33$, $n+37$ и $n+39$ − простые числа. Найти ос�
 -->
 
 <!--
+concepts=primes
 questionType=Find.Only
 -->
 
@@ -1299,6 +1343,7 @@ ru=
 -->
 
 <!--
+concepts=divisors
 questionType=ProveDisprove.Exists
 -->
 
@@ -1329,6 +1374,7 @@ ru=
 
 <!--
 questionType=Find.Only
+genre=prove-inequality
 -->
 
 
@@ -1374,6 +1420,7 @@ $\mbox{НОД}(a, b) = 1$.
 
 
 <!--
+concepts=coprimes
 questionType=ProveDisprove.ForAll
 -->
 
@@ -1394,6 +1441,7 @@ $9$ положительных делителей, а все его делите
 -->
 
 <!--
+genre=magic-configuration
 questionType=ProveDisprove.Exists
 -->
 
@@ -1420,6 +1468,8 @@ $a_5 = 5 \cdot a_2$ и т.д.
 -->
 
 <!--
+concepts=floor
+genre=prove-inequality
 questionType=Prove.ForAll
 -->
 
@@ -1447,6 +1497,7 @@ ru=
 -->
 
 <!--
+genre=game
 questionType=Algorithm,Find.Min
 -->
 
@@ -1468,6 +1519,8 @@ ru=
 -->
 
 <!--
+genre=magic-configuration
+concepts=divisors
 questionType=Find.All
 -->
 
@@ -1488,6 +1541,7 @@ ru=
 -->
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -1510,6 +1564,7 @@ ru=
 --> 
 
 <!--
+concepts=lcm,gcd
 questionType=Prove.ForAll
 -->
 
@@ -1537,6 +1592,7 @@ ru=
 -->
 
 <!--
+concepts=parity
 questionType=ProveDisprove.ForAll
 -->
 
@@ -1560,6 +1616,7 @@ ru=
 -->
 
 <!--
+genre=magic-configuration
 questionType=Find.Min
 -->
 
@@ -1580,6 +1637,7 @@ ru=
 -->
 
 <!--
+genre=cryptarithm
 questionType=Find.Count
 -->
 
@@ -1639,6 +1697,7 @@ ru=
 -->
 
 <!--
+concepts=primes,valuations
 questionType=Find.Max
 -->
 
@@ -1660,6 +1719,7 @@ ru=
 -->
 
 <!--
+genre=cryptarithm
 questionType=Find.Count
 -->
 
@@ -1668,7 +1728,7 @@ questionType=Find.Count
 
 Atrast lielāko naturālo skaitli, kas nepārsniedz $500$ un kuram 
 nevar atrast citu naturālu skaitli, kas ir mazāks par $500$ un kurš
-dalītos ar mazāk dažādiem pirmskaitļiem.
+dalītos ar vairāk dažādiem pirmskaitļiem.
 
 <!--
 ru=
@@ -1678,6 +1738,7 @@ $500$, имеющего больше различных простых дели�
 -->
 
 <!--
+concepts=divisors,primes
 questionType=Find.Max
 -->
 
@@ -1687,7 +1748,7 @@ questionType=Find.Max
 Par racionālu skaitļu $u$ un $v$ mediānu sauc skaitli $x = \frac{a + c}{b + d}$, kur
 $\frac{a}{b}$ un $\frac{c}{d}$ Ir attiecīgi skaitļu $u$ un $v$ izteiksmes nesaīsināmu daļu veidā. 
 Pierādīt, ka jebkuriem dažādiem pozitīviem racionāliem skaitļiem $u$ un $x$ var atrast
-bezgalīgi daudzus pozitīvus racionaļus skaitļus $v$, kam $x$ ir $u$ un $v$ mediāna.
+bezgalīgi daudzus pozitīvus racionālus skaitļus $v$, kam $x$ ir $u$ un $v$ mediāna.
 
 <!--
 ru=
@@ -1701,6 +1762,7 @@ $v$ таких, что $x$ будет медиантой $u$ и $v$.
 -->
 
 <!--
+concepts=mediant-of-fractions
 questionType=Prove.Other
 -->
 
@@ -1726,6 +1788,7 @@ $$0\;\;1\;\;2\;\;3\;\;4\;\;5\;\;6\;\;7\;\;8\;\;9$$
 -->
 
 <!--
+genre=build-expression
 questionType=Find.Min
 -->
 
@@ -1742,6 +1805,7 @@ ru=
 
 
 <!--
+concepts=primes
 questionType=ProveDisprove.Exists
 -->
 
@@ -1760,6 +1824,7 @@ ru=
 --> 
 
 <!--
+genre=integer-geometry
 questionType=Find.All
 -->
 
@@ -1775,6 +1840,7 @@ ru=
 
 
 <!--
+concepts=primes
 questionType=ProveDisprove.Exists
 -->
 
@@ -1815,6 +1881,7 @@ $n\cdot\mbox{НОД}(m,k) = m\cdot\mbox{НОД}(n,k)$.
 -->
 
 <!--
+concepts=lcm,gcd
 questionType=Prove.ForAll
 -->
 
@@ -1840,6 +1907,7 @@ ru=
 -->
 
 <!--
+genre=word-problem
 questionType=Find.All
 -->
 
@@ -1861,6 +1929,7 @@ ru=
 
 
 <!--
+genre=fill-in-table
 questionType=Find.Max
 -->
 
@@ -1907,6 +1976,7 @@ $3$, $3$, $\otimes$, $4$, $4$, $\otimes$,
 
 
 <!--
+genre=procedure
 questionType=Algorithm,ProveDisprove.Exists
 -->
 
@@ -1949,6 +2019,7 @@ ru=
 
 
 <!--
+genre=digit-manipulation
 questionType=Find.All
 -->
 
@@ -1971,6 +2042,7 @@ ru=
 
 
 <!--
+genre=procedure
 questionType=Find.Only
 -->
 
@@ -2017,6 +2089,7 @@ $$\frac{5a^4 + a^2}{b^4 + 3b^2 + 4}$$
 
 
 <!--
+concepts=primes
 questionType=Prove.ForAll
 -->
 

@@ -27,8 +27,81 @@ $$\frac{2}{a^2}+\frac{3}{b^2}+\frac{4}{c^2}=1$$
 
 <!--
 questionType=Find.All
+genre=integer-equation
 -->
 
+<small>
+
+* [alg.ineq.equations](#)
+* [misc.exhaustive](#)
+
+</small>
+
+
+
+## Ekstremālais elements
+
+Aplūkosim mazāko no $a,b,c$. Ir vairāki gadījumi
+
+(1) Nevar būt, ka minimums ir $1$, jo tad summa pārsniegtu $1$.   
+(2) Ja minimālais ir $3$, tad vienādība iestājas tikai tad, ja $a=b=c=3$
+(ja kaut viens ir lielāks par $3$, tad summa mazāka par $1$).   
+(3) Ja $\mbox{min}(a,b,c)=2$, tad ir divas iespējas:  
+(3.1) $a=2$ vai arī  
+(3.2) $b = 2$. (Nevar būt $c=2$, jo tad pat viens saskaitāmais $\frac{4}{c^2}=1$.)
+
+## Gadījums (3.1): a=2
+
+Ievietojam $a=2$, noīsinām un paliek vienādojums:
+$$\frac{3}{b^2} + \frac{4}{c^2} = \frac{1}{2}.$$ 
+
+Šķirojam divus apakšgadījumus atkarībā no tā, kurš saskaitāmais lielāks:
+
+(3.1.1) $\frac{3}{b^2}\geq\frac{1}{4}$ jeb $b^2 < 12$. Ievietojot $b=2$, $\frac{3}{b^2}$ ir par lielu; 
+tātad $b=3$.   
+(3.1.2) $\frac{4}{c^2} > \frac{1}{4}$ jeb $c^2 < 16$. Ievietojot 
+$c=2$, $\frac{4}{c^2}$ ir par lielu, tātad $c=3$. 
+
+## Gadījumi (3.1.1) un (3.1.2) 
+
+(3.1.1) Ievietojot $(a,b)=(2,3)$, iegūstam:
+$$\frac{4}{c^2} = 1 - \frac{2}{4} - \frac{3}{9} = \frac{1}{6}$$
+jeb $c^2 = 24$, kas nevar būt. 
+
+(3.1.2) Ievietojot $(a,c)=(2,3)$, iegūstam:
+$$\frac{3}{b^2} = 1 - \frac{2}{4} - \frac{4}{9} = \frac{1}{18}.$$
+jeb $b^2 = 54$, kas nevar būt. 
+
+## Gadījums (3.2) b=2
+
+Ievietojam $b=2$, noīsinām un paliek vienādojums: 
+$$\frac{2}{a^2} + \frac{4}{c^2} = \frac{1}{4}.$$
+
+Vismaz viens no saskaitāmajiem ir vismaz puse no summas jeb $1/8$. 
+Šķirojam divus apakšgadījumus: 
+
+(3.2.1) $\frac{2}{a^2}\geq\frac{1}{8}$ jeb $a^2 \leq 16$.
+ 
+* Ja $a=2$, tas neder - gadījumus (3.1.x) jau aplūkojām. 
+* Ja $a=3$, tad $\frac{4}{c^2} = 1 - \frac{2}{9} - \frac{3}{4} = \frac{1}{36}$. 
+Iegūstam, ka $c^2 = 144$, jeb $c=12$. 
+* Ja $a=4$, tad $\frac{4}{c^2} = \frac{1}{8}$ jeb $c^2 = 32$, kas nevar būt. 
+
+## Gadījums (3.2) b=2 (turpinājums)
+
+(3.2.2) $\frac{1}{4} > \frac{4}{c^2}\geq\frac{1}{8}$ jeb $c^2 \leq 32$.
+
+* Ja $c=2,3,4$, tas neder, jo $\frac{4}{c^2}\geq\frac{1}{4}$. 
+* Ja $c=5$, tad ievietojam $b=2$, $c=5$:
+$\frac{2}{a^2} = 1 - \frac{3}{4} - \frac{4}{25} = \frac{9}{100}$
+jeb $a^2 = \frac{200}{9}$, kas nevar būt.
+
+**Atbilde:**
+
+Esam ieguvuši divus atrisinājumus:
+
+* $(a,b,c)=(3,3,3)$.   
+* $(a,b,c)=(3,2,12)$.  
 
 
 # <lo-sample/> EE.LO.2011.10.2
@@ -44,6 +117,7 @@ ru=
 
 <!--
 questionType=Find.All
+genre=integer-equation
 -->
 
 
@@ -54,8 +128,8 @@ Atrast visus tādus naturālu skaitļu pārus $(n,m)$, kuriem
 skaitļu $n$ un $m$ aritmētiskais un ģeometriskais vidējais 
 ir dažādi divciparu naturāli skaitļi, kuri iegūstami viens no 
 otra, apmainot vietām ciparus.  
-*Piezīme. Par pozitīvu skaitļu $x$, $y$ ģeometrisko vidējo 
-sauc skaitli $\sqrt{x y}$.*
+*Piezīme.* Par pozitīvu skaitļu $x$, $y$ ģeometrisko vidējo 
+sauc skaitli $\sqrt{x y}$.
 
 <!--
 ru=
@@ -63,12 +137,14 @@ ru=
 арифметическое и геометрическое среднее чисел $n$ и $m$ являются 
 различными двузначными натуральными числами, которые одно из другого
 получаются перестановкой цифр.  
-*Замечание. Геометрическим средним положительных чисел $x$, $y$ называется 
-число $\sqrt{x y}$.*
+*Замечание.* Геометрическим средним положительных чисел $x$, $y$ называется 
+число $\sqrt{x y}$.
 -->
 
 <!--
 questionType=Find.All
+genre=digit-manipulation
+concepts=square-root,arithmetic-mean,geometric-mean
 -->
 
 
@@ -91,6 +167,8 @@ ru=
 
 <!--
 questionType=Find.All
+genre=integer-equation
+concepts=factorial
 -->
 
 
@@ -116,6 +194,8 @@ ru=
 
 <!--
 questionType=ProveDisprove.Exists
+genre=integer-equation
+concepts=power-sums
 -->
 
 
@@ -183,6 +263,7 @@ left\lfloor \frac{a+n-1}{n} \right\rfloor = a.$$
 
 <!--
 questionType=Prove.ForAll
+concepts=floor
 -->
 
 
@@ -209,6 +290,7 @@ ru=
 
 <!--
 questionType=Prove.Other
+genre=game
 -->
 
 
@@ -230,6 +312,7 @@ $\frac{1}{n}$ и $\frac{1}{n + 1}$
 
 <!--
 questionType=Find.All
+concepts=decimal-fractions
 -->
 
 
@@ -258,6 +341,7 @@ $$S(n + 1) + S(n) = 1^2 + 2^2 + \ldots + n^2 + (n + 1)^2.$$
 
 <!--
 questionType=Prove.ForAll
+genre=sequence-properties
 -->
 
 
@@ -276,6 +360,7 @@ ru=
 
 <!--
 questionType=Find.All
+genre=digit-manipulation
 -->
 
 
@@ -294,6 +379,7 @@ $$3(a^2 + b^2) − 7(a + b) = −4.$$
 
 <!--
 questionType=Find.All
+genre=integer-equation
 -->
 
 
@@ -320,6 +406,7 @@ $\mbox{НОД}(a, b) = 1$.
 
 <!--
 questionType=ProveDisprove.ForAll
+concepts=coprimes
 -->
 
 
@@ -362,6 +449,7 @@ ru=
 
 <!--
 questionType=Algorithm,ProveDisprove.ForAll
+genre=game
 -->
 
 
@@ -380,6 +468,7 @@ $$(2a^2 + b)^3 = b^3a.$$
 
 <!--
 questionType=Find.All
+genre=integer-equation
 -->
 
 
@@ -403,6 +492,7 @@ ru=
 
 <!--
 questionType=Find.All
+genre=integer-equation
 -->
 
 

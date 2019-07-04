@@ -29,8 +29,7 @@ vismaz viens interesants.
 </small>
 
 <!--
-tag=decimal_notation
-genre=special_numbers
+genre=special-numbers
 questionType=Find.Any,Find.Count,Prove.ForAll
 -->
 
@@ -70,9 +69,9 @@ atrastos skaitļi $\frac{4}{3}$; $\frac{4}{5}$; $\frac{5}{2}$?
 </small>
 
 <!--
-tag=blackboard
-genre=finding_path
+genre=making-moves
 questionType=ProveDisprove.Exists
+seeAlso=LV.NO.2019.8.4
 -->
 
 
@@ -102,8 +101,7 @@ katru vienu reizi. Vai to var izdarīt, ja
 </small>
 
 <!--
-tag=table
-genre=magic_configuration
+genre=magic-configuration
 questionType=ProveDisprove.Exists
 -->
 
@@ -141,8 +139,7 @@ skaitļu summu (pavisam būs $12$ summas). Kādu mazāko skaitu dažādu vērtī
 </small>
 
 <!--
-tag=table
-genre=optimization
+genre=fill-in-table
 questionType=Find.Min
 -->
 
@@ -174,8 +171,6 @@ pārējām kartītēm.
 </small>
 
 <!--
-tag=table
-genre=construction
 questionType=Find.Any,ProveDisprove.Exists
 -->
 
@@ -194,6 +189,7 @@ ciparu. Zināms arī, ka $A-B=297$ un $B$ ciparu summa ir $23$. Atrast $A$ un $B
 
 
 <!--
+concepts=sum-of-digits
 questionType=Find.All
 -->
 
@@ -208,6 +204,7 @@ ierakstīti rūtiņās ar kopīgu malu, viens dalītos ar otru.\\
 Vai to var izdarīt, ja (a) $n=15$, (b) $n=13$?
 
 <!--
+genre=fill-in-table
 questionType=ProveDisprove.Exists
 -->
 
@@ -314,9 +311,11 @@ questionType=Find.All
 -->
 
 
-## ABC
+## 365:7 - dalīšana ar atlikumu
  
-**#DalīšanaArAtlikumu** 365 dienu gads sākas un beidzas ar to pašu dienu. 1.gads sākas/beidzas ar sestdienu $\Rightarrow$ 2.gads ar svētdienu.
+$365$ dienu gads sākas un beidzas ar to pašu dienu. 
+1.gads sākas/beidzas ar sestdienu (visu citu dienu ir vienāds skaits). 
+Bet nākamais sākas un beidzas ar svētdienu.
 
 
 # <lo-sample/> LV.NO.2001.7.4 
@@ -337,6 +336,7 @@ no kuriem katriem diviem lielākais kopīgais dalītājs ir $1$?
 </small>
 
 <!--
+concepts=coprimes
 questionType=Find.Max
 -->
 
@@ -362,6 +362,8 @@ Pamatojiet savu risinājumu.
 
 
 <!--
+concepts=primes
+genre=digit-manipulation
 questionType=Find.Max
 -->
 
@@ -377,11 +379,16 @@ Pierādiet, ka vismaz viens no skaitļiem  $n^3 - n$
 un $n^3 + n$
 dalās ar $10$.
 
+<!--
+questionType=Prove.Exists
+-->
+
 
 
 ## ABC
 
-**#GadījumuPārlase** **#Kongruences** $0^3+0$, $1^3-1$, $2^3+2$, $3^3+3$, $4^3-4$, $5^5-5$, $6^6 - 6$, $7^3 + 7$, $8^3 + 8$, $9^9-9$.  
+**#GadījumuPārlase** **#Kongruences** $0^3+0$, $1^3-1$, $2^3+2$, $3^3+3$, 
+$4^3-4$, $5^5-5$, $6^6 - 6$, $7^3 + 7$, $8^3 + 8$, $9^9-9$.  
 
 
 
@@ -396,11 +403,16 @@ Vai šai līnijai var būt tieši\\
 (a) $2000$, (b) $2001$, (c) $2002$ posmi?
 
 
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 ## ABC
 
-**#Invariants** Ar $2000$ var (saliek kopā 2 "trepes"). $2001$ nevar, jo mijas horizontāli un vertikāli posmi. $2002$ nevar, jo $1001$ nepāra (horizontālo) pārvietojumu summa nevar būt $0$.   
+**#Invariants** Ar $2000$ var (saliek kopā 2 "trepes"). $2001$ nevar, 
+jo mijas horizontāli un vertikāli posmi. $2002$ nevar, 
+jo $1001$ nepāra (horizontālo) pārvietojumu summa nevar būt $0$.   
 
 
 
@@ -412,6 +424,11 @@ ar $B$ vienu ciparu, bet $B$ simtu cipars sakrīt ar
 $A$ vienu ciparu. Zināms arī, ka
 $A - B = 297$ un $B$ ciparu summa ir $23$. Atrast $A$ un $B$.
 
+
+<!--
+concepts=sum-of-digits
+questionType=ProveDisprove.Exists
+-->
 
 
 # <lo-sample/> LV.NO.2001.10.4 
@@ -427,10 +444,15 @@ vērtību kā galīgu decimāldaļskaitli.
 
 # <lo-sample/> LV.NO.2001.11.3 
 
-[seeAlso:NO.2002.11.1](#NO.2002.11.1)  
 Kādiem naturāliem $k$ skaitlis $k^k + 1$ ir pirmskaitlis, kas mazāks par
 $10^{19}$. 
 
+
+<!--
+questionType=Find.All
+concepts=primes
+seeAlso=LV.NO.2002.11.1
+-->
 
 
 ## ABC
@@ -447,7 +469,10 @@ vienāds ar abu iepriekšējo summu. Vai ar 5 dalās šīs virknes
 2. $2000$-ais loceklis? 
 
 
-
+<!--
+questionType=Find.Only
+concepts=fibonacci-sequence
+-->
 
 
 
@@ -473,6 +498,11 @@ Kāds lielākais dažādu pirmskaitļu daudzums var vienlaikus atrasties uz tāf
 
 </small>
 
+<!--
+genre=optimization
+questionType=Find.Max
+-->
+
 
 ## ABC
  
@@ -495,6 +525,11 @@ no $1$ līdz $200$. Vai izrauto lappušu numuru summa var būt $1000$, ja tiek i
 
 </small>
 
+<!--
+concepts=arithmetic-progression
+questionType=ProveDisprove.Exists
+-->
+
 
 ## ABC
  
@@ -510,6 +545,10 @@ Neviens no tiem nedalās ar diviem vai vairāk dažādiem
 pirmskaitļiem. Kāda ir
 lielākā iespējamā $n$ vērtība?
 
+<!--
+concepts=primes
+questionType=Find.Max
+-->
 
 
 ## ABC
@@ -570,12 +609,15 @@ Ja ēd $10$ dienas, tad var noēst tikai $2^{10}$ dažādus skaitļus.
 
 # <lo-sample/> LV.NO.2002.11.2 
 
-[seeAlso:NO.2003.11.1](#NO.2003.11.1)  
-[seeAlso:NO.2004.11.1](#NO.2004.11.1)  
 Andris izvēlējās 5 dažādus naturālus skaitļus un katriem diviem
 izvēlētajiem skaitļiem aprēķināja to summu. Kādu mazāko daudzumu
 dažādu rezultātu Andris varēja iegūt?
 
+<!--
+seeAlso=LV.NO.2003.11.1  
+seeAlso=LV.NO.2004.11.1  
+questionType=Find.Min
+-->
 
 
 # <lo-sample/> LV.NO.2002.12.1 
@@ -583,7 +625,10 @@ dažādu rezultātu Andris varēja iegūt?
 Dots, ka $\sin x$ - racionāls skaitlis. Vai $\sin 2x$ var būt\\
 (a) racionāls, (b) iracionāls, (c) nedefinēts?
 
-
+<!--
+concepts=irrational-numbers,rational-numbers
+questionType=ProveDisprove.Exists
+-->
 
 ## ABC
 
@@ -600,13 +645,18 @@ Dots, ka $\sin x$ - racionāls skaitlis. Vai $\sin 2x$ var būt\\
 Kādu mazāko daudzumu no skaitļiem\\ $1;2;3;\ldots;12;13$ var izsvītrot, lai 
 katru divu atlikušo summa būtu salikts skaitlis? 
 
-
 <small>
 
-* [co.graph.bipartite](#)
+* [misc.graphs.bipartite](#)
 * [nt.parity.operations](#)
 
 </small>
+
+<!--
+questionType=Find.Min
+concepts=primes
+-->
+
 
 ## ABC
  
@@ -625,6 +675,12 @@ vienas grupas visu skaitļu reizinājums vienāds ar otras grupas visu skaitļu 
 
 </small>
 
+
+<!--
+questionType=Find.Min
+-->
+
+
 ## ABC
  
 **#EiklīdaLemma** Jāsvītro $7, 11$ un viens $3$ daudzkārtnis. $1 \cdot 2 \cdot 3 \cdot 4 \cdot 5 \cdot 6 = 8 \cdot 9 \cdot 10$.
@@ -637,6 +693,12 @@ Jānis uzrakstīja $n$ pēc kārtas sekojošus naturālus skaitļus.
 Neviens no tiem nedalās ar trim vai vairāk dažādiem 
 pirmskaitļiem. Kāda ir lielākā iespējamā $n$ vērtība?
 
+<!--
+concepts=primes
+questionType=Find.Max
+-->
+
+
 ## ABC
 
 **#Dalāmība** Tādi ir $1,2,\ldots,29$. Vairāk kā $n=29$ nevar būt, jo katram trīsdesmitajam ($30$ dalītājiem) ir trīs pirmskaitļu dalītāji.
@@ -645,7 +707,7 @@ pirmskaitļiem. Kāda ir lielākā iespējamā $n$ vērtība?
 
 # <lo-sample/> LV.NO.2003.9.5 
 
-Uz galda atrodas n konfektes. Andris un Pēteris pēc kārtas 
+Uz galda atrodas $n$ konfektes. Andris un Pēteris pēc kārtas 
 izdara gājienus; pirmais iet Andris. 
 Ar vienu gājienu tiek paņemtas dažas
 konfektes; pie tam jāņem vismaz $1$ konfekte, 
@@ -653,20 +715,25 @@ bet nedrīkst ņemt vairāk
 par pusi uz galda esošo konfekšu. 
 Tas zēns, pēc kura gājiena uz galda
 paliek 1 konfekte, zaudē.
-Kas uzvar, pareizi spēlējot, ja\\
-(a) $n = 47$,
+Kas uzvar, pareizi spēlējot, ja  
+(a) $n = 47$,  
 (b) $n = 2003$?
 
+<!--
+questionType=Algorithm,Prove.ForAll
+-->
 
 
 # <lo-sample/> LV.NO.2003.10.1 
 
-Dots, ka x un y \textendash{} naturāli skaitļi. Vai var gadīties, ka
+Dots, ka $x$ un $y$ – naturāli skaitļi. Vai var gadīties, ka
 
 1. $(2x+3y)(3x+2y)$ dalās ar $5$, bet nedalās ar $25$?
 2. $(2x+3y)(3x+2y)$ dalās ar $2003$, bet nedalās ar $2003^2$?
 
-
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 
@@ -678,18 +745,31 @@ beidzas ar $3$ četriniekiem: $38^2 = 1444$.
 1. vai šādu naturālu skaitļu ir bezgalīgi daudz?
 2. atrodiet otro mazāko naturālo skaitli ar šādu īpašību.
 
+<!--
+questionType=ProveDisprove.Other,Find.Min
+-->
+
+
 
 ## ABC
 
-**#AlgebriskaIdentitāte** (a) Jā; visi $1000n + 38$ der. Atverot iekavas, $(500-38)^2$ arī beidzas ar $444$. Mazāku nav: ja $x \in [39;49]$, $x^2$ nebeidzas ar $44$. Tātad $(n*100 \pm 38)^2$, kur $n \in \{ 1,2,3,4,5 \}$ - pārlasa visiem simtu ciparus. 
+**#AlgebriskaIdentitāte** (a) Jā; visi $1000n + 38$ der. Atverot iekavas, $(500-38)^2$ arī beidzas ar $444$. 
+Mazāku nav: ja $x \in [39;49]$, $x^2$ nebeidzas ar $44$. Tātad $(n*100 \pm 38)^2$, 
+kur $n \in \{ 1,2,3,4,5 \}$ - pārlasa visiem simtu ciparus. 
 
 
 # <lo-sample/> LV.NO.2003.12.1 
 
-[seeAlso:NO.2000.12.1](#NO.2000.12.1)
 Skaitļu virknē pirmais un otrais loceklis abi ir $1$, bet katrs nākošais
-vienāds ar abu iepriekšējo summu. Vai ar $5$ dalās šīs virknes\\
-(a) $20$-ais, (b) $2003$-ais loceklis?
+vienāds ar abu iepriekšējo summu. Vai ar $5$ dalās šīs virknes  
+(a) $20$-ais,  
+(b) $2003$-ais loceklis?
+
+<!--
+seeAlso=LV.NO.2000.12.1
+questionType=Find.Only
+-->
+
 
 
 
@@ -705,7 +785,10 @@ Vai eksistē tādas $12$ ģeometriskas progresijas, kas sastāv no reāliem
 skaitļiem, ka katrs naturāls skaitlis no $1$ līdz $100$ ieskaitot pieder vismaz
 vienai no šīm progresijām?
 
-
+<!--
+concepts=geometric-progression,real-numbers
+questionType=ProveDisprove.Exists
+-->
 
 
 
@@ -719,12 +802,16 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 
 <small>
 
-* [co.graph.bipartite](#)
+* [misc.graphs.bipartite](#)
 * [nt.primes.small](#)
 * [nt.parity.invariant](#)
 
 </small>
 
+<!--
+concepts=composite-numbers
+questionType=Find.Min
+-->
 
 
 ## ABC
@@ -734,7 +821,6 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 
 # <lo-sample/> LV.NO.2004.8.1 
 
-[seeAlso:NO.2003.8.3](#NO.2003.8.3)  
 Kādu mazāko daudzumu no naturāliem skaitļiem $1;2;3;\ldots;14;15$ var izsvītrot, 
 lai atlikušos varētu sadalīt divās grupās ar īpašību: 
 vienas grupas visu skaitļu reizinājums vienāds ar otras grupas visu skaitļu reizinājumu?
@@ -745,6 +831,13 @@ vienas grupas visu skaitļu reizinājums vienāds ar otras grupas visu skaitļu 
 
 </small>
 
+<!--
+questionType=Find.Min
+seeAlso=LV.NO.2003.8.3
+-->
+
+
+
 
 ## ABC
  
@@ -753,9 +846,6 @@ vienas grupas visu skaitļu reizinājums vienāds ar otras grupas visu skaitļu 
 
 # <lo-sample/> LV.NO.2004.8.2 
 
-[seeAlso:Benford's law](https://en.wikipedia.org/wiki/Benford%27s_law)  
-[seeAlso:Election results](https://meduza.io/feature/2017/01/13/itogi-vyborov-v-gosdumu-okazalis-slishkom-idealnymi)  
-[seeAlso:2005.8.1](#NO.2005.8.1)  
 Ir zināms, ka skaitļa $2^{200}$ decimālajā pierakstā ir $61$ cipars. 
 Cik daudziem no skaitļiem $2^1; 2^2; 2^3; \ldots; 2^{199}; 2^{200}$ 
 decimālais pieraksts sākas ar ciparu $1$?
@@ -767,10 +857,18 @@ decimālais pieraksts sākas ar ciparu $1$?
 
 </small>
 
+<!--
+questionType=Find.Count
+seeAlso=https://en.wikipedia.org/wiki/Benford%27s_law
+seeAlso=https://meduza.io/feature/2017/01/13/itogi-vyborov-v-gosdumu-okazalis-slishkom-idealnymi
+seeAlso=LV.NO.2005.8.1
+-->
 
-## ABC
- 
-**#Nevienādība** Katram ciparu skaitam, izņemot 1-cipara sk., ir tieši viens $2^n$, kas sākas ar $1$.
+
+## Grupēšana pēc ciparu skaita
+
+* Visas divnieku pakāpes var grupēt pēc ciparu skaita
+* Katrā grupā (izņemot viencipara sk.) tieši viena pakāpe sākas ar "1". 
 
 
 
@@ -1548,8 +1646,8 @@ Pierādīt: sākotnējā un iegūtā skaitļa starpība dalās ar $9$.
 
 <small>
 
-* [nt.divrules3and9.permutations](#)
-* [nt.decnotation.expressions](#)
+* [notation.divrules.3or9.remainder](#)
+* [notation.dec.combine](#)
 
 </small>
 
@@ -1720,8 +1818,8 @@ samainot vietām tā ciparus. Pierādīt, ka $B-A$ dalās ar $9$.
 
 <small>
 
-* [nt.decnotation.expressions](#)
-* [nt.divrules3and9.permutations](#)
+* [notation.dec.combine](#)
+* [notation.divrules.3or9.remainder](#)
 
 </small>
 
@@ -1780,14 +1878,14 @@ jebkādā secībā?
 
 <small>
 
-* [co.graph.bfs](#)
+* [misc.graphs.bfs](#)
 * [nt.decnotation.transform](#)
 
 </small>
 
-## ABC
+## Koka apstaigāšana, meklējot virsotni
  
-**#GadījumuPārlase** **#KokaApstaigāšana** $9 \rightarrow 63 \rightarrow 441 \rightarrow 41 \rightarrow 287 \rightarrow 27$. 
+$9 \rightarrow 63 \rightarrow 441 \rightarrow 41 \rightarrow 287 \rightarrow 27$. 
 
 
 # <lo-sample/> LV.NO.2012.7.4 
@@ -1797,13 +1895,13 @@ Pierādīt, ka $1004041$ nav pirmskaitlis.
 
 <small>
 
-* [nt.divrulesother.101](#)
+* [notation.divrules.101](#)
 
 </small>
 
-## ABC
+## Dalāmības pazīme ar 101
  
-**#DalāmībasPazīmeCita** Ar $101$ dalās skaitļi, kam apaļajās un kvadrātiekavās liktās summas atšķiras par $101k$: $[01](00)[40](41)$.
+Ar $101$ dalās skaitļi, kam apaļajās un kvadrātiekavās liktās summas atšķiras par $101k$: $[01](00)[40](41)$.
 
 
 
@@ -1814,13 +1912,13 @@ lai katrs no reizinātājiem ir lielāks nekā $1$.
 
 <small>
 
-* [al.identity.sqdiff](#)
+* [alg.factorize.sqdiff](#)
 
 </small>
 
-## ABC
+## Kvadrātu starpības formula
  
-**#AlgebriskaIdentitāte** $3999991 = 4000000 - 9 = 2000^2 - 3^2$. 
+$3999991 = 4000000 - 9 = 2000^2 - 3^2$. 
 
 
 # <lo-sample/> LV.NO.2012.8.3 
@@ -1831,15 +1929,16 @@ $n$ vieni.)
 
 <small>
 
-* [nt.divrulesother.11](#)
-* [nt.factorization.plain](#)
+* [notation.divrules.11](#)
+* [div.pfactor.prop.euclid](#)
 
 </small>
 
 
-## ABC
+## Dalāmība ar 11
  
-**#DalāmībaAr11** $\overline{aabbcc}$ dalās ar $11$ jo ciparu summas pāru un nepāru pozīcijās sakrīt. Neviens cipars nav $11$. 
+* $\overline{aabbcc}$ dalās ar $11$ jo ciparu summas pāru un nepāru pozīcijās sakrīt. 
+* Neviens cipars nav $11$. Tāpēc arī šādu ciparu reizinājums nevar dalīties ar $11$.
 
 
 
@@ -1947,7 +2046,7 @@ Ar ko pārī apvienots skaitlis $1$?\\
 <small>
 
 * [al.inequality.finitesearch](#)
-* [co.graph.bipartite](#)
+* [misc.graphs.bipartite](#)
 
 </small>
 
@@ -2148,7 +2247,7 @@ $300$, vienmēr starp šiem skaitļiem var atrast divus skaitļus, kuru summa ir
 * [seq.arithm.expr](#)
 * [seq.arithm.numestimate](#)
 * [seq.arithm.pairsum](#)
-* [misc.pigeonhole](#)
+* [misc.extreme.pigeonhole](#)
 
 </small>
 
@@ -2490,8 +2589,8 @@ dalās ar $99$.
 
 <small>
 
-* [nt.divrules3and9.plain](#)
-* [nt.divrulesother.11](#)
+* [notation.divrules.3or9.divides](#)
+* [notation.divrules.11](#)
 * [nt.factorization.divisibilityrules](#)
 
 </small>
@@ -2609,7 +2708,7 @@ ka to summa vai starpība dalās ar $5$.
 
 * [mod.expr.square](#)
 * [mod.cases.squares](#)
-* [misc.pigeonhole](#)
+* [misc.extreme.pigeonhole](#)
 
 </small>
 
@@ -2836,16 +2935,20 @@ var beigties trīs izveidoto skaitļu summa?
 
 Doti naturāli skaitļi $a$ un $b$. Pierādīt
 
-1. ja $20a + 18b$ dalās ar $7$, tad $201a + 8b$𝑏dalās ar $7$;
+1. ja $20a + 18b$ dalās ar $7$, tad $201a + 8b$ dalās ar $7$;
 2. ja $201a + 8b$ dalās ar $7$, tad $20a + 18b$ dalās ar $7$.
 
 
 
 # <lo-sample/> LV.NO.2018.12.5 
 
-Vienādojuma ar veseliem koeficientiem 𝑥$x^4 + bx^2 + c𝑐 = 0$ 
+Vienādojuma ar veseliem koeficientiem $x^4 + bx^2 + c = 0$ 
 vienas saknes vērtība ir $\sqrt{20} - \sqrt{18}$. Atrast
 vienādojuma koeficientus un pārējās trīs saknes!
+
+
+
+
 
 
 
@@ -2853,6 +2956,10 @@ vienādojuma koeficientus un pārējās trīs saknes!
 
 Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b) = 150015$?
 
+<!--
+questionType=ProveDisprove.Exists
+genre=integer-equation
+-->
 
 
 # <lo-sample/> LV.NO.2019.7.5
@@ -2866,7 +2973,11 @@ atkārtoties). Pēc tam vēl divas reizes viņi atkārto šo darbību.
 Rihards uzvar, ja iegūtais deviņciparu skaitlis dalās
 ar $31$. Vai Rihards vienmēr var uzvarēt?
 
-
+<!--
+questionType=Algorithm,ProveDisprove.ForAll
+genre=game
+concepts=divisibility
+-->
 
 
 
@@ -2880,6 +2991,12 @@ Vai, izdarot vairākus šādus gājienus,
 var panākt, lai uz tāfeles vienlaicīgi būtu uzrakstīti skaitļi 
 $\frac{4}{3}, \frac{4}{5}, \frac{5}{2}$. 
 
+<!--
+seeAlso=LV.NO.2000.7.5
+genre=making-moves
+questionType=ProveDisprove.Exists
+-->
+
 
 # <lo-sample/> LV.NO.2019.8.5
 
@@ -2890,14 +3007,22 @@ Zināms, ka $\overline{xyx}$
 dalās ar $3$, bet $\overline{yxy}$ dalās ar $4$. 
 Kāds var būt izveidotais trīsciparu skaitlis $\overline{yxy}$?
 
+<!--
+questionType=Find.All
+concepts=divisibility
+-->
+
 
 # <lo-sample/> LV.NO.2019.9.5
 
 Kāds mazākais ciparu skaits jāpieraksta ciparu virknes $3456$ beigās, 
 lai iegūtu skaitli, kas dalās ar $2019$?
 
-
-
+<!--
+questionType=Find.Min
+concepts=divisibility
+genre=digit-manipulation
+-->
 
 
 
@@ -2912,6 +3037,13 @@ $20m + 18n = 2018$.
 * [div.primes.factorize.small](#)
 
 </small>
+
+<!--
+concepts=primes
+questionType=Find.All
+genre=integer-equation
+-->
+
 
 ## Risinājums
 
@@ -2932,7 +3064,11 @@ No tiem der tikai divi: $(73,31)$, $(37,71)$
 
 Atrast visus pirmskaitļu pārus $(m,n)$, kuriem $20m + 19n = 2019$.
 
-
+<!--
+questionType=Find.All
+concepts=linear-expression,primes
+genre=integer-equation
+-->
 
 
 # <lo-sample/> LV.NO.2019.12.5
@@ -2940,7 +3076,10 @@ Atrast visus pirmskaitļu pārus $(m,n)$, kuriem $20m + 19n = 2019$.
 Pierādīt, ka vienādojumam
 $(a - b)^2 = a+b$ ir bezgalīgi daudz atrisinājumu naturālos skaitļos!
 
-
+<!--
+questionType=Prove.Other
+genre=integer-equation
+-->
 
 
 

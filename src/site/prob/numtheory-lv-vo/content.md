@@ -23,6 +23,7 @@ $f(2011) = 100$, bet $f(11) = 1000$?
 </small>
 
 <!--
+concepts=integer-polynomial
 questionType=ProveDisprove.Exists
 -->
 
@@ -41,6 +42,7 @@ Pierādīt, ka skaitļa $N^2$ decimālajā pierakstā nav cipara $0$.
 </small>
 
 <!--
+concepts=full-square
 questionType=Prove.ForAll
 -->
 
@@ -82,6 +84,7 @@ nav atrisinājuma naturālos skaitļos.
 </small>
 
 <!--
+genre=integer-equation
 questionType=Prove.NotExists
 -->
 
@@ -114,7 +117,7 @@ skaitļa kvadrāti.
 
 <small>
 
-* [seq.fibonacci](#)
+* [seq.others.fibonacci](#)
 * [seq.prop.periodic.finstate](#)
 * [mod.expr.square](#)
 
@@ -122,6 +125,7 @@ skaitļa kvadrāti.
 
 
 <!--
+concepts=fibonacci-sequence,full-square
 questionType=Prove.Other
 -->
 
@@ -173,6 +177,7 @@ $\frac{n^3+3}{n+3}$, gan $\frac{n^4+4}{n+4}$ ir veseli skaitļi.
 
 
 <!--
+concepts=integer-polynomials
 questionType=Find.All
 -->
 
@@ -260,6 +265,8 @@ iespējams apmaksāt izmantojot tikai šīs pastmarkas?
 </small>
 
 <!--
+genre=optimization
+concepts=linear-expression
 questionType=Find.Max
 -->
 
@@ -329,6 +336,7 @@ Pierādīt, ka arī $x^{433}y$ ir naturāla skaitļa 2016. pakāpe.
 </small>
 
 <!--
+concepts=full-powers
 questionType=Prove.ForAll
 -->
 
@@ -378,6 +386,7 @@ $$\frac{1}{n}=\frac{1}{x(x+1)}+\frac{1}{(x+1)(x+2)}+\cdots{}+\frac{1}{y(y+1)}.$$
 </small>
 
 <!--
+concepts=long-sums
 questionType=Prove.Other
 -->
 
@@ -423,6 +432,8 @@ Pierādīt, ka tā ciparus var pārkārtot citā secībā tā, lai jauniegūtais
 </small>
 
 <!--
+concepts=primes
+genre=digit-manipulation
 questionType=Prove.ForAll
 -->
 
@@ -473,6 +484,7 @@ Piemēram, skaists trijnieks ir $8$, $9$, $10$.
 </small>
 
 <!--
+concepts=sum-of-digits
 questionType=Prove.Exists,Prove.Other
 -->
 
@@ -508,6 +520,7 @@ var izteikt kā pirmskaitļa un salikta skaitļa summu!
 </small>
 
 <!--
+concepts=primes
 questionType=Prove.ForAll
 -->
 
@@ -545,6 +558,8 @@ vērtība nav naturāla skaitļa kvadrāts!
 
 
 <!--
+genre=integer-equation
+concept=full-square
 questionType=Prove.NotExists
 -->
 

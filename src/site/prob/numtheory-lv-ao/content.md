@@ -192,7 +192,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 
 * [co.games.nonconstructive](#)
 * [co.games.strategy](#)
-* [co.graph.bipartite](#)
+* [ misc.graphs.bipartite](#)
 
 </small>
 
@@ -503,8 +503,8 @@ skaitļu reizinājums?
 
 <small>
 
-* [nt.divrules2and5.zeroes](#)
-* [co.fullsearch.summation](#)
+* [notation.divrules.composite.zeroes](#)
+* [mod.expr.diff](#)
 
 </small>
 
@@ -515,7 +515,12 @@ questionType=Find.Max
 
 ## ABC
 
-**#DalīšanaArAtlikumu** **#DalījumsPirmreizinātājos** **#GadījumuPārlase** $407 = 250+125+32$, tad $p = 1000000$. $>6$ $5$-faktorus nevar.
+**#DalīšanaArAtlikumu** **#DalījumsPirmreizinātājos** **#GadījumuPārlase** 
+
+* $407 = 250+125+32$, tad $p = 1000000$. 
+* Divi saskaitāmie nevar beigties ar "5", jo atlikušajam tad jābeidzas ar "7". Tātad vismaz
+viens saskaitāmais beigsies ar nulli. 
+* Vairāk kā sešus $5$-pirmreizinātājus nevar iegūt ($125=5^3$ un $250=5^3\cdot{}2$ ir optimāli).
 
 
 
@@ -591,7 +596,7 @@ izpildās īpašības $S(n)=10$ un $S(5n)=5$.
 
 <small>
 
-* [nt.divrules2and5.plain](#)
+* [notation.divrules.2or5or10.divides](#)
 * [nt.decnotation.sumofdigits](#)
 
 </small>
@@ -704,9 +709,8 @@ Vai var būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 
 <small>
 
-* [nt.divrules2and5.zeroes](#)
-* [nt.factorization.divisibilityrules](#)
-* [al.power.identity.distribute](#)
+* [notation.divrules.composite.zeroes](#)
+* [alg.powers.prod](#)
 
 </small>
 
@@ -716,9 +720,9 @@ questionType=ProveDisprove.Exists
 
 
 
-## ABC
+## Izmantojam 10^12 dalījumu pirmreizinātājos
 
-**#PakāpjuĪpašības** **#DalījumsPirmreizinātājos** Nē. $x$ vai $y = 2^{12} = 4096$. (Vai arī sareizināsies $2$ un $5$.)
+Nē. $x$ vai $y = 2^{12} = 4096$. (Vai arī sareizināsies $2$ un $5$.)
 
 
 
@@ -1345,8 +1349,8 @@ visi naturālie skaitļi no $1$ līdz $176$) nav naturāla skaitļa kvadrāts.
 
 <small>
 
-* [nt.divrules2and5.lastdigit](#)
-* [nt.divrules3and9.plain](#)
+* [notation.divrules.pow2or5.divides](#)
+* [notation.divrules.3or9.divides](#)
 * [nt.factorization.powers](#)
 * [al.sym.progressions](#)
 
@@ -1404,7 +1408,7 @@ otru.
 <small>
 
 * [seq.geom](#)
-* [misc.pigeonhole](#)
+* [misc.extreme.pigeonhole](#)
 
 </small>
 
@@ -1675,8 +1679,8 @@ divi cipari ir $11$ un kurš dalās ar $11$?
 
 <small>
 
-* [nt.divrulesother.11](#)
-* [nt.divrules3and9.plain](#)
+* [notation.divrules.11](#)
+* [notation.divrules.3or9.divides](#)
 
 </small>
 
@@ -1686,9 +1690,10 @@ questionType=Find.Any,ProveDisprove.Exists
 -->
 
 
-## ABC
+## Dalāmība aar 9 un 11
 
-**#DalāmībaAr11** **#Decimālpieraksts** **(a)** $117$ cip.summa $9$, dalās ar $13$. $11713$ der. **(b)** $99k$ pāru/nepāru poz.cip.summa nevar būt $9$.
+**(a)** $117$ cip.summa $9$, dalās ar $13$. $11713$ der.  
+**(b)** $99k$ pāru/nepāru poz.cip.summa nevar būt $9$.
 
 
 
@@ -1702,8 +1707,8 @@ vērtība ir racionāls skaitlis!
 
 <small>
 
-* [al.identity.squareofsum](#)
-* [nt.irreducible.squareroot](#)
+* [alg.expand.binom.squares](#)
+* [misc.induction.infdescent.sqrt](#)
 
 </small>
 
@@ -1875,8 +1880,8 @@ ciparu skaits, kas var būt šajā skaitlī?
 
 <small>
 
-* [nt.divrules2and5.lastdigit](#)
-* [nt.divrules3and9.plain](#)
+* [notation.divrules.pow2or5.divides](#)
+* [notation.divrules.3or9.divides](#)
 * [nt.factorization.divisibilityrules](#)
 * [co.fullsearch.construction](#)
 
