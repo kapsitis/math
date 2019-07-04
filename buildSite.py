@@ -49,7 +49,7 @@ def main():
             copyDirectory('%s/%s' % (ROOT,dd), 'target/%s/%s' % (resType,dd))
         shutil.copy2('src/site/%s/index.html' % resType, 'target/%s/' % resType)
     copyDirectory('src/site/reveal.js', 'target/reveal.js')
-    copyDirectory('src/site/analysis', 'target/analysis')
+    copyDirectory('src/site/tasks', 'target/tasks')
     copyDirectory('src/site/downloads', 'target/downloads')
     #copyDirectory('src/site/exam', 'target/exam')
     copyDirectory('src/site/main', 'target/main')

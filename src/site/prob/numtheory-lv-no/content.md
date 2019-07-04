@@ -1883,7 +1883,7 @@ jebkādā secībā?
 
 </small>
 
-## Koka apstaigāšana, meklējot virsotni
+## Koka apstaigāšana, lai meklētu
  
 $9 \rightarrow 63 \rightarrow 441 \rightarrow 41 \rightarrow 287 \rightarrow 27$. 
 
