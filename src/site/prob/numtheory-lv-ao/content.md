@@ -68,10 +68,10 @@ var tā sadalīt pa pāriem, lai visas pāros ieejošo skaitļu summas būtu da�
 
 <small>
 
-* [nt.primes.small](#)
+* [div.pfactor.small](#)
 * [nt.primes.distances](#)
 * [co.pigeonhole.meanvalue](#)
-* [co.fullsearch.construction](#)
+* [misc.exhaustive](#)
 
 </small>
 
@@ -124,16 +124,15 @@ questionType=ProveDisprove.Exists
 # <lo-sample/> LV.AO.2001.7.2
 
 Naturālu skaitli sauc par simetrisku, ja tā pēdējais cipars nav $0$ un, uzrakstot tā ciparus apgrieztā secībā, 
-skaitlis nemainās. Piemēram, $1221$ ir simetrisks skaitlis, bet $1231$ - nav.
-
-1. pierādiet: ja simetrisks sešciparu skaitlis dalās ar $13$, tad tas dalās arī ar $7$,
-2. vai taisnība, ka katrs simetrisks sešciparu skaitlis, kas dalās ar $7$, dalās arī ar $13$?
+skaitlis nemainās. Piemēram, $1221$ ir simetrisks skaitlis, bet $1231$ - nav.  
+(a) pierādiet: ja simetrisks sešciparu skaitlis dalās ar $13$, tad tas dalās arī ar $7$,  
+(b) vai taisnība, ka katrs simetrisks sešciparu skaitlis, kas dalās ar $7$, dalās arī ar $13$?
 
 <small>
 
-* [nt.factorization.divisibilityrules](#)
-* [al.decnotation.expressions](#)
-* [al.equation.substitute](#)
+* [notation.divrules.1001](#)
+* [notation.dec.combine.poly](#)
+* [mod.rem.expr](#)
 
 </small>
 
@@ -142,10 +141,19 @@ questionType=Prove.ForAll,ProveDisprove.ForAll
 -->
 
 
-## ABC
+## Ciparu algebra
 
-**#DalāmībasPazīmeCita** $13$ (un $1001$) dala $\overline{abcabc}$ kā arī $\overline{abccba}$, t.i. $13 \mid 99|a-c|$ un $a=c$. (b) $108801$.
-**#AlgebrisksPārveidojums** $100001a + 10010b + 1100c = 13\cdot (\ldots ) + 5(a-c)$. Tad $a-c$ dalās ar $13$ un $a=c$; aizstāj $c$ un dala ar $7$.
+(a) $13$ dala $\overline{abcabc}=1001\cdot{}\overline{abc}$ un 
+arī $\overline{abccba}$ (tas ir dots), 
+atņemot abus skaitļus, iegūstam $13 \mid 99|a-c|$ un $a=c$.   
+(b) $108801$ ir pretpiemērs.
+
+
+## Cits risinājums
+
+(a) $\overline{abccba}$ izsaka 
+$100001a + 10010b + 1100c = 13\cdot (\ldots ) + 5(a-c)$. 
+Tad $a-c$ dalās ar $13$ un $a=c$; aizstāj $c$ un dala ar $7$.
 
 
 
@@ -339,7 +347,7 @@ Vai tas var būt $0$, ja **(a)** $n=8$, **(b)** $n=9$?
 
 * [nt.parity.invariant](#)
 * [al.sym.progressions](#)
-* [co.fullsearch.construction](#)
+* [misc.exhaustive](#)
 
 </small>
 
@@ -367,7 +375,7 @@ saskaitāmo lielākais kopīgais dalītājs būtu $1$?
 <small>
 
 * [al.inequality.extremalelement](#)
-* [nt.primes.small](#)
+* [div.pfactor.small](#)
 
 </small>
 
@@ -396,7 +404,7 @@ Vai tas iespējams, ja **(a)** $n=3$, **(b)** $n=4$, **(c)** $n=2003$?
 
 * [al.sym.grouping](#)
 * [al.manipulate.smallexpr](#)
-* [co.fullsearch.construction](#)
+* [misc.exhaustive](#)
 
 </small>
 
@@ -624,7 +632,7 @@ kādā virzienā, veidotu pirmskaitļa pierakstu?
 <small>
 
 * [co.graph.path](#)
-* [nt.primes.small](#)
+* [div.pfactor.small](#)
 
 </small>
 
@@ -683,8 +691,8 @@ Kādu skaitli viņa iedomājās sākumā?
 
 <small>
 
-* [nt.factorization.plain](#)
-* [al.inequality.finitesearch](#)
+* [div.pfactor](#)
+* [alg.ineq.equations](#)
 
 </small>
 
@@ -767,9 +775,9 @@ visas ir dažādas. Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 <small>
 
 * [nt.parity.operations](#)
-* [nt.primes.small](#)
+* [div.pfactor.small](#)
 * [al.sym.progressions](#)
-* [co.fullsearch.construction](#)
+* [misc.exhaustive](#)
 
 </small>
 
@@ -832,8 +840,8 @@ gados.)
 
 <small>
 
-* [nt.factorization.plain](#)
-* [co.fullsearch.construction](#)
+* [div.pfactor](#)
+* [misc.exhaustive](#)
 
 </small>
 
@@ -867,9 +875,9 @@ Atrodi visus šos skaitļus!
 
 <small>
 
-* [nt.primes.small](#)
+* [div.pfactor.small](#)
 * [nt.primes.distances](#)
-* [nt.factorization.plain](#)
+* [div.pfactor](#)
 
 </small>
 
@@ -984,8 +992,8 @@ deviņiem skaitļiem vismaz astoņi būs savā starpā atšķirīgi!
 
 <small>
 
-* [al.manipulate.smallexpr](#)
-* [al.equation.expressvariable](#)
+* [alg.equation.prop](#)
+* [misc.exhaustive](#)
 
 </small>
 
@@ -995,9 +1003,9 @@ questionType=Prove.ForAll
 
 
 
-## ABC
+## Algebriski iztulkots vārds "secīgi"
 
-**#AlgebrisksPārveidojums** **#GadījumuPārlase** Ja iedomāti $(a-1,a,a+1)$ un $(b-1,b,b+1)$ tad 2 vienādi reizinājumi, ja $b \pm 1 = 2a$ vai $a \pm 1 = 2b$.
+Ja iedomāti $(a-1,a,a+1)$ un $(b-1,b,b+1)$ tad 2 vienādi reizinājumi, ja $b \pm 1 = 2a$ vai $a \pm 1 = 2b$.
 
 
 
@@ -1042,7 +1050,7 @@ Atrodi visus šos skaitļus!
 
 <small>
 
-* [nt.primes.small](#)
+* [div.pfactor.small](#)
 * [nt.primes.distances](#)
 
 </small>
@@ -1122,7 +1130,7 @@ noteikti dalās ar **(a)** $17$; **(b)** $23$?
 <small>
 
 * [nt.decnotation.expressions](#)
-* [nt.factorization.plain](#)
+* [div.pfactor](#)
 
 </small>
 
@@ -1153,7 +1161,7 @@ jārīkojas!
 
 <small>
 
-* [co.games.invariant](#)
+* [misc.invariant.game](#)
 
 </small>
 
@@ -1234,7 +1242,7 @@ visi skolēni, bija $20$. Cik skolēnu piedalījās olimpiādē?
 <small>
 
 * [al.equation.mean](#)
-* [al.inequality.finitesearch](#)
+* [alg.ineq.equations](#)
 
 </small>
 
@@ -1321,8 +1329,9 @@ dalot šo skaitli ar tā ciparu reizinājumu, dalījums ir vismaz $\frac{11}{9}$
 
 <small>
 
-* [al.inequality.monotonicity](#)
-* [nt.decnotation.expressions](#)
+* [alg.ineq.monotonicity](#)
+* [notation.dec.combine.poly](#)
+* [misc.extreme.param](#)
 
 </small>
 
@@ -1334,7 +1343,7 @@ questionType=Prove.ForAll
 
 ## ABC
 
-**#Decimālpieraksts** **#EkstrēmaisElements** **#Nevienādība** $\frac{10a+b}{ab}=\frac{10}{b}+\frac{1}{a}$ ir vismazākā, ja $a=b=9$.
+$\frac{10a+b}{ab}=\frac{10}{b}+\frac{1}{a}$ ir vismazākā, ja $a=b=9$.
 
 
 
@@ -1380,8 +1389,8 @@ nosvītrojot to pirmo ciparu, samazinās $36$ reizes.
 
 <small>
 
-* [nt.decnotation.expressions](#)
-* [al.equation.expressvariable](#)
+* [alg.equation](#)
+* [notation.dec.combine.poly.pieces](#)
 
 </small>
 
@@ -1391,9 +1400,10 @@ questionType=Find.All
 -->
 
 
-## ABC
+## Pirmā cipara nodalīšana no pārējā gabala
 
-**#Vienādojums** **#Decimālpieraksts** $a$ - 1.cipars; $a \cdot 10^k + b = 36b$; $a \cdot 10^k = 35b$. Tad $a = 7$, $b=2\cdot 10^{k-1}$. 
+$a$ - 1.cipars; $a \cdot 10^k + b = 36b$; $a \cdot 10^k = 35b$. 
+Tad $a = 7$, $b=2\cdot 10^{k-1}$. 
 
 
 
@@ -1480,20 +1490,20 @@ jautājuma zīmi? Atrodiet visas iespējamās vērtības un pamatojiet, ka citu 
 
 <small>
 
-* [co.tables.magicsquare](#)
-* [al.equation.expressvariable](#)
+* [alg.equation.selectvar](#)
 
 </small>
 
 
 <!--
 questionType=Find.All
+genre=magic-configuration
 -->
 
 
 ## ABC
 
-**#AlgebrisksPārveidojums** **#MaģiskaisKvadrāts** Ja $a_{22}=x$, tad summas ir $3x$. Un $a_{13}=2x-13$, $a_{11}=x-11$, $a_{33}=x+11$, $a_{23}=2$.
+Ja $a_{22}=x$, tad summas ir $3x$. Un $a_{13}=2x-13$, $a_{11}=x-11$, $a_{33}=x+11$, $a_{23}=2$.
 
 
 
@@ -1516,6 +1526,8 @@ Kurš skaitlis lielāks – sākotnējais vai iegūtais?
 
 <!--
 questionType=Find.Only
+concepts=decimal-fractions
+genre=digit-manipulation
 -->
 
 
@@ -1530,14 +1542,15 @@ questionType=Find.Only
 
 # <lo-sample/> LV.AO.2014.8.2
 
-Atrast visus naturālos skaitļus, kas nepārsniedz $1000000$ un kuri, nosvītrojot to pirmo
+Atrast visus naturālos skaitļus, kas nepārsniedz 
+$1000000$ un kuri, nosvītrojot to pirmo
 ciparu, samazinās $15$ reizes!
 
 
 <small>
 
-* [nt.decnotation.expressions](#)
-* [al.equation.expressvariable](#)
+* [alg.equation](#)
+* [notation.dec.combine.poly.pieces](#)
 
 </small>
 
@@ -1547,9 +1560,10 @@ questionType=Find.All
 
 
 
-## ABC
+## Pirmais cipars un viss pārējais
 
-**#Vienādojums** **#Decimālpieraksts** $a$ - 1.cipars; $a \cdot 10^k + b = 15b$; $a \cdot 10^k = 14b$. Tad $a = 7$, $b=5\cdot 10^{k-1}$. 
+$a$ - 1.cipars; $a \cdot 10^k + b = 15b$; $a \cdot 10^k = 14b$. 
+Tad $a = 7$, $b=5\cdot 10^{k-1}$. 
 
 
 
@@ -1562,7 +1576,7 @@ katrā kolonnā un katrā diagonālē ierakstīto skaitļu summas būtu vienāda
 vidējā rūtiņā ierakstīts skaitlis $24$ (skat.\ zīm.). Vai rūtiņā, kas apzīmēta ar jautājuma
 zīmi, var būt ierakstīts skaitlis **(a)** $7$,  **(b)** $17$?
 
-![magicsquare](LV.AO.2014.8.5.png}
+![magicsquare](LV.AO.2014.8.5.png)
 
 
 <small>
@@ -1734,8 +1748,8 @@ naturāla skaitļa kvadrāta un pirmskaitļa summu.
 
 <small>
 
-* [al.identity.sqdiff](#)
-* [nt.primes.small](#)
+* [alg.factorize.sqdiff](#)
+* [div.pfactor.small](#)
 
 </small>
 
@@ -1796,7 +1810,7 @@ skaitu centu). Cik samaksāja Brālītis?
 
 * [al.equation.expressvariable](#)
 * [nt.divisibility.equation](#)
-* [al.inequality.finitesearch](#)
+* [alg.ineq.equations](#)
 
 </small>
 
@@ -1825,7 +1839,7 @@ $$\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13} - 128}$$
 <small>
 
 * [al.manipulate.smallexpr](#)
-* [al.identity.sqdiff](#)
+* [alg.factorize.sqdiff](#)
 
 </small>
 
@@ -1883,7 +1897,7 @@ ciparu skaits, kas var būt šajā skaitlī?
 * [notation.divrules.pow2or5.divides](#)
 * [notation.divrules.3or9.divides](#)
 * [nt.factorization.divisibilityrules](#)
-* [co.fullsearch.construction](#)
+* [misc.exhaustive](#)
 
 </small>
 

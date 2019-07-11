@@ -150,6 +150,10 @@ $p^2+1$ dalijasi iš $q$, o $q^2-1$ dalijasi
 iš $p$. Įrodykite, kad $p+q+1$ – sudėtinis skaičius.
 -->
 
+<!--
+concepts=primes,composite-numbers,divisibility
+-->
+
 # <lo-sample/> LT.VILNIUS.2011.11_12.4
 
 Atrodiet visus veselos skaitļus $x$, 
@@ -392,6 +396,10 @@ yra natūralieji skaičiai. Įrodykite, kad trikampio
 kuriems reiškiniai apibrėžti.)
 -->
 
+<!--
+concepts=real-numbers
+-->
+
 
 # <lo-sample/> LT.RAJ.2014.9_10.4
 
@@ -455,6 +463,10 @@ ir $\frac{1}{x}-\sqrt{35}$ yra sveikieji.
 *Pastaba.* Galima naudotis faktu, kad jei natūralusis 
 skaičius $a$ nėra tikslusis kvadratas, tai $\sqrt{a}$ 
 yra iracionalusis skaičius.
+-->
+
+<!--
+concepts=real-numbers,irrational-numbers
 -->
 
 

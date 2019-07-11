@@ -6,6 +6,7 @@
 .pydevproject
 **/__pycache__
 *.aux
+*.bak
 *.bbl
 *.blg
 *.dvi

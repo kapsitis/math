@@ -331,7 +331,7 @@ no kuriem katriem diviem lielākais kopīgais dalītājs ir $1$?
 
 * [nt.gcd.fixeddiff](#)
 * [co.pigeonhole.statement](#)
-* [co.fullsearch.construction](#)
+* [misc.exhaustive](#)
 
 </small>
 
@@ -362,7 +362,7 @@ Pamatojiet savu risinājumu.
 
 
 <!--
-concepts=primes
+concepts=primes,composite-numbers
 genre=digit-manipulation
 questionType=Find.Max
 -->
@@ -440,6 +440,10 @@ $$+ \sqrt{1 + \frac{1}{3^2} + \frac{1}{4^2}}
 + \cdots + \sqrt{1 + \frac{1}{9^2} + \frac{1}{10^2}}$$
 vērtību kā galīgu decimāldaļskaitli. 
 
+<!--
+concepts=square-root,decimal-fractions
+questionType=Find.Only
+-->
 
 
 # <lo-sample/> LV.NO.2001.11.3 
@@ -493,7 +497,7 @@ Kāds lielākais dažādu pirmskaitļu daudzums var vienlaikus atrasties uz tāf
 
 <small>
 
-* [nt.primes.small](#)
+* [div.pfactor.small](#)
 * [nt.parity.invariant](#)
 
 </small>
@@ -654,7 +658,7 @@ katru divu atlikušo summa būtu salikts skaitlis?
 
 <!--
 questionType=Find.Min
-concepts=primes
+concepts=primes,composite-numbers
 -->
 
 
@@ -671,7 +675,7 @@ vienas grupas visu skaitļu reizinājums vienāds ar otras grupas visu skaitļu 
 
 <small>
 
-* [nt.factorization.plain](#)
+* [div.pfactor](#)
 
 </small>
 
@@ -803,7 +807,7 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 <small>
 
 * [misc.graphs.bipartite](#)
-* [nt.primes.small](#)
+* [div.pfactor.small](#)
 * [nt.parity.invariant](#)
 
 </small>
@@ -827,7 +831,7 @@ vienas grupas visu skaitļu reizinājums vienāds ar otras grupas visu skaitļu 
 
 <small>
 
-* [nt.factorization.plain](#)
+* [div.pfactor](#)
 
 </small>
 
@@ -1263,7 +1267,7 @@ kur $x = a^5$, $y = b^3$, $a$ un $b$ \textendash{} naturāli skaitļi?
 <small>
 
 * [nt.gcd.bezout](#)
-* [nt.factorization.plain](#)
+* [div.pfactor](#)
 * [al.power.identity.add](#)
 
 </small>
@@ -1359,7 +1363,7 @@ $y = b^4$, $a$ un $b$ \textendash{} naturāli skaitļi?
 <small>
 
 * [nt.gcd.bezout](#)
-* [nt.factorization.plain](#)
+* [div.pfactor](#)
 * [al.power.identity.add](#)
 
 </small>
@@ -1383,7 +1387,7 @@ Pierādīt, ka cīkstoņu skaits dalās ar $17$.
 <small>
 
 * [al.equation.mean](#)
-* [al.inequality.finitesearch](#)
+* [alg.ineq.equations](#)
 * [nt.divisibility.multiples](#)
 
 </small>
@@ -1466,7 +1470,7 @@ kur $x = a^3$, $y = b^5$, $a$ un $b$ \textendash{} naturāli skaitļi?
 <small>
 
 * [nt.gcd.bezout](#)
-* [nt.factorization.plain](#)
+* [div.pfactor](#)
 * [al.power.identity.add](#)
 
 </small>
@@ -1626,9 +1630,9 @@ sadalot pirmskaitļu reizinājumā, iegūst vairāk **dažādu** pirmskaitļu? P
 
 <small>
 
-* [al.identity.sqdiff](#)
-* [nt.primes.small](#)
-* [al.manipulate.dottedexpr](#)
+* [alg.factorize.sqdiff](#)
+* [div.pfactor.small](#)
+* [alg.longprod](#)
 
 </small>
 
@@ -2039,13 +2043,13 @@ Kādiem pirmskaitļiem $p$ skaitlim $p^2 + 23$ ir tieši četri naturāli dalīt
 
 Naturālie skaitļi no $1$ līdz $18$ sadalīti pa pāriem tā, ka katrā pārī 
 esošo skaitļu summa ir naturāla skaitļa kvadrāts. 
-Ar ko pārī apvienots skaitlis $1$?\\
-*Par skaitļa kvadrātu sauc skaitļa reizinājumu pašam ar sevi.*
+Ar ko pārī apvienots skaitlis $1$?  
+*Piezīme.* Par skaitļa kvadrātu sauc skaitļa reizinājumu pašam ar sevi.
 
 
 <small>
 
-* [al.inequality.finitesearch](#)
+* [alg.ineq.equations](#)
 * [misc.graphs.bipartite](#)
 
 </small>
@@ -2098,7 +2102,7 @@ no reizinātājiem ir lielāks nekā $1$.
 
 <small>
 
-* [al.identity.sqdiff](#)
+* [alg.factorize.sqdiff](#)
 
 </small>
 
@@ -2341,8 +2345,8 @@ Vai iespējams, ka visas iegūtās summas ir pirmskaitļi?
 
 * [co.tables.chess](#)
 * [nt.parity.operations](#)
-* [nt.primes.small](#)
-* [co.fullsearch.construction](#)
+* [div.pfactor.small](#)
+* [misc.exhaustive](#)
 
 </small>
 
@@ -3034,7 +3038,7 @@ $20m + 18n = 2018$.
 <small>
 
 * [notation.divrules.2or5or10.divides](#)
-* [div.primes.factorize.small](#)
+* [div.pfactor.algorithm](#)
 
 </small>
 

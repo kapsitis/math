@@ -469,7 +469,7 @@
         theLogo.setAttribute("style","border:0;");
 
 	var theLink = document.createElement("a");
-        theLink.setAttribute("href","../index.html");
+        theLink.setAttribute("href","../../prob/index.html");
         theLink.setAttribute("class","image");
         theLink.appendChild(theLogo);
 

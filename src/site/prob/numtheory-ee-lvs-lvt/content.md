@@ -1285,7 +1285,7 @@ $n+31$, $n+33$, $n+37$ и $n+39$ − простые числа. Найти ос�
 -->
 
 <!--
-concepts=primes
+concepts=primes,remainder
 questionType=Find.Only
 -->
 
@@ -2089,7 +2089,7 @@ $$\frac{5a^4 + a^2}{b^4 + 3b^2 + 4}$$
 
 
 <!--
-concepts=primes
+concepts=primes,composite-numbers
 questionType=Prove.ForAll
 -->
 

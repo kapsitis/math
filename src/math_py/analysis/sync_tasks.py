@@ -127,12 +127,12 @@ def make_lst(tasks):
     nrow = 0
     for row in tasks:
         if nrow > 0:
-            id = row[5].strip()
+            task_id = row[5].strip()
             levels = get_label_seq([row[0],row[1],row[2],row[3],row[4]])
             desc = row[6]
             task_lst.append({
                 'levels':levels, 
-                'id':id, 
+                'id':task_id,
                 'desc':desc, 
                 'esc_desc':escape_math_seq(desc)
             })
@@ -188,27 +188,6 @@ def main():
             out.write('<tr class="%s"><td><code>%s</code> %s</td><td>%s</td><td>%s</td></tr>\n' % 
                       (rowclass, levels, skill_id, descr, backLinks))        
         
-#         for row in tasks:
-#             skill_id = row[5].strip()
-#             skill_lst.append(skill_id)
-#             backLinks = 'N/A'
-#             if skill_id in the_dict:                
-#                 pairs = the_dict[skill_id]
-#                 links = list()
-#                 for pair in pairs:
-#                     prob_file = pair[0]
-#                     upper_id = pair[1]
-#                     lower_id = pair[1].lower()
-#                     links.append('<a href="../prob/%s/content.html#/%s">%s</a>' % (prob_file,lower_id,upper_id))
-#                 backLinks = ', '.join(links)
-#             rowclass = 'odd'
-#             if nrow % 2 == 0:
-#                 rowclass = 'even' 
-#             if nrow > 0:
-#                 labels = get_label_seq([row[0],row[1],row[2],row[3],row[4]])
-#                 my_esc = escape_math_seq(row[6])
-#                 out.write('<tr class="%s"><td><code>%s</code> %s</td><td>%s</td><td>%s</td></tr>\n' % (rowclass, labels, skill_id, my_esc, backLinks))
-#             nrow = nrow + 1
         out.write('</tbody></table>')
         print('Number of backlinks: %s' % len(the_dict.keys()))
         print('Number of legit skills: %s' % len(set(skill_lst)))

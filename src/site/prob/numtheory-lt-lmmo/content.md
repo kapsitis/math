@@ -55,6 +55,12 @@ liekanų skaičių pažymėkime $d$.
 (b) Įrodykite, kad $d$ negali būti lygus $2$.
 -->
 
+<!--
+questionType=Prove.ForAll
+concepts=remainder
+-->
+
+
 
 # <lo-sample/> LT.LMMO.2011.9_10.3
 

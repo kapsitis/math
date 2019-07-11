@@ -3,6 +3,17 @@ import shutil
 import subprocess
 
 
+#import sys, os
+#sys.path.append(os.path.join(os.path.dirname(__file__), 'src', 'math_py', 'analysis'))
+#import sync_tasks
+
+
+import sys
+sys.path.insert(0, 'src/math_py')
+from json_data import sync_all
+
+
+
 def copyDirectory(src, dest):
     try:
         shutil.copytree(src, dest)
@@ -28,11 +39,20 @@ def rmDirectory(src):
 def main(): 
     rmDirectory('target')
 
+    sync_all.main()
+
     ## Which directories contain reveal.js slides
     resTypes = ['prob', 'exam', 'tale', 'miscellaneous']
+    outDirectories = {
+        'prob':'files-prob',
+        'exam':'files-exam',
+        'tale':'files-tale',
+        'miscellaneous':'files-misc'
+    }
 
     for resType in resTypes:
         ROOT = 'src/site/%s' % resType
+       	OUT_ROOT = '../../workspace-new/linen-tracer-682/'
         themePath = '%s/themes/ddgatve' % ROOT
         subDirectories = set(next(os.walk(ROOT))[1]).difference(set(['themes']))
         for dd in subDirectories:
@@ -48,6 +68,10 @@ def main():
 		'-V','theme=white'], cwd=workingDir)
             copyDirectory('%s/%s' % (ROOT,dd), 'target/%s/%s' % (resType,dd))
         shutil.copy2('src/site/%s/index.html' % resType, 'target/%s/' % resType)
+    for resType in resTypes:
+        rmDirectory('%s/%s' % (OUT_ROOT,outDirectories[resType]))
+        copyDirectory('target/%s' % resType, '%s/%s' % (OUT_ROOT,outDirectories[resType]))
+
     copyDirectory('src/site/reveal.js', 'target/reveal.js')
     copyDirectory('src/site/tasks', 'target/tasks')
     copyDirectory('src/site/downloads', 'target/downloads')
