@@ -758,11 +758,10 @@ ciparu 1, arī rodas kāda vesela skaitļa kvadrāts.
 
 <small>
 
-* [misc.beginatend](#)
-* [misc.experiment](#)
+* [misc.try](#)
 * [notation.algor.square5](#)
 * [notation.dec.numdigits.square](#)
-* [alg.factorize.sqdiff](#)
+* [alg.tra.factor.sqdiff](#)
 
 </small>
 
@@ -777,6 +776,7 @@ ru=
 genre=digit-manipulation
 concepts=full-square
 questionType=Prove.ForAll
+strategy=begin-at-the-end
 -->
 
 
@@ -859,8 +859,8 @@ savā starpā vienādi?
 
 <small>
 
-* [mod.rem.expr](#)
-* [mod.rem.values](#)
+* [mod.congr](#)
+* [mod.congr.classes](#)
 
 </small>
 
@@ -933,7 +933,7 @@ kuri apmierina vienādojumu $(a + b)(b + c)(c + a) = 123456789$?
 <small>
 
 * [notation.divrules.2or5or10.divides](#)
-* [mod.parity.cases](#)
+* [mod.fix.parity](#)
 
 </small>
 
@@ -999,9 +999,9 @@ dalās ar $10$.
 
 <small>
 
-* [mod.expr.square](#)
-* [misc.exhaustive](#)
-* [misc.extreme.pigeonhole](#)
+* [mod.congr.pow](#)
+* [comb.full](#)
+* [misc.extr.pigeon](#)
 
 </small>
 
@@ -1087,7 +1087,7 @@ Atrast visas iespējamās $n$ vērtības.
 
 * [div.common.lcm](#)
 * [div.common.lcm.mult](#)
-* [misc.exhaustive](#)
+* [comb.full](#)
 
 </small>
 
@@ -1135,16 +1135,16 @@ questionType=Find.All
 
 # <lo-sample/> EE.PK.2015.10.3
 
-(а) Zināms, ka $x^2 − y^2 = 100$, kur $x$ и $y$ ir naturāli skaitļi. Atrast izteiksmes 
+(а) Zināms, ka $x^2 − y^2 = 100$, kur $x$ un $y$ ir naturāli skaitļi. Atrast izteiksmes 
 $x − y$ mazāko iespējamo vērtību.  
 (b) Tas pats jautājums, ja $x$ un $y$ ir veseli skaitļi.
 
 <small>
 
-* [alg.factorize.sqdiff](#)
-* [mod.parity.cases](#)
-* [misc.exhaustive](#)
-* [alg.linear](#)
+* [alg.tra.factor.sqdiff](#)
+* [mod.fix.parity](#)
+* [comb.full](#)
+* [alg.linear.equations](#)
 
 </small>
 
@@ -1183,8 +1183,8 @@ veselo skaitļu no $1$ līdz $n$ ciparu summa ir pāru skaitlis?
 <small>
 
 * [seq.define](#)
-* [misc.experiment](#)
-* [misc.induction](#)
+* [misc.try](#)
+* [misc.ind](#)
 
 </small>
 
@@ -1282,7 +1282,7 @@ b) $n = 3$?
 
 <small>
 
-* [div.alg](#)
+* [alg.expr.prop](#)
 * [div.common.lcm.frac](#)
 
 </small>
@@ -1335,7 +1335,8 @@ atrisinājums, kuram $x$, $y$, $z$ un $w$ ir dažādi veseli skaitļi?
 
 <small>
 
-* [alg.ineq.fullsquare](#)
+* [alg.tra.binom.complsquare](#)
+* [alg.ineq.square](#)
 * [alg.ineq.equations](#)
 
 </small>
@@ -1414,10 +1415,10 @@ $324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
 
 <small>
 
-* [div.pfactor.algorithm](#)
-* [alg.powers.prod](#)
-* [div.pfactor.expsystem](#)
-* [alg.linear](#)
+* [div.fta.proc](#)
+* [alg.tra.pow.prod](#)
+* [div.fta.pow.expsystem](#)
+* [alg.linear.equations](#)
 
 </small>
 
@@ -1482,8 +1483,8 @@ $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d
 
 <small>
 
-* [misc.symmetry](#)
-* [misc.experiment](#)
+* [misc.symm](#)
+* [misc.try](#)
 * [seq.arithm.expr](#)
 * [alg.poly.homo](#)
 
@@ -1550,9 +1551,9 @@ Atrast visas iespējamās vērtības Mari iedomātajam skaitlim.
 
 <small>
 
-* [alg.equation](#)
+* [alg.expr](#)
 * [notation.dec.combine.poly](#)
-* [misc.exhaustive](#)
+* [comb.full](#)
 
 </small>
 
@@ -1661,9 +1662,9 @@ kas apmierina vienādību $22a + 15b = 2019$?
 
 <small>
 
-* [misc.extreme.param](#)
-* [mod.expr.sum](#)
-* [misc.experiment](#)
+* [misc.extr.param](#)
+* [mod.congr.sumdiff](#)
+* [misc.try](#)
 * [seq.arithm.mod.gaps](#)
 
 </small>
