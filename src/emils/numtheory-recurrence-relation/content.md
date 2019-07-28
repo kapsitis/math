@@ -279,8 +279,8 @@ skaitļi, kas dalās ar $k$.
 
 ## Ieteikumi
 
-Vai vari atrast vismaz vienu locekli, kas vienmēr dalīsies ar $k$? (Šeit noder
-tā definīcija, kas izmantota šajā materiālā)
+* Vai vari atrast vismaz vienu locekli, kas vienmēr dalīsies ar $k$? (Šeit noder
+Fibonāci virknes definīcija, kas izmantota šajā materiālā)
 
 
 # <lo-quiz/> Jautājums Nr.4
@@ -290,8 +290,9 @@ Atrast izteiksmi vispārīgajam loceklim, kura apmierina rekurences sakarību $u
 
 ## Ieteikumi
 
-Vispirms jāsastāda raksturīgais vienādojums. No iegūtajām saknēm var sastādīt
-vispārīgo izteiksmi. Lai noteiktu brīvos locekļus, jāizmanto sākuma nosacījumi.
+* Vispirms jāsastāda raksturīgais vienādojums.
+* No iegūtajām saknēm var sastādīt vispārīgo izteiksmi.
+* Lai noteiktu brīvos locekļus, jāizmanto sākuma nosacījumi.
 
 # <lo-quiz/> Jautājums Nr.5 
 
@@ -398,7 +399,8 @@ dalās ar $2^n$.
 
 ## Ieteikumi
 
-* Neskatoties uz griestu funkciju, izteiksme izskatās līdzīga. Ko var
+* Neskatoties uz griestu funkciju, izteiksme izskatās līdzīga kaut kam, ar ko
+ esam strādājuši iepriekš. Ko var
 pieskaitīt, lai iegūtu vienmēr veselu skaitli?
 
 * No šī varam izveidot rekurences sakarību?
