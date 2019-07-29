@@ -3,10 +3,6 @@ https://www.hackmath.net/en/problem/7137?tag_id=149,161
 
 
 
-5. [Help Post](https://artofproblemsolving.com/community/c6t487922f6h1782126_help_post)  
-Dots naturāls skaitlis $a$. Vai vienmēr ir spēkā sakarība: 
-$\mbox{LKD}(a^{m}-1,a^{n} -1) = a^{\mbox{LKD}(m,n)} - 1$?
-
 
 
 
@@ -55,5 +51,72 @@ jo $a_{k+2} = a_{k} + a_{k+1}$ un skaitļiem $(a_{k+1}, a_{k}+a_{k+1})$
 lietojam Eiklīda algoritmu - atņemam mazāko no lielākā:
 
 $$\mbox{LKD}(a_{k+1},a_{k+2}) = \mbox{LKD}(a_k,a_{k+1})=1.$$
+
+
+
+
+
+
+
+
+
+
+
+
+## <lo-sample/> LT.LKMMO.2009.15
+
+Pierādiet vai atspēkojiet, ka skaitlis 
+${\underbrace{99\ldots9}_{2005}}^{2009}$
+var tikt iegūts, izsvītrojot kaut kādus skaitļa
+${\underbrace{99\ldots9}_{2008}}^{2009}$
+ciparus.
+
+LKMMO - *Lietuvos komandinė mokinių matematikos olimpiada prof. Jono Kubiliaus taurei laimėti* 
+(Lietuvas komandveida skolēnu matemātikas olimpiāde, lai laimētu profesora 
+Jona Kubiļa kausu). 
+
+
+
+## <lo-yellow/> Gliemežu uzdevums - 1
+
+
+Kvadrāta malas garums ir $1$. Tā virsotnēs novietoti $4$ gliemeži. 
+Tie vienlaicīgi sāk pārvietoties ar vienādiem ātrumiem $v$; katrs gliemezis ikbrīdi 
+kustas turp, kur ir tā tuvākais kaimiņš (pret pulksteņa rādītāju virzienam attiecībā 
+pret kvadrāta centru). 
+
+* Pēc cik ilga laika gliemeži satiksies? 
+* Cik reizes viņi apriņķo ap kvadrāta centru? 
+
+**Līdzīgs uzdevums:** Pa kādu trajektoriju kustas ceļotājs, kurš visu laiku pārvietojas
+uz ziemeļaustrumiem?
+
+
+## <lo-yellow/> Gliemežu uzdevums - 2
+
+* Minētais ir fizikas (kinemātikas) uzdevums, kur var izmantot
+atskaites sistēmu - Dekarta koordinātes, kas griežas līdzi gliemežiem. 
+* Katra gliemeža ātrumu veido divas komponentes - viena no tām projicēta
+uz $4$ gliemežu veidotā kvadrāta centru, otra - rotē pa kvadrātam apvilktā riņķa pieskari. 
+* Ātrums centra virzienā ir $v/\sqrt{2}$, bet attālums šajā pašā virzienā ir puse
+no kvadrāta diagonāles, t.i. $1/\sqrt{2}$. 
+
+
+
+
+
+
+
+# <lo-sample/> LV.VO.2003.10.2
+
+Dots, ka $a$ un $b$ ir naturāli skaitļi, pie tam $a$ nedalās ar $5$. 
+Skaitļu virkni $x_1, x_2, x_3, \ldots$ 
+veido sekojoši: $x_1 = 5$, $x_{n+1} = ax_n + b$, ja $n=1;2;3;\ldots$. 
+Kādai lielākajai $k$ vērtībai iespējams, ka visi skaitļi
+$x_1;x_2;x_3;\ldots;x_k$ ir pirmskaitļi?
+
+
+
+
 
 
