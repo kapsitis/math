@@ -7,12 +7,12 @@ import requests
 
 
 def get_backlinks():    
-    prob_dir_lst = ['numtheory-ee-pk' ,'numtheory-ee-lo', 'numtheory-ee-lvs-lvt', 
-                'numtheory-lv-no', 'numtheory-lv-vo', 'numtheory-lv-ao', 
+    prob_dir_lst = ['numtheory-ee-pk' ,'numtheory-ee-lo', 'numtheory-ee-lvs', 'numtheory-ee-lvt', 'numtheory-ee-tst',
+                'numtheory-lv-no', 'numtheory-lv-vo', 'numtheory-lv-ao', 'numtheory-lv-tst', 'numtheory-lv-other',
                 'numtheory-lt-lkmmo', 'numtheory-lt-ldk',
-                'numtheory-lt-raj',  'numtheory-lt-lmmo', 'numtheory-lt-vumif',
-                'numtheory-bbk-p1'
-                ]
+                'numtheory-lt-raj', 'numtheory-lt-vilnius', 'numtheory-lt-lmmo', 'numtheory-lt-vumif', 'numtheory-lt-tst'
+                'numtheory-bbk-p1','numtheory-bbk-p2','numtheory-bbk-p3','numtheory-bbk-p4',
+                'numtheory-bbk-p5','numtheory-bbk-p6','numtheory-bbk-p7','numtheory-bbk-p8','numtheory-bbk-p9']
     result = {}
     
     cur_skill = ''
@@ -54,6 +54,19 @@ def get_task_table():
     csv_out.close()
     return tasks;
 
+
+def get_task_table_local():
+    task_lines = list()
+    with open('src/site/tasks/task-analysis.csv') as csv_in:
+        for csv_line in csv_in:
+            task_lines.append(csv_line)
+        #csv_lines = csv_in.splitlines()
+    tasks = csv.reader(task_lines)
+    return tasks
+
+
+
+
 def make_lst(tasks):
     task_lst = list()
     nrow = 0
@@ -79,10 +92,9 @@ def main():
     if the_dir.endswith('/src/math_py/json_data'):
         os.chdir("../../..")
         print('Changed working directory to "%s"' % os.getcwd())
-
     
-    
-    the_table = get_task_table()
+    ##the_table = get_task_table()
+    the_table = get_task_table_local()
     task_lst = make_lst(the_table)
     
     

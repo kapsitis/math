@@ -6,10 +6,11 @@ questionTypes = {}
 
 def summarize():
     result = {}
-    prob_dir_lst = ['numtheory-ee-pk' ,'numtheory-ee-lo', 'numtheory-ee-lvs-lvt', 
-                'numtheory-lv-no', 'numtheory-lv-vo', 'numtheory-lv-ao' 
-                #'numtheory-lt-lkmmo', 'numtheory-lt-ldk',
-                #'numtheory-lt-raj',  'numtheory-lt-lmmo', 'numtheory-lt-vumif'
+    prob_dir_lst = ['numtheory-ee-pk' ,'numtheory-ee-lo', 
+                    'numtheory-ee-lvs', 'numtheory-ee-lvt', 'numtheory-ee-tst',
+                'numtheory-lv-no', 'numtheory-lv-vo', 'numtheory-lv-ao', 'numtheory-lv-tst', 'numtheory-lv-other',
+                'numtheory-lt-lkmmo', 'numtheory-lt-ldk',
+                'numtheory-lt-raj', 'numtheory-lt-vilnius', 'numtheory-lt-lmmo', 'numtheory-lt-vumif', 'numtheory-lt-tst'
                 ]
     
     qTypes = ''
