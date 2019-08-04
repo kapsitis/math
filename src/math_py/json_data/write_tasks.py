@@ -7,10 +7,13 @@ import requests
 
 
 def get_backlinks():    
-    prob_dir_lst = ['numtheory-ee-pk' ,'numtheory-ee-lo', 'numtheory-ee-lvs', 'numtheory-ee-lvt', 'numtheory-ee-tst',
-                'numtheory-lv-no', 'numtheory-lv-vo', 'numtheory-lv-ao', 'numtheory-lv-tst', 'numtheory-lv-other',
+    prob_dir_lst = ['numtheory-ee-pk' ,'numtheory-ee-lo', 'numtheory-ee-lvs', 
+                    'numtheory-ee-lvt', 'numtheory-ee-tst',
+                'numtheory-lv-no', 'numtheory-lv-vo', 'numtheory-lv-ao', 
+                'numtheory-lv-tst', 'numtheory-lv-other',
                 'numtheory-lt-lkmmo', 'numtheory-lt-ldk',
-                'numtheory-lt-raj', 'numtheory-lt-vilnius', 'numtheory-lt-lmmo', 'numtheory-lt-vumif', 'numtheory-lt-tst'
+                'numtheory-lt-raj', 'numtheory-lt-vilnius', 'numtheory-lt-lmmo', 
+                'numtheory-lt-vumif', 'numtheory-lt-tst',
                 'numtheory-bbk-p1','numtheory-bbk-p2','numtheory-bbk-p3','numtheory-bbk-p4',
                 'numtheory-bbk-p5','numtheory-bbk-p6','numtheory-bbk-p7','numtheory-bbk-p8','numtheory-bbk-p9']
     result = {}
