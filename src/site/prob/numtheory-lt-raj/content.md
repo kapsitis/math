@@ -22,11 +22,11 @@ rīkota olimpiāde skolēniem)
 
 # <lo-sample/> LT.RAJ.2010.9_10.1
 
-Savākušies riekstu, iz meža pa pāriem iznāk bērni. 
+Savākušies riekstu, no meža pa pāriem iznāk bērni. 
 Katrā pārī ir meitene un puisis. Bez tam, 
-katram puisim ir divreiz vairāk vai divreiz mazāk 
+katram puisim ir divreiz vairāk vai divreiz mazāk riekstu
 nekā meitenei viņa pārī. Vai var būt tā, ka 
-visiem bērniem kopā ir $2009$?
+visiem bērniem kopā ir $2009$ riekstu?
 
 <!--
 Prisirinkę riešutų, iš miško poromis išeina vaikai. 
