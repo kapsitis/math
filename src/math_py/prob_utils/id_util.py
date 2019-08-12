@@ -15,7 +15,7 @@ def get_problem_dir_list():
     prob_dir_lst = ['numtheory-ee-pk' ,'numtheory-ee-lo', 
                     'numtheory-ee-lvs', 'numtheory-ee-lvt', 'numtheory-ee-tst',
                     'numtheory-lv-no', 'numtheory-lv-vo', 'numtheory-lv-ao', 'numtheory-lv-tst', 'numtheory-lv-other',
-                    'numtheory-lt-lkmmo', 'numtheory-lt-ldk',
+                    'numtheory-lt-ljkmo', 'numtheory-lt-lkmmo', 'numtheory-lt-ldk',
                     'numtheory-lt-raj', 'numtheory-lt-vilnius',  'numtheory-lt-lmmo', 'numtheory-lt-vumif','numtheory-lt-tst',
                     'numtheory-bbk-p1','numtheory-bbk-p2','numtheory-bbk-p3','numtheory-bbk-p4',
                     'numtheory-bbk-p5','numtheory-bbk-p6','numtheory-bbk-p7','numtheory-bbk-p8','numtheory-bbk-p9'
@@ -62,6 +62,7 @@ def get_html_links(lst_problems):
         'LV.AO':'numtheory-lv-ao',
         'LV.TST':'numtheory-lv-tst',
         'LV.OTHER':'numtheory-lv-other',
+        'LV.LJKMO':'numtheory-lt-ljkmo',
         'LT.LKMMO':'numtheory-lt-lkmmo',
         'LT.LDK':'numtheory-lt-ldk',
         'LT.RAJ':'numtheory-lt-raj',

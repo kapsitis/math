@@ -1,20 +1,29 @@
 # &nbsp;
 
-<h1 style="font-size:28pt">Skaitļu teorija (LT, 10.kl.)</h1>
+<hgroup style="font-size:70%; width:35%;">
 
-* **LT.LKMMO** - Lietuvos komandinė mokinių matematikos 
-olimpiada (Lietuvas komandveida skolēnu matemātikas olimpiāde)
-* **LT.LDK** - Varžybos Lietuvos Didžiosios Kunigaikštystės garbei
+<h1 style="font-size:28pt">Skaitļu teorija: Lietuvas olimpiādes</h1>
+
+</hgroup>
+<hgroup style="font-size:70%; width:65%;">
+
+* LT.LKMMO - Lietuvos komandinė mokinių matematikos 
+olimpiada (Lietuvas skolēnu matemātikas komandu olimpiāde)
+* LT.LDK - Varžybos Lietuvos Didžiosios Kunigaikštystės garbei
 (Sacensības Lietuvas Lielkņazistes godam)  
-* <blue>**LT.RAJ** - **Rajono/miesto etapas** (Rajona/pilsētas posms)</blue>  
-* **LT.LMMO** - Lietuvos mokinių matematikos olimpiada (Lietuvas skolēnu
+* <blue>**LT.RAJ** - **Rajono/miesto etapas (Rajona/pilsētas posms)**</blue>  
+* LT.LMMO - Lietuvos mokinių matematikos olimpiada (Lietuvas skolēnu
 matemātikas olimpiāde: nacionālais posms)  
-* **LT.VUMIF** - Vilniaus universiteto Matematikos ir 
+* LT.VUMIF - Vilniaus universiteto Matematikos ir 
 informatikos fakulteto olimpiada (Viļņas universitātes 
-rīkota olimpiāde skolēniem)
+rīkota olimpiāde skolēniem)  
+* LT.TST - Atrankos (Lietuvas atlases sacensības)
+* LT.LJKMO - Lietuvos jaunesniųjų klasių moksleivių olimpiada (Lietuvas
+jaunāko klašu skolēnu olimpiāde)
 
 [Matematikos olimpiados](http://mif.vu.lt/matematikos-olimpiados/)
 
+</hgroup>
 
 
 

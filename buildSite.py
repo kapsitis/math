@@ -57,8 +57,8 @@ def main():
         subDirectories = set(next(os.walk(ROOT))[1]).difference(set(['themes']))
         for dd in subDirectories:
             print('Processing with pandoc/reveal, dir=%s' % dd)
-            srcPath = '%s/%s/content.md' % (ROOT,dd)
-            destPath = '%s/%s/content.html' % (ROOT,dd)
+            #srcPath = '%s/%s/content.md' % (ROOT,dd)
+            #destPath = '%s/%s/content.html' % (ROOT,dd)
             workingDir = '%s/%s' % (ROOT,dd)
             # subprocess.call(['landslide','--relative',srcPath,'-t',themePath,'-d',destPath])
        	    subprocess.call(['pandoc','-t','revealjs','-s',
@@ -68,9 +68,20 @@ def main():
 		'-V','theme=white'], cwd=workingDir)
             copyDirectory('%s/%s' % (ROOT,dd), 'target/%s/%s' % (resType,dd))
         shutil.copy2('src/site/%s/index.html' % resType, 'target/%s/' % resType)
+    ## Emila prezentacijas START
+    copyDirectory('src/emils/numtheory-recurrence-relation', 'target/tale/numtheory-recurrence-relation')
+    workingDir = 'target/tale/numtheory-recurrence-relation'
+    subprocess.call(['pandoc','-t','revealjs','-s',
+	'-o','content.html','content.md','--slide-level=2',
+	'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="Periodiskas virknes"',
+    	'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
+	'-V','theme=white'], cwd=workingDir)    
+    ## Emila prezentacijas END
+
     for resType in resTypes:
         rmDirectory('%s/%s' % (OUT_ROOT,outDirectories[resType]))
         copyDirectory('target/%s' % resType, '%s/%s' % (OUT_ROOT,outDirectories[resType]))
+
 
     copyDirectory('src/site/reveal.js', 'target/reveal.js')
     copyDirectory('src/site/tasks', 'target/tasks')

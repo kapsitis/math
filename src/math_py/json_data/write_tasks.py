@@ -11,7 +11,7 @@ def get_backlinks():
                     'numtheory-ee-lvt', 'numtheory-ee-tst',
                 'numtheory-lv-no', 'numtheory-lv-vo', 'numtheory-lv-ao', 
                 'numtheory-lv-tst', 'numtheory-lv-other',
-                'numtheory-lt-lkmmo', 'numtheory-lt-ldk',
+                'numtheory-lt-ljkmo', 'numtheory-lt-lkmmo', 'numtheory-lt-ldk',
                 'numtheory-lt-raj', 'numtheory-lt-vilnius', 'numtheory-lt-lmmo', 
                 'numtheory-lt-vumif', 'numtheory-lt-tst',
                 'numtheory-bbk-p1','numtheory-bbk-p2','numtheory-bbk-p3','numtheory-bbk-p4',
