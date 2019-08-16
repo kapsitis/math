@@ -20,6 +20,8 @@ def main():
     EEsen = 0
     LVjun = 0
     LVsen = 0
+    LTjun = 0
+    LTsen = 0
     OOsen = 0
     
     qtype_map = {}
@@ -34,6 +36,10 @@ def main():
             LVjun += 1
         elif cat == 'LVsen':
             LVsen += 1
+        elif cat == 'LTjun':
+            LTjun += 1
+        elif cat == 'LTsen':
+            LTsen += 1
         else:
             OOsen += 1
         qtypes = prob['qtypes']
@@ -42,19 +48,20 @@ def main():
                 qtype_map[qt].append(cat)
             else:
                 qtype_map[qt] = [cat]
-    print('(EEjun,EEsen,LVjun,LVsen,OOsen)=(%d,%d,%d,%d,%d)' % (EEjun,EEsen,LVjun,LVsen,OOsen))
+    print('(EEjun,EEsen,LVjun,LVsen,LTjun,LTsen,OOsen)=(%d,%d,%d,%d,%d,%d,%d)' % 
+          (EEjun,EEsen,LVjun,LVsen,LTjun,LTsen,OOsen))
 
     cons_dict = {
-        'Algorithm': [0,0,0,0,0],
-        'Find.All': [0,0,0,0,0],
-        'Find.Any.Only': [0,0,0,0,0],
-        'Find.Count': [0,0,0,0,0],
-        'Find.Min.Max': [0,0,0,0,0],
-        'Prove.Exists': [0,0,0,0,0],
-        'Prove.ForAll.NotExists': [0,0,0,0,0],
-        'ProveDisprove.Exists': [0,0,0,0,0],
-        'ProveDisprove.ForAll': [0,0,0,0,0],
-        'The.Other.Proofs': [0,0,0,0,0]
+        'Algorithm': [0,0,0,0,0,0,0],
+        'Find.All': [0,0,0,0,0,0,0],
+        'Find.Any.Only': [0,0,0,0,0,0,0],
+        'Find.Count': [0,0,0,0,0,0,0],
+        'Find.Min.Max': [0,0,0,0,0,0,0],
+        'Prove.Exists': [0,0,0,0,0,0,0],
+        'Prove.ForAll.NotExists': [0,0,0,0,0,0,0],
+        'ProveDisprove.Exists': [0,0,0,0,0,0,0],
+        'ProveDisprove.ForAll': [0,0,0,0,0,0,0],
+        'The.Other.Proofs': [0,0,0,0,0,0,0]
     }
     consolidation_table = {
         'Algorithm': 'Algorithm',
@@ -78,7 +85,9 @@ def main():
             item1 = sum(a == 'EEsen' for a in qtype_map[key])
             item2 = sum(a == 'LVjun' for a in qtype_map[key])
             item3 = sum(a == 'LVsen' for a in qtype_map[key])
-            item4 = sum(a == 'OOsen' for a in qtype_map[key])
+            item4 = sum(a == 'LTjun' for a in qtype_map[key])
+            item5 = sum(a == 'LTsen' for a in qtype_map[key])            
+            item6 = sum(a == 'OOsen' for a in qtype_map[key])
             #print('%s: %s' % (key, item1+item2+item3+item4+item5))
             
             cons_dict[consolidation_table[key]][0] += item0
@@ -86,6 +95,8 @@ def main():
             cons_dict[consolidation_table[key]][2] += item2
             cons_dict[consolidation_table[key]][3] += item3
             cons_dict[consolidation_table[key]][4] += item4
+            cons_dict[consolidation_table[key]][5] += item5
+            cons_dict[consolidation_table[key]][6] += item6
             
     json_summary = []
     count = 0
@@ -98,7 +109,9 @@ def main():
             'EEsen':val[1],
             'LVjun':val[2],
             'LVsen':val[3],
-            'OOsen':val[4]
+            'LTjun':val[4],
+            'LTsen':val[5],
+            'OOsen':val[6]
         }
         json_summary.append(item)
         count += 1

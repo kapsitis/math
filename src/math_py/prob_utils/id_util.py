@@ -45,6 +45,11 @@ def get_category(prob_id):
             return 'LVjun'
         elif gr == '12':
             return 'LVsen'
+    elif co == 'LT':
+        if gr == '9':
+            return 'LTjun'
+        elif gr == '12':
+            return 'LTsen'
     else:
         return 'OOsen'
     
