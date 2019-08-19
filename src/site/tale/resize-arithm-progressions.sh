@@ -1,5 +1,8 @@
 #!/bin/bash
 
+convert numtheory-arithm-progressions/Pictures/book-icon.png -resize 50 numtheory-arithm-progressions/book-icon.png
+
+
 convert numtheory-arithm-progressions/Pictures/accelerated-motion.png -resize 500 numtheory-arithm-progressions/accelerated-motion.png
 convert numtheory-arithm-progressions/Pictures/shopping.png -resize 400 numtheory-arithm-progressions/shopping.png
 convert numtheory-arithm-progressions/Pictures/objective-slide.png -resize 1000 numtheory-arithm-progressions/objective-slide.png

@@ -16,6 +16,39 @@
 </hgroup>
 
 
+<!--
+TODO
+A4 lapa ar pamatfaktiem: 
+* Kas ir daudzkārtņi, 
+* Formulas no skolas par aritmētisko progresiju, 
+* Dalīšana ar atlikumu,
+* LKD definīcija, 
+* MKD definīcija, 
+* LKD invariants fiksētam skaitlim ar progresiju, 
+* Kas ir savstarpēji pirmskaitļi, 
+
+Jaunas lietas
+* 1+2+...+n summēšana
+* Bezū lemma.
+* Noteikt, kad 2 mainīgo lineāru vienādojumu var atrisināt veselos skaitļos
+-->
+
+<!--
+TODO
+Norādījumi skolotājam: 
+(1) Vairumā uzdevumu ir aprēķini pirmā tūkstoša robežās - dažiem 
+var rasties kārdinājums lietot kalkulatoru. Tas var paātrināt 
+nodarbības gaitu, bet olimpiādēs līdzīgi aprēķini nav retums un kalkulatorus
+tur nelieto.
+-->
+
+<!--
+TODO
+Globāla terminoloģijas un apzīmējumu vārdnīca
+--> 
+
+
+
 # <lo-theory/> Kurā nodaļā esam?
 
 <hgroup style="width: 48%; font-size:80%">
@@ -60,7 +93,7 @@ saistītas ar veselu skaitļu dalāmību?
 
 * Kāpēc progresijas locekļu skaits intervālā atkarīgs ne vien no intervāla
 garuma, bet arī no tā novietojuma?
-* Kāpēc, dalot aritmētiskas progresijas locekļus ar skaitli, 
+* Kāpēc, dalot aritmētiskas progresijas locekļus ar kādu skaitli, 
 ne vienmēr rodas visi atlikumi?
 * Kāpēc vienādojuma $ax+by=c$ atrisināšanai veselos skaitļos 
 nepietiek ar skolas pamatkursa algebru?
@@ -435,6 +468,15 @@ dalās ar $n/2=4$ un ar $a_4+a_5$: divkāršotu progresijas aritmētisko vidējo
 Vairāku pēc kārtas sekojošu naturālu skaitļu summa ir $177$. 
 Kādas vērtības var pieņemt
 mazākais no šiem saskaitāmajiem?
+
+## <lo-reading/> LV.NO.2015.10.3
+
+Izskaidrot, ko uzdevuma kontekstā nozīmē: 
+
+* Vairāku...
+* ... pēc kārtas sekojošu ...
+* ... naturālu skaitļu summa ...
+* ... mazākais no šiem saskatāmajiem
 
 
 ## <lo-hints/> LV.NO.2015.10.3
@@ -1197,6 +1239,11 @@ Atrast
 (a) visu to naturālo skaitļu summu, kas nepārsniedz $1000$ un dalās ar $5$;  
 (b) visu to naturālo skaitļu summu, kas nepārsniedz $1000$ un dalās 
 vai nu ar $3$, vai ar $5$.
+
+## <lo-strategies/> BBK2012.P1.124
+
+TODO: Kaut kas jauns...
+
 
 ## <lo-hints/> BBK2012.P1.124
 
