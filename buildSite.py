@@ -67,7 +67,7 @@ def main():
     		'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
 		'-V','theme=white'], cwd=workingDir)
             copyDirectory('%s/%s' % (ROOT,dd), 'target/%s/%s' % (resType,dd))
-        shutil.copy2('src/site/%s/index.html' % resType, 'target/%s/' % resType)
+        #shutil.copy2('src/site/%s/index.html' % resType, 'target/%s/' % resType)
     ## Emila prezentacijas START
     copyDirectory('src/emils/numtheory-recurrence-relation', 'target/tale/numtheory-recurrence-relation')
     workingDir = 'target/tale/numtheory-recurrence-relation'
@@ -95,7 +95,9 @@ def main():
     for ff in tex_files:
         if ff.endswith('.tex'):
             print('Currently processing %s' % ff)
-            subprocess.call(['xelatex',ff], cwd=ROOT)
+            ## Uncomment, if you want to recompile all LaTeX
+            ## You could also check the timestamps...
+            # subprocess.call(['xelatex',ff], cwd=ROOT)
     copyDirectory(ROOT, 'target/static')
     shutil.copy2('src/site/index.html', 'target/')
 
