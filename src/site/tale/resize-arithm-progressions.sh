@@ -3,6 +3,15 @@
 convert numtheory-arithm-progressions/Pictures/book-icon.png -resize 50 numtheory-arithm-progressions/book-icon.png
 
 
+convert numtheory-arithm-progressions/Pictures/intuition-01.png -resize 250 numtheory-arithm-progressions/intuition-01.png
+convert numtheory-arithm-progressions/Pictures/intuition-02.png -resize 250 numtheory-arithm-progressions/intuition-02.png
+convert numtheory-arithm-progressions/Pictures/intuition-03.png -resize 250 numtheory-arithm-progressions/intuition-03.png
+convert numtheory-arithm-progressions/Pictures/intuition-04.png -resize 250 numtheory-arithm-progressions/intuition-04.png
+convert numtheory-arithm-progressions/Pictures/intuition-05.png -resize 320 numtheory-arithm-progressions/intuition-05.png
+convert numtheory-arithm-progressions/Pictures/intuition-06.png -resize 250 numtheory-arithm-progressions/intuition-06.png
+
+
+
 convert numtheory-arithm-progressions/Pictures/accelerated-motion.png -resize 500 numtheory-arithm-progressions/accelerated-motion.png
 convert numtheory-arithm-progressions/Pictures/shopping.png -resize 400 numtheory-arithm-progressions/shopping.png
 convert numtheory-arithm-progressions/Pictures/objective-slide.png -resize 1000 numtheory-arithm-progressions/objective-slide.png
