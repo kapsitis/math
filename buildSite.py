@@ -77,6 +77,14 @@ def main():
     	'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
 	'-V','theme=white'], cwd=workingDir)    
     ## Emila prezentacijas END
+    copyDirectory('src/site/miscellaneous/r-language-intro', 'target/tale/r-language-intro')
+    workingDir = 'target/tale/r-language-intro'
+    subprocess.call(['pandoc','-t','revealjs','-s',
+	'-o','content.html','content.md','--slide-level=2',
+	'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="R ievads"',
+    	'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
+	'-V','theme=white'], cwd=workingDir) 
+
 
     for resType in resTypes:
         rmDirectory('%s/%s' % (OUT_ROOT,outDirectories[resType]))
@@ -97,7 +105,7 @@ def main():
             print('Currently processing %s' % ff)
             ## Uncomment, if you want to recompile all LaTeX
             ## You could also check the timestamps...
-            # subprocess.call(['xelatex',ff], cwd=ROOT)
+            subprocess.call(['xelatex',ff], cwd=ROOT)
     copyDirectory(ROOT, 'target/static')
     shutil.copy2('src/site/index.html', 'target/')
 

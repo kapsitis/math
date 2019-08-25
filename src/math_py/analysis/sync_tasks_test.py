@@ -14,7 +14,7 @@ class Test(unittest.TestCase):
         arg = 'aaa a<c ccc'
         res = sync_tasks.escape_math(arg)
         self.assertEqual(res, 
-                         'aaa $a<c$ ccc', 
+                         'aaa a&lt;c ccc', 
                          'Inequality not replaced')
 
     def test_escape2(self):
