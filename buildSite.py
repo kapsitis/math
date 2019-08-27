@@ -1,7 +1,7 @@
 import os
 import shutil
 import subprocess
-
+import glob
 
 #import sys, os
 #sys.path.append(os.path.join(os.path.dirname(__file__), 'src', 'math_py', 'analysis'))
@@ -34,7 +34,14 @@ def rmDirectory(src):
     except OSError as e:
         print('Directory not removed. Error: %s' % e)
 
-
+def compileTale(root,subdir,title):
+    copyDirectory('%s/%s' % (root,subdir), 'target/tale/%s' % subdir)
+    workingDir = 'target/tale/%s' % subdir
+    subprocess.call(['pandoc','-t','revealjs','-s',
+	'-o','content.html','content.md','--slide-level=2',
+	'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="%s"' % title,
+    	'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
+	'-V','theme=white'], cwd=workingDir)    
 
 def main(): 
     rmDirectory('target')
@@ -69,21 +76,24 @@ def main():
             copyDirectory('%s/%s' % (ROOT,dd), 'target/%s/%s' % (resType,dd))
         #shutil.copy2('src/site/%s/index.html' % resType, 'target/%s/' % resType)
     ## Emila prezentacijas START
-    copyDirectory('src/emils/numtheory-recurrence-relation', 'target/tale/numtheory-recurrence-relation')
-    workingDir = 'target/tale/numtheory-recurrence-relation'
-    subprocess.call(['pandoc','-t','revealjs','-s',
-	'-o','content.html','content.md','--slide-level=2',
-	'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="Periodiskas virknes"',
-    	'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
-	'-V','theme=white'], cwd=workingDir)    
+    compileTale('src/emils', 'numtheory-recurrence-relation', 'Periodiskas virknes')
+    compileTale('src/site/miscellaneous', 'r-language-intro', 'R ievads')
+
+#    copyDirectory('src/emils/numtheory-recurrence-relation', 'target/tale/numtheory-recurrence-relation')
+#    workingDir = 'target/tale/numtheory-recurrence-relation'
+#    subprocess.call(['pandoc','-t','revealjs','-s',
+#	'-o','content.html','content.md','--slide-level=2',
+#	'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="Periodiskas virknes"',
+#    	'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
+#	'-V','theme=white'], cwd=workingDir)    
     ## Emila prezentacijas END
-    copyDirectory('src/site/miscellaneous/r-language-intro', 'target/tale/r-language-intro')
-    workingDir = 'target/tale/r-language-intro'
-    subprocess.call(['pandoc','-t','revealjs','-s',
-	'-o','content.html','content.md','--slide-level=2',
-	'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="R ievads"',
-    	'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
-	'-V','theme=white'], cwd=workingDir) 
+#    copyDirectory('src/site/miscellaneous/r-language-intro', 'target/tale/r-language-intro')
+#    workingDir = 'target/tale/r-language-intro'
+#    subprocess.call(['pandoc','-t','revealjs','-s',
+#	'-o','content.html','content.md','--slide-level=2',
+#	'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="R ievads"',
+#    	'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
+#	'-V','theme=white'], cwd=workingDir) 
 
 
     for resType in resTypes:
@@ -105,8 +115,16 @@ def main():
             print('Currently processing %s' % ff)
             ## Uncomment, if you want to recompile all LaTeX
             ## You could also check the timestamps...
-            subprocess.call(['xelatex',ff], cwd=ROOT)
-    copyDirectory(ROOT, 'target/static')
+            # subprocess.call(['xelatex',ff], cwd=ROOT)
+
+    ## Copy static files
+    DEST_DIR = '../../workspace-new/linen-tracer-682/static'
+    for filename in glob.glob(os.path.join(ROOT, '*.pdf')):
+        shutil.copy(filename, DEST_DIR)
+    for filename in glob.glob(os.path.join(ROOT, '*.docx')):
+        shutil.copy(filename, DEST_DIR)
+    
+    ## Do we need this at all?
     shutil.copy2('src/site/index.html', 'target/')
 
 

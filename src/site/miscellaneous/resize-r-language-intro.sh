@@ -11,11 +11,12 @@ convert r-language-intro/Pictures/testing-rstudio.png -resize 700 r-language-int
 convert r-language-intro/Pictures/khanacademy-test-selection.png -resize 700 r-language-intro/khanacademy-test-selection.png
 convert r-language-intro/Pictures/population-sd.png -resize 700 r-language-intro/population-sd.png
 convert r-language-intro/Pictures/sample-sd.png -resize 700 r-language-intro/sample-sd.png
-convert r-language-intro/Pictures/bad-tan-graph.png -resize 300 r-language-intro/bad-tan-graph.png
+convert r-language-intro/Pictures/bad-tan-graph.png -resize 400 r-language-intro/bad-tan-graph.png
+convert r-language-intro/Pictures/correct-tangent.png -resize 700 r-language-intro/correct-tangent.png
+convert r-language-intro/Pictures/discontinuous-graph.png -resize 350 r-language-intro/discontinuous-graph.png
 
-
-convert r-language-intro/Pictures/saldejumu-standarts.png -resize 300 r-language-intro/saldejumu-standarts.png
-convert r-language-intro/Pictures/puasona-labd.png -resize 300 r-language-intro/puasona-labd.png
+convert r-language-intro/Pictures/saldejumu-standarts.png -resize 500 r-language-intro/saldejumu-standarts.png
+convert r-language-intro/Pictures/puasona-labd.png -resize 400 r-language-intro/puasona-labd.png
 convert r-language-intro/Pictures/poisson-barchart.png -resize 350 r-language-intro/poisson-barchart.png
 
 convert r-language-intro/Pictures/correlation-report.png -resize 600 r-language-intro/correlation-report.png
