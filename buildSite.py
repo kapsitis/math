@@ -34,14 +34,32 @@ def rmDirectory(src):
     except OSError as e:
         print('Directory not removed. Error: %s' % e)
 
-def compileTale(root,subdir,title):
-    copyDirectory('%s/%s' % (root,subdir), 'target/tale/%s' % subdir)
-    workingDir = 'target/tale/%s' % subdir
+def compileTale(root,subdir,destdir,title):
+    copyDirectory('%s/%s' % (root,subdir), '%s/%s' % (destdir,subdir))
+    workingDir = '%s/%s' % (destdir,subdir)
     subprocess.call(['pandoc','-t','revealjs','-s',
 	'-o','content.html','content.md','--slide-level=2',
 	'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="%s"' % title,
     	'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
 	'-V','theme=white'], cwd=workingDir)    
+
+
+def build_static(SRC,DEST):
+    rmDirectory(DEST)
+    os.mkdir(DEST)
+
+    tex_files = os.listdir(SRC)
+    print('TeX files under %s are %s' % (SRC,tex_files))
+    for ff in tex_files:
+        if ff.endswith('.tex'):
+            print('Currently processing %s' % ff)
+            subprocess.call(['xelatex',ff], cwd=SRC)
+    for filename in glob.glob(os.path.join(SRC, '*.pdf')):
+        shutil.copy(filename, DEST)
+    for filename in glob.glob(os.path.join(SRC, '*.docx')):
+        shutil.copy(filename, DEST)
+
+
 
 def main(): 
     rmDirectory('target')
@@ -76,8 +94,10 @@ def main():
             copyDirectory('%s/%s' % (ROOT,dd), 'target/%s/%s' % (resType,dd))
         #shutil.copy2('src/site/%s/index.html' % resType, 'target/%s/' % resType)
     ## Emila prezentacijas START
-    compileTale('src/emils', 'numtheory-recurrence-relation', 'Periodiskas virknes')
-    compileTale('src/site/miscellaneous', 'r-language-intro', 'R ievads')
+    compileTale('src/emils', 'numtheory-recurrence-relation', 'target/tale', 'Periodiskas virknes')
+    compileTale('src/site/miscellaneous', 'r-language-intro', 'target/tale', 'R ievads')
+
+    compileTale('src/site/algorithms', 'tale-lossless-part1', 'target/algorithms-tales', 'Bezzudumu saspiešana - 1')
 
 #    copyDirectory('src/emils/numtheory-recurrence-relation', 'target/tale/numtheory-recurrence-relation')
 #    workingDir = 'target/tale/numtheory-recurrence-relation'
@@ -99,6 +119,9 @@ def main():
     for resType in resTypes:
         rmDirectory('%s/%s' % (OUT_ROOT,outDirectories[resType]))
         copyDirectory('target/%s' % resType, '%s/%s' % (OUT_ROOT,outDirectories[resType]))
+    rmDirectory('%s/algorithms-tales' % OUT_ROOT)
+    copyDirectory('target/algorithms-tales', '%s/algorithms-tales' % OUT_ROOT)
+
 
 
     copyDirectory('src/site/reveal.js', 'target/reveal.js')
@@ -106,31 +129,21 @@ def main():
     copyDirectory('src/site/downloads', 'target/downloads')
     #copyDirectory('src/site/exam', 'target/exam')
     copyDirectory('src/site/main', 'target/main')
-    ## Compile all TEX files under "static"
-    ROOT = 'src/site/static'
-    tex_files = os.listdir(ROOT)
-    print('xxxx %s' % tex_files)
-    for ff in tex_files:
-        if ff.endswith('.tex'):
-            print('Currently processing %s' % ff)
-            ## Uncomment, if you want to recompile all LaTeX
-            ## You could also check the timestamps...
-            # subprocess.call(['xelatex',ff], cwd=ROOT)
 
-    ## Copy static files
-    DEST_DIR = '../../workspace-new/linen-tracer-682/static'
-    for filename in glob.glob(os.path.join(ROOT, '*.pdf')):
-        shutil.copy(filename, DEST_DIR)
-    for filename in glob.glob(os.path.join(ROOT, '*.docx')):
-        shutil.copy(filename, DEST_DIR)
+    DEST_ROOT = '../../workspace-new/linen-tracer-682'
+    #build_static('src/site/static', '%s/static' % DEST_ROOT)
+    build_static('src/site/numtheory/static', '%s/numtheory-bin' % DEST_ROOT)
+    build_static('src/site/algorithms/static', '%s/algorithms-bin' % DEST_ROOT)
     
-    ## Do we need this at all?
-    shutil.copy2('src/site/index.html', 'target/')
 
+#def my_main():
+#    DEST_ROOT = '../../workspace-new/linen-tracer-682'
+#    build_static('src/site/algorithms/static', '%s/algorithms-bin' % DEST_ROOT)
+#    build_static('src/site/numtheory/static', '%s/numtheory-bin' % DEST_ROOT)
 
 
 if __name__ == '__main__':
-    main()
+    my_main()
 
 
 
