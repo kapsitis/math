@@ -77,11 +77,13 @@ def main():
 
     compileTale('src/emils', 'numtheory-recurrence-relation', '%s/numtheory-tales' % DEST_ROOT, 'Periodiskas virknes')
 
+    rmDirectory('%s/reveal.js' % DEST_ROOT)
     copyDirectory('src/site/reveal.js', '%s/reveal.js' % DEST_ROOT)
 
     build_static('src/site/visualizations/static', '%s/visualizations-bin' % DEST_ROOT)
     build_static('src/site/numtheory/static', '%s/numtheory-bin' % DEST_ROOT)
     build_static('src/site/algorithms/static', '%s/algorithms-bin' % DEST_ROOT)
+    build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
     
 if __name__ == '__main__':
     main()
