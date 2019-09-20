@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>"Uzdevumi"</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../reveal.js/css/reveal.css">
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../../reveal.js/css/theme/white.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? '../../reveal.js/css/print/pdf.css' : '../../reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="../../reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="section" class="title-slide slide level1"><h1> </h1><hgroup>
+<h1 style="font-size:28pt">
+Engagement and Sentiment Analysis
+</h1>
+<p><blue>YouTube, Google Analytics and Web Marketing</blue></p>
+</hgroup>
+<hgroup>
+<p><span style="color:darkgreen"><strong>(1) Getting Data from Internet</strong></span><br />
+<span>(2) <a href="#/section-1">Google Analytics for Authors</a></span> <span>(3) <a href="#/section-1">YouTube API</a></span><br />
+<span>(4) <a href="#/section-2">Screen Scraping</a></span> <span>(5) <a href="#/section-3">Summary</a></span></p>
+</hgroup>
+<aside class="notes">
+
+</aside></section>
+<section id="section-1" class="title-slide slide level1"><h1><lo-why/></h1><div class="bigWhy">
+<p>Kāpēc jāpēta dati mājaslapās un sociālajos tīklos?</p>
+</div>
+<div class="smallWhy">
+<ul>
+<li>Kādus datus varam cerēt atrast Web lapās un sociālo tīklu portālos?</li>
+<li>Kas ir “influencer-literacy” (“ietekmeļu pratība”)?</li>
+<li>Ar ko YouTube ir īpašs sociālais tīkls?</li>
+</ul>
+</div>
+<aside class="notes">
+<ul>
+<li></li>
+<li>Ietekmeļu pratību parasti lieto kā sinonīmu medijpratībai (kā netikt manipulētam sociālajos tīklos). Bet arī pašiem ietekmeļiem jāpilnveido prasmes, viņiem ir savs “literacy”.</li>
+<li></li>
+</ul>
+</aside></section>
+<section id="technologies-to-trace-users" class="title-slide slide level1"><h1><lo-summary/> Technologies to trace users</h1><ul>
+<li>Cookies (<em>sīkdatnes</em>)</li>
+<li>Tracking pixels and 3rd party banners (<em>trešo pušu izvietotie pikseļi un reklāmas baneri</em>)</li>
+<li>Browser fingerprinting (<em>pārlūkprogrammu digitālnospiedumi</em>)</li>
+<li>eBeacons (e-bojas - parasti Bluetooth vai ultraskaņas signāli)</li>
+</ul>
+<p><a href="https://www.cookiebot.com/en/website-tracking/">More about Website tracking</a></p></section>
+<section id="if-you-own-a-platform" class="title-slide slide level1"><h1><lo-summary/> If you own a platform</h1><p>Google, Facebook and other platform owners can use all these technologies and get very detailed picture about their users.</p></section>
+<section><section id="section-2" class="title-slide slide level1"><h1><lo-summary/></h1></section><section id="schedules-for-teams" class="slide level2">
+<h2><lo-summary/> Schedules for teams</h2>
+<ul>
+<li>Many participants, many teams, need to schedule, if you need undivided attention.</li>
+<li>Doing projects with iterations (short lecture).<br />
+At other times - presenting deliverables.</li>
+<li>We’ll need to discuss consultation times as soon as the process starts.</li>
+</ul>
+</section><section id="class-culture" class="slide level2">
+<h2><lo-summary/> Class culture</h2>
+<ol type="1">
+<li><strong>Work agreement:</strong> Team creates a simple list of guidelines (this time it should be written).</li>
+<li>“Daily Standup” - What is the information that we need from everyone in your team on a regular basis. The goal is to assist everyone with planning their activities.</li>
+<li>Version control - all the files that are part of the solution should be stored in a specific location (such as Git), where they can be <strong>versioned</strong>. This allows to do brave edits; at any moment there is “latest and greatest” set of files that can be shown to the customer.</li>
+</ol>
+</section></section>
+<section id="section-3" class="title-slide slide level1"><h1> </h1><hgroup>
+<h1 style="font-size:28pt">
+Learner Analysis
+</h1>
+<p><blue>Processing your papers…</blue></p>
+</hgroup>
+<hgroup>
+<p><span>(1) <a href="#/section">Guidelines for the class</a></span><br />
+<span style="color:darkgreen"><strong>(2) Background, Misconceptions</strong></span><br />
+<span>(3) <a href="#/section-2">Technology knowledge</a></span> <span>(4) <a href="#/section-3">Google Search</a></span></p>
+</hgroup></section>
+<section id="things-asked-in-the-learner-analysis" class="title-slide slide level1"><h1><lo-summary/> Things asked in the Learner Analysis</h1><ul>
+<li>Motivation - WHY you are in the class; <strong>Q17</strong></li>
+<li>Likes/dislikes about the course: <strong>Q16-Q18</strong></li>
+<li>Prerequisite knowledge in teamwork: <strong>Q1…Q8</strong></li>
+<li>Prerequisite knowledge in technology: Number sense, Google</li>
+<li>Common misconceptions: also <strong>Q1…Q8</strong></li>
+<li>Prerequisite tools: <strong>Q9</strong></li>
+</ul></section>
+<section id="misconceptions-on-it-teams" class="title-slide slide level1"><h1><lo-summary/> Misconceptions on IT teams</h1><ul>
+<li>The more urgent and complex is a task, the more resources (people, time) it will require.</li>
+<li>I do not object to managers as long as they are more competent than me.</li>
+<li>If we do not know what is going on with the project, we should meet more often.</li>
+</ul></section>
+<section id="section-4" class="title-slide slide level1"><h1> </h1><hgroup>
+<h1 style="font-size:28pt">
+Learner Analysis
+</h1>
+<p><blue>Processing your papers…</blue></p>
+</hgroup>
+<hgroup>
+<p><span>(1) Guidelines for the class</span><br />
+<span>(2) Background, Misconceptions**</span><br />
+<span style="color:darkgreen"><strong>(3) Technology knowledge</strong></span> <span>(4) <a href="#/section-3">Google Search</a></span></p>
+</hgroup></section>
+<section><section id="how-it-can-benefit-business-studies" class="title-slide slide level1"><h1><lo-summary/> How IT can benefit business studies</h1><p><strong>Number sense</strong></p>
+<ul>
+<li>Reading from charts</li>
+<li>Units of measurement</li>
+<li>Errors of measurement</li>
+<li>How it was aggregated</li>
+<li>What is the amount from which percentages were calculated?</li>
+</ul></section><section id="percentages-from-something" class="slide level2">
+<h2><lo-theory/> Percentages FROM something</h2>
+<ul>
+<li><p>If a stock price falls by 95% - it equals a fall by 90% followed by a fall by 50%. (<em>A joke about some crappy investment</em>)</p></li>
+<li><p>If GDP grows by 10%, then falls by 10%, what is the total change?</p></li>
+</ul>
+</section><section id="mean-vs.-median" class="slide level2">
+<h2><lo-theory/> Mean vs. Median</h2>
+<ul>
+<li>“Natural” data (such as heights) is often normally distributed</li>
+<li>Income is very unevently distributed, there are <em>outliers</em></li>
+<li>Test results (in history, etc.) depend on many small contributing factors - closer to normally distributed.</li>
+</ul>
+</section></section>
+<section id="section-5" class="title-slide slide level1"><h1> </h1><hgroup>
+<h1 style="font-size:28pt">
+Learner Analysis
+</h1>
+<p><blue>Processing your papers…</blue></p>
+</hgroup>
+<hgroup>
+<p><span>(1) Guidelines for the class</span><br />
+<span>(2) Background, Misconceptions**</span><br />
+<span><strong>(3) Technology knowledge</strong></span> <span style="color:darkgreen">(4) <a href="#/section-3">Google Search</a></span></p>
+</hgroup></section>
+<section><section id="searching-with-google" class="title-slide slide level1"><h1><lo-summary/> Searching with Google</h1><ul>
+<li>Selecting keywords (look up in a thesaurus).<br />
+Keyword for these techniques is SEO (search engine optimization).</li>
+<li>Use Boolean logic, quoted phrases, wildcards.</li>
+<li>Use special syntax: <a href="https://ahrefs.com/blog/google-advanced-search-operators/">https://ahrefs.com/blog/google-advanced-search-operators/</a></li>
+<li>Refine your searches.</li>
+<li>Apply multi step tactics: <a href="http://researcharchive.vuw.ac.nz/xmlui/bitstream/handle/10063/2228/paper.pdf">http://researcharchive.vuw.ac.nz/xmlui/bitstream/handle/10063/2228/paper.pdf</a></li>
+<li>Use other resources (besides dictionaries - Wikipedia - Google).</li>
+</ul></section><section id="google-search-solutions" class="slide level2">
+<h2><lo-summary/> Google Search: Solutions</h2>
+<ul>
+<li><p><blue><code>"Mellow fruitfulness" -Keats</code></blue></p></li>
+<li><p><blue><code>(agile OR scrum) project management filetype:ppt OR filetype:pptx</code></blue></p></li>
+<li><p><blue><code>Betula Pendula site:lv</code></blue></p></li>
+<li><p><code>(agile OR scrum) project management (filetype:ppt OR filetype:pptx)</code><br />
+Would return only PPT files (not PPTX).</p></li>
+<li><p><blue><code>Agile Scrum PPT Presentation</code><br />
+many false positives, others missing</p></li>
+<li><p><code>Betula Pendula :lv</code><br />
+might work just because keyword “LV” is uncommon outside Latvia. (Try <code>:se</code> to see that you typically do NOT get Swedish sites).</p></li>
+</ul>
+</section><section id="other-ways-to-search-data" class="slide level2">
+<h2><lo-summary/> Other ways to search data?</h2>
+<ul>
+<li><a href="https://raim.gov.lv/">RAIM.GOV.LV</a>; <a href="https://data.gov.lv/lv">Latvijas Atvērto datu portāls</a></li>
+<li>Latvijas Banka</li>
+<li>Latvijas Statistikas pārvalde</li>
+<li>Eurostat, World Bank, CIA World Factbook</li>
+<li><a href="http://opendata.lv/">Opendata.lv</a></li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="../../reveal.js/lib/js/head.min.js"></script>
+  <script src="../../reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        math: {
+          mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '../../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../../reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '../../reveal.js/plugin/math/math.js', async: true },
+          { src: '../../reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

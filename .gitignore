@@ -18,6 +18,8 @@
 **/.RData
 bin/
 target/
+src/site/algorithms/source-material/
+src/site/numtheory/source-material/
 src/site/miscellaneous/**/*.html
 !src/site/miscellaneous/index.html
 src/site/prob/**/*.html

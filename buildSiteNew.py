@@ -51,12 +51,18 @@ def build_static(SRC,DEST):
         shutil.copy(filename, DEST)
     for filename in glob.glob(os.path.join(SRC, '*.docx')):
         shutil.copy(filename, DEST)
-    copyDirectory('%s/Pictures' % SRC,'%s/Pictures' % DEST)
+    #copyDirectory('%s/Pictures' % SRC,'%s/Pictures' % DEST)
+    skip_directories = ['source-material','static','analysis']
+    subDirectories = set(next(os.walk(SRC))[1]).difference(set(skip_directories))
+    for dd in subDirectories:
+        if os.path.exists('%s/%s' % (DEST,dd)):
+            rmDirectory('%s/%s' % (DEST,dd))
+        copyDirectory('%s/%s' % (SRC,dd),'%s/%s' % (DEST,dd))
 
 
 def main(): 
 #    sync_all.main()
-    resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations']
+    resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs']
     skip_directories = ['source-material','static','analysis']
 
     DEST_ROOT = '../../workspace-new/linen-tracer-682'
@@ -84,6 +90,7 @@ def main():
     build_static('src/site/numtheory/static', '%s/numtheory-bin' % DEST_ROOT)
     build_static('src/site/algorithms/static', '%s/algorithms-bin' % DEST_ROOT)
     build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
+    build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
     
 if __name__ == '__main__':
     main()
