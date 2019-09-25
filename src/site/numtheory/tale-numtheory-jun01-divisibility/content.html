@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title>Uzdevumi</title>
+  <title>"Uzdevumi"</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -54,10 +54,11 @@ Skaitļu teorija:<br/> NMS Juniori 2019-09-28
 <p><em>Par ko var veidot animācijas:</em></p>
 <ol type="1">
 <li>Ūdens laistīšanas uzdevums un/vai “atstarošanās uzdevums” (kā ar 8L un 13L krūzēm nomērīt tieši 1L).</li>
-<li>Skapīšu durvju vēršanas animācija (sk. Piemēru nr.2 jeb 19.slaidu).</li>
+<li>Skapīšu durvju vai slēdžu pārslēgšanas animācija (sk. NT.JUN01.1).</li>
 <li>Eratostena režģa animācija.</li>
 <li>Eiklīda algoritma animācija jebkādiem skaitļiem.</li>
 <li>Tipiska un vissliktākā Eiklīda algoritma ātrdarbība, rekursīvo izsaukumu skaits šajā algoritmā.</li>
+<li>Dalītāju režģis 3 vai 4 dimensijās - kā lielam skaitlim, piemēram, formā <span class="math inline">\(p^aq^br^c\)</span> pamazām (augošā secībā) atklājas visu tā dalītāju kopums.</li>
 </ol>
 </aside></section>
 <section><section id="why" class="title-slide slide level1"><h1><lo-why/> why</h1><div class="bigWhy">
@@ -752,10 +753,12 @@ Skaitļu teorija:<br/> NMS Juniori 2019-09-28
 <section><section id="dalītāju-apkopojumu-funkcijas" class="title-slide slide level1"><h1><lo-theory/> Dalītāju apkopojumu funkcijas</h1><p>Skaitļa dalītājus mēdz dažādi apkopot, piemēram, uzzinot to skaitu, summu vai augstāku pakāpju summu.</p>
 <p><strong>Definīcija:</strong> Katram naturālam skaitlim <span class="math inline">\(n\)</span> definējam funkcijas <span class="math inline">\(\sigma_0(n)\)</span>, <span class="math inline">\(\sigma_1(n)\)</span> un <span class="math inline">\(\sigma_2(n)\)</span> ar šādām vienādībām:</p>
 <p><span class="math display">\[\begin{array}{rcl}
-\sigma_0(n) &amp; = &amp; \sum\limits_{d \mid n} 1,\\
+\sigma_0(n) &amp; = &amp; \sum\limits_{d \mid n} 1 = \sum\limits_{d \mid n} d^0,\\
 \sigma_1(n) &amp; = &amp; \sum\limits_{d \mid n} d,\\
 \sigma_2(n) &amp; = &amp; \sum\limits_{d \mid n} d^2,
-\end{array}\]</span></p></section><section id="piemēri-ar-n60" class="slide level2">
+\end{array}\]</span></p>
+<p>Apzīmējums <span class="math inline">\(\sum\limits_{d \mid n}\ldots\)</span> nozīmē, ka summējam izteiksmi (<span class="math inline">\(1\)</span>, <span class="math inline">\(d\)</span>, <span class="math inline">\(d^2\)</span> utml.) ikvienam skaitlim <span class="math inline">\(d\)</span>, kurš ir <span class="math inline">\(n\)</span> dalītājs.</p>
+<p>Piemēram, <span class="math inline">\(\sigma_0(n)\)</span>, kurā summē dalītāju <span class="math inline">\(0\)</span>-tās pakāpes jeb vieniniekus nozīmē vienkārši skaitļa <span class="math inline">\(n\)</span> dalītāju skaitu.</p></section><section id="piemēri-ar-n60" class="slide level2">
 <h2><lo-summamry/> Piemēri ar n=60</h2>
 <p><span class="math display">\[\sigma_0(60) = \left| \{ 1,2,3,4,5,6,10,12,15,20,30,60 \} \right| = 12.\]</span> <span class="math display">\[\sigma_1(60) = 1 + 2 + 3 + 4 + 5 + 6 + 10 + 12 + \]</span> <span class="math display">\[ + 15 + 20 + 30 + 60 = 168.\]</span> <span class="math display">\[\sigma_2(60) = 1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2 + 10^2 + 12^2\]</span> <span class="math display">\[ + 15^2 + 20^2 + 30^2 + 60^2  = 5460.\]</span></p>
 </section><section id="dalītāji-skaitlim-60" class="slide level2">
@@ -765,18 +768,29 @@ Skaitļu teorija:<br/> NMS Juniori 2019-09-28
 <img data-src="divisors-of-60.png" alt="Divisors of 60" /><figcaption>Divisors of 60</figcaption>
 </figure>
 </hgroup>
-<hgroup>
+<hgroup style="font-size:70%">
 <ul>
 <li>Dalītāju skaitu var atrast, izmantojot <em>reizināšanas likumu</em>.</li>
 <li>Zināms, ka <span class="math inline">\(60 = 2^23^15^1\)</span>.</li>
 <li>Katrs skaitļa <span class="math inline">\(60\)</span> dalītājs izsakāms <span class="math inline">\(2^a3^b5^c\)</span>, kur <span class="math inline">\(a \in \{ 0,1,2\}\)</span>, <span class="math inline">\(b \in \{ 0,1 \}\)</span>, <span class="math inline">\(c \in \{ 0,1 \}\)</span>.</li>
 <li>Sareizinām elementu skaitu: <span class="math inline">\(3 \cdot 2 \cdot 2 = 12\)</span>.</li>
 </ul>
+<p><span class="math display">\[\sigma_0 \left( 2^{\color{#F00}{2}}3^{\color{#F00}{1}}5^{\color{#F00}{1}} \right) = (\color{#F00}{2}+1)\cdot (\color{#F00}{1}+1)(\color{#F00}{1}+1) = 12.\]</span></p>
 </hgroup>
-</section><section id="nt.jun01.2" class="slide level2">
-<h2><lo-sample/> NT.JUN01.2</h2>
-<p>Atrast mazāko naturālo skaitli, kam ir tieši <span class="math inline">\(16\)</span> dalītāji.</p>
-</section><section id="nt.jun01.2-1" class="slide level2">
+</section><section id="dalītāju-un-to-kvadrātu-summas" class="slide level2">
+<h2><lo-summary/> Dalītāju un to kvadrātu summas</h2>
+<p><span class="math inline">\(\sigma_1(60)\)</span> un <span class="math inline">\(\sigma_2(60)\)</span> arī var ātri aprēķināt, izmantojot algebriskas identitātes:</p>
+<p><span class="math display">\[\sigma_1(60) = \left( 2^2 + 2^1 + 2^0 \right)
+\left( 3^1 + 3^0 \right) \left( 5^1 + 5^0 \right) = 
+(4+2+1)(3+1)(5+1) = 7 \cdot 4 \cdot 6 = 168.\]</span></p>
+<p><span class="math display">\[\sigma_2(60) = \left( 2^4 + 2^2 + 2^0 \right)
+\left( 3^2 + 3^0 \right) \left( 5^2 + 5^0 \right) = 
+(16+4+1)(9+1)(25+1) = 5460.\]</span></p>
+<p>Visu šo var iegūt no sadalījuma pirmreizinātājos: <span class="math inline">\(60 = 2 \cdot 2 \cdot 3 \cdot 5 = 2^23^15^1\)</span>.</p>
+</section></section>
+<section id="jautājums-nr.3" class="title-slide slide level1"><h1><lo-quiz/> Jautājums Nr.3</h1><p>Uz galda ir piecas kartiņas, uz katras uzrakstīts cits pirmskaitlis (attiecīgi <span class="math inline">\(2\)</span>, <span class="math inline">\(3\)</span>, <span class="math inline">\(5\)</span>, <span class="math inline">\(7\)</span> un <span class="math inline">\(11\)</span>). Cik dažādos veidos var paņemt kaut kādas kartiņas (drīkst ņemt arī visas vai neņemt nevienu)?</p>
+<p><em>Ierakstīt veselu skaitli (variantu skaitu):</em> _____</p></section>
+<section><section id="nt.jun01.2" class="title-slide slide level1"><h1><lo-sample/> NT.JUN01.2</h1><p>Atrast mazāko naturālo skaitli, kam ir tieši <span class="math inline">\(16\)</span> dalītāji.</p></section><section id="nt.jun01.2-1" class="slide level2">
 <h2><lo-reading/> NT.JUN01.2</h2>
 <p>Uzdevumā netieši pateikts, ka naturāls skaitlis ar tieši <span class="math inline">\(16\)</span> dalītājiem vispār eksistē. Vienīgi tad ir jēga meklēt mazāko no šādiem skaitļiem.</p>
 <p><strong>Apgalvojums:</strong> Katram naturālam <span class="math inline">\(n\)</span> eksistē bezgalīgi daudzi skaitļi <span class="math inline">\(M\)</span>, kuriem ir tieši <span class="math inline">\(n\)</span> pozitīvi dalītāji.</p>
@@ -784,22 +798,54 @@ Skaitļu teorija:<br/> NMS Juniori 2019-09-28
 <aside class="notes">
 <p>Apgalvojums ir triviāls: Lai atrastu skaitli, kuram ir tieši <span class="math inline">\(n\)</span> pozitīvi dalītāji, izvēlamies skaitli <span class="math inline">\(p^{n-1}\)</span>, kur <span class="math inline">\(p\)</span> ir jebkurš pirmskaitlis. Protams, varētu būt citi atrisinājumi, kuri nav pirmskaitļu pakāpes. Uzdevums ir atrast vismazāko no tiem.</p>
 </aside>
-</section></section>
-<section><section id="jautājums-nr.1" class="title-slide slide level1"><h1><lo-quiz/> Jautājums Nr.1</h1><p>Naturālam skaitlim <span class="math inline">\(n\)</span> ir tieši <span class="math inline">\(125\)</span> naturāli dalītāji (ieskaitot <span class="math inline">\(1\)</span> un pašu <span class="math inline">\(n\)</span>). Kādu visaugstākās pakāpes sakni noteikti var izvilkt no <span class="math inline">\(n\)</span>, iegūstot naturālu rezultātu?</p>
-<p><em>Ierakstīt naturālu skaitli (saknes pakāpi) vai skaitli <span class="math inline">\(1\)</span>, ja neviena augstākas pakāpes sakne <span class="math inline">\(\sqrt[k]{n}\)</span> (<span class="math inline">\(k&gt;1\)</span>) nav garantēti vesela:</em> _____</p></section><section id="jautājums-nr.1-atrisinājums" class="slide level2">
-<h2><lo-quiz/> Jautājums Nr.1: Atrisinājums</h2>
-<div style="font-size:100%">
-<p><span class="math inline">\(125\)</span> var izteikt kā reizinājumu vairākiem skaitļiem (kas pārsniedz <span class="math inline">\(1\)</span>) sekojošos veidos:</p>
+</section><section id="nt.jun01.2-2" class="slide level2">
+<h2><lo-hints/> NT.JUN01.2</h2>
+<p>Ja <span class="math inline">\(M = p_1^ap_2^bp_3^cp_4^d\)</span>, tam ir <span class="math inline">\((a+1)(b+1)(c+1)(d+1)=16\)</span> reizinātāji. Līdzīgi arī mazākam pirmreizinātāju skaitam.<br />
+(Ja dažādu pirmskaitļu, kas dala <span class="math inline">\(M\)</span>, ir vairāk kā četri, tad <span class="math inline">\(M\)</span> būtu vismaz <span class="math inline">\(2^5 = 32\)</span> dalītāji, jo <span class="math inline">\(M\)</span> dalītājus var veidot, sareizinot jebkuru tā pirmreizinātāju apakškopu - varbūt pat tukšu).</p>
+<p><strong>Stratēģija:</strong> Gadījumu pārlase.<br />
+Meklējam visus veidus, kā <span class="math inline">\(16\)</span> var izteikt ne vairāk kā četru skaitļu reizinājumu.</p>
+</section><section id="nt.jun01.2-1-pirmskaitlis" class="slide level2">
+<h2><lo-soln/> NT.JUN01.2 (1 pirmskaitlis)</h2>
+<hgroup>
+<figure>
+<img data-src="16-divisors-var1.png" alt="16 divisors - Variant1" /><figcaption>16 divisors - Variant1</figcaption>
+</figure>
+</hgroup>
+<hgroup>
 <ul>
-<li><span class="math inline">\(125 = 124+1\)</span>.</li>
-<li><span class="math inline">\(125 = 25 \cdot 5 = (24 + 1) \cdot (4+1)\)</span>.</li>
-<li><span class="math inline">\(125 = 5 \cdot 5 \cdot 5 = (4+1) \cdot (4+1) \cdot (4+1)\)</span>.</li>
+<li><span class="math inline">\(16 = (15+1)\)</span>.</li>
+<li>Tieši <span class="math inline">\(16\)</span> dalītāji ir skaitlim formā <span class="math inline">\(p^{15}\)</span>, kur <span class="math inline">\(p\)</span> ir jebkurš pirmskaitlis.</li>
+<li>Mazāko <span class="math inline">\(M\)</span> var iegūt mazākajam pirmskaitlim <span class="math inline">\(p=2\)</span>.</li>
+<li>Šajā gadījumā <span class="math inline">\(M = 2^{15} = 32768\)</span>.</li>
 </ul>
-<p>Tādēļ skaitli <span class="math inline">\(n\)</span> var sadalīt pirmreizinātājos vienā no sekojošiem veidiem:</p>
-<p><span class="math display">\[n = p^{124},\;\;n = p^{24}q^4\;\;\text{vai}\;\;n = p^{4}q^4r^4,\]</span></p>
-<p>kur <span class="math inline">\(p,q,r\)</span> ir pirmskaitļi. Visos gadījumos var izvilkt 4.pakāpes sakni.</p>
-</div>
+</hgroup>
 </section></section>
+<section id="jautājums-nr.1" class="title-slide slide level1"><h1><lo-quiz/> Jautājums Nr.1</h1><p>Naturālam skaitlim <span class="math inline">\(n\)</span> ir tieši <span class="math inline">\(125\)</span> naturāli dalītāji (ieskaitot <span class="math inline">\(1\)</span> un pašu <span class="math inline">\(n\)</span>). Kādu visaugstākās pakāpes sakni noteikti var izvilkt no <span class="math inline">\(n\)</span>, iegūstot naturālu rezultātu?</p>
+<p><em>Ierakstīt naturālu skaitli (saknes pakāpi) vai skaitli <span class="math inline">\(1\)</span>, ja neviena augstākas pakāpes sakne <span class="math inline">\(\sqrt[k]{n}\)</span> (<span class="math inline">\(k&gt;1\)</span>) nav garantēti vesela:</em> _____</p>
+<!--
+
+## <lo-quiz/> Jautājums Nr.1: Atrisinājums
+
+<div style="font-size:100%">
+
+$125$ var izteikt kā reizinājumu 
+vairākiem skaitļiem (kas
+pārsniedz $1$) sekojošos veidos:
+
+* $125 = 124+1$.
+* $125 = 25 \cdot 5 = (24 + 1) \cdot (4+1)$.
+* $125 = 5 \cdot 5 \cdot 5 = (4+1) \cdot (4+1) \cdot (4+1)$.
+
+Tādēļ skaitli $n$ var sadalīt pirmreizinātājos 
+vienā no sekojošiem veidiem: 
+
+$$n = p^{124},\;\;n = p^{24}q^4\;\;\text{vai}\;\;n = p^{4}q^4r^4,$$
+
+kur $p,q,r$ ir pirmskaitļi. Visos gadījumos var izvilkt 4.pakāpes sakni.
+
+</div>
+
+--></section>
 <section id="section-3" class="title-slide slide level1"><h1> </h1><hgroup>
 <h1 style="font-size:32pt">
 Skaitļu teorija:<br/> NMS Juniori 2019-09-28
@@ -940,11 +986,20 @@ Skaitļu teorija:<br/> NMS Juniori 2019-09-28
 <p>Lai noskaidrotu, vai konkrēts skaitlis <span class="math inline">\(n\)</span> ir pirmskaitlis, Eratostena režģis nav praktisks algoritms (jo tas meklē visus pirmskaitļus, kas par to mazāki).</p>
 </aside>
 </section></section>
-<section><section id="jautājums-nr.2" class="title-slide slide level1"><h1><lo-quiz/> Jautājums Nr.2</h1><p>Kādā no Eratostena režģa veidošanas soļiem tiek izsvītroti visi pirmskaitļa <span class="math inline">\(13\)</span> daudzkārtņi. Kurš no šajā solī izsvītrotajiem skaitļiem ir pirmais starp tiem, kuru izsvītro pirmoreiz (kurš nav izsvītrots kādā no agrākiem soļiem).</p>
-<p><em>Ierakstīt naturālu skaitli:</em> _____</p></section><section id="jautājums-nr.2-atrisinājums" class="slide level2">
-<h2><lo-quiz/> Jautājums Nr.2: Atrisinājums</h2>
-<p>Skaitļa <span class="math inline">\(13\)</span> daudzkārtņi, kas tiek izsvītroti ir <span class="math inline">\(26,39,52,\ldots\)</span>. Mazākais no šiem skaitļiem, kas nedalās ar nevienu citu pirmskaitli <span class="math inline">\(p &lt; 13\)</span> ir <span class="math inline">\(13^2 = 169\)</span>. Tam seko arī <span class="math inline">\(13 \cdot 17\)</span> un daudzi citi piemēri, kurus šajā solī izsvītro pirmoreiz.</p>
-</section></section>
+<section id="jautājums-nr.2" class="title-slide slide level1"><h1><lo-quiz/> Jautājums Nr.2</h1><p>Kādā no Eratostena režģa veidošanas soļiem tiek izsvītroti visi pirmskaitļa <span class="math inline">\(13\)</span> daudzkārtņi. Kurš no šajā solī izsvītrotajiem skaitļiem ir pirmais starp tiem, kuru izsvītro pirmoreiz (kurš nav izsvītrots kādā no agrākiem soļiem).</p>
+<p><em>Ierakstīt naturālu skaitli:</em> _____</p>
+<!--
+
+## <lo-quiz/> Jautājums Nr.2: Atrisinājums
+
+Skaitļa $13$ daudzkārtņi, kas tiek izsvītroti 
+ir $26,39,52,\ldots$. Mazākais no šiem skaitļiem, 
+kas nedalās ar nevienu citu pirmskaitli $p < 13$
+ir $13^2 = 169$. Tam seko arī $13 \cdot 17$ un 
+daudzi citi piemēri, kurus šajā solī izsvītro
+pirmoreiz.
+
+--></section>
 <section><section id="ulama-spirāle" class="title-slide slide level1"><h1><lo-yellow/> Ulama spirāle</h1><hgroup>
 <figure>
 <img data-src="ulam-spiral.png" alt="Ulam spiral" /><figcaption>Ulam spiral</figcaption>
@@ -1120,7 +1175,18 @@ Skaitļu teorija:<br/> NMS Juniori 2019-09-28
 <span style="color:darkgreen"><strong>(7) Bezū lemma</strong></span><br />
 <span>(8) <a href="#/section-7">Mājasdarba uzdevumi</a></span><br />
 <span>(9) <a href="#/section-8">Kopsavilkums</a></span></p>
-</hgroup></section>
+</hgroup>
+<!--
+
+Ja viens dalītājs lielāks par sqrt(n), tad citi noteikti ir mazāki par sqrt(n). 
+
+Ģeometriska progresija - galīgas summas formula
+
+Vidējais aritmētiskais/vidējais ģeometriskais
+
+
+
+--></section>
 <section id="section-7" class="title-slide slide level1"><h1> </h1><hgroup>
 <h1 style="font-size:32pt">
 Skaitļu teorija:<br/> NMS Juniori 2019-09-28

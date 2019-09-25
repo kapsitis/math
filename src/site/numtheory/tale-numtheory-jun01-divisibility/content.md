@@ -39,11 +39,14 @@ pirmreizinātājos, u.c.
 *Par ko var veidot animācijas:*
 
 1. Ūdens laistīšanas uzdevums un/vai "atstarošanās uzdevums" (kā ar 8L un 13L krūzēm nomērīt tieši 1L).
-2. Skapīšu durvju vēršanas animācija (sk. Piemēru nr.2 jeb 19.slaidu).
+2. Skapīšu durvju vai slēdžu pārslēgšanas
+animācija (sk. NT.JUN01.1).
 3. Eratostena režģa animācija.
 4. Eiklīda algoritma animācija jebkādiem skaitļiem.
 5. Tipiska un vissliktākā Eiklīda algoritma ātrdarbība, rekursīvo izsaukumu skaits šajā algoritmā.
-
+6. Dalītāju režģis 3 vai 4 dimensijās - kā lielam 
+skaitlim, piemēram, formā $p^aq^br^c$
+pamazām (augošā secībā) atklājas visu tā dalītāju kopums.
 
 :::
 
@@ -489,10 +492,19 @@ funkcijas $\sigma_0(n)$, $\sigma_1(n)$ un $\sigma_2(n)$
 ar šādām vienādībām: 
 
 $$\begin{array}{rcl}
-\sigma_0(n) & = & \sum\limits_{d \mid n} 1,\\
+\sigma_0(n) & = & \sum\limits_{d \mid n} 1 = \sum\limits_{d \mid n} d^0,\\
 \sigma_1(n) & = & \sum\limits_{d \mid n} d,\\
 \sigma_2(n) & = & \sum\limits_{d \mid n} d^2,
 \end{array}$$
+
+Apzīmējums $\sum\limits_{d \mid n}\ldots$ nozīmē, 
+ka summējam izteiksmi ($1$, $d$, $d^2$ utml.) 
+ikvienam skaitlim $d$, kurš ir $n$ dalītājs.
+
+Piemēram, $\sigma_0(n)$, kurā summē dalītāju $0$-tās
+pakāpes jeb vieniniekus nozīmē vienkārši skaitļa
+$n$ dalītāju skaitu.
+
 
 ## <lo-summamry/> Piemēri ar n=60
 
@@ -511,7 +523,7 @@ $$ + 15^2 + 20^2 + 30^2 + 60^2  = 5460.$$
 ![Divisors of 60](divisors-of-60.png)
 
 </hgroup>
-<hgroup>
+<hgroup style="font-size:70%">
 
 * Dalītāju skaitu var atrast, izmantojot *reizināšanas likumu*. 
 * Zināms, ka $60 = 2^23^15^1$.
@@ -519,11 +531,40 @@ $$ + 15^2 + 20^2 + 30^2 + 60^2  = 5460.$$
 kur $a \in \{ 0,1,2\}$, $b \in \{ 0,1 \}$, $c \in \{ 0,1 \}$. 
 * Sareizinām elementu skaitu: $3 \cdot 2 \cdot 2 = 12$.
 
+$$\sigma_0 \left( 2^{\color{#F00}{2}}3^{\color{#F00}{1}}5^{\color{#F00}{1}} \right) = (\color{#F00}{2}+1)\cdot (\color{#F00}{1}+1)(\color{#F00}{1}+1) = 12.$$
+
 </hgroup>
 
+## <lo-summary/> Dalītāju un to kvadrātu summas
+
+$\sigma_1(60)$ un $\sigma_2(60)$ arī var ātri 
+aprēķināt, izmantojot algebriskas identitātes:
+
+$$\sigma_1(60) = \left( 2^2 + 2^1 + 2^0 \right)
+\left( 3^1 + 3^0 \right) \left( 5^1 + 5^0 \right) = 
+(4+2+1)(3+1)(5+1) = 7 \cdot 4 \cdot 6 = 168.$$
+
+$$\sigma_2(60) = \left( 2^4 + 2^2 + 2^0 \right)
+\left( 3^2 + 3^0 \right) \left( 5^2 + 5^0 \right) = 
+(16+4+1)(9+1)(25+1) = 5460.$$
+
+Visu šo var iegūt no sadalījuma pirmreizinātājos:
+$60 = 2 \cdot 2 \cdot 3 \cdot 5 = 2^23^15^1$.
 
 
-## <lo-sample/> NT.JUN01.2
+
+# <lo-quiz/> Jautājums Nr.3
+
+Uz galda ir piecas kartiņas, uz katras uzrakstīts
+cits pirmskaitlis (attiecīgi $2$, $3$, $5$, $7$
+un $11$). Cik dažādos veidos var paņemt kaut kādas
+kartiņas (drīkst ņemt arī visas vai neņemt nevienu)? 
+
+*Ierakstīt veselu skaitli (variantu skaitu):* _____
+
+
+
+# <lo-sample/> NT.JUN01.2
 
 Atrast mazāko naturālo skaitli, kam ir tieši 
 $16$ dalītāji. 
@@ -553,6 +594,45 @@ Uzdevums ir atrast vismazāko no tiem.
 
 ::: 
 
+## <lo-hints/> NT.JUN01.2
+
+Ja $M = p_1^ap_2^bp_3^cp_4^d$, tam ir 
+$(a+1)(b+1)(c+1)(d+1)=16$ reizinātāji.
+Līdzīgi arī mazākam pirmreizinātāju skaitam.  
+(Ja dažādu pirmskaitļu, kas dala $M$, 
+ir vairāk kā četri, tad $M$ būtu vismaz $2^5 = 32$ 
+dalītāji, jo $M$ dalītājus var veidot, sareizinot 
+jebkuru tā pirmreizinātāju apakškopu - varbūt pat tukšu).
+
+**Stratēģija:** Gadījumu pārlase.  
+Meklējam visus veidus, kā $16$ var izteikt
+ne vairāk kā četru skaitļu reizinājumu. 
+
+## <lo-soln/> NT.JUN01.2 (1 pirmskaitlis)
+
+<hgroup>
+
+![16 divisors - Variant1](16-divisors-var1.png)
+
+</hgroup>
+<hgroup>
+
+* $16 = (15+1)$.
+* Tieši $16$ dalītāji ir skaitlim formā $p^{15}$, 
+kur $p$ ir jebkurš pirmskaitlis. 
+* Mazāko $M$ var iegūt mazākajam pirmskaitlim $p=2$. 
+* Šajā gadījumā $M = 2^{15} = 32768$.
+
+</hgroup>
+
+
+
+
+
+
+
+
+
 
 
 # <lo-quiz/> Jautājums Nr.1
@@ -566,6 +646,7 @@ $n$, iegūstot naturālu rezultātu?
 skaitli $1$, ja neviena augstākas pakāpes sakne 
 $\sqrt[k]{n}$ ($k>1$) nav garantēti vesela:* _____
 
+<!--
 
 ## <lo-quiz/> Jautājums Nr.1: Atrisinājums
 
@@ -587,6 +668,8 @@ $$n = p^{124},\;\;n = p^{24}q^4\;\;\text{vai}\;\;n = p^{4}q^4r^4,$$
 kur $p,q,r$ ir pirmskaitļi. Visos gadījumos var izvilkt 4.pakāpes sakni.
 
 </div>
+
+-->
 
 
 
@@ -758,6 +841,8 @@ no agrākiem soļiem).
 
 *Ierakstīt naturālu skaitli:* _____
 
+<!--
+
 ## <lo-quiz/> Jautājums Nr.2: Atrisinājums
 
 Skaitļa $13$ daudzkārtņi, kas tiek izsvītroti 
@@ -767,6 +852,7 @@ ir $13^2 = 169$. Tam seko arī $13 \cdot 17$ un
 daudzi citi piemēri, kurus šajā solī izsvītro
 pirmoreiz.
 
+-->
 
 
 
@@ -922,6 +1008,7 @@ $$1000 \cdot \frac{1}{\ln 10^{100}} =
 1000 \cdot \frac{1}{100 \ln 10} \approx 
 \frac{10}{\ln 10} = 4.34.$$
 
+
 ## <lo-summary/> Mazākie 101-ciparu pirmskaitļi
 
 *Piemērs:* Intervālā 
@@ -1042,6 +1129,23 @@ NMS Juniori 2019-09-28</h1>
 
 
 </hgroup>
+
+
+
+<!--
+
+Ja viens dalītājs lielāks par sqrt(n), tad citi noteikti ir mazāki par sqrt(n). 
+
+Ģeometriska progresija - galīgas summas formula
+
+Vidējais aritmētiskais/vidējais ģeometriskais
+
+
+
+-->
+
+
+
 
 
 
