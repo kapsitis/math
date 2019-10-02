@@ -4,7 +4,7 @@
 
 <h1 style="font-size:28pt">Lietišķie algoritmi</h1>
 
-<blue>Bezzudumu saspiešana - 3</blue>
+<blue>Zudumradošā saspiešana - 1</blue>
 
 </hgroup><hgroup>
 

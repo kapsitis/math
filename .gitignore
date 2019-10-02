@@ -18,6 +18,7 @@
 **/.RData
 bin/
 target/
+src/site/visualizations/powerpoints/
 src/site/algorithms/source-material/
 src/site/numtheory/source-material/
 src/site/miscellaneous/**/*.html

@@ -17,7 +17,7 @@ NMS Juniori 2019-09-28</h1>
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
 <span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
 <span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Bezū lemma](#section-6)</span>  
+<span>(7) [Kvantoru pieraksts](#section-6)</span>  
 <span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
 <span>(9) [Kopsavilkums](#section-8)</span>
 
@@ -112,7 +112,7 @@ NMS Juniori 2019-09-28</h1>
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
 <span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
 <span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Bezū lemma](#section-6)</span>  
+<span>(7) [Kvantoru pieraksts](#section-6)</span>  
 <span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
 <span>(9) [Kopsavilkums](#section-8)</span>
 
@@ -442,7 +442,7 @@ Kuriem no skaitļiem ir nepāru skaits dalītāju?
 
 Mēģiniet izvirzīt hipotēzes un tās pamatot.
 
-
+:::
 
 # &nbsp;
 
@@ -463,7 +463,7 @@ NMS Juniori 2019-09-28</h1>
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
 <span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
 <span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Bezū lemma](#section-6)</span>  
+<span>(7) [Kvantoru pieraksts](#section-6)</span>  
 <span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
 <span>(9) [Kopsavilkums](#section-8)</span>
 
@@ -482,7 +482,73 @@ lai ģeometriski iztēlotos, teiksim, lielāko kopīgo dalītāju diviem skaitļ
 
 
 
+# <lo-summary/> Dalītāju virknes simetrija
+
+<hgroup>
+
+![Divisors of 60](divisors-of-60-seq.png)
+
+![Divisors of 60 (Hasse)](divisors-of-60-hasse.png)
+
+</hgroup>
+<hgroup>
+
+![Divisors of 60](divisors-of-36-seq.png)
+
+![Divisors of 60 (Hasse)](divisors-of-36-hasse.png)
+
+
+
+</hgroup>
+
+
+::: notes
+
+* Dalītāji režģī izvietoti centrālsimetriski attiecībā 
+pret sarkano aplīti.
+* Visas dalāmības attiecības nav attēlotas ar svītriņām 
+(bet gan tikai minimāli nepieciešamās). 
+* Pārējās attiecības ir jāsecina ar "transitīvo slēgumu", 
+kad savelk visas citas bultiņas, ko var izsecināt:   
+Ja $a \mid b$ un $b \mid c$, tad $a \mid c$.
+
+Pilno kvadrātu starp visiem naturālajiem skaitļiem ir salīdzinoši 
+nedaudz. Jebkurā pietiekami garā intervālā to būs krietni 
+mazāk nekā, teiksim, pirmskaitļu.  Tādēļ lielajam vairumam 
+naturālo skaitļu ir pāru skaits dalītāju.
+
+:::
+
+
+## <lo-summary/> Hases diagrammas
+
+H.Hase (*Helmut Hasse*) spriedumos par daļēji sakārtotām 
+kopām ieviesa diagrammas, kas attēlo
+"transitīvo redukciju": 
+
+* Vispirms savieno ar svītriņu 
+visus aplīšus, kas atrodas attiecībā "mazāks". 
+* Pēc tam izdzēš tās svītriņas, ko var izsecināt 
+no citām, izmantojot transitivitāti. 
+
+![Hasse 1 to 15](hasse-1-to-15.png)
+
+
+## <lo-summary/> Veidotājelementi: 2,3,5
+
+![Hasse larger](hasse-larger.png)
+
+::: notes
+
+https://www.pinterest.com/pin/411586853439524717/?lp=true
+
+::: 
+
+
+
 # <lo-theory/> Dalītāju apkopojumu funkcijas
+
+<div style="font-size:70%">
 
 Skaitļa dalītājus mēdz dažādi apkopot, piemēram, 
 uzzinot to skaitu, summu vai augstāku pakāpju summu.
@@ -497,13 +563,14 @@ $$\begin{array}{rcl}
 \sigma_2(n) & = & \sum\limits_{d \mid n} d^2,
 \end{array}$$
 
-Apzīmējums $\sum\limits_{d \mid n}\ldots$ nozīmē, 
-ka summējam izteiksmi ($1$, $d$, $d^2$ utml.) 
-ikvienam skaitlim $d$, kurš ir $n$ dalītājs.
+Apzīmējums $\sum\limits_{d \mid n}\ldots$ summē izteiksmi
+visiem $d$, kuri ir $n$ dalītāji.
 
-Piemēram, $\sigma_0(n)$, kurā summē dalītāju $0$-tās
-pakāpes jeb vieniniekus nozīmē vienkārši skaitļa
-$n$ dalītāju skaitu.
+$\sigma_0(n)$ summē dalītāju $0$-tās
+pakāpes jeb vieniniekus - skaitļa
+$n$ dalītāju skaits.
+
+</div>
 
 
 ## <lo-summamry/> Piemēri ar n=60
@@ -531,26 +598,30 @@ $$ + 15^2 + 20^2 + 30^2 + 60^2  = 5460.$$
 kur $a \in \{ 0,1,2\}$, $b \in \{ 0,1 \}$, $c \in \{ 0,1 \}$. 
 * Sareizinām elementu skaitu: $3 \cdot 2 \cdot 2 = 12$.
 
-$$\sigma_0 \left( 2^{\color{#F00}{2}}3^{\color{#F00}{1}}5^{\color{#F00}{1}} \right) = (\color{#F00}{2}+1)\cdot (\color{#F00}{1}+1)(\color{#F00}{1}+1) = 12.$$
+$$\sigma_0 \left( 2^{\color{#F00}{2}}3^{\color{#F00}{1}}5^{\color{#F00}{1}} \right) = $$
+$$ = (\color{#F00}{2}+1)\cdot (\color{#F00}{1}+1)(\color{#F00}{1}+1) = 12.$$
 
 </hgroup>
 
 ## <lo-summary/> Dalītāju un to kvadrātu summas
 
+<div style="font-size:70%">
+
 $\sigma_1(60)$ un $\sigma_2(60)$ arī var ātri 
 aprēķināt, izmantojot algebriskas identitātes:
 
 $$\sigma_1(60) = \left( 2^2 + 2^1 + 2^0 \right)
-\left( 3^1 + 3^0 \right) \left( 5^1 + 5^0 \right) = 
-(4+2+1)(3+1)(5+1) = 7 \cdot 4 \cdot 6 = 168.$$
+\left( 3^1 + 3^0 \right) \left( 5^1 + 5^0 \right) = $$
+$$ = (4+2+1)(3+1)(5+1) = 7 \cdot 4 \cdot 6 = 168.$$
 
 $$\sigma_2(60) = \left( 2^4 + 2^2 + 2^0 \right)
-\left( 3^2 + 3^0 \right) \left( 5^2 + 5^0 \right) = 
-(16+4+1)(9+1)(25+1) = 5460.$$
+\left( 3^2 + 3^0 \right) \left( 5^2 + 5^0 \right) = $$
+$$ = (16+4+1)(9+1)(25+1) = 5460.$$
 
 Visu šo var iegūt no sadalījuma pirmreizinātājos:
 $60 = 2 \cdot 2 \cdot 3 \cdot 5 = 2^23^15^1$.
 
+</div>
 
 
 # <lo-quiz/> Jautājums Nr.3
@@ -606,7 +677,23 @@ jebkuru tā pirmreizinātāju apakškopu - varbūt pat tukšu).
 
 **Stratēģija:** Gadījumu pārlase.  
 Meklējam visus veidus, kā $16$ var izteikt
-ne vairāk kā četru skaitļu reizinājumu. 
+ne vairāk kā četru dažādu 
+pirmskaitļu (vai to pakāpju) reizinājumu. 
+
+::: notes
+
+Katram veidam, kā pašu dalītāju skaitu (t.i. skaitli $16$) 
+var izteikt kā reizinājumu, atbilst paraudziņš ar pirmeizinātājiem, 
+kuri nodrošina attiecīgo dalītāju skaitu. Piemēram, ja 16 
+izsaka kā 4 reiz 4, tad tam atbilst divu pirmskaitļu kubu 
+reizinājums. Šādam skaitlim (mūsu piemērā $216$, bet tas 
+varētu būt arī $1000$ vai jebkāds cits kubs), būs tieši 
+$16$ dalītāji, jo katrā dalītājā katrs no pirmskaitļiem 
+var tikt kāpināts jebkurā pakāpē ($0,1,2,3$). 
+
+:::
+
+
 
 ## <lo-soln/> NT.JUN01.2 (1 pirmskaitlis)
 
@@ -625,6 +712,84 @@ kur $p$ ir jebkurš pirmskaitlis.
 
 </hgroup>
 
+## <lo-soln/> NT.JUN01.2 (2 pirmskaitļi - A)
+
+<hgroup>
+
+![16 divisors - Variant1](16-divisors-var2.png)
+
+</hgroup>
+<hgroup>
+
+* $16 = (7+1)(1+1)$. 
+* Tieši $16$ dalītāji ir skaitlim formā 
+$p^7q$, kur $p,q$ ir pirmskaitļi. 
+* Mazākais šāds skaitlis ir $2^7\cdot{} 3 = 
+128 \cdot 3 = 384$. 
+
+</hgroup>
+
+
+## <lo-soln/> NT.JUN01.2 (2 pirmskaitļi - B)
+
+<hgroup>
+
+![16 divisors - Variant1](16-divisors-var3.png)
+
+</hgroup>
+<hgroup>
+
+* $16 = (3+1)(3+1)$. 
+* Tieši $16$ dalītāji ir skaitlim formā 
+$p^3q^3$, kur $p,q$ ir pirmskaitļi. 
+* Mazākais šāds skaitlis ir $2^3\cdot{} 3^3 = 
+216$.
+
+</hgroup>
+
+
+
+## <lo-soln/> NT.JUN01.2 (3 pirmskaitļi)
+
+<hgroup>
+
+![16 divisors - Variant1](16-divisors-var4.png)
+
+</hgroup>
+<hgroup>
+
+$(3+1)(1+1)(1+1)$. 
+
+* Tieši $16$ dalītāji ir skaitlim formā 
+$p^3qr$, kur $p,q,r$ ir pirmskaitļi. 
+* Mazākais šāds skaitlis ir $2^3\cdot{} 3 \cdot 5 = 
+120$.
+
+</hgroup>
+
+
+
+## <lo-soln/> NT.JUN01.2 (4 pirmskaitļi)
+
+<hgroup>
+
+![16 divisors - Variant1](16-divisors-var5.png)
+
+</hgroup>
+<hgroup>
+
+$(1+1)(1+1)(1+1)(1+1)$.  
+
+* Tieši $16$ dalītāji ir skaitlim 
+formā $pqrs$, kur $pqrs$. 
+* Mazākais šāds skaitlis ir $2 \cdot 3 \cdot 5 \cdot 7 = 210$. 
+
+**Atbilde:** Optimāls atrisinājums (mazākais skaitlis) 
+ir $120$ (trīs dažādi pirmreizinātāji, viens no 
+tiem celts trešajā pakāpē).
+
+
+</hgroup>
 
 
 
@@ -693,7 +858,7 @@ NMS Juniori 2019-09-28</h1>
 <span style="color:darkgreen">**(4) Pirmskaitļu izvietojums**</span>  
 <span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
 <span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Bezū lemma](#section-6)</span>  
+<span>(7) [Kvantoru pieraksts](#section-6)</span>  
 <span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
 <span>(9) [Kopsavilkums](#section-8)</span>
 
@@ -855,7 +1020,107 @@ pirmoreiz.
 -->
 
 
+# <lo-theory/> Pirmskaitļu ir bezgalīgi daudz
 
+**Teorēma:** Pirmskaitļu ir bezgalīgi daudz.
+
+**Pierādījums:** No pretējā. Ja pirmskaitļu būtu 
+galīgs skaits, tad eksistētu lielākais pirmskaitlis 
+$p_K$. Sareizinām visus pirmskaitļus, pieskaitām $1$:
+$$P = p_1 \cdot p_2 \cdot p_3 \cdot \ldots \cdot p_K + 1.$$ 
+
+$P$ nedalās ne ar vienu no pirmskaitļiem, kuri ir galīgajā 
+sarakstā: vienmēr atlikums $1$. Vai nu $P$ pats ir pirmskaitlis 
+vai kādu (sarakstā neesošu) pirmskaitļu reizinājums. Pretruna. 
+$\blacksquare$
+
+
+## <lo-sample/> Pārlase līdz kvadrātsaknei
+
+<hgroup>
+
+```python
+import math 
+
+def isPrime(n):
+    result = True
+    ROOT = int(math.sqrt(n))
+    for d in range(2,ROOT+1):
+        if n % d == 0:
+            result = False
+            break
+    return result
+
+print(isPrime(10000000019))
+```
+
+</hgroup>
+<hgroup>
+
+Pilnā pārlase ir ļoti neefektīva 
+(slikti strādā jau pie $n = 10^{30}$). 
+
+Labāki algoritmi: 
+
+1. [Miller-Rabin primality test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) - ap 1980.g.
+2. [Agrawal-Kayal-Saxena test](https://en.wikipedia.org/wiki/AKS_primality_test) - ap 2002.g.
+
+</hgroup>
+
+
+# <lo-sample/> NT.JUN01.3
+
+Vai eksistē $1000$ pēc kārtas sekojoši skaitļi, kuri visi ir salikti?
+
+::: notes
+
+Ja izvēlamies $N = 1000!+2$, tad iegūsim, ka $1000!+a$ dalās ar $a$ katram $a \in \{2,\ldots 1000 \}$. Arī $1000! + 1001$ ir salikts skaitlis, jo abi saskaitāmie dalās, teiksim, ar $11$ (dalāmības pazīme ar $11$). 
+
+Viegli redzēt, ka var izveidot vēl garākus intervālus bez pirmskaitļiem – piemēram, izvēloties ļoti lielu skaitļu faktoriālus. Vienīgi skaitļi šajos intervālos parasti ir ļoti lieli. Pirmskaitļu blīvums, skaitļiem pieaugot, samazinās, bet dara to ļoti pakāpenski. 
+
+:::
+
+
+## <lo-hints/> NT.JUN01.3
+
+* Jāatrod intervāls $[N, N+1, \ldots, N+999]$, 
+kurā visi skaitļi ir salikti. 
+* Vai $N$ var izvēlēties tā, lai tas dalītos ar $2,3,\ldots,999$?
+* Varētu izvēlēties $N = 1000!$, bet neskaidrs par $N+1$.
+
+
+## <lo-soln/> NT.JUN01.3
+
+$p=997$ ir lielākais pirmskaitlis, kam $p \leq 1001$
+($999$ un $1001$ nav pirmskaitļi - dalās ar $9$ un $11$).  
+Dalāmības pazīme ar $11$?  
+$1001 = 11 \cdot 91 = 11 \cdot 7 \cdot 13$. 
+
+Tad der $N = 997! + 2$. Piemēram: 
+$$N + 999 = 997! + 2 + 999 = 997! + 1001 = $$
+$$ = 1001 \cdot \left\( \frac{1}{7 \cdot 11 \cdot 13} 997! + 1 \right)$$
+
+
+# <lo-sample> NT.JUN01.4
+
+Pierādīt, ka ir bezgalīgi daudz nepāru pirmskaitļu, kas
+izsakāmi formā $4k+3$ (dod atlikumu $3$, dalot ar $4$). 
+
+## <lo-soln/> NT.JUN01.4
+
+TODO: Pamatot līdzīgi kā pierādījumā par bezgalīgo pirmskaitļu skaitu. 
+
+## <lo-theory/> Dirihlē teorēma par pirmskaitļiem
+
+**Dirihlē teorēma:** Ja $a$ un $d$ ir savstarpēji pirmskaitļi, 
+tad bezgalīgā aritmētiskā progresijā
+$$a, a+d, a+2d, a+3d, \ldots$$
+ir bezgalīgi daudz pirmskaitļu. 
+
+Dažām $a$ un $d$ vērtībām šo teorēmu var pierādīt ar elementārām 
+metodēm (nupat redzējām pie $a=3$ un $d=4$). Bet vispārīgajā 
+gadījumā ir piemērotākas matemātiskās analīzes metodes, 
+kas izietu ārpus mūsu kursa.
 
 
 
@@ -890,6 +1155,9 @@ visas vērtības ir pirmskaitļi.
 **Definīcija:** Par $n$-to Fermā skaitli 
 ($n \geq 0$) sauc $F_n = 2^{2^n}+1$. 
 
+P.Fermā (*Pierre de Fermat*, 1607-1665) 
+izteica hipotēzi, ka visi $F_n$ ir pirmskaitļi.
+
 </hgroup>
 <hgroup style="font-size:70%">
 
@@ -902,8 +1170,9 @@ zināmie pirmskaitļi:
 * $F_3 = 2^{2^3} + 1 = 2^8 + 1 = 257$,
 * $F_4 = 2^{2^4} + 1 = 2^{16} + 1 = 65537$.
 
-Bet jau $F_5 = 2^{2^5} + 1 = 2^{32} + 1 =$
-$=4\,294\,967\,297 = 641 \cdot 6\,700\,417$ nav pirmskaitlis.
+Jau $F_5 = 2^{2^5} + 1 = 2^{32} + 1 =$
+$=4\,294\,967\,297 = 641 \cdot 6\,700\,417$ nav pirmskaitlis.  
+(Leonards Eilers (Leonhard Euler), 1707-1783). 
 
 ::: notes
 
@@ -915,9 +1184,84 @@ Daudziem citiem ir zināmi daži dalītāji;
 atklāto/zināmo dalītāju skaits tiek 
 regulāri papildināts.
 
+Skaitļi formā $2^k + 1$ nevar būt pirmskaitļi, 
+ja kāpinātājam $k$ ir kāds nepāru dalītājs, kas lielāks par $1$, jo 
+šajā gadījumā var dalīt reizinātājos, izmantojot
+algebriskas identitātes $a^3 + 1^3$, $a^5 + 1^5$ utml.
+Tātad pats kāpinātājs $k$ (lai sanāktu kaut kas interesants, 
+kas nedalās reizinātājos pavisam triviāli)
+noteikti ir divnieka pakāpe.
+
 :::
 
-## <lo-yellow/> Nenopietns piemērs
+
+# <lo-sample/> Andreescu2006.1.77
+
+Pierādīt, ka naturāliem skaitļiem $m$ un $n$, 
+kam $m > n$, Fermā skaitlis $F_m - 2$ noteikti 
+dalās ar $F_n$. 
+
+## <lo-soln/> Andreescu2006.1.77
+
+Atkārtoti lietojam kvadrātu starpības formulu dalīšanai 
+reizinātājos: 
+$$F_m - 2 = 2^{2^m} + 1 - 2 = 2^{2^m} - 1 = $$
+$$=\left( 2^{2^{m-1}} - 1 \right) \left( 2^{2^{m-1}} + 1 \right) = 
+\left( F_{m-1} - 2 \right) F_{m-1}.$$
+
+Ja arī $m - 1 > n$, tad līdzīgu spriedumu atkārto vēlreiz, 
+dalot reizinātājos $F_{m-1} - 2$ utt. Katrā 
+solī redzam, ka uzrodas reizinātāji $F_{m-1}$, $F_{m-2}$ utt. 
+Kāds no šiem reizinātājiem būs tieši $F_n$. $\blacksquare$
+
+## <lo-sample/> Andreescu2006.1.78
+
+Dažādiem naturāliem $m$ un $n$, skaitļi $F_m$ un $F_n$ ir
+savstarpēji pirmskaitļi.  
+(Piemēram, $F_5$ dalās ar $641$. Tātad neviens cits Fermā 
+skaitlis nevar dalīties ar $641$.)
+
+## <lo-soln/>  Andreescu2006.1.78
+
+Pieņemsim, ka $m>n$. Tad $F_m - 2$ dalās ar $F_n$. 
+Iegūstam: 
+$$\text{LKD}(F_m,F_n) = \text{LKD}((F_m -2) + 2,F_n) = $$
+$$\text{LKD}(2,F_n) = 1.$$
+
+$\blacksquare$
+
+
+## <lo-summary/> Perfektie skaitļi
+
+**Definīcija:** Skaitli sauc par <blue>*perfektu*</blue>, 
+ja tas vienāds ar visu savu dalītāju summu (izņemot sevi pašu). 
+
+**Piemēri:** $6 = 1+2+3$; $28 = 1 + 2 + 4 + 7 + 14$. 
+
+**Teorēma (Eiklīds):** Ja $2^p - 1$ ir pirmskaitlis, tad
+$2^{p-1}(2^p - 1)$ ir perfekts. 
+
+**Teorēma (Eilers):** Visi pāru perfektie skaitļi izsakāmi 
+formā $2^{p-1}(2^p - 1)$. 
+
+
+## <lo-summary/> Perfektie skaitļi - 2
+
+<table>
+<tr><th>Pirmskaitlis $p$</th><th>$2^{p-1}(2^p - 1)$ vērtība</th></tr>
+<tr><td>$p = 2$</td><td>$6_{10} = 110_{2}$</td></tr>
+<tr><td>$p = 3$</td><td>$28_{10} = 11100_{2}$</td></tr>
+<tr><td>$p = 5$</td><td>$496_{10} = 111110000_{2}$</td></tr>
+<tr><td>$p = 7$</td><td>$8128_{10} = 1111111000000_{2}$</td></tr>
+<tr><td>$p = 13$</td><td>$33550336_{10} = 1111111111111000000000000_{2}$</td></tr>
+</table>
+
+Ar $p=11$ nesanāk, jo $2^{11} - 1 = 2047 = 23 \cdot 89$. 
+
+
+
+
+# <lo-yellow/> Nenopietns piemērs
 
 Polinoms $f(x) = x^2 + x + 41$ 
 visiem argumentiem $x = 0,1,\ldots,39$
@@ -929,6 +1273,28 @@ Ar modulāro aritmētiku iespējams
 pamatot, ka $x^2 + x + 41$ (kur $x \in \mathbb{N}$) 
 nevar dalīties
 ne ar vienu pirmskaitli $p < 41$. 
+
+
+::: notes
+
+Joprojām nepastāv viegli uzrakstāma formula
+(piemēram, izmantojot elementārās funkcijas, 
+veselās daļas u.c.), kuras vērtību 
+kopa būtu bezgalīga un saturētu tikai pirmskaitļus. 
+
+Protams, nav jēgas meklēt tādas starp polinomiem. 
+Tomēr izrādās, ka daži polinomi 
+starp savām vērtībām satur neparasti daudz pirmskaitļu.
+
+
+::: 
+
+## <lo-yellow/> Kvadrātfunkcijas vērtības
+
+TODO: Vizualizācija, kur $x^2 + x + 41$ vērtības
+atliktas uz Ulama spirāles.
+
+
 
 
 
@@ -996,7 +1362,31 @@ tā grafiks $x$ asi krusto $45^{\circ}$ leņķī.
 
 ## <lo-summary/> Mazākie 101-ciparu pirmskaitļi
 
+<div style="font-size:70%">
+
 ![Marcis Bendiks](marcis-bendiks.png)
+
+Ja saldējumu ar rozīnēm (vidēji $5$ rozīnes
+uz vienu saldējuma masas vienību) vienmērīgi izmaisa, 
+tad rozīņu skaits saldējuma vienībā pakļaujas
+<blue>*Puasona sadalījumam*</blue>
+(*Poisson distribution*) ar parametru $\lambda=5$). 
+
+Ja aplūkojam skaitļu porcijas pa $100$, tad 
+pie $N=e^{20} \approx 485\,165\,195$ 
+šim skaitlim $N$ tuvajos $100$ skaitļu komplektos
+būs vidēji $5$ pirmskaitļi (bet mēdz būt arī vairāk 
+vai mazāk).
+
+</div>
+
+## <lo-summary/> Vizualizācija ar simtniekiem
+
+TODO: Uzzīmēt tabuliņā $5 \times 10$ režģi
+ar visiem nepāru skaitļiem. Iekrāsot tajā pirmskaitļus. 
+
+
+## <lo-yellow/> Mazākie 101-ciparu pirmskaitļi
 
 * "Varbūtība", ka skaitlis, kas tuvu $10^{100}$ ir 
 pirmskaitlis, apgriezti proporcionāla 
@@ -1009,7 +1399,7 @@ $$1000 \cdot \frac{1}{\ln 10^{100}} =
 \frac{10}{\ln 10} = 4.34.$$
 
 
-## <lo-summary/> Mazākie 101-ciparu pirmskaitļi
+## <lo-yellow/> Mazākie 101-ciparu pirmskaitļi
 
 *Piemērs:* Intervālā 
 ${\displaystyle \left[ 10^{100},10^{100} + 1000 \right)}$
@@ -1065,12 +1455,170 @@ NMS Juniori 2019-09-28</h1>
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
 <span style="color:darkgreen">**(5) Aritmētikas pamatteorēma**</span>  
 <span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Bezū lemma](#section-6)</span>  
+<span>(7) [Kvantoru pieraksts](#section-6)</span>  
 <span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
 <span>(9) [Kopsavilkums](#section-8)</span>
 
 
 </hgroup>
+
+# <lo-theory/> Aritmētikas pamatteorēma - 1
+
+**Teorēma:** Katrs naturāls skaitlis $n > 1$ ir vai nu pirmskaitlis, 
+vai arī ir izsakāms pirmskaitļu reizinājumā, pie tam šis reizinājums
+ir viens vienīgs (ja neņem vērā reizinātāju secību). 
+
+**Eksistence:** Ar indukciju:  
+Ja $n=2$, tad apgalvojums ir spēkā, jo $2$ ir pirmskaitlis.  
+Pieņemam, ka apgalvojums ir spēkā visiem $k < n$. Pamatosim, ka
+tas izpildās arī skaitlim $n$.  
+Ja $n$ ir pirmskaitlis, tad tas jau ir šādi izteikts. Savukārt, ja
+$n = ab$ (kur $a,b > 1$), tad abus $a$ un $b$ jau protam izteikt. 
+$\square$  
+(Vai sadalījums ir viens vienīgs - sk. tālāk.)
+
+
+## <lo-summary/> Sadalīšanas piemēri
+
+<hgroup>
+
+![Factoring 12](factoring-12.png)
+
+Kāpēc neatkarīgi no <blue>*factorizēšanas*</blue>
+secības, vienmēr sanāk tas pats?  
+(Par faktorizēšanu sauc dalīšanu reizinātājos.)
+
+</hgroup>
+<hgroup>
+
+$$12 = 2 \cdot 6= 2 \cdot 2 \cdot 3.$$
+$$12 = 3 \cdot 4 = 3 \cdot 2 \cdot 2.$$
+$$3 \cdot 2 \cdot 2 \cdot \color{#F00}{1} \cdot \color{#F00}{1} \cdot \color{#F00}{1}.$$
+
+$$3 \cdot 2 \cdot 2 \cdot \color{#F00}{(-1)} \cdot \color{#F00}{(-1)}.$$
+
+
+</hgroup>
+
+::: notes
+
+Lielu skaitļu (100 un vairāk ciparu) dalīšana reizinātājos 
+ir datoram grūti veicams uzdevums. 
+
+Pirmskaitļi te līdzinās atomiem ķīmijā. Ķīmiski tīra viela 
+(neatkarīgi no sadalīšanas veida un soļiem) 
+dod elementu atomus, kuru skaits attiecas kā 
+nelieli veseli skaitļi. Līdzīgi kā ūdens 
+molekulu veido divi ūdeņraža un viens skābekļa
+atoms, skaitli $12$ veido divi pirmskaitļa $2$ 
+atomi un viens pirmskaitļa $3$ atoms. 
+
+::: 
+
+
+## <lo-summary/> Skaitļa 90 faktorizācija
+
+![Factoring 90](factoring-90.png)
+
+Ļoti dažādi veidi, kā nonākt līdz pirmskaitļu reizinājumam.
+
+
+::: notes
+
+Fakts, ka ikvienu naturālu skaitli var tieši vienā veidā izteikt kā (viena vai vairāku) pirmskaitļu reizinājumu, nav triviāls vai pašsaprotams. Tas izriet no vairākām naturālu skaitļu aritmētikā esošām īpašībām (kas tieši **neizriet** no reizināšanas vai dalīšanas attiecības). Pierādījums izmanto naturālu skaitļu sakārtojumu (starp skaitļiem var atrast vismazāko), izmanto iespēju dalīt ar atlikumu. Ir iespējamas tādas īpatnēju "skaitļu" kopas, kurās aritmētikas pamatteorēma neizpildās.
+
+Sk. [Factor trees](http://donsteward.blogspot.dk/2012/04/factor-trees.html).
+
+:::
+
+
+
+## <lo-theory/> Aritmētikas pamatteorēma - 2
+
+<div style="font-size:70%">
+
+**Viennozīmība:** Pieņemsim, ka $s > 1$ izsakāms divos 
+dažādos veidos:
+$$s = p_1p_2\cdots{}p_m,$$
+$$s = q_1q_2\cdots{}q_n.$$
+Jāparāda, ka $m=n$ un $q_j$ ir tie paši, kas $p_j$
+(iespējams, citā secībā). Pēc 
+<blue>*Eiklīda lemmas*</blue> $p_1$ dala vienu no $q_j$. 
+Pārnumurējam tā, lai $p_1$ dalītu $q_1$. 
+
+Tā kā $q_1$ arī ir pirmskaitlis, tad $p_1 = q_1$. 
+Dalām abas vienādības ar $p_1$. Iegūstam:
+
+$$s_1 = p_2\cdots{}p_m,$$
+$$s_1 = q_2\cdots{}q_n.$$
+
+Tagad tāpat var pamatot, ka $p_2 = q_2$, utt. $\blacksquare$
+
+</div>
+
+
+## <lo-theory/> Eiklīda lemma
+
+**Eiklīda lemma:** Ja pirmskaitlis $p$ dala divu veselu skaitļu 
+reizinājumu $ab$, tad $p$ dala vismaz vienu no skaitļiem $a$ vai $b$. 
+
+**Pierādījums:** Pieņemsim, ka $p$ un $a$ ir savstarpēji pirmskaitļi. 
+(Ja $\text{LKD}(p,a)>1$, tad $p$ dalītu $a$). Pēc 
+<blue>Eiklīda algoritma
+jebkuriem savstarpējiem pirmskaitļiem 
+$p,a$ var atrast tādus veselus $x$ un $y$, ka   
+$px + ay = 1$.
+
+Tā kā $pxb$ dalās ar $p$
+un $ayb = (ab)y$ dalās ar $p$, tad arī summa 
+$pxb + ayb = (px+ay)b = 1 \cdot b = b$ dalās ar $p$. 
+$\blacksquare$
+
+::: notes
+
+Sakarību $px+ay=1$ (katriem diviem savstarpējiem pirmskaitļiem $p$ un $a$ var izveidot lineāru kombināciju, kas vienāda ar $1$) sauc par Bezū (Bézout's) identitāti.
+
+:::
+
+
+
+
+
+
+# <lo-theory/> Patoloģisks piemērs
+
+<div style="font-size:70%">
+
+Ieviešam skaitļu kopu $a + b\sqrt{-5}$, kur $a,b$ ir veseli skaitļi.  
+Divu skaitļu $a_1 + b_1\sqrt{-5}$ un $a_2 + b_2\sqrt{-5}$ reizinājums
+atkal ir skaitlis no šīs kopas. Tātad arī šajā kopā var
+dalīt skaitļus reizinātājos; definēt "pirmskaitļus" $p$ (kuriem 
+vienīgie dalītāji ir $1$,$-1$,$p$,$-p$).
+
+$$6 = 2 \cdot 3.$$
+$$6 = (1 - \sqrt{-5})(1 + \sqrt{-5}) = 1^2 - (\sqrt{5})^2 = 1-(-5)=6.$$
+
+Skaitli $6$ var sadalīt pirmreizinātājos divos dažādos veidos!
+
+*Šajā komplekso skaitļu apakškopā var nodarboties ar skaitļu reizināšanu 
+un pat definēt "pirmskaitļus". Bet tajā nepastāv iespēja skaitļus 
+salīdzināt ar $<$ un $>$, nevar dalīt ar atlikumu, nepastāv arī Eiklīda lemma.* 
+
+</div>
+
+
+# <lo-sample/> NT.JUN01.4
+
+Pamatot, ka skaitļi $p_1 = 2$, $p_2 = 3$, $p_3 = 1 - \sqrt{-5}$ un 
+$p_4 = 1 + \sqrt{-5}$ 
+ir "pirmskaitļi" skaitļu kopā
+$$\left\{ a + b\sqrt{-5}\,\mid\,a,b \in \mathbb{Z} \right\}.$$
+
+Citiem vārdiem: Ja kādu no šiem $p_i$ ($i=1,2,3,4$) var izteikt kā reizinājumu:
+$$p_i = (a + b\sqrt{-5})(c + d\sqrt{-5}),$$
+tad vai nu viens, vai otrs reizinātājs ir $+1$ vai $-1$.
+
+
 
 
 
@@ -1094,12 +1642,25 @@ NMS Juniori 2019-09-28</h1>
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
 <span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
 <span style="color:darkgreen">**(6) LKD un MKD**</span>  
-<span>(7) [Bezū lemma](#section-6)</span>  
+<span>(7) [Kvantoru pieraksts](#section-6)</span>  
 <span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
 <span>(9) [Kopsavilkums](#section-8)</span>
 
 
 </hgroup>
+
+
+
+# <lo-summary/> Intuīcija par MKD
+
+![Venn Diagram for Divisors](venn-for-divisors.png)
+
+
+Aplūkojot visus divu skaitļu kopīgos dalītājus (vai dalāmos), izrādās, ka 
+starp tiem vienmēr ir noteiktas sakarības, 
+ko var ļoti kompakti aprakstīt, atrodot lielāko kopīgo dalītāju
+(attiecīgi mazāko kopīgo dalāmo).
+
 
 
 
@@ -1123,7 +1684,7 @@ NMS Juniori 2019-09-28</h1>
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
 <span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
 <span>(6) [LKD un MKD](#section-5)</span>  
-<span style="color:darkgreen">**(7) Bezū lemma**</span>  
+<span style="color:darkgreen">**(7) Kvantoru pieraksts**</span>  
 <span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
 <span>(9) [Kopsavilkums](#section-8)</span>
 
@@ -1144,11 +1705,142 @@ Vidējais aritmētiskais/vidējais ģeometriskais
 
 -->
 
+# <lo-theory/> Predikāti
+
+<div style="font-size:70%">
+
+Skaitļu teorijas apgalvojumus var īsi pierakstīt ar 
+predikātu loģikas formulām. Šīs formulas sastāv no divām daļām:   
+(1) "predikāta" - izteikuma, kurā ietilpst parametri,  
+(2) viena vai vairākiem "kvantoriem" (vai apgalvojums
+attiecas uz kaut kādu parametra vērtību, vai arī - uz visām parametra
+iespējamām vērtībām).
+
+**Definīcija:** Par <blue>*predikātu*</blue> sauc tādu apgalvojumu, kura patiesums var 
+būt atkarīgs no mainīgo vērtībām. 
+
+* $a \mid b$ ir predikāts, kas definēts pie $a,b \in \mathbb{N}$ (dažreiz dalās, citreiz nedalās)
+* $\text{mirstīgs}(x)$ ir predikāts, kas definēts, ja $x$ pieder cilvēku kopai.  
+(Tā kā visi cilvēki ir mirstīgi, tad vērtība ir konstante `True`.)
+
+</div>
 
 
+## <lo-theory/> Universālais kvantors
+
+<div style="font-size:70%">
+
+**Definīcija:** 
+Pieraksts $(\forall a \in A)(P(a))$ apgalvo, ka predikāts $P(a)$ ir 
+spēkā visiem $a \in A$. 
+Izteiksmes daļu $(\forall a \in A)$ sauc par 
+<blue>**universālo kvantoru**</blue> (*universal quantifier*) 
+mainīgajam $a$. 
+
+Ja $P(a,b)$ ir predikāts ar diviem mainīgajiem, tad 
+pieraksts $(\forall a \in A)(P(a,b))$ ir apgalvojums, kura 
+patiesums atkarīgs tikai no parametra $b$. Parametrs $a$ formulā joprojām 
+ietilpst, bet tas ir "saistīts" mainīgais - tas (līdzīgi kā indekss `i` programmēšanas
+ciklā) pārskrien visas iespējamās vērtības $a \in A$. 
+
+* $(\forall c \in C)(\text{mirstīgs}(c))$ ir patiess, ja $C$ ir visu cilvēku kopa.
+* $(\forall n \in \mathbb{N})\left( (2n+1)^2 \equiv 1\,(\text{mod}\;8) \right)$ ir patiess, 
+jo visu nepāru skaitļu kvadrāti $(2n+1)^2$ tiešām dod atlikumu $1$, dalot ar $8$.
+* $(\forall n \in \mathbb{N})(a\,\mid\,n)$ ir patiess apgalvojums tad, 
+ja $a=1$ ($1$ ir jebkura naturāla skaitļa dalītājs), bet aplams, ja $a=2$,
+jo visi $n \in \mathbb{N}$ nav pāra skaitļi.
+
+</div>
+
+## <lo-theory/> Eksistences kvantors
+
+**Definīcija:** 
+Pieraksts $(\exists a \in A)(P(a))$ apgalvo, ka predikāts $P(a)$ ir 
+spēkā vismaz vienai vērtībai $a \in A$. 
+Izteiksmes daļu $(\exists a \in A)$ sauc par 
+<blue>**eksistences kvantoru**</blue> (*existential quantifier*) 
+mainīgajam $a$. 
+
+**Piemērs:** Naturālu skaitļu virkni $a_1,a_2,\ldots$ sauc par ierobežotu, ja
+$$(\exists M \in \mathbb{N})(\forall n \in \mathbb{N})(a_n \leq M).$$ 
+Saki: Eksistē naturāls $M$ (virknes augšējā robeža), ka visiem $n$ 
+$a_n$ nepārsniedz $M$.
 
 
+## <lo-theory/> Kopu apzīmējumi
 
+<div style="font-size:70%">
+
+Var ieviest arī pierakstu kopām, kas definēta ar predikātu.
+
+**Piemērs:** Skaitlis $p$ ir pirmskaitlis, ja izpildās: 
+
+$$(\forall n \in \mathbb{N})\left( 1 < n < p\,\Rightarrow\, p \not\equiv 0\,(\text{mod}\;n) \right).$$
+**Saki:** Visiem naturāliem $n$, ja $n$ ir starp $1$ un $p$, tad $p$ nedalās ar $n$ bez atlikuma.
+
+Tālāk definējam $\mathbb{P}$ - visu pirmskaitļu kopu. 
+
+$$\mathbb{P} = \left\{ p \in \mathbb{N}\,\mid\, \color{#F00}{(\forall n \in \mathbb{N})\left( 1 < n < p\,\Rightarrow\, p \not\equiv 0\,(\text{mod}\;n) \right)} \right\}.$$
+**Saki:** $\mathbb{P}$ ir visu tādu naturālo $p$ kopa, ka - 
+visiem naturāliem $n$, ja $n$ ir starp $1$ un $p$, tad $p$ nedalās ar $n$ bez atlikuma.
+
+</div>
+
+## <lo-summary/> Tēvu kopa
+
+Definējam apzīmējumu: $\text{hasFather(x,y)}$ ir predikāts, kas apgalvo, 
+ka $x$'am ir tēvs $y$. Šeit $x,y \in C$, kur $C$ - visu jebkad dzīvojušo 
+cilvēku kopa.
+
+Pārtulkosim par latviski šādas predikātu loģikas formulas:
+
+* $(\forall x \in C)(\exists y \in C)(\text{hasFather}(x,y))$.
+* $(\forall y \in C)(\exists x \in C)(\text{hasFather}(x,y))$.
+* $(\exists y \in C)(\forall x \in C)(\text{hasFather}(x,y))$.
+
+
+# <lo-sample/> NT.JUN01.5
+
+<div style="font-size:70%">
+
+**Uzdevums:** Nerisinot pašu uzdevumu, pierakstīt uzdevumā meklējamo kopu šādi: 
+$$\{ a_0 \in \mathbb{N}\,\mid\,\color{#F00}{\ldots\;\ldots\;\ldots} \}.$$
+
+> **IMO.2017.1:** Katram veselam skaitlim $a_0 > 1$, 
+> definē virkni $a_0, a_1, a_2, \ldots$ visiem $n \geq 0$ ar šādu vienādību
+> $$a_{n+1} = 
+> \begin{cases}
+> \sqrt{a_n} & \text{ja } \sqrt{a_n} \text{ ir vesels,} \\
+> a_n + 3 & \text{citos gadījumos.}
+> \end{cases}$$
+> Noteikt visas tās $a_0$ vērtības, kurām eksistē 
+> skaitlis $A$, ka $a_n = A$ bezgalīgi daudzām $n$ vērtībām. 
+
+*Piezīme:* Virkne $a_n$ jau ir definēta; jāraksta predikātu izteiksme, 
+kurā apzīmējumu $a_n$ drīkst izmantot. 
+
+</div>
+
+
+## <lo-soln/> NT.JUN01.5
+
+$$\{ a_0 \in \mathbb{N}\,\mid\,\color{#F00}{ (\exists A \in \mathbb{N} )(\forall M \in \mathbb{N})(\exists m \in \mathbb{N}) }$$
+$$\color{#F00}{n > M \;\text{&}\;a_n = A) }\;\}.$$
+**Saki:** Visu to naturālo $a_0$ kopa, kuriem eksistē tāds naturāls $A$, 
+ka jebkuram (t.i. cik patīk lielam) naturālam $M$ atradīsies $n$, ka $n>M$ un $a_n = A$. 
+
+Ar kvantoriem var pierakstīt izteikumu "eksistē bezgalīgi daudzi $a_n$, kam ...".  
+Virknītes no $3$ vai vairāk kvantoriem, kuri turklāt mijas ($\exists\forall\exists$ - sk. augstāk), 
+parasti norāda uz vajadzību rūpīgāk izlasīt un saprast uzdevuma nosacījumu.
+
+::: notes
+
+Sarežģītību nosaka nevis pats kvantoru skaits, bet tas, cik reizes
+tie pārslēdzas uz pretējo. Piemēram, kvantoru virknīte 
+($\exists\forall\exists$) norāda uz lielāku sarežģītību nekā $(\forall\forall\forall)$
+vai ($\exists\exists\exists$).
+
+:::
 
 
 # &nbsp;
@@ -1170,7 +1862,7 @@ NMS Juniori 2019-09-28</h1>
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
 <span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
 <span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Bezū lemma](#section-6)</span>  
+<span>(7) [Kvantoru pieraksts](#section-6)</span>  
 <span style="color:darkgreen">**(8) Mājasdarba uzdevumi**</span>  
 <span>(9) [Kopsavilkums](#section-8)</span>
 
@@ -1196,6 +1888,19 @@ savstarpēji pirmskaitļi.
 ko var apgalvot par vēl mazāku skaitli: $n-1$? Kādu īpašību tas apmierina?
 
 
+## <lo-strategies/> NT.JUN01.MD1
+
+TODO: Monotonas funkcijas starp divām vērtībām. 
+Līdz kādai vietai eksistēs arvien lielākas kopas, kurās savstarpēju pirmskaitļu nav.  
+Sākot ar noteiktu mazāko $n$ (kurš uzdevumā jāatrod) - 
+savstarpēji pirmskaitļi būs neatkarīgi no $T$ izvēles, 
+ja vien $|T|=n$.
+
+
+
+
+
+
 # <lo-sample/> NT.JUN01.MD2
 
 Visiem veseliem pozitīviem skaitļiem $m > n$ pierādīt, ka 
@@ -1211,6 +1916,14 @@ un arī $m+1,n+1$ ir savstarpēji pirmskaitļi? Ja $m = 2n$?
 * Kuras nevienādības mums atgādina nevienādība ar kvadrātsakni?
 
 
+## <lo-hints/> NT.JUN01.MD2
+
+Sākam zīmēt $\text{MKD}(m,n)$ tabuliņā ($m$ ass pa labi, $n$ ass uz leju).  
+Mums interesē divu MKD summa pa diagonāli. 
+Var tai vietā skatīties 
+$$\mbox{MKD}(m,n) + \mbox{MKD}(m,n+1),$$
+ja $m >> n$.
+
 
 
 
@@ -1224,14 +1937,39 @@ ka jebkuram fiksētam naturālam skaitlim $a$ virknē $a_1+a < a_2+a < a_3 + a,\
 ir tikai galīgs skaits pirmskaitļu? 
 
 
+## <lo-reading/> NT.JUN01.MD3
+
+TODO: Attēlot neregulāru virkni, kuru nobīda pa $a$ (kur $a$ pieņem dažādas
+vērtības).  
+Izskaidrot vārdkopu "ne vairāk kā galīgs skaits" - drīkst būt arī $0$ pirmskaitļu. 
+
+
+
+
+## <lo-hints/> NT.JUN01.MD3
+
+* Vai eksistē bezgalīgi gari gabali bez pirmskaitļiem? 
+* Vai faktoriālu var lietot tīrā veidā? 
+
 
 # <lo-sample/> NT.JUN01.MD4
 
 Pierādīt, ka virkne $1,11,111,\ldots$ satur bezgalīgu apakšvirkni, 
 kuras katri divi locekļi ir savstarpēji pirmskaitļi.
 
+## <lo-yellow/> Par daudziem vieniniekiem
 
+Virkne $1,11,111,\ldots$ jebkuram skaitlim $a$ (kurš nedalās 
+ar $3$) ļauj atrast īsāko periodu, ja $1/a$ pieraksta
+kā bezgalīgu decimāldaļu. 
 
+* $111111$ dalās ar $7$. Tātad $1/7$ būs $6$-ciparu periods.
+$$1/7 = 0.(142857) = 0.142857142857142857\ldots.$$
+* $111\ldots{}111$ (tieši $40$ vieninieki) dalās ar $41$. 
+(Tas izriet no Mazās Fermā teorēmas, ko skatīsimies nākamreiz.)  
+Bet jau $11111$ dalās ar $41$. Tātad $1/41$ decimālpierakstā ir 
+daudz īsāks - $5$-ciparu periodds. 
+$$1/41 = 0.(02439) = 0.024390243902439\ldots.$$
 
 
 
@@ -1259,7 +1997,7 @@ NMS Juniori 2019-09-28</h1>
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
 <span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
 <span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Bezū lemma](#section-6)</span>  
+<span>(7) [Kvantoru pieraksts](#section-6)</span>  
 <span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
 <span style="color:darkgreen">**(9) Kopsavilkums**</span>
 

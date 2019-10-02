@@ -23,7 +23,7 @@ convert $SRCDIR/remarketing.jpg -resize 500 $DSTDIR/remarketing.jpg
 
 
 convert $SRCDIR/youtube-go-to-studio.png -resize 250 $DSTDIR/youtube-go-to-studio.png
-convert $SRCDIR/youtube-analytics-page.png -resize 400 $DSTDIR/youtube-analytics-page.png
+convert $SRCDIR/youtube-analytics-page.png -resize 300 $DSTDIR/youtube-analytics-page.png
 
 convert $SRCDIR/lab01-screenshot01.png -resize 300 $DSTDIR/lab01-screenshot01.png
 convert $SRCDIR/lab01-screenshot02.png -resize 300 $DSTDIR/lab01-screenshot02.png
