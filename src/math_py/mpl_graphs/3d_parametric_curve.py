@@ -27,7 +27,7 @@ ax.legend()
 plt.show()
 
 plt.savefig('3d_parametric_curve.png')
-plt.close(fig)
+#plt.close(fig)
 #mpimg.imsave(,fig)
 
 
