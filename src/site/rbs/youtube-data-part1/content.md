@@ -314,6 +314,13 @@ gives you a fast and programmable way to extract this data.
 
 
 
+## <lo-summary/> Abbreviated counts
+
+![https://support.google.com/youtube/thread/6543166](Abbeviated subscriber counts) - 
+"For consistency" all accounts over 1000 are displayed in 
+abbreviated format "1.4K", "23M" etc.
+
+
 # <lo-theory/> Info not structured as "metadata"
 
 * Using robots (a.k.a. crawlers, spiderbots) can save your time.

@@ -33,6 +33,11 @@ convert $SRCDIR/factoring-90.png -resize 700 $DSTDIR/factoring-90.png
 
 
 convert $SRCDIR/venn-for-divisors.png -resize 500 $DSTDIR/venn-for-divisors.png
+convert $SRCDIR/lcm-2-3-4-5-7.png -resize 600 $DSTDIR/lcm-2-3-4-5-7.png
+convert $SRCDIR/lattice-10-14.png -resize 300 $DSTDIR/lattice-10-14.png
+convert $SRCDIR/meet-and-join.png -resize 800 $DSTDIR/meet-and-join.png
+
+
 
 
 

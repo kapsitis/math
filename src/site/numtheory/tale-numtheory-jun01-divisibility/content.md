@@ -15,11 +15,13 @@ NMS Juniori 2019-09-28</h1>
 <span>(2) [Dalāmība un dalīšana](#section-1)</span>  
 <span>(3) [Dalītāju skaits](#section-2)</span>  
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
-<span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
-<span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Kvantoru pieraksts](#section-6)</span>  
-<span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
-<span>(9) [Kopsavilkums](#section-8)</span>
+<span>(5) [Mersena un Fermā skaitļi](#section-4)</span>  
+<span>(6) [Aritmētikas pamatteorēma](#section-5)</span>  
+<span>(7) [LKD un MKD](#section-6)</span>  
+<span>(8) [Kvantoru pieraksts](#section-7)</span>  
+<span>(9) [Tipisks piemērs](#section-8)</span>  
+<span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
+<span>(11) [Kopsavilkums](#section-10)</span>
 
 
 </hgroup>
@@ -110,11 +112,13 @@ NMS Juniori 2019-09-28</h1>
 <span style="color:darkgreen">**(2) Dalāmība un dalīšana**</span>  
 <span>(3) [Dalītāju skaits](#section-2)</span>  
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
-<span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
-<span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Kvantoru pieraksts](#section-6)</span>  
-<span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
-<span>(9) [Kopsavilkums](#section-8)</span>
+<span>(5) [Mersena un Fermā skaitļi](#section-4)</span>  
+<span>(6) [Aritmētikas pamatteorēma](#section-5)</span>  
+<span>(7) [LKD un MKD](#section-6)</span>  
+<span>(8) [Kvantoru pieraksts](#section-7)</span>  
+<span>(9) [Tipisks piemērs](#section-8)</span>  
+<span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
+<span>(11) [Kopsavilkums](#section-10)</span>
 
 </hgroup>
 
@@ -461,11 +465,13 @@ NMS Juniori 2019-09-28</h1>
 <span>(2) [Dalāmība un dalīšana](#section-1)</span>  
 <span style="color:darkgreen">**(3) Dalītāju skaits**</span>  
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
-<span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
-<span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Kvantoru pieraksts](#section-6)</span>  
-<span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
-<span>(9) [Kopsavilkums](#section-8)</span>
+<span>(5) [Mersena un Fermā skaitļi](#section-4)</span>  
+<span>(6) [Aritmētikas pamatteorēma](#section-5)</span>  
+<span>(7) [LKD un MKD](#section-6)</span>  
+<span>(8) [Kvantoru pieraksts](#section-7)</span>  
+<span>(9) [Tipisks piemērs](#section-8)</span>  
+<span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
+<span>(11) [Kopsavilkums](#section-10)</span>
 
 
 </hgroup>
@@ -856,11 +862,13 @@ NMS Juniori 2019-09-28</h1>
 <span>(2) [Dalāmība un dalīšana](#section-1)</span>  
 <span>(3) [Dalītāju skaits](#section-2)</span>  
 <span style="color:darkgreen">**(4) Pirmskaitļu izvietojums**</span>  
-<span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
-<span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Kvantoru pieraksts](#section-6)</span>  
-<span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
-<span>(9) [Kopsavilkums](#section-8)</span>
+<span>(5) [Mersena un Fermā skaitļi](#section-4)</span>  
+<span>(6) [Aritmētikas pamatteorēma](#section-5)</span>  
+<span>(7) [LKD un MKD](#section-6)</span>  
+<span>(8) [Kvantoru pieraksts](#section-7)</span>  
+<span>(9) [Tipisks piemērs](#section-8)</span>  
+<span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
+<span>(11) [Kopsavilkums](#section-10)</span>
 
 
 </hgroup>
@@ -1074,9 +1082,15 @@ Vai eksistē $1000$ pēc kārtas sekojoši skaitļi, kuri visi ir salikti?
 
 ::: notes
 
-Ja izvēlamies $N = 1000!+2$, tad iegūsim, ka $1000!+a$ dalās ar $a$ katram $a \in \{2,\ldots 1000 \}$. Arī $1000! + 1001$ ir salikts skaitlis, jo abi saskaitāmie dalās, teiksim, ar $11$ (dalāmības pazīme ar $11$). 
+Ja izvēlamies $N = 1000!+2$, tad iegūsim, ka $1000!+a$ dalās ar 
+$a$ katram $a \in \{2,\ldots 1000 \}$. Arī $1000! + 1001$ 
+ir salikts skaitlis, jo abi saskaitāmie dalās, teiksim, ar $11$ (dalāmības pazīme ar $11$). 
 
-Viegli redzēt, ka var izveidot vēl garākus intervālus bez pirmskaitļiem – piemēram, izvēloties ļoti lielu skaitļu faktoriālus. Vienīgi skaitļi šajos intervālos parasti ir ļoti lieli. Pirmskaitļu blīvums, skaitļiem pieaugot, samazinās, bet dara to ļoti pakāpenski. 
+Viegli redzēt, ka var izveidot vēl garākus intervālus bez 
+pirmskaitļiem – piemēram, izvēloties ļoti lielu skaitļu 
+faktoriālus. Vienīgi skaitļi šajos intervālos parasti ir ļoti lieli. 
+Pirmskaitļu blīvums, skaitļiem pieaugot, samazinās, bet šis blīvums
+samazinās ļoti lēnām.
 
 :::
 
@@ -1143,125 +1157,21 @@ uz dažām taisnēm.
 
 </hgroup>
 
-## <lo-yellow/> Formula pirmskaitļu iegūšanai
-
-<hgroup>
-
-Bijuši vairāki mēģinājumi uzrakstīt 
-kompaktu formulu (bez `for` cikliem 
-vai citiem programmēšanas paņēmieniem), kuras
-visas vērtības ir pirmskaitļi. 
-
-**Definīcija:** Par $n$-to Fermā skaitli 
-($n \geq 0$) sauc $F_n = 2^{2^n}+1$. 
-
-P.Fermā (*Pierre de Fermat*, 1607-1665) 
-izteica hipotēzi, ka visi $F_n$ ir pirmskaitļi.
-
-</hgroup>
-<hgroup style="font-size:70%">
-
-$F_0,F_1,F_2,F_3,F_4$ ir vienīgie
-zināmie pirmskaitļi: 
-
-* $F_0 = 2^{2^0} + 1 = 2^1 + 1 = 3$,
-* $F_1 = 2^{2^1} + 1 = 2^2 + 1 = 5$,
-* $F_2 = 2^{2^2} + 1 = 2^4 + 1 = 17$,
-* $F_3 = 2^{2^3} + 1 = 2^8 + 1 = 257$,
-* $F_4 = 2^{2^4} + 1 = 2^{16} + 1 = 65537$.
-
-Jau $F_5 = 2^{2^5} + 1 = 2^{32} + 1 =$
-$=4\,294\,967\,297 = 641 \cdot 6\,700\,417$ nav pirmskaitlis.  
-(Leonards Eilers (Leonhard Euler), 1707-1783). 
-
-::: notes
-
-Izņemot pirmos 5 Fermā skaitļus 
-(no $F_0$ līdz $F_4$), nav zināms neviens cits
-pirmskaitlis. Ir pilnībā sadalīti pirmreizinātājos 
-pirmie 12 šādi skaitļi – no $F_0$ līdz $F_11$. 
-Daudziem citiem ir zināmi daži dalītāji; 
-atklāto/zināmo dalītāju skaits tiek 
-regulāri papildināts.
-
-Skaitļi formā $2^k + 1$ nevar būt pirmskaitļi, 
-ja kāpinātājam $k$ ir kāds nepāru dalītājs, kas lielāks par $1$, jo 
-šajā gadījumā var dalīt reizinātājos, izmantojot
-algebriskas identitātes $a^3 + 1^3$, $a^5 + 1^5$ utml.
-Tātad pats kāpinātājs $k$ (lai sanāktu kaut kas interesants, 
-kas nedalās reizinātājos pavisam triviāli)
-noteikti ir divnieka pakāpe.
-
-:::
-
-
-# <lo-sample/> Andreescu2006.1.77
-
-Pierādīt, ka naturāliem skaitļiem $m$ un $n$, 
-kam $m > n$, Fermā skaitlis $F_m - 2$ noteikti 
-dalās ar $F_n$. 
-
-## <lo-soln/> Andreescu2006.1.77
-
-Atkārtoti lietojam kvadrātu starpības formulu dalīšanai 
-reizinātājos: 
-$$F_m - 2 = 2^{2^m} + 1 - 2 = 2^{2^m} - 1 = $$
-$$=\left( 2^{2^{m-1}} - 1 \right) \left( 2^{2^{m-1}} + 1 \right) = 
-\left( F_{m-1} - 2 \right) F_{m-1}.$$
-
-Ja arī $m - 1 > n$, tad līdzīgu spriedumu atkārto vēlreiz, 
-dalot reizinātājos $F_{m-1} - 2$ utt. Katrā 
-solī redzam, ka uzrodas reizinātāji $F_{m-1}$, $F_{m-2}$ utt. 
-Kāds no šiem reizinātājiem būs tieši $F_n$. $\blacksquare$
-
-## <lo-sample/> Andreescu2006.1.78
-
-Dažādiem naturāliem $m$ un $n$, skaitļi $F_m$ un $F_n$ ir
-savstarpēji pirmskaitļi.  
-(Piemēram, $F_5$ dalās ar $641$. Tātad neviens cits Fermā 
-skaitlis nevar dalīties ar $641$.)
-
-## <lo-soln/>  Andreescu2006.1.78
-
-Pieņemsim, ka $m>n$. Tad $F_m - 2$ dalās ar $F_n$. 
-Iegūstam: 
-$$\text{LKD}(F_m,F_n) = \text{LKD}((F_m -2) + 2,F_n) = $$
-$$\text{LKD}(2,F_n) = 1.$$
-
-$\blacksquare$
-
-
-## <lo-summary/> Perfektie skaitļi
-
-**Definīcija:** Skaitli sauc par <blue>*perfektu*</blue>, 
-ja tas vienāds ar visu savu dalītāju summu (izņemot sevi pašu). 
-
-**Piemēri:** $6 = 1+2+3$; $28 = 1 + 2 + 4 + 7 + 14$. 
-
-**Teorēma (Eiklīds):** Ja $2^p - 1$ ir pirmskaitlis, tad
-$2^{p-1}(2^p - 1)$ ir perfekts. 
-
-**Teorēma (Eilers):** Visi pāru perfektie skaitļi izsakāmi 
-formā $2^{p-1}(2^p - 1)$. 
-
-
-## <lo-summary/> Perfektie skaitļi - 2
-
-<table>
-<tr><th>Pirmskaitlis $p$</th><th>$2^{p-1}(2^p - 1)$ vērtība</th></tr>
-<tr><td>$p = 2$</td><td>$6_{10} = 110_{2}$</td></tr>
-<tr><td>$p = 3$</td><td>$28_{10} = 11100_{2}$</td></tr>
-<tr><td>$p = 5$</td><td>$496_{10} = 111110000_{2}$</td></tr>
-<tr><td>$p = 7$</td><td>$8128_{10} = 1111111000000_{2}$</td></tr>
-<tr><td>$p = 13$</td><td>$33550336_{10} = 1111111111111000000000000_{2}$</td></tr>
-</table>
-
-Ar $p=11$ nesanāk, jo $2^{11} - 1 = 2047 = 23 \cdot 89$. 
 
 
 
 
-# <lo-yellow/> Nenopietns piemērs
+
+
+
+
+
+
+
+
+
+
+## <lo-yellow/> Nenopietns piemērs
 
 Polinoms $f(x) = x^2 + x + 41$ 
 visiem argumentiem $x = 0,1,\ldots,39$
@@ -1436,6 +1346,11 @@ mazāk iespaidotu nejaušības.
 
 
 
+
+
+
+
+
 # &nbsp;
 
 <hgroup>
@@ -1453,11 +1368,366 @@ NMS Juniori 2019-09-28</h1>
 <span>(2) [Dalāmība un dalīšana](#section-1)</span>  
 <span>(3) [Dalītāju skaits](#section-2)</span>  
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
-<span style="color:darkgreen">**(5) Aritmētikas pamatteorēma**</span>  
-<span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Kvantoru pieraksts](#section-6)</span>  
-<span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
-<span>(9) [Kopsavilkums](#section-8)</span>
+<span style="color:darkgreen">**(5) Mersena un Fermā skaitļi**</span>
+<span>(6) [Aritmētikas pamatteorēma](#section-5)</span>  
+<span>(7) [LKD un MKD](#section-6)</span>  
+<span>(8) [Kvantoru pieraksts](#section-7)</span>  
+<span>(9) [Tipisks piemērs](#section-8)</span>  
+<span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
+<span>(11) [Kopsavilkums](#section-10)</span>
+
+
+::: notes
+
+Meklējot pirmskaitļus formā $2^n \pm 1$ (vai vispārīgāk - $a^n \pm 1$) saskaramies ar algebriskām likumsakarībām – bieži pastāv identitātes, kas. ļauj izteiksmi sadalīt reizinātājos. Toties situācijas, kad tas nav triviāli izdarāms ir pētītas un novedušas pie Fermā un Mersena
+pirmskaitļu jēdziena. 
+Tās ļauj atrast ļoti lielus pirmskaitļus.
+
+:::
+
+
+</hgroup>
+
+## <lo-summary/> Algebriskas identitātes
+
+* Pakāpju starpības formula (visiem $n \geq 2$):
+$$\color{#F00}{a^n - b^n} = $$
+$$=\color{#F00}{(a-b)}\left( a^{n-1}+a^{n-2}b^1 + \ldots + 
+a^1b^{n-2} + b^{n-1} \right).$$
+* Pakāpju summas formula (visiem $n \geq 1$):
+$$\color{#F00}{a^{2n+1} + b^{2n+1}} = $$
+$$=\color{#F00}{(a+b)}\left( a^{2n} - a^{2n-1}b^1 + 
+a^{2n-2}b^2 - \cdots - a^1b^{2n-1} + b^{2n} \right).$$
+
+Var pierādīt, atverot iekavas.
+(Iekavās ar daudzpunktiem ir galīgu ģeometrisku 
+progresiju summas.)
+
+
+
+
+# <lo-theory/> Fermā skaitļu jēdziens
+
+Bijuši vairāki mēģinājumi uzrakstīt 
+kompaktu formulu (bez `for` cikliem 
+vai citiem programmēšanas paņēmieniem), kuras
+visas vērtības ir pirmskaitļi. 
+
+**Definīcija:** Par $n$-to Fermā skaitli 
+($n \geq 0$) sauc $F_n = 2^{2^n}+1$. 
+
+P.Fermā (*Pierre de Fermat*, 1607-1665) 
+izteica hipotēzi, ka visi $F_n$ ir pirmskaitļi.
+
+
+
+## <lo-theory/> Ne visi F_n ir pirmskaitļi
+
+$F_0,F_1,F_2,F_3,F_4$ ir vienīgie
+zināmie pirmskaitļi: 
+
+* $F_0 = 2^{2^0} + 1 = 2^1 + 1 = 3$,
+* $F_1 = 2^{2^1} + 1 = 2^2 + 1 = 5$,
+* $F_2 = 2^{2^2} + 1 = 2^4 + 1 = 17$,
+* $F_3 = 2^{2^3} + 1 = 2^8 + 1 = 257$,
+* $F_4 = 2^{2^4} + 1 = 2^{16} + 1 = 65537$.
+
+Jau $F_5 = 2^{2^5} + 1 = 2^{32} + 1 =$
+$=4\,294\,967\,297 = 641 \cdot 6\,700\,417$ nav pirmskaitlis.  
+(Leonards Eilers (Leonhard Euler), 1707-1783). 
+
+::: notes
+
+Izņemot pirmos 5 Fermā skaitļus 
+(no $F_0$ līdz $F_4$), nav zināms neviens cits
+pirmskaitlis. Ir pilnībā sadalīti pirmreizinātājos 
+pirmie 12 šādi skaitļi – no $F_0$ līdz $F_11$. 
+Daudziem citiem ir zināmi daži dalītāji; 
+atklāto/zināmo dalītāju skaits tiek 
+regulāri papildināts.
+
+:::
+
+## <lo-summary/> Kāpēc kāpinātājā ir divnieka pakāpe?
+
+Skaitļi formā $2^N + 1$ nevar būt pirmskaitļi, 
+ja kāpinātājam $N$ ir kāds nepāru dalītājs, kas lielāks par $1$, jo 
+šajā gadījumā var dalīt reizinātājos, izmantojot
+algebriskas identitātes $a^3 + 1^3$, $a^5 + 1^5$ utml.
+
+Tātad pats kāpinātājs $N$ (lai sanāktu kaut kas interesants, 
+kas nedalās reizinātājos pavisam triviāli)
+noteikti ir divnieka pakāpe jeb $2^N + 1$ ir faktiski 
+pierakstāms kā $2^{2^k}+1$.
+
+::: notes
+
+Fermā pirmskaitļi $2^n+1$ ir iespējami vien tad, ja skaitlim $n$ nav nepāru dalītāju (pretējā gadījumā tos var sadalīt reizinātājos, izmantojot kubu summu, piekto pakāpju summu vai līdzīgu identitāti). Tātad Fermā pirmskaitļi patiesībā izskatās šādi: $2^{2^n}+1$. 
+
+:::
+
+
+
+# <lo-sample/> Andreescu2006.1.77
+
+Pierādīt, ka naturāliem skaitļiem $m$ un $n$, 
+kam $m > n$, Fermā skaitlis $F_m - 2$ noteikti 
+dalās ar $F_n$. 
+
+## <lo-soln/> Andreescu2006.1.77
+
+Atkārtoti lietojam kvadrātu starpības formulu dalīšanai 
+reizinātājos: 
+$$F_m - 2 = 2^{2^m} + 1 - 2 = 2^{2^m} - 1 = $$
+$$=\left( 2^{2^{m-1}} - 1 \right) \left( 2^{2^{m-1}} + 1 \right) = 
+\left( F_{m-1} - 2 \right) F_{m-1}.$$
+
+Ja arī $m - 1 > n$, tad līdzīgu spriedumu atkārto vēlreiz, 
+dalot reizinātājos $F_{m-1} - 2$ utt. Katrā 
+solī redzam, ka uzrodas reizinātāji $F_{m-1}$, $F_{m-2}$ utt. 
+Kāds no šiem reizinātājiem būs tieši $F_n$. $\blacksquare$
+
+## <lo-sample/> Andreescu2006.1.78
+
+Dažādiem naturāliem $m$ un $n$, skaitļi $F_m$ un $F_n$ ir
+savstarpēji pirmskaitļi.  
+(Piemēram, $F_5$ dalās ar $641$. Tātad neviens cits Fermā 
+skaitlis nevar dalīties ar $641$.)
+
+## <lo-soln/>  Andreescu2006.1.78
+
+Pieņemsim, ka $m>n$. Tad $F_m - 2$ dalās ar $F_n$. 
+Iegūstam: 
+$$\text{LKD}(F_m,F_n) = \text{LKD}((F_m -2) + 2,F_n) = $$
+$$\text{LKD}(2,F_n) = 1.$$
+
+$\blacksquare$
+
+
+
+
+
+
+# <lo-theory/> Mersena skaitļu jēdziens
+
+**Definīcija:** Skaitli $M_n$ sauc par 
+<blue>*Mersena skaitli*</blue> (*Mersenne number*), 
+ja to var izteikt formā $2^n - 1$.  
+Ja turklāt $M_n$ ir pirmskaitlis, tad to sauc par 
+<blue>*Mersena pirmskaitli*</blue> (*Mersenne prime*). 
+
+**Jautājums:** Kāda īpašība noteikti jāizpilda
+skaitlim $n$, lai $M_n = 2^n - 1$ būtu 
+izredzes būt pirmskaitlim? 
+
+::: notes
+
+Ja $n$ nav pirmskaitlis un to var sadalīt kā $n = ab$, tad $2^n-1$ dalās reizinātājos kā divu $a$-to (vai divu $b$-to) pakāpju starpība un tātad nav pirmskaitlis. Tātad vienīgie Mersena pirmskaitļi var būt formā $2^p - 1$, kur $p$ ir pirmskaitlis. Šādā formā parasti ir pirmskaitļi-rekordisti (t.i. lielākie starp visiem pirmskaitļiem, kuri ikbrīd zināmi progresīvajai cilvēcei).
+
+
+:::
+
+
+
+## <lo-summary/> Apgalvojums par Mersena skaitļiem
+
+**Teorēma:** Lai Mersena skaitlis $M_n = 2^n - 1$ 
+būtu pirmskaitlis, ir *nepieciešami*, lai pats
+$n$ būtu pirmskaitlis. 
+
+**Pierādījums:** Ja $n = km$ ir divu naturālu 
+skaitļu reizinājums (turklāt $k>1$ un $m>1$), 
+tad var sadalīt reizinātājos kā $a^m - b^m$: 
+$$M_n = 2^{km} - 1 = \left( 2^k \right)^m - 1^m = $$
+$$ = (2^k - 1) \left( (2^k)^{m-1} + \ldots + 1 \right).$$
+$\blacksquare$
+
+## <lo-summary/> Izņēmumu vairāk nekā pašu pirmskaitļu
+
+Nosacījums, ka $p$ ir pirmskaitlis ir 
+*nepieciešams*, bet nav 
+*pietiekams*, lai $2^p - 1$ būtu pirmskaitlis. 
+
+**Piemēri:** $M_{11} = 2^{11} - 1 = 2047 = 23 \cdot 89$,  
+$M_{23} = 2^{23} - 1 = 8388607 = 47 \cdot 178481$.
+
+Šādu piemēru ir tik daudz, ka Mersena skaitļi, kuri 
+tiešām ir pirmskaitļi, ir tikai niecīga daļa no 
+visiem $2^p - 1$ (pašlaik zināms tikai 51 Mersena pirmskaitlis; 
+vidēji katru gadu atrod pa vienam jaunam).
+
+## <lo-summary/> Mersena pirmskaitļu piemēri
+
+<table>
+<tr>
+<th>$n$</th>
+<th>$2$</th>
+<th>$3$</th>
+<th>$5$</th>
+<th>$7$</th>
+<th>$13$</th>
+<th>$17$</th>
+<th>$19$</th>
+<th>$31$</th>
+</tr>
+<tr>
+<td>$M_n = 2^n-1$</td>
+<td>$3$</td>
+<td>$7$</td>
+<td>$31$</td>
+<td>$127$</td>
+<td>$8191$</td>
+<td>$131\,071$</td>
+<td>$524\,287$</td>
+<td>$2\,147\,483\,647$</td>
+</tr>
+</table>
+
+
+Lielākais Mersena pirmskaitlis (un vispār - lielākais
+zināmais pirmskaitlis) ir $2^{82\,589\,933} - 1$. 
+Tas atrasts 2018.g. decembrī.
+
+Pavisam zināmi $51$ Mersena pirmskaitļi. Kopš 
+1996.g. GIMPS (*Great Internet Mersenne Prime Search*) 
+projekta ietvaros 23 gadu laikā atrasti jau 
+17 pirmskaitļi. 
+
+Sk. [List of known Mersenne primes](https://en.wikipedia.org/wiki/Mersenne_prime#List_of_known_Mersenne_primes)
+
+::: notes
+
+Šis GIMPS projekts parādījās kā prototips/iedvesma BitCoin un citu līdzīgu kriptovalūtu rēķināšanai. 
+
+Lielākā zināmā Mersena pirmskaitļa 
+$M_{82,589,933}$ decimālpierakstā
+ir $24,862,048$ cipari – pilnībā 
+izdrukāts tas aizņemtu vairākus grāmatplauktus. 
+
+:::
+
+
+
+
+
+
+# <lo-theory/> Perfektie skaitļi
+
+**Definīcija:** Skaitli sauc par <blue>*perfektu*</blue>, 
+ja tas vienāds ar visu savu dalītāju summu (izņemot sevi pašu). 
+
+**Piemēri:** $6 = 1+2+3$; $28 = 1 + 2 + 4 + 7 + 14$. 
+
+**Teorēma (Eiklīds):** Ja $2^p - 1$ ir pirmskaitlis, tad
+$2^{p-1}(2^p - 1)$ ir perfekts. 
+
+**Teorēma (Eilers):** Visi pāru perfektie skaitļi izsakāmi 
+formā $2^{p-1}(2^p - 1)$. 
+
+
+## <lo-summary/> Perfektie skaitļi - 2
+
+<table>
+<tr><th>Pirmskaitlis $p$</th><th>$2^{p-1}(2^p - 1)$ vērtība</th></tr>
+<tr><td>$p = 2$</td><td>$6_{10} = 110_{2}$</td></tr>
+<tr><td>$p = 3$</td><td>$28_{10} = 11100_{2}$</td></tr>
+<tr><td>$p = 5$</td><td>$496_{10} = 111110000_{2}$</td></tr>
+<tr><td>$p = 7$</td><td>$8128_{10} = 1111111000000_{2}$</td></tr>
+<tr><td>$p = 13$</td><td>$33550336_{10} = 1111111111111000000000000_{2}$</td></tr>
+</table>
+
+Ar $p=11$ nesanāk, jo $2^{11} - 1 = 2047 = 23 \cdot 89$. 
+
+
+
+
+# <lo-sample/> Engel.6.E4
+
+Atrast visus pirmskaitļus, kas izsakāmi formā 
+$n^n + 1$ un ir mazāki kā $10^{19}$. 
+
+## <lo-soln/> Engel.6.E4
+
+Ja $n$ dalās ar kādu nepāru skaitli $c>1$
+(t.i. $n = cd$, kur $c = 2k+1 \geq 3$),
+tad pirmskaitlis nesanāk, jo 
+$$n^n + 1 = \left( n^d \right)^c + 1^c = 
+\left( n^d \right)^{2k+1} + 1^{2k+1},$$
+kas dalās reizinātājos pēc formulas
+$a^{2k+1} + b^{2k+1} = (a+b)(a^{2k} - \ldots + b^{2k})$, 
+kur $a = n^d$ un $b = 1$. 
+
+## <lo-soln/> Engel.6.E4
+
+Ja $n$ ir divnieka pakāpe, šķirojam gadījumus: 
+
+* Ja $n = 1$, tad $n^n + 1 = 2$ (der)
+* Ja $n = 2$, tad $n^n + 1 = 5$ (der)
+* Ja $n = 4$, tad $n^n + 1 = 257$ (der)
+
+Ja $n=8$, tad 
+$$8^8 + 1 = \left( 2^8 \right)^3 + 1^3,$$
+kas dalās reizinātājos pēc formulas 
+$a^3 + b^3 = (a+b)\left( a^2 - ab + b^2 \right)$:
+
+$$8^8 + 1 = \left( 2^8 + 1 \right)\left( 2^{16} - 2^8 + 1 \right).$$
+
+
+## <lo-soln/> Engel.6.E4
+
+Pamatosim, ka pie $n = 16$ skaitlis $n^n + 1 > 10^{19}$, 
+t.i. šāds skaitlis neder (neatkarīgi no tā, vai tas 
+ir pirmskaitlis). 
+
+$$16^{16} + 1 = 2^{64} + 1 = $$
+$$2^4 \cdot 2^{60} + 1 = 16 \cdot \left( 2^{10} \right)^6 + 1 = 16 \cdot 1024^6 + 1 > $$
+$$ > 16 \cdot 1000^6 = 16 \cdot 10^{18}  = 1.6 \cdot 10^{19} > 10^{19}.$$
+
+## <lo-yellow/> Engel.6.E4
+
+Starp citu, $16^{16} = 2^{64} + 1 = 2^{2^6} + 1 = F_6$
+ir sestais Fermā skaitlis. Tas nav pirmskaitlis: 
+$F_6 = 18\,446\,744\,073\,709\,551\,617$ dalās ar 
+$274177 = 1071 \cdot 2^8 + 1$. 
+
+To pamatoja Tomass Klausens (*Thomas Clausen*, 1855.g. 
+Tartu, tag. Igaunija). 
+
+
+
+
+
+
+
+
+
+
+
+
+# &nbsp;
+
+<hgroup>
+
+<h1 style="font-size:32pt">Skaitļu teorija:<br/>
+NMS Juniori 2019-09-28</h1>
+
+
+<blue>Pirmskaitļi un dalāmība</blue>
+
+
+</hgroup><hgroup>
+
+<span>(1) [Ievads](#section)</span>  
+<span>(2) [Dalāmība un dalīšana](#section-1)</span>  
+<span>(3) [Dalītāju skaits](#section-2)</span>  
+<span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
+<span>(5) [Mersena un Fermā skaitļi](#section-4)</span>  
+<span style="color:darkgreen">**(6) Aritmētikas pamatteorēma**</span>  
+<span>(7) [LKD un MKD](#section-6)</span>  
+<span>(8) [Kvantoru pieraksts](#section-7)</span>  
+<span>(9) [Tipisks piemērs](#section-8)</span>  
+<span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
+<span>(11) [Kopsavilkums](#section-10)</span>
 
 
 </hgroup>
@@ -1567,25 +1837,93 @@ reizinājumu $ab$, tad $p$ dala vismaz vienu no skaitļiem $a$ vai $b$.
 <blue>Eiklīda algoritma
 jebkuriem savstarpējiem pirmskaitļiem 
 $p,a$ var atrast tādus veselus $x$ un $y$, ka   
-$px + ay = 1$.
+$px + ay = 1$ (*Bezū identitāte*).
 
 Tā kā $pxb$ dalās ar $p$
 un $ayb = (ab)y$ dalās ar $p$, tad arī summa 
 $pxb + ayb = (px+ay)b = 1 \cdot b = b$ dalās ar $p$. 
 $\blacksquare$
 
-::: notes
-
-Sakarību $px+ay=1$ (katriem diviem savstarpējiem pirmskaitļiem $p$ un $a$ var izveidot lineāru kombināciju, kas vienāda ar $1$) sauc par Bezū (Bézout's) identitāti.
-
-:::
 
 
+## <lo-theory/> Bezū identitātes pierādījums - 1
+
+**Bezū identitāte:**  Dots, ka $a$ un $b$ ir veseli un $\text{LKD}(a,b)=d$. Tad eksistē
+veseli skaitļi $x$ un $y$, ka $ax + by = d$.
+
+**Pierādījums:** Aplūkojam kopu no visiem skaitļiem 
+$ax + by > 0$, kur $x,y \in \mathbb{Z}$. Apzīmējam vismazāko pozitīvo šīs kopas locekli ar 
+$d^{\ast} = ax^{\ast} + by^{\ast}$, kur $x^{\ast}$ un $y^{\ast}$ ir tās $x,y$ vērtības, kurām 
+šo minimumu izdevās sasniegt.
+
+
+## <lo-theory/> Bezū identitātes pierādījums - 2
+
+Pamatosim, ka minimālais $d = ax^{\ast} + by^{\ast}$ ir skaitļu 
+$a$ un $b$ lielākais kopīgais dalītājs. 
+
+* $a$ dalās ar $d^{\ast}$ bez atlikuma. Pretējā gadījumā būtu pozitīvs atlikums $a$ dalot ar $r$:  
+$r = a - qd^{\ast}$ (kur $r < d^{\ast}$). Tas ir pretrunā ar to, ka $d^{\ast}$ 
+bija *vismazākais* pozitīvais skaitlis formā $ax+by$. 
+Jo $r$ sanāktu vēl mazāks, ko arī var izteikt šādā formā. 
+(Ar $b$ pamato līdzīgi.)
+* Pieņemsim, ka $c$ arī ir skaitļu $a,b$ kopīgs dalītājs: $a = cu$ un $b=cv$. Tad 
+$$d^{\ast} = ax^{\ast} + by^{\ast} = cux^{\ast} + cvy^{\ast} = c(ux^{\ast} + vy^{\ast}).$$
+Redzam, ka $d^{\ast}$ dalās ar $c$. 
+
+Tātad $d^{\ast}$ ir $a$ un $b$ lielākais kopīgais dalītājs. 
+
+
+## <lo-summary/> Bezū identitātes interpretācija
+
+**Apgalvojums:** Ja pircējam un pārdevējam pieejams
+neierobežots daudzums monētu ar vērtībām 
+$n_1,n_2,\ldots,n_k$ eirocenti (kuri visi $n_i$ ir 
+naturāli skaitļi), tad ar tām 
+var nomaksāt $d$, kas ir visu skaitļu 
+$n_1,n_2,\ldots,n_k$ lielākais kopīgais dalītājs.
+
+**Pierādījums:** Šis apgalvojums diviem skaitļiem 
+$n_1$ un $n_2$ tieši izriet no Bezū identitātes.  
+Ja $k>2$, var pamatot vispārīgāku Bezū identitātes
+variantu (trim un vairāk skaitļiem), ko pierāda 
+līdzīgi kā gadījumu $k=2$. 
+
+## <lo-summary/> Bezū identitātes interpretācija
+
+**Piemērs:** Ar <red>$13$</red> un <red>$8$</red> 
+centu monētām var nomaksāt 
+$1$ centu (turklāt dažādos veidos - atkarībā no tā, 
+kādas monētas lieto pircējs un kādas pārdevējs 
+izdod kā atlikumu): 
+$$\color{#F00}{13}\cdot{}5 - \color{#F00}{8}\cdot{}8 = 
+\color{#F00}{8}\cdot{}5 - \color{#F00}{13}\cdot{}3 = 1.$$
+Atkārtojot šo operāciju, var nomaksāt arī jebkuru 
+citu summu.
+
+**Piemērs:** Ar <red>$9$</red> un <red>$15$</red> 
+centu monētām var nomaksāt jebkuru summu $3a$, kas
+dalās ar <red>$3$</red>, jo $3 = \text{LKD}(9,15)$. 
 
 
 
 
-# <lo-theory/> Patoloģisks piemērs
+## <lo-theory/> Kopsavilkums
+
+Kā nupat redzējām:  
+Bezū identitāte $\Rightarrow$  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eiklīda lemma $\Rightarrow$  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aritmētikas pamatteorēma. 
+
+Aritmētikas pamatteorēma tātad izmanto ne vien pirmskaitļu jēdzienu, bet 
+arī iespēju sakārtot veselus pozitīvus skaitļus (atrast starp bezgalīgi 
+daudzajiem $ax+by = d$ vismazāko pozitīvo), gan arī iespēju dalīt
+skaitļus ar atlikumu, ka atlikums $r$ ir mazāks par dalītāju $d$.
+
+
+
+
+# <lo-yellow/> Patoloģisks piemērs
 
 <div style="font-size:70%">
 
@@ -1607,7 +1945,8 @@ salīdzināt ar $<$ un $>$, nevar dalīt ar atlikumu, nepastāv arī Eiklīda le
 </div>
 
 
-# <lo-sample/> NT.JUN01.4
+
+## <lo-sample/> NT.JUN01.4
 
 Pamatot, ka skaitļi $p_1 = 2$, $p_2 = 3$, $p_3 = 1 - \sqrt{-5}$ un 
 $p_4 = 1 + \sqrt{-5}$ 
@@ -1640,21 +1979,22 @@ NMS Juniori 2019-09-28</h1>
 <span>(2) [Dalāmība un dalīšana](#section-1)</span>  
 <span>(3) [Dalītāju skaits](#section-2)</span>  
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
-<span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
-<span style="color:darkgreen">**(6) LKD un MKD**</span>  
-<span>(7) [Kvantoru pieraksts](#section-6)</span>  
-<span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
-<span>(9) [Kopsavilkums](#section-8)</span>
+<span>(5) [Mersena un Fermā skaitļi](#section-4)</span>  
+<span>(6) [Aritmētikas pamatteorēma](#section-5)</span>  
+<span style="color:darkgreen">**(7) LKD un MKD**</span>  
+<span>(8) [Kvantoru pieraksts](#section-7)</span>  
+<span>(9) [Tipisks piemērs](#section-8)</span>  
+<span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
+<span>(11) [Kopsavilkums](#section-10)</span>
 
 
 </hgroup>
 
 
 
-# <lo-summary/> Intuīcija par MKD
+## <lo-summary/> Intuīcija par MKD
 
 ![Venn Diagram for Divisors](venn-for-divisors.png)
-
 
 Aplūkojot visus divu skaitļu kopīgos dalītājus (vai dalāmos), izrādās, ka 
 starp tiem vienmēr ir noteiktas sakarības, 
@@ -1663,6 +2003,294 @@ ko var ļoti kompakti aprakstīt, atrodot lielāko kopīgo dalītāju
 
 
 
+
+# <lo-theory/> LKD jēdziens
+
+**Definīcija:** Par veselu skaitļu $m$ un $n$
+<blue>*lielāko kopīgo dalītāju*</blue>
+(*greatest common divisor*, ko reizēm 
+pieraksta arī kā `gcd(m,n)`) sauc 
+lielāko naturālo skaitli, ar kuru dalās gan 
+$m$, gan $n$. To apzīmē ar $\text{LKD}(m,n)$.  
+*Piezīme:* LKD var definēt arī vairāk nekā diviem 
+skaitļiem, bet tie nedrīkst visi reizē būt $0$. 
+Pat ja $m,n$ ir negatīvi, $\text{LKD}(m,n)$ 
+vienmēr ir vesels pozitīvs jeb naturāls skaitlis.
+
+**Piemēri:** $\text{LKD}(8,12)=4$,  
+$\text{LKD}(21,34)=1$,  
+$\text{LKD}(0,-17)=17$.
+
+
+## <lo-theory/> Savstarpēji pirmskaitļi
+
+**Definīcija:** Skaitļus $m$ un $n$ sauc 
+par <blue>*savstarpējiem pirmskaitļiem*</blue>
+(*mutual primes*, *co-primes*), ja 
+$\text{LKD}(m,n)=1$. 
+
+**Piemēri:** (1) Naturāli skaitļi $n$ un $n+1$ 
+vienmēr ir savstarpēji pirmskaitļi
+(piemēram, $\text{LKD}(15,16)=1$.  
+(2) Divi dažādi pirmskaitļi vienmēr ir arī 
+savstarpēji pirmskaitļi (piemēram, 
+$\text{LKD}(13,17)=1$). 
+
+
+## <lo-summary/> LKD un citi kopīgie dalītāji
+
+**Apgalvojums:** Ja $a$ un $b$ ir veseli 
+skaitļi, kas nav abi reizē vienādi ar $0$, 
+tad to lielākais kopīgais 
+dalītājs $d = \text{LKD}(a,b)$ ir tāds, 
+ka jebkuram citam abu skaitļu kopīgam
+dalītājam $d^{\ast}$ (kur $d^{\ast}|a$ un 
+$d^{\ast}|b$), šis $d^{\ast}$ būs arī 
+$d$ dalītājs.
+
+Neformāli sakot, 
+$d = \text{LKD}(a,b)$ ir nevis vienkārši 
+lielākais skaitlis starp dažādiem $a$ un $b$
+kopīgajiem dalītājiem, bet tas ir visu šādu 
+dalītāju režģa augšējais punkts. 
+
+## <lo-summary/> LKD sadalījums pirmreizinātājos
+
+$\text{LKD}(m,n)$ viegli atrast, ja $m,n$ 
+sadalīti pirmreizinātājos. 
+
+<table>
+<tr><th>&nbsp;</th><th>$2$</th><th>$3$</th><th>$5$</th><th>$7$</th></tr>
+<tr><td>$300$</td><td>$2^2$</td><td><blue>$3^1$</blue></td><td>$5^2$</td><td><blue>$7^0$</blue></td></tr>
+<tr><td>$630$</td><td><blue>$2^1$</blue></td><td>$3^2$</td><td><blue>$5^1$</blue></td><td>$7^1$</td></tr>
+</table>
+
+$\text{LKD}(300,630) = \color{#00F}{2^1}\cdot \color{#00F}{3^1}\cdot\color{#00F}{5^1}\cdot\color{#00F}{7^0} = 30$. 
+
+$\text{LKD}(m,n)$ satur tos pašus pirmreizinātājus, 
+ko $m$ un $n$, bet katra pirmreizinātāja pakāpe
+ir minimums no pirmreizinātāja pakāpes skaitlī $m$
+un šī paša pirmreizinātāja pakāpes skaitlī $n$.
+
+## <lo-summary/> Dažādas LKD īpašības
+
+* Ja $p$ ir pirmskaitlis, tad $\text{LKD}(p,m)$ ir 
+$p$ vai $1$. 
+* Ja $\text{LKD}(m,n) = d$, tad $m/d$ un $n/d$ ir
+savstarpēji pirmskaitļi. 
+* Ja $m/d^{\ast}$ un $n/d^{\ast}$ abi ir veseli 
+un savstarpēji pirmskaitļi, tad 
+$\text{LKD}(m,n) = d^{\ast}$. 
+* $\text{LKD}(m,n) = \text{LKD}(m-n,n)$. LKD
+nemainās, ja no viena skaitļa atņem otru skaitli (vai 
+arī divkāršotu, trīskāršotu utt. otru skaitli).
+* Ja $m = nq + r$, tad 
+$\text{LKD}(m,n) = \text{LKD}(r,n)$ (skaitli $m$
+var aizstāt ar tā atlikumu, dalot ar $n$).
+
+
+# <lo-theory/> Kā praktiski atrast LKD?
+
+Varētu sadalīt pirmreizinātājos un atrast 
+minimumus pa visām pirmskaitļu pakāpēm. 
+
+**Piemērs:** Ja $m = 2^{10}3^85^9$ un 
+$n = 2^{17}3^5$, tad 
+$\text{LKD}(m,n} = 2^{10}3^5$. 
+
+Faktiski ir ļoti grūti dalīt lielus skaitļus 
+pirmreizinātājos. Kā atrast, teiksim,
+
+$$\text{LKD}(73786976294838206463, 295147905179352825855)?$$
+
+
+
+## <lo-summary/> Eiklīda algoritms (Python)
+
+```python
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+```
+
+**Pseidokods:**
+<span>$\text{LKD}(a,b)$:</span>  
+<span>1. Kamēr $b \neq 0$ atkārto:</span>  
+<span>2. &nbsp;&nbsp;&nbsp;&nbsp;Vienlaikus aizstāj:</span>  
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$a$ ar $b$</span>  
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$b$ ar atlikumu, kur $a$ dala ar $b$</span>  
+<span>3. &nbsp;&nbsp;&nbsp;&nbsp;LKD ir skaitlis $a$.
+
+
+## <lo-summary/> Eiklīda algoritma piemērs
+
+<hgroup>
+
+$$\text{LKD}(21,30) = $$
+$$=\text{LKD}(30,21) = $$
+$$=\text{LKD}(21,9) = $$
+$$=\text{LKD}(9,3) = $$
+$$=\text{LKD}(3,0) = 3.$$
+
+</hgroup>
+<hgroup>
+
+* Eiklīda algoritmam nepieciešams, lai skaitļi $a,b$ būtu naturāli. 
+* Lai atrastu $\text{LKD}(a,b)$, kur $a$ vai $b$ ir negatīvi, 
+algoritmu izpilda absolūtajām vērtībām:  
+$$\text{LKD}(a,b)=\text{LKD}\left( |a|,|b|).$$
+
+</hgroup>
+
+
+# <lo-sample/> BW.TST.2016.16
+
+Kāda ir izteiksmes
+$$\text{LKD}\left( n^2 + 3, (n+1)^2 + 3 \right)$$
+lielākā iespējamā vērtība naturāliem $n$? 
+
+
+## <lo-soln/> BW.TST.2016.16
+
+<div style="font-size:70%">
+
+$$\text{LKD}\left( n^2 + 3, (n+1)^2 + 3 \right) = 
+\text{LKD}\left( n^2 + 3, n^2 + 2n + 4 \right) = $$
+*(no otrā argumenta atņem pirmo)*
+$$ = \text{LKD}\left( n^2 + 3, 2n + 1 \right) = $$
+*(pirmo argumentu var piereizināt ar $2$, jo otrais ir nepāru)*
+$$ = \text{LKD}\left( 2n^2 + 6, 2n + 1 \right) = $$
+*(no pirmā argumenta atņem $n$-kāršotu otro)*
+$$ = \text{LKD}\left( 2n^2 + 6 - n(2n+1), 2n + 1 \right) =
+\text{LKD}(6-n,2n+1) = $$
+*(otrajam argumentam pieskaita divkāršotu pirmo)*
+$$=\text{LKD}(6-n,2n+1 + 2(6-n)) = \text{LKD}(n-6,13).$$
+
+</div>
+
+## <lo-soln/> BW.TST.2016.16
+
+**Secinājums:** 
+$\text{LKD}\left( n^2 + 3, (n+1)^2 + 3 \right) = \text{LKD}(n-6,13)$ var būt vai nu $1$ vai $13$. 
+
+Vērtību $13$ tas sasniedz, ja $n-6$ dalās ar $13$, 
+piemēram, ja $n-6 = 0$ jeb $n=6$. 
+
+Pārbaude:
+$$\text{LKD}\left( 6^2 + 3, (6+1)^2 + 3 \right) =
+\text{LKD}(39,52)=13.$$
+
+
+# <lo-theory/> MKD jēdziens
+
+**Definīcija:** Par veselu skaitļu 
+$m$ un $n$ <blue>*mazāko kopīgo dalāmo*</blue>
+(*least common multiple*, ko reizēm 
+pieraksta arī kā `lcm(m,n)`) sauc 
+mazāko naturālo skaitli, 
+kurš ir daudzkārtnis gan skaitlim $m$, gan 
+skaitlim $n$. To apzīmē ar 
+$\text{MKD}(m,n)$.  
+*Piezīme:* MKD definēts tikai tad, ja 
+abi veselie skaitļi $m,n \neq 0$. 
+
+
+## <lo-summary/> MKD sadalījums pirmreizinātājos
+
+<div style="font-size:70%">
+
+Arī $\text{MKD}(m,n)$ (līdzīgi kā $\text{LKD}(m,n)$) 
+var tūlīt uzrakstīt, ja $m,n$ jau 
+sadalīti pirmreizinātājos:
+
+<table>
+<tr><th>&nbsp;</th><th>$2$</th><th>$3$</th><th>$5$</th><th>$7$</th></tr>
+<tr><td>$300$</td><td><red>$2^2$</red></td><td>$3^1$</td><td><red>$5^2$</red></td><td>$7^0$</td></tr>
+<tr><td>$630$</td><td>$2^1$</td><td><red>$3^2$</red></td><td>$5^1$</td><td><red>$7^1$</red></td></tr>
+</table>
+
+$\text{MKD}(300,630) = \color{#F00}{2^2}\cdot \color{#F00}{3^2}\cdot\color{#F00}{5^2}\cdot\color{#F00}{7^1} = 6300$. 
+
+$\text{MKD}(m,n)$ satur tos pašus pirmreizinātājus, 
+ko $m$ un $n$, bet katra pirmreizinātāja pakāpe
+ir maksimums no to pakāpēm skaitļos $m$ un $n$.
+
+Tā kā $\text{LKD}(a,b)$ sareizina $a$ un $b$
+pirmreizinātāju pakāpju minimumus, bet $\text{MKD}(a,b)$ - 
+maksimumus, tad 
+
+$$ab = \text{LKD}(a,b)\cdot\text{MKD}(a,b).$$
+
+
+</div>
+
+## <lo-summary/> LKD un MKD ir savstarpēji izsakāmi
+
+<hgroup style="width:40%">
+
+![Lattice of 10 and 14](lattice-10-14.png)
+
+Zaļo un sarkano skaitļu reizinājumi sakrīt: 
+$2 \cdot 70 = 10 \cdot 14$.
+
+</hgroup>
+<hgroup style="width:60%">
+
+* Dalāmības režģī LCD (skaitlis $2$ zīmējumā) 
+ir augstākā vieta, no kuras var nonākt gan skaitlī $10$, 
+gan skaitlī $14$. 
+* MCD (skaitlis $70$) ir zemākā vieta, kur satiekas augšupejošie
+ceļi no $10$ un $14$. 
+
+$$\text{MKD}(10,14) = \frac{10 \cdot 14}{\text{LCD}(10,14)}.$$
+
+</hgroup>
+
+
+## <lo-summary/> LKD un MKD dalāmības režģī
+
+![Meet and Join](meet-and-join.png)
+
+
+::: notes
+
+Vidusskolas aritmētikā bieži jānoskaidro gan LKD (lai noīsinātu daļskaitļus), 
+gan arī – MKD (lai atrastu mazāko kopsaucēju). 
+Tomēr nereti skolu kursā koncentrējas vienīgi uz prasmi atrast šos 
+lielumus nelieliem skaitļiem, risinot aritmētikas piemērus, bet maz 
+pievēršas abu lielumu vispārīgajām īpašībām. 
+
+:::
+
+## <lo-summary/> Dalāmības apgalvojumu kombinēšana
+
+<div style="font-size:70%">
+
+**Teorēma:** Naturāli skaitļi $m$ un $n$ abi ir 
+naturāla skaitļa $a$ dalītāji tad un tikai tad, ja 
+$d = \text{MKD}(m,n)$ ir skaitļa $a$ dalītājs. 
+
+$$(\forall m,n,a \in \mathbb{N})\left( 
+(m \, \mid \, a) \& (n \,\mid\, a)\;\Leftrightarrow\;
+\text{MKD}(m,n)\,\mid\,a \right).$$
+**Saki:** Visiem naturā;iem $m,n,a$, $m$ dala $a$ **UN**
+$n$ dala $a$ tad un tikai tad (t.t.t.) ja 
+$\text{MKD}(m,n)$ dala $a$.
+
+**Piemēri:** Skaitlis $a$ dalās ar <red>$7$</red> 
+un <red>$9$</red> t.t.t. 
+ja $a$ dalās ar <red>$63$</red>.  
+Skaitlis $a$ dalās ar <red>$4$</red> un <red>$6$</red>
+t.t.t. ja $a$ dalās ar <red>$12$</red>.
+
+Apzīmējums <blue>t.t.t.</blue> nozīmē 
+"tad un tikai tad" ($\Leftrightarrow$). Šajos gadījumos
+var secināt abos virzienos. (Sal. "Četrstūris ir
+paralelograms t.t.t. ja tā abas 
+diagonāles krustpunktā dalās uz pusēm.")
+
+</div>
 
 
 # &nbsp;
@@ -1682,11 +2310,13 @@ NMS Juniori 2019-09-28</h1>
 <span>(2) [Dalāmība un dalīšana](#section-1)</span>  
 <span>(3) [Dalītāju skaits](#section-2)</span>  
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
-<span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
-<span>(6) [LKD un MKD](#section-5)</span>  
-<span style="color:darkgreen">**(7) Kvantoru pieraksts**</span>  
-<span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
-<span>(9) [Kopsavilkums](#section-8)</span>
+<span>(5) [Mersena un Fermā skaitļi](#section-4)</span>  
+<span>(6) [Aritmētikas pamatteorēma](#section-5)</span>  
+<span>(7) [LKD un MKD](#section-6)</span>  
+<span style="color:darkgreen">**(8) Kvantoru pieraksts**</span>  
+<span>(9) [Tipisks piemērs](#section-8)</span>  
+<span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
+<span>(11) [Kopsavilkums](#section-10)</span>
 
 
 </hgroup>
@@ -1843,6 +2473,9 @@ vai ($\exists\exists\exists$).
 :::
 
 
+
+
+
 # &nbsp;
 
 <hgroup>
@@ -1860,11 +2493,147 @@ NMS Juniori 2019-09-28</h1>
 <span>(2) [Dalāmība un dalīšana](#section-1)</span>  
 <span>(3) [Dalītāju skaits](#section-2)</span>  
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
-<span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
-<span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Kvantoru pieraksts](#section-6)</span>  
-<span style="color:darkgreen">**(8) Mājasdarba uzdevumi**</span>  
-<span>(9) [Kopsavilkums](#section-8)</span>
+<span>(5) [Mersena un Fermā skaitļi](#section-4)</span>  
+<span>(6) [Aritmētikas pamatteorēma](#section-5)</span>  
+<span>(7) [LKD un MKD](#section-6)</span>  
+<span>(8) [Kvantoru pieraksts](#section-7)</span>  
+<span style="color:darkgreen">**(9) Tipisks piemērs**</span>  
+<span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
+<span>(19) [Kopsavilkums](#section-9)</span>
+
+
+</hgroup>
+
+
+# <lo-sample/> BW.TST.2018.14
+
+Par naturālu skaitļu virkni $a_1,a_2,\ldots$ zināms, 
+ka $a_1 = 2$ un visiem $n>1$ skaitlis $a_{n+1}$ ir 
+lielākais pirmskaitlis, ar ko dalās skaitlis 
+$a_1\cdot{}a_2\cdot\ldots\cdot{}a_n+1$. 
+Pierādīt, ka neviens no šīs virknes locekļiem nav vienāds
+ne ar $5$, ne ar $11$. 
+
+## <lo-reading/> BW.TST.2018.14
+
+Uzdevums ir variācija par Eiklīda pazīstamo 
+pierādījumu, ka pirmskaitļu ir bezgalīgi daudz: 
+tiek konstruēta bezgalīga pirmskaitļu virkne $a_1,a_2,\ldots$.  
+
+Ievērojam, ka pirmskaitļi šajā virknē neatkārtojas.  
+No pretējā: Ja pie $m < n$ izpildītos $a_n = a_m$, tad 
+$a_n$ būtu dalītājs gan skaitlim $A_{n-1} = a_1a_2\cdots{}a_{n-1}$
+(jo šajā garajā reizinājumā ietilpst $a_m = a_n$), gan 
+arī skaitlim $A_{n-1}+1$.  
+Tā ir pretruna, jo $A_{n-1}$ un $A_{n-1} + 1$ ir viens otram sekojoši - 
+tātad ir savstarpēji pirmskaitļi. 
+
+## <lo-reading/> BW.TST.2018.14
+
+Lai gan virknē $a_1,a_2,\ldots$ ir bezgalīgi daudz pirmskaitļu 
+(kā jau pamatoja Eiklīds), šī virkne tomēr nesatur **visus** pirmskaitļus. 
+Piemēram, tā nesatur pirmskaitli $5$ (un arī $11$). 
+
+Pierakstām ar kvantoriem pierādāmo apgalvojumu par $5$:
+$$(\forall n \in \mathbb{N})(a_n \neq 5).$$
+Lasi: Jebkuram naturālam $n$, $a_n \neq 5$. 
+
+Ja gribam pierādīt no pretējā, tad pretējais apgalvojums (kas izrādīsies aplams): 
+$$(\exists n \in \mathbb{N})(a_n = 5).$$
+Lasi: Eksistē tāds naturāls $n$, ka $a_n = 5$. 
+
+
+## <lo-soln/> BW.TST.2018.14
+
+**Stratēģija:** Nepilnā indukcija. Izrakstām 
+dažus virknes locekļus. 
+
+$$a_1 = 2,\; a_2 = 3,\; a_3 = 7,\;a_4 = 43,\;a_5 = 139,\ldots$$
+(jo $a_1a_2a_3a_4 + 1 = 1807 = 139 \cdot 13$). 
+
+
+
+## <lo-soln/> BW.TST.2018.14
+
+Pieņemsim no pretējā, ka eksistē virknes loceklis $a_n$, kurš 
+vienāds ar $5$. 
+
+Apzīmējam $A_n = a_1\cdot{}a_2\cdot\ldots\cdot{}a_n+1$.   
+Tas nedalās ar $2$ vai $3$ (jo dod atlikumu $1$). 
+$A_n$ nevar dalīties ar pirmskaitļiem, kas lielāki par $5$, 
+jo katrā solī par $a_{n+1}$ izvēlamies lielāko $A_n$ dalītāju.
+
+Tātad, lai virknē $(a_n)$ būtu skaitlis $5$, jāizpildās
+$$A_n = a_1a_2\cdots{}a_n + 1 = 5^m.$$
+
+
+## <lo-soln/> BW.TST.2018.14
+
+**Apgalvojums:** Skaitlis $5^n$ katram $n$ dod atlikumu $1$, 
+dalot ar $4$. 
+
+**Pierādījums:** Reizinot divus vai vairāk skaitļus, 
+kuri dod atlikumu $1$, dalot ar $5$, rodas rezultāts, 
+kurš arī dod atlikumu $1$, dalot ar $5$. $\blacksquare$
+
+## <lo-soln/> BW.TST.2018.14
+
+Pēc mūsu pieņēmuma, eksistē $A_n = 5^m$. Tas dod atlikumu $1$, 
+dalot ar $4$ jeb 
+$$A_n - 1 = a_1a_2\cdots{}a_n$$
+dalās ar $4$. 
+
+Tas nav iespējams, jo $a_1 = 2$, bet visi citi $a_i$ ir 
+pirmskaitļi (tātad nepāru skaitļi). $\blacksquare$
+
+
+## <lo-soln/> BW.TST.2018.14 (pabeigt patstāvīgi)
+
+**Apgalvojums:** Virknē $a_n$ nav locekļa, kas vienāds ar $11$. 
+
+**Ieteikums:** Līdzīgi kā iepriekš - var pamatot, ka rodas
+pretruna no pieņēmuma, ka $A_n = 5^k\cdot{}11^{\ell}$. 
+
+Vispirms parāda, ka $\ell = 2\ell_1 + 1$ ir nepāru skaitlis.  
+Tad parāda, ka var izteikt arī $k = 2k_1+1$ un arī $k$ ir nepāru.  
+Visbeidzot var parādīt, ka neviens skaitlis formā
+$$55 \cdot 5^{2k_1} \cdot 11^{2\ell_1} = 55 \cdot 25^{k_1} \cdot 121^{\ell_1}$$ 
+nevar dot atlikumu $1$, dalot ar $7$.
+
+No otras puses, $A_n = a_1a_2a_3\cdots{}a_n+1$ noteikti dod atlikumu 
+$1$, dalot ar $7$, jo $a_3 = 7$. Iegūta pretruna.
+
+
+
+
+
+
+
+
+# &nbsp;
+
+<hgroup>
+
+<h1 style="font-size:32pt">Skaitļu teorija:<br/>
+NMS Juniori 2019-09-28</h1>
+
+
+<blue>Pirmskaitļi un dalāmība</blue>
+
+
+</hgroup><hgroup>
+
+<span>(1) [Ievads](#section)</span>  
+<span>(2) [Dalāmība un dalīšana](#section-1)</span>  
+<span>(3) [Dalītāju skaits](#section-2)</span>  
+<span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
+<span>(5) [Mersena un Fermā skaitļi](#section-4)</span>  
+<span>(6) [Aritmētikas pamatteorēma](#section-5)</span>  
+<span>(7) [LKD un MKD](#section-6)</span>  
+<span>(8) [Kvantoru pieraksts](#section-7)</span>  
+<span>(9) [Tipisks piemērs](#section-8)</span>  
+<span style="color:darkgreen">**(10) Mājasdarba uzdevumi**</span>  
+<span>(11) [Kopsavilkums](#section-10)</span>
 
 
 </hgroup>
@@ -1995,11 +2764,13 @@ NMS Juniori 2019-09-28</h1>
 <span>(2) [Dalāmība un dalīšana](#section-1)</span>  
 <span>(3) [Dalītāju skaits](#section-2)</span>  
 <span>(4) [Pirmskaitļu izvietojums](#section-3)</span>  
-<span>(5) [Aritmētikas pamatteorēma](#section-4)</span>  
-<span>(6) [LKD un MKD](#section-5)</span>  
-<span>(7) [Kvantoru pieraksts](#section-6)</span>  
-<span>(8) [Mājasdarba uzdevumi](#section-7)</span>  
-<span style="color:darkgreen">**(9) Kopsavilkums**</span>
+<span>(5) [Mersena un Fermā skaitļi](#section-4)</span>  
+<span>(6) [Aritmētikas pamatteorēma](#section-5)</span>  
+<span>(7) [LKD un MKD](#section-6)</span>  
+<span>(8) [Kvantoru pieraksts](#section-7)</span>  
+<span>(9) [Tipisks piemērs](#section-8)</span>  
+<span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
+<span style="color:darkgreen">**(11) Kopsavilkums**</span>
 
 
 </hgroup>

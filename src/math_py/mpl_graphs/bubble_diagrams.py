@@ -12,7 +12,7 @@ im = ax.scatter(x, y, c=c, s=s, cmap=cm.jet)
 # Add a colorbar
 fig.colorbar(im, ax=ax)
 
-# set the color limits - not necessary here, but good to know how.
+# set the color limits
 im.set_clim(0.0, 1.0)
 
 show()
