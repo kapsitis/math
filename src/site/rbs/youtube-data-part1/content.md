@@ -29,6 +29,35 @@
 
 
 
+<!--
+(1) Slaidu tekstam jābūt minimālam; tam tikai jādod neliels rāmītis skolēnu pašu darbam.
+(2) Slaidu idejai jābūt vienkārši izstāstāmai, nav jāizmanto grūti un mulsinoši termini.
+(3) Jautājumiem jāizskatās dabiskiem, jārada interesi uzzināt vairāk, atnākt uz vēl kādu darbnīcu.
+(4) Jautājumiem jāasociējas ar skolēnu reālo dzīvi, jāmudina kaut ko pajautāt draugam vai vecmāmiņai. 
+(5) Praktiskajiem uzdevumiem jāmudina darboties grupās (vai vismaz pa pāriem), lai nostiprinātu RBS saistību ar pašu sadarbošanās ideju. 
+
+Vienlaikus, ir virkne lietu, kas IT darbnīcas atšķirs no biznesa vai radošuma darbnīcām. Piemēram - darbnīcas aktivitātēm izvirzāmie mērķi būs krietni konkrētāki un "izmērāmāki". 
+
+Pagaidām plānotas 2 darbnīcas:
+(A) Darbnīcas mērķis: 
+(A1) Kopā ar komandas biedriem izraudzīties tēmu, par kādu pētīt klipus vai soctīklu ierakstus. 
+(A2) Atrast kanālu vai kanālus, kur šī tēma plaši pārstāvēta. 
+(A3) Identificēt to klipu (vai cita veida sociālā tīkla ierakstu - Instagram u.c.), kurš izraisījis vislielāko lietotāju iesaisti/engagement. Iesaisti noteikt skatījumu, laiku/tīkšķu, komentāru veidā. Katrā tēmu grupā varētu būt kāds "rekords" (teiksim, kosmētikai vai datorspēlēm veltītie YouTub klipi parasti saņem lielāku atsaucību nekā opermūzikas klipi - bet var pētīt gan tos, gan tos). 
+
+(B) Darbnīcas mērķis: 
+(B1) Identificēt (gan starp pasniedzēju piedāvātajiem kanāliem, gan arī no iepriekšējā darbnīcā izraudzītajiem) klipos esošo komentāru populārākos vārdus, kas pauž auditorijas attieksmi. 
+(B2) Meklēt šos vārdus, lai atrastu līdzīgu saturu.  
+(B3) Redzēt, kā sociālajos tīklos izpaužas auditorijas reakcija ne vien kvantitatīvi, bet arī kvalitatīvi (t.s. "sentiment analysis"). Atrast, kuri video radījuši visvairāk pozitīvos vārdiņus vai emoji ("emotikonus" vai smailijus).
+
+Citu workshop/darbnīcu idejas:
+===============================
+(C) Google meklētājs (un citi līdzīgi meklēšanas servisi) darbībā - kā mērķtiecīgi izmantot visādas tur noslēptas funkcijas. Kā atminēt noslēpumus (teiksim, atbildes par angļu daiļliteratūru) ar Google palīdzību. 
+(D) Kā cilvēkus izspiego Internetā - kādas pēdas katrs no mums atstāj Google Maps, Twitter, u.c. servisos.
+-->
+
+
+
+
 
 
 

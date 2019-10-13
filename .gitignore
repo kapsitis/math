@@ -21,6 +21,7 @@ target/
 src/site/visualizations/powerpoints/
 src/site/algorithms/source-material/
 src/site/numtheory/source-material/
+src/site/discrete/source-material/
 src/site/rbs/**/*.html
 !src/site/rbs/index.html
 src/site/prob/**/*.html

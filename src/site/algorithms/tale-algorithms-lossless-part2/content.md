@@ -20,6 +20,18 @@
 </hgroup>
 
 
+<!--
+https://en.wikipedia.org/wiki/Asymmetric_numeral_systems
+
+Aplūkot šīs ANS kā iespēju paātrināt saspiešanu "entropijas kodiem"
+
+
+PSEUDO_EOF - Hafmana kods var beigties baita vidū. Parasti pievieno īpašu simbolu (teksta beigu marķieri), 
+lai saprastu, kad atkodēšana jāpārtrauc. 
+https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1172/assn/huffman.html
+
+
+--> 
 
 
 

@@ -9,7 +9,7 @@ else
     convert $file -trim +repage $file
   done
 
-  source resize-lossy-part2.sh
+  source resize-error-correction-part2.sh
 
   cd $1
   pandoc -t revealjs -s -o content.html content.md --slide-level=2 \
