@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title>Uzdevumi</title>
+  <title>"Uzdevumi"</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -73,6 +73,72 @@ Lietišķie algoritmi
 <span>(7) <a href="#/section-6">Tornado kodi</a></span><br />
 <span>(8) <a href="#/section-7">Kopsavilkums</a></span></p>
 </hgroup></section>
+<section id="bitu-heminga-kods" class="title-slide slide level1"><h1><lo-summary/> 7-bitu Heminga kods</h1><div style="font-size:90%">
+<table>
+<tr>
+<th>
+<span class="math inline">\(x;y\)</span> apzīmējumi
+</th>
+<td>
+<span class="math inline">\(x_1\)</span>
+</td>
+<td>
+<span class="math inline">\(x_2\)</span>
+</td>
+<td>
+<span class="math inline">\(x_3\)</span>
+</td>
+<td>
+<span class="math inline">\(\color{#F00}{y_1}\)</span>
+</td>
+<td>
+<span class="math inline">\(x_4\)</span>
+</td>
+<td>
+<span class="math inline">\(\color{#F00}{y_2}\)</span>
+</td>
+<td>
+<span class="math inline">\(\color{#F00}{y_3}\)</span>
+</td>
+</tr>
+<tr>
+<th>
+<blue>Vispārīgais apzīmējums</blue>
+</th>
+<td>
+<span class="math inline">\(\color{#00F}{x_{111}}\)</span>
+</td>
+<td>
+<span class="math inline">\(\color{#00F}{x_{110}}\)</span>
+</td>
+<td>
+<span class="math inline">\(\color{#00F}{x_{101}}\)</span>
+</td>
+<td>
+<span class="math inline">\(\color{#00F}{x_{100}}\)</span>
+</td>
+<td>
+<span class="math inline">\(\color{#00F}{x_{011}}\)</span>
+</td>
+<td>
+<span class="math inline">\(\color{#00F}{x_{010}}\)</span>
+</td>
+<td>
+<span class="math inline">\(\color{#00F}{x_{001}}\)</span>
+</td>
+</tr>
+</table>
+<p>Kodi <span class="math inline">\(x_{111},\ldots,x_{001}\)</span> izkārtoti <blue><em>apgrieztā leksikogrāfiskā secībā</em></blue> (<em>reverse lexicographic order</em> - <a href="https://oeis.org/wiki/Orderings#Reverse_lexicographic_order">Wikipedia</a>).</p>
+<p>Kāpēc virknītē <span class="math inline">\(x_1,x_2,x_3,y_1,x_4,y_2,y_3\)</span> ziņojuma biti <span class="math inline">\(x_i\)</span> nedaudz sajaukti ar kontrolbitiem <span class="math inline">\(y_j\)</span>?</p>
+<p><span class="math display">\[\left\{
+\begin{array}{l}
+y_{1} = \color{#00F}{x_{100}} = \color{#00F}{x_{111} \oplus x_{110} \oplus x_{101}} = x_1 \oplus x_2 \oplus x_3\\
+y_{2} = \color{#00F}{x_{010}} = \color{#00F}{x_{111} \oplus x_{110} \oplus x_{011}} = x_1 \oplus x_2 \oplus x_4\\
+y_{3} = \color{#00F}{x_{001}} = \color{#00F}{x_{111} \oplus x_{101} \oplus x_{011}} = x_1 \oplus x_3 \oplus x_4
+\end{array} \right.\]</span></p>
+<p>Ar <span class="math inline">\(x_1 \oplus x_2\)</span> apzīmējam <span class="math inline">\(\left(x_1+x_2\right)\,\text{mod}\,2\)</span>.<br />
+Saskaitīšana pēc moduļa <span class="math inline">\(2\)</span> jeb XOR, jeb “izslēdzošais VAI”.</p>
+</div></section>
 <section><section id="piemērs-1" class="title-slide slide level1"><h1><lo-sample/> Piemērs #1</h1><p>Izmantojot Heminga kodu <span class="math inline">\([7,4,1]\)</span>, nokodēt virkni 0110.</p></section><section id="piemērs-1-1" class="slide level2">
 <h2><lo-soln/> Piemērs #1</h2>
 <hgroup style="font-size:70%">
@@ -81,13 +147,12 @@ Aprēķinot <span class="math inline">\(y_1\)</span>, <span class="math inline">
 \begin{array}{l}
 y_1 = x_1 \oplus x_2 \oplus x_3\\
 y_2 = x_1 \oplus x_2 \oplus x_4\\
-y_3 = x_1 \oplus x_3 \oplus x_4\\
+y_3 = x_1 \oplus x_3 \oplus x_4
 \end{array} \right.\]</span> Iegūst <span class="math inline">\(y_1 = 0\)</span>, <span class="math inline">\(y_2 = 1\)</span>, <span class="math inline">\(y_3 = 1\)</span>.<br />
 Tātad kodētais ziņojums būs: <code>0110011</code>.</p>
 </hgroup>
 <hgroup>
-<p>Ar <span class="math inline">\(x_1 \oplus x_2\)</span> apzīmējam <span class="math inline">\(\left(x_1+x_2\right)\,\text{mod}\,2\)</span>.<br />
-Saskaitīšana pēc moduļa <span class="math inline">\(2\)</span> jeb XOR, jeb “izslēdzošais VAI”.</p>
+<p>Saskaitīšana pēc mod <span class="math inline">\(2\)</span>:</p>
 <table>
 <tr>
 <td>
@@ -132,12 +197,12 @@ Saskaitīšana pēc moduļa <span class="math inline">\(2\)</span> jeb XOR, jeb 
 \begin{array}{l}
 y_1 = x_1 \oplus x_2 \oplus x_3,\\
 y_2 = x_1 \oplus x_2 \oplus x_4,\\
-y_3 = x_1 \oplus x_3 \oplus x_4.\\
+y_3 = x_1 \oplus x_3 \oplus x_4.
 \end{array} \right.\]</span></p>
 <ul>
-<li><span class="math inline">\(y_1\)</span> nesakrīt <span class="math inline">\(\Rightarrow\)</span> kļūda ir kādā no bitiem, kas ietekmē <span class="math inline">\(y_1\)</span> (<span class="math inline">\(y_1, x_1, x_2, x_3\)</span>).</li>
-<li><span class="math inline">\(y_2\)</span> sakrīt <span class="math inline">\(\Rightarrow\)</span> kļūda ir kādā no bitiem, kas neietekmē <span class="math inline">\(y_2\)</span> (<span class="math inline">\(y_1, y_3, x_3\)</span>).</li>
-<li><span class="math inline">\(y_3\)</span> nesakrīt <span class="math inline">\(\Rightarrow\)</span> kļūda ir kādā no bitiem, kas ietekmē <span class="math inline">\(y_3\)</span> (<span class="math inline">\(x_1, x_3, x_4, y_3\)</span>).</li>
+<li><span class="math inline">\(y_1\)</span> nesakrīt <span class="math inline">\(\Rightarrow\)</span> kļūda var būt tikai kādā no bitiem, kas ietekmē <span class="math inline">\(y_1\)</span> (<span class="math inline">\(y_1, x_1, x_2, x_3\)</span>).</li>
+<li><span class="math inline">\(y_2\)</span> sakrīt <span class="math inline">\(\Rightarrow\)</span> kļūda var būt tikai kādā no bitiem, kas neietekmē <span class="math inline">\(y_2\)</span> (<span class="math inline">\(y_1, y_3, x_3\)</span>).</li>
+<li><span class="math inline">\(y_3\)</span> nesakrīt <span class="math inline">\(\Rightarrow\)</span> kļūda var būt tikai kādā no bitiem, kas ietekmē <span class="math inline">\(y_3\)</span> (<span class="math inline">\(x_1, x_3, x_4, y_3\)</span>).</li>
 <li>Vienīgais bits, kas ir atzīmēts visās rindās ir <span class="math inline">\(x_3\)</span>. Tātad tas ir kļūdainais bits.</li>
 </ul>
 <p>Sākotnējais ziņojums bija <span class="math inline">\(\mathtt{01}\color{#F00}{\mathtt{0}}\mathtt{1101}\)</span> (un <span class="math inline">\(x_1x_2x_3x_4 = \mathtt{0101}\)</span>).</p>
@@ -288,7 +353,164 @@ X
 </section></section>
 <section><section id="piemērs-3" class="title-slide slide level1"><h1><lo-sample/> Piemērs #3</h1><p>Izmantojot Heminga kodu <span class="math inline">\([7,4,1]\)</span>, atkodēt virkni <code>1010010</code>.</p></section><section id="piemērs-3-1" class="slide level2">
 <h2><lo-soln/> Piemērs #3</h2>
-<p>Pārbaudot katru no <span class="math inline">\(y_1, y_2, y_3\)</span> saskaņā ar formulām, konstatējam, ka visas saņemtās vērtības sakrīt ar tām, kas aprēķinātas pēc formulas. Tātad kļūdu nav un šī ir pareiza Heminga koda virkne.</p>
+<hgroup style="font-size:70%">
+<p><span class="math display">\[\left\{
+\begin{array}{l}
+y_1 = x_1 \oplus x_2 \oplus x_3,\\
+y_2 = x_1 \oplus x_2 \oplus x_4,\\
+y_3 = x_1 \oplus x_3 \oplus x_4.
+\end{array} \right.\]</span></p>
+<ul>
+<li><span class="math inline">\(y_1\)</span> sakrīt <span class="math inline">\(\Rightarrow\)</span> kļūda var būt tikai kādā no bitiem, kas neietekmē <span class="math inline">\(y_1\)</span> (<span class="math inline">\(y_2, y_3, x_4\)</span>).</li>
+<li><span class="math inline">\(y_2\)</span> sakrīt <span class="math inline">\(\Rightarrow\)</span> kļūda var būt tikai kādā no bitiem, kas neietekmē <span class="math inline">\(y_2\)</span> (<span class="math inline">\(y_1, y_3, x_3\)</span>).</li>
+<li><span class="math inline">\(y_3\)</span> sakrīt <span class="math inline">\(\Rightarrow\)</span> kļūda var būt tikai kādā no bitiem, kas neietekmē <span class="math inline">\(y_3\)</span> (<span class="math inline">\(y_1, y_2, x_2\)</span>).</li>
+<li>Nav neviena bita, kas ir atzīmēts visās rindās. Kļūdainu bitu nav.</li>
+</ul>
+<p>Sākotnējais ziņojums bija <span class="math inline">\(\mathtt{1010010}\)</span> (un <span class="math inline">\(x_1x_2x_3x_4 = \mathtt{1010}\)</span>).</p>
+</hgroup>
+<hgroup style="font-size:70%">
+<p>“X” <span class="math inline">\(i\)</span>-tajā rindiņā nozīmē, ka kontrolbits <span class="math inline">\(y_i\)</span> pieļauj iespēju, ka attiecīgajā bitā ir kļūda.</p>
+<table>
+<tr>
+<th style="border-bottom: 0px !important;">
+<span class="math inline">\(x_1\)</span>
+</th>
+<th style="border-bottom: 0px !important;">
+<span class="math inline">\(x_2\)</span>
+</th>
+<th style="border-bottom: 0px !important;">
+<span class="math inline">\(x_3\)</span>
+</th>
+<th style="border-bottom: 0px !important;">
+<span class="math inline">\(y_1\)</span>
+</th>
+<th style="border-bottom: 0px !important;">
+<span class="math inline">\(x_4\)</span>
+</th>
+<th style="border-bottom: 0px !important;">
+<span class="math inline">\(y_2\)</span>
+</th>
+<th style="border-bottom: 0px !important;">
+<span class="math inline">\(y_3\)</span>
+</th>
+</tr>
+<tr>
+<th>
+<code>1</code>
+</th>
+<th>
+<code>0</code>
+</th>
+<th>
+<code>1</code>
+</th>
+<th>
+<code>0</code>
+</th>
+<th>
+<code>0</code>
+</th>
+<th>
+<code>1</code>
+</th>
+<th>
+<code>0</code>
+</th>
+</tr>
+<tr>
+<td>
+ 
+</td>
+<td>
+ 
+</td>
+<td>
+ 
+</td>
+<td>
+ 
+</td>
+<td>
+X
+</td>
+<td>
+X
+</td>
+<td>
+X
+</td>
+</tr>
+<tr>
+<td>
+ 
+</td>
+<td>
+ 
+</td>
+<td>
+X
+</td>
+<td>
+X
+</td>
+<td>
+ 
+</td>
+<td>
+ 
+</td>
+<td>
+X
+</td>
+</tr>
+<tr>
+<td>
+ 
+</td>
+<td>
+X
+</td>
+<td>
+ 
+</td>
+<td>
+X
+</td>
+<td>
+ 
+</td>
+<td>
+X
+</td>
+<td>
+ 
+</td>
+</tr>
+<tr>
+<th>
+<code>1</code>
+</th>
+<th>
+<code>0</code>
+</th>
+<th>
+<code>1</code>
+</th>
+<th>
+<code>0</code>
+</th>
+<th>
+<code>0</code>
+</th>
+<th>
+<code>1</code>
+</th>
+<th>
+<code>0</code>
+</th>
+</tr>
+</table>
+</hgroup>
 </section></section>
 <section><section id="piemērs-4" class="title-slide slide level1"><h1><lo-sample/> Piemērs #4</h1><p>Izmantojot Heminga kodu <span class="math inline">\([7,4,1]\)</span>, atkodēt virkni <code>1101110</code>.</p></section><section id="piemērs-4-1" class="slide level2">
 <h2><lo-soln/> Piemērs #4</h2>
@@ -297,7 +519,7 @@ X
 \begin{array}{l}
 y_1 = x_1 \oplus x_2 \oplus x_3,\\
 y_2 = x_1 \oplus x_2 \oplus x_4,\\
-y_3 = x_1 \oplus x_3 \oplus x_4.\\
+y_3 = x_1 \oplus x_3 \oplus x_4.
 \end{array} \right.\]</span></p>
 <ul>
 <li><span class="math inline">\(y_1\)</span> nesakrīt <span class="math inline">\(\Rightarrow\)</span> kļūda ir kādā no bitiem, kas ietekmē <span class="math inline">\(y_1\)</span> (<span class="math inline">\(y_1, x_1, x_2, x_3\)</span>).</li>
@@ -1336,9 +1558,10 @@ f(4) = \left(3\cdot{}4^2 + 2\cdot{}4 + 1\right)\;\text{mod}\;5 = 57\;\text{mod}\
 <p>Tātad, tiek pārraidītas vērtības <span class="math inline">\(1, 1, 2, 4, 2\)</span>.</p>
 </div>
 </section></section>
-<section id="piemērs-nr.2" class="title-slide slide level1"><h1><lo-sample/> Piemērs Nr.2</h1><p>Atkodēt <span class="math inline">\(1, 1, \ast, 4, \ast\)</span>.<br />
-Izmantot polinomus ar koeficientiem, argumentiem un vērtībām no <span class="math inline">\(\text{GF}(5)\)</span>.</p></section>
-<section><section id="piemērs-nr.2-risinājums" class="title-slide slide level1"><h1><lo-soln/> Piemērs Nr.2: Risinājums</h1><div style="font-size:70%">
+<section><section id="piemērs-nr.2" class="title-slide slide level1"><h1><lo-sample/> Piemērs Nr.2</h1><p>Atkodēt <span class="math inline">\(1, 1, \ast, 4, \ast\)</span>, kur <span class="math inline">\(\ast\)</span> ir pazaudēta vērtība (saņemtās vērtības visas ir pareizas).<br />
+Izmantot polinomus ar koeficientiem, argumentiem un vērtībām no <span class="math inline">\(\text{GF}(5)\)</span>.</p></section><section id="piemērs-nr.2-risinājums" class="slide level2">
+<h2><lo-soln/> Piemērs Nr.2: Risinājums</h2>
+<div style="font-size:70%">
 <p>Sastādām vienādojumu sistēmu (pēc mod <span class="math inline">\(5\)</span>):</p>
 <p><span class="math display">\[\left\{ \begin{array}{l}
 0^2\cdot{}a + 0\cdot{}b + c \equiv 1\;(\text{mod}\,5),\\
@@ -1356,32 +1579,77 @@ a + b + c \equiv 1\;(\text{mod}\,5),\\
 a + b = 1 - 1 = 0\;(\text{mod}\,5),\\
 4 a + 3 b = 4 - 1 = 3\;(\text{mod}\,5).
 \end{array} \right.\]</span></p>
-</div></section><section id="piemērs-nr.2-risinājums-turpinājums" class="slide level2">
+</div>
+</section><section id="piemērs-nr.2-risinājums-turpinājums" class="slide level2">
 <h2><lo-soln/> Piemērs Nr.2: Risinājums (turpinājums)</h2>
+<div style="font-size:70%">
 <p><span class="math display">\[\left\{ \begin{array}{l}
-a + b = 1 - 1 = 0\;(\text{mod}\,5),\\
+\mbox{}a + b = 1 - 1 = 0\;(\text{mod}\,5),\\
 4 a + 3 b = 4 - 1 = 3\;(\text{mod}\,5).
 \end{array} \right.\]</span></p>
 <p>Atrisinām šo divu vienādojumu sistēmu ar izslēgšanas metodi. Pareizinot pirmo vienādojumu ar <span class="math inline">\(3\)</span> un atņemot no otrā vienādojuma iegūst <span class="math display">\[(4a+3b) - 3(a+b) = a = 3 - 3\cdot{}0 \equiv 3\;(\text{mod}\,5).\]</span></p>
-<p>No vienādojuma <span class="math inline">\(a + b \equiv 0\;(\text{mod}\,5)\)</span> iegūstam, ka <span class="math inline">\(b = 0 - 3 = -3 = 2\;(\text{mod}\,5)\)</span>.</p>
-<p>Tātad polinoms bija <span class="math display">\[f(x)=3x^2 + 2x + 1.\]</span></p>
+<p>No vienādojuma <span class="math inline">\(a + b \equiv 0\;(\text{mod}\,5)\)</span> iegūstam, ka <span class="math inline">\(b = 0 - 3 = -3 = 2\;(\text{mod}\,5)\)</span>. Tātad polinoms bija <span class="math display">\[f(x)=3x^2 + 2x + 1.\]</span></p>
+</div>
 </section></section>
-<section><section id="lagranža-interpolācija" class="title-slide slide level1"><h1><lo-theory/> Lagranža interpolācija</h1><p>Vēl viens veids, kā veikt atkodēšanu ir interpolācija (labi strādā pie neliela polinomu skaita un pakāpēm).</p>
+<section><section id="piemērs-nr.3" class="title-slide slide level1"><h1><lo-sample/> Piemērs Nr.3</h1><p>Atkodēt <span class="math inline">\(2, 3, \ast, \ast, 2\)</span>, kur <span class="math inline">\(\ast\)</span> ir pazaudēta vērtība (saņemtās vērtības visas ir pareizas). Izmantot polinomus ar koeficientiem, argumentiem un vērtībām no <span class="math inline">\(\text{GF}(5)\)</span>.</p></section><section id="piemērs-nr.3-risinājums" class="slide level2">
+<h2><lo-soln/> Piemērs Nr.3: Risinājums</h2>
+<div style="font-size:70%">
+<p>Sastādām vienādojumu sistēmu (pēc mod 5):</p>
+<p><span class="math display">\[\left\{ \begin{array}
+\mbox{}0^2 \cdot a + 0 \cdot b + c \equiv 2\;(\text{mod}\,5),\\
+1^2 \cdot a + 1 \cdot b + c \equiv 3\;(\text{mod}\,5),\\
+4^2 \cdot a + 4 \cdot b + c \equiv 2\;(\text{mod}\,5).
+\end{array} \right.\]</span></p>
+<p>Tā kā <span class="math inline">\(4^2 = 16 \equiv 1\;(\text{mod}\,5)\)</span>, tad šo sistēmu var pārrakstīt:</p>
+<p><span class="math display">\[\left\{ \begin{array}
+\mbox{}c \equiv 2\;(\text{mod}\,5),\\
+a + b + c \equiv 3\;(\text{mod}\,5),\\
+a + 4 \cdot{} b + c \equiv 2\;(\text{mod}\,5).
+\end{array} \right.\]</span></p>
+<p>Ievietojot <span class="math inline">\(c=2\)</span> otrajā un trešajā vienādojumā, iegūstam</p>
+<p><span class="math display">\[\left\{ \begin{array}
+\mbox{}a + b = 3 - 2 \equiv 1\;(\text{mod}\,5),\\
+a + 4 b = 2 - 2 \equiv 0\;(\text{mod}\,5).
+\end{array} \right.\]</span></p>
+</div>
+</section><section id="piemērs-nr.3-risinājums-turpinājums" class="slide level2">
+<h2><lo-soln/> Piemērs Nr.3: Risinājums (turpinājums)</h2>
+<div style="font-size:70%">
+<p><span class="math display">\[\left\{ \begin{array}
+\mbox{}a + b = 3 - 2 \equiv 1\;(\text{mod}\,5),\\
+\mbox{}a + 4 b = 2 - 2 \equiv 0\;(\text{mod}\,5).
+\end{array} \right.\]</span></p>
+<p>Atrisinām šo sistēmu ar izslēgšanas metodi. Atņemot pirmo vienādojumu no otrā:</p>
+<p><span class="math display">\[(a+4b)-(a+b) = 3b = 0 - 1 \equiv 4\;(\text{mod}\,5).\]</span></p>
+<p>Jāatrisina <span class="math inline">\(3b \equiv 4\;(\text{mod}\,5).\)</span></p>
+<p><em>Piezīme:</em> Atrisinājums nebūs daļskaitlis 4/3, jo tas nav lauka elements! Pārbaudot <span class="math inline">\(b = 0, 1, 2, 3, 4\)</span>, secinām, ka <span class="math inline">\(3 \cdot 3 = 9 \equiv 4\;(\text{mod}\,5)\)</span>.<br />
+Tātad <span class="math inline">\(b \equiv 3\;(\text{mod}\,5)\)</span>.<br />
+<em>Piezīme:</em> Ir algoritmi, kā atrast <span class="math inline">\(b\)</span>, neizmantojot pilno pārlasi. Bet priekš <span class="math inline">\((\text{mod}\,5)\)</span>, iespējamo <span class="math inline">\(b\)</span> ir tik maz, ka pārlase ir ātrāka.</p>
+<p>No vienādojuma <span class="math inline">\(a + b \equiv 1\;(\text{mod}\,5)\)</span> iegūstam, ka <span class="math inline">\(a = 1 - 3 = -2 \equiv 3\;(\text{mod}\,5)\)</span>. Tātad polinoms bija <span class="math display">\[f(x) = 3 x^2 + 3x + 2.\]</span></p>
+</div>
+</section></section>
+<section><section id="lagranža-interpolācija" class="title-slide slide level1"><h1><lo-theory/> Lagranža interpolācija</h1><div style="font-size:70%">
+<p>Vēl viens veids, kā veikt atkodēšanu ir interpolācija (labi strādā pie neliela polinomu skaita un pakāpēm).</p>
 <p>Ja zinām, ka <span class="math display">\[f(x_1)=r_1;\;\;f(x_2)=r_2;\;\;\ldots,\;\;f(x_k)=r_k,\]</span> tad definējam polinomus:</p>
 <p><span class="math display">\[f_i (x) = \frac{(x-r_1)\cdot\ldots\cdot(x-r_{i-1})\cdot(x-r_{i+1})\cdot\ldots\cdot(x-r_k)}
 {(r_i-r_1)\cdot\ldots\cdot(r_i-r_{i-1})\cdot(r_i-r_{i+1})\cdot\ldots\cdot(r_i-r_k)}.\]</span></p>
 <p>Šiem polinomem <span class="math inline">\(f_i(x)\)</span> ir šādas īpašības:<br />
 (1) Ja <span class="math inline">\(x=r_i\)</span>, tad <span class="math inline">\(f_i(x) = 1\)</span>,<br />
-(2) Ja <span class="math inline">\(x=r_j\)</span>, (<span class="math inline">\(i= \neq j\)</span>), tad <span class="math inline">\(f_i(x)=0\)</span>, jo kaut kur polinomā ir reizinātājs <span class="math inline">\((x-r_j)=0\)</span>, kas visu reizinājumu padara par <span class="math inline">\(0\)</span>.</p></section><section id="interpol" class="slide level2">
-<h2><lo-theory/> Interpol</h2>
-<p>Meklētais polinoms ir: f(x) = r 1 <em>f 1 (x) + r 2 </em>f 2 (x)+ … + r k <em>f k (x). Kāpēc šis polinoms dod pareizu rezultātu? Ja x vietā ievietojam r i , tad visi f j (x) (i≠j) būs vienādi ar 0, un vienīgais f i (x) dos rezultātu 1. Tātad f(x) = r i </em>f i (x) = r i Ja vienīgais kļūdu veids ir dažu vērtību pazušana, tad pietiek ar šo pieeju.</p>
-</section><section id="interpolācija-ārpus-erasure-code" class="slide level2">
-<h2><lo-summary/> Interpolācija ārpus “erasure code”</h2>
+(2) Ja <span class="math inline">\(x=r_j\)</span>, (<span class="math inline">\(i= \neq j\)</span>), tad <span class="math inline">\(f_i(x)=0\)</span>, jo kaut kur polinomā ir reizinātājs <span class="math inline">\((x-r_j)=0\)</span>, kas visu reizinājumu padara par <span class="math inline">\(0\)</span>.</p>
+</div></section><section id="interpolāciju-lietošana-atkodēšanai" class="slide level2">
+<h2><lo-theory/> Interpolāciju lietošana atkodēšanai</h2>
+<p>Meklētais polinoms ir: <span class="math display">\[f(x) = r_1 \cdot f_1(x) + r_2 \cdot f_2 (x) + \ldots + r_k \cdot f_k (x).\]</span></p>
+<p>Kāpēc šis polinoms dod pareizu rezultātu? Ja <span class="math inline">\(x = r_i\)</span>, tad visi <span class="math inline">\(f_j(x)\)</span> (<span class="math inline">\(i \neq j\)</span>) vienādi ar <span class="math inline">\(0\)</span>, un vienīgi <span class="math inline">\(f_i (r_i) = 1\)</span>.</p>
+<p>Tātad <span class="math inline">\(f(r_i) = r_i \cdot f_i(r_i) = r_i\)</span>.<br />
+Ja vienīgais kļūdu veids ir dažu vērtību pazušana, tad pietiek ar šo pieeju.</p>
+</section><section id="interpolācija-ja-var-būt-citas-kļūdas" class="slide level2">
+<h2><lo-summary/> Interpolācija, ja var būt citas kļūdas</h2>
 <p>Ja ir kļūdas, kurās vienas vērtības vietā ir saņemta cita, tad ir grūtāk:<br />
-<span class="math inline">\(k\)</span>: sākotnējie skaitļi; <span class="math inline">\(s\)</span>: pārraidītās vērtības <span class="math inline">\((f(0), f(1), \ldots, f(s-1))\)</span>.</p>
+<span class="math inline">\(k\)</span>: sākotnējie skaitļi;<br />
+<span class="math inline">\(s\)</span> pārraidītās vērtības: <span class="math inline">\((f(0), f(1), \ldots, f(s-1))\)</span>.</p>
 <ul>
 <li><span class="math inline">\(c \leq (s-k)/2\)</span>: maksimālais pieļaujamais kļūdu skaits,</li>
-<li>Vismaz s - c vērtības ir pareizas.</li>
+<li>Vismaz <span class="math inline">\(s-c\)</span> vērtības ir pareizas.</li>
 </ul>
 <p>Rezultātā ir pietiekami daudz pareizo vērtību, lai atrastu kļūdas, taču nezinām tieši kuras ir pareizas, lai tās varētu izmantot kļūdu meklēšanā.</p>
 </section></section>
@@ -1401,6 +1669,102 @@ Lietišķie algoritmi
 <span>(7) <a href="#/section-6">Tornado kodi</a></span><br />
 <span>(8) <a href="#/section-7">Kopsavilkums</a></span></p>
 </hgroup></section>
+<section><section id="polinoms-yx---kļūdu-lokators" class="title-slide slide level1"><h1><lo-theory/> Polinoms Y(x) - kļūdu lokators</h1><div style="font-size:70%">
+<p>Berlekampa-Velča algoritms ir Rīda-Solomona atkodēšanas metode, ko lieto tad, ja iespējama ne tikai datu pazušana, bet arī nepareizu datu saņemšana pareizo datu vietā. Ieviešam apzīmējumus:</p>
+<ul>
+<li>Kļūdas ir <span class="math inline">\(x_1, x_2, \ldots, x_c\)</span> (pagaidām nezināmās vietās)</li>
+<li>Pārraidītais polinoms bija <span class="math inline">\(k-1\)</span> pakāpes polinoms <span class="math inline">\(p(x)\)</span></li>
+<li>Vērtību <span class="math inline">\(p(x_i)\)</span> vietā saņemtās vērtības apzīmējam ar <span class="math inline">\(r_i\)</span>.</li>
+<li>Atskaitot <span class="math inline">\(c\)</span> vērtības (punktos <span class="math inline">\(x_1,\ldots,x_c\)</span>), citas vērtības ir pareizas.</li>
+</ul>
+<p>Definējam kļūdu lokatoru: <span class="math display">\[Y(x) = (x-x_1)(x-x_2) \ldots (x-x_c).\]</span> Polinoma pakāpe <span class="math inline">\(\text{deg}\,Y(x) \leq c\)</span>. Šis polinoms ir <span class="math inline">\(0\)</span> visām tām argumenta vērtībām <span class="math inline">\(x_i\)</span>, kurām saņemta nepareiza <span class="math inline">\(p(x)\)</span> vērtība.</p>
+</div></section><section id="polinoms-zx-yx-un-px-reizinājums" class="slide level2">
+<h2><lo-theory/> Polinoms Z(x): Y(x) un p(x) reizinājums</h2>
+<div style="font-size:70%">
+<p>Definējam polinomu <span class="math inline">\(Z(x)\)</span>, kas ir kļūdu lokatora un sākotnējā polinoma reizinājums: <span class="math display">\[Z(x) = Y(x) \cdot p(x).\]</span> Pakāpe <span class="math inline">\(\text{deg}\,Z(x) = \text{deg}\,Y(x) + \text{deg}\,p(x) \leq c+(k-1) = k + c - 1\)</span>.</p>
+<p>Iedomājamies, ka protam atrast <span class="math inline">\(Y\)</span> un <span class="math inline">\(Z\)</span>. Tad, izdalot abas vienādības puses ar <span class="math inline">\(Y\)</span>, iegūstam <span class="math inline">\(p(x) = Z(x) / Y(x)\)</span>.</p>
+<p>Tātad, lai atrastu <span class="math inline">\(p(x)\)</span>, pietiek izrēķināt <span class="math inline">\(Z(x)\)</span> un <span class="math inline">\(Y(x)\)</span>. Ja <span class="math inline">\(r\)</span> ir vērtība, kas saņemta kā <span class="math inline">\(p(x)\)</span>, tad <span class="math display">\[Z(x) = Y(x) \cdot r.\]</span></p>
+<p>Šāda vienādība ir spēkā, jo<br />
+(1) Ja <span class="math inline">\(r = p(x)\)</span>, tad <span class="math inline">\(Z(x) = Y(x) \cdot p(x)\)</span> - ir saņemta pareiza vērtība<br />
+(2) Ja <span class="math inline">\(r \neq p(x)\)</span>, tad <span class="math inline">\(Y(x) = 0\)</span> un <span class="math inline">\(Z(x) = 0\)</span>.</p>
+<p>Tātad <span class="math inline">\(Z(x) = Y(x) \cdot r\)</span> ir spēkā visos <span class="math inline">\(s\)</span> pārraidītajos punktos.</p>
+</div>
+</section><section id="y-z-atrašana" class="slide level2">
+<h2><lo-theory/> Y, Z atrašana</h2>
+<div style="font-size:70%">
+
+<p>Pieņemsim, ka <span class="math display">\[Y(x) = b_c x^c + b_{c-1} x^{c-1} + \ldots + b_0.\]</span> Tā kā <span class="math inline">\(p(x)\)</span> – polinoms ar pakāpi <span class="math inline">\(k-1\)</span>, tad <span class="math display">\[Z(x) = a_{k+c-1} x^{k+c-1} + a_{k+c-2} x^{k+c-2} + \ldots + a_0.\]</span></p>
+<ul>
+<li>polinoms ar pakāpi <span class="math inline">\(c\)</span></li>
+<li>polinoms ar pakāpi <span class="math inline">\(k+c-1\)</span></li>
+</ul>
+<p>Katra saņemtā vērtība dod pa vienam nosacījumam:</p>
+<p><span class="math display">\[\left\{ \begin{array}{l}
+Z(0) = Y(0) \cdot r_0\\
+Z(1) = Y(1) \cdot r_1\\
+\ldots\\
+Z(s-1) = Y(s-1) \cdot r_{s-1}
+\end{array} \right.\]</span></p>
+</section><section id="y-z-atrašana-turpinājums" class="slide level2">
+<h2><lo-theory/> Y, Z atrašana (turpinājums)</h2>
+<div style="font-size:70%">
+<p><span class="math display">\[\left\{ \begin{array}{l}
+Z(0) = Y(0) \cdot r_0\\
+Z(1) = Y(1) \cdot r_1\\
+\ldots\\
+Z(s-1) = Y(s-1) \cdot r_{s-1}
+\end{array} \right.\]</span></p>
+<p>Katrā nosacījumā ievietojot <span class="math inline">\(i\)</span> un <span class="math inline">\(r_i\)</span>, iegūst vienādojumu, kura nezināmie ir <span class="math inline">\(a_0, \ldots, a_{k+c-1}, b_0, \ldots b_c\)</span>.</p>
+<p><span class="math inline">\(Z(i) = Y(i) \cdot r_i\)</span> - <span class="math inline">\(s\)</span> vienādojumu sistēma ar <span class="math inline">\(k+2 \cdot c +1\)</span> nezināmajiem. Atrisinām šo vienādojumu sistēmu un no nezināmajiem iegūstam <span class="math inline">\(Z(x)\)</span> un <span class="math inline">\(Y(x)\)</span>. Tad izmantojot <span class="math inline">\(p(x) = Z(x)/Y(x)\)</span> aprēķinām <span class="math inline">\(p(x)\)</span>.</p>
+</div>
+</section></section>
+<section><section id="jautājumi-par-berlekampu-velču" class="title-slide slide level1"><h1><lo-theory/> Jautājumi par Berlekampu-Velču</h1><hgroup style="font-size:70%">
+<p><strong>Jautājumi:</strong></p>
+<ol type="1">
+<li>Vai vienādojumu sistēmai ir atrisinājums?</li>
+<li>Vai vienādojumu sistēmai nav vairāki atrisinājumi?</li>
+<li>Vai varam atrast algoritmisku metodi, kā atrisināt vienādojumu sistēmu?</li>
+</ol>
+</hgroup>
+<hgroup style="font-size:70%">
+<p><strong>Atbildes:</strong></p>
+<ol type="1">
+<li>Jā, atrisinājums vienmēr būs pareizais (meklējamais) <span class="math inline">\(Y(x)\)</span> un <span class="math inline">\(Z(x)\)</span> polinomu pāris, jo tas apmierina visus nosacījumus.</li>
+<li>Principā varētu būt vairāki atrisinājumi <span class="math inline">\((Y(x), Z(x))\)</span> un <span class="math inline">\((Y’(x), Z’(x))\)</span> un <span class="math inline">\(Z(x)/Y(x) \neq Z’(x)/Y’(x)\)</span>.<br />
+Vai tā var būt?<br />
+Ja tiek pārraidītas pietiekami daudzas vērtības, tad atrisinājums izrādīsies viennozīmīgi noteikts <span class="math inline">\((Y(x), Z(x))\)</span>.</li>
+<li>Jā; tālākos slaidos piedāvāsim pakāpeniskas izslēgšanas metodi.</li>
+</ol>
+</hgroup></section><section id="berlekampa-velča-atrisināmība" class="slide level2">
+<h2><lo-theory/> Berlekampa-Velča atrisināmība</h2>
+<div style="font-size:70%">
+<p><strong>Apgalvojums:</strong> Doti polinomi <span class="math inline">\(Y\)</span> un <span class="math inline">\(Z\)</span>, kuriem:<br />
+(1) <span class="math inline">\(\text{deg}\,Y \leq c\)</span>,<br />
+(2) <span class="math inline">\(\text{deg}\,Z \leq k + c - 1\)</span><br />
+(3) <span class="math inline">\(Y \neq 0\)</span> un visiem <span class="math inline">\(i\)</span>: <span class="math inline">\(Z(i) = Y(i) \cdot r_i\)</span>. Pieņemsim, ka <span class="math inline">\(Y’, Z’\)</span> vēl divi polinomi ar tādām pašām īpašībām.<br />
+Tad <span class="math inline">\(Z(x)/Y(x) = Z’(x)/Y’(x)\)</span>.</p>
+<p><strong>Pierādījums:</strong><br />
+<span class="math inline">\(Z(i) = Y(i) \cdot r_i\)</span>, kur <span class="math inline">\(r_i\)</span> – saņemtā vērtība priekš <span class="math inline">\(p(i)\)</span>.<br />
+<span class="math inline">\(Z’(i) = Y’(i) \cdot r_i\)</span>.</p>
+<p>Sareizinām krustiski un iegūstam <span class="math display">\[Z(i) \cdot Y’(i) \cdot r_i = Z’(i) * Y(i) * r_i.\]</span></p>
+<p>Noīsinām <span class="math inline">\(r_i\)</span> un iegūstam <span class="math display">\[Z(i) \cdot Y’(i) = Z’(i) * Y(i)\]</span></p>
+</div>
+</section><section id="berlekampa-velča-atrisināmība-turpinājums" class="slide level2">
+<h2><lo-summary/> Berlekampa-Velča atrisināmība (turpinājums)</h2>
+<div style="font-size:70%">
+<p><span class="math inline">\(Z’(i) \cdot Y(i)\)</span> pakāpe ir <span class="math inline">\(k + 2c + 1\)</span>.</p>
+<p>Mainīgais <span class="math inline">\(i\)</span> pieņem vērtības <span class="math inline">\(0, 1, \ldots, s-1\)</span>.<br />
+<span class="math inline">\(Z(i) \cdot Y’(i)\)</span> un <span class="math inline">\(Z’(i) \cdot Y(i)\)</span> sakrīt pie <span class="math inline">\(s\)</span> dažādiem <span class="math inline">\(x\)</span>.</p>
+<blockquote>
+<p><em>Algebras pamatteorēma:</em> Ja divi polinomi ir dažādi, tad maksimālais argumentu skaits, pie kuriem tie sakrīt, ir šo polinomu pakāpju maksimums.</p>
+</blockquote>
+<p>Tas nozīmē, ka, ja <span class="math inline">\(k+c-1&lt;s\)</span>, tad <span class="math inline">\(Z(i) \cdot Y’(i) = Z’(i) \cdot Y(i)\)</span>.<br />
+Izdalām abas puses ar <span class="math inline">\(Y(x)\)</span> un <span class="math inline">\(Y’(x)\)</span> un iegūstam <span class="math display">\[Z(x) / Y(x) = Z’(x) / Y’(x)\]</span></p>
+</div>
+</section><section id="algoritmiska-berlekampa-velča-atrisināšana" class="slide level2">
+<h2><lo-summary/> Algoritmiska Berlekampa-Velča atrisināšana</h2>
+<p>Nosacījumos <span class="math inline">\(Z(i) = Y(i) \cdot r_i\)</span> ievietojot <span class="math inline">\(i\)</span> un <span class="math inline">\(r_i\)</span>, iegūst lineārus vienādojumus ar nezināmajiem <span class="math inline">\(a_i\)</span>, <span class="math inline">\(b_i\)</span>, kuriem ir koeficienti <span class="math inline">\(y_i\)</span> un <span class="math inline">\(z_i\)</span>: <span class="math display">\[y_{1,1} a_{k+c-1} + \ldots + y_{1,k+c} a_0 = z_{1,1} b_c + \ldots + z_{1,c+1}b_0.\]</span> Ja lineārai vienādojumu sistēmai ir atrisinājums, tad izslēdzot pa vienam mainīgajam (ar apzīmēšanas palīdzību) var atrast atrisinājumu.</p>
+</section></section>
 <section id="section-6" class="title-slide slide level1"><h1> </h1><hgroup>
 <h1 style="font-size:28pt">
 Lietišķie algoritmi

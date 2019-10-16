@@ -64,6 +64,47 @@ atkarīga no situācijas?
 
 
 
+# <lo-summary/> 7-bitu Heminga kods
+
+<div style="font-size:90%">
+
+<table>
+<tr>
+<th>$x;y$ apzīmējumi</th><td>$x_1$</td><td>$x_2$</td><td>$x_3$</td><td>$\color{#F00}{y_1}$</td><td>$x_4$</td><td>$\color{#F00}{y_2}$</td><td>$\color{#F00}{y_3}$</td>
+</tr>
+<tr>
+<th><blue>Vispārīgais apzīmējums</blue></th>
+<td>$\color{#00F}{x_{111}}$</td>
+<td>$\color{#00F}{x_{110}}$</td>
+<td>$\color{#00F}{x_{101}}$</td>
+<td>$\color{#00F}{x_{100}}$</td>
+<td>$\color{#00F}{x_{011}}$</td>
+<td>$\color{#00F}{x_{010}}$</td>
+<td>$\color{#00F}{x_{001}}$</td>
+</tr>
+</table>
+
+Kodi $x_{111},\ldots,x_{001}$ izkārtoti <blue>*apgrieztā leksikogrāfiskā secībā*</blue> 
+(*reverse lexicographic order* - [Wikipedia](https://oeis.org/wiki/Orderings#Reverse_lexicographic_order)). 
+
+Kāpēc virknītē $x_1,x_2,x_3,y_1,x_4,y_2,y_3$ 
+ziņojuma biti $x_i$ nedaudz sajaukti ar kontrolbitiem $y_j$?
+
+$$\left\{
+\begin{array}{l}
+y_{1} = \color{#00F}{x_{100}} = \color{#00F}{x_{111} \oplus x_{110} \oplus x_{101}} = x_1 \oplus x_2 \oplus x_3\\
+y_{2} = \color{#00F}{x_{010}} = \color{#00F}{x_{111} \oplus x_{110} \oplus x_{011}} = x_1 \oplus x_2 \oplus x_4\\
+y_{3} = \color{#00F}{x_{001}} = \color{#00F}{x_{111} \oplus x_{101} \oplus x_{011}} = x_1 \oplus x_3 \oplus x_4
+\end{array} \right.$$
+
+Ar $x_1 \oplus x_2$ apzīmējam 
+$\left(x_1+x_2\right)\,\text{mod}\,2$.  
+Saskaitīšana pēc moduļa $2$ jeb XOR, jeb 
+"izslēdzošais VAI".
+
+</div>
+
+
 # <lo-sample/> Piemērs #1
 
 Izmantojot Heminga kodu $[7,4,1]$, nokodēt virkni 0110.
@@ -80,7 +121,7 @@ $$\left\{
 \begin{array}{l}
 y_1 = x_1 \oplus x_2 \oplus x_3\\
 y_2 = x_1 \oplus x_2 \oplus x_4\\
-y_3 = x_1 \oplus x_3 \oplus x_4\\
+y_3 = x_1 \oplus x_3 \oplus x_4
 \end{array} \right.$$
 Iegūst $y_1 = 0$, $y_2 = 1$, $y_3 = 1$.  
 Tātad kodētais ziņojums būs: `0110011`.
@@ -88,10 +129,7 @@ Tātad kodētais ziņojums būs: `0110011`.
 </hgroup>
 <hgroup>
 
-Ar $x_1 \oplus x_2$ apzīmējam 
-$\left(x_1+x_2\right)\,\text{mod}\,2$.  
-Saskaitīšana pēc moduļa $2$ jeb XOR, jeb 
-"izslēdzošais VAI". 
+Saskaitīšana pēc mod $2$:
 
 <table>
 <tr>
@@ -129,12 +167,12 @@ $$\left\{
 \begin{array}{l}
 y_1 = x_1 \oplus x_2 \oplus x_3,\\
 y_2 = x_1 \oplus x_2 \oplus x_4,\\
-y_3 = x_1 \oplus x_3 \oplus x_4.\\
+y_3 = x_1 \oplus x_3 \oplus x_4.
 \end{array} \right.$$
 
-* $y_1$ nesakrīt $\Rightarrow$ kļūda ir kādā no bitiem, kas ietekmē $y_1$ ($y_1, x_1, x_2, x_3$). 
-* $y_2$ sakrīt $\Rightarrow$ kļūda ir kādā no bitiem, kas neietekmē $y_2$ ($y_1, y_3, x_3$).
-* $y_3$ nesakrīt $\Rightarrow$ kļūda ir kādā no bitiem, kas ietekmē $y_3$ ($x_1, x_3, x_4, y_3$).
+* $y_1$ nesakrīt $\Rightarrow$ kļūda var būt tikai kādā no bitiem, kas ietekmē $y_1$ ($y_1, x_1, x_2, x_3$). 
+* $y_2$ sakrīt $\Rightarrow$ kļūda var būt tikai kādā no bitiem, kas neietekmē $y_2$ ($y_1, y_3, x_3$).
+* $y_3$ nesakrīt $\Rightarrow$ kļūda var būt tikai kādā no bitiem, kas ietekmē $y_3$ ($x_1, x_3, x_4, y_3$).
 * Vienīgais bits, kas ir atzīmēts visās rindās ir $x_3$. Tātad tas ir kļūdainais bits. 
 
 Sākotnējais ziņojums bija $\mathtt{01}\color{#F00}{\mathtt{0}}\mathtt{1101}$ 
@@ -189,12 +227,64 @@ Izmantojot Heminga kodu $[7,4,1]$, atkodēt virkni `1010010`.
 
 ## <lo-soln/> Piemērs #3
 
-Pārbaudot katru no $y_1, y_2, y_3$ saskaņā ar formulām, 
-konstatējam, ka visas saņemtās vērtības sakrīt ar tām, 
-kas aprēķinātas pēc formulas. Tātad kļūdu nav un šī ir
-pareiza Heminga koda virkne.
+<hgroup style="font-size:70%">
+
+$$\left\{
+\begin{array}{l}
+y_1 = x_1 \oplus x_2 \oplus x_3,\\
+y_2 = x_1 \oplus x_2 \oplus x_4,\\
+y_3 = x_1 \oplus x_3 \oplus x_4.
+\end{array} \right.$$
+
+* $y_1$ sakrīt $\Rightarrow$ kļūda var būt tikai kādā no bitiem, kas neietekmē $y_1$ ($y_2, y_3, x_4$). 
+* $y_2$ sakrīt $\Rightarrow$ kļūda var būt tikai kādā no bitiem, kas neietekmē $y_2$ ($y_1, y_3, x_3$).
+* $y_3$ sakrīt $\Rightarrow$ kļūda var būt tikai kādā no bitiem, kas neietekmē $y_3$ ($y_1, y_2, x_2$).
+* Nav neviena bita, kas ir atzīmēts visās rindās. Kļūdainu bitu nav.
+
+Sākotnējais ziņojums bija $\mathtt{1010010}$ 
+(un $x_1x_2x_3x_4 = \mathtt{1010}$).
+
+</hgroup>
+<hgroup style="font-size:70%">
+
+"X" $i$-tajā rindiņā nozīmē, ka kontrolbits $y_i$ 
+pieļauj iespēju, ka attiecīgajā bitā ir kļūda.
+
+<table>
+<tr>
+<th style="border-bottom: 0px !important;">$x_1$</th>
+<th style="border-bottom: 0px !important;">$x_2$</th>
+<th style="border-bottom: 0px !important;">$x_3$</th>
+<th style="border-bottom: 0px !important;">$y_1$</th>
+<th style="border-bottom: 0px !important;">$x_4$</th>
+<th style="border-bottom: 0px !important;">$y_2$</th>
+<th style="border-bottom: 0px !important;">$y_3$</th>
+</tr>
+<tr>
+<th>`1`</th>
+<th>`0`</th>
+<th>`1`</th>
+<th>`0`</th>
+<th>`0`</th>
+<th>`1`</th>
+<th>`0`</th>
+</tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>X</td><td>X</td><td>X</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>X</td><td>X</td><td>&nbsp;</td><td>&nbsp;</td><td>X</td></tr>
+<tr><td>&nbsp;</td><td>X</td><td>&nbsp;</td><td>X</td><td>&nbsp;</td><td>X</td><td>&nbsp;</td></tr>
+<tr>
+<th>`1`</th>
+<th>`0`</th>
+<th>`1`</th>
+<th>`0`</th>
+<th>`0`</th>
+<th>`1`</th>
+<th>`0`</th>
+</tr>
+</table>
 
 
+</hgroup>
 
 # <lo-sample/> Piemērs #4
 
@@ -210,7 +300,7 @@ $$\left\{
 \begin{array}{l}
 y_1 = x_1 \oplus x_2 \oplus x_3,\\
 y_2 = x_1 \oplus x_2 \oplus x_4,\\
-y_3 = x_1 \oplus x_3 \oplus x_4.\\
+y_3 = x_1 \oplus x_3 \oplus x_4.
 \end{array} \right.$$
 
 * $y_1$ nesakrīt $\Rightarrow$ kļūda ir kādā no bitiem, kas ietekmē $y_1$ ($y_1, x_1, x_2, x_3$). 
@@ -896,7 +986,7 @@ Tātad, tiek pārraidītas vērtības $1, 1, 2, 4, 2$.
 
 # <lo-sample/> Piemērs Nr.2
 
-Atkodēt $1, 1, \ast, 4, \ast$.  
+Atkodēt $1, 1, \ast, 4, \ast$, kur $\ast$ ir pazaudēta vērtība (saņemtās vērtības visas ir pareizas).  
 Izmantot polinomus ar koeficientiem, argumentiem un vērtībām no $\text{GF}(5)$. 
 
 
@@ -934,7 +1024,7 @@ a + b = 1 - 1 = 0\;(\text{mod}\,5),\\
 <div style="font-size:70%">
 
 $$\left\{ \begin{array}{l}
-a + b = 1 - 1 = 0\;(\text{mod}\,5),\\
+\mbox{}a + b = 1 - 1 = 0\;(\text{mod}\,5),\\
 4 a + 3 b = 4 - 1 = 3\;(\text{mod}\,5).
 \end{array} \right.$$
 
@@ -943,10 +1033,76 @@ vienādojumu ar $3$ un atņemot no otrā vienādojuma iegūst
 $$(4a+3b) - 3(a+b) = a = 3 - 3\cdot{}0 \equiv 3\;(\text{mod}\,5).$$
 
 No vienādojuma $a + b \equiv 0\;(\text{mod}\,5)$ iegūstam, ka
-$b = 0 - 3 = -3 = 2\;(\text{mod}\,5)$.
-
-Tātad polinoms bija
+$b = 0 - 3 = -3 = 2\;(\text{mod}\,5)$. Tātad polinoms bija
 $$f(x)=3x^2 + 2x + 1.$$
+
+</div>
+
+
+# <lo-sample/> Piemērs Nr.3
+
+Atkodēt $2, 3, \ast, \ast, 2$, kur $\ast$ ir pazaudēta vērtība (saņemtās vērtības visas ir pareizas).
+Izmantot polinomus ar koeficientiem, argumentiem un vērtībām no $\text{GF}(5)$. 
+
+
+## <lo-soln/> Piemērs Nr.3: Risinājums
+
+<div style="font-size:70%">
+
+Sastādām vienādojumu sistēmu (pēc mod 5):
+
+$$\left\{ \begin{array}
+\mbox{}0^2 \cdot a + 0 \cdot b + c \equiv 2\;(\text{mod}\,5),\\
+1^2 \cdot a + 1 \cdot b + c \equiv 3\;(\text{mod}\,5),\\
+4^2 \cdot a + 4 \cdot b + c \equiv 2\;(\text{mod}\,5).
+\end{array} \right.$$
+
+Tā kā $4^2 = 16 \equiv 1\;(\text{mod}\,5)$, tad šo sistēmu var pārrakstīt:
+
+$$\left\{ \begin{array}
+\mbox{}c \equiv 2\;(\text{mod}\,5),\\
+a + b + c \equiv 3\;(\text{mod}\,5),\\
+a + 4 \cdot{} b + c \equiv 2\;(\text{mod}\,5).
+\end{array} \right.$$
+
+Ievietojot $c=2$ otrajā un trešajā vienādojumā, iegūstam
+
+$$\left\{ \begin{array}
+\mbox{}a + b = 3 - 2 \equiv 1\;(\text{mod}\,5),\\
+a + 4 b = 2 - 2 \equiv 0\;(\text{mod}\,5).
+\end{array} \right.$$
+
+</div>
+
+
+
+
+## <lo-soln/> Piemērs Nr.3: Risinājums (turpinājums)
+
+<div style="font-size:70%">
+
+$$\left\{ \begin{array}
+\mbox{}a + b = 3 - 2 \equiv 1\;(\text{mod}\,5),\\
+\mbox{}a + 4 b = 2 - 2 \equiv 0\;(\text{mod}\,5).
+\end{array} \right.$$
+
+Atrisinām šo sistēmu ar izslēgšanas metodi. Atņemot pirmo
+vienādojumu no otrā:
+
+$$(a+4b)-(a+b) = 3b = 0 - 1 \equiv 4\;(\text{mod}\,5).$$
+
+Jāatrisina $3b \equiv 4\;(\text{mod}\,5).$
+
+*Piezīme:* Atrisinājums nebūs daļskaitlis 4/3, jo tas nav lauka elements!
+Pārbaudot $b = 0, 1, 2, 3, 4$, secinām, ka $3 \cdot 3 = 9 \equiv 4\;(\text{mod}\,5)$.   
+Tātad $b \equiv 3\;(\text{mod}\,5)$.  
+*Piezīme:* Ir algoritmi, kā atrast $b$, neizmantojot pilno pārlasi. Bet priekš $(\text{mod}\,5)$, 
+iespējamo $b$ ir tik maz, ka pārlase ir ātrāka.
+
+No vienādojuma $a + b \equiv 1\;(\text{mod}\,5)$ iegūstam, ka
+$a = 1 - 3 = -2 \equiv 3\;(\text{mod}\,5)$. Tātad polinoms bija
+$$f(x) = 3 x^2 + 3x + 2.$$
+
 
 </div>
 
@@ -954,9 +1110,9 @@ $$f(x)=3x^2 + 2x + 1.$$
 
 
 
-
-
 # <lo-theory/> Lagranža interpolācija
+
+<div style="font-size:70%">
 
 Vēl viens veids, kā veikt atkodēšanu ir interpolācija 
 (labi strādā pie neliela polinomu skaita un pakāpēm). 
@@ -973,10 +1129,12 @@ $$f_i (x) = \frac{(x-r_1)\cdot\ldots\cdot(x-r_{i-1})\cdot(x-r_{i+1})\cdot\ldots\
 (2) Ja $x=r_j$, ($i= \neq j$), tad $f_i(x)=0$, jo kaut kur polinomā ir reizinātājs 
 $(x-r_j)=0$, kas visu reizinājumu padara par $0$.
 
+</div>
+
 ## <lo-theory/> Interpolāciju lietošana atkodēšanai
 
 Meklētais polinoms ir:
-$$f(x) = r_1 \cdot f_1(x) + r_2 \cdot f_2 (x) + \ldots + r_k *f_k (x).$$
+$$f(x) = r_1 \cdot f_1(x) + r_2 \cdot f_2 (x) + \ldots + r_k \cdot f_k (x).$$
 
 Kāpēc šis polinoms dod pareizu rezultātu?
 Ja $x = r_i$, tad visi $f_j(x)$ ($i \neq j$) vienādi ar $0$, 
@@ -989,7 +1147,8 @@ Ja vienīgais kļūdu veids ir dažu vērtību pazušana, tad pietiek ar šo pie
 ## <lo-summary/> Interpolācija, ja var būt citas kļūdas
 
 Ja ir kļūdas, kurās vienas vērtības vietā ir saņemta cita, tad ir grūtāk:  
-$k$: sākotnējie skaitļi; $s$: pārraidītās vērtības $(f(0), f(1), \ldots, f(s-1))$.
+$k$: sākotnējie skaitļi;   
+$s$ pārraidītās vērtības: $(f(0), f(1), \ldots, f(s-1))$.
 
 * $c \leq (s-k)/2$: maksimālais pieļaujamais kļūdu skaits, 
 * Vismaz $s-c$ vērtības ir pareizas.
@@ -1023,6 +1182,174 @@ tieši kuras ir pareizas, lai tās varētu izmantot kļūdu meklēšanā.
 
 </hgroup>
 
+
+
+# <lo-theory/> Polinoms Y(x) - kļūdu lokators
+
+<div style="font-size:70%">
+
+Berlekampa-Velča algoritms ir Rīda-Solomona atkodēšanas metode, ko lieto tad, 
+ja iespējama ne tikai datu pazušana, bet arī nepareizu datu saņemšana pareizo datu vietā.
+Ieviešam apzīmējumus:
+
+* Kļūdas ir $x_1, x_2, \ldots, x_c$ (pagaidām nezināmās vietās)
+* Pārraidītais polinoms bija $k-1$ pakāpes polinoms $p(x)$
+* Vērtību $p(x_i)$ vietā saņemtās vērtības apzīmējam ar $r_i$.
+* Atskaitot $c$ vērtības (punktos $x_1,\ldots,x_c$), citas vērtības ir pareizas.
+
+Definējam kļūdu lokatoru:
+$$Y(x) = (x-x_1)(x-x_2) \ldots (x-x_c).$$
+Polinoma pakāpe $\text{deg}\,Y(x) \leq c$. 
+Šis polinoms ir $0$ visām tām argumenta vērtībām $x_i$, kurām saņemta nepareiza $p(x)$ vērtība.
+
+</div>
+
+
+## <lo-theory/> Polinoms Z(x): Y(x) un p(x) reizinājums
+
+<div style="font-size:70%">
+
+Definējam polinomu $Z(x)$, kas ir kļūdu lokatora un sākotnējā polinoma reizinājums:
+$$Z(x) = Y(x) \cdot p(x).$$
+Pakāpe $\text{deg}\,Z(x) = \text{deg}\,Y(x) + \text{deg}\,p(x) \leq c+(k-1) = k + c - 1$.
+
+Iedomājamies, ka protam atrast $Y$ un $Z$. Tad, izdalot abas vienādības puses ar $Y$, iegūstam
+$p(x) = Z(x) / Y(x)$.
+
+Tātad, lai atrastu $p(x)$, pietiek izrēķināt $Z(x)$ un $Y(x)$.
+Ja $r$ ir vērtība, kas saņemta kā $p(x)$, tad
+$$Z(x) = Y(x) \cdot r.$$
+
+Šāda vienādība ir spēkā, jo  
+(1) Ja $r = p(x)$, tad $Z(x) = Y(x) \cdot p(x)$ - ir saņemta pareiza vērtība  
+(2) Ja $r \neq p(x)$, tad $Y(x) = 0$ un $Z(x) = 0$.
+
+Tātad $Z(x) = Y(x) \cdot r$ ir spēkā visos $s$ pārraidītajos punktos.
+
+</div>
+
+
+## <lo-theory/> Y, Z atrašana
+
+<div style="font-size:70%">
+
+Pieņemsim, ka
+$$Y(x) = b_c x^c + b_{c-1} x^{c-1} + \ldots + b_0.$$
+Tā kā $p(x)$ – polinoms ar pakāpi $k-1$, tad
+$$Z(x) = a_{k+c-1} x^{k+c-1} + a_{k+c-2} x^{k+c-2} + \ldots + a_0.$$
+
+* polinoms ar pakāpi $c$
+* polinoms ar pakāpi $k+c-1$
+
+Katra saņemtā vērtība dod pa vienam nosacījumam:
+
+$$\left\{ \begin{array}{l}
+Z(0) = Y(0) \cdot r_0\\
+Z(1) = Y(1) \cdot r_1\\
+\ldots\\
+Z(s-1) = Y(s-1) \cdot r_{s-1}
+\end{array} \right.$$
+
+
+## <lo-theory/> Y, Z atrašana (turpinājums)
+
+<div style="font-size:70%">
+
+$$\left\{ \begin{array}{l}
+Z(0) = Y(0) \cdot r_0\\
+Z(1) = Y(1) \cdot r_1\\
+\ldots\\
+Z(s-1) = Y(s-1) \cdot r_{s-1}
+\end{array} \right.$$
+
+Katrā nosacījumā ievietojot $i$ un $r_i$, iegūst vienādojumu, 
+kura nezināmie ir $a_0, \ldots, a_{k+c-1}, b_0, \ldots b_c$. 
+
+$Z(i) = Y(i) \cdot r_i$ - $s$ vienādojumu sistēma ar $k+2 \cdot c +1$ nezināmajiem.
+Atrisinām šo vienādojumu sistēmu un no nezināmajiem iegūstam $Z(x)$ un $Y(x)$. Tad
+izmantojot $p(x) = Z(x)/Y(x)$ aprēķinām $p(x)$.
+
+</div>
+
+
+# <lo-theory/> Jautājumi par Berlekampu-Velču
+
+<hgroup style="font-size:70%">
+
+**Jautājumi:**
+
+1. Vai vienādojumu sistēmai ir atrisinājums?
+2. Vai vienādojumu sistēmai nav vairāki atrisinājumi?
+3. Vai varam atrast algoritmisku metodi, kā atrisināt vienādojumu sistēmu?
+
+</hgroup>
+
+<hgroup style="font-size:70%">
+
+**Atbildes:**
+
+1. Jā, atrisinājums vienmēr būs pareizais (meklējamais) $Y(x)$ un $Z(x)$ polinomu
+pāris, jo tas apmierina visus nosacījumus.
+2. Principā varētu būt vairāki atrisinājumi $(Y(x), Z(x))$ un $(Y’(x), Z’(x))$ un
+$Z(x)/Y(x) \neq Z’(x)/Y’(x)$.  
+Vai tā var būt?  
+Ja tiek pārraidītas pietiekami daudzas vērtības, tad atrisinājums izrādīsies viennozīmīgi
+noteikts $(Y(x), Z(x))$.
+3. Jā; tālākos slaidos piedāvāsim pakāpeniskas izslēgšanas metodi.
+
+</hgroup>
+
+
+## <lo-theory/> Berlekampa-Velča atrisināmība
+
+<div style="font-size:70%">
+
+**Apgalvojums:** Doti polinomi $Y$ un $Z$, kuriem:  
+(1) $\text{deg}\,Y \leq c$,  
+(2) $\text{deg}\,Z \leq k + c - 1$  
+(3) $Y \neq 0$
+un visiem $i$: $Z(i) = Y(i) \cdot r_i$. Pieņemsim, ka $Y’, Z’$ vēl divi polinomi ar tādām pašām īpašībām.   
+Tad $Z(x)/Y(x) = Z’(x)/Y’(x)$.
+
+**Pierādījums:**  
+$Z(i) = Y(i) \cdot r_i$, kur $r_i$ – saņemtā vērtība priekš $p(i)$.  
+$Z’(i) = Y’(i) \cdot r_i$. 
+
+Sareizinām krustiski un iegūstam
+$$Z(i) \cdot Y’(i) \cdot r_i = Z’(i) * Y(i) * r_i.$$
+
+Noīsinām $r_i$ un iegūstam
+$$Z(i) \cdot Y’(i) = Z’(i) * Y(i)$$
+
+</div>
+
+
+## <lo-summary/> Berlekampa-Velča atrisināmība (turpinājums)
+
+<div style="font-size:70%">
+
+$Z’(i) \cdot Y(i)$ pakāpe ir $k + 2c + 1$. 
+
+Mainīgais $i$ pieņem vērtības $0, 1, \ldots, s-1$.  
+$Z(i) \cdot Y’(i)$ un $Z’(i) \cdot Y(i)$ sakrīt pie $s$ dažādiem $x$.
+
+> *Algebras pamatteorēma:* Ja divi polinomi ir dažādi, tad maksimālais 
+> argumentu skaits, pie kuriem tie sakrīt, ir šo polinomu pakāpju maksimums.
+
+Tas nozīmē, ka, ja $k+c-1<s$, tad $Z(i) \cdot Y’(i) = Z’(i) \cdot Y(i)$.  
+Izdalām abas puses ar $Y(x)$ un $Y’(x)$ un iegūstam
+$$Z(x) / Y(x) = Z’(x) / Y’(x)$$
+
+</div>
+
+## <lo-summary/> Algoritmiska Berlekampa-Velča atrisināšana
+
+Nosacījumos $Z(i) = Y(i) \cdot r_i$ ievietojot $i$ un $r_i$, 
+iegūst lineārus vienādojumus ar nezināmajiem $a_i$, $b_i$, 
+kuriem ir koeficienti $y_i$ un $z_i$:
+$$y_{1,1} a_{k+c-1} + \ldots + y_{1,k+c} a_0 = z_{1,1} b_c + \ldots + z_{1,c+1}b_0.$$
+Ja lineārai vienādojumu sistēmai ir atrisinājums, tad izslēdzot pa vienam
+mainīgajam (ar apzīmēšanas palīdzību) var atrast atrisinājumu.
 
 
 
