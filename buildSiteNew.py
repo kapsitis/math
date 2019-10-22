@@ -45,8 +45,17 @@ def build_static(SRC,DEST):
     print('TeX files under %s are %s' % (SRC,tex_files))
     for ff in tex_files:
         if ff.endswith('.tex'):
-            print('Currently processing %s' % ff)
-            subprocess.call(['xelatex',ff], cwd=SRC)
+            fftexmod = os.path.getmtime('%s/%s' % (SRC,ff))
+            ffpdf = ff.replace('.tex','.pdf')
+            if os.path.isfile('%s/%s' % (SRC,ffpdf)):
+                ffpdfmod = os.path.getmtime('%s/%s' % (SRC,ffpdf))
+            else: 
+                ffpdfmod = -1
+            if fftexmod > ffpdfmod:
+                print('Processing TEX %s' % ff)
+                subprocess.call(['xelatex',ff], cwd=SRC)
+            else:
+                print('Skipping TEX %s' % ff)
     for filename in glob.glob(os.path.join(SRC, '*.pdf')):
         shutil.copy(filename, DEST)
     for filename in glob.glob(os.path.join(SRC, '*.docx')):
@@ -91,6 +100,8 @@ def main():
     build_static('src/site/algorithms/static', '%s/algorithms-bin' % DEST_ROOT)
     build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
     build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
+    build_static('src/site/problembase/static/collections', '%s/problembase-bin/collections' % DEST_ROOT)
+
     
 if __name__ == '__main__':
     main()

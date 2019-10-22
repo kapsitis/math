@@ -1,0 +1,167 @@
+\documentclass[11pt]{article}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{lipsum}
+\usepackage{amsthm}
+\usepackage{thmtools}
+
+
+\usepackage{fontspec} % loaded by polyglossia, but included here for transparency 
+\usepackage{polyglossia}
+
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+\setmainlanguage{russian} 
+\setotherlanguage{english}
+
+\newfontfamily\cyrillicfont[Script=Cyrillic]{Times New Roman}
+\newfontfamily\cyrillicfontsf[Script=Cyrillic]{Arial}
+\newfontfamily\cyrillicfonttt[Script=Cyrillic]{Courier New}
+
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin 0.0in
+\headheight 0.0in
+\headsep 0.0in
+%\textheight 9.69in
+\textheight 9.00in
+ 
+\setlength\parindent{0pt}
+
+\newenvironment{myenv}{\begin{adjustwidth}{0.4in}{0.4in}}{\end{adjustwidth}}
+\renewcommand{\abstractname}{Anotācija}
+\renewcommand\refname{Atsauces}
+
+%\newenvironment{uzdevums}[1][\unskip]{%
+%\vspace{3mm}
+%\noindent
+%\textbf{#1:}
+%\noindent}
+%{}
+
+% (4;10;12;17)
+% (p1.19;5;15;20)
+
+% http://tex.stackexchange.com/questions/196961/thmtools-declaration-for-theorem-and-proof
+\declaretheoremstyle[headfont=\normalfont\bfseries,notefont=\mdseries\bfseries,bodyfont = \normalfont,headpunct={:}]{normalhead}
+\declaretheorem[name={Uzdevums}, style=normalhead,numberwithin=section]{problem}
+
+%\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\def\changemargin#1#2{\list{}\item[]}
+\let\endchangemargin=\endlist 
+
+
+\newcommand{\subf}[2]{%
+  {\small\begin{tabular}[t]{@{}c@{}}
+  #1\\#2
+  \end{tabular}}%
+}
+
+
+
+\newcounter{alphnum}
+\newenvironment{alphlist}{\begin{list}{(\Alph{alphnum})}{\usecounter{alphnum}\setlength{\leftmargin}{2.5em}} \rm}{\end{list}}
+
+\newenvironment{zhtext}{\fontfamily{MS PGothic}\selectfont}{\par}
+
+
+\makeatletter
+\let\saved@bibitem\@bibitem
+\makeatother
+
+\usepackage{bibentry}
+%\usepackage{hyperref}
+
+\newenvironment{tulkojums}[1][\unskip]{%
+\begin{changemargin}{8mm}{8mm}
+\fontsize{9}{11}
+\selectfont
+\textbf{#1:}
+}
+{ 
+\fontsize{12}{14}
+\selectfont
+\end{changemargin}
+}
+
+\setcounter{section}{1}
+
+
+\begin{document}
+
+\begin{center}
+{\Large \bf Rudens brīvdienu uzdevumi Martai}
+\end{center}
+
+\vspace{10pt}
+{\bf \large 11.klase}
+
+\begin{problem}
+Atrast vienādojuma
+$$|x - 2| + |x - 3| = 5$$
+visus atrisinājumus reālos skaitļos.
+\end{problem}
+
+\begin{problem}
+Kādā secībā skaitļi 
+${\displaystyle 2^{3^4}}$, ${\displaystyle 2^{4^3}}$, 
+${\displaystyle 3^{2^4}}$, ${\displaystyle 3^{4^2}}$, 
+${\displaystyle 4^{2^3}}$, ${\displaystyle 4^{3^2}}$ 
+izvietoti uz skaitļu ass?\\
+{\em Piezīme:} Pieraksts ${\displaystyle a^{b^c}}$
+apzīmē ${\displaystyle a^{\left( b^c \right)}}$, nevis 
+${\displaystyle \left( a^b \right)^c}$.
+\end{problem}
+
+\begin{problem}
+Ar skaitļiem no $1$ līdz $2n$, izmantojot tos katru 
+tieši vienu reizi bez atkārtojumiem, 
+pierakstīti $n$ parastu daļskaitļu skaitītāji un saucēji. 
+Vai iespējams, ka iegūto daļu summa ir
+vesels skaitlis, ja
+\begin{enumerate}[(a)]
+\item $n = 4$;
+\item $n = 6$?
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Dots leņkis $\alpha$, kam izpildās $0^{\circ} < \alpha < 90^{\circ}$. 
+Pierādiet nevienādību
+$$\left( \frac{1}{2\cos \frac{\alpha}{2}} \right)^2 + 
+\left( \frac{1}{4\cos \frac{\alpha}{4}} \right)^2 + 
+\left( \frac{1}{8\cos \frac{\alpha}{8}} \right)^2 <
+\left( \frac{1}{\sin \alpha} \right)^2.$$
+\end{problem}
+
+\begin{problem}
+Mediāna, kas vilkta no kādas vienādsānu trīsstūra pamata virsotnes,
+ir tikpat gara cik pati pamata mala. 
+Atrodiet šī trijstūra laukumu, 
+ja tā pamata malas garums ir 1 metrs.
+\end{problem}
+
+
+
+\begin{problem}
+Atrodiet visus naturālos $n$, kuriem izteiksmē
+$$0 + 1 + 2 + 3 + \ldots + n$$
+var nomainiet daļu plus zīmju ar mīnus zīmēm tā, 
+lai iegūtās izteiksmes vērtība būtu $0$.
+\end{problem}
+
+
+
+
+\end{document}
+
+
