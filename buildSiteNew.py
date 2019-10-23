@@ -74,7 +74,10 @@ def main():
     resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs']
     skip_directories = ['source-material','static','analysis']
 
-    DEST_ROOT = '../../workspace-new/linen-tracer-682'
+    if os.name=='nt':
+        DEST_ROOT = '../../workspace/linen-tracer-682'
+    else:
+        DEST_ROOT = '../../workspace-new/linen-tracer-682'
 
     for resType in resTypes:
         rmDirectory('%s/%s-tales' % (DEST_ROOT,resType))
