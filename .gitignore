@@ -12,6 +12,7 @@
 *.dvi
 *.log
 *.out
+*.pyc
 */.Rhistory
 **/.Rhistory
 */.RData

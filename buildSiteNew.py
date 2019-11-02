@@ -5,6 +5,8 @@ import glob
 
 import sys
 sys.path.insert(0, 'src/math_py')
+# https://stackoverflow.com/questions/21259070/struggling-to-append-a-relative-path-to-my-sys-path
+#sys.path.append(os.path.join(sys.path[0],'src','math_py'))
 from json_data import sync_all
 
 
