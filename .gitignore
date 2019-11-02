@@ -19,7 +19,7 @@
 **/.RData
 bin/
 target/
-src/site/visualizations/powerpoints/
+src/site/visualizations/source-material/
 src/site/algorithms/source-material/
 src/site/numtheory/source-material/
 src/site/discrete/source-material/
