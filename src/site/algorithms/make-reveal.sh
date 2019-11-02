@@ -9,7 +9,8 @@ else
     convert $file -trim +repage $file
   done
 
-  source resize-asymmetric-cryptography-part1.sh
+#  source resize-asymmetric-cryptography-part1.sh
+  source resize-linear-optimization-part1.sh
 
   cd $1
   pandoc -t revealjs -s -o content.html content.md --slide-level=2 \
