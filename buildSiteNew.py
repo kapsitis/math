@@ -6,6 +6,7 @@ import glob
 import sys
 sys.path.insert(0, 'src/math_py')
 # https://stackoverflow.com/questions/21259070/struggling-to-append-a-relative-path-to-my-sys-path
+# https://stackoverflow.com/questions/38012431/how-to-execute-cmd-exe-with-arguments-in-python
 #sys.path.append(os.path.join(sys.path[0],'src','math_py'))
 from json_data import sync_all
 
@@ -92,7 +93,7 @@ def main():
 		'-o','content.html','content.md','--slide-level=2',
 		'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="Uzdevumi"',
     		'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
-		'-V','theme=white'], cwd=workingDir)
+		'-V','theme=white'], cwd=workingDir, shell=True)
             copyDirectory('%s/%s' % (SRC_ROOT,dd), '%s/%s-tales/%s' % (DEST_ROOT,resType,dd))
 
     compileTale('src/emils', 'numtheory-recurrence-relation', '%s/numtheory-tales' % DEST_ROOT, 'Periodiskas virknes')
