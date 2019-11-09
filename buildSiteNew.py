@@ -74,7 +74,7 @@ def build_static(SRC,DEST):
 
 def main(): 
 #    sync_all.main()
-    resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs']
+    resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs'] #, 'discrete', 'datasearch']
     skip_directories = ['source-material','static','analysis']
 
     if os.name=='nt':
@@ -93,7 +93,7 @@ def main():
 		'-o','content.html','content.md','--slide-level=2',
 		'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="Uzdevumi"',
     		'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
-		'-V','theme=white'], cwd=workingDir, shell=True)
+		'-V','theme=white'], cwd=workingDir)
             copyDirectory('%s/%s' % (SRC_ROOT,dd), '%s/%s-tales/%s' % (DEST_ROOT,resType,dd))
 
     compileTale('src/emils', 'numtheory-recurrence-relation', '%s/numtheory-tales' % DEST_ROOT, 'Periodiskas virknes')
@@ -106,6 +106,8 @@ def main():
     build_static('src/site/algorithms/static', '%s/algorithms-bin' % DEST_ROOT)
     build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
     build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
+    build_static('src/site/discrete/static', '%s/discrete-bin' % DEST_ROOT)
+#    build_static('src/site/datasearch/static', '%s/datasearch-bin' % DEST_ROOT)
     build_static('src/site/problembase/static/collections', '%s/problembase-bin/collections' % DEST_ROOT)
 
     
