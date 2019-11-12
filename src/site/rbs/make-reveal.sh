@@ -9,6 +9,8 @@ else
     convert $file -trim +repage $file
   done
 
+  source resize-searching-internet.sh
+
   cd $1
   pandoc -t revealjs -s -o content.html content.md --slide-level=2 \
     -V revealjs-url=../../reveal.js --metadata pagetitle="Uzdevumi" \
