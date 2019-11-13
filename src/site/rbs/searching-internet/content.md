@@ -47,11 +47,12 @@ Typing in long, exact questions often does not work
 :::
 
 
+<!--
 ## <lo-summary/> Sources of Inspiration
 
 * [Google Live Trainings](https://www.google.com/insidesearch/searcheducation/training.html)
 
-
+-->
 
 
 
@@ -75,6 +76,192 @@ Typing in long, exact questions often does not work
 <span>(8) [Summary](#section-7)</span>
 
 </hgroup>
+
+
+# <lo-theory/> Boolean Operations: AND, OR, NOT
+
+<table>
+<tr><td>
+![Venn diagrams](venn-diagram1.png)
+</td>
+<td>
+`android ios`  
+`android AND ios`
+</td>
+</tr>
+<tr>
+<td>
+![Venn diagrams](venn-diagram2.png)
+</td>
+<td>
+`android OR ios`  
+`android | ios`
+</td>
+</tr>
+<tr>
+<td>
+![Venn diagrams](venn-diagram3.png)
+</td>
+<td>
+`android -ios`
+</td>
+</tr>
+<tr>
+<td>
+![Venn diagrams](venn-diagram4.png)
+</td>
+<td>
+`ios -android`
+</td>
+</tr>
+</table>
+
+
+
+## <lo-summary/> Case insensitivity etc.
+
+1. Order of the search terms matter: 
+[`grass snake`](https://www.google.com/search?q=grass+snake) and [`snake grass`](https://www.google.com/search?q=snake+grass)
+
+2. Modified letters usually matter. [`šņukurs`](https://www.google.com/search?q=šņukurs) is not quite the same as [`snukurs`](https://www.google.com/search?q=snukurs).  
+And [`bête+noire`](https://www.google.com/search?q=bête+noire) differs from [`bete+noire`](https://www.google.com/search?q=bete+noire). 
+
+3. Articles, plurals etc. matter: [`onions`](https://www.google.com/search?q=onions) is different from [`the onion`](https://www.google.com/search?q=the+onion)
+
+4. Capitalization does not matter: <blue>`nato`</blue> is same as <blue>`NATO`</blue>.
+
+
+
+## <lo-summary/> Google Searches can be "hardcoded"
+
+```
+https://www.google.com/search?q=grass+snake
+```
+
+1. You do not need to fill in the search form, can click on a link. 
+2. You can bookmark a search, send it to your friend. 
+3. The symbol "+" in the link stands for a space (URLs do not contain spaces).
+
+**HTTP method GET:** Parameters are attached to your search string.  
+Not to be confused with **HTTP method POST:** 
+(Used for money transfers, uploading files and similar 
+"serious" Web forms). "POST" queries cannot be cached.
+
+
+
+
+# <lo-theory/> Google for Programmers
+
+![Common Exceptions](common-exceptions.png)
+
+
+Long search strings are fine, if you expect all these words 
+to be in your document.
+
+[`"Exception in thread" "java.lang.ArrayIndexOutOfBoundsException"`](https://www.google.com/search?q=exception+in+thread+java.lang.arrayindexoutofboundsexception)
+
+
+## <lo-theory/> What happens if you quote words
+
+* Quoting individual words searches only the exact word as written (no synonyms). 
+* Exact phrases in quotes are found exactly as written (but punctuation may be different). 
+
+Most punctuation does not matter (dollars and euros might work). 
+
+* Searching for dollars is different from searching for a number 
+[`34`](https://www.google.com/search?q=34) vs [`$34`](https://www.google.com/search?q=%2434)
+* Can Google search your phone number. 
+
+But question marks, commas, dots, colons etc. are all ignored.
+
+![Special Symbols](special-symbols.png)
+
+
+## <lo-summary/> Strange queries
+
+[`My 1-year-old cow has blisters on its tongue. What's wrong with it?`](https://www.google.com/search?q=My+1-year-old+cow+has+blisters+on+its+tongue.+What%27s+wrong+with+it%3F)
+
+![Long Question](long-question.png)
+
+
+
+# <lo-theory/> Google Differs by Person/Location
+
+<hgroup>
+
+[Comparisons between Search Engines](https://www.searchenginejournal.com/google-vs-duckduckgo/301997/#close)
+
+![DuckDuckGo](duckduckgo.png)
+
+</hgroup>
+<hgroup>
+
+**Baidu** (China), **DuckDuckGo** (Open source community), 
+**Bing** (Microsoft). 
+
+* Some experimental features.
+* Focus on a specific market (Baidu).
+* Not all querying use-cases are "polished", easier for 
+Web masters to cheat (get high rankings because of some tricks).
+
+</hgroup>
+
+
+
+## <lo-summary/> Relevance of search terms
+
+<hgroup>
+
+![Relevant Documents](relevant-documents.png)
+
+[Google Bombing](https://www.screamingfrog.co.uk/google-bombs/)  
+[`miserable failure`](https://www.google.com/search?q=miserable+failure)
+
+How is Google Bombing related to George W.Bush? (US President, 2001-2009).
+
+</hgroup>
+<hgroup>
+
+* Number of occurences of the searchable word(s)
+* Are they part of a heading (H1, H2) or a TITLE tag (HTML 
+markup affects this). 
+* Are they part of link texts used by others. 
+* How far from the beginning of the document?
+* How close to each other?
+* Picture captions?
+
+</hgroup>
+
+
+
+
+
+## <lo-summary/> Google Page Rank
+
+* [How Search Engines Treat Data - Computerphile](https://www.youtube.com/watch?v=vrjAIBgxm_w)
+* [Page Ranking and Search Engines - Computerphile](https://www.youtube.com/watch?v=v7n7wZhHJj8&t=29s)
+
+Google search results do NOT behave
+like "mathematical functions", which always return the same thing.
+
+$$\color{#00F}{\sqrt{2} = 1.4142135\ldots}.$$
+$$\color{#F00}{\text{GoogleSearch}(\mathtt{horses}) = ?}.$$
+
+Rank may boost depending on previous searches, location, advertising needs, etc.
+Use DuckDuckGo, if you want predictable results, which are the same for everyone.
+
+
+## <lo-summary/> Easy to Annoy Google Search
+
+* Your pages use JavaScript to hide titles (H1, H2) and other visible text
+* Your Web server returns search terms (instead of 404 error) even for 
+wrong Web addresses.
+* You try to misrepresent the topic of your Webpage (introduce irrelevant keywords). 
+
+Can be excluded from search results.  
+[La Libre Belgique](https://www.lalibre.be/economie/entreprises-startup/google-semble-avoir-relance-les-hostilites-contre-les-journaux-belges-51b8d6f1e4b0de6db9c2542e); 
+[Google vs. BE link wars](https://arstechnica.com/tech-policy/2011/07/google-versus-belgium-who-is-winning-nobody/).
+
 
 
 
@@ -145,27 +332,7 @@ when you lose Internet connectivity.
 Incognito mode implies that there are no cookies. Some newspapers set cookie information to 
 limit the number of pageviews. 
 
-</hgroup>
-
-
-## <lo-summary/> Clearning Cache and History
-
-
-
-
-# <lo-summary/> What is Cached by Google?
-
-<hgroup>
-
-Using Google's Cached page version:  
-[https://www.lifewire.com/highlight-keyword-google-cache-search-1616811]
-
-</hgroup>
-<hgroup>
-
-* The cache shows the last time the page was indexed, 
-it may contain inconsistent or outdated page content and images.
-* Some
+Can clear history manually.
 
 </hgroup>
 
@@ -175,13 +342,15 @@ it may contain inconsistent or outdated page content and images.
 
 <hgroup>
 
-TODO: Image
+* The cache shows the last time the page was indexed, 
+it may contain inconsistent or outdated page content and images.
 
 </hgroup>
 <hgroup>
 
-* [https://www.lifewire.com/wayback-machine-3481829]
-[Wayback Machine Example](http://web.archive.org/web/*/www.dudajevagatve.lv/nt/index.html)
+* [LifeWare on Caching](https://www.lifewire.com/highlight-keyword-google-cache-search-1616811)
+* [LifeWare on Wayback Machine](https://www.lifewire.com/wayback-machine-3481829)
+* [Wayback Machine Example](http://web.archive.org/web/*/www.dudajevagatve.lv/nt/index.html)
 
 </hgroup>
 
@@ -212,7 +381,48 @@ TODO: Image
 # <lo-theory/> Full Google Search Syntax
 
 
-https://ahrefs.com/blog/google-advanced-search-operators/
+[https://ahrefs.com/blog/google-advanced-search-operators/](https://ahrefs.com/blog/google-advanced-search-operators/)
+
+
+::: notes
+
+
+
+:::
+
+
+# <lo-theory/> Adding Search to Your Website
+
+We want to search for "Porziņģis" on Delfi in 2 ways:
+
+* [delfi.lv/meklet/?q=porziņģis](https://delfi.lv/meklet/?q=porziņģis)
+* On Google: [`porziņģis site:delfi.lv`](https://www.google.com/search?q=porzi%C5%86%C4%A3is+site%3Adelfi.lv)
+
+
+
+
+
+
+# &nbsp;
+
+<hgroup>
+
+<h1 style="font-size:28pt">Searching Internet</h1>
+
+<blue>How to use Internet</blue>
+
+</hgroup><hgroup>
+
+<span>(1) [Introduction](#section)</span>  
+<span>(2) [Boolean AND, OR, NOT](#section-1)</span>  
+<span>(3) [Content Caching](#section-2)</span>  
+<span>(4) [Search Options](#section-3)</span>  
+<span style="color:darkgreen">**(5) Search Optimization**</span>  
+<span>(6) [Searching Twitter](#section-5)</span>  
+<span>(7) [Language Tools](#section-6)</span>  
+<span>(8) [Summary](#section-7)</span>
+
+</hgroup>
 
 
 
@@ -285,34 +495,6 @@ http://backofficeitltd.freshdesk.com/support/solutions/articles/1000034157-brows
 
 
 
-
-# &nbsp;
-
-<hgroup>
-
-<h1 style="font-size:28pt">Searching Internet</h1>
-
-<blue>How to use Internet</blue>
-
-</hgroup><hgroup>
-
-<span>(1) [Introduction](#section)</span>  
-<span>(2) [Boolean AND, OR, NOT](#section-1)</span>  
-<span>(3) [Content Caching](#section-2)</span>  
-<span>(4) [Search Options](#section-3)</span>  
-<span style="color:darkgreen">**(5) Search Optimization**</span>  
-<span>(6) [Searching Twitter](#section-5)</span>  
-<span>(7) [Language Tools](#section-6)</span>  
-<span>(8) [Summary](#section-7)</span>
-
-</hgroup>
-
-
-
-
-
-
-
 # &nbsp;
 
 <hgroup>
@@ -339,6 +521,15 @@ http://backofficeitltd.freshdesk.com/support/solutions/articles/1000034157-brows
 
 **A case study: Twitter:** [Advanced Search](https://unionmetrics.com/resources/how-to-use-advanced-twitter-search-queries/)
 
+```
+social media since:2015-07-12
+social media until:2015-07-08
+from:sankuperis
+to:sankuperis
+list:kitson/thought-leaders
+```
+
+[Some popular Twitter lists](https://medium.com/@taxsmart/101-best-twitter-lists-to-follow-in-the-twitterverse-b50261f30521)
 
 
 ## <lo-summary/> Searching YouTube
