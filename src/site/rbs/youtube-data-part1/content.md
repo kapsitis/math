@@ -23,6 +23,7 @@
 * What are your first idea or association regarding Data Science (*datu mācība*)? 
 * It is perfectly fine to have different ideas, since it is a large and versatile topic. 
 
+
 :::
 
 
@@ -30,6 +31,9 @@
 
 
 <!--
+
+Visit https://socialblade.com/ to see YouTube listings (including top 250 channels in Latvia).
+
 (1) Slaidu tekstam jābūt minimālam; tam tikai jādod neliels rāmītis skolēnu pašu darbam.
 (2) Slaidu idejai jābūt vienkārši izstāstāmai, nav jāizmanto grūti un mulsinoši termini.
 (3) Jautājumiem jāizskatās dabiskiem, jārada interesi uzzināt vairāk, atnākt uz vēl kādu darbnīcu.
