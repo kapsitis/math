@@ -23,7 +23,6 @@
 * What are your first idea or association regarding Data Science (*datu mācība*)? 
 * It is perfectly fine to have different ideas, since it is a large and versatile topic. 
 
-
 :::
 
 
