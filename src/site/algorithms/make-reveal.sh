@@ -10,7 +10,7 @@ else
   done
 
 #  source resize-asymmetric-cryptography-part1.sh
-  source resize-linear-optimization-part2.sh
+  source resize-linear-optimization-part3.sh
 
   cd $1
   pandoc -t revealjs -s -o content.html content.md --slide-level=2 \

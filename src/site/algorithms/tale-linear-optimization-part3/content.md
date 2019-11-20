@@ -9,11 +9,11 @@
 </hgroup><hgroup style="font-size:90%">
 
 <span style="color:darkgreen">**(1) Ievads**</span>  
-<span>(2) [Vispārīgais simpleksalgoritms](#section-1)</span>  
-<span>(3) [Duālā lineārā programma](#section-2)</span>  
-<span>(4) [Sākotnējā stūra izvēle](#section-3)</span>  
-<span>(5) [Elipsoīda algoritms](#section-4)</span>  
-<span>(6) [(P) Plūsmu uzdevumi](#section-5)</span>  
+<span>(2) [Iekšējā punkta metodes](#section-1)</span>  
+<span>(3) [Afīnā mērogošana: Soļi](#section-2)</span>  
+<span>(4) [Afīnā mērogošana: Piemērs](#section-3)</span>  
+<span>(5) [Iekšējā punkta pārskats](#section-4)</span>  
+<span>(6) [(P) Ieteikumu sistēmas](#section-5)</span>  
 <span>(7) [Kopsavilkums](#section-6)</span>
 
 </hgroup>
@@ -25,29 +25,90 @@
 
 <div class="bigWhy">
 
-Kāpēc ar simpleksalgoritmu nepietiek?
+Kāpēc vērts izmantot iekšējā punkta metodes?
 
 </div>
 
 <div class="smallWhy">
 
-* Simpleksalgoritma varianti (sākotnējā un duālā problēma,
-pirmā stūra izvēle, pārejas izvēle un randomizācija). 
-* Var būt slikta sarežģītība (īpaši uzkonstruētem piemēriem). 
-* Polinomiāla laika algoritms ir standarts visam, ko lieto praksē.
+* Var būt ātrākas par simpleksalgoritmu, garantē 
+LP uzdevuma atrisināšanu polinomiālā laikā.
+* Ir praktiskas un precīzas.
 
 </div>
 
 
- 
-## <lo-theory/> Sasniedzamie rezultāti
 
-1. Definēt duālo uzdevumu. 
-2. Formulēt dualitātes teorēmu. 
-3. Noskaidrot simpleksalgoritma izvēles.
-4. Formulēt Elipsoīda algoritmu (Khachiyan). 
-5. LP lietojumi plūsmu maksimizēšanā un 
-"operāciju pētīšanā". 
+# &nbsp;
+
+<hgroup>
+
+<h1 style="font-size:28pt">Lietišķie algoritmi</h1>
+
+<blue>Lineārā optimizācija - 3</blue>
+
+</hgroup><hgroup style="font-size:90%">
+
+<span>(1) [Ievads](#section)</span>  
+<span style="color:darkgreen">**(2) Iekšējā punkta metodes**</span>  
+<span>(3) [Afīnā mērogošana: Soļi](#section-2)</span>  
+<span>(4) [Afīnā mērogošana: Piemērs](#section-3)</span>  
+<span>(5) [Iekšējā punkta pārskats](#section-4)</span>  
+<span>(6) [(P) Ieteikumu sistēmas](#section-5)</span>  
+<span>(7) [Kopsavilkums](#section-6)</span>
+
+</hgroup>
+
+
+# <lo-theory/> Pamatidejas - 1
+
+<div style="font-size:70%">
+
+Atšķirībā no simpleksmetodes, kas pārmeklē pieļaujamā 
+apgabala stūrus, iekšējā punkta metode meklē labākus un 
+labākus atrisinājumus pieļaujamā apgabala iekšienē, 
+tuvojoties stūrim tikai algoritma beigās. 
+
+To mēdz realizēt divos veidos:
+
+**Pirmais veids:** Modificējot mērķfunkciju tā, lai tās vērtība kļūtu 
+sliktāka pieļaujamā apgabala malās. 
+Piemēram, mērķfunkciju $\max (c_1 x_1 + c_2 x_2 + \ldots + c_n x_n)$ 
+var aizstāt ar
+$$\max \left( c_1 x_1 + c_2 x_2 + \ldots + c_n x_n + \ln x_1 + \ldots + \ln x_n \right).$$
+Tad, tuvojoties $x_i=0$ plaknēm, kas ierobežo pieļaujamo apgabalu, 
+$\ln x_i$ tiecas uz $-\infty$ un mērķfunkcija arī tieksies uz $-\infty$.
+
+</div>
+
+## <lo-theory/> Pamatidejas - 2
+
+**Otrais veids:** Ievieš papildus nosacījumus, 
+kas attur no pieļaujamā apgabala malām.
+
+Ar katru soli, papildus nosacījumi tiek vājināti, 
+ļaujot algoritmam pietuvoties stūrim, kur ir sākotnējas 
+mērķfunkcijas maksimālā vērtība. Mērķis ir panākt, 
+lai algoritms sākumā atrod optimālo vērtību pieļaujamā 
+apgabala iekšienē un tad nonāk optimālajā stūrī. 
+
+
+## <lo-theory/> Iekšējā punkta metožu varianti
+
+Iekšējā punkta metodei ir trīs galvenie varianti:
+
+* **Afīnā mērogošana** – teorētiska ātrdarbības novērtējuma nav, 
+bet praksē strādā diezgan labi;
+* **Potenciāla redukcija** – pierādāmi strādā laikā $O(nL)$, kur $n$ – mainīgo skaits, 
+$L$ – precizitāte bitos, ar kādu jāatrod atrisinājums;
+* **Centrālā trajektorija** - pierādāmi strādā laikā $O(L \sqrt{n})$.
+
+Sīkāk apskatīsim pirmo no šiem variantiem.
+
+
+
+
+
 
 
 
@@ -59,460 +120,378 @@ pirmā stūra izvēle, pārejas izvēle un randomizācija).
 
 <h1 style="font-size:28pt">Lietišķie algoritmi</h1>
 
-<blue>Lineārā optimizācija - 2</blue>
+<blue>Lineārā optimizācija - 3</blue>
 
 </hgroup><hgroup style="font-size:90%">
 
 <span>(1) [Ievads](#section)</span>  
-<span style="color:darkgreen">**(2) Vispārīgais simpleksalgoritms**</span>  
-<span>(3) [Duālā lineārā programma](#section-2)</span>  
-<span>(4) [Sākotnējā stūra izvēle](#section-3)</span>  
-<span>(5) [Elipsoīda algoritms](#section-4)</span>  
-<span>(6) [(P) Plūsmu uzdevumi](#section-5)</span>  
+<span>(2) [Iekšējā punkta metodes](#section-1)</span>  
+<span style="color:darkgreen">**(3) Afīnā mērogošana: Soļi**</span>  
+<span>(4) [Afīnā mērogošana: Piemērs](#section-3)</span>  
+<span>(5) [Iekšējā punkta pārskats](#section-4)</span>  
+<span>(6) [(P) Ieteikumu sistēmas](#section-5)</span>  
 <span>(7) [Kopsavilkums](#section-6)</span>
 
 </hgroup>
 
 
+# <lo-theory/> Uzdevums
 
-# <lo-theory/> Kāpēc LP ir svarīgas?
+<div style="font-size:100%">
 
-* (Reālo skaitļu) LP ir pirmais solis, lai risinātu 
-veselo skaitļu problēmas (*Integer Programming, IP*) un 
-jauktās LP problēmas (*Mixed Integer Linear Programs, MIP*). 
-* Kā optimāli izvēlēties komplektu (izejvielas, akciju portfeļus), 
-kā vislabāk sadalīt kādu resursu.
-* Plūsmas maksimizēšana grafā (skatīsimies šajā lekcijā).
+Apzīmējam:
 
-Veselie skaitļi kā nezināmie (*Integer Programming*) 
-labāk modelē Yes/No lēmumu pieņemšanu (0 un 1 vērtības), 
-bet šādus uzdevumus ir grūtāk risināt. 
-
-
-## <lo-summary/> LP algoritmi 
-
-* Simpleksalgoritmi (Kantorovičs, 1939; Dantzig, 1947).
-* Elipsoīda algoritms (Khachian, 1979)
-* Iekšējo punktu metodes (*Interior Point methods*).
-    - Projektīvā metode (Karmarkar, 1984).
-    - Afīnā metode (Dikin, 1967).
-    - Log Barrier Method. 
-
-Simpleksalgoritms parasti ir ļoti ātrs, bet īpaši uzkonstruēti
-piemēri var būt sarežģīti.   
-Matricām var būt ap 100 tūkstošiem rindiņu/kolonnu; ap miljons
-skaitļu šajās matricās nav nulles. 
-
-
-## <lo-summary/> Hamiltona cikli
-
-<hgroup style="font-size:70%">
-
-![Hamiltonian path](hamiltonian_path_3d.png)
-
-**Definīcija:** Par Hamiltona ciklu neorientētā grafā 
-sauc virsotņu virknīti $A_0,A_1,\ldots,A_n$, kur
-katra grafa virsotne piedalās tieši vienreiz (izņemot 
-$A_0=A_n$ - pirmā visotne sakrīt ar pēdējo) un katras 
-divas blakusesošas virsotnes savieno šķautne. 
-
-</hgroup>
-<hgroup>
-
-**Jautājums:** Dots neorientēts grafs. Kā uzrakstīt 
-lineāru vienādību vai nevienādību sistēmu, kuru atrisinot 
-(vai pamatojot, ka atrisinājuma nav), var atrast Hamiltona ciklu 
-grafā (vai pierādīt, ka šāda cikla nav)?
-
-</hgroup>
-
-# &nbsp;
-
-<hgroup>
-
-<h1 style="font-size:28pt">Lietišķie algoritmi</h1>
-
-<blue>Lineārā optimizācija - 2</blue>
-
-</hgroup><hgroup style="font-size:90%">
-
-<span>(1) [Ievads](#section)</span>  
-<span>(2) [Vispārīgais simpleksalgoritms](#section-1)</span>  
-<span style="color:darkgreen">**(3) Duālā lineārā programma**</span>  
-<span>(4) [Sākotnējā stūra izvēle](#section-3)</span>  
-<span>(5) [Elipsoīda algoritms](#section-4)</span>  
-<span>(6) [(P) Plūsmu uzdevumi](#section-5)</span>  
-<span>(7) [Kopsavilkums](#section-6)</span>
-
-</hgroup>
-
-
-
-# <lo-theory/> Primārā lineārā programma
-
-<div style="font-size:70%">
-
-Pieņemsim, ka ir lineāra programma (sauksim par <blue>*primāro LP*</blue>):
-
-Maksimizēt $c_1 x_1 + c_2 x_2 + \ldots + c_n x_n$ pie šādiem nosacījumiem:
-$$ \left\{ \begin{array}{l}
-a_{11} x_1 + a_{12} x_2 + \ldots + a_{1n} x_n  \geq b_1,\\
-\ldots
-a_{k1} x_1 + a_{k2} x_2 + \ldots + a_{kn} x_n = b_k,\\
-x_1 \geq 0,\; x2 \geq 0,\;\ldots 
-\end{array} \right.$$
-
-LP var nebūt standartformā: 
-
-* Nosacījumiem $a_{i1} x_1 + a_{i2} x_2 + \ldots + a_{in} x_n ? b_i$,  
-jautājuma zīmes vietā var būt jebkura zīme ($\geq$, $\leq$, $=$). 
-* Attiecībā uz mainīgajiem $x_i$ var būt nosacījumi $xi \geq 0$, $x_i \leq 0$, 
-vai vispār nebūt nosacījuma attiecībā uz $x_i$.
-
-</div>
-
-
-
-# <lo-theory/> Duālā lineārā programma
-
-<div style="font-size:70%">
-
-Par <blue>*duālo programmu*</blue> sauc tādu lineāro programmu, kur jāminimizē izteiksme:
-$$b_1 y_1 + b_2 y_2 + \ldots + b_k y_k,$$
-pie nosacījumiem
-$$a_{11} y_1 + a_{21} y_2 + \ldots + a_{k1} y_k ? c_k,$
-kur simbols jautājuma zīmes vietā tiek noteikts šādi:
-
-* Ja primārajā LP bija nosacījums $x_i \geq 0$, tad jautājuma zīmes vietā ir $\geq$.
-* Ja primārajā LP bija nosacījums $x_i \leq 0$, tad jautājuma zīmes vietā ir $\leq$.
-* Ja primārajā LP nebija nosacījuma attiecībā uz $x_i$, tad jautājuma zīmes vietā ir $=$.
-
-Attiecībā uz mainīgajiem y1, y2, ..., yk, nosacījumi ir atkarīgi no tā, kāda zīme bija primārās LP nosacījumā ai1 x1 + ai2 x2 + ... + ain xn  ? bi:
-
-* Ja $?$ vietā bija $\geq$, tad mums tagad ir nosacījums $y_i \leq 0$.
-* Ja $?$ vietā bija $\leq$, tad mums tagad ir nosacījums $y_i \geq 0$.
-* Ja $?$ vietā bija $=$, tad mums tagad nav nosacījuma attiecībā uz $y_i$.
-
-</div>
-
-
-
-# <lo-sample/> LP Piemērs
-
-Primārā lineārā programma ir šāda:  
-Maksimizēt $\color{#00F}{5x_1 + 16x_2}$ pie nosacījumiem
-$$ \left\{ \begin{array}{l}
-x_1 + x_2 \leq 1,\\
-2x_1 + 7x_2 \leq 9,\\
-x_1 \geq 0,\;\; x_2 \geq 0,
-\end{array} \right.$$
-Tad duālā programma ir:  
-Minimizēt $\color{#00F}{y_1+ 9y_2}$ pie nosacījumiem:
-$$ \left\{ \begin{array}{l}
-y_1 + 2y_2 \geq 5,\\
-y_1 + 7y_2 \geq 16,\\
-y_1 \geq 0,\;\; y_2 \geq 0.
-\end{array} \right.$$
-
-
-## <lo-sample/> Duālās programmas nozīme
-
-<div style="font-size:70%">
-
-Duālo programmu var interpretēt šādi: katrs duālās programmas atrisinājums 
-dod novērtējumu no augšas priekš primārās programmas atrisinājuma. 
-Piemēram, ja mums ir duālās programmas atrisinājums $y_1 = y_2 = 2$, 
-tad no duālās programmas nosacījumiem seko, ka
-$$5x_1 + 16x_2 \leq  2(x_1 + x_2) + 2(2x_1 + 7x_2).$$
-Apvienojot to ar primārās programmas nosacījumiem, mēs iegūstam, ka 
-$$5x_1 + 16x_2  \leq  2 \cdot 1 + 2 \cdot 9 = 20,$$
-tas ir, primārās LP mērķfunkcija jebkurā punktā ir mazāka 
-par duālās programmas mērķfunkciju (arī jebkurā punktā, 
-jo augstāk minētajā spriedumā $y_1 = y_2 = 2$ var aizstāt ar jebkuru 
-citu punktu, kur izpildās visi duālās programmas nosacījumi). 
-
-</div>
-
-
-# <lo-theory/> Dualitātes teorēma
-
-1. Ja primārajai LP eksistē maksimums, tad duālajai LP arī eksistē 
-atrisinājums un primārās LP maksimums sakrīt ar duālās LP minimumu.
-2. Ja primārajai LP neeksistē atrisinājums (nosacījumi ir pretrunīgi), 
-tad duālajai LP mērķfunkcija var sasniegt patvaļīgi mazas vērtības.
-3. Ja primārajai LP mērķfunkcija var sasniegt patvaļīgi lielas vērtības, 
-tad duālajai LP atrisinājums neeksistē (nosacījumi ir pretrunīgi).
-
-
-## <lo-theory/> Primārās un duālās LP apvienošana
-
-Ja dotas primārā LP un duālā LP, varam uzrakstīt jaunu LP, 
-kas satur visus mainīgos (gan $x_1, x_2, \ldots, x_n$, 
-gan $y_1, y_2, \ldots, y_k$), 
-gan visus nosacījumus no abām programmām un pievienot tai vēl vienu nosacījumu:
-$$c_1 x_1 + c_2 x_2 + \ldots + c_n x_n = b_1 y_1 + b_2 y_2 + \ldots + b_k y_k.$$
-
-Tad vienīgais gadījums, kad izpildās visi nosacījumi ir, ja 
-$x_1, x_2, \ldots, x_n$ sasniedz primārās LP maksimums, bet 
-$y_1, y_2, \ldots, y_k$ sasniedz duālās LP minimumu.
-
-**Secinājums:** Ja mums ir algoritms, kas prot patvaļīgai LP atrast 
-vienu punktu, kas apmierina visus nosacījumus, tad šo algoritmu 
-var izmantot arī maksimuma atrašanai.
-
-
-
-# <lo-theory/> Matricu pieraksts: Primārā LP
-
-<hgroup>
-
-**Primārā LP:** <blue>Maksimizēt:</blue> $4x_1 + 2x_2 - x_3,$ kur 
-$$\left\{
-\begin{array}{l}
-x_1 + x_2 + x_3 = 20\\
-2x_1 - x_2 \geq 6\\
-3x_1 + 2x_2 + x_3 \leq 40\\
-x_1,x_2 \geq 0
-\end{array} \right.$$
-
-</hgroup>
-<hgroup style="font-size:70%">
-
-$$x = \left(
+$$x = \left( 
 \begin{array}{c}
 x_1\\
 x_2\\
-x_3
-\end{array} \right), \;\; b = \left(
+\ldots\\
+x_n
+\end{array} \right),\;\;
+A=\left( 
+\begin{array}{cccc}
+a_{11} & a_{12} & \ldots & a_{1n}\\
+\ldots & \ldots & \ldots & \ldots\\
+a_{m1} & a_{m2} & \ldots & a_{mn}
+\end{array} \right),\;\;
+b=\left( 
 \begin{array}{c}
-20\\
-6\\
-40
-\end{array} \right),$$
-$$c = \left(
-\begin{array}{ccc}
-4 & 2 & -1
-\end{array} \right),$$
-$$A = \left(
-\begin{array}{ccc}
-1 & 1 & 1\\
-2 & -1 & 0\\
-3 & 2 & 1
+b_1\\
+\ldots\\
+b_m
 \end{array} \right).$$
-</hgroup>
 
+Maksimizēt $\color{#00F}{c_1 x_1 + c_2 x_2 + \ldots + c_n x_n}$  
+pie nosacījumiem $Ax = b$, $x_1 \geq 0$, $x_2 \geq 0$, $\ldots$, $x_n \geq 0$.
 
-# <lo-theory/> Matricu pieraksts: Duālā LP
 
-<hgroup>
+</div>
 
-Duālā LP:  
-<red>Minimizēt:</red> $4x_1 + 2x_2 - x_3,$ kur 
-$$ \left\{
-\begin{array}{l}
-y_1 + 2y_2 + 3y_3 \geq 4\\
-y_1 - y_2 + 2y_3 \geq 2\\
-y_1 + y_3 = -1\\
-y_2 \leq 0,\; y_3 \geq 0 
-\end{array} \right. $$
 
-</hgroup>
-<hgroup>
-
-* Koeficientus iegūst, transponējot $A$. 
-* Vienādību un nevienādību tipus nosaka atbilstoši 
-augšminētajiem noteikumiem: Piemēram, ja $x_1 \geq 0$ primārajā 
-problēmā, tad $x_1$ mainīgajam atbilstošais duālais vienādojums 
-$y_1 + 2y_2 + 3y_3 \geq 4$. 
-
-</hgroup>
-
-
-
-<!--
-
-## <lo-soln/> Dualitātes teorēma matricu veidā
-
-<hgroup>
-
-Maksimizēt $z = \mathbb{c} \cdot \mathbb{x}$, kur $A\mathbb{x} 
-
--->
-
-
-# &nbsp;
-
-<hgroup>
-
-<h1 style="font-size:28pt">Lietišķie algoritmi</h1>
-
-<blue>Lineārā optimizācija - 2</blue>
-
-</hgroup><hgroup style="font-size:90%">
-
-<span>(1) [Ievads](#section)</span>  
-<span>(2) [Vispārīgais simpleksalgoritms](#section-1)</span>  
-<span>(3) [Duālā lineārā programma](#section-2)</span>  
-<span style="color:darkgreen">**(4) Sākotnējā stūra izvēle**</span>  
-<span>(5) [Elipsoīda algoritms](#section-4)</span>  
-<span>(6) [(P) Plūsmu uzdevumi](#section-5)</span>  
-<span>(7) [Kopsavilkums](#section-6)</span>
-
-</hgroup>
-
-
-
-
-
-
-# &nbsp;
-
-<hgroup>
-
-<h1 style="font-size:28pt">Lietišķie algoritmi</h1>
-
-<blue>Lineārā optimizācija - 2</blue>
-
-</hgroup><hgroup style="font-size:90%">
-
-<span>(1) [Ievads](#section)</span>  
-<span>(2) [Vispārīgais simpleksalgoritms](#section-1)</span>  
-<span>(3) [Duālā lineārā programma](#section-2)</span>  
-<span>(4) [Sākotnējā stūra izvēle](#section-3)</span>  
-<span style="color:darkgreen">**(5) Elipsoīda algoritms**</span>  
-<span>(6) [(P) Plūsmu uzdevumi](#section-5)</span>  
-<span>(7) [Kopsavilkums](#section-6)</span>
-
-</hgroup>
-
-
-# <lo-summary/> Elipsoīda algoritma ievads
-
-Šo algoritmu izgudroja Hačijans (Khachiyan) 1979. gadā. 
-Elipsoīda algoritms pazīstams kā pirmais lineārās programmēšanas algoritms, 
-kuram tika pierādīts, ka tas atrod atrisinājumu polinomiālā laikā 
-($O(n^4L)$, kur $n$ - dimensiju skaits, $L$ – ar cik bitu precizitāti jāatrod atrisinājums). 
-
-Lai gan teorētiski darbības laiks ir polinomiāls, praksē algoritms ir 
-lēns un netiek lietots. Tāpēc šajā kursā mēs ierobežosimies ar īsu šī algoritma aprakstu.
-
-
-## <lo-summary/> Elipsoīda algoritma pārskats
-
-Dualitātes teorēmas (un redukcijas uz primāro+duālo) dēļ 
-pietiek ar algoritmu, kas atrod punktu, kur izpildās visi nosacījumi. To meklē šādi:
-
-Sāk ar elipsoīdu $E_0$, kas noteikti ietver LP pieļaujamo apgabalu.  
-Pilda sekojošus soļus līdzkamēr sasniegta vajadzīgā precizitāte:
-
-1. Ņem iepriekšējā elipsoīda $E_i$ centru $c_i$.
-2. Ja $c_i$ neapmierina visus LP nosacījumus, tad atrod nosacījumu 
-$a_k$, kas tiek pārkāpts visvairāk.
-3. Ar plakni, kas sastāv no visiem punktiem, kur nosacījuma $a_k$ 
-izteiksmei ir vienāda vērtība $c$ (kur $c$ ir pa vidu starp vērtību punktā 
-$c_i$ un pieļaujamajām izteiksmes vērtībām) pārdala telpu divās daļās. 
-Ar $R_1$ apzīmējam daļu, kur nonāk $c_i$ un ar $R_2$ apzīmējam daļu, 
-kur nonāk pieļaujamais apgabals.
-4. Uzkonstruē jaunu elipsoīdu $E_{i+1}$, tā lai izpildītos
-$$E_i \cap R_2 \subseteq E_{i+1}.$$
-
-
-## <lo-summary/> Apgalvojums par elipsoīdu
-
-<hgroup>
-
-![Elipsoid Algorithm](elipsoid-algorithm.png)
-
-</hgroup>
-<hgroup>
-
-Hačjana konstrukcijā (*barycentric coordinate descent*) elipsoīdi ir tādi, ka 
-$$\frac{\text{Volume}(E_{k+1})}{\text{Volume}(E_{k})} = \frac{1}{2^{\frac{1}{2n+1}}$$
-veido konstantu attiecību, kas atkarīga no dimensiju skaita $n$. 
-
-
-</hgroup>
-
-
-
-
-# &nbsp;
-
-<hgroup>
-
-<h1 style="font-size:28pt">Lietišķie algoritmi</h1>
-
-<blue>Lineārā optimizācija - 2</blue>
-
-</hgroup><hgroup style="font-size:90%">
-
-<span>(1) [Ievads](#section)</span>  
-<span>(2) [Vispārīgais simpleksalgoritms](#section-1)</span>  
-<span>(3) [Duālā lineārā programma](#section-2)</span>  
-<span>(4) [Sākotnējā stūra izvēle](#section-3)</span>  
-<span>(5) [Elipsoīda algoritms](#section-4)</span>  
-<span style="color:darkgreen">**(6) (P) Plūsmu uzdevumi**</span>  
-<span>(7) [Kopsavilkums](#section-6)</span>
-
-</hgroup>
-
-
-
-# <lo-sample/> Maksimālās plūsmas atrašana grafā
-
-![Max Flow Graph](max-flow-graph.png)
-
-Aplūkotajā grafā katrai šķautnei ir pierakstīta skaitliska vērtība - maksimālā 
-atļautā plūsma, kuru pa šo šķautni var sūtīt (vai nu vienā, vai otrā virzienā). 
-Var sūtīt arī mazāku plūsmu.   
-**Uzdevums:** Atrast lielāko plūsmu no virsotnes "IN" uz virsotni "OUT". 
-
-Šim uzdevumam 1956.g. tika izveidots [Forda-Falkersona algoritms](https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm) (*Ford-Fulkerson algorithm*), ko kursā neaplūkojam. 
-Uzdevumu var arī reducēt uz Lineāro programmēšanu. 
-
-
-
-# <lo-soln/> Lineārā programma
+## <lo-summary/> Afīnās skalēšanas metodes soļi
 
 <div style="font-size:70%">
 
-![Flow Preservation](flow-preservation.png)
+Sākam ar kaut kādu lineārās programmas atrisinājumu $x = (x_1, x_2, \ldots, x_n)$.
+Atkārto šādu darbību virkni:
 
-Katrai (neorientētai) šķautnei ieviešam divus mainīgos, piemēram, $x_1$ un 
-$x'_1$ (nenegatīvas plūsmas katrā no iespējamajiem virzieniem). 
+1. Novelk elipsoīdu ap tekošo atrisinājumu 
+$x = (x_1, x_2, \ldots, x_n)$, kas pieskaras visām plaknēm $x_i=0$.
+2. Atrod, kurā elipsoīda punktā mērķfunkcija ir maksimāla. 
+(Šajā solī tiek ignorēti nosacījumi $Ax=b$ un maksimums rēķināts 
+pār visiem elipsoīda punktiem, ieskaitot tos, kur šie nosacījumi neizpildās.) 
+Atrasto maksimumu apzīmē ar $x’ = (x’_1, x’_2, \ldots, x’_n)$.
+3. Projicē vektoru $x’ - x = (x’_1 - x_1, x’_2 - x_2, \ldots, x’_n - x_n)$ 
+uz plakni $Ax=0$. Iegūto projekciju apzīmē ar $z = (z_1, z_2, \ldots, z_n)$.
+4. Jebkuram skaitlim $a$, vektors $x + a z$ apmierina nosacījumus $Ax = b$. 
+Aprēķinām maksimālo $a$, pie kura $x_i + az_i \geq 0$ (neizbraucam ārā no nevienādību 
+noteiktā pieļaujamā apgabala).
+5. Mūsu jaunais atrisinājums būs $x’ = (x’_1, x’_2, \ldots, x’_n)$, kur
+$x’_i = x_i + 0.96 \cdot a \cdot z_i$.
 
-1. Katrai virsotnei grafā rakstām "plūsmas saglabāšanās" ("flow preservation") 
-vienādojumus. Piemēram, 
-$$x_1 + x_2 + x'_3 = x'_1 + x'_2 + x_3.$$
-2. Katrai šķautnei grafā rakstām divas nevienādības caurlaidībai ("edge capacity"). 
-Piemēram, 
-$$x_1 \leq 3,\;\;x'_1 \leq 3.$$
-(Ja šķautne, kas atbilst $x_1$ un $x'_1$ ir ar caurlaidību $3$.)
-3. Visas plūsmas ir nenegatīvas. Piemēram, 
-$$x_1 \geq 0,\;\;x'_1 \geq 0.$$
+Šeit $\beta = 0.96$ ir <blue>*soļa garums*</blue> (*step size*), ko bieži izmanto praksē. 
+Citos kontekstos der arī citas vērtības ${\displaystyle \beta \in \left[ \frac{2}{3};1 \right)}$. 
+
+</div>
 
 
-# <lo-soln/> Maksimizējamā funkcija
+# &nbsp;
 
 <hgroup>
 
-![Max Flow Graph](max-flow-graph.png)
+<h1 style="font-size:28pt">Lietišķie algoritmi</h1>
 
-</hgroup><hgroup>
+<blue>Lineārā optimizācija - 3</blue>
 
-1. Var maksimizēt plūsmu summu visām no "IN" izejošajām virsotnēm. 
-2. Biežāk izmanto triku: pievieno fiktīvu šķautni no "OUT" atpakaļ uz "IN" - un maksimizē
-plūsmu uz šīs vienas šķautnes.
+</hgroup><hgroup style="font-size:90%">
+
+<span>(1) [Ievads](#section)</span>  
+<span>(2) [Iekšējā punkta metodes](#section-1)</span>  
+<span>(3) [Afīnā mērogošana: Soļi](#section-2)</span>  
+<span style="color:darkgreen">**(4) Afīnā mērogošana: Piemērs**</span>  
+<span>(5) [Iekšējā punkta pārskats](#section-4)</span>  
+<span>(6) [(P) Ieteikumu sistēmas](#section-5)</span>  
+<span>(7) [Kopsavilkums](#section-6)</span>
 
 </hgroup>
 
 
-# <lo-theory/> Dualitātes lietošana max plūsmai
+# <lo-sample/> LP Uzdevums
 
-Sk. [Max Flow to Linear Programming](http://www.cs.cmu.edu/~odonnell/toolkit13/lecture14.pdf)
+<hgroup>
 
-**Tipiska ideja:** No reālās dzīves nākušam Lineārās Programmēšanas 
-uzdevumam formulējam duālo uzdevumu un mēģinām atrast šī uzdevuma interpretāciju. 
+Maksimizēt ${\displaystyle -\frac{x_1}{3} + x_2}$
+pie nosacījumiem:
+$$\left\{ 
+\begin{array}{l}
+x_1 + x_2 \leq 4,\\
+2x_1 - x_2 \leq 3,\\
+x_1 \geq 0, x_2 \geq 0. 
+\end{array} \right.
+$$
+
+<blue>Sākumpunkts: $x_1=1$, $x_2=1$.</blue>
+
+</hgroup>
+<hgroup>
+
+![Afine scaling sample](afine-scaling-sample-problem.png)
+
+</hgroup>
+
+## <lo-soln/> Pārveidošana standartformā
+
+Pārveido LP formā, kur ir tikai vienādības.
+
+Maksimizēt ${\displaystyle -\frac{x_1}{3} + x_2}$
+pie nosacījumiem:
+$$\left\{ 
+\begin{array}{l}
+x_1 + x_2 + x_3 = 4,\\
+2x_1 - x_2 + x_4 = 3,\\
+x_1 \geq 0, x_2 \geq 0, x_3 \geq 0, x_4 \geq 0.
+\end{array} \right.$$
+
+<blue>Sākumpunkts: $x_1=1$, $x_2=1$, $x_3=2$, $x_4=2$.</blue>
+
+
+## <lo-soln/> 1.solis
+
+* Koordinātu transformācija.  
+$x_1=1+y_1$, $x_2=1+y_2$, $x_3=2+y_3$, $x_4=2+y_4$.  
+Mēs panācām, lai $(1, 1, 2, 2) \rightarrow (0, 0, 0, 0)$.
+* Jaunā programma.  
+Maksimizēt ${\displaystyle -\frac{x_1}{3} + x_2 = -\frac{y_1 + 1}{3} + (y_2+1) = }$
+$={\displaystyle \color{#00F}{-\frac{y_1}{3} + y_2 + \frac{2}{3}}}$ jeb 
+${\displaystyle \color{#F00}{-\frac{y_1}{3} + y_2}}$ pie nosacījumiem 
+$$\left\{ 
+\begin{array}{l}
+y_1 + y_2 + y_3 = 0,\\
+2y_1 - y_2 + y_4 = 0,\\
+y_1 \geq -1,\; y_2 \geq -1,\; y_3 \geq -2,\; y_4 \geq -2.
+\end{array} \right.$$
+
+
+
+## <lo-soln/> 2.solis
+
+* Koordinātu “saspiešana”.  
+$y_1=z_1$, $y_2=z_2$, $y_3=2z_3$, $y_4=2z_4$.
+* Jaunā programma:  
+Maksimizēt ${\displaystyle -\frac{z_1}{3} + z_2}$ pie nosacījumiem 
+$$\left\{ 
+\begin{array}{l}
+z_1 + z_2 + 2z_3 = 0,\\
+2z_1 - z_2 + 2z_4 = 0,\\
+z_1 \geq -1, z_2 \geq -1, z_3 \geq -1, z_4 \geq -1.
+\end{array} \right.$$
+
+Tekošais punkts – vienādā apkārtnē no visiem ierobežojumiem.
+
+
+
+## <lo-soln/> 3.solis
+
+Maksimizēt ${\displaystyle -\frac{z_1}{3} + z_2}$ pie nosacījumiem 
+$$\left\{ 
+\begin{array}{l}
+2z_1-z_2 + 2z_3 = 0,\\
+z_1+z_2 + 2z_4 = 0,\\
+z_1 \geq -1, z_2 \geq -1, z_3 \geq -1, z_4 \geq -1.
+\end{array} \right.$$
+
+Sfēra, kas pieskaras visiem ierobežojumiem:
+
+$$z_1^2 + z_2^2 + z_3^2 + z_4^2 = 1.$$
+
+
+## <lo-soln/> 4.solis
+
+**Teorēma:** $a_1z_1 + a_2z_2 +\ldots + a_nz_n$
+maksimums uz sfēras 
+$$z_1^2 + z_2^2 + \ldots + z_n^2 = 1$$
+tiek sasniegts virzienā
+$$z_1 = a_1,\;z_2=a_2,\,\ldots,\;z_n = a_n.$$
+
+Mūsu gadījumā izteiksmei 
+${\displaystyle -\frac{z_1}{3} + z_2}$ 
+maksimums ir uz tā vektora, kas 
+rāda virzienā $z_{\max} = (z_1,z_2,z_3,z_4) = (-1/3,1,0,0)$. 
+
+
+## <lo-soln/> 5.solis
+
+Vēlamies projicēt $z_{\max} = (-1/3, 1, 0, 0)$ 
+uz divdimensiju hipertelpu (divu trīsdimensiju hipertelpu šķēlumu), kur izpildās nosacījumi:  
+$$\left\{ 
+\begin{array}{l} 
+z_1 + z_2 + 2z_3 = 0,\\
+2z_1 - z_2 + 2z_4 = 0.
+\end{array} \right.$$
+
+Koeficientu matrica ir
+
+$$B = \left( 
+\begin{array}{cccc}
+1 & 1 & 2 & 0 \\ 
+2 & -1 & 0 & 2 
+\end{array} \right)$$
+
+## <lo-soln/> 5.solis (turpinājums)
+
+<div style="font-size:90%">
+
+Aprēķinām $B \cdot B^T$ un $B \cdot z_{\max}$
+$$B \cdot B^T = 
+\left( 
+\begin{array}{cccc}
+1 & 1 & 2 & 0 \\ 
+2 & -1 & 0 & 2 
+\end{array} \right) \cdot 
+\left( 
+\begin{array}{cc}
+1 & 2 \\ 
+1 & -1 \\
+2 & 0 \\
+0 & 2
+\end{array} \right)
+ =
+\left(
+\begin{array}{cc}
+6 & 1\\
+1 & 9 
+\end{array} \right)$$
+
+$$B \cdot z_{\max} = B \cdot \left( \begin{array}{c}
+-1/3\\
+1\\
+0\\
+0 \end{array} \right) = \left(
+\begin{array}{c}
+2/3\\
+-5/3
+\end{array} \right).$$
+
+</div>
+
+
+## <lo-soln/> 6.solis 
+
+Risinām sistēmu $B \cdot B^T \cdot w = B \cdot z_{max}$.
+
+$$\left\{ \begin{array}{l}
+6w_1 + w_2 = \frac{2}{3}\\
+w_1 + 9w_2 = -\frac{5}{3}
+\end{array} \right.$$
+
+Vienādojumu sistēmas atrisinājums ir 
+
+$$w_1 = \frac{23}{159},\;\;w_2 = -\frac{32}{159}.$$
+
+
+## <lo-soln/> 7.solis 
+
+Projekcijas vektora virziens:
+
+$$p = z - B^T \cdot w = $$
+$$= \left( \begin{array}{c}
+-\frac{1}{3}\\
+1\\
+0\\
+0 \end{array} \right) - 
+\left( \begin{array}{cc}
+1 & 2\\
+1 & -1\\
+2 & 0\\
+0 & 2 \end{array} \right) \cdot 
+\left( \begin{array}{c}
+\frac{23}{159}\\
+-\frac{32}{159} \end{array} \right) = 
+\left( \begin{array}{c}
+-\frac{12}{159}\\
+\frac{104}{159}\\
+-\frac{46}{159}\\
+\frac{64}{159}
+\end{array} \right).
+$$
+
+
+
+## <lo-soln/> 8.solis 
+
+Novelkam taisni virzienā $p$. Šo taisni var uzdot parametriski:
+$$\left\{ \begin{array}{l}
+z_1 = -12t,\\
+z_2 = 104t,\\
+z_3 = -46t,\\
+z_4 = 64t,
+\end{array} \right.$$
+kur $t$ ir parametrs.
+
+Tagad jānosaka pirmais krustpunkts starp šo taisni un plaknēm $z_i \geq -1$ 
+(virzienā $t \geq 0$). Tas ir $t = 1/46$, kur mūsu taisne krusto 
+$z_3 \geq -1$. 
+
+
+
+
+## <lo-soln/> 9.solis 
+
+<div style="font-size:70%">
+
+Tātad jaunais atrisinājums būs
+
+$$\left\{ \begin{array}{l}
+z_1 = -0.96 \cdot 12 \cdot \frac{1}{46} = -0.25043,\\
+z_2 = 0.96 \cdot 104 \cdot \frac{1}{46} = 2.17044,\\
+z_3 = -0.96 \cdot 46 \cdot \frac{1}{46} = 0.96000,\\
+z_4 = 0.96 \cdot 64 \cdot \frac{1}{46} = 1.33565.
+\end{array} \right.$$
+
+Pārveidojam atpakaļ uz sākotnējās koordinātēm:
+
+
+$$\left\{ \begin{array}{l}
+y_1 = z_1 = -0.25043\\
+y_2 = z_2 = 2.17044\\
+y_3 = 2z_3 = 1.92000\\
+y_4 = 2z_4 = 2.67130 
+\end{array} \right.;\;\;
+\left\{ \begin{array}{l}
+x_1 = 1 + y_1 = 0.74957\\
+x_2 = 1 + y_2 = 3.17044\\
+x_3 = 2 + y_3 = 3.92000\\
+x_4 = 2 + y_4 = 4.67130 
+\end{array} \right.$$
+
+</div>
+
+
+
+
+## <lo-summary/> Afīnās mērogošanas galarezultāts
+
+<hgroup>
+
+![Afine Scaling end-result](afine-scaling-sample-result.png)
+
+Maksimizēt ${\displaystyle -\frac{x_1}{3} + x_2}$
+pie nosacījumiem:
+$$\left\{ 
+\begin{array}{l}
+x_1 + x_2 \leq 4,\\
+2x_1 - x_2 \leq 3,\\
+x_1 \geq 0, x_2 \geq 0. 
+\end{array} \right.
+$$
+
+</hgroup>
+<hgroup>
+
+No punkta $(x_1,x_2) = (1,1)$ pēc 1.iterācijas
+ieguvām $(0.74957;3.17044)$
+
+</hgroup>
 
 
 
@@ -523,18 +502,111 @@ uzdevumam formulējam duālo uzdevumu un mēģinām atrast šī uzdevuma interpr
 
 <h1 style="font-size:28pt">Lietišķie algoritmi</h1>
 
-<blue>Lineārā optimizācija - 2</blue>
+<blue>Lineārā optimizācija - 3</blue>
 
 </hgroup><hgroup style="font-size:90%">
 
 <span>(1) [Ievads](#section)</span>  
-<span>(2) [Vispārīgais simpleksalgoritms](#section-1)</span>  
-<span>(3) [Duālā lineārā programma](#section-2)</span>  
-<span>(4) [Sākotnējā stūra izvēle](#section-3)</span>  
-<span>(5) [Elipsoīda algoritms](#section-4)</span>  
-<span>(6) [(P) Plūsmu uzdevumi](#section-5)</span>  
+<span>(2) [Iekšējā punkta metodes](#section-1)</span>  
+<span>(3) [Afīnā mērogošana: Soļi](#section-2)</span>  
+<span>(4) [Afīnā mērogošana: Piemērs](#section-3)</span>  
+<span style="color:darkgreen">**(5) Iekšējā punkta pārskats**</span>  
+<span>(6) [(P) Ieteikumu sistēmas](#section-5)</span>  
+<span>(7) [Kopsavilkums](#section-6)</span>
+
+</hgroup>
+
+
+# <lo-theory/> Potenciāla samazināšanas metode
+
+Minimizējam 
+$$q \ln (cx - by) = \sum\limits_{j=1}^n \ln (x_j),$$
+kur $Ax =b$, $x \geq 0$,  
+$yA + s = 0$, $s \geq 0$. 
+
+
+
+
+# <lo-theory/> Centrālās trajektorijas metode
+
+Minimizējam 
+$$cx - \mu_k \sum\limits_{j=1}^n \ln (x_j),$$
+kur $Ax =b$, $x > 0$. 
+Sākotnēji šādas metodes radās nelineāriem optimizācijas
+uzdevumiem, risinot tos ar Ņūtona pieskaru metodi
+(kurā Ņūtona solim uzliek papildus ierobežojumus). 
+
+Katrā nākamajā solī izvēlas $\mu_{k+1} \leq \mu_k$, 
+un $\mu_k$ tuvojas nullei. 
+
+
+
+
+
+# &nbsp;
+
+<hgroup>
+
+<h1 style="font-size:28pt">Lietišķie algoritmi</h1>
+
+<blue>Lineārā optimizācija - 3</blue>
+
+</hgroup><hgroup style="font-size:90%">
+
+<span>(1) [Ievads](#section)</span>  
+<span>(2) [Iekšējā punkta metodes](#section-1)</span>  
+<span>(3) [Afīnā mērogošana: Soļi](#section-2)</span>  
+<span>(4) [Afīnā mērogošana: Piemērs](#section-3)</span>  
+<span>(5) [Iekšējā punkta pārskats](#section-4)</span>  
+<span style="color:darkgreen">**(6) (P) Ieteikumu sistēmas**</span>  
+<span>(7) [Kopsavilkums](#section-6)</span>
+
+</hgroup>
+
+# <lo-theory/> Divu veidu ieteikumu veidošana
+
+1. Collaborative systems: Iesaka jaunu saturu, balstoties uz to, ko 
+2. Content-based systems
+
+
+
+::: notes
+
+MovieLens dataset  - https://www.youtube.com/watch?v=9gBC9R-msAk
+
+::: 
+
+
+
+
+# &nbsp;
+
+<hgroup>
+
+<h1 style="font-size:28pt">Lietišķie algoritmi</h1>
+
+<blue>Lineārā optimizācija - 3</blue>
+
+</hgroup><hgroup style="font-size:90%">
+
+<span>(1) [Ievads](#section)</span>  
+<span>(2) [Iekšējā punkta metodes](#section-1)</span>  
+<span>(3) [Afīnā mērogošana: Soļi](#section-2)</span>  
+<span>(4) [Afīnā mērogošana: Piemērs](#section-3)</span>  
+<span>(5) [Iekšējā punkta pārskats](#section-4)</span>  
+<span>(6) [(P) Ieteikumu sistēmas](#section-5)</span>  
 <span style="color:darkgreen">**(7) Kopsavilkums**</span>
 
 </hgroup>
+
+
+
+
+
+
+
+
+
+
 
 
