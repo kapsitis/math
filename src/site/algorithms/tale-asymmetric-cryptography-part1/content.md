@@ -26,12 +26,15 @@
 
 <div class="bigWhy">
 
-Kāpēc epastu pasaulē šifrēšana noved pie skaitļu teorijas algoritmiem?
+Kāpēc dažādi drošas komunikācijas uzdevumi noved pie līdzīgām 
+veselu skaitļu manipulācijām?
 
 </div>
 <div class="smallWhy">
 
-* Kāpēc ir tikai galīgs (neliels) skaits asimetrisko atslēgu algoritmu?
+* Simetrisku atslēgu apmaiņa ar asimetriskām atslēgām. 
+* Digitāli paraksti, to nenoliedzamība.
+* Digitālu sertifikātu apstiprināšana (Certificate Authorities)
 
 </div>
 
@@ -80,8 +83,9 @@ Kāpēc epastu pasaulē šifrēšana noved pie skaitļu teorijas algoritmiem?
 
 <div style="font-size:70%">
 
-* "One-time pad" - ļoti ātrs un (pat teorētiski) neatšifrējams.
+* "One-time pad" - ļoti ātrs un neatšifrējams, bet tajā ir garas atslēgas.
 * Vajadzīgs nejaušo skaitļu ģenerators; garas atslēgas grūti pārraidīt.
+* Pseidonejaušu skaitļu ģeneratori bieži ir apšaubāmi.
 
 $$ \left\{ \begin{array}{l}
 s_0 = 12345\\
@@ -93,6 +97,17 @@ $$
 <small>(c) [Dilbert.com](https://dilbert.com/strip/2001-10-25)</small>
 
 </div>
+
+
+# <lo-summary/> AES: Pazīstamākais simetriskais šifrs
+
+* AES (*Advanced Encryption Standard*) ap 2002.g. tika izraudzīts 
+kā standarts ASV valdības dokumentu (tostarp konfidenciālo) 
+drošai pārraidei. To ieviesa US National Institute of Standards and Technology (NIST). 
+* AES ir bloku šifrs - visi šifrējamie bloki ir 128 bitus gari; 
+* AES atslēgas var būt 128, 192, 256 bitus garas.
+
+
 
 
 # &nbsp;
