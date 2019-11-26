@@ -63,6 +63,8 @@ def build_static(SRC,DEST):
         shutil.copy(filename, DEST)
     for filename in glob.glob(os.path.join(SRC, '*.docx')):
         shutil.copy(filename, DEST)
+    for filename in glob.glob(os.path.join(SRC, '*.doc')):
+        shutil.copy(filename, DEST)
     #copyDirectory('%s/Pictures' % SRC,'%s/Pictures' % DEST)
     skip_directories = ['source-material','static','analysis']
     subDirectories = set(next(os.walk(SRC))[1]).difference(set(skip_directories))

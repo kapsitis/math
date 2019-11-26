@@ -160,6 +160,52 @@ drošai pārraidei. To ieviesa US National Institute of Standards and Technology
 
 
 
+# <lo-summary/> RSA pamatideja
+
+* Eksistē efektīvi algoritmi (polinomiālā laikā no skaitļa 
+pieraksta garuma), kas noskaidro, vai skaitlis ir pirmskaitlis. 
+* Pirmskaitļu blīvums (to skaits pietiekami garos intervālos, dalot 
+ar intervāla garumu) dilst ļoti lēni - kā funkcija $\frac{1}{\ln x}$.  
+Ir, teiksim, 0.43% varbūtība, ka nejauši izraudzīts 100-ciparu skaitlis
+izrādīsies pirmskaitlis. 
+* BET neeksistē efektīvs algoritms lielu skaitļu faktorizācijai. 
+
+
+
+## <lo-summary/> RSA atslēgu izveidošana
+
+<hgroup>
+
+**Publiskā informācija:**
+
+* Bobs vēlas no Alises (un arī daudziem citiem) saņemt
+šifrētas ziņas. Viņš veido "publisko sertifikātu":
+    - Izziņo divu ļoti lielu pirmskaitļu 
+reizinājumu $n = p \cdot q$ (bet ne pašus pirmskaitļus).
+    - Izziņo "publisko kāpinātāju" $e$, 
+kurš nedalās ne ar $p$, ne ar $q$.
+
+</hgroup>
+<hgroup>
+
+**Privātā informācija:** 
+
+* Bobam, lai atšifrētu, ir arī "privātais sertifikāts":
+    - Atrod $\varphi(n) = (p-1)(q-1)$ - skaitļu 
+skaits no $1$ līdz $n-1$, kas ir savstarpēji pirmskaitļi ar $n$ 
+(kas nedalās ne ar $p$, ne ar $q$).
+    - Atrod "privāto kāpinātāju $d$, kuram ir spēkā:
+$$e \cdot d \equiv 1\;(\text{mod}\,\varphi(n)).$$
+
+</hgroup>
+
+
+# <lo-summary/> Protokols
+
+1. 
+
+
+
 
 # &nbsp;
 
