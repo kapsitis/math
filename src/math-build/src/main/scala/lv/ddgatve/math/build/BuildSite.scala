@@ -41,10 +41,12 @@ object BuildSite {
       val subPresentations = subDirList.filter(p => !skip_directories.contains(p.getName))
 
       for (dd <- subPresentations) {
-        if (resType == "rbs" && dd.getName() == "youtube-data-part1") {
+        //if (resType == "rbs" && dd.getName() == "youtube-data-part1") {
+        if (true) {
           val srcFile = new File(dd.getCanonicalPath + "/content.md")
           val dstFile = new File(dd.getCanonicalPath + "/content.html")
-          if (srcFile.lastModified() > dstFile.lastModified()) {
+          if (srcFile.lastModified() > dstFile.lastModified() || resType.equals("algorithms")) {
+          //if (true) {
             val out = Process(Seq(
               "pandoc", "-t", "revealjs", "-s",
               "-o", "content.html", "content.md", "--slide-level=2",

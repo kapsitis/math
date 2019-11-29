@@ -581,9 +581,9 @@ $\pi(j) = \max \left\{ k\,:\,k<j\;\text{un}\;P_k\;\text{ir vārda}\;P_j\;\text{s
 **Uzdevums:** Atrast prefiksu funkciju, kas atbilst 
 meklējamajam paraugam $P = \mathtt{abab}$. 
 
-**Sabīdīšanas procedūra:** 
+**Risinājums ar sabīdīšanu:**
 
-
+![Prefix functions1](prefix-functions1.png)
 
 
 ## <lo-sample/> Piemērs Nr.2
@@ -591,7 +591,9 @@ meklējamajam paraugam $P = \mathtt{abab}$.
 **Uzdevums:** Atrast prefiksu funkciju, kas atbilst 
 meklējamajam paraugam $P = \mathtt{aabaab}$. 
 
+**Risinājums ar sabīdīšanu:**
 
+![Prefix functions2](prefix-functions2.png)
 
 
 ## <lo-sample/> Piemērs Nr.3

@@ -7,6 +7,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../reveal.js/css/reset.css">
   <link rel="stylesheet" href="../../reveal.js/css/reveal.css">
   <style>
       code{white-space: pre-wrap;}
@@ -399,7 +400,7 @@ Automāta stāvokļi <span class="math inline">\(q_0, q_1, \ldots, q_{m-1}\)</sp
 <hgroup style="font-size:80%">
 <p><strong>Piemērs:</strong> Parauga <span class="math inline">\(P = \mathtt{abab}\)</span> meklēšanas automāts:</p>
 <figure>
-<img data-src="abab-automaton.png" alt="abab Automaton" /><figcaption>abab Automaton</figcaption>
+<img data-src="abab-automaton.png" alt="" /><figcaption>abab Automaton</figcaption>
 </figure>
 <p><em>Piezīme.</em> Pēc <span class="math inline">\(P = \mathtt{abab}\)</span> atrašanas pārejam uz <span class="math inline">\(q_2\)</span> (nevis <span class="math inline">\(q_0\)</span>), jo paraugi var pārklāties.</p>
 <p><span class="math display">\[\mathtt{...ababab...}\]</span></p>
@@ -408,7 +409,7 @@ Automāta stāvokļi <span class="math inline">\(q_0, q_1, \ldots, q_{m-1}\)</sp
 <section id="automāta-konstrukcijas-piemērs" class="title-slide slide level1"><h1><lo-sample/> Automāta konstrukcijas piemērs</h1><p><strong>Uzdevums:</strong> Uzzīmēt galīgu automātu, kas meklē <code>aabab</code> kā apakšvirkni ievadāmajā tekstā.</p>
 <p><strong>Atrisinājums:</strong></p>
 <figure>
-<img data-src="aabab-automaton.png" alt="aabab Automaton" /><figcaption>aabab Automaton</figcaption>
+<img data-src="aabab-automaton.png" alt="" /><figcaption>aabab Automaton</figcaption>
 </figure></section>
 <section id="laiks-meklēšanai-ar-automātu" class="title-slide slide level1"><h1><lo-summary/> Laiks meklēšanai ar automātu</h1><hgroup>
 <p><strong>Teksta lasīšanas laiks:</strong> Gatava automāta darbināšanai vajag <span class="math inline">\(O(n)\)</span> laiku: katram teksta burtam viena operācija.</p>
@@ -463,10 +464,20 @@ Ja nosacījumi neizpildās nevienam <span class="math inline">\(k&lt;j\)</span>,
 </section><section id="piemērs-nr.1" class="slide level2">
 <h2><lo-sample/> Piemērs Nr.1</h2>
 <p><strong>Uzdevums:</strong> Atrast prefiksu funkciju, kas atbilst meklējamajam paraugam <span class="math inline">\(P = \mathtt{abab}\)</span>.</p>
-<p><strong>Atrisinājums:</strong></p>
+<p><strong>Risinājums ar sabīdīšanu:</strong></p>
+<figure>
+<img data-src="prefix-functions1.png" alt="" /><figcaption>Prefix functions1</figcaption>
+</figure>
 </section><section id="piemērs-nr.2" class="slide level2">
 <h2><lo-sample/> Piemērs Nr.2</h2>
-<p><strong>Uzdevums:</strong> Atrast prefiksu funkciju, kas atbilst meklējamajam paraugam <span class="math inline">\(P = \mathtt{abab}\)</span>.</p>
+<p><strong>Uzdevums:</strong> Atrast prefiksu funkciju, kas atbilst meklējamajam paraugam <span class="math inline">\(P = \mathtt{aabaab}\)</span>.</p>
+<p><strong>Risinājums ar sabīdīšanu:</strong></p>
+<figure>
+<img data-src="prefix-functions2.png" alt="" /><figcaption>Prefix functions2</figcaption>
+</figure>
+</section><section id="piemērs-nr.3" class="slide level2">
+<h2><lo-sample/> Piemērs Nr.3</h2>
+<p><strong>Uzdevums:</strong> Atrast prefiksu funkciju, kas atbilst meklējamajam paraugam <span class="math inline">\(P = \mathtt{ababaca}\)</span>.</p>
 </section><section id="pij-sniegtā-informācija" class="slide level2">
 <h2><lo-summary/> pi(j) sniegtā informācija</h2>
 <div style="font-size:70%">
@@ -750,7 +761,6 @@ Lietišķie algoritmi
     </div>
   </div>
 
-  <script src="../../reveal.js/lib/js/head.min.js"></script>
   <script src="../../reveal.js/js/reveal.js"></script>
 
   <script>
