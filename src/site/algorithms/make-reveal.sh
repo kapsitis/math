@@ -9,7 +9,7 @@ else
     convert $file -trim +repage $file
   done
 
-  source resize-string-searching-part1.sh
+  source resize-string-searching-part2.sh
 
   cd $1
   pandoc -t revealjs -s -o content.html content.md --slide-level=2 \
