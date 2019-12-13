@@ -2630,7 +2630,7 @@ NMS Juniori 2019-09-28</h1>
 
 
 
-# <lo-sample/> NT.JUN01.MD1
+# <lo-sample/> NT.JUN03.MD1
 
 Dota kopa $S = \{ 105,106,\ldots,210 \}$. Noteikt mazāko 
 naturālo $n$ vērtību, ka, izvēloties jebkuru $n$ skaitļu 
