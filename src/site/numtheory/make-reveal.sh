@@ -9,7 +9,7 @@ else
     convert $file -trim +repage $file
   done
 
-  source resize-numtheory-jun01-divisibility.sh
+  source resize-numtheory-jun03-crt.sh
 
   cd $1
   pandoc -t revealjs -s -o content.html content.md --slide-level=2 \
