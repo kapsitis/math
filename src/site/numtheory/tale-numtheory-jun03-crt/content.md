@@ -714,6 +714,51 @@ NMS Juniori 2019-12-14</h1>
 <span>(11) [Kopsavilkums](#section-10)</span>
 
 
+# <lo-sample/> NT.JUN02.MD1
+
+Pierādīt, ka jebkuram naturālam skaitlim $n$, ir $n$ pēc kārtas sekojoši 
+naturāli skaitļi, ka jebkurm no tiem ir dalītājs, kas ir pilns kvadrāts, kas lielāks par $1$. 
+
+
+
+
+# <lo-sample/> NT.JUN02.MD2
+
+Katram naturālam skaitlim $n$, ir $n$ pēc kārtas sekojoši naturāli skaitļi, no kuriem neviens
+nav *potents skaitlis*.  
+*Piezīme:* Par *potentu* saucam naturālu skaitli $n$, ka jebkuram pirmskaitlim $p$: ja $n$ dalās 
+ar $p$, tad $n$ dalās arī ar $p^2$. Sk. [Powerful number](https://en.wikipedia.org/wiki/Powerful\%5Fnumber).
+
+
+# <lo-sample/> NT.JUN02.MD3
+
+Dotajam naturālam skaitlim $n$, ar $f(n)$ apzīmējam mazāko naturālo skaitli, ka 
+${\displaystyle \sum\limits_{k=1}^{f(n)} k}$ dalās ar $n$. 
+Pierādīt, ka $f(n) = 2n-1$ tad un tikai tad, ja $n$ ir skaitļa $2$ pakāpe.
+
+
+# <lo-sample/> NT.JUN02.MD4
+
+Ar $n$ un $k$ apzīmējam veselus skaitļus, ka $n>0$ un skaitlis $k(n-1)$ ir pāra skaitlis. 
+Pierādīt, ka eksistē skaitļi $x$ un $y$, ka $\text{gcd}(x,n) = \text{gcd}(y,n) = 1$ un 
+$x + y \equiv k\;(\text{mod}\,n)$. 
+
+
+# <lo-sample/> NT.JUN02.MD5
+
+Dots naturāls skaitlis $x$. Pierādīt, ka ir $n$ pēc kārtas sekojoši naturāli skaitļi, 
+no kuriem neviens nav pirmskaitļa pakāpe. 
+
+
+
+# <lo-sample/> NT.JUN02.MD6
+
+Ar $m, n$ apzīmēti naturāli skaitļi, kas apmierina šādu īpašību:
+$$\text{gcd}(11k-1,m) = \text{gcd}(11k-1,n)$$
+ir spēkā visiem naturāliem skaitļiem $k$. Pierādīt, ka $m = 11^r \cdot n$ kādam veselam skaitlim $r$. 
+
+
+
 
 
 
@@ -727,7 +772,6 @@ NMS Juniori 2019-12-14</h1>
 
 <blue>3.nodaļa: Ķīniešu atlikumu teorēma</blue>
 
-</hgroup><hgroup style="font-size:70%">
 
 <span>(1) [Ievads](#section)</span>  
 <span>(2) [Bezū identitāte kā vienādojums](#section-1)</span>  
@@ -744,7 +788,7 @@ NMS Juniori 2019-12-14</h1>
 
 # <lo-summary/> Ko apguvām šajā nodarbībā
 
-* Lietojām ķīniešu atlikumu teorēmu, lai formalizētu
-mūsu intuīciju.
+* Lietojām ķīniešu atlikumu teorēmu piemēru konstruēšanai
+* Lietojām ķīniešu atlikumu teorēmu reducēšanai uz pirmskaitļu pakāpēm
 
 
