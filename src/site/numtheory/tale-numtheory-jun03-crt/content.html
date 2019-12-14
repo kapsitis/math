@@ -188,12 +188,33 @@ Skaitļu teorija:<br/> NMS Juniori 2019-12-14
 <li>Kā atrisināt lineāru kongruenču sistēmu.<br />
 (Ķīniešu atlikumu teorēma.)</li>
 </ul></section>
-<section><section id="blankinšipa-algoritms" class="title-slide slide level1"><h1><lo-summary/> Blankinšipa algoritms</h1><p>Sk. <a href="http://mathworld.wolfram.com/BlankinshipAlgorithm.html">Blankinship Algorithm</a></p>
-<p><strong>Uzdevums:</strong> Doti veseli <span class="math inline">\(a,b\)</span>, kam <span class="math inline">\(\text{LKD}(a,b) = d\)</span>.<br />
+<section><section id="lineāra-kongruence" class="title-slide slide level1"><h1><lo-theory/> Lineāra kongruence</h1><p><strong>Uzdevums:</strong> Doti veseli <span class="math inline">\(a,b\)</span>, kam <span class="math inline">\(\text{LKD}(a,b) = d\)</span>.<br />
 Atrast algoritmisku metodi, kā atrast veselu skaitļu atrisinājumu <span class="math inline">\(x,y\)</span> vienādojumam <span class="math inline">\(ax + by = d\)</span>.</p>
 <p><strong>Ekvivalents uzdevums:</strong> Atrisināt šādu kongruenču vienādojumu: <span class="math inline">\(ax \equiv d\;(\text{mod}\,b)\)</span>, kur <span class="math inline">\(a,b\)</span> ir veseli skaitļi un <span class="math inline">\(d = \text{LKD}(a,b)\)</span>.<br />
-(Līdzīgu vienādojumu var atrisināt arī, ja <span class="math inline">\(d\)</span> vietā ieliktu kādu <span class="math inline">\(d\)</span> daudzkārtni - var attiecīgu skaitu reižu palielināt sakni <span class="math inline">\(x\)</span>.)</p></section><section id="blankinšipa-algoritms-1" class="slide level2">
-<h2><lo-summary/> Blankinšipa algoritms</h2>
+(Līdzīgu vienādojumu var atrisināt arī, ja <span class="math inline">\(d\)</span> vietā ieliktu kādu <span class="math inline">\(d\)</span> daudzkārtni - var attiecīgu skaitu reižu palielināt sakni <span class="math inline">\(x\)</span>.)</p></section><section id="lineāra-kongruence-1" class="slide level2">
+<h2><lo-theory/> Lineāra kongruence</h2>
+<p>Kāpēc lineārai kongruencei <span class="math inline">\(ax \equiv d\;(\text{mod}\,b)\)</span> (kur <span class="math inline">\(a,b\)</span> ir veseli skaitļi un <span class="math inline">\(d = \text{LKD}(a,b)\)</span>) eksistē atrisinājums?</p>
+<p><strong>Pierādījums:</strong> Tās ir sekas no Bezū identitātes. Ja jau <span class="math inline">\(ax+by=d\)</span>, tad <span class="math inline">\(ax - d\)</span> dalās ar <span class="math inline">\(b\)</span> (tātad <span class="math inline">\(ax\)</span> un <span class="math inline">\(d\)</span> ir kongruenti pēc <span class="math inline">\(b\)</span> moduļa).</p>
+</section><section id="atsevišķs-gadījums" class="slide level2">
+<h2><lo-theory/> Atsevišķs gadījums</h2>
+<p><strong>Apgalvojums:</strong> Pieņemsim, ka <span class="math inline">\(a\)</span> un <span class="math inline">\(b\)</span> ir savstarpēji pirmskaitļi. Tad eksistē atrisinājums kongruenču vienādojumam <span class="math display">\[ax \equiv 1\;(\text{mod}\,b).\]</span> Tā atrisinājumu <span class="math inline">\(x\)</span> apzīmēsim ar <span class="math inline">\(a^{-1}\)</span> (to sauc par <span class="math inline">\(a\)</span> inverso pēc <span class="math inline">\(b\)</span> moduļa).</p>
+<p><strong>Pierādījums:</strong> Var izmantot Bezū identitāti, bet var arī vienkārši atsaukties uz to, ka skaitļu (<span class="math inline">\(x \in 0,\ldots,b-1\)</span>) reizināšana ar <span class="math inline">\(a\)</span> (pēc <span class="math inline">\(b\)</span> moduļa) ir injektīva. Nekādi divi <span class="math inline">\(ax_1\)</span> un <span class="math inline">\(ax_2\)</span> nevar attēloties par to pašu atlikumu.<br />
+<strong>Tātad</strong> kāds no tiem attēlosies par atlikumu <span class="math inline">\(1\)</span>.</p>
+</section><section id="inversie-pēc-16-moduļa" class="slide level2">
+<h2><lo-sample/> Inversie pēc 16 moduļa</h2>
+<p>Atrast inversos elementus, ja <span class="math inline">\(b=16\)</span>. T.i. atrisināt visas iespējamās kongruences <span class="math inline">\(ax \equiv 1\)</span> (pēc <span class="math inline">\(16\)</span> moduļa).</p>
+<p><span class="math display">\[\begin{array}
+1^{-1} \equiv ?\\
+3^{-1} \equiv ?\\
+5^{-1} \equiv ?\\
+7^{-1} \equiv ?\\
+9^{-1} \equiv ?\\
+11^{-1} \equiv ?\\
+13^{-1} \equiv ?\\
+15^{-1} \equiv ?
+\end{array}\]</span></p>
+</section></section>
+<section id="blankinšipa-algoritms" class="title-slide slide level1"><h1><lo-summary/> Blankinšipa algoritms</h1><p>Sk. <a href="http://mathworld.wolfram.com/BlankinshipAlgorithm.html">Blankinship Algorithm</a></p>
 <p>Izveidojam šādu <blue><em>matricu</em></blue> (taisnstūrveida tabuliņu ar skaitļiem): <span class="math display">\[A = \left(
 \begin{array}{ccc}
 a &amp; 1 &amp; 0 \\
@@ -208,8 +229,7 @@ d &amp; x &amp; y \\
 \begin{array}{ccc}
 0 &amp; x&#39; &amp; y&#39; \\
 d &amp; x &amp; y
-\end{array} \right)\]</span></p>
-</section></section>
+\end{array} \right)\]</span></p></section>
 <section id="section-3" class="title-slide slide level1"><h1> </h1><hgroup>
 <h1 style="font-size:32pt">
 Skaitļu teorija:<br/> NMS Juniori 2019-12-14
@@ -267,6 +287,45 @@ Skaitļu teorija:<br/> NMS Juniori 2019-12-14
 <figure>
 <img data-src="sequences.png" alt="Sequences" /><figcaption>Sequences</figcaption>
 </figure>
+<p>Būtu <span class="math inline">\(17\)</span> pēc kārtas sekojoši naturāli skaitļi, kas visi ir pirmskaitļi.</p>
+</section></section>
+<section><section id="ķīniešu-atlikumu-teorēma" class="title-slide slide level1"><h1><lo-theory/> Ķīniešu atlikumu teorēma</h1><p><strong>Teorēma:</strong> Ja <span class="math inline">\(m_1,m_2,\ldots,m_k\)</span> ir pa pāriem savstarpēji pirmskaitļi, bet <span class="math inline">\(a_1,a_2,\ldots,a_k\)</span> ir jebkādi veseli skaitļi, tad eksistē vesels atrisinājums <span class="math inline">\(x \in \mathbb{Z}\)</span> šādai kongruenču sistēmai <span class="math display">\[\left\{ \begin{array}{l}
+x \equiv a_1\;(\text{mod}\,m_1)\\
+x \equiv a_2\;(\text{mod}\,m_2)\\
+\vdots\\
+x \equiv a_k\;(\text{mod}\,m_k)
+\end{array} \right.\]</span> Turklāt visi šīs sistēmas atrisinājumi ir kongruenti pēc moduļa <span class="math inline">\(M = m_1\cdot m_2 \cdot \ldots \cdot m_k\)</span>.</p></section><section id="piemērs" class="slide level2">
+<h2><lo-theory/> Piemērs</h2>
+<hgroup>
+<figure>
+<img data-src="crt-example.png" alt="CRT Example" /><figcaption>CRT Example</figcaption>
+</figure>
+</hgroup>
+<hgroup>
+<p><span class="math display">\[\left\{ \begin{array}{l}
+x \equiv 1\;(\text{mod}\,3)\\
+x \equiv 2\;(\text{mod}\,5)\\
+x \equiv 3\;(\text{mod}\,7)
+\end{array} \right.\]</span></p>
+<p>ir ekvivalents ar vienu kongruenci:</p>
+<p><span class="math display">\[x \equiv 52\;(\text{mod}\,105)\]</span></p>
+</hgroup>
+</section><section id="pierādījums-atrisinājuma-unikalitāte" class="slide level2">
+<h2><lo-theory/> Pierādījums (atrisinājuma unikalitāte)</h2>
+<p><strong>Pierādījums:</strong> Ja <span class="math inline">\(x_1\)</span> un <span class="math inline">\(x_2\)</span> ir divi atrisinājumi, tad to starpība <span class="math inline">\(x_1 - x_2\)</span> dalās ar <span class="math inline">\(m_1,\ldots,m_k\)</span>.<br />
+Un tā kā visi <span class="math inline">\(m_i\)</span> ir savstarpēji pirmskaitļi, tad <span class="math inline">\(x_1 - x_2\)</span> dalās arī ar <span class="math inline">\(M\)</span>.</p>
+<p>Tātad, atrisinājums, ja tāds vispār eksistē, ir viens vienīgs (ar precizitāti līdz <span class="math inline">\(M\)</span> daudzkārtņa pieskaitīšanai).</p>
+</section><section id="pierādījums-atrisinājuma-eksistence" class="slide level2">
+<h2><lo-theory/> Pierādījums (atrisinājuma eksistence)</h2>
+<p><strong>Pierādījums:</strong> Katru skaitli <span class="math inline">\(n\)</span> no <span class="math inline">\(0\)</span> līdz <span class="math inline">\(M-1\)</span> dalām ar visiem skaitļiem <span class="math inline">\(m_1,\ldots,m_k\)</span>. Iegūstam sarakstiņu ar k skaitļiem <span class="math inline">\((n_1,n_2,\ldots,n_k)\)</span>.</p>
+<p>Nupat (atrisinājuma unikalitāte) redzējām, ka attēlojums <span class="math inline">\(n \rightarrow (n_1,n_2,\ldots,n_k)\)</span> ir <em>injektīvs</em> (nav iespējams, ka divām dažādām <span class="math inline">\(n\)</span> vērtībām atbilst vienādi sarakstiņi).<br />
+Bet tā kā iespējamo sarakstiņu ir <span class="math inline">\(m_1 \times \ldots \times m_k = M\)</span>, tad to ir tikpat cik <span class="math inline">\(n\)</span> vērtību. Tas nozīmē, ka ikviens sarakstiņš ir iegūstams. Ja kāds nebūtu iegūstams, tad katrai <span class="math inline">\(n\)</span> vērtībai nepietiktu sarakstiņa (Dirihlē princips).</p>
+</section><section id="par-ķīniešu-atlikumu-teorēmu" class="slide level2">
+<h2><lo-theory/> Par ķīniešu atlikumu teorēmu</h2>
+<blockquote>
+<p>The Chinese Remainder Theorem is a “theorem” only in that it is useful and requires proof. When you ask a capable 15-year-old why an arithmetic progression with common difference 7 must contain multiples of 3, they will often say exactly the right thing.<br />
+(Dominic Yeo, “Eventually Almost Everywhere”.)</p>
+</blockquote>
 </section></section>
 <section id="section-4" class="title-slide slide level1"><h1> </h1><hgroup>
 <h1 style="font-size:32pt">
@@ -304,17 +363,22 @@ Skaitļu teorija:<br/> NMS Juniori 2019-12-14
 <span>(9) <a href="#/section-8">Tipisks piemērs</a></span><br />
 <span>(10) <a href="#/section-9">Mājasdarba uzdevumi</a></span><br />
 <span>(11) <a href="#/section-10">Kopsavilkums</a></span></p></section>
-<section id="usamo.2008.1" class="title-slide slide level1"><h1><lo-sample> USAMO.2008.1</h1><p>Pierādīt, ka jebkuram naturālam <span class="math inline">\(n\)</span>, eksistē <span class="math inline">\(n+1\)</span> savstarpēji pirmskaitļi <span class="math inline">\(k_0,k_1,\ldots,k_n\)</span>, kas visi lielāki par <span class="math inline">\(1\)</span>, kuriem <span class="math inline">\(k_0 \cdot k_1 \cdot \ldots \cdot k_n - 1\)</span> ir divu pēc kārtas sekojošu naturālu skaitļu reizinājums.</p></section>
-<section id="usamo.2008.1-1" class="title-slide slide level1"><h1><lo-hint/> USAMO.2008.1</h1><hgroup>
+<section id="konstruēšanas-uzdevumi" class="title-slide slide level1"><h1><lo-theory/> Konstruēšanas uzdevumi</h1><p><strong>Stratēģija:</strong> Lai pamatotu, ka eksistē skaitļi ar noteikta veida neparastu īpašību, sadalām šo īpašību daudzās lineārās kongruencēs (pēc moduļiem, kuri ir savstarpēji pirmskaitļi) un risinām šo sistēmu.</p></section>
+<section><section id="usamo.2008.1" class="title-slide slide level1"><h1><lo-sample> USAMO.2008.1</h1><p>Pierādīt, ka jebkuram naturālam <span class="math inline">\(n\)</span>, eksistē <span class="math inline">\(n+1\)</span> savstarpēji pirmskaitļi <span class="math inline">\(k_0,k_1,\ldots,k_n\)</span>, kas visi lielāki par <span class="math inline">\(1\)</span>, kuriem <span class="math inline">\(k_0 \cdot k_1 \cdot \ldots \cdot k_n - 1\)</span> ir divu pēc kārtas sekojošu naturālu skaitļu reizinājums.</p></section><section id="usamo.2008.1-1" class="slide level2">
+<h2><lo-hints/> USAMO.2008.1</h2>
+<hgroup>
 <p>Pierādīt, ka jebkuram naturālam <span class="math inline">\(n\)</span>, eksistē <span class="math inline">\(n+1\)</span> savstarpēji pirmskaitļi <span class="math inline">\(k_0,k_1,\ldots,k_n\)</span>, kas visi lielāki par <span class="math inline">\(1\)</span>, kuriem <span class="math inline">\(k_0 \cdot k_1 \cdot \ldots \cdot k_n - 1\)</span> ir divu pēc kārtas sekojošu naturālu skaitļu reizinājums.</p>
 </hgroup>
 <hgroup>
 <blockquote>
 <p>Izsakām ekvivalentu apgalvojumu, sākot no teikuma beigām. Mērķis: samazināt “kustīgo gabalu” skaitu.</p>
 </blockquote>
-</hgroup></section>
-<section id="usamo.2008.1-2" class="title-slide slide level1"><h1><lo-hint/> USAMO.2008.1</h1><p><strong>Lemma 1:</strong> Ja <span class="math inline">\(t_i^2 + t_i+ 1\)</span> dalās ar pirmskaitli <span class="math inline">\(p_i\)</span> (<span class="math inline">\(i = 0,\ldots,n\)</span>), tad eksistēs arī tāds <span class="math inline">\(t^{\ast}\)</span>, kuram <span class="math inline">\((t^{\ast})^2 + t^{\ast} + 1\)</span> dalās ar visu šo pirmskaitļu reizinājumu?</p>
-<p><strong>Lemma 2:</strong> Vai eksistē bezgalīgi daudz pirmskaitļu <span class="math inline">\(p_i\)</span>, kuriem var atrisināt <span class="math inline">\(t^2 + t + 1 \equiv 0\)</span> pēc <span class="math inline">\(p_i\)</span> moduļa? (T.i. polinoma <span class="math inline">\(P(t) = t^2 + t + 1\)</span> vērtība kaut kādam <span class="math inline">\(t\)</span> dalās ar <span class="math inline">\(p_i\)</span>)?</p></section>
+</hgroup>
+</section><section id="usamo.2008.1-2" class="slide level2">
+<h2><lo-hints/> USAMO.2008.1</h2>
+<p><strong>Lemma 1:</strong> Ja <span class="math inline">\(t_i^2 + t_i+ 1\)</span> dalās ar pirmskaitli <span class="math inline">\(p_i\)</span> (<span class="math inline">\(i = 0,\ldots,n\)</span>), tad eksistēs arī tāds <span class="math inline">\(t^{\ast}\)</span>, kuram <span class="math inline">\((t^{\ast})^2 + t^{\ast} + 1\)</span> dalās ar visu šo pirmskaitļu reizinājumu?</p>
+<p><strong>Lemma 2:</strong> Vai eksistē bezgalīgi daudz pirmskaitļu <span class="math inline">\(p_i\)</span>, kuriem var atrisināt <span class="math inline">\(t^2 + t + 1 \equiv 0\)</span> pēc <span class="math inline">\(p_i\)</span> moduļa? (T.i. polinoma <span class="math inline">\(P(t) = t^2 + t + 1\)</span> vērtība kaut kādam <span class="math inline">\(t\)</span> dalās ar <span class="math inline">\(p_i\)</span>)?</p>
+</section></section>
 <section id="section-6" class="title-slide slide level1"><h1> </h1><hgroup>
 <h1 style="font-size:32pt">
 Skaitļu teorija:<br/> NMS Juniori 2019-12-14
@@ -333,6 +397,10 @@ Skaitļu teorija:<br/> NMS Juniori 2019-12-14
 <span>(9) <a href="#/section-8">Tipisks piemērs</a></span><br />
 <span>(10) <a href="#/section-9">Mājasdarba uzdevumi</a></span><br />
 <span>(11) <a href="#/section-10">Kopsavilkums</a></span></p></section>
+<section><section id="piemērs-ar-destrukciju" class="title-slide slide level1"><h1><lo-sample/> Piemērs ar “destrukciju”</h1><p><strong>Uzdevums:</strong> Pierādīt, ka jebkuram naturālam <span class="math inline">\(n\)</span>, eksistē veseli skaitļi <span class="math inline">\(a\)</span> un <span class="math inline">\(b\)</span>, kuriem <span class="math inline">\(4a^2 + 9b^2 - 1\)</span> dalās ar <span class="math inline">\(n\)</span>.</p></section><section id="piemērs-ar-destrukciju-1" class="slide level2">
+<h2><lo-hints/> Piemērs ar “destrukciju”</h2>
+<p><em>Slinkums aplūkot visas iespējamās <span class="math inline">\(n\)</span> vērtības. Mērķis - izmantot Ķīniešu atlikumu teorēmu, lai iespējami samazinātu aplūkojamo <span class="math inline">\(n\)</span> vērtību kopumu.</em></p>
+</section></section>
 <section id="section-7" class="title-slide slide level1"><h1> </h1><hgroup>
 <h1 style="font-size:32pt">
 Skaitļu teorija:<br/> NMS Juniori 2019-12-14
@@ -351,6 +419,7 @@ Skaitļu teorija:<br/> NMS Juniori 2019-12-14
 <span>(9) <a href="#/section-8">Tipisks piemērs</a></span><br />
 <span>(10) <a href="#/section-9">Mājasdarba uzdevumi</a></span><br />
 <span>(11) <a href="#/section-10">Kopsavilkums</a></span></p></section>
+<section id="fibonači-skaitļu-virknes-atlikumi" class="title-slide slide level1"><h1><lo-sample/> Fibonači skaitļu virknes atlikumi</h1><p><strong>Jautājums:</strong> Vai eksistē bezgalīgi daudzi Fibonači skaitļi, kuri dalās ar <span class="math inline">\(2019\)</span>?</p></section>
 <section id="section-8" class="title-slide slide level1"><h1> </h1><hgroup>
 <h1 style="font-size:32pt">
 Skaitļu teorija:<br/> NMS Juniori 2019-12-14
@@ -368,7 +437,9 @@ Skaitļu teorija:<br/> NMS Juniori 2019-12-14
 <span>(8) <a href="#/section-7">Fibonači virknes atlikumu periodi</a></span><br />
 <span style="color:darkgreen"><strong>(9) Tipisks piemērs</strong></span><br />
 <span>(10) <a href="#/section-9">Mājasdarba uzdevumi</a></span><br />
-<span>(11) <a href="#/section-10">Kopsavilkums</a></span></p></section>
+<span>(11) <a href="#/section-10">Kopsavilkums</a></span></p>
+<!-- andreescu-andrica-problems-on-number-theory.pdf, p52 --></section>
+<section id="piemērs-1" class="title-slide slide level1"><h1><lo-sample> Piemērs</h1><p>Sauksim režģa punktu <span class="math inline">\(X\)</span> rūtiņu plaknē par <em>redzamu</em> no koordinātu sākumpunkta <span class="math inline">\(O\)</span>, ja nogrieznis <span class="math inline">\(OX\)</span> nesatur citus režģa punktus, izņemot <span class="math inline">\(O\)</span> un <span class="math inline">\(X\)</span>. Pierādīt, ka jebkuram naturālam <span class="math inline">\(n\)</span> eksistē kvadrāts ar <span class="math inline">\(n^2\)</span> režģa punktiem (kur kvadrāta malas ir paralēlas koordinātu asīm), ka neviens no kvadrātā ietilpstošajiem režģa punktiem nav redzams no koordinātu sākumpunkta.</p></section>
 <section id="section-9" class="title-slide slide level1"><h1> </h1><hgroup>
 <h1 style="font-size:32pt">
 Skaitļu teorija:<br/> NMS Juniori 2019-12-14
@@ -386,7 +457,15 @@ Skaitļu teorija:<br/> NMS Juniori 2019-12-14
 <span>(8) <a href="#/section-7">Fibonači virknes atlikumu periodi</a></span><br />
 <span>(9) <a href="#/section-8">Tipisks piemērs</a></span><br />
 <span style="color:darkgreen"><strong>(10) Mājasdarba uzdevumi</strong></span><br />
-<span>(11) <a href="#/section-10">Kopsavilkums</a></span></p></section>
+<span>(11) <a href="#/section-10">Kopsavilkums</a></span></p>
+</hgroup></section>
+<section id="nt.jun02.md1" class="title-slide slide level1"><h1><lo-sample/> NT.JUN02.MD1</h1><p>Pierādīt, ka jebkuram naturālam skaitlim <span class="math inline">\(n\)</span>, ir <span class="math inline">\(n\)</span> pēc kārtas sekojoši naturāli skaitļi, ka jebkurm no tiem ir dalītājs, kas ir pilns kvadrāts, kas lielāks par <span class="math inline">\(1\)</span>.</p></section>
+<section id="nt.jun02.md2" class="title-slide slide level1"><h1><lo-sample/> NT.JUN02.MD2</h1><p>Katram naturālam skaitlim <span class="math inline">\(n\)</span>, ir <span class="math inline">\(n\)</span> pēc kārtas sekojoši naturāli skaitļi, no kuriem neviens nav <em>potents skaitlis</em>.<br />
+<em>Piezīme:</em> Par <em>potentu</em> saucam naturālu skaitli <span class="math inline">\(n\)</span>, ka jebkuram pirmskaitlim <span class="math inline">\(p\)</span>: ja <span class="math inline">\(n\)</span> dalās ar <span class="math inline">\(p\)</span>, tad <span class="math inline">\(n\)</span> dalās arī ar <span class="math inline">\(p^2\)</span>. Sk. <a href="https://en.wikipedia.org/wiki/Powerful%5Fnumber">Powerful number</a>.</p></section>
+<section id="nt.jun02.md3" class="title-slide slide level1"><h1><lo-sample/> NT.JUN02.MD3</h1><p>Dotajam naturālam skaitlim <span class="math inline">\(n\)</span>, ar <span class="math inline">\(f(n)\)</span> apzīmējam mazāko naturālo skaitli, ka <span class="math inline">\({\displaystyle \sum\limits_{k=1}^{f(n)} k}\)</span> dalās ar <span class="math inline">\(n\)</span>. Pierādīt, ka <span class="math inline">\(f(n) = 2n-1\)</span> tad un tikai tad, ja <span class="math inline">\(n\)</span> ir skaitļa <span class="math inline">\(2\)</span> pakāpe.</p></section>
+<section id="nt.jun02.md4" class="title-slide slide level1"><h1><lo-sample/> NT.JUN02.MD4</h1><p>Ar <span class="math inline">\(n\)</span> un <span class="math inline">\(k\)</span> apzīmējam veselus skaitļus, ka <span class="math inline">\(n&gt;0\)</span> un skaitlis <span class="math inline">\(k(n-1)\)</span> ir pāra skaitlis. Pierādīt, ka eksistē skaitļi <span class="math inline">\(x\)</span> un <span class="math inline">\(y\)</span>, ka <span class="math inline">\(\text{LKD}(x,n) = \text{LKD}(y,n) = 1\)</span> un <span class="math inline">\(x + y \equiv k\;(\text{mod}\,n)\)</span>.</p></section>
+<section id="nt.jun02.md5" class="title-slide slide level1"><h1><lo-sample/> NT.JUN02.MD5</h1><p>Dots naturāls skaitlis <span class="math inline">\(x\)</span>. Pierādīt, ka ir <span class="math inline">\(n\)</span> pēc kārtas sekojoši naturāli skaitļi, no kuriem neviens nav pirmskaitļa pakāpe.</p></section>
+<section id="nt.jun02.md6" class="title-slide slide level1"><h1><lo-sample/> NT.JUN02.MD6</h1><p>Ar <span class="math inline">\(m, n\)</span> apzīmēti naturāli skaitļi, kas apmierina šādu īpašību: <span class="math display">\[\text{LKD}(11k-1,m) = \text{LKD}(11k-1,n)\]</span> ir spēkā visiem naturāliem skaitļiem <span class="math inline">\(k\)</span>. Pierādīt, ka <span class="math inline">\(m = 11^r \cdot n\)</span> kādam veselam skaitlim <span class="math inline">\(r\)</span>.</p></section>
 <section id="section-10" class="title-slide slide level1"><h1> </h1><hgroup>
 <h1 style="font-size:32pt">
 Skaitļu teorija:<br/> NMS Juniori 2019-12-14
@@ -404,7 +483,12 @@ Skaitļu teorija:<br/> NMS Juniori 2019-12-14
 <span>(8) <a href="#/section-7">Fibonači virknes atlikumu periodi</a></span><br />
 <span>(9) <a href="#/section-8">Tipisks piemērs</a></span><br />
 <span>(10) <a href="#/section-9">Mājasdarba uzdevumi</a></span><br />
-<span style="color:darkgreen"><strong>(11) Kopsavilkums</strong></span></p></section>
+<span style="color:darkgreen"><strong>(11) Kopsavilkums</strong></span></p>
+</hgroup></section>
+<section id="ko-apguvām-šajā-nodarbībā" class="title-slide slide level1"><h1><lo-summary/> Ko apguvām šajā nodarbībā</h1><ul>
+<li>Lietojām ķīniešu atlikumu teorēmu piemēru konstruēšanai</li>
+<li>Lietojām ķīniešu atlikumu teorēmu reducēšanai uz pirmskaitļu pakāpēm</li>
+</ul></section>
     </div>
   </div>
 

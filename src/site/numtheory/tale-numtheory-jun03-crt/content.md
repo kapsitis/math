@@ -257,7 +257,7 @@ divi $ax_1$ un $ax_2$ nevar attēloties par to pašu atlikumu.
 **Tātad** kāds no tiem attēlosies par atlikumu $1$.
 
 
-# <lo-sample/> Inversie pēc 16 moduļa
+## <lo-sample/> Inversie pēc 16 moduļa
 
 Atrast inversos elementus, ja $b=16$. T.i. atrisināt visas
 iespējamās kongruences $ax \equiv 1$ (pēc $16$ moduļa).
@@ -274,7 +274,7 @@ $$\begin{array}
 \end{array}$$
 
 
-## <lo-summary/> Blankinšipa algoritms
+# <lo-summary/> Blankinšipa algoritms
 
 Sk. [Blankinship Algorithm](http://mathworld.wolfram.com/BlankinshipAlgorithm.html)
 
@@ -431,7 +431,7 @@ pēc moduļa $M = m_1\cdot m_2 \cdot \ldots \cdot m_k$.
 
 <hgroup>
 
-[CRT Example](crt-example.png)
+![CRT Example](crt-example.png)
 
 </hgroup>
 <hgroup>
@@ -462,7 +462,20 @@ Tātad, atrisinājums, ja tāds vispār eksistē, ir viens vienīgs
 (ar precizitāti līdz $M$ daudzkārtņa pieskaitīšanai).
 
 
+## <lo-theory/> Pierādījums (atrisinājuma eksistence)
 
+**Pierādījums:** Katru skaitli $n$ no $0$ līdz $M-1$ dalām 
+ar visiem skaitļiem $m_1,\ldots,m_k$. Iegūstam 
+sarakstiņu ar k skaitļiem $(n_1,n_2,\ldots,n_k)$. 
+
+Nupat (atrisinājuma unikalitāte) redzējām, ka 
+attēlojums $n \rightarrow (n_1,n_2,\ldots,n_k)$ ir 
+*injektīvs* (nav iespējams, ka divām dažādām 
+$n$ vērtībām atbilst vienādi sarakstiņi).  
+Bet tā kā iespējamo sarakstiņu ir $m_1 \times \ldots \times m_k = M$, 
+tad to ir tikpat cik $n$ vērtību. Tas nozīmē, ka
+ikviens sarakstiņš ir iegūstams. Ja kāds nebūtu iegūstams, 
+tad katrai $n$ vērtībai nepietiktu sarakstiņa (Dirihlē princips).
 
 
 
@@ -552,7 +565,7 @@ savstarpēji pirmskaitļi $k_0,k_1,\ldots,k_n$, kas visi lielāki par $1$, kurie
 $k_0 \cdot k_1 \cdot \ldots \cdot k_n - 1$
 ir divu pēc kārtas sekojošu naturālu skaitļu reizinājums.
 
-# <lo-hint/> USAMO.2008.1
+## <lo-hints/> USAMO.2008.1
 
 <hgroup>
 
@@ -570,7 +583,7 @@ ir divu pēc kārtas sekojošu naturālu skaitļu reizinājums.
 </hgroup>
 
 
-# <lo-hint/> USAMO.2008.1
+## <lo-hints/> USAMO.2008.1
 
 **Lemma 1:** Ja $t_i^2 + t_i+ 1$ dalās ar pirmskaitli $p_i$ ($i = 0,\ldots,n$), 
 tad eksistēs arī tāds $t^{\ast}$, kuram $(t^{\ast})^2 + t^{\ast} + 1$ dalās
@@ -608,6 +621,18 @@ NMS Juniori 2019-12-14</h1>
 <span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
 <span>(11) [Kopsavilkums](#section-10)</span>
 
+
+# <lo-sample/> Piemērs ar "destrukciju"
+
+**Uzdevums:** Pierādīt, ka jebkuram naturālam $n$, eksistē veseli skaitļi $a$ un $b$, kuriem 
+$4a^2 + 9b^2 - 1$ dalās ar $n$. 
+
+
+## <lo-hints/> Piemērs ar "destrukciju"
+
+*Slinkums aplūkot visas iespējamās $n$ vērtības.
+Mērķis - izmantot Ķīniešu atlikumu teorēmu, lai iespējami samazinātu 
+aplūkojamo $n$ vērtību kopumu.*
 
 
 
@@ -673,17 +698,17 @@ NMS Juniori 2019-12-14</h1>
 
 
 
-# <lo-sample/> Piemērs ar "destrukciju"
+<!-- andreescu-andrica-problems-on-number-theory.pdf, p52 -->
 
-**Uzdevums:** Pierādīt, ka jebkuram naturālam $n$, eksistē veseli skaitļi $a$ un $b$, kuriem 
-$4a^2 + 9b^2 - 1$ dalās ar $n$. 
+# <lo-sample> Piemērs
 
-
-# <lo-hint/> Piemērs ar "destrukciju"
-
-*Slinkums aplūkot visas iespējamās $n$ vērtības.
-Mērķis - izmantot Ķīniešu atlikumu teorēmu, lai iespējami samazinātu 
-aplūkojamo $n$ vērtību kopumu.*
+Sauksim režģa punktu $X$ rūtiņu plaknē par *redzamu* no 
+koordinātu sākumpunkta $O$, ja nogrieznis $OX$ nesatur 
+citus režģa punktus, izņemot $O$ un $X$. 
+Pierādīt, ka jebkuram naturālam $n$ eksistē 
+kvadrāts ar $n^2$ režģa punktiem (kur kvadrāta malas ir 
+paralēlas koordinātu asīm), ka neviens no kvadrātā ietilpstošajiem 
+režģa punktiem nav redzams no koordinātu sākumpunkta.
 
 
 
@@ -713,6 +738,8 @@ NMS Juniori 2019-12-14</h1>
 <span style="color:darkgreen">**(10) Mājasdarba uzdevumi**</span>  
 <span>(11) [Kopsavilkums](#section-10)</span>
 
+</hgroup>
+
 
 # <lo-sample/> NT.JUN02.MD1
 
@@ -740,7 +767,7 @@ Pierādīt, ka $f(n) = 2n-1$ tad un tikai tad, ja $n$ ir skaitļa $2$ pakāpe.
 # <lo-sample/> NT.JUN02.MD4
 
 Ar $n$ un $k$ apzīmējam veselus skaitļus, ka $n>0$ un skaitlis $k(n-1)$ ir pāra skaitlis. 
-Pierādīt, ka eksistē skaitļi $x$ un $y$, ka $\text{gcd}(x,n) = \text{gcd}(y,n) = 1$ un 
+Pierādīt, ka eksistē skaitļi $x$ un $y$, ka $\text{LKD}(x,n) = \text{LKD}(y,n) = 1$ un 
 $x + y \equiv k\;(\text{mod}\,n)$. 
 
 
@@ -754,7 +781,7 @@ no kuriem neviens nav pirmskaitļa pakāpe.
 # <lo-sample/> NT.JUN02.MD6
 
 Ar $m, n$ apzīmēti naturāli skaitļi, kas apmierina šādu īpašību:
-$$\text{gcd}(11k-1,m) = \text{gcd}(11k-1,n)$$
+$$\text{LKD}(11k-1,m) = \text{LKD}(11k-1,n)$$
 ir spēkā visiem naturāliem skaitļiem $k$. Pierādīt, ka $m = 11^r \cdot n$ kādam veselam skaitlim $r$. 
 
 
@@ -772,6 +799,7 @@ NMS Juniori 2019-12-14</h1>
 
 <blue>3.nodaļa: Ķīniešu atlikumu teorēma</blue>
 
+</hgroup><hgroup style="font-size:70%">
 
 <span>(1) [Ievads](#section)</span>  
 <span>(2) [Bezū identitāte kā vienādojums](#section-1)</span>  
@@ -785,6 +813,7 @@ NMS Juniori 2019-12-14</h1>
 <span>(10) [Mājasdarba uzdevumi](#section-9)</span>  
 <span style="color:darkgreen">**(11) Kopsavilkums**</span>
 
+</hgroup>
 
 # <lo-summary/> Ko apguvām šajā nodarbībā
 
