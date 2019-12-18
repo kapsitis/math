@@ -195,7 +195,7 @@ Ja $x$ nav sastopams vārdā, tad $\lambda[x]=-1$.
 Piemēram, ja $P=\mathtt{abcab}$, tad tabula izskatās šādi:
 
 <table>
-<tr><th>$x$</th><td>$\mathtt{a}$</td><td>$\mathtt{a}$</td><td>$\mathtt{a}$</td><td>$\mathtt{*}$</td></tr>
+<tr><th>$x$</th><td>$\mathtt{a}$</td><td>$\mathtt{b}$</td><td>$\mathtt{c}$</td><td>$\mathtt{*}$</td></tr>
 <tr><th>$\lambda(x)$</th><td>$3$</td><td>$4$</td><td>$2$</td><td>$-1$</td></tr>
 </table>
 
@@ -397,6 +397,69 @@ pārvietojamies $3$ simbolus uz priekšu un mēģinām vēl.
 
 
 </hgroup>
+
+
+# Sliktā simbola tabulas piemērs
+
+<!--
+Misleading video :)
+https://www.youtube.com/watch?v=G-h1Dph9IOE
+-->
+
+
+
+
+
+
+
+<!-- 
+Video par Bojera Mūra algoritmu
+https://www.youtube.com/watch?v=4Xyhb72LCX4 
+-->
+
+
+# <lo-sample/> Labā sufiksa tabulas piemērs
+
+Aplūkosim paraugu $P = \mathtt{CTTACTTAC}$. 
+
+
+
+
+# <lo-sample/> Sastopama, bet nevēlama "optimizācija"
+
+Praktiskai apakšvirkņu meklēšanai lielajā vairumā gadījumu pietiktu 
+ar sliktā simbola tabulu vienu pašu. Varētu rakstīt šādu pseidokodu:
+
+<table class="pseudocode">
+<td>8</td>
+<td class="ind1"><b>if</b> $j=0$ <b>then</b></td>
+</tr>
+<tr>
+<td>9</td>
+<td class="ind2">print <tt style="font-family:'Courier New'">"Paraugs parādās ar nobīdi"</tt> $s$</td>
+</tr>
+<tr>
+<td>10</td>
+<td class="ind2">$s = s+ \gamma[0]$</td>
+</tr>
+<tr>
+<td>11</td>
+<td class="ind1"><b>else</b> $s = s + \max(\color{#F00}{1}, j-1-\lambda[T[s+j-1]])$</td>
+</tr>
+</table>
+
+Tai vietā, lai rakstītu "labā sufiksa likumu" $\gamma[j]$, ievietojam vērtību $1$
+(pabīdamies pa $1$ vienību, ja sliktā simbola tabula dod negatīvu nobīdi). 
+
+Dots $T = \mathtt{BBBBBBBBBB...BBB}$, meklējamais
+paraugs ir $T = \mathtt{ABBBB}$. 
+
+
+
+
+
+
+
 
 
 
