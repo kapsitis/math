@@ -39,3 +39,8 @@ src/site/source_material
 !src/site/exam/themes/ddgatve/base.html
 !src/site/tale/themes/ddgatve/base.html
 !src/site/index.html
+src/site/discrete/static/coq/*.glob
+src/site/discrete/static/coq/*.v#
+src/site/discrete/static/coq/*.vo
+
+
