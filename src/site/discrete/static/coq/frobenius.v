@@ -1,4 +1,5 @@
 (* Kaut kaads pieraadiijums *)
+(*
 Theorem frobenius (A: Set) (p: A -> Prop) (q : Prop) :
   (exists x: A, q /\ p x) <-> (q /\ exists x: A, p x).
 Proof.
@@ -16,8 +17,7 @@ Proof.
   assumption.
   assumption.
 Qed.
-
-(*  *)
+*)
 
 
 Lemma example2 : forall a b:Prop, a /\ b -> b /\ a.
@@ -29,7 +29,12 @@ Proof.
   destruct H as [H1 H2].
   assumption.
 Qed.
-
+(*
+  assumption.
+  destruct H as [H1 H2].
+  assumption.
+Qed.
+*)
 
 (*
 Inductive nat : Set :=

@@ -46,7 +46,10 @@ Proof.
 Qed.
 *)
 
-
-Lemma imp_trans : forall P Q R: Prop, (P->Q)->(Q->R)->P->R.
+(*
+Lemma imp_trans : forall P Q R: Prop, ((P->Q)->(Q->R))-> (P->R).
 Proof.
-  intros H.
+  intros.
+*)
+
+Lemma imp_trans : (P->Q)->(Q->R)->P->R.
