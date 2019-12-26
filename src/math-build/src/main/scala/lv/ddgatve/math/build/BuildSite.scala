@@ -4,7 +4,7 @@ import java.io.File
 import org.apache.commons.io.FileUtils
 import org.apache.commons.io.filefilter.TrueFileFilter
 
-import scala.collection.JavaConversions._
+//import scala.collection.JavaConversions._
 import scala.collection.mutable.ListBuffer
 
 import sys.process._
@@ -52,7 +52,7 @@ object BuildSite {
               "-o", "content.html", "content.md", "--slide-level=2",
               "-V", "revealjs-url=../../reveal.js", "--metadata", "pagetitle=\"Uzdevumi\"",
               "--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
-              "-V", "theme=white"), dd).!
+              "-V", "theme=white"), dd)
             println(s"Processing with pandoc/reveal, dir=$dd, status=$out")
             copyDirectory(dd.getAbsolutePath, destRoot + "/" + resType + "-tales/" + dd.getName)
           }
