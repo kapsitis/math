@@ -7,12 +7,14 @@
 **/__pycache__
 *.aux
 *.bak
+*.bcf
 *.bbl
 *.blg
 *.dvi
 *.log
 *.out
 *.pyc
+*.run.xml
 */.Rhistory
 **/.Rhistory
 */.RData

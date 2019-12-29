@@ -1,0 +1,41 @@
+DIGEST 24f12f4afde11595b22aa3f82e8d3f04
+Flab01_tasks
+R899:902 Coq.Bool.Bool <> <> lib
+R920:923 Coq.Lists.List <> <> lib
+def 991:997 <> fun_1_1
+R1002:1005 Coq.Init.Datatypes <> bool ind
+R1011:1014 Coq.Init.Datatypes <> bool ind
+R1020:1023 Coq.Init.Datatypes <> bool ind
+R1028:1031 Coq.Init.Datatypes <> bool ind
+R1038:1042 Coq.Init.Datatypes <> implb def
+R1073:1076 Coq.Init.Datatypes <> negb def
+R1079:1082 Coq.Init.Datatypes <> negb def
+R1084:1084 lab01_tasks <> r var
+R1046:1049 Coq.Init.Datatypes <> :bool_scope:x_'||'_x not
+R1045:1045 lab01_tasks <> p var
+R1050:1053 Coq.Init.Datatypes <> negb def
+R1057:1061 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R1068:1068 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R1056:1056 lab01_tasks <> q var
+R1062:1065 Coq.Init.Datatypes <> negb def
+R1067:1067 lab01_tasks <> p var
+def 1266:1279 <> truthTable_1_1
+R1291:1292 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1287:1290 Coq.Init.Datatypes <> true constr
+R1298:1299 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1293:1297 Coq.Init.Datatypes <> false constr
+R1305:1306 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1300:1304 Coq.Init.Datatypes <> false constr
+R1312:1313 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1307:1311 Coq.Init.Datatypes <> false constr
+R1319:1320 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1314:1318 Coq.Init.Datatypes <> false constr
+R1326:1327 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1321:1325 Coq.Init.Datatypes <> false constr
+R1333:1334 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1328:1332 Coq.Init.Datatypes <> false constr
+R1340:1341 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1335:1339 Coq.Init.Datatypes <> false constr
+R1342:1344 Coq.Init.Datatypes <> nil constr
+R1445:1449 Coq.Arith.Arith <> <> lib
+R1461:1461 Coq.Init.Peano <> :nat_scope:x_'+'_x not

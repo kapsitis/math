@@ -41,6 +41,17 @@ def compileTale(root,subdir,destdir,title):
 	'-V','theme=white'], cwd=workingDir)
 
 
+def build_coq(srcDir,destDir):
+    #vList = ['mybaby.v', 'classical-logic.v']
+    v_files = os.listdir(srcDir)
+    rmDirectory(destDir)
+    os.mkdir(destDir)
+    for vff in v_files:
+        if vff.endswith('.v'):
+            print('Build Coq {}/{} inside {}'.format(srcDir,vff,destDir))
+            subprocess.call(['coq2html','-d',destDir, vff], cwd=srcDir)
+
+
 def build_static(SRC,DEST):
     rmDirectory(DEST)
     os.mkdir(DEST)
@@ -76,13 +87,16 @@ def build_static(SRC,DEST):
 
 def main(): 
 #    sync_all.main()
-    resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs'] #, 'discrete', 'datasearch']
-    skip_directories = ['source-material','static','analysis']
+    resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs', 'discrete'] 
+# ..., 'datasearch']
+    skip_directories = ['source-material','static','analysis','coq-propositional']
 
     if os.name=='nt':
         DEST_ROOT = '../../workspace/linen-tracer-682'
+        DEST_ABSOLUTE = DEST_ROOT
     else:
         DEST_ROOT = '../../workspace-new/linen-tracer-682'
+        DEST_ABSOLUTE = '/home/kalvis/workspace-new/linen-tracer-682'
 
     for resType in resTypes:
         rmDirectory('%s/%s-tales' % (DEST_ROOT,resType))
@@ -109,6 +123,7 @@ def main():
     build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
     build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
     build_static('src/site/discrete/static', '%s/discrete-bin' % DEST_ROOT)
+    build_coq('src/site/discrete/coq-propositional', '%s/discrete-bin/coq-propositional' % DEST_ABSOLUTE)
 #    build_static('src/site/datasearch/static', '%s/datasearch-bin' % DEST_ROOT)
     build_static('src/site/problembase/static/collections', '%s/problembase-bin/collections' % DEST_ROOT)
 

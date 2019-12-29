@@ -349,6 +349,11 @@ and also to find out what is true.
 
 
 
+
+
+
+
+
 # &nbsp;
 
 <hgroup>
@@ -402,7 +407,8 @@ inspiration for the current course.
 5. [Notes on Logic Operations](http://flint.cs.yale.edu/cs430/lectureNotes/terse/Logic.html)
 6. [Coq in Group Theory](https://people.debian.org/~schepler/coqtut.v.html)
 7. [Using CoqIDE](https://youtu.be/z861PoZPGqk)
-
+8. [Why do we care about Coq?](https://www.openaccessgovernment.org/the-coq-proof-assistant/69396/)
+9. [Coq packages](http://coq.io/opam/)
 
 ::: notes
 
