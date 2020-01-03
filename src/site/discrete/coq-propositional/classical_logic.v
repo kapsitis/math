@@ -10,6 +10,14 @@ do not use the Law of Excluded Middle
 (#<i>lv:trešā izslēgtā likumu</i>#, #<i>la:Tertium non datur</i>#).
 *)
 
+(*
+Require Import Logic.
+Require Import  ClassicalFacts.
+Require Import Classical_Prop.
+*)
+
+
+
 Lemma sample1: forall A, ~ ~ A /\ ~ A -> A.
 Proof.
   unfold not.

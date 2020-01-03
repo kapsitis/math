@@ -123,7 +123,12 @@ def main():
     build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
     build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
     build_static('src/site/discrete/static', '%s/discrete-bin' % DEST_ROOT)
+    build_coq('src/site/discrete/coq-basics', '%s/discrete-bin/coq-basics' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete/coq-inductive', '%s/discrete-bin/coq-inductive' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete/coq-numbertheory', '%s/discrete-bin/coq-numbertheory' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete/coq-predicates', '%s/discrete-bin/coq-predicates' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-propositional', '%s/discrete-bin/coq-propositional' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete/coq-sets', '%s/discrete-bin/coq-sets' % DEST_ABSOLUTE)
 #    build_static('src/site/datasearch/static', '%s/datasearch-bin' % DEST_ROOT)
     build_static('src/site/problembase/static/collections', '%s/problembase-bin/collections' % DEST_ROOT)
 

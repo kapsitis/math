@@ -60,8 +60,8 @@ Theorem who_is_mybaby: (forall x: HUM, L(x,MyBaby)) /\
   (forall y: HUM, ~(y=Me) -> ~(L(MyBaby,y))) -> MyBaby=Me.
 Proof. 
   intros [ItemA ItemB].  (* Both song facts: ItemA and ItemB. *)
-  assert (MyBaby <> Me -> ~L(MyBaby,MyBaby)).  (*r Let us prove that MyBaby does not love itself. *)
-  apply ItemB with (y := MyBaby).  (*r substitute in (B): y=MyBaby. *)
+  assert (MyBaby <> Me -> ~L(MyBaby,MyBaby)).  (* Let us prove that MyBaby does not love itself. *)
+  apply ItemB with (y := MyBaby).  (* substitute in (B): y=MyBaby. *)
   assert (L(MyBaby,MyBaby)).  (* On the other hand MyBaby does love itself. *)
   apply ItemA with (x := MyBaby).
   clear ItemA ItemB.  (* Song facts no longer needed. *)
