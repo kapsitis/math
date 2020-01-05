@@ -89,7 +89,9 @@ def main():
 #    sync_all.main()
     resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs', 'discrete'] 
 # ..., 'datasearch']
-    skip_directories = ['source-material','static','analysis','coq-propositional']
+    skip_directories = ['source-material','static','analysis',
+'coq-basics', 'coq-inductive', 'coq-numbertheory', 'coq-predicates', 'coq-propositional', 'coq-sets']
+
 
     if os.name=='nt':
         DEST_ROOT = '../../workspace/linen-tracer-682'

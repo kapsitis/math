@@ -1,14 +1,11 @@
-(** #<a href="../../discrete/assignments.html">Back to Discrete Assignments</a># 
+(** #<a href="../../discrete/assignments.html">Back to Discrete Assignments</a>#  *)
 
-Some skills regarding Boolean expressions
-are better checked interactively.
-#<ul><li>Translate from English into propositional logic.</li>#
-#<li>Draw abstract and concrete syntax trees.</li>#
-#<li>Convert real problems into Boolean logic; check satisfiability.</li></ul>#
-The exercises below are the steps that make sense to check with Coq.
-*) 
+(** * Lab01: Proving Propositional Statements in Coq *)
 
-(** DO NOT MODIFY THIS COMMENT: EXERCISE 1.1 *)
+(** #<b>Description:</b># We expect to have 5 Coq-related 
+exercises and 2 Scala programming exercises. This 
+
+(* DO NOT MODIFY THIS COMMENT: EXERCISE 1.1 *)
 
 (** #<h2>Exercise 1.1</h2># 
 #<tt>fun1_1</tt># is defined below. It is a 
