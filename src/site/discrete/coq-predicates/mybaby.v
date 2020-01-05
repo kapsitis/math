@@ -51,6 +51,15 @@ Parameter MyBaby : HUM.
 #<tt>x</tt># loves #<tt>y</tt>#. *)
 Parameter L : HUM*HUM -> Prop. 
 
+Require Import Coq.Logic.Decidable.
+Print contrapositive.
+
+
+Lemma mytrivial: forall 
+
+
+
+
 (** We prove that #<tt>MyBaby</tt># and #<tt>Me</tt># 
 are equal. 
 To see the proof, click on the link #<b>Proof.</b># 
@@ -62,7 +71,7 @@ Proof.
   intros [ItemA ItemB].  (* Both song facts: ItemA and ItemB. *)
   assert (MyBaby <> Me -> ~L(MyBaby,MyBaby)).  (* Let us prove that MyBaby does not love itself. *)
   apply ItemB with (y := MyBaby).  (* substitute in (B): y=MyBaby. *)
-  assert (L(MyBaby,MyBaby)).  (* On the other hand MyBaby does love itself. *)
+  assert (L(MyBaby,MyBaby)).  (* On the other hand MyBaby should love itself. *)
   apply ItemA with (x := MyBaby).
   clear ItemA ItemB.  (* Song facts no longer needed. *)
   elim (contrapos (L(MyBaby,MyBaby)) (MyBaby = Me)).
