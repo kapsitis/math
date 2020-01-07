@@ -2,80 +2,72 @@
 
 (** * Lab01: Proving Propositional Statements in Coq *)
 
-(** #<b>Description:</b># We expect to have 5 Coq-related 
-exercises and 2 Scala programming exercises. This 
+(** In all the exercises replace #<b>Admitted.</b># 
+with a proof. Enclose it between #<b>Proof.</b># and #<b>Qed.</b># 
+#<b>Note:</b> If you can prove them without assuming extra axioms 
+(such as "classic") such proofs would preferable, but
+you can import and use any statements you need.
 
-(* DO NOT MODIFY THIS COMMENT: EXERCISE 1.1 *)
-
-(** #<h2>Exercise 1.1</h2># 
-#<tt>fun1_1</tt># is defined below. It is a 
-function with 3 "bool" arguments. It is equal to 
-this expression: 
-#<br/>#
-#<tt>(p \/ ~ (q /\ ~r)) -> (~~r)</tt>#
-#<br/>#
-Assume that the Boolean variables (p,q,r) take all 8 possible 
-value combinations: (true,true,true), (true,true,false), ...,
-(false,false,false). Compute the truth table and assign it
-to a list variable 
-*) 
-
-Require Import Bool.
-Require Import List.
-
-(** This definition is fine, no need to edit this *)
-Definition fun_1_1 (p:bool) (q:bool) (r:bool) : bool :=
-  implb (p || negb (q && (negb p))) (negb (negb r)).
-
-(** The truth table is probably wrong. Make sure that you 
-write the actual 8 values. The first value in the list should 
-be "fun_1_1 true true true" and so on. *)
-
-Definition truthTable_1_1 := 
-  true::false::false::false::false::false::false::false::nil.
-
-
-(** DO NOT MODIFY THIS COMMENT - LABEL 1.2 *)
-
-(** #<h2>Exercise 1.2</h2># 
-
+Some of the tautologies mentioned in the examples are in 
+the Rosen2019 textbook, at the end of Subsection 1.3. 
 *)
 
-Require Import Arith.
+(** ** Do not modify this line: sample1_1 *)
+
+Lemma sample1_1: forall a b: Prop, 
+
+(** ** Do not modify this line: sample1_2 *)
+
+Lemma sample1_2: forall a b c: Prop
 
 
-Check 2+2.
 
 
-(*
-Lemma sample1: forall p:Prop, p -> p.
-Proof.
-  intros p.
-  intros pTrue.
-  exact pTrue.
-Qed.
-
-Lemma sample2: forall p:Prop, False -> p.
-Proof.
-  intros p.
-  intros FF.
-  contradict FF.
-Qed.
-
-Show Script.
-*)
 
 
-(*
-More things to check with Coq.
 
-Check types in Coq, including atomic types, tuples, function types.
-Use and build truth tables for Boolean operators.
-Use precedence and associativity to parse Boolean expressions.
-Fill in truth tables.
-Check, if a Boolean expression is a tautology.
-Check, if a Boolean expression is satisfiable.
-Find equivalent Boolean expressions.
-Rewrite expressions as CNF (conjunctive normal form).
-*)
+
+
+~(~a /\ a)
+~~(~~a -> a)
+~~~a -> ~a
+a -> (b -> a).
+a /\ b -> a.
+~b -> (b -> c)
+a -> (a \/ b).
+~a -> (a -> b)
+a -> (~a -> b)
+(~a -> a) -> a
+(~b -> ~a) -> (a -> b)
+(a -> b) -> (~b -> ~a)
+a -> (~b -> ~(a -> b))
+((a -> b) -> a) -> a
+a -> (b -> (a /\ b)).
+~b -> (~c -> ~(b \/ c))
+~(a /\ b) -> (b -> ~a)
+(~b -> ~a) -> ((~b -> a) -> b)
+(a -> b) -> ((~a -> b) -> b)
+(a -> b) -> ((a -> ~b) -> ~a)
+(~b -> a) -> ((b -> a) -> a)
+(a -> (b -> c)) -> ((a -> b) -> (a -> c)).
+(a -> (b -> c)) <-> ((a /\ b) -> c)
+(a -> c) -> ((b -> c) -> ((a \/ b) -> c)).
+(a -> b) -> ((c -> a) -> (c -> b))
+a \/ (b \/ c) -> ((b \/ (a \/ c)) \/ a)
+(a -> (b -> c)) -> (b -> (a -> c))
+(c -> a) -> ((a -> b) -> (c -> b)).
+((a /\ b) -> c) -> (a -> (b -> c))
+
+ 
+
+
+
+
+(** DO NOT MODIFY THIS: LABEL 1.2 *)
+
+
+
+
+~~a -> a
+
 
