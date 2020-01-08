@@ -1,0 +1,204 @@
+%%
+%% This is file `./samples/shortsample.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% apa6.dtx  (with options: `shortsample')
+%% ----------------------------------------------------------------------
+%% 
+%% apa6 - A LaTeX class for formatting documents in compliance with the
+%% American Psychological Association's Publication Manual, 6th edition
+%% 
+%% Copyright (C) 2011-2017 by Brian D. Beitzel <brian at beitzel.com>
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License (LPPL), either
+%% version 1.3c of this license or (at your option) any later
+%% version.  The latest version of this license is in the file:
+%% 
+%% http://www.latex-project.org/lppl.txt
+%% 
+%% Users may freely modify these files without permission, as long as the
+%% copyright line and this statement are maintained intact.
+%% 
+%% This work is not endorsed by, affiliated with, or probably even known
+%% by, the American Psychological Association.
+%% 
+%% ----------------------------------------------------------------------
+%% 
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+
+
+\title{Discrete Structures (W1): Sample Quiz}
+\author{Kalvis}
+\affiliation{RBS}
+
+\leftheader{Discrete Structures (W1)}
+
+\abstract{
+These are sample questions \textendash{} they are similar, but not identical 
+to the actual quiz planned for January 9, 2020. 
+The actual quiz will have 7 questions and is planned for 15 minutes; 
+it will accout for 7 \textperthousand of your total grade.
+% 7*8 + 11*4
+}
+
+\keywords{\LaTeX, APA style, Coq, Boolean expressions}
+
+\begin{document}
+\maketitle
+
+{\bf Question 1.} Fill in the missing entries in the truth table of this proposition:
+$$\neg(r \rightarrow \neg q) \vee (p \wedge \neg r).$$
+
+TODO
+
+{\bf Question 2.} Find the Boolean expression that has the truth table given below:
+
+\begin{tabular}{ c | c | c }
+$p$ & $q$ & ? \\ \hline
+{\tt T} & {\tt T} & {\tt F} \\ \hline
+{\tt T} & {\tt F} & {\tt T} \\ \hline
+{\tt F} & {\tt T} & {\tt T} \\ \hline
+{\tt F} & {\tt F} & {\tt F} \\ \hline
+\end{tabular}
+
+{\em (Select 1 answer):}
+(You can use only conjunctions and negations to build answers.)
+
+
+
+Find, which is equivalent to the given proposition. 
+Determine whether the following two propositions are logically equivalent: p → (¬q ∧ r), ¬p ∨ ¬(r → q).
+
+
+
+Not eating vegetables is sufficient for not getting ice cream. 
+
+
+
+
+
+Translate the given statement into propositional logic using the propositions provided: On certain highways
+in the Washington, DC metro area you are allowed to travel on high occupancy lanes during rush hour only
+if there are at least three passengers in the vehicle. Express your answer in terms of r:“You are traveling
+during rush hour.” t:“You are riding in a car with at least three passengers.” and h:“You can travel on a high
+occupancy lane.”
+
+
+
+
+On the island of knights and knaves you encounter two people, A and B. Person A says “B is a knave.”
+Person B says “At least one of us is a knight.” Determine whether each person is a knight or a knave.
+Exercises 51–53 relate to inhabitants of an island on which there are three kinds of people: knights who always
+tell the truth, knaves who always lie, and spies who can either tell the truth or lie. You encounter three people,
+A, B, and C. You know one of the three people is a knight, one is a knave, and one is a spy. Each of the three
+people knows the type of person each of the other two is. For each of these situations, if possible, determine
+whether there is a unique solution, list all possible solutions or state that there are no solutions.
+51. A says “I am not a knight,” B says “I am not a spy,” and C says “I am not a knave.”
+52. A says “I am a spy,” B says “I am a spy” and C says “B is a spy.”
+53. A says “I am a knight,” B says “I am a knave,” and C says “I am not a knave.”
+
+
+
+Determine whether the compound propositions in 58–59 are satisfiable.
+58. (¬p ∨ ¬q) ∧ (p → q)
+
+
+
+
+\end{document}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% End of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% 
+%% Copyright (C) 2011-2017 by Brian D. Beitzel <brian at beitzel.com>
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License (LPPL), either
+%% version 1.3c of this license or (at your option) any later
+%% version.  The latest version of this license is in the file:
+%% 
+%% http://www.latex-project.org/lppl.txt
+%% 
+%% Users may freely modify these files without permission, as long as the
+%% copyright line and this statement are maintained intact.
+%% 
+%% This work is not endorsed by, affiliated with, or probably even known
+%% by, the American Psychological Association.
+%% 
+%% 
+%% This work is "maintained" (as per LPPL maintenance status) by
+%% Brian D. Beitzel.
+%% 
+%% This work consists of the file  apa6.dtx
+%% and the derived files           apa6.ins,
+%%                                 apa6.cls,
+%%                                 apa6.pdf,
+%%                                 README,
+%%                                 APAamerican.txt,
+%%                                 APAbritish.txt,
+%%                                 APAdutch.txt,
+%%                                 APAenglish.txt,
+%%                                 APAgerman.txt,
+%%                                 APAngerman.txt,
+%%                                 APAgreek.txt,
+%%                                 APAczech.txt,
+%%                                 APAturkish.txt,
+%%                                 APAendfloat.cfg,
+%%                                 apa6.ptex,
+%%                                 TeX2WordForapa6.bas,
+%%                                 Figure1.pdf,
+%%                                 shortsample.tex,
+%%                                 longsample.tex, and
+%%                                 bibliography.bib.
+%% 
+%%
+%% End of file `./samples/shortsample.tex'.
