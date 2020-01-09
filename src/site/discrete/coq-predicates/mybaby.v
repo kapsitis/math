@@ -55,9 +55,8 @@ Require Import Coq.Logic.Decidable.
 Print contrapositive.
 
 
-Lemma mytrivial: forall 
 
-
+Axiom contrapos : forall p q: Prop, (p -> q) <-> (~q -> ~p).
 
 
 (** We prove that #<tt>MyBaby</tt># and #<tt>Me</tt># 

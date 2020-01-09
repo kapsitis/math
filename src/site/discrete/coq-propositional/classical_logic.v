@@ -66,6 +66,12 @@ no agrāk iegūtā #<tt>sample2</tt>#, kurš bija
 intuicionisma piemērs.
 *) 
 
+Print classic.
+Check classic.
+
+
+
+
 Lemma sample4: forall p: Prop, ~~p -> p. 
 Proof.
   intros p. (*r 1nd part: ~~p -> p *)
