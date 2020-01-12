@@ -1,0 +1,53 @@
+DIGEST e43538aacde6b3f3b0a153cfa668e989
+Fexample_drinker_theorem
+sec 1466:1478 <> drinker_lemma
+var 1778:1778 drinker_lemma D
+var 1796:1796 drinker_lemma P
+R1801:1804 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1800:1800 example_drinker_theorem <> drinker_lemma.D var
+var 1821:1821 drinker_lemma d
+R1824:1824 example_drinker_theorem <> drinker_lemma.D var
+ax 1834:1847 <> ExcludedMiddle
+R1866:1869 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1865:1865 example_drinker_theorem <> A var
+R1870:1871 Coq.Init.Logic <> :type_scope:'~'_x not
+R1872:1872 example_drinker_theorem <> A var
+prf 1882:1888 <> drinker
+R1891:1897 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1901:1902 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1900:1900 example_drinker_theorem <> drinker_lemma.D var
+R1906:1909 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1919:1919 example_drinker_theorem <> drinker_lemma.D var
+R1922:1922 example_drinker_theorem <> drinker_lemma.P var
+R1924:1924 example_drinker_theorem <> x var
+R1903:1903 example_drinker_theorem <> drinker_lemma.P var
+R1905:1905 example_drinker_theorem <> x var
+R1942:1955 example_drinker_theorem <> ExcludedMiddle prfax
+R1958:1964 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1966:1967 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1968:1969 Coq.Init.Logic <> :type_scope:'~'_x not
+R1970:1970 example_drinker_theorem <> drinker_lemma.P var
+R1972:1972 example_drinker_theorem <> x var
+R1942:1955 example_drinker_theorem <> ExcludedMiddle prfax
+R1958:1964 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1966:1967 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1968:1969 Coq.Init.Logic <> :type_scope:'~'_x not
+R1970:1970 example_drinker_theorem <> drinker_lemma.P var
+R1972:1972 example_drinker_theorem <> x var
+R2097:2097 example_drinker_theorem <> drinker_lemma.d var
+R2097:2097 example_drinker_theorem <> drinker_lemma.d var
+R2139:2152 example_drinker_theorem <> ExcludedMiddle prfax
+R2155:2155 example_drinker_theorem <> drinker_lemma.P var
+R2139:2152 example_drinker_theorem <> ExcludedMiddle prfax
+R2155:2155 example_drinker_theorem <> drinker_lemma.P var
+R2214:2220 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2222:2223 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2224:2225 Coq.Init.Logic <> :type_scope:'~'_x not
+R2226:2226 example_drinker_theorem <> drinker_lemma.P var
+R2228:2228 example_drinker_theorem <> x var
+R2214:2220 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2222:2223 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2224:2225 Coq.Init.Logic <> :type_scope:'~'_x not
+R2226:2226 example_drinker_theorem <> drinker_lemma.P var
+R2228:2228 example_drinker_theorem <> x var
+R2308:2320 example_drinker_theorem drinker_lemma <> sec

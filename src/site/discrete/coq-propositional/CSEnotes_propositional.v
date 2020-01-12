@@ -1,7 +1,8 @@
 (** #<a href="../../discrete/assignments.html">Back to Discrete Assignments</a># *)
 
-(** Proving Propositional Tautologies
+(** * Proving Propositional Tautologies *) 
 
+(**
 Date: 2020-01-02. Tested with Coq version 8.8.1.
 ------------------------
 The following examples are based on the 
@@ -10,7 +11,7 @@ from SUNY Buffalo
 #<a href="https://cse.buffalo.edu/~knepley/classes/cse191/Syllabus.html">CSE 191 "Discrete Structures"</a>#, Pages 12-20. This document adds different comments to these Coq examples.
 *)
 
-(** * Introduction *)
+(** ** Introduction *)
 (** #<b>Definition:</b># Boolean expressions 
 that always take value #<tt>True</tt>#
 regardless of the truth values of 
@@ -22,6 +23,7 @@ and many others).
 They can be used to substitute all kinds of subexpressions 
 in order to get results that are always true. 
 *)
+
 (** #<b>Naive Algorithm:</b># Check, if a Boolean Expression 
 is a tautology by computing its truth table.
 If the truth table always shows value "true", then it is a tautology.
@@ -39,11 +41,6 @@ symbolic manipulation of languages.
 
 (** ** Proving tautologies in Coq *)
 
-(**
-
-TBD
-
-*)
 
 Variables P Q R S : Prop.
 
@@ -152,6 +149,12 @@ Qed.
 
 (** This is small and trivial example shows that you can 
 combine conjunctions and disjunctions.
+It tells that whenever "#<tt>p</tt># AND #<tt>q</tt>#" are both true, then 
+"#<tt>p</tt># OR #<tt>r</tt>#" is also true, since we can use hypothesis #<tt>pTrue</tt>#
+stating that #<tt>p</tt># is true regardless of what is #<tt>r</tt>#.
+In order to do that we first destruct the original hypothesis (into 
+two hypotheses #<tt>pTrue</tt># and #<tt>qTrue</tt>#)
+and then take just the left part of #<tt>p \/ r</tt>#. 
 *)
 
 Lemma prob3a : forall p q r: Prop, (p /\ q) -> (p \/ r).

@@ -1,0 +1,76 @@
+DIGEST 0d8f896b6a6ccac468201b17ee09149a
+Fexample_lions_coffee
+sec 1271:1282 <> lions_coffee
+var 1558:1560 lions_coffee CRE
+var 1578:1583 lions_coffee isLion
+var 1585:1592 lions_coffee isFierce
+var 1594:1605 lions_coffee drinksCoffee
+R1611:1614 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1608:1610 example_lions_coffee <> lions_coffee.CRE var
+var 1682:1686 lions_coffee itemA
+R1698:1700 example_lions_coffee <> lions_coffee.CRE var
+R1712:1715 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1716:1723 example_lions_coffee <> lions_coffee.isFierce var
+R1725:1725 example_lions_coffee <> x var
+R1703:1708 example_lions_coffee <> lions_coffee.isLion var
+R1710:1710 example_lions_coffee <> x var
+var 1740:1744 lions_coffee itemB
+R1747:1753 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1759:1760 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1756:1758 example_lions_coffee <> lions_coffee.CRE var
+R1770:1773 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1761:1766 example_lions_coffee <> lions_coffee.isLion var
+R1768:1768 example_lions_coffee <> x var
+R1774:1774 Coq.Init.Logic <> :type_scope:'~'_x not
+R1775:1786 example_lions_coffee <> lions_coffee.drinksCoffee var
+R1788:1788 example_lions_coffee <> x var
+prf 1848:1853 <> carrol
+R1856:1862 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1868:1869 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1865:1867 example_lions_coffee <> lions_coffee.CRE var
+R1881:1884 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1870:1877 example_lions_coffee <> lions_coffee.isFierce var
+R1879:1879 example_lions_coffee <> x var
+R1885:1885 Coq.Init.Logic <> :type_scope:'~'_x not
+R1886:1897 example_lions_coffee <> lions_coffee.drinksCoffee var
+R1899:1899 example_lions_coffee <> x var
+R1921:1925 example_lions_coffee <> lions_coffee.itemB var
+R2001:2005 example_lions_coffee <> lions_coffee.itemA var
+R2001:2005 example_lions_coffee <> lions_coffee.itemA var
+R2042:2053 example_lions_coffee lions_coffee <> sec
+var 2400:2402 <> CRE
+var 2420:2425 <> isLion
+var 2427:2434 <> isFierce
+var 2436:2447 <> drinksCoffee
+R2453:2456 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2450:2452 example_lions_coffee <> CRE defax
+prf 2470:2479 <> lion_lemma
+R2482:2482 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2521:2529 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2530:2530 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2574:2583 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2629:2629 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2584:2590 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2596:2597 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2593:2595 example_lions_coffee <> CRE defax
+R2609:2612 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2598:2605 example_lions_coffee <> isFierce defax
+R2607:2607 example_lions_coffee <> x var
+R2613:2613 Coq.Init.Logic <> :type_scope:'~'_x not
+R2614:2625 example_lions_coffee <> drinksCoffee defax
+R2627:2627 example_lions_coffee <> x var
+R2531:2537 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2543:2544 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2540:2542 example_lions_coffee <> CRE defax
+R2554:2557 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2545:2550 example_lions_coffee <> isLion defax
+R2552:2552 example_lions_coffee <> x var
+R2558:2558 Coq.Init.Logic <> :type_scope:'~'_x not
+R2559:2570 example_lions_coffee <> drinksCoffee defax
+R2572:2572 example_lions_coffee <> x var
+R2492:2494 example_lions_coffee <> CRE defax
+R2506:2509 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2510:2517 example_lions_coffee <> isFierce defax
+R2519:2519 example_lions_coffee <> x var
+R2497:2502 example_lions_coffee <> isLion defax
+R2504:2504 example_lions_coffee <> x var

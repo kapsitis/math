@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="coqdoc.css" rel="stylesheet" type="text/css" />
+<title>example_mybaby</title>
+</head>
+
+<body>
+
+<div id="page">
+
+<div id="header">
+</div>
+
+<div id="main">
+
+<h1 class="libtitle">Library example_mybaby</h1>
+
+<div class="code">
+</div>
+
+<div class="doc">
+<a href="../../discrete/assignments.html">Back to Discrete Assignments</a> 
+<div class="paragraph"> </div>
+
+<a name="lab1"></a><h1 class="section">MyBaby: Jazz Song Analyzed</h1>
+
+<div class="paragraph"> </div>
+
+<a name="lab2"></a><h2 class="section">Human-oriented proof</h2>
+
+<div class="paragraph"> </div>
+
+ Let us consider a song written in 1924 that later became  
+one of the <i>standard songs</i>, sung by multiple jazz artists 
+at different times.
+<a href="https://en.wikipedia.org/wiki/Everybody_Loves_My_Baby">Everybody Loves My Baby (But My Baby Don't Love Nobody But Me)</a>;
+music by <i>Spencer Williams</i>, lyric by
+<i>Jack Palmer</i>
+
+<div class="paragraph"> </div>
+
+ <iframe width="560" height="315"
+src="https://www.youtube.com/embed/U2BtteA0k8o" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+
+<div class="paragraph"> </div>
+
+
+<div class="paragraph"> </div>
+
+The example was taken from this logic textbook:
+<a href="https://learning.oreilly.com/library/view/logic-as-a/9781118880005/c04.xhtml">Logic 
+as a Tool by Valentin Goranko, 2016.</a>
+
+<div class="paragraph"> </div>
+
+The lyrics of this song mentions 
+humans <tt>MyBaby</tt> and <tt>Me</tt> satisfying hypotheses:
+<dl>
+<dt>ItemA</dt>
+<dd>Every human loves <tt>MyBaby</tt></dd>
+<dt>ItemB</dt>
+<dd>On the other hand <tt>MyBaby</tt> does not love anyonee except <tt>Me</tt></dd> 
+</dl>
+
+<div class="paragraph"> </div>
+
+If <tt>L(x,y)</tt> is the predicate to denote that 
+x loves y, then for every human <tt>x</tt>: <tt>L(x,MyBaby)</tt>. 
+In the meantime: for every human <tt>x</tt>, as long as 
+<tt>x&ne;Me</tt>, then <tt>~L(MyBaby,x)</tt>
+(namely, <tt>MyBaby</tt> does not love <tt>x</tt>).
+
+<div class="paragraph"> </div>
+
+ Let us prove that in this case <tt>MyBaby</tt> and <tt>Me</tt>
+is the same person. 
+Let's start with a human-readable proof:
+<ul><li>Define the set of all humans: <tt>HUM</tt>.</li>
+<li>Denote elements <tt>MyBaby</tt> and <tt>Me</tt> in this set.</li>
+<li>Assume that <tt>MyBaby&ne;Me</tt>.</li>
+<li>Substitute in the property (ItemB): <tt>x = MyBaby</tt>
+<li>Because of the assumption <tt>MyBaby&ne;Me</tt>,
+<tt>MyBaby</tt> does not love <tt>MyBaby</tt>, since <tt>MyBaby</tt> only loves <tt>Me</tt></li>
+<li>On the other hand, by assumption (ItemA): everybody must love <tt>MyBaby</tt>.</li>
+<li>Everybody includes <tt>MyBaby</tt>, who also loves <tt>MyBaby</tt>.</li>
+<li>This is a contradiction, since <tt>MyBaby</tt> either loves <tt>MyBaby</tt> or it does not.</li>
+</ul>
+
+<div class="paragraph"> </div>
+
+<a name="lab3"></a><h2 class="section">Machine-verified proof</h2>
+
+<div class="paragraph"> </div>
+
+ We will need the contrapositive tautology 
+</div>
+<div class="code">
+
+<br/>
+<span class="id" title="keyword">Axiom</span> <a name="ContraPos"><span class="id" title="axiom">ContraPos</span></a> : <span class="id" title="keyword">forall</span> <span class="id" title="var">p</span> <span class="id" title="var">q</span>: <span class="id" title="keyword">Prop</span>, <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#df1ced36fc33ce188051218bca314374"><span class="id" title="notation">(</span></a><a class="idref" href="example_mybaby.html#p"><span class="id" title="variable">p</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#d43e996736952df71ebeeae74d10a287"><span class="id" title="notation">-&gt;</span></a> <a class="idref" href="example_mybaby.html#q"><span class="id" title="variable">q</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#df1ced36fc33ce188051218bca314374"><span class="id" title="notation">)</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#df1ced36fc33ce188051218bca314374"><span class="id" title="notation">&lt;-&gt;</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#df1ced36fc33ce188051218bca314374"><span class="id" title="notation">(</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#611abc97cba304de784fa909dbdea1fa"><span class="id" title="notation">~</span></a><a class="idref" href="example_mybaby.html#q"><span class="id" title="variable">q</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#d43e996736952df71ebeeae74d10a287"><span class="id" title="notation">-&gt;</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#611abc97cba304de784fa909dbdea1fa"><span class="id" title="notation">~</span></a><a class="idref" href="example_mybaby.html#p"><span class="id" title="variable">p</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#df1ced36fc33ce188051218bca314374"><span class="id" title="notation">)</span></a>.<br/>
+
+<br/>
+</div>
+
+<div class="doc">
+We assume two hypotheses (ItemA, ItemB) and 
+prove Lemma that <tt>MyBaby</tt> and <tt>Me</tt> 
+are equal.
+
+</div>
+<div class="code">
+
+<br/>
+<span class="id" title="keyword">Section</span> <a name="mybaby"><span class="id" title="section">mybaby</span></a>.<br/>
+
+<br/>
+</div>
+
+<div class="doc">
+Here the same proof is formalized with Coq. 
+<tt>HUM</tt> is the set of all humans. 
+</div>
+<div class="code">
+<span class="id" title="keyword">Parameter</span> <a name="HUM"><span class="id" title="axiom">HUM</span></a> : <span class="id" title="keyword">Type</span>.<br/>
+</div>
+
+<div class="doc">
+Me and MyBaby are humans. 
+</div>
+<div class="code">
+<span class="id" title="keyword">Parameter</span> <a name="Me"><span class="id" title="axiom">Me</span></a> : <a class="idref" href="example_mybaby.html#HUM"><span class="id" title="axiom">HUM</span></a>.<br/>
+<span class="id" title="keyword">Parameter</span> <a name="MyBaby"><span class="id" title="axiom">MyBaby</span></a> : <a class="idref" href="example_mybaby.html#HUM"><span class="id" title="axiom">HUM</span></a>.<br/>
+
+<br/>
+</div>
+
+<div class="doc">
+The predicate <tt>L(x,y)</tt> is true if and only if
+<tt>x</tt> loves <tt>y</tt>. 
+</div>
+<div class="code">
+<span class="id" title="keyword">Parameter</span> <a name="L"><span class="id" title="axiom">L</span></a> : <a class="idref" href="example_mybaby.html#HUM"><span class="id" title="axiom">HUM</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#d19c7eafd0e2d195d10df94b392087b5"><span class="id" title="notation">*</span></a><a class="idref" href="example_mybaby.html#HUM"><span class="id" title="axiom">HUM</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#d43e996736952df71ebeeae74d10a287"><span class="id" title="notation">-&gt;</span></a> <span class="id" title="keyword">Prop</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Hypothesis</span> <a name="mybaby.ItemA"><span class="id" title="variable">ItemA</span></a>: <span class="id" title="keyword">forall</span> <span class="id" title="var">x</span>: <a class="idref" href="example_mybaby.html#HUM"><span class="id" title="axiom">HUM</span></a>, <a class="idref" href="example_mybaby.html#L"><span class="id" title="axiom">L</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">(</span></a><a class="idref" href="example_mybaby.html#x"><span class="id" title="variable">x</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">,</span></a><a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">)</span></a>.<br/>
+<span class="id" title="keyword">Hypothesis</span> <a name="mybaby.ItemB"><span class="id" title="variable">ItemB</span></a>: <span class="id" title="keyword">forall</span> <span class="id" title="var">x</span>: <a class="idref" href="example_mybaby.html#HUM"><span class="id" title="axiom">HUM</span></a>, <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#611abc97cba304de784fa909dbdea1fa"><span class="id" title="notation">~(</span></a><a class="idref" href="example_mybaby.html#x"><span class="id" title="variable">x</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#1c39bf18749e5cc609e83c0a0ba5a372"><span class="id" title="notation">=</span></a><a class="idref" href="example_mybaby.html#Me"><span class="id" title="axiom">Me</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#611abc97cba304de784fa909dbdea1fa"><span class="id" title="notation">)</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#d43e996736952df71ebeeae74d10a287"><span class="id" title="notation">-&gt;</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#611abc97cba304de784fa909dbdea1fa"><span class="id" title="notation">~(</span></a><a class="idref" href="example_mybaby.html#L"><span class="id" title="axiom">L</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">(</span></a><a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">,</span></a><a class="idref" href="example_mybaby.html#x"><span class="id" title="variable">x</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">)</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#611abc97cba304de784fa909dbdea1fa"><span class="id" title="notation">)</span></a>.<br/>
+
+<br/>
+<span class="id" title="keyword">Lemma</span> <a name="who_is_mybaby"><span class="id" title="lemma">who_is_mybaby</span></a>: <a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#1c39bf18749e5cc609e83c0a0ba5a372"><span class="id" title="notation">=</span></a><a class="idref" href="example_mybaby.html#Me"><span class="id" title="axiom">Me</span></a>.<br/>
+<span class="id" title="keyword">Proof</span>.<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">assert</span> (<a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#32263a1c8b01baecdff9deb038955bc9"><span class="id" title="notation">&lt;&gt;</span></a> <a class="idref" href="example_mybaby.html#Me"><span class="id" title="axiom">Me</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#d43e996736952df71ebeeae74d10a287"><span class="id" title="notation">-&gt;</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#611abc97cba304de784fa909dbdea1fa"><span class="id" title="notation">~</span></a><a class="idref" href="example_mybaby.html#L"><span class="id" title="axiom">L</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">(</span></a><a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">,</span></a><a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">)</span></a>).<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">apply</span> <a class="idref" href="example_mybaby.html#mybaby.ItemB"><span class="id" title="variable">ItemB</span></a> <span class="id" title="keyword">with</span> (<span class="id" title="var">x</span> := <a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a>).<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">assert</span> (<a class="idref" href="example_mybaby.html#L"><span class="id" title="axiom">L</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">(</span></a><a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">,</span></a><a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">)</span></a>).<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">apply</span> <a class="idref" href="example_mybaby.html#mybaby.ItemA"><span class="id" title="variable">ItemA</span></a> <span class="id" title="keyword">with</span> (<span class="id" title="var">x</span> := <a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a>).<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">clear</span> <span class="id" title="var">ItemA</span> <span class="id" title="var">ItemB</span>.<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">elim</span> (<a class="idref" href="example_mybaby.html#ContraPos"><span class="id" title="axiom">ContraPos</span></a> (<a class="idref" href="example_mybaby.html#L"><span class="id" title="axiom">L</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">(</span></a><a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">,</span></a><a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a><a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Datatypes.html#44400027531d4bc3f586a1997dc874c0"><span class="id" title="notation">)</span></a>) (<a class="idref" href="example_mybaby.html#MyBaby"><span class="id" title="axiom">MyBaby</span></a> <a class="idref" href="http://coq.inria.fr/distrib/8.8.1/stdlib//Coq.Init.Logic.html#1c39bf18749e5cc609e83c0a0ba5a372"><span class="id" title="notation">=</span></a> <a class="idref" href="example_mybaby.html#Me"><span class="id" title="axiom">Me</span></a>)).<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">intros</span>.<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">clear</span> <span class="id" title="var">H1</span>.<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">pose</span> (<span class="id" title="var">H2</span> <span class="id" title="var">H</span>) <span class="id" title="keyword">as</span> <span class="id" title="var">H3</span>.<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">pose</span> (<span class="id" title="var">H3</span> <span class="id" title="var">H0</span>) <span class="id" title="keyword">as</span> <span class="id" title="var">H4</span>.<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">exact</span> <span class="id" title="var">H4</span>.<br/>
+<span class="id" title="keyword">Qed</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">End</span> <a class="idref" href="example_mybaby.html#mybaby"><span class="id" title="section">mybaby</span></a>.<br/>
+
+<br/>
+</div>
+</div>
+
+<div id="footer">
+<hr/><a href="index.html">Index</a><hr/>This page has been generated by <a href="http://coq.inria.fr/">coqdoc</a>
+</div>
+
+</div>
+
+</body>
+</html>

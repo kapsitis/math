@@ -1,0 +1,116 @@
+DIGEST f0c1b07a9eaf9b19562a76e4826cb61c
+Fexample_mybaby
+ax 2396:2404 <> ContraPos
+R2426:2426 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R2433:2439 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R2448:2448 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R2428:2431 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2432:2432 example_mybaby <> q var
+R2427:2427 example_mybaby <> p var
+R2442:2445 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2446:2446 Coq.Init.Logic <> :type_scope:'~'_x not
+R2447:2447 example_mybaby <> p var
+R2440:2440 Coq.Init.Logic <> :type_scope:'~'_x not
+R2441:2441 example_mybaby <> q var
+sec 2579:2584 <> mybaby
+ax 2691:2693 <> HUM
+ax 2746:2747 <> Me
+R2751:2753 example_mybaby <> HUM defax
+ax 2766:2771 <> MyBaby
+R2775:2777 example_mybaby <> HUM defax
+ax 2886:2886 <> L
+R2897:2900 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2893:2893 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R2890:2892 example_mybaby <> HUM defax
+R2894:2896 example_mybaby <> HUM defax
+var 2920:2924 mybaby ItemA
+R2937:2939 example_mybaby <> HUM defax
+R2942:2942 example_mybaby <> L defax
+R2943:2943 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2945:2945 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2952:2952 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2944:2944 example_mybaby <> x var
+R2946:2951 example_mybaby <> MyBaby defax
+var 2966:2970 mybaby ItemB
+R2983:2985 example_mybaby <> HUM defax
+R2995:2998 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2999:3000 Coq.Init.Logic <> :type_scope:'~'_x not
+R3012:3012 Coq.Init.Logic <> :type_scope:'~'_x not
+R3001:3001 example_mybaby <> L defax
+R3002:3002 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3009:3009 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3011:3011 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3003:3008 example_mybaby <> MyBaby defax
+R3010:3010 example_mybaby <> x var
+R2988:2989 Coq.Init.Logic <> :type_scope:'~'_x not
+R2994:2994 Coq.Init.Logic <> :type_scope:'~'_x not
+R2991:2991 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2990:2990 example_mybaby <> x var
+R2992:2993 example_mybaby <> Me defax
+prf 3023:3035 <> who_is_mybaby
+R3044:3044 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3038:3043 example_mybaby <> MyBaby defax
+R3045:3046 example_mybaby <> Me defax
+R3079:3082 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3083:3083 Coq.Init.Logic <> :type_scope:'~'_x not
+R3084:3084 example_mybaby <> L defax
+R3085:3085 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3092:3092 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3099:3099 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3086:3091 example_mybaby <> MyBaby defax
+R3093:3098 example_mybaby <> MyBaby defax
+R3073:3076 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R3067:3072 example_mybaby <> MyBaby defax
+R3077:3078 example_mybaby <> Me defax
+R3079:3082 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3083:3083 Coq.Init.Logic <> :type_scope:'~'_x not
+R3084:3084 example_mybaby <> L defax
+R3085:3085 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3092:3092 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3099:3099 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3086:3091 example_mybaby <> MyBaby defax
+R3093:3098 example_mybaby <> MyBaby defax
+R3073:3076 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R3067:3072 example_mybaby <> MyBaby defax
+R3077:3078 example_mybaby <> Me defax
+R3128:3133 example_mybaby <> MyBaby defax
+R3111:3115 example_mybaby <> mybaby.ItemB var
+R3128:3133 example_mybaby <> MyBaby defax
+R3111:3115 example_mybaby <> mybaby.ItemB var
+R3147:3147 example_mybaby <> L defax
+R3148:3148 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3155:3155 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3162:3162 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3149:3154 example_mybaby <> MyBaby defax
+R3156:3161 example_mybaby <> MyBaby defax
+R3147:3147 example_mybaby <> L defax
+R3148:3148 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3155:3155 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3162:3162 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3149:3154 example_mybaby <> MyBaby defax
+R3156:3161 example_mybaby <> MyBaby defax
+R3191:3196 example_mybaby <> MyBaby defax
+R3174:3178 example_mybaby <> mybaby.ItemA var
+R3191:3196 example_mybaby <> MyBaby defax
+R3174:3178 example_mybaby <> mybaby.ItemA var
+R3229:3237 example_mybaby <> ContraPos prfax
+R3265:3267 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3259:3264 example_mybaby <> MyBaby defax
+R3268:3269 example_mybaby <> Me defax
+R3240:3240 example_mybaby <> L defax
+R3241:3241 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3248:3248 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3255:3255 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3242:3247 example_mybaby <> MyBaby defax
+R3249:3254 example_mybaby <> MyBaby defax
+R3229:3237 example_mybaby <> ContraPos prfax
+R3265:3267 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3259:3264 example_mybaby <> MyBaby defax
+R3268:3269 example_mybaby <> Me defax
+R3240:3240 example_mybaby <> L defax
+R3241:3241 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3248:3248 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3255:3255 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3242:3247 example_mybaby <> MyBaby defax
+R3249:3254 example_mybaby <> MyBaby defax
+R3362:3367 example_mybaby mybaby <> sec

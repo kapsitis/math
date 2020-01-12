@@ -49,8 +49,9 @@ def build_coq(srcDir,destDir):
     for vff in v_files:
         if vff.endswith('.v'):
             print('Build Coq {}/{} inside {}'.format(srcDir,vff,destDir))
-            subprocess.call(['coq2html','-d',destDir, vff], cwd=srcDir)
-
+            subprocess.call(['coqdoc','-d',destDir, vff], cwd=srcDir)
+    for filename in glob.glob(os.path.join(srcDir, '*.png')):
+        shutil.copy(filename, destDir)
 
 def build_static(SRC,DEST):
     rmDirectory(DEST)

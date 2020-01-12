@@ -1,0 +1,202 @@
+DIGEST 95da3cb0fde1ac56e2aa93b0fa90006d
+Fexample_scottish_club
+sec 788:791 <> club
+var 805:812 club Scottish
+var 814:821 club RedSocks
+var 823:830 club WearKilt
+var 832:838 club Married
+var 840:850 club GoOutSunday
+var 872:876 club rule1
+R889:892 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R893:900 example_scottish_club <> club.RedSocks var
+R880:880 Coq.Init.Logic <> :type_scope:'~'_x not
+R881:888 example_scottish_club <> club.Scottish var
+var 914:918 club rule2
+R930:933 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R922:929 example_scottish_club <> club.WearKilt var
+R934:934 Coq.Init.Logic <> :type_scope:'~'_x not
+R935:942 example_scottish_club <> club.RedSocks var
+var 956:960 club rule3
+R971:974 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R975:975 Coq.Init.Logic <> :type_scope:'~'_x not
+R976:986 example_scottish_club <> club.GoOutSunday var
+R964:970 example_scottish_club <> club.Married var
+var 1000:1004 club rule4
+R1019:1023 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1008:1018 example_scottish_club <> club.GoOutSunday var
+R1024:1031 example_scottish_club <> club.Scottish var
+var 1045:1049 club rule5
+R1061:1064 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1073:1076 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1065:1072 example_scottish_club <> club.Scottish var
+R1077:1083 example_scottish_club <> club.Married var
+R1053:1060 example_scottish_club <> club.WearKilt var
+var 1097:1101 club rule6
+R1113:1116 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1117:1124 example_scottish_club <> club.WearKilt var
+R1105:1112 example_scottish_club <> club.Scottish var
+prf 1570:1577 <> NoMember
+R1581:1585 Coq.Init.Logic <> False ind
+R1616:1619 example_scottish_club club <> sec
+R1629:1636 example_scottish_club <> NoMember thm
+sec 3139:3150 <> clubExplicit
+var 3165:3172 clubExplicit Scottish
+var 3174:3181 clubExplicit RedSocks
+var 3183:3190 clubExplicit WearKilt
+var 3192:3198 clubExplicit Married
+var 3200:3210 clubExplicit GoOutSunday
+var 3232:3236 clubExplicit rule1
+R3249:3252 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3253:3260 example_scottish_club <> clubExplicit.RedSocks var
+R3240:3240 Coq.Init.Logic <> :type_scope:'~'_x not
+R3241:3248 example_scottish_club <> clubExplicit.Scottish var
+var 3274:3278 clubExplicit rule2
+R3290:3293 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R3282:3289 example_scottish_club <> clubExplicit.WearKilt var
+R3294:3294 Coq.Init.Logic <> :type_scope:'~'_x not
+R3295:3302 example_scottish_club <> clubExplicit.RedSocks var
+var 3316:3320 clubExplicit rule3
+R3331:3334 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3335:3335 Coq.Init.Logic <> :type_scope:'~'_x not
+R3336:3346 example_scottish_club <> clubExplicit.GoOutSunday var
+R3324:3330 example_scottish_club <> clubExplicit.Married var
+var 3360:3364 clubExplicit rule4
+R3379:3383 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R3368:3378 example_scottish_club <> clubExplicit.GoOutSunday var
+R3384:3391 example_scottish_club <> clubExplicit.Scottish var
+var 3405:3409 clubExplicit rule5
+R3421:3424 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3433:3436 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3425:3432 example_scottish_club <> clubExplicit.Scottish var
+R3437:3443 example_scottish_club <> clubExplicit.Married var
+R3413:3420 example_scottish_club <> clubExplicit.WearKilt var
+var 3457:3461 clubExplicit rule6
+R3473:3476 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3477:3484 example_scottish_club <> clubExplicit.WearKilt var
+R3465:3472 example_scottish_club <> clubExplicit.Scottish var
+ax 3806:3819 <> ExcludedMiddle
+R3838:3841 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R3837:3837 example_scottish_club <> A var
+R3842:3843 Coq.Init.Logic <> :type_scope:'~'_x not
+R3844:3844 example_scottish_club <> A var
+ax 3853:3861 <> ContraPos
+R3883:3883 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R3890:3896 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R3905:3905 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R3885:3888 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3889:3889 example_scottish_club <> B var
+R3884:3884 example_scottish_club <> A var
+R3899:3902 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3903:3903 Coq.Init.Logic <> :type_scope:'~'_x not
+R3904:3904 example_scottish_club <> A var
+R3897:3897 Coq.Init.Logic <> :type_scope:'~'_x not
+R3898:3898 example_scottish_club <> B var
+prf 3916:3931 <> NoMemberExplicit
+R3935:3939 Coq.Init.Logic <> False ind
+R3958:3971 example_scottish_club <> ExcludedMiddle prfax
+R3973:3980 example_scottish_club <> clubExplicit.WearKilt var
+R3958:3971 example_scottish_club <> ExcludedMiddle prfax
+R3973:3980 example_scottish_club <> clubExplicit.WearKilt var
+R4017:4021 example_scottish_club <> clubExplicit.rule5 var
+R4017:4021 example_scottish_club <> clubExplicit.rule5 var
+R4080:4084 example_scottish_club <> clubExplicit.rule3 var
+R4080:4084 example_scottish_club <> clubExplicit.rule3 var
+R4108:4112 example_scottish_club <> clubExplicit.rule4 var
+R4144:4144 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4168:4173 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4199:4199 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4186:4189 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4190:4190 Coq.Init.Logic <> :type_scope:'~'_x not
+R4191:4198 example_scottish_club <> clubExplicit.Scottish var
+R4174:4174 Coq.Init.Logic <> :type_scope:'~'_x not
+R4175:4185 example_scottish_club <> clubExplicit.GoOutSunday var
+R4153:4156 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4157:4167 example_scottish_club <> clubExplicit.GoOutSunday var
+R4145:4152 example_scottish_club <> clubExplicit.Scottish var
+R4144:4144 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4168:4173 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4199:4199 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4186:4189 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4190:4190 Coq.Init.Logic <> :type_scope:'~'_x not
+R4191:4198 example_scottish_club <> clubExplicit.Scottish var
+R4174:4174 Coq.Init.Logic <> :type_scope:'~'_x not
+R4175:4185 example_scottish_club <> clubExplicit.GoOutSunday var
+R4153:4156 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4157:4167 example_scottish_club <> clubExplicit.GoOutSunday var
+R4145:4152 example_scottish_club <> clubExplicit.Scottish var
+R4230:4237 example_scottish_club <> clubExplicit.Scottish var
+R4244:4254 example_scottish_club <> clubExplicit.GoOutSunday var
+R4211:4219 example_scottish_club <> ContraPos prfax
+R4230:4237 example_scottish_club <> clubExplicit.Scottish var
+R4244:4254 example_scottish_club <> clubExplicit.GoOutSunday var
+R4211:4219 example_scottish_club <> ContraPos prfax
+R4434:4434 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4455:4460 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4483:4483 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4470:4473 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4474:4474 Coq.Init.Logic <> :type_scope:'~'_x not
+R4475:4482 example_scottish_club <> clubExplicit.Scottish var
+R4461:4461 Coq.Init.Logic <> :type_scope:'~'_x not
+R4462:4469 example_scottish_club <> clubExplicit.WearKilt var
+R4443:4446 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4447:4454 example_scottish_club <> clubExplicit.WearKilt var
+R4435:4442 example_scottish_club <> clubExplicit.Scottish var
+R4434:4434 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4455:4460 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4483:4483 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4470:4473 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4474:4474 Coq.Init.Logic <> :type_scope:'~'_x not
+R4475:4482 example_scottish_club <> clubExplicit.Scottish var
+R4461:4461 Coq.Init.Logic <> :type_scope:'~'_x not
+R4462:4469 example_scottish_club <> clubExplicit.WearKilt var
+R4443:4446 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4447:4454 example_scottish_club <> clubExplicit.WearKilt var
+R4435:4442 example_scottish_club <> clubExplicit.Scottish var
+R4514:4521 example_scottish_club <> clubExplicit.Scottish var
+R4528:4535 example_scottish_club <> clubExplicit.WearKilt var
+R4495:4503 example_scottish_club <> ContraPos prfax
+R4514:4521 example_scottish_club <> clubExplicit.Scottish var
+R4528:4535 example_scottish_club <> clubExplicit.WearKilt var
+R4495:4503 example_scottish_club <> ContraPos prfax
+R4549:4553 example_scottish_club <> clubExplicit.rule6 var
+R4549:4553 example_scottish_club <> clubExplicit.rule6 var
+R4607:4611 example_scottish_club <> clubExplicit.rule1 var
+R4607:4611 example_scottish_club <> clubExplicit.rule1 var
+R4635:4639 example_scottish_club <> clubExplicit.rule2 var
+R4779:4790 example_scottish_club clubExplicit <> sec
+prf 5089:5100 <> ScottishClub
+R5173:5173 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5362:5366 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5367:5371 Coq.Init.Logic <> False ind
+R5174:5174 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5197:5206 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5185:5188 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5189:5196 example_scottish_club <> RedSocks var
+R5175:5176 Coq.Init.Logic <> :type_scope:'~'_x not
+R5177:5184 example_scottish_club <> Scottish var
+R5207:5207 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5230:5239 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5216:5219 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R5208:5215 example_scottish_club <> WearKilt var
+R5220:5221 Coq.Init.Logic <> :type_scope:'~'_x not
+R5222:5229 example_scottish_club <> RedSocks var
+R5240:5240 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5265:5274 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5248:5251 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5252:5253 Coq.Init.Logic <> :type_scope:'~'_x not
+R5254:5264 example_scottish_club <> GoOutSunday var
+R5241:5247 example_scottish_club <> Married var
+R5275:5275 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5300:5309 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5287:5291 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R5276:5286 example_scottish_club <> GoOutSunday var
+R5292:5299 example_scottish_club <> Scottish var
+R5310:5310 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5330:5340 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5361:5361 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5319:5322 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5311:5318 example_scottish_club <> Scottish var
+R5323:5329 example_scottish_club <> Married var
+R5349:5352 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5353:5360 example_scottish_club <> WearKilt var
+R5341:5348 example_scottish_club <> Scottish var

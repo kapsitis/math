@@ -1,9 +1,19 @@
-(** These examples are taken from Chapter 4. 
-Discrete Structures (Lecture Notes for CSE 191 by Matthew G. Knepley. 
+(** #<a href="../../discrete/assignments.html">Back to Discrete Assignments</a># *)
 
+(** * Inductively Defined Data Types *) 
+
+(**
+Date: 2020-01-02. Tested with Coq version 8.8.1.
+------------------------
+The following examples are based on the 
+#<a href="http://www.cse.buffalo.edu/~knepley/classes/cse191/ClassNotes.pdf">Class Notes</a>#; 
+Pages 84-106 (Chapter 4).
+#<a href="https://cse.buffalo.edu/~knepley/classes/cse191/Syllabus.html">CSE 191 "Discrete Structures"</a>#.
 *)
 
-(** #<h2>Inductive type with 3 enum values</h2># *)
+
+(** ** Inductive type with 3 enum values *)
+
 Print bool.
 
 Inductive pdetype : Set :=
@@ -16,15 +26,19 @@ Check pdetype_ind.
 Check pdetype_rect.
 Check pdetype_rec.
 
-(** This shows a proof by verifying all the subcases (gadījumu pārlase) *)
+(** This shows a proof by verifying all the subcases (gadījumu pārlase).
+Commands "right;left.", "left", "right; right" are meant
+to pick the middle term, the leftmost term and the rightmost
+term of the disjunction respectively.
+*)
 Theorem pde_equal : forall p : pdetype, p = parabolic \/ p = elliptic \/ p = hyperbolic.
 Proof.
   induction p.
-  right; left. (*r locate the middle term of the disjunction *)
+  right; left.
   reflexivity.
-  left.  (*r locate the leftmost term of the disjunction *)
+  left.
   reflexivity.
-  right; right. (*r locate the rightmost term of the disjunction *)
+  right; right. 
   reflexivity.
 Qed.
 
@@ -33,7 +47,7 @@ Proof.
   intro p.
   pattern p.
   apply pdetype_ind.
-  right; left. (*r repeat same proof as above *)
+  right; left.
   reflexivity.
   left.
   reflexivity.
@@ -55,7 +69,9 @@ end.
 Eval compute in (mg_works hyperbolic).
 
 
-(** Trivial theorem: One value of the predicate "mg_works" is False. *)
+(** Trivial theorem: One value of the predicate 
+"mg_works" is False. 
+*)
 Theorem no_hyp_mg : mg_works hyperbolic = False.
 Proof. 
   simpl. 
@@ -83,7 +99,8 @@ Qed.
 
 
 
-(** #<h2>Natural numbers as inductive time</h2># *)
+(** ** Natural numbers as inductive type *)
+
 Print nat.
 Print nat_ind.
 Print nat_rect.
@@ -162,8 +179,8 @@ Qed.
 
 (**
 A result that may be useful to prove inequalities.
-For all n,m,p,q: If #<tt>n lt;= m</tt>#
-and #<tt>p + m &lt;= q + n</tt># then #<tt>p &lt;= q</tt>#
+For all n,m,p,q: If #<tt>n <= m</tt>#
+and #<tt>p + m <= q + n</tt># then #<tt>p <= q</tt>#
 *) 
 Print Nat.le_le_add_le.
 
@@ -240,9 +257,7 @@ Qed.
 Inductive par: Set := open | close.
 
 
-(** #<h2>Lists and Pigeonhole principle</h2>#
-Some theorems on lists.
-*)
+(** ** Lists and Pigeonhole principle *)
 
 Require Import List.
 

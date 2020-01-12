@@ -1,5 +1,9 @@
-Compute (3+4).
-Compute (3=5).
+(** #<a href="../../discrete/assignments.html">Back to Discrete Assignments</a># *)
+
+(** * Defining Functions and checking values and types *) 
+
+(** These examples are adapted from 
+
 
 
 Inductive day : Type :=
@@ -31,6 +35,11 @@ Proof.
   reflexivity. 
 Qed. 
 
+
+
+Eval compute in (3+4).
+Eval compute in (3=5).
+
 Check 3 = 3.
 Compute (3 = 3).
 Check (forall n m: nat, n+m = m+n).
@@ -60,8 +69,6 @@ Proof.
   intros.
   split.
 
-Locate "_ + _".
-Print Nat.add.
 
 
 

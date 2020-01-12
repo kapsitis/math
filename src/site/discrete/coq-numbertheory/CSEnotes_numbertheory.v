@@ -1,3 +1,16 @@
+(** #<a href="../../discrete/assignments.html">Back to Discrete Assignments</a># *)
+
+(** * Proving Theorems about Integers *) 
+
+(**
+Date: 2020-01-02. Tested with Coq version 8.8.1.
+------------------------
+The following examples are based on the 
+#<a href="http://www.cse.buffalo.edu/~knepley/classes/cse191/ClassNotes.pdf">Class Notes</a>#; 
+Pages 110-137.
+#<a href="https://cse.buffalo.edu/~knepley/classes/cse191/Syllabus.html">CSE 191 "Discrete Structures"</a>#.
+*)
+
 Require Import ZArith.
 Open Scope Z_scope.
 
@@ -79,9 +92,11 @@ Proof.
   apply Z.sub_move_r in H0.
   rewrite H0.
   exists (x0 + q*x).
-  ring. (*r 1st goal is over *)
+  ring. 
+
   destruct H.
-  exact H. (*r 2nd goal is over *)
+  exact H. 
+
   intros y divA divB.
   destruct H.
   apply H1.
@@ -97,7 +112,7 @@ Qed.
 
 
 
-(** Theorem: If a and b are both divisors of some number c 
+(** #<b>Theorem:</b># If a and b are both divisors of some number c 
 (and a,b are mutually prime), then their product ab also divides c 
 *)
 Lemma div_a_perp_b : forall a b c : Z, c <> 0 -> (a | c) -> (b | c) -> Zis_gcd a b 1 -> (a * b | c).

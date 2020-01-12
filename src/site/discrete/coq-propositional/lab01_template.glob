@@ -1,0 +1,98 @@
+DIGEST 6ee93a35844ff722ab5c72ebf91b8a19
+Flab01_template
+prf 305:315 <> training1_0
+R334:337 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R338:338 Coq.Init.Logic <> :type_scope:'~'_x not
+R339:339 Coq.Init.Logic <> :type_scope:'~'_x not
+R340:340 lab01_template <> a var
+R333:333 lab01_template <> a var
+R372:374 Coq.Init.Logic <> not def
+R510:518 Coq.Logic.Classical <> <> lib
+prf 528:538 <> training1_1
+R559:562 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R563:563 lab01_template <> a var
+R556:556 Coq.Init.Logic <> :type_scope:'~'_x not
+R557:557 Coq.Init.Logic <> :type_scope:'~'_x not
+R558:558 lab01_template <> a var
+R595:597 Coq.Init.Logic <> not def
+R618:624 Coq.Logic.Classical_Prop <> classic prfax
+R618:624 Coq.Logic.Classical_Prop <> classic prfax
+prf 791:801 <> training1_2
+R823:826 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R827:827 Coq.Init.Logic <> :type_scope:'~'_x not
+R828:828 lab01_template <> a var
+R819:819 Coq.Init.Logic <> :type_scope:'~'_x not
+R820:820 Coq.Init.Logic <> :type_scope:'~'_x not
+R821:821 Coq.Init.Logic <> :type_scope:'~'_x not
+R822:822 lab01_template <> a var
+prf 907:917 <> training1_3
+R935:935 Coq.Init.Logic <> :type_scope:'~'_x not
+R936:937 Coq.Init.Logic <> :type_scope:'~'_x not
+R946:946 Coq.Init.Logic <> :type_scope:'~'_x not
+R941:944 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R945:945 lab01_template <> a var
+R938:938 Coq.Init.Logic <> :type_scope:'~'_x not
+R939:939 Coq.Init.Logic <> :type_scope:'~'_x not
+R940:940 lab01_template <> a var
+prf 1025:1035 <> training1_4
+R1056:1060 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1067:1067 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1062:1065 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1066:1066 lab01_template <> a var
+R1061:1061 lab01_template <> b var
+R1055:1055 lab01_template <> a var
+prf 1146:1156 <> training1_5
+R1182:1185 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1186:1186 lab01_template <> a var
+R1177:1180 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1176:1176 lab01_template <> a var
+R1181:1181 lab01_template <> b var
+prf 1265:1275 <> training1_6
+R1296:1300 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1307:1307 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1302:1305 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1301:1301 lab01_template <> a var
+R1306:1306 lab01_template <> b var
+R1295:1295 lab01_template <> a var
+prf 1386:1396 <> training1_7
+R1416:1416 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1425:1430 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1437:1437 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1432:1435 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1436:1436 lab01_template <> b var
+R1431:1431 lab01_template <> a var
+R1419:1422 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1423:1423 Coq.Init.Logic <> :type_scope:'~'_x not
+R1424:1424 lab01_template <> a var
+R1417:1417 Coq.Init.Logic <> :type_scope:'~'_x not
+R1418:1418 lab01_template <> b var
+prf 1514:1524 <> training1_8
+R1544:1544 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1551:1556 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1565:1565 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1559:1562 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1563:1563 Coq.Init.Logic <> :type_scope:'~'_x not
+R1564:1564 lab01_template <> a var
+R1557:1557 Coq.Init.Logic <> :type_scope:'~'_x not
+R1558:1558 lab01_template <> b var
+R1546:1549 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1550:1550 lab01_template <> b var
+R1545:1545 lab01_template <> a var
+prf 1644:1654 <> training1_9
+R1675:1679 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1693:1693 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1681:1685 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1692:1692 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1687:1690 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1686:1686 lab01_template <> a var
+R1691:1691 lab01_template <> b var
+R1680:1680 lab01_template <> b var
+R1674:1674 lab01_template <> a var
+prf 1773:1784 <> training1_10
+R1805:1809 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1817:1817 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1812:1815 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1816:1816 lab01_template <> b var
+R1810:1810 Coq.Init.Logic <> :type_scope:'~'_x not
+R1811:1811 lab01_template <> a var
+R1804:1804 lab01_template <> a var

@@ -4,6 +4,8 @@
 
 #<b>EXERCISE 1.3.2 SOLUTION</b>#
 *)
+Require Import Classical_Prop.
+
 Example ex_1_3_2: forall p:Prop, ~(~p) <-> p.
 Proof.
   split.
@@ -12,6 +14,7 @@ Proof.
   elim (classic p).
   intros PTrue; exact PTrue. 
   intro PFalse.
+
   pose (H PFalse) as CONTRA.
   contradiction CONTRA.
   intros H. (*r 2nd part: p -> ~~ p *)
