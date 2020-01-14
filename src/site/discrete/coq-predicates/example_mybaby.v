@@ -52,8 +52,8 @@ Let's start with a human-readable proof:
 #<li>By (ItemA) <tt>MyBaby</tt> also loves <tt>MyBaby</tt>.</li>#
 #<li>This is a contradiction, since <tt>L(MyBaby,MyBaby)</tt> should be either true or false.</li>#
 #</ul>#
-Contradiction was obtained, since we assumed <tt>MyBaby&ne;Me</tt>. 
-Therefore, we should always have <tt>MyBaby=Me</tt>.
+Contradiction was obtained, since we assumed #<tt>MyBaby&ne;Me</tt>#. 
+Therefore, we should always have #<tt>MyBaby=Me</tt>#.
 *)
 
 

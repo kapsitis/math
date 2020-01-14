@@ -13,7 +13,7 @@ Coq axioms that can be imported are here:
 
 (** ** Guidelines for submission *)
 (** #<ul><li>Download this Coq source file#
-#<a href=''>lab01_tasks.v</a>#
+#<a href='https://raw.githubusercontent.com/kapsitis/math/master/src/site/discrete/coq-propositional/lab01_tasks.v'>lab01_tasks.v</a>#
 #from the GitHub repository.</li>#
 #<li>Replace <tt>'tauto'</tt> tactic or #'Admitted'# with a
 #meaningful proof.</li>#
