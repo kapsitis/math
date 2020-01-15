@@ -1,0 +1,307 @@
+%%
+%% This is file `./samples/shortsample.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% apa6.dtx  (with options: `shortsample')
+%% ----------------------------------------------------------------------
+%% 
+%% apa6 - A LaTeX class for formatting documents in compliance with the
+%% American Psychological Association's Publication Manual, 6th edition
+%% 
+%% Copyright (C) 2011-2017 by Brian D. Beitzel <brian at beitzel.com>
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License (LPPL), either
+%% version 1.3c of this license or (at your option) any later
+%% version.  The latest version of this license is in the file:
+%% 
+%% http://www.latex-project.org/lppl.txt
+%% 
+%% Users may freely modify these files without permission, as long as the
+%% copyright line and this statement are maintained intact.
+%% 
+%% This work is not endorsed by, affiliated with, or probably even known
+%% by, the American Psychological Association.
+%% 
+%% ----------------------------------------------------------------------
+%% 
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+
+
+\title{Discrete Structures (W1): Sample Quiz}
+\author{Kalvis}
+\affiliation{RBS}
+
+\leftheader{Discrete Structures (W1)}
+
+\abstract{These are sample questions \textendash{} they are similar, but not identical 
+to the actual quiz planned for January 16, 2020. 
+The actual quiz will have $7$ questions, its time is $15$ minutes; 
+it accounts for 7~\textperthousand{} of your total grade.
+% 7*8 + 11*4
+}
+
+%\keywords{}
+
+\begin{document}
+\maketitle
+
+{\bf Question 1.} Let $a,b \in \mathbb{Z}^{+}$ be two positive integers.
+Use quantifiers to write
+a statement that $d$ is the greatest common divisor of $a,b$ (that is, 
+the greatest number that divides both $a$ and $b$). For example $\mbox{g\\
+{\em Note.} Use ``infix'' notation for common predicates: write 
+$a\,\mid\,b$ whenever $a$ divides $b$; write $x < y$, if $x$ is less than $y$.\\
+For example $3\,|\,6$ ($3$ divides $6$) is preferred compared to 
+``$\mathtt{divides}(3,6)$''. Also $10 < 17$ is more readable than
+``$\mathtt{lessThan(10,17)}$''.
+
+\vspace{10pt}
+{\bf Question 2.} Use quantifiers to write a statement to tell that a quadratic
+function $f(x) = ax^2 +bx+c$ has two different integer roots.
+
+
+\vspace{10pt}
+{\bf Question 3.} Assume that for some argument {\tt x}, 
+Python functions {\tt a(x)} and {\tt b(x)}
+return value {\tt True}, but other two functions 
+{\tt c(x)} and {\tt d(x)} return value {\tt False}. 
+Which functions are called and evaluated, if you run the following conditional statement:
+\begin{verbatim}
+if (a(x) or b(x)) and (c(x) \& d(x)):
+    ...
+\end{verbatim}
+{\em Note.} Note that Boolean operators {\tt and}, {\tt or} use {\em short-circuit
+evaluation}, but operators {\tt \&}, {\tt |} do not. 
+
+
+\vspace{10pt}
+{\bf Question 4.} There is a set $C$ of several children and a 
+set $H$ of several hats. There is a predicate $W(c,h)$ which is {\tt True}
+iff the child $c \in C$ has ever worn the hat $h \in H$.\\
+{\bf (a)} Write the domain set and the range set of the predicate function $W$. \\
+{\bf (b)} Use quantifiers to write a statement: ``Every two different children 
+have at least one hat that they have both worn.''
+
+
+\vspace{10pt}
+{\bf Question 5.}
+Let $\mathcal{H}$ be the set of all humans, and the predicate $F(x,y)$ is
+true iff $x$ is the father of $y$. Express these sentences in plain English:
+{\bf (a)} $\forall x \in \mathcal{H}\;\exists y \in \mathcal{H},\;F(x,y)$.
+{\bf (b)} $\exists y \in \mathcal{H}\;\forall x \in \mathcal{H},\;F(x,y)$. 
+{\bf (c)} Which of the two statements {\bf (a)}, {\bf (b)} (if any) 
+is true, if we replace the non-empty domain of all humans $\mathcal{H}$ by an
+empty domain $\mathcal{Z} = \emptyset$ of all zombies?
+
+Truth tables for 3-valued domain (and 2-argument predicate). 
+
+
+
+\newpage 
+
+\section{Answers}
+
+
+{\bf Question 1:} Answer:
+
+\begin{tabular}{ c | c | c | c }
+$p$ & $q$ & $r$ & ? \\ \hline
+{\tt T} & {\tt T} & {\tt T} & {\tt T} \\ \hline
+{\tt T} & {\tt T} & {\tt F} & $\boxed{\mathtt{T}}$ \\ \hline
+{\tt T} & {\tt F} & {\tt T} & {\tt F} \\ \hline
+{\tt T} & {\tt F} & {\tt F} & $\boxed{\mathtt{T}}$ \\ \hline
+{\tt F} & {\tt T} & {\tt T} & {\tt T} \\ \hline
+{\tt F} & {\tt T} & {\tt F} & $\boxed{\mathtt{F}}$ \\ \hline
+{\tt F} & {\tt F} & {\tt T} & {\tt F} \\ \hline
+{\tt F} & {\tt F} & {\tt F} & $\boxed{\mathtt{F}}$ \\ \hline
+\end{tabular}
+
+\vspace{3pt}
+\noindent
+Note that $r=\mathtt{false}$ in all the unknown slots. 
+We can simplify the Boolean expression:
+\begin{align}
+E & \equiv \neg(r \rightarrow \neg q) \vee (p \wedge \neg r) \equiv \nonumber \\
+  & \equiv \neg(\mathtt{false} \rightarrow \neg q) \vee 
+(p \wedge \mathtt{true}) \equiv  \nonumber \\
+  & \equiv \neg(\mathtt{true}) \vee p \equiv \nonumber \\
+  & \equiv \mathtt{false} \vee p \equiv p. \nonumber
+\end{align}
+Therefore we simply copy the value of $p$ in all four places.
+
+\vspace{10pt}
+{\bf Question 2:} Answer: {\bf (C)}.\\
+The truth table is identical to $p \oplus q$ (exclusive OR). 
+To see that answer {\bf (C)} is correct, apply De Morgan's law multiple times:
+\begin{align}
+\neg (\neg ( p \wedge \neg q) \wedge \neg (\neg p \wedge q)) & \equiv \nonumber \\
+\neg \neg (p \wedge \neg q) \vee \neg \neg (\neg p \wedge q) & \equiv \nonumber \\
+(p \wedge \neg q) \vee (\neg p \wedge q). & \nonumber
+\end{align}
+
+The last expression is exactly the exclusive OR (either $p$ is {\tt true} and
+$q$ is {\tt false} or vice versa).
+
+\vspace{10pt}
+{\bf Question 3:} Answer: Yes,
+$(\neg p \vee \neg q) \wedge (p \rightarrow q)$ is 
+satisfiable.\\
+Subexpression $(\neg p \vee \neg q)$ tells that either $p$ 
+or $q$ (or both) should be {\tt false}. So, you should take
+$p = \mathtt{false}$ to make $p \rightarrow q$ {\tt true} as well. 
+
+
+\vspace{10pt}
+{\bf Question 4.} Answer: $\neg A \rightarrow \neg B$ (or $B \rightarrow A$).\\
+Condition $C$ is called {\em sufficient} for the result $R$, if 
+$R$ is {\tt true} whenever $C$ is {\tt true}. 
+This means that {\bf not} eating vegetables logically implies {\bf not} 
+getting ice cream. It is exactly $\neg A \rightarrow \neg B$.\\
+You can rewrite it as a contrapositive, if you like: $B \rightarrow A$:
+getting ice cream implies having eaten vegetables. Both answers are
+equivalent.
+
+\vspace{10pt}
+{\bf Question 5.} Answer: Yes, $E_1$ and $E_2$ are logically equivalent 
+(they mean the same thing).
+Consequently, there is no way to assign $p,q,r$ to make their truth values different.
+
+\begin{itemize}
+\item $p \rightarrow (\neg q \wedge r)$ means that either condition ($p$) is {\tt false} or 
+the conclusion ($\neg q \wedge r$) is {\tt true}. So, $E_1$ can be rewritten as 
+$\neg p \vee (\neg q \wedge r)$.
+\item In $E_2$ the subexpression 
+$\neg(r \rightarrow q)$ can be rewritten as $(r \wedge \neg q)$
+(for the implication $r \rightarrow q$ to be {\tt false}, you should have
+both $r = \mathtt{true}$ and $q = \mathtt{false}$, so it 
+means $(r \wedge \neg q)$. And that is exactly the same expression we got 
+from $E_1$, since $(r \wedge \neg q) = (\neg q \wedge r)$
+\end{itemize}
+
+
+
+\vspace{10pt}
+{\bf Question 6.} Answer: $(r \wedge h) \rightarrow t$\\
+"Only if" means {\bf necessity}. Namely, $(r \wedge h)$ implies $t$, 
+or $(r \wedge h) \rightarrow t$ (Ability to use a high occupancy road during a rush 
+hour implies at least three people in the car.)\\
+You can rewrite this as a contrapositive (and expand $(r \wedge h)$ 
+with De Morgan's law). Say, "If you do not have three people
+in your car, then it is either not a high occupancy road, or it is not a rush hour."
+This is an equivalent statement $\neg t \rightarrow (\neg r \vee \neg h)$. 
+
+
+\vspace{10pt}
+{\bf Question 7a.} Answer: $A$ is a knave; $B$ is a knight.\\
+We sort cases.\\
+(1) Assume that $A$ is a knight. He says that $B$ is a knave (and that must be true, 
+since $A$ does not lie). 
+But then $B$ should lie, when he says "At least one of us is a knight". 
+The opposite of "At least one" ($\geq 1$) is "less than one" ($<1$); so in this
+case there should be no knights at all. This is a contradiction. Therefore $A$ cannot be a knight.\\
+(2) Assume that $A$ is a knave. Since he says that $B$ is a knave, $B$ should be a knight. 
+And moreover, since $B$ says that "at least one of us is a knight", then 
+it is still consistent, because he is a knight himself. 
+
+\vspace{10pt}
+{\bf Question 7b.} TBD (I can explain this in the class, if you wish.)
+
+
+
+\end{document}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% End of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% 
+%% Copyright (C) 2011-2017 by Brian D. Beitzel <brian at beitzel.com>
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License (LPPL), either
+%% version 1.3c of this license or (at your option) any later
+%% version.  The latest version of this license is in the file:
+%% 
+%% http://www.latex-project.org/lppl.txt
+%% 
+%% Users may freely modify these files without permission, as long as the
+%% copyright line and this statement are maintained intact.
+%% 
+%% This work is not endorsed by, affiliated with, or probably even known
+%% by, the American Psychological Association.
+%% 
+%% 
+%% This work is "maintained" (as per LPPL maintenance status) by
+%% Brian D. Beitzel.
+%% 
+%% This work consists of the file  apa6.dtx
+%% and the derived files           apa6.ins,
+%%                                 apa6.cls,
+%%                                 apa6.pdf,
+%%                                 README,
+%%                                 APAamerican.txt,
+%%                                 APAbritish.txt,
+%%                                 APAdutch.txt,
+%%                                 APAenglish.txt,
+%%                                 APAgerman.txt,
+%%                                 APAngerman.txt,
+%%                                 APAgreek.txt,
+%%                                 APAczech.txt,
+%%                                 APAturkish.txt,
+%%                                 APAendfloat.cfg,
+%%                                 apa6.ptex,
+%%                                 TeX2WordForapa6.bas,
+%%                                 Figure1.pdf,
+%%                                 shortsample.tex,
+%%                                 longsample.tex, and
+%%                                 bibliography.bib.
+%% 
+%%
+%% End of file `./samples/shortsample.tex'.
