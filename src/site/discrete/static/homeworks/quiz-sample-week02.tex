@@ -71,17 +71,13 @@
 
 
 
-\title{Discrete Structures (W1): Sample Quiz}
-\author{Kalvis}
+\title{Sample Quiz for Week02}
+\author{Discrete Structures, Fall 2020}
 \affiliation{RBS}
 
-\leftheader{Discrete Structures (W1)}
+\leftheader{Discrete Structures (W2): Sample Quiz}
 
-\abstract{These are sample questions \textendash{} they are similar, but not identical 
-to the actual quiz planned for January 16, 2020. 
-The actual quiz will have $7$ questions, its time is $15$ minutes; 
-it accounts for 7~\textperthousand{} of your total grade.
-% 7*8 + 11*4
+\abstract{%
 }
 
 %\keywords{}
@@ -90,18 +86,23 @@ it accounts for 7~\textperthousand{} of your total grade.
 \maketitle
 
 {\bf Question 1.} Let $a,b \in \mathbb{Z}^{+}$ be two positive integers.
-Use quantifiers to write
-a statement that $d$ is the greatest common divisor of $a,b$ (that is, 
-the greatest number that divides both $a$ and $b$). For example $\mbox{g\\
-{\em Note.} Use ``infix'' notation for common predicates: write 
-$a\,\mid\,b$ whenever $a$ divides $b$; write $x < y$, if $x$ is less than $y$.\\
-For example $3\,|\,6$ ($3$ divides $6$) is preferred compared to 
-``$\mathtt{divides}(3,6)$''. Also $10 < 17$ is more readable than
+Translate into predicate logic: ``$d$ is the greatest common divisor 
+of $a,b$.'' (That is, 
+the greatest number that divides both $a$ and $b$).\\
+{\em Note 1.} "Translate into predicate logic" means - use
+predicates and quantifiers to express that statement.
+{\em Note 2.} Use ``infix'' notation for common predicates: write 
+$a\,\mid\,b$ whenever $a$ divides $b$; write $x < y$, if $x$ is less than $y$. For example, $3\,|\,6$ \hspace{1ex} 
+($3$ divides $6$) is preferred compared to 
+``$\mathtt{divides}(3,6)$''. Also \hspace{1ex} 
+$10 < 17$ is more readable than
 ``$\mathtt{lessThan(10,17)}$''.
 
 \vspace{10pt}
-{\bf Question 2.} Use quantifiers to write a statement to tell that a quadratic
-function $f(x) = ax^2 +bx+c$ has two different integer roots.
+{\bf Question 2.} Use quantifiers to write a 
+statement to tell that a quadratic
+function $f(x) = ax^2 +bx+c$ 
+has two different integer roots.
 
 
 \vspace{10pt}
@@ -111,10 +112,11 @@ return value {\tt True}, but other two functions
 {\tt c(x)} and {\tt d(x)} return value {\tt False}. 
 Which functions are called and evaluated, if you run the following conditional statement:
 \begin{verbatim}
-if (a(x) or b(x)) and (c(x) \& d(x)):
-    ...
+if (a(x) or b(x)) and (c(x) & d(x)):
+    ## ... some Python code ...
 \end{verbatim}
-{\em Note.} Note that Boolean operators {\tt and}, {\tt or} use {\em short-circuit
+{\em Note.} Note that Boolean operators {\tt and}, {\tt or} 
+use {\em short-circuit
 evaluation}, but operators {\tt \&}, {\tt |} do not. 
 
 
@@ -123,22 +125,70 @@ evaluation}, but operators {\tt \&}, {\tt |} do not.
 set $H$ of several hats. There is a predicate $W(c,h)$ which is {\tt True}
 iff the child $c \in C$ has ever worn the hat $h \in H$.\\
 {\bf (a)} Write the domain set and the range set of the predicate function $W$. \\
-{\bf (b)} Use quantifiers to write a statement: ``Every two different children 
-have at least one hat that they have both worn.''
+{\bf (b)} Use quantifiers to write a statement: ``Every two 
+children have at least one hat in common (that is, both of 
+them have worn it).''
 
 
 \vspace{10pt}
 {\bf Question 5.}
 Let $\mathcal{H}$ be the set of all humans, and the predicate $F(x,y)$ is
-true iff $x$ is the father of $y$. Express these sentences in plain English:
-{\bf (a)} $\forall x \in \mathcal{H}\;\exists y \in \mathcal{H},\;F(x,y)$.
-{\bf (b)} $\exists y \in \mathcal{H}\;\forall x \in \mathcal{H},\;F(x,y)$. 
+true iff $x$ is the father of $y$. Express these sentences in plain English:\\
+{\bf (a)} $\forall x \in \mathcal{H}\;\exists y \in \mathcal{H},\;F(x,y)$.\\
+{\bf (b)} $\exists y \in \mathcal{H}\;\forall x \in \mathcal{H},\;F(x,y)$.\\
 {\bf (c)} Which of the two statements {\bf (a)}, {\bf (b)} (if any) 
 is true, if we replace the non-empty domain of all humans $\mathcal{H}$ by an
 empty domain $\mathcal{Z} = \emptyset$ of all zombies?
 
-Truth tables for 3-valued domain (and 2-argument predicate). 
+\vspace{10pt}
+{\bf Question 6.} We define predicates $P(x,y)$, 
+$Q(x,y)$ with two arguments, 
+where $x,y$ can be any of the three letters: 
+$\mathtt{a},\mathtt{b},\mathtt{c}$. 
+(The type for all these predicates is 
+$\{ \mathtt{a},\mathtt{b},\mathtt{c} \}^2 
+\rightarrow \{ \mathtt{T},\mathtt{F} \}$.)
 
+They have these following truth tables:
+\begin{center}
+\begin{tabular}{c|ccc}
+$P$ & $a$ & $b$ & $c$ \\ \hline
+$a$ & $\mathtt{T}$ & $\mathtt{F}$ & $\mathtt{T}$ \\
+$b$ & $\mathtt{F}$ & $\mathtt{F}$ & $\mathtt{F}$ \\
+$c$ & $\mathtt{T}$ & $\mathtt{T}$ & $\mathtt{T}$
+\end{tabular}
+\hspace{2ex}
+\begin{tabular}{c|ccc}
+$Q$ & $a$ & $b$ & $c$ \\ \hline
+$a$ & $\mathtt{F}$ & $\mathtt{T}$ & $\mathtt{F}$ \\
+$b$ & $\mathtt{F}$ & $\mathtt{F}$ & $\mathtt{T}$ \\
+$c$ & $\mathtt{T}$ & $\mathtt{F}$ & $\mathtt{F}$
+\end{tabular}
+\end{center}
+Find the truth values of these statements:\\
+{\bf (a)} $\exists x \forall y, P(y,x)$\\
+{\bf (b)} $\exists x \forall y, P(x,y)$\\
+{\bf (c)} $\exists x \exists y, Q(x,y)$\\
+{\bf (d)} $\forall x \exists y, Q(x,y)$\\
+{\em Note.} In all truth tables the first argument is
+represented by row, the second is represented by column. 
+For example $P(\mathtt{b}, \mathtt{c}) = \mathtt{F}$ (2nd row
+and 3rd column). Meanwhile 
+$P(\mathtt{c}, \mathtt{b}) = \mathtt{T}$ (3rd row and 2nd column). 
+
+
+
+\vspace{10pt}
+{\bf Question 7.} 
+For a real number $x$ we know that $\lfloor x \rfloor \neq 
+\lfloor x + 0.5 \rfloor$. Write this statement in 
+predicate logic without using any $\lfloor \ldots \rfloor$ 
+notation. (Write instead that $x$ and $x+0.5$ have some integer number 
+betwen $x$  and $x+0.5$.)\\
+{\em Note.} By $\lfloor x \rfloor$ we denote the 
+largest integer number that does not exceed $x$. 
+For example $\lfloor 3.14 \rfloor = 3$, $\lfloor 17 \rfloor = 17$, 
+$\lfloor -4.5 \rfloor = -5$. 
 
 
 \newpage 
@@ -146,109 +196,106 @@ Truth tables for 3-valued domain (and 2-argument predicate).
 \section{Answers}
 
 
-{\bf Question 1:} Answer:
+{\bf Question 1.} Answer:
+$$\boxed{\forall k \in \mathbb{Z}^{+},\;\left(k\,\mid\,a \wedge 
+k\,\mid\,b\right)\,\rightarrow\,k \leq d.}$$
+{\em Recite:} ``For all positive integers $k$, if $k$ divides 
+both $a$ and $b$, then $k$ does not exceed 
+$d = \operatorname{gcd}(a,b)$.''\\
+This also means that $d$ is the largest number among all
+common divisors of $a,b$ ({\em greatest common divisor}, GCD).\\
+{\em Note:} In the above formula $a,b,d$ are ``free variables''
+(they need to be assigned independently; and if 
+$d \neq \operatorname{gcd}(a,b)$, then the statement is false). 
+On the other hand, $k$ is a ``bound variable''. You can rename
+$k$ into $x$ \textendash{} and nothing will change.
 
-\begin{tabular}{ c | c | c | c }
-$p$ & $q$ & $r$ & ? \\ \hline
-{\tt T} & {\tt T} & {\tt T} & {\tt T} \\ \hline
-{\tt T} & {\tt T} & {\tt F} & $\boxed{\mathtt{T}}$ \\ \hline
-{\tt T} & {\tt F} & {\tt T} & {\tt F} \\ \hline
-{\tt T} & {\tt F} & {\tt F} & $\boxed{\mathtt{T}}$ \\ \hline
-{\tt F} & {\tt T} & {\tt T} & {\tt T} \\ \hline
-{\tt F} & {\tt T} & {\tt F} & $\boxed{\mathtt{F}}$ \\ \hline
-{\tt F} & {\tt F} & {\tt T} & {\tt F} \\ \hline
-{\tt F} & {\tt F} & {\tt F} & $\boxed{\mathtt{F}}$ \\ \hline
-\end{tabular}
-
-\vspace{3pt}
-\noindent
-Note that $r=\mathtt{false}$ in all the unknown slots. 
-We can simplify the Boolean expression:
+\vspace{10pt}
+{\bf Question 2.} Answer:
 \begin{align}
-E & \equiv \neg(r \rightarrow \neg q) \vee (p \wedge \neg r) \equiv \nonumber \\
-  & \equiv \neg(\mathtt{false} \rightarrow \neg q) \vee 
-(p \wedge \mathtt{true}) \equiv  \nonumber \\
-  & \equiv \neg(\mathtt{true}) \vee p \equiv \nonumber \\
-  & \equiv \mathtt{false} \vee p \equiv p. \nonumber
+ & \exists x_1 \in \mathbb{Z}^{+}\,\exists x_2 \in \mathbb{Z}^{+}\,
+\forall x_3 \in \mathbb{Z}^{+}, \nonumber \\
+ & \left( x_1 \neq x_2 \wedge f(x_1)=0 \wedge f(x_2) = 0 \right) \wedge \nonumber \\
+\wedge & \left( f(x_3) = 0 \rightarrow x_3 = x_1 \vee x_3 = x_2 \right). 
+\nonumber
 \end{align}
-Therefore we simply copy the value of $p$ in all four places.
+{\em Recite:} ``There exist two positive integers $x_1,x_2$ 
+such that they are different and 
+both of them are roots of $f(x)=0$ and, 
+furthermore, for any other root $x_3$, it 
+equals either $x_1$ or $x_2$.''
 
 \vspace{10pt}
-{\bf Question 2:} Answer: {\bf (C)}.\\
-The truth table is identical to $p \oplus q$ (exclusive OR). 
-To see that answer {\bf (C)} is correct, apply De Morgan's law multiple times:
-\begin{align}
-\neg (\neg ( p \wedge \neg q) \wedge \neg (\neg p \wedge q)) & \equiv \nonumber \\
-\neg \neg (p \wedge \neg q) \vee \neg \neg (\neg p \wedge q) & \equiv \nonumber \\
-(p \wedge \neg q) \vee (\neg p \wedge q). & \nonumber
-\end{align}
-
-The last expression is exactly the exclusive OR (either $p$ is {\tt true} and
-$q$ is {\tt false} or vice versa).
-
-\vspace{10pt}
-{\bf Question 3:} Answer: Yes,
-$(\neg p \vee \neg q) \wedge (p \rightarrow q)$ is 
-satisfiable.\\
-Subexpression $(\neg p \vee \neg q)$ tells that either $p$ 
-or $q$ (or both) should be {\tt false}. So, you should take
-$p = \mathtt{false}$ to make $p \rightarrow q$ {\tt true} as well. 
+{\bf Question 3.} Answer:\\
+\underline{The following functions are called: {\tt a(x)}, 
+{\tt c(x)}, {\tt d(x)}.}\\
+Function {\tt b(x)} is not called, because 
+short-circuit operator {\bf or} 
+skips the second argument in ``{\tt a(x) or b(x)}'', 
+if the first argument is {\tt True}.
 
 
-\vspace{10pt}
-{\bf Question 4.} Answer: $\neg A \rightarrow \neg B$ (or $B \rightarrow A$).\\
-Condition $C$ is called {\em sufficient} for the result $R$, if 
-$R$ is {\tt true} whenever $C$ is {\tt true}. 
-This means that {\bf not} eating vegetables logically implies {\bf not} 
-getting ice cream. It is exactly $\neg A \rightarrow \neg B$.\\
-You can rewrite it as a contrapositive, if you like: $B \rightarrow A$:
-getting ice cream implies having eaten vegetables. Both answers are
-equivalent.
 
-\vspace{10pt}
-{\bf Question 5.} Answer: Yes, $E_1$ and $E_2$ are logically equivalent 
-(they mean the same thing).
-Consequently, there is no way to assign $p,q,r$ to make their truth values different.
 
-\begin{itemize}
-\item $p \rightarrow (\neg q \wedge r)$ means that either condition ($p$) is {\tt false} or 
-the conclusion ($\neg q \wedge r$) is {\tt true}. So, $E_1$ can be rewritten as 
-$\neg p \vee (\neg q \wedge r)$.
-\item In $E_2$ the subexpression 
-$\neg(r \rightarrow q)$ can be rewritten as $(r \wedge \neg q)$
-(for the implication $r \rightarrow q$ to be {\tt false}, you should have
-both $r = \mathtt{true}$ and $q = \mathtt{false}$, so it 
-means $(r \wedge \neg q)$. And that is exactly the same expression we got 
-from $E_1$, since $(r \wedge \neg q) = (\neg q \wedge r)$
-\end{itemize}
 
 
 
 \vspace{10pt}
-{\bf Question 6.} Answer: $(r \wedge h) \rightarrow t$\\
-"Only if" means {\bf necessity}. Namely, $(r \wedge h)$ implies $t$, 
-or $(r \wedge h) \rightarrow t$ (Ability to use a high occupancy road during a rush 
-hour implies at least three people in the car.)\\
-You can rewrite this as a contrapositive (and expand $(r \wedge h)$ 
-with De Morgan's law). Say, "If you do not have three people
-in your car, then it is either not a high occupancy road, or it is not a rush hour."
-This is an equivalent statement $\neg t \rightarrow (\neg r \vee \neg h)$. 
+{\bf Question 4.} Answer: {\bf (a)}
+$$\boxed{W\,:\,C \times H \rightarrow \{ \mathtt{T}, \mathtt{F} \}.}$$
+{\em Note.} In Coq the set of ``True'' and ``False'' 
+is denoted by {\tt Prop} or $\{ \mathtt{T}, \mathtt{F} \}$.\\
+{\bf (b)} 
+$$\boxed{\forall c_1 \in C \; \forall c_2 \in C \; \exists h \in H,
+W(c_1,h) \wedge W(c_2,h).}$$
+Every two
+children have at least one hat in common (that is, both
+of them have worn it).
+
+
+
+\vspace{10pt}
+{\bf Question 5.} Answers:\\
+{\bf (a)} \underline{Every human has a father.}\\
+{\bf (b)} \underline{There exists someone, who is the father of everyone.}\\
+{\bf (c)} \underline{Both (a) and (b) are false for empty sets.}\\
+Every time we write $\exists x \in \mathcal{Z}$
+regarding anything (where $\mathcal{Z} = \emptyset$ \textendash{}
+an empty set) it is false. 
+
+On the other hand, this statement is {\tt True}: 
+$$\forall x \in \mathcal{Z} \; \forall y \in \mathcal{Z},\; F(x,y) \equiv \mathtt{True}.$$
+{\em Recite:} ``In the (empty) set $\mathcal{Z}$ of all 
+zombies, any zomby is a father of any other zomby.''\\
+{\em Note.} For empty domains we do not need to know anything 
+about the predicate values, because their truth tables have
+zero rows and zero columns. You can also safely state the negation:
+``No zomby is a father of another zomby.''
+$$\forall x \in \mathcal{Z} \; \forall y \in \mathcal{Z},\; \neg F(x,y) \equiv \mathtt{True}.$$
 
 
 \vspace{10pt}
-{\bf Question 7a.} Answer: $A$ is a knave; $B$ is a knight.\\
-We sort cases.\\
-(1) Assume that $A$ is a knight. He says that $B$ is a knave (and that must be true, 
-since $A$ does not lie). 
-But then $B$ should lie, when he says "At least one of us is a knight". 
-The opposite of "At least one" ($\geq 1$) is "less than one" ($<1$); so in this
-case there should be no knights at all. This is a contradiction. Therefore $A$ cannot be a knight.\\
-(2) Assume that $A$ is a knave. Since he says that $B$ is a knave, $B$ should be a knight. 
-And moreover, since $B$ says that "at least one of us is a knight", then 
-it is still consistent, because he is a knight himself. 
+{\bf Question 6.} Answers:\\
+{\bf (a)} False. In the truth table of $P$, there is NO 
+column (denoted by $x$) containing $\mathtt{T}$ in 
+every row.\\
+{\bf (b)} True. In the truth table of $P$ there is a row $x$ 
+(it is the last row $x = \mathtt{c}$), containing
+$\mathtt{T}$ in every column.\\
+{\bf (c)} True. We can indeed make $Q(x,y)$ true, if we pick 
+row and column. For example $Q(\mathtt{c},\mathtt{a}) = \mathtt{T}$.\\
+{\bf (d)} True. For any row in the truth table of $Q$, 
+we can find at least one $\mathtt{T}$ in some column. 
+
 
 \vspace{10pt}
-{\bf Question 7b.} TBD (I can explain this in the class, if you wish.)
+{\bf Question 7.} Answer:\\
+$$\exists k \in \mathbb{Z}, x < k \wedge x+0.5 \geq k.$$
+In this example $\lfloor x \rfloor = k-1$, but
+$\lfloor x+0.5 \rfloor = k$, so they are different.
+
+
+
 
 
 

@@ -1,3 +1,4 @@
+(*
 #<h2>What is Coq</h2># 
 
 Here we introduce the
@@ -29,6 +30,26 @@ Search bool.
 
 Check true.
 Check false.
+
+
+Eval compute in orb true false.
+Eval compute in true || false.
+Eval compute in andb true false.
+Eval compute in true && false.
+Eval compute in negb false.
+Eval compute in if true then 3 else 4.
+
+Definition a := true.
+Eval compute in orb a (negb a).
+
+Definition eMiddle (a:bool): bool :=
+  orb a (negb a).
+Eval compute in eMiddle true.
+
+Definition Nor (a b:bool): bool :=
+  negb (orb a b).
+Eval compute in Nor true true.
+
 
 Eval compute in andb true false.
 Eval compute in true && false.
