@@ -21,7 +21,7 @@ def get_backlinks():
     cur_skill = ''
     cur_probid = ''
     for prob_dir in prob_dir_lst:
-        with open('src/site/prob/%s/content.md' % prob_dir) as prob_input:
+        with open('src/site/problembase/%s/content.md' % prob_dir) as prob_input:
             for prob_lin in prob_input:
                 if re.match('# <lo-sample/> .*', prob_lin):
                     cur_probid = re.sub('# <lo-sample/> ([^\s]+)','\g<1>', prob_lin).strip()
@@ -50,7 +50,7 @@ def get_task_table():
     response.encoding = 'utf-8'
     csv_lines = response.text.splitlines()
     tasks = csv.reader(csv_lines)
-    with open('src/site/tasks/task-analysis.csv', 'w+') as csv_out:
+    with open('src/site/numtheory/analysis/task-analysis.csv', 'w+') as csv_out:
         for csv_line in csv_lines:
             csv_out.write(csv_line)
             csv_out.write('\n')
@@ -60,7 +60,7 @@ def get_task_table():
 
 def get_task_table_local():
     task_lines = list()
-    with open('src/site/tasks/task-analysis.csv') as csv_in:
+    with open('src/site/numtheory/analysis/task-analysis.csv') as csv_in:
         for csv_line in csv_in:
             task_lines.append(csv_line)
         #csv_lines = csv_in.splitlines()
@@ -96,8 +96,8 @@ def main():
         os.chdir("../../..")
         print('Changed working directory to "%s"' % os.getcwd())
     
-    ##the_table = get_task_table()
-    the_table = get_task_table_local()
+    the_table = get_task_table()
+    #the_table = get_task_table_local()
     task_lst = make_lst(the_table)
     
     

@@ -87,7 +87,7 @@ def build_static(SRC,DEST):
 
 
 def main(): 
-#    sync_all.main()
+    sync_all.main()
     resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs', 'discrete'] 
 # ..., 'datasearch']
     skip_directories = ['source-material','static','analysis',

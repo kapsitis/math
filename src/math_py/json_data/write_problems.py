@@ -43,7 +43,7 @@ def get_prob_tasks():
     cur_probid = ''
     
     for prob_dir in prob_dir_lst:
-        with open('src/site/prob/%s/content.md' % prob_dir) as prob_input:
+        with open('src/site/problembase/%s/content.md' % prob_dir) as prob_input:
             for prob_lin in prob_input:
                 if re.match('^# <lo-sample/> .*', prob_lin):
                     cur_probid = re.sub('# <lo-sample/> ([^\s]+)','\g<1>', prob_lin).strip()
