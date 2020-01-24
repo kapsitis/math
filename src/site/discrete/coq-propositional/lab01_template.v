@@ -8,6 +8,94 @@ In this task replace all stubs "tauto" and "Admitted" with meaningful proofs.
 
 Lemma training1_0: forall a:Prop, a -> ~~a.
 Proof. 
+   intros a. 
+   intros H.  (* aTrue *)
+   unfold not.
+   intros H1.  (* aFalse *)
+   apply H1 in H as H2. 
+(* This is the same thing
+   pose (H1 H) as CONTRA.
+*)
+   contradiction H2.
+Qed.
+
+Require Import Classical_Prop.
+
+Print Classical_Prop.
+
+
+
+Lemma training1_0a: forall a:Prop, ~~a -> a.
+Proof. 
+  intros a.
+  unfold not.
+  intros H.
+  pose (classic a) as EM.
+  destruct EM as [H1 | H2].
+  exact H1.
+  pose (H H2) as CONTRA.
+  contradiction CONTRA.
+Qed.
+
+
+Lemma training1_0b: forall a b:Prop, 
+   (~a -> b) -> (a \/ b).
+Proof. 
+  intros a b.
+  intros H.
+  pose (classic a) as EM.
+  destruct EM as [H1 | H2].
+  left.
+  exact H1.
+  pose (H H2) as bTrue.
+  right. 
+  exact bTrue.
+Qed.
+
+
+Variable a b: Prop.
+Check a. 
+Check a -> b.
+
+Lemma avb: forall a b: Prop, 
+  (a \/ b) -> (~a -> b).
+Proof. 
+  intros a b. 
+  intros H.
+  intros H1.
+  destruct H as [aTrue | bTrue]. 
+  contradiction.
+  exact bTrue.
+Qed.
+
+
+
+
+
+(* auto; 
+contradiction; 
+
+pose (aFalse aTrue) as CONTRA; 
+*)
+
+
+Show Script.
+
+
+Le
+mma sample1_3: forall a b: Prop, ((a -> b) -> a) -> a.
+Proof.
+   intuition.
+Qed.
+
+
+(*
+  Admitted.
+*)
+
+
+
+(*
   intros a.
   unfold not.
   intros aTrue.
@@ -15,6 +103,9 @@ Proof.
   apply aFalse.
   exact aTrue.
 Qed.
+*)
+
+
 
 (** ** Do not modify this line: training1_1 *)
 

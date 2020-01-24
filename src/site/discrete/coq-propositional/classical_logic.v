@@ -1,33 +1,24 @@
-(** #<a href="../../discrete/assignments.html">Back to Discrete Assignments</a># 
+(** #<a href="../../discrete/coq.html">Back to Discrete Assignments</a># *)
 
-#<h2>What is Intuitionistic logic</h2># 
+(** * What is Intuitionistic logic *)
 
-Propositional logic expressions that are 
+(** Propositional logic expressions that are 
 straightforward to prove using Coq tactics
 are part of so called Intuitionistic logic 
 (#<i>lv:intuicionisma loģika</i>#). They 
 do not use the Law of Excluded Middle 
-(#<i>lv:trešā izslēgtā likumu</i>#, #<i>la:Tertium non datur</i>#).
+(#<i>lv:trešā izslēgtā likumu</i>#, 
+#<i>la:Tertium non datur</i>#).
 *)
 
 (*
 Require Import Logic.
 Require Import  ClassicalFacts.
-Require Import Classical_Prop.
+
 *)
 
 
-
-Lemma sample1: forall A, ~ ~ A /\ ~ A -> A.
-Proof.
-  unfold not.
-  intros A H.
-  destruct H as [H1 H2].
-  pose (H1 H2) as H3.
-  contradiction H3.
-Qed.
-
-Lemma sample2: forall A: Prop, A -> ~~A.
+Lemma sample2: forall a: Prop, a -> ~~a.
 Proof.
   unfold not. 
   intros A H1 H2.
@@ -35,119 +26,142 @@ Proof.
   exact H3.
 Qed.
 
-(** This sample is not yet proven in Coq, but
-it could also be part of intuitionist logic, 
-even though it has many negations. If you do not want
-to complete the proof, write #<tt>Admitted.</tt>#
-instead of full proof ended by #<tt>Qed.</tt>#. 
-*)
-
-Lemma sample3: forall A, ~ ~ (~ ~ A -> A).
-Proof. 
-  Admitted.
-
-
-(** #<h2>What is Classical Logic</h2># 
-
-Classical logic 
-Šis likums nozīmē, ka "A \/ ~A" - tātad vienmēr 
-ir patiess vai nu izteikums "A" vai arī "~A". 
-Lai ar to varētu spēlēties, ir jāimportē Coq 
-interaktīvajā vidē aksiomas un galvenie apgalvojumi, 
-kas saistīti ar klasisko loģiku.
-*) 
 
 Require Import Classical_Prop.
 
-(** Svarīgas "Trešā izslēgtā likuma" sekas ir 
-iespēja nomest divkāršas negācijas. 
-Šāds pierādījums no pretējā ļoti stipri atšķiras
-no agrāk iegūtā #<tt>sample2</tt>#, kurš bija 
-intuicionisma piemērs.
-*) 
-
-Print classic.
-Check classic.
-
-
-
-
-Lemma sample4: forall p: Prop, ~~p -> p. 
-Proof.
-  intros p. (*r 1nd part: ~~p -> p *)
-  unfold not.
+Lemma sample3: forall a, ~ ~ (~ ~ a -> a).
+Proof. 
+  intros a. 
+  apply sample2.
+  unfold not. 
   intros H.
-  elim (classic p).
-  intros PTrue; exact PTrue. 
-  intro PFalse.
-  pose (H PFalse) as CONTRA.
+  destruct (classic a) as [aTrue | aFalse].
+  exact aTrue.
+  pose (H aFalse) as CONTRA.
   contradiction CONTRA.
 Qed.
 
 
-(** #<h2>Intuicionisma loģikas priekšrocības</h2>#
+Lemma sample4: forall a: Prop, ~~a -> a. 
+Proof.
+  intros a. 
+  unfold not.
+  intros H.
+  destruct (classic a) as [aTrue | aFalse].
+  exact aTrue.
+  pose (H aFalse) as CONTRA.
+  contradiction CONTRA.
+Qed.
 
-#<b>Apgalvojums:</b># Intuicionisma loģikas 
-pasaulē visas funkcijas no reāliem skaitļiem uz reāliem 
-skaitļiem ir nepārtrauktas. 
-#<br/>#
-Pierādījums iziet ārpus mūsu kursa ietvariem, bet
-skaidrojums ir aptuveni šāds: Klasiskās loģikas ietvaros katrs skaitlis
-ir vai nu mazāks par 0 (#<tt>x&lt;0</tt>#), vai arī ir 
-lielāks vai vienāds par 0 (#<tt>x&gt;=0</tt>#). Nekādas 
-trešās iespējas nav, jo neviens nepazīst tādus reālus skaitļus, 
-kuri nebūtu ne mazāki, ne vienādi, ne lielāki par 0. 
-Tiklīdz kā mēs katram #<tt>x</tt># varam pateikt, vai tas ir 
-negatīvs vai arī lielāks/vienāds par 0, tad varam uztaisīt
-funkciju ar pārtraukumu: Piemēram, funkciju, kura ir -1 negatīviem 
-argumentiem, bet +1 pozitīviem argumentiem vai 0. 
-#<br/>#
-Intuicionisma loģikas pasaulē mums skaitlis #<tt>x</tt>#
-nav iedots uzreiz, bet gan tas atklājas pakāpeniski, 
-darbinot kaut kādu aprēķina procedūru - jo ilgāk rēķina, jo precīzāku 
-vērtību iegūst. Var gadīties, ka ļoti ilgi mēs 
-saņemam vērtības, kuras nav atšķiramas no 0. Tātad skaitlis 
-var būt 0. No otras puses, turpinot šo aprēķinu vēl tālāk, varētu 
-atklāties, ka x patiesībā ir negatīvs. 
-#<br/>#
-Intuicionisma pasaulē nav grūti definēt izrēķināmas, nepārtrauktas
-funkcijas, teiksim, kāpināt kvadrātā. Ja gribam precīzāku funkcijas vērtību, 
-sagaidām pietiekami precīzu argumenta vērtību. 
-Bet nekādus pārtraukumus/lēcienus izveidot neizdodas
-kaut vai tāpēc, ka reālus skaitļus (ne šajā loģikā, ne 
-arī datoru pasaulē) nevar allaž salīdzināt ar 0, cerot gūt 
-rezultātu galīgā skaitā soļu.
-#<br/>#
-#<b>Piezīme:</b># Veselu skaitļu funkcijas, protams, var 
-taisīt lēcienus, jo veselam skaitlim (arī intuicionisma pasaulē) 
-ir pilnīgi skaidrs, vai tas ir mazāks par 0, vai arī vienāds/lielāks
-par 0. 
+(*
+https://stackoverflow.com/questions/14644086/proving-p-q-q-p-using-coq-proof-assistant
 *)
+Theorem easy_contrapos: forall a b:Prop, (a->b)->(~b->~a).
+Proof. 
+  intros a b. 
+  intros H1.
+  intros bFalse.
+  unfold not.
+  intros aTrue.
+  apply bFalse.
+  apply H1.
+  exact aTrue.
+Qed.
 
 
-(** #<h2>Kura loģika darbojas rīkā Coq?</h2>#
+Theorem hard_contrapos_with_nnpp: forall a b:Prop, (~b -> ~a) -> (a -> b).
+Proof.
+  intros a b. 
+  intros H1.
+  intros aTrue.
+  apply NNPP.
+  intros H2.
+  apply H1 in H2.
+  contradiction.
+Qed.
 
-Rīkam Coq ir vienalga, ar kādām aksiomām lietotājs strādā. 
-Pats rīks uzspiež pierādījuma soļus jeb "taktikas", kuras
-ļauj no aksiomām izvest lemmas un teorēmas, bet 
-sākotnējās aksiomas katrs var definēt pats. To var izmantot, ja 
-vajag definēt pavisam jaunus spēles noteikumus,
-piemēram, sākt uzreiz ar polinomu algebru vai "parastu" skaitļu 
-matemātikas vietā izdarīt apgalvojumus par Rubika kuba stāvokļiem.
 
-Pamatojot apgalvojumus izteikumu loģikā (#<i>propositional logic</i>#) 
-klasiskā no intuicioniskās loģikas atšķiras, bet šī atšķirība 
-nav principiāla, jo visi pierādījumi šīs
-loģikas ietvaros nozīmē darbošanos ar (iespējams, ļoti lielām, bet
-tomēr galīgām) patiesuma tabulām (#<i>truth tables</i>#). 
-Tas nozīmē, ka ikviens pierādījums
-ir konstruktīvs un pārbaudāms ar algoritmu. 
-Tas gan nenozīmē, ka arī galīgiem/kombinatoriskiem
-uzdevumiem reizēm nevarētu 
-izmantot nekonstruktīvus "pierādījumus no pretējā".
-Tiklīdz kā apgalvojumi ir par bezgalīgām kopām (piemēram, 
-naturālo skaitļu kopu), tad atšķirības kļūst pavisam ievērojamas.
-*)
+Lemma double_negation_elimination: forall a:Prop,
+  ~~a -> a.
+Proof. 
+  intros a.
+  unfold not.
+  intros H1.
+  pose (classic a) as H2.
+  destruct H2 as [aTrue | aFalse].
+  exact aTrue.
+  absurd (~a); trivial.
+Qed.
+
+
+Lemma double_negation_constructive: forall a:Prop,
+  a -> ~~a.
+Proof. 
+  intros a. 
+  intros aTrue.
+  unfold not.
+  intros aFalse.
+  absurd a; trivial.
+Qed.
+
+
+Lemma Peirce1 : forall a:Prop, ((a -> False) -> a) -> a.
+Proof.
+  intros.
+  apply double_negation_elimination.
+  unfold not.
+  intros aFalse.
+  pose (H aFalse) as aTrue.
+  pose (aFalse aTrue) as CONTRA.
+  contradiction CONTRA.
+Qed.
+
+
+
+Lemma Peirce2 : forall a:Prop, ((a -> False) -> a) -> a.
+Proof.
+  intros a. 
+  intros H. 
+  destruct (classic a) as [aTrue | aFalse].
+  exact aTrue.
+  pose (H aFalse) as aTrue.
+  exact aTrue.
+Qed.
+
+
+
+Lemma de_morgan_not_and_not: forall a b:Prop,
+  ~(~a /\ ~b) -> a \/ b.
+Proof. 
+  intros a b.
+  unfold not.
+  intros H.
+  pose (classic a) as H1.
+  destruct H1 as [aTrue | aFalse]. 
+  left; exact aTrue.
+  pose (classic b) as H2.
+  destruct H2 as [bTrue | bFalse].
+  right; exact bTrue.
+  assert (~a /\ ~b) as H3.
+  split.
+  exact aFalse.
+  exact bFalse.
+  pose (H H3) as CONTRA.
+  contradiction CONTRA.
+Qed.
+
+
+Lemma implies_to_or: forall a b:Prop,
+  (a -> b) -> (~a \/ b).
+Proof. 
+  intros a b.
+  intros H1.
+  pose (classic a) as H2.
+  destruct H2 as [aTrue | aFalse].
+  pose (H1 aTrue) as bTrue.
+  right; exact bTrue.
+  left; exact aFalse.
+Qed.
 
 
 
