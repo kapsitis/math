@@ -52,6 +52,10 @@ def build_coq(srcDir,destDir):
             subprocess.call(['coqdoc','-d',destDir, vff], cwd=srcDir)
     for filename in glob.glob(os.path.join(srcDir, '*.png')):
         shutil.copy(filename, destDir)
+    # It is important to copy V files (since ORTUS breaks plaintext)
+    for filename in glob.glob(os.path.join(srcDir, '*.v')):
+        shutil.copy(filename, destDir)
+
 
 def build_static(SRC,DEST):
     rmDirectory(DEST)

@@ -1,0 +1,128 @@
+DIGEST 97c6650878523cd018802756c9675f7f
+Fclassical_logic
+R5549:5562 Coq.Logic.Classical_Prop <> <> lib
+prf 5572:5598 <> double_negation_elimination
+R5620:5623 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5624:5624 classical_logic <> a var
+R5617:5617 Coq.Init.Logic <> :type_scope:'~'_x not
+R5618:5618 Coq.Init.Logic <> :type_scope:'~'_x not
+R5619:5619 classical_logic <> a var
+R5657:5659 Coq.Init.Logic <> not def
+R5686:5692 Coq.Logic.Classical_Prop <> classic prfax
+R5686:5692 Coq.Logic.Classical_Prop <> classic prfax
+prf 5801:5819 <> double_negation_rev
+R5839:5842 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5843:5843 Coq.Init.Logic <> :type_scope:'~'_x not
+R5844:5844 Coq.Init.Logic <> :type_scope:'~'_x not
+R5845:5845 classical_logic <> a var
+R5838:5838 classical_logic <> a var
+R5876:5878 Coq.Init.Logic <> not def
+prf 5985:6007 <> double_negation_variant
+R6020:6021 Coq.Init.Logic <> :type_scope:'~'_x not
+R6022:6024 Coq.Init.Logic <> :type_scope:'~'_x not
+R6035:6035 Coq.Init.Logic <> :type_scope:'~'_x not
+R6030:6033 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6034:6034 classical_logic <> a var
+R6025:6026 Coq.Init.Logic <> :type_scope:'~'_x not
+R6027:6028 Coq.Init.Logic <> :type_scope:'~'_x not
+R6029:6029 classical_logic <> a var
+R6067:6085 classical_logic <> double_negation_rev thm
+R6067:6085 classical_logic <> double_negation_rev thm
+R6097:6099 Coq.Init.Logic <> not def
+R6127:6133 Coq.Logic.Classical_Prop <> classic prfax
+R6127:6133 Coq.Logic.Classical_Prop <> classic prfax
+prf 6338:6351 <> hard_contrapos
+R6371:6371 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6380:6385 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6392:6392 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6387:6390 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6391:6391 classical_logic <> b var
+R6386:6386 classical_logic <> a var
+R6374:6377 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6378:6378 Coq.Init.Logic <> :type_scope:'~'_x not
+R6379:6379 classical_logic <> a var
+R6372:6372 Coq.Init.Logic <> :type_scope:'~'_x not
+R6373:6373 classical_logic <> b var
+R6454:6457 Coq.Logic.Classical_Prop <> NNPP thm
+R6454:6457 Coq.Logic.Classical_Prop <> NNPP thm
+prf 6522:6535 <> easy_contrapos
+R6555:6555 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6560:6563 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6570:6570 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6566:6567 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6568:6568 Coq.Init.Logic <> :type_scope:'~'_x not
+R6569:6569 classical_logic <> a var
+R6564:6564 Coq.Init.Logic <> :type_scope:'~'_x not
+R6565:6565 classical_logic <> b var
+R6557:6558 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6559:6559 classical_logic <> b var
+R6556:6556 classical_logic <> a var
+R6635:6637 Coq.Init.Logic <> not def
+prf 6715:6742 <> double_negation_constructive
+R6763:6766 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6767:6767 Coq.Init.Logic <> :type_scope:'~'_x not
+R6768:6768 Coq.Init.Logic <> :type_scope:'~'_x not
+R6769:6769 classical_logic <> a var
+R6762:6762 classical_logic <> a var
+R6818:6820 Coq.Init.Logic <> not def
+prf 6874:6880 <> Peirce1
+R6899:6899 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6917:6921 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6922:6922 classical_logic <> a var
+R6900:6900 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6911:6915 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6916:6916 classical_logic <> a var
+R6902:6905 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6906:6910 Coq.Init.Logic <> False ind
+R6901:6901 classical_logic <> a var
+R6950:6976 classical_logic <> double_negation_elimination thm
+R6950:6976 classical_logic <> double_negation_elimination thm
+R6988:6990 Coq.Init.Logic <> not def
+prf 7109:7115 <> Peirce2
+R7134:7134 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7152:7156 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7157:7157 classical_logic <> a var
+R7135:7135 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7146:7150 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7151:7151 classical_logic <> a var
+R7137:7140 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7141:7145 Coq.Init.Logic <> False ind
+R7136:7136 classical_logic <> a var
+R7205:7211 Coq.Logic.Classical_Prop <> classic prfax
+R7205:7211 Coq.Logic.Classical_Prop <> classic prfax
+prf 7309:7329 <> de_morgan_not_and_not
+R7362:7365 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7367:7370 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R7366:7366 classical_logic <> a var
+R7371:7371 classical_logic <> b var
+R7351:7352 Coq.Init.Logic <> :type_scope:'~'_x not
+R7361:7361 Coq.Init.Logic <> :type_scope:'~'_x not
+R7355:7358 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7353:7353 Coq.Init.Logic <> :type_scope:'~'_x not
+R7354:7354 classical_logic <> a var
+R7359:7359 Coq.Init.Logic <> :type_scope:'~'_x not
+R7360:7360 classical_logic <> b var
+R7405:7407 Coq.Init.Logic <> not def
+R7430:7436 Coq.Logic.Classical_Prop <> classic prfax
+R7430:7436 Coq.Logic.Classical_Prop <> classic prfax
+R7513:7519 Coq.Logic.Classical_Prop <> classic prfax
+R7513:7519 Coq.Logic.Classical_Prop <> classic prfax
+R7600:7603 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7598:7598 Coq.Init.Logic <> :type_scope:'~'_x not
+R7604:7604 Coq.Init.Logic <> :type_scope:'~'_x not
+R7600:7603 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7598:7598 Coq.Init.Logic <> :type_scope:'~'_x not
+R7604:7604 Coq.Init.Logic <> :type_scope:'~'_x not
+prf 7718:7730 <> implies_to_or
+R7752:7752 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7759:7764 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7772:7772 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7767:7770 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R7765:7765 Coq.Init.Logic <> :type_scope:'~'_x not
+R7766:7766 classical_logic <> a var
+R7771:7771 classical_logic <> b var
+R7754:7757 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7758:7758 classical_logic <> b var
+R7753:7753 classical_logic <> a var
+R7818:7824 Coq.Logic.Classical_Prop <> classic prfax
+R7818:7824 Coq.Logic.Classical_Prop <> classic prfax
