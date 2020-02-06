@@ -1,0 +1,234 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+
+
+\title{Sample Quiz 4}
+\author{Discrete Structures, Fall 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Sample Quiz 4}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\twocolumn
+{\Large Discrete Quiz 4}
+
+\vspace{10pt}
+{\bf Question 1.} Define the universe $U$ to be all possible remainders 
+when we divide by $360$: $\{ 0, 1, 2, \ldots, 359 \}$. 
+Also define $3$ subsets in this universe: 
+$$\left\{ \begin{array}{rcl}
+K_2 & = & \{ x \in U \,\mid\, x\;\text{divisible by}\;2 \},\\
+K_3 & = & \{ x \in U \,\mid\, x\;\text{divisible by}\;3 \},\\
+K_5 & = & \{ x \in U \,\mid\, x\;\text{divisible by}\;5 \},\\
+\end{array} \right.$$
+
+Denote by $\Phi$ the subset of $U$ containing all numbers
+that are mutually prime with $360$ (no common divisors greater than $1$):
+$$\Phi = \{1,7,11,13,\ldots,359\}.$$
+Which set equality is valid regarding the subset $\Phi$:
+
+{\large
+\noindent
+{\bf (A)} $\left| K_2 \cup K_3 \cup K_5 \right|$\\
+{\bf (B)} $\left| K_2 \cap K_3 \cap K_5 \right|$\\
+{\bf (C)} $\left| \overline{K_2} \cup \overline{K_3} \cup \overline{K_5} \right|$\\
+{\bf (D)} $\left| \overline{K_2} \cap \overline{K_3} \cap \overline{K_5} \right|$\\
+{\bf (E)} $\left| \overline{K_2 \cap K_3} \cup \overline{K_2 \cap K_5} \cap \overline{K_3 \cap K_5} \right|$
+}
+
+\vspace{6pt}
+{\bf Question 2.}
+Find a counterexample to refute the following predicate expression:\\
+$(\exists x \in U,\;P(x)) \wedge (\exists x\in U,\;Q(x)) \rightarrow$\\
+$\rightarrow \exists x\in U,\;(P(x) \wedge Q(x))$.\\
+Here $P(x)$ is true iff $P$ is a full square (a square of some integer number), 
+$Q(x)$ is true iff $x$ is divisible by $5$, and $U$ is the set of all integers 
+from the interval $[120;130]$.\\
+{\em Note.} The three $x$'s in this formula refer to 
+three unrelated (local) variables. 
+If it looks confusing, you can rewrite it like this:\\
+$(\exists x_1 \in U,\;P(x_1)) \wedge (\exists x_2\in U,\;Q(x_2)) \rightarrow$\\
+$\rightarrow \exists x_3\in U,\;(P(x_3) \wedge Q(x_3))$.
+
+\noindent
+{\bf (A)} Identify the variables which you need to pick for your counter-example.\\
+{\bf (B)} Pick the values for these variables to make the above statement false.
+
+
+\vspace{6pt}
+{\bf Question 3.} We have the following sets:\\
+$A$ is the set of all finite sequences of even positive positive numbers (such as $(6,22,10,14,2,6)$, and so on)\\
+$B$ is the set of all infinite nondecreasing lists of even positive numbers (such as $(40 \leq 40 \leq 42 \leq 46 \leq \ldots)$, and so on)\\
+$C$ is the set of all infinite nonincreasing lists of even positive numbers (such as $(64 \geq 58 \geq 58 \leq 54 \geq \ldots)$, and so on).\\
+Clearly, all three sets are infinite. Determine their cardinalities - which list 
+of cardinalities is equal to the list  $(|A|,|B|,|C|)$?
+
+{\large
+\noindent
+{\bf (A)} $\left( \left| \mathbb{N} \right|, \left| \mathbb{N} \right|, \left| \mathbb{N} \right| \right)$. 
+{\bf (B)} $\left( \left| \mathbb{N} \right|, \left| \mathbb{R} \right|, \left| \mathbb{N} \right| \right)$.\\
+{\bf (C)} $\left( \left| \mathbb{N} \right|, \left| \mathbb{N} \right|, \left| \mathbb{R} \right| \right)$.\\
+{\bf (D)} $\left( \left| \mathbb{N} \right|, \left| \mathbb{R} \right|, \left| \mathbb{R} \right| \right)$.\\
+{\bf (E)} $\left( \left| \mathbb{R} \right|, \left| \mathbb{R} \right|, \left| \mathbb{R} \right| \right)$.\\
+}
+
+
+\vspace{6pt}
+{\bf Question 4.}
+Let ${\displaystyle f(x) = (x^2)\;\mathbf{mod}\;11$. Find the set $f(S)$ if $S = \{ 0,1,2,3,4,5,6,7,8,9,10 \}$. 
+Write the list of elements of $S$ in an increasing order without repetitions; separate them by commas without
+terminating comma or dot. For example, the set $\{1,2,3\}$ is written as follows: {\tt 1,2,3}
+
+
+
+
+\vspace{6pt}
+{\bf Question 5.}
+How many 2-element sets are there in the powerset $\mathcal{P}\left( \{ \{ \mathtt{A}, \mathtt{B} \}, \mathtt{C}, \mathtt{D}, \mathtt{E} \} \right)$? 
+
+
+\vspace{6pt}
+{\bf Question 6.}
+Given two sets $A = \{ x, y \}$ and $B = \{x, \{x \}\}$, check, if statements are true or false:
+\begin{enumerate}[(A)]
+\item $x \subseteq B$.
+\item $\emptyset \in \mathcal{P}(B)$.
+\item $\{x\} \subseteq A - B$.
+\item $|\mathcal{P}(A)| = 4$.
+\end{enumerate}
+
+
+\vspace{6pt}
+{\bf Question 7.}
+We define functions $g\,:\, A \rightarrow A$ and $f : A \rightarrow A$, where $A \{1, 2, 3, 4\}$ by 
+listing all argument-value pairs: 
+$$g = \{(1, 4), (2, 1), (3, 1), (4, 2)\},\;\;f = \{(1, 3), (2, 2), (3, 4), (4, 1)\}.$$
+Find these functions by listing their argument/value pairs (or establish that they do not exist).
+\begin{enumerate}[(A)]
+\item Find $f \circ g$.
+\item Find $g \circ f$.
+\item Find $g \circ g$.
+\item Find $g \circ (g \circ g)$.
+\item Find $f^{-1}$.
+\item Find $g^{-1}$.
+\end{enumerate}
+
+
+\vspace{6pt}
+{\bf Question 8.} Find the value of this infinite sum:
+$$1 - 1/3 + 1/9 - 1/27 + 1/81 - \ldots$. Write your answer as a simple fraction: {\tt P/Q}
+
+
+\vspace{6pt}
+{\bf Question 9.} Find an appropriate $O(g(n))$ for each function $f(n)$ defined below 
+(pick your $g(n)$ to be the slowest growing among the functions such that $f(n)$ is in $O(g(n))$). 
+\begin{enumerate}[(A)]
+\item $f(n) = 1^2 + 2^2 + \ldots + n^2$.
+\item ${\displaystyle f(n) = \frac{3n - 8 - 4n^3}{2n - 1}}$. 
+\item ${\displaystyle f(n) = \sum\limits_{k=1}^{n} k^3}$.
+\item ${\displaystyle f(n) = \frac{6n + 4n^5 - 4}{7n^2 - 3}}$. 
+\item ${\displaystyle f(n) = \sum\limits_{k=2}^{n} k\cdot(k-1)}$.
+\item ${\displaystyle f(n) = 3n^2 + 8n + 7}$
+\end{enumerate}
+
+\vspace{6pt}
+{\bf Question 10.}
+For the given functions, find an optimal $O(g(n))$; find
+$C$ and $n_0$ (from the definition $|f(n)| < C\cdot |g(n)|$ as long as $n > n_0$). 
+\begin{enumerate}[(A)]
+\item ${\displaystyle f(n) = 3n^4 + \log_2 n^8}$. 
+\item ${\displaystyle f(n) = \sum\limits_{k=1}^{n} (k^3 + k)}$.
+\item ${\displaystyle f(n) = (n + 2)\log_2 (n^2 + 1) + \log_2 (n^3 + 1)}$.
+\item ${\displaystyle f(n) = n^3 + \sin n^7}$.
+\end{enumerate}
+
+
+\vspace{6pt}
+{\bf Question 11.} One  This is a Python fragment; variable {\tt n} can become very large; {\tt t} is some
+fixed parameter. Denote by $f(n)$ the number of operations depending on the variable {\tt n}, 
+where an operation is an addition or a multiplication, or raising to the power 2.
+Find the slowest growing $g(n)$ so that $f(n)$ is in $O(g(n))$. 
+\begin{verbatim}
+sum = 0
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        sum += (i*t + j*t + 1)**2
+\end{verbatim}
+
+\vspace{6pt}
+{\bf Question 12.} There are two functions $f,g: \mathbb{R} \rightarrow \mathbb{R}$ defined
+for all real numbers and taking real values.
+Find, which predicate logic expressions describe a statement that is logically
+equivalent to the English sentence ``The function $f(n)$ is in $O(g(n))$''.\\
+{\em Note.} There may be multiple correct answers. 
+
+\begin{enumerate}[(A)]
+\item $\forall n \in \mathbb{R}\;\exists n_0 \in \mathbb{R}\;\exists C \in \mathbb{R},$\\
+$\left(n > n_0 \rightarrow |f(n)| \leq C\cdot{}|g(n)|\right)$. 
+\item $\exists n_0 \in \mathbb{R}\;\forall n \in \mathbb{R}\;\exists C \in \mathbb{R},$\\
+$(n > n_0 \rightarrow |f(n)| \leq C\cdot{}|g(n)|)$. 
+\item $\exists n_0 \in \mathbb{R}\;\exists C \in \mathbb{R}\;\forall n \in \mathbb{R},$\\
+$(n > n_0 \rightarrow |f(n)| \leq C\cdot{}|g(n)|)$. 
+\item $\exists n_0 \in \mathbb{R}\;\exists C \in \mathbb{R}\;\forall n \in \mathbb{R},$\\
+$(n > n_0 \rightarrow f(n) \leq C\cdot{}|g(n)|)$. 
+\item $\exists n_0 \in \mathbb{R}\;\exists C \in \mathbb{R}\;\forall n \in \mathbb{R},$\\
+$(n > n_0 \rightarrow |f(n)| \leq C\cdot{}g(n))$. 
+\item $\exists n_0 \in \mathbb{R}\;\exists C \in \mathbb{R}\;\forall n \in \mathbb{R},$\\
+$(n \geq n_0 \rightarrow |f(n)| < C\cdot{}|g(n)|)$. 
+\item $\exists n_0 \in \mathbb{Z}^{+}\;\exists C \in \mathbb{Z}^{+}\;\forall n \in \mathbb{R},$\\
+$(n > n_0 \rightarrow |f(n)| \leq C\cdot{}|g(n)|)$. 
+\end{enumerate}
+
+
+
+
+\end{document}
+
