@@ -58,7 +58,7 @@ def make_lst(tasks):
         row_count += 1
         if row_count == 1:
             continue
-        curr_week = row[0]
+        curr_week = row[0].strip()
         if curr_week != prev_week_id:
             week_count += 1
             week_list.append(copy.deepcopy(empty_week))
