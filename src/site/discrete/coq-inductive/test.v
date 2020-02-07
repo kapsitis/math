@@ -429,6 +429,17 @@ Proof.
 Qed.
 
 
+Theorem andb_true_elim2 : forall b c : bool,
+  andb b c = true -> c = true.
+Proof.
+  intros [] []. 
+  - reflexivity.
+  - simpl. trivial.
+  - simpl. trivial.
+  - simpl. trivial.
+Qed.
+  
+
 
 
 
@@ -442,9 +453,8 @@ Definition implb (b1:bool) (b2:bool) : bool :=
   match b1 with 
   | true => b2
   | false => true
-  end. 
+  end.
 
-(** Unit tests *)
 Example test_implb1: (implb true true) = true.
 Proof. reflexivity. Qed.
 
