@@ -14,6 +14,8 @@
 *.log
 *.out
 *.pyc
+*.glob
+*.vo
 *.run.xml
 */.Rhistory
 **/.Rhistory
@@ -21,6 +23,8 @@
 **/.RData
 **/*solutions.*
 **/*solution.*
+!src/site/discrete/coq-propositional/lab01_tasks_solutions.v
+!src/site/discrete/coq-propositional/lab01_template_solutions.v
 bin/
 target/
 src/target

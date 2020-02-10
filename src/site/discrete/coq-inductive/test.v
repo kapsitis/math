@@ -434,13 +434,41 @@ Theorem andb_true_elim2 : forall b c : bool,
 Proof.
   intros [] []. 
   - reflexivity.
-  - simpl. trivial.
-  - simpl. trivial.
-  - simpl. trivial.
+  - simpl. intros H. exact H.
+  - simpl. intros H. discriminate.
+  - simpl. intros H. exact H.
 Qed.
   
+Theorem zero_nbeq_plus_1 : forall n : nat,
+  0 =? (n + 1) = false.
+Proof.
+  intros n. 
+  induction n.
+  simpl. reflexivity.
+  Admitted.
 
 
+
+
+Theorem identity_fn_applied_twice :
+  forall (f : bool -> bool),
+  (forall (x : bool), f x = x) ->
+  forall (b : bool), f (f b) = b.
+Proof.
+  (* FILL IN HERE *) Admitted.
+
+
+
+Inductive bin : Type :=
+  | Z
+  | A (n : bin)
+  | B (n : bin).
+
+
+Fixpoint incr (m:bin) : bin
+  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+Fixpoint bin_to_nat (m:bin) : nat
+  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
 
 
 
