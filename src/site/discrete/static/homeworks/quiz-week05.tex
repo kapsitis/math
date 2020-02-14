@@ -1,0 +1,149 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+
+
+\title{Sample Quiz 5}
+\author{Discrete Structures, Fall 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Sample Quiz 5}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\twocolumn
+{\Large Discrete Quiz 5}
+
+\vspace{10pt}
+{\bf Question 1.} Do the prime factorization for this 6-digit positive integer: 
+$510,510$. 
+
+Write your answer as a product of prime powers {\tt p\^{}a*q\^{}b*r\^{}c} or similar. 
+Numbers $p,q,r$ etc. should be in increasing order. All exponents (even those equal to $1$) should be written explicitly.
+
+{\bf Question 2.} Are these statements true or false (do not forget that ``all integers'' include also negative numbers):
+\begin{enumerate}[(A)] 
+\item For all integers $a,b,c$, if $a|c$ and $b|c$, then $(a + b)|c$.
+\item For all integers $a,b,c,d$, if $a|b$ and $c|d$, then $(ac)|(b + d)$.
+\item For all integers $a,b$, if $a|b$ and $b|a$, then $a = b$.
+\item For all integers $a,b,c$, if $a|(b + c)$, then $a|b$ and $a|c$.
+\item For all integers $a,b,c$, if $a|bc$, then $a|b$ or $a|c$.
+\item If $p$ and $q$ are primes ($> 2$), then $pq + 1$ is never prime.
+\end{enumerate}
+
+Write your answer as a comma-separated string of T/F. For example, {\tt T,T,T,T,T,T}.\\
+{\em Note.} Even though you only write the answers, 
+make sure that you are able to justify your answer. For true statements you should be able to 
+find a reasoning; for false ones \textendash{} a counterexample. 
+
+
+{\bf Question 3.} Find $\text{lcm}(24^{75},75^{24})$ 
+
+Write your answer as a product of prime powers {\tt p\^{}a*q\^{}b*r\^{}c} or similar. 
+Numbers $p,q,r$ etc. should be in increasing order. All exponents (even those equal to $1$) should be written explicitly.
+
+{\bf Question 4.}
+Convert $(100\,1100\,0011)_2$ to base $16$, base $8$ and base $7$. 
+
+Write your answer as $3$ comma-separated numbers. For the hexadecimal notation use capital letters A,B,C,D,E,F.
+
+{\bf Question 5.}
+Express the infinite periodic binary fraction $0.0001100110011\ldots_2 = 0.0(0011)$ as a rational number.\\
+{\em Note 1.} In binary fractions a digit that is $k$ places after the point is multiplied by $2^k$. 
+For example, $0.1_2$ means $1/2$; $0.01_2$ means $1/4$ and so on.\\
+{\em Note 2.} You may need to use infinite geometric progression to find its value.
+
+Write your answer as {\tt P/Q}, where $P,Q$ are both in decimal notation. 
+
+{\bf Question 6.} Find the sum and the product of these two integers written in binary: 
+$(101011)_2$, $(1101011)_2$.\\
+{\em Note.} You may want to try the addition and multiplication algorithm directly in 
+binary (without converting them into the decimal and back to the binary).
+
+Write your answer as two comma-separated numbers (both written in binary). 
+
+{\bf Question 7.} Write the first 10 powers of number $3$ modulo $11$: $3^1,3^2,3^3,\ldots,3^{10}$. 
+
+Write your answer as a comma-separated list of ten remainders (mod $11$), \textendash{} numbers between $0$ and $10$.
+
+
+{\bf Question 8.} Alice has only 21-cent coins, 
+Bob has 34-cent coins. Alice wants to pay Bob exactly $1$ cent. 
+Find two non-negative integers $s,t$ that satisfy $21s - 34t = 1$. 
+
+Write your answer as two comma-separated integers. 
+
+{\bf Question 9.} Consider the opposite situation: Alice has only 34-cent coins, 
+Bob has only 21-cent coins. Find two non-negative integers 
+$s,t$ that satisfy $34s - 21t = 1$. 
+
+Write your answer as two comma-separated integers. 
+
+{\bf Question 10.} Find $21^{-1}$ modulo $34$. (This is a number $z$ between $0$ and $33$ such that
+$21z \equiv 1\;(\text{mod}\,34)$.)
+
+Write your answer as a number modulo $34$ (i.e. between $0$ and $33$). 
+
+{\bf Question 11.} Solve the congruence equation $21x \equiv 11\;(\text{mod}\,34)$. 
+
+Write your answer as a number modulo $34$ (i.e. between $0$ and $33$). 
+
+{\bf Question 12.} Solve the Bezout identity for the numbers $a=390$,$b=72$: Find any integers $x,y$
+satisfying the equation $390x + 72y = \text{gcd}(390,72)$. 
+
+Write your answer as two comma-separated integers.
+
+
+
+
+
+
+
+\end{document}
+
