@@ -23,7 +23,6 @@
 **/.RData
 **/*solutions.*
 **/*solution.*
-src/site/discrete/static/homeworks/midterm.*
 !src/site/discrete/coq-propositional/lab01_tasks_solutions.v
 !src/site/discrete/coq-propositional/lab01_template_solutions.v
 bin/
