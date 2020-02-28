@@ -53,6 +53,8 @@
 
 %\keywords{}
 
+\setlength\parindent{0pt}
+
 \begin{document}
 
 \thispagestyle{empty}
@@ -153,7 +155,7 @@ sequence in terms of the previous ones.
 \item ${\displaystyle a_n = 2^{\frac{1}{2^n}}}$, where $n \geq 0$. 
 \item $b_0 = 1$, $b_1 = 111$, $b_2 = 11111$, $b_3 = 1111111$, etc. 
 (In general, the $k$th member $b_k$ has $2k+1$ digits ``1'' in its decimal notation). 
-\item $c_n = n^2 + n$. 
+\item $c_n = n^2 + n$, where $n \geq 0$. 
 \end{itemize}
 
 \begin{tabular}{|l|l|} \hline
@@ -175,9 +177,172 @@ to the nearest thousandth.
 (Taylor series expects to have argument $x$ in radians, so you have to convert degrees to radians 
 before using the formula.)
 
+\newpage
+
+\section{Answers}
+
+\vspace{6pt}
+{\bf Question 1.} Answers:\\ 
+{\bf (A1)} $80 = 3 \cdot 3 \cdot 9 - 1$ conjunctions.\\
+{\bf (A2)} $648 = 81 \cdot 8$ disjunctions,\\
+{\bf (A3)} $3 \cdot 3 \cdot 9 \cdot 3 \cdot 3 = 729$ instances of predicate $p$.\\
+{\bf (B)} $\bigwedge\limits_{i = 1}^{3} \bigwedge\limits_{j = 1}^{3} \bigwedge\limits_{n = 1}^{9}
+\bigvee\limits_{r = 0}^{2} \bigvee\limits_{s = 0}^{2} p(3r+i, 3s+j, n).$
+
+\vspace{6pt}
+{\bf (A1)} To count conjunctions, expand
+the outer three big conjunctions in this expression:
+$$\bigwedge\limits_{r = 0}^{2} \bigwedge\limits_{s = 0}^{2} \bigwedge\limits_{n = 1}^{9}
+\bigvee\limits_{i = 1}^{3} \bigvee\limits_{j = 1}^{3} p(3r+i, 3s+j, n).$$
+At the first step we expand the outermost $\bigwedge\limits_{r=0}^2$ 
+would get three similar subexpressions:
+$$\left( \mbox{let $r=0$ in}\; 
+\bigwedge\limits_{s = 0}^{2} \bigwedge\limits_{n = 1}^{9}
+\bigvee\limits_{i = 1}^{3} \bigvee\limits_{j = 1}^{3} p(3r+i, 3s+j, n) \right) \bigwedge$$
+$$\left( \vphantom{\bigwedge\limits_{s = 0}^{2}} \mbox{let $r=1$ in}\; \ldots \right) \bigwedge 
+\left( \vphantom{\bigwedge\limits_{s = 0}^{2}} \mbox{let $r=2$ in}\; \ldots \right).$$
+Then we expand the next large conjunction for $s=0,1,2$. We would get $3$ smaller terms
+inside every big parentheses:
+{\small
+$$\Big( (\ldots) \wedge (\ldots) \wedge (\ldots) \Big) \wedge
+\Big( (\ldots) \wedge (\ldots) \wedge (\ldots) \Big) \wedge
+\Big( (\ldots) \wedge (\ldots) \wedge (\ldots) \Big).$$
+}
+So far we have $8$ conjunctions: $2$ of them are between the big parentheses, 
+and $3 \cdot 2 = 6$ more conjunctions separate the smaller expressions $(\ldots)$. 
+After that we are ready to expand each smaller $(\ldots)$ into a conjunction of $9$ terms
+for $n=1,2,\ldots,9$. 
+
+In all we have $3 \cdot 3 \cdot 9 = 81$ expressions to separate with conjunction 
+symbols ($\wedge$); we need $81-1 = 80$ such separators. 
+
+{\bf (A2)} The number of disjunctions can be calculated in a similar manner: we have $81$ subexpressions
+$\bigvee\limits_{i = 1}^{3} \bigvee\limits_{j = 1}^{3} p(3r+i, 3s+j, n)$ for all different 
+combinations of $(r,s,n)$. Each subexpression has $8$ disjunctions. 
+
+{\bf (A3)} The number of predicate instances can be counted by multiplying the 
+number of elements in all five loops: $3 \cdot 3 \cdot 9 \cdot 3 \cdot 3$. 
+
+{\bf (B)} Let us express that all the cells in the upper right corners
+of all nine $3 \times 3$ blocks contain different numbers. 
+One of such cells is $(i,j) = (1,1)$ (all the others can be obtained by 
+adding $3$ or $6$ to $i$ and/or $j$ - thus we get nine values
+$(1,1)$,$(1,4)$,$(1,7)$,
+$(4,1)$,$(4,4)$,$(4,7)$,$(7,1)$,$(7,4)$,$(7,7)$). Let us express the 
+statement that all the numbers $n=1,\ldots,9$ 
+should appear in the shaded cells (see figure):
+\begin{center}
+\includegraphics[width=1.4in]{sudoku2.png}
+\end{center}
+
+{\small
+$$\mbox{let $i=1$,$j=1$ in}\;\forall n\in \{1,\ldots,9 \}:\;\;
+\bigvee\limits_{r = 0}^{2} \bigvee\limits_{s = 0}^{2} p(3r+i, 3s+j, n).$$
+}
+
+If we want this to be true for any pair $(i,j)$, where both $i$ and $j$ take
+all values $1,2,3$:
+$$\bigwedge\limits_{i = 1}^{3} \bigwedge\limits_{j = 1}^{3} \bigwedge\limits_{n = 1}^{9}
+\bigvee\limits_{r = 0}^{2} \bigvee\limits_{s = 0}^{2} p(3r+i, 3s+j, n).$$
+
+\vspace{6pt}
+{\bf Question 2.}\\ Answer: {\tt 2,4,6,8,10,12,14,16,18,20}\\
+\begin{center}
+\includegraphics[width=1.4in]{symmetric-differences.png}
+\end{center}
+Notice that any symmetric difference of two or more sets
+includes only those elements that belong to an odd number of sets. 
+For example, $A_1 \oplus A_2 \oplus A_3$ consists of the elements
+that belong to exactly one set ($A_1$, $A_2$ or $A_3$), or 
+all three sets: $A_1 \cap A_2 \cap A_3$. 
+If you do not believe this, it can be proven by induction. 
+
+Therefore the set $S = \bigoplus\limits_{j=1}^{100} A_j$ contains just those
+elements that belong to an odd number of $A_j$. Number $1$ belongs to all $100$ sets
+(therefore $1 \not\in S$). But number $2$ belongs to $99$ sets $A_j$ 
+(and therefore $2 \in S$). Similarly $4 \in S$, $6 \in S$, and so on. 
 
 
 
+
+\vspace{6pt}
+{\bf Question 3:} Answer: {\tt 1,4,5,21,106}\\
+We can verify that $f(2) = f(0)\cdot f(1) + 1 = 5$ and so on.
+
+\vspace{6pt}
+{\bf Question 4:} Answer: {\tt 1.618}\\
+On one hand $f(k+2) = f(k) + f(k+1)$. On the other hand, 
+$f(k) = f(0)\cdot q^k$ etc. If we plug into the above formula, we should get:
+\begin{equation}
+\label{some}
+f(0) \cdot q^{k+2} = f(0) \cdot q^k + f(0) \cdot q^{k+1}.
+\end{equation}
+Since $f(k)$ is strictly increasing, we must have $f(0) \neq 0$ and 
+$q > 0$. Namely, the first member in the geometric progression is nonzero, 
+and the quotient is positive. 
+
+Therefore the equation (\ref{some}) can be simplified by dividing both sides
+with $f(0) \cdot q^k$:
+$$q^2 = 1 + q.$$
+This quadratic equation has two roots: 
+$$q_{1,2} = \frac{1 \pm \sqrt{5}}{2}.$$
+Only one of these roots is positive. It is approximately equal to $1.618$. 
+
+{\em Note.} This quotient $q \approx 1.618$ is called {\em golden ratio}. 
+For the regular Fibonacci numbers the ratio $F_{n+1}/F_{n}$ approaches 
+this number in the limit when $n \rightarrow \infty$.
+
+
+\vspace{6pt}
+{\bf Question 5:} Answer: {\tt 1.414}
+
+Since we know that the sequence 
+$x_{n+1} = \frac{1}{2} \left( x_n + \frac{2}{x_n}\right)$ has a limit, then 
+both $x_{n+1}$ and $x_n$ go to the same limit as $n$ grows. We have this identity:
+$$L = \frac{1}{2} \left (L + \frac{2}{L} \right)$$
+and therefore $L^2 =2$ and $L = \pm \sqrt{2}$. Since we start with a positive member, 
+all subsequent members will be positive and $L = \sqrt{2}$.
+
+{\em Note.} This recurrence is used in practice to calculate 
+square-roots. It converges very fast. Here are the first few members with $15$ decimal digits. 
+After six steps we have square root with more than $15$-digit precision.
+\begin{verbatim}
+x(0) = 1/1 = 1.000000000000000
+x(1) = 3/2 = 1.500000000000000
+x(2) = 17/12 = 1.416666666666667
+x(3) = 577/408 = 1.414215686274510
+x(4) = 1.414213562374690
+x(5) = 1.414213562373095
+x(6) = 1.414213562373095
+\end{verbatim}
+
+
+
+\vspace{6pt}
+{\bf Question 6:} Answers:\\
+\begin{tabular}{|l|l|} \hline
+{\bf Initial member} & {\bf Recurrent expression} \\ \hline
+$a_0 = 2$ & $a_{n+1} = \sqrt{a_n}$ \\ \hline
+$b_0 = 1$ & $b_{n+1} = 100\cdot b_n + 11$ \\ \hline 
+$c_0 = 0$ & $c_{n+1} = c_n + 2\cdot(n+1)$ \\ \hline 
+\end{tabular}
+
+{\bf (A)} Notice that the power in $a_n$ decreases twice with each step. 
+So it is equivalent to taking a square-root.\\
+{\bf (B)} Decimal representation of $b_{n+1}$ is easy to obtain from $b_n$: 
+We first shift all the digits two places to the left (multiply by $100$), then 
+add $11$ to get the last two digits equal to "11".\\
+{\bf (C)} Compute the first few members of the sequence $c_n$: 
+$0$, $2$, $6$, $12$, $20$. Their differences make an arithmetic progression: 
+$2-0 = 2$, $6-2 = 4$, $12-6=6$, etc. So it is possible to compute the next
+member by adding $2(n+1)$ (the $n$th even number).
+
+
+
+\vspace{6pt}
+{\bf Question 7:}
+
+ 
 
 
 \end{document}
