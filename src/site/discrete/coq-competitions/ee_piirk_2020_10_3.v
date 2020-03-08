@@ -1,9 +1,12 @@
 (** #<a href="../../discrete/coq.html">Back to Coq Main Page</a>#  *)
 
-(** * EE.PIIRK.2020.9.1 *)
+(** * EE.PIIRK.2020.10.3 *)
 
-(** #<b>Problem:</b> Find all positive integers a,b, such that
-a^2 - b^2 = 2020
+(** #<b>Problem: (A)</b> Are there different positive numbers 'a', 'b' and 'c', 
+where LCM(GCD(a,b),c) = LCM(GCD(b,c),a) = LCM(GCD(c,a),b)? #<br/>#
+(B) Do there exist (not necessarily different) positive integers 'a', 'b' and 'c'
+where LCM(GCD(a,b),c) = LCM(GCD(b,c),a) = LCM(GCD(c,a),b)?, 
+where m does not equal LCM(a,b,c).
 *)
 
 (** See #<a href='https://bit.ly/32OWgHH'>Piirkonnavoor 2020</a>#, 

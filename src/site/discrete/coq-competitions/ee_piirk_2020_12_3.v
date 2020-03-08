@@ -1,6 +1,6 @@
 (** #<a href="../../discrete/coq.html">Back to Coq Main Page</a>#  *)
 
-(** * EE.PIIRK.2020.9.1 *)
+(** * EE.PIIRK.2020.12.3 *)
 
 (** #<b>Problem.</b># Define the sequence (a_n) by 
 setting a_1 = 4, a_2 = -7 and a_n = a_{n-1}a_{n-2} - 1
@@ -20,6 +20,8 @@ Require Import ZArith.
 Require Import Znumtheory.
 Require Import BinInt.
 
+Open Scope Z_scope.
+
 Fixpoint SeqD (k:nat):Z := 
   match k with 
   | 0%nat => 1
@@ -28,7 +30,10 @@ Fixpoint SeqD (k:nat):Z :=
   | S k' => (SeqD k')*(SeqD (pred k')) - 1
   end.
 
-Theorem ee_pirk_2020_12_3: forall (p:Z), exists (k:nat), 
-  (prime p) -> (p | SeqD k).
+Theorem ee_pirk_2020_12_3: exists (p:Z), forall (k:nat), 
+  (prime p) /\ ~(p | SeqD k).
 Proof.
   Admitted.
+
+
+Close Scope Z_scope.
