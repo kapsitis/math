@@ -129,7 +129,7 @@ def main():
     build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
     build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
     build_static('src/site/discrete/static', '%s/discrete-bin' % DEST_ROOT)
-#    build_coq('src/site/discrete/coq-basics', '%s/discrete-bin/coq-basics' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete/coq-competitions', '%s/discrete-bin/coq-competitions' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-inductive', '%s/discrete-bin/coq-inductive' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-numbertheory', '%s/discrete-bin/coq-numbertheory' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-predicates', '%s/discrete-bin/coq-predicates' % DEST_ABSOLUTE)

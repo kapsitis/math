@@ -1,0 +1,349 @@
+\documentclass[a4paper]{article}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{lipsum}
+\usepackage{amsthm}
+\usepackage{thmtools}
+
+
+%% COLORED TABLES
+\usepackage{colortbl}% http://ctan.org/pkg/colortbl
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{booktabs}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\colorlet{tableheadcolor}{gray!25} % Table header colour = 25% gray
+\newcommand{\headcol}{\rowcolor{tableheadcolor}} %
+\colorlet{tablerowcolor}{gray!10} % Table row separator colour = 10% gray
+\newcommand{\rowcol}{\rowcolor{tablerowcolor}} %
+\usepackage{multirow}
+
+
+\usepackage{fontspec} % loaded by polyglossia, but included here for transparency
+\usepackage{polyglossia}
+
+%\usepackage{xeCJK}
+%\setCJKmainfont{SimSun}
+%\setmainlanguage{russian}
+%\setotherlanguage{english}
+
+%\newfontfamily\cyrillicfont[Script=Cyrillic]{Times New Roman}
+%\newfontfamily\cyrillicfontsf[Script=Cyrillic]{Arial}
+%\newfontfamily\cyrillicfonttt[Script=Cyrillic]{Courier New}
+
+\oddsidemargin -1.27cm
+\evensidemargin -1.27cm
+%\textwidth 6.27in
+\textwidth 18.46cm
+\topmargin -1.27cm
+\headheight 0.0cm
+\headsep 0.0cm
+\textheight 27.16cm
+
+\setlength\parindent{0pt}
+
+
+
+
+% http://tex.stackexchange.com/questions/196961/thmtools-declaration-for-theorem-and-proof
+\declaretheoremstyle[headfont=\normalfont\bfseries,notefont=\mdseries\bfseries,bodyfont = \normalfont,headpunct={:}]{normalhead}
+\declaretheorem[name={Uzdevums}, style=normalhead,numberwithin=section]{problem}
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist
+
+
+\newcommand{\subf}[2]{%
+  {\small\begin{tabular}[t]{@{}c@{}}
+  #1\\#2
+  \end{tabular}}%
+}
+
+
+\newenvironment{uzdevums}[1][\unskip]{%
+\vspace{3mm}
+\noindent
+\textbf{#1:}
+\noindent}
+{}
+
+
+
+\newcounter{alphnum}
+\newenvironment{alphlist}{\begin{list}{(\Alph{alphnum})}{\usecounter{alphnum}\setlength{\leftmargin}{2.5em}} \rm}{\end{list}}
+
+\newenvironment{zhtext}{\fontfamily{MS PGothic}\selectfont}{\par}
+
+
+\makeatletter
+\let\saved@bibitem\@bibitem
+\makeatother
+
+\usepackage{bibentry}
+\usepackage{hyperref}
+
+\pagenumbering{gobble} 
+
+\begin{document}
+
+\begin{uzdevums}[LV.TST.1979.10.2]
+Pierādīt, ka eksistē tāds naturāls skaitlis $n$, ka $n^2+1$ dalās ar $5^{1979}$.
+\end{uzdevums}
+
+\begin{uzdevums}[LV.TST.1985.11.2]
+Pierādīt, ka eksistē $1985$ pēc kārtas ņemti naturāli skaitļi, no kuriem
+neviens nav naturāla skaitļa pakāpe, augstāka par pirmo.
+\end{uzdevums}
+
+\begin{uzdevums}[LV.TST.2004.3]
+Skaitļu virkni $a_0, a_1, a_2,\ldots$ veido sekojoši:
+$a_0 = 1$; $a_1 = 1$; $a_{n+2} = 7a_{n+1} - a_n - 2$ pie $n \geq 0$.
+Pierādīt, ka visi virknes locekļi ir naturālu skaitļu kvadrāti.
+\end{uzdevums}
+
+\begin{uzdevums}[LV.TST.2012.1]
+Ar $S(n)$ apzīmēsim skaitļa $x$ ciparu summu. Aprēķināt $S(S(S(2^{2012})))$.
+\end{uzdevums}
+
+\begin{uzdevums}[LV.TST.2014.4]
+Pierādīt, ka vienādojumam $(a-b)^2 = 6ab + 7$ nav atrisinājuma naturālos skaitļos.
+\end{uzdevums}
+
+\begin{uzdevums}[LV.TST.2015.3]
+Naturālus skaitļus $x$ un $y$ sauc par draudzīgiem, ja
+$xy +1$ ir naturāla skaitļa kvadrāts. Piemēram, skaitļi
+$2$ un $40$ ir draudzīgi. Pierādīt: ja skaitļi $a$ un $b$ ir draudzīgi, 
+tad eksistē tāds naturāls skaitlis $c$, ka
+vienlaikus $a$ un $c$ ir draudzīgi, un arī $b$ un $c$ ir draudzīgi.
+\end{uzdevums}
+
+\begin{uzdevums}[LV.TST.2015.4]
+Atrast visas funkcijas, kas definētas veseliem skaitļiem un pieņem veselas vērtības, tādas, ka
+$f(1) = f (-1)$
+un visiem veseliem $x$ un $y$ izpildās
+$$f(x)+f(y) = f(x + 2xy) + f(y - 2xy)$$.
+\end{uzdevums}
+
+\begin{uzdevums}[LV.TST.2016.3]
+Atrast visus tādus pirmskaitļus $p$, ka $3^{p^2−1} + 20$ arī ir pirmskaitlis!
+\end{uzdevums}
+
+\begin{uzdevums}[LV.TST.2016.5]
+Vai eksistē tāda bezgalīga naturālu skaitļu virkne $(a_n)$, 
+ka katram naturālam $n$, skaitļu $a_{n+1}$, $a_{n+2}$, $\ldots$, $a_{n+a_n}$
+vidējais aritmētiskais ir vienāds ar $n$?
+\end{uzdevums}
+
+\begin{uzdevums}[LV.TST.2018.3]
+Pierādīt, ka vienādojumam $5m^2 − 6mn + 7n^2 = 20182018$ 
+nav atrisinājuma naturālos skaitļos!
+\end{uzdevums}
+
+
+
+\arrayrulecolor[HTML]{DB5800}
+\renewcommand{\arraystretch}{1.2}
+\begin{table}[ht!]\centering
+{\footnotesize
+%\begin{tabular*}{18.46cm}{@{}|p{8.787cm}|p{2cm}p{6.35cm}|@{}} \hline    
+\begin{tabular*}{18.46cm}{@{}|p{2cm}p{6.35cm}|p{2cm}p{6.35cm}|@{}} \hline    
+\headcol \multicolumn{4}{|c|}{\textbf{``Baltic Way'' atlases sacensības: Skaitļu teorija.} Uzdevumi -- \texttt{http://www.dudajevagatve.lv/nt/index.html}} \\ \hline 
+
+%% $a=12$, $b=10$ $\Rightarrow$ $\geq 1$ kaste ar $\geq 3$ objektiem VAI $\geq 2$ kastes ar $\geq 2$ objektiem. &
+%% \cellcolor[HTML]{F0FFFF}
+%% %%{\bf Reizināšanas likums:} Aplūkojam visus sakārtotus sarakstus $(a_1,a_2,\ldots,a_k)$, kur $i$-tais loceklis 
+%% %%var pieņemt $v_i$ dažādas vērtības. Šādu sarakstu kopskaits ir $v_1v_2\cdots{}v_k$.
+%% {\bf Dirihlē princips:} Ja $a$ objektus sadala pa $b$ kastītēm un $a \geq b+1$, tad vismaz vienā kastītē būs 
+%% vismaz divi objekti. Ja $a \geq b+2$, tad vismaz divās kastītēs būs vismaz divi objekti vai vismaz vienā 
+%% kastītē būs vismaz trīs objekti, utt.
+%% & $r=s=5$:
+%% \includegraphics[width=1.8cm]{erdos.png}
+%% & \cellcolor[HTML]{F0FFFF}
+%% {\bf Erdeša-Sekereša teorēma:} Naturāliem skaitļiem $r$ un $s$, jebkura dažādu (reālu) skaitļu virkne, kurā ir
+%% vismaz $(r − 1)(s − 1) + 1$ locekļi, satur vai nu monotoni augošu apakšvirkni garumā $r$ vai arī
+%% monotoni dilstošu apakšvirkni garumā $s$. \\ \hline 
+
+
+$(a+b)^4 = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$. &
+\cellcolor[HTML]{FFFFEE}
+\textbf{Binomiālie koeficienti:} $(a+b)^n = a^n + \binom{n}{1}a^{n-1}b + \cdots + \binom{n}{n-1}ab^{n-1}+b^n$, 
+kur $\binom{n}{k} = C_n^k = \frac{n!}{k!(n-k)!}$. 
+& $(a+b+c+d)^4 = \ldots + 12a^2bc + \ldots$, jo 
+$\frac{4!}{2!1!1!}=12$. &  \cellcolor[HTML]{FFFFEE} 
+\textbf{Polinomiālie koeficienti:} $(a_1+a_2+\cdots{}+a_m)^n$ izvirzījums satur $a_1^{k_1}a_2^{k_2}\cdots{}a_m^{k_m}$ ar 
+koeficientu $\frac{n!}{k_1!k_2!\cdots{}k_m!}$, ja $k_1+k_2+\cdots+k_m=n$. \\ \hline  
+$a^3 + b^3 = (a+b)(a^2 - ab + b^2)$. &
+\cellcolor[HTML]{FFFFEE}
+\textbf{Nepāru pakāpju summa:} $a^{2n+1} + b^{2n+1} = (a+b)(a^{2n}-a^{2n-1}b+\cdots-ab^{2n-1}+b^{2n})$. 
+& $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$. &  \cellcolor[HTML]{FFFFEE} 
+\textbf{Pakāpju starpība:} $a^{n} - b^{n} = (a-b)(a^{n-1}+a^{n-2}b+\cdots+ab^{n-2}+b^{n-1})$. \\ \hline 
+$ax^2+bx+c=0$ ir $3$ saknes $\Rightarrow$ $a=b=c=0$ &
+\cellcolor[HTML]{FFFFEE}
+\textbf{Identiski polinomi:} Ja $P(x)$ un $Q(x)$ ir $n$-tās pakāpes polinomi un to vērtības sakrīt $n+1$ dažādiem 
+$x_i$, tad $P(x)=Q(x)$. 
+& $P(x)=4x^3-3x^2-25x-6$ dalās ar $(x-3)$. &  \cellcolor[HTML]{FFFFEE}
+Polinoms 𝑃$P(x)$ dalās ar $(x-a)$ tad un tikai tad, ja $a$𝑎ir $P(x)$ sakne. \\  \hline
+
+$(x-1)(x-1)$ $(x-5)=x^3 - 7x^2 + 11x - 5$ jo 
+$1+1+5=7$, $1 \cdot 1 + 1 \cdot 5 + 1 \cdot 5 = 11$, 
+$1 \cdot 1 \cdot 5 = 5$. &
+\cellcolor[HTML]{FFFFEE}
+\textbf{Vispārināta Vjeta teorēma:} 
+Ja $n$-tās pakāpes polinomam $P(x) = x^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0$ 
+ir $n$ reālas saknes $r_1,\ldots,r_n$, tad \newline
+$a_0 = (-1)^nr_1r_2\cdots{}r_n$, $\;\;\;\;\;\;\ldots$ \newline 
+$a_{n-2} = \sum_{i,j \in \overline{1,n}}r_ir_j$, \newline
+$a_{n-1} = -(r_1 + r_2 + \cdots + r_{n})$. &
+$3x-2=0$ sakne $x=2/3$. &
+\cellcolor[HTML]{FFFFEE}
+\textbf{Racionālo sakņu teorēma:}
+Ja polinomam ar veseliem koeficientiem 
+\[ P(x) = a_nx^n + a_{n-1}x^{n-1} + \ldots + a_1x^1 + a_0 \]
+ir racionāla sakne $x = p/q$, kur $a, b \in \mathbb{Z}$, tad
+$a_0$ dalās ar $p$, bet $a_n$ dalās ar $q$. \\ \hline
+
+\rowcol\multicolumn{4}{|p{18.01cm}|}{
+\textbf{Dalāmība un pirmskaitļi:} 
+Veseliem $a$ un $d$ ($d \neq 0$) rakstām $d\,\mid a$, ja $a$ dalās ar $d$. Atlikums, $a$ dalot ar $b$: 
+$(a\;\operatorname{mod}\;b)$. 
+}\\ \hline 
+\multicolumn{2}{|p{8.787cm}|}{
+\cellcolor[HTML]{E1FFE1}
+Pirmskaitļu $2,3,5,\ldots$ ir bezgalīgi daudz. (No pretējā: ja būtu galīgs skaits, tad $p_1p_2\cdots{}p_k+1$ 
+nedalītos ne ar vienu no tiem.) 
+}
+& 
+\multicolumn{2}{p{8.787cm}|}{
+\cellcolor[HTML]{E1FFE1}
+Eksistē cik patīk garas $\mathbb{N}$ apakšvirknes bez pirmskaitļiem. 
+(Piemēram, $m!+2, m!+3, m!+m$ satur $m-1$ saliktu skaitli.)
+} \\ \hline
+$2016 = 2^53^27$. $2017 = 2017^1$. $2018=2\cdot1009$. &
+\cellcolor[HTML]{E1FFE1}
+\textbf{Aritmētikas pamatteorēma:} Katru $n \in \mathbb{N}$ var tieši vienā veidā izteikt kā pirmskaitļu 
+pakāpju reizinājumu: $n=p_1^{a_1}p_2^{a_2}\cdots{}p_k^{a_k}$. 
+& $60=2^2\cdot{}3^1\cdot{}5^1$ ir $3\cdot2\cdot2 = 12$ dalītāji. 
+& \cellcolor[HTML]{E1FFE1}
+\textbf{Dalītāju skaits:} Katram $n=p_1^{a_1}p_2^{a_2}\cdots{}p_k^{a_k}$ pozitīvo dalītāju skaits, 
+ieskaitot $1$ un $n$, ir $d(n)=(a_1+1)\cdots(a_k+1)$. \\ \hline
+$100$: $9$ dalītāji; $1000$: $16$ dal. 
+& \cellcolor[HTML]{E1FFE1}
+\textbf{Dalītāju skaits:} Skaitlis $n \in \mathbb{N}$ ir pilns kvadrāts t.t.t., ja tam ir nepāru skaits 
+pozitīvu dalītāju. 
+& $n=12$: $(1,12)$, $(2,6)$ un $(3,4)$. 
+& \cellcolor[HTML]{E1FFE1}
+{\bf Dalītāju pāri:} Visus $n$ dalītājus (izņemot $\sqrt{n}$) var grupēt pāros: $d_1 < \sqrt{n} < d_2$, kur $d_2 = n/d_1$. 
+\\ \hline
+$\operatorname{gcd}(192,78) = \operatorname{gcd}(78, 36) = \operatorname{gcd}(36,6) = \operatorname{gcd}(6,0) = 6$.
+& \cellcolor[HTML]{E1FFE1}
+\textbf{Eiklīda algoritms:}\newline
+\texttt{function gcd(a, b)}\newline
+\null\quad\quad\texttt{if (b == 0) \{ return a; \}}\newline
+\null\quad\quad\texttt{else \{ return gcd(b, a mod b); \}}
+& 
+\multicolumn{2}{p{8.787cm}|}{
+\textbf{Piemērs polinomiem:}\newline
+$\operatorname{gcd} \left( n^2 + 3, n^2 + 2n + 4 \right) = 
+\operatorname{gcd} \left( n^2 + 3, 2n+1 \right) = 
+\operatorname{gcd}\left( 2n^2 + 6, 2n+1 \right) = 
+\operatorname{gcd} \left( -n + 6, 2n+1 \right) = \operatorname{gcd} \left(n-6, 13 \right)$. 
+} \\ \hline
+$a=8,b=13$ $\Rightarrow$ $5a - 3b = 1$.
+& \cellcolor[HTML]{E1FFE1}
+{\bf Bezū lemma:} Ja $a, b \in \mathbb{N}$ un $d = \operatorname{gcd}(a,b)$, tad eksistē $x,y \in \mathbb{Z}$, kam 
+$ax + by = d$. \newline
+{\bf Eiklīda lemma:} Dots pirmskaitlis $p$ un $a,b \in \mathbb{Z}$. Ja $p\,\mid\,ab$, tad $p\,\mid\,a$ vai $p\,\mid\,b$. 
+& $(n_1,n_2,n_3)=(2,3,5)$, $(x_1,x_2,x_3)=(1,2,3)$ $\Rightarrow$ $x \equiv 23\;(\operatorname{mod}\,30)$. 
+& \cellcolor[HTML]{E1FFE1}
+{\bf Ķīniešu atlikumu teorēma:} Ja $n_1,\ldots,n_k$ ir naturāli skaitļi, $\operatorname{gcd}(n_i,n_j)=1$ 
+visiem $i \neq j$, tad visiem naturāliem $x_1,\ldots,x_k$ eksistē tieši viena 
+kongruenču klase $x$ pēc moduļa $n=n_1\cdots{}n_k$, kam $x \equiv x_i\;(\operatorname{mod}\,n_i)$ visiem $i$.
+\\ \hline
+\rowcol\multicolumn{4}{|p{18.01cm}|}{\textbf{Pakāpes pacelšanas lemmas:} 
+Kā noteikt $\nu_p(a^n \pm b^n)$. Burtu $\nu$ lasa ``nī'':  $\nu_p(n) = a$, ja pirmskaitlis $p$ ir $n$ pirmreizinātājs
+pakāpē $a$. \newline Lifting the Exponent Lemmas. } \\ \hline 
+$1001001 \cdot 111 \cdot 9 = 999999999$ un $\nu_3(10^9 - 1^9) =4$. &
+{\bf Lemma 1:} Ja $x$ un $y$ ir veseli skaitļi (ne obligāti pozitīvi),
+$n$ ir naturāls skaitlis un $p$ ir nepāru pirmskaitlis tāds, ka $p\,\mid\,x-y$,
+bet ne $x$ ne $y$ nedalās ar $p$, tad
+$\nu_p\left( x^n - y^n \right) = \nu_p(x - y) + \nu_p(n)$. 
+& $\nu_{11}(10^{121}+1)$ $=\nu_{11}(10+1) + \nu_{11}(121)$ \newline $=1+2=3$. & 
+{\bf Lemma 2:} Ja $x$ un $y$ ir veseli skaitļi (ne obligāti pozitīvi),
+$n$ ir nepāru naturāls skaitlis un $p$ ir nepāru pirmskaitlis tāds, ka $p\,\mid\,x+y$,
+bet ne $x$ ne $y$ nedalās ar $p$, tad
+$\nu_p\left( x^n + y^n \right) = \nu_p(x + y) + \nu_p(n)$. \\ \hline 
+$\nu_2(5^{128} - 1) = 2+7 = 9$. &
+{\bf Lemma 3:} Ja $x$ un $y$ ir nepāru skaitļi, kam $x-y$ dalās ar $4$, tad 
+$\nu_2(x^n-y^n) = \nu(x − y) + \nu_2(n)$. 
+& $\nu_2(3^{16} - 1) = 1+2+4-1=6$.  & 
+{\bf Lemma 4:}  Ja $x$ un $y$ ir divi nepāru veseli skaitļi
+un $m$ ir pāru naturāls skaitlis. Tādā gadījumā:
+$\nu_2(x^m - y^m) = \nu_2(x-y) + \nu_2(x+y) + \nu_2(m) - 1$. \\ \hline
+\rowcol\multicolumn{4}{|p{18.01cm}|}{\textbf{Kongruences:} 
+Veseliem $a,b,m$ rakstām $a \equiv b\;(\operatorname{mod}\,m)$, ja $a-b$ dalās ar $m$.
+} \\ \hline
+$1^6 \equiv 2^6 \equiv 3^6 \equiv 4^6 \equiv 5^6 \equiv 6^6 \equiv 1\;(\operatorname{mod}\,7)$. 
+& \cellcolor[HTML]{E1FFE1}
+{\bf Mazā Fermā teorēma:} Ja $p$ ir pirmskaitlis un $\operatorname{gcd}(a,p)=1$, tad 
+$a^{p-1} \equiv 1\;(\operatorname{mod}\,p)$. 
+& $3^k \equiv$ $3$, $2$, $6$, $4$, $5$, $1\;(\operatorname{mod}\,7)$ ja $k=1,\ldots,6$. 
+& \cellcolor[HTML]{E1FFE1}
+{\bf Primitīvā sakne:} Katram pirmskaitlim $p$ eksistē tāds 
+$a$, kuram kongruenču klases $a^1,a^2,\ldots,a^{p-1}$ pieņem visas
+vērtības $1,2,\ldots,p-1$. \\ \hline
+\rowcol\multicolumn{4}{|p{18.01cm}|}{\textbf{Skaitļi ar neparastām īpašībām:} 
+Fermā skaitļi, Mersena skaitļi, Viferiha skaitļi. }\\ \hline
+$F_{0,\ldots,4}=3, 5, 17, 257,$ $65537$. &
+\cellcolor[HTML]{E1FFE1}
+Ja $2^n + 1$ ir pirmskaitlis, tad $n$ jābūt $2^k$. Skaitļus $F_n = 2^{2^k}+1$ sauc 
+par Fermā ({\em Fermat}) skaitļiem; pirmie pieci no tiem ir pirmskaitļi (nav zināms, vai ir vēl kāds 
+pirmskaitlis $F_k$, $k > 4$). &
+$W_1=1093$,\newline 
+$W_2=3511$.&
+\cellcolor[HTML]{E1FFE1}
+Par Viferiha ({\em Wieferich}) pirmskaitļiem sauc pirmskaitļus $p$, kam $2^{p-1}$ dalās ne vien ar 
+$p$ (Mazā Fermā teorēma), bet uzreiz ar $p^2$. Šobrīd zināmi tikai divi Viferiha pirmskaitļi. \\ \hline
+\cellcolor[HTML]{E1FFE1}
+$M_{2,3,5,7,13}=3,7,31,127,8191$ &
+Ja $M_p = 2^p - 1$ ir pirmskaitlis, tad $p$ jābūt pirmskaitlim. Pirmskaitļus šajā formā 
+sauc par Mersena pirmskaitļiem. Bet $2^{11} = 2047 =23 \cdot 89$, t.i.\ visi $M_p$ nav
+pirmskaitļi. &
+$561 = 3 \cdot 11 \cdot 17$ &
+Par Karmaikla ({\em Carmichael}) skaitļiem sauc saliktus skaitļus $n$, 
+kas apmierina Fermā teorēmai līdzīgu apgalvojumu: 
+Visiem $b$, kam nav kopīgu dalītāju ar $n$: 
+$b^{n-1} \equiv 1\,(\text{mod}\;n)$. $561$ der, jo 
+$(3-1)\,\mid\,560$, $(10-1)\,\mid\,560$, and $16\,\mid\,560$ (Korselta kritērijs). \\ \hline
+\end{tabular*}
+}
+\end{table}
+
+\mbox{}\\
+{\bf Henzela Lemma.} Pieņemsim, ka $P(x)$ ir polinoms ar veseliem koeficientiem, 
+bet $p$ ir pirmskaitlis. 
+Ja $r$ ir $P(x)$ vienkārša sakne (t.i. $P(r) \equiv 0$ un $P'(r) \not\equiv 0$ pēc $p$ moduļa), 
+tad polinomam $P(x)$ eksistē vienkārša sakne arī pēc jebkura moduļa $p^k$, kur $k>1$. 
+
+{\em Piemērs.} $P(x) = x^2 - 2$ eksistē sakne $x_0 = 3$ pēc $7$ moduļa. 
+Vienlaikus, atvasinājumam $P(x) = 2x$ šī $x_0 = 3$ nav sakne (tātad $x_0$ ir vienkārša sakne). 
+Tādēļ var atrast atrisinājumu arī kongruencēm $x^2 - 2 \equiv 0$ pēc jebkura $7^k$.
+Piemēram, šis skaitlis 
+$$3 + 1\cdot{}7 + 2\cdot{}7^2 + 6\cdot 7^3 + 1\cdot{}7^4 + 2\cdot 7^5 + 1\cdot{}7^6 + 2\cdot 7^7 + 4\cdot 7^8$$
+būs sakne polinomam $P(x) = x^2 - 2$ pēc $7^8$. 
+
+
+
+
+
+
+
+
+\end{document}
+
+
