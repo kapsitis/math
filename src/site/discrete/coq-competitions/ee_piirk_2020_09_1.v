@@ -30,6 +30,12 @@ Proof.
   rewrite <- H. apply rel_prime_1.
 Qed.
 
+
+(** The difficult part: 
+How n > 1 and n < 5 
+converts into 3 separate integers 2,3,4
+*)
+
 Lemma isPrime5: prime 5.
 Proof. 
   apply prime_intro.
@@ -47,7 +53,27 @@ Proof.
   assert ((-1)*4 + 1*5 = 1) as H6. reflexivity.
   pose (Bezout_intro 4 5 1 (-1) 1) as H7.
   pose (bezout_rel_prime 4 5 (H7 H6)) as H8.
-Admitted.
+
+  assert (n <= 4) as H9. lia.
+  destruct (Zle_lt_or_eq n 4 H9) as [H10A | H10B].
+
+  assert (n <= 3) as H11. lia.
+  destruct (Zle_lt_or_eq n 3 H11) as [H12A | H12B].
+
+  assert (n <= 2) as H13. lia.
+  destruct (Zle_lt_or_eq n 2 H13) as [H14A | H14B].
+
+  assert (n <= 1) as H14. lia.
+  pose (Zlt_not_le 1 n H) as H15. contradiction (H15 H14).
+
+  rewrite H14B. exact H2.
+  rewrite H12B. exact H5.
+  rewrite H10B. exact H8.
+  
+  rewrite <- H. apply rel_prime_1.
+Qed.
+
+
 
 (** The product of two odd numbers is odd. *)
 Lemma nat_mul_odd_by_odd: forall a b: nat, 
@@ -73,6 +99,10 @@ Proof.
   Admitted.
 
 
+Print Z.even.
+Print Z.Even.
+
+Search Z.Even.
 
 
 Lemma sum_diff_evenness: forall a b: Z, 
@@ -80,6 +110,35 @@ Lemma sum_diff_evenness: forall a b: Z,
 Proof.
   Admitted.
 
+
+
+Print Z.pow_pos.
+Search Z.Even.
+
+(*
+Z.even_spec: forall n : Z, Z.even n = true <-> Z.Even n
+*)
+
+Lemma even_andor_even: forall x y: Z, 
+  Z.even x = Z.even y -> (Z.Even x \/ Z.Even y) -> 
+    (Z.Even x /\ Z.Even y).
+Proof. 
+  intros x y H1 H2.
+  destruct H2 as [H2X | H2Y].
+  destruct (Z.even_spec x) as [_ H3].
+  pose (H3 H2X) as H4.
+  rewrite H1 in H4. 
+  destruct (Z.even_spec y) as [H5 _].
+  pose (H5 H4) as H6.
+  split. exact H2X. exact H6.
+
+  destruct (Z.even_spec y) as [_ H7].
+  pose (H7 H2Y) as H8.
+  rewrite <- H1 in H8.
+  destruct (Z.even_spec x) as [H9 _].
+  pose (H9 H8) as H10.
+  split. exact H10. exact H2Y.
+Qed.
 
 (*
 1; 2020
@@ -90,14 +149,28 @@ Proof.
 20; 101
 *)
 
-
+Lemma ee_2020_09_1_helper: forall a b: Z, 
+  a*b = 2020 -> Z.Even a \/ Z.Even b.
+Proof. 
+  Admitted.
 
 
 Theorem ee_piirk_2020_09_1: forall a b:Z, 
   a>0 -> b>0 -> a^2 - b^2 = 2020 -> 
     ((a,b) = (506,504) \/ (a,b) = (106,96)).
 Proof.
-  Admitted.
+  intros a b H1 H2 H3.
+  assert ((a - b)*(a + b) = a^2 - b^2) as H4.
+  unfold Z.pow.
+  unfold Z.pow_pos.
+  simpl.
+  ring.
+  rewrite <- H4 in H3.
+  pose (ee_2020_09_1_helper (a-b) (a+b) H3) as H5.
+  pose (sum_diff_evenness a b) as H6.
+  destruct (even_andor_even (a-b) (a+b) H6 H5) as [H7A H7B].
+
+
 
 
 Close Scope Z_scope.
