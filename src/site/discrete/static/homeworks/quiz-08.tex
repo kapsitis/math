@@ -1,0 +1,379 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+
+
+\title{Sample Quiz 8}
+\author{Discrete Structures, Spring 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Sample Quiz 8}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\twocolumn
+{\Large Discrete Quiz 8}
+
+\vspace{10pt}
+{\bf Question 1} 
+Two chess queens are placed on two different places in a $4 \times 4$ chess-board.
+Assume that all the ${16 \choose 2}$ possibilities how they are placed have equal probabilities.
+Find a probability that one queen {\em attacks} the other. (Two queens attack each other, if
+they are located on the same horizontal, vertical or diagonal).
+
+Write your answer as a rational fraction: {\tt P/Q}
+
+\vspace{10pt}
+{\bf Question 2} Assume that you are generating 10-bit sequences (a string of 0's and 1's). 
+All the $2^{10}$ sequences have equal probabilities. 
+Find the probability of an event that the 10-bit sequence does NOT contain two consecutive 0's anywhere.
+
+Write your answer as a rational fraction: {\tt P/Q}
+
+\vspace{10pt}
+{\bf Question 3}
+Two players have 4 cubic dices. Instead of the usual numbers, their faces have the following numbers on their faces:\\
+{\bf Dice A:} 4, 4, 4, 4, 0, 0;\\
+{\bf Dice B:} 3, 3, 3, 3, 3, 3;\\
+{\bf Dice C:} 6, 6, 2, 2, 2, 2;\\
+{\bf Dice D:} 5, 5, 5, 1, 1, 1.
+
+In a single round Players Alice and Bob randomly select two of the dices (with equal probabilities they can 
+select any of the six pairs - $(A,B)$, or $(A,C)$, or $(A,D)$, or $(B,C)$, or $(B,D)$, or $(C,D)$).
+There can be three outcomes:\\
+{\bf Outcome 1:} They have selected "opposite dices" - pairs $(A,C)$ or $(B,D)$. In this case the payoff
+is zero (nobody pays anything to the other).\\
+{\bf Outcome 2:} The dices win in the "clockwise manner" ($A>B$ or $B>C$ or $C>D$ or $D>A$) - then Alice
+wins 1 euro.\\
+{\bf Outcome 3:} The dices win in the "counter-clockwise manner" ($B>A$ or $C>B$ or $D>C$ or $A>D$) - then Bob
+wins 1 euro.\\
+({\em Note.} The expression $A>B$ means that the number that rolled out on the the dice $A$ was larger than the number on dice $B$; 
+but $B>A$ denotes the opposite event.)
+
+Find the expected value - how much money Alice is expected to win in a single round of such a game.
+
+Write your answer as a rational fraction: {\tt P/Q}\\
+For example, if the expected win for Alice is 0.10 EUR, then write {\tt 1/10}. If Alice is expected on average to lose 0.10 EUR
+per one round of this game, then write {\tt -1/10}. 
+
+
+
+
+\vspace{10pt}
+{\bf Question 4} For every year we count the number of Friday's that fall on the 13th date of some month
+(such as Friday, March 13, 2020). Denote this count by $X$ \textendash{} it is your random variable.
+Find the expected value and the variance of $X$. Round them to the nearest thousandth. 
+
+Write your answer as two comma-separated numbers: {\tt D.DDD,D.DDD}.
+
+\vspace{10pt}
+{\bf Question 5} What is the
+probability that a randomly chosen positive integer between $1$ and $600$ is not divisible 
+by either $6$ or $10$?
+
+Write your answer as a rational fraction: {\tt P/Q}
+
+
+\vspace{10pt}
+{\bf Question 6} A chip factory {\em Intel} adds one toy animal to every bag of chips.
+There are three sorts of animals - Aligators, Bears or Cats (each one appears with probability $p=1/3$). 
+Find the expected number of the chip bags one needs to purchase to collect all three animals.
+
+Write your answer as a rational fraction: {\tt P/Q}
+
+\vspace{10pt}
+{\bf Question 7} You create a random bit string of length five (all $32$ bit strings are equally probable). Consider
+these events:\\
+$E_1$: the bit string chosen begins with $1$;\\
+$E_3$: the bit string chosen has exactly three $1$’s.\\
+{\bf (A)} Find $p(E_1 \,\mid\, E_3)$.\\
+{\bf (B)} Find $p(E_3 \,\mid\, E_1)$.
+
+Write your answer as a comma-separated rational fractions {\tt P1/Q1,P2/Q2}
+
+
+\newpage
+
+\section{Answers}
+
+\vspace{10pt}
+{\bf Question 1.} Answer: {\tt 19/30}
+
+To make the counting easier, let us assume that both queens are distinguishable 
+(we can have $Q_1$ and $Q_2$ as white and black queen). 
+Then the ways to place them are $16 \cdot 15$ \textendash{} which is twice the number 
+of combinations ${16 \choose 2} = \frac{15 \cdot 16}{1 \cdot 2}$. 
+
+\begin{verbatim}
+Q x x x    x Q x x    x x x .
+x x . .    x x x .    x Q x x
+x . x .    . x . x    x x x .
+x . . x    . x . .    . x . x
+\end{verbatim}
+
+Queen $Q_1$ can be placed in a corner of the $4 \times 4$ square ($4$ chances out of $16$), 
+on an edge ($8$ chances out of $16$) or near the center ($4$ chances out of $16$)
+\textendash{} see the pictures above.
+In the first two cases queen $Q_1$ attacks $9$ places (out of $15$). In the last case
+it attacks $11$ places (out of $15$). The ultimate probability that $Q_1$ attacks $Q_2$ 
+is
+$$\frac{4}{16} \cdot \frac{9}{15} + \frac{8}{16} \cdot \frac{9}{15} + \frac{4}{16} \cdot \frac{11}{15} = \frac{152}{16 \cdot 15} = 
+\frac{19}{30}.$$
+
+We could also count the mutual attack positions in the original problem (when $Q_1$ and $Q_2$ 
+are indistinguishable). But we would get the same result, since attacking positions
+are symmetric (if $Q_1$ attacks $Q_2$, then $Q_2$ attacks $Q_1$).
+
+
+
+
+
+\vspace{10pt}
+{\bf Question 2.} Answer: {\tt 9/64}\\
+We can count all the sequences that do not contain two consecutive 0's: \url{https://bit.ly/2TPwMaj}.
+If we denote by $f_0(n)$ the count of all $n$-bit sequences that do not contain two consecutive 0s, 
+we can prove that 
+$$f_0(0)=1,\;f_0(1)=2,\;f_0(2)=3,\;f_0(3)=5,\ldots$$
+For arbitrary $n$ we get $f_0(n) = F_{n+2}$, where $F_{n}$ ($0,1,1,2,3,\ldots$) is the 
+Fibonacci sequence. 
+
+The $12$th member of the Fibonacci sequence is $F_{12}=144$. 
+Therefore the proportion of $10$-bit sequences equals $\frac{144}{1024}=\frac{9}{64}$.
+
+
+
+
+
+
+\vspace{10pt}
+{\bf Question 3.} Answer: {\tt 4/9}\\
+There is $1/3$ probability to pick $(A,C)$ or $(B,D)$ (payoff is $0$ in this case).\\
+Regarding the other four pairs, the probabilities are the following:
+\begin{itemize}
+\item $A$ wins $B$ with probability $2/3$.
+\item $B$ wins $C$ with probability $2/3$.
+\item $C$ wins $D$ with probability $\frac{1}{3} \cdot \frac{1}{1} + \frac{2}{3} \cdot \frac{1}{2}=\frac{2}{3}$:
+{\bf Either} we have $C=6$ (probability $1/3$); and it wins with probability $1$. {\bf Or} we have $C=2$ (probability $2/3$) 
+and it wins with probability $1/2$ (whenever $D=1$).
+\item $D$ wins $A$ with probability $\frac{1}{2} \cdot \frac{1}{1} + \frac{1}{2} \cdot \frac{1}{3}=\frac{2}{3}$:
+{\bf Either} we have $D=5$ (probability $1/2$); and it wins with probability $1$. {\bf Or} we have $D=1$ (probability $1/2$) 
+and it wins with probability $1/3$ (whenever $A=0$).
+\end{itemize}
+
+The expected probability for Alice to win in a single round can be obtained 
+as a sum, where we multiply probabilities for each pair 
+($(A,C)$, $(B,D)$, $(A,B)$, $(B,C)$, $(C,D)$, or $(D,A)$) with their respective payoffs:
+$$\frac{1}{6} \cdot 0 + \frac{1}{6} \cdot 0 + \frac{1}{6} \cdot \frac{2}{3}
++ \frac{1}{6} \cdot \frac{2}{3} + \frac{1}{6} \cdot \frac{2}{3} + \frac{1}{6} \cdot \frac{2}{3} = \frac{4}{9}.$$
+
+
+
+\vspace{10pt}
+{\bf Question 4.} Answer: {\tt 1.714,0.490}\\
+Assume that each year (and therefore each month) can start on 
+each weekday with exactly the same probability (that is $1/7$). 
+Every month has date $13$, so there is a $1/7$ probability that 
+this date will happen on Friday. 
+
+{\bf (A)} If $X$ is the number of months having 13th date on Friday, 
+then $E(X)$ must be $12/7 = 1.714$. It is not because the
+weekdays that start months in a single year are independent (which they are not!), 
+but rather because every $28$-year cycle 
+should have the same number of each type of month (January, February, etc.) 
+starting on each weekday: exactly $4$ Januaries starting on Monday, 
+exactly $4$ Januaries starting on Tuesday, etc. ($4+4+\ldots+4 = 28$).
+Only those Januaries that start on Sundays will have $13$th date on Friday. 
+
+{\bf (B)} Let us create a table reflecting the number of Fridays on 13th 
+depending on whether the year is the leap year and the weekday it starts. 
+
+\begin{tabular}{|l|l|l|} \hline
+Year & Non-leap & Leap \\ \hline
+Sun & 2 (Jan,Oct) & 3 (Jan,Apr,Jul) \\ \hline
+Mon & 2 (Apr,Jul) & 2 (Sep,Dec) \\ \hline
+Tue & 2 (Sep,Dec) & 1 (Jun) \\ \hline
+Wed & 1 (Jun) & 2 (Mar,Nov) \\ \hline
+Thu & 3 (Feb,Mar,Nov) & 2 (Feb,Aug) \\ \hline
+Fri & 1 (Aug) & 1 (May) \\ \hline
+Sat & 1 (May) &  1 (Oct) \\ \hline
+\end{tabular}
+
+The probability to get non-leap year starting on a certain 
+weekday is $\frac{3}{4}\cdot\frac{1}{7} = \frac{3}{28}$. 
+The probability to get leap year starting on a certain weekday
+is $\frac{1}{28}$.
+
+We find the variance $V(X)$ using its definition:
+$$V(X) = \sum (x_i - E(X))^2 p(x_i) = $$
+$$ = \frac{3}{28}\left( \left( 3 - \frac{12}{7} \right)^2 + 
+3\left( 2 - \frac{12}{7} \right)^2 + 3\left( 1 - \frac{12}{7} \right)^2 \right) + $$ 
+$$ + \frac{1}{28}\left( \left( 3 - \frac{12}{7} \right)^2 + 
+3\left( 2 - \frac{12}{7} \right)^2 + 3\left( 1 - \frac{12}{7} \right)^2 \right) = $$ 
+$$ = \frac{1}{7}\cdot\frac{9^2}{7^2} + \frac{3}{7}\cdot\frac{2^2}{7^2} + 
+\frac{3}{7}\cdot\frac{(-5)^2}{7^2} = \frac{168}{7^3} = \frac{24}{49} 
+\approx 0.490.$$ 
+
+
+
+
+
+
+{\em Note.} In fact, the assumption that a year starts with each 
+weekday with a probability $1/7$ is (slightly) false.
+\url{https://bit.ly/2vo0YQt} explains that each $400$ year cycle in Gregorian calendar
+repeats the same weekdays. Namely, the calendar for year $1600$ is identical to 
+the calendar of year $2000$; year $1620$ starts on the same weekday as 
+year $2020$, and so on.
+
+To verify this, notice that exactly $97$ of all $400$ years are leap years:
+({\bf either} years divisible by $4$, but not with $100$, {\bf or} years divisible
+by $400$. During this $400$ year cycle the number of days:
+$$303 \cdot 365 + 97 \cdot 366 \equiv 303 \cdot 1 + 97 \cdot 2 \equiv 497 \equiv 0\;(\text{mod}\,7).$$
+Since this number is divisible by $7$, we should count the proportions 
+of the weekdays within one $400$ year cycle. 
+
+
+
+
+\vspace{10pt}
+{\bf Question 5.} Answer: {\tt 23/30}\\
+Let $U$ be the (universe) set of all numbers between $1$ and $600$. 
+Define three more sets:
+\begin{align}
+A & = \{ i \in U \,\mid\, i\;\text{is divisible by}\;2 \}, \nonumber \\
+B & = \{ i \in U \,\mid\, i\;\text{is divisible by}\;3 \}, \nonumber \\
+C & = \{ i \in U \,\mid\, i\;\text{is divisible by}\;5 \}, \nonumber 
+\end{align}
+
+Numbers $x \in \overline{A \cap B} = \overline{A} \cup \overline{B}$ 
+are not divisible by $6$. Numbers 
+$x \in \overline{A \cap C} = \overline{A} \cup \overline{C}$
+are not divisible by $10$. Numbers in the intersection are not divisible
+either by $6$ or by $10$:
+$$(\overline{A} \cup \overline{B}) \cap (\overline{A} \cup \overline{C}) = 
+\overline{A} \cup (\overline{B} \cap \overline{C}) = 
+\overline{A} \cup \overline{B \cup C}.$$
+
+Inclusion-exclusion principle tells that the number of elements in this union:
+$$|\overline{A} \cup \overline{B \cup C}| = |\overline{A}| + 
+|\overline{B \cup C}| - |\overline{A} \cap \overline{B \cup C}|.$$
+We can compute:
+\begin{itemize}
+\item $|\overline{A}| = (1/2) \cdot 600 = 300$ ... not divisible by $2$.
+\item $|\overline{B \cup C}| = 600 - |B \cup C| = 600 - (|B| + |C| - |B \cap C|) = $
+$= 600 - (200 + 120 - 40) = 320$ ... not divisible either by $3$ or $5$.
+\item $|\overline{A} \cap \overline{B \cup C}| = 160$.
+\end{itemize}
+
+Let us return to the original question: counting the elements 
+in $\overline{A} \cup \overline{B \cup C}$:
+$$|\overline{A} \cup \overline{B \cup C}| = 300 + 320 - 160 = 460.$$
+All these numbers are not divisible either by $10$ or by $6$, so 
+their proportion is $\frac{460}{600} = \frac{23}{30}$.
+
+
+\vspace{10pt}
+{\bf Question 6.} Answer: {\tt 11/2}\\
+
+When you buy the first bag of chips, you necessarily get
+a toy animal you did not have before. Waiting time for this is always $1$. 
+
+Assume that you already have one toy; then it might take $x_1 = 1$, 
+$x_2 = 2$, $x_3 = 3$, etc. more bags to find a different toy animal. 
+The respective probabilities of these events are $p_1 = \frac{2}{3}$, 
+$p_2 = \frac{1}{3}\cdot\frac{2}{3}$, $p_3 = \frac{1}{3}\cdot\frac{1}{3}\cdot\frac{2}{3}$, etc.
+These probabilities make a {\em geometric distribution}. 
+The expected waiting time is the sum $x_1p_1 + x_2p_2 + x_3p_3 + \ldots$: 
+$$S = 1 \cdot \frac{2}{3} + 2 \cdot \frac{1}{3} \cdot \frac{2}{3} + 3 \cdot \frac{1^2}{3^2} \cdot \frac{2}{3} + \ldots$$
+To find the value of $S$, we multiply it by $3$: 
+$$3S = 3 \cdot \frac{2}{3} + 2 \cdot \frac{2}{3} + 3 \cdot \frac{1}{3} \cdot \frac{2}{3} + 4 \cdot \frac{1^2}{3^2} \cdot \frac{2}{3}\ldots$$
+If we subtract 2nd from the 1st and bring the factor $2/3$ to the front: 
+$$3S - S = \frac{2}{3} \left( 4  + \left(3 \cdot \frac{1}{3} - 2 \cdot \frac{1}{3} \right)
++  \left(4 \cdot \frac{1^2}{3^2} - 3 \cdot \frac{1}{3^2} \right) + \ldots \right).$$
+$$2S = \frac{2}{3} \left( 4 + \frac{1}{3} + \frac{1}{3^2} + \ldots \right)$$
+We get that $3S = 4\frac{1}{2}$ and $S = \frac{3}{2}$. I.e. we expect to get the
+second toy after $1.5$ bags of chips.
+
+Once we have 2 toys, the final toy can also be found by summation and infinite
+geometrical progression. The expected waiting time is $3$ (bags of chips). 
+
+The total waiting time for all $3$ toys is $\frac{3}{3} + \frac{3}{2} + \frac{3}{1} = \frac{11}{2}$.
+
+
+\vspace{10pt}
+{\bf Question 7.} Answer: {\tt 3/5,3/8}\\
+The conditional probability of $E_1$ given $E_3$ is defined like this:
+$$p(E_1 \,\mid\, E_3) = \frac{p(E_1 \cap E_3)}{p(E_3)}.$$
+The conditional probability of $E_3$ given $E_1$ is defined similarly:
+$$p(E_3 \,\mid\, E_1) = \frac{p(E_1 \cap E_3)}{p(E_1)}.$$
+
+\begin{itemize}
+\item Out of $32$ bit sequences there are $6$ sequences that
+are in $E_1 \cap E_3$: They start with $1$ and also contain exactly three $1$'s. 
+Indeed, the first bit is $1$, and there are ${4 \choose 2}$ 
+ways to select the remaining two bits that equal $1$. 
+\item Out of $32$ bit sequences there are $16$ sequences that 
+are in $E_1$. They start with $1$.
+\item Out of $32$ bit sequences there are $10$ sequences that 
+are in $E_3$. There are ${5 \choose 3}$ ways to select 
+three bits that equal $1$.
+\end{itemize}
+
+Compute both conditional probabilities:
+$$p(E_1 \,\mid\, E_3) = \frac{p(E_1 \cap E_3)}{p(E_3)} = \frac{6/32}{10/32} = \frac{3}{5}.$$
+$$p(E_3 \,\mid\, E_1) = \frac{p(E_1 \cap E_3)}{p(E_1)} = \frac{6/32}{16/32} = \frac{3}{8}.$$
+
+
+
+\end{document}
+
+
+

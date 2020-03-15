@@ -155,5 +155,108 @@ all the 120 permutations are sorted alphabetically).
 Write your answer as 5-letter word.
 
 
+
+\newpage
+
+\section{Answers}
+
+\vspace{4pt}
+{\bf Question 1.} Answer: {\tt 2822400}\\
+{\bf Statement 1:} If rooks would be the same color (so that the ``individuality'' of a rook 
+does not matter), then we could have $8! = 40320$ different placements.\\
+On the first horizontal you can place a rook in $8$ different ways (choose any vertical), 
+on the second horizontal you can place a rook in $7$ different ways (one vertical is already taken) and so on. 
+Finally, you multiply all these numbers together.\\
+{\bf Statement 2:} You can pick the four horizontals containing white rooks in ${8 \choose 4} = 70$ different ways.\\
+This follows immediately from the definition of a combination of $k=4$ elements out of an $n=8$ element set.
+
+The total can be obtained, if we multiply $8!$ (placements of indistinguishable rooks) by ${8 \choose 4}$. 
+The product is $40320 \cdot 70 = 2822400$.
+
+\vspace{10pt}
+{\bf Question 2.} Answer:\\
+$\mathtt{u''''*v+4*u'''*v'+6*u''*v''+4*u'*v'''+v''''}$\\
+{\em (In your responses the multiplication could be omitted, and also the 
+order of summation can be different.)}\\
+Let us verify, why expanding the expression $(uv)''''$ leads to the same binomial coefficients
+as Newton's binom $(a+b)^4$. We express successive derivatives:
+\begin{align}
+(uv)' & = u'v + uv'. \\
+(uv)'' & = (u'v + uv')' = (u'v)' + (uv')' = \nonumber \\
+ & = (u''v + u'v') + (u'v' + uv'') = \nonumber \\
+ & = u''v + 2u'v' + uv''.\\
+(uv)''' & = (u''v + 2u'v' + uv'')' = \nonumber \\
+ & = (u''v)' + 2(u'v')' + (uv'')' = \nonumber \\
+ & = (u'''v + u''v') + 2(u''v' + u'v'') + (u'v'' + uv''') = \nonumber \\
+ & = u'''v + 3u''v' + 3u'v'' + uv'''.\\
+(uv)'''' & = (u'''v + 3u''v' + 3u'v'' + uv''')' = \nonumber \\
+ & = u''''v+4u'''v'+6u''v''+4u'v'''+v''''.
+\end{align}
+
+
+\vspace{10pt}
+{\bf Question 3.} Answer: {\tt 55,1680}\\
+To see, how many terms there are in the expansion of $(a+b+c)^9$, 
+notice that each term is in form $a^xb^yc^z$, where $x,y,z$ are nonnegative
+integers satisfying $x+y+z=9$. To count the ways how $n=9$ can be expressed
+as a sum of $k=3$ nonnegative numbers, we compute the {\em combination with 
+repetitions}. The formula for combination with repetitions is this:
+$${n+k-1 \choose k-1} = {9+3-1 \choose 3-1} = {11 \choose 2} = \frac{11 \cdot 10}{2 \cdot 1} = 55.$$
+
+By multinomial formula, the coefficient for $a^3b^3c^3$ is $\frac{9!}{3!3!3!} = 1680$.
+
+
+
+\vspace{10pt}
+{\bf Question 4.}\\ Answer: {\tt AANN,ANAN,ANNA,NAAN,NANA,NNAA}\\
+The number of permutations with repetitions equals $\frac{4!}{2!}{2!} = \frac{24}{2 \cdot 2} = 6$.
+We have four letters (and two of them repeat twice each).
+Once we sort all the permutations alphabetically, we get the answer: 
+the first three permutations start by ``A'', the next three start by ``N''.
+
+\vspace{10pt}
+{\bf Question 5.} Answer: {\tt 256}\\
+Each penny can be placed in any of the four jars. We make this choice five times, so the
+total number of ways is $4^5 = 1024$. Moreover, you can rotate the four jars in four different ways (getting
+essentially identical ways to distribute pennies, which have been counted four times each). 
+So the final answer can be obtained by dividing $1024/4 = 256$.
+
+Another solution: Place the first penny in one of the jars.
+Since the pennies are all distinguishable, this jar is very special.
+Place that jar in the North position, then the remaining jars are facing East, South and West.
+And then you can make four choices with four outcomes each. So the result is still $4^4 = 256$.
+
+\vspace{10pt}
+{\bf Question 6.} Answer: {\tt 128}\\
+We have this equality:
+$$2020 = 1024 + 512 + 256 + 128 + 64 + 32 + 4,$$
+So $2020_{10} = 11111100100_2$. The binary notation for $2020$
+contains digit $1$ in $7$ positions. 
+
+There are altogether
+$2^7 = 128$ how you can split these seven digits $1$ between 
+$k$ and $2020-k$ so that when you add $k$ and $2020-k$ (in binary notation) 
+you do not get any carries. Here are some of these ways:\\
+{\small
+$\mathtt{11111100100}_2 = \mathtt{11111100100}_2 + \mathtt{0}_2 = 2020_{10}+0_{10}$,\\
+$\mathtt{11111100100}_2 = \mathtt{11111100000}_2 + \mathtt{100}_2 = 2016_{10} + 4_{10}$,\\
+$\mathtt{11111100100}_2 = \mathtt{11111000100}_2 + \mathtt{100000}_2 = 1988_{10} + 32_{10}$,\\
+$\mathtt{11111100100}_2 = \mathtt{11111000000}_2 + \mathtt{100100}_2 = 1984_{10} + 36_{10},\ldots$\\
+$\mathtt{11111100100}_2 = + \mathtt{0}_2 + \mathtt{11111100100}_2  = 0_{10} + 2020_{10}$.\\
+}
+So, all ${2020 \choose 0}$,  ${2020 \choose 4}$,  ${2020 \choose 32}$,  ${2020 \choose 36}$, etc. are odd.
+
+
+
+\vspace{10pt}
+{\bf Question 7.} Answer: {\tt EACDA}.\\
+There are $24$ permutations of {\tt ABCDE} starting with each 
+letter (A,B,C,D and E). The first $24+24+24+24=96$ of them start by A,B,C,D respectively. 
+So the 100th permutation would start by ``E'', and it will be the 4th out of them. 
+We can create a sequence of the (alphabetically) first four permutations starting by ``E'':
+$$\mathtt{EABCD},\mathtt{EABDC},\mathtt{EACAD},\mathtt{EACDA},\ldots$$
+We see that the 100th permutation (or the 4th among those starting by ``E'') is 
+{\tt EACDA}.
+
 \end{document}
 

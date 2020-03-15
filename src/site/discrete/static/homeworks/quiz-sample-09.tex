@@ -1,0 +1,159 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+
+
+\title{Sample Quiz 8}
+\author{Discrete Structures, Spring 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Sample Quiz 8}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\twocolumn
+{\Large Discrete Sample Quiz 9}
+
+\vspace{10pt}
+{\bf Question 1 (Rosen7e, Ch.8, Q4).} 
+Denote by $a_n$ the number of ways to go down an $n$-step staircase if you go down $1$, $2$, or $3$ steps at a time.
+(In other words, $a_n$ denotes the number of ways how $n$ can be expressed as a sum of $1,2,3$, if the
+order in the sum matters.)\\
+Define $a_n$ as a recurrent sequence. Assume that the sequence starts from $a_1$. 
+
+\vspace{10pt}
+{\bf Question 2 (Rosen7e, Ch.8, Q11).}
+A vending machine accepts only \$1 coins, \$1 bills, and \$2 bills. Let $a_n$ denote the
+number of ways of depositing $n$ dollars in the vending machine, where the order in which the coins and bills
+are deposited matters.\\
+{\bf (A)} Find a recurrence relation for $a_n$ and give the necessary initial condition(s).\\
+{\bf (B)} Find an explicit formula for $a_n$ by solving the recurrence relation in part {\bf (A)}.
+
+\vspace{10pt}
+{\bf Question 3 (Rosen7e, Ch.8, Q16-Q20).}
+For each item solve the recurrence relation (characteristic equation 
+or simply guess the pattern for the terms):\\
+{\bf (A)} $a_n = a_{n-2}$, $a_0 = 2$, $a_1 = -1$.\\
+{\bf (B)} $a_n = 2a_{n-1} + 2a_{n-2}$, $a_0 = 0$, $a_1 = 1$.\\
+{\bf (C)} $a_n = 3na_{n-1}$, $a_0 = 2$.\\
+{\bf (D)} $a_n = a_{n-1} + 3n$, $a_0 = 5$.\\
+{\bf (E)} $a_n = 2a_{n-1} + 5$, $a_0 = 3$.
+
+\vspace{10pt}
+{\bf Question 4 (Rosen7e, Ch.8, Q24)}
+Assume that the characteristic equation for a homogeneous 
+linear recurrence relation with constant coefficients
+is $(r + 2)(r + 4)^2 = 0$.\\
+{\bf (A)} Describe the form for the general solution to the recurrence relation.\\
+{\bf (B)} Define a recurrent sequence that leads to this characteristic equation.
+
+
+\vspace{10pt}
+{\bf Question 5 (Rosen7e, Ch.8, Q27)} 
+The Catalan numbers $C_n$ count the number of strings of $n$ pluses ($+$) and $n$ minuses ($-$)
+with the following property: as each
+string is read from left to right, the number of pluses encountered is always 
+at least as large as the number of minuses.\\
+{\bf (A)} Verify this by listing these strings of lengths $2$, 
+$4$, and $6$ and showing that there are $C_1$, $C_2$, and $C_3$ of
+these, respectively.\\
+{\bf (B)} Explain how counting these strings is the same as counting 
+the number of ways to correctly parenthesize strings of variables.
+
+{\em Note.} Catalan numbers 
+$$C_0=1,\; C_1=1,\; C_2=2,\; C_3=5,\; C_4=14,\ldots$$
+are defined as ${\displaystyle C_n = \frac{1}{n+1}{2n \choose n}}$.
+
+\vspace{10pt}
+{\bf Question 6  (Rosen7e, Ch.8, Q28, Q29)}\\
+{\bf (A)} What form does a particular solution of the linear nonhomogeneous 
+recurrence relation $a_n = 4a_{n-1} - 4a_{n-2} + F(n)$ have when $F(n) = 2^n$?\\
+{\bf (B)} What form does a particular solution of the linear nonhomogeneous 
+recurrence relation $a_n = 4a_{n-1} - 4a_{n-2} + F(n)$ have when $F(n) = n2^n$?
+
+
+ 
+
+\vspace{10pt}
+{\bf Question 6 (Rosen7e, Ch.8, Q32).}
+Consider the recurrence relation $a_n = 2a_{n-1} + 3n$.\\
+{\bf (A)} Write the associated homogeneous recurrence relation.
+{\bf (B)} Find the general solution to the associated homogeneous recurrence relation.
+{\bf (C)} Find a particular solution to the given recurrence relation.
+{\bf (D)} Write the general solution to the given recurrence relation.
+{\bf (E)} Find the particular solution to the given recurrence relation when $a_0 = 1$.
+
+
+\vspace{10pt}
+{\bf Question 8 (Rosen7e, Ch.8, Q37).} 
+Suppose $f(n) = f(n/3) + 2n$, $f(1) = 1$. Find $f(27)$.
+
+
+\vspace{10pt}
+{\bf Question 9  (Rosen7e, Ch.8, Q53-Q63)} 
+Find the coefficient of $x^8$ in the power series of each of the function:\\
+{\bf (A)} $(1 + x^2 + x^4)^3$.\\
+{\bf (B)} $(1 + x^2 + x^4 + x^6)^3$.\\
+{\bf (C)} $(1 + x^2 + x^4 + x^6 + x^8)^3$.\\
+{\bf (D)} $(1 + x^2 + x^4 + x^6 + x^8 + x^{10})^3$.\\
+{\bf (E)} $(1 + x^3)^{12}$.\\
+{\bf (F)} $(1 + x)(1 + x^2)(1 + x^3)(1 + x^4)(1 + x^5)$.\\
+{\bf (G)} $1/(1 - 2x)$.\\
+{\bf (H)} $x^3/(1 - 3x)$.\\
+{\bf (I)} $1/(1 - x)^2$.\\
+{\bf (J)} $x^2/(1 + 2x)^{2}$.\\
+{\bf (K)} $1/(1 - 3x^2)$.
+
+
+
+
+\end{document}
+
