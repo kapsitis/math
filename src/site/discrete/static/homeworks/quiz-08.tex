@@ -194,7 +194,7 @@ Therefore the proportion of $10$-bit sequences equals $\frac{144}{1024}=\frac{9}
 
 
 \vspace{10pt}
-{\bf Question 3.} Answer: {\tt 4/9}\\
+{\bf Question 3.} Answer: {\tt 2/9}\\
 There is $1/3$ probability to pick $(A,C)$ or $(B,D)$ (payoff is $0$ in this case).\\
 Regarding the other four pairs, the probabilities are the following:
 \begin{itemize}
@@ -208,12 +208,14 @@ and it wins with probability $1/2$ (whenever $D=1$).
 and it wins with probability $1/3$ (whenever $A=0$).
 \end{itemize}
 
-The expected probability for Alice to win in a single round can be obtained 
-as a sum, where we multiply probabilities for each pair 
-($(A,C)$, $(B,D)$, $(A,B)$, $(B,C)$, $(C,D)$, or $(D,A)$) with their respective payoffs:
-$$\frac{1}{6} \cdot 0 + \frac{1}{6} \cdot 0 + \frac{1}{6} \cdot \frac{2}{3}
-+ \frac{1}{6} \cdot \frac{2}{3} + \frac{1}{6} \cdot \frac{2}{3} + \frac{1}{6} \cdot \frac{2}{3} = \frac{4}{9}.$$
+For each pair $(A,B)$, $(B,C)$, $(C,D)$, or $(D,A)$ the expected payoff for Alice is
+$$\frac{2}{3}(+1\,\text{EUR}) + \frac{1}{3}(-1\,\text{EUR}) = \frac{1}{3}\,\text{EUR}.$$
 
+The expected probability for Alice to win in a single round can be obtained 
+as a sum, where we multiply probabilities for each pair  
+($(A,C)$, $(B,D)$, $(A,B)$, $(B,C)$, $(C,D)$, or $(D,A)$) with their respective payoffs (either 0 or 1/3 euro):
+$$\frac{1}{6} \cdot 0 + \frac{1}{6} \cdot 0 + \frac{1}{6} \cdot \frac{1}{3}
++ \frac{1}{6} \cdot \frac{1}{3} + \frac{1}{6} \cdot \frac{1}{3} + \frac{1}{6} \cdot \frac{1}{3} = \frac{2}{9}.$$
 
 
 \vspace{10pt}

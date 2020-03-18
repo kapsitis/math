@@ -57,10 +57,6 @@
 \twocolumn
 {\Large Homework 1: Grading Criteria}
 
-As a general rule, the statements in your homework have to be justified. 
-Rigorous proofs can only happen in Coq, so in the homework you need to 
-write {\bf why} do you think your solution is true.
-
 If you quote an external source, you can use the results found on that page, but 
 you still need to restate the statement (plus a short justification, why do you 
 think the statement is credible). 
@@ -68,8 +64,9 @@ think the statement is credible).
 You are encouraged to write answers concisely \textendash{} the best solution would contain the 
 minimal set of sentences that allow the reader to check, what you have done. 
 On the other hand, grading does not penalize you for writing extra stuff.
-The important thing is to avoid writing nonsense that casts doubt on your understanding, 
-and also to add all the essential parts for your solution. 
+The important thing is to avoid writing nonsense that casts doubt on your understanding. 
+Also try to ensure that all the essential parts for your solution are present (writing too much 
+stuff may cause forgetting something important).
 
 
 
@@ -82,7 +79,7 @@ conclusions (verify, which statements
 are mutually exclusive or imply each other; find how many are true 
 or false; are they consistent; or even analyze all possible ways how they can 
 be true or false and prove that there are no other possibilities).
-\begin{enumerete}
+\begin{enumerate}
 \item {\bf 5 points} It is clearly said, if the statements are consistent at all
 (is it possible to assign any truth values to them without getting a contradiction). 
 And if so, then 
@@ -95,7 +92,7 @@ For example, a statement that $49$ (or $50$) statements should be true.
 \vspace{2ex}
 {\bf Problem 2} Answer (in form of the question to ask the villager) has to be given; 
 it should be analyzed for correctness. 
-\begin{enumerete}
+\begin{enumerate}
 \item {\bf 1 point} Only the answer is given; no analysis. 
 \item {\bf 2 points} Some attempt to write analysis, but it has serious deficiences; 
 most cases are not analyzed. 
@@ -124,13 +121,14 @@ without explaining, how the $\vee$ was transformed into $\downarrow$.
 \item {\bf 4 points} Formulas for $p \wedge q$, $p \vee q$, $\neg p$ are all given, 
 but $p \rightarrow q$ only mentions the answer, without any relation to the previous formulas.
 \item {\bf 3 points} Same as above, but with some typos in the formulas; still no explanation 
-why $p \righarrow q$ should be equal the expression.
+why $p \rightarrow q$ should be equal the expression.
 \end{itemize}
 
 
 
 
 \vspace{2ex}
+{\footnotesize
 {\bf Problem 4 [39, p.114]} 
 Let $S = x_1y_1 + x_2y_2 + \cdots + x_ny_n$, where $x_1,x_2,\ldots,x_n$
 and $y_1,y_2,\ldots,y_n$ are orderings of two different sequences
@@ -143,6 +141,10 @@ sequence are in nondecreasing order).
 sequences when one sequence is sorted into nondecreasing order and the other 
 is sorted into nonincreasing order.
 \end{enumerate}
+}
+
+{\em (No grading guidelines.)}
+
 
 \vspace{2ex}
 {\bf Problem 5} 
@@ -160,30 +162,41 @@ prove that $\sqrt[3]{4}$ cannot be expressed as a rational number $p/q$.
 \begin{itemize}
 \item {\bf 4 points} If there is a counterexample, but cases with very small sizes for $A$
 and $B$ (one or two elements) are not properly explained.
-\item 
+\end{itemize}
 
 \vspace{2ex}
+{\footnotesize
 {\bf Problem 7 [78, p.164]}
 Let $x$ be a real number. Show that 
 $\lfloor 3x \rfloor = \lfloor x \rfloor + \lfloor x + \frac{1}{3} \rfloor +
 \lfloor x + \frac{2}{3} \rfloor$.\\
-{\color{red} {\em Note.} By $\lfloor x \rfloor$ we denote the 
+{\em Note.} By $\lfloor x \rfloor$ we denote the 
 largest integer number that does not exceed $x$. 
 For example $\lfloor 3.14 \rfloor = 3$, $\lfloor 17 \rfloor = 17$, 
-$\lfloor -4.5 \rfloor = -5$. }
+$\lfloor -4.5 \rfloor = -5$.
+}
+
+{\em (No grading guidelines.)}
 
 \vspace{2ex}
+{\footnotesize
 {\bf Problem 8 [28, p.179]}
 Let $a_n$ be the $n$-th term of the sequence $1, 2,2, 3,3,3, 4,4,4,4, 5,5,5,5,5, 6,6,6,6,6,6,\ldots$
 constructed by including the integer $k$ exactly $k$ times. Show that 
 ${\displaystyle \left\lfloor \sqrt{2n} + \frac{1}{2} \right\rfloor}$. 
+}
 
+{\em (No grading guidelines.)}
 
 \vspace{2ex}
+{\footnotesize
 {\bf Problem 9 [31, p.187]}
 Show that $\mathbb{Z}^{+} \times \mathbb{Z}^{+}$ is countable by showing that
 the polynomial function $f\,:\,\mathbb{Z}^{+} \times \mathbb{Z}^{+} \rightarrow \mathbb{Z}^{+}$
-with $\color{red} {\displaystyle f(m,n) = \frac{(m+n-2)(m+n-1)}{2} + m}$ is one-to-one and onto.
+with ${\displaystyle f(m,n) = \frac{(m+n-2)(m+n-1)}{2} + m}$ is one-to-one and onto.
+}
+
+{\em (No grading guidelines.)}
 
 \vspace{2ex}
 {\bf Problem 10}
@@ -192,23 +205,12 @@ Subitem {\bf (a)} has 1 point max credit.
 \item {\bf 1 point.} Everybody who correctly quotes the source of the code and 
 computes the numbers, gets max points for this.
 \end{itemize}
+
 Subitem {\bf (b)} has 4 points max credit.
 \begin{itemize}
 \item {\bf 4 points.} A correct explanation, why there should be infinitely many Ulam numbers. 
 (The easiest proof is from the contradiction.)
-
-
-We define the {\bf Ulam numbers} by setting $u_1 = 1$ and $u_2 = 2$. 
-Furthermore, after determining whether the integers less than $n$ are 
-Ulam numbers, we set $n$ equal to the next Ulam number, if it can be written uniquely as the
-sum of two different Ulam numbers. Note that $u_3 = 3$, $u_4 = 4$, 
-$u_5 = 6$, and $u_6 = 8$. 
-\begin{enumerate}[(a)]
-\item Find these five consecutive Ulam numbers: $u_{2020},u_{2021},u_{2022},u_{2023},u_{2024}$. 
-
-\item Prove that there are infinitely many Ulam numbers.
-\end{enumerate}
-
+\end{itemize}
 
 
 
