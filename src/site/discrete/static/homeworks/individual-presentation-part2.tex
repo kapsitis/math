@@ -1,0 +1,200 @@
+\documentclass[jou]{apa6}
+%\documentclass[11pt]{article}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{lipsum}
+\usepackage{hyperref}
+
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -0.1in
+\headheight 0.0in
+\headsep 0.0in
+\textheight 9.0in
+
+\usepackage{xcolor}
+
+\setlength\parindent{0pt}
+
+\newenvironment{myenv}{\begin{adjustwidth}{0.4in}{0.4in}}{\end{adjustwidth}}
+\renewcommand{\abstractname}{Anotācija}
+\renewcommand\refname{Atsauces}
+
+
+
+\newcounter{alphnum}
+\newenvironment{alphlist}{\begin{list}{(\Alph{alphnum})}{\usecounter{alphnum}\setlength{\leftmargin}{2.5em}} \rm}{\end{list}}
+
+
+%16.3-6
+
+\makeatletter
+\let\saved@bibitem\@bibitem
+\makeatother
+
+\usepackage{bibentry}
+%\usepackage{hyperref}
+
+
+\title{Homework 1: Grading Criteria}
+\author{Kalvis}
+\affiliation{RBS}
+
+
+
+\begin{document}
+\thispagestyle{empty}
+
+%\twocolumn
+
+\begin{center}
+{\Large RBS: Discrete Structures}\\
+{\Large RBS: Individual Presentations Part 2: Draft Presentation}
+\end{center}
+
+The structure of your draft presentation is largely defined by the topic of your presentation
+\textendash{} {\em ``Content is the king!''}. Your story and your form should follow the 
+content, the objectives that you want to achieve by your presentation.
+Below are a few guidelines as you prepare the draft presentation.
+
+
+\section{Choosing the Title}
+
+\begin{itemize}
+\item Presentation title should not be identical 
+to the name of your topic assigned at the beggining of the semester. 
+If after some planning and anlysis it turned out that 
+your topic becomes narrower or otherwise differs from what the instructor provided, 
+your title should change as well.
+\item Good titles should be short (2-5 words are usually fine), but they should
+summarize what is in the presentation.
+\item It may help to formulate a few candidate titles 
+and select the final version after you have studied the topic carefully and
+have done most of the content. (Same as authors and movie directors that 
+name their work just before release.)
+\end{itemize}
+
+
+\section{Choosing the Layout}
+
+During the draft presentation you can already start experimenting with the slide layout options. 
+\begin{itemize}
+\item Depending on your context analysis, choose the slide aspect ratio to be 
+3:4 or 9:16. On most projectors or screen sharing environments 
+the ``wide-screen'' (9:16) slides look best, but make sure 
+that you have tested. If you plan to record your presentation as a video 
+(and or publish it on YouTube), check what are the requirements there regarding
+the aspect ratio. Switching to other slide layout may require for you to re-do lots of things.
+\item Pay separate attention to your title slide. Does it have the required information
+(the title, author, current/delivery date); it may have 
+optional information (logo of RBS or other affiliation); preferrably keep it free from clutter
+(unrelated logos or messages). 
+\item Pay attention to the layout options. The theme should avoid background patterns; it should be
+as clean as possible (black+colored text on a white background or colored text on black background). 
+\item Pay attention to the font family you will be using. 
+Experiment with several serif fonts (not just "Time New Roman", but also 
+the old-style serifs - say, "Garamond", "Palatino") and with some sans-serif fonts
+(not just "Arial", but also "Calibri", "Helvetica", "Tahoma"). 
+You can use sans-serif in titles and serif in the slide text, but DON'T use more than 2 font families.
+Check, how well they go together with your math formulas.
+\end{itemize}
+
+
+\section{Starting with ``Why''}
+
+\begin{itemize}
+\item Your 2nd slide should contain some motivation.
+You can name it ``Objectives'' or ``WHY should I care'' or whatever. But your story should 
+{\bf not} start with Agenda or Key Concepts or Table of Content (all of them 
+are useful, and can be used later).
+\item Your story should start by relating to the existing knowledge, assumptions, experiences of your 
+listeners; it should motivate them to learn your new stuff. 
+Good motivation never jumps to your {\bf solution} at once. You should first outline the 
+{\bf problem}; and then your solution(s) can be explained as a response to that problem.
+\end{itemize}
+
+\section{How many slides will you need?}
+
+\begin{itemize}
+\item The number of slides depends on your style. If you are not overusing animation,
+having one or two slides per each minute of presentation is usually the best practice. 
+\item Each slide should contain 1 big picture (or several small ones); and usually some text. 
+1--2 full sentences or up to 5-8 bullet points is usually the upper limit.
+Do not overload slides with text. Slidedecks are not appropriate for writing prose.
+Leave longer chunks of prose to the ``Notes'' sections.
+\end{itemize}
+
+
+
+\section{Using ``Notes'' Sections}
+
+\begin{itemize}
+\item As you prepare your presentation, please add the Notes sections to your slides. 
+\item Ideally your slides themselves should have very limited verbal information. 
+In this case ``Notes'' section should rhyme with your image: It should be accompanying 
+text that explains, what happens in the slide. It should give another dimension to your message.
+\item Typically you should {\bf not} use the Notes sections to write the sentences that you 
+will pronounce aloud. Spoken language differs from the written language; your audience
+will immediately tell, if you read some text rather than speak naturally.
+\end{itemize}
+
+
+\section{No regrets when you remove something}
+
+\begin{itemize}
+\item Do not make your slides too elaborate too early. Draft presentation may change many times.
+In particular, it is OK to have very rough images/diagrams 
+(far from the ``production quality'' ones you will insert later).
+Doing too detailed slides will distract you from the content planning. 
+\item Wireframes (very approximate layouts for diagrams or UI); images that 
+need to be redesigned are still OK.
+\item Can add more text than will be in your final presentation. 
+In this case you have something to work on as you convert 
+your draft into the final presentation.
+\end{itemize}
+
+
+\section{Summarizing the Objectives}
+
+\begin{itemize}
+\item Right before the ``References'' you should provide a finishing slide with 
+restated objectives. This time you do not need to motivate or answer any ``why'' questions, 
+but rather recap the important takeaway moments. 
+\item The summary can closely mirror the objectives at the beginning. 
+For example, if you have 3 related objectives or motivations, then your summary 
+can restate them (this time in a summary form).
+\end{itemize}
+
+
+\section{Documenting Key References Only}
+
+\begin{itemize}
+\item As you prepare your presentation, you may need dozens of Web links about 
+the related topics (even if they contain just a little bit of what you need). 
+Your listeners typically would not appreciate all that information. They need a more 
+condensed version.
+\item References part is a good practice \textendash{} typically 1-2 last slides.
+In the References you still do not want to show all the URLs that you used. 
+Only leave those URLs that are the ``best of the best'', and that address specific objectives 
+included in your presentation.
+\item Your presentations do not need to follow APA guidelines on bibliographies.
+On the other hand, very brief summaries for each URL would be helpful 
+(tell, why did you find that link useful). 
+\end{itemize}
+
+
+
+
+\end{document}
+
+
+
