@@ -1,0 +1,203 @@
+\documentclass[jou]{apa6}
+%\documentclass[11pt]{article}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{lipsum}
+\usepackage{hyperref}
+
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -0.1in
+\headheight 0.0in
+\headsep 0.0in
+\textheight 9.0in
+
+\usepackage{xcolor}
+
+\setlength\parindent{0pt}
+
+\newenvironment{myenv}{\begin{adjustwidth}{0.4in}{0.4in}}{\end{adjustwidth}}
+\renewcommand{\abstractname}{Anotācija}
+\renewcommand\refname{Atsauces}
+
+
+
+\newcounter{alphnum}
+\newenvironment{alphlist}{\begin{list}{(\Alph{alphnum})}{\usecounter{alphnum}\setlength{\leftmargin}{2.5em}} \rm}{\end{list}}
+
+
+%16.3-6
+
+\makeatletter
+\let\saved@bibitem\@bibitem
+\makeatother
+
+\usepackage{bibentry}
+%\usepackage{hyperref}
+
+
+\title{Homework 1: Grading Criteria}
+\author{Kalvis}
+\affiliation{RBS}
+
+
+
+\begin{document}
+\thispagestyle{empty}
+
+\twocolumn
+
+\begin{center}
+{\Large RBS: Discrete Structures}\\
+{\Large RBS: Individual Presentations Part 3: Final Presentation}
+\end{center}
+
+
+\vspace{20pt}
+{\large Section 1: Writing 4 Test Questions}
+
+Once you know the objectives of what your presentation should have, 
+you can start making tests about it. 
+
+In general you can have three different types of performance objectives:
+\begin{itemize}
+\item {\bf Conceptual knowledge:} 
+If you want to check that knowledge, you can use all the arsenal of mathematical testing: 
+binary (true/false) questions, matching or multiple choice questions. Also consider
+write-in answers (popular in language learning) or short-answer questions, where the answer is a number or
+a short expression.
+\item {\bf Covert/Implicit Procedural Knowledge:} Ability to perform decisions and procedures, which 
+are not observable from the outside in much detail; they happen in the head of the person who performs the test. 
+Typical examples are troubleshooting, or decision making activities.\\
+If you want to check that knowledge, you can develop some scenarios, where you introduce
+some situation. Then you ask the performer to choose an appropriate response in 
+the given situation or to correct some mistake or fix some bug.
+\item {\bf Explicit Procedural Knowledge:} Ability of your listeners to perform certain well-defined sequences of steps.\\
+If you want to check that knowledge, you can also
+consider behavior checklists or effectiveness checklists.
+\end{itemize}
+
+For the most part you might need conceptual knowledge, but in some cases you want the
+learners to perform certain procedural steps as well. 
+Below we discuss all the considerations as you do the test questions. 
+
+{\bf (A) Binary (true/false) questions.} All questions with answers Yes/No or True/False are in this category. 
+They are usually easy to understand for the test-taker. On the other hand, the questions should reflect
+the material really well; too often it is possible to guess the right answer (just on basis of how the question 
+is asked).\\
+{\em Note.} To make such binary questions harder to guess, 
+introduce 2-3 mutually related questions with Yes/No answers. I.e. they are not quite binary in this case; 
+the full answer is actually 2-3 Yes/No values.
+
+\vspace{6pt}
+{\bf (B) Matching questions.} Ask the learners to match an item in one column with an item in another column. 
+Another variety is \textendash{} ask the learners to order items according to some criterion. 
+Usually matching/ordering of 3-5 items works best.\\
+{\em Note.} These questions are especially useful when you have some order or pairing relationship between the
+items. They might look artificial, if the knowledge that you test is not related to item pairing or ordering.
+
+\vspace{6pt}
+{\bf (C) Multiple choice single answer.} It is given that one (and only one) answer is true. 
+The test taker has to pick this answer from 3-5 alternatives. The alternatives that are not correct are 
+named {\em distractors}.\\
+{\em Note.} Wording of your questions becomes very important in this case. Distractors should not be 
+something trivially false (or things like "None of the above, etc."). Usually the alternatives would 
+be shuffled; they should be independent. Having less than 3 alternatives is not acceptable (it is binary question 
+in this case). Also having more than 5 alternatives is not good: Too much effort to read them all.
+
+\vspace{6pt}
+{\bf (D) Multiple choice multiple answers.} In this case you tell in advance how many responses are true, and 
+ask the test taker to check ALL the correct responses. Once again you can have 3-5 alternatives (more than that
+is difficult to read). And you can have 2-4 correct responses; the rest are distractors.\\
+{\em Note.} Wording of your questions is very important in this case as well (a person who does not
+understand the subject should not be able to eliminate the distractors).\\
+On the other hand such questions are typically harder than MC single answer, since 
+a correct answer in this case means that ALL items have been selected correctly.
+For example, if you have 5 alternatives and 2 of them are true, then there are ${\displaystyle {5 \choose 2} = 10}$
+different possibilities to pick the answer; only one of them gives a credit.
+
+\vspace{6pt}
+{\bf (E) Completion question.} You type a text, leave 1-3 blanks, and ask the test taker to fill in those
+blanks. It is popular in language training (inserting correct word forms, endings, propositions, articles and so on), 
+but there is no reason why it could not be used in mathematics as well. For example, an expression, where some
+blanks have to be filled in.\\
+{\em Note.} Completion questions are good in situations, where there are limited range of possible values
+to enter (E.g. you can enter any English article - "a", "an", "the" or leave it blank. Or enter a single digit from 0 to 9 
+or similar.) They are not good, if the omitted places can be filled in many different ways (because they become 
+hard to grade).
+
+\vspace{6pt}
+{\bf (F) Short answer questions.} These are similar to the completion questions, but the blank is near
+the end of the question. This style is extensively used by \url{https://www.khanacademy.org/}, and also 
+by our weekly quizzes and commercial testing services like \url{https://www.uzdevumi.lv/}.\\
+{\em Note.} These test questions are easy to create - a typical question in IT, Math, Physics or Chemistry has
+a short answer. On the other hand, exam creators should be very careful to define the right syntax of the answers.\\
+For example, if the answer is a real number, we should specify, how it should be rounded; 
+if the answer is a line segment $AB$, can it also be written as $BA$, etc.
+
+
+\vspace{6pt}
+{\bf (G) Best response.} You may have questions with various (partial) credits \textendash{} in particular
+if they are multiple choice. 
+Some types of conceptual knowledge does not have black-and-white answers; there may be shades of gray. 
+If you have 2-3 related situations with several answer alternatives (ranging from the best to the outright wrong), 
+then you can consider a ``Best response'' question(s). They are frequantly used to compute psychology 
+evaluations. In conceptual knowledge about IT (in particular, 
+some real-life issues like IT security, auditing, software engineering practices), you might also have 
+such questions.\\
+{\em Note.} There may be many people (with good common-sense), who can answer
+such questions with ease: They will understand precisely, what is expected from them. 
+Meanwhile, they do not have the necessary hard skills to implement their good intentions and 
+common-sense behaviors.
+
+
+\vspace{6pt}
+{\bf (H) Open-ended (essay) questions.} In this case the learner can respond with one text paragraph - several 
+sentences explaining his understanding.\\ 
+{\em Note.} This question has to be graded by humans (instructor in our case); Some subject areas need 
+to include the learner's opinion, interpretation. It can explain all the ``why'' and ``how'' types of things, 
+which cannot be tested by the above methods. 
+
+\vspace{20pt}
+{\large Section 2: Finalizing your Presentation}
+
+\begin{itemize}
+\item Review the recommendations: See ``Guidelines: Part 2'' on
+\url{http://linen-tracer-682.appspot.com/discrete/assignments.html}. 
+\item Pay attention to motivation, objectives near the end of your 
+presentation (stuff that your quiz questions will test)
+and summary near the end.
+\item Reorder your slides so that they serve a single story flow. 
+\item Review the instructor's feedback on your draft presentation. 
+\item Add at least a few textual notes to all your slides; the notes
+should provide some context to the images seen in the slide. 
+The Notes are NOT the transcript for your speech.
+\item Focus on 1-2 main slides or diagrams that explain the essence 
+of your topic. In most presentations you can have the most important
+content in very few slides; the remaining slides are just a ``framing'' 
+for these essential slides.
+\item After your presentation is ready, try to test it: Does it 
+fit a 10 minute presentation? Should you refactor something; hide some
+slides in order to make your story more focused?
+\item Your final presentation can contain {\em scaffolding}: 
+extra links to info sources, hidden slides or extra examples. 
+There is no need to ``sweep it under the rug''. The main 
+goal is to create sufficent presentation for a successful performance.
+\end{itemize}
+
+
+
+
+\end{document}
+
+
+
