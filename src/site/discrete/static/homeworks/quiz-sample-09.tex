@@ -123,12 +123,12 @@ recurrence relation $a_n = 4a_{n-1} - 4a_{n-2} + F(n)$ have when $F(n) = n2^n$?
  
 
 \vspace{10pt}
-{\bf Question 6 (Rosen7e, Ch.8, Q32).}
+{\bf Question 7 (Rosen7e, Ch.8, Q32).}
 Consider the recurrence relation $a_n = 2a_{n-1} + 3n$.\\
-{\bf (A)} Write the associated homogeneous recurrence relation.
-{\bf (B)} Find the general solution to the associated homogeneous recurrence relation.
-{\bf (C)} Find a particular solution to the given recurrence relation.
-{\bf (D)} Write the general solution to the given recurrence relation.
+{\bf (A)} Write the associated homogeneous recurrence relation.\\
+{\bf (B)} Find the general solution to the associated homogeneous recurrence relation.\\
+{\bf (C)} Find a particular solution to the given recurrence relation.\\
+{\bf (D)} Write the general solution to the given recurrence relation.\\
 {\bf (E)} Find the particular solution to the given recurrence relation when $a_0 = 1$.
 
 
@@ -151,6 +151,113 @@ Find the coefficient of $x^8$ in the power series of each of the function:\\
 {\bf (I)} $1/(1 - x)^2$.\\
 {\bf (J)} $x^2/(1 + 2x)^{2}$.\\
 {\bf (K)} $1/(1 - 3x^2)$.
+
+\newpage
+
+\section{Answers}
+
+\vspace{10pt} 
+{\bf Question 1.} For staircases with $n = 1,2,3$ steps we 
+can enumerate all possible sums and count them.\\
+$1$-step staircases: $1$.\\
+$2$-step staircases: $1+1$, $2$.\\
+$3$-step staircases: $1+1+1$, $1+2$, $2+1$, $3$.
+
+$$\left\{ \begin{array}{l}
+a_1 = 1, \\
+a_2 = 2, \\
+a_3 = 4, \\
+a_{n} = a_{n-1} + a_{n-2} + a_{n-3},\;n \geq 4.\\
+\end{array} \right.$$
+
+Why $a{n}$ can be expressed as sum of $a_{n-1}$, $a_{n-2}$, $a_{n-3}$?\\
+Let us consider the first movement downstairs. It can be either $1$ step down (then the 
+remaining steps can be made in $a_{n-1}$ different ways), or $2$ steps down 
+(then the remaining steps can be made in $a_{n-2}$ different ways),
+or $3$ steps down (then the remaining steps can be made in $a_{n-3}$ different ways). 
+
+All these options do not intersect (since any moving downstairs starts with either $1$, $2$ or $3$), 
+therefore we simply add all these ways together: $a_{n-1} + a_{n-2} + a_{n-3}$.
+
+
+
+\vspace{10pt} 
+{\bf Question 2.}\\
+{\bf (A)} Let us find the initial conditions (values $a_1$ and $a_2$) and
+the recurrence relation (how to express $a_n$ via the the two previous values).
+$$\left\{ \begin{array}{l}
+a_1 = 2, \\
+a_2 = 5, \\
+a_{n} = 2a_{n-1} + a_{n-2},\;n \geq 3.\\
+\end{array} \right.$$
+The initial conditions can be verified by noticing that 1 dollar can be paid in two ways
+(a coin or a bill); 2 dollars can be paid in five ways 
+(either one \$2 bill or any of the following: coin+coin, coin+bill, bill+coin, bill+bill).\\
+If $n \geq 3$, then $a_n$ either starts by a \$1 coin (plus paying the remaining sum in $a_{n-1}$ different ways)
+or by a \$1 bill (plus paying the remaining sum in $a_{n-1}$ different ways), or by 
+a \$2 bill (plus paying the remaining sum in $a_{n-2}$ different ways).
+By adding together these mutually exclusive options we get
+$$a_{n} = a_{n-1} + a_{n-1} + a_{n-2} = 2a_{n-1} + a_{n-2}.$$
+
+
+\vspace{10pt}
+{\bf Question 3.} \\
+{\bf (A)} Characteristic equation: $r^2 - 1 = 0$. 
+The roots are $r_1 = -1$ and $r_2 = 1$. 
+So, the general form of this sequence is 
+$$a_n = A \cdot (-1)^n + B \cdot 1^n.$$
+To get $a_0 = 2$ and $a_1 = -1$, we need $A = \frac{3}{2}$
+and $B = \frac{1}{2}$. Therefore,
+$$a_n = \frac{3}{2} \cdot (-1)^n + \frac{1}{2}.$$
+This expression would generate our alternating
+sequence 
+$$2,-1,2,-1,2,-1,\ldots$$
+
+{\bf (B)} The characteristic equation is 
+$$r^2 - 2r - 2 = 0.$$
+And the roots of this square equation are 
+$r_{1,2} = 1 \pm \sqrt{3}$.
+
+We need to find constants $A$ and $B$ such that the formula
+$$a_n = A\cdot r_1^n + B\cdot r_2^n$$
+is correct and we get $a_0 = 0$ and $a_1 = 1$. 
+By substituting $n=0$ and $n=1$ we get this system:
+$$\left\{ \begin{array}{l}
+A + B = 0\\
+A(1 + \sqrt{3}) + B(1 - \sqrt{3}) = 1\\
+\end{array} \right.$$
+We get that $B = -A$ and $2A\sqrt{3} = 1$. 
+Therefore $A = \frac{1}{2\sqrt{3}}$ and 
+$B = -\frac{1}{2\sqrt{3}}$. 
+The formula to compute $a_n$ is therefore this:
+$$a_n = \frac{1}{2\sqrt{3}}\left(1 + \sqrt{3} \right)^n 
+-\frac{1}{2\sqrt{3}}\left(1 - \sqrt{3} \right)^n.$$
+
+By plugging into this formula numbers from $[0;10]$, 
+we can compute the first members of the sequence:
+$$0,1,2,6,16,44,120,328,896,2448,6688,\ldots$$
+
+{\bf (C)} $a_n$ can be obtained from $a_0 = 2$, 
+if we multiply $n$ times by $3$ (i.e.\ by $3^n$), 
+and also by $1 \cdot 2 \cdot \ldots \cdot n = n!$. 
+Therefore, we get
+$$a_n = 2 \cdot 3^n \cdot n!.$$
+
+{\bf (D)} $a_n$ can be obtained from $a_0 = 5$ by 
+adding some members of an arithmetic progression:
+$$a_n = a_0 + (3 + 6 + \ldots + (3n)) = 5 + \frac{3n(n+1)}{2}.$$
+
+
+
+
+
+\vspace{10pt}
+{\bf Question 4}\\
+{\bf (A)} $a_n = A\cdot(-2)^n + B\cdot(-4)^n + C\cdot n \cdot (-4)^4$.\\
+{\bf (B)} $(r + 2)(r + 4)^2 = (r + 2)(r^2 + 8r + 16) = r^3 + 8r^2 + 16r + 2r^2 + 16r + 32 = r^3 + 10r^2 + 32r + 32$. 
+From that cubic equation we can get this recurrent relationship: 
+$$a_{n} = -10a_{n-1} - 32a_{n-2} - 32a_{n-3}.$$
+Initial conditions (values for the first three members, say, $a_1$, $a_2$, $a_3$ can be selected in any way). 
 
 
 

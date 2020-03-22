@@ -1,0 +1,186 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+
+
+\title{Sample Quiz 8}
+\author{Discrete Structures, Spring 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Sample Quiz 8}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\twocolumn
+{\Large Discrete Sample Quiz 10}
+
+\vspace{6pt}
+{\bf Question 1 (A reminiscence about variance)}\\
+Assume that you want to encode six-letter alphabet 
+$\mathcal{A} = \{ \mathtt{a}, \mathtt{b}, \mathtt{c}, \mathtt{d}, \mathtt{e}, \mathtt{f} \}$
+and transmit it over a computer network.
+You assign $2$ or $3$ bit codes to these letters: 
+
+\begin{tabular}{|l|l|} \hline
+{\tt a} & {\tt 00} \\ \hline
+{\tt b} & {\tt 01} \\ \hline
+{\tt c} & {\tt 100} \\ \hline
+{\tt d} & {\tt 101} \\ \hline
+{\tt e} & {\tt 110} \\ \hline
+{\tt f} & {\tt 111} \\ \hline
+\end{tabular}
+
+For example, the 11-bit sequence {\tt "10100100110"} means {\tt "dace"}.
+Denote by $X$ the random variable \textendash{} the number of 
+bits used to encode a single letter. (All $6$ letters have 
+equal probabilities.)
+
+Find $E(X)$ and $V(X)$.\\
+Write them as two fractions: {\tt P1/Q1,P2/Q2}\\
+(Separate the fractions by comma, 
+do not leave any spaces.)
+
+
+\vspace{6pt}
+{\bf Question 2 (Rosen7e, Ch.9, Q10-Q23).}\\
+Determine whether the binary relation is: (1) reflexive, (2) symmetric, (3) antisymmetric, (4) transitive.
+Express your answer as as a 4-letter string of T/F (true/false values that are 
+answer to these $4$ questions). For example, {\tt TFTT} etc.
+%For example, the relationship $a \leq b$ on $\mathbb{Z}$ has these answers: {\tt TFTT}. It is reflexive, antisymmetric
+%and transitive. But $\leq$ is not symmetric ($a \leq b$ does not imply that $b \leq a$).
+\begin{enumerate}[(A)]
+\item The relation $R$ on $\{1, 2, 3,\ldots\}$ where $aRb$ means $a\,\mid\,b$.
+\item The relation $R$ on $\{w, x, y, z\}$ where $R = \{(w, w), (w, x), (x, w), (x, x), (x, z), (y, y), (z, y), (z, z)\}$.
+\item The relation $R$ on $\mathbb{Z}$ where $aRb$ means $|a - b| \leq 1$.
+\item The relation $R$ on $\mathbb{Z}$ where $aRb$ means $a \neq b$.
+\item The relation $R$ on $\mathbb{Z}$ where $aRb$ means that the units digit of $a$ is equal to the units digit of $b$.
+\item The relation $R$ on the set of all subsets of $\{1, 2, 3, 4\}$ where $SRT$ means $S \subseteq T$.
+\item The relation $R$ on the set of all people where $aRb$ means that a is younger than $b$.
+\item The relation $R$ on the set $\{(a, b) \,\mid\, a, b \in \mathbb{Z}\}$ where $(a, b)R (c, d)$ means $a = c$ or $b = d$.
+\end{enumerate}
+
+\vspace{6pt}
+{\bf Question 3 (Rosen7e, Ch.9, Q35-Q38).}\\
+Construct a matrix of the relations defined below. Output the matrix as a list of lists:\\
+{\tt [[a11,a12,...],[a21,a22,...],...]}
+\begin{enumerate}[(A)]
+\item $R$ on $\{1, 2, 3, 4, 6, 12\}$ where $aRb$ means $a\,\mid\,b$.
+\item $R$ on $\{1, 2, 3, 4, 6, 12\}$ where $aRb$ means $a \leq b$.
+\item $R^2$, where $R$ is the relation on $\{1, 2, 3, 4\}$ such that $aRb$ 
+means $|a - b| \leq 1$.
+\end{enumerate}
+
+\vspace{6pt}
+{\bf Question 4 (Rosen7e, Ch.9, Q42).}\\
+Define
+$$M_R = \left( \begin{array}{cccc}
+1 & 0 & 1 & 0 \\
+1 & 0 & 0 & 1 \\
+1 & 1 & 1 & 0 \\
+1 & 1 & 0 & 1 \\
+\end{array} \right)$$
+determine if $R$ is: (1) reflexive (2) symmetric (3) antisymmetric (4) transitive.
+Express your answer as as a 4-letter string of T/F (true/false values that are 
+answer to these $4$ questions). For example, 
+{\tt TFTT} etc.
+
+
+\vspace{6pt}
+{\bf Question 5 (Rosen7e, Ch.9, Q47).}\\
+Let $A$ be the set of all positive divisors of $60$ (including $1$ and $60$ itself). 
+Draw the Hasse diagram for the relation $R$ on $A$ where $aRb$ means $a\,\mid\,b$.
+
+\vspace{6pt}
+{\bf Question 6 (Rosen7e, Ch.9, Q51).}\\
+Find the transitive closure of $R$ if 
+$$M_R  = \left( \begin{array}{cccc}
+1 & 0 & 1 & 0 \\
+1 & 0 & 0 & 1 \\
+0 & 1 & 1 & 0 \\
+0 & 1 & 0 & 0 \\
+\end{array} \right).$$
+
+\vspace{6pt}
+{\bf Question 7 (Rosen7e, Ch.9, Q59).}\\
+Find the join of the 3-ary relation:
+\begin{verbatim}
+{ (Wages,MS410,N507),
+  (Rosen,CS540,N525),
+  (Michaels,CS518,N504),
+  (Michaels,MS410,N510) }
+\end{verbatim}
+and the 4-ary relation:
+\begin{verbatim}
+{ (MS410,N507,Monday,6:00), 
+  (MS410,N507,Wednesday,6:00), 
+  (CS540,N525,Monday,7:30),
+  (CS518,N504,Tuesday,6:00), 
+  (CS518,N504,Thursday,6:00) }
+\end{verbatim}
+with respect to the last two fields of the first relation and 
+the first two fields of the second relation. 
+
+\vspace{6pt}
+{\bf Question 8 (Rosen7e, Ch.9, Q69-Q71).}
+Give an example of a relation or state that there are none.\\
+{\bf (A)} A relation on $\{a, b, c\}$ that is reflexive and transitive, but not antisymmetric.\\
+{\bf (B)} A relation on $\{1, 2\}$ that is symmetric and transitive, but not reflexive.\\
+{\bf (C)} A relation on $\{1, 2, 3\}$ that is reflexive and transitive, but not symmetric.
+
+\vspace{6pt}
+{\bf Question 9 (Rosen7e, Ch.9, Q73).}\\
+Suppose $|A| = 7$. Find the number of reflexive, symmetric binary relations on $A$.
+
+
+
+
+\end{document}
+
