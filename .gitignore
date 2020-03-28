@@ -21,16 +21,6 @@
 **/.Rhistory
 */.RData
 **/.RData
-**/*solutions.*
-**/*solution.*
-!src/site/discrete/coq-propositional/lab01_tasks_solutions.html
-!src/site/discrete/coq-propositional/lab01_tasks_solutions.v
-!src/site/discrete/coq-propositional/lab01_tasks_solution.html
-!src/site/discrete/coq-propositional/lab01_tasks_solution.v
-!src/site/discrete/coq-propositional/lab01_template_solutions.html
-!src/site/discrete/coq-propositional/lab01_template_solutions.v
-!src/site/discrete/coq-inductive/lab02_tasks_solution.html
-!src/site/discrete/coq-inductive/lab02_tasks_solution.v
 bin/
 target/
 src/target
