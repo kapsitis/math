@@ -179,6 +179,153 @@ Give an example of a relation or state that there are none.\\
 {\bf Question 9 (Rosen7e, Ch.9, Q73).}\\
 Suppose $|A| = 7$. Find the number of reflexive, symmetric binary relations on $A$.
 
+\newpage
+
+\section{Answers}
+
+
+\vspace{6pt}
+{\bf Question 1.} 
+The random variable $X$ takes value $x_1 = 2$ (with probability $p_1 = \frac{1}{3}$)
+and value $x_2 = 3$ (with probability $p_2 = \frac{2}{3}$). 
+We can compute: 
+$$E(X) = x_1p_1 + x_2p_2 = \frac{8}{3}.$$
+$$V(X) = (x_1 - E(X))^2p_1 + (x_2 - E(X))^2p_2 = \frac{2}{9}.$$
+
+\vspace{6pt}
+{\bf Question 2.} 
+\begin{enumerate}[(A)]
+\item {\tt TFTT}
+\item {\tt TFFF}
+\item {\tt TTFF}
+\item {\tt FTFF}
+\item {\tt TTFT}
+\item {\tt TFTT}
+\item {\tt FFTT}
+\item {\tt TTFF}
+\end{enumerate}
+
+\vspace{6pt}
+{\bf Question 3.}\\
+{\bf (A)} Divisibility on the set $\{1, 2, 3, 4, 6, 12\}$
+$$M_R  = \left( \begin{array}{cccccc}
+1 & 1 & 1 & 1 & 1 & 1 \\
+0 & 1 & 0 & 1 & 1 & 1 \\
+0 & 0 & 1 & 0 & 1 & 1 \\
+0 & 0 & 0 & 1 & 0 & 1 \\
+0 & 0 & 0 & 0 & 1 & 1 \\
+0 & 0 & 0 & 0 & 0 & 1 \\
+\end{array} \right).$$
+{\bf (B)} Relation $\leq$ on the set $\{1, 2, 3, 4, 6, 12\}$
+$$M_R  = \left( \begin{array}{cccccc}
+1 & 1 & 1 & 1 & 1 & 1 \\
+0 & 1 & 1 & 1 & 1 & 1 \\
+0 & 0 & 1 & 1 & 1 & 1 \\
+0 & 0 & 0 & 1 & 1 & 1 \\
+0 & 0 & 0 & 0 & 1 & 1 \\
+0 & 0 & 0 & 0 & 0 & 1 \\
+\end{array} \right).$$
+{\bf (C)} Relation $R^2$, where $aRb$ iff $|a-b| \leq 1$.
+$$M_R  = \left( \begin{array}{cccc}
+1 & 1 & 1 & 0 \\
+1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 \\
+0 & 1 & 1 & 1 \\
+\end{array} \right).$$
+The only pairs that do not belong to $R^2$ are 
+$(1;4)$ and $(4;1)$. 
+
+
+
+
+\vspace{6pt}
+{\bf Question 4.} Answer: {\tt FFFF}\\
+Imagine that the relation $R$ is defined on a set of these 4 elements:
+$a,b,c,d$. 
+\begin{itemize}
+\item $R$ is not reflexive, since $bRb$ is false (the matrix has $m_{22}=0$).
+\item $R$ is not symmetric, since $bRa$ does not imply $aRb$
+(the matrix has $m_{12}=0$, but $m_{21}=1$).
+\item $R$ is not antisymmetric, since $aRc$ and $cRa$ both hold, but 
+$a \neq c$.
+\item $R$ is not transitive, since $aRc$ and $cRb$, but $aRb$ is not true.
+\end{itemize}
+
+\vspace{6pt}
+{\bf Question 5}:\\
+Hasse diagram connects only those numbers $a,b$ where $a$ divides $b$, and
+there is no third  number in-between (such that $a\,\mid\,c$ and $c\,\mid\,b$). 
+For example, $1$ and $2$ are connected, but $1$ and $4$ are not 
+(because the relation $1\,\mid\,4$ can be inferred from 
+$1\,\mid\,2$ and $2\,\mid\,4$).
+\begin{center}
+\includegraphics[width=2.5in]{hasse-diagram-60.png}
+\end{center}
+Note that the Hasse diagram for divisibility is centrally symmetric. 
+(This is true for any set of divisors for some number.)
+
+
+\vspace{6pt}
+{\bf Question 6}:\\
+$$M_R  = \left( \begin{array}{cccc}
+1 & 0 & 1 & 0 \\
+1 & 0 & 0 & 1 \\
+0 & 1 & 1 & 0 \\
+0 & 1 & 0 & 0 \\
+\end{array} \right).$$
+
+Denote the elements of the set by $a,b,c,d$. We want to find, 
+what are the ``relational paths'' between them:
+\begin{itemize}
+\item Path $aRc$, $cRb$, $bRd$ adds $(a,b)$, $(a,d)$ to the transitive closure.
+\item Path $bRa$, $aRc$, $cRb$ adds $(b,c)$, $(b,b)$ to the transitive closure.
+\item Path $cRb$, $bRd$ adds $(c,d)$ to the transitive closure.
+\item Path $cRb$, $bRa$ adds $(c,a)$ to the transitive closure.
+\item Path $dRb$, $bRa$, $aRc$ adds $(d,a)$, $(d,c)$.
+\item Path $dRb$, $bRd$ adds $(d,d)$.
+\end{itemize}
+
+Here is the matrix 
+of the transitive closure after all the new pairs are added:
+
+$$M_{R\ast}  = \left( \begin{array}{cccc}
+1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 \\
+\end{array} \right).$$
+
+
+
+\vspace{6pt}
+{\bf Question 7}\\
+TBD (see Section 9.2.4 of the textbook (Definition 4, page 615)). This problem 
+is based entirely on applying the definition.
+
+\vspace{6pt}
+{\bf Question 8}\\
+{\bf (A)} TBD\\
+{\bf (B)}. Yes. We can have a relation $R$ which is 
+never satisfied. It is symmetric and also transitive
+(since $xRy$ and $yRz$ can never happen, so we do not
+need to care about $xRz$).\\
+{\bf (C)}. TBD.
+
+
+\vspace{6pt}
+{\bf Question 9} Answer: {\tt 2097152}\\
+The matrix $M$ of any relation $R$ on a set of $7$ elements has $49$ entries. 
+The entries on the main diagonal ($m_{11},m_{22},\ldots,m_{77}$) 
+should all equal $1$ ($R$ is reflexive). 
+Also, any entry $m_{ij}$ above the main diagonal ($i<j$ - row number is
+less than the column number) is symmetric to some entry below the diagonal
+$m_{ji}$ (where $i>j$). 
+
+Therefore we can freely choose only those $m_{ij}$ that are above the main 
+diagonal; everything else is predetermined. There are $1+2+\ldots+6=21$ such 
+elements in the matrix. The total number of ways to choose them is
+$2^{21} = 2097152$.
+
 
 
 

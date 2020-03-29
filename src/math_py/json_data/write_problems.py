@@ -43,6 +43,7 @@ def get_prob_tasks():
     cur_probid = ''
     
     for prob_dir in prob_dir_lst:
+        print('write_problems.prob_dir = {}'.format(prob_dir))
         with open('src/site/problembase/%s/content.md' % prob_dir) as prob_input:
             for prob_lin in prob_input:
                 if re.match('^# <lo-sample/> .*', prob_lin):
@@ -104,9 +105,6 @@ def main():
     fname = '../../workspace-new/linen-tracer-682/data/problems.json'
     with io.open(fname, 'w', encoding='utf8') as json_file:
         json.dump(the_prob_dict, json_file, ensure_ascii=False, sort_keys=True, indent=4)
-
-
-
 
 
 if __name__ == '__main__':

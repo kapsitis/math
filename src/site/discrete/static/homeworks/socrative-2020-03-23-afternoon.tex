@@ -1,0 +1,113 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+
+
+\title{Sample Quiz 8}
+\author{Discrete Structures, Spring 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Sample Quiz 8}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\twocolumn
+{\Large Socrative, 2020-03-23 Afternoon}
+
+\vspace{6pt}
+{\bf Question 1}\\
+We have a set of $5$ numbers: $A = \{ 1,2,3,4,5 \}$. 
+Let $R$ be a binary relation on $A$ such that $aRb$
+iff $|a - b| = 1$ (namely, the distance between the numbers
+$a$ and $b$ is exactly $1$ \textendash{} both numbers
+are next to each other).  The matrix of this relation is shown 
+in the figure.
+$$M_R = \left( \begin{array}{ccccc}
+0 & 1 & 0 & 0 & 0 \\
+1 & 0 & 1 & 0 & 0 \\
+0 & 1 & 0 & 1 & 0 \\
+0 & 0 & 1 & 0 & 1 \\
+0 & 0 & 0 & 1 & 0 \\
+\end{array} \right)$$
+Now consider the 2nd power of the relation $R$: $R^2$. 
+How many 1's are there in the matrix of $R^2$?
+
+
+\vspace{6pt}
+{\bf Question 2}\\
+Consider the following binary relation $R$ in a set of $4$ elements that 
+is defined by the following matrix: 
+$$M_R = \left( \begin{array}{cccc}
+0 & 0 & 0 & 1 \\
+1 & 0 & 1 & 0 \\
+1 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+\end{array} \right)$$
+How many 1's are there in the transitive closure $R^{\ast}$? 
+
+
+\vspace{6pt}
+{\bf Question 3}\\
+Hasse diagram showing the divisibility relations for numbers 
+$\{ 0,1,\ldots,9 \}$ is shown in the figure. 
+What is the total number of valid divisibility relations 
+in this set? In other words, how many links you get, if you 
+compute transitive closure of this Hasse diagram (and also 
+add a reflexive loop from each number to itself, except $0$
+does not have a loop to itself). 
+
+%% 13 original links in the Hasse diagram
+%% 9 loops
+%% 8 new
+
+
+\end{document}
+
