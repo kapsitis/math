@@ -1,0 +1,181 @@
+\documentclass[jou]{apa6}
+%\documentclass[11pt]{article}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage[framemethod=TikZ]{mdframed}
+
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -0.1in
+\headheight 0.0in
+\headsep 0.0in
+\textheight 9.0in
+
+\usepackage{xcolor}
+
+\setlength\parindent{0pt}
+
+\newenvironment{myenv}{\begin{adjustwidth}{0.4in}{0.4in}}{\end{adjustwidth}}
+\renewcommand{\abstractname}{Anotācija}
+\renewcommand\refname{Atsauces}
+
+
+
+\newcounter{alphnum}
+\newenvironment{alphlist}{\begin{list}{(\Alph{alphnum})}{\usecounter{alphnum}\setlength{\leftmargin}{2.5em}} \rm}{\end{list}}
+
+
+%16.3-6
+
+\makeatletter
+\let\saved@bibitem\@bibitem
+\makeatother
+
+\usepackage{bibentry}
+
+\title{Homework 4}
+\author{Discrete Structures}
+\affiliation{RBS}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\twocolumn
+{\Large Discrete Homework 4}
+
+
+\vspace{4pt}
+{\bf Problem 1 (Rosen2019, \#60, p.649)} \textendash{} {\em After 9.5.}\\
+{\bf (A)} Let $R$ be the relation on the set of functions from $\mathbb{Z}^{+}$ to 
+$\mathbb{Z}^{+}$ such that $(f,g)$ belongs to $R$ if and only if $f$ is
+$\Theta(g)$ (see Section 3.2). Show that $R$ is an equivalence relation.\\
+{\bf (B)} Describe the equivalence class containing $f(n) = n^2$ for this 
+equivalence relation. (Your description could 
+use predicate/quantifier expression satisfied by 
+all functions $h\,:\,\mathbb{Z}^{+} \rightarrow \mathbb{Z}^{+}$ 
+equivalent to $f(n) = n^2$.)
+
+{\em Note.} Big-Theta Definition (Rosen2019): Function $f(x)$
+is in $\Theta(g)$ iff there are positive real numbers $C_1$ and $C_2$ and a positive 
+real number $k$ such that 
+$$C_1\left| g(x) \right| \leq \left| f(x) \right| \leq C_2 \left| g(x) \right|$$
+whenever $x > k$. (See Definition 3 on p.227.)\\
+%{\em Note 2.} The usual Big-O notation is not an equivalence relation, because
+%it is not symmetric. For example, function $f(n) = n$ is in $O(g(n))$, where
+%$g(n) = n^2$. But $g(n)$ is not in $O(f(n))$. Namely, linear function $f(n) = n$ 
+%is bounded from above by a quadratic function $g(n) = n^2$, but not vice versa.
+
+\vspace{6pt}
+{\bf Problem 2 (Rosen2019, \#64, p.649)} \textendash{} {\em After 9.5.}\\
+Do we necessarily get an equivalence relation when we form the symmetric closure of 
+the reflexive closure of the transitive closure of a relation?
+
+{\em Note.} Terms {\em reflexive closure} and {\em symmetric closure} are defined in 
+(Rosen2019, p.628). The reflexive closure of a binary relation $R$ is 
+the smallest relation containing $R$ that is reflexive: 
+$R_1$ is obtained from $R$ by adding to it all pairs $(a,a)$ (unless they 
+are already in $R$). The {\em symmetric closure} of a binary 
+relation $R$ is the smallest relation $R_2$ containing $R$ that is symmetric 
+(if pair $(a,b)$ belongs to $R$, then both 
+pairs $(a,b)$ and $(b,a)$ are added to $R_2$). 
+
+\vspace{6pt}
+{\bf Problem 3.}\\
+Suppose that winners of some lottery make a set $X$. 
+Each winner should receive two prizes from some prize collection $Y$.
+For each subset of the set of winners $S \subseteq X$ the set 
+of prizes $N(S) \subseteq Y$ wanted by one or more people $p \in S$ satisfy 
+$$|N(S)| \geq 2|S|.$$
+Show that every winner can be given two prizes that s/he wants.
+({\em Inspired by (Rosen2019, \#33, p.701)}.)
+%% https://www.epfl.ch/labs/dcg/wp-content/uploads/2018/10/GT-ProblemSet3-Solutions.pdf
+
+
+\vspace{6pt}
+{\bf Problem 4 (Rosen2019, \#66, p.728)} \textendash{} {\em After 10.4.}\\
+Suppose that you have a three-gallon jug and a five-gallon jug. 
+You may fill either jug with water, you may empty either 
+jug, and you may transfer water from either jug into the other jug [until it is full].\\ 
+{\bf (A)} Use a path in a directed graph to show that you can end up with a jug containing
+exactly one gallon.\\
+{\bf (B)} How many vertices and how many edges are there in this directed graph?\\
+(In order to build this graph of available states
+use an ordered pair $(a,b)$ to indicate how much water is in each jug. Represent these ordered
+pairs by vertices. Add an edge for each operation with the jugs.)
+
+\vspace{6pt}
+{\bf Problem 5 (Rosen2019, \#22, p.792)} \textendash{} {\em After 11.1.}\\
+A chain letter starts when a person sends a letter to five others. 
+Each person who receives the letter either sends it to five other people
+who have never received it or does not send it to anyone. Suppose that 
+$10,000$ people send out the letter before the chain ends and that no one receives
+more than one letter. How many people receive the letter, and how many 
+do not send it out?
+
+
+\vspace{6pt}
+{\bf Problem 6 (Rosen2019, \#46, p.793)} \textendash{} {\em After 11.1.}\\
+How many vertices, leaves, and internal vertices does the rooted Fibonacci tree
+$F_n$ have, where $n$ is a positive integer? What is its height?
+
+{\em Note} The {\em rooted Fibonacci trees} $T_n$ are defined recursively 
+in the following way. $T_1$ and $T_2$ are both the rooted tree consisting
+of a single vertex, and for $n=3,4,\ldots$, the rooted tree $T_n$ 
+is constructed from a root with $T_{n-1}$ as its left subtree and $T_{n-2}$
+as its right subtree.
+
+
+
+\vspace{6pt}
+{\bf Problem 7 (Rosen2019, \#25, p.820)} \textendash{} {\em After 11.3.}\\
+Construct the ordered rooted tree whose preorder traversal is 
+$a,b,f,c,g,h,i,d,e,j,k,l$, where $a$ has four children, $c$ has three children, 
+$j$ has two children, $b$ and $e$ have one child each, and all other vertices are leaves.
+
+\vspace{6pt}
+{\bf Problem 8.}
+Assume that somebody wants to solve the following olympiad problem using ``brute force'':
+\begin{mdframed}[roundcorner=6pt]
+{\em Insert any arithmetic operation symbols ($+$, $-$, $\cdot$ and $/$) and
+parentheses to get a correct equality:}\\
+{\bf (A)} $3\;\;\;3\;\;\;7\;\;\;7\,=\,14$,\\
+{\bf (B)} $3\;\;\;3\;\;\;7\;\;\;7\,=\,24$.\\
+({\em \url{https://bit.ly/2JsXH5P}; Pg.1, P3.})
+\end{mdframed}
+How many different rooted trees can be obtained?
+In Grade 5 there is no ``unary minus'' such as $(-3)\cdot 3$;
+all four arithmetic operations are binary.
+
+{\em Note.} 
+You do not need to solve the quoted olympiad 
+problem itself. Just count the possible expressions on the left side
+that differ either by the syntax tree or by operation(s).
+
+\vspace{6pt}
+{\bf Problem 9 (Rosen2019, \#56, p.834)} \textendash{} {\em After 11.4.}\\
+Show that it is possible to find a sequence of spanning trees leading from any spanning tree
+to any other by successively removing one edge and adding another.
+
+\vspace{6pt}
+{\bf Problem 10 (Rosen2019, \#33, p.840)} \textendash{} {\em After 11.5.}\\
+Show that if $G$ is a weighted graph with distinct edge weights, then for every simple
+circuit of $G$, the edge of maximum wieght in this circuit 
+does not belong to any minimum spanning tree of $G$.
+
+
+\end{document}
+
+
+
