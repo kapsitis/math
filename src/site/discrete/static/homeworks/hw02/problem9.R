@@ -1,7 +1,7 @@
-a <- 10
-b <- 4
-c <- 12
-m <- 8
+a <- 1
+b <- 3
+c <- 2
+m <- 4
 
 res1 <- (a*c - b*c) %% m
 res2 <- (a - b) %% m 
@@ -11,10 +11,10 @@ print(sprintf("res.A = (%d,%d)", res1, res2))
 
 
 
-a <- 4
-b <- 2
-c <- 7
-d <- 5
+a <- 2
+b <- 4
+c <- 5
+d <- 7
 m <- 3
 
 res1 <- (a - c) %% m
