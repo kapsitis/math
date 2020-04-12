@@ -1,0 +1,170 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+\usepackage{xcolor}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+\setlength\parindent{0pt}
+
+\title{Sample Quiz 5}
+\author{Discrete Structures, Spring 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Sample Quiz 5}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\twocolumn
+{\Large Discrete Sample Quiz 5}
+
+\vspace{4pt}
+{\bf Question 1.} Write at least one divisor (not equal to $1$ and to $N$) for the following numbers:\\
+{\bf (A)} $N = 2^{48} + 1$\\
+{\bf (B)} $N = 2^{77} - 1$\\
+{\bf (C)} $N = 41^4 + 4$. 
+
+Write your answer as three comma-separated numbers (or leave them as arithmetic expressions).
+
+{\em Note.} You may want to use various algebraic identities to factorize:
+\begin{align}
+ & a^n - b^n = \nonumber \\
+= & (a-b)\left(a^{n-1} + a^{n-2}b + \ldots + ab^{n-2} + b^{n-1}\right) \nonumber \\
+ & a^{2n+1} + b^{2n+1} = \nonumber \\
+= & (a+b)\left(a^{2n} - a^{2n-1}b + \ldots - ab^{2n-1} + b^{2n}\right) \nonumber \\
+ & a^4 + 4b^4 = \nonumber \\
+= & (a^2 + 2b^2 - 2ab) (a^2 + 2b^2 + 2ab) \nonumber
+\end{align}
+
+
+
+\vspace{10pt}
+{\bf Question 2.} Are these statements true or false (`all integers'' include also negative numbers):
+\begin{enumerate}[(A)]
+\item For all integers $a,b,c$, if $a\,\mid\,b$ and $a\,\mid\,c$, then $a\,\mid\,\text{gcd}(b,c)$.
+\item For all integers $a,b,c$, if $a\,\mid\,\text{gcd}(b,c)$, then $a|b$ and $a|c$.
+\item For all integers $a,b,c,d$, if $a\,\mid\,b$ and $c\,\mid\,d$, then $ac\,\mid\,\text{lcm}(b,d)$.
+\item For all integers $a,b,c$, $\text{gcd}(\text{gcd}(a,b),c) = \text{gcd}(a,\text{gcd}(b,c))$. 
+\item For all integers $a,b,c$, $\text{lcm}(\text{gcd}(a,b),c) = \text{gcd}(\text{lcm}(a,c), \text{lcm}(b,c))$. 
+\item For all primes $p>2$, $2^p +1$ is not a prime.
+\end{enumerate}
+
+Write your answer as a comma-separated string of T/F. For example, {\tt T,T,T,T,T,T}.\\
+{\em Note.} Even though you only write the answers, 
+make sure that you are able to justify your answer. For true statements you should be able to 
+find a reasoning; for false ones \textendash{} a counterexample. 
+
+
+
+
+\vspace{10pt}
+{\bf Question 3.} Find $\text{gcd}(2160^{20},150^{30})$ 
+
+Write your answer as a product of prime powers {\tt p\^{}a*q\^{}b*r\^{}c} or similar.
+Numbers $p,q,r$ etc. should be in increasing order. All exponents (even those equal to $1$) should be written explicitly.
+
+
+
+\vspace{10pt}
+{\bf Question 4.}
+Convert $(101\,0110\,0111)_2$ to base $16$, base $8$ and base $4$.
+
+Write your answer as $3$ comma-separated numbers. 
+For the hexadecimal notation use all digits and also capital letters 
+A,B,C,D,E,F.
+
+
+
+\vspace{10pt}
+{\bf Question 5.} Find the sum and the product of these two integers written in ternary: 
+$(110112)_3$, $(1000221)_3$.\\
+
+Write your answer as two comma-separated numbers (both written in binary). 
+
+{\em Note.} You may want to try the addition and multiplication algorithm directly in 
+ternary system (without converting them into the decimal and back).
+
+
+
+\vspace{10pt}
+{\bf Question 6.}
+Write the fraction $1/7$ as an infinite periodic binary fraction.
+
+{\em Note.} One method to get, say, the first 16 digits of this fraction, you can 
+multiply $1/7$ by $2^{16} = 65536$ and then express $65536/7 = 9362,\ldots$ in binary. 
+A more efficient way is to use the regular division algorithm (``long division'', 
+``dal\={\i}\v{s}ana stabi\c{n}\={a}''); this allows to generate a sequence of
+binary digits of unlimited length. 
+
+Write your answer as $\textcolor{blue}{\mathtt{0.(}\ldots\mathtt{)}}$ or 
+$\textcolor{blue}{\mathtt{0.}\ldots\mathtt{(}\ldots\mathtt{)}}$.\\
+(I.e. you start by the integer part, then write all digits preceding the period, 
+then the perdiod itself in round parentheses.)
+
+
+
+\vspace{10pt}
+{\bf Question 7.} Write the first eight powers (with non-negative exponents) 
+of number $5$ modulo $21$: $5^0,\,5^1,\,5^2,\,5^3,\,\ldots,5^{7}$.
+
+Write your answer as a comma-separated list of eight remainders (mod $21$), \textendash{} all are numbers between $0$ and $20$.
+
+
+\vspace{10pt}
+{\bf Question 8.} Find the inverse values $1^{-1},\ldots,10^{-1}$ modulo $11$. (The inverse number of $x$ modulo $11$ 
+is $x^{-1}$ such that $x^{-1}x \equiv 1\;(\text{mod}\,11)$.)
+
+Write your answer as 10 comma-separated numbers.
+
+
+\vspace{10pt}
+{\bf Question 9.} Find the smallest three positive integer values of $x$ that
+are solutions of the equation $55x + 21y$. 
+
+Write your answer as three comma-separated integers. 
+
+\end{document}
+
