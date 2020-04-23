@@ -106,9 +106,9 @@ both string matchers. See these animations:\\ {\footnotesize
 \url{https://people.ok.ubc.ca/ylucet/DS/BoyerMoore.html}\\
 \url{https://dwnusbaum.github.io/boyer-moore-demo/} }
 
-To make your task more manageable, our goal is NOT a fully-functional Web application
+Our goal is NOT a fully-functional Web application
 that would perform these tasks, but only a simple backend to support such Web applications. 
-Below we define the two classes (with their respective public APIs that you should implement.
+Implement the following two classes with the following public API: 
 
 \section{KMP Matcher (Lab03)}
 
@@ -134,11 +134,13 @@ Prefix function is the key data structure used by the KMP algorithm.
 It is returned as a list of integers. So the length of this
 list is $m+1$.
 \item {\tt findAllIn(text: CharSequence)} returns an iterator of 
-offsets in the {\tt text} where the searchable {\tt pattern} starts. 
+{\bf all} offsets in the {\tt text} where the searchable {\tt pattern} is found. 
 Please note that in the LAB03 you have to return {\bf all} offsets; 
 it is not sufficient to find just the first instance and then give up.
 \item {\tt toJson(text: CharSequence)} in this case we return a 
-JSON data structure as in the provided JSON samples.
+JSON data structure as in the provided samples \textendash{} they include
+also the failed attempts to match. This will be used in animation.
+
 \end{itemize}
 
 
@@ -154,11 +156,11 @@ class BMmatcher:
   def toJson(text: CharSequence): String
 \end{verbatim}
 
-This is similar to the previous class. The only difference is that 
-JSON would now be different (since the Boyer-Moore matching has 
+The only difference with KMP is that 
+JSON has different structure; and BM algorithm has 
 every step scanning backwards: $\mathtt{start} \geq \mathtt{end}$.
-Also the two data structures (Good Suffix function and Bad Character function) 
-are peculiar to this type of matching. 
+Two data structures (Good Suffix function and Bad Character function)
+are relevant only to the BM algorithm.
 
 \section{JSON sample for KMP (Lab03)}
 
