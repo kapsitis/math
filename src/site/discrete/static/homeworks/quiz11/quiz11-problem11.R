@@ -21,6 +21,9 @@ for (i in 1:6) {
     for (k in ((j+1):8)) {
       uu <- union(xx[[columns[i]]], union( xx[[columns[j]]], xx[[columns[k]]]))
       sizes3 <- c(sizes3, length(uu))
+      if (length(uu) == 5) {
+        print(sprintf("i,j,k = %d,%d,%d", i,j,k))
+      }
     }
   }
 }

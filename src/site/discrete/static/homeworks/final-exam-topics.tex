@@ -63,10 +63,10 @@
 
 \begin{document}
 
-\thispagestyle{empty}
+%\thispagestyle{empty}
 
 \twocolumn
-{\Large Final Topics and Sample Problems}
+\section{Final Topics and Sample Problems}
 
 The final exam will contain two questions from 
 each part \textendash{} 10 questions altogether. 
@@ -76,9 +76,9 @@ are mentioned for every subtopic).
 Therefore, the sample problems cover somewhat
 larger range of topics than the actual final exam would.
 
-\section{Part 1: Sets, Functions, Predicates and Quantifiers}
+\subsection{Part 1: Sets, Functions, Predicates and Quantifiers}
 
-\subsection{1.1. Find the cardinality of sets}
+\subsubsection{1.1. Find the cardinality of sets}
 
 {\bf Question:} {\em How many items are there?}\\
 {\scriptsize
@@ -104,7 +104,7 @@ the largest and the smallest possible values for each of the following expressio
 {\bf (D)} $|A \oplus B|$.
 
 
-\subsection{1.2. Check the subset relation between sets} 
+\subsubsection{1.2. Check the subset relation between sets} 
 
 {\bf Question:} {\em Does one condition imply another?}\\
 {\scriptsize 
@@ -120,7 +120,7 @@ as in ``if and only if'' statements).
 {\bf Sample Problem 1.2.}\\
 {\bf (A)} Let $a$ and $b$ be positive integers and let
 \begin{equation}
-\label{eq1}
+\label{eq:set-notation-divisibility}
 \left\{ \begin{array}{l}
 A = \{ x \in \mathbb{Z}\;\mid\;a\mid{}x\},\\
 B = \{ x \in \mathbb{Z}\;\mid\;b\mid{}x\}.
@@ -132,13 +132,13 @@ Find the necessary and sufficient condition for $A \subseteq B$.
 $a = 25$, $b = 40$. Write a simple definition for the set $C = A \cap B$. 
 
 \vspace{4pt}
-{\em Note.} In the formula (\ref{eq1}) the first vertical 
+{\em Note.} In the formula (\ref{eq:set-notation-divisibility}) the first vertical 
 bar is the part of set builder notation, the other vertical 
 bar denotes the divisibility relation.
 
 
 
-\subsection{1.3. Translate into predicates or quantifiers} 
+\subsubsection{1.3. Translate into predicates or quantifiers} 
 
 {\bf Question:} {\em Can we formalize our thinking?}\\
 {\scriptsize
@@ -169,7 +169,7 @@ should be {\em bound variables} \textendash{} the value of the formula should no
 
 
 
-\subsection{1.4. Check properties of functions}
+\subsubsection{1.4. Check properties of functions}
 
 {\bf Question:} {\em Are there known patterns in functions?}\\
 {\scriptsize 
@@ -188,7 +188,7 @@ $f(a_1)=f(a_2) = b$.\\
 It is known that $|A| = 2n$ and $|B| = n$ for some positive integer $n$. 
 How many functions $f\,:A \rightarrow B$ are {\em two-to-one}?
 
-\subsection{1.5. Partitions of a set} 
+\subsubsection{1.5. Partitions of a set} 
 
 {\bf Question:} {\em When two different representations express the same object?}\\
 {\scriptsize 
@@ -208,9 +208,9 @@ Let $A$ be a set with $100$ elements. We split $A$ into equivalence classes
 
 
 \newpage
-\section{Part 2: Recursion, Sequences and Algorithms}
+\subsection{Part 2: Recursion, Sequences and Algorithms}
 
-\subsection{2.1. Use iterative notation}
+\subsubsection{2.1. Use iterative notation}
 
 {\bf Question:} {\em How do we manipulate long expressions and the {\tt for} loops?}\\
 {\scriptsize
@@ -233,7 +233,7 @@ $$\prod\limits_{k=0}^{100} \frac{k^2}{k+1}.$$
 $$\sum\limits_{k=1}^{100} \frac{1}{k(k+1)}.$$
 
 
-\subsection{2.2. Use closed-form expressions for sequences}
+\subsubsection{2.2. Use closed-form expressions for sequences}
 
 {\bf Question:} {\em Can we describe a long procedure by a short formula?}\\
 {\scriptsize
@@ -254,7 +254,7 @@ is $(r-5)^3 = 0$.
 
 
 
-\subsection{2.3. Use mathematical induction}
+\subsubsection{2.3. Use mathematical induction}
 
 {\bf Question:} {\em How do we prove anything about an infinite set?}\\
 {\scriptsize 
@@ -285,7 +285,7 @@ the mathematical induction proof.
 
 
 
-\subsection{2.4. Write the Big-O-Notation} 
+\subsubsection{2.4. Write the Big-O-Notation} 
 
 {\bf Question:} {\em How do we compare function growth and the speed of algorithms?}\\
 {\scriptsize 
@@ -306,7 +306,7 @@ Write the time complexity of this exhaustive search algorithm
 (in terms of $k$ and $m$). Use Big-O-notation.
 
 
-\subsection{2.5. Manipulate strings and finite lists}
+\subsubsection{2.5. Manipulate strings and finite lists}
 
 {\bf Question:} {\em How to operate with a finite list of symbols.}\\
 {\scriptsize 
@@ -325,9 +325,9 @@ $0 \leq a,b,c \leq 9$ and $a+b+c$ is even?
 
 
 \newpage
-\section{Part 3: Number Theory}
+\subsection{Part 3: Number Theory}
 
-\subsection{3.1. Use divisibility, primes and factorization}
+\subsubsection{3.1. Use divisibility, primes and factorization}
 
 {\bf Question:} {\em How do the numeric properties depend on prime factorization?}\\
 {\scriptsize 
@@ -344,7 +344,7 @@ numbers in the set $A$?\\
 {\bf (B)} Express this number as the product of prime powers.
 
 
-\subsection{3.2. Make computations in modular arithmetic}
+\subsubsection{3.2. Make computations in modular arithmetic}
 
 {\bf Question:} {\em How to go from infinite sets to finite sets of congruence classes?}\\
 {\scriptsize 
@@ -370,7 +370,7 @@ $H(\mathtt{yhe}) = (c[\mathtt{y}] \cdot 257^2 + c[\mathtt{h}] \cdot 257 + c[\mat
 
 
 
-\subsection{3.3. Use GCD, LCM and Bezout identity}
+\subsubsection{3.3. Use GCD, LCM and Bezout identity}
 
 {\bf Question:} {\em What do we get by adding several arithmetic progressions?}\\
 {\scriptsize 
@@ -400,7 +400,7 @@ x+2 \equiv 5\,(\text{mod}\;5^2)\\
 
 
 
-\subsection{3.4. Number notation in other bases}
+\subsubsection{3.4. Number notation in other bases}
 
 {\bf Question:} {\em How to express numbers as polynomials with different bases?}\\
 {\scriptsize 
@@ -419,7 +419,7 @@ where the bits have period $T = 10$, i.e. $b_1 = b_{11}$, $b_2 = b_{12}$, etc.
 
 
 
-\subsection{3.5. Repetitive Processes in Number Theory} 
+\subsubsection{3.5. Repetitive Processes in Number Theory} 
 
 {\bf Question:} {\em What happens, if the same operation is done again and again?}\\
 {\scriptsize 
@@ -447,9 +447,9 @@ are some values that lead to the period).
 
 
 \newpage
-\section{Part 4: Counting and Probabilities}
+\subsection{Part 4: Counting and Probabilities}
 
-\subsection{4.1. Compute combinations and probabilities}
+\subsubsection{4.1. Compute combinations and probabilities}
 
 {\bf Question:} {\em How to count items taking into account their symmetries?}\\
 {\scriptsize 
@@ -470,7 +470,7 @@ but all letters are in increasing alphabetical order.
 {\bf (B)} Write all such words that start with letter $I$ \textendash{} 
 arrange them in alphabetical order.
 
-\subsection{4.2. Use Pigeonhole principle} 
+\subsubsection{4.2. Use Pigeonhole principle} 
 
 {\bf Question:} {\em How should pigeons collide for the given counts of pigeons and holes?}\\
 {\scriptsize 
@@ -493,7 +493,7 @@ difference is a multiple of $10$.
 
 
 
-\subsection{4.3. Use factorials and binomial coefficients} 
+\subsubsection{4.3. Use factorials and binomial coefficients} 
 
 {\bf Question:} {\em How to combine multiple choices from the same set?}\\
 {\scriptsize 
@@ -509,7 +509,7 @@ Compute combinations with or without repetitions. Use binomial formula with its 
 {\bf (D)} What is the coefficient of $x^3y^3$ in $(x+y)^6$? \\
 {\bf (E)} What is the coefficient of $x^3y^3$ in $(x+y)^7$?
 
-\subsection{4.4. Use independent events and Bayes formula}
+\subsubsection{4.4. Use independent events and Bayes formula}
 
 {\bf Question:} {\em What does a new event add to our knowledge about 
 the probabilities of other events?}\\
@@ -536,7 +536,7 @@ Find the probability that $x$ is a librarian.
 
 
 
-\subsection{4.5. Use random variables, expected value, variance}
+\subsubsection{4.5. Use random variables, expected value, variance}
 
 {\bf Question:} {\em How to summarize complex probability distributions with just 2 numbers?}\\
 {\scriptsize
@@ -561,9 +561,9 @@ if $v_1,v_2$ are connected with an edge.
 
 
 \newpage
-\section{Part 5: Graphs and Trees}
+\subsection{Part 5: Graphs and Trees}
 
-\subsection{5.1. Verify and use relation properties}
+\subsubsection{5.1. Verify and use relation properties}
 
 {\bf Question:} {\em How relations relate to directed graphs?}\\
 {\scriptsize
@@ -601,7 +601,7 @@ Enter the truth values in a table:
 
 
 
-\subsection{5.2. Create graphs and count graph elements}
+\subsubsection{5.2. Create graphs and count graph elements}
 
 {\bf Question:} {\em How to translate problems into graph notation?}\\
 {\scriptsize 
@@ -624,7 +624,7 @@ Let $G$ be a simple undirected graph. Prove that $G$ or $\overline{G}$ (or both)
 {\em Note.} Graph $\overline{G}$ is the {\em complement} of the graph $G$; it is formed by removing all the edges of 
 $G$ and replacing them by all possible edges that are not in $G$. 
 
-\subsection{5.3. Check graph properties} 
+\subsubsection{5.3. Check graph properties} 
 
 {\bf Question:} {\em How to verify and use basic graph properties?}\\
 {\scriptsize 
@@ -659,7 +659,7 @@ Justify your answers.
 
 
 
-\subsection{5.4. Use DFS and BFS tree traversal algorithms} 
+\subsubsection{5.4. Use DFS and BFS tree traversal algorithms} 
 
 {\bf Question:} {\em What are some orderly ways to list vertices that are broadly applicable?}\\
 {\scriptsize 
@@ -685,7 +685,7 @@ Let $s_1,\ldots,s_{31}$ be the sequence of numbers that is created when doing in
 {\bf (B)} Find the sum $s_2 + s_4 + \ldots + s_{30}$ (add all the odd numbers in this sequence).\\
 
 
-\subsection{5.5. Use Prim's and Dijkstra's algorithms}
+\subsubsection{5.5. Use Prim's and Dijkstra's algorithms}
 
 {\bf Question:} {\em How to solve practical tasks in weighted graphs and transport networks?}\\
 {\scriptsize 

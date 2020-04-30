@@ -57,10 +57,10 @@
 
 \begin{document}
 
-\thispagestyle{empty}
+%\thispagestyle{empty}
 
 \twocolumn
-{\Large Discrete Sample Quiz 6}
+\section{Worksheet 6: Recurrent Sequences}
 
 \vspace{10pt}
 {\bf Question 1: Modifying Sudoku Rules; see Chapter 1.3.6 
@@ -89,14 +89,16 @@ predicates ($p(\ldots)$) in the formula (\ref{sudoku}).
 to describe the following ``rule'' for sudoku tables: 
 If there are any cells in the sudoku cells that have their row number difference AND column 
 number difference divisible by $3$, then they contain different numbers.
-For example, in the figure below, all the shaded cells have same relative position within their
+For example, in Figure~\ref{fig:sudoku}, all the shaded cells have same relative position within their
 respective $3 \times 3$ blocks \textendash{} therefore their row/column numbers differ by 
 $0,3,6$, and accordingly to our new ``rule'' they should contain all nine different numbers. 
 \end{enumerate}
- 
-\begin{center}
-\includegraphics[width=1.4in]{sudoku.png}
-\end{center}
+
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=1.4in]{quiz-sample-06/sudoku.png}}
+\caption{\label{fig:sudoku} Sudoku board.}
+\end{figure}
 
 
 
@@ -177,9 +179,13 @@ to the nearest thousandth.
 (Taylor series expects to have argument $x$ in radians, so you have to convert degrees to radians 
 before using the formula.)
 
+
+
+
+
 \newpage
 
-\section{Answers}
+\subsection{Answers}
 
 \vspace{6pt}
 {\bf Question 1.} Answers:\\ 
@@ -230,10 +236,13 @@ adding $3$ or $6$ to $i$ and/or $j$ - thus we get nine values
 $(1,1)$,$(1,4)$,$(1,7)$,
 $(4,1)$,$(4,4)$,$(4,7)$,$(7,1)$,$(7,4)$,$(7,7)$). Let us express the 
 statement that all the numbers $n=1,\ldots,9$ 
-should appear in the shaded cells (see figure):
-\begin{center}
-\includegraphics[width=1.4in]{sudoku2.png}
-\end{center}
+should appear in the shaded cells (see Figure~\ref{fig:sudoku2}):
+
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=1.4in]{quiz-sample-06/sudoku2.png}}
+\caption{\label{fig:sudoku2} Sudoku board.}
+\end{figure}
 
 {\small
 $$\mbox{let $i=1$,$j=1$ in}\;\forall n\in \{1,\ldots,9 \}:\;\;
@@ -247,10 +256,13 @@ $$\bigwedge\limits_{i = 1}^{3} \bigwedge\limits_{j = 1}^{3} \bigwedge\limits_{n 
 
 \vspace{6pt}
 {\bf Question 2.}\\ Answer: {\tt 2,4,6,8,10,12,14,16,18,20}\\
-\begin{center}
-\includegraphics[width=1.4in]{symmetric-differences.png}
-\end{center}
-Notice that any symmetric difference of two or more sets
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=1.4in]{quiz-sample-06/symmetric-differences.png}}
+\caption{\label{fig:symmetric-differences} Symmetric differences, 3 sets.}
+\end{figure}
+
+Notice that any symmetric difference of two or more sets (Figure~\ref{fig:symmetric-differences})
 includes only those elements that belong to an odd number of sets. 
 For example, $A_1 \oplus A_2 \oplus A_3$ consists of the elements
 that belong to exactly one set ($A_1$, $A_2$ or $A_3$), or 

@@ -1,0 +1,200 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[justification=centering]{caption}
+\usepackage{fancyvrb}
+\usepackage{standalone}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+%\topmargin -24pt
+\topmargin -32pt
+\headheight 12pt
+\headsep 12pt
+%\textheight 9.19in
+\textheight 9.35in
+
+
+\title{Sample Quiz 8}
+\author{Discrete Structures, Spring 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Sample Quiz 8}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\twocolumn
+\begin{center}
+{\large \bf Discrete Mathematics: Exercises}\\
+{\large Version 0.1}\\
+{\em Kalvis Aps\={\i}tis, 2020-04-30}\\
+{\large Creative Commons (CC BY 4.0)}
+\end{center}
+
+{\footnotesize
+This is a collection of problems 
+offered during the BITL1 class {\em Discrete Structures} in Spring 2020 
+by Kalvis. It was a 5cr course, four 90-minute classes per week;
+$15$ weeks. During this time there were $12$ worksheets with math problems; 
+each one was followed by a quiz on a similar topic. There was also one
+midterm exam and one final exam. 
+
+In order to cover some topics of practical importance, students did individual 
+presentations (this is reflected in the quiz on individual topics \textendash{}
+see Appendix).
+
+If you have questions, please contact {\tt kalvis.apsitis}, the 
+email domain is {\tt gmail.com}. 
+}
+
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\input{quiz-sample-01.tex}
+
+\newpage
+\input{quiz-01.tex}
+
+\newpage
+\input{quiz-sample-02.tex}
+
+\newpage
+\input{quiz-02.tex}
+
+\newpage
+\input{quiz-sample-03.tex}
+
+\newpage
+\input{quiz-03.tex}
+
+\newpage
+\input{quiz-sample-04.tex}
+
+\newpage
+\input{quiz-04.tex}
+
+\newpage
+\input{quiz-sample-05.tex}
+
+\newpage
+\input{quiz-05.tex}
+
+\newpage
+\input{quiz-sample-06.tex}
+
+\newpage
+\input{quiz-06.tex}
+
+
+\newpage
+\input{quiz-sample-07.tex}
+
+\newpage
+\input{quiz-07.tex}
+
+
+
+\newpage
+\input{quiz-sample-08.tex}
+
+\newpage
+\input{quiz-08.tex}
+
+
+
+\newpage
+\input{quiz-sample-09.tex}
+
+\newpage
+\input{quiz-09.tex}
+
+
+
+\newpage
+\input{quiz-sample-10.tex}
+
+\newpage
+\input{quiz-10.tex}
+
+
+
+
+\newpage
+\input{quiz-sample-11.tex}
+
+\newpage
+\input{quiz-11.tex}
+
+
+\newpage
+\input{quiz-sample-12.tex}
+
+\newpage
+\input{quiz-12.tex}
+
+
+\newpage
+\input{preparation-for-midterm.tex}
+
+\newpage
+\input{midterm.tex}
+
+\newpage
+\input{final-exam-topics.tex}
+
+
+\newpage
+\input{final.tex}
+
+
+\newpage
+\input{quiz-on-individual-topics.tex}
+
+
+
+\end{document}
+

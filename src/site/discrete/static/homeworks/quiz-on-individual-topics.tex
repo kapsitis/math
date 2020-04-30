@@ -63,10 +63,9 @@
 
 \begin{document}
 
-\thispagestyle{empty}
-
 \twocolumn
-{\Large Quiz on Everyone's Individual Topics}
+
+\section{Appendix: Quiz on Individual Topics}
 
 \vspace{4pt}
 {\bf Question 1.} A hacker wants to 
@@ -410,8 +409,6 @@ Find the correct set of rules to generate this L-system.
 \mathtt{B} \rightarrow \mathtt{AB}
 \end{array} \right. }$
 
-%{\em Note.} \url{https://bit.ly/2ypZ2rI} shows some 
-%Lindenmayer images that can be created from such string iterations. 
 \textcolor{teal}{\em Select one answer.}
 
 {\em Note.} We can have a {\em turtle} that reads this 
@@ -731,6 +728,351 @@ How many edges of this graph do {\bf not} belong to the Hamiltonian cycle?\\
 \textcolor{teal}{\em Write a positive number.}
 
 
+\mbox{}
+\newpage
+
+\subsection{Answers}
+
+\vspace{4pt}
+{\bf Question 1.} Answer {\bf (D)}\\
+The intervals encoding the string $\textcolor{blue}{\mathtt{"GACGU\$"}}$
+form the following sequence: 
+$$\left\{ \begin{array}{l}
+S_0 = [0.000000; 1.000000]\;\text{encodes}\;\textcolor{blue}{\mathtt{""}}\;\text{(empty string)}, \\
+S_1 = [0.400000; 0.700000]\;\text{encodes}\;\textcolor{blue}{\mathtt{"G"}}, \\
+S_2 = [0.400000; 0.490000]\;\text{encodes}\;\textcolor{blue}{\mathtt{"GA"}}, \\
+S_3 = [0.427000; 0.436000]\;\text{encodes}\;\textcolor{blue}{\mathtt{"GAC"}}, \\
+S_4 = [0.430600; 0.433300]\;\text{encodes}\;\textcolor{blue}{\mathtt{"GACG"}}, \\
+S_5 = [0.432490; 0.433030]\;\text{encodes}\;\textcolor{blue}{\mathtt{"GACGU"}}, \\
+S_6 = [0.432976; 0.433030]\;\text{encodes}\;\textcolor{blue}{\mathtt{"GACGU\$"}}. \\
+\end{array} \right.$$
+
+To make the sequence of intervals $S_0 \supset S_1 \supset \ldots \supset S_6$, 
+we can define iterative sequences $\text{Left}_i$, $\text{Length}_i$ describing 
+the left endpoint and the length of each successive interval so that for every 
+$i = 0,1,\ldots,6$: 
+$$S_i = \left[ \text{Left}_i; \text{Left}_i + \text{Length}_i \right].$$
+
+These sequences are defined in terms of the offsets and frequencies 
+of the characters $c_0, c_1, \ldots, c_5$. 
+
+$$\left\{ \begin{array}{l}
+\text{Left}_{i+1} = \text{Left}_{i} + \text{Left}_{i} \cdot \text{Offset}(c_i) \\
+\text{Length}_{i+1} = \text{Length}_{i}  \cdot \text{Frequency}(c_i) \\
+\end{array} \right.$$
+
+For each encodable character the offsets and frequencies are defined in this table:
+
+\begin{tabular}{|l|l|l|} \hline
+Character & Frequency & Offset \\ \hline
+$\mathtt{A}$ & $0.3$ & $0.0$ \\ \hline
+$\mathtt{C}$ & $0.1$ & $0.3$ \\ \hline
+$\mathtt{G}$ & $0.3$ & $0.4$ \\ \hline
+$\mathtt{U}$ & $0.2$ & $0.7$ \\ \hline
+$\mathtt{\$}$ & $0.1$ & $0.9$ \\ \hline
+\end{tabular}
+
+The only binary number $\beta$ that belongs to 
+$S_6 = [0.432976; 0.433030]$ is shown in answer {\bf (D)}:
+$$\beta = 0.011011101101100_2 = 0.4329834_{10}.$$
+
+
+\vspace{10pt}
+{\bf Question 2.} Answer {\bf (B)}\\
+The only syntactically correct regular expression is 
+\begin{verbatim}
+(\+371|\(\+371\)) [0-9]{8}
+\end{verbatim}
+
+\vspace{10pt}
+{\bf Question 3.} Answer {\bf (B)}\\
+The probability that all $8$ hash values 
+will happen to be $1$ is 
+$$0.7^8 = 0.05764801.$$
+
+
+
+\vspace{10pt}
+{\bf Question 4.} (None of the answers is right)\\
+We can add up the probabilities, using Poisson distribution formula: 
+$$P(X = k) = \frac{\lambda^k \cdot e^{-\lambda}}{k!}.$$
+By adding up the first $5$ values of this distribution we get this expression with $\lambda = 13.5$: 
+$$P(X < 5) = \sum\limits_{k=0}^{4} \frac{\lambda^k \cdot e^{-\lambda}}{k!} \approx 0.000707.$$ 
+Therefore the probability to get less than $5$ raisins is $0.0707\%$. 
+
+Since all the answer variants were wrong, everyone gets full credit for this.
+
+
+
+
+\vspace{10pt}
+{\bf Question 5.} Answer: $3$\\
+Three colors are sufficient as shown in the picture. 
+But two colors are impossible (since the graph contains a triangle \textendash{}
+a full graph $K_3$). 
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=1.5in]{durer-graph-colored.png}}
+\caption{\label{fig:durer-graph-colored} D\"{u}rer Graph colored in $3$ colors.}
+\end{figure}
+
+This graph is planar (you can draw it without intersecting edges); 
+it also has a famous 
+polyhedron (D\"{u}rer solid); it was shown in an engraving 
+made in 1514 called {\em Melencolia I}. See
+\url{https://bit.ly/2KE2QZl}. 
+
+
+
+\vspace{10pt}
+{\bf Question 6.} Answer: $0.125,0.313,0.250,0.313$\\
+We write the vectors as they are multiplied with the 
+$4 \times 4$ matrix. The components in the vector 
+correspond to the pageranks (iterations $0$, $1$ and $2$). 
+$$v_0 =  \left( \begin{array}{c}
+1/4 \\
+1/4 \\
+1/4 \\
+1/4 \\
+\end{array} \right);\;\;
+v_1 = \left( \begin{array}{c}
+1/8 \\
+1/2 \\
+1/8 \\
+1/4 \\
+\end{array} \right);\;\;
+v_2 = \left( \begin{array}{c}
+1/8 \\
+5/16 \\
+1/4 \\
+5/16 \\
+\end{array} \right).$$
+
+\vspace{10pt}
+{\bf Question 7.} Answer {\bf (D)}\\
+The time complexity of such algorithm is $O(n^{\log_2 7})$ by Master's theorem. Since 
+$\log_2 7 \approx 2.807355 < 2.808$, we have the time complexity in $O(n^{2.808})$ (it is the best estimate that is given 
+among the arguments).
+
+
+\vspace{10pt}
+{\bf Question 8.} Answer {\bf (D)}\\
+Since we can assume that one of the five strategies is optimal, it is sufficient to compare the strategies. 
+We assume that Players $A$ and $B$ adopt one of the five suggested strategies
+plus one more simple strategy {\bf (F)} (always guess number $2$). 
+
+There are altogether $36$ variants. 
+For each pair of strategies we compute the payoff for the Player $A$. 
+We want to find the strategy for Player $A$ 
+that beats any strategy chosen by $B$ (or at least achieves a tie). 
+
+{\bf (A)} $P(x = 1) = 1/3$, $P(x = 2) = 1/3$, $P(x = 5) = 1/3$.\\
+{\bf (B)} $P(x = 1) = 0$, $P(x = 2) = 1/2$, $P(x = 5) = 1/2$.\\
+{\bf (C)} $P(x = 1) = 1/2$, $P(x = 2) = 1/2$, $P(x = 5) = 0$.\\
+{\bf (D)} $P(x = 1) = 1/4$, $P(x = 2) = 1/2$, $P(x = 5) = 1/4$.\\
+{\bf (E)} $P(x = 1) = 2/6$, $P(x = 2) = 3/6$, $P(x = 5) = 1/6$.\\
+{\bf (F)} $P(x = 1) = 0$, $P(x = 2) = 1$, $P(x = 5) = 0$.\\
+
+The strategies of Player $A$ are shown in rows; strateges of Player $B$ are shown in columns: 
+
+\begin{tabular}{|l|c|c|c|c|c|c|} \hline
+ & {\bf (A)} & {\bf (B)} & {\bf (C)} & {\bf (D)} & {\bf (E)} & {\bf (F)} \\ \hline
+{\bf (A)} & $0$ & $1/6$ & $-1/6$ & $0$ & $-1/18$ & $0$ \\ \hline
+{\bf (B)} & $-1/6$ & $0$ & $0$ & $0$ & $0$ & $1/2$ \\ \hline
+{\bf (C)} & $1/6$ & $0$ & $0$ & $0$ & $0$ & $-1/2$ \\ \hline
+{\bf (D)} & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+{\bf (E)} & $1/18$ & $0$ & $0$ & $0$ & $0$ & $-1/6$ \\ \hline
+{\bf (F)} & $0$ & $-1/2$ & $1/2$ & $0$ & $1/6$ & $0$ \\ \hline
+\end{tabular}
+
+As you can see from the table, every strategy (except {\bf (D)}) 
+loses against some other strategy (there is at least one negative
+number on every line of the table). The only strategy that never loses
+is strategy {\bf (D)}, i.e. picking the numbers $1,2,5$ with probabilities
+$\frac{1}{4}, \frac{1}{2}, \frac{1}{4}$ respectively. 
+(In fact, this is also Nash equilibrium \textendash{} no other
+probabilistic strategy fares better than this.)
+
+Note that without the strategy {\bf (F)} we did not have enough 
+evidence to see that strategies {\bf (C)} and {\bf (E)}
+are not optimal (because they only lose to strategy {\bf (F)}). 
+Moreover, the relationships between strategies are non-transitive:
+\begin{itemize}
+\item {\bf (A)} beats {\bf (B)}
+\item {\bf (B)} beats {\bf (F)}
+\item {\bf (F)} beats {\bf (C)} and {\bf (E)}
+\item {\bf (C)} and {\bf (E)} beat {\bf (A)}
+\end{itemize}
+
+The Nash equilibrium {\bf (D)} does not beat anything in the list; 
+it does not try to exploit ``foolish'' choices of the
+opponent.
+
+\vspace{10pt}
+{\bf Question 9.} Answer {\bf (C)}\\
+This is known as Thue-Morse sequence. It is usually described at ``marcro-level'' - how to obtain 
+new iterations of this sequence (by appending a new chunk of the previous iteration, where
+all letters have changed places). See \url{https://bit.ly/3aExEnq}.
+
+But it is also possible to build Thue-Morse sequence at a ``micro-level'' (how to expand individual letters into 
+pairs of letters):\\ 
+${\displaystyle \left\{ \begin{array}{l}
+\mathtt{A} \rightarrow \mathtt{AB}\\
+\mathtt{B} \rightarrow \mathtt{BA}
+\end{array} \right. }$
+
+{\em Note.} \url{https://bit.ly/2ypZ2rI} shows other nice
+Lindenmayer images that can be created from the Thue-Morse sequence.
+
+
+\vspace{10pt}
+{\bf Question 10.} Answer {\bf (B)}\\
+The number of hash values to be computed in order to have a $\frac{1}{2} = 50\%$ chance of a hash collision 
+can be estimated using the square approximation. If we compute $n$ values (and each value is 
+a non-negative integer less than $m$), then
+$$\frac{1}{2} \approx \frac{n^2}{m};\;\;n \approx \sqrt{m}.$$
+If we have $100$-bit hash values, then $m = 2^{100}$. And $n = \sqrt{2^{100}} = 2^{50}$. 
+
+We therefore need $n = 2^{50} \approx 1.1259 \cdot{10}^{15}$. Now divide this number to convert from 
+microseconds into years (divide by the number of milliseconds in a second; the number of seconds in an hour; 
+the number of hours in a day; a number of days in year): 
+$$n = 1.1259 \cdot{10}^{15} : 10^6 : 3600 : 24 : 365 \approx 35.70205.$$
+
+Therefore the estimate is $35$ years. (For SHA-256 the estimate would be 10.8 Septillions or
+about $10.8\cdot 10^{24}$ years.) The collisions of secure hash functions exist (and by the 
+Pigeonhole principle there should be many collisions for sufficiently short files). In fact, 
+SHA-256 collisions are inevitable even when the size of the input file exceeds $256$ bits (i.e. 
+$32$ bytes).
+
+
+
+
+
+\vspace{10pt}
+{\bf Question 11.} Answer: {\bf (C)}, {\bf (E)}, {\bf (G)}\\
+\begin{itemize}
+\item Hint 1 asks to consider the largest or the least frequently moved disk.
+(Going to the extremes, answer {\bf (C)}).
+\item Hint 2 asks what should happen right before we can move the largest disk
+(Penultimate step, answer {\bf (G)}).
+\item Hint 3 asks to see the symmetry in the problem (if you know how to move 
+three disks from peg $A$ to peg $B$, then you can also move them from peg $A$ to peg $C$, 
+and thus free the way for the fourth disk. 
+(Looking for symmetries, answer {\bf (E)}. 
+\end{itemize}
+
+Other strategies are not directly used in the hints. Learning how to move 
+three disks (before doing it with four disks) would mean making it easier (answer {\bf (F)}), 
+but it is already done by the learner.
+
+
+\vspace{10pt}
+{\bf Question 12.} Answer:\\
+{\tt a787b563a07713fad9b68fb1d1370f5e}
+
+It can be computed from the command-line: 
+\begin{verbatim}
+md5sum hosts.txt
+\end{verbatim}
+
+
+
+\vspace{10pt}
+{\bf Question 13.} Answer: $6$\\
+
+We can compute the best moves moving bottom up, starting with the 
+leaves and computing the best payoff in every internal node (see Figure~\ref{fig:minimax2}). 
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=3in]{minimax2.png}}
+\caption{\label{fig:minimax2} Minimax in a tree.}
+\end{figure}
+
+
+\vspace{10pt}
+{\bf Question 14.} Answer: $6,2$\\
+There are $N=6$ steps to go from $P_0$ to $P_6$. 
+After that there is a periodic repeat of positions $P_6$ and $P_7$ 
+with period $T = 2$ (see Figure~\ref{fig:conway-line5}).
+
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=3in]{conway-line5.png}}
+\caption{\label{fig:conway-line5} Conway Positions.}
+\end{figure}
+
+
+\vspace{10pt}
+{\bf Question 15.} Answer: {\bf (B)}\\
+
+A theory which can prove a statement and its negation is called {\bf not consistent}. 
+(On the contrary, theories where this can never happen are called {\bf consistent}).
+
+BTW the first G\"{o}del's Incompleteness Theorem states that any theory about integer numbers that 
+is effectively axiomatizable and consistent should also be incomplete 
+(i.e.\ there are true results that cannot be proven). So the theory $\mathcal{T}$ from our problem has a chance to 
+be complete. But being inconsistent makes it completely useless (if a statement and its negation are
+both provable, then virtually anything can be proven, since 
+both provable statements $A$ and $\neg A$ also imply 
+$(A \wedge \neq A) = \mathtt{false}$. But
+such {\tt false} theorem would imply anything \textendash{} whether it makes sense or not.
+
+
+\vspace{10pt}
+{\bf Question 16.} Answer: $4$\\
+The full 19-digit credit card number is this: 
+$$\mathtt{557367054456450571}\textcolor{red}{\mathtt{4}}.$$
+
+See \url{https://bit.ly/2Y6NaWv} for online Luhn check. 
+The procedure is as follows:
+
+\begin{itemize}
+\item Drop the last digit from the number. (It is initially unknown in our case.) 
+\item Reverse the digits.
+\item Multiply the digits in odd positions ($1$, $3$, $5$, etc.) by $2$ and subtract $9$ to all any result higher than $9$. 
+\item Add all the obtained numbers together
+\item The last (unknown) number is the amount that you would need to add to get a multiple of 10. 
+\end{itemize}
+
+\begin{verbatim}
+5,5,7,3,6,7,0,5,4,4,5,6,4,5,0,5,7,1 
+1,7,5,0,5,4,6,5,4,4,5,0,7,6,3,7,5,5 
+2,7,10,0,10,4,12,5,8,4,10,0,14,6,6,7,10,5
+2,7,1,0,1,4,3,5,8,4,1,0,5,6,6,7,1,5
+\end{verbatim}
+
+The sum of all digits on the last line is $66$. By adding digit $4$ this number becomes divisible by $10$. 
+
+
+
+
+
+
+\vspace{10pt}
+{\bf Question 17.} Answer {\bf (A)}\\
+
+We should apply our intuition about natural language texts. 
+If there are many identical sequences of five consecutive words, then they 
+cannot appear by pure chance (there might be some common proverbs or short quotes, 
+but they would not make $10\%$ overlap. 
+
+Answer {\bf (B)} is not credible \textendash{} if random lookups in the hashtable lead to $5\%$ matching, 
+then $10\%$ overlap cannot be explained by chance.\\
+Answer {\bf (C)} is not applicable either; rolling hash on words (especially, if it detects considerable
+number of matches) is more useful than rolling hash on characters \textendash{} matching the characters
+is less robust and the hash windows are typically shorter. 
+
+
+\vspace{10pt}
+{\bf Question 18.} Answer $30$\\
+Truncated icosahedron (soccer ball graph) has the following number of 
+faces, edges and vertices:
+$$F = 32, E = 90, V = 60.$$
+
+Since Hamilton graph visits all $60$ vertices, 
+it should also have $60$ edges. 
+For this reason, there are $E - V = 90 - 60 = 30$ edges
+that are not part of the Hamiltonian cycle.
 
 
 \end{document}
