@@ -51,146 +51,146 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Worksheet 7: Counting}{29}{section*.29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{30}{section*.30}% 
+\contentsline {subsection}{Answers}{30}{section*.31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Quiz 7: Counting}{31}{section*.31}% 
+\contentsline {section}{Quiz 7: Counting}{31}{section*.32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{32}{section*.32}% 
+\contentsline {subsection}{Answers}{32}{section*.33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Worksheet 8: Probabilities}{33}{section*.33}% 
+\contentsline {section}{Worksheet 8: Probabilities}{33}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{34}{section*.34}% 
+\contentsline {subsection}{Answers}{34}{section*.35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Quiz 8: Probabilities}{35}{section*.35}% 
+\contentsline {section}{Quiz 8: Probabilities}{35}{section*.36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{36}{section*.36}% 
+\contentsline {subsection}{Answers}{36}{section*.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Worksheet 9: Advanced Counting}{39}{section*.37}% 
+\contentsline {section}{Worksheet 9: Advanced Counting}{39}{section*.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{40}{section*.38}% 
+\contentsline {subsection}{Answers}{40}{section*.39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Quiz 9: Advanced Counting}{41}{section*.39}% 
+\contentsline {section}{Quiz 9: Advanced Counting}{41}{section*.40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{42}{section*.40}% 
+\contentsline {subsection}{Answers}{42}{section*.41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Worksheet 10: Binary Relations}{44}{section*.41}% 
+\contentsline {section}{Worksheet 10: Binary Relations}{44}{section*.42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{45}{section*.42}% 
+\contentsline {subsection}{Answers}{45}{section*.43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Quiz 10: Binary Relations}{47}{section*.43}% 
+\contentsline {section}{Quiz 10: Binary Relations}{47}{section*.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{48}{section*.45}% 
+\contentsline {subsection}{Answers}{48}{section*.47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Worksheet 11: Graphs}{50}{section*.47}% 
+\contentsline {section}{Worksheet 11: Graphs}{50}{section*.49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{51}{section*.48}% 
+\contentsline {subsection}{Answers}{52}{section*.53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Quiz 11: Graphs}{52}{section*.49}% 
+\contentsline {section}{Quiz 11: Graphs}{53}{section*.54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{54}{section*.54}% 
+\contentsline {subsection}{Answers}{55}{section*.59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Worksheet 12: Trees}{56}{section*.60}% 
+\contentsline {section}{Worksheet 12: Trees}{57}{section*.65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{57}{section*.61}% 
+\contentsline {subsection}{Answers}{58}{section*.67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Quiz 12: Trees}{58}{section*.62}% 
+\contentsline {section}{Quiz 12: Trees}{59}{section*.68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{60}{section*.67}% 
+\contentsline {subsection}{Answers}{61}{section*.73}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Midterm Preparation: Sample Problems}{62}{section*.73}% 
+\contentsline {section}{Midterm Preparation: Sample Problems}{63}{section*.79}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Part A. Computational Problems}{62}{section*.74}% 
+\contentsline {subsection}{Part A. Computational Problems}{63}{section*.80}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{A1. Propositional Logic}{62}{section*.75}% 
+\contentsline {subsubsection}{A1. Propositional Logic}{63}{section*.81}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{A2. Sets and Quantifiers}{62}{section*.76}% 
+\contentsline {subsubsection}{A2. Sets and Quantifiers}{63}{section*.82}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{A3. Algorithms and Big-O Notation}{63}{section*.77}% 
+\contentsline {subsubsection}{A3. Algorithms and Big-O Notation}{64}{section*.83}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{A4. Number Theory}{63}{section*.78}% 
+\contentsline {subsubsection}{A4. Number Theory}{64}{section*.84}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Part B. Analysis Tasks}{63}{section*.79}% 
+\contentsline {subsection}{Part B. Analysis Tasks}{64}{section*.85}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{B1. Propositional Logic}{63}{section*.80}% 
+\contentsline {subsubsection}{B1. Propositional Logic}{64}{section*.86}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{B2. Sets and Quantifiers}{64}{section*.81}% 
+\contentsline {subsubsection}{B2. Sets and Quantifiers}{65}{section*.87}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{B3. Algorithms and Big-O Notation}{64}{section*.82}% 
+\contentsline {subsubsection}{B3. Algorithms and Big-O Notation}{65}{section*.88}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{B4. Number Theory}{65}{section*.83}% 
+\contentsline {subsubsection}{B4. Number Theory}{66}{section*.89}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Part C. Proofs}{65}{section*.84}% 
+\contentsline {subsection}{Part C. Proofs}{66}{section*.90}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Midterm, 2020-02-17}{67}{section*.85}% 
+\contentsline {section}{Midterm, 2020-02-17}{68}{section*.91}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{69}{section*.86}% 
+\contentsline {subsection}{Answers}{70}{section*.92}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Final Topics and Sample Problems}{72}{section*.87}% 
+\contentsline {section}{Final Topics and Sample Problems}{73}{section*.93}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Part 1: Sets, Functions, Predicates and Quantifiers}{72}{section*.88}% 
+\contentsline {subsection}{Part 1: Sets, Functions, Predicates and Quantifiers}{73}{section*.94}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{1.1. Find the cardinality of sets}{72}{section*.89}% 
+\contentsline {subsubsection}{1.1. Find the cardinality of sets}{73}{section*.95}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{1.2. Check the subset relation between sets}{72}{section*.90}% 
+\contentsline {subsubsection}{1.2. Check the subset relation between sets}{73}{section*.96}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{1.3. Translate into predicates or quantifiers}{72}{section*.91}% 
+\contentsline {subsubsection}{1.3. Translate into predicates or quantifiers}{73}{section*.97}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{1.4. Check properties of functions}{72}{section*.92}% 
+\contentsline {subsubsection}{1.4. Check properties of functions}{73}{section*.98}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{1.5. Partitions of a set}{72}{section*.93}% 
+\contentsline {subsubsection}{1.5. Partitions of a set}{73}{section*.99}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Part 2: Recursion, Sequences and Algorithms}{73}{section*.94}% 
+\contentsline {subsection}{Part 2: Recursion, Sequences and Algorithms}{74}{section*.100}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{2.1. Use iterative notation}{73}{section*.95}% 
+\contentsline {subsubsection}{2.1. Use iterative notation}{74}{section*.101}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{2.2. Use closed-form expressions for sequences}{73}{section*.96}% 
+\contentsline {subsubsection}{2.2. Use closed-form expressions for sequences}{74}{section*.102}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{2.3. Use mathematical induction}{73}{section*.97}% 
+\contentsline {subsubsection}{2.3. Use mathematical induction}{74}{section*.103}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{2.4. Write the Big-O-Notation}{73}{section*.98}% 
+\contentsline {subsubsection}{2.4. Write the Big-O-Notation}{74}{section*.104}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{2.5. Manipulate strings and finite lists}{73}{section*.99}% 
+\contentsline {subsubsection}{2.5. Manipulate strings and finite lists}{74}{section*.105}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Part 3: Number Theory}{74}{section*.100}% 
+\contentsline {subsection}{Part 3: Number Theory}{75}{section*.106}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{3.1. Use divisibility, primes and factorization}{74}{section*.101}% 
+\contentsline {subsubsection}{3.1. Use divisibility, primes and factorization}{75}{section*.107}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{3.2. Make computations in modular arithmetic}{74}{section*.102}% 
+\contentsline {subsubsection}{3.2. Make computations in modular arithmetic}{75}{section*.108}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{3.3. Use GCD, LCM and Bezout identity}{74}{section*.103}% 
+\contentsline {subsubsection}{3.3. Use GCD, LCM and Bezout identity}{75}{section*.109}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{3.4. Number notation in other bases}{74}{section*.104}% 
+\contentsline {subsubsection}{3.4. Number notation in other bases}{75}{section*.110}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{3.5. Repetitive Processes in Number Theory}{74}{section*.105}% 
+\contentsline {subsubsection}{3.5. Repetitive Processes in Number Theory}{75}{section*.111}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Part 4: Counting and Probabilities}{75}{section*.106}% 
+\contentsline {subsection}{Part 4: Counting and Probabilities}{76}{section*.112}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{4.1. Compute combinations and probabilities}{75}{section*.107}% 
+\contentsline {subsubsection}{4.1. Compute combinations and probabilities}{76}{section*.113}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{4.2. Use Pigeonhole principle}{75}{section*.108}% 
+\contentsline {subsubsection}{4.2. Use Pigeonhole principle}{76}{section*.114}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{4.3. Use factorials and binomial coefficients}{75}{section*.109}% 
+\contentsline {subsubsection}{4.3. Use factorials and binomial coefficients}{76}{section*.115}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{4.4. Use independent events and Bayes formula}{75}{section*.110}% 
+\contentsline {subsubsection}{4.4. Use independent events and Bayes formula}{76}{section*.116}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{4.5. Use random variables, expected value, variance}{75}{section*.111}% 
+\contentsline {subsubsection}{4.5. Use random variables, expected value, variance}{76}{section*.117}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Part 5: Graphs and Trees}{76}{section*.112}% 
+\contentsline {subsection}{Part 5: Graphs and Trees}{77}{section*.118}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{5.1. Verify and use relation properties}{76}{section*.113}% 
+\contentsline {subsubsection}{5.1. Verify and use relation properties}{77}{section*.119}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{5.2. Create graphs and count graph elements}{76}{section*.114}% 
+\contentsline {subsubsection}{5.2. Create graphs and count graph elements}{77}{section*.120}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{5.3. Check graph properties}{76}{section*.115}% 
+\contentsline {subsubsection}{5.3. Check graph properties}{77}{section*.121}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{5.4. Use DFS and BFS tree traversal algorithms}{76}{section*.116}% 
+\contentsline {subsubsection}{5.4. Use DFS and BFS tree traversal algorithms}{77}{section*.122}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{5.5. Use Prim's and Dijkstra's algorithms}{76}{section*.117}% 
+\contentsline {subsubsection}{5.5. Use Prim's and Dijkstra's algorithms}{77}{section*.124}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Final Exam, 2020-04-23}{78}{section*.118}% 
+\contentsline {section}{Final Exam, 2020-04-23}{79}{section*.126}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{80}{section*.121}% 
+\contentsline {subsection}{Answers}{81}{section*.129}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Appendix: Quiz on Individual Topics}{83}{section*.123}% 
+\contentsline {section}{Appendix: Quiz on Individual Topics}{84}{section*.131}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Answers}{89}{section*.138}% 
+\contentsline {subsection}{Answers}{90}{section*.146}% 

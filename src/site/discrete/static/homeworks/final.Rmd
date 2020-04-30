@@ -220,7 +220,7 @@ that the event $E$ has happened.
 ## Problem 9
 
 
-![](final-syntax-tree.png)  
+![](final/final-syntax-tree.png)  
 *Figure: A syntax tree for an expression*
 
 The syntax tree describes an algebraic expression (please note
@@ -244,7 +244,7 @@ but the regular/binary minus with $-$.
 ## Problem 10
 
 
-![](prim-weighted-graph.png)  
+![](final/prim-weighted-graph.png)  
 *Figure: Graph with 9 vertices*
 
 Run the Prim's algorithm on the following weighted graph, 
@@ -473,5 +473,5 @@ and the newly added edge has the smallest possible weight).
 
 The total weight of all added edges (same as the total weight of the MST) is $18$. 
 
-![](prim-weighted-mst.png)  
+![](final/prim-weighted-mst.png)  
 *Figure: MST edges shown in blue*

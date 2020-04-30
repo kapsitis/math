@@ -47,5 +47,5 @@ src/site/discrete/static/coq/*.glob
 src/site/discrete/static/coq/*.v#
 src/site/discrete/static/coq/*.vo
 src/site/discrete/static/homeworks/discrete-math-all-exam-papers.pdf
-
+src/site/discrete/static/homeworks/final.md
 
