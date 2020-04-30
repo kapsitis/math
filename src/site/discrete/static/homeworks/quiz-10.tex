@@ -21,6 +21,7 @@
 \usepackage{amssymb}
 % Enumerations with (a), (b), etc.
 \usepackage{enumerate}
+\usepackage{xcolor}
 
 \let\OLDitemize\itemize
 \renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
@@ -124,19 +125,15 @@ Find the number of 1s in the matrix $M^{\ast}$.
 
 \vspace{6pt}
 {\bf Question 4.}\\
-Let $S$ be a set and its size is computed from the digits in your ID:
+The size of a set $S$ is computed from your ID:
 $$|S| = \mathtt{A}+\mathtt{B}+(10 - \mathtt{C}).$$ 
 Let $N$ be the number of binary relations on $S$ that are  
 reflexive and symmetric at the same time.
 Write the last $3$ digits of $N$ in your answer.
 
 {\em Hint} If you need to find the last $3$ digits of some large number, you 
-can use periodicity (similar to this: \url{https://bit.ly/33NrJKI}). Euler's theorem 
-about the period of remainders modulo $1000$ being periodic with period $\varphi(1000)$ 
-(see \url{https://bit.ly/33PyI5Q}) is not directly applicable in this situation,
-since your exponent $a$ is not mutually prime with $1000$.
-But with some additional reasoning you 
-can use Euler's theorem as well.
+can use periodicity (similar to this: \url{https://bit.ly/33NrJKI}) or Euler's theorem 
+(see \url{https://bit.ly/33PyI5Q}) or Chinese Remainder theorem.
 
 
 \vspace{6pt}
@@ -171,8 +168,13 @@ b_{21} & b_{22} & b_{23} \\
 b_{31} & b_{32} & b_{33} \\
 \end{array} \right)$$
 
-Write all the 9 bits (as a sequence of 0s and 1s) in your answer: $b_{11}b_{12}b_{13}b_{21}b_{22}b_{23}b_{31}b_{32}b_{33}$.
-If there are multiple answers, write the lexicographically first one. 
+If there are multiple answers, write the lexicographically first one.
+Write all the 9 bits (as a sequence of 0s and 1s) in your answer: $b_{11}b_{12}b_{13}b_{21}b_{22}b_{23}b_{31}b_{32}b_{33}$.\\
+{\footnotesize
+\textcolor{red}{The original formulation did not have the lexicographical ordering requirement. Therefore, 
+any matrix matching the conditions is fine.}
+}
+
 
 
 
@@ -186,9 +188,12 @@ b_{21} & b_{22} & b_{23} \\
 b_{31} & b_{32} & b_{33} \\
 \end{array} \right)$$
 
-Write all the 9 bits (as a sequence of 0s and 1s) in your answer: $b_{11}b_{12}b_{13}b_{21}b_{22}b_{23}b_{31}b_{32}b_{33}$.
 If there are multiple answers, write the lexicographically first one. 
-
+Write all the 9 bits (as a sequence of 0s and 1s) in your answer: $b_{11}b_{12}b_{13}b_{21}b_{22}b_{23}b_{31}b_{32}b_{33}$.\\
+{\footnotesize
+\textcolor{red}{The original formulation did not have the lexicographical ordering requirement. Therefore, 
+any matrix matching the conditions is fine.}
+}
 
 
 

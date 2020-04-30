@@ -182,10 +182,37 @@ Expressions in form $x^4 + 4y^4$ can be factorized using Sophie Germain identity
 See \url{https://bit.ly/2xkJeq1}.
 
 \vspace{6pt}
-{\bf Question 2.} Answer: TBD\\
+{\bf Question 2.} Answer: {\tt T,T,F,T,T,T}\\
+{\bf (A)} $((a\,\mid\,b) \wedge (a\,\mid\,c)) \;\rightarrow\; a\,\mid\,\text{gcd}(b,c)$\\
+{\tt True}. That's the definition of GCD: Any common divisor $a$ also divides $\text{gcd}(b,c)$.\\
+{\bf (B)} $(a\,\mid\,\text{gcd}(b,c)) \;\rightarrow\; (a|b\,\wedge\,a|c)$\\
+{\tt True}. Obviously $\text{gcd}(b,c)$ divides both $b$ and $c$.\\
+{\bf (C)} $(a\,\mid\,b\;\wedge\;c\,\mid\,d) \;\rightarrow\; (ac\,\mid\,\text{lcm}(b,d))$.\\
+{\tt False}. We can take $a = 2^3$, $b = 2^4$, $c = 2^5$, $d = 2^6$. Then $\text{lcm}(b,d) = 2^6$.\\
+{\bf (D)} $\text{gcd}(\text{gcd}(a,b),c) = \text{gcd}(a,\text{gcd}(b,c))$.\\
+{\tt True}. Both sides represent the GCD of all three numbers.\\
+{\bf (E)} $\text{lcm}(\text{gcd}(a,b),c) = \text{gcd}(\text{lcm}(a,c), \text{lcm}(b,c))$.\\
+{\tt True}. Take any prime factor that participates in the numbers 
+$$\left\{ \begin{array}{l}
+a = p^i \cdot \ldots \\
+b = p^j \cdot \ldots \\
+c = p^k \cdot \ldots \\
+\end{array} \right.$$
+Then both sides are divisible by $p^m$, where 
+$$m = \max(\min(a,b),c) = \min(\max(a,c),\max(b,c)).$$
+{\bf (F)} For all primes $p>2$, $2^p +1$ is not a prime.\\
+{\tt True}. All such numbers are divisible by $3$, if $p$ is an odd number.
+
 
 \vspace{6pt}
-{\bf Question 3.} Answer: TBD\\
+{\bf Question 3.} Answer: {\tt 2\^{}30*3\^{}30*5\^{}20}\\
+Express both numbers as a product of their prime factors. 
+\begin{align}
+ & \text{gcd}\left( (2^4 \cdot 3^3 \cdot 5)^{20},\;\; (2^1 \cdot 3^1 \cdot 5^2)^{30} \right) = \nonumber \\
+= & \text{gcd}\left( 2^{80} \cdot 3^{60} \cdot 5^{20},\;\; 2^{30} \cdot 3^{30} \cdot 5^{60} \right) = \nonumber \\
+= & 2^{30} \cdot  3^{30} \cdot 5^{20} \nonumber
+\end{align}
+
 
 \vspace{6pt}
 {\bf Question 4.} Answer: TBD\\

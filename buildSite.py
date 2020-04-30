@@ -75,7 +75,7 @@ def build_static(SRC,DEST):
                 ffpdfmod = os.path.getmtime('%s/%s' % (SRC,ffpdf))
             else: 
                 ffpdfmod = -1
-            if fftexmod > ffpdfmod:
+            if fftexmod > ffpdfmod or ff.endswith('discrete-math-all-exam-papers.tex'):
                 print('Processing TEX %s' % ff)
                 subprocess.call(['xelatex',ff], cwd=SRC)
             else:
