@@ -66,9 +66,10 @@
 {\bf Question 1 (Boolean Expressions).}\\
 Consider Boolean expression:
 $$E_0 = (p \rightarrow q \rightarrow r) \wedge (q \rightarrow r \rightarrow p) \wedge (r \rightarrow p \rightarrow q)$$
-\begin{center}
-\includegraphics[width=2in]{midterm/circles.png}
-\end{center}
+\begin{figure}[!htb]
+\center{\includegraphics[width=2in]{midterm/venn-circles.png}}
+\caption{\label{fig:venn-circles} Venn diagram for 3 sets.}
+\end{figure}
 
 \begin{enumerate}[(A)]
 \item Copy the Venn diagram's circles in your solution and shade those regions in the diagram that make $E_0$ true
@@ -91,12 +92,13 @@ Verify, if the following predicate/quantifier expressions are true for the given
 The predicate $P$ is defined on $A \times A$, where
 $A = \{ \mathtt{a},\mathtt{b},\mathtt{c},\mathtt{d},\mathtt{e},\mathtt{f} \}$. 
 Predicate $P(\mathtt{a},\mathtt{b})$ is true iff the square on row $\mathtt{a}$
-and column $\mathtt{b}$ is shaded (and the predicate $P(\mathtt{a},\mathtt{b})$ 
-is false, if that square is white).
+and column $\mathtt{b}$ is shaded in Figure~\ref{fig:relation-set6}. Predicate $P(\mathtt{a},\mathtt{b})$ 
+is false, if that square is white.
+\begin{figure}[!htb]
+\center{\includegraphics[width=1.2in]{midterm/relation-set6.png}}
+\caption{\label{fig:relation-set6} 2 argument predicate.}
+\end{figure}
 
-\begin{center}
-\includegraphics[width=1.2in]{midterm/relation.png}
-\end{center}
 
 \begin{enumerate}[(A)]
 \item Does the predicate $P$ satisfy the logic formula:
@@ -271,11 +273,15 @@ $q = \mathtt{True}$ and $r = \mathtt{False}$).\\
 If we consider also $q \rightarrow r \rightarrow p$ and $r \rightarrow p \rightarrow q$, there are two 
 more ways to get the whole expression $E_0$ false. Each of these ways means that exactly two variables
 are $\mathtt{True}$ and the third one is $\mathtt{False}$. 
-All the other areas make the expression true. Shaded areas look like shown below. There are just $3$ 
+All the other areas make the expression true. Shaded areas are shown in Figure~\ref{fig:circles-shaded2}. There are just $3$ 
 regions where the expression $E_0$ evaluates to false (white, not shaded). 
-\begin{center}
-\includegraphics[width=2in]{midterm/circles-shaded2.png}
-\end{center}
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=2in]{midterm/circles-shaded2.png}}
+\caption{\label{fig:circles-shaded2} Venn diagram with shading.}
+\end{figure}
+
+
 
 {\bf (B)} There are exactly $8-3 = 5$ entries in the truth table which make the expression true
 (there are only $3$ ways to make the expression false, as shown in {\bf (A)}). 

@@ -143,14 +143,17 @@ and associativity):\\
 
 
 \vspace{6pt}
-{\bf Question 3.} The following syntax tree shows different options how 
+{\bf Question 3.} The diagram on Figure~\ref{fig:midterm-syntax-tree} shows different options how 
 $5$ people \textendash{} Bill, John, Jim, Simon and Mike \textendash{} can 
 work in a yard. (Variable {\tt Bill} is true iff Bill works in the yard, 
 and the whole expression evaluates to true, iff it shows a possible combination
 how a team of boys can work in the yard). 
-\begin{center}
-\includegraphics[width=2in]{midterm/syntax-tree.png}
-\end{center}
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=2in]{midterm-exam-preparation/midterm-syntax-tree.png}}
+\caption{\label{fig:midterm-syntax-tree} Boolean expression as a tree.}
+\end{figure}
+
 \begin{enumerate}[(A)]
 \item Write this tree as a Boolean expression using 
 Boolean connectives ($\neg$, $\wedge$, etc.).
@@ -186,15 +189,17 @@ and/or is not divisible...''}.
 
 \vspace{6pt}
 {\bf Question 5.} 
-In these pictures a red square on the intersection 
+In Figure~\ref{fig:predicate-grid} a red square on the intersection 
 of row $i$ and column $j$ 
 means that the predicate $L(i,j)$ is true (person $i$ 
 loves person $j$). White square means that the predicate $L(i,j)$
 is false. Here 
 $i,j \in \{ \mathtt{a},\mathtt{b},\mathtt{c},\mathtt{d},\mathtt{e} \}$. 
-\begin{center}
-\includegraphics[width=2in]{midterm/predicate-grid.png}
-\end{center}
+\begin{figure}[!htb]
+\center{\includegraphics[width=2in]{midterm-exam-preparation/predicate-grid.png}}
+\caption{\label{fig:predicate-grid} Predicate on a Cartesian product.}
+\end{figure}
+
 Which statement is shown in the left picture?
 \begin{enumerate}[(A)]
 \item Everyone is loved by someone.
@@ -261,14 +266,17 @@ decimal notation.
 
 \vspace{6pt}
 {\bf Question 9.} 
-\begin{center}
-\includegraphics[width=3in]{midterm/sequences.png}
-\end{center}
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=3in]{midterm-exam-preparation/arithmetic-sequences.png}}
+\caption{\label{fig:arithmetic-sequences} 3 arithmetic progressions.}
+\end{figure}
 
 \begin{enumerate}[(A)]
-\item Find some number $M \in \mathbb{Z}^{+}$ 
+\item Find any number $M \in \mathbb{Z}^{+}$ 
 that gives the following remainders when divided by 
-$5$, $7$ and $11$: 
+$5$, $7$ and $11$ (to ensure that in Figure~\ref{fig:arithmetic-sequences}
+red circles denote multiples of these numbers). 
 $$\left\{
 \begin{array}{l}
 M \equiv 4\;(\text{mod}\,5)\\
@@ -370,10 +378,12 @@ $\leftrightarrow$).
 as functions that have all their values between two bounds: there is a positive number $M$
 such that all all values of the function $f$ are in the interval $[-M;M]$. With predicates and quantifiers:
 $$\exists M \in \mathbb{R}^{+},\,\forall x \in \mathbb{R}\,\;x \in (a;b) \rightarrow |f(x)| \leq M.$$
-In this picture one of the functions (the red one) is bounded, the other one is unbounded.
-\begin{center}
-\includegraphics[width=2in]{midterm/bounded-function.png}
-\end{center}
+In Figure~\ref{fig:bounded-function} one of the functions (the red one) is bounded, the other one is unbounded.
+\begin{figure}[!htb]
+\center{\includegraphics[width=2in]{midterm-exam-preparation/bounded-function.png}}
+\caption{\label{fig:bounded-function} A bounded function.}
+\end{figure}
+
 \begin{enumerate}[(A)]
 \item Write an expression with predicates and quantifiers to express the statement: 
 ``Function $f:(a;b) \rightarrow \mathbb{R}$ is {\bf not} bounded.''
