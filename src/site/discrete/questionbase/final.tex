@@ -333,16 +333,27 @@ What is the total weight of the obtained Minimum Spanning Tree?
 \newpage
 \subsection{Answers}
 
+Every problem is worth $15$ points. The total for this final is 150 points.
+
 
 \vspace{4pt}
 {\bf Question 1.}\\
 
 {\bf (A)} $X = A \cup B$ (Boolean OR means set union)\\
 {\bf (B)} $Y = (B \cap C) \cup \overline{A}$ (Boolean and means set intersection; negation means set complement)\\
-{\bf (C)} $|X| = |A| + |B| - |A \cap B| = 120+60-20 = 160$ (principle of inclusion-exclusion).\\
+{\bf (C)} $|X| = |A| + |B| - |A \cap B| = 60+40-20 = 80$ (principle of inclusion-exclusion).\\
 {\bf (D)} $|Y|$ is all odd numbers and also four even numbers divisible by $15$
 ($30, 60, 90, 120$). The total is $60 + 4 = 64$. 
 
+{\scriptsize
+{\em Grading.} 
+\begin{itemize}
+\item Each correct answer is $3$ points (total $12$). 
+\item Explaining both {\bf (C}) and {\bf (D)} is another $3$ points (total $3$).
+\item Using wrong set notation ($\wedge$ instead of $\cap$ etc.) divides the number of points in half.
+\item $68$ instead of $64$ is $2$ points (instead of $3$). 
+\end{itemize}
+}
 
 
 \vspace{10pt}
@@ -360,7 +371,13 @@ of any set $X$ can be obtained by raising $2$ to the power $|X|$).\\
 {\bf (D)} $|A \oplus B| = (8-3) + (5-3) = 7$ (we remove the common elements from both $A$ and $B$). 
 
 
-
+{\scriptsize
+{\em Grading.} 
+\begin{itemize}
+\item Each correct answer is $3$ points (total $12$).
+\item Expressions or verbal explanations of the answers is $3$ points (total $3$).
+\end{itemize}
+}
 
 
 
@@ -398,6 +415,17 @@ Therefore the exact formula to calculate the sequence $a_n$ is this:
 $$a_n  = 5 \cdot 2^n - 2 \cdot 3^n,\;\text{where}\;n \geq 0.$$
 This actually works, if we plug in the values calculated in {\bf (A)} for $n = 0,\ldots,6$.
 
+{\scriptsize
+{\em Grading.} 
+\begin{itemize}
+\item Answer in {\bf (A)} is $4$ points.
+\item Answer in {\bf (B)} is $4$ points.
+\item Answer in {\bf (C)} is $3$ points.
+\item Answer in {\bf (D)} is $4$ points.
+\end{itemize}
+}
+
+
 
 
 
@@ -419,6 +447,17 @@ as a valid answer).
 Certainly, $f(n)$ is also in $O(n^k)$ for any $k > 4$, but the function $g(n) = n^4$ 
 is the slowest growing. 
 
+{\scriptsize
+{\em Grading.} 
+\begin{itemize}
+\item Answer for {\bf (A)} is $5$ points.
+\item Answer for {\bf (B)} (any 4th degree polynomial of $n$) is $5$ points. 
+An attempt to estimate some arithmetic progression with a different upper limit
+(say, $1 + 2 + \ldots + n$) gets $2$ points.
+\item Answer for {\bf (C)} is $5$ points. If the answer is 
+provided just for $n=1000$ (not for any variable), then it is $4$ points.
+\end{itemize}
+}
 
 
 
@@ -432,7 +471,8 @@ is the slowest growing.
 one of the divisors $a$ or $b$ would be smaller than $\sqrt{120} \approx 11$, and the other
 one would be bigger. We can easily list all the ways to express $120$ 
 as a product of two integers: 
-$$1 \cdot 120 = 2 \cdot 60 = 3 \cdot 40 = 4 \cdot 30 = 5 \cdot 24 = 6 \cdot 20 = 8 \cdot 15 = 10 \cdot 12,$$
+$$1 \cdot 120 = 2 \cdot 60 = 3 \cdot 40 = 4 \cdot 30 = $$
+$$= 5 \cdot 24 = 6 \cdot 20 = 8 \cdot 15 = 10 \cdot 12,$$
 and there are no other factorizations, since all the divisors less than $11$ are
 already listed.  
 Multiplying them all together would give 
@@ -441,7 +481,14 @@ $$(120)^8 = 42998169600000000$$
 {\bf (B)} As a product of prime factors:
 $$(120)^8 = (2^3 \cdot 3 \cdot 5)^8 = 2^{24} \cdot 3^8 \cdot 5^8.$$
 
-
+{\scriptsize
+{\em Grading.} 
+\begin{itemize}
+\item Correct item {\bf (A)} is $7$ points (also floating point answers were fine - 
+not all had easy access to the big integer arithmetic). 
+\item Correct item {\bf (B)} is $8$ points.
+\end{itemize}
+}
 
 
 \vspace{10pt}
@@ -464,6 +511,14 @@ While it is true that $aRb$ and $bRa$, nevertheless $a \neq b$.\\
 {\bf (D)} Counterexample: None\\
 {\bf (E)} Counterexample is same as in {\bf (C)}: $a=0$, $b = 1716$.
 
+{\scriptsize
+{\em Grading.} 
+\begin{itemize} 
+\item One correct answer is $2$ points (total $10$).
+\item Counterexamples for {\bf (C)} and {\bf (E)} is $5$ points (they are, in fact, the same). 
+\end{itemize}
+}
+
 
 
 \vspace{10pt}
@@ -480,6 +535,49 @@ that stays in place; and the remaining three hats can rotate in two ways).
 \item For the remaining $24 - (1 + 6 + 8) = 9$ permutations $X = 0$ (no hats stay in place).
 \end{itemize}
 
+{\scriptsize
+\begin{table}[h!]
+\begin{center}
+\caption{Random Variable $X$ for the Hat Problem}
+\begin{tabular}{|l|r|r|r|} \hline
+\label{table:t1}
+{\bf Permutation} & $X$ & $X-E(X)$ & $(X-E(X))^2$ \\ \hline
+$\textcolor{red}{\mathtt{ABCD}}$ & $4$ & $3$ & $9$ \\ \hline
+$\textcolor{red}{\mathtt{AB}}\mathtt{DC}$ & $2$ & $1$ & $1$ \\ \hline
+$\textcolor{red}{\mathtt{A}}\mathtt{CB}\textcolor{red}{\mathtt{D}}$ & $2$ & $1$ & $1$ \\ \hline
+$\textcolor{red}{\mathtt{A}}\mathtt{CDB}$ & $1$ & $0$ & $0$ \\ \hline
+$\textcolor{red}{\mathtt{A}}\mathtt{DBC}$ & $1$ & $0$ & $0$ \\ \hline
+$\textcolor{red}{\mathtt{A}}\mathtt{D}\textcolor{red}{\mathtt{C}}\mathtt{D}$ & $2$ & $1$ & $1$ \\ \hline
+
+{\tt BACD} & $2$ & $1$ & $1$ \\ \hline
+{\tt BADC} & $0$ & $-1$ & $1$ \\ \hline
+{\tt BCAD} & $1$ & $0$ & $0$ \\ \hline
+{\tt BCDA} & $0$ & $-1$ & $1$ \\ \hline
+{\tt BDAC} & $0$ & $-1$ & $1$ \\ \hline
+{\tt BDCA} & $1$ & $0$ & $0$ \\ \hline
+
+{\tt CABD} & $1$ & $0$ & $0$ \\ \hline
+{\tt CADB} & $0$ & $-1$ & $1$ \\ \hline
+{\tt CBAD} & $2$ & $1$ & $1$ \\ \hline
+{\tt CBDA} & $1$ & $0$ & $0$ \\ \hline
+{\tt CDAB} & $0$ & $-1$ & $1$ \\ \hline
+{\tt CDBA} & $0$ & $-1$ & $1$ \\ \hline
+
+{\tt DABC} & $0$ & $-1$ & $1$ \\ \hline
+{\tt DACB} & $1$ & $0$ & $0$ \\ \hline
+{\tt DBAC} & $1$ & $0$ & $0$ \\ \hline
+{\tt DBCA} & $2$ & $1$ & $1$ \\ \hline
+{\tt DCAB} & $0$ & $-1$ & $1$ \\ \hline
+{\tt DCBA} & $0$ & $-1$ & $1$ \\ \hline\hline
+{\bf Mean} & $1$ & $0$ & $1$ \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+}
+
+
+
+
 
 {\bf (A)} $E(X) = \frac{1}{24} \cdot 4 + \frac{6}{24} \cdot 2 + \frac{8}{24} \cdot 1 = 1$. 
 This means that the expected number of hats that stay in place is exactly $1$.\\
@@ -490,7 +588,22 @@ exactly $8$ values are $1$, exactly $9$ values are $0$):
 $$V(X) = \frac{\sum_{i=1}^{24} (x_i - 1)^2}{24} = \frac{24}{24} = 1.$$
 
 Therefore, $V(X) = 1$ (variance also equals $1$, but the unit of measurement 
-is not hats but ``hats squared''). 
+is not hats but ``hats squared'').
+
+{\em Note.} $E(X)=1$ is the arithmetic mean over the column $X$, but $V(X)=1$ 
+is the arithmetic mean over the column $(X-E(X))^2$ (see Table~\ref{table:t1}).
+
+{\scriptsize
+{\em Grading (theoretically max=20, but most results are not that high).} 
+\begin{itemize} 
+\item Correctly found $E(X)$ is $5$ point.
+\item Correctly found $V(X)$ is $5$ point.
+\item Justified computation for $E(X)$ is $5$ points.
+\item Justified computation for $V(X)$ is $5$ points.
+\end{itemize}
+}
+
+
 
 
 \vspace{10pt}
@@ -530,6 +643,14 @@ subcase $P(E|H) \cdot P(H)$ (i.e. event $E$ hapens on a lucky day) out of the
 whole probability $P(E) = P(E|H)\cdot P(H) + P(E|\overline{H}) \cdot P(\overline{H})$
 (i.e. event $E$ happens either on a lucky or unlucky day). 
 
+{\scriptsize
+{\em Grading (theoretically max=20, but most results are not that high).} 
+\begin{itemize} 
+\item Any item from {\bf (A)} to {\bf (E)} is $3$ points. 
+\item Bayes formula or a similar expression finding the reverse conditional probability 
+in {\bf (F)} in $5$ points.
+\end{itemize}
+}
 
 
 
@@ -544,6 +665,17 @@ the first subtree (e.g., $\mathtt{y}$), and only then the
 parent node (e.g., unary minus $\sim$). 
 See (Rosen2019, p.811).
 
+
+{\scriptsize
+{\em Grading.} 
+\begin{itemize}
+\item Each correctly written expression is 
+\item Item {\bf (B)} with switched order of the unary minus and its child node $y$ is
+$3$ points instead of $5$.
+\item Minor typos in single characters get $4$ or $5$ points.
+\item Any major differences from the correct result do not get points.
+\end{itemize}
+}
 
 
 %\vspace{10pt}
@@ -572,10 +704,19 @@ The total weight of all added edges (same as the total weight of the MST) is $18
 
 
 \begin{figure}[!htb]
-\center{\includegraphics[width=2in]{final/prim-weighted-mst.png}}
+\center{\includegraphics[width=1.5in]{final/prim-weighted-mst.png}}
 \caption{\label{fig:prim-weighted-mst} MST edges shown in blue.}
 \end{figure}
 
+{\scriptsize
+{\em Grading.} 
+\begin{itemize}
+\item Incorrectly adding up weights could subtract $1$ or $2$ points from the total.
+\item Adding $9$ edge weights (or any other number instead of $8$ weights) and getting incorrect sum is $11$ points (instead of $15$). 
+\item Not showing the edges in answers (or displaying them in an order that differs from Prim's algorithm), 
+but still getting something close to MST is about $8$ points.
+\end{itemize}
+}
 
 
 \end{document}

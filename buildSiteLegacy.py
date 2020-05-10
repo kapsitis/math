@@ -81,6 +81,8 @@ def build_static(SRC,DEST):
         shutil.copy(filename, DEST)
     for filename in glob.glob(os.path.join(SRC, '*.doc')):
         shutil.copy(filename, DEST)
+    for filename in glob.glob(os.path.join(SRC, '*.txt')):
+        shutil.copy(filename, DEST)
     #copyDirectory('%s/Pictures' % SRC,'%s/Pictures' % DEST)
     skip_directories = ['source-material','static','analysis']
     subDirectories = set(next(os.walk(SRC))[1]).difference(set(skip_directories))
@@ -92,9 +94,9 @@ def build_static(SRC,DEST):
 
 def main(): 
     sync_all.main()
-    resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs', 'discrete'] 
-# ..., 'datasearch']
-    skip_directories = ['source-material','static','analysis', 'coq-inductive', 'coq-numbertheory', 'coq-predicates', 'coq-propositional', 'coq-sets']
+#    resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs', 'discrete'] 
+    resTypes = ['discrete'] 
+    skip_directories = ['source-material','static','questionbase','analysis', 'coq-inductive', 'coq-numbertheory', 'coq-predicates', 'coq-propositional', 'coq-sets']
 
 
     if os.name=='nt':
@@ -130,6 +132,8 @@ def main():
     build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
     build_static('src/site/discrete/static', '%s/discrete-bin' % DEST_ROOT)
     build_static('src/site/discrete/static/homeworks', '%s/discrete-bin/homeworks' % DEST_ROOT)
+    build_static('src/site/discrete/questionbase', '%s/discrete-bin/questionbase' % DEST_ROOT)
+
     build_coq('src/site/discrete/coq-competitions', '%s/discrete-bin/coq-competitions' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-inductive', '%s/discrete-bin/coq-inductive' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-numbertheory', '%s/discrete-bin/coq-numbertheory' % DEST_ABSOLUTE)
