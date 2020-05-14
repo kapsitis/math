@@ -1,0 +1,162 @@
+%%
+%% This is file `./samples/shortsample.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% apa6.dtx  (with options: `shortsample')
+%% ----------------------------------------------------------------------
+%% 
+%% apa6 - A LaTeX class for formatting documents in compliance with the
+%% American Psychological Association's Publication Manual, 6th edition
+%% 
+%% Copyright (C) 2011-2017 by Brian D. Beitzel <brian at beitzel.com>
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License (LPPL), either
+%% version 1.3c of this license or (at your option) any later
+%% version.  The latest version of this license is in the file:
+%% 
+%% http://www.latex-project.org/lppl.txt
+%% 
+%% Users may freely modify these files without permission, as long as the
+%% copyright line and this statement are maintained intact.
+%% 
+%% This work is not endorsed by, affiliated with, or probably even known
+%% by, the American Psychological Association.
+%% 
+%% ----------------------------------------------------------------------
+%% 
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+\usepackage{fancyvrb}
+\usepackage{xcolor}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+\setlength\parindent{0pt}
+
+\title{Quiz for Week02}
+\author{Discrete Structures, Fall 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Structures Lab03: Hints}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\begin{document}
+%\maketitle
+
+%\twocolumn
+{\Large Lab03/Lab04: Hints}
+
+\thispagestyle{empty}
+
+\section{How to set up your environment}
+
+Check out from Git the template project.\\
+Step-by-step instructions not available yet.
+
+\section{Testing procedure}
+
+Perform these steps, to see what grade you would get.
+
+\begin{enumerate}
+\item Open a terminal window in any empty directory. Get code from your repository:
+\begin{verbatim}
+git clone <repository-url>
+\end{verbatim}
+\item Add two lines to the {\tt build.sbt} file \textendash{} to enable HTML report generation 
+(follow the link, if you need to see the whole SBT buildfile). 
+{\footnotesize
+\begin{verbatim}
+libraryDependencies += "com.vladsch.flexmark" % "flexmark-all" % "0.35.10"
+testOptions in Test += Tests.Argument(TestFrameworks.ScalaTest, "-h", "target/test-reports")
+\end{verbatim}
+}
+\item Copy the testfiles {\tt KMPtheprivateTest.scala} and {\tt BMtheprivateTest.scala} under your 
+\begin{verbatim}
+$ProjectRoot/src/test/scala/lv/rbs/ds/lab03/ 
+\end{verbatim}
+\item Run from the commandline: 
+\begin{verbatim}
+sbt
+testOnly *theprivateTest
+\end{verbatim}
+\item After this the test reports as HTML are visible under subdirectory {\tt target}.
+\end{enumerate}
+
+
+
+\section{Some things to avoid}
+
+In short, follow all the naming conventions carefully.
+
+\begin{enumerate}[(1)]
+\item {\bf Wrong package names.}\\
+Instead of  "lv.rbs.ds.lab03" do not rename it into 
+"lv.rbs.ds.lab04", or "scala.lv.rbs.ds.lab03", or "main.scala.lv.rbs.ds.lab03". 
+\item {\bf Wrong directory structure.}
+If your IDE (such as IntelliJ Idea) 
+complains, find a way to set up your project so that it matches the Maven/SBT directory layout.
+Broken Maven directory structure - the classfiles located outside /src/main/scala... directory.
+\item {\bf Wrong class names}\\
+Do not use "BoyerMoore.scala" instead of "BMmatcher.scala" etc. It breaks all the tests.
+\item {\bf Wrong function names}\\
+Do not use {\tt "get\textunderscore{}Json(...)"} or anything strange instead of {\tt toJson(...)}. 
+\item Verify that you return right value type. (If it is a list, it should be the right kind of list; and it should 
+contain the right kind of tuples.)
+\item {\bf JSON files generated in ad-hoc ways.} Handmade JSON may contain broken key names with extra spaces, and other syntax that renders 
+them unusable.
+\end{enumerate}
+
+
+
+
+\end{document}
+
+
+
+
+
+

@@ -15,6 +15,7 @@
 *.out
 *.pyc
 *.glob
+*.toc
 *.vo
 *.run.xml
 */.Rhistory
