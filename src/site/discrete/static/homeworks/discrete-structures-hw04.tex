@@ -175,6 +175,292 @@ circuit of $G$, the edge of maximum wieght in this circuit
 does not belong to any minimum spanning tree of $G$.
 
 
+
+\newpage
+
+\section{Answers}
+
+
+{\bf Problem 4}\\
+Every manipulation with water jugs reaches a final 
+state where either some jug is empty or some jug is full 
+(or both). Each pair of two water quantities $(w_x,w_y)$
+can be represented by a point in the Cartesian coordinates. 
+Filling or emptying the 5-gallon jug means moving left or right 
+on a horizontal line ($x$ coordinate changes, but $y$ stays the same). 
+Filling or emptying the 3-gallon jug means moving up or down 
+on a vertical line ($y$ coordinate changes, but $x$ stays the same). 
+It is also possible to transfer water from one jug to another 
+until we reach a limit \textendash{} this means moving a 
+point on a line with slope $-1$. 
+
+{\bf (A)} Measuring 1 gallon is shown in Figure~\ref{fig:water-jugs-path}. 
+Verbally it can be described as a sequence of $4$ steps:
+\begin{itemize}
+\item Initially both jugs are empty; fill the $3$ gallon jug. 
+(Move from $(0;0)$ to $(0;3)$.)
+\item Transfer all water from it into the $5$-gallon jug. 
+(Move from $(0;3)$ to $(3;0)$.)
+\item Fill the $3$-gallon jug again. (Move from $(3;0)$ to $(3;3)$.)
+\item Transfer water into the $5$-gallon jug until it is full. 
+At that point the $3$-gallon jug contains $1$ gallon of water.
+(Move from $(3;3)$ to $(5;1)$.)
+\end{itemize}
+
+This sequence of steps is possible because of the 
+Bezout identity for two mutual primes
+$3$ and $5$: 
+$$1 = 2\cdot 3 + (-1) \cdot 5.$$
+Similar construction to get $1$ gallon is possible for any 
+other jug volumes that are mutual primes.
+
+
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=2in]{hw04/water-jugs-path.png}}
+\caption{\label{fig:water-jugs-path} Jugs: Measuring 1 gallon.}
+\end{figure}
+
+
+{\bf (B)} Figure~\ref{fig:water-jugs} shows the complete graph of all 
+states. Some of the edges are unidirectional, and some of them are
+bidirectional (water can be transfered in either direction).
+There are $6$ bidirectional vertical arrows (of length $3$) 
+and $4$ bidirectional 
+horizontal arrows (of length $5$) \textendash{} they move from one side of the
+rectangle to another side. There are $7$ slanted bidirectional arrows. 
+And there are also $12$ points on the sides of the rectangle (except the
+corners). Each one can move to corners on either side of it \textendash{}
+so there are $24$ unidirectional arrows. The total number of arrows is
+$$2 \cdot (10 + 7) + 24 = 58.$$
+
+{\em Answer.} The total number of vertices in this graph is $16$; the total number of
+directed edges is $58$. And just $4$ edges are used to measure $1$ gallon
+in Figure~\ref{fig:water-jugs-path}.
+
+
+
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=2in]{hw04/water-jugs.png}}
+\caption{\label{fig:water-jugs} Jugs: Graph of States.}
+\end{figure}
+
+
+
+
+
+\vspace{10pt}
+{\bf Problem 5}\\
+Since we know that exactly $10000$ people send out 
+five letters each (and no one gets more than one letter), 
+there are altogether $50000$ recipients. 
+
+The number of people who do not send it out equals to the number 
+of leaves in this tree. Moreover, there must be 
+exactly $10000-1 = 9999$ inner nodes that are not the root. 
+They got a letter, and also sent it out themselves. 
+The remaining $50000 - 9999 = 40001$ recipients got the letter, 
+but did not send it out.
+
+{\em Answer.} $50000$ and $40001$.
+
+
+A chain letter starts when a person sends a letter to five others. 
+Each person who receives the letter either sends it to five other people
+who have never received it or does not send it to anyone. Suppose that 
+$10,000$ people send out the letter before the chain ends and that no one receives
+more than one letter. How many people receive the letter, and how many 
+do not send it out?
+
+
+\vspace{6pt}
+{\bf Problem 6}\\
+Figure~\ref{fig:fibonacci-trees} shows the first six Fibonacci trees. 
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=2in]{hw04/fibonacci-trees.png}}
+\caption{\label{fig:fibonacci-trees} Fibonacci trees.}
+\end{figure}
+
+We count the necessary elements in these trees (see table).
+
+\begin{tabular}{|l|l|l|l|l|} \hline
+Tree & Vertices & Leaves & Internal & Height \\ \hline
+$T_1$ & $1$ & $1$ & $0$ & $0$ \\ \hline
+$T_2$ & $1$ & $1$ & $0$ & $0$ \\ \hline
+$T_3$ & $3$ & $2$ & $1$ & $1$ \\ \hline
+$T_4$ & $5$ & $3$ & $2$ & $2$ \\ \hline
+$T_5$ & $9$ & $5$ & $4$ & $3$ \\ \hline
+$T_6$ & $15$ & $8$ & $7$ & $4$ \\ \hline
+\end{tabular}
+
+The easiest pattern is for the height. At every stage it grows by $1$, and for all $n > 2$: 
+\begin{equation}
+H(T_n) = n-2.
+\end{equation}
+The number of leaves in such trees satisfies the same recursive law
+as the Fibonacci numbers: $L(T_{n}) = L(T_{n-1}) + L(T_{n-2})$. 
+Also the first two values $L(T_1)$ and $L(T_2)$ are equal to the respective
+Fibonacci numbers: $F(1) = F(2) = 1$. For this reason: 
+\begin{equation}
+L(T_n) = F(n).
+\end{equation}
+
+In any full binary tree the number of internal nodes is one less
+than the number of leaves.
+(Remember that a binary tree is called {\em full}, if any vertex is either a leaf or 
+it has exactly two children.) We get 
+\begin{equation}
+I(T_n) = F(n) -1.
+\end{equation}
+
+The total number of vertices is the total of leaves and internal nodes. 
+\begin{equation}
+V(T_n) = 2F(n)-1.
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+\vspace{6pt}
+{\bf Problem 7}
+
+As we construct the tree, we use data structure called ``stack''
+(last-in-first-out). 
+At the very beginning push the root on the stack \textendash{} 
+this is the first vertex in the preorder; vertex $a$ with $4$ prospective children.
+Every time there is a new vertex, we perform the following steps: 
+\begin{enumerate}[(1)]
+\item Pop off (i.e. delete from the stack) all those vertices, which
+have all there ``child vacancies'' filled. 
+\item Decrease by $1$ the child counter for the first non-nonzero vertex currently on the stack. 
+\item Push (i.e. append as the last element on the stack) a new vertex with its child counter. 
+BTW, this newly pushed vertex 
+\item When all the child counters drop to $0$ the stack becomes empty and the algorithm stops.
+\end{enumerate}
+
+Every line below represents state of the stack at every given moment.
+
+\begin{verbatim}
+a(4)
+a(3) b(1) 
+a(3) b(0) f(0)
+a(2) c(3)
+a(2) c(2) g(0)
+a(2) c(1) h(0)
+a(2) c(0) i(0)
+a(1) d(0)
+a(0) e(1)
+a(0) e(0) j(2) 
+a(0) e(0) j(1) k(0)
+a(0) e(0) j(0) l(0)
+\end{verbatim}
+
+When we draw the vertices in a rooted ordered graph, it looks like 
+Figure~\ref{fig:tree0}.
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=1.5in]{hw04/tree0.png}}
+\caption{\label{fig:tree0} Two spanning trees.}
+\end{figure}
+
+
+
+{\bf Problem 8}\\
+Altogether there are $5$ ordered rooted trees with exactly $4$ leaves (and $3$ inner nodes). 
+They correspond to the following parenthesized expressions (arithmetic operations are not shown):
+$$((a\circ{}b)c)d\;\;(a(b\circ{}c))d\;\;(a\circ{}b)(c\circ{}d)\;\;a((b\circ{}c)d)\;\;a(b(cd)).$$
+
+The five corresponding syntax trees are shown in Figure~\ref{fig:syntaxtree}. 
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=3in]{hw04/syntaxtree.png}}
+\caption{\label{fig:syntaxtree} Five syntax trees.}
+\end{figure}
+
+All the inner nodes in all these $5$ trees are distinguishable: just one of the inner nodes
+is the root (the last operation in the tree); and for all the other inner nodes we know, 
+in which subtree (or a subtree of a subtree) it is located. 
+Since there are just $4$ arithmetic operations, there are $5 \times 3 \times 4 = 60$: 
+We get in total $60$ different ways how to restore parentheses and arithmetic operations in 
+this example. So, the ``brute force'' is certainly possible for this problem, but it is not easy 
+(and one can easily miss something). 
+
+
+
+
+
+\vspace{10pt}
+{\bf Problem 9}\\
+Consider two spanning trees $T_1$ and $T_2$ on the same graph $G=(V,E)$. 
+This means that both $T_1$ and $T_2$ contain all vertices of $G$, and they 
+are both connected acyclic graphs (their edges are sufficient to create a path from any vertex
+to any other in exactly one way).
+
+Initially, the edges of $T_1$ and $T_2$ may be exactly the same (in this case we are done). 
+Their edges may partially overlap. Or they may be completely disjoint (see the red/continuous 
+and the blue/dashed spanning trees in the graph shown in Figure~\ref{fig:tree1}. 
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=0.6in]{hw04/tree1.png}}
+\caption{\label{fig:tree1} Two spanning trees.}
+\end{figure}
+
+Assume that there is an edge $e=(v_i,v_j)$ in $T_1$ not included in $T_2$ (and there 
+should also be an edge in $T_2$ not included in $T_1$, since both of them have the same
+number of edges: $|V|-1$; one less than the number of vertices). 
+
+If we drop the edge $e$ from $T_1$, then the vertices of $T_1$ falls apart into 
+two disjoint pieces (one of them may consist of one vertex). Namely, 
+$V = V' \cup V''$, where $V'$ and $V''$ are disjoint; and in $T_1$ there are no 
+remaining edges (except $e=(v_i,v_j)$) connecting the sets $V'$ and $V''$. 
+
+Consider the edges from $T_2$. There should be at least one edge going from one 
+disconnected piece $V'$ to another piece $V''$. 
+Take any edge from $T_2$ and add it to the edges of $T_1$ (to replace the recently removed edge $e$). 
+After this step the overlap of edges in $T_1$ and $T_2$ increases by $1$. 
+If we repeat such steps in a similar manner, eventually $T_1$ and $T_2$ will coincide.
+
+\vspace{10pt}
+{\bf Problem 10}\\
+Proof by contradiction. We formulate the negation of what we have to prove. 
+\begin{itemize}
+\item Assume that there is some minimum spanning tree (MST) $T$ built on 
+the edges of graph $G$
+\item Assume that the graph $G$ has edge weights that are pairwise different
+\item Assume thereis a simple circuit (i.e. circuit that does not use any edge twice) in $G$; 
+and that circuit contains an edge $e = (v_i,v_j)$ that has the maximum weight in this circuit. 
+\item Assume that the MST $T$ contains this edge $e$.
+\end{itemize}
+
+We will show that $T$ cannot, in fact be the minimum spanning tree; it is possible to 
+find another spanning tree having even smaller total weight. 
+Indeed, we can cut the edge $e = (v_i,v_j)$. Since $T$ is a tree, it falls apart into 
+two pieces $T_1$ and $T_2$ such that $v_i$ is in $T_1$, $v_j$ is in $T_2$; both trees
+$T_1$ and $T_2$ are not connected. 
+
+Inspect the vertices that belong to the circuit $C$ consisting from the edges of the graph $G$. 
+Color vertices belonging to $T_1$ white, and vertices belonging to $T_2$ black. 
+We just saw that $(v_i,v_j)$ is an edge that goes from a white vertex to a black one. 
+But there should be another edge $e'=(v_m,v_n)$ going back from black to white, since 
+$C$ is a circuit that eventually loops back to the original vertex $v_i$. 
+
+We can now connect pieces $T_1$ and $T_2$ using that new edge $e'$ (if there are many such edges, 
+pick any one). We have created a new spanning tree $T'$ that is obtained by removing edge
+$e=(v_i,v_j)$ and adding back another edge $e'=(v_m,v_n)$.
+We claim that the weight $w(e') < w(e)$ (all edge weights are different; and $w(e)$ is the 
+largest weight in that circuit). Therefore the new spanning tree $T'$ has smaller total weight than $T$. 
+And $T$ cannot be the minimum spanning tree. It is a contradiction.
+
+
 \end{document}
 
 
