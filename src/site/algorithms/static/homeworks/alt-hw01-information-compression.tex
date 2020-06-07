@@ -1,0 +1,138 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[justification=centering]{caption}
+\usepackage{fancyvrb}
+%\usepackage{changepage}
+\usepackage{caption}% http://ctan.org/pkg/caption
+\captionsetup[table]{format=plain,labelformat=simple,labelsep=period}%
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+%\topmargin -24pt
+\topmargin -32pt
+\headheight 12pt
+\headsep 12pt
+%\textheight 9.19in
+\textheight 9.35in
+
+
+\title{Sample Quiz 8}
+\author{Discrete Structures, Spring 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Sample Quiz 8}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\twocolumn
+\thispagestyle{empty}
+
+\begin{center}
+{\Large Alternative Homework 1:}\\
+{\Large Information Compression}
+\end{center}
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-441-information-theory-spring-2016/assignments/
+
+\begin{changemargin}{10pt}{10pt}
+{\footnotesize
+{\em Note.} This is a parody of MIT OCW content.\\
+See \url{https://ocw.mit.edu/terms/}. 
+The original assignments and related materials can be retrieved from 
+TBD and TBD\\
+}
+\end{changemargin}
+
+
+{\bf Question 1.} 
+Run-length encoding is a popular variable-length lossless compressor used in fax machines, image
+compression, etc. Consider compression of $S^n$ \textendash{} an i.i.d. $\text{Bern}(\delta)$ source with very small
+$\delta = \frac{1}{128}$ using run-length encoding: A chunk of consecutive $r \leq 255$ zeros (resp. ones) 
+is encoded into a zero (resp. one) followed by an 8-bit binary encoding of $r$ (If there are
+$> 255$ consecutive zeros then two or more 9-bit blocks will be output). Compute the average
+achieved compression rate
+$$\lim_{n \rightarrow \infty} \frac{1}{n} E(\ell(f(S^n)).$$
+How does it compare with the optimal lossless compressor?
+{\em Hint:} 
+Compute the expected number of 9-bit blocks output per chunk of consecutive zeros/ones; normalize by the expected length of the chunk.
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-050j-information-and-entropy-spring-2008/
+%% Entropy related theory.
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-441-information-theory-spring-2016/lecture-notes/
+%% Lossy compression
+
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/c1/
+%% Some very easy exercises on coding.
+
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/lecture-slides/
+%% LZW encoding and similar
+
+
+
+
+
+
+%% String encoding
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/index.htm
+% https://dspace.mit.edu/bitstream/handle/1721.1/36897/6-854JFall-1999/OcwWeb/Electrical-Engineering-and-Computer-Science/6-854JAdvanced-AlgorithmsFall1999/LectureNotes/index.htm
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-9-table-doubling-karp-rabin/
+%% Karp-Rabin string search and rolling hash.
+
+%% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/lecture-videos/session-16-strings/
+%% Document retrieval. 
+
+
+
+
+\end{document}
+
