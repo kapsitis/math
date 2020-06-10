@@ -26,6 +26,7 @@ bin/
 target/
 src/target
 src/math-build/null
+src/site/data-structures/source-material/
 src/site/visualizations/source-material/
 src/site/algorithms/source-material/
 src/site/numtheory/source-material/

@@ -1,0 +1,151 @@
+\documentclass[jou]{apa6}
+
+\usepackage[american]{babel}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[justification=centering]{caption}
+\usepackage{fancyvrb}
+%\usepackage{changepage}
+\usepackage{caption}% http://ctan.org/pkg/caption
+\captionsetup[table]{format=plain,labelformat=simple,labelsep=period}%
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+%\topmargin -24pt
+\topmargin -32pt
+\headheight 12pt
+\headsep 12pt
+%\textheight 9.19in
+\textheight 9.35in
+
+
+\title{Sample Quiz 8}
+\author{Discrete Structures, Spring 2020}
+\affiliation{RBS}
+
+\leftheader{Discrete Sample Quiz 8}
+
+\abstract{%
+}
+
+%\keywords{}
+
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\twocolumn
+\thispagestyle{empty}
+
+\begin{center}
+{\Large Alternative Homework 4:}\\
+{\Large String Search}
+\end{center}
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-441-information-theory-spring-2016/assignments/
+
+\begin{changemargin}{10pt}{10pt}
+{\footnotesize
+{\em Note.} This is a parody of MIT OCW content.\\
+See \url{https://ocw.mit.edu/terms/}. 
+The original assignments and related materials can be retrieved from 
+TBD and TBD\\
+}
+\end{changemargin}
+
+
+
+%https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/assignments/MIT6_046JS15_pset2.pdf
+
+{\bf Question 1.}
+Suppose you are given a source string $T[0..n-1]$ of length $n$, consisting of symbols $a$ and $b$.
+Suppose further that you are given a pattern string $P[0..m-1]$ of length $m<<n$, consisting of
+symbols $a$, $b$, and $\ast$, representing a pattern to be found in string $S$. The symbol $\ast$ is a ``wild card''
+symbol, which matches a single symbol, either $a$ or $b$. The other symbols must match exactly.
+The problem is to output a sorted list $M$ of valid ``match positions'', which are positions $j$ in $S$
+such that pattern $P$ matches the substring $S[j..j+|P|-1]$. For example, if $S =\mathtt{ababbab}$ and
+$P=\mathtt{ab\ast}$, then the output $M$ should be $[0,2]$.
+
+{\bf (A)} KMP equivalent. 
+{\bf (B)} Prefix function for pattern STH.
+{\bf (C)} Compare with the polynomial algorithm. 
+
+
+
+
+See \url{https://bit.ly/2XKX5AB}. 
+
+
+
+
+
+
+
+%% String encoding
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/index.htm
+%% Problemset 9 - a nice, but complicated exercise on suffix tries.
+
+%% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/lecture-videos/session-16-strings/
+%% Document retrieval. 
+
+
+
+
+
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-9-table-doubling-karp-rabin/
+%% Karp-Rabin string search and rolling hash.
+
+%% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/lecture-videos/session-16-strings/
+%% Document retrieval. 
+
+
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm
+% MIT Mathematics for Computer Science course
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm
+% MIT 6.006: Introduction to Algorithms course
+
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/
+% MIT Design and Analysis of Algorithms
+
+
+\end{document}
+

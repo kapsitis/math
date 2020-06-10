@@ -74,8 +74,8 @@
 \thispagestyle{empty}
 
 \begin{center}
-{\Large Alternative Homework 1:}\\
-{\Large Information Compression}
+{\Large Alternative Homework 3:}\\
+{\Large Linear Optimization}
 \end{center}
 
 % https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-441-information-theory-spring-2016/assignments/
@@ -90,47 +90,15 @@ TBD and TBD\\
 \end{changemargin}
 
 
-{\bf Question 1.} 
-Run-length encoding is a popular variable-length lossless compressor used in fax machines, image
-compression, etc. 
-In this problem consider compression of $S^n$ \textendash{} an i.i.d. (independent, identically distributed) sequences 
-of $n$ bits. 
-\textendash{} 
-$\text{Bern}(\delta)$ source with very small
-$\delta = \frac{1}{128}$ using run-length encoding: A chunk of consecutive $r \leq 255$ zeros (resp. ones) 
-is encoded into a zero (resp. one) followed by an 8-bit binary encoding of $r$ (If there are
-$> 255$ consecutive zeros then two or more 9-bit blocks will be output). Compute the average
-achieved compression rate
-$$\lim_{n \rightarrow \infty} \frac{1}{n} E(\ell(f(S^n)).$$
-How does it compare with the optimal lossless compressor?
-{\em Hint:} 
-Compute the expected number of 9-bit blocks output per chunk of consecutive zeros/ones; normalize by the expected length of the chunk.
 
-See \url{https://bit.ly/2Y6mUKa}. 
-
-
-%https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-441-information-theory-spring-2016/assignments/MIT6_441S16_problem_set3.pdf
+% https://dspace.mit.edu/bitstream/handle/1721.1/36897/6-854JFall-1999/OcwWeb/Electrical-Engineering-and-Computer-Science/6-854JAdvanced-AlgorithmsFall1999/LectureNotes/index.htm
+%% https://dspace.mit.edu/bitstream/handle/1721.1/36897/6-854JFall-1999/NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-854JAdvanced-AlgorithmsFall1999/8F211420-7108-4779-8774-629FC5C263BD/0/ps8.pdf
+%% Some hard LP problems.
 
 
 
-% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-050j-information-and-entropy-spring-2008/
-%% Entropy related theory.
-
-% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-441-information-theory-spring-2016/lecture-notes/
-%% Lossy compression
-
-
-% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/c1/
-%% Some very easy exercises on coding.
-
-
-% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/lecture-slides/
-%% LZW encoding and similar
-
-
-
-
-
+% https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-9-table-doubling-karp-rabin/
+%% Karp-Rabin string search and rolling hash.
 
 
 
