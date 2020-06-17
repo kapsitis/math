@@ -140,6 +140,7 @@ def main():
     build_static('src/site/discrete/static', '%s/discrete-bin' % DEST_ROOT)
     build_static('src/site/discrete/static/homeworks', '%s/discrete-bin/homeworks' % DEST_ROOT)
     build_static('src/site/discrete/questionbase', '%s/discrete-bin/questionbase' % DEST_ROOT)
+    build_static('src/site/data-structures/static', '%s/data-structures-bin/' % DEST_ROOT)
     build_coq('src/site/discrete/coq-competitions', '%s/discrete-bin/coq-competitions' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-inductive', '%s/discrete-bin/coq-inductive' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-numbertheory', '%s/discrete-bin/coq-numbertheory' % DEST_ABSOLUTE)
