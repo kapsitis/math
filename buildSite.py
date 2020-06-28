@@ -75,9 +75,12 @@ def build_static(SRC,DEST):
                 ffpdfmod = os.path.getmtime('%s/%s' % (SRC,ffpdf))
             else: 
                 ffpdfmod = -1
-            if fftexmod > ffpdfmod or ff.endswith('discrete-math-all-exam-papers.tex'):
+            if fftexmod > ffpdfmod:
                 print('Processing TEX %s' % ff)
                 subprocess.call(['xelatex',ff], cwd=SRC)
+            #elif ff.endswith('discrete-math-all-exam-papers.tex'):
+            #    print('Processing TEX %s' % ff)
+            #    subprocess.call(['xelatex',ff], cwd=SRC)
             else:
                 print('Skipping TEX %s' % ff)
     for filename in glob.glob(os.path.join(SRC, '*.pdf')):
@@ -100,8 +103,8 @@ def main():
     ## TODO: This sync_all.main was disabled; no idea what was wrong
     ########################
     # sync_all.main()
-#    resTypes = ['problembase', 'numtheory', 'algorithms', 'visualizations','rbs', 'discrete'] 
-    resTypes = ['discrete'] 
+#    resTypes = ['problembase', 'numtheory', 'visualizations','rbs', 'discrete'] 
+    resTypes = ['algorithms', 'discrete'] 
 # ..., 'datasearch']
     skip_directories = ['source-material','static','questionbase','analysis', 'coq-inductive', 'coq-numbertheory', 'coq-predicates', 'coq-propositional', 'coq-sets']
 
@@ -114,18 +117,23 @@ def main():
         DEST_ABSOLUTE = '/home/kalvis/workspace-new/linen-tracer-682'
 
     for resType in resTypes:
+        print('########## Removing dir {}/{}-tales'.format(DEST_ROOT,resType))
         rmDirectory('%s/%s-tales' % (DEST_ROOT,resType))
         SRC_ROOT = 'src/site/%s' % resType
         subDirectories = set(next(os.walk(SRC_ROOT))[1]).difference(set(skip_directories))
         for dd in subDirectories:
-            print('Processing with pandoc/reveal, dir=%s' % dd)
-            workingDir = '%s/%s' % (SRC_ROOT,dd)
-       	    subprocess.call(['pandoc','-t','revealjs','-s',
-		'-o','content.html','content.md','--slide-level=2',
-		'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="Uzdevumi"',
-    		'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
-		'-V','theme=white'], cwd=workingDir)
+            print('##### Copying {}/{} to {}/{}-tales/{}'.format(SRC_ROOT,dd,DEST_ROOT,resType,dd))
             copyDirectory('%s/%s' % (SRC_ROOT,dd), '%s/%s-tales/%s' % (DEST_ROOT,resType,dd))
+        
+#        for dd in subDirectories:
+#            print('Processing with pandoc/reveal, dir=%s' % dd)
+#            workingDir = '%s/%s' % (SRC_ROOT,dd)
+#       	    subprocess.call(['pandoc','-t','revealjs','-s',
+#		'-o','content.html','content.md','--slide-level=2',
+#		'-V','revealjs-url=../../reveal.js','--metadata', 'pagetitle="Uzdevumi"',
+#    		'--mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML',
+#		'-V','theme=white'], cwd=workingDir)
+#           copyDirectory('%s/%s' % (SRC_ROOT,dd), '%s/%s-tales/%s' % (DEST_ROOT,resType,dd))
 
 #    compileTale('src/emils', 'numtheory-recurrence-relation', '%s/numtheory-tales' % DEST_ROOT, 'Periodiskas virknes')
 
