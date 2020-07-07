@@ -4,11 +4,25 @@ import json
 import copy
 import re
 
+from pandas_ods_reader import read_ods
+
+def convert_file():
+    ROOT = 'c:/Users/kalvis.apsitis/workspace/math/src/site'    
+    path = '{}/data-structures/website-data/data-structures-topics.ods'.format(ROOT)
+    
+    # https://pypi.org/project/pandas-ods-reader/
+
+    sheet_idx = 1
+    df = read_ods(path, sheet_idx, columns=['Week', 'Class', 'Key', 'Value'])
+    
+    df.to_csv('{}/data-structures/website-data/data-structures-topics.csv'.format(ROOT), 
+               index = False, header=True)
+
 def get_csv_local():
     ROOT = 'c:/Users/kalvis.apsitis/workspace/math/src/site'
     csv_lines = list()
     path = '{}/data-structures/website-data/data-structures-topics.csv'.format(ROOT)
-    with open(path) as csv_in:
+    with open(path, mode='r', encoding='utf-8') as csv_in:
         for csv_line in csv_in:
             csv_lines.append(csv_line)
         #csv_lines = csv_in.splitlines()
@@ -36,15 +50,17 @@ def make_lst(tasks):
     
     week_list = []
     
+    # Every week contains list of topics.
     empty_week = {
         'title': 'NA',
         'itemNum': 'NA',
         'links':[]
     }
     
+    # One topic
     empty_topic = {
         'title': 'NA',
-        'subsection': 'NA',
+        'id': 'NA',
         'reading': 'NA',
         'video': [],
         'task': []
@@ -56,6 +72,7 @@ def make_lst(tasks):
     
     for row in tasks:
         row_count += 1
+        # The first row contains headers
         if row_count == 1:
             continue
         curr_week = row[0].strip()
@@ -71,27 +88,29 @@ def make_lst(tasks):
             prev_week_id = curr_week
             prev_topic_id = '0'
 
-        curr_topic_id = row[1]
-        if curr_topic_id != prev_topic_id:
+        #curr_topic_id = row[1]
+        if row[2] == 'id':
             week_list[len(week_list)-1]['links'].append(copy.deepcopy(empty_topic))
-            prev_topic_id = curr_topic_id
         curr_key = row[2]
         curr_value = row[3]
+        
+        # Replace stuff for MathJAX
         if curr_key == 'title' or curr_key == 'task':
-            curr_value = re.sub(r'\$(.*)\$', r'<span class="math inline">\\( \1 \\)</span>', curr_value)
-            #print('transformed to {}'.format(curr_value))
-        if curr_key in ['subsection', 'title', 'reading','video','task']:
+            curr_value = re.sub(r'\$(.*)\$', r'<span class="math inline">\\( \1 \\)</span>', curr_value)            
+        if curr_key in ['id', 'title', 'reading','video','task']:
             topWeek = week_list[len(week_list)-1]
+            #print('len.topweek, rowcount = {},{}'.format(len(topWeek['links']), row_count))
             topTopic = topWeek['links'][len(topWeek['links']) - 1]
-            if curr_key in ['subsection', 'title', 'reading']:
+            if curr_key in ['id', 'title', 'reading']:
                 topTopic[curr_key] = curr_value
-            else:  
+            else:
                 topTopic[curr_key].append(curr_value)
             
     return week_list
 
 
 def main():
+    convert_file()    
     ROOT = 'c:/Users/kalvis.apsitis/workspace/linen-tracer-682'
     the_table = get_csv_local()    
     week_list = make_lst(the_table)
