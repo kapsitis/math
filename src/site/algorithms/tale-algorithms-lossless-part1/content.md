@@ -58,10 +58,9 @@ Kāpēc vajag vairāk par vienu saspiešanas algoritmu?
 
 <div class="smallWhy">
 
-* Kāpēc saspiešana būtiski atkarīga no ievades datiem
-un lietojuma mērķa?
-* Kāpēc noteikta veida dati 
-saspiešanas rezultātā samazinās simtiem reižu?
+* Kā saspiešana kļūst atkarīga no ievades datiem
+un lietojuma arhitektūras?
+* Kurus datus var/nevar efektīvi saspiest?
 
 </div>
 
@@ -71,12 +70,12 @@ saspiešanas rezultātā samazinās simtiem reižu?
 
 ## <lo-theory/> Sasniedzamie rezultāti
 
-1. Definēt ziņojumu kopu. 
+1. Definēt ziņojumu alfabētu, 
 2. Raksturot kodējumus, saspiešanu un atspiešanu.
 3. Saskaitīt ziņojumus noteiktā alfabētā.
 4. Aprakstīt kodēšanu, saspiešanu un atspiešanu prefiksu kokā.
 5. Lietot Hafmana algoritmu prefiksu koka veidošanai.
-6. Definēt un aprēķināt entropiju varbūtiskai sistēmai.
+6. Definēt un aprēķināt entropiju diskrētam gadījuma lielumam.
 
 
 -----

@@ -11,7 +11,7 @@ sys.path.insert(0, 'src/math_py')
 # https://stackoverflow.com/questions/38012431/how-to-execute-cmd-exe-with-arguments-in-python
 #sys.path.append(os.path.join(sys.path[0],'src','math_py'))
 from json_data import sync_all
-
+from json_data import make_tasklist_json
 
 def copyDirectory(src, dest):
     try:
@@ -104,8 +104,9 @@ def main():
     ########################
     # sync_all.main()
 #    resTypes = ['problembase', 'numtheory', 'visualizations','rbs', 'discrete'] 
-    resTypes = ['algorithms', 'discrete'] 
-# ..., 'datasearch']
+    make_tasklist_json.main()
+
+    resTypes = ['algorithms','rbs'] 
     skip_directories = ['source-material','static','questionbase','analysis', 'coq-inductive', 'coq-numbertheory', 'coq-predicates', 'coq-propositional', 'coq-sets']
 
 
@@ -119,12 +120,12 @@ def main():
     for resType in resTypes:
         print('########## Removing dir {}/{}-tales'.format(DEST_ROOT,resType))
         rmDirectory('%s/%s-tales' % (DEST_ROOT,resType))
-        SRC_ROOT = 'src/site/%s' % resType
+        SRC_ROOT = 'src/site/%s/slides' % resType
         subDirectories = set(next(os.walk(SRC_ROOT))[1]).difference(set(skip_directories))
         for dd in subDirectories:
             print('##### Copying {}/{} to {}/{}-tales/{}'.format(SRC_ROOT,dd,DEST_ROOT,resType,dd))
             copyDirectory('%s/%s' % (SRC_ROOT,dd), '%s/%s-tales/%s' % (DEST_ROOT,resType,dd))
-        
+            
 #        for dd in subDirectories:
 #            print('Processing with pandoc/reveal, dir=%s' % dd)
 #            workingDir = '%s/%s' % (SRC_ROOT,dd)
