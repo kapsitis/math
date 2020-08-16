@@ -10,16 +10,26 @@ from datetime import date
 from datetime import timedelta
 
 
-SUBDIR = 'algorithms'
-SUBFILE = 'algorithms-topics'
-JSON_FILE = 'algorithms_topics.json'
-MODULES_FILE = 'algorithms_modules.json'
+#SUBDIR = 'algorithms'
+#SUBFILE = 'algorithms-topics'
+#JSON_FILE = 'algorithms_topics.json'
+#MODULES_FILE = 'algorithms_modules.json'
+#FIRST_YEAR = 2020
+#FIRST_MONTH = 9
+#FIRST_DATE = 1
+
+SUBDIR = 'data-structures'
+SUBFILE = 'data-structures-topics'
+JSON_FILE = 'data_structures_topics.json'
+MODULES_FILE = 'data_structures_modules.json'
 FIRST_YEAR = 2020
-FIRST_MONTH = 9
-FIRST_DATE = 1
+FIRST_MONTH = 8
+FIRST_DATE = 31
+
+
 
 def convert_file():
-    ROOT = 'c:/Users/kalvis.apsitis/workspace/math/src/site'    
+    ROOT = 'c:/Users/kalvis.apsitis/workspace/math/src/site'
     #path = '{}/data-structures/website-data/data-structures-topics.ods'.format(ROOT)
     path = '{}/{}/website-data/{}.ods'.format(ROOT,SUBDIR,SUBFILE)
     
@@ -61,7 +71,10 @@ def get_modules_weeks():
     path = '{}/{}/website-data/modules-weeks.csv'.format(ROOT,SUBDIR)
     with open(path,mode="r", encoding="utf-8") as csv_in:
         for csv_line in csv_in:
-            csv_lines.append(csv_line)
+            if csv_line.strip() == '':
+                print('Skipping emptyline in modules-weeks.csv')
+            else:
+                csv_lines.append(csv_line)
     result = csv.reader(csv_lines)
     return result
 
@@ -76,10 +89,13 @@ def make_lst(tasks):
 
     module_week_csv = get_modules_weeks()
     module_week_dict = dict()
+    #linecount = 1
     for mod_week in module_week_csv:
+        #print('Processing mod_week line {}'.format(linecount))
+        #linecount += 1
         curr_key = mod_week[0].strip()
         curr_val = mod_week[1].strip()
-        module_week_dict[curr_key] = curr_val    
+        module_week_dict[curr_key] = curr_val
     
     # Every week contains list of topics.
     empty_week = {
@@ -234,6 +250,7 @@ def main():
         
         thedelta = timedelta(days=7*week_count)
         new_date = first_date + thedelta
+        end_date = new_date + timedelta(days=4)
         
         item = {
             'subid':module[0].strip(),
@@ -241,7 +258,9 @@ def main():
             'part':module[2].strip(),
             'title':module[3].strip(),
             'subdir':module[4].strip(),
-            'date':new_date.strftime("%Y-%m-%d")            
+            'show':module[5].strip(),
+            'date':new_date.strftime("%Y-%m-%d"),
+            'endDate':end_date.strftime("%Y-%m-%d")
         }
         module_week.append(item)
         prev_week = curr_week

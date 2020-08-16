@@ -62,6 +62,16 @@ def build_coq(srcDir,destDir):
         shutil.copy(filename, destDir)
 
 
+def build_slides(SRC,DEST):
+    rmDirectory(DEST)
+    os.mkdir(DEST)
+    pptx_files = os.listdir(SRC)
+    for ff in pptx_files:
+        if ff.endswith('.pptx'):
+            shutil.copy('{}/{}'.format(SRC,ff), DEST)
+
+
+
 def build_static(SRC,DEST):
     rmDirectory(DEST)
     os.mkdir(DEST)
@@ -139,7 +149,11 @@ def main():
 #    compileTale('src/emils', 'numtheory-recurrence-relation', '%s/numtheory-tales' % DEST_ROOT, 'Periodiskas virknes')
 
     rmDirectory('%s/reveal.js' % DEST_ROOT)
+    rmDirectory('%s/reveal.js.40' % DEST_ROOT)
+    
     copyDirectory('src/site/reveal.js', '%s/reveal.js' % DEST_ROOT)
+    copyDirectory('src/site/reveal.js.40', '%s/reveal.js.40' % DEST_ROOT)    
+    build_slides('src/site/data-structures/slides', '%s/data-structures-tales' % DEST_ROOT)
 
 #    build_static('src/site/visualizations/static', '%s/visualizations-bin' % DEST_ROOT)
 #    build_static('src/site/numtheory/static', '%s/numtheory-bin' % DEST_ROOT)

@@ -9,10 +9,11 @@ Olympiad Problems</a>#. *)
 6^(2n) + 19^n - 2^(n+1) is divisible by 17.
 *)
 
-
-
 (**
-MODULAR ARITHMETIC... 
+This example shows a traditional problem on modular arithmetic: 
+it is about the divisibility. 
+We use integer arithmetic that has lots of 'helper' lemmas already available, 
+so the proof is rather short.
 *)
 
 
@@ -27,7 +28,7 @@ Require Import Arith Psatz.
 Require Import Zpow_facts.
 
 
-
+(** Show that 19^n is congruent to 2^n modulo 17. *)
 Lemma helper1: forall n:Z, 19^n mod 17 = 2^n mod 17. 
 Proof.
   intros n. 
@@ -42,7 +43,7 @@ Proof.
 Qed.
 
 
-
+(** Show that 2^(n+1) is twice as large as 2^n for all non-negative n. *)
 Lemma helper2: forall n:Z, 0 <= n -> 2^(n+1) = 2 * 2^n.
 Proof.
   intros n. 
@@ -56,7 +57,7 @@ Proof.
 Qed.
 
 
-
+(** Show that 6^(2n) = 36^n is congruent to 2^n modulo 17. *)
 Lemma helper3: forall n:Z, 6^(2*n) mod 17 = 2^n mod 17. 
 Proof. 
   intros n. 
@@ -75,18 +76,10 @@ Proof.
 Qed.
 
 
-
-Lemma helper4: forall a:Z, a - a = 0.
-Proof.
-  intros a. 
-  lia.
-Qed.
-
-
-
-
+(** Define the sequence used in this problem *)
 Definition SeqC (n: Z):Z := 6^(2*n) + 19^n - 2^(n+1).
 
+(** Prove the statement of the problem itself. *)
 Theorem lv_no_2020_11_1: forall n: Z, 0 <= n -> (SeqC n) mod 17 = 0.
 Proof.
   intros n. 
@@ -113,7 +106,9 @@ Proof.
   rewrite H10.
   pose (Zplus_mod (2^n) (2^n) 17) as H11.
   rewrite H11.
-  pose (helper4 ((2 ^ n mod 17 + 2 ^ n mod 17) mod 17)) as H12.
+  assert (((2 ^ n mod 17 + 2 ^ n mod 17) mod 17) - 
+      ((2 ^ n mod 17 + 2 ^ n mod 17) mod 17) = 0) as H12.
+  ring.
   rewrite H12.
   reflexivity.
 Qed.
