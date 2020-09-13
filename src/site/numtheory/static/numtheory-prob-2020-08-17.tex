@@ -1,0 +1,160 @@
+\documentclass[a4paper]{article}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{lipsum}
+\usepackage{amsthm}
+\usepackage{thmtools}
+\usepackage{xcolor}
+
+
+
+%\documentclass[jou]{apa6}
+%\usepackage[american]{babel}
+
+%\usepackage{csquotes}
+%\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+%\DeclareLanguageMapping{american}{american-apa}
+%\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Discrete Structures
+%% The start of RBS stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Working internal and external links in PDF
+\usepackage{hyperref}
+% Extra math symbols in LaTeX
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+% Enumerations with (a), (b), etc.
+\usepackage{enumerate}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{xcolor}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
+\makeatother
+
+% These sizes redefine APA for A4 paper size
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -24pt
+\headheight 12pt
+\headsep 12pt
+\textheight 9.19in
+
+
+
+%\title{Sample Quiz 8}
+%\author{Discrete Structures, Spring 2020}
+%\affiliation{RBS}
+
+%\leftheader{Discrete Sample Quiz 8}
+
+%\abstract{%
+%}
+
+%\keywords{}
+
+\setlength\parindent{0pt}
+
+\begin{document}
+
+%\thispagestyle{empty}
+
+\twocolumn
+
+{\Large \bf NMS izlase, 2020-08-17}
+
+\vspace{4pt}
+{\bf 1.uzdevums.}\\
+Pierādīt, ka jebkuram naturālam $n$, eksistē $n+1$ 
+savstarpēji pirmskaitļi $k_0,k_1,\ldots,k_n$, kas visi lielāki par $1$, kuriem 
+$k_0 \cdot k_1 \cdot \ldots \cdot k_n - 1$
+ir divu pēc kārtas sekojošu naturālu skaitļu reizinājums.
+
+
+
+\vspace{4pt}
+{\bf 2.uzdevums.}\\
+Definējam polinomu $\textcolor{red}{P(n)=n^2+n+1}$. 
+Aplūkojam $m$ pēc kārtas ņemtas šī polinoma vērtības:
+$$S = \{P(n),P(n + 1),P(n + 2),\ldots,P(n+(m-1))\}.$$ 
+Kādai mazākajai $m$ vērtībai var atrast tādu $n$, ka 
+ikvienam skaitlim $a \in S$ atrodas $b \in S$, ka $a \neq b$ 
+un $a,b$ nav savstarpēji pirmskaitļi. 
+
+
+
+\vspace{10pt}
+{\bf 3.uzdevums.}\\
+Veselu skaitļu kopu $S$ sauksim par {\em saknisku}, ja
+kat\-ram naturālam skaitlim $n$ un koeficientiem 
+$$a_0,a_1,\ldots,a_n \in S,$$ 
+polinoma $a_0 + a_1 + \ldots + a_n x^n$
+visas tās saknes, kas ir veseli skaitļi, arī pieder $S$. 
+Atrast visas sakniskās veselu skaitļu kopas, kas satur visus skaitļus
+formā $2^a - 2^b$ ($a$ un $b$ ir jebkuras naturālas vērtības).
+
+
+\vspace{10pt}
+{\bf 4.uzdevums.}\\
+Apzīmējam virkni: 
+$$x_n = \prod\limits_{j=1}^{n} \left(2^j - 1 \right).$$
+{\bf (A)} Atrast $\nu_5 \left( x_{100} \right)$ \textendash{} lielāko 
+kāpinātāju $m$, kuram $x_{100}$ dalās ar $5^m$.\\
+{\bf (B)} Atrast $\nu_5 (100!)$.\\
+{\bf (C)} Atrast $\nu_7 (x_{100})$.\\
+{\bf (D)} Atrast $\nu_7 (100!)$.\\
+{\bf (E)} Atrast visus naturālo skaitļu $(k,n)$ pārus, kuriem izpildās
+$$k! = (2^n - 1)(2^n - 2)...(2^n - 2^{n-1}).$$
+
+
+\vspace{10pt}
+{\bf 5.uzdevums.}\\
+Ar $n$ apzīmējam naturālu skaitli. 
+Katrā tabulas $n \times n$ šūnā ierakstīts pa veselam skaitlim. 
+Pieņemsim, ka izpildās divi nosacījumi:
+\begin{itemize}
+\item 
+Katrs skaitlis tabulā ir kongruents ar $1$ pēc $n$ moduļa. 
+\item 
+Skaitļu summa katrā rindiņā un arī katrā kolon\-nā ir kongruenta $n$ pēc
+$n^2$ moduļa. 
+\end{itemize}
+Ar $R_i$ apzīmējam $i$-tās rindas skaitļu reizinājumu, un 
+$C_j$ apzīmē $j$-tās kolonnas skaitļu reizinājumu. 
+Pierādīt, ka summas $R_1 + \ldots + R_n$ un 
+$C_1 + \ldots + C_n$ ir kongruentas pēc moduļa $n^4$.
+
+
+
+
+\vspace{10pt}
+{\bf 6.uzdevums.}\\
+Ar $a_1 < a_2 < ... < a_n$ apzīmējam naturālus skaitļus, kuri ir savstarpēji pirmskaitļi. 
+Zināms, ka $a_1$ ir pirmskaitlis un $a_1 \geq n+2$. 
+Reālu skaitļu intervālā $I = \left[0;\,a_1\cdot{}a_2\cdot\ldots\cdot a_n\right]$ 
+atzīmējam visus veselos skaitļus, kuri dalās vismaz ar vienu no skaitļiem 
+$a_1,\ldots,a_n$. Šie punkti sadala $I$ vairākos mazākos nogriežņos. 
+Pierādīt, ka visu šo nogriežņu garumu kvadrātu summa dalās ar $a_1$. 
+
+
+
+\end{document}
+

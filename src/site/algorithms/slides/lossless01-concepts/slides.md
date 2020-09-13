@@ -23,7 +23,14 @@
 Note:
 [Run length encodings](https://commons.wikimedia.org/wiki/File:Run-lengthEncoding1.png)
 
+<!--
 
+TODO 2020: 
+* Add definition of average code length - a little expression
+* Remind of the independent variables; finish example with information content in two dice-rolls. 
+* 
+
+-->
 
 
 

@@ -16,7 +16,7 @@ from datetime import timedelta
 #MODULES_FILE = 'algorithms_modules.json'
 #FIRST_YEAR = 2020
 #FIRST_MONTH = 9
-#FIRST_DATE = 1
+#FIRST_DATE = 7
 
 SUBDIR = 'data-structures'
 SUBFILE = 'data-structures-topics'

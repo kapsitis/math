@@ -17,6 +17,11 @@
 
 </hgroup>
 
+<!--
+http://eem.eskisehir.edu.tr/ongerek/EEM562/icerik/decodable.pdf
+-->
+
+
 
 -----
 
@@ -215,64 +220,123 @@ $1/16$ no kodu telpas.
 
 ## <lo-summary/> Pierādījums ar nevienādību ķēdīti
 
-<!--
-Katram ziņojumam $x \in S$ ar $\ell(s)$ apzīmējam $s$ kodavārda garumu 
-(atbilstoši kodējumam $C$). 
--->
-
+<div style="font-size:90%">
 $$H(S) − \ell_a(C) = \sum\limits_{s \in S} p(s)  \log_2 \frac{1}{p(s)} - 
 \sum\limits_{s \in S} p(s)\ell(s) =$$
 $$= \sum\limits_{s \in S} p(s) \left( \log_2 \frac{1}{p(s)} - \log_2 2^{\ell(s)} \right) = $$
-$$=\sum\limits_{s \in S} p(s) \log_2 \frac{ 2^{-\ell(s)}}{p(s)} \leq $$
-$$ \leq \log_2 \sum_{s \in S} 2^{-\ell(s)} \leq 0.$$
+$$=\sum\limits_{s \in S} p(s) \log_2 \frac{ 2^{-\ell(s)}}{p(s)} \leq 
+\log_2 \sum_{s \in S} 2^{-\ell(s)} \leq 0.$$
+
+$\blacksquare$
+</div>
+
+--
+
+## <lo-yellow/> Pēdējais pārveidojums ķēdītē
+
+Atgādinām $\ell$ definīciju:
+Katram ziņojumam $s_i \in S$ ar $\ell(s_i)$ apzīmējam $s_i$ kodavārda $w_i$ garumu 
+kodējumā $C$, t.i. $(s_i,w_i) \in C$. 
+
+Kādēļ ir spēkā nevienādība?
+$$\sum\limits_{s \in S} p(s) \log_2 \frac{ 2^{-\ell(s)}}{p(s)} \leq 
+\log_2 \sum_{s \in S} 2^{-\ell(s)}$$
 
 --
 
 ## <lo-yellow/> Jensena nevienādība
 
-Kādēļ ir spēkā nevienādība?
-$$=\sum\limits_{s \in S} p(s) \log_2 \frac{ 2^{-\ell(s)}}{p(s)} \leq 
-\log_2 \sum_{s \in S} 2^{-\ell(s)}$$
-
-**Jensena nevienādība:** Dota $f(x) divreiz nepārtraukti diferencējama
-funkcija intervālā $[a;b]$ un šajā intervālā $f''(x) \leq 0$, t.i. 
+**Jensena nevienādība:** Dota `$f(x)$` divreiz nepārtraukti diferencējama
+funkcija intervālā `$[a;b]$` un šajā intervālā `$f''(x) \leq 0$`, t.i. 
 $f(x)$ grafiks ir izliekts uz augšu. 
-Doti arī $n$ skaitļi $x_1,x_2,\ldots,x_n \in [a;b]$ un 
-svari $p_1,p_2,\ldots,p_n$, kuru summa ir $1$. Tad ir spēkā nevienādība:
+Doti arī $n$ skaitļi `$x_1,x_2,\ldots,x_n \in [a;b]$` un 
+svari `$p_1,p_2,\ldots,p_n$`, kuru summa ir $1$. Tad ir spēkā nevienādība:
 
-$$p_1f(x_1) + p_2f(x_2) + \ldots + p_nf(x_n) \leq f \left( p_1x_1 + \ldots p_nx_n \right).$$
-
+`$$p_1f(x_1) + p_2f(x_2) + \ldots + p_nf(x_n) \leq f \left( p_1x_1 + \ldots p_nx_n \right).$$`
 
 
 
 
 ------
 
-# <lo-theory/> T2: Optimāla kodējuma garums
+# <lo-theory/> Krafta-Makmilana nevienādība
+
+**Teorēma 2:** (*Kraft-McMillan Inequality*)  
+Ja ir <emblue>viennozīmīgi atkodējams kods</emblue> 
+(*Uniquely decodable code*) $C = \{ (x_1,w_1),\ldots,(x_n,w_n)\}$, tad
+`$$\sum\limits_{(x_i,w_i) \in C} 2^{-\ell(w_i)} \leq 1.$$`
+
+Un otrādi: Ja ir doti vairāki kodējumu garumi $l_i$, kas
+apmierina `$\sum 2^{-l_i} \leq 1$`, tad no tiem var uzbūvēt
+prefiksu koku, kur katram garumam $l_i$ atbilst lapa šajā kokā, kuras
+dziļums ir tieši $l_i$. 
+
+--
+
+## <lo-theory/> Kā pamatot Krafta-Makmilana teorēmu?
+
+**Pierādījums:**  
+Vispārīgiem "uniquely decodable codes" pierādīt piņķerīgi.
+
+<emblue>Prefiksu kodiem</emblue> (*prefix-free codes*) ievērojam, ka ikviens
+$k_i$-bitu kods aizpilda prefiksu kokā (sauktā arī par "kodu telpu") 
+tieši `$\frac{1}{2^{k_i}}$` daļu no tilpuma. 
+
+Dažādu kodu veidotie "tilpumi" nevar daļēji šķelties. Un tā kā 
+neviens nav prefikss otram, neviens nevar būt pilnīgi otra iekšpusē.
+Pilnās kodu telpas tilpums ir $1$, tādēļ summa 
+visiem $2^{-k_i}$, kur $k_i = \ell(w_i)$ nepārsniedz $1$.  
+$\blacksquare$
 
 
-**Teorēma 2:** Katrai ziņojumu kopai $S$ ar zināmu varbūtību sadalījumu 
+
+
+-----
+
+
+# <lo-theory/> Optimāla kodējuma garums
+
+
+**Teorēma 3:** Katrai ziņojumu kopai $S$ ar zināmu varbūtību sadalījumu 
 un optimālu prefiksu kodējumu $C$:
 $$\ell_a(C) \leq H(S) + 1.$$
 
 **Sekas:** Tā kā Hafmana algoritms rada optimālo
-(vai vienu no optimālajiem) prefiksu kodējumu - sal. 
-[iepriekšējo nodarbību](../tale-algorithms-lossless-part1/content.html#/hafmana-koka-optimalitāte), tad 
+(vai vienu no optimālajiem) prefiksu kodējumu (sk. Teorēmu 4), tad 
 arī Hafmana kodējumam $C^{\ast}$ ir spēkā: 
 $$\ell_a(C^{\ast}) \leq H(S) + 1.$$
 
 --
 
-## <lo-theory/> Krafta-Makmilana nevienādība
+## <lo-theory/> Optimāla kodējuma garums - 2
 
-**Teorēma:** (*Kraft-McMillan Inequality*) 
-Dots prefiksu kods $C = \{ (x_1,w_1),\ldots,(x_n,w_n)\}$, tad
-$$\sum\limits_{(x_i,w_i) \in C} 2^{-\ell(w_i)} \leq 1.$$
+**Pierādījums:** Katram ievades ziņojumam/simbolam $s \in S$ 
+izvēlamies 
+${\displaystyle \ell(s) = \left\lceil \log_2 \frac{1}{p(s)} \right\rceil}$. Tādā gadījumā:
+$$\sum\limits_{s \in S} 2^{-\ell(s)} = \sum\limits_{s \in S} 
+2^{-\left\lceil \log_2 \frac{1}{p(s)} \right\rceil} \leq$$
+$$\sum\limits_{s \in S} 2^{- \log_2 \frac{1}{p(s)}} = \sum\limits_{s \in S} p(s) = 1.$$
 
-Un arī otrādi: Ja ir doti vairāki kodējumu garumi $l_i$, kas
-apmierina $\sum 2^{-l_i} \leq 1$, tad no tiem var uzbūvēt
-prefiksu koku, kur katram garumam $l_i$ atbilst lapa šajā kokā, kuras
-dziļums ir tieši $l_i$. 
+--
+
+## <lo-theory/> Optimāla kodējuma garums - 3
+
+Pēc Krafta-Makmilana teorēmas (pretējā virziena) varam 
+atrast tādu prefiksu kodu $C'$, kam ir tieši šādi kodavārdu garumi. 
+Vidējā garuma $\ell_{avg}(C')$ novērtējums:
+$$\ell_{avg}(C') = \sum\limits_{s \in S} p(s) \cdot \left\lceil \log_2 \frac{1}{p(s)} \right\rceil \leq $$
+$$\leq \sum\limits_{s \in S} p(s)\left( 1 + \log_2 \frac{1}{p(s)} \right) = $$
+$$ = 1 + H(S).$$
+
+--
+
+## <lo-theory/> Optimāla kodējuma garums - 4
+
+Optimālajam prefiksu kodam $C$ jābūt vismaz tikpat labam kā nupat piedāvātais $C'$. 
+Tādēļ arī tam būs novērtējums:
+$$\ell_{avg}(C) \leq \ell_{avg}(C') \leq 1 + H(S).$$  
+$\blacksquare$
+
 
 
 -----
@@ -438,7 +502,7 @@ Hederu saspiešana HTTP/2 protokolam (RFC 7540), ko lieto kopš 2015.g.
 
 <hgroup>
 
-**Teorēma:** Hafmana algoritms ģenerē optimālu bināro prefiksu koku 
+**Teorēma 4:** Hafmana algoritms ģenerē optimālu bināro prefiksu koku 
 ziņojumu kopai $S$ pie dotā varbūtību sadalījuma. 
 
 </hgroup><hgroup>

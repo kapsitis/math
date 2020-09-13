@@ -99,6 +99,8 @@ def build_static(SRC,DEST):
         shutil.copy(filename, DEST)
     for filename in glob.glob(os.path.join(SRC, '*.doc')):
         shutil.copy(filename, DEST)
+    for filename in glob.glob(os.path.join(SRC, '*.zip')):
+        shutil.copy(filename, DEST)
     #copyDirectory('%s/Pictures' % SRC,'%s/Pictures' % DEST)
     skip_directories = ['source-material','static','analysis']
     subDirectories = set(next(os.walk(SRC))[1]).difference(set(skip_directories))
@@ -153,16 +155,18 @@ def main():
     
     copyDirectory('src/site/reveal.js', '%s/reveal.js' % DEST_ROOT)
     copyDirectory('src/site/reveal.js.40', '%s/reveal.js.40' % DEST_ROOT)    
-    build_slides('src/site/data-structures/slides', '%s/data-structures-tales' % DEST_ROOT)
+    #build_slides('src/site/data-structures/slides', '%s/data-structures-tales' % DEST_ROOT)
 
 #    build_static('src/site/visualizations/static', '%s/visualizations-bin' % DEST_ROOT)
 #    build_static('src/site/numtheory/static', '%s/numtheory-bin' % DEST_ROOT)
-#    build_static('src/site/algorithms/static', '%s/algorithms-bin' % DEST_ROOT)
+    build_static('src/site/algorithms/static', '%s/algorithms-bin' % DEST_ROOT)
+    #fall2020-homeworks
 #    build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
 #    build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
     build_static('src/site/discrete/static', '%s/discrete-bin' % DEST_ROOT)
     build_static('src/site/discrete/static/homeworks', '%s/discrete-bin/homeworks' % DEST_ROOT)
     build_static('src/site/discrete/questionbase', '%s/discrete-bin/questionbase' % DEST_ROOT)
+    build_static('src/site/data-structures/assignments', '%s/data-structures-assignments/' % DEST_ROOT)
     build_static('src/site/data-structures/static', '%s/data-structures-bin/' % DEST_ROOT)
     build_coq('src/site/discrete/coq-competitions', '%s/discrete-bin/coq-competitions' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-inductive', '%s/discrete-bin/coq-inductive' % DEST_ABSOLUTE)

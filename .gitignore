@@ -50,4 +50,7 @@ src/site/discrete/static/coq/*.v#
 src/site/discrete/static/coq/*.vo
 src/site/discrete/questionbase/discrete-math-all-exam-papers.pdf
 src/site/discrete/questionbase/final.md
+src/site/data-structures/slides/adt*
+src/site/data-structures/slides/paradigms*
+src/site/data-structures/slides/structures*
 
