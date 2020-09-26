@@ -90,7 +90,7 @@ Memory content of {\tt c}: \rule{4cm}{0.4pt}
 
 \vspace{20pt}
 {\bf Question 2 (Flowchart).} 
-Draw a flowchart that shows how the following {\tt do-while} loop is evaluated. 
+Draw a flowchart that shows how the following {\tt switch-case} statement is evaluated. 
 Please draw the flowchart nodes accurately: Use only $5$ kinds of nodes:\\
 {\bf (1)} Start node (oval: one outgoing arrow).\\
 {\bf (2)} Stop node (oval: one incoming arrow).\\
@@ -103,15 +103,18 @@ Please draw the flowchart nodes accurately: Use only $5$ kinds of nodes:\\
 \begin{tabular}{@{}ll@{}} 
 \begin{minipage}{0.48\columnwidth}
 \begin{Verbatim}[frame=single]
-i = 17;
-do 
-{
-    i = g(i);
-    if (cond_1(i)) { break; }
-    if (cond_2(i)) { continue; }
-    i = h(i);
+int a = 0;
+char c; 
+cin >> c; 
+switch( c ) {
+    case 'A':
+        a += 1;
+    case 'B':
+        a += 2;
+		break;
+    default :
+        a += 4;
 }
-while (cond_3(i));
 \end{Verbatim}
 \end{minipage} &
 \begin{minipage}{0.5\columnwidth}

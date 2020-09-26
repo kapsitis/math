@@ -277,12 +277,15 @@ Check in some code in the branch. Finally, merge the new branch back with {\tt m
 \subsection{aa}
 
 \begin{Verbatim}
-git checkout -b ex03
-mkdir ex03
+git checkout -b ex03-alice
+mkdir ex03-alice
 
+git commit -m "Initial commit for ex03"
+git push origin ex03-alice
+\end{Verbatim}
 
-git commit -m "Only palindromes"
-git push origin palindromes 
+\begin{Verbatim}
+git tag -a ex02submit f5fe189
 \end{Verbatim}
 
 \begin{Verbatim}
@@ -293,8 +296,15 @@ git checkout master
 %Branch specifier in Jenkins: 
 %refs/heads/palindromes
 
+% refs/heads/ex01
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% https://git-scm.com/book/en/v2/Git-Basics-Tagging
 
 
+
+
+\url{
 
 
 \begin{Verbatim}[frame=single]

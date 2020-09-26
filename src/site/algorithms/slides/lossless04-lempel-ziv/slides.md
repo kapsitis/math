@@ -4,7 +4,7 @@
 
 <h1 style="font-size:28pt">Lietišķie algoritmi</h1>
 
-<blue>Bezzudumu saspiešana - 2</blue>
+<blue>1.4 Lempela-Ziva algoritmi</blue>
 
 </hgroup><hgroup>
 
@@ -47,8 +47,9 @@ Kāpēc mainās saspiešanas pieeja, ja ievadē atkārtojas garākas simbolu vir
 
 <div class="smallWhy">
 
-* Kāds ievades datu modelis ir piemērots LZ saimes algoritmiem?
-* Kas nodrošina Lempela Ziva algoritmu plašo izmantojumu lietojumprogrammās?
+* Kādus ievades datu modeļus var izmantot, analizējot LZ saimes algoritmus?
+Vai arī tie ir entropijas kodi?
+* Kas nodrošina LZ77, LZW popularitāti lietojumos?
 
 </div>
 
@@ -57,10 +58,10 @@ Kāpēc mainās saspiešanas pieeja, ja ievadē atkārtojas garākas simbolu vir
  
 ## <lo-theory/> Sasniedzamie rezultāti
 
-1. Saprast un lietot Lempela-Ziva (LZ78) algoritmu. 
-
-
-
+1. Sarežģītības apsvērumi (cik reizes lasa ievadi?)
+2. Lietot un analizēt Lempela-Ziva LZ77 algoritmu.
+3. Saprast un lietot Lempela-Ziva LZ78 algoritmu un tā variantus.
+4. Lempela Ziva algoritmu praktiski lietojumi.
 
 
 -----
@@ -86,96 +87,243 @@ Kāpēc mainās saspiešanas pieeja, ja ievadē atkārtojas garākas simbolu vir
 
 </hgroup>
 
-::: notes
-
-https://stackoverflow.com/questions/40054218/what-if-dictionary-size-in-lzw-algorithm-is-full
-
-:::
-
+Note:
+[What if dictionary is full](https://stackoverflow.com/questions/40054218/what-if-dictionary-size-in-lzw-algorithm-is-full)
 
 
 -----
 
-# <lo-sample/> Piemērs labai saspiešanai ar LZ78
+# <lo-sample/> Novērojumi par entropijas kodiem
+
+* Datu saspiešanas metode nevar būt labāka par entropiju, ja simboli ir neatkarīgi.
+* Reālos datos nākošais simbols atkarīgs no iepriekšējā.
+* Var veidot N-grammas (2 burtu virknes kā jaunus "simbolus": aa, ab, ac, ad, ...). Tam pielieto Hafmana vai aritmētisko kodu).
+* Var arī izmantojot to, ka ir simbolu virknes, kas atkārtojas (kodus veido tikai reāli esošajām). Ievieš jaunus simbolus priekš šādām virknēm; 
+tās arī ir Lempela-Ziva metodes (LZ77 vai LZ78).
 
 
-Nejauša pastaiga pa Markova ķēdi ar $3$ stāvokļiem:
+-----
 
+# <lo-sample/> Modeļi LZ78 analīzei
+
+Var aplūkot LZ78 kā entropijas kodu (neatkarīgi burti).
+
+**Cits modelis:** Markova ķēde, ko ģenerē automāts ar $3$ stāvokļiem:  
 ![Markova ķēde](markov-chain.png)
-
 
 $18$ burtu virknīte, sākot ar $A$:  
 <blue>`ABCABCBCAAABCABBAB`</blue>
 
 
-::: notes
-
+Note:
+Var ģenerēt pastaigu pa automātu.
 sample(1:4,size=17, replace=TRUE)  
-[1] 3 3 1 2 3 4 3 2 1 1 4 4 2 3 2 1 4
+[1] 3 3 1 2 3 4 3 2 1 1 4 4 2 3 2 1 4  
 
-:::
+[LZW algoritma piemērs](http://web.mit.edu/6.02/www/f2010/handouts/recitations/Recitation21VergheseFall2010.pdf)  
+[LZ78 sliktākā gadījuma teorija](http://www-math.mit.edu/~shor/PAM/lempel_ziv_notes.pdf)
+
+
 
 
 -----
 
 # <lo-theory> LZ78 iekodēšanas pseidokods
 
-Sākumā vārdnīcā jau atrodas visi simboli. Tad tai pievieno 
-garākas virknītes:
 
-![LZ78 iekodēšana](LZ78-encode.png)
+<table class="pseudocode">
+<tr><th colspan="2"><span style="font-variant: small-caps;">LZ78Encode($F$)</span> &nbsp;<green>// Kodē failu jeb simbolu plūsmu</green></th></tr>
+<tr>
+<td>1</td>
+<td>$D = $<span style="font-variant: small-caps;">Dictionary</span>($S$) <green>// saliek vārdnīcā visus burtus</green></td>
+</tr>
+<tr>
+<td>2</td>
+<td>$w = \varepsilon$&nbsp;<green>// tukšais strings</green></th> </td>
+</tr>
+<tr>
+<td>3</td>
+<td>$k =$ <span style="font-variant: small-caps;">ReadSymbol</span>($F$)</td>
+</tr>
+<tr>
+<td>4</td>
+<td><b>while</b> $k \neq$&nbsp;<span style="font-variant: small-caps;">eof</span> </td>
+</tr>
+<tr>
+<td>5</td>
+<td class="ind1"><b>if</b> $wk \in $&nbsp;<span style="font-variant: small-caps;">keys</span>($D$) </td>
+</tr>
+<tr>
+<td>6</td>
+<td class="ind2">$w = wk$</td>
+</tr>
+<tr>
+<td>7</td>
+<td class="ind1"><b>else</b></td>
+</tr>
+<tr>
+<td>8</td>
+<td class="ind2"><span style="font-variant: small-caps;">Output</span>($D[w]$)</td>
+</tr>
+<tr>
+<td>9</td>
+<td class="ind2"><span style="font-variant: small-caps;">Insert</span>($D,w$) <green>// Pievieno vārdnīcai ar jaunu kārtas numuru</green></td>
+</tr>
+<tr>
+<td>10</td>
+<td class="ind2">$w=k$</td>
+</tr>
+<tr>
+<td>11</td>
+<td class="ind1">$k =$ <span style="font-variant: small-caps;">ReadSymbol</span>($F$)</td>
+</tr>
+<tr>
+<td>12</td>
+<td><span style="font-variant: small-caps;">Output</span>($D[w]$)</td>
+</tr>
+
+
+</table>
+
+
+<!--
+
+THIS IS LZ-WELCH!!!
+
+
+<table class="pseudocode">
+<tr><th colspan="2"><span style="font-variant: small-caps;">LZ78Encode($S$)</span> &nbsp;<green>// Kodē simbolu plūsmu/stream</green></th></tr>
+<tr>
+<td>1</td>
+<td>$C =$ <span style="font-variant: small-caps;">ReadSymbol</span>($S$)</td>
+</tr>
+<tr>
+<td>2</td>
+<td><b>while</b> $C \neq$ <span style="font-variant: small-caps;">eof</span> </td>
+</tr>
+<tr>
+<tr>
+<td>3</td>
+<td class="ind1">$C' =$ <span style="font-variant: small-caps;">GetIndex</span>($C,x$)</td>
+</tr>
+<tr>
+<td>4</td>
+<td class="ind1"><b>while</b> $C' \neq -1$:</td>
+</tr>
+<tr>
+<td>5</td>
+<td class="ind2">$C = C'$:</td>
+</tr>
+<tr>
+<td>6</td>
+<td class="ind2">$x = $ <span style="font-variant: small-caps;">ReadSymbol</span>($S$)</td>
+</tr>
+<tr>
+<td>7</td>
+<td class="ind2">$C' =$ <span style="font-variant: small-caps;">GetIndex</span>($C,x$)</td>
+</tr>
+<tr>
+<td>8</td>
+<td class="ind1"><span style="font-variant: small-caps;">Output</span>($C$)</td>
+</tr>
+<tr>
+<td>9</td>
+<td class="ind1"><span style="font-variant: small-caps;">AddDict</span>($C,x$)</td>
+</tr>
+<tr>
+<td>10</td>
+<td class="ind1">$C =x$</td>
+</tr>
+</table>
+
+-->
 
 
 --
 
-## <lo-sample/> LZ78 iekodēšanas piemērs
+# <lo-sample/> Iekodēšanas piemērs
 
-<div style="font-size:70%">
+Dota virkne 'abcabcabcdabcaba', kura jānokodē, izmantojot Lempela - Ziva algoritmu.
 
-Kodējam augšminēto <blue>`ABCABCBCAAABCABBAB`</blue>
-
-<table>
-<tr><th>Solis</th><th>w</th><th>k</th><th>Izvade</th><th>Pievieno vārdnīcai</th></tr>
-<tr><td>1</td><td>A</td><td>B</td><td>A</td><td>AB</td></tr>
-<tr><td>2</td><td>B</td><td>C</td><td>B</td><td>BC</td></tr>
-<tr><td>3</td><td>C</td><td>A</td><td>C</td><td>CA</td></tr>
-<tr><td>4</td><td>AB</td><td>C</td><td>AB → 1</td><td>ABC</td></tr>
-<tr><td>5</td><td>C</td><td>B</td><td>C</td><td>CB</td></tr>
-<tr><td>6</td><td>BC</td><td>A</td><td>BC → 2</td><td>BCA</td></tr>
-<tr><td>7</td><td>A</td><td>A</td><td>A</td><td>AA</td></tr>
-<tr><td>8</td><td>AA</td><td>B</td><td>AA → 7</td><td>AAB</td></tr>
-<tr><td>9</td><td>BCA</td><td>B</td><td>BCA</td><td>BCAB</td></tr>
-<tr><td>10</td><td>B</td><td>B</td><td>B</td><td>BB</td></tr>
-<tr><td>11</td><td>B</td><td>A</td><td>B</td><td>BA</td></tr>
-<tr><td>12</td><td>AB</td><td>`EOF`</td><td>AB → 1</td><td>-</td></tr>
-</table>
-
-LZ78 iekodējums ir `A.B.C.AB.C.BC.A.AA.BCA.B.B.AB`  
-Aizstājam virknes ar soļiem, kur tās iesprauda vārdnīcā:  
-<red>`A.B.C.1.C.2.A.7.6.B.B.1`</red>
-
-</div>
+Vajadzētu sanākt 
+`$$\mathtt{a,b,c,1,3,2,d,4,1,a}$$`
 
 
------
+--
 
-# <lo-theory> LZ78 atkodēšanas pseidokods
+# <lo-theory/> LZ78 atkodēšanas pseidokods
 
 ![LZ78 atkodēšana](LZ78-decode.png)
 
 
 --
 
-## <lo-sample/> LZ78 atkodēšanas piemērs
+## <lo-sample/> LZ78 atkodēšanas piemēri
 
-**Piemērs:** Izmantot LZ78, lai atkodētu 
+**Piemērs 1:** Izmantot LZ78, lai atkodētu 
 virknīti: <red>`A.B.C.1.3.2.D.4.1.A`</red>
 
 Ja atkodēšana veikta pareizi, vajadzētu 
 sanākt <blue>`A.B.C.AB.CA.BC.D.ABC.AB.A`</blue>.
 
+**Piemērs 2:** <red>`a,a,b,1,2,4,2`</red> uz <blue>`aabaaabaaaab`</blue>
+
+**Piemērs 3:** <red>`a,b,a,3,4`</red> atkodē par <blue>`abaaaaaa`</blue>
+
 
 -----
+
+
+## <lo-sample/> LZ78 (biti par bitiem)
+
+Cits LZ78 variants (sāk ar tukšu vārdnīcu).
+
+`$\mathtt{AABABBBABAABABBBABBABB}$` (22 biti)  
+`$\mathtt{A.AB.ABB.B.ABA.ABAB.BB.ABBA.BB}$`
+
+<table>
+<tr><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th></tr>
+<tr>
+  <td>$\mathtt{A}$</td>
+  <td>$\mathtt{AB}$</td>
+  <td>$\mathtt{ABB}$</td>
+  <td>$\mathtt{B}$</td>
+  <td>$\mathtt{ABA}$</td>
+  <td>$\mathtt{ABAB}$</td>
+  <td>$\mathtt{BB}$</td>
+  <td>$\mathtt{ABBA}$</td>
+  <td>$\mathtt{BB}$</td>
+</tr>
+<tr>
+  <td>$\varnothing\mathtt{A}$</td>
+  <td>$\mathtt{1A}$</td>
+  <td>$\mathtt{2B}$</td>
+  <td>$\varnothing\mathtt{B}$</td>
+  <td>$\mathtt{2A}$</td>
+  <td>$\mathtt{5B}$</td>
+  <td>$\mathtt{4B}$</td>
+  <td>$\mathtt{3A}$</td>
+  <td>$\mathtt{7}$</td>
+</tr>
+<tr>
+  <td>$\color{#00F}{\mathtt{,0}}$</td>
+  <td>$\color{#00F}{\mathtt{1,1}}$</td>
+  <td>$\color{#00F}{\mathtt{10,1}}$</td>
+  <td>$\color{#00F}{\mathtt{00,1}}$</td>
+  <td>$\color{#00F}{\mathtt{010,0}}$</td>
+  <td>$\color{#00F}{\mathtt{101,1}}$</td>
+  <td>$\color{#00F}{\mathtt{100,1}}$</td>
+  <td>$\color{#00F}{\mathtt{011,0}}$</td>
+  <td>$\color{#00F}{\mathtt{0111}}$</td>
+</tr>
+</table>
+
+LZ78 kods:  
+`$\color{#00F}{\mathtt{01110100101001011100101100111}}$` (29 biti)  
+(Sākot no elementa $2^k+1$ viņa vārdnīcas adresi kodē ar $k+1$ bitiem.)
+
+-----
+
 
 # &nbsp;
 
@@ -256,7 +404,6 @@ samudžinātas (pamatos Technicolor and Fraunhofer).
 <span>(4) [Berouza - Vı̄lera algoritms](#section-3)</span>  
 <span>(5) [Rīki un bibliotēkas](#section-4)</span>  
 <span style="color:darkgreen">**(6) Aptauja**</span>  
-<span>(7) [(P) DLP - Datu noplūdes novēršana](#section-6)</span>  
 <span>(8) [Kopsavilkums](#section-7)</span>
 
 </hgroup>
@@ -341,12 +488,15 @@ Tātad varbūtību sadalījums ir $\left( \frac{1}{4}, \frac{3}{8}, \frac{3}{8} 
 </hgroup>
 
 
------
+--
 
 # <lo-theory/> Ko darījām šajā nodarbībā?
 
-
-1. Iesākām apspriest Lempela Ziva algoritmus.
+1. Apspriedām entropijas kodu lietojamības robežas.
+2. Ieviesām Lempela Ziva algoritmu LZ77.
+3. Ieviesām Lempela Ziva algoritmu LZ78.
+4. Apspriedām LZ77, LZ78 lietojumus, failu formātus un 
+arhivēšanas bibliotēkas.
 
 
 
