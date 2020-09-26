@@ -1,0 +1,159 @@
+%\documentclass[jou]{apa6}
+\documentclass[11pt]{article}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{fancyvrb}
+
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -0.1in
+\headheight 0.0in
+\headsep 0.0in
+\textheight 9.0in
+
+\usepackage{xcolor}
+
+\setlength\parindent{0pt}
+
+\newenvironment{myenv}{\begin{adjustwidth}{0.4in}{0.4in}}{\end{adjustwidth}}
+\renewcommand{\abstractname}{Anotācija}
+\renewcommand\refname{Atsauces}
+
+
+
+\newcounter{alphnum}
+\newenvironment{alphlist}{\begin{list}{(\Alph{alphnum})}{\usecounter{alphnum}\setlength{\leftmargin}{2.5em}} \rm}{\end{list}}
+
+
+%16.3-6
+
+\makeatletter
+\let\saved@bibitem\@bibitem
+\makeatother
+
+\usepackage{bibentry}
+%\usepackage{hyperref}
+
+
+%\title{Homework 1: Grading Criteria}
+%\author{Kalvis}
+%\affiliation{RBS}
+
+
+
+\begin{document}
+\thispagestyle{empty}
+
+%\twocolumn
+
+
+\begin{center}
+{\Large Sample Assignment 1, 2020-09-14}
+\end{center}
+
+
+{\bf Question 1 (Bitwise Operations).} Write the output
+(and the content of variables {\tt a,b,c} in hexadecimal notation),
+after this snipped is executed:
+\begin{Verbatim}[frame=single]
+unsigned int a = 0xACE02468;
+unsigned int b = (a << 12) & (a >> 20);
+unsigned int c = (a << 12) | (a >> 20);
+std::cout << std::hex << "a = " << a << std::endl;
+std::cout << std::hex << "b = " << b << std::endl;
+std::cout << std::hex << "c = " << c << std::endl;
+\end{Verbatim}
+
+
+\vspace{10pt}
+Hexadecimal memory content of {\tt a}: \rule{4cm}{0.4pt} 
+
+\vspace{10pt}
+Hexadecimal memory content of {\tt b}: \rule{4cm}{0.4pt} 
+
+\vspace{10pt}
+Hexadecimal memory content of {\tt c}: \rule{4cm}{0.4pt} 
+
+{\em Please note that unsigned ints are $4$ bytes long. If you do left shift (respectively, a right shift) on 
+such variables, the bits on the right (respectively, on the left) are filled with zeroes.}
+
+
+
+
+
+
+
+
+
+\vspace{10pt}
+{\bf Question 2.} 
+Draw a flowchart for this {\tt switch-case} statement. Use only $5$ kinds of nodes:\\
+{\footnotesize
+{\bf (1)} Start node (oval: one outgoing arrow).\\
+{\bf (2)} Stop node (oval: one incoming arrow).\\
+{\bf (3)} Conditional statement (diamond: one incoming and two outgoing arrows). Mark the ``true'' branch.\\
+{\bf (4)} Regular statement (rectangle: one incoming and one outgoing arrow).\\
+{\bf (5)} Merging two branches (black dot: two incoming arrows, one outgoing arrow).
+}
+
+\vspace{5mm}
+\begin{tabular}{@{}ll@{}} 
+\begin{minipage}{0.38\columnwidth}
+\begin{Verbatim}[frame=single]
+int x = 0;
+char c; 
+cin >> c; 
+switch( c ) {
+    case 'A':
+        x += 1;
+    case 'B':
+        x += 2;
+        break;
+    default :
+        x += 4;
+}
+cout << "x= " << x << endl;
+\end{Verbatim}
+
+
+
+ 
+
+\end{minipage} &
+\begin{minipage}{0.5\columnwidth}
+\mbox{}
+
+\end{minipage}
+\end{tabular}
+
+
+\vspace{20pt}
+{\bf Question 3 (Side Effects).}\\
+What is the value of {\tt x} output by the code snippet above, 
+if {\tt cin} inputs letter {\tt 'A'}?
+
+\vspace{10pt}
+{\tt x=}: \rule{4cm}{0.4pt}
+
+
+\newpage
+
+
+
+
+
+\end{document}
+
+
+
