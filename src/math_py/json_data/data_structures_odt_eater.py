@@ -77,7 +77,7 @@ def getJsonOfLists(lines):
                 #print('BBB = {}.{}'.format(curr_a,curr_b))
                 prev_b = curr_b
                 topItem = bigItems[len(bigItems)-1]
-                topItem['testItems'].append(copy.deepcopy(subitem))
+                topItem[SUBITEMS].append(copy.deepcopy(subitem))
                 topSubitem = topItem[SUBITEMS][len(topItem[SUBITEMS])-1]
                 topSubitem[curr_key] = curr_val
             elif (curr_b > -1):

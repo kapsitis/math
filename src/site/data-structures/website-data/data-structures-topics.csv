@@ -90,28 +90,6 @@ Week,Class,Id
 1.4.3,task,Use function pointers
 1.4.4,example,"Find errors in projects using code inspection, testing, debugging and printouts."
 1.4.5,code,Build and test a program from a command-line using a Makefile
-1.5,task,Use Object Orientation concepts in C++
-1.5,description,"The module explains the thinking behind keywords “public”, “private”, inheritance – and how this is typically used in writing algorithms and data-structure libraries."
-1.5,reading,CH02P01;CH02P02;CH02P03
-1.5,video,NA
-1.5.1,task,Explain abstraction as an OO principle
-1.5.2,task,Explain encapsulation as an OO principle; keywords public/private and friends
-1.5.3,task,Explain inheritance as an OO principle; inheriting class contract
-1.5.4,task,Explain polymorophism as an OO principle; keywords virtual/abstract
-1.5.5,task,Define class hierarhies following the OO principles
-1.5.6,task,Explain function overriding with inheritance
-1.5.7,task,Explain abstract classes and virtual functions.
-1.5.8,task,Define template functions and template classes. 
-1.5.9,task,Define and use overloaded operators
-1.6,task,Understand the C++ memory model
-1.6,description,"Introduce handling the space or memory used by the algorithms during recursive function calls, memory allocation and deallocation. "
-1.6,reading,CH14P01;CH14P02
-1.6,video,NA
-1.6.1,task,Use the automatic variables and heap variables
-1.6.2,task,Understand the implications of memory allocation and deallocation
-1.6.3,task,Use proper garbage collection practices and detect memory leaks
-1.6.4,task,Use caching for speedup
-1.6.5,task,Understand memory hierarchy
 2,topic,Express algorithms through ADTs and data structure libraries
 2.1,task,Analyze algorithms by counting data related operations
 2.1,description,Here we analyze the algorithms at pseudocode level (making assumptions regarding the cost of data structure library calls). More detailed analysis that takes into account alternatives of implementing the data structures themselves is postponed to other modules.
@@ -123,33 +101,41 @@ Week,Class,Id
 2.1.4,task,Define the space complexity of an algorithm
 2.1.5,task,Describe the difference between feasible and infeasible algorithms
 2.1.6,task,"Worst-case, expected and amortized complexity"
-2.2,task,Define and implement functions for simple Abstract Data Types (ADT)
-2.2,description,This module discusses just the simplest ADTs. Every data structure in this course can be described in this way; more ADTs will be defined in subsequent modules.
-2.2,reading,CH06P01;CH06P02;CH06P03
+2.2,task,Use Object Orientation concepts in C++
+2.2,description,"The module explains the thinking behind keywords “public”, “private”, inheritance – and how this is typically used in writing algorithms and data-structure libraries."
+2.2,reading,CH02P01;CH02P02;CH02P03
 2.2,video,NA
-2.2.1,task,Define stack as an ADT
-2.2.2,task,Define a deque as an ADT
-2.2.3,task,Define a list as an ADT
-2.2.4,task,Define a sequence as an ADT
-2.2.5,task,Define a binary tree as an ADT
-2.2.6,task,Define a map as an ADT
-2.2.7,task,Understand how one ADT can have different implementations
-2.2.7.1,task,Implement data structures in arrays
-2.2.7.2,task,Implement data structures with pointers
-2.2.7.3,task,Understand advantages of encapsulation and hiding implementation details
-2.3,task,"Use STL to implement containers - vectors, stacks and maps"
-2.3,description,"Some built-in data structure libraries and template classes are introduced; this is the preferred way for the vast majority of C++ code that is ever written. (Only rarely you need to look at the implementation “under the hood”, and this will become our focus later on.)"
-2.3,reading,CH01P05
-2.3,reading,https://bit.ly/2NBvNXh
-2.3,video,NA
-2.3.1,task,Indentify the main container classes typically implemented by data structure libraries
-2.3.1.1,task,"Identify the key manipulations (initialize, sort, search, transform) on containers"
-2.3.1.2,task,Identify the iterators and ways to visit each element in a container for custom processing
-2.3.2,task,Understand representation invariants (rep invariants)
-2.3.2.1,task,Understand the representational exposure
-2.3.2.2,task,"Use defensive copying, proper get/set methods, verbal contract with client classes to avoid exposure"
-2.3.3,task,"Use STL to initialize vectors, stacks and maps"
-2.3.4,task,Use C++ constructs to iterate over data structures
+2.2.1,task,Explain abstraction as an OO principle
+2.2.2,task,Explain encapsulation as an OO principle; keywords public/private and friends
+2.2.3,task,Explain inheritance as an OO principle; inheriting class contract
+2.2.4,task,Explain polymorophism as an OO principle; keywords virtual/abstract
+2.2.5,task,Define class hierarhies following the OO principles
+2.2.6,task,Explain function overriding with inheritance
+2.2.7,task,Explain abstract classes and virtual functions.
+2.2.8,task,Define template functions and template classes. 
+2.2.9,task,Define and use overloaded operators
+2.3,task,Define and implement functions for simple Abstract Data Types (ADT)
+2.3,description,This module discusses just the simplest ADTs. 
+2.3,reading,CH01P05;CH06P01;CH06P02;CH06P03
+2.3,video,https://bit.ly/2NBvNXh
+2.3.1,task,Define stack as an ADT
+2.3.2,task,Define a deque as an ADT
+2.3.3,task,Define a list as an ADT
+2.3.4,task,Define a sequence as an ADT
+2.3.5,task,Define a binary tree as an ADT
+2.3.6,task,Define a map as an ADT
+2.3.7,task,Understand how one ADT can have different implementations
+2.3.8,task,Implement data structures in arrays
+2.3.9,task,Implement data structures with pointers
+2.3.10,task,Understand advantages of encapsulation and hiding implementation details
+2.3.11,task,Indentify the main container classes typically implemented by data structure libraries
+2.3.11.1,task,"Identify the key manipulations (initialize, sort, search, transform) on containers"
+2.3.11.2,task,Identify the iterators and ways to visit each element in a container for custom processing
+2.3.12,task,Understand representation invariants (rep invariants)
+2.3.12.1,task,Understand the representational exposure
+2.3.12.2,task,"Use defensive copying, proper get/set methods, verbal contract with client classes to avoid exposure"
+2.3.13,task,"Use STL to initialize vectors, stacks and maps"
+2.3.14,task,Use C++ constructs to iterate over data structures
 2.4,task,Define OO design patterns in C++
 2.4,description,"The module only lists those design patterns that are typically used with data structures. One can certainly write good code without using “Gang of Four” jargon, but it can explain the thinking behind some popular APIs and data structure libraries."
 2.4,reading,CH02P01; CH05P03; CH07P03; CH09P01; CH11P04; CH13P03

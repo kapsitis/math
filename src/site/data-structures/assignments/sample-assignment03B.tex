@@ -1,0 +1,214 @@
+%\documentclass[jou]{apa6}
+\documentclass[11pt]{article}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{fancyvrb}
+\usepackage{mathtools}
+\usepackage{color}
+
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\textwidth 6.27in
+\headheight 1.0in
+\topmargin -0.1in
+\headheight 0.0in
+\headsep 0.0in
+\textheight 9.0in
+
+\usepackage{xcolor}
+
+\setlength\parindent{0pt}
+
+\newenvironment{myenv}{\begin{adjustwidth}{0.4in}{0.4in}}{\end{adjustwidth}}
+\renewcommand{\abstractname}{Anotācija}
+\renewcommand\refname{Atsauces}
+
+
+
+\newcounter{alphnum}
+\newenvironment{alphlist}{\begin{list}{(\Alph{alphnum})}{\usecounter{alphnum}\setlength{\leftmargin}{2.5em}} \rm}{\end{list}}
+
+
+%16.3-6
+
+\makeatletter
+\let\saved@bibitem\@bibitem
+\makeatother
+
+\usepackage{bibentry}
+%\usepackage{hyperref}
+
+
+%\title{Homework 1: Grading Criteria}
+%\author{Kalvis}
+%\affiliation{RBS}
+
+
+
+\begin{document}
+\thispagestyle{empty}
+
+%\twocolumn
+
+
+\begin{center}
+{\Large Sample Assignment 3B, Discussed on 2020-09-28},
+{\em Not graded}
+\end{center}
+
+\vspace{10pt}
+{\bf Question 1 (Sets/Vectors with Custom Classes)}\\
+The code below does the task of EX02: it reads student data from STDIN;
+outputs the smallest and the largest student compared by age; 
+or by height (if ages are equal). 
+
+
+\vspace{10pt}
+\begin{tabular}[t]{@{}ll@{}} 
+\begin{minipage}[t]{0.48\columnwidth}
+{\bf Question1.cpp}
+{\footnotesize
+\begin{Verbatim}[frame=single,numbers=left]
+#include <iostream>
+#include <iomanip> 
+#include <set>
+
+using namespace std;
+struct Student {
+  int age;
+  double height;
+  Student(int aa = 1, double hh = 1): 
+	        age(aa), height(hh) {}
+
+  friend istream &operator>>(
+    istream  &input, Student &S ) { 
+      input >> S.age >> S.height;
+      return input;            
+  }
+
+  friend ostream &operator<<( 
+    ostream &output, const Student &S ) { 
+      output << "Student(" << S.age << "," 
+	<< std::fixed << std::setprecision(5) 
+	  << S.height << ")";
+      return output;            
+  }
+
+  friend bool operator<(const Student &left, 
+    const Student &right) {
+      return (left.age < right.age) || 
+      (left.age == right.height && 
+        left.height < right.height);
+    }
+};
+
+int main() {
+    int n; cin >> n;
+    set<Student> myset;
+    for (int i = 0; i < n; i++) {
+        Student student; 
+        cin >> student;
+        myset.insert(student);
+    }
+    cout << *(myset.begin()) << endl;
+    cout << *(--myset.end());
+    return 0;
+}
+\end{Verbatim}
+}
+\end{minipage} &
+\begin{minipage}[t]{0.5\columnwidth}
+
+Write short answers to these questions:
+
+\begin{enumerate}[(A)]
+\item What happens, if Line 43 
+is rewritten as follows:
+{\tt cout << *(myset.end());}
+\vspace{30pt}
+\item How would you overload the comparison operation, 
+if you only look at {\tt age}, but order by age alphabetically (as in a dictionary). 
+Namely, age "17" comes before age "2" (since digit "1" alphabetically 
+precedes digit "2"). 
+{\em (Just show how the Lines 28--30 would look, if you order alphabetically.)}
+\vspace{30pt}
+\item Assume that the class {\tt Student} had a destructor.
+On which line of your code (if at all) is it called, when you read the input containing data 
+for a few students and insert them all in a set.
+\vspace{30pt}
+\item Assume that you want to use {\tt std::vector} instead of 
+a set; and output the first and the last element you inserted into a vector. 
+What would you write on Line 40, Line 42 and 43? (How to add something to an end of a vector? 
+How to get the first element? The last element?)
+\end{enumerate}
+
+
+\end{minipage}
+\end{tabular}
+
+
+
+\end{document}
+
+
+
+
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+struct Folder {
+    string name;
+    vector<Folder> children;
+    Folder(string nn) {name = nn;}
+    void makeSub(Folder ff) {
+        children.push_back(ff);
+    }
+};
+
+int main() {    
+    Folder f1("f1");
+    Folder f2("f2");
+    Folder f3("f3"); 
+
+    f2.makeSub(f3);
+    f1.makeSub(f2);
+    cout << f2.children.size() << endl;
+}
+
+
+
+============================
+
+/*
+    Node n1(1);
+    Node n2(2);
+    Node n3(3);
+    Node n4(4);
+    Node n5(5);
+    Node n6(6);
+    Node n7(7);
+    
+    nodeMap.insert(pair<int, Node>(1, n1));
+    n1.addChild(&n2);
+    n1.addChild(&n3);
+    n1.addChild(&n4);
+    n1.addChild(&n5);
+	nodeMap.insert(pair<int, Node>(1, n2));
+    n2.addChild(&n6);
+    n2.addChild(&n7);
+    n1.printPreorder();
+	
+	pazaudē n2 bērnus
+	
+*/

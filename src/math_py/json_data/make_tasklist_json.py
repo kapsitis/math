@@ -10,21 +10,21 @@ from datetime import date
 from datetime import timedelta
 
 
-#SUBDIR = 'algorithms'
-#SUBFILE = 'algorithms-topics'
-#JSON_FILE = 'algorithms_topics.json'
-#MODULES_FILE = 'algorithms_modules.json'
-#FIRST_YEAR = 2020
-#FIRST_MONTH = 9
-#FIRST_DATE = 7
-
-SUBDIR = 'data-structures'
-SUBFILE = 'data-structures-topics'
-JSON_FILE = 'data_structures_topics.json'
-MODULES_FILE = 'data_structures_modules.json'
+SUBDIR = 'algorithms'
+SUBFILE = 'algorithms-topics'
+JSON_FILE = 'algorithms_topics.json'
+MODULES_FILE = 'algorithms_modules.json'
 FIRST_YEAR = 2020
-FIRST_MONTH = 8
-FIRST_DATE = 31
+FIRST_MONTH = 9
+FIRST_DATE = 7
+
+#SUBDIR = 'data-structures'
+#SUBFILE = 'data-structures-topics'
+#JSON_FILE = 'data_structures_topics.json'
+#MODULES_FILE = 'data_structures_modules.json'
+#FIRST_YEAR = 2020
+#FIRST_MONTH = 8
+#FIRST_DATE = 31
 
 
 
