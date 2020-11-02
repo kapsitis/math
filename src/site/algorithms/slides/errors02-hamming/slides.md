@@ -318,6 +318,8 @@ No $n=7$ iespējams izveidot $2^4 = 16$ atšķiramas virknes:
 ```
 </hgroup>
 
+--
+
 ## <lo-summary/> Heminga koda konstruēšana
 
 Virkni $x_1x_2x_3x_4$ pārraida 
@@ -420,9 +422,9 @@ $\left[ 2^n - 1, 2^n - n - 1,1 \right]$ kods - koriģē tikai $1$ bitu.
 
 ## <lo-summary/> Kontrolbitu izrēķināšana
 
-$$x_{0\ldots{}010\ldots{}0} = \left( 
+`$$x_{0\ldots{}010\ldots{}0} = \left( 
 \sum\limits_{i_1,\ldots,i_{k-1},i_{k+1},\ldots,i_{n}}
-x_{i_1\ldots{}i_{k-1}1i_{k+1}\ldots{}i_n} \right)\;\text{mod}\;2.$$
+x_{i_1\ldots{}i_{k-1}1i_{k+1}\ldots{}i_n} \right)\;\text{mod}\;2.$$`
 
 Lai atrastu, vai ir kļūda, rīkojās šādi. Ja kontrolbits pozīcijā 
 $0\ldots{}010\ldots{}0$ (ar 1-nieku $k$-tajā ciparā) 
@@ -481,7 +483,7 @@ $2^n - 1$ virknes, kas atšķiras no tās kādā $1$ pozīcijā.
 Tāpēc kopās $V_1,V_2,\ldots,V_m$ kopā ir $2^n \cdot m$ elementi. 
 Tā kā ir pavisam $2^{2^n - 1}$ virkņu garumā $2^n-1$, tad
 
-$$2^n \cdot m \leq 2^{2^n - 1} \;\;\Rightarrow\;\; m \leq 2^{2^n - n-1}.$$
+`$$2^n \cdot m \leq 2^{2^n - 1} \;\;\Rightarrow\;\; m \leq 2^{2^n - n-1}.$$`
 
 
 
@@ -533,7 +535,7 @@ Citādi tur ir $0$.
 
 Heminga $[7,4,1]$ ģeneratormatrica izskatās šādi:
 
-$$G = \left(
+`$$G = \left(
 \begin{array}{cccc}
 1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
@@ -542,7 +544,7 @@ $$G = \left(
 0 & 0 & 0 & 1 \\
 1 & 1 & 0 & 1 \\
 1 & 0 & 1 & 1 
-\end{array} \right)$$
+\end{array} \right)$$`
 
 1.,2.,3. un 5. rinda apraksta kodētā ziņojuma 
 bitu sakrišanu ar sākotnējā ziņojuma bitiem.  
@@ -557,12 +559,12 @@ Pārējās rindas apraksta formulas kontrolbitiem.
 
 Lai nokodētu ziņojumu, mēs aprakstām to ar vektoru:
 
-$$\mathbf{x} = \left( \begin{array}{l}
+`$$\mathbf{x} = \left( \begin{array}{l}
 x_1\\
 x_2\\
 x_3\\
 x_4
-\end{array} \right)$$
+\end{array} \right)$$`
 
 un tad reizinām šo vektoru ar ģeneratormatricu $M$.  
 Nokodētais ziņojums būs $M\mathbf{x}$, 
@@ -576,11 +578,11 @@ visus tā elementus rēķinot pēc moduļa $2$.
 Atkodēšanai izmanto arī
 paritātes pārbaudes matricu. Hemingam $[7,4,1]$ tā ir šāda:
 
-$$P = \left( \begin{array}{ccccccc}
+`$$P = \left( \begin{array}{ccccccc}
 1 & 1 & 1 & 1 & 0 & 0 & 0\\
 1 & 1 & 0 & 0 & 1 & 1 & 0\\
 1 & 0 & 1 & 0 & 1 & 0 & 1
-\end{array} \right).$$
+\end{array} \right).$$`
 
 Katra tabulas rinda apraksta vienu no Heminga koda pārbaudēm 
 (vai kontrolbits sakrīt ar noteiktu bitu summu pēc mod $2$). 
@@ -593,11 +595,11 @@ Katra tabulas rinda apraksta vienu no Heminga koda pārbaudēm
 Ja $\mathbf{y}$ – nokodētais ziņojums, $P$ – paritātes 
 pārbaudes matrica un kļūdu nav, tad, rēķinot pēc mod $2$, jāizpildās
 
-$$P\mathbb{y} = \left( \begin{array}{c}
+`$$P\mathbb{y} = \left( \begin{array}{c}
 0 \\ 
 0 \\
 0 
-\end{array} \right).$$
+\end{array} \right).$$`
 
 Paritātes pārbaudes matricu var izmantot arī, 
 lai noteiktu, kur ir kļūdas, ja tādas ir, 
@@ -660,15 +662,15 @@ Kodi $x_{111},\ldots,x_{001}$ izkārtoti <blue>*apgrieztā leksikogrāfiskā sec
 Kāpēc virknītē $x_1,x_2,x_3,y_1,x_4,y_2,y_3$ 
 ziņojuma biti $x_i$ nedaudz sajaukti ar kontrolbitiem $y_j$?
 
-$$\left\{
+`$$\left\{
 \begin{array}{l}
 y_{1} = \color{#00F}{x_{100}} = \color{#00F}{x_{111} \oplus x_{110} \oplus x_{101}} = x_1 \oplus x_2 \oplus x_3\\
 y_{2} = \color{#00F}{x_{010}} = \color{#00F}{x_{111} \oplus x_{110} \oplus x_{011}} = x_1 \oplus x_2 \oplus x_4\\
 y_{3} = \color{#00F}{x_{001}} = \color{#00F}{x_{111} \oplus x_{101} \oplus x_{011}} = x_1 \oplus x_3 \oplus x_4
-\end{array} \right.$$
+\end{array} \right.$$`
 
-Ar $x_1 \oplus x_2$ apzīmējam 
-$\left(x_1+x_2\right)\,\text{mod}\,2$.  
+Ar `$x_1 \oplus x_2$` apzīmējam 
+`$\left(x_1+x_2\right)\,\text{mod}\,2$`.  
 Saskaitīšana pēc moduļa $2$ jeb XOR, jeb 
 "izslēdzošais VAI".
 
@@ -740,12 +742,12 @@ Izmantojot Heminga kodu $[7,4,1]$, atkodēt virkni `0111101`.
 
 <hgroup style="font-size:70%">
 
-$$\left\{
+`$$\left\{
 \begin{array}{l}
 y_1 = x_1 \oplus x_2 \oplus x_3,\\
 y_2 = x_1 \oplus x_2 \oplus x_4,\\
 y_3 = x_1 \oplus x_3 \oplus x_4.
-\end{array} \right.$$
+\end{array} \right.$$`
 
 * $y_1$ nesakrīt $\Rightarrow$ kļūda var būt tikai kādā no bitiem, kas ietekmē $y_1$ ($y_1, x_1, x_2, x_3$). 
 * $y_2$ sakrīt $\Rightarrow$ kļūda var būt tikai kādā no bitiem, kas neietekmē $y_2$ ($y_1, y_3, x_3$).

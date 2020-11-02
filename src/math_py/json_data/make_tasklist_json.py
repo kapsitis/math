@@ -10,21 +10,21 @@ from datetime import date
 from datetime import timedelta
 
 
-SUBDIR = 'algorithms'
-SUBFILE = 'algorithms-topics'
-JSON_FILE = 'algorithms_topics.json'
-MODULES_FILE = 'algorithms_modules.json'
-FIRST_YEAR = 2020
-FIRST_MONTH = 9
-FIRST_DATE = 7
+# SUBDIR = 'algorithms'
+# SUBFILE = 'algorithms-topics'
+# JSON_FILE = 'algorithms_topics.json'
+# MODULES_FILE = 'algorithms_modules.json'
+# FIRST_YEAR = 2020
+# FIRST_MONTH = 9
+# FIRST_DATE = 7
 
-#SUBDIR = 'data-structures'
-#SUBFILE = 'data-structures-topics'
-#JSON_FILE = 'data_structures_topics.json'
-#MODULES_FILE = 'data_structures_modules.json'
-#FIRST_YEAR = 2020
-#FIRST_MONTH = 8
-#FIRST_DATE = 31
+SUBDIR = 'data-structures'
+SUBFILE = 'data-structures-topics'
+JSON_FILE = 'data_structures_topics.json'
+MODULES_FILE = 'data_structures_modules.json'
+FIRST_YEAR = 2020
+FIRST_MONTH = 8
+FIRST_DATE = 31
 
 
 
@@ -180,6 +180,7 @@ def make_lst(tasks):
             topTopic = topWeek['links'][len(topWeek['links']) - 1]
             if curr_key in ['reading']:
                 m = re.search('^([^\(\)]+)\s+(\([^\(\)]+\))\s+(.+)$', curr_value)
+                #m1 = re.search('^CH\d\dP\d\d$', curr_value)
                 if m:
                     readingLink = {'url': m.group(1).strip(), 'ref': m.group(2).strip(), 'title': m.group(3).strip() }            
                     topTopic['readings'].append(readingLink)

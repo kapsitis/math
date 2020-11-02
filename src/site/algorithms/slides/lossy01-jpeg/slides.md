@@ -126,7 +126,7 @@ Sk. [Ungārijas 2018.g. vēlēšanas](https://en.wikipedia.org/wiki/2018_Hungari
 
 # <lo-theory/> Kas ir transformācija
 
-$$\left( \begin{array} \text{x'_1} \\ x'_2 \\ \cdots \\ x'_n \end{array} \right)
+`$$\left( \begin{array} \text{x'_1} \\ x'_2 \\ \cdots \\ x'_n \end{array} \right)
 \approx
 \left( \begin{array}
 \text{a_{11}} &  a_{12} & \cdots & a_{1n} \\
@@ -134,7 +134,7 @@ a_{21} & a_{22} & \cdots & a_{2n} \\
 \vdots & \vdots & \vdots & \vdots \\
 a_{n1} & a_{n2} & \cdots & a_{nn} 
 \end{array} \right)
-\left( \begin{array} \text{x_1} \\ x_2 \\ \cdots \\ x_n \end{array} \right)$$
+\left( \begin{array} \text{x_1} \\ x_2 \\ \cdots \\ x_n \end{array} \right)$$`
 
 
 -----
@@ -224,27 +224,27 @@ Redze precīzāk uztver "I" (pāreju no oranžā uz zilo) nevis
 
 ## <lo-summary/> Pārveido YIQ koordinātēs
 
-$$\left( \begin{array} \text{Y} \\ I \\ Q \end{array} \right)
+`$$\left( \begin{array} \text{Y} \\ I \\ Q \end{array} \right)
 \approx
 \left( \begin{array}
 \text{0.299} &  0.587 &  0.114 \\
 0.5959 & -0.2746 & -0.3213 \\
 0.2115 & -0.5227 &  0.3112
 \end{array} \right)
-\left( \begin{array} \text{R} \\ G \\ B \end{array} \right)$$
+\left( \begin{array} \text{R} \\ G \\ B \end{array} \right)$$`
 
 
 **Pārveido atpakaļ uz RGB:**
 
 
-$$\left( \begin{array} \text{R} \\ G \\ B \end{array} \right)
+`$$\left( \begin{array} \text{R} \\ G \\ B \end{array} \right)
 \approx
 \left( \begin{array}
 \text{1} &  0.956 &  0.619 \\
 1 & -0.272 & -0.647 \\
 1 & -1.106 &  1.703
 \end{array} \right)
-\left( \begin{array} \text{Y} \\ I \\ Q \end{array} \right)$$
+\left( \begin{array} \text{Y} \\ I \\ Q \end{array} \right)$$`
 
 
 -----
@@ -297,12 +297,12 @@ Pēc tam to pašu izdara katrai iegūtās matricas rindai.
 
 # <lo-theory/> JPEG 5.solis
 
-Elementu $x''_{ij}$ noapaļojam līdz precizitātei $a_{ij}$ (dala 
-ar $a_{ij}$ un apaļo uz leju ar $\lfloor x \rfloor$). 
-Elementu atšķirības, kas ir mazākas par $a_{ij}$, ir nebūtiskas. 
+Elementu `$x''_{ij}$` noapaļojam līdz precizitātei `$a_{ij}$` (dala 
+ar `$a_{ij}$` un apaļo uz leju ar `$\lfloor x \rfloor$`). 
+Elementu atšķirības, kas ir mazākas par `$a_{ij}$`, ir nebūtiskas. 
 Galvenā viltība ir tā, ka skaitļi  atšķiras dažādiem matricas elementiem. 
 Tās komponentes, kuras acs uztver vājāk, tiek noapaļotas ar 
-zemāku precizitāti. Mazākā vērtība $a_{13} = 10$, lielākā – $a_{65} = 121$.
+zemāku precizitāti. Mazākā vērtība `$a_{13} = 10$`, lielākā – `$a_{65} = 121$`.
 
 
 -----
@@ -313,7 +313,7 @@ zemāku precizitāti. Mazākā vērtība $a_{13} = 10$, lielākā – $a_{65} = 
 kopīgā virknē. Šādi tiks iegūtas trīs virknes – 
 katrai no trim krāsu telpas YIQ komponentēm. 
 
-* Raksta starpības $a_1, a_2-a_1, a_3 - a_2,\ldots$. 
+* Raksta starpības `$a_1, a_2-a_1, a_3 - a_2,\ldots$`. 
 
 
 -----

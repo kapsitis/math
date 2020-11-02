@@ -130,7 +130,7 @@ izmantojot "interlacing".
 
 ## <lo-summary/> Konteineri, ko atbalsta YouTube
 
-<div style="font-size:80%">
+<div style="font-size:100%">
 
 * MP4 (daļa no MPEG-4 standarta); paplašinājums `*.mp4`
 * AVI (Audio Video Interleaved/Microsoft); paplašinājums `*.avi`
@@ -252,6 +252,9 @@ kameras iefokusēšanās - *panning*).
 
 ## <lo-theory/> Saspiešanas piemērs
 
+
+<div style="font-size:80%">
+
 Ja video ir $356 \times 260$ pikseļi, tad freimu izmēri 
 un saspiešanas attiecības ir sekojošas: 
 
@@ -266,11 +269,12 @@ un saspiešanas attiecības ir sekojošas:
 Tādēļ šādu attēlu pārraidīšanai vajadzīgais tīkla
 savienojums: 
 
-$$30\,\text{frame/s}\cdot 4.8\,\text{Kb/frame}\,\cdot 8 = 1.2\,\text{Mbit/s}.$$
+`$$30\,\text{frame/s}\cdot 4.8\,\text{Kb/frame}\,\cdot 8 = 1.2\,\text{Mbit/s}.$$`
 
 Kopā ar audio tas var būt 1.45 megabiti sekundē, kas aizņem T1 Interneta
 savienojumu (viens vītais pāris; 1.544 Mbps).
 
+</div>
 
 --
 
@@ -326,7 +330,7 @@ piemēram, AAC (Advanced Audio Coding) vai MPEG-H.
 * [The MP3 is dead, say creators after terminating licensing](https://www.cnbc.com/2017/05/15/mp3-dead-say-creators-after-terminating-licensing.html)
 
 
---
+-----
 
 # <lo-theory/> Parauga ātrums (sample rate)
 
@@ -340,12 +344,44 @@ standarti, kas izmanto 48 kHz, 88.2 kHz, vai 96 kHz.)
 Ja funkcijai $x(t)$ (pēc Furjē transformācijas pielietošanas)
 nav frekvenču, kas pārsniegtu $B$ hercus, tad to 
 var pilnībā (bez zudumiem) atjaunot, ja zināmas tās 
-vērtības ik pēc laika intervāliem $\Delta t = 1/(2B)$.
+vērtības ik pēc laika intervāliem `$\Delta t = 1/(2B)$`.
 
 
 --
 
-## <lo-theory/> Bitu pārraide? (bitrate)
+## <lo-theory/> Ekvivalenti apgalvojumi
+
+<hgroup>
+
+**Nyquist-Shannon 1:** Funkciju $f(t)$, kuras vērtības zināmas pēc vienādiem laika intervāliem 
+$\Delta T$ var viennozīmīgi atjaunot no šīm vērtībām `$\{ f_n \}$` 
+tad un tikai tad, ja $f(t)$ enerģijas spektrs nesatur frekvences virs `$\frac{\pi}{\Delta T}$` rad/s. 
+
+</hgroup>
+<hgroup>
+
+**Nyquist-Shannon 3:** 
+Ir tikai viena funkcija $f(t)$, kuras frekvenču spektrs viss atrodas zem `$\frac{\pi}{\Delta T}$`, 
+ko apmierina dotās vērtības `$\{ f_n \}$`.
+
+
+[Lecture10 in 2.161](https://ocw.mit.edu/courses/mechanical-engineering/2-161-signal-processing-continuous-and-discrete-fall-2008/lecture-notes/lecture_10.pdf)
+
+
+</hgroup>
+
+--
+
+## <lo-theory/> Kas notiek, ja neievēro teorēmu
+
+
+![Sinusu starpība](sinus-functions.png)
+
+
+
+-----
+
+# <lo-theory/> Bitu pārraide? (bitrate)
 
 * Svarīgākais saspiešanas parametrs. 
 * MP3 (MPEG layer 3 standarts) atļauj bitu ātrumus no 8 kbit/s līdz 320 kbit/s. 
@@ -431,11 +467,12 @@ tuva frekvence, laika sakritība.
 
 ## <lo-theory/> FFT (ātrā Furjē transformācija)
 
-<hgroup style="width:60%">
+<hgroup style="width:55%">
 
 ![Full MP3 model](full-mp3-model.png)
 
 </hgroup>
+
 <hgroup style="width:40%">
 
 * Ik pēc aptuveni 25 ms rodas jauns MP3 freims. 
@@ -523,11 +560,10 @@ steganogrāfisko ziņojumu sabojāt.
 
 # <lo-theory/> Ūdenszīmju tehnoloģijas
 
-* Anekdote par spaini, uz kura uzraksts: "Zagts Tirzas krogā".
-* <blue>*Ūdenszīmju tehnoloģijas*</blue> (*Watermark techniques*) - 
+* <emblue>Ūdenszīmju tehnoloģijas</emblue> (*Watermark techniques*) - 
 mediju failu izmaiņas, kas var palīdzēt atklāt licencei neatbilstošu 
 satura izmantošanu. Dažreiz arī, kurš medija eksemplārs noplūdis.
-* Ūdenszīmju ievietošana radniecīga <blue>*steganogrāfijai*</blue> 
+* Ūdenszīmju ievietošana radniecīga <emblue>steganogrāfijai</emblue> 
 (papildus slepena ziņojuma ievietošana failā, kura redzamais 
 saturs ir par kaut ko citu).
 
@@ -550,23 +586,23 @@ DKIM) ievieto jau gatavā mediju failā.
 
 ## <lo-summary/> Redzamas un neredzamas ūdenszīmes
 
-* <blue>*Redzamas*</blue> (*visible*) ūdenszīmes.   
+* <emblue>Redzamas</emblue> (*visible*) ūdenszīmes.   
 Var PDF faila lappusēm uzkrāsot virsū kaut kādu musturi; 
 visu grāmatu 17.lpp. iespiest bibliotēkas zīmogu.
-* <blue>*Neredzamas*</blue> (*invisible*) ūdenszīmes.
+* <emblue>Neredzamas</emblue> (invisible) ūdenszīmes.
 Tās palīdz atzīmēt faila izcelsmi, 
 saņēmēju. Reizēm arī šīs informācijas 
-<blue>*pretizvairīšanos*</blue>(?) vai drīzāk
-<blue>*nenoliedzamību*</blue> (*nonrepudiation*).
+<emblue>pretizvairīšanos</emblue> jeb
+<emblue>nenoliedzamību</emblue> (*nonrepudiation*).
 
 
 --
 
 ## <lo-summary/> Trauslas un noturīgas ūdenszīmes
 
-* <blue>*Trauslas*</blue> (*fragile*) ūdenszīmes viegli sabojāt pat nelieliem 
+* <emblue>Trauslas</emblue> (*fragile*) ūdenszīmes viegli sabojāt pat nelieliem 
 medija pārveidojumiem - var palīdzēt atklāt, ja fails ticis mainīts.
-* <blue>*Noturīgas*</blue> (*robust*) ūdenszīmes labi saglabājas arī pēc 
+* <emblue>Noturīgas</emblue> (*robust*) ūdenszīmes labi saglabājas arī pēc 
 mediju faila manipulēšanas.
 
 Bieži vajag gan vienas, gan otras - lai noskaidrotu faila patieso 
@@ -577,10 +613,10 @@ izcelsmi (un pēc tam - vai tas nav ticis mainīts pa ceļam līdz saņēmējam)
 
 ## <lo-summary/> Telpiskas un spektrālas ūdenszīmes
 
-* <blue>*Telpiskas*</blue> (*spatial*) ūdenszīmes parādās noteiktā medija vietā. 
+* <emblue>Telpiskas</emblue> (*spatial*) ūdenszīmes parādās noteiktā medija vietā. 
 Noteiktos pikseļos var kvalitatīvi noglabāt datus, bet tie parasti 
 nav noturīgi. 
-* <blue>*Spektrālas*</blue> (*spectral*) ūdenszīmes izmaina 
+* <emblue>Spektrālas</emblue> (*spectral*) ūdenszīmes izmaina 
 mediju faila spektrālā pārveidojumā (DCT, DFT vai DWT - t.i. kosinusu, 
 Furjē vai vilnīšu/wavelet pārveidojumā) esošos koeficientus - parasti 
 tos, kas atbilst augstākajām frekvencēm, jo cilvēki šīs frekvences

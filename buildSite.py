@@ -208,7 +208,7 @@ def main():
     make_tasklist_json.main()
     publish_grades()
 
-    resTypes = ['algorithms','rbs'] 
+    resTypes = ['algorithms','rbs','numtheory'] 
     skip_directories = ['source-material','static','questionbase','analysis', 'coq-inductive', 'coq-numbertheory', 'coq-predicates', 'coq-propositional', 'coq-sets']
 
 
@@ -250,6 +250,7 @@ def main():
 #    build_static('src/site/visualizations/static', '%s/visualizations-bin' % DEST_ROOT)
 #    build_static('src/site/numtheory/static', '%s/numtheory-bin' % DEST_ROOT)
     build_static('src/site/algorithms/static', '%s/algorithms-bin' % DEST_ROOT)
+    build_static('src/site/numtheory/static', '%s/numtheory-bin' % DEST_ROOT)
     #fall2020-homeworks
 #    build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
 #    build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)

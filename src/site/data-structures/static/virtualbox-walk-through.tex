@@ -354,13 +354,13 @@ sudo apt-get upgrade
 \item Install Java JDK (prerequisite for Jenkins). First search all the ``openjdk'' related installations, 
 then install the package {\tt openjdk-8-jdk}. Finally, check if your Java has the right version 1.8.
 \begin{verbatim}
-sudo apt search openjdk
-sudo apt install openjdk-8-jdk
+sudo apt-get search openjdk
+sudo apt-get install openjdk-8-jdk
 java -version
 \end{verbatim}
 \item Install C++ compiler (named {\tt g++}) and also {\tt make} utility:
 \begin{verbatim}
-sudo apt install build-essential
+sudo apt-get install build-essential
 \end{verbatim}
 \item Install Git client:
 \begin{verbatim}
@@ -384,7 +384,7 @@ rectangle in the above image).\\
 \frame{\includegraphics[width=3in]{virtualbox-walk-through/jenkins03.png}}
 \item Register Jenkins as a system service that starts whenever Xubuntu is running:
 \begin{verbatim}
-sudo systemctlstart jenkins
+sudo systemctl start jenkins
 sudo systemctl status jenkins
 \end{verbatim}
 \item In Xubuntu Web Browser enter {\tt http://127.0.0.1:8080}.\\
