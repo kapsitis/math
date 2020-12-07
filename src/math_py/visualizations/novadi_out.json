@@ -1,0 +1,30 @@
+[
+    {
+        "address": "Daugavpils, Latgale, Latvija",
+        "inhabitants": 90939,
+        "latitude": 55.8712267,
+        "longitude": 26.5159337,
+        "novads": "DAUGAVPILS"
+    },
+    {
+        "address": "Jelgava, Zemgale, Latvija",
+        "inhabitants": 60645,
+        "latitude": 56.6514394,
+        "longitude": 23.7339143,
+        "novads": "JELGAVA"
+    },
+    {
+        "address": "Jēkabpils, Zemgale, Latvija",
+        "inhabitants": 23241,
+        "latitude": 56.4958638,
+        "longitude": 25.8687747,
+        "novads": "JĒKABPILS"
+    },
+    {
+        "address": "Jūrmala, Vidzeme, Latvija",
+        "inhabitants": 58117,
+        "latitude": 56.9727164,
+        "longitude": 23.7886979,
+        "novads": "JŪRMALA"
+    }
+]

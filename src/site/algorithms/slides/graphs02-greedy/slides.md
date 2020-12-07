@@ -267,6 +267,81 @@ sākuma virsotnei $s \in V$ tas atrod pašus lētākos ceļus uz jebkuru
 citu virsotni šajā grafā. 
 
 
+-----
+
+# <lo-summary/> Minimālie ceļi grafā
+
+<hgroup>
+
+![Graph Distances](graph-distances.png)
+
+</hgroup>
+
+<hgroup style="font-size:70%">
+
+Grafa virsotnes `$(i, j)$` atbilst tabulas elementiem `$M[i, j]$`. 
+
+* Virsotņu pāri, kas sastāv no `$(i,j-1)$` un `$(i, j)$`, 
+vai no `$(i-1,j)$` un `$(i,j)$`, savienoti ar šķautni garumā `$1$`. 
+* Virsotņu pāri, kas sastāv no `$(i-1,j-1)$` un `$(i,j)$`, 
+savienoti ar šķautni garumā `$0$` (zīmējumā – pārtraukta līnija), 
+ja `$A[i] = B[j]$` un šķautni garumā `$1$` citos gadījumos.
+
+`$M[m,n]$` ir īsākais ceļš no `$(0,0)$` uz `$(m,n)$`. To izrēķina ar Daikstras algoritmu 
+īsākā ceļa atrašanai. Tam vajadzīgi `$O(n \cdot D)$` soļi, kur `$D$` - minimālais labojumu skaits. 
+Ja `$D << m,n$` (virknes ir ļoti līdzīgas), tad tas ir labāk nekā `$O(m \cdot n)$`.
+
+</hgroup>
+
+
+
+
+-----
+
+# <lo-summary/> Daikstras algoritms
+
+Daikstras algoritms atrod īsākos ceļus no vienas virsotnes 
+grafā uz katru no pārējām virsotnēm. Šajā konkrētajā gadījumā 
+Daikstras algoritms ir vienkāršāks nekā vispārējā gadījumā:
+
+1. `$i=0$`;
+2. Izveido sarakstu `$S_i$` ar visām virsotnēm attālumā `$i$` no `$(0;0)$`. 
+Palielina `$i$` (`$i = i+1$`). 
+3. Soli Nr.2 atkārto līdzkamēr `$(m,n) \in S_i$`. 
+
+
+
+-----
+
+## <lo-summary/> Saraksta S_0 izveide
+
+1. `$i = 0$`
+2. Pievieno `$(i,i)$` sarakstam `$S_0$`, `$i = i+1$` līdz brīdim kad 
+`$A[i] \neq B[i]$`. 
+
+
+## <lo-summary/> Saraksta S_i izveide (i>0)
+
+<div style="font-size:70%">
+
+Priekš katra iepriekšējā saraksta `$S_{i-1}$` 
+elementa `$(j, k)$`:
+
+1. Ja `$(j+1,k)$` nav nevienā no sarakstiem `$S_0, S_1, \ldots, S_{i-1}$`, tad:
+    * Pievieno `$(j+1, k)$` sarakstam `$S_i$`.
+    * Katram `$r>0$`, kuram apakšvirkne `$A[j+2]\ldots{}A[j+r+1]$` 
+sakrīt ar `$B[k+1]\ldots{}B[k+r]$`, pievieno `$(j+r+1, k+r)$` sarakstam `$S_i$`.
+2. Ja `$(j,k+1)$` nav nevienā no sarakstiem `$S_0, S_1, \ldots, S_{i-1}$`, tad:
+    * Pievieno `$(j, k+1)$` sarakstam `$S_i$`.
+    * Katram `$r>0$`, kuram apakšvirkne `$A[j+1]\ldots{}A[j+r]$` 
+sakrīt ar `$B[k+2]\ldots{}B[k+r+1]$`, pievieno `$(j+r,k+r+1)$` sarakstam `$S_i$`.
+3. Ja `$(j+1, k+1)$` nav nevienā no sarakstiem `$S_0, S_1, \ldots, S_{i-1}$`, tad:
+    * Pievieno `$(j+1, k+1)$` sarakstam `$S_i$`.
+    * Katram `$r>0$`, kuram apakšvirkne `$A[j+2]\ldots{}A[j+r+1]$` sakrīt ar 
+`$B[k+2]\ldots{}B[k+r+1]$`, pievieno `$(j+r+1, k+r+1)$` sarakstam `$S_i$`.
+
+</div>
+
 
 
 

@@ -124,7 +124,7 @@ tiklīdz kā tas ir atkodēts un izvadīts, tad var beigt darbu.)
 
 
 \vspace{20pt}
-{\bf 2.uzdevums (Heminga kodi).}\\
+{\bf 3.uzdevums (Heminga kodi).}\\
 Atrast kļūdas (ja tādas ir) sekojošos Heminga koda ziņojumos:\\
 {\bf (A)} $\mathtt{1100000}$ (tas ir $[7,4,1]$-kods, bitu secība no $x_{001}$ līdz $x_{111}$). 
 
@@ -160,6 +160,239 @@ aritmētikai (tā ir aritmētika pēc pirmskaitļa $257$ moduļa).
 Abos gadījumos atrast, cik kļūdas var izlabot (at\-ka\-rī\-bā no parametra $n$). Par kļūdu uzskatām situāciju, kad 
 attiecīgo polinoma $p(x)$ vai $q(x)$ vērtību saņēmējam neizdevās saņemt (saņēmējam ir zināms, kuras vērtības pa ceļam 
 sabojājās, bet viņam nav zināms, kādas bija šīs vērtības). 
+
+
+
+
+\newpage
+\vspace{10pt}
+{\bf 1.uzdevums.}\\ 
+{\bf (A)} Izrakstām cikliskās permutācijas:
+
+\begin{verbatim}
+PANAMACANAL$
+$PANAMACANAL
+L$PANAMACANA
+AL$PANAMACAN
+NAL$PANAMACA
+ANAL$PANAMAC
+CANAL$PANAMA
+ACANAL$PANAM
+MACANAL$PANA
+AMACANAL$PAN
+NAMACANAL$PA
+ANAMACANAL$P
+\end{verbatim}
+
+Sakārtojam parastajā alfabētiskajā secībā:
+
+\begin{verbatim}
+$PANAMACANAL
+ACANAL$PANAM
+AL$PANAMACAN
+AMACANAL$PAN
+ANAL$PANAMAC
+ANAMACANAL$P
+CANAL$PANAMA
+L$PANAMACANA
+MACANAL$PANA
+NAL$PANAMACA
+NAMACANAL$PA
+PANAMACANAL$
+\end{verbatim}
+
+Pēdējā kolonna ir transformācijas rezultāts:\\ 
+$\textcolor{blue}{\mathtt{LMNNCPAAAAA\$}}$.
+
+Pielietojam ``Move to Front'' kodējumu. 
+Pašā sākumā alfabēts ir sākotnējā secībā. Iepriekšējā soļa ievadē 
+sastaptais burts ikreiz pārceļo uz alfabēta sākumu.
+
+\begin{tabular}{|l|l|l|} \hline
+{\bf Ievade} & {\bf Alfabēts} & {\bf Izvade} \\ \hline
+L & 
+$\{
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{C}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{N}}
+,\textcolor{blue}{\mathtt{P}} 
+\}$ & 
+3 \\ \hline
+M & 
+$\{
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{C}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{P}} 
+\}$ & 
+4 \\ \hline
+N & 
+$\{
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{C}},
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{P}} 
+\}$ & 
+5 \\ \hline
+N & 
+$\{
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{C}},
+\textcolor{blue}{\mathtt{P}} 
+\}$ & 
+0 \\ \hline
+C & 
+$\{
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{C}},
+\textcolor{blue}{\mathtt{P}} 
+\}$ & 
+5 \\ \hline
+P & 
+$\{
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{C}},
+\textcolor{blue}{\mathtt{P}} 
+\}$ & 
+6 \\ \hline
+A & 
+$\{
+\textcolor{blue}{\mathtt{P}}, 
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{C}}
+\}$ & 
+5 \\ \hline
+A & 
+$\{
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{P}},
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{C}}
+\}$ & 
+0 \\ \hline
+A & 
+$\{
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{P}}, 
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{C}}
+\}$ & 
+0 \\ \hline
+A & 
+$\{
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{P}}, 
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{C}}
+\}$ & 
+0 \\ \hline
+A & 
+$\{
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{P}},
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{C}}
+\}$ & 
+0 \\ \hline
+\$ & 
+$\{
+\textcolor{blue}{\mathtt{A}},
+\textcolor{blue}{\mathtt{P}},
+\textcolor{blue}{\mathtt{N}},
+\textcolor{blue}{\mathtt{M}},
+\textcolor{blue}{\mathtt{L}},
+\textcolor{blue}{\mathtt{\$}},
+\textcolor{blue}{\mathtt{C}}
+\}$ & 
+5 \\ \hline
+\end{tabular}
+
+Tātad pie dotā alfabēta 
+$\mathcal{A}=\{\textcolor{blue}{\mathtt{\$}},\textcolor{blue}{\mathtt{A}},\textcolor{blue}{\mathtt{C}},
+\textcolor{blue}{\mathtt{L}},\textcolor{blue}{\mathtt{M}},\textcolor{blue}{\mathtt{N}},\textcolor{blue}{\mathtt{P}} \}$
+Berouza-Vīlera iekodēšanas rezultāts:\\
+$\textcolor{red}{\mathtt{3,4,5,0,5,6,5,0,0,0,0,5}}$.
+
+
+\newpage
+{\bf (B)} Izrakstām cikliskās permutācijas
+\begin{verbatim}
+PANAMACANAL $
+$PANAMACANA L
+L$PANAMACAN A
+AL$PANAMACA N
+NAL$PANAMAC A
+ANAL$PANAMA C
+CANAL$PANAM A
+ACANAL$PANA M
+MACANAL$PAN A
+AMACANAL$PA N
+NAMACANAL$P A
+ANAMACANAL$ P
+\end{verbatim}
+
+Sakārtojam inversi leksikogrāfiski virknītes (no sākuma līdz priekšpēdējai pozīcijai):
+
+\begin{verbatim}
+ANAMACANAL$ P
+AL$PANAMACA N
+ANAL$PANAMA C
+$PANAMACANA L
+ACANAL$PANA M
+AMACANAL$PA N
+NAL$PANAMAC A
+PANAMACANAL $
+CANAL$PANAM A
+L$PANAMACAN A
+MACANAL$PAN A
+NAMACANAL$P A
+\end{verbatim}
+
+Pēdējā kolonna ir transformācijas rezultāts:\\ 
+$\textcolor{blue}{\mathtt{PNCLMNA\$AAAA}}$.
+
+
+\vspace{20pt}
+{\bf 2.uzdevums.} 
+Izmantojot rekurentas sakarības, atrodam, ka 
+$$I_{12} = [0.935721517000; 0.935721517972).$$
 
 
 

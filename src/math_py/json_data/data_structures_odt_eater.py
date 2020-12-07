@@ -58,6 +58,7 @@ def getJsonOfLists(lines):
         curr_val = line[2].strip()
 
         (curr_a, curr_b) = getIdSubid(curr_id)
+        #print('(curr_a,curr_b)=({},{})'.format(curr_a,curr_b))
 
         if (curr_b == -1):
             prev_b = curr_b

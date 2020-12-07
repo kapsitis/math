@@ -97,8 +97,8 @@ Optimizācijas uzdevumos mērķis ir maksimizēt (vai minimizēt) noteiktu funkc
 
 * Optimizācija bez nosacījumiem: Minimizēt $f(x_1, x_2, \ldots, x_n)$.
 * Optimizācija ar nosacījumiem: Minimizēt $f(x_1, x_2, \ldots, x_n)$ pie nosacījumiem
-$$c_1(x_1, x_2, \ldots, x_n) \geq 0, \ldots, c_k(x_1, x_2, \ldots, x_n) \geq 0,$$
-$$d_1(x_1, x_2, \ldots, x_n) = 0, \ldots, d_{\ell}(x_1, x_2, \ldots, x_n) = 0.$$
+`$$c_1(x_1, x_2, \ldots, x_n) \geq 0, \ldots, c_k(x_1, x_2, \ldots, x_n) \geq 0,$$`
+`$$d_1(x_1, x_2, \ldots, x_n) = 0, \ldots, d_{\ell}(x_1, x_2, \ldots, x_n) = 0.$$`
 
 
 --
@@ -111,14 +111,14 @@ Ieviešot nosacījumus attiecībā uz funkciju $f$,
 iegūst šādus optimizācijas uzdevumu paveidus:
 
 **Kvadrātiskā programmēšana:** Minimizēt
-${\displaystyle \sum\limits_{i,j=1}^{n} a_{ij}x_ix_j +  \sum\limits_{i=1}^{n} b_ix_i }$
+`${\displaystyle \sum\limits_{i,j=1}^{n} a_{ij}x_ix_j +  \sum\limits_{i=1}^{n} b_ix_i }$`
 pie nosacījumiem
-$$\left\{ 
+`$$\left\{ 
 \begin{array}{l} 
 c_{11} x_1 + c_{12} x_1 + \ldots + c_{1n} x_n \leq d_1,\\
 \ldots,\\
 c_{m1} x_1 + c_{m2} x_1 + \ldots + c_{mn} x_n \leq d_m,
-\end{array} \right.$$
+\end{array} \right.$$`
 
 Šajā gadījumā minimizējamā funkcija ir kvadrātiska, bet nosacījumi ir lineāri. 
 
@@ -132,12 +132,12 @@ c_{m1} x_1 + c_{m2} x_1 + \ldots + c_{mn} x_n \leq d_m,
 <div style="font-size:80%">
 
 **Lineārā programmēšana:** Minimizēt 
-${\displaystyle \sum\limits_{i=1}^{n} b_ix_i }$  pie nosacījumiem
-$$\left\{ \begin{array}{l}
+`${\displaystyle \sum\limits_{i=1}^{n} b_ix_i }$`  pie nosacījumiem
+`$$\left\{ \begin{array}{l}
 c_{11} x_1 + c_{12} x_2 + \ldots + c_{1n} x_n \leq d_1,\\
 \ldots,\\
 c_{m1} x_1 + c_{m2} x_2 + \ldots + c_{mn} x_n \leq d_m,
-\end{array} \right.$$
+\end{array} \right.$$`
 
 *Piezīme:* Vārds "programmēšana" lietots nozīmē "plānošana". 
 Dažus optimizācijas uzdevumu veidus sauc par programmēšanu jau 
@@ -182,9 +182,9 @@ kuru mainīgie ir reāli skaitļi.
 
 # <lo-sample/> LP Piemērs: Pārtikas iepirkšana
 
-Ir zināmi produkti $1,\ldots, n$ ar cenām $p_1,\ldots, p_n$.
-Ir $k$ uzturvielu tipi un vienā dienā cilvēkam vajadzīgs daudzums $c_i$ ar
-uzturvielu $i$. Atrast lētāko produktu
+Ir zināmi produkti `$1,\ldots, n$ ar cenām $p_1,\ldots, p_n$`.
+Ir `$k$` uzturvielu tipi un vienā dienā cilvēkam vajadzīgs daudzums `$c_i$` ar
+uzturvielu `$i$`. Atrast lētāko produktu
 kombināciju, kas nodrošina pietiekami daudz katras uzturvielas.
 
 **Leonīds Kantorovičs (1912-1986)** (*Леонид Канторович*, 
@@ -202,19 +202,19 @@ ražošanas plānošanu, it īpaši situācijās, kurās nav brīvā tirgus.
 
 Ar $x_i$ apzīmējam $i$-tā produkta daudzumu, 
 ko iegādāsimies. Tad jāminimizē kopējās izmaksas
-$\color{#00F}{p_1 x_1 + p_2 x_2 + \ldots + p_n x_n}$
+`$\color{#00F}{p_1 x_1 + p_2 x_2 + \ldots + p_n x_n}$`
 pie nosacījumiem
-$$\left\{ 
+`$$\left\{ 
 \begin{array}{l}
 x_1 \geq 0,\;\; x_2 \geq 0,\;\; \ldots,\;\; x_n \geq 0,\\
 a_{11} x_1 + a_{12} x_2 + \ldots + a_{1n} x_n \geq c_1,\\
 \ldots,\\
 a_{k1} x_1 + a_{k2} x_2 + \ldots + a_{kn} x_n \geq c_k,
-\end{array} \right.$$
-kur $a_{ij}$ apzīmē $i$-tās uzturvielas daudzumu produktā $j$.
+\end{array} \right.$$`
+kur `$a_{ij}$` apzīmē `$i$`-tās uzturvielas daudzumu produktā `$j$`.
 
 Ja produktu daudzumi ir mērāmi veselos skaitļos 
-(piemēram, veselā skaitā $1L$ paku), 
+(piemēram, veselā skaitā `$1L$` paku), 
 tad iegūstam lineāro programmēšanu veselos skaitļos. 
 Ja dažiem mainīgajiem jābūt veseliem, 
 bet citi drīkst būt patvaļīgi reāli skaitļi, 
@@ -256,12 +256,12 @@ LP uzdevumiem eksistē efektīvi algoritmi.
 Vispārīgais LP uzdevums:  
 Atrast $\color{#00F}{\max\left(c_1x_1 + \ldots + c_nx_n\right)}$, 
 ja izpildās nosacījumi:
-$$\left\{
+`$$\left\{
 \begin{array}{l}
 a_{11}x_1 + a_{12}x_2 + \ldots + a_{1n}x_n \leq b_1\\
 \ldots\\
 a_{m1}x_1 + a_{m2}x_2 + \ldots + a_{mn}x_n \leq b_m
-\end{array} \right.$$
+\end{array} \right.$$`
 
 
 --
@@ -270,17 +270,17 @@ a_{m1}x_1 + a_{m2}x_2 + \ldots + a_{mn}x_n \leq b_m
 
 <div style="font-size:80%">
 
-Atrast $\color{#00F}{\max(2x_1 + 3x_2)}$, kur
-$$\left\{ \begin{array}{l}
+Atrast `$\color{#00F}{\max(2x_1 + 3x_2)}$`, kur
+`$$\left\{ \begin{array}{l}
 x_1 - 2x_2 \leq 4,\\
 x_1 + x_2 \leq 18,\\
 x_2 \leq 10,\\
 x_1,x_2 \geq 0.
-\end{array} \right.$$
+\end{array} \right.$$`
 
 *Piezīme.* Katrs maksimizācijas uzdevums ekvivalents kādam 
 minimizācijas uzdevumam (un otrādi). Piemēram:
-$$\max(2x_1 + 3x_2) = -\min(-2x_1 - 3x_2).$$ 
+`$$\max(2x_1 + 3x_2) = -\min(-2x_1 - 3x_2).$$` 
 Turpmāk apskatīsim tikai maksimizācijas uzdevumus.
 
 </div>
@@ -293,12 +293,12 @@ Turpmāk apskatīsim tikai maksimizācijas uzdevumus.
 <hgroup style="font-size:70%">
 
 Atrast $\color{#00F}{\max(2x_1 + 3x_2)}$, kur
-$$\left\{ \begin{array}{l}
+`$$\left\{ \begin{array}{l}
 x_1 - 2x_2 \leq 4,\\
 x_1 + x_2 \leq 18,\\
 x_2 \leq 10,\\
 x_1,x_2 \geq 0.
-\end{array} \right.$$
+\end{array} \right.$$`
 
 ![Grafiska interpretācija](graphical-interpretation.png)
 
@@ -329,9 +329,9 @@ lielas vērtības. Pirms LP risināšanas jāpārbauda, ka apgabals ir galīgs.
 Attēlos var pamanīt divus nozīmīgus faktus:
 
 **Fakts 1:** Mērķfunkcija savu maksimumu sasniedz pieļaujamā apgabala stūrī.  
-**Fakts 2:** Ja kādā stūri $a_1x_1 + \ldots + a_nx_n$ 
+**Fakts 2:** Ja kādā stūri `$a_1x_1 + \ldots + a_nx_n$` 
 nesasniedz maksimumu, tad vienā no blakus stūriem 
-$a_1x_1 + \ldots + a_nx_n$ ir lielāka vērtība.
+`$a_1x_1 + \ldots + a_nx_n$` ir lielāka vērtība.
  
 Divu dimensiju gadījumā, piemēram, par 2.faktu var pārliecināties, 
 lietojot ģeometrisko interpretāciju. 
@@ -352,11 +352,11 @@ lietojot ģeometrisko interpretāciju.
 <hgroup style="font-size:80%">
 
 1.gadījumā iegūstam vienu no diviem rezultātiem:  
-**(a)** $c_1x_1 + c_2x_2 \leq c$ visā pieļaujamajā apgabalā – stūris ir maksimums.  
-**(b)** $c_1x_1+c_2x_2 \geq c$ visā pieļaujamajā apgabalā – stūris ir minimums.
+**(a)** `$c_1x_1 + c_2x_2 \leq c$` visā pieļaujamajā apgabalā – stūris ir maksimums.  
+**(b)** `$c_1x_1+c_2x_2 \geq c$` visā pieļaujamajā apgabalā – stūris ir minimums.
 
 2.gadījumā stūris nav nedz maksimums, nedz minimums un redzams, 
-ka ir gan blakus stūris ar lielāku $c_1x_1+c_2x_2$ vērtību, gan blakus 
+ka ir gan blakus stūris ar lielāku `$c_1x_1+c_2x_2$` vērtību, gan blakus 
 stūris ar mazāku vērtību.
 
 </hgroup>
@@ -381,8 +381,8 @@ stūris ar mazāku vērtību.
 
 <span>(1) [Ievads](#section-0)</span>  
 <span>(2) [Optimizācijas uzdevumi](#section-1)</span>  
-<span>(3) Grafiskā interpretācija(#section-2)</span>  
-<span style="color:darkgreen">**(4) LP lietojumi un redukcijas</span>  
+<span>(3) [Grafiskā interpretācija](#section-2)</span>  
+<span style="color:darkgreen">**(4) LP lietojumi un redukcijas**</span>  
 <span>(5) [Kopsavilkums](#section-4)</span>
 
 </hgroup>
@@ -428,12 +428,16 @@ skaitļu šajās matricās nav nulles.
 
 <hgroup style="font-size:70%">
 
-![Hamiltonian path](hamiltonian_path_3d.png) <!-- .element: width="200px" -->
+<div style="text-align:center;">
+
+![Hamiltonian path](hamiltonian-paths.png) <!-- .element: width="200px" -->
+
+</div>
 
 **Definīcija:** Par Hamiltona ciklu neorientētā grafā 
-sauc virsotņu virknīti $A_0,A_1,\ldots,A_n$, kur
+sauc virsotņu virknīti `$A_0,A_1,\ldots,A_n$`, kur
 katra grafa virsotne piedalās tieši vienreiz (izņemot 
-$A_0=A_n$ - pirmā visotne sakrīt ar pēdējo) un katras 
+`$A_0=A_n$` - pirmā visotne sakrīt ar pēdējo) un katras 
 divas blakusesošas virsotnes savieno šķautne. 
 
 </hgroup>
@@ -463,7 +467,7 @@ grafā (vai pierādīt, ka šāda cikla nav)?
 
 <span>(1) [Ievads](#section-0)</span>  
 <span>(2) [Optimizācijas uzdevumi](#section-1)</span>  
-<span>(3) Grafiskā interpretācija(#section-2)</span>  
+<span>(3) [Grafiskā interpretācija](#section-2)</span>  
 <span>(4) [LP lietojumi un redukcijas](#section-3)</span>  
 <span style="color:darkgreen">**(5) Kopsavilkums**</span>
 

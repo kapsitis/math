@@ -9,10 +9,10 @@
 </hgroup><hgroup style="font-size:90%">
 
 <span style="color:darkgreen">**(1) Ievads**</span>  
-<span>(2) [Simpleksa algoritma piemērs](#section-3)</span>  
-<span>(3) [Simpleksa algoritma tabula](#section-4)</span>  
-<span>(4) [(P) LP lietojumi](#section-5)</span>  
-<span>(5) [Kopsavilkums](#section-6)</span>
+<span>(2) [Simpleksa algoritma piemērs](#section-1)</span>  
+<span>(3) [Simpleksa algoritma tabula](#section-2)</span>  
+<span>(4) [(P) LP lietojumi](#section-3)</span>  
+<span>(5) [Kopsavilkums](#section-4)</span>
 
 </hgroup>
 
@@ -76,11 +76,11 @@ ir praktiska un intuitīvi saprotama?
 
 </hgroup><hgroup style="font-size:90%">
 
-<span>(1) [Ievads](#section)</span>  
+<span>(1) [Ievads](#section-0)</span>  
 <span style="color:darkgreen">**(2) Simpleksa algoritma piemērs**</span>  
-<span>(3) [Simpleksa algoritma tabula](#section-4)</span>  
-<span>(4) [(P) Lineārās programmēšanas lietojumi](#section-5)</span>  
-<span>(5) [Kopsavilkums](#section-6)</span>
+<span>(3) [Simpleksa algoritma tabula](#section-2)</span>  
+<span>(4) [(P) Lineārās programmēšanas lietojumi](#section-3)</span>  
+<span>(5) [Kopsavilkums](#section-4)</span>
 
 </hgroup>
 
@@ -112,8 +112,8 @@ ka nosacījumi ir nevienādības formā $x_i \geq 0$ vai arī vienādības.
 
 Piemēram, lai nosacījumu $x_1 - 2x_2 \leq 4$ pārvērstu standartformā, 
 ievieš papildus mainīgo $x_3 \geq 0$. Tātad:
-$$x_1-2x_2 \leq 4\;\; \Leftrightarrow$$
-$$x_1-2x_2+x_3=4,\;x_3 \geq 0$$
+`$$x_1-2x_2 \leq 4\;\; \Leftrightarrow$$`
+`$$x_1-2x_2+x_3=4,\;x_3 \geq 0$$`
 Tādā veidā var iegūt ekvivalentu uzdevumu, kurā vienīgās nevienādības ir formā 
 $x_i \geq 0$.
 
@@ -122,21 +122,21 @@ $x_i \geq 0$.
 <hgroup style="font-size:70%">
 
 Piemēram: $\color{#00F}{\max \left( 2x_1 + 3x_2 \right)}$, kur
-$$\left\{ \begin{array}{l} 
+`$$\left\{ \begin{array}{l} 
 x_1-2x_2 \leq 4,\\
 x_1+x_2 \leq 18,\\
 x_2 \leq 10,\\
 x_1,x_2 \geq 0. 
-\end{array} \right.$$
+\end{array} \right.$$`
  
-Pārveidojot iegūst:
-$\color{#00F}{\max \left( 2x_1 + 3x_2 \right)}$, kur
-$$\left\{ \begin{array}{l}
+Pārveidojam:
+`$\color{#00F}{\max \left( 2x_1 + 3x_2 \right)}$`, kur
+`$$\left\{ \begin{array}{l}
 x_1-2x_2+x_3=4,\\
 x_1+x_2+x_4=18,\\
 x_2+x_5=10,\\
 x_1,x_2,x_3,x_4,x_5 \geq 0.
-\end{array} \right.$$
+\end{array} \right.$$`
 
 </hgroup>
 
@@ -158,6 +158,8 @@ No iepriekšējā piemēra.
 
 ![LP Polygon](lp-polygon.png)
 
+<div style="font-size: 80%"> 
+
 Plaknes gadījumā stūri var aprakstīt, pasakot kuri 
 divi mainīgie ir vienādi ar $0$. Vairāku dimensiju gadījumā ir līdzīgi. 
 Trīs dimensiju gadījumā stūris ir punkts, kurā $3$ mainīgie ir $0$.
@@ -167,6 +169,7 @@ $\color{#00F}{\max \left(a_1x_1 + \ldots + a_kx_k\right)}$), tad stūris ir punk
 kurā sastopas $k$ plaknes $n$-dimensiju telpā, 
 t.i. $k$ mainīgie ir vienādi ar $0$.
 
+</div>
 
 
 
@@ -182,11 +185,11 @@ t.i. $k$ mainīgie ir vienādi ar $0$.
 
 </hgroup><hgroup style="font-size:90%">
 
-<span>(1) [Ievads](#section)</span>  
-<span>(2) [Simpleksa algoritma piemērs](#section-3)</span>  
+<span>(1) [Ievads](#section-0)</span>  
+<span>(2) [Simpleksa algoritma piemērs](#section-1)</span>  
 <span style="color:darkgreen">**(3) Simpleksa algoritma tabula**</span>  
-<span>(4) [(P) Lineārās programmēšanas lietojumi](#section-5)</span>  
-<span>(5) [Kopsavilkums](#section-6)</span>
+<span>(4) [(P) Lineārās programmēšanas lietojumi](#section-3)</span>  
+<span>(5) [Kopsavilkums](#section-4)</span>
 
 </hgroup>
 
@@ -197,13 +200,13 @@ t.i. $k$ mainīgie ir vienādi ar $0$.
 
 Simpleksalgoritma parādīšanai turpinām agrāko piemēru:
 
-$$\color{#00F}{\max \left( 2x_1+3x_2 \right)}$$
-$$\left\{ \begin{array}{l}
+`$$\color{#00F}{\max \left( 2x_1+3x_2 \right)}$$`
+`$$\left\{ \begin{array}{l}
 x_1-2x_2+x_3=4\\
 x_1+x_2+x_4=18\\
 x_2+x_5=10\\
 x_1,x_2,x_3,x_4,x_5 \geq 0 
-\end{array} \right.$$
+\end{array} \right.$$`
 
 
 --
@@ -285,13 +288,13 @@ $x_i \neq 0$ - pamatmainīgie.
 
 **LP uzdevums:** Atrast $\color{#00F}{\max(c_1x_1 + \ldots + c_nx_n)}$, ja izpildās 
 $k+n$ nosacījumi:
-$$\left\{
+`$$\left\{
 \begin{array}{l}
 a_{11}x_1 + a_{12}x_2 + \ldots + a_{1n}x_n = b_1\\
 \ldots\\
 a_{k1}x_1 + a_{m2}x_2 + \ldots + a_{kn}x_n = b_k\\
 x_1,x_2,\ldots,x_n \geq 0
-\end{array} \right.$$
+\end{array} \right.$$`
 
 
 <table>
@@ -1122,13 +1125,47 @@ vērtība palielinātos. Sasniegts maksimums.
 
 </hgroup><hgroup style="font-size:90%">
 
-<span>(1) [Ievads](#section)</span>  
-<span>(2) [Simpleksa algoritma piemērs](#section-3)</span>  
-<span>(3) [Simpleksa algoritma tabula](#section-4)</span>  
+<span>(1) [Ievads](#section-0)</span>  
+<span>(2) [Simpleksa algoritma piemērs](#section-1)</span>  
+<span>(3) [Simpleksa algoritma tabula](#section-2)</span>  
 <span style="color:darkgreen">**(4) (P) Lineārās programmēšanas lietojumi**</span>  
-<span>(5) [Kopsavilkums](#section-6)</span>
+<span>(5) [Kopsavilkums](#section-4)</span>
 
 </hgroup>
+
+
+-----
+
+# <lo-theory/> Īsāko ceļu uzdevums
+
+* Īsāko ceļu algoritmi orientētos virzītos grafos no viena avota 
+* [Dijkstras algoritms](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) - kā izveidot lineāru programmu.
+
+![Dijkstra's Algorithm](dijkstra-example.png) <!-- .element: style="display: block; margin-left: auto;margin-right: auto; width: 50%;" --> 
+
+
+
+Note: 
+
+Ir Belmana-Forda (Belmana-Forda-Mūra) algoritms.
+
+--
+
+# <lo-theory/> Minimālā savienotā koka uzdevums
+
+* Minimālais savienotais koks (Minimum Spanning Tree (MST))
+* Kraskala un Prima algoritmi
+
+![MST](minimum-spanning-tree.png) <!-- .element: style="display: block; margin-left: auto;margin-right: auto; width: 50%;" --> 
+
+--
+
+# <lo-theory/> Maksimālās plūsmas uzdevums
+
+* Forda-Falkersona algoritms; Reziduālā plūsma
+
+![Residual network](residual-network.png) <!-- .element: style="display: block; margin-left: auto;margin-right: auto;  width: 70%;" --> 
+
 
 
 
@@ -1145,10 +1182,10 @@ vērtība palielinātos. Sasniegts maksimums.
 
 </hgroup><hgroup style="font-size:90%">
 
-<span>(1) [Ievads](#section)</span>  
-<span>(2) [Simpleksa algoritma piemērs](#section-3)</span>  
-<span>(3) [Simpleksa algoritma tabula](#section-4)</span>  
-<span>(4) [(P) Lineārās programmēšanas lietojumi](#section-5)</span>  
+<span>(1) [Ievads](#section-0)</span>  
+<span>(2) [Simpleksa algoritma piemērs](#section-1)</span>  
+<span>(3) [Simpleksa algoritma tabula](#section-2)</span>  
+<span>(4) [(P) Lineārās programmēšanas lietojumi](#section-3)</span>  
 <span style="color:darkgreen">**(5) Kopsavilkums**</span>
 
 </hgroup>

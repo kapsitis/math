@@ -227,6 +227,15 @@ def main():
         for dd in subDirectories:
             print('##### Copying {}/{} to {}/{}-tales/{}'.format(SRC_ROOT,dd,DEST_ROOT,resType,dd))
             copyDirectory('%s/%s' % (SRC_ROOT,dd), '%s/%s-tales/%s' % (DEST_ROOT,resType,dd))
+
+        rmDirectory('%s/%s-exams' % (DEST_ROOT,resType))
+        SRC_ROOT = 'src/site/%s/exams' % resType
+        subDirectories = set(next(os.walk(SRC_ROOT))[1]).difference(set(skip_directories))
+        for dd in subDirectories:
+            print('##### Copying {}/{} to {}/{}-exams/{}'.format(SRC_ROOT,dd,DEST_ROOT,resType,dd))
+            copyDirectory('%s/%s' % (SRC_ROOT,dd), '%s/%s-exams/%s' % (DEST_ROOT,resType,dd))
+
+
             
 #        for dd in subDirectories:
 #            print('Processing with pandoc/reveal, dir=%s' % dd)

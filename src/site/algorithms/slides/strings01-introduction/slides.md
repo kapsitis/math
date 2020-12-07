@@ -1,4 +1,4 @@
-# &nbsp;
+# Introduction<!-- .element: style="visibility:hidden;" -->
 
 <hgroup>
 
@@ -9,12 +9,9 @@
 </hgroup><hgroup style="font-size:90%">
 
 <span style="color:darkgreen">**(1) Ievads**</span>  
-<span>(2) [Pamatfakti un naivais algoritms](#section-1)</span>  
-<span>(3) [Rabina-Karpa algoritms](#section-2)</span>  
-<span>(4) [Meklēšana ar automātu](#section-3)</span>  
-<span>(5) [Knuta-Morisa-Prata algoritms](#section-4)</span>  
-<span>(6) [(P) Plaģiāta atrašana](#section-5)</span>  
-<span>(7) [Kopsavilkums](#section-6)</span>
+<span>(2) [Pamatfakti un naivais algoritms](#/naive-algorithm)</span>  
+<span>(3) [Levenšteina attālums](#/levenshtein-distance)</span>  
+<span>(4) [Kopsavilkums](#/summary)</span>
 
 </hgroup>
 
@@ -98,41 +95,43 @@ drīkst veikt priekšapstrādi/indeksāciju.
 
 -----
 
-# &nbsp;
+# Naive Algorithm<!-- .element: style="visibility:hidden;" -->
 
 <hgroup>
 
 <h1 style="font-size:28pt">Lietišķie algoritmi</h1>
 
-<blue>Meklēšana virknēs - 1</blue>
+<blue>Virkņu meklēšana - 1</blue>
 
 </hgroup><hgroup style="font-size:90%">
 
-<span>(1) [Ievads](#section)</span>  
+<span>(1) [Ievads](#/introduction)</span>  
 <span style="color:darkgreen">**(2) Pamatfakti un naivais algoritms**</span>  
-<span>(3) [Rabina-Karpa algoritms](#section-2)</span>  
-<span>(4) [Meklēšana ar automātu](#section-3)</span>  
-<span>(5) [Knuta-Morisa-Prata algoritms](#section-4)</span>  
-<span>(6) [(P) Plaģiāta atrašana](#section-5)</span>  
-<span>(7) [Kopsavilkums](#section-6)</span>
+<span>(3) [Levenšteina attālums](#/levenshtein-distance)</span>  
+<span>(4) [Kopsavilkums](#/summary)</span>
 
 </hgroup>
 
 
 -----
 
-# <lo-theory/> Uzdevuma nostādne
+# <lo-theory/> Uzdevuma izklāsts
 
-Dots <blue>*teksts*</blue> (*text*) - virkne no $n$ simboliem:
-$$T = T[0], \ldots, T[n-1]$$
-Dots arī <blue>*paraugs*</blue> (*pattern*) - virkne no $m$ simboliem:
-$$P = P[0], \ldots, P[m-1]$$
+<div style="font-size:80%">
 
-Vai virknē $T$ ir atrodama apakšvirkne $P$ (algoritms izvada vai nu tikai 1.pozīciju, kur $P$ ieiet virknē $T$, 
+Dots <emblue>teksts</emblue> (*text*) - virkne no `$n$` simboliem:
+`$$T = T[0], \ldots, T[n-1]$$`
+
+Dots arī <emblue>paraugs</emblue> (*pattern*) - virkne no `$m$` simboliem:
+`$$P = P[0], \ldots, P[m-1]$$`
+
+Vai virknē `$T$` ir atrodama apakšvirkne `$P$` (algoritms izvada vai nu tikai 1.pozīciju, kur `$P$` ieiet virknē `$T$`, 
 vai arī tas izvada visas pozīcijas).
 
-**Definīcija:** Pozīciju tekstā $T$ (skaitli no $0$ līdz $n-1$), kur var sākties meklējamais
-paraugs sauc par <blue>*nobīdi*</blue> (*shift*). 
+**Definīcija:** Pozīciju tekstā `$T$` (skaitli no `$0$` līdz `$n-1$`), kur var sākties meklējamais
+paraugs sauc par <emblue>nobīdi</emblue> (*shift*). 
+
+</div>
 
 
 --
@@ -141,18 +140,18 @@ paraugs sauc par <blue>*nobīdi*</blue> (*shift*).
 
 <div style="font-size:70%">
 
-<blue>*Virkne*</blue> ir gan *sequence* (galīga vai bezgalīga, 
-no jebkāda veida objektiem), gan *string* (galīga virkne ar galīga alfabēta burtiem). 
-Parasti <blue>*virkni*</blue> var droši lietot kā sinonīmu vārdam <blue>*strings*</blue>, 
+<emblue>Virkne</emblue> var nozīmēt gan "sequence" (galīga vai bezgalīga, 
+no jebkāda veida objektiem), gan "string" (galīga virkne ar galīga alfabēta burtiem). 
+Parasti <emblue>virkni</emblue> var droši lietot kā sinonīmu vārdam <emblue>strings</emblue>, 
 bet ir daži izņēmumi. 
 
-**Definīcija:** Par virknes $T[0],T[1],\ldots,T[n-1]$ <blue>*apakšstringu*</blue> (*substring*) sauc 
-simbolu virkni no $T[i]$ (ieskaitot virknes garumā $0,1,2,\ldots$), kur $i$ vērtības seko pēc kārtas.  
+**Definīcija:** Par virknes `$T[0],T[1],\ldots,T[n-1]$` <emblue>apakšstringu</emblue> (*substring*) sauc 
+simbolu virkni no `$T[i]$` (ieskaitot virknes garumā `$0,1,2,\ldots$`), kur `$i$` vērtības seko pēc kārtas.  
 (Apakšstringu iegūst, sākotnējai virknei nosvītrojot (varbūt tukšus) gabalus sākumā un beigās.)
 
-**Definīcija:** Par virknes $T[0],T[1],\ldots,T[n-1]$ <blue>*apakšvirkni*</blue> (*subsequence*) sauc 
-simbolu virkni no $T[i]$ (ieskaitot virknes garumā $0,1,2,\ldots$), kur $i$ vērtības aug, bet var nebūt pēc kārtas.  
-(Apakšvirkni iegūst, sākotnējā virknē nosvītrojot $0$ vai vairāk simbolus jebkurās vietās.)
+**Definīcija:** Par virknes `$T[0],T[1],\ldots,T[n-1]$` <emblue>apakšvirkni</emblue> (*subsequence*) sauc 
+simbolu virkni no `$T[i]$` (ieskaitot virknes garumā `$0,1,2,\ldots$`), kur `$i$` vērtības aug, bet var nebūt pēc kārtas.  
+(Apakšvirkni iegūst, sākotnējā virknē nosvītrojot `$0$` vai vairāk simbolus jebkurās vietās.)
 
 </div>
 
@@ -163,23 +162,23 @@ simbolu virkni no $T[i]$ (ieskaitot virknes garumā $0,1,2,\ldots$), kur $i$ vē
 
 <hgroup style="font-size:80%">
 
-Virknes `"APPLE"` apakšstringi ir šīs $15$ virknes:  
+Virknes `"APPLE"` apakšstringi ir šīs `$15$` virknes:  
 `""` (tukšā virkne), `"A"`, `"E"`, `"L"`, `"P"`, `"AP"`, `"LE"`, `"PL"`, `"PP"`, 
 `"APP"`, `"PLE"`, `"PPL"`, `"APPL"`, `"PPLE"` un `"APPLE"`.
 
-$n$ simbolu virknei ir ne vairāk kā ${\displaystyle 1 + \frac{n(n+1)}{2}}$ apakšstringi
+`$n$` simbolu virknei ir ne vairāk kā `${\displaystyle 1 + \frac{n(n+1)}{2}}$` apakšstringi
 (to sasniedz, ja visi burti dažādi).
 
 </hgroup>
 <hgroup style="font-size:80%">
 
-Virknes `"APPLE"` apakšvirknes ir šīs $24$ virknes:  
+Virknes `"APPLE"` apakšvirknes ir šīs `$24$` virknes:  
 `""` (tukšā virkne), `"A"`, `"E"`, `"L"`, `"P"`, 
 `"AE"`, `"AL"`, `"AP"`, `"LE"`, `"PE"`, `"PL"`, `"PP"`,
 `"ALE"`, `"APE"`, `"APL"`, `"APP"`,  `"PLE"`, `"PPE"`, `"PPL"`, 
 `"APLE"`, `"APPE"`, `"APPL"`, `"PPLE"`, `"APPLE"`.
 
-$n$ simbolu virknei ir ne vairāk kā ${\displaystyle 2^n}$ apakšvirknes
+`$n$` simbolu virknei ir ne vairāk kā `${\displaystyle 2^n}$` apakšvirknes
 (to sasniedz, ja visi burti dažādi).
 
 </hgroup>
@@ -219,11 +218,11 @@ $n$ simbolu virknei ir ne vairāk kā ${\displaystyle 2^n}$ apakšvirknes
 <div style="font-size: 70%">
 
 Novietojam vienu virkni zem otras un sākam salīdzināt:
-$$ \begin{array}{llllll}
+`$$ \begin{array}{llllll}
 \ldots, & T[i], & T[i + 1], & \ldots, & T[i+m-1], & \ldots \\
 & P[0], & P[1], & \ldots, & P[m-1] & 
-\end{array}$$
-Ja sakrīt visi $m$ elementi, kas ir paraugā, tad apakšstringu esam atraduši. 
+\end{array}$$`
+Ja sakrīt visi `$m$` elementi, kas ir paraugā, tad apakšstringu esam atraduši. 
 
 </div>
 
@@ -235,27 +234,27 @@ Ja sakrīt visi $m$ elementi, kas ir paraugā, tad apakšstringu esam atraduši.
 
 <hgroup style="font-size:70%;">
 
-**Apgalvojums:** Naivā apakšstringu meklēšanas algoritma laika sarežģītība ir $O(n \cdot m)$ sliktākajā gadījumā.
+**Apgalvojums:** Naivā apakšstringu meklēšanas algoritma laika sarežģītība ir `$O(n \cdot m)$` sliktākajā gadījumā.
 
-Ir $n - m + 1$ iespējamās vērtības mainīgajam $s$. Katrai no tām var gadīties salīdzināt līdz $m$ simboliem. Laiks
-$$(n - m + 1) \cdot m \approx n \cdot m.$$
+Ir `$n - m + 1$` iespējamās vērtības mainīgajam `$s$`. Katrai no tām var gadīties salīdzināt līdz `$m$` simboliem. Laiks
+`$$(n - m + 1) \cdot m \approx n \cdot m.$$`
 
-**Piezīme:** Parasti pieņemam, ka meklējamais paraugs ir daudz īsāks par pašu tekstu: $m << n$.
+**Piezīme:** Parasti pieņemam, ka meklējamais paraugs ir daudz īsāks par pašu tekstu: `$m << n$`.
 
 </hgroup>
 <hgroup style="font-size:70%;">
 
 **Piemērs 1:** Uzlabot to nevar: 
 
-$$T = \underbrace{\mathtt{aa}\ldots\mathtt{a}}_{n\;\text{burti}}$$
-$$P = \underbrace{\mathtt{aa}\ldots\mathtt{a}}_{m\;\text{burti}}$$
+`$$T = \underbrace{\mathtt{aa}\ldots\mathtt{a}}_{n\;\text{burti}}$$`
+`$$P = \underbrace{\mathtt{aa}\ldots\mathtt{a}}_{m\;\text{burti}}$$`
 
 
 **Piemērs 2:** Cits sliktākais gadījums (pat ja meklētu 
 tikai vienu apakšstringu):
 
-$$T = \underbrace{\mathtt{aa}\ldots\mathtt{a}}_{n\;\text{burti}}$$
-$$P = \underbrace{\mathtt{aa}\ldots\mathtt{a}}_{m-1\;\text{burti}}\mathtt{b}$$
+`$$T = \underbrace{\mathtt{aa}\ldots\mathtt{a}}_{n\;\text{burti}}$$`
+`$$P = \underbrace{\mathtt{aa}\ldots\mathtt{a}}_{m-1\;\text{burti}}\mathtt{b}$$`
 
 </hgroup>
 
@@ -266,24 +265,20 @@ $$P = \underbrace{\mathtt{aa}\ldots\mathtt{a}}_{m-1\;\text{burti}}\mathtt{b}$$
 
 -----
 
-# &nbsp;
+# Levenshtein Distance<!-- .element: style="visibility:hidden;" -->
 
 <hgroup>
 
 <h1 style="font-size:28pt">Lietišķie algoritmi</h1>
 
-<blue>Virkņu meklēšana - 2</blue>
+<blue>Virkņu meklēšana - 1</blue>
 
 </hgroup><hgroup style="font-size:90%">
 
-<span>(1) [Ievads](#section)</span>  
-<span>(2) [Bojera-Mūra algoritms](#section-1)</span>  
-<span>(3) [BM algoritma piemēri](#section-2)</span>  
-<span>(4) [Rekursīvu algoritmu sarežģītība](#section-3)</span>  
-<span>(5) [Dinamiskā programmēšana](#section-4)</span>  
-<span style="color:darkgreen">**(6) Labošanas attālums**</span>  
-<span>(7) [(P) Regulāru izteiksmju meklēšana](#section-6)</span>  
-<span>(8) [Kopsavilkums](#section7)</span>
+<span>(1) [Ievads](#/introduction)</span>  
+<span>(2) [Pamatfakti un naivais algoritms](#/naive-algorithm)</span>  
+<span style="color:darkgreen">**(3) Levenšteina attālums**</span>  
+<span>(4) [Kopsavilkums](#/summary)</span>
 
 </hgroup>
 
@@ -293,19 +288,19 @@ $$P = \underbrace{\mathtt{aa}\ldots\mathtt{a}}_{m-1\;\text{burti}}\mathtt{b}$$
 
 # <lo-theory/> Labošanas attālums
 
-Dotas simbolu virknes $A = A[0]\ldots{}A[m-1]$ un $B = B[0]\ldots{}B[n-1]$, 
-kuru garumi ir attiecīgi $m$ un $n$. Atļautas sekojošas operācijas jeb 
-<blue>*labojumi*</blue> (*edits*):
+Dotas simbolu virknes `$A = A[0]\ldots{}A[m-1]$` un `$B = B[0]\ldots{}B[n-1]$`, 
+kuru garumi ir attiecīgi `$m$` un `$n$`. Atļautas sekojošas operācijas jeb 
+<emblue>labojumi</emblue> (*edits*):
 
 * Viena simbola aizstāšana ar citu simbolu;
 * Jebkura viena simbola izdzēšana;
 * Jauna simbola iespraušana patvaļīgā vietā.
 
-**Definīcija:** Par <blue>*Levenšteina attālumu*</blue>
+**Definīcija:** Par <emblue>Levenšteina attālumu</emblue>
 (*Levenshtein distance*, *editing distance*) 
-$M(A,B)$ diviem vārdiem $A=A[0]\ldots{}A[m-1]$ 
-un $B=B[0]\ldots{}B[n-1]$ sauc mazāko 
-iespējamo labojumu skaitu, kas pārtaisa $A$ par $B$.
+`$M(A,B)$` diviem vārdiem `$A=A[0]\ldots{}A[m-1]$` 
+un `$B=B[0]\ldots{}B[n-1]$` sauc mazāko 
+iespējamo labojumu skaitu, kas pārtaisa `$A$` par `$B$`.
 
 
 
@@ -314,14 +309,14 @@ iespējamo labojumu skaitu, kas pārtaisa $A$ par $B$.
 ## <lo-theory/> Citi labošanas attāluma varianti
 
 * Ja viena simbola aizstāšana ar citu ir divreiz dārgāka par iespraušanu un izdzēšanu?
-* Ja virkni $A$ jāpārveido par kādu $B$ apakšvirkni (nevis pašu $B$)?
+* Ja virkni `$A$` jāpārveido par kādu `$B$` apakšvirkni (nevis pašu `$B$`)?
 * Ja labojuma izmaksas atkarīgas no dzēšamā/iespraužamā simbola?
-* Ja $k$ simbolu apakšvirkni var iespraust/izdzēst vienā
-gājienā ar izmaksu $f(k)$ (šeit $f(k)<k$ jeb apakšvirknes iespraušana
-ir lētāka nekā $k$ burtu mainīšana pa vienam).
+* Ja `$k$` simbolu apakšvirkni var iespraust/izdzēst vienā
+gājienā ar izmaksu `$f(k)$` (šeit `$f(k)<k$` jeb apakšvirknes iespraušana
+ir lētāka nekā `$k$` burtu mainīšana pa vienam).
 
 **Motivācija:** Uzdevums parādās, piemēram, bioinformātikā. 
-Šādus uzdevumus sauc par <blue>*aptuveno salīdzināšanu*</blue> (*Sequence alignment*). 
+Šādus uzdevumus sauc par <emblue>aptuveno salīdzināšanu</emblue> (*Sequence alignment*). 
 Piemēram, cik mutāciju vajag, lai viena DNS virkne pārvērstos par otru virkni.
 
 
@@ -331,10 +326,10 @@ Piemēram, cik mutāciju vajag, lai viena DNS virkne pārvērstos par otru virkn
 
 <div style="font-size:70%">
 
-Doti vārdi $A=A[0]\ldots{}A[m-1]$ un $B=B[0]\ldots{}B[n-1]$. 
-Definējam $(m+1) \times (n+1)$ izmēra matricu $M[i,j]$ ar šādām sakarībām
+Doti vārdi `$A=A[0]\ldots{}A[m-1]$` un `$B=B[0]\ldots{}B[n-1]$`. 
+Definējam `$(m+1) \times (n+1)$` izmēra matricu `$M[i,j]$` ar šādām sakarībām
 
-$$\begin{array}{l}
+`$$\begin{array}{l}
 M[0,0]=0\\
 M[i,0]=i,\;1 \leq i \leq m\\
 M[0,j]=j,\;1 \leq j \leq n\\
@@ -344,12 +339,12 @@ M[i-1,j-1] + 1,\;\text{(burta aizstāšana)}\\
 M[i,j-1] + 1,\;\text{(burta iespraušana)}\\
 M[i-1,j] + 1,\;\text{(burta dzēšana)}
 \end{array} \right. 
-\end{array}$$
+\end{array}$$`
 
-Ar indukciju var pamatot, ka šādi rēķinot $M[i,j]$ visiem 
-$i \in [1,m]$ un $j \in [1,n]$, matricas labajā apakšējā 
-stūrī iegūsim $M[m,n]$, kas būs Levenšteina attālums
-starp vārdiem $A$ un $B$.
+Ar indukciju var pamatot, ka šādi rēķinot `$M[i,j]$` visiem 
+`$i \in [1,m]$` un `$j \in [1,n]$`, matricas labajā apakšējā 
+stūrī iegūsim `$M[m,n]$`, kas būs Levenšteina attālums
+starp vārdiem `$A$` un `$B$`.
 
 </div>
 
@@ -425,8 +420,8 @@ Sal. [Editierdistantz](https://de.wikipedia.org/wiki/Levenshtein-Distanz)
 
 <div style="font-size:70%">
 
-Atrast Levenšteina attālumu starp $A=\mathtt{tcat}$ un $B=\mathtt{atcaca}$. 
-Aizpildām $5 \times 7$ matricu: 
+Atrast Levenšteina attālumu starp `$A=\mathtt{tcat}$` un `$B=\mathtt{atcaca}$`. 
+Aizpildām `$5 \times 7$` matricu: 
 
 <table>
 <tr>
@@ -494,7 +489,7 @@ Aizpildām $5 \times 7$ matricu:
 </table>
 
 
-Pirmkārt, no šīs tabulas uzzinām, ka minimālais operāciju skaits ir $3$.  
+Pirmkārt, no šīs tabulas uzzinām, ka minimālais operāciju skaits ir `$3$`.  
 Otrkārt, no tās var atjaunot optimālo labojumu virkni. To dara no beigām. 
 
 
@@ -503,50 +498,84 @@ Otrkārt, no tās var atjaunot optimālo labojumu virkni. To dara no beigām.
 
 ## <lo-sample/> Īsākā labojumu secība
 
-<hgroup>
+<hgroup style="font-size:80%">
 
-TODO
+<table>
+<tr>
+<th>&nbsp;</th>
+<th>$\mathtt{-}$</th>
+<th>$\mathtt{a}$</th>
+<th>$\mathtt{t}$</th>
+<th>$\mathtt{c}$</th>
+<th>$\mathtt{a}$</th>
+<th>$\mathtt{c}$</th>
+<th>$\mathtt{a}$</th>
+</tr>
+<tr>
+<th>$\mathtt{-}$</th>
+<td>$\color{#F00}{0}$</td>
+<td>$\color{#F00}{1}$</td>
+<td>$2$</td>
+<td>$3$</td>
+<td>$4$</td>
+<td>$5$</td>
+<td>$6$</td>
+</tr>
+<tr>
+<th>$\mathtt{t}$</th>
+<td>$1$</td>
+<td>$1$</td>
+<td>$\color{#F00}{1}$</td>
+<td>$2$</td>
+<td>$3$</td>
+<td>$4$</td>
+<td>$5$</td>
+</tr>
+<tr>
+<th>$\mathtt{c}$</th>
+<td>$2$</td>
+<td>$2$</td>
+<td>$2$</td>
+<td>$\color{#F00}{1}$</td>
+<td>$3$</td>
+<td>$3$</td>
+<td>$4$</td>
+</tr>
+
+<tr>
+<th>$\mathtt{a}$</th>
+<td>$3$</td>
+<td>$2$</td>
+<td>$3$</td>
+<td>$2$</td>
+<td>$\color{#F00}{1}$</td>
+<td>$4$</td>
+<td>$3$</td>
+</tr>
+
+<tr>
+<th>$\mathtt{t}$</th>
+<td>$4$</td>
+<td>$3$</td>
+<td>$2$</td>
+<td>$3$</td>
+<td>$2$</td>
+<td>$\color{#F00}{2}$</td>
+<td>$\color{#F00}{3}$</td>
+</tr>
+</table>
 
 </hgroup>
-<hgroup style="font-size:70%">
+<hgroup style="font-size:80%">
 
 No Dinamiskās programmēšanas tabuliņas atjauno labojumu secību:
 
-1. $M[4,6]=3$ iegūts, pieskaitot $1$ pie $M[4,5]=2$.
-2. $M[4,5]=2$ iegūts, pieskaitot $1$ pie $M[3,4] = 1$.
-3. $M[3,4]=1$ iegūts no $M[2,3]=1$, iegūts no $M[1,2]=1$, iegūts no $M[0,1]=1$.
+1. `$M[4,6]=3$` iegūts, pieskaitot `$1$` pie `$M[4,5]=2$`.
+2. `$M[4,5]=2$` iegūts, pieskaitot `$1$` pie `$M[3,4] = 1$`.
+3. `$M[3,4]=1$` iegūts no `$M[2,3]=1$`, iegūts no `$M[1,2]=1$`, iegūts no `$M[0,1]=1$`.
 
-Tas nozīmē, ka $\mathtt{atcaca}$ no $\mathtt{tcat}$ var iegūt šādi:
-$$\mathtt{tcat} \rightarrow \mathtt{atcat} \rightarrow \mathtt{atcac} \rightarrow \mathtt{atcaca}.$$
-
-</hgroup>
-
-
-
-
------
-
-# <lo-summary/> Minimālie ceļi grafā
-
-<hgroup>
-
-![Graph Distances](graph-distances.png)
-
-</hgroup>
-
-<hgroup style="font-size:70%">
-
-Grafa virsotnes $(i, j)$ atbilst tabulas elementiem $M[i, j]$. 
-
-* Virsotņu pāri, kas sastāv no $(i,j-1)$ un $(i, j)$, 
-vai no $(i-1,j)$ un $(i,j)$, savienoti ar šķautni garumā $1$. 
-* Virsotņu pāri, kas sastāv no $(i-1,j-1)$ un $(i,j)$, 
-savienoti ar šķautni garumā $0$ (zīmējumā – pārtraukta līnija), 
-ja $A[i] = B[j]$ un šķautni garumā $1$ citos gadījumos.
-
-$M[m,n]$ ir īsākais ceļš no $(0,0)$ uz $(m,n)$. To izrēķina ar Daikstras algoritmu 
-īsākā ceļa atrašanai. Tam vajadzīgi $O(n \cdot D)$ soļi, kur $D$ - minimālais labojumu skaits. 
-Ja $D << m,n$ (virknes ir ļoti līdzīgas), tad tas ir labāk nekā $O(m \cdot n)$.
+Tas nozīmē, ka `$\mathtt{atcaca}$` no `$\mathtt{tcat}$` var iegūt šādi:
+`$$\mathtt{tcat} \rightarrow \mathtt{atcat} \rightarrow \mathtt{atcac} \rightarrow \mathtt{atcaca}.$$`
 
 </hgroup>
 
@@ -555,75 +584,21 @@ Ja $D << m,n$ (virknes ir ļoti līdzīgas), tad tas ir labāk nekā $O(m \cdot 
 
 -----
 
-# <lo-summary/> Daikstras algoritms
 
-Daikstras algoritms atrod īsākos ceļus no vienas virsotnes 
-grafā uz katru no pārējām virsotnēm. Šajā konkrētajā gadījumā 
-Daikstras algoritms ir vienkāršāks nekā vispārējā gadījumā:
-
-1. $i=0$;
-2. Izveido sarakstu $S_i$ ar visām virsotnēm attālumā $i$ no $(0;0)$. 
-Palielina $i$ ($i = i+1$). 
-3. Soli Nr.2 atkārto līdzkamēr $(m,n) \in S_i$. 
-
-
-
------
-
-## <lo-summary/> Saraksta S_0 izveide
-
-1. $i = 0$
-2. Pievieno $(i,i)$ sarakstam $S_0$, $i = i+1$ līdz brīdim kad 
-$A[i] \neq B[i]$. 
-
-
-## <lo-summary/> Saraksta S_i izveide (i>0)
-
-<div style="font-size:70%">
-
-Priekš katra iepriekšējā saraksta $S_{i-1}$ 
-elementa $(j, k)$:
-
-1. Ja $(j+1,k)$ nav nevienā no sarakstiem $S_0, S_1, \ldots, S_{i-1}$, tad:
-    * Pievieno $(j+1, k)$ sarakstam $S_i$.
-    * Katram $r>0$, kuram apakšvirkne $A[j+2]\ldots{}A[j+r+1]$ 
-sakrīt ar $B[k+1]\ldots{}B[k+r]$, pievieno $(j+r+1, k+r)$ sarakstam $S_i$.
-2. Ja $(j,k+1)$ nav nevienā no sarakstiem $S_0, S_1, \ldots, S_{i-1}$, tad:
-    * Pievieno $(j, k+1)$ sarakstam $S_i$.
-    * Katram $r>0$, kuram apakšvirkne $A[j+1]\ldots{}A[j+r]$ 
-sakrīt ar B[k+2]\ldots{}B[k+r+1]$, pievieno $(j+r,k+r+1)$ sarakstam $S_i$.
-3. Ja $(j+1, k+1)$ nav nevienā no sarakstiem $S_0, S_1, \ldots, S_{i-1}$, tad:
-    * Pievieno $(j+1, k+1)$ sarakstam $S_i$.
-    * Katram $r>0$, kuram apakšvirkne $A[j+2]\ldots{}A[j+r+1]$ sakrīt ar 
-$B[k+2]\ldots{}B[k+r+1]$, pievieno $(j+r+1, k+r+1)$ sarakstam $S_i$.
-
-</div>
-
-
-
-
-
------
-
-
-# &nbsp;
+# Summary<!-- .element: style="visibility:hidden;" -->
 
 <hgroup>
 
 <h1 style="font-size:28pt">Lietišķie algoritmi</h1>
 
-<blue>Virkņu meklēšana - 2</blue>
+<blue>Virkņu meklēšana - 1</blue>
 
 </hgroup><hgroup style="font-size:90%">
 
-<span>(1) [Ievads](#section)</span>  
-<span>(2) [Bojera-Mūra algoritms](#section-1)</span>  
-<span>(3) [BM algoritma piemēri](#section-2)</span>  
-<span>(4) [Rekursīvu algoritmu sarežģītība](#section-3)</span>  
-<span>(5) [Dinamiskā programmēšana](#section-4)</span>  
-<span>(6) [Labošanas attālums](#section-5)</span>  
-<span style="color:darkgreen">**(7) (P) Regulāru izteiksmju meklēšana**</span>  
-<span>(8) [Kopsavilkums](#section7)</span>
+<span>(1) [Ievads](#/introduction)</span>  
+<span>(2) [Pamatfakti un naivais algoritms](#/naive-algorithm)</span>  
+<span>(3) [Levenšteina attālums](#/levenshtein-distance)</span>  
+<span style="color:darkgreen">**(4) Kopsavilkums**</span>
 
 </hgroup>
 
@@ -631,39 +606,17 @@ $B[k+2]\ldots{}B[k+r+1]$, pievieno $(j+r+1, k+r+1)$ sarakstam $S_i$.
 
 
 
-
-
------
-
-# &nbsp;
-
-<hgroup>
-
-<h1 style="font-size:28pt">Lietišķie algoritmi</h1>
-
-<blue>Meklēšana virknēs - 1</blue>
-
-</hgroup><hgroup style="font-size:90%">
-
-<span>(1) [Ievads](#section)</span>  
-<span>(2) [Pamatfakti un naivais algoritms](#section-1)</span>  
-<span>(3) [Rabina-Karpa algoritms](#section-2)</span>  
-<span>(4) [Meklēšana ar automātu](#section-3)</span>  
-<span>(5) [Knuta-Morisa-Prata algoritms](#section-4)</span>  
-<span>(6) [(P) Plaģiāta atrašana](#section-5)</span>  
-<span style="color:darkgreen">**(7) Kopsavilkums**</span>
-
-</hgroup>
 
 
 -----
 
 # <lo-summary/> Ko darījām šajā nodarbībā
 
-1. Apskatījām naivo virkņu meklēšanas algoritmu. 
-2. Apskatījām Rabina-Karpa algoritmu. 
-3. Apskatījām naivā algoritma uzlabojumu - meklēšanas automātu.
-4. Veidojām KMP algoritmam vajadzīgo prefiksu funkciju.
+1. Definējām virkņu/stringu meklēšanas uzdevumu.
+2. Apskatījām naivo apakšstringa meklēšanas algoritmu. 
+3. Definējām Levenšteina attālumu starp stringiem.
+4. Aplūkojām dinamiskās programmēšanas metodi Levenšteina attāluma atrašanai.
+(Turpmākajās sadaļās dinamiskās programmēšanas paradigma parādīsies vēl.)
 
 
 
