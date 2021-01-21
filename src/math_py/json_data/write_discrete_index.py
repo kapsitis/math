@@ -4,9 +4,13 @@ import json
 import copy
 import re
 
+
+### 
+### make_tasklist_json.py ... It is newer and replaces this
+###
 def get_csv_local():
     csv_lines = list()
-    with open('/home/kalvis/workspace/math/src/site/discrete/static/website-data/discrete-index.csv') as csv_in:
+    with open('/home/kalvis/workspace/math/src/site/discrete/static/website-data/discrete2021-index.csv') as csv_in:
         for csv_line in csv_in:
             csv_lines.append(csv_line)
         #csv_lines = csv_in.splitlines()
@@ -15,24 +19,24 @@ def get_csv_local():
 
 
 def make_lst(tasks):
-    week_dict = {
-        'W1': '2020-01-06 to 2020-01-10',
-        'W2': '2020-01-13 to 2020-01-17',
-        'W3': '2020-01-20 to 2020-01-24',
-        'W4': '2020-01-27 to 2020-01-31',      
-        'W5': '2020-02-03 to 2020-02-07',
-        'W6': '2020-02-10 to 2020-02-14',
-        'W7': '2020-02-17 to 2020-02-21',
-        'W8': '2020-02-24 to 2020-02-28',       
-        'W9': '2020-03-02 to 2020-03-06',
-        'W10': '2020-03-09 to 2020-03-13',
-        'W11': '2020-03-16 to 2020-03-20',
-        'W12': '2020-03-23 to 2020-03-27',        
-        'W13': '2020-03-30 to 2020-04-03',
-        'W14': '2020-04-06 to 2020-04-17',
-        'W15': '2020-04-20 to 2020-01-24',
-        'W16': '2020-04-27 to 2020-01-31'        
-    }
+#    week_dict = {
+#        'W1': '2020-01-06 to 2020-01-10',
+#        'W2': '2020-01-13 to 2020-01-17',
+#        'W3': '2020-01-20 to 2020-01-24',
+#        'W4': '2020-01-27 to 2020-01-31',      
+#        'W5': '2020-02-03 to 2020-02-07',
+#        'W6': '2020-02-10 to 2020-02-14',
+#        'W7': '2020-02-17 to 2020-02-21',
+#        'W8': '2020-02-24 to 2020-02-28',       
+#        'W9': '2020-03-02 to 2020-03-06',
+#        'W10': '2020-03-09 to 2020-03-13',
+#        'W11': '2020-03-16 to 2020-03-20',
+#        'W12': '2020-03-23 to 2020-03-27',        
+#        'W13': '2020-03-30 to 2020-04-03',
+#        'W14': '2020-04-06 to 2020-04-17',
+#        'W15': '2020-04-20 to 2020-01-24',
+#        'W16': '2020-04-27 to 2020-01-31'        
+#    }
     
     week_list = []
     

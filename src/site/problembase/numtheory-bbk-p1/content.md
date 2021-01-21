@@ -14,6 +14,8 @@ Universitāte. 2012.g.</p>
 * 4.nodaļa: Moduļa izvēle
 
 
+-----
+
 # <lo-sample/> BBK2012.P1.36
 
 Trīs no aritmētiskās progresijas locekļiem ir $41$, $113$, $193$. 
@@ -29,6 +31,8 @@ questionType=Find.Max
 
 </small>
 
+
+-----
 
 # <lo-sample/> BBK2012.P1.52
 
@@ -48,6 +52,8 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
+
 # <lo-sample/>BBK2012.P1.72
 
 Atrodiet visas tādas naturālu skaitļu virknes $(a_n)$, 
@@ -61,6 +67,7 @@ concepts=square-root
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P1.89
 
@@ -74,7 +81,7 @@ sameAs=LV.OTHER.TST.1979.9.1
 
 
 
-
+-----
 
 # <lo-sample/> BBK2012.P1.93
 
@@ -87,7 +94,7 @@ sameAs=LV.OTHER.TST.1976.9.3
 
 
 
-
+-----
 
 # <lo-sample/> BBK2012.P1.94
 
@@ -107,6 +114,7 @@ questionType=Find.Max
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P1.97
 
@@ -121,7 +129,7 @@ sameAs=LV.OTHER.TST.1985.9.3
 
 
 
-
+-----
 
 # <lo-sample/> BBK2012.P1.99
 
@@ -139,6 +147,8 @@ questionType=Find.Max
 seeAlso=LV.NO.2001.7.4
 -->
 
+
+-----
 
 # <lo-sample/> BBK2012.P1.104
 
@@ -160,6 +170,8 @@ questionType=Find.Only
 -->
 
 
+-----
+
 # <lo-sample/> BBK2012.P1.115
 
 Atrodiet visus tādus dažādu naturālu skaitļu trijniekus, 
@@ -171,7 +183,7 @@ questionType=Find.All
 
 
 
-
+-----
 
 # <lo-sample/> BBK2012.P1.117
 
@@ -189,7 +201,7 @@ sameAs=LV.OTHER.TST.1981.9.2
 -->
 
 
-
+-----
 
 # <lo-sample/> BBK2012.P1.119
 
@@ -207,6 +219,8 @@ ir bezgalīgi daudz locekļu, kas ir savstarpēji pirmskaitļi ar skaitli $m$.
 questionType=Prove.Other
 -->
 
+
+-----
 
 # <lo-sample/> BBK2012.P1.121
 
@@ -228,6 +242,7 @@ questionType=Find.Only
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P1.122
 
@@ -247,6 +262,8 @@ questionType=Find.Count
 seeAlso=LV.VO.1983.8.1
 -->
 
+
+-----
 
 # <lo-sample/> BBK2012.P1.123
 
@@ -268,6 +285,7 @@ questionType=Find.Count
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P1.124
 
@@ -288,6 +306,8 @@ questionType=Find.Only
 </small>
 
 
+-----
+
 # <lo-sample/> BBK2012.P1.125
 
 Cik daudz tādu piecciparu skaitļu, kuru pēdējais cipars ir $6$, 
@@ -304,6 +324,8 @@ un kuri dalās ar $3$?
 questionType=Find.Count
 -->
 
+
+-----
 
 # <lo-sample/> BBK2012.P1.126
 
@@ -324,6 +346,8 @@ questionType=Find.Any
 -->
 
 
+-----
+
 # <lo-sample/> BBK2012.P1.127
 
 Pierādīt, ka jebkuriem naturāliem skaitļiem $n$ un $k$ izpildās vienādība 
@@ -335,6 +359,8 @@ $$\left\lfloor \frac{n}{k} \right\rfloor +
 questionType=Prove.ForAll
 -->
 
+
+-----
 
 # <lo-sample/> BBK2012.P1.128
 
@@ -355,7 +381,7 @@ questionType=Prove.ForAll
 
 
 
-
+-----
 
 # <lo-sample/> BBK2012.P1.129
 	
@@ -369,6 +395,7 @@ questionType=Find.Only
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P1.130
 
@@ -383,6 +410,7 @@ questionType=Prove.ForAll
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P1.131
 
@@ -392,6 +420,9 @@ satur maksimālo iespējamo pirmskaitļu skaitu.
 <!--
 questionType=Find.All
 -->
+
+
+-----
 
 # <lo-sample/> BBK2012.P1.132
 

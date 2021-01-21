@@ -14,6 +14,8 @@ Universitāte. 2012.g.</p>
 * 4.nodaļa: Moduļa izvēle
 
 
+-----
+
 # <lo-sample/> BBK2012.P2.16
 
 Ar $x$ un $n$ apzīmēti kaut kādi naturāli skaitļi.
@@ -28,6 +30,8 @@ questionType=Prove.ForAll
 -->
 
 
+-----
+
 # <lo-sample/> BBK2012.P2.21
 
 Dota naturālu skaitļu virkne $(a_n)$, kurai izpildās īpašība:
@@ -40,6 +44,8 @@ $a_p \neq a_q$. Vai iespējams, ka
 questionType=ProveDisprove.Exists
 -->
 
+
+-----
 
 # <lo-sample/> BBK2012.P2.22
 
@@ -55,6 +61,8 @@ questionType=Prove.ForAll
 -->
 
 
+-----
+
 # <LO-REFFF/> BBK2012.P2.23
 
 Skaitļu virkni $a_1,a_2,a_3,\ldots$ veido sekojoši: 
@@ -69,6 +77,8 @@ questionType=Find.Only
 
 
 
+-----
+
 # <lo-sample/> BBK2012.P2.24
 
 Vai var atrast galīgu skaitu ģeometrisku progresiju, 
@@ -81,6 +91,7 @@ seeAlso=BBK2012.P1.52
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P2.30
 
@@ -94,6 +105,7 @@ sameAs=LV.OTHER.TST.1988.9.1
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P2.38
 
@@ -107,7 +119,7 @@ sameAs=LV.OTHER.TST.1992.9.1
 
 
 
-
+-----
 
 # <lo-sample/> BBK2012.P2.73
 
@@ -120,6 +132,7 @@ sameAs=LV.OTHER.TST.1984.9.1
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P2.77
 
@@ -133,7 +146,7 @@ sameAs=LV.OTHER.TST.1985.11.2
 
 
 
-
+-----
 
 # <LO-REFFF/> BBK2012.P2.87
 

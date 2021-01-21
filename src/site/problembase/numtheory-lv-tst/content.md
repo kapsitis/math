@@ -19,6 +19,8 @@
 </hgroup>
 
 
+-----
+
 # <lo-sample/> LV.TST.1993.2
 
 Dots naturāls skaitlis $a > 2$. 
@@ -29,6 +31,8 @@ $n$, ka $a^n - 1$ dalās ar $2^n$.
 sameAs=BBK2012.P2.87
 -->
 
+
+-----
 
 # <lo-sample/> LV.TST.1994.1
 
@@ -41,6 +45,8 @@ skaitļu kvadrāti.
 sameAs=BBK2012.P5.56
 -->
 
+
+-----
 
 # <lo-sample/> LV.TST.1994.2
 
@@ -60,6 +66,8 @@ sameAs=BBK2012.P9.73
 -->
 
 
+-----
+
 # <lo-sample/> LV.TST.1995.2
 
 Naturālu skaitli sauksim par baltu, ja tas dod atlikumu $1$, 
@@ -74,6 +82,8 @@ concepts=groups
 -->
 
 
+-----
+
 # <lo-sample/> LV.TST.1996.3
 
 Atrast visus tādus pirmskaitļus $p$, ka 
@@ -86,12 +96,16 @@ sameAs=BBK2012.P5.57
 -->
 
 
+-----
+
 # <lo-sample/> LV.TST.1996.5
 Apskatām skaitļus $a_n = 3^n -2^n$, $n=1;2;3;\ldots$.
 Pierādīt, ka nekādi 3 
 šīs virknes locekļi $a_m$, $a_n$, $a_k$ ($m < n < k$)
 neveido ģeometrisku progresiju.
 
+
+-----
 
 # <lo-sample/> LV.TST.1997.1
 
@@ -100,6 +114,8 @@ Pierādīt, ka eksistē bezgalīgi daudz
 tādu naturālu skaitļu $n$, ka  $a+n$ un $b + n$ 
 lielākais kopīgais dalītājs ir $1$.
 
+
+-----
 
 # <lo-sample/> LV.TST.1998.2
 
@@ -112,6 +128,7 @@ sameAs=BBK2012.P4.96
 -->
 
 
+-----
 
 # <lo-sample/> LV.TST.1999.5
 
@@ -126,6 +143,8 @@ sameAs=BBK2012.P2.23
 -->
 
 
+-----
+
 # <lo-sample/> LV.TST.2004.3
 
 Skaitļu virkni $a_0, a_1, a_2, \ldots$ veido sekojoši:
@@ -133,6 +152,7 @@ $$a_0=1;\; a_1=1;\; a_{n+2}=7a_{n+1}-a_n-2\;\;\text{pie}\;\;n\geq 0.$$
 Pierādīt, ka visi virknes locekļi ir naturālu skaitļu kvadrāti.
 
 
+-----
 
 # <lo-sample/> LV.TST.2004.4
 
@@ -141,6 +161,7 @@ kas dod atlikumu $2$, dalot ar $3$. Dots, ka $a^2+ab+b^2$
 dalās ar $p$. Pierādīt, ka gan $a$, gan $b$ dalās ar $p$.
 
 
+-----
 
 # <lo-sample/> LV.TST.2005.3
 
@@ -150,11 +171,15 @@ Atrast visas naturālu skaitļu kopas $S$, kas vienlaicīgi apmierina sekojošas
 **(iii)** ja $a \in S$, $b \in S$ un $1<a<b$, tad $1+ab \in S$.
 
 
+-----
+
 # <lo-sample/> LV.TST.2006.1
 
 Atrisināt naturālos skaitļos vienādojumu
 $$3^x = 2^x \cdot y + 1.$$
 
+
+-----
 
 # <lo-sample/> LV.TST.2007.3
 
@@ -162,6 +187,8 @@ Dots, ka $p$ – pirmskaitlis, $p>2$, un
 $x^p + y^p$ dalās ar $p$ ($x, y$ – naturāli skaitļi). 
 Pierādīt, ka $x^p + y^p$ dalās ar  $p^2$.
 
+
+-----
 
 # <lo-sample/> LV.TST.2008.3
 
@@ -171,12 +198,15 @@ $$(x + 1)^2 + y_1^2 = (x+2)^2 + y_2^2 = \ldots =
 eksistē atrisinājums veselos skaitļos?
 
 
+-----
+
 # <lo-sample/> LV.TST.2009.1
 
 Kādiem naturāliem skaitļiem $m$ un $n$, kas abi lielāki par $1$,
 skaitlis $n^3 - 1$ dalās ar $m \cdot n - 1$?
 
 
+-----
 
 # <lo-sample/> LV.TST.2010.3
 
@@ -186,6 +216,7 @@ vērtība ir pirmskaitļa pakāpe.
 
 
 
+-----
 
 # <lo-sample/> LV.TST.2011.1
 
@@ -194,6 +225,7 @@ kurus nav iespējams izteikt kā divu vai vairāku
 secīgu naturālu skaitļu summu?
 
 
+-----
 
 # <lo-sample/> LV.TST.2012.1
 
@@ -209,6 +241,7 @@ Aprēķināt $S(S(S(2012^{2012})))$.
 
 
 
+-----
 
 # <lo-sample/> LV.TST.2012.2
 
@@ -217,13 +250,15 @@ x_{n} + 2$ visiem $n \geq 1$ un $y_1 = y_2 = 4$,
 $y_{n+2} = y_{n}y_{n+1} - 1$ visiem $n \geq 1$. 
 Pierādīt, ka nav tāda naturāla skaitļa, kas pieder abām virknēm.
 
-
+-----
 
 # <lo-sample/> LV.TST.2014.4
 
 Pierādīt, ka vienādojumam 
 $(a - b)^2 = 6ab + 7$  nav atrisinājuma naturālos skaitļos.
 
+
+-----
 
 # <lo-sample/> LV.TST.2014.13
 
@@ -234,6 +269,8 @@ izteiksmes $mf(m) + n$
 vērtība bez atlikuma dalās ar izteiksmes $m^2 + f(n)$
 vērtību.
 
+
+-----
 
 # <lo-sample/> LV.TST.2014.14
 
@@ -257,6 +294,9 @@ abi ir labi vai abi ir slikti.
 
 </div>
 
+
+-----
+
 # <lo-sample/> LV.TST.2015.3
 
 Naturālus skaitļus $x$ un $y$ sauc par *draudzīgiem*, ja $xy+1$
@@ -266,6 +306,8 @@ tad eksistē tāds naturāls skaitlis $c$, ka vienlaikus
 $a$ un $c$ ir draudzīgi, un arī $b$ un $c$ ir draudzīgi.
 
 
+-----
+
 # <lo-sample/> LV.TST.2015.4
 
 Atrast visas funkcijas, kas definētas veseliem skaitļiem 
@@ -274,10 +316,16 @@ un visiem veseliem $x$ un $y$ izpildās
 $$f(x) + f(y) = f(x + 2xy) + f(y - 2xy).$$
 
 
+
+-----
+
 # <lo-sample/> LV.TST.2016.3
 
 Atrast visus tādus pirmskaitļus $p$, ka $3^{p^2-1} + 20$ arī ir pirmskaitlis!
 
+
+
+-----
 
 # <lo-sample/> LV.TST.2016.5
 
@@ -286,6 +334,9 @@ ka katram naturālam $n$, skaitļu $a_{n+1}, a_{n+2},\ldots,a_{n+a_n}$ vidējais
 aritmētiskais ir vienāds ar $n$?
 
 
+
+-----
+
 # <lo-sample/> LV.TST.2016.15
 
 Naturāli skaitļi $a$ un $b$ ir tādi, ka $a!b!$ dalās ar $a!+b!$. 
@@ -293,6 +344,7 @@ Pierādīt, ka $3a \geq 2b + 2$.
 
 
 
+-----
 
 # <lo-sample/> LV.TST.2017.11
 
@@ -301,6 +353,7 @@ bet ar $\tau_1(n)$ — tā pozitīvo dalītāju skaitu, kas, dalot ar $3$,
 dod atlikumu $1$. Kādas naturālas
 vērtības var pieņemt izteiksme $\frac{\tau(10)}{\tau_1(10n)}$.
 
+-----
 
 # <lo-sample/> LV.TST.2018.3
 
@@ -308,6 +361,7 @@ Pierādīt, ka vienādojumam $5m^2 - 6mn + 7n^2 = 20182018$
 nav atrisinājuma naturālos skaitļos!
 
 
+-----
 
 # <lo-sample/> LV.TST.2018.14
 
@@ -317,6 +371,8 @@ Pierādiet, ka polinomam
 $$P(x) = M(x + 1)^k - (x + a_1)(x + a_2)\ldots(x + a_n)$$
 nav pozitīvu sakņu.
 
+
+-----
 
 # <lo-sample/> LV.TST.2018.15
 

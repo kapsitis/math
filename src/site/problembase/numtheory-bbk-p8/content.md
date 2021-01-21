@@ -25,6 +25,7 @@ Universitāte. 2012.g.</p>
 </hgroup>
 
 
+-----
 
 # <lo-sample/> BBK2012.P8.11
 
@@ -37,6 +38,7 @@ sameAs=LV.OTHER.TST.1986.11.5
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P8.48
 

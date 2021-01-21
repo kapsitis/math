@@ -16,6 +16,8 @@ rīkota olimpiāde skolēniem)
 [Matematikos olimpiados](http://mif.vu.lt/matematikos-olimpiados/)
 
 
+-----
+
 # <lo-sample/> LT.LMMO.2003.9_10.2
 
 Aplūkosim naturālu skaitļu četriniekus $(a,b,c,d)$, kas apmierina nosacījumus: 
@@ -31,6 +33,7 @@ $$a + b + c + d = ab + cd,\;\;a \leq b \leq c \leq d.$$
 -->
 
 
+-----
 
 # <lo-sample/> LT.LMMO.2003.11_12.1
 
@@ -48,6 +51,8 @@ $2n + 1$ ir $3n + 1$ yra sveikųjų skaičių kvadratai.
 -->
 
 
+-----
+
 # <lo-sample/> LT.LMMO.2005.9_10.4
 
 Vai eksistē tādi naturāli skaitļi $a$, $b$ un $c$, ka
@@ -58,6 +63,8 @@ Ar yra tokių natūraliųjų skaičių $a$, $b$ ir $c$, kad
 $$(a+b)(b+c)(c+a) = 4242?$$
 -->
 
+
+-----
 
 # <lo-sample/> LT.LMMO.2005.11_12.1
 
@@ -73,6 +80,9 @@ Prieš kiekvieną iš jų galima parašyti $+$ arba $-$. Kokį mažiausią nenei
 galima gauti atlikus aritmetinius veiksmus?
 -->
 
+
+-----
+
 # <lo-sample/> LT.LMMO.2006.9_10.1
 
 Pierādiet, ka $n^2 + 2n + 12$ nedalās ar $121$, ja $n$ ir vesels skaitlis.
@@ -82,6 +92,8 @@ Pierādiet, ka $n^2 + 2n + 12$ nedalās ar $121$, ja $n$ ir vesels skaitlis.
 Įrodykite, kad $n^2 + 2n + 12$ nesidalina iš $121$, jei $n$ yra sveikasis skaičius.
 -->
 
+
+-----
 
 # <lo-sample/> LT.LMMO.2006.9_10.3
 
@@ -99,6 +111,8 @@ lygybė $a^2 + 3b^2 = c^3$, jei
 -->
 
 
+-----
+
 # <lo-sample/> LT.LMMO.2007.9_10.2
 
 Virkni $(a_n)$ ar visiem naturālajiem $n$ apmierina nosacījumu
@@ -110,6 +124,9 @@ Seka $(a_n)$ su visais natūraliaisiais $n$ tenkina sąlygą
 $$n^2 a_n = a_1 + a_2 + \ldots + a_n.$$
 Duota, kad $a_1 = 1002$. Raskite $a_{2006}$.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2007.11_12.1
 
@@ -136,6 +153,9 @@ galima išreikšti suma $3n-1$ dėmenų, kurių kiekvienas yra
 didesnio už vienetą natūraliojo skaičiaus kvadratas.
 -->
 
+
+-----
+
 # <lo-sample/> LT.LMMO.2008.9_10.1
 
 Zināms, ka
@@ -153,6 +173,8 @@ kur $a$, $b$, $c$ ir $d$ – sveikieji skaičiai.
 -->
 
 
+-----
+
 # <lo-sample/> LT.LMMO.2008.11_12.3
 
 Atrodiet visus naturālos skaitļus $n$, kuriem 
@@ -162,6 +184,9 @@ $n^7 + n^2 + 1$ ir pirmskaitlis.
 Raskite visus natūraliuosius skaičius $n$, su kuriais 
 $n^7 + n^2 + 1$ yra pirminis skaičius.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2009.9_10.1
 
@@ -178,6 +203,9 @@ $$28a + 30b + 31c = 365.$$
 **(b)** Raskite visus šios lygties natūraliuosius sprendinius 
 $(a,b,c)$.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2009.11_12.4
 
@@ -210,6 +238,8 @@ $$1 = \frac{1}{2} + \frac{1}{3} + \frac{1}{6}.$$
 -->
 
 
+-----
+
 # <lo-sample/> LT.LMMO.2010.9_10.4
 
 Skaitlis
@@ -225,6 +255,8 @@ $b = a + c$.
 -->
 
 
+
+-----
 
 # <lo-sample/> LT.LMMO.2010.11_12.4
 
@@ -255,6 +287,7 @@ concepts=remainder
 -->
 
 
+-----
 
 # <lo-sample/> LT.LMMO.2011.9_10.3
 
@@ -275,6 +308,8 @@ nebegali padaryti ėjimo. Ar gali pirmasis žaidėjas laimėti?
 Jei taip, tai nurodykite jo strategiją.
 -->
 
+
+-----
 
 # <lo-sample/> LT.LMMO.2011.9_10.4
 
@@ -297,6 +332,7 @@ $29n + 11$ yra sudėtinis.
 --> 
 
 
+-----
 
 # <lo-sample/> LT.LMMO.2011.11_12.4
 
@@ -325,6 +361,8 @@ skaičių rinkinys?
 -->
 
 
+-----
+
 # <lo-sample/> LT.LMMO.2012.9_10.1
 
 Cik ir tādu veselu skaitļu, kurus var izteikt kā
@@ -339,6 +377,8 @@ $$\frac{1}{a_1} + \frac{2}{a_2} + \frac{1}{a_3} + \cdots +
 kur $a_1 ,a_2, a_3,\ldots ,a_{99}, a_{100}$ - natūralieji skaičiai?
 -->
 
+
+-----
 
 # <lo-sample/> LT.LMMO.2012.9_10.4
 
@@ -361,6 +401,9 @@ $18$ yra mandagus, nes $18 = 5 + 6 + 7$.
 (b) Ar skaičius $2048$ yra mandagus?  
 (c) Raskite visus mandagiuosius skaičius.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2012.11_12.3
 
@@ -406,6 +449,8 @@ kur $n > 1$, nėra piktas.
 -->
 
 
+-----
+
 # <lo-sample/> LT.LMMO.2013.9_10.4
 
 Apzīmēsim skaitli, kura decimālpierakstā ir $n$
@@ -428,6 +473,8 @@ nėra skaitmens $9$.
 -->
 
 
+-----
+
 # <lo-sample/> LT.LMMO.2013.11_12.4
 
 (a) Intervālā $(25,36)$ atrodiet tādus trīs dažādus veselus skaitļus
@@ -444,6 +491,9 @@ skaičius, egzistuoja tokie trys skirtingi sveikieji skaičiai $a$, $b$ ir $c$,
 kad $a^2 + b^2$ dalijasi iš $c$?
 -->
 
+
+-----
+
 # <lo-sample/> LT.LMMO.2014.9_10.4
 
 Atrodiet visus veselu skaitļu pārus $(m,n)$, 
@@ -455,6 +505,9 @@ Raskite visas sveikųjų skaičių poras $(m,n)$,
 su kuriomis teisinga lygybė
 $$(n + 101)(n + 102)(n + 103)(n + 104) = (m + 1)(m + 2).$$
 -->
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2014.11_12.4
 
@@ -472,6 +525,9 @@ $$a^2 + b^2 + c^2 + d^2 = 7 \cdot 4^{2014}.$$
 tenkinančius sąlygą $a \leq b \leq c \leq d$.
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2015.9_10.4
 
@@ -492,6 +548,9 @@ $$\left( 1 + \frac{1}{a} \right)
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.LMMO.2015.11_12.4
 
 Veselu skaitli $n$ sauc par *dīvainu*, ja skaitlis 
@@ -509,6 +568,8 @@ iš $n^2 + 2014$, o skaičius $n^4 + 2015$ dalijasi iš $n^2 + 2015$.
 --> 
 
 
+-----
+
 # <lo-sample/> LT.LMMO.2016.9_10.1
 
 Atrodiet visus vienādojuma 
@@ -520,6 +581,9 @@ Raskite visus lygties
 $15a^2 − 8ab + b^2 + 8a − 2b + 38 = 0$ sveikuosius
 sprendinius $(a,b)$.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2016.9_10.4
 
@@ -536,6 +600,9 @@ pirminiai. Įrodykite, kad skaičius $n^4 + 16n^2$ dalijasi:
 (a) iš $3$;  
 (b) iš $720$.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2016.11_12.4
 
@@ -556,6 +623,8 @@ yra natūraliojo skaičiaus kvadratas.
 -->
 
 
+-----
+
 # <lo-sample/> LT.LMMO.2017.9_10.4
 
 Naturālu skaitļu četrinieks $(a, b, c, d)$ apmierina vienādojumu sistēmu
@@ -575,6 +644,9 @@ cd - c - d & = & a + b - 3
 (a) Raskite bent du tokius ketvertus.  
 (b) Rasite visus tokius ketvertus.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2017.11_12.4
 
@@ -599,6 +671,9 @@ $a^2 + b^2 + ab$.
 (d) Raskite visus tvarkingus skaičius.
 -->
 
+
+-----
+
 # <lo-sample/> LT.LMMO.2018.9_10.4
 
 Atrodiet visus veselu skaitļu pārus $(x,y)$, kas apmierina vienādību 
@@ -608,6 +683,9 @@ $x^3 + 3x^2y = 4y^3 + 100$.
 Raskite visas sveikųjų skaičių poras $(x,y)$, tenkinančias lygybę
 $x^3 + 3x^2y = 4y^3 + 100$.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2018.11_12.4
 
@@ -619,6 +697,9 @@ Raskite visas natūraliųjų skaičių poras $(m, n)$, su kuriomis
 $m^{2018} + n$ dalijasi iš $mn$.
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2019.9_10.4
 
@@ -639,6 +720,10 @@ kad jis yra dar šaunesnis: įsiminė ir vieną po kito užrašė
 visus skaičiaus $25^{2019}$ skaitmenis. 
 Kiek iš viso lentoje užrašyta skaitmenų?
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2019.11_12.3
 
@@ -677,6 +762,9 @@ d) Raskite visas tokias natūraliąsias $m$ reikšmes,
 kurioms yra įmanoma, kad tam tikru momentu 
 dėžutėje pasidarytų lygiai $m$ eurų.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LMMO.2019.11_12.4
 

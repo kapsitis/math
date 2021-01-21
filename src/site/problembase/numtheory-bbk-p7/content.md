@@ -25,6 +25,9 @@ Universitāte. 2012.g.</p>
 </hgroup>
 
 
+-----
+
+
 # <lo-sample/> BBK2012.P7.13
 
 Dots, ka  $n_1,n_2,\ldots,n_k$ -- naturāli skaitļi, pie tam

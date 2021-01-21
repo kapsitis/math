@@ -25,6 +25,8 @@ Universitāte. 2012.g.</p>
 </hgroup>
 
 
+-----
+
 
 # <lo-sample/> BBK2012.P5.35
 
@@ -35,6 +37,7 @@ naturālos skaitļos.
 sameAs=LV.OTHER.TST.1977.9.1
 -->
 
+-----
 
 # <lo-sample/> BBK2012.P5.48
 
@@ -44,6 +47,7 @@ Atrisināt naturālos skaitļos vienādojumu $7^x - 3 \cdot 2^y = 1$.
 sameAs=LV.OTHER.TST.1990.10.2
 -->
 
+-----
 
 
 # <lo-sample/> BBK2012.P5.53
@@ -57,6 +61,7 @@ sameAs=LV.OTHER.TST.1978.10.5
 -->
 
 
+-----
 
 
 # <LO-REFFF/> BBK2012.P5.56
@@ -70,6 +75,7 @@ skaitļu kvadrāti.
 mainEntry=LV.TST.1994.1
 -->
 
+-----
 
 # <LO-REFFF/> BBK2012.P5.57
 
@@ -82,6 +88,7 @@ augstāka par pirmo, un pierādīt, ka citu bez atrastajiem nav.
 mainEntry=LV.TST.1996.3
 -->
 
+-----
 
 # <lo-sample/> BBK2012.P5.67
 
@@ -94,6 +101,7 @@ sameAs=LV.OTHER.TST.1977.11.4
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P5.114
 
@@ -108,6 +116,7 @@ locekļi ir veseli skaitļi.
 sameAs=LV.OTHER.TST.1983.10.3
 -->
 
+-----
 
 # <lo-sample/> BBK2012.P5.115
 
@@ -124,6 +133,7 @@ locekļi ir naturāli skaitļi.
 sameAs=LV.OTHER.TST.1988.10.5
 -->
 
+-----
 
 # <lo-sample/> BBK2012.P5.116
 

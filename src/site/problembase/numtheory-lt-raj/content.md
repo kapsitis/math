@@ -28,6 +28,7 @@ jaunāko klašu skolēnu olimpiāde)
 
 
 
+-----
 
 # <lo-sample/> LT.RAJ.2010.9_10.1
 
@@ -46,6 +47,9 @@ Ar gali būti taip, kad iš viso vaikai
 turi $2009$ riešutus?
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2010.9_10.4
 
 Atrodiet visus trīsciparu skaitļus, kuri ir $12$
@@ -55,6 +59,9 @@ reizes lielāki par savu ciparu summu.
 Raskite visus triženklius skaičius, kurie $12$ 
 kartų didesni už savo skaitmenų sumą.
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2010.11_12.2
 
@@ -77,6 +84,9 @@ visus tris pradinius skaitmenis. Kokį skaičių gavo
 Petriukas?
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2010.11_12.3
 
 Atrodiet visus naturālos skaitļus $n$, kuriem 
@@ -90,6 +100,9 @@ kuriems lygtis $2x + 3y = n$
 turi daugiau sveikųjų neneigiamų sprendinių 
 $(x, y)$ nei lygtis $2x + 3y = n + 1$.
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2011.9_10.2
 
@@ -105,6 +118,9 @@ didžiausią bendrąjį daliklį. Įrodykite, kad $m$ dalijasi iš $n$
 arba $n$ dalijasi iš $m$.
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2011.9_10.4
 
 Dots vienādojums$x^2 + 5y^3 = t^2$.  
@@ -117,6 +133,9 @@ a) Ar šios lygties sveikųjų sprendinių aibė baigtinė?
 b) Ar šios lygties natūraliųjų sprendinių aibė baigtinė?
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2011.11_12.1
 
 Naturāli skaitļi $m$ un $n$ apmierina vienādību 
@@ -128,6 +147,9 @@ Natūralieji skaičiai $m$ ir $n$ tenkina lygybę
 $(m−n)^2 = \frac{4mn}{m+n−1}$. Įrodykite,
 kad $m+n$ yra natūraliojo skaičiaus kvadratas. 
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2011.11_12.3
 
@@ -147,6 +169,8 @@ b) Kokie gali būti tie du skaičiai,
 jei jų skirtumas lygus $3$? Raskite visus variantus.
 -->
 
+
+-----
 
 # <lo-sample/> LT.RAJ.2012.9_10.1
 
@@ -177,6 +201,9 @@ c) Kiek dar kibirų vandens Sigutė gali tiksliai
 pamatuoti dviem kubilais? Raskite visus variantus.
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2012.9_10.2
 
 Atrodiet visus trīsciparu skaitļus $\overline{abc}$, 
@@ -189,6 +216,9 @@ Raskite visus triženklius skaičius $\overline{abc}$,
 kurių skaitmenys $a$, $b$ ir $c$ tenkina lygybę
 $$56a + 7b + c = 426.$$
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2012.11_12.2
 
@@ -206,6 +236,9 @@ a) Koks yra trisdešimtasis skaitmuo šioje sekoje?
 b) Koks yra šimtasis bei $400$-asis skaitmenys?  
 c) Koks yra $2012$-asis skaitmuo?
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2012.11_12.3
 
@@ -240,6 +273,8 @@ d) Įrodykite, kad egzistuoja tokia uždavinio sąlygą
 tenkinati seka, kad $x_{2012} = 2012$.
 -->
 
+
+-----
 
 # <lo-sample/> LT.RAJ.2012.11_12.5
 
@@ -277,6 +312,9 @@ tai skaičius $a$ turi mažiausiai $8$ skirtingus
 natūraliuosius daliklius (įskaitant vienetą ir jį patį).
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2013.9_10.1
 
 Četriem pēc kārtas sekojošiem naturāliem skaitļiem 
@@ -289,6 +327,9 @@ skaičiams atvirkštinių skaičių suma lygi $19/20$.
 Raskite šiuos natūraliuosius skaičius.
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2013.9_10.5
 
 Atrodiet naturālu skaitļu $p$, $p+8$ un
@@ -300,6 +341,9 @@ Raskite natūraliųjų skaičių $p$, $p+8$ ir
 $2p^2+43$ sandaugą, jei žinoma,
 kad visi trys skaičiai yra pirminiai.
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2013.9_10.4A
 
@@ -314,6 +358,9 @@ $$x^2 + xy + y^2 = 2013z^2.$$
 a) Raskite bent vieną šios lygties sprendinį $(x,y,z)$.  
 b) Raskite visus šios lygties sprendinius $(x,y,z)$.
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2013.11_12.3
 
@@ -344,6 +391,8 @@ knyga rašyta abiejų autorių bendrai).
 Po kiek puslapių šiose knygose yra iš tikrųjų?
 -->
 
+
+-----
 
 # <lo-sample/> LT.RAJ.2013.11_12.4
 
@@ -383,6 +432,8 @@ concepts=real-numbers
 -->
 
 
+-----
+
 # <lo-sample/> LT.RAJ.2014.9_10.4
 
 Naturāls skaitlis $n$ ir tāds, ka
@@ -396,6 +447,9 @@ $n^2 + 26$ dalijasi iš $n+2$. Raskite
 a) bent du tokius natūraliuosius skaičius $n$;  
 b) visus tokius natūraliuosius skaičius $n$.
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2015.9_10.1
 
@@ -413,6 +467,9 @@ gaunamas triženklis skaičius $\overline{ddd}$. Raskite visas galimas
 reiškinio $(a + c)(a^2 + c^2)(a^a + c^c)$ reikšmes.
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2015.9_10.2
 
 Piecu pēc kārtas sekojošu naturālu skaitļu 
@@ -428,6 +485,9 @@ kvadratų suma lygi paskutiniųjų dviejų skaičių
 kvadratų sumai. a) Raskite bent vieną
 tokį rinkinį. b) Ar yra daugiau tokių rinkinių?
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2015.9_10.5
 
@@ -452,6 +512,8 @@ concepts=real-numbers,irrational-numbers
 -->
 
 
+-----
+
 # <lo-sample/> LT.RAJ.2015.11_12.1
 
 Aiste uzrakstīja skaitļu virkni:
@@ -470,6 +532,8 @@ b) Kam lygi visų sekos narių suma?
 c) Koks yra paskutinis visų sekos narių kvadratų sumos skaitmuo?
 -->
 
+
+-----
 
 # <lo-sample/> LT.RAJ.2015.11_12.4
 
@@ -497,6 +561,10 @@ kuris dalijasi iš $4$, nesidalija iš $8$. Raskite
 tokį skaičių $n$ ir įrodykite, kad jis vienintelis.
 -->
 
+
+
+-----
+
 # <lo-sample/> LT.RAJ.2015.11_12.5
 
 Zināms, ka reāls skaitlis $x$ nav vienāds ar $0$, un 
@@ -518,6 +586,8 @@ $\sqrt{a}$ yra iracionalusis skaičius.
 -->
 
 
+-----
+
 # <lo-sample/> LT.RAJ.2016.9_10.3
 
 Atrodiet mazāko naturālu sešciparu skaitli, 
@@ -529,6 +599,9 @@ Raskite mažiausią natūralųjį šešiaženklį skaičių,
 kurio visi skaitmenys
 yra skirtingi ir kuris dalijasi iš $2$, $3$, $4$, $5$ ir $6$.
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2016.9_10.4
 
@@ -549,6 +622,8 @@ b) Įrodykite, kad bet kurio tokio trejeto skaičių suma dalijasi
 iš $6$.
 -->
 
+
+-----
 
 # <lo-sample/> LT.RAJ.2016.11_12.1
 
@@ -575,6 +650,7 @@ gyvūnų augina piemuo?
 -->
 
 
+-----
 
 # <lo-sample/> LT.RAJ.2016.11_12.4
 
@@ -598,6 +674,10 @@ skaičių sumai. Raskite visas galimas
 skaičiaus $n$ reikšmes.
 -->
 
+
+
+-----
+
 # <lo-sample/> LT.RAJ.2016.11_12.5
 
 Dota funkcija $f(x) = \frac{x^3}{1+x^3}$. 
@@ -619,6 +699,9 @@ $f\left( \frac{a}{b} \right)$ ir tada randama visų
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2017.9_10.1
 
 Cik ir piecciparu skaitļu $\overline{ab51c}$, kuri dalās ar $72$?
@@ -626,6 +709,9 @@ Cik ir piecciparu skaitļu $\overline{ab51c}$, kuri dalās ar $72$?
 <!--
 Kiek yra penkiaženklių skaičių $\overline{ab51c}$, kurie dalijasi iš $72$?
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2017.9_10.4
 
@@ -652,6 +738,7 @@ reikšmes, mažesnes už $130$.
 -->
 
 
+-----
 
 # <lo-sample/> LT.RAJ.2017.11_12.1
 
@@ -676,6 +763,9 @@ $\sqrt{2a_7 - 16a_6}$
 yra sveikasis skaičius.
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2017.11_12.4
 
 Kādā ārvalstu pilsētā publiskā transporta biļete
@@ -697,6 +787,9 @@ $1096$ dienas, o viešuoju transportu naudotis kasdien. Kiek
 mažiausiai pinigų jis gali išleisti bilietams?
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2017.11_12.5
 
 
@@ -712,6 +805,7 @@ Raskite visas galimas skaičiaus $a$ reikšmes.
 --> 
 
 
+-----
 
 # <lo-sample/> LT.RAJ.2018.9_10.1
 
@@ -734,6 +828,7 @@ kur $b$ ir $c$ yra natūralieji skaičiai.
 -->
 
 
+-----
 
 # <lo-sample/> LT.RAJ.2018.9_10.3
 
@@ -756,6 +851,7 @@ $A^B + 2 \cdot \overline{AB} - B^A$ teigiamas reikšmes.
 -->
 
 
+-----
 
 # <lo-sample/> LT.RAJ.2018.9_10.5
 
@@ -773,6 +869,9 @@ b) Raskite didžiausią pirminį skaičių,
 iš kurio gali dalytis skaičius $x$.
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2018.11_12.2
 
@@ -799,6 +898,10 @@ $a$ natūraliųjų reikšmių sumą.
 kur skaičius $197$ pirminis.)
 -->
 
+
+
+-----
+
 # <lo-sample/> LT.RAJ.2018.11_12.5
 
 Dots naturāls skaitlis $n$ un pirmskaitlis 
@@ -818,6 +921,7 @@ $(x, y)$. Raskite visas galimas $p$ reikšmes.
 -->
 
 
+-----
 
 # <lo-sample/> LT.RAJ.2019.9_10.2
 
@@ -839,6 +943,9 @@ a) Raskite $a_1$ ir $a_3$.
 b) Keliais nuliais baigiasi skaičius $a_{100} + 1$?
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2019.9_10.4
 
 Naturālu skaitli $n$ sauksim par *aizdivināmu*, 
@@ -856,6 +963,9 @@ kad skaičiaus $n \cdot a$ dešimčių
 Keli natūralieji skaičiai nuo $1$ iki $999$ 
 nėra uždvejinami?
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2019.11_12.1
 
@@ -885,6 +995,9 @@ b) Kiek skirtingų natūraliųjų reikšmių bus įgijusi
 ši sandauga, prieš nutrinant paskutinius du skaičius?
 -->
 
+
+-----
+
 # <lo-sample/> LT.RAJ.2019.11_12.2
 
 Naturālu skaitli sauksim par *šogadīgu*, 
@@ -904,6 +1017,9 @@ $$a_1, a_2, a_3, \ldots.$$
 a) Raskite $a_1$ ir $a_3$.  
 b) Keliais nuliais baigiasi skaičius $a_{2019} + 1$?
 -->
+
+
+-----
 
 # <lo-sample/> LT.RAJ.2019.11_12.4
 

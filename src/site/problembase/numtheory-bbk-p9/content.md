@@ -25,6 +25,9 @@ Universitāte. 2012.g.</p>
 </hgroup>
 
 
+-----
+
+
 # <lo-sample/> BBK2012.P9.12
 
 Pierādīt, ka eksistē tāds naturāls skaitlis $n$, 
@@ -33,6 +36,8 @@ ka $n^2 + 1$ dalās ar  $5^{1979}$.
 <!--
 sameAs=LV.OTHER.TST.1979.10.2
 -->
+
+-----
 
 
 # <lo-sample/> BBK2012.P9.20
@@ -49,6 +54,7 @@ locekļi būtu naturāli skaitļi.
 sameAs=LV.OTHER.TST.1989.10.3
 -->
 
+-----
 
 
 # <lo-sample/> BBK2012.P9.38
@@ -67,6 +73,7 @@ sameAs=LV.OTHER.TST.1990.11.5
 
 
 
+-----
 
 # <lo-sample/> BBK2012.P9.71
 
@@ -78,6 +85,7 @@ skaitļos.
 sameAs=LV.OTHER.TST.1976.10.3
 -->
 
+-----
 
 # <lo-sample/> BBK2012.P9.72
 
@@ -90,6 +98,7 @@ sameAs=LV.OTHER.TST.1976.11.5
 -->
 
 
+-----
 
 # <LO-REFFF/> BBK2012.P9.73
 

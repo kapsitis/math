@@ -17,6 +17,7 @@ rīkota olimpiāde skolēniem)
 
 
 
+-----
 
 # <lo-sample/> LT.LDK.2009.1
 
@@ -32,6 +33,9 @@ equals $2009$.
 (A) Find one such number.  
 (B) Find the smallest such number.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LDK.2009.5
 
@@ -50,6 +54,8 @@ table having all entries divisible by $n$. Prove that, through a finite number o
 operations, one can obtain the table whose all entries are zeroes. 
 -->
 
+-----
+
 # <lo-sample/> LT.LDK.2010.2
 
 Atrast visus naturālos skaitļus $n$, kuriem eksistē dažādi veseli skaitļi
@@ -63,6 +69,7 @@ $$\frac{1}{a_1}+\frac{2}{a_2}+\cdots+\frac{n}{a_n}=\frac{a_1 + a_2 + \cdots + a_
 -->
 
 
+-----
 
 # <lo-sample/> LT.LDK.2010.5
 
@@ -80,6 +87,7 @@ digit number, that has equal digits.
 number, the digits beeing $2$, $0$, $0$, $9$ in some order.
 -->
 
+-----
 
 # <lo-sample/> LT.LDK.2011.1
 
@@ -96,6 +104,8 @@ is a perfect square? Why?
 -->
 
 
+-----
+
 # <lo-sample/> LT.LDK.2011.3
 
 Atrast visus pirmskaitļus $p, q$ tādus, ka 
@@ -106,6 +116,8 @@ Find all primes $p,q$ such that
 $p^3 - q^7 = p-q$. 
 -->
 
+
+-----
 
 # <lo-sample/> LT.LDK.2011.5
 
@@ -121,6 +133,7 @@ possible.
 -->
 
 
+-----
 
 # <lo-sample/> LT.LDK.2012.4
 
@@ -135,6 +148,8 @@ integers $a_1,a_2,a_3,\ldots$ for which $a_n+a_{n+1}+a_{n+m} = 0$ for all
 $n \in \mathbb{N}$.
 -->
 
+
+-----
 
 # <lo-sample/> LT.LDK.2013.3
 
@@ -160,6 +175,8 @@ move.
 -->
 
 
+-----
+
 # <lo-sample/> LT.LDK.2013.4
 
 Naturālu skaitli $n>2$ saucam par *savdabīgu*, ja skaitlis 
@@ -174,6 +191,9 @@ is even for all integers $i$ and $j$ such that $0 \leq i \leq j \leq n$.
 Determine all peculiar numbers.
 -->
 
+
+-----
+
 # <lo-sample/> LT.LDK.2014.4
 
 Noteikt visus naturālos skaitļus $n > 1$, kuriem $n+D(n)$ ir skaitļa
@@ -185,6 +205,9 @@ Determine all positive integers $n > 1$ for which $n+D(n)$ is a
 power of $10$, where $D(n)$ denotes the largest integer divisor of
 $n$ satisfying $D(n) < n$.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LDK.2015.4
 
@@ -216,6 +239,8 @@ take.
 -->
 
 
+-----
+
 # <lo-sample/> LT.LDK.2016.4
 
 Noteikt visus naturālos skaitļus $n$, kuriem 
@@ -226,6 +251,8 @@ Determine all positive integers $n$ such that
 $7^n−1$ is divisible by $6^n−1$.
 -->
 
+
+-----
 
 # <lo-sample/> LT.LDK.2017.4
 
@@ -242,6 +269,8 @@ number of distinct odd prime factors of $n(n + 3)$ is a multiple of $3$.
 $840 = 2^3 \cdot 3 \cdot 5 \cdot 7$ has three.)
 -->
 
+
+-----
 
 # <lo-sample/> LT.LDK.2018.4
 

@@ -11,6 +11,7 @@
 
 
 
+-----
 
 # <lo-sample/> EE.LO.2010.10.2
 
@@ -38,6 +39,7 @@ genre=integer-equation
 </small>
 
 
+-----
 
 ## Ekstremālais elements
 
@@ -49,6 +51,9 @@ Aplūkosim mazāko no $a,b,c$. Ir vairāki gadījumi
 (3) Ja $\mbox{min}(a,b,c)=2$, tad ir divas iespējas:  
 (3.1) $a=2$ vai arī  
 (3.2) $b = 2$. (Nevar būt $c=2$, jo tad pat viens saskaitāmais $\frac{4}{c^2}=1$.)
+
+
+--
 
 ## Gadījums (3.1): a=2
 
@@ -62,6 +67,9 @@ tātad $b=3$.
 (3.1.2) $\frac{4}{c^2} > \frac{1}{4}$ jeb $c^2 < 16$. Ievietojot 
 $c=2$, $\frac{4}{c^2}$ ir par lielu, tātad $c=3$. 
 
+
+-- 
+
 ## Gadījumi (3.1.1) un (3.1.2) 
 
 (3.1.1) Ievietojot $(a,b)=(2,3)$, iegūstam:
@@ -71,6 +79,9 @@ jeb $c^2 = 24$, kas nevar būt.
 (3.1.2) Ievietojot $(a,c)=(2,3)$, iegūstam:
 $$\frac{3}{b^2} = 1 - \frac{2}{4} - \frac{4}{9} = \frac{1}{18}.$$
 jeb $b^2 = 54$, kas nevar būt. 
+
+
+-- 
 
 ## Gadījums (3.2) b=2
 
@@ -86,6 +97,9 @@ Vismaz viens no saskaitāmajiem ir vismaz puse no summas jeb $1/8$.
 * Ja $a=3$, tad $\frac{4}{c^2} = 1 - \frac{2}{9} - \frac{3}{4} = \frac{1}{36}$. 
 Iegūstam, ka $c^2 = 144$, jeb $c=12$. 
 * Ja $a=4$, tad $\frac{4}{c^2} = \frac{1}{8}$ jeb $c^2 = 32$, kas nevar būt. 
+
+
+-- 
 
 ## Gadījums (3.2) b=2 (turpinājums)
 
@@ -104,6 +118,8 @@ Esam ieguvuši divus atrisinājumus:
 * $(a,b,c)=(3,2,12)$.  
 
 
+-----
+
 # <lo-sample/> EE.LO.2011.10.2
 
 Atrast visus naturālu skaitļu četriniekus $(w,x,y,z)$, 
@@ -121,6 +137,7 @@ genre=integer-equation
 -->
 
 
+-----
 
 # <lo-sample/> EE.LO.2012.10.1
 
@@ -148,6 +165,7 @@ concepts=square-root,arithmetic-mean,geometric-mean
 -->
 
 
+-----
 
 # <lo-sample/> EE.LO.2012.10.5
 
@@ -172,6 +190,7 @@ concepts=factorial
 -->
 
 
+-----
 
 # <lo-sample/> EE.LO.2013.10.1
 
@@ -198,6 +217,8 @@ concepts=power-sums
 -->
 
 
+-----
+
 
 ## Stratēģija: Pāreja uz atlikumiem
 
@@ -214,6 +235,9 @@ Apgalvojumu priekš $m=7$ pierāda, kāpinot skaitļus no $0$ līdz $6$ kubā,
 aplūkojot atlikumus. Lielākiem skaitļiem atlikumi atkārtosies.  
 Priekš $m=9$ līdzīgi aplūko skaitļus no $0$ līdz $8$
 (vai, ja vēlamies, no $-4$ līdz $4$). 
+
+
+--
 
 ## Pretrunas modulis
 
@@ -239,6 +263,9 @@ Aplūkojam "atņemšanas tabulu" atlikumiem, dalot ar $m=7$:
 Atņemot divus pilnus kubus, atlikums dalot ar $7$ var būt
 $0,1,2,5,6$, bet tas nevar būt $4$.  
 (Līdzīgu spriedumu var arī par atlikumiem, dalot ar $m=9$.)
+
+
+-----
 
 # <lo-sample/> EE.LO.2014.10.1
 
@@ -267,6 +294,7 @@ concepts=floor
 
 
 
+-----
 
 
 # <lo-sample/> EE.LO.2014.10.5
@@ -293,6 +321,7 @@ genre=game
 -->
 
 
+-----
 
 # <lo-sample/> EE.LO.2015.10.1
 
@@ -315,6 +344,7 @@ concepts=decimal-fractions
 -->
 
 
+-----
 
 # <lo-sample/> EE.LO.2015.10.4
 
@@ -345,6 +375,7 @@ genre=sequence-properties
 
 
 
+-----
 
 # <lo-sample/> EE.LO.2016.10.1
 
@@ -364,6 +395,7 @@ genre=digit-manipulation
 
 
 
+-----
 
 # <lo-sample/> EE.LO.2016.10.2
 
@@ -382,6 +414,7 @@ genre=integer-equation
 -->
 
 
+-----
 
 # <lo-sample/> EE.LO.2017.10.1
 
@@ -409,6 +442,7 @@ concepts=coprimes
 -->
 
 
+-----
 
 # <lo-sample/> EE.LO.2017.10.5
 
@@ -453,6 +487,7 @@ genre=game
 
 
 
+-----
 
 # <lo-sample/> EE.LO.2018.10.1
 
@@ -471,6 +506,7 @@ genre=integer-equation
 -->
 
 
+-----
 
 # <lo-sample/> EE.LO.2019.10.1
 
@@ -494,6 +530,7 @@ questionType=Find.All
 genre=integer-equation
 -->
 
+-----
 
 ## Algebrisks pārveidojums
 

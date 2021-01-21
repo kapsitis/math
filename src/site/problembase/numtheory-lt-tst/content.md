@@ -31,6 +31,7 @@ rīkota olimpiāde skolēniem)
 
 
 
+-----
 
 # <lo-sample/> LT.TST.2008.1
 
@@ -45,6 +46,9 @@ Raskite visus sveikųjų teigiamų skaičių trejetus $(x, y, z)$, tenkinančius
 questionType=Find.All
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.TST.2009.1
 
@@ -72,6 +76,8 @@ kad daugiau (jokių) sprendinių nėra.
 questionType=Find.Any,Find.All
 -->
 
+
+-----
 
 # <lo-sample/> LT.TST.2010.1
 
@@ -102,6 +108,8 @@ questionType=Find.All
 -->
 
 
+-----
+
 # <lo-sample/> LT.TST.2011.4
 
 Atšķirīgi naturāli skaitļi $s_1,s_2,\ldots,s_n$ apmierina vienādību
@@ -128,6 +136,7 @@ questionType=Find.Min
 -->
 
 
+-----
 
 # <lo-sample/> LT.TST.2011.6
 
@@ -158,6 +167,8 @@ questionType=Find.Count
 -->
 
 
+-----
+
 # <lo-sample/> LT.TST.2012.1
 
 Doti naturāli skaitļi  
@@ -184,6 +195,8 @@ kombinacijos $00,01,\ldots,98,99$?
 questionType=ProveDisprove.Exists
 -->
 
+
+-----
 
 # <lo-sample/> LT.TST.2012.4
 
@@ -225,6 +238,8 @@ questionType=Find.Any,Find.All
 -->
 
 
+-----
+
 # <lo-sample/> LT.TST.2012.6
 
 Naturālo skaitļu kopa sadalīta $k$ savstarpēji nešķeļošās
@@ -256,6 +271,8 @@ questionType=Prove.Exists,Prove.NotExists
 -->
 
 
+-----
+
 # <lo-sample/> LT.TST.2013.2
 
 Naturāli skaitļi $a$, $b$, $c$ un $d$ ir tādi, 
@@ -283,6 +300,9 @@ questionType=ProveDisprove.Exists
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.TST.2013.4
 
 Atrodiet visus tādus polinomus $P(x)$ ar 
@@ -301,6 +321,8 @@ tai ir $m$ yra sveikasis skaičius.
 questionType=Find.All
 -->
 
+
+-----
 
 # <lo-sample/> LT.TST.2013.6
 
@@ -333,6 +355,9 @@ questionType=Find.Any,Find.All
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.TST.2014.2
 
 Galīgai kopai $A$ piemīt tāda īpašība: jebkuru 
@@ -359,6 +384,9 @@ questionType=Find.Any,ProveDisprove.Exists
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.TST.2014.4
 
 **(a)** Vai eksistē tāds naturāls skaitlis $n$, 
@@ -382,6 +410,10 @@ suma yra lygi $3$?
 questionType=ProveDisprove.Exists
 -->
 
+
+
+
+-----
 
 # <lo-sample/> LT.TST.2014.5
 
@@ -432,6 +464,8 @@ questionType=Prove.ForAll,ProveDisprove.ForAll
 
 
 
+-----
+
 # <lo-sample/> LT.TST.2015.2
 
 Atrodiet visus vienādojuma
@@ -453,6 +487,9 @@ pavyzdžiui, $4! = 1 \cdot 2 \cdot 3 \cdot 4 = 24$.)
 questionType=Find.All
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.TST.2015.5
 
@@ -489,6 +526,9 @@ questionType=Find.Max
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.TST.2016.2
 
 Atrodiet visus vienādojuma 
@@ -506,6 +546,9 @@ natūraliuosius sprendinius $(a,b,c,d)$.
 questionType=Find.All
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.TST.2017.2
 
@@ -528,6 +571,10 @@ priklausytų bent vienas pirminis skaičius.
 <!--
 questionType=Find.Min
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.TST.2017.3
 
@@ -560,6 +607,9 @@ questionType=Prove.ForAll,Find.Min
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.TST.2017.4
 
 Doti pirmskaitļi $p > q$ un naturāli skaitļi $k,\ell$. Kopu $A$ veido
@@ -588,6 +638,9 @@ $k = \ell = 10$?
 questionType=Prove.ForAll,ProveDisprove.Exists
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.TST.2018.3
 
@@ -624,6 +677,9 @@ seeAlso=IMO.SHL.2017.N6
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.TST.2018.4
 
 Jebkuram naturālam nepāru $n$ nosakiet, kāds ir skaitļa 
@@ -645,6 +701,7 @@ questionType=Find.Only
 -->
 
 
+-----
 
 # <lo-sample/> LT.TST.2019.1
 
@@ -676,6 +733,9 @@ questionType=ProveDisprove.Exists
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.TST.2019.5
 
 Naturālu skaitli $n$ sauksim par *piecīgu*, ja tam ir 
@@ -698,6 +758,8 @@ genre=special-numbers
 questionType=Prove.ForAll,ProveDisprove.Other
 -->
 
+
+-----
 
 ## <lo-hints/> LT.TST.2019.5 (kongruenču sistēmas)
 

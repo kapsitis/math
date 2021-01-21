@@ -25,6 +25,7 @@ rīkota olimpiāde skolēniem)
 
 
 
+-----
 
 # <lo-sample/> LT.VILNIUS.2007.9.2
 
@@ -44,6 +45,7 @@ $$\left( 1 - \frac{1}{4} \right) \cdot
 -->
 
 
+-----
 
 # <lo-sample/> LT.VILNIUS.2007.9.4
 
@@ -55,6 +57,8 @@ Ar $81$-ženklis skaičius $\underbrace{111\ldots{}1}_{81\;\mbox{skaitmuo}}$,
 kurio visi skaitmenys yra vienetai, dalijasi iš $81$?
 -->
 
+
+-----
 
 # <lo-sample/> LT.VILNIUS.2007.10.2
 
@@ -82,6 +86,7 @@ galioja lygybė $ad = bc$.
 -->
 
 
+-----
 
 # <lo-sample/> LT.VILNIUS.2007.11.3
 
@@ -107,6 +112,7 @@ sameAs=LT.VILNIUS.2007.12.2
 -->
 
 
+-----
 
 # <lo-sample/> LT.VILNIUS.2008.10.3
 
@@ -121,6 +127,7 @@ o $y$ – tų pačių dešimties skaičių kubų suma.
 -->
 
 
+-----
 
 # <lo-sample/> LT.VILNIUS.2008.11.2
 
@@ -149,6 +156,8 @@ visus tokius skaičių rinkinius
 -->
 
 
+-----
+
 # <lo-sample/> LT.VILNIUS.2008.12.1
 
 Trīs naturālu skaitļu summa vienāda ar $2003$. 
@@ -166,6 +175,7 @@ seeAlso=LV.AO.2005.7.4
 -->
 
 
+-----
 
 # <lo-sample/> LT.VILNIUS.2008.12.3
 
@@ -185,6 +195,7 @@ seeAlso=LT.VILNIUS.2008.10.3
 -->
 
 
+-----
 
 # <lo-sample/> LT.VILNIUS.2009.9.4
 
@@ -210,6 +221,7 @@ o tų daliklių aritmetinis vidurkis būtų lygus $10$.
 
 
 
+-----
 
 # <lo-sample/> LT.VILNIUS.2009.10.2
 
@@ -235,6 +247,7 @@ Onutei pasiekti, kad gautojo reiškinio reikšmė dalytųsi iš $7$?
 
 
 
+-----
 
 
 # <lo-sample/> LT.VILNIUS.2009.11.2
@@ -259,6 +272,7 @@ sameAs=LT.VILNIUS.2009.12.2
 
 
 
+-----
 
 
 # <lo-sample/> LT.VILNIUS.2011.9_10.4
@@ -276,6 +290,9 @@ iš $p$. Įrodykite, kad $p+q+1$ – sudėtinis skaičius.
 <!--
 concepts=primes,composite-numbers,divisibility
 -->
+
+
+-----
 
 # <lo-sample/> LT.VILNIUS.2011.11_12.4
 

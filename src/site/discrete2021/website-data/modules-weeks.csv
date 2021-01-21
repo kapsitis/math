@@ -1,0 +1,52 @@
+"1.1","W1","logic","Propositions and Boolean Statements","logic-propositions","yes"
+"1.2","W1","logic","Translating Sentences into Boolean","logic-translating-into-boolean","yes"
+"1.3","W1","logic","Tautologies and Satisfiability","logic-tautologies","yes"
+"1.4","W1","logic","Predicates and Quantifiers","logic-predicates-and-quantifiers","yes"
+
+"1.5","W2","logic","Nested Quantifiers","logic-nested-quantifiers","yes"
+"1.6","W2","logic","Rules of Inference","logic-rules-of-inference","yes"
+"1.7","W2","logic","Common Proof Strategies","logic-proof-strategies","yes"
+"1.8","W2","logic","More Proof Strategies","logic-more-proof-strategies","yes"
+
+"2.1","W3","logic","Manipulate Sets and Functions","logic-sets-and-functions","yes"
+"2.2","W3","logic","Set operations in some Universe","logic-operations-in-universe","yes"
+"2.3","W3","logic","Function properties","logic-function-properties","yes"
+
+"2.4","W4","logic","Using Sequences","logic-using-sequences","yes"
+"2.5","W4","logic","Set Cardinalities","logic-set-cardinalities","yes"
+"2.6","W4","logic","Discrete Matrices","logic-discrete-matrices","yes"
+
+"3.1","W5","logic","Introducing Algorithms","logic-introducing-algorithms","yes"
+"3.2","W5","logic","Function Growth Rates","logic-function-growth","yes"
+"3.3","W5","logic","Algorithm Complexity","logic-algorithm-complexity","yes"
+
+"4.1","W6","nt","Modular Arithmetic","nt-modular-arithmetic","yes"
+"4.2","W6","nt","Integer Representations","nt-integer-representations","yes"
+"4.3","W6","nt","Primes, GCD and LCM","nt-primes-gcd-lcm","yes"
+"4.4","W6","nt","Linear Congruences","nt-linear-congruences","yes"
+"4.5","W6","nt","Hashing and Checksum Applications","nt-hashing-checksums","yes"
+
+"5.1","W7","nt","Simple Mathematical Induction","nt-simple-induction","yes"
+"5.2","W7","nt","Variants of Mathematical Induction","nt-strong-induction","yes"
+"5.3","W7","nt","Recursion and Structural Induction","nt-structural-induction","yes"
+
+"9.1","W8","comb","Binary Relations","comb-binary-relations","yes"
+"9.2","W8","comb","N-ary Relations","comb-n-ary-relations","yes"
+"9.3","W8","comb","Represent Binary Relations","comb-representing-relations","yes"
+
+"9.4","W9","comb","Relation Closures","comb-relation-closures","yes"
+"9.5","W9","comb","Equivalence Relations","comb-equivalence-relations","yes"
+"9.6","W9","comb","Partial Order Relations","comb-partial-order-relations","yes"
+
+"6.1","W10","comb","Intro to Counting","comb-simple-counting-methods","yes"
+"6.2","W10","comb","Pigeonhole Principle","comb-pigeonhole-principle","yes"
+"6.3","W10","comb","Permutations and Combinations","comb-permutations-and-combinations","yes"
+"6.4","W10","comb","Binomial Coefficients","comb-binomial-coefficients","yes"
+"6.5","W10","comb","General Permutations and Combinations","comb-general-permutations-combinations","yes"
+
+"7.1","W11","comb","Defining Probability","comb-defining-probability","yes"
+"7.2","W11","comb","Probability Theory","comb-probability-theory","yes"
+"7.3","W11","comb","Bayes Theorem","comb-bayes-theorem","yes"
+"7.4","W11","comb","Expected Value and Variance","comb-expected-value-and-variance","yes"
+
+

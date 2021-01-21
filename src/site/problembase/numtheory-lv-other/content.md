@@ -20,6 +20,8 @@
 
 
 
+-----
+
 # <LO-REFFF/> LV.OTHER.TST.1976.9.3
 
 Dots, ka $n$ - naturāls skaitlis. Pierādīt, ka $3n + 2$ 
@@ -29,6 +31,8 @@ un $7n + 5$ ir savstarpēji pirmskaitļi.
 mainEntry=BBK2012.P1.93
 -->
 
+
+-----
 
 # <LO-REFFF/> LV.OTHER.TST.1976.10.3
 
@@ -40,6 +44,9 @@ skaitļos.
 mainEntry=BBK2012.P9.71
 -->
 
+
+
+-----
 
 # <LO-REFFF/> LV.OTHER.TST.1976.11.5
 
@@ -53,6 +60,8 @@ mainEntry=BBK2012.P9.72
 
 
 
+-----
+
 # <LO-REFFF/> LV.OTHER.TST.1977.9.1
 
 Atrisināt vienādojumu $x(x+1) = 4y(y+1)$
@@ -64,6 +73,8 @@ mainEntry=BBK2012.P5.35
 
 
 
+-----
+
 # <lo-sample/> LV.OTHER.TST.1977.10.2
 
 $P(x)$ ir polinoms ar veseliem koeficientiem; 
@@ -73,6 +84,9 @@ Pierādīt, ka vienādojumam  $P(x) = 0$
 nav atrisinājumu veselos skaitļos.
 
 
+
+-----
+
 # <lo-sample/> LV.OTHER.TST.1977.10.4
 
 Pierādīt, ka katru naturālu skaitli $x$ var bezgalīgi 
@@ -81,6 +95,9 @@ $$x = \pm 1^2 \pm 2^2 \pm 3^2 \pm \cdots \pm n^2,$$
 kur $n$, kā arī plus un mīnus zīmes kvadrātu priekšā 
 izvēlas atkarībā no $x$.
 
+
+
+-----
 
 # <LO-REFFF/> LV.OTHER.TST.1977.11.4
 
@@ -93,6 +110,9 @@ mainEntry=BBK2012.P5.67
 -->
 
 
+
+-----
+
 # <LO-REFFF/> LV.OTHER.TST.1978.9.3
 
 Atrisināt naturālos skaitļos vienādojumu
@@ -103,6 +123,9 @@ mainEntry=BBK2012.P4.3
 -->
 
 
+
+-----
+
 # <lo-sample/> LV.OTHER.TST.1978.10.3
 
 Atrast pēc iespējas lielāku naturālu skaitli $n$ 
@@ -112,6 +135,7 @@ ka neviena grupa nesatur aritmētisku progresiju
 ar četriem locekļiem.
 
 
+-----
 
 # <LO-REFFF/> LV.OTHER.TST.1978.10.5
 
@@ -124,6 +148,8 @@ mainEntry=BBK2012.P5.53
 -->
 
 
+-----
+
 # <lo-sample/> LV.OTHER.TST.1978.11.4
 
 $p$ ir pirmskaitlis, $p > 5$. 
@@ -132,6 +158,9 @@ $\frac{1}{p}$
 perioda ciparu
 summa dalās ar $9$.
 
+
+
+-----
 
 # <LO-REFFF/> LV.OTHER.TST.1979.9.1
 
@@ -144,6 +173,9 @@ mainEntry=BBK2012.P1.89
 -->
 
 
+
+-----
+
 # <LO-REFFF/> LV.OTHER.TST.1979.10.2
 
 Pierādīt, ka eksistē tāds naturāls skaitlis $n$, 
@@ -153,6 +185,9 @@ ka $n^2 + 1$ dalās ar  $5^{1979}$.
 mainEntry=BBK2012.P9.12
 -->
 
+
+
+-----
 
 # <LO-REFFF/> LV.OTHER.TST.1979.11.3
 
@@ -165,6 +200,7 @@ mainEntry=BBK2012.P8.48
 -->
 
 
+-----
 
 # <LO-REFFF/> LV.OTHER.TST.1980.10.1
 
@@ -180,6 +216,8 @@ $$\ldots,\left\lfloor \frac{1979^2}{1980} \right\rfloor,
 mainEntry=BBK2012.P6.42
 -->
 
+
+-----
 
 
 # <LO-REFFF/> LV.OTHER.TST.1981.9.2

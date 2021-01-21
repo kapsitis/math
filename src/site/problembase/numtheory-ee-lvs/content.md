@@ -11,6 +11,7 @@
 
 
 
+-----
 
 # <lo-sample/> EE.LVS.2009.9_10.1
 
@@ -39,6 +40,10 @@ questionType=Find.All
 genre=integer-equation
 -->
 
+
+-----
+
+
 ## Attālumi starp pilniem kvadrātiem
 
 * Arī $4^n = (2^n)^2$ ir pilns kvadrāts. 
@@ -48,6 +53,9 @@ pilnais kvadrāts:
 $$(N+1)^2 = N^2 + 2N+ 1 \geq N^2 + 33.$$
 * Piemēram $4^4 = 16^2 = 256$. Bet jau nākamais 
 pilnais kvadrāts $17^2 = 289$. Atstarpe ir $33$. 
+
+
+--
 
 ## Ievietojam n=1,2,3
 
@@ -61,6 +69,7 @@ ir pilns kvadrāts.
 
 
 
+-----
 
 # <lo-sample/> EE.LVS.2009.11_12.1
 
@@ -87,6 +96,9 @@ concepts=primes
 -->
 
 
+-----
+
+
 ## Atlikumi
 
 Kubiskām funkcijām $p^3$ mēdz būt izdevīgi aplūkot 
@@ -96,6 +108,9 @@ $$\left\{ \begin{array}{ll}
 p^3 \equiv 0,1,6 & (\mbox{mod}\,7)\\
 p^3 \equiv 0,1,8 & (\mbox{mod}\,9)\\
 \end{array} \right.$$
+
+
+--
 
 ## Pretrunas modulis
 
@@ -109,6 +124,7 @@ jābūt $p^3 \equiv 0$ jeb $p$ jādalās ar $7$.
 *Secinājums.* Tāda pirmskaitļa $p$ nav.
 
 
+-----
 
 # <lo-sample/> EE.LVS.2010.9_10.1
 
@@ -129,6 +145,7 @@ questionType=Find.All
 concepts=divisors
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2010.9_10.5
 
@@ -149,6 +166,7 @@ concepts=factorial
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVS.2010.11_12.1
 
@@ -170,6 +188,7 @@ concepts=power-sums
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVS.2010.11_12.2
 
@@ -192,6 +211,7 @@ concepts=integer-polynomial
 -->
 
 
+-----
 
 
 # <lo-sample/> EE.LVS.2011.9_10.1
@@ -212,6 +232,8 @@ questionType=Find.All
 genre=digit-manipulation
 -->
 
+
+-----
 
 # <lo-sample/> EE.LVS.2011.11_12.1
 
@@ -248,6 +270,7 @@ concepts=valuations
 
 
 
+-----
 
 # <lo-sample/> EE.LVS.2012.9_10.1
 
@@ -266,6 +289,7 @@ ru=
 questionType=Find.Count
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2012.9_10.2
 
@@ -289,6 +313,7 @@ questionType=Prove.Exists
 concepts=coprimes
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2012.9_10.3
 
@@ -312,6 +337,7 @@ questionType=ProveDisprove.Other
 concepts=quadratic-equation
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2012.11_12.1
 
@@ -329,6 +355,7 @@ questionType=Find.All
 concepts=sum-of-digits
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2012.11_12.2
 
@@ -350,6 +377,7 @@ concepts=remainder
 -->
 
 
+-----
 
 
 # <lo-sample/> EE.LVS.2012.11_12.3
@@ -373,6 +401,7 @@ genre=proving-inequality
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVS.2013.9_10.1
 
@@ -397,7 +426,7 @@ questionType=Find.Min
 -->
 
 
-
+-----
 
 # <lo-sample/> EE.LVS.2013.9_10.2
 
@@ -422,6 +451,7 @@ genre=cryptarithm
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVS.2013.9_10.3
 
@@ -446,6 +476,7 @@ concepts=gcd
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVS.2013.11_12.1
 
@@ -468,6 +499,7 @@ questionType=Find.Only
 concepts=square-root
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2013.11_12.2
 
@@ -492,6 +524,7 @@ concepts=primes
 
 
 
+-----
 
 
 # <lo-sample/> EE.LVS.2014.9_10.1
@@ -516,6 +549,7 @@ genre=digit-manipulation
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVS.2014.9_10.3
 
@@ -548,6 +582,9 @@ questionType=ProveDisprove.Exists
 genre=digit-manipulation
 -->
 
+
+-----
+
 # <lo-sample/> EE.LVS.2014.9_10.4
 
 Kurš no skaitļiem lielāks: $2^{2014}$ vai
@@ -564,6 +601,7 @@ questionType=Find.Only
 genre=proving-inequality
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2014.11_12.1
 
@@ -588,6 +626,7 @@ genre=integer-equation
 
 
 
+-----
 
 # <lo-sample/> EE.LVS.2015.9_10.1
 
@@ -608,6 +647,7 @@ $$0,123456789101112\;\ldots\;998999$$
 questionType=Find.Only
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2015.9_10.2
 
@@ -630,6 +670,7 @@ $\frac{20^2}{4\cdot{}10}=10$.
 questionType=Find.Min
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2015.9_10.3
 
@@ -658,6 +699,9 @@ genre=digit-manipulation
 questionType=ProveDisprove.Exists
 -->
 
+
+-----
+
 # <lo-sample/> EE.LVS.2015.9_10.6
 
 Cik ir piecciparu skaitļu, kas dalās ar $8$ un nesatur savā pierakstā ciparu nulle?
@@ -672,6 +716,7 @@ questionType=Find.Count
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVS.2015.11_12.1
 
@@ -691,6 +736,8 @@ concepts=lcm,gcd
 questionType=Find.Max
 -->
 
+
+-----
 
 # <lo-sample/> EE.LVS.2015.11_12.3
 
@@ -713,6 +760,7 @@ questionType=Find.Only
 
 
 
+-----
 
 # <lo-sample/> EE.LVS.2016.9_10.2
 
@@ -730,6 +778,9 @@ ru=
 <!--
 questionType=Find.Max
 -->
+
+
+-----
 
 # <lo-sample/> EE.LVS.2016.9_10.3
 
@@ -757,6 +808,7 @@ concepts=coprimes
 questionType=ProveDisprove.ForAll
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2016.9_10.6
 
@@ -778,6 +830,7 @@ genre=magic-configuration
 questionType=ProveDisprove.Exists
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2016.11_12.2
 
@@ -806,6 +859,7 @@ genre=prove-inequality
 questionType=Prove.ForAll
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2016.11_12.3
 
@@ -834,6 +888,7 @@ genre=game
 questionType=Algorithm,Find.Min
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2016.11_12.6
 
@@ -859,6 +914,7 @@ questionType=Find.All
 
 
 
+-----
 
 # <lo-sample/> EE.LVS.2017.9_10.3
 
@@ -882,6 +938,7 @@ concepts=primes,valuations
 questionType=Find.Max
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2017.9_10.4
 
@@ -904,6 +961,7 @@ genre=cryptarithm
 questionType=Find.Count
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2017.11_12.2
 
@@ -923,6 +981,7 @@ concepts=divisors,primes
 questionType=Find.Max
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2017.11_12.3
 
@@ -948,6 +1007,7 @@ questionType=Prove.Other
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVS.2018.9_10.1
 
@@ -965,6 +1025,9 @@ ru=
 <!--
 questionType=Find.Only
 -->
+
+
+-----
 
 # <lo-sample/> EE.LVS.2018.9_10.3
 
@@ -989,6 +1052,7 @@ concepts=lcm,gcd
 questionType=Prove.ForAll
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2018.9_10.4
 
@@ -1015,6 +1079,7 @@ genre=word-problem
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2018.9_10.6
 
@@ -1037,6 +1102,7 @@ genre=fill-in-table
 questionType=Find.Max
 -->
 
+-----
 
 # <lo-sample/> EE.LVS.2018.11_12.3
 

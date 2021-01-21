@@ -17,6 +17,8 @@ rīkota olimpiāde skolēniem)</blue>
 
 
 
+-----
+
 # <lo-sample/> LT.VUMIF.2016.9.3
 
 Atrodiet visas naturālas $n$ vērtības, kurām skaitlis
@@ -37,6 +39,10 @@ yra natūralusis.
 
 </small>
 
+
+
+-----
+
 ## Dalām divus polinomus
 
 Ja skaitītājā polinoma pakāpe (kubs) ir vismaz tāda
@@ -51,6 +57,9 @@ būs naturāls t.t.t. ja daļa $\frac{-7n+3}{n^2+7}$ ir vesela.
 * Ja $n \geq 7$, tad daļa nav vesela, jo
 $$|n^2 + 7| \geq |7n + 7| > |-7n+3|$$
 
+
+--
+
 ## Pilnā pārlase
 
 $\frac{-7n+3}{n^2+7}$ ievietojam 
@@ -64,6 +73,8 @@ moduli.)
 * Vērtībām $n=1,3,4,6$ sanāk daļskaitļi.
 
 
+
+-----
 
 # <lo-sample/> LT.VUMIF.2016.10.3
 
@@ -88,6 +99,10 @@ yra natūralieji.
 
 </small>
 
+
+
+-----
+
 ## Sadalījums pirmreizinātājos
 
 Apzīmējam $n = 2^a3^b5^c7^d$ ir $n$ sadalījums pirmreizinātājos. 
@@ -97,6 +112,9 @@ Citus pirmreizinātājus neieviešam
 * $\sqrt[5]{5n} \in \mathbb{N}$ nozīmē, ka $a, b, c-1, d$ dalās ar $5$
 * $\sqrt[6]{6n} \in \mathbb{N}$ nozīmē, ka $a-1, b-1, c, d$ dalās ar $6$
 * $\sqrt[7]{7n} \in \mathbb{N}$ nozīmē, ka $a,b,c,d-1$ dalās ar $7$
+
+
+--
 
 ## Risinām sistēmiņas skaitļiem a,b,c,d
 
@@ -109,6 +127,10 @@ Mazākais tāds skaitlis ir $c=84$.
 Mazākais tāds skaitlis ir $90$. 
 
 $$n = 2^{35}\cdot{}3^{35}\cdot{}5^{84}\cdot{}7^{90}.$$
+
+
+
+-----
 
 # <lo-sample/> LT.VUMIF.2016.11_12.1
 
@@ -135,6 +157,9 @@ Raskite $\frac{p}{q}$.
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.VUMIF.2016.11_12.3
 
 Noskaidrojiet, vai eksistē tāds naturāls skaitlis $n$, ka 
@@ -146,6 +171,10 @@ Nustatykite, ar egzistuoja toks natūralusis skaičius $n$,
 kad skaičius $n \cdot 2^{2016} - 7$ yra
 natūraliojo skaičiaus kvadratas.
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.VUMIF.2017.9.2
 
@@ -168,6 +197,10 @@ kad vienas skaičius būtų kito kvadratas?
 
 </small>
 
+
+
+-----
+
 ## Ciparu skaita novērtējums
 
 **Apgalvojums:** Ja naturāla skaitļa $n$ decimālpierakstā ir $k$
@@ -181,6 +214,9 @@ Savukārt lielākā $n$ vērtība ir $10^k-1$ (visi $k$ deviņnieki).
 Tad šī skaitļa kvadrāts ir 
 $$(10^k-1)^2 = 10^{2k} - 2\cdot{}10^k + 1=\overline{\underbrace{9\ldots9}_k8\underbrace{0\ldots0}_k1},$$
 
+
+--
+
 ## Gadījumu pārlase
 
 Desmit ciparus var sadalīt divās daļās kā $1+9=2+8=3+7=4+6=5+5$. 
@@ -190,6 +226,9 @@ Desmit ciparus var sadalīt divās daļās kā $1+9=2+8=3+7=4+6=5+5$.
 
 Neviena no summām $3+5$, $3+6$, $4+7$, $4+8$ nav precīzi $10$. Tātad šādi sadalīt nevar, 
 jo nebūs vajadzīgais ciparu kopskaits.
+
+
+--
 
 ## Variācija
 
@@ -208,6 +247,7 @@ $$567^2=321489;\;\;854^2=729316.$$
 
 
 
+-----
 
 # <lo-sample/> LT.VUMIF.2017.10.1
 
@@ -223,6 +263,9 @@ kurioms egzistuoja tokie sveikieji skaičiai $x$ ir
 $y$, kad
 $$8x^4 + 8y^4 = a^4 + 6a^2b^2 + b^4.$$
 -->
+
+
+-----
 
 # <lo-sample/> LT.VUMIF.2017.10.2
 
@@ -245,6 +288,9 @@ $$m^2 + 2m - 9 = n^2 + n.$$
 
 </small>
 
+
+-----
+
 ## Atdalām pilno kvadrātu
 
 Pārrakstām doto vienādību:  
@@ -254,6 +300,9 @@ $(m+1)^2 = n^2 + n + 10.$
 Jāatrod tie $n$, kuriem 
 $n^2 + n + 10$ ir pilns kvadrāts, tad
 $$m = \sqrt{n^2+n+10} - 1.$$
+
+
+--
 
 ## Atstarpes starp blakus kvadrātiem
 
@@ -271,6 +320,8 @@ vērtība pie pozitīva $n_1$ ir tāda pati kā pie negatīva
 $-1-n_1$. 
 
 
+--
+
 ## Pilnā pārlase pozitīvo n atrašanai
 
 * Ievietojam $n$ vērtības $1,2,\ldots,10$. 
@@ -286,6 +337,7 @@ $$(m,n) \in \{ (9; -10), (3; -3), (3; 2), (9; 9) \}.$$
 
 
 
+-----
 
 # <lo-sample/> LT.VUMIF.2017.11_12.2
 
@@ -303,6 +355,9 @@ visus natūraliuosius sprendinius $(x,y)$.
 skaičių $x$ ir $y$ didžiausią bendrą daliklį ir 
 mažiausią bendrą kartotinį.
 -->
+
+
+-----
 
 # <lo-sample/> LT.VUMIF.2017.11_12.4
 
@@ -336,6 +391,8 @@ strategy=begin-at-the-end
 -->
 
 
+-----
+
 ## Sākšana no beigām - 1
 
 > **Definīcija:** Par "aukstām" pozīcijām sauksim tās, no kurām sākot, 
@@ -346,6 +403,9 @@ strategy=begin-at-the-end
 * "2" (tikai pāreja $2 \rightarrow 1$) ir karsta.
 * "3" (tikai pāreja $3 \rightarrow 2$) ir auksta. utt.
 
+
+--
+
 ## Sākšana no beigām - 2
 
 ![Dalītāju atņemšana](LT.VUMIF.2017.11_12.4.svg)
@@ -353,6 +413,9 @@ strategy=begin-at-the-end
 **A:** "6" (pārejas uz "3", "4" vai "5") ir karsta, jo **eksistē** pāreja uz aukstu.  
 **B:** "7" (pārejas tikai uz karstu "6") ir auksta, jo **katra**/**vienīgā** pāreja uz karstu.  
 **C:** "9" (pārejas uz "6" un "8") ir auksta, jo **katra** pāreja uz karstu.
+
+
+--
 
 ## Spēles invariants
 
@@ -362,6 +425,9 @@ strategy=begin-at-the-end
 
 *Pierādījums.* Ja 
 
+
+
+-----
 
 # <lo-sample/> LT.VUMIF.2018.9.4
 
@@ -388,6 +454,9 @@ Raskite visas galimas skaičiaus $N$
 paskutinio skaitmens reikšmes.
 -->
 
+
+-----
+
 # <lo-sample/> LT.VUMIF.2018.10.4
 
 Skaitļa $n>1$ visu pozitīvo dalītāju 
@@ -411,6 +480,8 @@ skaidinys pirminiais daugikliais.
 </small>
 
 
+-----
+
 ## Cik dalītāju ir skaitlim $n$
 
 > **Apgalvojums:** Ja skaitlis $n$ nav pilns kvadrāts, tad 
@@ -425,6 +496,9 @@ Iespējami divi dalījumi pirmreizinātājos:
 
 * $n=p^5$
 * $n=p^2q^1$. 
+
+
+--
 
 ## Skaitļa dalītāju skaits
 
@@ -442,6 +516,8 @@ To reizinājums ir $32^3$.
 To reizinājums ir $12^3$.
 
 
+-----
+
 # <lo-sample/> LT.VUMIF.2018.11_12.4
 
 Naturālie skaitļi $p$, $x$, $y$ apmierina vienādojumus:
@@ -455,6 +531,9 @@ $p + 1 = 2x^2,\;\;p^2 + 1 = 2y^2.$$
 Nustatykite visas galimas skaičiaus $p$ reikšmes, 
 jei žinoma, kad šis skaičius pirminis.
 -->
+
+
+-----
 
 # <lo-sample/> LT.VUMIF.2019.9.1
 
@@ -477,6 +556,9 @@ y^2 - x^2 = x+y,\\
 2x^3 - 6x = z^3 - 4x^2.
 \end{array} \right.$$
 -->
+
+
+-----
 
 # <lo-sample/> LT.VUMIF.2019.9.2
 
@@ -529,6 +611,9 @@ strategy=begin-at-the-end
 -->
 
 
+
+-----
+
 ## Spriedumi no beigām
 
 <blue>Aukstās pozīcijās</blue> zaudē tas, kam gājiens.
@@ -560,6 +645,9 @@ uzvar tas, kam pirmais gājiens: <red>(0,1)</red>, <red>(1,0)</red>,
 karstu pozīciju; tādēļ tās ir aukstas. 
 
 
+
+--
+
 ## Abi pāru skaitļi
 
 * Novērojam, ka aukstām pozīcijām izpildās īpašība: abi 
@@ -589,6 +677,7 @@ Skaitļiem $(m_2,n_2)$ Balis uzvar pēc induktīvā pieņēmuma. Pretruna.
 
 
 
+-----
 
 
 # <lo-sample/> LT.VUMIF.2019.9.4
@@ -620,6 +709,9 @@ galėjo gauti? Raskite visas galimybes.
 
 </small>
 
+
+-----
+
 ## Kongruenču vienādojumi 
 
 **Definīcija:** Ar $a \equiv b\;(\mbox{mod}\,10)$ apzīmējam to, ka
@@ -638,6 +730,9 @@ $$\begin{array}{ll}
 a+b+c \equiv 0\ & (\mbox{mod}\,10).
 \end{array}$$
 
+
+--
+
 ## Kongruenču atņemšana
 
 * Tātad trīs Jurģa iedomāto skaitļu summa beidzas 
@@ -651,6 +746,9 @@ beidzas ar $0$ vai ar $5$.
 * Pārlasot gadījumus $(0;0;0)$,  $(5;0;0)$, 
 $(5;5;0)$, $(5;5;5)$, der tikai 
 $(0;0;0)$ un $(5;5;0)$. 
+
+
+--
 
 ## Pēdējie trīs cipari
 
@@ -681,6 +779,8 @@ cipari dalās ar $250$ ($000$, $250$, $500$, $750$).
 </table>
 
 
+-----
+
 # <lo-sample/> LT.VUMIF.2019.10.4
 
 Naturālu skaitli sauksim par *septiņīgu*, 
@@ -705,6 +805,9 @@ skaičius dalijasi iš kito, tai jie lygūs.
 
 </small>
 
+
+-----
+
 ## Ciparu pārvietošana un dalāmība ar 9
 
 > **Apgalvojums:** Skaitlis $n$ un tā ciparu summa $S(n)$ 
@@ -719,6 +822,10 @@ $$10\cdot(1+2+\ldots+7) = 10\cdot{}28=280.$$
 $280$ dod atlikumu $1$, dalot ar $9$. Tātad arī 
 katrs septiņīgs skaitlis dos atlikumu $1$, dalot ar $9$. 
 
+
+
+--
+
 ## Septiņīgu skaitļu daudzkārtņi
 
 * Divu septiņīgu skaitļu attiecība nevar pārsniegt $7$. 
@@ -731,6 +838,7 @@ atlikumi $2,\ldots,7$.
 var būt septiņīgs ir viņš pats.
 
 
+-----
 
 # <lo-sample/> LT.VUMIF.2019.11_12.4
 
@@ -765,6 +873,9 @@ b) $N$ nesidalija iš jokio penktinio skaičiaus.
 
 </small>
 
+
+-----
+
 ## Ciparu pārvietošana un dalāmība ar 9
 
 * Piecīgam skaitlim ciparu summa: 
@@ -777,6 +888,9 @@ $4,6,1$ ($5P$ būs jau vairāk kā $500$ ciparu.)
 $M/P = 1$ (jo dalījumus $2,3,4$ iegūt nevar - pretruna ar atlikumiem, 
 kādus var dot $P$ daudzkārtņi). 
 
+
+--
+
 ## Piecīga skaitļa daudzkārtnim beigās "81"?
 
 * Ja $N=\overline{M81}$, tad arī $N$ ciparu summa $2009$ dod atlikumu 
@@ -786,6 +900,9 @@ $k$ dod atlikumu $1$, dalot ar $9$.
 * Lai $k\cdot{}P=N$ varētu beigties ar ciparu $1$, vajag, lai $P$ 
 beidzas ar ciparu $3$ (cipars $5$ neder) un $k$ beidzas ar ciparu 
 $7$ jeb dod atlikumu $7$, dalot ar $10$
+
+
+--
 
 ## Kongruenču sistēmiņa
 
@@ -801,6 +918,9 @@ Vajadzīgos atlikumus, dalot ar $9$ un $10$ dod šī progresija:
 $37, 127, 217, 307,\ldots$. Reizinātājs $k=307$ ir par lielu: 
 reizinot pat mazāko piecīgo skaitli $P=\overline{222\ldots}$
 rezultāts sāksies ar cipariem "68" (t.i. vairs nebūs piecīgs).
+
+
+--
 
 ## Pilnā pārlase
 

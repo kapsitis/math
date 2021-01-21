@@ -10,6 +10,9 @@ from datetime import date
 from datetime import timedelta
 
 
+
+
+
 # SUBDIR = 'algorithms'
 # SUBFILE = 'algorithms-topics'
 # JSON_FILE = 'algorithms_topics.json'
@@ -18,68 +21,50 @@ from datetime import timedelta
 # FIRST_MONTH = 9
 # FIRST_DATE = 7
 
-SUBDIR = 'data-structures'
-SUBFILE = 'data-structures-topics'
-JSON_FILE = 'data_structures_topics.json'
-MODULES_FILE = 'data_structures_modules.json'
-FIRST_YEAR = 2020
-FIRST_MONTH = 8
-FIRST_DATE = 31
+#SUBDIR = 'data-structures'
+#SUBFILE = 'data-structures-topics'
+#JSON_FILE = 'data_structures_topics.json'
+#MODULES_FILE = 'data_structures_modules.json'
+#FIRST_YEAR = 2020
+#FIRST_MONTH = 8
+#FIRST_DATE = 31
+
+SUBDIR = 'discrete2021'
+SUBFILE = 'topics-tasks-discrete-math'
+JSON_FILE = 'discrete2021_topics.json'
+MODULES_FILE = 'discrete2021_modules.json'
+WEEK_LIST = 'schedule-spring-2021.csv'
+FIRST_YEAR = 2021
+FIRST_MONTH = 1
+FIRST_DATE = 4
+
+STATIC_ROOT = 'c:/Users/kalvis.apsitis/workspace/math/src/site'
+MODULES_PATH = '{}/{}/website-data/modules-weeks.csv'.format(STATIC_ROOT,SUBDIR)
+SCHEDULE_PATH = '{}/{}/website-data/{}'.format(STATIC_ROOT,SUBDIR,WEEK_LIST)
+TOPICS_PATH = '{}/{}/website-data/{}.csv'.format(STATIC_ROOT,SUBDIR,SUBFILE)
+
+OUT_ROOT = 'c:/Users/kalvis.apsitis/workspace/linen-tracer-682'
 
 
 
-def convert_file():
-    ROOT = 'c:/Users/kalvis.apsitis/workspace/math/src/site'
-    #path = '{}/data-structures/website-data/data-structures-topics.ods'.format(ROOT)
-    path = '{}/{}/website-data/{}.ods'.format(ROOT,SUBDIR,SUBFILE)
-    
-    # https://pypi.org/project/pandas-ods-reader/
-
-    sheet_idx = 1
-    df = read_ods(path, sheet_idx, columns=['Week', 'Class', 'Id', 'Key', 'Value'])
-    
-    #df.to_csv('{}/data-structures/website-data/data-structures-topics.csv'.format(ROOT), 
-    #           index = False, header=True)
-    df.to_csv('{}/{}/website-data/{}.csv'.format(ROOT,SUBDIR,SUBFILE), 
-               index = False, header=True)
-
-def get_csv_local():
-    ROOT = 'c:/Users/kalvis.apsitis/workspace/math/src/site'
+def get_csv_from_path(filePath):
     csv_lines = list()
-    path = '{}/{}/website-data/{}.csv'.format(ROOT,SUBDIR,SUBFILE)
-    with open(path, mode='r', encoding='utf-8') as csv_in:
-        for csv_line in csv_in:
-            csv_lines.append(csv_line)
-        #csv_lines = csv_in.splitlines()
-    result = csv.reader(csv_lines)
-    return result
-
-
-def get_schedule():
-    ROOT = 'c:/Users/kalvis.apsitis/workspace/math/src/site'
-    csv_lines = list()
-    path = '{}/{}/website-data/schedule-fall-2020.csv'.format(ROOT,SUBDIR)
-    with open(path) as csv_in:
-        for csv_line in csv_in:
-            csv_lines.append(csv_line)
-    result = csv.reader(csv_lines)
-    return result
-
-def get_modules_weeks():
-    ROOT = 'c:/Users/kalvis.apsitis/workspace/math/src/site'
-    csv_lines = list()
-    path = '{}/{}/website-data/modules-weeks.csv'.format(ROOT,SUBDIR)
-    with open(path,mode="r", encoding="utf-8") as csv_in:
+    with open(filePath, mode='r', encoding='utf-8') as csv_in:
         for csv_line in csv_in:
             if csv_line.strip() == '':
-                print('Skipping emptyline in modules-weeks.csv')
+                print('Skipping \' \' in \'{}\''.format(filePath))
+            elif csv_line.startswith('#'):
+                print('Skipping \'#\' in \'{}\''.format(filePath))
             else:
                 csv_lines.append(csv_line)
     result = csv.reader(csv_lines)
     return result
 
-def make_lst(tasks):
-    week_csv = get_schedule()
+
+
+
+def make_topic_list(tasks):
+    week_csv = get_csv_from_path(SCHEDULE_PATH)
     week_dict = dict()
     for wweek in week_csv:
         curr_week = wweek[0].strip()
@@ -87,7 +72,7 @@ def make_lst(tasks):
         week_dict[curr_week] = curr_val    
     week_list = []
 
-    module_week_csv = get_modules_weeks()
+    module_week_csv = get_csv_from_path(MODULES_PATH)
     module_week_dict = dict()
     #linecount = 1
     for mod_week in module_week_csv:
@@ -134,9 +119,12 @@ def make_lst(tasks):
         if row_count == 1:
             continue
 
-        curr_tree_id = row[0].strip()
-        curr_key = row[1].strip()
-        curr_value = row[2].strip()
+        #curr_tree_id = row[0].strip()
+        #curr_key = row[1].strip()
+        #curr_value = row[2].strip()
+        curr_tree_id = row[1].strip()
+        curr_key = row[2].strip()
+        curr_value = row[3].strip()
         
         new_tree_id = curr_tree_id
         if re.match(r'^[0-9]+$', curr_tree_id):
@@ -225,16 +213,16 @@ def make_lst(tasks):
 
 
 def main():
-    convert_file()    
-    ROOT = 'c:/Users/kalvis.apsitis/workspace/linen-tracer-682'
-    the_table = get_csv_local()    
-    week_list = make_lst(the_table)
-    fname = '{}/data/{}'.format(ROOT,JSON_FILE)
+    topics_table = get_csv_from_path(TOPICS_PATH)    
+    week_list = make_topic_list(topics_table)
+    fname = '{}/data/{}'.format(OUT_ROOT,JSON_FILE)
     with io.open(fname, 'w', encoding='utf8') as json_file:
         json.dump(week_list, json_file, ensure_ascii=False, sort_keys=True, indent=4)
 
     module_list = list()    
-    modules_weeks = get_modules_weeks()
+    modules_weeks = get_csv_from_path(MODULES_PATH)
+    
+    
     module_week = list()
     prev_week = 'W0'
     curr_week = 'W1'
@@ -269,14 +257,11 @@ def main():
     if len(module_week) > 0:
         module_list.append(module_week)
         
-    mod_fname = '{}/data/{}'.format(ROOT,MODULES_FILE)
+    mod_fname = '{}/data/{}'.format(OUT_ROOT,MODULES_FILE)
     #print('module_list = {}'.format(module_list))
     with io.open(mod_fname, 'w', encoding='utf8') as mod_file:
         json.dump(module_list, mod_file, ensure_ascii=False, sort_keys=True, indent=4)
                            
-    
-    
-    
 if __name__ == '__main__':
     main()
 

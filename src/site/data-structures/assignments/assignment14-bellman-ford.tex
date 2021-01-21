@@ -82,6 +82,11 @@ The table should display all $n$ iterations (where $n=5$ is the number of vertic
 The last iteration is not supposed to change/relax any distance (otherwise 
 we have a negative loop).
 
+{\em Note.} Please make sure to release the edges in the alphabetical/lexicographical order: 
+Regardless of which is your source, in every iteration the edges are relaxed in this order: 
+$$AB, AE, BD, BE, CB, DA, DC, EC, ED.$$
+This would make your solution easier to verify.
+
 \vspace{10pt}
 {\bf (C)} Summarize the result: For each of the $5$ vertices 
 tell what is its minimum distance from the source. 

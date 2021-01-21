@@ -26,6 +26,7 @@ Universitāte. 2012.g.</p>
 
 
 
+-----
 
 # <lo-sample/> BBK2012.P6.42
 
@@ -41,6 +42,7 @@ $$\ldots,\left\lfloor \frac{1979^2}{1980} \right\rfloor,
 sameAs=LV.OTHER.TST.1980.10.1
 -->
 
+-----
 
 # <lo-sample/> BBK2012.P6.69
 

@@ -12,6 +12,7 @@
 
 
 
+-----
 
 # <lo-sample/> EE.PK.1994.7B.2 
 
@@ -30,6 +31,8 @@ concepts=divisibility,decimal-notation
 questionType=Find.Min
 -->
 
+-----
+
 
 ## Skaitļa īpašības
 
@@ -42,6 +45,7 @@ būtu iespējami mazāks.
 
 Atbilde: `555555559999999995`.
 
+-----
 
 # <lo-sample/> EE.PK.1994.8B.2 
 
@@ -54,6 +58,8 @@ questionType=Find.All
 -->
 
 
+-----
+
 # <lo-sample/> EE.PK.1995.7B.2
 
 Atrast mazāko pirmskaitli, kas dod atlikumu $1$, dalot
@@ -65,6 +71,7 @@ questionType=Find.Min
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.1995.8B.3
 
@@ -87,6 +94,7 @@ questionType=ProveDisprove.Exists
 
 
 
+-----
 
 # <lo-sample/> EE.PK.1996.7B.3
 
@@ -100,6 +108,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.1996.8B.3
 
@@ -114,6 +123,7 @@ genre=word-problem
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.1996.9B.2
 
@@ -129,6 +139,7 @@ questionType=Find.All
 
 
 
+-----
 
 # <lo-sample/> EE.PK.1997.7B.1
 
@@ -140,6 +151,7 @@ genre=integer-equation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.1997.8B.1
 
@@ -155,6 +167,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.1997.8B.1
 
@@ -168,6 +181,7 @@ concepts=primes,remainder,square
 questionType=Prove.Other
 -->
 
+-----
 
 # <lo-sample/> EE.PK.1998.7B.2
 
@@ -182,6 +196,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.1998.7B.3
 
@@ -202,6 +217,7 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.1998.8B.1
 
@@ -214,6 +230,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.1998.9B.1
 
@@ -227,6 +244,7 @@ questionType=Find.All
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.1999.7B.1
 
@@ -241,6 +259,7 @@ questionType=Find.All
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.1999.7B.3
 
@@ -264,6 +283,7 @@ genre=word-problem
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.1999.8B.3
 
@@ -279,6 +299,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.1999.9B.3
 
@@ -293,6 +314,7 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.2000.7B.3
 
@@ -323,6 +345,7 @@ genre=word-problem
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2000.8B.1
 
@@ -336,6 +359,7 @@ genre=string-counting
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2000.9B.1
 
@@ -353,6 +377,9 @@ concepts=primes,system-of-equations
 questionType=Find.All
 -->
 
+
+-----
+
 # <lo-sample/> EE.PK.2001.7B.3
 
 Zināms, ka $a$, $b$ un $10a+b$ ir pirmskaitļi un $a \leq b < 10$. 
@@ -363,6 +390,7 @@ concepts=primes
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2001.8B.1
 
@@ -380,6 +408,7 @@ genre=procedure
 questionType=Find.Min
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2001.9B.1
 
@@ -395,6 +424,7 @@ genre=word-problem
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2001.9B.3
 
@@ -407,6 +437,7 @@ concepts=divisibility,power,quadratic-equation
 questionType=Prove.ForAll
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2002.7B.1 
 
@@ -423,6 +454,7 @@ genre=word-problem
 questionType=Find.Only
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2002.8B.1 
 
@@ -438,6 +470,7 @@ concepts=arithmetic-progression
 questionType=Find.All,NoteOnProof
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2003.7B.3 
 
@@ -451,6 +484,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2003.8B.1 
 
@@ -463,6 +497,7 @@ Atrast trīs dotos skaitļus.
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2003.8B.3 
 
@@ -478,6 +513,7 @@ genre=word-problem
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2004.7B.1 
 
@@ -488,6 +524,7 @@ kuru reizinājums ar skaitli $748$ beidzas ar cipariem $2004$.
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2004.8B.1 
 
@@ -502,6 +539,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2004.8B.3 
 
@@ -517,6 +555,7 @@ genre=word-problem
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2005.7B.1 
 
@@ -551,6 +590,7 @@ questionType=Find.All
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.2005.8B.1 
 
@@ -586,6 +626,7 @@ questionType=Find.All
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.2006.7B.3 
 
@@ -604,6 +645,7 @@ genre=string-counting
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2006.8B.3 
 
@@ -617,6 +659,7 @@ concepts=primes,combinations
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2007.7B.1 
 
@@ -633,6 +676,7 @@ genre=word-problem
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2007.8B.1 
 
@@ -647,6 +691,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2008.7B.2 
 
@@ -660,6 +705,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2008.8B.2 
 
@@ -673,6 +719,7 @@ questionType=Find.All
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.2009.7B.2 
 
@@ -690,6 +737,7 @@ questionType=Find.All
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.2009.8B.2 
 
@@ -717,6 +765,7 @@ questionType=Find.All
 
 
 
+-----
 
 
 # <lo-sample/> EE.PK.2010.7B.1 
@@ -732,6 +781,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2010.8B.1 
 
@@ -748,6 +798,7 @@ questionType=Find.All
 
 
 
+-----
 
 # <lo-sample/> EE.PK.2010.10.5
 
@@ -779,6 +830,7 @@ questionType=Prove.ForAll
 strategy=begin-at-the-end
 -->
 
+-----
 
 ## Vienādojumu sistēmas
 
@@ -790,6 +842,8 @@ iegūst kvadrātu: $225 = 15^2$.
 * Nākamā sistēmiņa: $a+b=200$, $a-b=50$. Tātad 
 $$a = 125,\;\; b = 75,\;\;125^2 - 75^2=10000.$$
 
+
+--
 
 ## Algebriskās identitātes
 
@@ -803,6 +857,7 @@ $125^2 = 15625$, jo $12 \cdot 13 = 156$.
 
 
 
+-----
 
 # <lo-sample/> EE.PK.2011.7B.1 
 
@@ -831,6 +886,7 @@ questionType=Find.Min,Find.Max,Prove.NotExists
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.2011.8B.3 
 
@@ -846,6 +902,7 @@ questionType=Find.All,Find.Min,Find.Max
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.2011.10.3
 
@@ -880,6 +937,10 @@ questionType=Prove.ForAll,ProveDisprove.ForAll
 concepts=remainder
 -->
 
+
+-----
+
+
 ## Algebriski pateikts apgalvojums par atlikumu
 
 Ja $n$ dalot ar $m$ rezultāts ir $a$ un atlikums ir $a$, tad
@@ -897,6 +958,7 @@ un $0 \neq 25$.
 
 
 
+-----
 
 # <lo-sample/> EE.PK.2012.7B.3 
 
@@ -911,6 +973,7 @@ genre=cryptarithm
 questionType=Find.Max
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2012.8B.2 
 
@@ -924,6 +987,7 @@ questionType=Find.All
 
 
 
+-----
 
 # <lo-sample/> EE.PK.2012.10.4
 
@@ -948,6 +1012,10 @@ genre=integer-equation
 questionType=Find.Count
 -->
 
+
+-----
+
+
 ## Dalāmības pazīmes
 
 * $123456789$ ir nepāru skaitlis (pēdējais cipars)
@@ -957,6 +1025,9 @@ Ko var secināt par reizinājumu $(a+b)(b+c)(c+a)$?
 
 * Izdevīgāk lietot pazīmes, ka reizinājums ar kaut ko *nedalās* 
 (jo tad neviens reizinātājs nedalās). 
+
+
+--
 
 ## Paritāte
 
@@ -970,6 +1041,7 @@ Iegūta pretruna: Ja $a$ ir pāru, tad $b$ ir nepāru, tad $c$ ir pāru, tad $a$
 
 
 
+-----
 
 
 # <lo-sample/> EE.PK.2013.8B.1 
@@ -990,6 +1062,7 @@ questionType=Find.All
 
 
 
+-----
 
 # <lo-sample/> EE.PK.2013.10.3
 
@@ -1018,6 +1091,7 @@ questionType=Find.Min
 -->
 
 
+-----
 
 ## Dirihlē princips
 
@@ -1039,6 +1113,7 @@ questionType=Find.Min
 
 
 
+-----
 
 
 # <lo-sample/> EE.PK.2014.7B.1 
@@ -1054,6 +1129,7 @@ genre=cryptarithm
 questionType=Find.All
 -->
 
+-----
 
 
 # <lo-sample/> EE.PK.2014.8B.1 
@@ -1075,6 +1151,7 @@ questionType=ProveDisprove.ForAll,Find.All
 -->
 
 
+-----
 
 
 # <lo-sample/> EE.PK.2014.10.3
@@ -1103,6 +1180,7 @@ concepts=divisibility
 questionType=Find.All
 -->
 
+-----
 
 
 ## Par mazāko kopīgo dalāmo
@@ -1118,6 +1196,7 @@ questionType=Find.All
 
 
 
+-----
 
 
 # <lo-sample/> EE.PK.2015.8B.1 
@@ -1131,6 +1210,7 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
 
 
 # <lo-sample/> EE.PK.2015.10.3
@@ -1160,6 +1240,8 @@ genre=optimization
 questionType=Find.Min
 -->
 
+-----
+
 
 ## Dalīšana reizinātājos
 
@@ -1174,6 +1256,8 @@ $$2 \cdot 50 = 10 \cdot 10 = (-2) \cdot (-50) = (-10) \cdot (-10)$$
 jo reizinātāju paritātes ir dažādas - neeksistēs veselos skaitļos atrisinājumi
 lineāru vienādojumu sistēmai  $x-y=1$ un $x+y=100$ utml.
 
+
+-----
 
 # <lo-sample/> EE.PK.2015.10.6
 
@@ -1199,6 +1283,8 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
+
 ## Eksperimentēšana
 
 Definējam funkcijas:
@@ -1209,6 +1295,9 @@ Definējam funkcijas:
 pāru ciparu summu skaitļiem intervālā $[1;n]$.
 
 **Apgalvojums:** Visiem $n$ ir spēkā $f(n) \geq 0$. T.i. vienmēr $N(n) \geq P(n)$. 
+
+
+--
 
 ## Induktīvā pāreja
 
@@ -1239,6 +1328,7 @@ Tālāk - tiem $n$, kas dalās ar $10$.
 
 
 
+-----
 
 
 # <lo-sample/> EE.PK.2016.7B.3 
@@ -1257,6 +1347,8 @@ questionType=Find.All
 -->
 
 
+-----
+
 # <lo-sample/> EE.PK.2016.8B.2 
 
 Uzņēmējam bankas kontā bija $x$ eiro un $y$ eirocenti, turklāt 
@@ -1271,6 +1363,7 @@ questionType=Find.All
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.2016.10.3
 
@@ -1300,6 +1393,7 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
 
 ## Pārtulkojam apgalvojumu algebriski
 
@@ -1313,6 +1407,9 @@ $$1 = \frac{1}{x} + \frac{1}{y}.$$
 jo nevar izvēlēties $x=y=2$ (šādā gadījumā $a=b$ un to 
 MKD nebūs divreiz lielāks).
 
+
+--
+
 ## Gadījums n=3
 
 * Līdzīgi kā iepriekš apzīmējam $m=\mbox{MKD}(a,b,c)$. 
@@ -1325,6 +1422,9 @@ $$1 = \frac{1}{x} + \frac{1}{y} + \frac{1}{z}.$$
 $(a,b,c)=(15,10,5)$.  
 * Šis piemērs der, jo $\mbox{MKD}(15,10,5)=30$ un $15+10+5=30$.
 
+
+
+-----
 
 # <lo-sample/> EE.PK.2016.10.4
 
@@ -1354,6 +1454,8 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
+
 
 ## Algebriski pārveidojumi nevienādībai
 
@@ -1370,6 +1472,7 @@ neviens no šiem kvadrātiem nevar būt $2^2$ vai lielāks.
 
 
 
+-----
 
 
 # <lo-sample/> EE.PK.2017.7B.1 
@@ -1389,6 +1492,7 @@ questionType=Find.All,Find.Max
 -->
 
 
+-----
 
 
 # <lo-sample/> EE.PK.2017.8B.1 
@@ -1406,6 +1510,7 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
 
 # <lo-sample/> EE.PK.2017.10.2
 
@@ -1435,6 +1540,7 @@ questionType=Find.All
 
 
 
+-----
 
 ## Dalām pirmreizinātājos
 
@@ -1446,6 +1552,7 @@ $324=18 \cdot 18=(2 \cdot 3^2)^2 = 2^2 \cdot 3^4.$
 2. Sadalām arī $4$ pirmereizinātājos:  
 $4 = 2^2$. 
 
+--
 
 ## Pielīdzinām pirmskaitļu kāpinātājus
 
@@ -1461,6 +1568,9 @@ $$\left\{ \begin{array}{l}
 \end{array}
 \right.$$
 
+
+--
+
 ## Risinām lineāru sistēmu
 
 $$\left\{ \begin{array}{l}
@@ -1473,6 +1583,8 @@ No pirmā vienādojuma izsaka $y=-8-x$ un ievieto otrajā:
 
 $3x + 4(-8-x) = -32-x = -3$. Tad $(x,y)=(-29,21)$.
 
+
+-----
 
 # <lo-sample/> EE.PK.2017.10.3
 
@@ -1501,6 +1613,8 @@ questionType=Prove.Other
 -->
 
 
+-----
+
 ## Papildu pieņēmumi (simetrija)
 
 Tā kā visi skaitļi ir dažādi, tad varam ieviest apzīmējumus tā, 
@@ -1513,6 +1627,9 @@ pretējā secībā pārrakstītu skaitļu četrinieku $(d,c,b,a)$.
 Varam tātad pieņemt, ka $a < b < c < d$ un tad tiem 
 apgrieztie skaitļi veido dilstošu aritmētisku progresiju. 
 
+
+--
+
 ## Sākam ievietot vērtības skaitlim a
 
 * Ja $a=2$, tad nesanāk, jo pat tuvākā starpība: $\frac{1}{2}-\frac{1}{3}$
@@ -1520,6 +1637,9 @@ jeb aritmētiskās progresijas diference ir $1/6$ un no $\frac{1}{2}$ to
 nevar atņemt trīsreiz, lai rezultāts joprojām būtu pozitīvs.
 * Ja $a=3$, tad sanāk progresija: 
 $$\frac{1}{3},\frac{1}{4},\frac{1}{6},\frac{1}{12}$$
+
+
+--
 
 ## Izmantojam linearitāti
 
@@ -1531,6 +1651,9 @@ $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d
 izriet, ka arī
 $$\frac{1}{ma} - \frac{1}{mb} =\frac{1}{mb} - \frac{1}{mc} =\frac{1}{mc} - \frac{1}{md}.$$
 
+
+--
+
 ## Atbildes
 
 Tātad bez $(a,b,c,d)=(3,4,6,12)$ var ņemt arī 
@@ -1538,6 +1661,9 @@ $(a,b,c,d)=(6,8,12,24)$, utt.
 
 Eksistē arī citādas atbildes, kuras uz $(3,4,6,12)$ vai tā 
 daudzkārtņiem reducēt nevar. 
+
+
+-----
 
 
 # <lo-sample/> EE.PK.2018.10.3
@@ -1569,6 +1695,8 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+-----
+
 
 ## Vienādojuma sastādīšana
 
@@ -1580,6 +1708,9 @@ questionType=Find.All
 $$40x - 3x = \overline{cab0}-\overline{abc}=\overline{c000} - c = 999\cdot{}c.$$
 
 Iegūstam, ka $37x = 999c$ jeb $x = 27c$, kur $c$ ir cipars. 
+
+
+--
 
 ## Gadījumu pārlase
 
@@ -1611,6 +1742,7 @@ pēdējo ciparu uz sākumu.
 
 
 
+-----
 
 # <lo-sample/> EE.PK.2019.7B.1
 
@@ -1631,6 +1763,7 @@ ru=
 questionType=Find.All
 -->
 
+-----
 
 # <lo-sample/> EE.PK.2019.8B.1
 
@@ -1653,6 +1786,7 @@ questionType=Find.All
 
 
 
+-----
 
 # <lo-sample/> EE.PK.2019.10.3
 
@@ -1680,6 +1814,7 @@ concepts=linear-expression
 questionType=Find.Count
 -->
 
+-----
 
 ## Lielākā iespējamā a vērtība
 
@@ -1695,6 +1830,9 @@ atrisināt nevar.
 * Gaidām brīdi, kad $17+22k$ jeb $17+7k$ dalās ar $15$. 
 * Pie $k=4$ izteiksme $17 + 7\cdot{}4=17+28=45$ dalās ar $15$.
 * Tātad, $a=91$ jāsamazina par $4$, t.i. der $a=87$. 
+
+
+--
 
 ## 2 pretējas aritmētiskas progresijas
 

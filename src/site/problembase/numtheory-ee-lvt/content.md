@@ -13,6 +13,7 @@
 
 
 
+-----
 
 # <lo-sample/> EE.LVT.2009.9_10.1
 
@@ -31,6 +32,7 @@ genre=integer-equation
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2009.9_10.5
 
@@ -54,6 +56,7 @@ concepts=primes
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2009.11_12.3
 
@@ -101,6 +104,7 @@ genre=sequence-properties
 
 
 
+-----
 
 # <lo-sample/> EE.LVT.2010.9_10.1
 
@@ -121,6 +125,7 @@ questionType=Find.All
 genre=digit-manipulation
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2010.9_10.1
 
@@ -156,6 +161,7 @@ concepts=divisors
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2010.11_12.5
 
@@ -176,6 +182,7 @@ concepts=divisors
 
 
 
+-----
 
 # <lo-sample/> EE.LVT.2011.9_10.1
 
@@ -196,6 +203,7 @@ genre=integer-equation
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2011.9_10.5
 
@@ -215,6 +223,7 @@ genre=integer-geometry
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2011.11_12.1
 
@@ -233,6 +242,7 @@ concepts=primes
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2011.11_12.2
 
@@ -255,6 +265,7 @@ genre=integer-equation
 
 
 
+-----
 
 # <lo-sample/> EE.LVT.2012.9_10.1
 
@@ -296,6 +307,7 @@ genre=game
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2012.9_10.5
 
@@ -313,6 +325,7 @@ questionType=Find.All
 genre=integer-equation
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2012.11_12.1
 
@@ -333,6 +346,7 @@ questionType=Prove.ForAll
 genre=digit-manipulation
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2012.11_12.2
 
@@ -352,6 +366,7 @@ $$\frac{x^2 + 4xy + y^2}{x^3 − y^3}$$
 questionType=Prove.ForAll
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2012.11_12.5
 
@@ -376,6 +391,7 @@ genre=functional-equation
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2013.9_10.1
 
@@ -405,6 +421,7 @@ genre=string-counting
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2013.9_10.3
 
@@ -428,6 +445,7 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2013.11_12.1
 
@@ -448,6 +466,7 @@ questionType=Find.All
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2013.11_12.5
 
@@ -482,6 +501,7 @@ concepts=integer-polynomials
 
 
 
+-----
 
 # <lo-sample/> EE.LVT.2014.9_10.1
 
@@ -509,6 +529,9 @@ ru=
 questionType=ProveDisprove.Exists
 -->
 
+
+-----
+
 # <lo-sample/> EE.LVT.2014.9_10.2
 
 Ar $d_n$ apzīmējam skaitli vai skaitļa daļu, 
@@ -535,6 +558,7 @@ genre=decimal-manipulation
 questionType=Find.Only
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2014.9_10.3
 
@@ -558,6 +582,7 @@ concepts=lcm,gcd
 questionType=Prove.ForAll
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2014.11_12.1
 
@@ -579,6 +604,7 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2014.11_12.3
 
@@ -599,6 +625,7 @@ genre=optimization
 
 
 
+-----
 
 
 # <lo-sample/> EE.LVT.2015.9_10.1
@@ -625,6 +652,7 @@ ru=
 questionType=Find.Min
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2015.9_10.3
 
@@ -641,6 +669,7 @@ ru=
 questionType=Prove.ForAll
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2015.11_12.1
 
@@ -659,6 +688,7 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2015.11_12.4
 
@@ -688,6 +718,7 @@ questionType=Find.Only
 genre=prove-inequality
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2016.9_10.2
 
@@ -709,6 +740,9 @@ ru=
 genre=digit-manipulation
 questionType=Find.All
 -->
+
+
+-----
 
 # <lo-sample/> EE.LVT.2016.9_10.3
 
@@ -733,6 +767,8 @@ concepts=lcm,gcd
 questionType=Prove.ForAll
 -->
 
+
+-----
 
 # <lo-sample/> EE.LVT.2016.9_10.4
 
@@ -762,6 +798,7 @@ questionType=ProveDisprove.ForAll
 -->
 
 
+-----
 
 # <lo-sample/> EE.LVT.2016.11_12.1
 
@@ -785,6 +822,7 @@ genre=magic-configuration
 questionType=Find.Min
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2016.11_12.2
 
@@ -806,6 +844,7 @@ genre=cryptarithm
 questionType=Find.Count
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2016.11_12.3
 
@@ -842,6 +881,7 @@ questionType=Find.Count
 
 
 
+-----
 
 
 # <lo-sample/> EE.LVT.2017.9_10.2
@@ -869,6 +909,9 @@ questionType=Find.Min
 -->
 
 
+-----
+
+
 # <lo-sample/> EE.LVT.2017.9_10.3
 
 Vai var atrast tādus četrus dažādus pirmskaitļus, 
@@ -885,6 +928,7 @@ concepts=primes
 questionType=ProveDisprove.Exists
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2017.11_12.2
 
@@ -904,6 +948,9 @@ genre=integer-geometry
 questionType=Find.All
 -->
 
+
+-----
+
 # <lo-sample/> EE.LVT.2017.11_12.3
 
 Vai eksistē pieci dažādi pirmskaitļi, no kuriem izvēloties 
@@ -920,6 +967,7 @@ concepts=primes
 questionType=ProveDisprove.Exists
 -->
 
+-----
 
 
 # <lo-sample/> EE.LVT.2018.9_10.1
@@ -940,6 +988,7 @@ ru=
 questionType=ProveDisprove.Exists
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2018.9_10.3
 
@@ -964,6 +1013,9 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
+
+-----
+
 # <lo-sample/> EE.LVT.2018.9_10.4
 
 Uz datora ekrāna cits zem cita parādās skaitļi. 
@@ -987,6 +1039,7 @@ genre=procedure
 questionType=Find.Only
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2018.11_12.1
 
@@ -1012,6 +1065,7 @@ $$x^3 + y^3 = z^2$$
 questionType=Prove.Other
 -->
 
+-----
 
 # <lo-sample/> EE.LVT.2018.11_12.3
 

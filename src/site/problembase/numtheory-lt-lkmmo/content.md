@@ -17,6 +17,7 @@ rīkota olimpiāde skolēniem)
 [Matematikos olimpiados](http://mif.vu.lt/matematikos-olimpiados/)
 
 
+-----
 
 # <lo-sample/> LT.LKMMO.2001.7
 
@@ -29,6 +30,9 @@ Raskite visas sveikąsias $m$ reikšmes, su kuriomis reiškinys
 $\sqrt{m^2 + m +1}$ irgi įgyja sveikąsias reikšmes.
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2001.8
 
 Atrodiet visas naturālās $n$ vērtības, kurām $4^n - 1$
@@ -38,6 +42,9 @@ dalās ar $7$ bez atlikuma.
 Raskite visas natūraliąsias $n$ reikšmes, su kuriomis $4^n - 1$
 dalijasi iš $7$ be liekanos.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2001.9
 
@@ -53,6 +60,9 @@ $$a_n = \sqrt{\left| 60\sqrt{11} - 199 \right|} +
 Ar sekoje $a_1,a_2,a_3,\ldots$ yra bent vienas natūralusis skaičius?
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2001.10
 
 Atrodiet visas naturālās vērtības, kuras var iegūt kā divu dažādu naturālu skaitļu 
@@ -62,6 +72,10 @@ reizinājuma un summas attiecību.
 Raskite visas natūraliąsias reikšmes, kurias įgyja dviejų skirtingų natūraliųjų skaičių 
 sandaugos ir sumos santykis.
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2001.11
 
@@ -75,6 +89,9 @@ $1/n_1^2 + 1/n_2^2 + \ldots + 1/n_{\ell}^2$, kai
 $n_1,n_2,\ldots,n_{\ell}$ --- skirtingi natūralieji skaičiai?
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2001.15
 
 Pierādiet, ka uz vienības riņķa līnijas, kuras centrs ir koordinātu sākumpunktā, 
@@ -85,6 +102,9 @@ eksistē bezgalīgi daudz punktu, kam abas koordinātes ir racionāli skaitļi.
 yra be galo daug taškų su racionaliosiomis koordinatėmis.
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2002.8
 
 Pierādiet, ka $10^n + 45n - 1$ dalās ar $27$, kad $n$ ir naturāls skaitlis.
@@ -92,6 +112,9 @@ Pierādiet, ka $10^n + 45n - 1$ dalās ar $27$, kad $n$ ir naturāls skaitlis.
 <!--
 Įrodykite, kad $10^n + 45n - 1$ dalijasi iš $27$, kai $n$ – natūralusis skaičius.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2002.9
 
@@ -103,6 +126,10 @@ skaitļa $2^n$ decimālpierakstā ir ne mazāk kā $2002$ pēc kārtas sekojoša
 skaičiaus $2^n$ dešimtainėje
 išraiškoje yra ne mažiau kaip $2002$ iš eilės einantys nuliai.
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2002.10
 
@@ -117,6 +144,7 @@ penktasis laipsnis.
 -->
 
 
+-----
 
 # <lo-sample/> LT.LKMMO.2002.12
 
@@ -130,6 +158,9 @@ $$(a + 1/2)^n + (b + 1/2)^n$$
 taip pat būtų sveikieji su kiekvienu natūraliuoju $n$?
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2003.3
 
 Atrodiet visas naturālās $n$ vērtības, kurām izteiksme $n^4 + 4^n$ 
@@ -140,6 +171,8 @@ Raskite visus natūraliąsias $n$ reikšmes, su kuriomis reiškinys $n^4 + 4^n$
 yra pirminis skaičius.
 -->
 
+
+-----
 
 # <lo-sample/> LT.LKMMO.2003.8
 
@@ -152,6 +185,9 @@ dalijasi iš $899$ be liekanos.
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2003.9
 
 Pierādiet, ka eksistē bezgalīgi daudz tādu naturālu skaitļu $n$, ka $2003^n-1$
@@ -162,6 +198,9 @@ dalās ar $n$ bez atlikuma.
 dalijasi iš $n$ be liekanos.
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2003.10
 
 Atrodiet visas tādas naturālās $n$ vērtības, kurām $80^n-1$ dalās ar $8^n-1$ 
@@ -170,6 +209,9 @@ bez atlikuma.
 <!--
 Raskite visas natūraliąsias $n$ reikšmes, su kuriomis $80^n-1$ dalijasi iš $8^n-1$ be liekanos.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2003.11
 
@@ -185,6 +227,10 @@ $$a_{n+3} = a_{n+2}\left( a_{n+1} + a_n \right),$$
 kai $n = 1, 2, 3$.
 -->
 
+
+
+-----
+
 # <lo-sample/> LT.LKMMO.2003.12
 
 Atrodiet visus naturālu skaitļu trijniekus, ka no tiem jebkuru divu reizinājums, dalot
@@ -194,6 +240,10 @@ ar trešo skaitli, dod atlikumu $1$.
 Raskite visus tokius natūraliųjų skaičių trejetus, kad bet kurių dviejų iš jų sandaugą
 dalijant iš trečiojo skaičiaus gaunama liekana yra lygi $1$.
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2004.1
 
@@ -210,6 +260,8 @@ rodyklę), kuris dalijasi iš $3$?
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2004.7
 
 Atrodiet visus tādus naturālu skaitļu trijniekus $(m,n,r)$, ka
@@ -219,6 +271,10 @@ $$2001^m + 4003^n = 2002^r.$$
 Raskite visus tokius natūraliųjų skaičių trejetus $(m,n,r)$, kad
 $$2001^m + 4003^n = 2002^r.$$
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2004.8
 
@@ -231,6 +287,7 @@ liekanos, tai $m^3 + n^3$ dalijasi iš $72$ be liekanos.
 -->
 
 
+-----
 
 # <lo-sample/> LT.LKMMO.2004.9
 
@@ -241,6 +298,10 @@ var būt veseli?
 Ar gali su kokia nors realiąja $a$ reikšme skaičiai $(1-2a\sqrt{35})/a^2$ ir $a + \sqrt{35}$ 
 abu būti sveikieji?
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2004.10
 
@@ -253,6 +314,9 @@ skaičius, kuris yra reliatyviai pirminis su kitų penkių skaičių sandauga.
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2004.11
 
 Kādu lielāko vērtību var iegūt naturālu skaitļu reizinājums, ja to summa vienāda ar $2004$?
@@ -262,6 +326,9 @@ Kokią didžiausią reikšmę gali įgyti natūraliųjų skaičių sandauga, jei
 $2004$?
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2004.12
 
@@ -287,6 +354,10 @@ c + w = 667.
 Ar gali būti teisinga lygybė $abc = uvw$?
 -->
 
+
+
+-----
+
 # <lo-sample/> LT.LKMMO.2004.16
 
 Vai eksistē tāds pozitīvs skaitlis 
@@ -300,6 +371,10 @@ $a_0$, kad visi begalinės sekos $a_0, a_1, a_2, a_3,\ldots$,
 apibrėžtos rekurentine formule $a_n = \sqrt{a_{n−1} + 1}$ ($n = 1, 2, 3, \ldots$), 
 nariai būtų racionalieji skaičiai?
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2005.1
 
@@ -319,6 +394,9 @@ y + xz = 2006.
 \end{array} \right.$$
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2005.5
 
 $n$ ir vesels pozitīvs skaitlis. 
@@ -329,6 +407,10 @@ $$\sqrt{n} + \sqrt{n+1} < \sqrt{x} + \sqrt{y} < \sqrt{4n+2}?$$
 $n$ yra teigiamas sveikasis skaičius. Ar egzistuoja tokie teigiami sveikieji skaičiai $x$ ir $y$, kad
 $$\sqrt{n} + \sqrt{n+1} < \sqrt{x} + \sqrt{y} < \sqrt{4n+2}?$$
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2005.7
 
@@ -341,6 +423,8 @@ $n$ ir $m$ yra sveiki teigiami skaičiai. Įrodykite, kad $5^n + 5^m$ yra užra�
 teigiamų skaičių kvadratų suma tada ir tiktai tada, kai $n-m$ yra lyginis skaičius.
 -->
 
+
+-----
 
 # <lo-sample/> LT.LKMMO.2005.8
 
@@ -359,6 +443,9 @@ nesikertančius poaibius su vienoda kiekvieno poaibio skaičių suma.
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2005.9
 
 Cik ir $5$-ciparu palindromu, kuri dalās ar $37$?  
@@ -371,6 +458,10 @@ Kiek yra $5$-ženklių palindromų, kurie dalijasi iš $37$?
 į kairę ir iš kairės į dešinę. Kairiausias ir dešiniausias
 skaitmenys nelygūs $0$.)
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2005.10
 
@@ -385,6 +476,7 @@ $\sqrt{x^3 + y^2}$ yra racionalieji skaičiai?
 -->
 
 
+-----
 
 # <lo-sample/> LT.LKMMO.2006.5
 
@@ -403,6 +495,8 @@ ad + bc = 6.
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2006.6
 
 Vai virknē
@@ -415,6 +509,8 @@ $$a_n = n^3 - (2n + 1)^2$$
 yra toks narys, kuris dalijasi iš $2006$?
 -->
 
+
+-----
 
 # <lo-sample/> LT.LKMMO.2006.7
 
@@ -430,6 +526,8 @@ visų jo skaitmenų suma $s(n)$ yra ir pats didžiausias
 skaičiaus $n$ daliklis, nesutampantis su $n$.
 -->
 
+
+-----
 
 # <lo-sample/> LT.LKMMO.2006.8
 
@@ -447,6 +545,8 @@ jeigu
 **(b)** $n = 2007$?
 -->
 
+
+-----
 
 # <lo-sample/> LT.LKMMO.2006.10
 
@@ -474,6 +574,8 @@ $$V = \{ x + y \,\mid\, x,y \in U \}.$$
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2007.6
 
 Atrodiet visus veselu pozitīvu skaitļu $x$, $y$, $z$ un $t$ 
@@ -485,6 +587,9 @@ Raskite visus sveikųjų teigiamų skaičių $x$, $y$, $z$ ir $t$
 ketvertus $(x, y, z, t)$ tenkinančius lygtį
 $$x^2 + y^2 + z^2 + t^2 = 3 (x + y + z + t).$$
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2007.7
 
@@ -502,6 +607,9 @@ bet kurių dviejų kaimyninių skaičių $S_n$ ir $S_{n+1}$
 visada yra nors vienas sveikojo skaičiaus kvadratas.
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2007.8
 
 Atrodiet visus naturālos skaitļus $n$, 
@@ -517,6 +625,9 @@ $$n = [a, b] + [b, c] + [c, a],$$
 kur $a$, $b$, $c$ yra sveiki teigiami skaičiai, o $[p, q]$ yra 
 bendras mažiausias skaičių $p$ ir $q$ kartotinis.
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2007.9
 
@@ -537,6 +648,8 @@ kad skaičius $\frac{m+1}{n} + \frac{n+1}{m}$ būtų sveikasis skaičius.
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2007.10
 
 **(a)** Atrodiet tādu naturālu skaitli $n$, $n > 2$, 
@@ -552,6 +665,10 @@ skaičių, kurių kvadratų suma pati būtų sveikojo teigiamo skaičiaus kvadra
 **(b)** Nurodykite $2$ tokius sveikuosius teigiamus $n$.  
 **(c)** Ar galima rasti $3$ tokius sveikuosius teigiamus $n$?
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2007.18
 
@@ -569,6 +686,9 @@ kvadratas yra racionalusis skaičius?
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2008.5
 
 Vai daļskaitli $3/2011$ var uzrakstīt kā trīs tādu daļskaitļu summu, 
@@ -580,6 +700,10 @@ Ar galima trupmeną $3/2011$ užrašyti trijų trupmenų suma,
 kurių visų skaitikliai yra $1$, o vardikliai
 yra skirtingi nelyginiai skaičiai?
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2008.6
 
@@ -600,6 +724,9 @@ x + y + z = 3,\\
 x^3 + y^3 + z^3 = 3.
 \end{array} \right.$$
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2008.7
 
@@ -624,6 +751,8 @@ skaičius? Atsakymą pagrįskite.
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2008.8
 
 Pierādiet, ka jebkuram naturālam skaitlim $N$ ir tāds daudzkārtnis, kura
@@ -633,6 +762,10 @@ ciparu summa arī vienāda ar $N$.
 Įrodykite, kad kiekvienas natūralusis skaičius $N$ turi tokį 
 kartotinį, kurio skaitmenų suma irgi yra $N$.
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2008.9
 
@@ -649,6 +782,10 @@ ir $b$ ir pakeisti juos skaičiais $ab$ ir $a + b$.
 Ar pakartotinai taikant tokią operaciją kada nors lentoje
 gali atsirasti skaičiai $21$, $27$, $64$, $180$, $540$?
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2008.10
 
@@ -671,6 +808,10 @@ vienais devynetais be jokių kitokių skaitmenų?
 devynetais užrašomų skaičių?
 -->
 
+
+
+-----
+
 # <lo-sample/> LT.LKMMO.2008.11
 
 Vai ir tādi naturāli skaitļi $n$ (un ja ir, tad cik daudzi), ka 
@@ -691,7 +832,7 @@ kad visų sveikųjų skaičių nuo $1$ iki $n$ sandauga baigiasi:
 
 
 
-
+-----
 
 # <lo-sample/> LT.LKMMO.2009.7
 
@@ -713,6 +854,10 @@ genre=integer-equation
 concepts=full-square
 questionType=ProveDisprove.ForAll
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2009.8
 
@@ -736,6 +881,9 @@ concepts=linear-expression
 questionType=Find.All
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2009.9
 
 Veseli nenegatīvi skaitļi $a$ un $b$ apmierina nosacījumu 
@@ -757,6 +905,9 @@ genre=integer-equation
 questionType=Prove.ForAll,Find.All
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2009.10
 
@@ -788,6 +939,10 @@ concepts=arithmetic-progression
 questionType=ProveDisprove.Exists
 -->
 
+
+
+-----
+
 # <lo-sample/> LT.LKMMO.2009.13
 
 Atrodiet mazāko iespējamo saucēju tādā nesaīsināmā 
@@ -805,6 +960,10 @@ nesuprastinamų trupmenų su vardikliais $600$ bei $700$ suma.
 questionType=Find.Min
 concepts=gcd
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2009.14
 
@@ -827,6 +986,8 @@ concepts=linear-expression
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2009.15
 
 Pierādiet vai atspēkojiet, ka skaitlis 
@@ -848,6 +1009,9 @@ skaitmenis.
 genre=digit-manipulation
 questionType=ProveDisprove.Exists
 -->
+
+
+-----
 
 
 # <lo-sample/> LT.LKMMO.2010.6
@@ -874,6 +1038,8 @@ questionType=Find.Any,ProveDisprove.Exists,Find.Min
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2010.7
 
 Atrodiet:  
@@ -895,6 +1061,10 @@ concepts=primes
 questionType=Find.Any,Find.Min
 -->
 
+
+
+-----
+
 # <lo-sample/> LT.LKMMO.2010.8
 
 Atrodiet visus naturālos skaitļus $n$, kuriem ikviens
@@ -914,6 +1084,10 @@ yra pirminis.
 questionType=Find.All
 concepts=quadratic-equation,primes
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2010.9
 
@@ -935,6 +1109,9 @@ concepts=sum-of-digits
 questionType=Find.All
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2010.10
 
@@ -960,6 +1137,9 @@ genre=special-numbers
 questionType=ProveDisprove.Exists,ProveDisprove.Other
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2010.15
 
@@ -996,6 +1176,9 @@ questionType=ProveDisprove.Exists
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2011.6
 
 Atrodiet visus naturālos skaitļus $n$, kuriem 
@@ -1011,6 +1194,10 @@ $n^2 - 7n + 10$ dalijasi iš $n – 3$.
 concepts=integer-polynomial,divisibility
 questionType=Find.All
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2011.7
 
@@ -1038,6 +1225,9 @@ concepts=primes
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2011.8
 
 Atrodiet visus tos naturālu skaitļu pārus 
@@ -1055,6 +1245,9 @@ $\frac{p+1}{p} \cdot \frac{q+1}{q} = \frac{2011}{2010}$.
 genre=integer-equation
 questionType=Find.All
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2011.9
 
@@ -1074,6 +1267,9 @@ questionType=Find.All
 genre=integer-equation
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2011.10
 
@@ -1101,6 +1297,7 @@ questionType=Prove.ForAll
 
 
 
+-----
 
 # <lo-sample/> LT.LKMMO.2012.6
 
@@ -1119,6 +1316,10 @@ kurio visi skaitmenys būtų vienodi.
 <!--
 questionType=Find.Any,Find.Min
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2012.7
 
@@ -1153,6 +1354,9 @@ questionType=Find.Max
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2012.8
 
 Nosakiet, cik veselu atrisinājumu 
@@ -1171,6 +1375,10 @@ questionType=Find.Count
 concepts=power
 genre=integer-equation
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2012.9
 
@@ -1192,6 +1400,8 @@ concepts=power,inequality
 questionType=Find.All
 -->
 
+
+-----
 
 # <lo-sample/> LT.LKMMO.2012.10
 
@@ -1218,6 +1428,8 @@ quesitonType=Find.Max
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2013.6
 
 Saskaitot sešus pēc kārtas sekojošus naturālus skaitļus, no 
@@ -1240,6 +1452,10 @@ questionType=Find.All,Find.Count
 -->
 
 
+
+-----
+
+
 ## Soļi
 
 * Vienīgā iespēja ir sākt ar $m+1$ ($m = 7k$), tad saskaitāmie ir $7k+1,\ldots,7k+6$.
@@ -1251,6 +1467,7 @@ questionType=Find.All,Find.Count
 * Aplūkojam $S = 441 \cdot (2a+1)$.
  
 
+-----
 
 # <lo-sample/> LT.LKMMO.2013.7
 
@@ -1267,6 +1484,9 @@ $6^6$, $8^8$ ir $k$ kartotinis lygus $12^{12}$?
 questionType=Find.Count
 concepts=lcm,power
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2013.8
 
@@ -1287,6 +1507,10 @@ concepts=sum-of-digits
 questionType=Find.Any,Find.Min
 -->
 
+
+
+-----
+
 # <lo-sample/> LT.LKMMO.2013.9
 
 Atrodiet visus skaitļa $10^{2013} − 1$ 
@@ -1303,6 +1527,8 @@ questionType=Find.All
 concepts=power,divisibility
 -->
 
+
+-----
 
 # <lo-sample/> LT.LKMMO.2013.10
 
@@ -1321,6 +1547,9 @@ tai sandauga $abc$ yra sveikojo skaičiaus kubas.
 concepts=full-power
 questionType=Prove.ForAll
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2014.6
 
@@ -1343,6 +1572,7 @@ concepts=divisibility
 -->
 
 
+-----
 
 # <lo-sample/> LT.LKMMO.2014.7
 
@@ -1368,6 +1598,9 @@ questionType=Find.All
 -->
 
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2014.8
 
 Atrodiet visus naturālos skaitļus $n$, kuriem
@@ -1384,6 +1617,8 @@ questionType=Find.All
 concepts=primes,power
 -->
 
+
+-----
 
 # <lo-sample/> LT.LKMMO.2014.9
 
@@ -1409,6 +1644,9 @@ concepts=primes
 questionType=Prove.NotExists
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2014.10
 
 Kurš skaitlis lielāks: $(100!)!$ vai 
@@ -1428,6 +1666,8 @@ concepts=factorial
 questionType=Find.Only
 -->
 
+
+-----
 
 # <lo-sample/> LT.LKMMO.2014.11
 
@@ -1452,6 +1692,9 @@ concepts=arithmetic-mean
 questionType=Prove.Exists
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2015.6
 
 a) Kuram lielākajam naturālam $k$ skaitlis $120!$ dalās ar 
@@ -1471,6 +1714,10 @@ dalijasi iš $12^k$?
 questionType=Find.Max
 concepts=valuations,power,factorial
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2015.7
 
@@ -1494,6 +1741,9 @@ questionType=Find.Count
 concepts=divisibility
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2015.8
 
 Divu blakusesošu naturālu skaitļu reizinājumu 
@@ -1513,6 +1763,9 @@ genre=special-numbers
 questionType=Prove.ForAll
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2015.9
 
 Atrodiet visus pirmskaitļu četriniekus $(p, q, r, s)$, 
@@ -1526,6 +1779,9 @@ concepts=primes
 genre=integer-equation
 questionType=Find.All
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2015.10
 
@@ -1546,6 +1802,10 @@ Su kuriomis $n$ reikšmėmis skaičius $f(2015n) − f(n)$ yra lyginis?
 <!--
 questionType=Find.All
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2015.11
 
@@ -1569,6 +1829,10 @@ a) $29$; b) $4095$; c) $100$?
 genre=making-moves
 questionType=ProveDisprove.Exists
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2015.15
 
@@ -1595,6 +1859,9 @@ questionType=Algorithm,Prove.ForAll
 concepts=divisibility
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2016.6
 
 Atrast visus pirmskaitļu pārus $(p,q)$, kuriem
@@ -1612,6 +1879,10 @@ mažiau nei $8$ (teigiamus) daliklius (įskaitant $1$ ir patį skaičių).
 questionType=Find.All
 concepts=divisibility,primes
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2016.7
 
@@ -1648,6 +1919,8 @@ concept=floor
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2016.8
 
 Atrast visus vienādojuma $x+y = \sqrt{x} + \sqrt{y} + \sqrt{xy}$ 
@@ -1664,6 +1937,9 @@ questionType=Find.All
 concepts=square-root
 genre=integer-equation
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2016.9
 
@@ -1690,6 +1966,8 @@ seeAlso=LV.NO.2018.11.4
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2016.10
 
 Pierādiet: Jebkuram naturālam skaitlim $n > 1$ 
@@ -1708,6 +1986,8 @@ concepts=power,inequality,divisibility
 questionType=Prove.Other
 -->
 
+
+-----
 
 # <lo-sample/> LT.LKMMO.2016.15
 
@@ -1746,6 +2026,8 @@ seeAlso=LV.NO.2019.7.5
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2017.6
 
 Skaitlis $p$ ir pirmskaitlis, bet skaitlis $3p + 10$ ir sešu pēc kārtas 
@@ -1763,6 +2045,9 @@ suma. Įrodykite, kad $p − 7$ dalijasi iš $36$.
 concepts=square,primes,arithmetic-progression,divisibility
 questionType=Prove.ForAll
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2017.7
 
@@ -1792,6 +2077,8 @@ questionType=ProveDisprove.ForAll
 -->
 
 
+-----
+
 # <lo-sample/> LT.LKMMO.2017.8
 
 Naturāla skaitļa $a$ ciparu summu apzīmēsim ar $S(a)$. 
@@ -1809,6 +2096,9 @@ $S(n) \cdot S(n + 1) = 465$?
 concepts=sum-of-digits
 questionType=ProveDisprove.Exists
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2017.9
 
@@ -1828,6 +2118,9 @@ concepts=full-square,square,inequality
 questionType=Prove.ForAll
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2017.10
 
 Naturāla skaitļa $N$ jebkuram dalītājam $d$ (ieskaitot dalītājus 
@@ -1845,6 +2138,10 @@ $d + 2$ yra pirminis. Kiek daugiausiai teigiamų daliklių gali turėti $N$?
 questionType=Find.Max
 concepts=primes,divisibility
 -->
+
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2017.11
 
@@ -1864,6 +2161,9 @@ questionType=Find.Min
 concepts=divisibility
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2018.6
 
@@ -1888,6 +2188,9 @@ genre=special-numbers
 concepts=divisibility
 -->
 
+
+-----
+
 # <lo-sample/> LT.LKMMO.2018.7
 
 Trīs naturāli skaitļi $a,b,c$ apmierina vienādojumu 
@@ -1905,6 +2208,9 @@ kad bent vienas iš skaičių $ab, bc, ca$ yra natūraliojo skaičiaus kvadratas
 questionType=Prove.Other
 concepts=full-square,power
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2018.8
 
@@ -1927,6 +2233,9 @@ $$x_1^2 + y_1^2 = x_2^2 + y_2^2 = \ldots = x_n^2 + y_n^2 > 0.$$
 questionType=Prove.ForAll
 concepts=square
 -->
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2018.9
 
@@ -1954,6 +2263,9 @@ questionType=Find.Max
 concepts=valuations
 -->
 
+
+
+-----
 
 # <lo-sample/> LT.LKMMO.2018.10
 

@@ -263,6 +263,7 @@ def main():
     #fall2020-homeworks
 #    build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
 #    build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
+    build_static('src/site/discrete2021/static', '%s/discrete2021-bin/' % DEST_ROOT)
     build_static('src/site/discrete/static', '%s/discrete-bin' % DEST_ROOT)
     build_static('src/site/discrete/static/homeworks', '%s/discrete-bin/homeworks' % DEST_ROOT)
     build_static('src/site/discrete/questionbase', '%s/discrete-bin/questionbase' % DEST_ROOT)

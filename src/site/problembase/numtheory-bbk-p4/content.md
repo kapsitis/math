@@ -13,6 +13,7 @@ Universitāte. 2012.g.</p>
 * 3.nodaļa: Skaitļu kongruence pēc fiksēta moduļa
 * <blue>4.nodaļa: Moduļa izvēle</blue>
 
+-----
 
 
 # <lo-sample/> BBK2012.P4.3
@@ -24,6 +25,7 @@ $x^2 + 8z = 2y^2 + 3$.
 sameAs=LV.OTHER.TST.1978.9.3
 -->
 
+-----
 
 
 # <lo-sample/> BBK2012.P4.48
@@ -37,6 +39,7 @@ Atrast $D$.
 sameAs=LV.OTHER.TST.1982.10.1
 -->
 
+-----
 
 
 # <lo-sample/> BBK2012.P4.69
@@ -49,6 +52,7 @@ sameAs=LV.OTHER.TST.1986.9.3
 -->
 
 
+-----
 
 
 # <lo-sample/> BBK2012.P4.89
@@ -66,6 +70,7 @@ questionType=Prove.NotExists
 -->
 
 
+-----
 
 
 
@@ -81,6 +86,7 @@ sameAs=LV.OTHER.TST.1983.11.4
 
 
 
+-----
 
 
 # <LO-REFFF/> BBK2012.P4.96
@@ -93,6 +99,7 @@ ja $p$ ir pirmskaitlis.
 mainEntry=LV.TST.1998.2
 -->
 
+-----
 
 
 # <lo-sample/> BBK2012.P4.97
@@ -107,6 +114,7 @@ sameAs=LV.OTHER.TST.1990.9.5
 
 
 
+-----
 
 
 # <lo-sample/> BBK2012.P4.99
@@ -119,6 +127,7 @@ sameAs=LV.OTHER.TST.1984.11.1
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P4.115
 
@@ -134,6 +143,8 @@ concepts=recurrent-sequence
 questionType=Prove.NotExists
 -->
 
+-----
+
 # <lo-sample/> BBK2012.P4.116
 
 Pierādiet, ka virknēm
@@ -147,6 +158,8 @@ concepts=recurrent-sequence
 questionType=Prove.NotExists
 -->
 
+-----
+
 # <lo-sample/> BBK2012.P4.117
 
 Dotas divas skaitļu virknes:
@@ -158,6 +171,8 @@ Pierādiet, ka neviens naturāls skaitlis nepieder abām virknēm.
 concepts=recurrent-sequence
 questionType=Prove.NotExists
 -->
+
+-----
 
 # <lo-sample/> BBK2012.P4.118
 
@@ -171,6 +186,8 @@ concepts=recurrent-sequence
 questionType=ProveDisprove.Exists
 -->
 
+-----
+
 # <lo-sample/> BBK2012.P4.119
 
 Atrodiet augošu aritmētisku progresiju ar minimālo diferenci, 
@@ -182,6 +199,8 @@ locekļu ar Fibonači virkni.
 concepts=fibonacci-sequence,arithmetic-progression
 questionType=Find.Min
 -->
+
+-----
 
 # <lo-sample/> BBK2012.P4.120
 
@@ -198,6 +217,9 @@ questionType=ProveDisprove.Exists
 -->
 
 
+-----
+
+
 # <lo-sample/> BBK2012.P4.121
 
 Dots, ka $n$ – naturāls skaitlis. 
@@ -209,6 +231,7 @@ concepts=primes,full-square,power
 questionType=Prove.ForAll
 -->
 
+-----
 
 # <lo-sample/> BBK2012.P4.122
 
@@ -222,6 +245,7 @@ questionType=Prove.ForAll
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P4.123
 
@@ -233,6 +257,8 @@ genre=digit-manipulation
 questionType=Prove.Other
 -->
 
+-----
+
 # <lo-sample/> BBK2012.P4.124
 
 Pierādiet, ka skaitļu virknē $x_n = 10^n + 3$ 
@@ -243,6 +269,7 @@ concepts=power
 questionType=Prove.Other
 -->
 
+-----
 
 # <lo-sample/> BBK2012.P4.125
 
@@ -259,6 +286,8 @@ concepts=power
 questionType=Prove.ForAll
 -->
 
+-----
+
 # <lo-sample/> BBK2012.P4.126
 
 Pierādiet, ka jebkuram naturālam skaitlim $n \geq 2$
@@ -270,6 +299,7 @@ concepts=power
 questionType=Prove.ForAll
 -->
 
+-----
 
 # <lo-sample/> BBK2012.P4.127
 
@@ -281,6 +311,7 @@ concepts=power
 questionType=Prove.Other
 -->
 
+-----
 
 # <lo-sample/> BBK2012.P4.128
 
@@ -297,6 +328,7 @@ questionType=Prove.Other
 -->
 
 
+-----
 
 # <lo-sample/> BBK2012.P4.133
 
@@ -314,6 +346,8 @@ ir savā starpā vienādi.
 concepts=arithmetic-mean
 questionType=Prove.ForAll
 -->
+
+-----
 
 # <lo-sample/> BBK2012.P4.134
 
