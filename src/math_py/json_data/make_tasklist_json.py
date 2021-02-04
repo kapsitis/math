@@ -86,7 +86,8 @@ def make_topic_list(tasks):
     empty_week = {
         'title': 'NA',
         'itemNum': 'NA',
-        'links':[]
+        'links':[],
+        'objectives':[]
     }
     
     # One topic
@@ -159,7 +160,7 @@ def make_topic_list(tasks):
         # Skip the top-level topics for now
         #if curr_key == 'topic':
         #    ii = 17        
-        if curr_key in ['description','reading','video','task','example','math']:
+        if curr_key in ['description','reading','video','task','example','math','objective']:
             # Skip some very high level topics
             if re.match(r'^[0-9]+$', curr_tree_id):
                 continue
@@ -176,6 +177,10 @@ def make_topic_list(tasks):
                     print('Skipping reading on {}'.format(row_count))
                 else:
                     print('ERROR on {}: Wrong reading format'.format(row_count))            
+            elif curr_key == 'objective':
+                print('**************** {} *****************'.format(curr_value))
+                #topTopic['objectives'].append(curr_value)
+                topWeek['objectives'].append(curr_value)
             elif curr_key in ['video']:
                 m = re.search('^([^\(\)]+)\s+(\([^\(\)]+\))\s+(.+)$', curr_value)
                 if m:

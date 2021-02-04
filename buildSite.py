@@ -120,6 +120,12 @@ def build_static(SRC,DEST):
         copyDirectory('%s/%s' % (SRC,dd),'%s/%s' % (DEST,dd))
 
 
+def copy_pdf_only(SRC,DEST):
+    for filename in glob.glob(os.path.join(SRC, '*.pdf')):
+        shutil.copy(filename, DEST)
+    
+
+
 ####################################
 ## C++ grades only
 ####################################
@@ -219,6 +225,10 @@ def main():
         DEST_ROOT = '../../workspace-new/linen-tracer-682'
         DEST_ABSOLUTE = '/home/kalvis/workspace-new/linen-tracer-682'
 
+    DISCRETE_SRC_ROOT = 'c:/Users/kalvis.apsitis/workspace/rbs-discretestructures'
+    copy_pdf_only('{}/homework'.format(DISCRETE_SRC_ROOT), '{}/discrete2021-bin'.format(DEST_ABSOLUTE))
+    copy_pdf_only('{}/worksheets'.format(DISCRETE_SRC_ROOT), '{}/discrete2021-bin'.format(DEST_ABSOLUTE))
+
     for resType in resTypes:
         print('########## Removing dir {}/{}-tales'.format(DEST_ROOT,resType))
         rmDirectory('%s/%s-tales' % (DEST_ROOT,resType))
@@ -263,7 +273,6 @@ def main():
     #fall2020-homeworks
 #    build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
 #    build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
-    build_static('src/site/discrete2021/static', '%s/discrete2021-bin/' % DEST_ROOT)
     build_static('src/site/discrete/static', '%s/discrete-bin' % DEST_ROOT)
     build_static('src/site/discrete/static/homeworks', '%s/discrete-bin/homeworks' % DEST_ROOT)
     build_static('src/site/discrete/questionbase', '%s/discrete-bin/questionbase' % DEST_ROOT)

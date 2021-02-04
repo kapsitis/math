@@ -31,6 +31,7 @@ src/site/visualizations/source-material/
 src/site/algorithms/source-material/
 src/site/numtheory/source-material/
 src/site/discrete/source-material/
+src/site/discrete2021/source-material/
 src/site/rbs/**/*.html
 !src/site/rbs/index.html
 src/site/prob/**/*.html

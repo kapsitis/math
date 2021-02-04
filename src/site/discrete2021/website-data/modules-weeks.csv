@@ -49,4 +49,18 @@
 "7.3","W11","comb","Bayes Theorem","comb-bayes-theorem","yes"
 "7.4","W11","comb","Expected Value and Variance","comb-expected-value-and-variance","yes"
 
+"8.1","W12","comb","Recurrent Relations","comb-recurrent-relations","yes"
+"8.2","W12","comb","Linear Recurrences","comb-linear-recurrences","yes"
+"8.3","W12","comb","Divide-and-Conquer Recurrences","comb-divide-and-conquer","yes"
+"8.5","W12","comb","Inclusion-Exclusion Principle","comb-inclusion-exclusion-principle","yes"
+
+"10.1","W13","graphs","Graph Models","graph-models","yes"
+"10.2","W13","graphs","Graph Terms and Special Graphs","graph-terms-and-special-graphs","yes"
+"10.3","W13","graphs","Graph Representations","graph-representations","yes"
+"10.4","W13","graphs","Connected Graphs","graph-connectivity","yes"
+"10.5","W13","graphs","Euler and Hamilton Paths","graph-cycles","yes"
+
+"11.1","W14","graphs","Introduction to Trees","graph-intro-to-trees","yes"
+"11.3","W14","graphs","Tree Traversals","graph-traversing-trees","yes"
+"11.4","W14","graphs","Minimum Spanning Trees","graph-minimum-spanning-trees","yes"
 
