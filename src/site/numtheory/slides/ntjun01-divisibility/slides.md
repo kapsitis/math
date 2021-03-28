@@ -2514,6 +2514,8 @@ tātad ir savstarpēji pirmskaitļi.
 
 ## <lo-reading/>BW.TST.2018.14
 
+<div style="font-size:80%">
+
 Lai gan virknē $a_1,a_2,\ldots$ ir bezgalīgi daudz pirmskaitļu 
 (kā jau pamatoja Eiklīds), šī virkne tomēr nesatur **visus** pirmskaitļus. 
 Piemēram, tā nesatur pirmskaitli $5$ (un arī $11$). 
@@ -2525,6 +2527,8 @@ Lasi: Jebkuram naturālam $n$, $a_n \neq 5$.
 Ja gribam pierādīt no pretējā, tad pretējais apgalvojums (kas izrādīsies aplams): 
 $$(\exists n \in \mathbb{N})(a_n = 5).$$
 Lasi: Eksistē tāds naturāls $n$, ka $a_n = 5$. 
+
+</div>
 
 
 --
@@ -2581,6 +2585,8 @@ pirmskaitļi (tātad nepāru skaitļi). $\blacksquare$
 
 ## <lo-soln/>BW.TST.2018.14 (pabeigt patstāvīgi)
 
+<div style="font-size:80%">
+
 **Apgalvojums:** Virknē $a_n$ nav locekļa, kas vienāds ar $11$. 
 
 **Ieteikums:** Līdzīgi kā iepriekš - var pamatot, ka rodas
@@ -2595,7 +2601,7 @@ nevar dot atlikumu $1$, dalot ar $7$.
 No otras puses, $A_n = a_1a_2a_3\cdots{}a_n+1$ noteikti dod atlikumu 
 $1$, dalot ar $7$, jo $a_3 = 7$. Iegūta pretruna.
 
-
+</div>
 
 
 

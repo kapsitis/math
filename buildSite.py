@@ -58,8 +58,7 @@ def build_coq(srcDir,destDir):
     v_files = os.listdir(srcDir)
     rmDirectory(destDir)
     os.mkdir(destDir)
-    #destDir2 = 'c:\\Users\\kalvis.apsitis\\workspace\\linen-tracer-682\\discrete-bin\\coq-competitions'    
-    destDirAbsolute = destDir.replace('../../workspace/linen-tracer-682/discrete-bin/', 'c:/Users/kalvis.apsitis/workspace/linen-tracer-682/discrete-bin/')
+    destDirAbsolute = destDir.replace('../../workspace/linen-tracer-682/', 'c:/Users/kalvis.apsitis/workspace/linen-tracer-682/')
     for vff in v_files:
         if vff.endswith('.v'):
             print('Build Coq {}/{} inside {}'.format(srcDir,vff,destDir))
@@ -215,7 +214,7 @@ def main():
     publish_grades()
 
     resTypes = ['algorithms','rbs','numtheory'] 
-    skip_directories = ['source-material','static','questionbase','analysis', 'coq-inductive', 'coq-numbertheory', 'coq-predicates', 'coq-propositional', 'coq-sets']
+    skip_directories = ['source-material','static','questionbase','analysis', 'coq-inductive', 'coq-numbertheory','coq-firstorder', 'coq-predicates', 'coq-propositional', 'coq-sets']
 
 
     if os.name=='nt':
@@ -228,6 +227,7 @@ def main():
     DISCRETE_SRC_ROOT = 'c:/Users/kalvis.apsitis/workspace/rbs-discretestructures'
     copy_pdf_only('{}/homework'.format(DISCRETE_SRC_ROOT), '{}/discrete2021-bin'.format(DEST_ABSOLUTE))
     copy_pdf_only('{}/worksheets'.format(DISCRETE_SRC_ROOT), '{}/discrete2021-bin'.format(DEST_ABSOLUTE))
+    copy_pdf_only('{}/midterm'.format(DISCRETE_SRC_ROOT), '{}/discrete2021-bin'.format(DEST_ABSOLUTE))
 
     for resType in resTypes:
         print('########## Removing dir {}/{}-tales'.format(DEST_ROOT,resType))
@@ -244,6 +244,8 @@ def main():
         for dd in subDirectories:
             print('##### Copying {}/{} to {}/{}-exams/{}'.format(SRC_ROOT,dd,DEST_ROOT,resType,dd))
             copyDirectory('%s/%s' % (SRC_ROOT,dd), '%s/%s-exams/%s' % (DEST_ROOT,resType,dd))
+    
+    copy_pdf_only('c:/Users/kalvis.apsitis/workspace/math/src/site/numtheory/exams'.format(DISCRETE_SRC_ROOT), '{}/numtheory-exams'.format(DEST_ABSOLUTE))
 
 
             
@@ -270,6 +272,7 @@ def main():
 #    build_static('src/site/numtheory/static', '%s/numtheory-bin' % DEST_ROOT)
     build_static('src/site/algorithms/static', '%s/algorithms-bin' % DEST_ROOT)
     build_static('src/site/numtheory/static', '%s/numtheory-bin' % DEST_ROOT)
+    build_static('src/site/numtheory/exams', '%s/numtheory-exams' % DEST_ROOT)
     #fall2020-homeworks
 #    build_static('src/site/problembase/static', '%s/problembase-bin' % DEST_ROOT)
 #    build_static('src/site/rbs/static', '%s/rbs-bin' % DEST_ROOT)
@@ -284,6 +287,16 @@ def main():
     build_coq('src/site/discrete/coq-predicates', '%s/discrete-bin/coq-predicates' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-propositional', '%s/discrete-bin/coq-propositional' % DEST_ABSOLUTE)
     build_coq('src/site/discrete/coq-sets', '%s/discrete-bin/coq-sets' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete2021/coq-assignments', '%s/discrete2021-bin/coq-assignments' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete2021/coq-firstorder', '%s/discrete2021-bin/coq-firstorder' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete2021/coq-propositional', '%s/discrete2021-bin/coq-propositional' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete2021/coq-numbertheory', '%s/discrete2021-bin/coq-numbertheory' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete2021/coq-induction', '%s/discrete2021-bin/coq-induction' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete2021/coq-relations', '%s/discrete2021-bin/coq-relations' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete2021/coq-lists', '%s/discrete2021-bin/coq-lists' % DEST_ABSOLUTE)
+    build_coq('src/site/discrete2021/coq-stringsearch', '%s/discrete2021-bin/coq-stringsearch' % DEST_ABSOLUTE)
+    
+    
 #    build_static('src/site/datasearch/static', '%s/datasearch-bin' % DEST_ROOT)
 #    build_static('src/site/problembase/static/collections', '%s/problembase-bin/collections' % DEST_ROOT)
 

@@ -22,6 +22,8 @@
 **/.Rhistory
 */.RData
 **/.RData
+.lia.cache
+.nia.cache
 src/site/discrete2021/coq/*/SECRET*
 bin/
 target/
