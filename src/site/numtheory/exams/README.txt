@@ -1,3 +1,37 @@
+Standartizētie pulciņi
+----------------------
+
+Ir skolas, kuras brīvprātīgi vēlas sadarboties + piedalīties šajos testos. 
+(Vēlams, lai tās atšķirtos no RV1Ģ un RTU Inženierzinātņu vidusskolas.)
+Pieeja ir sekojoša:
+(1) Individuālā līmenī ikvienam ir iespēja piedalīties - NMS izlases dalībnieki visi tiek apziņoti. 
+Nepieciešamības gadījumā viņiem visiem izveido individuālus kontus.
+(2) Paralēli tam piedalās skolu vai reģionu veidotas dalībnieku izlases (tās nesacenšas kā komandas, bet gan darbojas individuāli). 
+
+Sagaidām skolotāju līdzdalību... Tiktāl, lai viņi pirms attiecīgā testa iesilda dalībniekus un izziņo par testu.
+
+
+=============================================================================
+Starptautiskā sadarbība
+-----------------------
+
+
+(1) Pamazām apkopojas arī angliskie video materiāli un faktu lapas.
+(2) Quiz-līmeņa testi ir kā "jautājumi paškontrolei"
+(3) Nopietnākie testi publiskojami arī angliski - pieaicinām dalībniekus (īpaši no kaimiņvalstīm, Ukrainas, Vidusāzijas)
+(2A,3A) Ja sanāk, var arī jautājumi paškontrolei un testi būt lietuviski un/vai ukrainiski.
+
+=============================================================================
+Datu apkopošana
+--------------------
+Ar laiku video, citi mācību materiāli utml. sadalās nelielos gabalos, kuru 
+aplūkošanu un iziešanu apkopojam statistiski. Arī paredzam atgriezenisko saiti. 
+
+
+
+=============================================================================
+
+
 Dalībnieka vārds, uzvārds, skola, klase, epasts. 
 (Varbūt arī skolotājs?)
 
@@ -9,7 +43,7 @@ Formulu/pamatfaktu lapa.
 Cilvēkiem silti ieteikts pakārtot tos Warm-up kamēr viņi visu saprot - lai ir kā Khan Academy "mastery" līmenis par pašām svarīgākajām lietām.
 (Bet te nedod nekādus nestandarta jautājumus).
 
-(3) Tālāk seko 90min x 12 jautājumu tests (AIME sākumkomplekts vai AMO līmenis). 
+(3) Tālāk seko 90min x 12 jautājumu tests (AMC / AIME sākumkomplekts / AMO līmenis). 
 
 (4) Notiek pati lekcija. Tās laikā ir kaut kādi individuālie vingrinājumi (lai pārliecinātos, ka visi zin vismaz pamatlietas). Un tad arī grupu vingrinājumi. 
 Netiek uzsvērta sacenšanās - vienkārši iziešana cauri šķēršļu joslai. 
@@ -25,9 +59,10 @@ Reizē ar testa rezultātu šo kopsavilkumu. Tas notiek īsi pēc testa beigām 
 (Šis jau ir "mastery" līmenis - tur nekad nav zināšanas izolēti par tēmu.)
 
 
-Piezīme: 
-===============
-Senioriem piedāvā tikai (1) + (2) + (3) + (5). 
+==============================================================================
+Testi elitāriem dalībniekiem (BW izlases labākie, seniori utml.)
+
+Šai auditorijai piedāvā tikai (1) + (2) + (3) + (5) punktus (sk. augstāk). Un arī vēl viens punkts:
 (8) Ja marta beigās ir kaut kādi IMO kandidāti - tad viņiem varētu būt 90min x 12 - kaut kāds drusku viltīgāks tests, 
 kurā ir advancētas tēmas - senioru līmenis kā to māca Artjoms vai Māris.
 Pirms šī viltīgākā testa arī ir faktu lapa un iesildīšanās vingrinājumi (līdzīgi kā (1)+(2)).

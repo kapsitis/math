@@ -228,6 +228,7 @@ def main():
     copy_pdf_only('{}/homework'.format(DISCRETE_SRC_ROOT), '{}/discrete2021-bin'.format(DEST_ABSOLUTE))
     copy_pdf_only('{}/worksheets'.format(DISCRETE_SRC_ROOT), '{}/discrete2021-bin'.format(DEST_ABSOLUTE))
     copy_pdf_only('{}/midterm'.format(DISCRETE_SRC_ROOT), '{}/discrete2021-bin'.format(DEST_ABSOLUTE))
+    copy_pdf_only('{}/final'.format(DISCRETE_SRC_ROOT), '{}/discrete2021-bin'.format(DEST_ABSOLUTE))
 
     for resType in resTypes:
         print('########## Removing dir {}/{}-tales'.format(DEST_ROOT,resType))
