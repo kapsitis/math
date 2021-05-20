@@ -154,7 +154,7 @@ def make_topic_list(tasks):
             week_list[len(week_list)-1]['links'].append(copy.deepcopy(empty_topic))
         
         # Replace stuff for MathJAX
-        if curr_key == 'title' or curr_key == 'task' or curr_key == 'example' or curr_key == 'math':
+        if curr_key == 'title' or curr_key == 'task' or curr_key == 'description' or curr_key == 'example' or curr_key == 'math':
             curr_value = re.sub(r'\$([^\$]*)\$', r'<span class="math inline">\\( \1 \\)</span>', curr_value)            
         
         # Skip the top-level topics for now

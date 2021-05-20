@@ -1,0 +1,124 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{amsmath,amssymb,amsthm,multicol,tikz,enumitem}
+\usepackage{hyperref}
+\usepackage[margin=2cm]{geometry}
+\usepackage{fancyvrb}
+\usetikzlibrary{calc}
+
+\newcommand\N{\mathbf{N}}
+\newcommand\Q{\mathbf{Q}}
+\newcommand\R{\mathbf{R}}
+\newcommand\Z{\mathbf{Z}}
+
+\newcommand\rem{\textup{rem}}
+
+% Comment out one or the other
+
+\newcommand\answer[1]{}
+\newcommand\ans[1]{}
+%\newcommand\notanswer[1]{#1}
+%\newcommand\answer[1]{\\[5pt]{\color{blue}{#1}}\hfill{\color{blue}$\qed$}\\[-5pt]} 
+%\newcommand\ans[1]{{\color{blue}{#1}}}
+%\newcommand\notanswer[1]{}
+
+\begin{document}
+
+\begin{center}
+{\bf\Huge Midterm Review} \\[5pt]
+Discrete Structures \\
+%(Exam scheduled for Wednesday, February 24, 2021)\\[5pt]
+\textit{*You must justify all your answers to recieve full credit*}
+\end{center}
+
+
+%\begin{center}
+%\large \textbf{Midterm topics}
+%\end{center}
+
+\noindent
+Please refer to the following resources to find question samples:\\
+Midterm (24.02.2021) Questions only: \url{https://bit.ly/3t638wK}\\
+Midterm (24.02.2021) Solved: \url{https://bit.ly/2Oy4cu6}\\
+Question Samples: \url{https://bit.ly/3t5p4YO}
+
+{\small
+\begin{enumerate}
+
+\item \textbf{Boolean expressions.} Truth tables, logical equivalences, set operations, Venn diagrams.
+\begin{enumerate}
+\item Given a statement in English and atomic propositions, write its Boolean expression. \textcolor{blue}{(Midterm, Q1)}
+\item Given a Boolean expression, fill in missing values in its truth table.
+\item Given a Boolean expression equivalently transform it using Boolean identities.
+\item Given a Boolean expression, prove or disprove a tautology.
+\item Given a truth table, create a DNF or a CNF for it (and vice versa).
+\item Given a set expression, shade the regions in a Venn diagram that belong to it. \textcolor{blue}{(Midterm, Q2)}
+\item Given two set expressions prove or disprove set identity or subset relation. \textcolor{blue}{(Midterm, Q3)}
+\end{enumerate}
+\item \textbf{Quantifiers.} Predicates, quantifiers, precedence, simple proofs.
+\begin{enumerate} 
+\item Given an English sentence and predicates, write its predicate expression.
+\item Given a predicate expression, restore parentheses, identify free/bound variables.
+\item Given a predicate expression, write its negation (De Morgan laws etc.). \textcolor{blue}{(Midterm, Q4)}
+\item Given truth tables for predicates, evaluate nested quantifier expressions. \textcolor{blue}{(Question Samples, 2(d))}
+\item Given a description of a set, define it in a set-builder notation.  \textcolor{blue}{(Midterm, Q6)}
+\item Given a pseudocode, write the predicate expression that it computes. 
+\end{enumerate}
+\item \textbf{Functions.} Injections, surjections, bijections, 
+\begin{enumerate}
+\item Given a function in curly bracket notation, determine its values and its range.
+\item Given a function, prove/disprove that it is injective, surjective or bijective. \textcolor{blue}{(Midterm, Q7)}
+\item Given function definitions, evaluate their compositions and inverses.
+\item Given a sequence, identify its properties, is it (eventually) constant/periodic, etc.
+\item Given an expression with elementary functions, $|x|$, $\lfloor x \rfloor$, $\lceil x \rceil$, evaluate it.
+\item Given an expression $\sum\limits_{i=0}^n \ldots$ and similar constructs, evaluate it.
+\item Given an expression with $2 \times 2$, $2 \times 1$ matrices, add, subtract and multiply them. 
+\end{enumerate}
+\item \textbf{Sets of Numbers.} Properties of integers, rationals/irrationals, reals.
+\begin{enumerate}
+\item Given an expression, write a forward proof that it is rational or irrational.
+\item Given an expression, write a proof by contradiction that it is irrational. \textcolor{blue}{(Midterm, Q8)}
+\item Given an expression, give examples to disprove that it must be rational/irrational.
+\item Given a set, describe its powerset and estimate cardinality (by Cantor's theorem).  \textcolor{blue}{(Midterm, Q9)}
+\item Given functions, use them to compare cardinalities (also Schröder-Bernstein theorem).
+\end{enumerate}
+\item \textbf{Big-O notation.} 
+\begin{enumerate}
+\item Given functions $f,g$, check by definition that $f(n)$ is in $O(g(n))$, $\Omega(g(n))$, $\Theta(g(n))$.
+\item Given a function $f(x)$, simplify it to get its ``optimal'' $O(g(x))$ or $\Theta(g(x))$ class. \textcolor{blue}{(Midterm, Q10)}
+\item Given a collection of functions, arrange them by growth.
+\item Given a pseudocode, basic operations and input length, estimate its time as $O(g(n))$.
+\item Given a sorting algorithm and input data, trace its action on this data.
+\end{enumerate}
+\item \textbf{Number Theory.} Congruences. Bezout identity. Inverses. Chinese remainder theorem.
+\begin{enumerate}
+\item Given a number, factorize it as a product of primes and prime powers.
+\item Given a number $n$ and its divisor $d$, divide with remainder as $n = qd + r$. 
+\item Given an arithmetic progression, find its $k$th member $\pmod{m}$.
+\item Given two integers, find their GCD (also LCM) by Euclid algorithm. \textcolor{blue}{(Midterm, Q11)}
+\item Given integers, solve Bezout identity (or find inverses) with Blankenship algorithm.
+\item Given a in integer power, simplify it using Little Fermat theorem.
+\item Given a system of congruences, solve it using Chinese remainder theorem. \textcolor{blue}{(Midterm, Q12)}
+\end{enumerate}
+\item \textbf{Numbers in different bases.} Binary, octal, decimal, hexadecimal.
+\begin{enumerate}
+\item Given a decimal integer, convert it to binary, hexadecimal (and vice versa).
+\item Given a binary integer, convert it into octal and hexadecimal (and vice versa).
+\item Given a number in one base, estimate its length in another base.
+\item Given two binary numbers, add or multiply them with the school algorithm.  \textcolor{blue}{(Midterm, Q13)}
+\item Given a periodic fraction, write it as $P/Q$ (use infinite geometric progression).  \textcolor{blue}{(Midterm, Q14)}
+\item Given numbers $a,b,m$, estimate fast exponentiation result (and time used) for $a^b \pmod{m}$.
+\item Given a fraction $p/2^k$, convert it into finite binary/hexadecimal fractions.
+\end{enumerate}
+\item \textbf{Induction.} Mathematical induction, strong induction. Recursive definitions.
+\begin{enumerate}
+\item Given an equality regarding sums or recurrent sequences, prove it by induction. \textcolor{blue}{(Midterm, Q15)}
+\item Given an inequality, prove it by induction. 
+\item Given a parametrized statement (using parameter $n$), prove it by strong induction. 
+\item Given a recurrent definition of a sequence $f(n)$, evaluate it for some value $n$.
+\item Given a coin weighing, search or similar task, find the recurrence for its time.
+\end{enumerate}
+\end{enumerate}
+}
+
+\end{document}

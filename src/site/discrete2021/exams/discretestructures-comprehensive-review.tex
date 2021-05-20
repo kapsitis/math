@@ -1,0 +1,213 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{amsmath,amssymb,amsthm,multicol,tikz,enumitem}
+\usepackage{hyperref}
+\usepackage[margin=2cm]{geometry}
+\usepackage{fancyvrb}
+\usetikzlibrary{calc}
+
+\newcommand\N{\mathbf{N}}
+\newcommand\Q{\mathbf{Q}}
+\newcommand\R{\mathbf{R}}
+\newcommand\Z{\mathbf{Z}}
+
+\newcommand\rem{\textup{rem}}
+
+% Comment out one or the other
+
+\setlength{\parindent}{0pt}
+
+\newcommand\answer[1]{}
+\newcommand\ans[1]{}
+%\newcommand\notanswer[1]{#1}
+%\newcommand\answer[1]{\\[5pt]{\color{blue}{#1}}\hfill{\color{blue}$\qed$}\\[-5pt]} 
+%\newcommand\ans[1]{{\color{blue}{#1}}}
+%\newcommand\notanswer[1]{}
+
+
+
+\begin{document}
+
+\begin{center}
+{\bf\Huge Comprehensive Exam Topics} \\[5pt]
+Discrete Structures \\
+%(4 separate times)\\[5pt]
+\textit{*You must justify all your answers to recieve full credit*}
+\end{center}
+
+\hrule
+\vspace{2pt}
+\hrule
+\vspace{12pt}
+
+Comprehensive exam in Discrete Structures revisits the essential theory material. 
+The exam is split into four parts \textendash{} every part has mandatory office hours 
+followed by the exam on that part (typically on a subsequent day). 
+Each part lasts $60$ minutes, it has $6$ questions (up to $10$ points each). 
+You will need to pass all four parts; 
+all four results should be at least $30$ points  \textendash{} half of the maximum.
+
+
+\vspace{10pt}
+{\bf Part 1: Logic and Proofs}
+
+
+{\small
+\begin{enumerate}
+
+\item \textbf{Boolean expressions.} Truth tables, logical equivalences, Venn diagrams.
+\begin{enumerate}
+\item Express an English sentence as a Boolean expression. 
+\item Build a truth table for a Boolean Expression.
+\item Build a DNF or a CNF for a given truth table.
+\item Simplify a Boolean Expression using identities; prove, disprove tautologies. 
+\item Shade regions in a Venn diagram corresponding to a Boolean Expression.
+\end{enumerate}
+\item \textbf{Quantifiers.} Predicates, quantifiers.
+\begin{enumerate} 
+\item Express math and programming concepts with predicates.
+\item Express an English sentence as a predicate logic expression.
+\item Restore parentheses, identify free/bound variables in a predicate expression.
+\item Write the negation for a predicate expression; simplify using De Morgan's laws.
+\item Read and write set-builder notation.
+\end{enumerate}
+\item \textbf{Functions and Relations} Injections, surjections, bijections, relations and their properties.
+\begin{enumerate}
+\item Given a function, prove/disprove that it is injective, surjective or bijective.
+\item Given function definitions, evaluate their compositions and inverses.
+\item Given a sequence, identify its properties, is it (eventually) constant/periodic, etc.
+\item Convert a desription of a binary relation into another form.
+\item Given a binary relation determine if it is a (injective, surjective, bijective) function.
+\item Given a binary relation determine if it is reflexive, symmetric, antisymmetric or transitive.
+\item Compute compositions and powers for relations, find transitive closures.
+\end{enumerate}
+\item \textbf{Proofs.} Simple statements grouped by the method of proof.
+\begin{enumerate}
+\item Prove an implication directly.
+\item Prove an implication by contradiction.
+\item Prove a logical equivalence (if and only if).
+\item Prove by counterexample.
+\item Prove by mathematical induction.
+\item Prove or disprove equality of two numbers or sets.
+\end{enumerate}
+\end{enumerate}
+}
+
+
+\vspace{10pt}
+{\bf Part 2: Structures}
+
+
+{\small
+\begin{enumerate}
+
+\item \textbf{Number Theory.} Congruences. Bezout identity. Inverses. Chinese remainder theorem.
+\begin{enumerate}
+\item Factorize a number into a product of prime powers.
+\item Divide numbers with remainders as in $n = qd + r$, express decimal digits.
+\item Find members of arithmetic progressions, also by modulo $m$. 
+\item Given two integers, find their GCD (also LCM) by Euclid algorithm.
+\item Given integers, solve Bezout identity with Blankenship algorithm.
+\item Given $m$ and $x$, compute 
+multiplicative inverse $\overline{x}$ modulo $m$; solve linear congruences.
+\item Convert periodic decimal numbers to rational fractions.
+\item Given a decimal integer, convert it to binary, hexadecimal (and vice versa).
+\end{enumerate}
+
+\item \textbf{Graphs.} Graph concepts, subgraphs, graph families and isomorphisms.
+\begin{enumerate}
+\item Count the number of graphs with a given property or parameter.
+\item Check a propert for a special graph (complete, cycle, wheel, n-cube, complete bipartite).
+\item Check if a given graph is bipartite, complete, or connected.
+\item Justify whether or not a graph has a particular subgraph, cycle or path.
+\item Convert between different representations of graphs.
+\item Given a tree, check the condition for a Euler circuit (or path) and find it.
+\item Given two graphs prove or disprove they are isomorphic.
+\end{enumerate}
+
+\item \textbf{Trees.} Tree concepts, traversing trees with BFS, DFS. 
+\begin{enumerate}
+\item Given the count of vertices, edges, height or other parameter, estimate other parameters.
+\item Given an $n$-ary tree and some parameters, estimate other parameters.
+\item Convert between representations: tree diagrams, lists of edges, or traversals.
+\item Given a prefix, infix or postfix notation, convert it into the syntax tree or other notation(s).
+\item Given an undirected graph, do a DFS and BFS traversal, indicating all steps.
+\end{enumerate}
+\end{enumerate}
+}
+
+
+
+
+
+\vspace{10pt}
+{\bf Part 3: Counting and Estimation}
+
+
+{\small
+\begin{enumerate}
+\item \textbf{Combinatorics.} Permutations, combinations, binomial coefficients, pigeonhole principle.
+\begin{enumerate}
+\item Given a word problem, count variants using the product, sum, difference rules.
+\item Given a set of restrictions and symmetries, count variants using the division rule.
+\item Count variants using 
+combinations and permutation formulas with or without repetition.
+\item Given a polynomial, find coefficients using binomial and multinomial rules.
+\end{enumerate}
+
+\item \textbf{Recurrent Sequences.} Periodicity, 1st and 2nd order recurrences, Master theorem.
+\begin{enumerate}
+\item Evaluate $\sum\limits_{i=0}^n \ldots$ and similar constructs.
+\item Prove a property of a recurrent sequence by induction or using invariants.
+\item Prove that a recurrent sequence has a closed formula using induction.
+\item Given a 1st order non-homogeneous recurrence, solve it.
+\item Given a 2nd order homogeneous recurrence, solve it.
+\item Given a word problem (sets of strings, Tower of Hanoi, tilings, etc.) build recurrences.
+\item Given a divide-and-conquer type recurrence, solve it with Master theorem.
+\end{enumerate}
+
+
+\item \textbf{Big-O notation.} 
+\begin{enumerate}
+\item Given functions $f,g$, check by definition that $f(n)$ is in $O(g(n))$, $\Omega(g(n))$, $\Theta(g(n))$.
+\item Given a function $f(x)$, simplify it to get its ``optimal'' $O(g(x))$ or $\Theta(g(x))$ class.
+\item Given a collection of functions, arrange them by growth.
+\item Given a pseudocode, basic operations and input length, estimate its time as $O(g(n))$.
+\end{enumerate}
+\end{enumerate}
+}
+
+
+
+
+
+
+\vspace{10pt}
+{\bf Part 4: Probabilities}
+
+{\small
+\begin{enumerate}
+\item \textbf{Events.} Events, complements, independence, conditional probability, Bernoulli trials.
+\begin{enumerate}
+\item Describe events in a sample space and compute probabilities using Laplace's definition.
+\item Compute probabilities of derived events (complementary, intersection, union, etc.).
+\item Find conditional probabilities for events and their combinations.
+\item Prove or disprove pairwise and mutual independence of events.
+\item Analyze the probabilities of the outcomes of a probabilistic 2-player game.
+\item Express conditional probabilities using Bayes' theorem.
+\end{enumerate}
+
+
+\item \textbf{Random Variables.} Expected value, variance, distributions, Chebyshev's inequality.
+\begin{enumerate}
+\item Identify the geometric, binomial, and Bernoulli distributions.
+\item Given a definition of a random variable, find its probability mass function.
+\item Given a distribution for a discrete random variable $X$, compute $E(X)$ and $V(X)$.
+\item Estimate the probability of $X$ being in an interval by Chebyshev's inequality.
+\end{enumerate}
+\end{enumerate}
+}
+
+
+
+\end{document}
