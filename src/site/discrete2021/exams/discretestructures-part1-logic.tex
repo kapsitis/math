@@ -1,0 +1,260 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[table]{xcolor}
+\usepackage{array,amsmath,amssymb,multicol,tikz}
+\usepackage{hyperref,colonequals}
+\usepackage[margin=2cm]{geometry}
+\usepackage{fancyvrb}
+\usetikzlibrary{calc,arrows.meta}
+\usepackage{xcolor}
+
+\tikzset{
+arr/.style={line width=1pt,-{Straight Barb[width=6pt, length=3pt]}, shorten >=2pt}
+}
+
+\pagestyle{empty}
+
+\newcommand\N{\mathbf{N}}
+\newcommand\Q{\mathbf{Q}}
+\newcommand\R{\mathbf{R}}
+\newcommand\Z{\mathbf{Z}}
+
+\newcommand\rem{\textup{rem}}
+
+\begin{document}
+
+\begin{center}
+\parbox{3cm}{\flushleft\bf Discrete\linebreak Structures}
+\hfill
+\parbox{7cm}{\centering {\bf\Huge Samples, Part 1}}
+\hfill
+\parbox{3cm}{\flushright\bf Spring 2021 \linebreak May 21}
+\end{center}
+
+\hrule\vspace{2pt}\hrule
+
+\hrule
+
+
+\vspace{10pt}
+{\bf Boolean expressions.}
+
+\begin{enumerate}
+
+% 1.(a)
+\item {\small \em
+ Express an English sentence as a Boolean expression.}\\
+In each of the following sentences underline
+up to three atomic propositions and write them as
+compound propositions using logical connectives.
+\begin{enumerate}
+\item For walks in a forrest to be safe, it is necessary, but not
+sufficient that there are are no poisonous mushrooms along your path
+and no active ticks.
+\item There are no active ticks and walks in a forrest are safe, but
+there are poisonous mushrooms along your path.
+\item Walks in a forrest are not safe iff there are no
+active ticks.
+\item There are either
+active ticks or poisonous mushrooms along your path or both,
+whenever the walks in the forrest are not safe.
+\end{enumerate}
+
+% 1.(b)
+\item {\small \em
+Build a truth table for a Boolean Expression.}\\
+$((p \oplus q) \wedge (p \oplus \neg q)) \oplus (\neg q \oplus \neg r)$.
+
+% 1.(c)
+\item {\small \em
+Build a DNF or a CNF for a given truth table.}\\
+Fill in the truth table for the logical expression $p \rightarrow (\neg q \wedge r)$.
+Create either a DNF or a CNF for this
+truth table (which one \textendash{} is up to you).
+
+% 1.(d)
+\item {\small \em
+Simplify a Boolean Expression using identities; prove, disprove tautologies.}\\
+Simplify the following Boolean expressions:
+\begin{enumerate}
+\item $(p \oplus q) \oplus (p \oplus r)$
+\item $(p \wedge q) \wedge (p \rightarrow q \rightarrow r)$
+\end{enumerate}
+
+
+% 1.(e)
+\item {\small \em
+Shade regions in a Venn diagram corresponding to a Boolean Expression.}\\
+Draw a Venn diagram (the ovals correspond to the regions where
+the corresponding Boolean variables are true).
+Shade the region, where the compound Boolean expression is true.
+\begin{enumerate}
+\item $(p \rightarrow \neg r) \vee (q \rightarrow \neg r)$
+\item $(p \vee q) \oplus r$
+\item $(p \wedge q) \vee (\neg q \wedge r)$
+\end{enumerate}
+\end{enumerate}
+
+
+
+\vspace{10pt}
+{\bf Quantifiers.}
+
+\begin{enumerate}
+%2.(a)
+\item {\small \em
+Express math and programming concepts with predicates.}\\
+Write a logical expression for a predicate $P(x,y)$ which has
+value true iff the point $(x,y)$ is inside a unit circle (with radius $1$
+and center $(0,0)$).\\
+{\em Note 1.} If $(x,y)$ is exactly on the border of the unit circle,
+$P(x,y)$ should evaluate to false.\\
+{\em Note 2.} Express similar predicates for points belonging to
+the 1st (or 2nd, 3rd, 4th) quadrant, or belonging to some rectangle, etc.
+
+%2.(b)
+\item {\small \em
+Express an English sentence as a predicate logic expression.}\\
+Introduce 1 or 2-argument predicates and express the following sentences in the predicate logic
+\begin{enumerate}
+\item Some student in this class has visited Mexico, but has not visited Argentina.
+\item All students in this class have learned at least one programming language.
+\item There is a student in this class who has taken every course offered  by
+one of the departments of this university.
+\item Some student in this class is a citizen of the same country as exactly one other
+student in this class.
+\end{enumerate}
+
+%2.(c)
+\item {\small \em
+Restore parentheses, identify free/bound variables in a predicate expression.}\\
+For every variable occurrence determine its scope (and what quantifier bounds it, if any
+such quantifier exists). Draw an arrow from a variable to its quantifier.
+\[ \forall x \in S\  \left( \exists x \in S\ R(x) \vee P(x) \right) \wedge Q(x). \]
+Does this expression depend on some parameter (and if so, underline that parameter).
+
+%2.(d)
+\item {\small \em
+Write the negation for a predicate expression; simplify using De Morgan’s laws.}\\
+Let $U$ be a set universe and $P(x,y,z)$ be some predicate with three variables $x,y,z \in U$.
+Rewrite the statement so that negations are applied only to the predicates directly
+(no negation is outside a quantifier or applied to an expression containing logical connectives).
+\[ \neg \forall x \in U\
+\left( \exists y \in U\ \forall z \in U\ P(x,y,z) \wedge \exists z \in U\ \forall y \in U\ P(x,y,z)  \right). \]
+
+%2.(e)
+\item {\small \em Read and write set-builder notation.}\\
+Use the set-builder notation to describe the set $S$ of all those positive integers $k$ that can be expressed
+as the product of two positive integers $a,b$ in just one way: Neither $a$, nor $b$ equals $1$ or $k$
+(the order of multiplication does not matter; i.e.\ product $a \cdot b$ and $b \cdot a$ counts as the same way).
+\end{enumerate}
+
+
+
+\vspace{10pt}
+{\bf Functions and Relations}
+
+\begin{enumerate}
+%3.(a)
+\item {\small \em Given a function, prove/disprove that it is injective, surjective or bijective.}\\
+A function $f$ switches the places of two digits in a positive integer. For example:\\
+$f(123) = 213$ and $f(123456) = 123546$.\\
+(In general the 2nd and the 3rd digits from the right switch their places; no other changes are done.
+For numbers $n < 100$, $f(n) = n$ as there is no 3rd digit from the right in this case.)\\
+Find if $f$ is injective, surjective and/or bijective function.
+
+%3.(b)
+\item {\small \em Given function definitions, evaluate their compositions and inverses.}\\
+Find the inverse function for $f$ defined in the previous problem.
+Find the composition $f \circ f \circ f$ for this function.
+
+
+%3.(c)
+\item {\small \em Given a sequence, identify its properties, is it (eventually) constant/periodic, etc.}\\
+Let $a_1 = 7$ and every next member $a_{n+1}$ is the last digit of $3a_n +2$.
+Is the sequence $(a_n)$ constant? Eventually constant? Periodic? Eventually periodic?
+
+
+%3.(d)
+\item {\small \em Convert a description of a binary relation into another form.}\\
+Write a matrix representation for a binary relation $R \subseteq \{ 0,1,2,3,4,5 \}^2$ such
+that $(a,b) \in R$ iff $|a + b|$ or $|a - b|$ is divisible by $3$.
+
+%3.(e)
+\item {\small \em Given a binary relation determine if it is a (injective, surjective, bijective) function.}\\
+Let $S = \{ 1,2,3,4,5,6 \}$. Let $R \subseteq S \times S$ be a relation such that
+$(a,b) \in R$ iff $|a - b| = 3$.
+\begin{enumerate}
+\item
+Prove that the relation $R$ is a function relation.
+\item
+Is this function injectiive, surjective and/or bijective?
+\end{enumerate}
+
+%3.(f)
+\item {\small \em Given a binary relation determine if it is reflexive, symmetric, antisymmetric or transitive.}\\
+Let $\Z$ be the set of all integers, and $R \subseteq \Z^2$ is the relation
+such that $(a,b) \in R$ iff $|a - b|$ is divisible by $7$.
+Is the relation $R$ a reflexive, symmetric, antisymmetric, transitive and/or equivalence relation?
+
+
+
+%3.(g)
+\item {\small \em Compute compositions and powers for relations, find transitive closures.}\\
+The set $S$ consists of $8 \times 8$ squares; it is the regular chess board.
+Two squares $a,b \in S$ are in relation $B$ (written as $(a,b) \in B$) iff
+it is possible to go from $a$ to $b$ in a single step using a bishop.
+(Bishops are going diagonally \textendash{} they can cross as many squares as they like as long as they
+stay on the same diagonal.) Let $B^t$ be the transitive closure of the relation $B$.
+How many squares are in relation $B^t$ with $c \in S$ (where $c$ is the
+square located on the bottom-left corner of the chess board).
+\end{enumerate}
+
+
+
+\vspace{10pt}
+{\bf Proofs.}
+
+\begin{enumerate}
+%4.(a)
+\item {\small \em Prove an implication directly.}\\
+Prove that for any integer $x$ that has decimal notation ending with digit $7$,
+the cube $x^3$ has the decimal notation that always ends with the same digit
+(no matter which $x$ you pick).
+
+
+%4.(b)
+\item {\small \em Prove an implication by contradiction.}\\
+Assume that $\alpha + \beta$ is a rational number and $\alpha^2 + \beta^2$ is
+an irrational number. Prove that $\alpha \cdot \beta$ is an irrational number.
+
+
+%4.(c)
+\item {\small \em  Prove a logical equivalence (if and only if).}\\
+Prove that an integer number $n$ belongs to the interval $[10000,999999]$
+iff $\lfloor \sqrt{n} \rfloor$ is an integer with exactly $3$ digits in
+its decimal notation.
+
+
+%4.(d)
+\item {\small \em Prove by counterexample.}\\
+Prove that there exists a prime number $p$ such that the congruence equation
+\[ x^2 \equiv 2 \pmod{p} \]
+has an integer solution $x$.
+
+
+%4.(e)
+% 1*1 + 2*2 + 3*6 + ...
+\item {\small \em
+Prove by mathematical induction.}\\
+Prove the following identity for every positive integer $n$:
+\[ 1 \cdot 1! + 2 \cdot 2! + 3 \cdot 3! + \ldots + n \cdot n! = (n+1)! - 1. \]
+
+
+
+
+%4.(f)
+\item {\small \em Prove or disprove equality of two numbers or sets.}\\
+Prove that a connected graph with $n$ vertices is a tree iff it has $n-1$ edges.
+\end{enumerate}
+
+\end{document}
