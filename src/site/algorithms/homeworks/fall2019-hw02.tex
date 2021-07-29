@@ -1,94 +1,57 @@
-\documentclass[a4paper]{article}
-\usepackage{ucs}
-\usepackage[utf8x]{inputenc}
-\usepackage{changepage}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{gensymb}
-\usepackage{amssymb}
-\usepackage{enumerate}
-\usepackage{tabularx}
-\usepackage{lipsum}
-\usepackage{amsthm}
-\usepackage{thmtools}
-\usepackage{xcolor}
+\documentclass[a4paper,12pt]{article}
 
-
-
-%\documentclass[jou]{apa6}
-%\usepackage[american]{babel}
-
-%\usepackage{csquotes}
-%\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
-%\DeclareLanguageMapping{american}{american-apa}
-%\addbibresource{bibliography.bib}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Discrete Structures
-%% The start of RBS stuff
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Working internal and external links in PDF
+\usepackage{amsmath,amssymb,amsthm,multicol,tikz,enumitem}
 \usepackage{hyperref}
-% Extra math symbols in LaTeX
-\usepackage{amsmath}
-\usepackage{gensymb}
-\usepackage{amssymb}
-% Enumerations with (a), (b), etc.
-\usepackage{enumerate}
-\usepackage[framemethod=TikZ]{mdframed}
-\usepackage{xcolor}
+\usepackage{fancyvrb}
+%\usepackage{enumerate}
+\usepackage[margin=2cm]{geometry}
+\usetikzlibrary{calc,arrows.meta}
 
-\let\OLDitemize\itemize
-\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+\newcommand\N{\mathbf{N}}
+\newcommand\Q{\mathbf{Q}}
+\newcommand\R{\mathbf{R}}
+\newcommand\Z{\mathbf{Z}}
 
-\usepackage{etoolbox}
-\makeatletter
-\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
-\makeatother
+\def\ojoin{\setbox0=\hbox{$\bowtie$}%
+  \rule[-.02ex]{.25em}{.4pt}\llap{\rule[\ht0]{.25em}{.4pt}}}
+\def\leftouterjoin{\mathbin{\ojoin\mkern-5.8mu\bowtie}}
+\def\rightouterjoin{\mathbin{\bowtie\mkern-5.8mu\ojoin}}
+\def\fullouterjoin{\mathbin{\ojoin\mkern-5.8mu\bowtie\mkern-5.8mu\ojoin}}
 
-% These sizes redefine APA for A4 paper size
-\oddsidemargin 0.0in
-\evensidemargin 0.0in
-\textwidth 6.27in
-\headheight 1.0in
-\topmargin -24pt
-\headheight 12pt
-\headsep 12pt
-\textheight 9.19in
+% Comment out one or the other
 
+\ifdefined\mysolution
+  \newcommand\answer[1]{\mbox{}\\[-15pt]{\color{blue}{#1}}\hfill{\color{blue}$\qed$}\mbox{}\\[-15pt]} 
+  \newcommand\ans[1]{{\color{blue}{#1}}}
+\else 
+  \newcommand\answer[1]{}
+  \newcommand\ans[1]{}
+\fi
 
 
-%\title{Sample Quiz 8}
-%\author{Discrete Structures, Spring 2020}
-%\affiliation{RBS}
-
-%\leftheader{Discrete Sample Quiz 8}
-
-%\abstract{%
-%}
-
-%\keywords{}
-
-\setlength\parindent{0pt}
+\setlength{\parindent}{0pt}
 
 \begin{document}
 
-%\twocolumn
-
+\thispagestyle{empty}
 
 \begin{center}
-{\Large 2. Mājasdarbs}\\
-{\Large Attēlu saspiešana; Kļūdu labošana}
+{\bf\Huge 2.\ mājasdarbs} \\[5pt]
+Lietišķie algoritmi, 2019.g.\ rudens\\
+Termiņš: 2019-10-28
 \end{center}
 
-Termiņš: 2019. gada 28. oktobrī 23:59:59 pēc Austrumeiropas ziemas laika.\\
-Iesūtīšanas veids: PDF uz epastu {\tt kalvis.apsitis} domēnā {\tt gmail.com}.
+\hrule
+\vspace{2pt}
+\hrule
+\vspace{12pt}
 
 
-\begin{enumerate}
-\item {\bf Diskrētā krāsu plakne YCbCr.} 
+
+
+\vspace{10pt}
+{\bf 1.uzdevums (Diskrētā krāsu plakne YCbCr).}
+
 Koordinātes $(Y,Cb,Cr)$ aprēķina no koordinātēm $(R,G,B)$ atbilstoši 
 sekojošai vektoru algebras sakarībai:
 $$\left( \begin{array}{c}
@@ -116,7 +79,7 @@ B
 Sk. \url{https://onlinelibrary.wiley.com/doi/full/10.1002/col.22291}.\\
 Atrast YCbCr koordinātes zemāk minētajām krāsām, kas uzdotas $(R,G,B)$ krāsu plaknē
 (un noapaļot visas $(Y,Cb,Cr)$ koordinātes līdz tuvākajam veselajam skaitlim). 
-\begin{enumerate}[(a)]
+\begin{enumerate}
 \item Baltai krāsai {\tt \#FFFFFF} jeb $(R,G,B) = (255,255,255)$. 
 \item Ciāna krāsai  {\tt \#00FFFF} jeb $(R,G,B) = (0,255,255)$.
 \item Magentas krāsai {\tt \#FF00FF} jeb $(R,G,B) = (255,0,255)$. 
@@ -124,20 +87,23 @@ Atrast YCbCr koordinātes zemāk minētajām krāsām, kas uzdotas $(R,G,B)$ kr�
 \item Melnai krāsai  {\tt \#000000} jeb $(R,G,B) = (0,0,0)$.
 \end{enumerate}
 
-\item {\bf Diskrētais kosinusu pārveidojums.}
+
+\vspace{10pt}
+{\bf 2.uzdevums (Diskrētais kosinusu pārveidojums).}
+
 Dota funkcija $f(x)$, kas definēta argumentiem $x=0,1,\ldots,N-1$. 
 Par 1-dimensionālu DCT (diskrēto kosinusu pārveidojumu jeb {\em discrete cosine transform}) sauksim 
 funkciju $F(u)$, kas definēta tām pašām argumenta vērtībām $u=0,1,\ldots,N-1$ 
 ar šādām vienādībām: 
 $$F(u) = \sqrt{\frac{2}{N}} \sum\limits_{x=0}^{N-1} \lambda_u \cdot \cos \left( \frac{\pi u}{N}\left(  x+\frac{1}{2} \right) \right) \cdot f(x),$$
 kur $u=0,1,\ldots,N-1$ un $\lambda_u = \frac{1}{\sqrt{2}}$ (pie $u=0$) un $\lambda_u = 1$ (pie $u>0$).\\
-Sk.\ \url{https://en.wikipedia.org/wiki/Discrete_cosine_transform#DCT-II}.
+Sk.\ \url{https://bit.ly/3fcbrC2}.
 
 Par inverso diskrēto kosinusu pārveidojumu sauksim atgriešanos no funkcijas $F(u)$ atpakaļ pie funkcijas $f(x)$, 
 ko definē ar šādām vienādībām:
 $$f(x) = \sqrt{\frac{2}{N}} \sum\limits_{u=0}^{N-1} \lambda_u \cdot \cos \left( \frac{\pi u}{N}\left(  x+\frac{1}{2} \right) \right) \cdot F(u),$$
 kur $x=0,1,\ldots,N-1$ un $\lambda_u$ definēti tāpat kā agrāk.
-\begin{enumerate}[(a)]
+\begin{enumerate}
 \item 
 Aprēķināt diskrēto kosinusu pārveidojumu $F(u)$ punktā $u=3$
 funkcijai\\ $f(x) = (N-1)-x$, kur $N=8$. 
@@ -148,17 +114,21 @@ punktiem $x=0,1,2,3,4,5,6,7$ no funkcijas $F(u)$, kas uzdota ar
 sekojošām $N=8$ vērtībām:
 $$(F(0),F(1),F(2),F(3),F(4),F(5),F(6),F(7)) =$$
 $$ = (57.9828,-6.4423,0,-0.6735,0,-0.2009,0,-0.0507).$$
-Atbildi noapaļot līdz 4 cipariem aiz komata.\\
-{\em (Turpinājums lapas otrā pusē.)}
+Atbildi noapaļot līdz 4 cipariem aiz komata.
 \end{enumerate}
 
-\item {\bf Heminga kodi.} 
+
+
+
+
+\vspace{10pt}
+{\bf 3.uzdevums (Heminga kodi).} 
 Uzrakstām skaitļa $\pi = 3.14159\ldots$ pierakstu divnieku skaitīšanas sistēmā un 
 grupējam tā ciparus aiz komata - divas grupas pa $7$ un divas grupas pa $15$:
 $$\pi = 11.\underbrace{0010010}\underbrace{0001111}\underbrace{110110101010001}\underbrace{000100001011010}\ldots_2.$$
 Grupējam šī skaitļa ciparus aiz komata grupās pa $7$ (un pēc tam arī pa
 $15$), lai iegūtu ziņojumus. Atrast kļūdas (ja tādas ir) atbilstošajos Heminga koda ziņojumos:
-\begin{enumerate}[(a)]
+\begin{enumerate}
 \item Heminga koda ziņojums {\tt 0010010} ($7$-bitu Heminga kods, bitu secība apgriezti leksikogrāfiska
 \textendash{} no $x_{111}$ līdz $x_{001}$) \textendash{} atrast kļūdaino pozīciju, ja tāda ir, un uzrakstīt šo $7$-bitu kodu bez kļūdām.
 \item Heminga koda ziņojums {\tt 0001111} ($7$-bitu Heminga kods) \textendash{} izlabot kļūdas, ja tās ir, un uzrakstīt $4$ ziņojuma bitus $x_1x_2x_3x_4$. 
@@ -168,8 +138,12 @@ $15$), lai iegūtu ziņojumus. Atrast kļūdas (ja tādas ir) atbilstošajos Hem
 izlabot kļūdas, ja tās ir, un uzrakstīt visus ziņojuma bitus (ziņojumu bitu secība apgriezti leksikogrāfiska $x_{1111}\ldots{}x_{0011}$).
 \end{enumerate}
 
-\item {\bf Rīda-Solomona kods.} 
-\begin{enumerate}[(a)]
+
+
+\vspace{10pt}
+{\bf 4.uzdevums (Rīda-Solomona kods).}
+
+\begin{enumerate}
 \item Izmantojot galīgu lauku $\text{GF}(7)$ kodējam ziņojumus no 
 $7$ simbolu alfabēta $\{ 0,1,2,\ldots,6 \}$ ar $3$ pakāpes polinomiem, 
 pārraidot $7$ polinoma vērtības $(f(0),\ldots,f(7))$ visos
@@ -188,8 +162,13 @@ Atrast polinoma vērtību $p(\mathtt{011})$, kur $\mathtt{011}\in\text{GF}(2^3)$
 visas $8$ polinoma vērtības, bet šajā vingrinājumā pietiek izrēķināt $p(x)$ tikai pie $x=\mathtt{011}$. 
 \end{enumerate}
 
-\item {\bf I-iespēja (atzīmei 10).} 
-\begin{enumerate}[(a)]
+
+
+
+\vspace{10pt}
+{\bf 5.uzdevums (I-iespēja (atzīmei 10)).}
+
+\begin{enumerate}
 \item Uzrakstīt grafu kodu ar $9$ ziņojuma bitiem $x_1,\ldots,x_{9}$ 
 un pēc iespējas mazāku skaitu kontrolbitu $y_1,\ldots,y_k$ tā, 
 lai kods spētu atjaunot jebkurus $2$ pazaudētus ziņojuma bitus $x_i$.
@@ -198,7 +177,7 @@ lai kods spētu atjaunot jebkurus $2$ pazaudētus ziņojuma bitus $x_i$.
 un pēc iespējas mazāku skaitu kontrolbitu $y_1,\ldots,y_k$ tā, 
 lai kods spētu atjaunot jebkurus $3$ pazaudētus ziņojuma bitus $x_i$.
 \end{enumerate}
-\end{enumerate}
+
 
 
 

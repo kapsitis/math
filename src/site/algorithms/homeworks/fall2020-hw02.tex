@@ -1,78 +1,52 @@
-\documentclass[a4paper]{article}
-\usepackage{ucs}
-\usepackage[utf8x]{inputenc}
-\usepackage{changepage}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{gensymb}
-\usepackage{amssymb}
-\usepackage{enumerate}
-\usepackage{tabularx}
-\usepackage{lipsum}
-\usepackage{amsthm}
-\usepackage{thmtools}
-\usepackage{xcolor}
-\usepackage{caption}
-\captionsetup[table]{name=Tabula}
+\documentclass[a4paper,12pt]{article}
 
-
-%\documentclass[jou]{apa6}
-%\usepackage[american]{babel}
-
-%\usepackage{csquotes}
-%\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
-%\DeclareLanguageMapping{american}{american-apa}
-%\addbibresource{bibliography.bib}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Discrete Structures
-%% The start of RBS stuff
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Working internal and external links in PDF
+\usepackage{amsmath,amssymb,amsthm,multicol,tikz,enumitem}
 \usepackage{hyperref}
-% Extra math symbols in LaTeX
-\usepackage{amsmath}
-\usepackage{gensymb}
-\usepackage{amssymb}
-% Enumerations with (a), (b), etc.
-\usepackage{enumerate}
-\usepackage[framemethod=TikZ]{mdframed}
-\usepackage{xcolor}
+\usepackage{fancyvrb}
+%\usepackage{enumerate}
+\usepackage[margin=2cm]{geometry}
+\usetikzlibrary{calc,arrows.meta}
 
-\let\OLDitemize\itemize
-\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+\newcommand\N{\mathbf{N}}
+\newcommand\Q{\mathbf{Q}}
+\newcommand\R{\mathbf{R}}
+\newcommand\Z{\mathbf{Z}}
 
-\usepackage{etoolbox}
-\makeatletter
-\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
-\makeatother
+\def\ojoin{\setbox0=\hbox{$\bowtie$}%
+  \rule[-.02ex]{.25em}{.4pt}\llap{\rule[\ht0]{.25em}{.4pt}}}
+\def\leftouterjoin{\mathbin{\ojoin\mkern-5.8mu\bowtie}}
+\def\rightouterjoin{\mathbin{\bowtie\mkern-5.8mu\ojoin}}
+\def\fullouterjoin{\mathbin{\ojoin\mkern-5.8mu\bowtie\mkern-5.8mu\ojoin}}
 
-% These sizes redefine APA for A4 paper size
-\oddsidemargin 0.0in
-\evensidemargin 0.0in
-\textwidth 6.27in
-\headheight 1.0in
-\topmargin -24pt
-\headheight 12pt
-\headsep 12pt
-\textheight 9.19in
+% Comment out one or the other
 
+\ifdefined\mysolution
+  \newcommand\answer[1]{\mbox{}\\[-15pt]{\color{blue}{#1}}\hfill{\color{blue}$\qed$}\mbox{}\\[-15pt]} 
+  \newcommand\ans[1]{{\color{blue}{#1}}}
+\else 
+  \newcommand\answer[1]{}
+  \newcommand\ans[1]{}
+\fi
 
 
 \setlength{\parindent}{0pt}
-\setlength{\columnsep}{1cm}
-
 
 \begin{document}
 
-\twocolumn
 
 \begin{center}
-{\Large 2. Mājasdarbs}\\
-{\Large Attēlu saspiešana un Kļūdu labošanas kodi}
+{\bf\Huge 2.\ mājasdarbs} \\[5pt]
+Lietišķie algoritmi: Attēlu saspiešana un kļūdu labošanas kodi \\
+Termiņš: 2020-11-09\\[5pt]
+{\em Atrisinājumus lūdzam pārveidot par vienu PDF.}
 \end{center}
+
+\hrule
+\vspace{2pt}
+\hrule
+\vspace{12pt}
+
+
 
 %\begin{changemargin}{10pt}{10pt}
 {\footnotesize
@@ -80,10 +54,6 @@ Vairāki uzdevumi šajā mājasdarbā iespaidojušies no MIT Open Courseware:
 \url{https://bit.ly/3dabHyG} and \url{https://bit.ly/36xvx4e}.\\
 }
 %\end{changemargin}
-
-
-{\bf Termiņš:} 2020.gada 9.novembris; līdz vakaram\\ (23:59:59 EET).\\
-{\bf Iesniegšanas veids:} E-studiju vide.
 
 
 \vspace{10pt}
@@ -114,7 +84,7 @@ $\mathtt{11}$ & $\rightarrow$ & 1 & 1 & 0 & 0 & ? \\
 \end{table}
 }
 
-\begin{enumerate}[(A)]
+\begin{enumerate}
 \item Atrast kaut vienu veidu, kā atjaunot kodu tabulu,
 kas parādītu vienu veidu, kā nokodēt katru no $4$ divu bitu virknītēm, 
 kas var būt ievadē. (Vai arī pamatojiet, ka no šīs tabulas 
@@ -151,7 +121,7 @@ $$H = \left( \begin{array}{cccc}
 \end{array} \right).$$
 }
 
-\begin{enumerate}[(A)]
+\begin{enumerate}
 \item
 Atrast matricu $G$ ar lielākajiem izmēriem (un ar lineāri neatkarīgām kolonnām), kurai 
 $G \cdot H$ ir matrica, kura satur tikai nulles, ja visas matricu darbības veic pēc $2$ moduļa. 
@@ -182,7 +152,8 @@ Par inverso diskrēto kosinusu pārveidojumu sauksim atgriešanos no funkcijas $
 ko definē ar šādām vienādībām:
 $$f(x) = \sqrt{\frac{2}{N}} \sum\limits_{u=0}^{N-1} \lambda_u \cdot \cos \left( \frac{\pi u}{N}\left(  x+\frac{1}{2} \right) \right) \cdot F(u),$$
 kur $x=0,1,\ldots,N-1$ un $\lambda_u$ definēti tāpat kā agrāk.
-\begin{enumerate}[(A)]
+
+\begin{enumerate}
 \item
 Atrast diskrēto kosinusu pārveidojumu $F(u)$ punktā $u=3$
 funkcijai\\ $f(x) = (N-1)-x$, kur $N=8$.
@@ -206,7 +177,7 @@ Atbildi noapaļot līdz 4 cipariem aiz komata.
 \vspace{20pt}
 {\bf 4.uzdevums (Rīda-Solomona kods).}
 
-\begin{enumerate}[(A)]
+\begin{enumerate}
 \item Izmantojot galīgu lauku ar $7$ elementiem 
 $\text{GF}(7)$ kodējam ziņojumus no
 $7$ simbolu alfabēta $\{ 0,1,2,\ldots,6 \}$ ar 3.pakāpes polinomiem $f(n)$,
@@ -279,7 +250,7 @@ saistīti ar citām rindām un kolonnām
 kā arī kopējo paritātes bitu ($P0$).
 Viņš apgalvo, ka arī šāds kods izpildīs abas prasības 
 un efektīvāk izmantos sakaru kanālu.
-\begin{enumerate}[(A)]
+\begin{enumerate}
 \item Vai visas viena bita kļūdas var atrast un izlabot (ar Bena piedāvāto izmaiņu).\\ 
 Pamatojiet, ka vienmēr var vai atrodiet pretpiemēru. 
 \item Vai visas divu bitu kļūdas var atrast un izlabot (ar Bena piedāvāto izmaiņu).\\

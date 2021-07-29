@@ -1,89 +1,51 @@
-\documentclass[a4paper]{article}
-\usepackage{ucs}
-\usepackage[utf8x]{inputenc}
-\usepackage{changepage}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{gensymb}
-\usepackage{amssymb}
-\usepackage{enumerate}
-\usepackage{tabularx}
-\usepackage{lipsum}
-\usepackage{amsthm}
-\usepackage{thmtools}
-\usepackage{xcolor}
-\usepackage{caption}
-\captionsetup[table]{name=Tabula}
+\documentclass[a4paper,12pt]{article}
 
-
-%\documentclass[jou]{apa6}
-%\usepackage[american]{babel}
-
-%\usepackage{csquotes}
-%\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
-%\DeclareLanguageMapping{american}{american-apa}
-%\addbibresource{bibliography.bib}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Discrete Structures
-%% The start of RBS stuff
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Working internal and external links in PDF
+\usepackage{amsmath,amssymb,amsthm,multicol,tikz,enumitem}
 \usepackage{hyperref}
-% Extra math symbols in LaTeX
-\usepackage{amsmath}
-\usepackage{gensymb}
-\usepackage{amssymb}
-% Enumerations with (a), (b), etc.
-\usepackage{enumerate}
-\usepackage[framemethod=TikZ]{mdframed}
-\usepackage{xcolor}
+\usepackage{fancyvrb}
+%\usepackage{enumerate}
+\usepackage[margin=2cm]{geometry}
+\usetikzlibrary{calc,arrows.meta}
 
-\let\OLDitemize\itemize
-\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-6pt}}
+\newcommand\N{\mathbf{N}}
+\newcommand\Q{\mathbf{Q}}
+\newcommand\R{\mathbf{R}}
+\newcommand\Z{\mathbf{Z}}
 
-\usepackage{etoolbox}
-\makeatletter
-\preto{\@verbatim}{\topsep=3pt \partopsep=3pt }
-\makeatother
+\def\ojoin{\setbox0=\hbox{$\bowtie$}%
+  \rule[-.02ex]{.25em}{.4pt}\llap{\rule[\ht0]{.25em}{.4pt}}}
+\def\leftouterjoin{\mathbin{\ojoin\mkern-5.8mu\bowtie}}
+\def\rightouterjoin{\mathbin{\bowtie\mkern-5.8mu\ojoin}}
+\def\fullouterjoin{\mathbin{\ojoin\mkern-5.8mu\bowtie\mkern-5.8mu\ojoin}}
 
-% These sizes redefine APA for A4 paper size
-\oddsidemargin 0.0in
-\evensidemargin 0.0in
-\textwidth 6.27in
-\headheight 1.0in
-\topmargin -24pt
-\headheight 12pt
-\headsep 12pt
-\textheight 9.19in
+% Comment out one or the other
 
+\ifdefined\mysolution
+  \newcommand\answer[1]{\mbox{}\\[-15pt]{\color{blue}{#1}}\hfill{\color{blue}$\qed$}\mbox{}\\[-15pt]} 
+  \newcommand\ans[1]{{\color{blue}{#1}}}
+\else 
+  \newcommand\answer[1]{}
+  \newcommand\ans[1]{}
+\fi
 
 
 \setlength{\parindent}{0pt}
-\setlength{\columnsep}{1cm}
-
 
 \begin{document}
 
-\twocolumn
 
 \begin{center}
-{\Large 3. Mājasdarbs}\\
-{\Large Lineārā programmēšana}
+{\bf\Huge 3.\ mājasdarbs} \\[5pt]
+Lietišķie algoritmi: Lineārā programmēšana \\
+Termiņš: 2020-12-11\\[5pt]
+{\em Atrisinājumus lūdzam pārveidot par vienu PDF.}
 \end{center}
 
-%\begin{changemargin}{10pt}{10pt}
-%{\footnotesize
-%Vairāki uzdevumi šajā mājasdarbā iespaidojušies no MIT Open Courseware:
-%
-%}
-%\end{changemargin}
+\hrule
+\vspace{2pt}
+\hrule
+\vspace{12pt}
 
-
-{\bf Termiņš:} 2020.gada 11.decembris; līdz vakaram\\ (23:59:59 EET).\\
-{\bf Iesniegšanas veids:} E-studiju vide.
 
 
 \vspace{10pt}

@@ -1,49 +1,50 @@
-\documentclass[11pt]{article}
-\usepackage{ucs}
-\usepackage[utf8x]{inputenc}
-\usepackage{changepage}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{gensymb}
-\usepackage{amssymb}
-\usepackage{enumerate}
-\usepackage{tabularx}
-\usepackage{lipsum}
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{amsmath,amssymb,amsthm,multicol,tikz,enumitem}
 \usepackage{hyperref}
+\usepackage{fancyvrb}
+%\usepackage{enumerate}
+\usepackage[margin=2cm]{geometry}
+\usetikzlibrary{calc,arrows.meta}
 
-\oddsidemargin 0.0in
-\evensidemargin 0.0in
-\textwidth 6.27in
-\headheight 1.0in
-\topmargin -0.1in
-\headheight 0.0in
-\headsep 0.0in
-\textheight 9.0in
+\newcommand\N{\mathbf{N}}
+\newcommand\Q{\mathbf{Q}}
+\newcommand\R{\mathbf{R}}
+\newcommand\Z{\mathbf{Z}}
 
-\setlength\parindent{0pt}
+\def\ojoin{\setbox0=\hbox{$\bowtie$}%
+  \rule[-.02ex]{.25em}{.4pt}\llap{\rule[\ht0]{.25em}{.4pt}}}
+\def\leftouterjoin{\mathbin{\ojoin\mkern-5.8mu\bowtie}}
+\def\rightouterjoin{\mathbin{\bowtie\mkern-5.8mu\ojoin}}
+\def\fullouterjoin{\mathbin{\ojoin\mkern-5.8mu\bowtie\mkern-5.8mu\ojoin}}
 
-\newenvironment{myenv}{\begin{adjustwidth}{0.4in}{0.4in}}{\end{adjustwidth}}
-\renewcommand{\abstractname}{Anotācija}
-\renewcommand\refname{Atsauces}
+% Comment out one or the other
+
+\ifdefined\mysolution
+  \newcommand\answer[1]{\mbox{}\\[-15pt]{\color{blue}{#1}}\hfill{\color{blue}$\qed$}\mbox{}\\[-15pt]} 
+  \newcommand\ans[1]{{\color{blue}{#1}}}
+\else 
+  \newcommand\answer[1]{}
+  \newcommand\ans[1]{}
+\fi
 
 
-
-\newcounter{alphnum}
-\newenvironment{alphlist}{\begin{list}{(\Alph{alphnum})}{\usecounter{alphnum}\setlength{\leftmargin}{2.5em}} \rm}{\end{list}}
-
-\makeatletter
-\let\saved@bibitem\@bibitem
-\makeatother
-
-\usepackage{bibentry}
-%\usepackage{hyperref}
-
+\setlength{\parindent}{0pt}
 
 \begin{document}
 
 \thispagestyle{empty}
 
-{\Large Lietišķie algoritmi \textendash{} Gala eksāmens. 2019-12-17.}
+\begin{center}
+{\bf\Huge Gala eksāmens} \\[5pt]
+Lietišķie algoritmi, 2019.g.\ rudens\\
+Termiņš: 2019-12-17
+\end{center}
+
+\hrule
+\vspace{2pt}
+\hrule
+\vspace{12pt}
 
 
 % https://learning.oreilly.com/library/view/operations-research-2nd/9789332537392/xhtml/chapter002-001.xhtml
@@ -62,7 +63,7 @@ x_1,x_2 \geq 0
 {\bf 2.uzdevums. Primārais un duālais LP uzdevumi.}
 Dots primārais LP uzdevums: Maksimizēt $z = 2 x_1 + 5 x_2$, 
 kur $3 x_1 + 7x_2  = 12$ un $x_1, x_2 \geq 0$. 
-\begin{enumerate}[(a)]
+\begin{enumerate}
 \item Kāds ir primārā LP mērķfunkcijas $2x_1 + 5x_2$ maksimumu un pie kuriem $x_i$ to sasniedz.
 \item Formulēt duālo LP uzdevumu. 
 \item Atrast duālā uzdevuma mērķfunkcijas minimumu un kādiem mainīgajiem to sasniedz.
@@ -72,7 +73,7 @@ kur $3 x_1 + 7x_2  = 12$ un $x_1, x_2 \geq 0$.
 \vspace{6pt}
 {\bf 3.uzdevums. Meklēšanas algoritmu salīdzināšana.} Meklējam paraugu $P = \mathtt{abcbcab}$
 tekstā $T = \mathtt{abcabbcabcbcababababcbcab}$ (sk.\ 4.\ mājasdarba 4.\ uzdevumu). 
-\begin{enumerate}[(a)]
+\begin{enumerate}
 \item Izveidot Knuta-Morisa-Prata algoritmam nepieciešamo prefiksu funkciju $\pi$. 
 \item Atrast, cik reizes tekstā $T$ ielūkojas
 Knuta-Morisa-Prata algoritms. Attēlot to tabuliņā \textendash{} 
@@ -108,7 +109,7 @@ x_2\\
 x_3\\
 x_4
 \end{array} \right).$$
-\begin{enumerate}[(a)]
+\begin{enumerate}
 \item Alise grib nosūtīt Bobam vektoriņu $\mathbf{x} = (1,0,1,0)^T$, izmantojot šo Heminga kodu.
 Uzrakstīt Alises pusē iegūto Heminga kodējumu.
 \item Sakaru kanāls sabojāja pašu pirmo un pašu pēdējo bitu ("0" vietā Bobs saņēma "1",
