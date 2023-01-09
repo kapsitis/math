@@ -1946,8 +1946,223 @@ tādu $n$, ka, pareizi spēlējot, otrais spēlētājs uzvar!
 
 
 
+-----
+
+# <lo-sample/> LV.AO.2011.5.1
+
+Reizināšanas piemērā ciparus aizstāja ar burtiem un ieguva izteiksmi  
+$$AB \cdot CD = EEE.$$ . 
+Atjauno sākotnējo reizināšanas piemēru, ja zināms, ka vienādi burti
+apzīmē vienādus ciparus, bet dažādi burti – dažādus ciparus, pie tam
+ne $A$, ne $C$ nav $0$. Atrodi visus iespējamos atrisinājumus!
+
+<small>
+
+* [div.fta.divisors](#)
+* [comb.full](#)
+
+</small>
+
+<!--
+questionType=Find.All
+-->
+
+-----
+
+# <lo-sample/> LV.AO.2011.5.2
+
+Dotās $3 \times 3$ rūtiņu tabulas katrā rūtiņā
+jāieraksta pa vienam naturālam skaitlim tā,
+lai katrā rindā, katrā kolonnā un katrā
+diagonālē ierakstīto trīs skaitļu summas būtu
+vienādas. Ir zināmi trīs rūtiņās ierakstītie
+skaitļi (skat. 1. zīm.). Aizpildi pārējās tabulas
+rūtiņas!  
+![1.zīm](LV.AO.2011.5.2.png)
+
+<small>
+
+* [alg.expr.selectvar](#)
+* [alg.tra](#)
+
+</small>
+
+<!--
+questionType=Find.Only
+-->
+
+-----
+
+# <lo-sample/> LV.AO.2011.5.3
+
+Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros!
+
+<small>
+
+* [geom.constr.triangulate](#)
+* [geom.constr.small](#)
+* [geom.circle.inscribed](#)
+
+</small>
+
+<!--
+questionType=Prove.Exists
+-->
+
+-----
+
+# <lo-sample/> LV.AO.2011.5.4
+
+Vai naturālos skaitļus no $1$ līdz $12$, katru izmantojot tieši vienu reizi,
+var uzrakstīt pa apli tādā secībā, ka jebkuru divu blakus esošu skaitļu
+starpība ir  
+**(a)** $2$ vai $3$;  
+**(b)** $3$ vai $4$?
+
+<small>
+
+* [comb.constr.iterative](#)
+* [comb.graph](#)
+
+</small>
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+-----
+
+# <lo-sample/> LV.AO.2011.5.5
+
+Kvadrātā ar izmēriem $7 \times 7$ rūtiņas jāizvieto $n$ "stūrīšus"
+(2. zīm. attēlotās figūras) tā, lai tajā vairāk nevarētu
+ievietot nevienu citu šādu "stūrīti". (Stūrīšu malām jāiet
+pa rūtiņu malām. Stūrīši var arī būt pagriezti citādāk.)
+Parādi, kā to var izdarīt, ja  
+**(a)** $n=9$;  
+**(b)** $n=8$.   
+![2.zīm.](LV.AO.2011.5.5.png)
+
+<small>
+
+* [misc.symm](#)
+* [comb.full.backtrack](#)
+
+</small>
+
+<!--
+questionType=Prove.Exists
+-->
 
 
+
+-----
+
+# <lo-sample/> LV.AO.2011.6.1
+
+
+Vai eksistē tādi naturāli skaitļi $a$ un $b$, kuriem izpildās vienādība
+$$a \cdot b \cdot (a+b) = 20102011 ?$$
+
+<small>
+
+* [div.fta.divisors](#)
+
+</small>
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+
+-----
+
+# <lo-sample/> LV.AO.2011.6.2
+
+
+Sešdesmit pensionāri katru dienu *sociālajā tīklā*
+sarakstās savā starpā. Katrs kungs sarakstās ar tieši $17$ dāmām, 
+bet katra kundze sarakstās ar tieši $13$ kungiem. 
+Cik starp šiem pensionāriem ir kungu un cik – kundžu?
+
+<small>
+
+* [comb.graph.bipartite](#)
+
+</small>
+
+<!--
+questionType=Find.All
+-->
+
+-----
+
+# <lo-sample/> LV.AO.2011.6.3
+
+Kvadrātā ar izmēriem $8 \times 8$ rūtiņas sākotnēji 
+visas rūtiņas ir baltas. Kāds mazākais skaits rūtiņu 
+šajā kvadrātā jānokrāso zaļas, lai tajā nevarētu atrast 
+nevienu pilnībā baltu taisnstūri ar izmēriem $1 \times 3$ 
+rūtiņas (novietotu horizontāli vai vertikāli)?
+
+<small>
+
+* [comb.full](#)
+
+</small>
+
+<!--
+questionType=Find.Min
+-->
+
+
+-----
+
+# <lo-sample/> LV.AO.2011.6.4
+
+
+3. zīmējumā dota $3 \times 3$ rūtiņu tabula, 
+kurā ierakstīti veseli skaitļi. Vienā gājienā atļauts izvēlēties 
+divas dažādas tabulas rūtiņas -- apzīmēsim tajās ierakstītos 
+skaitļus attiecīgi ar $a$ un $b$, nodzēst šos divus skaitļus 
+un to vietā ierakstīt: a vietā -- skaitli $5a-2b$, bet b  vietā -- skaitli $5b-2a$.
+Vai, vairākkārt veicot šādus gājienus, var iegūt tabulu, kāda attēlota 4. zīm.?
+
+![3.zīm.](LV.AO.2011.6.4A.png)
+
+![4.zīm.](LV.AO.2011.6.4B.png)
+
+
+<small>
+
+* [misc.invar.congr](#)
+
+</small>
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+-----
+
+# <lo-sample/> LV.AO.2011.6.5
+
+
+Betai bija $50$ konfektes, bet Almai un Danai bija vienāds konfekšu skaits. 
+Beta pazaudēja vienu konfekti un noskuma. Almai kļuva Betas žēl, un viņa atdeva māsai pusi 
+no savām konfektēm. Beta nomierinājās un nolēma, ka viņai tagad konfekšu ir par daudz un atdeva 
+pusi no savām Danai. Arī Dana izlēma padalīties ar Almu un atdeva pusi no savām konfektēm Almai. 
+Tagad Almai un Betai ir vienāds konfekšu skaits. Cik konfekšu sākumā bija katrai no māsām?
+
+<small>
+
+* [alg.tra](#)
+
+</small>
+
+<!--
+questionType=Find.Only
+-->
 
 
 
@@ -1969,7 +2184,6 @@ Atrodi visus šos skaitļus!
 
 <small>
 
-* [div.prop.primes.small](#)
 * [div.prop.primes.small](#)
 
 </small>
@@ -2189,6 +2403,108 @@ katrā grupā aprēķināta tajā ietilpstošo skaitļu summa. Vai var būt, ka
 
 
 
+-----
+
+# <lo-sample/> LV.AO.2012.5.1
+
+Divu naturālu skaitļu pierakstā izmantoti tikai cipari $1$, $4$, $6$ un $9$. Vai
+var gadīties, ka viens skaitlis ir tieši septiņas reizes lielāks nekā otrs
+skaitlis? 
+
+<small>
+
+* [comb.full](#)
+
+</small>
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+
+
+-----
+
+# <lo-sample/> LV.AO.2012.5.2
+
+Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros.
+(Trijstūri sauc par platleņķa trijstūri, ja tam ir viens plats leņķis un
+divi šauri leņķi.) 
+
+<small>
+
+* [geom.constr.triangulate](#)
+* [geom.circle.inscribed](#)
+
+</small>
+
+<!--
+sameAs=LV.AO.2011.5.3
+questionType=ProveDisprove.Exists
+-->
+
+
+-----
+
+# <lo-sample/> LV.AO.2012.5.3
+
+
+Maisā ir baltas, zaļas un sarkanas pogas (citu krāsu pogu maisā nav).
+Kādu mazāko skaitu pogu uz labu laimi (tās neredzot) ir jāizņem, lai
+noteikti būtu paņemtas vai nu $2$ baltas, vai $3$ zaļas, vai $4$ sarkanas
+pogas
+
+
+<small>
+
+* [misc.extr.pigeon.collection](#)
+
+</small>
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+
+-----
+
+# <lo-sample/> LV.AO.2012.5.4
+
+
+$24$-stāvu mājā ir lifts, kuram ir divas pogas. Nospiežot vienu pogu,
+tas paceļas (ja iespējams) $17$ stāvus uz augšu, nospiežot otru --
+nolaižas $8$ stāvus uz leju (ja iespējams). Noskaidro, no kura stāva ar
+šo liftu var nokļūt uz jebkuru citu stāvu šajā mājā.
+(Lifts nevar uzbraukt augstāk par 24. stāvu un zemāk par 1. stāvu.) 
+
+<small>
+
+* [misc.ind](#)
+
+</small>
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+
+-----
+
+# <lo-sample/> LV.AO.2012.5.5
+
+Sadali 1. zīmējumā attēloto figūru trīs vienādās figūrās.
+(Figūru un tās spoguļattēlu saucam par vienādām figūrām.) . 
+![1.zīm](LV.AO.2012.5.5.png)
+
+<small>
+
+* [comb.grid.shapes.cutting](#)
+
+</small>
+
+<!--
+questionType=ProveDisprove.Exists
+-->
 
 
 -----
@@ -2314,7 +2630,37 @@ questionType=Prove.ForAll
 
 Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 
+<small>
 
+* [mod.congr.pow](#)
+* [mod.congr.sumdiff](#)
+
+</small>
+
+
+<!--
+questionType=Find.Any
+-->
+
+
+-----
+
+# <lo-sample/> LV.AO.2012.9.2
+
+Trijstūrī $ABC$ $\angle ABC = 90^{\circ}$ , bet punkts $P$ atrodas uz malas $AB$.
+Punkti $M$ un $N$ ir attiecīgi nogriežņu $AC$ un $PC$ viduspunkti. Pierādi,
+ka $\angle BAC = \angle BMN$. 
+
+<small>
+
+* [geom.triangle.congruence](#)
+
+</small>
+
+
+<!--
+questionType=Prove.ForAll
+-->
 
 -----
 
@@ -2322,6 +2668,18 @@ Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 
 Kvadrātvienādojuma $x^2 − 507x + a = 0$ saknes ir $p^2$ un $q$, kur $p$ un
 $q$ ir pirmskaitļi. Aprēķini $a$ skaitlisko vērtību.
+
+<small>
+
+* [mod.congr.pow](#)
+* [mod.congr.sumdiff](#)
+
+</small>
+
+
+<!--
+questionType=Find.All
+-->
 
 
 -----
@@ -2337,6 +2695,39 @@ reizes viņi atkārto šo darbību.
 Pēteris uzvar, ja iegūtais deviņciparu skaitlis dalās ar $37$. 
 Vai Pēteris vienmēr var uzvarēt?
 
+<small>
+
+* [mod.congr.pow](#)
+* [mod.congr.sumdiff](#)
+
+</small>
+
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+-----
+
+# <lo-sample/> LV.AO.2012.9.5
+
+
+Dota trapece, kuras pamatu malu garumi ir $3$ un $13$.
+Pierādi, ka to nevar sadalīt piecos vienlielos trijstūros.
+(Figūras sauc par vienlielām, ja tām ir vienādi laukumi.)
+
+
+<small>
+
+* [geom.triangle.area.ah2](#)
+* [geom.quadrangle.trapezoid.area](#)
+
+</small>
+
+
+<!--
+questionType=Prove.NotExists
+-->
 
 
 
@@ -2577,6 +2968,108 @@ $$\frac{1}{a_1} + \frac{1}{a_2} + \frac{1}{a_3} + \ldots \frac{1}{a_n} < 2.$$
 
 Pierādīt, ka neeksistē tādi naturāli skaitļi $x, y, z$, ka izpildās
 vienādība $6^x + 13^y = 29^z$.
+
+
+
+-----
+
+# <lo-sample/> LV.AO.2014.5.1
+
+Pūkainīšu ciemata bērniem Lieldienu zaķis atnesa olas. Katra no tām bija nokrāsota tieši
+vienā no krāsām – sarkanā, dzeltenā, zilā. Zināms, ka $20\%$ jeb $40$ olas bija sarkanas,
+$\frac{3}{4}$ no atlikušajām bija dzeltenas, bet pārējās -- zilas. Aprēķini:  
+**(1)** Cik olas bija zilā krāsā?  
+**(2)** Kāda daļa no visām olām bija zilas?  
+**(3)** Cik procenti no visām olām bija dzeltenas?
+
+<small>
+
+* [alg.equ](#)
+
+</small>
+
+<!--
+questionType=Find.Only
+-->
+
+
+-----
+
+# <lo-sample/> LV.AO.2014.5.2
+
+Divu naturālu skaitļu pierakstā izmantoti tikai cipari $2$, $3$, $7$ un $8$. Vai var gadīties, ka viens
+skaitlis ir tieši trīs reizes lielāks nekā otrs skaitlis?
+
+<small>
+
+* [mod.congr](#)
+
+</small>
+
+<!--
+questionType=ProveDisprove.Exists
+-->
+
+-----
+
+# <lo-sample/> LV.AO.2014.5.3
+
+Taisnstūra ABCD malu garumi izsakāmi veselos centimetros. Iekrāsotās daļas laukums ir 
+$6$ $\mbox{cm}^2$ (skat. 1. zīm.). Nogrieznis $AE$ ir $\frac{1}{3}$
+no taisnstūra malas $AD$. Aprēķini taisnstūra
+laukumu un perimetru, ja zināms, ka viena taisnstūra mala ir par $5$ $\mbox{cm}$ garāka nekā otra
+mala.  
+![1.zīm.](LV.AO.2014.5.3.png)
+
+<small>
+
+* [geom.quadrangle.rect](#)
+
+</small>
+
+<!--
+questionType=Find.Only
+-->
+
+-----
+
+# <lo-sample/> LV.AO.2014.5.4
+
+Kvadrāts sastāv no $8 \times 8$ vienādām kvadrātiskām rūtiņām. Tas sagriezts daļās tā, ka
+griezumi iet pa rūtiņu robežām.  
+Kāds lielākais skaits daļu var būt tādas kā 2. zīm. attēlotā figūra (figūras var būt pagrieztas
+jebkurā stāvoklī)?  
+![2.zīm.](LV.AO.2014.5.4.png)
+
+<small>
+
+* [comb.grid.shapes.cutting](#)
+
+</small>
+
+<!--
+questionType=Find.Max
+-->
+
+-----
+
+# <lo-sample/> LV.AO.2014.5.5
+
+Kāds ir **(a)** mazākais, **(b)** lielākais skaitlis, kuru var izteikt gan kā trīs, gan kā divu dažādu
+divciparu naturālu skaitļu reizinājumu?
+
+<small>
+
+* [alg.ineq.monotonicity](#)
+
+</small>
+
+<!--
+questionType=Find.Min,Find.Max
+-->
+
+
+
 
 
 
