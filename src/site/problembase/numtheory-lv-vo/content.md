@@ -391,19 +391,14 @@ $a! \cdot b! \cdot c! \cdot d! = e!$?
 
 # <lo-sample/> LV.VO.2003.12.4
 
-<hgroup>
-
-![skaitļu tabula](LV.VO.2003.12.4.png)
-
-</hgroup><hgroup style="font-size:70%">
 
 "Tabulā" augšējā rindiņā pēc kārtas izrakstīti naturāli skaitļi no $1$ līdz $5$;
 nākošajās rindiņās katrs skaitlis vienāds ar abu virs tā uzrakstīto
 skaitļu summu. Kāds skaitlis atrodas apakšējā "virsotnē" tabulā, kas
 veidota līdzīgi un kuras augšējā rindiņā izrakstīti 
-naturāli skaitļi no $1$ līdz $2003$ ieskaitot?
+naturāli skaitļi no $1$ līdz $2003$ ieskaitot?  
+![skaitļu tabula](LV.VO.2003.12.4.png)
 
-</hgroup>
 
 
 -----

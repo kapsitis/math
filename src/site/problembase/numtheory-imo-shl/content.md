@@ -11,7 +11,7 @@
 
 Cipari, pieturzīmes, visādu valodu burti, bet ne formulas.
 
-</hgroup>
+
 
 # <lo-sample/> IMO.SHL.2014.N6
 

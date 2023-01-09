@@ -559,17 +559,10 @@ questionType=Find.All
 
 # <lo-sample/> EE.PK.2005.7B.1 
 
-<hgroup>
-
 Ierakstīt katrā rūtiņā pa vienam ciparam tā, lai iegūtie divciparu 
 skaitļi nesāktos ar nulli un izpildītu zemāk izklāstītos nosacījumus. 
 Paskaidrot, kādē secībā tika aizpildītas rūtiņas un pamatot, 
-kādēļ citu iespēju aizpildīt rūtiņas, izņemot jūsu atrastās, nav. 
-
-</hgroup>
-
-<hgroup>
-
+kādēļ citu iespēju aizpildīt rūtiņas, izņemot jūsu atrastās, nav.  
 ![tabula](EE.PK.2005.7B.1.png)
 
 Pa labi:  
@@ -580,7 +573,7 @@ Uz leju:
 (C) Skaitļa $25$ daudzkārtnis.  
 (D) Naturāla skaitļa kvadrāts.
 
-</hgroup>
+
 
 
 <!--
@@ -594,18 +587,12 @@ questionType=Find.All
 
 # <lo-sample/> EE.PK.2005.8B.1 
 
-<hgroup style="font-size:80%">
 
 Ierakstīt katrā rūtiņā pa vienam ciparam tā, lai iegūtie trīsciparu 
 skaitļi nesāktos ar nulli un izpildītu zemāk izklāstītos nosacījumus. 
 Paskaidrot, kādē secībā tika aizpildītas rūtiņas un pamatot, 
-kādēļ citu iespēju aizpildīt rūtiņas, izņemot jūsu atrastās, nav.
-
+kādēļ citu iespēju aizpildīt rūtiņas, izņemot jūsu atrastās, nav.  
 ![tabula](EE.PK.2005.8B.1.png)
-
-</hgroup>
-
-<hgroup style="font-size:80%">
 
 Pa labi:  
 (A) Naturāla skaitļa kvadrāts, kas dalās ar $5$.   
@@ -613,11 +600,10 @@ Pa labi:
 (C) Skaitlis, kura visi cipari ir nepāru, un ciparu summa vienāda ar $11$. 
 
 Uz leju:  
-(D) Skaitlis, kurš par $222$ lielāks par vienīgo trīsciparu dalītāju skaitlim $2005$.  
-(E) Skaitlis, kura divi cipari ir pāru, un kurš, dalot ar $4$, dod atlikumu $1$.  
-(F) Skaitlis, kas dalās ar $3$. 
+(D) Skaitlis, kurš par $222$ lielāks par vienīgo trīsciparu dalītāju skaitlim $2005$.   
+(E) Skaitlis, kura divi cipari ir pāru, un kurš, dalot ar $4$, dod atlikumu $1$. 
+(F) Skaitlis, kas dalās ar $3$.  
 
-</hgroup>
 
 <!--
 genre=fill-in-table
