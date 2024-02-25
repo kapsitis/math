@@ -21,8 +21,8 @@ Atrast $\sphericalangle BAC$, ja $\sphericalangle CED = 25^{\circ}$.
 
 * [plan.triangle.angles.internal](#)
 * [plan.triangle.special.isosceles](#)
-* Topic:triangleSumOfAngles
-* Answer:80
+* [Topic:triangleSumOfAngles](#)
+* [Answer:80](#)
 
 </small>
 
@@ -68,8 +68,8 @@ kas apzīmēti ar lociņiem.
 
 * [plan.circle.angles.central](#)
 * [plan.triangle.angles.internal](#)
-* Topic:measuringSegmentsAngles
-* Answer:360
+* [Topic:measuringSegmentsAngles](#)
+* [Answer:360](#)
 
 </small>
 
@@ -115,8 +115,8 @@ Atrast leņķi $x$.
 * [plan.triangle.special.isosceles](#)
 * [plan.triangle.angles.internal](#)
 * [plan.measurements.angles.linearpair](#)
-* Topic:isoscelesTriangles
-* Answer:45
+* [Topic:isoscelesTriangles](#)
+* [Answer:45](#)
 
 </small>
 
@@ -158,8 +158,8 @@ Atrast leņķu lielumu summu, kas zīmējumā apzīmēti ar $x$ un $y$.
 
 * [plan.measurements.angles.central](#)
 * [plan.polygon.angles.internal](#)
-* Topic:polygonSumOfAngles
-* Answer:150
+* [Topic:polygonSumOfAngles](#)
+* [Answer:150](#)
 
 </small>
 
@@ -199,8 +199,8 @@ taisnstūra malu.
 
 * [plan.triangle.special.equilateral](#)
 * [plan.measurements.angles.interior](#)
-* Topic:parallelAndIntersectingLines
-* Answer:120
+* [Topic:parallelAndIntersectingLines](#)
+* [Answer:120](#)
 
 </small>
 
@@ -239,8 +239,8 @@ $CD$ ir šī trijstūra iekšējo leņķu bisektrises, un leņķa $\sphericalang
 <small>
 
 * [plan.triangle.angles.internal](#)
-* Topic:triangleSumOfAngles
-* Answer:20
+* [Topic:triangleSumOfAngles](#)
+* [Answer:20](#)
 
 </small>
 
@@ -265,8 +265,8 @@ Kāda ir leņķu $\alpha$ un $\gamma$ summa?
 
 * [plan.measurements.angles.central](#)
 * [alg.linear.equations](#)
-* Topic:measuringSegmentsAngles
-* Answer:340
+* [Topic:measuringSegmentsAngles](#)
+* [Answer:340](#)
 
 </small>
 
@@ -312,8 +312,8 @@ Atrast leņķa $BDE$ lielumu.
 
 * [plan.triangle.special.isosceles](#)
 * [plan.triangle.angles.internal](#)
-* Topic:triangleSumOfAngles
-* Answer:20
+* [Topic:triangleSumOfAngles](#)
+* [Answer:20](#)
 
 </small>
 
@@ -343,8 +343,8 @@ $|AB| = |CD|$. Atrast leņķa $\sphericalangle ABC$ lielumu.
 <small>
 
 * [plan.triangle.special.isosceles](#)
-* Topic:isoscelesTriangles
-* Answer:65
+* [Topic:isoscelesTriangles](#)
+* [Answer:65](#)
 
 </small>
 
@@ -372,8 +372,8 @@ malas $AC$ garumu.
 <small>
 
 * [plan.triangle.angles.internal](#)
-* Topic:triangleSumOfAngles
-* Answer:30
+* [Topic:triangleSumOfAngles](#)
+* [Answer:30](#)
 
 </small>
 
