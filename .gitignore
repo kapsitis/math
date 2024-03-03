@@ -30,6 +30,7 @@ target/
 src/target
 src/math-build/null
 **/source-material/
+src/site/problembase/myimages/
 **/content.docx
 src/site/rbs/**/*.html
 !src/site/rbs/index.html
