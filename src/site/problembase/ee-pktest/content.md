@@ -416,6 +416,8 @@ ru=
 questionType=Test.ShortAnswer
 -->
 
+## Atrisinājums
+
 Tā kā $ABC$ ir taisnleņķa trijstūris, tad 
 $\sphericalangle ACB = 90^{\circ} - 50^{\circ} = 40^{\circ}$.  
 Trijstūrī $BKC$ izsakām trešo leņķi, jo divi leņķi ir zināmi:  
