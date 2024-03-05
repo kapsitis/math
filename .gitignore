@@ -25,6 +25,7 @@
 .lia.cache
 .nia.cache
 src/site/discrete2021/coq/*/SECRET*
+src/site/problembase/ee-pktest/solutions/
 bin/
 target/
 src/target
