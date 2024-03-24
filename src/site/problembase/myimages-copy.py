@@ -12,9 +12,12 @@ def copy_png_files(src_directory, dest_directory):
 
     # Walk through the source directory
     for root, dirs, files in os.walk(src_directory):
+        if root == './myimages' or root == './ee-pktest/solutions':
+            continue
         for file in files:
             if file.endswith(".png"):
                 # Path of the source file
+                print(f'ROOT = {root}')
                 src_file_path = os.path.join(root, file)
                 
                 # Path of the destination file
