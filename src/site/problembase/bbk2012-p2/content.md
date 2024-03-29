@@ -71,7 +71,7 @@ ar $p(x)$ apzīmēts lielākais pirmskaitlis, ar kuru dalās $x$.
 Aprēķināt $a_{1999}$. 
 
 <!--
-mainEntry=LV.TST.1999.5
+mainEntry=LV.TST.1999.12.5
 questionType=Find.Only
 -->
 
@@ -101,7 +101,7 @@ kvadrāts?
 
 
 <!--
-sameAs=LV.OTHER.TST.1988.9.1
+sameAs=LV.TST.1988.9.1
 -->
 
 
@@ -114,7 +114,7 @@ Pierādīt, ka skaitļa $n$ visu
 naturālo dalītāju summa arī dalās ar $24$.
 
 <!--
-sameAs=LV.OTHER.TST.1992.9.1
+sameAs=LV.TST.1992.9.1
 -->
 
 
@@ -128,7 +128,7 @@ ir bezgalīgi daudz skaitļu, kas nav
 vesela skaitļa pakāpes ar kāpinātāju, lielāku par $1$.
 
 <!--
-sameAs=LV.OTHER.TST.1984.9.1
+sameAs=LV.TST.1984.9.1
 -->
 
 
@@ -141,7 +141,7 @@ no kuriem neviens nav naturāla skaitļa pakāpe,
 augstāka par pirmo.
 
 <!--
-sameAs=LV.OTHER.TST.1985.11.2
+sameAs=LV.TST.1985.11.2
 -->
 
 
@@ -155,7 +155,7 @@ Pierādīt, ka eksistē tikai galīgs skaits tādu naturālu
 $n$, ka $a^n - 1$ dalās ar $2^n$.
 
 <!--
-mainEntry=LV.TST.1993.2
+mainEntry=LV.TST.1993.12.2
 -->
 
 
