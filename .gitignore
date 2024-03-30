@@ -57,5 +57,5 @@ src/site/data-structures/slides/paradigms*
 src/site/data-structures/slides/structures*
 math/src/site/numtheory/static/hw01-solutions
 src/site/problembase/static/pptx-slides/
-
+src/site/problembase/**/*.docx
 
