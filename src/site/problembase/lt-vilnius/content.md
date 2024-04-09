@@ -7,13 +7,13 @@ $$\left( 1 - \frac{1}{4} \right) \cdot
 \left( 1 - \frac{1}{400} \right).$$
 
 
-<!--
+<text lang="lt">
 Apskaičiuokite reiškinio reikšmę:
 $$\left( 1 - \frac{1}{4} \right) \cdot
 \left( 1 - \frac{1}{9} \right) \cdot
 \left( 1 - \frac{1}{16} \right) \cdot \ldots \cdot
 \left( 1 - \frac{1}{400} \right).$$
--->
+</text>
 
 
 
@@ -22,10 +22,10 @@ $$\left( 1 - \frac{1}{4} \right) \cdot
 Vai $81$-ciparu skaitlis $\underbrace{111\ldots{}1}_{81\;\mbox{cipars}}$, 
 kuram visi cipari ir vieninieki, dalās ar $81$?
 
-<!--
+<text lang="lt">
 Ar $81$-ženklis skaičius $\underbrace{111\ldots{}1}_{81\;\mbox{skaitmuo}}$, 
 kurio visi skaitmenys yra vienetai, dalijasi iš $81$?
--->
+</text>
 
 
 
@@ -42,7 +42,7 @@ izpildās vienādība $ad = bc$.
 **(c)** Kuriem naturāliem $n$ kopa $A_n$ ir kārtīga?
 
 
-<!--
+<text lang="lt">
 Pažymėkime $A_n$ aibę, kurią sudaro iš eilės einantys natūralieji 
 skaičiai nuo $n$ iki $n^2$, t.y.
 $$A_n = \{n, n + 1, n + 2, \ldots, n^2 \}.$$
@@ -52,7 +52,7 @@ galioja lygybė $ad = bc$.
 **(a)** Ar $A_{10}$ yra tvarkinga aibė?
 **(b)** Ar $A_{2007}$ yra tvarkinga aibė?
 **(c)** Su kuriais natūraliaisiais $n$ aibė $A_n$ yra tvarkinga?
--->
+</text>
 
 
 
@@ -65,14 +65,14 @@ ab + cd = 34,\\
 ac − bd = 19
 \end{array} \right.$$
 
-<!--
+<text lang="lt">
 Raskite visus natūraliųjų skaičių rinkinius $(a, b, c, d)$, 
 tenkinančius lygčių sistemą
 $$\left\{ \begin{array}{l}
 ab + cd = 34,\\
 ac − bd = 19
 \end{array} \right.$$
--->
+</text>
 
 
 <!--
@@ -87,11 +87,11 @@ Ar $x$ apzīmējam desmit pēc kārtas sekojošu naturālu skaitļu
 summu, bet ar $y$ – to pašu desmit skaitļu kubu summu. 
 Pierādiet, ka $y^2 - x^2$ dalās ar $12$.
 
-<!--
+<text lang="lt">
 Tegu $x$ yra dešimties iš eilės einančių natūraliųjų skaičių suma, 
 o $y$ – tų pačių dešimties skaičių kubų suma. 
 Įrodykite, kad $y^2 - x^2$ dalijasi iš $12$.
--->
+</text>
 
 
 
@@ -108,7 +108,7 @@ $x, x_1, x_2, \ldots, x_n$ var būt naturāli?
 Atrast visus tādu skaitļu komplektus 
 (atbilstošus atrastajai $n$ vērtībai). 
 
-<!--
+<text lang="lt">
 Piramidės pagrindas yra taisyklingasis $n$-kampis. 
 Pagrindo viršūnėse pažymėti realieji skaičiai 
 $x_1, x_2, \ldots, x_n$, o piramidės viršūnėje – 
@@ -119,7 +119,7 @@ nelygine $n$ reikšme skaičiai $x, x_1, x_2, \ldots, x_n$
 gali būti natūralieji? Raskite
 visus tokius skaičių rinkinius 
 (atitinkančius rastąją $n$ reikšmę).
--->
+</text>
 
 
 
@@ -129,11 +129,11 @@ Trīs naturālu skaitļu summa vienāda ar $2003$.
 Ar kādu lielāko nuļļu skaitu var beigties šo 
 trīs skaitļu reizinājums?
 
-<!--
+<text lang="lt">
 Trijų natūraliųjų skaičių suma lygi $2003$. 
 Daugiausiai keliais nuliais gali baigtis šių
 trijų skaičių sandauga?
--->
+</text>
 
 <!--
 seeAlso=LV.AO.2005.7.4
@@ -147,12 +147,12 @@ Ar $x$ apzīmējam desmit pēc kārtas sekojošu naturālu skaitļu
 summu, bet ar $y$ – to pašu desmit skaitļu kubu summu. 
 Pierādiet, ka $y^2 - x^2$ dalās ar $300$.
 
-<!--
+<text lang="lt">
 Tegu $x$ yra dešimties iš eilės einančių 
 natūraliųjų skaičių suma, 
 o $y$ – tų pačių dešimties skaičių kubų suma. 
 Įrodykite, kad $y^2 - x^2$ dalijasi iš $300$.
--->
+</text>
 
 <!--
 seeAlso=LT.VILNIUS.2008.10.3
@@ -170,14 +170,14 @@ naturāli dalītāji, bet šo dalītāju aritmētiskais
 vidējais būtu vienāds ar $10$.
 
 
-<!--
+<text lang="lt">
 **(a)** Raskite bent vieną tokį natūralųjį skaičių, 
 kuris turėtų lygiai keturis natūraliuosius daliklius, 
 o tų daliklių aritmetinis vidurkis būtų lygus $10$.  
 **(b)** Raskite visus tokius natūraliuosius skaičius, 
 kurie turėtų lygiai keturis natūraliuosius daliklius, 
 o tų daliklių aritmetinis vidurkis būtų lygus $10$.
--->
+</text>
 
 
 
@@ -196,7 +196,7 @@ Ja Marīte izdara gājienu pirmā, vai vienmēr Onutei izdosies panākt,
 lai iegūtās izteiksmes vērtība dalītos ar $7$?
 
 
-<!--
+<text lang="lt">
 Ant lentos užrašytas reiškinys
 $$\ast{}3^5\ast{}3^4\ast{}3^3\ast{}3^2\ast{}3\ast{}1.$$
 Vienu ėjimu leidžiama pakeisti vieną iš žvaigždučių ženklu 
@@ -204,7 +204,7 @@ Vienu ėjimu leidžiama pakeisti vieną iš žvaigždučių ženklu
 ir Onutė ėjimus atlieka pakaitomis. 
 Jei Marytė daro ėjimą pirmoji, ar visada pavyks
 Onutei pasiekti, kad gautojo reiškinio reikšmė dalytųsi iš $7$?
--->
+</text>
 
 
 
@@ -219,12 +219,12 @@ $$11p_1 + 7p_2 + 5p_3 + 4p_4 = 162.$$
 Atrodiet visas iespējamās reizinājuma $p_1p_2p_3p_4$ vērtības.
 
 
-<!--
+<text lang="lt">
 $p_1$, $p_2$, $p_3$, $p_4$ yra keturi skirtingi pirminiai skaičiai, tenkinantys lygybes
 $$2p_1 + 3p_2 + 5p_3 + 7p_4 = 162,$$
 $$11p_1 + 7p_2 + 5p_3 + 4p_4 = 162.$$
 Raskite visas įmanomas sandaugos $p_1p_2p_3p_4$ reikšmes.
--->
+</text>
 
 <!--
 sameAs=LT.VILNIUS.2009.12.2
@@ -241,11 +241,11 @@ $p$ un $q$ ir tādi pirmskaitļi, ka
 $p^2+1$ dalās ar $q$, bet $q^2-1$ dalās
 ar $p$. Pierādiet, ka $p+q+1$ ir salikts skaitlis.
 
-<!--
+<text lang="lt">
 $p$ ir $q$ – tokie pirminiai skaičiai, kad 
 $p^2+1$ dalijasi iš $q$, o $q^2-1$ dalijasi
 iš $p$. Įrodykite, kad $p+q+1$ – sudėtinis skaičius.
--->
+</text>
 
 <!--
 concepts=primes,composite-numbers,divisibility
@@ -259,9 +259,9 @@ Atrodiet visus veselos skaitļus $x$,
 kuriem skaitlis $2^x + 5$ ir
 racionāla skaitļa kvadrāts.
 
-<!--
+<text lang="lt">
 Raskite visus sveikuosius skaičius $x$, 
 su kuriais skaičius $2^x + 5$ yra
 racionalaus skaičiaus kvadratas.
--->
+</text>
 

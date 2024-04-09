@@ -5,12 +5,12 @@ $$a + b + c + d = ab + cd,\;\;a \leq b \leq c \leq d.$$
 **(a)** Atrodiet vismaz divus tādus četriniekus.  
 **(b)** Atrodiet visus tādus četriniekus.
 
-<!--
+<text lang="lt">
 Nagrinėkime natūraliųjų skaičių ketvertus $(a,b,c,d)$, tenkinančius sąlygas:
 $$a + b + c + d = ab + cd,\;\;a \leq b \leq c \leq d.$$
 **(a)** Raskite bent du tokius ketvertus.  
 **(b)** Raskite visus tokius ketvertus.
--->
+</text>
 
 
 
@@ -22,12 +22,12 @@ $2n + 1$ un $3n + 1$ ir veselu skaitļu kvadrāti.
 **(b)** Vai vienmēr $n$ dalās ar $16$?
 
 
-<!--
+<text lang="lt">
 Natūralusis skaičius $n$ yra toks, kad skaičiai 
 $2n + 1$ ir $3n + 1$ yra sveikųjų skaičių kvadratai.  
 **(a)** Įrodykite, kad $n$ dalijasi iš $8$.  
 **(b)** Ar būtinai $n$ dalijasi iš $16$?
--->
+</text>
 
 
 
@@ -36,10 +36,10 @@ $2n + 1$ ir $3n + 1$ yra sveikųjų skaičių kvadratai.
 Vai eksistē tādi naturāli skaitļi $a$, $b$ un $c$, ka
 $$(a+b)(b+c)(c+a) = 4242?$$
 
-<!--
+<text lang="lt">
 Ar yra tokių natūraliųjų skaičių $a$, $b$ ir $c$, kad
 $$(a+b)(b+c)(c+a) = 4242?$$
--->
+</text>
 
 
 
@@ -50,12 +50,12 @@ $$1^2\;\;2^2\;\;3^2\;\;\ldots\;\;2005^2$$
 Pirms katra no tiem var pierakstīt $+$ vai $-$. Kādu mazāko nenegatīvu skaitli 
 var iegūt, veicot aritmētiskās darbības?
 
-<!--
+<text lang="lt">
 Duoti $2005$ skaičiai
 $$1^2\;\;2^2\;\;3^2\;\;\ldots\;\;2005^2$$
 Prieš kiekvieną iš jų galima parašyti $+$ arba $-$. Kokį mažiausią neneigiamą skaičių
 galima gauti atlikus aritmetinius veiksmus?
--->
+</text>
 
 
 
@@ -64,9 +64,9 @@ galima gauti atlikus aritmetinius veiksmus?
 Pierādiet, ka $n^2 + 2n + 12$ nedalās ar $121$, ja $n$ ir vesels skaitlis.
 
 
-<!--
+<text lang="lt">
 Įrodykite, kad $n^2 + 2n + 12$ nesidalina iš $121$, jei $n$ yra sveikasis skaičius.
--->
+</text>
 
 
 
@@ -78,12 +78,12 @@ vienādība $a^2 + 3b^2 = c^3$, ja
 **(b)** no skaitļiem $a$, $b$, $c$ nekādi divi nav vienādi?
 
 
-<!--
+<text lang="lt">
 Kiek yra natūraliųjų skaičių $a,b,c$ trejetų $(a,b,c)$, su kuriais teisinga
 lygybė $a^2 + 3b^2 = c^3$, jei  
 **(a)** tarp skaičių $a$, $b$, $c$ gali būti lygių?  
 **(b)** iš skaičių $a$, $b$, $c$ jokie du nėra lygūs?
--->
+</text>
 
 
 
@@ -93,17 +93,15 @@ Virkni $(a_n)$ ar visiem naturālajiem $n$ apmierina nosacījumu
 $$n^2 a_n = a_1 + a_2 + \ldots + a_n.$$
 Zināms, ka $a_1 = 1002$. Atrodiet $a_{2006}$.
 
-<!--
+<text lang="lt">
 Seka $(a_n)$ su visais natūraliaisiais $n$ tenkina sąlygą
 $$n^2 a_n = a_1 + a_2 + \ldots + a_n.$$
 Duota, kad $a_1 = 1002$. Raskite $a_{2006}$.
--->
+</text>
 
 
 
 # <lo-sample/> LT.LMMO.2007.11_12.1
-
-<div style="font-size:70%">
 
 **(a)** $k$ ir vesels skaitlis. Pierādiet, ka skaitli
 $$(2k + 1)^3 - (2k - 1 )^3$$
@@ -113,10 +111,7 @@ $$(2n + 1)^3 - 2$$
 var izteikt kā $3n-1$ locekļu summu, no kuriem jebkurš ir 
 naturāla skaitļa kvadrāts, kas lielāks par vienu.
 
-</div>
-
-
-<!--
+<text lang="lt">
 **(a)** $k$ yra sveikasis skaičius. Įrodykite, kad skaičių
 $$(2k + 1)^3 - (2k - 1 )^3$$
 galima išreikšti trijų sveikųjų skaičių kvadratų suma.  
@@ -124,7 +119,7 @@ galima išreikšti trijų sveikųjų skaičių kvadratų suma.
 $$(2n + 1)^3 - 2$$
 galima išreikšti suma $3n-1$ dėmenų, kurių kiekvienas yra 
 didesnio už vienetą natūraliojo skaičiaus kvadratas.
--->
+</text>
 
 
 
@@ -136,13 +131,13 @@ kur $a$, $b$, $c$ un $d$ ir veseli skaitļi.
 **(a)** Vai $M$ vienmēr dalās ar $12$?  
 **(b)** Vai $M$ vienmēr dalās ar $24$?
 
-<!--
+<text lang="lt">
 Duota, kad
 $$M = (a - b)(a - c)(a - d)(b - c)(b - d)(c - d),$$
 kur $a$, $b$, $c$ ir $d$ – sveikieji skaičiai.  
 **(a)** Ar visada $M$ dalijasi iš $12$?  
 **(b)** Ar visada $M$ dalijasi iš $24$?
--->
+</text>
 
 
 
@@ -151,10 +146,10 @@ kur $a$, $b$, $c$ ir $d$ – sveikieji skaičiai.
 Atrodiet visus naturālos skaitļus $n$, kuriem 
 $n^7 + n^2 + 1$ ir pirmskaitlis.
 
-<!--
+<text lang="lt">
 Raskite visus natūraliuosius skaičius $n$, su kuriais 
 $n^7 + n^2 + 1$ yra pirminis skaičius.
--->
+</text>
 
 
 
@@ -166,19 +161,17 @@ $$28a + 30b + 31c = 365.$$
 **(b)** Atrodiet visus šī vienādojuma atrisinājumus naturālos skaitļos 
 $(a,b,c)$.
 
-<!--
+<text lang="lt">
 Natūralieji skaičiai $a$, $b$ ir $c$ tenkina lygybę
 $$28a + 30b + 31c = 365.$$
 **(a)** Kelias reikšmes gali ̨įgyti suma $a + b + c$?  
 **(b)** Raskite visus šios lygties natūraliuosius sprendinius 
 $(a,b,c)$.
--->
+</text>
 
 
 
 # <lo-sample/> LT.LMMO.2009.11_12.4
-
-<div style="font-size:70%">
 
 Naturālu skaitli $m$ sauksim par paslankoju, ja to var uzrakstīt
 kā vairāku (ne obligāti dažādu) naturālu skaitļu summu tā, ka visu 
@@ -191,9 +184,7 @@ $$1 = \frac{1}{2} + \frac{1}{3} + \frac{1}{6}.$$
 **(c)** Vai $65$ ir paslankus skaitlis?  
 **(d)** Vai $2009$ ir paslankus skaitlis?
 
-</div>
-
-<!--
+<text lang="lt">
 Natūralųjį skaičių $m$ vadinkime paslankiuoju, jeigu jį galima užrašyti
 kelių (nebūtinai skirtingų) natūraliųjų skaičių suma taip, kad visų dėmenims 
 atvirkštinių skaičių suma būtų lygi $1$. Pavyzdžiui, $11$ yra paslankusis 
@@ -204,7 +195,7 @@ $$1 = \frac{1}{2} + \frac{1}{3} + \frac{1}{6}.$$
 **(b)** Ar $58$ yra paslankusis skaičius?  
 **(c)** Ar $65$ yra paslankusis skaičius?  
 **(d)** Ar $2009$ yra paslankusis skaičius?
--->
+</text>
 
 
 
@@ -215,12 +206,12 @@ $$\overline{a0a0\ldots a0b0c0c0\ldots c0c}$$
 (cipari $a$ un $c$ uzrakstīti katrs $1001$ reizi) dalās ar $37$. Pierādiet, ka 
 $b = a + c$.
 
-<!--
+<text lang="lt">
 Skaičius
 $$\overline{a0a0\ldots a0b0c0c0\ldots c0c}$$
 (skaitmenys $a$ ir $c$ parašyti po $1001$ kartą) dalijasi iš $37$. Įrodykite, kad
 $b = a + c$.
--->
+</text>
 
 
 
@@ -236,7 +227,7 @@ Dažādu atlikumu skaitu apzīmējam ar $d$
 (a) Pierādiet, ka $d$ var būt vienāds ar $1$, $3$, $4$ vai $5$.  
 (b) Pierādiet, ka $d$ nevar būt vienāds ar $2$.
 
-<!--
+<text lang="lt">
 Sveikieji skaičiai nuo $1$ iki $25$ (nebūtinai įprastine tvarka) surašyti ratu.
 Apskaičiuojamos $25$ sumos: pradedant kiekvienu skaičiumi 
 sudedami $5$ pagal laikrodžio rodyklę iš eilės einantys skaičiai. 
@@ -246,7 +237,7 @@ $2$, $3$ arba $4$). Skirtingų
 liekanų skaičių pažymėkime $d$.  
 (a) Įrodykite, kad $d$ gali būti lygus $1$, $3$, $4$ arba $5$.  
 (b) Įrodykite, kad $d$ negali būti lygus $2$.
--->
+</text>
 
 <!--
 questionType=Prove.ForAll
@@ -264,7 +255,7 @@ no $2$ līdz $100$. Zaudē tas spēlētājs, kurš vairs nevar
 izdarīt gājienu. Vai pirmais spēlētājs var vienmēr uzvarēt?
 Ja tā, tad parādiet viņa stratēģiju.
 
-<!--
+<text lang="lt">
 Ant stalo yra $2011$ monetų. Du žaidėjai paeiliui ima monetas. 
 Pirmasis gali imti bet kurį nelyginį monetų skaičių nuo 
 $1$ iki $99$. Antrasis gali imti
@@ -272,7 +263,7 @@ bet kurį lyginį monetų skaičių nuo $2$ iki $100$.
 Pralaimi tas žaidėjas, kuris
 nebegali padaryti ėjimo. Ar gali pirmasis žaidėjas laimėti? 
 Jei taip, tai nurodykite jo strategiją.
--->
+</text>
 
 
 
@@ -285,7 +276,7 @@ kuriem abi skaitļi $3n+1$ un $10n+1$ ir naturālu skaitļu kvadrāti.
 $30n+11$ ir salikts.  
 (c) Pierādiet, ka jebkuram $n \in S$ skaitlis $29n+11$ ir salikts.
 
-<!-- 
+<text lang="lt"> 
 Tegul aibę $S$ sudaro tie natūralieji skaičiai $n$, 
 su kuriais abu skaičiai
 $3n + 1$ ir $10n + 1$ yra natūraliųjų skaičių kvadratai.  
@@ -294,7 +285,7 @@ $3n + 1$ ir $10n + 1$ yra natūraliųjų skaičių kvadratai.
 $30n+11$ yra sudėtinis.  
 (c) Įrodykite, kad su kiekvienu $n \in S$ skaičius 
 $29n + 11$ yra sudėtinis.
---> 
+</text> 
 
 
 
@@ -311,7 +302,7 @@ jebkuram $k = 1,2,\ldots,m$.
 (c) Vai eksistē kaut viena pilnīga $2011$ naturālu
 skaitļu kolekcija?
 
-<!--
+<text lang="lt">
 Tegul $d(n)$ yra natūraliojo skaičiaus $n$ daliklių skaičius 
 (pavyzdžiui, $d(1) = 1$, $d(2) = 2$, $d(4) = 3$). 
 Natūraliųjų (nebūtinai skirtingų)
@@ -322,7 +313,7 @@ su kiekvienu $k = 1,2,\ldots,m$.
 (b) Raskite visus tobulus penkių skaičių rinkinius.  
 (c) Ar egzistuoja bent vienas tobulas $2011$ natūraliųjų 
 skaičių rinkinys?
--->
+</text>
 
 
 
@@ -333,12 +324,12 @@ $$\frac{1}{a_1} + \frac{2}{a_2} + \frac{1}{a_3} + \cdots +
 \frac{99}{a_{99}} + \frac{100}{a_{100}},$$
 kur $a_1 ,a_2, a_3,\ldots ,a_{99}, a_{100}$ ir naturāli skaitļi?
 
-<!--
+<text lang="lt">
 Kiek yra tokių sveikųjų skaičių, kuriuos galima išreikšti kaip
 $$\frac{1}{a_1} + \frac{2}{a_2} + \frac{1}{a_3} + \cdots + 
 \frac{99}{a_{99}} + \frac{100}{a_{100}},$$
 kur $a_1 ,a_2, a_3,\ldots ,a_{99}, a_{100}$ - natūralieji skaičiai?
--->
+</text>
 
 
 
@@ -353,7 +344,7 @@ $18$ ir pieklājīgs, jo $18 = 5 + 6 + 7$.
 (c) Atrodiet visus pieklājīgos skaitļus.
 
 
-<!--
+<text lang="lt">
 Natūralusis skaičius $n$ yra vadinamas *mandagiu*, 
 jeigu jį galima išreikšti kaip
 $$n = s + (s + 1) + ··· + (t − 1) + t,$$
@@ -362,13 +353,11 @@ $18$ yra mandagus, nes $18 = 5 + 6 + 7$.
 (a) Ar skaičius $2012$ yra mandagus?  
 (b) Ar skaičius $2048$ yra mandagus?  
 (c) Raskite visus mandagiuosius skaičius.
--->
+</text>
 
 
 
 # <lo-sample/> LT.LMMO.2012.11_12.3
-
-<div style="font-size:70%">
 
 Uz tāfeles uzrakstītajai veselu skaitļu virkni
 $a_1, a_2, \ldots, a_{n−1},a_n$, kur $n \geq 2$,
@@ -387,9 +376,7 @@ kur $n > 1$, nav dusmīgs.
 **(b)** Vai skaitlis $4$ ir dusmīgs?  
 **(c)** Vai skaitlis 6 ir dusmīgs?
 
-</div>
-
-<!--
+<text lang="lt">
 Lentoje užrašytą sveikųjų skaičių seką 
 $a_1, a_2, \ldots, a_{n−1},a_n$, kur $n \geq 2$,
 leidžiama nutrinti ir užrašyti naują seką
@@ -407,7 +394,7 @@ $0,0,\ldots,0,0$.
 kur $n > 1$, nėra piktas.
 (b) Ar skaičius $4$ yra piktas?
 (c) Ar skaičius $6$ yra piktas?
--->
+</text>
 
 
 
@@ -422,7 +409,7 @@ daudzkārtni, kurā nav cipara $9$.
 cipara $9$.
 
 
-<!--
+<text lang="lt">
 Pažymėkime skaičių, kurio dešimtainiame 
 užraše yra $n$ devynetų, simboliu $d_n = 9\cdots 99$.  
 (a) Raskite bent vieną skaičiaus $d_3 = 999$ 
@@ -430,7 +417,7 @@ kartotinį, kuriame nėra skaitmens $9$.
 (b) Raskite mažiausią tokį skaičiaus $d_3 = 999$ kartotinį.
 (c) Raskite mažiausią tokį skaičiaus $d_n = 9\cdots 99$ kartotinį, kuriame
 nėra skaitmens $9$.
--->
+</text>
 
 
 
@@ -442,13 +429,13 @@ $a$, $b$ un $c$, ka $a^2 + b^2$ dalās ar $c$.
 skaitlis, eksistē tādi trīs dažādi veseli skaitļi $a$, $b$ un $c$,
 ka $a^2 + b^2$ dalās ar $c$?
 
-<!--
+<text lang="lt">
 (a) Intervale $(25,36)$ raskite tokius tris skirtingus sveikuosius skaičius
 $a$, $b$ ir $c$, kad $a^2 + b^2$ dalytųsi iš $c$.
 (b) Ar visada intervale $\left( n^2 ,(n + 1)^2 \right)$, kur $n$ didesnis už $1$ natūralusis
 skaičius, egzistuoja tokie trys skirtingi sveikieji skaičiai $a$, $b$ ir $c$,
 kad $a^2 + b^2$ dalijasi iš $c$?
--->
+</text>
 
 
 
@@ -458,11 +445,11 @@ Atrodiet visus veselu skaitļu pārus $(m,n)$,
 ar kuriem ir patiesa vienādība
 $$(n + 101)(n + 102)(n + 103)(n + 104) = (m + 1)(m + 2).$$
 
-<!--
+<text lang="lt">
 Raskite visas sveikųjų skaičių poras $(m,n)$, 
 su kuriomis teisinga lygybė
 $$(n + 101)(n + 102)(n + 103)(n + 104) = (m + 1)(m + 2).$$
--->
+</text>
 
 
 
@@ -474,13 +461,13 @@ $$a^2 + b^2 + c^2 + d^2 = 7 \cdot 4^{2014}.$$
 (b) Atrodiet visus šī vienādojuma atrisinājumus $(a,b,c,d)$,
 kuri apmierina nosacījumu $a \leq b \leq c \leq d$.
 
-<!--
+<text lang="lt">
 Natūralieji skaičiai $a,b,c,d$ tenkina lygtį
 $$a^2 + b^2 + c^2 + d^2 = 7 \cdot 4^{2014}.$$
 (a) Raskite bent vieną šios lygties sprendinį $(a,b,c,d)$.  
 (b) Raskite visus šios lygties sprendinius $(a,b,c,d)$,
 tenkinančius sąlygą $a \leq b \leq c \leq d$.
--->
+</text>
 
 
 
@@ -494,14 +481,14 @@ $$\left( 1 + \frac{1}{a} \right)
 (a) Atrodiet vismaz divus tādus trijniekus.  
 (b) Atrodiet visus tādus trijniekus.
 
-<!--
+<text lang="lt">
 Natūraliųjų skaičių trejetas $a \leq b \leq c$ tenkina lygybę
 $$\left( 1 + \frac{1}{a} \right) 
 \left( 1 + \frac{1}{a} \right) 
 \left( 1 + \frac{1}{a} \right) = 2.$$
 (a) Nurodykite bent du tokius trejetus.  
 (b) Raskite visus tokius trejetus.
--->
+</text>
 
 
 
@@ -514,13 +501,13 @@ ar $n^2 + 2014$, bet skaitlis $n^4 + 2015$ dalās ar $n^2 + 2015$.
 (a) Atrodiet vismaz trīs dīvainus skaitļus $n$.  
 (b) Atrodiet visus dīvainus skaitļus $n$.
 
-<!--
+<text lang="lt">
 Sveikasis skaičius $n$ yra vadinamas *keistu*, jei skaičius 
 $n^4 +2014$ dalijasi
 iš $n^2 + 2014$, o skaičius $n^4 + 2015$ dalijasi iš $n^2 + 2015$.  
 (a) Nurodykite bent tris keistus skaičius $n$.  
 (b) Raskite visus keistus skaičius $n$.
---> 
+</text> 
 
 
 
@@ -530,11 +517,11 @@ Atrodiet visus vienādojuma
 $15a^2 − 8ab + b^2 + 8a − 2b + 38 = 0$ veselos 
 atrisinājumus $(a,b)$.
 
-<!--
+<text lang="lt">
 Raskite visus lygties 
 $15a^2 − 8ab + b^2 + 8a − 2b + 38 = 0$ sveikuosius
 sprendinius $(a,b)$.
--->
+</text>
 
 
 
@@ -546,13 +533,13 @@ pirmskaitlis. Pierādiet, ka skaitlis $n^4 + 16n^2$ dalās:
 (a) ar $3$;  
 (b) ar $720$.
 
-<!--
+<text lang="lt">
 Tegul $n \geq 7$ yra toks natūralusis skaičius, 
 kad skaičiai $n−1$ ir $n+1$ yra
 pirminiai. Įrodykite, kad skaičius $n^4 + 16n^2$ dalijasi:  
 (a) iš $3$;  
 (b) iš $720$.
--->
+</text>
 
 
 
@@ -565,14 +552,14 @@ $\sqrt{3n^2 + 1}$ ir nepāru vesels skaitlis.
 $n$ skaitlis $2+2\sqrt{3n^2 + 1}$
 ir naturāla skaitļa kvadrāts.
 
-<!--
+<text lang="lt">
 Sveikasis skaičius $n$ vadinamas *keistu*, jei
 $\sqrt{3n^2 + 1}$ yra nelyginis sveikasis skaičius.  
 (a) Nurodykite bent tris keistus skaičius $n$.  
 (b) Įrodykite, kad su bet kuriuo keistu skaičiumi 
 $n$ skaičius $2+2\sqrt{3n^2 + 1}$
 yra natūraliojo skaičiaus kvadratas.
--->
+</text>
 
 
 
@@ -586,7 +573,7 @@ cd - c - d & = & a + b - 3
 (a) Atrodiet vismaz divus tādus četriniekus.  
 (b) Atrodiet visus tādus četriniekus.
 
-<!--
+<text lang="lt">
 Natūraliųjų skaičių ketvertas $(a, b, c, d)$ tenkina lygčių sistemą
 $$\left\{ \begin{array}{rcl}
 ab - a - b & = & c + d - 3 \\
@@ -594,7 +581,7 @@ cd - c - d & = & a + b - 3
 \end{array} \right.$$
 (a) Raskite bent du tokius ketvertus.  
 (b) Rasite visus tokius ketvertus.
--->
+</text>
 
 
 
@@ -609,7 +596,7 @@ $a^2 + b^2 + ab$.
 (c) Vai skaitlis $101$ ir kārtīgs?  
 (d) Atrodiet visus kārtīgos skaitļus.
 
-<!--
+<text lang="lt">
 Natūralusis skaičius $m$ vadinamas *tvarkingu*, 
 jei su bet kuriais natūraliaisiais
 skaičiais $a$ ir $b$ skaičius 
@@ -619,7 +606,7 @@ $a^2 + b^2 + ab$.
 (b) Ar skaičius $100$ yra tvarkingas?  
 (c) Ar skaičius $101$ yra tvarkingas?  
 (d) Raskite visus tvarkingus skaičius.
--->
+</text>
 
 
 
@@ -628,10 +615,10 @@ $a^2 + b^2 + ab$.
 Atrodiet visus veselu skaitļu pārus $(x,y)$, kas apmierina vienādību 
 $x^3 + 3x^2y = 4y^3 + 100$.
 
-<!--
+<text lang="lt">
 Raskite visas sveikųjų skaičių poras $(x,y)$, tenkinančias lygybę
 $x^3 + 3x^2y = 4y^3 + 100$.
--->
+</text>
 
 
 
@@ -640,10 +627,10 @@ $x^3 + 3x^2y = 4y^3 + 100$.
 Atrodiet visus naturālu skaitļu pārus $(m, n)$, kuriem
 $m^{2018} + n$ dalās ar $mn$.
 
-<!--
+<text lang="lt">
 Raskite visas natūraliųjų skaičių poras $(m, n)$, su kuriomis 
 $m^{2018} + n$ dalijasi iš $mn$.
--->
+</text>
 
 
 
@@ -658,7 +645,7 @@ visiem pierādīt, ka viņš ir vēl brašāks: iegaumēja
 un vienu pēc otra uzrakstīja visus skaitļa $25^{2019}$ ciparus. 
 Cik pavisam ciparu uzrakstīti uz tāfeles?
 
-<!--
+<text lang="lt">
 Mokytoja uždavė mintinai išmokti kuo didesnio 
 skaičiaus skaitmenis. Pirmūnė Julija didelėje lentoje 
 vieną po kito užrašė visus skaičiaus $4^{2019}$
@@ -666,14 +653,12 @@ skaitmenis. Išdykėlis Juozas visiems nusprendė įrodyti,
 kad jis yra dar šaunesnis: įsiminė ir vieną po kito užrašė 
 visus skaičiaus $25^{2019}$ skaitmenis. 
 Kiek iš viso lentoje užrašyta skaitmenų?
--->
+</text>
 
 
 
 
 # <lo-sample/> LT.LMMO.2019.11_12.3
-
-<div style="font-size:70%">
 
 Eugenijus saņēma dāvanā brīnumainu kastīti, kurā 
 ir $106000$ eiru un divas pogas - dzeltena un za'la. 
@@ -690,9 +675,7 @@ Vai var atbilstošā momentā dabūt kastītē tieši
 ir iespējams, ka attiecīgā momentā kastītē 
 būtu tieši $m$ eiras.
 
-</div>
-
-<!--
+<text lang="lt">
 Eugenijus gavo dovanų stebuklingą dėžutę, kurioje 
 yra $106000$ eurų ir du mygtukai, geltonas ir žalias. 
 Paspaudus geltonąjį mygtuką eurų skaičius dėžutėje padvigubėja, 
@@ -707,7 +690,7 @@ c) milijonas eurų?
 d) Raskite visas tokias natūraliąsias $m$ reikšmes, 
 kurioms yra įmanoma, kad tam tikru momentu 
 dėžutėje pasidarytų lygiai $m$ eurų.
--->
+</text>
 
 
 
@@ -717,11 +700,11 @@ Atrodiet visus pirmskaitļu pārus $(p,q)$, ar kuriem vienādojumam
 $$x^2 − (6p − 4q)x + 3pq = 0$$
 ir divi dažādi veseli atrisinājumi.
 
-<!--
+<text lang="lt">
 Raskite visas pirminių skaičių poras $(p,q)$, su kuriomis lygtis
 $$x^2 − (6p − 4q)x + 3pq = 0$$
 turi du skirtingus sveikuosius sprendinius.
--->
+</text>
 
 
 

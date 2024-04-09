@@ -499,8 +499,6 @@ Atrisināt naturālos skaitļos vienādojumu $(x+y)(xy+1) = 2^z$.
 
 # <lo-sample/> LV.VOL.2006.12.1
 
-<div style="font-size:70%">
-
 Pierādīt, ka 
 $$\left( 1 + tg 1^{\circ} \right) 
 \left( 1 + tg 2^{\circ} \right) 
@@ -508,10 +506,6 @@ $$\left( 1 + tg 1^{\circ} \right)
 \ldots
 \left( 1 + tg 44^{\circ} \right) 
 \left( 1 + tg 45^{\circ} \right) = 2^{23}.$$
-
-</div>
-
-
 
 # <lo-sample/> LV.VOL.2006.12.4
 
@@ -563,8 +557,6 @@ $x^2 - y^2 - x + y$ vērtība ir
 
 # <lo-sample/> LV.VOL.2007.10.3
 
-<div style="font-size:70%">
-
 Ja $n$ - naturāls skaitlis, kas lielāks par $1$, tad ar $x(n)$ apzīmējam lielāko
 pirmskaitli, kas nepārsniedz $n$, bet ar $y(n)$ - mazāko pirmskaitli, kas
 pārsniedz $n$. Piemēram, $x(6) = 5$; $x(5) = 5$; $y(5) = 7$. Pierādīt, ka
@@ -572,10 +564,6 @@ $$\frac{1}{x(2)\cdot{}y(2)}+
 \frac{1}{x(3)\cdot{}y(3)}+
 \frac{1}{x(4)\cdot{}y(4)}+\ldots+
 \frac{1}{x(600)\cdot{}y(600)} = \frac{1}{2} - \frac{1}{601}.$$
-
-</div>
-
-
 
 # <lo-sample/> LV.VOL.2007.10.5
 
@@ -600,8 +588,6 @@ Dots, ka $n$ - naturāls skaitlis.
 
 # <lo-sample/> LV.VOL.2007.11.5
 
-<div style="font-size:70%">
-
 Reālu skaitļu virknē $a_1, a_2, a_3, \ldots$ dots, ka $a_{11} = 4$, 
 $a_{22} = 2 un $a_{33} = 1$.
 Bez tam visiem naturāliem $n$ pastāv vienādība
@@ -613,10 +599,6 @@ Pierādīt, ka
 (c) $a_1^k + a_2^k + \ldots + a_{100}^k$
 ir naturāla skaitļa kvadrāts, ja $k$ - patvaļīgs
 naturāls skaitlis.
-
-</div>
-
-
 
 # <lo-sample/> LV.VOL.2007.12.5
 
@@ -1303,8 +1285,6 @@ kuriem $\frac{2015}{n^4 - m^4}$ arī ir naturāls skaitlis!
 
 # <lo-sample/> LV.VOL.2015.9.3
 
-<div style="font-family:70%">
-
 Aija izvēlas naturālu skaitli $n \leq 100$ 
 un veido skaitļu virkni, kur katru
 nākamo virknes locekli iegūst pēc šāda likuma:
@@ -1323,10 +1303,6 @@ $\underline{40}; 80; 60; 20; \underline{40}; \ldots$,
 bet $25$ –
 nav, jo $25; 50; 100; 100; \ldots$ 
 (tālāk virknē nav skaitļu, kas atšķirīgi no $100$).
-
-</div>
-
-
 
 # <lo-sample/> LV.VOL.2015.10.2
 
@@ -1409,8 +1385,6 @@ mazāko pirmreizinātāju!
 
 # <lo-sample/> LV.VOL.2016.9.5
 
-<div style="font-size:70%">
-
 Naturālu skaitļu virkni $(s_i)$ pēc parauga „2016” veido šādi:
 
 * virknes pirmais loceklis $s_1$ ir $2$;
@@ -1425,11 +1399,6 @@ Pēc tam meklētie cipari cikliski atkārtojas:
 2-0-1-6-2-0-$\ldots$. Virknes pirmie locekļi
 ir $2; 10; 11; 16; 20; 30; 31; 36; 42; 50$.
 Kādi ir četri nākamie skaitļi, kas virknē seko aiz skaitļa $2016$?
-
-</div>
-
-
-
 
 # <lo-sample/> LV.VOL.2016.10.1
 

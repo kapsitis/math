@@ -134,8 +134,6 @@ atlikumu, dalot ar $8$.
 
 # <lo-sample/> BBK2012.P3.92
 
-<div style="font-size:80%">
-
 Dots, ka $n$-ciparu skaitlis 
 $\overline{a_1a_2a_3\ldots{}a_{n-1}a_n}$, 
 starp kura cipariem nav nuļļu, ir pirmskaitlis. 
@@ -146,8 +144,6 @@ $$\overline{a_1a_2a_3\ldots{}a_{n-1}a_n},
 $$\ldots,\overline{a_{n-1}a_na_1a_2\ldots{}a_{n-2}},
 \overline{a_na_1a_2\ldots{}a_{n-1}}$$
 ir dažādi.
-
-</div>
 
 <!--
 sameAs=LV.OTHER.TST.1983.9.3

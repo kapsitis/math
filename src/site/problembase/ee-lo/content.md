@@ -4,12 +4,11 @@ Vienādojumam
 $$\frac{2}{a^2}+\frac{3}{b^2}+\frac{4}{c^2}=1$$
 atrast visus atrisinājumus naturālos skaitļos.
 
-<!--
-ru=
+<text lang="ru">
 Для уравнения
 $$\frac{2}{a^2}+\frac{3}{b^2}+\frac{4}{c^2}=1$$
 найти все решения в натуральных числах.
--->
+</text>
 
 <!--
 questionType=Find.All
@@ -107,11 +106,10 @@ Esam ieguvuši divus atrisinājumus:
 Atrast visus naturālu skaitļu četriniekus $(w,x,y,z)$, 
 kuriem izpildās vienādība $w^x + w^y = w^z$.
 
-<!--
-ru=
+<text lang="ru">
 Найти все четвёрки положительных целых чисел $(w, x, y, z)$, 
 при которых выполняется равенство $w^x + w^y = w^z$.
--->
+</text>
 
 <!--
 questionType=Find.All
@@ -129,15 +127,14 @@ otra, apmainot vietām ciparus.
 *Piezīme.* Par pozitīvu skaitļu $x$, $y$ ģeometrisko vidējo 
 sauc skaitli $\sqrt{x y}$.
 
-<!--
-ru=
+<text lang="ru">
 Найти все такие пары $(n, m)$ положительных целых чисел, при которых
 арифметическое и геометрическое среднее чисел $n$ и $m$ являются 
 различными двузначными натуральными числами, которые одно из другого
 получаются перестановкой цифр.  
 *Замечание.* Геометрическим средним положительных чисел $x$, $y$ называется 
 число $\sqrt{x y}$.
--->
+</text>
 
 <!--
 questionType=Find.All
@@ -155,13 +152,12 @@ $x \cdot y! + 2y \cdot x! = z!$.
 reizinājumu $1 \cdot 2 \cdot \ldots \cdot n$.*
 
 
-<!--
-ru=
+<text lang="ru">
 Найти все такие тройки положительных целых чисел (x, y, z), 
 при которых $x \cdot y! + 2y \cdot x! = z!$.  
 *Замечание. Факториалом $n!$ натурального числа $n$ 
 называется произведение $1 \cdot 2 \cdot \ldots \cdot n$.*
--->
+</text>
 
 <!--
 questionType=Find.All
@@ -184,10 +180,9 @@ Vai skaitli $2013$ var izteikt kā divu veselu skaitļu kubu starpību?
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Можно ли представить число 2013 как разность кубов двух целых чисел?
--->
+</text>
 
 <!--
 questionType=ProveDisprove.Exists
@@ -252,15 +247,14 @@ $\lfloor x \rfloor$ apzīmē skaitļa $x$ (apakšējo) veselo daļu,
 t.i. vislielāko veselo skaitli, kas nepārsniedz $x$.
 
 
-<!-- 
-ru=
+<text lang="ru">
 Пусть $a$ и $n$ − целые положительные числа. Доказать, что
 $$\left\lfloor \frac{a}{n} \right\rfloor + 
 left\lfloor \frac{a+1}{n} \right\rfloor + \ldots +
 left\lfloor \frac{a+n-1}{n} \right\rfloor = a.$$
 *Примечание. Для каждого действительного числа $x$, $\lfloor x \rfloor$ обозначает 
 целую часть числа $x$, т.е. наибольшее целое число, не превосходящее $x$.*
--->
+</text>
 
 
 <!--
@@ -280,14 +274,13 @@ tiem $4$ tādus, ka kaut kādu divu izvēlēto skaitļu summa un atlikušo
 divu izvēlēto skaitļu summa dos vienādus atlikumus, dalot ar $m$. 
 
 
-<!--
-ru=
+<text lang="ru">
 Пусть $m$ − положительное целое число. Доказать, что если Маша запишет
 на доске по меньшей мере $m + 3$ числа, то у Пети всегда будет 
 возможность выбрать из них $4$ таких, что сумма каких-то двух выбранных чисел
 и сумма остальных двух выбранных чисел будут давать равные остатки
 при делении на $m$.
--->
+</text>
 
 
 <!--
@@ -304,12 +297,11 @@ kuriem
 $\frac{1}{n}$ un $\frac{1}{n + 1}$
 izsakāmi kā galīgas decimāldaļas.
 
-<!--
-ru=
+<text lang="ru">
 Найти все натуральные числа $n$ большие одного, при которых 
 $\frac{1}{n}$ и $\frac{1}{n + 1}$
 представимы в виде конечных десятичных дробей.
--->
+</text>
 
 
 <!--
@@ -330,8 +322,7 @@ Pierādīt, ka jebkuram naturālam skaitlim $n$ izpildās vienādības
 $$S(n + 1) − S(n) = 1 + 2 + \ldots + n + (n + 1),$$
 $$S(n + 1) + S(n) = 1^2 + 2^2 + \ldots + n^2 + (n + 1)^2.$$
 
-<!--
-ru=
+<text lang="ru">
 На доске в ряд друг за другом записываются натуральные числа от $1$ до $n$,
 а под ними те же самые числа, но в обратном порядке. Обозначим сумму
 произведений записанных друг над другом чисел через $S(n)$. (Например,
@@ -339,7 +330,7 @@ $S(6) = 1\cdot{}6 + 2\cdot{}5 + 3\cdot{}4 + 4\cdot{}3 + 5\cdot{}2 + 6\cdot{}1 = 
 Доказать, что для каждого натурального числа $n$ выполняются равенства
 $$S(n + 1) − S(n) = 1 + 2 + \ldots + n + (n + 1),$$
 $$S(n + 1) + S(n) = 1^2 + 2^2 + \ldots + n^2 + (n + 1)^2.$$
--->
+</text>
 
 <!--
 questionType=Prove.ForAll
@@ -354,11 +345,10 @@ genre=sequence-properties
 Atrast visus tos četrciparu skaitļus, kuri ir tieši par $2016$ lielāki 
 par skaitli, ko iegūst, pārliekot pirmo ciparu uz beigām.
 
-<!--
-ru=
+<text lang="ru">
 Найти все такие четырёхзначные числа, которые ровно на $2016$ больше
 числа, полученного путём переставления первой цифры в конец.
--->
+</text>
 
 <!--
 questionType=Find.All
@@ -373,11 +363,10 @@ genre=digit-manipulation
 Atrast visus veselu skaitļu pārus $(a,b)$, kuriem izpildās vienādība
 $$3(a^2 + b^2) - 7(a + b) = -4.$$
 
-<!--
-ru=
+<text lang="ru">
 Найти все пары целых чисел $(a, b)$, для которых выполняется равенство
 $$3(a^2 + b^2) − 7(a + b) = −4.$$
--->
+</text>
 
 <!--
 questionType=Find.All
@@ -395,15 +384,14 @@ Vai Juku hipotēze ir patiesa?
 *Piezīme. Vesels skaitlis $a$ ir savstarpējs pirmskaitlis ar veselu 
 skaitli $b$, ja lielākais kopīgais dalītājs $\mbox{LKD}(a,b)=1$.*
 
-<!--
-ru=
+<text lang="ru">
 Петя выдвинул математическую гипотезу, согласно которой для каждого 
 целого числа $n > 4$ по крайней мере одно из двух наибольших целых
 чисел, меньших чем $\frac{n}{2}$, взаимно просто с числом $n$. Верна ли гипотеза
 Пети?  
 Примечание. Целое число $a$ взаимно просто с целым числом $b$, если
 $\mbox{НОД}(a, b) = 1$.
--->
+</text>
 
 
 <!--
@@ -432,8 +420,7 @@ Vai Anija varēs tā ierakstīt ciparus, ka neatkarīgi no Enijas gājiena
 rezultātā būs trīsciparu skaitlis (t.i. pirmais cipars nav $0$), kas
 dalās ar $11$? 
 
-<!--
-ru=
+<text lang="ru">
 а) На доске записан общий вид трёхзначного числа $\overline{ABC}$. 
 Аня и Женя по очереди заменяют каждым ходом одну букву цифрой, 
 начинает Аня. Сможет ли Аня так записывать цифры, что независимо 
@@ -447,7 +434,7 @@ ru=
 (между цифрами записывать не разрешается). Сможет ли Аня так
 записывать цифры, что независимо от хода Жени в итоге получится
 трёхзначное число (т.е. первая цифра не $0$), делящееся на $11$?
--->
+</text>
 
 <!--
 questionType=Algorithm,ProveDisprove.ForAll
@@ -462,11 +449,10 @@ genre=game
 Atrast visus veselu skaitļu pārus $(a, b)$, kuriem
 $$(2a^2 + b)^3 = b^3a.$$
 
-<!--
-ru=
+<text lang="ru">
 Найти все пары целых чисел (a, b), при которых
 $$(2a^2 + b)^3 = b^3a.$$
--->
+</text>
 
 <!--
 questionType=Find.All
@@ -487,10 +473,9 @@ Atrast visus veselu skaitļu pārus $(x, y)$, kuriem $x − y = \frac{x}{y}$.
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Найти все пары целых чисел $(x, y)$, при которых $x − y = \frac{x}{y}$.
--->
+</text>
 
 <!--
 questionType=Find.All

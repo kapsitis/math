@@ -963,8 +963,6 @@ vērtību.
 
 # <lo-sample/> LV.TST.2014.12.14
 
-<div style="font-size:70%">
-
 Anna un Beta spēlē sekojošu spēli. Dots naturāls skaitlis
 $k \geq 2$. Uz tāfeles
 uzrakstīts vesels skaitlis $n \geq k$. 
@@ -980,10 +978,6 @@ ar īpašību, ka katrs pirmskaitlis
 mazāks par $k$ dala $n$ tad un tikai tad, ja tas dala $n^{\ast}$. 
 Pierādīt, ka $n$ un $n^{\ast}$ vai nu
 abi ir labi vai abi ir slikti.
-
-</div>
-
-
 
 # <lo-sample/> LV.TST.2015.12.3
 

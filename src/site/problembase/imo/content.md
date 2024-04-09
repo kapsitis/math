@@ -1,13 +1,3 @@
-# &nbsp;
-
-<h1 style="font-size:28pt">Skaitļu teorija: IMO un īsie saraksti (2014-2018)</h1>
-
-* <blue>**IMO** - **International Mathematical Olympiad** (Starptautiskā matemātikas olimpiāde)</blue>
-* <span style="color:#FF6C0C">**IMO.SHL** - **IMO Shortlists** (IMO īsie saraksti)</span>
-
-["IMO Official" page](https://www.imo-official.org/problems.aspx)
-
-
 # <lo-summary/> IMO.2014.1/IMO.SHL.2014.A1
 
 Dota bezgalīga veselu pozitīvu skaitļu virkne 
@@ -16,12 +6,12 @@ Pierādiet, ka eksistē
 tieši viens tāds vesels skaitlis $n \geq 1$, ka
 $$a_n < \frac{a_0 + a_1 + \cdots + a_n}{n} \leq a_{n+1}.$$
 
-<!--
+<text lang="en">
 Let $a_0 < a_1 < a_2 < \cdots$ be an infinite sequence 
 of positive integers. Prove that there
 exists a unique integer $n \geq 1$ such that
 $$a_n < \frac{a_0 + a_1 + \cdots + a_n}{n} \leq a_{n+1}.$$
--->
+</text>
 
 
 # <lo-sample/> IMO.SHL.2014.N1
@@ -31,12 +21,12 @@ $$A_n = \{2^n  - 2^k\mid k \in \mathbb{Z},\, 0 \leq k < n\}.$$
 Noteikt lielāko naturālo skaitli, ko nevar izteikt kā
 viena vai vairāku (ne obligāti dažādu) $A_n$ elementu summu. 
 
-<!--
+<text lang="en">
 Let $n \geq 2$ be an integer, and let $A_n$ be the set 
 $$A_n = \{2^n  - 2^k\mid k \in \mathbb{Z},\, 0 \leq k < n\}.$$
 Determine the largest positive integer that cannot be written 
 as the sum of one or more (not necessarily distinct) elements of $A_n$.
--->
+</text>
 
 
 # <lo-sample/> IMO.SHL.2014.N2
@@ -44,11 +34,11 @@ as the sum of one or more (not necessarily distinct) elements of $A_n$.
 Noteikt visus naturālo skaitļu pārus $(x, y)$, kuriem
 $$\sqrt[3]{7x^2-13xy+7y^2}=|x-y|+1.$$
 
-<!--
+<text lang="en">
 Determine all pairs $(x, y)$ of positive 
 integers such that 
 $$\sqrt[3]{7x^2-13xy+7y^2}=|x-y|+1.$$
--->
+</text>
 
 
 
@@ -62,7 +52,7 @@ ka ir iespējams sadalīt šīs monētas $100$ vai mazāk grupās tā,
 lai katras grupas kopējā vērtība nepārsniegtu $1$. 
 
 
-<!--
+<text lang="en">
 For each positive integer $n$, the Bank of Cape Town 
 issues coins of denomination $\frac1n$. 
 Given a finite collection of such coins 
@@ -71,7 +61,7 @@ with total value at most most $99+\frac12$,
 prove that it is possible to split this 
 collection into $100$ or fewer groups, 
 such that each group has total value at most $1$.
--->
+</text>
 
 
 # <lo-sample/> IMO.SHL.2014.N4
@@ -85,7 +75,7 @@ ir nepāru skaitļi.
 lielāko veselo skaitli, kas nepārsniedz $x$.)
 
 
-<!--
+<text lang="en">
 Let $n > 1$ be a given integer. Prove that 
 infinitely many terms of the sequence 
 $(a_k )_{k \geq 1}$, defined by 
@@ -93,7 +83,7 @@ $$a_k=\left\lfloor\frac{n^k}{k}\right\rfloor,$$
 are odd.  
 (For a real number $x$, $\lfloor x\rfloor$ denotes 
 the largest integer not exceeding $x$.)
--->
+</text>
 
 
 # <lo-sample/> IMO.SHL.2014.N5
@@ -103,12 +93,12 @@ pirmskaitli $p$ un divus naturālus skaitļus
 $x$ un $y$, ka $x^{p-1} + y$ un
 $x + y^{p-1}$ abi ir $p$ pakāpes.
 
-<!--
+<text lang="en">
 Find all triples $(p, x, y)$ consisting 
 of a prime number $p$ and two positive integers 
 $x$ and $y$ such that $x^{p-1} + y$ and 
 $x + y^{p-1}$ are both powers of $p$.
--->
+</text>
 
 
 
@@ -124,22 +114,22 @@ $$a_0 = M + \frac{1}{2}\;\;\textrm{un}\;\;a_{k+1} = a_k\lfloor a_k
 satur vismaz vienu veselu locekli.
 
 
-<!--
+<text lang="en">
 Determine all positive integers $M$ such 
 that the sequence $a_0, a_1, a_2, \cdots$ defined by 
 $$a_0 = M + \frac{1}{2}   \qquad  \textrm{and} \qquad a_{k+1} = a_k\lfloor a_k \rfloor   \quad \textrm{for} \, k = 0, 1, 2, \cdots$$
 contains at least one integer term.
--->
+</text>
 
 # <lo-sample/> IMO.SHL.2015.N2
 
 Doti naturāli skaitļi $a$ un $b$, kuriem $a!b!$
 dalās ar $a!+b!$. Pierādīt, ka $3a \geq 2b + 2$.
 
-<!--
+<text lang="en">
 Let $a$ and $b$ be positive integers such that 
 $a! + b!$ divides $a!b!$. Prove that $3a \geq 2b + 2$.
--->
+</text>
 
 <small>
 
@@ -229,13 +219,13 @@ Pierādīt, ka, ja visi skaitļi
 $x_1,x_2,\ldots,x_{n+1}$ ir veseli, tad $x_1x_2\ldots x_{n+1}-1$ 
 dalās ar nepāru pirmskaitli. 
 
-<!--
+<text lang="en">
 Let $m$ and $n$ be positive integers such that $m>n$. 
 Define $x_k=\frac{m+k}{n+k}$ for $k=1,2,\ldots,n+1$. 
 Prove that if all the numbers 
 $x_1,x_2,\ldots,x_{n+1}$ are integers, then $x_1x_2\ldots x_{n+1}-1$ 
 is divisible by an odd prime.
--->
+</text>
 
 # <lo-sample/> IMO.SHL.2015.N4
 
@@ -249,7 +239,7 @@ eksistē veseli skaitļi
 $N \geq 0$ un $t > 0$, ka $a_{n+t} = a_n$ visiem $n \geq N$.
 
 
-<!--
+<text lang="en">
 Suppose that $a_0, a_1, \cdots $ and 
 $b_0, b_1, \cdots$ are two sequences of positive integers such that 
 $a_0, b_0 \geq 2$ and 
@@ -257,7 +247,7 @@ $$a_{n+1} = \gcd{(a_n, b_n)} + 1, \qquad b_{n+1} =
 \operatorname{lcm}{(a_n, b_n)} - 1.$$
 Show that the sequence $a_n$ is eventually periodic; in other words, there exist integers 
 $N \geq 0$ and $t > 0$ such that $a_{n+t} = a_n$ for all $n \geq N$.
--->
+</text>
 
 
 
@@ -269,12 +259,12 @@ ir divnieka pakāpe.
 *Piezīme.* Divnieka pakāpe ir vesels skaitlis formā $2^n$, 
 kur $n$ ir vesels nenegatīvs skaitlis.
 
-<!--
+<text lang="en">
 Find all postive integers $(a,b,c)$ such that
 $$ab-c,\quad bc-a,\quad ca-b$$ are all powers of $2$.  
 *Explanation.* A power of $2$ is an integer of the form $2^n$, 
 where $n$ is a non-negative integer.
--->
+</text>
 
 
 
@@ -293,14 +283,14 @@ ir pozitīvs un
 $S(P(n)) = P(S(n))$.
 
 
-<!--
+<text lang="en">
 For any positive integer $k$, denote the sum of digits of 
 $k$ in its decimal representation by
 $S(k)$. Find all polynomials $P(x)$ with integer 
 coefficients such that for any positive integer
 $n > 2016$, the integer $P(n)$ is positive and
 $S(P(n)) = P(S(n))$.
--->
+</text>
 
 
 # <lo-sample/> IMO.SHL.2016.N2
@@ -310,13 +300,13 @@ Ar $\tau_1(n)$ apzīmējam to skaitļa $n$ pozitīvo dalītāju skaitu,
 kuri dod atlikumu $1$, dalot ar $3$. Atrast visas veselās vērtības
 daļai $\frac{\tau(10n)}{\tau_1(10n)}$.
 
-<!--
+<text lang="en">
 Let $\tau(n)$ be the number of positive divisors of $n$. 
 Let $\tau_1(n)$ be the number of positive
 divisors of $n$ which have remainders $1$ when divided by $3$. 
 Find all possible integral values of
 the fraction $\frac{\tau(10n)}{\tau_1(10n)}$.
--->
+</text>
 
 
 
@@ -332,7 +322,7 @@ vesels skaitlis $a$, kuram kopa
 $$\{P(a+1),P(a+2),\ldots,P(a+b)\}$$
 ir *aromātiska*?
 
-<!--
+<text lang="en">
 A set of postive integers is called fragrant 
 if it contains at least two elements and each 
 of its elements has a prime factor in common 
@@ -343,7 +333,7 @@ value of $b$ such that there exists a non-negative integer
 $a$ for which the set 
 $$\{P(a+1),P(a+2),\ldots,P(a+b)\}$$ 
 is fragrant?
--->
+</text>
 
 
 
@@ -356,13 +346,13 @@ Pierādīt, ka
 (b) $l \mid k$ un $m = \frac{n^{k−l}−1}{n^l−1}$.
 
 
-<!--
+<text lang="en">
 Let $n$, $m$, $k$ and $l$ be positive integers with $n \neq 1$
 such that $n^k+mn^l+1$ divides $n^{k+l}−1$.
 Prove that  
 (a) $m = 1$ and $l = 2k$; or  
 (b) $l \mid k$ and $m = \frac{n^{k−l}−1}{n^l−1}$.
--->
+</text>
 
 
 # <lo-sample/> IMO.SHL.2016.N5
@@ -377,7 +367,7 @@ eksistē veseli $x$, $y$, ka
 izpildās (1) un $0 \leq x < \sqrt{a}$. 
 Pierādīt, ka $A = B$.
 
-<!--
+<text lang="en">
 Let $a$ be a positive integer which is not a square number. 
 Denote by $A$ the set of all
 positive integers $k$ such that
@@ -387,7 +377,7 @@ Denote by $B$ the set of all positive integers $k$ such
 that (**Eq1**) is satisfied for some 
 integers $x$ and $y$ with $0 \leq x < \sqrt{a}$. 
 Prove that $A = B$.
--->
+</text>
 
 
 
@@ -407,7 +397,7 @@ a_n + 3 & \mbox{ja $\sqrt{a_n}$ nav vesels,}
 Noteikt visas vērtības $a_0$, kurām eksistē tāds skaitlis
 $A$, ka $a_n = A$ bezgalīgi daudziem $n$.
 
-<!--
+<text lang="en">
 For each integer $a_0 > 1$, define the sequence 
 $a_0,a_1,a_2,\ldots$ by:
 $$a_{n+1} = \left\{
@@ -417,14 +407,12 @@ a_n + 3 & \mbox{otherwise,}
 \end{array} \right.\;\;\mbox{for each $n \geq 0$.}$$
 Determine all values of $a_0$ for which there is a number 
 $A$ such that $a_n = A$ for infinitely many values of $n$.
--->
+</text>
 
 
 
 
 # <lo-sample/> IMO.SHL.2017.N2
-
-<div style="font-size: 70%">
 
 Dots pirmskaitlis $p \geq 2$.
 Eduardo and Fernando spēlē sekojošu spēli, pārmaiņus
@@ -445,9 +433,7 @@ bet Fernando mērķis ir to nepieļaut.
 Pierādīt, ka Eduardo ir uzvaroša stratēģija - viņš
 vienmēr var sasniegt savu mērķi.
 
-</div>
-
-<!--
+<text lang="en">
 Let $p \geq 2$ be a prime number.
 Eduardo and Fernando play the following
 game making moves alternately: 
@@ -471,7 +457,7 @@ The goal of Eduardo is to make the
 number $M$ divisible by $p$, and the
 goal of Fernando is to prevent this.\\
 Prove that Eduardo has a winning strategy.
--->
+</text>
 
 ## IMO.SHL.2017.N2: Lasītprasme (1) 
 
@@ -510,7 +496,7 @@ $$a_i, a_i+a_{i+1},\ldots,a_i+a_{i+1}+\ldots+a_{i+n-1}$$
 nedalās ar $n$. (Apzīmējam
 $a_i = a_{i-n}$ ja $i > n$.)
 
-<!--
+<text lang="en">
 Determine all integers $n \geq 2$ with 
 the following property: for any integers 
 $a_1,a_2,\ldots,a_n$
@@ -521,7 +507,7 @@ that none of the numbers
 a_i+a_{i+1}+\ldots+a_{i+n-1} \]
 is divisible by $n$. (We let 
 $a_i = a_{i-n}$ when $i > n$.)
--->
+</text>
 
 
 
@@ -544,7 +530,7 @@ Kāds ir maksimālais elementu skaits kopā
 $S(m)$?
 
 
-<!--
+<text lang="en">
 Call a rational number short if it has
 finitely many digits in its decimal 
 expansion.
@@ -564,7 +550,7 @@ the set of $m$-tastic numbers.
 Consider $S(m)$ for $m=1,2,\ldots$. 
 What is the maximum number of elements
 in $S(m)$?
--->
+</text>
 
 
 
@@ -575,13 +561,13 @@ $p > q$ un skaitlis
 $$\frac{(p+q)^{p+q}(p-q)^{p-q}-1}{(p+q)^{p-q}(p-q)^{p+q}-1}$$
 ir vesels.
 
-<!--
+<text lang="en">
 Find all pairs $(p,q)$ of prime numbers
 with $p > q$ for which
 the number
 $$\frac{(p+q)^{p+q}(p-q)^{p-q}-1}{(p+q)^{p-q}(p-q)^{p+q}-1}$$
 is an integer.
--->
+</text>
 
 ## IMO.SHL.2017.N5: Lasīšana (1)
 
@@ -604,21 +590,14 @@ $$\frac{5^51^1 - 1}{5^11^5-1}=\frac{3124}{4}=781.$$
 
 # <lo-summary/> IMO.2017.6/IMO.SHL.2017.N7
 
-<div style="font-size:70%">
-
 Sakārtots veselu skaitļu pāris $(x, y)$ ir primitīvs punkts, ja $x$ un $y$ lielākais kopīgais
 dalītājs ir $1$. Pierādiet, ka katrai galīgai primitīvu punktu kopai $S$ eksistē tāds vesels pozitīvs skaitlis
 $n$ un tādi veseli skaitļi $a_0,a_1,\ldots,a_n$, ka katram $(x, y)$ pārim no $S$ izpildās:
 $$a_0x^n + a_1x^{n−1}y + a_2x^{n−2}y^2 + \cdots + a_{n−1}xy^{n−1} + a_n y^n = 1.$$
 
-</div>
-
-
 <!-- Kombinatorika -->
 <!--
 # <lo-summary/> IMO.2018.3
-
-<div style="font-size:70%">
 
 Par *anti-Paskāla* trijstūri sauksim tādu skaitļu izkārtojumu vienādsānu trijstūrī,
 ka, izņemot apakšējo rindu, katrs skaitlis ir divu zemākstāvošo skaitļu starpības absolūtā vērtība.
@@ -633,7 +612,6 @@ $$\begin{array}{ccccccc}
 Vai eksistē anti-Paskāla trijstūris ar $2018$ rindām, kurš satur visus naturālos skaitļus no $1$ līdz
 $1 + 2 + \cdots + 2018$?
 
-</div>
 -->
 
 
@@ -646,14 +624,14 @@ $$\frac{a_1}{a_2} + \frac{a_2}{a_3} + \cdots + \frac{a_{n−1}}{a_n} + \frac{a_n
 ir vesels. Pierādīt, ka ir naturāls skaitlis
 $M$, ka $a_m = a_{m+1}$ visiem $m \geq M$.
 
-<!--
+<text lang="en">
 Let $a_1,a_2,\ldots$ be an infinite sequence of positive integers. 
 Suppose that there is an
 integer $N > 1$ such that, for each $n \geq N$, the number
 $$\frac{a_1}{a_2} + \frac{a_2}{a_3} + \cdots + \frac{a_{n−1}}{a_n} + \frac{a_n}{a_1}$$
 is an integer. Prove that there is a positive integer 
 $M$ such that $a_m = a_{m+1}$ for all $m \geq M$.
--->
+</text>
 
 
 

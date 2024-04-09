@@ -4,11 +4,11 @@ Atrodiet visas naturālas $n$ vērtības, kurām skaitlis
 $\frac{n^3 + 3}{n^2 + 7}$
 ir naturāls.
 
-<!--
+<text lang="lt">
 Raskite visas natūraliąsias $n$ reikšmes, su kuriomis skaičius
 $\frac{n^3 + 3}{n^2 + 7}$
 yra natūralusis.
--->
+</text>
 
 <small>
 
@@ -58,11 +58,11 @@ Atrodiet mazāko naturālo skaitli $n$, kuram skaitļi
 $\sqrt[5]{5n}$, $\sqrt[6]{6n}$, $\sqrt[7]{7n}$
 ir naturāli. 
 
-<!--
+<text lang="lt">
 Raskite mažiausią natūralųjį skaičių $n$, kuriam skaičiai
 $\sqrt[5]{5n}$, $\sqrt[6]{6n}$, $\sqrt[7]{7n}$
 yra natūralieji.
--->
+</text>
 
 
 <small>
@@ -117,7 +117,7 @@ Spēli sāk Agne. Pēc simts gājieniem Agnes traukā
 bija $q$ litri ūdens, bet Bena traukā - $p$ litri ūdens. 
 Atrodiet $\frac{p}{q}$.
 
-<!--
+<text lang="lt">
 Agnė į savo turimą indą įpylė $p$ litrų vandens, 
 o Benas į savąjį indą įpylė $q$ litrų vandens.
 Pakaitomis atlikdami ėjimus, jie žaidžia tokį žaidimą. 
@@ -127,7 +127,7 @@ kiek jo tuo metu yra kito žaidėjo inde. Žaidimą
 pradėjo Agnė. Po šimto ėjimų Agnės inde buvo $q$ 
 litrų vandens, o Beno – $p$ litrų vandens.
 Raskite $\frac{p}{q}$.
--->
+</text>
 
 
 
@@ -138,11 +138,11 @@ Noskaidrojiet, vai eksistē tāds naturāls skaitlis $n$, ka
 skaitlis $n \cdot 2^{2016} - 7$ ir
 naturāla skaitļa kvadrāts.
 
-<!--
+<text lang="lt">
 Nustatykite, ar egzistuoja toks natūralusis skaičius $n$, 
 kad skaičius $n \cdot 2^{2016} - 7$ yra
 natūraliojo skaičiaus kvadratas.
--->
+</text>
 
 
 
@@ -154,12 +154,12 @@ $0,1,2,\ldots,9$ var uzrakstīt divus naturālus skaitļus, ka
 viens skaitlis būtu otra kvadrāts?  
 *Piezīme.* Pirmais skaitļa cipars nevar būt nulle.
 
-<!--
+<text lang="lt">
 Ar panaudojus po lygiai vieną kartą visus dešimt skaitmenų
 $0,1,2,\ldots,9$ galima užrašyti du natūraliuosius skaičius, 
 kad vienas skaičius būtų kito kvadratas?  
 *Pastaba.* Pirmasis skaičiaus skaitmuo negali būti nulis. 
--->
+</text>
 
 <small>
 
@@ -224,12 +224,12 @@ $y$, ka
 $$8x^4 + 8y^4 = a^4 + 6a^2b^2 + b^4.$$
 
 
-<!--
+<text lang="lt">
 Raskite visas sveikųjų skaičių poras $(a,b)$, 
 kurioms egzistuoja tokie sveikieji skaičiai $x$ ir
 $y$, kad
 $$8x^4 + 8y^4 = a^4 + 6a^2b^2 + b^4.$$
--->
+</text>
 
 
 
@@ -239,11 +239,11 @@ Atrodiet visus veselo skaitļu $m$ un $n$ pārus
 $(m,n)$, kas apmierina vienādību 
 $$m^2 + 2m - 9 = n^2 + n.$$
 
-<!--
+<text lang="lt">
 Raskite visas sveikųjų skaičių $m$ ir $n$ poras 
 $(m, n)$, tenkinančias lygybę
 $$m^2 + 2m - 9 = n^2 + n.$$
--->
+</text>
 
 <small>
 
@@ -309,14 +309,14 @@ visus naturālos atrisinājumus $(x,y)$.
 Šeit $\mbox{LKD}(x,y)$ un $\mbox{MKD}(x,y)$ attiecīgi apzīmē skaitļu 
 $x$ un $y$ lielāko kopīgo dalītāju un mazāko kopīgo dalāmo. 
 
-<!--
+<text lang="lt">
 Raskite lygties
 $$x^2y^2 + 208 + 4(\mbox{DBD}(x,y) + \mbox{MBK}(x,y))^2$$
 visus natūraliuosius sprendinius $(x,y)$. 
 Čia $\mbox{DBD}(x,y)$ ir $\mbox{MBK}(x,y)$ atitinkamai žymi
 skaičių $x$ ir $y$ didžiausią bendrą daliklį ir 
 mažiausią bendrą kartotinį.
--->
+</text>
 
 
 
@@ -330,7 +330,7 @@ jāuzraksta tā starpība ar jebkuru viņa naturālu dalītāju.
 Spēlētājs, kurš uzraksta $0$, zaudē. Noskaidrojiet, kuram 
 spēlētājam ir uzvaras stratēģija, un parādiet to.
 
-<!--
+<text lang="lt">
 Lentoje užrašytas skaičius $636363$. 
 Du žaidėjai $A$ ir $B$ pakaitomis atlieka ėjimus, pirmąjį
 ėjimą atlieka $A$. Ėjimo metu reikia nutrinti 
@@ -338,7 +338,7 @@ lentoje esantį skaičių ir užrašyti jo ir bet kurio
 jo natūraliojo daliklio skirtumą. Žaidėjas, užrašęs 
 skaičių $0$, pralaimi. Nustatykite, kuris
 žaidėjas turi pergalės strategiją, ir nurodykite ją.
--->
+</text>
 
 
 <small>
@@ -398,7 +398,7 @@ visiem to pašu).
 Atrodiet visas iespējamās skaitļa $N$ pēdējā 
 cipara vērtības.
 
-<!--
+<text lang="lt">
 Natūralusis skaičius $M = 3N$ 
 turi tiek pat skaitmenų, kaip ir
 natūralusis skaičius $N > 10$. 
@@ -409,7 +409,7 @@ pridėti po nelyginį natūralųjį
 skaičių (nebūtinai po tą patį). 
 Raskite visas galimas skaičiaus $N$
 paskutinio skaitmens reikšmes.
--->
+</text>
 
 
 
@@ -420,13 +420,13 @@ Skaitļa $n>1$ visu pozitīvo dalītāju
 Norādiet visas iespējamās skaitļa $n$ vērtības, 
 uzrakstot, kāds var būt skaitļa $n$ sadalījums pirmreizinātājos. 
 
-<!--
+<text lang="lt">
 Skaičiaus $n>1$ visų teigiamų daliklių 
 (įskaitant $1$ ir $n$) sandauga lygi $n^3$.
 Nurodykite visas galimas skaičiaus $n$ reikšmes, 
 užrašydami, koks gali būti skaičiaus $n$ 
 skaidinys pirminiais daugikliais.
--->
+</text>
 
 <small>
 
@@ -478,12 +478,12 @@ $$p + 1 = 2x^2,\;\;p^2 + 1 = 2y^2.$$
 Noskaidrojiet visas iespējamās skaitļa $p$ vērtības, ja 
 zināms, ka šis skaitlis ir pirmskaitlis. 
 
-<!--
+<text lang="lt">
 Natūralieji skaičiai $p$, $x$, $y$ tenkina lygtis:
 $p + 1 = 2x^2,\;\;p^2 + 1 = 2y^2.$$
 Nustatykite visas galimas skaičiaus $p$ reikšmes, 
 jei žinoma, kad šis skaičius pirminis.
--->
+</text>
 
 
 
@@ -498,7 +498,7 @@ y^2 - x^2 = x+y,\\
 2x^3 - 6x = z^3 - 4x^2.
 \end{array} \right.$$
 
-<!--
+<text lang="lt">
 Raskite visus sveikųjų skaičių trejetus $(x,y,z)$, 
 tenkinančius lygčių sistemą
 $$
@@ -507,13 +507,11 @@ x^3 + y^3 = z^3 + 1,\\
 y^2 - x^2 = x+y,\\
 2x^3 - 6x = z^3 - 4x^2.
 \end{array} \right.$$
--->
+</text>
 
 
 
 # <lo-sample/> LT.VUMIF.2019.9.2
-
-<div style="font-size:70%">
 
 Algis un Balis spēlē sekojošu spēli, 
 pārmaiņus izdarīdami gājienus. Sākumā 
@@ -529,9 +527,7 @@ Noskaidrojiet visus naturālu skaitļu pārus $(m,n)$,
 kuriem Balim ir uzvaras stratēģija, t.i. kurām viņš var
 nodrošināt uzvaru, lai kā spēlētu Algis. 
 
-</div>
-
-<!--
+<text lang="lt">
 Algis ir Balys žaidžia tokį žaidimą, 
 pakaitomis atlikdami ėjimus. Pradžioje
 yra dvi monetų krūvelės: vienoje krūvelėje 
@@ -546,7 +542,7 @@ pralaimi. Nustatykite visas natūraliųjų skaičių $(m,n)$
 poras, kurioms Balys turi pergalės strategiją, t. y.
 kurioms jis gali užsitikrinti pergalę, 
 kad ir kaip žaistų Algis.
--->
+</text>
 
 
 <small>
@@ -637,7 +633,7 @@ Jurgis uzrakstīja tikai reizinājuma pēdējos trīs
 ciparus. Kādu ciparu trijnieku viņš varēja iegūt? 
 Atrodiet visas iespējas. 
 
-<!--
+<text lang="lt">
 Jurgis užrašė tris natūraliuosius skaičius, 
 iš kurių kiekvienas baigiasi tuo
 pačiu skaitmeniu kaip kitų dviejų skaičių 
@@ -645,7 +641,7 @@ suma, ir sudaugino juos. Jurgis
 užrašė tik sandaugos paskutinius tris 
 skaitmenis. Kokį skaitmenų trejetą jis
 galėjo gauti? Raskite visas galimybes.
--->
+</text>
 
 <small>
 
@@ -733,13 +729,13 @@ $10$ divnieku, $\ldots$, $10$ septiņnkieku.
 Pierādīt, ka, ja viens septiņīgs skaitlis dalās
 ar citu septiņīgu skaitli, tad tie ir vienādi. 
 
-<!--
+<text lang="lt">
 Natūralųjį skaičių vadinsime *septintiniu*, 
 jei jis turi lygiai $70$ skaitmenų: $10$
 vienetų, $10$ dvejetų, $\ldots$, $10$ septynetų. 
 Įrodykite, kad jei vienas septintinis
 skaičius dalijasi iš kito, tai jie lygūs.
--->
+</text>
 
 <small>
 
@@ -792,7 +788,7 @@ $N = \overline{M81}$. Pierādiet, ka
 a) $M$ nedalās ne ar vienu piecīgu skaitli, izņemot sevi pašu;  
 b) $N$ nedalās ne ar vienu piecīgu skaitli. 
 
-<!--
+<text lang="lt">
 Natūralųjį skaičių vadinsime *penktiniu*, 
 jei jis turi lygiai $500$ skaitmenų: po
 $100$ dvejetų, trejetų, ketvertų, penketų ir šešetų. 
@@ -802,7 +798,7 @@ gautas skaičius $N = \overline{M81}$. Įrodykite,
 kad a) $M$ nesidalija iš jokio penktinio skaičiaus, 
 išskyrus save patį; 
 b) $N$ nesidalija iš jokio penktinio skaičiaus.
--->
+</text>
 
 <small>
 

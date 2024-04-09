@@ -1480,8 +1480,6 @@ beigu starpība ir $17$, tad $a=17$.
 
 # <lo-sample/> LV.AMO.2009.8.4
 
-<div style="font-size:70%">
-
 Profesors Cipariņš ar savu ārzemju kolēģi ieradās Ziemassvētku
 eglītes pasākumā, kurā piedalījās universitātes darbinieki, viņu
 draugi, ģimenes locekļi, paziņas utt. Norādot uz trim viesiem,
@@ -1492,8 +1490,6 @@ piebilda: "Es esmu vecāks par jebkuru citu šai eglītē." Tagad kolēģis
 uzreiz pateica minēto $3$ viesu vecumus. Cik gadu tai laikā bija
 Cipariņam un cik – viņa kolēģim? (Visus vecumus izsaka veselos
 gados.)
-
-</div>
 
 <small>
 

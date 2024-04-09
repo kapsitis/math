@@ -235,8 +235,6 @@ questionType=Find.All
 
 # <lo-sample/> EE.PK.1999.7.3
 
-<div style="font-size:80%">
-
 Kivisillu (*Kivisilla*) ģimene satiekas pirmajā jūlijā - reizi trijos gados. 
 Nesenākajā tikšanās reizē ģimenes locekļi teica par savu vecumu sekojošo:  
 Marija (*Mari*): Man šobrīd ir tik gadu, cik bija Jurim iepriekšējā tikšanās reizē.  
@@ -247,8 +245,6 @@ Kārlis (*Karl*) Tagad esmu tieši divreiz jaunāks par mūsu pašu vecāko radi
 tanti Lēnu (*Leena*).  
 Cik gadu bija Marijai, Jurim, Pēterim, Kārlim un tantei Lēnai nesenākajā tikšanās reizē, 
 ja viņu vecumu summa ir $165$? (Vecumu nosaka pilnos gados.)
-
-</div>
 
 <!--
 genre=word-problem
@@ -287,8 +283,6 @@ questionType=ProveDisprove.Exists
 
 # <lo-sample/> EE.PK.2000.7.3
 
-<div style="font-size:80%">
-
 Pirms Annika (*Annika*), Tomijs (*Tommy*) 
 un Pepija (*Pipi*) aizbrauca no Kurunuruvutisāres 
 (*Kurrunurruvutisaare*), 
@@ -305,8 +299,6 @@ kastes, kuru numurs dalījās ar kādu no skaitļiem:
 trīs, četri vai pieci, un to saturu izdalīja bērniem tā, lai 
 beigās katram būtu vienāds pērļu skaits. Cik pērļu kapteinis
 pielika klāt katram no bērniem? 
-
-</div>
 
 <!--
 concepts=divisibility
@@ -746,12 +738,11 @@ ciparu 1, arī rodas kāda vesela skaitļa kvadrāts.
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Доказать, что для каждого целого числа $n \geq 3$ найдётся такое $n$-значное
 число, которое является квадратом целого числа и при добавлении в его
 начало цифры 1 также получится квадрат некоторого целого числа.
--->
+</text>
 
 <!--
 genre=digit-manipulation
@@ -801,12 +792,8 @@ no kreisās uz labo pusi;
 
 Vai eksistē šos noteikumus apmierinoši 
 
-<div class="enum-a">
-
 1. sešciparu skaitļi;
 2. septiņciparu skaitļi?
-
-</div>
 
 Ja tādi eksistē, tad atrast mazāko un lielāko tādu skaitli; 
 ja neeksistē, tad pamatot, kāpēc. 
@@ -854,8 +841,7 @@ skaitli $m$, iegūstot dalījumu un atlikumu.
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 На уроке математики Юра должен был поделить положительное целое
 число $n$ на положительное целое число $m$, чтобы найти частное и остаток.
 а) Доказать, что если найденные частное и остаток равны между собой,
@@ -863,7 +849,7 @@ ru=
 б) Выполняется ли обратное утверждение: всегда, когда число n делится 
 на число m + 1, частное и остаток при делении числа n на число
 m равны между собой?
--->
+</text>
 
 <!--
 questionType=Prove.ForAll,ProveDisprove.ForAll
@@ -930,11 +916,10 @@ kuri apmierina vienādojumu $(a + b)(b + c)(c + a) = 123456789$?
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Сколько существует комплектов целых чисел $(a, b, c)$, 
 которые удовлетворяют уравнению $(a + b)(b + c)(c + a) = 123456789$?
--->
+</text>
 
 <!--
 genre=integer-equation
@@ -998,12 +983,11 @@ dalās ar $10$.
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Найти наименьшее натуральное число $n$, при котором среди любых n
 квадратов целых чисел найдутся два таких, разность которых делится
 на $10$.
--->
+</text>
 
 <!--
 concepts=full-square,divisibility
@@ -1110,12 +1094,11 @@ Atrast visas iespējamās $n$ vērtības.
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 В вершины равностороннего треугольника записаны положительные целые числа 14, 20 и $n$. 
 Произведение чисел любых двух вершин делится на
 число в третьей вершине. Найти все возможные значения числа $n$.
--->
+</text>
 
 <!--
 concepts=divisibility
@@ -1171,12 +1154,11 @@ questionType=Find.All
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 а) Известно, что $x^2 − y^2 = 100$, где $x$ и $y$ − натуральные числа. Найти
 наименьшее возможное значение выражения $x − y$.  
 б) Тот же вопрос, при условии, что $x$ и $y$ − целые числа
--->
+</text>
 
 <!--
 genre=optimization
@@ -1212,11 +1194,10 @@ veselo skaitļu no $1$ līdz $n$ ciparu summa ir pāru skaitlis?
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Существует ли такое положительное целое число $n$, что у более половины
 из целых чисел от $1$ до $n$ сумма цифр чётна?
--->
+</text>
 
 <!--
 concepts=sum-of-digits
@@ -1314,13 +1295,12 @@ būtu vienāda ar to mazāko kopīgo dalāmo, ja
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Можно ли подобрать такие $n$ положительных целых чисел, 
 чтобы их сумма равнялась их же наименьшему общему кратному, если
 а) $n = 2$?  
 б) $n = 3$?
--->
+</text>
 
 <!--
 concepts=lcm
@@ -1371,12 +1351,11 @@ atrisinājums, kuram $x$, $y$, $z$ un $w$ ir dažādi veseli skaitļi?
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Существует ли такое решение уравнения
 $x^2 + y^2 + z^2 + w^2 = 3 + xy + y z + zw$,
 при котором $x$, $y$, $z$ и $w$ различные целые числа?
--->
+</text>
 
 <!--
 concepts=square
@@ -1455,11 +1434,10 @@ $324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Найти все пары целых чисел $(x,y)$, при которых
 $324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
--->
+</text>
 
 <!--
 concepts=power
@@ -1522,12 +1500,11 @@ $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Доказать, что найдётся бесконечно много четвёрок различных 
 целых положительных чисел $(a, b, c, d)$, при которых
 $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d}.$$
--->
+</text>
 
 <!--
 questionType=Prove.Other
@@ -1591,13 +1568,13 @@ Atrast visas iespējamās vērtības Mari iedomātajam skaitlim.
 
 </small>
 
-<!--
+<text lang="ru">
 Маша задумала одно натуральное число. Умножив это число на 4, 
 она получила какое-то трёхзначное число. А когда она умножила первоначальное 
 число на 3 и переставила последнюю цифру результата в его начало,
 то неожиданно получила то же самое трёхзначное число. 
 Найти все возможные значения задуманного Машей числа.
--->
+</text>
 
 <!--
 genre=digit-manipulation
@@ -1657,13 +1634,12 @@ tādā secībā, ka pirmo četru skaitļu summa vienāda ar pēdējo
 četru skaitļu summu. Kurš skaitlis
 var būt uzrakstīts vidū? Atrast visas iespējas.
 
-<!--
-ru=
+<text lang="ru">
 Саша записывает числа $2, 3, 5, 7, 8, 10, 11$ в тетрадку в 
 таком порядке, что сумма первых четырёх чисел равна сумме 
 последних четырёх чисел. Найти все возможности, 
 какое число может быть записано посередине.
--->
+</text>
 
 <!--
 questionType=Find.All
@@ -1676,11 +1652,11 @@ Esta izvēlējās divus naturālus skaitļus. Vienu no tiem viņa pareizināja
 ar $20$, bet otru – ar $19$. Iegūto reizinājumu summa vienāda ar $292$. 
 Atrast visas iespējas, kādi var būt Estas izvēlētie skaitļi.
 
-<!--
+<text lang="ru">
 Элла выбрала два натуральных числа. Одно из них она умножила на $20$,
 а другое – на $19$. Сумма полученных произведений равна $292$. Найти все
 возможности, чему могут быть равны два задуманных числа Эллы.
--->
+</text>
 
 <!--
 genre=integer-equation
@@ -1705,11 +1681,10 @@ kas apmierina vienādību $22a + 15b = 2019$?
 
 </small>
 
-<!--
-ru=
+<text lang="ru">
 Сколько найдётся пар неотрицательных целых чисел $(a, b)$, 
 удовлетворяющих равенству $22a + 15b = 2019$?
--->
+</text>
 
 <!--
 genre=integer-equation
