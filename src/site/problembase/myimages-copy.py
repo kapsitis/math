@@ -12,7 +12,7 @@ def copy_png_files(src_directory, dest_directory):
 
     # Walk through the source directory
     for root, dirs, files in os.walk(src_directory):
-        if root == './myimages' or root == './ee-pktest/solutions':
+        if root == './myimages' or root.startswith('./static'):
             continue
         for file in files:
             if file.endswith(".png"):
@@ -24,8 +24,16 @@ def copy_png_files(src_directory, dest_directory):
                 dest_file_path = os.path.join(dest_directory, file)
                 
                 # Copy the file, overwriting any existing file with the same name
-                shutil.copy(src_file_path, dest_file_path)
-                print(f"Copied: {src_file_path} to {dest_file_path}")
+                # shutil.copy(src_file_path, dest_file_path)
+                # print(f"Copied: {src_file_path} to {dest_file_path}")
+
+                try:
+                    shutil.copy(src_file_path, dest_file_path)
+                    print(f"Copied: {src_file_path} to {dest_file_path}")
+                except PermissionError:
+                    print(f"Permission denied: {dest_file_path}")
+                except Exception as e:
+                    print(f"Error copying {src_file_path} to {dest_file_path}: {e}")
 
 if __name__ == "__main__":
     # Root directory containing the PNG files and subdirectories

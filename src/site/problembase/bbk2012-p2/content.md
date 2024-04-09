@@ -1,21 +1,3 @@
-# &nbsp;
-
-<p>Daži uzdevumi, kas citēti no grāmatas:</p>
-
-<h1 style="font-size:28pt">A.Bērziņa, A.Bērziņš, D.Kūma. 2012</h1>
-
-<p>Olimpiāžu un konkursu uzdevumu krājums skaitļu teorijā. Latvijas 
-Universitāte. 2012.g.</p>
-
-
-* 1.nodaļa: Skaitļu dalāmība
-* <blue>2.nodaļa: Aritmētikas pamatteorēma</blue>
-* 3.nodaļa: Skaitļu kongruence pēc fiksēta moduļa
-* 4.nodaļa: Moduļa izvēle
-
-
------
-
 # <lo-sample/> BBK2012.P2.16
 
 Ar $x$ un $n$ apzīmēti kaut kādi naturāli skaitļi.
@@ -30,7 +12,6 @@ questionType=Prove.ForAll
 -->
 
 
------
 
 # <lo-sample/> BBK2012.P2.21
 
@@ -45,7 +26,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> BBK2012.P2.22
 
@@ -61,7 +41,6 @@ questionType=Prove.ForAll
 -->
 
 
------
 
 # <LO-REFFF/> BBK2012.P2.23
 
@@ -77,7 +56,6 @@ questionType=Find.Only
 
 
 
------
 
 # <lo-sample/> BBK2012.P2.24
 
@@ -91,7 +69,6 @@ seeAlso=BBK2012.P1.52
 -->
 
 
------
 
 # <lo-sample/> BBK2012.P2.30
 
@@ -105,7 +82,6 @@ sameAs=LV.TST.1988.9.1
 -->
 
 
------
 
 # <lo-sample/> BBK2012.P2.38
 
@@ -119,7 +95,6 @@ sameAs=LV.TST.1992.9.1
 
 
 
------
 
 # <lo-sample/> BBK2012.P2.73
 
@@ -132,7 +107,6 @@ sameAs=LV.TST.1984.9.1
 -->
 
 
------
 
 # <lo-sample/> BBK2012.P2.77
 
@@ -146,7 +120,6 @@ sameAs=LV.TST.1985.11.2
 
 
 
------
 
 # <LO-REFFF/> BBK2012.P2.87
 

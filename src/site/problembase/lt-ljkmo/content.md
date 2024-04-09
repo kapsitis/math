@@ -1,33 +1,3 @@
-# &nbsp;
-
-<hgroup style="font-size:70%; width:35%;">
-
-<h1 style="font-size:28pt">Skaitļu teorija: Lietuvas olimpiādes</h1>
-
-</hgroup>
-<hgroup style="font-size:70%; width:65%;">
-
-* LT.LKMMO - Lietuvos komandinė mokinių matematikos 
-olimpiada (Lietuvas skolēnu matemātikas komandu olimpiāde)
-* LT.LDK - Varžybos Lietuvos Didžiosios Kunigaikštystės garbei
-(Sacensības Lietuvas Lielkņazistes godam)  
-* LT.RAJ - Rajono/miesto etapas (Rajona/pilsētas posms)  
-* LT.LMMO - Lietuvos mokinių matematikos olimpiada (Lietuvas skolēnu
-matemātikas olimpiāde: nacionālais posms)  
-* LT.VUMIF - Vilniaus universiteto Matematikos ir 
-informatikos fakulteto olimpiada (Viļņas universitātes 
-rīkota olimpiāde skolēniem)  
-* LT.TST - Atrankos (Lietuvas atlases sacensības)
-* <blue>**LT.LJKMO** - **Lietuvos jaunesniųjų klasių moksleivių olimpiada (Lietuvas
-jaunāko klašu skolēnu olimpiāde)**</blue>
-
-[Matematikos olimpiados](http://mif.vu.lt/matematikos-olimpiados/)
-
-</hgroup>
-
-
------
-
 # <lo-sample/> LT.LJKMO.1999.7_8.1
 
 Atšifrējiet reizināšanu "stabiņā". Kā parasti, dažādiem 
@@ -35,7 +5,7 @@ reizināmā un reizinātāja burtiem atbilst dažādi cipari.
 Visi citi cipari apzīmēti ar vienādu simbolu "x".  
 Atšifrējiet reizinājumu:
 
-![Rēbuss](LT.LJKMO.1999.7_8.1.png)
+![](LT.LJKMO.1999.7_8.1.png)
 
 <small>
 
@@ -59,7 +29,6 @@ questionType=Find.All
 -->
 
 
------
 
 ## <lo-soln/> LT.LJKMO.1999.7_8.1 (atrod S un R)
 
@@ -72,7 +41,6 @@ tātad $R \cdot \overline{RASK} < 10^5$ (četrciparu skaitlis) parāda, ka $R \l
 **Secinājums:** $S=0$ un $R=3$. 
 
 
---
 
 ## <lo-soln/> LT.LJKMO.1999.7_8.1 (atrod A)
 
@@ -91,7 +59,6 @@ Tātad $A \leq 3$.
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.1999.7_8.3
 
@@ -117,7 +84,6 @@ questionType=Find.Any,Find.Min
 -->
 
 
------
 
 ## <lo-soln/> LT.LJKMO.1999.7_8.3
 
@@ -130,7 +96,6 @@ Mazāks skaitlis nevar būt, jo pirmais cipars nevar būt nulle. Bet jebkurā ci
 kāds no esošā skaitļa $M$ cipariem no nulles pārtaps par kaut ko citu, t.i. pieaugs.
 
 
------
 
 # <lo-sample/> LT.LJKMO.2000.7_8.3
 
@@ -157,7 +122,6 @@ questionType=Find.Min
 -->
 
 
------
 
 ## <lo-soln/> LT.LJKMO.2000.7_8.3 (pārlase)
 
@@ -172,7 +136,6 @@ $$100000000001 = 10^{11} + 1.$$
 kad radīsies atlikums $22$. Tanī brīdī $10^k + 1$ dalās ar $23$ bez atlikuma.
 
 
---
 
 ## <lo-soln/> LT.LJKMO.2000.7_8.3 (rekurenta virkne)
 
@@ -189,7 +152,6 @@ loceklis, kurš dalās ar vajadzīgo skaitli.
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2001.7_8.1
 
@@ -218,7 +180,6 @@ questionType=Find.Min
 -->
 
 
------
 
 ## <lo-soln/> LT.LJKMO.2001.7_8.1
 
@@ -236,7 +197,6 @@ $3333333777$.
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2001.7_8.2
 
@@ -262,7 +222,6 @@ $x-y= x^2 + xy+ y^2$ sprendinius.
 questionType=Find.All
 -->
 
------
 
 ## <lo-soln/> LT.LJKMO.2001.7_8.2 (uzmin dažas saknes)
 
@@ -276,7 +235,6 @@ dažas saknes, ievietojot mazus $y$:
 ir $x_1 = 0$, $x_2 = 2$.  
 
 
---
 
 ## <lo-soln/> LT.LJKMO.2001.7_8.2 (citas saknes?)
 
@@ -288,7 +246,6 @@ jeb $y^2 - 2y + 1 - 4y^2 - 4y = -3y^2 -6y + 1\geq 0$ jeb
 $$3y^2 + 6y - 1 \leq 0.$$
 
 
---
 
 ## <lo-soln/> LT.LJKMO.2001.7_8.2 (citas saknes?)
 
@@ -301,7 +258,6 @@ Intervālā ir veselas $y$ vērtības: $y \in \{ -2,-1,0 \}$
 * Gadījumus $y = -1$, $y=0$ skatījām agrāk (pie minēšanas). 
 
 
---
 
 ## <lo-soln/> LT.LJKMO.2001.7_8.2 (kopsavilkums)
 
@@ -316,7 +272,6 @@ Citām veselām $y$ vērtībām sakņu nav, jo tad diskriminants
 (vienādojumam attiecībā pret $x$) ir negatīvs.
 
 
------
 
 # <lo-sample/> LT.LJKMO.2002.7_8.1
 
@@ -350,7 +305,6 @@ questionType=Find.Min
 -->
 
 
------
 
 ## <lo-soln/> LT.LJKMO.2002.7_8.1
 
@@ -365,7 +319,6 @@ Piemēram, $10$, $14$ un arī $2$ ($2$ vietā var ņemt $8$ - abos
 gadījumos tur pirmreizinātājs $2$ ir nepāru pakāpē). 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2002.7_8.2
 
@@ -394,7 +347,6 @@ $$3xy - x - 2 y = 8.$$
 questionType=Find.Any,Find.All
 -->
 
------
 
 # <lo-sample/> LT.LJKMO.2002.7_8.4
 
@@ -421,7 +373,6 @@ questionType=Find.Any,ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2003.7_8.3
 
@@ -447,7 +398,6 @@ questionType=Find.Any
 -->
 
 
------
 
 ## <lo-hints/>  LT.LJKMO.2003.7_8.3
 
@@ -458,7 +408,6 @@ Vai mākam izveidot (ja nepieciešams divus vai vairākus) tāda lieluma soļus,
 lai ciparu summa varētu pieaugt tieši līdz $2003$.
 
 
---
 
 ## <lo-soln/> LT.LJKMO.2003.7_8.3 (polsterēšana)
 
@@ -472,7 +421,6 @@ daudzkārtņus).
 Pirmā polsterēšanas doma (var dabūt ciparu summas, kas dalās ar $5$):
 $$\underbrace{2003}\underbrace{2003}\ldots\underbrace{2003}.$$
 
---
 
 ## <lo-soln/> LT.LJKMO.2003.7_8.3 (piemēra koriģēšana)
 
@@ -485,7 +433,6 @@ dalās ar $2003$, bet tā ciparu summa ir $3$ (vai skaitlis, kas dod
 atlikumu $3$, dalot ar $5$)? 
 
 
---
 
 ## <lo-soln/> LT.LJKMO.2003.7_8.3 (2003k ciparu summas)
 
@@ -516,7 +463,6 @@ $$14021\underbrace{2003}_{\text{1.reize}}\underbrace{2003}_{\text{2.reize}}\ldot
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2003.7_8.4
 
@@ -548,7 +494,6 @@ questionType=Find.Max
 
 
 
------
 
 ## <lo-soln/> LT.LJKMO.2003.7_8.4 (piemērs)
 
@@ -564,7 +509,6 @@ Visas citas ir violetas. Viena ir novilkta starp virsotnēm $2$ un $4$ (abas
 atrodas vienā daļā) - tas vairs neatbilst divdaļīga grafa nosacījumam.
 
 
---
 
 ## <lo-soln/> LT.LJKMO.2003.7_8.4 (nevar labāk)
 
@@ -576,7 +520,6 @@ jo skaitļi daļās nedrīkst atkārtoties.
 To veidotā daļa būs vienīgā neveselā.
 
 
------
 
 
 # <lo-sample/> LT.LJKMO.2004.7_8.1
@@ -601,7 +544,6 @@ questionType=Find.Any,Find.Max,Find.Min
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2004.7_8.3
 
@@ -623,7 +565,6 @@ questionType=Find.Any,Find.All
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2005.7_8.2
 
@@ -643,7 +584,6 @@ questionType=Find.Count,Find.All
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2006.7_8.1
 
@@ -667,7 +607,6 @@ questionType=Find.Any,Find.Min,Find.Max
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2006.7_8.4
 
@@ -703,7 +642,6 @@ questionType=Find.Any,Find.All
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2007.7_8.2
 
@@ -738,7 +676,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2007.7_8.4
 
@@ -770,7 +707,6 @@ questionType=Find.Count,Find.All,ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2008.7_8.1
 
@@ -820,7 +756,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2008.7_8.2
 
@@ -845,7 +780,6 @@ questionType=Find.Max
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2008.7_8.4
 
@@ -873,7 +807,6 @@ questionType=ProveDisprove.Exists,Find.All
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2009.7_8.3
 
@@ -935,7 +868,6 @@ questionType=ProveDisprove.ForAll,Algorithm
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2009.7_8.4
 
@@ -977,7 +909,6 @@ questionType=Prove.Exists
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2010.7_8.1
 
@@ -1011,7 +942,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2010.7_8.5
 
@@ -1038,7 +968,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2011.7_8.1
 
@@ -1071,7 +1000,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2011.7_8.2
 
@@ -1117,7 +1045,6 @@ questionType=Find.All
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2012.7_8.1
 
@@ -1168,7 +1095,6 @@ questionType=Find.Max
 -->
 
 
------
 
 
 # <lo-sample/> LT.LJKMO.2012.7_8.2
@@ -1207,7 +1133,6 @@ questionType=Find.Any,Find.Min
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2012.7_8.4
 
@@ -1245,7 +1170,6 @@ questionType=Find.Any,Find.Count
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2012.7_8.6
 
@@ -1285,7 +1209,6 @@ questionType=Find.Min
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2013.7_8.2
 
@@ -1323,7 +1246,6 @@ negausi, kad jis yra ne be reikalo mokslininkų sugalvotas?
 questionType=Find.Max
 -->
 
------
 
 # <lo-sample/> LT.LJKMO.2013.7_8.6
 
@@ -1356,7 +1278,6 @@ questionType=Find.Min
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2014.7_8.1
 
@@ -1397,7 +1318,6 @@ questionType=Find.Max
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2014.7_8.2
 
@@ -1439,7 +1359,6 @@ questionType=Find.Any,Find.Min
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2015.7_8.5
 
@@ -1460,7 +1379,6 @@ questionType=Find.Max
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2015.7_8.6
 
@@ -1505,7 +1423,6 @@ questionType=Find.Any,Prove.Other,ProveDisprove.Exists
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2016.7_8.3
 
@@ -1555,7 +1472,6 @@ questionType=Find.All
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2016.7_8.5
 
@@ -1582,7 +1498,6 @@ questionType=ProveDisprove.Exists
 
 
 
------
 
 # <lo-sample/> LT.LJKMO.2017.7_8.2
 
@@ -1610,7 +1525,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2017.7_8.3
 
@@ -1638,7 +1552,6 @@ questionType=Find.Any,Find.Min
 -->
 
 
------
 
 # <lo-sample/> LT.LJKMO.2018.7_8.6
 

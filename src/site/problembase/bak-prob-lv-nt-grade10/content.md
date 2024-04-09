@@ -1,37 +1,3 @@
-# Skaitļu teorija: 10.kl. LV
-
-* 10.kl. skaitļu teorija (no 2010.g.)
-    - LV.NO - novadu olimpiāde (2.posms)
-    - LV.VO - valsts olimpiāde (3.posms)
-    - LV.AO - atklātā olimpiāde
-
-
-
-# 35 uzdevumi: Aplūkojamās prasmes
-
-![Uzdevumi pa gadiem](nt-problems-by-year.svg)
-
-(*Sarkani ir agrāko gadu uzdevumi, kas atkārtoti vai variēti*)
-
-* Prasme izlasīt uzdevumu
-* **<span style="color:darkgreen">Prasme saredzēt skaitļu teorijas idejas</span>**
-* Citas pierādījumu un matemātiskā radošuma prasmes
-* Prasme pierakstīt atrisinājumu
-
-
-
-# Skaitļu teorijas tēmas
-
-* Formulu lapiņas, lekciju bildes, uzdevumu bildes
-    - Kihon (<blue>基本</blue>,"bāzes tehnika") $\approx$ mazie faktiņi, pamatjēdzieni un apgalvojumi
-    - Kata (<blue>形</blue>,"forma") $\approx$ lielākas teorēmas un algoritmi
-    - Kumite (<blue>組手</blue>,"sacensību cīņa") $\approx$ olimpiāžu uzdevumi
-* Pārklājas ar augstskolu (DatZ) skaitļu teoriju
-    - Datu pārraide ar saspiešanu, kļūdu labošanu
-    - Kriptogrāfija: HTTPS, cietā diska šifrēšana
-    - Kriptovalūtas: *bitcoin* u.c.
-
-
 # <lo-sample/> LV.NO.2010.10.2
 
 Dots, ka $a$ un $b$ ir naturāli skaitļi, $a^2$

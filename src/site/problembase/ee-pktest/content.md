@@ -1,12 +1,3 @@
-# &nbsp;
-
-<h1 style="font-size:28pt">Skaitļu teorija: Igaunijas olimpiādes</h1>
-
-* **EE.PK** - **Eesti Piirkonnavoor** (Igaunijas reģionu kārta) - īso atbilžu testi 7.-9.kl.
-* [Matemaatikaolümpiaadid ](http://www.math.olympiaadid.ut.ee/html/index.php)
-
-
-
 # <lo-sample/> EE.PKTEST.2010.7.6
 
 Uz vienādsānu trijstūra $ABC$ pamata $BC$ izvēlas punktu $D$, bet uz

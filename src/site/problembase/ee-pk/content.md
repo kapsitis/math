@@ -1,19 +1,3 @@
-# &nbsp;
-
-<h1 style="font-size:28pt">Skaitļu teorija: Igaunijas olimpiādes, 10.kl.</h1>
-
-* <blue>**EE.PK** - **Eesti Piirkonnavoor** (Igaunijas reģionu kārta)</blue>
-* **EE.LO** - Eesti Lõppvoor (Igaunijas gala/valsts kārta)
-* **EE.LVS** - Eesti Sügisene lahtine võistlus (Igaunijas rudens atvērtais konkurss)
-* **EE.LVT** - Eesti Talvine lahtine võistlus (Igaunijas ziemas atvērtais konkurss)
-
-[Matemaatikaolümpiaadid ](http://www.math.olympiaadid.ut.ee/html/index.php)
-
-
-
-
------
-
 # <lo-sample/> EE.PK.1994.7.2 
 
 Atrast mazāko naturālo skaitli, kura pierakstā ir tikai cipari $5$ un $9$, 
@@ -60,7 +44,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> EE.PK.1995.7.2
 
@@ -73,7 +56,6 @@ questionType=Find.Min
 -->
 
 
------
 
 # <lo-sample/> EE.PK.1995.8.3
 
@@ -96,7 +78,6 @@ questionType=ProveDisprove.Exists
 
 
 
------
 
 # <lo-sample/> EE.PK.1996.7.3
 
@@ -110,7 +91,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.1996.8.3
 
@@ -125,7 +105,6 @@ genre=word-problem
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.1996.9.2
 
@@ -141,7 +120,6 @@ questionType=Find.All
 
 
 
------
 
 # <lo-sample/> EE.PK.1997.7.1
 
@@ -153,7 +131,6 @@ genre=integer-equation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.1997.8.1
 
@@ -169,7 +146,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.1997.8.1
 
@@ -183,7 +159,6 @@ concepts=primes,remainder,square
 questionType=Prove.Other
 -->
 
------
 
 # <lo-sample/> EE.PK.1998.7.2
 
@@ -198,7 +173,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.1998.7.3
 
@@ -219,7 +193,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> EE.PK.1998.8.1
 
@@ -232,7 +205,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.1998.9.1
 
@@ -246,7 +218,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> EE.PK.1999.7.1
 
@@ -261,7 +232,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> EE.PK.1999.7.3
 
@@ -285,7 +255,6 @@ genre=word-problem
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.1999.8.3
 
@@ -301,7 +270,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.1999.9.3
 
@@ -316,7 +284,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2000.7.3
 
@@ -347,7 +314,6 @@ genre=word-problem
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2000.8.1
 
@@ -361,7 +327,6 @@ genre=string-counting
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2000.9.1
 
@@ -380,7 +345,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2001.7.3
 
@@ -392,7 +356,6 @@ concepts=primes
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2001.8.1
 
@@ -410,7 +373,6 @@ genre=procedure
 questionType=Find.Min
 -->
 
------
 
 # <lo-sample/> EE.PK.2001.9.1
 
@@ -426,7 +388,6 @@ genre=word-problem
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2001.9.3
 
@@ -439,7 +400,6 @@ concepts=divisibility,power,quadratic-equation
 questionType=Prove.ForAll
 -->
 
------
 
 # <lo-sample/> EE.PK.2002.7.1 
 
@@ -456,7 +416,6 @@ genre=word-problem
 questionType=Find.Only
 -->
 
------
 
 # <lo-sample/> EE.PK.2002.8.1 
 
@@ -472,7 +431,6 @@ concepts=arithmetic-progression
 questionType=Find.All,NoteOnProof
 -->
 
------
 
 # <lo-sample/> EE.PK.2003.7.3 
 
@@ -486,7 +444,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2003.8.1 
 
@@ -499,7 +456,6 @@ Atrast trīs dotos skaitļus.
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2003.8.3 
 
@@ -515,7 +471,6 @@ genre=word-problem
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2004.7.1 
 
@@ -526,7 +481,6 @@ kuru reizinājums ar skaitli $748$ beidzas ar cipariem $2004$.
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2004.8.1 
 
@@ -541,7 +495,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2004.8.3 
 
@@ -557,7 +510,6 @@ genre=word-problem
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2005.7.1 
 
@@ -586,7 +538,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2005.8.1 
 
@@ -616,7 +567,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2006.7.3 
 
@@ -635,7 +585,6 @@ genre=string-counting
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2006.8.3 
 
@@ -649,7 +598,6 @@ concepts=primes,combinations
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2007.7.1 
 
@@ -666,7 +614,6 @@ genre=word-problem
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2007.8.1 
 
@@ -681,7 +628,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2008.7.2 
 
@@ -695,7 +641,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2008.8.2 
 
@@ -709,7 +654,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2009.7.2 
 
@@ -727,7 +671,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2009.8.2 
 
@@ -755,7 +698,6 @@ questionType=Find.All
 
 
 
------
 
 
 # <lo-sample/> EE.PK.2010.7.1 
@@ -771,7 +713,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2010.8.1 
 
@@ -788,7 +729,6 @@ questionType=Find.All
 
 
 
------
 
 # <lo-sample/> EE.PK.2010.10.5
 
@@ -820,7 +760,6 @@ questionType=Prove.ForAll
 strategy=begin-at-the-end
 -->
 
------
 
 ## Atrisinājums
 
@@ -850,7 +789,6 @@ vispirms aprēķina $n(n+1)$, pēc tam galā pieraksta ciparus "25".
 
 
 
------
 
 # <lo-sample/> EE.PK.2011.7.1 
 
@@ -879,7 +817,6 @@ questionType=Find.Min,Find.Max,Prove.NotExists
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2011.8.3 
 
@@ -895,7 +832,6 @@ questionType=Find.All,Find.Min,Find.Max
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2011.10.3
 
@@ -935,7 +871,6 @@ concepts=remainder
 -->
 
 
------
 
 
 ## Atrisinājums
@@ -969,7 +904,6 @@ genre=cryptarithm
 questionType=Find.Max
 -->
 
------
 
 # <lo-sample/> EE.PK.2012.8.2 
 
@@ -983,7 +917,6 @@ questionType=Find.All
 
 
 
------
 
 # <lo-sample/> EE.PK.2012.10.4
 
@@ -1009,7 +942,6 @@ questionType=Find.Count
 -->
 
 
------
 
 
 ## Atrisinājums
@@ -1031,7 +963,6 @@ Iegūta pretruna: Ja $a$ ir pāru, tad $b$ ir nepāru, tad $c$ ir pāru, tad $a$
 
 
 
------
 
 
 # <lo-sample/> EE.PK.2013.8.1 
@@ -1052,7 +983,6 @@ questionType=Find.All
 
 
 
------
 
 # <lo-sample/> EE.PK.2013.10.3
 
@@ -1081,7 +1011,6 @@ questionType=Find.Min
 -->
 
 
------
 
 ## Atrisinājums
 
@@ -1129,7 +1058,6 @@ questionType=Find.Min
 
 
 
------
 
 
 # <lo-sample/> EE.PK.2014.7.1 
@@ -1145,7 +1073,6 @@ genre=cryptarithm
 questionType=Find.All
 -->
 
------
 
 
 # <lo-sample/> EE.PK.2014.8.1 
@@ -1167,7 +1094,6 @@ questionType=ProveDisprove.ForAll,Find.All
 -->
 
 
------
 
 
 # <lo-sample/> EE.PK.2014.10.3
@@ -1212,7 +1138,6 @@ Izmantojam apgalvojumus par mazāko kopīgo dalāmo.
 
 
 
------
 
 
 # <lo-sample/> EE.PK.2015.8.1 
@@ -1226,7 +1151,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 
 # <lo-sample/> EE.PK.2015.10.3
@@ -1259,7 +1183,6 @@ genre=optimization
 questionType=Find.Min
 -->
 
------
 
 
 ## Atrisinājums
@@ -1276,7 +1199,6 @@ questionType=Find.Min
    lineāru vienādojumu sistēmai  $x-y=1$ un $x+y=100$ utml.
 
 
------
 
 # <lo-sample/> EE.PK.2015.10.6
 
@@ -1302,7 +1224,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 ## Atrisinājums
 
@@ -1344,7 +1265,6 @@ Tālāk - tiem $n$, kas dalās ar $10$.
 
 
 
------
 
 
 # <lo-sample/> EE.PK.2016.7.3 
@@ -1363,7 +1283,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2016.8.2 
 
@@ -1379,7 +1298,6 @@ questionType=Find.All
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2016.10.3
 
@@ -1438,7 +1356,6 @@ $$1 = \frac{1}{x} + \frac{1}{y} + \frac{1}{z}.$$
 
 
 
------
 
 # <lo-sample/> EE.PK.2016.10.4
 
@@ -1468,7 +1385,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 
 ## Atrisinājums
@@ -1488,7 +1404,6 @@ neviens no šiem kvadrātiem nevar būt $2^2$ vai lielāks.
 
 
 
------
 
 
 # <lo-sample/> EE.PK.2017.7.1 
@@ -1508,7 +1423,6 @@ questionType=Find.All,Find.Max
 -->
 
 
------
 
 
 # <lo-sample/> EE.PK.2017.8.1 
@@ -1526,7 +1440,6 @@ questionType=ProveDisprove.Exists
 -->
 
 
------
 
 # <lo-sample/> EE.PK.2017.10.2
 
@@ -1556,7 +1469,6 @@ questionType=Find.All
 
 
 
------
 
 ## Atrisinājums
 
@@ -1594,7 +1506,6 @@ No pirmā vienādojuma izsaka $y=-8-x$ un ievieto otrajā:
 $3x + 4(-8-x) = -32-x = -3$. Tad $(x,y)=(-29,21)$.
 
 
------
 
 # <lo-sample/> EE.PK.2017.10.3
 
@@ -1623,7 +1534,6 @@ questionType=Prove.Other
 -->
 
 
------
 
 ## Atrisinājums
 
@@ -1663,7 +1573,6 @@ Eksistē arī citādas atbildes, kuras uz $(3,4,6,12)$ vai tā
 daudzkārtņiem reducēt nevar. 
 
 
------
 
 
 # <lo-sample/> EE.PK.2018.10.3
@@ -1695,7 +1604,6 @@ genre=digit-manipulation
 questionType=Find.All
 -->
 
------
 
 
 ## Atrisinājums
@@ -1741,7 +1649,6 @@ pēdējo ciparu uz sākumu.
 
 
 
------
 
 # <lo-sample/> EE.PK.2019.7.1
 
@@ -1762,7 +1669,6 @@ ru=
 questionType=Find.All
 -->
 
------
 
 # <lo-sample/> EE.PK.2019.8.1
 
@@ -1784,7 +1690,6 @@ questionType=Find.All
 
 
 
------
 
 # <lo-sample/> EE.PK.2019.10.3
 
@@ -1812,7 +1717,6 @@ concepts=linear-expression
 questionType=Find.Count
 -->
 
------
 
 ## Atrisinājums
 
