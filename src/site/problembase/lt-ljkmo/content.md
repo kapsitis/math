@@ -409,19 +409,10 @@ atlikumu $3$, dalot ar $5$)?
 * Aplūkojam aritmētisku progresiju ar $2003$ daudzkārtņiem
 un katra šāda skaitļa $2003k$ ciparu summu $S(2003k)$:
 
-<table>
-<tr>
-<th>$k$</th><td>$1$</td><td>$2$</td><td>$3$</td><td>$4$</td><td>$5$</td><td>$6$</td><td>$7$</td><td>$\ldots$</td>
-</tr>
-<tr>
-<th>$2003 \cdot{}k$</th>
-<td>$2003$</td><td>$4006$</td><td>$6009$</td><td>$8012$</td><td>$10015$</td><td>$12018$</td><td>$14021$</td><td>$\ldots$</td>
-</tr>
-<tr>
-<th>$S(2003 \cdot{}k)$</th>
-<td>$5$</td><td>$10$</td><td>$15$</td><td>$11$</td><td>$7$</td><td>$12$</td><td>$8$</td><td>$\ldots$</td>
-</tr>
-</table>
+| $k$               | $1$     | $2$     | $3$     | $4$     | $5$     | $6$     | $7$     | $\ldots$ |
+| ----------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | -------- |
+| $2003 \cdot k$    | $2003$  | $4006$  | $6009$  | $8012$  | $10015$ | $12018$ | $14021$ | $\ldots$ |
+| $S(2003 \cdot k)$ | $5$     | $10$    | $15$    | $11$    | $7$     | $12$    | $8$     | $\ldots$ |
 
 
 
@@ -1419,10 +1410,11 @@ savu skaitlisko izturību. Reizēm viņš saka Dominikam:
 – Iedomājies divas bezgalīgas skaitļu virknes. Pirmajā ierakskstīti 
 visi skaitļa $29$ daudzkārtņi. Otrajā rindiņā rakstītas pirmās rindiņas skaitļu ciparu summas:
 
-<table>
-<tr><td>$29$</td><td>$58$</td><td>$87$</td><td>$116$</td><td>$145$</td><td>$\ldots$</td>
-<tr><td>$11$</td><td>$13$</td><td>$15$</td><td>$8$</td><td>$10$</td><td>$\ldots$</td>
-</table>
+| $29$  | $58$  | $87$  | $116$ | $145$ | $\ldots$ |
+| ----- | ----- | ----- | ----- | ----- | -------- |
+| $11$  | $13$  | $15$  | $8$   | $10$  | $\ldots$ |
+
+
 
 Vai varētu man pierādīt, ka ikviens skaitlis, kurš vismaz 
 reizi parādījies apakšajā rindiņā, parādās tajā bezgalīgi daudz reižu?  

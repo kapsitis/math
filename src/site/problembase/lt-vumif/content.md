@@ -551,6 +551,28 @@ Galīgā divu spēlētāju spēlē par aukstu pozīciju sauksim tādu, kurā pir
 jebkurš viņa gājiens noved karstā pozīcijā (no kuras pretinieks var atkal atgriezties aukstā pozīcijā utt. 
 līdz otrā spēlētāja uzvarai. 
 
+
+Pipe table:
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1    | Data 1   | Data 2   |
+| Row 2    | Data 3   | Data 4   |
+
+
+Grid table: 
+
++-----------+-----------+-----------+
+| Header 1  | Header 2  | Header 3  |
++===========+===========+===========+
+| Row 1     | Data 1    | Data 2    |
++-----------+-----------+-----------+
+| Row 2     | Data 3    | Data 4    |
++-----------+-----------+-----------+
+
+
+
+
 <table>
 <tr>
 <td><blue>(0,0)</blue></td><td><red>(1,0)</red></td><td><blue>(2,0)</blue></td><td><red>(3,0)</red></td><td><blue>(4,0)</blue></td>
