@@ -107,7 +107,7 @@ Uz katras no vairākām kartītēm uzrakstīts pa naturālam skaitlim (starp tie
 * [misc.extr.pigeon](#)
 * genre:construction
 * questionType:ProveDisprove.Exists
-* strategy:interpretation
+* strategy:Interpretation
 
 </small>
 
@@ -328,7 +328,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 * genre:game
 * concepts:divisibility
 * questionType:Algorithm
-* strategy:contradiction
+* strategy:Contradiction
 
 </small>
 
@@ -357,7 +357,7 @@ lai nekādu divu izvēlēto skaitļu starpība nebūtu ne $3$, ne $4$, ne $7$?
 * [misc.extr.pigeon](#)
 * genre:optimization
 * questionType:Find.Max
-* strategy:exhaustiveSearch,symmetry
+* strategy:ExhaustiveSearch,Symmetry
 
 </small>
 
@@ -489,7 +489,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 * genre:game
 * concepts:divisibility
 * questionType:Algorithm
-* strategy:contradiction
+* strategy:Contradiction
 
 </small>
 

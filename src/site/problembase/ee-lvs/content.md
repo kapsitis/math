@@ -27,7 +27,9 @@ genre=integer-equation
 
 
 
-## Attālumi starp pilniem kvadrātiem
+## Atrisinājums
+
+Aplūkojam attālumus starp pilniem kvadrātiem
 
 * Arī $4^n = (2^n)^2$ ir pilns kvadrāts. 
 * Tad $(2^n)^2 + 1 + 2^2 + 3^3 = (2^n)^2 +32$ vērtībām
@@ -37,9 +39,7 @@ $$(N+1)^2 = N^2 + 2N+ 1 \geq N^2 + 33.$$
 * Piemēram $4^4 = 16^2 = 256$. Bet jau nākamais 
 pilnais kvadrāts $17^2 = 289$. Atstarpe ir $33$. 
 
-
-
-## Ievietojam n=1,2,3
+Ievietojam vērtības $n=1,2,3$:
 
 * Vērtība $n=4$ neder, kā jau redzējām, jo $288$ nav pilns kvadrāts.
 * Vērtībām $n>4$ attālumi starp $4^n$ un nākamo pilno kvadrātu 
@@ -61,6 +61,7 @@ ir pirmskaitļi?
 <small>
 
 * [mod.eq.contradict](#)
+* strategy:ModularArithmeticContradiction
 
 </small>
 
@@ -78,7 +79,7 @@ concepts=primes
 
 
 
-## Atlikumi
+## Atrisinājums
 
 Kubiskām funkcijām $p^3$ mēdz būt izdevīgi aplūkot 
 atlikumus, dalot ar $7$ vai $9$. Ir zināms, ka 
@@ -89,8 +90,7 @@ p^3 \equiv 0,1,8 & (\mbox{mod}\,9)\\
 \end{array} \right.$$
 
 
-
-## Pretrunas modulis
+Atrodam pretrunas moduli:
 
 * Pieskaitāmie skaitļi $2008, 2010$ dod atlikumus $6$ un $1$, 
 dalot ar $7$. 

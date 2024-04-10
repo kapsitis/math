@@ -29,29 +29,24 @@ questionType=Find.All
 
 
 
-## <lo-soln/> LT.LJKMO.1999.7_8.1 (atrod S un R)
+## Atrisinājums
 
-* Reizināšana pierakstīta, izlaižot otro no četriem saskaitāmajiem. Tas notiek vienīgi tad, ja 
+**Atrod S:** Reizināšana pierakstīta, izlaižot otro no četriem saskaitāmajiem. Tas notiek vienīgi tad, ja 
 $S=0$. 
-* Pēdējais no četriem saskaitāmajiem ir četrciparu skaitlis, 
+
+**Atrod R:** Pēdējais no četriem saskaitāmajiem ir četrciparu skaitlis, 
 tātad $R \cdot \overline{RASK} < 10^5$ (četrciparu skaitlis) parāda, ka $R \leq 3$. 
-* Reizināšanas rezultāts tomēr ir astoņciparu skaitlis, tātad $R \geq 3$. 
+Reizināšanas rezultāts tomēr ir astoņciparu skaitlis, tātad $R \geq 3$.
+Tātad $R=3$. 
 
-**Secinājums:** $S=0$ un $R=3$. 
-
-
-
-## <lo-soln/> LT.LJKMO.1999.7_8.1 (atrod A)
-
-* Tā kā $A \neq 0$, tad mēģinot ņemt $A = 1$ iegūstam $3109^2 = 9665881$, 
+**Atrod A:** Tā kā $A \neq 0$, tad mēģinot ņemt $A = 1$ iegūstam $3109^2 = 9665881$, 
 kas nav 8-ciparu rezultāts. No šejienes redzam, ka pat vislielākā 
-$K$ vērtība $K=9$ neder. Tātad $A \neq 1$. 
-* Ja $A > 3$ (piemēram $A=4$), tad $R \cdot \overline{RASK} \geq 3 \cdot 3401$ nav 4-ciparu skaitlis. 
-Tātad $A \leq 3$. 
+$K$ vērtība $K=9$ neder. Tātad $A \neq 1$.  
+Ja $A > 3$ (piemēram $A=4$), tad $R \cdot \overline{RASK} \geq 3 \cdot 3401$ nav 4-ciparu skaitlis. 
+Tātad $A \leq 3$.  
+Der vienīgi vērtība $A=2$, kas pārsniedz $1$, bet ir mazāka par $4$ (un nav vienāda ar $R=3$).
 
-**Secinājums:** Der vienīgi vērtība $A=2$, kas pārsniedz $1$, bet ir mazāka par $4$ (un nav vienāda ar $R=3$).
-
-* Ja $K \geq 4$, tad $K \cdot \overline{RASK}$ nav 4-ciparu. Tātad $K=1$. 
+**Atrod K:** Ja $K \geq 4$, tad $K \cdot \overline{RASK}$ nav 4-ciparu. Tātad $K=1$. 
 
 **Atbilde:** $\overline{RASK} = 3201$. 
 
@@ -83,15 +78,16 @@ questionType=Find.Any,Find.Min
 
 
 
-## <lo-soln/> LT.LJKMO.1999.7_8.3
+## Atrisinājums
 
 * Pēdējiem diviem cipariem skaitlī jābūt nullēm, lai dalītos ar $100$ (dalāmības pazīme ar $100 = 2^2 \cdot 5^2$). 
 * Ciparu summu $100$ cenšamies iegūt, izvietojot vislielākos ciparus ("9") iespējami tuvu skaitļa beigām:
 $$M = 100\ldots009999999999900.$$
-* Iegūstam skaitli $M$, kam ir $100$ cipari - sākumā $1$ vieninieks, tad $86$ nulles, tad $11$ deviņnieki, visbeidzot $2$ nulles.
+* Iegūstam skaitli $M$, kam ir $100$ cipari - sākumā $1$ vieninieks, tad $86$ nulles, 
+  tad $11$ deviņnieki, visbeidzot $2$ nulles.
 
 Mazāks skaitlis nevar būt, jo pirmais cipars nevar būt nulle. Bet jebkurā citā veidā iegūstot to pašu ciparu summu, 
-kāds no esošā skaitļa $M$ cipariem no nulles pārtaps par kaut ko citu, t.i. pieaugs.
+kāds no esošā skaitļa $M$ cipariem no nulles pārtaps par kaut ko citu, t.i. skaitlis kļūs lielāks.
 
 
 
@@ -120,21 +116,22 @@ questionType=Find.Min
 
 
 
-## <lo-soln/> LT.LJKMO.2000.7_8.3 (pārlase)
+## Atrisinājums
 
 * Ciparu summa nevar būt $1$, jo skaitlis $10\ldots0 = 10^n$ satur tikai 
-pirmreizinātājus $2$ un $5$, tas ar $23$ nedalīsies.
+  pirmreizinātājus $2$ un $5$, tas ar $23$ nedalīsies.
 * Ciparu summu $2$ var mēģināt iegūt, aplūkojot skaitļus $11$, $101$, $1001$, utt. 
-(Nav jēgas pievienot beigās nulles, jo tās neiespaidos dalāmību ar $23$.)
-* Ar pilno pārlasi, mēģinot dalīt $11, 101, 1001,\ldots$, iegūstam, ka mazākais skaitlis, kuru var izdalīt ar $23$ ir šāds:
+  (Nav jēgas pievienot beigās nulles, jo tās neiespaidos dalāmību ar $23$.)
+* Ar pilno pārlasi, mēģinot dalīt $11, 101, 1001,\ldots$, iegūstam, 
+  ka mazākais skaitlis, kuru var izdalīt ar $23$ ir šāds:
 $$100000000001 = 10^{11} + 1.$$
 
 **Piezīme:** Bezgalīgu ciparu virkni $10^k = 1000\ldots$ dalot "stabiņā" ar $23$ var gaidīt brīdi, 
 kad radīsies atlikums $22$. Tanī brīdī $10^k + 1$ dalās ar $23$ bez atlikuma.
 
-
-
-## <lo-soln/> LT.LJKMO.2000.7_8.3 (rekurenta virkne)
+**Piezīme:** Skaitli, kuram $10^k + 1$ dalās ar $23$ var atrast arī, izmantojot 
+Mazo Fermā teorēmu. Saskaņā ar to, $10^{22} \equiv 1 \pmod {23}$. Tāpēc 
+kāpinot divreiz mazākā pakāpē $10^{11}$ dos vai nu atlikumu $1$, vai atlikumu $-1$, dalot ar $23$. 
 
 Virkni $11,101,1001,10001,\ldots$ var izteikt ar rekurentu sakarību: 
 $$\left\{ \begin{array}{l}
@@ -177,7 +174,7 @@ questionType=Find.Min
 
 
 
-## <lo-soln/> LT.LJKMO.2001.7_8.1
+## Atrisinājums
 
 * Ja skaitļa pierakstā izmantoti $k$ trijnieki, tad $k$ dalās
 ar $7$, citādi $k \cdot 3$ nedalās ar $7$ (septiņnieku pieskaitīšana
@@ -218,7 +215,10 @@ questionType=Find.All
 -->
 
 
-## <lo-soln/> LT.LJKMO.2001.7_8.2 (uzmin dažas saknes)
+## Atrisinājums
+    
+    
+Vispirms uzminam dažas saknes.
 
 2.pakāpes vienādojumiem ar 2 nezināmajiem (veselos skaitļos)
 saknes nav viegli izteikt ar formulām; tāpēc mēģinām uzminēt
@@ -229,10 +229,6 @@ dažas saknes, ievietojot mazus $y$:
 * Ja $y=-1$, tad $x + 1 = x^2 - x + 1$ jeb $x^2 - 2x = 0$ un saknes
 ir $x_1 = 0$, $x_2 = 2$.  
 
-
-
-## <lo-soln/> LT.LJKMO.2001.7_8.2 (citas saknes?)
-
 Fiksētam $y$ vienādojums ir kvadrātvienādojums pret $x$: 
 $$x^2 + (y-1)x + (y^2+y) = 0.$$ 
 Lai būtu atrisinājumi, diskriminantam jābūt nenegatīvam:
@@ -240,21 +236,14 @@ $$D = (y-1)^2 - 4(y^2 + y) \geq 0$$
 jeb $y^2 - 2y + 1 - 4y^2 - 4y = -3y^2 -6y + 1\geq 0$ jeb
 $$3y^2 + 6y - 1 \leq 0.$$
 
-
-
-## <lo-soln/> LT.LJKMO.2001.7_8.2 (citas saknes?)
+Pārbaudām, vai ir citas saknes?
 
 Nevienādība $3y^2 + 6y - 1 \leq 0.$ izpildās, ja $y \in [y_1,y_2]$, kur
 $$y_{1,2} = \frac{-3 \pm \sqrt{9+3}}{3};\;\;y_1 \approx -2.15;\;\;y_2 \approx 0.15.$$
-
 Intervālā ir veselas $y$ vērtības: $y \in \{ -2,-1,0 \}$
 
 * Ja $y=-2$, tad $x+2 = x^2 - 2x + 4$ jeb $x^2 - 3x + 2$ un saknes ir $x_1 = 1$, $x_2 = 2$. 
 * Gadījumus $y = -1$, $y=0$ skatījām agrāk (pie minēšanas). 
-
-
-
-## <lo-soln/> LT.LJKMO.2001.7_8.2 (kopsavilkums)
 
 Apkopojam visas atbildes:
 $$\left\{ \begin{array}{l}
@@ -300,11 +289,11 @@ questionType=Find.Min
 
 
 
-## <lo-soln/> LT.LJKMO.2002.7_8.1
+## Atrisinājums
 
-* Skaitļi $10$ un $14$ noteikti jāsvītro, jo tie ir vienīgie, kuri 
+Skaitļi $10$ un $14$ noteikti jāsvītro, jo tie ir vienīgie, kuri 
 satur attiecīgi reizinātājus $5$ un $7$. 
-* Sareizinot visus citus, iegūstam $2^{13} \cdot 3^2$. 
+Sareizinot visus citus, iegūstam $2^{13} \cdot 3^2$. 
 Pirmreizinātājs $2$ kāpināts nepāra pakāpē, bet vajag pāra (citādi 
 nebūs pilns kvadrāts). 
 
@@ -323,7 +312,7 @@ $$3xy - x - 2y = 8.$$
 **(c)** Atrodiet trīs veselu skaitļu pārus, kas apmierina šo vienādojumu.  
 **(d)** Atrodiet visus šī vienādojuma atrisinājumu pārus.
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Duota lygtis
 $$3xy - x - 2 y = 8.$$
 **(a)** Raskite vieną sveikųjų skaičių porą $(x; y)$, tenkinančią šią lygtį.  
@@ -386,17 +375,17 @@ questionType=Find.Any
 
 
 
-## <lo-hints/>  LT.LJKMO.2003.7_8.3
+## Ieteikums
 
 * Vai protam apmierināt katrus divus no trim nosacījumiem?
 * Kurus divus nosacījumus ir visgrūtāk apmierināt?
 * Kā noteikta lieluma soļiem palielināt ciparu summu, saglabājot dalāmību ar $2003$?
-Vai mākam izveidot (ja nepieciešams divus vai vairākus) tāda lieluma soļus, 
-lai ciparu summa varētu pieaugt tieši līdz $2003$.
+  Vai mākam izveidot (ja nepieciešams divus vai vairākus) tāda lieluma soļus, 
+  lai ciparu summa varētu pieaugt tieši līdz $2003$.
 
 
 
-## <lo-soln/> LT.LJKMO.2003.7_8.3 (polsterēšana)
+## Atrisinājums
 
 * Ir viegli panākt, lai skaitlis beigtos ar cipariem "2003" - var vienkārši uzrakstīt $2003$. 
 * Sākotnējais skaitlis $2003$ dalās ar $2003$.
@@ -408,9 +397,6 @@ daudzkārtņus).
 Pirmā polsterēšanas doma (var dabūt ciparu summas, kas dalās ar $5$):
 $$\underbrace{2003}\underbrace{2003}\ldots\underbrace{2003}.$$
 
-
-## <lo-soln/> LT.LJKMO.2003.7_8.3 (piemēra koriģēšana)
-
 * Iespraužot skaitļa pieraksta vidū jaunu fragmentu "2003", 
 ciparu summa pieaug par soli $5$ (tas joprojām 
 beidzas ar cipariem "2003" un dalās ar $2003$). 
@@ -419,9 +405,6 @@ beidzas ar cipariem "2003" un dalās ar $2003$).
 dalās ar $2003$, bet tā ciparu summa ir $3$ (vai skaitlis, kas dod 
 atlikumu $3$, dalot ar $5$)? 
 
-
-
-## <lo-soln/> LT.LJKMO.2003.7_8.3 (2003k ciparu summas)
 
 * Aplūkojam aritmētisku progresiju ar $2003$ daudzkārtņiem
 un katra šāda skaitļa $2003k$ ciparu summu $S(2003k)$:
@@ -481,22 +464,17 @@ questionType=Find.Max
 
 
 
-## <lo-soln/> LT.LJKMO.2003.7_8.4 (piemērs)
+## Atrisinājums
 
-* Visai daudzi skaitļi $[1;22]$ dalās viens ar otru.
 * Sadalām kopu divās daļās (no $1$ līdz $11$ un arī 
-no $12$ līdz $22$). Centīsimies iespējami vairāk likt pāros
-skaitļus no pretējām daļām, veidojot *divdaļīgu grafu*. 
+  no $12$ līdz $22$). Centīsimies iespējami vairāk likt pāros
+  skaitļus no pretējām daļām, veidojot *divdaļīgu grafu*. 
 
 ![Piemērs](LT.LJKMO.2003.7_8.4.png)
 
 Vairums bultiņu ir starp $n$ un $2n$. 
 Visas citas ir violetas. Viena ir novilkta starp virsotnēm $2$ un $4$ (abas 
 atrodas vienā daļā) - tas vairs neatbilst divdaļīga grafa nosacījumam.
-
-
-
-## <lo-soln/> LT.LJKMO.2003.7_8.4 (nevar labāk)
 
 * Pirmskaitļi $13,17,19$ visi pārsniedz $22/2 = 11$, tie nevar būt nevienai 
 veselai daļai saucējā. 
@@ -602,7 +580,7 @@ risināsim veselos skaitļos $a$, $b$, $c$ un $d$.
 **(b)** Atrodiet divus tādus skaitļu $a$, $b$, $c$ un $d$ četriniekus $(a,b,c,d)$.  
 **(c)** Atrodiet visus tādus skaitļu $a$, $b$, $c$ un $d$ četriniekus $(a,b,c,d)$.
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Lygčių sistemą
 $$\left\{ \begin{array}{l}
 a^2+b^2= 2(c+d)\\
@@ -663,7 +641,7 @@ Cik tādu pāru viņi atradīs un kādi ir šie pāri?
 tāds veselu pozitīvu skaitļu $x$ un $y$ pāris $(x, y)$, ka
 $$x^2 - y^2 - x + y = 2007.$$
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 **(a)** Šerlokas Holmsas kartu su daktaru Vatsonu norėtų surasti 
 visas sveikųjų teigiamų skaičių $x$ ir $y$ poras $(x, y)$, kad
 $$x^2 - y^2 - x + y = 10.$$
@@ -698,7 +676,7 @@ Toms un Džerijs dabūtu prēmiju?
 **(c)** Vai var atrast $6$ tādus $30$ daudzkārtņus?  
 **(d)** Vai Toms un Džerijs var iegūt $8$ prēmijas? 
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Surimtėję Tomas ir Džeris įsidarbino kontrolieriais 
 Daliklių apskaitos inspekcijoje. Pats
 pirmasis jiems pavestas darbas buvo iš eilės tikrinti 
@@ -794,7 +772,7 @@ Vai gudriniekam Reksam ir taisnība? Atbildi pamatojiet.
 ko nedarītu viņa pretinieks?  
 Kā tur ir? Atbildi pamatojiet.
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Tyliomis žiemos naktimis, kai išsiskirsto paskutinieji
 negausūs praeiviai, amžinasis miesto sergėtojas tylusis
 Rolandas ramiai nulipa centre nuo pjedestalo ir su 
@@ -842,7 +820,7 @@ kādēļ šai krustskaitļu mīklai ir viens vienīgs atrisinājums.
 **Horizontāli:** 1. Skaitļa $3$ daudzkārtnis. 3. Trīskāršots pirmais skaitlis.  
 **Vertikāli:** 1. Skaitļa $25$ daudzkārtnis. 2. Pilns kvadrāts. 
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Į šį kryžiaskaitį (nepainioti su kryžiažodžiu) maestro 
 Rainys nori žūtbūt įrašyti $4$ dviženklius skaičius - 
 $2$ horizontaliai ir $2$ vertikaliai. Jis yra gerai įsikalęs
@@ -874,7 +852,7 @@ Ko gudrākajiem jūrniekiem vajadzētu atbildēt princesei?
 Atbildi, protams, jūrnieki pamatoja, lai princese par viņiem nezobotos.  
 Vai to var izdarīt?
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Jūrų princesė visų išmintingesnių Sinbado laivo jūrininkų klausinėdavo, ar
 galima tarp skaičių, esančių kairiojoje lygybės pusėje 
 $$7^5\;\;7^4\;\;7^3\;\;7^2\;\;7\;\;1\,=\,2009$$
@@ -962,7 +940,7 @@ kāds tad ir šī 100-ciparu skaitļa izdzisušais 50-tais cipars,
 un līdzkamēr viņš viņai neparādīs, ar cik cipariem rakstāms
 un kāds skaitlis jāceļ kvadrātā, lai iegūtu sākotnējo skaitli. 
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Guvioji Kielė Kamilė šimtamečio ąžuolo viršūnėje rado 
 senovinį pergamentą su tituliniame puslapyje užrašytu 
 šimtaženkliu skaičiumi. Jo pirmieji $49$ skaitmenys buvo 
@@ -1006,7 +984,7 @@ Trīsciparu skaitli bez nulles cipariem divkāršoja un divkāršotajā
 skaitlī arī nav nulles ciparu. Kādu lielāku skaitu reižu pēc vienas 
 tādas divkāršošanas var samazināties skaitļa ciparu reizinājums.
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Genelis Baltrus, kuris pats yra didis paukščių profsąjungų aktyvistas ir, ko čia
 slėpti, paties Atamano Šarkos rinkimų patikėtinis ir asmeninis patarėjas, baigęs pamainą
 labai mėgsta sausoje pušyje dar pakalinėti kokią sudėtį stulpeliu ar dalybą kampu.
@@ -1043,7 +1021,7 @@ bet pašu skaitli var dalīt $12$ vienādās veselās daļās.
 Otrajā daļā jau bez kādas izlocīšanās bija prasīts atrast nevis jebkuru, 
 bet vismazāko no visiem šādiem $100$-ciparu skaitļiem.
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Šarkų, kėkštų ir blezdingų profiliuotoje dailiųjų amatų mokykloje, kur nuo
 šimtmečių sustiprintai visada buvo dėstoma aritmetika bei puošniųjų akmenukų kainų
 svirduliavimai, per baigiamąjį kontrolinį šiais metais, tiesa, ne visiems, o tik giliau į
@@ -1075,7 +1053,7 @@ skaitļu pāri $(m;n)$, kas atbilst šim vienādojumam;
 **(b)** atminot vienu pāri, minūtes laikā var atrast arī otru atbilstošu pāri.  
 **(c)** tālāk dzenītis Baltrus tieši pajautāja dēlam Balim, cik pavisam ir šādu pāru?
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Genelis Baltrus savo sūnų Balį moko kantriai spėlioti viską, ką tik įmanoma,
 pavyzdžiui, visokiausius natūraliuosius (sveikuosius teigiamus) lygčių sprendinius.
 Genelis Baltrus savo sūnui visą savaitę kalė į galvą mintį, kad turint lygtį
@@ -1107,7 +1085,7 @@ Atamans Žagada šajā sakarībā pajokoja reti atklāti, lai dzirdētu visa put
 kaut šo aforismu visi jau ne reizi bija dzirdējuši: Žagata atkārtoja, ka pieklājīgiem 
 putniem piedāvātie uzdevumi ir divējādi: vienkārši vai arī interesanti. 
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Atamano Šarkos pavedimu doktorantas Apuokas su savo magistrantais
 kėkštais ir bakalaurais žvirbliais absoliučiai – neįtikėtina, bet be klaidų, įsidėmėkite, be
 klaidų – sudaugino visus sveikuosius skaičius nuo $1$ iki $2012$ ir, iš gautosios sandaugos
@@ -1140,7 +1118,7 @@ Jau kuro laiku tante Leokādija visiem radiniekiem un paziņām uzdzen šausmas 
 Kāds ir vislielākais trīsciparu skaitlis, par kuru nekādi nepateiksi, nepierādīsi, nedabūsi, 
 ka tas būtu ne tāpat vien zinātnieku izdomāts?
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Kurmio Karolio teta Kas(t)ė Rausytė nuo jaunų dienų tiki į triženklių skaičių
 harmoniją. Ji labai vertina visus tokius triženklius skaičius ir laiko, kad jie nebe reikalo
 yra mokslininkų sugalvoti – taip jai be jokių juokų atrodo – kuriuos galima gauti prie
@@ -1169,7 +1147,7 @@ atlikušajās kaudzēs tā, lai iegūtajās $8$ kaudzēs būtu vienāds skaits a
 Bez tam, jebkuru divu kaudžu visus akmeņus var sadalīt atlikušajās kaudzēs tā, lai 
 lai iegūtajās $7$ kaudzēs būtu vienāds akmeņu skaits. Atrodiet mazāko iespējamo $n$ vērtību. 
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Ant žemės guli $9$ akmenų krūvos (kiekvienoje bent po vieną akmenį). Bebras
 Babrungas-Bungas patikrino, kad bet kuriose dviejose krūvose yra po skirtingą akmenų
 skaičių, o didžiausioje krūvoje, jo žodžiais tariant, yra $n$ akmenų. Vėliau jam dar
@@ -1199,7 +1177,7 @@ no tāda skaitļa atņem $1$. Pēc tam visus agrākos skaitļus nodzēš un to v
 Kāds skaitlis būs lielākais no visiem uz tāfeles uzrakstītajiem, kad savas
 izmaiņas būs beidzis pēdējais, 85.zaķis Pišķis, vārdā Mīkoliņš?
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Miško viduryje stovi didžiulė lenta, prie kurios bruzda $85$ Kiškiai Piškiai, kurie ką moka, ką ne,
 bet visi jie skaičius rašo „šviesos greičiu“. Kaip sakyta, jie bruzda pačiame Mokyto Miško viduryje
 prie neįsivaizduojamo didumo lentos, kurioje iš eilės yra surašyti visi sveikieji skaičiai nuo $1$ iki
@@ -1236,7 +1214,7 @@ daudzciparu skaitlis, kurā ir vismaz divi divnieki, vismaz divi četrinieki un 
 astoņnieku, un kurš nedalās bez atlikuma ar $4$? 
 
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Lapė Snapė Saldžiūnė vėl porino Zuikučiui Paikučiui kažkokias veikiausiai jos pačios išgalvotas
 fantazijas apie tai, kad gyvena kažkur Aritmetikos brūzgynuose toks daugiaženklis skaičius,
 kuriame garantuotai yra bent du dvejetai, dar garantuotai yra dar ir bent du ketvertai – ir net dar ir
@@ -1289,7 +1267,7 @@ taizemes pērle, turklāt pierādiet, ka tas tiešām tāds ir.
 **(c)** Noskaidrojiet, vai $143$ ir vai nav Taizemes pērle un, 
 saprotams, pareizi pamatojiet savu atbildi.
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Natūralusis skaičius $N$ vadinamas *nežemiško sumanumo skaičiumi*, 
 arba, trumpai, *tailandiškuoju perlu*, jeigu jis pasižymi 
 tokia savybe: egzistuoja teigiamas sveikasis skaičius $k$, 
@@ -1331,7 +1309,7 @@ paša skaitļa dalīšanu iar $777$ un ieguva, ka arī tagad
 Vai jūs varētu, tikai to zinādami, mums paskaidrot, kāds 
 varētu būt skaitlis $N$?
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Skaičius $4$ į skaičių $97$ „sutelpa“ net $24$ kartus ir 
 sutilpus dar $1$ „atlieka“, nes $97 = 4 \cdot 24 + 1$.
 Tada „aritmetiškai pasikaustę“ mokyti kinų tėvai 
@@ -1453,7 +1431,7 @@ kāds ir mazākais skaitlis apakšējā rindiņā un kāds skaitlis uzrakstīts 
 kur šis mazākais skaitlis parādās pirmo reizi.  
 Vai arī jums viss ir tikpat acīmredzami kā Zirgam Dominikam?
 
-<text lang="en"></div></text><text lang="lt">
+<text lang="lt">
 Arklio Dominyko draugas Asiliukas Apolinaras dažnai mėgsta patikrinti 
 jo skaitinę ištvermę. Kartą jis sako Dominykui:  
 – Įsivaizduok dvi begalines skaičių eilutes. Pirmoje surašyti visi skaičiaus 

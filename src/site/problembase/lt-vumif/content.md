@@ -15,14 +15,16 @@ yra natūralusis.
 * [alg.poly.division](#)
 * [alg.ineq.equations](#)
 * [comb.full](#)
+* strategy:CaseAnalysis
 
 </small>
 
 
 
 
-## Dalām divus polinomus
+## Atrisinājums
 
+*#PolynomialDivision*  
 Ja skaitītājā polinoma pakāpe (kubs) ir vismaz tāda
 pati kā saucējā (kvadrāts), tad tos var dalīt, iegūstot
 atlikumu:
@@ -36,9 +38,7 @@ būs naturāls t.t.t. ja daļa $\frac{-7n+3}{n^2+7}$ ir vesela.
 $$|n^2 + 7| \geq |7n + 7| > |-7n+3|$$
 
 
-
-## Pilnā pārlase
-
+*#CaseAnalysis*  
 $\frac{-7n+3}{n^2+7}$ ievietojam 
 visas vērtības $n=1,2,3,4,5,6$. (Lielākas ievietojot, 
 nav cerību iegūt naturālu skaitli, 
@@ -78,8 +78,9 @@ yra natūralieji.
 
 
 
-## Sadalījums pirmreizinātājos
+## Atrisinājums
 
+*#PrimeFactorization*  
 Apzīmējam $n = 2^a3^b5^c7^d$ ir $n$ sadalījums pirmreizinātājos. 
 Citus pirmreizinātājus neieviešam
 (aizdomas, ka tie nebūs vajadzīgi - citi kāpinātāji būs $0$). 
@@ -89,8 +90,8 @@ Citus pirmreizinātājus neieviešam
 * $\sqrt[7]{7n} \in \mathbb{N}$ nozīmē, ka $a,b,c,d-1$ dalās ar $7$
 
 
-
-## Risinām sistēmiņas skaitļiem a,b,c,d
+*#CongrienceSystems*  
+Risinām kongruenču sistēmas skaitļiem $a,b,c,d$.
 
 * (Veseli nenegatīvi kāpinātāji) 
 $a$ un $b$ dalās ar $5$ un $7$, dod atlikumu $5$, dalot ar $6$. 
@@ -171,7 +172,7 @@ kad vienas skaičius būtų kito kvadratas?
 
 
 
-## Ciparu skaita novērtējums
+## Atrisinājums
 
 **Apgalvojums:** Ja naturāla skaitļa $n$ decimālpierakstā ir $k$
 cipari, tad tā kvadrāta $n^2$ decimālpierakstā 
@@ -185,9 +186,7 @@ Tad šī skaitļa kvadrāts ir
 $$(10^k-1)^2 = 10^{2k} - 2\cdot{}10^k + 1=\overline{\underbrace{9\ldots9}_k8\underbrace{0\ldots0}_k1},$$
 
 
-
-## Gadījumu pārlase
-
+*#CaseAnalysis*
 Desmit ciparus var sadalīt divās daļās kā $1+9=2+8=3+7=4+6=5+5$. 
 
 * Kāpinot kvadrātā $3$-ciparu skaitli, var iegūt $5$-ciparu vai $6$-ciparu rezultātu. 
@@ -196,9 +195,6 @@ Desmit ciparus var sadalīt divās daļās kā $1+9=2+8=3+7=4+6=5+5$.
 Neviena no summām $3+5$, $3+6$, $4+7$, $4+8$ nav precīzi $10$. Tātad šādi sadalīt nevar, 
 jo nebūs vajadzīgais ciparu kopskaits.
 
-
-
-## Variācija
 
 **Radniecīgs uzdevums:** Ja atmetam ciparu $0$, uzdevums jārisina citādi: šoreiz var kāpināt kvadrātā $3$-ciparu 
 skaitli $n$ un iegūt $6$-ciparu rezultātu $m=n^2$. 
@@ -255,9 +251,9 @@ $$m^2 + 2m - 9 = n^2 + n.$$
 </small>
 
 
+## Atrisinājums
 
-## Atdalām pilno kvadrātu
-
+*#CompleteTheSquare*  
 Pārrakstām doto vienādību:  
 $m^2 +2m +1 -10 = n^2 + n.$  
 $(m+1)^2 = n^2 + n + 10.$
@@ -266,9 +262,7 @@ Jāatrod tie $n$, kuriem
 $n^2 + n + 10$ ir pilns kvadrāts, tad
 $$m = \sqrt{n^2+n+10} - 1.$$
 
-
-
-## Atstarpes starp blakus kvadrātiem
+Atrodam atstarpes starp blakus kvadrātiem:
 
 * Aiz $n^2$ nākamais pilnais kvadrāts ir 
 $(n+1)^2 = n^2 + 2n + 1$, bet iepriekšējais
@@ -284,8 +278,8 @@ vērtība pie pozitīva $n_1$ ir tāda pati kā pie negatīva
 $-1-n_1$. 
 
 
-
-## Pilnā pārlase pozitīvo n atrašanai
+*#CaseAnalysis*    
+Pilnā pārlase pozitīvo n atrašanai:
 
 * Ievietojam $n$ vērtības $1,2,\ldots,10$. 
 * $n^2 + n+10$ attiecīgās vērtības ir 
@@ -344,16 +338,13 @@ skaičių $0$, pralaimi. Nustatykite, kuris
 <small>
 
 * [misc.invar.game](#)
+* strategy:BeginAtTheEnd
 
 </small>
 
-<!--
-strategy=begin-at-the-end
--->
 
 
-
-## Sākšana no beigām - 1
+## Atrisinājums
 
 > **Definīcija:** Par "aukstām" pozīcijām sauksim tās, no kurām sākot, 
 > uzvar otrais spēlētājs $B$. (Visas citas ir "karstas" 
@@ -364,9 +355,6 @@ strategy=begin-at-the-end
 * "3" (tikai pāreja $3 \rightarrow 2$) ir auksta. utt.
 
 
-
-## Sākšana no beigām - 2
-
 ![Dalītāju atņemšana](LT.VUMIF.2017.11_12.4.svg)
 
 **A:** "6" (pārejas uz "3", "4" vai "5") ir karsta, jo **eksistē** pāreja uz aukstu.  
@@ -374,14 +362,13 @@ strategy=begin-at-the-end
 **C:** "9" (pārejas uz "6" un "8") ir auksta, jo **katra** pāreja uz karstu.
 
 
+Otrais spēlētājs var pēc katra gājienu pāra saglabāt sekojošu invariantu.
 
-## Spēles invariants
+**Apgalvojums:** Ja sākumā uz tāfeles uzrakstīts 
+nepāru skaitlis, tad otrais spēlētājs var pēc katra sava 
+gājiena panākt, lai tur joprojām būtu nepāru skaitlis. 
 
-> **Apgalvojums:** Ja sākumā uz tāfeles uzrakstīts 
-> nepāru skaitlis, tad otrais spēlētājs var pēc katra sava 
-> gājiena panākt, lai tur joprojām būtu nepāru skaitlis. 
-
-*Pierādījums.* Ja 
+*Nav pabeigts.*
 
 
 
@@ -437,12 +424,12 @@ skaidinys pirminiais daugikliais.
 
 
 
-## Cik dalītāju ir skaitlim $n$
+## Atrisinājums
 
-> **Apgalvojums:** Ja skaitlis $n$ nav pilns kvadrāts, tad 
-> tā dalītājus var sadalīt pa pāriem $(d_1,d_2)$, kur
-> katrā pārī reizinājums $d_1d_2=n$. (Ja $n$ ir pilns kvadrāts, 
-> tad dalītājam $\sqrt{n}$ nav pāra.)
+**Apgalvojums:** Ja skaitlis $n$ nav pilns kvadrāts, tad 
+tā dalītājus var sadalīt pa pāriem $(d_1,d_2)$, kur
+katrā pārī reizinājums $d_1d_2=n$. (Ja $n$ ir pilns kvadrāts, 
+tad dalītājam $\sqrt{n}$ nav pāra.)
 
 Ja skaitļa dalītāju reizinājums ir $n^3$, tad tam ir 
 tieši $6$ pozitīvi dalītāji. 
@@ -453,13 +440,10 @@ Iespējami divi dalījumi pirmreizinātājos:
 * $n=p^2q^1$. 
 
 
-
-## Skaitļa dalītāju skaits
-
-> **Apgalvojums:** Skaitlim ar sadalījumu pirmreizinātājos
-> $$n=p_1^{a_1}p_2^{a_2}\cdots{}p_k^{a_k}$$
-> dalītāju skaits ir 
-> $$(a_1+1)(a_2+1)\cdots{}(a_k+1).$$
+**Apgalvojums:** Skaitlim ar sadalījumu pirmreizinātājos
+$$n=p_1^{a_1}p_2^{a_2}\cdots{}p_k^{a_k}$$
+dalītāju skaits ir 
+$$(a_1+1)(a_2+1)\cdots{}(a_k+1).$$
 
 Skaitli $6$ var izteikt vai nu kā $(5+1)$ vai 
 arī kā $(2+1)(1+1)$. Daži piemēri:
@@ -560,9 +544,12 @@ strategy=begin-at-the-end
 
 
 
-## Spriedumi no beigām
+## Atrisinājums
 
-<blue>Aukstās pozīcijās</blue> zaudē tas, kam gājiens.
+**Definīcija:** 
+Galīgā divu spēlētāju spēlē par aukstu pozīciju sauksim tādu, kurā pirmajam spēlētājam neeksistē uzvaroša stratēģija: 
+jebkurš viņa gājiens noved karstā pozīcijā (no kuras pretinieks var atkal atgriezties aukstā pozīcijā utt. 
+līdz otrā spēlētāja uzvarai. 
 
 <table>
 <tr>
@@ -591,11 +578,7 @@ uzvar tas, kam pirmais gājiens: <red>(0,1)</red>, <red>(1,0)</red>,
 karstu pozīciju; tādēļ tās ir aukstas. 
 
 
-
-
-## Abi pāru skaitļi
-
-* Novērojam, ka aukstām pozīcijām izpildās īpašība: abi 
+Ievērojam, ka aukstām pozīcijām izpildās īpašība: abi 
 skaitļi ir pāru. 
 
 **Apgalvojums par invariantu:** Ja $(m,n)$ abi ir pāru skaitļi, tad
@@ -608,7 +591,6 @@ Algis noteikti rada vienu vai divus nepāru skaitļus pēc sava gājiena.
 tad Balis no tā atņem $1$. 
 * Ja abi ir nepāru, tad Balis atņem no abiem.
 
-## Balis sasniedz (0,0)
 
 **Apgalvojums:** Balis uzvar visiem $(m,n)$, kas ir pāru skaitļi. 
 
@@ -655,7 +637,7 @@ galėjo gauti? Raskite visas galimybes.
 
 
 
-## Kongruenču vienādojumi 
+## Atrisinājums
 
 **Definīcija:** Ar $a \equiv b\;(\mbox{mod}\,10)$ apzīmējam to, ka
 $a$ un $b$ dod vienādus atlikumus, dalot ar $10$ (jeb beidzas
@@ -674,24 +656,21 @@ a+b+c \equiv 0\ & (\mbox{mod}\,10).
 \end{array}$$
 
 
-
-## Kongruenču atņemšana
-
-* Tātad trīs Jurģa iedomāto skaitļu summa beidzas 
-ar ciparu $0$. 
-* Atņemot kongruences 
+Tātad trīs Jurģa iedomāto skaitļu summa beidzas 
+ar ciparu $0$. Atņemot kongruences 
 $a+b+c \equiv 0\;(\mbox{mod}\,10)$ un 
 $a + b \equiv c\;(\mbox{mod}\,10)$ iegūstam
 $c \equiv -c\;(\mbox{mod}\,10)$.
-* Tātad $c$ (un simetrijas dēļ arī $b$ un $a$) 
+
+Tātad $c$ (un simetrijas dēļ arī $b$ un $a$) 
 beidzas ar $0$ vai ar $5$. 
-* Pārlasot gadījumus $(0;0;0)$,  $(5;0;0)$, 
+Pārlasot gadījumus $(0;0;0)$,  $(5;0;0)$, 
 $(5;5;0)$, $(5;5;5)$, der tikai 
 $(0;0;0)$ un $(5;5;0)$. 
 
 
 
-## Pēdējie trīs cipari
+Apskatām pēdējos trīs ciparus.
 
 * Ja $a,b,c$ visi beidzas ar $0$, tad pēdējie trīs
 cipari ir $000$, jo reizinājums dalās ar $1000$. 
@@ -747,13 +726,13 @@ skaičius dalijasi iš kito, tai jie lygūs.
 
 
 
-## Ciparu pārvietošana un dalāmība ar 9
+## Atrisinājums
 
-> **Apgalvojums:** Skaitlis $n$ un tā ciparu summa $S(n)$ 
-> dod vienādus atlikumus, dalot ar $9$ (vispārināta
-> dalāmības pazīme).  
-> **Secinājums:** Mainot vietām ciparus, skaitļa
-> atlikums, dalot ar $9$, nemainās.
+**Apgalvojums:** Skaitlis $n$ un tā ciparu summa $S(n)$ 
+dod vienādus atlikumus, dalot ar $9$ (vispārināta
+dalāmības pazīme).  
+**Secinājums:** Mainot vietām ciparus, skaitļa
+atlikums, dalot ar $9$, nemainās.
 
 Septiņīgam skaitlim ciparu summa: 
 $$10\cdot(1+2+\ldots+7) = 10\cdot{}28=280.$$
@@ -762,9 +741,7 @@ $280$ dod atlikumu $1$, dalot ar $9$. Tātad arī
 katrs septiņīgs skaitlis dos atlikumu $1$, dalot ar $9$. 
 
 
-
-
-## Septiņīgu skaitļu daudzkārtņi
+Septiņīgu skaitļu daudzkārtņiem izpildās šādi apgalvojumi:
 
 * Divu septiņīgu skaitļu attiecība nevar pārsniegt $7$. 
 * Reizinot skaitli $9k+1$ (atlikums $1$, dalot ar $9$)
@@ -812,7 +789,7 @@ b) $N$ nesidalija iš jokio penktinio skaičiaus.
 
 
 
-## Ciparu pārvietošana un dalāmība ar 9
+## Atrisinājums
 
 * Piecīgam skaitlim ciparu summa: 
 $$100\cdot(2+3+4+5+6) = 100\cdot{}20=2000.$$
@@ -826,7 +803,7 @@ kādus var dot $P$ daudzkārtņi).
 
 
 
-## Piecīga skaitļa daudzkārtnim beigās "81"?
+Vai piecīga skaitļa daudzkārtnim beigās var būt cipari "81"?
 
 * Ja $N=\overline{M81}$, tad arī $N$ ciparu summa $2009$ dod atlikumu 
 $2$, dalot ar $9$. 
@@ -836,10 +813,7 @@ $k$ dod atlikumu $1$, dalot ar $9$.
 beidzas ar ciparu $3$ (cipars $5$ neder) un $k$ beidzas ar ciparu 
 $7$ jeb dod atlikumu $7$, dalot ar $10$
 
-
-
-## Kongruenču sistēmiņa
-
+Rakstām kongruenču sistēmu. 
 Ja $N=\overline{M81}$ un $N=kP$, kur $M,P$ abi ir piecīgi skaitļi, 
 tad:
 
@@ -854,12 +828,10 @@ reizinot pat mazāko piecīgo skaitli $P=\overline{222\ldots}$
 rezultāts sāksies ar cipariem "68" (t.i. vairs nebūs piecīgs).
 
 
-
-## Pilnā pārlase
-
+*#ExhaustiveSearch*  
 Ja $k=37, 127, 217$, tad reizinot tos ar jebkādiem 
 piecīga skaitļa $P$ pēdējiem cipariem (kur pats pēdējais 
-cipars ir "3"), mēs neiegūstam beigās ciparus "81":
+cipars ir "3"), neiegūstam beigās ciparus "81":
 
 <table>
 <tr><th>$k$</th><th>$37$</th><th>$127$</th><th>$217$</th></tr>

@@ -19,12 +19,13 @@ genre=integer-equation
 
 * [alg.ineq.equations](#)
 * [comb.full](#)
+* strategy:ExtremeElement
 
 </small>
 
 
 
-## Ekstremālais elements
+## Atrisinājums
 
 Aplūkosim mazāko no $a,b,c$. Ir vairāki gadījumi
 
@@ -35,9 +36,7 @@ Aplūkosim mazāko no $a,b,c$. Ir vairāki gadījumi
 (3.1) $a=2$ vai arī  
 (3.2) $b = 2$. (Nevar būt $c=2$, jo tad pat viens saskaitāmais $\frac{4}{c^2}=1$.)
 
-
-
-## Gadījums (3.1): a=2
+**Gadījums (3.1): a=2**
 
 Ievietojam $a=2$, noīsinām un paliek vienādojums:
 $$\frac{3}{b^2} + \frac{4}{c^2} = \frac{1}{2}.$$ 
@@ -49,10 +48,7 @@ tātad $b=3$.
 (3.1.2) $\frac{4}{c^2} > \frac{1}{4}$ jeb $c^2 < 16$. Ievietojot 
 $c=2$, $\frac{4}{c^2}$ ir par lielu, tātad $c=3$. 
 
-
--- 
-
-## Gadījumi (3.1.1) un (3.1.2) 
+**Gadījumi (3.1.1) un (3.1.2):** 
 
 (3.1.1) Ievietojot $(a,b)=(2,3)$, iegūstam:
 $$\frac{4}{c^2} = 1 - \frac{2}{4} - \frac{3}{9} = \frac{1}{6}$$
@@ -63,9 +59,7 @@ $$\frac{3}{b^2} = 1 - \frac{2}{4} - \frac{4}{9} = \frac{1}{18}.$$
 jeb $b^2 = 54$, kas nevar būt. 
 
 
--- 
-
-## Gadījums (3.2) b=2
+**Gadījums (3.2) b=2:** 
 
 Ievietojam $b=2$, noīsinām un paliek vienādojums: 
 $$\frac{2}{a^2} + \frac{4}{c^2} = \frac{1}{4}.$$
@@ -81,10 +75,6 @@ Iegūstam, ka $c^2 = 144$, jeb $c=12$.
 * Ja $a=4$, tad $\frac{4}{c^2} = \frac{1}{8}$ jeb $c^2 = 32$, kas nevar būt. 
 
 
--- 
-
-## Gadījums (3.2) b=2 (turpinājums)
-
 (3.2.2) $\frac{1}{4} > \frac{4}{c^2}\geq\frac{1}{8}$ jeb $c^2 \leq 32$.
 
 * Ja $c=2,3,4$, tas neder, jo $\frac{4}{c^2}\geq\frac{1}{4}$. 
@@ -92,9 +82,7 @@ Iegūstam, ka $c^2 = 144$, jeb $c=12$.
 $\frac{2}{a^2} = 1 - \frac{3}{4} - \frac{4}{25} = \frac{9}{100}$
 jeb $a^2 = \frac{200}{9}$, kas nevar būt.
 
-**Atbilde:**
-
-Esam ieguvuši divus atrisinājumus:
+**Atbilde:** Esam ieguvuši divus atrisinājumus:
 
 * $(a,b,c)=(3,3,3)$.   
 * $(a,b,c)=(3,2,12)$.  
@@ -177,6 +165,7 @@ Vai skaitli $2013$ var izteikt kā divu veselu skaitļu kubu starpību?
 * [nota.divrule.3_9.rem](#)
 * [mod.congr.sumdiff](#)
 * [mod.eq.contradict](#)
+* strategy:ModularArithmeticContradiction
 
 </small>
 
@@ -193,12 +182,13 @@ concepts=power-sums
 
 
 
-## Stratēģija: Pāreja uz atlikumiem
+## Atrisinājums
 
-* Ne visi atlikumi ir iespējami, ja pilnu kubu dala ar $m$:
+Ne visi atlikumi ir iespējami, ja pilnu kubu dala ar $m$. Pilnus kubus ir izdevīgi 
+aplūkot pēc $7$ moduļa vai pēc $9$ moduļa.
 
 **Apgalvojums:**
- 
+
 * $n^3$, dalot ar $m=7$, dod atlikumus
 $0,1,6$ ($6$ vietā var rakstīt arī $-1$, kas atšķiras no $6$ par $7$). 
 * $n^3$, dalot ar $m=9$, dod atlikumus
@@ -208,10 +198,6 @@ Apgalvojumu priekš $m=7$ pierāda, kāpinot skaitļus no $0$ līdz $6$ kubā,
 aplūkojot atlikumus. Lielākiem skaitļiem atlikumi atkārtosies.  
 Priekš $m=9$ līdzīgi aplūko skaitļus no $0$ līdz $8$
 (vai, ja vēlamies, no $-4$ līdz $4$). 
-
-
-
-## Pretrunas modulis
 
 $2013$ dod atlikumu $6$, dalot ar $9$ (un atlikumu $4$, dalot ar $7$).  
 Atlikumu $4$, dalot ar $7$, nevar iegūt kā divu kubu starpību.
@@ -483,7 +469,7 @@ genre=integer-equation
 -->
 
 
-## Algebrisks pārveidojums
+## Atrisinājums
 
 $$xy - y^2 = x\;\Rightarrow\;xy-x=y^2\;\Rightarrow\;x(y-1)=y^2.$$
 

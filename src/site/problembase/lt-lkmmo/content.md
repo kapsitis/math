@@ -1336,7 +1336,7 @@ questionType=Find.All,Find.Count
 
 
 
-## Soļi
+## Atrisinājums
 
 * Vienīgā iespēja ir sākt ar $m+1$ ($m = 7k$), tad saskaitāmie ir $7k+1,\ldots,7k+6$.
 * Aritm. progresijas summa $S(m)=6\cdot 7 \cdot k + 21$. 
@@ -1346,7 +1346,7 @@ questionType=Find.All,Find.Count
 * Tā kā $S(m)$ ir pilns kvadrāts, tad tas dalās ar $3^27^2=441$.
 * Aplūkojam $S = 441 \cdot (2a+1)$.
  
-
+*Nav pabeigts.* 
 
 # <lo-sample/> LT.LKMMO.2013.7
 

@@ -669,7 +669,7 @@ questionType=Prove.ForAll,ProveDisprove.Other
 
 
 
-## <lo-hints/> LT.TST.2019.5 (kongruenču sistēmas)
+## Ieteikums
 
 **Stratēģija:** Risinājuma soļi: (1) Nepārbaudot eksistenci, pamatojam dalāmību ar $5$, 
 (2) Atrodam piecīga skaitļa piemēru, (3) Pārveidojot piemēru, iegūstam bezgalīgi daudzus citus atrisinājumus. 

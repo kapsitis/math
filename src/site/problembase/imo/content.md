@@ -134,11 +134,12 @@ $a! + b!$ divides $a!b!$. Prove that $3a \geq 2b + 2$.
 <small>
 
 * [misc.symmetry](#)
+* strategy:Symmetry
 
 </small>
 
 
-## Izmantojam simetriju
+## Atrisinājums
 
 * Ja $a = 1$, tad neder neviens naturāls $b$, jo $a! + b! > a!b!$. 
 * Pieņemam, ka $1 < a \leq b$ (ja tas neizpildās, apmainām apzīmējumus $a$ un $b$).
@@ -157,21 +158,18 @@ Attēlosim pretrunu dodošās $b$ vērtības katram $a$:
 </table>
 
 
-
-## Tabuliņa ar dalāmību
+**Tabuliņa ar dalāmību:**
 
 TODO: Simetriska tabuliņa, kur atzīmēta $a!b!$ dalāmība
 $a! + b!$. 
 
 
 
-## Ja b-a = 1
+**Gadījums: b-a = 1:** 
 
 **Apgalvojums:** Naturāliem $a,b$, kam $b = a+1$, skaitlis
 $$\frac{a!b!}{a! + b!} = \frac{b!}{1+b} = \frac{(a+1)!}{a + 2}$$
 ir vesels tad un tikai tad, ja $a+2$ nav pirmskaitlis un $a \neq 4$.
-
-## Ja b-a = 1: Pierādījums
 
 *Pierādījums.* Ja $a+2$ ir pirmskaitlis, tad neviens no skaitļiem, 
 kas ietilpst $(a+1)!$ reizinājumā, ar to nedalās.  
@@ -182,7 +180,7 @@ vismaz divus skaitļus, kuri dalās ar $A$. $\blacksquare$
 
 
 
-## Ja b-a=2
+**Gadījums: b-a=2** 
 
 1. $\frac{15!17!}{15! + 17!} = \frac{17!}{1 + 16\cdot{}17} = \frac{17!}{3\cdot{}7\cdot{}13}$
 2. $\frac{29!31!}{29! + 31!} = \frac{31!}{1 + 30\cdot{}31} = \frac{31!}{7\cdot{}7\cdot{}19}$
@@ -191,7 +189,7 @@ vismaz divus skaitļus, kuri dalās ar $A$. $\blacksquare$
 4. $\frac{67! 69!}{67! + 69!} = \frac{69!}{1 + 68\cdot{}69} = \frac{68!}{13\cdot{}19\cdot{}19}$
 
 
-## Citi piemēri 
+**Citi piemēri:**
 
 1. $\frac{133!136!}{133! + 136!} = \frac{136!}{1 + 134\cdot{}135\cdot{}136} = \frac{136!}{7\cdot{}7\cdot{}23\cdot{}37\cdot{}59}$
 2. $\frac{78!82!}{78! + 82!} =  \frac{82!}{1 + 79\cdot{}80\cdot{}81\cdot{}82} = \frac{82!}{11^2\cdot{}19^2\cdot{}31^2}$
@@ -199,14 +197,7 @@ vismaz divus skaitļus, kuri dalās ar $A$. $\blacksquare$
 $= \frac{13096!}{7\cdot{}79\cdot{}1109\cdot{}3119\cdot{}3821\cdot{}5381\cdot{}9787}$
 
 
-
-
-## Sadalījuma funkcija 
-
-vect is $[9999, 8771, 1967, 202, 1123, 0, 0, 0, 0, 0, 0]$
-
-
-
+Sadalījuma funkcija: Iegūts vektors: $[9999, 8771, 1967, 202, 1123, 0, 0, 0, 0, 0, 0]$.
 
 
 
@@ -459,13 +450,13 @@ goal of Fernando is to prevent this.\\
 Prove that Eduardo has a winning strategy.
 </text>
 
-## IMO.SHL.2017.N2: Lasītprasme (1) 
+## Ieteikums
 
 1. Ko atgādina $M$ izteiksme?
 2. Kurš spēlētājs beidz spēli? 
 3. Vai spēles iznākums atkarīgs tikai no pirmā/pēdējā gājiena?
 
-## IMO.SHL.2017.N2: Lasītprasme (2) 
+## Atrisinājums
 
 1. $M$ izteiksme ir skaitļa pieraksts pozicionālā
 skaitīšanas sistēmā ar bāzi $10$ (decimālpieraksts no beigām). 
@@ -482,6 +473,7 @@ jāpanāk dalāmība ar $p$.
 Ja $p>10$ un gājieni līdz tam izdarīti uz labu laimi, 
 var neizdoties.
 
+*Nav pabeigts.* 
 
 
 # <lo-sample/> IMO.SHL.2017.N3
@@ -569,14 +561,14 @@ $$\frac{(p+q)^{p+q}(p-q)^{p-q}-1}{(p+q)^{p-q}(p-q)^{p+q}-1}$$
 is an integer.
 </text>
 
-## IMO.SHL.2017.N5: Lasīšana (1)
+## Ieteikums
 
 1. Vai daļas skaitītājs vienmēr lielāks par saucēju?
 2. Apmēram cik reižu lielāks vai mazāks?
 3. Vai ir kādi triviāli atrisinājumi $(p,q)$? 
 
 
-## IMO.SHL.2017.N5: Lasīšana (2)
+## Atrisinājums
 
 1. Jā, reizinātāju skaits abās izteiksmēs vienāds, bet 
 skaitītājā lielāks skaitlis tiek reizināts lielāku skaitu reižu,
@@ -586,6 +578,7 @@ $$\left( 1 + \frac{2q}{p-q} \right)^{2q}.$$
 3. Ja $(p,q)=(3,2)$, tad izteiksme ir 
 $$\frac{5^51^1 - 1}{5^11^5-1}=\frac{3124}{4}=781.$$
 
+*Nav pabeigts.* 
 
 
 # <lo-summary/> IMO.2017.6/IMO.SHL.2017.N7
