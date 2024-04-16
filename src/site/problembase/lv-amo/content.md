@@ -7,7 +7,7 @@ var izsacīt kā divu veselu skaitļu kvadrātu summu. Vai to noteikti var izsac
 
 * [alg.tra.binom.square](#)
 * questionType:Prove.Other
-* concepts:square
+* concepts:square-Alg
 
 </small>
 
@@ -39,7 +39,7 @@ Atrast mazāko naturālo skaitli, kam visi cipari ir vienādi un kas dalās ar $
 * [div.fta.divisors](#)
 * genre:optimization
 * questionType:Find.Min
-* concpts:decimal-notation
+* concepts:decimal-notation,digit,divisibility
 
 </small>
 
@@ -75,7 +75,7 @@ var tā sadalīt pa pāriem, lai visas pāros ieejošo skaitļu summas būtu da�
 * [div.prop.primes.small](#)
 * [misc.extr.pigeon](#)
 * [comb.full](#)
-* concept:partition,primes
+* concept:partition,primes,sum
 * questionType:ProveDisprove.Exists
 * genre:construction
 
@@ -108,6 +108,7 @@ Uz katras no vairākām kartītēm uzrakstīts pa naturālam skaitlim (starp tie
 * genre:construction
 * questionType:ProveDisprove.Exists
 * strategy:Interpretation
+* concepts:sum
 
 </small>
 
@@ -145,6 +146,11 @@ Vai skaitli
 var izsacīt kā četriem dažādiem naturālu skaitļu 
 kvadrātiem apgriezto lielumu summu?
 
+<small>
+
+* concepts:sum,square-Alg,inverse-number
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2000.9.4
@@ -155,6 +161,11 @@ Vai tas ir iespējams, ja
 (a) $n=10$,  
 (b) $n=15$?
 
+<small>
+
+* concepts:sum,product
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2000.10.2
@@ -164,12 +175,26 @@ galā otrajam, atkal iegūst pirmskaitli.
 Atrast šos pirmskaitļus un pierādīt, ka citu bez 
 Jūsu atrastajiem nav.
 
+<small>
+
+* concepts:primes,digit-manipulation
+
+</small>
+
+
 
 
 # <lo-sample/> LV.AMO.2000.11.1
 
 Dots, ka $x^2+y^2+z^2 = t^2$, kur $x,y,z,t$ – naturāli skaitļi. 
 Cik no skaitļiem $x,y,z,t$ var būt pāra skaitļi?
+
+<small>
+
+* concepts:even-number
+
+</small>
+
 
 
 
@@ -180,6 +205,12 @@ Katram naturālam $x$ izpildās vienādība
 $$f(f(x))+f(x) = 2x.$$
 Atrast visa šādas funkcijas $f(x)$ un pierādīt, 
 ka citu bez atrastajām nav.
+
+<small>
+
+* concepts:function,argument,value
+
+</small>
 
 
 
