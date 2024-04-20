@@ -552,52 +552,21 @@ jebkurš viņa gājiens noved karstā pozīcijā (no kuras pretinieks var atkal 
 līdz otrā spēlētāja uzvarai. 
 
 
-Pipe table:
-
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Row 1    | Data 1   | Data 2   |
-| Row 2    | Data 3   | Data 4   |
-
-
-Grid table: 
-
-+-----------+-----------+-----------+
-| Header 1  | Header 2  | Header 3  |
-+===========+===========+===========+
-| Row 1     | Data 1    | Data 2    |
-+-----------+-----------+-----------+
-| Row 2     | Data 3    | Data 4    |
-+-----------+-----------+-----------+
+| **(0,0)** | (1,0)     | **(2,0)** | (3,0)     | **(4,0)** | 
+| --------- | --------- | --------- | --------- | --------- |
+| (0,1)     | (1,1)     | (2,1)     | (3,1)     | (4,1)     | 
+| **(0,2)** | (1,2)     | **(2,2)** | (3,2)     | **(4,2)** | 
+| (0,3)     | (1,3)     | (2,3)     | (3,3)     | (4,3)     | 
+| **(0,4)** | (1,4)     | **(2,4)** | (3,4)     | **(4,4)** | 
 
 
 
-
-<table>
-<tr>
-<td><blue>(0,0)</blue></td><td><red>(1,0)</red></td><td><blue>(2,0)</blue></td><td><red>(3,0)</red></td><td><blue>(4,0)</blue></td>
-</tr>
-<tr>
-<td><red>(0,1)</red></td><td><red>(1,1)</red></td><td><red>(2,1)</red></td><td><red>(3,1)</red></td><td><red>(4,1)</red></td>
-</tr>
-<tr>
-<td><blue>(0,2)</blue></td><td><red>(1,2)</red></td><td><blue>(2,2)</blue></td><td><red>(3,2)</red></td><td><blue>(4,2)</blue></td>
-</tr>
-<tr>
-<td><red>(0,3)</red></td><td><red>(1,3)</red></td><td><red>(2,3)</red></td><td><red>(3,3)</red></td><td><red>(4,3)</red></td>
-</tr>
-<tr>
-<td><blue>(0,4)</blue></td><td><red>(1,4)</red></td><td><blue>(2,4)</blue></td><td><red>(3,4)</red></td><td><blue>(4,4)</blue></td>
-</tr>
-</table>
-
-* <blue>(0,0)</blue> ir auksta pozīcija; ja tā ir pēc Baļa gājiena, viņš uzvar. 
+* **(0,0)** ir auksta pozīcija; ja tā ir pēc Baļa gājiena, viņš tūlīt uzvar. 
 * Pozīcijas, no kurām **eksistē** gājiens 
-uz <blue>(0,0)</blue> ir karstas=sarkanas. Tajās
-uzvar tas, kam pirmais gājiens: <red>(0,1)</red>, <red>(1,0)</red>, 
-<red>(1,1)</red>.
-* No <blue>(0,2)</blue> un <blue>(2,0)</blue> **katrs** gājiens ir uz
-karstu pozīciju; tādēļ tās ir aukstas. 
+  uz **(0,0)** ir karstas. Tajās
+  uzvar tas, kam pirmais gājiens: (0,1), (1,0), (1,1).
+* No (0,2) un (2,0) **katrs** gājiens ir uz
+  karstu pozīciju; tādēļ tās ir aukstas. 
 
 
 Ievērojam, ka aukstām pozīcijām izpildās īpašība: abi 
@@ -610,7 +579,7 @@ abi skaitļi atkal ir pāru skaitļi.
 Algis noteikti rada vienu vai divus nepāru skaitļus pēc sava gājiena.
 
 * Ja pēc viņa gājiena ir viens nepāru skaitlis, 
-tad Balis no tā atņem $1$. 
+  tad Balis no tā atņem $1$. 
 * Ja abi ir nepāru, tad Balis atņem no abiem.
 
 
@@ -702,23 +671,12 @@ tad reizinājums dalās ar $5\cdot{}5\cdot{}10 = 250$.
 cipari dalās ar $250$ ($000$, $250$, $500$, $750$). 
 * Var dabūt jebkuru 3 ciparu kombināciju, kas dalās ar $250$
 
-<table>
-<tr>
-<th>$(a,b,c)$</th><th>$abc$ beidzamie cipari</th>
-</tr>
-<tr>
-<th>$(5,5,10)$</th><td>$250$</td>
-</tr>
-<tr>
-<th>$(5,5,20)$</th><td>$500$</td>
-</tr>
-<tr>
-<th>$(5,15,10)$</th><td>$750$</td>
-</tr>
-<tr>
-<th>$(5,5,40)$</th><td>$1\,000$</td>
-</tr>
-</table>
+| $(a,b,c)$    | $abc$ beidzamie cipari | 
+| ------------ | ---------------------- |
+| $(5,5,10)$   | $250$                  |
+| $(5,5,20)$   | $500$                  |
+| $(5,15,10)$  | $750$                  |
+| $(5,5,40)$   | $1000$                 |
 
 
 
@@ -855,13 +813,14 @@ Ja $k=37, 127, 217$, tad reizinot tos ar jebkādiem
 piecīga skaitļa $P$ pēdējiem cipariem (kur pats pēdējais 
 cipars ir "3"), neiegūstam beigās ciparus "81":
 
-<table>
-<tr><th>$k$</th><th>$37$</th><th>$127$</th><th>$217$</th></tr>
-<tr><th>$P=\ldots23$</th><td>$\ldots51$</td><td>$\ldots21$</td><td>$\ldots91$</td></tr>
-<tr><th>$P=\ldots33$</th><td>$\ldots21$</td><td>$\ldots91$</td><td>$\ldots61$</td></tr>
-<tr><th>$P=\ldots43$</th><td>$\ldots91$</td><td>$\ldots61$</td><td>$\ldots31$</td></tr>
-<tr><th>$P=\ldots53$</th><td>$\ldots61$</td><td>$\ldots31$</td><td>$\ldots01$</td></tr>
-<tr><th>$P=\ldots63$</th><td>$\ldots31$</td><td>$\ldots01$</td><td>$\ldots71$</td></tr>
-</table>
+| $k$             | $37$         | $127$      | $217$      |
+| --------------- | ------------ | ---------- | ---------- |
+| $P=\ldots{}23$  | $\ldots{}51$ | $\ldots21$ | $\ldots91$ |
+| $P=\ldots{}33$  | $\ldots{}21$ | $\ldots91$ | $\ldots61$ |
+| $P=\ldots{}43$  | $\ldots{}91$ | $\ldots61$ | $\ldots31$ |
+| $P=\ldots{}53$  | $\ldots{}61$ | $\ldots31$ | $\ldots01$ |
+| $P=\ldots{}63$  | $\ldots{}31$ | $\ldots01$ | $\ldots71$ |
+
+
 
 

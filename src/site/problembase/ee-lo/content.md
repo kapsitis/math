@@ -20,6 +20,7 @@ genre=integer-equation
 * [alg.ineq.equations](#)
 * [comb.full](#)
 * strategy:ExtremeElement
+* questionType:Find.All
 
 </small>
 
@@ -99,6 +100,12 @@ kuriem izpildās vienādība $w^x + w^y = w^z$.
 при которых выполняется равенство $w^x + w^y = w^z$.
 </text>
 
+<small>
+
+* questionType:Find.All
+
+</small>
+
 <!--
 questionType=Find.All
 genre=integer-equation
@@ -114,6 +121,12 @@ ir dažādi divciparu naturāli skaitļi, kuri iegūstami viens no
 otra, apmainot vietām ciparus.  
 *Piezīme.* Par pozitīvu skaitļu $x$, $y$ ģeometrisko vidējo 
 sauc skaitli $\sqrt{x y}$.
+
+<small>
+
+* questionType:Find.All
+
+</small>
 
 <text lang="ru">
 Найти все такие пары $(n, m)$ положительных целых чисел, при которых
@@ -139,6 +152,11 @@ $x \cdot y! + 2y \cdot x! = z!$.
 *Piezīme. Par naturāla skaitļa $n$ faktoriālu $n!$ sauc 
 reizinājumu $1 \cdot 2 \cdot \ldots \cdot n$.*
 
+<small>
+
+* questionType:Find.All
+
+</small>
 
 <text lang="ru">
 Найти все такие тройки положительных целых чисел (x, y, z), 
@@ -166,11 +184,12 @@ Vai skaitli $2013$ var izteikt kā divu veselu skaitļu kubu starpību?
 * [mod.congr.sumdiff](#)
 * [mod.eq.contradict](#)
 * strategy:ModularArithmeticContradiction
+* questionType:Find.Example
 
 </small>
 
 <text lang="ru">
-Можно ли представить число 2013 как разность кубов двух целых чисел?
+Можно ли представить число $2013$ как разность кубов двух целых чисел?
 </text>
 
 <!--
@@ -201,22 +220,14 @@ Priekš $m=9$ līdzīgi aplūko skaitļus no $0$ līdz $8$
 
 $2013$ dod atlikumu $6$, dalot ar $9$ (un atlikumu $4$, dalot ar $7$).  
 Atlikumu $4$, dalot ar $7$, nevar iegūt kā divu kubu starpību.
-Aplūkojam "atņemšanas tabulu" atlikumiem, dalot ar $m=7$:
+Aplūkojam "atņemšanas tabulu" $b-a$ atlikumiem (mod 7). 
 
-<table>
-<tr>
-<th>$(\mbox{mod}\,7)$</th><th>0</th><th>1</th><th>6</th>
-</tr>
-<tr>
-<th>0</th><td>0</td><td>6</td><td>1</td>
-</tr>
-<tr>
-<th>1</th><td>1</td><td>0</td><td>2</td>
-</tr>
-<tr>
-<th>6</th><td>6</td><td>5</td><td>0</td>
-</tr>
-</table>
+| mod 7 | $a = 0$ | $a = 1$ | $a = 2$ |
+| ----- | ------- | ------- | ------- | 
+| b=0   | 0       | 6       | 1       | 
+| b=1   | 1       | 0       | 2       | 
+| b=6   | 6       | 5       | 0       | 
+
 
 Atņemot divus pilnus kubus, atlikums dalot ar $7$ var būt
 $0,1,2,5,6$, bet tas nevar būt $4$.  
@@ -232,6 +243,12 @@ $$\left\lfloor \frac{a}{n} \right\rfloor + \left\lfloor \frac{a+1}{n} \right\rfl
 $\lfloor x \rfloor$ apzīmē skaitļa $x$ (apakšējo) veselo daļu, 
 t.i. vislielāko veselo skaitli, kas nepārsniedz $x$.
 
+<small>
+
+* questionType:Prove
+
+</small>
+
 
 <text lang="ru">
 Пусть $a$ и $n$ − целые положительные числа. Доказать, что
@@ -244,7 +261,6 @@ left\lfloor \frac{a+n-1}{n} \right\rfloor = a.$$
 
 
 <!--
-questionType=Prove.ForAll
 concepts=floor
 -->
 
@@ -259,6 +275,12 @@ uz tāfeles vismaz $m+3$ skaitļus, tad Jüri vienmēr varēs izvēlēties no
 tiem $4$ tādus, ka kaut kādu divu izvēlēto skaitļu summa un atlikušo 
 divu izvēlēto skaitļu summa dos vienādus atlikumus, dalot ar $m$. 
 
+
+<small>
+
+* questionType:Prove
+
+</small>
 
 <text lang="ru">
 Пусть $m$ − положительное целое число. Доказать, что если Маша запишет
@@ -283,6 +305,12 @@ kuriem
 $\frac{1}{n}$ un $\frac{1}{n + 1}$
 izsakāmi kā galīgas decimāldaļas.
 
+<small>
+
+* questionType:Find.All
+
+</small>
+
 <text lang="ru">
 Найти все натуральные числа $n$ большие одного, при которых 
 $\frac{1}{n}$ и $\frac{1}{n + 1}$
@@ -291,7 +319,6 @@ $\frac{1}{n}$ и $\frac{1}{n + 1}$
 
 
 <!--
-questionType=Find.All
 concepts=decimal-fractions
 -->
 

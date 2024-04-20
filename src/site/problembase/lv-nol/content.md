@@ -111,14 +111,13 @@ tam jābūt pāru (summas pa rindiņām un kolonnām sakrīt).
 
 $n=6$ var ($1,2,3,10,11,12$ pa vertikāli).
 
-<table>
-<tr><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>2</td></tr>
-<tr><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>2</td></tr>
-<tr><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>2</td></tr>
-<tr><td>0</td><td>0</td><td>1</td><td>2</td><td>2</td><td>2</td></tr>
-<tr><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td></tr>
-<tr><td>1</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td></tr>
-</table>
+| 0   | 0   | 0   | 1   | 1   | 2   |
+| --- | --- | --- | --- | --- | --- |
+| 0   | 0   | 0   | 1   | 2   | 2   |
+| 0   | 0   | 0   | 2   | 2   | 2   |
+| 0   | 0   | 1   | 2   | 2   | 2   |
+| 0   | 1   | 1   | 2   | 2   | 2   |
+| 1   | 1   | 1   | 2   | 2   | 2   |
 
 
 
@@ -146,11 +145,12 @@ questionType=Find.Min
 Mazāk kā $4$ vērtības nevar, jo skaitli vidū saskaita ar $4$ dažādiem skaitļiem. 
 Četras var: $((3,8,1),(4,5,6),(9,2,7))$. 
 
-<table>
-<tr><td>3</td><td>8</td><td>1</td></tr>
-<tr><td>4</td><td>5</td><td>6</td></tr>
-<tr><td>9</td><td>2</td><td>7</td></tr>
-</table>
+| 3   | 8   | 1   |
+| --- | --- | --- | 
+| 4   | 5   | 6   |
+| 9   | 2   | 7   |
+
+
 
 
 
@@ -1928,20 +1928,21 @@ Atrisināt naturālos skaitļos vienādojumu $x^3 = y! + 2$.
 
 ## Faktoriālu un pilno kubu tabulas
 
-<table>
-<tr><th>$x$</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
-<tr><th>$x^3$</th><td>1</td><td>8</td><td>27</td><td>64</td><td>125</td><td>216</td><td>343</td><td>512</td><td>729</td><td>1000</td></tr>
-</table>
+| $x$  | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| $x^3 | 1    | 8    | 27   | 64   | 125  | 216  | 343  | 512  | 729  | 1000 |
 
-<table>
-<tr><th>$y$</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
-<tr><th>$y!$</th><td>1</td><td>2</td><td>6</td><td>24</td><td>120</td><td>720</td><td>5040</td><td>40320</td><td>362880</td><td>3628800</td></tr>
-<tr><th>$y!+2$</th><td>3</td><td>4</td><td>8</td><td>26</td><td>122</td><td>722</td><td>5042</td><td>40322</td><td>362882</td><td>3628802</td></tr>
-</table>
+
+| $y$    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8     | 
+| ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- |
+| $y!    | 1    | 2    | 6    | 24   | 120  | 720  | 5040 | 40320 |  
+| $y!+2$ | 3    | 4    | 8    | 26   | 122  | 722  | 5042 | 40322 |
+
 
 * Redzam, ka $2^3 = 3!+2$ (ja $x=2, y=3$). 
 * Vai ir citas saknes, kur $y>3$? 
 * Aplūkojam $x$ paritāti. Vienīgā iespēja: $x$ ir pāru skaitlis: $x=2k$.
+
     - Tad $(2k)^3 = y!+2$ jeb $8k^3 = y! + 2$.
     - Kreisā puse dalās ar $8$, bet labā (pie $y>3$) dod atlikumu $2$, dalot ar $8$.
 
@@ -2183,12 +2184,9 @@ pirmskaitli $p$, ka **tieši viens** no dotajiem skaitļiem dalās ar $p$.
 <small>
 
 * [seq.arithm.mod.gaps](#)
+* strategy:contradiction
 
 </small>
-
-<!--
-strategy=contradiction
--->
 
 
 

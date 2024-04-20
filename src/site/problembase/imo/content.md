@@ -148,14 +148,11 @@ $3b \geq 2a + 2$, kas gan vienmēr ir pareizi, ja $b \geq a \geq 2$.
 * Pieņemsim no pretējā, ka $3a \geq 2b + 2$ nav spēkā jeb $3a < 2b + 2$. 
 Attēlosim pretrunu dodošās $b$ vērtības katram $a$:
 
-<table>
-<tr>
-<th>$a$</th><td>2</td><td>3</td><td>4</td><td>5</td>
-</tr>
-<tr>
-<th>$b$</th><td>\geq 2</td><td>\geq 3</td><td>\geq 4</td><td>\geq 4</td>
-</tr>
-</table>
+| $a$ | 2        | 3        | 4        |    5     |
+| --- | -------- | -------- | -------- | -------- |
+| $b$ | $\geq 2$ | $\geq 3$ | $\geq 4$ | $\geq 4$ | 
+
+
 
 
 **Tabuliņa ar dalāmību:**

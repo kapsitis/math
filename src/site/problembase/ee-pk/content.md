@@ -1001,15 +1001,6 @@ questionType=Find.Min
 * Ievērojam, ka skaitļa kvadrāta atlikums, dalot ar $10$, atkarīgs tikai no paša skaitļa atlikuma.
 * Pārbaudām pilno kvadrātu atlikumus:
 
-
-<!--
-<table>
-<tr><th>$x$</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
-<tr><th>$x^2$</th><td>1</td><td>4</td><td>9</td><td>16</td><td>25</td><td>36</td><td>49</td><td>64</td><td>81</td><td>100</td></tr>
-<tr><th>$x^2\;\mbox{mod}\;10$</th><td>1</td><td>4</td><td>9</td><td>6</td><td>5</td><td>6</td><td>9</td><td>4</td><td>1</td><td>0</td></tr>
-</table>
--->
-
 <!--
 
 | $x$    | $x^2$    | $x^2\;\mbox{mod}\;10$ |
@@ -1049,7 +1040,7 @@ questionType=Find.Min
 Dotajā reizināšanas piemērā atrast burtiem atbilstošos ciparus, 
 ja dažādiem burtiem atbilst dažādi cipari. 
 
-![rebuss](EE.PK.2014.7.1.png)
+![](EE.PK.2014.7.1.png)
 
 
 <!--
@@ -1064,12 +1055,12 @@ questionType=Find.All
 Uz tāfeles uzrakstīta izteiksme $m(m + n)(m + 3n)$.
 
 1. Vai dotās izteiksmes vērtība vienmēr būs pāru skaitlis, 
-ja $m$ un $n$ ir veseli pozitīvi skaitļi? 
+   ja $m$ un $n$ ir veseli pozitīvi skaitļi? 
 2. $17$-gadīgā Pille šorīt ievēroja, ka ievietojot skaitļu 
-$m$ un $n$ vietā kaut kādā secībā viņas vecumu un viņas jaunākā 
-brāļa vecumu pilnos gados, tad izteiksmes vērtība būs vienāda 
-ar to gadu, kurā jaunākais brālis iemācījās peldēt. Cik šobrīd 
-gadu jaunākajam Pilles brālim?
+   $m$ un $n$ vietā kaut kādā secībā viņas vecumu un viņas jaunākā 
+   brāļa vecumu pilnos gados, tad izteiksmes vērtība būs vienāda 
+   ar to gadu, kurā jaunākais brālis iemācījās peldēt. Cik šobrīd 
+   gadu jaunākajam Pilles brālim?
 
 
 <!--
@@ -1219,27 +1210,19 @@ Lai eksperimentētu, definējam funkcijas:
 
 
 **Induktīvā pāreja:**
-Aplūkojam $f(n)$ vērtības dažiem pirmajiem $n$: 
+Aprēķinām $f(n)$ vērtības dažiem pirmajiem $n$: 
 
-<table>
-<tr>
-<th>$n$</th><td>1</td><td>2</td><td>3</td><td>4</td></tr>
-</tr>
-<tr>
-<th>$f(n)$</th><td>1</td><td>0</td><td>1</td><td>0</td></tr>
-</tr>
-</table>
+| $n$    | $1$  | $2$  | $3$  | $4$  | $5$  | $\ldots$ |
+| ------ | ---- | ---- | ---- | ---- | ---- | -------- |
+| $f(n)$ | $1$  | $0$  | $1$  | $0$  | $1$  | $\ldots$ |
 
-Tālāk - tiem $n$, kas dalās ar $10$.
 
-<table>
-<tr>
-<th>$n$</th><td>10</td><td>20</td><td>30</td><td>40</td></tr>
-</tr>
-<tr>
-<th>$f(n)$</th><td>2</td><td>0</td><td>2</td><td>0</td></tr>
-</tr>
-</table>
+Aprēķinām vērtības arī tiem $n$, kas dalās ar $10$:
+
+
+| $n$    | $10$ | $20$ | $30$ | $40$ | $50$ | $\ldots$ |
+| ------ | ---- | ---- | ---- | ---- | ---- | -------- |
+| $f(n)$ | $2$  | $0$  | $2$  | $0$  | $2$  | $\ldots$ |
 
 
 
@@ -1569,7 +1552,7 @@ Atrast visas iespējamās vērtības Mari iedomātajam skaitlim.
 </small>
 
 <text lang="ru">
-Маша задумала одно натуральное число. Умножив это число на 4, 
+Маша задумала одно натуральное число. Умножив это число на $4$, 
 она получила какое-то трёхзначное число. А когда она умножила первоначальное 
 число на 3 и переставила последнюю цифру результата в его начало,
 то неожиданно получила то же самое трёхзначное число. 
@@ -1590,7 +1573,7 @@ Ieviešam mainīgo un sastādām vienādojumu
 * $x$ ... tāds bija Mari iedomātais skaitlis. 
 * Tad $3x=\overline{abc}$ un $4x=\overline{cab}$. 
 * No desmitkāršota $4x=\overline{cab}$ atņemsim 
- $3x=\overline{abc}$ (lai $a$ un $b$ noīsinātos). 
+  $3x=\overline{abc}$ (lai $a$ un $b$ noīsinātos). 
 
 $$40x - 3x = \overline{cab0}-\overline{abc}=\overline{c000} - c = 999\cdot{}c.$$
 
@@ -1605,17 +1588,12 @@ Iegūstam, ka $37x = 999c$ jeb $x = 27c$, kur $c$ ir cipars.
 
 Apkopojam tabulā $x=27c$, $3x$ un $4x$:
 
-<table>
-<tr>
-<th>$x$</th><td>54</td><td>81</td><td>108</td><td>135</td><td>162</td><td>189</td><td>216</td><td>243</td>
-</tr>
-<tr>
-<th>$3x$</th><td>162</td><td>243</td><td>324</td><td>405</td><td>486</td><td>567</td><td>648</td><td>729</td>
-</tr>
-<tr>
-<th>$4x$</th><td>216</td><td>324</td><td>432</td><td>540</td><td>648</td><td>756</td><td>864</td><td>972</td>
-</tr>
-</table>
+
+
+| $x$   | $54$  | $81$  | $108$ | $135$ | $162$ | $189$ | $216$ | $243$ |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| $3x$  | $162$ | $243$ | $324$ | $405$ | $486$ | $567$ | $648$ | $729$ |
+| $4x$  | $216$ | $324$ | $432$ | $540$ | $648$ | $756$ | $864$ | $972$ |
 
 Pēdējā rindiņā skaitļi iegūstami, pārceļot priekšpēdējās rindiņas skaitlim 
 pēdējo ciparu uz sākumu.

@@ -2030,7 +2030,7 @@ sekojošu naturālu skaitļu summu? Saskaitāmo secība nav svarīga.
 * [div.fta.proc](#)
 * [comb.full](#)
 * questionType:Find.Count
-* concepts:sum
+* concepts:sum,consecutive-numbers
 
 </small>
 
@@ -4555,13 +4555,12 @@ Pārbaudīsim, ka $x^6$ dod atlikumu $1$, dalot ar $7$
 visiem $x=1,2,3,4,5,6$. (Lielākām $x$ vērtībām $x$ var aizstāt
 ar tā atlikumu, polinoma $x^6$ vērtības atlikums no tā nemainīsies). 
 
-<table>
-<tr><th>$x$</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
-<tr><th>$x^3$</th><td>1</td><td>8</td><td>27</td><td>64</td><td>125</td><td>216</td></tr>
-<tr><th>Atlikums $x^3\;\mbox{mod}\;7$</th><td>1</td><td>1</td><td>6</td><td>1</td><td>6</td><td>6</td></tr>
-<tr><th>$(x^3\;\mbox{mod}\;7)^2$</th><td>1</td><td>1</td><td>36</td><td>1</td><td>36</td><td>36</td></tr>
-<tr><th>Atlikums $x^6\;\mbox{mod}\;7$</th><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-</table>
+| $x$           | $1$   | $2$   | $3$           | $4$   | $5$           | $6$          |
+| ------------- | ----- | ----- | ------------- | ----- | ------------- | ------------ |
+| $x^3          | $1$   | $8$   | $27$          | $64$  | $125$         | $216$        | 
+| $x^3 \pmod 7$ | $1$   | $1$   | $6$           | $1$   | $6$           | $6$          |
+| $x^6 \pmod 7$ | $1$   | $1$   | $36 \equiv 1$ | $1$   | $36 \equiv 1$ | 36 \equiv 1$ |
+
 
 
 
