@@ -3,6 +3,12 @@
 Dots, ka $n$ - vesels skaitlis. Cik daudzi no skaitļiem $n^2+1$,
 $n(n+1)$ un $3n^3-2$ ir pāra skaitļi?
 
+<small>
+
+* questionType:Find.Count
+
+</small>
+
 
 
 # <lo-sample/> LV.VOL.2000.9.4
@@ -12,6 +18,11 @@ $\frac{1}{a_1} + \frac{2}{a_2} + \ldots + \frac{10}{a_{10}}$,
 kur $a_1, a_2, \ldots, a_{10}$ - naturāli skaitļi, starp
 kuriem var būt arī vienādi?
 
+<small>
+
+* questionType:Find.Count
+
+</small>
 
 
 # <lo-sample/> LV.VOL.2000.10.2
@@ -20,17 +31,29 @@ Kādu mazāko naturālo skaitli var iegūt kā vērtību, ievietojot
 iekavas izteiksmē $15:14:13:12:11:10:9:8:7:6:5:4:3:2$?
 
 
+<small>
+
+* questionType:Find.Optimal
+
+</small>
+
 
 # <lo-sample/> LV.VOL.2000.11.2
 
 Dots, ka $a$ un $b$ - naturāli skaitļi. Ir zināms arī, ka izteiksmes
 $a + \frac{b}{a} - \frac{1}{b}$
-vērtība ir naturāls skaitlis. Pierādīt, ka šīs izteiksmes
-vērtība ir kāda naturāla skaitļa kvadrāts. Vai jebkuram
+vērtība ir naturāls skaitlis.  
+**(A)** Pierādīt, ka šīs izteiksmes
+vērtība ir kāda naturāla skaitļa kvadrāts.  
+**(B)** Vai jebkuram
 naturālam $n$ var atrast tādus naturālus 
 $a$ un $b$, ka $a + \frac{b}{a} - \frac{1}{b} = n^2$?
 
+<small>
 
+* questionType:Prove,ProveDisprove
+
+</small>
 
 # <lo-sample/> LV.VOL.2000.11.4
 
@@ -38,7 +61,11 @@ Doti seši dažādi iracionāli skaitļi. Pierādīt, ka no tiem var
 izvēlēties $3$ skaitļus (apzīmēsim tos ar $x$, $y$, $z$) tā, ka visi trīs
 skaitļi $x+y$, $x+z$, $y+z$ ir iracionāli.
 
+<small>
 
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> LV.VOL.2000.12.5
@@ -47,9 +74,14 @@ Doti $12$ dažādi naturāli skaitļi. Katriem $5$ no tiem mazākais
 kopīgais dalāmais ir viens un tas pats skaitlis $M$. Ir zināms,
 ka no dotajiem $12$ skaitļiem var izvēlēties $x$ skaitļus tā, ka
 katri divi no izvēlētajiem ir savstarpēji pirmskaitļi.  
-(a) pierādīt, ka $x \leq 4$,  
-(b) pierādīt: var gadīties, ka $x=4$.
+**(A)** pierādīt, ka $x \leq 4$,  
+**(B)** pierādīt: var gadīties, ka $x=4$.
 
+<small>
+
+* questionType:Prove,Prove
+
+</small>
 
 
 # <lo-sample/> LV.VOL.2001.9.1
@@ -57,13 +89,14 @@ katri divi no izvēlētajiem ir savstarpēji pirmskaitļi.
 Sienāža lēciena garums ir $5$. Viņš sākotnēji atrodas punktā ar
 koordinātām $(0;0)$ un var pārvietoties tikai pa punktiem, kam abas
 koordinātas ir veseli skaitļi.  
-(a) Pierādīt, ka sienāzis var nokļūt punktā ar koordinātām $(1;0)$,  
-(b) vai sienāzis var nokļūt jebkurā punktā ar veselām koordinātām?
+**(A)** Pierādīt, ka sienāzis var nokļūt punktā ar koordinātām $(1;0)$,  
+**(B)** Vai sienāzis var nokļūt jebkurā punktā ar veselām koordinātām?
 
 <small>
 
 * [alg.sets.sqrt.pythagoras](#)
 * [div.common.gcd.bezout](#)
+* questionType:Prove,ProveDisprove
 
 </small>
 
@@ -74,6 +107,12 @@ koordinātas ir veseli skaitļi.
 
 Naturāla skaitļa $A$ ciparus uzrakstīja pretējā secībā un ieguva skaitli $B$.
 Izrādījās, ka $B$ dalās ar $A$. Kāds var būt dalījums?
+
+<small>
+
+* questionType:Find.All
+
+</small>
 
 
 
@@ -88,44 +127,44 @@ skaitļa $2^n$ pirmo ciparu, iegūst divnieka pakāpi ar naturālu kāpinātāju
 * [mod.exp.period](#)
 * [nota.divrule.3_9.divides](#)
 * [div.fta.divisors](#)
-
+* questionType:Find.All
 
 </small>
 
 
 
-## Eksperimentēšana
+## Atrisinājums
 
-* Divnieka pakāpes $32$ un $64$ der. 
-* Nosvītrotā cipara skaitliskā vērtība abos gadījumos ir $15$ daudzkārtnis. 
+Ar eksperimentēšanu atrodam, ka
+divnieka pakāpes $32$ un $64$ der. 
+Nosvītrotās skaitļa daļas vērtība ($30$ vai $60$) abos gadījumos ir $15$ daudzkārtnis. 
 Piemēram:
 
 $$2^6-2^2 = 2^2(2^4-1)=2^2(8+4+2+1).$$ 
 
 
+Lai $2^n - 2^m = 2^m(2^{n-m}-1)$ būtu nosvītrojamais cipars, šai izteiksmei jādalās ar $5$.
+Pakāpes $2^{n-m}$ dalot ar $5$, iegūst šādus atlikumus:
 
-## Atlikumu periodiskums
+| $n-m$             | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
+| ----------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $2^{n-m} \pmod 5$ | 1   | 2   | 4   | 3   | 1   | 2   | 4   | 2   | 1   |
+| $2^{n-m} \pmod 3$ | 1   | 2   | 1   | 2   | 1   | 2   | 1   | 2   | 1   |
 
-* Lai $2^n - 2^m = 2^m(2^{n-m}-1)$ būtu 
-nosvītrojamais cipars, jādalās ar $5$
-* $2^{n-m}$, dalot ar $5$, 
-dod periodiskus atlikumus; vajag $1$.
-* Tātad $n-m$ jādalās ar $4$ (atbilst $16,256,\ldots$).
 
+Tā kā $n-m \neq 0$ un vajag, lai $2^{n-m}-1$ dalās ar $5$, iegūstam, ka $n-m > 0$
+dalās ar $4$. Tad $2^{n-m}$ ir $16$, $256$, $4096$, $65536$ utt.   
 
 **Secinājums:** Ja $2^{n-m} - 1$ dalās ar $5$, tad tas
-dalās arī ar $3$.   
-*Pierādījums:* Divnieka pakāpes dalot ar $3$, atlikumi arī 
-ir periodiski ($2^{n-m} - 1$ dalās ar $3$ t.t.t. ja $n-m$ ir 
-pāru). Bet tā kā $n-m$ dalās ar $4$, tad tas dalīsies arī ar $2$. 
+dalās arī ar $3$. To var ieraudzīt tabuliņā, jo arī atlikumi (mod 3) ir periodiski. 
+Un tā kā $n-m$ dalās ar $4$, tad tas dalīsies arī ar $2$. 
 
-
-
-## Citi pirmreizinātāji nevar būt
-
-* $2^m\cdot{}(2^{n-m}-1)$ ciparu summai jādalās ar $3$ (bet ne ar $9$)
-* Vienīgi cipari $3$, $6$ apmierina šo īpašību.
-* Dalot $300$, $600$ (vai $3000$, $6000$ utt.) ar divnieka pakāpēm, 
+Izsvītrotais cipars pareizināts ar $10$ pakāpi 
+ir $2^m\cdot{}(2^{n-m}-1)$. Šī skaitļa ciparu summai jādalās ar $3$, bet ne ar $9$. 
+Vienīgi cipari $3$, $6$ apmierina šo īpašību, tātad 
+$2^m\cdot{}(2^{n-m}-1)$ ir vai nu $3 \cdot 10^k$ vai  $6 \cdot 10^k$. 
+Bet ja šie skaitļi ir lielāki par $30$ vai $60$, tad
+dalot $300$, $600$ (vai $3000$, $6000$ utt.) ar divnieka pakāpēm, 
 iegūsim tikai pirmreizinātājus $3$ un $5$.
 
 
@@ -135,12 +174,22 @@ iegūsim tikai pirmreizinātājus $3$ un $5$.
 Pierādīt, ka
 $\sqrt[3]{5\sqrt{2} + 7} - \sqrt[3]{5\sqrt{2} - 7} = 2$.
 
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> LV.VOL.2001.11.3
 
 Atrisināt naturālos skaitļos vienādojumu $x^2+3^x=y^2$.
 
+<small>
+
+* questionType:Find.All
+
+</small>
 
 
 # <lo-sample/> LV.VOL.2001.12.3
@@ -148,6 +197,11 @@ Atrisināt naturālos skaitļos vienādojumu $x^2+3^x=y^2$.
 Atrisināt naturālos skaitļos vienādojumu $x^2-y!=2001$. (Piezīme: ar $y!$
 saprot visu naturālo skaitļu reizinājumu no $1$ līdz $y$ ieskaitot.)
 
+<small>
+
+* questionType:Find.All
+
+</small>
 
 
 # <lo-sample/> LV.VOL.2002.9.1
@@ -160,17 +214,21 @@ skaitļa kubs. Kādas ir $x$ un $y$ vērtības?
 
 * [div.fta.pow](#)
 * [comb.full](#)
+* questionType:Find.All
 
 </small>
 
 
 
-## Kādi skaitļi ir pilni kubi
+## Atrisinājums
+
+Kādi skaitļi ir pilni kubi
 
 * Reizinājums $xy$ ir pilns kubs, ja ikviena $xy$ 
-pirmreizinātāja pakāpe dalās ar $3$.
+  pirmreizinātāja pakāpe dalās ar $3$.
 * Daudzas $x,y$ vērtības (kas satur tādus pirmreizinātājus $p$, 
-kas nav kvadrātā, kam nevar piereizināt $p^2$), var izslēgt:
+  kas nav kvadrātā, kam nevar piereizināt $p^2$), var izslēgt:
+
 $$\left\{ 
 \begin{array}{l}
 x \neq 31;\;33;\;34;\;35;\;37;\;38;\;39\\
@@ -178,12 +236,12 @@ y \neq 41;\;42;\;43;\;44;\;45;\;46;\;47;\;49\\
 \end{array} \right.$$
 
 
-## Gadījumi
+Šķirojam gadījumus:
 
-Pirmreizinātājus $5$ un $7$ izmantot nav iespējams, jo $y=49$ 
-varētu salikt kopā vienīgi ar $x=35$, bet tad kāpinātājs pie
-$5$ nedalītos ar trīs (jo $x,y \in (25;50)$). Paliek 
-tikai pirmskaitļi $2$ un $3$ un šādas vērtības:
+* Pirmreizinātājus $5$ un $7$ izmantot nav iespējams, jo $y=49$ 
+  varētu salikt kopā vienīgi ar $x=35$, bet tad kāpinātājs pie
+  $5$ nedalītos ar trīs (jo $x,y \in (25;50)$). 
+* Paliek  tikai pirmskaitļi $2$ un $3$ un šādas vērtības:
 
 $$x = 32;\;36\;\;\mbox{un}\;\;y=48.$$
 
@@ -196,6 +254,12 @@ Der vienīgi $x=36$, $y=48$. Tad $xy=2^63^3$ un $\sqrt[3]{xy}=12$.
 
 Kādiem naturāliem skaitļiem $n$ skaitlis $n\cdot{}2^{n-1}$ 
 ir naturāla skaitļa kvadrāts?
+
+<small>
+
+* questionType:Find.All
+
+</small>
 
 
 
@@ -212,7 +276,11 @@ $B$ vēlas, lai $\left| x-y \right|$ būtu iespējami mazs.
 Cik lielu $\left| x-y \right|$ vērtību $A$ var
 sasniegt?
 
+<small>
 
+* questionType:Find.All
+
+</small>
 
 
 # <lo-sample/> LV.VOL.2002.11.2
