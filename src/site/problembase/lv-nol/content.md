@@ -2,9 +2,9 @@
 
 Naturālu skaitli sauc par interesantu, ja tā ciparu summa dalās ar $5$. 
 
-**(a)** atrast kaut vienu tādu interesantu $x$, ka arī $x+9$ ir interesants,   
-**(b)** cik pavisam ir tādu interesantu $x$, kādi minēti **(a)** punktā?  
-**(c)** pierādīt: starp jebkuriem $9$ pēc kārtas ņemtiem naturāliem skaitļiem ir 
+**(A)** atrast kaut vienu tādu interesantu $x$, ka arī $x+9$ ir interesants,   
+**(B)** cik pavisam ir tādu interesantu $x$, kādi minēti **(A)** punktā?  
+**(C)** pierādīt: starp jebkuriem $9$ pēc kārtas ņemtiem naturāliem skaitļiem ir 
 vismaz viens interesants.
 
 
@@ -13,19 +13,17 @@ vismaz viens interesants.
 * [nota.divrule.3_9.rem](#)
 * [seq.gaps](#)
 * [seq.arithm.mod](#)
+* questionType:Find.Example,Find.Count,Prove
+* genre:SpecialNumbers
 
 </small>
 
-<!--
-genre=special-numbers
-questionType=Find.Any,Find.Count,Prove.ForAll
--->
 
 
 
-## Atlikumi, dalot ar 9 
+## Atrisinājums 
 
-**(a)** un **(b)**
+**(A)** un **(B)** gadījumā
 $x$ un $x+9$ ciparu summas mēdz atšķirties par
 $9$ daudzkārtni, tie var atšķirties par $0$ vai $45$, utt. 
 
@@ -33,10 +31,7 @@ $9$ daudzkārtni, tie var atšķirties par $0$ vai $45$, utt.
 * Par $45$ atšķiras, piemēram, $1999999$ un $2000008$ ciparu summas. 
 
 
-
-## Gadījumu pārlase
-
-**(c)** Skaitļu ciparu summas veido virknes, kas deviņus soļus aug pa $1$ (vienu 
+**(C)** Skaitļu ciparu summas veido virknes, kas deviņus soļus aug pa $1$ (vienu 
 ciparam pieaugot no $0$ līdz $9$), 
 pēc tam vienu soli par kaut kādu daudzumu sadilst (vienu cipars no $9$ pēkšņi 
 pārvēršas par $0$). Virknīte garumā $9$ (neatkarīgi no tā, kurā brīdī 
@@ -56,18 +51,17 @@ atrastos skaitļi $\frac{4}{3}$; $\frac{4}{5}$; $\frac{5}{2}$?
 <small>
 
 * [misc.invar.expr](#)
+* strategy:Invariant
+* questionType:ProveDisprove
+* genre:MakingMoves
+* seeAlso:LV.NOL.2019.8.4
 
 </small>
 
-<!--
-genre=making-moves
-questionType=ProveDisprove.Exists
-seeAlso=LV.NOL.2019.8.4
--->
 
 
 
-## Invariants
+## Atrisinājums
  
 Trīs skaitļu reizinājums nemainās. Tomēr šajā piemērā reizinājumiem 
 sākumā un beigās jāatšķiras. Pretruna.
