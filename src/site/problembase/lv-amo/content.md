@@ -6,7 +6,7 @@ var izsacīt kā divu veselu skaitļu kvadrātu summu. Vai to noteikti var izsac
 <small>
 
 * [alg.tra.binom.square](#)
-* questionType:Prove.Other
+* questionType:Prove
 * concepts:square-Alg
 
 </small>
@@ -38,7 +38,7 @@ Atrast mazāko naturālo skaitli, kam visi cipari ir vienādi un kas dalās ar $
 * [mod.exp.fermat](#)
 * [div.fta.divisors](#)
 * genre:optimization
-* questionType:Find.Min
+* questionType:Find.Optimal
 * concepts:decimal-notation,digit,divisibility
 
 </small>

@@ -1,0 +1,164 @@
+bbk2012-p4/content.md:genre=making-moves
+bbk2012-p4/content.md:genre=digit-manipulation
+bbk2012-p4/content.md:genre=digit-manipulation
+ee-lo/content.md:genre=integer-equation
+ee-lo/content.md:genre=integer-equation
+ee-lo/content.md:genre=digit-manipulation
+ee-lo/content.md:genre=integer-equation
+ee-lo/content.md:genre=integer-equation
+ee-lo/content.md:genre=game
+ee-lo/content.md:genre=sequence-properties
+ee-lo/content.md:genre=digit-manipulation
+ee-lo/content.md:genre=integer-equation
+ee-lo/content.md:genre=game
+ee-lo/content.md:genre=integer-equation
+ee-lo/content.md:genre=integer-equation
+ee-lvs/content.md:genre=integer-equation
+ee-lvs/content.md:genre=digit-manipulation
+ee-lvs/content.md:genre=proving-inequality
+ee-lvs/content.md:genre=cryptarithm
+ee-lvs/content.md:genre=digit-manipulation
+ee-lvs/content.md:genre=digit-manipulation
+ee-lvs/content.md:genre=proving-inequality
+ee-lvs/content.md:genre=integer-equation
+ee-lvs/content.md:genre=digit-manipulation
+ee-lvs/content.md:genre=magic-configuration
+ee-lvs/content.md:genre=prove-inequality
+ee-lvs/content.md:genre=game
+ee-lvs/content.md:genre=magic-configuration
+ee-lvs/content.md:genre=cryptarithm
+ee-lvs/content.md:genre=word-problem
+ee-lvs/content.md:genre=fill-in-table
+ee-lvs/content.md:genre=procedure
+ee-lvt/content.md:genre=integer-equation
+ee-lvt/content.md:genre=digit-manipulation
+ee-lvt/content.md:genre=sequence-properties
+ee-lvt/content.md:genre=digit-manipulation
+ee-lvt/content.md:genre=integer-equation
+ee-lvt/content.md:genre=integer-geometry
+ee-lvt/content.md:genre=integer-equation
+ee-lvt/content.md:genre=game
+ee-lvt/content.md:genre=integer-equation
+ee-lvt/content.md:genre=digit-manipulation
+ee-lvt/content.md:genre=functional-equation
+ee-lvt/content.md:genre=string-counting
+ee-lvt/content.md:genre=decimal-manipulation
+ee-lvt/content.md:genre=optimization
+ee-lvt/content.md:genre=prove-inequality
+ee-lvt/content.md:genre=digit-manipulation
+ee-lvt/content.md:genre=magic-configuration
+ee-lvt/content.md:genre=cryptarithm
+ee-lvt/content.md:genre=build-expression
+ee-lvt/content.md:genre=integer-geometry
+ee-lvt/content.md:genre=digit-manipulation
+ee-lvt/content.md:genre=procedure
+ee-pk/content.md:genre=fill-in-table
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=word-problem
+ee-pk/content.md:genre=integer-equation
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=fill-in-table
+ee-pk/content.md:genre=word-problem
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=word-problem
+ee-pk/content.md:genre=string-counting
+ee-pk/content.md:genre=procedure
+ee-pk/content.md:genre=word-problem
+ee-pk/content.md:genre=word-problem
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=word-problem
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=word-problem
+ee-pk/content.md:genre=fill-in-table
+ee-pk/content.md:genre=fill-in-table
+ee-pk/content.md:genre=string-counting
+ee-pk/content.md:genre=string-counting
+ee-pk/content.md:genre=word-problem
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=cryptarithm
+ee-pk/content.md:genre=integer-equation
+ee-pk/content.md:genre=cryptarithm
+ee-pk/content.md:genre=word-problem
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=optimization
+ee-pk/content.md:genre=integer-equation
+ee-pk/content.md:genre=integer-equation
+ee-pk/content.md:genre=digit-manipulation
+ee-pk/content.md:genre=integer-equation
+ee-pk/content.md:genre=integer-equation
+lt-lkmmo/content.md:genre=integer-equation
+lt-lkmmo/content.md:genre=optimization
+lt-lkmmo/content.md:genre=integer-equation
+lt-lkmmo/content.md:genre=fill-in-table
+lt-lkmmo/content.md:genre=digit-manipulation
+lt-lkmmo/content.md:genre=special-numbers
+lt-lkmmo/content.md:genre=fill-in-table
+lt-lkmmo/content.md:genre=integer-equation
+lt-lkmmo/content.md:genre=integer-equation
+lt-lkmmo/content.md:genre=integer-equation
+lt-lkmmo/content.md:genre=integer-equation
+lt-lkmmo/content.md:genre=system-of-equations
+lt-lkmmo/content.md:genre=special-numbers
+lt-lkmmo/content.md:genre=comparison
+lt-lkmmo/content.md:genre=digit-manipulation
+lt-lkmmo/content.md:genre=special-numbers
+lt-lkmmo/content.md:genre=integer-equation
+lt-lkmmo/content.md:genre=making-moves
+lt-lkmmo/content.md:genre=game
+lt-lkmmo/content.md:genre=integer-equation
+lt-lkmmo/content.md:genre=integer-equation
+lt-lkmmo/content.md:genre=game
+lt-lkmmo/content.md:genre=special-numbers
+lt-tst/content.md:genre=special-numbers
+lt-tst/content.md:genre=special-numbers
+lv-amo/content.md:* genre:optimization
+lv-amo/content.md:* genre:construction
+lv-amo/content.md:* genre:construction
+lv-amo/content.md:* genre:digit-manipulation
+lv-amo/content.md:* genre:game
+lv-amo/content.md:* genre:optimization
+lv-amo/content.md:* genre:digit-manipulation
+lv-amo/content.md:* genre:game
+lv-amo/content.md:* genre:making-moves
+lv-amo/content.md:* genre:optimization
+lv-amo/content.md:* genre:digit-manipulation
+lv-amo/content.md:* genre:making-moves
+lv-amo/content.md:* genre:optimization
+lv-amo/content.md:* genre:construction
+lv-amo/content.md:* genre:special-numbers,sum-of-digits
+lv-amo/content.md:* genre:optimization
+lv-amo/content.md:* genre:game
+lv-amo/content.md:* genre:digit-manipulation
+lv-amo/content.md:* genre:fill-in-table
+lv-amo/content.md:* genre:making-moves
+lv-amo/content.md:* genre:word-problem
+lv-amo/content.md:* genre:construction
+lv-amo/content.md:* genre:construction
+lv-amo/content.md:* genre:magic-configuration
+lv-amo/content.md:* genre:digit-manipulation
+lv-nol/content.md:genre=special-numbers
+lv-nol/content.md:genre=making-moves
+lv-nol/content.md:genre=magic-configuration
+lv-nol/content.md:genre=fill-in-table
+lv-nol/content.md:genre=fill-in-table
+lv-nol/content.md:genre=digit-manipulation
+lv-nol/content.md:genre=optimization
+lv-nol/content.md:genre=games
+lv-nol/content.md:genre=integer-equation
+lv-nol/content.md:genre=game
+lv-nol/content.md:genre=making-moves
+lv-nol/content.md:genre=digit-manipulation
+lv-nol/content.md:genre=integer-equation
+lv-nol/content.md:genre=integer-equation
+lv-nol/content.md:genre=integer-equation
+lv-vol/content.md:genre=integer-equation
+lv-vol/content.md:genre=optimization
+lv-vol/content.md:genre=digit-manipulation
+lv-vol/content.md:genre=integer-equation
