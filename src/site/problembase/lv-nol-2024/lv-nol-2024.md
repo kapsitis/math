@@ -110,7 +110,7 @@ Vai iespējams, ka pēc atkārtotas automāta izmantošanas viṇai palika:
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -256,7 +256,7 @@ ko sauc par posmiem. Lauztu līniju, kuras galapunkti sakrīt, sauc par slēgtu 
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -547,7 +547,7 @@ viens skaitlis un katrā rindā un katrā kolonnā skaitli pieaugtu bultiņas no
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -696,7 +696,7 @@ Vai var gadīties, ka tagad visi kaḳi atrodas tieši: **(A)** $8$ rūtiņās; 
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -922,7 +922,7 @@ Vai var gadīties, ka tagad visas vardes atrodas tieši: **(A)** $24$ rūtiņās
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -1110,7 +1110,7 @@ Vai iespējams, ka: **(A)** $n=2024$; **(B)** $n=2025$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 

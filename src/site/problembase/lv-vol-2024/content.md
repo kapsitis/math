@@ -6,7 +6,7 @@ lielāks nekā visu šo skaitļu lielākais kopīgais dalītājs?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 

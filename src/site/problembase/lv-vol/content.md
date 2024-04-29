@@ -431,7 +431,7 @@ $a! \cdot b! \cdot c! \cdot d! = e!$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -463,7 +463,7 @@ Vai tas ir iespējams, ja
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -523,7 +523,7 @@ skaitlim $A$ galā skaitli $B$.
 
 <small>
 
-* questionType:Find.Example,Prove,Prove,ProveDisprove
+* questionType:Find.Example,Prove,ProveDisprove
 
 </small>
 
@@ -721,7 +721,7 @@ skaitļi? (Saknes var būt arī vienādas.)
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -740,7 +740,7 @@ $81$ (katrā rūtiņā – citu skaitli) tā, lai izpildītos tāda pati īpaš�
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -755,7 +755,7 @@ $x^2 - y^2 - x + y$ vērtība ir
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -805,7 +805,7 @@ Dots, ka $n$ - naturāls skaitlis.
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -845,7 +845,7 @@ Atbildēt uz šo jautājumu, ja
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -1093,7 +1093,7 @@ Vai ir iespējams, ka **(A)** $k=7$, **(B)** $k=8$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -2060,7 +2060,7 @@ Vai šajā virknē ir skaitlis **(A)** 2001, **(B)** 2006?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -2394,7 +2394,7 @@ Vai naturāla skaitļa kvadrāta ciparu summa var būt
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
@@ -2525,7 +2525,7 @@ gadīties, ka šīs saknes ir **(A)** veseli skaitļi, **(B)** racionāli skait�
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:ProveDisprove
 
 </small>
 
