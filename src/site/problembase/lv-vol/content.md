@@ -1181,6 +1181,11 @@ Pierādīt, ka neeksistē tādi naturāli skaitļi $n$ un $m$,
 kuriem ir patiesa
 vienādība $\left( 2n \right)^{2n}-1 = m^3$.
 
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> LV.VOL.2012.9.1
@@ -1252,6 +1257,11 @@ skaitļu $a$, kuriem skaitlis
 $n^4 + a$ ir salikts skaitlis visiem naturāliem 
 skaitļiem $n > 1$.
 
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> LV.VOL.2012.11.4
@@ -1261,6 +1271,12 @@ un katram $n>1$
 $a_n = a_1 a_2 \ldots a_{n-1}+4$. 
 Pierādīt, ka visiem $n \geq 1$ ir spēkā sakarība
 $a_n - \sqrt{a_{n+1}}=2$.
+
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 
@@ -1272,6 +1288,11 @@ sakarības:
 $$a_{b_i} = b_{a_i}\;\;\mbox{un}\;\;a_i-b_i > 2012.$$
 Atrast vienu šādu virkņu piemēru.
 
+<small>
+
+* questionType:Find.Example
+
+</small>
 
 
 # <lo-sample/> LV.VOL.2012.12.3
@@ -1746,7 +1767,7 @@ dalās ar $10$.
 * [div.prop.prod](#)
 * [mod.fix.parity](#)
 * [mod.congr.poly](#)
-* quetionType:Prove
+* questionType:Prove
 
 </small>
 
@@ -2182,7 +2203,7 @@ Pierādīt, ka tā ciparus var pārkārtot citā secībā tā, lai jauniegūtais
 * [nota.combine.split](#)
 * [mod.congr.sumdiff](#)
 * [comb.full](#)
-* questionType:Proof
+* questionType:Prove
 
 </small>
 
@@ -2270,7 +2291,7 @@ izvēlēties $9$ skaitļus tā, lai to summa dalītos ar $9$.
 
 <small>
 
-* questionType:Proof
+* questionType:Prove
 
 </small>
 
@@ -2328,7 +2349,7 @@ Piemēram, skaists trijnieks ir $8$, $9$, $10$.
 * [nota.divrule.2_5_10.divides](#)
 * [nota.divrule.3_9.divides](#)
 * [nota.combine.padding](#)
-* questonType:Find.Example,Prove
+* questionType:Find.Example,Prove
 
 </small>
 
