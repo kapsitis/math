@@ -2644,4 +2644,8 @@ $$2^{a_1} - \left( b_1 \right)^2 = 2^{a_2} - \left( b_2 \right)^2 > 0.$$
 
 </small>
 
+## Atrisinājums 
+
+TBD
+
 

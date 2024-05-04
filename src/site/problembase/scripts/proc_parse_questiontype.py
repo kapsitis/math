@@ -1,4 +1,5 @@
 import re
+import sys
 
 # Read problems one by one from Markdown file "filepath"
 def extract_sections_from_md(filepath):
@@ -9,7 +10,7 @@ def extract_sections_from_md(filepath):
 
     heading_re = re.compile(r'^#\s+<lo-sample/>\s+(.*)')
 
-    with open(filepath, 'r') as file:
+    with open(filepath, 'r', encoding='utf-8') as file:
         for line in file:
             m = heading_re.match(line)
             if m:
@@ -18,7 +19,7 @@ def extract_sections_from_md(filepath):
                 if current_section is not None:
                     sections.append((title, current_section))
                 title = new_title
-                current_section = ''
+                current_section = line
             elif current_section is not None:
                 # before seeing the first title, we do not append anything
                 current_section += line
@@ -31,7 +32,9 @@ def normalize_text(text):
     text = text.lower()
     meta_start = text.find('<small>')
     if meta_start > 0:
+        meta_end = text.find('</small>')
         text = text[0:meta_start] # Nomet uzdevumam metainformāciju (un atrisinājumu, ja tāds tur ir)
+        text = text+'\n\n'+text[meta_end:]
     text = re.sub(r'\$[^\$]+?\$', '_EXPR_', text)  # Aizstāj formulas ar _EXPR_
     text = re.sub(r'[^\w\s\.\?!]', '', text)  # Izdzēš simbolus, kas nav burti, cipari vai .,?,!
     text = re.sub(r'\s+', ' ', text).strip()  # Aizstāj daudzus tukšumus ar vienu tukšumu
@@ -46,7 +49,7 @@ def category_number(arg):
 
 if __name__ == '__main__':
     questionType_re = re.compile(r'.+?questionType:([\w\.,]+).+?',re.DOTALL)
-    problemList = extract_sections_from_md('content.md')
+    problemList = extract_sections_from_md(f'{sys.argv[1]}/content.md')
     for (title, problem) in problemList:
         category = 'NA'
         m = questionType_re.match(problem)  # Mēģina atrast questionType
