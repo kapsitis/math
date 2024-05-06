@@ -8,7 +8,8 @@ for all positive integers $n$. Show that $a_{2022}\leq 1$.
 
 <small>
 
-# source:Nigeria
+* source:Nigeria
+* questionType:Prove
 
 </small>
 
@@ -47,6 +48,7 @@ sum of $k$ other distinct elements of the set.
 <small>
 
 * source:Slovakia
+* questionType:FindOptimal
 
 </small>
 
@@ -107,6 +109,7 @@ $y \in \mathbb{R}^+$ satisfying $$xf(y)+yf(x) \leq 2$$
 <small>
 
 * source:Netherlands
+* questionType:FindAll
 
 </small>
 
@@ -338,6 +341,7 @@ $$2^{j-i}x_ix_j>2^{s-3}.$$
 <small>
 
 * source:Trinidad and Tobago
+* questionType:Prove
 
 </small>
 
@@ -412,6 +416,7 @@ $r^1,r^2,\ldots,r^{\frac{1}{2}n(n-1)}$.
 <small>
 
 * source:Czech Republic
+* questionType:FindAll
 
 </small>
 
@@ -550,6 +555,7 @@ for every function $f\in\mathcal F$, there exists some $z\in\mathbb R$ satisfyin
 <small>
 
 * source:Indonesia
+* questionType:FindAll
 
 </small>
 
@@ -649,6 +655,7 @@ and $s(P(k))$ have the same parity?
 <small>
 
 * source:Belarus
+* questionType:ProveDisprove
 
 </small>
 
@@ -735,6 +742,7 @@ $c_1$, $c_2$, and $\lambda$ such that \[c_1\lambda^n<f(n)<c_2\lambda^n\]for all 
 <small>
 
 * source:Canada
+* questionType:Prove
 
 </small>
 
@@ -936,6 +944,11 @@ $1 \le t_1 < \ldots < t_k \le 2022$ so that $t_{i+1} - t_i \le 2$ for all $i$,
 and $$\left| \sum_{i = 1}^{k} a_{t_i} \right| \ge C.$$
 
 
+<small>
+
+* questionType:FindOptimal
+
+</small>
 
 
 # <lo-sample/> IMO.SHL.2022.C2
@@ -954,6 +967,13 @@ Find all pairs $(n,k)$ with $1 \leq k \leq 2n$ such that for every initial order
 at some moment during the process, the leftmost $n$ coins will all be of the same type.
 
 
+<small>
+
+* questionType:FindAll
+
+</small>
+
+
 
 # <lo-sample/> IMO.SHL.2022.C3
 
@@ -969,6 +989,12 @@ that the gardener can ensure there are eventually $K$ majestic trees on the boar
 no matter how the lumberjack plays.
 
 
+<small>
+
+* questionType:FindOptimal
+
+</small>
+
 
 
 # <lo-sample/> IMO.SHL.2022.C4
@@ -980,6 +1006,11 @@ Determine all initial distributions of the coins from which it is possible that,
 after a finite number of steps, each child has exactly one coin.
 
 
+<small>
+
+* questionType:FindAll
+
+</small>
 
 
 # <lo-sample/> IMO.SHL.2022.C5
@@ -993,6 +1024,13 @@ $$\sum_{x \in X_k} f(x)>\sum_{x \in X_i} f(x) \quad \text{for all } i \ne k.$$
 Prove that the number of nice functions is at least $n^n$.
 
 
+<small>
+
+* questionType:Prove
+
+</small>
+
+
 
 
 # <lo-sample/> IMO.SHL.2022.C6
@@ -1003,6 +1041,12 @@ take an equal number of pebbles from each pile and form a new pile out of these 
 Find (in terms of $n$) the smallest number of nonempty piles that one can obtain by 
 performing a finite sequence of moves of this form.
 
+
+<small>
+
+* questionType:FindOptimal
+
+</small>
 
 
 
@@ -1026,6 +1070,12 @@ $2022$-tuple on the blackboard after finitely many steps.
 What is the smallest possible number $s$ of tuples that she initially wrote?
 
 
+<small>
+
+* questionType:FindOptimal
+
+</small>
+
 
 
 # <lo-sample/> IMO.SHL.2022.C8
@@ -1045,6 +1095,7 @@ Find, as a function of $n$, the smallest possible total number of uphill paths i
 <small>
 
 * Author:Nikola Petrović
+* questionType:FindOptimal
 
 </small>
 
@@ -1063,6 +1114,11 @@ Let $N$ be the number of pairs of integers $(x,y)$ with $0\le x,y<100$,
 such that $f(x,y)$ is odd. Find the smallest and largest possible values of $N$.
 
 
+<small>
+
+* questionType:FindOptimal
+
+</small>
 
 
 # <lo-sample/> IMO.SHL.2022.G1
@@ -1076,6 +1132,11 @@ Assume that the points $R,E,A,S$ occur on their line in that order.
 Prove that the points $P,S,Q,R$ lie on a circle.
 
 
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> IMO.SHL.2022.G2
@@ -1088,7 +1149,11 @@ respectively, such that $DA = DX$ and $EA = EY$.
 
 Prove that $B, C, X,$ and $Y$ are concyclic.
 
+<small>
 
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> IMO.SHL.2022.G3
@@ -1102,6 +1167,12 @@ lines are concurrent: line $CD$, the tangent of circle $ANQ$ at point $A$,
 and the tangent to circle $BMP$ at point $B$.
 
 
+<small>
+
+* questionType:Prove
+
+</small>
+
 
 # <lo-sample/> IMO.SHL.2022.G4
 
@@ -1111,6 +1182,13 @@ to $BC$ intersects the lines $AO, AC,$ and $AB$ at $W, X,$ and $Y,$ respectively
 The circumcircles of triangles $AXY$ and $ABC$ intersect again at $Z \ne A$.
 
 Prove that if $W \ne D$ and $OW = OD,$ then $DZ$ is tangent to the circle $AXY.$
+
+
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> IMO.SHL.2022.G5
@@ -1123,6 +1201,13 @@ and the line passed through $Z_i$ and perpendicular to $AB$.
 Prove that the circumcircles of $\Delta_1$ and $\Delta_2$ are tangent.
 
 
+<small>
+
+* questionType:Prove
+
+</small>
+
+
 # <lo-sample/> IMO.SHL.2022.G6
 
 Let $ABC$ be an acute triangle with altitude $\overline{AH}$, and let $P$ be 
@@ -1133,6 +1218,12 @@ $\overline{EF}$ meet $\overline{AH}$ at $Q$. Prove that as $P$ varies,
 line $PQ$ passes through a fixed point.
 
 
+<small>
+
+* questionType:Prove
+
+</small>
+
 
 
 # <lo-sample/> IMO.SHL.2022.G7
@@ -1142,6 +1233,11 @@ circumcircle with center $O$. Letting $PQR$ be the triangle formed by
 $AA’, BB’, CC’$, prove that the circumcenter of $PQR$ lies on $OH$.
 
 
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> IMO.SHL.2022.G8
@@ -1154,6 +1250,12 @@ $X$ and let the lines $BC$ and $B'C'$ meet at $Y$.
 Prove that if $XBYB'$ is a convex quadrilateral, then it has an incircle.
 
 
+<small>
+
+* questionType:Prove
+
+</small>
+
 
 
 # <lo-sample/> IMO.SHL.2022.N1
@@ -1165,6 +1267,12 @@ whose sum is equal to $2022$. Determine the smallest Norwegian number.
 is allowed to be larger than $3$.)
 
 
+<small>
+
+* questionType:FindOptimal
+
+</small>
+
 
 
 # <lo-sample/> IMO.SHL.2022.N2
@@ -1172,6 +1280,13 @@ is allowed to be larger than $3$.)
 Find all positive integers $n>2$ such that
 
 $$ n! \mid \prod_{ p<q\le n, p,q \, \text{primes}} (p+q)$$
+
+
+<small>
+
+* questionType:FindAll
+
+</small>
 
 
 
@@ -1190,12 +1305,23 @@ Find, in terms of $a$ and $d$, the greatest positive integer $n$
 for which there exists an index $k$ such that $x_k$ is divisible by $a^n$.
 
 
+<small>
+
+* questionType:FindOptimal
+
+</small>
 
 # <lo-sample/> IMO.SHL.2022.N4
 
 Find all triples $(a,b,p)$ of positive integers with 
 $p$ prime and \[ a^p=b!+p. \]
 
+
+<small>
+
+* questionType:FindAll
+
+</small>
 
 
 # <lo-sample/> IMO.SHL.2022.N5
@@ -1208,6 +1334,12 @@ are written out in base $10$.
 Show that there are infinitely many $T\in\mathbb N$ such that there are 
 precisely two distinct values among $d_1(T)$, $d_2(T)$, $\dots$, $d_9(T)$.
 
+
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 
@@ -1227,6 +1359,12 @@ the number of special integers in $[1,N]$ is at least $cN$.
 $q(63)=3$, $p(2022)=3$, $q(2022)=1$.)
 
 
+<small>
+
+* questionType:Prove
+
+</small>
+
 
 
 # <lo-sample/> IMO.SHL.2022.N7
@@ -1237,8 +1375,21 @@ to place the elements of $S$ around the circle such that the product
 of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$.
 
 
+<small>
+
+* questionType:Prove
+
+</small>
+
 
 
 # <lo-sample/> IMO.SHL.2022.N8
 
 Prove that $5^n-3^n$ is not divisible by $2^n+65$ for any positive integer $n$.
+
+
+<small>
+
+* questionType:Prove
+
+</small>
