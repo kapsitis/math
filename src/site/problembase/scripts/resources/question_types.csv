@@ -1,0 +1,8 @@
+Label,Description
+FindAll,"Atrast visus atrisinājumus un pamatot, ka citu bez atrastajiem nav. Ja uzdevuma nosacījumos nav teikts citādi, tad lietojams šis jautājuma tips. Uzdevumi mēdz sākties ar “Atrast visus…”, “Atrisināt vienādojumu…”, “Noskaidrot, kuriem x izpildās…”, “Kādām skaitļa … vērtībām …”"
+FindCount,"Atrast atrisinājumu vai objektu skaitu. Uzdevumi mēdz sākties ar “Noskaidrot, cik veidos var…”, “Cik sakņu ir vienādojumam…”"
+FindOptimal,"Atrast labāko (lielāko, mazāko) objektu ar dotajām īpašībām un pamatot, ka neeksistē vēl labāks (lielāks vai mazāks). Uzdevumi mēdz sākties ar “Atrast lielāko…”, “Atrast mazāko…”, “Kāds ir lielākais (mazākais) skaits figūriņu, ko var novietot…”"
+FindExample,"Atrast kaut vienu atrisinājumu/piemēru, vai pamatot, ka piemēra nav.  “Vai eksistē…?”, “Atrast tādu …, kam …” (Atšķirībā no Prove/ProveDisprove sagaidāmā atbilde ir piemērs nevis, teiksim, nekonstruktīvs eksistences pierādījums.)"
+Prove,"Pierādīt vispārīgu apgalvojumu, par kuru zināms, ka tas ir patiess. “Dots… Pierādīt, ka…”, “Pamatot, ka visiem…?”, “Pierādīt, ka katru…?”, “Vai noteikti…?”, “Vai katram…?”. "
+ProveDisprove,"Pierādīt vai apgāzt kādu apgalvojumu. Atbildē jānorāda vai nu pierādījums vispārīgajā gadījumā vai arī pretpiemērs, kas apgāž vispārīgo apgalvojumu. “Vai visiem…?”, “Vai vienmēr…?”, “Vai noteikti…?”, “Vai katram…?”, “Vai iespējams…?”, “Vai eksistē…?”. "
+Algorithm,"Uzrakstīt kādu algoritmu vai procedūru un pamatot, ka tā noved pie prasītā rezultāta. “Parādiet, kā pirmais spēlētājs vienmēr var uzvarēt…”,, “Parādiet, kā no … var iegūt…, izmantojot atļautos gājienus”, “Ar cirkuli un lineālu uzkonstruēt …”. "

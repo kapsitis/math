@@ -1,0 +1,17 @@
+StrategyLabel,Description
+Analogy,Jau zināmas problēmas izmantošana atrisinājumā
+AuxiliaryElements,Situācijas papildināšana ar palīgelementiem
+CaseAnalysis,Gadījumu pārlase
+Continuitity,"Robežpāreja tiecoties uz kādu lielumu vai bezgalību, nepārtrauktība un nelielas kustības"
+DoubleCounting,Saskaitīšana divos atšķirīgos veidos
+DrawPicture,"Jauna attēla vai shēmas izveidošana, lai vizualizētu uzdevuma kopsakarības"
+Interpretation,Uzdevuma pārinterpretēšana citos jēdzienos vai apzīmējumos 
+LateralThinking,"Atkāpšanās no plaši pazīstamām pieejām attiecīgās kategorijas uzdevumu risināšanā, atsaukšanās uz ikdienas intuīciju"
+MakingItEasier,"Situācijas vienkāršošana, sākotnējo uzdevumu atvieglojoši pārveidojumi"
+MakingItHarder,"Situācijas vispārināšana, nedaudz vispārīgāka uzdevuma risināšana"
+ProofByContradiction,Pierādījumi no pretējā
+Symmetry,"Sākotnējās situācijas simetrijas izmantošana vai pārveidojums, lai simetriju uzlabotu"
+TrialAndError,"Ķēpāšanās, dažādu gadījumu nesistemātiska aplūkošana"
+UsingAllData,"Atrisinājuma veidošana tā, lai izmantotu visu, kas ir dots"
+WishfulThinking,"Papildu pieņēmumi, kas aizstāj pierādāmo apgalvojumu ar būtiski citu, ieskaitot sekas, ja dotais uzdevums jau būtu atrisināts"
+WorkingBackwards,"Situācijas, spēles, procesa analīze no beigām; pēdējais un priekšpēdējais solis (penultimate step) atrisinājumā vai pierādījumā"

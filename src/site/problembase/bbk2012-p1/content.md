@@ -1545,7 +1545,7 @@ Atrast lielāko iespējamo diferences vērtību, ja zināms, ka tā ir vesels sk
 
 <small>
 
-* [div.common.gcd](#)
+* topic:GcdAndLcm
 * questionType:Find.Max
 
 </small>
@@ -1570,7 +1570,7 @@ piederētu vismaz vienai progresijai?
 
 <small>
 
-* [seq.gaps.geom](#)
+* topic:GeometricSeriesGaps
 
 </small>
 
@@ -1628,7 +1628,7 @@ Kāda var būt lielākā šīs progresijas diferences vērtība?
 
 <small>
 
-* [div.common.gcd](#)
+* topic:GcdAndLcm
 
 </small>
 
@@ -1680,9 +1680,9 @@ Atrast skaitļu $a_{1989}$ un $a_{1990}$ lielāko kopīgo dalītāju.
 
 <small>
 
-* [seq.recur.linear](#)
-* [misc.invar.expr](#)
-* [misc.ind](#)
+* topic:LinearRecurrencesConstant
+* topic:InvariantAlgebraic
+* topic:NumTheoryMathInduction
 
 </small>
 
@@ -1729,7 +1729,7 @@ ir bezgalīgi daudz locekļu, kas ir savstarpēji pirmskaitļi ar skaitli $m$.
 
 <small>
 
-* [seq.arithm.mod.all](#)
+* topic:ArithmeticSeriesAll
 
 </small>
 
@@ -1748,9 +1748,9 @@ lielāko kopīgo dalītāju.
 
 <small>
 
-* [seq.recur.other](#)
-* [misc.invar.expr](#)
-* [misc.ind](#)
+* topic:NonlinearRecurrences
+* topic:InvariantAlgebraic
+* topic:NumTheoryMathInduction
 
 </small>
 
@@ -1767,9 +1767,9 @@ dalās ar $7$?
 
 <small>
 
-* [seq.arithm.mod](#)
-* [seq.arithm.numestimate](#)
-* [misc.symm.periodicity](#)
+* topic:ArithmeticSeriesDivisibility
+* topic:MultiplesInInterval
+* topic:SequencePeriodicity
 
 </small>
 
@@ -1788,10 +1788,10 @@ kuri nedalās ne ar $5$, ne ar $7$?
 
 <small>
 
-* [div.common.lcm](#)
-* [seq.arithm.mod](#)
-* [misc.symm.periodicity](#)
-* [seq.arithm.numestimate](#)
+* topic:GcdAndLcm
+* topic:ArithmeticSeriesDivisibility
+* topic:SequencePeriodicity
+* topic:MultiplesInInterval
 
 </small>
 
@@ -1814,8 +1814,8 @@ questionType=Find.Only
 
 <small>
 
-* [comb.count.inclexcl](#)
-* [misc.symm.periodicity](#)
+* topic:InclusionExclusionPrinciple
+* topic:SequencePeriodicity
 
 </small>
 
@@ -1828,8 +1828,8 @@ un kuri dalās ar $3$?
 
 <small>
 
-* [mod.eq.chinese](#)
-* [misc.symm.periodicity](#)
+* topic:ChineseRemainderTheorem
+* topic:SequencePeriodicity
 
 </small>
 
@@ -1848,7 +1848,7 @@ Pietiek uzrādīt vienu šādu $1328$ skaitļu komplektu.
 
 <small>
 
-* [misc.symm.periodicity](#)
+* topic:SequencePeriodicity
 
 </small>
 
@@ -1942,7 +1942,6 @@ $$d(1)+d(2)+\ldots+d(n)= \left\lfloor \frac{n}{1} \right\rfloor +
 <!--
 questionType=Prove.ForAll
 -->
-
 
 
 
