@@ -636,7 +636,7 @@ $5 \mid (a^2 + 7b)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -655,7 +655,7 @@ Dots, ka $7 \mid a$. Pierādiet, ka $7 \mid (a^2 + 3a + 7b - 21)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -675,7 +675,7 @@ Dots, ka $n \mid a$ un $n \mid (5a + b)$. Pierādiet, ka $n \mid b$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -693,7 +693,7 @@ Dots, ka $n \mid (a - b)$. Pierādiet, ka $n \mid (a^2 + a - b^2 - b)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -712,7 +712,7 @@ Dots, ka $n \mid 3a$ un $n \mid (12a + 5b)$. Pierādiet, ka $n \mid 10b$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -729,7 +729,7 @@ Dots, ka $5 \mid (a - b)$ un $7 \mid (a + b)$. Pierādiet, ka $35 \mid (a^2 - b^
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -748,7 +748,7 @@ $a = b = c$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -768,7 +768,7 @@ ka $15 \mid (a^2 + a - 2)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -784,7 +784,7 @@ Kuri no skaitļiem $101, 111, 141, 143, 155, 161, 163$ ir pirmskaitļi?
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -805,7 +805,7 @@ Atrodiet visus pirmskaitļus intervālā $[100, 120]$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -830,7 +830,7 @@ Atrodiet visus pirmskaitļus intervālā $[180, 200]$s.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -847,7 +847,7 @@ Ar kādām naturālām $n$ vērtībām skaitlis $n^2 - 1$ ir pirmskaitlis?
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -868,7 +868,7 @@ Dots, ka $5 \mid 12a$. Pierādiet, ka $5 \mid a$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -885,7 +885,7 @@ Dots, ka $7 \mid a$ un $7 \mid (2a + 3b)$. Pierādiet, ka $7 \mid b$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -903,7 +903,7 @@ Dots, ka $5 \mid 7b$ un $7 \mid 5a$. Pierādiet, ka $35 \mid ab$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -922,7 +922,7 @@ Pierādiet, ka $n \mid a$ un $n \mid b$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -944,7 +944,7 @@ Pierādiet, ka $n \mid a$ un $n \mid b$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -964,7 +964,7 @@ Pierādiet, ka $25 \mid ab$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -984,7 +984,7 @@ $n^2 + n + 6$ dalās ar $2$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1002,7 +1002,7 @@ Dots, ka $n \mid (a - b)$. Pierādiet, ka $n \mid (a^3 + a^2 - b^3 - b^2)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1020,7 +1020,7 @@ Dots, ka $n \mid (a + 2b)$. Pierādiet, ka $n \mid (a^3 + 2a + 8b^3 + 4b)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1041,7 +1041,7 @@ vai daļa $a/b$ noteikti ir saīsināma?
 <small>
 
 * skill:DivisibilityProperties
-* questionType:ProveDisprove.ForAll
+* questionType:ProveDisprove
 
 </small>
 
@@ -1064,7 +1064,7 @@ $121 \mid (x^2 + y^2)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1084,7 +1084,7 @@ Pierādiet, ka $a = b$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1104,7 +1104,7 @@ Pierādiet, ka $6 \mid (a^2 + 5)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1124,7 +1124,7 @@ Pierādiet, ka $3 \mid (a^2 + 8b^2)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1143,7 +1143,7 @@ Ar kādām naturālām $n$ vērtībām skaitlis $n^3-1$ ir pirmskaitlis?
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1166,7 +1166,7 @@ Ar kādām naturālām $n$ vērtībām skaitlis $n^2+5n+6$ ir pirmskaitlis?
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1188,7 +1188,7 @@ $ab + a + b + 1$ ir pirmskaitlis?
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1207,7 +1207,7 @@ Dots, ka $4 \mid x$ un $3 \mid y$. Pierādiet, ka $12 \mid (xy + 8y + 9x)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1229,7 +1229,7 @@ ka $11 \mid a$ un $11 \mid b$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1248,7 +1248,7 @@ Dots, ka $7 \mid (3a + b)$ un $7 \mid (a + 3b)$. Pierādiet, ka $49 \mid ab$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1268,7 +1268,7 @@ Dots, ka $7 \mid (2a + 3b)$. Pierādiet, ka $7 \mid (a + 5b)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1288,7 +1288,7 @@ Dots, ka $13 \mid (a + 4b)$. Pierādiet, ka $13 \mid (10a + b)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1308,7 +1308,7 @@ Dots, ka $11 \mid (3a + 7b)$. Pierādiet, ka $11 \mid (4a + 2b)$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1329,7 +1329,7 @@ kad skaitlis $7a - 3b$ dalās ar $17$.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Prove.ForAll
+* questionType:Prove
 
 </small>
 
@@ -1350,7 +1350,7 @@ $(n-m)(n^2+m-1)$ ir pirmskaitlis?
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1381,7 +1381,7 @@ lai intervālā $[n, n + 10]$ nebūtu neviena pirmskaitļa.
 <small>
 
 * skill:DivisibilityProperties
-* questionType:Find.Any
+* questionType:FindExample
 
 </small>
 
@@ -1546,7 +1546,7 @@ Atrast lielāko iespējamo diferences vērtību, ja zināms, ka tā ir vesels sk
 <small>
 
 * topic:GcdAndLcm
-* questionType:Find.Max
+* questionType:FindOptimal
 
 </small>
 
@@ -1575,7 +1575,7 @@ piederētu vismaz vienai progresijai?
 </small>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -1589,7 +1589,7 @@ a. visiem naturāliem $n$, $a_n \leq n\sqrt{n}$,
 b. visiem naturāliem $m$ un $n$ starpība $a_m - a_n$ dalās ar $m-n$.
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=square-root
 -->
 
@@ -1634,7 +1634,7 @@ Kāda var būt lielākā šīs progresijas diferences vērtība?
 
 <!--
 seeAlso=BBK2012.P1.36
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -1665,7 +1665,7 @@ katriem diviem lielākais kopīgais dalītājs ir $1$?
 jo $123$ un $9$ abi dalās ar $3$.)
 
 <!--
-questionType=Find.Max
+questionType=FindOptimal
 seeAlso=LV.NO.2001.7.4
 -->
 
@@ -1687,7 +1687,7 @@ Atrast skaitļu $a_{1989}$ un $a_{1990}$ lielāko kopīgo dalītāju.
 </small>
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -1698,7 +1698,7 @@ Atrodiet visus tādus dažādu naturālu skaitļu trijniekus,
 kuriem skaitļi $ab$, $ac$ un $bc$ veido aritmētisko progresiju.
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1734,7 +1734,7 @@ ir bezgalīgi daudz locekļu, kas ir savstarpēji pirmskaitļi ar skaitli $m$.
 </small>
 
 <!--
-questionType=Prove.Other
+questionType=Prove
 -->
 
 
@@ -1755,7 +1755,7 @@ lielāko kopīgo dalītāju.
 </small>
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -1774,7 +1774,7 @@ dalās ar $7$?
 </small>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 seeAlso=LV.VO.1983.8.1
 -->
 
@@ -1796,7 +1796,7 @@ kuri nedalās ne ar $5$, ne ar $7$?
 </small>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 -->
 
 
@@ -1809,7 +1809,7 @@ Atrast
 vai nu ar $3$, vai ar $5$.
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 -->
 
 <small>
@@ -1834,7 +1834,7 @@ un kuri dalās ar $3$?
 </small>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 -->
 
 
@@ -1854,7 +1854,7 @@ Pietiek uzrādīt vienu šādu $1328$ skaitļu komplektu.
 
 <!--
 concepts=mutual-primes,gcd
-questionType=Find.Any
+questionType=FindExample
 -->
 
 
@@ -1867,7 +1867,7 @@ $$\left\lfloor \frac{n}{k} \right\rfloor +
 \left\lfloor \frac{n+k-1}{k} \right\rfloor = n.$$
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -1886,7 +1886,7 @@ $$=\left\lfloor \frac{q}{p} \right\rfloor +
 \left\lfloor \frac{(p-1)q}{p} \right\rfloor.$$
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -1900,7 +1900,7 @@ $$\left\lfloor \frac{n+1}{2} \right\rfloor +
 \left\lfloor \frac{n+2^k}{2^{k+1}} \right\rfloor + \ldots.$$
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -1914,7 +1914,7 @@ n \in \mathbb{N}, n\geq 2$$
 izpildās tad un tikai tad, kad $n$ ir pirmskaitlis.
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -1925,7 +1925,7 @@ Atrodiet visus tādus naturālus skaitļus $k$, kuriem virkne $k+1,k+2,\ldots,k+
 satur maksimālo iespējamo pirmskaitļu skaitu.
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1940,7 +1940,7 @@ $$d(1)+d(2)+\ldots+d(n)= \left\lfloor \frac{n}{1} \right\rfloor +
 
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 

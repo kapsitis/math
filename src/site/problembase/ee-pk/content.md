@@ -12,7 +12,7 @@ kurš satur tos vienādā skaitā un dalās ar $5$ un $9$.
 
 <!--
 concepts=divisibility,decimal-notation
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -40,7 +40,7 @@ ${\displaystyle \frac{n^2 - 4}{n^2 - 1}}$ ir vesels.
 
 <!--
 concepts=integer-polynomials,divisibility
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -52,7 +52,7 @@ ar katru no skaitļiem $3$, $4$, $5$ un $8$.
 
 <!--
 concepts=primes,remainder
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -69,7 +69,7 @@ būtu pozitīvs, bet katrā rindiņā – negatīvs?
 
 <!--
 genre=fill-in-table
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -88,7 +88,7 @@ ar skaitļiem $6$, $7$ un $9$?
 <!--
 concepts=divisibility
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -102,7 +102,7 @@ Atrast skolēnu vecumus.
 <!--
 concepts=arithmetic-progression
 genre=word-problem
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -113,7 +113,7 @@ $(a+b):(b+c):(c+a)=6:7:8$ un $a+b+c=14$.
 
 <!--
 concepts=proportion
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -128,7 +128,7 @@ $$x + \frac{1}{y + \frac{1}{z}} = 1\frac{3}{7}.$$
 
 <!--
 genre=integer-equation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -143,7 +143,7 @@ Atrast skaitli $a$.
 <!--
 concepts=combinations
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -156,7 +156,7 @@ kāda vesela skaitļa kvadrāta summu.
 
 <!--
 concepts=primes,remainder,square
-questionType=Prove.Other
+questionType=Prove
 -->
 
 
@@ -170,7 +170,7 @@ Atrast sākotnējo skaitli, ja zināms, ka tas beidzas ar ciparu $4$.
 <!--
 concepts=arithmetic-progression
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -189,7 +189,7 @@ lappusēm un ieguva $210$.
 
 <!--
 concepts=arithmetic-progression
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -202,7 +202,7 @@ trīsciparu skaitļus.
 
 <!--
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -214,7 +214,7 @@ $$6 \cdot 66 \cdot 666 \cdot 6666 -
 
 <!--
 concepts=primes
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -228,7 +228,7 @@ būt labajā apakšējā kvadrāta stūrī?
 
 <!--
 genre=fill-in-table
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -248,7 +248,7 @@ ja viņu vecumu summa ir $165$? (Vecumu nosaka pilnos gados.)
 
 <!--
 genre=word-problem
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -263,7 +263,7 @@ tieši sešas reizes. Kādus divus trīsciparu skaitļus uzrakstīja $N$?
 
 <!--
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -276,7 +276,7 @@ skaitļa kvadrāts?
 
 <!--
 concepts=full-square,decimal-notation
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -303,7 +303,7 @@ pielika klāt katram no bērniem?
 <!--
 concepts=divisibility
 genre=word-problem
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -316,7 +316,7 @@ diviem blakus cipariem, cipars pa kreisi nepārsniedz ciparu pa labi.
 <!--
 concepts=monotonic-sequence
 genre=string-counting
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -333,7 +333,7 @@ p + q = s\\
 
 <!--
 concepts=primes,system-of-equations
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -345,7 +345,7 @@ Atrast visas iespējamās reizinājuma $ab \cdot (10+b)$ vērtības.
 
 <!--
 concepts=primes
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -362,7 +362,7 @@ Kādu mazāko naturālo skaitli jāievada Tāvi datorā, lai dators atskaņotu m
 <!--
 concepts=factorial
 genre=procedure
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -377,7 +377,7 @@ Cik gadu šogad (2001.gadā) paliks Jurim un Jūlijai?
 
 <!--
 genre=word-problem
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -389,7 +389,7 @@ dalās ar $18$.
 
 <!--
 concepts=divisibility,power,quadratic-equation
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -405,7 +405,7 @@ nedēļas dienā viņi visi satiksies kafejnīcā nākamajā reizē?
 <!--
 concepts=arithmetic-progression
 genre=word-problem
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -420,7 +420,7 @@ naturālu skaitļu summu. Pamatot, kāpēc šo skaitļu nav vairāk.
 
 <!--
 concepts=arithmetic-progression
-questionType=Find.All,NoteOnProof
+questionType=FindAll,NoteOnProof
 -->
 
 
@@ -433,7 +433,7 @@ dažādiem burtiem $A$, $B$, $C$, $D$ atbilst dažādi cipari.
 
 <!--
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -445,7 +445,7 @@ tad rezultāts katru reizi ir tas pats skaitlis $n$.
 Atrast trīs dotos skaitļus. 
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -460,7 +460,7 @@ dārgakeņu. Atrast visas iespējamās lādīšu skaita $N$ vērtības.
 
 <!--
 genre=word-problem
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -470,7 +470,7 @@ Atrast visus tādus trīsciparu nepāru naturālus skaitļus $a$,
 kuru reizinājums ar skaitli $748$ beidzas ar cipariem $2004$.
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -484,7 +484,7 @@ arī ir naturāla skaitļa kvadrāts.
 <!--
 concepts=full-square
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -499,7 +499,7 @@ Atrast Jura dzīvokļa numuru.
 
 <!--
 genre=word-problem
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -526,7 +526,7 @@ Uz leju:
 <!--
 concepts=square,primes,multiple
 genre=fill-in-table
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -555,7 +555,7 @@ Uz leju:
 <!--
 genre=fill-in-table
 concepts=full-square,sum-of-digits,remainder,divisibility
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -574,7 +574,7 @@ Atrast visas iespējas, kāds var būt Keitas dzimšanas mēnesis un datums.
 <!--
 concepts=divisibility
 genre=string-counting
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -587,7 +587,7 @@ iegūst pirmskaitli. No kādiem cipariem sastāv Līas parole?
 <!--
 genre=string-counting
 concepts=primes,combinations
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -603,7 +603,7 @@ ar minēto īpašību.
 <!--
 concepts=sum-of-digits
 genre=word-problem
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -617,7 +617,7 @@ ko Voldemārs varēja uzrakstīt pašā sākumā.
 
 <!--
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -630,7 +630,7 @@ dalās gan ar $4$, gan ar $9$.
 <!--
 concepts=divisibility
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -642,7 +642,7 @@ par iepriekšējo. Kādus skaitļus Perts uzrakstīja uz papīra?
 
 <!--
 concepts=geometric-progression
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -659,7 +659,7 @@ kreisās uz labo pusi, ir $x$, $y$, un $z$.
 <!--
 concepts=arithmetic-progression
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -673,7 +673,7 @@ vērtības summai $a + b + c + d + e + f$.
 
 <!--
 concepts=combinations
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -702,7 +702,7 @@ iegūstam vienu un to pašu skaitli. Atrast visus šādus skaitļu trijniekus.
 <!--
 concept=palindrome
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -714,7 +714,7 @@ Atrast visus trīsciparu skaitļus ar šo īpašību.
 
 <!--
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -747,7 +747,7 @@ ciparu 1, arī rodas kāda vesela skaitļa kvadrāts.
 <!--
 genre=digit-manipulation
 concepts=full-square
-questionType=Prove.ForAll
+questionType=Prove
 strategy=begin-at-the-end
 -->
 
@@ -800,7 +800,7 @@ ja neeksistē, tad pamatot, kāpēc.
 
 <!--
 concepts=monotonic-sequence,divisibility,sum-of-digits
-questionType=Find.Min,Find.Max,Prove.NotExists
+questionType=FindOptimal,FindOptimal,Prove
 -->
 
 
@@ -815,7 +815,7 @@ un kuram skaitļu $n$ un $n+2$ reizinājums ir četrciparu skaitlis.
 
 <!--
 concepts=decimal-notation
-questionType=Find.All,Find.Min,Find.Max
+questionType=FindAll,FindOptimal,FindOptimal
 -->
 
 
@@ -852,7 +852,7 @@ m равны между собой?
 </text>
 
 <!--
-questionType=Prove.ForAll,ProveDisprove.ForAll
+questionType=Prove,ProveDisprove
 concepts=remainder
 -->
 
@@ -887,7 +887,7 @@ vārdam $VIIS$.
 
 <!--
 genre=cryptarithm
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -898,7 +898,7 @@ bet nedalās ar skaitļiem $7$, $8$ un $9$.
 
 <!--
 concepts=divisibility
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -923,7 +923,7 @@ kuri apmierina vienādojumu $(a + b)(b + c)(c + a) = 123456789$?
 
 <!--
 genre=integer-equation
-questionType=Find.Count
+questionType=FindCount
 -->
 
 
@@ -962,7 +962,7 @@ vienu no dotajiem pirmskaitļiem.
 
 <!--
 concepts=primes,inequality,divisibility
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -991,7 +991,7 @@ dalās ar $10$.
 
 <!--
 concepts=full-square,divisibility
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -1045,7 +1045,7 @@ ja dažādiem burtiem atbilst dažādi cipari.
 
 <!--
 genre=cryptarithm
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1065,7 +1065,7 @@ Uz tāfeles uzrakstīta izteiksme $m(m + n)(m + 3n)$.
 
 <!--
 genre=word-problem
-questionType=ProveDisprove.ForAll,Find.All
+questionType=ProveDisprove,FindAll
 -->
 
 
@@ -1093,7 +1093,7 @@ Atrast visas iespējamās $n$ vērtības.
 
 <!--
 concepts=divisibility
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1122,7 +1122,7 @@ no kuriem pirmo skaitli iegūst, ja otrajā skaitlī nodzēš pēdējo ciparu. A
 
 <!--
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1153,7 +1153,7 @@ questionType=Find.All
 
 <!--
 genre=optimization
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -1192,7 +1192,7 @@ veselo skaitļu no $1$ līdz $n$ ciparu summa ir pāru skaitlis?
 
 <!--
 concepts=sum-of-digits
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -1243,7 +1243,7 @@ Kuri no dotajiem četriem skaitļiem $a$, $b$, $c$ un $d$ dalās ar $3$?
 
 <!--
 concepts=divisibility
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1258,7 +1258,7 @@ palicis bankas kontā?
 
 <!--
 concepts=divisibility
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1287,7 +1287,7 @@ būtu vienāda ar to mazāko kopīgo dalāmo, ja
 
 <!--
 concepts=lcm
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -1343,7 +1343,7 @@ $x^2 + y^2 + z^2 + w^2 = 3 + xy + y z + zw$,
 <!--
 concepts=square
 genre=integer-equation
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -1381,7 +1381,7 @@ iegūst, saskaitot divus skaitļus, kuri ir tieši pirms viņa.
 
 <!--
 concept=recurrent-sequence
-questionType=Find.All,Find.Max
+questionType=FindAll,FindOptimal
 -->
 
 
@@ -1398,7 +1398,7 @@ iegūt daļu, kas vienāda ar
 
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -1425,7 +1425,7 @@ $324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
 <!--
 concepts=power
 genre=integer-equation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1490,7 +1490,7 @@ $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d
 </text>
 
 <!--
-questionType=Prove.Other
+questionType=Prove
 -->
 
 
@@ -1561,7 +1561,7 @@ Atrast visas iespējamās vērtības Mari iedomātajam skaitlim.
 
 <!--
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1620,7 +1620,7 @@ var būt uzrakstīts vidū? Atrast visas iespējas.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1638,7 +1638,7 @@ Atrast visas iespējas, kādi var būt Estas izvēlētie skaitļi.
 
 <!--
 genre=integer-equation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1667,7 +1667,7 @@ kas apmierina vienādību $22a + 15b = 2019$?
 <!--
 genre=integer-equation
 concepts=linear-expression
-questionType=Find.Count
+questionType=FindCount
 -->
 
 

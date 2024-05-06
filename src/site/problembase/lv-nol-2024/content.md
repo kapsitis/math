@@ -7,7 +7,7 @@ visi pieci ierakstītie cipari būtu dažādi un neviens no tiem nebūtu 2.
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -28,7 +28,7 @@ Kāds mazākais skaits punktu jānodzēš, lai nekādi trīs no atlikušajiem pu
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -58,7 +58,7 @@ sakrīt (figūras var pagriezt un apmest otrādi).
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -81,7 +81,7 @@ $4 \cdot 1+23=27$). Kāds ir pēdējais uzrakstītais skaitlis?
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -145,7 +145,7 @@ visi seši ierakstītie cipari būtu dažādi un neviens no tiem nebūtu 3.
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -166,7 +166,7 @@ ja jābūt izgrieztām arī tieši divām 6. att. figūrām?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -204,7 +204,7 @@ ka abas figūras sakrīt (figūras var pagriezt un apmest otrādi).
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -225,7 +225,7 @@ Kāds ir pēdējais uzrakstītais skaitlis?
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -287,7 +287,7 @@ katru ciparu tieši vienu reizi! (Iekavas lietot nedrīkst un jāievēro darbīb
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -307,7 +307,7 @@ Kāda lielākā ciparu summa var būt desmitciparu skaitlim, kas dalās ar $18$?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -333,7 +333,7 @@ Kāds var būt nogriežņa $AC$ garums, ja zināms, ka tas ir naturāls skaitlis
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -371,7 +371,7 @@ salikt taisnstūri, kurā 16. att. figūras nesaskaras ne ar malu, ne ar stūri!
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -449,7 +449,7 @@ $D$ un $E$ tā, lai $AE=AD$ un $\sphericalangle BAD=30^{\circ}$. Aprēk̄ināt l
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -485,7 +485,7 @@ kolonnā vai diagonālē, bet arī, piemēram, punkti $A, B, C$ (skat. 20. att.)
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -865,7 +865,7 @@ Atrast visus tādus veselu skaitlu pārus $(a ; b)$, kuriem izpildās vienādīb
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1015,7 +1015,7 @@ Aprēḳināt $EC$ garumu!
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -1292,7 +1292,7 @@ Atrast visus pirmskaitlu pārus $(p ; q)$, kuriem izpildās vienādība $p^{q}=q
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 

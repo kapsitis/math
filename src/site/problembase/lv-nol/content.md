@@ -13,7 +13,7 @@ vismaz viens interesants.
 * [nota.divrule.3_9.rem](#)
 * [seq.gaps](#)
 * [seq.arithm.mod](#)
-* questionType:Find.Example,Find.Count,Prove
+* questionType:FindExample,FindCount,Prove
 * genre:SpecialNumbers
 
 </small>
@@ -89,7 +89,7 @@ katru vienu reizi. Vai to var izdarīt, ja
 
 <!--
 genre=magic-configuration
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -129,7 +129,7 @@ skaitļu summu (pavisam būs $12$ summas). Kādu mazāko skaitu dažādu vērtī
 
 <!--
 genre=fill-in-table
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -164,7 +164,7 @@ pārējām kartītēm.
 </small>
 
 <!--
-questionType=Find.Any,ProveDisprove.Exists
+questionType=FindExample,ProveDisprove
 -->
 
 
@@ -188,7 +188,7 @@ ciparu. Zināms arī, ka $A-B=297$ un $B$ ciparu summa ir $23$. Atrast $A$ un $B
 
 <!--
 concepts=sum-of-digits
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -204,7 +204,7 @@ Vai to var izdarīt, ja (a) $n=15$, (b) $n=13$?
 
 <!--
 genre=fill-in-table
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -220,7 +220,7 @@ Aprēķināt visu izvēlēto skaitļu kvadrātu
 summu.
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -241,7 +241,7 @@ $$ x \left\lfloor x \left\lfloor x \right\rfloor \right\rfloor = 41. $$
 
 <!--
 seeAlso=LV.NOL.2001.11.1
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -262,7 +262,7 @@ kvadrātu summu.
 3. pierādīt, ka citu tādu $n$ nav.
 
 <!--
-questionType=Prove.ForAll,Find.Any,Prove.NotExists
+questionType=Prove,FindExample,Prove
 -->
 
 
@@ -283,7 +283,7 @@ iepriekšējo summu. Vai ar $5$ dalās šīs virknes
 seeAlso=LV.NOL.2001.12.1
 seeAlso=LV.NOL.2003.12.1
 seeAlso=LV.NOL.2004.12.1
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -312,7 +312,7 @@ Kuru nedēļas dienu otrajā gadā ir visvairāk?
 </small>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -343,7 +343,7 @@ no kuriem katriem diviem lielākais kopīgais dalītājs ir $1$?
 
 <!--
 concepts=coprimes
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -374,7 +374,7 @@ Pamatojiet savu risinājumu.
 <!--
 concepts=primes,composite-numbers
 genre=digit-manipulation
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -395,7 +395,7 @@ un $n^3 + n$
 dalās ar $10$.
 
 <!--
-questionType=Prove.Exists
+questionType=Prove
 -->
 
 
@@ -420,7 +420,7 @@ Vai šai līnijai var būt tieši
 
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -444,7 +444,7 @@ $A - B = 297$ un $B$ ciparu summa ir $23$. Atrast $A$ un $B$.
 
 <!--
 concepts=sum-of-digits
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -460,7 +460,7 @@ vērtību kā galīgu decimāldaļskaitli.
 
 <!--
 concepts=square-root,decimal-fractions
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -473,7 +473,7 @@ $10^{19}$.
 
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=primes
 seeAlso=LV.NOL.2002.11.1
 -->
@@ -497,7 +497,7 @@ vienāds ar abu iepriekšējo summu. Vai ar 5 dalās šīs virknes
 
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 concepts=fibonacci-sequence
 -->
 
@@ -527,7 +527,7 @@ Kāds lielākais dažādu pirmskaitļu daudzums var vienlaikus atrasties uz tāf
 
 <!--
 genre=optimization
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -559,7 +559,7 @@ no $1$ līdz $200$. Vai izrauto lappušu numuru summa var būt $1000$, ja tiek i
 
 <!--
 concepts=arithmetic-progression
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -583,7 +583,7 @@ lielākā iespējamā $n$ vērtība?
 
 <!--
 concepts=primes
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -659,7 +659,7 @@ dažādu rezultātu Andris varēja iegūt?
 <!--
 seeAlso=LV.NOL.2003.11.1  
 seeAlso=LV.NOL.2004.11.1  
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -671,7 +671,7 @@ Dots, ka $\sin x$ - racionāls skaitlis. Vai $\sin 2x$ var būt
 
 <!--
 concepts=irrational-numbers,rational-numbers
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -700,7 +700,7 @@ katru divu atlikušo summa būtu salikts skaitlis?
 </small>
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 concepts=primes,composite-numbers
 -->
 
@@ -727,7 +727,7 @@ vienas grupas visu skaitļu reizinājums vienāds ar otras grupas visu skaitļu 
 
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -747,7 +747,7 @@ pirmskaitļiem. Kāda ir lielākā iespējamā $n$ vērtība?
 
 <!--
 concepts=primes
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -775,7 +775,7 @@ Kas uzvar, pareizi spēlējot, ja
 (b) $n = 2003$?
 
 <!--
-questionType=Algorithm,Prove.ForAll
+questionType=Algorithm,Prove
 -->
 
 
@@ -788,7 +788,7 @@ Dots, ka $x$ un $y$ – naturāli skaitļi. Vai var gadīties, ka
 2. $(2x+3y)(3x+2y)$ dalās ar $2003$, bet nedalās ar $2003^2$?
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -802,7 +802,7 @@ beidzas ar $3$ četriniekiem: $38^2 = 1444$.
 2. atrodiet otro mazāko naturālo skaitli ar šādu īpašību.
 
 <!--
-questionType=ProveDisprove.Other,Find.Min
+questionType=ProveDisprove,FindOptimal
 -->
 
 
@@ -825,7 +825,7 @@ vienāds ar abu iepriekšējo summu. Vai ar $5$ dalās šīs virknes
 
 <!--
 seeAlso=LV.NOL.2000.12.1
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -845,7 +845,7 @@ vienai no šīm progresijām?
 
 <!--
 concepts=geometric-progression,real-numbers
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -868,7 +868,7 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 
 <!--
 concepts=composite-numbers
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -891,7 +891,7 @@ vienas grupas visu skaitļu reizinājums vienāds ar otras grupas visu skaitļu 
 </small>
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 seeAlso=LV.NOL.2003.8.3
 -->
 
@@ -919,7 +919,7 @@ decimālais pieraksts sākas ar ciparu $1$?
 </small>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 seeAlso=[Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law)
 seeAlso=[Ideal Voting](https://meduza.io/feature/2017/01/13/itogi-vyborov-v-gosdumu-okazalis-slishkom-idealnymi)
 seeAlso=LV.NOL.2005.8.1
@@ -1103,7 +1103,7 @@ Ar kādu mazāko jautājumu skaitu Juris var noteikti noskaidrot $n$?
 
 <!--
 genre=games
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -3245,7 +3245,7 @@ vienādojuma koeficientus un pārējās trīs saknes!
 Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b) = 150015$?
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 genre=integer-equation
 -->
 
@@ -3263,7 +3263,7 @@ Rihards uzvar, ja iegūtais deviņciparu skaitlis dalās
 ar $31$. Vai Rihards vienmēr var uzvarēt?
 
 <!--
-questionType=Algorithm,ProveDisprove.ForAll
+questionType=Algorithm,ProveDisprove
 genre=game
 concepts=divisibility
 -->
@@ -3283,7 +3283,7 @@ $\frac{4}{3}, \frac{4}{5}, \frac{5}{2}$.
 <!--
 seeAlso=LV.NOL.2000.7.5
 genre=making-moves
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -3298,7 +3298,7 @@ dalās ar $3$, bet $\overline{yxy}$ dalās ar $4$.
 Kāds var būt izveidotais trīsciparu skaitlis $\overline{yxy}$?
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=divisibility
 -->
 
@@ -3310,7 +3310,7 @@ Kāds mazākais ciparu skaits jāpieraksta ciparu virknes $3456$ beigās,
 lai iegūtu skaitli, kas dalās ar $2019$?
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 concepts=divisibility
 genre=digit-manipulation
 -->
@@ -3331,7 +3331,7 @@ $20m + 18n = 2018$.
 
 <!--
 concepts=primes
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -3356,7 +3356,7 @@ No tiem der tikai divi: $(73,31)$, $(37,71)$
 Atrast visus pirmskaitļu pārus $(m,n)$, kuriem $20m + 19n = 2019$.
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=linear-expression,primes
 genre=integer-equation
 -->
@@ -3368,7 +3368,7 @@ Pierādīt, ka vienādojumam
 $(a - b)^2 = a+b$ ir bezgalīgi daudz atrisinājumu naturālos skaitļos!
 
 <!--
-questionType=Prove.Other
+questionType=Prove
 genre=integer-equation
 -->
 

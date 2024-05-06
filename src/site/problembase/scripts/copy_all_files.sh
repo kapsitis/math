@@ -1,0 +1,35 @@
+#!/bin/bash
+
+mv ../bbk2012-p1/content2.md ../bbk2012-p1/content.md
+mv ../bbk2012-p2/content2.md ../bbk2012-p2/content.md
+mv ../bbk2012-p3/content2.md ../bbk2012-p3/content.md
+mv ../bbk2012-p4/content2.md ../bbk2012-p4/content.md
+mv ../bbk2012-p5/content2.md ../bbk2012-p5/content.md
+mv ../bbk2012-p6/content2.md ../bbk2012-p6/content.md
+mv ../bbk2012-p7/content2.md ../bbk2012-p7/content.md
+mv ../bbk2012-p8/content2.md ../bbk2012-p8/content.md
+mv ../bbk2012-p9/content2.md ../bbk2012-p9/content.md
+mv ../ee-lo/content2.md ../ee-lo/content.md
+mv ../ee-lvs/content2.md ../ee-lvs/content.md
+mv ../ee-lvt/content2.md ../ee-lvt/content.md
+mv ../ee-pk/content2.md ../ee-pk/content.md
+mv ../ee-pktest/content2.md ../ee-pktest/content.md
+mv ../ee-tst/content2.md ../ee-tst/content.md
+mv ../imo-shl/content2.md ../imo-shl/content.md
+mv ../imo/content2.md ../imo/content.md
+mv ../lt-ldk/content2.md ../lt-ldk/content.md
+mv ../lt-ljkmo/content2.md ../lt-ljkmo/content.md
+mv ../lt-lkmmo/content2.md ../lt-lkmmo/content.md
+mv ../lt-lmmo/content2.md ../lt-lmmo/content.md
+mv ../lt-raj/content2.md ../lt-raj/content.md
+mv ../lt-tst/content2.md ../lt-tst/content.md
+mv ../lt-vilnius/content2.md ../lt-vilnius/content.md
+mv ../lt-vumif/content2.md ../lt-vumif/content.md
+mv ../lv-amo-2023/content2.md ../lv-amo-2023/content.md
+mv ../lv-amo/content2.md ../lv-amo/content.md
+mv ../lv-nol-2024/content2.md ../lv-nol-2024/content.md
+mv ../lv-nol/content2.md ../lv-nol/content.md
+mv ../lv-tst/content2.md ../lv-tst/content.md
+mv ../lv-vol-2024/content2.md ../lv-vol-2024/content.md
+mv ../lv-vol/content2.md ../lv-vol/content.md
+mv ../../problembase-en/imo-shl-2022/content2.md ../../problembase-en/imo-shl-2022/content.md

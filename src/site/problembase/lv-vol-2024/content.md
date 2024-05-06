@@ -35,7 +35,7 @@ $BOF$ laukums ir $4$, bet trijstūra $AOD$ laukums ir $63$. Aprēķināt četrst
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -265,7 +265,7 @@ z + \frac{1}{z} = 2x^2 \\
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -359,7 +359,7 @@ kopā piedalījās šajā olimpiādē?
 
 <small>
 
-* questionType:Find.Count
+* questionType:FindCount
 
 </small>
 
@@ -421,7 +421,7 @@ iekrāsot visas tabulas rūtiņas?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -470,7 +470,7 @@ $$4a + 4b^2 + \sqrt{4a - 4b^2 - 1} \leq 1.$$
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -524,7 +524,7 @@ Aprēķināt četrstūra $OECG$ laukumu!
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -608,7 +608,7 @@ skaitļu summu?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -698,7 +698,7 @@ z + \frac{1}{z} = x+y\\
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -869,7 +869,7 @@ $3x^2 + y^2 + 1 \geq A(x^2 + xy + x)$ visiem reāliem skaitļiem $x$ un $y$.
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 

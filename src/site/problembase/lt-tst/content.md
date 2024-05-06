@@ -7,7 +7,7 @@ Raskite visus sveikųjų teigiamų skaičių trejetus $(x, y, z)$, tenkinančius
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -35,7 +35,7 @@ kad daugiau (jokių) sprendinių nėra.
 
 
 <!--
-questionType=Find.Any,Find.All
+questionType=FindExample,FindAll
 -->
 
 
@@ -64,7 +64,7 @@ x^5 + y^5 = u^5 + 12.
 
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -90,7 +90,7 @@ Kokia yra mažiausia galima $n$ reikšmė?
 </text>
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -119,7 +119,7 @@ Raskite aibės $S(m,n)$ elementų skaičių, kai
 </text>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 -->
 
 
@@ -146,7 +146,7 @@ kombinacijos $00,01,\ldots,98,99$?
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -186,7 +186,7 @@ $n \geq 1$.
 </text>
 
 <!--
-questionType=Find.Any,Find.All
+questionType=FindExample,FindAll
 -->
 
 
@@ -217,7 +217,7 @@ $k \geq 4$.
 </text>
 
 <!--
-questionType=Prove.Exists,Prove.NotExists
+questionType=Prove,Prove
 -->
 
 
@@ -244,7 +244,7 @@ $c^2 + d^2$ didžiausias bendras daliklis būti lygus:
 
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -264,7 +264,7 @@ tai ir $m$ yra sveikasis skaičius.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -295,7 +295,7 @@ kuriame $n > 2013$.
 
 
 <!--
-questionType=Find.Any,Find.All
+questionType=FindExample,FindAll
 -->
 
 
@@ -322,7 +322,7 @@ skaičių?
 </text>
 
 <!--
-questionType=Find.Any,ProveDisprove.Exists
+questionType=FindExample,ProveDisprove
 -->
 
 
@@ -347,7 +347,7 @@ suma yra lygi $3$?
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -392,7 +392,7 @@ $\sqrt{5}$.)
 </text>
 
 <!--
-questionType=Prove.ForAll,ProveDisprove.ForAll
+questionType=Prove,ProveDisprove
 -->
 
 
@@ -415,7 +415,7 @@ pavyzdžiui, $4! = 1 \cdot 2 \cdot 3 \cdot 4 = 24$.)
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -451,7 +451,7 @@ vienai iš dviejų aibių $A$ ir $B$.)
 </text>
 
 <!--
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -470,7 +470,7 @@ natūraliuosius sprendinius $(a,b,c,d)$.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -494,7 +494,7 @@ priklausytų bent vienas pirminis skaičius.
 </text>
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -526,7 +526,7 @@ $P(16) = 3^{2012}$.
 </text>
 
 <!--
-questionType=Prove.ForAll,Find.Min
+questionType=Prove,FindOptimal
 -->
 
 
@@ -556,7 +556,7 @@ $k = \ell = 10$?
 </text>
 
 <!--
-questionType=Prove.ForAll,ProveDisprove.Exists
+questionType=Prove,ProveDisprove
 -->
 
 
@@ -591,7 +591,7 @@ $a_1 = 1$. Skaičiai $a_1,\ldots,a_n$ nebūtinai skirtingi.)
 
 <!--
 genre=special-numbers
-questionType=Prove.NotExists,Prove.ForAll
+questionType=Prove,Prove
 seeAlso=IMO.SHL.2017.N6
 -->
 
@@ -614,7 +614,7 @@ o skaičiaus $\pi = 3,14\ldots$ vienetų skaitmuo yra $3$.)
 </text>
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -640,7 +640,7 @@ kad kiekvienas iš skaičių $b_1, b_2, b_3, \ldots$ būtų
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -664,7 +664,7 @@ laipsnių suma lygi $n$. (Skaičiai $1$ ir $n$ taip pat yra skaičiaus $n$ dalik
 
 <!--
 genre=special-numbers
-questionType=Prove.ForAll,ProveDisprove.Other
+questionType=Prove,ProveDisprove
 -->
 
 

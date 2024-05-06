@@ -43,7 +43,6 @@ def main(in_file, out_file, prop_name, mydict):
     lines = []
     with open(in_file, mode="r") as f:
         for line in f.readlines():
-            line = line.strip()
             def replace_match(match):
                 key = match.group(1)
                 sep = match.group(3)
@@ -61,7 +60,7 @@ def main(in_file, out_file, prop_name, mydict):
 
     with open(out_file, 'w') as of:
         for line in lines:
-            of.write(f'{line}\n')
+            of.write(f'{line}')
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:

@@ -11,7 +11,7 @@ $$\frac{2}{a^2}+\frac{3}{b^2}+\frac{4}{c^2}=1$$
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -20,7 +20,7 @@ genre=integer-equation
 * [alg.ineq.equations](#)
 * [comb.full](#)
 * strategy:ExtremeElement
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -102,12 +102,12 @@ kuriem izpildās vienādība $w^x + w^y = w^z$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -124,7 +124,7 @@ sauc skaitli $\sqrt{x y}$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -138,7 +138,7 @@ sauc skaitli $\sqrt{x y}$.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=digit-manipulation
 concepts=square-root,arithmetic-mean,geometric-mean
 -->
@@ -154,7 +154,7 @@ reizinājumu $1 \cdot 2 \cdot \ldots \cdot n$.*
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -166,7 +166,7 @@ reizinājumu $1 \cdot 2 \cdot \ldots \cdot n$.*
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 concepts=factorial
 -->
@@ -184,7 +184,7 @@ Vai skaitli $2013$ var izteikt kā divu veselu skaitļu kubu starpību?
 * [mod.congr.sumdiff](#)
 * [mod.eq.contradict](#)
 * strategy:ModularArithmeticContradiction
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -193,7 +193,7 @@ Vai skaitli $2013$ var izteikt kā divu veselu skaitļu kubu starpību?
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 genre=integer-equation
 concepts=power-sums
 -->
@@ -292,7 +292,7 @@ divu izvēlēto skaitļu summa dos vienādus atlikumus, dalot ar $m$.
 
 
 <!--
-questionType=Prove.Other
+questionType=Prove
 genre=game
 -->
 
@@ -307,7 +307,7 @@ izsakāmi kā galīgas decimāldaļas.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -346,7 +346,7 @@ $$S(n + 1) + S(n) = 1^2 + 2^2 + \ldots + n^2 + (n + 1)^2.$$
 </text>
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 genre=sequence-properties
 -->
 
@@ -364,7 +364,7 @@ par skaitli, ko iegūst, pārliekot pirmo ciparu uz beigām.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=digit-manipulation
 -->
 
@@ -382,7 +382,7 @@ $$3(a^2 + b^2) − 7(a + b) = −4.$$
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -408,7 +408,7 @@ $\mbox{НОД}(a, b) = 1$.
 
 
 <!--
-questionType=ProveDisprove.ForAll
+questionType=ProveDisprove
 concepts=coprimes
 -->
 
@@ -450,7 +450,7 @@ dalās ar $11$?
 </text>
 
 <!--
-questionType=Algorithm,ProveDisprove.ForAll
+questionType=Algorithm,ProveDisprove
 genre=game
 -->
 
@@ -468,7 +468,7 @@ $$(2a^2 + b)^3 = b^3a.$$
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -491,7 +491,7 @@ Atrast visus veselu skaitļu pārus $(x, y)$, kuriem $x − y = \frac{x}{y}$.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 

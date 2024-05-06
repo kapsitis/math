@@ -45,7 +45,7 @@ Pierādīt, ka šajā virknē nav skaitļa $5$.
 <!--
 sameAs=LV.OTHER.TST.1986.10.1
 concepts=recurrent-sequence,primes,divisibility
-questionType=Prove.NotExists
+questionType=Prove
 -->
 
 
@@ -114,7 +114,7 @@ ka kopā ir $1961$ lapiņa. Pierādiet, ka zēns ir kļūdījies.
 <!--
 genre=making-moves
 concepts=recurrent-sequence
-questionType=Prove.NotExists
+questionType=Prove
 -->
 
 
@@ -128,7 +128,7 @@ nav vienādu locekļu, kuri ir lielāki par $1$.
 
 <!--
 concepts=recurrent-sequence
-questionType=Prove.NotExists
+questionType=Prove
 -->
 
 
@@ -141,7 +141,7 @@ Pierādiet, ka neviens naturāls skaitlis nepieder abām virknēm.
 
 <!--
 concepts=recurrent-sequence
-questionType=Prove.NotExists
+questionType=Prove
 -->
 
 
@@ -154,7 +154,7 @@ kur pēc kārtas ir uzrakstīti cipari $1, 2, 3, 4$?
 
 <!--
 concepts=recurrent-sequence
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -167,7 +167,7 @@ locekļu ar Fibonači virkni.
 
 <!--
 concepts=fibonacci-sequence,arithmetic-progression
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -182,7 +182,7 @@ Apgalvojumu pamatot.
 
 <!--
 concepts=recurrent-sequence
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -196,7 +196,7 @@ nav nekāda naturāla skaitļa kvadrāts.
 
 <!--
 concepts=primes,full-square,power
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -208,7 +208,7 @@ nav naturāla skaitļa pakāpe ar kāpinātāju, lielāku par $1$.
 <!--
 sameAs=LV.OTHER.TST.1986.10.1
 concepts=primes,full-power
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -220,7 +220,7 @@ ir bezgalīgi daudz saliktu skaitļu.
 
 <!--
 genre=digit-manipulation
-questionType=Prove.Other
+questionType=Prove
 -->
 
 
@@ -231,7 +231,7 @@ ir bezgalīgi daudz saliktu skaitļu.
 
 <!--
 concepts=power
-questionType=Prove.Other
+questionType=Prove
 -->
 
 
@@ -247,7 +247,7 @@ ir salikti skaitļi.
 
 <!--
 concepts=power
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -259,7 +259,7 @@ ir salikts skaitlis.
 
 <!--
 concepts=power
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -270,7 +270,7 @@ $n \in \mathbb{N}$ ir bezgalīgi daudz saliktu skaitļu.
 
 <!--
 concepts=power
-questionType=Prove.Other
+questionType=Prove
 -->
 
 
@@ -285,7 +285,7 @@ Pierādiet, ka šajā virknē ir bezgalīgi daudz saliktu skaitļu.
 <!--
 genre=digit-manipulation
 concepts=composite-numbers
-questionType=Prove.Other
+questionType=Prove
 -->
 
 
@@ -304,7 +304,7 @@ ir savā starpā vienādi.
 
 <!--
 concepts=arithmetic-mean
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -322,7 +322,7 @@ skaitļu virkni, kas sastāv tikai no nullēm.
 
 <!--
 concepts=power,absolute-value
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 

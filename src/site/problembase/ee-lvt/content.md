@@ -9,7 +9,7 @@ naturālos skaitļos.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -30,7 +30,7 @@ divi naturāli pirmskaittiecīgi skaitļi atšķiras vismaz par $3$.
 </text>
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 genre=digit-manipulation
 concepts=primes
 -->
@@ -72,7 +72,7 @@ $5, 14, 7, 20, 10, \ldots$, удовлетворяющей условиям за
 </text>
 
 <!--
-questionType=ProveDisprove.ForAll,Prove.ForAll
+questionType=ProveDisprove,Prove
 genre=sequence-properties
 -->
 
@@ -93,7 +93,7 @@ cipariem, un kuri, nodzēšot pirmo ciparu, samazinās tieši $25$ reizes
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=digit-manipulation
 -->
 
@@ -126,7 +126,7 @@ $6$ положительных делителей и которое не явл�
 </text>
 
 <!--
-questionType=Find.Min,Prove.Other
+questionType=FindOptimal,Prove
 concepts=divisors
 -->
 
@@ -144,7 +144,7 @@ tieši $2010$ pozitīvu dalītāju (ieskaitot $1$ un pašu skaitli)?
 </text>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 concepts=divisors
 -->
 
@@ -164,7 +164,7 @@ $$2x^3 − y^2 = 3$$
 </text>
 
 <!--
-questionType=Prove.NotExists
+questionType=Prove
 genre=integer-equation
 -->
 
@@ -182,7 +182,7 @@ perimetrs dalās ar divkāršotu trijstūra pašas garākās malas garumu.
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 genre=integer-geometry
 -->
 
@@ -199,7 +199,7 @@ pirmskaitļu summa ir lielāka par $n^2$.
 </text>
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 concepts=primes
 -->
 
@@ -218,7 +218,7 @@ $$a^{bc} + b^{ca} + c^{ab} = 3abc.$$
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -260,7 +260,7 @@ $\frac{1 + 3}{3 + 5} = \frac{4}{8} = \frac{1}{2}$.)
 </text>
 
 <!--
-questionType=ProveDisprove.Other
+questionType=ProveDisprove
 genre=game
 -->
 
@@ -277,7 +277,7 @@ $(a + 1)(b − 1) = a^2b^2$.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -296,7 +296,7 @@ $(a + b)^2$. Доказать, что $\frac{b}{a}=6$.
 </text>
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 genre=digit-manipulation
 -->
 
@@ -315,7 +315,7 @@ $$\frac{x^2 + 4xy + y^2}{x^3 − y^3}$$
 
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -336,7 +336,7 @@ $a_1,\ldots,a_k$ число $f(a_1)+\ldots+f(a_k)$ делится
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=functional-equation
 -->
 
@@ -364,7 +364,7 @@ $19$, $63$ кратно числу $21$, а $38$ кратно числу $19$.
 </text>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 genre=string-counting
 -->
 
@@ -387,7 +387,7 @@ skaitļu nepāru daļu reizinājumu.
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -406,7 +406,7 @@ un arī šo skaitļu apgriezto lielumu summa ir vesels skaitlis.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -436,7 +436,7 @@ $P(x) = a_0 + a_1x + a_2x^2 +\ldots+ a_n x^n$,
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 concepts=integer-polynomials
 -->
 
@@ -466,7 +466,7 @@ $2014$?
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -493,7 +493,7 @@ $3_a2_b5_c + 2_c5_a3_b = 5_38_17_d5_28_3$,
 
 <!--
 genre=decimal-manipulation
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -515,7 +515,7 @@ lielākā kopīgā dalītāja kvadrātu.
 
 <!--
 concepts=lcm,gcd
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -534,7 +534,7 @@ $x^2 − x$ делится на $m$, если
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -550,7 +550,7 @@ dalījums ar savu ciparu summu ir mazākais iespējamais.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=optimization
 -->
 
@@ -579,7 +579,7 @@ b) Skaitļiem nav noteikti jāsatur abi cipari?
 
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -594,7 +594,7 @@ Pierādīt, ka $100000a + 10000b + 1000c + 100d + 10e + f$ dalās ar $11$.
 </text>
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -610,7 +610,7 @@ no $p$ atšķirīgu skaitļa $p$ dalītāju summa ir lielāka par skaitli $p$?
 
 <!--
 concepts=divisors
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -638,7 +638,7 @@ rīsa graudiņu.
 
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 genre=prove-inequality
 -->
 
@@ -660,7 +660,7 @@ tā ciparus pretējā secībā. Kādu skaitli iedomājās Juku?
 
 <!--
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -684,7 +684,7 @@ kurš dalās ar visiem šiem skaitļiem.
 
 <!--
 concepts=lcm,gcd
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -712,7 +712,7 @@ skaitļiem viens ir pāru un otrs ir nepāru.
 
 <!--
 concepts=parity
-questionType=ProveDisprove.ForAll
+questionType=ProveDisprove
 -->
 
 
@@ -735,7 +735,7 @@ zināms, ka tā ir mazākā iespējamā.
 
 <!--
 genre=magic-configuration
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -755,7 +755,7 @@ dažādiem burtiem - dažādi cipari.
 
 <!--
 genre=cryptarithm
-questionType=Find.Count
+questionType=FindCount
 -->
 
 
@@ -788,7 +788,7 @@ $\frac{1}{32}$ оборота. Каждый из медведей может в�
 </text>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 -->
 
 
@@ -815,7 +815,7 @@ $$0\;\;1\;\;2\;\;3\;\;4\;\;5\;\;6\;\;7\;\;8\;\;9$$
 
 <!--
 genre=build-expression
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -833,7 +833,7 @@ no kuriem izvēloties jebkurus trīs, to summa arī ir pirmskaitlis.
 
 <!--
 concepts=primes
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -851,7 +851,7 @@ pārējo šī trijstūra malu garumus.
 
 <!--
 genre=integer-geometry
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -868,7 +868,7 @@ jebkurus trīs, to summa arī ir pirmskaitlis?
 
 <!--
 concepts=primes
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -887,7 +887,7 @@ b) Tas pats jautājums, ja kuba vietā ir ceturtā pakāpe.
 
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -910,7 +910,7 @@ dalījās ar $99$.
 
 <!--
 genre=digit-manipulation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -934,7 +934,7 @@ Atrast skaitli, kurš tur parādīsies kā $2018$-tais.
 
 <!--
 genre=procedure
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -958,7 +958,7 @@ $$x^3 + y^3 = z^2$$
 
 
 <!--
-questionType=Prove.Other
+questionType=Prove
 -->
 
 
@@ -979,7 +979,7 @@ $$\frac{5a^4 + a^2}{b^4 + 3b^2 + 4}$$
 
 <!--
 concepts=primes,composite-numbers
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 

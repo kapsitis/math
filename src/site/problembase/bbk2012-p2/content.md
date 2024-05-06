@@ -8,7 +8,7 @@ skaitļu reizinājuma dalītājs. Pierādiet, ka $x \leq \pi(n)$.
 (Ar $\pi(n)$ apzīmēts pirmskaitļu skaits, kuri nepārsniedz $n$.)
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -22,7 +22,7 @@ $a_p \neq a_q$. Vai iespējams, ka
 (b) $a_{1000} = 64$?
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -37,7 +37,7 @@ $$> 1 + \frac{1}{2} + \frac{1}{3} +
 \frac{1}{4} + \ldots + \frac{1}{10000}.$$
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -51,7 +51,7 @@ Aprēķināt $a_{1999}$.
 
 <!--
 mainEntry=LV.TST.1999.12.5
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -64,7 +64,7 @@ kas katra ir bezgalīga un sastāv no naturāliem skaitļiem,
 lai katrs naturāls skaitlis piederētu vismaz vienai no tām?
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 seeAlso=BBK2012.P1.52
 -->
 

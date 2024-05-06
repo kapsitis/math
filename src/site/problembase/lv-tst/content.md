@@ -64,7 +64,7 @@ sameAs=BBK2012.P5.35
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -108,7 +108,7 @@ pirmskaitlis, $n$ -- naturāls skaitlis.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -126,7 +126,7 @@ $x^2 + 8z = 2y^2 + 3$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -147,7 +147,7 @@ ar četriem locekļiem.
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -161,7 +161,7 @@ kārtas ņemtu naturālu skaitļu summu.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -250,7 +250,7 @@ $$\ldots,\left\lfloor \frac{1979^2}{1980} \right\rfloor,
 
 <small>
 
-* questionType:Find.Count
+* questionType:FindCount
 
 </small>
 
@@ -295,7 +295,7 @@ un viens no tiem ir $58$. Atrast $a$ un $b$.
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -316,7 +316,7 @@ $\lfloor\mbox{ }\rfloor$?
 
 <small>
 
-* questionType:Find.Example,ProveDisprove
+* questionType:FindExample,ProveDisprove
 
 </small>
 
@@ -332,7 +332,7 @@ x^2 = 2(y+z)
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -346,7 +346,7 @@ Atrast $D$.
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -458,7 +458,7 @@ var beigties naturāla skaitļa kvadrāts?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -545,7 +545,7 @@ $2^p + p^2$ arī ir pirmskaitlis?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -686,7 +686,7 @@ dalītāju skaits?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -718,7 +718,7 @@ $5^x \cdot 7^y + 4 = 3^z$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -750,7 +750,7 @@ locekļi būtu naturāli skaitļi.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -802,7 +802,7 @@ Atrisināt naturālos skaitļos vienādojumu $7^x - 3 \cdot 2^y = 1$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -909,7 +909,7 @@ ir vesela sakne?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1065,7 +1065,7 @@ augstāka par pirmo, un pierādīt, ka citu bez atrastajiem nav.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1112,7 +1112,7 @@ ja $p$ ir pirmskaitlis.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1132,7 +1132,7 @@ Aprēķināt $a_{1999}$.
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -1179,7 +1179,7 @@ c. Ja $a \in S$, $b \in S$ un $1<a<b$, tad $1+ab \in S$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1191,7 +1191,7 @@ $$3^x = 2^x \cdot y + 1.$$
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1219,7 +1219,7 @@ eksistē atrisinājums veselos skaitļos?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -1232,7 +1232,7 @@ skaitlis $n^3 - 1$ dalās ar $m \cdot n - 1$?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1255,7 +1255,7 @@ secīgu naturālu skaitļu summu?
 
 <small>
 
-* questionType:Find.Count
+* questionType:FindCount
 
 </small>
 
@@ -1270,7 +1270,7 @@ Aprēķināt $S(S(S(2012^{2012})))$.
 
 * [nota.divrule.3_9.rem](#)
 * [alg.ineq.equations](#)
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -1383,7 +1383,7 @@ vērtību.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1439,7 +1439,7 @@ $$f(x) + f(y) = f(x + 2xy) + f(y - 2xy).$$
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1450,7 +1450,7 @@ Atrast visus tādus pirmskaitļus $p$, ka $3^{p^2-1} + 20$ arī ir pirmskaitlis!
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1491,7 +1491,7 @@ vērtības var pieņemt izteiksme $\frac{\tau(10)}{\tau_1(10n)}$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 * seeAlso:LV.AMO.2023.12.5
 
 </small>

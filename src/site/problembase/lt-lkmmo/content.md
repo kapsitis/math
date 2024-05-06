@@ -778,7 +778,7 @@ Atsakymą pagrįskite.
 <!--
 genre=integer-equation
 concepts=full-square
-questionType=ProveDisprove.ForAll
+questionType=ProveDisprove
 -->
 
 
@@ -802,7 +802,7 @@ o jų sandauga $abc$ įgytų didžiausią galimą reikšmę.
 <!--
 genre=optimization
 concepts=linear-expression
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -824,7 +824,7 @@ $\left(a^2 - 9b^2\right)^2 - 33b = 16$.
 
 <!--
 genre=integer-equation
-questionType=Prove.ForAll,Find.All
+questionType=Prove,FindAll
 -->
 
 
@@ -856,7 +856,7 @@ $90$ skaičių nebūtų galima surasti $10$-elementės aritmetinės progresijos?
 <!--
 genre=fill-in-table
 concepts=arithmetic-progression
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -875,7 +875,7 @@ nesuprastinamų trupmenų su vardikliais $600$ bei $700$ suma.
 </text>
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 concepts=gcd
 -->
 
@@ -897,7 +897,7 @@ $$f(2009) – f(2000).$$
 </text>
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 concepts=linear-expression
 -->
 
@@ -921,7 +921,7 @@ skaitmenis.
 
 <!--
 genre=digit-manipulation
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -946,7 +946,7 @@ lyginis skaitmuo.
 
 <!--
 concepts=divisibility
-questionType=Find.Any,ProveDisprove.Exists,Find.Min
+questionType=FindExample,ProveDisprove,FindOptimal
 -->
 
 
@@ -968,7 +968,7 @@ pirminį daliklį;
 
 <!--
 concepts=primes
-questionType=Find.Any,Find.Min
+questionType=FindExample,FindOptimal
 -->
 
 
@@ -989,7 +989,7 @@ yra pirminis.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=quadratic-equation,primes
 -->
 
@@ -1012,7 +1012,7 @@ kurio skaitmenų suma lygi $n$.
 
 <!--
 concepts=sum-of-digits
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1038,7 +1038,7 @@ kur $x$ ir $y$ yra natūralieji skaičiai, didesni už $1$.
 
 <!--
 genre=special-numbers
-questionType=ProveDisprove.Exists,ProveDisprove.Other
+questionType=ProveDisprove,ProveDisprove
 -->
 
 
@@ -1074,7 +1074,7 @@ serbiškoji lentelė, kai
 <!--
 concepts=remainder,square
 genre=fill-in-table
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -1092,7 +1092,7 @@ $n^2 - 7n + 10$ dalijasi iš $n – 3$.
 
 <!--
 concepts=integer-polynomial,divisibility
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1118,7 +1118,7 @@ skaičių sumų. Ar galima tokiu būdu gauti dešimt skirtingų pirminių skaič
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 concepts=primes
 -->
 
@@ -1139,7 +1139,7 @@ $\frac{p+1}{p} \cdot \frac{q+1}{q} = \frac{2011}{2010}$.
 
 <!--
 genre=integer-equation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1157,7 +1157,7 @@ $$x^2(y-1) + y^2(x-1)=1.$$
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -1185,7 +1185,7 @@ $$ia_j \leq ja_i.$$
 
 <!--
 concepts=absolute-value
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -1205,7 +1205,7 @@ kurio visi skaitmenys būtų vienodi.
 </text>
 
 <!--
-questionType=Find.Any,Find.Min
+questionType=FindExample,FindOptimal
 -->
 
 
@@ -1239,7 +1239,7 @@ dar nematęs pavyzdžio $6\,666\,668 \cdot 2 = 13\,333\,336$.)
 
 <!--
 concepts=sum-of-digits
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -1258,7 +1258,7 @@ $$(x-y)^3 + (y-z)^3 + (z-x)^3 = 30.$$
 </text>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 concepts=power
 genre=integer-equation
 -->
@@ -1282,7 +1282,7 @@ ir sąlygą $x > y > z$.
 <!--
 genre=integer-equation
 concepts=power,inequality
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1329,7 +1329,7 @@ b) Kiek yra tokių šešiaženklių skaičių $S$?
 
 <!--
 concepts=divisibility,full-square
-questionType=Find.All,Find.Count
+questionType=FindAll,FindCount
 -->
 
 
@@ -1359,7 +1359,7 @@ $6^6$, $8^8$ ir $k$ kartotinis lygus $12^{12}$?
 </text>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 concepts=lcm,power
 -->
 
@@ -1380,7 +1380,7 @@ b) Raskite mažiausią tokį skaičių $n$.
 
 <!--
 concepts=sum-of-digits
-questionType=Find.Any,Find.Min
+questionType=FindExample,FindOptimal
 -->
 
 
@@ -1397,7 +1397,7 @@ natūraliuosius daliklius, neviršijančius a) $9$; b) $99$.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=power,divisibility
 -->
 
@@ -1417,7 +1417,7 @@ tai sandauga $abc$ yra sveikojo skaičiaus kubas.
 
 <!--
 concepts=full-power
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -1437,7 +1437,7 @@ Kiek yra tokių keturženklių skaičių?
 </text>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 concepts=divisibility
 -->
 
@@ -1462,7 +1462,7 @@ $$x+yz=22$$
 
 <!--
 genre=system-of-equations
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1479,7 +1479,7 @@ $3^{2n+1} - 4^{n+1} + 6n$ yra pirminis.
 </text>
 
 <!-
-questionType=Find.All
+questionType=FindAll
 concepts=primes,power
 -->
 
@@ -1505,7 +1505,7 @@ einančių natūraliųjų skaičių negali būti visi neprilygstami.
 <!--
 genre=special-numbers
 concepts=primes
-questionType=Prove.NotExists
+questionType=Prove
 -->
 
 
@@ -1525,7 +1525,7 @@ $(99!)^{100!}\cdot(100!)^{99!}$?
 <!--
 genre=comparison
 concepts=factorial
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -1549,7 +1549,7 @@ gavo ne daugiau nei du kartus.
 
 <!--
 concepts=arithmetic-mean
-questionType=Prove.Exists
+questionType=Prove
 -->
 
 
@@ -1569,7 +1569,7 @@ dalijasi iš $12^k$?
 </text>
 
 <!--
-questionType=Find.Max
+questionType=FindOptimal
 concepts=valuations,power,factorial
 -->
 
@@ -1593,7 +1593,7 @@ skaičių su nenuliniais skaitmenimis?
 
 <!--
 genre=digit-manipulation
-questionType=Find.Count
+questionType=FindCount
 concepts=divisibility
 -->
 
@@ -1614,7 +1614,7 @@ kuris beveik kvadratas lygus dviejų beveik kvadratų santykiui.
 
 <!--
 genre=special-numbers
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -1630,7 +1630,7 @@ $$1 - \frac{1}{p} - \frac{1}{q} - \frac{1}{r} - \frac{1}{s} = \frac{1}{pqrs}.$$
 <!--
 concepts=primes
 genre=integer-equation
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1651,7 +1651,7 @@ Su kuriomis $n$ reikšmėmis skaičius $f(2015n) − f(n)$ yra lyginis?
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1676,7 +1676,7 @@ a) $29$; b) $4095$; c) $100$?
 
 <!--
 genre=making-moves
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -1702,7 +1702,7 @@ Kuris žaidėjas turi pergalės strategiją, jei pirmąjį ėjimą atlieka Jaunu
 
 <!--
 genre=game
-questionType=Algorithm,Prove.ForAll
+questionType=Algorithm,Prove
 concepts=divisibility
 -->
 
@@ -1721,7 +1721,7 @@ mažiau nei $8$ (teigiamus) daliklius (įskaitant $1$ ir patį skaičių).
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=divisibility,primes
 -->
 
@@ -1756,7 +1756,7 @@ yra skaičiaus $t$ trupmeninė dalis.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 concept=floor
 -->
@@ -1774,7 +1774,7 @@ natūraliuosius sprendinius $(x, y)$.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=square-root
 genre=integer-equation
 -->
@@ -1798,7 +1798,7 @@ nuliai. Raskite didžiausią galimą skaičiaus $k$ reikšmę.
 </text>
 
 <!--
-questionType=Find.Max
+questionType=FindOptimal
 seeAlso=LV.NO.2018.8.4
 seeAlso=LV.NO.2018.10.4
 seeAlso=LV.NO.2018.11.4
@@ -1820,7 +1820,7 @@ kad $n^m − m^n$ dalijasi iš $n + m$.
 
 <!--
 concepts=power,inequality,divisibility
-questionType=Prove.Other
+questionType=Prove
 -->
 
 
@@ -1856,7 +1856,7 @@ ar jis visada gali laimėti, kaip bežaistų Gervazas)?
 <!--
 genre=game
 concepts=divisibility
-questionType=Algorithm,Prove.ForAll
+questionType=Algorithm,Prove
 seeAlso=LV.NO.2019.7.5
 -->
 
@@ -1876,7 +1876,7 @@ suma. Įrodykite, kad $p − 7$ dalijasi iš $36$.
 
 <!--
 concepts=square,primes,arithmetic-progression,divisibility
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -1904,7 +1904,7 @@ $x + y \in \mathbb{Z}$ ir $ax + by \in \mathbb{Z}$?
 
 <!--
 concepts=real-numbers,parity
-questionType=ProveDisprove.ForAll
+questionType=ProveDisprove
 -->
 
 
@@ -1923,7 +1923,7 @@ $S(n) \cdot S(n + 1) = 465$?
 
 <!--
 concepts=sum-of-digits
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -1942,7 +1942,7 @@ $$a − b = 5b^2 − 4a^2 > 0.$$
 
 <!--
 concepts=full-square,square,inequality
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -1960,7 +1960,7 @@ $d + 2$ yra pirminis. Kiek daugiausiai teigiamų daliklių gali turėti $N$?
 </text>
 
 <!--
-questionType=Find.Max
+questionType=FindOptimal
 concepts=primes,divisibility
 -->
 
@@ -1980,7 +1980,7 @@ dalytųsi iš $192$?
 </text>
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 concepts=divisibility
 -->
 
@@ -2004,7 +2004,7 @@ b) Raskite mažiausią smagų skaičių.
 </text>
 
 <!--
-questionType=Find.Any,Find.Min
+questionType=FindExample,FindOptimal
 genre=special-numbers
 concepts=divisibility
 -->
@@ -2024,7 +2024,7 @@ kad bent vienas iš skaičių $ab, bc, ca$ yra natūraliojo skaičiaus kvadratas
 </text>
 
 <!--
-questionType=Prove.Other
+questionType=Prove
 concepts=full-square,power
 -->
 
@@ -2047,7 +2047,7 @@ $$x_1^2 + y_1^2 = x_2^2 + y_2^2 = \ldots = x_n^2 + y_n^2 > 0.$$
 </text>
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 concepts=square
 -->
 
@@ -2074,7 +2074,7 @@ kur skaičius $n$ natūralusis, gali dalytis Auroros gautas skaičius?
 </text>
 
 <!--
-questionType=Find.Max
+questionType=FindOptimal
 concepts=valuations
 -->
 
@@ -2102,7 +2102,7 @@ nelaimėjo, tai laimi Rytis. Kuris iš žaidėjų turi pergalės strategiją?
 </text>
 
 <!--
-questionType=Algorithm,Prove.ForAll
+questionType=Algorithm,Prove
 concepts=divisibility
 -->
 

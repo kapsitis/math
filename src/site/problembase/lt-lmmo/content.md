@@ -240,7 +240,7 @@ liekanų skaičių pažymėkime $d$.
 </text>
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 concepts=remainder
 -->
 

@@ -5,7 +5,7 @@ $n(n+1)$ un $3n^3-2$ ir pāra skaitļi?
 
 <small>
 
-* questionType:Find.Count
+* questionType:FindCount
 
 </small>
 
@@ -20,7 +20,7 @@ kuriem var būt arī vienādi?
 
 <small>
 
-* questionType:Find.Count
+* questionType:FindCount
 
 </small>
 
@@ -33,7 +33,7 @@ iekavas izteiksmē $15:14:13:12:11:10:9:8:7:6:5:4:3:2$?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -110,7 +110,7 @@ Izrādījās, ka $B$ dalās ar $A$. Kāds var būt dalījums?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -127,7 +127,7 @@ skaitļa $2^n$ pirmo ciparu, iegūst divnieka pakāpi ar naturālu kāpinātāju
 * [mod.exp.period](#)
 * [nota.divrule.3_9.divides](#)
 * [div.fta.divisors](#)
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -187,7 +187,7 @@ Atrisināt naturālos skaitļos vienādojumu $x^2+3^x=y^2$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -199,7 +199,7 @@ saprot visu naturālo skaitļu reizinājumu no $1$ līdz $y$ ieskaitot.)
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -214,7 +214,7 @@ skaitļa kubs. Kādas ir $x$ un $y$ vērtības?
 
 * [div.fta.pow](#)
 * [comb.full](#)
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -257,7 +257,7 @@ ir naturāla skaitļa kvadrāts?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -278,7 +278,7 @@ sasniegt?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -314,7 +314,7 @@ veido aritmētisku progresiju?
 
 * [div.fta.divisors](#)
 * [seq.arithm](#)
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -347,7 +347,7 @@ $(4n+3,6n+1)$ vērtību, ja $n$ - naturāls skaitlis.
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -366,7 +366,7 @@ dalās ar naturālu skaitli $x$. Kādas var būt $x$ vērtības?
 * [nota.divrule.11](#)
 * [misc.extr](#)
 * [div.common.gcd.euclid](#)
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -400,7 +400,7 @@ $x_1;x_2;x_3;\ldots;x_k$ ir pirmskaitļi?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -415,7 +415,7 @@ kvadrāti?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -448,7 +448,7 @@ naturāli skaitļi no $1$ līdz $2003$ ieskaitot?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -476,7 +476,7 @@ Kāds vislielākais pirmskaitlis var būt uzrakstīts uz tāfeles?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -488,7 +488,7 @@ skaitļa kvadrāts?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -523,7 +523,7 @@ skaitlim $A$ galā skaitli $B$.
 
 <small>
 
-* questionType:Find.Example,Prove,ProveDisprove
+* questionType:FindExample,Prove,ProveDisprove
 
 </small>
 
@@ -537,7 +537,7 @@ Jūsu atrastajiem nav.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -552,7 +552,7 @@ Atrast mazāko iespējamo $n$ vērtību.
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -570,7 +570,7 @@ d. visiem $x$ un $y$ no definīcijas apgabala skaitlis
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -601,7 +601,7 @@ Par skaitļu virkni $x_1, x_2, x_3, \ldots$ zināms, ka
 
 <small>
 
-* questionType:Prove,Find.All
+* questionType:Prove,FindAll
 
 </small>
 
@@ -614,7 +614,7 @@ skaitļa $640000$ dalītāji.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -627,7 +627,7 @@ $p+q+1$ arī ir pirmskaitļi?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -644,7 +644,7 @@ pašā krāsā (starp šīm vērtībām var būt arī savā starpā vienādas)?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -658,7 +658,7 @@ $n=1; 2; 3; \ldots$. Kādas vērtības var pieņemt $a_{2006}$?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -670,7 +670,7 @@ Atrisināt naturālos skaitļos vienādojumu $(x+y)(xy+1) = 2^z$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -703,7 +703,7 @@ $n + 2$, ne ar $n + 3$. Kādas ir iespējamās $n$ vērtības?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -873,7 +873,7 @@ ciparus, iegūst $\sqrt[3]{x}$?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -889,7 +889,7 @@ $n = [x,y] + [y,z] + [z,x]$?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -905,7 +905,7 @@ $$\left| \ldots
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -932,7 +932,7 @@ $$x^2 + \left( x + 1 \right)^2 = y^2,\;\;\mbox{ja $x \leq 200$}.$$
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -949,7 +949,7 @@ sekojošu naturālu skaitļu var visi būt vienkārši?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -966,7 +966,7 @@ Kādas ir iespējamās $n$ vērtības?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -980,7 +980,7 @@ vienu aritmētisku progresiju?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -992,7 +992,7 @@ $2009^{2009}-2009$ lielāko kopīgo dalītāju.
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -1010,7 +1010,7 @@ Kāds var būt skaitlis $n$?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1040,7 +1040,7 @@ naturālu skaitļu visi var būt *skaisti*?
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -1156,7 +1156,7 @@ $f(2011) = 100$, bet $f(11) = 1000$?
 
 <!--
 concepts=integer-polynomial
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -1169,7 +1169,7 @@ arī ir pirmskaitlis.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1224,7 +1224,7 @@ Pierādīt, ka skaitļa $N^2$ decimālajā pierakstā nav cipara $0$.
 
 <!--
 concepts=full-square
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -1290,7 +1290,7 @@ Atrast vienu šādu virkņu piemēru.
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -1311,7 +1311,7 @@ $\lfloor 0,2 \rfloor =0$ u.tml.)
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1327,7 +1327,7 @@ $\overline{abcd} + \overline{abc} + \overline{ab} + a = 2013$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1350,7 +1350,7 @@ $\lfloor 0,2 \rfloor =0$ u.tml.)
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -1487,7 +1487,7 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu nav.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1503,7 +1503,7 @@ Atrast visas iespējamās $n$ vērtības.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1519,7 +1519,7 @@ ir tādi, kas dalās ar $5$?
 
 <small>
 
-* questionType:Find.Count,Find.Count
+* questionType:FindCount,FindCount
 
 </small>
 
@@ -1533,14 +1533,14 @@ $\frac{n^3+3}{n+3}$, gan $\frac{n^4+4}{n+4}$ ir veseli skaitļi.
 
 * [alg.poly.division](#)
 * [div.fta.divisors.num](#)
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
 
 <!--
 concepts=integer-polynomials
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -1624,7 +1624,7 @@ iespējams apmaksāt izmantojot tikai šīs pastmarkas?
 
 * [seq.arithm.mod.all](#)
 * [alg.ineq.monotonicity](#)
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -1664,7 +1664,7 @@ $a+14$, $a+22$, $a+32$, $a+46$ var būt pirmskaitļi.
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -1724,7 +1724,7 @@ kuriem $\frac{2015}{n^4 - m^4}$ arī ir naturāls skaitlis!
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -1750,7 +1750,7 @@ nav, jo $25; 50; 100; 100; \ldots$
 
 <small>
 
-* questionType:Find.Count
+* questionType:FindCount
 
 </small>
 
@@ -1816,7 +1816,7 @@ iespējamo $b$ vērtību!
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -1855,7 +1855,7 @@ mazāko pirmreizinātāju!
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -1879,7 +1879,7 @@ Kādi ir četri nākamie skaitļi, kas virknē seko aiz skaitļa $2016$?
 
 <small>
 
-* questionType:Find.Example
+* questionType:FindExample
 
 </small>
 
@@ -2165,7 +2165,7 @@ ka citu nav!
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -2185,7 +2185,7 @@ sākotnējais skaitlis?
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -2308,7 +2308,7 @@ naturāla skaitļa kvadrāts!
 
 <small>
 
-* questionType:Find.Optimal
+* questionType:FindOptimal
 
 </small>
 
@@ -2349,7 +2349,7 @@ Piemēram, skaists trijnieks ir $8$, $9$, $10$.
 * [nota.divrule.2_5_10.divides](#)
 * [nota.divrule.3_9.divides](#)
 * [nota.combine.padding](#)
-* questionType:Find.Example,Prove
+* questionType:FindExample,Prove
 
 </small>
 
@@ -2390,7 +2390,7 @@ Piemēram, skaists piecinieks ir $6, 7, 8, 9, 10$.
 
 <small>
 
-* questionType:Find.Example,Prove
+* questionType:FindExample,Prove
 
 </small>
 
@@ -2402,7 +2402,7 @@ Atrisināt veselos skaitļos vienādojumu $x^6 + 3x^3 + 1 = y^4$.
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 
@@ -2475,7 +2475,7 @@ vērtība nav naturāla skaitļa kvadrāts!
 <!--
 genre=integer-equation
 concept=full-square
-questionType=Prove.NotExists
+questionType=Prove
 -->
 
 
@@ -2519,7 +2519,7 @@ kur $m$ un $n$ ir nenegatīvi veseli skaitļi, ir $2019$.
 
 <small>
 
-* questionType:Find.Example,Find.Example
+* questionType:FindExample,FindExample
 
 </small>
 
@@ -2627,7 +2627,7 @@ skaitlis. Atrast visas iespējamās šī pēdējā skaitļa vērtības!
 
 <small>
 
-* questionType:Find.All
+* questionType:FindAll
 
 </small>
 

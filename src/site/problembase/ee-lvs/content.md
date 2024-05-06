@@ -20,7 +20,7 @@ $1 + 2^2 + 3^3 + 4^n$
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -72,7 +72,7 @@ $p^3 + 2008$ и $p^3 + 2010$ также
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 concepts=primes
 -->
 
@@ -117,7 +117,7 @@ pakāpe ar veselu kāpinātāju.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=divisors
 -->
 
@@ -135,7 +135,7 @@ $n! + (n + 1)! = k! + 120$.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=factorial
 -->
 
@@ -155,7 +155,7 @@ vai divu veselu skaitļu kubu summu.
 </text>
 
 <!--
-questionType=Prove.NotExists
+questionType=Prove
 concepts=power-sums
 -->
 
@@ -176,7 +176,7 @@ b) Kāda ir mazākā iespējamā $P(2011)$ pozitīvā vērtība?
 </text>
 
 <!--
-questionType=ProveDisprove.Exists,Find.Min
+questionType=ProveDisprove,FindOptimal
 concepts=integer-polynomial
 -->
 
@@ -196,7 +196,7 @@ sākotnējā skaitļa dalītājs.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=digit-manipulation
 -->
 
@@ -230,7 +230,7 @@ $$\frac{1}{a_i} + \frac{1}{a_{i+1}} + \ldots + \frac{1}{a_j}$$
 </text>
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 concepts=valuations
 -->
 
@@ -250,7 +250,7 @@ kuri dalās ar katru savu ciparu, kas nav nulle.
 </text>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 -->
 
 
@@ -271,7 +271,7 @@ $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=0$.
 </text>
 
 <!--
-questionType=Prove.Exists
+questionType=Prove
 concepts=coprimes
 -->
 
@@ -293,7 +293,7 @@ $ax^2+bx+c=0$ являлись целыми числами. Всегда ли у
 </text>
 
 <!--
-questionType=ProveDisprove.Other
+questionType=ProveDisprove
 concepts=quadratic-equation
 -->
 
@@ -309,7 +309,7 @@ par savu ciparu summu.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=sum-of-digits
 -->
 
@@ -328,7 +328,7 @@ $n^3 = m^2 + m + 1$.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=remainder
 -->
 
@@ -350,7 +350,7 @@ sauc reizinājumu $1\cdot{}2\cdot\ldots\cdot{}x$.*
 -->
 
 <!--
-questionType=Prove.ForAll
+questionType=Prove
 concepts=factorial
 genre=proving-inequality
 -->
@@ -375,7 +375,7 @@ $1, 2, 3, \ldots, 100$ всего $x$ чисел так,
 </text>
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -397,7 +397,7 @@ lai darbība izrādītos pareiza.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=cryptarithm
 -->
 
@@ -420,7 +420,7 @@ Pierādīt, ka arī $a-b$ dalās ar $c$.
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=gcd
 -->
 
@@ -442,7 +442,7 @@ $$A = \sqrt{2013 + \sqrt{2012 + \sqrt{2011 + \ldots \sqrt{2 +\sqrt{1}}}}}.$$
 </text>
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 concepts=square-root
 -->
 
@@ -461,7 +461,7 @@ $$p(p + 1) + q(q + 1) = n(n + 1).$$
 </text>
 
 <!--
-questionType=Find.All
+questionType=FindAll
 concepts=primes
 -->
 
@@ -487,7 +487,7 @@ un $n+6$.
 </text>
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 genre=digit-manipulation
 -->
 
@@ -519,7 +519,7 @@ b) skaitlis $9876543210$?
 </text>
 
 <!--
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 genre=digit-manipulation
 -->
 
@@ -536,7 +536,7 @@ $3^303 \cdot 4^{404} \cdot 5^{505}$?
 </text>
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 genre=proving-inequality
 -->
 
@@ -557,7 +557,7 @@ $(x^2+y^2)^n = (xy)^{2014}$ имеет решение в положительн�
 
 
 <!--
-questionType=Find.All
+questionType=FindAll
 genre=integer-equation
 -->
 
@@ -579,7 +579,7 @@ $$0,123456789101112\;\ldots\;998999$$
 </text>
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -600,7 +600,7 @@ $\frac{20^2}{4\cdot{}10}=10$.
 </text>
 
 <!--
-questionType=Find.Min
+questionType=FindOptimal
 -->
 
 
@@ -627,7 +627,7 @@ dalās, bet daži nedalās ar sākotnējo skaitli.
 
 <!--
 genre=digit-manipulation
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -641,7 +641,7 @@ Cik ir piecciparu skaitļu, kas dalās ar $8$ un nesatur savā pierakstā ciparu
 </text>
 
 <!--
-questionType=Find.Count
+questionType=FindCount
 -->
 
 
@@ -660,7 +660,7 @@ b) Atrast lielāko skaitli, kurš ir četru dažādu divciparu skaitļu mazākai
 
 <!--
 concepts=lcm,gcd
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -679,7 +679,7 @@ $n+31$, $n+33$, $n+37$ и $n+39$ − простые числа. Найти ос�
 
 <!--
 concepts=primes,remainder
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -699,7 +699,7 @@ skaits no šīm daļām var būt veseli skaitļi?
 </text>
 
 <!--
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -726,7 +726,7 @@ $\mbox{НОД}(a, b) = 1$.
 
 <!--
 concepts=coprimes
-questionType=ProveDisprove.ForAll
+questionType=ProveDisprove
 -->
 
 
@@ -746,7 +746,7 @@ $9$ положительных делителей, а все его делите
 
 <!--
 genre=magic-configuration
-questionType=ProveDisprove.Exists
+questionType=ProveDisprove
 -->
 
 
@@ -773,7 +773,7 @@ $a_5 = 5 \cdot a_2$ и т.д.
 <!--
 concepts=floor
 genre=prove-inequality
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -800,7 +800,7 @@ viņai jāuzraksta uz tāfeles, lai uzvarētu?
 
 <!--
 genre=game
-questionType=Algorithm,Find.Min
+questionType=Algorithm,FindOptimal
 -->
 
 
@@ -822,7 +822,7 @@ un arī skaitļu summas visās tabulas kolonnās ir vienādas.
 <!--
 genre=magic-configuration
 concepts=divisors
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -846,7 +846,7 @@ dalīties iegūtais reizinājums.
 
 <!--
 concepts=primes,valuations
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -867,7 +867,7 @@ dažādus burtus - ar dažādiem cipariem.
 
 <!--
 genre=cryptarithm
-questionType=Find.Count
+questionType=FindCount
 -->
 
 
@@ -885,7 +885,7 @@ $500$, имеющего больше различных простых дели�
 
 <!--
 concepts=divisors,primes
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -908,7 +908,7 @@ $v$ таких, что $x$ будет медиантой $u$ и $v$.
 
 <!--
 concepts=mediant-of-fractions
-questionType=Prove.Other
+questionType=Prove
 -->
 
 
@@ -926,7 +926,7 @@ dalās ar $3$?
 </text>
 
 <!--
-questionType=Find.Only
+questionType=FindAll
 -->
 
 
@@ -950,7 +950,7 @@ $n\cdot\mbox{НОД}(m,k) = m\cdot\mbox{НОД}(n,k)$.
 
 <!--
 concepts=lcm,gcd
-questionType=Prove.ForAll
+questionType=Prove
 -->
 
 
@@ -975,7 +975,7 @@ mazāk māsu kā brāļu?
 
 <!--
 genre=word-problem
-questionType=Find.All
+questionType=FindAll
 -->
 
 
@@ -996,7 +996,7 @@ kopīga mala un kur skaitlis no vienas rūtiņas dalās ar skaitli no otras rūt
 
 <!--
 genre=fill-in-table
-questionType=Find.Max
+questionType=FindOptimal
 -->
 
 
@@ -1042,7 +1042,7 @@ $3$, $3$, $\otimes$, $4$, $4$, $\otimes$,
 
 <!--
 genre=procedure
-questionType=Algorithm,ProveDisprove.Exists
+questionType=Algorithm,ProveDisprove
 -->
 
 
