@@ -36,7 +36,7 @@ vismaz divi cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tika
 <small>
 
 * concept:decimal-notation
-* [mod.fix.lastdigits](#)
+* topic:ModularArithmeticOther
 * [Topic:decimalNotation](#)
 * questionType:ProveDisprove
 

@@ -12,9 +12,9 @@ yra natūralusis.
 
 <small>
 
-* [alg.poly.division](#)
-* [alg.ineq.equations](#)
-* [comb.full](#)
+* topic:PolynomialLongDivision
+* topic:NumTheoryInequalityMethod
+* topic:ExhaustionMethod
 * strategy:CaseAnalysis
 
 </small>
@@ -67,11 +67,11 @@ yra natūralieji.
 
 <small>
 
-* [div.fta](#)
-* [div.fta.pow.other](#)
-* [div.common.lcm.maxexp](#)
-* [seq.arithm.mod.gaps](#)
-* [mod.eq.chinese](#)
+* topic:CanonicalFactorization
+* topic:PrimeFactorizationAndPowers
+* topic:GcdAndLcmProperties
+* topic:ArithmeticSeriesGaps
+* topic:ChineseRemainderTheorem
 
 </small>
 
@@ -164,8 +164,8 @@ kad vienas skaičius būtų kito kvadratas?
 
 <small>
 
-* [nota.est.numdigits.prod](#)
-* [comb.full](#)
+* topic:DigitsInOperationResult
+* topic:ExhaustionMethod
 
 </small>
 
@@ -243,10 +243,10 @@ $$m^2 + 2m - 9 = n^2 + n.$$
 
 <small>
 
-* [alg.tra.binom.complsquare](#)
-* [seq.gaps.squares](#)
-* [alg.ineq.monotonicity](#)
-* [comb.full](#)
+* topic:CompletingSquare
+* topic:FullPowerGaps
+* topic:NumTheoryInequalityLargeIntervals
+* topic:ExhaustionMethod
 
 </small>
 
@@ -337,7 +337,7 @@ skaičių $0$, pralaimi. Nustatykite, kuris
 
 <small>
 
-* [misc.invar.game](#)
+* topic:GameInvariant
 * strategy:BeginAtTheEnd
 
 </small>
@@ -417,8 +417,8 @@ skaidinys pirminiais daugikliais.
 
 <small>
 
-* [div.fta.divisors.num](#)
-* [div.fta.divisors.struct](#)
+* topic:DivisorNumberAndSum
+* topic:FactorizationAndDivisibility
 
 </small>
 
@@ -531,9 +531,9 @@ kad ir kaip žaistų Algis.
 
 <small>
 
-* [misc.invar.game](#)
-* [mod.fix.parity](#)
-* [misc.ind.least](#)
+* topic:GameInvariant
+* topic:ModularParity
+* topic:StrongAndReverseInduction
 
 </small>
 
@@ -618,11 +618,11 @@ galėjo gauti? Raskite visas galimybes.
 
 <small>
 
-* [mod.fix.lastdigits](#)
-* [mod.eq](#)
-* [misc.symm](#)
-* [comb.full](#)
-* [nota.divrule.2_5pow.divides](#)
+* topic:ModularArithmeticOther
+* topic:CongruenceEquations
+* topic:CountingUsingSymmetry
+* topic:ExhaustionMethod
+* topic:DivisibilityRulesLastDigits
 
 </small>
 
@@ -698,9 +698,9 @@ skaičius dalijasi iš kito, tai jie lygūs.
 
 <small>
 
-* [nota.divrule.3_9.rem](#)
-* [misc.invar](#)
-* [mod.congr.prod](#)
+* topic:DivisibilityRulesForRemainders
+* topic:Invariant
+* topic:ModularArithmetic
 
 </small>
 
@@ -759,11 +759,11 @@ b) $N$ nesidalija iš jokio penktinio skaičiaus.
 
 <small>
 
-* [nota.divrule.3_9.rem](#)
-* [mod.congr.prod](#)
-* [mod.eq.chinese](#)
-* [alg.ineq.monotonicity](#)
-* [comb.full](#)
+* topic:DivisibilityRulesForRemainders
+* topic:ModularArithmetic
+* topic:ChineseRemainderTheorem
+* topic:NumTheoryInequalityLargeIntervals
+* topic:ExhaustionMethod
 
 </small>
 

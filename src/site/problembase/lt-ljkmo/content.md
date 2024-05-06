@@ -9,10 +9,10 @@ Atšifrējiet reizinājumu:
 
 <small>
 
-* [nota.algor.arithm](#)
-* [nota.est.numdigits](#)
-* [alg.ineq.equations](#)
-* [misc.extr.param](#)
+* topic:NumericAlgorithms
+* topic:DecimalNotationDigits
+* topic:NumTheoryInequalityMethod
+* topic:NumTheoryExtremeElement
 
 </small>
 
@@ -61,8 +61,8 @@ un kura visu ciparu summa ir $100$. Atrodiet pašu mazāko šādu skaitli.
 
 <small>
 
-* [nota.divrule.2_5pow.divides](#)
-* [misc.extr](#)
+* topic:DivisibilityRulesLastDigits
+* topic:ExtremeElementMethod
 
 </small>
 
@@ -98,10 +98,10 @@ kurš bez atlikuma dalās ar $23$?
 
 <small>
 
-* [div.fta.divisors](#)
-* [comb.full](#)
-* [nota.algor.longdiv](#)
-* [seq.recur.linear](#)
+* topic:IntegerFactorization
+* topic:ExhaustionMethod
+* topic:NumericAlgorithms
+* topic:LinearRecurrencesConstant
 
 </small>
 
@@ -155,8 +155,8 @@ Atrodiet pašu mazāko tādu skaitli.
 
 <small>
 
-* [div.fta.divisors](#)
-* [misc.extr](#)
+* topic:IntegerFactorization
+* topic:ExtremeElementMethod
 
 </small>
 
@@ -198,10 +198,10 @@ $x-y= x^2 + xy+ y^2$.
 
 <small>
 
-* [alg.equ.guess](#)
-* [alg.equ.parametrize](#)
-* [alg.ineq.quadratic](#)
-* [alg.equ.quadratic.discriminant](#)
+* topic:EquationFactorization
+* topic:EquationComparingSidesAsFunctions
+* topic:NumTheoryInequalitySideComparison
+* topic:QuadraticEquationRootConditions
 
 </small>
 
@@ -268,7 +268,7 @@ atlikušo skaitļu reizinājums būtu pilns kvadrāts?
 
 <small>
 
-* [div.fta.pow.square](#)
+* topic:PrimeFactorizationAndPowers
 
 </small>
 
@@ -358,9 +358,9 @@ dalās ar $2003$ un kura ciparu summa vienāda ar $2003$.
 
 <small>
 
-* [nota.combine.padding](#)
-* [misc.invar](#)
-* [seq.arithm.mod](#)
+* topic:NotationInsert
+* topic:Invariant
+* topic:ArithmeticSeriesDivisibility
 
 </small>
 
@@ -435,8 +435,8 @@ vienāds veseliem skaitļiem?
 
 <small>
 
-* [comb.graph.bipartite](#)
-* [div.prop.primes](#)
+* topic:BipartiteGraphs
+* topic:Primes
 
 </small>
 
@@ -600,7 +600,7 @@ summa būtu pilns kvadrāts. Vai baronam ir taisnība, šādi uzskatot?
 
 <small>
 
-* [comb.graph.cycle](#)
+* topic:HamiltonCircuits
 
 </small>
 

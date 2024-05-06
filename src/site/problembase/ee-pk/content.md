@@ -5,8 +5,8 @@ kurš satur tos vienādā skaitā un dalās ar $5$ un $9$.
 
 <small>
 
-* [nota.divrule.3_9.divides](#)
-* [nota.divrule.2_5pow.divides](#)
+* topic:DivisibilityRulesFor3And9
+* topic:DivisibilityRulesLastDigits
 
 </small>
 
@@ -731,10 +731,10 @@ ciparu 1, arī rodas kāda vesela skaitļa kvadrāts.
 
 <small>
 
-* [misc.try](#)
-* [nota.algor.fast](#)
-* [nota.est.numdigits.prod](#)
-* [alg.tra.factor.sqdiff](#)
+* topic:CountingObjects
+* topic:NumericAlgorithms
+* topic:DigitsInOperationResult
+* topic:StandardIdentities
 
 </small>
 
@@ -836,8 +836,8 @@ skaitli $m$, iegūstot dalījumu un atlikumu.
 
 <small>
 
-* [mod.congr](#)
-* [mod.congr.classes](#)
+* topic:IntegerCongruence
+* topic:CongruenceClasses
 
 </small>
 
@@ -911,8 +911,8 @@ kuri apmierina vienādojumu $(a + b)(b + c)(c + a) = 123456789$?
 
 <small>
 
-* [nota.divrule.2_5_10.divides](#)
-* [mod.fix.parity](#)
+* topic:DivisibilityRulesFor2And4
+* topic:ModularParity
 
 </small>
 
@@ -977,9 +977,9 @@ dalās ar $10$.
 
 <small>
 
-* [mod.congr.pow](#)
-* [comb.full](#)
-* [misc.extr.pigeon](#)
+* topic:ModularArithmetic
+* topic:ExhaustionMethod
+* topic:NumTheoryPigeonhole
 
 </small>
 
@@ -1079,9 +1079,9 @@ Atrast visas iespējamās $n$ vērtības.
 
 <small>
 
-* [div.common.lcm](#)
-* [div.common.lcm.mult](#)
-* [comb.full](#)
+* topic:GcdAndLcm
+* topic:GcdAndLcmProperties
+* topic:ExhaustionMethod
 
 </small>
 
@@ -1138,10 +1138,10 @@ questionType=FindAll
 
 <small>
 
-* [alg.tra.factor.sqdiff](#)
-* [mod.fix.parity](#)
-* [comb.full](#)
-* [alg.linear.equations](#)
+* topic:StandardIdentities
+* topic:ModularParity
+* topic:ExhaustionMethod
+* topic:LinearSystemsTransforms
 
 </small>
 
@@ -1180,8 +1180,8 @@ veselo skaitļu no $1$ līdz $n$ ciparu summa ir pāru skaitlis?
 
 <small>
 
-* [misc.try](#)
-* [misc.ind](#)
+* topic:CountingObjects
+* topic:NumTheoryMathInduction
 
 </small>
 
@@ -1273,8 +1273,8 @@ būtu vienāda ar to mazāko kopīgo dalāmo, ja
 
 <small>
 
-* [alg.expr.prop](#)
-* [div.common.lcm.frac](#)
+* topic:NumTheoryExprForConcepts
+* topic:GcdAndLcmProperties
 
 </small>
 
@@ -1328,9 +1328,9 @@ atrisinājums, kuram $x$, $y$, $z$ un $w$ ir dažādi veseli skaitļi?
 
 <small>
 
-* [alg.tra.binom.complsquare](#)
-* [alg.ineq.square](#)
-* [alg.ineq.equations](#)
+* topic:CompletingSquare
+* topic:AddingOrMultiplyingInequalities
+* topic:NumTheoryInequalityMethod
 
 </small>
 
@@ -1410,10 +1410,10 @@ $324^{x+y} = 2^{x−y} \cdot 3^{x−3} \cdot 4^{y−4}$.
 
 <small>
 
-* [div.fta.proc](#)
-* [alg.tra.pow.prod](#)
-* [div.fta.pow.expsystem](#)
-* [alg.linear.equations](#)
+* topic:CanonicalFactorization
+* topic:StandardIdentities
+* topic:SystemOfEqualExponents
+* topic:LinearSystemsTransforms
 
 </small>
 
@@ -1476,10 +1476,10 @@ $$\frac{1}{a} - \frac{1}{b} =\frac{1}{b} - \frac{1}{c} =\frac{1}{c} - \frac{1}{d
 
 <small>
 
-* [misc.symm](#)
-* [misc.try](#)
-* [seq.arithm.expr](#)
-* [alg.poly.homo](#)
+* topic:CountingUsingSymmetry
+* topic:CountingObjects
+* topic:SeriesMembersSumsClosedFormulas
+* topic:SymmetricAlgebraicExpressions
 
 </small>
 
@@ -1545,9 +1545,9 @@ Atrast visas iespējamās vērtības Mari iedomātajam skaitlim.
 
 <small>
 
-* [alg.expr](#)
-* [nota.combine.poly](#)
-* [comb.full](#)
+* topic:NumTheoryExpr
+* topic:NotationPolynomial
+* topic:ExhaustionMethod
 
 </small>
 
@@ -1652,10 +1652,10 @@ kas apmierina vienādību $22a + 15b = 2019$?
 
 <small>
 
-* [misc.extr.param](#)
-* [mod.congr.sumdiff](#)
-* [misc.try](#)
-* [seq.arithm.mod.gaps](#)
+* topic:NumTheoryExtremeElement
+* topic:ModularArithmetic
+* topic:CountingObjects
+* topic:ArithmeticSeriesGaps
 
 </small>
 

@@ -5,7 +5,7 @@ var izsacīt kā divu veselu skaitļu kvadrātu summu. Vai to noteikti var izsac
 
 <small>
 
-* [alg.tra.binom.square](#)
+* topic:StandardIdentities
 * questionType:Prove
 * concepts:square-Alg
 
@@ -35,8 +35,8 @@ Atrast mazāko naturālo skaitli, kam visi cipari ir vienādi un kas dalās ar $
 
 <small>
 
-* [mod.exp.fermat](#)
-* [div.fta.divisors](#)
+* topic:LittleFermatAndEuler
+* topic:IntegerFactorization
 * genre:optimization
 * questionType:FindOptimal
 * concepts:decimal-notation,digit,divisibility
@@ -71,10 +71,10 @@ var tā sadalīt pa pāriem, lai visas pāros ieejošo skaitļu summas būtu da�
 
 <small>
 
-* [div.prop.primes.small](#)
-* [div.prop.primes.small](#)
-* [misc.extr.pigeon](#)
-* [comb.full](#)
+* topic:PrimesDistribution
+* topic:PrimesDistribution
+* topic:NumTheoryPigeonhole
+* topic:ExhaustionMethod
 * concept:partition,primes,sum
 * questionType:ProveDisprove
 * genre:construction
@@ -103,8 +103,8 @@ Uz katras no vairākām kartītēm uzrakstīts pa naturālam skaitlim (starp tie
 
 <small>
 
-* [misc.ind](#)
-* [misc.extr.pigeon](#)
+* topic:NumTheoryMathInduction
+* topic:NumTheoryPigeonhole
 * genre:construction
 * questionType:ProveDisprove
 * strategy:Interpretation
@@ -256,9 +256,9 @@ skaitlis nemainās. Piemēram, $1221$ ir simetrisks skaitlis, bet $1231$ - nav.
 
 <small>
 
-* [nota.divrule.1001](#)
-* [nota.combine.poly](#)
-* [mod.congr](#)
+* topic:DivisibilityRulesOther
+* topic:NotationPolynomial
+* topic:IntegerCongruence
 * concepts:palindrome,decimal-notation
 * questionType:Prove,ProveDisprove
 
@@ -295,9 +295,9 @@ kuru Andrim vajadzēja iegūt. Kādu sešciparu skaitli Andris uzrakstīja?
 
 <small>
 
-* [nota.combine.split](#)
-* [alg.tra.factor](#)
-* [alg.ineq.equations](#)
+* topic:NotationShift
+* topic:StandardIdentities
+* topic:NumTheoryInequalityMethod
 * questionType:FindAll
 * genre:digit-manipulation
 * concepts:decimal-notation
@@ -380,7 +380,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 
 <small>
 
-* [comb.constr.partition](#)
+* topic:
 * genre:game
 * concepts:divisibility
 * questionType:Algorithm
@@ -409,8 +409,8 @@ lai nekādu divu izvēlēto skaitļu starpība nebūtu ne $3$, ne $4$, ne $7$?
 
 <small>
 
-* [misc.symm.periodicity](#)
-* [misc.extr.pigeon](#)
+* topic:SequencePeriodicity
+* topic:NumTheoryPigeonhole
 * genre:optimization
 * questionType:FindOptimal
 * strategy:ExhaustiveSearch,Symmetry
@@ -443,9 +443,9 @@ Kādu četrciparu skaitli Andris uzrakstīja?
 
 <small>
 
-* [nota.combine.split](#)
-* [alg.tra.factor](#)
-* [alg.ineq.equations](#)
+* topic:NotationShift
+* topic:StandardIdentities
+* topic:NumTheoryInequalityMethod
 * seeAlso:LV.AMO.2001.8.3
 * questionType:FindAll
 * genre:digit-manipulation
@@ -470,7 +470,7 @@ ja $a$, $b$, $c$, $d$ ir dažādi Fibonači skaitļi?
 
 <small>
 
-* [misc.extr.param](#)
+* topic:NumTheoryExtremeElement
 * concepts:fibonacci-sequence
 * questionType:ProveDisprove
 * strategy:ExtremeElement
@@ -557,7 +557,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 
 <small>
 
-* [comb.constr.partition](#)
+* topic:
 * genre:game
 * concepts:divisibility
 * questionType:Algorithm
@@ -595,9 +595,9 @@ Vai tas var būt $0$, ja **(a)** $n=8$, **(b)** $n=9$?
 
 <small>
 
-* [misc.invar.parity](#)
-* [seq.arithm.summation](#)
-* [comb.full](#)
+* topic:InvariantParity
+* topic:SeriesMembersSumsClosedFormulas
+* topic:ExhaustionMethod
 * concepts:absolute-value
 * genre:making-moves
 * isProgramming:true
@@ -642,8 +642,8 @@ saskaitāmo lielākais kopīgais dalītājs būtu $1$?
 
 <small>
 
-* [misc.extr.param](#)
-* [div.prop.primes.small](#)
+* topic:NumTheoryExtremeElement
+* topic:PrimesDistribution
 * genre:optimization
 * concepts:gcd,coprimes
 * questionType:FindCount
@@ -674,9 +674,9 @@ Vai tas iespējams, ja **(a)** $n=3$, **(b)** $n=4$, **(c)** $n=2003$?
 
 <small>
 
-* [misc.symm.periodicity](#)
-* [comb.full](#)
-* [alg.tra.binom.square](#)
+* topic:SequencePeriodicity
+* topic:ExhaustionMethod
+* topic:StandardIdentities
 * concepts:square
 * isHard:true
 * isProgramming:true
@@ -788,8 +788,8 @@ ir nesaīsināmas?
 
 <small>
 
-* [div.common.gcd.euclid](#)
-* [div.prop.primes.small](#)
+* topic:EuclideanAlgorithm
+* topic:PrimesDistribution
 * concepts:fractions,gcd
 * questionType:FindOptimal
 
@@ -821,8 +821,8 @@ Dots, ka $X-Y$ dalās ar $91$. Pierādīt, ka $A=B$.
 
 <small>
 
-* [nota.combine.split](#)
-* [div.fta.divisors](#)
+* topic:NotationShift
+* topic:IntegerFactorization
 * concepts:decimal-notation,divisibility
 * genre:digit-manipulation
 * questionType:Prove
@@ -853,9 +853,9 @@ kamēr paliek neizsvītrots viens skaitlis. Kurš tas ir?
 
 <small>
 
-* [seq.arithm.numestimate](#)
-* [seq.geom.estimate](#)
-* [seq.recur.other](#)
+* topic:MultiplesInInterval
+* topic:DefiningRecurrentSequences
+* topic:NonlinearRecurrences
 * concepts:sequence
 * genre:making-moves
 * isHard:true
@@ -976,8 +976,8 @@ skaitļu reizinājums?
 
 <small>
 
-* [nota.divrule.2_5pow](#)
-* [mod.congr.sumdiff](#)
+* topic:DivisibilityRulesLastDigits
+* topic:ModularArithmetic
 * genre:optimization
 * concepts:decimal-notation
 * questionType:FindOptimal
@@ -1009,7 +1009,7 @@ summa būtu vienāda ar otras daļas visu skaitļu reizinājumu?
 
 <small>
 
-* [comb.full.backtrack](#)
+* topic:TreeTraversalBacktracking
 * concepts:partition
 * genre:construction
 * questionType:FindExample
@@ -1131,9 +1131,9 @@ kas pie tam nav blakus viens otram. Cik vietu ir katrā vagonā?
 
 <small>
 
-* [seq.arithm.expr](#)
-* [seq.gaps](#)
-* [comb.full](#)
+* topic:SeriesMembersSumsClosedFormulas
+* topic:SequenceGaps
+* topic:ExhaustionMethod
 * concepts:sequence
 * questionType:FindAll
 
@@ -1166,8 +1166,8 @@ izpildās īpašības $S(n)=10$ un $S(5n)=5$.
 
 <small>
 
-* [nota.divrule.2_5_10.divides](#)
-* [nota.combine.padding](#)
+* topic:DivisibilityRulesFor2And4
+* topic:NotationInsert
 * genre:special-numbers,sum-of-digits
 * questionType:FindExample,ProveDisprove,ProveDisprove
 
@@ -1267,8 +1267,8 @@ kādā virzienā, veidotu pirmskaitļa pierakstu?
 
 <small>
 
-* [comb.graph.cycle](#)
-* [div.prop.primes.small](#)
+* topic:HamiltonCircuits
+* topic:PrimesDistribution
 * genre:optimization
 * concepts:primes
 * questionType:FindOptimal
@@ -1303,8 +1303,8 @@ Pierādīt, ka Maija var panākt, lai skaitļu uz tāfeles vairs nebūtu
 
 <small>
 
-* [seq.gaps](#)
-* [misc.ind.descent](#)
+* topic:SequenceGaps
+* topic:InfiniteDescent
 * concepts:decimal-notation,divisibility,sum-of-digits
 * genre:game
 * questionType:Algorithm,Prove
@@ -1332,8 +1332,8 @@ Kādu skaitli viņa iedomājās sākumā?
 
 <small>
 
-* [div.fta](#)
-* [alg.ineq.equations](#)
+* topic:CanonicalFactorization
+* topic:NumTheoryInequalityMethod
 * concepts:decimal-notation
 * genre:digit-manipulation
 * questionType:FindAll
@@ -1432,8 +1432,8 @@ Vai var būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 
 <small>
 
-* [nota.divrule.2_5pow](#)
-* [alg.tra.pow.prod](#)
+* topic:DivisibilityRulesLastDigits
+* topic:StandardIdentities
 * concepts:decimal-notation
 * questionType:ProveDisprove
 
@@ -1461,9 +1461,9 @@ $$a_1 + a_2 + \ldots + a_k = n \cdot \left( \frac{1}{a_1} +
 
 <small>
 
-* [div.fta.divisors.num](#)
-* [div.fta.divisors.pair](#)
-* [alg.series.sum](#)
+* topic:DivisorNumberAndSum
+* topic:IntegerFactorization
+* topic:TelescopicSums
 * concepts:primes,series
 * questionType:Prove
 
@@ -1621,10 +1621,10 @@ visas ir dažādas. Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 
 <small>
 
-* [mod.fix.parity](#)
-* [div.prop.primes.small](#)
-* [seq.arithm.summation](#)
-* [comb.full](#)
+* topic:ModularParity
+* topic:PrimesDistribution
+* topic:SeriesMembersSumsClosedFormulas
+* topic:ExhaustionMethod
 * concepts:primes
 * genre:fill-in-table
 * questionType:FindOptimal
@@ -1667,7 +1667,7 @@ vienīgā rūķīšiem pieejamā naudas vienība.)
 
 <small>
 
-* [misc.invar.congr](#)
+* topic:InvariantRemainder
 * concepts:divisibility
 * genre:making-moves
 * questionType:FindAll
@@ -1704,8 +1704,8 @@ gados.)
 
 <small>
 
-* [div.fta](#)
-* [comb.full](#)
+* topic:CanonicalFactorization
+* topic:ExhaustionMethod
 * genre:word-problem
 * isHard:true
 * questionType:FindAll
@@ -1807,9 +1807,9 @@ Atrodi visus šos skaitļus!
 
 <small>
 
-* [div.prop.primes.small](#)
-* [div.prop.primes.small](#)
-* [div.fta](#)
+* topic:PrimesDistribution
+* topic:PrimesDistribution
+* topic:CanonicalFactorization
 * concepts:primes
 * genre:construction
 * questionType:FindAll
@@ -1859,8 +1859,8 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 
 <small>
 
-* [alg.linear.comb](#)
-* [comb.full.backtrack](#)
+* topic:LinearSystemsApplications
+* topic:TreeTraversalBacktracking
 * genre:construction
 * questionType:FindExample
 
@@ -1889,7 +1889,7 @@ daļās, apēstas vai izmestas.)
 
 <small>
 
-* [misc.invar.congr](#)
+* topic:InvariantRemainder
 * questionType:FindAll
 
 </small>
@@ -1918,7 +1918,7 @@ Vai to var izdarīt?
 
 <small>
 
-* [comb.full.syntax](#)
+* topic:AlgorithmsOnSyntaxTrees
 * questionType:ProveDisprove
 
 </small>
@@ -1947,8 +1947,8 @@ deviņiem skaitļiem vismaz astoņi būs savā starpā atšķirīgi!
 
 <small>
 
-* [alg.expr.prop](#)
-* [comb.full](#)
+* topic:NumTheoryExprForConcepts
+* topic:ExhaustionMethod
 * questionType:Prove
 
 </small>
@@ -2026,9 +2026,9 @@ sekojošu naturālu skaitļu summu? Saskaitāmo secība nav svarīga.
 
 <small>
 
-* [seq.arithm.summation](#)
-* [div.fta.proc](#)
-* [comb.full](#)
+* topic:SeriesMembersSumsClosedFormulas
+* topic:CanonicalFactorization
+* topic:ExhaustionMethod
 * questionType:FindCount
 * concepts:sum,consecutive-numbers
 
@@ -2119,8 +2119,8 @@ ne $A$, ne $C$ nav $0$. Atrodi visus iespējamos atrisinājumus!
 
 <small>
 
-* [div.fta.divisors](#)
-* [comb.full](#)
+* topic:IntegerFactorization
+* topic:ExhaustionMethod
 * questionType:FindAll
 
 </small>
@@ -2141,8 +2141,8 @@ rūtiņas!
 
 <small>
 
-* [alg.expr.selectvar](#)
-* [alg.tra](#)
+* topic:NumTheoryExprVariables
+* topic:AlgebraicTransformations
 * questionType:FindAll
 * concepts:sum
 
@@ -2157,9 +2157,9 @@ Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros!
 
 <small>
 
-* [plan.constr.triangulate](#)
-* [plan.constr.small](#)
-* [plan.circle.inscribed](#)
+* topic:ConstructionsTriangulate
+* topic:ConstructionsSmallMovements
+* topic:CircleInscribedAngles
 * questionType:Prove
 * concepts:square-Geo,triangle
 
@@ -2178,8 +2178,8 @@ starpība ir
 
 <small>
 
-* [comb.constr.iterative](#)
-* [comb.graph](#)
+* topic:TreeTraversalBacktracking
+* topic:GraphProblems
 * questionType:ProveDisprove
 
 </small>
@@ -2200,8 +2200,8 @@ Parādi, kā to var izdarīt, ja
 
 <small>
 
-* [misc.symm](#)
-* [comb.full.backtrack](#)
+* topic:CountingUsingSymmetry
+* topic:TreeTraversalBacktracking
 * questionType:Prove
 
 </small>
@@ -2219,7 +2219,7 @@ $$a \cdot b \cdot (a+b) = 20102011 ?$$
 
 <small>
 
-* [div.fta.divisors](#)
+* topic:IntegerFactorization
 * questionType:ProveDisprove
 * concepts:equation
 
@@ -2239,7 +2239,7 @@ Cik starp šiem pensionāriem ir kungu un cik – kundžu?
 
 <small>
 
-* [comb.graph.bipartite](#)
+* topic:BipartiteGraphs
 * questionType:FindAll
 
 </small>
@@ -2257,7 +2257,7 @@ rūtiņas (novietotu horizontāli vai vertikāli)?
 
 <small>
 
-* [comb.full](#)
+* topic:ExhaustionMethod
 * questionType:FindOptimal
 
 </small>
@@ -2283,7 +2283,7 @@ Vai, vairākkārt veicot šādus gājienus, var iegūt tabulu, kāda attēlota 4
 
 <small>
 
-* [misc.invar.congr](#)
+* topic:InvariantRemainder
 * questionType:ProveDisprove
 
 </small>
@@ -2302,7 +2302,7 @@ Tagad Almai un Betai ir vienāds konfekšu skaits. Cik konfekšu sākumā bija k
 
 <small>
 
-* [alg.tra](#)
+* topic:AlgebraicTransformations
 * questionType:FindAll
 
 </small>
@@ -2328,7 +2328,7 @@ Atrodi visus šos skaitļus!
 
 <small>
 
-* [div.prop.primes.small](#)
+* topic:PrimesDistribution
 * questionType:FindAll
 * concepts:primes
 
@@ -2356,8 +2356,8 @@ dalot ar $2011$, atlikumā iegūst $3$.
 
 <small>
 
-* [seq.arithm.mod](#)
-* [mod.eq.chinese](#)
+* topic:ArithmeticSeriesDivisibility
+* topic:ChineseRemainderTheorem
 * questionType:FindExample
 * concepts:remainder
 
@@ -2407,7 +2407,7 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("$+$", "$-$", "$\cdot
 
 <small>
 
-* [comb.full.syntax](#)
+* topic:AlgorithmsOnSyntaxTrees
 * questionType:FindExample
 * seeAlso:LV.AMO.2010.8.1
 
@@ -2434,8 +2434,8 @@ noteikti dalās ar **(a)** $17$; **(b)** $23$?
 
 <small>
 
-* [nota.combine.split](#)
-* [div.fta](#)
+* topic:NotationShift
+* topic:CanonicalFactorization
 * questionType:ProveDisprove
 * concepts:divisibility
 
@@ -2467,7 +2467,7 @@ jārīkojas!
 
 <small>
 
-* [misc.invar.game](#)
+* topic:GameInvariant
 * questionType:Algorithm,Prove
 
 </small>
@@ -2591,7 +2591,7 @@ skaitlis?
 
 <small>
 
-* [comb.full](#)
+* topic:ExhaustionMethod
 * questionType:ProveDisprove
 
 </small>
@@ -2609,8 +2609,8 @@ divi šauri leņķi.)
 
 <small>
 
-* [plan.constr.triangulate](#)
-* [plan.circle.inscribed](#)
+* topic:ConstructionsTriangulate
+* topic:CircleInscribedAngles
 * sameAs:LV.AMO.2011.5.3
 * questionType:ProveDisprove
 * concepts:square-Geo,triangle
@@ -2632,7 +2632,7 @@ pogas
 
 <small>
 
-* [misc.extr.pigeon.collection](#)
+* topic:NumTheoryPigeonholeNewSets
 * questionType:ProveDisprove
 
 </small>
@@ -2652,7 +2652,7 @@ nolaižas $8$ stāvus uz leju (ja iespējams). Noskaidro, no kura stāva ar
 
 <small>
 
-* [misc.ind](#)
+* topic:NumTheoryMathInduction
 * questionType:ProveDisprove
 
 </small>
@@ -2669,7 +2669,7 @@ Sadali 1. zīmējumā attēloto figūru trīs vienādās figūrās.
 
 <small>
 
-* [comb.grid.shapes.cutting](#)
+* topic:SquareGridCutting
 * questionType:ProveDisprove
 
 </small>
@@ -2686,7 +2686,7 @@ $$ab(3a + 5b) = 1234567?$$
 
 <small>
 
-* [mod.fix.parity](#)
+* topic:ModularParity
 * questionType:ProveDisprove
 * concepts:equation
 
@@ -2728,7 +2728,7 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("$+$", "$-$", "$\ast$
 
 <small>
 
-* [comb.full.syntax](#)
+* topic:AlgorithmsOnSyntaxTrees
 * questionType:FindExample
 
 </small>
@@ -2756,8 +2756,8 @@ visi skolēni, bija $20$. Cik skolēnu piedalījās olimpiādē?
 
 <small>
 
-* [alg.series.mean](#)
-* [alg.ineq.equations](#)
+* topic:BaricenterCoordinates
+* topic:NumTheoryInequalityMethod
 * questionType:FindAll
 
 </small>
@@ -2783,7 +2783,7 @@ $5$.
 
 <small>
 
-* [mod.period](#)
+* topic:PeriodicRemainders
 * questionType:Prove
 * concepts:sum,divisibility
 
@@ -2805,8 +2805,8 @@ Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 
 <small>
 
-* [mod.congr.pow](#)
-* [mod.congr.sumdiff](#)
+* topic:ModularArithmetic
+* topic:ModularArithmetic
 * questionType:FindExample
 * concepts:divisors
 
@@ -2824,7 +2824,7 @@ ka $\angle BAC = \angle BMN$.
 
 <small>
 
-* [plan.triangle.congruence](#)
+* topic:TriangleCongruence
 * questionType:Prove
 * concepts:triangle
 
@@ -2840,8 +2840,8 @@ $q$ ir pirmskaitļi. Aprēķini $a$ skaitlisko vērtību.
 
 <small>
 
-* [mod.congr.pow](#)
-* [mod.congr.sumdiff](#)
+* topic:ModularArithmetic
+* topic:ModularArithmetic
 * questionType:FindAll
 * concepts:quadratic-equation,primes
 
@@ -2864,8 +2864,8 @@ Vai Pēteris vienmēr var uzvarēt?
 
 <small>
 
-* [mod.congr.pow](#)
-* [mod.congr.sumdiff](#)
+* topic:ModularArithmetic
+* topic:ModularArithmetic
 * questionType:ProveDisprove
 
 </small>
@@ -2883,8 +2883,8 @@ Pierādi, ka to nevar sadalīt piecos vienlielos trijstūros.
 
 <small>
 
-* [plan.triangle.area.ah2](#)
-* [plan.quadrangle.trapezoid.area](#)
+* topic:TriangleAreaBaseHeight
+* topic:Trapezoids
 * questionType:Prove
 * concepts:trapezoid,triangle
 
@@ -2902,8 +2902,8 @@ skaitļa kubs.
 
 <small>
 
-* [mod.congr.pow](#)
-* [mod.congr.sumdiff](#)
+* topic:ModularArithmetic
+* topic:ModularArithmetic
 * questionType:Prove
 * concepts:primes
 
@@ -3068,9 +3068,9 @@ dalot šo skaitli ar tā ciparu reizinājumu, dalījums ir vismaz $\frac{11}{9}$
 
 <small>
 
-* [alg.ineq.monotonicity](#)
-* [nota.combine.poly](#)
-* [misc.extr.param](#)
+* topic:NumTheoryInequalityLargeIntervals
+* topic:NotationPolynomial
+* topic:NumTheoryExtremeElement
 * questionType:Prove
 
 </small>
@@ -3114,10 +3114,10 @@ visi naturālie skaitļi no $1$ līdz $176$) nav naturāla skaitļa kvadrāts.
 
 <small>
 
-* [nota.divrule.2_5pow.divides](#)
-* [nota.divrule.3_9.rem](#)
-* [div.fta.pow.square](#)
-* [seq.arithm.summation](#)
+* topic:DivisibilityRulesLastDigits
+* topic:DivisibilityRulesForRemainders
+* topic:PrimeFactorizationAndPowers
+* topic:SeriesMembersSumsClosedFormulas
 * questionType:Prove
 
 </small>
@@ -3176,8 +3176,8 @@ nosvītrojot to pirmo ciparu, samazinās $36$ reizes.
 
 <small>
 
-* [alg.expr](#)
-* [nota.combine.poly.pieces](#)
+* topic:NumTheoryExpr
+* topic:NotationFragments
 * questionType:FindAll
 
 </small>
@@ -3343,8 +3343,8 @@ otru.
 
 <small>
 
-* [seq.geom](#)
-* [misc.extr.pigeon](#)
+* topic:ArithmeticAndGeometricSeries
+* topic:NumTheoryPigeonhole
 * questionType:Prove
 * concepts:divisibility
 
@@ -3512,7 +3512,7 @@ $\frac{3}{4}$ no atlikušajām bija dzeltenas, bet pārējās -- zilas. Aprēķi
 
 <small>
 
-* [alg.equ](#)
+* topic:AlgebraicEquations
 * questionType:FindAll
 
 </small>
@@ -3528,7 +3528,7 @@ skaitlis ir tieši trīs reizes lielāks nekā otrs skaitlis?
 
 <small>
 
-* [mod.congr](#)
+* topic:IntegerCongruence
 * questionType:ProveDisprove
 
 </small>
@@ -3547,7 +3547,7 @@ mala.
 
 <small>
 
-* [plan.quadrangle.rect](#)
+* topic:Rectangles
 * questionType:FindAll
 * concepts:rectangle,area,perimeter
 
@@ -3566,7 +3566,7 @@ jebkurā stāvoklī)?
 
 <small>
 
-* [comb.grid.shapes.cutting](#)
+* topic:SquareGridCutting
 * questionType:FindOptimal
 
 </small>
@@ -3581,7 +3581,7 @@ divciparu naturālu skaitļu reizinājumu?
 
 <small>
 
-* [alg.ineq.monotonicity](#)
+* topic:NumTheoryInequalityLargeIntervals
 * questionType:FindOptimal,FindOptimal
 * concepts:product
 
@@ -3603,7 +3603,7 @@ kuriem izpildās vienādība $a \cdot (3a + 5b) \cdot 7b = 7654321$.
 
 <small>
 
-* [mod.fix.parity](#)
+* topic:ModularParity
 * questionType:ProveDisprove
 
 </small>
@@ -3646,7 +3646,7 @@ jautājuma zīmi? Atrodiet visas iespējamās vērtības un pamatojiet, ka citu 
 
 <small>
 
-* [alg.expr.selectvar](#)
+* topic:NumTheoryExprVariables
 * questionType:FindAll
 * genre:magic-configuration
 
@@ -3674,8 +3674,8 @@ Kurš skaitlis lielāks – sākotnējais vai iegūtais?
 
 <small>
 
-* [mod.period](#)
-* [nota.algor](#)
+* topic:PeriodicRemainders
+* topic:NumericAlgorithms
 * questionType:FindAll
 * concepts:decimal-fractions
 * genre:digit-manipulation
@@ -3704,8 +3704,8 @@ ciparu, samazinās $15$ reizes!
 
 <small>
 
-* [alg.expr](#)
-* [nota.combine.poly.pieces](#)
+* topic:NumTheoryExpr
+* topic:NotationFragments
 * questionType:FindAll
 
 </small>
@@ -3735,8 +3735,8 @@ zīmi, var būt ierakstīts skaitlis **(a)** $7$,  **(b)** $17$?
 
 <small>
 
-* [alg.expr.selectvar](#)
-* [comb.full.backtrack](#)
+* topic:NumTheoryExprVariables
+* topic:TreeTraversalBacktracking
 * questionType:ProveDisprove
 
 </small>
@@ -3789,10 +3789,10 @@ summu. Kāds lielākais skaits no šīm summām var būt pirmskaitļi?
 
 <small>
 
-* [mod.fix.parity](#)
-* [comb.graph.bipartite](#)
-* [mod.congr.sumdiff](#)
-* [comb.constr.iterative](#)
+* topic:ModularParity
+* topic:BipartiteGraphs
+* topic:ModularArithmetic
+* topic:TreeTraversalBacktracking
 * questionType:FindOptimal
 * concepts:sum,primes
 
@@ -3919,8 +3919,8 @@ divi cipari ir $11$ un kurš dalās ar $11$?
 
 <small>
 
-* [nota.divrule.11](#)
-* [nota.divrule.3_9.divides](#)
+* topic:DivisibilityRuleFor11
+* topic:DivisibilityRulesFor3And9
 * questionType:FindExample,ProveDisprove
 * concepts:sum
 
@@ -3959,8 +3959,8 @@ vērtība ir racionāls skaitlis!
 
 <small>
 
-* [alg.tra.binom.square](#)
-* [misc.ind.descent](#)
+* topic:StandardIdentities
+* topic:InfiniteDescent
 * questionType:FindAll
 * concepts:rational-numbers
 
@@ -3986,8 +3986,8 @@ naturāla skaitļa kvadrāta un pirmskaitļa summu.
 
 <small>
 
-* [alg.tra.factor.sqdiff](#)
-* [div.prop.primes.small](#)
+* topic:StandardIdentities
+* topic:PrimesDistribution
 * questionType:FindExample
 * concepts:primes,sum,square-Alg
 
@@ -4023,7 +4023,7 @@ Atrast visus naturālos skaitļus, kas ir vienādi ar savu ciparu reizinājumu.
 <small>
 
 * [misc.try](#) 
-* [alg.ineq.transitive](#)
+* topic:InequalityProvingStronger
 * questionType:FindAll
 * concepts:product
 
@@ -4106,9 +4106,9 @@ skaitu centu). Cik samaksāja Brālītis?
 
 <small>
 
-* [alg.expr](#)
-* [alg.expr.prop](#)
-* [alg.ineq.equations](#)
+* topic:NumTheoryExpr
+* topic:NumTheoryExprForConcepts
+* topic:NumTheoryInequalityMethod
 * questionType:FindAll
 
 </small>
@@ -4145,7 +4145,7 @@ $$\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13} - 128}$$
 
 <small>
 
-* [alg.tra.factor.sqdiff](#)
+* topic:StandardIdentities
 * questionType:FindAll
 * concepts:expression
 
@@ -4172,7 +4172,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b) = 434343$?
 
 <small>
 
-* [mod.fix.parity](#)
+* topic:ModularParity
 * questionType:ProveDisprove
 
 </small>
@@ -4199,10 +4199,10 @@ ciparu skaits, kas var būt šajā skaitlī?
 
 <small>
 
-* [nota.divrule.2_5pow.divides](#)
-* [nota.divrule.3_9.divides](#)
-* [nota.divrule.composite](#)
-* [comb.full](#)
+* topic:DivisibilityRulesLastDigits
+* topic:DivisibilityRulesFor3And9
+* topic:DivisibilityRulesOther
+* topic:ExhaustionMethod
 * questionType:FindOptimal
 * concepts:divisibility
 
@@ -4257,9 +4257,9 @@ $x^3 − 2016xyz = 120$?
 
 <small>
 
-* [div.fta.proc](#)
-* [nota.divrule.3_9.rem](#)
-* [mod.congr.poly](#)
+* topic:CanonicalFactorization
+* topic:DivisibilityRulesForRemainders
+* topic:ModularArithmetic
 * [mod.eq.contradict](#) - pretrunas modulis: atlikumi pēc 9
 * questionType:ProveDisprove
 * seeAlso:LV.AMO.2016.9.2
@@ -4280,9 +4280,9 @@ veselu skaitļu kvadrātu summu!
 
 <small>
 
-* [seq.arithm.expr](#)
-* [alg.tra.binom.square](#)
-* [alg.tra.binom.complsquare](#)
+* topic:SeriesMembersSumsClosedFormulas
+* topic:StandardIdentities
+* topic:CompletingSquare
 * questionType:Prove
 * concepts:arithmetic-progression,sum,square-Alg
 
@@ -4385,8 +4385,8 @@ pirmskaitļi, tad trešais skaitlis dalās ar $6$.
 
 <small>
 
-* [div.prop.prod](#)
-* [seq.arithm.mod.all](#)
+* topic:DivisibilityProperties
+* topic:ArithmeticSeriesAll
 * [comb.full](#) (gadījumus $n=2,3$ aplūko atsevišķi)
 * questionType:Prove
 * concepts:primes
@@ -4501,9 +4501,9 @@ $x^8 - x^2$ dalās ar $252$.
 
 <small>
 
-* [nota.divrule.3_9.divides](#)
-* [div.prop.prod](#)
-* [mod.congr.poly](#)
+* topic:DivisibilityRulesFor3And9
+* topic:DivisibilityProperties
+* topic:ModularArithmetic
 * questionType:Prove
 * concepts:divisibility
 
@@ -4696,7 +4696,7 @@ $$=\frac{n(n+1)(n+2)(n+3)}{4}.$$
 
 <small>
 
-* [misc.ind](#)
+* topic:NumTheoryMathInduction
 * questionType:Prove
 * concepts:equation
 
@@ -4713,7 +4713,7 @@ $n^2 + n + 19$ ir kāda naturāla skaitļa kvadrāts?
 
 <small>
 
-* [alg.tra.binom.square](#)
+* topic:StandardIdentities
 * questionType:FindAll
 * concepts:square-Alg
 
@@ -4749,8 +4749,8 @@ otrais – vienmēr var uzvarēt?
 
 <small>
 
-* [div.fta.divisors.struct](#)
-* [misc.invar.game](#)
+* topic:FactorizationAndDivisibility
+* topic:GameInvariant
 * seeAlso:LV.AMO.2019.12.2
 * concepts:divisors
 
@@ -4782,7 +4782,7 @@ Kāds ir lielākais iespējamais šo skaitļu reizinājums?
 
 <small>
 
-* [alg.ineq.transitive](#)
+* topic:InequalityProvingStronger
 * concepts:product
 
 </small>
@@ -4848,8 +4848,8 @@ kādu lielāko trijnieka pakāpi dalās $N$?
 
 <small>
 
-* [comb.count.mult.norep](#)
-* [div.valu.prop.other](#)
+* topic:RuleOfProduct
+* topic:ValuationProperties
 
 </small>
 
@@ -5330,7 +5330,7 @@ cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari
 
 <small>
 
-* [mod.fix.lastdigits](#)
+* topic:ModularArithmeticOther
 * [Topic:decimalNotation](#)
 
 </small>

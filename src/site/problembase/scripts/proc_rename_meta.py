@@ -37,24 +37,24 @@ def get_input_files():
 # If any of labels equals "Find.All", it is renamed into "FindAll"
 def main(in_file, out_file, prop_name, mydict):
     lines = []
-    # pattern = re.compile(r'^\* \[([^]]+)\]\(#\)$')
-    pattern = re.compile(f'^((\\* )?{prop_name})([:=])(\\S+)$')
+    pattern = re.compile(r'^\* \[([^]]+)\]\(#\)$')
+    # pattern = re.compile(f'^((\\* )?{prop_name})([:=])(\\S+)$')
 
     lines = []
     with open(in_file, mode="r") as f:
         for line in f.readlines():
-            def replace_match(match):
-                key = match.group(1)
-                sep = match.group(3)
-                value = match.group(4)
-                for kk in mydict: 
-                    value = value.replace(kk, mydict[kk])
-                return f'{key}{sep}{value}'
             # def replace_match(match):
             #     key = match.group(1)
-            #     if key in mydict:
-            #         return f"* {prop_name}:{mydict[key]}"
-            #     return match.group(0)
+            #     sep = match.group(3)
+            #     value = match.group(4)
+            #     for kk in mydict: 
+            #         value = value.replace(kk, mydict[kk])
+            #     return f'{key}{sep}{value}'
+            def replace_match(match):
+                key = match.group(1)
+                if key in mydict:
+                    return f"* {prop_name}:{mydict[key]}"
+                return match.group(0)
             modified_line = pattern.sub(replace_match, line)
             lines.append(modified_line)
 
@@ -66,24 +66,24 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("Usage: python proc_rename_meta.py in_file out_file prop_name")
     prop_name = sys.argv[1]
-    # mydict = get_old_topics()
-    mydict = {'Find.All': 'FindAll', 
-              'Find.Count': 'FindCount', 
-              'Find.Optimal': 'FindOptimal',
-              'Find.Example': 'FindExample',
-              'Find.Any': 'FindExample',
-              'Find.Only': 'FindAll', 
-              'Prove.ForAll': 'Prove', 
-              'Prove.Exists': 'Prove',
-              'Prove.NotExists': 'Prove',
-              'Prove.Other': 'Prove',
-              'ProveDisprove.Exists': 'ProveDisprove',
-              'ProveDisprove.ForAll': 'ProveDisprove',
-              'ProveDisprove.Other': 'ProveDisprove',
-              'Find.Min': 'FindOptimal',
-              'Find.Max': 'FindOptimal',
-              'Find.Only': 'FindAll',         
-              }
+    mydict = get_old_topics()
+    # mydict = {'Find.All': 'FindAll', 
+    #           'Find.Count': 'FindCount', 
+    #           'Find.Optimal': 'FindOptimal',
+    #           'Find.Example': 'FindExample',
+    #           'Find.Any': 'FindExample',
+    #           'Find.Only': 'FindAll', 
+    #           'Prove.ForAll': 'Prove', 
+    #           'Prove.Exists': 'Prove',
+    #           'Prove.NotExists': 'Prove',
+    #           'Prove.Other': 'Prove',
+    #           'ProveDisprove.Exists': 'ProveDisprove',
+    #           'ProveDisprove.ForAll': 'ProveDisprove',
+    #           'ProveDisprove.Other': 'ProveDisprove',
+    #           'Find.Min': 'FindOptimal',
+    #           'Find.Max': 'FindOptimal',
+    #           'Find.Only': 'FindAll',         
+    #           }
     
     in_files = get_input_files()
     for in_file in in_files:

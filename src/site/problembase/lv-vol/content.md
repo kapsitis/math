@@ -94,8 +94,8 @@ koordinātas ir veseli skaitļi.
 
 <small>
 
-* [alg.sets.sqrt.pythagoras](#)
-* [div.common.gcd.bezout](#)
+* topic:PythagoreanTriples
+* topic:BezoutIdentity
 * questionType:Prove,ProveDisprove
 
 </small>
@@ -123,10 +123,10 @@ skaitļa $2^n$ pirmo ciparu, iegūst divnieka pakāpi ar naturālu kāpinātāju
 
 <small>
 
-* [misc.try](#)
-* [mod.exp.period](#)
-* [nota.divrule.3_9.divides](#)
-* [div.fta.divisors](#)
+* topic:CountingObjects
+* topic:PeriodicRemainders
+* topic:DivisibilityRulesFor3And9
+* topic:IntegerFactorization
 * questionType:FindAll
 
 </small>
@@ -212,8 +212,8 @@ skaitļa kubs. Kādas ir $x$ un $y$ vērtības?
 
 <small>
 
-* [div.fta.pow](#)
-* [comb.full](#)
+* topic:FactorizationAndProperties
+* topic:ExhaustionMethod
 * questionType:FindAll
 
 </small>
@@ -312,8 +312,8 @@ veido aritmētisku progresiju?
 
 <small>
 
-* [div.fta.divisors](#)
-* [seq.arithm](#)
+* topic:IntegerFactorization
+* topic:ArithmeticAndGeometricSeries
 * questionType:FindAll
 
 </small>
@@ -363,9 +363,9 @@ dalās ar naturālu skaitli $x$. Kādas var būt $x$ vērtības?
 
 <small>
 
-* [nota.divrule.11](#)
-* [misc.extr](#)
-* [div.common.gcd.euclid](#)
+* topic:DivisibilityRuleFor11
+* topic:ExtremeElementMethod
+* topic:EuclideanAlgorithm
 * questionType:FindAll
 
 </small>
@@ -1148,8 +1148,8 @@ $f(2011) = 100$, bet $f(11) = 1000$?
 
 <small>
 
-* [alg.poly.prop.valdiff](#)
-* [alg.tra.factor.powdiff](#)
+* topic:PolynomialDifferenceDivisibility
+* topic:AdvancedIdentities
 * questionType:ProveDisprove
 
 </small>
@@ -1216,8 +1216,8 @@ Pierādīt, ka skaitļa $N^2$ decimālajā pierakstā nav cipara $0$.
 <small>
 
 * [misc.try](#) 
-* [seq.geom.summation](#)
-* [seq.geom.decnotation](#)
+* topic:SeriesMembersSumsClosedFormulas
+* topic:PeriodicDigitGroups
 * questionType:Prove
 
 </small>
@@ -1364,8 +1364,8 @@ nav atrisinājuma naturālos skaitļos.
 
 <small>
 
-* [misc.symm](#)
-* [alg.ineq.monotonicity](#)
+* topic:CountingUsingSymmetry
+* topic:NumTheoryInequalityLargeIntervals
 * questionType:Prove
 
 </small>
@@ -1408,9 +1408,9 @@ skaitļa kvadrāti.
 
 <small>
 
-* [seq.recur.fibonacci](#)
-* [mod.period](#)
-* [mod.congr.pow](#)
+* topic:FibonacciNumbers
+* topic:PeriodicRemainders
+* topic:ModularArithmetic
 * questionType:Prove
 
 </small>
@@ -1531,8 +1531,8 @@ $\frac{n^3+3}{n+3}$, gan $\frac{n^4+4}{n+4}$ ir veseli skaitļi.
 
 <small>
 
-* [alg.poly.division](#)
-* [div.fta.divisors.num](#)
+* topic:PolynomialLongDivision
+* topic:DivisorNumberAndSum
 * questionType:FindAll
 
 </small>
@@ -1622,8 +1622,8 @@ iespējams apmaksāt izmantojot tikai šīs pastmarkas?
 
 <small>
 
-* [seq.arithm.mod.all](#)
-* [alg.ineq.monotonicity](#)
+* topic:ArithmeticSeriesAll
+* topic:NumTheoryInequalityLargeIntervals
 * questionType:FindOptimal
 
 </small>
@@ -1764,9 +1764,9 @@ dalās ar $10$.
 
 <small>
 
-* [div.prop.prod](#)
-* [mod.fix.parity](#)
-* [mod.congr.poly](#)
+* topic:DivisibilityProperties
+* topic:ModularParity
+* topic:ModularArithmetic
 * questionType:Prove
 
 </small>
@@ -1967,8 +1967,8 @@ Pierādīt, ka arī $x^{433}y$ ir naturāla skaitļa 2016. pakāpe!
 
 <small>
 
-* [div.fta.pow](#)
-* [alg.linear.equations](#)
+* topic:FactorizationAndProperties
+* topic:LinearSystemsTransforms
 * questionType:Prove
 
 </small>
@@ -2018,8 +2018,8 @@ $$\frac{1}{n}=\frac{1}{x(x+1)}+\frac{1}{(x+1)(x+2)}+\cdots{}+\frac{1}{y(y+1)}.$$
 
 <small>
 
-* [alg.tra.frac](#)
-* [alg.series.sum](#)
+* topic:StandardIdentities
+* topic:TelescopicSums
 * questionType:Prove
 
 </small>
@@ -2199,10 +2199,10 @@ Pierādīt, ka tā ciparus var pārkārtot citā secībā tā, lai jauniegūtais
 
 <small>
 
-* [nota.divrule.2_5_10.divides](#)
-* [nota.combine.split](#)
-* [mod.congr.sumdiff](#)
-* [comb.full](#)
+* topic:DivisibilityRulesFor2And4
+* topic:NotationShift
+* topic:ModularArithmetic
+* topic:ExhaustionMethod
 * questionType:Prove
 
 </small>
@@ -2346,9 +2346,9 @@ Piemēram, skaists trijnieks ir $8$, $9$, $10$.
 
 <small>
 
-* [nota.divrule.2_5_10.divides](#)
-* [nota.divrule.3_9.divides](#)
-* [nota.combine.padding](#)
+* topic:DivisibilityRulesFor2And4
+* topic:DivisibilityRulesFor3And9
+* topic:NotationInsert
 * questionType:FindExample,Prove
 
 </small>
@@ -2428,7 +2428,7 @@ var izteikt kā pirmskaitļa un salikta skaitļa summu!
 <small>
 
 * [misc.try](#) 
-* [mod.fix.parity](#)
+* topic:ModularParity
 * questionType:Prove
 
 </small>
@@ -2465,8 +2465,8 @@ vērtība nav naturāla skaitļa kvadrāts!
 
 <small>
 
-* [mod.exp](#)
-* [nota.divrule.composite](#)
+* topic:PeriodicRemainders
+* topic:DivisibilityRulesOther
 * questionType:Prove
 
 </small>

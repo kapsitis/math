@@ -1268,8 +1268,8 @@ Aprēķināt $S(S(S(2012^{2012})))$.
 
 <small>
 
-* [nota.divrule.3_9.rem](#)
-* [alg.ineq.equations](#)
+* topic:DivisibilityRulesForRemainders
+* topic:NumTheoryInequalityMethod
 * questionType:FindExample
 
 </small>

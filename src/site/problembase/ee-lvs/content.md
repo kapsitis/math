@@ -6,10 +6,10 @@ ir vesela skaitļa kvadrāts.
 
 <small>
 
-* [alg.tra.pow.nest](#)
-* [seq.gaps.squares](#)
-* [alg.ineq.equations](#)
-* [comb.full](#)
+* topic:StandardIdentities
+* topic:FullPowerGaps
+* topic:NumTheoryInequalityMethod
+* topic:ExhaustionMethod
 
 </small>
 
@@ -60,7 +60,7 @@ ir pirmskaitļi?
 
 <small>
 
-* [mod.eq.contradict](#)
+* topic:ModularArithmeticContradiction
 * strategy:ModularArithmeticContradiction
 
 </small>
@@ -214,7 +214,7 @@ nav vesels skaitlis.
 
 <small>
 
-* [div.valu.change](#)
+* topic:ValuationChange
 
 </small>
 

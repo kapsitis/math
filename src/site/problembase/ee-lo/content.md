@@ -17,8 +17,8 @@ genre=integer-equation
 
 <small>
 
-* [alg.ineq.equations](#)
-* [comb.full](#)
+* topic:NumTheoryInequalityMethod
+* topic:ExhaustionMethod
 * strategy:ExtremeElement
 * questionType:FindAll
 
@@ -179,10 +179,10 @@ Vai skaitli $2013$ var izteikt kā divu veselu skaitļu kubu starpību?
 
 <small>
 
-* [mod.congr.pow](#)
-* [nota.divrule.3_9.rem](#)
-* [mod.congr.sumdiff](#)
-* [mod.eq.contradict](#)
+* topic:ModularArithmetic
+* topic:DivisibilityRulesForRemainders
+* topic:ModularArithmetic
+* topic:ModularArithmeticContradiction
 * strategy:ModularArithmeticContradiction
 * questionType:FindExample
 
@@ -481,8 +481,8 @@ Atrast visus veselu skaitļu pārus $(x, y)$, kuriem $x − y = \frac{x}{y}$.
 
 <small>
 
-* [alg.tra.factor](#)
-* [div.common.gcd.subsequent](#)
+* topic:StandardIdentities
+* topic:MutualPrimes
 
 </small>
 
