@@ -1,0 +1,15 @@
+questionType=ProveDisprove.Exists
+
+# <lo-sample/> BBK2012.P1.124
+
+Atrast  
+(a) visu to naturālo skaitļu summu, kas nepārsniedz $1000$ un dalās ar $5$;  
+(b) visu to naturālo skaitļu summu, kas nepārsniedz $1000$ un dalās 
+vai nu ar $3$, vai ar $5$.
+
+<!--
+questionType=Find.Only
+-->
+
+questionType=Algorithm,Prove.ForAll
+* questionType:Find.Any,ProveDisprove.Exists
