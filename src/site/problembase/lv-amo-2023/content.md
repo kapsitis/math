@@ -9,8 +9,8 @@ lai blakus trijstūros ierakstītie skaitļi neatšķiras vairāk kā par $3$.
 
 <small>
 
-* [Topic:arithmetic](#)
-* concept:difference,distance
+* topic:ArithmeticIdentities
+* concepts:difference,distance,triangle
 * seeAlso:LV.AMO.2023.6.1
 * questionType:FindExample
 
@@ -26,21 +26,24 @@ Sk., piemēram, 2. att., kur pelēkā krāsā norādītas atbilstošās starpīb
 
 
 
+
 # <lo-sample/> LV.AMO.2023.5.2
 
-Doti divi skaitļi. Zināms, ka viens no tiem ir tieši septiņas reizes lielāks nekā otrs un katram no tiem ir
-vismaz divi cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari: **(a)** $3$; $4$; $6$ un $7$;
-**(b)** $1$; $2$ un $3$?
-
+Doti divi skaitļi. Zināms, ka viens no tiem ir tieši septiņas reizes 
+lielāks nekā otrs un katram no tiem ir vismaz divi
+cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari 
+**(A)** $3$; $4$; $6$ un $7$; **(B)** $1$; $2$ un $3$?
 
 <small>
 
 * concept:decimal-notation
-* topic:ModularArithmeticOther
-* [Topic:decimalNotation](#)
-* questionType:ProveDisprove
+* topic:ModularArithmeticLastDigit
+* LTopic:LTNumeralSystems
+* strategy:CaseAnalysis
+* questionType:ProveDisprove,ProveDisprove
 
 </small>
+
 
 
 ## Atrisinājums
@@ -59,8 +62,10 @@ laukuma vērtība ir tāda pati kā malu skaits!
 
 <small>
 
-* [Topic:squareGridGeometry](#)
 * questionType:FindExample
+* topic:SquareGridShapes
+* LTopic:LTIntegerLattices
+* strategy:TrialAndError
 
 </small>
 
@@ -73,28 +78,31 @@ Piemēram, skat. 3. att., kur uzzīmēts $32$-stūris, kura laukuma un perimetra
 
 # <lo-sample/> LV.AMO.2023.5.4
 
-Dots kvadrāts ar izmēriem $n \times n$ rūtiņas. Vienā gājienā kauliņu var pārlikt tieši $2$ rūtiņas uz priekšu pa
-jebkuru no diagonālēm, kas iziet no tā lauciņa, kurā atrodas kauliņš (skat. 4. att., kur kauliņš apzīmēts
-ar "o" un ar "x" atzīmētas tās rūtiņas, uz kurām to drīkst pārvietot). Vai, veicot vairākus gājienus, kauliņu
-no kreisās apakšējās rūtiņas var pārvietot uz kreiso augšējo rūtiņu, ja kvadrāta izmēri ir: **(a)** $9 \times 9$;
-**(b)** $10 \times 10$; **(c)** $11 \times 11$?
+Dots kvadrāts ar izmēriem $n \times n$ rūtiņas. 
+Vienā gājienā kauliņu var pārlikt tieši $2$ rūtiņas uz priekšu pa jebkuru
+no diagonālēm, kas iziet no tā lauciņa, kurā atrodas kauliņš (skat. 4. att., 
+kur kauliņš apzīmēts ar "o" un ar "x"
+atzīmētas tās rūtiņas, uz kurām to drīkst pārvietot). Vai, veicot vairākus gājienus, 
+kauliņu no kreisās apakšējās
+rūtiņas var pārvietot uz kreiso augšējo rūtiņu, ja kvadrāta izmēri ir: 
+**(A)** $9 \times 9$; **(B)** $10 \times 10$; **(C)** $11 \times 11$?  
+![4.zīm.](LV.AMO.2023.5.4.png)
 
-![](LV.AMO.2023.5.4.png)
 
 <small>
 
-* [Topic:otherAlgorithms](#)
+* topic:InvariantParity
 * questionType:ProveDisprove
 
 </small>
 
 ## Atrisinājums
 
-**(a)** Jā, var, skat., piemēram, 5. att., kur ar skaitļiem parādīti veiktie gājieni.
+**(A)** Jā, var, skat., piemēram, 5. att., kur ar skaitļiem parādīti veiktie gājieni.
 
 ![](LV.AMO.2023.5.4A.png)
 
-**(b)** Nē, nevar. **(c)** Nē, nevar. Pieņemsim, ka kauliņš sākumā atrodas uz pelēkas rūtiņas. Ievērojot, ka
+**(B)** Nē, nevar. **(C)** Nē, nevar. Pieņemsim, ka kauliņš sākumā atrodas uz pelēkas rūtiņas. Ievērojot, ka
 kauliņu var pārlikt izlaižot vienu rūtiņu pa diagonāli, pakāpeniski pelēkā krāsā iekrāsojam rūtiņas, kurās
 var atrasties kauliņš (skat. 6. att., kur iekrāsotas visas rūtiņas, kurās var atrasties kauliņš). Tā kā augšējā
 kreisā stūra rūtiņa ir balta (kvadrātam $10 \times 10$ tā atzīmēta ar b, bet kvadrātam $11 \times 11$ tā atzīmēta ar
@@ -105,15 +113,17 @@ c), tad tajā kauliņš nevar nonākt.
 
 # <lo-sample/> LV.AMO.2023.5.5
 
-Gunai bija četru veidu konfektes: 8 “Serenādes”, 14 “Lācīši Ķepainīši”, 20 “Vāverītes” un 26 “Sarkanās
-magones”. Katru no saviem dzimšanas dienas viesiem viņa uzcienāja ar tieši 3 dažādām konfektēm.
+Gunai bija četru veidu konfektes: 8 “Serenādes”, 14 “Lācīši Ķepainīši”, 
+20 “Vāverītes” un 26 “Sarkanās magones”. 
+Katru no saviem dzimšanas dienas viesiem viņa uzcienāja ar tieši 3 dažādām konfektēm.
 Kāds ir lielākais iespējamais viesu skaits, kas bija ieradušies uz Gunas dzimšanas dienas svinībām?
 
 
 <small>
 
-* [Topic:otherCombinatorics](#) 
-* questionType:FindOptimal 
+* topic:PigeonholePrincipleForExtremes
+* questionType:FindOptimal
+* LTTopic:LTExtremes
 
 </small>
 
