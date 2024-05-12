@@ -949,6 +949,12 @@ kas pieskaras riṇka līnijai punktos $D$ un $E$. Uz taisnēm $AD$ un $AE$ atli
 punkti $B$ un $C$ tā, ka punkts $D$ atrodas starp $A$ un $B$, punkts $C$ atrodas starp 
 $A$ un $E$ un $OB = OC$. Pierādīt, ka punkti $O$, $A$, $B$ un $C$ atrodas uz vienas rinkta līnijas!
 
+<small>
+
+* questionType:Prove
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1227,7 +1233,13 @@ $$\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}=\frac{7}{2}+\f
 
 # <lo-sample/> LV.NOL.2024.12.3
 
-Taisnleṇḳa trijstūrī $A B C\left(\sphericalangle A B C=90^{\circ}\right)$ uz malas $B C$ atlikti punkti $D$ un $E$ tā, ka $\sphericalangle E A C=\sphericalangle D A E=2 \sphericalangle B A D$, $B D=1, D E=3$. Aprēkināt $E C$ garumu!
+Taisnleṇḳa trijstūrī $A B C\left(\sphericalangle A B C=90^{\circ}\right)$ uz malas $B C$ atlikti punkti $D$ un $E$ tā, ka $\sphericalangle EAC=\sphericalangle DAE=2 \sphericalangle BAD$, $BD=1, DE=3$. Aprēķināt $EC$ garumu!
+
+<small>
+
+* questionType:FindAll
+
+</small>
 
 
 ## Atrisinājums

@@ -2376,6 +2376,7 @@ piemēru, kā to var izdarīt!
 <small>
 
 * concepts:square-Geo,rectangle
+* questionType:FindExample
 
 </small>
 
@@ -2389,12 +2390,12 @@ divus vienas krāsas punktus, starp kuriem attālums centimetros ir
 vesels skaitlis.
 
 
+<small>
 
+* concepts:line,point,distance,integer-numbers
+* questionType:Prove
 
-## Aplūko progresiju ar d=2010
-
-* Aritmētiska progresija $2010k+13$ dos atlikumus $13-k$, dalot ar $2011$.
-* Var ievietot $k=10$.
+</small>
 
 
 
@@ -2403,7 +2404,7 @@ vesels skaitlis.
 Starp skaitļiem
 $$8\;\;3\;\;5\;\;2,$$
 nemainot to secību, ievieto aritmētisko darbību zīmes ("$+$", "$-$", "$\cdot$",
-"$:$") un iekavas tā, lai iegūtās izteiksmes vērtība būtu **(a)** $15$, **(b)** $16$.
+"$:$") un iekavas tā, lai iegūtās izteiksmes vērtība būtu **(A)** $15$, **(B)** $16$.
 
 <small>
 
@@ -2414,13 +2415,10 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("$+$", "$-$", "$\cdot
 </small>
 
 
-
-
-
 ## Atrisinājums
 
-**(a)** $8 - 3 + 5 \ast 2 = 8 - (3 - 5 \ast 2) = 15$;  
-**(b)** $8 : (3 - 5:2) = 16$.
+**(A)** $8 - 3 + 5 \ast 2 = 8 - (3 - 5 \ast 2) = 15$;  
+**(B)** $8 : (3 - 5:2) = 16$.
 
 
 
@@ -2430,7 +2428,7 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("$+$", "$-$", "$\cdot
 
 Leonards izvēlējās patvaļīgu trīsciparu skaitli, pareizināja to ar $2$ un
 tam galā pierakstīja sākotnējo skaitli. Vai viņa jauniegūtais skaitlis
-noteikti dalās ar **(a)** $17$; **(b)** $23$?
+noteikti dalās ar **(A)** $17$; **(B)** $23$?
 
 <small>
 
@@ -2442,10 +2440,7 @@ noteikti dalās ar **(a)** $17$; **(b)** $23$?
 </small>
 
 
-
-
-
-## ABC
+## Atrisinājums
 
 Ja 3-ciparu skaitlis ir $\overline{abc}$, 
 tad jaunais ir $2001\overline{abc}$ dalās ar $23$. Bet $17 \nmid 2001$. 
@@ -2474,20 +2469,22 @@ jārīkojas!
 
 
 
-
-
 ## Ieteikums
  
 Pēc katra Annas gājiena skaitlim jādalās ar $10$. 
-
-
-
 
 
 # <lo-sample/> LV.AMO.2011.9.1
 
 Atrodi visus naturālu skaitļu pārus $(x, y)$ tādus, ka $x\neq y$ un
 $$\frac{1}{x^2 + 24} + \frac{1}{y^2 + 24} = \frac{2}{xy + 24}.$$
+
+<small>
+
+* concepts:natural-numbers,pair
+* questionType:FindAll
+
+</small>
 
 
 
@@ -2501,6 +2498,7 @@ būtu vismaz viena racionāla sakne?
 <small>
 
 * concepts:equation
+* questionType:ProveDisprove
 
 </small>
 
@@ -2513,6 +2511,12 @@ Kāds lielākais skaits pēc kārtas sekojošu naturālu skaitļu var būt ar
 īpašību, ka katrs no tiem ir izsakāms kā divu naturālu skaitļu
 kvadrātu starpība?
 
+<small>
+
+* concepts:square-Geo,rectangle
+* questionType:FindCount
+
+</small>
 
 
 
@@ -2525,7 +2529,8 @@ sekojošu naturālu skaitļu summu? Saskaitāmo secība nav svarīga.
 <small>
 
 * seeAlso:LV.AMO.2010.10.4
-* concepts:sum
+* concepts:sum,consecutive-numbers
+* questionType:FindCount
 
 </small>
 
@@ -2539,14 +2544,15 @@ Dotas trīs aritmētiskas progresijas:
 (1) $1, 15, 29, 43, 57, 71, \ldots$  
 (2) $2, 17, 32, 47, 62, 77, \ldots$  
 (3) 3, 19, 35, 51, 67, 83, \ldots$  
-(a) Atrodi mazāko skaitli, kas pieder visām trim dotajām virknēm!  
-(b) Pierādi, ka ir bezgalīgi daudz tādu skaitļu, kas pieder visām trim
+**(A)** Atrodi mazāko skaitli, kas pieder visām trim dotajām virknēm!  
+**(B)** Pierādi, ka ir bezgalīgi daudz tādu skaitļu, kas pieder visām trim
 dotajām virknēm!
 
 <small>
 
 * seeAlso:LV.AMO.2010.11.1
 * concepts:arithmetic-progression,sequence
+* questionType:FindOptimal,Prove
 
 </small>
 
@@ -2563,6 +2569,7 @@ pret mazāko ir pirmskaitlis?
 <small>
 
 * concepts:circumference,primes
+* questionType:ProveDisprove
 
 </small>
 
@@ -2571,12 +2578,13 @@ pret mazāko ir pirmskaitlis?
 
 Naturālie skaitļi no $1$ līdz $9$ sadalīti trīs grupās pa trim skaitļiem un
 katrā grupā aprēķināta tajā ietilpstošo skaitļu summa. Vai var būt, ka  
-(a) visas summas ir pirmskaitļi?  
-(b) visas summas ir atšķirīgi pirmskaitļi?
+**(A)** visas summas ir pirmskaitļi?  
+**(B)** visas summas ir atšķirīgi pirmskaitļi?
 
 <small>
 
 * concepts:sum,primes
+* questionType:ProveDisprove,ProveDisprove
 
 </small>
 
@@ -2712,7 +2720,8 @@ vesels nogrieznis)?
 
 <small>
 
-* concepts:triangle
+* concepts:triangle,segment
+* questionType:FindCount
 
 </small>
 
@@ -2934,6 +2943,7 @@ $n^2 − 3n − 1$ dalās ar $169$.
 <small>
 
 * concepts:divisibility
+* questionType:Prove
 
 </small>
 
@@ -2948,6 +2958,7 @@ Pierādi, ka $A$ nedalās ar $B$.
 <small>
 
 * concepts:divisibility
+* questionType:Prove
 
 </small>
 
@@ -2958,6 +2969,12 @@ Pierādi, ka $A$ nedalās ar $B$.
 
 Cik reizes diennaktī sakrīt pulksteņa stundu un minūšu
 rādītāji? (Plkst. 00:00 un 24:00 ieskaitīt vienu reizi.) *Atbildi pamatot!*
+
+<small>
+
+* questionType:FindCount
+
+</small>
 
 
 
@@ -2972,6 +2989,11 @@ stāvu šajā mājā. (Lifts nevar uzbraukt
 augstāk par 24. stāvu un zemāk par 1.
 stāvu.)
 
+<small>
+
+* questionType:FindAll
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.5.3
@@ -2987,6 +3009,7 @@ viena un tā pati.
 <small>
 
 * concepts:sum
+* questionType:FindExample
 
 </small>
 
@@ -3000,6 +3023,12 @@ vienu reizi. (Figūras var būt pagrieztas vai
 apgrieztas otrādi.) . 
 [2.zīm.](LV.AMO.2013.5.4.png)
 
+<small>
+
+* questionType:FindExample
+
+</small>
+
 
 # <lo-sample/> LV.AMO.2013.5.5
 
@@ -3008,7 +3037,11 @@ kvadrātus var nokrāsot a) divās; b) trīs krāsās tā, ka kvadrāti, kam
 ir kopīga mala, ir nokrāsoti dažādās krāsās? Katrs kvadrāts pilnībā
 ir jākrāso vienā krāsā. *Atbildi pamatot!*
 
+<small>
 
+* questionType:ProveDisprove
+
+</small>
 
 # <lo-sample/> LV.AMO.2013.6.1
 
@@ -3020,17 +3053,24 @@ viņš atkārto, kamēr uz tāfeles paliek viens skaitlis.
 Pamato, ka neatkarīgi no secības, kādā Alfons izpilda darbības,
 beigās tiek iegūts viens un tas pats skaitlis. Kāds tas ir?
 
+<small>
+
+* questionType:Prove
+
+</small>
+
 
 # <lo-sample/> LV.AMO.2013.6.2
 
 Vai var atrast tādus divus viens otram sekojošus naturālus skaitļus,
 viens no kuriem dalās ar $3$ un kuru  
-**(a)** ciparu summas atšķiras par 3;   
-**(b)** ciparu reizinājumi atšķiras par 3?
+**(A)** ciparu summas atšķiras par 3;   
+**(B)** ciparu reizinājumi atšķiras par 3?
 
 <small>
 
 * concepts:divisibility,sum
+* questionType:ProveDisprove,ProveDisprove
 
 </small>
 
@@ -3042,12 +3082,22 @@ vienādās mazākās figūrās (figūras var būt
 pagrieztas vai apgrieztas otrādi).   
 ![3.zīm.](LV.AMO.2013.6.3.png)
 
+<small>
 
+* questionType:FindExample
+
+</small>
 
 # <lo-sample/> LV.AMO.2013.6.4
 
 Vai skaitļus no $100$ līdz $200$ var sadalīt divās grupās tā, ka skaitļu
 reizinājumi abās grupās ir vienādi?
+
+<small>
+
+* questionType:ProveDisprove
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.6.5
@@ -3058,6 +3108,11 @@ ieraksta savu vārdu, katru burtu rakstot citā rūtiņā. Uzvar tas
 spēlētājs, kurš pēdējais ieraksta savu vārdu. Una izdara pirmo
 gājienu. Kurš spēlētājs vienmēr var panākt savu uzvaru?
 
+<small>
+
+* questionType:FindExample
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.7.1
@@ -3099,6 +3154,7 @@ vesels nogrieznis)?
 
 * sameAs:LV.AMO.2012.7.2
 * concepts:triangle
+* questionType:FindCound
 
 </small>
 
@@ -3124,11 +3180,9 @@ visi naturālie skaitļi no $1$ līdz $176$) nav naturāla skaitļa kvadrāts.
 
 
 
-
-
 ## Atrisinājums
 
-Izmantojam dalāmību ar $3$ šādā spriedumā:
+Var izmantot dalāmību ar $3$ šādā spriedumā:
 
 * Minētajam skaitlim ciparu summa kongruenta pēc moduļa $9$ ar
   $1+\ldots+176$. (Decimālciparu pārvietojot, atlikums nemainās).
@@ -3136,11 +3190,7 @@ Izmantojam dalāmību ar $3$ šādā spriedumā:
   $1+\ldots+176=(176\cdot 177)/2$ - dalās ar $3$, bet ne ar $9$.
 * Pilns kvadrāts nevar saturēt pirmskaitli $3$ nepāru pakāpē.
 
-
-
-## Atrisinājums
-
-Izmantojam dalāmību ar $2$:
+Cits atrisinājums izmanto dalāmību ar $2$:
 
 * Pilnu kvadrātu dalījums pirmreizinātājos 
   nevar dalīties ar $8$ un nedalīties ar $16$ – 
@@ -3155,6 +3205,11 @@ lai atlikušajā daļā nevarētu ievietot nevienu 4. zīmējumā redzamo
 figūru (tā var būt pagriezta vai apgāzta otrādi)?  
 ![4.zīm](LV.AMO.2013.7.4.png)
 
+<small>
+
+* questionType:FindExample
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.7.5
@@ -3165,7 +3220,11 @@ ieraksta savu vārdu, katru burtu rakstot citā rūtiņā. Uzvar tas
 spēlētājs, kurš pēdējais ieraksta savu vārdu. Una izdara pirmo
 gājienu. Kurš spēlētājs vienmēr var panākt savu uzvaru?
 
+<small>
 
+* questionType:FindExample
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.8.1
@@ -3202,6 +3261,7 @@ puse no trijstūra perimetra.
 <small>
 
 * concepts:triangle,perimeter
+* questionType:Prove
 
 </small>
 
@@ -3213,12 +3273,24 @@ Doti tādi reāli skaitļi $t$ un $a$, ka
 $t^2 - t \cdot sqrt(t) + a = 0$.  
 Pierādīt, ka $t \geq 4a$. 
 
+<small>
+
+* questionType:Prove
+
+</small>
+
+
 
 # <lo-sample/> LV.AMO.2013.8.4
 
-Vai regulāru sešstūri var sadalīt **(a)** deviņos; **(b)** astoņos vienādos
+Vai regulāru sešstūri var sadalīt **(A)** deviņos; **(B)** astoņos vienādos
 daudzstūros?
 
+<small>
+
+* questionType:ProveDisprove,ProveDisprove
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.8.5
@@ -3236,6 +3308,7 @@ $x_1 \geq x_2 \geq x_3 \geq x_4$).
 <small>
 
 * concepts:monotonic-sequence
+* questionType:Prove
 
 </small>
 
@@ -3249,6 +3322,7 @@ nevar sadalīt piecos vienlielos trijstūros.
 <small>
 
 * concepts:trapezoid,triangle
+* questionType:Prove
 
 </small>
 
@@ -3260,12 +3334,24 @@ vienā no divām krāsām. Pierādīt, ka noteikti var atrast trīs punktus,
 kas nokrāsoti vienā krāsā un atrodas vienādsānu taisnleņķa
 trijstūra virsotnēs.
 
+<small>
+
+* questionType:Prove
+
+</small>
+
 
 # <lo-sample/> LV.AMO.2013.9.3
 
 Doti četri dažādi cipari, neviens no kuriem nav $0$. Visu divciparu
 skaitļu, kurus var izveidot no šiem cipariem, summa ir $484$. Atrast
 dotos četrus ciparus.
+
+<small>
+
+* questionType:FindAll
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.9.4
@@ -3277,6 +3363,7 @@ $n \geq 0$. Pierādīt, ka $x_{100} \geq 20$.
 <small>
 
 * concepts:sequence
+* questionType:Prove
 
 </small>
 
@@ -3290,6 +3377,8 @@ Dots izliekts četrstūris. Uzzīmēti četri riņķi, kuru diametri ir
 <small>
 
 * concepts:square-Geo,circle
+* questionType:Prove
+
 </small>
 
 
@@ -3304,6 +3393,7 @@ $x_2 \leq x_3 \leq x_1$).
 <small>
 
 * concepts:equation,root
+* questionType:Prove
 
 </small>
 
@@ -3318,6 +3408,7 @@ $AB \parallel PQ$.
 <small>
 
 * concepts:circumference
+* questionType:Prove
 
 </small>
 
@@ -3333,6 +3424,13 @@ $n$-hekss, ar kuriem nevar pārklāt 5. zīm.
 attēloto figūru (tā sastāv no regulāriem
 sešstūriem ar caurumu centrā)?  
 ![5.zīm](LV.AMO.2013.10.3.png)
+
+<small>
+
+* questionType:FindOptimal
+
+</small>
+
 
 
 # <lo-sample/> LV.AMO.2013.10.4
@@ -3379,7 +3477,11 @@ Var izvēlēties $51,\ldots,100$ - no tiem neviens nedalās ar otru.
 Vai pa riņķi var uzrakstīt $2013$ naturālus skaitļus tā, lai jebkuru
 divu blakus esošu skaitļu attiecība būtu $2$, $3$, $12$ vai $18$?
 
+<small>
 
+* questionType:ProveDisprove
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.11.1
@@ -3387,12 +3489,23 @@ divu blakus esošu skaitļu attiecība būtu $2$, $3$, $12$ vai $18$?
 Pierādīt, ka nav tāda naturāla skaitļa $n$, ka skaitlis 
 $n^2-3n-1$ ar $169$.
 
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.11.2
 
 Vai eksistē regulārs daudzstūris, kuram vienas diagonāles garums
 ir vienāds ar divu citu diagonāļu garumu summu?
+
+<small>
+
+* questionType:ProveDisprove
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.11.3
@@ -3405,6 +3518,7 @@ $$\frac{1}{a_1} + \frac{1}{a_2} + \frac{1}{a_3} + \ldots \frac{1}{a_n} < 2.$$
 <small>
 
 * concepts:primes,divisibility
+* questionType:Prove
 
 </small>
 
@@ -3424,6 +3538,11 @@ pilsētā $Z$, **noteikti** būs lidojis ar abu aviokompāniju lidmašīnām,
 neatkarīgi no tā, kādu maršrutu viņš būs izvēlējies un kura ir
 sākotnējā pilsēta $Z$.
 
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.11.5
@@ -3434,6 +3553,12 @@ malām (kvadrātiņi var arī pārklāties). Pierādīt, ka galdā var iedurt
 dažas adatas tā, ka katrs papīra gabaliņš būs piesprausts pie galda
 tieši ar vienu adatu.
 
+<small>
+
+* questionType:Prove
+
+</small>
+
 
 # <lo-sample/> LV.AMO.2013.12.1
 
@@ -3443,6 +3568,7 @@ ${\displaystyle \log_{10} x  \cdot \log_{10} (4-x)=\frac{1}{4}}$.
 <small>
 
 * concepts:equation
+* questionType:FindAll
 
 </small>
 
@@ -3457,6 +3583,7 @@ novilktās riņķa līnijas krustojas vienā punktā.
 <small>
 
 * concepts:circumference
+* questionType:Prove
 
 </small>
 
@@ -3470,6 +3597,7 @@ vienādība $6^x + 13^y = 29^z$.
 <small>
 
 * concepts:equation
+* questionType:Prove
 
 </small>
 
@@ -3489,6 +3617,11 @@ Ar $S(n)$ apzīmēsim visu to vārdu skaitu, kuri sastāv no $n$ burtiem, $n \ge
 Pierādīt, ka visiem naturāliem skaitļiem n ir spēkā vienādība  
 $$S(n+3) = i \cdot j \cdot S(n+1) + i \cdot j^2 \cdot S(n).$$
 
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2013.12.5
@@ -3499,6 +3632,11 @@ rūtiņu virsotnēs un jebkuru divu tā malu garumi atšķiras ne vairāk
 kā par ${\displaystyle \frac{1}{2013 \cdot \sqrt{P}}}$, 
 kur $P$ ir šī trijstūra perimetrs.
 
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2014.5.1
@@ -3506,14 +3644,14 @@ kur $P$ ir šī trijstūra perimetrs.
 Pūkainīšu ciemata bērniem Lieldienu zaķis atnesa olas. Katra no tām bija nokrāsota tieši
 vienā no krāsām – sarkanā, dzeltenā, zilā. Zināms, ka $20\%$ jeb $40$ olas bija sarkanas,
 $\frac{3}{4}$ no atlikušajām bija dzeltenas, bet pārējās -- zilas. Aprēķini:  
-**(a)** Cik olas bija zilā krāsā?  
-**(b)** Kāda daļa no visām olām bija zilas?  
-**(c)** Cik procenti no visām olām bija dzeltenas?
+**(A)** Cik olas bija zilā krāsā?  
+**(B)** Kāda daļa no visām olām bija zilas?  
+**(C)** Cik procenti no visām olām bija dzeltenas?
 
 <small>
 
 * topic:AlgebraicEquations
-* questionType:FindAll
+* questionType:FindAll,FindAll,FindAll
 
 </small>
 
@@ -3613,9 +3751,10 @@ kuriem izpildās vienādība $a \cdot (3a + 5b) \cdot 7b = 7654321$.
 
 
 
-## ABC
+## Atrisinājums
 
-**#Paritāte** Nepāru reizinājums nozīmē, ka $a,b$ ir nepāru. Bet tad $3a+5b$ ir pāru, kas ir pretruna. 
+Nepāru reizinājums nozīmē, ka $a,b$ ir nepāru. 
+Bet tad $3a+5b$ ir pāru, kas ir pretruna. 
 
 
 
@@ -3627,6 +3766,7 @@ $ED = 4\mbox{cm}$ un $DC = 5\mbox{cm}$?
 <small>
 
 * concepts:triangle,height,median
+* questionType:FindAll
 
 </small>
 
@@ -3641,7 +3781,7 @@ katrā kolonnā un katrā diagonālē ierakstīto skaitļu summas būtu vienāda
 rūtiņās ierakstītie skaitļi (skat.\ zīm.). Kādam skaitlim jābūt rūtiņā, kas apzīmēta ar
 jautājuma zīmi? Atrodiet visas iespējamās vērtības un pamatojiet, ka citu nav!
 
-![magicsquare](LV.AMO.2014.7.4.png)
+![](LV.AMO.2014.7.4.png)
 
 
 <small>
@@ -3654,11 +3794,10 @@ jautājuma zīmi? Atrodiet visas iespējamās vērtības un pamatojiet, ka citu 
 
 
 
+## Atrisinājums
 
-
-## ABC
-
-Ja $a_{22}=x$, tad summas ir $3x$. Un $a_{13}=2x-13$, $a_{11}=x-11$, $a_{33}=x+11$, $a_{23}=2$.
+Ja $a_{22}=x$, tad summas ir $3x$. Un $a_{13}=2x-13$,
+$a_{11}=x-11$, $a_{33}=x+11$, $a_{23}=2$.
 
 
 
@@ -3686,9 +3825,12 @@ Kurš skaitlis lielāks – sākotnējais vai iegūtais?
 
 
 
-## ABC
+## Atrisinājums
 
-**#Decimālpieraksts** **#PeriodiskaVirkne** $1/13=0.(076923076923)$ (periods $12$ cipari). $2014$-tais jeb $10$-tais cipars ir $9$.
+$1/13=0.(076923076923)$ (periods $12$ cipari). 
+$2014$-tais cipars ir tāds pats kā $10$-tais cipars ir $9$, 
+aiz kura seko cipars $2$. Izsvītrojot šo ciparu $9$, tas aizstājas
+ar $2$, tāpēc skaitlis kļūst mazāks.
 
 
 
@@ -3714,7 +3856,7 @@ ciparu, samazinās $15$ reizes!
 
 
 
-## Pirmais cipars un viss pārējais
+## Atrisinājums
 
 $a$ - 1.cipars; $a \cdot 10^k + b = 15b$; $a \cdot 10^k = 14b$. 
 Tad $a = 7$, $b=5\cdot 10^{k-1}$. 
@@ -3743,11 +3885,11 @@ zīmi, var būt ierakstīts skaitlis **(a)** $7$,  **(b)** $17$?
 
 
 
+## Atrisinājums
 
+Apzīmējam $a_{22}=x$, $a_{31}=b$. 
 
-## ABC
-
-**#AlgebrisksPārveidojums** **#MaģiskaisKvadrāts** Apz. $a_{22}=x$, $a_{31}=b$. Tad $a_{13}=2x-b$, $a_{11}=x+b-24$, $a_{33}=x-b+24$, $a_{23}=2b-24$. Pie $b=7$, $a_{23}<0$.
+Tad $a_{13}=2x-b$, $a_{11}=x+b-24$, $a_{33}=x-b+24$, $a_{23}=2b-24$. Pie $b=7$, $a_{23}<0$.
 
 
 
@@ -3761,6 +3903,7 @@ kurus var izveidot no
 <small>
 
 * concepts:sum
+* questionType:FindAll
 
 </small>
 
@@ -3778,6 +3921,11 @@ skaitlis, kas var būt ierakstīts tabulas centrālajā rūtiņā?
 
 ![magic square](LV.AMO.2014.9.4.png)
 
+<small>
+
+* questionType:FindOptimal
+
+</small>
 
 
 
@@ -3801,68 +3949,51 @@ summu. Kāds lielākais skaits no šīm summām var būt pirmskaitļi?
 
 
 
+## Atrisinājums
 
 
-## Spriedumi ar paritāti
-
-
-*Uzdevuma lasīšana:* Jānoskaidro lielākais *skaits*, kas vispār var būt 
-pirmskaitļi. Nevis, teiksim, lielākais *dažādu pirmskaitļu* skaits, ko 
+Ievērojam, ka vajadzīgs lielākais *skaits*, kas var būt 
+pirmskaitļi. Nevis lielākais *dažādu pirmskaitļu* skaits, ko 
 var šādi iegūt.
 
-
-* Dažādu naturālu skaitļu summa nevar būt $2$.
-* Tātad, lai divu skaitļu summa būtu (nepāru) pirmskaitlis, 
+Dažādu naturālu skaitļu summa nevar būt $2$.
+Tātad, lai divu skaitļu summa būtu (nepāru) pirmskaitlis, 
 viens no tiem ir pāru, otrs ir nepāru. 
-
-
-
-## Cik no 7 ir pāru un cik nepāru skaitļu?
+Cik no 7 ir pāru un cik nepāru skaitļu?
 
 $$7=0+7=1+6=2+5=3+4=4+3=5+2=6+1=7+0$$
 
 Lielākais teorētiski iespējamais $(n,p)$ pārīšu skaits ir tad, 
-ja $4$ no septiņiem skaitļiem ir nepāru un $3$ ir pāru (vai otrādi): 
+ja $4$ no septiņiem skaitļiem ir nepāru un $3$ ir pāru (vai otrādi):
+$4\cdot{}3=12$.
 
-$$4\cdot{}3=12$$
-
-
-
-
-## Divdaļīgi grafi
-
-<hgroup>
+Zīmējam grafu:
 
 ![](LV.AMO.2014.10.4A.png)
 
 * Nepāru skaitļi veido kopu $A$ ar $4$ elementiem, 
-pāru skaitļi veido kopu $B$ ar $3$ elementiem. 
+  pāru skaitļi veido kopu $B$ ar $3$ elementiem. 
 * Ir tikai $4\cdot{}3$ pāri, kam ir cerība būt pirmskaitļiem. 
-(Saskaitot $p+p$ vai $n+n$ pirmskaitli iegūt nevar.)
-
-</hgroup>
-
-<hgroup>
-
-**Definīcija:** Ja grafā visas virsotnes var sadalīt divās nepārklājošās apakškopās $A$ un $B$ tā, 
-ka jebkura grafa šķautne iet no virsotnes kopā $A$ uz virsotni kopā $B$, tad grafu sauc 
-par *divdaļīgu*.  
-**Apgalvojums:** Ja divdaļīgā grafā apakškopās $A$ un $B$ ir attiecīgi $a$ un $b$ virsotnes, 
-tad tajā ir ne vairāk kā $a\cdot{}b$ šķautnes.
-
-</hgroup>
+  (Saskaitot $p+p$ vai $n+n$ pirmskaitli iegūt nevar.)
 
 
+**Definīcija:** Ja grafā visas virsotnes var sadalīt divās nepārklājošās 
+apakškopās $A$ un $B$ tā, ka jebkura grafa šķautne iet no virsotnes 
+kopā $A$ uz virsotni kopā $B$, tad grafu sauc par *divdaļīgu*.  
 
-## Atlikumi, dalot ar 3
+**Apgalvojums:** Ja divdaļīgā grafā apakškopās $A$ un $B$ ir attiecīgi 
+$a$ un $b$ virsotnes, tad tajā ir ne vairāk kā $a\cdot{}b$ šķautnes.
 
+Aplūkojam atlikumus, dalot ar 3.
 
 ![](LV.AMO.2014.10.4B.png)
 
-* Izvēloties vismazākos nepāru un pāru skaitļus, tikai $9$ no $12$ teorētiski iespējamajiem 
-ir pirmskaitļi (citas summas dalās ar $9$ - apzīmētas ar raustītu līniju). 
-* Ja papildus prasa, lai visi $7$ skaitļi dotu atlikumu $1$ (vai, izņēmuma gadījumā, atlikumu $0$), 
-dalot ar $3$, var panākt, lai visas $12$ summas būtu pirmskaitļi.
+* Izvēloties vismazākos nepāru un pāru skaitļus, tikai $9$ no $12$ 
+  teorētiski iespējamajiem ir pirmskaitļi (citas summas dalās ar $9$ - 
+  apzīmētas ar raustītu līniju). 
+* Ja papildus prasa, lai visi $7$ skaitļi dotu atlikumu $1$ 
+  (vai, izņēmuma gadījumā, atlikumu $0$), 
+  dalot ar $3$, var panākt, lai visas $12$ summas būtu pirmskaitļi.
 
 
 
@@ -3875,6 +4006,7 @@ ja zināms, ka $a_1 = 1000$.
 <small>
 
 * concepts:sequence
+* questionType:FindAll
 
 </small>
 
@@ -3890,6 +4022,7 @@ skaitļu reizinājums ir naturāla skaitļa kvadrāts.
 <small>
 
 * concepts:product,square-Alg
+* questionType:Prove
 
 </small>
 
@@ -3903,6 +4036,7 @@ kuriem $p^4 − 6$ arī ir pirmskaitlis!
 <small>
 
 * concepts:primes
+* questionType:FindAll
 
 </small>
 
@@ -3910,10 +4044,9 @@ kuriem $p^4 − 6$ arī ir pirmskaitlis!
 
 # <lo-sample/> LV.AMO.2015.7.3
 
-
-**(a)** Atrast tādu naturālu skaitli, kura ciparu summa ir $13$, pēdējie divi
+**(A)** Atrast tādu naturālu skaitli, kura ciparu summa ir $13$, pēdējie divi
 cipari ir $13$ un kurš dalās ar $13$.  
-**(b)** Vai var atrast tādu naturālu skaitli, kura ciparu summa ir $11$, pēdējie
+**(B)** Vai var atrast tādu naturālu skaitli, kura ciparu summa ir $11$, pēdējie
 divi cipari ir $11$ un kurš dalās ar $11$?
 
 
@@ -3927,13 +4060,10 @@ divi cipari ir $11$ un kurš dalās ar $11$?
 </small>
 
 
+## Atrisinājums
 
-
-
-## Dalāmība aar 9 un 11
-
-**(a)** $117$ cip.summa $9$, dalās ar $13$. $11713$ der.  
-**(b)** $99k$ pāru/nepāru poz.cip.summa nevar būt $9$.
+**(A)** $117$ cip.summa $9$, dalās ar $13$. $11713$ der.  
+**(B)** $99k$ pāru/nepāru poz.cip.summa nevar būt $9$.
 
 
 
@@ -3946,6 +4076,7 @@ leņķus! Atrodi visus gadījumus un pamato, ka citu nav!
 <small>
 
 * concepts:isosceles-triangle
+* questionType:FindAll
 
 </small>
 
@@ -3961,18 +4092,16 @@ vērtība ir racionāls skaitlis!
 
 * topic:StandardIdentities
 * topic:InfiniteDescent
-* questionType:FindAll
+* questionType:ProveDisprove
 * concepts:rational-numbers
 
 </small>
 
 
 
+## Atrisinājums
 
-
-## ABC
-
-**#AlgebriskaIdentitāte** **#QĪpašības** Kāpinot kvadrātā sanāk $20$, bet $\sqrt{20}=2\sqrt{5}$ nav racionāls.
+Kāpinot kvadrātā sanāk $20$, bet $\sqrt{20}=2\sqrt{5}$ nav racionāls.
 
 
 
@@ -3994,12 +4123,9 @@ naturāla skaitļa kvadrāta un pirmskaitļa summu.
 </small>
 
 
+## Atrisinājums
 
-
-
-## ABC
-
-**#AlgebriskaIdentitāte** **#Nevienādība** Ja $N = n^2$ 
+Ja $N = n^2$ 
 liels pilns kvadrāts, tad $n^2 - a^2$ dalās reizinātājos $>2$.
 
 
@@ -4007,11 +4133,11 @@ liels pilns kvadrāts, tad $n^2 - a^2$ dalās reizinātājos $>2$.
 
 Pierādi, ka $x^5 - 5x^3 + 4x$ dalās ar $120$, ja $x$ ir vesels skaitlis!
 
+<small>
 
+* questionType:Prove
 
-
-
-
+</small>
 
 
 
@@ -4022,7 +4148,7 @@ Atrast visus naturālos skaitļus, kas ir vienādi ar savu ciparu reizinājumu.
 
 <small>
 
-* [misc.try](#) 
+* strategies:TrialAndError
 * topic:InequalityProvingStronger
 * questionType:FindAll
 * concepts:product
@@ -4033,7 +4159,7 @@ Atrast visus naturālos skaitļus, kas ir vienādi ar savu ciparu reizinājumu.
 
 
 
-## Nevienādību izmantošana
+## Atrisinājums
 
 * Pārbaudot dažādus skaitļus var novērot, ka ciparu reizinājums allaž mazāks par pašu skaitli.
 * Pamatojam to 2-ciparu un 3-ciparu skaitļiem $\overline{ab}$ un $\overline{abc}$
@@ -4049,13 +4175,15 @@ mazāku rezultātu nekā reizinot ar $10^k$, jo katrs cipars ir mazāks par $10$
 
 # <lo-sample/> LV.AMO.2015.11.1
 
-Aplūkojam visus deviņciparu skaitļus, kas nesatur $0$ un kam visi cipari ir
-dažādi. Pierādīt, ka starp tiem pāra skaitļu ir tieši divas reizes mazāk
+Aplūkojam visus deviņciparu skaitļus, kas nesatur $0$ 
+un kam visi cipari ir dažādi. 
+Pierādīt, ka starp tiem pāra skaitļu ir tieši divas reizes mazāk
 nekā tādu, kas dalās ar $3$, bet nedalās ar $5$.
 
 <small>
 
 * concepts:divisibility
+* questionType:Prove
 
 </small>
 
@@ -4070,6 +4198,7 @@ Pierādīt, ka ir bezgalīgi daudz tādu $n$, ka $M(n)$ dalās ar $n$.
 <small>
 
 * concepts:divisibility
+* questionType:Prove
 
 </small>
 
@@ -4084,6 +4213,7 @@ un $ab-1$ dalās ar c, $bc-1$ dalās ar $a$, $ac-1$ dalās ar $b$.
 <small>
 
 * concepts:divisibility
+* questionType:FindAll
 
 </small>
 
@@ -4114,11 +4244,9 @@ skaitu centu). Cik samaksāja Brālītis?
 </small>
 
 
+## Atrisinājums
 
-
-## ABC
-
-**#Dalāmība** **#Nevienādība** $200-8p=15m$, t.i. $m$ dalās ar $8$. Un $m$ nevar būt $16$, citādi $p<0$.  
+$200-8p=15m$, t.i. $m$ dalās ar $8$. Un $m$ nevar būt $16$, citādi $p<0$.  
 
 
 
@@ -4132,7 +4260,11 @@ $AB$ izvēlēts tāds punkts $N$, ka $AM=MN$. Pierādīt,
 ka $\angle ANC=90^{\circ}$.  
 ![1.att.](geometry-grade07/LV.AMO.2016.7.3.png)
 
+<small>
 
+* questionType:Prove
+
+</small>
 
 
 
@@ -4153,15 +4285,10 @@ $$\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13} - 128}$$
 
 
 
+## Atrisinājums
 
-
-
-## Algebrisks pārveidojums
-
+Rakstām algebrisku pārveidojumu:
 $\frac{4(10^6 - 8)(10^6 + 8)}{2(10^{12} -64)} = \frac{4}{2}=2$. 
-
-
-
 
 
 
@@ -4178,16 +4305,9 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b) = 434343$?
 </small>
 
 
+## Atrisinājums
 
-
-
-
-
-## ABC
-
-**#Paritāte** Reizinājums ir nepāru, t.i. $a,b$ ir nepāru. Bet tad $a+43b$ ir pāru. 
-
-
+Reizinājums ir nepāru, t.i. $a,b$ ir nepāru. Bet tad $a+43b$ ir pāru. 
 
 
 
@@ -4208,16 +4328,10 @@ ciparu skaits, kas var būt šajā skaitlī?
 
 </small>
 
+## Atrisinājums
 
-
-
-
-## ABC
-
-**#DalījumsPirmreizinātājos** Visi $10$ cipari: $32 \mid 45312$. 
+Visi $10$ cipari: $32 \mid 45312$. 
 Ciparu summa dalās ar $9$. Samaisa $6,7,8,9,0$, lai dalās ar $7$.
-
-
 
 
 
@@ -4230,6 +4344,7 @@ $x^3 − 2016xyz = 10$?
 <small>
 
 * seeAlso:LV.AMO.2016.10.2
+* questionType:ProveDisprove
 
 </small>
 
@@ -4246,6 +4361,7 @@ Kāds ir šīs virknes 2016. loceklis?
 <small>
 
 * concepts:sequence,product
+* questionType:FindAll
 
 </small>
 
@@ -4257,15 +4373,20 @@ $x^3 − 2016xyz = 120$?
 
 <small>
 
-* topic:CanonicalFactorization
 * topic:DivisibilityRulesForRemainders
 * topic:ModularArithmetic
-* [mod.eq.contradict](#) - pretrunas modulis: atlikumi pēc 9
+* topic:ModularArithmeticContradiction 
 * questionType:ProveDisprove
 * seeAlso:LV.AMO.2016.9.2
 
 </small>
 
+
+## Atrisinājums
+
+Pretrunas modulis: aplūkojam abu vienādības pušu atlikumus, dalot ar $9$. 
+Tā kā $2016$ dalās ar $9$, tad $x^3 \equiv 3 \pmod {9}$. Pārbaudot visus 
+kubus $0^3,1^3,\ldots,8^3$, neviens no tiem nedod atlikumu $3$, dalot ar $9$.
 
 
 
@@ -4298,7 +4419,11 @@ veselu skaitļu kvadrātu summu!
 Vai var atrast tādus naturālus skaitļus $x$, $y$ un $z$, 
 ka $x^2 + y^2 + z^2 = \underbrace{1111 \ldots 1}_{2016}$?
 
+<small>
 
+* questionType:ProveDisprove
+
+</small>
 
 
 # <lo-sample/> LV.AMO.2016.12.2
@@ -4309,6 +4434,7 @@ atrisinājuma naturālos skaitļos!
 <small>
 
 * concepts:equation
+* questionType:Prove
 
 </small>
 
@@ -4328,6 +4454,7 @@ vienādmalu!
 <small>
 
 * concepts:equilateral-triangle
+* questionType:Prove
 
 </small>
 
@@ -4373,6 +4500,7 @@ $x^3 + (x+1)^3 = (x+3)^3 + 1$.
 <small>
 
 * concepts:equation
+* questionType:FindAll
 
 </small>
 
@@ -4387,27 +4515,30 @@ pirmskaitļi, tad trešais skaitlis dalās ar $6$.
 
 * topic:DivisibilityProperties
 * topic:ArithmeticSeriesAll
-* [comb.full](#) (gadījumus $n=2,3$ aplūko atsevišķi)
+* strategy:CaseAnalysis
 * questionType:Prove
 * concepts:primes
 
 </small>
 
+## Ieteikums 
 
+Gadījumus $n=2,3$ aplūko atsevišķi.
 
 
 
 # <lo-sample/> LV.AMO.2017.11.5
 
 Doti naturāli skaitļi $k$ un $n$, $k \leq n$.  
-(a) Vai noteikti $C_n^k$ dalās ar $n$, ja $k$ un $n$ ir savstarpēji pirmskaitļi?  
-(b) Vai $k$ un $n$ noteikti ir savstarpēji pirmskaitļi, ja $C_n^k$ dalās ar $n$?  
+**(A)** Vai noteikti $C_n^k$ dalās ar $n$, ja $k$ un $n$ ir savstarpēji pirmskaitļi?  
+**(B)** Vai $k$ un $n$ noteikti ir savstarpēji pirmskaitļi, ja $C_n^k$ dalās ar $n$?  
 *Piezīme.* Ar $C_n^k$ apzīmēts kombināciju skaits no $n$ elementiem pa $k$
 elementiem.
 
 <small>
 
 * concepts:coprimes
+* questionType:Prove
 
 </small>
 
@@ -4415,14 +4546,17 @@ elementiem.
 
 # <lo-sample/> LV.AMO.2017.12.5
 
-(a) Doti naturāli skaitļi no $1$ līdz $11$. Izvēlieties deviņus no tiem 
+**(A)** Doti naturāli skaitļi no $1$ līdz $11$. Izvēlieties deviņus no tiem 
 un ierakstiet tos $3 \times 3$ rūtiņu tabulā tā, lai katrā rindā, 
 katrā kolonā un abās galvenajās diagonālēs ierakstīto skaitļu 
 summa dalās ar $7$.   
-(b) Vai to pašu ir iespējams
-izdarīt, ja doti naturāli skaitļi no $1$ līdz $10$?
+**(B)** Vai to pašu ir iespējams izdarīt, ja doti naturāli skaitļi no $1$ līdz $10$?
 
+<small>
 
+* questionType:FindExample,ProveDisprove
+
+</small>
 
 
 
@@ -4438,6 +4572,7 @@ $CD > \frac{1}{2}(CA+CB-AB)$.
 <small>
 
 * concepts:triangle
+* questionType:Prove
 
 </small>
 
@@ -4454,7 +4589,7 @@ būtu patiesa!
 
 <small>
 
-* questionType:FindExample
+* questionType:FindAll
 
 </small>
 
@@ -4479,8 +4614,6 @@ virknes 2018. loceklis?
 
 
 
-
-
 # <lo-sample/> LV.AMO.2018.9.4
 
 Atrast lielāko naturālo skaitli, kas dalās ar $7$, kura ciparu summa ir $100$ un
@@ -4489,6 +4622,7 @@ kuram neviens cipars nav $0$.
 <small>
 
 * concepts:divisibility,sum
+* questionType:FindOptimal
 
 </small>
 
@@ -4504,20 +4638,20 @@ $x^8 - x^2$ dalās ar $252$.
 * topic:DivisibilityRulesFor3And9
 * topic:DivisibilityProperties
 * topic:ModularArithmetic
+* topic:PolynomialDifferenceDivisibility
 * questionType:Prove
 * concepts:divisibility
 
 </small>
 
 
+## Atrisinājums
 
+Pārbaudām dalāmību ar 252 reizinātājiem.
 
-
-## Pārbaudām dalāmību ar 252 reizinātājiem
-
-> **Apgalvojums:** Lai naturāls skaitlis $N$ dalītos ar $252=2^2\cdot{}3^2\cdot{}7^1$
-> ir nepieciešami un pietiekami, lai $N$ dalītos ar pirmreizinātāju 
-> augstākajām pakāpēm: $2^2 = 4$, $3^2 = 9$ un $7^1 = 7$. 
+**Apgalvojums:** Lai naturāls skaitlis $N$ dalītos ar $252=2^2\cdot{}3^2\cdot{}7^1$
+ir nepieciešami un pietiekami, lai $N$ dalītos ar pirmreizinātāju 
+augstākajām pakāpēm: $2^2 = 4$, $3^2 = 9$ un $7^1 = 7$. 
 
 * $x^8 - x^2$ dalās ar $4$:
     - Ja $x$ ir pāru skaitlis, tad $x^2$ dalās ar $4$. 
@@ -4527,27 +4661,19 @@ $x^8 - x^2$ dalās ar $252$.
     - Ja $x = 3k+1$, tad $x^3 - 1 = (3k+1)^3 - 1$ dalās ar $9$ (pārbauda, atverot iekavas)
     - Ja $x = 3k-1$, tad $x^3 + 1 = (3k-1)^3 + 1$ dalās ar $9$ (pārbauda, atverot iekavas)
 
-
-
-## Dalāmība ar 7
-
 Pamatosim, ka $x^8 - x^2 = x^2(x^6-1)$ dalās arī ar $7$.
 
 * Ja $x$ dalās ar $7$, tad $x^2$ dalās ar $7$. 
 * Ja $x$ nedalās ar $7$, varam izmantot Mazo Fermā teorēmu pie $p=7$. 
 
-> **Mazā Fermā teorēma:** Ja $p$ ir pirmskaitlis un $a$ nedalās ar $p$, tad
-> $a^{p-1}$ dod atlikumu $1$, dalot ar $p$. 
+**Mazā Fermā teorēma:** Ja $p$ ir pirmskaitlis un $a$ nedalās ar $p$, tad
+$a^{p-1}$ dod atlikumu $1$, dalot ar $p$. 
 
 Citiem vārdiem, $a^{p-1}-1$ dalās ar $p$.  
 Ievietojot $p-7$, iegūstam, ka 
 $a^6 - 1$ dalās ar $7$, ja vien $a$ nedalās ar $7$.
 
-
-
-
-
-## Empīriska teorēmas pārbaude, ja p=7
+**Empīriska teorēmas pārbaude, ja p=7**
 
 Mazo Fermā teorēmu atcerēties ir derīgi, bet var pamatot citādi.
 
@@ -4562,18 +4688,13 @@ ar tā atlikumu, polinoma $x^6$ vērtības atlikums no tā nemainīsies).
 | $x^6 \pmod 7$ | $1$   | $1$   | $36 \equiv 1$ | $1$   | $36 \equiv 1$ | 36 \equiv 1$ |
 
 
+**Apgalvojums:** Ja $P(x)$ ir polinoms ar veseliem koeficientiem, 
+ja $x_1, x_2, m$ ir naturāli skaitļi, pie tam $x_1$ un $x_2$ dod vienādus 
+atlikumus, dalot ar $m$ , tad 
+arī polinomu vērtības $P(x_1)$ un $P(x_2)$ dod vienādus atlikumus, dalot ar $m$. 
 
-
-
-## Polinoma vērtību atlikumi 
-
-> **Apgalvojums:** Ja $P(x)$ ir polinoms ar veseliem koeficientiem, 
-> ja $x_1, x_2, m$ ir naturāli skaitļi, pie tam $x_1$ un $x_2$ dod vienādus 
-> atlikumus, dalot ar $m$ , tad 
-> arī polinomu vērtības $P(x_1)$ un $P(x_2)$ dod vienādus atlikumus, dalot ar $m$. 
-
-> **Definīcija:** Apgalvojumu, ka $x_1$ un $x_2$ dod vienādus atlikumus, dalot ar $m$ pieraksta šādi:
-> $x_1 \equiv x_2\;(\mbox{mod}\,m)$. To lasa: $x_1$ un $x_2$ ir *kongruenti* pēc moduļa $m$. 
+**Definīcija:** Apgalvojumu, ka $x_1$ un $x_2$ dod vienādus atlikumus, dalot ar $m$ pieraksta šādi:
+$x_1 \equiv x_2\;(\mbox{mod}\,m)$. To lasa: $x_1$ un $x_2$ ir *kongruenti* pēc moduļa $m$. 
 
 Šajos apzīmējumos katram polinomam $P(x)$ var secināt:
 
@@ -4588,6 +4709,11 @@ $$ x_1 \equiv x_2\;(\mbox{mod}\,m)\;\;\Rightarrow\;\;P(x_1) \equiv P(x_2)\;(\mbo
 Pierādīt, ka visām naturālām $n$ vērtībām izpildās
 $$1^3 + 2^3 + 3^3 + \ldots + n^3 = (1 + 2 + 3 + \ldots + n)^2.$$
 
+<small>
+
+* questionType:Prove
+
+</small>
 
 
 
@@ -4596,6 +4722,11 @@ $$1^3 + 2^3 + 3^3 + \ldots + n^3 = (1 + 2 + 3 + \ldots + n)^2.$$
 
 Vai eksistē tādi naturāli skaitļi $m$ un $n$, ka $m^2 - n^2 = 2mn$?
 
+<small>
+
+* questionType:ProveDisprove
+
+</small>
 
 
 
@@ -4607,13 +4738,9 @@ Zināms, ka $A + B = 10^{45}$. Pierādīt, ka gan $A$, gan $B$ dalās ar $5$.
 <small>
 
 * concepts:divisibility
+* questionType:Prove
 
 </small>
-
-
-
-
-
 
 
 
@@ -4665,7 +4792,11 @@ kas ir par $5998$ lielāks nekā sākotnējais skaitlis. Savukārt, ja sākotnē
 ar $7$ aizvietotu visus pāra ciparus, tad iegūtais skaitlis būtu par $500290$ lielāks
 nekā sākotnējais. Atrast doto sešciparu skaitli!
 
+<small>
 
+* questionType:FindAll
+
+</small>
 
 
 
@@ -4673,8 +4804,8 @@ nekā sākotnējais. Atrast doto sešciparu skaitli!
 # <lo-sample/> LV.AMO.2019.9.5
 
 
-Vai eksistē tāds kvadrātvienādojums ar veseliem koeficientiem, kuram ir
-sakne
+Vai eksistē tāds kvadrātvienādojums ar veseliem koeficientiem, 
+kuram ir sakne
 $$\left( \sqrt{2020} − 2\sqrt{2019} + \sqrt{2018} \right)
 \left( \sqrt{2020} + \sqrt{2019} \right) \times$$
 $$\times \left( \sqrt{2019} + \sqrt{2018} \right)
@@ -4683,6 +4814,7 @@ $$\times \left( \sqrt{2019} + \sqrt{2018} \right)
 <small>
 
 * concepts:quadratic-equation
+* questionType:ProveDisprove
 
 </small>
 
@@ -4701,8 +4833,6 @@ $$=\frac{n(n+1)(n+2)(n+3)}{4}.$$
 * concepts:equation
 
 </small>
-
-
 
 
 
@@ -4731,8 +4861,10 @@ $$\frac{(x-20)^{19} \cdot (x + 4)}{\left( \sqrt{x^2 + 4} \right) \left( 9-x^2 \r
 <small>
 
 * concepts:inequality
+* questionType:FindAll
 
 </small>
+
 
 
 # <lo-sample/> LV.AMO.2019.11.2
@@ -4742,7 +4874,7 @@ naturālos dalītājus. Katrā gājienā jāievēro šādi noteikumi:
 
 * nedrīkst atkārtoti rakstīt jau uzrakstītu dalītāju;
 * nedrīkst rakstīt dalītāju, kurš ir tieši $2$ vai $3$ reizes lielāks vai mazāks nekā
-kāds jau uzrakstītais dalītājs.
+  kāds jau uzrakstītais dalītājs.
 
 Zaudē tas spēlētājs, kurš nevar izdarīt gājienu. Kurš spēlētājs – pirmais vai
 otrais – vienmēr var uzvarēt?
@@ -4753,6 +4885,7 @@ otrais – vienmēr var uzvarēt?
 * topic:GameInvariant
 * seeAlso:LV.AMO.2019.12.2
 * concepts:divisors
+* questionType:ProveDisprove
 
 </small>
 
@@ -4769,6 +4902,7 @@ trijstūrim $ABC$ apvilkto riņķa līniju punktā $G$. Pierādīt, ka $FH = GH$
 <small>
 
 * concepts:triangle,circumscribed-circle
+* questionType:Prove
 
 </small>
 
@@ -4776,7 +4910,7 @@ trijstūrim $ABC$ apvilkto riņķa līniju punktā $G$. Pierādīt, ka $FH = GH$
 
 # <lo-sample/> LV.AMO.2019.11.4
 
-Zināms, ka vairāku naturālu skaitļu summa ir **(a)** $2019$, **(b)** $2020$.   
+Zināms, ka vairāku naturālu skaitļu summa ir **(A)** $2019$, **(B)** $2020$.   
 Kāds ir lielākais iespējamais šo skaitļu reizinājums? 
 
 
@@ -4784,6 +4918,7 @@ Kāds ir lielākais iespējamais šo skaitļu reizinājums?
 
 * topic:InequalityProvingStronger
 * concepts:product
+* questionType:FindOptimal,FindOptimal
 
 </small>
 
@@ -4807,6 +4942,7 @@ otrais – vienmēr var uzvarēt?
 
 * seeAlso:LV.AMO.2019.11.2
 * concepts:divisors
+* questionType:ProveDisprove
 
 </small>
 
@@ -4832,6 +4968,7 @@ $E$ un $F$ un nogriezni $BD$ punktā $G$. Pierādīt, ka $EG = FG$.
 <small>
 
 * concepts:rectangle
+* questionType:Prove
 
 </small>
 
@@ -4850,6 +4987,7 @@ kādu lielāko trijnieka pakāpi dalās $N$?
 
 * topic:RuleOfProduct
 * topic:ValuationProperties
+* questionType:FindAll
 
 </small>
 
@@ -4891,8 +5029,11 @@ reizes mazāk naudas nekā visiem pārējiem biedriem kopā, bet
 visnabagākajam biedram ir tieši $13$ reizes mazāk naudas nekā visiem pārējiem
 biedriem kopā. Cik biedru ir šajā klubā?
 
+<small>
 
-    
+* questionType:FindCount
+
+</small>
 
 
     

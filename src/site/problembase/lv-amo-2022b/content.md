@@ -8,6 +8,7 @@ cipari $0$ un $2$ un kurš dalās ar $15$?
 * concepts:divisibility,digit
 * questionType:FindOptimal
 * domain:NT
+* LTopic:LTNumeralSystems
 
 </small>
 
@@ -24,6 +25,7 @@ rūtiņu malu, kas pilnībā atrodas uz robežas, skaits.
 * concepts:area,perimeter,grid,hexagon,square-side
 * questionType:FindExample
 * domain:Geom
+* LTopic:LTPolygons
 
 </small>
     
@@ -41,6 +43,7 @@ septītdaļa – pensionāri. Cik biļetes tika pārdotas?
 * concepts:fractions,at-least
 * questionType:FindAll
 * domain:NT
+* LTopic:LTDivisibility
 
 </small>
 
@@ -57,6 +60,7 @@ līdzsvarā? Atbildi pamatot!
 * concepts:equality
 * questionType:FindAll
 * domain:Alg
+* LTopic:LTEquationSystems
 
 </small>
     
@@ -77,6 +81,7 @@ Kāda krāsa patīk katrai meitenei? Atbildi pamatot!
 * concepts:true-statement
 * questionType:FindAll
 * domain:Comb
+* LTopic:LTLogic
 
 </small>
 
@@ -93,22 +98,25 @@ Cik ir tādu skaitļu, kas ir apvilkti ar vismaz divām dažādām krāsām?
 
 * concepts:natural-numbers,divisibility
 * questionType:FindCount
-* domain:
+* domain:NT
+* LTopic:LTDivisibility
 
 </small>
 
     
 # <lo-sample/> LV.AMO.2022B.6.2
 
-Parādi, kā no 1. att. dotās rūtiņu lapas var izgriezt desmit figūras, kādas dotas 2. att. (iezīmē, kur jāiet griezuma
-līnijām)! Figūras var būt arī pagrieztas.  
+Parādi, kā no 1. att. dotās rūtiņu lapas var izgriezt desmit figūras, 
+kādas dotas 2. att. (iezīmē, kur jāiet griezuma līnijām)! 
+Figūras var būt arī pagrieztas.  
 ![1.att., 2.att.](LV.AMO.2022B.6.2.png)
 
 <small>
 
 * concepts:grid,shape,rotation
 * questionType:FindExample
-* domain:
+* domain:Geom
+* LTopic:LTCuttingCoversColoring
 
 </small>
 
@@ -117,14 +125,17 @@ līnijām)! Figūras var būt arī pagrieztas.
     
 # <lo-sample/> LV.AMO.2022B.6.3
 
-Tumšā rudens vakarā Māris izdomāja saskaitīt visus naturālos skaitļus no $1$ līdz $n$, kur $n$ ir kāds naturāls skaitlis.
-Vai var gadīties, ka Māris ieguva summu, kuras pēdējais cipars ir **(A)** $8$, **(B)** $9$?
+Tumšā rudens vakarā Māris izdomāja saskaitīt visus naturālos skaitļus 
+no $1$ līdz $n$, kur $n$ ir kāds naturāls skaitlis.
+Vai var gadīties, ka Māris ieguva summu, kuras pēdējais cipars ir
+**(A)** $8$, **(B)** $9$?
 
 <small>
 
 * concepts:natural-numbers,sum,last-digit
 * questionType:ProveDisprove,ProveDisprove
-* domain:
+* domain:NT
+* LTopic:LTCongruenceModulo
 
 </small>
 
@@ -141,7 +152,8 @@ līdzsvarā? Atbildi pamatot!
 
 * concepts:equality
 * questionType:FindAll
-* domain:
+* domain:Alg
+* LTopic:LTEquationSystems
 
 </small>
 
@@ -165,7 +177,8 @@ sestdiena – $56$, svētdiena – $57$. Cik ciema iedzīvotāji visu laiku melo
 
 * concepts:truth,falsehood,mapping
 * questionType:FindCount
-* domain:
+* domain:Comb
+* LTopic:LTLogic
 
 </small>
 
@@ -173,14 +186,17 @@ sestdiena – $56$, svētdiena – $57$. Cik ciema iedzīvotāji visu laiku melo
     
 # <lo-sample/> LV.AMO.2022B.7.1
 
-Uz tāfeles bija uzrakstīts šāds teksts: $A869B$. Katrs no burtiem $A$ un $B$ jāaizstāj ar vienu ciparu (tie var būt arī
-vienādi) tā, lai iegūtais piecciparu skaitlis dalītos ar $15$. Cik dažādos veidos to var izdarīt?
+Uz tāfeles bija uzrakstīts šāds teksts: $A869B$. 
+Katrs no burtiem $A$ un $B$ jāaizstāj ar vienu ciparu (tie var būt arī
+vienādi) tā, lai iegūtais piecciparu skaitlis dalītos ar $15$. 
+Cik dažādos veidos to var izdarīt?
 
 <small>
 
 * concepts:variable,digit,divisibility
 * questionType:FindCount
-* domain:
+* domain:NT
+* LTopic:LTNumeralSystems
 
 </small>
 
@@ -194,7 +210,8 @@ Vai var atrast **(a)** $5$; **(b)** $15$ naturālus skaitļus (ne obligāti daž
 
 * concepts:sum,product
 * questionType:ProveDisprove
-* domain:
+* domain:Alg
+* LTopic:LTEquations,LTNumTheoryByCases
 
 </small>
     
@@ -208,7 +225,8 @@ lai uz katras no taisnēm būtu atzīmēti tieši trīs punkti!
 
 * concepts:plane,line,point
 * questionType:FindExample
-* domain:
+* domain:Geom
+* LTopic:LTObjectSystemsGeometry
 
 </small>
 
@@ -228,7 +246,8 @@ ja sākumā kaudzē ir **(A)** $6$ konfektes;
 
 * concepts:game,set,remove,to-win
 * questionType:Algorithm,Algorithm
-* domain:
+* domain:NT
+* LTopic:LTDivisibility
 
 </small>
 
@@ -251,7 +270,8 @@ Cik ciema iedzīvotāju visu laiku melo?
 
 * concepts:truth,falsehood,mapping
 * questionType:FindCount
-* domain:
+* domain:Comb
+* LTopic:LTLogic
 
 </small>
 
@@ -261,13 +281,15 @@ Cik ciema iedzīvotāju visu laiku melo?
 
 Uz tāfeles bija uzrakstīts šāds teksts: $N597M$. 
 Katrs no burtiem $N$ un $M$ jāaizstāj ar vienu ciparu (tie var būt arī
-vienādi) tā, lai iegūtais piecciparu skaitlis dalītos ar $12$. Cik dažādos veidos to var izdarīt?
+vienādi) tā, lai iegūtais piecciparu skaitlis dalītos ar $12$. 
+Cik dažādos veidos to var izdarīt?
 
 <small>
 
 * concepts:divisibility,variable,digit
 * questionType:FindCount
-* domain:
+* domain:NT
+* LTopic:LTNumeralSystems
 
 </small>
     
@@ -284,7 +306,8 @@ Cik uzdevumus atrisināja skolēns, ja kopā viņš ieguva $13$ punktus?
 
 * concepts:add,subtract
 * questionType:FindAll
-* domain:
+* domain:Alg
+* LTopic:LTEquations
 
 </small>
 
@@ -292,14 +315,15 @@ Cik uzdevumus atrisināja skolēns, ja kopā viņš ieguva $13$ punktus?
     
 # <lo-sample/> LV.AMO.2022B.8.3
 
-Trijstūrī $ABC$ uz malas $BC$ atlikts tāds punkts $D$, ka $AD = BD$ un $AB = DC = AC$. Aprēķināt trijstūra $ABC$
-leņķus!
+Trijstūrī $ABC$ uz malas $BC$ atlikts tāds punkts $D$, 
+ka $AD = BD$ un $AB = DC = AC$. Aprēķināt trijstūra $ABC$ leņķus!
 
 <small>
 
 * concepts:triangle
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
+* LTopic:LTTriangles
 
 </small>
     
@@ -315,8 +339,9 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 <small>
 
 * concepts:integer-numbers,distance
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
+* LTopic:LTNumTheoryExamples
 
 </small>
 
@@ -326,11 +351,11 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 
 Piecu draugu lokā izvērsās strīds, kurā:
 
-* Elīna saka: “Es vienmēr saku taisnību.”
-* Guna saka: “Gan Elīna, gan Agnese melo.”
-* Maruta saka: “Visi saka taisnību.”
-* Agnese saka: “Elīna melo.”
-* Emīls saka: “Visi melo.”
+* Elīna saka: "Es vienmēr saku taisnību."
+* Guna saka: "Gan Elīna, gan Agnese melo."
+* Maruta saka: "Visi saka taisnību."
+* Agnese saka: "Elīna melo."
+* Emīls saka: "Visi melo."
     
 Cik draugu saka taisnību?
 
@@ -338,8 +363,9 @@ Cik draugu saka taisnību?
 <small>
 
 * concepts:truth,falsehood
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Comb
+* LTopic:LTLogic
 
 </small>
 
@@ -347,14 +373,16 @@ Cik draugu saka taisnību?
     
 # <lo-sample/> LV.AMO.2022B.9.1
 
-Cik ir tādu četrciparu skaitļu $\overline{ABBA}$, kas dalās ar $99$? (Vienādiem burtiem atbilst vienādi cipari, dažādiem burtiem
+Cik ir tādu četrciparu skaitļu $\overline{ABBA}$, kas dalās ar $99$? 
+(Vienādiem burtiem atbilst vienādi cipari, dažādiem burtiem
 var atbilst arī vienādi cipari.)
 
 <small>
 
 * concepts:divisibility,digit,variable
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:NT
+* LTopic:LTNumeralSystems
 
 </small>
 
@@ -363,13 +391,14 @@ var atbilst arī vienādi cipari.)
     
 # <lo-sample/> LV.AMO.2022B.9.2
 
-Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(a)** $x > y > 0$, **(b)** $x > y > 3$? 
+Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(A)** $x > y > 0$, **(B)** $x > y > 3$? 
 
 <small>
 
 * concepts:inequality
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Alg
+* LTopic:LTInequalities
 
 </small>
 
@@ -377,16 +406,17 @@ Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(a)** $x > y > 0$, **(b)*
     
 # <lo-sample/> LV.AMO.2022B.9.3
 
-Taisnleņķa trijstūrī $ACB$ ($\sphericalangle C = 90^{\circ}$) novilkts augstums $CH$. Uz malas $AC$ atlikts punkts $K$ tā, ka 
+Taisnleņķa trijstūrī $ACB$ ($\sphericalangle C = 90^{\circ}$) 
+novilkts augstums $CH$. Uz malas $AC$ atlikts punkts $K$ tā, ka 
 $\sphericalangle CBK = \sphericalangle BAC$.
 Pierādīt, ka taisne $CH$ dala nogriezni $BK$ divās vienādās daļās!
-
 
 <small>
 
 * concepts:right-triangle,altitude,line,segment
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
+* LTopic:LTTriangles
 
 </small>
 
@@ -402,8 +432,9 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 <small>
 
 * concepts:integer-numbers,distance
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:NT
+* LTopic:LTNumTheoryExamples
 
 </small>
 
@@ -427,8 +458,9 @@ Vai muzeja vadītājs var izveidot šādu maršrutu?
 <small>
 
 * concepts:grid,square-side,rectangle,path
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Comb
+* LTopic:LTGraphs
 
 </small>
 
@@ -441,8 +473,9 @@ Kāds ir skaitļa $2022^{2022}$ pēdējais cipars?
 <small>
 
 * concepts:power,last-digit
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:NT
+* LTopic:LTCongruenceModulo
 
 </small>
 
@@ -458,22 +491,25 @@ grupas skaitļu summa ir pirmskaitlis, ja **(A)** $n = 8$,
 <small>
 
 * concepts:primes,natural-numbers,disjoint-sets,sum
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
+* LTopic:LTNumTheoryExamples,LTDivisibility
 
 </small>
     
     
 # <lo-sample/> LV.AMO.2022B.10.3
 
-Uz taisnleņķa trijstūra $ACB$ hipotenūzas $AB$ atlikts punkts $O$, kas ir centrs riņķa līnijai ar rādiusu $3$, kura pieskaras
+Uz taisnleņķa trijstūra $ACB$ hipotenūzas $AB$ atlikts punkts $O$, 
+kas ir centrs riņķa līnijai ar rādiusu $3$, kura pieskaras
 abām katetēm. Aprēķināt trijstūra $ACB$ laukumu, ja $OB = 5$.
 
 <small>
 
 * concepts:right-triangle,area,legs-in-right-triangle,circle,tangent
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
+* LTopic:LTTriangles
 
 </small>
     
@@ -489,8 +525,9 @@ nav reālu sakņu!
 <small>
 
 * concepts:equation,real-numbers,root
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
+* LTopic:LTEquations
 
 </small>
     
@@ -505,8 +542,9 @@ roku abiem saviem blakussēdētājiem!
 <small>
 
 * concepts:graph,vertex,edge
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
+* LTopic:LTGraphs
 
 </small>
 
@@ -519,8 +557,9 @@ Vai skaitli 2022 var izteikt kā divu veselu skaitļu kubu summu?
 <small>
 
 * concepts:sum,cube-Alg,integer-numbers
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:NT
+* LTopic:LTCongruenceModulo
 
 </small>
 
@@ -533,38 +572,44 @@ Kādām reālām $p$ vērtībām vienādojuma $x^2 + x + p = 0$ sakņu kvadrātu
 <small>
 
 * concepts:equation,square-Alg,sum,value
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
+* LTopic:LTEquations
 
 </small>
     
     
 # <lo-sample/> LV.AMO.2022B.11.3
 
-Trijstūrī $ABC$ ievilktā riņķa līnija pieskaras malai $AB$ punktā $D$ tā, ka $AD = 8$ un $BD = 1$. Aprēķināt malas $BC$
+Trijstūrī $ABC$ ievilktā riņķa līnija pieskaras malai 
+$AB$ punktā $D$ tā, ka $AD = 8$ un $BD = 1$. Aprēķināt malas $BC$
 garumu, ja trijstūra leņķa $B$ lielums ir $120^{\circ}$.
 
 <small>
 
 * concepts:triangle,inscribed-circle,angle,tangent
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
+* LTopic:LTCircleAndRelatedAngles
 
 </small>
     
     
 # <lo-sample/> LV.AMO.2022B.11.4
 
-Pierādīt, ka katru naturālu skaitli, kas ir lielāks nekā $3$, var vienā vienīgā veidā izteikt kā trīs naturālu
-skaitļu $x,y,z$ ($x \leq y \leq z$) summu tā, lai skaitļiem $x$, $y$, $z$ izpildītos nevienādība
+Pierādīt, ka katru naturālu skaitli, kas ir lielāks nekā $3$, 
+var vienā vienīgā veidā izteikt kā trīs naturālu
+skaitļu $x,y,z$ ($x \leq y \leq z$) summu tā, lai skaitļiem 
+$x$, $y$, $z$ izpildītos nevienādība
 
 $$x^2 + y^2 + z^2 - xy - yz - xz \leq 1.$$
 
 <small>
 
 * concepts:inequality,natural-numbers,sum
-* questionType:
-* domain:
+* questionType:Prove
+* domain:NT
+* LTopic:LTTransformsNumTheory
 
 </small>
 
@@ -587,8 +632,9 @@ Kādām $m$ un $n$ vērtībām muzeja vadītājs var izveidot šādu maršrutu?
 <small>
 
 * concepts:grid,square-side,rectangle,path
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Comb
+* LTopic:LTGraphs
 
 </small>
 
@@ -602,8 +648,9 @@ Vai skaitli $2023^2$ var izteikt kā trīs veselu skaitļu kubu summu?
 <small>
 
 * concepts:integer-numbers,cube-Alg,sum
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:NT
+* LTopic:LTCongruenceModulo
 
 </small>
 
@@ -616,8 +663,9 @@ Kādām reālām $p$ vērtībām vienādojuma $x^2 + x + p$ sakņu kubu summa ir
 <small>
 
 * concepts:real-numbers,cube-Alg,equation
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
+* LTopic:LTEquations
 
 </small>
 
@@ -634,8 +682,9 @@ augstuma no virsotnes $B$ garums ir $\sqrt{3}$. Kāds var būt šī trijstūra l
 <small>
 
 * concepts:triangle,median,altitude,area
-* questionType: 
-* domain:
+* questionType:FindAll
+* domain:Geom
+* LTopic:LTTriangles
 
 </small>
 
@@ -649,8 +698,9 @@ Atrisināt reālos skaitļos vienādojumu $3 \sin x + 4 \cos x = 6$.
 <small>
 
 * concepts:equation,real-numbers,sine,cosine
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
+* LTopic:LTEquations
 
 </small>
     
@@ -662,17 +712,20 @@ Dota rūtiņu tabula $n \times n$. Ilmārs un Kims spēlē šādu spēli.
 Viņi pēc kārtas kādā vēl tukšā rūtiņā ieraksta skaitli $1$
 vai $-1$. Spēli sāk Ilmārs. Ja pēc kāda spēlētāja gājiena tiek 
 aizpildīta kāda rinda vai kolonna, tad tiek aprēķināts
-tajā esošo skaitļu reizinājums. Ja tas ir vienāds ar $-1$, tad spēlētājs, kurš veica pēdējo gājienu, iegūst $1$ punktu
-(ja spēlētājs ar savu gājienu vienlaicīgi pabeidz gan rindu, gan kolonnu un katrā skaitļu reizinājums ir $-1$, tad
+tajā esošo skaitļu reizinājums. Ja tas ir vienāds ar $-1$, tad spēlētājs, 
+kurš veica pēdējo gājienu, iegūst $1$ punktu
+(ja spēlētājs ar savu gājienu vienlaicīgi pabeidz gan rindu, gan kolonnu 
+un katrā skaitļu reizinājums ir $-1$, tad
 viņš iegūst divus punktus). Spēle beidzas, kad tabula ir pilnībā aizpildīta. Uzvar spēlētājs, kurš iegūst visvairāk
-punktu. Kuram spēlētājam ir uzvaroša stratēģija, ja **(A)** $n = 2021$; **(B)**  $n = 2022$?
+punktu. Kuram spēlētājam ir uzvaroša stratēģija, ja **(A)** $n = 2021$; **(B)** $n = 2022$?
     
     
 <small>
 
 * concepts:game,table,row,column,product,winning-strategy
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Comb
+* LTopic:LTGames
 
 </small>
 
