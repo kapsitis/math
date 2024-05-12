@@ -26,17 +26,32 @@ def readCSVfile():  # Funkcija, kas lasa CSV failu
 
 def merge(url,all_concepts):
     getGoogleSpreadsheet(url)
-    # readCSVfile()
     # 1.solis - savākt vārdnīcu no readCVSVfile(), atgriež vārdnīcu
+    existing_concepts = readCSVfile()
     # 2.solis - izveidojam paši savu tukšu vārdnīcu
+    new_concepts = {}
     # 3.solis - for each - katram vārdam no all_concepts dara 1 no 2 zariem:
     #   Ja šis vārds nav esošajā vārdnīcā, tad jaunajai vārdnīcai pievieno vērtību ('NA', 'NA')
     #   Ja šis vārds jau ir esošajā vārdnīcā, tad jaunajai vārdnīcai pievieno jau esošo vērtību, kas ir latviešu tulkojums un skaidrojums
+    for concept in all_concepts:
+        if concept not in existing_concepts:
+            new_concepts[concept] = ('NA', 'NA')
+        else:
+            new_concepts[concept] = existing_concepts[concept]
     # Pašās beigās var izrēķināt, cik ir tādu vārdu, kuri vecajā vārdnīcā bija, bet all_concepts sarakstā nav. 
     # To iegūst, kā 2 kopu starpību, atņem no esošās vārdnīcas atslēgām all_concepts sarakstu
-    # Pašās pašās beigās sakārto jaunās vārdnīcas atslēgas alfabētiski 
+    missing_concepts = set(existing_concepts.keys()) - set(all_concepts)
+    # Pašās pašās beigās sakārto jaunās vārdnīcas atslēgas alfabētiski
+    new_concepts = dict(sorted(new_concepts.items()))
     # Un sāk drukāt csv, kur ir atslēga [en] un tulkojums [lv] (1.elements no pārīša) un skaidrojums (2.elements no pārīša)
     # Rezultātu ieglabā csv failā
+    with open('resources/merged_concepts.csv', 'w', newline='', encoding='utf-8') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(['en', 'lv', 'skaidrojums'])  # Virsraksts
+    for key, value in new_concepts.items():
+        writer.writerow([key, value[0], value[1]])  # Rakstam rindiņas
+
+    return missing_concepts
 
 
 def get_input_files():
