@@ -85,7 +85,7 @@ if __name__ == '__main__':
     #           'Find.Only': 'FindAll',         
     #           }
     
-    in_files = get_input_files()
+    in_files = get_input_files() # 
     for in_file in in_files:
         out_file = in_file[:-3] + "2.md"
         print(f'{in_file} --> {out_file}')
