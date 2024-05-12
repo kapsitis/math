@@ -2576,7 +2576,7 @@ kvadrātu starpība?
 <small>
 
 * concepts:square-Geo,rectangle
-* questionType:FindCount
+* questionType:FindOptimal
 
 </small>
 
@@ -2794,7 +2794,7 @@ vesels nogrieznis)?
 Starp skaitļiem
 $$4\;\;1\;\;5\;\;7,$$
 nemainot to secību, ievieto aritmētisko darbību zīmes ("$+$", "$-$", "$\ast$",
-"$:$") un iekavas tā, lai iegūtās izteiksmes vērtība būtu **(a)** $13$, **(b)** $14$. 
+"$:$") un iekavas tā, lai iegūtās izteiksmes vērtība būtu **(A)** $13$, **(B)** $14$. 
 
 
 <small>
@@ -2808,9 +2808,10 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("$+$", "$-$", "$\ast$
 
 
 
-## ABC
+## Atrisinājums
 
-**#GadījumuPārlase** **#SintaksesKoks** **(a)** $4 \ast 1 \ast 5 - 7 = 13$; **(b)** $4:(1-5:7) = 14$ bet arī $(4-1-5)\ast(-7)=14$.
+**(A)** $4 \ast 1 \ast 5 - 7 = 13$;  
+**(B)** $4:(1-5:7) = 14$ bet arī $(4-1-5)\ast(-7)=14$.
 
 
 
@@ -3172,7 +3173,7 @@ gājienu. Kurš spēlētājs vienmēr var panākt savu uzvaru?
 
 <small>
 
-* questionType:FindExample
+* questionType:ProveDisprove
 
 </small>
 
