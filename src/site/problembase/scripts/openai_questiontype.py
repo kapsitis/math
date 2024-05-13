@@ -47,10 +47,12 @@ def normalize_text(text):
 #         return -1
 
 if __name__ == '__main__':
-    categories = ["Find.All", "Find.Count", "Find.Optimal", "Find.Example", 
-                  "Prove", "ProveDisprove", "Algorithm"]
+    # categories = ["Find.All", "Find.Count", "Find.Optimal", "Find.Example", 
+    #              "Prove", "ProveDisprove", "Algorithm"]
+    categories = ["Alg", "Geom", "NT", "Comb"]
 
-    questionType_re = re.compile(r'.+?questionType:([\w\.,]+).+?',re.DOTALL)
+    #questionType_re = re.compile(r'.+?questionType:([\w\.,]+).+?',re.DOTALL)
+    concept_re = re.compile(r'.+?domain:([\w\.,]+).+?',re.DOTALL)
     problemList = extract_sections_from_md(f'../{sys.argv[1]}/content.md')
 
     # prepare training data: problem_data_set un category_data_set
@@ -59,13 +61,13 @@ if __name__ == '__main__':
     title_data_set = []
     for (title, problem) in problemList:
         category = 'NA'
-        m = questionType_re.match(problem)  # Mēģina atrast questionType
+        m = concept_re.match(problem)  # Mēģina atrast questionType
         if m:
             category = m.group(1)
         problem = normalize_text(problem)
         
-        answer = classify_math_problem(problem,'questionType_LV') # problem un prompt nosaukums
-        with open("questiontype_openai.csv", 'a') as file1:
+        answer = classify_math_problem(problem,'domain_LV') # problem un prompt nosaukums
+        with open("domain_lv_openai.csv", 'a', encoding='utf-8') as file1:
             file1.write(f'{title},"{category}","{answer}"\n')
 
 
