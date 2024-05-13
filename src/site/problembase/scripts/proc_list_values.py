@@ -45,11 +45,14 @@ def merge(url,all_concepts):
     new_concepts = dict(sorted(new_concepts.items()))
     # Un sāk drukāt csv, kur ir atslēga [en] un tulkojums [lv] (1.elements no pārīša) un skaidrojums (2.elements no pārīša)
     # Rezultātu ieglabā csv failā
+    # Drukājam rezultātu csv failā
     with open('resources/merged_concepts.csv', 'w', newline='', encoding='utf-8') as csv_file:
         writer = csv.writer(csv_file)
         writer.writerow(['en', 'lv', 'skaidrojums'])  # Virsraksts
-    for key, value in new_concepts.items():
-        writer.writerow([key, value[0], value[1]])  # Rakstam rindiņas
+        for key, value in new_concepts.items():
+            writer.writerow([key, value[0], value[1]])  # Rakstam rindiņas
+
+    return missing_concepts
 
     return missing_concepts
 
@@ -102,5 +105,8 @@ if __name__ == '__main__':
     all_concepts.sort()
     print(all_concepts)
     print(len(all_concepts))
+
+    missing_concepts = merge(url, all_concepts)
+    print("Missing concepts:", missing_concepts)
 
 

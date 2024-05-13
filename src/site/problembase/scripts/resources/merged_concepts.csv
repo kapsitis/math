@@ -1,0 +1,128 @@
+en,lv,skaidrojums
+absolute-value,absolūtā vērtība,
+add,NA,NA
+altitude,NA,NA
+angle,NA,NA
+area,laukums,
+argument,argumenti,
+arithmetic-mean,aritmētiskais vidējais,
+arithmetic-progression,aritmētiskā progresija,
+at-least,NA,NA
+circle,aplis,
+circumference,riņķa līnija,
+circumscribed-circle,apvilktā riņķa līnija,
+column,NA,NA
+combinations,kombinācijas,
+composite-numbers,salikti skaitļi,
+consecutive-numbers,NA,NA
+constant-e,skaitlis e,
+coprimes,savstarpēji pirmskaitļi,
+cosine,NA,NA
+cube-Alg,NA,NA
+decimal-fractions,decimāldaļskaitļi,
+decimal-notation,decimālpieraksts,
+difference,NA,NA
+digit,cipars,
+digit-manipulation,ciparu manipulācija,
+disjoint-sets,NA,NA
+distance,NA,NA
+divisibility,dalāmība,
+divisors,dalītāji,
+edge,NA,NA
+equal-triangles,vienādi trijstūri,
+equality,NA,NA
+equation,vienādojums,
+equilateral-triangle,vienādmalu trijstūris,
+even-number,pāra skaitlis,
+expression,izteiksme,
+factorial,faktoriāls,
+falsehood,NA,NA
+fibonacci-sequence,Fibonači virkne,
+floor,apakšējā veselā daļa,
+fractions,daļas,
+full-power,pilna pakāpe,
+full-powers,pilna pakāpe,
+full-square,pilns kvadrāts,
+function,funkcija,
+game,NA,NA
+gcd,lkd,
+geometric-mean,ģeometriskais vidējais,
+geometric-progression,ģeometriska progresija,
+graph,NA,NA
+grid,NA,NA
+groups,grupa,
+height,NA,NA
+hexagon,NA,NA
+inequality,nevienādība,
+inscribed-circle,ievilkta riņķa līnija,
+integer-numbers,NA,NA
+integer-polynomial,polinoms ar veseliem koeficientiem,
+integer-polynomials,polinoms ar veseliem koeficientiem,
+inverse-number,inversie skaitļi,
+irrational-numbers,iracionāli skaitļi,
+isosceles-triangle,vienādsānu trijstūris,
+last-digit,NA,NA
+lcm,mkd,
+legs-in-right-triangle,NA,NA
+line,NA,NA
+linear-expression,lineāra izteiksme,
+long-sums,garas summas,
+mapping,NA,NA
+median,mediāna,
+mediant-of-fractions,racionālu daļu mediāna,
+monotonic-sequence,monotona virkne,
+multiple,daudzkārtnis,
+mutual-primes,savstarpēji pirmskaitļi,
+natural-numbers,NA,NA
+pair,NA,NA
+palindrome,palindroms,
+parity,paritāte,
+partition,kopas sadalījums,
+path,NA,NA
+perimeter,perimetrs,
+plane,NA,NA
+point,NA,NA
+power,pakāpe,
+power-sums,pakāpju summas,
+primes,pirmskaitļi,
+product,reizinājums,
+proportion,proporcija,
+quadratic-equation,kvadrātvienādojums,
+rational-numbers,racionāli skaitļi ,
+real-numbers,reāli skaitļi ,
+rectangle,taisnstūris,
+recurrent-sequence,rekurentas virknes,
+remainder,atlikums,
+remove,NA,NA
+right-triangle,NA,NA
+root,sakne,
+rotation,NA,NA
+row,NA,NA
+segment,NA,NA
+sequence,virkne,
+series,rinda,
+set,NA,NA
+shape,NA,NA
+sine,NA,NA
+square,kvadrāts,
+square-Alg,kvadrāts (alg.),
+square-Geo,kvadrāts (geo.),
+square-root,kvadrātsakne,
+square-side,NA,NA
+subset,apakškopa,
+subtract,NA,NA
+sum,summa,
+sum-of-digits,ciparu summa,
+system-of-equations,vienādojumu sistēma,
+table,NA,NA
+tangent,NA,NA
+to-win,NA,NA
+trapezoid,trapece,
+triangle,trijstūris,
+true-statement,NA,NA
+truth,NA,NA
+valuations,valuācijas,The highest degree of a prime that is the divisor of the given number
+value,vērtība,
+variable,NA,NA
+vertex,NA,NA
+winning-strategy,NA,NA
