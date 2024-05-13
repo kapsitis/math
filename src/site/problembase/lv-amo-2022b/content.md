@@ -363,7 +363,7 @@ Cik draugu saka taisnību?
 <small>
 
 * concepts:truth,falsehood
-* questionType:FindAll
+* questionType:FindCount
 * domain:Comb
 * LTopic:LTLogic
 
@@ -723,7 +723,7 @@ punktu. Kuram spēlētājam ir uzvaroša stratēģija, ja **(A)** $n = 2021$; **
 <small>
 
 * concepts:game,table,row,column,product,winning-strategy
-* questionType:FindExample
+* questionType:ProveDisprove
 * domain:Comb
 * LTopic:LTGames
 
