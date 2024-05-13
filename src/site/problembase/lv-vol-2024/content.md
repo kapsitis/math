@@ -7,6 +7,7 @@ lielāks nekā visu šo skaitļu lielākais kopīgais dalītājs?
 <small>
 
 * questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
@@ -36,6 +37,7 @@ $BOF$ laukums ir $4$, bet trijstūra $AOD$ laukums ir $63$. Aprēķināt četrst
 <small>
 
 * questionType:FindAll
+* domain:Geom
 
 </small>
 
@@ -68,6 +70,7 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 <small>
 
 * questionType:Prove
+* domain:Comb
 
 </small>
 
@@ -106,6 +109,7 @@ ka pēc $12$ gājieniem iegūtās izteiksmes vērtība dalās ar $9$.
 <small>
 
 * questionType:Algorithm
+* domain:NT
 
 </small>
 
@@ -138,6 +142,7 @@ var izdarīt?
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -171,6 +176,7 @@ dalītāju?
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -194,6 +200,7 @@ $\sphericalangle EAF = \sphericalangle EDF$.
 <small>
 
 * questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -266,6 +273,7 @@ z + \frac{1}{z} = 2x^2 \\
 <small>
 
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -360,6 +368,7 @@ kopā piedalījās šajā olimpiādē?
 <small>
 
 * questionType:FindCount
+* domain:Alg
 
 </small>
 
@@ -422,6 +431,7 @@ iekrāsot visas tabulas rūtiņas?
 <small>
 
 * questionType:FindOptimal
+* domain:Comb
 
 </small>
 
@@ -471,6 +481,7 @@ $$4a + 4b^2 + \sqrt{4a - 4b^2 - 1} \leq 1.$$
 <small>
 
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -525,6 +536,7 @@ Aprēķināt četrstūra $OECG$ laukumu!
 <small>
 
 * questionType:FindAll
+* domain:Geom
 
 </small>
 
@@ -574,6 +586,7 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 
 * seeAlso:LV.VOL.2024.9.3
 * questionType:Prove
+* domain:Comb
 
 </small>
 
@@ -609,6 +622,7 @@ skaitļu summu?
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -665,6 +679,7 @@ saskaitītas. Pierādīt, ka spēlētājs $B$ var panākt, lai iegūtā summa b�
 <small>
 
 * questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -699,6 +714,7 @@ z + \frac{1}{z} = x+y\\
 <small>
 
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -731,6 +747,7 @@ Pierādīt, ka $AT$ ir leņķa $BAC$ bisektrise!
 <small>
 
 * questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -767,6 +784,7 @@ uzvarēs pareizi spēlējot, ja papildus zināms, ka katrs no viņiem var apēst
 <small>
 
 * questionType:Algorithm,Algorithm
+* domain:Comb
 
 </small>
 
@@ -832,6 +850,7 @@ ka skaitlis $C-1$ ir pirmskaitlis?
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -870,6 +889,7 @@ $3x^2 + y^2 + 1 \geq A(x^2 + xy + x)$ visiem reāliem skaitļiem $x$ un $y$.
 <small>
 
 * questionType:FindOptimal
+* domain:Alg
 
 </small>
 
