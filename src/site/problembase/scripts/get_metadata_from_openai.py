@@ -44,7 +44,21 @@ def classify_math_problem(problem_text,prompt_name):
             "Šīs problēmas var ietvert permutācijas, kombinācijas, 'vistu būrīša' principu, grafu teoriju un citus skaitīšanas principus." \
             f"Šeit ir problēma, kuru jums būs jāklasificē: \n\n'''{problem_text}'''\n\n"
     
-    all_prompts = {'questionType_LV': prompt0, 'domain_EN': prompt1, 'domain_LV' : prompt2}
+    prompt3 = "Iedomājaties, ka jūs veidojat priekšmetu rādītāju (subject index), " \
+             "kas ļauj atrast uzdevumus atbilstoši tajos ierakstītajiem matemātikas terminiem" \
+             "katrs termins satur 1-3 vārdus. " \
+             "Izvairies no terminiem, kas nebūs vārdnīcās vai vikipēdijas rakstos vai kuri nav matemātiski. " \
+            "Dotajam uzdevumam, lūdzu, izrakstiet atrastos terminus no uzdevuma teksta. Seko uzdevuma teksts: \n\n''" \
+             f"'{problem_text}'''\n\n"
+    
+    prompt4 = "For the given math problem please return a list of mathematical concepts. " \
+              "Each concept contains 1-3 words and is literally mentioned in the problem text. " \
+              "Avoid concepts that are not likely to be in dictionaries or wikipedia articles or are not mathematical. " \
+              "Here is the problem: \n\n''" \
+              f"'{problem_text}'''\n\n"
+              
+    
+    all_prompts = {'questionType_LV': prompt0, 'domain_EN': prompt1, 'domain_LV' : prompt2, 'concepts_LV' : prompt3, 'concepts_EN' : prompt4}
 
     response = client.chat.completions.create(
       model="gpt-4-turbo",
