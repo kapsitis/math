@@ -1539,7 +1539,7 @@ $\frac{n^3+3}{n+3}$, gan $\frac{n^4+4}{n+4}$ ir veseli skaitļi.
 
 
 <!--
-concepts=integer-polynomials
+concepts=integer-polynomial
 questionType=FindAll
 -->
 

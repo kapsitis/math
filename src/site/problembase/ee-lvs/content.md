@@ -231,7 +231,7 @@ $$\frac{1}{a_i} + \frac{1}{a_{i+1}} + \ldots + \frac{1}{a_j}$$
 
 <!--
 questionType=Prove
-concepts=valuations
+concepts=valuation
 -->
 
 
@@ -845,7 +845,7 @@ dalīties iegūtais reizinājums.
 </text>
 
 <!--
-concepts=primes,valuations
+concepts=primes,valuation
 questionType=FindOptimal
 -->
 

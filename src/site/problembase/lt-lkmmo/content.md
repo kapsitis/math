@@ -1570,7 +1570,7 @@ dalijasi iš $12^k$?
 
 <!--
 questionType=FindOptimal
-concepts=valuations,power,factorial
+concepts=valuation,power,factorial
 -->
 
 
@@ -2075,7 +2075,7 @@ kur skaičius $n$ natūralusis, gali dalytis Auroros gautas skaičius?
 
 <!--
 questionType=FindOptimal
-concepts=valuations
+concepts=valuation
 -->
 
 

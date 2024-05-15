@@ -437,7 +437,7 @@ $P(x) = a_0 + a_1x + a_2x^2 +\ldots+ a_n x^n$,
 
 <!--
 questionType=ProveDisprove
-concepts=integer-polynomials
+concepts=integer-polynomial
 -->
 
 

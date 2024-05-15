@@ -1,140 +1,65 @@
-LV.VOL.2024.9.1,"Alg","Skaitļu teorija"
-LV.VOL.2024.9.2,"Geom","Ģeometrija"
-LV.VOL.2024.9.3,"Comb","kombinatorika"
-LV.VOL.2024.9.4,"NT","skaitļu teorija"
-LV.VOL.2024.9.5,"NT","kombinatorika"
-LV.VOL.2024.10.1,"NT","skaitļu teorija"
-LV.VOL.2024.10.2,"Geom","Ģeometrija"
-LV.VOL.2024.10.3,"Alg","Algebra"
-LV.VOL.2024.10.4,"Alg","Skaitļu teorija"
-LV.VOL.2024.10.5,"Comb","kombinatorika"
-LV.VOL.2024.11.1,"Alg","Algebra"
-LV.VOL.2024.11.2,"Geom","Ģeometrija"
-LV.VOL.2024.11.3,"Comb","Kombinatorika"
-LV.VOL.2024.11.4,"NT","skaitļu teorija"
-LV.VOL.2024.11.5,"Alg","algebra"
-LV.VOL.2024.12.1,"Alg","algebra"
-LV.VOL.2024.12.2,"Geom","Ģeometrija"
-LV.VOL.2024.12.3,"Comb","kombinatorika"
-LV.VOL.2024.12.4,"NT","Skaitļu teorija"
-LV.VOL.2024.12.5,"Alg","algebra"
-LV.NOL.2024.5.1,"NT","Algebra"
-LV.NOL.2024.5.2,"Geom","Kombinatorika"
-LV.NOL.2024.5.3,"Comb","Ģeometrija"
-LV.NOL.2024.5.4,"NT","Skaitļu teorija"
-LV.NOL.2024.5.5,"Alg","kombinatorika"
-LV.NOL.2024.6.1,"NT","Algebra"
-LV.NOL.2024.6.2,"Geom","Kombinatorika"
-LV.NOL.2024.6.3,"Comb","Ģeometrija"
-LV.NOL.2024.6.4,"NT","Skaitļu teorija"
-LV.NOL.2024.6.5,"Geom","Ģeometrija"
-LV.NOL.2024.7.1,"Comb","algebra"
-LV.NOL.2024.7.2,"NT","skaitļu teorija"
-LV.NOL.2024.7.3,"Geom","Ģeometrija"
-LV.NOL.2024.7.4,"Comb","Ģeometrija"
-LV.NOL.2024.7.5,"Alg","kombinatorika"
-LV.NOL.2024.8.1,"NT","Skaitļu teorija"
-LV.NOL.2024.8.2,"Geom","Ģeometrija"
-LV.NOL.2024.8.3,"Comb","Kombinatorika"
-LV.NOL.2024.8.4,"Alg","Kombinatorika"
-LV.NOL.2024.8.5,"Alg","Kombinatorika"
-LV.NOL.2024.9.1,"Geom","Ģeometrija"
-LV.NOL.2024.9.2,"Alg","Algebra"
-LV.NOL.2024.9.3,"Geom","Ģeometrija"
-LV.NOL.2024.9.4,"Comb","kombinatorika"
-LV.NOL.2024.9.5,"NT","skaitļu teorija"
-LV.NOL.2024.10.1,"Geom","Ģeometrija"
-LV.NOL.2024.10.2,"Alg","algebra"
-LV.NOL.2024.10.3,"Geom","Ģeometrija"
-LV.NOL.2024.10.4,"NT","Skaitļu teorija"
-LV.NOL.2024.10.5,"Comb","kombinatorika"
-LV.NOL.2024.11.1,"Geom","Ģeometrija"
-LV.NOL.2024.11.2,"Alg","algebra"
-LV.NOL.2024.11.3,"Geom","Ģeometrija"
-LV.NOL.2024.11.4,"NT","Skaitļu teorija"
-LV.NOL.2024.11.5,"Comb","kombinatorika"
-LV.NOL.2024.12.1,"Geom","Ģeometrija"
-LV.NOL.2024.12.2,"Alg","Algebra"
-LV.NOL.2024.12.3,"Geom","Ģeometrija"
-LV.NOL.2024.12.4,"NT","kombinatorika"
-LV.NOL.2024.12.5,"NT","skaitļu teorija"
-LV.AMO.2023.5.1,"Alg","kombinatorika"
-LV.AMO.2023.5.2,"NT","Skaitļu teorija"
-LV.AMO.2023.5.3,"Geom","Ģeometrija"
-LV.AMO.2023.5.4,"Comb","Kombinatorika"
-LV.AMO.2023.5.5,"Alg","Kombinatorika"
-LV.AMO.2023.6.1,"Alg","kombinatorika"
-LV.AMO.2023.6.2,"NT","skaitļu teorija"
-LV.AMO.2023.6.3,"Geom","Ģeometrija"
-LV.AMO.2023.6.4,"Comb","kombinatorika"
-LV.AMO.2023.6.5,"Alg","Kombinatorika"
-LV.AMO.2023.7.1,"Comb","kombinatorika"
-LV.AMO.2023.7.2,"NT","Skaitļu teorija"
-LV.AMO.2023.7.3,"Geom","Ģeometrija"
-LV.AMO.2023.7.4,"Alg","Kombinatorika"
-LV.AMO.2023.7.5,"Comb","kombinatorika"
-LV.AMO.2023.8.1,"Alg","Skaitļu teorija"
-LV.AMO.2023.8.2,"NT","Skaitļu teorija"
-LV.AMO.2023.8.3,"Geom","Ģeometrija"
-LV.AMO.2023.8.4,"Alg","skaitļu teorija"
-LV.AMO.2023.8.5,"Comb","Kombinatorika"
-LV.AMO.2023.9.1,"Alg","Skaitļu teorija"
-LV.AMO.2023.9.2,"NT","skaitļu teorija"
-LV.AMO.2023.9.3,"Geom","Ģeometrija"
-LV.AMO.2023.9.4,"Alg","kombinatorika"
-LV.AMO.2023.9.5,"Comb","Skaitļu teorija"
-LV.AMO.2023.10.1,"Comb","Kombinatorika"
-LV.AMO.2023.10.2,"Alg","algebra"
-LV.AMO.2023.10.3,"Geom","Ģeometrija"
-LV.AMO.2023.10.4,"Alg","Kombinatorika"
-LV.AMO.2023.10.5,"NT","skaitļu teorija"
-LV.AMO.2023.11.1,"Alg","Kombinatorika"
-LV.AMO.2023.11.2,"Alg","Algebra"
-LV.AMO.2023.11.3,"Geom","Ģeometrija"
-LV.AMO.2023.11.4,"Comb","kombinatorika"
-LV.AMO.2023.11.5,"NT","Algebra"
-LV.AMO.2023.12.1,"Alg","Kombinatorika"
-LV.AMO.2023.12.2,"Alg","Algebra"
-LV.AMO.2023.12.3,"Geom","Ģeometrija"
-LV.AMO.2023.12.4,"Comb","kombinatorika"
-LV.AMO.2023.12.5,"NT","skaitļu teorija"
-LV.AMO.2022B.5.1,"NT","Skaitļu teorija"
-LV.AMO.2022B.5.2,"Geom","Ģeometrija"
-LV.AMO.2022B.5.3,"NT","Skaitļu teorija"
-LV.AMO.2022B.5.4,"Alg","Ģeometrija"
-LV.AMO.2022B.5.5,"Comb","loģika"
-LV.AMO.2022B.6.1,"NT","skaitļu teorija"
-LV.AMO.2022B.6.2,"Geom","ģeometrija"
-LV.AMO.2022B.6.3,"NT","Skaitļu teorija"
-LV.AMO.2022B.6.4,"Alg","Ģeometrija"
-LV.AMO.2022B.6.5,"Comb","kombinatorika"
-LV.AMO.2022B.7.1,"NT","skaitļu teorija"
-LV.AMO.2022B.7.2,"Alg","skaitļu teorija"
-LV.AMO.2022B.7.3,"Geom","Ģeometrija"
-LV.AMO.2022B.7.4,"NT","kombinatorika"
-LV.AMO.2022B.7.5,"Comb","Kombinatorika"
-LV.AMO.2022B.8.1,"NT","skaitļu teorija"
-LV.AMO.2022B.8.2,"Alg","algebra"
-LV.AMO.2022B.8.3,"Geom","Ģeometrija"
-LV.AMO.2022B.8.4,"NT","skaitļu teorija"
-LV.AMO.2022B.8.5,"Comb","kombinatorika"
-LV.AMO.2022B.9.1,"NT","Skaitļu teorija"
-LV.AMO.2022B.9.2,"Alg","Algebra"
-LV.AMO.2022B.9.3,"Geom","Ģeometrija"
-LV.AMO.2022B.9.4,"NT","kombinatorika"
-LV.AMO.2022B.9.5,"Comb","kombinatorika"
-LV.AMO.2022B.10.1,"NT","skaitļu teorija"
-LV.AMO.2022B.10.2,"NT","skaitļu teorija"
-LV.AMO.2022B.10.3,"Geom","Ģeometrija"
-LV.AMO.2022B.10.4,"Alg","Algebra"
-LV.AMO.2022B.10.5,"Comb","kombinatorika"
-LV.AMO.2022B.11.1,"NT","skaitļu teorija"
-LV.AMO.2022B.11.2,"Alg","Algebra"
-LV.AMO.2022B.11.3,"Geom","Ģeometrija"
-LV.AMO.2022B.11.4,"NT","skaitļu teorija"
-LV.AMO.2022B.11.5,"Comb","Kombinatorika"
-LV.AMO.2022B.12.1,"NT","Skaitļu teorija"
-LV.AMO.2022B.12.2,"Alg","Algebra"
-LV.AMO.2022B.12.3,"Geom","Ģeometrija"
-LV.AMO.2022B.12.4,"Alg","Algebra"
-LV.AMO.2022B.12.5,"Comb","kombinatorika"
+
+Skip to content
+Menu
+Weekly edition
+The world in brief
+Search
+Log in
+
+New Articles | The Intelligence 
+Morale is slipping on Ukraine’s front lines—but determination is not
+Also on the daily podcast: the moral dimension of inflation and the centenary of a prescient work of eco-literature
+
+May 14th 2024
+
+Share
+At a hidden command centre our correspondent finds deflated but defiant soldiers. Fight against Russia now, they say, or fight for Russia against Europe later. With inflation poised to play a critical role in America’s election, we ask why voters despise it even though it can signal rude economic health (11:58). And how a century-old novella called “The Vortex” pioneered eco-literature (19:233). Runtime: 25 min
+
+Listen on: Apple Podcasts | Spotify
+
+Already have an account?Log in
+Unlock your free trial to continue
+Explore all our independent journalism for free for one month. Cancel at any time
+Free trial
+Or continue reading this article
+Register now
+
+Share
+Reuse this content
+the economist today
+Handpicked stories, in your inbox
+A daily newsletter with the best of our journalism
+
+example@email.com
+Sign up
+
+Yes, I agree to receive exclusive content, offers and updates to products and services from The Economist Group. I can change these preferences at any time.
+Subscribe
+Corporate subscriptions
+Reuse our content
+Help and contact us
+Keep updated
+Published since September 1843 to take part in “a severe contest between intelligence, which presses forward, and an unworthy, timid ignorance obstructing our progress.”
+
+The Economist
+About
+Advertise
+Press centre
+The Economist Group
+The Economist Group
+Economist Intelligence
+Economist Impact
+Economist Impact Events
+Working here
+Economist Education Courses
+Executive Jobs
+To enhance your experience and ensure our website runs smoothly, we use cookies and similar technologies.Manage Cookies
+Terms of Use
+Privacy
+Cookie Policy
+Accessibility
+Modern Slavery Statement
+Sitemap
+Your Data Rights
+Copyright © The Economist Newspaper Limited 2024. All rights reserved.
+
