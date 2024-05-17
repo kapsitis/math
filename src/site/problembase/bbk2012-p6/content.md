@@ -8,9 +8,11 @@ $$\left\lfloor \frac{0^2}{1980} \right\rfloor,
 $$\ldots,\left\lfloor \frac{1979^2}{1980} \right\rfloor, 
 \left\lfloor \frac{1980^2}{1980} \right\rfloor ?$$
 
-<!--
-sameAs=LV.OTHER.TST.1980.10.1
--->
+<small>
+
+* sameAs:LV.OTHER.TST.1980.10.1
+
+</small>
 
 
 
@@ -23,9 +25,12 @@ $$a_1 = 2,\; a_2 = 7,\; -\frac{1}{2} < a_{n+1} -
 Pierādīt, ka visi locekļi, sākot ar otro, ir nepāra 
 skaitļi.
 
-<!--
-sameAs=LV.OTHER.TST.1992.12.3
--->
+
+<small>
+
+sameAs:LV.OTHER.TST.1992.12.3
+
+</small>
 
 
 

@@ -352,7 +352,7 @@ $$\frac{3x^2 + 16xy + 15y^2}{x^2 + y^2} = 21$$
 ir atrisinājums? Atbildi pamatojiet.  
 b) Atrodiet lielāko izteiksmes 
 $$\frac{3x^2 + 16xy + 15y^2}{x^2 + y^2}$$
-vērtība.  
+vērtību.  
 c) Taisnleņķa trijstūra katešu garumi 
 $u$ un $v$ un izteiksmes 
 $$\frac{ux^2 + vxy}{x^2 + y^2}$$
@@ -378,9 +378,11 @@ yra natūralieji skaičiai. Įrodykite, kad trikampio
 kuriems reiškiniai apibrėžti.)
 </text>
 
-<!--
-concepts=real-numbers
--->
+<small>
+
+* concepts:real-number,natural-number,right-triangle,leg-Geom
+
+</small>
 
 
 
@@ -441,9 +443,8 @@ tokį rinkinį. b) Ar yra daugiau tokių rinkinių?
 Atrodiet visus reālos skaitļus $x \neq 0$, 
 kuriem abi skaitļi $x+\sqrt{35}$
 un $\frac{1}{x}-\sqrt{35}$ ir veseli.  
-*Piezīme.* Galima naudotis faktu, kad jei natūralusis 
-skaičius $a$ nėra tikslusis kvadratas, tai $\sqrt{a}$ 
-yra iracionalusis skaičius.
+*Piezīme.* Var izmantot faktu, ka ikvienam naturālam $a$, kas 
+nav pilns kvadrāts, $\sqrt{a}$ ir iracionāls skaitlis.
 
 <text lang="lt">
 Raskite visus realiuosius skaičius $x \neq 0$, 
@@ -454,9 +455,11 @@ skaičius $a$ nėra tikslusis kvadratas, tai $\sqrt{a}$
 yra iracionalusis skaičius.
 </text>
 
-<!--
-concepts=real-numbers,irrational-numbers
--->
+<small>
+
+* concepts:real-number,irrational-number,full-square,square-root
+
+
 
 
 

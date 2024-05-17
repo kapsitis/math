@@ -74,10 +74,11 @@ ac − bd = 19
 \end{array} \right.$$
 </text>
 
+<small>
 
-<!--
-sameAs=LT.VILNIUS.2007.12.2
--->
+* sameAs:LT.VILNIUS.2007.12.2
+
+</small>
 
 
 
@@ -135,9 +136,12 @@ Daugiausiai keliais nuliais gali baigtis šių
 trijų skaičių sandauga?
 </text>
 
-<!--
-seeAlso=LV.AO.2005.7.4
--->
+
+<small>
+
+* seeAlso:LV.AO.2005.7.4
+
+</small>
 
 
 
@@ -154,9 +158,12 @@ o $y$ – tų pačių dešimties skaičių kubų suma.
 Įrodykite, kad $y^2 - x^2$ dalijasi iš $300$.
 </text>
 
-<!--
-seeAlso=LT.VILNIUS.2008.10.3
--->
+
+<small>
+
+* seeAlso:LT.VILNIUS.2008.10.3
+
+</small>
 
 
 
@@ -226,9 +233,12 @@ $$11p_1 + 7p_2 + 5p_3 + 4p_4 = 162.$$
 Raskite visas įmanomas sandaugos $p_1p_2p_3p_4$ reikšmes.
 </text>
 
-<!--
-sameAs=LT.VILNIUS.2009.12.2
--->
+
+<small>
+
+* sameAs:LT.VILNIUS.2009.12.2
+
+</small>
 
 
 
@@ -247,9 +257,11 @@ $p^2+1$ dalijasi iš $q$, o $q^2-1$ dalijasi
 iš $p$. Įrodykite, kad $p+q+1$ – sudėtinis skaičius.
 </text>
 
-<!--
-concepts=primes,composite-numbers,divisibility
--->
+<small>
+
+* concepts:prime,composite-number,divisibility
+
+</small>
 
 
 

@@ -1215,7 +1215,7 @@ Pierādīt, ka skaitļa $N^2$ decimālajā pierakstā nav cipara $0$.
 
 <small>
 
-* [misc.try](#) 
+* strategy:TrialAndError 
 * topic:SeriesMembersSumsClosedFormulas
 * topic:PeriodicDigitGroups
 * questionType:Prove
@@ -2427,7 +2427,7 @@ var izteikt kā pirmskaitļa un salikta skaitļa summu!
 
 <small>
 
-* [misc.try](#) 
+* strategy:TrialAndError
 * topic:ModularParity
 * questionType:Prove
 

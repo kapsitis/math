@@ -223,9 +223,9 @@ sarakstīti pa apli. Tiek aprēķinātas $25$ summas: sākot ar
 katru skaitli, tiek saskaitīti $5$ pulksteņa rādītāja virzienā pēc kārtas
 sekojoši skaitļi. Pēc tam tiek atrasti šo summu atlikumi, dalot ar $5$ 
 (t.i. viens no skaitļiem $0$, $1$, $2$, $3$ vai $4$). 
-Dažādu atlikumu skaitu apzīmējam ar $d$  
-(a) Pierādiet, ka $d$ var būt vienāds ar $1$, $3$, $4$ vai $5$.  
-(b) Pierādiet, ka $d$ nevar būt vienāds ar $2$.
+Dažādu atlikumu skaitu apzīmējam ar $d$.  
+**(A)** Pierādiet, ka $d$ var būt vienāds ar $1$, $3$, $4$ vai $5$.  
+**(B)** Pierādiet, ka $d$ nevar būt vienāds ar $2$.
 
 <text lang="lt">
 Sveikieji skaičiai nuo $1$ iki $25$ (nebūtinai įprastine tvarka) surašyti ratu.
@@ -234,15 +234,16 @@ sudedami $5$ pagal laikrodžio rodyklę iš eilės einantys skaičiai.
 Randamos tų sumų
 dalybos iš $5$ liekanos (t.y. vienas iš skaičių $0$, $1$, 
 $2$, $3$ arba $4$). Skirtingų
-liekanų skaičių pažymėkime $d$.  
-(a) Įrodykite, kad $d$ gali būti lygus $1$, $3$, $4$ arba $5$.  
-(b) Įrodykite, kad $d$ negali būti lygus $2$.
+liekanų skaičių pažymėkime $d$.
+**(A)** Įrodykite, kad $d$ gali būti lygus $1$, $3$, $4$ arba $5$.  
+**(B)** Įrodykite, kad $d$ negali būti lygus $2$.
 </text>
 
-<!--
-questionType=Prove
-concepts=remainder
--->
+<small>
+
+* question:Prove
+* concepts:remainder,sum
+
 
 
 

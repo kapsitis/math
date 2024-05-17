@@ -145,9 +145,11 @@ $$\ldots,\overline{a_{n-1}a_na_1a_2\ldots{}a_{n-2}},
 \overline{a_na_1a_2\ldots{}a_{n-1}}$$
 ir dažādi.
 
-<!--
-sameAs=LV.OTHER.TST.1983.9.3
--->
+<small>
+
+sameAs:LV.OTHER.TST.1983.9.3
+
+</small>
 
 
 

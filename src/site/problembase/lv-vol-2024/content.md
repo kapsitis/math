@@ -324,7 +324,6 @@ $2x^2 = x^2 + x^2 > z + \frac{1}{z}$. Iegūta pretruna.
 Tātad $x = 1$ un tā kā tas ir lielākais no skaitļiem, tad arī $y = 1$  un $z=1$. 
 
 
-<!-- 2.atrisinājums -->
 ## Atrisinājums
 
 Līdzīgi kā 1. atrisinājumā, iegūstam, ka $x,y,z \geq 1$. 

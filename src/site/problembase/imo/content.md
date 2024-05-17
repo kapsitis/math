@@ -133,7 +133,6 @@ $a! + b!$ divides $a!b!$. Prove that $3a \geq 2b + 2$.
 
 <small>
 
-* [misc.symmetry](#)
 * strategy:Symmetry
 
 </small>
@@ -585,8 +584,10 @@ dalītājs ir $1$. Pierādiet, ka katrai galīgai primitīvu punktu kopai $S$ ek
 $n$ un tādi veseli skaitļi $a_0,a_1,\ldots,a_n$, ka katram $(x, y)$ pārim no $S$ izpildās:
 $$a_0x^n + a_1x^{n−1}y + a_2x^{n−2}y^2 + \cdots + a_{n−1}xy^{n−1} + a_n y^n = 1.$$
 
-<!-- Kombinatorika -->
-<!--
+
+
+
+
 # <lo-summary/> IMO.2018.3
 
 Par *anti-Paskāla* trijstūri sauksim tādu skaitļu izkārtojumu vienādsānu trijstūrī,
@@ -602,7 +603,7 @@ $$\begin{array}{ccccccc}
 Vai eksistē anti-Paskāla trijstūris ar $2018$ rindām, kurš satur visus naturālos skaitļus no $1$ līdz
 $1 + 2 + \cdots + 2018$?
 
--->
+
 
 
 # <lo-summary/> IMO.2018.5
