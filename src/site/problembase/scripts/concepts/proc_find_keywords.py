@@ -63,17 +63,14 @@ def extract_keywords(doc):
     spacy_doc = nlp(doc)
     
     keywords = set()
-    terms_extracted = 0
     for token in spacy_doc:
-        if token.text.lower() not in stop_words_lv:  # Filter out Latvian stop words
-            if token.text.lower() in math_terms: # or token.pos_ in ['NOUN', 'PROPN']:
-                if terms_extracted < 5:  # Limiting to 5 terms per problem
-                    keywords.add(token.text.lower())
-                    terms_extracted += 1
-                else:
-                    break
+    # if token.text.lower() not in stop_words_lv:  # Filter out Latvian stop words
+        if token.text.lower() in math_terms: # or token.pos_ in ['NOUN', 'PROPN']:
+                keywords.add(token.text.lower())
     
     return keywords
+
+
 
 if __name__ == '__main__':
 
