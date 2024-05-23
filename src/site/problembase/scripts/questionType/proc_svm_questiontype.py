@@ -57,9 +57,8 @@ if __name__ == '__main__':
                   "Prove", "ProveDisprove", "Algorithm"]
 
     questionType_re = re.compile(r'.+?questionType:([\w\.,]+).+?',re.DOTALL)
-    problemList = extract_sections_from_md(f'../{sys.argv[1]}/content.md')
+    problemList = extract_sections_from_md(f'../../{sys.argv[1]}/content.md')
 
-    # prepare training data: problem_data_set un category_data_set
     problem_data_set = []
     category_data_set = []
     for (title, problem) in problemList:
@@ -86,7 +85,7 @@ if __name__ == '__main__':
 
     X_train, X_test, y_train, y_test = train_test_split(X_transformed, category_data_set, test_size=0.3, random_state=42)
 
-    model = SVC(kernel='linear')  # Linear kernel is often a good choice for text classification.
+    model = SVC(kernel='linear')
     model.fit(X_train, y_train)
 
     y_pred = model.predict(X_test)

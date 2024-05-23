@@ -56,9 +56,24 @@ def classify_math_problem(problem_text,prompt_name):
               "Avoid concepts that are not likely to be in dictionaries or wikipedia articles or are not mathematical. " \
               "Here is the problem: \n\n''" \
               f"'{problem_text}'''\n\n"
+    
+    prompt5 = "Olympiad problems about number theory are divided into 10 large topics (LTopic) property. We would like to assign a topic to some number theory problems. These are the 10 topics with descriptions:" \
+"Label ,DescriptionEn " \
+"LTDivisibility - Problems on divisibility relation, distinction of composite and prime numbers. Problems on GCD and LCM; the lattice of all divisors of a fixed number. The expressions for the count and the sum of all divisors for a given number." \
+"LTPrimeFactors - Fundamental theorem of arithmetic - prime factors of a number. Checking divisibility through dividing with all the prime powers. Valuation as the highest prime power that divides the given number. " \
+"LTNumeralSystems - Decimal notation for integers and digit manipulations. Divisibility rules. Writing a number in binary or other positional notations. Unusual number encodings using Fibonacci, ""negative digits"" and like. Decimal fractions, periodic fraction as a sum of an infinite geometric series. Non-periodic decimals and irrational numbers." \
+"LTCongruenceModulo - Modular arithmetic - adding, subtracting, multiplication and raising to a power. The multiplicative inverse of a number by some modulo. Famous theorems about congruences - Little Fermat theorem, Euler theorem, Wilson theorem. " \
+"LTTransformsNumTheory - Problems with integer arithmetic using algebraic transformations, factorizations and other identities, variable substitution. Algebraic transformations related to arguments about divisibility and remainders. " \
+"LTInequalitiesNumTheory - Applying inequalities and estimates in number theory e.g. to reduce the number of cases to analyze. Expressing boolean conditions for a number with inequalities. Arguing about short intervals (such that between two successive integers there are no other integers). Arguing about long intervals (estimating the number of digits in a number or finding the first digit). " \
+"LTEquationsNumTheory - Equations in integer arithmetic, including those solvable with modular arithmetic contradiction. Creating congruence equations. Systems of congruences, Chinese Remainder theorem. Expressing Boolean conditions for a number (last digit, full square, even or odd) with equations or congruences." \
+"LTNumTheoryByCases - Problems where the solution analyzes cases by digits, congruence classes or number intervals. Solution methods that allows to eliminate all (but finitely many) solutions. Reasoning with counting cases and Pigeonhole principle in number theory. " \
+"LTNumTheoryExamples - Numbers with special properties, using Chinese Remainder theorem to prove existence. Recurrent sequences. Constructing integers and similar objects with regular and structural induction. Algorithms on integers, fast exponentiation algorithm, Bezout identity, extended Euclidean algorithm. Problems with limited repertoire of allowed operations. Functional equations for integer functions." \
+"LTIntegerPolynomials - Algera with polynomials with integer coefficients (or taking integer values for integer arguments). Dividing polynomials with remainder; Euclidean algorithm and Bezout identity for polynomials. Eisenstein's criterion for irreducibility. Rational root theorem. Polynomial value difference is divisible by argument difference." \
+"Please classify the following problem: \n\n" \
+f"'{problem_text}'''\n\n"
               
     
-    all_prompts = {'questionType_LV': prompt0, 'domain_EN': prompt1, 'domain_LV' : prompt2, 'concepts_LV' : prompt3, 'concepts_EN' : prompt4}
+    all_prompts = {'questionType_LV': prompt0, 'domain_EN': prompt1, 'domain_LV' : prompt2, 'concepts_LV' : prompt3, 'concepts_EN' : prompt4, 'LTopics_EN': prompt5}
 
     response = client.chat.completions.create(
       model="gpt-4-turbo",

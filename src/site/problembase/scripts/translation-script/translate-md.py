@@ -34,9 +34,8 @@ def replace_id_by_tex(text,id_dict):
     return text
 
 def add_newlines_around_solution(text):
-    # Add new lines before and after '## solution'
-    text = re.sub(r'(?<!\n)(# # solution)', r'\n\1', text)
-    text = re.sub(r'(# # solution)(?!\n)', r'\1\n', text)
+    # Add new lines before '# #'
+    text = re.sub(r'(?<!\n)(# #)', r'\n\1', text)
     return text
 
 
