@@ -50,8 +50,8 @@ Noskaidrot, vai $a_{1000}$ dalās ar $11$.
 # <lo-sample/> BBK2012.P3.81
 
 Atrast visus naturālos skaitļus $n$, kuriem  
-(a) skaitlis $2^n-1$ dalās ar $7$;  
-(b) skaitlis $2^n+1$ dalās ar 7.
+**(A)** skaitlis $2^n-1$ dalās ar $7$;  
+**(B)** skaitlis $2^n+1$ dalās ar 7.
 
 
 # <lo-sample/> BBK2012.P3.82
@@ -120,8 +120,8 @@ Pirmais cipars ir $7$. Kāds ir pēdējais?
 Vai, saskaitot visus naturālos skaitļus no $1$ 
 līdz kādai vietai (nevienu neizlaižot), 
 var iegūt summu, kuras pēdējais cipars ir  
-(a) $8$,  
-(b) $7$? 
+**(A)** $8$,  
+**(B)** $7$? 
 
 
 # <lo-sample/> BBK2012.P3.91

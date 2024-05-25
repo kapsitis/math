@@ -1,0 +1,5 @@
+naturāls skaitlis -- subsistence number (< positive integer)
+cipari - numbers (< digits)
+dalās ar $15$ - shares the $15$ (< is divisible by $15$)
+nosacījumi - determinations (< conditions)
+rūtiņu līnijas - lines of the box (grid lines)

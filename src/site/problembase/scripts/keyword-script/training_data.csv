@@ -1,0 +1,3 @@
+SnippetID,Text,Keywords
+"LV.AMO.2022B.5.1","What is the smallest @positive integer@ that uses only the @digits@ $0$ and $2$ in its @notation@ and is @divisible@ by $15$?","positive-integer,digit,decimal-notation,divisibility"
+"LV.AMO.2022B.5.2","Draw a @hexagon@ with its @sides@ on a @square grid@ having @perimeter@ equal to its @area@! *Note:* The @area@ is the number of little @squares@ that make up the @hexagon@ and the @perimeter@ is the number of @sides@ of the little @squares@ on its @border@.","hexagon,side,square-grid,perimeter,area,square,border"
