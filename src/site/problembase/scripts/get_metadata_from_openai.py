@@ -44,6 +44,15 @@ def classify_math_problem(problem_text,prompt_name):
             "Šīs problēmas var ietvert permutācijas, kombinācijas, 'vistu būrīša' principu, grafu teoriju un citus skaitīšanas principus." \
             f"Šeit ir problēma, kuru jums būs jāklasificē: \n\n'''{problem_text}'''\n\n"
     
+    prompt2_updated = "Iedomājieties, ka esat matemātikas olimpiādes uzdevumu atlases komisijas loceklis, kas izvēlas uzdevumus IMO (International Mathematics Olympiad) vai kādai citai olimpiādei. "
+    "Jūsu uzdevums ir atrast vispiemērotāko nozari uzdevumam, ko mēs norādām - katra uzdevuma nozare ir vai nu algebra ('Alg'), kombinatorika ('Comb'), ģeometrija ('Geom') vai skaitļu teorija ('NT'). "
+    "Ģeometrija (Geom): Ģeometrijas uzdevumi olimpiādēs ir figūru konstruēšana vai pierādījumi Eiklīda plaknē. Ģeometrijas uzdevumos var būt minēti punkti, nogriežņi, stari, taisnes, trijstūri, četrstūri, kvadrāti, taisnstūri, rombi, paralelogrami, trapeces, citi daudzstūri, riņķa līnijas vai citas figūras. Trijstūriem veic papildu konstrukcijas, velk augstumus, mediānas, bisektrises, vidusperpendikulus. Izmantojot ģeometriskus rezultātus var pierādīt figūru īpašības vai atrast nezināmus lielumus - piemēram, garumus, leņķus vai laukumus. "
+    "Algebra (Alg): Algebras uzdevumos bieži jārisina vienādojumi, vienādojumu sistēmas, nevienādības. Var būt arī jāpierāda nevienādības vai citas skaitļu sakarības. Uzdevumos var būt minētas aritmētiskas un ģeometriskas progresijas un citas virknes, izmantotas aritmētiskas operācijas un to izteiksmes kā arī elementāras funkcijas - kvadrātsaknes, pakāpes, logaritmi un trigonometriskas funkcijas. Algebras uzdevumos parasti ir reāli (kā arī pozitīvi, negatīvi u.c.) skaitļi, ko apzīmē ar atsevišķiem burtiem x, y, z, a, b, c. "
+    "Skaitļu teorija (NT): Skaitļu teorija ir par veselu skaitļu īpašībām un attiecībām. Dažos uzdevumos jārisina vienādojumi veselos skaitļos. Arī citur minēti naturāli vai veseli skaitļi, to dalāmība, naturālu skaitļu decimālais pieraksts ar cipariem, kurus reizēm pārvieto, dzēš vai pieraksta klāt. Tajā ir runa arī par dalīšanu ar atlikumu un kongruencēm pēc moduļa. "
+    "Kombinatorika (Comb): Kombinatorikas uzdevumi ir par objektu skaitīšanu, sakārtošanu un izvēli - dažādām apakškopām, sakārtotām vai nesakārtotām izlasēm. Uzdevumos var būt minētas spēles, turnīri, loģiski spriedumi. Kombinatorikas uzdevumos parasti ir galīgs skaits objektu, kas nav matemātiski termini - tās ir, piemēram, pilsētas, ko savieno ceļi, pazīstami vai nepazīstami cilvēki, deputāti, krāsas, telpu apstaigāšana vai citas. "
+    "Jūsu JSON atbildē 'uzdevuma_tips' ir viena nozare no 4 iespējām: 'Alg', 'Comb', 'Geom', 'NT'. "
+    f"Šeit ir problēma, kurai lūdzam noskaidrot nozari: \n\n'{problem_text}'\n\n"
+    
     prompt3 = "Iedomājaties, ka jūs veidojat priekšmetu rādītāju (subject index), " \
              "kas ļauj atrast uzdevumus atbilstoši tajos ierakstītajiem matemātikas terminiem" \
              "katrs termins satur 1-3 vārdus. " \
@@ -76,9 +85,9 @@ f"'{problem_text}'''\n\n"
 
     multivalue_system_message = """You are a helpful assistant that returns JSON structure with two properties: ```{ "LTopic1": "LTDivisibility", "LTopic2": "LTPrimeFactors" }```"""       
     
-    all_prompts = {'questionType_LV': prompt0, 'domain_EN': prompt1, 'domain_LV' : prompt2, 'concepts_LV' : prompt3, 'concepts_EN' : prompt4, 'LTopics_EN': prompt5}
+    all_prompts = {'questionType_LV': prompt0, 'domain_EN': prompt1, 'domain_LV' : prompt2, 'domain_LV_updated': prompt2_updated, 'concepts_LV' : prompt3, 'concepts_EN' : prompt4, 'LTopics_EN': prompt5}
 
-    all_system_messages = {'questionType_LV': standart_system_message, 'domain_EN': standart_system_message, 'domain_LV' : standart_system_message, 'concepts_LV' : standart_system_message, 'concepts_EN' : standart_system_message, 'LTopics_EN': multivalue_system_message}
+    all_system_messages = {'questionType_LV': standart_system_message, 'domain_EN': standart_system_message, 'domain_LV' : standart_system_message, 'domain_LV_updated': standart_system_message, 'concepts_LV' : standart_system_message, 'concepts_EN' : standart_system_message, 'LTopics_EN': multivalue_system_message}
 
 
     response = client.chat.completions.create(
@@ -94,7 +103,7 @@ f"'{problem_text}'''\n\n"
     if prompt_name != 'LTopics_EN':
         classification_value = data["uzdevuma_tips"]
     else:
-        classification_value = (data['LTopic1'], data['LTopic2'])
+        classification_value = (data['LTopic1'], data['LTopic2'], data['LMethod'])
     print(classification_value)
     print("**********************************")
     return classification_value

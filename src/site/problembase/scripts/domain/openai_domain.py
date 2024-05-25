@@ -1,8 +1,18 @@
 import re
 import sys
-sys.path.append('.')
-from site.problembase.scripts.get_metadata_from_openai import *
+import os
+# sys.path.append('.')
+# from site.problembase.scripts.get_metadata_from_openai import *
 
+# Get the absolute path of the directory you want to include
+relative_path = ".."
+absolute_path = os.path.abspath(relative_path)
+
+# Add the absolute path to the Python path if it's not already included
+if absolute_path not in sys.path:
+    sys.path.append(absolute_path)
+
+from get_metadata_from_openai import *
 
 # Read problems one by one from Markdown file "filepath"
 def extract_sections_from_md(filepath):
@@ -39,16 +49,7 @@ def normalize_text(text):
         # text = text+'\n\n'+text[meta_end:]
     return text
 
-# def category_number(arg):
-#     categories = {'Find.All':0, 'Find.Count':1, 'Find.Optimal':2, 'Find.Example':3, 'Prove':4, 'ProveDisprove':5, 'Algorithm':6}
-#     if arg in categories:
-#         return categories[arg]
-#     else:
-#         return -1
-
 if __name__ == '__main__':
-    # categories = ["Find.All", "Find.Count", "Find.Optimal", "Find.Example", 
-    #              "Prove", "ProveDisprove", "Algorithm"]
     categories = ["Alg", "Geom", "NT", "Comb"]
 
     #questionType_re = re.compile(r'.+?questionType:([\w\.,]+).+?',re.DOTALL)
