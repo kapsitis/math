@@ -34,13 +34,13 @@ def replace_id_by_tex(text,id_dict):
     return text
 
 def add_newlines_around_solution(text):
-    # Add new lines before '# #'
+    # Pieliek rindas pārnesumu pirms # #
     text = re.sub(r'(?<!\n)(# #)', r'\n\1', text)
     return text
 
 
 def format_small_tags(text):
-    # Add new lines inside <small> tags and before the <small> tag
+    # Pieliek rindas pārnesumu pirms un pēc <small> tagiem
     def format_inside_small(match):
         content = match.group(2).strip().replace(' * ', '\n* ')
         return f"\n<small>\n{content}\n</small>"
@@ -49,7 +49,7 @@ def format_small_tags(text):
     return text
 
 
-# Read problems one by one from Markdown file "filepath"
+# Lasa matemātikas uzdevumu tekstus no Markdown faila no "filepath
 def extract_sections_from_md(filepath):
     section_titles = []
     current_section = None

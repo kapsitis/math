@@ -71,24 +71,33 @@ def classify_math_problem(problem_text,prompt_name):
 "LTIntegerPolynomials - Algera with polynomials with integer coefficients (or taking integer values for integer arguments). Dividing polynomials with remainder; Euclidean algorithm and Bezout identity for polynomials. Eisenstein's criterion for irreducibility. Rational root theorem. Polynomial value difference is divisible by argument difference." \
 "Please classify the following problem: \n\n" \
 f"'{problem_text}'''\n\n"
-              
+
+    standart_system_message = "You are a helpful assistant designed to output JSON. JSON should contain one property named 'uzdevuma_tips'"
+
+    multivalue_system_message = """You are a helpful assistant that returns JSON structure with two properties: ```{ "LTopic1": "LTDivisibility", "LTopic2": "LTPrimeFactors" }```"""       
     
     all_prompts = {'questionType_LV': prompt0, 'domain_EN': prompt1, 'domain_LV' : prompt2, 'concepts_LV' : prompt3, 'concepts_EN' : prompt4, 'LTopics_EN': prompt5}
+
+    all_system_messages = {'questionType_LV': standart_system_message, 'domain_EN': standart_system_message, 'domain_LV' : standart_system_message, 'concepts_LV' : standart_system_message, 'concepts_EN' : standart_system_message, 'LTopics_EN': multivalue_system_message}
+
 
     response = client.chat.completions.create(
       model="gpt-4-turbo",
       response_format={ "type": "json_object" },
       messages=[
-        {"role": "system", "content": "You are a helpful assistant designed to output JSON. JSON should contain one property named 'uzdevuma_tips'"},
+        {"role": "system", "content": all_system_messages[prompt_name]},
         {"role": "user", "content": all_prompts[prompt_name]}
       ]
     )
     print("**********************************")
     data = json.loads(response.choices[0].message.content)
-    questiontype_text = data["uzdevuma_tips"]
-    print(questiontype_text)
+    if prompt_name != 'LTopics_EN':
+        classification_value = data["uzdevuma_tips"]
+    else:
+        classification_value = (data['LTopic1'], data['LTopic2'])
+    print(classification_value)
     print("**********************************")
-    return questiontype_text
+    return classification_value
 
 
 def main():
