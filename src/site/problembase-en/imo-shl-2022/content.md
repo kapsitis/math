@@ -10,6 +10,7 @@ for all positive integers $n$. Show that $a_{2022}\leq 1$.
 
 * source:Nigeria
 * questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -49,6 +50,7 @@ sum of $k$ other distinct elements of the set.
 
 * source:Slovakia
 * questionType:FindOptimal
+* domain:Alg
 
 </small>
 
@@ -110,6 +112,7 @@ $y \in \mathbb{R}^+$ satisfying $$xf(y)+yf(x) \leq 2$$
 
 * source:Netherlands
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -342,6 +345,7 @@ $$2^{j-i}x_ix_j>2^{s-3}.$$
 
 * source:Trinidad and Tobago
 * questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -417,6 +421,7 @@ $r^1,r^2,\ldots,r^{\frac{1}{2}n(n-1)}$.
 
 * source:Czech Republic
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -556,6 +561,7 @@ for every function $f\in\mathcal F$, there exists some $z\in\mathbb R$ satisfyin
 
 * source:Indonesia
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -656,6 +662,7 @@ and $s(P(k))$ have the same parity?
 
 * source:Belarus
 * questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
@@ -743,6 +750,7 @@ $c_1$, $c_2$, and $\lambda$ such that \[c_1\lambda^n<f(n)<c_2\lambda^n\]for all 
 
 * source:Canada
 * questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -947,6 +955,7 @@ and $$\left| \sum_{i = 1}^{k} a_{t_i} \right| \ge C.$$
 <small>
 
 * questionType:FindOptimal
+* domain:Comb
 
 </small>
 
@@ -970,6 +979,7 @@ at some moment during the process, the leftmost $n$ coins will all be of the sam
 <small>
 
 * questionType:FindAll
+* domain:Comb
 
 </small>
 
@@ -992,6 +1002,7 @@ no matter how the lumberjack plays.
 <small>
 
 * questionType:FindOptimal
+* domain:Comb
 
 </small>
 
@@ -1009,6 +1020,7 @@ after a finite number of steps, each child has exactly one coin.
 <small>
 
 * questionType:FindAll
+* domain:Comb
 
 </small>
 
@@ -1027,6 +1039,7 @@ Prove that the number of nice functions is at least $n^n$.
 <small>
 
 * questionType:Prove
+* domain:Comb
 
 </small>
 
@@ -1045,6 +1058,7 @@ performing a finite sequence of moves of this form.
 <small>
 
 * questionType:FindOptimal
+* domain:Comb
 
 </small>
 
@@ -1073,6 +1087,7 @@ What is the smallest possible number $s$ of tuples that she initially wrote?
 <small>
 
 * questionType:FindOptimal
+* domain:Comb
 
 </small>
 
@@ -1096,6 +1111,7 @@ Find, as a function of $n$, the smallest possible total number of uphill paths i
 
 * Author:Nikola Petrović
 * questionType:FindOptimal
+* domain:Comb
 
 </small>
 
@@ -1117,6 +1133,7 @@ such that $f(x,y)$ is odd. Find the smallest and largest possible values of $N$.
 <small>
 
 * questionType:FindOptimal
+* domain:Comb
 
 </small>
 
@@ -1135,6 +1152,7 @@ Prove that the points $P,S,Q,R$ lie on a circle.
 <small>
 
 * questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1152,6 +1170,7 @@ Prove that $B, C, X,$ and $Y$ are concyclic.
 <small>
 
 * questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1170,6 +1189,7 @@ and the tangent to circle $BMP$ at point $B$.
 <small>
 
 * questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1187,6 +1207,7 @@ Prove that if $W \ne D$ and $OW = OD,$ then $DZ$ is tangent to the circle $AXY.$
 <small>
 
 * questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1204,6 +1225,7 @@ Prove that the circumcircles of $\Delta_1$ and $\Delta_2$ are tangent.
 <small>
 
 * questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1221,6 +1243,7 @@ line $PQ$ passes through a fixed point.
 <small>
 
 * questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1236,6 +1259,7 @@ $AA’, BB’, CC’$, prove that the circumcenter of $PQR$ lies on $OH$.
 <small>
 
 * questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1253,6 +1277,7 @@ Prove that if $XBYB'$ is a convex quadrilateral, then it has an incircle.
 <small>
 
 * questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1270,6 +1295,7 @@ is allowed to be larger than $3$.)
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -1285,6 +1311,7 @@ $$ n! \mid \prod_{ p<q\le n, p,q \, \text{primes}} (p+q)$$
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -1308,6 +1335,7 @@ for which there exists an index $k$ such that $x_k$ is divisible by $a^n$.
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -1320,6 +1348,7 @@ $p$ prime and \[ a^p=b!+p. \]
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -1338,6 +1367,7 @@ precisely two distinct values among $d_1(T)$, $d_2(T)$, $\dots$, $d_9(T)$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1362,6 +1392,7 @@ $q(63)=3$, $p(2022)=3$, $q(2022)=1$.)
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1378,6 +1409,7 @@ of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1391,5 +1423,6 @@ Prove that $5^n-3^n$ is not divisible by $2^n+65$ for any positive integer $n$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
