@@ -1282,7 +1282,7 @@ līnija, tad pieskaru nogriežṇi ir vienādi: $BD=BE=1$,
 $AD=AF=8$ un $CE=CF=x$. Tātad $AB=9, BC=1+x, AC=8+x$. 
 Izmantojot kosinusu teorēmu, iegūstam
 
-$AC^{2} = AB^{2} + BC^{2} - 2 \cdot AB \cdot BC \cdot \cos \Varangle B$  
+$AC^{2} = AB^{2} + BC^{2} - 2 \cdot AB \cdot BC \cdot \cos \sphericalangle B$  
 $(8+x)^{2}=9^{2}+(1+x)^{2}-2 \cdot 9 \cdot(1+x) \cdot \cos 120^{\circ}$  
 $64+16 x+x^{2}=81+1+2 x+x^{2}-2 \cdot 9(1+x) \cdot(-0,5)$  
 $5x=27$  
@@ -1512,33 +1512,33 @@ tātad $M T=\frac{1}{2} A Q=\frac{1}{2}$.
 Līdzīgi iegūstam, ka $M P=\frac{1}{2} B N=\frac{\sqrt{3}}{2}$.
 
 Ievērojam, ka taisnleṇça trijstūrī $MTC$ izpildās, ka 
-$\sin \Varangle MCT=\frac{M T}{M C}=\frac{1}{2}$, tātad 
-$\Varangle M C T=30^{\circ}$. Līdzīgi iegūstam, ka taisnleṇka trijstūrī 
-$MPC$ izpildās, ka $\sin \Varangle M C P=\frac{M P}{M C}=\frac{\sqrt{3}}{2}$, 
-tātad $\Varangle M C P=60^{\circ}$.
+$\sin \sphericalangle MCT=\frac{M T}{M C}=\frac{1}{2}$, tātad 
+$\sphericalangle M C T=30^{\circ}$. Līdzīgi iegūstam, ka taisnleṇka trijstūrī 
+$MPC$ izpildās, ka $\sin \sphericalangle M C P=\frac{M P}{M C}=\frac{\sqrt{3}}{2}$, 
+tātad $\sphericalangle M C P=60^{\circ}$.
 
-Aplūkojam iespējamās $\Varangle MCB$ vērtības:
+Aplūkojam iespējamās $\sphericalangle MCB$ vērtības:
 
-* ja $T$ atrodas uz $BC$, tad $\Varangle M C B=30^{\circ}$;
-* ja $T$ atrodas uz $BC$ pagarinājuma, tad $\Varangle M C B=150^{\circ}$.
+* ja $T$ atrodas uz $BC$, tad $\sphericalangle M C B=30^{\circ}$;
+* ja $T$ atrodas uz $BC$ pagarinājuma, tad $\sphericalangle M C B=150^{\circ}$.
 
-Tā kā $\Varangle ACB=\Varangle MCA+\Varangle MCB$, gadījums, 
-ka $\Varangle MCB=150^{\circ}$, nav iespējams, jo tad pie 
-jebkuras $\Varangle M C B$ vērtības $\Varangle A C B$ būs vienāds 
-vai lielāks nekā $180^{\circ}$. No tā izriet, ka $\Varangle MCB=30^{\circ}$.
+Tā kā $\sphericalangle ACB=\sphericalangle MCA+\sphericalangle MCB$, gadījums, 
+ka $\sphericalangle MCB=150^{\circ}$, nav iespējams, jo tad pie 
+jebkuras $\sphericalangle M C B$ vērtības $\sphericalangle A C B$ būs vienāds 
+vai lielāks nekā $180^{\circ}$. No tā izriet, ka $\sphericalangle MCB=30^{\circ}$.
 
-Līdzīgi aplūkojam iespējamās $\Varangle MCA$ un $\Varangle ACB$ vērtības:
+Līdzīgi aplūkojam iespējamās $\sphericalangle MCA$ un $\sphericalangle ACB$ vērtības:
 
-* ja $P$ atrodas $AC$, tad $\Varangle M C A=60^{\circ}$ un $\Varangle A C B=90^{\circ}$,
-* ja $P$ atrodas uz $AC$ pagarinājuma, tad $\Varangle MCA = 120^{\circ}$ un 
-  $\Varangle A C B=150^{\circ}$.
+* ja $P$ atrodas $AC$, tad $\sphericalangle MCA = 60^{\circ}$ un $\sphericalangle ACB = 90^{\circ}$,
+* ja $P$ atrodas uz $AC$ pagarinājuma, tad $\sphericalangle MCA = 120^{\circ}$ un 
+  $\sphericalangle A C B=150^{\circ}$.
 
-Ja $\Varangle ACB=90^{\circ}$ (skat. 17. att.), tad augstumi no virsotnēm 
+Ja $\sphericalangle ACB=90^{\circ}$ (skat. 17. att.), tad augstumi no virsotnēm 
 $A$ un $B$ sakrīt ar katetēm $AC$ un $BC$, tātad
 
 $$S_{ABC}=\frac{AC \cdot BC}{2}=\frac{1 \cdot \sqrt{3}}{2}=\frac{\sqrt{3}}{2}.$$
 
-Ja $\Varangle ACB=150^{\circ}$ (skat. 18. att.), aplūkojam taisnleņķa trijstūri $AQC$, kurā $\Varangle A C Q=30^{\circ}$, tātad $\frac{A Q}{A C}=\sin \Varangle A C Q=\frac{1}{2}$. No tā izriet, ka $A C=2 \cdot A Q=2$ un
+Ja $\sphericalangle ACB=150^{\circ}$ (skat. 18. att.), aplūkojam taisnleņķa trijstūri $AQC$, kurā $\sphericalangle A C Q=30^{\circ}$, tātad $\frac{A Q}{A C}=\sin \sphericalangle ACQ=\frac{1}{2}$. No tā izriet, ka $A C=2 \cdot A Q=2$ un
 
 $$S_{ABC}=\frac{AC \cdot BN}{2}=2 \cdot \frac{\sqrt{3}}{2}=\sqrt{3}.$$
 
