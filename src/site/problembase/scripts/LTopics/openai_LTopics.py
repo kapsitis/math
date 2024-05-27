@@ -52,6 +52,8 @@ if __name__ == '__main__':
 
     categories = ["LTDivisibility", "LTPrimeFactors", "LTNumeralSystems", "LTCongruenceModulo", "LTTransformsNumTheory", "LTInequalitiesNumTheory", "LTEquationsNumTheory", "LTNumTheoryByCases", "LTNumTheoryExamples", "LTIntegerPolynomials"]
 
+    methods = ["LTInduction", "LTExtremeElement", "LTMeanValuePrinciple", "LTInvariant", "LTContradiction", "LTInterpretation", "LTExpressionTransforms", "LTStructureAugmentation"]
+
     #questionType_re = re.compile(r'.+?questionType:([\w\.,]+).+?',re.DOTALL)
     concept_re = re.compile(r'.+?LTopic:([\w\.,]+).+?',re.DOTALL) 
     problemList = extract_sections_from_md(f'../{sys.argv[1]}/content.md')
@@ -60,6 +62,7 @@ if __name__ == '__main__':
     problem_data_set = []
     category_data_set = []
     title_data_set = []
+    methods_data_set = []
     for (title, problem) in problemList:
         category = 'NA'
         m = concept_re.match(problem)  # Mēģina atrast questionType
@@ -69,7 +72,7 @@ if __name__ == '__main__':
         
         answer = classify_math_problem(problem,'LTopics_EN') # problem un prompt nosaukums
         with open("LTopics_EN_openai.csv", 'a', encoding='utf-8') as file1:
-            file1.write(f'{title},"{category}","{answer}"\n')
+            file1.write(f'{title},"{category}","{answer}", "{methods}"\n')
 
 
         if category != 'NA':

@@ -19,15 +19,14 @@ math_terms = set([
     # Add more terms as needed
 ])
 
-stop_words_lv = ["un", "vai", "bet", "kā", "arī", "par", "no", "uz", "ir", "būt", "tas", "tā", "man", "te", "es", "tikai", "ka", "bet", "lai", "kādreiz",     "pēc", "par", "pie", "viņš", "viņa", "šis", "šeit", "bet", "vēl", "tāpēc", "jo", "kamēr", "ja", "jo", "tur", "to", "aiz", "ar", "bez", "vai", "jā"]
+stop_words_lv = ["un", "vai", "bet", "kā", "arī", "par", "no", "uz", "ir", "būt", "tas", "tā", "man", "te", "es", "tikai", "ka", "bet", "lai", "kādreiz", "pēc", "par", "pie", "viņš", "viņa", "šis", "šeit", "bet", "vēl", "tāpēc", "jo", "kamēr", "ja", "jo", "tur", "to", "aiz", "ar", "bez", "vai", "jā"]
 
 # Read problems one by one from Markdown file "filepath"
 def extract_sections_from_md(filepath):
-    section_titles = []
-    current_section = None
     sections = []
-    title = "NA" 
-
+    current_section = None
+    title = "NA"
+    
     heading_re = re.compile(r'^#\s+<lo-sample/>\s+(.*)')
 
     with open(filepath, 'r', encoding='utf-8') as file:
@@ -35,15 +34,12 @@ def extract_sections_from_md(filepath):
             m = heading_re.match(line)
             if m:
                 new_title = m.group(1)
-                # append the previous (title, current_section)
                 if current_section is not None:
                     sections.append((title, current_section))
                 title = new_title
                 current_section = ''
             elif current_section is not None:
-                # before seeing the first title, we do not append anything
                 current_section += line
-    # Append the last (title, current_section)
     if current_section:
         sections.append((title, current_section))
     return sections
@@ -53,32 +49,33 @@ with open('../resources/merged_concepts.csv', newline='', encoding='utf-8') as c
     next(csv_reader)  # Skip the header
     for row in csv_reader:
         if row[0] != 'NA':
-            math_terms.add(row[0]) # 1 for lv, 0 for eng
+            math_terms.add(row[0])  # 1 for lv, 0 for eng
 
 sorted_terms = sorted(list(math_terms))
 print(sorted_terms)
 
 def extract_keywords(doc):
-    # Process the text using spaCy
     spacy_doc = nlp(doc)
-    
     keywords = set()
     for token in spacy_doc:
-    # if token.text.lower() not in stop_words_lv:  # Filter out Latvian stop words
-        if token.text.lower() in math_terms: # or token.pos_ in ['NOUN', 'PROPN']:
-                keywords.add(token.text.lower())
-    
+        if token.text.lower() in math_terms:
+            keywords.add(token.text.lower())
     return keywords
 
-
+concept_re = re.compile(r'.+?concepts:([\w\.,]+).+?', re.DOTALL)
 
 if __name__ == '__main__':
-
-    # Example mathematical problem
-    # math_problem = "Find the prime factors of the given integer that is used in the equation."
     problemList = extract_sections_from_md(f'../{sys.argv[1]}/content.md')
-    
+
     for title, text in problemList:
-        # Extract keywords
+        category = 'NA'
+        m = concept_re.match(text)
+        if m:
+            category = m.group(1)
+        
         keywords = extract_keywords(text)
-        print(f"Keywords for '{title}':", keywords)
+        
+        with open("domain_lv_openai.csv", 'a', encoding='utf-8') as file1:
+            file1.write(f'{title},"{category}","{category}","{keywords}"\n')
+
+        print(f"Keywords for '{title}': {category}, {keywords}")

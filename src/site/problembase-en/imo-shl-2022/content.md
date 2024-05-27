@@ -11,6 +11,7 @@ for all positive integers $n$. Show that $a_{2022}\leq 1$.
 * domain:Alg
 * source:Nigeria
 * questionType:Prove
+* concepts:sequence,real-numbers,integer-numbers
 
 </small>
 
@@ -51,6 +52,7 @@ sum of $k$ other distinct elements of the set.
 * domain:Alg
 * source:Slovakia
 * questionType:FindOptimal
+* concepts:integer-numbers
 
 </small>
 
@@ -113,6 +115,7 @@ $y \in \mathbb{R}^+$ satisfying $$xf(y)+yf(x) \leq 2$$
 * domain:Alg
 * source:Netherlands
 * questionType:FindAll
+* concepts:real-numbers,function
 
 </small>
 
@@ -346,6 +349,7 @@ $$2^{j-i}x_ix_j>2^{s-3}.$$
 * domain:Alg
 * source:Trinidad and Tobago
 * questionType:Prove
+* concepts:real-numbers,integer-numbers
 
 </small>
 
@@ -422,6 +426,7 @@ $r^1,r^2,\ldots,r^{\frac{1}{2}n(n-1)}$.
 * domain:Alg
 * source:Czech Republic
 * questionType:FindAll
+* concepts:integer-numbers,real-numbers
 
 </small>
 
@@ -562,6 +567,7 @@ for every function $f\in\mathcal F$, there exists some $z\in\mathbb R$ satisfyin
 * domain:Alg
 * source:Indonesia
 * questionType:FindAll
+* concepts:real-numbers,function,rational-numbers
 
 </small>
 
@@ -663,6 +669,7 @@ and $s(P(k))$ have the same parity?
 * domain:Alg
 * source:Belarus
 * questionType:ProveDisprove
+* concepts:integer-numbers
 
 </small>
 
@@ -751,6 +758,7 @@ $c_1$, $c_2$, and $\lambda$ such that \[c_1\lambda^n<f(n)<c_2\lambda^n\]for all 
 * domain:Alg
 * source:Canada
 * questionType:Prove
+* concepts:integer-numbers,sequence,real-numbers
 
 </small>
 
@@ -955,8 +963,9 @@ and $$\left| \sum_{i = 1}^{k} a_{t_i} \right| \ge C.$$
 <small>
 
 * domain:Comb
-* questionType:FindOptimal
 * source:Czech Republic
+* questionType:FindOptimal
+
 
 </small>
 
@@ -1029,6 +1038,7 @@ at some moment during the process, the leftmost $n$ coins will all be of the sam
 * domain:Comb
 * source:France
 * questionType:FindAll
+* concepts:integer-numbers
 
 </small>
 
@@ -1107,6 +1117,7 @@ no matter how the lumberjack plays.
 * domain:Comb
 * source:Colombia
 * questionType:FindOptimal
+* concepts:game,square-Alg
 
 </small>
 
@@ -1182,6 +1193,7 @@ each child has exactly one coin.
 * domain:Comb
 * source:Israel
 * questionType:FindAll
+* concepts:integer-numbers
 
 </small>
 
@@ -1337,6 +1349,7 @@ Prove that the number of nice functions is at least $n^n$.
 * domain:Comb
 * source:Germany
 * questionType:Prove
+* concepts:integer-numbers,subset,function
 
 </small>
 
@@ -1401,6 +1414,7 @@ performing a finite sequence of moves of this form.
 * domain:Comb
 * source:Croatia
 * questionType:FindOptimal
+* concepts:integer-numbers,sequence
 
 </small>
 
@@ -1693,6 +1707,7 @@ What is the smallest possible number $s$ of tuples that she initially wrote?
 * domain:Comb
 * source:Czech Republic
 * questionType:FindOptimal
+* concepts:integer-numbers
 
 </small>
 
@@ -1841,6 +1856,7 @@ Find, as a function of $n$, the smallest possible total number of uphill paths i
 * Author:Nikola Petrović
 * source:Serbia
 * questionType:FindOptimal
+* concepts:integer-numbers,sequence,function
 
 </small>
 
@@ -1934,6 +1950,8 @@ such that $f(x,y)$ is odd. Find the smallest and largest possible values of $N$.
 
 * domain:Comb
 * questionType:FindOptimal
+* source:U.S.A.
+* concepts:integer-numbers,pair
 
 </small>
 
@@ -2149,6 +2167,7 @@ Prove that the points $P,S,Q,R$ lie on a circle.
 * domain:Geom
 * source:Slovakia
 * questionType:Prove
+* concepts:point,line,angle
 
 </small>
 
@@ -2221,6 +2240,7 @@ Prove that $B, C, X,$ and $Y$ are concyclic.
 * domain:Geom
 * source:Netherlands
 * questionType:Prove
+* concepts:angle,triangle,point,altitude,segment,circle
 
 </small>
 
@@ -2278,6 +2298,7 @@ and the tangent to circle $BMP$ at point $B$.
 * domain:Geom
 * source:Slovakia
 * questionType:Prove
+* concepts:tangent,circle,segments,point
 
 </small>
 
@@ -2353,6 +2374,7 @@ Prove that if $W \ne D$ and $OW = OD,$ then $DZ$ is tangent to the circle $AXY.$
 * domain:Geom
 * source:United Kingdom
 * questionType:Prove
+* concepts:line,triangle,segment,point,circle
 
 </small>
 
@@ -2425,6 +2447,7 @@ Prove that the circumcircles of $\Delta_1$ and $\Delta_2$ are tangent.
 * domain:Geom
 * source:Vietnam
 * questionType:Prove
+* concepts:triangle,line
 
 </small>
 
@@ -2576,6 +2599,7 @@ line $PQ$ passes through a fixed point.
 * domain:Geom
 * source:Iran
 * questionType:Prove
+* concepts:triangle,altitude,point,angle
 
 </small>
 
@@ -2685,6 +2709,7 @@ $AA’, BB’, CC’$, prove that the circumcenter of $PQR$ lies on $OH$.
 * domain:Geom
 * source:Denmark
 * questionType:Prove
+* concepts:triangle
 
 </small>
 
@@ -2835,6 +2860,7 @@ Prove that if $XBYB'$ is a convex quadrilateral, then it has an incircle.
 * domain:Geom
 * source:Australia
 * questionType:Prove
+* concepts:hexagon,tangent,triangle,line,inscribed-circle
 
 </small>
 
@@ -2917,6 +2943,7 @@ is allowed to be larger than $3$.)
 * domain:NT
 * source:Cyprus
 * questionType:FindOptimal
+* concepts:divisors,sum
 
 </small>
 
@@ -2988,6 +3015,7 @@ $$n! \mid \prod_{ p<q\le n, p,q \, \text{primes}} (p+q)$$
 * domain:NT
 * source:Nigeria
 * questionType:FindAll
+* concepts:integer-numbers
 
 </small>
 
@@ -3042,6 +3070,7 @@ for which there exists an index $k$ such that $x_k$ is divisible by $a^n$.
 * domain:NT
 * source:Croatia
 * questionType:FindOptimal
+* concepts:integer-numbers,coprimes,divisibility
 
 </small>
 
@@ -3081,14 +3110,18 @@ $$S=\left\{x \in \mathbb{Z}_{>0}: 0<x<a d, \operatorname{gcd}(x, d)=1\right\} \q
 
 So, we have $x_{1}=1$ and $x_{k+1}=f\left(x_{k}\right)$.
 
-Notice that the recurrence formula is invertible. Suppose that $f(x)=y$ for some $x, y \in S$. If $y>d$ then $y-d \in S$ but $a \cdot y \notin S$; otherwise, if $y<d$ then $a \cdot y \in S$ but $y-d \notin S$. So, the function $f$ is a permutation on $S$, and its inverse is
+Notice that the recurrence formula is invertible. Suppose that $f(x)=y$ for some 
+$x, y \in S$. If $y>d$ then $y-d \in S$ but $a \cdot y \notin S$; otherwise, 
+if $y<d$ then $a \cdot y \in S$ but $y-d \notin S$. So, the function $f$ 
+is a permutation on $S$, and its inverse is
 
 $$f^{-1}(y)=\left\{\begin{array}{ll}
 y-d & \text { if } y>d, \\
 a \cdot y & \text { if } y<d
 \end{array} \quad \text { for all } y \in S\right.$$
 
-It follows that the sequence is periodic, and therefore attains the initial value 1 infinitely many times. Let $k_{1}>1$ be an index such that $x_{k_{1}}=1$. Then
+It follows that the sequence is periodic, and therefore attains the initial 
+value 1 infinitely many times. Let $k_{1}>1$ be an index such that $x_{k_{1}}=1$. Then
 
 $$x_{k_{1}}=1, \quad x_{k_{1}-1}=f^{-1}(1)=a, x_{k_{1}-2}=f^{-1}(a)=a^{2}, \ldots, \quad x_{k_{1}-n}=a^{n}$$
 
@@ -3099,7 +3132,9 @@ Like in the first solution, $x_{k}$ is relatively prime to $d$ and $x_{k}<a d$ f
 We wish to prove that there are $n$ consecutive decreasing indices. Let 
 $m_{0}=0$ and $m_{k}$ be the $k$-th smallest decreasing index (an index 
 $k$ is decreasing if $x_{k}=x_{k-1} / a$ ) and define a sequence 
-$\left(y_{k}\right)_{k}=\left(x_{m_{k}}\right)_{k}$, i.e. the subsequence consisting only of elements with decreasing indices. For each $k \geqslant 1$ we can write
+$\left(y_{k}\right)_{k}=\left(x_{m_{k}}\right)_{k}$, i.e. the 
+subsequence consisting only of elements with decreasing indices. 
+For each $k \geqslant 1$ we can write
 
 $$y_{k+1}=\frac{y_{k}+z_{k} d}{a}$$
 
@@ -3108,7 +3143,8 @@ if and only if $y_{k}$ and $y_{k+1}$ are consecutive elements in the original se
 
 $$y_{k}=\frac{1+\left(z_{0}+z_{1} a+\cdots+z_{k-1} a^{k-1}\right) d}{a^{k}}$$
 
-because $y_{k}$ is bounded the sequence is (eventually) periodic. Consider some $y_{u}=y_{u+v}$ where $v \geqslant 1$. We can write
+because $y_{k}$ is bounded the sequence is (eventually) periodic. 
+Consider some $y_{u}=y_{u+v}$ where $v \geqslant 1$. We can write
 
 $$y_{u}=\frac{1+\left(z_{0}+z_{1} a+\cdots+z_{u-1} a^{u-1}\right) d}{a^{u}}$$
 
@@ -3141,6 +3177,8 @@ $p$ prime and \[ a^p=b!+p. \]
 
 * domain:NT
 * questionType:FindAll
+* source:Belgium
+* concepts:integer-numbers
 
 </small>
 
@@ -3160,6 +3198,8 @@ precisely two distinct values among $d_1(T)$, $d_2(T)$, $\dots$, $d_9(T)$.
 
 * domain:NT
 * questionType:Prove
+* source:United Kingdom
+* concepts:digit
 
 </small>
 
@@ -3185,6 +3225,8 @@ $q(63)=3$, $p(2022)=3$, $q(2022)=1$.)
 
 * domain:NT
 * questionType:Prove
+* source:Costa Rica
+* concepts:integer-numbers,primes
 
 </small>
 
@@ -3202,6 +3244,8 @@ of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$.
 
 * domain:NT
 * questionType:Prove
+* source:U.S.A.
+* concepts:integer-numbers,primes
 
 </small>
 
@@ -3216,5 +3260,7 @@ Prove that $5^n-3^n$ is not divisible by $2^n+65$ for any positive integer $n$.
 
 * domain:NT
 * questionType:Prove
+* source:Belgium
+* concepts:divisibility,integer-numbers
 
 </small>
