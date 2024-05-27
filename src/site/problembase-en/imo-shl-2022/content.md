@@ -11,6 +11,7 @@ for all positive integers $n$. Show that $a_{2022}\leq 1$.
 * source:Nigeria
 * questionType:Prove
 * domain:Alg
+* concepts:sequence,real-numbers,integer-numbers
 
 </small>
 
@@ -51,6 +52,7 @@ sum of $k$ other distinct elements of the set.
 * source:Slovakia
 * questionType:FindOptimal
 * domain:Alg
+* concepts:integer-numbers
 
 </small>
 
@@ -113,6 +115,7 @@ $y \in \mathbb{R}^+$ satisfying $$xf(y)+yf(x) \leq 2$$
 * source:Netherlands
 * questionType:FindAll
 * domain:Alg
+* concepts:real-numbers,function
 
 </small>
 
@@ -346,6 +349,7 @@ $$2^{j-i}x_ix_j>2^{s-3}.$$
 * source:Trinidad and Tobago
 * questionType:Prove
 * domain:Alg
+* concepts:real-numbers,integer-numbers
 
 </small>
 
@@ -422,6 +426,7 @@ $r^1,r^2,\ldots,r^{\frac{1}{2}n(n-1)}$.
 * source:Czech Republic
 * questionType:FindAll
 * domain:Alg
+* concepts:integer-numbers,real-numbers
 
 </small>
 
@@ -562,6 +567,7 @@ for every function $f\in\mathcal F$, there exists some $z\in\mathbb R$ satisfyin
 * source:Indonesia
 * questionType:FindAll
 * domain:Alg
+* concepts:real-numbers,function,rational-numbers
 
 </small>
 
@@ -663,6 +669,7 @@ and $s(P(k))$ have the same parity?
 * source:Belarus
 * questionType:ProveDisprove
 * domain:Alg
+* concepts:integer-numbers
 
 </small>
 
@@ -751,6 +758,7 @@ $c_1$, $c_2$, and $\lambda$ such that \[c_1\lambda^n<f(n)<c_2\lambda^n\]for all 
 * source:Canada
 * questionType:Prove
 * domain:Alg
+* concepts:integer-numbers,sequence,real-numbers
 
 </small>
 
@@ -956,6 +964,7 @@ and $$\left| \sum_{i = 1}^{k} a_{t_i} \right| \ge C.$$
 
 * questionType:FindOptimal
 * domain:Comb
+* concepts:sequence,equality,integer-numbers
 
 </small>
 
@@ -980,6 +989,7 @@ at some moment during the process, the leftmost $n$ coins will all be of the sam
 
 * questionType:FindAll
 * domain:Comb
+* domain:integer-numbers
 
 </small>
 
@@ -1003,6 +1013,7 @@ no matter how the lumberjack plays.
 
 * questionType:FindOptimal
 * domain:Comb
+* concepts:game,square-Alg
 
 </small>
 
@@ -1021,6 +1032,7 @@ after a finite number of steps, each child has exactly one coin.
 
 * questionType:FindAll
 * domain:Comb
+* concepts:integer-numbers
 
 </small>
 
@@ -1040,6 +1052,7 @@ Prove that the number of nice functions is at least $n^n$.
 
 * questionType:Prove
 * domain:Comb
+* concepts:integer-numbers,subset,function
 
 </small>
 
@@ -1059,6 +1072,7 @@ performing a finite sequence of moves of this form.
 
 * questionType:FindOptimal
 * domain:Comb
+* concepts:integer-numbers,sequence
 
 </small>
 
@@ -1088,6 +1102,7 @@ What is the smallest possible number $s$ of tuples that she initially wrote?
 
 * questionType:FindOptimal
 * domain:Comb
+* concepts:integer-numbers
 
 </small>
 
@@ -1112,6 +1127,7 @@ Find, as a function of $n$, the smallest possible total number of uphill paths i
 * Author:Nikola Petrović
 * questionType:FindOptimal
 * domain:Comb
+* concepts:integer-numbers,sequence,function
 
 </small>
 
@@ -1134,6 +1150,7 @@ such that $f(x,y)$ is odd. Find the smallest and largest possible values of $N$.
 
 * questionType:FindOptimal
 * domain:Comb
+* concepts:integer-numbers,pair
 
 </small>
 
@@ -1153,6 +1170,7 @@ Prove that the points $P,S,Q,R$ lie on a circle.
 
 * questionType:Prove
 * domain:Geom
+* concepts:point,line,angle
 
 </small>
 
@@ -1171,6 +1189,7 @@ Prove that $B, C, X,$ and $Y$ are concyclic.
 
 * questionType:Prove
 * domain:Geom
+* concepts:angle,triangle,point,altitude,segment,circle
 
 </small>
 
@@ -1190,6 +1209,7 @@ and the tangent to circle $BMP$ at point $B$.
 
 * questionType:Prove
 * domain:Geom
+* concepts:tangent,circle,segments,point
 
 </small>
 
@@ -1208,6 +1228,7 @@ Prove that if $W \ne D$ and $OW = OD,$ then $DZ$ is tangent to the circle $AXY.$
 
 * questionType:Prove
 * domain:Geom
+* concepts:line,triangle,segment,point,circle
 
 </small>
 
@@ -1226,6 +1247,7 @@ Prove that the circumcircles of $\Delta_1$ and $\Delta_2$ are tangent.
 
 * questionType:Prove
 * domain:Geom
+* concepts:triangle,line
 
 </small>
 
@@ -1244,6 +1266,7 @@ line $PQ$ passes through a fixed point.
 
 * questionType:Prove
 * domain:Geom
+* concepts:triangle,altitude,point,angle
 
 </small>
 
@@ -1260,6 +1283,7 @@ $AA’, BB’, CC’$, prove that the circumcenter of $PQR$ lies on $OH$.
 
 * questionType:Prove
 * domain:Geom
+* concepts:triangle
 
 </small>
 
@@ -1278,6 +1302,7 @@ Prove that if $XBYB'$ is a convex quadrilateral, then it has an incircle.
 
 * questionType:Prove
 * domain:Geom
+* concepts:hexagon,tangent,triangle,line,inscribed-circle
 
 </small>
 
@@ -1296,6 +1321,7 @@ is allowed to be larger than $3$.)
 
 * questionType:FindOptimal
 * domain:NT
+* concepts:divisors,sum
 
 </small>
 
@@ -1312,6 +1338,7 @@ $$ n! \mid \prod_{ p<q\le n, p,q \, \text{primes}} (p+q)$$
 
 * questionType:FindAll
 * domain:NT
+* concepts:integer-numbers
 
 </small>
 
@@ -1336,6 +1363,7 @@ for which there exists an index $k$ such that $x_k$ is divisible by $a^n$.
 
 * questionType:FindOptimal
 * domain:NT
+* concepts:integer-numbers,coprimes,divisibility
 
 </small>
 
@@ -1349,6 +1377,7 @@ $p$ prime and \[ a^p=b!+p. \]
 
 * questionType:FindAll
 * domain:NT
+* concepts:integer-numbers
 
 </small>
 
@@ -1368,6 +1397,7 @@ precisely two distinct values among $d_1(T)$, $d_2(T)$, $\dots$, $d_9(T)$.
 
 * questionType:Prove
 * domain:NT
+* concepts:digit
 
 </small>
 
@@ -1393,6 +1423,7 @@ $q(63)=3$, $p(2022)=3$, $q(2022)=1$.)
 
 * questionType:Prove
 * domain:NT
+* concepts:integer-numbers,primes
 
 </small>
 
@@ -1410,6 +1441,7 @@ of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$.
 
 * questionType:Prove
 * domain:NT
+* concepts:integer-numbers,primes
 
 </small>
 
@@ -1424,5 +1456,6 @@ Prove that $5^n-3^n$ is not divisible by $2^n+65$ for any positive integer $n$.
 
 * questionType:Prove
 * domain:NT
+* concepts:divisibility,integer-numbers
 
 </small>

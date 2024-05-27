@@ -1,0 +1,33 @@
+Keywords for 'IMO.SHL.2022.A1': sequence,real, {'sequence', 'integer'}
+Keywords for 'IMO.SHL.2022.A2': integer, {'expression', 'sum', 'integer', 'set', 'number'}
+Keywords for 'IMO.SHL.2022.A3': real, {'expression', 'argument', 'function', 'set', 'pair', 'value', 'number', 'inequality', 'equality'}
+Keywords for 'IMO.SHL.2022.A4': real, {'set', 'sum', 'integer', 'inequality'}
+Keywords for 'IMO.SHL.2022.A5': integer, {'argument', 'sum', 'function', 'integer', 'difference', 'set', 'equation', 'number', 'root'}
+Keywords for 'IMO.SHL.2022.A6': real, {'function', 'integer', 'difference', 'set', 'number'}
+Keywords for 'IMO.SHL.2022.A7': integer, {'add', 'polynomial', 'digit', 'sequence', 'sum', 'integer', 'parity', 'set', 'number'}
+Keywords for 'IMO.SHL.2022.A8': integer, {'product', 'sequence', 'integer', 'pair', 'series', 'value', 'number', 'inequality'}
+Keywords for 'IMO.SHL.2022.C1': sequence,equality,integer, {'sequence', 'integer', 'equality'}
+Keywords for 'IMO.SHL.2022.C2': NA, {'integer', 'row'}
+Keywords for 'IMO.SHL.2022.C3': game,square, {'square', 'height', 'game'}
+Keywords for 'IMO.SHL.2022.C4': integer, {'circle', 'integer', 'number'}
+Keywords for 'IMO.SHL.2022.C5': integer, {'function', 'integer', 'set', 'subset', 'number'}
+Keywords for 'IMO.SHL.2022.C6': integer, {'sequence', 'number', 'integer'}
+Keywords for 'IMO.SHL.2022.C7': integer, {'number', 'integer'}
+Keywords for 'IMO.SHL.2022.C8': integer, {'square', 'sequence', 'function', 'integer', 'path', 'number'}
+Keywords for 'IMO.SHL.2022.C9': integer, {'set', 'number', 'integer', 'pair'}
+Keywords for 'IMO.SHL.2022.G1': point,line,angle, {'point', 'angle', 'circle', 'line'}
+Keywords for 'IMO.SHL.2022.G2': angle,triangle,point,altitude,segment,circle, {'triangle', 'point', 'circle', 'segment', 'altitude', 'angle'}
+Keywords for 'IMO.SHL.2022.G3': tangent,circle,segments,point, {'point', 'circle', 'line', 'tangent'}
+Keywords for 'IMO.SHL.2022.G4': line,triangle,segment,point,circle, {'triangle', 'tangent', 'point', 'circle', 'segment', 'line'}
+Keywords for 'IMO.SHL.2022.G5': triangle,line, {'triangle', 'line', 'tangent'}
+Keywords for 'IMO.SHL.2022.G6': triangle,altitude,point,angle, {'triangle', 'variable', 'point', 'altitude', 'angle', 'line'}
+Keywords for 'IMO.SHL.2022.G7': triangle, {'triangle'}
+Keywords for 'IMO.SHL.2022.G8': hexagon,tangent,triangle,line,inscribed, {'hexagon', 'triangle', 'tangent', 'circle', 'line'}
+Keywords for 'IMO.SHL.2022.N1': divisors,sum, {'divisors', 'number', 'sum'}
+Keywords for 'IMO.SHL.2022.N2': integer, {'integer'}
+Keywords for 'IMO.SHL.2022.N3': integer, {'coprimes', 'integer', 'divisibility'}
+Keywords for 'IMO.SHL.2022.N4': integer, {'integer', 'prime'}
+Keywords for 'IMO.SHL.2022.N5': digit, {'number', 'digit'}
+Keywords for 'IMO.SHL.2022.N6': integer, {'prime', 'sum', 'integer', 'set', 'primes', 'number'}
+Keywords for 'IMO.SHL.2022.N7': integer, {'product', 'prime', 'circle', 'integer', 'set', 'rotation', 'primes'}
+Keywords for 'IMO.SHL.2022.N8': divisibility,integer, {'integer', 'divisibility'}

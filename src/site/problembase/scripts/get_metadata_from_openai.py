@@ -78,6 +78,16 @@ def classify_math_problem(problem_text,prompt_name):
 "LTNumTheoryByCases - Problems where the solution analyzes cases by digits, congruence classes or number intervals. Solution methods that allows to eliminate all (but finitely many) solutions. Reasoning with counting cases and Pigeonhole principle in number theory. " \
 "LTNumTheoryExamples - Numbers with special properties, using Chinese Remainder theorem to prove existence. Recurrent sequences. Constructing integers and similar objects with regular and structural induction. Algorithms on integers, fast exponentiation algorithm, Bezout identity, extended Euclidean algorithm. Problems with limited repertoire of allowed operations. Functional equations for integer functions." \
 "LTIntegerPolynomials - Algera with polynomials with integer coefficients (or taking integer values for integer arguments). Dividing polynomials with remainder; Euclidean algorithm and Bezout identity for polynomials. Eisenstein's criterion for irreducibility. Rational root theorem. Polynomial value difference is divisible by argument difference." \
+"Here I have methods: " \
+"LTInduction - Problems solvable with mathematical induction - typically used to prove statements for all positive integers. The solution uses induction base, inductive hypothesis and the transition (proving that $P(n)$ implies $P(n+1)$ or similar. Structural induction (to reduce a statement on some expression on statements on its constituent parts) and geometric induction (combinatorial geometric tasks that can be reduced to simpler shapes) belong to induction. " \
+"LTExtremeElement - Problems with the greatest or the smallest element and some statements about it. The extreme element either becomes the immediate solution, or its properties are extended to other elements by proving statements and inequalities. Extreme elements often appear in geometry - the largest/smallest angle, distance, array. Some constructions (convex hull, transitive closure) use extreme element reasoning." \
+"LTMeanValuePrinciple - Assigning values to individual elements; using value sums and other aggregate data to estimate individual elements. Pigeonhole principle in its simplest form (the number of objects exceed the number of boxes by one).  Generalized versions of pigeonhole principle. Pigeonhole principle in geometry about coverings and other systems of shapes." \
+"LTInvariant - In problems with a series of transformations or game moves introduce a value that stays the same during the transformations. Then obtain contradictions such as the impossibility of reaching the desired state (as it would have a different value for the invariant). Also use invariants to show that a game strategy can always win.  Also colorings and other auxiliary constructions in order to construct and correctly count an invariant, belong to this method." \
+"LTContradiction - Proofs that start by assuming that the statement is wrong; and then obtain a contradiction. Non-constructive proofs of existence (first assume that something does not exist, and get a contradiction). Proofs by contradiction combined with the well-ordering principle - for example, assuming that some set of positive integers is non-empty, then getting its smallest element - and a contradiction from its existence. " \
+"LTInterpretation - Interpretation explains the same problem in new notation; it introduces new data structures (such as graphs) or encodings (represent objects as expressions). Some interpretation methods have to be created individually, others are standardized and well known - for example, solving a geometry problem with a coordinate method. " \
+"LTExpressionTransforms - Problems where inserting new variables, identical transformations, and also creating chains of inequalities are an essential part of the solution. Other situations where substituting certain expressions leads to some known result." \
+"LTStructureAugmentation - Adding new elements to geometric and other structures to first prove statements about the newly added elements; and later leading back to the original question. This includes constructing counterexamples as well as obtaining estimates by constructing examples." \
+"Please as an answer give out 2 LTopics and 1 method in problem text." \
 "Please classify the following problem: \n\n" \
 f"'{problem_text}'''\n\n"
 
@@ -103,7 +113,7 @@ f"'{problem_text}'''\n\n"
     if prompt_name != 'LTopics_EN':
         classification_value = data["uzdevuma_tips"]
     else:
-        classification_value = (data['LTopic1'], data['LTopic2'], data['LMethod'])
+        classification_value = (data['LTopic1'], data['LTopic2'])
     print(classification_value)
     print("**********************************")
     return classification_value
