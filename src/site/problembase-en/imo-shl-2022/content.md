@@ -3183,6 +3183,108 @@ $p$ prime and \[ a^p=b!+p. \]
 </small>
 
 
+## Solution
+
+*Answer:* $(2,2,2)$ and $(3,4,3)$.
+
+Clearly, $a>1$. We consider three cases.
+
+**Case 1:** We have $a<p$. Then we either have $a \leqslant b$ which implies 
+$a \mid a^{p}-b!=p$ leading to a contradiction, or $a>b$ which is also impossible 
+since in this case we have $b!\leqslant a!<a^{p}-p$, where the last 
+inequality is true for any $p>a>1$.
+
+**Case 2:** We have $a>p$. In this case $b!=a^{p}-p>p^{p}-p \geqslant p!$ so $b>p$ 
+which means that $a^{p}=b!+p$ is divisible by $p$. Hence, $a$ is divisible by $p$ 
+and $b!=a^{p}-p$ is not divisible by $p^{2}$. This means that $b<2 p$. If $a<p^{2}$ 
+then $a / p<p$ divides both $a^{p}$ and $b!$ and hence it also divides 
+$p=a^{p}-b!$ which is impossible. On the other hand, 
+the case $a \geqslant p^{2}$ is also impossible since then 
+$a^{p} \geqslant\left(p^{2}\right)^{p}>(2 p-1)!+p \geqslant b!+p$.
+
+**Comment.** The inequality $p^{2 p}>(2 p-1)!+p$ can be shown e.g. by using
+
+$$(2p-1)!=[1 \cdot(2 p-1)] \cdot[2 \cdot(2 p-2)] \cdots \cdots[(p-1)(p+1)] \cdot p < 
+\left(\left(\frac{2 p}{2}\right)^{2}\right)^{p-1} \cdot p=p^{2 p-1}$$
+
+where the inequality comes from applying AM-GM to each of the terms in square brackets.
+
+**Case 3:** We have $a=p$. In this case $b!=p^{p}-p$. One can check that 
+the values $p=2,3$ lead to the claimed solutions and $p=5$ does not lead to a solution. 
+So we now assume that $p \geqslant 7$. 
+We have $b!=p^{p}-p>p!$ and so $b \geqslant p+1$ which implies that
+
+$$\nu_{2}((p+1)!) \leqslant \nu_{2}(b!) = \nu_{2}\left(p^{p-1}-1\right) \stackrel{LTE}{=} 
+2\nu_{2}(p-1) + \nu_{2}(p+1)-1 = \nu_{2}\left(\frac{p-1}{2} \cdot(p-1) \cdot(p+1)\right),$$
+
+where in the middle we used lifting-the-exponent lemma. On the RHS we have three 
+factors of $(p+1)!$. But, due to $p+1 \geqslant 8$, there are at least $4$ even 
+numbers among $1,2, \ldots, p+1$, so this case is not possible.
+
+
+## Solution
+
+The cases $a \neq p$ are covered as in solution 1 , as are $p=2,3$. 
+For $p \geqslant 5$ we have $b!=p\left(p^{p-1}-1\right)$. By Zsigmondy's Theorem 
+there exists some prime $q$ that divides $p^{p-1}-1$ but does not divide 
+$p^{k}-1$ for $k<p-1$. It follows that $\operatorname{ord}_{q}(p)=p-1$, and hence 
+$q \equiv 1$ $\bmod (p-1)$. Note that $p \neq q$. But then we must have 
+$q \geqslant 2 p-1$, giving
+
+$$b!\geqslant(2 p-1)!=[1 \cdot(2 p-1)] \cdot[2 \cdot(2 p-2)] \cdots \cdots[(p-1) \cdot(p+1)] 
+\cdot p>(2 p-1)^{p-1} p>p^{p}>p^{p}-p,$$ 
+
+a contradiction.
+
+
+## Solution
+
+The cases $a \neq p$ are covered as in solution 1, 
+as are $p=2,3$. Also $b>p$, as $p^{p}>p!+p$ for $p>2$. 
+The cases $p=5,7,11$ are also checked manually, so assume $p \geqslant 13$.
+Let $q \mid p+1$ be an odd prime. By LTE
+
+$$\nu_{q}\left(p^{p}-p\right) = \nu_{q}\left(\left(p^{2}\right)^{\frac{p-1}{2}}-1\right) = 
+\nu_{q}\left(p^{2}-1\right) + \nu_{q}\left(\frac{p-1}{2}\right) = \nu_{q}(p+1)$$
+
+But $b \geqslant p+1$, so then $\nu_{q}(b!) > \nu_{q}(p+1)$, since $q<p+1$, a contradiction. 
+This means that $p+1$ has no odd prime divisor, i.e. $p+1=2^{k}$ for some $k$.
+Now let $q \mid p-1$ be an odd prime. By LTE
+
+$$\nu_{q}\left(p^{p}-p\right)=2 \nu_{q}(p-1)$$
+
+Let $d = \nu_{q}(p-1)$. Then $p \geqslant 1+q^{d}$, so
+
+$$\nu_{q}(b!) \geqslant \nu_{q}(p!) \geqslant \nu_{q}\left(q^{d}!\right)>q^{d-1} \geqslant 2d$$
+
+provided $d \geqslant 2$ and $q>3$, or $d \geqslant 3$.
+
+If $q=3, d=2$ and $p \geqslant 13$ then 
+$\nu_{q}(b!) \geqslant \nu_{q}(p!) \geqslant \nu_{q}(13!)=5 > 2d$. 
+Either way, $d \leqslant 1$. If $p>2 q+1$ (so $p>3 q$, as $q \mid p-1$ ) then
+
+$$\nu_{q}(b!) \geqslant \nu_{q}((3q)!)=3$$
+
+so we must have $q \geqslant \frac{p}{2}$, in other words, $p-1 = 2q$. 
+This implies that $p=2^{k}-1$ and $q=2^{k-1}-1$ are both prime, 
+but it is not possible to have two consecutive Mersenne primes.
+
+
+
+## Solution
+
+Let $a=p, b>p$ and $p \geqslant 5$ (the remaining cases are dealt with as in solution $3$). 
+Modulo $(p+1)^{2}$ it holds that
+
+$p^{p}-p=(p+1-1)^{p}-p \equiv\binom{p}{1}(p+1)(-1)^{p-1}+(-1)^{p}-p=p(p+1)-1-p=p^{2}-1 \not \equiv 0 \bmod \left((p+1)^{2}\right)$.
+
+Since $p \geqslant 5$, the numbers 2 and $\frac{p+1}{2}$ are distinct and less than or equal to $p$. Therefore, $p+1 \mid p!$, and so $(p+1)^{2} \mid(p+1)!$.
+
+But $b \geqslant p+1$, so $b!\equiv 0 \not \equiv p^{p}-p \bmod (p+1)^{2}$, a contradiction.
+
+
+
+
 # <lo-sample/> IMO.SHL.2022.N5
 
 For each $1\leq i\leq 9$ and $T\in\mathbb N$, define $d_i(T)$ 
@@ -3202,6 +3304,50 @@ precisely two distinct values among $d_1(T)$, $d_2(T)$, $\dots$, $d_9(T)$.
 * concepts:digit
 
 </small>
+
+## Solution
+
+Let $n:=1829$. First, we choose some $k$ such that $n \mid 10^{k}-1$. 
+For instance, any multiple of $\varphi(n)$ would work since $n$ is coprime to $10$. 
+We will show that either $T=10^{k}-1$ or $T=10^{k}-2$ has the desired 
+property, which completes the proof since $k$ can be taken to be arbitrary large.
+
+For this it suffices to show that 
+$\#\left\{d_{i}\left(10^{k}-1\right): 1 \leqslant i \leqslant 9\right\} \leqslant 2$. 
+Indeed, if
+
+$$\#\left\{d_{i}\left(10^{k}-1\right): 1 \leqslant i \leqslant 9\right\}=1$$
+
+then, since $10^{k}-1$ which consists of all nines is a multiple of $n$, we have
+
+$$d_{i}\left(10^{k}-2\right)=d_{i}\left(10^{k}-1\right) \text { for } i \in\{1, \ldots, 8\}, \text { and } d_{9}\left(10^{k}-2\right)<d_{9}\left(10^{k}-1\right)$$
+
+This means that $\#\left\{d_{i}\left(10^{k}-2\right): 1 \leqslant i \leqslant 9\right\}=2$.
+
+To prove that $\#\left\{d_{i}\left(10^{k}-1\right)\right\} \leqslant 2$ we 
+need an observation. Let 
+$\overline{a_{k-1} a_{k-2} \ldots a_{0}} \in\left\{1, \ldots, 10^{k}-1\right\}$ 
+be the decimal expansion of an arbitrary number, possibly with leading zeroes. 
+Then $\overline{a_{k-1} a_{k-2} \ldots a_{0}}$ is divisible by $n$ if and only if 
+$\overline{a_{k-2} \ldots a_{0} a_{k-1}}$ is divisible by $n$. 
+Indeed, this follows from the fact that
+
+$$10 \cdot \overline{a_{k-1} a_{k-2} \ldots a_{0}}-\overline{a_{k-2} \ldots a_{0} a_{k-1}}=\left(10^{k}-1\right) \cdot a_{k-1}$$
+
+is divisible by $n$.
+
+This observation shows that the set of multiples of $n$ between 1 and $10^{k}-1$ 
+is invariant under simultaneous cyclic permutation of digits when numbers are 
+written with leading zeroes. Hence, for each $i \in\{1, \ldots, 9\}$ the number 
+$d_{i}\left(10^{k}-1\right)$ is $k$ times larger than the number of $k$ digit 
+numbers which start from the digit $i$ and are divisible by $n$. Since the 
+latter number is either $\left\lfloor 10^{k-1} / n\right\rfloor$ or 
+$1+\left\lfloor 10^{k-1} / n\right\rfloor$, we conclude that 
+$\#\left\{d_{i}\left(10^{k}-1\right)\right\} \leqslant 2$.
+
+**Comment.** More careful analysis shows that 
+$\#\left\{d_{i}\left(10^{k}-1\right): 1 \leqslant i \leqslant 9\right\}=1$ 
+if and only if $n \equiv 1$ $(\bmod 10)$, which is not the case for $n=1829$.
 
 
 
@@ -3230,6 +3376,67 @@ $q(63)=3$, $p(2022)=3$, $q(2022)=1$.)
 
 </small>
 
+## Solution
+
+Let us call two positive integers $m, n$ friends if $p(m)+p(n)$ and 
+$q(m)+q(n)$ are both even integers. We start by noting that the pairs 
+$(p(k), q(k))$ modulo 2 can take at most 4 different values; thus, 
+among any five different positive integers there are two which are friends.
+
+In addition, both functions $p$ and $q$ satisfy $f(a b)=f(a)+f(b)$ for any 
+$a, b$. Therefore, if $m$ and $n$ are divisible by $d$, then both $p$ and 
+$q$ satisfy the equality $f(m)+f(n) = f(m/d) + f(n/d) + 2f(d)$. 
+This implies that $m, n$ are friends if and only if $m/d, n/d$ are friends.
+
+Let us call a set of integers $\left\{n_{1}, n_{2}, \ldots, n_{5}\right\}$ 
+an interesting set if for any indexes $i, j$, the difference 
+$d_{i j}=\left|n_{i}-n_{j}\right|$ divides both $n_{i}$ and $n_{j}$. 
+We claim that if elements of an interesting set are all positive, 
+then we can obtain a special integer. Indeed, if we were able to construct 
+such a set, then there would be a pair of integers $\left\{n_{i}, n_{j}\right\}$ 
+which are friends, according to the first observation. 
+Additionally, the second observation yields that the quotients 
+$n_{i} / d_{i j}, n_{j} / d_{i j}$ form a pair of friends, which happen 
+to be consecutive integers, thus giving a special integer as desired.
+
+In order to construct a family of interesting sets, we can start by observing 
+that the set $\{0,6,8,9,12\}$ is an interesting set. Using that 
+$72=2^{3} \cdot 3^{2}$ is the least common multiple of all pairwise differences 
+in this set, we obtain a family of interesting sets by considering
+
+$$\{72 k, 72 k+6,72 k+8,72 k+9,72 k+12\}$$
+
+for any $k \geqslant 1$. If we consider the quotients (of these numbers 
+by the appropriate differences), then we obtain that the set
+
+$$S_{k}=\{6 k, 8 k, 9 k, 12 k, 12 k+1,18 k+2,24 k+2,24 k+3,36 k+3,72 k+8\}$$
+
+has at least one special integer. In particular, the interval $[1,100 k]$ 
+contains the sets $S_{1}, S_{2}, \ldots, S_{k}$, each of which has a special 
+number. Any special number can be contained in at most ten sets $S_{k}$, 
+from where we conclude that the number of special integers in $[1,100 k]$ 
+is at least $k/10$.
+
+Finally, let $N=100 k+r$, with $k \geqslant 1$ and $0 \leqslant r<100$, 
+so that we have $N<100(k+1) \leqslant 200k$. Then the number of special 
+integers in $[1, N]$ is at least $k/10 > N/2000$, as we wanted to prove.
+
+**Comment 1.** The statement is also true for $N \geqslant 15$ as at least 
+one of the numbers $7,14,15$ is special.
+
+**Comment 2.** Another approach would be to note that if 
+$p(2 n), p(2 n+1), p(2 n+2)$ all have the same parity then one of the numbers 
+$n, 2n, 2n+1$ is special. Indeed, if $q(n)+q(n+1)$ is even then $n$ is 
+special since $p(n)+p(n+1) \equiv p(2n) + p(2n+2) \equiv 0 \pmod {2}$. 
+Otherwise, if $q(n)+q(n+1)$ is odd, so is $q(2n) + q(2n+2)$ which implies 
+that exactly one of the numbers $2n, 2n+1$ is special.
+
+Unfortunately, it seems hard to show that the set of such $n$ has positive 
+density: see a recent paper 
+[https://arxiv.org/abs/1509.01545](https://arxiv.org/abs/1509.01545) 
+for the proof that all eight patterns of the parities of 
+$p(n), p(n+1), p(n+2)$ appear for a positive proportion of positive integers.
+
 
 
 # <lo-sample/> IMO.SHL.2022.N7
@@ -3249,6 +3456,113 @@ of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$.
 
 </small>
 
+## Solution
+
+Let us allow the value $x=0$ as well; we prove the same statement under this 
+more general constraint. Obviously that implies the statement with the original conditions.
+
+Call a pair $\{p, q\}$ of primes with $p \neq q$ special if $p q=x^{2}+x+k$ 
+for some nonnegative integer $x$. The following claim is the key mechanism of the problem:
+
+*Claim.*  
+(a) For every prime $r$, there are at most two primes less than $r$ forming a special pair with $r$.  
+(b) If such $p$ and $q$ exist, then $\{p, q\}$ is itself special.  
+
+We present two proofs of the claim.
+
+*Proof 1.* We are interested in integers $1 \leqslant x<r$ satsfying
+
+$$\begin{equation*}
+x^{2}+x+k \equiv 0 \quad(\bmod r) \tag{1}
+\end{equation*}$$
+
+Since there are at most two residues modulo $r$ that can satisfy that quadratic 
+congruence, there are at most two possible values of $x$. That proves (a).
+
+Now suppose there are primes $p, q$ with $p<q<r$ and nonnegative integers $x, y$ such that
+
+$$\begin{aligned}
+& x^{2}+x+k=p r \\
+& y^{2}+y+k=q r
+\end{aligned}$$
+
+From $p<q<r$ we can see that $0 \leqslant x<y \leqslant r-1$. 
+The numbers $x, y$ are the two solutions of (1); by Vieta's formulas, 
+we should have $x+y \equiv-1(\bmod r)$, so $x+y=r-1$.
+
+Letting $K=4 k-1, X=2 x+1$, and $Y=2 y+1$, we obtain
+
+$$\begin{gathered}
+4 p r=X^{2}+K \\
+4 q r=Y^{2}+K
+\end{gathered}$$
+
+with $X+Y=2 r$. Multiplying the two above equations,
+
+$$\begin{aligned}
+16 p q r^{2} & =\left(X^{2}+K\right)\left(Y^{2}+K\right) \\
+& =(X Y-K)^{2}+K(X+Y)^{2} \\
+& =(X Y-K)^{2}+4 K r^{2} \\
+4 p q & =\left(\frac{X Y-K}{2 r}\right)^{2}+K
+\end{aligned}$$
+
+In particular, the number $Z=\frac{X Y-K}{2 r}$ should be an integer, 
+and so $4 p q=Z^{2}+K$. By parity, $Z$ is odd, and thus
+
+$$p q=z^{2}+z+k \quad \text { where } z=\frac{Z-1}{2}$$
+
+so $\{p, q\}$ is special.
+
+*Proof 2.* As before, we suppose that
+
+$$\begin{aligned}
+& x^{2}+x+k=p r \\
+& y^{2}+y+k=q r
+\end{aligned}$$
+
+Subtracting, we have
+
+$$(x+y+1)(x-y)=r(p-q)$$
+
+As before, we have $x+y=r-1$, so $x-y=p-q$, and
+
+$$\begin{aligned}
+& x=\frac{1}{2}(r+p-q-1) \\
+& y=\frac{1}{2}(r+q-p-1)
+\end{aligned}$$
+
+Then,
+
+$$\begin{aligned}
+k=p r-x^{2}-x & =\frac{1}{4}\left(4 p r-(r+p-q-1)^{2}-2(r+p-q-1)\right) \\
+& =\frac{1}{4}\left(4 p r-(r+p-q)^{2}+1\right) \\
+& =\frac{1}{4}\left(2 p q+2 p r+2 q r-p^{2}-q^{2}-r^{2}+1\right)
+\end{aligned}$$
+
+which is symmetric in $p, q, r$, so
+
+$$pq = z^{2}+z+k \quad \text { where } z=\frac{1}{2}(p+q-r-1)$$
+
+and $\{p, q\}$ is special.
+
+Now we settle the problem by induction on $|S|$, with $|S| \leqslant 3$ clear.
+
+Suppose we have proven it for $|S|=n$ and consider $|S|=n+1$. Let $r$ be the largest prime in $S$; the claim tells us that in any valid cycle of primes:
+
+- the neighbors of $r$ are uniquely determined, and
+- removing $r$ from the cycle results in a smaller valid cycle.
+
+It follows that there is at most one valid cycle, completing the inductive step.
+
+*Comment.* The statement is not as inapplicable as it might seem. For example, for $k=41$, the following 385 primes form a valid cycle of primes:
+
+53, 4357, 104173, 65921, 36383, 99527, 193789, 2089123, 1010357, 2465263, 319169, 15559, 3449, 2647, 1951, 152297, 542189, 119773, 91151, 66431, 222137, 1336799, 469069, 45613, 1047941, 656291, 355867, 146669, 874879, 2213327, 305119, 3336209, 1623467, 520963, 794201, 1124833, 28697, 15683, 42557, 6571, 39607, 1238833, 835421, 2653681, 5494387, 9357539, 511223, 1515317, 8868173, 114079681, 59334071, 22324807, 3051889, 5120939, 7722467, 266239, 693809 , 3931783, 1322317, 100469, 13913, 74419, 23977, 1361, 62983, 935021, 512657, 1394849, 216259, 45827, 31393, 100787, 1193989, 600979, 209543, 357661, 545141, 19681, 10691, 28867, 165089, 2118023, 6271891, 12626693, 21182429, 1100467, 413089, 772867, 1244423, 1827757, 55889, 1558873, 5110711, 1024427, 601759, 290869, 91757, 951109, 452033, 136471, 190031, 4423, 9239, 15809, 24133, 115811, 275911, 34211, 877, 6653, 88001, 46261, 317741, 121523, 232439, 379009, 17827, 2699, 15937, 497729, 335539, 205223, 106781, 1394413, 4140947, 8346383, 43984757, 14010721, 21133961, 729451, 4997297, 1908223, 278051, 529747, 40213, 768107, 456821, 1325351, 225961, 1501921, 562763, 75527, 5519, 9337, 14153, 499, 1399, 2753, 14401, 94583, 245107, 35171, 397093, 195907, 2505623, 34680911, 18542791, 7415917, 144797293, 455529251, 86675291, 252704911, 43385123, 109207907, 204884269, 330414209, 14926789, 1300289, 486769, 2723989, 907757, 1458871, 65063, 4561, 124427, 81343, 252887, 2980139, 1496779, 3779057, 519193, 47381, 135283, 268267, 446333, 669481, 22541, 54167, 99439, 158357, 6823, 32497, 1390709, 998029, 670343, 5180017, 13936673, 2123491, 4391941, 407651, 209953, 77249, 867653, 427117, 141079, 9539, 227, 1439, 18679, 9749, 25453, 3697, 42139, 122327, 712303, 244261, 20873, 52051, 589997, 4310569, 1711069, 291563, 3731527, 11045429, 129098443, 64620427, 162661963, 22233269, 37295047, 1936969, 5033449, 725537, 1353973, 6964457, 2176871, 97231, 7001, 11351, 55673, 16747, 169003, 1218571, 479957, 2779783, 949609, 4975787, 1577959, 2365007, 3310753, 79349, 23189, 107209, 688907, 252583, 30677, 523, 941, 25981, 205103, 85087, 1011233, 509659, 178259, 950479, 6262847, 2333693, 305497, 3199319, 9148267, 1527563, 466801, 17033, 9967, 323003, 4724099, 14278309, 2576557, 1075021, 6462593, 2266021, 63922471, 209814503, 42117791, 131659867, 270892249, 24845153, 12104557, 3896003, 219491, 135913, 406397, 72269, 191689, 2197697, 1091273, 2727311, 368227, 1911661, 601883, 892657, 28559, 4783, 60497, 31259, 80909, 457697, 153733, 11587, 1481, 26161, 15193, 7187, 2143, 21517, 10079, 207643, 1604381, 657661, 126227, 372313, 2176331, 748337, 64969, 844867, 2507291, 29317943, 14677801, 36952793, 69332267, 111816223, 5052241, 8479717, 441263, 3020431, 1152751, 13179611, 38280013, 6536771, 16319657, 91442699, 30501409, 49082027, 72061511, 2199433, 167597, 317963, 23869, 2927, 3833, 17327, 110879, 285517, 40543, 4861, 21683, 50527, 565319, 277829, 687917, 3846023, 25542677, 174261149, 66370753, 9565711, 1280791, 91393, 6011, 7283, 31859, 8677, 10193, 43987, 11831, 13591, 127843, 358229, 58067, 15473, 65839, 17477, 74099, 19603, 82847, 21851, 61.
+
+
+
+
+
+
 
 
 # <lo-sample/> IMO.SHL.2022.N8
@@ -3264,3 +3578,143 @@ Prove that $5^n-3^n$ is not divisible by $2^n+65$ for any positive integer $n$.
 * concepts:divisibility,integer-numbers
 
 </small>
+
+
+
+## Solution
+
+Let $n$ be a positive integer, and let $m=2^{n}+65$. For the sake of 
+contradiction, suppose that $m \mid 5^{n}-3^{n}$, so $5^{n} \equiv 3^{n} \pmod {m}$.
+
+Notice that if $n$ is even, then $3 \mid m$, but $3 \nmid 5^{n}-3^{n}$, contradiction. 
+So, from now on we assume that $n$ is odd, $n=2 k+1$. Obviously $n=1$ is not possible, 
+so $n \geqslant 3$. Notice that $m$ is coprime to $2$, $3$ and $5$.
+
+Let $m_{1}$ be the smallest positive multiple of $m$ that can be written in the
+form of either $\left|5a^{2} - 3b^{2}\right|$ or $\left|a^{2}-15 b^{2}\right|$ 
+with some integers $a$ and $b$.
+
+Note that $5^{n}-3^{n}=5\left(5^{k}\right)^{2}-3\left(3^{k}\right)^{2}$ is a 
+multiple of $m$, so the set of such multiples is non-empty, and therefore $m_{1}$ is well-defined.
+
+**Part 1.** First we show that $m_{1} \leqslant 5 m$. Consider the numbers
+
+$$5^{k+1} x+3^{k+1} y, \quad 0 \leqslant x, y \leqslant \sqrt{m}$$
+
+There are $\lfloor\sqrt{m}\rfloor+1>\sqrt{m}$ choices for $x$ and $y$, 
+so there are more than $m$ possible pairs $(x, y)$. Hence, two of these 
+sums are congruent modulo $m$ : 
+$5^{k+1} x_{1}+3^{k+1} y_{1} \equiv 5^{k+1} x_{2}+3^{k+1} y_{2}(\bmod m)$.
+
+Now choose $a=x_{1}-x_{2}$ and $b=y_{1}-y_{2}$; at least one of 
+$a, b$ is nonzero, and
+
+$$5^{k+1} a+3^{k+1} b \equiv 0 \quad(\bmod m), \quad|a|,|b| \leqslant \sqrt{m}$$
+
+From
+
+$$0 \equiv\left(5^{k+1} a\right)^{2}-\left(3^{k+1} b\right)^{2}=5^{n+1} a^{2}-3^{n+1} b^{2} \equiv 5 \cdot 3^{n} a^{2}-3^{n+1} b^{2}=3^{n}\left(5 a^{2}-3 b^{2}\right) \pmod {m}$$
+
+we can see that $\left|5 a^{2}-3 b^{2}\right|$ is a multiple of $m$. 
+Since at least one of $a$ and $b$ is nonzero, $5 a^{2} \neq 3 b^{2}$. 
+Hence, by the choice of $a, b$, we have 
+$0<\left|5 a^{2}-3 b^{2}\right| \leqslant \max \left(5 a^{2}, 3 b^{2}\right) \leqslant 5 m$.
+That shows that $m_{1} \leqslant 5 m$.
+
+**Part 2.** Next, we show that $m_{1}$ cannot be divisible by $2$, $3$ and $5$. 
+Since $m_{1}$ equals either $\left|5 a^{2}-3 b^{2}\right|$ or 
+$\left|a^{2}-15 b^{2}\right|$ with some integers $a, b$, we have six cases to check. 
+In all six cases, we will get a contradiction by presenting another 
+multiple of $m$, smaller than $m_{1}$.
+
+- If $5 \mid m_{1}$ and $m_{1}=\left|5 a^{2}-3 b^{2}\right|$, then $5 \mid b$ and 
+  $\left|a^{2}-15\left(\frac{b}{5}\right)^{2}\right|=\frac{m_{1}}{5}<m_{1}$.
+- If $5 \mid m_{1}$ and $m_{1}=\left|a^{2}-15 b^{2}\right|$, then $5 \mid a$ and 
+  $\left|5\left(\frac{a}{5}\right)^{2}-3 b^{2}\right|=\frac{m_{1}}{5}<m_{1}$.
+- If $3 \mid m_{1}$ and $m_{1}=\left|5 a^{2}-3 b^{2}\right|$, then $3 \mid a$ and 
+  $\left|b^{2}-15\left(\frac{a}{3}\right)^{2}\right|=\frac{m_{1}}{3}<m_{1}$.
+- If $3 \mid m_{1}$ and $m_{1}=\left|a^{2}-15 b^{2}\right|$, then $3 \mid a$ and 
+  $\left|5 b^{2}-3\left(\frac{a}{3}\right)^{2}\right|=\frac{m_{1}}{3}<m_{1}$.
+- If $2 \mid m_{1}$ and $m_{1}=\left|5 a^{2}-3 b^{2}\right|$, then 
+  $\left|\left(\frac{5 a-3 b}{2}\right)^{2}-15\left(\frac{a-b}{2}\right)^{2}\right|=\frac{m_{1}}{2}<m_{1}$.
+- If $2 \mid m_{1}$ and $m_{1}=\left|a^{2}-15 b^{2}\right|$, then 
+  $\left|5\left(\frac{a-3 b}{2}\right)^{2}-3\left(\frac{a-5 b}{2}\right)^{2}\right|=\frac{m_{1}}{2}<m_{1}$.
+
+(The last two expressions can be obtained from 
+$(\sqrt{5} a+\sqrt{3} b)(\sqrt{5}-\sqrt{3})=(5 a-3 b)+\sqrt{15}(b-a)$ and $(a+\sqrt{15} b)(\sqrt{5}-\sqrt{3})=\sqrt{5}(a-3 b)+\sqrt{3}(5 b-a)$.)
+
+In all six cases, we found that either $\frac{m_{1}}{2}, \frac{m_{1}}{3}$ or 
+$\frac{m_{1}}{5}$ is of the form $\left|5 x^{2}-3 y^{2}\right|$ or 
+$\left|x^{2}-15 y^{2}\right|$. Since $m$ is coprime to $2$, $3$ and $5$, 
+the presented number is a multiple of $m$, but this contradicts the minimality of $m_{1}$.
+
+
+**Part 3.** The last remaining case is $m_{1}=m$, so either 
+$m=\left|5 a^{2}-3 b^{2}\right|$ or $m=\left|a^{2}-15 b^{2}\right|$. 
+We will get a contradiction by considering the two sides modulo $3$, $4$ and $5$.
+
+- $2^{n}+65=5 a^{2}-3 b^{2}$ is not possible, because 
+  $2^{n}+65 \equiv 1(\bmod 3)$, but $5 a^{2}-3 b^{2} \not \equiv 1$ $(\bmod 3)$.
+- $2^{n}+65=3 b^{2}-5 a^{2}$ is not possible, because 
+  $2^{n}+65 \equiv 1(\bmod 4)$, but $3 b^{2}-5 a^{2} \not \equiv 1$ $(\bmod 4)$.
+- $2^{n}+65=a^{2}-15 b^{2}$ is not possible, because 
+  $2^{n}+65 \equiv \pm 2(\bmod 5)$, but $a^{2}-15 b^{2} \not \equiv \pm 2$ $(\bmod 5)$.
+- $2^{n}+65=15 b^{2}-a^{2}$ is not possible, because
+  $2^{n}+65 \equiv 1(\bmod 4)$, but $15 b^{2}-a^{2} \not \equiv 1$ $(\bmod 4)$.
+
+We found a contradiction in all cases, that completes the solution.
+
+**Comment 1.** Part I is a standard application of Thue's lemma:
+
+*Lemma (Thue).* Suppose that $m>1$ and $c$ are integers, and $X, Y$ are 
+positive integers such that $X \leqslant m<X Y$. Then there exist some 
+integers $x, y$ with $|x|<X$ and $0<y<Y$, such that $x \equiv c y(\bmod m)$.
+
+It is a well-known corollary that if $c, d$ are coprime to $m$, the congruence 
+$c x^{2} \equiv d y^{2}(\bmod m)$ has a solution such that $x, y$ are coprime 
+to $m$, and $X, Y$ are positive integers such that $X Y>m$, then 
+$c x^{2} \equiv d y^{2}(\bmod m)$ has a solution such that at least one of 
+$x, y$ is nonzero, $|x|<X$ and $|y|<Y$.
+
+In the solution we applied this corollary with $c=5, d=3, X=Y=\lfloor\sqrt{m}\rfloor+1$.
+
+**Comment 2.** In fact, we proved that a positive integer $m$ with 
+$m \equiv 13$ or $37(\bmod 60)$ cannot divide any nonzero integer of the 
+form $5 a^{2}-3 b^{2}$ or $a^{2}-15 b^{2}$ with coprime integers $a, b$. 
+In other words, if $m \equiv 13$ or $37(\bmod 60)$, then 15 is not a 
+quadratic residue modulo $m$. Using the tools of quadratic reciprocity, 
+the solution can be significantly shortened.
+
+Suppose that $a$ and $b$ are coprime. For every prime divisor $p>5$ of 
+$5 a^{2}-3 b^{2}$ or $a^{2}-15 b^{2}$, we have
+
+$$\begin{equation*}
+1=\left(\frac{15}{p}\right)=\left(\frac{3}{p}\right)\left(\frac{5}{p}\right)=(-1)^{\frac{p-1}{2}}\left(\frac{p}{3}\right)\left(\frac{p}{5}\right) \tag{1}
+\end{equation*}$$
+
+where $\left(\frac{a}{p}\right)$ stands for the Legendre symbol. 
+Considering the remainders of $p$ when divided by $4$, $3$ and $5$, $(1)$ leads to
+
+$$p \equiv \pm 1, \pm 7, \pm 11 \text { or } \pm 17 \bmod 60$$
+
+These remainders form a subgroup of the reduced remainders modulo $60$. 
+Since $13$ and $37$ are not elements in this subgroup, the number $m=2^{n}+65$ 
+cannot be a product of such primes.
+
+Instead of handling the prime divisors of $m$ separately, we can use 
+Jacobi symbols for further simplification, as shown in the next solution.
+
+
+## Solution 
+
+Suppose again that $5^{n} \equiv 3^{n} \pmod {m=2^{n}+65}$. 
+Like in the first solution, we conclude that $n$ must be odd, and 
+$n \geqslant 3$, so $8 \mid 2^{n}$.
+
+Using Jacobi symbols, 
+
+$$-1=\left(\frac{2^{n}+65}{5}\right)=\left(\frac{5}{2^{n}+65}\right)=\left(\frac{5^{n}}{2^{n}+65}\right)=\left(\frac{3^{n}}{2^{n}+65}\right)=\left(\frac{3}{2^{n}+65}\right)=\left(\frac{2^{n}+65}{3}\right)=1,$$
+
+contradiction.
+
+
