@@ -9,6 +9,9 @@ cipari $0$ un $2$ un kurš dalās ar $15$?
 * questionType:FindOptimal
 * domain:NT
 * LTopic:LTNumeralSystems
+* topic:DivisibilityRulesLastDigits
+* topic:DivisibilityRulesFor3And9
+* topic:DecimalNotationDigits
 
 </small>
 
@@ -36,6 +39,9 @@ rūtiņu malu, kas pilnībā atrodas uz robežas, skaits.
 * questionType:FindExample
 * domain:Geom
 * LTopic:LTPolygons
+* topic:SquareGridShapes
+* topic:PolygonPerimeter
+* topic:Area
 
 </small>
 
@@ -61,6 +67,8 @@ septītdaļa – pensionāri. Cik biļetes tika pārdotas?
 * questionType:FindAll
 * domain:NT
 * LTopic:LTDivisibility
+* topic:MutualPrimes
+* topic:ArithmeticSeriesDivisibility
 
 </small>
 
@@ -86,6 +94,7 @@ līdzsvarā? Atbildi pamatot!
 * questionType:FindAll
 * domain:Alg
 * LTopic:LTEquationSystems
+* topic:SystemsSubstituteVariables
 
 </small>
 
@@ -122,6 +131,7 @@ Kāda krāsa patīk katrai meitenei? Atbildi pamatot!
 * questionType:FindAll
 * domain:Comb
 * LTopic:LTLogic
+* topic:PartitioningInPairsBijections
 
 </small>
 
@@ -153,6 +163,8 @@ Cik ir tādu skaitļu, kas ir apvilkti ar vismaz divām dažādām krāsām?
 * questionType:FindCount
 * domain:NT
 * LTopic:LTDivisibility
+* topic:OtherCountingSetOperations
+* topic:MutualPrimes
 
 </small>
 
@@ -197,6 +209,8 @@ Figūras var būt arī pagrieztas.
 * questionType:FindExample
 * domain:Geom
 * LTopic:LTCuttingCoversColoring
+* topic:SquareGridCutting
+* topic:RotationBy90
 
 </small>
 
@@ -221,6 +235,8 @@ Vai var gadīties, ka Māris ieguva summu, kuras pēdējais cipars ir
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
 * LTopic:LTCongruenceModulo
+* topic:PeriodicRemainders
+* topic:SeriesOneToNSum
 
 </small>
 
@@ -288,6 +304,7 @@ līdzsvarā? Atbildi pamatot!
 * questionType:FindAll
 * domain:Alg
 * LTopic:LTEquationSystems
+* topic:SystemsSubstituteVariables
 
 </small>
 
@@ -329,6 +346,8 @@ sestdiena – $56$, svētdiena – $57$. Cik ciema iedzīvotāji visu laiku melo
 * questionType:FindCount
 * domain:Comb
 * LTopic:LTLogic
+* topic:TrueAndFalseStatements
+* topic:DoubleCounting
 
 </small>
 
@@ -366,6 +385,8 @@ Cik dažādos veidos to var izdarīt?
 * questionType:FindCount
 * domain:NT
 * LTopic:LTNumeralSystems
+* topic:DivisibilityRulesLastDigits
+* topic:DivisibilityRulesFor3And9
 
 </small>
 
@@ -479,12 +500,14 @@ bet **(B)** gadījumā Brālítis uzvarēs pēc $2022: 3=674$. gājiena.
     
 # <lo-sample/> LV.AMO.2022B.7.5
 
-Daži no 272 ciema iedzīvotājiem visu laiku saka patiesību, 
+Daži no $272$ ciema iedzīvotājiem visu laiku saka patiesību, 
 pārējie visu laiku melo. Katram no ciema iedzīvotājiem
 ir tieši viena mīļākā nedēļas diena. Aptaujājot iedzīvotājus, 
 viņiem tika lūgts atbildēt uz septiņiem jautājumiem,
 katrā no tiem izvēloties vienu no dotajām atbildēm:  
+
 ![](LV.AMO.2022B.7.5.png)  
+
 Uz katru jautājumu saņemto apstiprinošo ("jā") atbilžu skaits bija šāds: 
 pirmdiena – $53$, otrdiena – $54$,
 trešdiena – $55$, ceturtdiena – $56$, piektdiena – $57$, sestdiena – $58$, svētdiena – $59$. 
@@ -513,8 +536,8 @@ kurš saka patiesību, pārvērstu par meli, tad papildus mēs iegūstu
 piecas "liekas" atbildes jā.
 
 Iesākumā pieṇemsim, ka visi ciema iedzīvotāji saka patiesību, 
-tādā gadījumā mums kopā būtu tieši $273$ atbildes "jā". Tā kā mums 
-ir 394 atbildes "jā", tad mums "liekas" ir $392-272=120$ 
+tādā gadījumā mums kopā būtu tieši $272$ atbildes "jā". Tā kā mums 
+ir $392$ atbildes "jā", tad mums "liekas" ir $392-272=120$ 
 atbildes "jā". Tātad par meḷiem mums jāpārvērš $120:5=24$ ciema iedzīvotāji.
 
 
@@ -550,13 +573,13 @@ būt ierakstīts $M$ vietā, lai skaitlis dalītos ar $4$.
   tāpēc iespējamās $N$ vērtības ir $1$, $4$ vai $7$.
 * Ja $M=6$, tad skaitla ciparu summa ir $N+5+9+7+6=N+27$. 
   Lai skaitlis dalítos ar 3, tā ciparu summai jādalās ar $3$, 
-  tāpēc iespējamās $M$ vērtības ir $0$, $3$, $6$ vai $9$. 
-  Tā kā skaitlis nevar sākties ar $0$, iespējamās $N$ vērtības ir $3$, $6$ vai $9$.
+  tāpēc iespējamās $N$ vērtības ir $0$, $3$, $6$ vai $9$. 
+  Tā kā skaitlis nevar sākties ar $0$, 
+  iespējamās $N$ vērtības ir $3$, $6$ vai $9$.
 
 Līdz ar to iespējami seši dažādi varianti, kādus ciparus var 
-ierakstīt $M$ un $N$ vietā: $N=1$ un $M=2$; $N=4$ un $M=2$; 
-$N=7$ un $M=2$; $N=3$ un $M=6$; 
-$N=6$ un $M=6$; $N=9$ un $M=6$.
+ierakstīt $M$ un $N$ vietā: $(N,M)=(1,2)$; $(N,M)=(4,2)$; 
+$(N,M)=(7,2)$; $(N,M)=(3,6)$; $(N,M)=(6,6)$; $(N,M)=(9,6)$.
 
 
     
@@ -567,7 +590,8 @@ Skolēnam tika uzdots mājas darbs, kurā bija $20$ uzdevumi.
 Par katru pareizi atrisinātu uzdevumu tiek doti $8$
 punkti, par katru nepareizi atrisinātu uzdevumu tiek atņemti $5$ punkti, 
 ja uzdevums nav risināts, tad par to ir $0$ punkti. 
-Cik uzdevumus atrisināja skolēns, ja kopā viņš ieguva $13$ punktus?
+Cik uzdevumus skolēns atrisināja pareizi, 
+ja kopā viņš ieguva $13$ punktus?
 
 <small>
 
@@ -669,8 +693,9 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 
 * concepts:integer-numbers,distance
 * questionType:ProveDisprove,ProveDisprove
-* domain:NT
-* LTopic:LTNumTheoryExamples
+* domain:Comb
+* LTopic:LTGraphs
+* topic:HamiltonCircuits
 
 </small>
 
@@ -863,8 +888,9 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 
 * concepts:integer-numbers,distance
 * questionType:ProveDisprove
-* domain:NT
-* LTopic:LTNumTheoryExamples
+* domain:Comb
+* LTopic:LTGraphs
+* topic:HamiltonCircuits
 
 </small>
 
@@ -873,10 +899,10 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 **(A)** Pamatosim, ka prasītais nav iespējams.
 
 Ievērosim, ka skaitḷi $1$; $2$; $3$; $11$; $12$ un $13$ nevar būt 
-uzrakstīti blakus viens otram, jo katru divu skaitlu starpība nav 
+uzrakstīti blakus viens otram, jo katru divu skaitļu starpība nav 
 $3$; $4$ vai $5$. Tātad tos jāraksta, izlaižot vienu pozīciju, 
 tādējādi rodas tikai divas blakus vietas, kurās nav ierakstīti 
-skaitlii (skat. 10.att.).
+skaitļi (skat. 10.att.).
 
 Skaitli 4 var rakstīt blakus tikai skaitlim $1$, jo to starpība ir $3$, 
 bet to nevar rakstīt blakus pārējiem jau uzrakstītajiem skaitļiem 
@@ -884,9 +910,9 @@ $2$; $3$; $11$; $12$ vai $13$. Tātad skaitli $4$ jāraksta
 vienā no divām blakus esošajām brīvajām vietām.
 
 Skaitli $10$ var rakstīt blakus tikai skaitlim 13, bet to nevar 
-rakstīt blakus pārējiem pa apli uzrakstītajiem skaitliem $1$; $2$; $3$; $11$ vai $12$. 
+rakstīt blakus pārējiem pa apli uzrakstītajiem skaitļiem $1$; $2$; $3$; $11$ vai $12$. 
 Tātad skaitli 10 jāraksta vienā no divām blakus esošajām brīvajām vietām. 
-No tā izriet, ka skait|us 4 un 10 jāraksta blakus, bet rodas pretruna 
+No tā izriet, ka skaitļus 4 un 10 jāraksta blakus, bet rodas pretruna 
 ar uzdevuma nosacījumiem, jo to starpība ir $6$. Tātad dotos skaitļus 
 nevar uzrakstīt tā, lai katri divi blakus esoši skaitḷi atšķirtos par $3$; $4$ vai $5$.
 

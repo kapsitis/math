@@ -74,9 +74,9 @@ The only number divisible by $105$ in this interval is $210$.
 
 # <lo-sample/> LV.AMO.2022B.5.4
 
-The scales (a), (b) and (c) are known to be in balance. 
+The balance scales (a), (b) and (c) are all in equilibrium. 
 How many arrows should be put in the place of the question mark so that the 
-weights (d) are in balance? Justify answer!
+balance scale (d) is also in equilibrium? Justify your answer!
 
 ![](LV.AMO.2022B.5.4.png)
 
@@ -95,11 +95,14 @@ We need to place six arrows instead of the question mark.
 Let's express the mass of all the figures in "arrow units". 
 From the balance (c), we conclude that the mass of the circle is 
 four arrows. Consequently, the left side of 
-scales (b) equals to six arrows that weigh 
+balance (b) equals to six arrows that weigh 
 as much as three squares. So the mass of one square is 
 two arrows. 
 
-Next, consider scales (a). By replacing the circle with four arrows and each square with two arrows, we get that the mass of the pentagon and four arrows is ten arrows. So the mass of the pentagon is equal to six arrows.
+Next, consider balance (a). By replacing the circle with four arrows 
+and each square with two arrows, we get that the mass of the 
+pentagon plus four arrows is ten arrows. 
+So the mass of the pentagon alone is six arrows.
 
 
 # <lo-sample/> LV.AMO.2022B.5.5
@@ -284,7 +287,9 @@ of the table, so it cannot be the last digit of any sum $S_n$.
 
 # <lo-sample/> LV.AMO.2022B.6.4
 
-The scales (a), (b) and (c) are known to be in balance. How many circles should you put in place of a question mark so that the weights (d) are in balance? Justify answer!
+The balance scales (a), (b) and (c) are known to be in equilibirum. 
+How many circles should you put in place of the question mark so that the balance scale 
+(d) is also in equilibrium? Justify your answer!
 
 ![](LV.AMO.2022B.6.4.png) 
 
@@ -300,11 +305,43 @@ The scales (a), (b) and (c) are known to be in balance. How many circles should 
 
 ## Solution
 
-should put five aplǐši instead of question mark. Let's express the mass of all the figures in circles. From the balance of the instrument (c), we conclude that the mass of the pentagon is equal to the mass of four circles. We can therefore consider that the instrument (b) has six circles in the left cup, the mass of which is the same as the mass of three arrows. So the mass of one arrow is the same as the mass of two circles. Here's a look at the scales (a) below. By replacing the pentagon with four circles and each arrow with two circles, we get that the mass of the square and five circles is the same as the mass of the ten circles. So the square mass is as much as the mass of five circles.
+*Answer.* The question mark should be replaced by five circles. 
+
+We express the mass of all the shapes in "circle units". 
+From the balance (c) we conclude that the mass of the pentagon 
+equals to four circles. Thus the balance scale (b) has six circles 
+on the left side, and this is the same as the mass of three arrows. 
+So the mass of a single arrow equals to two circles. 
+
+Next, consider the balance scale (a). By replacing the pentagon with 
+four circles and each arrow with two circles, we get that the mass of 
+the rectangle and five circles is the same as the mass of 
+ten circles. So the rectangle has the mass of five circles.
+
+
 
 # <lo-sample/> LV.AMO.2022B.6.5
 
-Some of the 273 villagers tell the truth all the time, the rest lie all the time. Each of the villagers has exactly one favourite day of the week. When they interviewed residents, they were asked to answer seven questions, each choosing one of the answers given:! [picture] (LV.AMO.2022B.6.5.png) the number of confirmatory (yes) answers received to each question was as follows: Monday - $51$, Tuesday - $52$, Wednesday - $53$, Thursday - $55$, Friday - $54$, Saturday - $56$, Sunday - $57$. How many villagers lie all the time? 
+Some of $273$ villagers always tell the truth, the remaining ones 
+lie all the time. Each of the villagers has exactly one favourite 
+day of the week. There was a poll of all the villagers, and they 
+were asked to answer seven questions with either "Yes" or "No":
+
+| Question                        |                |               |
+| ------------------------------- | -------------- | ------------- |
+| Is Monday your favorite day?    | $\square$ Yes  | $\square$ No  |
+| Is Tuesday your favorite day?   | $\square$ Yes  | $\square$ No  |
+| Is Wednesday your favorite day? | $\square$ Yes  | $\square$ No  |
+| Is Thursday your favorite day?  | $\square$ Yes  | $\square$ No  |
+| Is Friday your favorite day?    | $\square$ Yes  | $\square$ No  |
+| Is Saturday your favorite day?  | $\square$ Yes  | $\square$ No  |
+| Is Sunday your favorite day?    | $\square$ Yes  | $\square$ No  |
+
+
+The number of "Yes" answers received to each question was as follows: 
+Monday - $51$, Tuesday - $52$, Wednesday - $53$, Thursday - $55$, 
+Friday - $54$, Saturday - $56$, Sunday - $57$. 
+How many villagers lie all the time? 
 
 <small>
 
@@ -317,17 +354,33 @@ Some of the 273 villagers tell the truth all the time, the rest lie all the time
 
 ## Solution 
 
-In the village there are $21$ liars. 
-Together, the $51+52+53+54+55+56+57=378$ answers “yes” were sanctioned. Let's note that every villager who tells the truth answered yes exactly once (for their favourite day) and every liar exactly six times (for all the days that aren't viṇa's favourite day). So if we turned one resident who says the truth into a liar, then in addition, we get five “redundant” answers yes. For a start, it pieṇemsim like everyone in the village was telling the truth, in which case we'd have to $273$ the answers “yes” directly together. Because we have $378$ answers to yes, we “seem” to have $378-273=105$ answers to yes. So we have to turn a $105:5=21$ villager into a meḷiem.
+*Answer.* In the village there are $21$ liars. 
+
+Alltogether there were $51+52+53+54+55+56+57=378$ answers “Yes”. 
+Note that every villager who tells the truth answered "Yes" exactly once 
+(for their favourite day) and every liar exactly six times 
+(for all the days that aren't his/her favourite day). 
+If we turn one resident who says the truth into a liar, then we get 
+five surplus answers "Yes". In the beginning assume that 
+everyone in the village is telling the truth; in this case 
+there would be $273$ answers “Yes”. 
+As there are $378$ answers "Yes", we have $378-273=105$ 
+"redundant" answers "Yes". This can be achieved by turning $105:5=21$ 
+villagers into liars.
+
+
 
 # <lo-sample/> LV.AMO.2022B.7.1
 
-The following text was written on the board: $A869B$. Each of the letters $A$ and $B$ must be replaced by one digit (they may also be the same) so that the resulting five digit number is divided by the $15$. How many different ways can you do this? 
+The following text was written on the board: $A869B$. Each of the 
+letters $A$ and $B$ must be replaced by one digit 
+(they may or may not be the same) so that the resulting five-digit 
+number is divisible by $15$. In how many ways can you do this?
 
 <small>
 
 * cooked: variable, Digit, divisibility
-* questionType: Findcount
+* questionType: FindCount
 * domain: NT
 * LTopic: The resolution
 
@@ -335,11 +388,27 @@ The following text was written on the board: $A869B$. Each of the letters $A$ an
 
 ## Solution
 
-can do what is required in $6$ ways. For a number to share $\overline{A869B}$ with a $15$, it must share both $3$ and $5$. Let's look at two possible cases in which a number can be typed instead of a $B$ to share a number with a $5$. * If you $B=0$, the sum of the number's digits is $A+8+6+9+0=A+23$. To share a number with a $3$, the sum of its digits must share a $3$, so the possible $A$ values are $1$, $4$, or $7$. * If $B=5$, the sum of the digits of the number must be $A+8+6+9+5=A+28$. To share a number with a $3$, the sum of its digits must share a $3$, so the possible $A$ values are $2$, $5$, or $8$. As a result, there are six different options that can be typed instead of $A$ and $B$: $A=1$ and $B=0$; $A=4$ and $B=0$; $A=7$ and $B=0$; $A=2$ and $B=5$; $A=5$ and $B=5$; $A=8$ and $B=5$.
+*Answer.* This can be done in $6$ ways. 
+For a number $\overline{A869B}$ to be divisible by $15$, 
+it must be divisible by both $3$ and $5$. 
+Consider two possible cases for the digit $B$ such that it is disible by $5$. 
+
+* If $B=0$, the sum of the digits is $A+8+6+9+0=A+23$. 
+  To be divisible by $3$, the sum of digits must be divisible by $3$, 
+  so the possible values for $A$ are $1$, $4$, or $7$. 
+* If $B=5$, the sum of the digits is $A+8+6+9+5=A+28$. 
+  To be divisible by $3$, the sum of digits must be divisible by $3$, 
+  so the possible values for $A$ are $2$, $5$, or $8$. 
+  
+As a result, there are six different options for digits replacing $A$ and $B$
+respectively: $(A,B) = (1,0)$, $(A,B)=(4,0)$; $(A,B)=(7,0)$, 
+$(A,B)=(2,5)$; $(A,B)=(5,5)$; $(A,B)=(8,5)$.
+
+
 
 # <lo-sample/> LV.AMO.2022B.7.2
 
-Can the **(A)** $5$ be found; **(B)** $15$ natural numbers (optional) equal to their product? 
+Do there exist **(A)** $5$; **(B)** $15$ positive integers (some of them may be equal) such that their sum equals their product?
 
 <small>
 
@@ -352,12 +421,19 @@ Can the **(A)** $5$ be found; **(B)** $15$ natural numbers (optional) equal to t
 
 ## Solution 
 
-**(A)** Yes, can, for example, be valid for numbers $1,1,2,2,2$ because $1+1+2+2+2=8$ and $1 \cdot 1 \cdot 2 \cdot 2 \cdot 2=8$ * * (B) * * Yes, can, do, for example, $1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 15$ numbers ($13$ peers, $2$, and $15$) because $13 \cdot 1+2+15=30$ and $1 \cdot 2 \cdot 15=30$. Note in the case of * * (A) * *, $1, 1, 1, 3, 3$ or $1,1,1,2,5$ are also valid.
+**(A)** Yes, the numbers $1,1,2,2,2$ satisfy the condition, since 
+$1+1+2+2+2=8$ and $1 \cdot 1 \cdot 2 \cdot 2 \cdot 2=8$ 
+
+**(B)** Yes, such numbers exist. For example, $1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 15$ (13 copies of number $1$ and also numbers $2$ and $15$), 
+since $13 \cdot 1+2+15=30$ and $1 \cdot 2 \cdot 15=30$. 
+
+*Note* For (A) the solutions $1,1,1,3,3$ or $1,1,1,2,5$ are also valid.
 
 
 # <lo-sample/> LV.AMO.2022B.7.3
 
-Show you how to take off $6$ lines in a plane and postpone $7$ points on them so that exactly three dots are marked on each straight! 
+Show how to draw $6$ lines in a plane and mark $7$ points on the lines so that 
+exactly three points are marked on each line! 
 
 <small>
 * Concept: Plane, line, point
@@ -368,11 +444,20 @@ Show you how to take off $6$ lines in a plane and postpone $7$ points on them so
 
 ## Solution 
 
-See e.g. Fig. 5! [] (LV.AMO.2022B.7.3A.png)
+An possible answer is shown in Fig.5. 
+
+![](LV.AMO.2022B.7.3A.png)
+
+
 
 # <lo-sample/> LV.AMO.2022B.7.4
 
-There's a pile of candy on the table. Carlson and brother take turns making moves, Carlson starts the game. In one move, a player can pick up from a pile and eat either one or two candy. The player who eats the last candy wins. Which player, when playing properly, can always win if there are * * (A) * * $6$ candy in the heap at first; * * (B) * * $2022$ candy? 
+There's a pile of candies on the table. Karlsson and Lillebror 
+(Little Brother) take turns making moves, with Karlsson starting the game. 
+In one move, a player can remove from the pile and 
+eat either one or two candies. The player who eats the last candy wins. 
+Which player, can always win if there are initially
+**(A)** $6$ candies in the heap; **(B)** $2022$ candies in the heap? 
 
 <small>
 
@@ -385,11 +470,34 @@ There's a pile of candy on the table. Carlson and brother take turns making move
 
 ## Solution 
 
-in both cases can always be won by a brother. To achieve this, he can do this: in every move, if Carlson eats one candy, then his brother eats two, and vice versa, if Carlson eats two, then his brother eats one. Playing like this, after every move (by both players), the number of candy in the pile drops by exactly 3. Since at first the number of candy in the pile shares ̄ with $3$ (both $6$ and $2022$ share $3$), in both cases it will also be quiet as $0$ after a move by Bralish, so the baby will win. * * * * (R) * * * in case the baby will win already after the second move, but in case of * * (B) * *, the Brālítis will win after the $2022: 3=674$. move.
+Lillebror can win in both cases. To achieve this, he can proceed 
+as follows: in every move, if Karlsson eats one candy, then Lillebror eats two, and vice versa, if Karlsson eats two, then Lillebror eats one. 
+Playing like this, after every pair of moves the number of candies 
+in the pile drops by exactly $3$. Since initially the number of 
+candies was divisible by $3$ (both $6$ and $2022$ are divisible by $3$), 
+in either case it will become $0$ after a move by Lillebror, 
+so the Lillebror will win. 
+
+*Note.* In case (A), Lillebror will win after his second move. In case
+(B), Lillebror will win after the $2022:3=674$ moves.
+
+
 
 # <lo-sample/> LV.AMO.2022B.7.5
 
-Some of the $272$ villagers tell the truth all the time, the rest lie all the time. Each of the villagers has exactly one favourite day of the week. When they interviewed residents, they were asked to answer seven questions, each choosing one of the answers given:! [] (LV.AMO.2022B.7.5.png) the number of confirmatory (yes) answers received to each question was as follows: Monday - $53$, Tuesday - $54$, Wednesday - $55$, Thursday - $57$, Friday - $56$, Saturday - $58$, Sunday - $59$. How many villagers lie all the time? 
+Some of $272$ villagers always tell the truth, the remaining ones 
+lie all the time. Each of the villagers has exactly one favourite 
+day of the week. There was a poll of all the villagers, and they 
+were asked to answer seven questions with either "Yes" or "No":
+
+![](LV.AMO.2022B.7.5.png) 
+
+The number of "Yes" answers received to each question was as follows: 
+Monday - $53$, Tuesday - $54$, Wednesday - $55$, Thursday - $57$, 
+Friday - $56$, Saturday - $58$, Sunday - $59$. 
+How many villagers lie all the time? 
+
+
 
 <small>
 
@@ -398,15 +506,39 @@ Some of the $272$ villagers tell the truth all the time, the rest lie all the ti
 * domain: Comb
 * LTopic: The resolution
 
-</small> 
+</small>
+
+
 
 ## Solution 
 
-in the village is $24$ meḷi. Together, a $53+54+55+56+57+58+59=392$ of yes responses were saṇemtas. Let's note that every villager who tells the truth answered yes exactly once (for his favourite day) and every liar exactly six times (for all days other than his favourite day). So if we turned one resident who says the truth into a liar, then in addition, we get five “redundant” answers yes. For a start, it pieṇemsim like everyone in the village was telling the truth, in which case we'd have to $273$ the answers “yes” directly together. Since we have 394 yes answers, we “seem” to have $392-272=120$ yes answers. So we have to turn $120:5=24$ villagers into meḷiem.
+*Answer.* In the village there are $24$ liars. 
+
+Alltogether there were $53+54+55+56+57+58+59=392$ answers "Yes". 
+Note that every villager who tells the truth answered "Yes" exactly once 
+(for their favourite day) and every liar exactly six times 
+(for all the days that aren't his/her favourite day). 
+
+If we turn one resident who says the truth into a liar, then we get 
+five surplus answers "Yes".
+In the beginning assume that 
+everyone in the village is telling the truth; in this case 
+we would have $272$ answers “Yes”. 
+
+
+Since we have 392 answers "Yes", we have $392-272=120$ "redundant" answers "Yes". 
+This can be achieved by turning $120:5=24$ villagers into liars.
+
+
+
 
 # <lo-sample/> LV.AMO.2022B.8.1
 
-The following text was written on the board: $N597M$. Each of the letters $N$ and $M$ must be replaced by one digit (they may also be the same) so that the resulting five digit number is divided by the $12$. How many different ways can you do this? 
+The following text was written on the board: $N597M$. Each of the letters 
+$N$ and $M$ should be replaced by a digit (they may or may not be 
+the same) so that the resulting five digit number is divisible by $12$. 
+In how many ways can you do this?
+
 
 <small>
 
@@ -419,11 +551,33 @@ The following text was written on the board: $N597M$. Each of the letters $N$ an
 
 ## Solution 
 
-can do what is required in $6$ different ways. For a number to $\overline{N597M}$ share 12, it must share both $3$ and $4$. To share a number with a $4$, its last two digits must be divided by a $4$. Let's look at two possible cases in which a number can be typed instead of a $M$ to share a number with a $4$. * If you $M=2$, the sum of the number's digits is $N+5+9+7+2=N+23$. To share a number with 3, the sum of its digits must share a $3$, so the possible $N$ values are $1$, $4$, or $7$. * If $M=6$, the sum of the digits of the number must be $N+5+9+7+6=N+27$. To dalítos a number to 3, the sum of its digits must share a $3$, so the possible $M$ values are $0$, $3$, $6$, or $9$. Because a number cannot begin with a $0$, the possible $N$ values are $3$, $6$, or $9$. As a result, there are six different options that can be typed instead of $M$ and $N$: $N=1$ and $M=2$; $N=4$ and $M=2$; $N=7$ and $M=2$; $N=3$ and $M=6$; $N=6$ and $M=6$; $N=9$ and $M=6$.
+The requirements can be satisfied in $6$ different ways. 
+In order to have a number $\overline{N597M}$ divisible by $12$, 
+it must be divisible by $3$ and by $4$. 
+To be divisible by $4$, the last two digits must be divisible by $4$. 
+Let's look at two possible cases for the digit $M$ to achieve
+divisiblity by $4$. 
+
+* If $M=2$, the sum of digits is $N+5+9+7+2=N+23$. 
+  To be divisible by $3$, the sum of its digits must be divisible by $3$,
+  so the possible values of $N$ are $1$, $4$, or $7$. 
+* If $M=6$, the sum of digits is $N+5+9+7+6=N+27$. 
+  To be divisible by $3$, the sum of its digits must divisible by $3$, 
+  so the possible values of $N$ are $0$, $3$, $6$, or $9$. No number can
+  begin with a $0$, so the possible values of $N$ are $3$, $6$, or $9$. 
+  
+As a result, there are six different options how to replace $N$ and $M$: 
+$(N,M)=(1,2)$; $(N,M)=(4,2)$; $(N,M)=(7,2)$; $(N,M)=(3,6)$; 
+$(N,M)=(6,6)$; $(N,M)=(9,6)$.
+
 
 # <lo-sample/> LV.AMO.2022B.8.2
 
-The student was tasked with housework that had $20$ assignments. For each properly resolved task, $8$ points are given, for each missolved task, $5$ points are subtracted, if the task is not solved, then points are $0$ for it. How many tasks did a student solve if they scored $13$ together? 
+The student had to complete a homework with $20$ tasks. For each task 
+$8$ points are added, if the solution is correct, $5$ points are 
+subtracted, if the solution is wrong, and $0$ points is given, 
+if the task is not attempted. How many tasks did a student solve 
+correctly, if his total score is $13$? 
 
 <small>
 
@@ -436,12 +590,38 @@ The student was tasked with housework that had $20$ assignments. For each proper
 
 ## Solution 
 
-the student correctly solved $6$ tasks. Let's just say it's the only valid value. We mark the number of tasks that have been resolved correctly with the number of $x$ and missolved tasks with the $y$. We $$8x-5y=13$$ the equation because the $8x$ is an even number, then the $5y$ is definitely an odd number because the difference must be 13. So $y$ is an odd number. By expressing $x$ from the $8x-5y=13$ of equality, we get $x=(13+5y):8$. We note that there were 20 tasks in total, so only 6 different $y$ values that are shown in the table are $x+y \leq 20$ and possible. If $y \geq 12$, then $x>9$ and $x+y>20$. If the calculated $x$ value is a natural number, the resulting $x$ and $y$ values are valid. The table shows that the only valid values are $x=6$ and $y=7$, so the student correctly solved 6 tasks, incorrectly solved $7$ tasks, and $7$ tasks were not solved. | $\boldsymbol{y}$ | is $\boldsymbol{x}=(\mathbf{1 3}+\mathbf{5} \boldsymbol{y}): \mathbf{8}$ a natural number? | |: ---: |: ---: | | | $\mathbf{1}$ | No | | | $\mathbf{3}$ | No | | $\mathbf{5}$ | No | $\mathbf{7}$ | Yes, $x=6$ | Jā | No | $\mathbf{9}$ | No | No | $\mathbf{11}$ | No |
+*Answer.* The student solved $6$ tasks correctly. 
+
+Let us show that this answer is the only possibility. 
+Let $x$ denote the number of tasks that were solved correctly, but $y$ denotes the number tasks that were wrong. 
+
+Consider all solutions for the equation $8x-5y=13$. Since $8x$ is 
+even, then $5y$ and $y$ must be odd. When expressing $x$, we would get $x=(13+5y):8$. As there were $20$ tasks in total, so there are only $6$ 
+different values of $y$ such that $x+y \leq 20$. 
+Indeed, if $y \geq 12$, then $x>9$ and $x+y>20$. 
+
+If the calculated $x$ value is a positive integer, the resulting 
+$x$ and $y$ values are valid. The table shows that the only 
+valid values are $x=6$ and $y=7$, so the student solved $6$ tasks 
+correctly, solved $7$ tasks incorrectly, and $7$ tasks were not attempted. 
+
+| $\boldsymbol{y}$ | Is $x=(13+5y):8$ a positive integer? |
+| ---------------- | ------------------------------------ |
+| $\mathbf{1}$     | No                                   |
+| $\mathbf{3}$     | No                                   |
+| $\mathbf{5}$     | No                                   |
+| $\mathbf{7}$     | Yes, $x=6$                           |
+| $\mathbf{9}$     | No                                   |
+| $\mathbf{11}$    | No                                   |
+
+
 
 
 # <lo-sample/> LV.AMO.2022B.8.3
 
-In the triangle, on the edge of the $ABC$ $BC$, there is a point in the $D$ that $AD = BD$ and $AB = DC = AC$. Calculate triangle $ABC$ angles! 
+In a triangle $ABC$ on the side $BC$ there is a point $D$ 
+such that $AD = BD$ and $AB = DC = AC$. Calculate the angles 
+of $ABC$! 
 
 <small>
 
@@ -454,15 +634,40 @@ In the triangle, on the edge of the $ABC$ $BC$, there is a point in the $D$ that
 
 ## Solution 
 
-as $AD=BD$, the triangle $ABD$ is an equilateral triangle with a base $AB$ and its base anchor is the same, hence $\sphericalangle ABD=\sphericalangle BAD=\alpha$ (see Figure 6). We get from the triangle $ABD$ that we're $\sphericalangle ADB=180^{\circ}-\alpha-\alpha=180^{\circ}-2 \alpha$. We're watching $\sphericalangle ADC=180^{\circ} - \sphericalangle ADB=180^{\circ}-\left(180^{\circ}-2 \alpha\right)=2 \alpha$ as blakusleṇki. Since the $AC=DC$, the triangle in the $ACD$ is also equilateral and its basic pieleṇki are the same, hence the $\sphericalangle DAC=\sphericalangle ADC = 2\alpha$. Since the $AB=AC$, the triangle in the $ABC$ is also equilateral and its basic pieleṇki are the same, hence the $\sphericalangle ABC=\sphericalangle ACB=\alpha$. From the triangle $ACD$, we get that by $$\sphericalangle ADC+\sphericalangle DAC+\sphericalangle ACD = 2 \alpha+2 \alpha+\alpha=180^{\circ}$$ Atrising Equation $5 \alpha=180^{\circ}$, we get that $\alpha=36^{\circ}$. Roared triangle $ABC$ leṇ ̂ Ku values: $$\begin{aligned}
-& \circ \quad \sphericalangle ABC = \sphericalangle ACB = \alpha=36^{\circ};\\
-& \circ \quad \sphericalangle BAC = \sphericalangle BAD + \sphericalangle DAC = \alpha+2 \alpha=108^{\circ}.
-\end{aligned}$$! [] (LV.AMO.2022B.8.3A.png)
+Since $AD=BD$, the triangle $ABD$ is an isosceles 
+triangle with the base $AB$ and both angles at the base 
+are equal, hence $\sphericalangle ABD=\sphericalangle BAD=\alpha$ 
+(see Figure 6). 
+
+We get from the triangle $ABD$ that 
+$\sphericalangle ADB=180^{\circ}-\alpha-\alpha=180^{\circ}-2 \alpha$. 
+Note that $\sphericalangle ADC = 180^{\circ} - \sphericalangle ADB=180^{\circ}-\left(180^{\circ}-2 \alpha\right)=2 \alpha$ as 
+supplementary angles. Since the $AC=DC$, the triangle $ACD$ 
+is also isosceles and angles at its base are the same, hence  $\sphericalangle DAC=\sphericalangle ADC = 2\alpha$. 
+
+Since $AB=AC$, the triangle $ABC$ is also isosceles and the angles
+at its base are the same, hence 
+$\sphericalangle ABC=\sphericalangle ACB=\alpha$. 
+From the triangle $ACD$, we get that
+
+$$\sphericalangle ADC+\sphericalangle DAC+\sphericalangle ACD = 2 \alpha+2 \alpha+\alpha=180^{\circ}$$ 
+
+By solving $5 \alpha=180^{\circ}$, we get that $\alpha=36^{\circ}$. 
+Find all the angles in triangle $ABC$: 
+
+- $\sphericalangle ABC = \sphericalangle ACB = \alpha=36^{\circ}$;
+- $\sphericalangle BAC = \sphericalangle BAD + \sphericalangle DAC = \alpha+2 \alpha=108^{\circ}$.
+
+![](LV.AMO.2022B.8.3A.png)
 
 
 # <lo-sample/> LV.AMO.2022B.8.4
 
-Can the numbers * * (R) * * * $0;\;1;\;2;\;3;\;4;\;5;\;6;\;7;\;8;\;9$ be written around the circle; * * (B) * * * $0;\;1;\;2;\;3;\;4;\;5;\;6;\;7;\;8;\;9;\;10;\;11;\;12;\;13$; so that each two adjacent numbers differ by $3$; $4$ or $5$? 
+Is it possible to arrange the numbers  
+**(A)** $0;\;1;\;2;\;3;\;4;\;5;\;6;\;7;\;8;\;9$   
+**(B)** $0;\;1;\;2;\;3;\;4;\;5;\;6;\;7;\;8;\;9;\;10;\;11;\;12;\;13$  
+around a circle so that any two adjacent numbers differ by $3$, $4$, or $5$?
+
 
 <small>
 
@@ -475,14 +680,38 @@ Can the numbers * * (R) * * * $0;\;1;\;2;\;3;\;4;\;5;\;6;\;7;\;8;\;9$ be written
 
 ## Solution
 
-**(A)** let's justify that the requested is not possible. Let's note that the numbers 0; 1; 2; 8 and 9 cannot be written next to each other because the difference between the two numbers is not 3; 4 or 5. So they should be written omitting one position (see figure 7, where the letters indicate the places where these numbers are to be entered). You can type the number $7$ next to only the number $2$ because their difference is $5$, but you cannot type it next to the other numbers in the circle in the $0$. $1$; $8$ or $9$, so the numbers given cannot be written in such a way that every two adjacent skaitḷi will be $3$; $4$ or $5$. 
+**(A)** Let us show that it is impossible. Note that the numbers 
+$0$; $1$; $2$; $8$ and $9$ cannot be written next to each other 
+as the difference between any two of them is not $3$; $4$ or $5$. 
+So they should be written on the circle by omitting one position 
+between any two of them (See Fig.7, where the letters indicate 
+places where these five numbers should go.)
 
-**(B)** Yes, for example, see figure 8 recording the number of atshkira numbers inside the rink.! [] (LV.AMO.2022B.8.4A.png)
+You can only write $7$ next to $2$ because their difference is $5$, 
+but $7$ cannot stand next to any of the other numbers $0$, $1$, $8$, or $9$. 
+So it is impossible to place $7$ anywhere on the circle, so the 
+given numbers cannot be written in a way that 
+every two adjacent numbers differ by $3$, $4$, or $5$. 
+
+**(B)** Yes, for example, see Fig.8. Inside the circle the numbers 
+indicate by how much any two neighboring number differ. 
+
+![](LV.AMO.2022B.8.4A.png)
 
 
 # <lo-sample/> LV.AMO.2022B.8.5
 
-A row erupted among five friends, in which: * Elinas says: “I always say justice.” * Kung says: “Elinas and Agnes are both lying.” * Maruta says: “Everyone says justice.” * Agnes says: “Elinas lies.” * Emili says: “Everyone lies.” How many friends say justice? 
+Five friends started arguing, and they stated the following: 
+
+* Elina says: "I always speak the truth."
+* Guna says: "Elina and Agnese are both lying."
+* Maruta says: "Everyone speaks the truth."
+* Agnese says: "Elina lies."
+* Emils says: "Everyone lies." 
+
+It is known that each friend either always speaks the truth 
+or always lies. 
+How many friends speak the truth? 
 
 <small>
 
@@ -495,11 +724,24 @@ A row erupted among five friends, in which: * Elinas says: “I always say justi
 
 ## Solution 
 
-let's justify that only one of your friends says justice. We note that if Elinas says the truth, Agnes lies, so viṇas can't both speak the truth; if Agnes lies, then Elinas says the truth, so they can't both lie. So either Elina or Agnes speak the truth and the other lies. It follows that both Kung, Maruta and Emili lie. So only one of the friends says justice.
+*Answer.* We show that only one of the friends speaks the truth. 
+Note that: 
+
+- If Elina speaks the truth, then Agnese lies.  
+  So they cannot both speak the truth. 
+- If Agnese lies, then Elina says the truth, so the cannot both lie. 
+
+Thus, either Elina or Agnese speaks the truth and the other one lies. 
+It follows that Guna, Maruta and Emils lie. 
+So only one of the friends speaks the truth (it is either Elina or Agnese). 
+
+
 
 # <lo-sample/> LV.AMO.2022B.9.1
 
-How many are the $\overline{ABBA}$ of four-digit numbers that share $99$? (The same numbers match the same letters, and the same numbers can match different letters.) 
+How many four-digit numbers $\overline{ABBA}$ are there that are 
+divisible by $99$? (The same letters are replaced by the same digits,
+but different letters may or may not be the same.)
 
 <small>
 
@@ -512,11 +754,27 @@ How many are the $\overline{ABBA}$ of four-digit numbers that share $99$? (The s
 
 ## Solution 
 
-Is that there are 10 numbers that meet the terms of the task: $1881$, $2772$, $3663$, $4554$, $5445$, $6336$, $7227$, $8118$, $9009$, $9999$. For a number to share $99$, it must share both $11$ and $9$. We note that the given number is divided by the $11$ because the difference between the amount of digits in odd positions and the amount of digits in even positions is the $(A+B)-(B+A)=0$ divided by the $11$. To share a number with a $9$, the sum of its digits must share a $9$. So $A+B+B+A=2(A+B)$ should share the $9$. Since $A$ and $B$ are numbers, two cases are possible: $A+B=9$ or $A+B=18$. If $A+B=9$, there may be nine anniversaries: $$A+B=1+8=2+7=3+6=4+5=5+4=6+3=7+2=8+1=9+0$$ If you $A+B=18$, you can only have one year in a $A+B=9+9$.
+There are $10$ numbers that satisfy the conditions: 
+$1881$, $2772$, $3663$, $4554$, $5445$, $6336$, $7227$, $8118$, $9009$, $9999$. For a number to be divisible by $99$, it must 
+be divisible by both $11$ and $9$. 
+Note that the given number is divisible by $11$, since the 
+sum of digits in odd positions 
+minus the sum of digits in even positions equals $0$, so it is divisble by $11$. 
+
+To be divisible by $9$, the sum of its digits must be divisible by $9$. 
+So $A+B+B+A=2(A+B)$ should be divisible by $9$. 
+Since $A$ and $B$ are numbers, two cases are possible: 
+$A+B=9$ or $A+B=18$. If $A+B=9$, there may be nine cases: 
+$$A+B=1+8=2+7=3+6=4+5=5+4=6+3=7+2=8+1=9+0.$$ 
+
+If you $A+B=18$, you can only have one case $A+B=9+9$.
+
+
 
 # <lo-sample/> LV.AMO.2022B.9.2
 
-Are certain $x + \frac{9}{x} > y + \frac{9}{y}$ if * * (P) * * $x > y > 0$, * * (B) * * $x > y > 3$? 
+Is the inequality always true: $x + \frac{9}{x} > y + \frac{9}{y}$, if 
+**(A)** $x > y > 0$,  **(B)** $x > y > 3$? 
 
 <small>
 
@@ -530,15 +788,34 @@ Are certain $x + \frac{9}{x} > y + \frac{9}{y}$ if * * (P) * * $x > y > 0$, * * 
 ## Solution 
 
 **(A)** 
-No, for example, if you $x=1$ and $y=0,1$, then $x+\frac{9}{x}=10$ and $y+\frac{9}{y}=90,1$, but $10<90,1$. 
+No. For example, take $x=1$, and $y=0.1$. Then 
+$x+\frac{9}{x}=10$ and $y+\frac{9}{y}=90.1$, but $10<90.1$. 
 
 **(B)** 
-let's justify that if you $x>y>3$, the inequality given is true. By multiplying the $x+\frac{9}{x}>y+\frac{9}{y}$ of inequality by a positive expression in the $x y$, we obtain an equivalent $$x^{2} y+9 y>x y^{2}+9x$$ of inequalities. in order to prove that the inequalities given are true, it is sufficient to state that the $x^{2} y+9 y-x y^{2}-9 x>0$. We notice that we $x-y>0$ and $x y-9>0$ because after the given $x>y>3$. We look at the product of two positive expressions and modify their equivalents: $$0 < (xy-9)(x-y)=x^{2}y - xy^{2} -9x + 9y$$ So we got what we need.
+We show that for $x>y>3$, the inequality given is true. 
+
+Multiply both sides of the inequality $x+\frac{9}{x}>y+\frac{9}{y}$ 
+by a positive expression $xy$, get an equivalent expression: 
+
+$$x^{3} y+9 y>x y^{2}+9x.$$
+
+In order to prove that the inequalities are true, 
+it is sufficient to show that the $x^{2}y + 9y - xy^{2} - 9x>0$. 
+Notice that we have $x-y>0$ and $xy-9>0$ since it is given that $x>y>3$. 
+We look at the product of two positive expressions 
+and rewrite it as follows: 
+
+$$0 < (xy-9)(x-y) = x^{2}y - xy^{2} - 9x + 9y$$. 
+
+So we proved the necessary inequality.
 
 
 # <lo-sample/> LV.AMO.2022B.9.3
 
-In a right-angle triangle, the $ACB$ ($\sphericalangle C = 90^{\circ}$) is $CH$. On the edge of the $AC$, a suspended dot $K$ so that it $\sphericalangle CBK = \sphericalangle BAC$. Prove that the straight $CH$ divides the cut $BK$ into two equal parts! 
+In a right triangle $ACB$ ($\sphericalangle C = 90^{\circ}$) 
+$CH$ is an altitude. On the side $AC$ we mark a point $K$ 
+so that $\sphericalangle CBK = \sphericalangle BAC$. 
+Prove that the line $CH$ divides the segment $BK$ in half! 
 
 <small>
 
@@ -551,11 +828,36 @@ In a right-angle triangle, the $ACB$ ($\sphericalangle C = 90^{\circ}$) is $CH$.
  
 ## Solution
 
-marks the intersection of $CH$ and $KB$ with $O$ and $\sphericalangle CBK=\sphericalangle BAC=\alpha$, for $\sphericalangle ABC=\beta$ (see Figure 9). From the triangle $ABC$, we get that $\sphericalangle BAC=180^{\circ}-\sphericalangle ACB-\sphericalangle ABC$, or $\alpha=90^{\circ}-\beta$. We $BHC$ from the triangle that the $\sphericalangle HCB=180^{\circ}-\sphericalangle CHB-\sphericalangle HBC=90^{\circ}-\beta=\alpha$, hence the triangle $COB$, is an equilateral triangle because two of its leṇki are equally $\sphericalangle OBC=\sphericalangle OCB=\alpha$. It follows that it $BO = OC$ like the sides of an equilateral triangle. We get from the triangle $KCB$ that we $\sphericalangle BKC=180^{\circ}-\sphericalangle KCB-\sphericalangle KBC =  90^{\circ}-\alpha=\beta$. We notice the $\sphericalangle ACH=\sphericalangle ACB-\sphericalangle HCB=90^{\circ}-\alpha=\beta$. So the triangle in the $KOC$ is equilateral because two of its curves are equally $\sphericalangle OKC=\sphericalangle KCO = \beta$ and its side edges are the same $CO=OK$. From the equals $BO=OC$ and $CO=OK$, we get that the $BO=OK$, hence the $CH$, divides the cut-off $BK$ into two equal daḷās! [] (LV.AMO.2022B.9.3A.png)
+Denote the intersection of $CH$ and $KB$ with $O$ and $\sphericalangle CBK=\sphericalangle BAC=\alpha$, 
+$\sphericalangle ABC=\beta$ (see Fig.9). 
+From the triangle $ABC$, we get that 
+$\sphericalangle BAC=180^{\circ}-\sphericalangle ACB-\sphericalangle ABC$, 
+or $\alpha=90^{\circ}-\beta$. 
+
+From the triangle $BHC$ we get that 
+$\sphericalangle HCB=180^{\circ}-\sphericalangle CHB-\sphericalangle HBC=90^{\circ}-\beta=\alpha$, hence the triangle $COB$, is an equilateral triangle as two of its angles are 
+equal to $\sphericalangle OBC=\sphericalangle OCB=\alpha$. It follows that 
+$BO = OC$ as to legs of an isosceles triangle.
+
+We get from the triangle $KCB$ that 
+$\sphericalangle BKC=180^{\circ}-\sphericalangle KCB-\sphericalangle KBC =  90^{\circ}-\alpha=\beta$.
+Notice that 
+$\sphericalangle ACH = \sphericalangle ACB - \sphericalangle HCB = 90^{\circ} - \alpha = \beta$. 
+So the triangle in the $KOC$ is isosceles because two of its angles are equal: 
+$\sphericalangle OKC=\sphericalangle KCO = \beta$ and its side edges are the same $CO=OK$. 
+From the equalities $BO=OC$ and $CO=OK$, we get that $BO=OK$, hence $CH$
+divides segment $BK$ in half. 
+
+![](LV.AMO.2022B.9.3A.png)
+
+
 
 # <lo-sample/> LV.AMO.2022B.9.4
 
-Whether numbers can be written around the circle * * (P) * * 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; * * (B) * * 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; so that each two adjacent numbers differ by $3$; $4$ or $5$? 
+Is it possible to arrange the numbers  
+**(A)** $1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13$;  
+**(B)** $1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14$  
+on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$? 
 
 <small>
 
