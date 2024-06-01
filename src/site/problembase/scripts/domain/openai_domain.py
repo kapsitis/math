@@ -49,11 +49,11 @@ def normalize_text(text):
         # text = text+'\n\n'+text[meta_end:]
     return text
 
-if __name__ == '__main__':
+def main(): 
     categories = ["Alg", "Geom", "NT", "Comb"]
 
     #questionType_re = re.compile(r'.+?questionType:([\w\.,]+).+?',re.DOTALL)
-    concept_re = re.compile(r'.+?domain:([\w\.,]+).+?',re.DOTALL) 
+    metadata_re = re.compile(r'.+?domain:([\w\.,]+).+?',re.DOTALL) 
     problemList = extract_sections_from_md(f'../{sys.argv[1]}/content.md')
 
     # prepare training data: problem_data_set un category_data_set
@@ -61,21 +61,26 @@ if __name__ == '__main__':
     category_data_set = []
     title_data_set = []
     for (title, problem) in problemList:
-        category = 'NA'
-        m = concept_re.match(problem)  # Mēģina atrast questionType
+        metadata = 'NA'
+        m = metadata_re.match(problem)  # Mēģina atrast metadata vērtību
         if m:
-            category = m.group(1)
+            metadata = m.group(1)
         problem = normalize_text(problem)
         
-        answer = classify_math_problem(problem,'domain_LV') # problem un prompt nosaukums
-        with open("domain_lv_openai.csv", 'a', encoding='utf-8') as file1:
+        answer = classify_math_problem(problem,'domain_LV_updated') # problem un prompt nosaukums
+        with open("domain_lv_openai_KAP.csv", 'a', encoding='utf-8') as file1:
             file1.write(f'{title},"{category}","{answer}"\n')
 
 
-        if category != 'NA':
+        if metadata != 'NA':
             problem_data_set.append(problem)
-            category_data_set.append(category)
+            category_data_set.append(metadata)
             title_data_set.append(title)
 
         print(problem)
         print()
+
+
+
+if __name__ == '__main__':
+    main()

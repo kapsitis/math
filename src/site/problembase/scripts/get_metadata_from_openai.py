@@ -44,14 +44,52 @@ def classify_math_problem(problem_text,prompt_name):
             "Šīs problēmas var ietvert permutācijas, kombinācijas, 'vistu būrīša' principu, grafu teoriju un citus skaitīšanas principus." \
             f"Šeit ir problēma, kuru jums būs jāklasificē: \n\n'''{problem_text}'''\n\n"
     
-    prompt2_updated = "Iedomājieties, ka esat matemātikas olimpiādes uzdevumu atlases komisijas loceklis, kas izvēlas uzdevumus IMO (International Mathematics Olympiad) vai kādai citai olimpiādei. "
-    "Jūsu uzdevums ir atrast vispiemērotāko nozari uzdevumam, ko mēs norādām - katra uzdevuma nozare ir vai nu algebra ('Alg'), kombinatorika ('Comb'), ģeometrija ('Geom') vai skaitļu teorija ('NT'). "
-    "Ģeometrija (Geom): Ģeometrijas uzdevumi olimpiādēs ir figūru konstruēšana vai pierādījumi Eiklīda plaknē. Ģeometrijas uzdevumos var būt minēti punkti, nogriežņi, stari, taisnes, trijstūri, četrstūri, kvadrāti, taisnstūri, rombi, paralelogrami, trapeces, citi daudzstūri, riņķa līnijas vai citas figūras. Trijstūriem veic papildu konstrukcijas, velk augstumus, mediānas, bisektrises, vidusperpendikulus. Izmantojot ģeometriskus rezultātus var pierādīt figūru īpašības vai atrast nezināmus lielumus - piemēram, garumus, leņķus vai laukumus. "
-    "Algebra (Alg): Algebras uzdevumos bieži jārisina vienādojumi, vienādojumu sistēmas, nevienādības. Var būt arī jāpierāda nevienādības vai citas skaitļu sakarības. Uzdevumos var būt minētas aritmētiskas un ģeometriskas progresijas un citas virknes, izmantotas aritmētiskas operācijas un to izteiksmes kā arī elementāras funkcijas - kvadrātsaknes, pakāpes, logaritmi un trigonometriskas funkcijas. Algebras uzdevumos parasti ir reāli (kā arī pozitīvi, negatīvi u.c.) skaitļi, ko apzīmē ar atsevišķiem burtiem x, y, z, a, b, c. "
-    "Skaitļu teorija (NT): Skaitļu teorija ir par veselu skaitļu īpašībām un attiecībām. Dažos uzdevumos jārisina vienādojumi veselos skaitļos. Arī citur minēti naturāli vai veseli skaitļi, to dalāmība, naturālu skaitļu decimālais pieraksts ar cipariem, kurus reizēm pārvieto, dzēš vai pieraksta klāt. Tajā ir runa arī par dalīšanu ar atlikumu un kongruencēm pēc moduļa. "
-    "Kombinatorika (Comb): Kombinatorikas uzdevumi ir par objektu skaitīšanu, sakārtošanu un izvēli - dažādām apakškopām, sakārtotām vai nesakārtotām izlasēm. Uzdevumos var būt minētas spēles, turnīri, loģiski spriedumi. Kombinatorikas uzdevumos parasti ir galīgs skaits objektu, kas nav matemātiski termini - tās ir, piemēram, pilsētas, ko savieno ceļi, pazīstami vai nepazīstami cilvēki, deputāti, krāsas, telpu apstaigāšana vai citas. "
-    "Jūsu JSON atbildē 'uzdevuma_tips' ir viena nozare no 4 iespējām: 'Alg', 'Comb', 'Geom', 'NT'. "
-    f"Šeit ir problēma, kurai lūdzam noskaidrot nozari: \n\n'{problem_text}'\n\n"
+    # prompt2_updated = "Iedomājieties, ka esat matemātikas olimpiādes uzdevumu atlases komisijas loceklis, kas izvēlas uzdevumus IMO (International Mathematics Olympiad) vai kādai citai olimpiādei. "
+    # "Jūsu uzdevums ir atrast vispiemērotāko nozari uzdevumam, ko mēs norādām - katra uzdevuma nozare ir vai nu algebra ('Alg'), kombinatorika ('Comb'), ģeometrija ('Geom') vai skaitļu teorija ('NT'). "
+    # "Ģeometrija (Geom): Ģeometrijas uzdevumi olimpiādēs ir figūru konstruēšana vai pierādījumi Eiklīda plaknē. Ģeometrijas uzdevumos var būt minēti punkti, nogriežņi, stari, taisnes, trijstūri, četrstūri, kvadrāti, taisnstūri, rombi, paralelogrami, trapeces, citi daudzstūri, riņķa līnijas vai citas figūras. Trijstūriem veic papildu konstrukcijas, velk augstumus, mediānas, bisektrises, vidusperpendikulus. Izmantojot ģeometriskus rezultātus var pierādīt figūru īpašības vai atrast nezināmus lielumus - piemēram, garumus, leņķus vai laukumus. "
+    # "Algebra (Alg): Algebras uzdevumos bieži jārisina vienādojumi, vienādojumu sistēmas, nevienādības. Var būt arī jāpierāda nevienādības vai citas skaitļu sakarības. Uzdevumos var būt minētas aritmētiskas un ģeometriskas progresijas un citas virknes, izmantotas aritmētiskas operācijas un to izteiksmes kā arī elementāras funkcijas - kvadrātsaknes, pakāpes, logaritmi un trigonometriskas funkcijas. Algebras uzdevumos parasti ir reāli (kā arī pozitīvi, negatīvi u.c.) skaitļi, ko apzīmē ar atsevišķiem burtiem x, y, z, a, b, c. "
+    # "Skaitļu teorija (NT): Skaitļu teorija ir par veselu skaitļu īpašībām un attiecībām. Dažos uzdevumos jārisina vienādojumi veselos skaitļos. Arī citur minēti naturāli vai veseli skaitļi, to dalāmība, naturālu skaitļu decimālais pieraksts ar cipariem, kurus reizēm pārvieto, dzēš vai pieraksta klāt. Tajā ir runa arī par dalīšanu ar atlikumu un kongruencēm pēc moduļa. "
+    # "Kombinatorika (Comb): Kombinatorikas uzdevumi ir par objektu skaitīšanu, sakārtošanu un izvēli - dažādām apakškopām, sakārtotām vai nesakārtotām izlasēm. Uzdevumos var būt minētas spēles, turnīri, loģiski spriedumi. Kombinatorikas uzdevumos parasti ir galīgs skaits objektu, kas nav matemātiski termini - tās ir, piemēram, pilsētas, ko savieno ceļi, pazīstami vai nepazīstami cilvēki, deputāti, krāsas, telpu apstaigāšana vai citas. "
+    # "Jūsu JSON atbildē 'uzdevuma_tips' ir viena nozare no 4 iespējām: 'Alg', 'Comb', 'Geom', 'NT'. "
+    # f"Šeit ir problēma, kurai lūdzam noskaidrot nozari: \n\n'{problem_text}'\n\n"
+
+    prompt2_updated = """Jūsu uzdevums ir atrast matemātikas olimpiādes nozari dotam uzdevumam.  
+Ir 4 nozares: 'Alg' (algebra), 'Comb' (kombinatorika), 'Geom' (ģeometrija) un 'NT' (skaitļu teorija).
+
+* 'Alg' uzdevumos ir vienādojumi, sistēmas, nevienādības, aritmētiskas un ģeometriskas 
+  progresijas, virknes, dažādas funkcijas (kvadrātsaknes, pakāpes, logaritmi, trigonometrija;  
+  Minēti reāli (pozitīvi, negatīvi) skaitļi.
+* 'Comb' uzdevumos ir jānosaka objektu skaits, jāizvēlas objekti vai tie jāsakārto;
+  spēles, sacensības, patiesība un meli; uzdevumi par pazīstamiem cilvēkiem, 
+  rokasspiedieniem, pilsētām un ceļiem, izkrāsošanu.   
+* 'Geom' uzdevumos ir ģeometrijas jēdzieni un figūras, piemēram, 
+  punkti, nogriežņi, taisnes, leņķi, trijstūri, riņķa līnijas, laukums un perimetrs, 
+  figūriņas uz rūtiņu lapas.
+* 'NT' uzdevumos ir veseli skaitļi, dalāmība, vienādojumi veselos skaitļos;
+  skaitļa pieraksts un darbības ar cipariem; ir dalīšana ar atlikumu, pirmskaitļi, 
+  pilni kvadrāti, mazākais kopīgais dalītājs.
+    
+Uzdevuma nozares klasificēšanā ir arī šādi noteikumi:
+1. Teksta uzdevumi, kuros jāatrod svars - 'Alg', 
+2. Uzdevumi par naturālu/veselu skaitļu summām, reizinājumiem, aritmētisko vidējo - 'Alg', 
+3. Spēles, kurās divi spēlētāji paņem objektus/konfektes no kaudzēm - 'NT', 
+4. Skaitļu izkārtošana pa apli ar ierobežojumiem - 'Comb',
+5. Naturālu skaitļu dalīšana grupās ar noteiktām summām - 'Comb',
+6. Komplektu veidošana ar dažādu tipu objektiem/konfektēm - 'Comb', 
+7. Uzdevumi par daļskaitļiem un daļām - 'Alg', 
+8. Skaitļu ierakstīšana trijstūrīšos, kvadrātos, lai izpildītos kāda īpašība - 'Comb', 
+9. Cik veidos doto summu var izteikt ar saskaitāmajiem vai samaksāt ar monētām - 'Comb',
+10. Lielākā un mazākā starpība starp summām vai saņemto naudu - 'Alg',
+11. Dažādiem skaitļu novietojumiem virknē vai pa apli rēķinātas starpības vai summas - 'Comb', 
+12. Uzdevumi, kur jāievieto cipari, lai izpildītos vienādība - 'NT', 
+13. Ja maina vienus objektus pret citiem, lai iegūtu beigu stāvokli - 'Comb',
+14. Veselu skaitļu summas, reizinājumi, nevienādības, bet bez skaitļu teorijas jēdzieniem - 'Alg',
+15. Ja dalāmības jēdzieni (lielākais kopīgais dalītājs) salīdzināti ar summām vai vidējo - 'NT',
+16. Ja skaitļi jāizkārto virknē vai pa apli tā, lai izpildītos dalāmības īpašības - 'NT'.
+
+Jūsu JSON atbildē ```{{'uzdevuma_tips':value}}``` jāizvēlas 1 vērtība no 'Alg', 'Comb', 'Geom', 'NT'.
+Problēma, kurai jānoskaidro nozare: \n\n```{problem}```
+"""
     
     prompt3 = "Iedomājaties, ka jūs veidojat priekšmetu rādītāju (subject index), " \
              "kas ļauj atrast uzdevumus atbilstoši tajos ierakstītajiem matemātikas terminiem" \
@@ -93,11 +131,28 @@ f"'{problem_text}'''\n\n"
 
     standart_system_message = "You are a helpful assistant designed to output JSON. JSON should contain one property named 'uzdevuma_tips'"
 
+    system_message_domain = "You are a helpful assistant responding with JSON. JSON should contain one property 'uzdevuma_tips' with a single value from this list: ['Alg', 'Comb', 'Geom', NT']"
+
+
     multivalue_system_message = """You are a helpful assistant that returns JSON structure with two properties: ```{ "LTopic1": "LTDivisibility", "LTopic2": "LTPrimeFactors" }```"""       
     
-    all_prompts = {'questionType_LV': prompt0, 'domain_EN': prompt1, 'domain_LV' : prompt2, 'domain_LV_updated': prompt2_updated, 'concepts_LV' : prompt3, 'concepts_EN' : prompt4, 'LTopics_EN': prompt5}
+    all_prompts = {
+        'questionType_LV': prompt0, 
+        'domain_EN': prompt1, 
+        'domain_LV' : prompt2, 
+        'domain_LV_updated': prompt2_updated.format(problem=problem_text), 
+        'concepts_LV' : prompt3, 
+        'concepts_EN' : prompt4, 
+        'LTopics_EN': prompt5}
 
-    all_system_messages = {'questionType_LV': standart_system_message, 'domain_EN': standart_system_message, 'domain_LV' : standart_system_message, 'domain_LV_updated': standart_system_message, 'concepts_LV' : standart_system_message, 'concepts_EN' : standart_system_message, 'LTopics_EN': multivalue_system_message}
+    all_system_messages = {
+        'questionType_LV': standart_system_message, 
+        'domain_EN': standart_system_message, 
+        'domain_LV' : standart_system_message, 
+        'domain_LV_updated': system_message_domain, 
+        'concepts_LV' : standart_system_message, 
+        'concepts_EN' : standart_system_message, 
+        'LTopics_EN': multivalue_system_message}
 
 
     response = client.chat.completions.create(
@@ -129,7 +184,7 @@ Pēc $n-1$ gājiena uz tāfeles paliek viens skaitlis.
 Vai tas var būt $0$, ja **(a)** $n=8$, **(b)** $n=9$?"""
 
     # Classify the problem
-    classify_math_problem(problem_text)
+    classify_math_problem(problem_text, 'domain_LV_updated')
 
 
 if __name__ == "__main__":

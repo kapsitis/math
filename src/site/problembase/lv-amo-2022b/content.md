@@ -425,7 +425,8 @@ Vai var atrast **(A)** $5$; **(B)** $15$ naturālus skaitļus (ne obligāti daž
 * concepts:sum,product
 * questionType:ProveDisprove
 * domain:Alg
-* LTopic:LTEquations,LTNumTheoryByCases
+* LTopic:LTEquations
+* topic:EquationsAndMonotonicity
 
 </small>
 
@@ -451,6 +452,7 @@ lai uz katras no taisnēm būtu atzīmēti tieši trīs punkti!
 * questionType:FindExample
 * domain:Geom
 * LTopic:LTObjectSystemsGeometry
+
 
 </small>
 
