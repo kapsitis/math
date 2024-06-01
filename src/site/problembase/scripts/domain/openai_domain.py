@@ -49,18 +49,24 @@ def normalize_text(text):
         # text = text+'\n\n'+text[meta_end:]
     return text
 
-def main(): 
+def main(dir_name, starting_id): 
     categories = ["Alg", "Geom", "NT", "Comb"]
 
     #questionType_re = re.compile(r'.+?questionType:([\w\.,]+).+?',re.DOTALL)
     metadata_re = re.compile(r'.+?domain:([\w\.,]+).+?',re.DOTALL) 
-    problemList = extract_sections_from_md(f'../{sys.argv[1]}/content.md')
+    problemList = extract_sections_from_md(f'{dir_name}/content.md')
 
     # prepare training data: problem_data_set un category_data_set
     problem_data_set = []
     category_data_set = []
     title_data_set = []
+    found_start = (starting_id == "")
+
     for (title, problem) in problemList:
+        found_start = found_start or (title == starting_id)
+        if not found_start:
+            continue
+
         metadata = 'NA'
         m = metadata_re.match(problem)  # Mēģina atrast metadata vērtību
         if m:
@@ -68,8 +74,8 @@ def main():
         problem = normalize_text(problem)
         
         answer = classify_math_problem(problem,'domain_LV_updated') # problem un prompt nosaukums
-        with open("domain_lv_openai_KAP.csv", 'a', encoding='utf-8') as file1:
-            file1.write(f'{title},"{category}","{answer}"\n')
+        with open("domain_lv_openai_temp.csv", 'a', encoding='utf-8') as file1:
+            file1.write(f'{title},"{metadata}","{answer}"\n')
 
 
         if metadata != 'NA':
@@ -83,4 +89,12 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    if len(sys.argv) < 2: 
+        print("Usage: python openai_domain.py <dir_name> [<starting-id>]")
+        sys.exit(0)
+    else: 
+        dir_name = sys.argv[1]
+        starting_id = ""
+        if len(sys.argv) > 2:
+            starting_id = sys.argv[2]
+    main(dir_name, starting_id)
