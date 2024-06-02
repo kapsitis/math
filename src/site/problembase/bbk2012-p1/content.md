@@ -204,14 +204,14 @@ bet cipars $1$ – divas reizes ar $3$ nedalās, jo tā ciparu summa $46$ ar $3$
 
 # <lo-sample/> BBK2012.P1.4
 
-Pierādīt, ka skaitlis $\underbrace{111\ldots{}1}_{\mbox{$27$ vieninieki}}$
+Pierādīt, ka skaitlis $\underbrace{111\ldots{}1}_{\mbox{27 vieninieki}}$
 dalās ar $27$. 
 
 ## Atrisinājums
 
 Ievērosim, ka izpildās vienādība
 
-$$\underbrace{111\ldots{}1}_{\mbox{$27$ vieninieki}} = 111 \cdot \underbrace{1001001\ldots{}001}_{\mbox{$9$ vieninieki}}.$$
+$$\underbrace{111\ldots{}1}_{\mbox{27 vieninieki}} = 111 \cdot \underbrace{1001001\ldots{}001}_{\mbox{9 vieninieki}}.$$
 
 No dalāmības pazīmēm ar $3$ un $9$ seko, ka pirmais reizinātājs dalās ar $3$, 
 bet otrais ar $9$; tātad viss reizinājums dalās ar $27$.
@@ -333,8 +333,8 @@ Tā kā vecākās šķiras ir nozīmīgākas, tad jānosvītro abi pēdējie tri
 No nenulles cipariem, katru izmantojot tieši 1 reizi, jāizveido triju trīsciparu 
 skaitļu decimālie pieraksti. Vai var gadīties tā, ka
 
-**(A)**  neviens no tiem nedalās ar $3$,
-**(B)**  tie visi dalās ar $3$,
+**(A)**  neviens no tiem nedalās ar $3$,  
+**(B)**  tie visi dalās ar $3$,  
 **(C)**  divi no tiem dalās ar $3$, bet trešais – nē?
 
 ## Atrisinājums

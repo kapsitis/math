@@ -263,6 +263,7 @@ kā ievilktie leņķi, kas balstās uz vienu un to pašu loku $EF$.
 # <lo-sample/> LV.VOL.2024.10.3
 
 Atrisināt reālos skaitļos vienādojumu sistēmu
+
 $$\left\{ \begin{array}{l}
 x + \frac{1}{x} = 2y^2 \\
 y + \frac{1}{y} = 2z^2 \\
@@ -702,6 +703,7 @@ $$2(n+1) \cdot \frac{n(n-1)}{2} = n(n^2 - 1) = n^3 - n.$$
 # <lo-sample/> LV.VOL.2024.12.1
 
 Atrisināt reālos skaitļos vienādojumu sistēmu
+
 $$\left\{ \begin{array}{l}
 x + \frac{1}{x} = y+z\\
 y + \frac{1}{y} = x+z\\

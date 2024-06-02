@@ -133,7 +133,6 @@ f"'{problem_text}'''\n\n"
 
     system_message_domain = "You are a helpful assistant responding with JSON. JSON should contain one property 'uzdevuma_tips' with a single value from this list: ['Alg', 'Comb', 'Geom', NT']"
 
-
     multivalue_system_message = """You are a helpful assistant that returns JSON structure with two properties: ```{ "LTopic1": "LTDivisibility", "LTopic2": "LTPrimeFactors" }```"""       
     
     all_prompts = {

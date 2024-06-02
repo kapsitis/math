@@ -74,7 +74,7 @@ def main(dir_name, starting_id):
         problem = normalize_text(problem)
         
         answer = classify_math_problem(problem,'domain_LV_updated') # problem un prompt nosaukums
-        with open("domain_lv_openai_temp.csv", 'a', encoding='utf-8') as file1:
+        with open("domain_lv_openai_KAP2.csv", 'a', encoding='utf-8') as file1:
             file1.write(f'{title},"{metadata}","{answer}"\n')
 
 
