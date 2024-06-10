@@ -5,3 +5,7 @@ nosacījumi - determinations (< conditions)
 rūtiņu līnijas - lines of the box (< grid lines)
 novilkt 6 taisnes - take off 6 lines (< draw 6 lines)
 gadījums - anniversary (< case)
+atlikt punktu - postpone a point (< mark a point)
+četrstūris ONCM - rectangular ONCM (< quadrilateral ONCM)
+
+

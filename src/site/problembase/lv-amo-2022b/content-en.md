@@ -471,7 +471,8 @@ Which player, can always win if there are initially
 ## Solution 
 
 Lillebror can win in both cases. To achieve this, he can proceed 
-as follows: in every move, if Karlsson eats one candy, then Lillebror eats two, and vice versa, if Karlsson eats two, then Lillebror eats one. 
+as follows: in every move, if Karlsson eats one candy, then Lillebror 
+eats two, and vice versa, if Karlsson eats two, then Lillebror eats one. 
 Playing like this, after every pair of moves the number of candies 
 in the pile drops by exactly $3$. Since initially the number of 
 candies was divisible by $3$ (both $6$ and $2022$ are divisible by $3$), 
@@ -683,7 +684,7 @@ around a circle so that any two adjacent numbers differ by $3$, $4$, or $5$?
 **(A)** Let us show that it is impossible. Note that the numbers 
 $0$; $1$; $2$; $8$ and $9$ cannot be written next to each other 
 as the difference between any two of them is not $3$; $4$ or $5$. 
-So they should be written on the circle by omitting one position 
+So they should be written on the circle by skipping one position 
 between any two of them (See Fig.7, where the letters indicate 
 places where these five numbers should go.)
 
@@ -870,14 +871,48 @@ on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$?
 
 ## Solution 
 
-**(A)** let's justify that the requested is not possible. Let us note that the skaitḷi $1$; $2$; $3$; $11$; $12$ and $13$ cannot be written next to each other because the difference between the two numbers is not $3$; $4$ or $5$. They must therefore be written by omitting a single position, so that only two adjacent places are created where no numbers are recorded (see Figure 10). You can type 4 next to only $1$ because their difference is $3$, but you can't type it next to the other numbers you've already typed in $2$. $3$; $11$; $12$ or $13$. So you have to type a number $4$ into one of the two adjacent vacancies. You can type a number $10$ next to only 13, but you cannot type it next to the other numbers in the circle in the $1$. $2$; $3$; $11$ or $12$. So you have to type 10 in one of the two adjacent vacancies. It follows that skait | us 4 and 10 should be written side by side, but there is a contradiction with the terms of the task because their difference is $6$. The figures given cannot therefore be written in such a way that each two adjacent skaitḷi differs by $3$; $4$ or $5$. 
+**(A)** We show that it is impossible.  
+Note that the numbers $1$; $2$; $3$; $11$; $12$ and $13$ 
+cannot stand next to each other because the difference between 
+any two of these numbers is not $3$, $4$ or $5$. 
+So they should be written on the circle by skipping one position
+between any two of them; after that there are there are only two 
+adjacent positions left without numbers (Fig.10). 
 
-**(B)** Yes, for example, see figure 11, recording inside the rink how different the numbers are.
+Number $4$ can be only next to $1$ as their difference is $3$, but 
+it cannot be next to any other numbers already written ($2,3,11,12,13$). 
+So the number $4$ should take one of the two adjacent unoccupied positions.
+
+Number $10$ can be next to $13$, but it cannot be next to any other 
+numbers already written ($1,2,3,11,12$). So, $10$ should take another 
+one of the two adjacent unoccupied positions. 
+We conclude that numbers $4$ and $10$ should be written 
+next to each other, but there is a contradiction with the 
+condition of the problem, as their difference is $6$. 
+Hence the given numbers cannot be written around the circle so that 
+any two adjacent numbers differ by $3$; $4$ or $5$. 
+
+**(B)** Yes, for example, see Fig.11, where the inside of the 
+circle shows the difference between any two adjacent numbers.
 
 
 # <lo-sample/> LV.AMO.2022B.9.5
 
-The design of the art museum shall be a rectangle of dimensions * * * (A) * * $8 \times 9$; * * (B) * * * $9 \times 11$ boxes where one box matches one museum room. The head of the museum wants to create a visitor route that fulfills the following characteristics: * the route starts in one of the boxes (rooms) at the edge of the rectangle; * a visitor can move from one box (room) to another box (room) if they share a border. * the visitor visits each box (room) directly once during the route; * the route ends in the box (room) next to the edge of the rectangle next to the route start box (room). Can a museum manager create the following route? 
+The floor plan of the art museum shall is a rectangle 
+of size **(A)** $8 \times 9$; **(B)** $9 \times 11$ squares, 
+where one square corresponds to a single museum room. 
+The director of the museum wants to create a visitor route 
+that satisfies the following properties: 
+
+* the route starts in one of the squares (rooms) at the 
+  edge of the rectangle; 
+* a visitor on his route can move from one square (room) to another 
+  square (room), if they share a border. 
+* the visitor enters each square (room) exactly once during the route;
+* the route ends in a square (room) at the edge of the rectangle 
+  and is located next to the square (room) that started the route.
+
+Can the director of the museum create such route? 
 
 <small>
 
@@ -892,18 +927,31 @@ The design of the art museum shall be a rectangle of dimensions * * * (A) * * $8
 
 ## Solution 
 
-**(A)** Yes, can, see, for example, Fig. 12
+**(A)** Yes, he can. See, for example, Fig.12. 
 
-![] (LV.AMO.2022B.9.5A.png) 
+![](LV.AMO.2022B.9.5A.png){ width=200px }
 
 **(B)** 
-let us demonstrate that the required route cannot be established. Let's color the rectangular boxes in the shape of a chessboard and note that this color has a characteristic: adjacent boxes have different colors. Pieṇemsim the opposite that the required route exists. Because the route passes through all boxes with odd numbers, the transition from one color rūtiṇas to another color rūtiṇu occurs even more times. Consequently, the route will end in the same color rūtiṇā as the route start box. However, this cannot be the case because the boxes are next to the box where the route started. As a result, there is a contradiction and therefore no such route exists.
+We prove that the required route cannot be created. 
+Let us color the rectangular squares as a chessboard 
+and note that this coloring ensures that any two 
+adjacent boxes have different colors. 
+
+Assume by contradiction that such route does exist. 
+Since the route passes
+through all the squares with odd numbers, the transition 
+from white to black or vice versa occurs even number of 
+times. Hence, the route will end in a square of the same 
+color as the starting square. However, this is impossible,
+because that square is next to the square where the route 
+started. This is a contradiction and therefore 
+no such route exists.
 
 
 
 # <lo-sample/> LV.AMO.2022B.10.1
 
-What is the last digit of a number $2022^{2022}$? 
+What is the last digit of $2022^{2022}$? 
 
 <small>
 * Concept: power, last-digit
@@ -914,59 +962,161 @@ What is the last digit of a number $2022^{2022}$?
 
 ## Solution 
 
-the last digit of a number by looking at the number given by moduḷa 10. Let's see that $2022^{2022} \equiv 2^{2022}(\bmod 10)$. So we need to find out the last digit of the number $2^{2022}$. String $2^{n}, n=1,2, \ldots$, is recurring by moduḷa $10$, let's look at the first members of this string: * if $n=1$, then $2^{1} \equiv 2 \pmod {10}$; * if $n=2$, then $2^{2} \equiv 4 \pmod {10}$; * if $n=3$, then $2^{3} \equiv 8 \pmod {10}$; * if $n=4$, then $2^{4} \equiv 16 \equiv 6 \pmod {10}$; * If $n=5$, then $2^{5} \equiv 32 \equiv 2 \pmod {10}$. You can easily summarize this information in the following table: | $n$ | 1 | 2 | 3 | 4 | 5 | $\ldots$ | |: ---: |: ---: |: ---: |: ---: |: ---: |: ---: |: ---: | | $2^{n} \pmod {10}$ | redzam | $\mathbf{2}$ | 4 | 8 | 6 | $\mathbf{2}$ | $\ldots$ | We see that a string of $2^{n}(\bmod 10)$ is recurring with a period length of $4$. Because $2022=4 \cdot 505+2$, the last digit of the 2022 Member of the string will be the same as the last digit of the 2 nd locekḷa of the string, so the last digit will be $4$. As a result, we have obtained that the last digit of the number $2022^{2022}$ is $4$. 
+We find the last digit of the number by looking at it 
+modulo $10$ (finding its remainder when dividing by $10). 
+Notice that $2022^{2022} \equiv 2^{2022}(\bmod 10)$. 
+So we need to find the last digit of $2^{2022}$. 
+
+The sequence $2^{n}, n=1,2, \ldots$, is periodic modulo $10$. 
+Look at its first terms. 
+
+* if $n=1$, then $2^{1} \equiv 2 \pmod {10}$; 
+* if $n=2$, then $2^{2} \equiv 4 \pmod {10}$; 
+* if $n=3$, then $2^{3} \equiv 8 \pmod {10}$; 
+* if $n=4$, then $2^{4} \equiv 16 \equiv 6 \pmod {10}$; 
+* If $n=5$, then $2^{5} \equiv 32 \equiv 2 \pmod {10}$. 
+
+This information can be summarized in a table: 
+
+| $n$   | $2^n \pmod {10}$ |
+| ----- | ---------------- |
+| $1$   | $\mathbf{2}$     |
+| $2$   | $4$              |
+| $3$   | $8$              |
+| $4$   | $6$              |
+| $5$   | $\mathbf{2}$     |
+
+We see that the sequence $2^{n}(\bmod 10)$ is periodic
+with a period $4$. Since $2022=4 \cdot 505+2$, the sequence 
+will make $505$ full periods, and its 
+$2022$-th term same as its second term, so it is equal to $4$. 
+
+We conclude that the last digit of $2022^{2022}$ is $4$. 
 
  
 ## Solution 
 
-will clear the last digit of the number by looking at the number given by moduḷa $10$. Given that we $2^{4} \equiv 16 \equiv 6(\bmod 10)$ and $6^{n} \equiv 6(\bmod 10)$, we get the $$2022^{2022} \equiv 2^{2022} \equiv 2^{2020} \cdot 2^{2} \equiv\left(2^{4}\right)^{505} \cdot 4 \equiv 6 \cdot 4 \equiv 4 \pmod {10}$$, so we get that the last digit of the number $2022^{2022}$ is $4$.
+The last digit of this number is determined by 
+finding the congruence class of the number modulo $10$. 
+Given that we $2^{4} \equiv 16 \equiv 6(\bmod 10)$ and 
+$6^{n} \equiv 6(\bmod 10)$, we get that
+
+$$2022^{2022} \equiv 2^{2022} \equiv 2^{2020} \cdot 2^{2} \equiv\left(2^{4}\right)^{505} \cdot 4 \equiv 6 \cdot 4 \equiv 4 \pmod {10}.$$ 
+
+So the last digit of the number $2022^{2022}$ is $4$.
+
+
+
 
 # <lo-sample/> LV.AMO.2022B.10.2
 
-We look at the natural numbers taken in $n$ succession. Can it be that they can be divided into two groups so that the sum of the numbers in each group is a prime number if * * (R) * * $n = 8$, * * (B) * * $n = 10$? Each group must contain at least $2$ numbers. 
+Consider $n$ consecutive positive integers. 
+Can we divide them into two groups so that the sum 
+of the numbers in each group is a prime number if 
+**(A)** $n = 8$, **(B)** $n = 10$? 
+Each group must contain at least $2$ numbers. 
+
 <small>
 * Concept: PRIMES, natural-numbers, disjoint-Sets, sum
 * questionType: Provedisprove, ProveDisprove
 * domain: NT
 * LTopic: For ltnumtheoryexamples, LTDivisibility
 </small> 
-# # Resolution * * (R) * * Yes, for example, skait! us 1 to 8 can be divided into the following two groups: $$1+2+4=7 \text { un } 3+5+6+7+8=29$$ * * (B) * * No, it's impossible. Among the 10 natural numbers taken in succession are exactly 5 even and exactly 5 odd numbers, so the sum of all $10$ numbers is an odd number. Therefore, one of the groups in question is an odd number and the other is an even number. Because both amounts are larger than $2$, the amount that is the even number is not the primary number.
+
+## Solution 
+
+**(A)** Yes, for example, numbers from $1$ to $8$ can be 
+divided into the following two groups: 
+
+$$1+2+4=7 \text{ un } 3+5+6+7+8=29$$ 
+
+**(B)** No, it is impossible. Among any $10$ consecutive 
+numbers there are $5$ even and $5$ odd numbers, so the sum 
+of all $10$ numbers is odd. 
+Therefore one of the groups add up to an odd number, 
+but another one to an even number. 
+As the sums of both groups are larger than $2$, 
+the even number cannot be a prime.
 
 
 
 # <lo-sample/> LV.AMO.2022B.10.3
 
-On a right-angle triangle, the $ACB$ hypotenuse $AB$ has a postponed point in the $O$, which is the centre of a circle with a radius of $3$ touching both cathets. Calculate the $ACB$ area of the triangle if $OB = 5$. 
+There is a right triangle $ACB$; on its hypotenuse $AB$ 
+there is a point $O$, which is the centre of a circle 
+of radius of $3$ touching both legs (catheti) of the triangle.
+Calculate the area of triangle $ACB$, if $OB = 5$. 
+
 <small>
 * Concept: right-triangle, area, legs-in-right-triangle, circle, tangent
 * questionType: Findall
 * domain: Geom
 * LTopic: Lttriangles
 </small> 
-# # solve the points where the radius of the circle touches the catheters will be marked with $M$ and $N$ (see Figure 13). Because the radius is perpendicular to the touch, the triangle $OMB$ is a taisnleṇka triangle. By Pitagor's theorem $MB=\sqrt{OB^{2}-MO^{2}}=\sqrt{25-9}=4 \mathrm{~cm}$. Because the radius is perpendicular to the touches and the triangle is taisnleṇka in the $ACB$, the rectangular ONCM has a straight $\sphericalangle NCM=\sphericalangle CNO=\sphericalangle CMO=90^{\circ}$ for three leṇki. The two adjacent edges of the rectangle $ONCM$ are the same $ON=OM$ as the radius, so the rectangle in the $ONCM$ is square and $MC=OM=3 \mathrm{~cm}$, $CB=BM+MC=7 \mathrm{~cm}$. We note that the $\triangle OMB \sim \triangle ACB$ for the sign $\ell \ell$ because the $\sphericalangle B$ is common and $\sphericalangle OMB=\sphericalangle ACB=90^{\circ}$. Then $\frac{AC}{OM}=\frac{CB}{MB'}$ what we get from that we $AC=\frac{OM \cdot CB}{MB}=\frac{3 \cdot 7}{4}=5,25 \mathrm{~cm}$'t. Hence $S_{ACB}=\frac{AC \cdot CB}{2}=18 \frac{3}{8} \mathrm{~cm}^{2}$.! [] (LV.AMO.2022B.10.3A.png)
+
+## Solution 
+
+Denote the points where the circle touches the legs $CB$ and $CA$ by 
+$M$ and $N$ respectively (see Fig.13). Since the radius $OM$ is perpendicular 
+to the tangent $CB$, the triangle $OMB$ is right. 
+By Pitagorean theorem $MB=\sqrt{OB^{2}-MO^{2}}=\sqrt{25-9}=4 \mathrm{~cm}$. 
+
+Since the radii are perpendicular to the tangents and the 
+triangle $ACB$ is right, the quadrilateral $ONCM$ has three right angles: 
+$\sphericalangle NCM=\sphericalangle CNO=\sphericalangle CMO=90^{\circ}$. 
+In this quadrilateral $ONCM$ two sides are the same: $ON=OM$ as two radii, 
+so the quadrilateral $ONCM$ is a square and 
+$MC=OM=3 \mathrm{~cm}$, $CB=BM+MC=7 \mathrm{~cm}$. 
+Note that $\triangle OMB \sim \triangle ACB$ because of the 
+condition $\ell \ell$ since they have $\sphericalangle B$
+in common and $\sphericalangle OMB=\sphericalangle ACB=90^{\circ}$. 
+
+Then $\frac{AC}{OM}=\frac{CB}{MB'}$, and we get 
+$AC=\frac{OM \cdot CB}{MB}=\frac{3 \cdot 7}{4}=5,25 \mathrm{~cm}$. 
+Hence $S_{ACB}=\frac{AC \cdot CB}{2}=18 \frac{3}{8} \mathrm{~cm}^{2}$.
+
+![](LV.AMO.2022B.10.3A.png)
 
 
 # <lo-sample/> LV.AMO.2022B.10.4
 
-Real figures are given for the $a$, $b$ and $c$ to $abc = 1$. Prove that equation $$ax^4 + (2b + a)x^2 - 2cx + b^3c + bc + bc^3 = 0$$ has no real roots! 
+Consider three real numbers $a$, $b$, $c$ with $abc = 1$. 
+Prove that the equation 
+
+$$ax^4 + (2b + a)x^2 - 2cx + b^3c + bc + bc^3 = 0$$ 
+
+has no real roots! 
 
 <small>
 * Concept: equation, real-numbers, root
 * questionType: Prove
 * domain: ALG
 * LTopic: The resolution
-</small> of ltequations 
-# # multiplies both sides of the equation by $a$ and makes equivalent modifications (using that $abc=1$): $$\begin{gathered}
+</small> 
+
+## Solution 
+
+Multiply both sides of the equation by $a$ and 
+makes equivalent transforms (using $abc=1$): 
+
+$$\begin{gathered}
 a^{2} x^{4}+\left(2 a b+a^{2}\right) x^{2}-2 a c x+a b^{3} c+a b c+a b c^{3}=0 \\
 a^{2} x^{4}+2 a b x^{2}+a^{2} b^{2}-2 a c x+b^{2}+1+c^{2}=0 \\
 \left(a^{2} x^{4}+2 a b x^{2}+b^{2}\right)+\left(a^{2} x^{2}-2 a c x+c^{2}\right)+1=0 \\
 \left(a x^{2}+b\right)^{2}+(a x-c)^{2}+1=0
-\end{gathered}$$ because the left-hand value of the equation is at least $1$ because the square value is nonnegative, the equation does not have real roots.
+\end{gathered}$$ 
+
+The left side of the last equation is at least $1$, since both 
+squares are nonnegative. Hence the equation does not have real roots.
 
 
 # <lo-sample/> LV.AMO.2022B.10.5
 
-Five deputies arrived at the restaurant and some of them shook hands with each other before lunch. It is known that if two deputies did not shake hands with each other, they did at least five handshakes together. Prove that deputies can be seated around a circular table so that each one has shaken hands with their two adjacent seaters! 
+Five deputies (MPs) arrived at a restaurant and some of them shook hands with each other 
+before lunch. It is known that if two deputies did not shake hands with each other, 
+they did at least five handshakes together. Prove that deputies can be seated around 
+a circular table so that each deputy has shaken hands with both people seated next to 
+him/her. 
 
 
 <small>
@@ -989,7 +1139,7 @@ let us see that if any Members did not shake hands with each other, then they ha
 
 # <lo-sample/> LV.AMO.2022B.11.1
 
-Can the number 2022 be expressed as the sum of cubes of two integers? 
+Can $2022$ be expressed as the sum of cubes of two integers? 
 
 <small>
 * cooked: sum, cube-ALG, integer-numbers
