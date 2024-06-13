@@ -1509,8 +1509,8 @@ Nē. Visu daļu garumi dalās ar $3$, bet $50$ ar $3$ nedalās.
 
 # <lo-sample/> BBK2012.P1.34
 
-**(A)** Vai piecu pēc kārtas ņemtu skaitļu summa var būt $24$?
-**(B)** Vai tā var būt $1984$? 
+**(A)** Vai piecu pēc kārtas ņemtu skaitļu summa var būt $24$?  
+**(B)** Vai tā var būt $1984$?  
 **(C)** Vai tā var būt $1985$?
 
 ## Atrisinājums

@@ -1649,7 +1649,7 @@ tātad kvadrātvienādojumam nav sakṇu, līdz ar to arī dotajam vienādojumam
 ## Atrisinājums
 
 Pierādīsim, ka izpildās nevienādība $a \sin x+b \cos x \leq \sqrt{a^{2}+b^{2}}$. 
-Kāpināsim abas vienādojuma puses kvadrātā un izmantosim, ka 
+Kāpināsim abas nevienādības puses kvadrātā un izmantosim, ka 
 $\sin ^{2} x+\cos ^{2} x=1$. Iegūstam, ka
 
 $$\begin{gathered}
