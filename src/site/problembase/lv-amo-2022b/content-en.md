@@ -1,8 +1,10 @@
 # <lo-sample/> LV.AMO.2022B.5.1
 
 <text lang="en">
+
 What is the smallest positive integer that uses only the digits $0$ and $2$ in its 
 notation and is divisible by $15$?
+
 </text>
 
 <small>
@@ -15,6 +17,7 @@ notation and is divisible by $15$?
 </small> 
 
 <text lang="en">
+
 ## Solution
 
 We show that the smallest number satisfying the conditions is $2220$. 
@@ -24,6 +27,7 @@ So the number $2$ must appear at least $3$ times in that number.
 
 To be divisible by $5$, the last digit of this number must be $0$. 
 Consequently, the smallest number with that property has at least $4$ digits and equals $2220$.
+
 </text>
 
 
@@ -31,9 +35,11 @@ Consequently, the smallest number with that property has at least $4$ digits and
 # <lo-sample/> LV.AMO.2022B.5.2
 
 <text lang="en">
+
 Draw a hexagon with its sides on a square grid having perimeter equal to its area!  
 *Note:* The area is the number of little squares that make up the hexagon and the 
 perimeter is the number of sides of the little squares on its border.
+
 </text>
 
 
@@ -48,11 +54,13 @@ perimeter is the number of sides of the little squares on its border.
 
 
 <text lang="en">
+
 ## Solution
 
 Consider the hexagon shown in Figure 1. Its perimeter is $20$ and the area is also $20$.
 
 ![](LV.AMO.2022B.5.2A.png)
+
 </text>
 
 
@@ -60,7 +68,9 @@ Consider the hexagon shown in Figure 1. Its perimeter is $20$ and the area is al
 # <lo-sample/> LV.AMO.2022B.5.3
 
 <text lang="en">
+
 $250$ tickets were made for the theatre performance and at least half of them were sold. It is known that exactly a third of the audience were schoolchildren, exactly one fifth of the audience were students and exactly one-seventh were retirees. How many tickets were sold? 
+
 </text>
 
 
@@ -75,6 +85,7 @@ $250$ tickets were made for the theatre performance and at least half of them we
 
 
 <text lang="en">
+
 ## Solution 
 
 *Answer.* $210$ tickets were sold.
@@ -86,17 +97,20 @@ So the number of tickets sold should be divisible
 by $3 \cdot 5 \cdot 7=105$. Since at least half of the tickets 
 were sold, the number of sold tickets is between $125$ and $250$. 
 The only number divisible by $105$ in this interval is $210$.
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.5.4
 
 <text lang="en">
+
 The balance scales (a), (b) and (c) are all in equilibrium. 
 How many arrows should be put in the place of the question mark so that the 
 balance scale (d) is also in equilibrium? Justify your answer!
 
 ![](LV.AMO.2022B.5.4.png)
+
 </text>
 
 
@@ -110,6 +124,7 @@ balance scale (d) is also in equilibrium? Justify your answer!
 </small> 
 
 <text lang="en">
+
 ## Solution
 
 We need to place six arrows instead of the question mark. 
@@ -124,6 +139,7 @@ Next, consider balance (a). By replacing the circle with four arrows
 and each square with two arrows, we get that the mass of the 
 pentagon plus four arrows is ten arrows. 
 So the mass of the pentagon alone is six arrows.
+
 </text>
 
 
@@ -131,6 +147,7 @@ So the mass of the pentagon alone is six arrows.
 
 
 <text lang="en">
+
 Each of the three girls, Elina, Guna and Maruta likes 
 some color - either green, yellow, or orange. 
 Each girl likes a different color, and dislikes the 
@@ -142,6 +159,7 @@ Exactly one of the following claims is known to be true:
 * Elina doesn't like orange. 
 
 What colour does every girl like? Justify your answer!
+
 </text>
 
 
@@ -154,6 +172,7 @@ What colour does every girl like? Justify your answer!
 
 
 <text lang="en">
+
 ## Solution 
 
 Guna likes orange, Elina likes green, and Maruta likes yellow. 
@@ -166,11 +185,13 @@ If Elina liked yellow, then the two last statements
 would both be true, which is impossible. Since Guna likes orange, 
 we conclude that Elina likes the green. Thus, Maruta is left with
 yellow.
+
 </text>
 
 # <lo-sample/> LV.AMO.2022B.6.1
 
 <text lang="en">
+
 All positive integers from $1$ to $2022$ are 
 written on a piece of paper, each appearing once. 
 First, Amanda circled all the numbers 
@@ -180,6 +201,7 @@ she circled all the numbers divisible by $7$ in
 green. 
 How many numbers are circled with at 
 least two different colors? 
+
 </text>
 
 
@@ -194,6 +216,7 @@ least two different colors?
 
 
 <text lang="en">
+
 ## Solution
 
 We show that $249$ numbers are circled with at least two colors.
@@ -217,6 +240,7 @@ were counted as numbers divisible by $15$, $21$, and $35$.
 So they were counted three times. We conclude that together there are 
 $134 + 96 + 57 - 2 \cdot 19 = 249$ numbers divisible by at least two 
 numbers out of $3$, $5$, $7$, so they are circled with at least two colors.
+
 </text>
 
 
@@ -224,12 +248,14 @@ numbers out of $3$, $5$, $7$, so they are circled with at least two colors.
 
 
 <text lang="en">
+
 Show how to cut ten shapes (as in Fig.2) from the given piece 
 of grid paper (see  Fig. 1).
 (Mark the lines where cuts should be made!) 
 The figures can also be rotated. 
 
 ![](LV.AMO.2022B.6.2.png)
+
 </text>
 
 
@@ -244,21 +270,25 @@ The figures can also be rotated.
 
 
 <text lang="en">
+
 ## Solution 
 
 See, for example, Fig.4.
 
 ![](LV.AMO.2022B.6.2A.png)
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.6.3
 
 <text lang="en">
+
 On a dark autumn night, Maris decided to add up all the 
 positive integers from $1$ to $n$, where $n$ is some positive integer.
 Could it happen that Maris gets a sum whose last digit is  
 **(A)** $8$, **(B)** $9$?
+
 </text>
 
 <small>
@@ -270,6 +300,7 @@ Could it happen that Maris gets a sum whose last digit is
 
 
 <text lang="en">
+
 ## Solution 
 
 **(A)**  
@@ -325,6 +356,7 @@ the values in the table will start repeating
 periodically. 
 The digit $9$ never appears in the second column 
 of the table, so it cannot be the last digit of any sum $S_n$.
+
 </text>
 
 
@@ -333,11 +365,13 @@ of the table, so it cannot be the last digit of any sum $S_n$.
 # <lo-sample/> LV.AMO.2022B.6.4
 
 <text lang="en">
+
 The balance scales (a), (b) and (c) are known to be in equilibirum. 
 How many circles should you put in place of the question mark so that the balance scale 
 (d) is also in equilibrium? Justify your answer!
 
 ![](LV.AMO.2022B.6.4.png) 
+
 </text>
 
 <small>
@@ -350,6 +384,7 @@ How many circles should you put in place of the question mark so that the balanc
 </small> 
 
 <text lang="en">
+
 ## Solution
 
 *Answer.* The question mark should be replaced by five circles. 
@@ -364,12 +399,14 @@ Next, consider the balance scale (a). By replacing the pentagon with
 four circles and each arrow with two circles, we get that the mass of 
 the rectangle and five circles is the same as the mass of 
 ten circles. So the rectangle has the mass of five circles.
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.6.5
 
 <text lang="en">
+
 Some of $273$ villagers always tell the truth, the remaining ones 
 lie all the time. Each of the villagers has exactly one favourite 
 day of the week. There was a poll of all the villagers, and they 
@@ -390,6 +427,7 @@ The number of "Yes" answers received to each question was as follows:
 Monday - $51$, Tuesday - $52$, Wednesday - $53$, Thursday - $55$, 
 Friday - $54$, Saturday - $56$, Sunday - $57$. 
 How many villagers lie all the time?
+
 </text>
 
 <small>
@@ -402,6 +440,7 @@ How many villagers lie all the time?
 </small> 
 
 <text lang="en">
+
 ## Solution 
 
 *Answer.* In the village there are $21$ liars. 
@@ -417,16 +456,19 @@ there would be $273$ answers “Yes”.
 As there are $378$ answers "Yes", we have $378-273=105$ 
 "redundant" answers "Yes". This can be achieved by turning $105:5=21$ 
 villagers into liars.
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.7.1
 
 <text lang="en">
+
 The following text was written on the board: $A869B$. Each of the 
 letters $A$ and $B$ must be replaced by one digit 
 (they may or may not be the same) so that the resulting five-digit 
 number is divisible by $15$. In how many ways can you do this?
+
 </text>
 
 <small>
@@ -439,6 +481,7 @@ number is divisible by $15$. In how many ways can you do this?
 </small> 
 
 <text lang="en">
+
 ## Solution
 
 *Answer.* This can be done in $6$ ways. 
@@ -456,13 +499,16 @@ Consider two possible cases for the digit $B$ such that it is disible by $5$.
 As a result, there are six different options for digits replacing $A$ and $B$
 respectively: $(A,B) = (1,0)$, $(A,B)=(4,0)$; $(A,B)=(7,0)$, 
 $(A,B)=(2,5)$; $(A,B)=(5,5)$; $(A,B)=(8,5)$.
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.7.2
 
 <text lang="en">
+
 Do there exist **(A)** $5$; **(B)** $15$ positive integers (some of them may be equal) such that their sum equals their product?
+
 </text>
 
 <small>
@@ -475,6 +521,7 @@ Do there exist **(A)** $5$; **(B)** $15$ positive integers (some of them may be 
 </small> 
 
 <text lang="en">
+
 ## Solution 
 
 **(A)** Yes, the numbers $1,1,2,2,2$ satisfy the condition, since 
@@ -484,13 +531,16 @@ $1+1+2+2+2=8$ and $1 \cdot 1 \cdot 2 \cdot 2 \cdot 2=8$
 since $13 \cdot 1+2+15=30$ and $1 \cdot 2 \cdot 15=30$. 
 
 *Note* For (A) the solutions $1,1,1,3,3$ or $1,1,1,2,5$ are also valid.
+
 </text>
 
 # <lo-sample/> LV.AMO.2022B.7.3
 
 <text lang="en">
+
 Show how to draw $6$ lines in a plane and mark $7$ points on the lines so that 
 exactly three points are marked on each line!
+
 </text>
 
 <small>
@@ -501,23 +551,27 @@ exactly three points are marked on each line!
 </small> 
 
 <text lang="en">
+
 ## Solution 
 
 An possible answer is shown in Fig.5. 
 
 ![](LV.AMO.2022B.7.3A.png)
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.7.4
 
 <text lang="en">
+
 There's a pile of candies on the table. Karlsson and Lillebror 
 (Little Brother) take turns making moves, with Karlsson starting the game. 
 In one move, a player can remove from the pile and 
 eat either one or two candies. The player who eats the last candy wins. 
 Which player, can always win if there are initially
 **(A)** $6$ candies in the heap; **(B)** $2022$ candies in the heap? 
+
 </text>
 
 <small>
@@ -531,6 +585,7 @@ Which player, can always win if there are initially
 
 
 <text lang="en">
+
 ## Solution 
 
 Lillebror can win in both cases. To achieve this, he can proceed 
@@ -544,12 +599,14 @@ so the Lillebror will win.
 
 *Note.* In case (A), Lillebror will win after his second move. In case
 (B), Lillebror will win after the $2022:3=674$ moves.
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.7.5
 
 <text lang="en">
+
 Some of $272$ villagers always tell the truth, the remaining ones 
 lie all the time. Each of the villagers has exactly one favourite 
 day of the week. There was a poll of all the villagers, and they 
@@ -561,6 +618,7 @@ The number of "Yes" answers received to each question was as follows:
 Monday - $53$, Tuesday - $54$, Wednesday - $55$, Thursday - $57$, 
 Friday - $56$, Saturday - $58$, Sunday - $59$. 
 How many villagers lie all the time? 
+
 </text>
 
 
@@ -575,6 +633,7 @@ How many villagers lie all the time?
 
 
 <text lang="en">
+
 ## Solution 
 
 *Answer.* In the village there are $24$ liars. 
@@ -592,6 +651,7 @@ we would have $272$ answers “Yes”.
 
 Since we have 392 answers "Yes", we have $392-272=120$ "redundant" answers "Yes". 
 This can be achieved by turning $120:5=24$ villagers into liars.
+
 </text>
 
 
@@ -599,10 +659,12 @@ This can be achieved by turning $120:5=24$ villagers into liars.
 # <lo-sample/> LV.AMO.2022B.8.1
 
 <text lang="en">
+
 The following text was written on the board: $N597M$. Each of the letters 
 $N$ and $M$ should be replaced by a digit (they may or may not be 
 the same) so that the resulting five digit number is divisible by $12$. 
 In how many ways can you do this?
+
 </text>
 
 <small>
@@ -615,6 +677,7 @@ In how many ways can you do this?
 </small>
 
 <text lang="en">
+
 ## Solution 
 
 The requirements can be satisfied in $6$ different ways. 
@@ -635,6 +698,7 @@ divisiblity by $4$.
 As a result, there are six different options how to replace $N$ and $M$: 
 $(N,M)=(1,2)$; $(N,M)=(4,2)$; $(N,M)=(7,2)$; $(N,M)=(3,6)$; 
 $(N,M)=(6,6)$; $(N,M)=(9,6)$.
+
 </text>
 
 
@@ -642,11 +706,13 @@ $(N,M)=(6,6)$; $(N,M)=(9,6)$.
 # <lo-sample/> LV.AMO.2022B.8.2
 
 <text lang="en">
+
 The student had to complete a homework with $20$ tasks. For each task 
 $8$ points are added, if the solution is correct, $5$ points are 
 subtracted, if the solution is wrong, and $0$ points is given, 
 if the task is not attempted. How many tasks did a student solve 
 correctly, if his total score is $13$?
+
 </text>
 
 <small>
@@ -659,6 +725,7 @@ correctly, if his total score is $13$?
 </small>
 
 <text lang="en">
+
 ## Solution 
 
 *Answer.* The student solved $6$ tasks correctly. 
@@ -684,6 +751,7 @@ correctly, solved $7$ tasks incorrectly, and $7$ tasks were not attempted.
 | $\mathbf{7}$     | Yes, $x=6$                           |
 | $\mathbf{9}$     | No                                   |
 | $\mathbf{11}$    | No                                   |
+
 </text>
 
 
@@ -691,9 +759,11 @@ correctly, solved $7$ tasks incorrectly, and $7$ tasks were not attempted.
 # <lo-sample/> LV.AMO.2022B.8.3
 
 <text lang="en">
+
 In a triangle $ABC$ on the side $BC$ there is a point $D$ 
 such that $AD = BD$ and $AB = DC = AC$. Calculate the angles 
 of $ABC$!
+
 </text>
 
 <small>
@@ -706,6 +776,7 @@ of $ABC$!
 </small> 
 
 <text lang="en">
+
 ## Solution 
 
 Since $AD=BD$, the triangle $ABD$ is an isosceles 
@@ -741,6 +812,7 @@ Is it possible to arrange the numbers
 **(A)** $0;\;1;\;2;\;3;\;4;\;5;\;6;\;7;\;8;\;9$   
 **(B)** $0;\;1;\;2;\;3;\;4;\;5;\;6;\;7;\;8;\;9;\;10;\;11;\;12;\;13$  
 around a circle so that any two adjacent numbers differ by $3$, $4$, or $5$?
+
 </text>
 
 <small>
@@ -753,6 +825,7 @@ around a circle so that any two adjacent numbers differ by $3$, $4$, or $5$?
 </small> 
 
 <text lang="en">
+
 ## Solution
 
 **(A)** Let us show that it is impossible. Note that the numbers 
@@ -772,12 +845,14 @@ every two adjacent numbers differ by $3$, $4$, or $5$.
 indicate by how much any two neighboring number differ. 
 
 ![](LV.AMO.2022B.8.4A.png)
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.8.5
 
 <text lang="en">
+
 Five friends started arguing, and they stated the following: 
 
 * Elina says: "I always speak the truth."
@@ -789,6 +864,7 @@ Five friends started arguing, and they stated the following:
 It is known that each friend either always speaks the truth 
 or always lies. 
 How many friends speak the truth? 
+
 </text>
 
 <small>
@@ -801,6 +877,7 @@ How many friends speak the truth?
 </small> 
 
 <text lang="en">
+
 ## Solution 
 
 *Answer.* We show that only one of the friends speaks the truth. 
@@ -813,15 +890,18 @@ Note that:
 Thus, either Elina or Agnese speaks the truth and the other one lies. 
 It follows that Guna, Maruta and Emils lie. 
 So only one of the friends speaks the truth (it is either Elina or Agnese). 
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.9.1
 
 <text lang="en">
+
 How many four-digit numbers $\overline{ABBA}$ are there that are 
 divisible by $99$? (The same letters are replaced by the same digits,
 but different letters may or may not be the same.)
+
 </text>
 
 <small>
@@ -834,6 +914,7 @@ but different letters may or may not be the same.)
 </small> 
 
 <text lang="en">
+
 ## Solution 
 
 There are $10$ numbers that satisfy the conditions: 
@@ -850,14 +931,17 @@ $A+B=9$ or $A+B=18$. If $A+B=9$, there may be nine cases:
 $$A+B=1+8=2+7=3+6=4+5=5+4=6+3=7+2=8+1=9+0.$$ 
 
 If you $A+B=18$, you can only have one case $A+B=9+9$.
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.9.2
 
 <text lang="en">
+
 Is the inequality always true: $x + \frac{9}{x} > y + \frac{9}{y}$, if 
 **(A)** $x > y > 0$,  **(B)** $x > y > 3$?
+
 </text>
 
 <small>
@@ -870,6 +954,7 @@ Is the inequality always true: $x + \frac{9}{x} > y + \frac{9}{y}$, if
 </small> 
 
 <text lang="en">
+
 ## Solution 
 
 **(A)** 
@@ -893,16 +978,19 @@ and rewrite it as follows:
 $$0 < (xy-9)(x-y) = x^{2}y - xy^{2} - 9x + 9y$$. 
 
 So we proved the necessary inequality.
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.9.3
 
 <text lang="en">
+
 In a right triangle $ACB$ ($\sphericalangle C = 90^{\circ}$) 
 $CH$ is an altitude. On the side $AC$ we mark a point $K$ 
 so that $\sphericalangle CBK = \sphericalangle BAC$. 
 Prove that the line $CH$ divides the segment $BK$ in half!
+
 </text>
 
 <small>
@@ -916,6 +1004,7 @@ Prove that the line $CH$ divides the segment $BK$ in half!
 
 
 <text lang="en">
+
 ## Solution
 
 Denote the intersection of $CH$ and $KB$ with $O$ and $\sphericalangle CBK=\sphericalangle BAC=\alpha$, 
@@ -939,16 +1028,19 @@ From the equalities $BO=OC$ and $CO=OK$, we get that $BO=OK$, hence $CH$
 divides segment $BK$ in half. 
 
 ![](LV.AMO.2022B.9.3A.png)
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.9.4
 
 <text lang="en">
+
 Is it possible to arrange the numbers  
 **(A)** $1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13$;  
 **(B)** $1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14$  
 on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$?
+
 </text>
 
 <small>
@@ -961,6 +1053,7 @@ on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$?
 </small> 
 
 <text lang="en">
+
 ## Solution 
 
 **(A)** We show that it is impossible.  
@@ -986,6 +1079,7 @@ any two adjacent numbers differ by $3$; $4$ or $5$.
 
 **(B)** Yes, for example, see Fig.11, where the inside of the 
 circle shows the difference between any two adjacent numbers.
+
 </text>
 
 
@@ -993,6 +1087,7 @@ circle shows the difference between any two adjacent numbers.
 # <lo-sample/> LV.AMO.2022B.9.5
 
 <text lang="en">
+
 The floor plan of the art museum shall is a rectangle 
 of size **(A)** $8 \times 9$; **(B)** $9 \times 11$ squares, 
 where one square corresponds to a single museum room. 
@@ -1008,6 +1103,7 @@ that satisfies the following requirements:
   and is located next to the square (room) that started the route.
 
 Can the director of the museum create such route? 
+
 </text>
 
 <small>
@@ -1021,6 +1117,7 @@ Can the director of the museum create such route?
 
 
 <text lang="en">
+
 ## Solution 
 
 **(A)** Yes, he can. See, for example, Fig.12. 
@@ -1042,12 +1139,18 @@ color as the starting square. However, this is impossible,
 because that square is next to the square where the route 
 started. This is a contradiction and therefore 
 no such route exists.
+
 </text>
 
 
 # <lo-sample/> LV.AMO.2022B.10.1
 
+<text lang="en">
+
 What is the last digit of $2022^{2022}$? 
+
+</text>
+
 
 <small>
 * Concept: power, last-digit
@@ -1055,6 +1158,8 @@ What is the last digit of $2022^{2022}$?
 * domain: NT
 * LTopic: Ltcongruencemodulo
 </small> 
+
+<text lang="en">
 
 ## Solution 
 
@@ -1089,7 +1194,12 @@ $2022$-th term same as its second term, so it is equal to $4$.
 
 We conclude that the last digit of $2022^{2022}$ is $4$. 
 
- 
+</text>
+
+
+
+<text lang="en">
+
 ## Solution 
 
 The last digit of this number is determined by 
@@ -1101,10 +1211,12 @@ $$2022^{2022} \equiv 2^{2022} \equiv 2^{2020} \cdot 2^{2} \equiv\left(2^{4}\righ
 
 So the last digit of the number $2022^{2022}$ is $4$.
 
-
+</text>
 
 
 # <lo-sample/> LV.AMO.2022B.10.2
+
+<text lang="en">
 
 Consider $n$ consecutive positive integers. 
 Can we divide them into two groups so that the sum 
@@ -1112,12 +1224,16 @@ of the numbers in each group is a prime number if
 **(A)** $n = 8$, **(B)** $n = 10$? 
 Each group must contain at least $2$ numbers. 
 
+</text>
+
 <small>
 * Concept: PRIMES, natural-numbers, disjoint-Sets, sum
 * questionType: Provedisprove, ProveDisprove
 * domain: NT
 * LTopic: For ltnumtheoryexamples, LTDivisibility
 </small> 
+
+<text lang="en">
 
 ## Solution 
 
@@ -1134,21 +1250,28 @@ but another one to an even number.
 As the sums of both groups are larger than $2$, 
 the even number cannot be a prime.
 
+</text>
 
 
 # <lo-sample/> LV.AMO.2022B.10.3
 
+<text lang="en">
+
 There is a right triangle $ACB$; on its hypotenuse $AB$ 
 there is a point $O$, which is the centre of a circle 
 of radius of $3$ touching both legs (catheti) of the triangle.
-Calculate the area of triangle $ACB$, if $OB = 5$. 
+Calculate the area of triangle $ACB$, if $OB = 5$.
+
+</text>
 
 <small>
 * Concept: right-triangle, area, legs-in-right-triangle, circle, tangent
 * questionType: Findall
 * domain: Geom
 * LTopic: Lttriangles
-</small> 
+</small>
+
+<text lang="en">
 
 ## Solution 
 
@@ -1173,8 +1296,13 @@ Hence $S_{ACB}=\frac{AC \cdot CB}{2}=18 \frac{3}{8} \mathrm{~cm}^{2}$.
 
 ![](LV.AMO.2022B.10.3A.png)
 
+</text>
+
+
 
 # <lo-sample/> LV.AMO.2022B.10.4
+
+<text lang="en">
 
 Consider three real numbers $a$, $b$, $c$ with $abc = 1$. 
 Prove that the equation 
@@ -1183,12 +1311,17 @@ $$ax^4 + (2b + a)x^2 - 2cx + b^3c + bc + bc^3 = 0$$
 
 has no real roots! 
 
+</text>
+
 <small>
 * Concept: equation, real-numbers, root
 * questionType: Prove
 * domain: ALG
 * LTopic: The resolution
 </small> 
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1205,14 +1338,21 @@ a^{2} x^{4}+2 a b x^{2}+a^{2} b^{2}-2 a c x+b^{2}+1+c^{2}=0 \\
 The left side of the last equation is at least $1$, since both 
 squares are nonnegative. Hence the equation does not have real roots.
 
+</text>
+
+
 
 # <lo-sample/> LV.AMO.2022B.10.5
+
+<text lang="en">
 
 Five deputies (MPs) arrived at a restaurant and some of them shook hands with each other 
 before lunch. It is known that if two deputies did not shake hands with each other, 
 they did at least five handshakes together. Prove that deputies can be seated around 
 a circular table so that each deputy has shaken hands with both people seated next to 
 him/her. 
+
+</text>
 
 
 <small>
@@ -1222,6 +1362,7 @@ him/her.
 * LTopic: Ltgraphs
 </small> 
 
+<text lang="en">
 
 ## Solution 
 
@@ -1262,6 +1403,10 @@ There are two possibilities:
   hands with at least one of the remaining two MPs (otherwise $E$ would have done just one handshake), let's seat this MP in place $D$. At this point the seating around the table 
   is complete and satisfies the requirements. 
 
+</text>
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1287,10 +1432,16 @@ In this situation we have at most two pairs of deputies who hate each other.
 If they are seated in non-adjacent places (such as $A$-$C$ and also $B$-$D$) 
 the requirement is satisfied. 
 
+</text>
+
 
 # <lo-sample/> LV.AMO.2022B.11.1
 
+<text lang="en">
+
 Can $2022$ be expressed as the sum of cubes of two integers? 
+
+</text>
 
 <small>
 * cooked: sum, cube-ALG, integer-numbers
@@ -1298,6 +1449,8 @@ Can $2022$ be expressed as the sum of cubes of two integers?
 * domain: NT
 * LTopic: Ltcongruencemodulo
 </small> 
+
+<text lang="en">
 
 ## Solution 
 
@@ -1330,12 +1483,18 @@ can equal to any value from $-2,-1,0,1,2$,
 but nothing else. Since $2022 \equiv 6 \equiv-3 \pmod 9$ does not equal any of these values, 
 the sum of two integer cubes cannot equal $2022$.
 
+</text>
+
 
 # <lo-sample/> LV.AMO.2022B.11.2
+
+<text lang="en">
 
 For what real values $p$ both roots $x_1,x_2$ 
 of the equation $x^2 + x + p = 0$ are such that 
 $x_1^2 + x_2^2 = 16$? 
+
+</text>
 
 <small>
 * Concept: equation, square-ALG, sum, value
@@ -1344,6 +1503,8 @@ $x_1^2 + x_2^2 = 16$?
 * LTopic: The
 </small> resolution of ltequations 
 
+
+<text lang="en">
 
 ## Solution 
 
@@ -1356,19 +1517,30 @@ $$x_{1}^{2}+x_{2}^{2}=\left(x_{1}+x_{2}\right)^{2}-2 x_{1} x_{2}=1-2p=16.$$
 
 We conclude that $2p=-15$ and $p=-7.5$.
 
+</text>
+
+
+
 # <lo-sample/> LV.AMO.2022B.11.3
+
+<text lang="en">
 
 The circle inscribed into a triangle $ABC$ touches 
 edge $AB$ in point $D$ so that $AD = 8$ and $BD = 1$.
 Compute the length of side $BC$ if the size 
 of angle $\sphericalangle B$ in the triangle is $120^{\circ}$. 
 
+</text>
+
 <small>
 * Concept: triangle, inscribed-circle, angle, tangent
 * questionType: Findall
 * domain: Geom
 * LTopic: The resolution
-</small> of ltcircleandrelatedangles 
+</small>
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1392,10 +1564,12 @@ So $BC=1+x=6.4$.
 
 ![](LV.AMO.2022B.11.3A.png)
 
-
+</text>
 
 
 # <lo-sample/> LV.AMO.2022B.11.4
+
+<text lang="en">
 
 Prove that any positive integer greater than $3$ can be uniquely 
 expressed as the sum of three $x,y,z$ ($x \leq y \leq z$) 
@@ -1404,12 +1578,17 @@ satisfy the inequality
 
 $$x^2 + y^2 + z^2 - xy - yz - xz \leq 1.$$ 
 
+</text>
+
 <small>
 * concepted: Inequality, natural-numbers, sum
 * questionType: Prove
 * domain: NT
 * LTopic: Lttransformsnumtheory
 </small> 
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1431,8 +1610,12 @@ express all numbers congruent to $2$ modulo $3$.
 You can see that the resulting expression with a sum is 
 unique every time.
 
+</text>
+
 
 # <lo-sample/> LV.AMO.2022B.11.5
+
+<text lang="en">
 
 The floor plan of an art museum is a rectangle with dimensions 
 $m \times n$ ($m \geq 2$, $n \geq 2$) squares, where each square 
@@ -1449,12 +1632,17 @@ to create a visitor route that satisfies the following requirements:
 For what values $m$ and $n$ can the director 
 create a route satisfying these requirements?
 
+</text>
+
 <small>
 * Concept: grid, square-side, rectangle, path
 * questionType: Findall
 * domain: Comb
 * LTopic: Ltgraphs
-</small> 
+</small>
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1503,10 +1691,16 @@ or $n$ is divisible by $2$. We analyze three cases.
 
 As the variables $m$ and $n$ are interchangeable, all cases are analyzed.
 
+</text>
+
 
 # <lo-sample/> LV.AMO.2022B.12.1
 
+<text lang="en">
+
 Can the number $2023^2$ be expressed as the sum of three integer cubes? 
+
+</text>
 
 <small>
 
@@ -1516,6 +1710,8 @@ Can the number $2023^2$ be expressed as the sum of three integer cubes?
 * LTopic: Ltcongruencemodulo
 
 </small> 
+
+<text lang="en">
 
 ## Solution 
 
@@ -1555,10 +1751,17 @@ $-3 ;-2 ;-1 ; 0 ; 1 ; 2 ; 3$ and nothing else.
 As $2023^{2} \equiv 7^{2} \equiv 4 \equiv-5 \pmod 9$ does not appear among these values, 
 the sum of three whole skaitḷu cubes cannot be $2023^{2}$.
 
+</text>
+
+
 
 # <lo-sample/> LV.AMO.2022B.12.2
 
+<text lang="en">
+
 For what real values $p$ the sum of cubes of both roots of the equation $x^2 + x + p$ is equal to $(-16)$? 
+
+</text>
 
 <small>
 * Concept: real-numbers, cube-ALG, equation
@@ -1567,6 +1770,8 @@ For what real values $p$ the sum of cubes of both roots of the equation $x^2 + x
 * LTopic: The
 </small> 
 
+
+<text lang="en">
 
 ## Solution 
 
@@ -1582,11 +1787,19 @@ $$x_{1}^{3}+x_{2}^{3} = \left(x_{1}+x_{2}\right)\left( x_{1}^{2}-x_{1} x_{2}+x_{
 
 So $3p=-15$ and $p=-5$.
 
+</text>
+
+
+
 # <lo-sample/> LV.AMO.2022B.12.3
+
+<text lang="en">
 
 In triangle $ABC$ the length of altitude drawn from $A$ is $1$. 
 The median drawn from $C$ also has length $1$, but the altitude drawn from $B$ 
 has length $\sqrt{3}$. What can be the area of this triangle? 
+
+</text>
 
 <small>
 * Concepted: triangle, Median, altitude, area
@@ -1594,6 +1807,9 @@ has length $\sqrt{3}$. What can be the area of this triangle?
 * domain: Geom
 * LTopic: The lttriangles
 </small> 
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1644,12 +1860,18 @@ Therefore the area of the triangle can be either $\frac{\sqrt{3}}{2}$ or $\sqrt{
 
 ![](LV.AMO.2022B.12.3A.png)
 
+</text>
 
 
 
 # <lo-sample/> LV.AMO.2022B.12.4
 
+
+<text lang="en">
+
 Solve the equation $3 \sin x + 4 \cos x = 6$ in real numbers.
+
+</text>
 
 <small>
 * Concept: equation, real-numbers, sine, cosine
@@ -1657,6 +1879,9 @@ Solve the equation $3 \sin x + 4 \cos x = 6$ in real numbers.
 * domain: ALG
 * LTopic: The resolution
 </small> 
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1675,6 +1900,10 @@ $$\begin{gathered}
 Sine values never exceed $1$, so there are no solutions for this equation. 
 And there is no solution for the original equation either.
 
+</text>
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1695,6 +1924,10 @@ Denote $\operatorname{ctg}^{2} = t$, get a quadratic equation $t^{2}-3t+5=0$.
 Its discriminant $D=(-3)^{2}-4 \cdot 1 \cdot 5=-11<0$, so there are 
 no roots. Hence there is no solution for the original equation. 
 
+</text>
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1715,6 +1948,10 @@ Denote $\cos x=t$ to get a quadratic equation $25t^2 - 48t + 27 = 0$ and
 discriminant $D=(-48)^{2}-4 \cdot 25 \cdot 27=48 \cdot 48-50 \cdot 54<0$. 
 So the quadratic equation has no roots, and the original equation has no roots either. 
 
+</text>
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1734,9 +1971,13 @@ Therefore the initial inequality $a \sin x+b \cos x \leq \sqrt{a^{2}+b^{2}}$ is 
 It follows that $3 \sin x+4 \cos x \leq \sqrt{3^{2}+4^{2}}=5$, 
 and therefore the original equation has no roots. 
 
+</text>
 
 
 # <lo-sample/> LV.AMO.2022B.12.5
+
+
+<text lang="en">
 
 A table consists of $n \times n$ little squares. Ilmārs and Kims play the following 
 game. They make alternating moves: in every move a player enters either 
@@ -1750,12 +1991,17 @@ The game ends when all squares in the table are filled in.
 The player who gets more points wins. Which player has a winning strategy, if
 **(A)** $n = 2021$; **(B)** $n = 2022$? 
 
+</text>
+
 <small>
 * Concept: game, table, row, column, product, winning-strategy
 * questionType: Provedisprove
 * domain: Comb
 * LTopic: Ltgames
 </small> 
+
+
+<text lang="en">
 
 ## Solution 
 
@@ -1785,3 +2031,5 @@ Additionally, note that every time Ilmārs completes a column,
 Kim will complete the symmetric column in his next move. 
 As a result, Ilmārs will complete exactly $1011$ columns that gives him 
 at most $1011$ points. Therefore Kim will win.
+
+</text>
