@@ -1585,6 +1585,11 @@ Pierādīt, ka gan $a$, gan $b$ dalās ar $7$.
 
 ## Atrisinājums
 
+No tā, ka $3a+4b$ un $2a+3b$ dalās ar $7$, seko, ka
+$a+b = (3a+4b)-(2a+3b)$ dalās ar $7$. Līdzīgi iegūstam, ka
+$b = (2a+3b) - 2\cdot(a+b)$ dalās ar $7$.
+
+No vienādības $2a = (2a+3b)-3b$ seko, ka $2a$ dalās ar $7$; tātad arī $a$ dalās ar $7$.
 
 
 
@@ -1596,6 +1601,10 @@ Dots, ka $a$ - naturāls skaitlis, $p$ - pirmskaitlis, pie tam $3 a+1$ un $a-8$ 
 
 ## Atrisinājums
 
+No dotā seko, ka arī skaitlis $(3 a+1)-3(a-8)=25$ dalās ar pirmskaitli $p$. Tātad $p=5$.
+
+Jāpamato arī, ka eksistē šāds naturāls skaitlis $a$, kuram $3 a+1$ un $a-8$ dalās ar $5$. 
+Var, piemēram, izvēlēties skaitli $a=13$.
 
 
 
@@ -1607,7 +1616,11 @@ Vai $a+b$ var būt pirmskaitlis?
 
 ## Atrisinājums
 
+No dotā seko, ka $34(a+b) = 34a+34b = 43b+34b = 77b$. Tas nozīmē, ka skaitlis $34(a+b)$ dalās ar $77$.
 
+Tā kā skaitļiem $34$ un $77$ nav kopīgu dalītāju (lielāku par $1$), tad ar $77$ 
+dalās skaitlis $a+b$; tātad tas nav pirmskaitlis (tam, piemēram, ir dalītājs $7$, 
+kas atšķirīgs no $1$ un paša skaitļa).
 
 
 
@@ -1618,7 +1631,10 @@ $a+b, \quad a+c, \quad b+c$ var būt pirmskaitļi?
 
 ## Atrisinājums
 
+Ja $a=1, b=2, c=3$, tad veidojas divi pirmskaitļi $a+b=3$ un $b+c=5$. 
 
+Vairāk par diviem pirmskaitļiem nevar būt, jo starp trim skaitļiem $a,b,c$ ir vismaz divi,
+kuru paritātes ir vienādas. Šo skaitļu summa dalās ar $2$, un tā nevar būt pirmskaitlis.
 
 
 
@@ -1630,7 +1646,10 @@ Noskaidrojiet
 
 ## Atrisinājums
 
+**(A)** Jā, jo šis reizinājums satur gan skaitli $7$, gan $11$.
 
+**(B)** Nē, jo $101$ ir pirmskaitlis; visi reizinātāji ir mazāki par $101$ un nevar 
+dalīties ar $101$. Tātad arī reizinājums nedalās ar $101$.
 
 
 
@@ -1642,6 +1661,12 @@ Noskaidrojiet
 
 ## Atrisinājums
 
+**(A)** Ievērosim, ka $1996 = 499 \cdot 4$. No $499$ pēc kārtas ņemtiem naturāliem 
+skaitļiem viens dalās ar $499$; starp jebkuriem $4$ pēc kārtas n̦emtiem naturāliem 
+skaitl̦iem viens dalās ar $4$. Tāpēc reizinājums dalās ar $1996$.
+
+**(B)** Tā kā $499$ ir pirmskaitlis, tad $1 \cdot 2 \cdot 3 \cdots \cdots 498$ nedalās ar 
+$499$, un, tātad, nedalās arī ar $1996$.
 
 
 
@@ -1654,6 +1679,13 @@ Noskaidrojiet
 
 ## Atrisinājums
 
+**(A)** $S=(a+1)+(a+2)+\cdots+(a+n)=n a+\frac{n(n+1)}{2}$. Redzam, ka skaitlim 
+$n=1996 \cdot 2 = 3992$ prasītā īpašība izpildās.
+
+**(B)** Pierādīsim, ka tā ir mazākā vērtība, kurai izpildās prasītā īpašība. 
+Tiešām, n̦emot $a=1$ un $a=2$, iegūstam, ka 
+$\left(2 n+\frac{n(n+1)}{2}\right)-\left(n+\frac{n(n+1)}{2}\right)=n$ 
+dalās ar $1996$. Bet skaitlis $n=1996$ neder, jo, ņemot $a=1$, iegūstam summu, kura nedalās ar $1996$.
 
 
 
@@ -1661,22 +1693,27 @@ Noskaidrojiet
 
 # <lo-sample/> BBK2012.P1.45
 
-Kāds lielākais pirmskaitlu daudzums var būt sastopams starp $12$ pēc kārtas n̦emtiem naturāliem skaitliem?
+Kāds lielākais pirmskaitlu daudzums var būt sastopams starp $12$ pēc kārtas n̦emtiem naturāliem skaitļiem?
 
 ## Atrisinājums
 
+No $2$ līdz $13$ sastopami $6$ pirmskaitļi: $2, 3, 5, 7, 11, 13$.
 
+Pierādīsim, ka vairāk par $6$ pirmskaitļiem būt nevar. No $1$ līdz $12$ ir $5$ pirmskaitļi. 
+Ja mazākais, no grupas skaitļiem ir lielāks par $2$, tad katrs pāra skaitlis šajā grupā 
+ir salikts skaitlis. Pāra skaitļi katrā grupā ir $6$; tātad grupā nevar būt vairāk par $6$ 
+pirmskaitļiem.
 
 
 # <lo-sample/> BBK2012.P1.46
 
-Zināms, ka dalot skaitlus $2077$ un $100$ ar $a$, iegūti vienādi atlikumi. Kādas var būt skaitļa $a$ vērtības?
-
-
+Zināms, ka dalot skaitlus $2077$ un $100$ ar $a$, iegūti vienādi atlikumi. 
+Kādas var būt skaitļa $a$ vērtības?
 
 ## Atrisinājums
 
-
+No dotā seko, ka $a \mid(2077-100)=1977$. Skaitļa $1977$ sadalījums 
+pirmreizinātājos ir šāds: $1977=3 \cdot 659$. Tātad $a \in\{1,3,659,1977\}$.
 
 
 # <lo-sample/> BBK2012.P1.47
@@ -1686,7 +1723,10 @@ Dalot skaitli $1987$ ar $a$, atlikumā ieguva skaitli $9$. Kādas var būt skait
 
 ## Atrisinājums
 
+No uzdevuma nosacījumiem seko, ka $1987=ak+9$, $a>9$. Tātad $a \mid(1987-9)=2 \cdot 23 \cdot 43$. 
+Skaitlis $a$ var būt jebkurš skaitļa $1978$ dalītājs, kurš lielāks par $9$.
 
+*Atbilde:* $a \in\{23,43,46,86,988,1978\}$.
 
 
 # <lo-sample/> BBK2012.P1.48
@@ -1697,7 +1737,8 @@ Skaitli $1991$ dalot ar $a$, atlikumā iegūst $9$. Kāds var būt $a$?
 
 ## Atrisinājums
 
-
+Tā kā $1991 = ka+9$, tad $ka = 1982 = 2 \cdot 991$, kur abi reizinātāji ir pirmskaitļi. 
+Tātad $a \in\{1,2,991,1982\}$. Tā kā $a>9$, tad der tikai skaitļi $991$ un $1982$.
 
 
 # <lo-sample/> BBK2012.P1.49
@@ -1707,7 +1748,18 @@ Vai dažādu pirmskaitļu apgriezto lielumu summa var būt vesels skaitlis?
 
 ## Atrisinājums
 
+Nē, nevar būt. Pien̦emsim pretējo, ka 
+$\frac{1}{p_{1}}+\frac{1}{p_{2}}+\cdots+\frac{1}{p_{n}}=m$, $m \in N$. 
+Pareizinot vienādību ar skaitli $p_{1} p_{2} \ldots p_{n-1}$, iegūsim vienādību
 
+$$\begin{aligned}
+& p_{2} p_{3} \ldots p_{n-1}+p_{1} p_{3} \ldots p_{n-1}+\cdots+\frac{p_{1} p_{2} \ldots p_{n-1}}{p_{n}}= \\
+& p_{1} p_{2} \ldots p_{n-1} m
+\end{aligned}$$
+
+Redzam, ka skaitlim $p_{1} p_{2} \ldots p_{n-1}$ jādalās ar $p_{n}$, taču tas nav iespējams.
+
+Iegūtā pretruna pierāda, ka pien̦ēmums bija nepareizs.
 
 
 # <lo-sample/> BBK2012.P1.50 
@@ -1718,7 +1770,9 @@ dod atlikumā $13$. Kādu atlikumu dod $A$, dalot ar $14$?
 
 ## Atrisinājums
 
-
+Tā kā skaiţ̦i $1981$ un $35$ dalās ar $7$, tad no pirmā nosacījuma 
+$A=1981 \cdot q+35$ seko, ka $7 \mid A$. Otrais nosacījums $A=1982 \cdot q+13$ 
+norāda, ka $A$ ir nepāra skaitlis. Tātad, dalot skaitli $A$ ar $14$, atlikumā iegūsim $7$.
 
 
 # <lo-sample/> BBK2012.P1.51
@@ -1730,7 +1784,9 @@ dalītāji, kas mazāki par pašu skaitli).
 
 ## Atrisinājums
 
-
+No $12$ pēc kārtas ņemtiem skaitliem var izvēlēties tādu skaitli $n$, kurš dalās ar $12$. 
+Tādā gadījumā $\frac{n}{2}, \frac{n}{3}, \frac{n}{4}$ ir skaiț̣a $n$ dalītāji, kuru summa 
+$\frac{n}{2}+\frac{n}{3}+\frac{n}{4}=\frac{13}{12} n$ ir lielāka par $n$.
 
 
 
@@ -1752,7 +1808,13 @@ piederētu vismaz vienai progresijai?
 
 ## Atrisinājums
 
+Nē, tādas ǵeometriskas progresijas neeksistē. Aplūkosim galīgu skaitu geometrisko progresiju
 
+$$\left\{a_{1} q_{1}^{k}\right\},\,\left\{a_{2} q_{2}^{k}\right\},\,\ldots,\,\left\{a_{n} q_{n}^{k}\right\},\quad{}k \in \mathbb{N}$$
+
+un n̦emsim visus skaitļu $a_{1}, a_{2}, \ldots, a_{n}, q_{1}, q_{2}, \ldots, q_{n}$ pirmreizinātājus. 
+Izvēlēsimies tādu pirmskaitli $p$, kurš nepieder norādītajai kopai. Skaidrs, ka šis skaitlis 
+nevar piederēt nevienai no dotajām ǵeometriskajām progresijām.
 
 
 
@@ -1772,7 +1834,9 @@ iegūst atlikumā atbilstoši $r, r+1, \ldots, r+m$.
 
 ## Atrisinājums
 
+**(A)** Ja $a$ ir meklētais skaitlis, tad $a+1$ dalās ar 2, 3, 4, 5, 6. Tātad $a+1=[2,3,4,5,6]=60$ un $a=59$.
 
+**(B)** Līdzīgi pierāda, ka $x=[r, r+1, \ldots, r+m]+r-n$.
 
 
 
@@ -1785,12 +1849,15 @@ Noteikt, kāds varēja būt mazākais kokosriekstu skaits, ko savāca pieci jūr
 uz neapdzīvotas salas, ja viṇi dalīja kokosriekstus šādi: pirmais no viņiem, 
 kamēr pārējie gulēja, iedeva vienu riekstu pērtiķim un paņēma sev $\frac{1}{5}$ 
 no atlikušajiem riekstiem; tālāk tieši tāpat pēc kārtas rīkojās visi pārējie jūrnieki. 
-Pēc tam visi kopā vēlreiz dalīja riekstus. Vienu iedeva pērtiķim, 
+Pēc tam visi kopā vēl vienu reizi dalīja riekstus: Vienu iedeva pērtiķim, 
 bet pārējos sadalīja savā starpā piecās vienādās daļās.
 
 ## Atrisinājums
 
-
+Pievienosim sākotnējai riekstu kaudzei $4$ viltus riekstus. Tad šo kaudzi pirmais jūrnieks 
+var sadalīt $5$ vienādās daļās. Šo procesu var atkārtot $6$ reizes. Tātad 
+$\left(\frac{4}{5}\right)^{6} \cdot a$ ir vesels skaitlis. Mazākā iespējamā $a$ vērtība ir 
+$5^{6}$. Tas nozīmē, ka mazākais iespējamais kokosriekstu skaits sākumā bija $5^{6}-4$.
 
 
 
@@ -1801,19 +1868,29 @@ var vienlaikus dalîties ar $3$?
 
 ## Atrisinājums
 
+Jebkurš skaitlu daudzums no $0$ līdz $3$. Piemēri:
 
+$$(1,4,7),\,(1,3,6),\,(1,2,5),\,(3,6,9).$$
 
 
 
 
 # <lo-sample/> BBK2012.P1.56
 
-Atrast kaut vienu veselu skaitli $n$, kas apmierina divas šādas īpašības:  
-a) $n$ nedalās ne ar vienu no skaițiem $2,3,4,5,6,7,8,9,10$,  
-b) $n-1$ dalās ar katru no skaitļiem $2,3,4,5,6,7,8,9,10$.
+Atrast kaut vienu veselu skaitli $n$, kas apmierina divas šādas īpašības:
+
+a. $n$ nedalās ne ar vienu no skaițiem $2,3,4,5,6,7,8,9,10$,
+b. $n-1$ dalās ar katru no skaitļiem $2,3,4,5,6,7,8,9,10$.
 
 ## Atrisinājums
 
+Ja skaitlis $n-1$ dalās ar katru no skaitliem $2,3,4,5,6,7,8,9,10$, tad skaitlis $n$ nedalās 
+ne ar vienu no šiem skaiţliem. Skaitli $n-1$ var izvēlēties kā norādīto skaiţu mazāko 
+kopīgo dalāmo (protams, var ņemt arī doto skaitlu reizinājumu).
+
+$$\operatorname{MKD}(2,3,4,5,6,7,8,9,10)=2^{3} \cdot 3^{2} \cdot 5 \cdot 7=2520.$$
+
+Tātad der skaitlis $n=2521$.
 
 
 
@@ -1826,7 +1903,15 @@ no kuriem nevienu nevar izsacìt kā divu (dažādu vai vienādu) divciparu skai
 
 ## Atrisinājums
 
+Starp $10$ pēc kārtas ņemtiem trīsciparu skaițiem viens dalās ar $10$; tātad šis skaitlis 
+$\overline{ab0} = \overline{ab} \cdot 10$ ir divu divciparu skaitlu reizinājums.
 
+No otras puses var uzrādīt $9$ pēc kārtas ṇemtus skaitlus $101, 102,\ldots, 109$, 
+kas nav divu divciparu skaiţ̦u reizinājumi (tiešām, vienam no šiem reizinātājiem būtu 
+jābūt ne lielākam par $\sqrt{109}$; vienīgais šāds divciparu skaitlis ir $10$, 
+bet dotie skaitlii ar $10$ nedalās).
+
+Tātad lielākais meklējamo skaitlu skaits ir $9$.
 
 
 
@@ -1839,7 +1924,9 @@ $\overline{ab}$ ir divciparu skaitlis.
 
 ## Atrisinājums
 
-
+Doto vienādību var pārrakstīt šādi: $a+0.1b+0.01c = (10a+b):c$. Pareizinot vienādību ar 
+$100c$, iegūstam $100ac + 10bc + c^{2} = 1000a + 100b$; tātad $c$ dalās ar $10$, 
+bet tas nav iespējams, jo $c$ ir cipars, kas nav $0$.
 
 
 
@@ -1853,7 +1940,16 @@ $\overline{bca}+\overline{cab}$ dalās ar $37$.
 
 ## Atrisinājums
 
+Ievērosim, ka
 
+$$\begin{aligned}
+& \overline{a b c}+\overline{b c a}+\overline{c a b}= \\
+& (100 a+10 b+c)+(100 b+10 b+a)+(100 c+a+b)= \\
+& 111 \cdot(a+b+c)=3 \cdot 37 \cdot(a+b+c)
+\end{aligned}$$
+
+Tātad $\overline{bca} + \overline{cab} = 3 \cdot 37 \cdot(a+b+c)-\overline{abc}$
+dalās ar $37$.
 
 
 
@@ -1866,7 +1962,15 @@ otrādā kārtībā, ir naturāla skaiţ̦a kvadrāts.
 
 ## Atrisinājums
 
+Apzīmēsim meklējamo skaitli ar $\overline{ab}$. Tad
 
+$$\overline{ab} + \overline{ba} = (10a+b) + (10b+a) = 11(a+b) = n^{2}.$$
+
+Tas nozīmè, ka $n$ dalās ar $11$; tāpēc $11(a+b)$ dalās ar $121$. Tas nozīmē, 
+ka $a+b$ dalās ar $11$. Tā kā $a$ un $b$ ir cipari, tad $a+b=11$. Visi šādi skaitli der, 
+jo rezultātā iegūstam skaitli $121=11^{2}$.
+
+*Atbilde:* $29, 38, 47, 56, 65, 74, 83, 92$.
 
 
 
@@ -1879,7 +1983,16 @@ kuru iegūst mainot tā ciparus vietām, starpība ir kāda naturāla skaiţ̦a 
 
 ## Atrisinājums
 
+Dots, ka $\overline{ab} - \overline{ba} = n^{2}$. 
+Tātad $n^{2}=\overline{ab}-\overline{ba} = 9 \cdot(a-b)$. 
+Tas nozīmē, ka $n$ dalās ar $3$ un $a-b=k^{2}$.
 
+Iegūstam šādus skaiţ̦us: (neskaitot skaitļus, kuru pierakstā ir $0$):
+
+$$\begin{aligned}
+& 12,23,34,45,56,67,78,89,98,87,76.65,54,43,32,21 \\
+& 15,26,37,48,59,95,84,73,62,51. \\
+\end{aligned}$$
 
 
 
@@ -1896,6 +2009,10 @@ $$x^{3}-y^{3}=z.$$
 
 ## Atrisinājums
 
+No vienādības $(x-y) \cdot\left(x^{2}+x y+y^{2}\right)=z$
+seko, ka $x-y=1$, jo $z$ ir pirmskaitlis. Tā kā $x$ un $y$ arī ir pirmskaitļi 
+un ir tikai viens pāra pirmskaitlis $2$, tad $x=3$ un $y=2$. Atliek pārbaudīt, ka 
+$3^{3}-2^{3}=19$ arī ir pirmskaitlis.
 
 
 
@@ -1911,7 +2028,12 @@ dalās ar $m$, skaitlis $cx + dy$ arī dalās ar $m$.
 
 ## Atrisinājums
 
+Uzrakstīsim sekojošu identitāti
 
+$$d(ax+by) - b(cx+dy) = x(ad-bc) = xm.$$
+
+Tātad, ja $m \mid (ax+by)$, tad $m \mid b(cx+dy)$. Nemot vērā, ka $(m,b)=1$, 
+iegūsim, ka $m \mid(cx+dy)$.
 
 
 
@@ -1925,7 +2047,13 @@ Pierādiet, ka abi skaitlii $u$ un $v$ dalās ar $3$.
 
 ## Atrisinājums
 
+Dots, ka skaitlis $u^{2}+uv+v^{2} = (u-v)^{2} + 3uv$ dalās ar $9$. No šejienes seko, ka
 
+$$3 \mid (u-v)^{2},\quad 3 \mid (u-v)\quad \text{un} \quad 9 \mid (u-v)^{2}.$$
+
+Tādā gadījumā $9 \mid 3uv$ un $3 \mid uv$. Redzam, ka vismaz viens no skaitļiem 
+$u$ un $v$ dalās ar 3, bet n̦emot vērā, ka $u$ un $v$ starpība dalās ar $3$, 
+iegūstam, ka abi skaitļi $u$ un $v$ dalās ar $3$.
 
 
 
@@ -1938,7 +2066,20 @@ skaitļu pāris $(x, y)$, kuram izpildās vienādība $\frac{1}{x}-\frac{1}{y}=\
 
 ## Atrisinājums
 
+Pien̦emsim, ka $\frac{1}{x}-\frac{1}{y}=\frac{1}{n}$. Tad $x<n$ un $n \neq 1$. Apzīmēsim 
+$x=n-i$ ($0<i<n$). Ievietojot dotajā vienādībā, iegūsim vienādību
 
+$$\frac{1}{n-i}-\frac{1}{n}=\frac{1}{y},\quad \text{jeb}\quad y=\frac{n(n-i)}{i}.$$
+
+Skaidrs, ka vienmēr eksistē viens atrisinājums $i=1, x=n-1, y=n(n-1)$. tam atbilst identitāte
+
+$$\frac{1}{n-1}-\frac{1}{n(n-1)}=\frac{1}{n}.$$
+
+Ja $n$ ir pirmskaitlis, tad $(n, i)=1$, un no tā, ka $i \mid n(n-i)$ seko, ka 
+$i \mid(n-i)$ un $i \mid n$ , jeb $i=1$. Tātad šajā gadījumā citu atrisinājumu nav.
+
+Ja $n$ nav pirmskaitlis, tad $n=n_{1}n_{2}$, un mēs varam uzrakstīt vēl citu atrisinājumu 
+$i=n_{1}, x=n-n_{1}, y=\left(n-n_{1}\right) n_{2}$.
 
 
 
@@ -1953,6 +2094,10 @@ skaiţ̦a kubu. Atrast visus tādus skaiţlus, kuriem izpildās šāda īpašīb
 
 ## Atrisinājums
 
+Tā kā $\overline{ab} - \overline{ba} = (10a+b) - (10b+a) = 9(a-b)$ dalās ar $9$, 
+tad iegūtais kvadrāts varēja būt $9$, $36$ vai $81$. No šejienes seko, ka $a-b=1, a-b=4$ vai $a-b=9$.
+
+*Atbilde:* $21, 32, 43, 54, 65, 76, 87, 98, 51, 62, 73, 84, 95$.
 
 
 
@@ -1965,6 +2110,15 @@ Pirmo $n$ naturālo skaitlu summa ir trīsciparu skaitlis, kuram visi cipari ir 
 
 ## Atrisinājums
 
+Uzdevuma nosacījumu pierakstīsim šādi:
+
+$$1+2+\cdots+n=\overline{k k k} ; \quad \frac{n(n+1)}{2}=k \cdot 3 \cdot 37, \quad 0<k \leq 9$$
+
+Viens no skaitļiem $n$ vai $n+1$ dalās ar 37, bet tā kā $\frac{73 \cdot 74}{2}>999$, 
+tad $n=37$ vai $n+1=37$. Ja $n=37$, tad $n+1=38$, un šo skaiţ̦u reizinājums nedalās ar $3$. 
+Atliek vērtība $n=36$. Šajā gadījumā iegūstam prasīto vienādību
+
+$$1+2+\cdots+36=666.$$
 
 
 
@@ -1973,13 +2127,36 @@ Pirmo $n$ naturālo skaitlu summa ir trīsciparu skaitlis, kuram visi cipari ir 
 
 # <lo-sample/> BBK2012.P1.68
 
-Zināms, ka divu dotu racionālu skaitlu summa un reizinājums ir veseli skaitli. Pierādīt, ka dotie skaiţli paši ir veseli.
+Zināms, ka divu dotu racionālu skaitlu summa un reizinājums ir veseli skaitli. 
+Pierādīt, ka dotie skaitļi paši ir veseli.
 Vai apgalvojums paliek spēkā, ja nav zināms, ka dotie skaitļi ir racionāli?
 
 
 ## Atrisinājums
 
+Apzīmēsim dotos skaitlus ar $x$ un $y$. Tad
 
+$$\left\{ \begin{array}{l}
+x + y = n\\
+xy = m
+\end{array} 
+\quad \Rightarrow \quad
+x + \frac{m}{x} = n
+\quad \Rightarrow \quad
+x^2 + m = nx.$$
+
+Pien̦emsim, ka $x=\frac{p}{q}$ nesaīsināma daļa un $q>1$. 
+Pēc pārveidojumiem iegūstam vienādību $p^{2} = q(np-qm)$.
+
+Šī vienādība nav iespējama, jo vienādības labās puses izteiksme dalās ar $q$, bet 
+kreisās puses izteiksme nedalās ($p$ un $q$ nav kopīgu dalītāju). 
+Tātad $x$ (un līdz ar to arī $y$) ir veseli skaitļi.
+
+Iracionāliem skaitliem apgalvojums nav spēkā. Piemēram, skaitļiem
+
+$$x=2+\sqrt{2}, \quad y=2-\sqrt{2}$$
+
+gan summa, gan reizinājums ir veseli skaitļi.
 
 
 
@@ -1995,6 +2172,15 @@ Naturālu skaitli sauc par interesantu, ja tā ciparu summa dalās ar $5$.
 
 ## Atrisinājums
 
+**(A)** Tāds, piemēram, ir skaitlis $5$.
+
+**(B)** Tādu skaitļu ir bezgalīgi daudz. Piemēram, tādi ir skaiţ̦i $55 \ldots 505$.
+
+**(C)** Sauksim par bloku desmit pēc kārtas ņemtus skaitlus 
+$\overline{n0}, \overline{n1}, \ldots, \overline{n9}$.  
+No $9$ pēc kārtas ņemtiem naturāliem skaitliem vismaz $5$ pieder vienam blokam; 
+šo skaitlu ciparu summas ir pēc kārtas n̦emti naturāli skaitļi, 
+tāpēc viena no tām dalās ar $5$.
 
 
 
@@ -2008,17 +2194,33 @@ Atrodiet divciparu skaitli, kurš ir vienāds ar otrā cipara kvadrāta un pirm�
 
 ## Atrisinājums
 
+Apzīmēsim meklējamo skaitli ar $\overline{ab}$. Tad $10a+b = a+b^{2}$, jeb $9a=b^{2}-b$. 
+Tāpēc $b(b-1)$ dalās ar $9$. Tas ir iespējams tikai, ja cipars $b$ ir $9$.
+
+*Atbilde:* meklējamais skaitlis ir $89$.
 
 
 
 
 # <lo-sample/> BBK2012.P1.71
 
-Atrodiet trīsciparu skaitli, kuru kāpinot jebkurā naturālā pakāpē, iegūstam skaitli, kura pēdējie trīs cipari veido sākotnējo skaitli.
+Atrodiet trīsciparu skaitli, kuru kāpinot jebkurā naturālā pakāpē, iegūstam skaitli, 
+kura pēdējie trīs cipari veido sākotnējo skaitli.
 
 
 ## Atrisinājums
 
+Apzīmēsim meklējamo skaitli ar $N$. Tad $1000 \mid \left(N^{2}-N\right)$ un
+$8 \cdot 125 \mid (N-1) \cdot N$.
+
+Tā kā $N$ un $N-1$ ir savstarpēji pirmskaiţ̦i, un neviens no tiem nevar dalīties ar 
+$8 \cdot 125$, tad pastāv divas iespējas:
+
+a. $8 \mid N$ un $125 \mid(N-1)$, jeb $N=376$;
+b. $125 \mid N$ un $8 \mid(N-1)$, jeb $N=625$.
+
+Tā kā jebkuram naturālam $k \quad N^{k}-N=N\left(N^{k-1}-1\right)$ dalās ar $N(N-1)$, 
+tad abas iegūtās $N$ vērtības apmierina uzdevuma nosacījumus.
 
 
 
@@ -2040,7 +2242,18 @@ concepts=square-root
 
 ## Atrisinājums
 
+No dotā seko, ka $a_{1}=1, a_{2}=1$ vai $2$. Aplūkosim abus gadījumus:
 
+a. $a_{1}=1, a_{2}=1$; tad $(n-1) \mid \left(a_{n}-1\right)$ un 
+   $(n-2) \mid\left(a_{n}-1\right)$. Tas nozīmē, ka $a_{n}=1$ vai $a_{n}>(n-1)(n-2)$. 
+   No nevienādības $a_{n} \leq n \sqrt{n}$ seko, ka eksistē kāda vieta $n_0$ šajā virknē, 
+   ka visiem $n \geq n_{0}$ ir spēkā $a_{n}=1$. 
+   Pierādīsim, ka $a_{k}=1$ visiem naturāliem $k$. N̦emsim $n \geq n_{0}$.
+   Tad $a_{k}-1=a_{k}-a_{n}$ un tātad $(a_k - 1) \vdots (k-n)$.
+
+   Tā kā $n$ ir patvaļīgi liels skaitlis, tad $a_{k}-1=0$, tātad $a_{k}=1$.
+
+b. Otrajā gadījumā analoǵiski pierāda, ka $a_{n}=n$ visiem naturāliem $n$.
 
 
 
@@ -2053,7 +2266,31 @@ kuriem $m+k^{2}$ ir pilns kvadrāts.
 
 ## Atrisinājums
 
+Dotajai $m$ vērtībai mums ir jānosaka, cik atrisinājumu ir vienādojumam $m+y^{2}=x^{2}$ 
+veselos nenegatīvos skaitlos $x,y$. Vienādojumu pārveidojam formā
 
+$$m=(x+y)(x-y)$$
+
+Skaitļu $x+y$ un $x-y$ paritāte ir vienāda.
+Tātad, ja $m=4k+2$, tad vienādojumam nav atrisinājumu.
+
+Ja $m$ ir nepāra skaitlis, tad katram skaitļa $m$ sadalījumam reizinātājos 
+$m=d_{1}d_{2}$, $d_{1} \leq d_{2}$ atbilst atrisinājums $x, y$, ko iegūst, risinot sistēmu
+
+$$\left\{\begin{array}{l}
+x-y = d_{1} \\
+x+y = d_{2}
+\end{array}\right.$$
+
+Apzīmējot ar $d(m)$ skaiţ̣a $m$ naturālo dalītāju skaitu, iegūsim, ka atrisinājumu skaits ir 
+$\frac{d(m)}{2}$, ja $m$ nav pilns kvadrāts, un atrisinājumu skaits ir $\frac{d(m)+1}{2}$, 
+ja $m$ ir pilns kvadrāts.
+
+Ja $m$ dalās ar $4$, tad $x+y$ un $x-y$ jābūt pāra skaitļiem. Katram vienādojuma atrisinājumam 
+atbilst skaiț̣a $m$ sadalījums reizinātājos $m=2 q_{1} \cdot 2 q_{2}$, jeb 
+$\frac{m}{4}=q_{1}q_{2}$. Tātad, atrisinājumu skaits ir $\frac{d\left(\frac{m}{4}\right)}{2}$, 
+ja $m$ nav pilns kvadrāts, un atrisinājumu skaits ir $\frac{d\left(\frac{m}{4}\right)+1}{2}$, 
+ja $m$ ir pilns kvadrāts.
 
 
 
@@ -2066,6 +2303,10 @@ grupas skaitlu reizinājums būtu vienāds ar visu otrās grupas skaitḷu reizi
 
 ## Atrisinājums
 
+No Bertrāna postulāta seko, ka skaitļu grupā no $1$ līdz $n$ eksistē pirmskaitlis $p$, 
+kurš lielāks par $\frac{n}{2}$. Visi šā pirmskaiṭ̦a daudzkārtņi ir lielāki par $n$. 
+Tas nozīmē, ka, sadalot pirmos $n$ naturālos skaitļus divās grupās, vienas grupas skaitļu 
+reizinājums dalīsies ar $p$, bet otrs nē. Tātad šie reizinājumi nevar būt vienādi.
 
 
 
@@ -2080,6 +2321,11 @@ $$1! \cdot 3! \cdot 5! \cdot \cdots \cdot (2m-1)! = \left(\frac{m(m+1)}{2}\right
 
 ## Atrisinājums
 
+Nemsim pirmskaitli $p$, kuram izpildās nevienādības $(2 m-1)<p<2(2 m-1)$. Ja izpildītos 
+nevienādība $2(2 m-1) \leq \frac{m(m+1)}{2}$, tad $p$ būtu vienādības labās puses
+dalītājs, bet nebūtu vienādības kreisās puses dalītājs, un dotā vienādība neizpildītos. 
+Tātad $2(2m-1) > \frac{m(m+1)}{2}$, jeb $m \leq 6$. 
+Pārbaudot šīs $m$ vērtības, redzam, ka vienādība izpildīsies, ja $m \in\{1,2,3,4\}$.
 
 
 
@@ -2097,7 +2343,21 @@ ir kļūdījušies. Kuri no skolniekiem kḷūdījās?
 
 ## Atrisinājums
 
+Skaitļiem, ar kuriem dalāmību pārbaudīja skolnieki, kuri kļūdījās, izpildās šādas īpašības:
 
+a. Katrs no šiem skaitliem ir pirmskaitļa pakāpe. Tiešām, ja tas tā nebūtu, tad šo skaitli 
+   $x$ varētu uzrakstīt formā $x=l m, \quad(l, m)=1, \quad l>1, m>1$. Taču skolotājas 
+   nosauktais skaitlis $A$ dalās ar $l$ un $m$, jo $l<x-1, \quad m<x-1$ , bet dalāmību 
+   ar šiem skaițiem pārbaudīja skolnieki, kas nekļūdījās. Tātad $A$ dalās ar 
+   $lm=x$, un skolnieks, kas pārbaudīja dalāmību ar $x$, nav kļūdījies.
+
+b. Katrs no šiem skaitliem ir lielāks par $15$. Tiešām, ja $x \leq 15$, tad 
+   $2x \leq 30$, un tā kā $2x \mid A$, tad arī $x \mid A$.
+
+Viens no nosauktajiem skaitliem ir pāra skaitlis. Tātad tas ir divnieka pakāpe. 
+No nosacījuma $15 < 2^{n} \leq 31$ seko, ka $2^{n}=16$. Der tikai skaitļu pāris $16,17$.
+
+*Atbilde:* Kļūdījās piecpadsmitais un sešpadsmitais skolēni.
 
 
 
@@ -2111,20 +2371,39 @@ $\frac{a}{b}+\frac{b}{c}$, $\frac{b}{c}+\frac{c}{a}, \frac{c}{a}+\frac{a}{b}$ ir
 
 ## Atrisinājums
 
+*Atbilde:* $\left( \pm t, \pm t, \pm t \right)$, $t \in R$, $t \neq 0$.
 
+$$2 \cdot \frac{a}{b} = \left( \frac{a}{b}+\frac{b}{c} \right) + \left( \frac{c}{a}+\frac{a}{b} \right) - \left(\frac{b}{c}+\frac{c}{a}\right)$$
+
+ir vesels skaitlis. Līdzīgi pierāda, ka $2 \cdot \frac{b}{c}$ un $2 \cdot \frac{c}{a}$ ir veseli skaitļi.
+
+Ja $2 \cdot \frac{a}{b}$ ir pāra skaitlis (t.i. $\frac{a}{b}$ -- vesels skaitlis), 
+tad no vienādības $\frac{b}{c}=\left(\frac{a}{b}+\frac{b}{c}\right)-\frac{a}{b}$ seko, 
+ka $\frac{b}{c}$ ir vesels skaitlis; līdz̄̄gi arī $\frac{c}{a}$ ir vesels skaitlis. 
+Tā kā $\frac{a}{b} \cdot \frac{b}{c} \cdot \frac{c}{a}=1$, tad 
+$\left| \frac{a}{b} \right| = \left| \frac{b}{c} \right| = \left| \frac{c}{a} \right| = 1$, 
+un iegūstam atbildē norādīto atrisinājumu. Ja $2 \cdot \frac{a}{b}$ ir nepāra skaitlis, 
+tad arī $2 \cdot \frac{b}{c}$ un $2 \cdot \frac{c}{a}$ ir nepāra skaiţ̦i. Taču 
+$2 \cdot \frac{a}{b} \cdot 2 \cdot \frac{b}{c} \cdot 2 \cdot \frac{c}{a}=8$, 
+bet nepāra skaitļu reizinājums nevar būt pāra skaitlis.
 
 
 
 
 # <lo-sample/> BBK2012.P1.78
 
-Pien̦msim, ka $p$ un $q$ ir divi viens otram sekojoši nepāra pirmskaitļ̣i.
+Pien̦msim, ka $p$ un $q$ ir divi viens otram sekojoši nepāra pirmskaitļi.
 Pierādīt, ka $p+q$ ir vismaz trīs naturālu skaitļu reizinājums, katrs no kuriem ir lielāks par $1$.
 
 
 ## Atrisinājums
 
+Tā kā $q-p=2k$, tad $p+q=2 \cdot(p+k)$. Ievērosim, ka
 
+$$p< p+k < p+2k = q.$$
+
+Skaitlis $p+k$ nav pirmskaitlis, jo atrodas starp diviem viens otram sekojošiem 
+pirmskaitļiem; tātad to var sadalīt divu naturālu skaitļu reizinājumā.
 
 
 
@@ -2197,7 +2476,7 @@ Vai $(n-1)!$ dalās ar $n$, ja
 **(A)** Jā, jo $16=2 \cdot 8$ un $15!$ satur abus šos reizinātājus.  
 **(B)** Nē, jo 41 ir pirmskaitlis, bet $40!$ nesatur pirmreizinātājus, lielākus par $40$.  
 **(C)** Jā, jo $1991=11 \cdot 181$.  
-**(D)** Nē, jo 1993 ir pirmskaitlis.  
+**(D)** Nē, jo 1993 ir pirmskaitlis.
 
 
 
