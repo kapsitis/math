@@ -79,7 +79,12 @@ Atrast funkcijas $y=\sin^{4} x$ otro atvasinājumu $y'’$.
 
 
 **3.uzd.**  
-Atrast $y_{x}^{\prime}$, ja $\left\{\begin{array}{l}x=2^{t}-\sin t^{3} \\ y=\cos t-e^{3 t}\end{array}\right.$
+Atrast $y_{x}^{\prime}$, ja 
+
+$$\left\{\begin{array}{l} 
+x=2^{t}-\sin t^{3} \\ 
+y=\cos t-e^{3 t} \\
+\end{array}\right.$$
 
 
 **4.uzd.** 
