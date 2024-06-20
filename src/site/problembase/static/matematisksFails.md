@@ -60,8 +60,14 @@ $$\left(\begin{array}{ll}
 
 **4.uzd.**  
 Aprēķināt $A^{T}-2D$, ja 
-${\displaystyle A=\left(\begin{array}{cc}2 & 4 \\ 3 & 1 \\ -1 & 2\end{array}\right)}$, 
-${\displaystyle D=\left(\begin{array}{ccc}-3 & 5 & 4 \\ 1 & -2 & 8\end{array}\right)}$
+$A=\left( \begin{array}{cc} 
+2 & 4 \\ 
+3 & 1 \\ 
+-1 & 2 \end{array} \right)$, 
+$D = \left( \begin{array}{ccc}
+-3 & 5 & 4 \\ 
+1 & -2 & 8
+\end{array} \right)$
 
 ## 12. variants
 
