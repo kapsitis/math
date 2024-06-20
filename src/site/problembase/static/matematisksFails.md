@@ -68,9 +68,9 @@ ${\displaystyle D=\left(\begin{array}{ccc}-3 & 5 & 4 \\ 1 & -2 & 8\end{array}\ri
 **13.uzd.**   
 Atrast doto funkciju atvasinājumus $y$,
 
-1. ${\displaystyle y=\frac{\operatorname{tg} 2x}{x^{5}}}$
+1. ${\displaystyle y=\frac{\mbox{tg} 2x}{x^{5}}}$
 2. ${\displaystyle y=6 \sqrt{x}+\frac{20}{\sqrt[5]{x}}-\sqrt{\pi}}$
-3. $y=4^{3 x} \cdot \operatorname{tg}\left(\ln ^{3} x\right)$
+3. $y=4^{3 x} \cdot \mbox{tg}\left(\ln ^{3} x\right)$
 4. $y=\left(3x^{2} - 2x^{3} + 6x-12 \right)^{7}$
 5. $y=\frac{\ln \left(3x-4x^{3}\right)}{\sqrt[4]{2x}}$
 
@@ -83,7 +83,7 @@ Atrast $y_{x}^{\prime}$, ja $\left\{\begin{array}{l}x=2^{t}-\sin t^{3} \\ y=\cos
 
 
 **4.uzd.** 
-Atrast $y^{\prime \prime}{ }_{xx}$, ja
+Atrast $y^{\prime\prime}_{xx}$, ja
 
 $$\left\{\begin{array}{l}
 x=5^{-t} \\
