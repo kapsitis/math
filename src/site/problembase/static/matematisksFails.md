@@ -96,13 +96,12 @@ y=\cos t-e^{3 t} \\
 **4.uzd.** 
 Atrast $y^{\prime\prime}_{xx}$, ja
 
-$$\left\{\begin{array}{l}
+$$\left\{ \begin{array}{l}
 x=5^{-t} \\
 y=5^{4 t}
-\end{array}\right.$$
+\end{array} \right.$$
 
 **5.uzd.**  
 Atrast $y^{\prime}$, ja $y=f(x)$
 
 $$\ln (2x-y) + \frac{4y}{x^{2}} + y^{5}=0$$
-
