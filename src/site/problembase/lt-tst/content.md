@@ -6,37 +6,47 @@ Atrodiet visus veselu pozitīvu skaitļu trijniekus $(x, y, z)$, kas apmierina v
 Raskite visus sveikųjų teigiamų skaičių trejetus $(x, y, z)$, tenkinančius lygybę $1 + 4^x + 4^y = z^2$.
 </text>
 
-<!--
-questionType=FindAll
--->
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 
 # <lo-sample/> LT.TST.2009.12.1
 
 Dots vienādojums
+
 $$x^3 + x^2 = 2^y + 16.$$
-**(a)** Atrodiet kādu vienu šī vienādojuma naturālu atrisinājumu $x$ un $y$ pāri $(x;y)$  
-**(b)** Atrodiet visus pārējos
-šī vienādojuma naturālo risinājumu pārus $(x;y)$
+
+**(A)** Atrodiet kādu vienu šī vienādojuma naturālu atrisinājumu $x$ un $y$ pāri $(x;y)$  
+**(b)** Atrodiet visus pārējos šī vienādojuma naturālo risinājumu pārus $(x;y)$
 $(x; y)$, ja tādi ir, vai pierādiet, ka citu atrisinājumu nav. 
 
 <text lang="lt">
 Duota lygtis
+
 $$x^3 + x^2 = 2^y + 16.$$
-**(a)** Nurodykite kokią nors vieną tos lygties sveikujų 
+
+**(A)** Nurodykite kokią nors vieną tos lygties sveikujų 
 teigiamų sprendinių $x$ ir $y$ porą $(x; y)$;  
-**(b)** Raskite visas (likusias)
+
+**(B)** Raskite visas (likusias)
 tos lygties sveikųjų teigiamų sprendinių poras
 $(x; y)$, jeigu jų apskritai esama, arba įrodykite, 
 kad daugiau (jokių) sprendinių nėra.
 </text>
 
+<small>
 
-<!--
-questionType=FindExample,FindAll
--->
+* questionType:FindExample,FindAll
+* domain:NT
+
+</small>
+
 
 
 
@@ -62,10 +72,15 @@ x^5 + y^5 = u^5 + 12.
 \right.$$
 </text>
 
+<small>
 
-<!--
-questionType=FindAll
--->
+* questionType:FindAll
+* domain:NT
+
+</small>
+
+
+
 
 
 
@@ -89,9 +104,12 @@ $$\left( 1 - \frac{1}{s_1} \right)
 Kokia yra mažiausia galima $n$ reikšmė?
 </text>
 
-<!--
-questionType=FindOptimal
--->
+<small>
+
+* questionType:FindOptimal
+* domain:Alg
+
+</small>
 
 
 
@@ -102,9 +120,9 @@ Kopu $S(m,n)$ veido visi polinomi $P(x)$,
 kuru koeficienti pieder kopai 
 $\{ 0,1,2,\ldots,m^2 − 1\}$, kas apmierina nosacījumu $P(m) = n$.
 Atrodiet kopas $S(m,n)$ elementu skaitu, ja  
-**(a)** $n = 10m$;  
-**(b)** $n = m^2$;  
-**(c)** $n$ ir jebkāds naturāls skaitlis.
+**(A)** $n = 10m$;  
+**(B)** $n = m^2$;  
+**(C)** $n$ ir jebkāds naturāls skaitlis.
 
 
 <text lang="lt">
@@ -113,14 +131,19 @@ Aibę $S(m,n)$ sudaro visi daugianariai $P(x)$,
 kurių koeficientai priklauso aibei 
 $\{ 0,1,2,\ldots,m^2 − 1\}$, tenkinantys sąlygą $P(m) = n$.
 Raskite aibės $S(m,n)$ elementų skaičių, kai  
-**(a)** $n = 10m$;  
-**(b)** $n = m^2$;  
-**(c)** $n$ yra bet koks natūralusis skaičius.
+**(A)** $n = 10m$;  
+**(B)** $n = m^2$;  
+**(C)** $n$ yra bet koks natūralusis skaičius.
 </text>
 
-<!--
-questionType=FindCount
--->
+<small>
+
+* questionType:FindCount,FindCount,FindCount
+* domain:NT
+
+</small>
+
+
 
 
 
@@ -145,25 +168,30 @@ lentoje liks užrašytos visos įmanomos dviejų skaitmenų
 kombinacijos $00,01,\ldots,98,99$?
 </text>
 
-<!--
-questionType=ProveDisprove
--->
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
+
 
 
 
 # <lo-sample/> LT.TST.2012.12.4
 
-Ikvienam veselajam skaitlim $m$ lielāko vesela skaitļa kubu, 
-kas nepārsniedz $m$, apzīmējam $f(m)$. 
+Ikvienam veselam skaitlim $m$ lielāko vesela skaitļa kubu, 
+kas nepārsniedz $m$, apzīmējam ar $f(m)$. 
 Piemēram, $f(26) = 8$ un $f(27) = 27$. 
 Dota naturālu skaitļu virkne 
 $a_1,a_2,a_3,\ldots$, kur $a_{n+1} = 3a_n − 2f(a_n)$ 
 katram $n > 1$.  
-**(a)** Atrodiet kaut vienu pirmā skaitļa $a_1$ 
+**(A)** Atrodiet kaut vienu pirmā skaitļa $a_1$ 
 vērtību intervālā $[2012,3000]$, kam eksistē 
 tāds skaitlis $M$ (atkarīgs tikai no $a_1$), 
 ka $a_n \leq M$ jebkuram $n \geq 1$.  
-**(b)** Atrodiet visas iespējamās naturālās pirmā locekļa vērtības 
+**(B)** Atrodiet visas iespējamās naturālās pirmā locekļa vērtības 
 $a_1$, kurām eksistē tāds skaitlis $M$ 
 (atkarīgs tikai no $a_1$), ka $a_n \leq M$ jebkuram 
 $n \geq 1$.
@@ -175,19 +203,24 @@ pažymėkime $f(m)$. Pavyzdžiui, $f(26) = 8$ ir $f(27) = 27$.
 Duota natūraliųjų skaičių
 seka $a_1,a_2,a_3,\ldots$, kur $a_{n+1} = 3a_n − 2f(a_n)$ 
 su kiekvienu $n > 1$.  
-**(a)** Raskite bent vieną pirmojo nario $a_1$ 
+**(A)** Raskite bent vieną pirmojo nario $a_1$ 
 reikšmę intervale $[2012,3000]$, kuriai egzistuoja 
 toks skaičius $M$ (priklausantis tik nuo $a_1$), 
 kad $a_n \leq M$ kiekvienam $n \geq 1$.  
-**(b)** Raskite visas galimas natūraliąsias pirmojo nario 
+**(B)** Raskite visas galimas natūraliąsias pirmojo nario 
 $a_1$ reikšmes, kurioms egzistuoja toks skaičius $M$ 
 (priklausantis tik nuo $a_1$), kad $a_n \leq M$ kiekvienam 
 $n \geq 1$.
 </text>
 
-<!--
-questionType=FindExample,FindAll
--->
+<small>
+
+* questionType:FindExample,FindAll
+* domain:Alg
+
+</small>
+
+
 
 
 
@@ -198,9 +231,9 @@ apakškopās $A_1,A_2,\ldots,A_k$ tā, ka
 fiksētam naturālam skaitlim $n \geq 15$ 
 jebkurā no šīm $k$ apakškopām atradīsies divi dažādi skaitļi, 
 kuru summa vienāda ar $n$.  
-**(a)** Pierādīt, ka naturālo skaitļu kopu var sadalīt 
+**(A)** Pierādīt, ka naturālo skaitļu kopu var sadalīt 
 trīs šādās apakškopās.  
-**(b)** Pierādīt, ka naturālu skaitļu kopu nevar sadalīt $k$
+**(B)** Pierādīt, ka naturālu skaitļu kopu nevar sadalīt $k$
 tādās apakškopās, ja $k \geq 4$. 
 
 <text lang="lt">
@@ -209,16 +242,21 @@ poaibių $A_1,A_2,\ldots,A_k$ taip, kad
 koks bebūtų natūralusis skaičius $n \geq 15$, 
 kiekviename iš tų $k$ poaibių atsiras du
 skirtingi skaičiai, kurių suma lygi $n$.  
-**(a)** Įrodykite, kad natūraliųjų skaičių aibę 
+**(A)** Įrodykite, kad natūraliųjų skaičių aibę 
 galima padalyti į tris tokius poaibius.  
-**(b)** Įrodykite, kad natūraliųjų skaičių aibės 
+**(B)** Įrodykite, kad natūraliųjų skaičių aibės 
 negalima padalyti į $k$ tokių poaibių, jei
 $k \geq 4$.
 </text>
 
-<!--
-questionType=Prove,Prove
--->
+<small>
+
+* questionType:Prove,Prove
+* domain:Alg
+
+</small>
+
+
 
 
 
@@ -228,24 +266,28 @@ Naturāli skaitļi $a$, $b$, $c$ un $d$ ir tādi,
 ka $ac + bd$ dalās ar $a^2 + b^2$.
 Vai skaitļu $a^2 + b^2$ un 
 $c^2 + d^2$ lielākais kopīgais dalītājs var būt vienāds ar:  
-**(a)** $1$?  
-**(b)** $3$?  
-**(c)** $74$?
+**(A)** $1$?  
+**(B)** $3$?  
+**(C)** $74$?
 
 <text lang="lt">
 Natūralieji skaičiai $a$,$b$,$c$ ir $d$ yra tokie, 
 kad $ac + bd$ dalijasi iš $a^2 + b^2$.
 Ar gali skaičių $a^2 + b^2$ ir 
 $c^2 + d^2$ didžiausias bendras daliklis būti lygus:  
-**(a)** $1$?  
-**(b)** $3$?  
-**(c)** $74$?
+**(A)** $1$?  
+**(B)** $3$?  
+**(C)** $74$?
 </text>
 
 
-<!--
-questionType=ProveDisprove
--->
+<small>
+
+* questionType:ProveDisprove,ProveDisprove,ProveDisprove
+* domain:NT
+
+</small>
+
 
 
 
@@ -263,9 +305,13 @@ jei $P(m)$ yra sveikasis skaičius,
 tai ir $m$ yra sveikasis skaičius.
 </text>
 
-<!--
-questionType=FindAll
--->
+<small>
+
+* questionType:FindAll
+* domain:Alg
+
+</small>
+
 
 
 
@@ -276,9 +322,9 @@ bet $n$ – naturāls skaitlis, sauksim par *pilnīgu*, ja
 $$\sqrt{x} + \sqrt{y} + \sqrt{z} = 1$$
 un $\sqrt{x + n} + \sqrt{y + n} + \sqrt{z + n}$ 
 ir vesels skaitlis.  
-**(a)** Atrodiet kaut vienu pilnīgu četrinieku $(x,y,z,n)$, 
+**(A)** Atrodiet kaut vienu pilnīgu četrinieku $(x,y,z,n)$, 
 kurā $n > 2013$.  
-**(b)** Atrodiet visus pilnīgos četriniekus $(x,y,z,n)$.
+**(B)** Atrodiet visus pilnīgos četriniekus $(x,y,z,n)$.
 
 
 <text lang="lt">
@@ -288,15 +334,19 @@ skaičius, vadinsime {\em tobulu}, jei
 $$\sqrt{x} + \sqrt{y} + \sqrt{z} = 1$$
 ir $\sqrt{x + n} + \sqrt{y + n} + \sqrt{z + n}$ 
 yra sveikasis skaičius.  
-**(a)** Raskite bent vieną tobulą ketvertą $(x,y,z,n)$, 
+**(A)** Raskite bent vieną tobulą ketvertą $(x,y,z,n)$, 
 kuriame $n > 2013$.  
-**(b)** Raskite visus tobulus ketvertus $(x,y,z,n)$.
+**(B)** Raskite visus tobulus ketvertus $(x,y,z,n)$.
 </text>
 
 
-<!--
-questionType=FindExample,FindAll
--->
+<small>
+
+* questionType:FindExample,FindAll
+* domain:Alg
+
+</small>
+
 
 
 
@@ -305,25 +355,29 @@ questionType=FindExample,FindAll
 
 Galīgai kopai $A$ piemīt tāda īpašība: jebkuru 
 $6$ tās dažādu elementu summa nedalās ar $6$.  
-**(a)** Atrodiet kaut vienu tādu kopu $A$,
+**(A)** Atrodiet kaut vienu tādu kopu $A$,
 ko veido $10$ atšķirīgi naturāli skaitļi.   
-**(b)** vai eksistē tāda kopa $A$, ko 
-veido $11$ dažādi naturāli skaitļi.?
+**(B)** Vai eksistē tāda kopa $A$, ko 
+veido $11$ dažādi naturāli skaitļi?
 
 <text lang="lt">
 Baigtinė aibė $A$ pasižymi tokia savybe: bet kurių 
 $6$ skirtingų jos elementų suma nesidalija iš $6$.  
-**(a)** Raskite bent vieną tokią aibę $A$, 
+**(A)** Raskite bent vieną tokią aibę $A$, 
 sudarytą iš $10$ skirtingų natūraliųjų
 skaičių.  
-**(b)** Ar egzistuoja tokia aibė $A$, 
+**(B)** Ar egzistuoja tokia aibė $A$, 
 sudaryta iš $11$ skirtingų natūraliųjų
 skaičių?
 </text>
 
-<!--
-questionType=FindExample,ProveDisprove
--->
+<small>
+
+* questionType:FindExample,ProveDisprove
+* domain:NT
+
+</small>
+
 
 
 
@@ -346,9 +400,13 @@ paskutinis skaitmuo yra $6$, o kitų skaitmenų
 suma yra lygi $3$?
 </text>
 
-<!--
-questionType=ProveDisprove
--->
+<small>
+
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
+
+</small>
+
 
 
 
@@ -359,11 +417,11 @@ questionType=ProveDisprove
 Doti reāli skaitļi $x$ un $y$. 
 Apzīmēsim $s_1 = x + y$, $s_2 = x^2 + y^2$,
 $s_3 = x^3 + y^3$, $s_4 = x^4 + y^4$ un $t = xy$.  
-**(a)** Pierādīt, ka $t$ ir racionāls, ja 
+**(A)** Pierādīt, ka $t$ ir racionāls, ja 
 $s_2$, $s_3$ un $s_4$ ir racionāli skaitļi.  
-**(b)** pierādīt, ka skaitlis $s_1$ ir racionāls, 
+**(B)** Pierādīt, ka skaitlis $s_1$ ir racionāls, 
 ja $s_2$,$s_3$ un $s_4$ ir racionāli skaitļi.  
-**(c)** Vai skaitlis $s_1$ var būt iracionāls, ja 
+**(C)** Vai skaitlis $s_1$ var būt iracionāls, ja 
 $s_2$ un $s_3$ ir iracionāli skaitļi?  
 (Reālu skaitli $r$ sauc par *racionālu*, 
 ja to var uzrakstīt kā divu veselu skaitļu $p$ ir $q$ attiecību
@@ -376,11 +434,11 @@ $\sqrt{5}$.)
 Duoti realieji skaičiai $x$ ir $y$. 
 Pažymėkime $s_1 = x + y$, $s_2 = x^2 + y^2$,
 $s_3 = x^3 + y^3$, $s_4 = x^4 + y^4$ ir $t = xy$.  
-**(a)** Įrodykite, kad skaičius $t$ yra racionalusis, jei 
+**(A)** Įrodykite, kad skaičius $t$ yra racionalusis, jei 
 $s_2$, $s_3$ ir $s_4$ yra racionalieji skaičiai.  
-**(b)** Įrodykite, kad skaičius $s_1$ yra racionalusis, 
+**(B)** Įrodykite, kad skaičius $s_1$ yra racionalusis, 
 jei $s_2$,$s_3$ ir $s_4$ yra racionalieji skaičiai.  
-**(c)** Ar skaičius $s_1$ gali būti iracionalusis, 
+**(C)** Ar skaičius $s_1$ gali būti iracionalusis, 
 jei $s_2$ ir $s_3$ yra racionalieji skaičiai?  
 (Realusis skaičius $r$ yra vadinamas *racionaliuoju*, 
 jei jį galima užrašyti dviejų sveikųjų skaičių $p$ ir $q$ santykiu
@@ -391,9 +449,13 @@ jis yra vadinamas *iracionaliuoju*, pavyzdžiui,
 $\sqrt{5}$.)
 </text>
 
-<!--
-questionType=Prove,ProveDisprove
--->
+<small>
+
+* questionType:Prove,Prove,ProveDisprove
+* domain:Alg
+
+</small>
+
 
 
 
@@ -414,9 +476,13 @@ natūraliuosius sprendinius $(a,b,c)$.
 pavyzdžiui, $4! = 1 \cdot 2 \cdot 3 \cdot 4 = 24$.)
 </text>
 
-<!--
-questionType=FindAll
--->
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
 
 
 
@@ -425,12 +491,14 @@ questionType=FindAll
 
 Kopas $A$ un $B$ ir naturālo skaitļu kopas 
 $\{ 1,2,3,\ldots \}$ apakškopas, kam piemīt šādas
-divas īpašības:  
-**(a)** Jebkuru divu dažādu kopas $A$ elementu $x$ un 
-$y$ summa $x+y$ pieder kopai $B$.   
-**(b)** Jekburu divu dažādu kopas $B$ elementu $z$ un $t$
-attiecība $\frac{z}{t}$ (lielāko skaitli $z$ dalot ar 
-mazāko $t$) pieder kopai $A$.  
+divas īpašības:
+
+a. Jebkuru divu dažādu kopas $A$ elementu $x$ un 
+   $y$ summa $x+y$ pieder kopai $B$.   
+b. Jekburu divu dažādu kopas $B$ elementu $z$ un $t$
+   attiecība $\frac{z}{t}$ (lielāko skaitli $z$ dalot ar 
+   mazāko $t$) pieder kopai $A$.  
+
 Kāds ir lielākais iespējamais elementu skaits kopu apvienojumā  $A \cup B$?
 (Kopu $A \cup B$ veido elementi, kuri pieder vismaz vienai 
 no kopām $A$ un $B$.)
@@ -438,21 +506,26 @@ no kopām $A$ un $B$.)
 <text lang="lt">
 Aibės $A$ ir $B$ yra natūraliųjų skaičių aibės 
 $\{ 1,2,3,\ldots \}$ poaibiai, pasižymintys 
-tokiomis dviem savybėmis:  
-**(a)** Bet kurių dviejų skirtingų aibės $A$ elementų 
-$x$ ir $y$ suma $x + y$
-priklauso aibei $B$.  
-**(b)** Bet kurių dviejų skirtingų aibės $B$ elementų 
-$z$ ir $t$ santykis $\frac{z}{t}$ (didesnį
-skaičių $z$ dalijant iš mažesnio $t$) priklauso aibei $A$.  
+tokiomis dviem savybėmis:
+
+a. Bet kurių dviejų skirtingų aibės $A$ elementų 
+   $x$ ir $y$ suma $x + y$ priklauso aibei $B$.  
+b. Bet kurių dviejų skirtingų aibės $B$ elementų 
+   $z$ ir $t$ santykis $\frac{z}{t}$ (didesnį
+   skaičių $z$ dalijant iš mažesnio $t$) priklauso aibei $A$.  
+
 Kiek daugiausiai elementų gali turėti aibių sąjunga $A \cup B$?
 (Aibę $A \cup B$ sudaro elementai, priklausantys bent 
 vienai iš dviejų aibių $A$ ir $B$.)
 </text>
 
-<!--
-questionType=FindOptimal
--->
+<small>
+
+* questionType:FindOptimal
+* domain:Alg
+
+</small>
+
 
 
 
@@ -469,9 +542,14 @@ $$4^a \cdot 5^b − 3^c \cdot 11^d = 1$$
 natūraliuosius sprendinius $(a,b,c,d)$.
 </text>
 
-<!--
-questionType=FindAll
--->
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
+
 
 
 
@@ -481,7 +559,7 @@ questionType=FindAll
 Kopu, ko veido $m > 2$ naturāli skaitļi, sauksim par *vienkāršu*, ja 
 jebkuri divi šīs kopas elementi ir savstarpēji pirmskaitļi. 
 Atrodiet mazāko naturālo $n$, ka jebkurai vienkāršai kopai, kas ir kopas
-$S = \{1, 2, . . . , 2017\}$ apakškopa un kurā ir tieši $n$ elementu, noteikti
+$S = \{1, 2, \ldots, 2017\}$ apakškopa un kurā ir tieši $n$ elementu, noteikti
 pieder kaut viens pirmskaitlis.
 
 
@@ -489,13 +567,18 @@ pieder kaut viens pirmskaitlis.
 Aibę, sudarytą iš $m > 2$ natūraliųjų skaičių, vadiname *paprasta*, jei bet
 kurie du tos aibės elementai yra tarpusavyje pirminiai skaičiai. Raskite
 mažiausią natūralųjį skaičių $n$, kad bet kuriai paprastai aibei, kuri yra
-aibės $S = \{1, 2, . . . , 2017\}$ poaibis ir kuri turi lygiai $n$ elementų, visada
+aibės $S = \{1, 2, \ldots, 2017\}$ poaibis ir kuri turi lygiai $n$ elementų, visada
 priklausytų bent vienas pirminis skaičius.
 </text>
 
-<!--
-questionType=FindOptimal
--->
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+
+</small>
+
+
 
 
 
@@ -509,8 +592,8 @@ $a_0,a_1,\ldots,a_n$ un $b_0,b_1,\ldots,b_n$
 ikviens vesels skaitlis ir sastopams vienādu skaitu reižu.
 Polinomi ar veseliem koeficientiem $P(x)$ un $Q(x)$ ir līdzīgi un
 $P(16) = 3^{2012}$.  
-**(a)** Pierādiet, ka $Q(3^{2012}) \neq 0$.  
-**(b)** Atrodiet mazāko iespējamo izteiksmes $|Q(3^{2012}|$ vērtību.
+**(A)** Pierādiet, ka $Q(3^{2012}) \neq 0$.  
+**(B)** Atrodiet mazāko iespējamo izteiksmes $|Q(3^{2012}|$ vērtību.
 
 
 <text lang="lt">
@@ -521,13 +604,17 @@ $a_0,a_1,\ldots,a_n$ ir $b_0,b_1,\ldots,b_n$
 kiekvienas sveikasis skaičius sutinkamas po tiek pat kartų.
 Daugianariai su sveikaisiais koeficientais $P(x)$ ir $Q(x)$ yra panašieji ir
 $P(16) = 3^{2012}$.  
-**(a)** Įrodykite, kad $Q(3^{2012}) \neq 0$.  
-**(b)** Raskite mažiausią galimą $|Q(3^{2012}|$ reikšmę.
+**(A)** Įrodykite, kad $Q(3^{2012}) \neq 0$.  
+**(B)** Raskite mažiausią galimą $|Q(3^{2012}|$ reikšmę.
 </text>
 
-<!--
-questionType=Prove,FindOptimal
--->
+<small>
+
+* questionType:Prove,FindOptimal
+* domain:Alg
+
+</small>
+
 
 
 
@@ -535,11 +622,11 @@ questionType=Prove,FindOptimal
 # <lo-sample/> LT.TST.2017.12.4
 
 Doti pirmskaitļi $p > q$ un naturāli skaitļi $k,\ell$. Kopu $A$ veido
-visi ntaurālie skaitļi $n$, kuriem $p^kq^{\ell}n$ dalās ar $p + n$.  
-**(a)** Pierādiet, ka $|A| \geq 1$.  
-**(b)** Pierādiet, ka $|A| \geq k\ell + k + \ell$.  
-**(c)** Pierādiet, ka $|A| \leq k\ell + k + 2\ell − 1$.  
-**(d)** Vai eksistē pirmskaitļu pāris $p > q$, kuram $|A| = 127$, kad
+visi naturālie skaitļi $n$, kuriem $p^kq^{\ell}n$ dalās ar $p + n$.  
+**(A)** Pierādiet, ka $|A| \geq 1$.  
+**(B)** Pierādiet, ka $|A| \geq k\ell + k + \ell$.  
+**(C)** Pierādiet, ka $|A| \leq k\ell + k + 2\ell − 1$.  
+**(D)** Vai eksistē pirmskaitļu pāris $p > q$, kuram $|A| = 127$, kad
 $k = \ell = 10$?  
 (Šeit $|A|$ apzīmē kopas $A$ elementu skaitu.)
 
@@ -547,17 +634,22 @@ $k = \ell = 10$?
 <text lang="lt">
 Duoti pirminiai skaičiai $p > q$ ir natūralieji skaičiai $k,\ell$. Aibę $A$ sudaro
 visi natūralieji skaičiai $n$, su kuriais $p^kq^{\ell}n$ dalijasi iš $p + n$.  
-**(a)** Įrodykite, kad $|A| \geq 1$.  
-**(b)** Įrodykite, kad $|A| \geq k\ell + k + \ell$.  
-**(c)** Įrodykite, kad $|A| \leq k\ell + k + 2\ell − 1$.  
-**(d)** Ar egzistuoja pirminių skaičių pora $p > q$, su kuria $|A| = 127$, kai
+**(A)** Įrodykite, kad $|A| \geq 1$.  
+**(B)** Įrodykite, kad $|A| \geq k\ell + k + \ell$.  
+**(C)** Įrodykite, kad $|A| \leq k\ell + k + 2\ell − 1$.  
+**(D)** Ar egzistuoja pirminių skaičių pora $p > q$, su kuria $|A| = 127$, kai
 $k = \ell = 10$?  
 (Čia $|A|$ žymi aibės $A$ elementų skaičių.)
 </text>
 
-<!--
-questionType=Prove,ProveDisprove
--->
+<small>
+
+* questionType:Prove,Prove,Prove,ProveDisprove
+* domain:NT
+
+</small>
+
+
 
 
 
@@ -572,8 +664,8 @@ ir naturāli. (Piemēram, skaitlis $n = 1$
 nav veiksmīgs, jo $a_1$ un $\frac{1}{a_1}$
 abi ir naturāli tad un tikai tad, kad 
 $a_1 = 1$. Skaitļiem $a_1,\ldots,a_n$ nav noteikti jābūt dažādiem.)  
-**(a)** Pierādiet, ka skaitlis $n = 2$ nav veiksmīgs.  
-**(b)** Pierādiet, ka jebkurš naturāls skaitlis $n \geq 3$ ir veiksmīgs.
+**(A)** Pierādiet, ka skaitlis $n = 2$ nav veiksmīgs.  
+**(B)** Pierādiet, ka jebkurš naturāls skaitlis $n \geq 3$ ir veiksmīgs.
 
 
 <text lang="lt">
@@ -585,15 +677,20 @@ yra natūralieji. (Pavyzdžiui, skaičius $n = 1$
 nėra sėkmingas, nes $a_1$ ir $\frac{1}{a_1}$
 abu yra natūralieji tada ir tik tada, kai
 $a_1 = 1$. Skaičiai $a_1,\ldots,a_n$ nebūtinai skirtingi.)  
-**(a)** Įrodykite, kad skaičius $n = 2$ nėra sėkmingas.  
-**(b)** Įrodykite, kad kiekvienas natūralusis skaičius $n \geq 3$ yra sėkmingas.
+**(A)** Įrodykite, kad skaičius $n = 2$ nėra sėkmingas.  
+**(B)** Įrodykite, kad kiekvienas natūralusis skaičius $n \geq 3$ yra sėkmingas.
 </text>
 
-<!--
-genre=special-numbers
-questionType=Prove,Prove
-seeAlso=IMO.SHL.2017.N6
--->
+<small>
+
+* questionType:Prove,Prove
+* domain:NT
+* genre:SpecialNumbers
+* seeAlso:IMO.SHL.2017.N6
+
+</small>
+
+
 
 
 
@@ -613,9 +710,14 @@ vienetų skaitmuo. (Pavyzdžiui, skaičiaus $27,83$ vienetų skaitmuo yra $7$,
 o skaičiaus $\pi = 3,14\ldots$ vienetų skaitmuo yra $3$.)
 </text>
 
-<!--
-questionType=FindAll
--->
+<small>
+
+* questionType:FindAll
+* domain:Alg
+
+</small>
+
+
 
 
 
@@ -626,8 +728,8 @@ bet tad definēja jaunu virkni $b_1, b_2, b_3,\ldots$ ar šādām vienādībām:
 $$b_1 = a_1,\;\;b_2 = a_2, b_n = a_nb_{n-1} + b_{n-2}\;\;\text{visiem}\;\;n > 3.$$
 Vai Mīkolas varēja izvēlēties sākotnējo virkni $a_1, a_2, a_3,\ldots$ tā, 
 ka jebkurš no skaitļiem $b_1, b_2, b_3, \ldots$ būtu  
-**(a)** naturāla skaitļa kvadrāts?  
-**(b)** naturāla skaitļa kubs?
+**(A)** naturāla skaitļa kvadrāts?  
+**(B)** naturāla skaitļa kubs?
 
 <text lang="lt">
 Mykolas sugalvojo natūraliųjų skaičių seką $a_1,a_2,a_3,\ldots$, 
@@ -635,13 +737,17 @@ o tada apibrėžė naują seką $b_1, b_2, b_3,\ldots$ tokiomis lygybėmis:
 $$b_1 = a_1,\;\;b_2 = a_2, b_n = a_nb_{n-1} + $b_{n-2}\;\;\text{visiems}\;\;n > 3.$$
 Ar galėjo Mykolas pradinę seką $a_1, a_2, a_3,\ldots$ parinkti taip, 
 kad kiekvienas iš skaičių $b_1, b_2, b_3, \ldots$ būtų  
-**(a)** natūraliojo skaičiaus kvadratas?  
-**(b)** natūraliojo skaičiaus kubas?
+**(A)** natūraliojo skaičiaus kvadratas?  
+**(B)** natūraliojo skaičiaus kubas?
 </text>
 
-<!--
-questionType=ProveDisprove
--->
+<small>
+
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
+
+</small>
+
 
 
 
@@ -651,21 +757,25 @@ questionType=ProveDisprove
 Naturālu skaitli $n$ sauksim par *piecīgu*, ja tam ir 
 tādi pieci dažādi pozitīvi dalītāji, kuru ceturto pakāpju summa vienāda ar $n$. 
 (Skaitļi $1$ un $n$ arī ir  skaitļa $n$ dalītāji.)  
-**(a)** Pierādiet, ka piecīgs skaitlis vienmēr dalās ar $5$.  
-**(b)** Noskaidrojiet, vai ir bezgalīgi daudz piecīgu naturālu skaitļu.
+**(A)** Pierādiet, ka piecīgs skaitlis vienmēr dalās ar $5$.  
+**(B)** Noskaidrojiet, vai ir bezgalīgi daudz piecīgu naturālu skaitļu.
 
 <text lang="lt">
 Natūralųjį skaičių $n$ vadinsime *penkiadaliu*, jei jis turi 
 tokius penkis skirtingus teigiamus daliklius, kurių ketvirtųjų 
 laipsnių suma lygi $n$. (Skaičiai $1$ ir $n$ taip pat yra skaičiaus $n$ dalikliai.)  
-**(a)** Įrodykite, kad penkiadalis skaičius visada dalijasi iš $5$.  
-**(b)** Nustatykite, ar yra be galo daug penkiadalių natūraliųjų skaičių.
+**(A)** Įrodykite, kad penkiadalis skaičius visada dalijasi iš $5$.  
+**(B)** Nustatykite, ar yra be galo daug penkiadalių natūraliųjų skaičių.
 </text>
 
-<!--
-genre=special-numbers
-questionType=Prove,ProveDisprove
--->
+<small>
+
+* questionType:Prove,ProveDisprove
+* domain:NT
+* genre:SpecialNumbers
+
+</small>
+
 
 
 
@@ -676,7 +786,7 @@ questionType=Prove,ProveDisprove
 
 1. Gadījumu pārlase (atkarībā no dalītāju dalāmības ar $5$)
 2. Konstruēšana pa daļām (pārbaudām $n^4$ atlikumus pēc nelieliem moduļiem $m$,
-meklējam $5$ dalītāju kombinācijas, kas nerada pretrunu pēc moduļa $m$; tad tās apvienojam).
+   meklējam $5$ dalītāju kombinācijas, kas nerada pretrunu pēc moduļa $m$; tad tās apvienojam).
 
 
 

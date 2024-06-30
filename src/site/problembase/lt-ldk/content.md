@@ -182,27 +182,31 @@ $n$ satisfying $D(n) < n$.
 Ar $\mbox{LKD}(\ldots)$ apzīmē skaitļu
 $(\ldots)$ lielāko kopīgo dalītāju. 
 Naturāli skaitļi $a,b,c$ apmierina četrus nosacījumus:
+
 $$\begin{array}{rcl}
 \mbox{LKD}(a, b, c) & = & 1, \\
 \mbox{LKD}(a, b + c) & > & 1, \\
 \mbox{LKD}(b, c + a) & > & 1, \\
 \mbox{LKD}(c, a + b) & > & 1. \\
 \end{array}$$
-a) Vai ir iespējams, ka $a + b + c = 2015$?  
-b) Noteikt mazāko iespējamo vērtību summai $a+b+c$.
+
+**(A)** Vai ir iespējams, ka $a + b + c = 2015$?  
+**(B)** Noteikt mazāko iespējamo vērtību summai $a+b+c$.
 
 <text lang="en">
 We denote by $\mbox{gcd}(\ldots)$ the greatest common divisor of the numbers in
 $(\ldots)$. (For example, $\mbox{gcd}(4, 6, 8)=2$ and $\mbox{gcd}(12, 15)=3$.) Suppose that
 positive integers $a,b,c$ satisfy the following four conditions:
+
 $$\begin{array}{rcl}
 gcd(a, b, c) & = & 1, \\
 gcd(a, b + c) & > & 1, \\
 gcd(b, c + a) & > & 1, \\
 gcd(c, a + b) & > & 1. \\
 \end{array}$$
-a) Is it possible that $a + b + c = 2015$?  
-b) Determine the minimum possible value that the sum $a+b+c$ can
+
+**(A)** Is it possible that $a + b + c = 2015$?  
+**(B)** Determine the minimum possible value that the sum $a+b+c$ can
 take.
 </text>
 

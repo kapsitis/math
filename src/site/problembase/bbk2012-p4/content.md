@@ -3,22 +3,30 @@
 Atrisināt naturālos skaitļos vienādojumu
 $x^2 + 8z = 2y^2 + 3$.
 
-<!--
-sameAs=LV.OTHER.TST.1978.9.3
--->
+<small>
+
+* questionType:FindAll
+* domain:NT
+* sameAs:LV.OTHER.TST.1978.9.3
+
+</small>
 
 
 
 # <lo-sample/> BBK2012.P4.48
 
-Skaitļa $1982^{1982} +1$ ciparu summa ir $A$. 
+Skaitļa $1982^{1982}+1$ ciparu summa ir $A$. 
 Skaitļa $A$ ciparu summa ir $B$. Skaitļa  $B$
 ciparu summa ir $C$. Skaitļa $C$ ciparu summa ir $D$. 
 Atrast $D$.
 
-<!--
-sameAs=LV.OTHER.TST.1982.10.1
--->
+<small>
+
+* questionType:FindAll
+* domain:NT
+* sameAs:LV.OTHER.TST.1982.10.1
+
+</small>
 
 
 
@@ -27,9 +35,15 @@ sameAs=LV.OTHER.TST.1982.10.1
 Kādiem pirmskaitļiem $p$ skaitlis
 $2^p + p^2$ arī ir pirmskaitlis?
 
-<!--
-sameAs=LV.OTHER.TST.1986.9.3
--->
+<small>
+
+* questionType:FindAll
+* domain:NT
+* sameAs:LV.OTHER.TST.1986.9.3
+
+</small>
+
+
 
 
 
@@ -42,11 +56,15 @@ lielākais pirmskaitlis, ar kuru dalās $p_1p_2p_3\ldots{}p_n+1$
 ($n \geq 2$).
 Pierādīt, ka šajā virknē nav skaitļa $5$.
 
-<!--
-sameAs=LV.OTHER.TST.1986.10.1
-concepts=recurrent-sequence,primes,divisibility
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* sameAs:LV.OTHER.TST.1986.10.1
+* concepts:recurrent-sequence,primes,divisibility
+
+</small>
+
 
 
 
@@ -58,9 +76,13 @@ Pierādīt, ka katram pirmskaitlim $p$ var atrast
 tādus naturālus skaitļus $x$ un $y$, ka
 $x^2 + y^2 + 1$ dalās ar $p$.
 
-<!--
-sameAs=LV.OTHER.TST.1983.11.4
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* sameAs:LV.OTHER.TST.1983.11.4
+
+</small>
 
 
 
@@ -72,9 +94,15 @@ Atrisināt naturālos skaitļos vienādojumu
 $$p^x - y^p = 1,$$
 ja $p$ ir pirmskaitlis.
 
-<!--
-mainEntry=LV.TST.1998.2
--->
+<small>
+
+* questionType:FindAll
+* domain:NT
+* sameAs:LV.TST.1998.2
+
+</small>
+
+
 
 
 
@@ -84,9 +112,14 @@ Vai var atrast četrus tādus naturālus skaitļus, lai,
 katru divu reizinājumam
 pieskaitot $1990$, iegūtu kaut kāda naturāla skaitļa kvadrātu?
 
-<!--
-sameAs=LV.OTHER.TST.1990.9.5
--->
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+* sameAs:LV.OTHER.TST.1990.9.5
+
+</small>
+
 
 
 
@@ -97,9 +130,15 @@ sameAs=LV.OTHER.TST.1990.9.5
 Ar kādu lielāko skaitu vienādu, no nulles atšķirīgu ciparu 
 var beigties naturāla skaitļa kvadrāts?
 
-<!--
-sameAs=LV.OTHER.TST.1984.11.1
--->
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+* sameAs:LV.OTHER.TST.1984.11.1
+
+</small>
+
+
 
 
 
@@ -110,12 +149,16 @@ Dažas no iegūtajām lapiņām viņš atkal sagrieza septiņās daļās, u.t.t.
 Kad beigās zēns saskaitīja kopējo lapiņu skaitu, tad izrādījās, 
 ka kopā ir $1961$ lapiņa. Pierādiet, ka zēns ir kļūdījies.
 
+<small>
 
-<!--
-genre=making-moves
-concepts=recurrent-sequence
-questionType=Prove
--->
+* questionType:Prove
+* domain:NT
+* concepts:recurrent-sequence
+
+</small>
+
+
+
 
 
 # <lo-sample/> BBK2012.P4.116
@@ -125,11 +168,16 @@ $$x_1=x_2=1,\;x_{n+1}=x_n+2x_{n-1},\;\mbox{ja $n>1$, un}$$
 $$y_1,\;y_2=7,\;y_{n+1}=2y_n+3y_{n-1},\;\mbox{ja $n>1$}$$
 nav vienādu locekļu, kuri ir lielāki par $1$.
 
+<small>
 
-<!--
-concepts=recurrent-sequence
-questionType=Prove
--->
+* questionType:Prove
+* domain:NT
+* concepts:recurrent-sequence
+
+</small>
+
+
+
 
 
 # <lo-sample/> BBK2012.P4.117
@@ -139,10 +187,16 @@ $$x_1 = x_2 = 10,\;x_{n+2}=(x_n+1)x_{n+1}+1,\;\mbox{ja $n \geq 1$, un}$$
 $$y_1 = y_2 = -10,\;y_{n+2}=(y_{n+1}+1)y_{n}+1,\;\mbox{ja $n \geq 1$.}$$
 Pierādiet, ka neviens naturāls skaitlis nepieder abām virknēm.
 
-<!--
-concepts=recurrent-sequence
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* concepts:recurrent-sequence
+
+</small>
+
+
+
 
 
 # <lo-sample/> BBK2012.P4.118
@@ -152,10 +206,16 @@ sākot ar piekto, ir iepriekšējo četru ciparu summas
 pēdējais cipars. Vai šajā virknē ir vieta, 
 kur pēc kārtas ir uzrakstīti cipari $1, 2, 3, 4$?
 
-<!--
-concepts=recurrent-sequence
-questionType=ProveDisprove
--->
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+* concepts:recurrent-sequence
+
+</small>
+
+
+
 
 
 # <lo-sample/> BBK2012.P4.119
@@ -164,11 +224,17 @@ Atrodiet augošu aritmētisku progresiju ar minimālo diferenci,
 kuras locekļi ir naturāli skaitļi un kurai nav kopīgu 
 locekļu ar Fibonači virkni.
 
+<small>
 
-<!--
-concepts=fibonacci-sequence,arithmetic-progression
-questionType=FindOptimal
--->
+* questionType:FindOptimal
+* domain:NT
+* concepts:fibonacci-sequence,arithmetic-progression
+
+</small>
+
+
+
+
 
 
 # <lo-sample/> BBK2012.P4.120
@@ -180,10 +246,14 @@ pēdējo ciparu. Vai ir iespējams, ka četri cits
 citam sekojoši virknes elementi ir $1, 8, 7, 6$? 
 Apgalvojumu pamatot.
 
-<!--
-concepts=recurrent-sequence
-questionType=ProveDisprove
--->
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+* concepts:recurrent-sequence
+
+</small>
+
 
 
 
@@ -194,10 +264,15 @@ Dots, ka $n$ – naturāls skaitlis.
 Pierādīt, ka $3^n + 2 \cdot 17^n$ 
 nav nekāda naturāla skaitļa kvadrāts.
 
-<!--
-concepts=primes,full-square,power
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* concepts:primes,full-square,power
+
+</small>
+
+
 
 
 # <lo-sample/> BBK2012.P4.122
@@ -205,11 +280,16 @@ questionType=Prove
 Dots, ka $p$ – pirmskaitlis. Pierādīt, ka $2^p+3^p$ 
 nav naturāla skaitļa pakāpe ar kāpinātāju, lielāku par $1$.
 
-<!--
-sameAs=LV.OTHER.TST.1986.10.1
-concepts=primes,full-power
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* sameAs:LV.OTHER.TST.1986.10.1
+* concepts:primes,full-power
+
+</small>
+
+
 
 
 
@@ -218,10 +298,15 @@ questionType=Prove
 Pierādiet, ka virknē $1, 31, 331, 3331, \ldots$ 
 ir bezgalīgi daudz saliktu skaitļu. 
 
-<!--
-genre=digit-manipulation
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
+
 
 
 # <lo-sample/> BBK2012.P4.124
@@ -229,10 +314,15 @@ questionType=Prove
 Pierādiet, ka skaitļu virknē $x_n = 10^n + 3$ 
 ir bezgalīgi daudz saliktu skaitļu.
 
-<!--
-concepts=power
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* concepts:power
+
+</small>
+
+
 
 
 # <lo-sample/> BBK2012.P4.125
@@ -245,10 +335,16 @@ Pierādiet, ka visiem naturāliem skaitļiem $n$ sekojoši skaitļi
 (e) $2^{2^{10n+2}} + 19$  
 ir salikti skaitļi.
 
-<!--
-concepts=power
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* concepts:power
+
+</small>
+
+
+
 
 
 # <lo-sample/> BBK2012.P4.126
@@ -257,10 +353,15 @@ Pierādiet, ka jebkuram naturālam skaitlim $n \geq 2$
 $$\frac{1}{3}\left( 2^{2^{n+1}} + 2^{2^n} + 1 \right)$$
 ir salikts skaitlis.
 
-<!--
-concepts=power
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* concepts:power
+
+</small>
+
+
 
 
 # <lo-sample/> BBK2012.P4.127
@@ -268,10 +369,14 @@ questionType=Prove
 Pierādiet, ka starp skaitļiem $\left(2^{2n} + 1\right)^2 +2^2$, 
 $n \in \mathbb{N}$ ir bezgalīgi daudz saliktu skaitļu.
 
-<!--
-concepts=power
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* concepts:power
+
+</small>
+
 
 
 # <lo-sample/> BBK2012.P4.128
@@ -281,12 +386,16 @@ kurā katrs nākošais skaitlis iegūts no iepriekšējā,
 pierakstot tam labajā pusē jebkuru ciparu, izņemot $9$. 
 Pierādiet, ka šajā virknē ir bezgalīgi daudz saliktu skaitļu.
 
+<small>
 
-<!--
-genre=digit-manipulation
-concepts=composite-numbers
-questionType=Prove
--->
+* questionType:Prove
+* domain:NT
+* concepts:composite-numbers
+
+</small>
+
+
+
 
 
 
@@ -302,10 +411,14 @@ Izrādījās, ka procesu turpinot, visu laiku tiek iegūti
 tikai veseli skaitļi. Pierādiet, ka visi sākumā dotie skaitļi 
 ir savā starpā vienādi.
 
-<!--
-concepts=arithmetic-mean
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* concepts:arithmetic-mean
+
+</small>
+
 
 
 # <lo-sample/> BBK2012.P4.134
@@ -319,10 +432,12 @@ no šīs grupas tādā pašā veidā nākošā, utt.
 Pierādiet, ka pēc dažiem soļiem mēs iegūsim 
 skaitļu virkni, kas sastāv tikai no nullēm.
 
+<small>
 
-<!--
-concepts=power,absolute-value
-questionType=Prove
--->
+* questionType:Prove
+* domain:NT
+* concepts:power,absolute-value
+
+</small>
 
 

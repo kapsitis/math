@@ -3,9 +3,13 @@
 Pierādīt, ka eksistē tāds naturāls skaitlis $n$, 
 ka $n^2 + 1$ dalās ar  $5^{1979}$.
 
-<!--
-sameAs=LV.OTHER.TST.1979.10.2
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* sameAs:LV.OTHER.TST.1979.10.2
+
+</small>
 
 
 
@@ -19,9 +23,16 @@ $x_1$ un $x_2$, lai bezgalīgi daudzi virknes
 $\left( x_n \right)$
 locekļi būtu naturāli skaitļi.
 
-<!--
-sameAs=LV.OTHER.TST.1989.10.3
--->
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+* sameAs=LV.OTHER.TST.1989.10.3
+
+</small>
+
+
 
 
 
@@ -35,9 +46,14 @@ bezgalīga apakškopa $B$, ka katru divu dažādu $B$
 elementu lielākais kopīgais dalītājs ir
 $p$.
 
-<!--
-sameAs=LV.OTHER.TST.1990.11.5
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* sameAs:LV.OTHER.TST.1990.11.5
+
+</small>
+
 
 
 
@@ -48,9 +64,16 @@ Pierādīt, ka vienādojumam  $x^2 - 6y^2 = 1$
 ir bezgalīgi daudz atrisinājumu naturālos
 skaitļos.
 
-<!--
-sameAs=LV.OTHER.TST.1976.10.3
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* sameAs:LV.OTHER.TST.1976.10.3
+
+</small>
+
+
+
 
 
 # <lo-sample/> BBK2012.P9.72
@@ -59,9 +82,13 @@ Pierādīt, ka eksistē tikai galīgs skaits tādu
 naturālu skaitļu $n$, ka skaitļa $5^n$ ciparu
 summa ir mazāka par $1976^{1976}$.
 
-<!--
-sameAs=LV.OTHER.TST.1976.11.5
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+* sameAs:LV.TST.1976.11.5
+
+</small>
 
 
 
@@ -78,9 +105,14 @@ ka vienlaikus izpildās šādas prasības:
 \left( a_1 + a_2 + \cdots + a_{2^{1994}}\right) + 
 \left( b_1 + b_2 + \cdots + b_{2^{1994}}\right) = 3^{1995}}$.
 
-<!--
-mainEntry=LV.TST.1994.2
--->
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+* sameAs:LV.TST.1994.2
+
+</small>
+
 
 
 

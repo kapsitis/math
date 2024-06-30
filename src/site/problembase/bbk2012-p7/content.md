@@ -7,8 +7,13 @@ $2^{n_{k-1}}-1$ dalās ar $n_k$,
 $2^{n_k}-1$ dalās ar $n_1$.
 Pierādīt, ka $n_1 = n_2 = \cdots = n_k = 1$.
 
+<small>
 
-<!--
-sameAs=LV.OTHER.TST.1991.12.5
--->
+* questionType:Prove
+* domain:NT
+* sameAs:LV.OTHER.TST.1991.12.5
+
+</small>
+
+
 

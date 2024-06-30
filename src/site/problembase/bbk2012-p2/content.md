@@ -7,9 +7,14 @@ Zināms, ka neviens no skaitļiem $a_i$ nav pārējo virknes
 skaitļu reizinājuma dalītājs. Pierādiet, ka $x \leq \pi(n)$. 
 (Ar $\pi(n)$ apzīmēts pirmskaitļu skaits, kuri nepārsniedz $n$.)
 
-<!--
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 
 
 
@@ -18,12 +23,16 @@ questionType=Prove
 Dota naturālu skaitļu virkne $(a_n)$, kurai izpildās īpašība:
 ja $p \mid q$ un $p \neq q$, tad $a_p \mid a_q$ un 
 $a_p \neq a_q$. Vai iespējams, ka  
-(a) $a_{1000} < 64$  
-(b) $a_{1000} = 64$?
+**(A)** $a_{1000} < 64$  
+**(B)** $a_{1000} = 64$?
 
-<!--
-questionType=ProveDisprove
--->
+<small>
+
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
+
+</small>
+
 
 
 
@@ -36,9 +45,14 @@ $$\frac{p_1}{p_1 - 1}\cdot \frac{p_2}{p_2 - 1} \cdot \ldots
 $$> 1 + \frac{1}{2} + \frac{1}{3} + 
 \frac{1}{4} + \ldots + \frac{1}{10000}.$$
 
-<!--
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 
 
 
@@ -49,10 +63,15 @@ $a_1 = 99$, $a_{n+1} = a_n + p(a_n)$, kur
 ar $p(x)$ apzīmēts lielākais pirmskaitlis, ar kuru dalās $x$. 
 Aprēķināt $a_{1999}$. 
 
-<!--
-mainEntry=LV.TST.1999.12.5
-questionType=FindAll
--->
+<small>
+
+* questionType:FindAll
+* domain:NT
+* sameAs:LV.TST.1999.12.5
+
+</small>
+
+
 
 
 
@@ -63,10 +82,15 @@ Vai var atrast galīgu skaitu ģeometrisku progresiju,
 kas katra ir bezgalīga un sastāv no naturāliem skaitļiem, 
 lai katrs naturāls skaitlis piederētu vismaz vienai no tām?
 
-<!--
-questionType=ProveDisprove
-seeAlso=BBK2012.P1.52
--->
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+* sameAs:BBK2012.P1.52
+
+</small>
+
+
 
 
 
@@ -77,9 +101,16 @@ reizinājums var būt naturāla skaitļa
 kvadrāts?
 
 
-<!--
-sameAs=LV.TST.1988.9.1
--->
+<small>
+
+* questionType:
+* domain:NT
+* sameAs:LV.TST.1988.9.1
+
+</small>
+
+
+
 
 
 
@@ -89,9 +120,14 @@ Dots, ka $n$ – naturāls skaitlis un $n+1$ dalās ar $24$.
 Pierādīt, ka skaitļa $n$ visu
 naturālo dalītāju summa arī dalās ar $24$.
 
-<!--
-sameAs=LV.TST.1992.9.1
--->
+<small>
+
+* questionType:
+* domain:NT
+* sameAs:LV.TST.1992.9.1
+
+</small>
+
 
 
 
@@ -102,9 +138,15 @@ Pierādīt, ka katrā augošā aritmētiskā progresijā
 ir bezgalīgi daudz skaitļu, kas nav
 vesela skaitļa pakāpes ar kāpinātāju, lielāku par $1$.
 
-<!--
-sameAs=LV.TST.1984.9.1
--->
+<small>
+
+* questionType:
+* domain:NT
+* sameAs:LV.TST.1984.9.1
+
+</small>
+
+
 
 
 
@@ -114,9 +156,15 @@ Pierādīt, ka eksistē $1985$ pēc kārtas ņemti naturāli skaitļi,
 no kuriem neviens nav naturāla skaitļa pakāpe, 
 augstāka par pirmo.
 
-<!--
-sameAs=LV.TST.1985.11.2
--->
+<small>
+
+* questionType:
+* domain:NT
+* sameAs:LV.TST.1985.11.2
+
+</small>
+
+
 
 
 
@@ -127,9 +175,15 @@ Dots naturāls skaitlis $a > 2$.
 Pierādīt, ka eksistē tikai galīgs skaits tādu naturālu
 $n$, ka $a^n - 1$ dalās ar $2^n$.
 
-<!--
-mainEntry=LV.TST.1993.12.2
--->
+<small>
+
+* questionType:
+* domain:NT
+* sameAs:LV.TST.1993.12.2
+
+</small>
+
+
 
 
 

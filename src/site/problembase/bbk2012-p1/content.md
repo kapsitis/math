@@ -173,6 +173,13 @@ Aplūkot skaitļa pēdējos ciparus, nozīmē aplūkot skaitli pēc moduļa $10^
 Vai eksistē 3 viens otram sekojoši skaitļi, kuru reizinājums ir 
 $19941995199620$? 
 
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
 ## Atrisinājums
 
 Nē, neeksistē. Trīs sekojošu naturālu skaitļu reizinājums dalās ar $3$, 
@@ -182,6 +189,14 @@ bet dotais skaitlis ar $3$ nedalās, jo tā ciparu summa nedalās ar $3$.
 # <lo-sample/> BBK2012.P1.2
 
 Vai $6$ pēc kārtas ņemtu naturālu skaitļu reizinājums var būt $1111140960$? 
+
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -195,6 +210,14 @@ Andris saskaitīja sešus viens otram sekojošus naturālus skaitļus un ieguva 
 kurā katrs cipars no $2$ līdz $9$ sastopams vienu reizi, bet cipars $1$ – divas reizes. 
 Pierādīt, ka Andris kļūdījās.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Viegli pārbaudīt, ka sešu viens otram sekojošu naturālu skaitļu summa dalās ar $3$, 
@@ -206,6 +229,14 @@ bet cipars $1$ – divas reizes ar $3$ nedalās, jo tā ciparu summa $46$ ar $3$
 
 Pierādīt, ka skaitlis $\underbrace{111\ldots{}1}_{\mbox{27 vieninieki}}$
 dalās ar $27$. 
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -220,6 +251,14 @@ bet otrais ar $9$; tātad viss reizinājums dalās ar $27$.
 
 
 Pierādīt, ka skaitlis $\underbrace{111\ldots{}1}_{\mbox{81 vieninieki}}$ dalās ar $81$. 
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -237,10 +276,19 @@ Katrs no reizinātājiem dalās ar $9$, jo ciparu summa dalās ar $9$. Tātad re
 Visi piecciparu skaitļi no $11111$ līdz $99999$ patvaļīgā secībā 
 uzrakstīti viens aiz otra. Pierādiet, ka uzrakstītais skaitlis nav divnieka naturāla pakāpe.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Uzrakstītā skaitļa ciparu summa dalās ar $9$. 
 Tātad šis skaitlis dalās ar $9$, un tas nevar būt divnieka pakāpe.
+
 
 
 # <lo-sample/> BBK2012.P1.7
@@ -248,6 +296,14 @@ Tātad šis skaitlis dalās ar $9$, un tas nevar būt divnieka pakāpe.
 Aplūkosim visus deviņciparu skaitļus, kuru decimālajā pierakstā katrs cipars 
 no $1$ līdz $9$ uzrakstīti tieši vienu reizi. Nosakiet, kāds ir šo skaitļu 
 lielākais kopīgais dalītājs.
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -266,6 +322,14 @@ No skaitļa 1985 atņēma tā ciparu summu, no rezultāta – tā ciparu summu, 
 **(A)** Pierādiet, ka noteikti kādreiz iegūsim viencipara skaitli.
 **(B)** Kāds tas būs?
 
+<small>
+
+* questionType:Prove,FindAll
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Atņemot no skaitļa tā ciparu summu iegūstam skaitli, 
@@ -283,6 +347,14 @@ Reizināšanas pierakstā viens cipars aizstāts ar zvaigznīti.
 $$1\ast{}74633 \times 2840332 = 3904414098156.$$ 
 
 Kas tas par ciparu?
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -303,6 +375,14 @@ $$387757880 \ast{} 3632640000,$$
 kur viens cipars aizstāts ar zvaigznīti.
 Atrodiet, kāds cipars aizstāts ar zvaigznīti.
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Jāņa iegūtais reizinājums dalās ar $9$; 
@@ -316,6 +396,14 @@ ciparam $\ast$ ir jābūt vienādam ar $4$.
 
 No skaitļa $1230123012301230$ jāizsvītro vairāki cipari tā, 
 lai iegūtais skaitlis dalītos ar $9$ un būtu maksimāli liels. Kuri cipari jāizsvītro? 
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -335,6 +423,14 @@ skaitļu decimālie pieraksti. Vai var gadīties tā, ka
 **(A)**  neviens no tiem nedalās ar $3$,  
 **(B)**  tie visi dalās ar $3$,  
 **(C)**  divi no tiem dalās ar $3$, bet trešais – nē?
+
+<small>
+
+* questionType:ProveDisprove,ProveDisprove,ProveDisprove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -356,6 +452,14 @@ Dots patvaļīgs $1973$-ciparu skaitlis, kurš dalās ar $9$. Šī skaitļa cipa
 summu apzīmēsim ar $a$; skaitļa $a$ ciparu summu apzīmēsim ar $b$; skaitļa $b$ 
 ciparu summu apzīmēsim ar $c$. Ar ko ir vienāds skaitlis $c$?
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Ievērosim, ka $a \leq 9 \cdot 1973 = 17757$; 
@@ -369,6 +473,14 @@ Tātad $c = 9$.
 
 Atrast vislielāko pozitīvo skaitli, ar kuru dalās katrs skaitlis, 
 kas satur visus ciparus (katru tieši vienu reizi).
+
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -385,6 +497,14 @@ tātad ar $k$ dalās arī šo skaitļu starpība – skaitlis $9$. Tātad $k \le
 Pierādiet, ka, ja pietiekamā un nepieciešamā dalāmības 
 pazīme ar skaitli $n$ nav atkarīga no skaitļa ciparu secības, 
 tad $n$ ir vai nu trīs, vai deviņi.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -406,6 +526,14 @@ Apzīmēsim skaitļa $a$ ciparu summu ar $S(a)$.
 Pierādiet, ka no vienādības $S(a) = S(2a)$ seko, 
 ka $a$ dalās ar $9$.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 No vienādības $S(a)=S(2a)$ seko, ka $a \equiv 2a \pmod 9$. 
@@ -417,6 +545,14 @@ Tātad $a \equiv 0 \pmod 9$, jeb $9\mid{}a$.
 
 Skaitli $A$ pareizinot ar $3$, tā ciparu summa nemainās.
 Pierādīt, ka $A$ dalās ar $9$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -437,6 +573,14 @@ atrodam ciparu summu. Iegūtajai summai atkal atrodam ciparu summu,
 utt. Pieņemsim, ka kādreiz iegūsim desmitciparu skaitli. 
 Pierādīt, ka tam ir vismaz divi vienādi cipari.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Ja iegūtajam skaitlim visi cipari būtu dažādi, tad to summa būtu 
@@ -450,6 +594,14 @@ Bet tad arī skaitlim $2^n$ jādalās ar $9$, taču $2^n$ ar $9$ nedalās.
 Vai astoņciparu skaitlis, kura decimālais pieraksts ir simetrisks, 
 var būt pirmskaitlis?
 
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Simetrisks astoņciparu skaitlis dalās ar 11 pēc dalāmības pazīmes, 
@@ -461,6 +613,14 @@ un tas nevar būt pirmskaitlis.
 
 Vai četrciparu skaitlis, kura pirmais cipars vienāds ar pēdējo, 
 bet otrais ar trešo var būt pirmskaitlis?
+
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -479,6 +639,14 @@ $$\text{JĀ}\,\times\,\text{NĒ} \,=\, \text{FFGG}$$
 
 nav pareiza.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Skaitlis  $FFGG$  dalās ar $11$ (dalījums ir $F0G$), 
@@ -489,6 +657,14 @@ bet neviens no kreisās puses reizinātājiem ar $11$ nedalās; tā ir pretruna.
 
 Pierādiet apgalvojumu: ja skaitlis dalās ar $99$, tad tā ciparu summa 
 ir ne mazāka kā $18$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -506,6 +682,14 @@ Autobusa biļetei ir sešciparu numurs no $000000$ līdz $999999$.
 Kādu biļešu ir vairāk: 
 tādu, kuru numuru pirmo trīs ciparu summa ir vienāda ar pēdējo 
 trīs ciparu summu, vai tādu, kuru numurs dalās ar $11$?
+
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -530,6 +714,14 @@ $$\overline{a_1a_2a_3} - \overline{a_4a_5a_6} + \cdots +
 
 dalās ar $7$ ($11$ vai $13$).
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Tā kā $1000^k \equiv (-1)^k \pmod {1001}$, tad 
@@ -548,6 +740,15 @@ Pamatojiet savu atbildi:
 **(C)** $1993$;
 **(D)** $1991$.
 
+
+<small>
+
+* questionType:ProveDisprove,ProveDisprove,ProveDisprove,ProveDisprove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 **(A)**  Nē, jo skaitlis dalās ar $5$.
@@ -562,6 +763,14 @@ Pierādīt, ka sešciparu skaitlis dalās ar $13$ tādā un
 tikai tādā gadījumā, ja ar $13$ dalās tā pirmo trīs 
 ciparu un pēdējo trīs ciparu veidoto skaitļu starpība 
 (mazinātājs varētu sākties ar vienu vai vairākām nullēm).
+
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
 
 ## Atrisinājums
 
@@ -629,17 +838,11 @@ Pamatojiet norādītās atbildes.
 
 # Dalāmības īpašības: Ievaduzdevumi
 
-# <lo-sample/> BBK2012.P1.E2.1
+# <lo-exercise/> BBK2012.P1.E2.1
 
 Dots, ka $5 \mid a$ un $5 \mid b$. Pierādiet, ka 
 $5 \mid (a^2 + 7b)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -649,16 +852,11 @@ No īpašības **D1** seko, ka $5 \mid (a^2 + 7b)$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.2
+# <lo-exercise/> BBK2012.P1.E2.2
 
 Dots, ka $7 \mid a$. Pierādiet, ka $7 \mid (a^2 + 3a + 7b - 21)$.
 
-<small>
 
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -669,16 +867,10 @@ $7 \mid (a^2 + 3a ­+ 7b - 21)$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.3
+# <lo-exercise/> BBK2012.P1.E2.3
  
 Dots, ka $n \mid a$ un $n \mid (5a + b)$. Pierādiet, ka $n \mid b$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -687,16 +879,10 @@ $b = (5a + b) - 5a$. Tā kā $n \mid (5a + b)$ un $n \mid 5a$
 
 
 
-# <lo-sample/> BBK2012.P1.E2.4
+# <lo-exercise/> BBK2012.P1.E2.4
 
 Dots, ka $n \mid (a - b)$. Pierādiet, ka $n \mid (a^2 + a - b^2 - b)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -706,16 +892,10 @@ tad no īpašības **D2** seko, ka $n \mid (a^­­­­­­­2 + a - b^2 - b)$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.5
+# <lo-exercise/> BBK2012.P1.E2.5
 
 Dots, ka $n \mid 3a$ un $n \mid (12a + 5b)$. Pierādiet, ka $n \mid 10b$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -723,16 +903,10 @@ No īpašības **D3** seko, ka $n \mid 5b = (12a +5b) - 4 \cdot 3a$.
 Tātad $n$ dala arī $10b$ (īpašība **D2**).
 
 
-# <lo-sample/> BBK2012.P1.E2.6
+# <lo-exercise/> BBK2012.P1.E2.6
 
 Dots, ka $5 \mid (a - b)$ un $7 \mid (a + b)$. Pierādiet, ka $35 \mid (a^2 - b^2)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -740,18 +914,12 @@ No īpašības **D5** seko, ka $5 \cdot 7 = 35 \mid (a-b)(a+b) = a^2 - b^2$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.7
+# <lo-exercise/> BBK2012.P1.E2.7
 
 Doti tādi naturāli skaitļi $a, b, c$, ka $a \mid b$, 
 $b \mid c$, $c \mid a$. Pierādiet, ka 
 $a = b = c$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -761,33 +929,21 @@ Līdzīgi pierāda, ka $b = c$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.8
+# <lo-exercise/> BBK2012.P1.E2.8
 
 Dots, ka $3 \mid (a - 1)$ un $5 \mid (a+2)$. Pierādiet, 
 ka $15 \mid (a^2 + a - 2)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
 Apgalvojums seko no vienādības $a^2 + a - 2 = (a -1)(a + 2)$ un īpašības **D5**.
 
 
-# <lo-sample/> BBK2012.P1.E2.9
+# <lo-exercise/> BBK2012.P1.E2.9
 
 Kuri no skaitļiem $101, 111, 141, 143, 155, 161, 163$ ir pirmskaitļi?
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:FindAll
-
-</small>
 
 ## Atrisinājums
 
@@ -799,16 +955,10 @@ Pārbaudot redzam, ka pirmskaitļi ir skaitļi $101$, $141$, $163$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.10
+# <lo-exercise/> BBK2012.P1.E2.10
 
 Atrodiet visus pirmskaitļus intervālā $[100, 120]$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:FindAll
-
-</small>
 
 ## Atrisinājums
 
@@ -824,16 +974,10 @@ $$101, 103, \underline{105}, 107, 109, \underline{111}, 113, \underline{115}, \u
 Nepasvītrotie skaitļi $101$, $103$, $107$, $109$, $113$ ir pirmskaitļi.
 
 
-# <lo-sample/> BBK2012.P1.E2.11
+# <lo-exercise/> BBK2012.P1.E2.11
 
 Atrodiet visus pirmskaitļus intervālā $[180, 200]$s.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:FindAll
-
-</small>
 
 ## Atrisinājums
 
@@ -841,16 +985,10 @@ Dotajā intervālā pirmskaitļi ir skaitļi  $181$, $191$, $193$, $197$ un $199
 Citi neder, jo $3 \mid 183$, $5 \mid 185$, $11 \mid 187$, 
 $3 \mid 189$, $5 \mid 195$ (vai arī ir pāra skaitļi).  
 
-# <lo-sample/> BBK2012.P1.E2.12
+# <lo-exercise/> BBK2012.P1.E2.12
 
 Ar kādām naturālām $n$ vērtībām skaitlis $n^2 - 1$ ir pirmskaitlis?
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:FindAll
-
-</small>
 
 ## Atrisinājums
 
@@ -862,16 +1000,10 @@ Ja $n =1$, tad $n^2 - 1 = 0$ nav pirmskaitlis.
 Ja $n = 2$, tad $n^2 - 1 = 3$ ir pirmskaitlis.
 
 
-# <lo-sample/> BBK2012.P1.E2.13
+# <lo-exercise/> BBK2012.P1.E2.13
 
 Dots, ka $5 \mid 12a$. Pierādiet, ka $5 \mid a$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -879,16 +1011,10 @@ No pirmskaitļu 2.īpašības seko, ka $5 \mid 12$ vai $5 \mid a$.
 Tā kā $\operatorname{gcd}(5, 12) = 1$, tad $5 \mid a$.
 
 
-# <lo-sample/> BBK2012.P1.E2.14
+# <lo-exercise/> BBK2012.P1.E2.14
 
 Dots, ka $7 \mid a$ un $7 \mid (2a + 3b)$. Pierādiet, ka $7 \mid b$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -897,16 +1023,10 @@ No pirmskaitļu 2 īpašības seko, ka $7 \mid b$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.15
+# <lo-exercise/> BBK2012.P1.E2.15
 
 Dots, ka $5 \mid 7b$ un $7 \mid 5a$. Pierādiet, ka $35 \mid ab$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -915,17 +1035,11 @@ Tātad $35 \mid ab$ (īpašība **D5**).
 
 
 
-# <lo-sample/> BBK2012.P1.E2.16
+# <lo-exercise/> BBK2012.P1.E2.16
 
 Dots, ka $n \mid (5a + 3b)$ un $n \mid (3a + 2b)$. 
 Pierādiet, ka $n \mid a$ un $n \mid b$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -937,17 +1051,11 @@ pierāda, ka $n \mid b$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.17
+# <lo-exercise/> BBK2012.P1.E2.17
 
 Dots, ka $n \mid (3a + 7b)$ un $n \mid (2a + 5b)$. 
 Pierādiet, ka $n \mid a$ un $n \mid b$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -957,17 +1065,11 @@ $b = 3 (2a + 5b) - 2 (3a + 7b)$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.18
+# <lo-exercise/> BBK2012.P1.E2.18
 
 Dots, ka $5 \mid (3a + 4b)$ un $5 \mid (2a + 3b)$. 
 Pierādiet, ka $25 \mid ab$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -977,17 +1079,11 @@ No īpašības **D5** seko, ka $25 \mid ab$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.19
+# <lo-exercise/> BBK2012.P1.E2.19
 
 Pierādiet, ka visiem naturāliem $n$ skaitlis 
 $n^2 + n + 6$ dalās ar $2$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -996,16 +1092,10 @@ tāpēc $n^2+ n = n(n + 1)$ dalās ar $2$. Tātad $2 \mid (n^2+ n + 6)$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.20
+# <lo-exercise/> BBK2012.P1.E2.20
 
 Dots, ka $n \mid (a - b)$. Pierādiet, ka $n \mid (a^3 + a^2 - b^3 - b^2)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1014,16 +1104,10 @@ $(a^3 - b^3) + (a^2 - b^2) = (a - b)(a^2 + ab + b2) + (a - b)(a + b)$.
 Abi saskaitāmie dalās ar $a-b$, tātad arī ar $n$. 
 
 
-# <lo-sample/> BBK2012.P1.E2.21
+# <lo-exercise/> BBK2012.P1.E2.21
 
 Dots, ka $n \mid (a + 2b)$. Pierādiet, ka $n \mid (a^3 + 2a + 8b^3 + 4b)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1033,18 +1117,12 @@ Abi saskaitāmie dalās ar $a+2b$, tātad arī ar $n$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.22
+# <lo-exercise/> BBK2012.P1.E2.22
 
 Dots, ka daļa $a/b$ ir saīsināma. Vai daļa $(a - b)/(a + b)$ ir saīsināma? 
 Un otrādi, ja zināms, ka daļa $(a - b)/(a + b)$ ir saīsināma, 
 vai daļa $a/b$ noteikti ir saīsināma?
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:ProveDisprove
-
-</small>
 
 ## Atrisinājums
 
@@ -1057,17 +1135,11 @@ nav saīsināma, bet daļa $(5 - 3)/(5 + 3)$ ir saīsināma.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.23
+# <lo-exercise/> BBK2012.P1.E2.23
 
 Dots, ka $11 \mid (3x + 7y)$ un $11 \mid (2x + 5y)$. Pierādiet, ka 
 $121 \mid (x^2 + y^2)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1077,17 +1149,11 @@ Tātad $11^2 \mid x^2$, $11^2  \mid y^2$, un $121 \mid x^2 + 3y^2$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.24
+# <lo-exercise/> BBK2012.P1.E2.24
 
 Doti tādi naturāli skaitļi $a,b$, ka $a \mid (a + b)$ un $b \mid (a + b)$.
 Pierādiet, ka $a = b$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1097,17 +1163,11 @@ No īpašības **D6** seko, ka $a = b$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.25
+# <lo-exercise/> BBK2012.P1.E2.25
 
 Dots, ka $2 \mid (a - 1)$ un $3 \mid (a + 1)$. 
 Pierādiet, ka $6 \mid (a^2 + 5)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1117,17 +1177,11 @@ Tātad $6 \mid (a^2 + 5)$, jo $a^2 + 5 = (a^2 - 1) + 6$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.26
+# <lo-exercise/> BBK2012.P1.E2.26
 
 Dots, ka $6 \mid (a - b)$ un $6 \mid (a + b)$. 
 Pierādiet, ka $3 \mid (a^2 + 8b^2)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1137,16 +1191,10 @@ Tā kā $3 \mid 6$, tad arī $3 \mid (a^2 + 5b^2)$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.27
+# <lo-exercise/> BBK2012.P1.E2.27
 
 Ar kādām naturālām $n$ vērtībām skaitlis $n^3-1$ ir pirmskaitlis?
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:FindAll
-
-</small>
 
 ## Atrisinājums
 
@@ -1160,16 +1208,10 @@ tad $n^3 - 1 = 7$ ir pirmskaitlis.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.28
+# <lo-exercise/> BBK2012.P1.E2.28
 
 Ar kādām naturālām $n$ vērtībām skaitlis $n^2+5n+6$ ir pirmskaitlis? 
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:FindAll
-
-</small>
 
 ## Atrisinājums
 
@@ -1181,17 +1223,11 @@ nevienai n vērtībai, jo tas sadalās reizinātājos, kuri ir lielāki par $1$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.29
+# <lo-exercise/> BBK2012.P1.E2.29
 
 Ar kādām naturālām $a$ un $b$ vērtībām skaitlis 
 $ab + a + b + 1$ ir pirmskaitlis?
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:FindAll
-
-</small>
 
 ## Atrisinājums
 
@@ -1201,16 +1237,10 @@ jo abi reizinātāji ir lielāki par $1$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.30
+# <lo-exercise/> BBK2012.P1.E2.30
 
 Dots, ka $4 \mid x$ un $3 \mid y$. Pierādiet, ka $12 \mid (xy + 8y + 9x)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1222,17 +1252,11 @@ $xy + 8y + 9x$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.31
+# <lo-exercise/> BBK2012.P1.E2.31
 
 Dots, ka $11 \mid (4a + b)$ un $11 \mid (a+4b)$. Pierādiet, 
 ka $11 \mid a$ un $11 \mid b$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1242,16 +1266,10 @@ Līdzīgi pierāda, ka $11 \mid a$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.32
+# <lo-exercise/> BBK2012.P1.E2.32
 
 Dots, ka $7 \mid (3a + b)$ un $7 \mid (a + 3b)$. Pierādiet, ka $49 \mid ab$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1262,16 +1280,10 @@ No īpašības **D5** seko, ka $49 \mid ab$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.33
+# <lo-exercise/> BBK2012.P1.E2.33
 
 Dots, ka $7 \mid (2a + 3b)$. Pierādiet, ka $7 \mid (a + 5b)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1282,16 +1294,10 @@ $a + 5b = 8a + 12b - 7(a + b)$ dalās ar $7$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.34
+# <lo-exercise/> BBK2012.P1.E2.34
 
 Dots, ka $13 \mid (a + 4b)$. Pierādiet, ka $13 \mid (10a + b)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1302,16 +1308,10 @@ $10a + b = (10a + 40b) - 39b$ dalās ar $13$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.35
+# <lo-exercise/> BBK2012.P1.E2.35
 
 Dots, ka $11 \mid (3a + 7b)$. Pierādiet, ka $11 \mid (4a + 2b)$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1322,17 +1322,11 @@ $4a + 2b = 15a + 35b - 11(a + 3b)$ dalās ar $11$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.36
+# <lo-exercise/> BBK2012.P1.E2.36
 
 Pierādiet, ka skaitlis $4a + 5b$ dalās ar $17$ tad un tikai tad, 
 kad skaitlis $7a - 3b$ dalās ar $17$.
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:Prove
-
-</small>
 
 ## Atrisinājums
 
@@ -1343,17 +1337,11 @@ Līdzīgi pierāda apgriezto apgalvojumu.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.37
+# <lo-exercise/> BBK2012.P1.E2.37
 
 Ar kādām naturālām $n$ un $m$ vērtībām skaitlis 
 $(n-m)(n^2+m-1)$ ir pirmskaitlis?
 
-<small>
-
-* skill:DivisibilityProperties
-* questionType:FindAll
-
-</small>
 
 ## Atrisinājums
 
@@ -1373,18 +1361,11 @@ pieņem vērtības $0, 4, 10, 18, \ldots$ pie $n=1,2,3,4,\ldots$.
 
 
 
-# <lo-sample/> BBK2012.P1.E2.38
+# <lo-exercise/> BBK2012.P1.E2.38
 
 Atrodiet vismaz vienu naturālu skaitli $n$, 
 lai intervālā $[n, n + 10]$ nebūtu neviena pirmskaitļa.
 
-
-<small>
-
-* skill:DivisibilityProperties
-* questionType:FindExample
-
-</small>
 
 ## Atrisinājums
 
@@ -1409,6 +1390,16 @@ Ar kādu ciparu beidzas reizinājums
 
 $$11 \cdot 12 \cdot 13 \cdot 14 \cdot 15 \cdot 16 \cdot 17 \cdot 18 \cdot 19 \cdot 20 \cdot 21 \cdot 22 \cdot 23 ?$$
 
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
+
+
 ## Atrisinājums
 
 Šis reizinājums dalās ar $10$; tātad tā pēdējais cipars ir $0$.
@@ -1416,9 +1407,19 @@ $$11 \cdot 12 \cdot 13 \cdot 14 \cdot 15 \cdot 16 \cdot 17 \cdot 18 \cdot 19 \cd
 
 # <lo-sample/> BBK2012.P1.28
 
-Četrus veselus pozitīvus skaitļus katru dalīja ar 5 ar atlikumu. 
+Četrus veselus pozitīvus skaitļus katru dalīja ar $5$ ar atlikumu. 
 Iegūto atlikumu summa ir $3$. Pierādīt, ka šo četru skaitļu 
 reizinājums dalās ar $5$.
+
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 
 ## Atrisinājums
 
@@ -1435,6 +1436,14 @@ $3 \cdot 4$  ar $5$, atlikumā iegūst $2$.
 Vai vienmēr, dalot divu viens otram sekojošu naturālu 
 skaitļu reizinājumu ar nākošo naturālo skaitli, atlikuma iegūst $2$?
 
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Jā, tā notiek vienmēr, jo $(n-2) \cdot (n-1) = n^2 - 3n + 2 = (n-3) \cdot n + 2$. 
@@ -1444,6 +1453,14 @@ Jā, tā notiek vienmēr, jo $(n-2) \cdot (n-1) = n^2 - 3n + 2 = (n-3) \cdot n +
 # <lo-sample/> BBK2012.P1.30
 
 Pierādīt, ka $2^{1995} + 2^{1996} + 2^{1997} + 2^{1998}$ dalās ar $15$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1458,6 +1475,14 @@ seko, ka dotais skaitlis dalās ar $15$.
 
 Dots, ka $a$ un $b$ ir naturāli skaitļi un $a+b = 210$. 
 Pierādīt, ka $ab$ nedalās ar $210$. 
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1479,7 +1504,17 @@ Uz skaitļu ass attēloti vairāki veseli skaitļi, kas ņemti pēc kārtas (ska
 
 ![](BBK2012.P1.32.png){ width=300px }
 
-Divi no tiem skaitļiem, kas attēloti ar melniem aplīšiem, dalās ar 3, bet divi – ar 5 (nav zināms, kuri). Norādiet zīmējumā skaitli, kurš dalās ar 15. Pamatojiet savu atbildi.
+Divi no tiem skaitļiem, kas attēloti ar melniem aplīšiem, dalās ar $3$, 
+bet divi – ar $5$ (nav zināms, kuri). Norādiet zīmējumā skaitli, kurš dalās ar $15$. 
+Pamatojiet savu atbildi.
+
+<small>
+
+* questionType:FindExample
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1502,6 +1537,14 @@ Doti $6$ stieņi, katrs $50$ cm garš. Vai tos var sagriezt
 gabalos tā, lai rastos $12$ gabali ar garumu $12$ cm katrs, 
 $30$ gabali ar garumu $3$ cm katrs un $11$ gabali ar garumu $6$ cm katrs?
 
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Nē. Visu daļu garumi dalās ar $3$, bet $50$ ar $3$ nedalās.
@@ -1512,6 +1555,14 @@ Nē. Visu daļu garumi dalās ar $3$, bet $50$ ar $3$ nedalās.
 **(A)** Vai piecu pēc kārtas ņemtu skaitļu summa var būt $24$?  
 **(B)** Vai tā var būt $1984$?  
 **(C)** Vai tā var būt $1985$?
+
+<small>
+
+* questionType:ProveDisprove,ProveDisprove,ProveDisprove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1531,6 +1582,14 @@ lai katrā grupā mazākais skaitlis būtu $8$ reizes mazāks
 par visu citu šīs grupas skaitļu summu.
 Vai to var izdarīt?
 
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Saskaņā ar uzdevuma nosacījumiem katrā grupā skaitļu summai jādalās ar $9$; 
@@ -1546,6 +1605,8 @@ Atrast lielāko iespējamo diferences vērtību, ja zināms, ka tā ir vesels sk
 
 <small>
 
+* questionType:FindOptimal
+* domain:NT
 * topic:GcdAndLcm
 * questionType:FindOptimal
 
@@ -1568,7 +1629,16 @@ satur visus norādītos skaitļus.
 
 # <lo-sample/> BBK2012.P1.37 
 
-Pierādīt, ka $10a+b$ dalās ar $7$ tad un tikai tad, ja $a-2b$ dalās ar $7$ ($a$ un $b$ ir naturāli skaitļi).
+Pierādīt, ka $10a+b$ dalās ar $7$ tad un tikai tad, ja $a-2b$ dalās ar $7$ 
+($a$ un $b$ ir naturāli skaitļi).
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1582,6 +1652,14 @@ Ja $a-2b$ dalās ar $7$, tad $3(a-2b)+7(a+b) = 10a+b$ dalās ar $7$.
 
 Dots, ka $a$ un $b$ --  naturāli skaitļi un gan $3a+4b$, gan $2a+3b$ dalās ar $7$. 
 Pierādīt, ka gan $a$, gan $b$ dalās ar $7$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1598,6 +1676,13 @@ No vienādības $2a = (2a+3b)-3b$ seko, ka $2a$ dalās ar $7$; tātad arī $a$ d
 
 Dots, ka $a$ - naturāls skaitlis, $p$ - pirmskaitlis, pie tam $3 a+1$ un $a-8$ dalās ar $p$. Aprēķināt $p$.
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1612,6 +1697,13 @@ Var, piemēram, izvēlēties skaitli $a=13$.
 
 Naturāli skaitli $a$ un $b$ ir tādi, ka $34a = 43b$.
 Vai $a+b$ var būt pirmskaitlis?
+
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -1629,6 +1721,14 @@ kas atšķirīgs no $1$ un paša skaitļa).
 Dots, ka $a, b, c$ - dažādi naturāli skaiţ̦li. Kāds lielākais daudzums no skaiţ̦iem 
 $a+b, \quad a+c, \quad b+c$ var būt pirmskaitļi?
 
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Ja $a=1, b=2, c=3$, tad veidojas divi pirmskaitļi $a+b=3$ un $b+c=5$. 
@@ -1644,6 +1744,14 @@ Noskaidrojiet
 **(A)** vai visu naturālo skaitļu reizinājums no $1$ līdz $76$ ieskaitot dalās ar $77$;  
 **(B)** vai visu naturālo skaitļu reizinājums no $1$ lîdz $100$ ieskaitot dalās ar $101$?
 
+<small>
+
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 **(A)** Jā, jo šis reizinājums satur gan skaitli $7$, gan $11$.
@@ -1657,6 +1765,13 @@ dalīties ar $101$. Tātad arī reizinājums nedalās ar $101$.
 
 **(A)** Pierādīt, ka katru $499$ pēc kārtas n̦emtu naturālu skaitļu reizinājums dalās ar $1996$.  
 **(B)** Vai katru $498$ pēc kārtas n̦emtu naturālu skaitlu reizinājums dalās ar $1996$?
+
+<small>
+
+* questionType:Prove,ProveDisprove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -1675,6 +1790,13 @@ $499$, un, tātad, nedalās arī ar $1996$.
 
 **(A)** atrast kaut vienu $n$ ar īpašību: jebkuru pēc kārtas n̦emtu $n$ naturālu skaiţlu summa dalās ar $1996$,  
 **(B)** atrast vismazāko $n$, kam piemīt (A) punktā minētā īpašība.
+
+<small>
+
+* questionType:FindExample,FindOptimal
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -1695,6 +1817,14 @@ dalās ar $1996$. Bet skaitlis $n=1996$ neder, jo, ņemot $a=1$, iegūstam summu
 
 Kāds lielākais pirmskaitlu daudzums var būt sastopams starp $12$ pēc kārtas n̦emtiem naturāliem skaitļiem?
 
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 No $2$ līdz $13$ sastopami $6$ pirmskaitļi: $2, 3, 5, 7, 11, 13$.
@@ -1710,6 +1840,14 @@ pirmskaitļiem.
 Zināms, ka dalot skaitlus $2077$ un $100$ ar $a$, iegūti vienādi atlikumi. 
 Kādas var būt skaitļa $a$ vērtības?
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 No dotā seko, ka $a \mid(2077-100)=1977$. Skaitļa $1977$ sadalījums 
@@ -1718,7 +1856,14 @@ pirmreizinātājos ir šāds: $1977=3 \cdot 659$. Tātad $a \in\{1,3,659,1977\}$
 
 # <lo-sample/> BBK2012.P1.47
 
-Dalot skaitli $1987$ ar $a$, atlikumā ieguva skaitli $9$. Kādas var būt skaitla $a$ vērtības?
+Dalot skaitli $1987$ ar $a$, atlikumā ieguva skaitli $9$. Kādas var būt skaitļa $a$ vērtības?
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -1733,6 +1878,12 @@ Skaitlis $a$ var būt jebkurš skaitļa $1978$ dalītājs, kurš lielāks par $9
 
 Skaitli $1991$ dalot ar $a$, atlikumā iegūst $9$. Kāds var būt $a$?
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -1744,6 +1895,13 @@ Tātad $a \in\{1,2,991,1982\}$. Tā kā $a>9$, tad der tikai skaitļi $991$ un $
 # <lo-sample/> BBK2012.P1.49
 
 Vai dažādu pirmskaitļu apgriezto lielumu summa var būt vesels skaitlis?
+
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -1767,6 +1925,13 @@ Iegūtā pretruna pierāda, ka pien̦ēmums bija nepareizs.
 Naturāls skaitlis $A$, dalot ar $1981$, dod atlikumā $35$, bet, dalot ar $1982$, 
 dod atlikumā $13$. Kādu atlikumu dod $A$, dalot ar $14$?
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1781,10 +1946,17 @@ Doti $12$ pēc kārtas n̦emti naturāli skaitl̦i. Pierādiet, ka vismaz viens
 no tiem ir mazāks par savu dalītāju summu. (Tiek ņemti skaița naturālie 
 dalītāji, kas mazāki par pašu skaitli).
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
-No $12$ pēc kārtas ņemtiem skaitliem var izvēlēties tādu skaitli $n$, kurš dalās ar $12$. 
+No $12$ pēc kārtas ņemtiem skaitļiem var izvēlēties tādu skaitli $n$, kurš dalās ar $12$. 
 Tādā gadījumā $\frac{n}{2}, \frac{n}{3}, \frac{n}{4}$ ir skaiț̣a $n$ dalītāji, kuru summa 
 $\frac{n}{2}+\frac{n}{3}+\frac{n}{4}=\frac{13}{12} n$ ir lielāka par $n$.
 
@@ -1800,15 +1972,16 @@ piederētu vismaz vienai progresijai?
 
 <small>
 
-* topic:GeometricSeriesGaps
 * questionType:ProveDisprove
+* domain:NT
+* topic:GeometricSeriesGaps
 
 </small>
 
 
 ## Atrisinājums
 
-Nē, tādas ǵeometriskas progresijas neeksistē. Aplūkosim galīgu skaitu geometrisko progresiju
+Nē, tādas ǵeometriskas progresijas neeksistē. Aplūkosim galīgu skaitu ģeometrisko progresiju
 
 $$\left\{a_{1} q_{1}^{k}\right\},\,\left\{a_{2} q_{2}^{k}\right\},\,\ldots,\,\left\{a_{n} q_{n}^{k}\right\},\quad{}k \in \mathbb{N}$$
 
@@ -1832,6 +2005,14 @@ nevar piederēt nevienai no dotajām ǵeometriskajām progresijām.
 **(B)** Atrast mazāko naturālo skaitli, kuru dalot ar $n, n+1, \ldots, n+m$, 
 iegūst atlikumā atbilstoši $r, r+1, \ldots, r+m$.
 
+<small>
+
+* questionType:FindOptimal,FindOptimal
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 **(A)** Ja $a$ ir meklētais skaitlis, tad $a+1$ dalās ar 2, 3, 4, 5, 6. Tātad $a+1=[2,3,4,5,6]=60$ un $a=59$.
@@ -1852,6 +2033,14 @@ no atlikušajiem riekstiem; tālāk tieši tāpat pēc kārtas rīkojās visi p�
 Pēc tam visi kopā vēl vienu reizi dalīja riekstus: Vienu iedeva pērtiķim, 
 bet pārējos sadalīja savā starpā piecās vienādās daļās.
 
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Pievienosim sākotnējai riekstu kaudzei $4$ viltus riekstus. Tad šo kaudzi pirmais jūrnieks 
@@ -1863,8 +2052,16 @@ $5^{6}$. Tas nozīmē, ka mazākais iespējamais kokosriekstu skaits sākumā bi
 
 # <lo-sample/> BBK2012.P1.55
 
-Dots, ka $a, b, c$ - naturāli skaitļi. Cik daudzi no skaitliem $a+b$, $a+c$, $b+c$ 
+Dots, ka $a, b, c$ - naturāli skaitļi. Cik daudzi no skaitļiem $a+b$, $a+c$, $b+c$ 
 var vienlaikus dalîties ar $3$?
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1881,6 +2078,14 @@ Atrast kaut vienu veselu skaitli $n$, kas apmierina divas šādas īpašības:
 
 a. $n$ nedalās ne ar vienu no skaițiem $2,3,4,5,6,7,8,9,10$,
 b. $n-1$ dalās ar katru no skaitļiem $2,3,4,5,6,7,8,9,10$.
+
+<small>
+
+* questionType:FindExample
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -1899,6 +2104,14 @@ Tātad der skaitlis $n=2521$.
 
 Kāds ir lielākais daudzums pēc kārtas n̦emtu naturālu trīsciparu skaitlu, 
 no kuriem nevienu nevar izsacìt kā divu (dažādu vai vienādu) divciparu skaitļu reizinājumu?
+
+
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -1922,6 +2135,14 @@ Vai iespējama vienādība $a,bc=\overline{ab}: c$ ?
 *Piezīme:* $a,bc$ ir decimāldala ar ciparu $a$ pirms komata un cipariem $b$ un $c$ aiz komata; 
 $\overline{ab}$ ir divciparu skaitlis.
 
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Doto vienādību var pārrakstīt šādi: $a+0.1b+0.01c = (10a+b):c$. Pareizinot vienādību ar 
@@ -1936,6 +2157,14 @@ bet tas nav iespējams, jo $c$ ir cipars, kas nav $0$.
 Ar $\overline{xyz}$ apzīmēsim trīsciparu skaitli ar cipariem $x,y,z$. 
 Pierādīt, ka, ja $\overline{abc}$ dalās ar $37$, tad arī 
 $\overline{bca}+\overline{cab}$ dalās ar $37$.
+
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -1960,6 +2189,14 @@ Atrast visus divciparu skaitlus, kuru summa ar skaitli, kas pierakstitts ar tiem
 otrādā kārtībā, ir naturāla skaiţ̦a kvadrāts.
 
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Apzīmēsim meklējamo skaitli ar $\overline{ab}$. Tad
@@ -1979,6 +2216,13 @@ jo rezultātā iegūstam skaitli $121=11^{2}$.
 
 Atrast visus naturālos divciparu skaitlus, kam piemīt īpašība: šī skaiț̣a un skaiţ̦a, 
 kuru iegūst mainot tā ciparus vietām, starpība ir kāda naturāla skaiţ̦a kvadrāts.
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2005,6 +2249,12 @@ Atrisināt pirmskaiţ̦os vienādojumu
 
 $$x^{3}-y^{3}=z.$$
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2025,6 +2275,13 @@ Doti četri naturāli skaiţ̧i $a, b, c, d$, kuri ir savstarpēji pirmskaitļi 
 $m = ad - bc$. Pierādiet, ka visām veselām $x$ un $y$ vērtībām, kurām $ax + by$ 
 dalās ar $m$, skaitlis $cx + dy$ arī dalās ar $m$.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -2044,6 +2301,13 @@ iegūsim, ka $m \mid(cx+dy)$.
 Doti tādi veseli skaiţ̦i $u$ un $v$, ka $u^{2}+u v+v^{2}$ dalās ar 9. 
 Pierādiet, ka abi skaitlii $u$ un $v$ dalās ar $3$.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -2062,6 +2326,13 @@ iegūstam, ka abi skaitļi $u$ un $v$ dalās ar $3$.
 
 Pierādiet, ka naturāls skaitlis $n$ ir pirmskaitlis tad un tikai tad, kad eksistē viens vienīgs 
 skaitļu pāris $(x, y)$, kuram izpildās vienādība $\frac{1}{x}-\frac{1}{y}=\frac{1}{n}$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2090,6 +2361,12 @@ $i=n_{1}, x=n-n_{1}, y=\left(n-n_{1}\right) n_{2}$.
 Atņemot no divciparu skaița $\overline{ab}$ divciparu skaitli $\overline{ba}$, ieguva naturāla 
 skaiţ̦a kubu. Atrast visus tādus skaiţlus, kuriem izpildās šāda īpašība.
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2106,6 +2383,13 @@ tad iegūtais kvadrāts varēja būt $9$, $36$ vai $81$. No šejienes seko, ka $
 # <lo-sample/> BBK2012.P1.67
 
 Pirmo $n$ naturālo skaitlu summa ir trīsciparu skaitlis, kuram visi cipari ir vienādi. Atrast skaitli $n$.
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2127,9 +2411,16 @@ $$1+2+\cdots+36=666.$$
 
 # <lo-sample/> BBK2012.P1.68
 
-Zināms, ka divu dotu racionālu skaitlu summa un reizinājums ir veseli skaitli. 
-Pierādīt, ka dotie skaitļi paši ir veseli.
-Vai apgalvojums paliek spēkā, ja nav zināms, ka dotie skaitļi ir racionāli?
+Zināms, ka divu dotu racionālu skaitlu summa un reizinājums ir veseli skaitļi.  
+**(A)** Pierādīt, ka dotie skaitļi paši ir veseli.  
+**(B)** Vai apgalvojums paliek spēkā, ja nav zināms, ka dotie skaitļi ir racionāli?
+
+<small>
+
+* questionType:Prove,ProveDisprove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2169,6 +2460,13 @@ Naturālu skaitli sauc par interesantu, ja tā ciparu summa dalās ar $5$.
 **(B)** Cik pavisam ir tādu interesantu $x$, kādi minēti (A) punktā?  
 **(C)** Pierādīt: starp jebkuriem 9 pēc kārtas n̦emtiem naturāliem skaitliem ir vismaz viens interesants.
 
+<small>
+
+* questionType:FindExample,FindCount,Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -2190,6 +2488,12 @@ tāpēc viena no tām dalās ar $5$.
 
 Atrodiet divciparu skaitli, kurš ir vienāds ar otrā cipara kvadrāta un pirmā cipara summu.
 
+<small>
+
+* questionType:FindExample
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2206,6 +2510,13 @@ Tāpēc $b(b-1)$ dalās ar $9$. Tas ir iespējams tikai, ja cipars $b$ ir $9$.
 
 Atrodiet trīsciparu skaitli, kuru kāpinot jebkurā naturālā pakāpē, iegūstam skaitli, 
 kura pēdējie trīs cipari veido sākotnējo skaitli.
+
+<small>
+
+* questionType:FindExample
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2234,10 +2545,15 @@ kurām izpildās sekojošas īpašības:
 a. visiem naturāliem $n$, $a_n \leq n\sqrt{n}$,  
 b. visiem naturāliem $m$ un $n$ starpība $a_m - a_n$ dalās ar $m-n$.
 
-<!--
-questionType=FindAll
-concepts=square-root
--->
+
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+* concepts:square-root
+
+</small>
 
 
 ## Atrisinājums
@@ -2262,6 +2578,13 @@ b. Otrajā gadījumā analoǵiski pierāda, ka $a_{n}=n$ visiem naturāliem $n$.
 
 Dots naturāls skaitlis $m$. Noteikt cik daudz ir tādu veselu nenegatīvu skaitlu $k$, 
 kuriem $m+k^{2}$ ir pilns kvadrāts.
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2300,6 +2623,13 @@ ja $m$ ir pilns kvadrāts.
 Pierādiet, ka pirmos $n$ naturālos skaitlus nevar sadalīt divās grupās tā, lai visu vienas 
 grupas skaitlu reizinājums būtu vienāds ar visu otrās grupas skaitḷu reizinājumu.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -2317,6 +2647,13 @@ reizinājums dalīsies ar $p$, bet otrs nē. Tātad šie reizinājumi nevar būt
 Atrodiet visus tādus naturālus skaitlus $m$, kuriem izpildās vienādība
 
 $$1! \cdot 3! \cdot 5! \cdot \cdots \cdot (2m-1)! = \left(\frac{m(m+1)}{2}\right)!$$
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2339,6 +2676,13 @@ ka šis skaitlis dalās ar $2$, otrais -- ka šis skaitlis dalās ar $3$, utt.,
 trīsdesmitais -- ka šis skaitlis dalās ar $31$. 
 Izrādījās, ka $28$ skolnieki ir pateikuši taisnību, bet divi, ka atbildēja viens pēc otra, 
 ir kļūdījušies. Kuri no skolniekiem kḷūdījās?
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2368,6 +2712,13 @@ No nosacījuma $15 < 2^{n} \leq 31$ seko, ka $2^{n}=16$. Der tikai skaitļu pār
 Atrodiet visus reālu skaitļu trijniekus $(a, b, c)$, kuriem visi skaitļi 
 $\frac{a}{b}+\frac{b}{c}$, $\frac{b}{c}+\frac{c}{a}, \frac{c}{a}+\frac{a}{b}$ ir veseli.
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -2394,6 +2745,13 @@ bet nepāra skaitļu reizinājums nevar būt pāra skaitlis.
 
 Pien̦msim, ka $p$ un $q$ ir divi viens otram sekojoši nepāra pirmskaitļi.
 Pierādīt, ka $p+q$ ir vismaz trīs naturālu skaitļu reizinājums, katrs no kuriem ir lielāks par $1$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2470,6 +2828,13 @@ Vai $(n-1)!$ dalās ar $n$, ja
 **(C)** $n=1991$,  
 **(D)** $n=1993$?
 
+<small>
+
+* questionType:ProveDisprove,ProveDisprove,ProveDisprove,ProveDisprove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -2485,6 +2850,13 @@ Vai $(n-1)!$ dalās ar $n$, ja
 
 Pierādīt, ka var atrast $1000$ pēc kārtas ņemtus naturālus skaitļus starp 
 kuriem nav neviena pirmskaitļa.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2503,6 +2875,14 @@ Starp šiem skaitļiem nav pirmskaitļu, jo skaitlis $1001!+k$ dalās ar $k$, ja
 Pierādiet, ka mazākais naturālais skaitlis $N>1$, kurš ir savstarpējais pirmskaitlis ar 
 skaițiem $1,2, \ldots, n$, ir pirmskaitlis.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Pien̦emsim, ka skaitlim $N$ eksistē dalītājs $d$, kurš ir atšķirīgs no $1$ un $N$. tad skaitlis 
@@ -2518,6 +2898,13 @@ Tas ir pretrunā ar skaitļa $N$ izvēli. Tātad $N$ ir pirmskaitlis.
 Pierādiet, ka eksistē bezgalīgi daudz tādu pirmskaitlu $q$, kuriem eksistē tāds naturāls skaitlis $n<q$, 
 ka skaitlis $(n-1)!+1$ dalās ar $q$.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -2532,6 +2919,13 @@ No šejienes $q>n$. Tā kā $n$ ir jebkurš skaitlis, tad šādu skaitļu $q$ ek
 # <lo-sample/> BBK2012.P1.83
 
 Kādiem naturāliem $n$ skaitlis $(n-1)!$ nedalās ar $n$?
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2559,6 +2953,13 @@ Tas seko no nevienādības $n-1 = p^{2}-1 > 2p$.
 Dots nepāra skaitlis $n>1$. Pierādiet, ka $n$ un $n+2$ ir pirmskaitļi tad un tikai tad, 
 kad $(n-1)!$ nedalās ne ar $n$, ne ar $n+2$.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -2573,6 +2974,13 @@ Apgrieztā apgalvojuma pierādījums analoǵisks iepriekšējā uzdevuma pierād
 
 Ar $n?$ apzīmēsim visu pirmskaitḷu reizinājumu, kuri nepārsniedz $n$. 
 Pierādiet, ka visiem $n \geq 4$ izpildās nevienādība $(n-1)? > n$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -2591,6 +2999,14 @@ Iegūta pretruna, kas pierāda, ka prasītā nevienādība vienmēr izpildās.
 
 Ar $p_{n}$ apzīmēsim $n$-to pēc kārtas pirmskaitli. Pierādiet, ka visiem naturāliem 
 $n$ izpildās nevienādība $p_{n}<2^{2^{n}}$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -2619,6 +3035,14 @@ Pierādiet, ka eksistē bezgalīgi daudz tādu pirmskaitļu $p$, ar kuriem vien�
 $x^{2}+x+1 = py$ eksistē atrisinājums veselos skaitļos.
 
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Pien̦emsim, ka pirmskaitļu, kam izpildās dotā īpašība ir galīgs skaits, un apzīmēsim tos ar 
@@ -2643,9 +3067,19 @@ Tātad šādu pirmskaitļu skaits nav ierobežots.
 Ar $q_{n}$ apzīmēsim mazāko pirmskaitli, kurš nav $n$ dalītājs. 
 Pierādiet, ka $\lim _{n \rightarrow \infty} \frac{q_{n}}{n}=0$.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
-Pierādījumā aplūko skaiţ̦u $p_{1} p_{2} \cdots p_{n}-1$ un $p_{1} p_{2} \cdots p_{n}+1$ visus pirmreizinātājus.
+Pierādījumā aplūko skaiţ̦u 
+$p_{1} p_{2} \cdots p_{n}-1$ un $p_{1} p_{2} \cdots p_{n}+1$ 
+visus pirmreizinātājus.
 
 
 
@@ -2656,9 +3090,14 @@ Pierādīt, bezgalīgi daudziem pirmskaitļiem $p$ var
 atrast tādus naturālus skaitļus $x$ un $y$, ka 
 $2x^2 + 2x + 1 = py$. 
 
-<!--
-sameAs=LV.OTHER.TST.1979.9.1
--->
+
+<small>
+
+* questionType:Prove
+* domain:NT
+* sameAs=LV.OTHER.TST.1979.9.1
+
+</small>
 
 
 ## Atrisinājums
@@ -2684,7 +3123,7 @@ citu pirmskaitli, ne ar $P_{1}, P_{2}, P_{3}, \ldots, P_{\mathrm{n}}$. Iegūta p
 ## Lielākais kopīgais dalītājs un mazākais kopīgais dalāmais
 
 
-# <lo-sample/> BBK2012.P1.E4.1
+# <lo-exercise/> BBK2012.P1.E4.1
 
 Izdalīt ar atlikumu:  
 **(A)** $1996$ ar $11$,  
@@ -2699,7 +3138,7 @@ Izdalīt ar atlikumu:
 
 ## Atrisinājums
 
-**(A)** $1996=11 \times 181+5$; 181 ir nepilnais dalījums, 5 ir atlikums.
+**(A)** $1996=11 \times 181+5$; $181$ ir nepilnais dalījums, $5$ ir atlikums.
 **(B)** $200=10 \times 20+0$;
 **(C)** $15=1 \times 15+0$;
 **(D)** $0=5 \times 0+0$;
@@ -2712,7 +3151,7 @@ Izdalīt ar atlikumu:
 
 
 
-# <lo-sample/> BBK2012.P1.E4.2
+# <lo-exercise/> BBK2012.P1.E4.2
 
 Ar Eiklīda algoritmu aprēķināt:  
 **(A)** $(33,18)$,  
@@ -2752,7 +3191,7 @@ $$\gcd(312, 138) = \gcd(128, 36) = \gcd(36,30) = \gcd(30, 6) = 6.$$
 
 
 
-# <lo-sample/> BBK2012.P1.E4.3
+# <lo-exercise/> BBK2012.P1.E4.3
 
 Izmantojot formulu $[a,b] = ab/(a,b)$, aprēķināt $[a,b]$:  
 **(A)** $[30,18]$,  
@@ -2771,7 +3210,7 @@ Izmantojot formulu $[a,b] = ab/(a,b)$, aprēķināt $[a,b]$:
 
 
 
-# <lo-sample/> BBK2012.P1.E4.4
+# <lo-exercise/> BBK2012.P1.E4.4
 
 Saīsināt daļas:  
 **(A)** $39/24$,  
@@ -2786,7 +3225,7 @@ Saīsināt daļas:
 
 
 
-# <lo-sample/> BBK2012.P1.E4.5
+# <lo-exercise/> BBK2012.P1.E4.5
 
 Ar Eiklīda algoritmu aprēķināt $d=(a,b)$, un izteikt skaitli $d$ formā $ua + vb$.  
 **(A)** $(15,9)$,  
@@ -2826,7 +3265,7 @@ Tātad $(15,9)=3=(-1) \times 15+2 \times 9$;
 
 
 
-# <lo-sample/> BBK2012.P1.E4.6
+# <lo-exercise/> BBK2012.P1.E4.6
 
 Dots, ka $a-b$ dalās ar $5$, un $a+b$ dalās ar $5$. Pierādiet, ka abi skaitļi 
 $a$ un $b$ dalās ar $5$.
@@ -2840,7 +3279,7 @@ Līdzīgi pierāda, ka $b$ dalās ar $5$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.7
+# <lo-exercise/> BBK2012.P1.E4.7
 
 Dalot skaitli $a$ ar $13$, iegūstam nepilno dalījumu $17$. 
 Noteikt skaiț̣a $a$ lielāko iespējamo vērtību.
@@ -2854,7 +3293,7 @@ vērtība ir $a = 13 \times 17 + 12=233$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.8
+# <lo-exercise/> BBK2012.P1.E4.8
 
 Dalot skaitli $x$ ar $7$, iegūstam nepilno dalījumu $11$. 
 Kādas vērtības var pien̦emt skaitlis $x$?
@@ -2867,7 +3306,7 @@ $x=7 \times 11+\mathrm{r}$, $0 \leq r<7$. Tātad $x$ var pien̦emt vērtības $7
 
 
 
-# <lo-sample/> BBK2012.P1.E4.9
+# <lo-exercise/> BBK2012.P1.E4.9
 
 Skaitli $a$ dalot ar $12$, atlikumā iegūstam $7$. Kādu atlikumu iegūsim, skaitli 
 $a$ dalot ar $6$?
@@ -2880,7 +3319,7 @@ $a = 12q+7 = 6(2q+1) + 1$. Skaitli $a$ dalot ar $6$, atlikumā iegūsim $1$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.10
+# <lo-exercise/> BBK2012.P1.E4.10
 
 Skaitli $a$ dalot ar $18$, atlikumā iegūstam $12$. Kādu atlikumu iegūsim, 
 skaitli $a$ dalot ar $3$?
@@ -2892,7 +3331,7 @@ $a = 18q+12 = 3(6q+4)+0$. Skaitli $a$ dalot ar $3$, atlikumā iegūsim $0$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.11
+# <lo-exercise/> BBK2012.P1.E4.11
 
 Dots, ka $(a,b)=6$. Kādas vērtības var pien̦emt sekojošie skaitļi?  
 **(A)** $(a, b+5a)$,  
@@ -2935,7 +3374,7 @@ $(4a+6b-2(2a+2b), 2a+2b) = (2b, 2a+2b) = (2b, 2a) = 2(b, a)=12$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.12
+# <lo-exercise/> BBK2012.P1.E4.12
 
 Dots, ka $(x, y)=10$. Kādas vērtības var pien̦mt sekojošie skaitļi?  
 **(A)** $(x, y+3x)$,  
@@ -2957,7 +3396,7 @@ Atbildes: **(A)** 10 ; **(B)** 10 ; **(C)** $10 ; 20$; **(D)** 30; **(E)** $10;2
 
 
 
-# <lo-sample/> BBK2012.P1.E4.13
+# <lo-exercise/> BBK2012.P1.E4.13
 
 Dots, ka $10 \mid (4a+3b)$ un $10 \mid (3a+5b)$. Pierādiet, ka $10 \mid a$ 
 un $10 \mid b$.
@@ -2971,7 +3410,7 @@ $3(4a+3b) - 4(3a+5b) = -11b$ dalās ar $10$. Tātad arī $b$ dalās ar $10$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.14
+# <lo-exercise/> BBK2012.P1.E4.14
 
 Pierādiet, ka trīs pēc kārtas n̦emtu naturālu skaițlu reizinājums dalās ar $6$.
 
@@ -2985,7 +3424,7 @@ Pierāda, ka šis reizinājums dalās ar $2$ un ar $3$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.15
+# <lo-exercise/> BBK2012.P1.E4.15
 
 Dots, ka $6 \mid(3a-8b)$ un $6 \mid (2a-3b)$. Pierādiet, ka $36 \mid \left(a^{2} + ab + b^{2}\right)$.
 
@@ -2999,7 +3438,7 @@ dalās ar $36$. Tātad $\left( a^{2}+ab+b^{2} \right)$ dalās ar $36$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.16
+# <lo-exercise/> BBK2012.P1.E4.16
 
 Pierādiet, ka skaitļi $\left(n^{3}-1\right)/(n-1)$ un $(n+1)^{2}$ ir savstarpēji pirmskaitļi. 
 
@@ -3013,7 +3452,7 @@ $\left(n^{2}+n+1-(n+1) n, n\right)=(1, n)=1$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.17
+# <lo-exercise/> BBK2012.P1.E4.17
 
 Dots, ka $2a+3b$ dalās ar $5$ un $2a+9b$ dalās ar $5$. Pierādiet, ka abi skaitļi $a$ un $b$ dalās ar $5$.
 
@@ -3026,7 +3465,7 @@ $2a=(2a+3b)-3b$ dalās ar $5$, un arī $a$ dalās ar $5$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.18
+# <lo-exercise/> BBK2012.P1.E4.18
 
 Cik daudz ir trīsciparu skaitļu, kas dalās ar $13$?
 
@@ -3041,7 +3480,7 @@ kas dalās ar $13$. Tātad trīsciparu skaitḷu, kas dalās ar $13$, pavisam ir
 
 
 
-# <lo-sample/> BBK2012.P1.E4.19
+# <lo-exercise/> BBK2012.P1.E4.19
 
 Cik daudz ir četrciparu skaițlu, kas dalās ar $7$?
 
@@ -3054,7 +3493,7 @@ Cik daudz ir četrciparu skaițlu, kas dalās ar $7$?
 
 
 
-# <lo-sample/> BBK2012.P1.E4.20
+# <lo-exercise/> BBK2012.P1.E4.20
 
 Pierādiet, ka skaitļi $n^{3} + 2n$ un $n^{2}+1$ ir savstarpēji pirmskaitļi visām $n$ vērtībām.
 
@@ -3067,7 +3506,7 @@ $\left(n, n^{2}+1-n \cdot n\right)=(n, 1)=1$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.21
+# <lo-exercise/> BBK2012.P1.E4.21
 
 Dalāmais ir vienāds ar $371$, bet nepilnais dalījums ir $14$. 
 Nosakiet iespējamās dalītāja vērtības un atbilstošos atlikumus.
@@ -3085,7 +3524,7 @@ $371=14 x+r<14 x+x=15 x$, tātad $x>371 / 15>24$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.22
+# <lo-exercise/> BBK2012.P1.E4.22
 
 Dalot skaitli $100$ ar $b$, atlikumā ieguvām $6$. Kādas vērtības var pien̦emt skaitlis $b$?
 
@@ -3098,7 +3537,7 @@ Tātad $b=47$ vai $b=94$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.23
+# <lo-exercise/> BBK2012.P1.E4.23
 
 Dots, ka $(a,c)=1$ un $(b,c)=1$. Pierādiet, ka $(ab, c)=1$.
 
@@ -3116,7 +3555,7 @@ vai $7$. Tā kā $n$ ir nepāra skaitlis, tad šis atlikums var būt tikai $7$.
 
 
 
-# <lo-sample/> BBK2012.P1.E4.24
+# <lo-exercise/> BBK2012.P1.E4.24
 
 Dots, ka $(a,b)=1$. Kādas vērtības var pieņemt skaitlis 
 $\left(a+b, a^{2}+b^{2}\right)$?
@@ -3138,7 +3577,7 @@ būt pāra skaitļi. Atliek divas iespējas:
 
 
 
-# <lo-sample/> BBK2012.P1.E4.25
+# <lo-exercise/> BBK2012.P1.E4.25
 
 Pierādiet, ka četru pēc kārtas n̦emtu naturālu skaitļu reizinājums dalās ar $24$.
 
@@ -3150,7 +3589,7 @@ Pierāda, ka četru pēc kārtas n̦emtu naturālu skaitlu reizinājums dalās a
 
 
 
-# <lo-sample/> BBK2012.P1.E4.26
+# <lo-exercise/> BBK2012.P1.E4.26
 
 Dots, ka $5\,\mid\,(4a+7b)$ un $5\,\mid\,(3a+8b)$. Pierādiet, ka $250\,\mid\,ab(a+b)$.
 
@@ -3178,6 +3617,14 @@ Tātad $2 \times 5 \times 5 \times 5=250 \mid ab(a+b)$.
 Dots, ka $a$ un $b$ ir divi naturāli skaitļi. Vai var būt, ka to lielākais kopējais dalītājs 
 ir $32$, bet to mazākais kopīgais dalāmais ir $1200$?
 
+<small>
+
+* questionType:ProveDisprove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Nē, nevar būt. Divu skaitlu mazākais kopīgais dalāmais dalās ar katru no dotajiem skaitļiem, 
@@ -3189,6 +3636,14 @@ tātad dalās arī ar to lielāko kopīgo dalāmo; bet $1200$ nedalās ar $32$.
 # <lo-sample/> BBK2012.P1.91
 
 Pierādīt, ka skaiţu $19951995$ un $19952003$ lielākais kopīgais dalītājs ir $1$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -3206,6 +3661,14 @@ Dots naturāls skaitlis $n$. Pierādīt, ka abi skaiț̣i $2n+5$ un $3n+8$ vienl
 ne ar kādu naturālu skaitli, kas lielāks par $1$.
 
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Pien̦emsim, ka $2n+5$ un $3 n+8$ dalās ar kādu naturālu skaitli $m$. Tad ar $m$ dalās 
@@ -3218,9 +3681,15 @@ arī skaitlis $3 \cdot(2n+5) - 2 \cdot(3n+8)=1$. Tātad $m=1$.
 Dots, ka $n$ - naturāls skaitlis. Pierādīt, ka $3n+2$ 
 un $7n+5$ ir savstarpēji pirmskaitļi.
 
-<!--
-sameAs=LV.OTHER.TST.1976.9.3
--->
+
+<small>
+
+* questionType:Prove
+* domain:NT
+* sameAs:LV.OTHER.TST.1976.9.3
+
+</small>
+
 
 ## Atrisinājums
 
@@ -3237,14 +3706,14 @@ Kāda var būt lielākā šīs progresijas diferences vērtība?
 
 <small>
 
+* questionType:FindOptimal
+* domain:NT:
 * topic:GcdAndLcm
+* seeAlso:BBK2012.P1.36
 
 </small>
 
-<!--
-seeAlso=BBK2012.P1.36
-questionType=FindOptimal
--->
+
 
 ## Atrisinājums
 
@@ -3263,6 +3732,14 @@ pieder aritmētiskai progresijai $a_{n} = 8m+1$, kuras diference ir $8$.
 Atrodiet kaut vienu tādu naturālu skaitli $n$, ka $n$ dalās ar $6,(n+1)$ dalās ar $5$, 
 $(n+2)$ dalās ar $4$, $(n+3)$ dalās ar $3$, $(n+4)$ dalās ar $2$.
 
+<small>
+
+* questionType:
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Tāds skaitlis, piemēram, ir $54$.
@@ -3279,7 +3756,16 @@ Tādu skaitļu ir bezgalīgi daudz. Piemēram, visi skaiţ̦i, kas uzrakstāmi f
 # <lo-sample/> BBK2012.P1.96
 
 Dots, ka $n$ dalās ar $6$, $n$ - naturāls skaitlis. Pierādīt, ka $n$ var sadalīt 
-triju dažādu veselu pozitīvu saskaitāmo summā tā, lai katriem diviem no tiem lielākais kopīgais dalītājs būtu $1$.
+triju dažādu veselu pozitīvu saskaitāmo summā tā, lai katriem diviem no tiem 
+lielākais kopīgais dalītājs būtu $1$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -3288,7 +3774,7 @@ Ja $n=6k$, ņemam saskaitāmos $2k-1, 2k, \quad 2k+1$.
 Blakus esošiem naturāliem skaitļiem LKD vienmēr ir $1$. Atliek pārbaudīt, ka arī skaiţlu 
 $2k-1$ un $2k+1$ LKD ir $1$. Tiešām, ja skaiţli $2k-1$ un $2k+1$ abi dalās ar $x$, 
 tad arī to starpība (skaitlis $2$) dalās ar $x$. Tātad $x=1$ vai $x=2$. Tā kā $2k+1$ 
-nedalās ar $2$, tad skaitļu $2k-1$ un $2k+1$ LKD ir 1 .
+nedalās ar $2$, tad skaitļu $2k-1$ un $2k+1$ LKD ir $1$.
 
 
 
@@ -3300,9 +3786,15 @@ var izsacīt kā triju tādu
 naturālu skaitļu summu, no kuriem katriem diviem 
 lielākais kopīgais dalītājs ir $1$.
 
-<!--
-sameAs=LV.OTHER.TST.1985.9.3
--->
+
+<small>
+
+* questionType:
+* domain:NT
+* sameAs:LV.OTHER.TST.1985.9.3
+
+</small>
+
 
 ## Atrisinājums
 
@@ -3341,6 +3833,14 @@ $$\left\{\begin{array}{l}
 x \cdot y \cdot u \cdot v = 3600 \\
 u + v = 32 \\
 \end{array}\right.$$
+
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -3383,10 +3883,15 @@ katriem diviem lielākais kopīgais dalītājs ir $1$?
 (Piemēram, pieraksts $123;45678;9$ neder, 
 jo $123$ un $9$ abi dalās ar $3$.)
 
-<!--
-questionType=FindOptimal
-seeAlso=LV.NO.2001.7.4
--->
+
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+* seeAlso:LV.NO.2001.7.4
+
+</small>
+
 
 ## Atrisinājums
 
@@ -3409,6 +3914,14 @@ Sešciparu skaitļa $N$ pirmais cipars ir $7$, piektais - $2$,
 bet pēdējais - nepāra skaitlis. Zināms, ka dalot $N$ ar skaiţ̧iem $3$, $4$, $7$, $9$, $11$ un $13$, 
 rezultātā iegūstam vienādus atlikumus. Atrodiet skaitli $N$.
 
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Ar $r$ apzīmēsim atlikumu, ko iegūstam, dalot skaitli $N$ ar $3,4,7,9,11,13$. 
@@ -3429,6 +3942,14 @@ vērtības redzam, ka der tikai skaitlis $x=20$, un meklētais skaitlis $N$ ir $
 Doti naturāli skaiți $a_{1}<a_{2}<\cdots<a_{n}$. Pierādiet, ka 
 $\left[ a_{1}, a_{2}, \ldots, a_{n} \right] \geq n a_{1}$.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Apzīmēsim ar $A$ skaiț̣u $a_{1}, a_{2}, \ldots, a_{n}$ mazāko kopīgo dalāmo. 
@@ -3447,6 +3968,14 @@ Tātad $A \geq n a_{1}$; prasītais pierādīts.
 Doti naturāli skaiţ̦i $a$ un $b$. Pierādiet, ka no skaitļiem $a, 2a, 3a, \ldots, ba$ tieši 
 $(a,b)$ dalās ar $b$.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Apzīmēsim $(a, b)=d$. Tad $a=rd$, $b=s d$, $(r, s)=1$. Skaitļus 
@@ -3461,6 +3990,14 @@ Starp pirmajiem $s$ skaiţliem šādu skaitļu ir tieši $d$. Apgalvojums pierā
 # <lo-sample/> BBK2012.P1.103
 
 Doti veseli skaiţ̦i $a$ un $b$. Pierādiet, ka skaitļu $a+b$ un $a^{2}+b^{2}$ LKD ir vienāds ar $1$ vai $2$.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -3477,17 +4014,18 @@ $$a_1=19,\;a_2=90,\;a_{n+2}=a_n+a_{n+1},\;\mbox{ja}\;n=1,2,3,\ldots.$$
 Atrast skaitļu $a_{1989}$ un $a_{1990}$ lielāko kopīgo dalītāju.
 
 
+
 <small>
 
+* questionType:FindAll
+* domain:NT
 * topic:LinearRecurrencesConstant
 * topic:InvariantAlgebraic
 * topic:NumTheoryMathInduction
 
 </small>
 
-<!--
-questionType=FindAll
--->
+
 
 ## Atrisinājums
 
@@ -3510,6 +4048,13 @@ $$\begin{aligned}
 
 Kādu lielāko vērtību var pieņemt skaitļu $a_{1}, a_{2}, \ldots, a_{10}$ LKD, 
 ja to summa ir $1001$?
+
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -3534,6 +4079,13 @@ $$a_{1}+a_{2}+a_{3}+\cdots+a_{10}=1001$$
 
 Kādas vērtības var būt skaitļu $a_{1}, a_{2}, a_{3}, \ldots, a_{10}$ 
 lielākajam kopīgajam dalītājam?
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -3561,6 +4113,14 @@ Atlikušajām $6$ vērtībām var norādīt atbilstošos piemērus:
 Skaitlis $2401$ ir izteikts kā $25$ naturālu skaitļu summa. 
 Kāda ir mazākā iespējamā šo skaitļu MKD vērtība?
 
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 *Atbilde:* $98$.
@@ -3583,6 +4143,14 @@ Skaiţu komplektu, kuru MKD ir $98$ izvēlamies šādi: $24$ reizes skaitlis $98
 Kādu lielāko daudzumu naturālu skaitļu, kas nepārsniedz $360$, var izvēlēties tā, 
 lai neviens no tiem nebūtu pirmskaitlis, bet katru divu izraudzīto skaitļu 
 lielākais kopīgais dalītājs būtu $1$?
+
+<small>
+
+* questionType:FindOptimal
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -3611,12 +4179,22 @@ Pierādīt, ka no katriem
 pēc kārtas n̦emtiem naturāliem skaiţ̦iem var izvēlēties vienu tā, 
 ka tas ir savstarpējs pirmskaitlis ar katru no pārējiem.
 
+<small>
+
+* questionType:Prove,Prove,Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
-**(A)** no skaițiem $n, n+1, n+2$ var izvēlēties skaitli $n+1$;  
+**(A)** no skaițiem $n, n+1, n+2$ var izvēlēties skaitli $n+1$;
+
 **(B)** katri divi no pieciem pēc kārtas ņemtiem skaitļiem atšķiras par $1$, $2$, $3$ vai $4$.
 No šiem skaiţ̧iem izvēlēsimies tādu, kurš nedalās ne ar $2$, ne ar $3$. 
-Tas būs savstarpējs pirmskaitlis ar visiem pārējiem skaitļiem.  
+Tas būs savstarpējs pirmskaitlis ar visiem pārējiem skaitļiem.
+
 **(C)** katri divi no septiņiem pēc kārtas n̦emtiem skaitļiem atšķiras par $1$, $2$, 
 $3$, $4$, $5$ vai $6$. Starp tiem ir vismaz 3 nepāra skaitļi 
 $n, n+2, n+4$. No šiem skaitļiem tikai viens var dalīties ar 3 un viens var 
@@ -3629,6 +4207,14 @@ dalīties ar $5$. Atlikušais skaitlis apmierina uzdevuma nosacījumus.
 
 Doti naturāli skaiţ̧i $a$ un $b$. Zināms, ka $\frac{a+1}{b}+\frac{b+1}{a}$ ir vesels skaitlis.
 Pierādīt, ka $(a, b) \leq \sqrt{a+b}$.
+
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -3651,6 +4237,14 @@ Apzīmēsim $(a, b)$ ar $d$ un $a^{\prime}, b^{\prime}$ ar $d^{\prime}$.
 Pierādīt, ka $\left(a a^{\prime}, a b^{\prime}, b a^{\prime}, b b^{\prime}\right)=d d^{\prime}$.
 
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Izmantojot LKD īpašības, iegūstam
@@ -3668,6 +4262,14 @@ $$\begin{aligned}
 Vai skaitlis $x$ noteikti ir racionāls, ja zināms, ka racionāli ir sekojoši skaitļi   
 **(A)** $x^{55}$ un $x^{89}$,  
 **(B)** $x^{91}$ un $x^{42}$?
+
+<small>
+
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -3688,6 +4290,14 @@ Doti naturāli skaiţ̦i $a, b, c$, kuriem $(a, b, c)=1$, un izpildās vienādī
 $$\frac{1}{a}+\frac{1}{b}=\frac{1}{c}$$
 
 Pierādiet, ka $a+b$ ir naturāla skaiţ̦a kvadrāts.
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -3712,6 +4322,14 @@ dalās ar $d$, un $a_{1}+b_{1}=d$. Rezultātā iegūstam, ka $a+b=d\left(a_{1}+b
 Naturāliem skaiţ̧iem $x, y, z$ izpildās vienādība $\frac{1}{x}-\frac{1}{y}=\frac{1}{z}$. 
 Skaitļu $x, y, z$ lielākais kopīgais dalītājs ir $h$. Pierādīt, ka skaitļi $h x y z$ un $h(y-z)$ ir kvadrāti.
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Apzīmēsim $x=ah$, $y=bh$, $z=ch$, $(a, b, c)=1$. 
@@ -3734,9 +4352,14 @@ Redzam, ka $n$ ir skaitlu $a, b$ un $c$ dalītājs; tātad $n=1$ un $b-a=k^{2}$.
 Atrodiet visus tādus dažādu naturālu skaitļu trijniekus, 
 kuriem skaitļi $ab$, $ac$ un $bc$ veido aritmētisko progresiju.
 
-<!--
-questionType=FindAll
--->
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
+
 
 ## Atrisinājums
 
@@ -3774,6 +4397,14 @@ $(u, v)$, kuriem $[u, v]=n$. Pierādiet, ka šādu pāru skaits ir
 vienāds ar skaiț̣a $n^{2}$ pozitīvo dalītāju skaitu.
 
 
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
+
 ## Atrisinājums
 
 Lai pierādītu prasīto apgalvojumu, katram naturālu skaitlu pārim $(u ; v)$, kuram $[u, v]=1$, 
@@ -3797,16 +4428,22 @@ No šejienes seko prasītais.
 
 Aplūkojam visus naturālos skaitļus no $1$ līdz  
 $2\,000\,000$ ieskaitot. Izvēlēsimies
-no tiem kaut kādus  $1\,000\,001$ skaitļus.
-Pierādīt, ka starp izvēlētajiem skaitļiem 
+no tiem kaut kādus  $1\,000\,001$ skaitļus.  
+**(A)** Pierādīt, ka starp izvēlētajiem skaitļiem 
 noteikti atradīsies divi tādi, kas ir savstarpēji
-pirmskaitļi.
-Vai to noteikti var apgalvot, ja tiek izvēlēti 
+pirmskaitļi.  
+**(B)** Vai to noteikti var apgalvot, ja tiek izvēlēti 
 $1\,000\,000$ skaitļi?
 
-<!--
-sameAs=LV.OTHER.TST.1981.9.2
--->
+
+<small>
+
+* questionType:Prove,ProveDisprove
+* domain:NT
+* sameAs:LV.OTHER.TST.1981.9.2
+
+</small>
+
 
 ## Atrisinājums
 
@@ -3836,6 +4473,14 @@ nodzēsto skaitlu lielāko kopīgo dalītāju un mazāko kopīgo dalāmo.
 
 Pierādīt, ka izdarot šādus gājienus pietiekami ilgi, uz tāfeles uzrakstītie 
 skaitļi kādreiz pārstās mainīties.
+
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -3872,13 +4517,12 @@ ir bezgalīgi daudz locekļu, kas ir savstarpēji pirmskaitļi ar skaitli $m$.
 
 <small>
 
+* questionType:Prove
+* domain:NT
 * topic:ArithmeticSeriesAll
 
 </small>
 
-<!--
-questionType=Prove
--->
 
 
 ## Atrisinājums
@@ -3915,6 +4559,14 @@ $12$ skaitliem var izvēlēties $x$ skaiţ̧us tā, ka katri divi no izvēlētaj
 skaiţ̦liem ir savstarpēji pirmskaitļi.  
 **(A)** Pierādīt, ka $x \leq 4$.  
 **(B)** Pierādīt, ka var gadīties, ka $x=4$.
+
+
+<small>
+
+* questionType:Prove,Prove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -3967,15 +4619,14 @@ lielāko kopīgo dalītāju.
 
 <small>
 
+* questionType:FindAll
+* domain:NT
 * topic:NonlinearRecurrences
 * topic:InvariantAlgebraic
 * topic:NumTheoryMathInduction
 
 </small>
 
-<!--
-questionType=FindAll
--->
 
 
 ## Atrisinājums
@@ -4022,16 +4673,15 @@ Cik daudz ir tādu naturālu skaitļu $n \leq 1983$, kuriem $3n+5$ dalās ar $7$
 
 <small>
 
+* questionType:FindCount
+* domain:NT
 * topic:ArithmeticSeriesDivisibility
 * topic:MultiplesInInterval
 * topic:SequencePeriodicity
+* seeAlso:LV.VO.1983.8.1
 
 </small>
 
-<!--
-questionType=FindCount
-seeAlso=LV.VO.1983.8.1
--->
 
 ## Atrisinājums
 
@@ -4050,16 +4700,14 @@ Cik daudz ir tādu naturālu skaitļu $n \leq 1000$, kuri nedalās ne ar $5$, ne
 
 <small>
 
+* questionType:FindCount
+* domain:NT
 * topic:GcdAndLcm
 * topic:ArithmeticSeriesDivisibility
 * topic:SequencePeriodicity
 * topic:MultiplesInInterval
 
 </small>
-
-<!--
-questionType=FindCount
--->
 
 ## Atrisinājums
 
@@ -4075,12 +4723,11 @@ Atrast
 **(B)** visu to naturālo skaitļu summu, kas nepārsniedz $1000$ un dalās 
 vai nu ar $3$, vai ar $5$.
 
-<!--
-questionType=FindAll
--->
 
 <small>
 
+* questionType:FindAll,FindAll
+* domain:NT
 * topic:InclusionExclusionPrinciple
 * topic:SequencePeriodicity
 
@@ -4105,15 +4752,12 @@ un kuri dalās ar $3$?
 
 <small>
 
+* questionType:FindCount
+* domain:NT
 * topic:ChineseRemainderTheorem
 * topic:SequencePeriodicity
 
 </small>
-
-<!--
-questionType=FindCount
--->
-
 
 ## Atrisinājums
 
@@ -4133,14 +4777,13 @@ Pietiek uzrādīt vienu šādu $1328$ skaitļu komplektu.
 
 <small>
 
+* questionType:FindExample
+* domain:NT
 * topic:SequencePeriodicity
+* concepts:mutual-primes,gcd
 
 </small>
 
-<!--
-concepts=mutual-primes,gcd
-questionType=FindExample
--->
 
 ## Atrisinājums
 
@@ -4159,9 +4802,13 @@ $$\left\lfloor \frac{n}{k} \right\rfloor +
 \left\lfloor \frac{n+1}{k} \right\rfloor + \ldots + 
 \left\lfloor \frac{n+k-1}{k} \right\rfloor = n.$$
 
-<!--
-questionType=Prove
--->
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
 
 
 ## Atrisinājums
@@ -4190,9 +4837,14 @@ $$=\left\lfloor \frac{q}{p} \right\rfloor +
 \left\lfloor \frac{3q}{p} \right\rfloor + \ldots + 
 \left\lfloor \frac{(p-1)q}{p} \right\rfloor.$$
 
-<!--
-questionType=Prove
--->
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -4210,9 +4862,14 @@ $$\left\lfloor \frac{n+1}{2} \right\rfloor +
 \left\lfloor \frac{n+2}{2^2} \right\rfloor + \ldots + 
 \left\lfloor \frac{n+2^k}{2^{k+1}} \right\rfloor + \ldots.$$
 
-<!--
-questionType=FindAll
--->
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -4244,9 +4901,13 @@ $$\sum_{k=1}^n \left\lfloor \frac{n}{k} \right\rfloor =
 n \in \mathbb{N}, n\geq 2$$
 izpildās tad un tikai tad, kad $n$ ir pirmskaitlis.
 
-<!--
-questionType=Prove
--->
+
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
 
 
 
@@ -4275,9 +4936,14 @@ ne ar vienu no skaitliem $2,3, \ldots, n-1$; t.i., kad $n$ ir pirmskaitlis.
 Atrodiet visus tādus naturālus skaitļus $k$, kuriem virkne $k+1,k+2,\ldots,k+100$
 satur maksimālo iespējamo pirmskaitļu skaitu.
 
-<!--
-questionType=FindAll
--->
+
+<small>
+
+* questionType:FindAll
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 
@@ -4307,9 +4973,13 @@ $$d(1)+d(2)+\ldots+d(n)= \left\lfloor \frac{n}{1} \right\rfloor +
 \left\lfloor \frac{n}{n} \right\rfloor.$$
 
 
-<!--
-questionType=Prove
--->
+<small>
+
+* questionType:Prove
+* domain:NT
+
+</small>
+
 
 ## Atrisinājums
 

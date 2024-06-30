@@ -6,6 +6,7 @@ $n(n+1)$ un $3n^3-2$ ir pāra skaitļi?
 <small>
 
 * questionType:FindCount
+* domain:NT
 
 </small>
 
@@ -21,6 +22,7 @@ kuriem var būt arī vienādi?
 <small>
 
 * questionType:FindCount
+* domain:Alg
 
 </small>
 
@@ -34,6 +36,7 @@ iekavas izteiksmē $15:14:13:12:11:10:9:8:7:6:5:4:3:2$?
 <small>
 
 * questionType:FindOptimal
+* domain:Alg
 
 </small>
 
@@ -52,6 +55,7 @@ $a$ un $b$, ka $a + \frac{b}{a} - \frac{1}{b} = n^2$?
 <small>
 
 * questionType:Prove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -64,6 +68,7 @@ skaitļi $x+y$, $x+z$, $y+z$ ir iracionāli.
 <small>
 
 * questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -80,6 +85,7 @@ katri divi no izvēlētajiem ir savstarpēji pirmskaitļi.
 <small>
 
 * questionType:Prove,Prove
+* domain:NT
 
 </small>
 
@@ -94,9 +100,10 @@ koordinātas ir veseli skaitļi.
 
 <small>
 
+* questionType:Prove,ProveDisprove
+* domain:NT
 * topic:PythagoreanTriples
 * topic:BezoutIdentity
-* questionType:Prove,ProveDisprove
 
 </small>
 
@@ -111,6 +118,7 @@ Izrādījās, ka $B$ dalās ar $A$. Kāds var būt dalījums?
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -123,11 +131,12 @@ skaitļa $2^n$ pirmo ciparu, iegūst divnieka pakāpi ar naturālu kāpinātāju
 
 <small>
 
+* questionType:FindAll
+* domain:NT
 * topic:CountingObjects
 * topic:PeriodicRemainders
 * topic:DivisibilityRulesFor3And9
 * topic:IntegerFactorization
-* questionType:FindAll
 
 </small>
 
@@ -177,6 +186,7 @@ $\sqrt[3]{5\sqrt{2} + 7} - \sqrt[3]{5\sqrt{2} - 7} = 2$.
 <small>
 
 * questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -188,6 +198,7 @@ Atrisināt naturālos skaitļos vienādojumu $x^2+3^x=y^2$.
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -200,6 +211,7 @@ saprot visu naturālo skaitļu reizinājumu no $1$ līdz $y$ ieskaitot.)
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -212,9 +224,10 @@ skaitļa kubs. Kādas ir $x$ un $y$ vērtības?
 
 <small>
 
+* questionType:FindAll
+* domain:NT
 * topic:FactorizationAndProperties
 * topic:ExhaustionMethod
-* questionType:FindAll
 
 </small>
 
@@ -258,6 +271,7 @@ ir naturāla skaitļa kvadrāts?
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -279,6 +293,7 @@ sasniegt?
 <small>
 
 * questionType:FindAll
+* domain:Comb
 
 </small>
 
@@ -297,6 +312,7 @@ Andris. Kurš uzvar, pareizi spēlējot?
 <small>
 
 * questionType:Algorithm
+* domain:Comb
 
 </small>
 
@@ -315,6 +331,7 @@ veido aritmētisku progresiju?
 * topic:IntegerFactorization
 * topic:ArithmeticAndGeometricSeries
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -348,6 +365,7 @@ $(4n+3,6n+1)$ vērtību, ja $n$ - naturāls skaitlis.
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -363,10 +381,11 @@ dalās ar naturālu skaitli $x$. Kādas var būt $x$ vērtības?
 
 <small>
 
+* questionType:FindAll
+* domain:NT
 * topic:DivisibilityRuleFor11
 * topic:ExtremeElementMethod
 * topic:EuclideanAlgorithm
-* questionType:FindAll
 
 </small>
 
@@ -401,6 +420,7 @@ $x_1;x_2;x_3;\ldots;x_k$ ir pirmskaitļi?
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -416,6 +436,7 @@ kvadrāti?
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -431,7 +452,8 @@ $a! \cdot b! \cdot c! \cdot d! = e!$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -444,11 +466,13 @@ nākošajās rindiņās katrs skaitlis vienāds ar abu virs tā uzrakstīto
 skaitļu summu. Kāds skaitlis atrodas apakšējā "virsotnē" tabulā, kas
 veidota līdzīgi un kuras augšējā rindiņā izrakstīti 
 naturāli skaitļi no $1$ līdz $2003$ ieskaitot?  
+
 ![](LV.VOL.2003.12.4.png)
 
 <small>
 
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -463,7 +487,8 @@ Vai tas ir iespējams, ja
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -477,6 +502,7 @@ Kāds vislielākais pirmskaitlis var būt uzrakstīts uz tāfeles?
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -489,6 +515,7 @@ skaitļa kvadrāts?
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -506,6 +533,7 @@ nav naturāla skaitļa kubs.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -523,7 +551,8 @@ skaitlim $A$ galā skaitli $B$.
 
 <small>
 
-* questionType:FindExample,Prove,ProveDisprove
+* questionType:FindExample,Prove,Prove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -538,6 +567,7 @@ Jūsu atrastajiem nav.
 <small>
 
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -553,6 +583,7 @@ Atrast mazāko iespējamo $n$ vērtību.
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -571,6 +602,7 @@ d. visiem $x$ un $y$ no definīcijas apgabala skaitlis
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -578,12 +610,13 @@ d. visiem $x$ un $y$ no definīcijas apgabala skaitlis
 # <lo-sample/> LV.VOL.2005.11.4
 
 Dots, ka $p$ – pirmskaitlis. Pierādīt, ka apgalvojumi "eksistē tāds
-vesels $x$, ka $x^2+x+3$ dalās ar $p$” un "eksistē tāds vesels $y$, ka
+vesels $x$, ka $x^2+x+3$ dalās ar $p$" un "eksistē tāds vesels $y$, ka
 $y^2+y+25$ dalās ar $p$" vai nu abi ir pareizi, vai abi – nepareizi.
 
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -602,6 +635,7 @@ Par skaitļu virkni $x_1, x_2, x_3, \ldots$ zināms, ka
 <small>
 
 * questionType:Prove,FindAll
+* domain:Alg
 
 </small>
 
@@ -615,6 +649,7 @@ skaitļa $640000$ dalītāji.
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -628,6 +663,7 @@ $p+q+1$ arī ir pirmskaitļi?
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -645,6 +681,7 @@ pašā krāsā (starp šīm vērtībām var būt arī savā starpā vienādas)?
 <small>
 
 * questionType:FindOptimal
+* domain:Alg
 
 </small>
 
@@ -653,12 +690,13 @@ pašā krāsā (starp šīm vērtībām var būt arī savā starpā vienādas)?
 # <lo-sample/> LV.VOL.2006.11.2
 
 Reālu skaitļu virknē $(a_n)$, $n = 1; 2; 3; \ldots$, pirmo locekli $a_1$ izvēlas
-patvaļīgi, bet katru nākošo aprēķina pēc formulas $a_{n+1} = a_n(a_n+2)$ ,
+patvaļīgi, bet katru nākošo aprēķina pēc formulas $a_{n+1} = a_n(a_n+2)$,
 $n=1; 2; 3; \ldots$. Kādas vērtības var pieņemt $a_{2006}$?
 
 <small>
 
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -671,6 +709,7 @@ Atrisināt naturālos skaitļos vienādojumu $(x+y)(xy+1) = 2^z$.
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -679,16 +718,17 @@ Atrisināt naturālos skaitļos vienādojumu $(x+y)(xy+1) = 2^z$.
 # <lo-sample/> LV.VOL.2006.12.1
 
 Pierādīt, ka 
-$$\left( 1 + tg 1^{\circ} \right) 
-\left( 1 + tg 2^{\circ} \right) 
-\left( 1 + tg 3^{\circ} \right) 
+$$\left( 1 + \mbox{tg}\, 1^{\circ} \right) 
+\left( 1 + \mbox{tg}\, 2^{\circ} \right) 
+\left( 1 + \mbox{tg}\, 3^{\circ} \right) 
 \ldots
-\left( 1 + tg 44^{\circ} \right) 
-\left( 1 + tg 45^{\circ} \right) = 2^{23}.$$
+\left( 1 + \mbox{tg}\, 44^{\circ} \right) 
+\left( 1 + \mbox{tg}\, 45^{\circ} \right) = 2^{23}.$$
 
 <small>
 
 * questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -721,7 +761,7 @@ skaitļi? (Saknes var būt arī vienādas.)
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:ProveDisprove,ProveDisprove
 
 </small>
 
@@ -729,7 +769,7 @@ skaitļi? (Saknes var būt arī vienādas.)
 
 # <lo-sample/> LV.VOL.2007.9.5
 
-![squares](LV.VOL.2007.9.5.png)
+![](LV.VOL.2007.9.5.png)
 
 **(A)** Vai var 1.zīm. parādītās tabulas rūtiņās ierakstīt naturālus skaitļus no $1$
 līdz $9$ (katrā rūtiņā – citu skaitli) tā, lai izpildītos īpašība: ja rinda un kolonna
@@ -740,7 +780,8 @@ $81$ (katrā rūtiņā – citu skaitli) tā, lai izpildītos tāda pati īpaš�
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -755,7 +796,8 @@ $x^2 - y^2 - x + y$ vērtība ir
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -774,6 +816,7 @@ $$\frac{1}{x(2)\cdot{}y(2)}+
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -782,7 +825,7 @@ $$\frac{1}{x(2)\cdot{}y(2)}+
 
 # <lo-sample/> LV.VOL.2007.10.5
 
-Uz papīra lapas uzrakstīti n dažādi naturāli skaitļi, kas nepārsniedz $14$. Ir
+Uz papīra lapas uzrakstīti $n$ dažādi naturāli skaitļi, kas nepārsniedz $14$. Ir
 zināms: katru no naturāliem skaitļiem $1;2;3;\ldots;27$ var izsacīt vai nu kā $x$,
 vai kā $2x$, vai kā $x + y$, kur $x$ un $y$ - kaut kādi uzrakstītie skaitļi.
 Pierādīt, ka  
@@ -792,6 +835,7 @@ Pierādīt, ka
 <small>
 
 * questionType:Prove,Prove
+* domain:Comb
 
 </small>
 
@@ -805,7 +849,8 @@ Dots, ka $n$ - naturāls skaitlis.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -816,8 +861,10 @@ Dots, ka $n$ - naturāls skaitlis.
 Reālu skaitļu virknē $a_1, a_2, a_3, \ldots$ dots, ka $a_{11} = 4$, 
 $a_{22} = 2 un $a_{33} = 1$.
 Bez tam visiem naturāliem $n$ pastāv vienādība
+
 $$\frac{a_{n+3} - a_{n+3}}{a_n - a_{n+1}} = 
 \frac{a_{n+3} + a_{n+3}}{a_n + a_{n+1}}.$$
+
 Pierādīt, ka  
 **(A)** neviens virknes loceklis nav $0$,  
 **(B)** virkne ir periodiska,  
@@ -828,6 +875,7 @@ naturāls skaitlis.
 <small>
 
 * questionType:Prove,Prove,Prove
+* domain:NT
 
 </small>
 
@@ -846,6 +894,7 @@ Atbildēt uz šo jautājumu, ja
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -860,6 +909,7 @@ dalās gan ar $x$, gan ar $y$, nav $x+y$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -874,6 +924,7 @@ ciparus, iegūst $\sqrt[3]{x}$?
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -890,6 +941,7 @@ $n = [x,y] + [y,z] + [z,x]$?
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -906,6 +958,7 @@ $$\left| \ldots
 <small>
 
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -921,6 +974,7 @@ Pierādīt, ka $n$ dalās ar $11$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -933,6 +987,7 @@ $$x^2 + \left( x + 1 \right)^2 = y^2,\;\;\mbox{ja $x \leq 200$}.$$
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -950,6 +1005,7 @@ sekojošu naturālu skaitļu var visi būt vienkārši?
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -967,6 +1023,7 @@ Kādas ir iespējamās $n$ vērtības?
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -981,6 +1038,7 @@ vienu aritmētisku progresiju?
 <small>
 
 * questionType:FindOptimal
+* domain:Alg
 
 </small>
 
@@ -993,6 +1051,7 @@ $2009^{2009}-2009$ lielāko kopīgo dalītāju.
 <small>
 
 * questionType:FindExample
+* domain:NT
 
 </small>
 
@@ -1011,6 +1070,7 @@ Kāds var būt skaitlis $n$?
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -1025,6 +1085,7 @@ naturālu skaitļu kvadrāti?
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -1041,6 +1102,7 @@ naturālu skaitļu visi var būt *skaisti*?
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -1058,6 +1120,7 @@ tāds virknes loceklis, kas dalās ar $n$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1075,6 +1138,7 @@ Pierādīt, ka $p=q=1$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1094,6 +1158,7 @@ Vai ir iespējams, ka **(A)** $k=7$, **(B)** $k=8$?
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -1111,6 +1176,7 @@ dotajiem vienādojumiem saknes ir veseli skaitļi?
 <small>
 
 * questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
@@ -1137,6 +1203,7 @@ izpildītos šādas trīs īpašības:
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1148,16 +1215,13 @@ $f(2011) = 100$, bet $f(11) = 1000$?
 
 <small>
 
+* questionType:ProveDisprove
+* domain:NT
 * topic:PolynomialDifferenceDivisibility
 * topic:AdvancedIdentities
-* questionType:ProveDisprove
+* concepts:integer-polynomial
 
 </small>
-
-<!--
-concepts=integer-polynomial
-questionType=ProveDisprove
--->
 
 
 
@@ -1170,6 +1234,7 @@ arī ir pirmskaitlis.
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -1184,6 +1249,7 @@ vienādība $\left( 2n \right)^{2n}-1 = m^3$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1199,7 +1265,8 @@ reizinājums var būt skaitlis $20112012$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -1215,17 +1282,15 @@ Pierādīt, ka skaitļa $N^2$ decimālajā pierakstā nav cipara $0$.
 
 <small>
 
+* questionType:Prove
 * strategy:TrialAndError 
 * topic:SeriesMembersSumsClosedFormulas
 * topic:PeriodicDigitGroups
-* questionType:Prove
+* concepts:full-square
+
 
 </small>
 
-<!--
-concepts=full-square
-questionType=Prove
--->
 
 
 
@@ -1260,6 +1325,7 @@ skaitļiem $n > 1$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1275,6 +1341,7 @@ $a_n - \sqrt{a_{n+1}}=2$.
 <small>
 
 * questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -1291,6 +1358,7 @@ Atrast vienu šādu virkņu piemēru.
 <small>
 
 * questionType:FindExample
+* domain:Alg
 
 </small>
 
@@ -1312,6 +1380,7 @@ $\lfloor 0,2 \rfloor =0$ u.tml.)
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -1328,6 +1397,7 @@ $\overline{abcd} + \overline{abc} + \overline{ab} + a = 2013$.
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -1351,6 +1421,7 @@ $\lfloor 0,2 \rfloor =0$ u.tml.)
 <small>
 
 * questionType:FindExample
+* domain:Alg
 
 </small>
 
@@ -1364,15 +1435,13 @@ nav atrisinājuma naturālos skaitļos.
 
 <small>
 
+* questionType:Prove
+* domain:NT
 * topic:CountingUsingSymmetry
 * topic:NumTheoryInequalityLargeIntervals
-* questionType:Prove
 
 </small>
 
-<!--
-genre=integer-equation
--->
 
 
 
@@ -1408,17 +1477,15 @@ skaitļa kvadrāti.
 
 <small>
 
+* questionType:Prove
+* domain:NT
 * topic:FibonacciNumbers
 * topic:PeriodicRemainders
 * topic:ModularArithmetic
-* questionType:Prove
+* concepts:fibonacci-sequence,full-square
 
 </small>
 
-
-<!--
-concepts=fibonacci-sequence,full-square
--->
 
 
 
@@ -1471,23 +1538,28 @@ $n^2 + 4n + 16$ dalās ar $36$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
 
 # <lo-sample/> LV.VOL.2013.12.3
 
-Funkcija $f$ apmierina šādas prasības:  
-1) $f$ ir definēta visiem veseliem nenegatīviem skaitļiem
-un tās vērtības ir veseli skaitļi;  
-2) katram $n$ ($n$ – vesels nenegatīvs skaitlis) 
-izpildās sakarība
-$$f(n) \cdot (f(n+1 )-2) = 4n^2-1.$$
+Funkcija $f$ apmierina šādas prasības:
+
+1. $f$ ir definēta visiem veseliem nenegatīviem skaitļiem
+   un tās vērtības ir veseli skaitļi;
+2. katram $n$ ($n$ – vesels nenegatīvs skaitlis) 
+   izpildās sakarība
+
+   $$f(n) \cdot (f(n+1 )-2) = 4n^2-1.$$
+
 Atrast visas šādas funkcijas $f$ un pierādīt, ka citu nav.
 
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -1504,6 +1576,7 @@ Atrast visas iespējamās $n$ vērtības.
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -1520,6 +1593,7 @@ ir tādi, kas dalās ar $5$?
 <small>
 
 * questionType:FindCount,FindCount
+* domain:NT
 
 </small>
 
@@ -1531,17 +1605,15 @@ $\frac{n^3+3}{n+3}$, gan $\frac{n^4+4}{n+4}$ ir veseli skaitļi.
 
 <small>
 
+* questionType:FindAll
+* domain:NT
 * topic:PolynomialLongDivision
 * topic:DivisorNumberAndSum
-* questionType:FindAll
+* concepts:integer-polynomial
 
 </small>
 
 
-<!--
-concepts=integer-polynomial
-questionType=FindAll
--->
 
 
 
@@ -1622,16 +1694,13 @@ iespējams apmaksāt izmantojot tikai šīs pastmarkas?
 
 <small>
 
+* questionType:FindOptimal
+* domain:NT
 * topic:ArithmeticSeriesAll
 * topic:NumTheoryInequalityLargeIntervals
-* questionType:FindOptimal
+* concepts:linear-expression
 
 </small>
-
-<!--
-genre=optimization
-concepts=linear-expression
--->
 
 
 
@@ -1665,6 +1734,7 @@ $a+14$, $a+22$, $a+32$, $a+46$ var būt pirmskaitļi.
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -1680,6 +1750,7 @@ skaitļu kvadrātu summu.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1697,6 +1768,7 @@ $$n + f(1) + f(2) + \ldots + f(n-1) = n\cdot{}f(n).$$
 <small>
 
 * questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -1712,6 +1784,7 @@ kvadrātu summa vienāda ar $n^2$.
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -1725,6 +1798,7 @@ kuriem $\frac{2015}{n^4 - m^4}$ arī ir naturāls skaitlis!
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -1751,6 +1825,7 @@ nav, jo $25; 50; 100; 100; \ldots$
 <small>
 
 * questionType:FindCount
+* domain:Alg
 
 </small>
 
@@ -1764,10 +1839,11 @@ dalās ar $10$.
 
 <small>
 
+* questionType:Prove
+* domain:NT
 * topic:DivisibilityProperties
 * topic:ModularParity
 * topic:ModularArithmetic
-* questionType:Prove
 
 </small>
 
@@ -1801,6 +1877,7 @@ vērtība ir vesels skaitlis!
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1817,6 +1894,7 @@ iespējamo $b$ vērtību!
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -1829,6 +1907,7 @@ $2269^n + 2151^n + 1389^n - 1779^n$ dalās ar $2015$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1843,6 +1922,7 @@ Pierādīt, ka arī $x^2y$ ir naturāla skaitļa kubs!
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1856,6 +1936,7 @@ mazāko pirmreizinātāju!
 <small>
 
 * questionType:FindExample
+* domain:NT
 
 </small>
 
@@ -1880,6 +1961,7 @@ Kādi ir četri nākamie skaitļi, kas virknē seko aiz skaitļa $2016$?
 <small>
 
 * questionType:FindExample
+* domain:NT
 
 </small>
 
@@ -1893,6 +1975,7 @@ Pierādīt, ka arī $x^{10}y$ ir naturāla skaitļa 33. pakāpe!
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1903,24 +1986,26 @@ Pierādīt, ka arī $x^{10}y$ ir naturāla skaitļa 33. pakāpe!
 
 Pitagora trijstūrī visu malu garumi ir lielāki nekā $5$. 
 Vai var gadīties, ka tā
-**(a)** trīs malu, **(b)** divu malu garumi ir pirmskaitļi?  
+**(A)** trīs malu, **(B)** divu malu garumi ir pirmskaitļi?
+
 *Piezīme.* Pitagora trijstūris ir taisnleņķa trijstūris, 
 kam visi malu garumi ir naturāli skaitļi.
 
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
 
 ## Ieteikums
 
-Var izmantot paritāti - analizēt gadījumus, kad malu garumi ir pāra (nepāra skaitļi). 
+Izmantot paritāti - aplūkot pāra un nepāra malu garumus. 
 
 ## Ieteikums
 
-Pitagora trijnieka skaitļus ievietot algebriskā identitātē - kvadrātu starpības formulā. 
+Pitagora trijnieka skaitļus ievietot kvadrātu starpības formulā. 
 
 
 ## Atrisinājums
@@ -1967,15 +2052,15 @@ Pierādīt, ka arī $x^{433}y$ ir naturāla skaitļa 2016. pakāpe!
 
 <small>
 
+* questionType:Prove
+* domain:NT
 * topic:FactorizationAndProperties
 * topic:LinearSystemsTransforms
-* questionType:Prove
+* concepts:full-power
 
 </small>
 
-<!--
-concepts=full-powers
--->
+
 
 
 
@@ -2018,15 +2103,14 @@ $$\frac{1}{n}=\frac{1}{x(x+1)}+\frac{1}{(x+1)(x+2)}+\cdots{}+\frac{1}{y(y+1)}.$$
 
 <small>
 
+* questionType:Prove
+* domain:Alg
 * topic:StandardIdentities
 * topic:TelescopicSums
-* questionType:Prove
 
 </small>
 
-<!--
-concepts=long-sums
--->
+
 
 ## Ieteikums
 
@@ -2082,6 +2166,7 @@ Vai šajā virknē ir skaitlis **(A)** 2001, **(B)** 2006?
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -2119,6 +2204,7 @@ septītā pakāpe!
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -2133,6 +2219,7 @@ trīsciparu skaitļiem dalās ar savu ciparu summu!
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -2152,6 +2239,7 @@ ka $f(a) = g(b; c)$.
 <small>
 
 * questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -2166,6 +2254,7 @@ ka citu nav!
 <small>
 
 * questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -2186,6 +2275,7 @@ sākotnējais skaitlis?
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -2199,19 +2289,17 @@ Pierādīt, ka tā ciparus var pārkārtot citā secībā tā, lai jauniegūtais
 
 <small>
 
+* questionType:Prove
+* domain:NT
 * topic:DivisibilityRulesFor2And4
 * topic:NotationShift
 * topic:ModularArithmetic
 * topic:ExhaustionMethod
-* questionType:Prove
+* concepts:primes
 
 </small>
 
-<!--
-strategy=strengthen-the-hypothesis
-concepts=primes
-genre=digit-manipulation
--->
+
 
 ## Ieteikums 
 
@@ -2292,6 +2380,7 @@ izvēlēties $9$ skaitļus tā, lai to summa dalītos ar $9$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -2309,6 +2398,7 @@ naturāla skaitļa kvadrāts!
 <small>
 
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -2327,6 +2417,7 @@ vismaz divi dod vienādus atlikumus!
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -2346,16 +2437,15 @@ Piemēram, skaists trijnieks ir $8$, $9$, $10$.
 
 <small>
 
+* questionType:FindExample,Prove
+* domain:NT
 * topic:DivisibilityRulesFor2And4
 * topic:DivisibilityRulesFor3And9
 * topic:NotationInsert
-* questionType:FindExample,Prove
+* concepts:sum-of-digits
 
 </small>
 
-<!--
-concepts=sum-of-digits
--->
 
 
 
@@ -2391,6 +2481,7 @@ Piemēram, skaists piecinieks ir $6, 7, 8, 9, 10$.
 <small>
 
 * questionType:FindExample,Prove
+* domain:NT
 
 </small>
 
@@ -2403,6 +2494,7 @@ Atrisināt veselos skaitļos vienādojumu $x^6 + 3x^3 + 1 = y^4$.
 <small>
 
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -2427,15 +2519,14 @@ var izteikt kā pirmskaitļa un salikta skaitļa summu!
 
 <small>
 
+* questionType:Prove
+* domain:NT
 * strategy:TrialAndError
 * topic:ModularParity
-* questionType:Prove
+* concepts:prime
 
 </small>
 
-<!--
-concepts=primes
--->
 
 
 
@@ -2465,18 +2556,15 @@ vērtība nav naturāla skaitļa kvadrāts!
 
 <small>
 
+* questionType:Prove
+* domain:NT
 * topic:PeriodicRemainders
 * topic:DivisibilityRulesOther
-* questionType:Prove
+* concept:full-square
 
 </small>
 
 
-<!--
-genre=integer-equation
-concept=full-square
-questionType=Prove
--->
 
 
 
@@ -2490,6 +2578,7 @@ kvadrāts!
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -2504,6 +2593,7 @@ vērtība nav naturāla skaitļa kvadrāts!
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -2520,6 +2610,7 @@ kur $m$ un $n$ ir nenegatīvi veseli skaitļi, ir $2019$.
 <small>
 
 * questionType:FindExample,FindExample
+* domain:NT
 
 </small>
 
@@ -2534,6 +2625,7 @@ pierakstot galā $37$. Pierādīt, ka neviens šīs virknes loceklis nedalās ar
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -2547,6 +2639,7 @@ gadīties, ka šīs saknes ir **(A)** veseli skaitļi, **(B)** racionāli skait�
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -2564,7 +2657,8 @@ Kurš spēlētājs – pirmais vai otrais – uzvarēs, pareizi spēlējot?
 
 <small>
 
-* questionType:Algorithm
+* questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
@@ -2579,7 +2673,8 @@ Pierādīt, ka ir bezgalīgi daudz elegantu skaitļu!
 
 <small>
 
-* questionType:Prove 
+* questionType:Prove
+* domain:NT
 
 </small>
 
@@ -2592,6 +2687,7 @@ kas dalās ar $13$ un kura ciparu summa ir $K$.
 <small>
 
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -2611,6 +2707,7 @@ Vai var panākt, lai uz lapas būtu uzrakstīts skaitlis $2022$
 <small>
 
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
