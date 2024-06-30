@@ -22,7 +22,7 @@ notation and is divisible by $15$?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Pamatosim, ka mazākais skaitlis, kas atbilst nosacijumiem ir $2220$. 
@@ -35,7 +35,7 @@ cipari un šis skaitlis ir $2220$.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 We show that the smallest number satisfying the conditions is $2220$. 
@@ -74,7 +74,7 @@ perimeter is the number of sides of the little squares on its border.
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Piemēram, der 1.att. redzamais sešstūris, kuram perimetrs ir 
@@ -83,7 +83,7 @@ $20$ un arī laukums ir $20$.
 ![](LV.AMO.2022B.5.2A.png)
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Consider the hexagon shown in Fig.1. Its perimeter is $20$ and the area is also $20$.
@@ -118,7 +118,7 @@ $250$ tickets were made for the theatre performance and at least half of them we
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Lai skatītāju skaitu varētu sadalīt tieši trīs, piecās un 
@@ -129,7 +129,7 @@ $105 \cdot 2=210$ biļetes.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 *Answer.* $210$ tickets were sold.
@@ -172,7 +172,7 @@ balance scale (d) is also in equilibrium? Justify your answer!
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Jautājuma zīmes vietā jāliek sešas bultiņas. Izteiksim visu figūru 
@@ -189,7 +189,7 @@ masa ir tikpat, cik desmit bultiņu masa. Tātad piecstūra masa ir
 tikpat, cik sešu bultiņu masa.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 We need to place six arrows instead of the question mark. 
@@ -247,7 +247,7 @@ What colour does every girl like? Justify your answer!
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Gunai patīk oranžā, Elīnai - zalā un Marutai - dzeltenā krāsa.
@@ -263,7 +263,7 @@ tad secinām, ka Elīnai patīk zalā krāsa. Tātad Marutai patīk dzeltenā kr
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Guna likes orange, Elina likes green, and Maruta likes yellow. 
@@ -315,7 +315,7 @@ least two different colors?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Pamatosim, ka $249$ skaitlii ir apvilkti ar vismaz divu krāsu zīmuḷiem.
@@ -342,7 +342,7 @@ Secinām, ka kopā ir $134+96+57-38 = 249$ skaitļi, kas dalās ar
 vismaz diviem skaitlliem, tātad tie ir apvilkti ar vismaz divu krāsu zīmuḷiem.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 We show that $249$ numbers are circled with at least two colors.
@@ -403,7 +403,7 @@ The figures can also be rotated.
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Skat., piemēram, 4. att.
@@ -413,7 +413,7 @@ Skat., piemēram, 4. att.
 
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 See, for example, Fig.4.
@@ -453,7 +453,7 @@ Could it happen that Maris gets a sum whose last digit is
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 **(A)** Jā, var, piemēram, $1+2+3+4+5+6+7=28$.
@@ -505,7 +505,7 @@ tāpēc tas nevar būt summas pēdējais cipars.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 **(A)**  
@@ -591,7 +591,7 @@ How many circles should you put in place of the question mark so that the balanc
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Jautājuma zīmes vietā jāliek pieci aplǐši. Izteiksim visu figūru 
@@ -609,7 +609,7 @@ Tātad četrstūra masa ir tikpat, cik piecu aplīšu masa.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer.* The question mark should be replaced by five circles. 
@@ -677,7 +677,7 @@ How many villagers lie all the time?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Ciemā ir $21$ melis.
@@ -697,7 +697,7 @@ $378-273=105$ atbildes "jā". Tātad par meḷiem mums
 jāpārvērš $105:5=21$ ciema iedzīvotājs.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 *Answer.* In the village there are $21$ liars. 
@@ -744,7 +744,7 @@ number is divisible by $15$. In how many ways can you do this?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Prasīto var izdarīt $6$ veidos.
@@ -770,7 +770,7 @@ $A=5$ un $B=5$;
 $A=8$ un $B=5$.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer.* This can be done in $6$ ways. 
@@ -814,7 +814,7 @@ Do there exist **(A)** $5$; **(B)** $15$ positive integers
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums 
 
 **(A)** Jā, var, piemēram, der skaitļi $1,1,2,2,2$, jo $1+1+2+2+2=8$ un 
@@ -827,7 +827,7 @@ $1 \cdot 1 \cdot 2 \cdot 2 \cdot 2=8$
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 **(A)** Yes, the numbers $1,1,2,2,2$ satisfy the condition, since 
@@ -865,14 +865,14 @@ exactly three points are marked on each line!
 
 ## Atrisinājums
 
-<text lang="lv">
+<text num="1" lang="lv">
 Skat., piemēram, 5. att.
 
 ![](LV.AMO.2022B.7.3A.png)
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 An possible answer is shown in Fig.5. 
@@ -915,7 +915,7 @@ Which player, can always win if there are initially
 
 ## Atrisinājums 
 
-<text lang="lv">
+<text num="1" lang="lv">
 Abos gadījumos vienmēr var uzvarēt Brālītis. Lai to panāktu, 
 viņš var rīkoties šādi: katrā gājienā, ja Karlsons ēd vienu konfekti, 
 tad Brālītis ēd divas un otrādi, ja Karlsons ēd divas, 
@@ -930,7 +930,7 @@ bet **(B)** gadījumā Brālítis uzvarēs pēc $2022: 3=674$. gājiena.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Lillebror can win in both cases. To achieve this, he can proceed 
@@ -990,7 +990,7 @@ How many villagers lie all the time?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 *Atbilde.* Ciemā ir $24$ meḷi.
@@ -1010,7 +1010,7 @@ atbildes "jā". Tātad par meḷiem mums jāpārvērš $120:5=24$ ciema iedzīvo
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 *Answer.* In the village there are $24$ liars. 
@@ -1058,7 +1058,7 @@ In how many ways can you do this?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Prasīto var izdarīt $6$ dažādos veidos.
@@ -1084,7 +1084,7 @@ $(N,M)=(7,2)$; $(N,M)=(3,6)$; $(N,M)=(6,6)$; $(N,M)=(9,6)$.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 The requirements can be satisfied in $6$ different ways. 
@@ -1136,7 +1136,7 @@ correctly, if his total score is $13$?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums 
 
 Skolēns pareizi atrisināja $6$ uzdevumus. Pamatosim, 
@@ -1167,7 +1167,7 @@ nepareizi atrisināja $7$ uzdevumus, bet $7$ uzdevumus nerisināja.
 | $\mathbf{11}$ | Nē |
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 *Answer.* The student solved $6$ tasks correctly. 
@@ -1220,7 +1220,7 @@ of $ABC$!
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Tā kā $AD=BD$, tad trijstūris $ABD$ ir vienādsānu 
@@ -1253,7 +1253,7 @@ $$\begin{aligned}
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Since $AD=BD$, the triangle $ABD$ is an isosceles 
@@ -1316,7 +1316,7 @@ around a circle so that any two adjacent numbers differ by $3$, $4$, or $5$?
 
 ## Atrisinājums 
 
-<text lang="lv">
+<text num="1" lang="lv">
 **(A)** Pamatosim, ka prasītais nav iespējams.  
 Ievērosim, ka skaitli 0; 1; 2; 8 un 9 nevar būt uzrakstiti blakus 
 viens otram, jo katru divu skaitlu starpība nav 3; 4 vai 5. 
@@ -1333,7 +1333,7 @@ ierakstīts, par cik atškiras skaitļi.
 ![](LV.AMO.2022B.8.4A.png)
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 **(A)** Let us show that it is impossible. Note that the numbers 
@@ -1396,7 +1396,7 @@ How many friends speak the truth?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums 
 
 Pamatosim, ka tikai viens no draugiem saka taisnību. Ievērojam:
@@ -1409,7 +1409,7 @@ No tā izriet, ka gan Guna, gan Maruta, gan Emīls melo.
 Tātad tikai viens no draugiem saka taisnību.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 *Answer.* We show that only one of the friends speaks the truth. 
@@ -1451,7 +1451,7 @@ but different letters may or may not be the same.)
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums 
 
 Pamatosim, ka ir 10 skaitlļi, kas atbilst uzdevuma nosacījumiem: 
@@ -1473,7 +1473,7 @@ $$A+B=1+8=2+7=3+6=4+5=5+4=6+3=7+2=8+1=9+0$$
 Ja $A+B=18$, tad iespējams tikai viens gadijums $A+B=9+9$.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 There are $10$ numbers that satisfy the conditions: 
@@ -1516,7 +1516,7 @@ Is the inequality always true: $x + \frac{9}{x} > y + \frac{9}{y}$, if
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 **(A)** Nē, piemēram, ja $x=1$ un $y=0,1$, tad 
@@ -1540,7 +1540,7 @@ $$0 < (xy-9)(x-y)=x^{2}y - xy^{2} -9x + 9y$$
 Līdz ar to esam ieguvuši vajadzīgo.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 **(A)** 
@@ -1594,7 +1594,7 @@ Prove that the line $CH$ divides the segment $BK$ in half!
 </small>
 
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Apzīmējam $CH$ un $KB$ krustpunktu ar $O$ un 
@@ -1620,7 +1620,7 @@ dala nogriezni $BK$ divās vienādās daḷās
 ![](LV.AMO.2022B.9.3A.png)
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Denote the intersection of $CH$ and $KB$ with $O$ and $\sphericalangle CBK=\sphericalangle BAC=\alpha$, 
@@ -1676,7 +1676,7 @@ on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums 
 
 **(A)** Pamatosim, ka prasītais nav iespējams.
@@ -1704,7 +1704,7 @@ par cik atšķiras skaitļi.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 **(A)** We show that it is impossible.  
@@ -1781,7 +1781,7 @@ Can the director of the museum create such route?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 **(A)** Jā, var, skat., piemēram, 12. att.
@@ -1799,7 +1799,7 @@ Taču tā nevar būt, jo šī rūtiņas atrodas blakus rūtiņai,
 kurā maršruts sākās. Līdz ar to iegūta pretruna, tāpēc šāds maršruts neeksistē.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 **(A)** Yes, he can. See, for example, Fig.12. 
@@ -1844,7 +1844,7 @@ What is the last digit of $2022^{2022}$?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Skaitļa pēdējo ciparu noskaidrosim, apskatot doto skaitli 
@@ -1873,7 +1873,7 @@ cipars būs $4$. Līdz ar to esam ieguvuši, ka skaitļa
 $2022^{2022}$ pēdējais cipars ir $4$.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 We find the last digit of the number by looking at it 
@@ -1911,7 +1911,7 @@ We conclude that the last digit of $2022^{2022}$ is $4$.
 
 
 
-<text lang="lv">
+<text num="2" lang="lv">
 ## Atrisinājums
 
 Skaitļa pēdējo ciparu noskaidrosim, apskatot doto skaitli pēc moduḷa $10$. 
@@ -1925,7 +1925,7 @@ Līdz ar to esam ieguvuši, ka skaitla $2022^{2022}$ pēdējais cipars ir $4$.
 
 
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution 
 
 The last digit of this number is determined by 
@@ -1967,7 +1967,7 @@ Each group must contain at least $2$ numbers.
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums 
 
 **(A)** Jā, piemēram, skait!us no 1 līdz 8 var sadalīt šādās divās grupās:
@@ -1982,7 +1982,7 @@ Tā kā abas summas ir lielākas nekā $2$, tad tā summa,
 kas ir pāra skaitlis, nav pirmskaitlis.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 **(A)** Yes, for example, numbers from $1$ to $8$ can be 
@@ -2029,7 +2029,7 @@ Calculate the area of triangle $ACB$, if $OB = 5$.
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Punktus, kur riņķa līnijas rādiuss pieskaras katetēm, apzīmēsim ar 
@@ -2052,7 +2052,7 @@ Līdz ar to $S_{ACB}=\frac{AC \cdot CB}{2}=18 \frac{3}{8} \mathrm{~cm}^{2}$.
 ![](LV.AMO.2022B.10.3A.png)
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Denote the points where the circle touches the legs $CB$ and $CA$ by 
@@ -2111,7 +2111,7 @@ has no real roots!
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Abas vienādojuma puses reizinām ar $a$ un veicam ekvivalentus 
@@ -2128,7 +2128,7 @@ Tā kā vienādojuma kreisās puses vērtība ir vismaz $1$, jo kvadrātu vērt�
 ir nenegatīva, tad dotajam vienādojumam nav reālu sakņu.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Multiply both sides of the equation by $a$ and 
@@ -2178,7 +2178,7 @@ him/her.
 </small>
 
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Pirmkārt pamatosim, ka no jebkuriem trīs deputātiem vismaz kādi divi 
@@ -2225,7 +2225,7 @@ Iespējami divi gadīumi:
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 First, let us show that out of any three MPs there are at least two who have shaken hands.
@@ -2267,7 +2267,7 @@ There are two possibilities:
 </text>
 
 
-<text lang="lv">
+<text num="2" lang="lv">
 ## Atrisinājums
 
 Uzskatīsim, ka, ja kādi deputāti nepaspieda viens otram roku, tad viņi 
@@ -2290,7 +2290,7 @@ deputātu. Tad mums ir lielākais divi pāri deputātu, kas viens otru ienīst,
 nosēdinot tos ne blakus (piemēram, vietās $A$-$C$ un $B$-$D$) prasītais būs panākts.
 </text>
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution 
 
 If any two deputies did not shake hands with each other, then let's say 
@@ -2340,7 +2340,7 @@ Can $2022$ be expressed as the sum of cubes of two integers?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums 
 
 Vispirms noskaidrosim, ar ko var būt kongruenti veselu skaitlu kubi pēc moduḷa $9$:
@@ -2371,7 +2371,7 @@ Tā kā $2022 \equiv 6 \equiv-3 \pmod 9$ neparādās starp šīm vērtībām,
 tad divu veselu skaitļu kubu summa nevar būt $2022$.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 We find out what are the integer cubes congruent to modulo $9$: 
@@ -2431,7 +2431,7 @@ $x_1^2 + x_2^2 = 16$?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Apzīmēsim kvadrātvienādojuma saknes ar $x_{1}$ un $x_{2}$. 
@@ -2444,7 +2444,7 @@ Esam ieguvuši, ka $2p=-15$ jeb $p=-7,5$.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Let $x_1,x_2$ be the roots of the quadratic equation. 
@@ -2484,7 +2484,7 @@ of angle $\sphericalangle B$ in the triangle is $120^{\circ}$.
 </small>
 
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Apzīmējam riṇka līnijas pieskaršanās punktu malai $BC$ ar $E$ un 
@@ -2505,7 +2505,7 @@ Tātad $BC=1+x=6.4$.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Denote the point where the inscribed circle touches $BC$ 
@@ -2563,7 +2563,7 @@ $$x^2 + y^2 + z^2 - xy - yz - xz \leq 1.$$
 </small>
 
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Ievērosim, ka
@@ -2587,7 +2587,7 @@ Var redzēt, ka iegūtais sadalījums katru reizi ir unikāls.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Let us note the following:
@@ -2656,7 +2656,7 @@ create a route satisfying these requirements?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Muzeja vadītājs var izveidot aprakstīto maršrutu visām 
@@ -2707,7 +2707,7 @@ Tā kā mainīgos $m$ un $n$ uzdevumā kontekstā var mainīt vietām, tad ir ap
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 The director can create a route as described above 
@@ -2781,7 +2781,7 @@ Can the number $2023^2$ be expressed as the sum of three integer cubes?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Vispirms noskaidrosim, ar ko var būt kongruenti veselu skaitlu kubi pēc moduḷa $9$:
@@ -2817,7 +2817,7 @@ Esam ieguvuši, ka trīs šādu skaițu summa pēc moduḷa 9 var pienemt jebkur
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 We first find out what the integer cubes are congruent to modulo $9$: 
@@ -2880,7 +2880,7 @@ For what real values $p$ the sum of cubes of both roots of the equation $x^2 + x
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Apzīmēsim kvadrātvienādojuma saknes ar $x_{1}$ un $x_{2}$. 
@@ -2897,7 +2897,7 @@ Tātad $3p=-15$ un $p=-5$.
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Denote the roots of the square equation with $x_{1}$ and $x_{2}$. 
@@ -2940,7 +2940,7 @@ has length $\sqrt{3}$. What can be the area of this triangle?
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Apzīmēsim $AB$ viduspunktu ar $M$ un novilksim perpendikulus 
@@ -2987,7 +2987,7 @@ Tātad trijstūra laukums var būt $\frac{\sqrt{3}}{2}$ vai $\sqrt{3}$.
 ![](LV.AMO.2022B.12.3A.png)
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Let $M$ be the midpoint of $AB$. Draw perpendiculars $MP$ and $MT$ against 
@@ -3063,7 +3063,7 @@ Solve the equation $3 \sin x + 4 \cos x = 6$ in real numbers.
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums
 
 Izdalām abas vienādojuma puses ar $5$:
@@ -3082,7 +3082,7 @@ Tā kā sinusa vērtības nepārsniedz 1, tad šim vienādojumam atrisinājumu n
 Tātad arī dotajam vienādojumam atrisinājuma nav.
 </text>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 Divide both sides of the equation by $5$: 
@@ -3107,7 +3107,7 @@ And there is no solution for the original equation either.
 
 
 
-<text lang="lv">
+<text num="2" lang="lv">
 ## Atrisinājums
 
 Izmantojot divkāršā leṇka formulas un $\cos ^{2} \frac{x}{2}+\sin ^{2} \frac{x}{2}=1$, 
@@ -3130,7 +3130,7 @@ tātad kvadrātvienādojumam nav sakṇu, līdz ar to dotajam vienādojumam nav 
 </text>
 
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution 
 
 Use double angle formulas and the identity $\cos ^{2} \frac{x}{2}+\sin ^{2} \frac{x}{2}=1$. 
@@ -3157,7 +3157,7 @@ no roots. Hence there is no solution for the original equation.
 
 
 
-<text lang="lv">
+<text num="3" lang="lv">
 ## Atrisinājums
 
 No abām vienādojuma pusēm atṇemot $4 \cos x$, iegūstam, ka $3 \sin x=6-4 \cos x$.
@@ -3178,7 +3178,7 @@ kura diskriminants $D=(-48)^{2}-4 \cdot 25 \cdot 27=48 \cdot 48-50 \cdot 54<0$,
 tātad kvadrātvienādojumam nav sakṇu, līdz ar to arī dotajam vienādojumam nav sakņu.
 </text>
 
-<text lang="en">
+<text num="3" lang="en">
 ## Solution 
 
 Subtract $4 \cos x$ from both sides and get $3 \sin x=6-4 \cos x$. 
@@ -3205,7 +3205,7 @@ So the quadratic equation has no roots, and the original equation has no roots e
 
 
 
-<text lang="lv">
+<text num="4" lang="lv">
 ## Atrisinājums
 
 Pierādīsim, ka izpildās nevienādība $a \sin x+b \cos x \leq \sqrt{a^{2}+b^{2}}$. 
@@ -3227,7 +3227,7 @@ tātad dotajam vienādojumam nav sakṇu.
 
 
 
-<text lang="en">
+<text num="4" lang="en">
 ## Solution 
 
 We will prove the following inequality: $a \sin x+b \cos x \leq \sqrt{a^{2}+b^{2}}$. 
@@ -3292,7 +3292,7 @@ The player who gets more points wins. Which player has a winning strategy, if
 
 </small>
 
-<text lang="lv">
+<text num="1" lang="lv">
 ## Atrisinājums 
 
 **(A)** Ja $n=2021$, uzvar Ilmārs. Pirmajā gājienā viņš centrālajā 
@@ -3320,7 +3320,7 @@ $1011$ kolonnas, kas viṇam dod ne vairāk kā $1011$ punktus. Tātad Kims uzva
 </text>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 **(A)** 
