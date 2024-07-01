@@ -516,6 +516,7 @@ dalijasi iš visų $7$ savo skaitmenų.
 <small>
 
 * questionType:FindExample,FindOptimal,FindOptimal
+* domain:NT
 
 </small>
 
