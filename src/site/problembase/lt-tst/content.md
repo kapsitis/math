@@ -1,6 +1,8 @@
 # <lo-sample/> LT.TST.2008.12.12.1
 
+<text lang="lv">
 Atrodiet visus veselu pozitīvu skaitļu trijniekus $(x, y, z)$, kas apmierina vienādību $1 + 4^x + 4^y = z^2$.
+</text>
 
 <text lang="lt">
 Raskite visus sveikųjų teigiamų skaičių trejetus $(x, y, z)$, tenkinančius lygybę $1 + 4^x + 4^y = z^2$.
@@ -18,6 +20,7 @@ Raskite visus sveikųjų teigiamų skaičių trejetus $(x, y, z)$, tenkinančius
 
 # <lo-sample/> LT.TST.2009.12.1
 
+<text lang="lv">
 Dots vienādojums
 
 $$x^3 + x^2 = 2^y + 16.$$
@@ -25,6 +28,7 @@ $$x^3 + x^2 = 2^y + 16.$$
 **(A)** Atrodiet kādu vienu šī vienādojuma naturālu atrisinājumu $x$ un $y$ pāri $(x;y)$  
 **(b)** Atrodiet visus pārējos šī vienādojuma naturālo risinājumu pārus $(x;y)$
 $(x; y)$, ja tādi ir, vai pierādiet, ka citu atrisinājumu nav. 
+</text>
 
 <text lang="lt">
 Duota lygtis
@@ -52,18 +56,22 @@ kad daugiau (jokių) sprendinių nėra.
 
 # <lo-sample/> LT.TST.2010.12.1
 
+<text lang="lv">
 Atrodiet visus naturālu skaitļu trijniekus $(x,y,u)$, 
 kas apmierina vienādojumu sistēmu
+
 $$\left\{ 
 \begin{array}{l}
 x + y = u + 12;\\
 x^5 + y^5 = u^5 + 12.
 \end{array}
 \right.$$
+</text>
 
 <text lang="lt">
 Raskite visus natūraliųjų skaičių trejetus $(x,y,u)$, 
 tenkinančius lygčių sistemą
+
 $$\left\{ 
 \begin{array}{l}
 x + y = u + 12;\\
@@ -86,13 +94,14 @@ x^5 + y^5 = u^5 + 12.
 
 # <lo-sample/> LT.TST.2011.12.4
 
+<text lang="lv">
 Atšķirīgi naturāli skaitļi $s_1,s_2,\ldots,s_n$ apmierina vienādību
 $$\left( 1 - \frac{1}{s_1} \right)
 \left( 1 - \frac{1}{s_2} \right) \ldots
 \left( 1 - \frac{1}{s_n} \right) = 
 \frac{51}{2010}.$$
 Kāda ir mazākā iespējamā $n$ vērtība?
-
+</text>
 
 <text lang="lt">
 Skirtingi natūralieji skaičiai $s_1, s_2,\ldots,s_n$ 
@@ -115,6 +124,7 @@ Kokia yra mažiausia galima $n$ reikšmė?
 
 # <lo-sample/> LT.TST.2011.12.6
 
+<text lang="lv">
 Doti naturāli skaitļi $m \geq 2$ un $n$. 
 Kopu $S(m,n)$ veido visi polinomi $P(x)$,
 kuru koeficienti pieder kopai 
@@ -123,7 +133,7 @@ Atrodiet kopas $S(m,n)$ elementu skaitu, ja
 **(A)** $n = 10m$;  
 **(B)** $n = m^2$;  
 **(C)** $n$ ir jebkāds naturāls skaitlis.
-
+</text>
 
 <text lang="lt">
 Tegul $m \geq 2$ ir $n$ yra natūralieji skaičiai. 
@@ -149,6 +159,7 @@ Raskite aibės $S(m,n)$ elementų skaičių, kai
 
 # <lo-sample/> LT.TST.2012.12.1
 
+<text lang="lv">
 Doti naturāli skaitļi  
 $a_1,a_2,\ldots,a_{14}$, kuri visi ir lielāki par $4$.
 Uz tāfeles uzrakstām $196$ (ne obligāti dažādas) summas 
@@ -156,6 +167,7 @@ $a_n + a_m$, kur $1 \leq n,m \leq 14$. Pēc tam katrā summā
 visus ciparus, izņemot divus pēdējos, nodzēšam. 
 Vai var būt tā, ka uz tāfeles paliks uzrakstītas visas 
 iespējamās divu ciparu kombinācijas $00,01,\ldots,98,99$?
+</text>
 
 <text lang="lt">
 Duoti natūralieji skaičiai 
@@ -181,6 +193,7 @@ kombinacijos $00,01,\ldots,98,99$?
 
 # <lo-sample/> LT.TST.2012.12.4
 
+<text lang="lv">
 Ikvienam veselam skaitlim $m$ lielāko vesela skaitļa kubu, 
 kas nepārsniedz $m$, apzīmējam ar $f(m)$. 
 Piemēram, $f(26) = 8$ un $f(27) = 27$. 
@@ -195,6 +208,7 @@ ka $a_n \leq M$ jebkuram $n \geq 1$.
 $a_1$, kurām eksistē tāds skaitlis $M$ 
 (atkarīgs tikai no $a_1$), ka $a_n \leq M$ jebkuram 
 $n \geq 1$.
+</text>
 
 <text lang="lt">
 Kiekvienam sveikajam skaičiui $m$ didžiausią 
@@ -226,6 +240,7 @@ $n \geq 1$.
 
 # <lo-sample/> LT.TST.2012.12.6
 
+<text lang="lv">
 Naturālo skaitļu kopa sadalīta $k$ savstarpēji nešķeļošās
 apakškopās $A_1,A_2,\ldots,A_k$ tā, ka 
 fiksētam naturālam skaitlim $n \geq 15$ 
@@ -235,6 +250,7 @@ kuru summa vienāda ar $n$.
 trīs šādās apakškopās.  
 **(B)** Pierādīt, ka naturālu skaitļu kopu nevar sadalīt $k$
 tādās apakškopās, ja $k \geq 4$. 
+</text>
 
 <text lang="lt">
 Natūraliųjų skaičių aibė padalyta į $k$ nesikertančių 
@@ -262,6 +278,7 @@ $k \geq 4$.
 
 # <lo-sample/> LT.TST.2013.12.2
 
+<text lang="lv">
 Naturāli skaitļi $a$, $b$, $c$ un $d$ ir tādi, 
 ka $ac + bd$ dalās ar $a^2 + b^2$.
 Vai skaitļu $a^2 + b^2$ un 
@@ -269,6 +286,7 @@ $c^2 + d^2$ lielākais kopīgais dalītājs var būt vienāds ar:
 **(A)** $1$?  
 **(B)** $3$?  
 **(C)** $74$?
+</text>
 
 <text lang="lt">
 Natūralieji skaičiai $a$,$b$,$c$ ir $d$ yra tokie, 
@@ -294,9 +312,11 @@ $c^2 + d^2$ didžiausias bendras daliklis būti lygus:
 
 # <lo-sample/> LT.TST.2013.12.4
 
+<text lang="lv">
 Atrodiet visus tādus polinomus $P(x)$ ar 
 reāliem koeficientiem, ka ja $P(m)$ ir vesels, tad arī 
 $m$ ir vesels skaitlis.
+</text>
 
 <text lang="lt">
 Raskite visus tokius daugianarius $P(x)$ su 
@@ -317,6 +337,7 @@ tai ir $m$ yra sveikasis skaičius.
 
 # <lo-sample/> LT.TST.2013.12.6
 
+<text lang="lv">
 Četrinieku $(x,y,z,n)$, kur $x,y,z$ ir pozitīvi reāli skaitļi, 
 bet $n$ – naturāls skaitlis, sauksim par *pilnīgu*, ja
 $$\sqrt{x} + \sqrt{y} + \sqrt{z} = 1$$
@@ -325,6 +346,7 @@ ir vesels skaitlis.
 **(A)** Atrodiet kaut vienu pilnīgu četrinieku $(x,y,z,n)$, 
 kurā $n > 2013$.  
 **(B)** Atrodiet visus pilnīgos četriniekus $(x,y,z,n)$.
+</text>
 
 
 <text lang="lt">
@@ -353,12 +375,14 @@ kuriame $n > 2013$.
 
 # <lo-sample/> LT.TST.2014.12.2
 
+<text lang="lv">
 Galīgai kopai $A$ piemīt tāda īpašība: jebkuru 
 $6$ tās dažādu elementu summa nedalās ar $6$.  
 **(A)** Atrodiet kaut vienu tādu kopu $A$,
 ko veido $10$ atšķirīgi naturāli skaitļi.   
 **(B)** Vai eksistē tāda kopa $A$, ko 
 veido $11$ dažādi naturāli skaitļi?
+</text>
 
 <text lang="lt">
 Baigtinė aibė $A$ pasižymi tokia savybe: bet kurių 
@@ -384,11 +408,13 @@ skaičių?
 
 # <lo-sample/> LT.TST.2014.12.4
 
+<text lang="lv">
 **(a)** Vai eksistē tāds naturāls skaitlis $n$, 
 ka skaitļa $2^n$ pēdējais cipars ir $6$, bet citu ciparu summa ir vienāda ar $2$?  
 **(b)** Vai eksistē tādi naturāli skaitļi $a$ un 
 $m \geq 3$, ka skaitļa $a^m$ pēdējais cipars ir $6$, bet citu ciparu summa
 vienāda ar $3$? 
+</text>
 
 <text lang="lt">
 **(a)** Ar egzistuoja toks natūralusis skaičius $n$, 
@@ -414,6 +440,7 @@ suma yra lygi $3$?
 
 # <lo-sample/> LT.TST.2014.12.5
 
+<text lang="lv">
 Doti reāli skaitļi $x$ un $y$. 
 Apzīmēsim $s_1 = x + y$, $s_2 = x^2 + y^2$,
 $s_3 = x^3 + y^3$, $s_4 = x^4 + y^4$ un $t = xy$.  
@@ -429,6 +456,7 @@ $\frac{p}{q}$, piemēram, $\frac{3}{2}$, $-\frac{17}{3}$,$4$,$0$
 utml. Pretējā gadījumā, t.i. ja $r$ šādi nevar izteikt, 
 tad to sauc par *iracionālu*, piemēram, 
 $\sqrt{5}$.)
+</text>
 
 <text lang="lt">
 Duoti realieji skaičiai $x$ ir $y$. 
@@ -462,11 +490,13 @@ $\sqrt{5}$.)
 
 # <lo-sample/> LT.TST.2015.12.2
 
+<text lang="lv">
 Atrodiet visus vienādojuma
 $$a! \cdot b! = a! + b! + c!$$
 naturālos atrisinājumus $(a,b,c)$.
 (Šeit $n! = 1 \cdot 2 \cdot \ldots \cdot n$, 
 piemēram, $4! = 1 \cdot 2 \cdot 3 \cdot 4 = 24$.)
+</text>
 
 <text lang="lt">
 Raskite visus lygties
@@ -489,6 +519,7 @@ pavyzdžiui, $4! = 1 \cdot 2 \cdot 3 \cdot 4 = 24$.)
 
 # <lo-sample/> LT.TST.2015.12.5
 
+<text lang="lv">
 Kopas $A$ un $B$ ir naturālo skaitļu kopas 
 $\{ 1,2,3,\ldots \}$ apakškopas, kam piemīt šādas
 divas īpašības:
@@ -502,6 +533,7 @@ b. Jekburu divu dažādu kopas $B$ elementu $z$ un $t$
 Kāds ir lielākais iespējamais elementu skaits kopu apvienojumā  $A \cup B$?
 (Kopu $A \cup B$ veido elementi, kuri pieder vismaz vienai 
 no kopām $A$ un $B$.)
+</text>
 
 <text lang="lt">
 Aibės $A$ ir $B$ yra natūraliųjų skaičių aibės 
@@ -532,9 +564,11 @@ vienai iš dviejų aibių $A$ ir $B$.)
 
 # <lo-sample/> LT.TST.2016.12.2
 
+<text lang="lv">
 Atrodiet visus vienādojuma 
 $$4^a \cdot 5^b − 3^c \cdot 11^d = 1$$
 naturālos atrisinājumus $(a,b,c,d)$.
+</text>
 
 <text lang="lt">
 Raskite visus lygties
@@ -556,11 +590,13 @@ natūraliuosius sprendinius $(a,b,c,d)$.
 
 # <lo-sample/> LT.TST.2017.12.2
 
+<text lang="lv">
 Kopu, ko veido $m > 2$ naturāli skaitļi, sauksim par *vienkāršu*, ja 
 jebkuri divi šīs kopas elementi ir savstarpēji pirmskaitļi. 
 Atrodiet mazāko naturālo $n$, ka jebkurai vienkāršai kopai, kas ir kopas
 $S = \{1, 2, \ldots, 2017\}$ apakškopa un kurā ir tieši $n$ elementu, noteikti
 pieder kaut viens pirmskaitlis.
+</text>
 
 
 <text lang="lt">
@@ -585,6 +621,7 @@ priklausytų bent vienas pirminis skaičius.
 
 # <lo-sample/> LT.TST.2017.12.3
 
+<text lang="lv">
 Divus polinomus ar veseliem koeficientiem $A(x) = a_nx^n+\ldots+a_1x+a_0$ un
 $B(x) = b_mx^m + \ldots + b_1x + b_0$ (šeit $m, n > 0$ un $a_n, b_m \neq 0$) sauksim par 
 *līdzīgiem*, ja $m = n$ un ja abos skaitļu sarakstos
@@ -594,7 +631,7 @@ Polinomi ar veseliem koeficientiem $P(x)$ un $Q(x)$ ir līdzīgi un
 $P(16) = 3^{2012}$.  
 **(A)** Pierādiet, ka $Q(3^{2012}) \neq 0$.  
 **(B)** Atrodiet mazāko iespējamo izteiksmes $|Q(3^{2012}|$ vērtību.
-
+</text>
 
 <text lang="lt">
 Du daugianarius su sveikaisiais koeficientais $A(x) = a_nx^n+\ldots+a_1x+a_0$
@@ -621,6 +658,7 @@ $P(16) = 3^{2012}$.
 
 # <lo-sample/> LT.TST.2017.12.4
 
+<text lang="lv">
 Doti pirmskaitļi $p > q$ un naturāli skaitļi $k,\ell$. Kopu $A$ veido
 visi naturālie skaitļi $n$, kuriem $p^kq^{\ell}n$ dalās ar $p + n$.  
 **(A)** Pierādiet, ka $|A| \geq 1$.  
@@ -629,7 +667,7 @@ visi naturālie skaitļi $n$, kuriem $p^kq^{\ell}n$ dalās ar $p + n$.
 **(D)** Vai eksistē pirmskaitļu pāris $p > q$, kuram $|A| = 127$, kad
 $k = \ell = 10$?  
 (Šeit $|A|$ apzīmē kopas $A$ elementu skaitu.)
-
+</text>
 
 <text lang="lt">
 Duoti pirminiai skaičiai $p > q$ ir natūralieji skaičiai $k,\ell$. Aibę $A$ sudaro
@@ -656,6 +694,7 @@ $k = \ell = 10$?
 
 # <lo-sample/> LT.TST.2018.12.3
 
+<text lang="lv">
 Naturālu skaitli $n$ sauksim par *veiksmīgu*, ja eksistē bezgala daudzas
 pozitīvu racionālu skaitļu kolekcijas $(a_1,\ldots,a_n)$, kurām abi skaitļi
 $a_1 + \cdots + a_n$ un
@@ -666,7 +705,7 @@ abi ir naturāli tad un tikai tad, kad
 $a_1 = 1$. Skaitļiem $a_1,\ldots,a_n$ nav noteikti jābūt dažādiem.)  
 **(A)** Pierādiet, ka skaitlis $n = 2$ nav veiksmīgs.  
 **(B)** Pierādiet, ka jebkurš naturāls skaitlis $n \geq 3$ ir veiksmīgs.
-
+</text>
 
 <text lang="lt">
 Natūralųjį skaičių $n$ vadinkime *sėkmingu*, jei egzistuoja be galo daug
@@ -697,11 +736,12 @@ $a_1 = 1$. Skaičiai $a_1,\ldots,a_n$ nebūtinai skirtingi.)
 
 # <lo-sample/> LT.TST.2018.12.4
 
+<text lang="lv">
 Jebkuram naturālam nepāru $n$ nosakiet, kāds ir skaitļa 
 $$\frac{10^{n(n+1)}}{10^n + 6}$$
 vienu cipars. (Piemēram, skaitļa $27,83$ vienu cipars ir $7$,
 bet skaitļa $\pi = 3,14\ldots$ vienu cipars ir $3$.)
-
+</text>
 
 <text lang="lt">
 Kiekvienam natūraliajam nelyginiam $n$ nustatykite, koks yra skaičiaus
@@ -723,6 +763,7 @@ o skaičiaus $\pi = 3,14\ldots$ vienetų skaitmuo yra $3$.)
 
 # <lo-sample/> LT.TST.2019.12.1
 
+<text lang="lv">
 Mīkolas izdomāja naturālu skaitļu virkni $a_1,a_2,a_3,\ldots$, 
 bet tad definēja jaunu virkni $b_1, b_2, b_3,\ldots$ ar šādām vienādībām:
 $$b_1 = a_1,\;\;b_2 = a_2, b_n = a_nb_{n-1} + b_{n-2}\;\;\text{visiem}\;\;n > 3.$$
@@ -730,6 +771,7 @@ Vai Mīkolas varēja izvēlēties sākotnējo virkni $a_1, a_2, a_3,\ldots$ tā,
 ka jebkurš no skaitļiem $b_1, b_2, b_3, \ldots$ būtu  
 **(A)** naturāla skaitļa kvadrāts?  
 **(B)** naturāla skaitļa kubs?
+</text>
 
 <text lang="lt">
 Mykolas sugalvojo natūraliųjų skaičių seką $a_1,a_2,a_3,\ldots$, 
@@ -754,11 +796,13 @@ kad kiekvienas iš skaičių $b_1, b_2, b_3, \ldots$ būtų
 
 # <lo-sample/> LT.TST.2019.12.5
 
+<text lang="lv">
 Naturālu skaitli $n$ sauksim par *piecīgu*, ja tam ir 
 tādi pieci dažādi pozitīvi dalītāji, kuru ceturto pakāpju summa vienāda ar $n$. 
 (Skaitļi $1$ un $n$ arī ir  skaitļa $n$ dalītāji.)  
 **(A)** Pierādiet, ka piecīgs skaitlis vienmēr dalās ar $5$.  
 **(B)** Noskaidrojiet, vai ir bezgalīgi daudz piecīgu naturālu skaitļu.
+</text>
 
 <text lang="lt">
 Natūralųjį skaičių $n$ vadinsime *penkiadaliu*, jei jis turi 

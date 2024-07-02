@@ -1,11 +1,12 @@
 # <lo-sample/> LT.VILNIUS.2007.9.2
 
+<text lang="lv">
 Izrēķiniet izteiksmes vērtību: 
 $$\left( 1 - \frac{1}{4} \right) \cdot
 \left( 1 - \frac{1}{9} \right) \cdot
 \left( 1 - \frac{1}{16} \right) \cdot \ldots \cdot
 \left( 1 - \frac{1}{400} \right).$$
-
+</text>
 
 <text lang="lt">
 Apskaičiuokite reiškinio reikšmę:
@@ -19,8 +20,10 @@ $$\left( 1 - \frac{1}{4} \right) \cdot
 
 # <lo-sample/> LT.VILNIUS.2007.9.4
 
+<text lang="lv">
 Vai $81$-ciparu skaitlis $\underbrace{111\ldots{}1}_{81\;\mbox{cipars}}$, 
 kuram visi cipari ir vieninieki, dalās ar $81$?
+</text>
 
 <text lang="lt">
 Ar $81$-ženklis skaičius $\underbrace{111\ldots{}1}_{81\;\mbox{skaitmuo}}$, 
@@ -31,6 +34,7 @@ kurio visi skaitmenys yra vienetai, dalijasi iš $81$?
 
 # <lo-sample/> LT.VILNIUS.2007.10.2
 
+<text lang="lv">
 Ar $A_n$ apzīmējam kopu, ko veido pēc kārtas sekojoši naturāli
 skaitļi no $n$ līdz $n^2$, t.i.
 $$A_n = \{n, n + 1, n + 2, \ldots, n^2 \}.$$
@@ -40,6 +44,7 @@ izpildās vienādība $ad = bc$.
 **(a)** Vai $A_{10}$ ir kārtīga kopa?
 **(b)** Vai $A_{2007}$ ir kārtīga kopa?
 **(c)** Kuriem naturāliem $n$ kopa $A_n$ ir kārtīga?
+</text>
 
 
 <text lang="lt">
@@ -58,12 +63,14 @@ galioja lygybė $ad = bc$.
 
 # <lo-sample/> LT.VILNIUS.2007.11.3
 
+<text lang="lv">
 Atrodiet visus naturālu skaitļu kolekcijas $(a, b, c, d)$, 
 kas apmierina vienādojumu sistēmu
 $$\left\{ \begin{array}{l}
 ab + cd = 34,\\
 ac − bd = 19
 \end{array} \right.$$
+</text>
 
 <text lang="lt">
 Raskite visus natūraliųjų skaičių rinkinius $(a, b, c, d)$, 
@@ -84,9 +91,11 @@ ac − bd = 19
 
 # <lo-sample/> LT.VILNIUS.2008.10.3
 
+<text lang="lv">
 Ar $x$ apzīmējam desmit pēc kārtas sekojošu naturālu skaitļu 
 summu, bet ar $y$ – to pašu desmit skaitļu kubu summu. 
 Pierādiet, ka $y^2 - x^2$ dalās ar $12$.
+</text>
 
 <text lang="lt">
 Tegu $x$ yra dešimties iš eilės einančių natūraliųjų skaičių suma, 
@@ -98,6 +107,7 @@ o $y$ – tų pačių dešimties skaičių kubų suma.
 
 # <lo-sample/> LT.VILNIUS.2008.11.2
 
+<text lang="lv">
 Piramīdas pamats ir regulārs $n$-stūris. 
 Pamata virsotnēs atzīmēti reāli skaitļi 
 $x_1, x_2, \ldots, x_n$, bet piramīdas virsotnē – 
@@ -108,6 +118,7 @@ Ar kādu mazāko nepāru $n$ vērtību skaitļi
 $x, x_1, x_2, \ldots, x_n$ var būt naturāli? 
 Atrast visus tādu skaitļu komplektus 
 (atbilstošus atrastajai $n$ vērtībai). 
+</text>
 
 <text lang="lt">
 Piramidės pagrindas yra taisyklingasis $n$-kampis. 
@@ -126,9 +137,11 @@ visus tokius skaičių rinkinius
 
 # <lo-sample/> LT.VILNIUS.2008.12.1
 
+<text lang="lv">
 Trīs naturālu skaitļu summa vienāda ar $2003$. 
 Ar kādu lielāko nuļļu skaitu var beigties šo 
 trīs skaitļu reizinājums?
+</text>
 
 <text lang="lt">
 Trijų natūraliųjų skaičių suma lygi $2003$. 
@@ -147,9 +160,11 @@ trijų skaičių sandauga?
 
 # <lo-sample/> LT.VILNIUS.2008.12.3
 
+<text lang="lv">
 Ar $x$ apzīmējam desmit pēc kārtas sekojošu naturālu skaitļu 
 summu, bet ar $y$ – to pašu desmit skaitļu kubu summu. 
 Pierādiet, ka $y^2 - x^2$ dalās ar $300$.
+</text>
 
 <text lang="lt">
 Tegu $x$ yra dešimties iš eilės einančių 
@@ -169,12 +184,14 @@ o $y$ – tų pačių dešimties skaičių kubų suma.
 
 # <lo-sample/> LT.VILNIUS.2009.9.4
 
+<text lang="lv">
 **(a)** Atrodiet kaut vienu tādu naturālu skaitli, 
 kam būtu tieši četri naturāli dalītāji, bet šo 
 dalītāju aritmētiskais vidējais būtu vienāds ar $10$.  
 **(b)** Atrodiet visus naturālos skaitļus, kam būtu tieši četri 
 naturāli dalītāji, bet šo dalītāju aritmētiskais 
 vidējais būtu vienāds ar $10$.
+</text>
 
 
 <text lang="lt">
@@ -194,6 +211,7 @@ o tų daliklių aritmetinis vidurkis būtų lygus $10$.
 
 # <lo-sample/> LT.VILNIUS.2009.10.2
 
+<text lang="lv">
 Uz tāfeles uzrakstīta izteiksme
 $$\ast{}3^5\ast{}3^4\ast{}3^3\ast{}3^2\ast{}3\ast{}1.$$
 Ar vienu gājienu atļauts nomainīt vienu no zvaigznītēm ar 
@@ -201,6 +219,7 @@ zīmi „+” vai zīmi „–”. Marīte
 un Onute gājienus veic pārmaiņus.
 Ja Marīte izdara gājienu pirmā, vai vienmēr Onutei izdosies panākt, 
 lai iegūtās izteiksmes vērtība dalītos ar $7$?
+</text>
 
 
 <text lang="lt">
@@ -220,10 +239,12 @@ Onutei pasiekti, kad gautojo reiškinio reikšmė dalytųsi iš $7$?
 
 # <lo-sample/> LT.VILNIUS.2009.11.2
 
+<text lang="lv">
 $p_1$, $p_2$, $p_3$, $p_4$ ir četri dažādi pirmskaitļi, kas apmierina vienādības:
 $$2p_1 + 3p_2 + 5p_3 + 7p_4 = 162,$$
 $$11p_1 + 7p_2 + 5p_3 + 4p_4 = 162.$$
 Atrodiet visas iespējamās reizinājuma $p_1p_2p_3p_4$ vērtības.
+</text>
 
 
 <text lang="lt">
@@ -247,9 +268,11 @@ Raskite visas įmanomas sandaugos $p_1p_2p_3p_4$ reikšmes.
 
 # <lo-sample/> LT.VILNIUS.2011.9_10.4
 
+<text lang="lv">
 $p$ un $q$ ir tādi pirmskaitļi, ka 
 $p^2+1$ dalās ar $q$, bet $q^2-1$ dalās
 ar $p$. Pierādiet, ka $p+q+1$ ir salikts skaitlis.
+</text>
 
 <text lang="lt">
 $p$ ir $q$ – tokie pirminiai skaičiai, kad 
@@ -267,9 +290,11 @@ iš $p$. Įrodykite, kad $p+q+1$ – sudėtinis skaičius.
 
 # <lo-sample/> LT.VILNIUS.2011.11_12.4
 
+<text lang="lv">
 Atrodiet visus veselos skaitļus $x$, 
 kuriem skaitlis $2^x + 5$ ir
 racionāla skaitļa kvadrāts.
+</text>
 
 <text lang="lt">
 Raskite visus sveikuosius skaičius $x$, 

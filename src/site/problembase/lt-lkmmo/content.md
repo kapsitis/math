@@ -1,7 +1,9 @@
-# <lo-sample/> LT.LKMMO.2001.12.12.7
+# <lo-sample/> LT.LKMMO.2001.12.7
 
+<text lang="lv">
 Atrodiet visas veselās $m$ vērtības, kurām izteiksmes
 $\sqrt{m^2 + m +1}$ vērtība arī ir vesela.
+</text>
 
 
 <text lang="lt">
@@ -18,10 +20,12 @@ $\sqrt{m^2 + m +1}$ irgi įgyja sveikąsias reikšmes.
 
 
 
-# <lo-sample/> LT.LKMMO.2001.12.12.8
+# <lo-sample/> LT.LKMMO.2001.12.8
 
+<text lang="lv">
 Atrodiet visas naturālās $n$ vērtības, kurām $4^n - 1$
 dalās ar $7$ bez atlikuma.
+</text>
 
 <text lang="lt">
 Raskite visas natūraliąsias $n$ reikšmes, su kuriomis $4^n - 1$
@@ -38,12 +42,14 @@ dalijasi iš $7$ be liekanos.
 
 
 
-# <lo-sample/> LT.LKMMO.2001.12.12.9
+# <lo-sample/> LT.LKMMO.2001.12.9
 
+<text lang="lv">
 Apzīmējam:
 $$a_n = \sqrt{\left| 60\sqrt{11} - 199 \right|} + 
 \sqrt{60\sqrt{11} +171 + n}.$$
 Vai virknē $a_1,a_2,a_3,\ldots$ ir kaut viens naturāls skaitlis?
+</text>
 
 <text lang="lt">
 Tegul 
@@ -62,10 +68,12 @@ Ar sekoje $a_1,a_2,a_3,\ldots$ yra bent vienas natūralusis skaičius?
 
 
 
-# <lo-sample/> LT.LKMMO.2001.12.12.10
+# <lo-sample/> LT.LKMMO.2001.12.10
 
+<text lang="lv">
 Atrodiet visas naturālās vērtības, kuras var iegūt kā divu dažādu naturālu skaitļu 
 reizinājuma un summas attiecību. 
+</text>
 
 <text lang="lt">
 Raskite visas natūraliąsias reikšmes, kurias įgyja dviejų skirtingų natūraliųjų skaičių 
@@ -83,11 +91,13 @@ sandaugos ir sumos santykis.
 
 
 
-# <lo-sample/> LT.LKMMO.2001.12.12.11
+# <lo-sample/> LT.LKMMO.2001.12.11
 
+<text lang="lv">
 Vai $1/2$ var uzrakstīt kā galīgu summu 
 $1/n_1^2 + 1/n_2^2 + \ldots + 1/n_{\ell}^2$, kur
 $n_1,n_2,\ldots,n_{\ell}$ - dažādi naturāli skaitļi?
+</text>
 
 <text lang="lt">
 Ar galima $1/2$ užrašyti baigtine suma 
@@ -105,10 +115,12 @@ $n_1,n_2,\ldots,n_{\ell}$ --- skirtingi natūralieji skaičiai?
 
 
 
-# <lo-sample/> LT.LKMMO.2001.12.12.15
+# <lo-sample/> LT.LKMMO.2001.12.15
 
+<text lang="lv">
 Pierādiet, ka uz vienības riņķa līnijas, kuras centrs ir koordinātu sākumpunktā, 
 eksistē bezgalīgi daudz punktu, kam abas koordinātes ir racionāli skaitļi. 
+</text>
 
 <text lang="lt">
 Įrodykite, kad ant vienetinio apskritimo, kurio centras - koordinačių pradžia, 
@@ -125,9 +137,11 @@ yra be galo daug taškų su racionaliosiomis koordinatėmis.
 
 
 
-# <lo-sample/> LT.LKMMO.2002.12.12.8
+# <lo-sample/> LT.LKMMO.2002.12.8
 
+<text lang="lv">
 Pierādiet, ka $10^n + 45n - 1$ dalās ar $27$, kad $n$ ir naturāls skaitlis.
+</text>
 
 <text lang="lt">
 Įrodykite, kad $10^n + 45n - 1$ dalijasi iš $27$, kai $n$ – natūralusis skaičius.
@@ -143,10 +157,12 @@ Pierādiet, ka $10^n + 45n - 1$ dalās ar $27$, kad $n$ ir naturāls skaitlis.
 
 
 
-# <lo-sample/> LT.LKMMO.2002.12.12.9
+# <lo-sample/> LT.LKMMO.2002.12.9
 
+<text lang="lv">
 Pierādiet, ka eksistē tāds naturāls skaitlis $n$, ka 
 skaitļa $2^n$ decimālpierakstā ir ne mazāk kā $2002$ pēc kārtas sekojošas nulles.
+</text>
 
 <text lang="lt">
 Įrodykite, kad egzistuoja natūralusis skaičius $n$, toks kad 
@@ -165,11 +181,13 @@ išraiškoje yra ne mažiau kaip $2002$ iš eilės einantys nuliai.
 
 
 
-# <lo-sample/> LT.LKMMO.2002.12.12.10
+# <lo-sample/> LT.LKMMO.2002.12.10
 
+<text lang="lv">
 Atrodiet mazāko naturālo skaitli, kura puse ir vesela skaitļa kvadrāts, 
 kura trešdaļa ir vesela skaitļa kubs, bet piektdaļa ir vesela skaitļa
 piektā pakāpe.
+</text>
 
 <text lang="lt">
 Raskite mažiausią natūralųjį skaičių, kurio pusė yra sveikojo skaičiaus kvadratas,
@@ -187,11 +205,13 @@ penktasis laipsnis.
 
 
 
-# <lo-sample/> LT.LKMMO.2002.12.12.12
+# <lo-sample/> LT.LKMMO.2002.12.12
 
+<text lang="lv">
 Vai eksistē tādi veseli skaitļi $a$ un $b$, ka skaitļi 
 $$(a + 1/2)^n + (b + 1/2)^n$$
 arī ir veseli jebkuram naturālam $n$?
+</text>
 
 <text lang="lt">
 Ar egzistuoja sveikieji skaičiai $a$ ir $b$, tokie kad skaičiai
@@ -209,10 +229,12 @@ taip pat būtų sveikieji su kiekvienu natūraliuoju $n$?
 
 
 
-# <lo-sample/> LT.LKMMO.2003.12.12.3
+# <lo-sample/> LT.LKMMO.2003.12.3
 
+<text lang="lv">
 Atrodiet visas naturālās $n$ vērtības, kurām izteiksme $n^4 + 4^n$ 
 ir pirmskaitlis.
+</text>
 
 <text lang="lt">
 Raskite visus natūraliąsias $n$ reikšmes, su kuriomis reiškinys $n^4 + 4^n$ 
@@ -229,10 +251,12 @@ yra pirminis skaičius.
 
 
 
-# <lo-sample/> LT.LKMMO.2003.12.12.8
+# <lo-sample/> LT.LKMMO.2003.12.8
 
+<text lang="lv">
 Atrodiet visas naturālās $n$ vērtības, kurām izteiksme $36^n+24^n-7^n-5^n$ 
 dalās ar $899$ bez atlikuma.
+</text>
 
 <text lang="lt">
 Raskite visas natūraliąsias $n$ reikšmes, su kuriomis reiškinys $36^n+24^n-7^n-5^n$ 
@@ -253,8 +277,10 @@ dalijasi iš $899$ be liekanos.
 
 # <lo-sample/> LT.LKMMO.2003.12.9
 
+<text lang="lv">
 Pierādiet, ka eksistē bezgalīgi daudz tādu naturālu skaitļu $n$, ka $2003^n-1$
 dalās ar $n$ bez atlikuma.
+</text>
 
 <text lang="lt">
 Įrodykite, kad egzistuoja be galo daug tokių natūraliųjų skaičių $n$, kad $2003^n-1$
@@ -273,8 +299,10 @@ dalijasi iš $n$ be liekanos.
 
 # <lo-sample/> LT.LKMMO.2003.12.10
 
+<text lang="lv">
 Atrodiet visas tādas naturālās $n$ vērtības, kurām $80^n-1$ dalās ar $8^n-1$ 
 bez atlikuma.
+</text>
 
 <text lang="lt">
 Raskite visas natūraliąsias $n$ reikšmes, su kuriomis $80^n-1$ dalijasi iš $8^n-1$ be liekanos.
@@ -292,12 +320,14 @@ Raskite visas natūraliąsias $n$ reikšmes, su kuriomis $80^n-1$ dalijasi iš $
 
 # <lo-sample/> LT.LKMMO.2003.12.11
 
+<text lang="lv">
 Atrodiet visus tādus naturālu skaitļu sešiniekus $(a_1,\ldots,a_6)$, 
 ka $a_6 = 144$ un
 
 $$a_{n+3} = a_{n+2}\left( a_{n+1} + a_n \right),$$
 
 kur $n = 1, 2, 3$.
+</text>
 
 <text lang="lt">
 Raskite visus tokius natūraliųjų skaičių šešetus $(a_1,\ldots,a_6)$, 
@@ -321,8 +351,10 @@ kai $n = 1, 2, 3$.
 
 # <lo-sample/> LT.LKMMO.2003.12.12
 
+<text lang="lv">
 Atrodiet visus naturālu skaitļu trijniekus, ka no tiem jebkuru divu reizinājums, dalot
 ar trešo skaitli, dod atlikumu $1$. 
+</text>
 
 <text lang="lt">
 Raskite visus tokius natūraliųjų skaičių trejetus, kad bet kurių dviejų iš jų sandaugą
@@ -342,10 +374,12 @@ dalijant iš trečiojo skaičiaus gaunama liekana yra lygi $1$.
 
 # <lo-sample/> LT.LKMMO.2004.12.1
 
+<text lang="lv">
 Divpadsmit skaitļu - četri vieninieki, četri piecinieki un četri sešinieki - kaut kā 
 izrakstīti pa apli. Vai noteikti atradīsies tāds no trim blakus stāvošiem cipariem 
 veidots trīsciparu skaitlis (tā ciparus var ņemt gan pret, gan pa pulksteņa rādītāju 
 virzienam), kas dalās ar $3$? 
+</text>
 
 <text lang="lt">
 Dvylika skaičių - keturi vienetai, keturi penketai ir keturi šešetai - yra kažkaip surašyti
@@ -366,8 +400,10 @@ rodyklę), kuris dalijasi iš $3$?
 
 # <lo-sample/> LT.LKMMO.2004.12.7
 
+<text lang="lv">
 Atrodiet visus tādus naturālu skaitļu trijniekus $(m,n,r)$, ka
 $$2001^m + 4003^n = 2002^r.$$
+</text>
 
 <text lang="lt">
 Raskite visus tokius natūraliųjų skaičių trejetus $(m,n,r)$, kad
@@ -387,8 +423,10 @@ $$2001^m + 4003^n = 2002^r.$$
 
 # <lo-sample/> LT.LKMMO.2004.12.8
 
+<text lang="lv">
 Doti naturāli skaitļi $m$ un $n$. Pierādiet: ja $mn - 23$ dalās ar $24$ bez
 atlikuma, tad $m^3 + n^3$ dalās ar $72$ bez atlikuma.
+</text>
 
 <text lang="lt">
 Tegul $m$ ir $n$ yra natūralieji skaičiai. Įrodykite, kad jei $mn - 23$ dalijasi iš $24$ be
@@ -407,8 +445,10 @@ liekanos, tai $m^3 + n^3$ dalijasi iš $72$ be liekanos.
 
 # <lo-sample/> LT.LKMMO.2004.12.9
 
+<text lang="lv">
 Vai ar kādu reālu $a$ vērtību abi skaitļi $(1-2a\sqrt{35})/a^2$ un $a + \sqrt{35}$ 
 var būt veseli?
+</text>
 
 <text lang="lt">
 Ar gali su kokia nors realiąja $a$ reikšme skaičiai $(1-2a\sqrt{35})/a^2$ ir $a + \sqrt{35}$ 
@@ -428,8 +468,10 @@ abu būti sveikieji?
 
 # <lo-sample/> LT.LKMMO.2004.12.10
 
+<text lang="lv">
 Pierādiet, ka starp sešiem pēc kārtas ņemtiem naturāliem skaitļiem vienmēr atradīsies
 tāds skaitlis, kas ir savstarpējs pirmskaitlis ar pārējo piecu skaitļu reizinājumu. 
+</text>
 
 <text lang="lt">
 Įrodykite, kad tarp šešių iš eilės einančių natūraliųjų skaičių visada atsiras toks 
@@ -449,7 +491,9 @@ skaičius, kuris yra reliatyviai pirminis su kitų penkių skaičių sandauga.
 
 # <lo-sample/> LT.LKMMO.2004.12.11
 
+<text lang="lv">
 Kādu lielāko vērtību var iegūt naturālu skaitļu reizinājums, ja to summa vienāda ar $2004$?
+</text>
 
 <text lang="lt">
 Kokią didžiausią reikšmę gali įgyti natūraliųjų skaičių sandauga, jei jų suma yra lygi
@@ -469,6 +513,7 @@ $2004$?
 
 # <lo-sample/> LT.LKMMO.2004.12.12
 
+<text lang="lv">
 Naturāli skaitļi $a$, $b$, $c$, $u$, $v$, $w$ apmierina vienādojumu sistēmu
 $$\left\{
 \begin{array}{l}
@@ -478,6 +523,7 @@ c + w = 667.
 \end{array}
 \right.$$
 Vai var būt patiesa vienādība $abc = uvw$?
+</text>
 
 <text lang="lt">
 Natūralieji skaičiai $a$, $b$, $c$, $u$, $v$, $w$ tenkina lygčių sistemą
@@ -504,10 +550,12 @@ Ar gali būti teisinga lygybė $abc = uvw$?
 
 # <lo-sample/> LT.LKMMO.2004.12.16
 
+<text lang="lv">
 Vai eksistē tāds pozitīvs skaitlis 
 $a_0$, ka visi bezgalīgās virknes $a_0, a_1, a_2, a_3,\ldots$,
 ko definē ar rekurentu formulu $a_n = \sqrt{a_{n−1} + 1}$ ($n = 1, 2, 3, \ldots$), 
 locekļi būtu racionāli skaitļi?
+</text>
 
 <text lang="lt">
 Ar egzistuoja toks teigiamas skaičius
@@ -529,12 +577,14 @@ nariai būtų racionalieji skaičiai?
 
 # <lo-sample/> LT.LKMMO.2005.12.1
 
+<text lang="lv">
 Atrodiet visus veselu skaitļu trijniekus $(x,y,z)$, kuriem 
 $$\left\{
 \begin{array}{l}
 x + yz = 2005\\
 y + xz = 2006.
 \end{array} \right.$$
+</text>
 
 <text lang="lt">
 Raskite visus sveikųjų skaičių trejetus $(x, y, z)$, su kuriais
@@ -557,9 +607,11 @@ y + xz = 2006.
 
 # <lo-sample/> LT.LKMMO.2005.12.5
 
+<text lang="lv">
 $n$ ir vesels pozitīvs skaitlis. 
 Vai eksistē tādi veseli pozitīvi skaitļi $x$ un $y$, ka 
 $$\sqrt{n} + \sqrt{n+1} < \sqrt{x} + \sqrt{y} < \sqrt{4n+2}?$$
+</text>
 
 <text lang="lt">
 $n$ yra teigiamas sveikasis skaičius. Ar egzistuoja tokie teigiami sveikieji skaičiai $x$ ir $y$, kad
@@ -579,9 +631,11 @@ $$\sqrt{n} + \sqrt{n+1} < \sqrt{x} + \sqrt{y} < \sqrt{4n+2}?$$
 
 # <lo-sample/> LT.LKMMO.2005.12.7
 
+<text lang="lv">
 $n$ un $m$ ir veseli pozitīvi skaitļi. Pierādiet, ka $5^n + 5^m$ ir pierakstāms kā 
 divu veselu pozitīvu skaitļu kvadrātu summa tad un tikai tad, kad 
 $n-m$ ir pāru skaitlis.
+</text>
 
 <text lang="lt">
 $n$ ir $m$ yra sveiki teigiami skaičiai. Įrodykite, kad $5^n + 5^m$ yra užrašomas dviejų sveikųjų
@@ -600,11 +654,13 @@ teigiamų skaičių kvadratų suma tada ir tiktai tada, kai $n-m$ yra lyginis sk
 
 # <lo-sample/> LT.LKMMO.2005.12.8
 
+<text lang="lv">
 Veselu pozitīvu skaitli sauksim par *trijniecīgu*, ja visus tā dalītājus var sadalīt $3$ 
 nešķeļošās kopās, kur visās apakškopās skaitļu summas ir vienādas.  
 **(A)** Atrodiet kaut vienu trijniecīgu skaitli;  
 **(B)** Atrodiet divus trijniecīgus skaitļus;  
 **(C)** Vai eksistē $2005$ trijniecīgi skaitļi?
+</text>
 
 <text lang="lt">
 Sveiką teigiamą skaičių vadiname *tripletiniu*, jeigu visi jo dalikliai gali būti suskirstyti į $3$
@@ -627,9 +683,11 @@ nesikertančius poaibius su vienoda kiekvieno poaibio skaičių suma.
 
 # <lo-sample/> LT.LKMMO.2005.12.9
 
+<text lang="lv">
 Cik ir $5$-ciparu palindromu, kuri dalās ar $37$?  
 *Piezīme.* Par palindromu saucam skaitli, kurš ir tāds pats, lasot no labās puses uz kreiso 
 un no kreisās uz labo. Tā pirmais un pēdējais cipars nav vienādi ar $0$.
+</text>
 
 <text lang="lt">
 Kiek yra $5$-ženklių palindromų, kurie dalijasi iš $37$? 
@@ -651,9 +709,11 @@ skaitmenys nelygūs $0$.)
 
 # <lo-sample/> LT.LKMMO.2005.12.10
 
+<text lang="lv">
 Vai ir bezgalīgi daudz tādu racionālu skaitļu pāru $(x;y)$, kur $x \neq y$, 
 bet abi skaitļi $\sqrt{x^2 + y^3}$ un
 $\sqrt{x^3 + y^2}$ ir racionāli?
+</text>
 
 <text lang="lt">
 Ar be galo daug yra teigiamųjų racionaliųjų skaičių $x$ ir $y$, $x \neq y$, tokių porų $(x;y)$, 
@@ -673,11 +733,13 @@ $\sqrt{x^3 + y^2}$ yra racionalieji skaičiai?
 
 # <lo-sample/> LT.LKMMO.2006.12.5
 
+<text lang="lv">
 Atrodiet visus veselos skaitļus $a$, $b$, $c$ un $d$, ka 
 $$\left\{ \begin{array}{l}
 ac - 3bd = 5,\\
 ad + bc = 6.
 \end{array} \right.$$
+</text>
 
 <text lang="lt">
 Raskite visus sveikuosius skaičius $a$, $b$, $c$ ir $d$, kad
@@ -699,9 +761,11 @@ ad + bc = 6.
 
 # <lo-sample/> LT.LKMMO.2006.12.6
 
+<text lang="lv">
 Vai virknē
 $$a_n = n^3 - (2n + 1)^2$$
 ir tāds loceklis, kurš dalās ar $2006$?
+</text>
 
 <text lang="lt">
 Ar sekoje
@@ -721,10 +785,12 @@ yra toks narys, kuris dalijasi iš $2006$?
 
 # <lo-sample/> LT.LKMMO.2006.12.7
 
+<text lang="lv">
 Ar $s(n)$ apzīmējam vesela pozitīva skaitļa 
 $n$ ciparu summu. Atrodiet visus tādus $n$, ka tā
 visu ciparu summa $s(n)$ ir lielākais skaitļa
 $n$ dalītājs, kas nesakrīt ar $n$.
+</text>
 
 <text lang="lt">
 Simboliu $s(n)$ žymime sveiko teigiamo skaičiaus 
@@ -745,10 +811,12 @@ skaičiaus $n$ daliklis, nesutampantis su $n$.
 
 # <lo-sample/> LT.LKMMO.2006.12.8
 
+<text lang="lv">
 Vai atradīsies tādi skaitļi $x$, $y$ un $z$, kas apmierina nosacījumu
 ${\displaystyle z^2 = \left( x^2 + 1 \right) \left( y^2 - 1 \right) + n}$, ja  
 **(A)** $n = 2006$,  
 **(B)** $n = 2007$?
+</text>
 
 <text lang="lt">
 Ar atsiras tokie skaičiai $x$, $y$ ir $z$ tenkinantys sąlygą 
@@ -769,6 +837,7 @@ ${\displaystyle z^2 = \left( x^2 + 1 \right) \left( y^2 - 1 \right) + n}$, jeigu
 
 # <lo-sample/> LT.LKMMO.2006.12.10
 
+<text lang="lv">
 **(A)** Atrodiet divas tādas racionālu pozitīvu skaitļu kopas
 $X$ un $Y$, kam nav kopīgu elementu, kuru
 apvienojums ir visu pozitīvo racionālo skaitļu kopa, turklāt
@@ -779,6 +848,7 @@ $$Y = \{ a \cdot b \,\mid\, a,b \in X \}.$$
 kam nav kopīgu elementu, kuru apvienojums ir visu reālo skaitļu kopa, turklāt
 
 $$V = \{ x + y \,\mid\, x,y \in U \}.$$
+</text>
 
 <text lang="lt">
 **(A)** Raskite tokias dvi teigiamų racionaliųjų skaičių 
@@ -806,9 +876,11 @@ $$V = \{ x + y \,\mid\, x,y \in U \}.$$
 
 # <lo-sample/> LT.LKMMO.2007.12.6
 
+<text lang="lv">
 Atrodiet visus veselu pozitīvu skaitļu $x$, $y$, $z$ un $t$ 
 četriniekus $(x, y, z, t)$, kas apmierina vienādojumu
 $$x^2 + y^2 + z^2 + t^2 = 3 (x + y + z + t).$$
+</text>
 
 <text lang="lt">
 Raskite visus sveikųjų teigiamų skaičių $x$, $y$, $z$ ir $t$ 
@@ -828,11 +900,13 @@ $$x^2 + y^2 + z^2 + t^2 = 3 (x + y + z + t).$$
 
 # <lo-sample/> LT.LKMMO.2007.12.7
 
+<text lang="lv">
 Ikvienam $n$ aplūkojam skaitli
 $S_n = 1 \cdot 2 + 2 \cdot 3 + \ldots + n \cdot (n + 1)$. 
 Pierādiet vai apgāziet apgalvojumu: Starp jebkuriem diviem kaimiņu skaitļiem 
 $S_n$ un $S_{n+1}$ 
 vienmēr ir kaut viens vesela skaitļa kvadrāts.
+</text>
 
 <text lang="lt">
 Su kiekvienu $n$ imkime skaičių 
@@ -854,11 +928,13 @@ visada yra nors vienas sveikojo skaičiaus kvadratas.
 
 # <lo-sample/> LT.LKMMO.2007.12.8
 
+<text lang="lv">
 Atrodiet visus naturālos skaitļus $n$, 
 kurus var pierakstīt ar izteiksmi
 $$n = [a, b] + [b, c] + [c, a],$$
 kur $a$, $b$, $c$ ir naturāli skaitļi, bet $[p, q]$ ir 
 skaitļu $p$ un $q$ mazākais kopīgais dalāmais.
+</text>
 
 <text lang="lt">
 Nurodykite visus sveikuosius teigiamus skaičius $n$, 
@@ -880,12 +956,14 @@ bendras mažiausias skaičių $p$ ir $q$ kartotinis.
 
 # <lo-sample/> LT.LKMMO.2007.12.9
 
+<text lang="lv">
 Naturālus skaitļus $m$ un $n$ cenšamies izvēlēties tā, lai 
 skaitlis $\frac{m+1}{n} + \frac{n+1}{m}$ būtu vesels.  
 **(A)** Atrodiet vismaz trīs tādu naturālu skaitļu $m$ un $n$ pārus $(m,n)$;  
 **(B)** Atrodiet vismaz $5$ tādus $m$ un $n$ pārus $(m,n)$;  
 **(C)** Vai var atrast $7$ tādus skaitļu pārus?  
 **(D)** Vai ir bezgalīgi daudz tādu naturālu skaitļu pāru?
+</text>
 
 <text lang="lt">
 Sveikuosius teigiamus skaičius $m$ ir $n$ stengsimės parinkti taip, 
@@ -908,11 +986,13 @@ kad skaičius $\frac{m+1}{n} + \frac{n+1}{m}$ būtų sveikasis skaičius.
 
 # <lo-sample/> LT.LKMMO.2007.12.10
 
+<text lang="lv">
 **(A)** Atrodiet tādu naturālu skaitli $n$, $n > 2$, 
 ka eksistē tādi $n$ pēc kārtas sekojoši veseli skaitļi, kuru kvadrātu 
 summa pati ir naturāla skaitļa kvadrāts.  
 **(B)** Atrodiet $2$ tādus naturālus $n$.  
 **(C)** Vai var atrast $3$ tādus naturālus $n$?
+</text>
 
 <text lang="lt">
 **(A)** Nurodykite tokį sveiką teigiamą skaičių $n$, $n > 2$, 
@@ -935,10 +1015,12 @@ skaičių, kurių kvadratų suma pati būtų sveikojo teigiamo skaičiaus kvadra
 
 # <lo-sample/> LT.LKMMO.2007.12.18
 
+<text lang="lv">
 Trijstūra malu garumu kvadrāti ir racionāli skaitļi. Vai tad noteikti var apgalvot, ka   
 **(A)** ap šo trijstūri apvilktās riņķa līnijas rādiusa kvadrāts ir 
 racionāls skaitlis?  
 **(B)** šajā trijstūrī ievilktās riņķa līnijas rādiusa kvadrāts ir racionāls skaitlis?
+</text>
 
 <text lang="lt">
 Trikampio kraštinių ilgių kvadratai yra racionalieji skaičiai. Ar tada būtinai  
@@ -961,9 +1043,11 @@ kvadratas yra racionalusis skaičius?
 
 # <lo-sample/> LT.LKMMO.2008.12.5
 
+<text lang="lv">
 Vai daļskaitli $3/2011$ var uzrakstīt kā trīs tādu daļskaitļu summu, 
 kam visām skaitītāji ir $1$, bet saucēji ir 
 dažādi nepāru skaitļi?
+</text>
 
 <text lang="lt">
 Ar galima trupmeną $3/2011$ užrašyti trijų trupmenų suma, 
@@ -984,6 +1068,7 @@ yra skirtingi nelyginiai skaičiai?
 
 # <lo-sample/> LT.LKMMO.2008.12.6
 
+<text lang="lv">
 Atrodiet visus veselu skaitļu $x$, $y$ un $z$ trijniekus
 $(x;y;z)$, kas apmierina vienādojumu sistēmu
 $$\left\{
@@ -991,6 +1076,7 @@ $$\left\{
 x + y + z = 3,\\
 x^3 + y^3 + z^3 = 3.
 \end{array} \right.$$
+</text>
 
 <text lang="lt">
 Raskite visus galimus sveikųjų skaičių $x$, $y$ ir $z$ trejetus 
@@ -1014,6 +1100,7 @@ x^3 + y^3 + z^3 = 3.
 
 # <lo-sample/> LT.LKMMO.2008.12.7
 
+<text lang="lv">
 Naturāli skaitļi $x$ un $y$ ir dažādi, 
 $x<y$, bet $x^2 + y^3$ dalās ar $x^3 + y^2$.  
 **(A)** Atrodiet vienu tādu naturālu skaitļu $x$ un $y$, 
@@ -1022,6 +1109,7 @@ $x < y$, pāri $(x; y)$.
 **(C)** Vai var atrast $2008$ šādus pārus?  
 **(D)** Vai tādu pāru $(x;y)$ ir bezgalīgi daudz, vai to ir 
 galīgs skaits? Atbildi pamatojiet.
+</text>
 
 <text lang="lt">
 Sveikieji teigiami skaičiai $x$ ir $y$ yra skirtingi, 
@@ -1046,8 +1134,10 @@ skaičius? Atsakymą pagrįskite.
 
 # <lo-sample/> LT.LKMMO.2008.12.8
 
+<text lang="lv">
 Pierādiet, ka jebkuram naturālam skaitlim $N$ ir tāds daudzkārtnis, kura
 ciparu summa arī vienāda ar $N$. 
+</text>
 
 <text lang="lt">
 Įrodykite, kad kiekvienas natūralusis skaičius $N$ turi tokį 
@@ -1067,11 +1157,13 @@ kartotinį, kurio skaitmenų suma irgi yra $N$.
 
 # <lo-sample/> LT.LKMMO.2008.12.9
 
+<text lang="lv">
 Uz tāfeles uzrakstīti skaitļi $1$, $2$, $3$, $4$ un $5$. 
 Ar vienu darbību var paņemt jebkurus divus skaitļus $a$
 un $b$, tos nodzēst un aizstāt ar skaitļiem $ab$ un $a + b$. 
 Vai atkārtoti piemērojot šādu operāciju, uz tāfeles kaut kad var parādīties
 šie pieci skaitļi: $21$, $27$, $64$, $180$, $540$?
+</text>
 
 <text lang="lt">
 Lentoje yra parašyti skaičiai $1$, $2$, $3$, $4$ ir $5$. 
@@ -1094,13 +1186,15 @@ gali atsirasti skaičiai $21$, $27$, $64$, $180$, $540$?
 
 # <lo-sample/> LT.LKMMO.2008.12.10
 
+<text lang="lv">
 Dota aritmētiska progresija
 $$18,41,64,87,\ldots.$$
 **(A)** Vai šajā progresijā kaut kad atgadīsies skaitlis, kura decimālpieraksts
-uzrBkstāms tikai ar deviņniekiem, bez kādiem citiem cipariem?  
+uzrakstāms tikai ar deviņniekiem, bez kādiem citiem cipariem?  
 **(B)** Vai šajā progresijā ir vairāki tādi skaitļi?  
 **(C)** Vai šajā progresijā ir bezgalīgi daudz skaitļu, kas 
 uzrakstāmi tikai ar deviņniekiem? 
+</text>
 
 <text lang="lt">
 Turime aritmetinę progresiją
@@ -1126,10 +1220,12 @@ devynetais užrašomų skaičių?
 
 # <lo-sample/> LT.LKMMO.2008.12.11
 
+<text lang="lv">
 Vai ir tādi naturāli skaitļi $n$ (un ja ir, tad cik daudzi), ka 
 visu veselo skaitļu no $1$ līdz $n$ reizinājums beidzas:  
 **(A)** tieši ar $98$ nullēm?  
 **(B)** tieši ar 99 nullēm?
+</text>
 
 <text lang="lt">
 Ar yra tokių sveikųjų teigiamų skaičių $n$ (ir jei yra, tai kiek), 
@@ -1155,10 +1251,12 @@ kad visų sveikųjų skaičių nuo $1$ iki $n$ sandauga baigiasi:
 
 # <lo-sample/> LT.LKMMO.2009.12.7
 
+<text lang="lv">
 Veseli skaitļi $a$ un $b$ apmierina nosacījumu
 $$a = a^2 + b^2 - 8b - 2ab + 16.$$
 Vai $a$ noteikti ir vesela skaitļa kvadrāts? 
 Atbildi pamatojiet.
+</text>
 
 <text lang="lt">
 Sveikieji skaičiai $a$ ir $b$ tenkina sąlygą
@@ -1184,10 +1282,12 @@ Atsakymą pagrįskite.
 
 # <lo-sample/> LT.LKMMO.2009.12.8
 
+<text lang="lv">
 Cik ir naturālu skaitļu $a$, $b$ un $c$ trijnieku $(a; b; c)$, kuri apmierina nosacījumu
 $a + b + c = 2009$?
 Atrodiet visus tādus trijniekus $(a; b; c)$, kuri apmierina šo vienādību, 
 bet to reizinājums $abc$ sasniedz lielāko iespējamo vērtību.
+</text>
 
 
 <text lang="lt">
@@ -1211,10 +1311,12 @@ o jų sandauga $abc$ įgytų didžiausią galimą reikšmę.
 
 # <lo-sample/> LT.LKMMO.2009.12.9
 
+<text lang="lv">
 Veseli nenegatīvi skaitļi $a$ un $b$ apmierina nosacījumu 
 $\left(a^2 - 9b^2\right)^2 - 33b = 16$.  
 **(A)** Pierādiet, ka $|a-3b| \geq 1$.  
 **(B)** Atrodiet visus veselu nenegatīvu skaitļu pārus $(a; b)$, kas apmierina šo vienādību. 
+</text>
 
 
 <text lang="lt">
@@ -1237,6 +1339,7 @@ $\left(a^2 - 9b^2\right)^2 - 33b = 16$.
 
 # <lo-sample/> LT.LKMMO.2009.12.10
 
+<text lang="lv">
 Pirmā simta skaitļi $M = \{1, 2, 3, \ldots, 99, 100\}$ 
 ir sarakstīti dabiskajā secībā $10 \times 10$ izmēru tabulā, kā 
 parādīts zemāk:
@@ -1245,6 +1348,7 @@ parādīts zemāk:
 
 Vai no tabulas var izsvītrot $10$ skaitļus tā, lai starp pārpalikušajiem 
 $90$ skaitļiem nevarētu atrast $10$-elementu aritmētisku progresiju?
+</text>
 
 
 <text lang="lt">
@@ -1274,9 +1378,11 @@ $90$ skaičių nebūtų galima surasti $10$-elementės aritmetinės progresijos?
 
 # <lo-sample/> LT.LKMMO.2009.12.13
 
+<text lang="lv">
 Atrodiet mazāko iespējamo saucēju tādā nesaīsināmā 
 daļā, kura pati ir divu tādu nesaīsināmu daļu summa, kuru 
 saucēji ir attiecīgi $600$ un $700$.
+</text>
 
 <text lang="lt">
 Raskite patį mažiausią galimą vardiklį tokios 
@@ -1298,10 +1404,12 @@ nesuprastinamų trupmenų su vardikliais $600$ bei $700$ suma.
 
 # <lo-sample/> LT.LKMMO.2009.12.14
 
+<text lang="lv">
 Ar $f(n)$ apzīmēsim visu vienādojuma 
 $4x + 3y + 2z = n$
 veselo pozitīvo atrisinājumu $(x;y;z)$ skaitu. Atrodiet
 $$f(2009) – f(2000).$$
+</text>
 
 <text lang="lt">
 Simboliu f(n) pažymėkime visų lygties
@@ -1323,11 +1431,13 @@ $$f(2009) – f(2000).$$
 
 # <lo-sample/> LT.LKMMO.2009.12.15
 
+<text lang="lv">
 Pierādiet vai atspēkojiet, ka skaitlis 
 ${\underbrace{99\ldots9}_{2005}}^{2009}$
 var tikt iegūts, izsvītrojot kaut kādus skaitļa
 ${\underbrace{99\ldots9}_{2008}}^{2009}$
 ciparus.
+</text>
 
 <text lang="lt">
 Įrodykite arba paneikite, kad skaičius 
@@ -1350,11 +1460,13 @@ skaitmenis.
 
 # <lo-sample/> LT.LKMMO.2010.12.6
 
+<text lang="lv">
 Ar $n$ apzīmējam naturālu skaitli, kurš dalās ar $2010$ un 
 kura decimālpierakstā ir ne vairāk kā viens pāru cipars.  
 **(A)** Atrodiet kaut vienu tādu skaitli.   
 **(B)** Noskaidrojiet, vai var atrast $2010$ tādus skaitļus.  
 **(C)** Atrodiet pašu mazāko tādu skaitli.
+</text>
 
 <text lang="lt">
 $n$ yra natūralusis skaičius, kuris dalijasi iš $2010$ 
@@ -1377,10 +1489,12 @@ lyginis skaitmuo.
 
 # <lo-sample/> LT.LKMMO.2010.12.7
 
+<text lang="lv">
 Atrodiet:  
 (A) Kādu naturālu skaitli $n>1$, kurš ir vairāk kā 
 $1200$ reižu lielāks par jebkuru savu pirmreizinātāju;  
 (B) Vismazāko skaitli ar šo īpašību.
+</text>
 
 <text lang="lt">
 Nurodykite:  
@@ -1403,10 +1517,12 @@ pirminį daliklį;
 
 # <lo-sample/> LT.LKMMO.2010.12.8
 
+<text lang="lv">
 Atrodiet visus naturālos skaitļus $n$, kuriem ikviens
 no skaitļiem $n^2 - 10n + 23$, 
 $n^2 - 9n + 31$ ir $n^2 - 12n + 46$
 ir pirmskaitlis.
+</text>
 
 <text lang="lt">
 Raskite visus natūraliuosius skaičius $n$, 
@@ -1429,10 +1545,12 @@ yra pirminis.
 
 # <lo-sample/> LT.LKMMO.2010.12.9
 
+<text lang="lv">
 Atrodiet visus naturālos skaitļus $n$, kuriem 
 var atrast tādu "futbola skaitļa" $11$ daudzkārtni 
 (t.i. kādu skaitli, kurš dalās ar $11$), 
 kura ciparu summa vienāda ar $n$. 
+</text>
 
 
 <text lang="lt">
@@ -1454,12 +1572,14 @@ kurio skaitmenų suma lygi $n$.
 
 # <lo-sample/> LT.LKMMO.2010.12.10
 
+<text lang="lv">
 Naturālu skaitli $n$ sauc par *neaizmirstamu*, 
 ja to nevar uzrakstīt formā $n=\frac{x^2-1}{y^2-1}$,
 kur $x$ un $y$ ir naturāli skaitļi, kas lielāki par $1$.  
 **(A)** Vai skaitlis $2$ ir *neaizmirstams*?  
 **(B)** Vai skaitlis $4$ ir *neaizmirstams*?  
 **(C)** Vai *neaizmirstamu* skaitļu ir bezgalīgi daudz? Atbildi pamatojiet.
+</text>
 
 <text lang="lt">
 Natūralusis skaičius $n$ vadinamas *nemariuoju*,
@@ -1482,6 +1602,7 @@ kur $x$ ir $y$ yra natūralieji skaičiai, didesni už $1$.
 
 # <lo-sample/> LT.LKMMO.2010.12.15
 
+<text lang="lv">
 Tabulas $n \times n$ rūtiņās kaut kādā secībā 
 ierakstīti visi skaitļi 
 $1, 2, 3, \ldots, n^2$ pa vienam katrā rūtiņā. 
@@ -1491,6 +1612,7 @@ Tabulu sauc par *serbisku*, ja jebkurās $n$ izretinātās rūtiņās
 visu skaitļu reizinājuma atlikums, dalot ar $n^2 + 1$ ir 
 vienmēr viens un tas pats. Vai eksistē serbiska tabula, kurai  
 **(A)** $n = 8$? **(B)** $n = 10$?
+</text>
 
 
 <text lang="lt">
@@ -1521,8 +1643,10 @@ serbiškoji lentelė, kai
 
 # <lo-sample/> LT.LKMMO.2011.12.6
 
+<text lang="lv">
 Atrodiet visus naturālos skaitļus $n$, kuriem 
 $n^2 - 7n + 10$ dalās ar $n – 3$.
+</text>
 
 <text lang="lt">
 Raskite visus tokius natūraliuosius skaičius $n$, kad
@@ -1541,12 +1665,14 @@ $n^2 - 7n + 10$ dalijasi iš $n – 3$.
 
 # <lo-sample/> LT.LKMMO.2011.12.7
 
+<text lang="lv">
 (A) Skaitļi $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$ un $10$ 
 sadalīti pa pāriem. Katrā no šiem pieciem pāriem izrēķināta abu skaitļu summa.
 Vai šādi var iegūt piecus dažādus pirmskaitļus?  
 (B) Skaitļi $1$, $2$, $3$, $\ldots$, $18$, $19$ un $20$ 
 sadalīti pa pāriem. Katrā no šiem desmit pāriem izrēķināta abu skaitļu summa. 
 Vai šādi var iegūt desmit dažādus pirmskaitļus?
+</text>
 
 <text lang="lt">
 (A) Skaičiai $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$ ir $10$ 
@@ -1571,9 +1697,11 @@ skaičių sumų. Ar galima tokiu būdu gauti dešimt skirtingų pirminių skaič
 
 # <lo-sample/> LT.LKMMO.2011.12.8
 
+<text lang="lv">
 Atrodiet visus tos naturālu skaitļu pārus 
 $(p,q)$, kuriem $p>q$ un
 $\frac{p+1}{p} \cdot \frac{q+1}{q} = \frac{2011}{2010}$.
+</text>
 
 <text lang="lt">
 Raskite visas tokias natūraliųjų skaičių poras
@@ -1594,9 +1722,11 @@ $\frac{p+1}{p} \cdot \frac{q+1}{q} = \frac{2011}{2010}$.
 
 # <lo-sample/> LT.LKMMO.2011.12.9
 
+<text lang="lv">
 Atrodiet visus tos veselo skaitļu pārus 
 $(x,y)$, kuriem
 $$x^2(y-1) + y^2(x-1)=1.$$
+</text>
 
 <text lang="lt">
 Raskite visas tokias sveikųjų skaičių poras
@@ -1618,12 +1748,14 @@ $$x^2(y-1) + y^2(x-1)=1.$$
 
 # <lo-sample/> LT.LKMMO.2011.12.10
 
+<text lang="lv">
 Naturāli skaitļi $a_1 < a_2 < \ldots < a_n$
 izceļas ar īpašību, ka jebkuriem dažādiem
 indeksiem $i$ un $j$ skaitlis
 $a_i$ dalās ar $| a_j - a_i |$. 
 Pierādīt, ka visiem indeksiem $i<j$ ir spēkā 
 $$ia_j \leq ja_i.$$
+</text>
 
 <text lang="lt">
 Natūralieji skaičiai $a_1 < a_2 < \ldots < a_n$
@@ -1650,9 +1782,11 @@ $$ia_j \leq ja_i.$$
 
 # <lo-sample/> LT.LKMMO.2012.12.6
 
+<text lang="lv">
 Aplūkosim visu skaitļa $35$ pozitīvo daudzkārtņu kopu (t.i. skaitļus, kuri dalās ar $35$).  
 **(A)** Atrodiet šīs kopas skaitli, kura visi cipari ir vienādi.  
 **(B)** Atrodiet pašu mazāko šādu skaitli.
+</text>
 
 <text lang="lt">
 Nagrinėkime visų skaičiaus $35$ teigiamų kartotinių aibę.  
@@ -1672,6 +1806,7 @@ Nagrinėkime visų skaičiaus $35$ teigiamų kartotinių aibę.
 
 # <lo-sample/> LT.LKMMO.2012.12.7
 
+<text lang="lv">
 Putnu barvedis Genis Balis maiņas beigās mēdz
 sausajā priedē vēl nedaudz iekalt - 
 saskaitīt vai sareizināt kaut ko "stabiņā".
@@ -1682,6 +1817,7 @@ Kādu lielāko skaitu reižu var samazināties divkāršojamā
 $7$-ciparu skaitļa ciparu summa?
 (To, ka ciparu summa var samazināties, barvedis zināja vēl
 neredzējis piemēru $6\,666\,668 \cdot 2 = 13\,333\,336$.)
+</text>
 
 <text lang="lt">
 Paukščių pulkininkas Genys Balys baigęs pamainą 
@@ -1710,9 +1846,11 @@ dar nematęs pavyzdžio $6\,666\,668 \cdot 2 = 13\,333\,336$.)
 
 # <lo-sample/> LT.LKMMO.2012.12.8
 
+<text lang="lv">
 Nosakiet, cik veselu atrisinājumu 
 $(x;y;z)$ ir vienādojumam
 $$(x-y)^3 + (y-z)^3 + (z-x)^3 = 30.$$
+</text>
 
 <text lang="lt">
 Nustatykite, kiek sveikųjų sprendinių
@@ -1734,9 +1872,11 @@ $$(x-y)^3 + (y-z)^3 + (z-x)^3 = 30.$$
 
 # <lo-sample/> LT.LKMMO.2012.12.9
 
+<text lang="lv">
 Atrodiet visus naturālu skaitļu trijniekus $(x; y; z)$, kuri apmierina vienādojumu
 $x^2 = y \cdot 2^z + 1$
 un nosacījumu $x > y > z$.
+</text>
 
 
 <text lang="lt">
@@ -1759,12 +1899,14 @@ ir sąlygą $x > y > z$.
 
 # <lo-sample/> LT.LKMMO.2012.12.10
 
+<text lang="lv">
 Apakškopa 
 $M \subseteq \{ 1,2,\ldots,2011 \}$
 apmierina nosacījumu: izvēloties jebkādus trīs apakškopas $M$ elementus, 
 starp tiem vienmēr atradīsies tādi divi elementi $a$ un $b$, ka 
 vai nu $a$ dala $b$, vai arī $b$ dala $a$. Kāds lielākais elementu skaits var būt
 šādā apakškopā $M$? 
+</text>
 
 
 <text lang="lt">
@@ -1788,10 +1930,12 @@ Kiek daugiausiai elementų gali būti tokiame poaibyje $M$?
 
 # <lo-sample/> LT.LKMMO.2013.12.6
 
+<text lang="lv">
 Saskaitot sešus pēc kārtas sekojošus naturālus skaitļus, no 
 kuriem neviens nedalās ar $7$, iegūts vesela skaitļa kvadrāts $S = n^2$.  
 **(A)** Atrodiet visus tādus četrciparu skaitļus $S$.  
 **(B)** Cik ir tādu sešciparu skaitļu $S$?
+</text>
 
 <text lang="lt">
 Sudėjus šešis iš eilės einančius natūraliuosius skaičius, 
@@ -1810,10 +1954,7 @@ sveikojo skaičiaus kvadratas $S = n^2$.
 </small>
 
 
-
-
-
-
+<text num="1" lang="lv">
 ## Atrisinājums
 
 * Vienīgā iespēja ir sākt ar $m+1$ ($m = 7k$), tad saskaitāmie ir $7k+1,\ldots,7k+6$.
@@ -1824,12 +1965,16 @@ sveikojo skaičiaus kvadratas $S = n^2$.
 * Tā kā $S(m)$ ir pilns kvadrāts, tad tas dalās ar $3^27^2=441$.
 * Aplūkojam $S = 441 \cdot (2a+1)$.
  
-*Nav pabeigts.* 
+*Nav pabeigts.*
+</text>
+
 
 # <lo-sample/> LT.LKMMO.2013.12.7
 
+<text lang="lv">
 Cik ir tādu naturālu skaitļu $k$, ka trīs skaitļu 
 $6^6$, $8^8$ un $k$ mazākais kopīgais dalāmais vienāds $12^{12}$?
+</text>
 
 <text lang="lt">
 Kiek yra tokių natūraliųjų skaičių $k$, kad mažiausias bendras trijų skaičių 
@@ -1849,9 +1994,11 @@ $6^6$, $8^8$ ir $k$ kartotinis lygus $12^{12}$?
 
 # <lo-sample/> LT.LKMMO.2013.12.8
 
+<text lang="lv">
 Dots naturāls skaitlis $n$. Gan $n$, gan $n+1$ ciparu summa dalās ar $101$.  
 **(A)** Atrodiet vismaz vienu tādu skaitli $n$.  
 **(B)** Atrodiet mazāko tādu skaitli $n$. 
+</text>
 
 <text lang="lt">
 Duotas natūralusis skaičius $n$. 
@@ -1874,8 +2021,10 @@ Kiekvieno iš skaičių $n$ ir $n+1$ skaitmenų suma dalijasi iš $101$.
 
 # <lo-sample/> LT.LKMMO.2013.12.9
 
+<text lang="lv">
 Atrodiet visus skaitļa $10^{2013} − 1$ 
 naturālos dalītājus, kas nepārsniedz **(A)** $9$; **(B)** $99$.
+</text>
 
 <text lang="lt">
 Raskite visus skaičiaus $10^{2013} − 1$ 
@@ -1896,9 +2045,11 @@ natūraliuosius daliklius, neviršijančius **(A)** $9$; **(B)** $99$.
 
 # <lo-sample/> LT.LKMMO.2013.12.10
 
+<text lang="lv">
 Pierādiet, ka, ja veseli skaitļi $a, b, c$ apmierina vienādību
 $$\frac{a}{b}+\frac{b}{c}+\frac{c}{a}=5,$$
 tad reizinājums $abc$ ir vesela skaitļa kubs.
+</text>
 
 <text lang="lt">
 Įrodykite, kad jei sveikieji skaičiai $a, b, c$ tenkina lygybę
@@ -1919,10 +2070,12 @@ tai sandauga $abc$ yra sveikojo skaičiaus kubas.
 
 # <lo-sample/> LT.LKMMO.2014.12.6
 
+<text lang="lv">
 Viens no četrciparu naturāla skaitļa cipariem ir $2$. 
 Visu četru ciparu summa vienāda ar $22$. 
 Bez tam, pats četrciparu skaitlis dalās ar $11$. 
 Cik ir tādu četrciparu skaitļu?
+</text>
 
 <text lang="lt">
 Vienas iš keturženklio natūraliojo skaičiaus skaitmenų yra $2$. 
@@ -1944,6 +2097,7 @@ Kiek yra tokių keturženklių skaičių?
 
 # <lo-sample/> LT.LKMMO.2014.12.7
 
+<text lang="lv">
 Atrodiet šīs vienādojumu sistēmas atrisinājumus veselos skaitļos:
 
 $$\left\{ 
@@ -1952,6 +2106,7 @@ xy + z & = & 27, \\
 x+yz & = & 22
 \end{array}
 \right.$$
+</text>
 
 <text lang="lt">
 Raskite sveikuosius šios lygčių sistemos sprendinius:
@@ -1973,8 +2128,10 @@ $$x+yz=22$$
 
 # <lo-sample/> LT.LKMMO.2014.12.8
 
+<text lang="lv">
 Atrodiet visus naturālos skaitļus $n$, kuriem
 $3^{2n+1} - 4^{n+1} + 6n$ ir pirmskaitlis. 
+</text>
 
 <text lang="lt">
 Raskite visus natūraliuosius skaičius n, su kuriais skaičius 
@@ -1994,12 +2151,14 @@ $3^{2n+1} - 4^{n+1} + 6n$ yra pirminis.
 
 # <lo-sample/> LT.LKMMO.2014.12.9
 
+<text lang="lv">
 Naturālu skaitli sauksim par *izcilu*, ja tam 
 ir tieši divi atšķirīgi pirmskaitļu dalītāji. 
 Piemēram, izcilam skaitlim $100$ ir divi 
 pirmskaitļu dalītāji $2$ un $5$. Pierādiet, ka 
 $18$ pēc kārtas sekojoši naturāli skaitļi nevar
 visi būt izcili. 
+</text>
 
 <text lang="lt">
 Natūralųjį skaičių vadinkime neprilygstamu, 
@@ -2021,9 +2180,11 @@ einančių natūraliųjų skaičių negali būti visi neprilygstami.
 
 # <lo-sample/> LT.LKMMO.2014.12.10
 
+<text lang="lv">
 Kurš skaitlis lielāks: $(100!)!$ vai 
 $(99!)^{100!}\cdot(100!)^{99!}$? 
 (Šeit $n! = 1 \cdot 2 \cdot 3 \cdot \ldots \cdot n$ apzīmē faktoriālu.)
+</text>
 
 <text lang="lt">
 Kuris skaičius didesnis: $(100!)!$ ar 
@@ -2046,12 +2207,14 @@ $(99!)^{100!}\cdot(100!)^{99!}$?
 
 # <lo-sample/> LT.LKMMO.2014.12.11
 
+<text lang="lv">
 Kāds "divniekotājs" (skolēns ar vājām sekmēm)
 matemātikas stundās arvien saņem kādu no $4$ atzīmēm: 
 $2$, $3$, $4$ vai $5$.
 Viņa $17$ vērtējumu aritmētiskais vidējais ir 
 vesels skaitlis. Pierādiet, ka vienu no $4$ atzīmēm 
 šis "divniekotājs" saņēma ne vairāk kā divas reizes.
+</text>
 
 <text lang="lt">
 Vienas dvejetukininkas per matematikos 
@@ -2075,10 +2238,12 @@ gavo ne daugiau nei du kartus.
 
 # <lo-sample/> LT.LKMMO.2015.12.6
 
+<text lang="lv">
 **(A)** Kuram lielākajam naturālam $k$ skaitlis $120!$ dalās ar 
 $12^k$? 
 **(B)** Kuram lielākajam naturālam $k$ skaitlis $240!$ dalās 
 ar $12^k$? 
+</text>
 
 <text lang="lt">
 **(A)** Su kokiu didžiausiu natūraliuoju skaičiumi $k$ skaičius $120!$ 
@@ -2101,10 +2266,12 @@ dalijasi iš $12^k$?
 
 # <lo-sample/> LT.LKMMO.2015.12.7
 
+<text lang="lv">
 Trīsciparu skaitlis ar nenulles cipariem ir ar
 šādu īpašību: tā ciparus sakārtojot jebkurā secībā, 
 iegūtais trīsciparu skaitlis nekad nedalās ar $4$. 
 Cik ir tādu trīsciparu skaitļu ar visiem nenulles cipariem? 
+</text>
 
 <text lang="lt">
 Triženklis skaičius su nenuliniais skaitmenimis 
@@ -2127,10 +2294,12 @@ skaičių su nenuliniais skaitmenimis?
 
 # <lo-sample/> LT.LKMMO.2015.12.8
 
+<text lang="lv">
 Divu blakusesošu naturālu skaitļu reizinājumu 
 sauksim par *gandrīz kvadrātu*. Pierādiet, ka 
 jebkurš gandrīz kvadrāts vienāds ar divu gandrīz 
 kvadrātu attiecību. 
+</text>
 
 <text lang="lt">
 Dviejų gretimų natūraliųjų skaičių sandaugą 
@@ -2151,10 +2320,12 @@ kuris beveik kvadratas lygus dviejų beveik kvadratų santykiui.
 
 # <lo-sample/> LT.LKMMO.2015.12.9
 
+<text lang="lv">
 Atrodiet visus pirmskaitļu četriniekus $(p, q, r, s)$, 
 kas apmierina nevienādības $0 < p < q < r < s$
 un vienādojumu.  
 $$1 - \frac{1}{p} - \frac{1}{q} - \frac{1}{r} - \frac{1}{s} = \frac{1}{pqrs}.$$
+</text>
 
 <small>
 
@@ -2171,10 +2342,12 @@ $$1 - \frac{1}{p} - \frac{1}{q} - \frac{1}{r} - \frac{1}{s} = \frac{1}{pqrs}.$$
 
 # <lo-sample/> LT.LKMMO.2015.12.10
 
+<text lang="lv">
 Katram naturālam skaitlim $n>1$ skaitļi
 $$\frac{1}{n},\frac{2}{n},\frac{3}{n},\ldots,\frac{n-1}{n}$$
 uzrakstīti kā nesaīsināmas daļas un aprēķināta šo daļu skaitītāju summa $f(n)$. 
 Kurām $n$ vērtībām skaitlis $f(2015n) − f(n)$ ir pāru?
+</text>
 
 
 <text lang="lt">
@@ -2197,11 +2370,13 @@ Su kuriomis $n$ reikšmėmis skaičius $f(2015n) − f(n)$ yra lyginis?
 
 # <lo-sample/> LT.LKMMO.2015.12.11
 
+<text lang="lv">
 Uz tāfeles uzrakstīts skaitlis $12$. Vienā gājienā 
 atļauts nodzēst uz tāfeles esošo skaitli $N$ un 
 uzrakstīt vienu no skaitļiem $2N + 1$ vai $\frac{N}{3}$
 (skaitlim jāpaliek veselam). Vai tā var iegūt skaitli  
 a) $29$; b) $4095$; c) $100$?
+</text>
 
 
 <text lang="lt">
@@ -2227,6 +2402,7 @@ a) $29$; b) $4095$; c) $100$?
 
 # <lo-sample/> LT.LKMMO.2015.12.15
 
+<text lang="lv">
 Uz tāfeles ir uzrakstīts skaitlis $1345$. 
 Jaunutis un Algirdas, pārmaiņus veicot gājienus, spēlē tādu spēli. 
 Vienā gājienā uz tāfeles esošajam skaitlim spēlētājs atņem jebkuru tā 
@@ -2234,6 +2410,7 @@ pozitīvu dalītāju vai jebkuru tā dažādu dalītāju summu un iegūto
 skaitli uzrakstīt uz tāfeles sākotnējā skaitļa vietā. Zaudē tas spēlētājs, kurš
 savā gājienā uz tāfeles uzraksta skaitli, kas mazāks par $1$. 
 Kuram spēlētājam ir uzvaras stratēģija, ja pirmo gājienu veic Jaunutis? 
+</text>
 
 <text lang="lt">
 Lentoje parašytas skaičius $1345$. Jaunutis ir Algirdas, pakaitomis atlikdami ėjimus, žaidžia
@@ -2256,9 +2433,11 @@ Kuris žaidėjas turi pergalės strategiją, jei pirmąjį ėjimą atlieka Jaunu
 
 # <lo-sample/> LT.LKMMO.2016.12.6
 
+<text lang="lv">
 Atrast visus pirmskaitļu pārus $(p,q)$, kuriem
 $p^4 − q^4$ ir naturāls skaitlis, kuram ir 
 mazāk kā $8$ (pozitīvi) dalītāji (ieskaitot $1$ un pašu skaitli).
+</text>
 
 <text lang="lt">
 Raskite visas pirminių skaičių poras $(p,q)$, kurioms 
@@ -2280,6 +2459,7 @@ mažiau nei $8$ (teigiamus) daliklius (įskaitant $1$ ir patį skaičių).
 
 # <lo-sample/> LT.LKMMO.2016.12.7
 
+<text lang="lv">
 Atrast visus pozitīvos vienādojumu sistēmas atrisinājumus $(x,y,z)$:
 $$ \left\{
 \begin{array}{l}
@@ -2290,6 +2470,7 @@ $$ \left\{
 Šeit $\lfloor t \rfloor$ apzīmē skaitļa $t$ veselo daļu
 (lielāko veselo skaitli, kas nav lielāks par $t$), bet $\{ t \} = t−\lfloor t \rfloor$
 ir skaitļa $t$ daļveida daļas.
+</text>
 
 
 <text lang="lt">
@@ -2319,8 +2500,10 @@ yra skaičiaus $t$ trupmeninė dalis.
 
 # <lo-sample/> LT.LKMMO.2016.12.8
 
+<text lang="lv">
 Atrast visus vienādojuma $x+y = \sqrt{x} + \sqrt{y} + \sqrt{xy}$ 
 naturālos atrisinājumus $(x, y)$.
+</text>
 
 <text lang="lt">
 Raskite visus lygties $x+y = \sqrt{x} + \sqrt{y} + \sqrt{xy}$ 
@@ -2342,11 +2525,13 @@ natūraliuosius sprendinius $(x, y)$.
 
 # <lo-sample/> LT.LKMMO.2016.12.9
 
+<text lang="lv">
 Audrius uzrakstīja deviņus deviņciparu naturālus skaitļus. 
 Ikvienā skaitlī ir visi cipari 
 $1,2,3,4,5,6,7,8,9$. Uzrakstīto skaitļu 
 summas pēdējie $k$ cipari ir nulles. 
 Atrodiet lielāko iespējamo skaitļa $k$ vērtību.
+</text>
 
 <text lang="lt">
 Audrius užrašė devynis devynženklius natūraliuosius skaičius. 
@@ -2370,9 +2555,11 @@ nuliai. Raskite didžiausią galimą skaičiaus $k$ reikšmę.
 
 # <lo-sample/> LT.LKMMO.2016.12.10
 
+<text lang="lv">
 Pierādiet: Jebkuram naturālam skaitlim $n > 1$ 
 eksistē tāds naturāls skaitlis $m > n^n$,
 ka $n^m − m^n$ dalās ar $n + m$.
+</text>
 
 <text lang="lt">
 Įrodykite: bet kuriam natūraliajam skaičiui 
@@ -2393,6 +2580,7 @@ kad $n^m − m^n$ dalijasi iš $n + m$.
 
 # <lo-sample/> LT.LKMMO.2016.12.15
 
+<text lang="lv">
 Uz tāfeles uzrakstītas $9$ zvaigznītes $\ast\ast\ast\ast\ast\ast\ast\ast\ast$. 
 Gervazs un Protazs spēlē sekojošu spēli, pārmaiņus izdarīdami 
 gājienus un izmantodami ciparus $1, 2, 3, 4, 5, 6, 7, 8, 9$. 
@@ -2404,6 +2592,7 @@ dažādiem cipariem, kas iegūts katram spēlētājam izdarot trīs gājienus,
 dalās ar $27$.
 Vai Protazam ir uzvaras stratēģija (t.i. vai viņš vienmēr 
 var uzvarēt, lai kā spēlētu Gervazs)?
+</text>
 
 <text lang="lt">
 Lentoje užrašytos 9 žvaigždutės $\ast\ast\ast\ast\ast\ast\ast\ast\ast$. Gervazas ir Protazas 
@@ -2433,9 +2622,11 @@ ar jis visada gali laimėti, kaip bežaistų Gervazas)?
 
 # <lo-sample/> LT.LKMMO.2017.12.6
 
+<text lang="lv">
 Skaitlis $p$ ir pirmskaitlis, bet skaitlis $3p + 10$ ir sešu pēc kārtas 
 sekojošu naturālu skaitļu kvadrātu summa. 
 Pierādiet, ka $p − 7$ dalās ar $36$.
+</text>
 
 <text lang="lt">
 Skaičius $p$ pirminis, o skaičius $3p + 10$ yra šešių iš eilės einančių 
@@ -2456,6 +2647,7 @@ suma. Įrodykite, kad $p − 7$ dalijasi iš $36$.
 
 # <lo-sample/> LT.LKMMO.2017.12.7
 
+<text lang="lv">
 Veselo skaitļu kopu apzīmējam ar $\mathbb{Z}$.  
 **(A)** Vai jebkuriem tās pašas paritātes naturāliem skaitļiem $a$ un $b$ eksistē tādi reāli 
 skaitļi $x \not\in \mathbb{Z}$ un $y \not\in \mathbb{Z}$, 
@@ -2463,6 +2655,7 @@ ka $x + y \in \mathbb{Z}$ un $ax + by \in \mathbb{Z}$?
 **(B)** Vai jebkuriem atšķirīgas paritātes naturāliem skaitļiem $a$ un $b$ eksistē tādi
 reāli skaitļi $x \not\in \mathbb{Z}$ un $y \not\in \mathbb{Z}$, ka
 $x + y \in \mathbb{Z}$ un $ax + by \in \mathbb{Z}$?
+</text>
 
 
 <text lang="lt">
@@ -2489,9 +2682,11 @@ $x + y \in \mathbb{Z}$ ir $ax + by \in \mathbb{Z}$?
 
 # <lo-sample/> LT.LKMMO.2017.12.8
 
+<text lang="lv">
 Naturāla skaitļa $a$ ciparu summu apzīmēsim ar $S(a)$. 
 Vai eksistē tāds naturāls skaitlis $n$, ka
 $S(n) \cdot S(n + 1) = 465$?
+</text>
 
 <text lang="lt">
 Natūraliojo skaičiaus $a$ skaitmenų sumą žymėkime $S(a)$. 
@@ -2511,9 +2706,11 @@ $S(n) \cdot S(n + 1) = 465$?
 
 # <lo-sample/> LT.LKMMO.2017.12.9
 
+<text lang="lv">
 Naturāli skaitļi $a$ un $b$ apmierina nosacījumu 
 $$a − b = 5b^2 − 4a^2 > 0.$$
 Pierādiet, ka $a - b$ ir vesela skaitļa kvadrāts.
+</text>
 
 <text lang="lt">
 Natūralieji skaičiai $a$ ir $b$ tenkina sąlygą
@@ -2535,9 +2732,11 @@ $$a − b = 5b^2 − 4a^2 > 0.$$
 
 # <lo-sample/> LT.LKMMO.2017.12.10
 
+<text lang="lv">
 Naturāla skaitļa $N$ jebkuram dalītājam $d$ (ieskaitot dalītājus 
 $1$ un $N$) skaitlis
 $d + 2$ ir pirmskaitlis. Kāds lielākais pozitīvu dalītāju skaits var būt skaitlim $N$? 
+</text>
 
 <text lang="lt">
 Natūraliojo skaičiaus $N$ bet kuriam teigiamam dalikliui $d$ 
@@ -2560,9 +2759,11 @@ $d + 2$ yra pirminis. Kiek daugiausiai teigiamų daliklių gali turėti $N$?
 
 # <lo-sample/> LT.LKMMO.2017.12.11
 
+<text lang="lv">
 Kastē sajauktas $100$ kartiņas, kas bija pēc kārtas 
 sanumurētas ar skaitļiem $1, 2, 3, \ldots, 100$. Cik vismaz kartiņu no kastes ir 
 neskatoties jāizvelk, lai izvilkto skaitļu reizinājums noteikti dalītos ar $192$?
+</text>
 
 <text lang="lt">
 Dėžėje sumaišytos guli $100$ kortelių, iš eilės sunumeruotos skaičiais $1, 2, 3, \ldots, 100$. Kiek
@@ -2584,11 +2785,13 @@ dalytųsi iš $192$?
 
 # <lo-sample/> LT.LKMMO.2018.12.6
 
+<text lang="lv">
 Naturālu skaitli $N$ sauksim par *jauku*, ja 
 tam labajā pusē pierakstot jebkuru nenulles ciparu $a$, 
 iegūtais jaunais skaitlis vienmēr dalās ar $a$.  
 **(A)** Atrodiet kaut vienu jauku skaitli.  
 **(B)** Atrodiet vismazāko jauko skaitli.
+</text>
 
 <text lang="lt">
 Natūralųjį skaičių $N$ vadinsime smagiu, 
@@ -2611,9 +2814,11 @@ gautasis naujas skaičius visada dalijasi iš $a$.
 
 # <lo-sample/> LT.LKMMO.2018.12.7
 
+<text lang="lv">
 Trīs naturāli skaitļi $a,b,c$ apmierina vienādojumu 
 $a^3b^3 + b^3c^3 + c^3a^3 = abc(a^3 + b^3 + c^3)$. Pierādiet, 
 ka vismaz viens no skaitļiem $ab, bc, ca$ ir naturāla skaitļa kvadrāts.
+</text>
 
 <text lang="lt">
 Trys natūralieji skaičiai $a, b, c$ tenkina lygtį 
@@ -2634,11 +2839,13 @@ kad bent vienas iš skaičių $ab, bc, ca$ yra natūraliojo skaičiaus kvadratas
 
 # <lo-sample/> LT.LKMMO.2018.12.8
 
+<text lang="lv">
 Veseli skaitļi $x_1, x_2,\ldots, x_n$, $y_1, y_2,\ldots, y_n$
 apmierina nosacījumus:
 $$x_1 + x_2 + \ldots + x_n = y_1 + y_2 + \ldots + y_n = 0,$$ 
 $$x_1^2 + y_1^2 = x_2^2 + y_2^2 = \ldots = x_n^2 + y_n^2 > 0.$$
 Pierādiet, ka skaitlis $n$ ir pāru skaitlis. 
+</text>
 
 <text lang="lt">
 Sveikieji skaičiai $x_1, x_2,\ldots, x_n$, $y_1, y_2,\ldots, y_n$
@@ -2660,6 +2867,7 @@ $$x_1^2 + y_1^2 = x_2^2 + y_2^2 = \ldots = x_n^2 + y_n^2 > 0.$$
 
 # <lo-sample/> LT.LKMMO.2018.12.9
 
+<text lang="lv">
 Aušra vienu pēc otra uzrakstīja $8$ pirmskaitļus, kas
 mazāki par $200$ (ne obligāti dažādus). Tad 
 Aušrine pie pirmā Aušras skaitļa pieskaitīja $1$, 
@@ -2667,6 +2875,7 @@ pie otrā pieskaitīja $2$, pie trešā pieskaitīja $3$, $\ldots$,
 pie astotā pieskaitīja $8$. Aurora Aušrines iegūtos $8$
 skaitļus sareizināja. Ar kādu lielāko divnieka pakāpi $2^n$, 
 kur $n$ ir naturāls skaitlis, var dalīties Auroras iegūtais skaitlis?
+</text>
 
 <text lang="lt">
 Aušra vieną po kito užrašė $8$ pirminius skaičius,
@@ -2692,6 +2901,7 @@ kur skaičius $n$ natūralusis, gali dalytis Auroros gautas skaičius?
 
 # <lo-sample/> LT.LKMMO.2018.12.10
 
+<text lang="lv">
 Uz tāfeles uzrakstīts skaitlis $2018$. Rītis un Vakare spēlē 
 spēli, pārmaiņus izdarot gājienus; Rītis sāk. Katrā savā gājienā
 Rītis pieraksta uz tāfeles esošajam skaitlim labajā pusē 
@@ -2700,6 +2910,7 @@ uz tāfeles esošajam skaitlim labajā pusē jebkādus divus ciparus.
 Ja pēc kāda Vakares gājiena skaitlis uz tāfeles dalās ar $112$, tad Vakare uzvar. 
 Ja uz tāfeles esošajam skaitlim jau ir $2018$ vai vairāk ciparu, bet Vakare vēl 
 nav uzvarējusi, tad uzvar Rītis. Kuram no spēlētājiem ir uzvaras stratēģija.
+</text>
 
 <text lang="lt">
 Lentoje užrašytas skaičius $2018$. Rytis ir Vakarė žaidžia žaidimą, pakaitomis atlikdami ėjimus;

@@ -1,9 +1,11 @@
 # <lo-sample/> LT.LDK.2009.1
 
+<text lang="lv">
 Naturāls skaitlis $N$ dalās ar $2009$ un 
 tā decimālpieraksta ciparu summa vienāda ar $2009$.  
 (A) Atrast vienu šādu skaitli,  
 (B) Atrast mazāko šādu skaitli.
+</text>
 
 <text lang="en">
 The natural number $N$ is a multiple of $2009$ 
@@ -17,12 +19,14 @@ equals $2009$.
 
 # <lo-sample/> LT.LDK.2009.5
 
+<text lang="lv">
 Aplūkojam tabulu, kuras šūnās ierakstīti veseli skaitļi. 
 Viena un tā paša vesela skaitļa pieskaitīšanu visiem skaitļiem tanī pašā
 tabulas rindiņā vai tanī pašā kolonnā sauksim par *operāciju*. Ir zināms, 
 ka bezgalīgi daudziem naturāliem $n$, ar galīgu operāciju skaitu var iegūt 
 tabulu, kurā visi elementi dalās ar $n$. Pierādiet, ka ar galīgu skaitu operāciju 
 var iegūt tabulu, kur visi elementi ir nulles.
+</text>
 
 <text lang="en">
 Consider a table whose entries are integers. Adding a same integer to all entries on
@@ -35,9 +39,11 @@ operations, one can obtain the table whose all entries are zeroes.
 
 # <lo-sample/> LT.LDK.2010.2
 
+<text lang="lv">
 Atrast visus naturālos skaitļus $n$, kuriem eksistē dažādi veseli skaitļi
 $a_1,a_2,\ldots,a_n$ tādi, ka
 $$\frac{1}{a_1}+\frac{2}{a_2}+\cdots+\frac{n}{a_n}=\frac{a_1 + a_2 + \cdots + a_n}{2}.$$
+</text>
 
 <text lang="en">
 Find all positive integers $n$ for which there are distinct integer numbers
@@ -49,11 +55,13 @@ $$\frac{1}{a_1}+\frac{2}{a_2}+\cdots+\frac{n}{a_n}=\frac{a_1 + a_2 + \cdots + a_
 
 # <lo-sample/> LT.LDK.2010.5
 
+<text lang="lv">
 Atrast naturālos skaitļus $n$, kas apmierina sekojošus divus nosacījumus:  
 (a) $n$ dalot ar $9$, dalījums ir pozitīvs trīsciparu skaitlis, kuram 
 ir vienādi cipari.  
 (b) $n+36$ dalot ar $4$, dalījums ir četrciparu skaitlis, tā cipari 
 ir $2$, $0$, $0$, $9$ kaut kādā secībā.
+</text>
 
 <text lang="en">
 Find positive integers $n$ that satisfy the following two conditions:  
@@ -66,10 +74,12 @@ number, the digits beeing $2$, $0$, $0$, $9$ in some order.
 
 # <lo-sample/> LT.LDK.2011.1
 
+<text lang="lv">
 Veselie skaitļi $a$, $b$ un $c$ apmierina nosacījumu
 $ab + bc + ca = 1$. Vai skaitlis
 $(1 + a^2)(1 + b^2)(1 + c^2)$ 
 ir pilns kvadrāts? Kāpēc?
+</text>
 
 <text lang="en">
 Integers $a$, $b$ and $c$ satisfy the condition 
@@ -82,8 +92,10 @@ is a perfect square? Why?
 
 # <lo-sample/> LT.LDK.2011.3
 
+<text lang="lv">
 Atrast visus pirmskaitļus $p, q$ tādus, ka 
 $p^3 - q^7 = p-q$. 
+</text>
 
 <text lang="en">
 Find all primes $p,q$ such that
@@ -94,9 +106,11 @@ $p^3 - q^7 = p-q$.
 
 # <lo-sample/> LT.LDK.2011.5
 
+<text lang="lv">
 Naturāli skaitļi $1,2,3,\ldots,n$ ir uzrakstīti uz tāfeles ($n > 2$). Katru 
 minūti divus skaitļus nodzēš un to vietā uzraksta to summas mazāko pirmreizinātāju. 
 Beigās paliek tikai skaitlis $97$. Atrast mazāko $n$, kuram tasir iespējams.
+</text>
 
 <text lang="en">
 Positive integers $1,2,3,\ldots,n$ are written on a blackboard ($n > 2$). Every
@@ -109,10 +123,12 @@ possible.
 
 # <lo-sample/> LT.LDK.2012.4
 
+<text lang="lv">
 Ar $m$ apzīmēts naturāls skaitlis. Atrodiet visas ierobežotās 
 veselu skaitļu virknes $a_1,a_2,a_3,\ldots$ kurām 
 $a_n+a_{n+1}+a_{n+m} = 0$ visiem
 $n \in \mathbb{N}$.
+</text>
 
 <text lang="en">
 Let $m$ be a positive integer. Find all bounded sequences of
@@ -124,6 +140,7 @@ $n \in \mathbb{N}$.
 
 # <lo-sample/> LT.LDK.2013.3
 
+<text lang="lv">
 Uz tāfeles uzrakstīts skaitlis $1234567890$. Divi spēlētāji 
 $A$ un $B$ spēlē sekojošu spēli, pārmaiņus izdarot gājienus.
 Vienā gājienā spēlētājs nodzēš skaitli, kas ir uz tāfeles, piemēram $m$, 
@@ -132,6 +149,7 @@ naturālu skaitli, kas nepārsniedz skaitļa $m$ ciparu summu.
 Uzvar tas spēlētājs, kurš pirmais smazina skaitli uz tāfeles līdz $0$. 
 Noteikt, kuram no spēlētājiem ir uzvaroša stratēģija, ja 
 spēlētājs $A$ izdara pirmo gājienu.
+</text>
 
 <text lang="en">
 The number $1234567890$ is written on the blackboard. Two
@@ -149,10 +167,12 @@ move.
 
 # <lo-sample/> LT.LDK.2013.4
 
+<text lang="lv">
 Naturālu skaitli $n>2$ saucam par *savdabīgu*, ja skaitlis 
 $${n \choose i} + {n \choose j} - i - j$$
 ir pāru skaitlis visiem $i$ un $j$ tādiem, ka $0 \leq i \leq j \leq n$.
 Atrodiet visus savdabīgos skaitļus.
+</text>
 
 <text lang="en">
 A positive integer n > 2 is called peculiar if the number
@@ -165,9 +185,11 @@ Determine all peculiar numbers.
 
 # <lo-sample/> LT.LDK.2014.4
 
+<text lang="lv">
 Noteikt visus naturālos skaitļus $n > 1$, kuriem $n+D(n)$ ir skaitļa
 $10$ pakāpe, kur $D(n)$ apzīmē lielāko skaitļa $n$ dalītāju, kuram 
 $D(n) < n$.
+</text>
 
 <text lang="en">
 Determine all positive integers $n > 1$ for which $n+D(n)$ is a
@@ -179,6 +201,7 @@ $n$ satisfying $D(n) < n$.
 
 # <lo-sample/> LT.LDK.2015.4
 
+<text lang="lv">
 Ar $\mbox{LKD}(\ldots)$ apzīmē skaitļu
 $(\ldots)$ lielāko kopīgo dalītāju. 
 Naturāli skaitļi $a,b,c$ apmierina četrus nosacījumus:
@@ -192,6 +215,7 @@ $$\begin{array}{rcl}
 
 **(A)** Vai ir iespējams, ka $a + b + c = 2015$?  
 **(B)** Noteikt mazāko iespējamo vērtību summai $a+b+c$.
+</text>
 
 <text lang="en">
 We denote by $\mbox{gcd}(\ldots)$ the greatest common divisor of the numbers in
@@ -214,8 +238,10 @@ take.
 
 # <lo-sample/> LT.LDK.2016.4
 
+<text lang="lv">
 Noteikt visus naturālos skaitļus $n$, kuriem 
 $7^n−1$ dalās ar $6^n−1$.
+</text>
 
 <text lang="en">
 Determine all positive integers $n$ such that 
@@ -226,11 +252,13 @@ $7^n−1$ is divisible by $6^n−1$.
 
 # <lo-sample/> LT.LDK.2017.4
 
+<text lang="lv">
 Pierādīt, ka ir bezgalīgi daudz naturālu skaitļu $n$, ka
 skaitļa $n(n+3)$ dažādo nepāra pirmreizinātāju skaits dalās ar $3$. 
 (Piemēram, skaitlim $180 = 2^2 \cdot 3^2 \cdot 5$ ir divi dažādi nepāru pirmreizinātāji, 
 bet skaitlim 
 $840 = 2^3 \cdot 3 \cdot 5 \cdot 7$ tādu ir trīs.)
+</text>
 
 <text lang="en">
 Show that there are infinitely many positive integers $n$ such that the
@@ -243,9 +271,11 @@ $840 = 2^3 \cdot 3 \cdot 5 \cdot 7$ has three.)
 
 # <lo-sample/> LT.LDK.2018.4
 
+<text lang="lv">
 Atrast visus naturālos skaitļus $n$, kuriem eksistē naturāls $k$, ka 
 ikvienam pozitīvam skaitļa $n$ dalītājam $d$, skaitlis $d-k$ arī ir
 (ne obligāti pozitīvs) skaitļa $n$ dalītājs. 
+</text>
 
 <text lang="en">
 Find all positive integers $n$ for which there exists a positive integer $k$
