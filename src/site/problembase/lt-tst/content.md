@@ -1,4 +1,4 @@
-# <lo-sample/> LT.TST.2008.12.12.1
+# <lo-sample/> LT.TST.2008.12.1
 
 <text lang="lv">
 Atrodiet visus veselu pozitīvu skaitļu trijniekus $(x, y, z)$, kas apmierina vienādību $1 + 4^x + 4^y = z^2$.
