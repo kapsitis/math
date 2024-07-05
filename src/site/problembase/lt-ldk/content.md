@@ -1,4 +1,4 @@
-# <lo-sample/> LT.LDK.2009.1
+# <lo-sample/> LT.LDK.2009.9_12.1
 
 <text lang="lv">
 Naturāls skaitlis $N$ dalās ar $2009$ un 
@@ -17,7 +17,7 @@ equals $2009$.
 
 
 
-# <lo-sample/> LT.LDK.2009.5
+# <lo-sample/> LT.LDK.2009.9_12.5
 
 <text lang="lv">
 Aplūkojam tabulu, kuras šūnās ierakstīti veseli skaitļi. 
@@ -37,7 +37,7 @@ operations, one can obtain the table whose all entries are zeroes.
 </text>
 
 
-# <lo-sample/> LT.LDK.2010.2
+# <lo-sample/> LT.LDK.2010.9_12.2
 
 <text lang="lv">
 Atrast visus naturālos skaitļus $n$, kuriem eksistē dažādi veseli skaitļi
@@ -53,7 +53,7 @@ $$\frac{1}{a_1}+\frac{2}{a_2}+\cdots+\frac{n}{a_n}=\frac{a_1 + a_2 + \cdots + a_
 
 
 
-# <lo-sample/> LT.LDK.2010.5
+# <lo-sample/> LT.LDK.2010.9_12.5
 
 <text lang="lv">
 Atrast naturālos skaitļus $n$, kas apmierina sekojošus divus nosacījumus:  
@@ -72,7 +72,7 @@ number, the digits beeing $2$, $0$, $0$, $9$ in some order.
 </text>
 
 
-# <lo-sample/> LT.LDK.2011.1
+# <lo-sample/> LT.LDK.2011.9_12.1
 
 <text lang="lv">
 Veselie skaitļi $a$, $b$ un $c$ apmierina nosacījumu
@@ -90,7 +90,7 @@ is a perfect square? Why?
 
 
 
-# <lo-sample/> LT.LDK.2011.3
+# <lo-sample/> LT.LDK.2011.9_12.3
 
 <text lang="lv">
 Atrast visus pirmskaitļus $p, q$ tādus, ka 
@@ -104,7 +104,7 @@ $p^3 - q^7 = p-q$.
 
 
 
-# <lo-sample/> LT.LDK.2011.5
+# <lo-sample/> LT.LDK.2011.9_12.5
 
 <text lang="lv">
 Naturāli skaitļi $1,2,3,\ldots,n$ ir uzrakstīti uz tāfeles ($n > 2$). Katru 
@@ -121,7 +121,7 @@ possible.
 
 
 
-# <lo-sample/> LT.LDK.2012.4
+# <lo-sample/> LT.LDK.2012.9_12.4
 
 <text lang="lv">
 Ar $m$ apzīmēts naturāls skaitlis. Atrodiet visas ierobežotās 
@@ -138,7 +138,7 @@ $n \in \mathbb{N}$.
 
 
 
-# <lo-sample/> LT.LDK.2013.3
+# <lo-sample/> LT.LDK.2013.9_12.3
 
 <text lang="lv">
 Uz tāfeles uzrakstīts skaitlis $1234567890$. Divi spēlētāji 
@@ -165,7 +165,7 @@ move.
 
 
 
-# <lo-sample/> LT.LDK.2013.4
+# <lo-sample/> LT.LDK.2013.9_12.4
 
 <text lang="lv">
 Naturālu skaitli $n>2$ saucam par *savdabīgu*, ja skaitlis 
@@ -183,7 +183,7 @@ Determine all peculiar numbers.
 
 
 
-# <lo-sample/> LT.LDK.2014.4
+# <lo-sample/> LT.LDK.2014.9_12.4
 
 <text lang="lv">
 Noteikt visus naturālos skaitļus $n > 1$, kuriem $n+D(n)$ ir skaitļa
@@ -199,7 +199,7 @@ $n$ satisfying $D(n) < n$.
 
 
 
-# <lo-sample/> LT.LDK.2015.4
+# <lo-sample/> LT.LDK.2015.9_12.4
 
 <text lang="lv">
 Ar $\mbox{LKD}(\ldots)$ apzīmē skaitļu
@@ -236,7 +236,7 @@ take.
 
 
 
-# <lo-sample/> LT.LDK.2016.4
+# <lo-sample/> LT.LDK.2016.9_12.4
 
 <text lang="lv">
 Noteikt visus naturālos skaitļus $n$, kuriem 
@@ -250,7 +250,7 @@ $7^n−1$ is divisible by $6^n−1$.
 
 
 
-# <lo-sample/> LT.LDK.2017.4
+# <lo-sample/> LT.LDK.2017.9_12.4
 
 <text lang="lv">
 Pierādīt, ka ir bezgalīgi daudz naturālu skaitļu $n$, ka
@@ -269,7 +269,7 @@ $840 = 2^3 \cdot 3 \cdot 5 \cdot 7$ has three.)
 
 
 
-# <lo-sample/> LT.LDK.2018.4
+# <lo-sample/> LT.LDK.2018.9_12.4
 
 <text lang="lv">
 Atrast visus naturālos skaitļus $n$, kuriem eksistē naturāls $k$, ka 
