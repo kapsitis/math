@@ -37,12 +37,7 @@ def copy_png_files(src_directory, dest_directory):
 
 if __name__ == "__main__":
     # Root directory containing the PNG files and subdirectories
-    src_directory = '..'
-    # /var/www/html/static/eliozo/images
-    
-    # Target directory where PNG files will be copied
-    dest_directory = '../myimages'
-    
-    copy_png_files(src_directory, dest_directory)
+    copy_png_files('..', '../myimages')
+    copy_png_files('../../../../../nms-uzdevumi', '../myimages')
 
     print("All PNG files have been copied successfully.")
