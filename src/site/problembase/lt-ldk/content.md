@@ -3,16 +3,16 @@
 <text lang="lv">
 Naturāls skaitlis $N$ dalās ar $2009$ un 
 tā decimālpieraksta ciparu summa vienāda ar $2009$.  
-(A) Atrast vienu šādu skaitli,  
-(B) Atrast mazāko šādu skaitli.
+**(A)** Atrast vienu šādu skaitli,  
+**(B)** Atrast mazāko šādu skaitli.
 </text>
 
 <text lang="en">
 The natural number $N$ is a multiple of $2009$ 
 and the sum of its (decimal) digits
 equals $2009$.  
-(A) Find one such number.  
-(B) Find the smallest such number.
+**(A)** Find one such number.  
+**(B)** Find the smallest such number.
 </text>
 
 
@@ -57,17 +57,17 @@ $$\frac{1}{a_1}+\frac{2}{a_2}+\cdots+\frac{n}{a_n}=\frac{a_1 + a_2 + \cdots + a_
 
 <text lang="lv">
 Atrast naturālos skaitļus $n$, kas apmierina sekojošus divus nosacījumus:  
-(a) $n$ dalot ar $9$, dalījums ir pozitīvs trīsciparu skaitlis, kuram 
+**(A)** $n$ dalot ar $9$, dalījums ir pozitīvs trīsciparu skaitlis, kuram 
 ir vienādi cipari.  
-(b) $n+36$ dalot ar $4$, dalījums ir četrciparu skaitlis, tā cipari 
+**(B)** $n+36$ dalot ar $4$, dalījums ir četrciparu skaitlis, tā cipari 
 ir $2$, $0$, $0$, $9$ kaut kādā secībā.
 </text>
 
 <text lang="en">
 Find positive integers $n$ that satisfy the following two conditions:  
-(a) the quotient obtained when $n$ is divided by $9$ is a positive three
+**(A)** the quotient obtained when $n$ is divided by $9$ is a positive three
 digit number, that has equal digits.  
-(b) the quotient obtained when $n + 36$ is divided by $4$ is a four digit
+**(B)** the quotient obtained when $n + 36$ is divided by $4$ is a four digit
 number, the digits beeing $2$, $0$, $0$, $9$ in some order.
 </text>
 
