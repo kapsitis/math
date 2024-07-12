@@ -122,7 +122,7 @@ $250$ tickets were made for the theatre performance and at least half of them we
 ## Atrisinājums
 
 Lai skatītāju skaitu varētu sadalīt tieši trīs, piecās un 
-septiṇās daḷās, pārdoto biļešu skaitam jādalās ar $3$, $5$ un $7$. 
+septiņās daļās, pārdoto biļešu skaitam jādalās ar $3$, $5$ un $7$. 
 Tātad pārdoto biļešu skaitam jādalās ar $3 \cdot 5 \cdot 7=105$. 
 Tā kā vismaz puse no biļetēm tika pārdotas, tad tika pārdotas 
 $105 \cdot 2=210$ biļetes.
@@ -176,7 +176,7 @@ balance scale (d) is also in equilibrium? Justify your answer!
 ## Atrisinājums
 
 Jautājuma zīmes vietā jāliek sešas bultiņas. Izteiksim visu figūru 
-masu bultiṇās. No tā, ka svari (c) atrodas līdzsvarā, secinām, 
+masu bultiņās. No tā, ka svari (c) atrodas līdzsvarā, secinām, 
 ka aplīša masa ir vienāda ar četru bultiņu masu.
 
 Līdz ar to varam uzskatīt, ka svariem (b) kreisajā kausā atrodas 
@@ -318,9 +318,9 @@ least two different colors?
 <text num="1" lang="lv">
 ## Atrisinājums
 
-Pamatosim, ka $249$ skaitlii ir apvilkti ar vismaz divu krāsu zīmuḷiem.
+Pamatosim, ka $249$ skaitlii ir apvilkti ar vismaz divu krāsu zīmuļiem.
 
-Lai kāds skaitlis būtu apvilkts ar vismaz divu krāsu zīmuḷiem, 
+Lai kāds skaitlis būtu apvilkts ar vismaz divu krāsu zīmuļiem, 
 nepieciešams aplūkot visus skaitļus, kas dalās vismaz ar diviem 
 no dotajiem skaitliem $3$, $5$ vai $7$.
 
@@ -335,11 +335,11 @@ $2022=35 \cdot 57+27$, tad ar $35$ dalās $57$ skaitli no visiem uzrakstītajiem
 
 Ievērojam, ka ir vairāki skaitli, kas vienlaicīgi dalās ar $3$, $5$ un $7$, 
 tātad tie dalās arī ar $3 \cdot 5 \cdot 7=105$. Tā kā $2022 = 105 \cdot 19 + 27$, 
-tad ar $105$ dalās $19$ skaitḷi no visiem uzrakstītajiem skaitḷiem. 
-Skaitḷi, kas dalās ar $105$, tiek ieskaitīti pie skaitl|iem, kas dalās ar 
+tad ar $105$ dalās $19$ skaitļi no visiem uzrakstītajiem skaitļiem. 
+Skaitļi, kas dalās ar $105$, tiek ieskaitīti pie skaitļiem, kas dalās ar 
 $15$, $21$ un $35$, tātad tie tiek ieskaitīti trīs reizes. 
 Secinām, ka kopā ir $134+96+57-38 = 249$ skaitļi, kas dalās ar 
-vismaz diviem skaitlliem, tātad tie ir apvilkti ar vismaz divu krāsu zīmuḷiem.
+vismaz diviem skaitlliem, tātad tie ir apvilkti ar vismaz divu krāsu zīmuļiem.
 </text>
 
 <text num="1" lang="en">
@@ -468,10 +468,10 @@ Could it happen that Maris gets a sum whose last digit is
 * $S_{6}=S_{5}+6=15+6=21$
 * $\circ$...
 
-Izveidosim tabulu, kurā rakstīsim skaitḷa $n$ pēdējo ciparu un 
+Izveidosim tabulu, kurā rakstīsim skaitļa $n$ pēdējo ciparu un 
 skaitļu summas $S_{n}$ pēdējo ciparu. Ievērojam, ka summas 
 $S_{n}$ pēdējo ciparu iegūstam, ja iepriekšējās summas pēdējam 
-ciparam pieskaitām skaitḷa $n$ pēdējo ciparu.
+ciparam pieskaitām skaitļa $n$ pēdējo ciparu.
 
 | Skaitļa $n$ pēdējais cipars | Summas $S_{n}$ pēdējais cipars |
 | --------------------------- | ------------------------------ |
@@ -686,14 +686,14 @@ Kopā tika sanemtas $51+52+53+54+55+56+57=378$ atbildes "jā".
 Ievērosim, ka katrs ciema iedzīvotājs, kas saka patiesību, 
 atbildēja "jā" tieši vienu reizi (savai mīlākajai dienai), 
 bet katrs melis - tieši sešas reizes (visām dienām, kas 
-nav viṇa mīlākā diena). Tātad, ja mēs vienu iedzīvotāju, 
+nav viņa mīlākā diena). Tātad, ja mēs vienu iedzīvotāju, 
 kurš saka patiesību, pārvērstu par meli, tad papildus mēs 
 iegūstu piecas "liekas" atbildes jā.
 
-Iesākumā pieṇemsim, ka visi ciema iedzīvotāji saka patiesību, 
+Iesākumā pieņemsim, ka visi ciema iedzīvotāji saka patiesību, 
 tādā gadījumā mums kopā būtu tieši $273$ atbildes "jā". 
 Tā kā mums ir $378$ atbildes "jā", tad mums "liekas" ir 
-$378-273=105$ atbildes "jā". Tātad par meḷiem mums 
+$378-273=105$ atbildes "jā". Tātad par meļiem mums 
 jāpārvērš $105:5=21$ ciema iedzīvotājs.
 </text>
 
@@ -993,9 +993,9 @@ How many villagers lie all the time?
 <text num="1" lang="lv">
 ## Atrisinājums
 
-*Atbilde.* Ciemā ir $24$ meḷi.
+*Atbilde.* Ciemā ir $24$ meļi.
 
-Kopā tika saṇemtas $53+54+55+56+57+58+59=392$ atbildes "jā". 
+Kopā tika saņemtas $53+54+55+56+57+58+59=392$ atbildes "jā". 
 Ievērosim, ka katrs ciema iedzīvotājs, kas saka patiesību, 
 atbildēja "jā" tieši vienu reizi (savai mīlākajai dienai), 
 bet katrs melis - tieši sešas reizes (visām dienām, 
@@ -1003,10 +1003,10 @@ kas nav vina mīļākā diena). Tātad, ja mēs vienu iedzīvotāju,
 kurš saka patiesību, pārvērstu par meli, tad papildus mēs iegūstu 
 piecas "liekas" atbildes jā.
 
-Iesākumā pieṇemsim, ka visi ciema iedzīvotāji saka patiesību, 
+Iesākumā pieņemsim, ka visi ciema iedzīvotāji saka patiesību, 
 tādā gadījumā mums kopā būtu tieši $272$ atbildes "jā". Tā kā mums 
 ir $392$ atbildes "jā", tad mums "liekas" ir $392-272=120$ 
-atbildes "jā". Tātad par meḷiem mums jāpārvērš $120:5=24$ ciema iedzīvotāji.
+atbildes "jā". Tātad par meļiem mums jāpārvērš $120:5=24$ ciema iedzīvotāji.
 </text>
 
 
@@ -1231,18 +1231,18 @@ No trijstūra $ABD$ iegūstam, ka
 $\sphericalangle ADB=180^{\circ}-\alpha-\alpha=180^{\circ}-2 \alpha$.
 
 levērojam, ka 
-$\sphericalangle ADC=180^{\circ} - \sphericalangle ADB=180^{\circ}-\left(180^{\circ}-2 \alpha\right)=2 \alpha$ kā blakusleṇki. Tā kā $AC=DC$, tad arī trijstūris $ACD$ 
-ir vienādsānu un tā pamata pieleṇki ir vienādi, tātad 
+$\sphericalangle ADC=180^{\circ} - \sphericalangle ADB=180^{\circ}-\left(180^{\circ}-2 \alpha\right)=2 \alpha$ kā blakusleņki. Tā kā $AC=DC$, tad arī trijstūris $ACD$ 
+ir vienādsānu un tā pamata pieleņki ir vienādi, tātad 
 $\sphericalangle DAC=\sphericalangle ADC = 2\alpha$.
 
-Tā kā $AB=AC$, tad arī trijstūris $ABC$ ir vienādsānu un tā pamata pieleṇki ir vienādi, tātad $\sphericalangle ABC=\sphericalangle ACB=\alpha$. 
+Tā kā $AB=AC$, tad arī trijstūris $ABC$ ir vienādsānu un tā pamata pieleņki ir vienādi, tātad $\sphericalangle ABC=\sphericalangle ACB=\alpha$. 
 No trijstūra $ACD$ iegūstam, ka
 
 $$\sphericalangle ADC+\sphericalangle DAC+\sphericalangle ACD = 2 \alpha+2 \alpha+\alpha=180^{\circ}$$
 
 Atrisinot vienādojumu $5 \alpha=180^{\circ}$, iegūstam, ka $\alpha=36^{\circ}$.
 
-Aprēkinām trijstūra $ABC$ leṇ̂ku vērtības:
+Aprēkinām trijstūra $ABC$ leņ̂ku vērtības:
 
 $$\begin{aligned}
 & \circ \quad \sphericalangle ABC = \sphericalangle ACB = \alpha=36^{\circ};\\
@@ -1325,7 +1325,7 @@ kur ar burtiem apzīmētas vietas, kurās jāieraksta šie skaitlii).
 Skaitli $7$ var rakstīt blakus tikai skaitlim $2$, jo to starpība ir $5$, 
 bet to nevar rakstīt blakus pārējiem pa apli uzrakstītajiem 
 skaitliem $0$; $1$; $8$ vai $9$, tātad dotos skaitlus nevar 
-uzrakstīt tā, lai katri divi blakus esoši skaitḷi atškirtos par $3$; $4$ vai $5$.
+uzrakstīt tā, lai katri divi blakus esoši skaitļi atškirtos par $3$; $4$ vai $5$.
 
 **(B)** Jā, var, piemēram, skat. 8. att., kur rinķa iekšpusē 
 ierakstīts, par cik atškiras skaitļi.
@@ -1401,7 +1401,7 @@ How many friends speak the truth?
 
 Pamatosim, ka tikai viens no draugiem saka taisnību. Ievērojam:
 
-* ja Elīna saka taisnību, tad Agnese melo, tātad viṇas abas nevar runāt taisnību;
+* ja Elīna saka taisnību, tad Agnese melo, tātad viņas abas nevar runāt taisnību;
 * ja Agnese melo, tad Elīna saka taisnību, tātad viņas abas nevar melot.
 
 Tātad vai nu Elīna, vai Agnese runā taisnību un otra melo. 
@@ -1603,7 +1603,7 @@ $\sphericalangle ABC=\beta$ (skat. 9.att.).
 No trijstūra $ABC$ iegūstam, ka 
 $\sphericalangle BAC=180^{\circ}-\sphericalangle ACB-\sphericalangle ABC$ 
 jeb $\alpha=90^{\circ}-\beta$. No trijstūra $BHC$ iegūstam, ka 
-$\sphericalangle HCB=180^{\circ}-\sphericalangle CHB-\sphericalangle HBC=90^{\circ}-\beta=\alpha$, tātad trijstūris $COB$ ir vienādsānu trijstūris, jo divi tā leṇki ir vienādi 
+$\sphericalangle HCB=180^{\circ}-\sphericalangle CHB-\sphericalangle HBC=90^{\circ}-\beta=\alpha$, tātad trijstūris $COB$ ir vienādsānu trijstūris, jo divi tā leņki ir vienādi 
 $\sphericalangle OBC=\sphericalangle OCB=\alpha$. 
 No tā izriet, ka $BO = OC$ kā vienādsānu trijstūra sānu malas.
 
@@ -1615,7 +1615,7 @@ Tātad trijstūris $KOC$ ir vienādsānu, jo divi tā lenki ir vienādi
 $\sphericalangle OKC=\sphericalangle KCO = \beta$, un tā sānu malas ir vienādas $CO=OK$.
 
 No vienādībām $BO=OC$ un $CO=OK$ iegūstam, ka $BO=OK$, tātad $CH$ 
-dala nogriezni $BK$ divās vienādās daḷās
+dala nogriezni $BK$ divās vienādās daļās
 
 ![](LV.AMO.2022B.9.3A.png)
 </text>
@@ -1681,7 +1681,7 @@ on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$?
 
 **(A)** Pamatosim, ka prasītais nav iespējams.
 
-Ievērosim, ka skaitḷi $1$; $2$; $3$; $11$; $12$ un $13$ nevar būt 
+Ievērosim, ka skaitļi $1$; $2$; $3$; $11$; $12$ un $13$ nevar būt 
 uzrakstīti blakus viens otram, jo katru divu skaitļu starpība nav 
 $3$; $4$ vai $5$. Tātad tos jāraksta, izlaižot vienu pozīciju, 
 tādējādi rodas tikai divas blakus vietas, kurās nav ierakstīti 
@@ -1697,7 +1697,7 @@ rakstīt blakus pārējiem pa apli uzrakstītajiem skaitļiem $1$; $2$; $3$; $11
 Tātad skaitli 10 jāraksta vienā no divām blakus esošajām brīvajām vietām. 
 No tā izriet, ka skaitļus 4 un 10 jāraksta blakus, bet rodas pretruna 
 ar uzdevuma nosacījumiem, jo to starpība ir $6$. Tātad dotos skaitļus 
-nevar uzrakstīt tā, lai katri divi blakus esoši skaitḷi atšķirtos par $3$; $4$ vai $5$.
+nevar uzrakstīt tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$.
 
 **(B)** Jā, var, piemēram, skat. 11. att., kur rinķa iekšpusē ierakstīts, 
 par cik atšķiras skaitļi.
@@ -1791,10 +1791,10 @@ Can the director of the museum create such route?
 **(B)** Pierādīsim, ka prasīto maršrutu nav iespējams izveidot. 
 Iekrāsosim taisnstūra rūtiņas šaha galdiņa veidā un ievērosim, ka šādam 
 krāsojumam izpildās īpašība: blakus esošām rūtiņām ir dažādas krāsas. 
-Pieṇemsim pretējo, ka prasītais maršruts eksistē. Tā kā maršruts iziet cauri 
+Pieņemsim pretējo, ka prasītais maršruts eksistē. Tā kā maršruts iziet cauri 
 visām rūtiņām, kuru ir nepāra skaits, tad pāreja no vienas krāsas 
-rūtiṇas uz otras krāsas rūtiṇu notiek pāra skaitu reižu. Līdz ar to maršruts 
-beigsies tādas pašas krāsas rūtiṇā kā maršruta sākuma rūtiņa. 
+rūtiņas uz otras krāsas rūtiņu notiek pāra skaitu reižu. Līdz ar to maršruts 
+beigsies tādas pašas krāsas rūtiņā kā maršruta sākuma rūtiņa. 
 Taču tā nevar būt, jo šī rūtiņas atrodas blakus rūtiņai, 
 kurā maršruts sākās. Līdz ar to iegūta pretruna, tāpēc šāds maršruts neeksistē.
 </text>
@@ -1848,10 +1848,10 @@ What is the last digit of $2022^{2022}$?
 ## Atrisinājums
 
 Skaitļa pēdējo ciparu noskaidrosim, apskatot doto skaitli 
-pēc moduḷa 10. levērosim, ka $2022^{2022} \equiv 2^{2022}(\bmod 10)$. 
+pēc moduļa $10$. Ievērosim, ka $2022^{2022} \equiv 2^{2022}(\bmod 10)$. 
 Tātad mums jānoskaidro skaitļa $2^{2022}$ pēdējais cipars.
 
-Virkne $2^{n}, n=1,2, \ldots$, ir periodiska pēc moduḷa $10$, 
+Virkne $2^{n}, n=1,2, \ldots$, ir periodiska pēc moduļa $10$, 
 apskatīsim šīs virknes pirmos locekļus:
 
 * ja $n=1$, tad $2^{1} \equiv 2 \pmod {10}$;
@@ -1868,7 +1868,7 @@ apskatīsim šīs virknes pirmos locekļus:
 
 Redzam, ka virkne $2^{n}(\bmod 10)$ ir periodiska ar perioda garumu $4$. 
 Tā kā $2022=4 \cdot 505+2$, tad virknes 2022.locekļa pēdējais cipars būs 
-tāds pats kā virknes 2.locekḷa pēdējais cipars, tātad pēdējais 
+tāds pats kā virknes 2.locekļa pēdējais cipars, tātad pēdējais 
 cipars būs $4$. Līdz ar to esam ieguvuši, ka skaitļa 
 $2022^{2022}$ pēdējais cipars ir $4$.
 </text>
@@ -1914,7 +1914,7 @@ We conclude that the last digit of $2022^{2022}$ is $4$.
 <text num="2" lang="lv">
 ## Atrisinājums
 
-Skaitļa pēdējo ciparu noskaidrosim, apskatot doto skaitli pēc moduḷa $10$. 
+Skaitļa pēdējo ciparu noskaidrosim, apskatot doto skaitli pēc moduļa $10$. 
 Ievērojot, ka $2^{4} \equiv 16 \equiv 6(\bmod 10)$ un 
 $6^{n} \equiv 6(\bmod 10)$, iegūstam
 
@@ -2034,11 +2034,11 @@ Calculate the area of triangle $ACB$, if $OB = 5$.
 
 Punktus, kur riņķa līnijas rādiuss pieskaras katetēm, apzīmēsim ar 
 $M$ un $N$ (skat. 13. att.). Tā kā rādiuss ir perpendikulārs 
-pieskarei, tad trijstūris $OMB$ ir taisnleṇka trijstūris. 
+pieskarei, tad trijstūris $OMB$ ir taisnleņka trijstūris. 
 Pēc Pitagora teorēmas $MB=\sqrt{OB^{2}-MO^{2}}=\sqrt{25-9}=4 \mathrm{~cm}$.
 
 Tā kā rādiusi ir perpendikulāri pieskarēm un trijstūris $ACB$ 
-ir taisnleṇka, tad četrstūra ONCM trīs leṇki ir taisni 
+ir taisnleņka, tad četrstūra ONCM trīs leņki ir taisni 
 $\sphericalangle NCM=\sphericalangle CNO=\sphericalangle CMO=90^{\circ}$. 
 Četrstūra $ONCM$ divas blakusmalas ir vienādas $ON=OM$ kā rādiusi, 
 tāpēc četrstūris $ONCM$ ir kvadrāts un $MC=OM=3 \mathrm{~cm}$, 
@@ -2182,7 +2182,7 @@ him/her.
 ## Atrisinājums
 
 Pirmkārt pamatosim, ka no jebkuriem trīs deputātiem vismaz kādi divi 
-ir paspieduši viens otram roku. Pieṇemsim pretējo, ka kādi trīs 
+ir paspieduši viens otram roku. Pieņemsim pretējo, ka kādi trīs 
 deputāti nav savā starpā izdarīuši nevienu rokasspiedienu. 
 Paņemsim jebkurus divus no tiem, tad tie kopā ir izdarijuš̌i 
 lielākais četrus rokasspiedienus (katrs ar diviem atlikušajiem deputātiem) - pretruna. (1)
@@ -2200,7 +2200,7 @@ tad vismaz viens no viniem paspieda roku visiem trim pārējiem
 (ja abiem būtu kāds "izlaists" rokasspiediens, tad abiem kopā 
 būtu lielākais $2+2=4$ rokasspiedieni). (3)
 
-Pieṇemsim, ka kādi divi deputāti nepaspieda viens otram roku 
+Pieņemsim, ka kādi divi deputāti nepaspieda viens otram roku 
 (ja visi paspieda, tad tos var sēdināt patvalīgi) un nosēdināsim 
 tos vietās $A$ un $C$ (skat. 14. att.), vietā $C$ sēdināsim to, 
 kurš paspieda roku visiem pārējiem (no (3) tāds noteikti ir). 
@@ -2272,11 +2272,11 @@ There are two possibilities:
 
 Uzskatīsim, ka, ja kādi deputāti nepaspieda viens otram roku, tad viņi 
 savstarpēji viens otru ienīst. No dotā izriet, ka, ja kādi divi deputāti 
-viens otru ienīst, tad abi kopā viṇi ienīst vēl lielākais vienu citu deputātu. 
+viens otru ienīst, tad abi kopā viņi ienīst vēl lielākais vienu citu deputātu. 
 No šī viegli redzēt, ka deputāts var ienīst lielākais divus citus deputātus. 
 Mūsu uzdevums ir sasēdināt tos ap galdu tā, lai blakus nesēdētu divi, kas ienīst viens otru.
 
-Pieṇemsim, ka ir kāds deputāts, kas ienīst divus citus deputātus. 
+Pieņemsim, ka ir kāds deputāts, kas ienīst divus citus deputātus. 
 Nosēdināsim šo deputātu vietā A (skat. 14. att.) un tos, ko vinš ienīst -- 
 vietās $C$ un $D$ (tālāk sauksim šos deputātus attiecīgi par $A, C$ un $D$). 
 Ievērosim, ka visi trīs šie deputāti neienīst nevienu no abiem pārējiem. 
@@ -2343,7 +2343,7 @@ Can $2022$ be expressed as the sum of cubes of two integers?
 <text num="1" lang="lv">
 ## Atrisinājums 
 
-Vispirms noskaidrosim, ar ko var būt kongruenti veselu skaitlu kubi pēc moduḷa $9$:
+Vispirms noskaidrosim, ar ko var būt kongruenti veselu skaitlu kubi pēc moduļa $9$:
 
 * ja $n \equiv 0\pmod 9$, tad $n^{3} \equiv 0^{3} \equiv 0\pmod 9$;
 * ja $n \equiv 1\pmod 9$, tad $n^{3} \equiv 1^{3} \equiv 1\pmod 9 ;$
@@ -2355,8 +2355,8 @@ Vispirms noskaidrosim, ar ko var būt kongruenti veselu skaitlu kubi pēc modu�
 * ja $n \equiv 7 \equiv-2\pmod 9$, tad $n^{3} \equiv(-2)^{3} \equiv 1\pmod 9$;
 * ja $n \equiv 8 \equiv-1\pmod 9$, tad $n^{3} \equiv(-1)^{3} \equiv-1\pmod 9$.
 
-Tātad veselu skaitlu kubi ir kongruenti ar 0 vai $\pm 1$ pēc moduḷa 9. 
-Aplūkosim, ar ko var būt kongruenta divu veselu skaitllu kubu summa pēc moduḷa $9$.
+Tātad veselu skaitlu kubi ir kongruenti ar 0 vai $\pm 1$ pēc moduļa $9$. 
+Aplūkosim, ar ko var būt kongruenta divu veselu skaitllu kubu summa pēc moduļa $9$.
 
 | $a^{3}\pmod 9$ | -1 | 0 | 1 |
 | :---: | :--- | :--- | :--- |
@@ -2365,8 +2365,8 @@ Aplūkosim, ar ko var būt kongruenta divu veselu skaitllu kubu summa pēc modu�
 | 0 | -1 | 0 | 1 |
 | 1 | 0 | 1 | 2 |
 
-Esam ieguvuši, ka divu šādu skaitlu summa pēc moduḷa $9$ var 
-pieṇemt jebkuru no vērtībām $-2,-1,0,1,2$, taču nekādas citas. 
+Esam ieguvuši, ka divu šādu skaitlu summa pēc moduļa $9$ var 
+pieņemt jebkuru no vērtībām $-2,-1,0,1,2$, taču nekādas citas. 
 Tā kā $2022 \equiv 6 \equiv-3 \pmod 9$ neparādās starp šīm vērtībām, 
 tad divu veselu skaitļu kubu summa nevar būt $2022$.
 </text>
@@ -2487,9 +2487,9 @@ of angle $\sphericalangle B$ in the triangle is $120^{\circ}$.
 <text num="1" lang="lv">
 ## Atrisinājums
 
-Apzīmējam riṇka līnijas pieskaršanās punktu malai $BC$ ar $E$ un 
+Apzīmējam riņka līnijas pieskaršanās punktu malai $BC$ ar $E$ un 
 malai $AC$ ar $F$ skat. 15.att. Tā kā trijstūrī $ABC$ ir ievilkta riņķa 
-līnija, tad pieskaru nogriežṇi ir vienādi: $BD=BE=1$,
+līnija, tad pieskaru nogriežņi ir vienādi: $BD=BE=1$,
 $AD=AF=8$ un $CE=CF=x$. Tātad $AB=9, BC=1+x, AC=8+x$. 
 Izmantojot kosinusu teorēmu, iegūstam
 
@@ -2581,8 +2581,8 @@ $(k;k;k)$, $(k;k;k+1)$ un $(k;k+1;k+1)$.
 Tas nozīmē, ka ar pirmo trijnieku var izteikt visus skaitļus, 
 kuri ir kongruenti ar skaitli $0$ pēc moduļa $3$; ar otro trijnieku 
 var izteikt visus skaitļus, kuri ir kongruenti ar skaitli $1$ 
-pēc moduḷa $3$ un ar trešo trijnieku var izteikt visus skaițus, 
-kuri ir kongruenti ar skaitli $2$ pēc moduḷa $3$.
+pēc moduļa $3$ un ar trešo trijnieku var izteikt visus skaițus, 
+kuri ir kongruenti ar skaitli $2$ pēc moduļa $3$.
 Var redzēt, ka iegūtais sadalījums katru reizi ir unikāls.
 </text>
 
@@ -2671,7 +2671,7 @@ Aplūkojam trīs gadījumus.
 
 2. Ja $m>2$ dalās ar $2$ un $n>2$, pagriezīsim taisnstūri tā, lai 
    $m=2 k(k \geq 2)$ būtu rindu skaits. Lai konstruētu maršrutu, 
-   kas apmierina uzdevumu nosacijumus, ieviešam rūtiṇu koordinātu 
+   kas apmierina uzdevumu nosacijumus, ieviešam rūtiņu koordinātu 
    sistēmu $(m;n)$, kur $m$ - rindas numurs, $n$-kolonnas numurs un 
    $(1;1)$ ir apakšējais kreisais stūris.
 
@@ -2693,14 +2693,14 @@ Aplūkojam trīs gadījumus.
 
 3. Ja gan $m$, gan $n$ nedalās ar $2$ ($m;n \neq 1$), 
    pierādīsim, ka prasīto maršrutu nav iespējams izveidto. 
-   Iekrāsosim taisnstūra rūtiṇas šaha galdiṇa veidā un ievērosim, 
+   Iekrāsosim taisnstūra rūtiņas šaha galdiņa veidā un ievērosim, 
    ka šādam krāsojumam izpildās īpašība: blakus esošām rūtiņām ir dažādas krāsas.
 
    Pieņemsim pretējo, ka prasītais maršruts eksistē. Tā kā maršruts 
    iziet cauri visām rūtinām, kuru ir nepāra skaits, tad pārejas no 
-   vienas rūtiṇas uz otru notiek pāra skaitu reižu. Līdz ar to maršruts 
-   beigsies tādas pašas krāsas rūtiṇā kā sākuma rūtiṇa. Taču tā nevar būt, 
-   ja šī rūtiṇas atrodas blakus, jo tām būtu jābūt dažādās krāsās. 
+   vienas rūtiņas uz otru notiek pāra skaitu reižu. Līdz ar to maršruts 
+   beigsies tādas pašas krāsas rūtiņā kā sākuma rūtiņa. Taču tā nevar būt, 
+   ja šī rūtiņas atrodas blakus, jo tām būtu jābūt dažādās krāsās. 
    Līdz ar to iegūta pretruna un šāds maršruts neeksistē.
 
 Tā kā mainīgos $m$ un $n$ uzdevumā kontekstā var mainīt vietām, tad ir aplūkoti visi iespējamie gadījumi.
@@ -2784,7 +2784,7 @@ Can the number $2023^2$ be expressed as the sum of three integer cubes?
 <text num="1" lang="lv">
 ## Atrisinājums
 
-Vispirms noskaidrosim, ar ko var būt kongruenti veselu skaitlu kubi pēc moduḷa $9$:
+Vispirms noskaidrosim, ar ko var būt kongruenti veselu skaitlu kubi pēc moduļa $9$:
 
 * ja $n \equiv 0 \pmod 9$, tad $n^{3} \equiv 0^{3} \equiv 0 \pmod 9$;
 * ja $n \equiv 1 \pmod 9$, tad $n^{3} \equiv 1^{3} \equiv 1 \pmod 9$;
@@ -2796,7 +2796,7 @@ Vispirms noskaidrosim, ar ko var būt kongruenti veselu skaitlu kubi pēc modu�
 * ja $n \equiv 7 \equiv-2 \pmod 9$, tad $n^{3} \equiv(-2)^{3} \equiv 1 \pmod 9$;
 * ja $n \equiv 8 \equiv-1 \pmod 9$, tad $n^{3} \equiv(-1)^{3} \equiv-1 \pmod 9$.
 
-Tātad veselu skaitlu kubi ir kongruenti ar 0 vai $\pm 1$ pēc moduḷa 9. Aplūkosim, ar ko var būt kongruenta divu veselu skaitlu kubu summa pēc moduḷa 9.
+Tātad veselu skaitlu kubi ir kongruenti ar 0 vai $\pm 1$ pēc moduļa 9. Aplūkosim, ar ko var būt kongruenta divu veselu skaitlu kubu summa pēc moduļa 9.
 
 | $a^{3} \pmod 9$ | -1 | 0 | 1 |
 | :---: | :--- | :--- | :--- |
@@ -2805,7 +2805,7 @@ Tātad veselu skaitlu kubi ir kongruenti ar 0 vai $\pm 1$ pēc moduḷa 9. Aplū
 | 0 | 0 | 1 | 2 |
 | 1 |  |  |  |
 
-Tagad aplūkojam, ar ko var būt kongruenta trīs veselu skaitḷu kubu summa pēc modula 9.
+Tagad aplūkojam, ar ko var būt kongruenta trīs veselu skaitļu kubu summa pēc modula 9.
 
 | $a^{3}+b^{3} \pmod 9$ | -1 | 0 | 1 | -2 | 2 |
 | :---: | :--- | :--- | :--- | :--- | :--- |
@@ -2813,7 +2813,7 @@ Tagad aplūkojam, ar ko var būt kongruenta trīs veselu skaitḷu kubu summa p�
 | 0 | -1 | 0 | 1 | -2 | 2 |
 | 1 | 0 | 1 | 2 | -1 | 3 |
 
-Esam ieguvuši, ka trīs šādu skaițu summa pēc moduḷa 9 var pienemt jebkuru no vērtībām $-3 ;-2 ;-1 ; 0 ; 1 ; 2 ; 3$ un nekādas citas. Tā kā $2023^{2} \equiv 7^{2} \equiv 4 \equiv-5 \pmod 9$ neparādās starp šīm vērtībām, tad trīs veselu skaitḷu kubu summa nevar būt $2023^{2}$.
+Esam ieguvuši, ka trīs šādu skaițu summa pēc moduļa 9 var pienemt jebkuru no vērtībām $-3 ;-2 ;-1 ; 0 ; 1 ; 2 ; 3$ un nekādas citas. Tā kā $2023^{2} \equiv 7^{2} \equiv 4 \equiv-5 \pmod 9$ neparādās starp šīm vērtībām, tad trīs veselu skaitļu kubu summa nevar būt $2023^{2}$.
 </text>
 
 
@@ -2854,7 +2854,7 @@ Next, consider what is the sum of three integer cubes modulo $9$.
 We conclude that the sum of three integer cubes modulo $9$ can take any of the values 
 $-3 ;-2 ;-1 ; 0 ; 1 ; 2 ; 3$ and nothing else. 
 As $2023^{2} \equiv 7^{2} \equiv 4 \equiv-5 \pmod 9$ does not appear among these values, 
-the sum of three whole skaitḷu cubes cannot be $2023^{2}$.
+the sum of three whole skaitļu cubes cannot be $2023^{2}$.
 </text>
 
 
@@ -2889,7 +2889,7 @@ Izmantojot summas kvadrāta formulu, varam aprēķināt, ka
 
 $$x_{1}^{2}+x_{2}^{2}=\left(x_{1}+x_{2}\right)^{2}-2 x_{1} x_{2}=1-2p.$$
 
-Sakṇu kubu summu var izteikt kā
+Sakņu kubu summu var izteikt kā
 
 $$x_{1}^{3}+x_{2}^{3}=\left(x_{1}+x_{2}\right)\left(x_{1}^{2}-x_{1} x_{2}+x_{2}^{2}\right)=-1(1-2 p-p) = 3p-1 = -16.$$
 
@@ -2951,9 +2951,9 @@ tad $M T$ ir trijstūra $A Q B$ viduslīnija,
 tātad $M T=\frac{1}{2} A Q=\frac{1}{2}$. 
 Līdzīgi iegūstam, ka $M P=\frac{1}{2} B N=\frac{\sqrt{3}}{2}$.
 
-Ievērojam, ka taisnleṇça trijstūrī $MTC$ izpildās, ka 
+Ievērojam, ka taisnleņķa trijstūrī $MTC$ izpildās, ka 
 $\sin \sphericalangle MCT=\frac{M T}{M C}=\frac{1}{2}$, tātad 
-$\sphericalangle M C T=30^{\circ}$. Līdzīgi iegūstam, ka taisnleṇka trijstūrī 
+$\sphericalangle M C T=30^{\circ}$. Līdzīgi iegūstam, ka taisnleņka trijstūrī 
 $MPC$ izpildās, ka $\sin \sphericalangle M C P=\frac{M P}{M C}=\frac{\sqrt{3}}{2}$, 
 tātad $\sphericalangle M C P=60^{\circ}$.
 
@@ -3070,7 +3070,7 @@ Izdalām abas vienādojuma puses ar $5$:
 
 $$\frac{3}{5} \sin x+\frac{4}{5} \cos x=\frac{6}{5}.$$
 
-Izvēlēsimies tādu šauru leṇki $\alpha$, ka $\sin \alpha=\frac{4}{5}$. Tādā gadījumā 
+Izvēlēsimies tādu šauru leņki $\alpha$, ka $\sin \alpha=\frac{4}{5}$. Tādā gadījumā 
 $\cos \alpha=\sqrt{1-\sin ^{2} \alpha}=\sqrt{1-\left(\frac{4}{5}\right)^{2}}=\frac{3}{5}$ un vienādojumu varam pārrakstīt kā
 
 $$\begin{aligned}
@@ -3110,7 +3110,7 @@ And there is no solution for the original equation either.
 <text num="2" lang="lv">
 ## Atrisinājums
 
-Izmantojot divkāršā leṇka formulas un $\cos ^{2} \frac{x}{2}+\sin ^{2} \frac{x}{2}=1$, 
+Izmantojot divkāršā leņka formulas un $\cos ^{2} \frac{x}{2}+\sin ^{2} \frac{x}{2}=1$, 
 iegūstam, ka
 
 $$\begin{aligned}
@@ -3126,7 +3126,7 @@ $$\operatorname{ctg}^{2} \frac{x}{2}-3 \operatorname{ctg} \frac{x}{2}+5=0$$
 
 Apzīmējot $\operatorname{ctg} \frac{x}{2}=t$, iegūstam kvadrātvienādojumu 
 $t^{2}-3 t+5=0$, kura diskriminants $D=(-3)^{2}-4 \cdot 1 \cdot 5=-11<0$, 
-tātad kvadrātvienādojumam nav sakṇu, līdz ar to dotajam vienādojumam nav atrisinājuma.
+tātad kvadrātvienādojumam nav sakņu, līdz ar to dotajam vienādojumam nav atrisinājuma.
 </text>
 
 
@@ -3160,7 +3160,7 @@ no roots. Hence there is no solution for the original equation.
 <text num="3" lang="lv">
 ## Atrisinājums
 
-No abām vienādojuma pusēm atṇemot $4 \cos x$, iegūstam, ka $3 \sin x=6-4 \cos x$.
+No abām vienādojuma pusēm atņemot $4 \cos x$, iegūstam, ka $3 \sin x=6-4 \cos x$.
 Kāpinot abas vienādojuma puses kvadrātā, iegūstam, ka
 
 $$9 \sin ^{2} x=36-48 \cos x+16 \cos ^{2} x$$
@@ -3175,7 +3175,7 @@ $$\begin{gathered}
 
 Apzīmējot $\cos x=t$, iegūstam kvadrātvienādojumu $25 t^{2}-48 t+27=0$, 
 kura diskriminants $D=(-48)^{2}-4 \cdot 25 \cdot 27=48 \cdot 48-50 \cdot 54<0$, 
-tātad kvadrātvienādojumam nav sakṇu, līdz ar to arī dotajam vienādojumam nav sakņu.
+tātad kvadrātvienādojumam nav sakņu, līdz ar to arī dotajam vienādojumam nav sakņu.
 </text>
 
 <text num="3" lang="en">
@@ -3222,7 +3222,7 @@ a^{2} \sin ^{2} x+2 a b \sin x \cos x+b \cos ^{2} x \leq a^{2} \sin ^{2} x+a^{2}
 Tā kā nevienādība ir patiesa jebkurai $a, b$ un $x$ vērtībai, 
 tad sākotnējā nevienādība $a \sin x+b \cos x \leq \sqrt{a^{2}+b^{2}}$ 
 ir patiesa. No tā izriet, ka $3 \sin x+4 \cos x \leq \sqrt{3^{2}+4^{2}}=5$, 
-tātad dotajam vienādojumam nav sakṇu.
+tātad dotajam vienādojumam nav sakņu.
 </text>
 
 
@@ -3301,22 +3301,23 @@ attiecībā pret centrālo rūtinu un Kima gājienu. Tādā gadījumā,
 ja Kims pēc sava gājiena iegūs kādu punktu, Ilmārs simetriski 
 arī iegūs punktu. Tātad Ilmārs iegūs tieši tikpat punktu, cik Kims. 
 Papildus tam varam ievērot, ka Ilmārs būs tas, kurš aizpildīs 
-vidējo rindu un vidējo kolonnu simetrijas dēl. Tā kā visi skaitḷi 
-tajās būs simetriski, izṇemot to, ka pa vidu ir ierakstīts $-1$, 
+vidējo rindu un vidējo kolonnu simetrijas dēl. Tā kā visi skaitļi 
+tajās būs simetriski, izņemot to, ka pa vidu ir ierakstīts $-1$, 
 tad varam secināt, ka reizinājums būs $-1$ un Ilmārs iegūs papildu 
 $2$ punktus, kas ļaus viņam uzvarēt.
 
-**(B)** Ja $n=2022$, uzvar Kims. Vinš̌ katru savu gājienu veic 
+**(B)** Ja $n=2022$, uzvar Kims. Viņš katru savu gājienu veic 
 simetriski pret vertikālo tabulas simetrijas asi un Ilmāra gājienu, 
-izṇemot tos brīžus, kad viṇam ir jāveic gājiens rindā, kurā 
+izņemot tos brīžus, kad viņam ir jāveic gājiens rindā, kurā 
 ir atlikusi tieši viena tukša rūtiņa. Tajos brīžos viņš izvēlas 
 tādu skaitli, lai šīs rindas reizinājums būtu $-1$. 
 Simetrijas dēl Kims vienmēr būs tas, kurš aizpilda kādu rindu, 
-un šī stratēǵija garantēs viṇam 2022 punktus par rindām. 
-Papildus varam ievērot, ka simetrijas dē! katru reizi, 
-kad llmārs aizpildīs kādu kolonnu, tad nākamajā gājienā Kims 
+un šī stratēǵija garantēs viņam $2022$ punktus par rindām. 
+Papildus varam ievērot, ka simetrijas dēļ katru reizi, 
+kad Ilmārs aizpildīs kādu kolonnu, tad nākamajā gājienā Kims 
 aizpildīs simetrisko kolonnu. Līdz ar to Ilmārs aizpildīs tieši 
-$1011$ kolonnas, kas viṇam dod ne vairāk kā $1011$ punktus. Tātad Kims uzvarēs.
+$1011$ kolonnas, kas viņam dod ne vairāk kā $1011$ punktus. 
+Tātad Kims uzvarēs.
 </text>
 
 

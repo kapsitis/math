@@ -14,12 +14,12 @@ $x^{2}-x-y^{2}+y$ vērtība ir **(A)** $10$, **(B)** $2023$?
 
 **(A)** Jā, piemēram, $x=4$ un $y=2$, tad $4^{2}-4-2^{2}+2=16-4-4+2=10$. 
 
-**(B)** Nē, tādi naturāli skaitḷi $x$ un $y$ neeksistē. Pārveidojot izteiksmi, iegūstam
+**(B)** Nē, tādi naturāli skaitļi $x$ un $y$ neeksistē. Pārveidojot izteiksmi, iegūstam
 
 $$x^{2}-x-y^{2}+y=x(x-1)-y(y-1)$$
 
 Tā kā divu pēc kārtas esošu naturālu skaitļu reizinājums ir pāra skaitlis, 
-tad abi saskaitāmie $x(x-1)$ un $y(y-1)$ ir pāra skaitḷi. Divu pāra skaitļu 
+tad abi saskaitāmie $x(x-1)$ un $y(y-1)$ ir pāra skaitļi. Divu pāra skaitļu 
 starpība ir pāra skaitlis, tātad to starpība nevar būt $2023$, jo tas ir nepāra skaitlis.
 
 
@@ -56,13 +56,13 @@ Atsvarus var noṇemt šādā secībā: $3$; $7$; $5$; $2$; $4$; $8$; $6$; $1$
 
 # <lo-sample/> LV.VOL.2023.9.3
 
-Pa apli uzrakstīti $n$ skaitḷi, kur katrs no tiem ir $0$ vai $1$. 
+Pa apli uzrakstīti $n$ skaitļi, kur katrs no tiem ir $0$ vai $1$. 
 Vienā gājienā Māris var izvēlēties kādu skaitli, kuram blakus 
-abās pusēs (pa labi un pa kreisi) uzrakstītie skaitḷi ir vienādi, 
+abās pusēs (pa labi un pa kreisi) uzrakstītie skaitļi ir vienādi, 
 un izvēlētā skaitļa vietā uzrakstīt otru skaitli (tas ir, skaitļa 
 $0$ vietā uzrakstīt $1$ un otrādi). Vai Māris, atkārtojot šādus 
 gājienus, vienmēr (neatkarīgi no sākotnējām skaitļu vērtībām un 
-izkārtojuma) var panākt, ka visi pa apli uzrakstītie skaitḷi ir 
+izkārtojuma) var panākt, ka visi pa apli uzrakstītie skaitļi ir 
 vienādi, ja: **(A)** $n=72$; **(B)** $n=73$; **(C)** $n=74$?
 
 <small>
@@ -80,10 +80,10 @@ ja skaitli pa apli izkārtoti tā, ka $18$ reizes pēc kārtas atkārtojas
 skaitļu četrinieki "$0;0;1;1$", tad nav tāda skaitļa, 
 kam abās pusēs uzrakstīti vienādi skaitļi. Līdz ar to Māris vispār 
 nevar veikt nevienu gājienu un nevar panākt, ka visi aplī esošie skaitļi 
-kḷūst vienādi.
+kļūst vienādi.
 
 **(B)** Pamatosim, ka Māris vienmēr var panākt, ka pa apli uzrakstīti 
-vienādi skaitḷi. Ar bloku apzīmēsim vienādu skaitļu virkni, kurai abos 
+vienādi skaitļi. Ar bloku apzīmēsim vienādu skaitļu virkni, kurai abos 
 galos blakus atrodas pretēji skaitli virknē esošajiem (piemēram, 
 $\ldots ; 0 ; \underbrace{1 ; 1 ; \ldots ; 1 ; 1}_{b l o k s} ; 0 ; \ldots)$. 
 Ievērosim, ka eksistē bloks, kura garums ir nepāra skaitlis. Ja tāds bloks neeksistētu,
@@ -100,19 +100,19 @@ tiek pārveidots par bloku ar nullēm. Tā kā sākotnējam blokam abās pusēs
 ir divi bloki ar nullēm, tad pēc aprakstīto gājienu veikšanas visi trīs bloki 
 saplūdīs kopā. Tātad kopējais bloku skaits samazinās par $2$. Šādi Māris turpina 
 darboties - atrod bloku ar garumu, kas ir nepāra skaitlis, un sapludina 
-to kopā ar blakus esošajiem blokiem. Kādā brīdī bloku skaits kḷūs vienāds 
+to kopā ar blakus esošajiem blokiem. Kādā brīdī bloku skaits kļūs vienāds 
 ar $2$, jo sākumā bloku skaits ir pāra (nuļļu un vieninieku bloki mainās 
 pārmainus). Kad tas būs izdarīts, Māris var veikt gājienu ar to bloku, 
 kura garums ir nepāra skaitlis, un tad visi uzrakstītie skaitļi būs vienādi.
 
 **(C)** Ja $n=74$, tad Māris ne vienmēr var iegūt prasīto. Aplūkosim 
 šādu skaitlu izkārtojumu: skaitlu četriniekam "$1;1;1;1$" no abām pusēm 
-pārmaiṇus ir sarakstīti skaitḷu pāri "$0;0$" un "$1;1$". 
+pārmaiṇus ir sarakstīti skaitļu pāri "$0;0$" un "$1;1$". 
 Šādā gadījumā "$1;1;1;1$" no abām pusēm būs "$0;0$". Māris var veikt 
 divus iespējamus gājienus: "$1;1;1;1$" pārrakstīt vai nu par "$1;0;1;1$" 
 vai "$1;1;0;1$". Nezaudējot vispārīgumu, pieṇemsim, ka "$1;1;1;1$" 
 ir pārtaisīts par "$1;0;1;1$" (otrs gadījums ir līdzīgs). Tādā gadījumā 
-nākamais iespējamais gājiens ir skaitḷu bloku "$0;0;1;0;1;1;0;0$" 
+nākamais iespējamais gājiens ir skaitļu bloku "$0;0;1;0;1;1;0;0$" 
 pārrakstīt par "$0;0;0;0;1;1;0;0$" vai "$0;0;1;1;1;1;0;0$". 
 Tas nozīmē, ka Māris iegūs līdzīgu situāciju pirms diviem gājieniem 
 esošajam skaitļu izkārtojumam. Līdz ar to Māris šajā gadījumā nevarēs 
@@ -200,11 +200,11 @@ būt uzrakstīts uz tāfeles?
 Lielākais uz tāfeles uzrakstītais pirmskaitlis var būt $127$. 
 Pamatosim, ka lielāks pirmskaitlis nevar būt uzrakstīts. 
 Ja viens no uzrakstītajiem pirmskaitļiem ir pirmskaitlis $2$, 
-tad pārējie uzrakstītie skaitḷi ir nepāra skaitḷi un iespējami divi gadījumi:
+tad pārējie uzrakstītie skaitļi ir nepāra skaitļi un iespējami divi gadījumi:
 
 1. visu uzrakstīto skaitļu kopējais skaits ir nepāra skaitlis un skaitļu summa 
    ir pāra skaitlis, tātad vidējais aritmētiskais nevar būt nepāra skaitlis 
-   (var būt pāra skaitlis vai daḷskaitlis);
+   (var būt pāra skaitlis vai daļskaitlis);
 2. visu uzrakstīto skait|u kopējais skaits ir pāra skaitlis un skaitļu 
    summa ir nepāra skaitlis, tātad vidējais aritmētiskais nav vesels skaitlis.
 
@@ -212,13 +212,13 @@ Abi gadījumi neatbilst uzdevuma nosacījumiem, tātad uz tāfeles nav uzrakstī
 
 Lielāko uz tāfeles uzrakstīto pirmskaitli apzīmēsim ar $p$. Varam secināt, 
 ka $p>25$, jo uzrakstītie skaitli ir dažādi un to vidējais aritmētiskais ir $25$. 
-Uzrakstīsim uz tāfeles visus trūkstošos pirmskaitḷus, kas mazāki nekā $25$, 
+Uzrakstīsim uz tāfeles visus trūkstošos pirmskaitļus, kas mazāki nekā $25$, 
 un nodzēsīsim visus uz tāfeles esošos pirmskait|us, kas lielāki nekā 25 , izṇemot $p$. Šādā gadījumā uz tāfeles uzrakstīto skaitlu vidējais aritmētiskais samazināsies. No tā iegūstam, ka
 
 $$\frac{3+5+7+11+13+17+19+23+p}{9} \leq 25$$
 
 Tātad $p \leq 127$. Tā kā 127 ir pirmskaitlis, tad uz tāfeles var būt 
-uzrakstīti pirmskaitḷi $3;5;7;11;13;17;19;23;127$, kuru vidējais aritmētiskais ir $25$.
+uzrakstīti pirmskaitļi $3;5;7;11;13;17;19;23;127$, kuru vidējais aritmētiskais ir $25$.
 
 
 
@@ -284,11 +284,11 @@ kur pelēkā krāsā iekrāsots vieglākais svaru kauss).
 # <lo-sample/> LV.VOL.2023.10.3
 
 Rindā kaut kādā secībā uzrakstīti visi naturālie skaitli no $1$ līdz $2023$. 
-Vienā gājienā tiek sareizināti katri divi blakus esošie skaitḷi 
+Vienā gājienā tiek sareizināti katri divi blakus esošie skaitļi 
 un zem tiem tiek uzrakstīta šī reizinājuma ciparu summa; šādā veidā 
 tiek iegūta jauna rinda, kurā ir par vienu skaitli mazāk nekā sākotnējā 
 rindā. Pēc pirmā gājiena tiek iegūta jauna rinda, kurā ir $2022$ 
-skaitḷi, pēc otrā gājiena tiek iegūta jauna rinda, kurā ir $2021$ 
+skaitļi, pēc otrā gājiena tiek iegūta jauna rinda, kurā ir $2021$ 
 skaitlis utt., līdz pēc 2022. gājiena tiek iegūta pēdējā jaunā rinda, 
 kurā ir tikai viens skaitlis. Atrast visas iespējamās šī 
 pēdējā skaitļa vērtības!
@@ -308,11 +308,11 @@ būt uzrakstīts kāds cits skaitlis. Ievērosim, ka, ja skaitlis dalās ar $9$,
 tad arī tā ciparu summa dalās ar $9$. Tā kā pirmajā rindā ir skaitļi, 
 kas dalās ar $9$, tad, šos skaitļus sareizinot ar kādu citu skaitli un 
 iegūstot reizinājuma ciparu summu, iegūtais skaitlis dalīsies ar $9$. 
-Tātad arī otrajā rindā būs skaitḷi, kas dalīsies ar $9$. 
+Tātad arī otrajā rindā būs skaitļi, kas dalīsies ar $9$. 
 Līdzīgi spriežot, iegūstam, ka arī pēdējā rindā esošajam skaitlim 
 ir jādalās ar $9$.
 
-Pamatosim vēl vairāk - ka priekšpēdējā rindā abi skaitḷi dalās ar 9. Ja mēs katrai rindai atmetam pēdējo locekli, tad priekšpēdējā rinda kl⿱̣ūst par pēdējo. Tā kā sākotnējās rindas kreisajā daḷā (bez labā malējā locekḷa) noteikti kāds skaitlis dalās ar 9 , tad, spriežot kā iepriekš, arī pēdējais loceklis dalās ar 9. Tātad priekšpēdējās rindas kreisais loceklis dalās ar 9. Līdzīgi, atmetot pirmo locekli, secinām, ka arī priekšpēdējās rindas labais loceklis dalās ar 9 .
+Pamatosim vēl vairāk - ka priekšpēdējā rindā abi skaitļi dalās ar 9. Ja mēs katrai rindai atmetam pēdējo locekli, tad priekšpēdējā rinda kl⿱̣ūst par pēdējo. Tā kā sākotnējās rindas kreisajā daļā (bez labā malējā locekļa) noteikti kāds skaitlis dalās ar 9 , tad, spriežot kā iepriekš, arī pēdējais loceklis dalās ar 9. Tātad priekšpēdējās rindas kreisais loceklis dalās ar 9. Līdzīgi, atmetot pirmo locekli, secinām, ka arī priekšpēdējās rindas labais loceklis dalās ar 9 .
 
 Aplūkosim, cik lieli var būt skaitļi katrā rindā. Pirmajā rindā lielākais 
 skaitlis ir $2023$, tātad divu šīs rindas skaitļu reizinājums nepārsniegs 
@@ -321,12 +321,12 @@ iegūtajiem skaitļiem otrajā rindā nebūs lielāks kā $9 \cdot 7=63$.
 Līdzīgi varam aplūkot otrās rindas lielāko iespējamo skaitļu reizinājuma 
 vērtību $63 \cdot 63=3969$ un secināt, ka trešajā rindā neviens skaitlis 
 nebūs lielāks kā $3+9 \cdot 3=30$. Līdzīgi secinām, ka trešās rindas divu 
-skaitḷu reizinājums nepārsniedz $30 \cdot 30=900$, tātad ceturtās rindas 
-skaitḷi nepārsniedz $8+9+9=26$. Tā kā $26 \cdot 26=676<899$, tad katrā 
+skaitļu reizinājums nepārsniedz $30 \cdot 30=900$, tātad ceturtās rindas 
+skaitļi nepārsniedz $8+9+9=26$. Tā kā $26 \cdot 26=676<899$, tad katrā 
 nākamajā rindā lielākais skaitlis nepārsniegs $26$.
 
-Kā secinājām iepriekš, priekšpēdējās rindas abiem skaitḷiem jādalās ar $9$. 
-Tā kā šie abi skaitḷi nepārsniedz $26$, tad vienīgās iespējamās 
+Kā secinājām iepriekš, priekšpēdējās rindas abiem skaitļiem jādalās ar $9$. 
+Tā kā šie abi skaitļi nepārsniedz $26$, tad vienīgās iespējamās 
 to vērtības ir $9$ vai $18$. Aplūkosim visus iespējamos gadījumus 
 priekšpēdējās rindas skaitļiem:
 
@@ -353,44 +353,44 @@ un $\sphericalangle ABC = 2 \sphericalangle ADC$. Aprēķināt $\sphericalangle 
 
 ## Atrisinājums
 
-Apzīmējam $\Varangle BAD=\alpha$ un $\Varangle BCD=2 \alpha$. 
-Tad $\Varangle BAC=\alpha-30^{\circ}$.
+Apzīmējam $\sphericalangle BAD=\alpha$ un $\sphericalangle BCD=2 \alpha$. 
+Tad $\sphericalangle BAC=\alpha-30^{\circ}$.
 
 ![](LV.VOL.2023.10.4A.png){ width=200px }
 
 No izliekta četrstūra iekšējo leṇķu summas iegūstam, ka
 
-$$\Varangle BAD+\Varangle ABC+\Varangle BCD+\Varangle ADC=360^{\circ};$$
+$$\sphericalangle BAD+\sphericalangle ABC+\sphericalangle BCD+\sphericalangle ADC=360^{\circ};$$
 
-$$3 \alpha+3 \Varangle A D C=360^{\circ} \Rightarrow \alpha+\Varangle A D C=120^{\circ}$$
+$$3 \alpha+3 \sphericalangle A D C=360^{\circ} \Rightarrow \alpha+\sphericalangle A D C=120^{\circ}$$
 
-Tad $\Varangle ADC=120^{\circ}-\alpha$ un $\Varangle ABC=240^{\circ}-2\alpha$.
+Tad $\sphericalangle ADC=120^{\circ}-\alpha$ un $\sphericalangle ABC=240^{\circ}-2\alpha$.
 
 No trijstūra $ABC$ iegūstam, ka
 
-$$\Varangle BCA=180^{\circ}-\Varangle A B C-\Varangle B A C = 
+$$\sphericalangle BCA=180^{\circ}-\sphericalangle A B C-\sphericalangle B A C = 
 180^{\circ}-\left(240^{\circ}-2 \alpha\right)-\left(\alpha-30^{\circ}\right) = 
-\alpha-30^{\circ}=\Varangle BAC.$$
+\alpha-30^{\circ}=\sphericalangle BAC.$$
 
 Tātad $\triangle ABC$ ir vienādsānu un $AB=BC$.
 
 No punkta $C$ pret malu $AD$ novelkam perpendikulu $CE$. 
-Tad $\Varangle ACE=60^{\circ}$ un 
+Tad $\sphericalangle ACE=60^{\circ}$ un 
 
-$$\Varangle DCE=\Varangle BCD-\Varangle BCA-\Varangle ACE = 
+$$\sphericalangle DCE=\sphericalangle BCD-\sphericalangle BCA-\sphericalangle ACE = 
 2\alpha-\left(\alpha-30^{\circ}\right)-60^{\circ}=\alpha-30^{\circ}.$$
 
 Vienādsānu trijstūrī $ABC$ pret malu $AC$ novelkam augstumu $BF$, 
 kas ir arī mediāna, tāpēc $AF=\frac{1}{2} AC$. No $\triangle AEC$ iegūstam, 
 ka $CE=\frac{1}{2} AC$ kā katete pret $30^{\circ}$ leņķi. Līdz ar to 
 $\triangle AFB=\triangle CED$ pēc pazīmes "$\ell m \ell$ ", jo 
-$\Varangle BAF=\Varangle DCE=\alpha-30^{\circ}$, $AF=CE$ un 
-$\Varangle AFB=\Varangle CED=90^{\circ}$. Tātad $AB=CD$ kā atbilstošās malas.
+$\sphericalangle BAF=\sphericalangle DCE=\alpha-30^{\circ}$, $AF=CE$ un 
+$\sphericalangle AFB=\sphericalangle CED=90^{\circ}$. Tātad $AB=CD$ kā atbilstošās malas.
 
 Tā kā $BC=AB=CD$, tad trijstūris $BCD$ ir vienādsānu un 
-$\Varangle C B D=\frac{1}{2}\left(180^{\circ}-\Varangle B C D\right)=90^{\circ}-\alpha$.
+$\sphericalangle C B D=\frac{1}{2}\left(180^{\circ}-\sphericalangle B C D\right)=90^{\circ}-\alpha$.
 
-Līdz ar to $\Varangle COD=\Varangle BCA+\Varangle CBD = 
+Līdz ar to $\sphericalangle COD=\sphericalangle BCA+\sphericalangle CBD = 
 \alpha-30^{\circ}+90^{\circ}-\alpha=60^{\circ}$ kā 
 $\triangle BOC$ ārējais leṇkis.
 
@@ -402,7 +402,7 @@ Vienā gājienā Kims var izvēlēties kādu skaitli, kuram blakus abās
 pusēs (pa labi un pa kreisi) uzrakstītie skaitļi ir vienādi, 
 un izvēlētā skait!̣a vietā uzrakstīt otru skaitli (tas ir, 
 skaitļa $0$ vietā uzrakstīt $1$ un otrādi). Kādām $n$ vērtībām Kims, 
-atkārtojot šādus gājienus, vienmēr (neatkarīgi no skaitḷu 
+atkārtojot šādus gājienus, vienmēr (neatkarīgi no skaitļu 
 sākotnējām vērtībām un izkārtojuma) var panākt, ka visi pa 
 apli uzrakstītie skaitļi kļūst vienādi?
 
@@ -418,14 +418,14 @@ apli uzrakstītie skaitļi kļūst vienādi?
 
 Kims prasīto var panākt visiem nepāra skaitliem $n$. Vispirms pierādīsim, ka, 
 ja $n \equiv 0(\bmod 4)$ un $n \equiv 2(\bmod 4)$, tad eksistē skaitļu 
-izkārtojums, no kura Kims nevar iegūt izkārtojumu, kurā visi skaitḷi 
+izkārtojums, no kura Kims nevar iegūt izkārtojumu, kurā visi skaitļi 
 ir vienādi. Aplūkosim abus gadījumus.
 
 - Ja $n \equiv 0(\bmod 4)$ jeb $n=4 k$, tad aplūkojam tādu skaitļu izkārtojumu, 
   kurā ir $k$ pēc kārtas esoši skaitlu četrinieki "$0;0;1;1$". Šādā gadījumā nav 
-  tāda skaitḷa, kam abās pusēs uzrakstīti vienādi skaitļi, un Kims vispār 
+  tāda skaitļa, kam abās pusēs uzrakstīti vienādi skaitļi, un Kims vispār 
   nevar veikt nevienu gājienu, līdz ar to nevar panākt, ka visi aplī 
-  esošie skaitḷi klūst vienādi.
+  esošie skaitļi klūst vienādi.
 - Ja $n \equiv 2(\bmod 4)$ jeb $n=4 k+2$, tad aplūkojam šādu skaitļu izkārtojumu: 
   skait|u četriniekam "$1;1;1;1$" no abām pusēm pārmaiṇus rakstīti skaitļu pāri 
   "$0;0$ " un "$1;1$". Šādā gadījumā "$1;1;1;1$" no abām pusēm būs "$0;0$". 
@@ -543,13 +543,13 @@ Vispirms pierādīsim, ka trīs doto skaitļu pierakstā ir izmantoti trīs atš
 
 Ja būtu izmantots tikai viens cipars, tad nebūtu iespējams izveidot trīs atšķirīgus skaitļus.
 
-Pieņemsim, ka skaitḷi veidoti no diviem atšķirīgiem cipariem $a$ un $b$ ($a<b$). 
+Pieņemsim, ka skaitļi veidoti no diviem atšķirīgiem cipariem $a$ un $b$ ($a<b$). 
 Tad iespējami divi atšķirīgi trīs skaitļu komplekti: 
 $\overline{aab}<\overline{aba}<\overline{baa}$ vai 
 $\overline{abb}<\overline{bab}<\overline{bba}$. Tā kā šie ir vienīgie 
 skaitļi, ko iespējams izveidot, tad skaitli tieši šādā secībā arī ir 
 aritmētiskās progresijas trīs secīgi locekļi. Aprēkināsim otrā un pirmā locekļa 
-starpību $\Delta_{1}$ un trešā un otrā locekḷa starpību $\Delta_{2}$. 
+starpību $\Delta_{1}$ un trešā un otrā locekļa starpību $\Delta_{2}$. 
 Pēc aritmētiskās progresijas īpašībām $\Delta_{1}=\Delta_{2}$. Apskatām katru gadijumu:
 
 - Ja $\overline{aab} < \overline{aba} < \overline{baa}$, 
@@ -626,14 +626,14 @@ atrodas uz vienas riṇka līnijas!
 ## Atrisinājums
 
 Lai pierādītu, ka ap četrstūri $BCMY$ var apvilkt riņķa līniju, 
-pietiek pierādīt, ka $\Varangle M Y B+\Varangle M C B=180^{\circ}$ 
-jeb $\Varangle M C B=180^{\circ}-\Varangle M Y B$. Tā kā 
-$\Varangle M Y B=180^{\circ}-\Varangle A Y B$ (blakusleṇku īpašība), 
-tad jāpierāda, ka $\Varangle A Y B=\Varangle M C B$.
+pietiek pierādīt, ka $\sphericalangle M Y B+\sphericalangle M C B=180^{\circ}$ 
+jeb $\sphericalangle M C B=180^{\circ}-\sphericalangle M Y B$. Tā kā 
+$\sphericalangle M Y B=180^{\circ}-\sphericalangle A Y B$ (blakusleṇku īpašība), 
+tad jāpierāda, ka $\sphericalangle A Y B=\sphericalangle M C B$.
 
 Ar $N$ apzīmēsim malas $B C$ viduspunktu, bet ar $T-$ taišņu $AB$ 
-un $DN$ krustpunktu. Tā kā $\Varangle B N T=\Varangle C N D$ (krustleņķi), 
-$BN=NC$ un $\Varangle N B T=\Varangle N C D$ (iekšējie škērsleņķi 
+un $DN$ krustpunktu. Tā kā $\sphericalangle B N T=\sphericalangle C N D$ (krustleņķi), 
+$BN=NC$ un $\sphericalangle N B T=\sphericalangle N C D$ (iekšējie škērsleņķi 
 pie paralēlām taisnēm $AB$ un $CD$ ), tad $\triangle B N T=\triangle C N D$ 
 pēc pazīmes $\ell m \ell$. Tādā gadījumā to atbilstošās malas 
 $BT$ un $CD$ ir vienādas, tātad
@@ -653,9 +653,9 @@ No vienādībām iegūstam, ka
 $$\frac{A B}{B T}=\frac{A Y}{Y D}$$
 
 Tātad $\triangle YAB \sim \triangle DAT$ pēc pazīmes $m \ell m$ un 
-$YB \| DT$, tātad $\Varangle AYB=\Varangle NDA$ kā kāpšļu leņķi. 
-Tā kā $\Varangle N D A=\Varangle M C B$ simetrijas dēļ vienādsānu trapecē, 
-tad $\Varangle AYB=\Varangle NDA=\Varangle MCB$. 
+$YB \| DT$, tātad $\sphericalangle AYB=\sphericalangle NDA$ kā kāpšļu leņķi. 
+Tā kā $\sphericalangle N D A=\sphericalangle M C B$ simetrijas dēļ vienādsānu trapecē, 
+tad $\sphericalangle AYB=\sphericalangle NDA=\sphericalangle MCB$. 
 Tātad ap četrstūri $BCMY$ var apvilkt riņķa līniju.
 
 ![](LV.VOL.2023.11.3A.png){ width=200px }
@@ -697,7 +697,7 @@ $2023$ (katrs tieši vienu reizi). Vienā gājienā Ilmārs var
 izvēlēties jebkurus divus uz tāfeles uzrakstītos skaitļus, 
 nodzēst tos, un vietā uzrakstīt to vidējo aritmētisko. 
 Pēc $2022$ gājieniem uz tāfeles būs palicis tieši viens skaitlis. 
-Kādas ir iespējamās naturālās šīs skaitḷa vērtības?
+Kādas ir iespējamās naturālās šīs skaitļa vērtības?
 
 <small>
 
@@ -738,7 +738,7 @@ $$
 \end{aligned}
 $$
 
-Līdz ar to uz tāfeles ir uzrakstīti trīs skaitḷi $n-2;n;n+2$. Lai uz tāfeles 
+Līdz ar to uz tāfeles ir uzrakstīti trīs skaitļi $n-2;n;n+2$. Lai uz tāfeles 
 paliktu skaitlis $n$, rīkojamies šādi
 
 $$\boldsymbol{n}-\mathbf{2} ; n ; \boldsymbol{n}+\mathbf{2} \quad \rightarrow 
@@ -823,24 +823,24 @@ $BC$ punktā $Y$, kas nesakrīt ar $C$. Pierādīt, ka $DX=DY$.
 
 ## Atrisinājums
 
-Pierādīsim, ka $\Varangle D X A=\Varangle X A D$ (skat. 4. att.). Tā kā apvilktā četrstūra
-$AI_{1} BX$ pretējo leṇku summa ir $180^{\circ}$, tad $\Varangle DXA=180^{\circ}-\Varangle AI_{1}B$. 
+Pierādīsim, ka $\sphericalangle D X A=\sphericalangle X A D$ (skat. 4. att.). Tā kā apvilktā četrstūra
+$AI_{1} BX$ pretējo leṇku summa ir $180^{\circ}$, tad $\sphericalangle DXA=180^{\circ}-\sphericalangle AI_{1}B$. 
 Izmantojot trijstūra $B A I_{1}$ iekšējo leṇku summu, var izteikt 
-$180^{\circ}-\Varangle AI_{1} B=\Varangle I_{1}AB+\Varangle I_{1}BA$, 
-tātad $\Varangle DXA=\Varangle I_{1}AB+\Varangle I_{1}BA$.
+$180^{\circ}-\sphericalangle AI_{1} B=\sphericalangle I_{1}AB+\sphericalangle I_{1}BA$, 
+tātad $\sphericalangle DXA=\sphericalangle I_{1}AB+\sphericalangle I_{1}BA$.
 
 Aplūkojot otrus divus pretējos leņķus apvilktajā četrstūrī $AI_{1}BX$, 
-iegūstam, ka $\Varangle I_{1} A X=180^{\circ}-\Varangle I_{1} B X$. 
-Izmantojot blakusleņu īpašību, varam izteikt $180^{\circ}-\Varangle I_{1} BX=\Varangle I_{1} BD$, 
-tātad $\Varangle I_{1} AX=\Varangle I_{1} BD$. Ievērojam, ka 
-$\Varangle DAX=\Varangle DAI_{1}+\Varangle I_{1}AX=\Varangle DAI_{1}+\Varangle I_{1}BD$.
+iegūstam, ka $\sphericalangle I_{1} A X=180^{\circ}-\sphericalangle I_{1} B X$. 
+Izmantojot blakusleņu īpašību, varam izteikt $180^{\circ}-\sphericalangle I_{1} BX=\sphericalangle I_{1} BD$, 
+tātad $\sphericalangle I_{1} AX=\sphericalangle I_{1} BD$. Ievērojam, ka 
+$\sphericalangle DAX=\sphericalangle DAI_{1}+\sphericalangle I_{1}AX=\sphericalangle DAI_{1}+\sphericalangle I_{1}BD$.
 
 Tā kā trijstūra ievilktās riṇka līnijas centrs atrodas bisektrišu krustpunktā, 
-tad $\Varangle DAI_{1}=\Varangle I_{1}AB$ un $\Varangle I_{1}BA=\Varangle I_{1}BD$. 
-Tādā gadījumā $\Varangle DXA=\Varangle I_{1}AB+\Varangle I_{1}BA=\Varangle DAI_{1}+\Varangle I_{1}BD=\Varangle DAX$, 
+tad $\sphericalangle DAI_{1}=\sphericalangle I_{1}AB$ un $\sphericalangle I_{1}BA=\sphericalangle I_{1}BD$. 
+Tādā gadījumā $\sphericalangle DXA=\sphericalangle I_{1}AB+\sphericalangle I_{1}BA=\sphericalangle DAI_{1}+\sphericalangle I_{1}BD=\sphericalangle DAX$, 
 tātad $DX=DA$.
 
-Līdzīgi, aplūkojot ap četrstūri $AI_{2}CY$ apvilkto rinkka līniju un ar to saistītos leņķus, 
+Līdzīgi, aplūkojot ap četrstūri $AI_{2}CY$ apvilkto riņķa līniju un ar to saistītos leņķus, 
 pierāda, ka $DY=DA$. Tātad $DX=DA=DY$, kas bija jāpierāda.
 
 ![](LV.VOL.2023.12.2A.png){ width=200px }
@@ -871,7 +871,7 @@ $a<b$ ($a$ ir vismazākais skaitlis un $b$ ir otrs mazākais skaitlis). Pēc uzd
 nosacījuma uz tāfeles ir rakstīts arī skaitlis $\frac{2 a b}{a+b}$. Parādīsim, ka 
 $a<\frac{2 a b}{a+b}<b$, kas būs pretruna ar to, ka $a$ un $b$ ir divi mazākie skaitļi.
 
-Lai pamatotu, ka $a<\frac{2 a b}{a+b}$, reizinām abas nevienādības puses ar 
+Lai pamatotu, ka $a<\frac{2ab}{a+b}$, reizinām abas nevienādības puses ar 
 $a+b>0$ un iegūstam, ka $a^{2}+ab<2ab$ jeb $a^{2}<ab$, 
 kas ir patiesa nevienādība, jo $a<b$.
 
@@ -879,7 +879,8 @@ Līdzīgi, lai pamatotu, ka $\frac{2ab}{a+b}<b$, reizinām abas
 nevienādības puses ar $a+b>0$ un iegūstam nevienādību $2ab<ab+b^{2}$, 
 kas ir ekvivalenta patiesai nevienādībai $ab<b^{2}$, jo $a<b$.
 
-Tātad visi uzrakstītie skait|i ir vienādi un to summa ir $73 \cdot 100=7300$.
+Tātad visi uzrakstītie skaitļi ir vienādi un to summa ir 
+$73 \cdot 100=7300$.
 
 *Piezīme.* Skaitlis $\frac{2ab}{a+b}=\frac{2}{\frac{1}{a}+\frac{1}{b}}$ 
 ir skaitlu $a$ un $b$ vidējais harmoniskais.
@@ -910,7 +911,7 @@ Taču neeksistē tāds vesela skaitla kvadrāts, kurš dod atlikumu $3$, dalot a
 Līdz ar to varam secināt, ka vismaz viens no skaitlliem $p$ vai $q$ ir vienāds ar $2$.
 
 Nezaudējot vispārīgumu, pieṇemsim, ka $p=2$. Tādā gadījumā $2^{q-1}+q+1$ ir jābūt 
-vesela skaitḷa kvadrātam. Ja $q=2$, tad izteiksmes vērtība ir $5$, kas nav vesela 
+vesela skaitļa kvadrātam. Ja $q=2$, tad izteiksmes vērtība ir $5$, kas nav vesela 
 skaitļa kvadrāts. Līdz ar to varam pieņemt, ka $q$ ir nepāra skaitlis. Pierādīsim, ka
 
 $$\left(2^{\frac{q-1}{2}}\right)^{2}<2^{q-1}+q+1<\left(2^{\frac{q-1}{2}}+1\right)^{2}$$
@@ -936,7 +937,7 @@ tāpēc tas nevar būt vesela skaitļa kvadrāts.
 # <lo-sample/> LV.VOL.2023.12.5
 
 Kādā valstī ir $100$ pilsētas, dažas no tām ir savienotas ar ceļiem. 
-Katrs ceḷš savieno tieši divas pilsētas un ārpus pilsētām ceļi 
+Katrs ceļš savieno tieši divas pilsētas un ārpus pilsētām ceļi 
 nekrustojas (izmantoti viadukti). Kāds ir pats mazākais kopējais 
 ceļu skaits, pie kura noteikti (neatkarīgi no celu izvietojuma) 
 var apgalvot, ka no jebkuras pilsētas var aizbraukt uz jebkuru 
@@ -952,30 +953,30 @@ citu pilsētu (varbūt arī caur vienu vai vairākām citām pilsētām)?
 
 ## Atrisinājums
 
-Pats mazākais ceḷu skaits ir $\frac{100 \cdot 99}{2}-(100-2)=4852$. 
+Pats mazākais ceļu skaits ir $\frac{100 \cdot 99}{2}-(100-2)=4852$. 
 Atrisināsim uzdevumu vispārīgajā gadijumā ar $n$ pilsētām un pamatosim, 
-ka mazākais iespējamais ceḷu skaits ir $\frac{n(n-1)}{2}-(n-2)$, lai no 
+ka mazākais iespējamais ceļu skaits ir $\frac{n(n-1)}{2}-(n-2)$, lai no 
 jebkuras pilsētas noteikti varētu aizbraukt uz jebkuru citu pilsētu.
 
-Vispirms pamatosim, ka ar mazāku celu skaitu nepietiek. Atliek parādīt vienu 
-piemēru, kā pilsētām jābūt savienotām ar celiem, lai uz vienu no pilsētām 
-nevar nok!ūt. Aplūkosim gadīumu, kad kopējais celu skaits ir par vienu mazāks, 
+Vispirms pamatosim, ka ar mazāku ceļu skaitu nepietiek. Atliek parādīt vienu 
+piemēru, kā pilsētām jābūt savienotām ar ceļiem, lai uz vienu no pilsētām 
+nevar nokļūt. Aplūkosim gadīumu, kad kopējais ceļu skaits ir par vienu mazāks, 
 tas ir, $\frac{n(n-1)}{2}-(n-1)$, un ka ir kāda pilsēta, uz kuru neiet neviens 
-cels̆, bet katras divas atlikušās pilsētas ir savā starpā savienotas ar ceļu. 
-Tādā gadīumā tam vajag tieši $\frac{(n-1)(n-2)}{2}=\frac{n(n-1)}{2}-(n-1)$ ceļus. 
-Tātad meklētais piemērs ir atrasts un ceḷu skaits nevar būt mazāks par 
+ceļs̆, bet katras divas atlikušās pilsētas ir savā starpā savienotas ar ceļu. 
+Tādā gadījumā tam vajag tieši $\frac{(n-1)(n-2)}{2}=\frac{n(n-1)}{2}-(n-1)$ ceļus. 
+Tātad meklētais piemērs ir atrasts un ceļu skaits nevar būt mazāks par 
 $\frac{n(n-1)}{2}-(n-2)$.
 
 Pamatosim, ka ar $\frac{n(n-1)}{2}-(n-2)$ ceļiem pietiek, lai no jebkuras pilsētas 
 noteikti varētu aizbraukt uz jebkuru citu pilsētu. Uzbūvēsim no sākuma lielāko 
 iespējamo ceļu skaitu starp $n$ pilsētām, tas ir, $\frac{n(n-1)}{2}$. Pēc tam nojauksim 
-$(n-2)$ celus. Pamatosim, ka arī pēc to nojaukšanas izpildās uzdevuma nosacījumi. 
-Aplūkosim divas patvalīgas pilsētas, apzīmēsim tās ar $A$ un $B$, pārējās $(n-2)$ 
+$(n-2)$ ceļus. Pamatosim, ka arī pēc to nojaukšanas izpildās uzdevuma nosacījumi. 
+Aplūkosim divas patvaļīgas pilsētas, apzīmēsim tās ar $A$ un $B$, pārējās $(n-2)$ 
 pilsētas apzīmēsim attiecīgi ar $X_{1}, X_{2}, \ldots, X_{n-2}$. Aplūkosim $(n-1)$ 
-maršrutu, kā no pilsētas $A$ var nokļūt pilsētā $B$ : maršrutu $A \leftrightarrow B$ 
+maršrutu, kā no pilsētas $A$ var nokļūt pilsētā $B$: maršrutu $A \leftrightarrow B$ 
 un $(n-2)$ maršrutus $A \leftrightarrow X_{i} \leftrightarrow B$. Ievērojam, 
-ka viena ceḷa nojaukšana sabojā ne vairāk kā vienu no šiem maršrutiem, tāpēc pēc 
-$(n-2)$ ceḷu nojaukšanas vismaz viens no šiem maršrutiem, pa kuru nokļūt 
+ka viena ceļa nojaukšana sabojā ne vairāk kā vienu no šiem maršrutiem, tāpēc pēc 
+$(n-2)$ ceļu nojaukšanas vismaz viens no šiem maršrutiem, pa kuru nokļūt 
 no pilsētas $A$ uz $B$, vēl paliks. Tātad ar $\frac{n(n-1)}{2}-(n-2)$ 
 ceļiem pietiek, lai izpildītos uzdevuma nosacījumi.
 
