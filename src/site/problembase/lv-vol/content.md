@@ -2679,36 +2679,4 @@ Pierādīt, ka ir bezgalīgi daudz elegantu skaitļu!
 </small>
 
 
-# <lo-sample/> LV.VOL.2022.10.3
-
-Pierādīt, ka katram naturālam $K>1$ var atrast tādu naturālu skaitli, 
-kas dalās ar $13$ un kura ciparu summa ir $K$.
-
-<small>
-
-* questionType:Prove
-* domain:NT
-
-</small>
-
-
-
-
-# <lo-sample/> LV.VOL.2022.11.3
-
-Sākumā uz papīra lapas uzrakstīts skaitlis $16$. Ja uz lapas ir
-
-* uzrakstīts skaitlis $x$, tad uz tās atļauts uzrakstīt arī skaitli $x^2$;
-* uzrakstīti skaitļi $x$ un $y$, tad uz tās atļauts uzrakstīt arī skaitli $|x-y|+1$.
-
-Vai var panākt, lai uz lapas būtu uzrakstīts skaitlis $2022$ 
-(neviens uzrakstītais skaitlis netiek nodzēsts)?
-
-<small>
-
-* questionType:ProveDisprove
-* domain:NT
-
-</small>
-
 
