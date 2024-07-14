@@ -2246,7 +2246,7 @@ Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros!
 * topic:ConstructionsTriangulate
 * topic:ConstructionsSmallMovements
 * topic:CircleInscribedAngles
-* questionType:Prove
+* questionType:FindExample
 * concepts:square-Geo,triangle
 
 </small>
@@ -2288,7 +2288,7 @@ Parādi, kā to var izdarīt, ja
 
 * topic:CountingUsingSymmetry
 * topic:TreeTraversalBacktracking
-* questionType:Prove
+* questionType:FindExample
 
 </small>
 

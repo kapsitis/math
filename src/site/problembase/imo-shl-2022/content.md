@@ -1,5 +1,6 @@
 # <lo-sample/> IMO_SHL.2022.A1
 
+
 Let $(a_n)_{n\geq 1}$ be a sequence of positive real numbers with the property that
 
 $$(a_{n+1})^2 + a_na_{n+2} \leq a_n + a_{n+2}$$
