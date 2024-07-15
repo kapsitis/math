@@ -7,7 +7,12 @@ $$x_1 = 9,\;x_2 = 161,\;x_{n+1}=18x_n - x_{n-1},\;\mbox{ja $n \geq 2$}.$$
 Pierādiet, ka skaitlis $x_n^2 - 1$ dalās 
 ar $5$ visiem naturāliem skaitļiem $n$.
 
+<small>
 
+* domain:NT
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> BBK2012.P3.76
@@ -18,6 +23,14 @@ $$a_0=a_1 = 1,\;a_{n+1}=a_{n-1}a_n + 1,\;\mbox{ja $n \geq 1$}.$$
 
 Pierādiet, ka skaitlis $a_{1964}$ nedalās ar $4$.
 
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
+
+
 
 # <lo-sample/> BBK2012.P3.77
 
@@ -25,6 +38,12 @@ Skaitļu virkne ir definēta ar formulu $a_n = 3(n^2+n)+7$.
 Pierādiet, ka no jebkuriem pieciem pēc kārtas ņemtiem 
 virknes locekļiem tieši viens dalās ar $5$.
 
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> BBK2012.P3.78
@@ -35,6 +54,12 @@ $$u_1=u_2=1,\;u_{n+2}=u_{n+1}+u_n,\;\mbox{ja $n \geq 1$}$$
 
 loceklis $u_{5k}$ dalās ar $5$ jebkurai naturālai $k$ vērtībai.
 
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
 
 # <lo-sample/> BBK2012.P3.79
 
@@ -44,12 +69,28 @@ Vai ar $5$ dalās šīs virknes
 **(A)** $21$-ais,  
 **(B)** $2000$-ais loceklis?
 
+<small>
+
+* domain:NT
+* questionType:ProveDisprove,ProveDisprove
+
+</small>
+
+
 
 # <lo-sample/> BBK2012.P3.80
 
 Skaitļu virkni veido šādi:
 $$a_1=1,\;a_{n+1}=3a_n+1,\;n=1,2,3,\ldots.$$
 Noskaidrot, vai $a_{1000}$ dalās ar $11$.
+
+<small>
+
+* domain:NT
+* questionType:ProveDisprove
+
+</small>
+
 
 
 # <lo-sample/> BBK2012.P3.81
@@ -58,6 +99,14 @@ Atrast visus naturālos skaitļus $n$, kuriem
 **(A)** skaitlis $2^n-1$ dalās ar $7$;  
 **(B)** skaitlis $2^n+1$ dalās ar 7.
 
+<small>
+
+* domain:NT
+* questionType:FindAll
+
+</small>
+
+
 
 # <lo-sample/> BBK2012.P3.82
 
@@ -65,11 +114,27 @@ Pierādiet, ka četri pēdējie skaitļa $5^n$ cipari
 veido periodisku virkni, un atrodiet šīs virknes periodu. 
 Vai šī virkne ir tīri periodiska?
 
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
+
+
 
 # <lo-sample/> BBK2012.P3.83
 
 Pieņemsim, ka $2^n = 10a+b$, kur $n,a,b \in \mathbb{N}$ un $b < 10$.
 Pierādīt, ka skaitlis $ab$ dalās ar $6$.
+
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
+
 
 
 # <lo-sample/> BBK2012.P3.84
@@ -77,10 +142,26 @@ Pierādīt, ka skaitlis $ab$ dalās ar $6$.
 Cik daudz ir tādu naturālu skaitļu $x$, kuri nepārsniedz $10000$, 
 un, kuriem skaitlis $2^x - x^2$ dalās ar $7$?
 
+<small>
+
+* domain:NT
+* questionType:FindCount
+
+</small>
+
+
 
 # <lo-sample/> BBK2012.P3.85
 
 Vai skaitļa $n^2 - 2^n$ pēdējais cipars var būt $5$?
+
+<small>
+
+* domain:NT
+* questionType:ProveDisprove
+
+</small>
+
 
 
 # <lo-sample/> BBK2012.P3.86
@@ -90,8 +171,14 @@ $2$ un $3$, un ar katru kārtējo gājienu aprēķina
 abu pēdējo virknes ciparu reizinājumu un tā 
 ciparus pievieno virknei. Tātad virknes sākums ir šāds:
 $$2,\;3,\;6,\;1,\;8,\;8,\;6,\;4,\ldots$$
-Vai šajā virknē ir sastopams cipars $7$?  
+Vai šajā virknē ir sastopams cipars $7$?
 
+<small>
+
+* domain:NT
+* questionType:ProveDisprove
+
+</small>
 
 # <lo-sample/> BBK2012.P3.87
 
@@ -104,12 +191,28 @@ Pierādīt, ka šajā virknē
 **(A)** bezgalīgi daudzi locekļi nedalās ar $3$,  
 **(B)** bezgalīgi daudzi locekļi dalās ar $3$.
 
+<small>
+
+* domain:NT
+* questionType:Prove,Prove
+
+</small>
+
+
 
 # <lo-sample/> BBK2012.P3.88
 
 Ar kādu ciparu beidzas visu naturālo skaitļu summa  
 **(A)** no $1$ līdz $9$ ieskaitot,  
 **(B)** no $1$ līdz $99$ ieskaitot?
+
+<small>
+
+* domain:NT
+* questionType:FindAll,FindAll
+
+</small>
+
 
 
 # <lo-sample/> BBK2012.P3.89
@@ -119,6 +222,12 @@ uzrakstītu ciparu veidotais skaitlis dalās vai nu ar $19$,
 vai ar $21$.
 Pirmais cipars ir $7$. Kāds ir pēdējais? 
 
+<small>
+
+* domain:NT
+* questionType:FindAll
+
+</small>
 
 # <lo-sample/> BBK2012.P3.90
 
@@ -128,6 +237,14 @@ var iegūt summu, kuras pēdējais cipars ir
 **(A)** $8$,  
 **(B)** $7$? 
 
+<small>
+
+* domain:NT
+* questionType:ProveDisprove,ProveDisprove
+
+</small>
+
+
 
 # <lo-sample/> BBK2012.P3.91
 
@@ -135,6 +252,15 @@ Dota virkne $a_1=19$, $a_2=98$, $a_{n+2}$
 ir skaitļa $a_{n+1}+a_n$ atlikums, dalot ar $100$. 
 Aprēķināt skaitļa $a_1^2+a_2^2+\ldots+a_{1998}^2$ 
 atlikumu, dalot ar $8$.
+
+<small>
+
+* domain:NT
+* questionType:FindAll
+
+</small>
+
+
 
 
 # <lo-sample/> BBK2012.P3.92
@@ -152,10 +278,11 @@ ir dažādi.
 
 <small>
 
-sameAs:LV.OTHER.TST.1983.9.3
+* sameAs:LV.OTHER.TST.1983.9.3
+* domain:NT
+* questionType:Prove
 
 </small>
-
 
 
 
@@ -165,6 +292,12 @@ sameAs:LV.OTHER.TST.1983.9.3
 Apzīmēsim ar $x_n$ skaitļa $n^n$ 
 pēdējo ciparu. Pierādiet, ka virkne $(x_n)$ ir periodiska.
 
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> BBK2012.P3.109
@@ -173,6 +306,13 @@ Apzīmēsim ar $x_n$ skaitļa $n^{n^n}$ pēdējo ciparu.
 Pierādiet, ka virkne $(x_n)$ ir periodiska, 
 un atrodiet tās perioda garumu. Vai šī virkne ir tīri periodiska?
 
+<small>
+
+* domain:NT
+* questionType:Prove,FindAll,ProveDisprove
+
+</small>
+
 
 # <lo-sample/> BBK2012.P3.110
 
@@ -180,6 +320,12 @@ Atrodiet skaitļu $1^8 - 1^2$, $2^8 - 2^2$,
 $\ldots$, $n^8 - n^2$, $\ldots$ 
 lielāko kopīgo dalītāju.
 
+<small>
+
+* domain:NT
+* questionType:FindAll
+
+</small>
 
 
 
@@ -190,10 +336,24 @@ bezgalīgi daudz skaitļu, kas dalās ar $5$, un
 bezgalīgi daudz skaitļu, kas dalās ar $13$, 
 bet virknē nav skaitļu, kas dalās ar $65$.
 
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
+
 
 # <lo-sample/> BBK2012.P3.112
 
 Pierādiet, ka skaitlis $20^{15}-1$ dalās ar $11 \cdot 31 \cdot 61$.
+
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
 
 
 
@@ -202,12 +362,26 @@ Pierādiet, ka skaitlis $20^{15}-1$ dalās ar $11 \cdot 31 \cdot 61$.
 Pierādiet apgalvojumu: ja $a$ ir nepāra cipars, tad 
 $a^{36}$ dalās ar $1976$.
 
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
+
 
 # <lo-sample/> BBK2012.P3.114
 
 Pierādiet apgalvojumu: ja $p$ ir nepāra pirmskaitlis, 
 tad visi skaitļa $2^p-1$ naturālie dalītāji ir uzrakstāmi formā
 $2pr+1$, $r \in \mathbb{Z}$.
+
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> BBK2012.P3.115
@@ -216,11 +390,25 @@ Pierādiet apgalvojumu: ja $p$ ir pirmskaitlis,
 tad visi skaitļa $2^p+1$ pirmreizinātāji, 
 izņemot skaitli $3$, ir uzrakstāmi formā $2pr+1$, $r \in \mathbb{Z}$.
 
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
+
 
 # <lo-sample/> BBK2012.P3.116
 
 Pierādiet, ka visi skaitļa $2^{2^n}$ dalītāji ir izsakāmi formā  
 $2^{n+1}r+1$, $r \in \mathbb{Z}$.
+
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
 
 
 # <lo-sample/> BBK2012.P3.117
@@ -228,10 +416,24 @@ $2^{n+1}r+1$, $r \in \mathbb{Z}$.
 Pierādiet, ka neeksistē tāds naturāls skaitlis $n>1$, 
 kuram $2^n-1$ dalās ar $n$.
 
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
+
 
 # <lo-sample/> BBK2012.P3.118
 
 Pierādiet, ka jebkuram naturālam $n$ skaitļi $n$ un $2^{2^n}+1$ ir 
 savstarpēji pirmskaitļi.
 
+
+<small>
+
+* domain:NT
+* questionType:Prove
+
+</small>
 
