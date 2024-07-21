@@ -181,7 +181,7 @@ $580-3 \cdot 120$ utt. dalās ar $55$).
 
 Cik krustpunktu ir trīs dotajām taisnēm (skat. att.)? 
 
-![](LV.NOL.2021TEST.5.8.png)
+![](LV.NOL.2021TEST.5.8.png){ width=150px }
 
 <small>
 
@@ -206,6 +206,8 @@ Robots kustas pa trijstūra ABC kontūru (skat. att.), kura katras
 malas garums ir $3~\mathrm{cm}$. Tas sāka kustību no virsotnes $A$ un $2021$
 reizi apgāja trijstūra kontūru. Aprēkini robota veikto attālumu 
 centimetros! 
+
+![](LV.NOL.2021TEST.5.9.png){ width=100px }
 
 <small>
 
@@ -265,6 +267,8 @@ $10003$ dalot ar $4$, atlikumā iegūs $3$.
 Ilze uz galda no vairākiem vienādiem klucīšiem salika 
 figūru (skat. 1.att.). No cik klucīšiem sastāv izveidotā 
 figūra, ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
+
+![](LV.NOL.2021TEST.5.12.png){ width=200px }
 
 <small>
 
@@ -326,6 +330,8 @@ ja, $a$ dalot ar $b$, atlikumā iegūst $0$.
 
 Cik trijstūri redzami dotajā zīmējumā?
 
+![](LV.NOL.2021TEST.5.15.png){ width=100px }
+
 <small>
 
 * answer:24
@@ -344,13 +350,15 @@ tādi arī ir $4$ vietās. Līdz ar to kopējais trijstūru skaits ir
 
 $$8 + 3 \cdot 4 + 4 = 24.$$
 
-
+![](LV.NOL.2021TEST.5.15A.png){ width=100px }
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.16
 
 Flīzes raksts veidots no četriem pusrinkiem (skat.att. vienu flīzi). 
 Kāds ir flīzes perimetrs centimetros, ja pusriņka rādiuss ir $4~\mathrm{cm}$?
+
+![](LV.NOL.2021TEST.5.16.png){ width=100px }
 
 
 <small>
@@ -394,6 +402,8 @@ Tātad tā perimetrs ir $(1+71) \cdot 2=144~\mathrm{cm}$.
 
 Kura no figūrām ir visvieglākā?
 
+![](LV.NOL.2021TEST.5.18.png){ width=150px }
+
 *Izvēlēties atbildi: (A) aplis, (B) trijstūris, (C) kvadrāts.*
 
 <small>
@@ -427,6 +437,8 @@ kvadrāts, tad secinām, ka kvadrāts ir visvieglākais.
 Cik dažādos veidos pa zīmējumā attēlotajiem ceļiem var nokļūt no punkta $A$ 
 uz punktu $B$? Pa celiem var pārvietoties tikai bultiņu norādītajā virzienā.
 
+![](LV.NOL.2021TEST.5.19.png){ width=150px }
+
 <small>
 
 * answer:4
@@ -440,15 +452,18 @@ uz punktu $B$? Pa celiem var pārvietoties tikai bultiņu norādītajā virzien�
 
 Iespējamie ceļi ir $ACDB$, $ACEB$, $AFEB$, $AFB$.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-05.jpg?height=384&width=746&top_left_y=278&top_left_x=1745)
+![](LV.NOL.2021TEST.5.19A.png){ width=150px }
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.20
 
-Visas grāmatas, ko var nopirkt, norēkinoties tikai ar 2 eiro monētām, atrodas taisnstūrī, bet visas grāmatas, ko var nopirkt, norēkinoties tikai ar 5 eiro banknotēm, atrodas rinkī. Kurā plaknes daļā atrodas grāmata, kas maksā 7 eiro?
+Visas grāmatas, ko var nopirkt, norēķinoties tikai ar 2 eiro monētām, 
+atrodas taisnstūrī, bet visas grāmatas, ko var nopirkt, norēkinoties 
+tikai ar $5$ eiro banknotēm, atrodas riņķī. Kurā plaknes daļā 
+atrodas grāmata, kas maksā 7 eiro?
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-05.jpg?height=321&width=477&top_left_y=925&top_left_x=567)
+![](LV.NOL.2021TEST.5.20.png){ width=100px }
 
 *Izvēlēties plaknes apgabalu: K, L, M vai N.* 
 
@@ -463,13 +478,16 @@ Visas grāmatas, ko var nopirkt, norēkinoties tikai ar 2 eiro monētām, atroda
 ## Atrisinājums
 
 Tā kā $7$ eiro nevar samaksāt tikai ar $2$ eiro monētām, 
-ne arī tikai ar $5$ eiro banknotēm, tad tas neatrodas ne taisnstūrī, ne riņķī.
+ne arī tikai ar $5$ eiro banknotēm, tad tas neatrodas 
+ne taisnstūrī, ne riņķī.
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.21
 
 Visi skaitļi, kas dalās ar $20$, atrodas taisnstūrī, bet visi skaitļa 
 $20$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $5$?
+
+![](LV.NOL.2021TEST.5.21.png){ width=100px }
 
 *Izvēlēties plaknes apgabalu: K, L, M vai N.* 
 
@@ -589,6 +607,8 @@ figūru apgriežot otrādi. Kāds ir šīs figūras perimetrs centimetros,
 ja rūtinas malas garums ir 1 cm ? Piemēram, attēlā redzama 
 figūra, kas sastāv no četrām šādi saliktām T-veida figūrām. 
 
+![](LV.NOL.2021TEST.6.3.png){ width=150px }
+
 <small>
 
 * answer:156
@@ -632,7 +652,9 @@ $5+7+9+11+13+15=60 \mathrm{~cm}$
 
 # <lo-sample/> LV.NOL.2021TEST.6.5
 
-Cik krustpunktu ir četrām dotajām taisnēm (skat. att.)? 
+Cik krustpunktu ir četrām dotajām taisnēm (skat. att.)?
+
+![](LV.NOL.2021TEST.6.5.png){ width=150px }
 
 <small>
 
@@ -677,7 +699,9 @@ tātad skaitlis $A$ beigsies ar ciparu $5$.
 Robots kustas pa trijstūra $ABC$ kontūru (skat.att.), 
 kura visas malas ir vienāda garuma. Tas sāka kustību no 
 virsotnes A un 41 reizi apgāja trijstūra kontūru, 
-veicot $369~\mathrm{cm}$. Nosaki trijstūra malas garumu centimetros! 
+veicot $369~\mathrm{cm}$. Nosaki trijstūra malas garumu centimetros!
+
+![](LV.NOL.2021TEST.6.7.png){ width=100px }
 
 <small>
 
@@ -771,7 +795,9 @@ $\frac{8}{8+32}=\frac{1}{5}=20 \%$
 # <lo-sample/> LV.NOL.2021TEST.6.11
 
 Kurš no figūru komplektiem jānovieto uz svariem Nr. 4., lai tie 
-atrastos līdzsvarā? 
+atrastos līdzsvarā?
+
+![](LV.NOL.2021TEST.6.11.png){ width=150px }
 
 *Izvēlēties variantu: A, B, C vai D.*
 
@@ -825,6 +851,8 @@ tā ciparu summa dalās ar $3$).
 Baiba uz galda no vairākiem vienādiem klucīšiem salika figūru 
 (skat. 1.att.). No cik klucīšiem sastāv izveidotā figūra, 
 ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
+
+![](LV.NOL.2021TEST.6.13.png){ width=150px }
 
 <small>
 
@@ -887,6 +915,8 @@ Jo tas nebeidzas ne ar $0$, ne ar $5$.
 
 Cik trijstūri redzami dotajā zīmējumā?
 
+![](LV.NOL.2021TEST.6.16.png){ width=100px }
+
 <small>
 
 * answer:24
@@ -906,11 +936,14 @@ Līdz ar to kopējais trijstūru skaits ir
 $$8 + 3 \cdot 4 + 4 = 24.$$
 
 
+![](LV.NOL.2021TEST.6.16A.png){ width=100px }
+
+
 # <lo-sample/> LV.NOL.2021TEST.6.17
 
 Kāds ir taisnstūra perimetrs, ja riņķa līnijas rādiuss ir $4~\mathrm{cm}$?
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-10.jpg?height=142&width=709&top_left_y=216&top_left_x=477)
+![](LV.NOL.2021TEST.6.17.png){ width=120px }
 
 
 <small>
@@ -936,7 +969,7 @@ Varde vienā lēcienā var pārvietoties vienu rūtinu uz augšu vai vienu
 rūtiņu pa labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļūt rūtiņā $B$ 
 (skat. att.)? Iekrāsotajās rūtiņās ir šḳērslis, tajās varde neiet.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-10.jpg?height=429&width=537&top_left_y=584&top_left_x=563)
+![](LV.NOL.2021TEST.6.18.png){ width=100px }
 
 <small>
 
@@ -958,12 +991,12 @@ Ierakstīsim katrā rūtiņā, cik veidos varde tajā var nonākt,
 sākot no kreisā apakšējā stūra. Katrā rūtinā mums jāraksta summa skaitļiem, 
 kas atrodas zem un pa kreisi no aplūkojamās rūtiņas.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-10.jpg?height=390&width=864&top_left_y=835&top_left_x=1698)
+![](LV.NOL.2021TEST.6.18A.png){ width=150px }
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.19
 
-Kāds cipars jāievieto y vietā, lai skaitlis $\overline{5783y1y0}$ 
+Kāds cipars jāievieto $y$ vietā, lai skaitlis $\overline{5783y1y0}$ 
 dalītos ar $90$?
 
 <small>
@@ -1031,6 +1064,8 @@ atrodas taisnstūrī, bet visas grāmatas, ko var nopirkt, norēķinoties
 tikai ar $5$ eiro banknotēm, atrodas rinkī. Kurā plaknes daļā atrodas 
 grāmata, kas maksā $17$ eiro?
 
+![](LV.NOL.2021TEST.6.22.png){ width=100px }
+
 *Izvēlēties plaknes apgabalu: K,L,M vai N.*
 
 <small>
@@ -1051,6 +1086,8 @@ tikai ar $5$ eiro banknotēm, tad grāmata neatrodas ne taisnstūrī, ne riņķ�
 
 Visi skaitļi, kas dalās ar 10, atrodas taisnstūrī, bet visi skaitļa 10 dalītāji 
 atrodas aplī. Kurā plaknes daļā atrodas skaitlis $10$?
+
+![](LV.NOL.2021TEST.6.23.png){ width=100px }
 
 *Izvēlēties plaknes apgabalu: K,L,M vai N.*
 
@@ -1083,9 +1120,18 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 
 ## Atrisinājums
 
+Pirmo skolēnu var izvēlēties $5$ veidos, otro – $4$ veidos, 
+trešo – $3$ veidos, ceturto – $2$ veidos. (Savukārt piektais ir nosakāms
+viennozīmīgi, ja pirmie četri jau ir nostādīti.)
+Tātad kopā ir $5 \cdot 4 \cdot 3 \cdot 2 = 120$ veidi.
+
 
 # <lo-sample/> LV.NOL.2021TEST.7.2
 
+Pa apli uzrakstīti skaitļi $1, 2, 3, 4, 5, 6, 7, 8$ 
+(tieši šādā secībā). Jebkurus divus skaitļus, kas neatrodas blakus, 
+drīkst mainīt vietām. Kāds mazākais maiņu skaits ir vajadzīgs, 
+lai skaitļi pa apli būtu uzrakstīti pretējā secībā?
 
 <small>
 
@@ -1097,10 +1143,19 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 
 ## Atrisinājums
 
+Jāsamaina $2$ ar $8$, $3$ ar $7$, $4$ ar $6$.
+
+
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.3
 
+Zīmējumā (skat. zemāk) bija uzzīmēti vairāki kvadrāti, bet 
+Jevgēnijs izdzēsa kvadrātu malas tā, ka palika redzamas 
+tikai visas kvadrātu virsotnes. Cik kvadrāti ar dotajām 
+virsotnēm bija attēloti sākotnējā zīmējumā?
+
+![](LV.NOL.2021TEST.7.3.png){ width=100px }
 
 <small>
 
@@ -1112,13 +1167,17 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 
 ## Atrisinājums
 
+![](LV.NOL.2021TEST.7.3A.png){ width=100px }
 
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.4
 
+Taisne iet caur punktiem $(-3; 2)$ un $(6; 5)$. 
+Kurš punkts atrodas uz šīs taisnes?
 
+$$A(1;3.5) \quad B(8;6) \quad C(-12;-1) \quad D(-5;1)$$
 
 *Izvēlēties punktu: A, B, C vai D.*
 
@@ -1132,11 +1191,28 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 
 ## Atrisinājums
 
+Ja $x$ pieaug par $9$ vienībām (no $-3$ līdz $6$), 
+tad $y$ pieaug par $3$ vienībām (no $2$ līdz $5$). 
+Kamēr $x$ pieaug no $x=-3$ līdz $x=0$, 
+$y$ būs pieaudzis tikai par $1$ vienību: no $y=2$ līdz $y=3$. 
 
+Tāpēc punkti uz taisnes apmierina sakarību 
+$y = \frac{1}{3}x + 3.$ (Šis vienādojums atspoguļo faktu, 
+ka ātrums pa $y$ ir tikai trešdaļa no ātruma pa $x$; un arī 
+to, ka pie $x=0$ tiek sasniegta vērtība $y=3$.)
+
+Vienīgais punkts, kuru var ievietot šajā sakarībā ir $C(-12;-1)$. 
+Jo $y = \frac{1}{3}(-12) + 3 = -4+3 = -1$.
+
+*Piezīme.* Var arī uzzīmēt taisni uz rūtiņu papīra 
+un no grafika nolasīt prasīto.
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.5
 
+Kvadrāta trīs virsotņu koordinātas ir 
+$(3; 7)$, $(6; 2)$, $(-2; 4)$. 
+Nosaki ceturtās virsotnes koordinātu summu!
 
 
 
@@ -1150,13 +1226,18 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 
 ## Atrisinājums
 
+Ceturtās virsotnes koordinātas ir $(1; −1)$. 
+Tātad koordinātu summa ir $1 − 1 = 0$.
 
+![](LV.NOL.2021TEST.7.5A.png){ width=100px }
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.6
 
-
+Vienādmalu trijstūri ar malas garumu $7$ sagrieza mazākos 
+vienādmalu trijstūrīšos, kuru malas garums ir $1$. 
+Cik mazos trijstūrīšus ieguva?
 
 <small>
 
@@ -1168,12 +1249,19 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 
 ## Atrisinājums
 
+Ievērojam, ka katrā nākamajā slānī ir par $2$ trijstūrīšiem 
+vairāk nekā iepriekšējā slānī, tātad pavisam ir 
+$1+3+5+7+9+11+13=49$ trijstūrīši.
+
+![](LV.NOL.2021TEST.7.6A.png){ width=150px }
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.7
 
-
+Ja Dace nopirks $11$ klades, viņai vēl paliks $50$ centi. 
+Savukārt, ja viņa pirktu $15$ klades, tad $70$ centu 
+viņai pietrūktu. Cik centu ir Dacei?
 
 <small>
 
@@ -1185,15 +1273,21 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 
 ## Atrisinājums
 
+Pieņemsim, ka 11 klades Dace jau ir nopirkusi. Tad viņai ir 
+atlikuši $50$ centi. Iedosim viņai vēl $70$ centus, 
+tagad viņa var nopirkt vēl tieši $4$ klades. Tātad $4$ 
+klades maksā $120$ centus, tātad viena klade maksā $30$ centus.
 
+Tātad $11$ klades maksā $11 \cdot 30 = 330$ centus un 
+Dacei ir $330 + 50 = 380$ centu.
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.8
 
-Ingrīda rūtinu plaknē zīmēja figūras - sākumā uzzīmēja krustu, katrai nākamai figūrai pievienoja stūrīti, kas sastāv no 3 rūtiņām (skat. 1. att., kur redzamas pirmās trīs figūras). No cik divu posmu lenkiīsiem (skat. 2. att.) var salikt Ingrīdas uzzīmētās figūras, kas sastāv no 35 rūtinām, kontūru?
+Ingrīda rūtinu plaknē zīmēja figūras - sākumā uzzīmēja krustu, katrai nākamai figūrai pievienoja stūrīti, kas sastāv no 3 rūtiņām (skat. 1. att., kur redzamas pirmās trīs figūras). No cik divu posmu leņķīšiem (skat. 2. att.) var salikt Ingrīdas uzzīmētās figūras, kas sastāv no 35 rūtiņām, kontūru?
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-14.jpg?height=445&width=998&top_left_y=419&top_left_x=344)
+![](LV.NOL.2021TEST.7.8.png){ width=200px }
 
 
 
@@ -1209,14 +1303,17 @@ Ingrīda rūtinu plaknē zīmēja figūras - sākumā uzzīmēja krustu, katrai 
 
 Katru nākamo figūru var iegūt, iepriekšējai figūrai nonemot nost vienu leņkīti un pieliekot klāt trīs citus, tātad katrai nākamajai figūrai vajag par 2 lenkǐ̌ǐiem vairāk.
 
-Figūru, kas sastāv no 35 rūtinām, var iegūt krustam (5 rūtiņas) pievienojot 10 stūrīšus ( $10=30$ rūtiņas). Tā kā krusta kontūru var salikt no 6 lenkǐšiem, tad tai būs vajadzīgi $6+10 \cdot 2=26$ lenkǐši.
+Figūru, kas sastāv no 35 rūtinām, var iegūt krustam ($5$ rūtiņas) pievienojot 
+$10$ stūrīšus (vēl $30$ rūtiņas). Tā kā krusta kontūru var salikt 
+no $6$ leņķīšiem, tad tai būs vajadzīgi $6+10 \cdot 2=26$ leņķīši.
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.9
 
-Cik krustpunktu ir trīs dotajām taisnēm un staram (skat. att.)
+Cik krustpunktu ir trīs dotajām taisnēm un staram (skat.att.)
 
+![](LV.NOL.2021TEST.7.9.png){ width=150px }
 
 <small>
 
@@ -1228,11 +1325,14 @@ Cik krustpunktu ir trīs dotajām taisnēm un staram (skat. att.)
 
 ## Atrisinājums
 
-
+Trijām taisnēm kopā ir $3$ krustpunkti, stars krusto tikai vienu no tām.
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.10
 
+Guna skaitli $123456789111111111198765432$ kāpināja trešajā 
+pakāpē un pēc tam iegūtajam rezultātam pieskaitīja $2$. 
+Kāds ir galarezultāta pēdējais cipars?
 
 
 <small>
@@ -1245,12 +1345,20 @@ Cik krustpunktu ir trīs dotajām taisnēm un staram (skat. att.)
 
 ## Atrisinājums
 
-
+Tā kā reizinājuma pēdējais cipars ir atkarīgs tikai no reizinātāju 
+pēdējiem cipariem, tad Gunas skaitli, izkāpinot kubā, tā 
+pēdējais cipars būs $2 \cdot 2 \cdot 2 = 8$. 
+Pieskaitot tam divi, pēdējais cipars būs $0$.
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.11
 
-Robots kustas pa trijstūra ABC kontūru (skat. att.). Tas sāka kustību <br> no virsotnes A un nogāja 2021 cm$. Uz kuras trijstūra malas robots <br> apstājās, ja katras trijstūra malas garums ir 4 cm ? 
+Robots kustas pa trijstūra ABC kontūru (skat. att.). Tas sāka kustību 
+no virsotnes $A$ un nogāja $2021~\mathrm{cm}$. 
+Uz kuras trijstūra malas robots apstājās, ja katras trijstūra 
+malas garums ir $4~\mathrm{cm}$? 
+
+![](LV.NOL.2021TEST.7.11.png){ width=100px }
 
 *Izvēlēties trijstūra malu: AB, AC vai BC.*
 
@@ -1289,13 +1397,15 @@ olimpiādē. Cik procentu no skolas skolēniem piedalījās olimpiādē?
 
 ## Atrisinājums
 
-$\frac{16}{64+16}=\frac{16}{80}=\frac{1}{5}=20 \%$ |
+$\frac{16}{64+16}=\frac{16}{80}=\frac{1}{5}=20 \%$.
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.13
 
 Kāda ir riņka un kvadrāta masa, ja trijstūra masa ir $5$ kg? 
+
+![](LV.NOL.2021TEST.7.13.png){ width=150px }
 
 *Ierakstīt divus skaitļus: riņķa un kvadrāta masu, atdalot tos ar semikolu(;).*
 *Veselus skaitļus rakstīt bez cipariem aiz komata; daļskaitļus noapaļot līdz tuvākajai desmitdaļai.*
@@ -1323,7 +1433,8 @@ sver tikpat, cik $2$ riņķi.
 Atgriezīsimies pie pirmajiem svariem, nonemsim no abām pusēm nost 
 vienu kvadrātu un aizstāsim $4$ rinkus ar $2$ kvadrātiem (svari joprojām būs 
 līdzsvarā). legūsim, ka divi trijstūri sver tikpat, cik $5$ kvadrāti. 
-Divi trijstūri sver $10~\mathrm{kg}$, tātad $5$ kvadrāti arī sver $10~\mathrm{kg}$, 
+Divi trijstūri sver $10~\mathrm{kg}$, tātad $5$ kvadrāti arī sver 
+$10~\mathrm{kg}$, 
 un viens kvadrāts sver $2~\mathrm{kg}$, bet riņkis sver $1~\mathrm{kg}$.
 
 
@@ -1352,8 +1463,7 @@ Sākotnēji klucǐši bija sakārtoti kubā ar malas garumu $4$ klucīši, taču
 kāds dažus klucǐšus aiznesa prom. Cik klucǐši tika aiznesti prom, ja 
 tagadējais klucǐšu izkārtojums redzams attēlā? 
 
-
-
+![](LV.NOL.2021TEST.7.15.png){ width=120px }
 
 <small>
 
@@ -1374,7 +1484,9 @@ aiznesti $3+8+12+13=36$ klucīši.
 # <lo-sample/> LV.NOL.2021TEST.7.16
 
 Kāds skaitlis jāieraksta $x$ vietā, lai vienādība 
-$\qquad \frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{5}{6}+\frac{1}{x}=2$ 
+
+$$\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{5}{6}+\frac{1}{x}=2$$
+
 būtu patiesa? 
 
 <small>
@@ -1392,7 +1504,7 @@ $\frac{1}{x}=2-\frac{1}{2}-\frac{1}{3}-\frac{1}{4}-\frac{5}{6}=\frac{24-6-4-3-10
 
 # <lo-sample/> LV.NOL.2021TEST.7.17
 
-Kāds cipars jāieraksta $m$ vietā, lai skaitlis $\overline{12345689 m 8}$ 
+Kāds cipars jāieraksta $m$ vietā, lai skaitlis $\overline{12345689m8}$ 
 dalītos ar $36$? 
 
 <small>
@@ -1405,7 +1517,8 @@ dalītos ar $36$?
 
 ## Atrisinājums
 
-Lai skaitlis dalītos ar $36$, tam jādalās ar 9 un ar 4 . Lai tas dalītos ar 9 , tā 
+Lai skaitlis dalītos ar $36$, tam jādalās ar $9$ un ar $4$. 
+Lai tas dalītos ar $9$, tā 
 ciparu summai jādalās ar $9$. 
 Tātad $1+2+3+4+5+6+8+9+m+8$ dalās ar $9$ jeb $46+m$ dalās ar $9$. 
 Tātad vienīgā iespējamā $m$ vērtība ir $8$. 
@@ -1415,9 +1528,13 @@ Tā kā skaitlis tagad beidzas ar $88$, tad tas noteikti dalās arī ar $4$.
 
 # <lo-sample/> LV.NOL.2021TEST.7.18
 
-Varde vienā lēcienā var pārvietoties vienu rūtiņu uz augšu, vienu rūtiņu pa labi vai arī vienu rūtiņu pa diagonāli (skat. attēlu pa kreisi). Cik dažādos veidos varde no rūtiņas "?" var noklūt rūtinā “!" (skat. att.)? lekrāsotajās rūtiņās ir škēēslis, tajās varde neiet.
+Varde vienā lēcienā var pārvietoties vienu rūtiņu uz augšu, 
+vienu rūtiņu pa labi vai arī vienu rūtiņu pa diagonāli 
+(skat. attēlu pa kreisi). Cik dažādos veidos varde no 
+rūtiņas "?" var noklūt rūtinā “!" (skat. att.)? 
+Iekrāsotajās rūtiņās ir škēēslis, tajās varde neiet.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-17.jpg?height=511&width=719&top_left_y=364&top_left_x=476)
+![](LV.NOL.2021TEST.7.18.png){ width=150px }
 
 
 <small>
@@ -1439,7 +1556,7 @@ $k+m+n$ veidos. Līdz ar to, varam pakāpeniski aprēḳināt,
 cik veidos varde var nonākt katrā rūtinā, sākot no jautājuma zīmes 
 (kur tā var nonākt vienā veidā, jo tā jau tur ir).
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-17.jpg?height=366&width=451&top_left_y=593&top_left_x=2143)
+![](LV.NOL.2021TEST.7.18A.png){ width=150px }
 
 
 
@@ -1450,7 +1567,7 @@ atrodas taisnstūrī, bet visas grāmatas, ko var nopirkt, norēkinoties
 tikai ar 5 eiro banknotēm, atrodas rinkī. Kurā plaknes dalā atrodas 
 grāmata, kas maksā 27 eiro?
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-17.jpg?height=328&width=462&top_left_y=1156&top_left_x=612)
+![](LV.NOL.2021TEST.7.19.png){ width=100px }
 
 *Izvēlēties plaknes apgabalu: K, L, M vai N.*
 
@@ -1474,7 +1591,7 @@ neatrodas ne taisnstūrī, ne riņķī.
 
 Visi skaitli, kas dalās ar 15 atrodas taisnstūrī, bet visi skait!a 15 dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis 45?
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-17.jpg?height=336&width=458&top_left_y=1559&top_left_x=614)
+![](LV.NOL.2021TEST.7.20.png){ width=100px }
 
 *Izvēlēties plaknes apgabalu: K, L, M vai N.*
 
@@ -1497,6 +1614,8 @@ Tā kā $45$ dalās ar $15$, bet nav skaitļa $15$ dalītājs, tad tas atrodas t
 Kāds ir nogriežņa $AB$ garums centimetros, ja punkti $A$ un $B$ atrodas rinķa 
 līniju centros un taisnstūra $LMNO$ perimetrs ir $112~\mathrm{cm}$?
 
+![](LV.NOL.2021TEST.7.21.png){ width=180px }
+
 
 <small>
 
@@ -1507,6 +1626,7 @@ līniju centros un taisnstūra $LMNO$ perimetrs ir $112~\mathrm{cm}$?
 </small>
 
 ## Atrisinājums
+
 Ja riņķa līnijas diametrs ir $D$, tad taisnstūra platums ir $D$, 
 garums ir $6D$ un perimetrs ir $(D + 6D) \cdot 2 = 14D$.
 Tātad riņķa līnijas diametrs $D=112∶14=8~\mathrm{cm}$.
@@ -1570,6 +1690,7 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 
 ## Atrisinājums
 
+$$2 + 3 + 5 + 7 + 11 + 13 + 17 + 18 + 23 + 29 = 129.$$
 
 
 
@@ -1577,6 +1698,15 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 
 # <lo-sample/> LV.NOL.2021TEST.8.2
 
+Septiņi kasieri sēž ap apaļu galdu un gatavojas skaitīt naudu. 
+Galvenajam kasierim Mārim ir $128$ pakas ar naudu, bet pārējiem 
+nav nevienas pakas ar naudu. Pusi no savām pakām Māris atdod 
+abiem saviem blakus sēdētājiem, sadalot to vienādās daļās. 
+Kad katrs kasieris pārskaita (pirmā naudas skaitīšana) 
+viņam piederošo naudu, tad katrs kasieris (arī Māris) 
+pusi no savām naudas pakām vienādās daļās atdod abiem saviem 
+blakus sēdētājiem. Un tā viņi turpina darbu. Cik naudas pakas 
+bija Mārim trešajā naudas skaitīšanas reizē?
 
 
 <small>
@@ -1589,12 +1719,24 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 
 ## Atrisinājums
 
+Pieņemsim, ka Māris sēž vidū un virknes gali ir "savienoti riņķī". 
+Paku skaits pēc pirmās pārdales (pirmā skaitīšana):
+
+$$0, 0, 32, \mathbf{64}, 32, 0, 0$$ 
+
+Paku skaits pēc otrās pārdales (otrā skaitīšana): 
+
+$$0, 8, 32, \mathbf{48}, 32, 8, 0$.
+
+Paku skaits pēc trešās pārdales (trešā skaitīšana): 
+
+$$2, 12, 30, \mathbf{40}, 30, 12, 2.$$
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.3
 
-
+Cik dažādos veidos $6$ skolēni var nostāties rindā?
 
 <small>
 
@@ -1606,12 +1748,17 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 
 ## Atrisinājums
 
+Pirmo skolēnu var izvēlēties $6$ veidos, otro – $5$, trešo – $4$, 
+ceturto – $3$, piekto – $2$. Tātad kopējais veidu skaits ir 
+$6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 = 720$.
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.4
 
-
+Pa apli uzrakstīti skaitļi $1, 2, 3, 4, 5, 6, 7, 8$ 
+(tieši šādā secībā pulksteņa rādītāja kustības virzienā). Jebkurus divus skaitļus, kas neatrodas blakus, drīkst mainīt vietām. Kāds mazākais maiņu skaits ir vajadzīgs, lai skaitļi aplī būtu pierakstīti šādā secībā 
+$1, 4, 3, 6, 5, 8, 7, 2$, skatoties pulksteņa rādītāja kustības virzienā?
 
 <small>
 
@@ -1623,14 +1770,20 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 
 ## Atrisinājums
 
+Var ievērot, ka skaitļi $1, 3, 5, 7$ atrodas savās vietās, 
+jāsamaina tikai pāra cipari. To var izdarīt ar 3 maiņām
 
+$$2\ ar\ 4, \quad 2\ ar\ 6, \quad 2\ ar\ 8.$$
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.5
 
+Zīmējumā uz rūtiņu lapas (skat. zemāk) bija attēloti vairāki kvadrāti, 
+bet laika gaitā kvadrātu malas izdzisa un palika redzamas 
+tikai visas kvadrātu virsotnes. Cik kvadrāti ar dotajām virsotnēm bija attēloti sākotnējā zīmējumā?
 
-
+![](LV.NOL.2021TEST.8.5.png){ width=100px }
 
 <small>
 
@@ -1642,7 +1795,7 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 
 ## Atrisinājums
 
-
+![](LV.NOL.2021TEST.8.5A.png){ width=100px }
 
 
 
@@ -1676,8 +1829,9 @@ Pārbaudot atbilžu variantus, redzam, ka $-1=-12 \cdot \frac{1}{3}+3$.
 
 # <lo-sample/> LV.NOL.2021TEST.8.7
 
-Vienādmalu trijstūri ar malas garumu 15 sagrieza mazākos 
-vienādmalu trijstūrīšos, kuru malas garums ir 1. Cik mazos <br> trijstūrīusus ieguva? 
+Vienādmalu trijstūri ar malas garumu $15$ sagrieza mazākos 
+vienādmalu trijstūrīšos, kuru malas garums ir $1$. Cik mazos
+trijstūrīšus ieguva? 
 
 <small>
 
@@ -1690,11 +1844,13 @@ vienādmalu trijstūrīšos, kuru malas garums ir 1. Cik mazos <br> trijstūrīu
 ## Atrisinājums
 
 Ievērojam, ka katrā nākamajā slānī ir par $2$ trijstūrīšiem vairāk nekā 
-iepriekšējā slānī (attēlā doti pirmie 7 slāni), tātad mazo trijstūrīšu skaits ir 
-$1+3+5++7+9+11+13+15+17+19+21+23+25+27+29=$ 
+iepriekšējā slānī (attēlā doti pirmie 7 slāņi), 
+tātad mazo trijstūrīšu skaits ir 
+sssssss$1+3+5++7+9+11+13+15+17+19+21+23+25+27+29=$ 
 $=(1+29)+(3+27)+(5+25)+(7+23)+(9+21)+(11+19)+$ 
 $+(13+17)+15=30 \cdot 7+15=225$ 
 
+![](LV.NOL.2021TEST.8.7A.png){ width=150px }
 
 
 
@@ -1703,6 +1859,8 @@ $+(13+17)+15=30 \cdot 7+15=225$
 Cik trijstūrus ar laukumu $10 \mathrm{~cm}^{2}$ var uzzīmēt tā, lai to 
 virsotnes atrastos atzīmētajos punktos (skat. att.)? Rūtiņas 
 malas garums ir $1~\mathrm{cm}$. 
+
+![](LV.NOL.2021TEST.8.8.png){ width=150px }
 
 
 <small>
@@ -1721,10 +1879,15 @@ Der $11$ trijstūri ar virsotnēm punktos $B$ un $D$ un trešo virsotni
 uz augšējās malas, 11 trijstūri ar virsotnēm punktos $A$ un $C$ un 
 trešo virsotni uz apakšējās malas, kā arī trijstūri $AFB$ un $CED$
 
+![](LV.NOL.2021TEST.8.8A.png){ width=150px }
+
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.9
 
+Ja Inese nopirks $11$ klades, viņai vēl paliks $50$ centi. 
+Savukārt, ja viņa pirktu $15$ klades, tad $70$ centu viņai pietrūktu. 
+Cik centu ir Inese?
 
 
 <small>
@@ -1737,12 +1900,24 @@ trešo virsotni uz apakšējās malas, kā arī trijstūri $AFB$ un $CED$
 
 ## Atrisinājums
 
+Pieņemsim, ka $11$ klades Inese jau ir nopirkusi. Tad viņai 
+ir atlikuši $50$ centi. Iedosim viņai vēl $70$ centus, tagad 
+viņa var nopirkt vēl tieši $4$ klades. Tātad $4$ klades maksā 
+$120$ centus, tātad viena klade maksā $30$ centus.
+Tātad $11$ klades maksā $11 \cdot 30 = 330$ 
+centus un Inesei ir $330 + 50 = 380$ centu.
+
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.10
 
-
+Ingrīda rūtiņu plaknē zīmēja figūras – sākumā uzzīmēja 
+krustu, katrai nākamai figūrai pievienoja stūrīti, kas 
+sastāv no 3 rūtiņām (skat. 1. att., kur redzamas pirmās 
+trīs figūras). No cik trīs posmu stieplītēm 
+(skat. 2. att.) var salikt Ingrīdas uzzīmētās figūras kontūru, 
+kas sastāv no 50 rūtiņām?
 
 <small>
 
@@ -1754,13 +1929,20 @@ trešo virsotni uz apakšējās malas, kā arī trijstūri $AFB$ un $CED$
 
 ## Atrisinājums
 
+Pieņemsim, ka rūtiņas malas garums ir 1. Katras nākamās figūras perimetrs ir par 4 lielāks nekā iepriekšējās (no pieliktā trijstūrīša nāk klāt 6 redzamās rūtiņu malas un nāk nost 2 neredzamās). Figūru, kas sastāv no 50 rūtiņām, var iegūt krustam (5 rūtiņas), pieliekot trijstūrīti (3 rūtiņas) 15 reizes. Sākumā krusta perimetrs ir 12, tātad šīs figūras perimetrs būs
 
+$$12 + 15 \cdot 4 = 72.$$
+
+Katra trīs posmu stieplīte noklāj $3$ rūtiņu malas, tāpēc vajadzīgas
+$72 ∶ 3 = 24$ stieplītes.
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.11
 
-
+Ilze skaitli $123456787777777777777765412$ kāpināja kubā un pēc tam 
+iegūtajam rezultātam pieskaitīja $2$. Kāds ir galarezultāta desmitu
+(pirmspēdējais) cipars?
 
 <small>
 
@@ -1772,6 +1954,11 @@ trešo virsotni uz apakšējās malas, kā arī trijstūri $AFB$ un $CED$
 
 ## Atrisinājums
 
+Tā kā reizinājuma pēdējie divi cipari ir atkarīgi tikai no 
+reizinātāju diviem pēdējiem cipariem, tad rezultāts būs tāds 
+pats kā, ja Ilze aprakstīto darītu ar skaitli $12$. 
+Tā kā $123 + 2 = 1730$, tad desmitu cipars būs $3$.
+
 
 
 
@@ -1780,6 +1967,8 @@ trešo virsotni uz apakšējās malas, kā arī trijstūri $AFB$ un $CED$
 Robots kustas pa trijstūra ABC kontūru (skat. att.). Tas sāka 
 kustību no virsotnes A un nogāja 2031 cm$. Uz kuras trijstūra 
 malas robots apstājās, ja katras trijstūra malas garums ir $7~\mathrm{cm}$? 
+
+![](LV.NOL.2021TEST.8.12.png){ width=100px }
 
 *Izvēlēties trijstūra malu: AB, AC vai BC.*
 
@@ -1793,9 +1982,11 @@ malas robots apstājās, ja katras trijstūra malas garums ir $7~\mathrm{cm}$?
 
 ## Atrisinājums
 
-Trijstūra perimetrs ir $21~\mathrm{cm}$. Ievērosim, ka skaitlis $2016$ dalās ar $21$, tātad 
+Trijstūra perimetrs ir $21~\mathrm{cm}$. Ievērosim, ka skaitlis 
+$2016$ dalās ar $21$, tātad 
 pēc tam, kad robots būs nogājis $2016$ centimetrus, tas būs atgriezies 
-punktā A. Vēl tam atlicis noiet $15~\mathrm{cm}, pēc kuriem tas atradīsies uz malas 
+punktā A. Vēl tam atlicis noiet $15~\mathrm{cm}, pēc kuriem tas 
+atradīsies uz malas 
 $AC$ ($1~\mathrm{cm}$ no punkta $C$).
 
 
@@ -1817,8 +2008,16 @@ $2 \sqrt{50}+x>20$ būtu patiesa?
 
 
 Ja $x=6$, tad nevienādība ir spēkā, jo 
-$\qquad \sqrt{50}>\sqrt{49}=7$ <br> $x$ nevar būt mazāks, jo
-tāpēc $\sqrt{50}<7,5=\sqrt{56,25}$ <br> $\qquad 2 \sqrt{50}+x<2 \cdot 7,5+5=20$.
+
+$$\sqrt{50}>\sqrt{49}=7$$ 
+
+$x$ nevar būt mazāks, jo
+
+$$\sqrt{50}<7,5=\sqrt{56,25}$$ 
+
+tāpēc
+
+$$2 \sqrt{50}+x < 2 \cdot 7.5+5 = 20.$$
 
 
 
@@ -1847,8 +2046,10 @@ ka $x=6 \mathrm{~cm}$ un pamata mala ir $2 x=12 \mathrm{~cm}$.
 
 # <lo-sample/> LV.NOL.2021TEST.8.15
 
-Kāds skaitlis jāieraksta $x$ vietā, lai vienādība 
-$\qquad \frac{2^{30} \cdot 8^{4}}{4^{20}}=2^{x}$ 
+Kāds skaitlis jāieraksta $x$ vietā, lai vienādība
+
+$$\frac{2^{30} \cdot 8^{4}}{4^{20}}=2^{x}$$ 
+
 būtu patiesa? 
 
 <small>
@@ -1899,13 +2100,15 @@ vienā dienā izlasīja Rihards?
 ## Atrisinājums
 
 Kopā novembrī Rihards izlasīja $5 \cdot 18+15 \cdot 12=270$ lappuses. 
-Tātad vienā dienā vidēji $270: 30=9$ lappuses.
+Tātad vienā dienā vidēji $270:30=9$ lappuses.
 
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.18
 
 Nosaki leņķu $\alpha$ un $\beta$ summu (grādos)! 
+
+![](LV.NOL.2021TEST.8.18.png){ width=150px }
 
 <small>
 
@@ -1917,10 +2120,10 @@ Nosaki leņķu $\alpha$ un $\beta$ summu (grādos)!
 
 ## Atrisinājums
 
-
-
-Ievērojam, ka $\beta=\alpha$ (krustleņki) un $\alpha=\gamma$ (kāpšlu leņki), 
-kā arī $\gamma=180^{\circ}-2 \cdot 60^{\circ}=120^{\circ}$ (blakuslenki). 
+Ievērojam, ka $\beta=\alpha$ (krustleņki) un 
+$\alpha=\gamma$ (kāpšļu leņki), 
+kā arī $\gamma=180^{\circ}-2 \cdot 60^{\circ}=120^{\circ}$ 
+(blakusleņķi). 
 Tātad $\alpha+\beta=60^{\circ}+60^{\circ}=120^{\circ}$.
 
 
@@ -1984,10 +2187,14 @@ $\frac{64}{64+16}=\frac{4}{5}=80 \%$
 
 # <lo-sample/> LV.NOL.2021TEST.8.22
 
-Visas grāmatas, ko var nopirkt, norēkinoties tikai ar 2 eiro 
+Visas grāmatas, ko var nopirkt, norēkinoties tikai ar $2$ eiro 
 monētām, atrodas taisnstūrī, bet visas grāmatas, ko var nopirkt, 
-norēkinoties tikai ar 5 eiro banknotēm, atrodas riņkī. 
-Kurā plaknes daļā atrodas grāmata, kas maksā 37 eiro? 
+norēķinoties tikai ar $5$ eiro banknotēm, atrodas riņķī. 
+Kurā plaknes daļā atrodas grāmata, kas maksā $37$ eiro? 
+
+![](LV.NOL.2021TEST.8.22.png){ width=100px }
+
+*Izvēlēties plaknes apgabalu: K, L, M vai N.*
 
 
 <small>
@@ -2000,7 +2207,8 @@ Kurā plaknes daļā atrodas grāmata, kas maksā 37 eiro?
 
 ## Atrisinājums
 
-Tā kā $37$ eiro nevar samaksāt tikai ar 2 eiro monētām, ne arī tikai ar $5$ eiro 
+Tā kā $37$ eiro nevar samaksāt tikai ar $2$ eiro monētām, 
+ne arī tikai ar $5$ eiro 
 banknotēm, tad šī grāmata neatrodas ne taisnstūrī, ne riņkī.
 
 
@@ -2009,6 +2217,10 @@ banknotēm, tad šī grāmata neatrodas ne taisnstūrī, ne riņkī.
 
 Visi skaitļi, kas dalās ar $8$, atrodas taisnstūrī, bet visi skaitļa $64$ 
 dalītāji atrodas aplī. Kurā plaknes daļā atrodas skaitlis $8$?
+
+![](LV.NOL.2021TEST.8.23.png){ width=100px }
+
+*Izvēlēties plaknes apgabalu: K, L, M vai N.*
 
 <small>
 
@@ -2076,9 +2288,7 @@ kam patīk latviešu valoda un vēl vismaz viens cits mācību priekšmets.
 Līdz ar to tikai latviešu valoda patīk $531-400-71-40=20$ dalībniekiem 
 (skat. 1. att. zaļā krāsā).
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-25.jpg?height=534&width=685&top_left_y=1457&top_left_x=747)
-
-1. att.
+![](LV.NOL.2021.5.1A.png){ width=200px }
 
 Aprēḳināsim skaitli, kas jāieraksta daļā $M$ (dalībnieku skaits, kuriem patīk tikai matemātika). 
 Lai to izdarītu, no kopējā dalībnieku skaita attiecīgi jāatņem dalībnieku skaits, kuriem
@@ -2106,9 +2316,8 @@ Vai ar 2. att. figūrām, kas sastāv no 4 rūtiņām, var noklāt rūtiņu lauk
 **(A)** $6 \times 7$, **(B)** $3 \times 8$ rūtiņas? Figūras nedrīkst pārklāties un iziet 
 ārpus laukuma robežām, tās drīkst pagriezt un "apmest otrādi".
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-27.jpg?height=125&width=200&top_left_y=347&top_left_x=995)
+![](LV.NOL.2021.5.2.png){ width=100px }
 
-2. att.
 
 ## Atrisinājums
 
@@ -2118,7 +2327,7 @@ ar $4$. legūta pretruna, tātad nevar pārklāt.
 
 **(B)** Jā, var, piemēram, skat. 3.att.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-27.jpg?height=176&width=441&top_left_y=763&top_left_x=880)
+![](LV.NOL.2021.5.2A.png){ width=200px }
 
 
 
@@ -2139,7 +2348,7 @@ ja ceļš $CD$ ir slēgts (tas ir, pa ceļu $CD$ nedrīkst braukt)?
 
 *Piezīme.* Sākot braukt pa kādu celu, pa to jābrauc līdz galam.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-28.jpg?height=385&width=534&top_left_y=542&top_left_x=833)
+![](LV.NOL.2021.5.3.png){ width=200px }
 
 
 
@@ -2182,7 +2391,7 @@ Uzzīmējam trīs riņkus, tie ilustrēs attiecīgi skolēnu skaitu, kam patīk 
 
 Uzmanīgi lasot uzdevumā doto, ierakstam Eilera diagrammā informāciju (skat. 5. att. skait|us, kas ierakstīti ar melnu). Lai noskaidrotu, cik dalībniekiem patīk gan matemātika, gan dabas zinības, gan vizuālā māksla, no dalībnieku skaita, kam patīk dabas zinības jāatņem dalībnieku skaits, kam patīk tikai dabas zinības un dalībnieku skaits, kam patīk dabas zinības un vēl viens mācību priekšmets. Tātad gan matemātika, gan dabas zinības, gan vizuālā māksla patīk $700-30-500-50=120$ dalībniekiem (skat. 5. att. ierakstīts zaļā krāsā).
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-29.jpg?height=580&width=719&top_left_y=1239&top_left_x=730)
+![](LV.NOL.2021.6.1A.png){ width=200px }
 
 Aprēkināsim skaitli, kas jāieraksta daļā M (dalībnieku skaits, 
 kuriem patīk tikai matemātika). Lai to izdarītu, no kopējā dalībnieku 
@@ -2212,7 +2421,7 @@ ja tām ir kopīga mala.
 
 ## Atrisinājums
 
-To var izdarīt, piemēram, kā parādīts 6. att.
+To var izdarīt, piemēram, kā parādīts attēlā:
 
 | + | - | - | - | - | + |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -2238,16 +2447,20 @@ lai no tām noteikti varētu izveidot divciparu skaitli, kurš dalās ar $7$
 Mazākais skaits kāršu, kas jāizvelk, ir $5$. Pierādīsim to. 
 Sadalām visus ciparus četrās grupās:
 
-- pirmāgrupa $1$, $2$ un $4$;
+- pirmā grupa $1$, $2$ un $4$;
 - otrā grupa $3$, $5$ un $6$;
 - trešā grupa $8$ un $9$;
 - ceturtā grupa $7$.
 
-Ievērojam, ka, panemot no kādas grupas divus ciparus (ja grupā ir vismaz divi cipari), 
-tad no šiem cipariem var izveidot divciparu skaitli, kas dalās ar $7$.
+Ievērojam, ka, panemot no kādas grupas divus ciparus 
+(ja grupā ir vismaz divi cipari), 
+tad no šiem cipariem var izveidot divciparu skaitli, 
+kas dalās ar $7$.
 
-Līdz ar to, ja tiks izvilktas piecas kārtis, tad pēc Dirihlē principa no 
-kādas grupas būs izvilktas vismaz divas kārtis un no tām varēs izveidot uzdevumā prasīto skaitli.
+Līdz ar to, ja tiks izvilktas piecas kārtis, 
+tad pēc Dirihlē principa no 
+kādas grupas būs izvilktas vismaz divas kārtis un no 
+tām varēs izveidot uzdevumā prasīto skaitli.
 
 Vēl jāpierāda, ka ir iespējams izvilkt četras kārtis, no kurām nevar izveidot 
 divciparu skaitli, kas dalās ar $7$. Ja izvelk četras kārtis $1$, $3$, $7$ un $8$, 
@@ -2265,7 +2478,7 @@ Tātad mazākais kāršu skaits, kas jāizvelk, ir $5$.
 7.1. Vai var gadīties, ka 7.att. dotās taisnes ir funkciju 
 $y=ax+b$, $y=bx-c$ un $y=cx+a$ grafiki (grafiki nav doti mērogā)?
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-33.jpg?height=555&width=656&top_left_y=335&top_left_x=772)
+![](LV.NOL.2021.7.1.png){ width=250px }
 
 
 ## Atrisinājums
@@ -2278,14 +2491,10 @@ Tā kā divas taisnes krusto $y$ asi punktā, kura ordināta ir pozitīva, bet v
 
 Apskatām iespējamos gadījumus.
 
-| Virziena koeficienti |  |  | Brīvie locek!̣i |  |  |  |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $a$ | $b$ | $c$ | b | $-c$ | $a$ |  |
-| - | + | + | + | - | - | Pretruna |
-| + | - | + | - | - | + | Pretruna |
-| + | + | - | + | + | + | Pretruna |
+![](LV.NOL.2021.7.1A.png)
 
-Līdz ar to esam pamatojuši, ka dotās taisnes nevar atbilst uzdevumā dotajām formulām.
+Līdz ar to esam pamatojuši, ka dotās taisnes nevar atbilst 
+uzdevumā dotajām formulām.
 
 
 
@@ -2319,24 +2528,29 @@ nepāra skait!u summa ir pāra skaitlis - pretruna.
 
 # <lo-sample/> LV.NOL.2021.7.3
 
-7.3. Torte sagriezta 12 gabaliņos (skat. 8. att.). Brālītis un Karlsons pēc kārtas izdara gājienus, Brālītis sāk pirmais. Vienā gājienā var apēst vai nu vienu tortes gabalinu, vai divus blakus esošus gabalinus (blakus esoši gabalini ir gabalinii, kam ir kopīga mala). Uzvar tas, kurš apēd pēdējo gabaliņu. Kurš uzvarēs, pareizi spēlējot, un kā vinam jārīkojas?
+Torte sagriezta $12$ gabaliņos (skat. 8. att.). Brālītis un Karlsons 
+pēc kārtas izdara gājienus, Brālītis sāk pirmais. Vienā gājienā var 
+apēst vai nu vienu tortes gabalinu, vai divus blakus esošus 
+gabaliņus (blakus esoši gabaliņi ir gabaliņi, kam ir kopīga mala). 
+Uzvar tas, kurš apēd pēdējo gabaliņu. Kurš uzvarēs, pareizi 
+spēlējot, un kā vinam jārīkojas?
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-35.jpg?height=314&width=458&top_left_y=442&top_left_x=866)
+![](LV.NOL.2021.7.3.png){ width=150px }
 
 
 ## Atrisinājums
 
 Pareizi spēlējot, vienmēr var uzvarēt Karlsons. Viņš var izmantot simetriju. Ja Brālītis pirmajā gājienā apēd vienu gabalu, tad Karlsons arī apēd vienu gabalu, kas atrodas tieši pretējā pusē tā, ka atliek divi vienādi tortes gabalu "bloki" pa 5 gabaliem (skat. 9. att.). Bet, ja brālītis pirmajā gājienā apēd divus tortes gabalus, tad arī Karlsons apēd divus pretējā pusē tā, ka atliek divi vienādi gabalu bloki pa 4 gabaliem (skat. 10. att.).
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-35.jpg?height=317&width=322&top_left_y=1061&top_left_x=693)
+![](LV.NOL.2021.7.3A.png){ width=250px }
 
-9. att.
-
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-35.jpg?height=304&width=306&top_left_y=1065&top_left_x=1208)
-
-10. att.
-
-Tālākajā spē̄e, ja Brālītis apēd vienu gabalu vai divus gabalus no kāda bloka, tad Karlsonam jāapēd attiecīgi vienu vai divus gabali, kas atrodas tajā pašā vietā otrā blokā, tā, lai pēc vina gājiena abi bloki atkal būtu vienādi. Tādā veidā Karlsons var nodrošināt, ka tieši viņč apēdīs pēdējo tortes gabalu, jo, ja tortes gabalu varēs apēst Brālītis, tad arī Karlsons varēs apēst simetrisko gabalu, kas atrodas otrā blokā.
+Tālākajā spēlē, ja Brālītis apēd vienu gabalu vai divus gabalus 
+no kāda bloka, tad Karlsonam jāapēd attiecīgi vienu vai divus 
+gabalus, kas atrodas tajā pašā vietā otrā blokā, tā, lai pēc 
+viņa gājiena abi bloki atkal būtu vienādi. Tādā veidā Karlsons 
+var nodrošināt, ka tieši viņč apēdīs pēdējo tortes gabalu, jo, 
+ja tortes gabalu varēs apēst Brālītis, tad arī Karlsons varēs 
+apēst simetrisko gabalu, kas atrodas otrā blokā.
 
 
 
@@ -2344,23 +2558,27 @@ Tālākajā spē̄e, ja Brālītis apēd vienu gabalu vai divus gabalus no kāda
 
 # <lo-sample/> LV.NOL.2021.8.1
 
-Aplūkosim lineāras funkcijas $y=b x-71+m$, kur koeficientus $b$ un $m$ saista 
-sakarība $b+2 m=2021$. Pierādīt, ka visu šādu funkciju grafiki krustojas vienā punktā!
+Aplūkosim lineāras funkcijas $y=b x-71+m$, kur koeficientus $b$ 
+un $m$ saista sakarība $b+2 m=2021$. Pierādīt, ka visu šādu 
+funkciju grafiki krustojas vienā punktā!
 
 ## Atrisinājums
 
-Aplūkojam funkcijas $y=b x-71+m$ vērtību, ja argumenta vērtība $x=\frac{1}{2}$:
+Aplūkojam funkcijas $y=b x-71+m$ vērtību, ja argumenta vērtība 
+$x=\frac{1}{2}$:
 
 $$y=\frac{1}{2} b-71+m=\frac{1}{2}(b+2 m)-71=\frac{1}{2} \cdot 2021-71=1010 \frac{1}{2}-71=939 \frac{1}{2}.$$
 
-Esam ieguvuši, ka argumenta vērtībai $\frac{1}{2}$ jebkuras dotās funkcijas vērtība būs 
-$939 \frac{1}{2}$. Tātad visas dotās taisnes krustojas punktā $\left(\frac{1}{2}; 939\frac{1}{2}\right)$.
+Esam ieguvuši, ka argumenta vērtībai $\frac{1}{2}$ jebkuras dotās 
+funkcijas vērtība būs $939 \frac{1}{2}$. 
+Tātad visas dotās taisnes krustojas punktā 
+$\left(\frac{1}{2}; 939\frac{1}{2}\right)$.
 
 
 
 # <lo-sample/> LV.NOL.2021.8.2
 
-Kādus pirmskaitlus var izteikt formā
+Kādus pirmskaitļus var izteikt formā
 
 $$|n-1|+|n-2|+|n-3|+|n-4|+|n-5|+|n-6|+|n-7|,$$
 
@@ -2381,7 +2599,8 @@ $$\begin{gathered}
 
 Visi skaitļi šādā formā nav pirmskaitlli, jo tos var sadalīt reizinātājos.
 
-Ja $n \leq 1$, tad dotajā izteiksmē visas zemmoduļu izteiksmes ir negatīvas vai 0 , tāpēc to var pārrakstīt kā
+Ja $n \leq 1$, tad dotajā izteiksmē visas zemmoduļu izteiksmes 
+ir negatīvas vai $0$, tāpēc to var pārrakstīt kā
 
 $$\begin{gathered}
 |n-1|+|n-2|+|n-3|+|n-4|+|n-5|+|n-6|+|n-7|= \\
@@ -2392,7 +2611,7 @@ Visi skaitli šādā formā nav pirmskaitļi, jo tos var sadalīt reizinātājos
 
 Apskatīsim atlikušās $n$ vērtības.
 
-- Ja $n=2$, dotajā izteiksmē $n$ vietā ievieto 2 un iegūst
+- Ja $n=2$, dotajā izteiksmē $n$ vietā ievieto $2$ un iegūst
 
 $$\begin{gathered}
 |2-1|+|2-2|+|2-3|+|2-4|+|2-5|+|2-6|+|2-7|= \\
@@ -2401,7 +2620,7 @@ $$\begin{gathered}
 
 Skaitlis $15$ nav pirmskaitlis.
 
-- Ja $n=3$, dotajā izteiksmē $n$ vietā ievieto 3 un iegūst
+- Ja $n=3$, dotajā izteiksmē $n$ vietā ievieto $3$ un iegūst
 
 $$\begin{gathered}
 |3-1|+|3-2|+|3-3|+|2-4|+|3-5|+|3-6|+|3-7|= \\
@@ -2410,7 +2629,7 @@ $$\begin{gathered}
 
 Skaitlis $13$ ir pirmskaitlis.
 
-- Ja $n=4$, dotajā izteiksmē $n$ vietā ievieto 4 un iegūst
+- Ja $n=4$, dotajā izteiksmē $n$ vietā ievieto $4$ un iegūst
 
 $$\begin{gathered}
 |4-1|+|4-2|+|4-3|+|4-4|+|4-5|+|4-6|+|4-7|= \\
@@ -2419,7 +2638,7 @@ $$\begin{gathered}
 
 Skaitlis $12$ nav pirmskaitlis.
 
-- Ja $n=5$, dotajā izteiksmē $n$ vietā ievieto 5 un iegūst
+- Ja $n=5$, dotajā izteiksmē $n$ vietā ievieto $5$ un iegūst
 
 $$\begin{gathered}
 |5-1|+|5-2|+|5-3|+|5-4|+|5-5|+|5-6|+|5-7|= \\
@@ -2446,7 +2665,8 @@ var izteikt prasītajā formā.
 
 # <lo-sample/> LV.NOL.2021.8.3
 
-Trijstūrī $A B C$ novilkta bisektrise $A E$. Uz taisnes $A E$ atlikts punkts $D$, 
+Trijstūrī $A B C$ novilkta bisektrise $A E$. 
+Uz taisnes $A E$ atlikts punkts $D$, 
 tā ka $A D=A B+A C$ un punkts $E$ atrodas starp punktiem $A$ un $D$. 
 Pierādīt, ka $\triangle B C D$ ir vienādmalu trijstūris, ja zināms, ka $\Varangle B A C=120^{\circ}$.
 
@@ -2458,19 +2678,18 @@ Atliekam uz taisnes $A D$ tādu punktu $G$, ka $A G=A B$ un $G D=A C$ (skat. 11.
 
 Ievērojam, ka $\triangle C A B=\triangle D G B$ pēc pazīmes m \ell m :
 
-- $D G=C A$ pēc konstrukcijas,
+- $DG=CA$ pēc konstrukcijas,
+- $\Varangle DGB=180^{\circ}-\Varangle AGB=120=\Varangle CAB$,
+- $GB=AB$ pēc iepriekš pierādītā.
 
-○ $\Varangle D G B=180^{\circ}-\Varangle A G B=120=\Varangle C A B$,
+Tā kā vienādos trijstūros attiecīgie lielumi ir vienādi, tad $BD=BC$.
+Līdzīgi, atliekot uz $AD$ tādu punktu $M$, ka $AM=AC$ un 
+$MD=AB$, pierāda, ka $BC=CD$.
 
-- $G B=A B$ pēc iepriekš pierādītā.
+Līdz ar to esam pierādījuši, ka $BC=BD=CD$. 
+Tātad trijstūris $BCD$ ir vienādmalu.
 
-Tā kā vienādos trijstūros attiecīgie lielumi ir vienādi, tad $B D=B C$.
-
-Līdzīgi, atliekot uz $A D$ tādu punktu $M$, ka $A M=A C$ un $M D=A B$, pierāda, ka $B C=C D$.
-
-Līdz ar to esam pierādījuši, ka $B C=B D=C D$. Tātad trijstūris $B C D$ ir vienādmalu.
-
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-38.jpg?height=637&width=626&top_left_y=928&top_left_x=782)
+![](LV.NOL.2021.8.3A.png){ width=200px }
 
 
 
@@ -2520,25 +2739,31 @@ bet tādā gadījumā visas darbības ir jāpaskaidro.
 Vai var gadities, ka 1.att. ir doti funkciju $y=a x^{2}+b x+c$ un 
 $y=b x^{2}+c x+a$ grafiki? Funkciju grafiki nav zīmēti mērogā.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-40.jpg?height=519&width=569&top_left_y=206&top_left_x=732)
+![](LV.NOL.2021.9.2.png){ width=150px }
 
 
 ## Atrisinājums
 
-Nē, nevar gadīties. Tā kā parabolu zari vērsti uz augšu, tad $a>0$ un $b>0$. 
-Abi grafiki krusto $y$ asi punktos, kuru ordinātas ir pozitīvas, tāpēc $a>0$ un $c>0$.
+Nē, nevar gadīties. Tā kā parabolu zari vērsti uz augšu, 
+tad $a>0$ un $b>0$. 
+Abi grafiki krusto $y$ asi punktos, kuru ordinātas ir 
+pozitīvas, tāpēc $a>0$ un $c>0$.
 
 Tālāk risinājumu var turpināt trīs veidos.
 
 **1. veids.** Apskatām abu parabolu virsotņu $x$ koordinātas:
 
-- funkcijai $y=a x^{2}+b x+c$ virsotnes $x$ koordināta ir $x_{v}=-\frac{b}{2 a}<0$, jo $a>0$ un $b>0$;
-- funkcijai $y=b x^{2}+c x+a$ virsotnes $x$ koordināta ir $x_{v}=-\frac{c}{2 b}<0$, jo $b>0$ un $c>0$.
+- funkcijai $y=a x^{2}+b x+c$ virsotnes $x$ koordināta ir 
+  $x_{v}=-\frac{b}{2 a}<0$, jo $a>0$ un $b>0$;
+- funkcijai $y=b x^{2}+c x+a$ virsotnes $x$ koordināta ir 
+  $x_{v}=-\frac{c}{2 b}<0$, jo $b>0$ un $c>0$.
 
 Iegūta pretruna, jo 1. att. zalajai parabolai (tai, kura krusto $x$ asi) virsotnes koordināta $x_{v}>0$.
 
-**2. veids.** Ievērosim, ka zalajaai parabolai (tai, kura krusto $x$ asi) ir divas pozitīvas saknes. 
-Bet kvadrātvienādojumam, kam visi trīs koeficienti ir pozitīvi, nevar būt pozitīvas saknes 
+**2. veids.** Ievērosim, ka zalajaai parabolai (tai, 
+kura krusto $x$ asi) ir divas pozitīvas saknes. 
+Bet kvadrātvienādojumam, kam visi trīs koeficienti ir 
+pozitīvi, nevar būt pozitīvas saknes 
 (ja $A,B,C>0$, tad $Ax^{2}+Bx+C>0$ visiem pozitīviem $x$).
 
 **3. veids.** Ievērosim, ka zaļajai parabolai (tai, kura krusto $x$ asi) ir 
@@ -2572,7 +2797,7 @@ x=\frac{1}{4}
 
 Līdz ar to $S_{CED}=\frac{1}{2} ED \cdot CD=\frac{1}{2}(1-x) \cdot 1=\frac{1}{2} \cdot \frac{3}{4}=\frac{3}{8}$.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-41.jpg?height=417&width=397&top_left_y=637&top_left_x=881)
+![](LV.NOL.2021.9.3A.png){ width=150px }
 
 
 
@@ -2709,7 +2934,7 @@ Trijstūriem $E H G$ un $G H D$ ir kopīgs augstums, tāpēc to laukumu attiecī
 
 Līdz ar to $S_{G H D}=\frac{4}{5} S_{E H D}=\frac{4}{5} \cdot \frac{1}{6}=\frac{2}{15}$ un simetrijas dē! $S_{D G H I}=2 \cdot \frac{2}{15}=\frac{4}{15}$.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-46.jpg?height=400&width=440&top_left_y=1108&top_left_x=862)
+![](LV.NOL.2021.10.3A.png){ width=150px }
 
 
 
@@ -2732,9 +2957,9 @@ $$
 
 Simetrijas dēl $S_{D G H I}=2 \cdot \frac{2}{15}=\frac{4}{15}$.
 
-*Piezīme.* Var pamatot un izmantot, ka $E D \perp A F$.
+*Piezīme.* Var pamatot un izmantot, ka $ED \perp AF$.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-47.jpg?height=531&width=463&top_left_y=811&top_left_x=842)
+![](LV.NOL.2021.10.3B.png){ width=150px }
 
 
 
@@ -2751,7 +2976,7 @@ Pierādīt, ka nevienai naturālai $n$ vērtībai izteiksmes $n^{2}-n+36$ vērt�
 
 **(A)** Ievērojam, ka $165=3 \cdot 5 \cdot 11$. Pamatosim, ka dotā izteiksme nedalās ar $5$.
 
-| $\boldsymbol{n}(\bmod 5)$ | $\boldsymbol{n}^{\mathbf{2}}(\bmod 5)$ | $\boldsymbol{n}^{\mathbf{2}}-\boldsymbol{n}+\mathbf{3 6}(\bmod 5)$ |
+| $n \pmod 5$ | $n^2 \pmod 5$ | $n^2 - n + 36 \pmod 5$ |
 | :---: | :---: | :---: |
 | $\mathbf{0}$ | 0 | $0-0+36 \equiv 1$ |
 | $\mathbf{1}$ | 1 | $1-1+36 \equiv 1$ |
@@ -2759,11 +2984,14 @@ Pierādīt, ka nevienai naturālai $n$ vērtībai izteiksmes $n^{2}-n+36$ vērt�
 | $\mathbf{3}$ | $9 \equiv 4$ | $4-3+36=37 \equiv 2$ |
 | $\mathbf{4}$ | $16 \equiv 1$ | $1-4+36=33 \equiv 3$ |
 
-Esam ieguvuši, ka izteiksme $n^{2}-n+36$ nedalās ar 5 (jo tā ir kongruenta ar 1, 2 vai 3 pēc moduļa 5), tātad tā nedalās arī ar 165 .
+Esam ieguvuši, ka izteiksme $n^{2}-n+36$ nedalās ar $5$ 
+(jo tā ir kongruenta ar $1$, $2$ vai $3$ pēc moduļa $5$), 
+tātad tā nedalās arī ar $165$.
 
-Piezīme. Kongruenču vietā var apskatīt skaitlus $n$ formā $5 k ; 5 k+1 ; 5 k+2 ; 5 k+3 ; 5 k+4$, kur $k=0 ; 1 ; 2 ; \ldots$, un pierādīt, ka dotā izteiksme nedalās ar 5 .
+Piezīme. Kongruenču vietā var apskatīt skaitlus $n$ formā 
+$5k; 5k+1; 5k+2; 5k+3; 5k+4$, kur $k=0;1;2;\ldots$, un pierādīt, ka dotā izteiksme nedalās ar $5$.
 
-Piemēram, ja $n=5 k+1$, tad
+Piemēram, ja $n=5k+1$, tad
 
 $$
 n^{2}-n+36=(5 k+1)^{2}-(5 k+1)+36=25 k^{2}+10 k+1-5 k-1+36=5\left(5 k^{2}+k+7\right)+1
@@ -2776,9 +3004,10 @@ Līdzīgi apskata citus gadīumus.
 
 **(A)** Ievērojam, ka $165=3 \cdot 5 \cdot 11$ un ka visām $n$ vērtībām izteiksme 
 $n^{2}-n=n(n-1)$ ir pāra skaitlis kā divu secīgu skaitļu reizinājums. Tā kā reizinājuma 
-pēdējo ciparu nosaka katra reizinātāj pēdējais cipars, tad apskatām visas iespējas.
+pēdējo ciparu nosaka katra reizinātāja pēdējais cipars, 
+tad apskatām visas iespējas.
 
-| $\boldsymbol{n}-\mathbf{1}$ pēdējais <br> cipars | n pēdējais <br> cipars | n(n-1) <br> pēdējais cipars | $\boldsymbol{n}^{\mathbf{2}}-\boldsymbol{n}+\mathbf{3 6}$ <br> pēdējais cipars |
+| $n-1 \pmod {10}$ | $n \pmod {10}$ | $n(n-1) \pmod {10}$ | $n^2 -n + 36 \pmod {10}$ |
 | :---: | :---: | :---: | :---: |
 | 0 | 1 | 0 | 6 |
 | 1 | 2 | 2 | 8 |
@@ -2791,11 +3020,23 @@ pēdējo ciparu nosaka katra reizinātāj pēdējais cipars, tad apskatām visas
 | 8 | 9 | 2 | 8 |
 | 9 | 0 | 0 | 6 |
 
-Nevienā no gadījumiem izteiksmes $n^{2}-n+36$ pēdējais cipars nav ne 0 , ne 5 , tātad dotā izteiksme nedalās ar 5 , līdz ar to tā nedalās arī ar 165.
+Nevienā no gadījumiem izteiksmes $n^{2}-n+36$ pēdējais cipars nav ne $0$, 
+ne $5$, tātad dotā izteiksme nedalās ar $5$, 
+līdz ar to tā nedalās arī ar $165$.
 
-b) Pārveidojam izteiksmi formā $n^{2}-n+36=(n-7)^{2}+13(n-1)$. Ja izteiksme dalītos ar 169, tad tā dalītos arī ar 13 , jo $169=13^{2}$. Tā kā pārveidotās izteiksmes otrais saskaitāmais jau dalās ar 13 , tad arī pirmajam saskaitāmajam $(n-7)^{2}$ jādalās ar 13. Tā kā 13 ir pirmskaitlis, tad $n-7$ ir jādalās ar 13. Bet tad $(n-7)^{2}$ dalās ar 169. Lai ar 169 dalītos visa sākotnējā izteiksme, tad arī $n-1$ ir jādalās ar 13.
+b) Pārveidojam izteiksmi formā $n^{2}-n+36=(n-7)^{2}+13(n-1)$. 
+Ja izteiksme dalītos ar 169, tad tā dalītos arī ar $13$, 
+jo $169=13^{2}$. Tā kā pārveidotās izteiksmes otrais saskaitāmais 
+jau dalās ar $13$, tad arī pirmajam saskaitāmajam $(n-7)^{2}$ 
+jādalās ar $13$. Tā kā 13 ir pirmskaitlis, tad $n-7$ ir 
+jādalās ar $13$. Bet tad $(n-7)^{2}$ dalās ar $169$. 
+Lai ar $169$ dalītos visa sākotnējā izteiksme, 
+tad arī $n-1$ ir jādalās ar $13$.
 
-Esam ieguvuši, ka vienlaikus gan $n-7$, gan $n-1$ jādalās ar 13. Bet tad arī šo skaitlu starpībai $(n-1)-(n-7)=6$ būtu jādalās ar 13 , kas nav iespējams. Esam ieguvuši pretrunu, tātad dotā izteiksme nevienai $n$ vērtībai ar 169 nedalās.
+Esam ieguvuši, ka vienlaikus gan $n-7$, gan $n-1$ jādalās ar $13$. 
+Bet tad arī šo skaitlu starpībai $(n-1)-(n-7)=6$ būtu jādalās ar $13$, 
+kas nav iespējams. Esam ieguvuši pretrunu, tātad dotā 
+izteiksme nevienai $n$ vērtībai ar 169 nedalās.
 
 
 
@@ -2810,7 +3051,7 @@ rindā augošā secībā, tad 146. un 376. skaitļu summa būtu lielāka nekā $
 
 ## Atrisinājums
 
-Apzīmējam visus skait|us augošā secībā ar $a_{1} ; a_{2} ; \ldots ; a_{500}$. Vispirms pierādīsim, ka $a_{125}+a_{376}>2000$. Pienemsim pretējo, ka $a_{125}+a_{376} \leq 2000$. Tas nozīmē, ka katrs no 125 skaitlliem $a_{1} ; a_{2} ; \ldots ; a_{125}$ sākumā varēja būt pārī tikai ar kādu no skaitļiem, kas ir lielāks nekā $a_{376}$. Bet tādu skaitlu ir tikai 124 ( $\left.a_{377} ; a_{378} ; \ldots ; a_{500}\right)$ - pretruna.
+Apzīmējam visus skait|us augošā secībā ar $a_{1} ; a_{2} ; \ldots ; a_{500}$. Vispirms pierādīsim, ka $a_{125}+a_{376}>2000$. Pienemsim pretējo, ka $a_{125}+a_{376} \leq 2000$. Tas nozīmē, ka katrs no 125 skaitlliem $a_{1} ; a_{2} ; \ldots ; a_{125}$ sākumā varēja būt pārī tikai ar kādu no skaitļiem, kas ir lielāks nekā $a_{376}$. Bet tādu skaitļu ir tikai 124 ($a_{377};a_{378};\ldots; a_{500}$) - pretruna.
 
 Tā kā visi dotie skaitļi ir dažādi un naturāli, tad
 
@@ -2826,9 +3067,12 @@ Tātad $a_{146}+a_{376} \geq a_{125}+a_{376}+21>2000+21=2021$.
 
 # <lo-sample/> LV.NOL.2021.11.1
 
-Dota aritmētiskā progresija un ǵeometriskā progresija, kurām abām pirmais loceklis ir $2$. 
-Aritmētiskās progresijas otrais loceklis ir par $0.25$ lielāks nekā ǵeometriskās progresijas 
-otrais loceklis, bet trešais loceklis abām progresijām ir vienāds. Aprēķināt aritmētiskās 
+Dota aritmētiskā progresija un ǵeometriskā progresija, 
+kurām abām pirmais loceklis ir $2$. 
+Aritmētiskās progresijas otrais loceklis ir par $0.25$ 
+lielāks nekā ǵeometriskās progresijas 
+otrais loceklis, bet trešais loceklis abām progresijām ir 
+vienāds. Aprēķināt aritmētiskās 
 progresijas pirmo piecu locekļu summu.
 
 
@@ -2845,22 +3089,18 @@ $a_{2}=a_{1}+d=2+d$ un $a_{3}=a_{2}+d=2+2 d$;
 
 Līdz ar to iegūstam vienādojumu sistēmu (no vienādībām $a_{2}=b_{2}+0,25$ un $a_{3}=b_{3}$ ):
 
-$$
-\left\{\begin{array}{l}
+$$\left\{\begin{array}{l}
 2+d=2 q+0,25 \\
 2+2 d=2 q^{2}
-\end{array}\right.
-$$
+\end{array}\right.$$
 
 No pirmā vienādojuma izsakot $d=2 q-1,75$ un ievietojot to otrajā vienādojumā, iegūstam
 
-$$
-\begin{gathered}
+$$\begin{gathered}
 2+2(2 q-1,75)=2 q^{2} \\
 2 q^{2}-4 q+1,5=0 \\
 4 q^{2}-8 q+3=0
-\end{gathered}
-$$
+\end{gathered}$$
 
 Vienādojuma saknes ir $q_{1}=\frac{8+\sqrt{16}}{8}=\frac{12}{8}=1,5$ un $q_{1}=\frac{8-4}{8}=0,5$.
 
@@ -2868,17 +3108,15 @@ Attiecīgi $d_{1}=3-1,75=1,25$ un $d_{2}=1-1,75=-0,75$.
 
 Apskatām abus gadijumus:
 
-○ ja $d=1,25$, tad aritmētiskās progresijas pirmo piecu locek!u $(2 ; 3,25 ; 4,5 ; 5,75 ; 7)$ summa ir
+* ja $d=1.25$, tad aritmētiskās progresijas pirmo piecu locekļu 
+  $(2; 3.25; 4.5; 5.75; 7)$ summa ir
 
-$$
-S_{5}=\frac{2 a_{1}+4 d}{2} \cdot 5=\frac{2 \cdot 2+4 \cdot 1,25}{2} \cdot 5=\frac{4+5}{2} \cdot 5=22,5
-$$
+  $$S_{5}=\frac{2 a_{1}+4 d}{2} \cdot 5=\frac{2 \cdot 2+4 \cdot 1.25}{2} \cdot 5=\frac{4+5}{2} \cdot 5=22.5$$
 
-- ja $d=-0,75$, tad aritmētiskās progresijas pirmo piecu loceklu (2; 1,25; 0,$5 ;-0,25 ;-1)$ summa ir
+* ja $d=-0,75$, tad aritmētiskās progresijas pirmo piecu loceklu 
+  $(2; 1.25; 0.5; -0.25;-1)$ summa ir
 
-$$
-S_{5}=\frac{2 a_{1}+4 d}{2} \cdot 5=\frac{2 \cdot 2+4 \cdot(-0,75)}{2} \cdot 5=\frac{4-3}{2} \cdot 5=2,5
-$$
+$$S_{5}=\frac{2 a_{1}+4 d}{2} \cdot 5=\frac{2 \cdot 2+4 \cdot(-0.75)}{2} \cdot 5=\frac{4-3}{2} \cdot 5=2.5.$$
 
 
 
@@ -2891,18 +3129,20 @@ No ǵeometriskās progresijas $2 ; b_{2} ; b_{3}$, iegūstam sakarības $\frac{b
 
 Sastādām vienādojumu $2 a_{2}-2=\frac{b_{2}^{2}}{2}$.
 
-Ja $b_{2}=x$, tad $a_{2}=x+0,25$, līdz ar to esam ieguvuši vienādojumu
+Ja $b_{2}=x$, tad $a_{2}=x+0.25$, līdz ar to esam ieguvuši vienādojumu
 
 $$\begin{gathered}
 2(x+0,25)-2=\frac{x^{2}}{2} \\
 x^{2}-4 x+3=0
 \end{gathered}$$
 
-kura saknes ir $x_{1}=1$ un $x_{2}=3$. Tad $a_{2}=1,25$ un $a_{2}=3,5$. Līdz ar to diferences ir 
-$d_{1}=-0,75$ un $d_{2}=1,5$. Apskatām abus gadijumus:
+kura saknes ir $x_{1}=1$ un $x_{2}=3$. Tad $a_{2}=1.25$ un $a_{2}=3.5$. Līdz ar to diferences ir 
+$d_{1}=-0.75$ un $d_{2}=1.5$. Apskatām abus gadijumus:
 
-- ja $d=1,25$, tad aritmētiskās progresijas pirmo piecu locekļu $(2 ; 3,25 ; 4,5 ; 5,75 ; 7)$ summa ir $S_{5}=2+3,25+4,5+5,75+7=22,5$
-- ja $d=-0,75$, tad aritmētiskās progresijas pirmo piecu locekļu $(2 ; 1,25 ; 0,5 ;-0,25 ;-1)$ summa ir $S_{5}=2+1,25+0,5-0,25-1=2,5$.
+- ja $d=1.25$, tad aritmētiskās progresijas pirmo piecu locekļu 
+  $(2; 3.25; 4.5; 5.75; 7)$ summa ir $S_{5}=2+3.25+4.5+5.75+7=22.5$
+- ja $d=-0.75$, tad aritmētiskās progresijas pirmo piecu locekļu 
+  $(2; 1.25; 0.5; -0.25; -1)$ summa ir $S_{5}=2+1.25+0.5-0.25-1=2.5$.
 
 
 
@@ -2910,7 +3150,8 @@ $d_{1}=-0,75$ un $d_{2}=1,5$. Apskatām abus gadijumus:
 
 # <lo-sample/> LV.NOL.2021.11.2
 
-Doti tādi skaitļi $a, b$ un $c$, ka $a+c=\frac{b}{2021}$, turklāt neviens no skaitļiem 
+Doti tādi skaitļi $a, b$ un $c$, ka $a+c=\frac{b}{2021}$, 
+turklāt neviens no skaitļiem 
 $a, b, c$ nav $0$. Pierādīt, ka vienādojumam $a x^{2}+b x+c=0$ ir sakne, 
 kas atrodas intervālā $[-1 ; 1]$.
 
@@ -2938,18 +3179,21 @@ Divi vienādi vienādsānu trijstūri $A B C$ un $D E F(A B=A C=D E=D F$ un $B C
 krustojoties veido četrstūri $P Q R S$ (skat. 5. att.), 
 kuram var apvilkt riņka līniju. Pierādīt, ka divi no četrstūra $PQRS$ leņkiem ir taisni.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-52.jpg?height=466&width=476&top_left_y=218&top_left_x=790)
+![](LV.NOL.2021.11.3.png){ width=200px }
 
 
 ## Atrisinājums
 
 No trijstūriem ASR un $D P S$ attiecīgi iegūstam, ka
 
-○ $\Varangle A R S=180^{\circ}-\Varangle P S R-\Varangle S A R$;
+* $\Varangle A R S=180^{\circ}-\Varangle P S R-\Varangle S A R$;
+* $\Varangle D P S=180^{\circ}-\Varangle P S R-\Varangle P D S$.
 
-○ $\Varangle D P S=180^{\circ}-\Varangle P S R-\Varangle P D S$.
-
-Pēc dotā $\Varangle S A R=\Varangle P D S$ (jo trijstūri ir vienādi), tad arī $\Varangle A R S=\Varangle D P S$. Tā kā četrstūrim $P Q R S$ var apvilkt riņka līiju, tad $\Varangle A R S+\Varangle D P S=180^{\circ}$, tātad $\Varangle A R S=\Varangle D P S=90^{\circ}$.
+Pēc dotā $\Varangle SAR=\Varangle PDS$ 
+(jo trijstūri ir vienādi), tad arī $\Varangle ARS=\Varangle DPS$. 
+Tā kā četrstūrim $PQRS$ var apvilkt riņka līiju, tad 
+$\Varangle ARS+\Varangle DPS=180^{\circ}$, 
+tātad $\Varangle ARS=\Varangle DP S=90^{\circ}$.
 
 
 
@@ -2975,10 +3219,19 @@ Tātad mazākais tīri jaukais skaitlis ir 22, un divu tīri jauko skait|u summa
 
 Pierādīsim, ka visi skaitli, kas lielāki vai vienādi ar 44, ir tīr jauki.
 
-- Visus pāra skaitlus, kas ir lielāki vai vienādi ar 22 , var uzrakstīt formā $2 \cdot p+3 \cdot 4$, kur $p \geq 5$. Tā kā visi četri skaitli 2, 3,4 un $p$ ir dažādi, tad visi pāra skaitli, kas ir vismaz 22, ir tīri jauki.
-- Visus nepāra skaitlus, kas ir lielāki vai vienādi ar 27 , var uzrakstīt formā $2 \cdot p+3 \cdot 5$, kur $p \geq 6$. Tā kā visi četri skaitļi 2, 3, 5 un $p$ ir dažādi, tad visi nepāra skaitli, kas ir vismaz 27, ir tīri jauki.
+- Visus pāra skaitlus, kas ir lielāki vai vienādi ar $22$, 
+  var uzrakstīt formā $2 \cdot p+3 \cdot 4$, kur $p \geq 5$. 
+  Tā kā visi četri skaitļi $2$, $3$, $4$ un $p$ ir dažādi, tad visi pāra skaitli, kas ir vismaz 22, ir tīri jauki.
+- Visus nepāra skaitlus, kas ir lielāki vai vienādi ar $27$, 
+  var uzrakstīt formā $2 \cdot p+3 \cdot 5$, kur $p \geq 6$. 
+  Tā kā visi četri skaitļi $2$, $3$, $5$ un $p$ ir dažādi, 
+  tad visi nepāra skaitli, kas ir vismaz $27$, ir tīri jauki.
 
-Tātad visi skaitli, kas lielāki vai vienādi ar 27, ir tīri jauki. Līdz ar to arī visi skaitli, kas lielāki vai vienādi ar 44, ir tīri jauki un esam pierādijuši, ka jebkuru divu tīri jauku skaitlu summa arī ir tīri jauks skaitlis.
+Tātad visi skaitli, kas lielāki vai vienādi ar $27$, 
+ir tīri jauki. Līdz ar to arī visi skaitļi, kas lielāki 
+vai vienādi ar $44$, ir tīri jauki un esam pierādijuši, 
+ka jebkuru divu tīri jauku skaitlu summa arī ir tīri 
+jauks skaitlis.
 
 
 
@@ -2987,7 +3240,7 @@ Tātad visi skaitli, kas lielāki vai vienādi ar 27, ir tīri jauki. Līdz ar t
 # <lo-sample/> LV.NOL.2021.11.5
 
 Šaha turnīrā katrs dalībnieks ar katru izspēlēja tieši vienu partiju. Katrā partijā par uzvaru 
-tiek pieškirts 1 punkts, par neizškirtu tiek piešķirti $0.5$ punkti, par zaudējumu - $0$ punkti. 
+tiek pieškirts $1$ punkts, par neizškirtu tiek piešķirti $0.5$ punkti, par zaudējumu - $0$ punkti. 
 Turnīra beigās izrādijās, ka katra dalībnieka uzvaru skaits nepārsniedz tā neizšķirtu 
 skaitu un nav divu dalībnieku, kuri kopsummā būtu ieguvuši vienādu punktu skaitu. 
 Vai iespējams, ka turnīrā piedalījās **(A)** $15$ dalībnieki, **(B)** $16$ dalībnieki?
@@ -2997,30 +3250,14 @@ Vai iespējams, ka turnīrā piedalījās **(A)** $15$ dalībnieki, **(B)** $16$
 ## Atrisinājums
 
 **(A)** Jā, ir iespējams. Apzīmējam dalībniekus ar $d_{1}, d_{2}, \ldots, d_{15}$, 
-tad iespējams, ka dalībnieks $d_{1}$ ir ieguvis 3,5 punktus, $d_{2}-4$ punktus, ..., $d_{15}$ 
-ir ieguvis 10,5 punktus. Tas iespējams, ja viņi ir spēlējuši, piemēram, šādi (skat. tabulu). 
+tad iespējams, ka dalībnieks $d_{1}$ ir ieguvis $3.$ punktus, $d_{2}-4$ punktus, $\ldots$, $d_{15}$ 
+ir ieguvis $10.5$ punktus. Tas iespējams, ja viņi ir spēlējuši, piemēram, šādi (skat. tabulu). 
 Partijas, kurās spēlē dalībnieki ar dažādas paritātes numuriem, ir beigušās neizšķirti, 
 bet partijās, kurās spēē dalībnieki ar vienādas paritātes numuriem, ir uzvarējis dalībnieks 
 ar lielāko numuru. Redzams, ka katrs dalībnieks vismaz pusi partiju ir spēlējis neizšķirti, 
 tātad tā uzvaru skaits nepārsniedz neizšķirtu skaitu.
 
-|  | $d_{1}$ | $d_{2}$ | $d_{3}$ | $\boldsymbol{a}$ | $\boldsymbol{u}$ | $a_{6}$ | $a_{7}$ | $d_{8}$ |  | 10 |  | $a_{12}$ | $a_{13}$ |  |  | ras | Neizškirts | Punkti |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $d_{1}$ |  | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0 | 7 | 3,5 |
-| $d_{2}$ | 0,5 |  | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 8 | 4 |
-| $d_{3}$ | 1 | 0,5 |  | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 1 | 7 | 4,5 |
-| $d_{4}$ | 0,5 | 1 | 0,5 |  | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 1 | 8 | 5 |
-| $d_{5}$ | 1 | 0,5 | 1 | 0,5 |  | 0,5 | 0 | 0,5 | - | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 2 | 7 | b,b |
-| $d_{6}$ | 0,5 | 1 | 0,5 | 1 | 0,5 |  | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 2 | 8 | 0 |
-| $d_{7}$ | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 |  | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 3 | 7 | 6,5 |
-| $d_{\mathbf{8}}$ | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 |  | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 0,5 | 3 | 8 | 7 |
-| $d_{9}$ | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 |  | 0,5 | 0 | 0,5 | 0 | 0,5 | 0 | 4 | 7 | 7,5 |
-| $d_{10}$ | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 |  | 0,5 | 0 | 0,5 | 0 | 0,5 | 4 | 8 | 8 |
-| $d_{11}$ | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 |  | 0,5 | 0 | 0,5 | 0 | 5 | 7 | 8,5 |
-| $d_{12}$ |  | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 |  | 0,5 | 0 | 0,5 | 5 | $\varepsilon$ | 9 |
-| 13 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 |  | 0,5 | 0 | 6 | 7 | 9,5 |
-| 4 |  | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 |  | 0,5 | 6 | $\varepsilon$ | 10 |
-| $d_{15}$ |  | 0,5 | 1 | 0,5 |  | 0,5 |  | 0,5 | 1 | 0,5 | 1 | 0,5 | 1 | 0,5 |  | 7 | 7 | 10,5 |
+![](LV.NOL.2021.11.5A.png){ width=400px }
 
 **(B)** Nē, nav iespējams. Apzīmēsim dalībnieku iegūto punktu skaitu augošā secībā ar 
 $a_{1}, a_{2}, \ldots, a_{16}$. levērojam, ka $a_{16} \leq 11$ ( 7 uzvaras un 8 neizškirti), 
@@ -3035,29 +3272,38 @@ viens punkts, tātad kopējam punktu skaitam jābūt tieši $120$, iegūta pretr
 
 # <lo-sample/> LV.NOL.2021.12.1
 
-Pa 4,5 km garu trasi, kurai ir riņka līnijas forma, ar sniega motocikliem brauc 
-Māris un Mārtiņš. Māris sekundē nobrauc par $1$ metru vairāk nekā Mārtiņš, tāpēc visu 
-trasi veic par $50$ sekundēm ātrāk nekā Mārtiņš. Ar kādu ātrumu brauc Māris un Mārtiņš?
+Pa $4.5~\mathrm{km}$ garu trasi, kurai ir riņka līnijas forma, 
+ar sniega motocikliem brauc 
+Māris un Mārtiņš. Māris sekundē nobrauc par $1$ metru vairāk 
+nekā Mārtiņš, tāpēc visu 
+trasi veic par $50$ sekundēm ātrāk nekā Mārtiņš. 
+Ar kādu ātrumu brauc Māris un Mārtiņš?
 
 
 
 ## Atrisinājums
 
-Ar $x$ apzīmējam ātrumu, ar kādu brauc Māris, tad Mārtiņa braukšanas ātrums ir $x-1$. 
-Māris trasi veica $\frac{4500}{x}$ sekundēs, bet Mārtiņš trasi veica $\frac{4500}{x-1}$ sekundēs. 
-Tā kā Māris nobrauca trasi par $50$ sekundēm ātrāk nekā Mārtiņš, tad iegūstam vienādojumu
+Ar $x$ apzīmējam ātrumu, ar kādu brauc Māris, tad Mārtiņa 
+braukšanas ātrums ir $x-1$. 
+Māris trasi veica $\frac{4500}{x}$ sekundēs, bet Mārtiņš 
+trasi veica $\frac{4500}{x-1}$ sekundēs. 
+Tā kā Māris nobrauca trasi par $50$ sekundēm ātrāk 
+nekā Mārtiņš, tad iegūstam vienādojumu
 
 $$\frac{4500}{x-1}-\frac{4500}{x}=50$$
 
-Reizinot abas vienādojuma puses ar $\frac{1}{50} x(x-1) \neq 0$, iegūstam vienādojumu
+Reizinot abas vienādojuma puses ar 
+$\frac{1}{50} x(x-1) \neq 0$, iegūstam vienādojumu
 
 $$\begin{gathered}
 90 x-90(x-1)=x(x-1) \\
 x^{2}-x-90=0
 \end{gathered}$$
 
-kura saknes ir $x_{1}=10$ un $x_{2}=-9$ (neder). Esam ieguvuši, ka Māris brauca ar ātrumu 
-$10 \mathrm{~m} / \mathrm{s}$ un Mārtiņ̌ brauca ar ātrumu $9 \mathrm{~m} / \mathrm{s}$.
+kura saknes ir $x_{1}=10$ un $x_{2}=-9$ (neder). 
+Esam ieguvuši, ka Māris brauca ar ātrumu 
+$10~\mathrm{m}/\mathrm{s}$ un Mārtiņš brauca ar ātrumu 
+$9~\mathrm{m}/\mathrm{s}$.
 
 *Piezīmes*
 
@@ -3068,7 +3314,7 @@ $$\frac{4500}{y-50}-\frac{4500}{y}=1$$
 kura saknes ir $y_{1}=-450$ (neder) un $y_{2}=500$ sekundes. Pēc tam aprēķina braucēju ātrumus.
 
 2. Ja ātrumu rēķina $\mathrm{km} / \mathrm{h}$, tad braucēju ātrumi attiecīgi ir 
-$36 \mathrm{~km} / \mathrm{h}$ un $32,4 \mathrm{~km} / \mathrm{h}$.
+$36~\mathrm{km}/\mathrm{h}$ un $32.4~\mathrm{km}/\mathrm{h}$.
 
 
 
@@ -3080,7 +3326,7 @@ Dots, ka $8ac + 2bc + c^{2}<0$. Pierādīt, ka $b^{2}-8 a c>0$.
 
 ## Atrisinājums
 
-Aplūkojam kvadrātfunkciju $f(x)=2 a x^{2}+b x+c$. levērojam, ka
+Aplūkojam kvadrātfunkciju $f(x)=2 a x^{2}+b x+c$. Ievērojam, ka
 
 $$8ac + 2bc + c^{2} = c(8a+2b+c) = f(0) \cdot f(2)$$
 
@@ -3111,7 +3357,7 @@ Tā kā $(b+c)^{2} \geq 0, \operatorname{tad} b^{2}-8 a c>0$.
 
 Taisnstūris salikts no četriem vienības kvadrātiem. Aprēḳināt iekrāsotā četrstūra (skat. 6. att.) laukumu un lenkus.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-57.jpg?height=205&width=600&top_left_y=223&top_left_x=728)
+![](LV.NOL.2021.12.3.png){ width=200px }
 
 
 
@@ -3127,9 +3373,8 @@ Ievērojam, ka iekrāsotais četrstūris ir paralelograms, jo tā pretējās mal
 
 Līdz ar to $S_{E F G H}=S_{A H D}-S_{A E C}-S_{B G D}+S_{B F C}=\frac{1}{2}\left(4 \cdot \frac{4}{5}-3 \cdot \frac{3}{5}-2 \cdot \frac{2}{5}+1 \cdot \frac{1}{5}\right)=\frac{1}{10}(16-9-4+1)=\frac{2}{5}$.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-57.jpg?height=286&width=857&top_left_y=959&top_left_x=654)
+![](LV.NOL.2021.12.3A.png){ width=200px }
 
-7. att.
 
 Pēc Pitagora teorēmas trijstūros $A B M$ un $L N D$ ieugūstam, ka $A M=\sqrt{A B^{2}+M B^{2}}=\sqrt{5}$ un $L D=\sqrt{L N^{2}+N D^{2}}=\sqrt{10}$.
 
@@ -3137,14 +3382,12 @@ Nemot vērā trijstūru līdzību, iegūstam, ka $A H=\frac{4}{5} A M=\frac{4 \s
 
 Izmantojot kosinusu teorēmu trijstūrī $A H D$, iegūstam
 
-$$
-\begin{gathered}
+$$\begin{gathered}
 A D^{2}=A H^{2}+H D^{2}-2 \cdot A H \cdot H D \cdot \cos \Varangle A H D \\
 16=\frac{16}{5}+\frac{32}{5}-\frac{32 \sqrt{2}}{5} \cos \Varangle A H D \\
 32 \sqrt{2} \cos \Varangle A H D=48-80 \\
 \cos \Varangle A H D=-\frac{1}{\sqrt{2}}=-\frac{\sqrt{2}}{2}
-\end{gathered}
-$$
+\end{gathered}$$
 
 Līdz ar to esam ieguvuši, ka $\Varangle A H D=135^{\circ}$ un $\Varangle H E F=45^{\circ}$.
 
@@ -3164,7 +3407,7 @@ Papildinām doto zīmējum ar vēl 4 kvadrātiem un novelkam dotajām taisnēm p
 
 Trijstūris $F B E$ ir vienādsānu taisnleņka, jo $\triangle F G B=\triangle B H E$ un tie ir taisnleņka trijstūri. Tātad $\Varangle B F E=45^{\circ}$. Līdz ar to iekrāsotā četrstūra (paralelograma) leņuu lielumi ir $45^{\circ}$ (jo lenki, kuru malas ir paralēlas, ir vienādi) un $135^{\circ}$.
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-58.jpg?height=446&width=1099&top_left_y=488&top_left_x=524)
+![](LV.NOL.2021.12.3B.png){ width=300px }
 
 
 
@@ -3233,24 +3476,20 @@ Pienemsim, ka mazākais skaitlis atrodas $K$-tajā rindā.
 
 Samainīsim vietām pirmo un $K$-to rindu (skat. 9. att.). Ja kolonnas mazākais skaitlis jau bija pirmajā rindā, tad šis solis ir jāizlaiž. Esam ieguvuši, ka pirmajā kolonnā mazākais skaitlis atrodas pirmajā rindā un visas rindas joprojām ir sakārtotas augoši (jo katras rindas saturs ir iepriekšējais - mainīta ir tikai to secība).
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-60.jpg?height=260&width=1077&top_left_y=1949&top_left_x=501)
-
-9. att.
+![](LV.NOL.2021.12.5A.png){ width=300px }
 
 Tagad aplūkojam otro kolonnu. Pieņemsim, ka mazākais skaitlis atrodas $L$-tajā rindā. Paņemsim 1. un $L$-tās rindas fragmentus no otrās kolonnas līdz beigām ( $M$-tajai kolonnai) un samainīsim vietām (skat. 10. att.).
 
-![](https://cdn.mathpix.com/cropped/2024_07_20_27e77a78f089c6bd3816g-60.jpg?height=242&width=1094&top_left_y=2386&top_left_x=524)
-
-10. att.
+![](LV.NOL.2021.12.5B.png){ width=300px }
 
 Pārliecināsimies, ka arī pēc šādas maiņas gan pirmā, gan $L$-tā rinda joprojām ir sakārtotas augoši.
 
-Neatbilstība var rasties tikai starp rindas pirmo un otro skaitli - tālāk nekas netika mainīts. Pienemsim, ka pirms maiņas pirmās rindas pirmajā un otrajā kolonnā bija skaitļi $p_{1}$ un $p_{2}$, bet $L$-tajā - skaitli $l_{1}$ un $l_{2}$. Šiem skaitļiem ir spēkā sakarības: $p_{1}<p_{2}$ un $l_{1}<l_{2}$ (sakārtojums pa rindām) un $p_{1}<l_{1}$ un $l_{2}<p_{2}$ (pirmo divu kolonnu mazākie skait|̣i). Tātad ir spēkā arī $p_{1}<l_{2}$ un $l_{1}<p_{2}$, kas nozīmē, ka šo divu fragmentu samainīšana vietām saglabā sakārtojumu pa rindām.
+Neatbilstība var rasties tikai starp rindas pirmo un otro skaitli - tālāk nekas netika mainīts. Pienemsim, ka pirms maiņas pirmās rindas pirmajā un otrajā kolonnā bija skaitļi $p_{1}$ un $p_{2}$, bet $L$-tajā - skaitļi $l_{1}$ un $l_{2}$. Šiem skaitļiem ir spēkā sakarības: $p_{1}<p_{2}$ un $l_{1}<l_{2}$ (sakārtojums pa rindām) un $p_{1}<l_{1}$ un $l_{2}<p_{2}$ (pirmo divu kolonnu mazākie skaitļi). Tātad ir spēkā arī $p_{1}<l_{2}$ un $l_{1}<p_{2}$, kas nozīmē, ka šo divu fragmentu samainīšana vietām saglabā sakārtojumu pa rindām.
 
-Analoǵiski panākam, ka pirmās rindas trešais, ceturtais, ..., $M$-tais skaitlis ir mazākie savā kolonnā, katru reizi samainot vietām rindu fragmentus no vajadzīgās kolonnas līdz rindas beigām, bet skait|us kolonnās pa kreisi neaiztiekot.
+Analoǵiski panākam, ka pirmās rindas trešais, ceturtais, ..., $M$-tais skaitlis ir mazākie savā kolonnā, katru reizi samainot vietām rindu fragmentus no vajadzīgās kolonnas līdz rindas beigām, bet skaitļus kolonnās pa kreisi neaiztiekot.
 
-Kad šādi pirmajā rindā augošā secībā esam izvietojuši kolonnu mazākos skait|us, varam par šo rindu aizmirst un atkārtot tādu pašu sakārtošanas procesu par vienu rindu mazākai tabulai - tai, ko iegūstam paņemot tabulas rindas no otrās līdz $N$-tajai.
+Kad šādi pirmajā rindā augošā secībā esam izvietojuši kolonnu mazākos skaitļus, varam par šo rindu aizmirst un atkārtot tādu pašu sakārtošanas procesu par vienu rindu mazākai tabulai - tai, ko iegūstam paņemot tabulas rindas no otrās līdz $N$-tajai.
 
-Kad šādi būsim tikuši līdz beigām (pēdējā posmā sakārtojot divas rindas), gan kolonnas, gan rindas būs sakārtotas augošā secībā. Tas nozīmē, ka arī pēc kolonnu sakārtošanas skaitlii tabulas rindās ir sakārtoti.
+Kad šādi būsim tikuši līdz beigām (pēdējā posmā sakārtojot divas rindas), gan kolonnas, gan rindas būs sakārtotas augošā secībā. Tas nozīmē, ka arī pēc kolonnu sakārtošanas skaitļi tabulas rindās ir sakārtoti.
 
 
