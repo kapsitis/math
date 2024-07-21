@@ -7,6 +7,7 @@ var izsacīt kā divu veselu skaitļu kvadrātu summu. Vai to noteikti var izsac
 
 * topic:StandardIdentities
 * questionType:Prove
+* domain:NT
 * concepts:square-Alg
 
 </small>
@@ -39,6 +40,7 @@ Atrast mazāko naturālo skaitli, kam visi cipari ir vienādi un kas dalās ar $
 * topic:IntegerFactorization
 * genre:optimization
 * questionType:FindOptimal
+* domain:NT
 * concepts:decimal-notation,digit,divisibility
 
 </small>
@@ -67,7 +69,7 @@ Vai naturālos skaitļus
 **(B)** no $1$ līdz $50$ ieskaitot
 
 var tā sadalīt pa pāriem, lai visas pāros ieejošo skaitļu summas būtu dažādas un katra no tām būtu pirmskaitlis?
-(Piemēram, skaitļus no 1 līdz 6 varētu sadalīt tā: $1+2=3$, $3+4=7$, $5+6=11$).
+(Piemēram, skaitļus no $1$ līdz $6$ varētu sadalīt tā: $1+2=3$, $3+4=7$, $5+6=11$).
 
 <small>
 
@@ -76,6 +78,7 @@ var tā sadalīt pa pāriem, lai visas pāros ieejošo skaitļu summas būtu da�
 * topic:ExhaustionMethod
 * concepts:partition,primes,sum
 * questionType:ProveDisprove
+* domain:NT
 * genre:construction
 
 </small>
@@ -106,6 +109,7 @@ Uz katras no vairākām kartītēm uzrakstīts pa naturālam skaitlim (starp tie
 * topic:NumTheoryPigeonhole
 * genre:construction
 * questionType:ProveDisprove
+* domain:Comb
 * strategy:Interpretation
 * concepts:sum
 
@@ -149,6 +153,7 @@ kvadrātiem apgriezto lielumu summu?
 
 * concepts:sum,square-Alg,inverse-number
 * questionType:ProveDisprove,ProveDisprove
+* domain:Alg
 
 </small>
 
@@ -165,6 +170,7 @@ Vai tas ir iespējams, ja
 
 * concepts:sum,product
 * questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -180,6 +186,7 @@ Jūsu atrastajiem nav.
 
 * concepts:primes,digit-manipulation
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -195,6 +202,7 @@ Cik no skaitļiem $x,y,z,t$ var būt pāra skaitļi?
 
 * concepts:even-number
 * questionType:FindCount
+* domain:NT
 
 </small>
 
@@ -215,6 +223,7 @@ ka citu bez atrastajām nav.
 
 * concepts:function,argument,value
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -231,6 +240,7 @@ $$\left( 2a+b \right) \cdot \left( 2b + a \right) = 2^c.$$
 
 * concepts:equation
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -250,6 +260,7 @@ tieši vienai no tām.
 
 * concepts:sequence
 * questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -270,6 +281,7 @@ skaitlis nemainās. Piemēram, $1221$ ir simetrisks skaitlis, bet $1231$ - nav.
 * topic:IntegerCongruence
 * concepts:palindrome,decimal-notation
 * questionType:Prove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -305,6 +317,7 @@ kuru Andrim vajadzēja iegūt. Kādu sešciparu skaitli Andris uzrakstīja?
 * topic:StandardIdentities
 * topic:NumTheoryInequalityMethod
 * questionType:FindAll
+* domain:NT
 * genre:digit-manipulation
 * concepts:decimal-notation
 
@@ -331,6 +344,7 @@ Pierādiet, ka $x^2+y^2+z^2$ dalās ar $3$.
 
 * concepts:divisibility
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -345,6 +359,7 @@ ${\displaystyle p = \left| 2^x - 3^y \right|}$?
 
 * concepts:primes
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -363,6 +378,7 @@ ja neviens tās elements nav naturāla skaitļa kvadrāts?
 
 * concepts:sequence,divisibility,square-Alg
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -375,6 +391,7 @@ Atrisināt naturālos skaitļos vienādojumu $(2a+b)(2b+a)=2c$.
 
 * concepts:equation
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -394,6 +411,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 * concepts:divisibility
 * questionType:Algorithm
 * strategy:Contradiction
+* domain:NT
 
 </small>
 
@@ -422,6 +440,7 @@ lai nekādu divu izvēlēto skaitļu starpība nebūtu ne $3$, ne $4$, ne $7$?
 * topic:NumTheoryPigeonhole
 * genre:optimization
 * questionType:FindOptimal
+* domain:Comb
 * strategy:ExhaustiveSearch,Symmetry
 
 </small>
@@ -457,6 +476,7 @@ Kādu četrciparu skaitli Andris uzrakstīja?
 * topic:NumTheoryInequalityMethod
 * seeAlso:LV.AMO.2001.8.3
 * questionType:FindAll
+* domain:NT
 * genre:digit-manipulation
 * concepts:decimal-notation
 
@@ -482,6 +502,7 @@ ja $a$, $b$, $c$, $d$ ir dažādi Fibonači skaitļi?
 * topic:NumTheoryExtremeElement
 * concepts:fibonacci-sequence
 * questionType:ProveDisprove
+* domain:NT
 * strategy:ExtremeElement
 
 </small>
@@ -509,6 +530,7 @@ Pierādīt, ka $x^2+y^2+z^2$ dalās ar $3$.
 * seeAlso:LV.AMO.2001.9.4
 * concepts:divisibility
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -525,6 +547,7 @@ Kāds ir mazākais iespējamais krāsu skaits?
 
 * concepts:primes
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -540,6 +563,7 @@ nav divu tādu naturālu skaitļu reizinājums, kuru starpība ir $2$.
 
 * concepts:primes
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -557,6 +581,7 @@ Kādiem $n$ skaitlis $a_n$ dalās ar $11$?
 
 * concepts:sequence
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -573,6 +598,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 * genre:game
 * concepts:divisibility
 * questionType:Algorithm
+* domain:NT
 * strategy:Contradiction
 
 </small>
@@ -611,6 +637,7 @@ Vai tas var būt $0$, ja **(A)** $n=8$, **(B)** $n=9$?
 * concepts:absolute-value
 * genre:making-moves
 * questionType:Algorithm
+* domain:NT
 * strategy:Invariant
 
 </small>
@@ -660,6 +687,7 @@ saskaitāmo lielākais kopīgais dalītājs būtu $1$?
 * genre:optimization
 * concepts:gcd,coprimes
 * questionType:FindOptimal
+* domain:NT
 * strategy:ExtremeElement
 
 </small>
@@ -692,6 +720,7 @@ Vai tas iespējams, ja **(A)** $n=3$, **(B)** $n=4$, **(C)** $n=2003$?
 * topic:StandardIdentities
 * concepts:square
 * questionType:ProveDisprove,ProveDisprove,ProveDisprove
+* domain:NT
 * strategy:Symmetry
 
 </small>
@@ -743,6 +772,7 @@ $(p_1-1)(p_2-1)\ldots(p_n-1)$.
 
 * concepts:primes,divisibility
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -759,6 +789,7 @@ $2n+1$ un $3n+1$ ir veselu skaitļu kvadrāti.
 
 * concepts:primes,square-Alg
 * questionType:FindExample,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -772,6 +803,7 @@ ka $6^n-1$ dalās ar $4^n-1$?
 
 * concepts:divisibility
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -789,6 +821,7 @@ cik naturālu dalītāju, kas dod atlikumu $2$, dalot ar $3$?
 
 * concepts:divisibility,divisors
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -810,6 +843,7 @@ ir nesaīsināmas?
 * topic:PrimesDistribution
 * concepts:fractions,gcd
 * questionType:FindOptimal
+* domain:NT
 
 </small>
 
@@ -844,6 +878,7 @@ Dots, ka $X-Y$ dalās ar $91$. Pierādīt, ka $A=B$.
 * concepts:decimal-notation,divisibility
 * genre:digit-manipulation
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -877,6 +912,7 @@ kamēr paliek neizsvītrots viens skaitlis. Kurš tas ir?
 * concepts:sequence
 * genre:making-moves
 * questionType:FindAll
+* domain:NT
 * strategy:WorkingBackwards
 
 </small>
@@ -903,6 +939,7 @@ Vai to var izdarīt, ja **(A)** $n=4$; **(B)** $n=5$?
 
 * concepts:sum
 * questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -910,12 +947,13 @@ Vai to var izdarīt, ja **(A)** $n=4$; **(B)** $n=5$?
 # <lo-sample/> LV.AMO.2004.10.3
 
 Dots, ka $n$ – naturāls skaitlis.  
-**(A)** pierādīt, ka $n^2 + 11 n + 30$ nav naturāls skaitlis,  
+**(A)** pierādīt, ka $n^2 + 11n + 30$ nav naturāls skaitlis,  
 **(B)** atrast šī skaitļa pirmo ciparu aiz komata atkarībā no $n$.
 
 <small>
 
 * questionType:Prove,FindAll
+* domain:NT
 
 </small>
 
@@ -930,6 +968,7 @@ atlikumus, dalot ar $16$?
 
 * concepts:remainder,divisibility
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -942,6 +981,7 @@ Vai eksistē tāds naturāls skaitlis $n$, ka $2004^n-1$ dalās ar $1500^n-1$?
 
 * concepts:divisibility
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -961,6 +1001,7 @@ koeficienti būtu veseli skaitļi?
 
 * concepts:integer-polynomial
 * questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -981,6 +1022,7 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu bez jūsu atrastajām 
 
 * concepts:function,argument,value
 * questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -996,6 +1038,7 @@ $(n-1)!$ nedalās ne ar $n$, ne ar $n+2$.
 
 * concepts:primes,divisibility
 * questionType:Prove
+* domain:NT
 
 </small>
 
@@ -4846,298 +4889,15 @@ Zināms, ka $A + B = 10^{45}$. Pierādīt, ka gan $A$, gan $B$ dalās ar $5$.
 
 
 
-# <lo-sample/> LV.AMO.2019.7.5
 
-Kādai mazākajai naturālai $n$ vērtībai skaitli $10^n$
-iespējams izteikt kā septiņu
-naturālu skaitļu reizinājumu tā, lai to visu pēdējie cipari ir dažādi (tas ir,
-nevienam no tiem pēdējais cipars nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 
 
-<small>
 
-* questionType:FindOptimal
-* concepts:product
 
-</small>
 
 
 
 
-# <lo-sample/> LV.AMO.2019.8.5
-
-Kādai mazākajai naturālai $n$ vērtībai skaitli $10^n$
-iespējams izteikt kā sešu
-naturālu skaitļu reizinājumu tā, ka neviens 
-no tiem nav mazāks kā $10$ un to
-visu pēdējie cipari ir dažādi (tas ir, 
-nevienam no tiem pēdējais cipars nesakrīt
-ar kāda cita skaitļa pēdējo ciparu)?
-
-<small>
-
-* questionType:FindOptimal
-* concepts:product
-
-</small>
-
-
-
-
-
-# <lo-sample/> LV.AMO.2019.9.4
-
-Ja naturāla sešciparu skaitļa visus nepāra ciparus aizvietotu ar $7$, iegūtu skaitli,
-kas ir par $5998$ lielāks nekā sākotnējais skaitlis. Savukārt, ja sākotnējā skaitlī
-ar $7$ aizvietotu visus pāra ciparus, tad iegūtais skaitlis būtu par $500290$ lielāks
-nekā sākotnējais. Atrast doto sešciparu skaitli!
-
-<small>
-
-* questionType:FindAll
-
-</small>
-
-
-
-
-# <lo-sample/> LV.AMO.2019.9.5
-
-
-Vai eksistē tāds kvadrātvienādojums ar veseliem koeficientiem, 
-kuram ir sakne
-
-$$\left( \sqrt{2020} − 2\sqrt{2019} + \sqrt{2018} \right)
-\left( \sqrt{2020} + \sqrt{2019} \right) \times$$
-
-$$\times \left( \sqrt{2019} + \sqrt{2018} \right)
-\left( \sqrt{2020} + \sqrt{2018} \right)?$$
-
-<small>
-
-* concepts:quadratic-equation
-* questionType:ProveDisprove
-
-</small>
-
-
-
-# <lo-sample/> LV.AMO.2019.10.1
-
-Pierādīt, ka visām naturālām $n$ vērtībām ir spēkā vienādība
-
-$$6 + 24 + 60 + \cdots + n(n + 1)(n + 2) =$$
-
-$$=\frac{n(n+1)(n+2)(n+3)}{4}.$$
-
-<small>
-
-* topic:NumTheoryMathInduction
-* questionType:Prove
-* concepts:equation
-
-</small>
-
-
-
-# <lo-sample/> LV.AMO.2019.10.4
-
-Kādām naturālām $n$ vērtībām izteiksme 
-$n^2 + n + 19$ ir kāda naturāla skaitļa kvadrāts?
-
-<small>
-
-* topic:StandardIdentities
-* questionType:FindAll
-* concepts:square-Alg
-
-</small>
-
-
-
-    
-# <lo-sample/> LV.AMO.2019.11.1
-
-Atrisināt nevienādību 
-
-$$\frac{(x-20)^{19} \cdot (x + 4)}{\left( \sqrt{x^2 + 4} \right) \left( 9-x^2 \right)} \geq 0.$$
-
-<small>
-
-* concepts:inequality
-* questionType:FindAll
-
-</small>
-
-
-
-# <lo-sample/> LV.AMO.2019.11.2
-
-Divi spēlētāji pamīšus raksta uz tāfeles skaitļa $216$ 
-naturālos dalītājus. Katrā gājienā jāievēro šādi noteikumi:
-
-* nedrīkst atkārtoti rakstīt jau uzrakstītu dalītāju;
-* nedrīkst rakstīt dalītāju, kurš ir tieši $2$ vai $3$ reizes lielāks vai mazāks nekā
-  kāds jau uzrakstītais dalītājs.
-
-Zaudē tas spēlētājs, kurš nevar izdarīt gājienu. Kurš spēlētājs – pirmais vai
-otrais – vienmēr var uzvarēt?
-
-<small>
-
-* topic:FactorizationAndDivisibility
-* topic:GameInvariant
-* seeAlso:LV.AMO.2019.12.2
-* concepts:divisors
-* questionType:ProveDisprove
-
-</small>
-
-
-
-    
-# <lo-sample/> LV.AMO.2019.11.3
-
-Uz trijstūra $ABC$ malām $AB$ un $BC$ izvēlēti attiecīgi tādi punkti $D$ un $E$, ka
-$AC \parallel DE$. Nogriežņi $AE$ un $CD$ krustojas punktā $F$. Punkti $B$, $D$, $E$ un $F$
-atrodas uz vienas riņķa līnijas. Taisne $BF$ krusto malu $AC$ punktā $H$ un
-trijstūrim $ABC$ apvilkto riņķa līniju punktā $G$. Pierādīt, ka $FH = GH$.
-
-<small>
-
-* concepts:triangle,circumscribed-circle
-* questionType:Prove
-
-</small>
-
-
-
-# <lo-sample/> LV.AMO.2019.11.4
-
-Zināms, ka vairāku naturālu skaitļu summa ir **(A)** $2019$, **(B)** $2020$.   
-Kāds ir lielākais iespējamais šo skaitļu reizinājums? 
-
-
-<small>
-
-* topic:InequalityProvingStronger
-* concepts:product
-* questionType:FindOptimal,FindOptimal
-
-</small>
-
-
-
-
-
-# <lo-sample/> LV.AMO.2019.12.2
-
-Divi spēlētāji pamīšus raksta uz tāfeles skaitļa $144$ 
-naturālos dalītājus. Katrā gājienā jāievēro šādi noteikumi:
-
-* nedrīkst atkārtoti rakstīt jau uzrakstītu dalītāju;
-* nedrīkst rakstīt dalītāju, kurš ir tieši $2$ vai $3$ reizes lielāks vai mazāks nekā
-  kāds jau uzrakstītais dalītājs.
-
-Zaudē tas spēlētājs, kurš nevar izdarīt gājienu. Kurš spēlētājs – pirmais vai
-otrais – vienmēr var uzvarēt?
-
-<small>
-
-* seeAlso:LV.AMO.2019.11.2
-* concepts:divisors
-* questionType:ProveDisprove
-
-</small>
-
-
-
-## Atrisinājums
-
-* Visi dalītāji veido taisnstūrainu struktūru, kur reizināšana ar $2$
-ir virzīšanās pa vienu asi, bet reizināšana ar $3$ - pa otru. 
-* Šajā tainstūrī ir simetrijas centrs: $12 = \sqrt{144}$. 
-* Pirmais spēlētājs sāk ar $12$, pēc tam uz katru dalītāju $d$ 
-atbild ar $144/d$.
-
-
-
-    
-# <lo-sample/> LV.AMO.2019.12.3
-
-Dots četrstūris $ABCD$, kuram $AB = AD$ un $BC = CD$. Riņķa līnija, kas iet caur
-punktiem $A$, $B$ un $C$, krusto nogriežņus $AD$ un $CD$ attiecīgi to iekšējos punktos
-$E$ un $F$ un nogriezni $BD$ punktā $G$. Pierādīt, ka $EG = FG$. 
-
-<small>
-
-* concepts:rectangle
-* questionType:Prove
-
-</small>
-
-
-
-
-
-# <lo-sample/> LV.AMO.2019.12.4
-
-Sporta nometnē ir $100$ skolēni. Ar $N$ apzīmējam, cik veidos šos $100$ skolēnus
-var sadalīt $50$ pāros (pāru secība un arī skolēnu secība pārī nav svarīga). Ar
-kādu lielāko trijnieka pakāpi dalās $N$?
-
-
-<small>
-
-* topic:RuleOfProduct
-* topic:ValuationProperties
-* questionType:FindAll
-
-</small>
-
-
-
-## Atrisinājums
-
-Aprēķinām $N$, izmantojot reizināšanas likumu. 
-Visjaunākajam (visīsākajam u.c.) skolēnam pāri var atrast $99$ veidos.
-No atlikušajiem visjaunākajam skolēnam pāri var atrast $97$ veidos.
-Pēdējam skolēnam paliek tieši $1$ pāris.
-Pilnu variantu skaitu izsaka reizinājums:  
-
-$$N = 99\cdot{}97\cdot{}95\cdot\ldots\cdot{}3\cdot{}1.$$
-
-Grupējam reizinātājus atkarībā no trijnieka pakāpes, ar
-kuru tie dalās.
-
-* $(99-3)/6 + 1 = 17$ reizinātāji dalās ar $3$:
-  $3 \cdot 9 \cdot 15 \cdot 21 \cdot 27 \cdot \ldots \cdot 99$.
-* $(99-9)/18 + 1 = 6$ reizinātāji dalās ar $3^2$: 
-  $9 \cdot 27 \cdot 45 \cdot 63 \cdot 81 \cdot 99$
-* $(81 - 27)/54 +1 = 2$ reizinātāji dalās ar $3^3$ ($27, 81$). 
-* Viens reizinātājs dalās ar $3^4$ ($81$).
-
-Saskaitot šīs pakāpes $17 + 6 + 2 + 1 = 26$. 
-
-*Piezīme.* Līdzīga saskaitīšanas ideja ir arī Ležandra formulā, kas 
-atrod lielāko pirmskaitļa pakāpi, ar ko dalās $n!$. 
-
-
-
-
-# <lo-sample/> LV.AMO.2019.12.5
-
-Miljonāru kluba visbagātākajam biedram ir tieši $8$ reizes mazāk naudas nekā
-visiem pārējiem biedriem kopā, ceturtajam bagātākajam biedram ir tieši $11$
-reizes mazāk naudas nekā visiem pārējiem biedriem kopā, bet
-visnabagākajam biedram ir tieši $13$ reizes mazāk naudas nekā visiem pārējiem
-biedriem kopā. Cik biedru ir šajā klubā?
-
-<small>
-
-* questionType:FindCount
-
-</small>
 
 
     

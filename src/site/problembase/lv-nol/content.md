@@ -2287,20 +2287,23 @@ $x(x+1)(x+2)$ dalās ar $111$?
 
 * topic:DivisibilityRulesOther
 * topic:MultiplesInInterval
+* seeAlso:LV.NOL.2014.7.3
 
 </small>
 
 
 
-## ABC
+## Atrisinājums
  
-**#Dalāmība** **#DalīšanaPirmreizinātājos** $x(x+1)(x+2)$ Vienmēr dalās ar $3$, bet tam jādalās arī ar $37$. Tādu $x$ ir trīsreiz vairāk kā $\left\lfloor 2013/37 \right\rfloor$. 
+$x(x+1)(x+2)$ vienmēr dalās ar $3$, bet tam jādalās arī ar $37$. 
+Tādu $x$ ir trīsreiz vairāk kā $\left\lfloor 2013/37 \right\rfloor$. 
 
 
 
 # <lo-sample/> LV.NOL.2013.7.4 
 
-Vai pa riņķi var uzrakstīt $13$ naturālus skaitļus tā, lai jebkuru blakus
+Vai pa riņķi var uzrakstīt $13$ naturālus skaitļus tā, 
+lai jebkuru blakus
 esošu skaitļu starpība būtu $6$, $10$, $14$ vai $18$? 
 
 <small>
@@ -2311,15 +2314,17 @@ esošu skaitļu starpība būtu $6$, $10$, $14$ vai $18$?
 
 
 
-## ABC
+## Atrisinājums
  
-**#Invariants** Skaitļu atlikums, dalot ar $4$, palielinās par $2$ katrā solī. Pēc $13$ soļiem arī mainās par $2$, bet jāpaliek tam pašam.
+Skaitļu atlikums, dalot ar $4$, palielinās par $2$ katrā solī. Pēc $13$ soļiem arī mainās par $2$, bet 
+būtu jāpaliek tam pašam. Iegūta pretruna.
 
 
 
 # <lo-sample/> LV.NOL.2013.8.1 
 
-Skaitli $8999999$ uzraksti kā divu veselu skaitļu reizinājumu tā, lai katrs
+Skaitli $8999999$ uzraksti kā divu veselu skaitļu 
+reizinājumu tā, lai katrs
 no reizinātājiem ir lielāks nekā $1$. 
 
 <small>
@@ -2330,9 +2335,9 @@ no reizinātājiem ir lielāks nekā $1$.
 
 
 
-## ABC
+## Atrisinājums
  
-**#AlgebriskaIdentitāte** Pārveido $3000^2 - 1^2$ pēc kvadrātu starpības formulas.
+Pārveido $3000^2 - 1^2$ pēc kvadrātu starpības formulas.
 
 
 
@@ -2350,9 +2355,11 @@ Cik ir tādu četrciparu skaitļu, kuru pierakstā ir vismaz viens pāra cipars?
 
 
 
-## ABC
+## Atrisinājums
  
-**#PretējaisNotikums** **#ReizināšanasLikums** $4$-ciparu skaitļu bez pāru cipariem ir $5^4 = 625$; citu būs $9000 - 625$.
+$4$-ciparu skaitļu bez pāru cipariem ir $5^4 = 625$; 
+visu citu (kuros ir vismaz viens pāra cipars) 
+būs $9000 - 625 = 8375$.
 
 
 
@@ -2368,14 +2375,40 @@ katrā kolonnā ierakstīto skaitļu reizinājums būtu viens un tas pats.
 
 * topic:TreeTraversalBacktracking
 * topic:StandardIdentities
+* genre:MagicConfiguration
 
 </small>
 
 
 
-## ABC
- 
-**#MaģiskaisKvadrāts** **#PakāpjuĪpašības** Izveido $3 \times 3$ parasto maģisko kvadrātu. Pēc tam ceļ attiecīgajās pakāpēs. 
+## Atrisinājums
+
+Sākam ar parastu maģisko kvadrātu, kur katrā rindiņā, 
+kolonnā (un pat diagonālē - kaut arī tas nav prasīts) 
+skaitļu summas ir vienādas:
+
+| 8   | 1   | 6   |
+| --- | --- | --- |
+| 3   | 5   | 7   |
+| 4   | 9   | 2   |
+
+
+**#PropertiesOfExponents** 
+Ja jāpāriet no summām uz skaitļu reizinājumiem, var
+katru no skaitļiem $a$ aizstāt, piemēram ar divnieka 
+(vai cita konstanta skaitļa) pakāpi $2^a$
+un izmantot pakāpes īpašību, ka $2^a \cdot 2^b = 2^{a+b}$. 
+
+Mūsu gadījumā $8$ pārvēršas par $2^8 = 256$, 
+$1$ pārvēršas par $2^1 = 2$ utt. Iegūstam šādu kvadrātu: 
+
+| 256 | 2   | 64  |
+| --- | --- | --- |
+| 8   | 32  | 128 |
+| 16  | 512 | 4   |
+
+Šajā kvadrātā katrā rindiņā, kolonnā (un arī abās diagonālēs)
+skaitļu reizinājumi ir $2^15 = 32768$. 
 
 
 
@@ -2420,13 +2453,6 @@ ir mazāki nekā $n^2$.
 
 
 
-
-
-
-
-
-
-
 # <lo-sample/> LV.NOL.2014.7.3 
 
 
@@ -2442,9 +2468,23 @@ skaitlis $x(x+1)(x+2)$ dalās ar $87$?
 
 
 
-## ABC
+## Atrisinājums
  
-**#Dalāmība** **#DalīšanaPirmreizinātājos** $x(x+1)(x+2)$ Vienmēr dalās ar $3$, jādalās ar $29$. Tādu $x$ ir trīsreiz vairāk kā $\left\lfloor 2014/29 \right\rfloor$. 
+**#DivisibilityProperties** 
+Ievērojam, ka izteiksme $x(x+1)(x+2)$ vienmēr dalās ar $3$, 
+jo $x, x+1, x+2$ pieņem visus iespējamos atlikumus, dalot ar $3$. 
+
+Uzdevumā faktiski jāsaskaita tie $x$, kuriem $x(x+1)(x+2)$ dalās 
+ar $87/3 = 29$. 
+Vērtības $x=29,58,87,116,\ldots,2001$ dalās ar $29$. Piemēram $2001 = 29 \cdot 69$. 
+Šādu $x$ ir pavisam $69$. 
+
+Bet tā kā ar $29$ drīkst dalīties arī $x+1$ vai $x+2$, tad der arī $x=28,57,86,115,\ldots$
+un arī $x=27,56,85,114,\ldots$. Tāpēc atrisinājumu ir trīsreiz vairāk nekā $69$. 
+To pavisam ir $3 \cdot 69 = 207$.
+
+jādalās ar $29$. 
+Tādu $x$ ir trīsreiz vairāk kā $\left\lfloor 2014/29 \right\rfloor$. 
 
 
 
@@ -2461,9 +2501,20 @@ Cik ir tādu piecciparu skaitļu, kuru pierakstā ir vismaz viens nepāra cipars
 
 
 
-## ABC
- 
-**#PretējaisNotikums** **#ReizināšanasLikums** $5$-ciparu skaitļu bez nepāru cipariem ir $4 \cdot 5^4 = 2500$; citu būs $90000 - 2500$.
+## Atrisinājums
+
+**#SetComplement** 
+Vieglāk saskaitīt skaitļus, kuri neapmierina doto prasību -- t.i. skaitļus, 
+kuru pierakstā nav nepāra ciparu. 
+
+**#ProductRule**
+Skaitlis nevar sākties ar ciparu $0$, tātad pirmais cipars var būt 
+$2,4,6,8$. Visi tālākie cipari var pieņemt jebkuru no piecām vērtībām 
+$0,2,4,6,8$. 
+Pēc reizināšanas likuma, $5$-ciparu skaitļu bez nepāru cipariem ir 
+$4 \cdot 5^4 = 2500$. 
+
+Visu pārējo skaitļu, kuros ir vismaz viens nepāra cipars būs $90000 - 2500$.
 
 
 
@@ -2491,7 +2542,9 @@ $300$, vienmēr starp šiem skaitļiem var atrast divus skaitļus, kuru summa ir
 
 
 
-## Progresijā ir 100 locekļu zem 300
+## Atrisinājums
+
+Progresijā ir 100 locekļu zem 300
 
 $$1, 4, 7, \ldots, 148, 151, 154, \ldots, 298$$
 
@@ -2565,9 +2618,10 @@ tieši $2015$ mājlopus?
 
 
 
-## Salīdzina paritāti
+## Atrisinājums
  
-Katras maiņas iznākumā dzīvnieku kopskaits mainās par pāru skaitli. $99+21$ ir pāru, bet $2015$ – nepāru.
+Katras maiņas iznākumā dzīvnieku kopskaits mainās par pāru skaitli. 
+$99+21$ ir pāru, bet $2015$ – nepāru.
 
 
 
@@ -2589,10 +2643,10 @@ Vai iespējams, ka visas iegūtās summas ir pirmskaitļi?
 
 
 
-## ABC
+## Atrisinājums
  
-**#GadījumuPārlase** **#Krāsošana** Pāru/nepāru skaitļi kā šaha galdiņš. Vidū liek $1$, pārlasa $2,4,6,10$ izvietojumu variantus ($8$ neizmanto).
-
+Pāru/nepāru skaitļi kā šaha galdiņš. Vidū liek $1$, pārlasa $2,4,6,10$ 
+izvietojumu variantus ($8$ neizmanto).
 
 
 # <lo-sample/> LV.NOL.2015.8.1 
@@ -2611,9 +2665,9 @@ Pierādi, ka
 
 
 
-## ABC
+## Atrisinājums
  
-**#DalīšanaArAtlikumu** Divu nepāru skaitļu summas/starpības ir pāru skaitļi. Pie tam $49^n$ un $7^n$ dod atlikumu $1$, dalot ar $3$. 
+Divu nepāru skaitļu summas/starpības ir pāru skaitļi. Pie tam $49^n$ un $7^n$ dod atlikumu $1$, dalot ar $3$. 
 
 
 
@@ -2634,9 +2688,11 @@ Vai iespējams, ka "Šrotiņā" kāda mēneša 21. datumā būs tieši $2015$ ma
 
 
 
-## Salīdzina atlikumus (mod 3)
- 
-Mašīnu skaits mainās par $-7+16=9$ vai par $-19+4 = -15$, t.i. par $3k$. Bet $39+3k \neq 2015$.
+## Atrisinājums
+
+Salīdzina atlikumus (mod 3). 
+Mašīnu skaits mainās par $-7+16=9$ vai par $-19+4 = -15$, 
+t.i. par $3k$. Bet $39+3k \neq 2015$.
 
 
 
@@ -2690,8 +2746,9 @@ Vai, atkārtoti izpildot šīs darbības, no skaitļa $30$ var iegūt skaitli $2
 
 
 
-## Invariants ir dalāmība ar $3$
+## Atrisinājums
 
+Invariants ir dalāmība ar $3$. 
 Ja sākotnējais skaitlis $x$ dalījās ar $3$, tad pēc katras darbības arī rezultāts dalīsies ar $3$:
 
 * $x+6$ dalās ar $3$, ja $x$ dalās ar $3$
@@ -2721,7 +2778,9 @@ mazākais no šiem saskaitāmajiem?
 
 
 
-## Aritmētiskas progresijas locekļu summa
+## Atrisinājums
+
+Aritmētiskas progresijas locekļu summa
 
 $$S=a_1 + a_2 + \ldots + a_n = \frac{a_1 + a_n}{2}\cdot{}n$$
 
@@ -2734,16 +2793,12 @@ $$S=a_1 + a_2 + \ldots + a_n = \frac{a_1 + a_n}{2}\cdot{}n$$
 Abos gadījumos $2\cdot{}177 = (a_1+a_n)\cdot{}n$ jeb
 $$2 \cdot 3 \cdot 59 = (a_1+a_n)\cdot{}n$$
 
-
-
-## Gadījumu pārlase
-
-Skaitlim $2 \cdot 3 \cdot 59$ ir tikai galīgs skaits dalītāju $n$:
+Skaitlim $2 \cdot 3 \cdot 59$ ir tikai galīgs skaits dalītāju $n$. 
+Gadījumu pārlase:
 
 * Ja $n=2$, tad $177 = 88\frac{1}{2}\cdot{}2 = 88+89$,
 * Ja $n=3$, tad $177 = 59\cdot{}3 = 58+59+60$,
-* Ja $n=6$, tad $177 = 29\frac{1}{2}\cdot{}6=$
-$=27+28+29+30+31+32$. 
+* Ja $n=6$, tad $177 = 29\frac{1}{2}\cdot{}6=27+28+29+30+31+32$. 
 
 Vēl lielāki $2 \cdot 3 \cdot 59$ dalītāji ($n=59$ u.c.) novestu pie ļoti garām aritmētiskām 
 progresijām, kurās būtu arī negatīvi locekļi.
@@ -2757,8 +2812,8 @@ Tās neder, jo $177$ bija vairāku pēc kārtas sekojošu **naturālu** skaitļu
 
 Vai eksistē tāds vesels skaitlis $x$, ka visi skaitļi
 
-1. $x$, $x+23$, $x+45$, $x+121$
-2. $x$, $x+23$, $x+46$, $x+121$
+**(A)** $x$, $x+23$, $x+45$, $x+121$
+**(B)** $x$, $x+23$, $x+46$, $x+121$
 
 ir veselu skaitļu pakāpes ar naturālu kāpinātāju, 
 kas lielāks nekā 1 (kāpinātāji var būt dažādi)?
@@ -2768,29 +2823,28 @@ kas lielāks nekā 1 (kāpinātāji var būt dažādi)?
 * topic:CountingObjects
 * topic:PrimeFactorizationAndPowers
 * topic:ModularParity
+* strategy:contradiction
+* questionTypes:ProveDisprove,ProveDisprove
 
 </small>
 
-<!--
-strategy=contradiction
--->
 
 
+## Atrisinājums
+
+**(A)** Ievietojam nelielas vērtības. 
+Ievērojam, ka $x$ arī ir vesela skaitļa pakāpe. 
+Ievietojam $x=1,4,8,9,16,25,32,36,49,\ldots$. 
+Der jau $x=4$ (pirmajā piemērā)
 
 
-## Ievieto nelielas vērtības
+**(B)**
+Noskaidrojam, vai $x$ un $x+46$ var *vienlaikus* būt naturālu skaitļu pakāpes?
 
-* $x$ arī ir vesela skaitļa pakāpe
-* Pārbaudām $x=1,4,8,9,16,25,32,36,49,\ldots$
-* Jau $x=4$ der (pirmajā piemērā)
-
-
-
-## Kas notiek otrajā piemērā?
-
-* Vai $x$ un $x+46$ var *vienlaikus* būt naturālu skaitļu pakāpes?
-* Ja $x$ ir pāru, tad **gan** $x$, **gan** $x+46$ dalās ar $4$.
-* Ja $x$ ir nepāru, tad **gan** $x+23$, **gan** $x+121$ dalās ar $4$.
+* Ja $x$ ir pāru, tad **gan** $x$, **gan** $x+46$ dalās ar $4$ (tā ir pretruna, 
+  jo $46$ nedalās ar $4$). 
+* Ja $x$ ir nepāru, tad **gan** $x+23$, **gan** $x+121$ dalās ar $4$ (tā ir pretruna, 
+  jo starpība $121-23 = 98$ nedalās ar $4$). 
 
 
 
@@ -2852,20 +2906,27 @@ dalās ar $99$.
 
 
 
-## ABC
+## Atrisinājums
  
-**#DalāmībaAr11** **#DalāmībaAr3Un9** Dalāmībai ar $9$ ciparu summa nemainās; 
-ar $11$ – pāru/nepāru pozīcijās ciparu summas atšķiras par $11k$.
+Apskatām dalāmības pazīmes ar abiem skaitļa $99 = 9 \cdot 11$ reizinātājiem: 
+
+* Skaitlis dalās ar $9$ tad un tikai tad, ja tā ciparu summa dalās ar $9$. 
+* Skaitlis dalās ar $11$ tad un tikai tad, ja pāru un nepāru pozīcijās ciparu 
+summas ir vienādas vai arī atšķiras par skaitli, kas dalās ar $11$. 
+
+Uzrakstot skaitli no otra gala, tā ciparu summa nemainās (saglabājas dalāmība ar $9$); 
+un arī pāru/nepāru pozīcijās esošās ciparu summas nemainās (ja skaitlī ir 
+pāra skaits ciparu, tad pāru un nepāru pozīcijas apmainās vietām). Tātad arī dalāmība 
+ar $11$ saglabājas.
 
 
 
 # <lo-sample/> LV.NOL.2016.7.5 
 
-
-(a) Vai var atrast dažādus veselus skaitļus 
+**(A)** Vai var atrast dažādus veselus skaitļus 
 $a$, $b$, $c$ un $d$ tādus, ka izpildās vienādības
 $a+b = cd$ un $ab = c+d$?  
-(b) Vai šādus skaitļus var atrast, ja papildus zināms, ka $a > 2016$?
+**(B)** Vai šādus skaitļus var atrast, ja papildus zināms, ka $a > 2016$?
 
 
 <small>
@@ -2876,21 +2937,21 @@ $a+b = cd$ un $ab = c+d$?
 </small>
 
 
+## Atrisinājums
 
-## Ekstrēmais elements - 1
+**(A)** Izveidojam piemēru, izvēloties nelielu vērtību, ar kuru iespējami 
+vienkārši veikt aprēķinus.
+Tā kā $a,b,c,d$ uzdevuma formulā ir simetriski, var paņemt, teiksim, $c=1$. 
+Ja $c=1$, tad $a+b=d$, $ab=d+1$ (divu skaitļu summa par $1$ mazāka nekā reizinājums).
 
-* $a,b,c,d$ uzdevuma formulā ir simetriski.
-* Izvēlamies vienu nelielu vērtību - piemēram $c=1$. Tad $a+b=d$, $ab=d+1$ 
-(divu skaitļu summa par $1$ mazāka nekā reizinājums).
-* Var izvēlēties $a=2$, $b=3$, $c=1$ un $d=5$.
+Der, piemēram, atrisinājums $(a,b,c,d)=(2,3,1,5)$.
  
- 
+**(B)**
+Atkal ievērojam, ka $a,b,c,d$ uzdevuma formulā ir simetriski - tāpēc nav būtiski, 
+kuru burtu pirmo ar kaut ko aizvieto.
+Izvēlamies $c=0$. Tad $a+b=0$, $ab=d$.
 
-## Ekstrēmais elements - 2
-
-* $a,b,c,d$ uzdevuma formulā ir simetriski.
-* Izvēlamies $c=0$. Tad $a+b=0$, $ab=d$.
-* Var izvēlēties $c=0$, $a = 2017$, $b = -2017$, $d = -2017^2$.
+Der, piemēram, atrisinājums $(a,b,c,d) = (2017, -2017, 0, -2017^2)$.
 
 
 
@@ -2910,10 +2971,22 @@ skaitļiem *DUBĻUNNN* dalās ar $104$. Pierādi, ka otrais skaitlis *BURBUĻVAN
 
 
 
-## ABC
- 
-**#DalāmībaAr4Un8** **#LKD** *NNN* Dalās ar $8$ t.t.t. ja $N=0$ vai $N=8$. 
-*NNA* dalās ar $8$ tikai tad, ja $A=0$ vai $A=8$. T.i. $A=N$ – pretruna.
+## Atrisinājums
+
+Skaitļi $104$ un $56$ šeit nav izraudzīti patvaļīgi, 
+tiem lielākais kopīgais dalītājs $\gcd(104,56) = 8$. 
+Tāpēc aplūkosim dalāmības pazīmi ar $8$ un tikai divus 
+ciparus $A$ un $N$ abos skaitļos. 
+
+* Skaitlis *DUBĻUNNN* dalās ar $104$; tāpēc tas dalās arī ar $8$. 
+  Pēc dalāmības pazīmes ar $8$: trīs pēdējo ciparu veidotais 
+  skaitlis $\overline{NNN}$ dalās ar $8$. Pārbaudot visas cipara $N$ iespējas, 
+  atrodam, ka $N=0$ vai $N=8$ (pēc dotā $N=8$, jo cipari nav nulles).
+* Pieņemsim no pretējā, ka arī skaitlis *BURBUĻVANNA* dalās ar $56$, tātad arī ar $8$. 
+  Pēc dalāmības pazīmes ar $8$, arī pēdējo trīs ciparu veidotais 
+  skaitlis $\overline{NNA}$ dalās ar $8$. Tā kā $N=8$, tad  
+  seko, ka $A=0$ (nevar būt) vai $A=8$. Atliek iespēja $A=N$, kas 
+  ir pretruna, jo visi burti apzīmē dažādus ciparus.
 
 
 
@@ -2922,9 +2995,9 @@ skaitļiem *DUBĻUNNN* dalās ar $104$. Pierādi, ka otrais skaitlis *BURBUĻVAN
 Pierādīt, ka 
 
 1. no pieciem naturāliem skaitļiem vienmēr var izvēlēties vairākus
-(vismaz divus), kuru summa dalās ar $4$;
+   (vismaz divus), kuru summa dalās ar $4$;
 2. var atrast četrus tādus naturālus skaitļus, ka no tiem nevar izvēlēties
-vairākus (vismaz divus), kuru summa dalās $4$. 
+   vairākus (vismaz divus), kuru summa dalās $4$. 
 
 
 
@@ -2955,23 +3028,26 @@ $$1\cdot{}4 + 2\cdot{}7 + 3\cdot{}10 + \cdots + n\cdot{}(3n + 1) = n(n+1)^2.$$
 
 
 
-## Definējam virkni 
+## Atrisinājums
+
+Definējam virkni 
 
 $$a_n = 1\cdot{}4 + 2\cdot{}7 + 3\cdot{}10 + \cdots + n\cdot{}(3n + 1)$$
 
-* Katrs nākamais šīs virknes loceklis ir par $n\cdot{}(3n+1)$ lielāks kā iepriekšējais
-
+Katrs nākamais šīs virknes loceklis ir par $n\cdot{}(3n+1)$ lielāks kā iepriekšējais.
 Tikpat liela ir starpība starp $n(n+1)^2$ un izteiksmi, kur $n$ aizstāj ar $n-1$: $(n-1)n^2$:
 
 $$n(n+1)^2 - (n-1)n^2 = n(n^2 + 2n + 1) - n^3 + n^2 =$$
 $$= n^3+2n^2+n - n^3+n^2 = 3n^2 + n = n(3n+1).$$
 
 
+Spriedums ar matemātisko indukciju 
 
-## Matemātiskā indukcija
+**Bāze:** 
+Ja $n=1$, tad $a_1 = 1\cdot{}4 = 4$ un arī $n(n+1)^2 = 4$. 
 
-* Ja $n=1$, tad $a_1 = 1\cdot{}4 = 4$ un arī $n(n+1)^2 = 4$. 
-* Arī vēlāk gan virkne $a_n$, gan formula $n(n+1)^2$ pieaug vienādiem soļiem. 
+**Pāreja:**
+Palielinot $n$ par $1$, gan virkne $a_n$, gan formula $n(n+1)^2$ pieaug vienādiem soļiem. 
 
 
 
@@ -2993,15 +3069,19 @@ ka to summa vai starpība dalās ar $5$.
 
 
 
-## Pilnu kvadrātu atlikumi, dalot ar 5
+## Atrisinājums
 
-$$(1^2,2^2,3^2,4^2,5^2)=(1,4,9,16,25).$$
+Aplūkojam pilnu kvadrātu atlikumus, dalot ar 5
 
-* Atlikumi, dalot ar $5$, ir sekojoši: $(1,4,4,1,0)$. Pēc tam tie atkārtojas.
-* Starp tiem ir tikai $3$ dažādi atlikumi: $0,1,4$. 
-* Izvēloties trīs kvadrātus:
-    - Vai nu divi no tiem sakritīs,
-    - No katra būs pa vienam - tad $1+4$ dalās ar $5$.
+$$(1,4,9,16,25) \equiv (1,4,4,1,0) \pmod {5}.$$
+
+Pēc tam šie atlikumi atkārtojas.
+Ir tikai $3$ dažādi atlikumi: $0,1,4$. 
+
+Izvēloties jebkurus trīs kvadrātus, izpildīsies viens no diviem nosacījumiem:
+
+* Vai nu divi atlikumi sakritīs (tad to starpība dalās ar $5$),
+* Vai arī katrs atlikums parādīsies vienu reizi (tad to summa $1+4$ dalās ar $5$). 
 
 
 
@@ -3026,33 +3106,40 @@ $a$ un $b$ ir pirmskaitļi, lielāko kopīgo dalītāju!
 
 # <lo-sample/> LV.NOL.2017.7.2 
 
-Piecciparu skaitļa, kas dalās ar $13$, pirmais cipars ir vienāds ar ceturto, bet otrais – ar piekto. Kāds ir šī
+Piecciparu skaitļa, kas dalās ar $13$, pirmais cipars ir vienāds ar ceturto, 
+bet otrais – ar piekto. Kāds ir šī
 skaitļa trešais cipars? Atrodi visas iespējamās vērtības un pamato, ka citu nav!
 
 
 
 # <lo-sample/> LV.NOL.2017.8.2 
 
-Ja no piecciparu skaitļa, kam pirmais cipars vienāds ar ceturto, bet otrais – ar piekto, atņem vieninieku tad
-iegūtais skaitlis dalās ar $11$. Kāds var būt sākotnējā piecciparu skaitļa trešais cipars? Atrodi visus
-iespējamos variantus un pamato, ka citu nav!
+Ja no piecciparu skaitļa, kam pirmais cipars vienāds ar ceturto, bet otrais – 
+ar piekto, atņem vieninieku tad
+iegūtais skaitlis dalās ar $11$. Kāds var būt sākotnējā piecciparu 
+skaitļa trešais cipars? Atrodi visus iespējamos variantus un pamato, 
+ka citu nav!
 
 
 
 
 # <lo-sample/> LV.NOL.2017.9.4 
 
-Naturālu skaitli sauksim par *pārdabisku*, ja, tā ciparus uzrakstot pretējā secībā, iegūst skaitli, kas ir lielāks
-nekā sākotnējais skaitlis, un iegūtais skaitlis dalās ar sākotnējo skaitli. Mazākais *pārdabiskais* skaitlis ir
+Naturālu skaitli sauksim par *pārdabisku*, ja, tā ciparus uzrakstot 
+pretējā secībā, iegūst skaitli, kas ir lielāks
+nekā sākotnējais skaitlis, un iegūtais skaitlis dalās ar sākotnējo 
+skaitli. Mazākais *pārdabiskais* skaitlis ir
 $1089$, jo $9801 : 1089 = 9$. Atrast vēl divus citus *pārdabiskus* skaitļus!
 
 
 
 # <lo-sample/> LV.NOL.2017.9.5 
 
-1. Pierādīt, ka starp $1010$ dažādiem naturāliem skaitļiem, no kuriem neviens nepārsniedz $2017$, vienmēr
-iespējams izvēlēties trīs skaitļus tā, ka divu izvēlēto skaitļu summa ir vienāda ar trešo skaitli!
-2. Vai šāda īpašība ir spēkā arī $1009$ dažādiem naturāliem skaitļiem, kas nepārsniedz $2017$?
+1. Pierādīt, ka starp $1010$ dažādiem naturāliem skaitļiem, 
+   no kuriem neviens nepārsniedz $2017$, vienmēr iespējams izvēlēties 
+   trīs skaitļus tā, ka divu izvēlēto skaitļu summa ir vienāda ar trešo skaitli!
+2. Vai šāda īpašība ir spēkā arī $1009$ dažādiem naturāliem skaitļiem, 
+   kas nepārsniedz $2017$?
 
 
 
@@ -3084,7 +3171,7 @@ desmitciparu skaitlis!
 
 
 
-## Gadījumu pārlase
+## Atrisinājums
 
 * $\overline{MATEMĀTIKA}$ dalās ar $10$ ($A=0$)
 * $\overline{MATEM}$ dalās ar $5$ ($M=5$)
@@ -3092,11 +3179,12 @@ desmitciparu skaitlis!
 * Dalāmība ar $2,4,6,8$ ($E$, $Ā$, $I$ ir pāru cipari $\neq 0$)
 * Dalāmība ar $4$ ($TI$ un $TE$ dalās ar $4$, t.i $T \neq 4$)
 * Dalāmība ar $6$ ($\overline{MATEMĀ}$ ciparu summa ir $5+0+(1|7)+(2|6)+5+(4|8)$
-t.i. $\overline{EMĀ}=258$ vai $\overline{EMĀ}=654$.
+  t.i. $\overline{EMĀ}=258$ vai $\overline{EMĀ}=654$.
 * Dalāmība ar $7$: $50(1|7)(2|6)5(4|8)(1|7)$
-($\overline{MATEMĀT}$ ir $5012581$ vai $5076547$)
+  ($\overline{MATEMĀT}$ ir $5012581$ vai $5076547$)
 * Dalāmība ar $8$: $50125816$, $50765472$
-* $5076547290$ der (bet $5012581680$ neder, jo cipari $K$ un $Ā$ nedrīkst sakrist).
+* $5076547290$ der (bet $5012581680$ neder, 
+  jo cipari $K$ un $Ā$ nedrīkst sakrist).
 
 
 
@@ -3108,6 +3196,7 @@ t.i. $\overline{EMĀ}=258$ vai $\overline{EMĀ}=654$.
 # <lo-sample/> LV.NOL.2017.11.3 
 
 Atrisināt naturālos skaitļos vienādojumu sistēmu:
+
 $$\left\{ \begin{array}{rcl}
 x + z & = & 2007, \\
 31xz & = & y^2.
@@ -3182,27 +3271,22 @@ nuļļu skaitu var beigties trīs izveidoto skaitļu summa?
 * topic:DivisibilityRulesFor3And9
 * topic:DigitsInOperationResult
 * topic:CountingFromEncoding
+* strategy:contradiction
 
 </small>
 
-<!--
-strategy=contradiction
--->
 
 
 
 
-## No pretējā
+## Atrisinājums
 
-* Katrs sešciparu skaitlis ir mazāks par 1 miljonu. 
-* 3 šādu skaitļu summa ir zem 10 miljoniem (7-cipari). 
-* Vai var beigties ar 6 nullēm?
-* Ciparu summas dēļ jādalās ar $9$, bet $9000000$ ir par daudz.
+Katrs sešciparu skaitlis ir mazāks par 1 miljonu. 
+$3$ šādu skaitļu summa ir zem $10$ miljoniem - ne vairāk kā 7-ciparu skaitlis. 
+Vai šāds skaitlis var beigties ar 6 nullēm?
+Ciparu summas dēļ jādalās ar $9$, bet $9000000$ būtu par daudz.
 
-
-
-## Vai var beigties ar 5 nullēm? 
-
+Vai var beigties ar 5 nullēm? 
 Konstruējam, ikreiz liekot mazākos iespējamos ciparus.
 
 ![Saskaitīšana stabiņā](LV.NOL.2018.10.4.png)
@@ -3244,10 +3328,12 @@ vienādojuma koeficientus un pārējās trīs saknes!
 
 Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b) = 150015$?
 
-<!--
-questionType=ProveDisprove
-genre=integer-equation
--->
+<small>
+
+* questionType:ProveDisprove
+* genre:integer-equation
+
+</small>
 
 
 
@@ -3262,11 +3348,13 @@ atkārtoties). Pēc tam vēl divas reizes viņi atkārto šo darbību.
 Rihards uzvar, ja iegūtais deviņciparu skaitlis dalās
 ar $31$. Vai Rihards vienmēr var uzvarēt?
 
-<!--
-questionType=Algorithm,ProveDisprove
-genre=game
-concepts=divisibility
--->
+<small>
+
+* questionType:Algorithm,ProveDisprove
+* genre:game
+* concepts:divisibility
+
+</small>
 
 
 
@@ -3280,11 +3368,13 @@ Vai, izdarot vairākus šādus gājienus,
 var panākt, lai uz tāfeles vienlaicīgi būtu uzrakstīti skaitļi 
 $\frac{4}{3}, \frac{4}{5}, \frac{5}{2}$. 
 
-<!--
-seeAlso=LV.NOL.2000.7.5
-genre=making-moves
-questionType=ProveDisprove
--->
+<small>
+
+* seeAlso:LV.NOL.2000.7.5
+* genre:making-moves
+* questionType:ProveDisprove
+
+</small>
 
 
 
@@ -3297,10 +3387,12 @@ Zināms, ka $\overline{xyx}$
 dalās ar $3$, bet $\overline{yxy}$ dalās ar $4$. 
 Kāds var būt izveidotais trīsciparu skaitlis $\overline{yxy}$?
 
-<!--
-questionType=FindAll
-concepts=divisibility
--->
+<small>
+
+* questionType:FindAll
+* concepts:divisibility
+
+</small>
 
 
 
@@ -3309,12 +3401,13 @@ concepts=divisibility
 Kāds mazākais ciparu skaits jāpieraksta ciparu virknes $3456$ beigās, 
 lai iegūtu skaitli, kas dalās ar $2019$?
 
-<!--
-questionType=FindOptimal
-concepts=divisibility
-genre=digit-manipulation
--->
+<small>
 
+* questionType:FindOptimal
+* concepts:divisibility
+* genre:digit-manipulation
+
+</small>
 
 
 # <lo-sample/> LV.NOL.2019.10.5
@@ -3326,17 +3419,18 @@ $20m + 18n = 2018$.
 
 * topic:DivisibilityRulesFor2And4
 * topic:CanonicalFactorization
+* concepts:primes
+* questionType:FindAll
+* genre:integer-equation
 
 </small>
 
-<!--
-concepts=primes
-questionType=FindAll
-genre=integer-equation
--->
 
 
-## Risinājums
+
+
+
+## Atrisinājums
 
 * Īsinām $20m+18n=2018\;\Rightarrow\;10m+9n=1009$. 
 * Lai $1009 - 9n$ dalītos ar $10$, $n$ pēdējais cipars ir "1":  
@@ -3355,11 +3449,13 @@ No tiem der tikai divi: $(73,31)$, $(37,71)$
 
 Atrast visus pirmskaitļu pārus $(m,n)$, kuriem $20m + 19n = 2019$.
 
-<!--
-questionType=FindAll
-concepts=linear-expression,primes
-genre=integer-equation
--->
+<small>
+
+* questionType:FindAll
+* concepts:linear-expression,primes
+* genre:integer-equation
+
+</small>
 
 
 # <lo-sample/> LV.NOL.2019.12.5
@@ -3367,50 +3463,9 @@ genre=integer-equation
 Pierādīt, ka vienādojumam
 $(a - b)^2 = a+b$ ir bezgalīgi daudz atrisinājumu naturālos skaitļos!
 
-<!--
-questionType=Prove
-genre=integer-equation
--->
+<small>
 
+* questionType:Prove
+* genre:integer-equation
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</small>

@@ -3707,7 +3707,7 @@ Kāda var būt lielākā šīs progresijas diferences vērtība?
 <small>
 
 * questionType:FindOptimal
-* domain:NT:
+* domain:NT
 * topic:GcdAndLcm
 * seeAlso:BBK2012.P1.36
 
