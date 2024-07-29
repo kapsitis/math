@@ -2,8 +2,8 @@
 
 <text lang="lv">
 Ieraksti katrā tukšajā rūtiņā (skat. 1.att.) vienu skaitli (skaitļi 
-var būt arī vienādi) tā, lai katrās trīs blakus rūtiṇās skaitļu summa 
-būtu viena un tā pati un visu rūtiṇās ierakstīto skaitļu 
+var būt arī vienādi) tā, lai katrās trīs blakus rūtiņās skaitļu summa 
+būtu viena un tā pati un visu rūtiņās ierakstīto skaitļu 
 (ieskaitot abus dotos skaitļus) summa būtu $223$. Pietiek parādīt 
 vienu veidu, kā to var izdarīt.
 
@@ -41,15 +41,15 @@ kurās ierakstīti skaitli $x ; a ; b$ un $y$ (skat. 3. att.).
 
 ![](LV.NOL.2023.5.1B.png){ width=150px }
 
-Tā kā katrās trijās blakus rūtiṇās skaitļu summa ir viena un tā pati, 
-tad $x+a+b=a+b+y$, tātad $x=y$ un rūtiṇās $x$ un $y$ jābūt ierakstītam 
-vienam un tam pašam skaitlim. Tātad rūtiṇās ierakstītie skaitḷi atkārtojas 
+Tā kā katrās trijās blakus rūtiņās skaitļu summa ir viena un tā pati, 
+tad $x+a+b=a+b+y$, tātad $x=y$ un rūtiņās $x$ un $y$ jābūt ierakstītam 
+vienam un tam pašam skaitlim. Tātad rūtiņās ierakstītie skaitḷi atkārtojas 
 ar periodu $3$ (skat. 4.att.), kur $n$ ir kāds nezināms skaitlis 
 (visur viens un tas pats).
 
 ![](LV.NOL.2023.5.1C.png){ width=300px }
 
-Ja mēs noṇemam nost pašu pēdējo skaitli $19$, tad mēs iegūstam, ka četros 
+Ja mēs noņemam nost pašu pēdējo skaitli $19$, tad mēs iegūstam, ka četros 
 trīs rūtiņu blokos $(19;20;n)$ kopā skaitlu summa ir $223-19=204$, 
 tātad vienā šādā blokā $(19;20;n)$ skaitļu summa ir $204:4=51$. 
 Tātad skaitļa $n$ vietā jāraksta $51-19-21=12$.
@@ -90,11 +90,11 @@ Therefore, the number $n$ must be $51-19-20=12$.
 # <lo-sample/> LV.NOL.2023.5.2
 
 <text lang="lv">
-Rūķīši mežā ir uzbūvējuši astoṇas mājiṇas un starp tām izveidojuši 
-vairākas taciṇas. Katra taciṇa savieno divas mājiņas, 
-taciṇas var krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi: 
-**(A)** $2, 2, 2, 4, 4, 4, 4, 4$ taciṇas;  
-**(B)** $1,2,2,2,2,3,4,5$ taciṇas?
+Rūķīši mežā ir uzbūvējuši astoņas mājiņas un starp tām izveidojuši 
+vairākas taciņas. Katra taciņa savieno divas mājiņas, 
+taciņas var krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi: 
+**(A)** $2, 2, 2, 4, 4, 4, 4, 4$ taciņas;  
+**(B)** $1,2,2,2,2,3,4,5$ taciņas?
 </text>
 
 
@@ -122,12 +122,12 @@ of paths coming out of them:
 ## Atrisinājums 
 
 **(A)** Jā, piemēram, skat. 5. att., kur ar punktiem attēlotas mājiņas, 
-bet ar līnijām attēlotas taciṇas un pie katra punkta pierakstīts no tā 
+bet ar līnijām attēlotas taciņas un pie katra punkta pierakstīts no tā 
 izejošo līniju skaits.
 
 **(B)** Pamatosim, ka tas nav iespējams. Tā kā katrai taciņai ir divi gali, 
-tad kopējam taciṇu galu skaitam ir jābūt pāra skaitlim, bet pēc 
-dotā iegūstam, ka ir $1+2+2+2+2+3+4+5=21$ taciṇu gali. Tā kā $21$ 
+tad kopējam taciņu galu skaitam ir jābūt pāra skaitlim, bet pēc 
+dotā iegūstam, ka ir $1+2+2+2+2+3+4+5=21$ taciņu gali. Tā kā $21$ 
 ir nepāra skaitlis, tad prasītais nav iespējams.
 
 ![](LV.NOL.2023.5.2A.png){ width=200px }
@@ -285,10 +285,10 @@ Ievērojot, ka $\frac{11}{2} = 5\frac{1}{2}$, iegūstam, ka $y=5$ un $z=2$.
 # <lo-sample/> LV.NOL.2023.6.2
 
 <text lang="lv">
-Rūķīši mežā ir uzbūvējuši desmit mājinas un starp tām izveidojuši 
-vairākas taciṇas. Katra tacina savieno divas mājiṇas, taciṇas var 
-krustoties. Vai iespējams, ka no mājinām iziet attiecīgi:  
-**(A)** $2, 2, 2, 2, 2, 3, 3, 3, 3, 7$ tacinas; **(B)** $2, 2, 2, 2, 4, 4, 4, 4, 4, 4$ taciņas?
+Rūķīši mežā ir uzbūvējuši desmit mājiņas un starp tām izveidojuši 
+vairākas taciņas. Katra taciņa savieno divas mājiņas, taciņas var 
+krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:  
+**(A)** $2, 2, 2, 2, 2, 3, 3, 3, 3, 7$ taciņas; **(B)** $2, 2, 2, 2, 4, 4, 4, 4, 4, 4$ taciņas?
 </text>
 
 <small>
@@ -302,13 +302,13 @@ krustoties. Vai iespējams, ka no mājinām iziet attiecīgi:
 <text lang="lv">
 ## Atrisinājums
 
-**(A)** Pamatosim, ka tas nav iespējams. Tā kā katrai taciṇai ir 
-divi gali, tad kopējam taciṇu galu skaitam ir jābūt pāra skaitlim, 
+**(A)** Pamatosim, ka tas nav iespējams. Tā kā katrai taciņai ir 
+divi gali, tad kopējam taciņu galu skaitam ir jābūt pāra skaitlim, 
 bet no dotā iegūstam, ka $2+2+2+2+2+3+3+3+3+7=29$ taciņu gali. 
 Tā kā $29$ ir nepāra skaitlis, tad prasītais nav iespējams.
 
 **(B)** Jā, piemēram, skat. 8. att., kur ar punktiem attēlotas mājiņas, 
-bet ar līnijām attēlotas taciṇas un pie katra punkta pierakstīts no 
+bet ar līnijām attēlotas taciņas un pie katra punkta pierakstīts no 
 tā izejošo līniju skaits.
 
 ![](LV.NOL.2023.6.2A.png){ width=200px }
@@ -375,7 +375,7 @@ $a$ un $b$ summa dalās ar kādu skaitli $n$, tad arī visu trīs
 šo skaitlu summa $a+b+n$ dalās ar skaitli $n$. Tātad visu trīs 
 skaitļu summai jeb $73$ jādalās ar jebkuru no trīs saskaitāmajiem. 
 Bet skaitlis $73$ ir pirmskaitlis, kas dalās tikai ar $1$ un $73$. 
-Tātad šie trīs dažādie skaiți var pieṇemt tikai vērtības $1$ vai 
+Tātad šie trīs dažādie skaiți var pieņemt tikai vērtības $1$ vai 
 $73$, kas nav iespējams.
 </text>
 
@@ -426,7 +426,7 @@ ar $3$. Tas nozīmē, ka skaitli $15$ iegūt nevar, jo tas dalās ar $3$.
 <text lang="lv">
 Vai tukšajās rūtiņās (skat. 1.att.) var ierakstīt pa vienam 
 naturālam skaitlim tā, lai rezultātā būtu ierakstīti visi naturālie 
-skaitḷi no $1$ līdz $25$ un katri divi skaitli, kuru starpība ir $1$, 
+skaitḷi no $1$ līdz $25$ un katri divi skaitļi, kuru starpība ir $1$, 
 būtu ierakstīti rūtiņās ar kopīgu malu?
 
 ![](LV.NOL.2023.7.1.png){ width=200px }
@@ -452,7 +452,7 @@ Atrisinājums. Jā, var, skat. attēlu.
 # <lo-sample/> LV.NOL.2023.7.2
 
 <text lang="lv">
-Vai **(A)** $90$ lampiṇas, **(B)** $73$ lampiṇas ar vadiem var 
+Vai **(A)** $90$ lampiņas, **(B)** $73$ lampiņas ar vadiem var 
 savienot tā, lai katra no tām būtu savienota ar vadu ar tieši 
 $5$ citām lampiņām?
 </text>
@@ -469,16 +469,16 @@ $5$ citām lampiņām?
 ## Atrisinājums
 
 **(A)** Jā, var. Sadalām $90$ lampiņas $15$ grupās pa $6$ 
-lampiṇām katrā grupā. Katras grupas katras divas lampiṇas 
-savienojam ar vadu (skat. 14.att., kur lampiṇas attēlotas 
-ar punktiem un vadi ar nogriežṇiem, kas šos punktus savieno). 
+lampiņām katrā grupā. Katras grupas katras divas lampiņas 
+savienojam ar vadu (skat. 14.att., kur lampiņas attēlotas 
+ar punktiem un vadi ar nogriežņiem, kas šos punktus savieno). 
 Šādā veidā katra no $90$ lampinām būs savienota ar tieši $5$ 
 citām lampiņām.
 
 ![](LV.NOL.2023.7.2A.png){ width=150px }
 
 
-**(B)** Tā kā no katras lampiṇas iziet $5$ vadi, tad vadu galu 
+**(B)** Tā kā no katras lampiņas iziet $5$ vadi, tad vadu galu 
 skaits ir $73 \cdot 5=365$. Bet katram vadam ir $2$ gali, tāpēc 
 kopējais galu skaits nevar būt nepāra skaitlis. Tāpēc $73$ 
 lampiņas ar vadiem nevar savienot savā starpā tā, lai katra no 
@@ -559,7 +559,7 @@ kvadrāta ciparu skaits.
 
 <text lang="lv">
 Kastē atrodas baltas, sarkanas un zaḷas lodītes. Ar vienu gājienu no 
-kastes var izṇemt divas dažādu krāsu lodītes un ielikt kastē vienu 
+kastes var izņemt divas dažādu krāsu lodītes un ielikt kastē vienu 
 trešās krāsas lodīti (vienmēr pietiek jebkuras krāsas lodīšu, 
 ko ielikt kastē). Vai var panākt, ka kastē paliek tikai viena lodīte, 
 ja sākumā kastē atrodas:  
@@ -584,7 +584,7 @@ Tāpēc nevaram iegūt situāciju, ka divi lodīšu skaiti ir $0$
 (pāra skaitlis), bet viens skaits ir $1$ (nepāra skaitlis), 
 jo sākumā visu krāsu lodīšu skaits ir pāra skaitlis.
 
-**(B)** Jā, var. Ar trīs pēc kārtas sekojošiem gājieniem ṇemot 
+**(B)** Jā, var. Ar trīs pēc kārtas sekojošiem gājieniem ņemot 
 balta-sarkana (apzīmēsim ar *bs*), balta-zala (apzīmēsim ar *bz*), sarkana-zaḷa (apzīmēsim ar *sz*), katras krāsas lodīšu skaits 
 samazinās par $1$. Atkārtojot $9$ reizes šādu gājienu trijniekus, 
 iegūstam, ka kastē ir $1$ balta, $3$ sarkanas un $6$ zaḷas lodītes. 
@@ -598,7 +598,7 @@ situāciju, kad kastē ir $0$ baltas, $0$ sarkanas un $1$ zaļa lodīte.
 # <lo-sample/> LV.NOL.2023.8.1
 
 <text lang="lv">
-Ieraksti katrā tukšajā rūtiṇā (skat. 1.att.) vienu pirmskaitli 
+Ieraksti katrā tukšajā rūtiņā (skat. 1.att.) vienu pirmskaitli 
 (skaitḷi var būt arī vienādi) tā, lai katrās četrās blakus 
 rūtiņās skaitļu summa būtu viena un tā pati un visu rūtiņās 
 ierakstīto skaitļu (ieskaitot abus dotos skaitļus) summa būtu $127$. 
@@ -631,7 +631,7 @@ $x;a;b;c$ un $y$ (skat. 18. att.).
 Tā kā katrās četrās blakus rūtiņās skaitļu summa ir viena 
 un tā pati, tad $x+a+b+c=a+b+c+y$, tātad $x=y$ un rūtiņās 
 $x$ un $y$ jābūt ierakstītam vienam un tam pašam skaitlim. 
-Tātad rūtiṇās ierakstītie skaitḷi atkārtojas ar periodu $4$ 
+Tātad rūtiņās ierakstītie skaitḷi atkārtojas ar periodu $4$ 
 (skat. 19. att.), kur $m$ un $n$ ir kādi vēl nezināmi pirmskaitļi.
 
 ![](LV.NOL.2023.8.1C.png){ width=400px }
@@ -670,18 +670,18 @@ nedraudzējas. Vai var gadīties, ka **(A)** $m=11$, **(B)** $m=10$?
 ## Atrisinājums
 
 **(A)** Nē, nevar. Cilvēkus iedomāsimies kā punktus, 
-bet draudzības kā nogriežṇus, kas šos punktus savieno. 
-Tā kā no katra punkta iziet tieši $3$ nogriežṇi un katru 
+bet draudzības kā nogriežņus, kas šos punktus savieno. 
+Tā kā no katra punkta iziet tieši $3$ nogriežņi un katru 
 nogriezni ieskaitām divas reizes (nogrieznis $AB$ un $BA$ 
 ir viens un tas pats nogrieznis), tad kopējais nogriežņu 
 skaits ir $11 \cdot 3: 2=16,5$. Iegūta pretruna, jo 
-nogriežṇu skaitam ir jābūt naturālam skaitlim.
+nogriežņu skaitam ir jābūt naturālam skaitlim.
 
-*Piezīme.* Pretrunu var iegūt arī, ja skaita nogriežṇu 
-galus - tā kā no katra punkta iziet $3$ nogriežṇi, tad 
-kopā ir $11 \cdot 3=33$ nogriežṇu gali, bet katram 
+*Piezīme.* Pretrunu var iegūt arī, ja skaita nogriežņu 
+galus - tā kā no katra punkta iziet $3$ nogriežņi, tad 
+kopā ir $11 \cdot 3=33$ nogriežņu gali, bet katram 
 nogrieznim ir divi gali, tātad kopā jābūt pāra skaitam 
-nogriežṇu galu.
+nogriežņu galu.
 
 **(B)** Jā, var gadīties, piemēram, skat. 20. att. 
 Dotajā piemērā dalībnieki sadalīti divās grupās pa 
@@ -704,7 +704,7 @@ nedraudzējas un uzdevuma nosacījumi izpildās.
 <text lang="lv">
 Dots vienādsānu trijstūris $ABC$, kuram $AB = BC$. Uz malas $AB$ 
 izvēlēts punkts $M$ un uz malas $BC$ izvēlēts punkts $K$ tā, 
-ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ leṇkus!
+ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ leņkus!
 </text>
 
 <small>
@@ -724,7 +724,7 @@ trijstūri, tad $\sphericalangle AKC=\sphericalangle ACK=\sphericalangle BAC=\al
 Nogrieznis $AH$ ir vienādsānu trijstūra $MAC$ augstums 
 pret pamatu, tātad arī bisektrise, tāpēc 
 $\sphericalangle KAC=\sphericalangle BAC: 2=\frac{\alpha}{2}$. 
-Tā kā trijstūra $KAC$ iekšējo leṇku summa ir 
+Tā kā trijstūra $KAC$ iekšējo leņku summa ir 
 $180^{\circ}$, tad iegūstam, ka 
 $\frac{\alpha}{2}+\alpha+\alpha=180^{\circ}$, 
 no kurienes $\frac{5}{2} \alpha=180^{\circ}$ 
@@ -740,7 +740,7 @@ $\sphericalangle B=180^{\circ}-2 \cdot 72^{\circ}=36^{\circ}$.
 # <lo-sample/> LV.NOL.2023.8.4
 
 <text lang="lv">
-Parādi, kā, griežot pa rūtiṇu līnijām, 2.att. doto figūru var 
+Parādi, kā, griežot pa rūtiņu līnijām, 2.att. doto figūru var 
 sagriezt $4$ vienādās figūrās! Figūras ir vienādas, ja tās var 
 uzlikt vienu uz otras tā, ka abas figūras sakrīt (figūras var 
 pagriezt un apmest otrādi).
@@ -771,10 +771,10 @@ Skat. 23.att. vai 24.att.
 <text lang="lv">
 Pa apļveida trasi vienā virzienā Kārlis skrien ar kājām un Sandris 
 brauc ar skrejriteni, bet pretējā virzienā Vilnis brauc ar velosipēdu 
-un Mārtiṇš ar mopēdu (katrs brauc ar savu, nemainīgu ātrumu). Zināms, 
+un Mārtiņš ar mopēdu (katrs brauc ar savu, nemainīgu ātrumu). Zināms, 
 ka Kārlis satiek Vilni ik pēc $12$ minūtēm, Sandris apdzen Kārli ik 
-pēc $20$ minūtēm, bet Mārtiṇš apdzen Vilni ik pēc $5$ minūtēm. 
-Cik bieži Mārtiṇš satiek Sandri?
+pēc $20$ minūtēm, bet Mārtiņš apdzen Vilni ik pēc $5$ minūtēm. 
+Cik bieži Mārtiņš satiek Sandri?
 </text>
 
 <small>
@@ -788,7 +788,7 @@ Cik bieži Mārtiṇš satiek Sandri?
 ## Atrisinājums
 
 Apzīmēsim Kārḷa ātrumu ar $k$, Sandra ātrumu ar $s$, Viḷna ātrumu 
-ar $v$, Mārtiṇa ātrumu ar $m$ un trases garumu ar $\ell$.
+ar $v$, Mārtiņa ātrumu ar $m$ un trases garumu ar $\ell$.
 
 No tā, ka Kārlis satiek Vilni ik pa $12$ minūtēm, izriet, ka 
 $k+v=\frac{\ell}{12}$.
@@ -796,12 +796,12 @@ $k+v=\frac{\ell}{12}$.
 No tā, ka Sandris apdzen Kārli ik pa 20 minūtēm, izriet, ka 
 $s-k=\frac{\ell}{20}$.
 
-No tā, ka Mārtiṇš apdzen Vilni ik pa 5 minūtēm izriet, ka 
+No tā, ka Mārtiņš apdzen Vilni ik pa 5 minūtēm izriet, ka 
 $m-v=\frac{\ell}{5}$.
 
 Tā kā 
 $m+s=(m-v)+(s-k)+(k+v)=\frac{\ell}{5}+\frac{\ell}{20}+\frac{\ell}{12}=\frac{\ell}{3}$, 
-tad secinām, ka Mārtiṇš Satiek Sandri ik pēc $3$ minūtēm.
+tad secinām, ka Mārtiņš Satiek Sandri ik pēc $3$ minūtēm.
 </text>
 
 
@@ -809,7 +809,7 @@ tad secinām, ka Mārtiṇš Satiek Sandri ik pēc $3$ minūtēm.
 ## Atrisinājums
 
 Pieņemsim, ka Kārlis un Sandris pārvietojas pa labi, 
-bet Vilnis un Kārlis - pa kreisi. Pieṇemsim arī, ka 
+bet Vilnis un Kārlis - pa kreisi. Pieņemsim arī, ka 
 viņi visi sāk pārvietoties vienā laikā no viena punkta 
 un noskaidrosim, cik aplus un kurā virzienā $60$ minūtēs 
 Kārli apdzen pārējie ($60$ izvēlēts, kā $5$, $12$ un $20$ 
@@ -817,16 +817,16 @@ minūšu mazākais kopīgais dalāmais). No tā, ka Kārlis
 satiek Vilni ik pa $12$ minūtēm izriet, ka Vilnis ir 
 veicis $60: 12=5$ apļus pa kreisi attiecībā pret Kārli.
 
-No tā, ka Mārtiṇš apdzen Vilni ik pa $5$ minūtēm izriet, 
-ka Mārtiṇš ir veicis $60:5=12$ aplus pa kreisi attiecībā 
-pret Vilni, tātad viṇš veicis $12+5=17$ apļus pa 
+No tā, ka Mārtiņš apdzen Vilni ik pa $5$ minūtēm izriet, 
+ka Mārtiņš ir veicis $60:5=12$ aplus pa kreisi attiecībā 
+pret Vilni, tātad viņš veicis $12+5=17$ apļus pa 
 kreisi attiecībā pret Kārli.
 
 No tā, ka Sandris apdzen Kārli ik pa 20 minūtēm izriet, 
 ka Sandris ir veicis $60: 20=3$ aplus pa labi 
 attiecībā pret Kārli.
 
-Tā kā Mārtiṇš ir veicis attiecībā pret Kārli $17$ apļus 
+Tā kā Mārtiņš ir veicis attiecībā pret Kārli $17$ apļus 
 pa kreisi, bet Sandris veicis 3 apļus pa labi, tad 
 viņi šajās $60$ minūtēs ir satikušies $17+3=20$ 
 reizes. Tātad viņi satiekas ik pēc $60: 20=3$ minūtēm.
@@ -899,7 +899,7 @@ katram rūķim ir tieši $9$ draugi?
 
 Rūķus apzīmējam ar punktiem un divus punktus savienojam ar nogriezni, 
 ja punktiem atbilstošie rūķi savā starpā draudzējas. Tā kā no katra 
-punkta iziet $9$ nogriežṇu gali, tad nogriežṇu galu kopējais skaits ir 
+punkta iziet $9$ nogriežņu gali, tad nogriežņu galu kopējais skaits ir 
 $73 \cdot 9 = 657$, kas ir nepāra skaitlis. Bet katram nogrieznim ir 
 divi gali, tāpēc nogriežņu galu skaitam ir jābūt pāra skaitlim. 
 Esam ieguvuši pretrunu. Tāpēc nevar būt, ka katram rūķim ir tieši $9$ draugi.
@@ -925,7 +925,7 @@ Zināms, ka $CD \| BX$. Aprēķināt $AD$ garumu, ja $BX=3, BC=7$ un $CD=6$.
 ## Atrisinājums
 
 Apzīmēsim $CD$ viduspunktu ar punktu $Y$ un novilksim nogriezni 
-$XY$ (skat. 1.att.). Tā kā $CD=6$, tad $CY=3$. Tā kā nogriežṇi 
+$XY$ (skat. 1.att.). Tā kā $CD=6$, tad $CY=3$. Tā kā nogriežņi 
 $BX=CY=3$ ir vienādi un paralēli, tad četrstūris $BCYX$ ir paralelograms. 
 Tādā gadīumā $XY=BC=7$ kā paralelograma malas. Nogrieznis $XY$ 
 ir trijstūra $ACD$ viduslīijia, tātad $AD=2XY=14$.
@@ -964,7 +964,7 @@ $$\left(x^{4}+1\right)\left(y^{4}+1\right)=4 x^{2} y^{2}$$
 <text lang="lv">
 ## Atrisinājums
 
-Atverot iekavas un abām vienādojuma pusēm atṇemot 
+Atverot iekavas un abām vienādojuma pusēm atņemot 
 $4x^{2}y^{2}$, iegūstam:
 
 $$\begin{aligned}
@@ -1039,13 +1039,13 @@ un iegūstam, ka $n=1952$ un $s=72 \cdot 1952=140544$.
 
 Noskaidrosim, kāds lielākais skaits 2023 gadus vecu koku var būt. 
 Ievērojam, ka $s=2023 \cdot 69$ + 957. Tātad $2023$ gadus 
-veco koku skaits nevar pārsniegt $69$. Pieṇemot, ka atlikušo 
+veco koku skaits nevar pārsniegt $69$. Pieņemot, ka atlikušo 
 koku vecums ir mazākais iespējamais (1 gads), koku kopskaits 
 ir mazāks nekā koku skaits parkā: $69+957=1026<1952$. 
 Tātad $2023$ gadus veco koku skaits nevar būt $69$.
 
 Nākamā iespējamā vērtība ir $68$. Izsakām $s=2023 \cdot 68+2980$. 
-Pieṇemsim, ka starp atlikušajiem kokiem ir $v$ viengadīgi koki 
+Pieņemsim, ka starp atlikušajiem kokiem ir $v$ viengadīgi koki 
 un viens koks, kuram ir $x$ gadi ($x>1$).
 
 Tad koku skaits $68+v+1=1952$, no kā iegūstam, ka $v=1883$ 
@@ -1102,7 +1102,7 @@ Tā kā skaitḷa kvadrāts ir $4$, tad dotais skaitlis ir racionāls skaitlis.
 <text lang="lv">
 Uz papīra lapas atzīmēti daži punkti tā, ka nekādi trīs punkti 
 neatrodas uz vienas taisnes. Daži punkti ir savienoti ar 
-nogriežņiem tā, ka no katra punkta iziet tieši $4$ nogriežṇi. 
+nogriežņiem tā, ka no katra punkta iziet tieši $4$ nogriežņi. 
 Zināms, ka nav uzzīmēts neviens tāds trijstūris, kuram visas 
 virsotnes ir dotajos punktos. Kāds ir mazākais skaits punktu, 
 kas var būt atzīmēti uz papīra lapas?
@@ -1143,7 +1143,7 @@ ir atzīmēti vismaz $8$ punkti.
 # <lo-sample/> LV.NOL.2023.10.3
 
 <text lang="lv">
-Šaurleṇķu trijstūra $ABC$ augstumi krustojas punktā $H$. 
+Šaurleņķu trijstūra $ABC$ augstumi krustojas punktā $H$. 
 Aprēḳināt četrstūra $ABHC$ laukumu, ja $AH = BC = 8$.
 </text>
 
@@ -1261,11 +1261,11 @@ uzvaras. Tā kā vidēji uz vienu komandu ir $\frac{x-1}{2}$ uzvaras,
 tad ir komanda ar vismaz $\frac{x-1}{2}$ uzvarām (ja šādas komandas 
 nebūtu, tad kopējais uzvaru skaits būtu mazāks nekā $\frac{x(x-1)}{2}$).
 
-Apzīmēsim turnīra komandu skaitu ar $x$ un pieṇemsim, ka lielākais 
+Apzīmēsim turnīra komandu skaitu ar $x$ un pieņemsim, ka lielākais 
 uzvaru skaits vienai komandai ir $y$; apzīmēsim šo komandu ar $A$. 
 Tās $y$ komandas, kas zaudējušas pret $A$, savā starpā spēlējušas 
 $\frac{y(y-1)}{2}$ spēles, kurās izcīnītas $\frac{y(y-1)}{2}$ 
-uzvaras; bez tam viṇām varbūt ir vēl kādas citas uzvaras. 
+uzvaras; bez tam viņām varbūt ir vēl kādas citas uzvaras. 
 Tāpēc $y \geq \frac{y(y-1)}{2}$, no kurienes izriet, ka $y \leq 3$.
 
 Apskatām visas iespējamās $y$ vērtības.
@@ -1372,15 +1372,15 @@ savā starpā draudzējas.
 
 Apskatām punktu $A$. No tā iziet vismaz $3$ vienas krāsas nogriežņi, 
 jo katri divi rūķi vai nu draudzējas, vai ir ienaidnieki un no viena 
-punkta iziet $5$ nogriežṇi (pēc Dirihlē principa). Apskatām abus 
-iespējamos gadījumus, kādā krāsā var būt nogriežṇi $AB$, $AC$ un $AD$.
+punkta iziet $5$ nogriežņi (pēc Dirihlē principa). Apskatām abus 
+iespējamos gadījumus, kādā krāsā var būt nogriežņi $AB$, $AC$ un $AD$.
 
-1. Ja nogriežṇi $AB$, $AC$, $AD$ ir sarkanā krāsā (ienīst), tad nogriežṇiem 
+1. Ja nogriežņi $AB$, $AC$, $AD$ ir sarkanā krāsā (ienīst), tad nogriežņiem 
    $B C, C D, B D$ ir jābūt zaḷā krāsā (skat. 8.att.), lai neveidotos 
    sarkani trijstūri $ABC$, $ACD$ un $ABD$, jo pēc dotā nav tādu trīs 
    rūķu, kas visi ienīst viens otru. Tātad ir trīs rūki $B,C$ un $D$, 
    kas visi draudzējas savā starpā (veidojas zals̆ trijstūris $BCD$).
-2. Nogriežṇi $AB$, $AC$, $AD$ ir zalạ krāsā (draudzējas). Pieṇemsim 
+2. Nogriežņi $AB$, $AC$, $AD$ ir zalạ krāsā (draudzējas). Pieņemsim 
    pretējo, ka nav tādu trīs rūķu, kas visi savā starpā draudzējas 
    (nav zaḷa trijstūra). Tad punkti $B,C,D$ jāsavieno ar sarkaniem 
    nogriežņiem $BC$, $CD$, $BD$ (skat. 9.att.), lai neviens no trijstūriem 
@@ -1396,7 +1396,7 @@ iespējamos gadījumus, kādā krāsā var būt nogriežṇi $AB$, $AC$ un $AD$.
 
 <text lang="lv">
 Dots vienādsānu trijstūris $ABC$, kuram $AB = AC$ un 
-$\sphericalangle BAC<60^{\circ}$. Riṇka līnija, kuras centrs ir punktā 
+$\sphericalangle BAC<60^{\circ}$. Riņka līnija, kuras centrs ir punktā 
 $B$ un rādiuss $BC$, krusto trijstūra malas $AC$ un $AB$ 
 attiecīgi punktos $D$ un $E$. Aprēķināt $\frac{AD}{DC}$, 
 ja $\frac{AE}{EB}=\frac{2}{5}$.
@@ -1467,7 +1467,7 @@ nav izsakāms formā $36n+8$, kur $n$ ir naturāls skaitlis!
 <text lang="lv">
 ## Atrisinājums
 
-Pieṇemsim pretējo, ka šādi skaitļi eksistē un apzīmēsim tos 
+Pieņemsim pretējo, ka šādi skaitļi eksistē un apzīmēsim tos 
 attiecīgi ar $x$ un $x+1$, iegūstot vienādojumu $x(x+1)=36n+8$.
 
 Pareizinot abas vienādojuma puses ar $4$ un pieskaitot $1$, 
@@ -1489,7 +1489,7 @@ izsakāms formā $36n+8$, kur $n$ - naturāls skaitlis.
 <text lang="lv">
 ## Atrisinājums
 
-Pieṇemsim, ka šāds secīgu naturālu skaitḷu pāris eksistē. Tad to 
+Pieņemsim, ka šāds secīgu naturālu skaitḷu pāris eksistē. Tad to 
 reizinājums pēc moduḷa $9$ ir $8$, jo 
 $36n+8 \equiv 8 \pmod 9$. Aplūkosim, kādus atlikumus pēc moduḷa $9$ 
 var iegūt, reizinot secīgus skaitlus $x$ un $(x+1)$.
@@ -1573,9 +1573,9 @@ ko var iegūt tikai divos veidos: vai nu kā $n-2$, vai arī kā $(n-1)-1$.
 Tātad virknē $\left\{a_{i}\right\}$ vai nu skaitļu pārim $(1 ; n-1)$, 
 vai arī $(2 ; n)$ jāatrodas blakus. Bet nevienā no gadījumiem tas nav
 iespējams. Patiešām, 11.att. gadijumā $1$ un $n-1$ neatrodas blakus, 
-bet skaitlim $n$ abi kaimiṇi jau ir aizṇemti, un līdzīgi 12.att. 
+bet skaitlim $n$ abi kaimiņi jau ir aizņemti, un līdzīgi 12.att. 
 gadijumā skaitḷi $2$ un $n$ neatrodas blakus, bet skaitlim $1$ abi 
-kaimiņi jau ir aizṇemti. Tātad pieņēmums bija aplams un abas virknes 
+kaimiņi jau ir aizņemti. Tātad pieņēmums bija aplams un abas virknes 
 $\left\{b_{i}\right\}$ un $\left\{c_{i}\right\}$ vienlaikus nevar 
 būt attiecīgi $n-1$ un $n-2$ mazāko naturālo skaitļu permutācijas.
 </text>
@@ -1657,10 +1657,10 @@ kas kopā ir izspēlējuši vai nu 3 partijas, vai nevienu partiju,
 tas ir, ka var atrast tādu trijstūri, kuram visas malas ir viena 
 veida līnijas.
 
-Pieṇemsim, ka nav neviena šāda trijstūra. Aplūkojam punktu $A$. 
-Tā kā no tā iziet $5$ nogriežṇi, tad vismaz trīs no tiem ir viena 
+Pieņemsim, ka nav neviena šāda trijstūra. Aplūkojam punktu $A$. 
+Tā kā no tā iziet $5$ nogriežņi, tad vismaz trīs no tiem ir viena 
 veida (pēc Dirihlē principa). Nezaudējot vispārīgumu, uzskatīsim, 
-ka nogriežṇi $AB, AC, AD$ ir nepārtrauktas līnijas. 
+ka nogriežņi $AB, AC, AD$ ir nepārtrauktas līnijas. 
 Tad $BC$ un $CD$ jābūt pārtrauktām līnijām, bet tādā gadījumā 
 trijstūrim $ABD$ vai $BCD$ visas malas būs viena veida līnijas 
 (skat. 14. att.). Iegūta pretruna ar pienēmumu.
