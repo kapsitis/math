@@ -1,11 +1,12 @@
 # <lo-sample/> IMO_SHL.2022.A1
 
-
+<text lang="en">
 Let $(a_n)_{n\geq 1}$ be a sequence of positive real numbers with the property that
 
 $$(a_{n+1})^2 + a_na_{n+2} \leq a_n + a_{n+2}$$
 
 for all positive integers $n$. Show that $a_{2022}\leq 1$.
+</text>
 
 <small>
 
@@ -16,6 +17,7 @@ for all positive integers $n$. Show that $a_{2022}\leq 1$.
 
 </small>
 
+<text lang="en">
 ## Solution
 
 We begin by observing that 
@@ -36,7 +38,7 @@ except maybe $a_{1}$ and $a_{2}$, strictly greater than $1$.
 Finally, suppose $a_{2022}>1$. This implies that $a_{2021} \leqslant 1$ and $a_{2023} \leqslant 1$. 
 Therefore $0< \left(a_{2022}\right)^{2}-1 \leqslant\left(1-a_{2021}\right)\left(a_{2023}-1\right) \leqslant 0$, 
 a contradiction. We conclude that $a_{2022} \leqslant 1$.
-
+</text>
 
 
 
@@ -44,9 +46,11 @@ a contradiction. We conclude that $a_{2022} \leqslant 1$.
 
 # <lo-sample/> IMO_SHL.2022.A2
 
+<text lang="en">
 Let $k \ge 2$ be an integer. Find the smallest integer $n \ge k+1$ with the property that there 
 exists a set of $n$ distinct real numbers such that each of its elements can be written as a 
 sum of $k$ other distinct elements of the set.
+</text>
 
 <small>
 
@@ -57,7 +61,7 @@ sum of $k$ other distinct elements of the set.
 
 </small>
 
-
+<text lang="en">
 ## Solution
 
 *Answer:* $n=k+4$.
@@ -101,15 +105,17 @@ by adding 0 to the previous set.
 This is a valid set as 0 can be added to each constructed expression, 
 and 0 can be expressed as follows: take the numbers $1,2,-3$ and all the numbers 
 from the remaining $l-1$ sets $A_{4}, A_{5}, \cdots, A_{l+2}$.
-
+</text>
 
 
 
 # <lo-sample/> IMO_SHL.2022.A3
 
+<text lang="en">
 Let $\mathbb{R}^+$ denote the set of positive real numbers. Find all functions 
 $f: \mathbb{R}^+ \to \mathbb{R}^+$ such that for each $x \in \mathbb{R}^+$, there is exactly one 
 $y \in \mathbb{R}^+$ satisfying $$xf(y)+yf(x) \leq 2$$
+</text>
 
 <small>
 
@@ -121,6 +127,7 @@ $y \in \mathbb{R}^+$ satisfying $$xf(y)+yf(x) \leq 2$$
 </small>
 
 
+<text lang="en">
 ## Solution
 
 *Answer:* The function $f(x)=1/x$ is the only solution.
@@ -205,9 +212,10 @@ If we fix $x$ and look for the supremum of the expression $\frac{2}{x+y}$ over a
 $$f(x) \geqslant \frac{2}{x+x}=\frac{1}{x}$$
 
 Since we already know that $f(x) \leqslant 1/x$, we conclude that $f(x)=1/x$.
+</text>
 
 
-
+<text lang="en">
 ## Solution
 
 *Answer:* The function $f(x)=1/x$ is the only solution.
@@ -239,9 +247,10 @@ So $y=x$ is the unique $y$ such that $(x, y)$ is a good pair,
 and in particular we have $f(x) \leqslant 1 / x$.
 
 We can now conclude the proof as in Solution 1.
+</text>
 
 
-
+<text lang="en">
 ## Solution
 
 As in the other solutions we verify that the function $f(x)=1/x$ is a solution. 
@@ -296,7 +305,10 @@ $$2 \geqslant x f(g(x))+g(x) f(x) \geqslant \frac{x}{g(x)}+\frac{g(x)}{x} \geqsl
 where the first inequality comes from the problem statement. Consequently each of these 
 inequalities must actually be an equality, and in particular we obtain 
 $f(x)=1/x$ for all $x \in \mathbb{R}_{>0}$.
+</text>
 
+
+<text lang="en">
 ## Solution
 
 Again, let us prove that $f(x)=1 / x$ is the only solution. 
@@ -332,18 +344,20 @@ $h(z)<2$ giving that $(x, z)$ is good pair for both values of $z$,
 a contradiction. We conclude that $f(x)=1/x$ as desired.
 
 *Comment.* Lemma 5 implies Lemma 3, using an argument similar as in the end of Solution 4.
-
+</text>
 
 
 
 
 # <lo-sample/> IMO_SHL.2022.A4
 
+<text lang="en">
 Let $n \geqslant 3$ be an integer, and let $x_1,x_2,\ldots,x_n$ be real numbers in the interval 
 $[0,1]$. Let $s=x_1+x_2+\ldots+x_n$, and assume that $s \geqslant 3$. 
 Prove that there exist integers $i$ and $j$ with $1 \leqslant i<j \leqslant n$ such that
 
 $$2^{j-i}x_ix_j>2^{s-3}.$$
+</text>
 
 <small>
 
@@ -355,6 +369,7 @@ $$2^{j-i}x_ix_j>2^{s-3}.$$
 </small>
 
 
+<text lang="en">
 ## Solution.
 
 Let $1 \leqslant a<b \leqslant n$ be such that $2^{b-a} x_{a} x_{b}$ is maximal. 
@@ -411,16 +426,18 @@ $$s<2^{u+1} x_{a}+2^{v+1} x_{b}+((b-v)-(a+u)-1)=b-a+\left(2^{u+1-\alpha}+2^{v+1-
 Now $2^{b-a} x_{a} x_{b} \geqslant 2^{b-a} 2^{-u-1} 2^{-v-1}$, so it is enough to show $s-5<b-a-u-v-2$, 
 or $s<b-a-$ $u-v+3$. The fact that $u+1-\alpha<1$ and $v+1-\beta<1$ implies 
 $2^{u+1-\alpha}+2^{v+1-\beta}<4$, and so $s<b-a+(2+2-u-v-1)=b-a-u-v-3$.
-
+</text>
 
 
 
 # <lo-sample/> IMO_SHL.2022.A5
 
+<text lang="en">
 Find all positive integers $n \geqslant 2$ for which there exist $n$ real numbers 
 $a_1<\cdots<a_n$ and a real number $r>0$ such that the $\tfrac{1}{2}n(n-1)$ differences 
 $a_j-a_i$ for $1 \leqslant i<j \leqslant n$ are equal, in some order, to the numbers 
 $r^1,r^2,\ldots,r^{\frac{1}{2}n(n-1)}$.
+</text>
 
 <small>
 
@@ -431,6 +448,7 @@ $r^1,r^2,\ldots,r^{\frac{1}{2}n(n-1)}$.
 
 </small>
 
+<text lang="en">
 ## Solution
 
 *Answer:* $n \in\{2,3,4\}$.
@@ -549,12 +567,13 @@ $$r^{4}+1=r^{n+1}=r^{n-1} \cdot r^{2}=r^{3}+r^{2} \Longrightarrow(r-1)\left(r^{3
 
 Since $r \neq 1$, using Equation (1) we conclude $r^{3}=r+1=r^{n-1}$, 
 thus $n=4$, which gives a contradiction.
-
+</text>
 
 
 
 # <lo-sample/> IMO_SHL.2022.A6
 
+<text lang="en">
 Let $\mathbb R$ be the set of real numbers. We denote by 
 $\mathcal F$ the set of all functions $f\colon\mathbb R\to\mathbb R$ such that
 
@@ -562,6 +581,7 @@ $$f(x + f(y)) = f(x) + f(y)$$
 
 for every $x,y\in\mathbb R$ Find all rational numbers $q$ such that 
 for every function $f\in\mathcal F$, there exists some $z\in\mathbb R$ satisfying $f(z)=qz$.
+</text>
 
 <small>
 
@@ -572,6 +592,7 @@ for every function $f\in\mathcal F$, there exists some $z\in\mathbb R$ satisfyin
 
 </small>
 
+<text lang="en">
 ## Solution
 
 *Answer:* The desired set of rational numbers is 
@@ -651,18 +672,20 @@ $$g(\{z\})+\lfloor z\rfloor \neq p(\{z\}+\lfloor z\rfloor)$$
 
 The latter is guaranteed by the construction of the function $g$. We conclude that 
 $p \notin Z$ as desired. This shows that $Z \subset S$.
-
+</text>
 
 
 
 
 # <lo-sample/> IMO_SHL.2022.A7
 
+<text lang="en">
 For a positive integer $n$ we denote by $s(n)$ the sum of the digits of $n$. 
 Let $P(x)=x^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0$ be a polynomial, where $n \geqslant 2$ 
 and $a_i$ is a positive integer for all $0 \leqslant i \leqslant n-1$. 
 Could it be the case that, for all positive integers $k$, $s(k)$ 
 and $s(P(k))$ have the same parity?
+</text>
 
 
 <small>
@@ -674,6 +697,7 @@ and $s(P(k))$ have the same parity?
 
 </small>
 
+<text lang="en">
 ## Solution
 
 *Answer:* No. For any such polynomial there exists a positive integer $k$ such 
@@ -741,18 +765,20 @@ $$
 
 thus $s\left(P\left(10^{\alpha} X\right)\right)$ and $s\left(P\left(10^{\alpha-1} X\right)\right)$ 
 have different parities, as claimed.
-
+</text>
 
 
 
 # <lo-sample/> IMO_SHL.2022.A8
 
+<text lang="en">
 For a positive integer $n$, an $n$-sequence is a sequence $(a_0,\ldots,a_n)$ 
 of non-negative integers satisfying the following condition: if $i$ and $j$ 
 are non-negative integers with $i+j \leqslant n$, then $a_i+a_j \leqslant n$ and $a_{a_i+a_j}=a_{i+j}$.
 
 Let $f(n)$ be the number of $n$-sequences. Prove that there exist positive real numbers 
 $c_1$, $c_2$, and $\lambda$ such that \[c_1\lambda^n<f(n)<c_2\lambda^n\]for all positive integers $n$.
+</text>
 
 <small>
 
@@ -763,7 +789,7 @@ $c_1$, $c_2$, and $\lambda$ such that \[c_1\lambda^n<f(n)<c_2\lambda^n\]for all 
 
 </small>
 
-
+<text lang="en">
 ## Solution
 
 *Answer:* Such constants exist with $\lambda=3^{1 / 6}$; we will discuss 
@@ -946,7 +972,7 @@ in this case, $f(1)=2$, which means that $c_{1}>2 \cdot 3^{-1 / 6} \approx 1.665
 
 With a careful analysis one can show that the best possible value of $c_{2}$ is 
 $\frac{236567}{4930} 3^{1 / 3} \approx$ 69.20662$.
-
+</text>
 
 
 
@@ -954,11 +980,13 @@ $\frac{236567}{4930} 3^{1 / 3} \approx$ 69.20662$.
 
 # <lo-sample/> IMO_SHL.2022.C1
 
+<text lang="en">
 A $\pm 1$-sequence is a sequence of $2022$ numbers $a_1, \ldots, a_{2022},$ 
 each equal to either $+1$ or $-1$. Determine the largest $C$ so that, 
 for any $\pm 1$-sequence, there exists an integer $k$ and indices 
 $1 \le t_1 < \ldots < t_k \le 2022$ so that $t_{i+1} - t_i \le 2$ for all $i$, 
 and $$\left| \sum_{i = 1}^{k} a_{t_i} \right| \ge C.$$
+</text>
 
 
 <small>
@@ -971,6 +999,7 @@ and $$\left| \sum_{i = 1}^{k} a_{t_i} \right| \ge C.$$
 </small>
 
 
+<text lang="en">
 ## Solution
 
 *Answer:* The answer is $C=506$.
@@ -1016,10 +1045,12 @@ the game. At that time, her score is the absolute value of the difference
 between the number of red and blue buckets she visited during the game. 
 Determine the largest $C$ so that no matter how the buckets are coloured,
 Sally can achieve a score of at least $C$.
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.C2
 
+<text lang="en">
 The Bank of Oslo issues two types of coin: aluminum (denoted A) and bronze (denoted B). 
 Marianne has $n$ aluminum coins and $n$ bronze coins arranged in a row 
 in some arbitrary initial order. A chain is any subsequence of consecutive 
@@ -1032,6 +1063,7 @@ $AABBBABA$ would be $AABBBABA \to BBBAAABA \to AAABBBBA \to BBBBAAAA \to \ldots$
 
 Find all pairs $(n,k)$ with $1 \leq k \leq 2n$ such that for every initial ordering, 
 at some moment during the process, the leftmost $n$ coins will all be of the same type.
+</text>
 
 
 <small>
@@ -1044,6 +1076,7 @@ at some moment during the process, the leftmost $n$ coins will all be of the sam
 </small>
 
 
+<text lang="en">
 ## Solution
 
 Define a block to be a maximal subsequence of consecutive coins made out of 
@@ -1092,12 +1125,13 @@ $k \geqslant 2n+1 - \frac{2n}{c} \geqslant \frac{3 n}{2}+1$.
 But this contradicts $k \leqslant \frac{3n+1}{2}$. Hence at some point the 
 operation will not move the rightmost block, meaning that the number 
 of blocks will decrease, as desired.
-
+</text>
 
 
 
 # <lo-sample/> IMO_SHL.2022.C3
 
+<text lang="en">
 In each square of a garden shaped like a $2022 \times 2022$ board, 
 there is initially a tree of height $0$. A gardener and a 
 lumberjack alternate turns playing the following game, 
@@ -1111,6 +1145,7 @@ with the gardener taking the first turn:
 We say that a tree is majestic if its height is at least $10^6$. Determine the largest $K$ such 
 that the gardener can ensure there are eventually $K$ majestic trees on the board, 
 no matter how the lumberjack plays.
+</text>
 
 
 <small>
@@ -1122,6 +1157,7 @@ no matter how the lumberjack plays.
 
 </small>
 
+<text lang="en">
 ## Solution
 
 *Answer:* $K=5 \cdot \frac{2022^{2}}{9}=2271380$. 
@@ -1175,11 +1211,12 @@ moves after he finishes playing on subboard $b$, this means that on
 subboard $b$, there will be 5 trees of height at least 
 $10^{6}(M+1)^{b}-10^{6}\left((M+1)^{b}-1\right)=10^{6}$, 
 hence each of the subboard has $5$ majestic trees, which was what we wanted.
-
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.C4
 
+<text lang="en">
 Let $n > 3$ be a positive integer. Suppose that $n$ children are arranged 
 in a circle, and $n$ coins are distributed between them (some children 
 may have no coins). At every step, a child with at 
@@ -1187,6 +1224,7 @@ least $2$ coins may give $1$ coin to each of their immediate neighbors
 on the right and left. Determine all initial distributions of the coins 
 from which it is possible that, after a finite number of steps, 
 each child has exactly one coin.
+</text>
 
 
 <small>
@@ -1201,7 +1239,7 @@ each child has exactly one coin.
 
 
 
-
+<text lang="en">
 ## Solution
 
 *Answer:* All distributions where $\sum_{i=1}^{n} i c_{i}=\frac{n(n+1)}{2}(\bmod n)$, 
@@ -1315,7 +1353,11 @@ $$\frac{n(n+1)}{2}=\sum_{i=1}^{n} i c_{i}=\left(\sum_{i=1}^{n} 1 \cdot c_{i}\rig
 so $k=0 \pmod {n}$. But this is impossible, as no child except the child 
 with $M$ coins has an index divisible by $n$. Hence we cannot end up in a 
 semi-regular state of irregularity $2$, so we are done.
+</text>
 
+
+
+<text lang="en">
 ## Solution
 
 Encode the sequence $c_{i}$ as a polynomial $p(x)=\sum_{i} a_{i} x_{i}$. 
@@ -1331,11 +1373,12 @@ $$\left(x^{n}-1,(x-1)^{2}\right)=(x-1)\left(\frac{x^{n}-1}{x-1}, x-1\right)=(x-1
 This is equivalent to $p(1)=q(1)$ (which simply translates to the condition 
 that there are $n$ coins) and $p^{\prime}(1)=q^{\prime}(1)(\bmod n)$, 
 which translates to the invariant described in solution $1$.
-
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.C5
 
+<text lang="en">
 Let $m,n \geqslant 2$ be integers, let $X$ be a set with $n$ elements, and let 
 $X_1,X_2,\ldots,X_m$ be pairwise distinct non-empty, not necessary disjoint subset of $X$. 
 A function $f \colon X \to \{1,2,\ldots,n+1\}$ is called nice if there exists an index $k$ such that 
@@ -1343,6 +1386,7 @@ A function $f \colon X \to \{1,2,\ldots,n+1\}$ is called nice if there exists an
 $$\sum_{x \in X_k} f(x)>\sum_{x \in X_i} f(x) \quad \text{for all } i \ne k.$$
 
 Prove that the number of nice functions is at least $n^n$.
+</text>
 
 
 <small>
@@ -1355,6 +1399,7 @@ Prove that the number of nice functions is at least $n^n$.
 </small>
 
 
+<text lang="en">
 ## Solution
 
 For a subset $Y \subseteq X$, we write $f(Y)$ for $\sum_{y \in Y} f(y)$. 
@@ -1394,7 +1439,7 @@ we get we can fully determine the values of $f$.
 As each of the $n^{n}$ functions $f \in \mathcal{F}$ yields 
 a (unique) corresponding nice function 
 $f^{+}: X \rightarrow\{1,2, \ldots, n+1\}$, the proof is complete.
-
+</text>
 
 
 
@@ -1403,11 +1448,13 @@ $f^{+}: X \rightarrow\{1,2, \ldots, n+1\}$, the proof is complete.
 
 # <lo-sample/> IMO_SHL.2022.C6
 
+<text lang="en">
 Let $n$ be a positive integer. We start with $n$ piles of pebbles, each initially 
 containing a single pebble. One can perform moves of the following form: choose two piles, 
 take an equal number of pebbles from each pile and form a new pile out of these pebbles. 
 Find (in terms of $n$) the smallest number of nonempty piles that one can obtain by 
 performing a finite sequence of moves of this form.
+</text>
 
 
 <small>
@@ -1420,6 +1467,7 @@ performing a finite sequence of moves of this form.
 </small>
 
 
+<text lang="en">
 ## Solution
 
 *Answer:* $1$ if $n$ is a power of two, and $2$ otherwise.
@@ -1505,8 +1553,10 @@ divisible by the integer $m$. Replace each pile of $t m$ pebbles
 with a pile of $t$ boulders. We now have a total of $2^{k}$ 
 boulders, hence we can make them into one pile of $2^{k}$ boulders. 
 Replacing the boulders with pebbles again, we are done.
+</text>
 
 
+<text lang="en">
 ## Solution
 
 We show an alternative strategy if $n$ is not a power of $2$. 
@@ -1528,9 +1578,10 @@ piles have cardinality power of 2. The number of pebbles is
 decreasing, and at the end of the process, it has a size of 
 $n-2^{i_{2}+1} \geqslant n-2^{i_{1}}>0$, thus we can manage 
 to have two piles.
+</text>
 
 
-
+<text lang="en">
 ## Solution 
 
 Throughout the solution, we will consider the moves in reverse order.
@@ -1679,12 +1730,13 @@ where $k \geqslant 2$ is a fixed (prime) integer. However, this seems
 to yield a much harder problem - if $k=3$, numerical evidence suggests 
 the same answer as in the case $k=2$ (with powers of two replaced by 
 powers of three), but the case $k=5$ is already unclear.
-
+</text>
 
 
 
 # <lo-sample/> IMO_SHL.2022.C7
 
+<text lang="en">
 Lucy starts by writing $s$ integer-valued $2022$-tuples on a blackboard. 
 After doing that, she can take any two (not necessarily distinct) tuples 
 $\mathbf{v}=(v_1,\ldots,v_{2022})$ and $\mathbf{w}=(w_1,\ldots,w_{2022})$ 
@@ -1701,6 +1753,7 @@ and then write this tuple on the blackboard.
 It turns out that, in this way, Lucy can write any integer-valued 
 $2022$-tuple on the blackboard after finitely many steps. 
 What is the smallest possible number $s$ of tuples that she initially wrote?
+</text>
 
 
 <small>
@@ -1712,6 +1765,7 @@ What is the smallest possible number $s$ of tuples that she initially wrote?
 
 </small>
 
+<text lang="en">
 ## Solution
 
 *Answer:* The smallest possible number is $s=3$.
@@ -1830,7 +1884,7 @@ by both starting tuples, a contradiction with the observation above.
 2. The operations,$+ \vee$ used in this problem are studied 
    in the area of tropical geometry. However, as far as we know, 
    familiarity with tropical geometry does not help when solving the problem.
-
+</text>
 
 
 
@@ -1839,6 +1893,7 @@ by both starting tuples, a contradiction with the observation above.
 
 # <lo-sample/> IMO_SHL.2022.C8
 
+<text lang="en">
 Let $n$ be a positive integer. A Nordic square is an $n \times n$ board containing 
 all the integers from $1$ to $n^2$ so that each cell contains exactly one number. 
 Two different cells are considered adjacent if they share a common side. 
@@ -1850,6 +1905,7 @@ An uphill path is a sequence of one or more cells such that:
 (iii) the numbers written in the cells in the sequence are in increasing order.
 
 Find, as a function of $n$, the smallest possible total number of uphill paths in a Nordic square.
+</text>
 
 <small>
 
@@ -1861,7 +1917,7 @@ Find, as a function of $n$, the smallest possible total number of uphill paths i
 
 </small>
 
-
+<text lang="en">
 ## Solution
 
 Answer: $2 n^{2}-2 n+1$.
@@ -1930,13 +1986,14 @@ constructions for $A$ and $B$ are given for $n=5$.
 - It is a natural idea to change the direction of the path: that way it can start anywhere, 
   but only can end in a well, which exactly means that we cannot extend the path. 
   This is just a reformulation of the problem, but can give some intuitions.
-
+</text>
 
 
 
 
 # <lo-sample/> IMO_SHL.2022.C9
 
+<text lang="en">
 Let $\mathbb Z_{\ge 0}$ be the set of non-negative integers, and let 
 $f:\mathbb Z_{\ge 0}\times \mathbb Z_{\ge 0} \to \mathbb Z_{\ge 0}$ be a 
 bijection such that whenever $f(x_1,y_1) > f(x_2, y_2)$, we have 
@@ -1945,6 +2002,7 @@ $$f(x_1+1, y_1) > f(x_2 + 1, y_2)\;\;\text{and}\;\;f(x_1, y_1+1) > f(x_2, y_2+1)
 
 Let $N$ be the number of pairs of integers $(x,y)$ with $0\le x,y<100$, 
 such that $f(x,y)$ is odd. Find the smallest and largest possible values of $N$.
+</text>
 
 
 <small>
@@ -1956,6 +2014,7 @@ such that $f(x,y)$ is odd. Find the smallest and largest possible values of $N$.
 
 </small>
 
+<text lang="en">
 ## Solution 
 
 *Answer:* The optimal bounds are $2500 \leqslant N \leqslant 7500$.
@@ -2147,13 +2206,14 @@ The numbers mod 2 in the construction for 7500.
   that quadrant can behave. In this solution we characterised all such 
   functions $f$, before even talking about parity, while the problem only 
   asks the number of odd numbers.
-
+</text>
 
 
 
 
 # <lo-sample/> IMO_SHL.2022.G1
 
+<text lang="en">
 Let $ABCDE$ be a convex pentagon such that $BC=DE$. Assume that there is a point $T$ inside 
 $ABCDE$ with $TB=TD,TC=TE$ and $\angle ABT = \angle TEA$. 
 Let line $AB$ intersect lines $CD$ and $CT$ at points $P$ and $Q$, respectively. 
@@ -2161,7 +2221,7 @@ Assume that the points $P,B,A,Q$ occur on their line in that order.
 Let line $AE$ intersect $CD$ and $DT$ at points $R$ and $S$, respectively. 
 Assume that the points $R,E,A,S$ occur on their line in that order. 
 Prove that the points $P,S,Q,R$ lie on a circle.
-
+</text>
 
 <small>
 
@@ -2172,7 +2232,7 @@ Prove that the points $P,S,Q,R$ lie on a circle.
 
 </small>
 
-
+<text lang="en">
 ## Solution
 
 By the conditions we have $B C=D E, C T=E T$ and $T B=T D$, 
@@ -2197,7 +2257,10 @@ $$\angle R P Q=\angle R C Q-\angle P Q C=\angle D S Q-\angle D S R=\angle R S Q$
 which proves that $P, Q, R$ and $S$ are concyclic.
 
 ![](IMO_SHL.2022.G1A.png)
+</text>
 
+
+<text lang="en">
 ## Solution
 
 As in the previous solution, we note that triangles $TBC$ and $TDE$ 
@@ -2224,10 +2287,12 @@ Thus $CD \| VW$, and angle chasing yields
 $$\angle R P Q=\angle W V Q=\angle W S Q=\angle R S Q$$
 
 concluding the proof.
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.G2
 
+<text lang="en">
 In the acute-angled triangle $ABC$, the point $F$ is the foot of the altitude 
 from $A$, and $P$ is a point on the segment $AF$. The lines through $P$ parallel 
 to $AC$ and $AB$ meet $BC$ at $D$ and $E$, respectively. 
@@ -2235,6 +2300,7 @@ Points $X \ne A$ and $Y \ne A$ lie on the circles $ABD$ and $ACE$,
 respectively, such that $DA = DX$ and $EA = EY$.
 
 Prove that $B, C, X,$ and $Y$ are concyclic.
+</text>
 
 <small>
 
@@ -2246,6 +2312,7 @@ Prove that $B, C, X,$ and $Y$ are concyclic.
 </small>
 
 
+<text lang="en">
 ## Solution
 
 Let $A^{\prime}$ be the intersection of lines $B X$ and $C Y$. 
@@ -2271,20 +2338,26 @@ with equal powers, so the radical axis of circles $ABDX$ and $ACEY$
 is the altitude $A F$ that passes through $A^{\prime}$.
 
 ![](IMO_SHL.2022.G2A.png)
+</text>
+
+
 
 ## Solution
 
+<text lang="en">
 We present another way to prove that line $APA^{\prime}$ is the 
 radical axis of the circles $A B D$ and $A C E$. It suffices to show 
 that the second intersection point of $ABD$ and $ACE$ lies on $AP$.
 
 Define $N$ to be the second intersection of circle $PDE$ and $AP$. 
-From $\angle DNA = \angle DNP =  \angle DEP = \angle DBA$ it follows that $N$ lies on circle $ABD$; analogously, we can show that $N$ lies on circle $A C E$.
+From $\angle DNA = \angle DNP =  \angle DEP = \angle DBA$ it follows that $N$ lies on circle $ABD$; analogously, we can show that $N$ lies on circle $ACE$.
+</text>
 
 
 
 # <lo-sample/> IMO_SHL.2022.G3
 
+<text lang="en">
 Let $ABCD$ be a cyclic quadrilateral. Assume that the points 
 $Q, A, B, P$ are collinear in this order, in such a way that the 
 line $AC$ is tangent to the circle $ADQ$, and the line $BD$ is 
@@ -2292,6 +2365,7 @@ tangent to the circle $BCP$. Let $M$ and $N$ be the midpoints
 of segments $BC$ and $AD$, respectively. Prove that the following three 
 lines are concurrent: line $CD$, the tangent of circle $ANQ$ at point $A$, 
 and the tangent to circle $BMP$ at point $B$.
+</text>
 
 
 <small>
@@ -2304,6 +2378,7 @@ and the tangent to circle $BMP$ at point $B$.
 </small>
 
 
+<text lang="en">
 ## Solution
 
 We first prove that triangles $A D Q$ and $C D B$ are similar. Since $A B C D$ is 
@@ -2326,7 +2401,9 @@ that $BK$ is tangent to circle $BMP$.
 Comment. Note that $M$ and $N$ can be any points on lines $BC$ and 
 $AD$ such that $BM:MC = DN:NA$, as we then simply choose $R$ to be 
 such that $DR:RC$ is that same ratio, and the rest of the proof remains unchanged.
+</text>
 
+<text lang="en">
 ## Solution
 
 We present a second solution, without using the condition that $ABCD$ 
@@ -2355,19 +2432,21 @@ $$\left(D,C ; T,K_{2}\right)=\left(BD,BC ; BT,BK_{2}\right)=(PC,PB ; PJ,PM)=(C,B
 
 From $BM:MC = DN:DA$ we get $\left(D,C ; T,K_{1}\right) = \left(D,C ; T,K_{2}\right)$ 
 and hence $K_{1}=K_{2}$.
-
+</text>
 
 
 
 
 # <lo-sample/> IMO_SHL.2022.G4
 
+<text lang="en">
 Let $ABC$ be an acute-angled triangle with $AC > AB$, let $O$ be its circumcentre, 
 and let $D$ be a point on the segment $BC$. The line through $D$ perpendicular 
 to $BC$ intersects the lines $AO, AC,$ and $AB$ at $W, X,$ and $Y,$ respectively. 
 The circumcircles of triangles $AXY$ and $ABC$ intersect again at $Z \ne A$.
 
 Prove that if $W \ne D$ and $OW = OD,$ then $DZ$ is tangent to the circle $AXY.$
+</text>
 
 
 <small>
@@ -2380,6 +2459,7 @@ Prove that if $W \ne D$ and $OW = OD,$ then $DZ$ is tangent to the circle $AXY.$
 </small>
 
 
+<text lang="en">
 ## Solution
 
 Let $AO$ intersect $BC$ at $E$. As $EDW$ is a right-angled triangle 
@@ -2411,8 +2491,10 @@ Using $AZ \| BC$ and $CDXZ$ cyclic we get:
 $$\angle AZD = \angle CDZ = \angle CXZ = \angle AYZ$$
 
 which by the converse of alternate segment theorem shows $DZ$ is tangent to circle $AXY$.
+</text>
 
 
+<text lang="en">
 ## Solution
 
 Notice that point $Z$ is the Miquel-point of lines $AC, BC, BA$ 
@@ -2430,17 +2512,19 @@ By $OW = OD$, the triangle $OWD$ is isosceles, and
 $$\angle ZOA = 2 \angle ZBA = 2 \angle ZBY = 2 \angle ZDY = \angle ODW + \angle DWO$$
 
 so $D$ lies on line $ZO$ that is tangent to circle $AXY$.
-
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.G5
 
+<text lang="en">
 Let $ABC$ be a triangle and $\ell_1,\ell_2$ be two parallel lines. 
 Let $\ell_i$ intersects line $BC,CA,AB$ at $X_i,Y_i,Z_i$, respectively. 
 Let $\Delta_i$ be the triangle formed by the line passed through $X_i$ and 
 perpendicular to $BC$, the line passed through $Y_i$ and perpendicular to $CA$, 
 and the line passed through $Z_i$ and perpendicular to $AB$. 
 Prove that the circumcircles of $\Delta_1$ and $\Delta_2$ are tangent.
+</text>
 
 
 <small>
@@ -2453,6 +2537,7 @@ Prove that the circumcircles of $\Delta_1$ and $\Delta_2$ are tangent.
 </small>
 
 
+<text lang="en">
 ## Solution
 
 Throughout the solutions, $\sphericalangle(p, q)$ will denote the 
@@ -2504,7 +2589,10 @@ The same homothety that maps $\Delta_{1}$ to $\Delta_{2}$, sends $\omega_{1}$
 to $\omega_{2}$ as well. Point $H$, that is the centre of the homothety, 
 is a common point of the two circles, That finishes proving that $\omega_{1}$ 
 and $\omega_{2}$ are tangent to each other.
+</text>
 
+
+<text lang="en">
 ## Solution
 
 As in the first solution, let the vertices of $\Delta_{i}$ be $D_{i}, E_{i}, F_{i}$, 
@@ -2581,18 +2669,21 @@ Hence, all circles $D E F$ passes through a fixed point.
 The corresponding sides of triangles $A B C$ and $D E F$ are perpendicular, 
 so their circumcircle are perpendicular; that proves that circle $DEF$ 
 is tangent to the radius of circle $ABC$ at $H$.
+</text>
 
 
 
 
 # <lo-sample/> IMO_SHL.2022.G6
 
+<text lang="en">
 Let $ABC$ be an acute triangle with altitude $\overline{AH}$, and let $P$ be 
 a variable point such that the angle bisectors $k$ and $\ell$ of $\angle PBC$ 
 and $\angle PCB$, respectively, meet on $\overline{AH}$. Let $k$ meet 
 $\overline{AC}$ at $E$, $\ell$ meet $\overline{AB}$ at $F$, and 
 $\overline{EF}$ meet $\overline{AH}$ at $Q$. Prove that as $P$ varies, 
 line $PQ$ passes through a fixed point.
+</text>
 
 
 <small>
@@ -2605,6 +2696,7 @@ line $PQ$ passes through a fixed point.
 </small>
 
 
+<text lang="en">
 ## Solution
 
 Let the reflections of the line $BC$ with respect to the lines 
@@ -2694,15 +2786,17 @@ $M A$ are tangent to $\mathcal{H}^{\prime}$ at $H, P$ and $K$, respectively.
 But the three points $H, K$ and $P$, together with the tangents at $H$ and 
 $P$ uniquely determine $\mathcal{H}^{\prime}$, so indeed 
 $\mathcal{H}^{\prime}=\mathcal{H}$.)
-
+</text>
 
 
 
 # <lo-sample/> IMO_SHL.2022.G7
 
+<text lang="en">
 Two triangles $ABC$, $A’B’C’$ have the same orthocenter $H$ and the same 
 circumcircle with center $O$. Letting $PQR$ be the triangle formed by 
 $AA’, BB’, CC’$, prove that the circumcenter of $PQR$ lies on $OH$.
+</text>
 
 
 <small>
@@ -2714,7 +2808,7 @@ $AA’, BB’, CC’$, prove that the circumcenter of $PQR$ lies on $OH$.
 
 </small>
 
-
+<text lang="en">
 ## Solution
 
 In what follows, $\sphericalangle(p, q)$ will denote the directed angle 
@@ -2843,18 +2937,19 @@ $$PA \cdot PA^{\prime} = PL \cdot PL^{\prime} = PE \cdot PF$$
 However, this means that $P$ has the same power with respect to 
 $\omega, \Omega$, and $\rho$, and by the same arguments there exist 
 points on $B B^{\prime}$ and $C C^{\prime}$ with this property.
-
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.G8
 
+<text lang="en">
 Let $AA'BCC'B'$ be a convex cyclic hexagon such that $AC$ is tangent 
 to the incircle of the triangle $A'B'C'$, and $A'C'$ is tangent to the 
 incircle of the triangle $ABC$. Let the lines $AB$ and $A'B'$ meet at 
 $X$ and let the lines $BC$ and $B'C'$ meet at $Y$.
 
 Prove that if $XBYB'$ is a convex quadrilateral, then it has an incircle.
-
+</text>
 
 <small>
 
@@ -2866,6 +2961,7 @@ Prove that if $XBYB'$ is a convex quadrilateral, then it has an incircle.
 </small>
 
 
+<text lang="en">
 ## Solution
 
 Denote by $\omega$ and $\omega^{\prime}$ the incircles of $\triangle ABC$ 
@@ -2925,7 +3021,7 @@ must be on the line $T B B^{\prime}$. However, it is on line $A B$,
 so it must be $B$ and $B C$ must be tangent to $\Omega_{0}$ as desired.
 
 ![](IMO_SHL.2022.G8C.png)
-
+</text>
 
 
 
@@ -2933,11 +3029,12 @@ so it must be $B$ and $B C$ must be tangent to $\Omega_{0}$ as desired.
 
 # <lo-sample/> IMO_SHL.2022.N1
 
+<text lang="en">
 A number is called Norwegian if it has three distinct positive divisors 
 whose sum is equal to $2022$. Determine the smallest Norwegian number.  
 (*Note:* The total number of positive divisors of a Norwegian number 
 is allowed to be larger than $3$.)
-
+</text>
 
 <small>
 
@@ -2948,7 +3045,7 @@ is allowed to be larger than $3$.)
 
 </small>
 
-
+<text lang="en">
 ## Solution
 
 *Answer:* $1344$
@@ -3002,14 +3099,16 @@ Since $(c, 3 c-2)=(c, 2) \in\{1,2\}$, then $3 c+2 \mid 8088=2^{3} \cdot 3 \cdot 
 which implies that $3 c+2 \mid 2^{3} \cdot 337$. But since 
 $3c+2 \geqslant 3 \cdot 3+2>8=2^{3}$ and $3c+2 \neq 337$, then it must hold that 
 $3c+2 \geqslant 2 \cdot 337$, contradicting $c<224$.
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.N2
 
+<text lang="en">
 Find all positive integers $n>2$ such that
 
 $$n! \mid \prod_{ p<q\le n, p,q \, \text{primes}} (p+q)$$
-
+</text>
 
 <small>
 
@@ -3020,7 +3119,7 @@ $$n! \mid \prod_{ p<q\le n, p,q \, \text{primes}} (p+q)$$
 
 </small>
 
-
+<text lang="en">
 ## Solution
 
 *Answer:* This only holds for $n=7$.
@@ -3049,11 +3148,12 @@ $p_{m}=p_{m-2}+4$. This implies $sp_{m-2}=3$ and thus $p_{m}=7$, giving $7 \leqs
 
 Finally, a quick computation shows that $7! \mid \prod_{p<q \leqslant 7}(p+q)$ 
 but $8!\nmid \prod_{p<q \leqslant 7}(p+q)$, so neither does $9!$ and $10!$.
-
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.N3
 
+<text lang="en">
 Let $a > 1$ be a positive integer and $d > 1$ be a positive integer 
 coprime to $a$. Let $x_1=1$, and for $k\geq 1$, define
 
@@ -3064,6 +3164,7 @@ x_k/a & \text{if } a \text{ divides } x_k
 
 Find, in terms of $a$ and $d$, the greatest positive integer $n$ 
 for which there exists an index $k$ such that $x_k$ is divisible by $a^n$.
+</text>
 
 
 <small>
@@ -3076,6 +3177,7 @@ for which there exists an index $k$ such that $x_k$ is divisible by $a^n$.
 </small>
 
 
+<text lang="en">
 ## Solution
 
 *Answer:* $n$ is the exponent with $d<a^{n}<a d$.
@@ -3100,7 +3202,11 @@ $$x_{k_{0}} \in\left\{a^{n}-d, a^{n}-2 d, \ldots, a^{n}-(a-1) d\right\}$$
 
 In this set no element is divisible by $a$, so therefore the sequence 
 will visit the value $a^{n}$ in the next $a-1$ steps.
+</text>
 
+
+
+<text lang="en">
 ## Solution
 
 Like in the first solution, $x_{k}$ is relatively prime to $d$ and $x_{k}<a d$ for all $k$.
@@ -3125,7 +3231,11 @@ It follows that the sequence is periodic, and therefore attains the initial
 value 1 infinitely many times. Let $k_{1}>1$ be an index such that $x_{k_{1}}=1$. Then
 
 $$x_{k_{1}}=1, \quad x_{k_{1}-1}=f^{-1}(1)=a, x_{k_{1}-2}=f^{-1}(a)=a^{2}, \ldots, \quad x_{k_{1}-n}=a^{n}$$
+</text>
 
+
+
+<text lang="en">
 ## Solution 
 
 Like in the first solution, $x_{k}$ is relatively prime to $d$ and $x_{k}<a d$ for all $k$.
@@ -3165,13 +3275,16 @@ Since $d>a^{n} / a=a^{n-1}$ the LHS is strictly less than $a^{v-n}$.
 This implies that on the RHS, the coefficients of $a^{v-n}, a^{v-n+1}, \ldots$ 
 must all be zero, i.e. $z_{v-n}=z_{v-n+1}=\cdots=z_{v-1}=0$.
 This implies that there are $n$ consecutive decreasing indices in the original sequence.
-
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.N4
 
+<text lang="en">
 Find all triples $(a,b,p)$ of positive integers with 
 $p$ prime and \[ a^p=b!+p. \]
+</text>
+
 
 
 <small>
@@ -3184,6 +3297,7 @@ $p$ prime and \[ a^p=b!+p. \]
 </small>
 
 
+<text lang="en">
 ## Solution
 
 *Answer:* $(2,2,2)$ and $(3,4,3)$.
@@ -3221,8 +3335,11 @@ $$\nu_{2}((p+1)!) \leqslant \nu_{2}(b!) = \nu_{2}\left(p^{p-1}-1\right) \stackre
 where in the middle we used lifting-the-exponent lemma. On the RHS we have three 
 factors of $(p+1)!$. But, due to $p+1 \geqslant 8$, there are at least $4$ even 
 numbers among $1,2, \ldots, p+1$, so this case is not possible.
+</text>
 
 
+
+<text lang="en">
 ## Solution
 
 The cases $a \neq p$ are covered as in solution 1 , as are $p=2,3$. 
@@ -3236,8 +3353,10 @@ $$b!\geqslant(2 p-1)!=[1 \cdot(2 p-1)] \cdot[2 \cdot(2 p-2)] \cdots \cdots[(p-1)
 \cdot p>(2 p-1)^{p-1} p>p^{p}>p^{p}-p,$$ 
 
 a contradiction.
+</text>
 
 
+<text lang="en">
 ## Solution
 
 The cases $a \neq p$ are covered as in solution 1, 
@@ -3269,9 +3388,10 @@ $$\nu_{q}(b!) \geqslant \nu_{q}((3q)!)=3$$
 so we must have $q \geqslant \frac{p}{2}$, in other words, $p-1 = 2q$. 
 This implies that $p=2^{k}-1$ and $q=2^{k-1}-1$ are both prime, 
 but it is not possible to have two consecutive Mersenne primes.
+</text>
 
 
-
+<text lang="en">
 ## Solution
 
 Let $a=p, b>p$ and $p \geqslant 5$ (the remaining cases are dealt with as in solution $3$). 
@@ -3282,12 +3402,13 @@ $p^{p}-p=(p+1-1)^{p}-p \equiv\binom{p}{1}(p+1)(-1)^{p-1}+(-1)^{p}-p=p(p+1)-1-p=p
 Since $p \geqslant 5$, the numbers 2 and $\frac{p+1}{2}$ are distinct and less than or equal to $p$. Therefore, $p+1 \mid p!$, and so $(p+1)^{2} \mid(p+1)!$.
 
 But $b \geqslant p+1$, so $b!\equiv 0 \not \equiv p^{p}-p \bmod (p+1)^{2}$, a contradiction.
-
+</text>
 
 
 
 # <lo-sample/> IMO_SHL.2022.N5
 
+<text lang="en">
 For each $1\leq i\leq 9$ and $T\in\mathbb N$, define $d_i(T)$ 
 to be the total number of times the digit $i$ appears when 
 all the multiples of $1829$ between $1$ and $T$ inclusive 
@@ -3295,6 +3416,7 @@ are written out in base $10$.
 
 Show that there are infinitely many $T\in\mathbb N$ such that there are 
 precisely two distinct values among $d_1(T)$, $d_2(T)$, $\dots$, $d_9(T)$.
+</text>
 
 
 <small>
@@ -3306,6 +3428,7 @@ precisely two distinct values among $d_1(T)$, $d_2(T)$, $\dots$, $d_9(T)$.
 
 </small>
 
+<text lang="en">
 ## Solution
 
 Let $n:=1829$. First, we choose some $k$ such that $n \mid 10^{k}-1$. 
@@ -3349,11 +3472,12 @@ $\#\left\{d_{i}\left(10^{k}-1\right)\right\} \leqslant 2$.
 **Comment.** More careful analysis shows that 
 $\#\left\{d_{i}\left(10^{k}-1\right): 1 \leqslant i \leqslant 9\right\}=1$ 
 if and only if $n \equiv 1$ $(\bmod 10)$, which is not the case for $n=1829$.
-
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.N6
 
+<text lang="en">
 Let $Q$ be a set of prime numbers, not necessarily finite. 
 For a positive integer $n$ consider its prime factorization: 
 define $p(n)$ to be the sum of all the exponents and 
@@ -3366,6 +3490,7 @@ the number of special integers in $[1,N]$ is at least $cN$.
 
 (For example, if $Q=\{3,7\}$, then $p(42)=3$, $q(42)=2$, $p(63)=3$, 
 $q(63)=3$, $p(2022)=3$, $q(2022)=1$.)
+</text>
 
 
 <small>
@@ -3377,6 +3502,7 @@ $q(63)=3$, $p(2022)=3$, $q(2022)=1$.)
 
 </small>
 
+<text lang="en">
 ## Solution
 
 Let us call two positive integers $m, n$ friends if $p(m)+p(n)$ and 
@@ -3437,15 +3563,17 @@ density: see a recent paper
 [https://arxiv.org/abs/1509.01545](https://arxiv.org/abs/1509.01545) 
 for the proof that all eight patterns of the parities of 
 $p(n), p(n+1), p(n+2)$ appear for a positive proportion of positive integers.
-
+</text>
 
 
 # <lo-sample/> IMO_SHL.2022.N7
 
+<text lang="en">
 Let $k$ be a positive integer and let $S$ be a finite set of odd prime numbers. 
 Prove that there is at most one way (up to rotation and reflection) 
 to place the elements of $S$ around the circle such that the product 
 of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$.
+</text>
 
 
 <small>
@@ -3457,6 +3585,7 @@ of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$.
 
 </small>
 
+<text lang="en">
 ## Solution
 
 Let us allow the value $x=0$ as well; we prove the same statement under this 
@@ -3558,6 +3687,7 @@ It follows that there is at most one valid cycle, completing the inductive step.
 *Comment.* The statement is not as inapplicable as it might seem. For example, for $k=41$, the following 385 primes form a valid cycle of primes:
 
 53, 4357, 104173, 65921, 36383, 99527, 193789, 2089123, 1010357, 2465263, 319169, 15559, 3449, 2647, 1951, 152297, 542189, 119773, 91151, 66431, 222137, 1336799, 469069, 45613, 1047941, 656291, 355867, 146669, 874879, 2213327, 305119, 3336209, 1623467, 520963, 794201, 1124833, 28697, 15683, 42557, 6571, 39607, 1238833, 835421, 2653681, 5494387, 9357539, 511223, 1515317, 8868173, 114079681, 59334071, 22324807, 3051889, 5120939, 7722467, 266239, 693809 , 3931783, 1322317, 100469, 13913, 74419, 23977, 1361, 62983, 935021, 512657, 1394849, 216259, 45827, 31393, 100787, 1193989, 600979, 209543, 357661, 545141, 19681, 10691, 28867, 165089, 2118023, 6271891, 12626693, 21182429, 1100467, 413089, 772867, 1244423, 1827757, 55889, 1558873, 5110711, 1024427, 601759, 290869, 91757, 951109, 452033, 136471, 190031, 4423, 9239, 15809, 24133, 115811, 275911, 34211, 877, 6653, 88001, 46261, 317741, 121523, 232439, 379009, 17827, 2699, 15937, 497729, 335539, 205223, 106781, 1394413, 4140947, 8346383, 43984757, 14010721, 21133961, 729451, 4997297, 1908223, 278051, 529747, 40213, 768107, 456821, 1325351, 225961, 1501921, 562763, 75527, 5519, 9337, 14153, 499, 1399, 2753, 14401, 94583, 245107, 35171, 397093, 195907, 2505623, 34680911, 18542791, 7415917, 144797293, 455529251, 86675291, 252704911, 43385123, 109207907, 204884269, 330414209, 14926789, 1300289, 486769, 2723989, 907757, 1458871, 65063, 4561, 124427, 81343, 252887, 2980139, 1496779, 3779057, 519193, 47381, 135283, 268267, 446333, 669481, 22541, 54167, 99439, 158357, 6823, 32497, 1390709, 998029, 670343, 5180017, 13936673, 2123491, 4391941, 407651, 209953, 77249, 867653, 427117, 141079, 9539, 227, 1439, 18679, 9749, 25453, 3697, 42139, 122327, 712303, 244261, 20873, 52051, 589997, 4310569, 1711069, 291563, 3731527, 11045429, 129098443, 64620427, 162661963, 22233269, 37295047, 1936969, 5033449, 725537, 1353973, 6964457, 2176871, 97231, 7001, 11351, 55673, 16747, 169003, 1218571, 479957, 2779783, 949609, 4975787, 1577959, 2365007, 3310753, 79349, 23189, 107209, 688907, 252583, 30677, 523, 941, 25981, 205103, 85087, 1011233, 509659, 178259, 950479, 6262847, 2333693, 305497, 3199319, 9148267, 1527563, 466801, 17033, 9967, 323003, 4724099, 14278309, 2576557, 1075021, 6462593, 2266021, 63922471, 209814503, 42117791, 131659867, 270892249, 24845153, 12104557, 3896003, 219491, 135913, 406397, 72269, 191689, 2197697, 1091273, 2727311, 368227, 1911661, 601883, 892657, 28559, 4783, 60497, 31259, 80909, 457697, 153733, 11587, 1481, 26161, 15193, 7187, 2143, 21517, 10079, 207643, 1604381, 657661, 126227, 372313, 2176331, 748337, 64969, 844867, 2507291, 29317943, 14677801, 36952793, 69332267, 111816223, 5052241, 8479717, 441263, 3020431, 1152751, 13179611, 38280013, 6536771, 16319657, 91442699, 30501409, 49082027, 72061511, 2199433, 167597, 317963, 23869, 2927, 3833, 17327, 110879, 285517, 40543, 4861, 21683, 50527, 565319, 277829, 687917, 3846023, 25542677, 174261149, 66370753, 9565711, 1280791, 91393, 6011, 7283, 31859, 8677, 10193, 43987, 11831, 13591, 127843, 358229, 58067, 15473, 65839, 17477, 74099, 19603, 82847, 21851, 61.
+</text>
 
 
 
@@ -3568,7 +3698,9 @@ It follows that there is at most one valid cycle, completing the inductive step.
 
 # <lo-sample/> IMO_SHL.2022.N8
 
+<text lang="en">
 Prove that $5^n-3^n$ is not divisible by $2^n+65$ for any positive integer $n$.
+</text>
 
 
 <small>
@@ -3581,7 +3713,7 @@ Prove that $5^n-3^n$ is not divisible by $2^n+65$ for any positive integer $n$.
 </small>
 
 
-
+<text lang="en">
 ## Solution
 
 Let $n$ be a positive integer, and let $m=2^{n}+65$. For the sake of 
@@ -3704,8 +3836,10 @@ cannot be a product of such primes.
 
 Instead of handling the prime divisors of $m$ separately, we can use 
 Jacobi symbols for further simplification, as shown in the next solution.
+</text>
 
 
+<text lang="en">
 ## Solution 
 
 Suppose again that $5^{n} \equiv 3^{n} \pmod {m=2^{n}+65}$. 
@@ -3717,5 +3851,5 @@ Using Jacobi symbols,
 $$-1=\left(\frac{2^{n}+65}{5}\right)=\left(\frac{5}{2^{n}+65}\right)=\left(\frac{5^{n}}{2^{n}+65}\right)=\left(\frac{3^{n}}{2^{n}+65}\right)=\left(\frac{3}{2^{n}+65}\right)=\left(\frac{2^{n}+65}{3}\right)=1,$$
 
 contradiction.
-
+</text>
 
