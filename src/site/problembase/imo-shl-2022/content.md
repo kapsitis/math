@@ -17,7 +17,7 @@ for all positive integers $n$. Show that $a_{2022}\leq 1$.
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 We begin by observing that 
@@ -61,7 +61,7 @@ sum of $k$ other distinct elements of the set.
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* $n=k+4$.
@@ -127,7 +127,7 @@ $y \in \mathbb{R}^+$ satisfying $$xf(y)+yf(x) \leq 2$$
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* The function $f(x)=1/x$ is the only solution.
@@ -215,7 +215,7 @@ Since we already know that $f(x) \leqslant 1/x$, we conclude that $f(x)=1/x$.
 </text>
 
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution
 
 *Answer:* The function $f(x)=1/x$ is the only solution.
@@ -250,7 +250,7 @@ We can now conclude the proof as in Solution 1.
 </text>
 
 
-<text lang="en">
+<text num="3" lang="en">
 ## Solution
 
 As in the other solutions we verify that the function $f(x)=1/x$ is a solution. 
@@ -308,7 +308,7 @@ $f(x)=1/x$ for all $x \in \mathbb{R}_{>0}$.
 </text>
 
 
-<text lang="en">
+<text num="4" lang="en">
 ## Solution
 
 Again, let us prove that $f(x)=1 / x$ is the only solution. 
@@ -369,7 +369,7 @@ $$2^{j-i}x_ix_j>2^{s-3}.$$
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution.
 
 Let $1 \leqslant a<b \leqslant n$ be such that $2^{b-a} x_{a} x_{b}$ is maximal. 
@@ -448,7 +448,7 @@ $r^1,r^2,\ldots,r^{\frac{1}{2}n(n-1)}$.
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* $n \in\{2,3,4\}$.
@@ -592,7 +592,7 @@ for every function $f\in\mathcal F$, there exists some $z\in\mathbb R$ satisfyin
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* The desired set of rational numbers is 
@@ -697,7 +697,7 @@ and $s(P(k))$ have the same parity?
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* No. For any such polynomial there exists a positive integer $k$ such 
@@ -789,7 +789,7 @@ $c_1$, $c_2$, and $\lambda$ such that \[c_1\lambda^n<f(n)<c_2\lambda^n\]for all 
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* Such constants exist with $\lambda=3^{1 / 6}$; we will discuss 
@@ -999,7 +999,7 @@ and $$\left| \sum_{i = 1}^{k} a_{t_i} \right| \ge C.$$
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* The answer is $C=506$.
@@ -1076,7 +1076,7 @@ at some moment during the process, the leftmost $n$ coins will all be of the sam
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Define a block to be a maximal subsequence of consecutive coins made out of 
@@ -1157,7 +1157,7 @@ no matter how the lumberjack plays.
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* $K=5 \cdot \frac{2022^{2}}{9}=2271380$. 
@@ -1239,7 +1239,7 @@ each child has exactly one coin.
 
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* All distributions where $\sum_{i=1}^{n} i c_{i}=\frac{n(n+1)}{2}(\bmod n)$, 
@@ -1357,7 +1357,7 @@ semi-regular state of irregularity $2$, so we are done.
 
 
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution
 
 Encode the sequence $c_{i}$ as a polynomial $p(x)=\sum_{i} a_{i} x_{i}$. 
@@ -1399,7 +1399,7 @@ Prove that the number of nice functions is at least $n^n$.
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 For a subset $Y \subseteq X$, we write $f(Y)$ for $\sum_{y \in Y} f(y)$. 
@@ -1467,7 +1467,7 @@ performing a finite sequence of moves of this form.
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* $1$ if $n$ is a power of two, and $2$ otherwise.
@@ -1556,7 +1556,7 @@ Replacing the boulders with pebbles again, we are done.
 </text>
 
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution
 
 We show an alternative strategy if $n$ is not a power of $2$. 
@@ -1581,7 +1581,7 @@ to have two piles.
 </text>
 
 
-<text lang="en">
+<text num="3" lang="en">
 ## Solution 
 
 Throughout the solution, we will consider the moves in reverse order.
@@ -1765,7 +1765,7 @@ What is the smallest possible number $s$ of tuples that she initially wrote?
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* The smallest possible number is $s=3$.
@@ -1917,7 +1917,7 @@ Find, as a function of $n$, the smallest possible total number of uphill paths i
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Answer: $2 n^{2}-2 n+1$.
@@ -2014,7 +2014,7 @@ such that $f(x,y)$ is odd. Find the smallest and largest possible values of $N$.
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution 
 
 *Answer:* The optimal bounds are $2500 \leqslant N \leqslant 7500$.
@@ -2232,7 +2232,7 @@ Prove that the points $P,S,Q,R$ lie on a circle.
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 By the conditions we have $B C=D E, C T=E T$ and $T B=T D$, 
@@ -2260,7 +2260,7 @@ which proves that $P, Q, R$ and $S$ are concyclic.
 </text>
 
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution
 
 As in the previous solution, we note that triangles $TBC$ and $TDE$ 
@@ -2312,7 +2312,7 @@ Prove that $B, C, X,$ and $Y$ are concyclic.
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Let $A^{\prime}$ be the intersection of lines $B X$ and $C Y$. 
@@ -2341,10 +2341,9 @@ is the altitude $A F$ that passes through $A^{\prime}$.
 </text>
 
 
-
+<text num="2" lang="en">
 ## Solution
 
-<text lang="en">
 We present another way to prove that line $APA^{\prime}$ is the 
 radical axis of the circles $A B D$ and $A C E$. It suffices to show 
 that the second intersection point of $ABD$ and $ACE$ lies on $AP$.
@@ -2378,7 +2377,7 @@ and the tangent to circle $BMP$ at point $B$.
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 We first prove that triangles $A D Q$ and $C D B$ are similar. Since $A B C D$ is 
@@ -2403,7 +2402,7 @@ $AD$ such that $BM:MC = DN:NA$, as we then simply choose $R$ to be
 such that $DR:RC$ is that same ratio, and the rest of the proof remains unchanged.
 </text>
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution
 
 We present a second solution, without using the condition that $ABCD$ 
@@ -2459,7 +2458,7 @@ Prove that if $W \ne D$ and $OW = OD,$ then $DZ$ is tangent to the circle $AXY.$
 </small>
 
 
-<text lang="en">
+<text num="3" lang="en">
 ## Solution
 
 Let $AO$ intersect $BC$ at $E$. As $EDW$ is a right-angled triangle 
@@ -2494,7 +2493,7 @@ which by the converse of alternate segment theorem shows $DZ$ is tangent to circ
 </text>
 
 
-<text lang="en">
+<text num="4" lang="en">
 ## Solution
 
 Notice that point $Z$ is the Miquel-point of lines $AC, BC, BA$ 
@@ -2537,7 +2536,7 @@ Prove that the circumcircles of $\Delta_1$ and $\Delta_2$ are tangent.
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Throughout the solutions, $\sphericalangle(p, q)$ will denote the 
@@ -2592,7 +2591,7 @@ and $\omega_{2}$ are tangent to each other.
 </text>
 
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution
 
 As in the first solution, let the vertices of $\Delta_{i}$ be $D_{i}, E_{i}, F_{i}$, 
@@ -2696,7 +2695,7 @@ line $PQ$ passes through a fixed point.
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Let the reflections of the line $BC$ with respect to the lines 
@@ -2808,7 +2807,7 @@ $AA’, BB’, CC’$, prove that the circumcenter of $PQR$ lies on $OH$.
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 In what follows, $\sphericalangle(p, q)$ will denote the directed angle 
@@ -2961,7 +2960,7 @@ Prove that if $XBYB'$ is a convex quadrilateral, then it has an incircle.
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Denote by $\omega$ and $\omega^{\prime}$ the incircles of $\triangle ABC$ 
@@ -3045,7 +3044,7 @@ is allowed to be larger than $3$.)
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* $1344$
@@ -3119,7 +3118,7 @@ $$n! \mid \prod_{ p<q\le n, p,q \, \text{primes}} (p+q)$$
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* This only holds for $n=7$.
@@ -3177,7 +3176,7 @@ for which there exists an index $k$ such that $x_k$ is divisible by $a^n$.
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* $n$ is the exponent with $d<a^{n}<a d$.
@@ -3206,7 +3205,7 @@ will visit the value $a^{n}$ in the next $a-1$ steps.
 
 
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution
 
 Like in the first solution, $x_{k}$ is relatively prime to $d$ and $x_{k}<a d$ for all $k$.
@@ -3235,7 +3234,7 @@ $$x_{k_{1}}=1, \quad x_{k_{1}-1}=f^{-1}(1)=a, x_{k_{1}-2}=f^{-1}(a)=a^{2}, \ldot
 
 
 
-<text lang="en">
+<text num="3" lang="en">
 ## Solution 
 
 Like in the first solution, $x_{k}$ is relatively prime to $d$ and $x_{k}<a d$ for all $k$.
@@ -3297,7 +3296,7 @@ $p$ prime and \[ a^p=b!+p. \]
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 *Answer:* $(2,2,2)$ and $(3,4,3)$.
@@ -3339,7 +3338,7 @@ numbers among $1,2, \ldots, p+1$, so this case is not possible.
 
 
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution
 
 The cases $a \neq p$ are covered as in solution 1 , as are $p=2,3$. 
@@ -3356,7 +3355,7 @@ a contradiction.
 </text>
 
 
-<text lang="en">
+<text num="3" lang="en">
 ## Solution
 
 The cases $a \neq p$ are covered as in solution 1, 
@@ -3391,7 +3390,7 @@ but it is not possible to have two consecutive Mersenne primes.
 </text>
 
 
-<text lang="en">
+<text num="4" lang="en">
 ## Solution
 
 Let $a=p, b>p$ and $p \geqslant 5$ (the remaining cases are dealt with as in solution $3$). 
@@ -3428,7 +3427,7 @@ precisely two distinct values among $d_1(T)$, $d_2(T)$, $\dots$, $d_9(T)$.
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Let $n:=1829$. First, we choose some $k$ such that $n \mid 10^{k}-1$. 
@@ -3502,7 +3501,7 @@ $q(63)=3$, $p(2022)=3$, $q(2022)=1$.)
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Let us call two positive integers $m, n$ friends if $p(m)+p(n)$ and 
@@ -3585,7 +3584,7 @@ of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$.
 
 </small>
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Let us allow the value $x=0$ as well; we prove the same statement under this 
@@ -3713,7 +3712,7 @@ Prove that $5^n-3^n$ is not divisible by $2^n+65$ for any positive integer $n$.
 </small>
 
 
-<text lang="en">
+<text num="1" lang="en">
 ## Solution
 
 Let $n$ be a positive integer, and let $m=2^{n}+65$. For the sake of 
@@ -3839,7 +3838,7 @@ Jacobi symbols for further simplification, as shown in the next solution.
 </text>
 
 
-<text lang="en">
+<text num="2" lang="en">
 ## Solution 
 
 Suppose again that $5^{n} \equiv 3^{n} \pmod {m=2^{n}+65}$. 
