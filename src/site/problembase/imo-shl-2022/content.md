@@ -3106,7 +3106,7 @@ $3c+2 \geqslant 2 \cdot 337$, contradicting $c<224$.
 <text lang="en">
 Find all positive integers $n>2$ such that
 
-$$n! \mid \prod_{ p<q\le n, p,q \, \text{primes}} (p+q)$$
+$$n! \mid \prod_{ p<q \leq n, p,q \, \text{primes}} (p+q).$$
 </text>
 
 <small>
@@ -3281,7 +3281,7 @@ This implies that there are $n$ consecutive decreasing indices in the original s
 
 <text lang="en">
 Find all triples $(a,b,p)$ of positive integers with 
-$p$ prime and \[ a^p=b!+p. \]
+$p$ prime and $a^p=b!+p$.
 </text>
 
 
