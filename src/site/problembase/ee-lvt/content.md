@@ -1,4 +1,4 @@
-# <lo-sample/> EE.LVT.2009.9_10.1
+# <lo-sample/> EE.LHT.2009T.9_10.1
 
 Atrast visus vienādojuma $xy-3x+7y = 2030$ atrisinājumus 
 naturālos skaitļos.
@@ -15,7 +15,7 @@ genre=integer-equation
 
 
 
-# <lo-sample/> EE.LVT.2009.9_10.5
+# <lo-sample/> EE.LHT.2009T.9_10.5
 
 Sauksim naturālu skaitli $n$ par *pirmskaittiecīgu*, ja 
 eksistē vismaz trīs tādi pirmskaitļi, kuriem nodzēšot pēdējo 
@@ -37,7 +37,7 @@ concepts=primes
 
 
 
-# <lo-sample/> EE.LVT.2009.11_12.3
+# <lo-sample/> EE.LHT.2009T.11_12.3
 
 Sauksim naturālu skaitli $n$ par *tīru*, ja tas neietilpst nevienā
 veselu skaitļu virknē
@@ -79,7 +79,7 @@ genre=sequence-properties
 
 
 
-# <lo-sample/> EE.LVT.2010.9_10.1
+# <lo-sample/> EE.LHT.2010T.9_10.1
 
 Atrast visus naturālos skaitļus, kuru pierakstā nav vairāk par četriem
 cipariem, un kuri, nodzēšot pirmo ciparu, samazinās tieši $25$ reizes
@@ -98,7 +98,7 @@ genre=digit-manipulation
 -->
 
 
-# <lo-sample/> EE.LVT.2010.9_10.1
+# <lo-sample/> EE.LHT.2010T.9_10.1
 
 Aplūkosim naturālus skaitļus $N$, kuriem ir tieši $6$ 
 pozitīvi dalītāji - apzīmēsim šos dalītājus ar 
@@ -132,7 +132,7 @@ concepts=divisors
 
 
 
-# <lo-sample/> EE.LVT.2010.11_12.5
+# <lo-sample/> EE.LHT.2010T.11_12.5
 
 Cik ir tādu naturālu skaitļu, kas dalās ar $2010$, kuriem ir 
 tieši $2010$ pozitīvu dalītāju (ieskaitot $1$ un pašu skaitli)? 
@@ -151,7 +151,7 @@ concepts=divisors
 
 
 
-# <lo-sample/> EE.LVT.2011.9_10.1
+# <lo-sample/> EE.LHT.2011T.9_10.1
 
 Pierādīt, ka vienādojumam
 $$2x^3 − y^2 = 3$$
@@ -170,7 +170,7 @@ genre=integer-equation
 
 
 
-# <lo-sample/> EE.LVT.2011.9_10.5
+# <lo-sample/> EE.LHT.2011T.9_10.5
 
 Vai var gadīties, ka trijstūrim ar veseliem malu garumiem
 perimetrs dalās ar divkāršotu trijstūra pašas garākās malas garumu. 
@@ -188,7 +188,7 @@ genre=integer-geometry
 
 
 
-# <lo-sample/> EE.LVT.2011.11_12.1
+# <lo-sample/> EE.LHT.2011T.11_12.1
 
 Pierādīt, ka jebkuram pozitīvam skaitlim $n$ pirmo $n$ 
 pirmskaitļu summa ir lielāka par $n^2$. 
@@ -205,7 +205,7 @@ concepts=primes
 
 
 
-# <lo-sample/> EE.LVT.2011.11_12.2
+# <lo-sample/> EE.LHT.2011T.11_12.2
 
 Atrast visus naturālu skaitļu trijniekus $(a,b,c)$, 
 kuriem izpildās vienādība
@@ -226,7 +226,7 @@ genre=integer-equation
 
 
 
-# <lo-sample/> EE.LVT.2012.9_10.1
+# <lo-sample/> EE.LHT.2012T.9_10.1
 
 Kärt's uzraksta uz tāfeles daļas $\frac{1}{2}$
 un $\frac{1}{3}$, bet Märt's uzraksta uz papīra $10$ 
@@ -266,7 +266,7 @@ genre=game
 
 
 
-# <lo-sample/> EE.LVT.2012.9_10.5
+# <lo-sample/> EE.LHT.2012T.9_10.5
 
 Atrast visus tos veselu skaitļu pārus $(a, b)$, kuriem
 $(a + 1)(b − 1) = a^2b^2$.
@@ -282,7 +282,7 @@ genre=integer-equation
 -->
 
 
-# <lo-sample/> EE.LVT.2012.11_12.1
+# <lo-sample/> EE.LHT.2012T.11_12.1
 
 Ar $a$ un $b$ apzīmējam tādus naturālus skaitļus, ka $b$ dalās ar $a$, bet
 pierakstot skaitļus $a$ un $b$ vienu aiz otra šajā secībā, 
@@ -301,7 +301,7 @@ genre=digit-manipulation
 -->
 
 
-# <lo-sample/> EE.LVT.2012.11_12.2
+# <lo-sample/> EE.LHT.2012T.11_12.2
 
 Ar $x$ un $y$ ir dažādi naturāli skaitļi. Pierādīt, ka 
 $$\frac{x^2 + 4xy + y^2}{x^3 − y^3}$$
@@ -319,7 +319,7 @@ questionType=Prove
 -->
 
 
-# <lo-sample/> EE.LVT.2012.11_12.5
+# <lo-sample/> EE.LHT.2012T.11_12.5
 
 Atrast visas funkcijas $f$, kas definēta naturāliem skaitļiem
 un pieņem naturālas vērtības, kas apmierina nosacījumu: 
@@ -342,7 +342,7 @@ genre=functional-equation
 
 
 
-# <lo-sample/> EE.LVT.2013.9_10.1
+# <lo-sample/> EE.LHT.2013T.9_10.1
 
 Sauksim naturālu skaitli par *interesantu*, ja 
 skaitlis, kuru veido jebkuri divi
@@ -370,7 +370,7 @@ genre=string-counting
 
 
 
-# <lo-sample/> EE.LVT.2013.9_10.3
+# <lo-sample/> EE.LHT.2013T.9_10.3
 
 Par naturāla skaitļa $n$ *nepāra daļu* sauksim lielāko 
 nepāra naturālo skaitli, ar kuru dalās $n$.
@@ -392,7 +392,7 @@ questionType=ProveDisprove
 
 
 
-# <lo-sample/> EE.LVT.2013.11_12.1
+# <lo-sample/> EE.LHT.2013T.11_12.1
 
 Atrast visus tos pozitīvu racionālu skaitļu pārus, 
 kuriem pārī ietilpstošo skaitļu summa ir vesels skaitlis, 
@@ -411,7 +411,7 @@ questionType=FindAll
 
 
 
-# <lo-sample/> EE.LVT.2013.11_12.5
+# <lo-sample/> EE.LHT.2013T.11_12.5
 
 (a) Vai atradīsies tāds vesels skaitlis $c$ un polinoms $P(x)$ 
 ar veseliem koeficientiem, kam $P(c) \neq c$, bet $P(P(c)) = c$?  
@@ -444,7 +444,7 @@ concepts=integer-polynomial
 
 
 
-# <lo-sample/> EE.LVT.2014.9_10.1
+# <lo-sample/> EE.LHT.2014T.9_10.1
 
 Pēc kārtas sekojoši naturāli skaitļi, sākot
 ar $1$, sadalīti grupās pa desmit tā, ka 
@@ -471,7 +471,7 @@ questionType=ProveDisprove
 
 
 
-# <lo-sample/> EE.LVT.2014.9_10.2
+# <lo-sample/> EE.LHT.2014T.9_10.2
 
 Ar $d_n$ apzīmējam skaitli vai skaitļa daļu, 
 ko veido $n$ pēc kārtas sekojoši cipari $d$. 
@@ -497,7 +497,7 @@ questionType=FindAll
 -->
 
 
-# <lo-sample/> EE.LVT.2014.9_10.3
+# <lo-sample/> EE.LHT.2014T.9_10.3
 
 Pierādīt, ka patvaļīgu naturālu skaitļu $n$ un $m$
 mazākā kopīgā dalāmā kvadrāts dalās ar to 
@@ -519,7 +519,7 @@ questionType=Prove
 -->
 
 
-# <lo-sample/> EE.LVT.2014.11_12.1
+# <lo-sample/> EE.LHT.2014T.11_12.1
 
 Vai eksistē tāds vesels skaitlis $x$, ka 
 $2 \leq x \leq m-1$, un $x^2 - x$ dalās ar $m$, ka  
@@ -539,7 +539,7 @@ questionType=ProveDisprove
 
 
 
-# <lo-sample/> EE.LVT.2014.11_12.3
+# <lo-sample/> EE.LHT.2014T.11_12.3
 
 Atrast visus tos četrciparu naturālos skaitļus, kuru
 dalījums ar savu ciparu summu ir mazākais iespējamais. 
@@ -559,7 +559,7 @@ genre=optimization
 
 
 
-# <lo-sample/> EE.LVT.2015.9_10.1
+# <lo-sample/> EE.LHT.2015T.9_10.1
 
 Kertu pieder viens cipars $4$ un cik patīk daudz ciparu $3$. 
 Izvietojot šos ciparus kaut kādā secībā, Kertu nolēma izveidot skaitli, 
@@ -583,7 +583,7 @@ questionType=FindOptimal
 -->
 
 
-# <lo-sample/> EE.LVT.2015.9_10.3
+# <lo-sample/> EE.LHT.2015T.9_10.3
 
 Veseli skaitļi $a,b,c,d,e,f$ apmierina nosacījumu $a+c+e=b+d+f$.
 Pierādīt, ka $100000a + 10000b + 1000c + 100d + 10e + f$ dalās ar $11$.
@@ -598,7 +598,7 @@ questionType=Prove
 -->
 
 
-# <lo-sample/> EE.LVT.2015.11_12.1
+# <lo-sample/> EE.LHT.2015T.11_12.1
 
 Vai eksistē tāds nepāru naturāls skaitlis $p$, ka 
 no $p$ atšķirīgu skaitļa $p$ dalītāju summa ir lielāka par skaitli $p$? 
@@ -615,7 +615,7 @@ questionType=ProveDisprove
 
 
 
-# <lo-sample/> EE.LVT.2015.11_12.4
+# <lo-sample/> EE.LHT.2015T.11_12.4
 
 Izgudrotājs iepazīstināja karali ar savu jauno spēli uz rūtiņu laukuma ar
 izmēru $9\times{}10$. Karalis apsolīja viņam par pirmo rūtiņu vienu 
@@ -643,7 +643,7 @@ genre=prove-inequality
 -->
 
 
-# <lo-sample/> EE.LVT.2016.9_10.2
+# <lo-sample/> EE.LHT.2016T.9_10.2
 
 Juku iedomājās trīsciparu skaitli. Ja šī skaitļa ciparus pieraksta pretējā secībā, 
 tad iegūst to pašu trīsciparu skaitli. Juku ievēroja, ka, pieskaitot iedomātajam 
@@ -665,7 +665,7 @@ questionType=FindAll
 
 
 
-# <lo-sample/> EE.LVT.2016.9_10.3
+# <lo-sample/> EE.LHT.2016T.9_10.3
 
 Ar $n$ apzīmēts naturāls skaitlis. Pierādīt, ka mazākais kopīgais dalāmais 
 jebkuriem $n$ pēc kārtas sekojošiem naturāliem skaitļiem dalās ar mazāko kopīgo 
@@ -689,7 +689,7 @@ questionType=Prove
 
 
 
-# <lo-sample/> EE.LVT.2016.9_10.4
+# <lo-sample/> EE.LHT.2016T.9_10.4
 
 a) Vai jebkuriem diviem vienādas paritātes skaitļiem $a$ un $b$ var atrast 
 tādus daļskaitļus $x$ un $y$, ka gan $x+y$, gan $ax+by$ ir veseli skaitļi?  
@@ -717,14 +717,14 @@ questionType=ProveDisprove
 
 
 
-# <lo-sample/> EE.LVT.2016.11_12.1
+# <lo-sample/> EE.LHT.2016T.11_12.1
 
 Sniegpārsliņas aplīšos ierakstīti visi naturālie skaitļi no $1$ līdz $13$ tā, 
 ka piecu skaitļu summa uz katras no taisnēm un arī septiņu centrālo 
 skaitļu summa visas ir vienādas savā starpā. Atrast šo summu, ja
 zināms, ka tā ir mazākā iespējamā.
 
-![Sniegpārsliņa](EE.LVT.2016.11_12.1.png)
+![Sniegpārsliņa](EE.LHT.2016T.11_12.1.png)
 
 <text lang="ru">
 В снежинке в кружках записаны все натуральные
@@ -739,13 +739,13 @@ questionType=FindOptimal
 -->
 
 
-# <lo-sample/> EE.LVT.2016.11_12.2
+# <lo-sample/> EE.LHT.2016T.11_12.2
 
 Cik veidos var aizstāt burtus ar cipariem tā, lai iegūtu pareizu 
 saskaitīšanas darbību? Vienādiem burtiem visur atbilst vienādi cipari, 
 dažādiem burtiem - dažādi cipari. 
 
-![Skaitļu rēbuss](EE.LVT.2016.11_12.2.png)
+![Skaitļu rēbuss](EE.LHT.2016T.11_12.2.png)
 
 <text lang="ru">
 Сколькими способами можно заменить буквы на цифры так, чтобы получилось 
@@ -759,7 +759,7 @@ questionType=FindCount
 -->
 
 
-# <lo-sample/> EE.LVT.2016.11_12.3
+# <lo-sample/> EE.LHT.2016T.11_12.3
 
 Mašai dārzā ir elektriskais karuselis, kurā viņa katru dienu vizinās. 
 Viņai patīk kārtība, tādēļ pēc lietošanas vienmēr atstāj karuseli 
@@ -795,7 +795,7 @@ questionType=FindCount
 
 
 
-# <lo-sample/> EE.LVT.2017.9_10.2
+# <lo-sample/> EE.LHT.2017T.9_10.2
 
 Pierakstā
 $$0\;\;1\;\;2\;\;3\;\;4\;\;5\;\;6\;\;7\;\;8\;\;9$$
@@ -821,7 +821,7 @@ questionType=FindOptimal
 
 
 
-# <lo-sample/> EE.LVT.2017.9_10.3
+# <lo-sample/> EE.LHT.2017T.9_10.3
 
 Vai var atrast tādus četrus dažādus pirmskaitļus, 
 no kuriem izvēloties jebkurus trīs, to summa arī ir pirmskaitlis. 
@@ -837,7 +837,7 @@ questionType=ProveDisprove
 -->
 
 
-# <lo-sample/> EE.LVT.2017.11_12.2
+# <lo-sample/> EE.LHT.2017T.11_12.2
 
 Taisnleņka trijstūrī visi malu garumi ir veseli skaitļi. 
 Vienas katetes garums ir nepāru pirmskaitlis $p$. Atrast divu 
@@ -856,7 +856,7 @@ questionType=FindAll
 
 
 
-# <lo-sample/> EE.LVT.2017.11_12.3
+# <lo-sample/> EE.LHT.2017T.11_12.3
 
 Vai eksistē pieci dažādi pirmskaitļi, no kuriem izvēloties 
 jebkurus trīs, to summa arī ir pirmskaitlis?
@@ -873,7 +873,7 @@ questionType=ProveDisprove
 
 
 
-# <lo-sample/> EE.LVT.2018.9_10.1
+# <lo-sample/> EE.LHT.2018T.9_10.1
 
 a) Vai eksistē divi dažādi naturāli skaitļi, kuru kvadrātu summa ir 
 kāda vesela skaitļa kubs?  
@@ -891,7 +891,7 @@ questionType=ProveDisprove
 -->
 
 
-# <lo-sample/> EE.LVT.2018.9_10.3
+# <lo-sample/> EE.LHT.2018T.9_10.3
 
 Nerātnais Juku nodzēsa desmitciparu skaitlim uz tāfeles 
 divus ciparus tā, ka palika pieraksts 
@@ -915,7 +915,7 @@ questionType=FindAll
 
 
 
-# <lo-sample/> EE.LVT.2018.9_10.4
+# <lo-sample/> EE.LHT.2018T.9_10.4
 
 Uz datora ekrāna cits zem cita parādās skaitļi. 
 Vienmēr, ja pēc kārtas parādījās skaitļi $a$ un $b$, 
@@ -938,7 +938,7 @@ questionType=FindAll
 -->
 
 
-# <lo-sample/> EE.LVT.2018.11_12.1
+# <lo-sample/> EE.LHT.2018T.11_12.1
 
 Sauksim skaitli par *skaistu*, ja tas atšķiras
 no kāda vesela skaitļa kvadrāta mazāk nekā par $10\%$. 
@@ -962,7 +962,7 @@ questionType=Prove
 -->
 
 
-# <lo-sample/> EE.LVT.2018.11_12.3
+# <lo-sample/> EE.LHT.2018T.11_12.3
 
 Naturāli skaitļi $a$ un $b$ ir tādi, 
 ka daļas 

@@ -1,4 +1,4 @@
-# <lo-sample/> EE.LVS.2009.9_10.1
+# <lo-sample/> EE.LHT.2009S.9_10.1
 
 Atrast visus naturālos skaitļus $n$, kuriem 
 $1 + 2^2 + 3^3 + 4^n$
@@ -52,7 +52,7 @@ ir pilns kvadrāts.
 
 
 
-# <lo-sample/> EE.LVS.2009.11_12.1
+# <lo-sample/> EE.LHT.2009S.11_12.1
 
 Vai eksistē pirmskaitlis $p$, kuram
 $p^3 + 2008$ un $p^3 + 2010$ arī
@@ -103,7 +103,7 @@ jābūt $p^3 \equiv 0$ jeb $p$ jādalās ar $7$.
 
 
 
-# <lo-sample/> EE.LVS.2010.9_10.1
+# <lo-sample/> EE.LHT.2010S.9_10.1
 
 Atrast visus naturālos skaitļus $n$, kuriem 
 visu viņu pozitīvo dalītāju reizinājums nav skaitļa $n$
@@ -122,7 +122,7 @@ concepts=divisors
 -->
 
 
-# <lo-sample/> EE.LVS.2010.9_10.5
+# <lo-sample/> EE.LHT.2010S.9_10.5
 
 Atrast visus naturālu skaitļu pārus $(n,k)$, kuriem
 $n! + (n + 1)! = k! + 120$.  
@@ -141,7 +141,7 @@ concepts=factorial
 
 
 
-# <lo-sample/> EE.LVS.2010.11_12.1
+# <lo-sample/> EE.LHT.2010S.11_12.1
 
 Pierādīt, ka nevienu naturālu skaitli, starp kura cipariem pa 
 vienai reizei atrodami cipari $2$ un $1$, bet visi pārējie cipari ir
@@ -161,7 +161,7 @@ concepts=power-sums
 
 
 
-# <lo-sample/> EE.LVS.2010.11_12.2
+# <lo-sample/> EE.LHT.2010S.11_12.2
 
 Ar $P(x)$ apzīmēts polinoms ar veseliem koeficientiem, 
 kas apmierina nosacījumu $P(2010) = P(201) = 2010$.  
@@ -183,7 +183,7 @@ concepts=integer-polynomial
 
 
 
-# <lo-sample/> EE.LVS.2011.9_10.1
+# <lo-sample/> EE.LHT.2011S.9_10.1
 
 Atrast visus četrciparu skaitļus, kam, nodzēšot
 jebkuru ciparu, rodas trīsciparu skaitlis, kurš ir 
@@ -202,7 +202,7 @@ genre=digit-manipulation
 
 
 
-# <lo-sample/> EE.LVS.2011.11_12.1
+# <lo-sample/> EE.LHT.2011S.11_12.1
 
 Katram naturālam skaitlim $n$ apzīmēsim ar simbolu 
 $a_n$ lielāko skaitļa $2$ pakāpi, ar ko dalās skaitlis $n$
@@ -237,7 +237,7 @@ concepts=valuation
 
 
 
-# <lo-sample/> EE.LVS.2012.9_10.1
+# <lo-sample/> EE.LHT.2012S.9_10.1
 
 Cik ir tādu sešciparu naturālu skaitļu, kuru pierakstā ir 
 cipari $0$, $1$, $2$, $3$, $4$ un $5$ katrs vienu reizi un 
@@ -254,7 +254,7 @@ questionType=FindCount
 -->
 
 
-# <lo-sample/> EE.LVS.2012.9_10.2
+# <lo-sample/> EE.LHT.2012S.9_10.2
 
 No nulles atšķirīgi veseli skaitļi $a$, $b$ un $c$ apmierina nosacījumu
 $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=0$.
@@ -276,7 +276,7 @@ concepts=coprimes
 -->
 
 
-# <lo-sample/> EE.LVS.2012.9_10.3
+# <lo-sample/> EE.LHT.2012S.9_10.3
 
 Skolotājs pateica Jüri divus veselus skaitļus $a$ un $b$, kas nav nulles, 
 turklāt $b$ dalās ar $a$. Jüri ir jāatrod tādu nenulles veselu 
@@ -298,7 +298,7 @@ concepts=quadratic-equation
 -->
 
 
-# <lo-sample/> EE.LVS.2012.11_12.1
+# <lo-sample/> EE.LHT.2012S.11_12.1
 
 Atrast visus naturālos skaitļus, kuri ir tieši $2013$ reizes lielāki 
 par savu ciparu summu. 
@@ -314,7 +314,7 @@ concepts=sum-of-digits
 -->
 
 
-# <lo-sample/> EE.LVS.2012.11_12.2
+# <lo-sample/> EE.LHT.2012S.11_12.2
 
 Atrast visus atlikumus, kurus, dalot ar $6$, dod vesels
 skaitlis $n$, kurš kādam veselam $m$ apmierina vienādību 
@@ -335,7 +335,7 @@ concepts=remainder
 
 
 
-# <lo-sample/> EE.LVS.2012.11_12.3
+# <lo-sample/> EE.LHT.2012S.11_12.3
 
 Pierādīt, ka $(2n)! < n^{2n}$
 katram veselam skaitlim $n \geq 3$.
@@ -357,7 +357,7 @@ genre=proving-inequality
 
 
 
-# <lo-sample/> EE.LVS.2013.9_10.1
+# <lo-sample/> EE.LHT.2013S.9_10.1
 
 Volli grib no naturāliem skaitļiem
 $1, 2, 3, \ldots, 100$ izvēlēties $x$ skaitļus tā, 
@@ -380,14 +380,14 @@ questionType=FindOptimal
 
 
 
-# <lo-sample/> EE.LVS.2013.9_10.2
+# <lo-sample/> EE.LHT.2013S.9_10.2
 
 Vienādiem burtiem atbilst vienādi cipari, 
 bet dažādiem burtiem - dažādi cipari. 
 Atrast visus veidus, kā aizstāt burtus ar cipariem tā, 
 lai darbība izrādītos pareiza.
 
-![Saskaitīšana stabiņā](EE.LVS.2013.9_10.2.png)
+![Saskaitīšana stabiņā](EE.LHT.2013S.9_10.2.png)
 
 <text lang="ru">
 Одинаковым буквам соответствуют одинаковые цифры, 
@@ -403,7 +403,7 @@ genre=cryptarithm
 
 
 
-# <lo-sample/> EE.LVS.2013.9_10.3
+# <lo-sample/> EE.LHT.2013S.9_10.3
 
 Doti naturāli skaitļi $a, b, c$, 
 to lielākais kopīgais dalītājs ir $1$. 
@@ -426,7 +426,7 @@ concepts=gcd
 
 
 
-# <lo-sample/> EE.LVS.2013.11_12.1
+# <lo-sample/> EE.LHT.2013S.11_12.1
 
 Atrast veselo daļu skaitlim 
 $$A = \sqrt{2013 + \sqrt{2012 + \sqrt{2011 + \ldots \sqrt{2 +\sqrt{1}}}}}.$$
@@ -447,7 +447,7 @@ concepts=square-root
 -->
 
 
-# <lo-sample/> EE.LVS.2013.11_12.2
+# <lo-sample/> EE.LHT.2013S.11_12.2
 
 Atrast visus naturālos skaitļus $n$, kuriem atradīsies tādi 
 pirmskaitļi $p$ un $q$, ka 
@@ -471,7 +471,7 @@ concepts=primes
 
 
 
-# <lo-sample/> EE.LVS.2014.9_10.1
+# <lo-sample/> EE.LHT.2014S.9_10.1
 
 Atrast tādu vismazāko naturālo $n$, kuram katrs no cipariem 
 no $0$ līdz $9$ būtu decimālpierakstā kaut vienam no 
@@ -493,7 +493,7 @@ genre=digit-manipulation
 
 
 
-# <lo-sample/> EE.LVS.2014.9_10.3
+# <lo-sample/> EE.LHT.2014S.9_10.3
 
 Vispirms uz lapiņas uzraksta skaitli $1$. 
 Katrā solī zem pēdējā uzrakstītā skaitļa uzraksta 
@@ -525,7 +525,7 @@ genre=digit-manipulation
 
 
 
-# <lo-sample/> EE.LVS.2014.9_10.4
+# <lo-sample/> EE.LHT.2014S.9_10.4
 
 Kurš no skaitļiem lielāks: $2^{2014}$ vai
 $3^{303} \cdot 4^{404} \cdot 5^{505}$?
@@ -541,7 +541,7 @@ genre=proving-inequality
 -->
 
 
-# <lo-sample/> EE.LVS.2014.11_12.1
+# <lo-sample/> EE.LHT.2014S.11_12.1
 
 Atrast visus tos naturālos skaitļus $n$, kuriem 
 vienādojumam 
@@ -564,7 +564,7 @@ genre=integer-equation
 
 
 
-# <lo-sample/> EE.LVS.2015.9_10.1
+# <lo-sample/> EE.LHT.2015S.9_10.1
 
 Skaitlī 
 $$0,123456789101112\;\ldots\;998999$$
@@ -583,7 +583,7 @@ questionType=FindAll
 -->
 
 
-# <lo-sample/> EE.LVS.2015.9_10.2
+# <lo-sample/> EE.LHT.2015S.9_10.2
 
 Nosauksim naturālu skaitli $n$ par interesantu, ja eksistē 
 naturāls skaitlis $m$ un naturāli skaitļi $a$ un $b$, kas
@@ -604,7 +604,7 @@ questionType=FindOptimal
 -->
 
 
-# <lo-sample/> EE.LVS.2015.9_10.3
+# <lo-sample/> EE.LHT.2015S.9_10.3
 
 Katrā no trim gadījumiem, noskaidrot, vai 
 eksistē divciparu skaitlis $n$, kurš nebeidzas ar nulli un apmierina attiecīgo nosacījumu:  
@@ -632,7 +632,7 @@ questionType=ProveDisprove
 
 
 
-# <lo-sample/> EE.LVS.2015.9_10.6
+# <lo-sample/> EE.LHT.2015S.9_10.6
 
 Cik ir piecciparu skaitļu, kas dalās ar $8$ un nesatur savā pierakstā ciparu nulle?
 
@@ -646,7 +646,7 @@ questionType=FindCount
 
 
 
-# <lo-sample/> EE.LVS.2015.11_12.1
+# <lo-sample/> EE.LHT.2015S.11_12.1
 
 a) Atrast lielāko skaitli, kurš ir četru dažādu divciparu skaitļu lielākais kopīgais dalītājs.  
 b) Atrast lielāko skaitli, kurš ir četru dažādu divciparu skaitļu mazākais kopīgais dalāmais.
@@ -665,7 +665,7 @@ questionType=FindOptimal
 
 
 
-# <lo-sample/> EE.LVS.2015.11_12.3
+# <lo-sample/> EE.LHT.2015S.11_12.3
 
 Dots naturāls skaitlis $n$, kam gan $n+1$, $n+3$, $n+7$ un $n+9$, gan arī
 $n+31$, $n+33$, $n+37$ un $n+39$ - ir pirmskaitļi. Atrast atlikumu, dalot
@@ -686,7 +686,7 @@ questionType=FindAll
 
 
 
-# <lo-sample/> EE.LVS.2016.9_10.2
+# <lo-sample/> EE.LHT.2016S.9_10.2
 
 Uz tāfeles uzrakstītas $11$ daļas, kuru skaitītāji un saucēji ir
 visi naturālie skaitļi no $1$ līdz $22$. Kāds lielākais iespējamais
@@ -704,7 +704,7 @@ questionType=FindOptimal
 
 
 
-# <lo-sample/> EE.LVS.2016.9_10.3
+# <lo-sample/> EE.LHT.2016S.9_10.3
 
 Juku izvirzīja matemātiskā pulciņā šādu hipotēzi: Vienmēr, 
 ja divu savstarpēju pirmskaitļu $x$ un $y$ reizinājums 
@@ -730,7 +730,7 @@ questionType=ProveDisprove
 -->
 
 
-# <lo-sample/> EE.LVS.2016.9_10.6
+# <lo-sample/> EE.LHT.2016S.9_10.6
 
 Vai eksistē tāds naturāls skaitlis $n$, kuram ir tieši $9$ pozitīvi 
 dalītāji, bet visus tā dalītājus var novietot tabulā 
@@ -750,7 +750,7 @@ questionType=ProveDisprove
 -->
 
 
-# <lo-sample/> EE.LVS.2016.11_12.2
+# <lo-sample/> EE.LHT.2016S.11_12.2
 
 Definējam virkni $a_1=1$ un $a_n = n \cdot a_{\lfloor{}n/2\rfloor}$, 
 visiem $n>1$. Pierādīt, ka $a_n>n^2$ katram $n \geq 12$.  
@@ -777,7 +777,7 @@ questionType=Prove
 -->
 
 
-# <lo-sample/> EE.LVS.2016.11_12.3
+# <lo-sample/> EE.LHT.2016S.11_12.3
 
 Kati un Peeter spēlē sekojošu spēli. Vispirms Kati uzraksta uz tāfeles
 kādu naturālu skaitli $a > 2016$. Pēc tam Peeter pieraksta jaunus skaitļus: 
@@ -804,7 +804,7 @@ questionType=Algorithm,FindOptimal
 -->
 
 
-# <lo-sample/> EE.LVS.2016.11_12.6
+# <lo-sample/> EE.LHT.2016S.11_12.6
 
 Atrast visus naturālos skaitļus $n$, kuriem visus $n$ pozitīvos dalītājus
 var bez atkārtošanās izrakstīt taisnstūrveida tabulā tā, lai katrā tabulas 
@@ -828,7 +828,7 @@ questionType=FindAll
 
 
 
-# <lo-sample/> EE.LVS.2017.9_10.3
+# <lo-sample/> EE.LHT.2017S.9_10.3
 
 Mari ieraksta burtnīcā $8$ pirmskaitļus, kas mazāki par $200$ (starp 
 šiem pirmskaitļiem var būt arī atkārtojumi). Pirmajam 
@@ -850,14 +850,14 @@ questionType=FindOptimal
 -->
 
 
-# <lo-sample/> EE.LVS.2017.9_10.4
+# <lo-sample/> EE.LHT.2017S.9_10.4
 
 Cik veidos zīmējumā var aizstāt burtus ar cipariem tā, 
 lai rastos pareiza darbība? 
 Vienādus burtus jāaizstāj ar vienādiem cipariem, 
 dažādus burtus - ar dažādiem cipariem.
 
-![Skaitļu rēbuss](EE.LVS.2017.9_10.4.png)
+![Skaitļu rēbuss](EE.LHT.2017S.9_10.4.png)
 
 <text lang="ru">
 Сколькими способами можно на рисунке заменить буквы цифрами так, 
@@ -871,7 +871,7 @@ questionType=FindCount
 -->
 
 
-# <lo-sample/> EE.LVS.2017.11_12.2
+# <lo-sample/> EE.LHT.2017S.11_12.2
 
 Atrast lielāko naturālo skaitli, kas nepārsniedz $500$ un kuram 
 nevar atrast citu naturālu skaitli, kas ir mazāks par $500$ un kurš
@@ -889,7 +889,7 @@ questionType=FindOptimal
 -->
 
 
-# <lo-sample/> EE.LVS.2017.11_12.3
+# <lo-sample/> EE.LHT.2017S.11_12.3
 
 Par racionālu skaitļu $u$ un $v$ mediānu sauc skaitli $x = \frac{a + c}{b + d}$, kur
 $\frac{a}{b}$ un $\frac{c}{d}$ Ir attiecīgi skaitļu $u$ un $v$ izteiksmes nesaīsināmu daļu veidā. 
@@ -913,7 +913,7 @@ questionType=Prove
 
 
 
-# <lo-sample/> EE.LVS.2018.9_10.1
+# <lo-sample/> EE.LHT.2018S.9_10.1
 
 Skaitļus $1,2,\ldots,2018$ pieraksta vienu pēc otra bez atstarpēm, 
 turklāt no pieraksta izlaiž visus ciparus $8$. Vai iegūtais skaitlis
@@ -931,7 +931,7 @@ questionType=FindAll
 
 
 
-# <lo-sample/> EE.LVS.2018.9_10.3
+# <lo-sample/> EE.LHT.2018S.9_10.3
 
 Naturāli skaitļi $n$, $m$ un $k$ ir tādi, ka $\mbox{MKD}(m,k)$ dalās ar
 $n$, bet $\mbox{MKD}(n,k)$ dalās ar $m$. Pierādīt, ka
@@ -954,7 +954,7 @@ questionType=Prove
 -->
 
 
-# <lo-sample/> EE.LVS.2018.9_10.4
+# <lo-sample/> EE.LHT.2018S.9_10.4
 
 
 Brālim Jüri ir māsa Mari. Viņu māte gaida dvīņus. Ja piedzimtu
@@ -979,7 +979,7 @@ questionType=FindAll
 -->
 
 
-# <lo-sample/> EE.LVS.2018.9_10.6
+# <lo-sample/> EE.LHT.2018S.9_10.6
 
 Skaitļus no $1$ līdz $9$ ieraksta tabulā $3 \times 3$ rūtiņas tā, ka
 ikvienā rūtiņā ir viens skaitlis un skaitļi neatkārtojas.
@@ -1000,7 +1000,7 @@ questionType=FindOptimal
 -->
 
 
-# <lo-sample/> EE.LVS.2018.11_12.3
+# <lo-sample/> EE.LHT.2018S.11_12.3
 
 Bēniņos atrastam kalkulatoram ir taustiņi no $1$ līdz $9$ 
 un viens darbības taustiņš $\otimes$, kur 
