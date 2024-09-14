@@ -1,4 +1,4 @@
-# <lo-sample/> LT.RAJ.2010.9_10.1
+# <lo-sample/> LT.SAV.2010.9_10.1
 
 <text lang="lv">
 Savākušies riekstu, no meža pa pāriem iznāk bērni. 
@@ -19,7 +19,7 @@ turi $2009$ riešutus?
 
 
 
-# <lo-sample/> LT.RAJ.2010.9_10.4
+# <lo-sample/> LT.SAV.2010.9_10.4
 
 <text lang="lv">
 Atrodiet visus trīsciparu skaitļus, kuri ir $12$
@@ -33,7 +33,7 @@ kartų didesni už savo skaitmenų sumą.
 
 
 
-# <lo-sample/> LT.RAJ.2010.11_12.2
+# <lo-sample/> LT.SAV.2010.11_12.2
 
 <text lang="lv">
 Petrjuks izvēlējās trīs dažādus nenulles ciparus. 
@@ -58,7 +58,7 @@ Petriukas?
 
 
 
-# <lo-sample/> LT.RAJ.2010.11_12.3
+# <lo-sample/> LT.SAV.2010.11_12.3
 
 <text lang="lv">
 Atrodiet visus naturālos skaitļus $n$, kuriem 
@@ -76,7 +76,7 @@ $(x, y)$ nei lygtis $2x + 3y = n + 1$.
 
 
 
-# <lo-sample/> LT.RAJ.2011.9_10.2
+# <lo-sample/> LT.SAV.2011.9_10.2
 
 <text lang="lv">
 Divu naturālo skaitļu $m$ un $n$ mazākais kopīgais
@@ -94,7 +94,7 @@ arba $n$ dalijasi iš $m$.
 
 
 
-# <lo-sample/> LT.RAJ.2011.9_10.4
+# <lo-sample/> LT.SAV.2011.9_10.4
 
 <text lang="lv">
 Dots vienādojums$x^2 + 5y^3 = t^2$.  
@@ -110,7 +110,7 @@ b) Ar šios lygties natūraliųjų sprendinių aibė baigtinė?
 
 
 
-# <lo-sample/> LT.RAJ.2011.11_12.1
+# <lo-sample/> LT.SAV.2011.11_12.1
 
 <text lang="lv">
 Naturāli skaitļi $m$ un $n$ apmierina vienādību 
@@ -126,7 +126,7 @@ kad $m+n$ yra natūraliojo skaičiaus kvadratas.
 
 
 
-# <lo-sample/> LT.RAJ.2011.11_12.3
+# <lo-sample/> LT.SAV.2011.11_12.3
 
 <text lang="lv">
 Divu naturālu skaitļu reizinajums ir naturāla 
@@ -148,7 +148,7 @@ jei jų skirtumas lygus $3$? Raskite visus variantus.
 
 
 
-# <lo-sample/> LT.RAJ.2012.9_10.1
+# <lo-sample/> LT.SAV.2012.9_10.1
 
 <text lang="lv">
 Pamāte lika Sigutei atnest no ezera tik daudz ūdens, 
@@ -181,7 +181,7 @@ pamatuoti dviem kubilais? Raskite visus variantus.
 
 
 
-# <lo-sample/> LT.RAJ.2012.9_10.2
+# <lo-sample/> LT.SAV.2012.9_10.2
 
 <text lang="lv">
 Atrodiet visus trīsciparu skaitļus $\overline{abc}$, 
@@ -198,7 +198,7 @@ $$56a + 7b + c = 426.$$
 
 
 
-# <lo-sample/> LT.RAJ.2012.11_12.2
+# <lo-sample/> LT.SAV.2012.11_12.2
 
 <text lang="lv">
 Naturāli skaitļi bez atstarpēm pēc kaŗtas sarakstīti 
@@ -219,7 +219,7 @@ c) Koks yra $2012$-asis skaitmuo?
 
 
 
-# <lo-sample/> LT.RAJ.2012.11_12.3
+# <lo-sample/> LT.SAV.2012.11_12.3
 
 <text lang="lv">
 Dota tāda veselu skaitļu virkne $x_1, x_2, x_3, \ldots$, 
@@ -256,7 +256,7 @@ tenkinati seka, kad $x_{2012} = 2012$.
 
 
 
-# <lo-sample/> LT.RAJ.2012.11_12.5
+# <lo-sample/> LT.SAV.2012.11_12.5
 
 <text lang="lv">
 Dots vienādojums
@@ -296,7 +296,7 @@ natūraliuosius daliklius (įskaitant vienetą ir jį patį).
 
 
 
-# <lo-sample/> LT.RAJ.2013.9_10.1
+# <lo-sample/> LT.SAV.2013.9_10.1
 
 <text lang="lv">
 Četriem pēc kārtas sekojošiem naturāliem skaitļiem 
@@ -312,7 +312,7 @@ Raskite šiuos natūraliuosius skaičius.
 
 
 
-# <lo-sample/> LT.RAJ.2013.9_10.5
+# <lo-sample/> LT.SAV.2013.9_10.5
 
 <text lang="lv">
 Atrodiet naturālu skaitļu $p$, $p+8$ un
@@ -328,7 +328,7 @@ kad visi trys skaičiai yra pirminiai.
 
 
 
-# <lo-sample/> LT.RAJ.2013.9_10.4A
+# <lo-sample/> LT.SAV.2013.9_10.4A
 
 <text lang="lv">
 Veseli skaitļi $x$, $y$ un $z$ apmierina vienādojumu
@@ -346,7 +346,7 @@ b) Raskite visus šios lygties sprendinius $(x,y,z)$.
 
 
 
-# <lo-sample/> LT.RAJ.2013.11_12.3
+# <lo-sample/> LT.SAV.2013.11_12.3
 
 <text lang="lv">
 Rakstniekam Grebļūnam ir alerģija pret skaitļiem $2$ un $5$. 
@@ -379,7 +379,7 @@ Po kiek puslapių šiose knygose yra iš tikrųjų?
 
 
 
-# <lo-sample/> LT.RAJ.2013.11_12.4
+# <lo-sample/> LT.SAV.2013.11_12.4
 
 <text lang="lv">
 a) Vai vienādojumam
@@ -422,7 +422,7 @@ kuriems reiškiniai apibrėžti.)
 
 
 
-# <lo-sample/> LT.RAJ.2014.9_10.4
+# <lo-sample/> LT.SAV.2014.9_10.4
 
 <text lang="lv">
 Naturāls skaitlis $n$ ir tāds, ka
@@ -440,7 +440,7 @@ b) visus tokius natūraliuosius skaičius $n$.
 
 
 
-# <lo-sample/> LT.RAJ.2015.9_10.1
+# <lo-sample/> LT.SAV.2015.9_10.1
 
 <text lang="lv">
 Burti $a$, $b$, $c$ un $d$ apzīmē atšķirīgus
@@ -460,7 +460,7 @@ reiškinio $(a + c)(a^2 + c^2)(a^a + c^c)$ reikšmes.
 
 
 
-# <lo-sample/> LT.RAJ.2015.9_10.2
+# <lo-sample/> LT.SAV.2015.9_10.2
 
 <text lang="lv">
 Piecu pēc kārtas sekojošu naturālu skaitļu 
@@ -480,7 +480,7 @@ tokį rinkinį. b) Ar yra daugiau tokių rinkinių?
 
 
 
-# <lo-sample/> LT.RAJ.2015.9_10.5
+# <lo-sample/> LT.SAV.2015.9_10.5
 
 <text lang="lv">
 Atrodiet visus reālos skaitļus $x \neq 0$, 
@@ -507,7 +507,7 @@ yra iracionalusis skaičius.
 
 
 
-# <lo-sample/> LT.RAJ.2015.11_12.1
+# <lo-sample/> LT.SAV.2015.11_12.1
 
 <text lang="lv">
 Aiste uzrakstīja skaitļu virkni:
@@ -529,7 +529,7 @@ c) Koks yra paskutinis visų sekos narių kvadratų sumos skaitmuo?
 
 
 
-# <lo-sample/> LT.RAJ.2015.11_12.4
+# <lo-sample/> LT.SAV.2015.11_12.4
 
 <text lang="lv">
 Astoņus ciparus $1$, $2$, $3$, $4$, $5$, $6$, 
@@ -560,7 +560,7 @@ tokį skaičių $n$ ir įrodykite, kad jis vienintelis.
 
 
 
-# <lo-sample/> LT.RAJ.2015.11_12.5
+# <lo-sample/> LT.SAV.2015.11_12.5
 
 <text lang="lv">
 Zināms, ka reāls skaitlis $x$ nav vienāds ar $0$, un 
@@ -584,7 +584,7 @@ $\sqrt{a}$ yra iracionalusis skaičius.
 
 
 
-# <lo-sample/> LT.RAJ.2016.9_10.3
+# <lo-sample/> LT.SAV.2016.9_10.3
 
 <text lang="lv">
 Atrodiet mazāko naturālu sešciparu skaitli, 
@@ -600,7 +600,7 @@ yra skirtingi ir kuris dalijasi iš $2$, $3$, $4$, $5$ ir $6$.
 
 
 
-# <lo-sample/> LT.RAJ.2016.9_10.4
+# <lo-sample/> LT.SAV.2016.9_10.4
 
 <text lang="lv">
 Ir doti trīs dažādi naturāli skaitļi. 
@@ -623,7 +623,7 @@ iš $6$.
 
 
 
-# <lo-sample/> LT.RAJ.2016.11_12.1
+# <lo-sample/> LT.SAV.2016.11_12.1
 
 <text lang="lv">
 Kad ganam jautāja, cik viņš audzē aitu, āžu un 
@@ -651,7 +651,7 @@ gyvūnų augina piemuo?
 
 
 
-# <lo-sample/> LT.RAJ.2016.11_12.4
+# <lo-sample/> LT.SAV.2016.11_12.4
 
 <text lang="lv">
 Onute uz četrām kartiņām uzraksta pa ciparam. 
@@ -678,7 +678,7 @@ skaičiaus $n$ reikšmes.
 
 
 
-# <lo-sample/> LT.RAJ.2016.11_12.5
+# <lo-sample/> LT.SAV.2016.11_12.5
 
 <text lang="lv">
 Dota funkcija $f(x) = \frac{x^3}{1+x^3}$. 
@@ -703,7 +703,7 @@ $f\left( \frac{a}{b} \right)$ ir tada randama visų
 
 
 
-# <lo-sample/> LT.RAJ.2017.9_10.1
+# <lo-sample/> LT.SAV.2017.9_10.1
 
 <text lang="lv">
 Cik ir piecciparu skaitļu $\overline{ab51c}$, kuri dalās ar $72$?
@@ -715,7 +715,7 @@ Kiek yra penkiaženklių skaičių $\overline{ab51c}$, kurie dalijasi iš $72$?
 
 
 
-# <lo-sample/> LT.RAJ.2017.9_10.4
+# <lo-sample/> LT.SAV.2017.9_10.4
 
 <text lang="lv">
 Ikvienā $3 \times 4$ tabulas rūtiņā
@@ -743,7 +743,7 @@ reikšmes, mažesnes už $130$.
 
 
 
-# <lo-sample/> LT.RAJ.2017.11_12.1
+# <lo-sample/> LT.SAV.2017.11_12.1
 
 <text lang="lv">
 Tādu naturālu $n$-ciparu skaitļu, kuru 
@@ -770,7 +770,7 @@ yra sveikasis skaičius.
 
 
 
-# <lo-sample/> LT.RAJ.2017.11_12.4
+# <lo-sample/> LT.SAV.2017.11_12.4
 
 <text lang="lv">
 Kādā ārvalstu pilsētā publiskā transporta biļete
@@ -795,7 +795,7 @@ mažiausiai pinigų jis gali išleisti bilietams?
 
 
 
-# <lo-sample/> LT.RAJ.2017.11_12.5
+# <lo-sample/> LT.SAV.2017.11_12.5
 
 <text lang="lv">
 Naturāli skaitļi $a$, $m$, $n$ apmierina
@@ -812,7 +812,7 @@ Raskite visas galimas skaičiaus $a$ reikšmes.
 
 
 
-# <lo-sample/> LT.RAJ.2018.9_10.1
+# <lo-sample/> LT.SAV.2018.9_10.1
 
 <text lang="lv">
 Pierādīt, ka  
@@ -836,7 +836,7 @@ kur $b$ ir $c$ yra natūralieji skaičiai.
 
 
 
-# <lo-sample/> LT.RAJ.2018.9_10.3
+# <lo-sample/> LT.SAV.2018.9_10.3
 
 <text lang="lv">
 Doti četri divciparu skaitļi
@@ -860,7 +860,7 @@ $A^B + 2 \cdot \overline{AB} - B^A$ teigiamas reikšmes.
 
 
 
-# <lo-sample/> LT.RAJ.2018.9_10.5
+# <lo-sample/> LT.SAV.2018.9_10.5
 
 <text lang="lv">
 Naturāli skaitļi $x$ un $y$ apmierina vienādību 
@@ -881,7 +881,7 @@ iš kurio gali dalytis skaičius $x$.
 
 
 
-# <lo-sample/> LT.RAJ.2018.11_12.2
+# <lo-sample/> LT.SAV.2018.11_12.2
 
 <text lang="lv">
 Gar sienu izkārtotas vairāki grozi ar ogām 
@@ -911,7 +911,7 @@ kur skaičius $197$ pirminis.)
 
 
 
-# <lo-sample/> LT.RAJ.2018.11_12.5
+# <lo-sample/> LT.SAV.2018.11_12.5
 
 <text lang="lv">
 Dots naturāls skaitlis $n$ un pirmskaitlis 
@@ -933,7 +933,7 @@ $(x, y)$. Raskite visas galimas $p$ reikšmes.
 
 
 
-# <lo-sample/> LT.RAJ.2019.9_10.2
+# <lo-sample/> LT.SAV.2019.9_10.2
 
 <text lang="lv">
 Naturālu skaitli sauksim par *šogadēju*, 
@@ -957,7 +957,7 @@ b) Keliais nuliais baigiasi skaičius $a_{100} + 1$?
 
 
 
-# <lo-sample/> LT.RAJ.2019.9_10.4
+# <lo-sample/> LT.SAV.2019.9_10.4
 
 <text lang="lv">
 Naturālu skaitli $n$ sauksim par *aizdivināmu*, 
@@ -979,7 +979,7 @@ nėra uždvejinami?
 
 
 
-# <lo-sample/> LT.RAJ.2019.11_12.1
+# <lo-sample/> LT.SAV.2019.11_12.1
 
 <text lang="lv">
 Uz tāfeles dilšanas secībā no kreisās puses uz labo 
@@ -1011,7 +1011,7 @@ b) Kiek skirtingų natūraliųjų reikšmių bus įgijusi
 
 
 
-# <lo-sample/> LT.RAJ.2019.11_12.2
+# <lo-sample/> LT.SAV.2019.11_12.2
 
 <text lang="lv">
 Naturālu skaitli sauksim par *šogadīgu*, 
@@ -1035,7 +1035,7 @@ b) Keliais nuliais baigiasi skaičius $a_{2019} + 1$?
 
 
 
-# <lo-sample/> LT.RAJ.2019.11_12.4
+# <lo-sample/> LT.SAV.2019.11_12.4
 
 <text lang="lv">
 Naturālu skaitli sauksim par *saskaņotu*, 
