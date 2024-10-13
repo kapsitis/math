@@ -1,4 +1,4 @@
-# <lo-sample/> LT.LJKMO.1999.7_8.1
+# <lo-sample/> LT.LJMO.1999.7_8.1
 
 <text lang="lv">
 Atšifrējiet reizināšanu "stabiņā". Kā parasti, dažādiem 
@@ -6,7 +6,7 @@ reizināmā un reizinātāja burtiem atbilst dažādi cipari.
 Visi citi cipari apzīmēti ar vienādu simbolu "x".  
 Atšifrējiet reizinājumu:
 
-![](LT.LJKMO.1999.7_8.1.png)
+![](LT.LJMO.1999.7_8.1.png)
 </text>
 
 <text lang="lt">
@@ -15,7 +15,7 @@ dauginamojo ir daugiklio raidėms atitinka skirtingi skaičiai.
 Visi kiti skaičiai pažymėti vienodu simboliu x.  
 Iššifruokite šią sandaugą.
 
-![](LT.LJKMO.1999.7_8.1.png)
+![](LT.LJMO.1999.7_8.1.png)
 </text>
 
 
@@ -56,7 +56,7 @@ Der vienīgi vērtība $A=2$, kas pārsniedz $1$, bet ir mazāka par $4$ (un nav
 
 
 
-# <lo-sample/> LT.LJKMO.1999.7_8.3
+# <lo-sample/> LT.LJMO.1999.7_8.3
 
 <text lang="lv">
 **(A)** Atrodiet kādu $100$-ciparu skaitli, kurš dalās ar $100$ 
@@ -98,7 +98,7 @@ t.i. skaitlis kļūs lielāks.
 </text>
 
 
-# <lo-sample/> LT.LJKMO.2000.7_8.3
+# <lo-sample/> LT.LJMO.2000.7_8.3
 
 <text lang="lv">
 Kādu pašu mazāko summu var iegūt, saskaitot visus ciparus skaitlim, 
@@ -157,7 +157,7 @@ loceklis, kurš dalās ar vajadzīgo skaitli.
 
 
 
-# <lo-sample/> LT.LJKMO.2001.7_8.1
+# <lo-sample/> LT.LJMO.2001.7_8.1
 
 <text lang="lv">
 Vesels pozitīvs skaitlis uzrakstāms tikai ar trijniekiem un 
@@ -204,7 +204,7 @@ $3333333777$.
 
 
 
-# <lo-sample/> LT.LJKMO.2001.7_8.2
+# <lo-sample/> LT.LJMO.2001.7_8.2
 
 <text lang="lv">
 Atrodiet veselus atrisinājumus vienādojumam
@@ -277,7 +277,7 @@ Citām veselām $y$ vērtībām sakņu nav, jo tad diskriminants
 </text>
 
 
-# <lo-sample/> LT.LJKMO.2002.7_8.1
+# <lo-sample/> LT.LJMO.2002.7_8.1
 
 <text lang="lv">
 Ja no skaitļu virknes $2$, $4$, $6$, $8$, $10$, $12$, 
@@ -325,7 +325,7 @@ gadījumos tur pirmreizinātājs $2$ ir nepāru pakāpē).
 </text>
 
 
-# <lo-sample/> LT.LJKMO.2002.7_8.2
+# <lo-sample/> LT.LJMO.2002.7_8.2
 
 <text lang="lv">
 Dots vienādojums
@@ -359,7 +359,7 @@ $$3xy - x - 2y = 8.$$
 
 
 
-# <lo-sample/> LT.LJKMO.2002.7_8.4
+# <lo-sample/> LT.LJMO.2002.7_8.4
 
 <text lang="lv">
 Ar $S(n)$ apzīmējam naturāla skaitļa $n$ ciparu summu, piemēram, 
@@ -391,7 +391,7 @@ $n+S(n)=m+S(m)$. Raskite:
 
 
 
-# <lo-sample/> LT.LJKMO.2003.7_8.3
+# <lo-sample/> LT.LJMO.2003.7_8.3
 
 <text lang="lv">
 Atrodiet kaut vienu tādu skaitli, kas beidzas ar "2003", 
@@ -470,7 +470,7 @@ $$14021\underbrace{2003}_{\text{1.reize}}\underbrace{2003}_{\text{2.reize}}\ldot
 
 
 
-# <lo-sample/> LT.LJKMO.2003.7_8.4
+# <lo-sample/> LT.LJMO.2003.7_8.4
 
 <text lang="lv">
 No naturāliem skaitļiem $1,2,\ldots{},22\,$, 
@@ -507,7 +507,7 @@ sveikiems skaičiams?
   no $12$ līdz $22$). Centīsimies iespējami vairāk likt pāros
   skaitļus no pretējām daļām, veidojot *divdaļīgu grafu*. 
 
-![](LT.LJKMO.2003.7_8.4.png)
+![](LT.LJMO.2003.7_8.4.png)
 
 Vairums bultiņu ir starp $n$ un $2n$. 
 Visas citas ir violetas. Viena ir novilkta starp virsotnēm $2$ un $4$ (abas 
@@ -523,7 +523,7 @@ atrodas vienā daļā) - tas vairs neatbilst divdaļīga grafa nosacījumam.
 
 
 
-# <lo-sample/> LT.LJKMO.2004.7_8.1
+# <lo-sample/> LT.LJMO.2004.7_8.1
 
 <text lang="lv">
 $7$-ciparu skaitlis uzrakstāms ar $7$ dažādiem cipariem un dalās ar visiem 
@@ -550,7 +550,7 @@ dalijasi iš visų $7$ savo skaitmenų.
 
 
 
-# <lo-sample/> LT.LJKMO.2004.7_8.3
+# <lo-sample/> LT.LJMO.2004.7_8.3
 
 <text lang="lv">
 Nenegatīvi veseli skaitļi $m$ un $n$ apmierina nosacījumu
@@ -579,7 +579,7 @@ $$mn - n + m = 2004.$$
 
 
 
-# <lo-sample/> LT.LJKMO.2005.7_8.2
+# <lo-sample/> LT.LJMO.2005.7_8.2
 
 <text lang="lv">
 Skaitļu $83$ un $89$ pāri $(83;89)$ sauc par *simta pāri*, jo 
@@ -604,7 +604,7 @@ nes $83 + 8 + 9 = 100$ ir $89 + 8 + 3 = 100$.
 
 
 
-# <lo-sample/> LT.LJKMO.2006.7_8.1
+# <lo-sample/> LT.LJMO.2006.7_8.1
 
 <text lang="lv">
 Tikai ar nullēm un vieniniekiem uzrakstāms $11$-ciparu skaitlis beidzas ar "11" un 
@@ -632,7 +632,7 @@ dalijasi iš $11$.
 
 
 
-# <lo-sample/> LT.LJKMO.2006.7_8.4
+# <lo-sample/> LT.LJMO.2006.7_8.4
 
 <text lang="lv">
 Vienādojumu sistēmu
@@ -667,7 +667,7 @@ spręsime sveikaisiais skaičiais $a$, $b$, $c$ ir $d$.
 
 
 
-# <lo-sample/> LT.LJKMO.2007.7_8.2
+# <lo-sample/> LT.LJMO.2007.7_8.2
 
 <text lang="lv">
 **(A)** Barons Minhauzens netic, ka visus veselos pozitīvos skaitļus no $1$ līdz $16$
@@ -699,7 +699,7 @@ kvadratas. Ar baronas yra teisus taip tikėdamas?
 
 
 
-# <lo-sample/> LT.LJKMO.2007.7_8.4
+# <lo-sample/> LT.LJMO.2007.7_8.4
 
 <text lang="lv">
 **(A)** Šerloks Holmss kopā ar doktoru Vatsonu gribētu atrast visus
@@ -729,7 +729,7 @@ $x^2 - y^2 - x + y = 2007.$
 </small>
 
 
-# <lo-sample/> LT.LJKMO.2008.7_8.1
+# <lo-sample/> LT.LJMO.2008.7_8.1
 
 <text lang="lv">
 Kļuvuši nopietnāki, Toms un Džerijs 
@@ -777,7 +777,7 @@ už kurį Tomas ir Džeris gautų premiją?
 
 
 
-# <lo-sample/> LT.LJKMO.2008.7_8.2
+# <lo-sample/> LT.LJMO.2008.7_8.2
 
 <text lang="lv">
 Alisa raksta astoņus ciparus, kas lielāki par vienu - $2$, $3$, $4$, $5$, $6$, $7$, 
@@ -785,7 +785,7 @@ $8$ un $9$ pa vienam katrā no $8$
 vienādības lodziņiem tā, lai vienādība būtu patiesa. 
 Ar ko vienāda lielākā no trim daļām šajā vienādībā?
 
-![](LT.LJKMO.2008.7_8.2.png)
+![](LT.LJMO.2008.7_8.2.png)
 </text>
 
 <text lang="lt">
@@ -795,7 +795,7 @@ lygybės langelių taip, kad lygybė būtų teisinga.
 Kam yra lygi pati didžiausioji iš tų trijų 
 teisingos lygybės trupmenų? 
 
-![](LT.LJKMO.2008.7_8.2.png)
+![](LT.LJMO.2008.7_8.2.png)
 </text>
 
 <small>
@@ -806,7 +806,7 @@ teisingos lygybės trupmenų?
 </small>
 
 
-# <lo-sample/> LT.LJKMO.2008.7_8.4
+# <lo-sample/> LT.LJMO.2008.7_8.4
 
 <text lang="lv">
 Veselīgais skeptiķis Sančo Pansa neparko netic, ka 
@@ -837,7 +837,7 @@ nustatyti, kiek jų yra ir kokie jie yra?
 
 
 
-# <lo-sample/> LT.LJKMO.2009.7_8.3
+# <lo-sample/> LT.LJMO.2009.7_8.3
 
 <text lang="lv">
 Klusās ziemas naktīs, kad izklīst pēdējie nesteidzīgie gājēji, 
@@ -898,7 +898,7 @@ Kaip čia yra? Atsakymą, suprantama, irgi pagrįskite.
 
 
 
-# <lo-sample/> LT.LJKMO.2009.7_8.4
+# <lo-sample/> LT.LJMO.2009.7_8.4
 
 <text lang="lv">
 Šajā krustskaitļu mīklā (nejaukt ar krustvārdu mīklu) 
@@ -909,7 +909,7 @@ nesākas ar nulli. Viņš apņēmies šos četrus divciparu
 skaitļus ierakstīt izraudzītajā kārtībā, paskaidrodams, 
 kādēļ šai krustskaitļu mīklai ir viens vienīgs atrisinājums.
 
-![](LT.LJKMO.2009.7_8.4.png)
+![](LT.LJMO.2009.7_8.4.png)
 
 **Horizontāli:** 1. Skaitļa $3$ daudzkārtnis. 3. Trīskāršots pirmais skaitlis.  
 **Vertikāli:** 1. Skaitļa $25$ daudzkārtnis. 2. Pilns kvadrāts. 
@@ -924,7 +924,7 @@ Jis pasiryžęs šiuos keturis dviženklius skaičius įrašyti pasirinktąja
 tvarka, paaiškindamas, kodėl šis kryžiaskaitis turi vienintelį
 sprendinį. 
 
-![](LT.LJKMO.2009.7_8.4.png)
+![](LT.LJMO.2009.7_8.4.png)
 
 **Horizontaliai:** 1. Skaičiaus $3$ kartotinis. 3. Trigubas pirminis skaičius. 
 **Vertikaliai:** 1. Skaičaus $25$ kartotinis. 2. Tikslusis kvadratas.
@@ -939,7 +939,7 @@ sprendinį.
 
 
 
-# <lo-sample/> LT.LJKMO.2010.7_8.1
+# <lo-sample/> LT.LJMO.2010.7_8.1
 
 <text lang="lv">
 Jūru princese visgudrākajiem Sinbada kuģa jūrniekiem jautāja, vai 
@@ -976,7 +976,7 @@ Ar tai įmanoma?
 </small>
 
 
-# <lo-sample/> LT.LJKMO.2010.7_8.5
+# <lo-sample/> LT.LJMO.2010.7_8.5
 
 <text lang="lv">
 Princese lūdza Sinbadam visiem paskaidrot, vai skaitlis
@@ -1006,7 +1006,7 @@ Tai kaip ten yra? Atsakymą princesei pagrįskite.
 
 
 
-# <lo-sample/> LT.LJKMO.2011.7_8.1
+# <lo-sample/> LT.LJMO.2011.7_8.1
 
 <text lang="lv">
 Ķīvīte Matilde no kaut kurienes atnesa trīsciparu skaitli, 
@@ -1042,7 +1042,7 @@ paskutinysis $4$-tasis dar nežinomas tos sumos (vienetų) skaitmuo.
 
 
 
-# <lo-sample/> LT.LJKMO.2011.7_8.2
+# <lo-sample/> LT.LJMO.2011.7_8.2
 
 <text lang="lv">
 Naskā cūka Kamila simtgadīga ozola virsotnē atrada senu pergamentu ar 
@@ -1087,7 +1087,7 @@ keliaženklio ir kokio skaičiaus kvadratas yra tas pradinis skaičius.
 
 
 
-# <lo-sample/> LT.LJKMO.2012.7_8.1
+# <lo-sample/> LT.LJMO.2012.7_8.1
 
 <text lang="lv">
 Dzenītis Baltrus, kurš pats ir liels putnu arodbiedrību aktīvists un, ko te slēpt, 
@@ -1136,7 +1136,7 @@ skaičiaus skaitmenų sandauga?
 
 
 
-# <lo-sample/> LT.LJKMO.2012.7_8.2
+# <lo-sample/> LT.LJMO.2012.7_8.2
 
 <text lang="lv">
 Žagatu, sīļu un bezdelīgu specializētajā daiļamatniecības skolā, kur 
@@ -1173,7 +1173,7 @@ surasti jau nebe bet kokį, o jau patį mažiausią iš visų tokių $100$-ženk
 
 
 
-# <lo-sample/> LT.LJKMO.2012.7_8.4
+# <lo-sample/> LT.LJMO.2012.7_8.4
 
 <text lang="lv">
 Dzenītis Baltrus savu dēlu Bali māca pacietīgi minēt visu, ko vien var, 
@@ -1208,7 +1208,7 @@ skaičių porą $(m;n)$ porą, tinkančią tai lygčiai;
 
 
 
-# <lo-sample/> LT.LJKMO.2012.7_8.6
+# <lo-sample/> LT.LJMO.2012.7_8.6
 
 <text lang="lv">
 Atamana Žagatas pilnvarots doktorants Ūpis ar saviem maģistrantiem sīļiem un bakalauriem 
@@ -1244,7 +1244,7 @@ kad padoriems paukščiams siūlomi uždaviniai būna dvejopi: paprasti arba įd
 
 
 
-# <lo-sample/> LT.LJKMO.2013.7_8.2
+# <lo-sample/> LT.LJMO.2013.7_8.2
 
 <text lang="lv">
 Kurmja Karoļa tante Leokādija Rausīte no mazām dienām tic trīsciparu skaitļu 
@@ -1281,7 +1281,7 @@ negausi, kad jis yra ne be reikalo mokslininkų sugalvotas?
 </small>
 
 
-# <lo-sample/> LT.LJKMO.2013.7_8.6
+# <lo-sample/> LT.LJMO.2013.7_8.6
 
 <text lang="lv">
 Zemē noliktas $9$ akmeņu kaudzes (katrā ir vismaz pa vienam akmenim). Bebrs
@@ -1313,7 +1313,7 @@ $7$ krūvose būtų po lygiai akmenų. Sužinokite mažiausią galimą $n$ reik�
 
 
 
-# <lo-sample/> LT.LJKMO.2014.7_8.1
+# <lo-sample/> LT.LJMO.2014.7_8.1
 
 <text lang="lv">
 Meža vidū stāv liela tāfele, pie kuras rosās $85$ Zaķi Pišķi, kuri ko prot, ko ne, bet 
@@ -1352,7 +1352,7 @@ paskutinysis, $85$-tasis Kiškis Piškis, vardu Mykoliukas?
 
 
 
-# <lo-sample/> LT.LJKMO.2014.7_8.2
+# <lo-sample/> LT.LJMO.2014.7_8.2
 
 <text lang="lv">
 **(A)** Lapsa Snape Saldžūne atkal klāstīja Zaķītim Paikutim kaut kādas pašizdomātas ašas 
@@ -1392,7 +1392,7 @@ nesidalija be liekanos iš $4$?
 
 
 
-# <lo-sample/> LT.LJKMO.2015.7_8.5
+# <lo-sample/> LT.LJMO.2015.7_8.5
 
 <text lang="lv">
 Naturāls skaitlis ir *taizemiski apaļīgs*, ja tas ir lielāks par $10$ un
@@ -1416,7 +1416,7 @@ kurių kiekvienas yra tailandiškai apvalus, gali eiti iš eilės?
 
 
 
-# <lo-sample/> LT.LJKMO.2015.7_8.6
+# <lo-sample/> LT.LJMO.2015.7_8.6
 
 <text lang="lv">
 Naturālu skaitli $N$ sauc par *debesu atjautības skaitli* 
@@ -1458,7 +1458,7 @@ ar nėra ir, suprantama, deramai pagrįskite savo atsakymą.
 
 
 
-# <lo-sample/> LT.LJKMO.2016.7_8.3
+# <lo-sample/> LT.LJMO.2016.7_8.3
 
 <text lang="lv">
 Skaitlis $4$ skaitlī $97$ "ietilpst" $24$ reizes un vēl 
@@ -1506,7 +1506,7 @@ koks galėtų būti tas skaičius $N$?
 
 
 
-# <lo-sample/> LT.LJKMO.2016.7_8.5
+# <lo-sample/> LT.LJMO.2016.7_8.5
 
 <text lang="lv">
 Netālu no Lielā Ķīnas mūra dzīvo tāds vientuļnieks, kurš saka, ka 
@@ -1534,7 +1534,7 @@ skaičių sumos pasirodytų esančios lygios $15$-ai iš eilės einančių natū
 
 
 
-# <lo-sample/> LT.LJKMO.2017.7_8.2
+# <lo-sample/> LT.LJMO.2017.7_8.2
 
 <text lang="lv">
 Šovasar Brazīlijas presē parādījās ziņojums par neticamu 
@@ -1567,7 +1567,7 @@ skaitmens (kito nei tas, kurio nepanaudojo Romario)?
 
 
 
-# <lo-sample/> LT.LJKMO.2017.7_8.3
+# <lo-sample/> LT.LJMO.2017.7_8.3
 
 <text lang="lv">
 Naturālu skaitli $n$ sauc par *brazīliski nobriedušu*, ja tas dalās 
@@ -1598,7 +1598,7 @@ panaudojamas užrašant $n$). Pabandykite:
 
 
 
-# <lo-sample/> LT.LJKMO.2018.7_8.6
+# <lo-sample/> LT.LJMO.2018.7_8.6
 
 <text lang="lv">
 Zirga Dominika draugs Ēzelītis Apolinārs bieži mēdz pārbaudīt 
