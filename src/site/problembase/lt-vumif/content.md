@@ -26,7 +26,7 @@ yra natūralusis.
 <text num="1" lang="lv">
 ## Atrisinājums
 
-*#PolynomialDivision*  
+*#PolynomialLongDivision*  
 Ja skaitītājā polinoma pakāpe (kubs) ir vismaz tāda
 pati kā saucējā (kvadrāts), tad tos var dalīt, iegūstot
 atlikumu:
