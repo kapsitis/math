@@ -415,7 +415,7 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 * questionType:Prove
 * domain:Comb
 * topic:LinearOptimization
-* LTopic:LTExtremeElement
+* method:ExtremeElements
 * method:PigeonholePrincipleBasic
 
 </small>
@@ -537,7 +537,7 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 
 * questionType:Prove
 * domain:Comb
-* LTopic:LTExtremeElement
+* method:ExtremeElements
 * method:PigeonholePrincipleBasic
 
 </small>

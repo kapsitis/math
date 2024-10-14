@@ -24,7 +24,7 @@ Atrast $\sphericalangle BAC$, ja $\sphericalangle CED = 25^{\circ}$.
 * topic:TriangleAngles
 * topic:TrianglesIsosceles
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:80
 * Grade:7,8
 * questionType:ShortAnswer
@@ -75,9 +75,9 @@ kas apzīmēti ar lociņiem.
 
 <small>
 
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * topic:TriangleAngles
-* LTopic:LTPolygons
+* subdomain:AnglesParallelsSimilarity
 * Answer:360
 * Grade:7,8
 * questionType:ShortAnswer
@@ -123,7 +123,7 @@ $40^{\circ}$ и $50^{\circ}$, и основания которых лежат н
 * topic:TrianglesIsosceles
 * topic:TriangleAngles
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:45
 * Grade:7,8
 * questionType:ShortAnswer
@@ -172,7 +172,7 @@ Aprēķināt leņķu lielumu summu, kas zīmējumā apzīmēti ar $x$ un $y$.
 
 * topic:AnglesCentral
 * topic:PolygonAnglesSum
-* LTopic:LTPolygons
+* subdomain:Polygons
 * Answer:150
 * Grade:7,8
 * questionType:ShortAnswer
@@ -221,7 +221,7 @@ taisnstūra malu.
 
 * topic:TrianglesEquilateral
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:120
 * Grade:7,8
 * questionType:ShortAnswer
@@ -273,7 +273,7 @@ $CD$ делят углы этого треугольника пополам, а 
 <small>
 
 * topic:TriangleAngles
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:20
 * Grade:7,8
 * domain:Geom
@@ -315,7 +315,7 @@ Kāda ir leņķu $\alpha$ un $\gamma$ summa?
 
 * topic:AnglesCentral
 * topic:LinearSystemsTransforms
-* LTopic:LTCircleAndRelatedAngles
+* subdomain:CirclesAndRelatedAngles
 * Answer:340
 * Grade:9,10
 * questionType:ShortAnswer
@@ -365,7 +365,7 @@ $\sphearicalangle CBD = 25^{\circ}$.
 * topic:TrianglesIsosceles
 * topic:TriangleAngles
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:20
 * Grade:7,8
 * questionType:ShortAnswer
@@ -413,7 +413,7 @@ $|AB| = |CD|$. Найти величину угла $ABC$.
 <small>
 
 * topic:TrianglesIsosceles
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:65
 * Grade:7,8
 * questionType:ShortAnswer
@@ -459,7 +459,7 @@ malas $AC$ garumu.
 <small>
 
 * topic:TriangleAngles
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:30
 * Grade:7,8
 * questionType:ShortAnswer
@@ -516,7 +516,7 @@ $BC$ оказались равной длины. Найти величину у�
 
 * topic:TriangleAngles
 * topic:TrianglesIsosceles
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:30
 * Grade:7,8
 * questionType:ShortAnswer
@@ -563,7 +563,7 @@ Aprēķināt leņķi, kas apzīmēts ar $x$.
 
 * topic:PolygonRegular
 * topic:AnglesParallelLines
-* LTopic:LTPolygons
+* subdomain:AnglesParallelsSimilarity
 * Answer:130
 * Grade:7,8
 * questionType:ShortAnswer
@@ -635,7 +635,7 @@ bet $\sphericalangle ABC$ ir $80^{\circ}$. Aprēķināt $y$.
 
 * topic:TriangleAngles
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:50
 * Grade:7,8
 * questionType:ShortAnswer
@@ -677,7 +677,7 @@ Atrast leņķi, kas apzīmēts ar $y$, ja ar $x$ apzīmētie leņķi ir vienādi
 
 * topic:TriangleAngles
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:48
 * Grade:7,8
 * questionType:ShortAnswer
@@ -732,7 +732,7 @@ Trijstūris $ACE$ ir vienādsānu. Atrast leņķi $\sphericalangle EAB$.
 
 * topic:TriangleAngles
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:57
 * Grade:7,8
 * questionType:ShortAnswer
@@ -778,7 +778,7 @@ $AD$ и $BE$ пересекаются в точке $C$, и действует �
 * topic:TriangleAngles
 * topic:AnglesParallelLines
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:20
 * Grade:7,8
 * questionType:ShortAnswer
@@ -830,7 +830,7 @@ bet trijstūris $ACD$ ir vienādsānu. Aprēķināt leņķi $ACB$.
 
 * topic:TriangleAngles
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:30
 * Grade:7,8
 * questionType:ShortAnswer
@@ -876,7 +876,7 @@ Aprēķināt leņķi $ACD$.
 <small>
 
 * topic:TriangleAngles
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:40
 * Grade:7,8
 * questionType:ShortAnswer
@@ -939,7 +939,7 @@ $CD$. Величина одного из внутренних углов тре�
 
 * topic:TriangleAngles
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:80
 * Grade:7,8
 * questionType:ShortAnswer
@@ -994,7 +994,7 @@ leņķis $x$ ir $23^{\circ}$ un leņķis $y$ ir $32^{\circ}$.
 
 * topic:TriangleAngles
 * topic:PolygonAnglesSum
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:80
 * Grade:7,8
 * questionType:ShortAnswer
@@ -1044,7 +1044,7 @@ Atrast leņķa $x$ lielumu, ja zīmējumā attēlotais četrstūris ir paralelog
 
 * topic:TriangleAngles
 * topic:PolygonAnglesSum
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:44
 * Grade:7,8
 * questionType:ShortAnswer
@@ -1091,7 +1091,7 @@ $M$ ir tā malas viduspunkts.
 <small>
 
 * topic:TrianglesEquilateral
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:120
 * Grade:7,8
 * questionType:ShortAnswer
@@ -1140,7 +1140,7 @@ Aprēķināt $\sphericalangle ABC$.
 
 * topic:TriangleAngles
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:33
 * Grade:7,8
 * questionType:ShortAnswer
@@ -1188,7 +1188,7 @@ $BC$ равны. Из точки $D$, лежащей на
 
 * topic:TriangleAngles
 * topic:AnglesParallelLines
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 * Answer:128
 * Grade:7,8
 * questionType:ShortAnswer
@@ -1234,7 +1234,7 @@ Atrast leņķi $\sphericalangle BKL$.
 
 <small>
 
-* LTopic:LTPolygons
+* subdomain:Polygons
 * Answer:39
 * Grade:9,10
 * questionType:ShortAnswer

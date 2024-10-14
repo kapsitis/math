@@ -191,7 +191,7 @@ būt uzrakstīts uz tāfeles?
 
 * questionType:FindOptimal
 * domain:NT
-* LTopic:LTExtremeElement
+* method:ExtremeElements
 
 </small>
 

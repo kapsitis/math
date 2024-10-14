@@ -8,7 +8,7 @@ lielāks nekā visu šo skaitļu lielākais kopīgais dalītājs?
 
 * questionType:ProveDisprove
 * domain:Alg
-* LTopic:LTExtremeElement
+* method:ExtremeElements
 
 </small>
 
@@ -626,7 +626,7 @@ skaitļu summu?
 
 * questionType:FindAll
 * domain:NT
-* LTopic:LTExtremeElement
+* method:ExtremeElements
 
 </small>
 

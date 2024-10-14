@@ -39,7 +39,7 @@ cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari
 
 * concepts:decimal-notation
 * topic:ModularArithmeticLastDigit
-* LTopic:LTNumeralSystems
+* subdomain:NumeralSystems
 * strategy:CaseAnalysis
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
@@ -128,7 +128,7 @@ Kāds ir lielākais iespējamais viesu skaits, kas bija ieradušies uz Gunas dzi
 
 * topic:PigeonholePrincipleForExtremes
 * questionType:FindOptimal
-* LTTopic:LTExtremes,LTContradiction
+* method:ExtremeElements,ContradictionForExistence
 * domain:Comb
 * topic:LinearOptimization
 
@@ -315,7 +315,7 @@ komplektu viennozīmīgi nav iespējams noteikt?
 
 * questionType:FindOptimal
 * domain:Comb
-* LTopic:LTExtremeElement
+* method:ExtremeElements
 
 </small>
 

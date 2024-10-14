@@ -15,7 +15,7 @@ notation and is divisible by $15$?
 * concepts:divisibility,digit
 * questionType:FindOptimal
 * domain:NT
-* LTopic:LTNumeralSystems
+* subdomain:NumeralSystems
 * topic:DivisibilityRulesLastDigits
 * topic:DivisibilityRulesFor3And9
 * topic:DecimalNotationDigits
@@ -738,7 +738,7 @@ number is divisible by $15$. In how many ways can you do this?
 * concepts:variable,digit,divisibility
 * questionType:FindCount
 * domain:NT
-* LTopic:LTNumeralSystems
+* subdomain:NumeralSystems
 * topic:DivisibilityRulesLastDigits
 * topic:DivisibilityRulesFor3And9
 
@@ -1054,7 +1054,7 @@ In how many ways can you do this?
 * concepts:divisibility,variable,digit
 * questionType:FindCount
 * domain:NT
-* LTopic:LTNumeralSystems
+* subdomain:NumeralSystems
 
 </small>
 
@@ -1447,7 +1447,7 @@ but different letters may or may not be the same.)
 * concepts:divisibility,digit,variable
 * questionType:FindCount
 * domain:NT
-* LTopic:LTNumeralSystems
+* subdomain:NumeralSystems
 
 </small>
 
