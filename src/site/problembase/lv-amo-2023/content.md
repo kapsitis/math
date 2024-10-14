@@ -97,7 +97,7 @@ rūtiņas var pārvietot uz kreiso augšējo rūtiņu, ja kvadrāta izmēri ir:
 * topic:InvariantParity
 * questionType:ProveDisprove
 * domain:Comb
-* LTopic:LTInvariant
+* subdomain:FixedInvariant
 
 </small>
 
@@ -804,7 +804,7 @@ un saucēju. Vai, atkārtojot
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
-* LTopic:LTInvariant
+* subdomain:FixedInvariant
 
 </small>
 
@@ -949,7 +949,7 @@ Vai var gadīties, ka: **(A)** $S = 100$; **(B)** $S = 123$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* LTopic:LTInvariant
+* subdomain:FixedInvariant
 
 </small>
 
@@ -1537,7 +1537,7 @@ būtu patiesa?
 
 * questionType:ProveDisprove
 * domain:Alg
-* LTopic:LTEquations
+* subdomain:Equations
 
 </small>
 

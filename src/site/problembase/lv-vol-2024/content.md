@@ -684,7 +684,7 @@ saskaitītas. Pierādīt, ka spēlētājs $B$ var panākt, lai iegūtā summa b�
 
 * questionType:Prove
 * domain:Alg
-* LTopic:LTInvariant
+* subdomain:FixedInvariant
 
 </small>
 
@@ -791,7 +791,7 @@ uzvarēs pareizi spēlējot, ja papildus zināms, ka katrs no viņiem var apēst
 
 * questionType:Algorithm,Algorithm
 * domain:Comb
-* LTopic:LTInvariant
+* subdomain:FixedInvariant
 
 </small>
 

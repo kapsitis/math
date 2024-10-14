@@ -117,7 +117,7 @@ Vai iespējams, ka pēc atkārtotas automāta izmantošanas viṇai palika:
 
 * questionType:ProveDisprove
 * domain:Comb
-* LTopic:LTInvariant
+* subdomain:FixedInvariant
 
 </small>
 
@@ -269,7 +269,7 @@ ko sauc par posmiem. Lauztu līniju, kuras galapunkti sakrīt, sauc par slēgtu 
 
 * questionType:ProveDisprove
 * domain:Geom
-* LTopic:LTInvariant
+* subdomain:FixedInvariant
 
 </small>
 
@@ -1331,7 +1331,7 @@ ja sākumā kastē ir: **(A)** $20$; **(B)** $2024$ konfektes?
 
 * questionType:Algorithm,Algorithm
 * domain:NT
-* LTopic:LTInvariant
+* subdomain:FixedInvariant
 
 </small>
 

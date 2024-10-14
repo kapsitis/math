@@ -1,4 +1,25 @@
-python proc_rename_meta.py python proc_rename_meta.py LTopic subdomain LTNumeralSystems NumeralSystems
+python proc_rename_meta.py LTopic subdomain LTNumeralSystems NumeralSystems
+python proc_rename_meta.py LTopic subdomain LTPolygons Polygons
+
+python proc_rename_meta.py LTopic subdomain xxxx yyyy
+    changes = {'LTDivisibility': 'Divisibility', 
+               'LTEquationSystems': 'EquationSystems',
+               'LTLogic': 'Logic', 
+               'LTCuttingCoversColoring': 'CuttingCoversColoring', 
+               'LTInvariant': 'FixedInvariant', 
+               'LTCongruenceModulo': 'Congruences', 
+               'LTNumeralSystems': 'NumeralSystems', 
+               'LTEquations': 'Equations', 
+               'LTObjectSystemsGeometry': 'ObjectSystemsGeometry'}
+
+
+
+
+
+
+python proc_compare_files.py
+python proc_copy_files.py
+
 
 
 ./lv-amo-2022b/content.md:* LTopic:LTNumeralSystems
@@ -20,6 +41,8 @@ python proc_rename_meta.py python proc_rename_meta.py LTopic subdomain LTNumeral
 ./lv-amo-2022b/content.md:* LTopic:LTEquations
 ./lv-amo-2022b/content.md:* LTopic:LTTriangles
 ./lv-amo-2022b/content.md:* LTopic:LTGraphs,LTContradiction
+
+
 ./lv-amo-2022b/content.md:* LTopic:LTLogic
 ./lv-amo-2022b/content.md:* LTopic:LTNumeralSystems
 ./lv-amo-2022b/content.md:* LTopic:LTInequalities,LTExpressionTransforms

@@ -42,7 +42,6 @@ def main(in_file, out_file, old_prop, new_prop, changes):
     with open(in_file, mode="r") as f:
         for line in f.readlines():
             def replace_match(match):
-                print(f'In replace_match')
                 key = match.group(2)
                 multi_value = match.group(3).strip()
                 multi_list = multi_value.split(',')
@@ -81,12 +80,23 @@ if __name__ == '__main__':
     new_prop = sys.argv[2]
     old_value = sys.argv[3]
     new_value = sys.argv[4]
-    # mydict = get_old_topics()
 
-    print(f'Renaming property {old_prop} into {new_prop}')
 
-    changes = {old_value: new_value}
-    print(f'changes = {changes}')
+    changes = {'LTDivisibility': 'Divisibility', 
+               'LTEquationSystems': 'EquationSystems',
+               'LTLogic': 'Logic', 
+               'LTCuttingCoversColoring': 'CuttingCoversColoring', 
+               'LTInvariant': 'FixedInvariant', 
+               'LTCongruenceModulo': 'Congruences', 
+               'LTNumeralSystems': 'NumeralSystems', 
+               'LTEquations': 'Equations', 
+               'LTObjectSystemsGeometry': 'ObjectSystemsGeometry'}
+
+    # print(f'Renaming property {old_prop} into {new_prop}')
+    # changes = {old_value: new_value}
+
+
+
 
     # mydict = {'Find.All': 'FindAll', 
     #           'Find.Count': 'FindCount', 

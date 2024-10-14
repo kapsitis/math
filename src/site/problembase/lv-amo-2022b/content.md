@@ -67,7 +67,7 @@ perimeter is the number of sides of the little squares on its border.
 * concepts:area,perimeter,grid,hexagon,square-side
 * questionType:FindExample
 * domain:Geom
-* LTopic:LTPolygons
+* subdomain:Polygons
 * topic:SquareGridShapes
 * topic:PolygonPerimeter
 * topic:Area
@@ -112,7 +112,7 @@ $250$ tickets were made for the theatre performance and at least half of them we
 * concepts:fractions,at-least
 * questionType:FindAll
 * domain:NT
-* LTopic:LTDivisibility
+* subdomain:Divisibility
 * topic:MutualPrimes
 * topic:ArithmeticSeriesDivisibility
 
@@ -167,7 +167,7 @@ balance scale (d) is also in equilibrium? Justify your answer!
 * concepts:equality,pentagon
 * questionType:FindAll
 * domain:Alg
-* LTopic:LTEquationSystems
+* subdomain:EquationSystems
 * topic:SystemsSubstituteVariables
 
 </small>
@@ -242,7 +242,7 @@ What colour does every girl like? Justify your answer!
 * concepts:true-statement
 * questionType:FindAll
 * domain:Comb
-* LTopic:LTLogic
+* subdomain:Logic
 * topic:PartitioningInPairsBijections
 
 </small>
@@ -309,7 +309,7 @@ least two different colors?
 * concepts:natural-numbers,divisibility
 * questionType:FindCount
 * domain:NT
-* LTopic:LTDivisibility
+* subdomain:Divisibility
 * topic:OtherCountingSetOperations
 * topic:MutualPrimes
 
@@ -397,7 +397,7 @@ The figures can also be rotated.
 * concepts:grid,shape,rotation
 * questionType:FindExample
 * domain:Geom
-* LTopic:LTCuttingCoversColoring
+* subdomain:CuttingCoversColoring
 * topic:SquareGridCutting
 * topic:RotationBy90
 
@@ -447,7 +447,7 @@ Could it happen that Maris gets a sum whose last digit is
 * concepts:natural-numbers,sum,last-digit
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
-* LTopic:LTCongruenceModulo
+* subdomain:Congruences
 * topic:PeriodicRemainders
 * topic:SeriesOneToNSum
 
@@ -586,7 +586,7 @@ How many circles should you put in place of the question mark so that the balanc
 * concepts:equality
 * questionType:FindAll
 * domain:Alg
-* LTopic:LTEquationSystems
+* subdomain:EquationSystems
 * topic:SystemsSubstituteVariables
 
 </small>
@@ -671,7 +671,7 @@ How many villagers lie all the time?
 * concepts:truth,falsehood,mapping
 * questionType:FindCount
 * domain:Comb
-* LTopic:LTLogic
+* subdomain:Logic
 * topic:TrueAndFalseStatements
 * topic:DoubleCounting
 
@@ -809,7 +809,7 @@ Do there exist **(A)** $5$; **(B)** $15$ positive integers
 * concepts:sum,product
 * questionType:ProveDisprove
 * domain:Alg
-* LTopic:LTEquations
+* subdomain:Equations
 * topic:EquationsAndMonotonicity
 
 </small>
@@ -858,7 +858,7 @@ exactly three points are marked on each line!
 * concepts:plane,line,point
 * questionType:FindExample
 * domain:Geom
-* LTopic:LTObjectSystemsGeometry
+* subdomain:ObjectSystemsGeometry
 
 
 </small>
@@ -909,7 +909,7 @@ Which player, can always win if there are initially
 * concepts:game,set,remove,to-win
 * questionType:Algorithm,Algorithm
 * domain:NT
-* LTopic:LTDivisibility,LTInvariant
+* subdomain:Divisibility,FixedInvariant
 
 </small>
 
@@ -986,7 +986,7 @@ How many villagers lie all the time?
 * concepts:truth,falsehood,mapping
 * questionType:FindCount
 * domain:Comb
-* LTopic:LTLogic
+* subdomain:Logic
 
 </small>
 
@@ -1132,7 +1132,7 @@ correctly, if his total score is $13$?
 * concepts:add,subtract
 * questionType:FindAll
 * domain:Alg
-* LTopic:LTEquations
+* subdomain:Equations
 
 </small>
 
@@ -1392,7 +1392,7 @@ How many friends speak the truth?
 * concepts:truth,falsehood
 * questionType:FindCount
 * domain:Comb
-* LTopic:LTLogic
+* subdomain:Logic
 
 </small>
 
@@ -1840,7 +1840,7 @@ What is the last digit of $2022^{2022}$?
 * concepts:power,last-digit
 * questionType:FindAll
 * domain:NT
-* LTopic:LTCongruenceModulo
+* subdomain:Congruences
 
 </small>
 
@@ -1963,7 +1963,7 @@ Each group must contain at least $2$ numbers.
 * concepts:primes,natural-numbers,disjoint-sets,sum
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
-* LTopic:LTNumTheoryExamples,LTDivisibility,LTInvariant
+* subdomain:LTNumTheoryExamples,Divisibility,FixedInvariant
 
 </small>
 
@@ -2107,7 +2107,7 @@ has no real roots!
 * concepts:equation,real-numbers,root
 * questionType:Prove
 * domain:Alg
-* LTopic:LTEquations,LTExpressionTransforms
+* subdomain:Equations,LTExpressionTransforms
 
 </small>
 
@@ -2336,7 +2336,7 @@ Can $2022$ be expressed as the sum of cubes of two integers?
 * concepts:sum,cube-Alg,integer-numbers
 * questionType:ProveDisprove
 * domain:NT
-* LTopic:LTCongruenceModulo,LTContradiction
+* subdomain:Congruences,LTContradiction
 
 </small>
 
@@ -2427,7 +2427,7 @@ $x_1^2 + x_2^2 = 16$?
 * concepts:equation,square-Alg,sum,value
 * questionType:FindAll
 * domain:Alg
-* LTopic:LTEquations,LTExpressionTransforms
+* subdomain:Equations,LTExpressionTransforms
 
 </small>
 
@@ -2777,7 +2777,7 @@ Can the number $2023^2$ be expressed as the sum of three integer cubes?
 * concepts:integer-numbers,cube-Alg,sum
 * questionType:ProveDisprove
 * domain:NT
-* LTopic:LTCongruenceModulo,LTContradiction
+* subdomain:Congruences,LTContradiction
 
 </small>
 
@@ -2876,7 +2876,7 @@ For what real values $p$ the sum of cubes of both roots of the equation $x^2 + x
 * concepts:real-numbers,cube-Alg,equation
 * questionType:FindAll
 * domain:Alg
-* LTopic:LTEquations,LTExpressionTransforms
+* subdomain:Equations,LTExpressionTransforms
 
 </small>
 
@@ -3059,7 +3059,7 @@ Solve the equation $3 \sin x + 4 \cos x = 6$ in real numbers.
 * concepts:equation,real-numbers,sine,cosine
 * questionType:FindAll
 * domain:Alg
-* LTopic:LTEquations,LTExpressionTransforms
+* subdomain:Equations,LTExpressionTransforms
 
 </small>
 
