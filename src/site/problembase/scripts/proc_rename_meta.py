@@ -82,39 +82,23 @@ if __name__ == '__main__':
     new_value = sys.argv[4]
 
 
-    changes = {'LTDivisibility': 'Divisibility', 
-               'LTEquationSystems': 'EquationSystems',
-               'LTLogic': 'Logic', 
-               'LTCuttingCoversColoring': 'CuttingCoversColoring', 
-               'LTInvariant': 'FixedInvariant', 
-               'LTCongruenceModulo': 'Congruences', 
-               'LTNumeralSystems': 'NumeralSystems', 
-               'LTEquations': 'Equations', 
-               'LTObjectSystemsGeometry': 'ObjectSystemsGeometry'}
-
-    # print(f'Renaming property {old_prop} into {new_prop}')
-    # changes = {old_value: new_value}
+    # changes = {'LTDivisibility': 'Divisibility', 
+    #            'LTEquationSystems': 'EquationSystems',
+    #            'LTLogic': 'Logic', 
+    #            'LTCuttingCoversColoring': 'CuttingCoversColoring', 
+    #            'LTInvariant': 'FixedInvariant', 
+    #            'LTCongruenceModulo': 'Congruences', 
+    #            'LTNumeralSystems': 'NumeralSystems', 
+    #            'LTEquations': 'Equations', 
+    #            'LTObjectSystemsGeometry': 'ObjectSystemsGeometry'}
 
 
 
+    changes = {'LTGraphs': 'Graphs', 
+               'LTInequalities': 'Inequalities', 
+               'LTCircleAndRelatedAngles': 'CirclesAndRelatedAngles', 
+               'LTGames': 'CombinatorialGames'}
 
-    # mydict = {'Find.All': 'FindAll', 
-    #           'Find.Count': 'FindCount', 
-    #           'Find.Optimal': 'FindOptimal',
-    #           'Find.Example': 'FindExample',
-    #           'Find.Any': 'FindExample',
-    #           'Find.Only': 'FindAll', 
-    #           'Prove.ForAll': 'Prove', 
-    #           'Prove.Exists': 'Prove',
-    #           'Prove.NotExists': 'Prove',
-    #           'Prove.Other': 'Prove',
-    #           'ProveDisprove.Exists': 'ProveDisprove',
-    #           'ProveDisprove.ForAll': 'ProveDisprove',
-    #           'ProveDisprove.Other': 'ProveDisprove',
-    #           'Find.Min': 'FindOptimal',
-    #           'Find.Max': 'FindOptimal',
-    #           'Find.Only': 'FindAll',         
-    #           }
     
     in_files = get_input_files() 
     for in_file in in_files:

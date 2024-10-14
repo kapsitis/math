@@ -1308,7 +1308,7 @@ around a circle so that any two adjacent numbers differ by $3$, $4$, or $5$?
 * concepts:integer-numbers,distance
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* LTopic:LTGraphs,LTContradiction
+* subdomain:Graphs,LTContradiction
 * topic:HamiltonCircuits
 
 </small>
@@ -1512,7 +1512,7 @@ Is the inequality always true: $x + \frac{9}{x} > y + \frac{9}{y}$, if
 * concepts:inequality
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
-* LTopic:LTInequalities,LTExpressionTransforms
+* subdomain:Inequalities,LTExpressionTransforms
 
 </small>
 
@@ -1671,7 +1671,7 @@ on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$?
 * concepts:integer-numbers,distance
 * questionType:ProveDisprove
 * domain:Comb
-* LTopic:LTGraphs,LTContradiction
+* subdomain:Graphs,LTContradiction
 * topic:HamiltonCircuits
 
 </small>
@@ -1777,7 +1777,7 @@ Can the director of the museum create such route?
 * concepts:grid,square-side,rectangle,path
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* LTopic:LTGraphs,LTContradiction,LTInterpretation
+* subdomain:Graphs,LTContradiction,LTInterpretation
 
 </small>
 
@@ -2173,7 +2173,7 @@ him/her.
 * concepts:graph,vertex,edge
 * questionType:Prove
 * domain:Comb
-* LTopic:LTGraphs,LTContradiction
+* subdomain:Graphs,LTContradiction
 
 </small>
 
@@ -2479,7 +2479,7 @@ of angle $\sphericalangle B$ in the triangle is $120^{\circ}$.
 * concepts:triangle,inscribed-circle,angle,tangent
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTCircleAndRelatedAngles,LTStructureAugmentation
+* subdomain:CirclesAndRelatedAngles,LTStructureAugmentation
 
 </small>
 
@@ -2652,7 +2652,7 @@ create a route satisfying these requirements?
 * concepts:grid,square-side,rectangle,path
 * questionType:FindAll
 * domain:Comb
-* LTopic:LTGraphs,LTContradiction,LTInterpretation
+* subdomain:Graphs,LTContradiction,LTInterpretation
 
 </small>
 
@@ -3288,7 +3288,7 @@ The player who gets more points wins. Which player has a winning strategy, if
 * concepts:game,table,row,column,product,winning-strategy
 * questionType:ProveDisprove
 * domain:Comb
-* LTopic:LTGames
+* subdomain:CombinatorialGames
 
 </small>
 
