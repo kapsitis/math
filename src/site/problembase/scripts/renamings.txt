@@ -13,9 +13,9 @@ python proc_rename_meta.py LTopic subdomain xxxx yyyy
                'LTObjectSystemsGeometry': 'ObjectSystemsGeometry'}
 
 
+python proc_rename_meta.py LTopic method LTContradiction ContradictionForExistence
 
-
-
+LTopic:LTContradiction
 
 python proc_compare_files.py
 python proc_copy_files.py

@@ -71,7 +71,7 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 
 * questionType:Prove
 * domain:Comb
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 

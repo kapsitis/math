@@ -1350,7 +1350,7 @@ trīs rūḳus, kas visi savā starpā draudzējas, ja šajā zemē ir
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 * method:PigeonholePrincipleBasic
 
 </small>
@@ -1461,7 +1461,7 @@ nav izsakāms formā $36n+8$, kur $n$ ir naturāls skaitlis!
 
 * questionType:Prove
 * domain:NT
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 

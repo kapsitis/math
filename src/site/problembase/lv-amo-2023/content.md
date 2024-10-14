@@ -267,7 +267,7 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 
 * questionType:FindCount
 * domain:Comb
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 
@@ -546,7 +546,7 @@ Cik bizbizmārītes sēž uz palodzes?
 
 * questionType:FindCount
 * domain:Comb
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 
@@ -752,7 +752,7 @@ Cik bizbizmārītes sēž uz palodzes?
 * seeAlso:LV.AMO.2023.7.5
 * questionType:FindCount
 * domain:Comb
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 
@@ -999,7 +999,7 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 
 * questionType:FindCount
 * domain:Comb
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 
@@ -1284,7 +1284,7 @@ Māra dzimšanas dienas svinībām?
 * questionType:FindOptimal
 * domain:Comb
 * topic:LinearOptimization
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 
@@ -1500,7 +1500,7 @@ Atrisināt veselos skaitļos vienādojumu $17a^2 - 7b^2 + c^2 = 2023$.
 
 * questionType:FindAll
 * domain:NT
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 
@@ -1635,7 +1635,7 @@ $2 \times 5$ rūtiņas nav patiess!
 
 * questionType:Prove,Prove
 * domain:Comb
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 

@@ -94,11 +94,15 @@ if __name__ == '__main__':
 
 
 
-    changes = {'LTGraphs': 'Graphs', 
-               'LTInequalities': 'Inequalities', 
-               'LTCircleAndRelatedAngles': 'CirclesAndRelatedAngles', 
-               'LTGames': 'CombinatorialGames'}
+    # changes = {'LTGraphs': 'Graphs', 
+    #            'LTInequalities': 'Inequalities', 
+    #            'LTCircleAndRelatedAngles': 'CirclesAndRelatedAngles', 
+    #            'LTGames': 'CombinatorialGames'}
 
+    changes = { old_value: new_value }
+
+    print(f'Changing property {old_prop} to {new_prop}')
+    print(f'    Renamed values: {changes}')
     
     in_files = get_input_files() 
     for in_file in in_files:

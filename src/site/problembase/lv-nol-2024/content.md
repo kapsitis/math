@@ -31,7 +31,7 @@ Kāds mazākais skaits punktu jānodzēš, lai nekādi trīs no atlikušajiem pu
 
 * questionType:FindOptimal
 * domain:Geom
-* LTopic:LTMeanValuePrinciple
+* method:PigeonholePrincipleBasic
 
 </small>
 
@@ -510,7 +510,7 @@ kolonnā vai diagonālē, bet arī, piemēram, punkti $A, B, C$ (skat. 20. att.)
 
 * questionType:FindOptimal
 * domain:Comb
-* LTopic:LTMeanValuePrinciple
+* method:PigeonholePrincipleBasic
 
 </small>
 
@@ -577,7 +577,7 @@ viens skaitlis un katrā rindā un katrā kolonnā skaitli pieaugtu bultiņas no
 
 * questionType:ProveDisprove
 * domain:Comb
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 
@@ -1169,7 +1169,7 @@ Vai iespējams, ka: **(A)** $n=2024$; **(B)** $n=2025$?
 
 * questionType:ProveDisprove
 * domain:Comb
-* LTopic:LTContradiction
+* method:ContradictionForExistence
 
 </small>
 
