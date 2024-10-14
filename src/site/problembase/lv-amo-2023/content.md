@@ -374,7 +374,7 @@ skaitļiem nebūtu vienādu ciparu?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* LTopic:LTMeanValuePrinciple
+* method:PigeonholePrincipleBasic
 
 </small>
 
@@ -903,7 +903,8 @@ kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 * questionType:ProveDisprove
 * domain:Comb
-* LTopic:LTCombinatorialStructures,LTMeanValuePrinciple
+* LTopic:LTCombinatorialStructures
+* method:PigeonholePrincipleBasic
 
 </small>
 
@@ -1164,7 +1165,8 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* LTopic:LTCombinatorialStructures,LTMeanValuePrinciple
+* LTopic:LTCombinatorialStructures
+* method:PigeonholePrincipleBasic
 
 </small>
 
@@ -1433,7 +1435,7 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* LTopic:LTMeanValuePrinciple
+* method:PigeonholePrincipleBasic
 
 </small>
 

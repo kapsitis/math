@@ -1351,6 +1351,7 @@ trīs rūḳus, kas visi savā starpā draudzējas, ja šajā zemē ir
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * LTopic:LTContradiction
+* method:PigeonholePrincipleBasic
 
 </small>
 
@@ -1638,7 +1639,7 @@ visas $3$ partijas, vai nevienu partiju, ja turnīrā piedalās
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* LTopic:LTMeanValuePrinciple
+* method:PigeonholePrincipleBasic
 
 </small>
 

@@ -980,6 +980,9 @@ dalās ar $10$.
 * topic:ModularArithmetic
 * topic:ExhaustionMethod
 * topic:NumTheoryPigeonhole
+* domain:NT
+* questionType:FindOptimal
+* method:PigeonholePrincipleBasic
 
 </small>
 

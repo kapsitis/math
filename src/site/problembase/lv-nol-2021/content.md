@@ -2486,7 +2486,8 @@ lai no tām noteikti varētu izveidot divciparu skaitli, kurš dalās ar $7$
 <small>
 
 * questionType:FindOptimal
-* domain:
+* domain:NT
+* method:PigeonholePrincipleBasic
 
 </small>
 

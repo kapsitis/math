@@ -74,12 +74,12 @@ var tā sadalīt pa pāriem, lai visas pāros ieejošo skaitļu summas būtu da�
 <small>
 
 * topic:PrimesDistribution
-* topic:NumTheoryPigeonhole
 * topic:ExhaustionMethod
 * concepts:partition,primes,sum
 * questionType:ProveDisprove
 * domain:NT
 * genre:construction
+* method:PigeonholePrincipleBasic
 
 </small>
 
@@ -106,12 +106,12 @@ Uz katras no vairākām kartītēm uzrakstīts pa naturālam skaitlim (starp tie
 <small>
 
 * topic:NumTheoryMathInduction
-* topic:NumTheoryPigeonhole
 * genre:construction
 * questionType:ProveDisprove
 * domain:Comb
 * strategy:Interpretation
 * concepts:sum
+* method:PigeonholePrincipleBasic
 
 </small>
 
