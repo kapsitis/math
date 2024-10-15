@@ -69,7 +69,7 @@ vienādi, ja: **(A)** $n=72$; **(B)** $n=73$; **(C)** $n=74$?
 
 * questionType:ProveDisprove,ProveDisprove,ProveDisprove
 * domain:Comb
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -410,7 +410,7 @@ apli uzrakstītie skaitļi kļūst vienādi?
 
 * questionType:FindAll
 * domain:Comb
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -619,7 +619,7 @@ atrodas uz vienas riṇka līnijas!
 
 * questionType:Prove
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 

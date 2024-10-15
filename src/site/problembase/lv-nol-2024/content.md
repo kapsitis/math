@@ -694,7 +694,7 @@ Uz kvadrāta $ABCD$ diagonāles $BD$ atlikts punkts $E$. Pierādīt, ka $ED \cdo
 
 * questionType:Prove
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -819,7 +819,7 @@ Tātad $\sphericalangle BDY=180^{\circ}-\sphericalangle BXY=180^{\circ}-\alpha$.
 
 # <lo-sample/> LV.NOL.2024.10.2
 
-Doti reāli skaiții $x$ un $y$, kuriem $x y^{3}+1=x+y^{3}$. Pierādīt, ka $y x^{3}+1=y+x^{3}$.
+Doti reāli skaiții $x$ un $y$, kuriem $xy^{3}+1=x+y^{3}$. Pierādīt, ka $y x^{3}+1=y+x^{3}$.
 
 <small>
 
@@ -1071,7 +1071,7 @@ Aprēḳināt $EC$ garumu!
 
 * questionType:FindExample
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -1295,7 +1295,7 @@ Taisnleṇḳa trijstūrī $A B C\left(\sphericalangle A B C=90^{\circ}\right)$ 
 
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -1366,7 +1366,7 @@ Atrast visus pirmskaitlu pārus $(p;q)$, kuriem izpildās vienādība $p^{q}=q^{
 
 * questionType:FindAll
 * domain:NT
-* LTopic:LTInduction
+* method:InductionWithStepOne
 
 </small>
 

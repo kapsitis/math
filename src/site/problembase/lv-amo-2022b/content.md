@@ -2025,7 +2025,7 @@ Calculate the area of triangle $ACB$, if $OB = 5$.
 * concepts:right-triangle,area,legs-in-right-triangle,circle,tangent
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTTriangles,LTStructureAugmentation
+* method:LTTriangles,AugmentationWithNewElements
 
 </small>
 
@@ -2936,7 +2936,7 @@ has length $\sqrt{3}$. What can be the area of this triangle?
 * concepts:triangle,median,altitude,area
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTTriangles,LTStructureAugmentation
+* method:LTTriangles,AugmentationWithNewElements
 
 </small>
 

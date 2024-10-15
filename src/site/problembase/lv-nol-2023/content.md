@@ -498,7 +498,7 @@ un $AD=3$. Pierādīt, ka $CD>2$.
 
 * questionType:Prove
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -711,7 +711,7 @@ ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ le�
 
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -917,7 +917,7 @@ Zināms, ka $CD \| BX$. Aprēķināt $AD$ garumu, ja $BX=3, BC=7$ un $CD=6$.
 
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -1407,7 +1407,7 @@ ja $\frac{AE}{EB}=\frac{2}{5}$.
 
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -1809,7 +1809,7 @@ ka visas kastes ir tukšas?
 
 * questionType:FindOptimal
 * domain:Comb
-* LTopic:LTInduction
+* method:InductionWithStepOne
 
 </small>
 

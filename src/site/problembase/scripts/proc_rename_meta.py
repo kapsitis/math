@@ -99,7 +99,16 @@ if __name__ == '__main__':
     #            'LTCircleAndRelatedAngles': 'CirclesAndRelatedAngles', 
     #            'LTGames': 'CombinatorialGames'}
 
-    changes = { old_value: new_value }
+
+
+
+    changes = {
+               'LTStructureAugmentation':'AugmentationWithNewElements', 
+               'LTInduction': 'InductionWithStepOne', 
+               }
+
+    # changes = { old_value: new_value }
+
 
     print(f'Changing property {old_prop} to {new_prop}')
     print(f'    Renamed values: {changes}')

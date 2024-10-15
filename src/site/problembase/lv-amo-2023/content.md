@@ -861,7 +861,7 @@ virsotnes, ir divas reizes garāka nekā augstums no tās pašas virsotnes!
 
 * questionType:Prove
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -1073,7 +1073,7 @@ leņķa $ABC$ lielums četrstūra ārpusē ir $7\alpha$ (skat. 19. att.). Aprē�
 
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -1379,7 +1379,7 @@ Aprēķināt riņķa, ko ierobežo dotā riņķa līnija, laukumu!
 
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -1587,7 +1587,7 @@ Pierādīt, ka $S_{ABD} \leq S_{CEF}$.
 
 * questionType:Prove
 * domain:Geom
-* LTopic:LTStructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
