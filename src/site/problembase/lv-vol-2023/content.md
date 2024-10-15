@@ -233,7 +233,7 @@ $$3\left(x^{2}+y^{2}+z^{2}+4\right) - 2(xy + yz + zx) - 4(x+y+z)=0$$
 
 * questionType:FindAll
 * domain:Alg
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 
@@ -476,7 +476,7 @@ un atrast šo vērtību!
 
 * questionType:Prove,FindAll
 * domain:Alg
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 
@@ -785,7 +785,7 @@ un atrast šo vērtību!
 
 * questionType:Prove
 * domain:Alg
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 

@@ -957,7 +957,7 @@ $$\left(x^{4}+1\right)\left(y^{4}+1\right)=4 x^{2} y^{2}$$
 
 * questionType:FindAll
 * domain:Alg
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 
@@ -1151,7 +1151,7 @@ Aprēḳināt četrstūra $ABHC$ laukumu, ja $AH = BC = 8$.
 
 * questionType:FindAll
 * domain:Geom
-* LTopic:StructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -1299,7 +1299,7 @@ Pierādīt, ka $x^{2}+y^{2}+\frac{1}{2} \geq x+y$ visiem reāliem $x$ un $y$.
 
 * questionType:Prove
 * domain:Alg
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 
@@ -1596,7 +1596,7 @@ $$x^{2}+y^{2}+z^{2}+a \geq x + 2y + 3z$$
 
 * questionType:FindOptimal
 * domain:Alg
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 
@@ -1731,7 +1731,7 @@ formā $27n+11$, kur $n$ ir naturāls skaitlis.
 
 * questionType:Prove
 * domain:NT
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 

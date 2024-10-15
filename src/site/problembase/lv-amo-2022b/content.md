@@ -1216,7 +1216,7 @@ of $ABC$!
 * concepts:triangle
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 
 </small>
 
@@ -1230,19 +1230,19 @@ tātad $\sphericalangle ABD=\sphericalangle BAD=\alpha$ (skat. 6. att.).
 No trijstūra $ABD$ iegūstam, ka 
 $\sphericalangle ADB=180^{\circ}-\alpha-\alpha=180^{\circ}-2 \alpha$.
 
-levērojam, ka 
+Ievērojam, ka 
 $\sphericalangle ADC=180^{\circ} - \sphericalangle ADB=180^{\circ}-\left(180^{\circ}-2 \alpha\right)=2 \alpha$ kā blakusleņki. Tā kā $AC=DC$, tad arī trijstūris $ACD$ 
 ir vienādsānu un tā pamata pieleņki ir vienādi, tātad 
 $\sphericalangle DAC=\sphericalangle ADC = 2\alpha$.
 
-Tā kā $AB=AC$, tad arī trijstūris $ABC$ ir vienādsānu un tā pamata pieleņki ir vienādi, tātad $\sphericalangle ABC=\sphericalangle ACB=\alpha$. 
+Tā kā $AB=AC$, tad arī trijstūris $ABC$ ir vienādsānu un tā pamata pieleņķi ir vienādi, tātad $\sphericalangle ABC=\sphericalangle ACB=\alpha$. 
 No trijstūra $ACD$ iegūstam, ka
 
 $$\sphericalangle ADC+\sphericalangle DAC+\sphericalangle ACD = 2 \alpha+2 \alpha+\alpha=180^{\circ}$$
 
 Atrisinot vienādojumu $5 \alpha=180^{\circ}$, iegūstam, ka $\alpha=36^{\circ}$.
 
-Aprēkinām trijstūra $ABC$ leņ̂ku vērtības:
+Aprēkinām trijstūra $ABC$ leņķu vērtības:
 
 $$\begin{aligned}
 & \circ \quad \sphericalangle ABC = \sphericalangle ACB = \alpha=36^{\circ};\\
@@ -1589,7 +1589,7 @@ Prove that the line $CH$ divides the segment $BK$ in half!
 * concepts:right-triangle,altitude,line,segment
 * questionType:Prove
 * domain:Geom
-* LTopic:LTTriangles
+* subdomain:AnglesParallelsSimilarity
 
 </small>
 
@@ -2025,7 +2025,7 @@ Calculate the area of triangle $ACB$, if $OB = 5$.
 * concepts:right-triangle,area,legs-in-right-triangle,circle,tangent
 * questionType:FindAll
 * domain:Geom
-* method:LTTriangles,AugmentationWithNewElements
+* method:AnglesParallelsSimilarity,AugmentationWithNewElements
 
 </small>
 
@@ -2558,7 +2558,7 @@ $$x^2 + y^2 + z^2 - xy - yz - xz \leq 1.$$
 * concepts:inequality,natural-numbers,sum
 * questionType:Prove
 * domain:NT
-* LTopic:LTTransformsNumTheory,LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 

@@ -276,7 +276,7 @@ z + \frac{1}{z} = 2x^2 \\
 
 * questionType:FindAll
 * domain:Alg
-* LTopic:LTExpressionTransform
+* method:PolynomialTransformations
 
 </small>
 
@@ -539,7 +539,7 @@ Aprēķināt četrstūra $OECG$ laukumu!
 
 * questionType:FindAll
 * domain:Geom
-* LTopic:LTInterpretation
+* method:AlgebraicModel
 
 </small>
 

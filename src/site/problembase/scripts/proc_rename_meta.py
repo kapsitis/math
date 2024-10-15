@@ -103,8 +103,8 @@ if __name__ == '__main__':
 
 
     changes = {
-               'LTStructureAugmentation':'AugmentationWithNewElements', 
-               'LTInduction': 'InductionWithStepOne', 
+               'LTExpressionTransforms':'PolynomialTransformations', 
+               'LTExpressionTransform': 'PolynomialTransformations', 
                }
 
     # changes = { old_value: new_value }

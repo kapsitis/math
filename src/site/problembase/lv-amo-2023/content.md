@@ -66,7 +66,7 @@ laukuma vērtība ir tāda pati kā malu skaits!
 
 * questionType:FindExample
 * topic:SquareGridShapes
-* LTopic:LTIntegerLattices
+* subdomain:IntegerLattices
 * strategy:TrialAndError
 * domain:Geom
 
@@ -903,7 +903,7 @@ kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 * questionType:ProveDisprove
 * domain:Comb
-* LTopic:LTCombinatorialStructures
+* subdomain:CombinatorialStructures
 * method:PigeonholePrincipleBasic
 
 </small>
@@ -1039,7 +1039,7 @@ Pierādīt, ka $9x^2 + 5y^2 − 8xy − 4x + 2 > 0$ visām reālām $x$ un $y$ v
 
 * questionType:Prove
 * domain:Alg
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 
@@ -1165,7 +1165,7 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* LTopic:LTCombinatorialStructures
+* subdomain:CombinatorialStructures
 * method:PigeonholePrincipleBasic
 
 </small>
@@ -1344,7 +1344,7 @@ visām pozitīvām reālām $a$, $b$ un $c$ vērtībām!
 
 * questionType:Prove
 * domain:Alg
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 
@@ -1557,7 +1557,7 @@ skaitļi?
 
 * questionType:FindOptimal
 * domain:Alg
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 

@@ -637,7 +637,7 @@ Pierādīt, ka $\sqrt{17-12 \sqrt{2}}+\sqrt{3-2 \sqrt{2}}+\sqrt{3+2 \sqrt{2}}=3$
 
 * questionType:Prove
 * domain:Alg
-* LTopic:LTExpressionTransforms
+* method:PolynomialTransformations
 
 </small>
 
@@ -825,7 +825,7 @@ Doti reāli skaiții $x$ un $y$, kuriem $xy^{3}+1=x+y^{3}$. Pierādīt, ka $y x^
 
 * questionType:Prove
 * domain:Alg
-* LTopic:LTExpressionTransform
+* method:PolynomialTransformations
 
 </small>
 
@@ -863,7 +863,7 @@ iekšējus punktus $P$ un $Q$, ka nogriežnu $AP, AQ, BP$ un $BQ$ garumi ir izsa
 
 * questionType:Prove
 * domain:Geom
-* LTopic:StructureAugmentation
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -909,7 +909,7 @@ Atrast visus tādus veselu skaitlu pārus $(a ; b)$, kuriem izpildās vienādīb
 
 * questionType:FindAll
 * domain:NT
-* LTopic:LTExpressionTransform
+* method:PolynomialTransformations
 
 </small>
 
@@ -1027,7 +1027,7 @@ Pierādīt, ka $\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}<
 
 * questionType:Prove
 * domain:Alg
-* LTopic:LTExpressionTransform
+* method:PolynomialTransformations
 
 </small>
 
@@ -1253,7 +1253,7 @@ Pierādīt, ka $\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}>
 
 * questionType:Prove
 * domain:Alg
-* LTopic:LTExpressionTransform
+* method:PolynomialTransformations
 
 </small>
 
