@@ -55,6 +55,11 @@ un leņķis pie virsotnes: $\sphericalangle BAC = 180^{\circ} - 50^{\circ} - 50^
 
 
 
+
+
+
+
+
 # <lo-sample/> EE.PK.2010TEST.8.6
 
 <text lang="lv">
@@ -95,6 +100,13 @@ Pie virsotnes ar lociņu apzīmētais leņķis ir $360^{\circ} - (90^{\circ} + 9
 Tāpēc visu trīs leņķu summa:    
 $(180^{\circ} - \alpha) + (180^{\circ} - \alpha) + 2\alpha = 360^{\circ}$. 
 </text>
+
+
+
+
+
+
+
 
 
 # <lo-sample/> EE.PK.2011TEST.7.7
@@ -192,6 +204,13 @@ vienādojumu:
 $x + y + 40^{\circ} + 300^{\circ} + 50^{\circ} = 540^{\circ}$.  
 $x + y = 540^{\circ} - (40^{\circ} + 300^{\circ} + 50^{\circ}) = 150^{\circ}$. 
 </text>
+
+
+
+
+
+
+
 
 
 # <lo-sample/> EE.PK.2012TEST.7.8
@@ -292,6 +311,12 @@ Tāpēc $360^{\circ} - 10\alpha = 180^{\circ} - \alpha$ un $\alpha = 20^{\circ}$
 </text>
 
 
+
+
+
+
+
+
 # <lo-sample/> EE.PK.2013TEST.7.6
 
 <text lang="lv">
@@ -334,6 +359,11 @@ Tāpēc $\gamma = 360^{\circ} - 180^{\circ} = 180^{\circ}$, bet $\alpha = 360 - 
 
 ![](EE.PK.2013TEST.7.6A.png){ width=200px }
 </text>
+
+
+
+
+
 
 
 # <lo-sample/> EE.PK.2013TEST.8.6
@@ -389,6 +419,12 @@ $EDC$. Tāpēc tā blakusleņķis $\sphericalangle BED = 180^{\circ} - 45^{\circ
 Trijstūrī $BDE$ divi leņķi jau ir zināmi (attiecīgi $25^{\circ}$ un $135^{\circ}$). 
 Tādēļ trešais leņķis ir $180^{\circ} - 25^{\circ} - 135^{\circ} = 20^{\circ}$. 
 </text>
+
+
+
+
+
+
 
 
 # <lo-sample/> EE.PK.2014TEST.7.8
