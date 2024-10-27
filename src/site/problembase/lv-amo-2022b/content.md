@@ -1308,7 +1308,8 @@ around a circle so that any two adjacent numbers differ by $3$, $4$, or $5$?
 * concepts:integer-numbers,distance
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:Graphs,LTContradiction
+* subdomain:Graphs
+* method:ContradictionForExistence
 * topic:HamiltonCircuits
 
 </small>
@@ -1512,7 +1513,8 @@ Is the inequality always true: $x + \frac{9}{x} > y + \frac{9}{y}$, if
 * concepts:inequality
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
-* subdomain:Inequalities,LTExpressionTransforms
+* subdomain:Inequalities
+* method:PolynomialTransformations
 
 </small>
 
@@ -1671,7 +1673,8 @@ on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$?
 * concepts:integer-numbers,distance
 * questionType:ProveDisprove
 * domain:Comb
-* subdomain:Graphs,LTContradiction
+* subdomain:Graphs
+* method:ContradictionForExistence
 * topic:HamiltonCircuits
 
 </small>
@@ -1777,7 +1780,8 @@ Can the director of the museum create such route?
 * concepts:grid,square-side,rectangle,path
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:Graphs,LTContradiction,LTInterpretation
+* method:ContradictionForExistence
+* subdomain:Graphs
 
 </small>
 
@@ -1963,7 +1967,9 @@ Each group must contain at least $2$ numbers.
 * concepts:primes,natural-numbers,disjoint-sets,sum
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
-* subdomain:LTNumTheoryExamples,Divisibility,FixedInvariant
+* subdomain:NumberRepresentation
+* method:FixedInvariant
+* topic:Divisibility
 
 </small>
 
@@ -2107,7 +2113,8 @@ has no real roots!
 * concepts:equation,real-numbers,root
 * questionType:Prove
 * domain:Alg
-* subdomain:Equations,LTExpressionTransforms
+* method:PolynomialTransformations
+* subdomain:Equations
 
 </small>
 
@@ -2173,7 +2180,8 @@ him/her.
 * concepts:graph,vertex,edge
 * questionType:Prove
 * domain:Comb
-* subdomain:Graphs,LTContradiction
+* subdomain:Graphs
+* method:ContradictionForExistence
 
 </small>
 
@@ -2336,7 +2344,8 @@ Can $2022$ be expressed as the sum of cubes of two integers?
 * concepts:sum,cube-Alg,integer-numbers
 * questionType:ProveDisprove
 * domain:NT
-* subdomain:Congruences,LTContradiction
+* subdomain:Congruences
+* method:ContradictionForExistence
 
 </small>
 
@@ -2427,7 +2436,9 @@ $x_1^2 + x_2^2 = 16$?
 * concepts:equation,square-Alg,sum,value
 * questionType:FindAll
 * domain:Alg
-* subdomain:Equations,LTExpressionTransforms
+* method:
+* subdomain:Equations
+* method:PolynomialTransformations
 
 </small>
 
@@ -2479,7 +2490,8 @@ of angle $\sphericalangle B$ in the triangle is $120^{\circ}$.
 * concepts:triangle,inscribed-circle,angle,tangent
 * questionType:FindAll
 * domain:Geom
-* subdomain:CirclesAndRelatedAngles,LTStructureAugmentation
+* subdomain:CirclesAndRelatedAngles
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -2652,7 +2664,8 @@ create a route satisfying these requirements?
 * concepts:grid,square-side,rectangle,path
 * questionType:FindAll
 * domain:Comb
-* subdomain:Graphs,LTContradiction,LTInterpretation
+* subdomain:Graphs
+* method:ContradictionForExistence
 
 </small>
 
@@ -2777,7 +2790,8 @@ Can the number $2023^2$ be expressed as the sum of three integer cubes?
 * concepts:integer-numbers,cube-Alg,sum
 * questionType:ProveDisprove
 * domain:NT
-* subdomain:Congruences,LTContradiction
+* subdomain:Congruences
+* method:ContradictionForExistence
 
 </small>
 
@@ -2876,7 +2890,8 @@ For what real values $p$ the sum of cubes of both roots of the equation $x^2 + x
 * concepts:real-numbers,cube-Alg,equation
 * questionType:FindAll
 * domain:Alg
-* subdomain:Equations,LTExpressionTransforms
+* subdomain:Equations
+* method:PolynomialTransformations
 
 </small>
 
@@ -2936,7 +2951,8 @@ has length $\sqrt{3}$. What can be the area of this triangle?
 * concepts:triangle,median,altitude,area
 * questionType:FindAll
 * domain:Geom
-* method:LTTriangles,AugmentationWithNewElements
+* subdomain:Triangles
+* method:AugmentationWithNewElements
 
 </small>
 
@@ -3059,7 +3075,8 @@ Solve the equation $3 \sin x + 4 \cos x = 6$ in real numbers.
 * concepts:equation,real-numbers,sine,cosine
 * questionType:FindAll
 * domain:Alg
-* subdomain:Equations,LTExpressionTransforms
+* method:PolynomialTransformations
+* subdomain:Equations
 
 </small>
 
