@@ -1,8 +1,10 @@
+# -*- coding: utf-8 -*-
 import re
 import sys
-sys.path.append('.')
-from site.problembase.scripts.get_metadata_from_openai import *
-
+#sys.path.append('.')
+#from site.problembase.scripts.get_metadata_from_openai import *
+sys.path.append('..')
+from get_metadata_from_openai import *
 
 # Read problems one by one from Markdown file "filepath"
 def extract_sections_from_md(filepath):
@@ -51,7 +53,8 @@ if __name__ == '__main__':
                   "Prove", "ProveDisprove", "Algorithm"]
 
 questionType_re = re.compile(r'.+?questionType:([\w\.,]+).+?',re.DOTALL)
-problemList = extract_sections_from_md(f'../{sys.argv[1]}/content.md')
+#problemList = extract_sections_from_md(f'../{sys.argv[1]}/content.md')
+problemList = extract_sections_from_md('../../workspace-private/nms-uzdevumi/lv-vol-2019/content.md')
 
 # prepare training data: problem_data_set un category_data_set
 problem_data_set = []
@@ -65,7 +68,7 @@ for (title, problem) in problemList:
     problem = normalize_text(problem)
     
     answer = classify_math_problem(problem,'questionType_LV') # problem un prompt nosaukums
-    with open("questiontype_openai.csv", 'a', encoding='utf-8') as file1:
+    with open("questiontype_openai-17.csv", 'a', encoding='utf-8') as file1:
         file1.write(f'{title},"{category}","{answer}"\n')
 
 

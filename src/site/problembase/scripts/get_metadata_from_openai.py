@@ -183,7 +183,7 @@ Pēc $n-1$ gājiena uz tāfeles paliek viens skaitlis.
 Vai tas var būt $0$, ja **(a)** $n=8$, **(b)** $n=9$?"""
 
     # Classify the problem
-    classify_math_problem(problem_text, 'domain_LV_updated')
+    classify_math_problem(problem_text, 'questionType_LV')
 
 
 if __name__ == "__main__":
