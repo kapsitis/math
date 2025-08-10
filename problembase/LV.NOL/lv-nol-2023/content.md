@@ -113,7 +113,7 @@ of paths coming out of them:
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 
@@ -226,7 +226,7 @@ sarkanās un zilās monētas, ja sākumā ir dota viena sarkana monēta?
 
 * questionType:ProveDisprove
 * domain:Comb
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 
@@ -295,7 +295,7 @@ krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 
 * questionType:ProveDisprove
 * domain:Comb
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 
@@ -393,7 +393,7 @@ Vai, vairākkārt izpildot šādus gājienus, no skaitla $17$ var iegūt:
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 
@@ -461,7 +461,7 @@ $5$ citām lampiņām?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 
@@ -571,7 +571,7 @@ ja sākumā kastē atrodas:
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 
@@ -662,7 +662,7 @@ nedraudzējas. Vai var gadīties, ka **(A)** $m=11$, **(B)** $m=10$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 
@@ -890,7 +890,7 @@ katram rūķim ir tieši $9$ draugi?
 
 * questionType:ProveDisprove
 * domain:Comb
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 

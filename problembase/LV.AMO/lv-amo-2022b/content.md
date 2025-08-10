@@ -15,7 +15,7 @@ notation and is divisible by $15$?
 * concepts:divisibility,digit
 * questionType:FindOptimal
 * domain:NT
-* subdomain:NumeralSystems
+* subdomain:DOM_NumeralSystems
 * topic:DivisibilityRulesLastDigits
 * topic:DivisibilityRulesFor3And9
 * topic:DecimalNotationDigits
@@ -67,7 +67,7 @@ perimeter is the number of sides of the little squares on its border.
 * concepts:area,perimeter,grid,hexagon,square-side
 * questionType:FindExample
 * domain:Geom
-* subdomain:Polygons
+* subdomain:DOM_Polygons
 * topic:SquareGridShapes
 * topic:PolygonPerimeter
 * topic:Area
@@ -112,7 +112,7 @@ $250$ tickets were made for the theatre performance and at least half of them we
 * concepts:fractions,at-least
 * questionType:FindAll
 * domain:NT
-* subdomain:Divisibility
+* subdomain:DOM_Divisibility
 * topic:MutualPrimes
 * topic:ArithmeticSeriesDivisibility
 
@@ -167,7 +167,7 @@ balance scale (d) is also in equilibrium? Justify your answer!
 * concepts:equality,pentagon
 * questionType:FindAll
 * domain:Alg
-* subdomain:EquationSystems
+* subdomain:DOM_EquationSystems
 * topic:SystemsSubstituteVariables
 
 </small>
@@ -242,7 +242,7 @@ What colour does every girl like? Justify your answer!
 * concepts:true-statement
 * questionType:FindAll
 * domain:Comb
-* subdomain:Logic
+* subdomain:DOM_Logic
 * topic:PartitioningInPairsBijections
 
 </small>
@@ -309,7 +309,7 @@ least two different colors?
 * concepts:natural-numbers,divisibility
 * questionType:FindCount
 * domain:NT
-* subdomain:Divisibility
+* subdomain:DOM_Divisibility
 * topic:OtherCountingSetOperations
 * topic:MutualPrimes
 
@@ -397,7 +397,7 @@ The figures can also be rotated.
 * concepts:grid,shape,rotation
 * questionType:FindExample
 * domain:Geom
-* subdomain:CuttingCoversColoring
+* subdomain:DOM_CuttingCoversColoring
 * topic:SquareGridCutting
 * topic:RotationBy90
 
@@ -447,7 +447,7 @@ Could it happen that Maris gets a sum whose last digit is
 * concepts:natural-numbers,sum,last-digit
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
-* subdomain:Congruences
+* subdomain:DOM_Congruences
 * topic:PeriodicRemainders
 * topic:SeriesOneToNSum
 
@@ -586,7 +586,7 @@ How many circles should you put in place of the question mark so that the balanc
 * concepts:equality
 * questionType:FindAll
 * domain:Alg
-* subdomain:EquationSystems
+* subdomain:DOM_EquationSystems
 * topic:SystemsSubstituteVariables
 
 </small>
@@ -671,7 +671,7 @@ How many villagers lie all the time?
 * concepts:truth,falsehood,mapping
 * questionType:FindCount
 * domain:Comb
-* subdomain:Logic
+* subdomain:DOM_Logic
 * topic:TrueAndFalseStatements
 * topic:DoubleCounting
 
@@ -738,7 +738,7 @@ number is divisible by $15$. In how many ways can you do this?
 * concepts:variable,digit,divisibility
 * questionType:FindCount
 * domain:NT
-* subdomain:NumeralSystems
+* subdomain:DOM_NumeralSystems
 * topic:DivisibilityRulesLastDigits
 * topic:DivisibilityRulesFor3And9
 
@@ -809,7 +809,7 @@ Do there exist **(A)** $5$; **(B)** $15$ positive integers
 * concepts:sum,product
 * questionType:ProveDisprove
 * domain:Alg
-* subdomain:Equations
+* subdomain:DOM_Equations
 * topic:EquationsAndMonotonicity
 
 </small>
@@ -858,7 +858,7 @@ exactly three points are marked on each line!
 * concepts:plane,line,point
 * questionType:FindExample
 * domain:Geom
-* subdomain:ObjectSystemsGeometry
+* subdomain:DOM_ObjectSystemsGeometry
 
 
 </small>
@@ -909,7 +909,7 @@ Which player, can always win if there are initially
 * concepts:game,set,remove,to-win
 * questionType:Algorithm,Algorithm
 * domain:NT
-* subdomain:Divisibility,FixedInvariant
+* subdomain:DOM_Divisibility,FixedInvariant
 
 </small>
 
@@ -986,7 +986,7 @@ How many villagers lie all the time?
 * concepts:truth,falsehood,mapping
 * questionType:FindCount
 * domain:Comb
-* subdomain:Logic
+* subdomain:DOM_Logic
 
 </small>
 
@@ -1054,7 +1054,7 @@ In how many ways can you do this?
 * concepts:divisibility,variable,digit
 * questionType:FindCount
 * domain:NT
-* subdomain:NumeralSystems
+* subdomain:DOM_NumeralSystems
 
 </small>
 
@@ -1132,7 +1132,7 @@ correctly, if his total score is $13$?
 * concepts:add,subtract
 * questionType:FindAll
 * domain:Alg
-* subdomain:Equations
+* subdomain:DOM_Equations
 
 </small>
 
@@ -1216,7 +1216,7 @@ of $ABC$!
 * concepts:triangle
 * questionType:FindAll
 * domain:Geom
-* subdomain:AnglesParallelsSimilarity
+* subdomain:DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -1308,7 +1308,7 @@ around a circle so that any two adjacent numbers differ by $3$, $4$, or $5$?
 * concepts:integer-numbers,distance
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:Graphs
+* subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
 * topic:HamiltonCircuits
 
@@ -1393,7 +1393,7 @@ How many friends speak the truth?
 * concepts:truth,falsehood
 * questionType:FindCount
 * domain:Comb
-* subdomain:Logic
+* subdomain:DOM_Logic
 
 </small>
 
@@ -1448,7 +1448,7 @@ but different letters may or may not be the same.)
 * concepts:divisibility,digit,variable
 * questionType:FindCount
 * domain:NT
-* subdomain:NumeralSystems
+* subdomain:DOM_NumeralSystems
 
 </small>
 
@@ -1513,7 +1513,7 @@ Is the inequality always true: $x + \frac{9}{x} > y + \frac{9}{y}$, if
 * concepts:inequality
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
-* subdomain:Inequalities
+* subdomain:DOM_Inequalities
 * method:MTH_PolynomialTransformations
 
 </small>
@@ -1591,7 +1591,7 @@ Prove that the line $CH$ divides the segment $BK$ in half!
 * concepts:right-triangle,altitude,line,segment
 * questionType:Prove
 * domain:Geom
-* subdomain:AnglesParallelsSimilarity
+* subdomain:DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -1673,7 +1673,7 @@ on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$?
 * concepts:integer-numbers,distance
 * questionType:ProveDisprove
 * domain:Comb
-* subdomain:Graphs
+* subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
 * topic:HamiltonCircuits
 
@@ -1781,7 +1781,7 @@ Can the director of the museum create such route?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * method:MTH_ContradictionForExistence
-* subdomain:Graphs
+* subdomain:DOM_Graphs
 
 </small>
 
@@ -1844,7 +1844,7 @@ What is the last digit of $2022^{2022}$?
 * concepts:power,last-digit
 * questionType:FindAll
 * domain:NT
-* subdomain:Congruences
+* subdomain:DOM_Congruences
 
 </small>
 
@@ -1967,7 +1967,7 @@ Each group must contain at least $2$ numbers.
 * concepts:primes,natural-numbers,disjoint-sets,sum
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
-* subdomain:NumberRepresentation
+* subdomain:DOM_NumberRepresentation
 * method:MTH_FixedInvariant
 * topic:Divisibility
 
@@ -2114,7 +2114,7 @@ has no real roots!
 * questionType:Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
-* subdomain:Equations
+* subdomain:DOM_Equations
 
 </small>
 
@@ -2180,7 +2180,7 @@ him/her.
 * concepts:graph,vertex,edge
 * questionType:Prove
 * domain:Comb
-* subdomain:Graphs
+* subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
 
 </small>
@@ -2344,7 +2344,7 @@ Can $2022$ be expressed as the sum of cubes of two integers?
 * concepts:sum,cube-Alg,integer-numbers
 * questionType:ProveDisprove
 * domain:NT
-* subdomain:Congruences
+* subdomain:DOM_Congruences
 * method:MTH_ContradictionForExistence
 
 </small>
@@ -2437,7 +2437,7 @@ $x_1^2 + x_2^2 = 16$?
 * questionType:FindAll
 * domain:Alg
 * method:MTH_
-* subdomain:Equations
+* subdomain:DOM_Equations
 * method:MTH_PolynomialTransformations
 
 </small>
@@ -2490,7 +2490,7 @@ of angle $\sphericalangle B$ in the triangle is $120^{\circ}$.
 * concepts:triangle,inscribed-circle,angle,tangent
 * questionType:FindAll
 * domain:Geom
-* subdomain:CirclesAndRelatedAngles
+* subdomain:DOM_CirclesAndRelatedAngles
 * method:MTH_AugmentationWithNewElements
 
 </small>
@@ -2664,7 +2664,7 @@ create a route satisfying these requirements?
 * concepts:grid,square-side,rectangle,path
 * questionType:FindAll
 * domain:Comb
-* subdomain:Graphs
+* subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
 
 </small>
@@ -2790,7 +2790,7 @@ Can the number $2023^2$ be expressed as the sum of three integer cubes?
 * concepts:integer-numbers,cube-Alg,sum
 * questionType:ProveDisprove
 * domain:NT
-* subdomain:Congruences
+* subdomain:DOM_Congruences
 * method:MTH_ContradictionForExistence
 
 </small>
@@ -2890,7 +2890,7 @@ For what real values $p$ the sum of cubes of both roots of the equation $x^2 + x
 * concepts:real-numbers,cube-Alg,equation
 * questionType:FindAll
 * domain:Alg
-* subdomain:Equations
+* subdomain:DOM_Equations
 * method:MTH_PolynomialTransformations
 
 </small>
@@ -2951,7 +2951,7 @@ has length $\sqrt{3}$. What can be the area of this triangle?
 * concepts:triangle,median,altitude,area
 * questionType:FindAll
 * domain:Geom
-* subdomain:Triangles
+* subdomain:DOM_Triangles
 * method:MTH_AugmentationWithNewElements
 
 </small>
@@ -3076,7 +3076,7 @@ Solve the equation $3 \sin x + 4 \cos x = 6$ in real numbers.
 * questionType:FindAll
 * domain:Alg
 * method:MTH_PolynomialTransformations
-* subdomain:Equations
+* subdomain:DOM_Equations
 
 </small>
 
@@ -3305,7 +3305,7 @@ The player who gets more points wins. Which player has a winning strategy, if
 * concepts:game,table,row,column,product,winning-strategy
 * questionType:ProveDisprove
 * domain:Comb
-* subdomain:CombinatorialGames
+* subdomain:DOM_CombinatorialGames
 
 </small>
 

@@ -297,7 +297,7 @@ pēdējā skaitļa vērtības!
 
 * questionType:FindAll
 * domain:NT
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 

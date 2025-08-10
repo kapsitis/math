@@ -272,7 +272,7 @@ gājienus atkārto, līdz rindā paliek tikai viens skaitlis.
 
 * questionType:FindCount,FindAll
 * domain:Alg
-* subdomain:RealSequences
+* subdomain:DOM_RealSequences
 * method:MTH_FixedInvariant
 
 </small>
@@ -296,7 +296,7 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 
 * questionType:FindAll
 * domain:Alg
-* subdomain:EquationSystems
+* subdomain:DOM_EquationSystems
 * method:MTH_PolynomialTransformations
 
 </small>
@@ -320,7 +320,7 @@ $(x+1)(x+2)(x+3)$ dalās ar $343$?
 * topic:FactorizationAndDivisibility
 * questionType:FindCount
 * domain:NT
-* subdomain:PrimeFactors,Divisibility
+* subdomain:DOM_PrimeFactors,Divisibility
 
 </small>
 
@@ -349,7 +349,7 @@ rūtiņām nebūtu nokrāsotas visas malas?
 
 * questionType:FindOptimal
 * domain:Geom
-* subdomain:ObjectSystemsGeometry,IntegerLattices
+* subdomain:DOM_ObjectSystemsGeometry,IntegerLattices
 * method:MTH_MeanValuePrinciple
 
 </small>
@@ -379,7 +379,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 
 * questionType:
 * domain:Comb
-* subdomain:CombinatorialAlgorithms
+* subdomain:DOM_CombinatorialAlgorithms
 * method:MTH_InductiveAlgorithms
 
 </small>
@@ -415,7 +415,7 @@ $2$ un $3$.)
 * topic:TelescopicSums
 * questionType:ProveDisprove,FindCount
 * domain:NT
-* subdomain:PrimeFactors
+* subdomain:DOM_PrimeFactors
 * method:MTH_PolynomialTransformations
 
 </small>
@@ -444,7 +444,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC > AB$.
 * topic:TriangleInequality
 * questionType:Prove
 * domain:Geom
-* subdomain:Triangles
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -489,7 +489,7 @@ starpība dalās ar $9$.
 * topic:NotationManipulate
 * questionType:Prove
 * domain:NT
-* subdomain:NumeralSystems
+* subdomain:DOM_NumeralSystems
 * method:MTH_FixedInvariant
 
 </small>
@@ -521,7 +521,7 @@ ir identitāte?
 
 * questionType:ProveDisprove
 * domain:Alg
-* subdomain:Equations
+* subdomain:DOM_Equations
 
 </small>
 
@@ -543,7 +543,7 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 
 * questionType:Prove
 * domain:Comb
-* subdomain:Graphs
+* subdomain:DOM_Graphs
 * method:MTH_ExtremeConstructions
 
 </small>
@@ -817,7 +817,7 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}=y!+2$.
 <small>
 
 * topic:CountingObjects
-* subdomain:IntegerEquations
+* subdomain:DOM_IntegerEquations
 * topic:StandardIdentities
 * topic:ValuationProperties
 * topic:ValuationProperties

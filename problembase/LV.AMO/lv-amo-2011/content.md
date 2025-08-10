@@ -13,7 +13,7 @@ nav $0$. Atrodi visus iespējamos atrisinājumus!
 * method:MTH_ExhaustiveAlgorithms
 * questionType:FindAll
 * domain:NT
-* subdomain:NumeralSystems
+* subdomain:DOM_NumeralSystems
 * genre:Cryptarithm
 
 </small>
@@ -59,7 +59,7 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 * topic:AlgebraicTransformations
 * questionType:FindAll
 * domain:Alg
-* subdomain:EquationSystems
+* subdomain:DOM_EquationSystems
 * genre:MagicConfigurations
 * concepts:sum
 
@@ -92,7 +92,7 @@ Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros!
 * topic:CircleInscribedAngles
 * questionType:FindExample
 * domain:Geom
-* subdomain:CuttingCoversColoring
+* subdomain:DOM_CuttingCoversColoring
 * concepts:square-Geo,triangle
 
 

@@ -11,7 +11,7 @@ pirmais cipars par $1$ mazāks nekā visu citu ciparu summa.
 
 * questionType:FindOptimal,FindOptimal
 * domain:NT
-* subdomain:NumeralSystems
+* subdomain:DOM_NumeralSystems
 * topic:DecimalNotationDigits
 
 </small>
@@ -39,7 +39,7 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 
 * questionType:Algorithm
 * domain:Comb
-* subdomain:CombinatorialAlgorithms
+* subdomain:DOM_CombinatorialAlgorithms
 * method:MTH_ExhaustiveAlgorithms
 
 
@@ -73,7 +73,7 @@ mazākais iespējamais).
 
 * questionType:FindExample
 * domain:Geom
-* subdomain:SquareGridReorder
+* subdomain:DOM_SquareGridReorder
 
 </small>
 
@@ -100,7 +100,7 @@ ne ar vienu citu naturālu skaitli kā $1$?
 * questionType:ProveDisprove
 * domain:NT
 * topic:GraphColoringAndLabeling
-* subdomain:CombinatorialStructures
+* subdomain:DOM_CombinatorialStructures
 
 </small>
 
@@ -127,7 +127,7 @@ to var panākt, ja sākotnējie lodīšu daudzumi ir $10,\ 12$ un $15$?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * method:MTH_PeriodicInvariant
-* subdomain:CombinatorialAlgorithms
+* subdomain:DOM_CombinatorialAlgorithms
 
 </small>
 
@@ -155,7 +155,7 @@ pulkst. $12^{00}$ abi pulksteņi atkal rādīs pareizu laiku?
 
 * questionType:FindOptimal
 * domain:Alg
-* subdomain:WordProblems
+* subdomain:DOM_WordProblems
 * topic:GcdAndLcm
 
 </small>
@@ -182,7 +182,7 @@ otrā. Vai to var izdarīt, ja **(A)** $n=5$, **(B)** $n=7$?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
 * method:MTH_FixedInvariant
-* subdomain:SquareGridCut
+* subdomain:DOM_SquareGridCut
 * topic:RemaindersInCombinatorics
 
 </small>
@@ -213,7 +213,7 @@ pēdējo, būtu vienāds ar savu abu kaimiņu summu vai starpību?
 
 * questionType:ProveDisprove
 * domain:Comb,Alg
-* subdomain:CombinatorialStructures
+* subdomain:DOM_CombinatorialStructures
 * method:MTH_ExhaustiveAlgorithms
 
 </small>
@@ -240,7 +240,7 @@ un cik punktus viņi ieguva?
 * questionType:FindAll
 * domain:Comb
 * topic:GraphVertexDegree
-* subdomain:Graphs
+* subdomain:DOM_Graphs
 
 </small>
 
@@ -291,7 +291,7 @@ svēršanām var noteikt katra atsvara masu?
 
 * questionType:ProveDisprove
 * domain:Comb
-* subdomain:CombinatorialAlgorithms
+* subdomain:DOM_CombinatorialAlgorithms
 * method:MTH_ExhaustiveAlgorithms
 
 </small>
@@ -323,7 +323,7 @@ Dots, ka $|x+y|+|x-y|=10$. Kāda ir lielākā iespējamā $x$ vērtība?
 
 * questionType:FindOptimal
 * domain:Alg
-* subdomain:MultivariableEquations
+* subdomain:DOM_MultivariableEquations
 * topic:CaseAnalysis
 
 
@@ -352,7 +352,7 @@ kā minēts iepriekš?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
-* subdomain:ObjectSystemsGeometry
+* subdomain:DOM_ObjectSystemsGeometry
 * topic:CuttingShapesSpecial
 
 </small>
@@ -388,7 +388,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 
 * questionType:Prove
 * domain:NT
-* subdomain:NumericGamesAndAlgorithms
+* subdomain:DOM_NumericGamesAndAlgorithms
 * method:MTH_ContradictionForNonExistence
 * topic:GamesSymmetry
 
@@ -419,7 +419,7 @@ Pierādiet, ka $EE_{1} \perp BC$.
 
 * questionType:Prove
 * domain:Geom
-* subdomain:Polygons
+* subdomain:DOM_Polygons
 * topic:TrianglesIsosceles
 
 </small>
@@ -447,7 +447,7 @@ var būt $0$, ja **(A)** $n=8$, **(B)** $n=9$?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * method:MTH_Monovariant
-* subdomain:CombinatorialAlgorithms
+* subdomain:DOM_CombinatorialAlgorithms
 
 </small>
 
@@ -482,7 +482,7 @@ $x_{0},\ x_{1},\ x_{2}$ un $x_{3}$, nelietojot kvadrātsaknes zīmi.
 
 * questionType:FindExample
 * domain:Alg
-* subdomain:Equations
+* subdomain:DOM_Equations
 * topic:VietaFormulas
 
 </small>
@@ -512,7 +512,7 @@ vajadzēja iegūt. Kādu sešciparu skaitli Andris uzrakstīja?
 
 * questionType:FindAll
 * domain:NT
-* subdomain:NumeralSystems
+* subdomain:DOM_NumeralSystems
 * topic:NotationShift
 
 </small>
@@ -540,7 +540,7 @@ dalītājs būtu $1$?
 
 * questionType:FindOptimal
 * domain:NT
-* subdomain:NumberRepresentation
+* subdomain:DOM_NumberRepresentation
 * topic:GcdAndLcm
 
 </small>
@@ -571,7 +571,7 @@ kopgarumu. (Tika novilktas **tikai** līnijas, kas dala kvadrātus taisnstūros.
 
 * questionType:Prove
 * domain:Geom
-* subdomain:SquareGridCut
+* subdomain:DOM_SquareGridCut
 * topic:PolygonPerimeter
 
 </small>
@@ -599,7 +599,7 @@ Vai tas iespējams, ja **(A)** $n=3$, **(B)** $n=4$, **(C)** $n=2003$?
 
 * questionType:ProveDisprove,ProveDisprove,ProveDisprove
 * domain:NT
-* subdomain:IntegerEquations
+* subdomain:DOM_IntegerEquations
 * topic:StandardIdentities
 
 </small>
@@ -650,7 +650,7 @@ $8$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
-* subdomain:MagicConfigurations
+* subdomain:DOM_MagicConfigurations
 * topic:DoubleCounting
 
 </small>
@@ -681,7 +681,7 @@ $\left(p_{1}-1\right)\left(p_{2}-1\right) \ldots \left(p_{n}-1\right)$.
 
 * questionType:FindAll
 * domain:NT
-* subdomain:PrimeFactors
+* subdomain:DOM_PrimeFactors
 * topic:DivisibilityProperties
 
 </small>
@@ -715,7 +715,7 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 
 * questionType:Prove
 * domain:Geom
-* subdomain:Triangles
+* subdomain:DOM_Triangles
 * topic:BisectorDividingArcInTwo,TriangleCongruence
 
 
@@ -751,7 +751,7 @@ Kurš uzvar, pareizi spēlējot, ja **(A)** $k=8$, **(B)** $k=64$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:CombinatorialGames
+* subdomain:DOM_CombinatorialGames
 * topic:GameInvariant
 
 </small>
@@ -783,7 +783,7 @@ Vai noteikti $x+\frac{4}{x}>y+\frac{4}{y}$, ja
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
-* subdomain:Inequalities
+* subdomain:DOM_Inequalities
 * topic:InequalitiesEquivalentTransformations
 
 </small>
@@ -809,7 +809,7 @@ līdzīgi savā starpā.
 
 * questionType:Prove
 * domain:Geom
-* subdomain:Triangles
+* subdomain:DOM_Triangles
 * topic:CircleInscribedAngles
 
 </small>
@@ -846,7 +846,7 @@ skaitļu kvadrāti.
 
 * questionType:FindExample,ProveDisprove
 * domain:NT
-* subdomain:PrimeFactors
+* subdomain:DOM_PrimeFactors
 * method:MTH_ContradictionForExistence
 * topic:AlgebraicTransformations
 
@@ -876,7 +876,7 @@ Cik dažādi skolēnu izvietojumi iespējami pēc pārkārtošanās?
 
 * questionType:FindCount
 * domain:Comb
-* subdomain:CountingObjects
+* subdomain:DOM_CountingObjects
 * topic:LinearRecurrencesVariable
 
 </small>
@@ -912,7 +912,7 @@ $m+n \geq 3$).
 
 * questionType:FindAll
 * domain:Comb
-* subdomain:CombinatorialStructures
+* subdomain:DOM_CombinatorialStructures
 
 </small>
 
@@ -957,7 +957,7 @@ Kāda ir lielākā iespējamā $z$ vērtība?
 
 * questionType:FindOptimal
 * domain:Alg
-* subdomain:MultivariableEquations
+* subdomain:DOM_MultivariableEquations
 * topic:ModulusFunctionProperties
 
 </small>
@@ -982,7 +982,7 @@ Pierādiet, ka taisne $AZ$ dala nogriezni $XB$ uz pusēm.
 
 * questionType:Prove
 * domain:Geom
-* subdomain:CirclesAndRelatedAngles
+* subdomain:DOM_CirclesAndRelatedAngles
 * topic:CircleInscribedAngles
 
 </small>
@@ -1010,7 +1010,7 @@ Vai eksistē tāds naturāls skaitlis $n$, ka $6^{n}-1$ dalās ar $4^{n}-1$?
 
 * questionType:ProveDisprove
 * domain:NT
-* subdomain:Divisibility
+* subdomain:DOM_Divisibility
 * topic:
 
 </small>
@@ -1037,7 +1037,7 @@ vienlaicīgi izpildītos divas prasības:
 
 * questionType:ProveDisprove
 * domain:Comb
-* subdomain:CombinatorialCounterexamples
+* subdomain:DOM_CombinatorialCounterexamples
 * method:MTH_GeometricInterpretation
 
 </small>
@@ -1074,7 +1074,7 @@ pārējām zaudējusi vismaz vienai no izvēlētajām $n$.
 
 * questionType:Prove
 * domain:Comb
-* subdomain:Graphs
+* subdomain:DOM_Graphs
 * method:MTH_ExtremeElements
 
 </small>

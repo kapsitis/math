@@ -39,7 +39,7 @@ cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari
 
 * concepts:decimal-notation
 * topic:ModularArithmeticLastDigit
-* subdomain:NumeralSystems
+* subdomain:DOM_NumeralSystems
 * strategy:CaseAnalysis
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
@@ -66,7 +66,7 @@ laukuma vērtība ir tāda pati kā malu skaits!
 
 * questionType:FindExample
 * topic:SquareGridShapes
-* subdomain:IntegerLattices
+* subdomain:DOM_IntegerLattices
 * strategy:TrialAndError
 * domain:Geom
 
@@ -97,7 +97,7 @@ rūtiņas var pārvietot uz kreiso augšējo rūtiņu, ja kvadrāta izmēri ir:
 * topic:GraphColoredVertices
 * questionType:ProveDisprove
 * domain:Comb
-* subdomain:Graphs
+* subdomain:DOM_Graphs
 * method:MTH_FixedInvariant
 
 </small>
@@ -805,7 +805,7 @@ un saucēju. Vai, atkārtojot
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 
@@ -904,7 +904,7 @@ kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 * questionType:ProveDisprove
 * domain:Comb
-* subdomain:CombinatorialStructures
+* subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
 
 </small>
@@ -950,7 +950,7 @@ Vai var gadīties, ka: **(A)** $S = 100$; **(B)** $S = 123$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:FixedInvariant
+* subdomain:DOM_FixedInvariant
 
 </small>
 
@@ -1166,7 +1166,7 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:CombinatorialStructures
+* subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
 
 </small>
@@ -1538,7 +1538,7 @@ būtu patiesa?
 
 * questionType:ProveDisprove
 * domain:Alg
-* subdomain:Equations
+* subdomain:DOM_Equations
 
 </small>
 
