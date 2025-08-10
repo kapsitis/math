@@ -1687,7 +1687,7 @@ Trijst큰ri sauc par vienkr훮sas, ja tam visas malas ir nokr훮sotas vien훮 kr훮s�
 
 * questionType:Prove,ProveDisprove
 * domain:Geom
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 

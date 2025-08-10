@@ -1309,7 +1309,7 @@ around a circle so that any two adjacent numbers differ by $3$, $4$, or $5$?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:Graphs
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 * topic:HamiltonCircuits
 
 </small>
@@ -1514,7 +1514,7 @@ Is the inequality always true: $x + \frac{9}{x} > y + \frac{9}{y}$, if
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
 * subdomain:Inequalities
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1674,7 +1674,7 @@ on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:Graphs
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 * topic:HamiltonCircuits
 
 </small>
@@ -1780,7 +1780,7 @@ Can the director of the museum create such route?
 * concepts:grid,square-side,rectangle,path
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 * subdomain:Graphs
 
 </small>
@@ -1968,7 +1968,7 @@ Each group must contain at least $2$ numbers.
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
 * subdomain:NumberRepresentation
-* method:FixedInvariant
+* method:MTH_FixedInvariant
 * topic:Divisibility
 
 </small>
@@ -2031,7 +2031,7 @@ Calculate the area of triangle $ACB$, if $OB = 5$.
 * concepts:right-triangle,area,legs-in-right-triangle,circle,tangent
 * questionType:FindAll
 * domain:Geom
-* method:AnglesParallelsSimilarity,AugmentationWithNewElements
+* method:MTH_AnglesParallelsSimilarity,AugmentationWithNewElements
 
 </small>
 
@@ -2113,7 +2113,7 @@ has no real roots!
 * concepts:equation,real-numbers,root
 * questionType:Prove
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 * subdomain:Equations
 
 </small>
@@ -2181,7 +2181,7 @@ him/her.
 * questionType:Prove
 * domain:Comb
 * subdomain:Graphs
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -2345,7 +2345,7 @@ Can $2022$ be expressed as the sum of cubes of two integers?
 * questionType:ProveDisprove
 * domain:NT
 * subdomain:Congruences
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -2436,9 +2436,9 @@ $x_1^2 + x_2^2 = 16$?
 * concepts:equation,square-Alg,sum,value
 * questionType:FindAll
 * domain:Alg
-* method:
+* method:MTH_
 * subdomain:Equations
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -2491,7 +2491,7 @@ of angle $\sphericalangle B$ in the triangle is $120^{\circ}$.
 * questionType:FindAll
 * domain:Geom
 * subdomain:CirclesAndRelatedAngles
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -2570,7 +2570,7 @@ $$x^2 + y^2 + z^2 - xy - yz - xz \leq 1.$$
 * concepts:inequality,natural-numbers,sum
 * questionType:Prove
 * domain:NT
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -2665,7 +2665,7 @@ create a route satisfying these requirements?
 * questionType:FindAll
 * domain:Comb
 * subdomain:Graphs
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -2791,7 +2791,7 @@ Can the number $2023^2$ be expressed as the sum of three integer cubes?
 * questionType:ProveDisprove
 * domain:NT
 * subdomain:Congruences
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -2891,7 +2891,7 @@ For what real values $p$ the sum of cubes of both roots of the equation $x^2 + x
 * questionType:FindAll
 * domain:Alg
 * subdomain:Equations
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -2952,7 +2952,7 @@ has length $\sqrt{3}$. What can be the area of this triangle?
 * questionType:FindAll
 * domain:Geom
 * subdomain:Triangles
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -3075,7 +3075,7 @@ Solve the equation $3 \sin x + 4 \cos x = 6$ in real numbers.
 * concepts:equation,real-numbers,sine,cosine
 * questionType:FindAll
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 * subdomain:Equations
 
 </small>

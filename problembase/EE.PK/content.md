@@ -982,7 +982,7 @@ dalās ar $10$.
 * topic:NumTheoryPigeonhole
 * domain:NT
 * questionType:FindOptimal
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 

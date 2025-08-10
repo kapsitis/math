@@ -1042,7 +1042,7 @@ divus tādus, ka to summa vai starpība dalās ar $13$.
 
 * questionType:Prove
 * domain:NT
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 

@@ -31,7 +31,7 @@ Kāds mazākais skaits punktu jānodzēš, lai nekādi trīs no atlikušajiem pu
 
 * questionType:FindOptimal
 * domain:Geom
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -415,8 +415,8 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 * questionType:Prove
 * domain:Comb
 * topic:LinearOptimization
-* method:ExtremeElements
-* method:PigeonholePrincipleBasic
+* method:MTH_ExtremeElements
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -510,7 +510,7 @@ kolonnā vai diagonālē, bet arī, piemēram, punkti $A, B, C$ (skat. 20. att.)
 
 * questionType:FindOptimal
 * domain:Comb
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -537,8 +537,8 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 
 * questionType:Prove
 * domain:Comb
-* method:ExtremeElements
-* method:PigeonholePrincipleBasic
+* method:MTH_ExtremeElements
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -577,7 +577,7 @@ viens skaitlis un katrā rindā un katrā kolonnā skaitli pieaugtu bultiņas no
 
 * questionType:ProveDisprove
 * domain:Comb
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -637,7 +637,7 @@ Pierādīt, ka $\sqrt{17-12 \sqrt{2}}+\sqrt{3-2 \sqrt{2}}+\sqrt{3+2 \sqrt{2}}=3$
 
 * questionType:Prove
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -694,7 +694,7 @@ Uz kvadrāta $ABCD$ diagonāles $BD$ atlikts punkts $E$. Pierādīt, ka $ED \cdo
 
 * questionType:Prove
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -826,7 +826,7 @@ Doti reāli skaiții $x$ un $y$, kuriem $xy^{3}+1=x+y^{3}$. Pierādīt, ka $y x^
 
 * questionType:Prove
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -864,7 +864,7 @@ iekšējus punktus $P$ un $Q$, ka nogriežnu $AP, AQ, BP$ un $BQ$ garumi ir izsa
 
 * questionType:Prove
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -910,7 +910,7 @@ Atrast visus tādus veselu skaitlu pārus $(a ; b)$, kuriem izpildās vienādīb
 
 * questionType:FindAll
 * domain:NT
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1028,7 +1028,7 @@ Pierādīt, ka $\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}<
 
 * questionType:Prove
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1074,7 +1074,7 @@ Aprēķināt $EC$ garumu!
 
 * questionType:FindExample
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -1172,7 +1172,7 @@ Vai iespējams, ka: **(A)** $n=2024$; **(B)** $n=2025$?
 
 * questionType:ProveDisprove
 * domain:Comb
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -1256,7 +1256,7 @@ Pierādīt, ka $\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}>
 
 * questionType:Prove
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1300,7 +1300,7 @@ $BD=1, DE=3$. Aprēķināt $EC$ garumu!
 
 * questionType:FindAll
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -1371,7 +1371,7 @@ Atrast visus pirmskaitlu pārus $(p;q)$, kuriem izpildās vienādība $p^{q}=q^{
 
 * questionType:FindAll
 * domain:NT
-* method:InductionWithStepOne
+* method:MTH_InductionWithStepOne
 
 </small>
 

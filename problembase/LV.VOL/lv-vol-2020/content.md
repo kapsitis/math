@@ -653,7 +653,7 @@ izvēlētajā rindā, vai izvēlētajā kolonnā (vai abās).
 
 * questionType:FindOptimal
 * domain:Comb
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 

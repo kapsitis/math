@@ -40,7 +40,7 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * questionType:Algorithm
 * domain:Comb
 * subdomain:CombinatorialAlgorithms
-* method:ExhaustiveAlgorithms
+* method:MTH_ExhaustiveAlgorithms
 
 
 </small>
@@ -126,7 +126,7 @@ to var panākt, ja sākotnējie lodīšu daudzumi ir $10,\ 12$ un $15$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* method:PeriodicInvariant
+* method:MTH_PeriodicInvariant
 * subdomain:CombinatorialAlgorithms
 
 </small>
@@ -181,7 +181,7 @@ otrā. Vai to var izdarīt, ja **(A)** $n=5$, **(B)** $n=7$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
-* method:FixedInvariant
+* method:MTH_FixedInvariant
 * subdomain:SquareGridCut
 * topic:RemaindersInCombinatorics
 
@@ -214,7 +214,7 @@ pēdējo, būtu vienāds ar savu abu kaimiņu summu vai starpību?
 * questionType:ProveDisprove
 * domain:Comb,Alg
 * subdomain:CombinatorialStructures
-* method:ExhaustiveAlgorithms
+* method:MTH_ExhaustiveAlgorithms
 
 </small>
 
@@ -292,7 +292,7 @@ svēršanām var noteikt katra atsvara masu?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:CombinatorialAlgorithms
-* method:ExhaustiveAlgorithms
+* method:MTH_ExhaustiveAlgorithms
 
 </small>
 
@@ -389,7 +389,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 * questionType:Prove
 * domain:NT
 * subdomain:NumericGamesAndAlgorithms
-* method:ContradictionForNonExistence
+* method:MTH_ContradictionForNonExistence
 * topic:GamesSymmetry
 
 </small>
@@ -446,7 +446,7 @@ var būt $0$, ja **(A)** $n=8$, **(B)** $n=9$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* method:Monovariant
+* method:MTH_Monovariant
 * subdomain:CombinatorialAlgorithms
 
 </small>
@@ -847,7 +847,7 @@ skaitļu kvadrāti.
 * questionType:FindExample,ProveDisprove
 * domain:NT
 * subdomain:PrimeFactors
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 * topic:AlgebraicTransformations
 
 </small>
@@ -1038,7 +1038,7 @@ vienlaicīgi izpildītos divas prasības:
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:CombinatorialCounterexamples
-* method:GeometricInterpretation
+* method:MTH_GeometricInterpretation
 
 </small>
 
@@ -1075,7 +1075,7 @@ pārējām zaudējusi vismaz vienai no izvēlētajām $n$.
 * questionType:Prove
 * domain:Comb
 * subdomain:Graphs
-* method:ExtremeElements
+* method:MTH_ExtremeElements
 
 </small>
 

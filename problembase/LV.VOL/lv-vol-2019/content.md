@@ -432,7 +432,7 @@ ka ir tāda pilsēta, kurā ir vismaz $9$ biroji!
 
 * questionType:Prove
 * domain:Comb
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -893,7 +893,7 @@ ir iracionāli!
 
 * questionType:Prove
 * domain:Alg
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 

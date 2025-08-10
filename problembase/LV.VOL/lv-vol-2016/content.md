@@ -413,7 +413,7 @@ baltajās virsotnēs?
 
 * questionType:FindOptimal,FindOptimal
 * domain:Geom
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 

@@ -43,7 +43,7 @@ gadu skaits?
 
 * questionType:ProveDisprove,ProveDisprove,ProveDisprove,ProveDisprove
 * domain:Comb
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 

@@ -69,7 +69,7 @@ vienādi, ja: **(A)** $n=72$; **(B)** $n=73$; **(C)** $n=74$?
 
 * questionType:ProveDisprove,ProveDisprove,ProveDisprove
 * domain:Comb
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -191,7 +191,7 @@ būt uzrakstīts uz tāfeles?
 
 * questionType:FindOptimal
 * domain:NT
-* method:ExtremeElements
+* method:MTH_ExtremeElements
 
 </small>
 
@@ -233,7 +233,7 @@ $$3\left(x^{2}+y^{2}+z^{2}+4\right) - 2(xy + yz + zx) - 4(x+y+z)=0$$
 
 * questionType:FindAll
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -410,7 +410,7 @@ apli uzrakstītie skaitļi kļūst vienādi?
 
 * questionType:FindAll
 * domain:Comb
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -476,7 +476,7 @@ un atrast šo vērtību!
 
 * questionType:Prove,FindAll
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -619,7 +619,7 @@ atrodas uz vienas riṇka līnijas!
 
 * questionType:Prove
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -785,7 +785,7 @@ un atrast šo vērtību!
 
 * questionType:Prove
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 

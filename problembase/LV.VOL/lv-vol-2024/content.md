@@ -8,7 +8,7 @@ lielāks nekā visu šo skaitļu lielākais kopīgais dalītājs?
 
 * questionType:ProveDisprove
 * domain:Alg
-* method:ExtremeElements
+* method:MTH_ExtremeElements
 
 </small>
 
@@ -71,7 +71,7 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 
 * questionType:Prove
 * domain:Comb
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -276,7 +276,7 @@ z + \frac{1}{z} = 2x^2 \\
 
 * questionType:FindAll
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -539,7 +539,7 @@ Aprēķināt četrstūra $OECG$ laukumu!
 
 * questionType:FindAll
 * domain:Geom
-* method:AlgebraicModel
+* method:MTH_AlgebraicModel
 
 </small>
 
@@ -626,7 +626,7 @@ skaitļu summu?
 
 * questionType:FindAll
 * domain:NT
-* method:ExtremeElements
+* method:MTH_ExtremeElements
 
 </small>
 

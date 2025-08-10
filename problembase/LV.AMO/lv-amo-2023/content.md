@@ -98,7 +98,7 @@ rūtiņas var pārvietot uz kreiso augšējo rūtiņu, ja kvadrāta izmēri ir:
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:Graphs
-* method:FixedInvariant
+* method:MTH_FixedInvariant
 
 </small>
 
@@ -129,7 +129,7 @@ Kāds ir lielākais iespējamais viesu skaits, kas bija ieradušies uz Gunas dzi
 
 * topic:PigeonholePrincipleForExtremes
 * questionType:FindOptimal
-* method:ExtremeElements,ContradictionForExistence
+* method:MTH_ExtremeElements,ContradictionForExistence
 * domain:Comb
 * topic:LinearOptimization
 
@@ -268,7 +268,7 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 
 * questionType:FindCount
 * domain:Comb
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -316,7 +316,7 @@ komplektu viennozīmīgi nav iespējams noteikt?
 
 * questionType:FindOptimal
 * domain:Comb
-* method:ExtremeElements
+* method:MTH_ExtremeElements
 
 </small>
 
@@ -375,7 +375,7 @@ skaitļiem nebūtu vienādu ciparu?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -547,7 +547,7 @@ Cik bizbizmārītes sēž uz palodzes?
 
 * questionType:FindCount
 * domain:Comb
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -753,7 +753,7 @@ Cik bizbizmārītes sēž uz palodzes?
 * seeAlso:LV.AMO.2023.7.5
 * questionType:FindCount
 * domain:Comb
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -862,7 +862,7 @@ virsotnes, ir divas reizes garāka nekā augstums no tās pašas virsotnes!
 
 * questionType:Prove
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -905,7 +905,7 @@ kartītēm uzrakstīto skaitļu summas ir vienādas?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:CombinatorialStructures
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -1000,7 +1000,7 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 
 * questionType:FindCount
 * domain:Comb
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -1040,7 +1040,7 @@ Pierādīt, ka $9x^2 + 5y^2 − 8xy − 4x + 2 > 0$ visām reālām $x$ un $y$ v
 
 * questionType:Prove
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1074,7 +1074,7 @@ leņķa $ABC$ lielums četrstūra ārpusē ir $7\alpha$ (skat. 19. att.). Aprē�
 
 * questionType:FindAll
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -1167,7 +1167,7 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:CombinatorialStructures
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -1285,7 +1285,7 @@ Māra dzimšanas dienas svinībām?
 * questionType:FindOptimal
 * domain:Comb
 * topic:LinearOptimization
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -1345,7 +1345,7 @@ visām pozitīvām reālām $a$, $b$ un $c$ vērtībām!
 
 * questionType:Prove
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1380,7 +1380,7 @@ Aprēķināt riņķa, ko ierobežo dotā riņķa līnija, laukumu!
 
 * questionType:FindAll
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -1436,7 +1436,7 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -1501,7 +1501,7 @@ Atrisināt veselos skaitļos vienādojumu $17a^2 - 7b^2 + c^2 = 2023$.
 
 * questionType:FindAll
 * domain:NT
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -1558,7 +1558,7 @@ skaitļi?
 
 * questionType:FindOptimal
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1588,7 +1588,7 @@ Pierādīt, ka $S_{ABD} \leq S_{CEF}$.
 
 * questionType:Prove
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -1636,7 +1636,7 @@ $2 \times 5$ rūtiņas nav patiess!
 
 * questionType:Prove,Prove
 * domain:Comb
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 

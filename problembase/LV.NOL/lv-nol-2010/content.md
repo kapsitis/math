@@ -273,7 +273,7 @@ gājienus atkārto, līdz rindā paliek tikai viens skaitlis.
 * questionType:FindCount,FindAll
 * domain:Alg
 * subdomain:RealSequences
-* method:FixedInvariant
+* method:MTH_FixedInvariant
 
 </small>
 
@@ -297,7 +297,7 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 * questionType:FindAll
 * domain:Alg
 * subdomain:EquationSystems
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -321,7 +321,6 @@ $(x+1)(x+2)(x+3)$ dalās ar $343$?
 * questionType:FindCount
 * domain:NT
 * subdomain:PrimeFactors,Divisibility
-* method:
 
 </small>
 
@@ -351,7 +350,7 @@ rūtiņām nebūtu nokrāsotas visas malas?
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:ObjectSystemsGeometry,IntegerLattices
-* method:MeanValuePrinciple
+* method:MTH_MeanValuePrinciple
 
 </small>
 
@@ -381,7 +380,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * questionType:
 * domain:Comb
 * subdomain:CombinatorialAlgorithms
-* method:InductiveAlgorithms
+* method:MTH_InductiveAlgorithms
 
 </small>
 
@@ -417,7 +416,7 @@ $2$ un $3$.)
 * questionType:ProveDisprove,FindCount
 * domain:NT
 * subdomain:PrimeFactors
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -446,7 +445,6 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC > AB$.
 * questionType:Prove
 * domain:Geom
 * subdomain:Triangles
-* method:
 
 </small>
 
@@ -492,7 +490,7 @@ starpība dalās ar $9$.
 * questionType:Prove
 * domain:NT
 * subdomain:NumeralSystems
-* method:FixedInvariant
+* method:MTH_FixedInvariant
 
 </small>
 
@@ -524,7 +522,6 @@ ir identitāte?
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:Equations
-* method:
 
 </small>
 
@@ -547,7 +544,7 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 * questionType:Prove
 * domain:Comb
 * subdomain:Graphs
-* method:ExtremeConstructions
+* method:MTH_ExtremeConstructions
 
 </small>
 

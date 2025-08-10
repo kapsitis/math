@@ -795,7 +795,7 @@ risinājumi netika iesniegti.
 
 * questionType:Prove
 * domain:Comb
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -1235,7 +1235,7 @@ trijstūra laukums nepārsniedz $\frac{\sqrt{3}}{16}$.
 
 * questionType:Prove
 * domain:Geom
-* method:ContinuousPigeonholePrinciple
+* method:MTH_ContinuousPigeonholePrinciple
 
 </small>
 

@@ -1409,7 +1409,7 @@ $4 \times 4$ rūtiņas?
 
 * questionType:ProveDisprove,ProveDisprove,ProveDisprove
 * domain:Comb
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 

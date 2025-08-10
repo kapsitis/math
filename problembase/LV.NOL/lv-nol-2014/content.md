@@ -934,7 +934,7 @@ skaitļiem var atrast divus skaitļus, kuru summa ir $302$.
 * topic:NumTheoryPigeonhole
 * questionType:Prove
 * domain:Comb
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 

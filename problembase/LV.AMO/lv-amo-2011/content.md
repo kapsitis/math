@@ -10,7 +10,7 @@ nav $0$. Atrodi visus iespējamos atrisinājumus!
 <small>
 
 * topic:IntegerFactorization
-* method:ExhaustiveAlgorithms
+* method:MTH_ExhaustiveAlgorithms
 * questionType:FindAll
 * domain:NT
 * subdomain:NumeralSystems
@@ -467,7 +467,7 @@ vienas krāsas punktus, starp kuriem attālums centimetros ir vesels skaitlis.
 
 * concepts:line,point,distance,integer-numbers
 * questionType:Prove
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 * domain:Geom
 
 </small>

@@ -498,7 +498,7 @@ un $AD=3$. Pierādīt, ka $CD>2$.
 
 * questionType:Prove
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -711,7 +711,7 @@ ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ le�
 
 * questionType:FindAll
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -917,7 +917,7 @@ Zināms, ka $CD \| BX$. Aprēķināt $AD$ garumu, ja $BX=3, BC=7$ un $CD=6$.
 
 * questionType:FindAll
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -957,7 +957,7 @@ $$\left(x^{4}+1\right)\left(y^{4}+1\right)=4 x^{2} y^{2}$$
 
 * questionType:FindAll
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1151,7 +1151,7 @@ Aprēḳināt četrstūra $ABHC$ laukumu, ja $AH = BC = 8$.
 
 * questionType:FindAll
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -1299,7 +1299,7 @@ Pierādīt, ka $x^{2}+y^{2}+\frac{1}{2} \geq x+y$ visiem reāliem $x$ un $y$.
 
 * questionType:Prove
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1350,8 +1350,8 @@ trīs rūḳus, kas visi savā starpā draudzējas, ja šajā zemē ir
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* method:ContradictionForExistence
-* method:PigeonholePrincipleBasic
+* method:MTH_ContradictionForExistence
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -1407,7 +1407,7 @@ ja $\frac{AE}{EB}=\frac{2}{5}$.
 
 * questionType:FindAll
 * domain:Geom
-* method:AugmentationWithNewElements
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -1461,7 +1461,7 @@ nav izsakāms formā $36n+8$, kur $n$ ir naturāls skaitlis!
 
 * questionType:Prove
 * domain:NT
-* method:ContradictionForExistence
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -1596,7 +1596,7 @@ $$x^{2}+y^{2}+z^{2}+a \geq x + 2y + 3z$$
 
 * questionType:FindOptimal
 * domain:Alg
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1639,7 +1639,7 @@ visas $3$ partijas, vai nevienu partiju, ja turnīrā piedalās
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* method:PigeonholePrincipleBasic
+* method:MTH_PigeonholePrincipleBasic
 
 </small>
 
@@ -1731,7 +1731,7 @@ formā $27n+11$, kur $n$ ir naturāls skaitlis.
 
 * questionType:Prove
 * domain:NT
-* method:PolynomialTransformations
+* method:MTH_PolynomialTransformations
 
 </small>
 
@@ -1809,7 +1809,7 @@ ka visas kastes ir tukšas?
 
 * questionType:FindOptimal
 * domain:Comb
-* method:InductionWithStepOne
+* method:MTH_InductionWithStepOne
 
 </small>
 
