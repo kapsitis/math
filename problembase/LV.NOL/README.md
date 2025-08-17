@@ -1,0 +1,3 @@
+Translate the high-school olympiad problem(s) quoted in the prompt from Latvian into English. Make sure to preserve Markup syntax and all the headings, italics and other text highlights. Also preserve all the LaTeX math expressions enclosed between $ or $$. Do NOT modify the metadata - copy the entire block <small>...</small> directly to your output. 
+
+Start and terminate your answer by three backquotes (```) for easier copying.

@@ -396,7 +396,7 @@ un $AD=3$. Pierādīt, ka $CD>2$.
 
 Novelkam nogriezni $BD$ (skat. 15.att.). No dotā izriet, ka 
 $\sphericalangle DAB = \sphericalangle ABC > \sphericalangle ABD$. 
-Tā kā trijstūrī $ABD$ pret lielāku lenki atrodas garāka mala, 
+Tā kā trijstūrī $ABD$ pret lielāku leņķi atrodas garāka mala, 
 tad $BD > AD=3$.
 
 No trijstūra nevienādības trijstūrī $BCD$ iegūstam, ka 
@@ -440,6 +440,8 @@ skaitḷa kuba ciparu skaits ir vismaz par $1$ lielāks nekā šī skaitļa
 kvadrāta ciparu skaits.
 
 
+
+
 # <lo-sample/> LV.NOL.2023.7.5
 
 Kastē atrodas baltas, sarkanas un zaḷas lodītes. Ar vienu gājienu no 
@@ -467,13 +469,16 @@ Tāpēc nevaram iegūt situāciju, ka divi lodīšu skaiti ir $0$
 jo sākumā visu krāsu lodīšu skaits ir pāra skaitlis.
 
 **(B)** Jā, var. Ar trīs pēc kārtas sekojošiem gājieniem ņemot 
-balta-sarkana (apzīmēsim ar *bs*), balta-zala (apzīmēsim ar *bz*), sarkana-zaḷa (apzīmēsim ar *sz*), katras krāsas lodīšu skaits 
+balta-sarkana (apzīmēsim ar *bs*), balta-zala (apzīmēsim ar *bz*), 
+sarkana-zaḷa (apzīmēsim ar *sz*), katras krāsas lodīšu skaits 
 samazinās par $1$. Atkārtojot $9$ reizes šādu gājienu trijniekus, 
 iegūstam, ka kastē ir $1$ balta, $3$ sarkanas un $6$ zaḷas lodītes. 
 Tālāk ar gājieniem *sz*, *sz*, *bz* izveidojam situāciju, ka 
 kastē ir $2$ baltas, $2$ sarkanas un $3$ zaļas lodītes. To ar 
 gājieniem *bs*, *sz*, *bz*, *sz*, *bz*, *bs* pārveidojam par 
 situāciju, kad kastē ir $0$ baltas, $0$ sarkanas un $1$ zaļa lodīte.
+
+
 
 
 # <lo-sample/> LV.NOL.2023.8.1
@@ -520,9 +525,9 @@ Aplūkosim dažas iespējamās pirmskaitļa $m$ vērtības,
 līdz iegūsim derīgu $n$ vērtību:
 
 - ja $m=2$, tad $n=(71-8): 3=21$ (nav pirmskaitlis);
-- ja $m=3$, tad $n=(71-12): 3=19 \frac{2}{3}$ 
+- ja $m=3$, tad $n=(71-12):3=19 \frac{2}{3}$ 
   (nav pirmskaitlis);
-- ja $m=5$, tad $n=(71-20): 3=51: 3=17$ 
+- ja $m=5$, tad $n=(71-20):3 = 51:3=17$ 
   (pirmskaitlis).
 
 
@@ -601,8 +606,8 @@ $\frac{\alpha}{2}+\alpha+\alpha=180^{\circ}$,
 no kurienes $\frac{5}{2} \alpha=180^{\circ}$ 
 jeb $\alpha=72^{\circ}$.
 
-Tātad $\sphericalangle B A C=\sphericalangle A C B=72^{\circ}$ un 
-$\sphericalangle B=180^{\circ}-2 \cdot 72^{\circ}=36^{\circ}$.
+Tātad $\sphericalangle BAC = \sphericalangle ACB = 72^{\circ}$ un 
+$\sphericalangle B=180^{\circ} - 2 \cdot 72^{\circ}=36^{\circ}$.
 
 ![](LV.NOL.2023.8.3A.png){ width=120px }
 
@@ -672,25 +677,25 @@ tad secinām, ka Mārtiņš Satiek Sandri ik pēc $3$ minūtēm.
 Pieņemsim, ka Kārlis un Sandris pārvietojas pa labi, 
 bet Vilnis un Kārlis - pa kreisi. Pieņemsim arī, ka 
 viņi visi sāk pārvietoties vienā laikā no viena punkta 
-un noskaidrosim, cik aplus un kurā virzienā $60$ minūtēs 
+un noskaidrosim, cik apļus un kurā virzienā $60$ minūtēs 
 Kārli apdzen pārējie ($60$ izvēlēts, kā $5$, $12$ un $20$ 
 minūšu mazākais kopīgais dalāmais). No tā, ka Kārlis 
 satiek Vilni ik pa $12$ minūtēm izriet, ka Vilnis ir 
 veicis $60: 12=5$ apļus pa kreisi attiecībā pret Kārli.
 
 No tā, ka Mārtiņš apdzen Vilni ik pa $5$ minūtēm izriet, 
-ka Mārtiņš ir veicis $60:5=12$ aplus pa kreisi attiecībā 
+ka Mārtiņš ir veicis $60:5=12$ apļus pa kreisi attiecībā 
 pret Vilni, tātad viņš veicis $12+5=17$ apļus pa 
 kreisi attiecībā pret Kārli.
 
 No tā, ka Sandris apdzen Kārli ik pa 20 minūtēm izriet, 
-ka Sandris ir veicis $60: 20=3$ aplus pa labi 
+ka Sandris ir veicis $60:20=3$ apļus pa labi 
 attiecībā pret Kārli.
 
 Tā kā Mārtiņš ir veicis attiecībā pret Kārli $17$ apļus 
 pa kreisi, bet Sandris veicis 3 apļus pa labi, tad 
 viņi šajās $60$ minūtēs ir satikušies $17+3=20$ 
-reizes. Tātad viņi satiekas ik pēc $60: 20=3$ minūtēm.
+reizes. Tātad viņi satiekas ik pēc $60:20=3$ minūtēm.
 
 
 # <lo-sample/> LV.NOL.2023.9.1
@@ -837,7 +842,7 @@ $$\begin{aligned}
 & x^{4}+1 \geq 2 x^{2}
 \end{aligned}$$
 
-Analoğiski iegūstam, ka $y^{4}+1 \geq 2 y^{2}$. Sareizinot kopā 
+Analoģiski iegūstam, ka $y^{4}+1 \geq 2 y^{2}$. Sareizinot kopā 
 pēdējās divas nevienādības (to drīkst darīt, jo abu nevienādību 
 abas puses ir nenegatīvas), iegūstam, ka
 
@@ -847,7 +852,8 @@ No iepriekš veiktajiem spriedumiem izriet, ka vienādība tiks sasniegta
 tad un tikai tad, ja $\left(x^{2}-1\right)^{2}=0$ un 
 $\left(y^{2}-1\right)^{2}=0$, tas ir, $x^{2}=y^{2}=1$. 
 Tātad vienādojumam ir četri atrisinājumi: 
-$(-1 ;-1),(-1 ; 1),(1 ;-1)$ un $(1 ; 1)$.
+$(-1;-1)$, $(-1;1)$, $(1;-1)$ un $(1;1)$.
+
 
 
 # <lo-sample/> LV.NOL.2023.9.5
@@ -929,6 +935,8 @@ $$\left( \sqrt{4+2 \sqrt{3}}-\sqrt{4-2 \sqrt{3}} \right)^{2} =
 + 4 - 2\sqrt{3}=8-2 \sqrt{16-12}=4.$$
 
 Tā kā skaitḷa kvadrāts ir $4$, tad dotais skaitlis ir racionāls skaitlis.
+
+
 
 
 # <lo-sample/> LV.NOL.2023.10.2
@@ -1359,7 +1367,8 @@ Uzskatāmības pēc rakstīsim virknes vienu zem otras tā, ka elements
 $b_{i}$ atrodas zem elementiem $a_{i}$ un $a_{i+1}$ pa vidu un arī 
 elements $c_{i}$ atrodas zem elementiem $b_{i}$ un $b_{i+1}$ pa vidu. 
 Tieši virs $n-2$ virknē $\left\{c_{i}\right\}$ jāatrodas virknes 
-$\left\{b_{i}\right\}$ skaitliem 1 un $n-1$, jo nav cita veida, kā virknē $\left\{c_{i}\right\}$ iegūt $n-2$. Līdzīgi tieši virs $n-1$ virknē 
+$\left\{b_{i}\right\}$ skaitliem 1 un $n-1$, jo nav cita veida, kā virknē 
+$\left\{c_{i}\right\}$ iegūt $n-2$. Līdzīgi tieši virs $n-1$ virknē 
 $\left\{b_{i}\right\}$ jāatrodas virknes $\left\{a_{i}\right\}$ skaitļiem 
 $1$ un $n$, jo nav cita veida, kā virknē $\left\{b_{i}\right\}$ 
 iegūt skaitli $n-1$. Tādējādi ir iespējami divi varianti, kādi skaitḷi 
