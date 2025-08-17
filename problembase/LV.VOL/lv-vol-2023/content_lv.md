@@ -502,7 +502,7 @@ $$
 
 ## Atrisinājums
 
-Vispirms noskaidrosim skaitla $xy$ vērtību:
+Vispirms noskaidrosim skaitļa $xy$ vērtību:
 
 $$2xy=(x+y)^{2}-x^{2}-y^{2}=1^{2}-3=-2 \quad \Rightarrow \quad x y=-1$$
 

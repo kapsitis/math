@@ -1252,9 +1252,22 @@ summa dalās ar $3$, tad visus spriedumus varam izteikt
 nevis par skaitliem, bet par attiecīgo skaitly ciparu summu. 
 Apzīmēsim uz tāfeles uzrakstīto skaitli ar $\overline{abcd}$. 
 Aplūkosim, kādi var būt atlikumi, $a, b, c$ un $d$, dalot ar $3$.
-Vispirms ievērosim, ka starp šiem četriem skaitliem nav iespējams atrast visus trīs atlikumus - 0, 1 un 2. Ja varētu, tad attiecīgie trīs cipari veidotu trīsciparu skaitli, kas dalās ar 3, jo to atlikumu summa būtu $0+1+2=3$, bet zināms, ka neviens no trīsciparu skaitliem, kas izveidojas nodzēšot kādu no cipariem, nedalās ar 3 .
-Līdzīgi varam spriest, ka starp šiem četriem skaitliem nav iespējams atrast trīs, kuriem būtu vienāds atlikums, dalot ar 3. Ja varētu, tad attiecīgie trīs cipari veidotu trīsciparu skaitli, kas dalās ar 3.
-Tātad ir divi skaitlu pāri, kur katrā pārī ir skaitli, kas dod vienādu atlikumu, dalot ar 3 (norādīti atlikumi): a) $0,0,1,1$; b) $0,0,2,2$ vai c) $1,1,2,2$. Variantos a) un b) izvēlamies tos divus skaitlus, kas, dalot ar 3, atlikumā dod 0, bet variantā c) izvēlamies vienu skaitli, kas dod atlikumu 1, bet otru, kas dod atlikumu 2. Tādējādi visos gadījumos esam izveidojuši divciparu skaitli, kas dalās ar 3.
+Vispirms ievērosim, ka starp šiem četriem skaitliem nav iespējams 
+atrast visus trīs atlikumus - 0, 1 un 2. Ja varētu, tad attiecīgie 
+trīs cipari veidotu trīsciparu skaitli, kas dalās ar 3, jo to 
+atlikumu summa būtu $0+1+2=3$, bet zināms, ka neviens no trīsciparu 
+skaitliem, kas izveidojas nodzēšot kādu no cipariem, nedalās ar 3.
+
+Līdzīgi varam spriest, ka starp šiem četriem skaitliem nav iespējams 
+atrast trīs, kuriem būtu vienāds atlikums, dalot ar 3. Ja varētu, 
+tad attiecīgie trīs cipari veidotu trīsciparu skaitli, kas dalās ar 3.
+
+Tātad ir divi skaitlu pāri, kur katrā pārī ir skaitli, kas dod vienādu 
+atlikumu, dalot ar 3 (norādīti atlikumi): a) $0,0,1,1$; b) $0,0,2,2$ 
+vai c) $1,1,2,2$. Variantos a) un b) izvēlamies tos divus skaitļus, 
+kas, dalot ar 3, atlikumā dod 0, bet variantā c) izvēlamies vienu 
+skaitli, kas dod atlikumu 1, bet otru, kas dod atlikumu 2. 
+Tādējādi visos gadījumos esam izveidojuši divciparu skaitli, kas dalās ar 3.
 
 
 # <lo-sample/> LV.AMO.2024.11.4
