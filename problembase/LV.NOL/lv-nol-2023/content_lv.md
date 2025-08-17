@@ -1,6 +1,5 @@
 # <lo-sample/> LV.NOL.2023.5.1
 
-<text lang="lv">
 Ieraksti katrā tukšajā rūtiņā (skat. 1.att.) vienu skaitli (skaitļi 
 var būt arī vienādi) tā, lai katrās trīs blakus rūtiņās skaitļu summa 
 būtu viena un tā pati un visu rūtiņās ierakstīto skaitļu 
@@ -8,16 +7,6 @@ būtu viena un tā pati un visu rūtiņās ierakstīto skaitļu
 vienu veidu, kā to var izdarīt.
 
 ![](LV.NOL.2023.5.1.png){ width=300px }
-</text>
-
-<text lang="en">
-Write a number in each empty cell (see Figure 1) so that the sum of the 
-numbers in any three consecutive cells is the same, and the total sum 
-of all the numbers written in the cells (including the two given numbers) 
-is $223$. It is sufficient to show one example of how to achieve this.
-
-![](LV.NOL.2023.5.1.png){ width=300px }
-</text>
 
 <small>
 
@@ -27,8 +16,6 @@ is $223$. It is sufficient to show one example of how to achieve this.
 </small>
 
 
-
-<text lang="lv">
 ## Atrisinājums
 
 Prasīto var izdarīt, kā parādīts 2. att., kur katru trīs pēc kārtas esošu 
@@ -53,60 +40,18 @@ Ja mēs noņemam nost pašu pēdējo skaitli $19$, tad mēs iegūstam, ka četro
 trīs rūtiņu blokos $(19;20;n)$ kopā skaitlu summa ir $223-19=204$, 
 tātad vienā šādā blokā $(19;20;n)$ skaitļu summa ir $204:4=51$. 
 Tātad skaitļa $n$ vietā jāraksta $51-19-21=12$.
-</text>
 
-
-
-<text lang="en">
-## Solution
-
-The required solution can be achieved as shown in Figure 2, where the sum 
-of every three consecutive numbers is $51$.
-
-![](LV.NOL.2023.5.1A.png){ width=300px }
-
-Let's explain how these numbers can be found. Consider four consecutive 
-cells that contain the numbers $x;a;b$ and $y$ (see Figure 3).
-
-![](LV.NOL.2023.5.1B.png){ width=150px }
-
-Since the sum of the numbers in any three consecutive cells is the same, 
-we have $x+a+b=a+b+y$, which implies $x=y$, and thus the numbers $x$ and 
-$y$ must be the same. Therefore, the numbers written in the cells repeat 
-with a period of $3$ (see Figure 4), where $n$ is an unknown number 
-(the same everywhere).
-
-![](LV.NOL.2023.5.1C.png){ width=300px }
-
-If we remove the very last number $19$, we find that in four blocks of 
-three cells $(19;20;n)$, the total sum of the numbers is $223-19=204$. 
-Hence, the sum of the numbers in one such block $(19;20;n)$ is $204:4=51$. 
-Therefore, the number $n$ must be $51-19-20=12$.
-</text>
 
 
 
 
 # <lo-sample/> LV.NOL.2023.5.2
 
-<text lang="lv">
 Rūķīši mežā ir uzbūvējuši astoņas mājiņas un starp tām izveidojuši 
 vairākas taciņas. Katra taciņa savieno divas mājiņas, 
 taciņas var krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi: 
 **(A)** $2, 2, 2, 4, 4, 4, 4, 4$ taciņas;  
 **(B)** $1,2,2,2,2,3,4,5$ taciņas?
-</text>
-
-
-<text lang="en">
-In the forest, gnomes have built eight houses and created several paths 
-between them. Each path connects two houses, and paths can intersect. 
-Is it possible that the houses have the following number 
-of paths coming out of them:  
-**(A)** $2, 2, 2, 4, 4, 4, 4, 4$ paths respectively;  
-**(B)** $1, 2, 2, 2, 2, 3, 4, 5$ paths respectively?
-</text>
-
 
 
 <small>
@@ -117,8 +62,6 @@ of paths coming out of them:
 
 </small>
 
-
-<text lang="lv">
 ## Atrisinājums 
 
 **(A)** Jā, piemēram, skat. 5. att., kur ar punktiem attēlotas mājiņas, 
@@ -131,31 +74,13 @@ dotā iegūstam, ka ir $1+2+2+2+2+3+4+5=21$ taciņu gali. Tā kā $21$
 ir nepāra skaitlis, tad prasītais nav iespējams.
 
 ![](LV.NOL.2023.5.2A.png){ width=200px }
-</text>
 
-
-<text lang="en">
-## Solution
-
-**(A)** Yes, for example, see Fig. 5, where dots represent houses, lines 
-represent paths, and the number of lines emanating from each point is 
-noted next to each point.
-
-**(B)** Let us show that this is not possible. Since each path has two 
-endpoints, the total number of path ends must be an even number. 
-From the given data, we get that there are $1+2+2+2+2+3+4+5=21$ 
-endpoints. Since $21$ is an odd number, the required configuration 
-is not possible.
-
-![](LV.NOL.2023.5.2A.png){ width=200px }
-</text>
 
 
 
 
 # <lo-sample/> LV.NOL.2023.5.3
 
-<text lang="lv">
 Parādi, kā 2.att. figūru ($6 \times 8$ rūtiņu taisnstūris, 
 no kura izgriezts $3 \times 4$ rūtiņu taisnstūris), griežot pa 
 rūtiņu līnijām, var sagriezt trīs vienādās figūrās! Figūras ir vienādas, 
@@ -163,7 +88,6 @@ ja tās var uzlikt vienu uz otras tā, ka abas figūras sakrīt
 (figūras var pagriezt un apmest otrādi).
 
 ![](LV.NOL.2023.5.3.png){ width=200px }
-</text>
 
 <small>
 
@@ -172,23 +96,19 @@ ja tās var uzlikt vienu uz otras tā, ka abas figūras sakrīt
 
 </small>
 
-
-<text lang="lv">
 ## Atrisinājums
 
 Skat. 7. att.
 
 ![](LV.NOL.2023.5.3A.png){ width=200px }
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.5.4
 
-<text lang="lv">
 Parādi, kā skaitli $174$ var uzrakstīt kā $3$ dažādu naturālu skaitļu 
 summu tā, lai katru divu šo skaitļu summa dalītos ar trešo skaitli!
-</text>
+
 
 <small>
 
@@ -198,7 +118,6 @@ summu tā, lai katru divu šo skaitļu summa dalītos ar trešo skaitli!
 </small>
 
 
-<text lang="lv">
 ## Atrisinājums
 
 Prasīto var izdarīt šādi: $174=29+58+87$. Pārbaudām, ka katru divu 
@@ -209,18 +128,15 @@ $$\begin{aligned}
 & \circ \quad(29+87): 58=116: 58=2 \\
 & \circ \quad(58+87): 29=145: 29=5
 \end{aligned}$$
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.5.5
 
-<text lang="lv">
 Ja automātā ievieto sarkanu monētu, tad tas izdod $5$ zilas monētas, 
 bet, ja automātā ievieto zilu monētu, tad tas izdod $3$ sarkanas monētas. 
 Vai, atkārtoti izmantojot automātu, ir iespējams iegūt vienāda skaita 
 sarkanās un zilās monētas, ja sākumā ir dota viena sarkana monēta?
-</text>
 
 <small>
 
@@ -230,7 +146,7 @@ sarkanās un zilās monētas, ja sākumā ir dota viena sarkana monēta?
 
 </small>
 
-<text lang="lv">
+
 ## Atrisinājums
 
 Nē, tas nav iespējams. Ievērosim, ka sākumā ir dota viena monēta 
@@ -240,20 +156,18 @@ vai $2$ monētām (ja ievieto $1$ zilu monētu, tad izdod $3$ sarkanas
 monētas), tātad kopējais monētu skaits vienmēr būs nepāra skaitlis. 
 Bet, ja zilās un sarkanās monētas būtu vienādā skaitā, 
 tad kopējais monētu skaits būtu pāra skaitlis. Tātad prasītais nav iespējams.
-</text>
+
 
 
 
 # <lo-sample/> LV.NOL.2023.6.1
 
-<text lang="lv">
 Atrodi vienu veidu, kādi naturāli skaitḷi jāievieto $x, y$ un $z$
 vietā, lai vienādība
 
 $$2+\frac{1}{x+\frac{1}{y+\frac{1}{z}}}=\frac{37}{13}$$
 
 būtu patiesa!
-</text>
 
 <small>
 
@@ -262,7 +176,6 @@ būtu patiesa!
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Der vērtības $x=1$; $y=5$ un $z=2$. Ar šīm vērtībām vienādība ir patiesa, jo
@@ -276,7 +189,6 @@ ka $x+\frac{1}{y+\frac{1}{z}}=\frac{13}{11}$.
 Tā kā $\frac{13}{11}=1 \frac{2}{11}$, tad $x=1$ un $\frac{1}{y+\frac{1}{z}}=\frac{2}{11}$, 
 no kā iegūstam, ka $y+\frac{1}{z}=\frac{11}{2}$. 
 Ievērojot, ka $\frac{11}{2} = 5\frac{1}{2}$, iegūstam, ka $y=5$ un $z=2$.
-</text>
 
 
 
@@ -284,12 +196,10 @@ Ievērojot, ka $\frac{11}{2} = 5\frac{1}{2}$, iegūstam, ka $y=5$ un $z=2$.
 
 # <lo-sample/> LV.NOL.2023.6.2
 
-<text lang="lv">
 Rūķīši mežā ir uzbūvējuši desmit mājiņas un starp tām izveidojuši 
 vairākas taciņas. Katra taciņa savieno divas mājiņas, taciņas var 
 krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:  
 **(A)** $2, 2, 2, 2, 2, 3, 3, 3, 3, 7$ taciņas; **(B)** $2, 2, 2, 2, 4, 4, 4, 4, 4, 4$ taciņas?
-</text>
 
 <small>
 
@@ -299,7 +209,6 @@ krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 **(A)** Pamatosim, ka tas nav iespējams. Tā kā katrai taciņai ir 
@@ -312,19 +221,17 @@ bet ar līnijām attēlotas taciņas un pie katra punkta pierakstīts no
 tā izejošo līniju skaits.
 
 ![](LV.NOL.2023.6.2A.png){ width=200px }
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.6.3
 
-<text lang="lv">
 Parādi, kā, griežot pa rūtiņu līnijām, 1.att. doto figūru var sagriezt 
 $4$ vienādās figūrās! Figūras ir vienādas, ja tās var uzlikt vienu uz 
 otras tā, ka abas figūras pilnīgi sakrīt (figūras var pagriezt un apmest otrādi).
 
 ![](LV.NOL.2023.6.3.png){ width=200px }
-</text>
+
 
 <small>
 
@@ -333,23 +240,19 @@ otras tā, ka abas figūras pilnīgi sakrīt (figūras var pagriezt un apmest ot
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Skat., piemēram, 10. att. vai 11. att.
 
 ![](LV.NOL.2023.6.3A.png){ width=250px }
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.6.4
 
-<text lang="lv">
 Vai skaitli: **(A)** $72$, **(B)** $73$ var izteikt kā trīs dažādu 
 naturālu skaitļu summu tā, lai katru divu šo skaitḷu summa dalītos 
 ar atlikušo skaitli?
-</text>
 
 <small>
 
@@ -358,7 +261,6 @@ ar atlikušo skaitli?
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 **(A)** Jā, var šādi $72=12+24+36$. Pārbaudām, vai katru divu šo 
@@ -377,17 +279,14 @@ skaitļu summai jeb $73$ jādalās ar jebkuru no trīs saskaitāmajiem.
 Bet skaitlis $73$ ir pirmskaitlis, kas dalās tikai ar $1$ un $73$. 
 Tātad šie trīs dažādie skaiți var pieņemt tikai vērtības $1$ vai 
 $73$, kas nav iespējams.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.6.5
 
-<text lang="lv">
 Naturālu skaitli atļauts reizināt ar $2$, kā arī izsvītrot no tā 
 pieraksta ciparus $0,3,6,9$ (varbūt tikai kādu no tiem). 
 Vai, vairākkārt izpildot šādus gājienus, no skaitla $17$ var iegūt: 
 **(A)** skaitli $1$; **(B)** skaitli $15$?
-</text>
 
 <small>
 
@@ -397,7 +296,7 @@ Vai, vairākkārt izpildot šādus gājienus, no skaitla $17$ var iegūt:
 
 </small>
 
-<text lang="lv">
+
 ## Atrisinājums
 
 **(A)** Jā, var, piemēram, šādi:
@@ -418,19 +317,16 @@ iegūtais skaitlis nedalīsies ar $3$:
 
 Tātad arī pēc vairākām operācijām iegūtais skaitlis nedalīsies 
 ar $3$. Tas nozīmē, ka skaitli $15$ iegūt nevar, jo tas dalās ar $3$.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.7.1
 
-<text lang="lv">
 Vai tukšajās rūtiņās (skat. 1.att.) var ierakstīt pa vienam 
 naturālam skaitlim tā, lai rezultātā būtu ierakstīti visi naturālie 
 skaitḷi no $1$ līdz $25$ un katri divi skaitļi, kuru starpība ir $1$, 
 būtu ierakstīti rūtiņās ar kopīgu malu?
 
 ![](LV.NOL.2023.7.1.png){ width=200px }
-</text>
 
 <small>
 
@@ -439,23 +335,19 @@ būtu ierakstīti rūtiņās ar kopīgu malu?
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Atrisinājums. Jā, var, skat. attēlu.
 
 ![](LV.NOL.2023.7.1A.png){ width=150px }
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.7.2
 
-<text lang="lv">
 Vai **(A)** $90$ lampiņas, **(B)** $73$ lampiņas ar vadiem var 
 savienot tā, lai katra no tām būtu savienota ar vadu ar tieši 
 $5$ citām lampiņām?
-</text>
 
 <small>
 
@@ -465,7 +357,6 @@ $5$ citām lampiņām?
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 **(A)** Jā, var. Sadalām $90$ lampiņas $15$ grupās pa $6$ 
@@ -483,16 +374,13 @@ skaits ir $73 \cdot 5=365$. Bet katram vadam ir $2$ gali, tāpēc
 kopējais galu skaits nevar būt nepāra skaitlis. Tāpēc $73$ 
 lampiņas ar vadiem nevar savienot savā starpā tā, lai katra no 
 tām būtu savienota tieši ar $5$ citām lampiņām.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.7.3
 
-<text lang="lv">
 Dots četrstūris $ABCD$, kuram visi leņķi ir mazāki nekā 
 $180^{\circ}$, $\sphericalangle A=\sphericalangle B$, $BC=1$ 
 un $AD=3$. Pierādīt, ka $CD>2$.
-</text>
 
 <small>
 
@@ -502,7 +390,6 @@ un $AD=3$. Pierādīt, ka $CD>2$.
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Novelkam nogriezni $BD$ (skat. 15.att.). No dotā izriet, ka 
@@ -514,15 +401,13 @@ No trijstūra nevienādības trijstūrī $BCD$ iegūstam, ka
 $DC>DB-BC>3-1=2$.
 
 ![](LV.NOL.2023.7.3A.png){ width=150px }
-</text>
+
 
 
 # <lo-sample/> LV.NOL.2023.7.4
 
-<text lang="lv">
 Cik ir tādu naturālu skaitļu $n$, kuriem skaitlim $n^{2}$ 
 ir tikpat ciparu, cik skaitlim $n^{3}$?
-</text>
 
 <small>
 
@@ -531,7 +416,6 @@ ir tikpat ciparu, cik skaitlim $n^{3}$?
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Ir trīs skaitli, kam izpildās uzdevuma nosacījumi, šie skaitḷi ir 
@@ -552,12 +436,10 @@ Skaitḷiem, kas lielāki nekā $9$, lai no skaitļa kvadrāta iegūtu skaitļa
 kubu, tie jāreizina ar pašu skaitli, tātad vismaz ar $10$. Tādā gadījumā
 skaitḷa kuba ciparu skaits ir vismaz par $1$ lielāks nekā šī skaitļa 
 kvadrāta ciparu skaits.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.7.5
 
-<text lang="lv">
 Kastē atrodas baltas, sarkanas un zaḷas lodītes. Ar vienu gājienu no 
 kastes var izņemt divas dažādu krāsu lodītes un ielikt kastē vienu 
 trešās krāsas lodīti (vienmēr pietiek jebkuras krāsas lodīšu, 
@@ -565,7 +447,6 @@ ko ielikt kastē). Vai var panākt, ka kastē paliek tikai viena lodīte,
 ja sākumā kastē atrodas:  
 **(A)** $10$ baltas, $12$ sarkanas un $16$ zalas lodītes;  
 **(B)** $10$ baltas, $12$ sarkanas un $15$ zaḷas lodītes?
-</text>
 
 <small>
 
@@ -575,7 +456,6 @@ ja sākumā kastē atrodas:
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 **(A)** Nē, nevar. Ar katru gājienu visu krāsu lodīšu skaita 
@@ -592,12 +472,10 @@ Tālāk ar gājieniem *sz*, *sz*, *bz* izveidojam situāciju, ka
 kastē ir $2$ baltas, $2$ sarkanas un $3$ zaļas lodītes. To ar 
 gājieniem *bs*, *sz*, *bz*, *sz*, *bz*, *bs* pārveidojam par 
 situāciju, kad kastē ir $0$ baltas, $0$ sarkanas un $1$ zaļa lodīte.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.8.1
 
-<text lang="lv">
 Ieraksti katrā tukšajā rūtiņā (skat. 1.att.) vienu pirmskaitli 
 (skaitḷi var būt arī vienādi) tā, lai katrās četrās blakus 
 rūtiņās skaitļu summa būtu viena un tā pati un visu rūtiņās 
@@ -605,7 +483,6 @@ ierakstīto skaitļu (ieskaitot abus dotos skaitļus) summa būtu $127$.
 Pietiek parādīt vienu veidu, kā to var izdarīt.
 
 ![](LV.NOL.2023.8.1.png){ width=400px }
-</text>
 
 <small>
 
@@ -614,7 +491,6 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 To var izdarīt, kā parādīts 17.att., kur katru četru pēc kārtas 
@@ -646,17 +522,14 @@ līdz iegūsim derīgu $n$ vērtību:
   (nav pirmskaitlis);
 - ja $m=5$, tad $n=(71-20): 3=51: 3=17$ 
   (pirmskaitlis).
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.8.2
 
-<text lang="lv">
 Pasākumā satikās $m$ cilvēki. Katrs no tiem draudzējas ar tieši $3$ 
 citiem cilvēkiem (ja $A$ draudzējas ar $B$, tad $B$ draudzējas ar $A$). 
 Zināms, ka no katriem trim cilvēkiem var atrast divus, kuri savā starpā 
 nedraudzējas. Vai var gadīties, ka **(A)** $m=11$, **(B)** $m=10$?
-</text>
 
 <small>
 
@@ -666,7 +539,6 @@ nedraudzējas. Vai var gadīties, ka **(A)** $m=11$, **(B)** $m=10$?
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 **(A)** Nē, nevar. Cilvēkus iedomāsimies kā punktus, 
@@ -693,7 +565,6 @@ vismaz divi atrodas vienā grupā, tad tie savā starpā
 nedraudzējas un uzdevuma nosacījumi izpildās.
 
 ![](LV.NOL.2023.8.2A.png){ width=120px }
-</text>
 
 
 
@@ -701,11 +572,9 @@ nedraudzējas un uzdevuma nosacījumi izpildās.
 
 # <lo-sample/> LV.NOL.2023.8.3
 
-<text lang="lv">
 Dots vienādsānu trijstūris $ABC$, kuram $AB = BC$. Uz malas $AB$ 
 izvēlēts punkts $M$ un uz malas $BC$ izvēlēts punkts $K$ tā, 
 ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ leņkus!
-</text>
 
 <small>
 
@@ -715,7 +584,7 @@ ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ le�
 
 </small>
 
-<text lang="lv">
+
 ## Atrisinājums
 
 Apzīmējam $AK$ un $MC$ krustpunktu ar $H$ (skat. 21.att.). 
@@ -734,19 +603,16 @@ Tātad $\sphericalangle B A C=\sphericalangle A C B=72^{\circ}$ un
 $\sphericalangle B=180^{\circ}-2 \cdot 72^{\circ}=36^{\circ}$.
 
 ![](LV.NOL.2023.8.3A.png){ width=120px }
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.8.4
 
-<text lang="lv">
 Parādi, kā, griežot pa rūtiņu līnijām, 2.att. doto figūru var 
 sagriezt $4$ vienādās figūrās! Figūras ir vienādas, ja tās var 
 uzlikt vienu uz otras tā, ka abas figūras sakrīt (figūras var 
 pagriezt un apmest otrādi).
 
 ![](LV.NOL.2023.8.4.png){ width=200px }
-</text>
 
 <small>
 
@@ -755,27 +621,23 @@ pagriezt un apmest otrādi).
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Skat. 23.att. vai 24.att.
 
 ![](LV.NOL.2023.8.4A.png){ width=300px }
-</text>
 
 
 
 
 # <lo-sample/> LV.NOL.2023.8.5
 
-<text lang="lv">
 Pa apļveida trasi vienā virzienā Kārlis skrien ar kājām un Sandris 
 brauc ar skrejriteni, bet pretējā virzienā Vilnis brauc ar velosipēdu 
 un Mārtiņš ar mopēdu (katrs brauc ar savu, nemainīgu ātrumu). Zināms, 
 ka Kārlis satiek Vilni ik pēc $12$ minūtēm, Sandris apdzen Kārli ik 
 pēc $20$ minūtēm, bet Mārtiņš apdzen Vilni ik pēc $5$ minūtēm. 
 Cik bieži Mārtiņš satiek Sandri?
-</text>
 
 <small>
 
@@ -784,8 +646,7 @@ Cik bieži Mārtiņš satiek Sandri?
 
 </small>
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim Kārḷa ātrumu ar $k$, Sandra ātrumu ar $s$, Viḷna ātrumu 
 ar $v$, Mārtiņa ātrumu ar $m$ un trases garumu ar $\ell$.
@@ -802,11 +663,9 @@ $m-v=\frac{\ell}{5}$.
 Tā kā 
 $m+s=(m-v)+(s-k)+(k+v)=\frac{\ell}{5}+\frac{\ell}{20}+\frac{\ell}{12}=\frac{\ell}{3}$, 
 tad secinām, ka Mārtiņš Satiek Sandri ik pēc $3$ minūtēm.
-</text>
 
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-2
 
 Pieņemsim, ka Kārlis un Sandris pārvietojas pa labi, 
 bet Vilnis un Kārlis - pa kreisi. Pieņemsim arī, ka 
@@ -830,15 +689,13 @@ Tā kā Mārtiņš ir veicis attiecībā pret Kārli $17$ apļus
 pa kreisi, bet Sandris veicis 3 apļus pa labi, tad 
 viņi šajās $60$ minūtēs ir satikušies $17+3=20$ 
 reizes. Tātad viņi satiekas ik pēc $60: 20=3$ minūtēm.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.9.1
 
-<text lang="lv">
 Dots, ka $x$ ir naturāls skaitlis. Kāds lielākais skaits skaitļu 
 $x$; $x+2$; $x+4$; $x+6$; $x+8$ vienlaicīgi var būt pirmskaitḷi?
-</text>
+
 
 <small>
 
@@ -847,7 +704,6 @@ $x$; $x+2$; $x+4$; $x+6$; $x+8$ vienlaicīgi var būt pirmskaitḷi?
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Ja $x=1$, tad ir $3$ pirmskaitli, un tie ir $3 ; 5 ; 7$ 
@@ -873,18 +729,14 @@ Tātad lielākais pirmskaitļu skaits ir $4$.
 
 *Piezīme.* Var pamatot, ka viens no skaitliem $x, x+2$ vai $x+4$ dalās ar 
 $3$ (un ir lielāks nekā $3$).
-</text>
-
 
 
 # <lo-sample/> LV.NOL.2023.9.2
 
-<text lang="lv">
 Novadijā dzīvo $73$ rūḳi un daži no tiem savā starpā draudzējas 
 (ja rūḳis $A$ draudzējas ar rūḳi $B$, tad arī $B$ draudzējas 
 ar $A$, tas ir, draudzība ir abpusēja). Vai var būt tā, ka 
 katram rūķim ir tieši $9$ draugi?
-</text>
 
 <small>
 
@@ -894,7 +746,6 @@ katram rūķim ir tieši $9$ draugi?
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Rūķus apzīmējam ar punktiem un divus punktus savienojam ar nogriezni, 
@@ -903,15 +754,12 @@ punkta iziet $9$ nogriežņu gali, tad nogriežņu galu kopējais skaits ir
 $73 \cdot 9 = 657$, kas ir nepāra skaitlis. Bet katram nogrieznim ir 
 divi gali, tāpēc nogriežņu galu skaitam ir jābūt pāra skaitlim. 
 Esam ieguvuši pretrunu. Tāpēc nevar būt, ka katram rūķim ir tieši $9$ draugi.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.9.3
 
-<text lang="lv">
 Punkts $X$ ir izliekta četrstūra $ABCD$ diagonāles $AC$ viduspunkts. 
 Zināms, ka $CD \| BX$. Aprēķināt $AD$ garumu, ja $BX=3, BC=7$ un $CD=6$.
-</text>
 
 <small>
 
@@ -921,8 +769,8 @@ Zināms, ka $CD \| BX$. Aprēķināt $AD$ garumu, ja $BX=3, BC=7$ un $CD=6$.
 
 </small>
 
-<text lang="lv">
-## Atrisinājums
+
+## Atrisinājums-1
 
 Apzīmēsim $CD$ viduspunktu ar punktu $Y$ un novilksim nogriezni 
 $XY$ (skat. 1.att.). Tā kā $CD=6$, tad $CY=3$. Tā kā nogriežņi 
@@ -931,27 +779,23 @@ Tādā gadīumā $XY=BC=7$ kā paralelograma malas. Nogrieznis $XY$
 ir trijstūra $ACD$ viduslīijia, tātad $AD=2XY=14$.
 
 ![](LV.NOL.2023.9.3A.png){ width=300px }
-</text>
 
-<text lang="lv">
-## Atrisinājums
+
+## Atrisinājums-2
 
 Tā kā $BX \| CD$, tad $\sphericalangle BXC = \sphericalangle ACD$ kā iekšējie 
 šķērsleņķi pie paralēlām taisnēm (skat. 2.att.). No dotā izriet, 
 ka $\frac{BX}{CD}=\frac{CX}{AC}=\frac{1}{2}$. Tātad 
 $\triangle BXC \sim \triangle DCA$ pēc pazīmes $m \ell m$. 
 Līdz ar to $AD=2BC=14$ kā atbilstošās malas līdzīgos trijstūros.
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.9.4
 
-<text lang="lv">
 Atrast visus tādus reālu skaitļu pārus $(x;y)$, kuriem
 
 $$\left(x^{4}+1\right)\left(y^{4}+1\right)=4 x^{2} y^{2}$$
-</text>
 
 <small>
 
@@ -961,8 +805,7 @@ $$\left(x^{4}+1\right)\left(y^{4}+1\right)=4 x^{2} y^{2}$$
 
 </small>
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-1
 
 Atverot iekavas un abām vienādojuma pusēm atņemot 
 $4x^{2}y^{2}$, iegūstam:
@@ -980,11 +823,9 @@ $$x^{2} y^{2}=1 \text { un } x^{2}=y^{2}$$
 
 Tas nozīmē, ka $x^{2}=y^{2}=1$. Tātad vienādojumam ir četri atrisinājumi: 
 $(-1 ;-1),(-1 ; 1),(1 ;-1)$ un $(1 ; 1)$.
-</text>
 
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-2
 
 Tā kā reāla skaitļa kvadrāts ir nenegatīvs, tad
 
@@ -1005,12 +846,10 @@ tad un tikai tad, ja $\left(x^{2}-1\right)^{2}=0$ un
 $\left(y^{2}-1\right)^{2}=0$, tas ir, $x^{2}=y^{2}=1$. 
 Tātad vienādojumam ir četri atrisinājumi: 
 $(-1 ;-1),(-1 ; 1),(1 ;-1)$ un $(1 ; 1)$.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.9.5
 
-<text lang="lv">
 Dabas rezervātā katra koka vecums gados izsakāms kā naturāls skaitlis. 
 Koku vidējais vecums pirms vakardienas negaisa bija tieši $72$ gadi. Negaisa 
 laikā Zibens spēriena dēļ gāja bojā viens $2023$ gadus vecs koks un tagad 
@@ -1019,7 +858,6 @@ skaits $2023$ gadus vecu koku varēja atrasties rezervātā pirms vakardienas
 negaisa? 
 
 *Piezīme.* Pa šīm divām dienām neviens koks nav kļuvis vecāks.
-</text>
 
 <small>
 
@@ -1028,7 +866,7 @@ negaisa?
 
 </small>
 
-<text lang="lv">
+
 ## Atrisinājums
 
 Koku skaitu pirms negaisa apzīmēsim ar $n$, bet koku gadu 
@@ -1054,15 +892,12 @@ iegūstam, ka $x=1097$ jeb atlikušā koka vecums ir $1097$ gadi.
 
 Tātad lielākais skaits $2023$ gadus vecu koku parkā pirms 
 vakardienas negaisa ir $68$.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.10.1
 
-<text lang="lv">
 Noskaidrot, vai skaitlis $\sqrt{4+2 \sqrt{3}}-\sqrt{4-2 \sqrt{3}}$ 
 ir racionāls vai iracionāls!
-</text>
 
 <small>
 
@@ -1071,8 +906,7 @@ ir racionāls vai iracionāls!
 
 </small>
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -1082,10 +916,9 @@ $$\begin{aligned}
 \end{aligned}$$
 
 Līdz ar to esam ieguvuši, ka dotais skaitlis ir racionāls skaitlis.
-</text>
 
-<text lang="lv">
-## Atrisinājums
+
+## Atrisinājums-2
 
 Doto skaitli kāpinot kvadrātā, iegūstam
 
@@ -1094,19 +927,16 @@ $$\left( \sqrt{4+2 \sqrt{3}}-\sqrt{4-2 \sqrt{3}} \right)^{2} =
 + 4 - 2\sqrt{3}=8-2 \sqrt{16-12}=4.$$
 
 Tā kā skaitḷa kvadrāts ir $4$, tad dotais skaitlis ir racionāls skaitlis.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.10.2
 
-<text lang="lv">
 Uz papīra lapas atzīmēti daži punkti tā, ka nekādi trīs punkti 
 neatrodas uz vienas taisnes. Daži punkti ir savienoti ar 
 nogriežņiem tā, ka no katra punkta iziet tieši $4$ nogriežņi. 
 Zināms, ka nav uzzīmēts neviens tāds trijstūris, kuram visas 
 virsotnes ir dotajos punktos. Kāds ir mazākais skaits punktu, 
 kas var būt atzīmēti uz papīra lapas?
-</text>
 
 <small>
 
@@ -1115,7 +945,6 @@ kas var būt atzīmēti uz papīra lapas?
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Mazākais iespējamais punktu skaits ir astoņi. Dotajā piemērā 
@@ -1136,16 +965,13 @@ uzzīmēts neviens trijstūris, tad punkts $B$ nevar būt savienots
 ne ar vienu citu punktu, kas savienots ar $A$, bet tādā gadījumā 
 nepieciešami vēl vismaz $3$ citi punkti, tas ir, kopā uz lapas 
 ir atzīmēti vismaz $8$ punkti.
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.10.3
 
-<text lang="lv">
 Šaurleņķu trijstūra $ABC$ augstumi krustojas punktā $H$. 
 Aprēḳināt četrstūra $ABHC$ laukumu, ja $AH = BC = 8$.
-</text>
 
 <small>
 
@@ -1155,8 +981,7 @@ Aprēḳināt četrstūra $ABHC$ laukumu, ja $AH = BC = 8$.
 
 </small>
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-1
 
 Pret malām $BC$ un $AC$ novilktos augstumus apzīmējam ar 
 $A A_{1}$ un $B B_{1}$ (skat. 5.att.).
@@ -1168,11 +993,10 @@ Izmantojot trijstūra laukuma aprēḳināšanas formulu $S_{\triangle}=\frac{1}
 $$S_{ABHC}=S_{ABH}+S_{ACH}=\frac{1}{2} AH \cdot BA_{1}+\frac{1}{2} AH \cdot A_{1}C = \frac{1}{2} AH \left(BA_{1}+A_{1}C \right) = \frac{1}{2} AH \cdot BC=\frac{1}{2} \cdot 8 \cdot 8=32.$$
 
 ![](LV.NOL.2023.10.3A.png){ width=150px }
-</text>
 
 
-<text lang="lv">
-## Atrisinājums
+
+## Atrisinājums-2
 
 Pret malām $B C$ un $A C$ novilktos augstumus apzīmējam ar 
 $AA_{1}$ un $BB_{1}$ (skat. 5.att.). 
@@ -1185,16 +1009,14 @@ $$S_{ABHC} = S_{ABC}-S_{HBC} =
 \frac{1}{2} BC \cdot AA_{1}-\frac{1}{2} BC \cdot HA_{1} =
 \frac{1}{2} BC \left(AA_{1}-HA_{1}\right) = 
 \frac{1}{2} BC \cdot AH=\frac{1}{2} \cdot 8 \cdot 8=32.$$
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.10.4
 
-<text lang="lv">
 Atrast lielāko naturālo skaitli $N$ ar īpašību - katram pirmskaitlim 
 $p<N$ skaitlis $N+2p$ arī ir pirmskaitlis!
-</text>
+
 
 <small>
 
@@ -1203,7 +1025,6 @@ $p<N$ skaitlis $N+2p$ arī ir pirmskaitlis!
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Aplūkojam vērtību $N=7$ un pārbaudām, vai $N+2p$ ir pirmskaitlis 
@@ -1220,19 +1041,17 @@ tad kāds no trīs skaitļiem: $N+4, N+6, N+14$ nav pirmskaitlis, jo
 * $N+14$ dalās ar $3$, ja $N = 3k+1$, 
 * $N+14$ dalās ar $3$, ja $N=3k+1$,
 * $N+4$ dalās ar $3$, ja $N=3k+2$.
-</text>
+
 
 
 # <lo-sample/> LV.NOL.2023.10.5
 
-<text lang="lv">
 Volejbola turnīrā katra komanda spēlēja ar katru tieši vienu reizi; 
 neizšķirtu nav. Ir zināms: lai kuru komandu mēs izvēlētos 
 (apzīmēsim to ar $K$), tā ir izcīnījusi tieši tikpat uzvaru, 
 cik kopā izcīnījušas visas tās komandas, pret kurām $K$ uzvarēja. 
 Kāds var būt komandu skaits, kas piedalījās šajā turnīrā? 
 (Nevienā turnīrā nav mazāk kā $2$ komandas.)
-</text>
 
 <small>
 
@@ -1241,7 +1060,6 @@ Kāds var būt komandu skaits, kas piedalījās šajā turnīrā?
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Turnīrā varēja piedalīties $3$ vai $4$ komandas, piemēram, 
@@ -1285,15 +1103,13 @@ Apskatām visas iespējamās $y$ vērtības.
   ar uzdevuma nosacījumiem. Tāpēc $x \neq 5$.
 * Ja $y=1$, tad no $y \geq \frac{x-1}{2}$ izriet, ka $x \leq 3$. 
   Tātad citu iespēju bez sākumā uzrādītajām nav.
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.11.1
 
-<text lang="lv">
 Pierādīt, ka $x^{2}+y^{2}+\frac{1}{2} \geq x+y$ visiem reāliem $x$ un $y$.
-</text>
+
 
 <small>
 
@@ -1303,8 +1119,7 @@ Pierādīt, ka $x^{2}+y^{2}+\frac{1}{2} \geq x+y$ visiem reāliem $x$ un $y$.
 
 </small>
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-1
 
 Reizinām abas nevienādības puses ar $4$ un veicam ekvivalentus pārveidojumus:
 
@@ -1316,11 +1131,9 @@ $$\begin{gathered}
 
 Tā kā divu kvadrātu summa ir nenegatīva, tad iegūtā nevienādība 
 ir patiesa, tātad arī sākotnējā nevienādība ir patiesa.
-</text>
 
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-2
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -1332,19 +1145,16 @@ x^{2}-2 \cdot \frac{1}{2} x+\left(\frac{1}{2}\right)^{2}+y^{2}-2 \cdot \frac{1}{
 
 Tā kā divu kvadrātu summa ir nenegatīva, tad iegūtā nevienādība 
 ir patiesa, tātad arī sākotnējā nevienādība ir patiesa.
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.11.2
 
-<text lang="lv">
 Kādā zemē dzīvo rūķi, katri divi no tiem vai nu draudzējas, 
 vai viens otru ienīst. Zināms, ka nav tādu trīs rūḳu,
 kas visi viens otru ienīst. Vai noteikti var atrast tādus 
 trīs rūḳus, kas visi savā starpā draudzējas, ja šajā zemē ir 
 **(A)** $5$ rūķi, **(B)** $6$ rūķi?
-</text>
 
 <small>
 
@@ -1355,7 +1165,7 @@ trīs rūḳus, kas visi savā starpā draudzējas, ja šajā zemē ir
 
 </small>
 
-<text lang="lv">
+
 ## Atrisinājums
 
 Katru rūķi apzīmēsim ar punktu. Ja divi rūḳi draudzējas, tad 
@@ -1388,20 +1198,17 @@ iespējamos gadījumus, kādā krāsā var būt nogriežņi $AB$, $AC$ un $AD$.
    $ABC$, $ACD$ un $ABD$ nebūtu zaļš. Bet tādā gadījumā rūķi $B,C,D$ 
    visi viens otru ienīst, kas ir pretrunā ar doto. Tātad pieņēmums ir 
    aplams un ir tādi trīs rūķi, kas visi savā starpā draudzējas.
-</text>
 
 
 
 
 # <lo-sample/> LV.NOL.2023.11.3
 
-<text lang="lv">
 Dots vienādsānu trijstūris $ABC$, kuram $AB = AC$ un 
 $\sphericalangle BAC<60^{\circ}$. Riņka līnija, kuras centrs ir punktā 
 $B$ un rādiuss $BC$, krusto trijstūra malas $AC$ un $AB$ 
 attiecīgi punktos $D$ un $E$. Aprēķināt $\frac{AD}{DC}$, 
 ja $\frac{AE}{EB}=\frac{2}{5}$.
-</text>
 
 <small>
 
@@ -1411,8 +1218,7 @@ ja $\frac{AE}{EB}=\frac{2}{5}$.
 
 </small>
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $AE=2x$ un $EB=BD=BC=5x$. Tad $AB=AC=7x$.
 
@@ -1429,11 +1235,10 @@ Tātad $AD=7x-\frac{25x}{7}=\frac{24x}{7}$ un
 $\frac{AD}{DC}=\frac{24}{25}$.
 
 ![](LV.NOL.2023.11.3A.png){ width=200px }
-</text>
 
 
-<text>
-## Atrisinājums
+
+## Atrisinājums-2
 
 Apzīmējam $AE=2x$ un $EB=BD=BC=5x$ (skat. 10.att.). Tad $AB=AC=7x$.
 
@@ -1445,17 +1250,15 @@ $$AE \cdot AF = AD \cdot AC;\quad 2x \cdot 12x=AD \cdot 7x; \quad AD=\frac{24x^{
 
 Tā kā $DC=AC-AD=7x-\frac{24x}{7}=\frac{25x}{7}$, 
 tad $\frac{AD}{DC}=\frac{24}{25}$.
-</text>
 
 
 
 
 # <lo-sample/> LV.NOL.2023.11.4
 
-<text lang="lv">
 Pierādīt, ka nekādu divu secīgu naturālu skaitļu reizinājums 
 nav izsakāms formā $36n+8$, kur $n$ ir naturāls skaitlis!
-</text>
+
 
 <small>
 
@@ -1465,8 +1268,8 @@ nav izsakāms formā $36n+8$, kur $n$ ir naturāls skaitlis!
 
 </small>
 
-<text lang="lv">
-## Atrisinājums
+
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka šādi skaitļi eksistē un apzīmēsim tos 
 attiecīgi ar $x$ un $x+1$, iegūstot vienādojumu $x(x+1)=36n+8$.
@@ -1484,11 +1287,10 @@ bet nedalās ar $9$. Tātad $144 n+33$ dalās ar $3$, bet nedalās ar $9$,
 un tas nevar būt naturāla skaitḷa kvadrāts. Tātad esam ieguvuši pretrunu. 
 Līdz ar to nekādu divu secīgu naturālu skaitļu reizinājums nav 
 izsakāms formā $36n+8$, kur $n$ - naturāls skaitlis.
-</text>
 
 
-<text lang="lv">
-## Atrisinājums
+
+## Atrisinājums-2
 
 Pieņemsim, ka šāds secīgu naturālu skaitḷu pāris eksistē. Tad to 
 reizinājums pēc moduḷa $9$ ir $8$, jo 
@@ -1511,7 +1313,7 @@ Visi iespējamie varianti ir aplūkoti un nevienā gadījumā
 reizinājuma atlikums pēc moduḷa $9$ nav $8$. Tātad esam ieguvuši 
 pretrunu. Līdz ar to nekādu divu secīgu naturālu skaitḷu 
 reizinājums nav izsakāms formā $36n+8$, kur $n$ ir naturāls skaitlis.
-</text>
+
 
 
 
@@ -1519,7 +1321,6 @@ reizinājums nav izsakāms formā $36n+8$, kur $n$ ir naturāls skaitlis.
 
 # <lo-sample/> LV.NOL.2023.11.5
 
-<text lang="lv">
 Skaitļu virkni, kurā ir $N$ elementi, sauksim par $N$ mazāko 
 naturālo skaitļu permutāciju, ja tajā atrodami visi 
 naturālie skaitļi no $1$ līdz $N$.
@@ -1536,7 +1337,6 @@ pēc formulas $c_{i}=\left|b_{i+1}-b_{i}\right|$.
 Pierādīt, ka $\left\{ b_{i} \right\}$ un $\left\{ c_{i} \right\}$ 
 vienlaikus abas nevar būt attiecīgi $n-1$ un $n-2$ mazāko 
 naturālo skaitļu permutācijas!
-</text>
 
 <small>
 
@@ -1545,7 +1345,6 @@ naturālo skaitļu permutācijas!
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Pieņemsim pretējo, ka abas virknes $\left\{b_{i}\right\}$ un 
@@ -1579,18 +1378,15 @@ gadijumā skaitḷi $2$ un $n$ neatrodas blakus, bet skaitlim $1$ abi
 kaimiņi jau ir aizņemti. Tātad pieņēmums bija aplams un abas virknes 
 $\left\{b_{i}\right\}$ un $\left\{c_{i}\right\}$ vienlaikus nevar 
 būt attiecīgi $n-1$ un $n-2$ mazāko naturālo skaitļu permutācijas.
-</text>
 
 
 
 # <lo-sample/> LV.NOL.2023.12.1
 
-<text lang="lv">
 Atrast mazāko reālo skaitli $a$, ar kuru visiem reāliem 
 skaitliem $x, y, z$ ir spēkā nevienādība:
 
 $$x^{2}+y^{2}+z^{2}+a \geq x + 2y + 3z$$
-</text>
 
 <small>
 
@@ -1600,7 +1396,6 @@ $$x^{2}+y^{2}+z^{2}+a \geq x + 2y + 3z$$
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Mazākā iespējamā vērtība ir $a=\frac{7}{2}$. Ekvivalenti pārveidosim 
@@ -1622,18 +1417,16 @@ Ja $a=\frac{7}{2}$, tad nevienādība izpildās visiem reāliem $x, y$ un $z$,
 jo triju kvadrātu summa noteikt ir nenegatīvs skaitlis. Tātad 
 $a=\frac{7}{2}$ ir mazākā iespējamā vērtība, ar kuru izpildās dotā 
 nevienādība visiem reāliem skaitliem $x, y, z$.
-</text>
+
 
 
 # <lo-sample/> LV.NOL.2023.12.2
 
-<text lang="lv">
 Šaha turnīrā katri divi šahisti ir vai nu izspēlējuši tieši vienu 
 šaha partiju, vai arī nav izspēlējuši nevienu partiju. Vai noteikti 
 var atrast tādus trīs šahistus, kas savā starpā ir izspēlējuši vai nu 
 visas $3$ partijas, vai nevienu partiju, ja turnīrā piedalās 
 **(A)** $5$, **(B)** $6$ šahisti?
-</text>
 
 <small>
 
@@ -1643,7 +1436,6 @@ visas $3$ partijas, vai nevienu partiju, ja turnīrā piedalās
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Šahistus apzīmējam ar punktiem. Divus šahistus savienosim ar nepārtrauktu līniju, ja tie ir izspēēejuši partiju, bet ar pārtrauktu līiiju, ja tie nav izspēlējuši partiju.
@@ -1667,17 +1459,14 @@ trijstūrim $ABD$ vai $BCD$ visas malas būs viena veida līnijas
 (skat. 14. att.). Iegūta pretruna ar pienēmumu.
 
 ![](LV.NOL.2023.12.2B.png)
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.12.3
 
-<text lang="lv">
 Dots vienādsānu trijstūris $ABC$, kuram $AB=AC$ un $\sphericalangle BAC < 60^{\circ}$. 
 Rinķa līnija, kuras centrs ir punktā $B$ un rādiuss $BC$, 
 krusto trijstūra malas $AC$ un $AB$ attiecīgi punktos $D$ (kas nesakrīt ar $C$) 
 un $E$. Pierādīt, ka $AD < 2AE$.
-</text>
 
 <small>
 
@@ -1686,7 +1475,6 @@ un $E$. Pierādīt, ka $AD < 2AE$.
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 Trijstūri $ABC$ un $BCD$ ir vienādsānu trijstūri ($AB=AC$ pēc dotā 
@@ -1716,15 +1504,14 @@ Dalot abas vienādības puses ar $(AE+BC)$, iegūstam, ka
 $$AD=2AE-\frac{AE^{2}}{AE+BC} \quad \Rightarrow \quad AD<2AE$$
 
 ![](LV.NOL.2023.12.3A.png)
-</text>
+
 
 
 # <lo-sample/> LV.NOL.2023.12.4
 
-<text lang="lv">
 Pierādīt, ka nekādu divu secīgu naturālu skaitļu reizinājums nav izsakāms 
 formā $27n+11$, kur $n$ ir naturāls skaitlis.
-</text>
+
 
 
 <small>
@@ -1736,10 +1523,10 @@ formā $27n+11$, kur $n$ ir naturāls skaitlis.
 </small>
 
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-1
 
-Pienemsim pretējo, ka šādi skaitḷi eksistē un apzīmēsim tos attiecīgi ar $x$ un $x+1$, iegūstot vienādojumu $x(x+1)=27 n+11$.
+Pienemsim pretējo, ka šādi skaitḷi eksistē un apzīmēsim tos attiecīgi ar $x$ un $x+1$, 
+iegūstot vienādojumu $x(x+1)=27n+11$.
 
 Pareizinot abas puses ar 4 un pieskaitot 1, iegūstam, ka
 
@@ -1748,16 +1535,18 @@ $$\begin{gathered}
 (2 x+1)^{2}=108 n+45
 \end{gathered}$$
 
-Vienādojuma labā puse dalās ar 9 , tātad $2 x+1$ dalās ar 3 . Izdalot abas vienādojuma puses ar 9, iegūstam, ka
+Vienādojuma labā puse dalās ar 9, tātad $2 x+1$ dalās ar 3 . Izdalot abas vienādojuma puses ar 9, iegūstam, ka
 
 $$\left(\frac{2 x+1}{3}\right)^{2}=12 n+5$$
 
-levērojam, ka, dalot vienādojuma labo pusi ar 3, tiek iegūts atlikums 2. Toties, dalot skaitla kvadrātu ar 3, var iegūt tikai atlikumu 0 vai 1. Tātad šim vienādojumam nav atrisinājuma un esam ieguvuši pretrunu. Līdz ar to nekādu divu secīgu naturālu skait|u reizinājums nav izsakāms formā $27 n+11$, kur $n$ - naturāls skaitlis.
-</text>
+Ievērojam, ka, dalot vienādojuma labo pusi ar 3, tiek iegūts atlikums 2. 
+Toties, dalot skaitla kvadrātu ar 3, var iegūt tikai atlikumu 0 vai 1. 
+Tātad šim vienādojumam nav atrisinājuma un esam ieguvuši pretrunu. 
+Līdz ar to nekādu divu secīgu naturālu skait|u reizinājums nav 
+izsakāms formā $27 n+11$, kur $n$ - naturāls skaitlis.
 
 
-<text lang="lv">
-## Atrisinājums
+## Atrisinājums-2
 
 Pieņemsim pretējo, ka šādi skaitḷi eksistē un apzīmēsim 
 tos attiecīgi ar $x$ un $x+1$, iegūstot vienādojumu $x(x+1)=27 n+11$.
@@ -1792,18 +1581,15 @@ Ievērojam, ka vienādojuma kreisā puse dalās ar $3$, bet labā -
 nedalās. Tātad šim vienādojumam nav atrisinājuma un esam ieguvuši 
 pretrunu. Līdz ar to nekādu divu secīgu naturālu skaitlu 
 reizinājums nav izsakāms formā $27n+11$, kur $n$ - naturāls skaitlis.
-</text>
 
 
 # <lo-sample/> LV.NOL.2023.12.5
 
-<text lang="lv">
 Dotas $2023$ kastes, sākumā tajās ir attiecīgi $1, 2, 3, \ldots, 2023$ 
 konfektes. Vienā gājienā var izvēlēties naturālu skaitli $n$ un no 
 dažām kastēm (varbūt tikai no vienas) apēst $n$ konfektes. 
 Kāds ir mazākais gājienu skaits, ar kuru var panākt, 
 ka visas kastes ir tukšas?
-</text>
 
 <small>
 
@@ -1813,7 +1599,6 @@ ka visas kastes ir tukšas?
 
 </small>
 
-<text lang="lv">
 ## Atrisinājums
 
 *Atbilde.* Mazākais gājienu skaits ir $11$.
@@ -1835,7 +1620,6 @@ konfekšu skaits var būt lielākais $2$ kastēs, pēc otrā gājiena -
 lielākais $2+2=4$ kastēs, pēc trešā gājiena lielākais $4+4=8$ 
 kastēs, $\ldots$, pēc 10. gājiena - lielākais $2^{10}=1024$ kastēs. 
 Tāpēc pēc 10.gājiena visas $2023$ kastes nevar būt tukšas.
-</text>
 
 
 
