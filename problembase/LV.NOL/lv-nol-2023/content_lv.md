@@ -285,7 +285,7 @@ $73$, kas nav iespējams.
 
 Naturālu skaitli atļauts reizināt ar $2$, kā arī izsvītrot no tā 
 pieraksta ciparus $0,3,6,9$ (varbūt tikai kādu no tiem). 
-Vai, vairākkārt izpildot šādus gājienus, no skaitla $17$ var iegūt: 
+Vai, vairākkārt izpildot šādus gājienus, no skaitļa $17$ var iegūt: 
 **(A)** skaitli $1$; **(B)** skaitli $15$?
 
 <small>
@@ -317,6 +317,8 @@ iegūtais skaitlis nedalīsies ar $3$:
 
 Tātad arī pēc vairākām operācijām iegūtais skaitlis nedalīsies 
 ar $3$. Tas nozīmē, ka skaitli $15$ iegūt nevar, jo tas dalās ar $3$.
+
+
 
 
 # <lo-sample/> LV.NOL.2023.7.1
