@@ -1,0 +1,5 @@
+{
+    "default_lang": "lv",
+    "indexed_lang": ["lv"],
+    "exclude_events": ["bbk2012-p2", "bbk2012-p4", "bbk2012-p5", "bbk2012-p6", "bbk2012-p7", "bbk2012-p8", "bbk2012-p9"]
+}

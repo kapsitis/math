@@ -70,12 +70,7 @@ the other so that they coincide (the shapes may be rotated and flipped).
 
 ![](LV.NOL.2023.5.3.png){ width=200px }
 
-<small>
 
-* questionType:FindExample
-* domain:Geom
-
-</small>
 
 ## Solution
 
@@ -91,12 +86,7 @@ Show how the number $174$ can be written as the sum of $3$ distinct natural numb
 that the sum of any two of these numbers is divisible by the third number!
 
 
-<small>
 
-* questionType:FindExample
-* domain:NT
-
-</small>
 
 
 ## Solution
@@ -118,13 +108,7 @@ but if a blue coin is inserted into the machine, it gives out $3$ red coins. Is 
 possible, by repeatedly using the machine, to obtain equal numbers 
 of red and blue coins if initially one red coin is given?
 
-<small>
 
-* questionType:ProveDisprove
-* domain:Comb
-* subdomain:DOM_FixedInvariant
-
-</small>
 
 
 ## Solution
@@ -147,12 +131,7 @@ $$2+\frac{1}{x+\frac{1}{y+\frac{1}{z}}}=\frac{37}{13}$$
 
 holds!
 
-<small>
 
-* questionType:FindExample
-* domain:Alg
-
-</small>
 
 ## Solution
 
@@ -177,13 +156,7 @@ Is it possible that the numbers of paths leaving the houses are respectively:
 **(A)** $2, 2, 2, 2, 2, 3, 3, 3, 3, 7$ paths;   
 **(B)** $2, 2, 2, 2, 4, 4, 4, 4, 4, 4$ paths?
 
-<small>
 
-* questionType:ProveDisprove
-* domain:Comb
-* subdomain:DOM_FixedInvariant
-
-</small>
 
 ## Solution
 
@@ -209,12 +182,7 @@ the other so that they coincide (the shapes may be rotated and flipped).
 ![](LV.NOL.2023.6.3.png){ width=200px }
 
 
-<small>
 
-* questionType:FindExample
-* domain:Geom
-
-</small>
 
 ## Solution
 
@@ -231,12 +199,7 @@ See, for example, Fig. 10 or Fig. 11.
 Can the number: **(A)** $72$, **(B)** $73$ be expressed as the sum of three distinct 
 natural numbers such that the sum of any two of these numbers is divisible by the remaining number?
 
-<small>
 
-* questionType:ProveDisprove,ProveDisprove
-* domain:NT
-
-</small>
 
 ## Solution
 
@@ -271,13 +234,7 @@ We start with the number $17$. We can repeatedly apply any of the following oper
 Is it possible to obtain **(A)** the number 1? **(B)** the number 15?
 
 
-<small>
 
-* questionType:ProveDisprove,ProveDisprove
-* domain:NT
-* subdomain:DOM_FixedInvariant
-
-</small>
 
 
 ## Solution
@@ -310,12 +267,7 @@ is $1$ are placed in squares sharing a common side?
 
 ![](LV.NOL.2023.7.1.png){ width=200px }
 
-<small>
 
-* questionType:ProveDisprove
-* domain:Comb
-
-</small>
 
 ## Solution
 
@@ -332,13 +284,7 @@ Solution. Yes, it is possible; see the figure.
 Can **(A)** $90$ light bulbs, **(B)** $73$ light bulbs be connected with wires so that 
 each of them is connected by a wire to exactly $5$ other light bulbs?
 
-<small>
 
-* questionType:ProveDisprove,ProveDisprove
-* domain:Comb
-* subdomain:DOM_FixedInvariant
-
-</small>
 
 ## Solution
 
@@ -363,13 +309,7 @@ a way that each of them is connected to exactly $5$ other bulbs.
 Given a quadrilateral $ABCD$ with all angles less than $180^{\circ}$, 
 $\sphericalangle A=\sphericalangle B$, $BC=1$ and $AD=3$. Prove that $CD>2$.
 
-<small>
 
-* questionType:Prove
-* domain:Geom
-* method:MTH_AugmentationWithNewElements
-
-</small>
 
 ## Solution
 
@@ -388,12 +328,7 @@ From the triangle inequality in triangle $BCD$ we get that $DC>DB-BC>3-1=2$.
 How many natural numbers $n$ are there such that the number $n^{2}$ 
 has as many digits as the number $n^{3}$?
 
-<small>
 
-* questionType:FindCount
-* domain:NT
-
-</small>
 
 ## Solution
 
@@ -428,13 +363,7 @@ if initially the box contains:
 **(A)** $10$ white, $12$ red, and $16$ green balls;  
 **(B)** $10$ white, $12$ red, and $15$ green balls?
 
-<small>
 
-* questionType:ProveDisprove,ProveDisprove
-* domain:Comb
-* subdomain:DOM_FixedInvariant
-
-</small>
 
 ## Solution
 
@@ -467,12 +396,7 @@ Provide one arrangement of numbers that meets these conditions.
 
 ![](LV.NOL.2023.8.1.png){ width=400px }
 
-<small>
 
-* questionType:FindExample
-* domain:NT
-
-</small>
 
 ## Solution
 
@@ -514,13 +438,7 @@ people (if $A$ is friends with $B$, then $B$ is friends with $A$). It is known
 that among any three people one can find two who are not friends with each other. 
 Can it happen that **(A)** $m=11$, **(B)** $m=10$?
 
-<small>
 
-* questionType:ProveDisprove,ProveDisprove
-* domain:Comb
-* subdomain:DOM_FixedInvariant
-
-</small>
 
 ## Solution
 
@@ -554,13 +472,7 @@ Given an isosceles triangle $ABC$ with $AB = BC$. On side $AB$
 a point $M$ is chosen and on side $BC$ a point $K$ is chosen such 
 that $AM = AK = AC$. It is known that $AK \perp MC$. Calculate the angles of triangle $ABC$!
 
-<small>
 
-* questionType:FindAll
-* domain:Geom
-* method:MTH_AugmentationWithNewElements
-
-</small>
 
 
 ## Solution
@@ -594,12 +506,7 @@ rotated and flipped over).
 
 ![](LV.NOL.2023.8.4.png){ width=200px }
 
-<small>
 
-* questionType:FindExample
-* domain:Geom
-
-</small>
 
 ## Solution
 
@@ -620,12 +527,7 @@ It is known that Kārlis meets Vilnis every $12$ minutes, Sandris overtakes
 Kārlis every $20$ minutes, and Mārtiņš overtakes Vilnis every $5$ minutes. 
 How often does Mārtiņš meet Sandris?
 
-<small>
 
-* questionType:FindAll
-* domain:Alg
-
-</small>
 
 ## Solution-1
 
@@ -662,12 +564,12 @@ Mārtiņš has completed $60:5=12$ laps to the left relative
 to Vilnis, hence he has completed $12+5=17$ laps to the 
 left relative to Kārlis.
 
-From the fact that Sandris overtakes Kārlis every 20 minutes, it follows that 
+From the fact that Sandris overtakes Kārlis every $20$ minutes, it follows that 
 Sandris has completed $60:20=3$ laps to the right 
 relative to Kārlis.
 
 Since Mārtiņš has completed $17$ laps to the left relative 
-to Kārlis, while Sandris has completed 3 laps to the right, 
+to Kārlis, while Sandris has completed $3$ laps to the right, 
 they have met $17+3=20$ times in these $60$ minutes. 
 Thus they meet every $60:20=3$ minutes.
 
@@ -681,12 +583,7 @@ Given that $x$ is a natural number. What is the largest number of the numbers
 $x$; $x+2$; $x+4$; $x+6$; $x+8$ that can simultaneously be prime?
 
 
-<small>
 
-* questionType:FindOptimal
-* domain:NT
-
-</small>
 
 ## Solution
 
@@ -723,13 +620,7 @@ In Novadia there live $73$ dwarfs, and some of them are friends with each other
 (if dwarf $A$ is friends with dwarf $B$, then $B$ is also friends with $A$, 
 that is, friendship is mutual). Can it be that each dwarf has exactly $9$ friends?
 
-<small>
 
-* questionType:ProveDisprove
-* domain:Comb
-* subdomain:DOM_FixedInvariant
-
-</small>
 
 ## Solution
 
@@ -748,13 +639,7 @@ Therefore it is impossible that each dwarf has exactly $9$ friends.
 Point $X$ is the midpoint of the diagonal $AC$ of a convex quadrilateral $ABCD$. 
 It is known that $CD \| BX$. Calculate the length of $AD$ if $BX=3$, $BC=7$, and $CD=6$.
 
-<small>
 
-* questionType:FindAll
-* domain:Geom
-* method:MTH_AugmentationWithNewElements
-
-</small>
 
 
 ## Solution-1
@@ -785,13 +670,7 @@ Find all pairs of real numbers $(x;y)$ such that
 
 $$\left(x^{4}+1\right)\left(y^{4}+1\right) = 4 x^{2} y^{2}.$$
 
-<small>
 
-* questionType:FindAll
-* domain:Alg
-* method:MTH_PolynomialTransformations
-
-</small>
 
 ## Solution-1
 
@@ -851,12 +730,7 @@ have been in the reserve before yesterday’s storm?
 
 *Note.* Over these two days no tree has become older.
 
-<small>
 
-* questionType:FindOptimal
-* domain:Alg
-
-</small>
 
 
 ## Solution
@@ -895,12 +769,7 @@ yesterday’s storm is $68$.
 Determine whether the number $\sqrt{4+2 \sqrt{3}}-\sqrt{4-2 \sqrt{3}}$ 
 is rational or irrational!
 
-<small>
 
-* questionType:ProveDisprove
-* domain:Alg
-
-</small>
 
 ## Solution 1
 
@@ -938,12 +807,7 @@ It is known that no triangle whose vertices are the given points
 has been drawn. What is the smallest number of points that can be 
 marked on the sheet of paper?
 
-<small>
 
-* questionType:FindOptimal
-* domain:Comb
-
-</small>
 
 ## Solution
 
@@ -972,13 +836,7 @@ $8$ points are marked on the sheet.
 The altitudes of an acute triangle $ABC$ intersect at point $H$. 
 Calculate the area of quadrilateral $ABHC$ if $AH = BC = 8$.
 
-<small>
 
-* questionType:FindAll
-* domain:Geom
-* method:MTH_AugmentationWithNewElements
-
-</small>
 
 ## Solution-1
 
@@ -1018,12 +876,7 @@ Find the largest natural number $N$ with the property that for every prime
 $p<N$ the number $N+2p$ is also prime!
 
 
-<small>
 
-* questionType:FindOptimal
-* domain:NT
-
-</small>
 
 ## Solution
 
@@ -1053,12 +906,7 @@ it has won exactly as many matches as the total number of wins by all the teams
 that $K$ defeated. What can be the number of teams that participated in 
 this tournament? (In any tournament there are at least $2$ teams.)
 
-<small>
 
-* questionType:FindAll
-* domain:Comb
-
-</small>
 
 ## Solution
 
@@ -1109,13 +957,7 @@ Consider all possible values of $y$.
 Prove that $x^{2}+y^{2}+\frac{1}{2} \geq x+y$ for all real $x$ and $y$.
 
 
-<small>
 
-* questionType:Prove
-* domain:Alg
-* method:MTH_PolynomialTransformations
-
-</small>
 
 ## Solution-1
 
@@ -1155,14 +997,7 @@ It is known that there are no three dwarves who all hate each other. Must there
 necessarily exist three dwarves who are all pairwise friends if in this land 
 there are **(A)** $5$ dwarves, **(B)** $6$ dwarves?
 
-<small>
 
-* questionType:ProveDisprove,ProveDisprove
-* domain:Comb
-* method:MTH_ContradictionForExistence
-* method:MTH_PigeonholePrincipleBasic
-
-</small>
 
 
 ## Solution
@@ -1203,13 +1038,7 @@ Given an isosceles triangle $ABC$ with $AB = AC$ and $\sphericalangle BAC<60^{\c
 The circle with center at point $B$ and radius $BC$ intersects the sides $AC$ and $AB$ 
 of the triangle at points $D$ and $E$, respectively. Compute $\frac{AD}{DC}$ if $\frac{AE}{EB}=\frac{2}{5}$.
 
-<small>
 
-* questionType:FindAll
-* domain:Geom
-* method:MTH_AugmentationWithNewElements
-
-</small>
 
 ## Solution-1
 
@@ -1250,15 +1079,6 @@ Prove that the product of any two consecutive natural numbers cannot be expresse
 in the form $36n+8$, where $n$ is a natural number!
 
 
-<small>
-
-* questionType:Prove
-* domain:NT
-* method:MTH_ContradictionForExistence
-
-</small>
-
-
 ## Solution-1
 
 Assume the contrary that such numbers exist and denote them by $x$ and $x+1$, 
@@ -1276,7 +1096,6 @@ Hence $144 n+33$ is divisible by $3$ but not by $9$, and it cannot be the square
 of a natural number. Thus we have obtained a contradiction. Therefore there are no  
 no two consecutive natural numbers such that their product equals $36n+8$ 
 for a positive integer $n$.
-
 
 
 ## Solution-2
@@ -1306,7 +1125,6 @@ in the form $36n+8$, where $n$ is a natural number.
 
 
 
-
 # <lo-sample/> LV.NOL.2023.11.5
 
 A sequence with $N$ elements will be called a permutation of the $N$ smallest 
@@ -1325,12 +1143,6 @@ Prove that $\left\{ b_{i} \right\}$ and $\left\{ c_{i} \right\}$ cannot both
 simultaneously be permutations of the $n-1$ and $n-2$ smallest natural numbers, 
 respectively!
 
-<small>
-
-* questionType:Prove
-* domain:Comb
-
-</small>
 
 ## Solution
 
@@ -1364,5 +1176,208 @@ the numbers $2$ and $n$ are not adjacent, while both neighbors of $1$ are
 already occupied. Thus the assumption was false, and the sequences 
 $\left\{b_{i}\right\}$ and $\left\{c_{i}\right\}$ cannot simultaneously 
 be permutations of the $n-1$ and $n-2$ smallest natural numbers.
+
+
+
+
+# <lo-sample/> LV.NOL.2023.12.1
+
+Find the smallest real number $a$ such that for all real numbers $x, y, z$ the inequality holds:
+
+$$x^{2}+y^{2}+z^{2}+a \geq x + 2y + 3z$$
+
+
+## Solution
+
+The smallest possible value is $a=\frac{7}{2}$. We equivalently transform the given inequality by completing the square:
+
+$$
+\begin{gathered}
+\left(x^{2}-x+\frac{1}{4}\right)+\left(y^{2}-2 y+1\right)+\left(z^{2}-3 z+\frac{9}{4}\right) \geq \frac{1}{4}+1+\frac{9}{4}-a \\
+\left(x-\frac{1}{2}\right)^{2}+(y-1)^{2}+\left(z-\frac{3}{2}\right)^{2} \geq \frac{7}{2}-a
+\end{gathered}
+$$
+
+First, we justify that $a$ cannot be less than $\frac{7}{2}$. Substitute 
+$x=\frac{1}{2}, y=1, z=\frac{3}{2}$ into the inequality, obtaining that the left-hand 
+side becomes equal to $0$, hence $a \geq \frac{7}{2}$.
+
+If $a=\frac{7}{2}$, then the inequality holds for all real $x, y,$ and $z$, since 
+the sum of three squares is certainly a nonnegative number. Therefore, $a=\frac{7}{2}$ 
+is the smallest possible value for which the given inequality holds for all real numbers $x, y, z$.
+
+
+
+
+# <lo-sample/> LV.NOL.2023.12.2
+
+In a chess tournament, any two players have played at most one game against 
+each other. Must there always be a group of three players where either every 
+pair in the group has played a game, or no pair has played a game?
+Consider this for a tournament with:
+**(A)** $5$ players, **(B)** $6$ players.
+
+
+
+## Solution
+
+Represent the players by points. Connect two players with a solid line if they have played 
+a game, and with a dashed line if they have not.
+
+**(A)** No, it may happen that there are no three players who have either all 3 games or none, 
+for example, see Fig. 13, where there is no triangle whose sides are all the same type of line.
+
+![](LV.NOL.2023.12.2A.png)
+
+
+**(B)** We will prove that it is always possible to find three players who together have 
+either $3$ games or none, that is, that one can find a triangle all of whose sides are the same type of line.
+
+Assume there is no such triangle. Consider the point $A$. Since $5$ segments emanate from it, 
+at least three of them are of the same type (by the Pigeonhole Principle). Without loss of 
+generality, suppose that the segments $AB, AC, AD$ are solid lines. Then $BC$ and $CD$ 
+must be dashed lines, but in that case the triangle $ABD$ or $BCD$ has all sides 
+of the same type (see Fig. 14). This contradicts the assumption.
+
+![](LV.NOL.2023.12.2B.png)
+
+
+
+
+# <lo-sample/> LV.NOL.2023.12.3
+
+Given an isosceles triangle $ABC$ with $AB=AC$ and $\sphericalangle BAC < 60^{\circ}$. 
+The circle with center at point $B$ and radius $BC$ intersects the sides $AC$ and $AB$ 
+at the points $D$ (which does not coincide with $C$) and $E$, respectively. Prove that $AD < 2AE$.
+
+
+## Solution
+
+The triangles $ABC$ and $BCD$ are isosceles ($AB=AC$ by the given and $BC=BD$ as radii), 
+and the base angles of both triangles are equal ($\sphericalangle ACB$ is common to both 
+triangles, see Fig. 15). Therefore $\triangle BCD \sim \triangle ABC$ by the AA criterion 
+for triangle similarity
+
+In similar triangles, the lengths of corresponding sides are proportional, therefore
+
+$$\begin{aligned}
+\frac{AB}{BC}= & \frac{BC}{DC} \quad \Rightarrow \quad 
+\frac{AE+EB}{BC}=\frac{BC}{AE+EB-AD} \\
+& (AE+EB)(AE+EB-AD)=BC^{2}
+\end{aligned}$$
+
+Since $BC=EB$ as radii, we have
+
+$$\begin{gathered}
+AE^{2}+2AE \cdot BC + BC^{2} - AD \cdot AE - AD \cdot BC=BC^{2} \\
+AE^{2}+2AE \cdot BC = AD(AE+BC) \\
+2AE(AE+BC)-AE^{2}=AD(AE+BC)
+\end{gathered}$$
+
+Dividing both sides by $(AE+BC)$, we obtain
+
+$$AD=2AE-\frac{AE^{2}}{AE+BC} \quad \Rightarrow \quad AD<2AE$$
+
+![](LV.NOL.2023.12.3A.png)
+
+
+
+
+
+# <lo-sample/> LV.NOL.2023.12.4
+
+Prove that the product of no two consecutive natural numbers can be expressed in the form $27n+11$, where $n$ is a natural number.
+
+
+## Solution-1
+
+Assume the contrary, that such numbers exist, and denote them by $x$ and $x+1$, 
+obtaining the equation $x(x+1)=27n+11$.
+
+Multiplying both sides by $4$ and adding $1$, we obtain
+
+$$\begin{gathered}
+4 x^{2}+4 x+1=108 n+45 \\
+(2 x+1)^{2}=108 n+45
+\end{gathered}$$
+
+The right-hand side of the equation is divisible by $9$, hence $2x+1$ is divisible by $3$. 
+Dividing both sides of the equation by $9$, we get
+
+$$\left(\frac{2 x+1}{3}\right)^{2}=12 n+5$$
+
+Note that, when dividing the right-hand side of the equation by $3$, the remainder is $2$. 
+However, when dividing a square by $3$, one can obtain only the remainder $0$ or $1$. 
+Therefore this equation has no solution and we have a contradiction. Hence, the product of 
+consecutive positive integers $x(x+1)$ cannot equal $27n+11$, where $n$ is an integer. 
+
+
+## Solution-2
+
+Assume the contrary, that such numbers exist, and denote them by $x$ and $x+1$, 
+obtaining the equation $x(x+1) = 27n+11$.
+
+If $x$ or $x+1$ is divisible by $3$, then the left-hand side is divisible by $3$, 
+but the right-hand side is not, so the equation has no solution. 
+When dividing $x$ by $3$, the remainder cannot be $0$ or $2$; the only possible 
+remainder is $1$. Thus $x$ can be written in the form $x=3k+1$. Substituting 
+this into the equation, we get
+
+$$\begin{gathered}
+(3 k+1)(3 k+2)=27 n+11 \\
+9 k^{2}+9 k+2=27 n+11 \\
+9 k^{2}+9 k=27 n+9
+\end{gathered}$$
+
+Dividing both sides of the equation by $9$ and factoring, we obtain
+
+$$k(k+1)=3n+1$$
+
+Since the right-hand side is not divisible by $3$, similarly to the previous 
+argument we get that, when dividing $k$ by $3$, one can obtain only the remainder 
+$1$ (otherwise the left-hand side would be divisible by $3$). Hence, setting 
+$k=3m+1$, we get the following:
+
+$$\begin{gathered}
+(3 m+1)(3 m+2)=3 n+1 \\
+9 m^{2}+9 m=3 n-1
+\end{gathered}$$
+
+Observe that the left-hand side is divisible by $3$, whereas the right-hand 
+side is not - a contradiction. 
+Consequently, the product of no two consecutive positive integers can be expressed 
+in the form $27n+11$, where $n$ is a positive integer.
+
+
+
+
+
+# <lo-sample/> LV.NOL.2023.12.5
+
+There are $2023$ boxes, initially containing $1, 2, 3, \ldots, 2023$ candies respectively. 
+In a single move, you may choose a natural number $n$ and eat $n$ candies from some boxes 
+(possibly only from one). What is the smallest number of moves needed to make all boxes empty?
+
+
+## Solution
+
+*Answer.* The minimal number of moves is $11$.
+
+We will show that $11$ moves suffice. In the first move, eat $1$ candy from the boxes that 
+contain an odd number of candies. As a result, in all boxes the number of candies is 
+divisible by $2$. In the second move, eat $2$ candies from those boxes in which 
+the number of candies is not divisible by $4$. As a result, in all boxes the number 
+of candies is divisible by $4$. In the third move, eat $4$ candies from those boxes 
+in which the number of candies is not divisible by $8$. As a result, in all boxes 
+the number of candies is divisible by $8$. Continuing similarly, after $11$ moves 
+the number of candies in all boxes is divisible by $2^{11}=2048$. Since no box has  
+$2048$ or more candies, they must all be empty as $0$ is divisible by $2048$ and no other 
+$2048k$ is possible.
+
+We justify that $10$ moves are not enough. Initially, all boxes contain different numbers 
+of candies. Therefore, after the first move, the same number of candies can appear 
+in at most $2$ boxes; after the second move — in at most $2+2=4$ boxes; after the 
+third move — in at most $4+4=8$ boxes; $\ldots$; after the 10th move — 
+in at most $2^{10}=1024$ boxes. Hence after the 10th move all $2023$ boxes cannot be empty.
 
 

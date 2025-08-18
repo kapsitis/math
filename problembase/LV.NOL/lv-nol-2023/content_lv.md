@@ -1467,7 +1467,7 @@ veida (pēc Dirihlē principa). Nezaudējot vispārīgumu, uzskatīsim,
 ka nogriežņi $AB, AC, AD$ ir nepārtrauktas līnijas. 
 Tad $BC$ un $CD$ jābūt pārtrauktām līnijām, bet tādā gadījumā 
 trijstūrim $ABD$ vai $BCD$ visas malas būs viena veida līnijas 
-(skat. 14. att.). Iegūta pretruna ar pienēmumu.
+(skat. 14. att.). Iegūta pretruna ar pieņēmumu.
 
 ![](LV.NOL.2023.12.2B.png)
 
@@ -1546,7 +1546,7 @@ $$\begin{gathered}
 (2 x+1)^{2}=108 n+45
 \end{gathered}$$
 
-Vienādojuma labā puse dalās ar 9, tātad $2 x+1$ dalās ar 3 . Izdalot abas vienādojuma puses ar 9, iegūstam, ka
+Vienādojuma labā puse dalās ar $9$, tātad $2 x+1$ dalās ar $3$. Izdalot abas vienādojuma puses ar $9$, iegūstam, ka
 
 $$\left(\frac{2 x+1}{3}\right)^{2}=12 n+5$$
 
