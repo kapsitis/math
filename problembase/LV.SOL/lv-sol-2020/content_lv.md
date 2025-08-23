@@ -439,8 +439,9 @@ $$1^{2}+3^{2}+5^{2}+\cdots+(2 n-1)^{2}=\frac{n(2 n-1)(2 n+1)}{3}$$
 
 <small>
    
-* questionType:
-* domain:
+* questionType:Prove
+* domain:NT
+* method:MTH_InductionWithStepOne
    
 </small>
 
@@ -450,7 +451,7 @@ Izmantosim matemātiskās indukcijas metodi.
 
 Indukcijas bāze. Ja $n=1$, tad $1^{2}=\frac{1 \cdot 1 \cdot 3}{3}$ jeb $1=1$.
 
-Induktīvais pieñēmums. Pieṇemsim, ka vienādība izpildās, ja $n=k$, tas ir,
+Induktīvais pieņēmums. Pieṇemsim, ka vienādība izpildās, ja $n=k$, tas ir,
 
 $$1^{2}+3^{2}+5^{2}+\cdots+(2 k-1)^{2}=\frac{k(2 k-1)(2 k+1)}{3}$$
 
@@ -527,8 +528,9 @@ Pierādīt, ka $10^{n}-9n-1$ dalās ar $81$ visām naturālām $n$ vērtībām!
 
 <small>
    
-* questionType:
-* domain:
+* questionType:Prove
+* domain:NT
+* method:MTH_InductionWithStepOne
    
 </small>
 
@@ -619,8 +621,9 @@ kur $x_{1}=3$ un $x_{2}=6$. Pierādīt, ka virkni var definēt ar formulu $x_{n}
 
 <small>
    
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
+* method:MTH_InductionWithStepOne
    
 </small>
 

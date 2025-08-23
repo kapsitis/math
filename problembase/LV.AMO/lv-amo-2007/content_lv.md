@@ -1289,8 +1289,9 @@ vietās.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
+* method:MTH_InductionWithCombinedStep
 
 </small>
 

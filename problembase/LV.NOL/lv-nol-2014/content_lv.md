@@ -1185,6 +1185,7 @@ ka pirmais izseko otro, otrais - trešo, $\ldots$, $(n-1)$-ais izseko $n$-to.
 
 * questionType:Prove
 * domain:Comb
+* method:MTH_InductionWithStepOne
 
 </small>
 
@@ -1399,6 +1400,7 @@ $$\frac{1}{a_{1}}+\frac{1}{a_{2}}+\ldots+\frac{1}{a_{2014}}=1?$$
 
 * questionType:ProveDisprove
 * domain:Alg
+* method:MTH_InductionWithStepOne
 
 </small>
 

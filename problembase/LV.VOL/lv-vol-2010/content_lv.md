@@ -458,6 +458,7 @@ $$a_{1}^{3}+a_{2}^{3}+\ldots+a_{k}^{3}=\left(a_{1}+a_{2}+\ldots+a_{k}\right)^{2}
 
 * questionType:
 * domain:
+* method:MTH_StrongInduction
 
 </small>
 
@@ -682,6 +683,7 @@ Pierādīt, ka $p=q=1$.
 
 * questionType:Prove
 * domain:NT
+* method:MTH_StrongInduction
 
 </small>
 
@@ -844,8 +846,9 @@ noskaidrot, kurā no visām kredītkartēm ir lielākā naudas summa.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
+* method:MTH_StrongInduction
 
 </small>
 
@@ -856,7 +859,7 @@ Dosim risinājumu **(B)** gadījumam. Skaidrs, ka, ja uzdevuma prasības var izp
 $99$ ierīces lietojumiem, tad ar $100$ lietojumiem to arī var izdarīt.
 
 Ar matemātisko indukciju pierādīsim, ka, ja ir $n$ kredītkartes, ( $n \geq 5$ ), tad ar
-$n$- $1$ ierīces lietojumiem pietiek, lai atrastu gan kredītkarti ar vislielāko naudas
+$n-1$ ierīces lietojumiem pietiek, lai atrastu gan kredītkarti ar vislielāko naudas
 summu, gan kredītkarti ar otro lielāko naudas summu.
 
 **Induktīvā bāze.** Pierādīsim, ka starp $5$ kredītkartēm ar $4$ ierīces lietojumiem

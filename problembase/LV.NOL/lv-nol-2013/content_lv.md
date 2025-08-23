@@ -1282,6 +1282,7 @@ komisijas locekļiem nebūtu domstarpību savā starpā.
 
 * questionType:Prove
 * domain:Comb
+* method:MTH_InductionWithStepOne
 
 </small>
 

@@ -1259,12 +1259,13 @@ Atrodi izteiksmes $\sin ^{38} x+\cos ^{38} x$ vislielāko un vismazāko vērtīb
 
 * questionType:FindOptimal
 * domain:Alg
+* method:MTH_InductionWithStepOne
 
 </small>
 
 ## Atrisinājums
 
-**Atbilde:** vislielākā vērtība ir $1$ un vismazākā $2^{-18}$.
+**Atbilde:** Vislielākā vērtība ir $1$ un vismazākā $2^{-18}$.
 
 Pamatojums:
 
@@ -1279,10 +1280,10 @@ Ja $x=0$, tad $\sin ^{38} x+\cos ^{38} x=1$, tātad šī vērtība tiek sasniegt
 $\sin ^{2n} x+\cos ^{2n} x \geq 2^{1-n}$. To var izdarīt ar matemātisko 
 indukciju.
 
-Bāze: $n=1$, ievietojot iegūst $\sin ^{2} x+\cos ^{2} x \geq 2^{0}=1$, 
+*Bāze:* $n=1$, ievietojot iegūst $\sin ^{2} x+\cos ^{2} x \geq 2^{0}=1$, 
 nevienādība ir pareiza.
 
-Induktīvā pāreja: Pieņemsim, ka apgalvojums jau ir pierādīts pie $n=k$, un 
+*Induktīvā pāreja:* Pieņemsim, ka apgalvojums jau ir pierādīts pie $n=k$, un 
 pierādīsim, ka tas ir spēkā arī pie $n=k+1$. Tātad, pieņemsim, ka 
 $\sin ^{2k} x+\cos ^{2k} x \geq 2^{1-k}$, un pierādīsim, ka
 

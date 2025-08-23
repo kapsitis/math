@@ -1257,6 +1257,7 @@ $1^{3}+2^{3}+3^{3}+\cdots+n^{3}=(1+2+3+\cdots+n)^{2}$.
   
 * questionType:Prove
 * domain:Alg
+* method:MTH_InductionWithStepOne
   
 </small>
 

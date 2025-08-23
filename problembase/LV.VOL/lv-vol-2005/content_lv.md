@@ -606,6 +606,7 @@ Par skaitļu virkni $x_{1}, x_{2}, x_{3}, \ldots$ zināms, ka
 
 * questionType:Prove,FindAll
 * domain:Alg
+* method:MTH_StrongInduction
 
 </small>
 
@@ -622,7 +623,7 @@ kļūst $x_{1}$).
 **Tagad pierādīsim, ka katrs pozitīvs racionāls skaitlis sastopams šajā 
 virknē.**
 
-Pierādīsim to ar matemātisko indukciju pēc $k,\ k \geq$, tādiem pozitīviem 
+Pierādīsim to ar matemātisko indukciju pēc $k$, $k \geq 2$, tādiem pozitīviem 
 nesaīsināmiem racionāliem skaitļiem $r$, ka $r=\frac{a}{b}$, un $a+b=k$. Pie 
 $k=2$ ir tikai viens tāds skaitlis $r=\frac{1}{1}=1$, un $x_{1}=1$. Pieņemsim, 
 ka apgalvojums pareizs pie $k=2;\ 3;\ \ldots;\ t$, un apskatīsim 

@@ -909,6 +909,7 @@ $$6+24+60+\cdots+n(n+1)(n+2)=\frac{n(n+1)(n+2)(n+3)}{4}$$
 * questionType:Prove
 * domain:Alg
 * concepts:equation
+* method:MTH_InductionWithStepOne
 
 </small>
 

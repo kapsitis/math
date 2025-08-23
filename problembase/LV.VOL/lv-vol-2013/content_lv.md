@@ -72,6 +72,7 @@ piemēram, $[3]=3,[4,6]=4,[0,2]=0$ u.tml.)
 
 * questionType:FindExample
 * domain:Alg
+* method:MTH_InductionWithCombinedStep
 
 </small>
 
@@ -592,6 +593,7 @@ skaitlis.
 
 * questionType:Prove,Prove
 * domain:Comb
+* method:MTH_StrongInduction
 
 </small>
 
@@ -737,6 +739,7 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu nav.
 
 * questionType:FindAll
 * domain:NT
+* method:MTH_InductionWithStepOne
 
 </small>
 

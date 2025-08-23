@@ -1137,6 +1137,7 @@ $a_{1}=1000$.
 * concepts:sequence
 * questionType:FindAll
 * domain:Alg
+* method:MTH_InductionWithStepOne
 
 </small>
 

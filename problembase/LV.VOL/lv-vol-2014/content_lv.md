@@ -785,6 +785,7 @@ spēkā sakarība $n+f(1)+f(2)+\ldots+f(n-1)=nf(n)$.
 
 * questionType:Prove
 * domain:Alg
+* method:MTH_InductionWithStepOne
 
 </small>
 
@@ -897,6 +898,7 @@ iespējamais kopējais šaha partiju skaits, kas ir izspēlētas šajā festivā
 * questionType:FindOptimal
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
+* method:MTH_StrongInduction
 
 </small>
 
@@ -931,7 +933,7 @@ izpildās $f(2k) \geq k(k-1)$ un $f(2k-1) \geq(k-1)^{2}$.
 
 *Indukcijas bāze.* $f(3)=1,\ f(4)=2$.
 
-*Induktīvais pieņēmums.* Pieņemsim, ka katram $k(2 \leq k \leq i)$ izpildās 
+*Induktīvais pieņēmums.* Pieņemsim, ka katram $k$ ($2 \leq k \leq i$) izpildās 
 nevienādības $f(2k) \geq k(k-1)$ un $f(2k-1) \geq(k-1)^{2}$.
 
 *Induktīvā pāreja.* Pierādīsim, ka minētās sakarības ir spēkā arī pie $k=i+1$.

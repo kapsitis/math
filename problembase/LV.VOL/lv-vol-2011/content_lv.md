@@ -661,6 +661,7 @@ virkne satur vismaz $55$ ciparus.
 * questionType:Prove
 * domain:NT
 * method:MTH_PigeonholePrincipleBasic
+* method:MTH_InductionWithStepOne
 
 </small>
 

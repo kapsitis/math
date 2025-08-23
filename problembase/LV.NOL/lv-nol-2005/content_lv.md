@@ -1138,7 +1138,7 @@ a_{1426}<35-\frac{175}{35}=30 &
 
 # <lo-sample/> LV.NOL.2005.12.3
 
-Naturāli skaitļi no $1$ līdz $n(n>1)$ kaut kādā secībā izrakstīti virknē, katrs
+Naturāli skaitļi no $1$ līdz $n$ ($n>1$) kaut kādā secībā izrakstīti virknē, katrs
 vienu reizi. Ja virknē pirmais skaitlis ir $k$, tad pirmos $k$ locekļus virknē 
 uzraksta pretējā secībā; pārējo locekļu vietas nemaina.
 
@@ -1147,8 +1147,9 @@ atradīsies vieninieks.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
+* method:MTH_InductionWithStepOne
 
 </small>
 

@@ -1556,7 +1556,8 @@ $$\frac{1}{a_{1}}+\frac{1}{a_{2}}+\cdots+\frac{1}{a_{n}}=1$$
 <small>
 
 * questionType:Prove
-* domain:
+* domain:Alg
+* method:MTH_InductionWithStepOne
 
 </small>
 
@@ -1574,7 +1575,7 @@ $\frac{1}{3}=\frac{1}{4}+\frac{1}{12}$, iegūstam derīgus skaitlus, ja $n=4$:
 
 $$\frac{1}{2}+\frac{1}{4}+\frac{1}{6}+\frac{1}{12}=1$$
 
-levērojam, ka gan iepriekš, gan tagad izteiksmē ir divi saskaitāmie, kuru 
+Ievērojam, ka gan iepriekš, gan tagad izteiksmē ir divi saskaitāmie, kuru 
 saucējs dalās ar $3$. No šīm abām daļām izvēlamies mazāko daļu $\frac{1}{6}$, 
 aizvietojam to ar $\frac{1}{8}+\frac{1}{24}$ un iegūstam derīgus skaitļus, 
 ja $n=5$:

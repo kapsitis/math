@@ -315,12 +315,13 @@ $7+7=14$.
 
 Atrisināt vienādojumu
 
-$$|\ldots|||x-1|-10|-10^{2}\left|-\ldots-10^{2007}\right|=10^{2008}$$
+$$\bigg|\ldots \Big| \big| |x-1|-10 \big|-10^{2} \Big|-\ldots-10^{2007}\bigg|=10^{2008}$$
 
 <small>
 
 * questionType:FindAll
 * domain:Alg
+* method:MTH_InductionWithStepOne
 
 </small>
 

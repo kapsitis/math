@@ -425,8 +425,9 @@ Vai noteikti var panākt, ka visas konfektes atrodas uz viena šķīvja?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
+* method:MTH_InductionWithStepOne
 
 </small>
 
@@ -434,7 +435,7 @@ Vai noteikti var panākt, ka visas konfektes atrodas uz viena šķīvja?
 
 Jā, var. Izmantosim matemātisko indukciju pēc $k$.
 
-$\underline {Bāze\ k=4}$. Apskatām $4$ šķīvjus, uz kuriem kopā atrodas visas 
+*Bāze* $k=4$. Apskatām $4$ šķīvjus, uz kuriem kopā atrodas visas 
 konfektes. Pārveidojumu virkne
 
 $$(1,\ 1,\ 1,\ 1) \rightarrow(3,\ 1,\ 0,\ 0) \rightarrow(2,\ 0,\ 2,\ 0) \rightarrow(1,\ 0,\ 1,\ 2) \rightarrow(0,\ 0,\ 0,\ 4)$$

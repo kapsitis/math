@@ -3004,6 +3004,7 @@ $n$ izpildās nevienādība $p_{n}<2^{2^{n}}$.
 
 * questionType:Prove
 * domain:NT
+* method:MTH_StrongInduction
 
 </small>
 
@@ -4621,9 +4622,10 @@ lielāko kopīgo dalītāju.
 
 * questionType:FindAll
 * domain:NT
-* topic:NonlinearRecurrences
-* topic:InvariantAlgebraic
-* topic:NumTheoryMathInduction
+* subdomain:DOM_IntegerSequences
+* topic:GcdAndLcmProperties
+* method:MTH_InductionWithStepOne
+* method:MTH_FixedInvariant
 
 </small>
 

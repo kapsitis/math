@@ -1201,8 +1201,9 @@ nevienā komisijā nevienam deputātam nav aizspriedumu ne pret vienu citu?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Comb
+* method:MTH_InductionWithStepOne
 
 </small>
 
@@ -1222,8 +1223,8 @@ deputātu).
 Pieņemsim, ka apgalvojums ir pareizs pie $n=1;\ 2;\ 3;\ \ldots$; $m-1$, kur 
 $m \geq 6$. Apskatīsim $m$ deputātus. Ja katru no šiem deputātiem "ienīst" 
 vairāk nekā $2$ citi, tad kopējais "ienaidu" skaits ir lielāks par 
-$2~\mathrm{m}$, tā ir pretruna, jo katram deputātam ir aizspriedumi pret 
-augstākais $2$ citiem, tāpēc "ienaidu" nav vairāk par $2~\mathrm{m}$.
+$2m$, tā ir pretruna, jo katram deputātam ir aizspriedumi pret 
+augstākais $2$ citiem, tāpēc "ienaidu" nav vairāk par $2m$.
 
 Tāpēc eksistē deputāts $A$, pret kuru aizspriedumu nav vairāk kā $2$ citiem. 
 Apskatīsim visus $m-1$ deputāus, izņemot $A$. Saskaņa ar induktīvo hipotēzi tos

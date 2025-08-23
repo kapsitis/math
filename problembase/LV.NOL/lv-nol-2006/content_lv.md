@@ -1143,8 +1143,9 @@ nevienā komisijā nevienam deputātam nav aizspriedumu ne pret vienu citu?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Comb
+* method:MTH_InductionWithStepOne
 
 </small>
 

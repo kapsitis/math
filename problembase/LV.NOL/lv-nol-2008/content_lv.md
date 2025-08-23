@@ -1097,8 +1097,9 @@ izpildās šādas prasības:
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
+* method:MTH_InductionWithStepOne
 
 </small>
 

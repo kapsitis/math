@@ -635,8 +635,9 @@ Pierādīt, ka visām naturālām $n$ vērtībām $2^{2n-1} 3^{n-1}+5^{n}$ dalā
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:NT
+* method:MTH_InductionWithStepOne
 
 </small>
 
@@ -656,12 +657,12 @@ ir savstarpēji pirmskaitļi, tad arī sākotnējā izteiksme dalās ar $7$.
 
 Izmantosim matemātiskās indukcijas metodi.
 
-Indukcijas bāze. Ja $n=1$, tad $2^{1} \cdot 3^{0}+5^{1}=7$, kas dalās ar $7$.
+*Indukcijas bāze.* Ja $n=1$, tad $2^{1} \cdot 3^{0}+5^{1}=7$, kas dalās ar $7$.
 Induktīvais pieñēmums. Pieņemsim, ka apgalvojums ir patiess, ja $n=k$, t. i.,
 
 $$2^{2 k-1} 3^{k-1}+5^{k} \vdots 7$$
 
-Induktīvā pāreja. Pierādīsim, ka apgalvojums ir patiess arī tad, ja $n=k+1$, t. i.,
+*Induktīvā pāreja.* Pierādīsim, ka apgalvojums ir patiess arī tad, ja $n=k+1$, t. i.,
 
 $$2^{2 k+1} 3^{k}+5^{k+1} \vdots 7$$
 
@@ -673,7 +674,7 @@ $2^{2k+1} 3^{k}+5^{k+1} =4 \cdot 2^{2k-1} \cdot 3 \cdot 3^{k-1}+5 \cdot 5^{k} =
 $\text{}=\underbrace{5 \cdot\left(2^{2 k-1} 3^{k-1}+5^{k}\right)}_{\vdots 7\;\text{pēc ind.pieņ.}}+
 \underbrace{7 \cdot 2^{2 k-1} 3^{k-1}}_{\vdots 7}.$
 
-Ja katras saskaitāmais dalās ar 7 , tad visa summa dalās ar 7.
+Ja katras saskaitāmais dalās ar $7$, tad visa summa dalās ar $7$.
 Secinājums. Tā kā apgalvojums ir patiess, ja $n=1$, un no tā, ka apgalvojums ir patiess, ja $n=k$, izriet, ka apgalvojums ir patiess arī $n=k+1$, secinām, ka apgalvojums ir patiess visām naturālām vērtībām.
 
 

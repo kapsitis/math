@@ -816,6 +816,7 @@ $1 \cdot 4+2 \cdot 7+3 \cdot 10+\cdots+n \cdot(3n+1)=n(n+1)^{2}$.
 * topic:NumTheoryMathInduction
 * questionType:Prove
 * domain:Alg
+* method:MTH_InductionWithStepOne
 
 </small>
 

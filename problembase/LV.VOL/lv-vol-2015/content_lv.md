@@ -284,6 +284,7 @@ Pierādīt, ka katram naturālam $n$ izteiksme $3n^{5}+5n^{4}-8n$ dalās ar $10$
 * topic:DivisibilityProperties
 * topic:ModularParity
 * topic:ModularArithmetic
+* method:MTH_InductionWithStepOne
 
 </small>
 

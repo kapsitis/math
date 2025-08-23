@@ -880,8 +880,9 @@ $$\frac{1^{2}}{1 \cdot 3}+\frac{2^{2}}{3 \cdot 5}+\cdots+\frac{n^{2}}{(2n-1)(2n+
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
+* method:MTH_InductionWithStepOne
 
 </small>
 
@@ -1099,8 +1100,9 @@ $17$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:NT
+* method:MTH_InductionWithStepOne
 
 </small>
 
@@ -1289,8 +1291,9 @@ $x_{n}=2^{n}+3^{n}-4^{n}$ visiem naturāliem $n$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
+* method:MTH_InductionWithCombinedStep
 
 </small>
 
