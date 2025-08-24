@@ -3940,7 +3940,7 @@ vērtības redzam, ka der tikai skaitlis $x=20$, un meklētais skaitlis $N$ ir $
 
 # <lo-sample/> BBK2012.P1.101
 
-Doti naturāli skaiți $a_{1}<a_{2}<\cdots<a_{n}$. Pierādiet, ka 
+Doti naturāli skaitļi $a_{1}<a_{2}<\cdots<a_{n}$. Pierādiet, ka 
 $\left[ a_{1}, a_{2}, \ldots, a_{n} \right] \geq n a_{1}$.
 
 <small>
@@ -3966,7 +3966,7 @@ Tātad $A \geq n a_{1}$; prasītais pierādīts.
 
 # <lo-sample/> BBK2012.P1.102
 
-Doti naturāli skaiţ̦i $a$ un $b$. Pierādiet, ka no skaitļiem $a, 2a, 3a, \ldots, ba$ tieši 
+Doti naturāli skaitļi $a$ un $b$. Pierādiet, ka no skaitļiem $a, 2a, 3a, \ldots, ba$ tieši 
 $(a,b)$ dalās ar $b$.
 
 <small>
@@ -3982,7 +3982,7 @@ $(a,b)$ dalās ar $b$.
 Apzīmēsim $(a, b)=d$. Tad $a=rd$, $b=s d$, $(r, s)=1$. Skaitļus 
 $a, 2a, \ldots, ba$ dalot ar $b$, iegūstam skaitļus $\frac{r}{s}, \frac{2r}{s}, \ldots, \frac{(ds)r}{s}$. 
 Skaitlis $\frac{kr}{s}$ ir vesels tad un tikai tad, ja $k$ dalās ar $s$. 
-Starp pirmajiem $s$ skaiţliem šādu skaitļu ir tieši $d$. Apgalvojums pierādīts.
+Starp pirmajiem $s$ skaitļiem šādu skaitļu ir tieši $d$. Apgalvojums pierādīts.
 
 
 
@@ -3990,7 +3990,7 @@ Starp pirmajiem $s$ skaiţliem šādu skaitļu ir tieši $d$. Apgalvojums pierā
 
 # <lo-sample/> BBK2012.P1.103
 
-Doti veseli skaiţ̦i $a$ un $b$. Pierādiet, ka skaitļu $a+b$ un $a^{2}+b^{2}$ LKD ir vienāds ar $1$ vai $2$.
+Doti veseli skaitļi $a$ un $b$. Pierādiet, ka skaitļu $a+b$ un $a^{2}+b^{2}$ LKD ir vienāds ar $1$ vai $2$.
 
 <small>
 
