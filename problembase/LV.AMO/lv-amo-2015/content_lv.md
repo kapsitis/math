@@ -333,6 +333,8 @@ vienādas cepures maksā vairāk nekā $11$ eiro. Cik maksā viena cepure?
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_Inequalities
+* topic:NumTheoryInequalitySmallIntervals
 
 </small>
 
@@ -354,10 +356,15 @@ figūrām? Taisnstūrim jābūt pilnībā pārklātam. Figūras nedrīkst iziet 
 taisnstūra, figūras nedrīkst pārklāties, tās drīkst būt pagrieztas vai
 apgrieztas spoguļattēlā.
 
+![](LV.AMO.2015.7.2.png)
+
 <small>
 
 * questionType:ProveDisprove
 * domain:Geom
+* subdomain:DOM_SquareGridCut
+* method:MTH_FixedInvariant
+* topic:ColoringProblems
 
 </small>
 
@@ -370,6 +377,8 @@ figūras, katra no tām vienmēr noklās pāra skaita melnās rūtiņas (skat. A
 Tāpēc arī visas izmantotās figūras kopā var noklāt tikai pāra skaita melnas
 rūtiņas. Tā kā nepāra skaitlis nevar būt vienāds ar pāra skaitli- melno rūtiņu
 skaitu visā taisnstūrī, tad taisnstūri pilnībā pārklāt nevar.
+
+![](LV.AMO.2015.7.2A.png)
 
 *Piezīme.* Der arī krāsojums joslās.
 
@@ -387,10 +396,13 @@ divi cipari ir $11$ un kurš dalās ar $11$?
   
 * topic:DivisibilityRuleFor11
 * topic:DivisibilityRulesFor3And9
+* topic:MutualPrimes
 * questionType:FindExample,ProveDisprove
 * domain:NT
+* subdomain:DOM_NumeralSystems
 * concepts:sum
-  
+* method:MTH_ContradictionForExistence
+
 </small>
 
 
@@ -441,6 +453,9 @@ Atrodi visus gadījumus un pamato, ka citu nav!
 * concepts:isosceles-triangle
 * questionType:FindAll
 * domain:Geom
+* subdomain:DOM_Triangles
+* method:MTH_ExhaustiveAlgorithms
+* topic:TriangleAngles
 
 </small>
 
@@ -454,35 +469,35 @@ Apzīmējam $\sphericalangle ABC=\sphericalangle ACB=\alpha$ (skat. A8.att.).
 Apskatām vienādsānu trijstūri $ABD$. Iespējami trīs gadījumi, kuras ir šī
 trijstūra vienādās malas.
 
-1) Ja $AB=AD$, tad punkts $D$ nav $BC$ iekšējs punkts.
-2) Ja $BD=AB$, apskatām vienādsānu trijstūri $ACD$. Iespējami trīs gadījumi,
+1. Ja $AB=AD$, tad punkts $D$ nav $BC$ iekšējs punkts.
+2. Ja $BD=AB$, apskatām vienādsānu trijstūri $ACD$. Iespējami trīs gadījumi,
    kuras ir šī trijstūra vienādās malas.
 
-   2.1) Ja $AD=AC$, tad punkts $D$ nav $BC$ iekšējs punkts.
+   a. Ja $AD=AC$, tad punkts $D$ nav $BC$ iekšējs punkts.
 
-   2.2) Ja $AC=CD$, tad $AB+AC=BC$, kas ir pretrunā ar trijstūra nevienādību.
+   b. Ja $AC=CD$, tad $AB+AC=BC$, kas ir pretrunā ar trijstūra nevienādību.
 
-   2.3) Ja $AD=CD$ (skat. A9.att.), tad
-        $\sphericalangle ADC=180^{\circ}-2 \alpha$ un $\sphericalangle BDA=\sphericalangle BAD=2\alpha$.
-		Tad no $\triangle BAD$ iekšējo leņķu summas izriet, ka
-		$\alpha+2 \alpha+2 \alpha=180^{\circ}$ jeb $\alpha=36^{\circ}$. Līdz ar
-		to trijstūra $ABC$ leņķi ir
-		$\sphericalangle ABC=\sphericalangle ACB=36^{\circ}$ un
-		$\sphericalangle BAC=108^{\circ}$.
+   c. Ja $AD=CD$ (skat. A9.att.), tad
+      $\sphericalangle ADC=180^{\circ}-2 \alpha$ un $\sphericalangle BDA=\sphericalangle BAD=2\alpha$.
+		  Tad no $\triangle BAD$ iekšējo leņķu summas izriet, ka
+		  $\alpha+2 \alpha+2 \alpha=180^{\circ}$ jeb $\alpha=36^{\circ}$. Līdz ar
+		  to trijstūra $ABC$ leņķi ir
+		  $\sphericalangle ABC=\sphericalangle ACB=36^{\circ}$ un
+		  $\sphericalangle BAC=108^{\circ}$.
 
-3) Ja $AD=BD$, apskatām vienādsānu trijstūri $ACD$. Iespējami trīs gadījumi,
+3. Ja $AD=BD$, apskatām vienādsānu trijstūri $ACD$. Iespējami trīs gadījumi,
    kuras ir šī trijstūra vienādās malas.
 
-   3.1) Ja $AD=AC$, tad punkts $D$ nav $BC$ iekšējs punkts.
+   a. Ja $AD=AC$, tad punkts $D$ nav $BC$ iekšējs punkts.
 
-   3.2) Ja $AC=CD$, tad simetrijas dēļ šis gadījums ir analogs 2.3) gadījumam.
+   b. Ja $AC=CD$, tad simetrijas dēļ šis gadījums ir analogs 2.3) gadījumam.
 
-   3.3) Ja $AD=CD$, tad
+   c. Ja $AD=CD$, tad 
       $\sphericalangle ABD=\sphericalangle ACB=\sphericalangle CAD=\sphericalangle BAD=\alpha$
-	  (skat. A10.att.). No $\triangle ABC$ iekšējo leņķu summas izriet, ka
-	  $4 \alpha=180^{\circ}$ jeb $\alpha=45^{\circ}$. Līdz ar to trijstūra
-	  $ABC$ leņķi ir $\sphericalangle ABC=\sphericalangle ACB=45^{\circ}$ un
-	  $\sphericalangle BAC=90^{\circ}$.
+	    (skat. A10.att.). No $\triangle ABC$ iekšējo leņķu summas izriet, ka
+	    $4 \alpha=180^{\circ}$ jeb $\alpha=45^{\circ}$. Līdz ar to trijstūra
+	    $ABC$ leņķi ir $\sphericalangle ABC=\sphericalangle ACB=45^{\circ}$ un
+	    $\sphericalangle BAC=90^{\circ}$.
 
 
 
@@ -499,6 +514,9 @@ atsvariem, kur katrā kausā drīkst ielikt tieši divas bumbiņas, iespējams
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* subdomain:DOM_CombinatorialAlgorithms
+* method:MTH_ExhaustiveAlgorithms
+* topic:ProblemsWithHiddenInformation
 
 </small>
 
@@ -513,12 +531,16 @@ trīs dažādi varianti, kā bumbiņas var būt izvietotas uz svaru kausiem:
 - $10+13=11+12$.
 
 Veiksim visas trīs iespējamās svēršanas. Smagākā būs bumbiņa, kas abos
-nevienādajos rādījumos bija uz smagākā kausa, bet vieglākā- kas abos
+nevienādajos rādījumos bija uz smagākā kausa, bet vieglākā -- kas abos
 nevienādajos rādījumos bija uz vieglākā kausa. Atlikušās divas bumbiņas pēc visu
-iespējamo svēršanu rezultātiem atšķirt nav iespējams. Tātad a) visvieglāko un
-vissmagāko bumbiņu ir iespējams atrast, b) noteikt katras bumbiņas masu nav
+iespējamo svēršanu rezultātiem atšķirt nav iespējams. Tātad **(A)** visvieglāko un
+vissmagāko bumbiņu ir iespējams atrast, **(B)** noteikt katras bumbiņas masu nav
 iespējams.
 
+## Ieteikums
+
+Aplūkot visas svēršanas iespējas #ExhaustiveSearch. 
+Dažas atšķirības objektīvi pastāv, bet nav izmērāmas #ObservationalEquivalence.
 
 
 # <lo-sample/> LV.AMO.2015.8.1
@@ -529,9 +551,10 @@ racionāls skaitlis!
 <small>
   
 * topic:StandardIdentities
-* topic:InfiniteDescent
+* topic:MethodOfInfiniteDescent
 * questionType:ProveDisprove
 * domain:Alg
+* subdomain:DOM_NumberRepresentation
 * concepts:rational-numbers
 
 </small>
@@ -548,9 +571,6 @@ $$\begin{gathered}
 
 Izteiksmes vētība ir racionāls skaitlis, jo $2$ ir racionāls.
 
-*Piezīme.* Kāpinot doto izteiksmi kvadrātā, sanāk $20$, 
-bet $\sqrt{20}=2\sqrt{5}$ nav racionāls.
-
 
 # <lo-sample/> LV.AMO.2015.8.2
 
@@ -565,6 +585,9 @@ apgrieztas spoguļattēlā.
 
 * questionType:ProveDisprove
 * domain:Geom
+* subdomain:DOM_SquareGridCut
+* method:MTH_FixedInvariant
+* topic:ColoringProblems
 
 </small>
 
@@ -573,8 +596,8 @@ apgrieztas spoguļattēlā.
 
 Nē, nevar. Izkrāsosim taisnstūri šaha galdiņa veidā. Taisnstūrī kopā ir $90$
 rūtiņas, bet vienā figūrā ir $6$ rūtiņas. Lai kā arī šajā taisnstūrī tiktu
-novietotas dotās figūras, katra no tām vienmēr pārklāj pāra skaita melnās rūtiņas
-(skat. A11.att.). Tātad visas figūras kopā pārklās pāra skaita melnās rūtiņas.
+novietotas dotās figūras, katra no tām vienmēr pārklāj pāra skaitu melno rūtiņu
+(skat. A11.att.). Tātad visas figūras kopā pārklās pāra skaitu melno rūtiņu.
 Tā kā taisnstūrī melnā krāsā ir nokrāsotas $45$ (nepāra skaits) rūtiņas, tad
 prasīto nevar izdarīt.
 
@@ -595,6 +618,7 @@ naturāla skaitļa kvadrāta un pirmskaitļa summu.
 * topic:PrimesDistribution
 * questionType:FindExample
 * domain:NT
+* subdomain:DOM_SpecialNumbers
 * concepts:primes,sum,square-Alg
 
 </small>
@@ -630,6 +654,9 @@ paralēlskaldņa tilpums?
 
 * questionType:ProveDisprove
 * domain:Geom
+* subdomain:DOM_IntegerLattices
+* method:MTH_ExtremeElements
+* topic:FindingExtremesWithFunctionProperties
 
 </small>
 
@@ -647,6 +674,12 @@ $V_{1}=3 \cdot 10 \cdot 12=360$ un $V_{2}=2 \cdot 12 \cdot 14=336$, kur pirmā
 paralēlskaldņa tilpums ir lielāks nekā otrā paralēlskaldņa tilpums.
 
 
+## Ieteikums
+
+Saīsinot visīsāko paralēlskaldņa malu, tilpums (reizinājums) samazinās straujāk 
+nekā skaldņu perimetri (summas).
+
+
 
 # <lo-sample/> LV.AMO.2015.8.5
 
@@ -658,26 +691,28 @@ $ABC$ ir vienādmalu!
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Triangles
+* topic:TriangleCongruence
 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $BK=HC, \sphericalangle KBC=\sphericalangle HCB$ un $BC$- kopīga mala
-(skat. A12.att.), tad $\triangle BCK=\triangle BCH$ pēc pazīmes " $m \ell m$ ".
+(skat. A12.att.), tad $\triangle BCK=\triangle BCH$ pēc pazīmes "$m \ell m$".
 Līdz ar to $\sphericalangle BKC=\sphericalangle CHB=90^{\circ}$ (kā atbilstošie
 leņķi vienādos trijstūros). Tātad $BK$ ir gan augstums, gan mediāna, līdz ar to
-$\triangle ABC$ ir vienādsānu trijstūris $(AB=BC)$. Izmantojot trijstūra laukuma
+$\triangle ABC$ ir vienādsānu trijstūris ($AB=BC$). Izmantojot trijstūra laukuma
 aprēķināšanas formulu, iegūstam
 $S_{ABC}=\frac{1}{2} AB \cdot CH=\frac{1}{2} AC \cdot BK$. Tā kā $CH=BK$, tad
 arī $AB=AC$. Tātad $AB=AC=BC$ un $\triangle ABC$ ir vienādmalu trijstūris.
 
 ![](LV.AMO.2015.8.5A.png)
 
-## Atrisinājums
+## Atrisinājums-2
  
-Tā kā $BK=HC, \sphericalangle KBC=\sphericalangle HCB$ un $BC$- kopīga mala
+Tā kā $BK=HC, \sphericalangle KBC=\sphericalangle HCB$ un $BC$ -- kopīga mala
 (skat. A12.att.), tad $\triangle BCK=\triangle BCH$ pēc pazīmes " $m \ell m$ ".
 Līdz ar to $\sphericalangle BKC=\sphericalangle CHB=90^{\circ}$ (kā atbilstošie
 leņķi vienādos trijstūros) un $BK$ ir augstums no virsotnes $B$ pret malu $AC$.
@@ -707,6 +742,8 @@ reizinājums ir vismazākais!
 
 * questionType:FindOptimal
 * domain:Alg
+* subdomain:DOM_Extremes
+* topic:FindingExtremesWithFunctionProperties
 
 </small>
 
@@ -736,6 +773,9 @@ ar izmēriem $1 \times 1 \times 3$ ?
 
 * questionType:ProveDisprove
 * domain:Geom
+* subdomain:DOM_SquareGridCut
+* method:MTH_FixedInvariant
+* topic:ColoringProblems
 
 </small>
 
@@ -760,6 +800,8 @@ Pierādi, ka $x^{5}-5x^{3}+4x$ dalās ar $120$, ja $x$ ir vesels skaitlis!
 
 * questionType:Prove
 * domain:NT
+* subdomain:DOM_Divisibility
+* topic:EquationFactorization
 
 </small>
 
@@ -774,7 +816,7 @@ $=x \cdot\left(x^{2}-1\right) \cdot\left(x^{2}-4\right)=x \cdot(x-1) \cdot(x+1) 
 
 Esam ieguvuši, ka dotā izteiksme ir piecu pēc kārtas esošu skaitļu reizinājums.
 Vismaz divi no šiem skaitļiem dalās ar $2$, no kuriem viens arī ar $4$, vismaz
-viens- ar $3$, un vismaz viens- ar $5$. Tātad šo skaitļu reizinājums dalās ar
+viens -- ar $3$, un vismaz viens -- ar $5$. Tātad šo skaitļu reizinājums dalās ar
 $2 \cdot 3 \cdot 4 \cdot 5=120$.
 
 
@@ -790,6 +832,8 @@ $G$. Nosaki $\sphericalangle CGD$ lielumu, ja $\sphericalangle CAD=\alpha$!
 
 * questionType:FindAll
 * domain:Geom
+* subdomain:DOM_Quadrilaterals
+* topic:CircleInscribedAngles
 
 </small>
 
@@ -819,6 +863,8 @@ skaitlis $1$ ir vidējais ($n$-tais), ja **(A)** $n=5$; **(B)** $n=1008$.
 
 * questionType:FindExample,FindExample
 * domain:Comb
+* subdomain:DOM_CombinatorialCounterexamples
+* topic:SequenceGaps
 
 </small>
 
@@ -831,13 +877,13 @@ skaitlis $1$ ir vidējais ($n$-tais), ja **(A)** $n=5$; **(B)** $n=1008$.
 
 **(B)** Aplūkosim skaitļu virkni
 $1; 2015; 2; 2014; 3; 2013; 4; 2012; ...; 1007; 1009; 1008$ (šī virkne sastāv no
-divām virknēm- vienas augošas $1 ; 2 ; 3 ; \ldots ; 1008$ un otras dilstošas
-$2015; 2014; ...; 1009$). Šajā virknē ir visi skaitļi no $1$ līdz $2015$ un
+divām virknēm -- vienas augošas $1 ; 2 ; 3 ; \ldots ; 1008$ un otras dilstošas
+$2015; 2014; \ldots; 1009$). Šajā virknē ir visi skaitļi no $1$ līdz $2015$ un
 starpības starp katriem diviem blakus esošiem skaitļiem dilst no $2014$ līdz $1$.
 Šī virkne pēc savām īpašībām ir ļoti līdzīga nepieciešamajai, tikai skaitlis $1$
 šajā virknē ir pirmais nevis $1008.$ loceklis. Virknes $1008.$ loceklis
-(jeb $504.$ loceklis dilstošajā virknē ir
-$\left.a_{504}=2015+(-1)(504-1)=1512\right)$ ir $1512$, virknes $1009.$
+(jeb 504.loceklis dilstošajā virknē) ir
+$a_{504}=2015+(-1)(504-1)=1512$, virknes $1009.$
 loceklis (jeb $505.$ loceklis augošajā virknē) ir $505$. Starpība starp virknes
 $1008.$ un $1009.$ locekli ir $1512-505=1007$. „Pārgriezīsim” izveidoto virkni
 starp $1008.$ un $1009.$ elementu, iegūstot divus virknes fragmentus, no kuriem
