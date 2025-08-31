@@ -219,7 +219,6 @@ ka skaitļa $N^{2}$ decimālajā pierakstā nav cipara $0$.
 
 * questionType:Prove
 * domain:NT
-* strategy:TrialAndError 
 * topic:SeriesMembersSumsClosedFormulas
 * topic:PeriodicDigitGroups
 * concepts:full-square

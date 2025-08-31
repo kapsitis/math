@@ -481,7 +481,7 @@ $A=B$.
 * topic:NotationShift
 * topic:IntegerFactorization
 * concepts:decimal-notation,divisibility
-* genre:digit-manipulation
+* subdomain:DOM_DigitManipulation
 * questionType:Prove
 * domain:NT
 
@@ -535,10 +535,10 @@ rīkojamies tāpat, utt., kamēr paliek neizsvītrots viens skaitlis. Kurš tas 
 * topic:DefiningRecurrentSequences
 * topic:NonlinearRecurrences
 * concepts:sequence
-* genre:making-moves
+* subdomain:DOM_MakingMoves
 * questionType:FindAll
 * domain:NT
-* strategy:WorkingBackwards
+* method:MTH_InductiveAlgorithms
 
 </small>
 

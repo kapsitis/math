@@ -362,7 +362,6 @@ var beigties šo skaitļu reizinājums?
 
 * topic:DivisibilityRulesLastDigits
 * topic:ModularArithmetic
-* genre:optimization
 * concepts:decimal-notation
 * questionType:FindOptimal
 * domain:NT
@@ -490,14 +489,14 @@ reizinājumu?
 
 * topic:TreeTraversalBacktracking
 * concepts:partition
-* genre:construction
+* subdomain:DOM_NumericSets
 * questionType:FindExample
 * domain:Alg
-* strategy:CaseAnalysis
+* method:MTH_ExhaustiveAlgorithms
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $1+2+\ldots+9=45$. Skaidrs, ka neviens skaitlis pats par sevi nav
 pārējo summa, jo pat lielākais no tiem - skaitlis $9$ - mazāks par pārējo $8$ 
@@ -515,7 +514,7 @@ $x+y+z+xyz=45$. Ir vairākas iespējas:
 
 Līdzīgi no $x+y+z+t+xyzt=45,\ x<y<z<t$, iegūstam variantus
 
-1. $x=1;\ y=2$, no kurienes $2zt+z+t=42,\ (2z+1)(2t+1)=85=5 \cdot 17$ un 
+1. $x=1;\ y=2$, no kurienes $2zt+z+t=42$, $(2z+1)(2t+1)=85=5 \cdot 17$ un 
    $z=2$ - pretruna.
 2. ja $x \neq 1$ vai $y \neq 2$, tad 
    $xyzt \geq 1 \cdot 3 \cdot 4 \cdot 5=60>45$ - pretruna.
@@ -526,7 +525,7 @@ $1 \cdot 2 \cdot 3 \cdot 4 \cdot 5=120$ - pretruna.
 Tātad vienīgā atbilde ir $\{1;\ 4;\ 8\}$ un $\{2;\ 3;\ 5;\ 6;\ 7;\ 9\}$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Summa $1 + 2 + 3 + \ldots + 9 = 45$; šo varēs izmantot skaitļu noteikšanai.
 

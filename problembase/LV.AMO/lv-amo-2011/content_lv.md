@@ -14,7 +14,7 @@ nav $0$. Atrodi visus iespējamos atrisinājumus!
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_NumeralSystems
-* genre:Cryptarithm
+* subdomain:DOM_Cryptarithm
 
 </small>
 
@@ -60,7 +60,7 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_EquationSystems
-* genre:MagicConfigurations
+* subdomain:DOM_MagicConfigurations
 * concepts:sum
 
 </small>

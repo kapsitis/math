@@ -1063,9 +1063,10 @@ trīs izveidoto skaitļu summa?
 * topic:DivisibilityRulesFor3And9
 * topic:DigitsInOperationResult
 * topic:CountingFromEncoding
-* strategy:contradiction
+* method:MTH_ContradictionForExistence
 * questionType:FindOptimal
 * domain:NT
+* subdomain:DOM_IntegerConditions
   
 </small>
 

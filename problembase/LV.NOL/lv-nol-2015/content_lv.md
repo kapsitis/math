@@ -1110,7 +1110,7 @@ ir veselu skaitļu pakāpes ar naturālu kāpinātāju, kas lielāks nekā $1$
 * topic:CountingObjects
 * topic:PrimeFactorizationAndPowers
 * topic:ModularParity
-* strategy:contradiction
+* method:MTH_ContradictionForExistence
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
 

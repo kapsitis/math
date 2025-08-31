@@ -744,7 +744,7 @@ pirmskaitli $p$, ka tieši viens no dotajiem skaitļiem dalās ar $p$.
 * questionType:Prove
 * domain:NT
 * topic:ArithmeticSeriesGaps
-* strategy:contradiction
+* subdomain:DOM_IntegerConditions
 
 </small>
 

@@ -40,7 +40,7 @@ cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari
 * concepts:decimal-notation
 * topic:ModularArithmeticLastDigit
 * subdomain:DOM_NumeralSystems
-* strategy:CaseAnalysis
+* method:MTH_ExhaustiveAlgorithms
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
 
@@ -67,7 +67,6 @@ laukuma vērtība ir tāda pati kā malu skaits!
 * questionType:FindExample
 * topic:SquareGridShapes
 * subdomain:DOM_IntegerLattices
-* strategy:TrialAndError
 * domain:Geom
 
 </small>

@@ -502,9 +502,8 @@ naturāls skaitlis, kam vienlaicīgi izpildās īpašības $S(n)=10$ un $S(5n)=5
 
 * topic:DivisibilityRulesFor2And4
 * topic:NotationInsert
-* genre:special-numbers,sum-of-digits
+* subdomain:DOM_DigitManipulation
 * questionType:FindExample,ProveDisprove,ProveDisprove
-* strategy:TrialAndError
 * domain:NT
 
 </small>

@@ -290,13 +290,16 @@ nozīmē, ka kvadrātā $5 \times 5$ jāiekrāso vismaz četras rūtiņas. Tas, 
 # <lo-sample/> LV.AMO.2014.7.1
 
 Trijstūrī $ABC$ novilkts augstums $BD$ un mediāna $BE$. Kāds var būt $AC$
-garums, ja $ED=4 \mathrm{~cm}$ un $DC=5 \mathrm{~cm}$ ?
+garums, ja $ED=4~\mathrm{cm}$ un $DC=5~\mathrm{cm}$ ?
 
 <small>
 
 * concepts:triangle,height,median
 * questionType:FindAll
 * domain:Geom
+* method:MTH_ExhaustiveAlgorithms
+* subdomain:DOM_Triangles
+* topic:TriangleMetric
 
 </small>
 
@@ -323,7 +326,7 @@ būt novietots augstums $BD$ un mediāna $BE$ :
 
 - Punktu secība $A, E, C, D$ nav iespējama, jo tad $ED=EC+CD=EC+5 > 4$.
 
-Līdz ar to $AC$ garums ir $2~ \mathrm{cm}$ vai $18~ \mathrm{cm}$.
+Līdz ar to $AC$ garums ir $2~\mathrm{cm}$ vai $18~\mathrm{cm}$.
 
 
 
@@ -337,7 +340,9 @@ $$a \cdot(3a+5b) \cdot 7b=7654321$$?
 
 * topic:ModularParity
 * questionType:ProveDisprove
-* domain:Alg
+* domain:NT
+* subdomain:DOM_Divisibility
+* method:MTH_ContradictionForExistence
 
 </small>
 
@@ -371,13 +376,16 @@ Bet tad $3a+5b$ ir pāru, kas ir pretruna.
 Lelde apgalvo, ka sešas skrūves ir smagākas nekā septiņas naglas, bet Elīna
 apgalvo, ka septiņas skrūves ir smagākas nekā astoņas naglas. Zināms, ka vienai
 no meitenēm ir taisnība, bet otra kļūdās. Vai tiesa, ka $18$ skrūves ir
-smagākas nekā **(A)** $20$ naglas, **(B)** $21$ nagla, **(C)** $22$ naglas? Visām
-skrūvēm svars ir vienāds, visām naglām arī.
+smagākas nekā **(A)** $20$ naglas, **(B)** $21$ nagla, **(C)** $22$ naglas?  
+Visām skrūvēm svars ir vienāds, visām naglām arī.
 
 <small>
 
 * questionType:ProveDisprove,ProveDisprove,ProveDisprove
 * domain:Alg
+* subdomain:DOM_Inequalities
+* topic:InequalitiesEquivalentTransformations
+* topic:InequalityProvingStronger
 
 </small>
 
@@ -392,15 +400,15 @@ Aplūkosim, ko no meiteņu apgalvojumiem varētu secināt $42$ skrūvju gadījum
   naglas.
 
 No Leldes apgalvojuma patiesuma sekotu arī Elīnas apgalvojuma patiesums. Tā kā
-ir zināms, ka tikai vienai no meitenēm ir taisnība, bet otrai- nē, tad taisnība
+ir zināms, ka tikai vienai no meitenēm ir taisnība, bet otrai -- nē, tad taisnība
 ir Elīnai, bet Leldes apgalvojums nav patiess.
 
 Pārbaudīsim, kuri no dotajiem apgalvojumiem var būt patiesi:
 
 **(A)** No Elīnas apgalvojuma $7s > 8n$ seko, ka patiess ir arī apgalvojums
 $18 \cdot 7s > 18 \cdot 8n$ jeb $126s > 144n > 140n$. No $126s > 140n$
-seko, ka $18s > 20n$ ir patiess. Tātad apgalvojums „ $18$ skrūves ir
-smagākas nekā $20$ naglas” ir patiess.
+seko, ka $18s > 20n$ ir patiess. Tātad apgalvojums "$18$ skrūves ir
+smagākas nekā $20$ naglas" ir patiess.
 
 **(B)** Tā kā Leldes apgalvojums $6s > 7n$ nav patiess, tad apgalvojums
 $18s > 21n$ ($18$ skrūves ir smagākas nekā $21$ nagla) arī nav patiess.
@@ -427,7 +435,8 @@ Atrodiet visas iespējamās vērtības un pamatojiet, ka citu nav!
 * topic:NumTheoryExprVariables
 * questionType:FindAll
 * domain:Alg
-* genre:magic-configuration
+* subdomain:DOM_MagicConfigurations
+* topic:FormingEquations
 
 </small>
 
@@ -435,7 +444,7 @@ Atrodiet visas iespējamās vērtības un pamatojiet, ka citu nav!
 ## Atrisinājums
 
 Apzīmēsim skaitli, kas atrodas vidējās kolonnas vidējā rūtiņā ar $x$, bet
-apakšējā- ar $y$. Tad visu rindu, kolonnu un diagonāļu summas ir $24+x+y$.
+apakšējā -- ar $y$. Tad visu rindu, kolonnu un diagonāļu summas ir $24+x+y$.
 Tālāk tabulas rūtiņas var aizpildīt šādi (skat. A7.zīm.):
 
 ![](LV.AMO.2014.7.4A.png)
@@ -454,7 +463,7 @@ $a_{11}=x-11$, $a_{33}=x+11$, $a_{23}=2$.
 # <lo-sample/> LV.AMO.2014.7.5
 
 Kādu mazāko skaitu rūtiņu jāizgriež no kvadrāta $6 \times 6$, lai no atlikušās
-daļas nevarētu izgriezt 6.zīm. parādīto figūru?(Figūru malās jāiet pa rūtiņu
+daļas nevarētu izgriezt 6.zīm. parādīto figūru? (Figūru malām jāiet pa rūtiņu
 līnijām.)
 
 ![](LV.AMO.2014.7.5.png)
@@ -463,6 +472,10 @@ līnijām.)
 
 * questionType:FindOptimal
 * domain:Geom
+* subdomain:DOM_SquareGridCut
+* method:MTH_PigeonholePrincipleGeneralized
+* topic:CentralSymmetry
+* topic:SquareGridCutting
 
 </small>
 
@@ -483,7 +496,7 @@ A9. zīmējuma.
 Skaitli $\frac{1}{13}$ pārveidoja par bezgalīgu decimāldaļu un tajā izsvītroja
 $2014.$ ciparu aiz komata.
 
-Kurš skaitlis lielāks- sākotnējais vai iegūtais?
+Kurš skaitlis lielāks -- sākotnējais vai iegūtais?
 
 <small>
 
@@ -492,7 +505,7 @@ Kurš skaitlis lielāks- sākotnējais vai iegūtais?
 * questionType:FindAll
 * domain:NT
 * concepts:decimal-fractions
-* genre:digit-manipulation
+* subdomain:DOM_DigitManipulation
 
 </small>
 
@@ -538,8 +551,10 @@ to pirmo ciparu, samazinās $15$ reizes!
 
 * topic:NumTheoryExpr
 * topic:NotationFragments
+* topic:FormingEquations
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_SpecialNumbers
 
 </small>
 
@@ -578,6 +593,9 @@ ka, izvēloties jebkurus $5$ punktus, tie būs savienoti ar vismaz $3$ šķautn�
 
 * questionType:Prove
 * domain:Comb
+* subdomain:DOM_Graphs
+* topic:Subgraphs
+* method:MTH_ExhaustiveAlgorithms
 
 </small>
 
@@ -614,6 +632,10 @@ $\sphericalangle ABC$ un $\sphericalangle CDE$ ir lielāks?
 
 * questionType:ProveDisprove
 * domain:Geom
+* subdomain:DOM_AnglesParallelsSimilarity
+* topics:SimilarShapes
+* topics:RotationBy90
+* method:MTH_AugmentationWithNewElements
 
 </small>
 
@@ -650,13 +672,15 @@ ierakstīts skaitlis **(A)** $7$, **(B)** $17$?
 
 * topic:NumTheoryExprVariables
 * topic:TreeTraversalBacktracking
+* topic:FormingEquations
 * questionType:ProveDisprove
 * domain:Alg
+* subdomain:DOM_MagicConfigurations
 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skaitli, kas atrodas vidējās kolonnas vidējā rūtiņā ar $x$, bet
 apakšējā- ar $y$. Tad visu rindu, kolonnu un diagonāļu summas ir $24+x+y$.
@@ -680,7 +704,7 @@ iegūsim vienu derīgu tabulas aizpildījumu:
 ![](LV.AMO.2014.8.5C.png)
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $a_{22}=x$, $a_{31}=b$.
 Tad $a_{13}=2x-b$, $a_{11}=x+b-24$, $a_{33}=x-b+24$, $a_{23}=2b-24$. Pie $b=7$, $a_{23}<0$.
@@ -699,6 +723,10 @@ kvadrāts (skat. 10.zīm.). Aprēķināt iekrāsoto daļu laukumu summu!
 
 * questionType:FindAll
 * domain:Geom
+* subdomain:DOM_Area
+* topic:RotationByAnyAngle
+* topic:RegroupingAreas
+* topic:CircleArea
 
 </small>
 
@@ -731,6 +759,10 @@ var izveidot no šiem cipariem, summa ir $1276$. Atrast dotos četrus ciparus!
 * concepts:sum
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_NumericSets
+* topic:StandardCombinatorialNumbers
+* topic:NotationPolynomial
+* topic:FormingEquations
 
 </small>
 
@@ -753,12 +785,13 @@ summa ir $29$, ir tad, ja šie cipari ir $5, 7, 8$ un $9$.
 Trijstūrī $ABC$ leņķis $\sphericalangle ABC=90^{\circ}$. Punkti $M$ un $N$ ir
 attiecīgi nogriežņu $AC$ un $AM$ viduspunkti. Caur $B, M$ un $N$ vilktā riņķa
 līnija krusto malas $AB$ un $BC$ attiecīgi to iekšējos punktos $P$ un $Q$.
-Zināms, ka $AC || PQ$. Aprēķināt $\sphericalangle BAC$ vērtību!
+Zināms, ka $AC \| PQ$. Aprēķināt $\sphericalangle BAC$ vērtību!
 
 <small>
 
 * questionType:FindAll
 * domain:Geom
+
 
 </small>
 
@@ -800,6 +833,8 @@ mazākais skaitlis, kas var būt ierakstīts tabulas centrālajā rūtiņā?
 
 * questionType:FindOptimal
 * domain:Alg
+* subdomain:DOM_MagicConfigurations
+* topic:FormingEquations
 
 </small>
 
@@ -846,6 +881,8 @@ marsiešiem var būt $2014$?
 
 * questionType:ProveDisprove
 * domain:Comb
+* subdomain:DOM_Graphs
+* topic:DoubleCounting
 
 </small>
 

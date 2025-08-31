@@ -353,7 +353,7 @@ Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 * topic:SeriesMembersSumsClosedFormulas
 * topic:ExhaustionMethod
 * concepts:primes,sum,table,row,column,natural-numbers
-* genre:fill-in-table
+* subdomain:DOM_Divisibility
 * questionType:FindOptimal
 * domain:NT
 * isHard:true
@@ -425,7 +425,7 @@ pavisam ir rūķīšu? (Dālderis ir vienīgā rūķīšiem pieejamā naudas vie
 
 * topic:InvariantRemainder
 * concepts:divisibility
-* genre:making-moves
+* subdomain:DOM_MakingMoves
 * questionType:FindAll
 * domain:NT
 
@@ -541,7 +541,7 @@ Cipariņam un cik - viņa kolēgim? (Visus vecumus izsaka veselos gados.)
 
 * topic:CanonicalFactorization
 * topic:ExhaustionMethod
-* genre:word-problem
+* subdomain:DOM_WordProblems
 * isHard:true
 * isUnverified:true
 * questionType:FindAll

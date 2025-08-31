@@ -526,7 +526,7 @@ Ar kādu mazāko jautājumu skaitu Juris var noteikti noskaidrot $n$?
 * topic:CanonicalFactorization
 * questionType:FindOptimal,Algorithm
 * domain:NT
-* genre:procedure
+* subdomain:DOM_MakingMoves
 
 </small>
 
@@ -775,7 +775,7 @@ divi skaitļi; viens no tiem bija $8$. Kāds varēja būt otrs skaitlis?
 
 <small>
 
-* genre:procedure
+* subdomain:DOM_MakingMoves
 * questionType:FindAll
 * domain:NT
 

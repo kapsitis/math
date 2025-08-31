@@ -328,7 +328,6 @@ pierakstu?
 
 * topic:HamiltonCircuits
 * topic:PrimesDistribution
-* genre:optimization
 * concepts:primes
 * questionType:FindOptimal
 * seeAlso:LV.AMO.2008.7.2
@@ -399,7 +398,7 @@ spēlēts pietiekoši ilgi).
 * topic:SequenceGaps
 * topic:InfiniteDescent
 * concepts:decimal-notation,divisibility,sum-of-digits
-* genre:game
+* subdomain:DOM_NumericGamesAndAlgorithms
 * questionType:Prove
 * domain:NT
 
@@ -548,7 +547,7 @@ $1716$. Kādu skaitli viņa iedomājās sākumā?
 * topic:CanonicalFactorization
 * topic:NumTheoryInequalityMethod
 * concepts:decimal-notation
-* genre:digit-manipulation
+* subdomain:DOM_DigitManipulation
 * questionType:FindAll
 * domain:NT
 

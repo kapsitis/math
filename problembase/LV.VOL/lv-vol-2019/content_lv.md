@@ -205,7 +205,6 @@ pirmskaitļa un salikta skaitļa summu!
   
 * questionType:Prove
 * domain:NT
-* strategy:TrialAndError
 * topic:ModularParity
 * concepts:prime
   

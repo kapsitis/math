@@ -1201,7 +1201,6 @@ pirmskaitļi, tad trešais skaitlis dalās ar $6$.
 
 * topic:DivisibilityProperties
 * topic:ArithmeticSeriesAll
-* strategy:CaseAnalysis
 * questionType:Prove
 * concepts:primes
 
@@ -1232,9 +1231,9 @@ vienlaicīgi var būt pirmskaitļi.
 
 Aplūkojam abus iespējamos gadījumus.
 
-1) Ja $n=6k+1$, tad $n+22=6k+23$, un, ja $n$ un $n+22$ abi ir pirmskaitļi, tad 
+1. Ja $n=6k+1$, tad $n+22=6k+23$, un, ja $n$ un $n+22$ abi ir pirmskaitļi, tad 
    $n+11=6k+12=6(k+2)$ dalās ar $6$.
-2) Ja $n=6k+5$, tad $n+22=6k+27=3(2k+9)$, kas nav pirmskaitlis.
+2. Ja $n=6k+5$, tad $n+22=6k+27=3(2k+9)$, kas nav pirmskaitlis.
 
 Līdz ar to esam pierādījuši prasīto.
 

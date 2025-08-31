@@ -588,7 +588,7 @@ skaitļu reizinājums būtu viens un tas pats.
 
 * topic:TreeTraversalBacktracking
 * topic:StandardIdentities
-* genre:MagicConfigurations
+* subdomain:DOM_MagicConfigurations
 * questionType:FindExample
 * domain:Alg
 

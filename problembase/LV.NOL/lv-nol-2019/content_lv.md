@@ -485,7 +485,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b)=150015$ ?
 <small>
 
 * questionType:ProveDisprove
-* genre:integer-equation
+* subdomain:DOM_IntegerEquations
 * domain:NT
 
 </small>
@@ -512,7 +512,7 @@ uzvarēt?
 
 <small>
 
-* genre:game
+* subdomain:DOM_NumericGamesAndAlgorithms
 * concepts:divisibility
 * questionType:ProveDisprove
 * domain:NT
@@ -658,7 +658,7 @@ $\frac{4}{3},\ \frac{4}{5},\ \frac{5}{2}$?
 <small>
 
 * seeAlso:LV.NOL.2000.7.5
-* genre:making-moves
+* subdomain:DOM_MakingMoves
 * questionType:ProveDisprove
 * domain:Alg
 
@@ -941,7 +941,7 @@ iegūtu skaitli, kas dalās ar $2019$?
 
 * questionType:FindOptimal
 * concepts:divisibility
-* genre:digit-manipulation
+* subdomain:DOM_DigitManipulation
 * domain:NT
 
 </small>
@@ -1175,7 +1175,7 @@ Atrast visus pirmskaitļu pārus $(m, n)$, kuriem $20m+18n=2018$.
 * topic:CanonicalFactorization
 * concepts:primes
 * questionType:FindAll
-* genre:integer-equation
+* subdomain:DOM_IntegerEquations
 
 </small>
 
@@ -1416,7 +1416,7 @@ Atrast visus pirmskaitļu pārus $(m, n)$, kuriem $20m+19n=2019$.
 * questionType:FindAll
 * domain:NT
 * concepts:linear-expression,primes
-* genre:integer-equation
+* subdomain:DOM_IntegerEquations
 * seeAlso:LV.NOL.2019.10.5
 
 </small>
@@ -1685,7 +1685,7 @@ naturālos skaitļos!
 
 * questionType:Prove
 * domain:NT
-* genre:integer-equation
+* subdomain:DOM_IntegerEquations
 
 </small>
 

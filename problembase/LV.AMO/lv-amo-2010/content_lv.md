@@ -372,14 +372,14 @@ Atrodi visus šos skaitļus!
 * topic:PrimesDistribution
 * topic:CanonicalFactorization
 * concepts:primes
-* genre:construction
+* subdomain:DOM_NumericSets
 * questionType:FindAll
-* strategy:CaseAnalysis
+* method:MTH_ExhaustiveAlgorithms
 * domain:NT
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $7,2,41,3,37$.
 
@@ -399,7 +399,7 @@ pirmskaitli. Tāpēc $p_{5}=11$ vai $p_{5}=37.\ p_{5}=11$ neder, jo tad
 $p_{3}=11+4=15$, kas nav pirmskaitlis. Tātad $p_{5}=37$ un $p_{3}=41$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Noskaidrojam skaitļus pa soļiem:
 
@@ -417,7 +417,7 @@ d. $p_4 \neq 37$. Tātad $(7,2,41,3,37)$ ir vienīgā iespēja.
 Caur trijstūra $ABC$ virsotni $A$ novilktā taisne $t$ sadala trijstūri divos 
 vienādos trijstūros.
 
-Vai var gadīties, ka $AB>AC$ ?
+Vai var gadīties, ka $AB>AC$?
 
 <small>
 
@@ -466,10 +466,9 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 
 * topic:LinearSystemsApplications
 * topic:TreeTraversalBacktracking
-* genre:construction
 * questionType:FindExample
 * domain:Comb
-* genre:magic-construction
+* subdomain:DOM_MagicConfigurations
 
 </small>
 
