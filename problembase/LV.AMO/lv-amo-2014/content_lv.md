@@ -299,7 +299,7 @@ garums, ja $ED=4~\mathrm{cm}$ un $DC=5~\mathrm{cm}$ ?
 * domain:Geom
 * method:MTH_ExhaustiveAlgorithms
 * subdomain:DOM_Triangles
-* topic:TriangleMetric
+* topic:TriangleSides
 
 </small>
 

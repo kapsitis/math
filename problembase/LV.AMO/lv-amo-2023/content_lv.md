@@ -374,7 +374,9 @@ skaitļiem nebūtu vienādu ciparu?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
+* topic:GraphIndependentSet
 
 </small>
 
@@ -404,7 +406,7 @@ principa kādā pārī atradīsies divi skaitļi, kas abi satur ciparu $1$.
 Kāds ir lielākais iespējamais septiņciparu skaitlis, 
 kuram vienlaicīgi izpildās šādi nosacījumi:
 
-* tas dalās ar 12;
+* tas dalās ar $12$;
 * skaitļa pirmais cipars ir tāds pats kā pēdējais cipars;
 * skaitļa 2., 4. un 6. cipars ir vienādi un tie ir divas reizes 
   lielāki nekā pirmais cipars;
@@ -415,6 +417,9 @@ kuram vienlaicīgi izpildās šādi nosacījumi:
 
 * questionType:FindOptimal
 * domain:NT
+* subdomain:DOM_SpecialNumbers
+* topic:DivisibilityRulesFor2And4
+* topic:NumTheoryInequalityMethod
 
 </small>
 
@@ -458,6 +463,8 @@ rūtiņas uz blakus rūtiņu, ar ko tai ir kopīga mala.
 
 * questionType:FindExample,FindExample
 * domain:Geom
+* subdomain:DOM_SquareGridReorder
+* topic:AxisSymmetryConstructions
 
 </small>
 
@@ -483,11 +490,13 @@ Kāda ir mazākā $S$ vērtība, kurai var atrast tādu $M$ vērtību,
 ka, zinot $S$ un $M$ vērtības, izmantoto monētu
 komplektu viennozīmīgi nav iespējams noteikt?
 
-
 <small>
 
 * questionType:FindOptimal
 * domain:Comb
+* subdomain:DOM_NumberPartitionsCompositions
+* method:MTH_ExhaustiveAlgorithms
+* topic:SymmetryInCounting
 
 </small>
 
@@ -539,7 +548,7 @@ vienmēr melo. Katra bizbizmārīte izteicās:
 * katra no atlikušajām bizbizmārītēm teica: 
   "no pirmajām trijām bizbizmārītēm tieši viena teica patiesību".
 
-Cik bizbizmārītes sēž uz palodzes?
+Cik bizbizmārīšu sēž uz palodzes?
 
 
 <small>
@@ -547,6 +556,8 @@ Cik bizbizmārītes sēž uz palodzes?
 * questionType:FindCount
 * domain:Comb
 * method:MTH_ContradictionForExistence
+* subdomain:DOM_Logic
+* topic:Divisibility
 
 </small>
 
@@ -596,7 +607,10 @@ daļas būtu nesaīsināmas: $\frac{A}{B} + \frac{C}{D} = \frac{E}{F}$.
 <small>
 
 * questionType:ProveDisprove
-* domain:Alg
+* domain:NT
+* subdomain:DOM_NumberRepresentation
+* topic:RationalNumbers
+
 
 </small>
 
@@ -619,6 +633,10 @@ ciparus pretējā secībā. Kāds var būt skaitlis $x$?
 
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_DigitManipulation
+* topic:NotationPolynomial
+* topic:DivisibilityRulesFor3And9
+
 
 </small>
 
@@ -660,6 +678,9 @@ Izsaki leņķi $CGF$ ar $\alpha$ un $\beta$.
 
 * questionType:FindAll
 * domain:Geom
+* subdomain:DOM_AnglesParallelsSimilarity
+* topic:VerticalAngles
+* topic:TriangleInternalAngles
 
 </small>
 
@@ -693,21 +714,24 @@ saviem bērniem iedeva sīknaudu šādi:
 * Dorotejai mazāko naudas summu desmit centu monētās, 
   kas ir lielāka nekā Cēzaram iedotā naudas summa.
 
-Kāda ir **(a)** lielākā, **(b)** mazākā iespējamā starpība starp 
+Kāda ir **(A)** lielākā, **(B)** mazākā iespējamā starpība starp 
 Dorotejai un Almai iedotajām naudas summām?
 
 
 <small>
 
-* questionType:FindOptimal
+* questionType:FindOptimal,FindOptimal
 * domain:Alg
+* subdomain:DOM_WordProblems
+* method:MTH_ExhaustiveAlgorithms
+* topic:SequencePeriodicity
 
 </small>
 
 ## Atrisinājums
 
-**(a)** Lielākā iespējamā starpības starp naudas summām ir $16$ centi.  
-**(b)** Mazākā iespējamā starpība starp naudas summām ir $7$ centi.
+**(A)** Lielākā iespējamā starpības starp naudas summām ir $16$ centi.  
+**(B)** Mazākā iespējamā starpība starp naudas summām ir $7$ centi.
 
 Pamatosim, kāpēc citu iespēju nav. Tā kā skaitļu 1; 2; 5 un 10 
 mazākais kopīgais dalāmais ir 10,
@@ -752,7 +776,9 @@ Cik bizbizmārītes sēž uz palodzes?
 * seeAlso:LV.AMO.2023.7.5
 * questionType:FindCount
 * domain:Comb
+* subdomain:DOM_Logic
 * method:MTH_ContradictionForExistence
+* topic:Divisibility
 
 </small>
 
@@ -803,8 +829,10 @@ un saucēju. Vai, atkārtojot
 <small>
 
 * questionType:ProveDisprove,ProveDisprove
-* domain:Alg
-* subdomain:DOM_FixedInvariant
+* domain:Comb
+* subdomain:DOM_MakingMoves
+* method:MTH_Monovariant
+* topic:ProvingInequalities
 
 </small>
 
@@ -832,6 +860,8 @@ Zināms, ka $12a + 9b$ dalās ar $13$. Kāds var būt skaitlis $\overline{cd}$?
 
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_DigitManipulation
+* topic:NotationPolynomial
 
 </small>
 
@@ -842,7 +872,7 @@ Apzīmējam iegūto četrciparu skaitli ar $\overline{abcd}$.
 Ekvivalenti pārveidojam šo skaitli:
 
 $$\overline{abcd} = 1000a + 100b + 10c + d = (12a + 9b) + (10c + d) + 988a + 91b =$$
-$$= (12a + 9b) + (10c + d) + 13 \cdot 76a + 13 \cdot 7𝑏.$$
+$$= (12a + 9b) + (10c + d) + 13 \cdot 76a + 13 \cdot 7b.$$
 
 Tā kā saskaitāmie $13 \cdot 76a$ un $13 \cdot 7b$ dalās ar $13$ 
 un no dotā $12a + 9b$ dalās ar $13$, tad, lai viss skaitlis
@@ -861,7 +891,9 @@ virsotnes, ir divas reizes garāka nekā augstums no tās pašas virsotnes!
 
 * questionType:Prove
 * domain:Geom
-* method:MTH_AugmentationWithNewElements
+* subdomain:DOM_Triangles
+* topic:TrianglesRight
+* topic:TriangleInternalAngles
 
 </small>
 
@@ -905,6 +937,7 @@ kartītēm uzrakstīto skaitļu summas ir vienādas?
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
+* topic:DoubleCounting
 
 </small>
 
@@ -949,7 +982,9 @@ Vai var gadīties, ka: **(A)** $S = 100$; **(B)** $S = 123$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
-* subdomain:DOM_FixedInvariant
+* subdomain:DOM_CombinatorialStructures
+* method:MTH_FixedInvariant
+* topic:ModularParity
 
 </small>
 

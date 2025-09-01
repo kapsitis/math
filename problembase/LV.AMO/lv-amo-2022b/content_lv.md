@@ -499,6 +499,7 @@ lai uz katras no taisnēm būtu atzīmēti tieši trīs punkti!
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_ObjectSystemsGeometry
+* topic:CountingPointsSegmentsAndOthers
 
 
 </small>
@@ -533,6 +534,8 @@ ja sākumā kaudzē ir **(A)** $6$ konfektes;
 * questionType:Algorithm,Algorithm
 * domain:NT
 * subdomain:DOM_Divisibility,FixedInvariant
+* method:MTH_FixedInvariant
+* topic:GameInvariant
 
 </small>
 
@@ -546,7 +549,7 @@ tad Brālītis - vienu. Šādi spēlējot, pēc katra (abu spēlētāju)
 gājiena konfekšu skaits kaudzē samazinās tieši par 3. 
 Tā kā sākumā kaudzē konfekšu skaits dalī̄ās ar $3$ (gan $6$, gan $2022$ 
 dalās ar $3$), tad arī abos gadījumos pēc kāda Brāliša gājiena 
-tas klūs vienāds ar $0$, tātad Brālītis uzvarēs.
+tas kļūs vienāds ar $0$, tātad Brālītis uzvarēs.
 
 *Piezīme.* **(A)** gadījumā Brālītis uzvarēs jau pēc otrā gājiena, 
 bet **(B)** gadījumā Brālítis uzvarēs pēc $2022: 3=674$. gājiena.
@@ -577,6 +580,7 @@ Cik ciema iedzīvotāju visu laiku melo?
 * questionType:FindCount
 * domain:Comb
 * subdomain:DOM_Logic
+* topic:DoubleCounting
 
 </small>
 
@@ -615,6 +619,8 @@ Cik dažādos veidos to var izdarīt?
 * questionType:FindCount
 * domain:NT
 * subdomain:DOM_NumeralSystems
+* topic:DivisibilityRulesFor2And4
+* topic:DivisibilityRulesFor3And9
 
 </small>
 
@@ -658,8 +664,10 @@ ja kopā viņš ieguva $13$ punktus?
 
 * concepts:add,subtract
 * questionType:FindAll
-* domain:Alg
-* subdomain:DOM_Equations
+* domain:NT
+* subdomain:DOM_IntegerEquations
+* topic:NumTheoryInequalitySideComparison
+* method:MTH_ExhaustiveAlgorithms
 
 </small>
 
@@ -708,6 +716,7 @@ ka $AD = BD$ un $AB = DC = AC$. Aprēķināt trijstūra $ABC$ leņķus!
 * questionType:FindAll
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
+* topic:TriangleAngles,TrianglesIsosceles
 
 </small>
 
@@ -802,6 +811,7 @@ Cik draugu saka taisnību?
 * questionType:FindCount
 * domain:Comb
 * subdomain:DOM_Logic
+* topic:TrueAndFalseStatements
 
 </small>
 
@@ -832,6 +842,8 @@ var atbilst arī vienādi cipari.)
 * questionType:FindCount
 * domain:NT
 * subdomain:DOM_NumeralSystems
+* topic:DivisibilityRuleFor11
+* topic:DivisibilityRulesFor3And9
 
 </small>
 
@@ -870,25 +882,26 @@ Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(A)** $x > y > 0$, **(B)*
 * domain:Alg
 * subdomain:DOM_Inequalities
 * method:MTH_PolynomialTransformations
+* topic:AddingOrMultiplyingInequalities
 
 </small>
 
 
 ## Atrisinājums
 
-**(A)** Nē, piemēram, ja $x=1$ un $y=0,1$, tad 
-$x+\frac{9}{x}=10$ un $y+\frac{9}{y}=90,1$, bet $10<90,1$.
+**(A)** Nē, piemēram, ja $x=1$ un $y=0.1$, tad 
+$x+\frac{9}{x}=10$ un $y+\frac{9}{y}=90.1$, bet $10<90.1$.
 
 **(B)** Pamatosim, ka, ja $x>y>3$, tad dotā nevienādība ir patiesa.
 
 Nevienādības $x+\frac{9}{x}>y+\frac{9}{y}$ abas puses reizinot 
-ar pozitīvu izteiksmi $x y$, iegūstam ekvivalentu nevienādību
+ar pozitīvu izteiksmi $xy$, iegūstam ekvivalentu nevienādību
 
 $$x^{2} y+9 y>x y^{2}+9x$$
 
-Lai pierādītu, ka dotā nevienādība ir patiesa, pietiek pamatot, ka $x^{2} y+9 y-x y^{2}-9 x>0$.
-
-Ievērojam, ka $x-y>0$ un $x y-9>0$, jo pēc dotā $x>y>3$.
+Lai pierādītu, ka dotā nevienādība ir patiesa, pietiek pamatot, ka 
+$x^{2}y + 9y - xy^{2} - 9x > 0$.
+Ievērojam, ka $x-y>0$ un $xy-9>0$, jo pēc dotā $x>y>3$.
 
 Apskatām divu pozitīvu izteiksmju reizinājumu un to ekvivalenti pārveidojam:
 
@@ -914,6 +927,7 @@ Pierādīt, ka taisne $CH$ dala nogriezni $BK$ divās vienādās daļās!
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
+* topic:TrianglesIsosceles
 
 </small>
 
@@ -927,7 +941,7 @@ $\sphericalangle ABC=\beta$ (skat. 9.att.).
 No trijstūra $ABC$ iegūstam, ka 
 $\sphericalangle BAC=180^{\circ}-\sphericalangle ACB-\sphericalangle ABC$ 
 jeb $\alpha=90^{\circ}-\beta$. No trijstūra $BHC$ iegūstam, ka 
-$\sphericalangle HCB=180^{\circ}-\sphericalangle CHB-\sphericalangle HBC=90^{\circ}-\beta=\alpha$, tātad trijstūris $COB$ ir vienādsānu trijstūris, jo divi tā leņki ir vienādi 
+$\sphericalangle HCB=180^{\circ}-\sphericalangle CHB-\sphericalangle HBC=90^{\circ}-\beta=\alpha$, tātad trijstūris $COB$ ir vienādsānu trijstūris, jo divi tā leņķi ir vienādi 
 $\sphericalangle OBC=\sphericalangle OCB=\alpha$. 
 No tā izriet, ka $BO = OC$ kā vienādsānu trijstūra sānu malas.
 
@@ -935,7 +949,7 @@ No trijstūra $KCB$ iegūstam, ka
 $\sphericalangle BKC=180^{\circ}-\sphericalangle KCB-\sphericalangle KBC =  90^{\circ}-\alpha=\beta$. 
 Ievērojam, ka 
 $\sphericalangle ACH=\sphericalangle ACB-\sphericalangle HCB=90^{\circ}-\alpha=\beta$. 
-Tātad trijstūris $KOC$ ir vienādsānu, jo divi tā lenki ir vienādi 
+Tātad trijstūris $KOC$ ir vienādsānu, jo divi tā leņķi ir vienādi 
 $\sphericalangle OKC=\sphericalangle KCO = \beta$, un tā sānu malas ir vienādas $CO=OK$.
 
 No vienādībām $BO=OC$ un $CO=OK$ iegūstam, ka $BO=OK$, tātad $CH$ 
@@ -1021,6 +1035,7 @@ Vai muzeja vadītājs var izveidot šādu maršrutu?
 * domain:Comb
 * method:MTH_ContradictionForExistence
 * subdomain:DOM_Graphs
+* topic:GraphColoredVertices
 
 </small>
 

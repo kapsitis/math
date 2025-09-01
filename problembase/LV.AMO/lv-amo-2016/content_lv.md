@@ -6,8 +6,8 @@ $DLV; MMXVI; CMXCIV; XXXVII$
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -27,8 +27,8 @@ $14 \cdot a+2 \cdot b+1=2016$ ?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
@@ -47,20 +47,20 @@ patiesa.
 
 Starp dotajiem skaitļiem vienādības kreisajā pusē saliec darbību zīmes un
 iekavas tā, lai iegūtu patiesu vienādību!
-**a)** $3 \quad 3 \quad 7 \quad 7=14$
-**b)** $3 \quad 3 \quad 7 \quad 7=24$
+**(A)** $3 \quad 3 \quad 7 \quad 7=14$
+**(B)** $3 \quad 3 \quad 7 \quad 7=24$
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample,FindExample
+* domain:Comb
 
 </small>
 
 
 ## Atrisinājums
 
-**a)** $3-3+7+7=14$; **b)** $(3+3:7) \cdot 7=\frac{24}{7} \cdot 7=24$
+**(A)** $3-3+7+7=14$; **(B)** $(3+3:7) \cdot 7=\frac{24}{7} \cdot 7=24$
 
 
 
@@ -73,8 +73,8 @@ daļas nedrīkst pārklāties, daļas drīkst pagriezt, bet nedrīkst apgāzt ot
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Geom
 
 </small>
 
@@ -94,8 +94,8 @@ viens otram!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
 
 </small>
 
@@ -113,15 +113,15 @@ nosūtījuši īsziņas viens otram.
 # <lo-sample/> LV.AMO.2016.6.1
 
 Aplīšos (skat. 3.att.) ieraksti trūkstošās darbību zīmes un
-kvadrātiņos- trūkstošos skaitļus, lai iegūtu patiesas vienādības! Parādi arī
+kvadrātiņos -- trūkstošos skaitļus, lai iegūtu patiesas vienādības! Parādi arī
 risinājumu!
 
 ![](LV.AMO.2016.6.1.png)
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Alg
 
 </small>
 
@@ -138,12 +138,12 @@ Skat. 4.att., kur
 # <lo-sample/> LV.AMO.2016.6.2
 
 Vai var atrast tādus naturālus skaitļus $a$ un $b$, ka
-$14 \cdot a+15=2016-6 \cdot b$ ?
+$14 \cdot a+15=2016-6 \cdot b$?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -170,8 +170,8 @@ tantītes piedalījās sacensībās?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -209,8 +209,8 @@ taisnstūrī būtu vismaz viena iekrāsota rūtiņa?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Geom
 
 </small>
 
@@ -235,8 +235,8 @@ laukuma) daļās! Gabali attiecībā viens pret otru drīkst būt gan pagriezti,
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Geom
 
 </small>
 
@@ -253,26 +253,25 @@ Skat., piemēram, 8.att.
 
 Dota lineāra funkcija $y=2015x+2016$.
 
-**a)** Nosaki dotās funkcijas krustpunktus ar koordinātu asīm!
-
-**b)** Uzraksti vienādojumu lineārai funkcijai, kuras grafiks nekrusto dotās
-funkcijas grafiku un iet caur punktu $(1; 43)$ !
+**(A)** Nosaki dotās funkcijas krustpunktus ar koordinātu asīm!  
+**(B)** Uzraksti vienādojumu lineārai funkcijai, kuras grafiks nekrusto dotās
+funkcijas grafiku un iet caur punktu $(1; 43)$!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
 
 ## Atrisinājums
 
-**a)** Funkcijas grafiks krusto $y$ asi, ja $x=0$, tātad krustpunkts ar $y$ asi
+**(A)** Funkcijas grafiks krusto $y$ asi, ja $x=0$, tātad krustpunkts ar $y$ asi
 ir $(0; 2016)$. Funkcijas grafiks krusto $x$ asi, ja $y=0$, tātad krustpunkts ar
 $x$ asi ir $\left(-\frac{2016}{2015} ; 0\right)$.
 
-**b)** Lai lineāru funkciju grafiki nekrustotos, tiem jābūt paralēliem, tātad
+**(B)** Lai lineāru funkciju grafiki nekrustotos, tiem jābūt paralēliem, tātad
 taišņu virziena koeficientiem jābūt vienādiem. Meklētās funkcijas vienādojums ir
 formā $y=2015x+b$. Lai aprēķinātu $b$ vērtību, izmantojam, ka grafiks iet caur
 punktu $(1; 43)$, tas ir, atrisinām vienādojumu $43=2015 \cdot 1+b$. Tātad
@@ -318,7 +317,7 @@ Un $m$ nevar būt $16$, jo citādi $p<0$. Tāpēc $m=8$.
 
 # <lo-sample/> LV.AMO.2016.7.3
 
-Dots, ka $AB || CD$ un $AD || BC$ (skat. 9.att.). Nogriežņu $AC$ un $BD$
+Dots, ka $AB \| CD$ un $AD \| BC$ (skat. 9.att.). Nogriežņu $AC$ un $BD$
 krustpunkts ir $M$. Uz taisnes $AB$ izvēlēts tāds punkts $N$, ka $AM=MN$.
 Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 
@@ -356,7 +355,7 @@ $\sphericalangle ANC=90^{\circ}$.
 
 # <lo-sample/> LV.AMO.2016.7.4
 
-Divi rūķi- Svirpulnieks un Pukstiņš- katru dienu tīra zobus. Katrs lieto savu
+Divi rūķi -- Svirpulnieks un Pukstiņš -- katru dienu tīra zobus. Katrs lieto savu
 zobu birsti un katrs sava veida zobu pastas tūbiņas. Katram rūķim viena zobu
 pastas tūbiņa pietiek veselam skaitam dienu. Ja vienā dienā rūḳim beidzas viena
 zobu pastas tūbiņa, tad nākamajā dienā viņš iesāk tādu pašu jaunu tūbiņu.
@@ -368,8 +367,8 @@ tūbiņu?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -399,8 +398,8 @@ Pierādīt, ka varde ir apēdusi vismaz $21$ mušu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
 
 </small>
 
@@ -526,8 +525,8 @@ Pierādīt, ka $\triangle MNB=\triangle CKM$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -552,17 +551,17 @@ Divi spēlētāji spēlē spēli uz $N \times N$ rūtiņas liela laukuma. Sākum
 kreisajā apakšējā rūtiņā atrodas spēļu kauliņš. Katrā gājienā spēļu kauliņu
 drīkst pārvietot vai nu vienu lauciņu pa labi, vai vienu lauciņu uz augšu, vai
 arī divus lauciņus pa diagonāli uz augšu pa labi (skat. 12.att., kur kauliņa
-sākumpozīcija apzīmēta ar baltu, bet atļautie gājieni- ar pelēkiem aplīšiem).
+sākumpozīcija apzīmēta ar baltu, bet atļautie gājieni -- ar pelēkiem aplīšiem).
 Kauliņu nedrīkst pārvietot ārpus laukuma robežām. Spēlētāji gājienus izdara pēc
 kārtas. Zaudē spēlētājs, kurš nevar izdarīt gājienu. Kurš no spēlētājiem,
-pareizi spēlējot, uzvar, ja **a)** $N=7$, **b)** $N=8$ ?
+pareizi spēlējot, uzvar, ja **(A)** $N=7$, **(B)** $N=8$?
 
 ![](LV.AMO.2016.8.5.png)
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -574,7 +573,7 @@ zaudējoša, jo no tās nevar izdarīt gājienu. Tālāk laukuma rūtiņas aizpi
 pēc šāda principa: ja kāds no iespējamajiem gājieniem pārvieto kauliņu uz
 zaudējošu rūtiņu (apzīmējam ar $Z$), tad šī rūtiņa ir uzvaroša (apzīmējam ar $U$).
 Pretējā gadījumā rūtiņa ir zaudējoša. Tādā veidā aizpildot rūtiņas, iegūstam, ka
-gan a), gan b) gadījumā sākuma (kreisā apakšējā stūra rūtiņa) ir zaudējoša,
+gan **(A)**, gan **(B)** gadījumā sākuma (kreisā apakšējā stūra rūtiņa) ir zaudējoša,
 skat. attiecīgi 13.att. un 14.att.
 
 Tātad, pareizi spēlējot, uzvarēs otrais spēlētājs, jo viņš vienmēr var panākt,
@@ -590,8 +589,8 @@ Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -646,8 +645,8 @@ $CDM$ ir vienādmalu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -735,8 +734,8 @@ pārbaudot ne vairāk kā četrus podus!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
 
 </small>
 
@@ -766,15 +765,15 @@ podu un vēl vienu podu.
 
 # <lo-sample/> LV.AMO.2016.10.1
 
-Doti divi dažādi kabeļi. Pirmā kabeļa masa ir $65~ \mathrm{kg}$, otrā kabeļa
-masa ir $120~\mathrm{kg}$. Otrais kabelis ir par $3~ \mathrm{m}$ garāks nekā
-pirmais, un otrā kabeļa katra metra masa ir par $2~ \mathrm{kg}$ lielāka nekā
+Doti divi dažādi kabeļi. Pirmā kabeļa masa ir $65~\mathrm{kg}$, otrā kabeļa
+masa ir $120~\mathrm{kg}$. Otrais kabelis ir par $3~\mathrm{m}$ garāks nekā
+pirmais, un otrā kabeļa katra metra masa ir par $2~\mathrm{kg}$ lielāka nekā
 pirmā kabeļa katra metra masa. Kādi var būt kabeļu garumi?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -783,11 +782,11 @@ pirmā kabeļa katra metra masa. Kādi var būt kabeļu garumi?
 
 Apzīmējot pirmā kabeļa garumu ar $x$, iegūstam, ka tā katra metra masa ir
 $\frac{65}{x}$. Otrā kabeļa garums ir $x+3$ un tā katra metra masa ir
-$\frac{120}{x+3}$. legūstam vienādojumu $\frac{120}{x+3}=\frac{65}{x}+2$.
+$\frac{120}{x+3}$. Iegūstam vienādojumu $\frac{120}{x+3}=\frac{65}{x}+2$.
 Reizinot vienādojuma abas puses ar $x(x+3) > 0$, iegūstam vienādojumu
 $120x=65x+195+2x^{2}+6x$ jeb $2x^{2}-49x+195=0$, kura saknes ir $x=5$ un
-$x=19,5$. Tātad pirmā un otrā kabeļa garums attiecīgi var būt $5~ \mathrm{m}$ un
-$8~ \mathrm{m}$ vai $19,5~ \mathrm{m}$ un $22,5~ \mathrm{m}$.
+$x=19,5$. Tātad pirmā un otrā kabeļa garums attiecīgi var būt $5~\mathrm{m}$ un
+$8~ \mathrm{m}$ vai $19,5~\mathrm{m}$ un $22,5~\mathrm{m}$.
 
 
 
@@ -884,12 +883,12 @@ summa.
 Trijstūrī $ABC$ leņķa $\sphericalangle ABC$ bisektrise krusto malu $AC$ punktā
 $D$. Caur punktu $C$ paralēli $BD$ novilkta taisne, kas krusto $AB$ pagarinājumu
 punktā $P$ un ap trijstūri $BDC$ apvilkto riņķa līniju punktā $Q$. Taisne
-$PD$ krusto nogriezni $BQ$ punktā $M$. Pierādit, ka $PM=MD$.
+$PD$ krusto nogriezni $BQ$ punktā $M$. Pierādīt, ka $PM=MD$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -917,8 +916,8 @@ taisnstūri nepārklājas. Pierādīt, ka nenoklāta paliek laukuma centrālā r
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -940,13 +939,13 @@ $1 \times 5$ rūtiņas var izvietot, piemēram, tā, kā parādīts 19.att.
 
 # <lo-sample/> LV.AMO.2016.11.1
 
-No visiem vienādsānu trijstūriem ar sānu malas garumu $10~ \mathrm{cm}$ atrast to,
+No visiem vienādsānu trijstūriem ar sānu malas garumu $10~\mathrm{cm}$ atrast to,
 kuram ir vislielākais laukums!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Geom
 
 </small>
 
@@ -1012,8 +1011,8 @@ $$\frac{1}{\sqrt{1}+\sqrt{3}}+\frac{1}{\sqrt{2}+\sqrt{4}}+\frac{1}{\sqrt{3}+\sqr
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -1042,8 +1041,8 @@ trijstūra $AFG$ laukums ir vienāds ar četrstūra $GHJK$ laukumu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1082,25 +1081,25 @@ Uz kādas salas dzīvo zaļi, zili un sarkani hameleoni. Ja divi atšķirīgas k
 hameleoni satiekas, tie abi maina savu krāsu uz trešo krāsu. Piemēram, ja
 satiekas zilais hameleons ar sarkano, tie abi klūst par zaļiem hameleoniem. Vai
 iespējams, ka pēc kāda laika uz salas visi hameleoni būs vienā krāsā, ja
-sākumā ir **a)** $11$ zaļi, $15$ zili un $16$ sarkani hameleoni, **b)** $12$
+sākumā ir **(A)** $11$ zaļi, $15$ zili un $16$ sarkani hameleoni, **(B)** $12$
 zaļi, $15$ zili un $16$ sarkani hameleoni?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Geom
 
 </small>
 
 
 ## Atrisinājums
 
-**a)** Pamatosim, ka prasītais nav iespējams. Ja aplūko hameleonu skaitu pēc
+**(A)** Pamatosim, ka prasītais nav iespējams. Ja aplūko hameleonu skaitu pēc
 moduļa $3$, tad sākotnēji tas ir $(2,0,1)$. Pēc jebkuru divu dažādu krāsu
 hameleonu satikšanās šis skaits pēc moduļa $3$ mainās uz (1, 2, 0). Tātad
 panākt situāciju, ka divu krāsu hameleonu skaits būtu $0$, nav iespējams.
 
-**b)** Jā, ir iespējams:
+**(B)** Jā, ir iespējams:
 $(12,15,16) \rightarrow(14,14,15) \rightarrow(13,13,17) \rightarrow \ldots \rightarrow(1,1,41) \rightarrow(0,0,43)$.
 
 
@@ -1112,8 +1111,8 @@ $4 \cdot\left(\frac{2}{3}\right)^{\sin x}+9 \cdot\left(\frac{3}{2}\right)^{\sin 
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -1165,8 +1164,8 @@ $2x^{2}+xy+xz < 0$. Pierādīt, ka izpildās arī nevienādība $y^{2} > 8xz$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -1200,8 +1199,8 @@ $BCD$ augstumi. Pierādīt, ka nogrieznis $PQ$ krusto malu $AC$ tās viduspunkt�
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1241,8 +1240,8 @@ vienu īsto monētu?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 
 </small>
 

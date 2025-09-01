@@ -4,7 +4,7 @@ Režģa (skatīt 1. att.) katrā rūtiņā ieraksti vienu ciparu no 1 līdz 5.
 Katrā rindā un katrā kolonnā jābūt ierakstītiem visiem skaitļiem 
 no $1$ līdz $5$. Katrā ar tumšu līniju atdalītajā figūrā, 
 kas satur divas vai trīs rūtiņas, ir dots skaitlis un darbību 
-zīme. Ar šīs figūras rūtiņās ierakstītajiem skaitliem, 
+zīme. Ar šīs figūras rūtiņās ierakstītajiem skaitļiem, 
 veicot doto darbību, jāiegūst dotais skaitlis. Pietiek 
 parādīt vienu piemēru, kā to izdarīt. Trijās ar tumšu līniju 
 apvilktajās rūtiņās skaitḷi jau ir ierakstīti.
@@ -16,8 +16,8 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $2$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Alg
 
 </small>
 
@@ -44,8 +44,8 @@ lai garantētu, ka viņam:
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Comb
 
 </small>
 
@@ -66,7 +66,7 @@ kuru izvelk pēdējo. Tāpēc nepieciešams izvilkt $7+11+9+1=28$ bumbiņas.
 
 # <lo-sample/> LV.AMO.2024.5.3
 
-Uzraksti 10 izteiksmes, katrai izmantojot četrus skaitlus 
+Uzraksti $10$ izteiksmes, katrai izmantojot četrus skaitlus 
 $3,5,7$ un $9$ katru tieši vienu reizi un trīs aritmētisko 
 darbību zīmes (saskaitīšanu, atņemšanu, reizināšanu vai 
 dalīšanu), tā, lai šo izteiksmju vērtības būtu skaitḷi 
@@ -78,8 +78,8 @@ $7 \cdot(9-5)-3=25$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Alg
 
 </small>
 
@@ -109,8 +109,8 @@ pārklāties viena ar otru vai iziet ārpus taisnstūra.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Geom
 
 </small>
 
@@ -140,8 +140,8 @@ Cik patiesībā bija pulkstenis? Atbildi pamato!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Comb
 
 </small>
 
@@ -178,8 +178,8 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $4$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Alg
 
 </small>
 
@@ -195,14 +195,14 @@ Skaitḷus režģī iespējams sarakstīt, kā tas redzams 6. att.
 Kastē ir $14$ violetas, $18$ brūnas, $4$ oranžas un $19$ dzeltenas bumbiņas. 
 Anna no kastes izvilka $9$ bumbiņas.  
 **(A)** Vai var apgalvot, ka tieši piecas no izvilktajām bumbiņām ir dzeltenas?  
-**(B)** Vai Anna noteikti izvilka vismaz trīs vienādas krāsas bumbinas?  
+**(B)** Vai Anna noteikti izvilka vismaz trīs vienādas krāsas bumbiņas?  
 **(C)** Kāds mazākais skaits bumbiņu Annai vēl ir jāizvelk no kastes, 
 lai varētu apgalvot, ka kopumā Annai vismaz sešas no bumbiņām ir vienā krāsā?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove,FindOptimal
+* domain:Comb
 
 </small>
 
@@ -243,8 +243,8 @@ savu roku. Cik no šiem rūķiem vienmēr saka patiesību?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Comb
 
 </small>
 
@@ -256,7 +256,7 @@ Melis cels roku divas reizes - mīl̄ākajai saldējuma garšai necels,
 bet pārējām divām pacels. Katru patieso rūk̦i aizstājot ar meli, 
 pacelto roku skaits palielinās par viens. Tā kā tika paceltas 
 par $14-10=4$ rokām vairāk nekā tad, ja visi teiktu patiesību, 
-tad ir 4 mel, un $10-4=6$ rūķi vienmēr saka patiesību.
+tad ir 4 meļi, un $10-4=6$ rūķi vienmēr saka patiesību.
 
 
 # <lo-sample/> LV.AMO.2024.6.4
@@ -270,8 +270,8 @@ ka tās sakrīt.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Geom
 
 </small>
 
@@ -294,8 +294,8 @@ viens - par trīs, viens - par pieci un viens - par deviņi.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Comb
 
 </small>
 
@@ -342,8 +342,9 @@ telpa bija gatava?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
+* subdomain:DOM_WordProblems
 
 </small>
 
@@ -388,12 +389,13 @@ Jurģis Mik̦eļdienas tirgū ar izlozes palīdzību izdalīja $11$ balvas.
 Katra balva satur $6$ rudens labumus: ābolus, bumbierus un bietes. 
 Pie tam zināms, ka katra balva satur vismaz vienu ābolu, 
 bumbieri un bieti. Pamatot, ka noteikti tika izdalītas divas 
-tādas balvas, kurām bija vienāds saturs
+tādas balvas, kurām bija vienāds saturs.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
+* subdomain:DOM_CountingObjects
 
 </small>
 
@@ -424,8 +426,9 @@ $2$ vai $3$ (ja tas dalās bez atlikuma). Vai šīs skaitļu virknes
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:NT
+* subdomain:DOM_NumericGamesAndAlgorithms
 
 </small>
 
@@ -464,8 +467,9 @@ rūtiņu līnijām? Figūras drīkst būt pagrieztas.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Geom
+* subdomain:DOM_SquareGridCut
 
 </small>
 
@@ -490,8 +494,9 @@ bet Sandra dziedāja 4 dziesmas (mazāk nekā jebkura cita meitene)?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Comb
+* subdomain:DOM_CombinatorialStructures
 
 </small>
 
@@ -531,8 +536,10 @@ Nosakiet šo trīs skaitḷu summu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
+* subdomain:DOM_EquationSystems
+* topic:LinearSystems
 
 </small>
 
@@ -574,8 +581,11 @@ secīgus skaitļus, kuru summa būs vismaz $17$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
+* subdomain:DOM_CombinatorialStructures
+* topic:AddingOrMultiplyingInequalities
+* topic:DoubleCounting
 
 </small>
 
@@ -609,8 +619,9 @@ Vai burvji rituālā no skaitliem $3,8,9,2,4$ var iegūt
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Comb
+* subdomain:DOM_MakingMoves
 
 </small>
 
@@ -682,8 +693,9 @@ $\sphericalangle BCO$ ar $\alpha$ un $\beta$!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
+* subdomain:DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -725,8 +737,10 @@ Dotas piecas smagas kastes un tās izkārtotas, kā tas redzams 12. att. Šīs k
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
+* subdomain:DOM_CuttingCoversColoring
+* method:MTH_PeriodicInvariant
 
 </small>
 
@@ -763,7 +777,7 @@ ceturtā pēc kārtas, kā tas prasīts.
 
 # <lo-sample/> LV.AMO.2024.9.1
 
-Doti reāli skaitli $a$ un $b$, kuriem
+Doti reāli skaitļi $a$ un $b$, kuriem
 
 $$\frac{a}{a^{2}-5}=\frac{b}{5-b^{2}}=\frac{a b}{a^{2} b^{2}-5}.$$
 
@@ -771,8 +785,10 @@ Kāda var būt izteiksmes $a^{4}+b^{4}$ vērtība, ja papildus zināms, ka $a+b 
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
+* subdomain:DOM_MultivariableEquations
+* topic:VietaFormulas
 
 </small>
 
@@ -803,19 +819,20 @@ Abos gadījumos iegūstam, ka $a^{4}+b^{4}=5^{4}+1^{4}=625+1=626$.
 
 # <lo-sample/> LV.AMO.2024.9.2
 
-Katrs no 28 klases skolēniem kontroldarbā saņēma atzīmi, 
-kas ir vesels skaitlis robežās no 0 līdz 10 ballēm. 
-Pamatot, ka vai nu vismaz 4 skolēniem ir vienāda atzīme, 
-vai arī vismaz 4 skolēni ieguva atzīmi, kas ir augstāka nekā $7$.
+Katrs no $28$ klases skolēniem kontroldarbā saņēma atzīmi, 
+kas ir vesels skaitlis robežās no $0$ līdz $10$ ballēm. 
+Pamatot, ka vai nu vismaz $4$ skolēniem ir vienāda atzīme, 
+vai arī vismaz $4$ skolēni ieguva atzīmi, kas ir augstāka nekā $7$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
+* subdomain:DOM_CombinatorialStructures
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izveidosim $9$ dažādas grupas. Pirmās astoņas grupas atbilst 
 katrai atzīmei no $0$ līdz $7$, bet devītā grupa atzīmēm 
@@ -828,7 +845,7 @@ vienāda atzīme. Ja devītā grupa satur vismaz 4 skolēnus,
 tad tas atbilst tam, ka vismaz 4 skolēni ieguva atzı̄mi, 
 kas ir augstāka nekā $7$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Sagrupēsim skolēnus divās grupās. Pirmajā grupā ietilpst 
 tie skolēni, kas sañēma kādu atzīmi no kopas $\{0,1,2,3,4,5,6,7\}$, 
@@ -848,18 +865,19 @@ kas ieguva atzīmi, kas ir augstāka nekā 7 .
 
 # <lo-sample/> LV.AMO.2024.9.3
 
-Uz tāfeles uzrakstīti trīs skaitļi: 11, 12, 13. 
+Uz tāfeles uzrakstīti trīs skaitļi: $11, 12, 13$. 
 Vienā gājienā Agnese var izvēlēties vienu no skaitļiem, 
 to nodzēst un tā vietā uzrakstīt skaitli, ko iegūst 
-no divkāršotas abu pārējo skaitlu summas atņemot 
+no divkāršotas abu pārējo skaitļu summas atņemot 
 izvēlēto skaitli. Vai, atkārtojot šādus gājienus, 
 Agnese var panākt to, ka uz tāfeles ir uzrakstīti 
-skaitli 20, 24, 25?? 
+skaitļi $20, 24, 25$?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
+* subdomain:DOM_MakingMoves
 
 </small>
 
@@ -883,7 +901,7 @@ skaitlis tiek aizvietots ar nepāra skaitli.
 
 Tātad vienmēr uz tāfeles skaitlu paritāte saglabāsies, 
 tas ir, uz tāfeles vienmēr būs uzrakstīts 1 pāra skaitlis 
-un 2 nepāra skaitlli. Bet prasīts iegūt $20$, $24$ un $25$, 
+un 2 nepāra skaitļi. Bet prasīts iegūt $20$, $24$ un $25$, 
 kas ir $2$ pāra skaitļi un 1 nepāra skaitlis. 
 Iegūstam pretrunu, tāpēc prasītais nav iespējams.
 
@@ -898,8 +916,9 @@ krustpunkts ir $H$. Pamatot, ka $S_{AGHI} = S_{BEG}+S_{CEHF}+S_{DFI}$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
+* subdomain:DOM_Quadrilaterals
 
 </small>
 
@@ -944,8 +963,9 @@ Cik ir tādu deviņciparu tālruņa numuru, kas varētu būt Zanes tālruņa num
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:Comb
+* subdomain:DOM_CountingObjects
 
 </small>
 
@@ -994,12 +1014,12 @@ kas piemīt Zanes tālruṇa numuram.
 
 # <lo-sample/> LV.AMO.2024.10.1
 
-Atrast visus naturālos skaitlus $m$ un $n$, kuriem $m^{3} n+m+n = mn+2mn^{2}$.
+Atrast visus naturālos skaitļus $m$ un $n$, kuriem $m^{3} n+m+n = mn+2mn^{2}$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -1024,14 +1044,14 @@ $m=n=1$ un $m=n=2$.
 
 # <lo-sample/> LV.AMO.2024.10.2
 
-Doti 15 trīsciparu skaitli. Pamatot, ka no šiem skaitļiem 
+Doti 15 trīsciparu skaitļi. Pamatot, ka no šiem skaitļiem 
 var atrast vai nu divus tādus, kuru ciparu summa sakrīt, 
 vai arī divus tādus, kuru ciparu summu summa ir vienāda ar $28$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1064,8 +1084,8 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Comb
 
 </small>
 
@@ -1096,8 +1116,8 @@ Pamatot, ka trijstūris $AED$ ir vienādmalu.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1133,8 +1153,8 @@ meža formu, ne savu sākotnējo atrašanās vietu tajā).
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1164,8 +1184,8 @@ $$\frac{a^{2}+2bc}{b^{2}+c^{2}}+\frac{b^{2}+2ac}{a^{2}+c^{2}}+\frac{c^{2}+2ab}{a
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg,Geom
 
 </small>
 
@@ -1202,8 +1222,8 @@ Vai var droši apgalvot, ka festivāla beigās bija vismaz
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -1240,8 +1260,8 @@ divciparu skaitlis dalās ar $3$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:NT
 
 </small>
 
@@ -1276,8 +1296,8 @@ Izliekta četrstūra diagonāles sadala to četros trijstūros ar vienādiem per
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1317,8 +1337,8 @@ krāsa sakritīs ar sākotnējo, ja pie galda sēž
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -1415,8 +1435,8 @@ $$a+b+c > \sqrt{2\left(a^{2}+b^{2}+c^{2}\right)}.$$
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg,Geom
 
 </small>
 
@@ -1450,18 +1470,18 @@ $$a+b+c>\sqrt{2\left(a^{2}+b^{2}+c^{2}\right)}$$
 
 # <lo-sample/> LV.AMO.2024.12.2
 
-Šaha festivālā piedalījās 64 dalībnieki. Zināms, ka festivāla laikā 
-katrs dalībnieks izspēlēja tieši 12 partijas, neviens neuzvarēja 
-visās 12 partijās, bet katrs uzvarēja vismaz vienā partijā. 
-Katrā partijā uzvarētājs saņēma vienu punktu, zaudētājs 0 punktus, 
+Šaha festivālā piedalījās $64$ dalībnieki. Zināms, ka festivāla laikā 
+katrs dalībnieks izspēlēja tieši $12$ partijas, neviens neuzvarēja 
+visās $12$ partijās, bet katrs uzvarēja vismaz vienā partijā. 
+Katrā partijā uzvarētājs saņēma vienu punktu, zaudētājs $0$ punktus, 
 bet, ja partija beidzās neizšk̦irti, tad abi spēlētāji 
 saņēma puspunktu. Vai var droši apgalvot, ka festivāla beigās 
-bija vismaz **(A)** 3; **(B)** 4 dalībnieki ar vienādu punktu skaitu?
+bija vismaz **(A)** $3$; **(B)** $4$ dalībnieki ar vienādu punktu skaitu?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -1506,13 +1526,13 @@ Iegūta pretruna.
 
 # <lo-sample/> LV.AMO.2024.12.3
 
-Uz tāfeles uzrakstīti vairāki veseli skaitli, kuru kubu summa ir $2024$.
-Vai var gadīties, ka šo skaitlu summa ir **(A)** $24$; **(B)** $26$?
+Uz tāfeles uzrakstīti vairāki veseli skaitļi, kuru kubu summa ir $2024$.
+Vai var gadīties, ka šo skaitļu summa ir **(A)** $24$; **(B)** $26$?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -1547,8 +1567,8 @@ $\sphericalangle DHC = 90^{\circ}$. Pamatot, ka $BH \| CD$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1579,8 +1599,8 @@ ne meža formu, ne savu sākotnējo atrašanās vietu tajā).
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 

@@ -1337,8 +1337,8 @@ vissmagākais?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -1413,8 +1413,8 @@ ir tieši $2017$ dažādas reālas saknes?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
@@ -1435,8 +1435,8 @@ $a,\ b,\ c$ ir pozitīvi skaitļi!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -1466,8 +1466,8 @@ trijstūra augstuma (vai tā pagarinājuma), kas no $A$ vilkts pret malu $BC$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1525,12 +1525,12 @@ turnīrā paredzēto spēli!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izveidosim grafu, kur virsotnes (punkti) ir tenisisti, bet šķautne (līnija) 
 divas virsotnes saista tad un tikai tad, ja atbilstošie tenisisti turnīrā vēl 
@@ -1579,7 +1579,7 @@ iziet vismaz $\frac{n}{2}$ šķautnes, tad šajā grafā eksistē Hamiltona cikl
 Šajā uzdevumā pēc būtības tika pierādīts šīs teorēmas speciālgadījums pie 
 $n=8$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Tāpat kā iepriekšējajā atrisinājumā izveidosim grafu, kura virsotnes ir 
 spēlētāji un tās ir saistītas ar šķautni tad un tikai tad, ja šie spēlētāji vēl
