@@ -496,7 +496,7 @@ komplektu viennozīmīgi nav iespējams noteikt?
 * domain:Comb
 * subdomain:DOM_NumberPartitionsCompositions
 * method:MTH_ExhaustiveAlgorithms
-* topic:SymmetryInCounting
+* topic:CountingUsingSymmetry
 
 </small>
 

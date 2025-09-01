@@ -8,8 +8,8 @@ burkā, ja Artūrs apēdīs visus atlikušos gurķīšus? (Artūrs ēda tikai gu
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -38,8 +38,8 @@ Kāds ir $999.$ loceklis Raimonda virknē un kāds - Laines virknē?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -75,8 +75,8 @@ vertikāli) būtu vismaz viena iekrāsota rūtiņa?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Geom
 
 </small>
 
@@ -93,30 +93,30 @@ Jā, var, piemēram, skat. 1.att.
 Naturālu pāra skaitli sauksim par raibu, ja tam vienlaikus ir spēkā šādas 
 īpašības:
 
-1) tajā neviens cipars nav nulle,
-2) tam nav divu vienādu ciparu,
-3) nekur blakus neatrodas divi pāra un divi nepāra cipari.
+1. tajā neviens cipars nav nulle,
+2. tam nav divu vienādu ciparu,
+3. nekur blakus neatrodas divi pāra un divi nepāra cipari.
 
 Vai ir iespējams, ka
 
-**a)** saskaitot divus piecciparu raibus skaitļus, arī summa būs piecciparu 
+**(A)** saskaitot divus piecciparu raibus skaitļus, arī summa būs piecciparu 
 raibs skaitlis;
 
-**b)** saskaitot divus sešciparu raibus skaitļus, arī summa būs sešciparu raibs
+**(B)** saskaitot divus sešciparu raibus skaitļus, arī summa būs sešciparu raibs
 skaitlis?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:NT
 
 </small>
 
 ## Atrisinājums
 
-**a)** Jā, ir iespējams, piemēram, $23856+21836=45692$.
+**(A)** Jā, ir iespējams, piemēram, $23856+21836=45692$.
 
-**b)** Pamatosim, ka prasītais nav iespējams. Ja tas būtu iespējams, tad divu 
+**(B)** Pamatosim, ka prasītais nav iespējams. Ja tas būtu iespējams, tad divu 
 raibo skaitļu summu varētu pierakstīt šādi ($p$ - pāra cipars; $n$ - nepāra 
 cipars):
 
@@ -147,8 +147,8 @@ naudaszīmju komplektu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Comb
 
 </small>
 
@@ -205,16 +205,16 @@ $25~\mathrm{cm^{2}}$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal,FindAll
+* domain:Geom
 
 </small>
 
 ## Atrisinājums
 
 Zaļā kvadrāta laukumu apzīmējam ar $x$. Tad zilā kvadrāta laukums ir $125 \%$ 
-no $x$ jeb $1,25x$. Sarkanā kvadrāta laukums ir $80 \%$ no $1,25x$ jeb 
-$0,8 \cdot 1,25x=1 \cdot x=x$. Tātad zaļā un sarkanā kvadrāta laukums ir 
+no $x$ jeb $1.25x$. Sarkanā kvadrāta laukums ir $80 \%$ no $1.25x$ jeb 
+$0.8 \cdot 1.25x=1 \cdot x=x$. Tātad zaļā un sarkanā kvadrāta laukums ir 
 vienāds un vienādi ir to malu garumi (abiem šiem kvadrātiem ir visīsākā mala). 
 Tā kā sarkanā kvadrāta laukums ir $25~\mathrm{cm^{2}}$, tad gan sarkanā, gan 
 zaļā kvadrāta malas garums ir $5~\mathrm{cm}$, jo $5^{2}=25$.
@@ -235,8 +235,8 @@ Kāds ir $1000.$ loceklis Viļņa virknē un kāds - Armanda virknē?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll,FindAll
+* domain:NT
 
 </small>
 
@@ -273,8 +273,8 @@ nevarētu izgriezt $2 \times 3$ rūtiņu taisnstūri, kam visas rūtiņas ir bal
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Geom
 
 </small>
 
@@ -292,12 +292,12 @@ izmēriem $2 \times 3$ rūtiņas (skat. 3.att.).
 
 Parādi vienu piemēru, kādus ciparus var ierakstīt burtu vietā, lai vienādība 
 $\overline{AC} \cdot C=\overline{AB} \cdot \overline{AB}$ būtu patiesa! Vienādi
-burti apzīmē vienādus ciparus, dažādi - dažādus, turklāt $A$ nav $0$.
+burti apzīmē vienādus ciparus, dažādi -- dažādus, turklāt $A$ nav $0$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:NT
 
 </small>
 
@@ -309,13 +309,13 @@ Der $A=1;\ B=2;\ C=8$, tad iegūstam $18 \cdot 8=12 \cdot 12$ jeb $144=144$.
 
 # <lo-sample/> LV.AMO.2018.6.5
 
-**a)** Laine sāka pierakstīt, cik veidos var iegūt katru summu no $2$ līdz 
+**(A)** Laine sāka pierakstīt, cik veidos var iegūt katru summu no $2$ līdz 
 $12$, metot divus parastus metamos kauliņus: summu $2$ var iegūt $1$ veidā 
 $(2=1+1)$, summu $3$ var iegūt $2$ dažādos veidos $(3=1+2=2+1)$, summu $4$ var 
 iegūt $3$ dažādos veidos $(4=1+3=2+2=3+1)$. Kādos un cik dažādos veidos var 
 iegūt visas atlikušās summas no $5$ līdz $12$?
 
-**b)** Gunārs no diviem kubiem ir izveidojis divus neparastus metamos kauliņus.
+**(B)** Gunārs no diviem kubiem ir izveidojis divus neparastus metamos kauliņus.
 Vienam no tiem uz skaldnēm ir uzrakstīti skaitļi $1,\ 3,\ 4,\ 5,\ 6$ un $8$. 
 Kādi seši skaitļi ir uzrakstīti uz otra neparastā metamā kauliņa skaldnēm, ja 
 zināms, ka, metot šos neparastos kauliņus, katru summu no $2$ līdz $12$ var 
@@ -324,14 +324,14 @@ iegūt tieši tikpat dažādos veidos, kā metot divus parastus metamos kauliņu
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll,FindExample
+* domain:Comb
 
 </small>
 
 ## Atrisinājums
 
-**a)** Diviem parastiem metamajiem kauliņiem katrai iespējamajai summai 
+**(A)** Diviem parastiem metamajiem kauliņiem katrai iespējamajai summai 
 atbilstošo veidu skaits ir šāds: 
 $2-1,\ 3-2,\ 4-3,\ 5-4,\ 6-5,\ 7-6,\ 8-5,\ 9-4,\ 10-3,\ 11-2,\ 12-1$ (skat. 
 tabulā).
@@ -345,7 +345,7 @@ tabulā).
 | $\mathbf{5}$ | $6$ | $7$ | $8$ | $9$ | $10$ | $11$ |
 | $\mathbf{6}$ | $7$ | $8$ | $9$ | $10$ | $11$ | $12$ |
 
-**b)** Uz otra neparastā kauliņa skaldnēm jāuzraksta skaitļi 
+**(B)** Uz otra neparastā kauliņa skaldnēm jāuzraksta skaitļi 
 $1,\ 2,\ 2,\ 3,\ 3$ un $4$. Visas iespējamās summas skat. tabulā.
 
 |  | $\mathbf{1}$ | $\mathbf{3}$ | $\mathbf{4}$ | $\mathbf{5}$ | $\mathbf{6}$ | $\mathbf{8}$ |
@@ -381,8 +381,8 @@ cipariem $2,\ 0,\ 1,\ 8$ ?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:Comb
 
 </small>
 
@@ -396,11 +396,11 @@ skaitļus:
 - ir $3 \cdot 3=9$ divciparu skaitļi, jo divciparu skaitļa pirmo ciparu var 
   izvēlēties $3$ veidos un arī otro ciparu var izvēlēties $3$ veidos;
 - ir $3 \cdot 3 \cdot 2=18$ trīsciparu skaitļi, jo skaitļa pirmo ciparu pirmo 
-  ciparu var izvēlēties $3$ veidos, otro ciparu $-3$ veidos un trešo ciparu 
-  $-2$ veidos;
+  ciparu var izvēlēties $3$ veidos, otro ciparu -- $3$ veidos un trešo ciparu 
+  -- $2$ veidos;
 - ir $3 \cdot 3 \cdot 2 \cdot 1=18$ četrciparu skaitļi, jo skaitļa pirmo ciparu
-  var izvēlēties $3$ veidos, otro ciparu $-3$ veidos, trešo ciparu $-2$ veidos 
-  un pēdējo ciparu - tikai vienā veidā.
+  var izvēlēties $3$ veidos, otro ciparu -- $3$ veidos, trešo ciparu -- $2$ veidos 
+  un pēdējo ciparu -- tikai vienā veidā.
 
 Tātad pavisam ir $3+9+18+18=48$ šādi skaitļi.
 
@@ -415,8 +415,8 @@ locekļu summu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -511,8 +511,8 @@ spoguļattēlā.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Geom
 
 </small>
 
@@ -544,8 +544,8 @@ $\left(x^{2}-2 x+1\right)\left(x^{4}+1\right)^{2}\left(x^{2}+2x+1\right)\left(x^
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Alg
 
 </small>
 
@@ -599,8 +599,8 @@ zināms, ka $ABCD$ laukums ir $100$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
 
 </small>
 
@@ -634,8 +634,8 @@ centrālajā rūtiņā ir ierakstīts skaitlis $\frac{n^{2}+1}{2}$, ja **(A)** $
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -674,14 +674,15 @@ skaitlis $12$, skat., piemēram, 14.att., kur atbilstošā summa ir $65$.
 
 **(A)** Kāds ir mazākais rūtiņu skaits, kas jāiekrāso $6 \times 6$ rūtiņu 
 kvadrātā, lai katrā šī kvadrāta $2 \times 3$ rūtiņu taisnstūrī (tas var būt arī
-pagriezts vertikāli) būtu vismaz viena iekrāsota rūtiņa? **(B)** Vai noteikti 
+pagriezts vertikāli) būtu vismaz viena iekrāsota rūtiņa?   
+**(B)** Vai noteikti 
 tad, kad ir iekrāsots mazākais rūtiņu skaits, visas četras stūra rūtiņas paliks
 neiekrāsotas?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal,ProveDisprove
+* domain:Geom
 
 </small>
 
@@ -715,14 +716,16 @@ neiekrāsotas.
 
 # <lo-sample/> LV.AMO.2018.9.1
 
-Dots vienādojums $(a-3)x^{2}+5x-2=0$. **(A)** Kādām $a$ vērtībām vienādojumam ir
-tieši viena sakne? **(B)** Kādām $a$ vērtībām vienādojumam ir divas dažādas 
+Dots vienādojums $(a-3)x^{2}+5x-2=0$.   
+**(A)** Kādām $a$ vērtībām vienādojumam ir
+tieši viena sakne?   
+**(B)** Kādām $a$ vērtībām vienādojumam ir divas dažādas 
 reālas saknes?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll,FindAll
+* domain:Alg
 
 </small>
 
@@ -764,8 +767,8 @@ trīs dažādos veidos: $4=1+1+1+1=1+3=3+1$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:Comb
 
 </small>
 
@@ -822,8 +825,8 @@ ir līdzīgi!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -883,8 +886,8 @@ $5 \times 8$ rūtiņas, lai katrā šī taisnstūra $2 \times 3$ rūtiņu taisns
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Geom
 
 </small>
 
@@ -931,12 +934,12 @@ laukums ir naturāls skaitlis!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $40=2^{2}+6^{2},\ 53=2^{2}+7^{2}$ un $145=8^{2}+9^{2}$. Līdz ar 
 to doto trijstūri varam iezīmēt taisnstūrī ar izmēriem $8 \times 9$ (skat. 
@@ -948,7 +951,7 @@ kas ir naturāls skaitlis.
 
 ![](LV.AMO.2018.10.1A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izmantosim Hērona formulu $S_{\Delta}=\sqrt{p(p-a)(p-b)(p-c)}$. Aprēķinām 
 trijstūra laukuma kvadrātu, tas ir, $S_{\Delta}^{2}$:
@@ -962,7 +965,7 @@ $=\frac{1}{16} \cdot 4\left(53 \cdot 145-79^{2}\right)=\frac{1}{4}(7685-6241)=\f
 
 Tātad dotā trijstūra laukums $19$, kas ir naturāls skaitlis.
 
-## Atrisinājums
+## Atrisinājums-3
 
 Apskatām trijstūri $ABC$ ar malu garumiem $AB=\sqrt{40},\ BC=\sqrt{53}$ un 
 $AC=\sqrt{145}$. Novelkam augstumu $BD$ un apzīmējam $AD=x$ un 
@@ -994,8 +997,8 @@ atšķiras izdarīto lēcienu secība.)
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:Comb
 
 </small>
 
@@ -1053,8 +1056,8 @@ $MN$ garums ir vienāds ar pusi no trijstūra $ABC$ perimetra!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1092,7 +1095,7 @@ Pierādīt, ja $x$ - naturāls skaitlis, tad $x^{8}-x^{2}$ dalās ar $252$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $252=4 \cdot 7 \cdot 9$ un visi reizinātāji ir savstarpēji 
 pirmskaitļi. Tātad pietiek pierādīt, ka $x^{8}-x^{2}$ dalās ar $4,\ 7$ un $9$. 
@@ -1146,7 +1149,7 @@ $$x_1 \equiv x_2 \pmod m\;\;\Rightarrow\;\;P(x_1) \equiv P(x_2) \pmod m$$
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ievērojam, ka $252=4 \cdot 7 \cdot 9$ un visi reizinātāji ir savstarpēji 
 pirmskaitļi. Tātad pietiek pierādīt, ka $x^{8}-x^{2}$ dalās ar $4,\ 7$ un $9$. 
@@ -1198,8 +1201,8 @@ vienu šādu četru naudaszīmju komplektu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Comb
 
 </small>
 
@@ -1309,8 +1312,8 @@ $1 \times 4$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:Geom
 
 </small>
 
@@ -1368,8 +1371,8 @@ $\sphericalangle QAR=2 \sphericalangle XAY$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1453,8 +1456,8 @@ Aprēķināt šī trijstūra laukumu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
 
 </small>
 
@@ -1506,8 +1509,8 @@ $$\log _{81} 96=\frac{14-\log _{48} 54}{16 \log _{48} 54-4}$$
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -1588,8 +1591,8 @@ $EBD^{\prime}$ ievilktās riņķa līnijas rādiusu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1678,8 +1681,8 @@ Tātad esam pierādījuši, ka gan $A$, gan $B$ dalās ar $5$.
 
 Katras divas regulāra sešstūra virsotnes savieno vai nu ar sarkanu, vai zilu 
 nogriezni. Aplūkosim visus trijstūrus, kuru virsotnes ir dotā sešstūra 
-virsotnes. **a)** Pierādīt, ka starp tiem ir vismaz viens vienkrāsas 
-trijstūris! **b)** Vai var gadīties, ka starp tiem ir tieši viens vienkrāsas 
+virsotnes. **(A)** Pierādīt, ka starp tiem ir vismaz viens vienkrāsas 
+trijstūris! **(B)** Vai var gadīties, ka starp tiem ir tieši viens vienkrāsas 
 trijstūris?
 
 Trijstūri sauc par vienkrāsas, ja tam visas malas ir nokrāsotas vienā krāsā.
@@ -1696,7 +1699,7 @@ Trijstūri sauc par vienkrāsas, ja tam visas malas ir nokrāsotas vienā krās�
 
 Regulārā sešstūra virsotnes apzīmējam ar $A, B, C, D, E, F$.
 
-**a)** Pierādīsim, ka vienmēr būs vismaz viens vienkrāsas trijstūris. 
+**(A)** Pierādīsim, ka vienmēr būs vismaz viens vienkrāsas trijstūris. 
 Pieņemsim, ka nav neviena vienkrāsas trijstūra. Aplūkojam patvaļīgu sešstūra 
 virsotni $A$. Tā kā no tās iziet $5$ nogriežņi, tad vismaz trīs no tiem ir 
 vienā krāsā (Dirihlē princips). Nezaudējot vispārīgumu, uzskatīsim, ka 
@@ -1707,7 +1710,7 @@ krāsā un viens no trijstūriem $ABD$ vai $BCD$ ir vienkrāsas trijstūris (ska
 
 ![](LV.AMO.2018.12.5A.png)
  
-**b)** Nē, nevar. Pierādīsim, ka vienmēr būs vismaz divi vienkrāsas trijstūri. 
+**(B)** Nē, nevar. Pierādīsim, ka vienmēr būs vismaz divi vienkrāsas trijstūri. 
 Pieņemsim, ka ir tikai viens vienkrāsas trijstūris. Nezaudējot vispārīgumu, 
 varam uzskatīt, ka tas ir sarkans trijstūris $\textcolor{red}{ACE}$ (skat. 
 37.att.). Vismaz viena no trijstūra $FBD$ malām $FB,\ BD$ vai $DF$ ir zilā 

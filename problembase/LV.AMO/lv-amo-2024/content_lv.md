@@ -345,6 +345,8 @@ telpa bija gatava?
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
+* topic:FormingEquations
+* topic:RationalOperations
 
 </small>
 
@@ -396,6 +398,8 @@ tādas balvas, kurām bija vienāds saturs.
 * questionType:Prove
 * domain:Comb
 * subdomain:DOM_CountingObjects
+* topic:CombinationsWithRepetition
+* method:MTH_InterpretationWithCoding
 
 </small>
 
@@ -427,8 +431,11 @@ $2$ vai $3$ (ja tas dalās bez atlikuma). Vai šīs skaitļu virknes
 <small>
 
 * questionType:ProveDisprove
-* domain:NT
-* subdomain:DOM_NumericGamesAndAlgorithms
+* domain:NT,Comb
+* subdomain:DOM_NumericGamesAndAlgorithms,DOM_MakingMoves
+* method:MTH_PeriodicInvariant
+* topic:GraphColoredVertices
+* topic:ModularParity
 
 </small>
 
@@ -470,6 +477,8 @@ rūtiņu līnijām? Figūras drīkst būt pagrieztas.
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_SquareGridCut
+* topic:SquareGridCutting
+* topic:RotationBy90
 
 </small>
 
@@ -497,6 +506,9 @@ bet Sandra dziedāja 4 dziesmas (mazāk nekā jebkura cita meitene)?
 * questionType:FindAll
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
+* topic:DivisibilityProperties
+* topic:DoubleCounting
+
 
 </small>
 
@@ -622,6 +634,8 @@ Vai burvji rituālā no skaitliem $3,8,9,2,4$ var iegūt
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_MakingMoves
+* topic:DirectedGraphs
+* topic:WorkingBackwards
 
 </small>
 
@@ -696,6 +710,8 @@ $\sphericalangle BCO$ ar $\alpha$ un $\beta$!
 * questionType:FindAll
 * domain:Geom
 * subdomain:DOM_CirclesAndRelatedAngles
+* topic:TrianglesIsosceles
+* topic:TriangleAngles
 
 </small>
 
@@ -723,7 +739,7 @@ jeb
 
 $$2 \gamma=180^{\circ}-180^{\circ}+\alpha-2 \beta \Longrightarrow \gamma=\frac{a}{2}-\beta$$
 
-Secinām, ka $\sphericalangle O B C=\frac{\alpha}{2}-\beta$.
+Secinām, ka $\sphericalangle OBC=\frac{\alpha}{2}-\beta$.
 
 ![](LV.AMO.2024.8.4A.png)
 
@@ -741,6 +757,8 @@ Dotas piecas smagas kastes un tās izkārtotas, kā tas redzams 12. att. Šīs k
 * domain:Geom
 * subdomain:DOM_CuttingCoversColoring
 * method:MTH_PeriodicInvariant
+* topic:SquareGrid
+* topic:RotationBy90
 
 </small>
 
@@ -789,6 +807,7 @@ Kāda var būt izteiksmes $a^{4}+b^{4}$ vērtība, ja papildus zināms, ka $a+b 
 * domain:Alg
 * subdomain:DOM_MultivariableEquations
 * topic:VietaFormulas
+* topic:SystemsVariableElimination
 
 </small>
 
@@ -798,10 +817,10 @@ Vienādojot saucējus pirmajai vienādībai, iegūstam
 
 $$\begin{gathered}
 a\left(5-b^{2}\right) = b\left(a^{2}-5\right), \\
-5 a-a b^{2} = a^{2} b-5 b, \\
-5 a+5 b = a^{2} b+a b^{2}, \\
-5(a+b) = a b(a+b), \\
-5 =a b,
+5 a-ab^{2} = a^{2}b-5b, \\
+5a + 5b = a^{2}b + ab^{2}, \\
+5(a+b) = ab(a+b), \\
+5 = ab,
 \end{gathered}$$
 
 balstoties uz to, ka $a+b \neq 0$. Tātad iegūstam, ka
@@ -829,6 +848,8 @@ vai arī vismaz $4$ skolēni ieguva atzīmi, kas ir augstāka nekā $7$.
 * questionType:Prove
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
+* method:MTH_PigeonholePrincipleGeneralized
+* topic:ProvingInequalities
 
 </small>
 
@@ -840,7 +861,7 @@ katrai atzīmei no $0$ līdz $7$, bet devītā grupa atzīmēm
 sañemtajai kontroldarba atzīmei. Tā kā mums ir doti 28 skolēni 
 un 9 dažādas grupas, tad pēc Dirihlē principa būs viena grupa, 
 kura saturēs vismaz 4 skolēnus. Ja tā ir viena no pirmajām 
-astoñām grupām, tad tas atbilst tam, ka 4 skolēniem ir 
+astoņām grupām, tad tas atbilst tam, ka 4 skolēniem ir 
 vienāda atzīme. Ja devītā grupa satur vismaz 4 skolēnus, 
 tad tas atbilst tam, ka vismaz 4 skolēni ieguva atzı̄mi, 
 kas ir augstāka nekā $7$.
@@ -854,12 +875,12 @@ Pien̦emsim, ka nav vismaz 4 skolēni, kas ieguva atzīmi,
 kas ir augstāka nekā 7. Tas nozīmē, ka otrajā grupā ir 
 ne vairāk kā 3 skolēni. Tātad pirmajā grupā ir vismaz 25 skolēni. 
 Tā kā pirmajā grupā ir 8 iespējamas vērtības, kurām 
-dpiekārtoti vismaz 25 skolēni, tad pēc Dirihlē principa 
+piekārtoti vismaz 25 skolēni, tad pēc Dirihlē principa 
 varam secināt, ka vismaz 4 skolēniem būs vienāda atzīme. 
 Pretējā gadījumā, ja ir vismaz 4 skolēni, kas ieguva atzīmi, 
 kas ir augstāka nekā $7$, tad arī izpildās uzdevuma 
 nosacījumi. Secinām, ka vienmēr atradīsies vai nu vismaz $4$ 
-skolēni ar vienādu atzīmi, vai arı̄ 4 skolēni, 
+skolēni ar vienādu atzīmi, vai arı̄ 4 skolēni,
 kas ieguva atzīmi, kas ir augstāka nekā 7 .
 
 
@@ -878,6 +899,8 @@ skaitļi $20, 24, 25$?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_MakingMoves
+* method:MTH_FixedInvariant
+* topic:ModularParity
 
 </small>
 
@@ -899,7 +922,7 @@ aizvietots ar pāra skaitli.
 Ja $c=N$, tad $2(a+b)-c=P-N=N$. Nepāra 
 skaitlis tiek aizvietots ar nepāra skaitli.
 
-Tātad vienmēr uz tāfeles skaitlu paritāte saglabāsies, 
+Tātad vienmēr uz tāfeles skaitļu paritāte saglabāsies, 
 tas ir, uz tāfeles vienmēr būs uzrakstīts 1 pāra skaitlis 
 un 2 nepāra skaitļi. Bet prasīts iegūt $20$, $24$ un $25$, 
 kas ir $2$ pāra skaitļi un 1 nepāra skaitlis. 
@@ -919,6 +942,8 @@ krustpunkts ir $H$. Pamatot, ka $S_{AGHI} = S_{BEG}+S_{CEHF}+S_{DFI}$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* topic:TriangleAreaFromBaseAltitude
+* topic:ParallelogramArea
 
 </small>
 
@@ -966,6 +991,9 @@ Cik ir tādu deviņciparu tālruņa numuru, kas varētu būt Zanes tālruņa num
 * questionType:FindCount
 * domain:Comb
 * subdomain:DOM_CountingObjects
+* topic:RuleOfProduct
+* topic:DivisibilityRulesLastDigits
+* topic:DivisibilityRulesFor3And9
 
 </small>
 
@@ -988,8 +1016,8 @@ tad pēdējie četri cipari noteikti būs $0,5,7,9$, jo
 skaitlim jādalās ar $5$. To secību noskaidrosim vēlāk. 
 Tā kā mēs jau esam izmantojuši skaitlus $7$ un $9$, 
 tad pirmajiem četriem cipariem jābūt $2,4,6,8$ tieši 
-šādā secībā, jo tie ir sakārtoti augoši. Vien̄̄gie atlikušie 
-cipari, kas varētu atrasties tālruņa vid̄̄, ir $1$ un $3$. 
+šādā secībā, jo tie ir sakārtoti augoši. Vienīgie atlikušie 
+cipari, kas varētu atrasties tālruņa numura vidū, ir $1$ un $3$. 
 Tā kā numuram ir jādalās ar 3 (tas dalās ar 15), tad visu 
 ciparu summai ir jādalās ar 3 . Iegūstam, ka $2+4+6+8+x+0+5+7+9=41+x$ 
 jādalās ar $3$, kur $x$ ir $1$ vai $3$. Tātad vienīgā iespēja ir tad,
@@ -997,7 +1025,7 @@ ja $x=1$. Esam ieguvuši, ka Zanes numurs ir izskatā
 
 $$24681 \ast \ast \ast \ast,$$
 
-kur pēdējie 4 cipari ir kāds no skaitliem $0,5,7,9$. 
+kur pēdējie 4 cipari ir kāds no skaitļiem $0,5,7,9$. 
 Tā kā numuram ir jādalās ar $5$, tad pēdējais cipars var būt 
 $0$ vai $5$. Tātad pēdējam ciparam ir divas opcijas. 
 Pirmspēdējam ciparam nav šādu ierobežojumu, tāpēc tas 

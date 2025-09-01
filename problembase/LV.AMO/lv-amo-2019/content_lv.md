@@ -4,15 +4,15 @@ Doti trīs kvadrāti. Zilā kvadrāta malas garums ir $10~\mathrm{cm}$, sarkanā
 kvadrāta perimetrs ir par $80 \%$ lielāks nekā zilā kvadrāta perimetrs, bet 
 zaļā kvadrāta laukums ir $4$ reizes mazāks nekā zilā kvadrāta laukums.
 
-**a)** Par cik sarkanā kvadrāta laukums ir lielāks nekā zilā kvadrāta laukums?
+**(A)** Par cik sarkanā kvadrāta laukums ir lielāks nekā zilā kvadrāta laukums?
 
-**b)** Par cik procentiem zaļā kvadrāta perimetrs ir mazāks nekā zilā kvadrāta 
+**(B)** Par cik procentiem zaļā kvadrāta perimetrs ir mazāks nekā zilā kvadrāta 
 perimetrs?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll,FindAll
+* domain:Geom
 
 </small>
 
@@ -21,14 +21,14 @@ perimetrs?
 Zilā kvadrāta perimetrs ir $4 \cdot 10=40$ centimetri, bet laukums 
 $10 \cdot 10=100~\mathrm{cm}^{2}$.
 
-**a)** Sarkanā kvadrāta perimetrs ir par $80 \%$ lielāks nekā zilā kvadrāta 
+**(A)** Sarkanā kvadrāta perimetrs ir par $80 \%$ lielāks nekā zilā kvadrāta 
 perimetrs, tas ir, $80 \%$ no $40=\frac{80}{100} \cdot 40=32$ centimetri. 
 Tātad sarkanā kvadrāta perimetrs ir $40+32=72$ centimetri un tā malas garums ir
 $72:4=18$ centimetri. Līdz ar to sarkanā kvadrāta laukums ir 
 $18 \cdot 18=324~\mathrm{cm}^{2}$. Tātad sarkanā kvadrāta laukums ir par 
 $324-100=224~\mathrm{cm}^{2}$ lielāks nekā zilā kvadrāta laukums.
 
-**b)** Zaļā kvadrāta laukums ir $100:4=25~\mathrm{cm}^{2}$. Tāpēc tā malas 
+**(B)** Zaļā kvadrāta laukums ir $100:4=25~\mathrm{cm}^{2}$. Tāpēc tā malas 
 garums ir $5~\mathrm{cm}$ un perimetrs ir $5 \cdot 4=20~\mathrm{cm}$. Tātad 
 zaļā kvadrāta perimetrs ir par $40-20=20~\mathrm{cm}$ mazāks jeb par $50 \%$ 
 mazāks nekā zilā kvadrāta perimetrs.
