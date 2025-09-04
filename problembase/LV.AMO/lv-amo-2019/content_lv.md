@@ -45,8 +45,8 @@ pirmais vai otrais - vienmēr var uzvarēt?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -72,8 +72,8 @@ kopā būtu tieši $6$ krustpunkti?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb,Geom
 
 </small>
 
@@ -93,8 +93,8 @@ Pamato, ka tas ir mazākais iespējamais skaits!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Comb
 
 </small>
 
@@ -122,8 +122,8 @@ visi tādi skaitļi un citu vairs nav!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -153,12 +153,12 @@ $$\frac{16}{17}; \frac{441}{439}; \frac{11}{12}; \frac{391}{389}; \frac{21}{23}$
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izsakām dotās daļas kā decimāldaļas ar precizitāti līdz tūkstošdaļām vai 
 desmittūkstošdalām: 
@@ -166,7 +166,7 @@ $\frac{16}{17} \approx 0,941; \frac{441}{439} \approx 1,0046; \frac{11}{12} \app
 
 Tad $\frac{21}{23}<\frac{11}{12}<\frac{16}{17}<\frac{441}{439}<\frac{391}{389}$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pamatosim, ka daļas, sakārtotas augošā secībā, ir
 
@@ -202,8 +202,8 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -229,24 +229,24 @@ viņš zaudēs.
 
 # <lo-sample/> LV.AMO.2019.6.3
 
-Cik lielu leņķi (šaurāko) veido pulksteņa stundu un minūšu rādītājs **a)** 
-plkst. 14:00; **b)** plkst. 13:40?
+Cik lielu leņķi (šaurāko) veido pulksteņa stundu un minūšu rādītājs **(A)** 
+plkst. 14:00; **(B)** plkst. 13:40?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll,FindAll
+* domain:Geom
 
 </small>
 
 ## Atrisinājums
 
-**a)** Ievērojam, ka plkst. 15:00 pulksteņa rādītāji veidotu $90^{\circ}$ 
+**(A)** Ievērojam, ka plkst. 15:00 pulksteņa rādītāji veidotu $90^{\circ}$ 
 lielu leņķi, tātad plkst. 14:00 pulksteņa rādītāji veido $\frac{2}{3}$ no 
 $90^{\circ}$ leņķa, tas ir, $\frac{2}{3} \cdot 90^{\circ}=60^{\circ}$ (skat. 
 7.att.).
 
-**b)** Plkst. $13:40$ minūšu rādītājs būs uz $8$, bet stundu rādītājs būs starp
+**(B)** Plkst. $13:40$ minūšu rādītājs būs uz $8$, bet stundu rādītājs būs starp
 $1$ un $2$ (skat. 7.att.). Leņķis starp $1$ un $2$ (skat. 8.att.) ir 
 $360^{\circ}:12=30^{\circ}$ liels. Tātad $1$ stundas laikā stundu rādītājs 
 pavirzītos par $30^{\circ}$. Tā kā $40$ minūtes ir $\frac{2}{3}$ no $1$ 
@@ -260,16 +260,16 @@ pulksteņa rādītājiem ir $180^{\circ}-10^{\circ}=170^{\circ}$
 
 # <lo-sample/> LV.AMO.2019.6.4
 
-Parādi, kā no taisnstūra ar izmēriem $6 \times 10$ rūtiņas var izgriezt **a)** 
-$9$, **b)** $10$ figūras, kādas redzamas 9.att.! Figūras var būt pagrieztas vai
+Parādi, kā no taisnstūra ar izmēriem $6 \times 10$ rūtiņas var izgriezt **(A)** 
+$9$, **(B)** $10$ figūras, kādas redzamas 9.att.! Figūras var būt pagrieztas vai
 apgāztas otrādi.
 
 ![](LV.AMO.2019.6.4.png)
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Geom
 
 </small>
 
@@ -285,13 +285,13 @@ apgāztas otrādi.
 
 # <lo-sample/> LV.AMO.2019.6.5
 
-Vai skaitlis $1234\ldots9899$ (pēc kārtas bez atstarpēm uzrakstīti visi 
+Vai skaitlis $1234\ldots{}9899$ (pēc kārtas bez atstarpēm uzrakstīti visi 
 naturālie skaitļi no $1$ līdz $99$) dalās ar $9$?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -322,8 +322,8 @@ pozitīvs, negatīvs skaitlis vai nulle!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
@@ -346,8 +346,8 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -379,8 +379,8 @@ mazāki nekā $180^{\circ}$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -406,8 +406,8 @@ no vienādiem regulāriem trijstūriem. Uzzīmē šādu piecstūri!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Geom
 
 </small>
 
@@ -430,8 +430,9 @@ septiņu naturālu skaitļu reizinājumu tā, lai to visu pēdējie cipari ir da
 ciparu)?
 
 <small>
-  
+
 * questionType:FindOptimal
+* domain:NT
 * concepts:product
   
 </small>
@@ -486,12 +487,12 @@ malējiem stabiem. Cik bija stabu, ja viņš nostaigāja $840~\mathrm{m}$?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Stabu skaitu apzīmējam ar $(2n+1)$, kur $n$ ir naturāls skaitlis. Tad Raimonda 
 noieto ceļu (skat. 17.att.) varam aprakstīt kā 
@@ -506,7 +507,7 @@ $n$ ir naturāls skaitlis). Tātad stabu skaits ir $2n+1=2 \cdot 7+1=15$.
 
 ![](LV.AMO.2019.8.1A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Stabu skaitu apzīmējam ar $(2k+1)$, kur $k$ ir naturāls skaitlis, bet stabu 
 attālumu līdz vidējam stabam - ar $a_{1}, a_{2}, \ldots, a_{k}$ (skat. 
@@ -531,7 +532,7 @@ $k$ ir naturāls skaitlis). Tātad stabu skaits ir $2k+1=2 \cdot 7+1=15$.
 
 ![](LV.AMO.2019.8.1B.png)
 
-*Piezīme.* Vienādojumu $k \cdot(2 k+1)=105$ var risināt arī neizmantojot 
+*Piezīme.* Vienādojumu $k \cdot (2k+1)=105$ var risināt arī neizmantojot 
 kvadrātvienādojuma atrisināšanas metodes, bet apskatot visas dažādās iespējas, 
 kādu divu naturālu skaitļu reizinājums var būt $105$.
 
@@ -547,8 +548,8 @@ uzvarēt?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -574,8 +575,8 @@ $DE$ ir perpendikulārs $AF$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -584,8 +585,7 @@ $DE$ ir perpendikulārs $AF$.
 Ievērojam, ka
 
 - $\sphericalangle BAE=\sphericalangle EAD=\alpha$ pēc bisektrises definīcijas;
-
-- $\sphericalangle BAE=\sphericalangle AFD=\alpha$ kā iekšējie škērsleņķi pie 
+- $\sphericalangle BAE=\sphericalangle AFD=\alpha$ kā iekšējie šķērsleņķi pie 
   paralēlām taisnēm $AB$ un $CD$, ko krusto taisne $AF$
 
 Tātad trijstūris $ADF$ ir vienādsānu trijstūris (skat. 20.att.), kuram $AD=DF$.
@@ -601,13 +601,13 @@ jāizmanto.
 # <lo-sample/> LV.AMO.2019.8.4
 
 Mežā dzīvo $m$ rūķīši. Daži no tiem savā starpā draudzējas (ja $A$ draudzējas 
-ar $B$, tad $B$ draudzējas ar $A$ ), pie tam katra rūķīša draugu skaits ir kāda
+ar $B$, tad $B$ draudzējas ar $A$), pie tam katra rūķīša draugu skaits ir kāda
 naturāla skaitļa kubs. Kādām $m$ vērtībām tas ir iespējams?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Comb
 
 </small>
 
@@ -649,6 +649,7 @@ nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 <small>
   
 * questionType:FindOptimal
+* domain:NT
 * concepts:product
   
 </small>
@@ -697,8 +698,8 @@ slīpas taisnes. Cik paralelogramu izveido šīs taisnes?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
 
 </small>
 
@@ -737,8 +738,8 @@ otrais - vienmēr var uzvarēt?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -765,19 +766,19 @@ Dots vienādsānu taisnleņķa trijstūris $ABC$ ar taisno leņķi $C$. Uz tā
 hipotenūzas konstruēts taisnstūris $ABNM$ tā, ka punkti $C$ un $N$ atrodas 
 dažādās pusēs no taisnes $AB$ un $AC=AM$. Nogrieznis $CM$ krusto $AB$ punktā 
 $P$. Punkts $L$ ir malas $MN$ viduspunkts. Nogrieznis $CL$ krusto $PN$ punktā 
-$Q$. Pierādīt, ka **a)** trijstūris $CBP$ ir vienādsānu; **b)** četrstūris 
+$Q$. Pierādīt, ka **(A)** trijstūris $CBP$ ir vienādsānu; **(B)** četrstūris 
 $QNBC$ ir rombs!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove,Prove
+* domain:Geom
 
 </small>
 
 ## Atrisinājums
 
-**a)** Tā kā $AC=AM$, tad trijstūris $MAC$ ir vienādsānu un 
+**(A)** Tā kā $AC=AM$, tad trijstūris $MAC$ ir vienādsānu un 
 $\sphericalangle ACM=\sphericalangle AMC=\alpha$ (skat. 24.att.). No taisnleņķa
 trijstūra $MAP$ iegūstam, ka $\sphericalangle APM=90^{\circ}-\alpha$. 
 Ievērojam, ka $\sphericalangle CPB=\sphericalangle APM=90^{\circ}-\alpha$ kā 
@@ -786,7 +787,7 @@ $\sphericalangle PCB=\sphericalangle ACB-\sphericalangle ACM=90^{\circ}-\alpha$.
 Tā kā $\sphericalangle CPB=\sphericalangle PCB$, tad trijstūris $CBP$ ir 
 vienādsānu.
 
-**b)** Pierādīsim, ka četrstūra $QNBC$ pretējās malas ir pa pāriem paralēlas 
+**(B)** Pierādīsim, ka četrstūra $QNBC$ pretējās malas ir pa pāriem paralēlas 
 (skat. 25.att.).
 
 Vienādsānu trijstūrī $ACB$ novelkam augstumu $CR$, kas ir arī mediāna un 
@@ -798,7 +799,7 @@ $CQ \parallel BN$.
 Trijstūris $ACB$ ir vienādsānu taisnleņķa trijstūris, tāpēc 
 $\sphericalangle CBA=45^{\circ}$.
 
-No a) gadījumā pierādītā izriet, ka $PB=CB=BN$. Tātad trijstūris $PBN$ ir 
+No (A) gadījumā pierādītā izriet, ka $PB=CB=BN$. Tātad trijstūris $PBN$ ir 
 vienādsānu taisnleņķa trijstūris, tāpēc $\sphericalangle BNP=45^{\circ}$. Esam 
 ieguvuši, ka 
 $\sphericalangle CBN+\sphericalangle BNP=45^{\circ}+90^{\circ}+45^{\circ}=180^{\circ}$,
@@ -953,8 +954,8 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -982,8 +983,8 @@ novilkts augstums $EG$. Pierādīt, ka $\sphericalangle AGC=\sphericalangle AFC$
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1060,8 +1061,8 @@ dimanti kopā. Cik dimantu ir karalienei?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -1317,8 +1318,8 @@ skaitlis!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
 
 </small>
 
@@ -1362,8 +1363,8 @@ $$\cos 3x \cos 2x+\sin 2x \sin 3x=\left(\cos \frac{\pi}{10}-\sin \frac{\pi}{10}\
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -1403,7 +1404,7 @@ otrais - vienmēr var uzvarēt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka vienmēr var uzvarēt pirmais spēlētājs.
 
@@ -1441,7 +1442,7 @@ otrajam spēlētājam un viņš zaudēs.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 * Visi dalītāji veido taisnstūrainu struktūru, 
   kur reizināšana ar $2$ ir virzīšanās pa vienu asi, 
@@ -1508,7 +1509,7 @@ svarīga). Ar kādu lielāko trijnieka pakāpi dalās $N$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Iedomāsimies, ka visiem skolēniem ir atšķirīgs vecums (vai garums milimetros 
 vai jebkāds cits sakārtojums). Ņemam visjaunāko skolēnu un piekārtojam viņam 
@@ -1539,7 +1540,7 @@ Tātad lielākā trijnieka pakāpe, ar kuru dalās $N$, ir $26$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Aprēķinām $N$, izmantojot reizināšanas likumu. 
 Visjaunākajam (visīsākajam u.c.) skolēnam pāri var atrast $99$ veidos.

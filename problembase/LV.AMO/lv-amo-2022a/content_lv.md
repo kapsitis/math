@@ -10,15 +10,12 @@ Daži skaitļi jau ir ierakstīti.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Alg
 
 </small>
 
 ## Atrisinājums
-
-
-
 
 Skat. 2.att., kur katrā rindā, katrā kolonnā un katrā diagonālē 
 ierakstīto trīs skaitļu summa ir $21$.
@@ -29,24 +26,21 @@ ierakstīto trīs skaitļu summa ir $21$.
 
 # <lo-sample/> LV.AMO.2022A.5.2
 
-
-
 Karlsonam ir $29$ milzīgi tortes gabali. Viņš izvēlas kādu no gabaliem
-un sagriež to vai nu $3$ , vai $5$ mazākos gabalos. Tad viņš atkal izvēlas 
+un sagriež to vai nu $3$, vai $5$ mazākos gabalos. Tad viņš atkal izvēlas 
 kādu no gabaliem un sagriež to vai nu $3$, vai $5$ mazākos gabalos. Vai, 
 atkārtoti izpildot šādas darbības, Karlsons var iegūt tieši $2022$ tortes gabalus?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
 ## Atrisinājums
 
-
-Pamatosim, ka prasītais nav iespējams. levērojam, ka sākumā bija $29$
+Pamatosim, ka prasītais nav iespējams. Ievērojam, ka sākumā bija $29$
 tortes gabali - nepāra skaitlis.
 
 Ja vienu tortes gabalu sadala
@@ -64,22 +58,20 @@ pāra skaitlis, tad tieši $2022$ gabalus iegūt nevar.
 
 # <lo-sample/> LV.AMO.2022A.5.3
 
-
 No taisnstūra ar izmēriem $6 \times 7$ rūtiņas izgriez sešas 3.att. 
-redzamās figūras! Griezuma līnijām jāiet pa rūtinuu malām, 
+redzamās figūras! Griezuma līnijām jāiet pa rūtiņu malām, 
 figūras var būt pagrieztas vai apgāztas otrādi.
 
 ![](LV.AMO.2022A.5.3.png)
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Geom
 
 </small>
 
 ## Atrisinājums
-
 
 Skat., piemēram, 4.att. un 5.att.
 
@@ -88,20 +80,18 @@ Skat., piemēram, 4.att. un 5.att.
 
 # <lo-sample/> LV.AMO.2022A.5.4
 
-
 Laine uz lapas uzrakstīja lielāko divciparu pirmskaitli, kuram abi cipari 
-arī ir pirmskaitli. Raimonds uzrakstīja mazāko divciparu pirmskaitli, kuram 
+arī ir pirmskaitļi. Raimonds uzrakstīja mazāko divciparu pirmskaitli, kuram 
 abi cipari arī ir pirmskaitļi. Kāda ir abu uzrakstīto skaitļu starpība?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:NT
 
 </small>
 
 ## Atrisinājums
-
 
 Pamatosim, ka abu uzrakstīto skaitlu starpība ir $50$.
 
@@ -130,8 +120,6 @@ Līdz ar to abu uzrakstīto skaitļu starpība ir $73-23=50$.
 
 # <lo-sample/> LV.AMO.2022A.5.5
 
-
-
 Rindā pēc kārtas bez tukšumiem uzrakstīti visi skaitļi no $1$ līdz $999$:
 
 $$123456789101112\ldots 998999.$$
@@ -140,13 +128,12 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ tieši šād
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:Comb
 
 </small>
 
 ## Atrisinājums
-
 
 Pamatosim, ka cipari $2,0,2,2$ tieši šādā secībā ir uzrakstīti divās vietās.
 
@@ -187,9 +174,6 @@ Tātad rindā cipari $2,0,2,2$ tieši šādā secībā ir uzrakstīti divās vie
 
 # <lo-sample/> LV.AMO.2022A.6.1
 
-
-
-
 Piektdienas rītā Laine no savām mājām devās uz skolu. Kad viņa bija 
 nogājusi $20 \%$ no visa ceļa, viņai vēl bija jānoiet $1200$ metri, lai 
 nokļūtu līdz vietai, kur viņai būtu atlikuši vēl $20 \%$ no visa ceļa. Cik 
@@ -197,13 +181,12 @@ kilometru ir no Laines mājām līdz skolai?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
 ## Atrisinājums
-
 
 No uzdevumā dotā izriet, ka $60 \%$ no visa ceļa ir $1200$ metri. Ja visu ceļa 
 garumu no Laines mājām līdz skolai apzīmējam ar $x$, tad iegūstam, ka $60 \%$ 
@@ -215,7 +198,6 @@ ir $2000$ metri jeb $2$ kilometri.
 
 # <lo-sample/> LV.AMO.2022A.6.2
 
-
 Konditorejā ir $4$ plaukti, kuros pārdevēja liek eklērus. No rīta šajos 
 plauktos bija palikuši attiecīgi $2, 9, 0, 4$ eklēri. Ik pēc $20$ minūtēm 
 pārdevēja izvēlas divus no šiem plauktiem un katrā no tiem ieliek $1$ svaigi 
@@ -224,13 +206,12 @@ iespējams, ka kādā brīdī visos četros plauktos būs vienāds skaits eklēr
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
 ## Atrisinājums
-
 
 Pamatosim, ka prasītais nav iespējams.
 
@@ -248,8 +229,7 @@ ir vienāds eklēru skaits.
 
 # <lo-sample/> LV.AMO.2022A.6.3
 
-
-No kvadrāta ar izmēriem $10 \times 10$ rūtinas izgriez sešpadsmit 6.att. 
+No kvadrāta ar izmēriem $10 \times 10$ rūtiņas izgriez sešpadsmit 6.att. 
 redzamās figūras! Griezuma līnijām jāiet pa rūtiņu malām, figūras var būt 
 pagrieztas vai apgāztas otrādi.
 
@@ -257,8 +237,8 @@ pagrieztas vai apgāztas otrādi.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Geom
 
 </small>
 
@@ -279,13 +259,12 @@ Kāda ir abu uzrakstīto skaitļu summa?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:NT
 
 </small>
 
 ## Atrisinājums
-
 
 Pamatosim, ka abu uzrakstīto skaitlu summa ir $174$.
 
@@ -308,7 +287,6 @@ Līdz ar to abu uzrakstīto skaitļu summa ir $73+101=174$.
 
 # <lo-sample/> LV.AMO.2022A.6.5
 
-
 Rindā pēc kārtas bez tukšumiem uzrakstīti visi skaitli no $1$ līdz $9999$:
 
 $$123456789101112\ldots 99989999.$$
@@ -317,8 +295,8 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ (tieši šā
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:Comb
 
 </small>
 
@@ -371,8 +349,6 @@ Tātad rindā cipari $2, 0, 2, 2$ tieši šādā secībā ir uzrakstīti piecās
 
 # <lo-sample/> LV.AMO.2022A.7.1
 
-
-
 Attālināto mācību laikā skolēni iemācījās ļoti ātri atbildēt uz testa 
 jautājumiem. Vilnis uz $4$ jautājumiem var atbildēt $30$ sekundēs, bet Raimonds
 uz pieciem jautājumiem var atbildēt $40$ sekundēs. Skolotāja bija sagatavojusi 
@@ -382,13 +358,12 @@ izpildīja Raimonds?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
 ## Atrisinājums
-
 
 Tā kā Vilnis uz $4$ jautājumiem var atbildēt $30$ sekundēs, tad $1$ minūtē 
 Vilnis atbild uz $8$ jautājumiem. Tātad stundas laikā Vilnis atbildēja uz 
@@ -402,7 +377,6 @@ $\frac{480}{15} \cdot 2=64$ minūtes.
 
 # <lo-sample/> LV.AMO.2022A.7.2
 
-
 Karlsonam ir $30$ milzīgi tortes gabali. Viņš izvēlas trīs gabalus un sagriež 
 katru no tiem vai nu $3$, vai $5$ mazākos gabalos (visus izvēlētos gabalus 
 sagriež vienādā skaitā mazāku gabalu). Tad viņš atkal izvēlas kādus $3$ gabalus
@@ -412,17 +386,17 @@ Karlsons var iegūt tieši $2000$ tortes gabalus?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
-## Atrisinājums
 
+## Atrisinājums
 
 Pamatosim, ka prasītais nav iespējams.
 
-levērojam, ka sākumā gabalu skaits ir $30$, kas dalās ar $3$.
+Ievērojam, ka sākumā gabalu skaits ir $30$, kas dalās ar $3$.
 
 Aplūkosim, kā izmainās kopējais gabalu skaits, atkarībā no tā, kuru darbību 
 Karlsons veic:
@@ -444,7 +418,6 @@ $2000$ nedalās ar $3$. Tātad Karlsons nevarēs iegūt tieši $2000$ gabalus.
 
 # <lo-sample/> LV.AMO.2022A.7.3
 
-
 Vai taisnstūri ar izmēriem $3 \times 3370$ rūtiņas var noklāt ar 8.att. 
 redzamām figūrām tā, lai paliktu tieši $2022$ nenoklātas rūtiņas? Dotās figūras
 malām jāiet pa rūtiņu līnijām, tā var būt pagriezta vai apgriezta spoguļattēlā,
@@ -455,7 +428,7 @@ figūras nedrīkst pārklāties vai iziet ārpus taisnstūra.
 <small>
 
 * questionType:ProveDisprove
-* domain:
+* domain:Geom
 
 </small>
 
@@ -473,8 +446,6 @@ $3 \cdot 674=2022$ rūtiņas.
 
 # <lo-sample/> LV.AMO.2022A.7.4
 
-
-
 Elektroniskais pulkstenis rāda stundu skaitu (vesels skaitlis robežās no $0$ 
 līdz $23$) un minūšu skaitu (vesels skaitlis robežās no $0$ līdz $59$). 
 Noteikt, cik reižu diennaktī stundu skaita un minūšu skaita starpība dalās 
@@ -482,13 +453,12 @@ ar $7$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:NT
 
 </small>
 
 ## Atrisinājums
-
 
 Pamatosim, ka diennaktī $207$ reizes stundu skaita un minūšu skaita starpība 
 dalās ar $7$.
@@ -496,7 +466,7 @@ dalās ar $7$.
 Skaitli, dalot ar $7$, iespējamas $7$ dažādas atlikumu vērtības: 
 $0,1,2,3,4,5,6$. Skaitļus no $0$ līdz $59$ sadalīsim $7$ grupās atkarībā no tā,
 kādu atlikumu šie skaitļi dod, dalot tos ar $7$, un ierakstīsim tabulā. 
-levērosim, ka stundu un minūšu skaitu starpība dalās ar $7$ tad un tikai tad, 
+Ievērosim, ka stundu un minūšu skaitu starpība dalās ar $7$ tad un tikai tad, 
 ja stundu skaits un minūšu skaits ir ierakstīti vienā un tajā pašā tabulas 
 rindiņā.
 
@@ -516,7 +486,6 @@ izvēlēties stundu un minūšu rādījumus tā, lai to starpība dalītos ar $7
 
 # <lo-sample/> LV.AMO.2022A.7.5
 
-
 Trijzemē apgrozībā ir trīs veidu monētas: $2$ centi, $5$ centi un vēl viena. 
 Zināms, ka gan trijkāji, kas maksā $13$ centus, gan trīsriteni, kas maksā $19$ 
 centus, var nopirkt, maksājot tieši ar trīs monētām. Kāda ir Trijzemes trešās 
@@ -524,13 +493,12 @@ monētas vērtība? Atrodi visus iespējamos variantus un pamato, ka citu nav!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Comb
 
 </small>
 
 ## Atrisinājums
-
 
 Pamatosim, ka vienīgā iespējamā trešās monētas vērtība ir $9$ centi.
 
@@ -563,27 +531,24 @@ centu iegūšanai.
 
 	* $5+5$, un varam izteikt $13=5+5+3,19=5+5+\mathbf {9}$
 
-levērojam, ka vienīgā monētas vērtība, kas sakrīt, ir $9$. Līdz ar to esam 
+Ievērojam, ka vienīgā monētas vērtība, kas sakrīt, ir $9$. Līdz ar to esam 
 ieguvuši, ka vienīgā iespējamā trešās monētas vērtība ir $9$ centi.
 
 
 
 # <lo-sample/> LV.AMO.2022A.8.1
 
-
-
 Taisnes $y=x$ un $y=-2 x+2022$ krustojas punktā $A$. Punkti $B$ un $C$ ir 
 attiecīgi šo taišņu krustpunkti ar $y$ asi. Aprēķināt trijstūra $ABC$ laukumu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
 ## Atrisinājums
-
 
 Punktu $B$ un $C$ koordinātas ir $(0; 0)$ un $(0; 2022)$. Tātad $B C=2022$. 
 levērojot, ka $y=x$, aprēķinām abu taišņu krustpunkta $x$ koordinātu: 
@@ -595,8 +560,6 @@ $S_{ABC}=\frac{1}{2} BC \cdot h_{BC}=\frac{1}{2} \cdot 2022 \cdot 674=681414$.
 
 # <lo-sample/> LV.AMO.2022A.8.2
 
-
-
 Kādā dienā Karlsons uzlika uz galda $44$ kūciņas. Lai būtu jautrāk, Karlsons 
 izdomāja, ka vienā piegājienā viņš apēdīs vai nu $5$ kūciņas, vai arī $10$ 
 kūciņas. Ja Karlsons apēda $5$ kūciņas, tad Brālītis uzreiz uz galda uzlika $9$
@@ -605,17 +568,16 @@ $2$ kūciņas. Vai iespējams, ka kādā brīdī uz galda bija tieši $2022$ kū
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Alg
 
 </small>
 
 ## Atrisinājums
 
-
 Pamatosim, ka prasītais nav iespējams.
 
-levērojam, ka sākumā kūciņu skaits ir $44$, kas dalās ar $4$.
+Ievērojam, ka sākumā kūciņu skaits ir $44$, kas dalās ar $4$.
 
 Aplūkosim, kā izmainās kopējais kūciņu skaits, atkarībā no tā, cik kūciņas 
 vienā piegājienā apēd Karlsons:
@@ -637,21 +599,18 @@ tieši $2022$ kūciņas.
 
 # <lo-sample/> LV.AMO.2022A.8.3
 
-
-
 Kvadrātā $ABCD$ novilkta diagonāle $AC$ un uz tās atzīmēts punkts $E$ tā, ka 
 $\sphericalangle DEC=75^{\circ}$. Nogriežņa $DE$ pagarinājums krusto malu $AB$ punktā
 $F$. Pierādīt, ka $EF=FB$!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
 ## Atrisinājums
-
 
 Tā kā $AC$ ir kvadrāta diagonāle, tad 
 $\sphericalangle BCA=\sphericalangle DCA=90^{\circ}: 2=45^{\circ}$. No 
@@ -677,8 +636,6 @@ Līdz ar to $EF=FB$.
 
 # <lo-sample/> LV.AMO.2022A.8.4
 
-
-
 Māris iedomājās naturālu skaitli $n$. Pēc tam viņš izvēlējās vienu skaitļa $n$ 
 dalītāju, pareizināja to ar $4$ un iegūto reizinājumu atņēma no dotā skaitļa 
 $n$, iegūstot vērtību $11$. Kāda varēja būt $n$ vērtība? Atrodi visus variantus
@@ -686,13 +643,12 @@ un pamato, ka citu nav!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:NT
 
 </small>
 
 ## Atrisinājums
-
 
 Skaitļa $n$ dalītāju apzīmējam ar $d$, tad $n-4d=11$. Tā kā $d$ ir skaitļa $n$ 
 dalītājs, tad $n=k \cdot d$ un iegūstam, ka $kd-4d=11$ jeb $d(k-4)=11$, tas 
@@ -709,8 +665,6 @@ Tātad Māris iedomājās vai nu skaitli $15$, vai $55$.
 
 # <lo-sample/> LV.AMO.2022A.8.5
 
-
-
 Mārtiņš augošā secībā pēc kārtas sāka rakstīt skaitļus, kuru pirmie četri 
 cipari ir "$3321$":
 
@@ -720,13 +674,12 @@ Kāds ir $3321.$ skaitlis šajā virknē?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Comb
 
 </small>
 
 ## Atrisinājums
-
 
 Pirmais naturālais skaitlis, kura pieraksts sākas ar "$3321$", ir pats 
 skaitlis $3321$.
@@ -753,9 +706,6 @@ meklētais skaitlis ir $33212209$.
 
 # <lo-sample/> LV.AMO.2022A.9.1
 
-
-
-
 Sporta preču veikalā ir daži vienriteņi, daži divriteņi un daži trīsriteņi, 
 turklāt zināms, ka divriteņu ir vairāk nekā trīsriteņu. Emīls iegāja veikalā un
 redzēja septiņus riteņu sēdekļus un trīspadsmit riepas. Cik vienriteņu ir 
@@ -763,13 +713,12 @@ sporta preču veikalā?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
 ## Atrisinājums
-
 
 Vienriteņu, divriteņu un trīsriteņu skaitu apzīmējam attiecīgi ar $v, d$ un 
 $t$. No dotā iegūstam, ka $v+d+t=7$ un $v+2d+3t=13$. levērojot, ka 
@@ -787,8 +736,6 @@ vienriteņi.
 
 # <lo-sample/> LV.AMO.2022A.9.2
 
-
-
 Sākumā uz tāfeles uzrakstīts skaitlis $2112$. Ar to atļauts veikt šādas 
 darbības:
 
@@ -801,20 +748,20 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $212$
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:NT
 
 </small>
 
-## Atrisinājums
 
+## Atrisinājums
 
 Pamatosim, ka prasītais nav iespējams.
 
 Sākotnēji uz tāfeles uzrakstītais skaitlis $2112$ dalās ar $3$ (ar $3$ dalās 
 arī tā ciparu summa).
 
-levērosim, ka veicot atļautos gājienus, uz tāfeles uzrakstītā skaitla ciparu 
+Ievērosim, ka veicot atļautos gājienus, uz tāfeles uzrakstītā skaitla ciparu 
 summa attiecīgi
 
 - nemainās;
@@ -830,21 +777,18 @@ skaitlis $212$ nedalās ar $3$, tāpēc to ar aprakstītajiem gājieniem nevar i
 
 # <lo-sample/> LV.AMO.2022A.9.3
 
-
-
 Izliektā sešstūrī $ABCDEF$ pretējās malas ir pa pāriem paralēlas, tas ir, 
-$AB\|DE, BC\|EF$ un $CD\|AF$. Zināms, ka $AB=DE$. Pierādīt, ka $BC=EF$ un 
+$AB \| DE$, $BC \| EF$ un $CD \| AF$. Zināms, ka $AB=DE$. Pierādīt, ka $BC=EF$ un 
 $CD=AF$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
 ## Atrisinājums
-
 
 Novelkam $AE$ un $BD$ (skat. 11.att.). Četrstūris $ABDE$ ir paralelograms, jo 
 $AB\|DE$ un $AB=DE$. Tāpēc $BD=AE, \sphericalangle BAE=\sphericalangle BDE$ un 
@@ -859,7 +803,7 @@ $$\begin{aligned}
 & \circ \sphericalangle BDC=\sphericalangle CDE-\sphericalangle BDE=\sphericalangle FAB-\sphericalangle BAE=\sphericalangle FAE.
 \end{aligned}$$
 
-levērojam, ka $\triangle BCD=\triangle EFA$ pēc pazīmes $\ell m \ell$, jo 
+Ievērojam, ka $\triangle BCD=\triangle EFA$ pēc pazīmes $\ell m \ell$, jo 
 $\sphericalangle CBD=\sphericalangle AEF, BD=AE, \sphericalangle BDC=\sphericalangle FAE$.
 
 Līdz ar to $BC=EF$ un $CD=AF$ kā vienādu trijstūru atbilstošās malas.
@@ -870,21 +814,19 @@ Līdz ar to $BC=EF$ un $CD=AF$ kā vienādu trijstūru atbilstošās malas.
 
 # <lo-sample/> LV.AMO.2022A.9.4
 
-
-
 Skaitļi $a; b; c$ (tieši šādā secībā) veido aritmētisko progresiju. Pierādīt, 
 ka skaitļi $a^{2}-bc; b^{2}-ac; c^{2}-ab$ (tieši šādā secībā) arī veido 
 aritmētisko progresiju!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
 
 </small>
 
-## Atrisinājums
 
+## Atrisinājums
 
 Tā kā skaitļi $a; b; c$ veido aritmētisko progresiju, tad tos varam pierakstīt 
 kā $b-d; b; b+d$, kur $d$ ir diference. Izmantojot $b$ un $d$, izsakām arī 
@@ -904,8 +846,6 @@ $a^{2}-bc; b^{2}-ac; c^{2}-ab$ veido aritmētisko progresiju.
 
 # <lo-sample/> LV.AMO.2022A.9.5
 
-
-
 Kāds mazākais skaits rūtiņu jāaizkrāso taisnstūrī ar izmēriem $8 \times 8$ 
 rūtiņas, lai nevarētu atrast nevienu taisnstūri ar izmēriem $1 \times 5$ 
 rūtiņas (kurš var būt novietots gan horizontāli, gan vertikāli), kuram visas 
@@ -913,8 +853,8 @@ rūtiņas ir neaizkrāsotas?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Geom
 
 </small>
 
@@ -936,8 +876,6 @@ jāaizkrāso vismaz $12$ rūtiņas.
 
 # <lo-sample/> LV.AMO.2022A.10.1
 
-
-
 Uz tāfeles uzrakstīti $k$ secīgi naturāli skaitļi:
 
 $$a+1; a+2; \ldots ; a+k$$
@@ -947,13 +885,12 @@ pāra skaitļi!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
 ## Atrisinājums
-
 
 Tā kā pāra skaitļu ir vairāk nekā nepāra skaitļu, tad pirmais un pēdējais 
 uzrakstītais skaitlis ir pāra, jo tie pamīšus mainās - pāra skaitlis, nepāra 
@@ -961,14 +898,12 @@ skaitlis, pāra skaitlis, \ldots
 
 Ja nepāra skaitļu skaitu apzīmējam ar $x$, tad pāra skaitļu skaits ir $x+1$ un 
 $k=2x+1$. Līdz ar to $\frac{x+1}{2x+1}=52 \%$ jeb 
-$\frac{x+1}{2x+1}=\frac{13}{25}$. legūstam, ka $25x+25=26x+13$ jeb $x=12$. 
+$\frac{x+1}{2x+1}=\frac{13}{25}$. Iegūstam, ka $25x+25=26x+13$ jeb $x=12$. 
 Tātad $k=2x+1=25$.
 
 
 
 # <lo-sample/> LV.AMO.2022A.10.2
-
-
 
 Sākumā uz tāfeles uzrakstīts skaitlis $1221$. Ar to atļauts veikt šādas 
 darbības:
@@ -983,20 +918,19 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $121$
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:NT
 
 </small>
 
 ## Atrisinājums
-
 
 Pamatosim, ka prasītais nav iespējams.
 
 Sākotnēji uz tāfeles uzrakstītais skaitlis $1221$ dalās ar $3$ (ar $3$ dalās 
 arī tā ciparu summa).
 
-levērosim, ka, veicot atļautos gājienus, uz tāfeles uzrakstītā skaitļa ciparu 
+Ievērosim, ka, veicot atļautos gājienus, uz tāfeles uzrakstītā skaitļa ciparu 
 summa attiecīgi
 
 - nemainās;
@@ -1014,21 +948,18 @@ skaitlis $121$ nedalās ar $3$, tāpēc to ar aprakstītajiem gājieniem nevar i
 
 # <lo-sample/> LV.AMO.2022A.10.3
 
-
-
 Uz trijstūra $ABC$ malām $AC$ un $BC$ atlikti attiecīgi punkti $M$ un $K$. 
-Nogriežņi $AK$ un $BM$ krustojas punktā $O$. Aprēkināt trijstūra $ABC$ laukumu,
+Nogriežņi $AK$ un $BM$ krustojas punktā $O$. Aprēķināt trijstūra $ABC$ laukumu,
 ja $S_{AMO}=S_{BKO}=8$ un $S_{KMO}=4$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
 
 </small>
 
 ## Atrisinājums
-
 
 Tā kā $S_{AMK}=S_{BMK}=8+4=12$ (skat. 14.att.) un mala $MK$ ir kopīga, tad šo 
 trijstūru augstumi, kas novilkti attiecīgi no virsotnēm $A$ un $B$, ir vienādi.
@@ -1053,20 +984,17 @@ $\textit {Piezīme.}$ Var ievērot, ka $MK$ ir trijstūra $ABC$ viduslīnija.
 
 # <lo-sample/> LV.AMO.2022A.10.4
 
-
-
 Kāds ir lielākais skaits dažādu naturālu skaitļu, ko var izvēlēties, lai 
 jebkuru trīs izvēlēto skaitļu summa būtu pirmskaitlis?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:NT
 
 </small>
 
 ## Atrisinājums
-
 
 Lielākais skaits dažādo naturālo skaitļu, ko var izvēlēties, ir $4$. Piemēram, 
 der skaitļi $1, 3, 7, 9$, jo jebkuru trīs skaitļu summa ir pirmskaitlis: 
@@ -1096,13 +1024,11 @@ iespējams.
 
 # <lo-sample/> LV.AMO.2022A.10.5
 
-
-
 Pirmo $n$ skaitļu reizrēķina tabula ir tabula ar $n$ rindām un $n$ kolonnām, 
 kurā $r$-tajā rindā un $k$-tajā kolonnā ierakstīts skaitlis $r \cdot k$ (visiem
 $1 \leq r \leq n$ un $1 \leq k \leq n$ ). Šī tabula ir izkrāsota šaha galdiņa 
 veidā tā, ka rūtiņa, kas atrodas pirmās rindas pirmajā kolonnā ir nokrāsota 
-melna (15.att. redzams piemērs, kur $n=5$ ). lekrāsotajās rūtiņās ierakstīto 
+melna (15.att. redzams piemērs, kur $n=5$ ). Iekrāsotajās rūtiņās ierakstīto 
 skaitļu summu apzīmēsim ar $A$, bet neiekrāsotajās ar $B$. Aprēķiniet $(A-B)$ 
 vērtību (tā var būt atkarīga no $n$ vērtības).
 
@@ -1110,13 +1036,12 @@ vērtību (tā var būt atkarīga no $n$ vērtības).
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
 ## Atrisinājums
-
 
 Šķirojam divus gadījumus.
 
@@ -1144,24 +1069,20 @@ $2 \times 2$, tad $A-B=m^{2}=\left(\frac{n}{2}\right)^{2}$.
 
 # <lo-sample/> LV.AMO.2022A.11.1
 
-
-
-
 Punkts $A$ ir parabolas $y=x^{2}+50$ virsotne, bet punkts $B$ ir parabolas 
 $y=x^{2}-2022x+47$ virsotne. Aprēķināt trijstūra $AOB$ laukumu, ja punkts $O$ 
 ir koordinātu asu krustpunkts!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
 
 </small>
 
 ## Atrisinājums
 
-
-levērojam, ka punkta $A$ koordinātas ir $(0;50)$. Tātad nogriežņa $OA$ garums 
+Ievērojam, ka punkta $A$ koordinātas ir $(0;50)$. Tātad nogriežņa $OA$ garums 
 ir $50$. Parabolas $y=x^{2}-2022x+47$ virsotnes $x$ koordināta ir 
 $x_{v}=\frac{2022}{2}=1011$. Tātad attālums no punkta $B$ līdz $y$ asij ir 
 $1011$. Līdz ar to 
@@ -1170,8 +1091,6 @@ $S_{AOB}=\frac{1}{2} OA \cdot h_{OA}=\frac{1}{2} \cdot 50 \cdot 1011=25275$.
 
 
 # <lo-sample/> LV.AMO.2022A.11.2
-
-
 
 Doti divi lieli trauki A un B. Sākumā traukā A atrodas $2021$ melna un $2023$ 
 baltas bumbiņas, bet traukā B - tikai melnas bumbiņas. Bumbiņu kopskaits abos 
@@ -1189,8 +1108,8 @@ iespējams, ka tā būs melna?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 
 </small>
 
@@ -1215,21 +1134,19 @@ Līdz ar to vienas pēdējās bumbiņas krāsa traukā A būs balta.
 
 # <lo-sample/> LV.AMO.2022A.11.3
 
-
-
 Izliekta četrstūra $ABCD$ diagonāle $AC$ ir leņķa $A$ bisektrise, $AC=AD$ un 
 $\sphericalangle B=90^{\circ}$. Trijstūrī $ADC$ novilkts augstums $DH$. 
 Pierādīt, ka taisne $BH$ krusto nogriezni $CD$ tā viduspunktā!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
-## Atrisinājums
 
+## Atrisinājums
 
 Tā kā $\sphericalangle BAC=\sphericalangle HAD$ un 
 $AC=AD$, tad $\triangle ABC=\triangle AHD$ pēc pazīmes 
@@ -1250,8 +1167,6 @@ $CD$ tā viduspunktā $K$.
 
 # <lo-sample/> LV.AMO.2022A.11.4
 
-
-
 Četrciparu skaitli $\overline{abcd}$ sauksim par ekscentrisku, ja neviens tā 
 cipars nav $0$ un tam ir spēkā vienādība 
 $\overline{ab}+\overline{cd}=\overline{bc}$. Piemēram, skaitlis $1978$ ir 
@@ -1259,13 +1174,13 @@ ekscentrisks, jo $19+78=97$. Cik pavisam ir ekscentrisku skaitļu?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:NT
 
 </small>
 
-## Atrisinājums
 
+## Atrisinājums
 
 Pārrakstot doto sakarību $\overline{ab}+\overline{cd}=\overline{bc}$, iegūstam:
 
@@ -1300,16 +1215,14 @@ $1318, 1428, 1538, 1648, 1758, 1868, 1978, 2417, 2527, 2637, 2747, 2857, 2967, 3
 
 # <lo-sample/> LV.AMO.2022A.11.5
 
-
-
 Zināms, ka trijstūra $ABC$ leņķus $\alpha, \beta$ un $\gamma$ saista sakarība 
 $\sin ^{2} \alpha+\sin ^{2} \beta+\sin ^{2} \gamma=2$. Pierādīt, ka trijstūris 
 $ABC$ ir taisnleņķa trijstūris!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1351,9 +1264,6 @@ Tātad kāds no trijstūra leņķiem ir taisns un trijstūris $ABC$ ir taisnleņ
 
 # <lo-sample/> LV.AMO.2022A.12.1
 
-
-
-
 Regulāras piecstūra plāksnītes virsotnēs pa vienai reizei uzrakstīti skaitļi 
 $1,2,3,4$ un $5$. Divas šādas plāksnītes sauksim par dažādām, ja, pagriežot vai
 apmetot vienu plāksnīti otrādi, nevar panākt, ka visi vienas plāksnītes 
@@ -1362,13 +1272,13 @@ uzrakstītajiem skaitļiem. Cik dažādas plāksnītes var izveidot?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindCount
+* domain:Comb
 
 </small>
 
-## Atrisinājums
 
+## Atrisinājums-1
 
 Ņemot vērā, ka plāksnītes var brīvi pagriezt vai apmest otrādi, varam uzskatīt,
 ka $1$ vienmēr atrodas fiksētā vietā, kā arī skaitlis $a$, kas atrodas pa 
@@ -1379,7 +1289,7 @@ neizmantotos skaitļus. Tā kā pavisam ir seši iespējamie $a$ un $b$ pāri:
 $2\sim 3; 2\sim 4; 2\sim 5; 3\sim 4; 3\sim 5$ un $4 \sim 5$, tad pavisam var 
 izveidot $6 \cdot 2=12$ dažādas plāksnītes.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izvietojot skaitļus pilnīgi patvaļīgi, var iegūt $5!=120$ plāksnītes. Tā kā 
 plāksnītes drīkst brīvi grozīt, tad dažādo variantu skaits ir $5$ reizes 
@@ -1390,8 +1300,6 @@ plāksnītes.
 
 
 # <lo-sample/> LV.AMO.2022A.12.2
-
-
 
 Doti divi lieli trauki A un B. Sākumā traukā A atrodas $2022$ melnas un $2022$ 
 baltas bumbiņas, bet traukā B - tikai melnas bumbiņas. Bumbiņu kopskaits abos 
@@ -1408,13 +1316,13 @@ iespējams, ka tā būs balta?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 
 </small>
 
-## Atrisinājums
 
+## Atrisinājums
 
 Pamatosim, ka tā nevar būt balta. Sākumā traukā A bija $2022$ bumbiņas - pāra 
 skaitlis. Aplūkosim, kā atkarībā no paņemto bumbiņu krāsas mainās balto bumbiņu
@@ -1434,20 +1342,18 @@ Līdz ar to vienas pēdējās bumbiņas krāsa traukā A būs melna.
 
 # <lo-sample/> LV.AMO.2022A.12.3
 
-
-
 Izliektā sešstūrī $ABCDEF$ pretējās malas ir pa pāriem paralēlas, bet dažāda 
 garuma. Pierādīt, ka $S_{ACE}=S_{BDF}$!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
-## Atrisinājums
 
+## Atrisinājums
 
 Lai aprēķinātu $S_{ACE}$ no virsotnes $A$ novelkam nogriezni, kas paralēls $BC$
 un $EF$, no $C$ novelkam nogriezni, kas paralēls $AB$ un $ED$, no $E$ novelkam 
@@ -1455,16 +1361,13 @@ nogriezni, kas paralēls $AF$ un $CD$ (skat. 18.att.). Ja pretējās malas nav
 vienādi garas, tad veidojas trīs paralelogrami $ABCI, CDEG$ un $AFEH$, kā arī 
 trijstūris $GHI$.
 
-levērojam, ka
+Ievērojam, ka
 
 - $GH=EH-EG=AF-CD$;
-
 - $GI=ED-AB$;
-
 - $HI=BC-EF$.
 
 Tātad
-
 $S_{ACE}=S_{AIC}+S_{CGE}+S_{AHE}+S_{GHI}=\frac{S_{ABCI}+S_{CDEG}+S_{AHEF}}{2}+S_{HGI}=\frac{S_{ABCI}+S_{CDEG}+S_{AHEF}+2S_{HGI}}{2}=\frac{S_{ABCDEF}+S_{HGI}}{2}$.
 
 Lai aprēķinātu $S_{JKL}$, no $D$ novelkam nogriezni, kas paralēls $BC$ un $EF$,
@@ -1472,7 +1375,7 @@ no $F$ novelkam nogriezni, kas paralēls $AB$ un $ED$, no $B$ nogriezni, kas
 paralēls $AF$ un $CD$ (skat. 19.att.). Ja pretējās malas nav vienādi garas, tad
 veidojas trīs paralelogrami $ABLF, BCDJ$ un $DEFK$, kā arī trijstūris $JKL$.
 
-levērojam, ka
+Ievērojam, ka
 
 $$\begin{aligned}
 & \circ \quad K L=F K-F L=E D-A B \\
@@ -1491,23 +1394,21 @@ $$S_{BDF}=S_{BDJ}+S_{DFK}+S_{BFL}+S_{JKL}=\frac{S_{ABLF}+S_{BCDJ}+S_{DEFK}}{2}+S
 
 # <lo-sample/> LV.AMO.2022A.12.4
 
-
-
 Doti pieci naturāli skaitļi. Šo skaitļu reizinājums apzīmēts ar $R$, bet to 
 piekto pakāpju summa ar $S$. Zināms, ka $S$ dalās ar $1001$. Vai ir iespējams, 
 ka $R$ un $S$ ir savstarpēji pirmskaitļi?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:NT
 
 </small>
 
+
 ## Atrisinājums
 
-
-levērojam, ka $1001$ dalās ar $11$, tātad doto skaitļu piekto pakāpju summa $S$
+Ievērojam, ka $1001$ dalās ar $11$, tātad doto skaitļu piekto pakāpju summa $S$
 dalās ar $11$. Pierādīsim, ka no tā izriet, ka arī $R$ jādalās ar $11$, līdz ar
 to būs pamatots, ka $R$ un $S$ nav savstarpēji pirmskaitļi.
 
@@ -1536,7 +1437,7 @@ pakāpe ir kongruenta ar $1$ vai $-1$ pēc moduļa $11$. Secinām, ka visu doto
 skaitļu piekto pakāpju summa $S$ pēc moduļa $11$ ir pierakstāma formā 
 $\pm 1 \pm 1 \pm 1 \pm 1 \pm 1$.
 
-levērosim, ka tas ir nepāra skaitlis, kas pēc absolūtās vērtības nepārsniedz 
+Ievērosim, ka tas ir nepāra skaitlis, kas pēc absolūtās vērtības nepārsniedz 
 $5$, tātad nevar būt kongruents ar $0$ pēc moduļa $11$. Taču tā ir pretruna ar 
 to, ka $S$ dalās ar $11$. Līdz ar to pieņēmums bijis aplams un $R$ dalās ar 
 $11$. Secinām, ka skaitliem $R$ un $S$ ir kopīgs pirmreizinātājs $11$, tātad 
@@ -1545,8 +1446,6 @@ tie nav savstarpēji pirmskaitļi.
 
 
 # <lo-sample/> LV.AMO.2022A.12.5
-
-
 
 Pierādīt, ka katram $n>2$ var atrast tādus $n$ atšķirīgus naturālus skaitļus 
 $a_{1} < a_{2} < \cdots < a_{n} \leq 3 \cdot 2^{n-2}$, ka
@@ -1561,8 +1460,8 @@ $$\frac{1}{a_{1}}+\frac{1}{a_{2}}+\cdots+\frac{1}{a_{n}}=1$$
 
 </small>
 
-## Atrisinājums
 
+## Atrisinājums-1
 
 Ja $n=3$, tad der skaitļi $2, 3$ un $6$, jo 
 $\frac{1}{2}+\frac{1}{3}+\frac{1}{6}=1$.
@@ -1585,7 +1484,8 @@ $$\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{12}+\frac{1}{24}=1$$
 Atkal ir divas daļas, kuru saucējs dalās ar $3$. Šādi varam turpināt 
 neierobežoti ilgi un lielākais saucējs vienmēr būs formā $3 \cdot 2^{n-2}$.
 
-## Atrisinājums
+
+## Atrisinājums-2
 
 Ar matemātiskās indukcijas metodi pierādīsim, ka jebkuram $n>2$ derīgu skaitļu 
 komplektu veido šādi $n$ skaitli:

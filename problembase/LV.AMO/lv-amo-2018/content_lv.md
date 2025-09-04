@@ -383,6 +383,7 @@ cipariem $2,\ 0,\ 1,\ 8$ ?
 
 * questionType:FindCount
 * domain:Comb
+* subdomain:DOM_CountingStrings
 
 </small>
 
@@ -417,6 +418,7 @@ locekļu summu!
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_SequenceProperties
 
 </small>
 
@@ -459,6 +461,7 @@ ka $CD>\frac{1}{2}(CA+CB-AB)$.
 * concepts:triangle
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -487,6 +490,7 @@ $(n-2021)(n-2018)(n-2017)(n-2016)=2016$ būtu patiesa!
 
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_IntegerEquations
 
 </small>
 
@@ -513,6 +517,7 @@ spoguļattēlā.
 
 * questionType:ProveDisprove
 * domain:Geom
+* subdomain:DOM_SquareGridCut
 
 </small>
 
@@ -546,6 +551,7 @@ $\left(x^{2}-2 x+1\right)\left(x^{4}+1\right)^{2}\left(x^{2}+2x+1\right)\left(x^
 
 * questionType:FindExample
 * domain:Alg
+* subdomain:DOM_AlgebraicOperations
 
 </small>
 
@@ -571,6 +577,7 @@ Kāds ir šīs virknes $2018.$ loceklis?
 * questionType:FindAll
 * domain:NT
 * concepts:sequence,product
+* subdomain:DOM_SequenceProperties
 
 </small>
 
@@ -601,6 +608,7 @@ zināms, ka $ABCD$ laukums ir $100$.
 
 * questionType:FindAll
 * domain:Geom
+* subdomain:DOM_Quadrilaterals
 
 </small>
 
@@ -636,6 +644,7 @@ centrālajā rūtiņā ir ierakstīts skaitlis $\frac{n^{2}+1}{2}$, ja **(A)** $
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* subdomain:DOM_MagicConfigurations
 
 </small>
 
@@ -683,6 +692,7 @@ neiekrāsotas?
 
 * questionType:FindOptimal,ProveDisprove
 * domain:Geom
+* subdomain:DOM_GridColoring
 
 </small>
 
@@ -726,6 +736,7 @@ reālas saknes?
 
 * questionType:FindAll,FindAll
 * domain:Alg
+* subdomain:DOM_ParametrizedEquations
 
 </small>
 
@@ -769,6 +780,7 @@ trīs dažādos veidos: $4=1+1+1+1=1+3=3+1$.
 
 * questionType:FindCount
 * domain:Comb
+* subdomain:DOM_NumberPartitionsCompositions
 
 </small>
 
@@ -818,8 +830,8 @@ iegūt $595$ veidos.
 
 # <lo-sample/> LV.AMO.2018.9.3
 
-Ap vienādsānu trijstūri $ABC\ (AB=AC)$ apvilkta riņķa līnijia. Caur virsotni 
-$B$ un loka $AB$ (kas nesatur $C$ ) iekšēju punktu $D$ novilkta taisne, uz 
+Ap vienādsānu trijstūri $ABC$ ($AB=AC$) apvilkta riņķa līnija. Caur virsotni 
+$B$ un loka $AB$ (kas nesatur $C$) iekšēju punktu $D$ novilkta taisne, uz 
 kuras atzīmēts punkts $E$ tā, ka $AD=AE$. Pierādīt, ka trijstūri $ABC$ un $ADE$
 ir līdzīgi!
 
@@ -827,6 +839,7 @@ ir līdzīgi!
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -855,6 +868,7 @@ un kuram neviens cipars nav $0$.
 * concepts:divisibility,sum
 * questionType:FindOptimal
 * domain:NT
+* subdomain:DOM_NumeralSystems
 
 </small>
 
@@ -888,6 +902,7 @@ $5 \times 8$ rūtiņas, lai katrā šī taisnstūra $2 \times 3$ rūtiņu taisns
 
 * questionType:FindOptimal
 * domain:Geom
+* subdomain:DOM_GridColoring
 
 </small>
 
@@ -899,7 +914,7 @@ Pierādīsim, ka ar $6$ iekrāsotām rūtiņām nepietiek. Sadalām taisnstūri 
 parādīts 21.att. Katrā taisnstūrī $2 \times 3$ jāiekrāso tieši viena rūtiņa 
 (kopā tad būs iekrāsotas $6$ rūtiņas), bet kvadrātā $2 \times 2$ nedrīkst 
 iekrāsot nevienu rūtiņu, tāpēc jāiekrāso viena no rūtiņām " $a$ " un viena no 
-rūtiņām " $b$ ".
+rūtiņām "$b$".
 
 Sadalām doto taisnstūri tā, kā parādīts 22.att. Kvadrātā $3 \times 3$ jau ir 
 iekrāsotas $2$ rūtiņas un katrā no pieciem taisnstūriem $2 \times 3$ jāiekrāso 

@@ -261,6 +261,8 @@ funkcijas grafiku un iet caur punktu $(1; 43)$!
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_RealAnalysis
+* topic:LinearFunctions
 
 </small>
 
@@ -282,7 +284,7 @@ $b=-1972$.
 # <lo-sample/> LV.AMO.2016.7.2
 
 Karlsons sev pusdienām nopirka $8$ pīrādziņus un $15$ magoņmaizītes, bet
-Brālītis- vienu pīrādziņu un vienu magoņmaizīti. Karlsons par savām pusdienām
+Brālītis -- vienu pīrādziņu un vienu magoņmaizīti. Karlsons par savām pusdienām
 samaksāja tieši divus eiro (katra maizīte un pīrādziņš maksā veselu skaitu
 centu). Cik samaksāja Brālītis?
 
@@ -293,6 +295,7 @@ centu). Cik samaksāja Brālītis?
 * topic:NumTheoryInequalityMethod
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_IntegerSequences
 
 </small>
 
@@ -327,6 +330,7 @@ Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -369,6 +373,7 @@ tūbiņu?
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_WordProblems
 
 </small>
 
@@ -400,6 +405,9 @@ Pierādīt, ka varde ir apēdusi vismaz $21$ mušu!
 
 * questionType:Prove
 * domain:Comb
+* method:MTH_PeriodicInvariant
+* subdomain:DOM_MakingMoves
+
 
 </small>
 
@@ -426,6 +434,7 @@ $$\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13}-128}$$
 * questionType:FindAll
 * domain:Alg
 * concepts:expression
+* subdomain:DOM_AlgebraicOperations
 
 </small>
 
@@ -453,6 +462,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$ ?
 * topic:ModularParity
 * questionType:ProveDisprove
 * domain:NT
+* subdomain:DOM_IntegerEquations
 
 </small>
 
@@ -488,6 +498,7 @@ lielākais ciparu skaits, kas var būt šajā skaitlī?
 * questionType:FindOptimal
 * domain:NT
 * concepts:divisibility
+* subdomain:DOM_NumeralSystems
 
 </small>
 
@@ -527,6 +538,7 @@ Pierādīt, ka $\triangle MNB=\triangle CKM$.
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Quadrilaterals
 
 </small>
 
@@ -562,6 +574,7 @@ pareizi spēlējot, uzvar, ja **(A)** $N=7$, **(B)** $N=8$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* subdomain:DOM_CombinatorialGames
 
 </small>
 
@@ -591,6 +604,7 @@ Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_Inequalities
 
 </small>
 
@@ -615,6 +629,7 @@ $x, y$ un $z$, ka $x^{3}-2016xyz=10$ ?
 * seeAlso:LV.AMO.2016.10.2
 * questionType:ProveDisprove
 * domain:NT
+* subdomain:DOM_IntegerEquations
 
 </small>
 
@@ -647,6 +662,7 @@ $CDM$ ir vienādmalu!
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -685,6 +701,7 @@ reizinājumu. Kāds ir šīs virknes $2016.$ loceklis?
 * concepts:sequence,product
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_IntegerSequences
 
 </small>
 
@@ -736,6 +753,7 @@ pārbaudot ne vairāk kā četrus podus!
 
 * questionType:Prove
 * domain:Comb
+* subdomain:DOM_Logic
 
 </small>
 

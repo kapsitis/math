@@ -9,8 +9,8 @@ $30~\mathrm{km}$?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -60,8 +60,8 @@ summa uz katras trijstūra malas būtu viena un tā pati!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:NT
 
 </small>
 
@@ -84,14 +84,15 @@ jādalās ar $3$.
 
 **(A)** Vai var uz lapas atlikt sešus punktus un savienot tos ar nogriežņiem 
 tā, lai tie nekrustojas un katrs punkts ir savienots ar tieši četriem citiem 
-punktiem? **(B)** Vai var uz lapas atlikt septiņus punktus un savienot tos ar 
+punktiem?  
+**(B)** Vai var uz lapas atlikt septiņus punktus un savienot tos ar 
 nogriežņiem tā, lai tie nekrustojas un katrs punkts ir savienots ar tieši trim 
 citiem punktiem?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Comb,Geom
 
 </small>
 
@@ -116,8 +117,8 @@ variantus un pamato, ka citu nav!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -145,8 +146,8 @@ Ja mēneša $13.$ datums ir piektdiena, tad saka, ka tā ir melnā piektdiena.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal,ProveDisprove
+* domain:NT
 
 </small>
 
@@ -204,8 +205,8 @@ soļu ir starp draugu mājām?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -228,8 +229,8 @@ summa visās rindās, visās kolonnās un abās diagonālēs būtu viena un tā 
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Alg
 
 </small>
 
@@ -256,8 +257,8 @@ līnijām jāiet pa rūtiņu līnijām un stūrīši var būt pagriezti.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Geom
 
 </small>
 
@@ -295,8 +296,8 @@ meiteņu." Cik zēnu sēž pie apaļā galda?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Comb
 
 </small>
 
@@ -333,8 +334,8 @@ dalās ar visiem skaitļiem no $1$ līdz $10$ bez atlikuma!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:NT
 
 </small>
 
@@ -359,8 +360,9 @@ ar nemainīgu ātrumu?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
+* subdomain:DOM_WordProblems
 
 </small>
 
@@ -397,8 +399,9 @@ summa visās joslās būtu viena un tā pati!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindExample
+* domain:Comb
+* subdomain:DOM_MagicConfigurations
 
 </small>
 
@@ -430,6 +433,7 @@ vienādmalu!
 * concepts:equilateral-triangle
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -464,8 +468,9 @@ un $2017$ melnas bumbiņas; **(B)** $2016$ baltas un $2018$ melnas bumbiņas?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll,FindAll
+* domain:Comb
+* subdomain:DOM_MakingMoves
 
 </small>
 
@@ -499,6 +504,7 @@ divas reizes mazāks nekā pats skaitlis?
 * questionType:FindCount
 * domain:NT
 * concepts:product
+* subdomain:DOM_DigitManipulation
 
 </small>
 
@@ -538,8 +544,9 @@ vienādas; **(B)** ordināta ir divas reizes lielāka nekā abscisa?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Alg
+* subdomain:DOM_EquationSystems
 
 </small>
 
@@ -566,8 +573,9 @@ skaitļu summa uz katras trijstūra malas būtu **(A)** $22$; **(B)** $23$?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Comb
+* subdomain:DOM_MagicConfigurations
 
 </small>
 
@@ -607,8 +615,9 @@ malu garumi?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -644,8 +653,9 @@ kauss ir smagāks nekā otrs.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Comb
+* subdomain:DOM_CombinatorialAlgorithms
 
 </small>
 
@@ -686,15 +696,15 @@ trīs atsvaru kombinācijām. Tā izdarām ar katru no $10$ iespējamajiem daž�
 pāriem. Katram no pāriem iegūsim kaut kādu rezultātu 
 uzvaras/neizšķirti/zaudējumi.
 
-1) Tiem diviem pāriem, kam rezultāts ir $3/0/0$, kopīgais atsvars ir $A$ - pats
+1. Tiem diviem pāriem, kam rezultāts ir $3/0/0$, kopīgais atsvars ir $A$ - pats
    smagākais.
-2) Tiem diviem pāriem, kam rezultāts ir $0/0/3$, kopīgais atsvars ir $E$ - pats
+2. Tiem diviem pāriem, kam rezultāts ir $0/0/3$, kopīgais atsvars ir $E$ - pats
    vieglākais.
-3) Tas atsvars, kas ir kopīgs 1) un 2) punktā apskatītajiem pāriem, ir atsvars 
+3. Tas atsvars, kas ir kopīgs (1) un (2) punktā apskatītajiem pāriem, ir atsvars 
    $C$ - vidējais.
-4) No 1) punkta iegūstam, ka tas atsvars, kas ir pārī ar $A$, bet nav atsvars 
+4. No (1) punkta iegūstam, ka tas atsvars, kas ir pārī ar $A$, bet nav atsvars 
    $C$, ir atsvars $B$.
-5) No 2) punkta iegūstam, ka tas atsvars, kas ir pārī ar $E$, bet nav atsvars 
+5. No (2) punkta iegūstam, ka tas atsvars, kas ir pārī ar $E$, bet nav atsvars 
    $C$, ir atsvars $D$.
 
 *Piezīme.* Atsvarus var noteikt arī citos veidos, piemēram, atsvars, kas 
@@ -712,6 +722,7 @@ reizināumu?
 * questionType:ProveDisprove
 * domain:NT
 * concepts:product
+* subdomain:DOM_DigitManipulation
 
 </small>
 
@@ -735,8 +746,9 @@ vienādas; **(B)** ordināta ir trīs reizes lielāka nekā abscisa?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove,ProveDisprove
+* domain:Alg
+* subdomain:DOM_EquationSystems
 
 </small>
 
@@ -761,8 +773,9 @@ Pierādīt, ka $x^{6}+y^{6}+\frac{2}{x^{3}y^{3}}-4 \geq 0$, ja $x>0,\ y>0$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
+* subdomain:DOM_ProvingInequalities
 
 </small>
 
@@ -791,8 +804,9 @@ Aprēķināt trijstūra $ABC$ leņķus!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -859,8 +873,9 @@ varētu izvietot saskaņā ar uzdevuma nosacījumiem?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove,FindOptimal
+* domain:Comb
+* subdomain:DOM_CombinatorialStructures
 
 </small>
 
@@ -900,6 +915,7 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}+(x+1)^{3}=(x+3)^{3}+1$.
 * concepts:equation
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_IntegerEquations
 
 </small>
 
@@ -956,8 +972,8 @@ aritmētiskās progresijas trīs pēc kārtas ņemti locekļi!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -972,13 +988,13 @@ Apskatām visus iespējamos gadījumus, kā var būt sakārtotas dotā vienādoj
 saknes. Lai noteiktu parametra $a$ vērtības, izmantosim aritmētiskās 
 progresijas īpašību $d=a_{2}-a_{1}=a_{3}-a_{2}$.
 
-1) Ja secība ir $1;\ a;\ 2a$ (vai $2a;\ a;\ 1$), tad jāizpildās vienādībai 
+1. Ja secība ir $1;\ a;\ 2a$ (vai $2a;\ a;\ 1$), tad jāizpildās vienādībai 
    $a-1=2a-a$ jeb $-1=0$. Tā nevar būt, tātad šajā gadījumā saknes nevar veidot 
    aritmētisko progresiju.
-2) Ja secība ir $a;\ 1;\ 2a$ (vai $2a;\ 1;\ a$), tad jāizpildās vienādībai 
+2. Ja secība ir $a;\ 1;\ 2a$ (vai $2a;\ 1;\ a$), tad jāizpildās vienādībai 
    $1-a=2a-1$ jeb $3a=2$. Tātad $a=\frac{2}{3}$ un atbilstošā aritmētiskā 
    progresija ir $\frac{2}{3};\ 1;\ \frac{4}{3}$.
-3) Ja secība ir $a;\ 2a;\ 1$ (vai $1;\ 2a;\ a$), tad jāizpildās vienādībai 
+3. Ja secība ir $a;\ 2a;\ 1$ (vai $1;\ 2a;\ a$), tad jāizpildās vienādībai 
    $2a-1=a-2a$ jeb $3a=1$. Tātad $a=\frac{1}{3}$ un atbilstošā aritmētiskā 
    progresija ir $\frac{1}{3};\ \frac{2}{3};\ 1$.
 
@@ -995,12 +1011,12 @@ $$\left(\frac{3a}{b}+1\right)\left(\frac{3b}{a}+1\right) \geq 16$$
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaitāmos $\frac{3a}{b}$ un $\frac{3b}{a}$ uzrakstām kā trīs saskaitāmo summu
 un katram dotās nevienādības kreisās puses izteiksmes reizinātājam lietojam 
@@ -1013,7 +1029,7 @@ $$\begin{gathered}
 
 kas arī bija jāpierāda.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ekvivalenti pārveidojam pierādāmo nevienādību:
 
@@ -1028,7 +1044,7 @@ Pēdējā nevienādība ir patiesa kā nevienādība starp vidējo aritmētisko 
 
 $$\frac{a}{b}+\frac{b}{a} \geq 2 \cdot \sqrt{\frac{a}{b} \cdot \frac{b}{a}}=2$$
 
-## Atrisinājums
+## Atrisinājums-3
 
 Apzīmējam $x=\frac{a}{b}>0$, un pēc iekavu atvēršanas lietojam nevienādību 
 $x+\frac{1}{x} \geq 2$ :
@@ -1045,12 +1061,12 @@ $AB \cdot AP+AD \cdot AR=AC \cdot AQ$ !
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Pitagora teorēmas $\triangle ABD$ izriet, ka
 
@@ -1107,7 +1123,7 @@ vajadzīgo.
 
 ![](LV.AMO.2017.10.3B.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $\sphericalangle BAC=\alpha$, tad 
 $\sphericalangle CAD=90^{\circ}-\alpha$ (skat. 28.att.). Izmantojot kosinusu 
@@ -1167,8 +1183,8 @@ augšu!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Comb
 
 </small>
 
@@ -1241,12 +1257,12 @@ Līdz ar to esam pierādījuši prasīto.
 
 # <lo-sample/> LV.AMO.2017.11.1
 
-Atrisināt nevienādību $2 \sin ^{2} x-\sin x-1<0$.
+Atrisināt nevienādību $2 \sin^{2} x - \sin x - 1 < 0$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -1270,8 +1286,8 @@ $\left(a_{1}+a_{2}\right)\left(a_{3}+a_{4}\right)$ vērtība?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Alg
 
 </small>
 
@@ -1299,8 +1315,8 @@ atrodas uz vienas taisnes!
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
