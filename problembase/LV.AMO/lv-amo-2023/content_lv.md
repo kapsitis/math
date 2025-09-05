@@ -9,7 +9,7 @@ lai blakus trijstūros ierakstītie skaitļi neatšķiras vairāk kā par $3$.
 
 <small>
 
-* topic:ArithmeticIdentities
+* topic:ArithmeticOperations
 * concepts:difference,distance,triangle
 * seeAlso:LV.AMO.2023.6.1
 * questionType:FindExample
@@ -463,7 +463,7 @@ rūtiņas uz blakus rūtiņu, ar ko tai ir kopīga mala.
 
 * questionType:FindExample,FindExample
 * domain:Geom
-* subdomain:DOM_SquareGridReorder
+* subdomain:DOM_GridReorder
 * topic:AxisSymmetryConstructions
 
 </small>

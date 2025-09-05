@@ -517,7 +517,7 @@ spoguļattēlā.
 
 * questionType:ProveDisprove
 * domain:Geom
-* subdomain:DOM_SquareGridCut
+* subdomain:DOM_GridCut
 
 </small>
 

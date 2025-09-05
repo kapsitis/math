@@ -472,7 +472,7 @@ līnijām.)
 
 * questionType:FindOptimal
 * domain:Geom
-* subdomain:DOM_SquareGridCut
+* subdomain:DOM_GridCut
 * method:MTH_PigeonholePrincipleGeneralized
 * topic:CentralSymmetry
 * topic:SquareGridCutting

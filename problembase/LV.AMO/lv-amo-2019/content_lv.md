@@ -324,6 +324,7 @@ pozitīvs, negatīvs skaitlis vai nulle!
 
 * questionType:ProveDisprove
 * domain:Alg
+* subdomain:DOM_RealFunctions
 
 </small>
 
@@ -348,6 +349,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 * questionType:ProveDisprove
 * domain:Comb
+* subdomain:DOM_CombinatorialGames
 
 </small>
 
@@ -381,6 +383,7 @@ mazāki nekā $180^{\circ}$.
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Quadrilaterals
 
 </small>
 
@@ -408,6 +411,7 @@ no vienādiem regulāriem trijstūriem. Uzzīmē šādu piecstūri!
 
 * questionType:FindExample
 * domain:Geom
+* subdomain:DOM_GridReorder
 
 </small>
 
@@ -434,6 +438,7 @@ ciparu)?
 * questionType:FindOptimal
 * domain:NT
 * concepts:product
+* subdomain:DOM_NumeralSystems
   
 </small>
 
@@ -489,6 +494,7 @@ malējiem stabiem. Cik bija stabu, ja viņš nostaigāja $840~\mathrm{m}$?
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_WordProblems
 
 </small>
 
@@ -550,6 +556,7 @@ uzvarēt?
 
 * questionType:ProveDisprove
 * domain:Comb
+* subdomain:DOM_CombinatorialGames
 
 </small>
 
@@ -577,6 +584,7 @@ $DE$ ir perpendikulārs $AF$.
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Quadrilaterals
 
 </small>
 
@@ -608,6 +616,7 @@ naturāla skaitļa kubs. Kādām $m$ vērtībām tas ir iespējams?
 
 * questionType:FindAll
 * domain:Comb
+* subdomain:DOM_Graphs
 
 </small>
 
@@ -651,6 +660,7 @@ nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 * questionType:FindOptimal
 * domain:NT
 * concepts:product
+* subdomain:DOM_NumeralSystems
   
 </small>
 
@@ -699,7 +709,8 @@ slīpas taisnes. Cik paralelogramu izveido šīs taisnes?
 <small>
 
 * questionType:FindAll
-* domain:Geom
+* domain:Comb,Geom
+* subdomain:DOM_Quadrilaterals,DOM_CountingObjects
 
 </small>
 
@@ -740,6 +751,7 @@ otrais - vienmēr var uzvarēt?
 
 * questionType:ProveDisprove
 * domain:Comb
+* subdomain:DOM_CombinatorialGames
 
 </small>
 
@@ -773,6 +785,7 @@ $QNBC$ ir rombs!
 
 * questionType:Prove,Prove
 * domain:Geom
+* subdomain:DOM_Quadrilaterals
 
 </small>
 
@@ -823,6 +836,7 @@ būtu par $500290$ lielāks nekā sākotnējais. Atrast doto sešciparu skaitli!
 
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_DigitManipulation
 
 </small>
 
@@ -872,6 +886,7 @@ $$(\sqrt{2020}-2 \sqrt{2019}+\sqrt{2018})(\sqrt{2020}+\sqrt{2019})(\sqrt{2019}+\
 * questionType:ProveDisprove
 * domain:Alg
 * concepts:quadratic-equation
+* subdomain:DOM_AlgebraicOperations
 
 </small>
 

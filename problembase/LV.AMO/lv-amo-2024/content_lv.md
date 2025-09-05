@@ -476,7 +476,7 @@ rūtiņu līnijām? Figūras drīkst būt pagrieztas.
 
 * questionType:FindOptimal
 * domain:Geom
-* subdomain:DOM_SquareGridCut
+* subdomain:DOM_GridCut
 * topic:SquareGridCutting
 * topic:RotationBy90
 

@@ -360,6 +360,7 @@ izpildīja Raimonds?
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_WordProblems
 
 </small>
 
@@ -387,7 +388,8 @@ Karlsons var iegūt tieši $2000$ tortes gabalus?
 <small>
 
 * questionType:ProveDisprove
-* domain:Alg
+* domain:Alg,Comb
+* subdomain:DOM_MakingMoves
 
 </small>
 
@@ -429,6 +431,7 @@ figūras nedrīkst pārklāties vai iziet ārpus taisnstūra.
 
 * questionType:ProveDisprove
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -455,6 +458,7 @@ ar $7$.
 
 * questionType:FindCount
 * domain:NT
+* subdomain:DOM_Divisibility
 
 </small>
 
@@ -495,6 +499,7 @@ monētas vērtība? Atrodi visus iespējamos variantus un pamato, ka citu nav!
 
 * questionType:FindAll
 * domain:Comb
+* subdomain:DOM_NumberPartitionsCompositions
 
 </small>
 
@@ -544,7 +549,8 @@ attiecīgi šo taišņu krustpunkti ar $y$ asi. Aprēķināt trijstūra $ABC$ la
 <small>
 
 * questionType:FindAll
-* domain:Alg
+* domain:Alg,Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -570,6 +576,7 @@ $2$ kūciņas. Vai iespējams, ka kādā brīdī uz galda bija tieši $2022$ kū
 
 * questionType:ProveDisprove
 * domain:Alg
+* subdomain:DOM_AlgebraicOperations
 
 </small>
 
@@ -607,6 +614,7 @@ $F$. Pierādīt, ka $EF=FB$!
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Quadrilaterals
 
 </small>
 
@@ -645,6 +653,7 @@ un pamato, ka citu nav!
 
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_Divisibility
 
 </small>
 
@@ -676,6 +685,7 @@ Kāds ir $3321.$ skaitlis šajā virknē?
 
 * questionType:FindAll
 * domain:Comb
+* subdomain:DOM_CountingStrings
 
 </small>
 
@@ -715,6 +725,7 @@ sporta preču veikalā?
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_WordProblems
 
 </small>
 
@@ -750,6 +761,7 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $212$
 
 * questionType:ProveDisprove
 * domain:NT
+* subdomain:DOM_DigitManipulation
 
 </small>
 
@@ -785,6 +797,7 @@ $CD=AF$.
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Polygons
 
 </small>
 
@@ -815,13 +828,14 @@ Līdz ar to $BC=EF$ un $CD=AF$ kā vienādu trijstūru atbilstošās malas.
 # <lo-sample/> LV.AMO.2022A.9.4
 
 Skaitļi $a; b; c$ (tieši šādā secībā) veido aritmētisko progresiju. Pierādīt, 
-ka skaitļi $a^{2}-bc; b^{2}-ac; c^{2}-ab$ (tieši šādā secībā) arī veido 
+ka skaitļi $a^{2}-bc$; $b^{2}-ac$; $c^{2}-ab$ (tieši šādā secībā) arī veido 
 aritmētisko progresiju!
 
 <small>
 
 * questionType:Prove
 * domain:Alg
+* subdomain:DOM_ArithmeticSeries
 
 </small>
 
@@ -855,6 +869,7 @@ rūtiņas ir neaizkrāsotas?
 
 * questionType:FindOptimal
 * domain:Geom
+* subdomain:DOM_GridColoring
 
 </small>
 

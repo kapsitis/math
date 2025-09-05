@@ -334,7 +334,7 @@ vienādas cepures maksā vairāk nekā $11$ eiro. Cik maksā viena cepure?
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_Inequalities
-* topic:NumTheoryInequalitySmallIntervals
+* topic:RationalOperations
 
 </small>
 
@@ -362,7 +362,7 @@ apgrieztas spoguļattēlā.
 
 * questionType:ProveDisprove
 * domain:Geom
-* subdomain:DOM_SquareGridCut
+* subdomain:DOM_GridCut
 * method:MTH_FixedInvariant
 * topic:ColoringProblems
 
@@ -456,6 +456,7 @@ Atrodi visus gadījumus un pamato, ka citu nav!
 * subdomain:DOM_Triangles
 * method:MTH_ExhaustiveAlgorithms
 * topic:TriangleAngles
+* topic:TriangleInequality
 
 </small>
 
@@ -585,7 +586,7 @@ apgrieztas spoguļattēlā.
 
 * questionType:ProveDisprove
 * domain:Geom
-* subdomain:DOM_SquareGridCut
+* subdomain:DOM_GridCut
 * method:MTH_FixedInvariant
 * topic:ColoringProblems
 
@@ -657,6 +658,7 @@ paralēlskaldņa tilpums?
 * subdomain:DOM_IntegerLattices
 * method:MTH_ExtremeElements
 * topic:FindingExtremesWithFunctionProperties
+* topic:ArithmeticOperations
 
 </small>
 
@@ -693,13 +695,14 @@ $ABC$ ir vienādmalu!
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:TriangleCongruence
+* topic:TrianglesIsosceles
 
 </small>
 
 
 ## Atrisinājums-1
 
-Tā kā $BK=HC, \sphericalangle KBC=\sphericalangle HCB$ un $BC$- kopīga mala
+Tā kā $BK=HC, \sphericalangle KBC=\sphericalangle HCB$ un $BC$ -- kopīga mala
 (skat. A12.att.), tad $\triangle BCK=\triangle BCH$ pēc pazīmes "$m \ell m$".
 Līdz ar to $\sphericalangle BKC=\sphericalangle CHB=90^{\circ}$ (kā atbilstošie
 leņķi vienādos trijstūros). Tātad $BK$ ir gan augstums, gan mediāna, līdz ar to
@@ -751,11 +754,10 @@ reizinājums ir vismazākais!
 ## Atrisinājums
 
 Dotos skaitļus apzīmējam ar $x$ un $x+2015$. Šo skaitļu reizinājums ir
-$x \cdot(x+2015)$. Apskatām funkciju $f(x)=x \cdot(x+2015)=x^{2}+2015x$.
+$x \cdot(x+2015)$. Apskatām funkciju $f(x) = x \cdot(x+2015) = x^{2}+2015x$.
 Funkcijas grafiks ir parabola ar zaru vērsumu uz augšu. Parabolas virsotnes
-abscisa $x_{0}=\frac{-2015}{2}=-1007,5$ ir punkts, kurā funkcija sasniedz
-vismazāko vērtību. Tātad meklētie divi skaitļi ir $-1007,5$ un $1007,5$.
-
+abscisa $x_{0}=\frac{-2015}{2}=-1007.5$ ir punkts, kurā funkcija sasniedz
+vismazāko vērtību. Tātad meklētie divi skaitļi ir $-1007.5$ un $1007.5$.
 
 
 # <lo-sample/> LV.AMO.2015.9.2
@@ -773,7 +775,7 @@ ar izmēriem $1 \times 1 \times 3$ ?
 
 * questionType:ProveDisprove
 * domain:Geom
-* subdomain:DOM_SquareGridCut
+* subdomain:DOM_GridCut
 * method:MTH_FixedInvariant
 * topic:ColoringProblems
 
@@ -834,6 +836,7 @@ $G$. Nosaki $\sphericalangle CGD$ lielumu, ja $\sphericalangle CAD=\alpha$!
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * topic:CircleInscribedAngles
+* topic:ComplementaryLinearPairs
 
 </small>
 

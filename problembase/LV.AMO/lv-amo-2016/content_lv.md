@@ -261,7 +261,7 @@ funkcijas grafiku un iet caur punktu $(1; 43)$!
 
 * questionType:FindAll
 * domain:Alg
-* subdomain:DOM_RealAnalysis
+* subdomain:DOM_RealFunctions
 * topic:LinearFunctions
 
 </small>
@@ -331,6 +331,9 @@ Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
+* topic:TriangleCongruence
+* topic:InteriorExteriorAngles
+* topic:TrianglesIsosceles
 
 </small>
 
@@ -374,6 +377,7 @@ tūbiņu?
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
+* topic:CongruenceEquationsLinear
 
 </small>
 
@@ -407,7 +411,7 @@ Pierādīt, ka varde ir apēdusi vismaz $21$ mušu!
 * domain:Comb
 * method:MTH_PeriodicInvariant
 * subdomain:DOM_MakingMoves
-
+* topic:SubtractionRule
 
 </small>
 
@@ -459,10 +463,11 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$ ?
 
 <small>
 
-* topic:ModularParity
 * questionType:ProveDisprove
 * domain:NT
 * subdomain:DOM_IntegerEquations
+* topic:ModularParity
+* topic:ModularArithmeticContradiction
 
 </small>
 
@@ -539,17 +544,19 @@ Pierādīt, ka $\triangle MNB=\triangle CKM$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* topic:TriangleCongruenceSSS
+* topic:TriangleSideBisector
 
 </small>
 
 
 ## Atrisinājums
 
-Nogrieznis $MN$ ir trijstūra $CAD$ viduslīija (skat. 11.att.), tāpēc
-$NM=\frac{1}{2} CD=CK$ un $NM || CD$. Tā kā $NM || CD$ un $AM=MD$, tad $NM$
+Nogrieznis $MN$ ir trijstūra $CAD$ viduslīnija (skat. 11.att.), tāpēc
+$NM=\frac{1}{2} CD=CK$ un $NM \| CD$. Tā kā $NM \| CD$ un $AM=MD$, tad $NM$
 atrodas uz malas $BC$ vidusperpendikula. No vidusperpendikula īpašības (katrs
 vidusperpendikula punkts atrodas vienādā attālumā no nogriežņa galapunktiem)
-iegūstam, ka $CN=BN$ un $CM=BM$. Nogrieznis $MK$ ir trijstūra $CAD$ viduslīiija,
+iegūstam, ka $CN=BN$ un $CM=BM$. Nogrieznis $MK$ ir trijstūra $CAD$ viduslīnija,
 tāpēc $MK=\frac{1}{2} AC=CN$. Līdz ar to esam ieguvuši, ka
 $\triangle MNB=\triangle CKM$ pēc pazīmes $mmm$.
 
@@ -575,6 +582,8 @@ pareizi spēlējot, uzvar, ja **(A)** $N=7$, **(B)** $N=8$?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
+* topic:GameModelAsGrid
+* topic:GameInvariant
 
 </small>
 
@@ -605,6 +614,7 @@ Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_Inequalities
+* topic:InequalitySolvingWithTransformations
 
 </small>
 
@@ -613,7 +623,7 @@ Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
 
 Punkti, kuros skaitītājs un saucējs ir vienāds ar $0$, ir $x=1$ un
 $x= \pm 2$. Izmantojot Intervālu metodi (skat. 15.att.), iegūstam, ka
-$x \in(-\infty ;-2) \cup[1 ; 2)$.
+$x \in(-\infty ;-2) \cup [1 ; 2)$.
 
 ![](LV.AMO.2016.9.1A.png)
 
@@ -630,6 +640,7 @@ $x, y$ un $z$, ka $x^{3}-2016xyz=10$ ?
 * questionType:ProveDisprove
 * domain:NT
 * subdomain:DOM_IntegerEquations
+* topic:ModularArithmeticContradiction
 
 </small>
 
@@ -663,6 +674,8 @@ $CDM$ ir vienādmalu!
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Triangles
+* topic:SimilarTriangleSideRatio
+* topic:TrianglesRight
 
 </small>
 
@@ -702,6 +715,7 @@ reizinājumu. Kāds ir šīs virknes $2016.$ loceklis?
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_IntegerSequences
+* topic:SequencePeriodicity
 
 </small>
 
@@ -754,6 +768,7 @@ pārbaudot ne vairāk kā četrus podus!
 * questionType:Prove
 * domain:Comb
 * subdomain:DOM_Logic
+* topic:SearchProblems
 
 </small>
 

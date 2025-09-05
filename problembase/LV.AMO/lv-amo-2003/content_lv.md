@@ -73,7 +73,7 @@ mazākais iespējamais).
 
 * questionType:FindExample
 * domain:Geom
-* subdomain:DOM_SquareGridReorder
+* subdomain:DOM_GridReorder
 
 </small>
 
@@ -182,7 +182,7 @@ otrā. Vai to var izdarīt, ja **(A)** $n=5$, **(B)** $n=7$?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
 * method:MTH_FixedInvariant
-* subdomain:DOM_SquareGridCut
+* subdomain:DOM_GridCut
 * topic:RemaindersInCombinatorics
 
 </small>
@@ -571,7 +571,7 @@ kopgarumu. (Tika novilktas **tikai** līnijas, kas dala kvadrātus taisnstūros.
 
 * questionType:Prove
 * domain:Geom
-* subdomain:DOM_SquareGridCut
+* subdomain:DOM_GridCut
 * topic:PolygonPerimeter
 
 </small>
