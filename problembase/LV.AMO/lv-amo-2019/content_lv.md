@@ -325,6 +325,7 @@ pozitīvs, negatīvs skaitlis vai nulle!
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:DOM_RealFunctions
+* topic:LinearFunctions
 
 </small>
 
@@ -350,6 +351,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
+* topic:GamesSymmetry
 
 </small>
 
@@ -384,6 +386,9 @@ mazāki nekā $180^{\circ}$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* topic:TrianglesIsosceles
+* topic:TriangleSideBisector
+* topic:TriangleAngleBisector
 
 </small>
 
@@ -412,6 +417,7 @@ no vienādiem regulāriem trijstūriem. Uzzīmē šādu piecstūri!
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_GridReorder
+* topic:PolygonsInLattices
 
 </small>
 
@@ -439,6 +445,9 @@ ciparu)?
 * domain:NT
 * concepts:product
 * subdomain:DOM_NumeralSystems
+* topic:FactorizationAndDivisibility
+* topic:DivisibilityRulesFor2And4
+* topic:DivisibilityRulesLastDigits
   
 </small>
 
@@ -454,7 +463,7 @@ Ievērojam, ka $10^{n}=2^{n} \cdot 5^{n}$. Tātad katru no septiņiem
 reizinātājiem var izteikt formā $2^{x} \cdot 5^{y}$, kur $x, y$ ir nenegatīvi 
 veseli skaitļi. Ievērojam, ka neviena šādā formā izteikta reizinātāja pēdējais 
 cipars nevar būt ne $3$, ne $7$, ne $9$ (ja skaitlis beidzas ar $3, 7$ vai $9$,
-tad tas nedalās ne ar $2$, ne ar $5$ ). Tātad kā reizinātāju pēdējie cipari 
+tad tas nedalās ne ar $2$, ne ar $5$). Tātad kā reizinātāju pēdējie cipari 
 jāizmanto visi atlikušie septiņi cipari: $0, 1, 2, 4, 5, 6, 8$. Aplūkosim tos 
 $5$ reizinātājus, kas beidzas ar $0, 2, 4, 6, 8$, apzīmēsim tos ar 
 $a_{0}, a_{2}, a_{4}, a_{6}$, un $a_{8}$. Ievērojam, ka neviens no tiem, 
@@ -495,6 +504,8 @@ malējiem stabiem. Cik bija stabu, ja viņš nostaigāja $840~\mathrm{m}$?
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
+* topic:SeriesArithmeticSum
+* topic:QuadraticEquationRootConditions
 
 </small>
 
@@ -557,6 +568,7 @@ uzvarēt?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
+* topic:GamesSymmetry
 
 </small>
 
@@ -585,6 +597,9 @@ $DE$ ir perpendikulārs $AF$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* topic:InteriorExteriorAngles
+* topic:TrianglesIsosceles
+* topic:Parallelograms
 
 </small>
 
@@ -617,6 +632,8 @@ naturāla skaitļa kubs. Kādām $m$ vērtībām tas ir iespējams?
 * questionType:FindAll
 * domain:Comb
 * subdomain:DOM_Graphs
+* method:MTH_InductiveAlgorithms
+* topic:HandshakingLemma
 
 </small>
 
@@ -640,7 +657,7 @@ draugam.
 
 Pamatosim, ka neder tādi nepāra skaitļi $m$, ka $m \leq 7$.
 
-Visiem rūķišiem nevar būt pa vienam draugam, jo tad kopā būtu nepāra skaits 
+Visiem rūķīšiem nevar būt pa vienam draugam, jo tad kopā būtu nepāra skaits 
 nogriežņu galu, bet tas nav iespējams, jo katram nogrieznim ir $2$ gali. Tātad 
 kādam rūķītim būtu jābūt vismaz $8$ draugiem, bet arī tas nav iespējams, jo 
 lielākais nogriežņu galu skaits, kas var iziet no kāda punkta, ir $6$ 
@@ -661,6 +678,9 @@ nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 * domain:NT
 * concepts:product
 * subdomain:DOM_NumeralSystems
+* topic:FactorizationAndProperties
+* topic:DivisibilityRulesFor2And4
+* topic:DivisibilityRulesFor5And25
   
 </small>
 
@@ -711,6 +731,9 @@ slīpas taisnes. Cik paralelogramu izveido šīs taisnes?
 * questionType:FindAll
 * domain:Comb,Geom
 * subdomain:DOM_Quadrilaterals,DOM_CountingObjects
+* topic:StandardCombinatorialNumbers
+* topic:RuleOfProduct
+* topic:RuleOfSum
 
 </small>
 
@@ -786,6 +809,9 @@ $QNBC$ ir rombs!
 * questionType:Prove,Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* topic:Rhombus
+* topic:InteriorExteriorAngles
+* topic:TrianglesRight
 
 </small>
 
@@ -837,6 +863,8 @@ būtu par $500290$ lielāks nekā sākotnējais. Atrast doto sešciparu skaitli!
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_DigitManipulation
+* method:MTH_FixedInvariant
+* topic:NotationPolynomial
 
 </small>
 
@@ -854,7 +882,7 @@ skaitlim ciparu $b$ aizstājot ar $a$ tas palielinās par $(a-b) \cdot 10^{n}$.
 Tātad abu skaitļu summa nemainās.
 
 Aplūkojam summu $A+B$. Katrā šķirā (vienos, desmitos, simtos utt.) šiem diviem 
-skaitļiem viens cipars ir "oriģinālais" (kas bija skaitlī $x$ ), bet otrs ir 
+skaitļiem viens cipars ir "oriģinālais" (kas bija skaitlī $x$), bet otrs ir 
 septītnieks. Samainīsim katrā šķirā šos ciparus tā, lai septītnieks atrastos 
 otrajā skaitlī, bet "oriģinālais" cipars - pirmajā.
 
@@ -887,6 +915,8 @@ $$(\sqrt{2020}-2 \sqrt{2019}+\sqrt{2018})(\sqrt{2020}+\sqrt{2019})(\sqrt{2019}+\
 * domain:Alg
 * concepts:quadratic-equation
 * subdomain:DOM_AlgebraicOperations
+* topic:StandardIdentities
+* topic:VietaFormulas
 
 </small>
 

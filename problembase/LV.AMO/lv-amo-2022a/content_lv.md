@@ -361,6 +361,7 @@ izpildīja Raimonds?
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
+* topic:FormingEquations
 
 </small>
 
@@ -390,6 +391,7 @@ Karlsons var iegūt tieši $2000$ tortes gabalus?
 * questionType:ProveDisprove
 * domain:Alg,Comb
 * subdomain:DOM_MakingMoves
+* topic:DivisibilityProperties
 
 </small>
 
@@ -432,6 +434,8 @@ figūras nedrīkst pārklāties vai iziet ārpus taisnstūra.
 * questionType:ProveDisprove
 * domain:Geom
 * subdomain:DOM_GridCut
+* method:MTH_InductiveAlgorithms
+* topic:SquareGridShapes
 
 </small>
 
@@ -459,6 +463,7 @@ ar $7$.
 * questionType:FindCount
 * domain:NT
 * subdomain:DOM_Divisibility
+* topic:ArithmeticSeriesDivisibility
 
 </small>
 
@@ -500,6 +505,8 @@ monētas vērtība? Atrodi visus iespējamos variantus un pamato, ka citu nav!
 * questionType:FindAll
 * domain:Comb
 * subdomain:DOM_NumberPartitionsCompositions
+* method:MTH_ExhaustiveAlgorithms
+* topic:DivisibilityProperties
 
 </small>
 
@@ -543,21 +550,22 @@ ieguvuši, ka vienīgā iespējamā trešās monētas vērtība ir $9$ centi.
 
 # <lo-sample/> LV.AMO.2022A.8.1
 
-Taisnes $y=x$ un $y=-2 x+2022$ krustojas punktā $A$. Punkti $B$ un $C$ ir 
+Taisnes $y=x$ un $y = -2x+2022$ krustojas punktā $A$. Punkti $B$ un $C$ ir 
 attiecīgi šo taišņu krustpunkti ar $y$ asi. Aprēķināt trijstūra $ABC$ laukumu!
 
 <small>
 
 * questionType:FindAll
 * domain:Alg,Geom
-* subdomain:DOM_Triangles
+* subdomain:DOM_Area
+* topic:TriangleAreaFromBaseAltitude
 
 </small>
 
 ## Atrisinājums
 
-Punktu $B$ un $C$ koordinātas ir $(0; 0)$ un $(0; 2022)$. Tātad $B C=2022$. 
-levērojot, ka $y=x$, aprēķinām abu taišņu krustpunkta $x$ koordinātu: 
+Punktu $B$ un $C$ koordinātas ir $(0;0)$ un $(0;2022)$. Tātad $BC=2022$. 
+Ievērojot, ka $y=x$, aprēķinām abu taišņu krustpunkta $x$ koordinātu: 
 $x=-2x+2022$ jeb $3x=2022$, tātad $x=674$. Līdz ar to attālums no punkta $A$ 
 līdz $y$ asij ir $674$. Tātad 
 $S_{ABC}=\frac{1}{2} BC \cdot h_{BC}=\frac{1}{2} \cdot 2022 \cdot 674=681414$.
@@ -577,6 +585,7 @@ $2$ kūciņas. Vai iespējams, ka kādā brīdī uz galda bija tieši $2022$ kū
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:DOM_AlgebraicOperations
+* topic:DivisibilityProperties
 
 </small>
 
@@ -615,6 +624,8 @@ $F$. Pierādīt, ka $EF=FB$!
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* topic:TriangleCongruenceSAS
+* topic:TrianglesIsosceles
 
 </small>
 
@@ -625,9 +636,9 @@ $\sphericalangle BCA=\sphericalangle DCA=90^{\circ}: 2=45^{\circ}$. No
 trijstūra $ECD$ iegūstam, ka 
 $\sphericalangle EDC=180^{\circ}-45^{\circ}-75^{\circ}=60^{\circ}$.
 
-Novelkam nogriezni $BE$ (skat. 10.att.). levērojam, ka 
+Novelkam nogriezni $BE$ (skat. 10.att.). Ievērojam, ka 
 $\triangle DCE=\triangle BCE$ pēc pazīmes $m \ell m$, jo $DC=BC$, 
-$\sphericalangle E C D=\sphericalangle ECB, EC$ - kopīga. Tā kā vienādos trijstūros 
+$\sphericalangle ECD=\sphericalangle ECB$, $EC$ - kopīga. Tā kā vienādos trijstūros 
 attiecīgie elementi ir vienādi, tad 
 $\sphericalangle BEC=\sphericalangle DEC=75^{\circ}$ un 
 $\sphericalangle CBE=\sphericalangle CDE=60^{\circ}$.
@@ -654,6 +665,7 @@ un pamato, ka citu nav!
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_Divisibility
+* topic:DivisibilityProperties
 
 </small>
 
@@ -665,7 +677,6 @@ nozīmē, ka $11$ dalās ar $d$. Skaitlis $11$ ir pirmskaitlis, tāpēc iespēja
 divi gadījumi:
 
 - $d=1$ un $k-4=11$ jeb $k=15$; no kā iegūstam, ka $n=k \cdot d=15 \cdot 1=15$;
-
 - $d=11$ un $k-4=1$ jeb $k=5$; no kā iegūstam, ka $n=k \cdot d=5 \cdot 11=55$.
 
 Tātad Māris iedomājās vai nu skaitli $15$, vai $55$.
@@ -686,6 +697,7 @@ Kāds ir $3321.$ skaitlis šajā virknē?
 * questionType:FindAll
 * domain:Comb
 * subdomain:DOM_CountingStrings
+* topic:RuleOfProduct
 
 </small>
 
@@ -726,6 +738,7 @@ sporta preču veikalā?
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
+* topic:LinearSystems
 
 </small>
 
@@ -737,7 +750,6 @@ $v+2d+3t=(v+d+t)+d+2t$, iegūstam, ka $13=7+d+2t$ jeb $d=6-2t$. Tā kā $d>0$ un
 $t>0$, tad iespējami divi gadījumi:
 
 - ja $t=1$, tad $d=6-2=4$;
-
 - ja $t=2$, tad $d=6-4=2$, bet šāds gadījums neder, jo pēc dotā $d>t$.
 
 Tātad $v+4+1=7$ jeb $v=2$. Līdz ar to esam ieguvuši, ka veikalā ir divi 
@@ -762,6 +774,8 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $212$
 * questionType:ProveDisprove
 * domain:NT
 * subdomain:DOM_DigitManipulation
+* topic:DivisibilityRulesFor3And9
+* topic:DivisibilityProperties
 
 </small>
 
@@ -798,13 +812,15 @@ $CD=AF$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Polygons
+* topic:Parallelograms
+* topic:TriangleCongruenceASA
 
 </small>
 
 ## Atrisinājums
 
 Novelkam $AE$ un $BD$ (skat. 11.att.). Četrstūris $ABDE$ ir paralelograms, jo 
-$AB\|DE$ un $AB=DE$. Tāpēc $BD=AE, \sphericalangle BAE=\sphericalangle BDE$ un 
+$AB \| DE$ un $AB=DE$. Tāpēc $BD=AE, \sphericalangle BAE=\sphericalangle BDE$ un 
 $\sphericalangle ABD=\sphericalangle AED$.
 
 Tā kā dotā sešstūra pretējās malas ir paralēlas, tad 
@@ -836,6 +852,7 @@ aritmētisko progresiju!
 * questionType:Prove
 * domain:Alg
 * subdomain:DOM_ArithmeticSeries
+* topic:ArithmeticAndGeometricSeries
 
 </small>
 
@@ -870,6 +887,8 @@ rūtiņas ir neaizkrāsotas?
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_GridColoring
+* method:MTH_PigeonholePrincipleBasic
+* topic:SquareGridShapes
 
 </small>
 

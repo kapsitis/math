@@ -384,6 +384,8 @@ cipariem $2,\ 0,\ 1,\ 8$ ?
 * questionType:FindCount
 * domain:Comb
 * subdomain:DOM_CountingStrings
+* topic:RuleOfProduct
+* topic:RuleOfSum
 
 </small>
 
@@ -419,6 +421,7 @@ locekļu summu!
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_SequenceProperties
+* topic:SequencePeriodicity
 
 </small>
 
@@ -462,6 +465,7 @@ ka $CD>\frac{1}{2}(CA+CB-AB)$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Triangles
+* topic:TriangleInequality
 
 </small>
 
@@ -491,6 +495,7 @@ $(n-2021)(n-2018)(n-2017)(n-2016)=2016$ būtu patiesa!
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_IntegerEquations
+* topic:NumTheoryEqualityToConstant
 
 </small>
 
@@ -518,6 +523,8 @@ spoguļattēlā.
 * questionType:ProveDisprove
 * domain:Geom
 * subdomain:DOM_GridCut
+* method:MTH_InductionConstructions
+* topic:SquareGridCutting
 
 </small>
 
@@ -552,6 +559,7 @@ $\left(x^{2}-2 x+1\right)\left(x^{4}+1\right)^{2}\left(x^{2}+2x+1\right)\left(x^
 * questionType:FindExample
 * domain:Alg
 * subdomain:DOM_AlgebraicOperations
+* topic:StandardIdentities
 
 </small>
 
@@ -578,6 +586,7 @@ Kāds ir šīs virknes $2018.$ loceklis?
 * domain:NT
 * concepts:sequence,product
 * subdomain:DOM_SequenceProperties
+* topic:SequencePeriodicity
 
 </small>
 
@@ -609,6 +618,8 @@ zināms, ka $ABCD$ laukums ir $100$.
 * questionType:FindAll
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* topic:ParallelogramArea
+* topic:CentralSymmetry
 
 </small>
 
@@ -626,8 +637,8 @@ $S_{BEF}=\frac{1}{2} S_{ABEF}=\frac{1}{2} \cdot \frac{1}{2} S_{ABCD}=\frac{1}{4}
 Tā kā trijstūriem $BEG$ un $GEF$ ir kopīgs augstums no virsotnes $E$ un malas, 
 pret kurām novilkts šis augstums ($BG$ un $GF$), ir vienādas, tad šie trijstūri
 ir vienlieli, tas ir, to laukumi ir vienādi. Tātad 
-$S_{GEF}=\frac{1}{2} S_{BEF}=\frac{1}{2} \cdot 25=12,5$. Līdzīgi iegūstam, ka 
-$S_{FEH}=12,5$. Līdz ar to $S_{FGEH}=12,5 \cdot 2=25$.
+$S_{GEF}=\frac{1}{2} S_{BEF}=\frac{1}{2} \cdot 25=12.5$. Līdzīgi iegūstam, ka 
+$S_{FEH}=12.5$. Līdz ar to $S_{FGEH}=12.5 \cdot 2=25$.
 
 
 
@@ -645,6 +656,8 @@ centrālajā rūtiņā ir ierakstīts skaitlis $\frac{n^{2}+1}{2}$, ja **(A)** $
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
+* topic:DoubleCounting
+* topic:ExpressionRegrouping
 
 </small>
 
@@ -693,6 +706,9 @@ neiekrāsotas?
 * questionType:FindOptimal,ProveDisprove
 * domain:Geom
 * subdomain:DOM_GridColoring
+* method:MTH_PigeonholePrincipleBasic
+* method:MTH_ContradictionForExistence
+* topic:SquareGrid
 
 </small>
 
@@ -709,11 +725,11 @@ rūtiņām.
 
 **(B)** Pierādīsim, ka visas stūra rūtiņas paliks neiekrāsotas. Pieņemsim, ka 
 kāda stūra rūtiņa ir iekrāsota, piemēram, labā stūra augšējā rūtiņa, tad ar 
-" $o$ " atzīmējam tās rūtiņas, ko nedrīkst iekrāsot (lai pietiktu ar $6$ 
+"$o$" atzīmējam tās rūtiņas, ko nedrīkst iekrāsot (lai pietiktu ar $6$ 
 iekrāsotām rūtiņām, katrā 16.att. taisnstūrī $2 \times 3$ jāiekrāso tieši viena
 rūtiņa un tā kā stūra rūtiņa jau ir iekrāsota, tad pārējās piecas rūtiņas 
 iekrāsot nedrīkst), bet noteikti jāiekrāso tieši viena rūtiņa, kas atzīmēta ar 
-" $a$ " un tieši viena - kas atzīmēta ar " $b$ " (skat. 17.att.). Kopā ir 
+"$a$" un tieši viena - kas atzīmēta ar "$b$" (skat. 17.att.). Kopā ir 
 iekrāsotas jau $3$ rūtiņas. Atlikušo kvadrāta daļu var sadalīt četros 
 taisnstūros $2 \times 3$ (skat. 18.att.), bet katrā šādā taisnstūrī ir 
 jāiekrāso vismaz viena rūtiņa, tātad kopā būs jāiekrāso vismaz $7$ rūtiņas. Tā 
@@ -737,6 +753,7 @@ reālas saknes?
 * questionType:FindAll,FindAll
 * domain:Alg
 * subdomain:DOM_ParametrizedEquations
+* topic:QuadraticEquationRootConditions
 
 </small>
 
@@ -781,6 +798,7 @@ trīs dažādos veidos: $4=1+1+1+1=1+3=3+1$.
 * questionType:FindCount
 * domain:Comb
 * subdomain:DOM_NumberPartitionsCompositions
+* topic:DefiningRecurrentSequences
 
 </small>
 
@@ -840,6 +858,8 @@ ir līdzīgi!
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Triangles
+* topic:FourPointsOnCircle
+* topic:ComplementaryLinearPairs
 
 </small>
 
@@ -869,6 +889,7 @@ un kuram neviens cipars nav $0$.
 * questionType:FindOptimal
 * domain:NT
 * subdomain:DOM_NumeralSystems
+* topic:NotationFragments
 
 </small>
 
@@ -903,6 +924,8 @@ $5 \times 8$ rūtiņas, lai katrā šī taisnstūra $2 \times 3$ rūtiņu taisns
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_GridColoring
+* method:MTH_PigeonholePrincipleBasic
+* topic:SquareGrid
 
 </small>
 
@@ -913,7 +936,7 @@ Mazākais rūtiņu skaits, kas jāiekrāso, ir $7$, skat., piemēram, 20.att.
 Pierādīsim, ka ar $6$ iekrāsotām rūtiņām nepietiek. Sadalām taisnstūri tā, kā 
 parādīts 21.att. Katrā taisnstūrī $2 \times 3$ jāiekrāso tieši viena rūtiņa 
 (kopā tad būs iekrāsotas $6$ rūtiņas), bet kvadrātā $2 \times 2$ nedrīkst 
-iekrāsot nevienu rūtiņu, tāpēc jāiekrāso viena no rūtiņām " $a$ " un viena no 
+iekrāsot nevienu rūtiņu, tāpēc jāiekrāso viena no rūtiņām "$a$" un viena no 
 rūtiņām "$b$".
 
 Sadalām doto taisnstūri tā, kā parādīts 22.att. Kvadrātā $3 \times 3$ jau ir 

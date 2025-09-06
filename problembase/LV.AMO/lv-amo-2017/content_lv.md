@@ -363,6 +363,7 @@ ar nemainīgu ātrumu?
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
+* topic:LinearFunctions
 
 </small>
 
@@ -402,6 +403,7 @@ summa visās joslās būtu viena un tā pati!
 * questionType:FindExample
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
+* topic:DoubleCounting
 
 </small>
 
@@ -416,7 +418,6 @@ skaitļu summa ir $1+\ldots+19=190$, bet tā ir piecu vertikālo joslu summa,
 tātad vienā joslā skaitļu summai jābūt $190:5=38$. Tālāk aizpildām joslas, 
 kurās ir tikai viens tukšs lodziņš (piemēram, pirmo un otro vertikālo joslu no 
 kreisās puses).
-
 
 
 # <lo-sample/> LV.AMO.2017.7.3
@@ -434,6 +435,9 @@ vienādmalu!
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Triangles
+* topic:TrianglesIsosceles
+* topic:TrianglesEquilateral
+* topic:InteriorExteriorAngles
 
 </small>
 
@@ -442,7 +446,7 @@ vienādmalu!
 Tā kā trijstūris $ABG$ sakrīt ar trijstūri $AEG$, tad leņķis 
 $\sphericalangle BGA=\sphericalangle EGA$ (skat. 16.att.). Taisnstūra pretējās 
 malas $BC$ un $AD$ ir paralēlas, tāpēc $\sphericalangle BGA=\sphericalangle GAH$
-kā iekšējie škērsleņķi pie paralēlām taisnēm. Līdz ar to 
+kā iekšējie šķērsleņķi pie paralēlām taisnēm. Līdz ar to 
 $\sphericalangle EGA=\sphericalangle GAH$ un trijstūris $AHG$ ir vienādsānu un 
 $AH=GH$. Līdzīgi iegūstam, ka $DI=IG$. Tā kā $AH=HI=ID$, tad $GH=HI=IG$ un 
 trijstūris $HGI$ ir vienādmalu.
@@ -471,6 +475,7 @@ un $2017$ melnas bumbiņas; **(B)** $2016$ baltas un $2018$ melnas bumbiņas?
 * questionType:FindAll,FindAll
 * domain:Comb
 * subdomain:DOM_MakingMoves
+* topic:ModularParity
 
 </small>
 
@@ -505,6 +510,7 @@ divas reizes mazāks nekā pats skaitlis?
 * domain:NT
 * concepts:product
 * subdomain:DOM_DigitManipulation
+* topic:NotationPolynomial
 
 </small>
 
@@ -547,6 +553,7 @@ vienādas; **(B)** ordināta ir divas reizes lielāka nekā abscisa?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
 * subdomain:DOM_EquationSystems
+* topic:LinearSystems
 
 </small>
 
@@ -576,6 +583,7 @@ skaitļu summa uz katras trijstūra malas būtu **(A)** $22$; **(B)** $23$?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
+* topic:ExpressionRegrouping
 
 </small>
 
@@ -618,6 +626,7 @@ malu garumi?
 * questionType:FindAll
 * domain:Geom
 * subdomain:DOM_Triangles
+* topic:TriangleCongruence
 
 </small>
 
@@ -629,7 +638,7 @@ mala.
 
 Tā kā pēc dotā trijstūri $AFE$ un $CBE$ ir vienādi, tad to atbilstošie elementi
 arī ir vienādi: $\sphericalangle AEF=\sphericalangle BEC$, 
-$AF=CB=7~\mathrm{cm},\ AE=EC$ un $EF=BE$. Saskaitot vienādus lielumus, iegūstam
+$AF=CB=7~\mathrm{cm}$, $AE=EC$ un $EF=BE$. Saskaitot vienādus lielumus, iegūstam
 vienādas summas, tas ir, $CE+EF=AE+EB=AB=10~\mathrm{cm}$. Nogriežņa $KF$ garums
 sakrīt ar $AF$ garumu. Tātad taisnstūra otras malas garums ir 
 $10+7=17~\mathrm{cm}$. Līdz ar to sākotnējās papīra lapas malu garumi ir 
@@ -656,6 +665,7 @@ kauss ir smagāks nekā otrs.
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_CombinatorialAlgorithms
+* topic:ProblemsWithHiddenInformation
 
 </small>
 
@@ -723,6 +733,8 @@ reizināumu?
 * domain:NT
 * concepts:product
 * subdomain:DOM_DigitManipulation
+* topic:NumTheoryInequalitySideComparison
+* topic:NotationPolynomial
 
 </small>
 
@@ -749,6 +761,7 @@ vienādas; **(B)** ordināta ir trīs reizes lielāka nekā abscisa?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
 * subdomain:DOM_EquationSystems
+* topic:SystemsSubstituteVariables
 
 </small>
 
@@ -769,13 +782,14 @@ punkts atrodas uz parabolas.
 
 # <lo-sample/> LV.AMO.2017.9.2
 
-Pierādīt, ka $x^{6}+y^{6}+\frac{2}{x^{3}y^{3}}-4 \geq 0$, ja $x>0,\ y>0$.
+Pierādīt, ka $x^{6}+y^{6}+\frac{2}{x^{3}y^{3}}-4 \geq 0$, ja $x>0$, $y>0$.
 
 <small>
 
 * questionType:Prove
 * domain:Alg
 * subdomain:DOM_ProvingInequalities
+* topic:AmGmInequality
 
 </small>
 
@@ -807,6 +821,9 @@ Aprēķināt trijstūra $ABC$ leņķus!
 * questionType:FindAll
 * domain:Geom
 * subdomain:DOM_Triangles
+* topic:VerticalAngles
+* topic:TrianglesIsosceles
+* topic:TriangleInternalAngles
 
 </small>
 
@@ -876,6 +893,7 @@ varētu izvietot saskaņā ar uzdevuma nosacījumiem?
 * questionType:Prove,FindOptimal
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
+* topic:TotalOrderRelations
 
 </small>
 
@@ -916,6 +934,8 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}+(x+1)^{3}=(x+3)^{3}+1$.
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_IntegerEquations
+* topic:EquationFactorization
+* topic:NumTheoryEqualityToConstant
 
 </small>
 
