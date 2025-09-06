@@ -421,6 +421,7 @@ locekļu summu!
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_SequenceProperties
+* method:MTH_PeriodicInvariant
 * topic:SequencePeriodicity
 
 </small>
@@ -576,7 +577,7 @@ $=\left(x^{4}-1\right)^{2}\left(x^{4}+1\right)^{2}=\left(x^{8}-1\right)^{2}$
 
 # <lo-sample/> LV.AMO.2018.8.2
 
-Naturālu skaitļu virknes $1; 8; 8; 64; 192; 432; \ldots$ katrs loceklis, sākot 
+Naturālu skaitļu virknes $1;\ 8;\ 8;\ 64;\ 192;\ 432;\ \ldots$ katrs loceklis, sākot 
 ar trešo, ir vienāds ar divu iepriekšējo locekļu nenulles ciparu reizinājumu. 
 Kāds ir šīs virknes $2018.$ loceklis?
 
@@ -586,6 +587,7 @@ Kāds ir šīs virknes $2018.$ loceklis?
 * domain:NT
 * concepts:sequence,product
 * subdomain:DOM_SequenceProperties
+* method:MTH_PeriodicInvariant
 * topic:SequencePeriodicity
 
 </small>
@@ -798,6 +800,7 @@ trīs dažādos veidos: $4=1+1+1+1=1+3=3+1$.
 * questionType:FindCount
 * domain:Comb
 * subdomain:DOM_NumberPartitionsCompositions
+* method:MTH_InductiveAlgorithms
 * topic:DefiningRecurrentSequences
 
 </small>
@@ -890,6 +893,7 @@ un kuram neviens cipars nav $0$.
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * topic:NotationFragments
+* topic:TotalOrderRelations
 
 </small>
 

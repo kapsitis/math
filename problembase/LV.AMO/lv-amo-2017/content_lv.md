@@ -475,6 +475,7 @@ un $2017$ melnas bumbiņas; **(B)** $2016$ baltas un $2018$ melnas bumbiņas?
 * questionType:FindAll,FindAll
 * domain:Comb
 * subdomain:DOM_MakingMoves
+* method:MTH_FixedInvariant
 * topic:ModularParity
 
 </small>
@@ -665,6 +666,7 @@ kauss ir smagāks nekā otrs.
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_CombinatorialAlgorithms
+* method:MTH_ExhaustiveAlgorithms
 * topic:ProblemsWithHiddenInformation
 
 </small>
@@ -725,7 +727,7 @@ nepiedalās $1/1/1$, ir atsvars $C$.
 # <lo-sample/> LV.AMO.2017.8.5
 
 Vai var atrast tādu desmitciparu skaitli, kas ir vienāds ar visu savu ciparu 
-reizināumu?
+reizinājumu?
 
 <small>
    
@@ -893,6 +895,7 @@ varētu izvietot saskaņā ar uzdevuma nosacījumiem?
 * questionType:Prove,FindOptimal
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
+* method:MTH_ContradictionForExistence
 * topic:TotalOrderRelations
 
 </small>
@@ -939,7 +942,7 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}+(x+1)^{3}=(x+3)^{3}+1$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atverot iekavas un savelkot līdzīgos saskaitāmos, iegūstam 
 $x^{3}-6x^{2}-24x=27$ jeb
@@ -949,15 +952,15 @@ $$x\left(x^{2}-6x-24\right)=27.$$
 Tā kā $x$ ir naturāls skaitlis, tad tam jābūt skaitļa $27$ dalītājam. Apskatām 
 visus iespējamos gadījumus.
 
-1) Ja $x=1$, tad $1 \cdot\left(1^{2}-6 \cdot 1-24\right)=-29 \neq 27$ - neder.
-2) Ja $x=3$, tad $3 \cdot\left(3^{2}-6 \cdot 3-24\right)=-99 \neq 27$ - neder.
-3) Ja $x=9$, tad $9 \cdot\left(9^{2}-6 \cdot 9-24\right)=27$ - der.
-4) Ja $x=27$, tad $27 \cdot\left(27^{2}-27 \cdot 3-24\right)=14661 \neq 27$ - 
+1. Ja $x=1$, tad $1 \cdot\left(1^{2}-6 \cdot 1-24\right)=-29 \neq 27$ - neder.
+2. Ja $x=3$, tad $3 \cdot\left(3^{2}-6 \cdot 3-24\right)=-99 \neq 27$ - neder.
+3. Ja $x=9$, tad $9 \cdot\left(9^{2}-6 \cdot 9-24\right)=27$ - der.
+4. Ja $x=27$, tad $27 \cdot\left(27^{2}-27 \cdot 3-24\right)=14661 \neq 27$ - 
    neder.
 
 Esam ieguvuši, ka vienīgā derīgā vērtība ir $x=9$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $y=x+2$. Tad doto vienādojumu var pārrakstīt kā
 
@@ -974,9 +977,9 @@ y\left(y^{2}-12y+12\right)=11
 Tā kā $y$ ir naturāls skaitlis, tad tam jābūt skaitļa $11$ dalītājam. Skaitļa 
 $11$ vienīgie dalītāji ir $1$ un $11$. Apskatām abus gadījumus.
 
-1) Ja $y=1$, tad $1 \cdot\left(1^{2}-12 \cdot 1+12\right)=1 \neq 11$. Tātad šī 
+1. Ja $y=1$, tad $1 \cdot\left(1^{2}-12 \cdot 1+12\right)=1 \neq 11$. Tātad šī 
    vērtība neder.
-2) Ja $y=11$, tad 
+2. Ja $y=11$, tad 
    $11 \cdot\left(11^{2}-12 \cdot 11+12\right)=11 \cdot(121-132+12)=11$. Šī 
    vērtība der, tātad dotā vienādojuma atrisinājums ir $x=y-2=11-2=9$.
 

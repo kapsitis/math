@@ -325,6 +325,7 @@ pozitīvs, negatīvs skaitlis vai nulle!
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:DOM_RealFunctions
+* method:MTH_ContradictionForExistence
 * topic:LinearFunctions
 
 </small>
@@ -351,6 +352,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
+* method:MTH_FixedInvariant
 * topic:GamesSymmetry
 
 </small>
@@ -386,6 +388,7 @@ mazāki nekā $180^{\circ}$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* method:MTH_AugmentationWithNewElements
 * topic:TrianglesIsosceles
 * topic:TriangleSideBisector
 * topic:TriangleAngleBisector
@@ -445,12 +448,12 @@ ciparu)?
 * domain:NT
 * concepts:product
 * subdomain:DOM_NumeralSystems
+* method:MTH_PigeonholePrincipleBasic
 * topic:FactorizationAndDivisibility
 * topic:DivisibilityRulesFor2And4
 * topic:DivisibilityRulesLastDigits
   
 </small>
-
 
 
 ## Atrisinājums
@@ -467,7 +470,7 @@ tad tas nedalās ne ar $2$, ne ar $5$). Tātad kā reizinātāju pēdējie cipar
 jāizmanto visi atlikušie septiņi cipari: $0, 1, 2, 4, 5, 6, 8$. Aplūkosim tos 
 $5$ reizinātājus, kas beidzas ar $0, 2, 4, 6, 8$, apzīmēsim tos ar 
 $a_{0}, a_{2}, a_{4}, a_{6}$, un $a_{8}$. Ievērojam, ka neviens no tiem, 
-izņemot $a_{0}$, nedalās ar $5$, tātad tie visi (izņemot $a_{0}$ ) ir divnieka 
+izņemot $a_{0}$, nedalās ar $5$, tātad tie visi (izņemot $a_{0}$) ir divnieka 
 pakāpes.
 
 Tā kā $a_{0}$ beidzas ar $0$, tad tas dalās ar $2$.
@@ -568,6 +571,7 @@ uzvarēt?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
+* method:MTH_FixedInvariant
 * topic:GamesSymmetry
 
 </small>
@@ -678,6 +682,7 @@ nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 * domain:NT
 * concepts:product
 * subdomain:DOM_NumeralSystems
+* method:MTH_PigeonholePrincipleBasic
 * topic:FactorizationAndProperties
 * topic:DivisibilityRulesFor2And4
 * topic:DivisibilityRulesFor5And25
@@ -775,6 +780,8 @@ otrais - vienmēr var uzvarēt?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
+* method:MTH_FixedInvariant
+* topic:GamesSymmetry
 
 </small>
 
@@ -809,6 +816,7 @@ $QNBC$ ir rombs!
 * questionType:Prove,Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* method:MTH_AugmentationWithNewElements
 * topic:Rhombus
 * topic:InteriorExteriorAngles
 * topic:TrianglesRight
@@ -864,6 +872,7 @@ būtu par $500290$ lielāks nekā sākotnējais. Atrast doto sešciparu skaitli!
 * domain:NT
 * subdomain:DOM_DigitManipulation
 * method:MTH_FixedInvariant
+* method:MTH_PolynomialTransformations
 * topic:NotationPolynomial
 
 </small>

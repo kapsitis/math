@@ -391,6 +391,7 @@ Karlsons var iegūt tieši $2000$ tortes gabalus?
 * questionType:ProveDisprove
 * domain:Alg,Comb
 * subdomain:DOM_MakingMoves
+* method:MTH_FixedInvariant
 * topic:DivisibilityProperties
 
 </small>
@@ -462,6 +463,7 @@ ar $7$.
 
 * questionType:FindCount
 * domain:NT
+* method:MTH_ExhaustiveAlgorithms
 * subdomain:DOM_Divisibility
 * topic:ArithmeticSeriesDivisibility
 
@@ -585,6 +587,7 @@ $2$ kūciņas. Vai iespējams, ka kādā brīdī uz galda bija tieši $2022$ kū
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:DOM_AlgebraicOperations
+* method:MTH_FixedInvariant
 * topic:DivisibilityProperties
 
 </small>
@@ -774,6 +777,7 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $212$
 * questionType:ProveDisprove
 * domain:NT
 * subdomain:DOM_DigitManipulation
+* method:MTH_FixedInvariant
 * topic:DivisibilityRulesFor3And9
 * topic:DivisibilityProperties
 
@@ -812,6 +816,7 @@ $CD=AF$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Polygons
+* method:MTH_AugmentationWithNewElements
 * topic:Parallelograms
 * topic:TriangleCongruenceASA
 

@@ -262,6 +262,7 @@ funkcijas grafiku un iet caur punktu $(1; 43)$!
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_RealFunctions
+* method:MTH_ContradictionForExistence
 * topic:LinearFunctions
 
 </small>
@@ -342,7 +343,7 @@ Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 
 Ievērojam, ka $\triangle ABD=\triangle CDB$ pēc pazīmes $\ell m \ell$, jo
 $\sphericalangle ABD=\sphericalangle CDB$ kā iekšējie šķērsleņķi pie paralēlām
-taisnēm, $BD$- kopīga mala un $\sphericalangle ADB=\sphericalangle CBD$ kā
+taisnēm, $BD$ -- kopīga mala un $\sphericalangle ADB=\sphericalangle CBD$ kā
 iekšējie šķērsleņķi pie paralēlām taisnēm (skat. 10.att.). 
 
 ![](LV.AMO.2016.7.3A.png)
@@ -459,7 +460,7 @@ $$\frac{4(10^6 - 8)(10^6 + 8)}{2(10^{12} -64)} = \frac{4}{2}=2.$$
 
 # <lo-sample/> LV.AMO.2016.8.2
 
-Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$ ?
+Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$?
 
 <small>
 
@@ -475,8 +476,8 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$ ?
 ## Atrisinājums
 
 Ja $a$ vai $b$ ir pāra skaitlis, tad vienādojuma kreisās puses izteiksmes
-vērtība ir pāra skaitlis, kas nevar būs vienāda ar nepāra skaitli $434343$. Ja
-$a$ un $b$ abi ir nepāra skaitļi, tad $a+43b$ ir pāra skaitlis un vienādojuma
+vērtība ir pāra skaitlis, kas nevar būs vienāda ar nepāra skaitli $434343$. 
+Ja $a$ un $b$ abi ir nepāra skaitļi, tad $a+43b$ ir pāra skaitlis un vienādojuma
 kreisās puses izteiksmes vērtība ir pāra skaitlis, kas nevar būt vienāda ar
 nepāra skaitli $434343$.
 
@@ -518,7 +519,7 @@ Tā kā meklētajam skaitlim jādalās ar $2016$, tad tam jādalās ar visiem t�
 pirmreizinātājiem $2016=2^{5} \cdot 3^{2} \cdot 7$. Visu desmit ciparu summa ir
 $45$, tātad skaitlis dalās ar $3^{2}=9$. Lai skaitlis dalītos ar $2^{5}=32$, tā
 pēdējo piecu ciparu veidotajam skaitlim jādalās ar $32$. Der, piemēram, $98752$.
-Tad atlikušie cipari $0, 1, 3 ,4 , 6$ jāizkārto tā, lai iegūtais desmitciparu
+Tad atlikušie cipari $0,1,3,4,6$ jāizkārto tā, lai iegūtais desmitciparu
 skaitlis dalītos ar $7$.
 
 ## Atrisinājums
@@ -582,6 +583,7 @@ pareizi spēlējot, uzvar, ja **(A)** $N=7$, **(B)** $N=8$?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
+* method:MTH_InductiveAlgorithms
 * topic:GameModelAsGrid
 * topic:GameInvariant
 
@@ -705,7 +707,7 @@ Pitagora teorēmu $\triangle MBC$, iegūstam, ka $CM=2x$.
 
 # <lo-sample/> LV.AMO.2016.9.4
 
-Naturālu skaitļu virknes $1 ; 2 ; 2 ; 4 ; 8 ; 32 ; 48 ; \ldots$ katrs loceklis,
+Naturālu skaitļu virknes $1; 2; 2; 4; 8; 32; 48; \ldots$ katrs loceklis,
 sākot ar trešo, ir vienāds ar divu iepriekšējo locekļu nenulles ciparu
 reizinājumu. Kāds ir šīs virknes $2016.$ loceklis?
 
@@ -715,6 +717,7 @@ reizinājumu. Kāds ir šīs virknes $2016.$ loceklis?
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_IntegerSequences
+* method:MTH_PeriodicInvariant
 * topic:SequencePeriodicity
 
 </small>
@@ -768,6 +771,7 @@ pārbaudot ne vairāk kā četrus podus!
 * questionType:Prove
 * domain:Comb
 * subdomain:DOM_Logic
+* method:MTH_ExhaustiveAlgorithms
 * topic:SearchProblems
 
 </small>
