@@ -37,7 +37,8 @@ def copy_png_files(src_directory, dest_directory):
 
 if __name__ == "__main__":
     # Root directory containing the PNG files and subdirectories
-    copy_png_files('..', '../myimages')
-    copy_png_files('../../../../../nms-uzdevumi', '../myimages')
+    # copy_png_files('..', '../myimages')
+    # copy_png_files('../../../../../nms-uzdevumi', '../myimages')
+    copy_png_files('../../../../problembase', '../myimages')
 
     print("All PNG files have been copied successfully.")
