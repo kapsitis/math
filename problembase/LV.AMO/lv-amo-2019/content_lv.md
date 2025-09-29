@@ -601,7 +601,7 @@ $DE$ ir perpendikulārs $AF$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
-* topic:InteriorExteriorAngles
+* topic:AlternateAngles
 * topic:TrianglesIsosceles
 * topic:Parallelograms
 
@@ -818,7 +818,7 @@ $QNBC$ ir rombs!
 * subdomain:DOM_Quadrilaterals
 * method:MTH_AugmentationWithNewElements
 * topic:Rhombus
-* topic:InteriorExteriorAngles
+* topic:AlternateAngles
 * topic:TrianglesRight
 
 </small>

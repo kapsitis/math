@@ -336,6 +336,7 @@ Atrodi visus šos skaitļus!
 * topic:PrimesDistribution
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_Cryptarithm
 * concepts:primes
 
 </small>
@@ -392,6 +393,7 @@ pilsētā $B$ ierasties vienlaicīgi ar to, ja sarkanās automašīnas ātrums b
 
 * questionType:ProveDisprove
 * domain:Alg
+* subdomain:DOM_WordProblems
 
 </small>
 
@@ -426,6 +428,7 @@ dalot ar $2011$, atlikumā iegūst $3$.
 * topic:ChineseRemainderTheorem
 * questionType:FindExample
 * domain:NT
+* subdomain:DOM_Congruences
 * concepts:remainder
 
 </small>
@@ -447,6 +450,7 @@ kā to var izdarīt!
 * concepts:square-Geo,rectangle
 * questionType:FindExample
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -469,6 +473,7 @@ vienas krāsas punktus, starp kuriem attālums centimetros ir vesels skaitlis.
 * questionType:Prove
 * method:MTH_PigeonholePrincipleBasic
 * domain:Geom
+* subdomain:DOM_ObjectSystemsGeometry
 
 </small>
 
@@ -497,6 +502,7 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("+", "-", " $\cdot$ "
 * questionType:FindExample
 * domain:Alg
 * seeAlso:LV.AMO.2010.8.1
+* subdomain:DOM_ExpressionBuilding
 
 </small>
 
@@ -518,6 +524,7 @@ $MK,\ ML,\ MP$ un $MR$ viduspunkti, ir kvadrāts.
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Quadrilaterals
 
 </small>
 
@@ -545,6 +552,7 @@ vienādas. Nosaki visas iespējamās šo summu vērtības.
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_MagicConfigurations
 
 </small>
 
@@ -585,6 +593,7 @@ dalās ar **(A)** $17$; **(B)** $23$?
 * topic:CanonicalFactorization
 * questionType:ProveDisprove
 * domain:NT
+* subdomain:DOM_DigitManipulation
 * concepts:divisibility
 
 </small>
@@ -631,6 +640,7 @@ spēlētājiem, pareizi spēlējot, uzvarēs? Apraksti, kā uzvarētājam jārī
 * topic:GameInvariant
 * questionType:ProveDisprove,Algorithm
 * domain:NT
+* subdomain:DOM_NumericGamesAndAlgorithms
 
 </small>
 
@@ -663,6 +673,7 @@ $$\frac{1}{x^{2}+24}+\frac{1}{y^{2}+24}=\frac{2}{xy+24}$$
 * concepts:natural-numbers,pair
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_IntegerEquations
 
 </small>
 
@@ -706,6 +717,7 @@ $\sphericalangle BAC=\sphericalangle BMN$.
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -736,6 +748,7 @@ racionāla sakne?
 * concepts:equation
 * questionType:ProveDisprove
 * domain:Alg
+* subdomain:DOM_Equations
 
 </small>
 
@@ -761,6 +774,7 @@ ka katrs no tiem ir izsakāms kā divu naturālu skaitļu kvadrātu starpība?
 * concepts:square-Geo,rectangle
 * questionType:FindOptimal
 * domain:NT
+* subdomain:DOM_IntegerEquations
 
 </small>
 
@@ -791,6 +805,7 @@ nevar, izpildot tikai atļautos gājienus?
 
 * questionType:FindAll
 * domain:Geom,Comb
+* subdomain:DOM_MakingMoves
 
 </small>
 

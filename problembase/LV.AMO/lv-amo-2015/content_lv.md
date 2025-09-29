@@ -837,6 +837,9 @@ $G$. Nosaki $\sphericalangle CGD$ lielumu, ja $\sphericalangle CAD=\alpha$!
 * subdomain:DOM_Quadrilaterals
 * topic:CircleInscribedAngles
 * topic:ComplementaryLinearPairs
+* topic:TrianglesIsosceles
+* topic:IsoscelesTrapezoid
+* topic:TriangleInternalAngles
 
 </small>
 

@@ -437,7 +437,7 @@ vienādmalu!
 * subdomain:DOM_Triangles
 * topic:TrianglesIsosceles
 * topic:TrianglesEquilateral
-* topic:InteriorExteriorAngles
+* topic:AlternateAngles
 
 </small>
 
@@ -829,7 +829,7 @@ Aprēķināt trijstūra $ABC$ leņķus!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle BCE=\alpha$ (skat. 22.att.). Tad no bisektrises 
 definīcijas un blakusleņķu īpašības izriet, ka 
@@ -856,7 +856,7 @@ Tātad $\alpha=24^{\circ}$, un varam aprēķināt trijstūra $ABC$ leņķus:
 $\sphericalangle BAC=8 \cdot 24^{\circ}-180^{\circ}=12^{\circ}; \sphericalangle ACB=180^{\circ}-2 \cdot 24^{\circ}=132^{\circ}$
 un $\sphericalangle ABC=180^{\circ}-132^{\circ}-12^{\circ}=36^{\circ}$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $\sphericalangle BCE=\alpha$ un $\sphericalangle CAD=\beta$ (skat. 
 22.att.). Tad pēc bisektrises definīcijas un blakusleņķu īpašības 

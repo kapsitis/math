@@ -863,6 +863,7 @@ ir līdzīgi!
 * subdomain:DOM_Triangles
 * topic:FourPointsOnCircle
 * topic:ComplementaryLinearPairs
+* topic:TriangleSimilarityAAA
 
 </small>
 

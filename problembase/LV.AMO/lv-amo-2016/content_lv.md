@@ -333,7 +333,7 @@ Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
 * topic:TriangleCongruence
-* topic:InteriorExteriorAngles
+* topic:AlternateAngles
 * topic:TrianglesIsosceles
 
 </small>
@@ -678,6 +678,7 @@ $CDM$ ir vienādmalu!
 * subdomain:DOM_Triangles
 * topic:SimilarTriangleSideRatio
 * topic:TrianglesRight
+* topic:TrianglesRightRatioCosine
 
 </small>
 

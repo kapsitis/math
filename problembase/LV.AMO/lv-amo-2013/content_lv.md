@@ -288,6 +288,7 @@ skaitli ar tā ciparu reizinājumu, dalījums ir vismaz $\frac{11}{9}$.
 * topic:NumTheoryExtremeElement
 * questionType:Prove
 * domain:NT
+* subdomain:DOM_NumeralSystems
 
 </small>
 
@@ -313,8 +314,8 @@ $\frac{10a+b}{ab}=\frac{10}{b}+\frac{1}{a}$ ir vismazākā, ja $a=b=9$.
 
 # <lo-sample/> LV.AMO.2013.7.2
 
-Doti seši nogriežņi ar garumiem 
-$1~\mathrm{cm},\ 3~\mathrm{cm},\ 5~\mathrm{cm},\ 7~\mathrm{cm},\ 9~\mathrm{cm},\ 11~\mathrm{cm}$.
+Doti seši nogriežņi ar garumiem $1~\mathrm{cm}$, $3~\mathrm{cm}$, 
+$5~\mathrm{cm}$, $7~\mathrm{cm}$, $9~\mathrm{cm}$, $11~\mathrm{cm}$.
 Cik dažādos veidos no tiem var izvēlēties trīs nogriežņus tā, ka no tiem var 
 izveidot trijstūri (katra trijstūra mala ir viens vesels nogrieznis)?
 
@@ -324,6 +325,7 @@ izveidot trijstūri (katra trijstūra mala ir viens vesels nogrieznis)?
 * concepts:triangle
 * questionType:FindCount
 * domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -354,10 +356,11 @@ kvadrāts ir skaitļa reizinājums pašam ar sevi.)
 * topic:SeriesMembersSumsClosedFormulas
 * questionType:Prove
 * domain:NT
+* subdomain:DOM_DigitManipulation
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc dalāmības pazīmēm viegli pārbaudīt, ka dotais skaitlis dalās ar $8$, bet 
 nedalās ar $16$. Skaitlis dalās ar $8$, ja ar $8$ dalās skaitļa pēdējo trīs 
@@ -372,9 +375,7 @@ pirmskaitlis tā sadalījumā pirmreizinātājos ietilpst ar pāra pakāpi. Tāt
 dotais skaitlis nav naturāla skaitļa kvadrāts.
 
 
-
-
-## Atrisinājums
+## Atrisinājums-2
 
 Var izmantot dalāmību ar $3$ šādā spriedumā:
 
@@ -404,6 +405,7 @@ figūru (tā var būt pagriezta vai apgāzta otrādi)?
 
 * questionType:FindExample
 * domain:Geom
+* subdomain:DOM_GridColoring
 
 </small>
 
@@ -429,6 +431,7 @@ panākt savu uzvaru?
 * seeAlso:LV.AMO.2013.6.5
 * questionType:ProveDisprove
 * domain:Comb
+* subdomain:DOM_CombinatorialGames
 
 </small>
 
@@ -455,10 +458,11 @@ to pirmo ciparu, samazinās $36$ reizes.
 * topic:NotationFragments
 * questionType:FindAll
 * domain:NT
+* subdomain:DOM_DigitManipulation
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim meklējamo skaitli ar $a \cdot 10^{k}+B$, kur $a$ ir pirmais cipars 
 (kas tiek nosvītrots), bet $B$ ir $k$ ciparu skaitlis, kas paliek pēc $a$ 
@@ -475,7 +479,7 @@ $72,\ 720,\ 7200,\ 72000,\ 720000$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Uzrakstām algebriski, ko nozīmē pirmā cipara nodalīšana no pārējā gabala
 
@@ -495,6 +499,7 @@ perimetra.
 * concepts:triangle,perimeter
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -518,6 +523,7 @@ ka $t \geq 4 a$.
 
 * questionType:Prove
 * domain:Alg
+* subdomain:DOM_ParametrizedEquations
 
 </small>
 
@@ -539,6 +545,7 @@ daudzstūros?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
+* subdomain:DOM_CuttingCoversColoring
 
 </small>
 
@@ -568,6 +575,7 @@ $x_{1} \geq x_{2} \geq x_{3} \geq x_{4}$ ).
 * concepts:monotonic-sequence
 * questionType:Prove
 * domain:Comb
+* subdomain:DOM_Logic
 
 </small>
 
@@ -598,6 +606,8 @@ sadalīt piecos vienlielos trijstūros.
 * concepts:trapezoid,triangle
 * questionType:Prove
 * domain:Geom
+* sameAs:LV.AMO.2012.9.5
+* subdomain:DOM_Quadrilaterals,DOM_CuttingCoversColoring
 
 </small>
 
@@ -615,7 +625,7 @@ Tātad doto trapeci nav iespējams sadalīt piecos vienlielos trijstūros.
 
 # <lo-sample/> LV.AMO.2013.9.2
 
-Kvadrāta ar izmēriem $4 \times 4$ rūtiņas katra rūtiņu virsotne nokrāsota vienā
+Kvadrātā ar izmēriem $4 \times 4$ rūtiņas katra rūtiņu virsotne nokrāsota vienā
 no divām krāsām. Pierādīt, ka noteikti var atrast trīs punktus, kas nokrāsoti 
 vienā krāsā un atrodas vienādsānu taisnleņķa trijstūra virsotnēs.
 
@@ -623,6 +633,7 @@ vienā krāsā un atrodas vienādsānu taisnleņķa trijstūra virsotnēs.
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_GridColoring
 
 </small>
 
@@ -655,12 +666,13 @@ ciparus.
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_NumeralSystems
 
 </small>
 
 ## Atrisinājums
 
-**Atbilde:** $1,\ 2,\ 3$ un $5$.
+**Atbilde:** $1$, $2$, $3$ un $5$.
 
 Dotos ciparus apzīmēsim ar $a,\ b,\ c,\ d$. No tiem var izveidot $16$ dažādus 
 divciparu skaitļus. Katrs no šiem cipariem četros skaitļos ir desmitu cipars un
@@ -683,6 +695,7 @@ $x_{n+1}=x_{n}+\frac{2}{x_{n}}$ visiem $n \geq 0$. Pierādīt, ka $x_{100}>20$.
 * concepts:sequence
 * questionType:Prove
 * domain:Alg
+* subdomain:DOM_RealSequences
 
 </small>
 
@@ -712,6 +725,7 @@ malas. Pierādīt, ka šie riņķi pilnībā pārklāj doto četrstūri.
 * concepts:square-Geo,circle
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Quadrilaterals
 
 </small>
 

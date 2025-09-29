@@ -273,8 +273,7 @@ piem., $54=7 \cdot 2+10 \cdot 4,55=7 \cdot 5+10 \cdot 2,56=7 \cdot 8,57=7 \cdot 
 # <lo-sample/> LV.AMO.2012.7.1
 
 Vai var atrast tādus veselus skaitļus $a$ un $b$, kuriem izpildās vienādība
-
-$$ab(3a+5b)=1234567$$?
+$ab(3a+5b)=1234567$?
 
 <small>
 
@@ -282,6 +281,7 @@ $$ab(3a+5b)=1234567$$?
 * questionType:ProveDisprove
 * domain:NT
 * concepts:equation
+* subdomain:DOM_IntegerEquations
 
 </small>
 
@@ -309,6 +309,7 @@ ir viens vesels nogrieznis)?
 * concepts:triangle,segment
 * questionType:FindCount
 * domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -339,6 +340,7 @@ vienlaicīgi ar to, ja sarkanās automašīnas ātrums bija
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
+* subdomain:DOM_WordProblems
 
 </small>
 
@@ -371,6 +373,7 @@ atšķirīgi)?
 
 * questionType:ProveDisprove
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -397,6 +400,7 @@ iet.
 
 * questionType:FindCount
 * domain:Geom,Comb
+* subdomain:DOM_MakingMoves
 
 </small>
 
@@ -427,6 +431,7 @@ būtu **(A)** $13$, **(B)** $14$.
 * topic:AlgorithmsOnSyntaxTrees
 * questionType:FindExample
 * domain:Alg
+* subdomain:DOM_ExpressionBuilding
 
 </small>
 
@@ -448,6 +453,7 @@ $P$ līdz dotā trijstūra virsotnēm ir lielāka nekā puse no trijstūra perim
 
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Triangles
 
 </small>
 
@@ -476,20 +482,21 @@ olimpiādē?
 * topic:NumTheoryInequalityMethod
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_EquationSystems
 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
-Apzīmēsim zēnu skaitu ar $z$, bet meiteņu skaitu- ar $m$. Tātad visi zēni kopā ieguva
+Apzīmēsim zēnu skaitu ar $z$, bet meiteņu skaitu -- ar $m$. Tātad visi zēni kopā ieguva
 $21,6 \cdot z$ punktus, bet visas meitenes kopā ieguva $15 \cdot m$ punktus. Tad visu
 bērnu vidējais punktu skaits ir $\frac{21,6z+15m}{z+m}=20$. Pārveidojot iegūstam
 $21,6z+15m=20(z+m) \Rightarrow 1,6z=5m \Rightarrow$ $8z=25m \Rightarrow z=25t, m=8t$ un
 $z+m=33t$. Tā kā kopējais skolnieku skaits nepārsniedz $60$, tad $t=1$ un kopējais
 skolēnu skaits ir $33$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Smaguma centram $21.6$ abi plecu garumi $1.6=|21.6-20|$ un $5=|15-20|$ 
 attiecas kā $8$ un $25$. Tātad zēnu ir $25$ un meiteņu $8$. Lielākus skaitļus ievietot 
@@ -501,23 +508,24 @@ nevar, jo piemēram $50$ un $16$ summa ir jau $66 > 60$.
 # <lo-sample/> LV.AMO.2012.8.4
 
 Pa apli uzrakstīti $11$ veseli skaitļi. Jebkuru trīs pēc kārtas ņemtu skaitļu summa
-dalās ar $5$. Pierādi, ka visi uzrakstītie skaitļi dalās ar $5$ .
+dalās ar $5$. Pierādi, ka visi uzrakstītie skaitļi dalās ar $5$.
 
 <small>
 
 * topic:PeriodicRemainders
 * questionType:Prove
 * domain:NT
+* subdomain:DOM_Divisibility
 * concepts:sum,divisibility
 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim pa apli uzrakstītos skaitļus kā parādīts 10.zīmējumā. Tā kā $a+b+c$ un
 $b+c+d$ dalās ar $5$, tad $a$ un $d$, dalot ar $5$, dod vienādu atlikumu (apzīmēsim to
-ar $r$, $0 \leq r < 5)$.
+ar $r$, $0 \leq r < 5$).
 
 ![](LV.AMO.2012.8.4A.png)
 
@@ -554,13 +562,9 @@ Skaitlis $3$ nedalās ar $5$, tātad $r$ dalās ar $5$. Tā kā $r < 5$, tad $r=
 nozīmē, ka visi uzrakstītie skaitļi dalās ar $5$.
 
 
-
-
-## Atrisinājums
+## Atrisinājums-2
 
 Atlikumi pēc $5$ moduļa ik pēc $3$ atkārtojas, tātad tie visi vienādi (un vienādi ar $0$).
-
-
 
 
 
@@ -579,13 +583,14 @@ pret šo diagonāli ierakstīti vienādi skaitļi.)
 
 * questionType:Prove
 * domain:Comb
+* subdomain:DOM_MagicConfigurations
 
 </small>
 
 
 ## Atrisinājums
 
-Izvēlamies jebkuru skaitli $k$ ($k=1,2, \ldots, 7$ ). Tā kā dotā tabula ir simetriska,
+Izvēlamies jebkuru skaitli $k$ ($k=1,2, \ldots, 7$). Tā kā dotā tabula ir simetriska,
 diagonāles abās pusēs skaitlis $k$ ir ierakstīts vienādā skaitā rūtiņu, tātad ārpus
 diagonāles ir uzrakstīti pāra skaits skaitļu $k$. Tā kā tabulā pavisam ir septiņi
 (nepāra skaits) skaitļi $k$, tad vismaz viens no tiem ir uz diagonāles. Šis spriedums
@@ -606,6 +611,7 @@ Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 * questionType:FindExample
 * domain:NT
 * concepts:divisors
+* subdomain:DOM_Divisibility
 
 </small>
 
@@ -628,6 +634,7 @@ $\sphericalangle BAC=\sphericalangle BMN$
 * topic:TriangleCongruence
 * questionType:Prove
 * domain:Geom
+* subdomain:DOM_Triangles
 * concepts:triangle
 
 </small>
@@ -656,7 +663,8 @@ pirmskaitļi. Aprēķini $a$ skaitlisko vērtību.
 * topic:ModularArithmetic
 * topic:ModularArithmetic
 * questionType:FindAll
-* domain:NT
+* domain:NT,Alg
+* subdomain:DOM_ParametrizedEquations
 * concepts:quadratic-equation,primes
 
 </small>
@@ -685,6 +693,7 @@ ar $37$. Vai Pēteris vienmēr var uzvarēt?
 * topic:ModularArithmetic
 * questionType:ProveDisprove
 * domain:NT
+* subdomain:DOM_NumericGamesAndAlgorithms
 
 </small>
 
@@ -715,6 +724,8 @@ piecos vienlielos trijstūros.
 * topic:Trapezoids
 * questionType:Prove
 * domain:Geom
+* sameAs:LV.AMO.2013.9.1
+* subdomain:DOM_Quadrilaterals,DOM_CuttingCoversColoring
 * concepts:trapezoid,triangle
 
 
