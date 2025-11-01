@@ -262,7 +262,6 @@ funkcijas grafiku un iet caur punktu $(1; 43)$!
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_RealFunctions
-* method:MTH_ContradictionForExistence
 * topic:LinearFunctions
 
 </small>

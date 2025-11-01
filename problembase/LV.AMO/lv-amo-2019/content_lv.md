@@ -325,7 +325,6 @@ pozitīvs, negatīvs skaitlis vai nulle!
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:DOM_RealFunctions
-* method:MTH_ContradictionForExistence
 * topic:LinearFunctions
 
 </small>

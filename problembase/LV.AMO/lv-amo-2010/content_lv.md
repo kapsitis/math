@@ -369,7 +369,6 @@ Atrodi visus šos skaitļus!
 <small>
 
 * topic:PrimesDistribution
-* topic:PrimesDistribution
 * topic:CanonicalFactorization
 * concepts:primes
 * subdomain:DOM_NumericSets
