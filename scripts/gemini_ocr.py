@@ -35,13 +35,47 @@ class GeminiOCR:
         print(f"Using model: {model.model_name}")
 
         prompts = [
-            """Convert the screenshot into Markdown (if there is any text outside a table). 
-            Precede it by a YAML data extracted from the table (usually 
-            titled "Источники и прецеденты использования"), keep the Russian original.  
-            Start and terminate your Markdown with three backquotes (```)""",
+            """Convert the screenshot into Markdown. 
+            If there is any text outside a table, create English H2 headings
+            followed by text in Russian.
+            Convert math formulas into LaTeX and enclose them in-between $ 
+            (inline formulas), or $$ (larger formulas).
+            Start and terminate your Markdown with three backquotes (```). 
+
+            Add Yaml front-matter listing all values from table under 
+            "Источники и прецеденты использования", if present.
+            Property names in English; values in Russian original. 
+            Sample output: 
+            ```
+            ---
+            book:
+              author:Lastname1 A., Lastname2 B. (replace by "Автор")
+              year:1970  (the value of "Год издания")
+              title:     (replace by "Название")
+              publisher: (replace by "Издательство")
+              edition:   (replace by "Издание")
+            chapter:
+              (more values, if any)
+            ---
+            ## Solution 
+
+            Russian text from under "Решение".
+
+            ## Hint 
+
+            Russian text from under "Подсказка".
+
+            ## Answer 
+
+            Russian text from under "Ответ".            
+            ```
+
+            If the entire screenshot is a table, create only the Yaml front-matter.
+            If there are images in the screenshot, insert names 
+            ![]({problemnum}A.png), ![]({problemnum}B.png)
+            """,
             
-            """Convert the screenshot of problem number {problemnum} into Markdown; 
-            keep the Russian original.
+            """Convert the screenshot of problem number {problemnum} into Markdown.
             Start and terminate your Markdown with three backquotes (```). 
             Convert math formulas into LaTeX and enclose them in-between $ (inline formulas), 
             or $$ (larger formulas). Your output should be a Yaml front-matter 
@@ -56,7 +90,9 @@ class GeminiOCR:
             subdomain:NA    (always "NA")
             topic:NA        (always "NA")
             
-            (add any values from table under "Источники и прецеденты использования", if present)
+            (Add any to Yaml values from table under "Источники и прецеденты использования", 
+            if present. Property names in English; values in Russian original.)
+
             book:
               author:Lastname1 A., Lastname2 B. (replace by "Автор")
               year:1970  (replace by "Год издания")
@@ -69,14 +105,22 @@ class GeminiOCR:
             # <lo-sample/> {problemnum}
 
             ... text that was under caption "Условие" ...
+            
+            ## Solution 
 
-            ## Solution
+            Russian text from under "Решение".
 
-            ... text under "Решение"
+            ## Hint 
+
+            Russian text from under "Подсказка".
+
+            ## Answer 
+
+            Russian text from under "Ответ".
             ```
 
-            If there are images in the screenshot, use names 
-            ![]({problemnum}.png), ![]({problemnum}A.png), ![]({problemnum}B.png), etc.
+            If there are images in the screenshot, insert names 
+            ![]({problemnum}A.png), ![]({problemnum}B.png), etc.
             """
         ]
 
