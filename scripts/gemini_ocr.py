@@ -154,10 +154,10 @@ class GeminiOCR:
         count = 0
         for image_path in png_files:
 
-            count += 1
+            # count += 1
             # Terminate, if too many images are processed
-            if count > 1: 
-                break
+            # if count > 1: 
+            #    break
             try:
                 img = Image.open(image_path)
 
