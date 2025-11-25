@@ -1,0 +1,93 @@
+prompt_name: 'ocr-probru-v20251122'
+w
+user_message_first: >
+   Convert the screenshot of problem number {problemnum} into Markdown.
+   Start and terminate your Markdown with three backquotes (```). 
+   Convert math formulas into LaTeX and enclose them in-between $ (inline formulas), 
+   or $$ (larger formulas). Your output should be a Yaml front-matter 
+   followed by Markdown like this:
+   ```
+   ---
+   problemID: {problemnum}
+   topic: 
+      - the first link text following Темы (in Russian original without brackets)
+      - add more lines (corresponding to the count of link texts after "Темы")
+   difficulty: 3   (replace by the number from screenshot following "Сложность")
+   suggestedGrade: 6,7,8   (replace by the number(s) in screenshot after "Классы")
+   domain:Comb     (always "Comb")
+   questionType:NA (always "NA")
+   subdomain:NA    (always "NA")
+   topic:NA        (always "NA")
+   
+   (Add any to Yaml values from table under "Источники и прецеденты использования", 
+   if present. Property names in English; values in Russian original.)
+
+   book:
+      author:Lastname1 A., Lastname2 B. (replace by "Автор")
+      year:1970  (replace by "Год издания")
+      title:     (replace by "Название")
+      publisher: (replace by "Издательство")
+      edition:   (replace by "Издание")
+   chapter:
+      (more values, if any)
+   ---
+   # <lo-sample/> {problemnum}
+
+   ... text that was under caption "Условие" ...
+   
+   ## Solution 
+
+   Russian text from under "Решение".
+
+   ## Hint 
+
+   Russian text from under "Подсказка".
+
+   ## Answer 
+
+   Russian text from under "Ответ".
+   ```
+
+   If there are images in the screenshot, insert names 
+   ![]({problemnum}A.png), ![]({problemnum}B.png), etc.
+
+user_next: > 
+   Convert the screenshot into Markdown. 
+   If there is any text outside a table, create English H2 headings
+   followed by text in Russian.
+   Convert math formulas into LaTeX and enclose them in-between $ 
+   (inline formulas), or $$ (larger formulas).
+   Start and terminate your Markdown with three backquotes (```). 
+
+   Add Yaml front-matter listing all values from table under 
+   "Источники и прецеденты использования", if present.
+   Property names in English; values in Russian original. 
+   Sample output: 
+   ```
+   ---
+   book:
+      author:Lastname1 A., Lastname2 B. (replace by "Автор")
+      year:1970  (the value of "Год издания")
+      title:     (replace by "Название")
+      publisher: (replace by "Издательство")
+      edition:   (replace by "Издание")
+   chapter:
+      (more values, if any)
+   ---
+   ## Solution 
+
+   Russian text from under "Решение".
+
+   ## Hint 
+
+   Russian text from under "Подсказка".
+
+   ## Answer 
+
+   Russian text from under "Ответ".            
+   ```
+
+   If the entire screenshot is a table, create only the Yaml front-matter.
+   If there are images in the screenshot, insert names 
+   ![]({problemnum}A.png), ![]({problemnum}B.png)
+

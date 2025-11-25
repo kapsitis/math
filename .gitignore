@@ -65,3 +65,4 @@ backup-files/uzduotys_ir_sprendimai_2024_EPDF.pdf
 backup-files/*.pdf
 backup-files/*.docx
 scripts/.env
+images/*

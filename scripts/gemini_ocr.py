@@ -153,9 +153,7 @@ class GeminiOCR:
         print(f"Found {len(png_files)} PNG images to process.")
         count = 0
         for image_path in png_files:
-
             # count += 1
-            # Terminate, if too many images are processed
             # if count > 1: 
             #    break
             try:
@@ -164,13 +162,13 @@ class GeminiOCR:
                 
                 image_name = image_path.name
                 problem_number = int(re.match(r"^(\d+)", image_name).group(1))
-                prompt_num = 0 if image_name.endswith("A.png") else 1
+                prompt_num = 0 if image_name.endswith("A.png") or image_name.endswith("B.png") else 1
                 system_prompt = prompts[prompt_num]
-                system_prompt = system_prompt.format(problemnum=problem_number)
+                theprompt = system_prompt.format(problemnum=problem_number)
 
                 print(f"\nProcessing image: {image_path.name} with prompt# {prompt_num}...")
 
-                contents = [prompts[prompt_num], img]
+                contents = [theprompt, img]
                 response = model.generate_content(contents)
                 summary_text = response.text
 
