@@ -273,6 +273,7 @@ Atrodiet skaitļa $1^{2}+2^{2}+\cdots+99^{2}$ pēdējo ciparu.
 * topic:CongruenceClasses
 * questionType:FindAll
 * domain:NT
+* subdomain:
 
 </small>
 
