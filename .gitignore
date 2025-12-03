@@ -66,3 +66,5 @@ backup-files/*.pdf
 backup-files/*.docx
 scripts/.env
 images/*
+sources/*.pdf
+sources/UKMT/*.pdf
