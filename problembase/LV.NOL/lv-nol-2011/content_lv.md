@@ -273,7 +273,7 @@ Atrodiet skaitļa $1^{2}+2^{2}+\cdots+99^{2}$ pēdējo ciparu.
 * topic:CongruenceClasses
 * questionType:FindAll
 * domain:NT
-* subdomain:
+* subdomain:DOM_Congruences
 
 </small>
 
@@ -303,6 +303,7 @@ $(n+1)(n+2)(n+3)$ dalās ar $125$?
 * topic:FactorizationAndDivisibility
 * questionType:FindCount
 * domain:NT
+* subdomain:DOM_Divisibility
 
 </small>
 
@@ -330,6 +331,8 @@ reizinājumus. Cik no tiem ir pozitīvi?
 
 * questionType:FindCount
 * domain:Comb
+* subdomain:DOM_CombinatorialStructures
+* topic:CountingUsingSymmetry
 
 </small>
 
@@ -343,11 +346,11 @@ visu blakus skaitļu reizinājumi ir negatīvi, tātad jebkuri divi blakus skait
 pretējām zīmēm. Ja mēs skaitļus apzīmējam ar $a, b, c, d, e$, tad $a$ un $b$ ir ar
 pretējām zīmēm, $b$ un $c$ ir ar pretējām zīmēm, tātad $a$ un $c$ ir ar vienādām zīmēm.
 Tieši tāpat pamato, ka $c$ un $e$ arī ir ar vienādām zīmēm. Bet tātad arī $a$ un $e$ ir
-ar vienādām zīmēm un reizinājums $ae$ ir pozitīvs- pretruna.
+ar vienādām zīmēm un reizinājums $ae$ ir pozitīvs -- pretruna.
 
 Tātad, viens no skaitļiem ir $0$, pieņemsim, ka $e=0$. Tad zīmes skaitļiem $a, b, c, d$
-var būt vai nu " $+ - + -$ " vai " $- + - +$ ". Redzams, ka no reizinājumiem
-$abc$, $bcd$ viens ir pozitīvs (" $- + -$ ") un viens negatīvs (" $+ - +$ "). Pārējie
+var būt vai nu "$+ - + -$" vai "$- + - +$". Redzams, ka no reizinājumiem
+$abc$, $bcd$ viens ir pozitīvs ("$- + -$") un viens negatīvs ("$+ - +$"). Pārējie
 trīs triju blakusstāvošu skaitļu reizinājumi satur reizinātāju $e$, tātad to vērtība ir
 $0$. Tātad tieši viens no šiem reizinājumiem ir pozitīvs.
 
@@ -363,6 +366,9 @@ rūtiņām sauksim rūtiņas, kurām ir kopīgs vismaz viens punkts).
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
+* subdomain:DOM_GridColoring
+* method:MTH_PigeonholePrincipleBasic
+* topic:SquareGridShapes
 
 </small>
 
@@ -370,6 +376,8 @@ rūtiņām sauksim rūtiņas, kurām ir kopīgs vismaz viens punkts).
 ## Atrisinājums
 
 **(A)** Var, skat., piem., 6.zīm.
+
+![6.zīm.](LV.NOL.2011.7.4A.png)
 
 **(B)** Nē, nevar. Kvadrātu $8 \times 8$ rūtiņas sadalām $16$ kvadrātiņos ar izmēriem
 $2 \times 2$ rūtiņas. Vismaz vienā no tiem būs vismaz divas aizkrāsotās rūtiņas, bet
@@ -384,14 +392,16 @@ vienmēr melo), notika domes vēlēšanas, kurās piedalījās visi pilsētas ie
 Balsot varēja par kādu no četrām partijām $A, B, C$ un $D$, un katrs iedzīvotājs
 nobalsoja tieši par vienu partiju. Pirms rezultātu apkopošanas žurnālisti veica visu
 iedzīvotāju aptauju. Uz jautājumu "Vai jūs balsojāt par partiju $A$?" ar "Jā" atbildēja
-$22 \%$ pilsētas iedzīvotāju. Uz līdzīgu jautājumu par partiju "$B$" ar "Jā" atbildēja
-$33 \%$, par partiju "$C$" - $44\%$, bet par partiju "$D$" $55 \%$ iedzīvotāju. Cik
+$22\%$ pilsētas iedzīvotāju. Uz līdzīgu jautājumu par partiju "$B$" ar "Jā" atbildēja
+$33\%$, par partiju "$C$" - $44\%$, bet par partiju "$D$" $55\%$ iedzīvotāju. Cik
 procenti pilsētas iedzīvotāju ir godīgie iedzīvotāji un cik blēži?
 
 <small>
 
 * questionType:FindAll
 * domain:Alg
+* subdomain:DOM_WordProblems
+* topic:FormingEquations
 
 </small>
 
@@ -424,20 +434,29 @@ ciparus. Pierādīt, ka $B-A$ dalās ar $9$.
 * topic:DivisibilityRulesFor3And9
 * questionType:Prove
 * domain:NT
+* subdomain:DOM_Divisibility
+* method:MTH_PolynomialTransformations
 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
-Uzrakstām $\overline{abcde}=(9999a+999b+99c+9d)+(a+b+c+d+e)$. Atņemot saskaitāmie
-$(a+b+c+d+e)$ saīsinās.
+Uzrakstām $\overline{abcde}=(9999a+999b+99c+9d)+(a+b+c+d+e)$. Atņemot 
+vienu šādu izteiksmi no otras, kurā $a,b,c,d,e$ kaut kā samainīti vietām, 
+iekavas $(a+b+c+d+e)$ saīsinās, bet atlikušās izteiksmes dalās ar $9$, 
+jo $9,99,999,9999$ dalās ar $9$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
-$A$ atlikums dalot ar $9$ (arī $B$ atlikums) vienādi ar $A$ ciparu summas atlikumu.
+Gan $A$ atlikums dalot ar $9$, gan arī $B$ atlikums, dalot ar $9$
+abi ir vienādi ar $A$ ciparu summas atlikumu, dalot ar $9$
+(vispārinātā dalāmības pazīme ar $9$). 
+Ja atņem divus skaitļus ar vienādiem atlikumiem, to starpība $B-A$ 
+dalās ar $9$ bez atlikuma.
+
 
 
 
@@ -451,6 +470,7 @@ $p+q$?
 
 * questionType:FindAll
 * domain:Alg
+* topic:QuadraticEquationRootConditions
 
 </small>
 
