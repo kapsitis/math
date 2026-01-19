@@ -191,6 +191,7 @@ laukums var būt mazāks par $10$ rūtiņām?
 
 * questionType:ProveDisprove
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 

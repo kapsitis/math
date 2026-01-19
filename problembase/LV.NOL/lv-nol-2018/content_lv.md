@@ -924,6 +924,7 @@ pieņemot, ka rūtiņas malas garums ir viena vienība!
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -1141,6 +1142,7 @@ pieņemot, ka rūtiņas malas garums ir viena vienība!
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

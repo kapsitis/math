@@ -165,6 +165,7 @@ rūtiņas? Griezumiem jāiet pa rūtiņu līnijām.
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

@@ -264,6 +264,7 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

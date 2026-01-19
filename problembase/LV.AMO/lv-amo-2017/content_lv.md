@@ -259,6 +259,7 @@ līnijām jāiet pa rūtiņu līnijām un stūrīši var būt pagriezti.
 
 * questionType:FindOptimal
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 

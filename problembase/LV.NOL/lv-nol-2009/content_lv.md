@@ -37,6 +37,7 @@ pārklāties un saliktā kvadrāta iekšpusē nedrīkst palikt tukšumi.
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -499,6 +500,7 @@ ierakstīto skaitļu summa būs $64$.
 * topic:CongruenceClasses
 * questionType:Prove
 * domain:Alg
+* subdomain:DOM_GridCut
 
 </small>
 

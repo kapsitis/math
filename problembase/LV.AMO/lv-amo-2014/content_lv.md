@@ -109,6 +109,7 @@ būt pagrieztas jebkurā stāvoklī)?
 * topic:SquareGridCutting
 * questionType:FindOptimal
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 

@@ -100,6 +100,7 @@ tādās daļās, kādas attēlotas 2.zīm.? Jābūt vismaz vienai katra veida da
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -171,6 +172,7 @@ izgriezt no 3.zīm. attēlotās figūras?
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

@@ -74,6 +74,7 @@ mazākais iespējamais).
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_GridReorder
+* subdomain:DOM_GridCut
 
 </small>
 

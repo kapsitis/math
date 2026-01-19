@@ -208,6 +208,7 @@ Gabali var būt novietoti arī citādi.
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

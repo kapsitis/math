@@ -452,6 +452,7 @@ Vai no taisnstūra ar izmēriem $6 \times 12$ rūtiņas var izgriezt astoņas
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

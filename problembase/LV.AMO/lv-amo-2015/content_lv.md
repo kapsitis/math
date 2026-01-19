@@ -203,6 +203,7 @@ taisnstūriem, kuru izmēri ir $1 \times 2$ rūtiņas?
 
 * questionType:ProveDisprove
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -943,6 +944,7 @@ malām.
 
 * questionType:FindAll
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 

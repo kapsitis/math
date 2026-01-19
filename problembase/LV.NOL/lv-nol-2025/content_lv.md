@@ -217,6 +217,7 @@ kam visas rūtiņas ir neiekrāsotas!
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -316,6 +317,7 @@ redzamo figūru, kurai visas rūtiṇas ir neiekrāsotas?
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -1384,6 +1386,7 @@ skaitlu reizinājums dalās ar $5$.
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

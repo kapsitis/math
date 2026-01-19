@@ -93,6 +93,7 @@ ja tās var uzlikt vienu uz otras tā, ka abas figūras sakrīt
 
 * questionType:FindExample
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -237,6 +238,7 @@ otras tā, ka abas figūras pilnīgi sakrīt (figūras var pagriezt un apmest ot
 
 * questionType:FindExample
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -625,6 +627,7 @@ pagriezt un apmest otrādi).
 
 * questionType:FindExample
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 

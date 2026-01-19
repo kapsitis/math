@@ -133,6 +133,7 @@ dažādiem, ja tos nevar novietot tā, lai tie pilnīgi sakristu viens ar otru.
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

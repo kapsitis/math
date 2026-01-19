@@ -380,6 +380,7 @@ jāizgriež taisnstūrus ar izmēriem $1 \times 9$ rūtiņas. Kādu lielāko dau
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

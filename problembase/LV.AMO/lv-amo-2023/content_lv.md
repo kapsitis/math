@@ -1202,6 +1202,7 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -1471,6 +1472,7 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -1671,6 +1673,7 @@ $2 \times 5$ rūtiņas nav patiess!
 * questionType:Prove,Prove
 * domain:Comb
 * method:MTH_ContradictionForExistence
+* subdomain:DOM_GridCut
 
 </small>
 

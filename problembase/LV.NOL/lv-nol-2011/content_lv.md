@@ -251,6 +251,7 @@ visas rūtiņas ir neizkrāsotas.
 
 * questionType:FindExample
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -520,6 +521,7 @@ ir vienādi taisnstūri.)
 
 * questionType:FindOptimal
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 

@@ -272,6 +272,7 @@ ka tās sakrīt.
 
 * questionType:FindExample
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 

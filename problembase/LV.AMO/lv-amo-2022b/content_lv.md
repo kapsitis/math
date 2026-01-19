@@ -236,6 +236,7 @@ Figūras var būt arī pagrieztas.
 * subdomain:DOM_CuttingCoversColoring
 * topic:SquareGridCutting
 * topic:RotationBy90
+* subdomain:DOM_GridCut
 
 </small>
 

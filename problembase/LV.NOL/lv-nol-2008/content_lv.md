@@ -442,6 +442,7 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -781,6 +782,7 @@ vienādā skaitā. Atrast mazāko iespējamo $n$ vērtību.
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -844,6 +846,7 @@ tikpat, cik otra. Atrast mazāko iespējamo $n$ vērtību.
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

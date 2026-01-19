@@ -1038,6 +1038,7 @@ rūtiņas malas garums ir viena vienība!
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -1534,6 +1535,7 @@ lapas, kuras izmēri ir **a)** $41 \times 65$; **b)** $47 \times 65$ rūtiņas?
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

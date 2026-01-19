@@ -1121,6 +1121,7 @@ rūtiņu malām, taisnstūri var būt novietoti gan horizontāli, gan vertikāli
 
 * questionType:FindCount
 * domain:Geom,Comb
+* subdomain:DOM_GridCut
 
 </small>
 

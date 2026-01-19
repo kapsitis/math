@@ -270,6 +270,7 @@ apgāztas otrādi.
 
 * questionType:FindExample
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 
