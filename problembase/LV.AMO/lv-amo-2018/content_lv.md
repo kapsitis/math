@@ -275,7 +275,7 @@ nevarētu izgriezt $2 \times 3$ rūtiņu taisnstūri, kam visas rūtiņas ir bal
 
 * questionType:FindOptimal
 * domain:Geom
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridColoring
 
 </small>
 
@@ -712,7 +712,7 @@ neiekrāsotas?
 * method:MTH_PigeonholePrincipleBasic
 * method:MTH_ContradictionForExistence
 * topic:SquareGrid
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridColoring
 
 </small>
 

@@ -251,7 +251,7 @@ visas rūtiņas ir neizkrāsotas.
 
 * questionType:FindExample
 * domain:Geom
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridColoring
 
 </small>
 

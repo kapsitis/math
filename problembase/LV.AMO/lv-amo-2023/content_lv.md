@@ -1672,7 +1672,7 @@ $2 \times 5$ rūtiņas nav patiess!
 * questionType:Prove,Prove
 * domain:Comb
 * method:MTH_ContradictionForExistence
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridColoring
 
 </small>
 

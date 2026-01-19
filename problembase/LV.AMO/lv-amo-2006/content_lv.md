@@ -14,7 +14,7 @@ iegūtās daļas pēc formas atšķirtos no otrā sagriešanā iegūtajām daļ�
 
 * questionType:
 * domain:
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridColoring
 
 </small>
 

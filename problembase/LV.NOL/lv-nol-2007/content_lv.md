@@ -555,7 +555,7 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 
 * questionType:
 * domain:
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridColoring
 
 </small>
 

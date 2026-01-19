@@ -211,7 +211,7 @@ taisnstūrī būtu vismaz viena iekrāsota rūtiņa?
 
 * questionType:FindOptimal
 * domain:Geom
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridColoring
 
 </small>
 

@@ -217,7 +217,7 @@ kam visas rūtiņas ir neiekrāsotas!
 
 * questionType:
 * domain:
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridColoring
 
 </small>
 
@@ -317,7 +317,7 @@ redzamo figūru, kurai visas rūtiṇas ir neiekrāsotas?
 
 * questionType:
 * domain:
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridColoring
 
 </small>
 
