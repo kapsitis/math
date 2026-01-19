@@ -123,6 +123,7 @@ figūras? Griezuma līnijām jāiet pa rūtiņu malām.
 
 * questionType:FindOptimal
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 

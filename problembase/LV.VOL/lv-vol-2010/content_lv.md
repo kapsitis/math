@@ -390,6 +390,7 @@ $2 \times 3$ rūtiņas un vienā stūrītī ![](LV.VOL.2010.10.5.png)?
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

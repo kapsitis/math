@@ -178,6 +178,7 @@ malām, 1.zīm. figūra var būt pagriezta vai apgriezta spoguļattēlā.
 
 * questionType:FindOptimal
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 
@@ -406,6 +407,7 @@ kad - otrais (spēli vienmēr sāk pirmais spēlētājs)?
 
 * questionType:FindAll
 * domain:Geom
+* subdomain:DOM_GridCut
 
 </small>
 

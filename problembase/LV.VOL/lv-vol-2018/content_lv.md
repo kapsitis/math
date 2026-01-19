@@ -817,6 +817,7 @@ dalās ar $6$.
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 

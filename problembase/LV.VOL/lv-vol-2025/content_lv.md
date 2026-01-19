@@ -318,6 +318,7 @@ Kāds skaitlis var būt rakstīts uz šīs rūtiņas?
 
 * questionType:
 * domain:
+* subdomain:DOM_GridCut
 
 </small>
 
