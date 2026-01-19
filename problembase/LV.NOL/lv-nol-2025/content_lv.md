@@ -1386,7 +1386,7 @@ skaitlu reizinājums dalās ar $5$.
 
 * questionType:
 * domain:
-* subdomain:DOM_GridCut
+* subdomain:DOM_MagicConfigurations
 
 </small>
 

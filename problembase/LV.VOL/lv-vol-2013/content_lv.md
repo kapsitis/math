@@ -407,7 +407,7 @@ kad - otrais (spēli vienmēr sāk pirmais spēlētājs)?
 
 * questionType:FindAll
 * domain:Geom
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridOther
 
 </small>
 

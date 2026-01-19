@@ -776,7 +776,7 @@ ar izmēriem $1 \times 1 \times 3$ ?
 
 * questionType:ProveDisprove
 * domain:Geom
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridOther
 * method:MTH_FixedInvariant
 * topic:ColoringProblems
 

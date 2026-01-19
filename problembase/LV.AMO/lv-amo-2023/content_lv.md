@@ -463,7 +463,7 @@ rūtiņas uz blakus rūtiņu, ar ko tai ir kopīga mala.
 
 * questionType:FindExample,FindExample
 * domain:Geom
-* subdomain:DOM_GridReorder
+* subdomain:DOM_GridCut
 * topic:AxisSymmetryConstructions
 
 </small>
@@ -1202,7 +1202,6 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
-* subdomain:DOM_GridCut
 
 </small>
 
@@ -1472,7 +1471,7 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
-* subdomain:DOM_GridCut
+* subdomain:DOM_CombinatorialStructures
 
 </small>
 

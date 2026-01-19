@@ -373,7 +373,7 @@ atšķirīgi)?
 
 * questionType:ProveDisprove
 * domain:Geom
-* subdomain:DOM_GridCut
+* subdomain:DOM_GridOther
 
 </small>
 

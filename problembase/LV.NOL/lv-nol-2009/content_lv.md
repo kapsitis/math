@@ -500,7 +500,7 @@ ierakstīto skaitļu summa būs $64$.
 * topic:CongruenceClasses
 * questionType:Prove
 * domain:Alg
-* subdomain:DOM_GridCut
+* subdomain:DOM_MagicConfigurations
 
 </small>
 
