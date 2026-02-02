@@ -522,7 +522,7 @@ x^{11}+y^{11}=\left(x^{6}+y^{6}\right)\left(x^{5}+y^{5}\right)-(x y)^{5}(x+y)=18
 # <lo-sample/> LV.VOL.2023.11.2
 
 Augoša aritmētiskā progresija sastāv no trīs trīsciparu skaitlliem. 
-Zināms, ka jebkuru no šiem trīsciparu skaitliem var iegūt no 
+Zināms, ka jebkuru no šiem trīsciparu skaitļiem var iegūt no 
 jebkura cita, samainot vietām tā ciparus. Kāda ir mazākā iespējamā 
 šīs aritmētiskās progresijas diference?
 
@@ -883,7 +883,7 @@ Tātad visi uzrakstītie skaitļi ir vienādi un to summa ir
 $73 \cdot 100=7300$.
 
 *Piezīme.* Skaitlis $\frac{2ab}{a+b}=\frac{2}{\frac{1}{a}+\frac{1}{b}}$ 
-ir skaitlu $a$ un $b$ vidējais harmoniskais.
+ir skaitļu $a$ un $b$ vidējais harmoniskais.
 
 
 
