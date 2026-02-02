@@ -7,6 +7,7 @@ $x^{2}-x-y^{2}+y$ vērtība ir **(A)** $10$, **(B)** $2023$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -21,7 +22,6 @@ $$x^{2}-x-y^{2}+y=x(x-1)-y(y-1)$$
 Tā kā divu pēc kārtas esošu naturālu skaitļu reizinājums ir pāra skaitlis, 
 tad abi saskaitāmie $x(x-1)$ un $y(y-1)$ ir pāra skaitļi. Divu pāra skaitļu 
 starpība ir pāra skaitlis, tātad to starpība nevar būt $2023$, jo tas ir nepāra skaitlis.
-
 
 
 # <lo-sample/> LV.VOL.2023.9.2
@@ -39,6 +39,7 @@ kausiem tā, lai izpildās abi nosacijumi:
 
 * questionType:ProveDisprove
 * domain:Alg
+* _subdomain: DOM_CombinatorialGames
 
 </small>
 
@@ -51,7 +52,6 @@ Atsvarus var noṇemt šādā secībā: $3$; $7$; $5$; $2$; $4$; $8$; $6$; $1$
 (masas izmaina dota tabulā, kur pelēkā krāsā iekrāsots vieglākais svaru kauss).
 
 ![](LV.VOL.2023.9.2A.png){ width=300px }
-
 
 
 # <lo-sample/> LV.VOL.2023.9.3
@@ -70,6 +70,7 @@ vienādi, ja: **(A)** $n=72$; **(B)** $n=73$; **(C)** $n=74$?
 * questionType:ProveDisprove,ProveDisprove,ProveDisprove
 * domain:Comb
 * method:MTH_AugmentationWithNewElements
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -128,6 +129,7 @@ Kādām reālām $m$ vērtībām trijstūris $ABC$ ir taisnleṇka trijstūris?
 
 * questionType:FindAll
 * domain:Geom
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -178,9 +180,6 @@ jābūt vienādai ar trešās malas garuma kvadrātu. Aplūkojam trīs iespējam
 Esam ieguvuši, ka trijstūris $ABC$ ir taisnleṇka ja $m$ ir $-4;1;4;5;6$.
 
 
-
-
-
 # <lo-sample/> LV.VOL.2023.9.5
 
 Uz tāfeles uzrakstīti dažādi pirmskaitļi, kuru vidējais 
@@ -192,6 +191,7 @@ būt uzrakstīts uz tāfeles?
 * questionType:FindOptimal
 * domain:NT
 * method:MTH_ExtremeElements
+* _subdomain: DOM_NumericConstructions
 
 </small>
 
@@ -221,8 +221,6 @@ Tātad $p \leq 127$. Tā kā 127 ir pirmskaitlis, tad uz tāfeles var būt
 uzrakstīti pirmskaitļi $3;5;7;11;13;17;19;23;127$, kuru vidējais aritmētiskais ir $25$.
 
 
-
-
 # <lo-sample/> LV.VOL.2023.10.1
 
 Atrisināt reālos skaitļos vienādojumu
@@ -234,6 +232,7 @@ $$3\left(x^{2}+y^{2}+z^{2}+4\right) - 2(xy + yz + zx) - 4(x+y+z)=0$$
 * questionType:FindAll
 * domain:Alg
 * method:MTH_PolynomialTransformations
+* _subdomain: DOM_MultivariableEquations
 
 </small>
 
@@ -251,7 +250,6 @@ Vienīgā iespēja, kā, saskaitot sešus nenegatīvus skaitļus, iegūt $0$, ir
 ja katra saskaitāmā vērtība ir $0$. Tātad $x=y=z=2$.
 
 
-
 # <lo-sample/> LV.VOL.2023.10.2
 
 Doti $8$ atsvari, kuru masas attiecīgi ir $1,2,3,4,5,6,7$ un 
@@ -267,6 +265,7 @@ kausiem tā, lai izpildās abi nosacījumi:
 
 * questionType:ProveDisprove
 * domain:Comb
+* _subdomain: DOM_CombinatorialGames
 
 </small>
 
@@ -298,6 +297,7 @@ pēdējā skaitļa vērtības!
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_FixedInvariant
+* _subdomain: DOM_NumeralSystems
 
 </small>
 
@@ -347,6 +347,7 @@ un $\sphericalangle ABC = 2 \sphericalangle ADC$. Aprēķināt $\sphericalangle 
 
 * questionType:FindAll
 * domain:Geom
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -411,6 +412,7 @@ apli uzrakstītie skaitļi kļūst vienādi?
 * questionType:FindAll
 * domain:Comb
 * method:MTH_AugmentationWithNewElements
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -463,9 +465,6 @@ ar to bloku, kura garums ir nepāra skaitlis, un tad visi uzrakstītie
 skaitļi būs vienādi.
 
 
-
-
-
 # <lo-sample/> LV.VOL.2023.11.1
 
 Doti tādi reāli skaitli $x$ un $y$, ka $x+y=1$ un $x^{2}+y^{2}=3$. 
@@ -477,6 +476,7 @@ un atrast šo vērtību!
 * questionType:Prove,FindAll
 * domain:Alg
 * method:MTH_PolynomialTransformations
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -516,9 +516,6 @@ x^{11}+y^{11}=\left(x^{6}+y^{6}\right)\left(x^{5}+y^{5}\right)-(x y)^{5}(x+y)=18
 \end{gathered}$$
 
 
-
-
-
 # <lo-sample/> LV.VOL.2023.11.2
 
 Augoša aritmētiskā progresija sastāv no trīs trīsciparu skaitlliem. 
@@ -530,6 +527,7 @@ jebkura cita, samainot vietām tā ciparus. Kāda ir mazākā iespējamā
 
 * questionType:FindOptimal
 * domain:Alg
+* _subdomain: DOM_DigitManipulation, DOM_IntegerSequences
 
 </small>
 
@@ -605,8 +603,6 @@ un $(3;8;9)$, bet aritmētiskās progresijas locekļi ir attiecīgi
 $671,716,761$; $782,827,872$; $893,938,983$.
 
 
-
-
 # <lo-sample/> LV.VOL.2023.11.3
 
 Dota vienādsānu trapece $ABCD$, tās pamati ir $AB$ un $CD$ un 
@@ -620,6 +616,7 @@ atrodas uz vienas riṇka līnijas!
 * questionType:Prove
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -661,7 +658,6 @@ Tātad ap četrstūri $BCMY$ var apvilkt riņķa līniju.
 ![](LV.VOL.2023.11.3A.png){ width=200px }
 
 
-
 # <lo-sample/> LV.VOL.2023.11.4
 
 Pierādīt, ka eksistē bezgalīgi daudz tādu naturālu skaitļu 
@@ -674,6 +670,7 @@ $$2^{a_{1}}-\left(b_{1}\right)^{2}=2^{a_{2}}-\left(b_{2}\right)^{2}>0$$
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -685,9 +682,6 @@ $$2^{a_{1}}-\left(b_{1}\right)^{2}=2^{a_{2}}-\left(b_{2}\right)^{2}>0$$
 četrinieki atbilst uzdevuma nosacijumiem, jo
 
 $$2^{2 k}-\left(2^{k}-1\right)^{2}=2^{2 k}-\left(2^{2 k}-2 \cdot 2^{k}+1\right)=2^{k+1}-1>0$$
-
-
-
 
 
 # <lo-sample/> LV.VOL.2023.11.5
@@ -703,6 +697,7 @@ Kādas ir iespējamās naturālās šīs skaitļa vērtības?
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_NumericGamesAndAlgorithms
 
 </small>
 
@@ -770,11 +765,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-
-
-
-
-
 # <lo-sample/> LV.VOL.2023.12.1
 
 Doti tādi reāli skaitli $x$ un $y$, ka $x+y=1$ un $x^{3}+y^{3}=4$. 
@@ -786,6 +776,7 @@ un atrast šo vērtību!
 * questionType:Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -804,7 +795,6 @@ x^{13}+y^{13}=\left(x^{7}+y^{7}\right)\left(x^{6}+y^{6}\right)-(x y)^{6}(x+y)=29
 \end{gathered}$$
 
 
-
 # <lo-sample/> LV.VOL.2023.12.2
 
 Uz trijstūra $ABC$ malas $BC$ izvēlēts patvaļīgs punkts $D$. 
@@ -818,6 +808,7 @@ $BC$ punktā $Y$, kas nesakrīt ar $C$. Pierādīt, ka $DX=DY$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -858,6 +849,7 @@ ka viens no uzrakstītajiem skaitliem ir $73$?
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_AlgebraicOperations, DOM_Extremes
 
 </small>
 
@@ -886,8 +878,6 @@ $73 \cdot 100=7300$.
 ir skaitļu $a$ un $b$ vidējais harmoniskais.
 
 
-
-
 # <lo-sample/> LV.VOL.2023.12.4
 
 Pierādīt, ka nevar atrast tādus pirmskaitlus $p$ un $q$, 
@@ -897,6 +887,7 @@ kuriem $p^{q-1}+q^{p-1}+1$ ir vesela skaitļa kvadrāts!
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_PrimeFactors
 
 </small>
 
@@ -931,9 +922,6 @@ Tas nozīmē, ka skaitlis $2^{q-1}+q+1$ atrodas starp divu secīgu veselu skait�
 tāpēc tas nevar būt vesela skaitļa kvadrāts.
 
 
-
-
-
 # <lo-sample/> LV.VOL.2023.12.5
 
 Kādā valstī ir $100$ pilsētas, dažas no tām ir savienotas ar ceļiem. 
@@ -947,6 +935,7 @@ citu pilsētu (varbūt arī caur vienu vai vairākām citām pilsētām)?
 
 * questionType:FindAll
 * domain:Comb
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -979,4 +968,3 @@ ka viena ceļa nojaukšana sabojā ne vairāk kā vienu no šiem maršrutiem, t�
 $(n-2)$ ceļu nojaukšanas vismaz viens no šiem maršrutiem, pa kuru nokļūt 
 no pilsētas $A$ uz $B$, vēl paliks. Tātad ar $\frac{n(n-1)}{2}-(n-2)$ 
 ceļiem pietiek, lai izpildītos uzdevuma nosacījumi.
-

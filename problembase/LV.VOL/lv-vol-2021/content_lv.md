@@ -15,6 +15,7 @@ ir atrisinājums.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Equations
 
 </small>
 
@@ -31,7 +32,6 @@ $ab<1$, kas ir pretrunā ar trešo nevienādību. Tātad pieņēmums bija aplams
 līdz ar to vismaz vienam vienādojumam ir atrisinājums.
 
 
-
 # <lo-sample/> LV.VOL.2021.9.2
 
 Dots naturāls skaitlis $n$. Pierādīt, ka $4n \times 4 n$ rūtiņu tabulā var 
@@ -43,6 +43,7 @@ ir, iekrāsotās rūtiņas neatrodas blakus un nesaskaras pat ar stūriem).
 
 * questionType:
 * domain:
+* _subdomain: DOM_GridColoring
 
 </small>
 
@@ -69,7 +70,6 @@ sakombinēti $4 \times 4$ tabulā, iegūstam nepieciešamo tabulas aizpildijumu
 (skat. 3.att.).
 
 
-
 # <lo-sample/> LV.VOL.2021.9.3
 
 Atrast visus naturālu skaitļu pārus $(m; n)$, kuriem ir spēkā vienādība 
@@ -79,6 +79,7 @@ $m^{5}+5n^{4}=81m$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -102,7 +103,6 @@ izteiksme ir pozitīva, tad $m=1$ vai $m=2$. Apskatām abus gadījumus:
 Līdz ar to esam ieguvuši, ka vienīgais derīgais skaitļu pāris ir $(1; 2)$.
 
 
-
 # <lo-sample/> LV.VOL.2021.9.4
 
 Trijstūrī $ABC$ ievilktā riņķa līnija pieskaras tā malām $AB, BC$ un $AC$ 
@@ -114,6 +114,7 @@ $\sphericalangle KB_{1}A_{1}=90^{\circ}$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -146,7 +147,6 @@ $$\sphericalangle KB_{1}A_{1}=180^{\circ}-\sphericalangle KB_{1}A-\sphericalangl
 ![](LV.VOL.2021.9.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2021.9.5
 
 Dotas $8$ kastes, sākumā tās visas ir tukšas. Divi spēlētāji spēlē sekojošu 
@@ -159,6 +159,7 @@ spēlētājs - pirmais vai otrais - uzvarēs, pareizi spēlējot?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialGames
 
 </small>
 
@@ -184,7 +185,6 @@ spēlētājs var ielikt ābolu (kur likt pārējos $6$ ābolus nav svarīgi) un
 uzvarēt.
 
 
-
 # <lo-sample/> LV.VOL.2021.10.1
 
 Naturāls skaitlis $S$ ir izsakāms formā $S=9n^{2}+42n$, kur $n$ ir kāds 
@@ -195,6 +195,7 @@ priekšpēdējais cipars ir $7$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_NumeralSystems
 
 </small>
 
@@ -209,7 +210,6 @@ Tātad $S+49=\cdots 25$ un tas nozīmē, ka $S$ decimālais pieraksts beidzas
 ar $76$.
 
 
- 
 # <lo-sample/> LV.VOL.2021.10.2
 
 Dota ģeometriskā progresija $x_{1}; x_{2}; x_{3}; x_{4}; x_{5}; x_{6}$, kuras 
@@ -224,6 +224,7 @@ fiksētu skaitli $q$, tas ir, $x_{2}=qx_{1}, x_{3}=qx_{2}$ utt.
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities, DOM_RealSequences
 
 </small>
 
@@ -250,7 +251,6 @@ iegūstam, ka $q^{4} \geq 4 \cdot\left(q^{2}-1\right)$, kas ir patiesa
 nevienādība, jo $q^{4}-4q^{2}+4=\left(q^{2}-2\right)^{2} \geq 0$.
 
 
-
 # <lo-sample/> LV.VOL.2021.10.3
 
 Dota taisnleņķa trapece $ABCD$, tās pamati ir $AD$ un $BC$ un $AB \perp AD$. Uz
@@ -261,6 +261,7 @@ Pierādīt, ka $BP=BC$ vai $BP=AD$, ja zināms, ka $AB=AD+BC$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Quadrilaterals
 
 </small>
 
@@ -286,7 +287,6 @@ $BP=AD$.
 ![](LV.VOL.2021.10.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2021.10.4
 
 Uz tāfeles sākumā uzrakstīts vienādojums $2019x^{2}+2020x+2021=0$. Divi 
@@ -297,10 +297,11 @@ spēlētājs, pēc kura gājiena uz tāfeles uzrakstītajam vienādojumam ir kā
 vesela sakne. Kurš spēlētājs - pirmais vai otrais - uzvarēs, pareizi spēlējot?
 
 <small>
-  
+
 * questionType:ProveDisprove
 * domain:Alg
-  
+* _subdomain: DOM_CombinatorialGames, DOM_Equations
+
 </small>
 
 
@@ -323,7 +324,6 @@ brīdis, kad visu koeficientu summa būs vienāda ar $0$, un tātad $x=1$ būs
 vienādojuma sakne.
 
 
-
 # <lo-sample/> LV.VOL.2021.10.5
 
 Taisnstūrveida tabulā, kurā ir $19$ rindas un $14$ kolonnas, ierakstīti kaut 
@@ -337,6 +337,7 @@ pirmajā rindā!
 
 * questionType:
 * domain:
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -354,7 +355,6 @@ Tātad pirmās rindas skaitļu summa ir $38-36=2$.
 ![](LV.VOL.2021.10.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2021.11.1
 
 Pierādìt, ka $\sqrt[3]{6 \sqrt{3}+10}-\sqrt[3]{6 \sqrt{3}-10}=2$.
@@ -363,6 +363,7 @@ Pierādìt, ka $\sqrt[3]{6 \sqrt{3}+10}-\sqrt[3]{6 \sqrt{3}-10}=2$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -372,7 +373,6 @@ Ievērosim, ka $(\sqrt{3}+1)^{3}=6 \sqrt{3}+10$ un
 $(\sqrt{3}-1)^{3}=6 \sqrt{3}-10$. Līdz ar to
 
 $$\sqrt[3]{6 \sqrt{3}+10}-\sqrt[3]{6 \sqrt{3}-10}=(\sqrt{3}+1)-(\sqrt{3}-1)=2$$
-
 
 
 # <lo-sample/> LV.VOL.2021.11.2
@@ -385,6 +385,7 @@ $y_{5}+y_{6}$ mazākā iespējamā vērtība?
 
 * questionType:
 * domain:
+* _subdomain: DOM_Extremes, DOM_RealSequences
 
 </small>
 
@@ -414,7 +415,6 @@ $y_{1}=15(\sqrt{2}-1)$. Redzams, ka šajā gadījumā tik tiešām
 $y_{5}+y_{6}=y_{1}\left(q^{5}+q^{4}\right)=15(\sqrt{2}-1)(4 \sqrt{2}+4)=60$.
 
 
-
 # <lo-sample/> LV.VOL.2021.11.3
 
 Naturālu skaitli sauksim par elegantu, ja tā decimālajā pierakstā nav nevienas 
@@ -423,10 +423,11 @@ skaitli, kā arī, piemēram, skaitļi $36$ un $322$.) Pierādīt, ka ir bezgal�
 daudz elegantu skaitļu!
 
 <small>
-  
+
 * questionType:Prove
 * domain:NT
-  
+* _subdomain: DOM_NumericConstructions
+
 </small>
 
 ## Atrisinājums
@@ -445,7 +446,6 @@ acīmredzami, jo tā ciparu summa ir $3$.
 bezgalīgu elegantu skaitļu virkni ($36; 363636; 363636363636363636$ utt.).
 
 
-
 # <lo-sample/> LV.VOL.2021.11.4
 
 Izliektā četrstūrī $ABCD$ ir spēkā $\sphericalangle CBD=\sphericalangle CAB$ un
@@ -456,6 +456,7 @@ $BC, AD, AC$ var salikt taisnleņķa trijstūri!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Quadrilaterals
 
 </small>
 
@@ -479,7 +480,6 @@ un $AC$ kā hipotenūzas var salikt taisnleņķa trijstūri.
 ![](LV.VOL.2021.11.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2021.11.5
 
 Dotam naturālam skaitlim $k>1$ torni būvē šādi: simetriski attiecībā pret 
@@ -497,6 +497,7 @@ labā malējā kvadrāta labo augšējo virsotni!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Locus
 
 </small>
 
@@ -527,7 +528,6 @@ vienlielās daļās sadalošais stars iet caur kvadrāta virsotni.
 ![](LV.VOL.2021.11.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2021.12.1
 
 Pierādīt, ka kvadrātu var sagriezt sešos taisnstūros, kuriem visiem īsākās 
@@ -537,6 +537,7 @@ malas attiecība pret garāko ir $2-\sqrt{2}$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CuttingCoversColoring
 
 </small>
 
@@ -549,7 +550,6 @@ $\frac{2}{2+\sqrt{2}}=2-\sqrt{2}$, mazākajiem - arī tāda pati.
 ![](LV.VOL.2021.12.1A.png)
 
 
-
 # <lo-sample/> LV.VOL.2021.12.2
 
 Doti reāli pozitīvi skaitļi $x, y, z$. Pierādīt, ka
@@ -560,6 +560,7 @@ $$\frac{x^{2}+y^{2}}{x+y}+\frac{y^{2}+z^{2}}{y+z}+\frac{z^{2}+x^{2}}{z+x} \geq x
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -576,7 +577,6 @@ Pielietojot šo visiem trim daļu skaitīājiem, iegūstam
 $$\frac{x^{2}+y^{2}}{x+y}+\frac{y^{2}+z^{2}}{y+z}+\frac{z^{2}+x^{2}}{z+x} \geq \frac{(x+y)^{2}}{2(x+y)}+\frac{(y+z)^{2}}{2(y+z)}+\frac{(z+x)^{2}}{2(z+x)}=x+y+z$$
 
 
-
 # <lo-sample/> LV.VOL.2021.12.3
 
 Agita ir iedomājusies naturālu skaitli $x$, kura ciparu summa ir $2021$, un 
@@ -589,6 +589,7 @@ Agitas iedomāto skaitli?
 
 * questionType:
 * domain:
+* _subdomain: DOM_NumericGamesAndAlgorithms
 
 </small>
 
@@ -631,7 +632,6 @@ minējuma Konstantīns vēl neko nevarēs pateikt par skaitli $k_{1}$, tas var
 atrasties jebkurā pozīcijā.
 
 
-
 # <lo-sample/> LV.VOL.2021.12.4
 
 Vienādmalu trijstūra $ABC$ malas garums ir $15$. Uz malas $AB$ atlikts punkts 
@@ -642,6 +642,7 @@ nogriežņi $BE$ un $CD$ ir perpendikulāri!
 
 * questionType:
 * domain:
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -668,7 +669,6 @@ $\sphericalangle BOD=90^{\circ}$. Tātad $BE \perp CD$.
 ![](LV.VOL.2021.12.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2021.12.5
 
 Atrast visus veselu skaitļu pārus $(a; b)$, kuriem
@@ -681,6 +681,7 @@ ir kāda vesela skaitļa kvadrāts.
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerEquations
 
 </small>
 

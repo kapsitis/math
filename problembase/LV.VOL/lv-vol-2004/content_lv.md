@@ -8,6 +8,7 @@ Pierādīt, ka $\frac{1}{a+c}+\frac{1}{b+c}=\frac{2}{a+b}$
 
 * questionType:
 * domain:
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -23,7 +24,6 @@ a^{2}+b^{2} & =2c^{2}
 \end{aligned}$$
 
 
-
 # <lo-sample/> LV.VOL.2004.9.2
 
 Dots, ka $ABCD$ - paralelograms un $AM=CN$ (skat. 1.zīm). Pierādīt, ka $D$ 
@@ -35,6 +35,7 @@ atrodas uz $\sphericalangle ASC$ bisektrises.
 
 * questionType:
 * domain:
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -48,7 +49,6 @@ un $CN$ ir vienādi savā starpā. Tāpēc $D$ atrodas vienādos attālumos no
 $\sphericalangle ASC$ malām.
 
 
-
 # <lo-sample/> LV.VOL.2004.9.3
 
 Jānītis grib uzrakstīt $n$ dažādus naturālus skaitļus tā, lai nekādu sešu 
@@ -60,6 +60,7 @@ Vai tas ir iespējams, ja **(A)** $n=10$, **(B)** $n=11$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -79,7 +80,6 @@ dalās ar $3$.
 Atliek ievērot, ka summa, kas dalās gan ar $2$, gan ar $3$, dalās ar $6$.
 
 
-
 # <lo-sample/> LV.VOL.2004.9.4
 
 Kvadrāts sastāv no $4 \times 4$ vienādām kvadrātiskām rūtiņām Andris pēc kārtas
@@ -95,6 +95,7 @@ Kādu lielāko torņu daudzumu Andrim var izdoties novietot?
 
 * questionType:
 * domain:
+* _subdomain: DOM_MagicConfigurations
 
 </small>
 
@@ -107,7 +108,6 @@ Kādu lielāko torņu daudzumu Andrim var izdoties novietot?
 **(B)** ja uzliktu $16$ torņus, tad tie būtu jānovieto arī visās stūra rūtiņās.
 Bet to torni, kuru ievieto **pēdējā stūra rūtiņā**, uzlikšanas brīdī apdraud 
 divi citi - pretruna.
-
 
 
 # <lo-sample/> LV.VOL.2004.9.5
@@ -123,6 +123,7 @@ viens aiz otra uzrakstīti pa apli.
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -150,7 +151,6 @@ $a+b+c,\ b+c+d,\ \ldots,\ e+a+b$ ir negatīvas, jo to summa ir $3(a+b+c+d+e)$.
 Ja, piemēram, $a+b+c \geq 0$, varam ņemt $x=a,\ y=b,\ z=c$.
 
 
-
 # <lo-sample/> LV.VOL.2004.10.1
 
 Dots, ka $a,\ b,\ c$ - nenegatīvi skaitļi, no kuriem neviens nav lielāks par 
@@ -162,6 +162,7 @@ Pierādīt, ka $a+b+c-abc \leq 2$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -170,7 +171,6 @@ Pierādīt, ka $a+b+c-abc \leq 2$.
 Ievērojam, ka $a+b+c-abc=a(1-bc)+b+c \leq 1-bc+b+c$. Mums pietiek pierādīt, ka 
 $1-bc+b+c \leq$. Bet šī nevienādība ekvivalenta ar $1-b-c+bc \geq 0$ jeb 
 $(1-b)(1-c) \geq 0$, kas ir acīmredzams.
-
 
 
 # <lo-sample/> LV.VOL.2004.10.2
@@ -185,6 +185,7 @@ Aprēķināt $\sphericalangle AOE$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -199,7 +200,6 @@ $\sphericalangle E_{2}OM=\sphericalangle E_{1}OM=60^{\circ}$, tāpēc
 $\sphericalangle AOE_{2}=60^{\circ}+45^{\circ}=105^{\circ}$.
 
 
-
 # <lo-sample/> LV.VOL.2004.10.3
 
 Uz tāfeles uzrakstīti dažādi pirmskaitļi, to vidējais aritmētiskais ir $27$.
@@ -210,6 +210,7 @@ Kāds vislielākais pirmskaitlis var būt uzrakstīts uz tāfeles?
 
 * questionType:FindOptimal
 * domain:NT
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -232,7 +233,6 @@ Pirmskaitlis $139$ var būt uzrakstīts uz tāfeles, uzrakstot tur, piemēram,
 skaitļus $3;\ 5;\ 7;\ 11;\ 13;\ 17;\ 19;\ 29;\ 139$; šo skaitļu v.a. ir $27$.
 
 
-
 # <lo-sample/> LV.VOL.2004.10.4
 
 Kvadrāts sastāv no $8 \times 8$ vienādām kvadrātiskām rūtiņām. Kādam mazākajam 
@@ -244,6 +244,7 @@ virsotnes, pie tam šī trijstūra katetes paralēlas kvadrāta malām?
 
 * questionType:
 * domain:
+* _subdomain: DOM_GridColoring
 
 </small>
 
@@ -264,7 +265,6 @@ nokrāsotā rūtiņa ir vai nu nabagā rindā, vai nabagā kolonnā, tātad to n
 vairāk par $7+7=14$.
 
 
-
 # <lo-sample/> LV.VOL.2004.10.5
 
 Doti sviras svari bez atsvariem un $98$ pēc ārējā izskata vienādas monētas. 
@@ -279,6 +279,7 @@ svaru kausa kaut kas tiek mainīts, tā jau skaitās cita svēršana)
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialAlgorithms
 
 </small>
 
@@ -303,7 +304,6 @@ tālāk salīdzinām to ar $(n+1)$-o, $(n+2)$-o, $\ldots,\ 49.$ pāri (ja
 $n \neq 49$). Kopā patērētas $1+(n-1)+1+(49-n)=50$ svēršanas.
 
 
-
 # <lo-sample/> LV.VOL.2004.11.1
 
 Pierādīt, ka pozitīviem $x$ un $y$ pastāv nevienādība
@@ -314,6 +314,7 @@ $$(x+y)(1+xy) \geq 4xy$$
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -321,7 +322,6 @@ $$(x+y)(1+xy) \geq 4xy$$
 
 $(x+y)(1+xy) \geq 2 \sqrt{xy} \cdot 2 \sqrt{1 \cdot xy}=4xy$ saskaņā ar 
 nevienādību starp vidējo aritmētisko un vidējo ģeometrisko.
-
 
 
 # <lo-sample/> LV.VOL.2004.11.2
@@ -333,6 +333,7 @@ kvadrāts?
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_SpecialNumbers
 
 </small>
 
@@ -350,7 +351,6 @@ $2b-2n+9=5$ un $2b+2n+9=9$ (tad $b<0$ - neder). Tātad $a=3,\ b=7$. Simetrijas
 pēc der arī atbilde $a=7,\ b=3$.
 
 
-
 # <lo-sample/> LV.VOL.2004.11.3
 
 Šaurleņķu trijstūrī $ABC$ punkts $O$ ir apvilktās riņķa līnijas centrs, bet $BE$
@@ -360,6 +360,7 @@ un $CF$ - augstumi. Pierādīt, ka $OA \perp EF$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_AnglesParallelsSimilarity, DOM_Triangles
 
 </small>
 
@@ -374,7 +375,6 @@ var apvilkt riņķa līniju (jo
 $\sphericalangle CEB=\sphericalangle CFB=90^{\circ}$), tāpēc 
 $\sphericalangle AFE=180^{\circ}-\sphericalangle EFB=\sphericalangle C$. No tā 
 seko, ka $\sphericalangle AZF=90^{\circ}$.
-
 
 
 # <lo-sample/> LV.VOL.2004.11.4
@@ -393,6 +393,7 @@ ir tieši viens atrisinājums reālos skaitļos $(x,\ y,\ z)$?
 
 * questionType:
 * domain:
+* _subdomain: DOM_ParametrizedEquations, DOM_EquationSystems
 
 </small>
 
@@ -413,7 +414,6 @@ no kurienes $x=y=z=1$; pārbaude parāda, ka tas tiešām ir atrisinājums. Tāt
 $a=1$ der. Līdzīgi pierāda, ka der $a=1$.
 
 
-
 # <lo-sample/> LV.VOL.2004.11.5
 
 Uz $n$ šķīvjiem atrodas konfektes; konfekšu pavisam ir $k$, pie tam $n \geq 4$ 
@@ -428,6 +428,7 @@ Vai noteikti var panākt, ka visas konfektes atrodas uz viena šķīvja?
 * questionType:ProveDisprove
 * domain:Comb
 * method:MTH_InductionWithStepOne
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -452,7 +453,6 @@ konfekti un vēl vismaz $2$ tukši šķīvji. Mērķis sasniedzams šādi:
 $$(1,\ m,\ 0,\ 0) \rightarrow(0,\ m-1,\ 2,\ 0) \rightarrow(0,\ m-2,\ 1,\ 2) \rightarrow(2,\ m-3,\ 0,\ 2) \rightarrow(1,\ m-1,\ 0,\ 1) \rightarrow(0,\ m+1,\ 0,\ 0)$$
 
 
-
 # <lo-sample/> LV.VOL.2004.12.1
 
 Uz vienības riņķa līnijas loka pimajā kvadrantā ņemti divi punkti $A$ un $B$; 
@@ -468,6 +468,7 @@ tikai no hordas $AB$ garuma, bet ne no tās novietojuma.
 
 * questionType:
 * domain:
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -483,7 +484,6 @@ garumam nemainoties, nemainās arī loka leņķiskais lielums. No šejienes seko
 uzdevuma apgalvojums.
 
 
-
 # <lo-sample/> LV.VOL.2004.12.2
 
 Juris iedomājies naturālu skaitli $x$ no $1$ līdz $n$ ieskaitot. Andris drīkst 
@@ -497,6 +497,7 @@ iedomāto skaitli ar $3$ jautājumiem, ja
 
 * questionType:
 * domain:
+* _subdomain: DOM_NumberPartitionsCompositions, DOM_Logic
 
 </small>
 
@@ -510,7 +511,6 @@ tabulā.
 ![](LV.VOL.2004.12.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2004.12.3
 
 Izliektam daudzskaldnim $M$ nav triju skaldņu ar vienādu malu skaitu. Kāds ir 
@@ -520,6 +520,7 @@ mazākais iespējamais $M$ virsotņu skaits?
 
 * questionType:
 * domain:
+* _subdomain: DOM_Polygons
 
 </small>
 
@@ -535,7 +536,6 @@ $\geq 8$. Daudzskaldni ar $8$ virsotnēm skat. 7.Zīm.
 ![](LV.VOL.2004.12.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2004.12.4
 
 Uz tāfeles uzrakstīti $n$ dažādi reāli skaitļi. Ir zināms: katriem diviem 
@@ -547,6 +547,7 @@ ir lielākā iespējamā $n$ vērtība?
 
 * questionType:
 * domain:
+* _subdomain: DOM_RealSequences, DOM_Extremes
 
 </small>
 
@@ -574,7 +575,6 @@ Līdzīgi pierāda, ka uzrakstīts augstākais viens skaitlis starp $0$ un
 $\frac{1}{2}$. Vajadzīgais pierādīts.
 
 
-
 # <lo-sample/> LV.VOL.2004.12.5
 
 Dots, ka $x_{1}=3,\ y_{1}=4$ un katram naturālam $n$ pastāv sakarība
@@ -588,6 +588,7 @@ skaitļa kubs.
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -606,4 +607,3 @@ kurienes $\frac{x-1}{2} \cdot \frac{x+1}{2}=(2t)^{3}$. Skaidrs, ka $x$ jābūt
 nepāra skaitlim. Apzīmējot $\frac{x-1}{2}=u$, iegūstam $u(u+1)=(2t)^{3}$. Tā kā
 $LKD(u, u+1)=1$, gan $u$, gan $u+1$ jābūt naturālu skaitļu kubiem. Bet nav tādu
 divu naturālu skaitļu kubu, kuru starpība ir $1$.
-

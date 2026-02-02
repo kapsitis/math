@@ -9,6 +9,7 @@ lielāks nekā visu šo skaitļu lielākais kopīgais dalītājs?
 * questionType:ProveDisprove
 * domain:Alg
 * method:MTH_ExtremeElements
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -38,6 +39,7 @@ $BOF$ laukums ir $4$, bet trijstūra $AOD$ laukums ir $63$. Aprēķināt četrst
 
 * questionType:FindAll
 * domain:Geom
+* _subdomain: DOM_Area
 
 </small>
 
@@ -72,6 +74,7 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 * questionType:Prove
 * domain:Comb
 * method:MTH_ContradictionForExistence
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -111,6 +114,7 @@ ka pēc $12$ gājieniem iegūtās izteiksmes vērtība dalās ar $9$.
 
 * questionType:Algorithm
 * domain:NT
+* _subdomain: DOM_NumeralSystems
 
 </small>
 
@@ -144,6 +148,7 @@ var izdarīt?
 
 * questionType:ProveDisprove
 * domain:NT
+* _subdomain: DOM_NumericConstructions
 
 </small>
 
@@ -178,6 +183,7 @@ dalītāju?
 
 * questionType:ProveDisprove
 * domain:NT
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -202,6 +208,7 @@ $\sphericalangle EAF = \sphericalangle EDF$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -258,10 +265,6 @@ tad $\sphericalangle EAF = \sphericalangle EDF$
 kā ievilktie leņķi, kas balstās uz vienu un to pašu loku $EF$.
 
 
-
-
-
-
 # <lo-sample/> LV.VOL.2024.10.3
 
 Atrisināt reālos skaitļos vienādojumu sistēmu
@@ -277,6 +280,7 @@ z + \frac{1}{z} = 2x^2 \\
 * questionType:FindAll
 * domain:Alg
 * method:MTH_PolynomialTransformations
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -351,8 +355,7 @@ x + \frac{1}{x} & \geq z + \frac{1}{z} = 2x^2; \\
 
 Tā kā $2x^2 + x + 1 > 0$, tad nevienādība ir patiesa tikai tad, ja $x = 1$. 
 Tādā gadījumā $y = z = 1$, jo $x \geq z$ un $x \geq y$. 
-Tātad dotā vienādojuma atrisinājums ir $x = y = z = 1$. 
-
+Tātad dotā vienādojuma atrisinājums ir $x = y = z = 1$.
 
 
 # <lo-sample/> LV.VOL.2024.10.4
@@ -371,6 +374,7 @@ kopā piedalījās šajā olimpiādē?
 
 * questionType:FindCount
 * domain:Alg
+* _subdomain: DOM_WordProblems
 
 </small>
 
@@ -434,6 +438,7 @@ iekrāsot visas tabulas rūtiņas?
 
 * questionType:FindOptimal
 * domain:Comb
+* _subdomain: DOM_CombinatorialStructures, DOM_MakingMoves
 
 </small>
 
@@ -474,7 +479,6 @@ vismaz viena sākotnēji iekrāsota rūtiņa.
 ![](LV.VOL.2024.10.5B.png)
 
 
-
 # <lo-sample/> LV.VOL.2024.11.1
 
 Atrast visus reālu skaitļu pārus $(a;b)$, kuriem ir spēkā nevienādība:
@@ -484,6 +488,7 @@ $$4a + 4b^2 + \sqrt{4a - 4b^2 - 1} \leq 1.$$
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_Inequalities
 
 </small>
 
@@ -521,8 +526,7 @@ Aplūkosim trīs gadījumus.
   tad $4a + 4b^2 + \sqrt{4a - 4b^2 - 1} > 1$, tātad nevienādībai nav atrisinājuma. 
 * Ja $a = \frac{1}{4}$, tad nevienādību var pārrakstīt šādi: 
   $1 + 4b^2 + \sqrt{-4b^2} \leq 1$ jeb $4b^2 + \sqrt{-4b^2} \leq 0$. 
-  Lai zemsaknes izteiksme būtu definēta, vienīgā derīgā vērtība ir $b = 0$. 
-
+  Lai zemsaknes izteiksme būtu definēta, vienīgā derīgā vērtība ir $b = 0$.
 
 
 # <lo-sample/> LV.VOL.2024.11.2
@@ -540,6 +544,7 @@ Aprēķināt četrstūra $OECG$ laukumu!
 * questionType:FindAll
 * domain:Geom
 * method:MTH_AlgebraicModel
+* _subdomain: DOM_Area
 
 </small>
 
@@ -574,7 +579,7 @@ Izmantojot laukuma īpašības, iegūstam
 
 * $S_{ABD} = S_{BOF} + S_{OFA} + S_{DOA} = 4 + 14 + 63 = 81$;
 * $S_{ABD} = S_{BCD} = \frac{1}{2}S_{ABCD}$
-* $S_{OECG} = S_{BCD} - S_{BOE} - S_{OGD} = 81 - \frac{36}{7} - 49 = 32 - \frac{36}{7} = \frac{188}{7} = 26\frac{6}{7}$. 
+* $S_{OECG} = S_{BCD} - S_{BOE} - S_{OGD} = 81 - \frac{36}{7} - 49 = 32 - \frac{36}{7} = \frac{188}{7} = 26\frac{6}{7}$.
 
 
 # <lo-sample/> LV.VOL.2024.11.3
@@ -590,6 +595,7 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 * seeAlso:LV.VOL.2024.9.3
 * questionType:Prove
 * domain:Comb
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -627,6 +633,7 @@ skaitļu summu?
 * questionType:FindAll
 * domain:NT
 * method:MTH_ExtremeElements
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -663,7 +670,6 @@ pretruna ar to, ka $a_1$ ir naturāls skaitlis.
 Tātad pieņēmums, ka pie $n \geq 3$ eksistē prasītie skaitļi, ir aplams.
 
 
-
 # <lo-sample/> LV.VOL.2024.11.5
 
 Dots naturāls skaitlis $n$, ar $M$ apzīmēsim pirmo $2n$ naturālo skaitļu kopu 
@@ -685,6 +691,7 @@ saskaitītas. Pierādīt, ka spēlētājs $B$ var panākt, lai iegūtā summa b�
 * questionType:Prove
 * domain:Alg
 * subdomain:DOM_FixedInvariant
+* _subdomain: DOM_CombinatorialGames
 
 </small>
 
@@ -705,7 +712,6 @@ dažādu kvadrātfunkciju pāru, tad $y$ koordinātu summa ir
 $$2(n+1) \cdot \frac{n(n-1)}{2} = n(n^2 - 1) = n^3 - n.$$
 
 
-
 # <lo-sample/> LV.VOL.2024.12.1
 
 Atrisināt reālos skaitļos vienādojumu sistēmu
@@ -721,6 +727,7 @@ z + \frac{1}{z} = x+y\\
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -742,7 +749,6 @@ Taču, ja $yz = xz, xz = xy, yz=xy$ un neviens no $x,y,z$ nav nulle (pēc defin�
 tad $y=x$, $z=y$, $z=x$, tāpēc $x=y=z$, kas ir jau apskatītais gadījums.
 
 
-
 # <lo-sample/> LV.VOL.2024.12.2
 
 Uz dažādmalu trijstūra $ABC$ malām $AB$ un $AC$ attiecīgi izvēlēti tādi punkti 
@@ -754,6 +760,7 @@ Pierādīt, ka $AT$ ir leņķa $BAC$ bisektrise!
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -775,8 +782,6 @@ $BAC$ malām, tātad punkts $T$ atrodas uz šī leņķa bisektrises jeb $AT$ ir 
 ![](LV.VOL.2024.12.2A.png)
 
 
-
-
 # <lo-sample/> LV.VOL.2024.12.3
 
 Uz galda traukā ir $200$ konfektes. Brālītis un Karlsons pēc kārtas izdara gājienus, 
@@ -792,6 +797,7 @@ uzvarēs pareizi spēlējot, ja papildus zināms, ka katrs no viņiem var apēst
 * questionType:Algorithm,Algorithm
 * domain:Comb
 * subdomain:DOM_FixedInvariant
+* _subdomain: DOM_CombinatorialGames
 
 </small>
 
@@ -858,6 +864,7 @@ ka skaitlis $C-1$ ir pirmskaitlis?
 
 * questionType:ProveDisprove
 * domain:NT
+* _subdomain: DOM_SpecialNumbers
 
 </small>
 
@@ -897,6 +904,7 @@ $3x^2 + y^2 + 1 \geq A(x^2 + xy + x)$ visiem reāliem skaitļiem $x$ un $y$.
 
 * questionType:FindOptimal
 * domain:Alg
+* _subdomain: DOM_Extremes, DOM_Inequalities
 
 </small>
 
@@ -958,4 +966,4 @@ x = \frac{1 + \sqrt{7}}{3},\;\;y=1\\
 tad nevienādība kļūs par vienādību, no kā secinām, ka visas skaitļa $A$ 
 vērtības lielākas nekā $\sqrt{7} - 1$ neapmierina
 uzdevuma nosacījumus, no kā var secināt, 
-ka lielākais skaitlis $A$ ar prasīto īpašību ir $\sqrt{7} - 1$. 
+ka lielākais skaitlis $A$ ar prasīto īpašību ir $\sqrt{7} - 1$.

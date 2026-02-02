@@ -7,6 +7,7 @@ var būt $\frac{4a^{2}+7b^{2}}{ab}$ vērtība?
 
 * questionType:
 * domain:
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -40,7 +41,6 @@ $\frac{a}{b}=x$ un atrisinot iegūto vienādojumu
 $4 \frac{a}{b}-7 \frac{b}{a}=12$ jeb $4 x-\frac{7}{x}=12$.
 
 
-
 # <lo-sample/> LV.VOL.2019.9.2
 
 Uz trijstūra $ABC$ malām $AC$ un $BC$ attiecīgi atlikti punkti $M$ un $N$. 
@@ -51,6 +51,7 @@ ja $S(AMP)=S(BNP)=8$ un $S(NMP)=4$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Area, DOM_Triangles
 
 </small>
 
@@ -88,16 +89,16 @@ S(ACB)=48
 ![](LV.VOL.2019.9.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2019.9.3
 
 Vai naturāla skaitļa kvadrāta ciparu summa var būt **(A)** $19$, **(B)** $2019$?
 
 <small>
-  
+
 * questionType:ProveDisprove
 * domain:NT
-  
+* _subdomain: DOM_NumeralSystems
+
 </small>
 
 ## Atrisinājums
@@ -120,7 +121,6 @@ jādalās ar $9$. Bet skaitļa $n^{2}$ ciparu summa ir $2019$, kas nedalās ar $
 nedalās, tātad $2019$ nevar būt naturāla skaitļa kvadrāta ciparu summa.
 
 
-
 # <lo-sample/> LV.VOL.2019.9.4
 
 Sākotnēji katrā kvadrāta $5 \times 5$ rūtiņā atradās tieši viena skudra. Tad 
@@ -132,6 +132,7 @@ tukšo rūtiņu skaits?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -157,7 +158,6 @@ tajā pašā rūtiņā. Tātad var palikt ne vairāk kā $25-9=16$ tukšas rūti
 ![](LV.VOL.2019.9.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2019.9.5
 
 Hokeja turnīrā piedalijās $16$ komandas. Katra komanda ar katru citu spēlēja 
@@ -170,6 +170,7 @@ $x_{1}^{2}+x_{2}^{2}+\ldots+x_{16}^{2}=y_{1}^{2}+y_{2}^{2}+\ldots+y_{16}^{2}$
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -195,19 +196,19 @@ no kā izriet prasītais, tas ir,
 $x_{1}^{2}+x_{2}^{2}+\ldots+x_{16}^{2}=y_{1}^{2}+y_{2}^{2}+\ldots+y_{16}^{2}$.
 
 
-
 # <lo-sample/> LV.VOL.2019.10.1
 
 Pierādīt, ka visus naturālos skaitļus, kas lielāki nekā $100$, var izteikt kā 
 pirmskaitļa un salikta skaitļa summu! 
 
 <small>
-  
+
 * questionType:Prove
 * domain:NT
 * topic:ModularParity
 * concepts:prime
-  
+* _subdomain: DOM_NumberRepresentation
+
 </small>
 
 ## Atrisinājums
@@ -238,11 +239,6 @@ Lai konkretizētu, kuru veidu mums vajag, izvēlamies tā:
 * Ja $n$ ir nepāru, tad $n-3$ noteikti nav pirmskaitlis.
 
 
-
-
-
-
-
 # <lo-sample/> LV.VOL.2019.10.2
 
 Izliekta četrstūra $ABCD$ diagonāle $AC$ ir leņķa $A$ bisektrise, $AC=AD$ un 
@@ -253,6 +249,7 @@ Pierādīt, ka taisne $BH$ sadala nogriezni $CD$ uz pusēm!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Quadrilaterals
 
 </small>
 
@@ -292,20 +289,20 @@ $HPC$ ir vienādsānu un $HP=CP$. Līdz ar to $CP=PD$.
 ![](LV.VOL.2019.10.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2019.10.3
 
 Pierādīt, ka nevienai naturālai $n$ vērtībai izteiksmes $13^{n}+7^{n}+2019$ 
 vērtība nav naturāla skaitļa kvadrāts!
 
 <small>
-  
+
 * questionType:Prove
 * domain:NT
 * topic:PeriodicRemainders
 * topic:DivisibilityRulesOther
 * concept:full-square
-  
+* _subdomain: DOM_SpecialNumbers
+
 </small>
 
 
@@ -329,7 +326,6 @@ dalot ar $3$, dod atlikumu $2$, tātad tā nevar būt naturāla skaitļa kvadrā
 skaitļa $3$ daudzkārtņa moduļa, tas ir, $6, 9, 12$ utt.
 
 
-
 # <lo-sample/> LV.VOL.2019.10.4
 
 Komisijā ir $7$ cilvēki. lerodoties uz sēdi, daži no viņiem sarokojas. Kāds ir 
@@ -340,6 +336,7 @@ locekļiem varētu atrast divus, kas savā starpā sarokojušies?
 
 * questionType:
 * domain:
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -377,7 +374,6 @@ gadījumus.
    $A$).
 
 
-
 # <lo-sample/> LV.VOL.2019.10.5
 
 Dots, ka $0 \leq a_{1} \leq a_{2} \leq \cdots \leq a_{1000}$ un 
@@ -389,6 +385,7 @@ $\frac{a_{1}+a_{2}+\cdots+a_{n}}{n} \leq \frac{1}{1000}$
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -416,7 +413,6 @@ ka
 $$\frac{a_{1}+a_{2}+\cdots+a_{n}}{n} \leq \frac{a_{1}+a_{2}+\cdots+a_{n}+a_{n+1}}{n+1} \leq \frac{1}{1000}$$
 
 
-
 # <lo-sample/> LV.VOL.2019.11.1
 
 Kādā valstī ir $100$ pilsētas. Starp dažām no tām organizēti avioreisi. Starp 
@@ -432,6 +428,7 @@ ka ir tāda pilsēta, kurā ir vismaz $9$ biroji!
 * questionType:Prove
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -445,8 +442,7 @@ $9 \cdot 90=810$. Ja katrā no $100$ pilsētām būtu ne vairāk kā $8$ biroji,
 kopā būtu ne vairāk kā $8 \cdot 100=800$ biroji, bet biroju kopskaits ir vismaz
 $810$. Tātad ir tāda pilsēta, kurā ir vismaz $9$ biroji.
 
-*Piezīme.* Risinājumā izmantots Dirihlē princips. 
-
+*Piezīme.* Risinājumā izmantots Dirihlē princips.
 
 
 # <lo-sample/> LV.VOL.2019.11.2
@@ -460,6 +456,7 @@ kas apvilktas ap trijstūriem $AMD$ un $DNC$, pieskaras viena otrai!
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -487,17 +484,17 @@ punktā $D$.
 ![](LV.VOL.2019.11.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2019.11.3
 
 Pierādīt, ka nevienai naturālai $n$ vērtībai izteiksmes 
 $13^{n}+10^{n}+7^{n}+3^{n}$ vērtība nav naturāla skaitļa kvadrāts!
 
 <small>
-  
+
 * questionType:Prove
 * domain:NT
-  
+* _subdomain: DOM_SpecialNumbers
+
 </small>
 
 ## Atrisinājums
@@ -532,7 +529,6 @@ tad atlikums, dalot ar $9$, ir $3$, bet naturālu skaitļu kvadrātu vērtības 
 moduļa $9$ var būt tikai $0, 1, 4$ vai $7$.
 
 
-
 # <lo-sample/> LV.VOL.2019.11.4
 
 Naturālu skaitļu virknes pirmie divi locekļi ir $a_{1}$ un $a_{2}$, turklāt 
@@ -544,6 +540,7 @@ var būt vienāds ar $100a_{1}$?
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -576,7 +573,6 @@ $$a_{11}=89a_{1}+55p=89 \cdot 5+55=445+55=500=100a_{1}$$
 vienādojums $89a_{1}+55p=100a_{1}$.
 
 
-
 # <lo-sample/> LV.VOL.2019.11.5
 
 Koordinātu plaknē doti **a)** $8$; **b)** $9$ punkti, katram no tiem 
@@ -588,6 +584,7 @@ virsotnēm šajos punktos mediānu krustpunkta koordinātas arī ir veseli skait
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerLattices
 
 </small>
 
@@ -671,7 +668,6 @@ Apskatīsim iespējamos gadījumus:
   $\left(a_{1}; b_{1}\right),\left(a_{2}; b_{2}\right),\left(a_{3}; b_{3}\right)$.
 
 
-
 # <lo-sample/> LV.VOL.2019.12.1
 
 Vienādojumam $x^{3}-px+2019=0$, kur $p$ - naturāls skaitlis, ir trīs reālas 
@@ -682,6 +678,7 @@ $x_{1}^{3}+x_{2}^{3}+x_{3}^{3}$ vērtība?
 
 * questionType:
 * domain:
+* _subdomain: DOM_ParametrizedEquations
 
 </small>
 
@@ -742,7 +739,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-
 # <lo-sample/> LV.VOL.2019.12.2
 
 Riņķa līnijā ar centru punktā $O$ novilkta horda $AB$, kas neiet caur $O$. Caur
@@ -755,6 +751,7 @@ $OE^{2}=OB^{2}+2 \cdot OB \cdot BE$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -820,7 +817,6 @@ OE^{2}=OB^{2}+2 \cdot EB \cdot OB
 ![](LV.VOL.2019.12.2B.png)
 
 
-
 # <lo-sample/> LV.VOL.2019.12.3
 
 Pierādīt, ka nevienai naturālai $n$ vērtībai izteiksmes
@@ -830,10 +826,11 @@ $$4^{n}+5^{n}+6^{n}+7^{n}+8^{n}+9^{n}+10^{n}+11^{n}+12^{n}+13^{n}$$
 vērtība nav naturāla skaitļa kvadrāts!
 
 <small>
-  
+
 * questionType:Prove
 * domain:NT
-  
+* _subdomain: DOM_SpecialNumbers
+
 </small>
 
 
@@ -881,7 +878,6 @@ Naturālu skaitļu kvadrātu vērtības pēc moduļa $8$ var būt tikai $0,\ 1$ 
 Tātad dotā izteiksme nevar būt naturāla skaitļa kvadrāts.
 
 
-
 # <lo-sample/> LV.VOL.2019.12.4
 
 Doti seši dažādi iracionāli skaitļi. Pierādīt, ka no tiem var izvēlēties $3$ 
@@ -893,6 +889,7 @@ ir iracionāli!
 * questionType:Prove
 * domain:Alg
 * method:MTH_PigeonholePrincipleBasic
+* _subdomain: DOM_NumberRepresentation
 
 </small>
 
@@ -918,7 +915,6 @@ racionāli skaitļi, tad, saskaitot pirmās divas vienādības un ņemot vērā 
 vienādību, iegūstam, ka $\alpha=\frac{c+b-a}{2}$ ir racionāls skaitlis 
 (pretruna). Tātad vienkrāsainais trijstūris ir melns un tā virsotnēs 
 ierakstītie skaitļi ir meklētie.
- 
 
 
 # <lo-sample/> LV.VOL.2019.12.5
@@ -933,10 +929,11 @@ ka lielākais skaitlis, ko nevar izteikt formā $an+bm$, kur $m$ un $n$ ir
 nenegatīvi veseli skaitļi, ir $2019$.
 
 <small>
-  
+
 * questionType:FindExample,FindExample
 * domain:NT
-  
+* _subdomain: DOM_NumericConstructions
+
 </small>
 
 ## Atrisinājums
@@ -1010,4 +1007,3 @@ Ievērojot, ka $2020=2 \cdot 2 \cdot 5 \cdot 101$, iegūstam
 
 *Piezīme.* Skaitļu pāri $(2; 2021), (5; 506)$ un $(11; 203)$ ir vienīgie 
 derīgie.
-

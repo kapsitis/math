@@ -7,6 +7,7 @@ kopā ir nepāra skaits konfekšu. Pierādīt, ka katram bērnam ir vismaz viena
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerConditions
 
 </small>
 
@@ -33,6 +34,7 @@ punktā $F$. Pierādīt, ka $BF=FE$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -70,8 +72,6 @@ Tas nozīmē, ka $S_{FEC} = x = 3y = S_{BFC}$.
 No apgrieztā fakta $BF:FE = 1:1$ jeb $BF = FE$.
 
 
-
-
 # <lo-sample/> LV.VOL.2025.9.3
 
 Bezgalīgā naturālu skaitḷu virknē katru nākamo skaitli, 
@@ -83,6 +83,7 @@ kuram divi pēdējie cipari ir vienādi!
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -121,7 +122,6 @@ pēc kārtas, kam pēdējie cipari ir vienādi, tad tiem
 vai aiznākamo locekli, tad uz viena no šiem diviem mēs noteikti trāpīsim.
 
 
-
 # <lo-sample/> LV.VOL.2025.9.4
 
 Dotas septiṇas pēc ārējā izskata vienādas monētas, no 
@@ -135,6 +135,7 @@ atrast abas viltotās monētas?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialAlgorithms
 
 </small>
 
@@ -180,6 +181,7 @@ pretējā gadījumā uzvar Kate. Kura meitene, pareizi spēlējot, noteikti var 
 
 * questionType:
 * domain:
+* _subdomain: DOM_NumericGamesAndAlgorithms
 
 </small>
 
@@ -196,8 +198,6 @@ otrais skaitlis. Beigās uz tāfeles paliks divi skaitli, kuru summa ir
 $2025$, kas ir naturāla skaitla kvadrāts ($2025 = 45^{2}$).
 
 
-
-
 # <lo-sample/> LV.VOL.2025.10.1
 
 Vai eksistē tādi veseli skaitli $a, b, c, d$, ka $|a-b|+|b-c|+|c-d|+|d-a|=2025$?
@@ -206,6 +206,7 @@ Vai eksistē tādi veseli skaitli $a, b, c, d$, ka $|a-b|+|b-c|+|c-d|+|d-a|=2025
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -224,7 +225,6 @@ $$(a+b)+(b+c)+(c+d)+(d+a) = 2(a+b+c+d) \equiv 0 \pmod 2.$$
 Tāpēc izteiksme vienmēr būs pāra skaitlis un tā nevar būt $2025$.
 
 
-
 # <lo-sample/> LV.VOL.2025.10.2
 
 Dots vienādsānu trijstūris $ABC$, kuram $AB=AC$ un 
@@ -237,6 +237,7 @@ Aprēḳināt $\sphericalangle AMC$ lielumu!
 
 * questionType:
 * domain:
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -272,7 +273,6 @@ $\sphericalangle CMA=\left(180^{\circ}-40^{\circ}\right): 2=70^{\circ}$.
 ![](LV.VOL.2025.10.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2025.10.3
 
 Dots naturāls skaitlis $n>1$. Katram skaitla $n+1$ pozitīvam 
@@ -285,6 +285,7 @@ kladē ir uzrakstīti vieni un tie paši skaitļi!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Congruences
 
 </small>
 
@@ -319,6 +320,7 @@ Kāds skaitlis var būt rakstīts uz šīs rūtiņas?
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _subdomain: DOM_MagicConfigurations
 
 </small>
 
@@ -373,8 +375,6 @@ kādu citu skaitli, kas nav $1$ (kas nav iespējams).
 Tātad vienīgā iespēja ir, ka neizgriezta ir palikusi stūra rūtiņa.
 
 
-
-
 # <lo-sample/> LV.VOL.2025.10.5
 
 Naturālu skaitli ar vismaz diviem cipariem sauksim par īpašu, 
@@ -390,6 +390,7 @@ skaitlis sākas ar vienu vai vairākām nullēm, tad liekās nulles tiek atmesta
 
 * questionType:
 * domain:
+* _subdomain: DOM_DigitManipulation
 
 </small>
 
@@ -437,8 +438,6 @@ neizpildās vienīgi skaitlim $18$. Tātad $360000000$ un $990000000$
 ir vienīgie deviṇciparu īpašie skaitḷi, kuri dalās ar $9$.
 
 
-
-
 # <lo-sample/> LV.VOL.2025.11.1
 
 Dotas septiṇas pēc ārējā izskata vienādas monētas, no kurām 
@@ -451,6 +450,7 @@ uz sviru svariem bez atsvariem atrast abas viltotās monētas?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialAlgorithms
 
 </small>
 
@@ -497,6 +497,7 @@ $B,F,G,C$ atrodas uz vienas riṇḳa līnijas!
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -532,6 +533,7 @@ $$\frac{c_{1}^{2}-4 a_{1} b_{1}}{a_{1}+b_{1}+c_{1}}+\frac{c_{2}^{2}-4 a_{2} b_{2
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerConditions
 
 </small>
 
@@ -555,7 +557,6 @@ Turklāt tā kā virknes $a_{n}$ un $b_{n}$ ir dažādas, tad vismaz vienā
 rezultāts arī ir stingri lielāks nekā $0$.
 
 
-
 # <lo-sample/> LV.VOL.2025.11.4
 
 Dots $7 \times 7$ rūtiṇu kvadrāts. No šī kvadrāta izgrieza 12 figūras, kas katra bija vai nu $1 \times 4$ rūtiṇu taisnstūris (vertikāls vai horizontāls), vai arī $2 \times 2$ rūtiṇu kvadrāts, pāri palika viena rūtiṇa. Kurā vietā sākotnējā kvadrātā varēja atrasties šī pāri palikusī rūtiṇa?
@@ -564,6 +565,7 @@ Dots $7 \times 7$ rūtiṇu kvadrāts. No šī kvadrāta izgrieza 12 figūras, k
 
 * questionType:
 * domain:
+* _subdomain: DOM_GridCut
 
 </small>
 
@@ -591,8 +593,6 @@ skaitli, kas nav 1 (kas nav iespējams). Tātad vienīgā iespēja ir,
 ka palikusi ir centrālā rūtiṇa.
 
 
-
-
 # <lo-sample/> LV.VOL.2025.11.5
 
 Uz tāfeles sākumā uzrakstīti divi vieninieki. Vienā gājienā var:
@@ -609,6 +609,7 @@ skaitļi **(A)** $20$ un $24$; **(A)** $20$ un $25$?
 
 * questionType:
 * domain:
+* _subdomain: DOM_NumericGamesAndAlgorithms
 
 </small>
 
@@ -628,8 +629,6 @@ Tā kā sākumā skaitlu lielākais kopīgais dalītājs ir $1$, tad beigās tas
 vērtību $5=\text{LKD}(20;25)$.
 
 
-
-
 # <lo-sample/> LV.VOL.2025.12.1
 
 Pierādīt, ka visām naturālām $n$ vērtībām $2^{2n-1} 3^{n-1}+5^{n}$ dalās ar $7$.
@@ -639,6 +638,7 @@ Pierādīt, ka visām naturālām $n$ vērtībām $2^{2n-1} 3^{n-1}+5^{n}$ dalā
 * questionType:Prove
 * domain:NT
 * method:MTH_InductionWithStepOne
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -679,8 +679,6 @@ Ja katras saskaitāmais dalās ar $7$, tad visa summa dalās ar $7$.
 Secinājums. Tā kā apgalvojums ir patiess, ja $n=1$, un no tā, ka apgalvojums ir patiess, ja $n=k$, izriet, ka apgalvojums ir patiess arī $n=k+1$, secinām, ka apgalvojums ir patiess visām naturālām vērtībām.
 
 
-
-
 # <lo-sample/> LV.VOL.2025.12.2
 
 Četrstūris $ABCD$, kuram $AB + CD = AD$, ir ievilkts riṇka līnijā. 
@@ -691,6 +689,7 @@ uz četrstūra malas $AD$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -759,9 +758,6 @@ $$\Rightarrow \quad \frac{a}{\sin (2 \alpha-\beta)} =
 Tas nozīmē, ka punkti $F$ un $G$ sakrīt un atrodas uz $AD$.
 
 
-
-
-
 # <lo-sample/> LV.VOL.2025.12.3
 
 Pozitīviem reāliem skaitliem $x, y, z$ izpildās $x+y+z=1$. Pierādīt, ka
@@ -772,6 +768,7 @@ $$\frac{1}{x y-z+2}+\frac{1}{y z-x+2}+\frac{1}{x z-y+2} \geq \frac{27}{16}$$
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -799,8 +796,6 @@ $$\begin{gathered}
 \end{gathered}$$
 
 
-
-
 # <lo-sample/> LV.VOL.2025.12.4
 
 Pirmskaitlli $p$ un $q$ ir tādi, ka $p^{2}+p q+q^{2}$ ir kāda naturāla skaitla kvadrāts. Pierādīt, ka $p^{2}-p q+q^{2}$ ir pirmskaitlis!
@@ -809,6 +804,7 @@ Pirmskaitlli $p$ un $q$ ir tādi, ka $p^{2}+p q+q^{2}$ ir kāda naturāla skaitl
 
 * questionType:
 * domain:
+* _subdomain: DOM_PrimeFactors
 
 </small>
 
@@ -843,9 +839,6 @@ Tā kā $p$ un $q$ ir pirmskaitl̦i, tad iespējami divi gadījumi:
    ka $p=-k$ un šis gadījums neder.
 
 
-
-
-
 # <lo-sample/> LV.VOL.2025.12.5
 
 Uz tāfeles uzrakstīti divi polinomi $P(x)=x^{2}+2$ un $Q(x)=x+1$. 
@@ -860,6 +853,7 @@ tāfeles uzrakstīt polinomu: **(A)** $x^{3}+2$; **(B)** $x^{4}+2$ ?
 
 * questionType:
 * domain:
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -886,4 +880,3 @@ P_{6}(x)=P_{5}(x)-P_{2}(x)=x^{4}+4 x+3-(2 x-1)=x^{4}+2 x+4 \\
 P_{7}(x)=P_{6}(x)-Q(x)=x^{4}+2 x+4-(x+1)=x^{4}+x+3 \\
 P_{8}(x)=P_{7}(x)-Q(x)=x^{4}+x+3-(x+1)=x^{4}+2
 \end{gathered}$$
-

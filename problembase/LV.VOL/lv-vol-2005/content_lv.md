@@ -10,6 +10,7 @@ vienāda ar daļas $4$ laukumu (skat. 1.zīm.).
 
 * questionType:
 * domain:
+* _subdomain: DOM_Area
 
 </small>
 
@@ -21,7 +22,6 @@ acīmredzami izriet no trijstūra un paralelograma laukumu formulām
 $L=\frac{1}{2} ah$ un $L=ah$.
 
 ![](LV.VOL.2005.9.1A.png)
-
 
 
 # <lo-sample/> LV.VOL.2005.9.2
@@ -39,6 +39,7 @@ $A$ galā skaitli $B$.
 
 * questionType:FindExample,Prove,Prove,ProveDisprove
 * domain:NT
+* _subdomain: DOM_NumeralSystems
 
 </small>
 
@@ -58,7 +59,6 @@ $S(C)=S(A)+S(B)=2S(B)+S(B)=3S(B)$ arī dalās ar $9$; tāpēc $C$ dalās ar $9$.
 **(D)** nē. Piemēram, var ņemt $B=117,\ A=819,\ C=819117$.
 
 
-
 # <lo-sample/> LV.VOL.2005.9.3
 
 Ap galdu sēž $8$ bērni. Katriem trīs pēc kārtas sēdošiem bērniem kopā ir nepāra
@@ -68,6 +68,7 @@ skaits konfekšu. Pierādīt, ka katram bērnam ir vismaz viena konfekte.
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerConditions
 
 </small>
 
@@ -85,7 +86,6 @@ $2a+(b+c+d+e+f+g+h)$ ir nepāra skaitlis. Tātad $(b+c+d)+(e+f+g)+h$ ir nepāra;
 tātad $h$ ir nepāra. Līdzīgi pierāda, ka $a;\ b;\ \ldots;\ g$ ir nepāra.
 
 
-
 # <lo-sample/> LV.VOL.2005.9.4
 
 Dots, ka $a$ un $b$ - tādi reāli skaitļi, ka $a+b$ ir vesels skaitlis un 
@@ -96,6 +96,7 @@ Jūsu atrastajiem nav.
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_MultivariableEquations
 
 </small>
 
@@ -111,7 +112,6 @@ $\left(\frac{1+\sqrt{3}}{2}; \frac{1-\sqrt{3}}{2}\right),\ \left(\frac{1-\sqrt{3
 $\left(\frac{-1-\sqrt{3}}{2}; \frac{-1+\sqrt{3}}{2}\right)$
 
 
-
 # <lo-sample/> LV.VOL.2005.9.5
 
 Katrs naturāls skaitlis no $1$ līdz $2005$ ieskaitot nokrāsots vienā no $n$ 
@@ -123,6 +123,7 @@ Atrast mazāko iespējamo $n$ vērtību.
 
 * questionType:FindOptimal
 * domain:NT
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -141,7 +142,6 @@ reizinājumus (varbūt reizinājumā pirmskaitļi atkārtojas), trešajā krās�
 un piecu pirmskaitļu reizinājumus, utt.
 
 
-
 # <lo-sample/> LV.VOL.2005.10.1
 
 Dots, ka $ABCD$ un $CEFG$ ir kvadrāti, $M$ ir $BG$ viduspunkts un $N$ ir $DE$ 
@@ -154,6 +154,7 @@ vienādi un perpendikulāri.
 
 * questionType:
 * domain:
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -163,7 +164,6 @@ Viegli ievērot, ka $\triangle BCG$ iegūstams no $\triangle DCE$, pagriežot to
 par $90^{\circ}$ pretēji pulksteņa rādītāja kustības virzienam. Tāpēc arī $1.$ 
 trijstūra mediāna $CM$ iegūstama no $2.$ trijstūra mediānas šajā pagriezienā. 
 No tā seko vajadzīgais.
-
 
 
 # <lo-sample/> LV.VOL.2005.10.2
@@ -180,6 +180,7 @@ $x^{3}+y^{3}+z^{3}=1000^{3}$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -192,7 +193,6 @@ $(x+y+z)\left(\frac{1}{x}+\frac{1}{y}+\frac{1}{z}\right)=1$. Šī vienādība
 ekvivalenti pārveidojas par $(x+y)(x+z)(y+z)=0$. Ja $x=-y$, tad 
 $x^{3}+y^{3}+z^{3}=z^{3}=1000^{3},\ z=1000,\ t=(x+y)+z=1000$ un $x+y+z+t=2000$.
 Citas iespējas, kad $x+z=0$ vai $y+z=0$, apskata līdzīgi.
-
 
 
 # <lo-sample/> LV.VOL.2005.10.3
@@ -209,6 +209,7 @@ $x \cdot f(x)+y \cdot f(y)$ dalās ar $x+y$?
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_IntegerFunctionalEquations
 
 </small>
 
@@ -227,7 +228,6 @@ $f(x+1)-f(x)=2x+1(x=1;\ \ldots;\ 9)$, no kurienes seko, ka
 $\mathbf{f(x)=x^{2}}$. Pārbaude parāda, ka šī funkcija der.
 
 
-
 # <lo-sample/> LV.VOL.2005.10.4
 
 Uz riņķa līnijas $w$ ar centru $O$ izvēlēti divi punkti $A$ un $B$ tā, ka $AB$ 
@@ -239,6 +239,7 @@ Pierādiet, ka $DCB$ ir vienādsānu trijstūris.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -266,7 +267,6 @@ $\sphericalangle BDC=180^{\circ}-\sphericalangle BDA=180^{\circ}-\left(180^{\cir
 Tātad $\sphericalangle DBC=\sphericalangle BDC$ un $CB=CD$.
 
 
-
 # <lo-sample/> LV.VOL.2005.10.5
 
 Kādā universitātē strādā $n$ profesori, $n \geq 2$. Katrs profesors lasa 
@@ -285,6 +285,7 @@ lekcijas. Daži no viņiem klausās citu profesoru lekcijas. Ir zināms, ka
 
 * questionType:
 * domain:
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -317,7 +318,6 @@ divu profesoru, kas klausītos viens otru. Tāpēc $3 n \leq \frac{1}{2} n(n-1)$
 no kurienes $n-1 \geq 6$ un $n \geq 7$.
 
 
-
 # <lo-sample/> LV.VOL.2005.11.1
 
 Ar $\{x\}$ apzīmē starpību starp $x$ un lielāko veselo skaitli, kas nepārsniedz
@@ -332,6 +332,7 @@ $\left\{x^{2}\right\}+\{x\}=0,99$,
 
 * questionType:
 * domain:
+* _subdomain: DOM_Equations
 
 </small>
 
@@ -343,7 +344,6 @@ $10n+\frac{13}{10},\ n=0;\ 1;\ 2;\ \ldots$.
 Tiešām, $\left(10n+\frac{13}{10}\right)^{2}=100n^{2}+26 n+1,69$, tāpēc 
 $\left\{\left(10n+\frac{13}{10}\right)^{2}\right\}=0,69$ un 
 $\left\{10n+\frac{13}{10}\right\}=0,3$.
-
 
 
 # <lo-sample/> LV.VOL.2005.11.2
@@ -363,6 +363,7 @@ Pierādīt, ka
 
 * questionType:
 * domain:
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -384,7 +385,6 @@ $\sphericalangle DRQ=\sphericalangle ACQ=45^{\circ}$.
 ![](LV.VOL.2005.11.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2005.11.3
 
 Kādām $a$ vērtībām vienādojumam
@@ -397,6 +397,7 @@ ir viens vienīgs atrisinājums reālos skaitļos?
 
 * questionType:
 * domain:
+* _subdomain: DOM_ParametrizedEquations
 
 </small>
 
@@ -414,7 +415,6 @@ $y_{2}=y_{1}$. Iegūstam, ka meklējamās $a$ vērtības ir
 $(-\infty; 0) \cup\left(0; \frac{2}{3}\right) \cup\{1; 2\}$.
 
 
-
 # <lo-sample/> LV.VOL.2005.11.4
 
 Dots, ka $p$ - pirmskaitlis. Pierādīt, ka apgalvojumi "eksistē tāds vesels $x$,
@@ -425,6 +425,7 @@ dalās ar $p$" vai nu abi ir pareizi, vai abi - nepareizi.
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_Congruences
 
 </small>
 
@@ -451,7 +452,6 @@ $c^{2}+c+3:p$. Tātad, ja patiess ir otrais apgalvojums, tad patiess ir arī
 pirmais.
 
 
-
 # <lo-sample/> LV.VOL.2005.11.5
 
 Apskatām kubu, kura divās virsotnēs ierakstīts $1$, bet citās virsotnēs 
@@ -464,6 +464,7 @@ kļūtu vienādi. Kuriem sākotnējiem vieninieku izvietojumiem to var izdarīt?
 
 * questionType:
 * domain:
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -484,7 +485,6 @@ skaldnes pretējās virsotnēs.
 ![](LV.VOL.2005.11.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2005.12.1
 
 Dots, ka $x$ un $y$ ir reāli skaitļi, $3^{x}+13^{y}=17^{x}$ un 
@@ -494,6 +494,7 @@ $5^{x}+7^{y}=11^{y}$. Pierādīt, ka $x<y$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -506,7 +507,6 @@ eksponentfunkcijas īpašībām seko, ka $x<1$. Savukārt no $5^{x}+7^{y}=11^{y}
 līdzīgi iegūstam, ka 
 $5^{y}+7^{y} \leq 1^{y},\left(\frac{5}{11}\right)^{y}+\left(\frac{7}{11}\right)^{y} \leq 1$
 un $y>1$. Nevienādības $x<1<y$ ir pretrunā ar sākotnējo pieņēmumu.
-
 
 
 # <lo-sample/> LV.VOL.2005.12.2
@@ -524,6 +524,7 @@ Pierādīt, ka $r_{1}+r_{3}+r_{5}=r_{2}+r_{4}+r_{6}$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -541,7 +542,6 @@ paralēli $ABC$ malām.
 ![](LV.VOL.2005.12.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2005.12.3
 
 Pa riņķa līniju izrakstīti naturāli skaitļi no $1$ līdz $n$ ieskaitot, katrs 
@@ -553,6 +553,7 @@ vērtību.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Extremes
 
 </small>
 
@@ -590,7 +591,6 @@ zīmi, bet $\frac{n+1}{2}$ būs vienu reizi ar " $+$ " zīmi, bet otru reizi ar
 izvēloties secību $1;\ n;\ 2;\ n-1;\ \ldots;\ \frac{n+3}{2};\ \frac{n+1}{2}$.
 
 
-
 # <lo-sample/> LV.VOL.2005.12.4
 
 Par skaitļu virkni $x_{1}, x_{2}, x_{3}, \ldots$ zināms, ka
@@ -607,6 +607,7 @@ Par skaitļu virkni $x_{1}, x_{2}, x_{3}, \ldots$ zināms, ka
 * questionType:Prove,FindAll
 * domain:Alg
 * method:MTH_StrongInduction
+* _subdomain: DOM_SequenceProperties
 
 </small>
 
@@ -639,7 +640,6 @@ divus gadījumus:
   $x_{2n+1}=\frac{1}{x_{2n}}=\frac{a}{b}$, k.b.j.
 
 
-
 # <lo-sample/> LV.VOL.2005.12.5
 
 Katra no regulāra $1000$-stūra virsotnēm nokrāsota balta, sarkana vai zaļa. Ar 
@@ -653,6 +653,7 @@ dažādās krāsās, un pārkrāsot tās abas trešajā krāsā. Pierādiet, ka
 
 * questionType:
 * domain:
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -696,4 +697,3 @@ $01 \rightarrow 22;\ 10 \rightarrow 22;\ 02 \rightarrow 11;\ 20 \rightarrow 11;\
 saglabā visu numuru summas atlikumu, dalot ar $3$. Bet šis atlikums vienāds ar 
 galā iegūtās krāsas numuru, jo $1000x \equiv(\bmod 3)$. No šejienes seko otrais
 apgalvojums.
-

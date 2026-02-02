@@ -7,6 +7,7 @@ skaitlis, kas dalās gan ar $x$, gan ar $y$, nav $x+y$
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -15,7 +16,6 @@ skaitlis, kas dalās gan ar $x$, gan ar $y$, nav $x+y$
 Pieņemsim pretējo. Tā kā $\frac{x+y}{x}=1+\frac{y}{x}$ un 
 $\frac{x+y}{y}=1+\frac{x}{y}$, tad $x$ dalās ar $y$ un $y$ dalās ar $x$; tāpēc 
 $x=y$. Bet tad $MKD(x, y)=MKD(x, x)=x \neq x+y$.
-
 
 
 # <lo-sample/> LV.VOL.2008.9.2
@@ -30,6 +30,7 @@ $ab=\frac{c-a+1}{b}=\frac{c+1}{2}$. Pierādīt, ka
 
 * questionType:
 * domain:
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -38,7 +39,6 @@ $ab=\frac{c-a+1}{b}=\frac{c+1}{2}$. Pierādīt, ka
 No dotā seko $ab^{2}+a=c+1$ un $2ab=c+1$, tātad $ab^{2}+a=2ab$ un 
 $a(b-1)^{2}=0$. Tāpēc $b=1$. Tagad no vienādības $ab=\frac{c+1}{2}$ seko 
 $a=\frac{c+b}{2}$.
-
 
 
 # <lo-sample/> LV.VOL.2008.9.3
@@ -54,6 +54,7 @@ virsotnes ir baltas.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CuttingCoversColoring
 
 </small>
 
@@ -68,7 +69,6 @@ katrā kvadrātā būtu augstākais divas baltas virsotnes, tad kopā to nebūtu
 vairāk par $6$ - pretruna.
 
 
-
 # <lo-sample/> LV.VOL.2008.9.4
 
 Dots, ka $ABC$ - trijstūris, bet $X$ un $Y$ - tādi punkti, ka 
@@ -79,6 +79,7 @@ $XY$ nav garāks par $\triangle ABC$ pusperimetru.
 
 * questionType:
 * domain:
+* _subdomain: DOM_InequalitiesGeometry
 
 </small>
 
@@ -91,7 +92,6 @@ $XY \leq XM+MN+NY \leq \frac{1}{2} AB+\frac{1}{2} CA+\frac{1}{2} BC=\frac{1}{2}(
 k.b.j.
 
 ![](LV.VOL.2008.9.4A.png)
-
 
 
 # <lo-sample/> LV.VOL.2008.9.5
@@ -107,6 +107,7 @@ vidējais aritmētiskais ir $18$. Cik lodīšu var būt baltajā kastē?
 
 * questionType:
 * domain:
+* _subdomain: DOM_WordProblems
 
 </small>
 
@@ -135,7 +136,6 @@ Pierādīsim, ka trīs pirmās tiešām pastāv:
 | melnajā kastē | $1;\ 26;\ 27$ | $3;\ 6;\ 15;\ 24;\ 25;\ 26;\ 27$ | $6;\ 7;\ 8;\ 9;\ 21;\ \ldots;\ 27$ |
 
 
-
 # <lo-sample/> LV.VOL.2008.10.1
 
 Dots, ka $a,\ b$ un $c$ ir pozitīvi skaitļi. Pierādīt, ka 
@@ -145,6 +145,7 @@ $(1+ab)(1+ac)(1+bc) \geq 8abc$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Inequalities
 
 </small>
 
@@ -153,7 +154,6 @@ $(1+ab)(1+ac)(1+bc) \geq 8abc$.
 No $VA$ - $VĢ$ nevienādības $1+ab \geq 2 \sqrt{ab}$; līdzīgi 
 $1+ac \geq 2 \sqrt{ac}$ un $1+bc \geq 2 \sqrt{bc}$. Sareizinot šīs 
 nevienādības, iegūstam vajadzīgo.
-
 
 
 # <lo-sample/> LV.VOL.2008.10.2
@@ -165,6 +165,7 @@ ciparus, iegūst $\sqrt[3]{x}$?
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_DigitManipulation
 
 </small>
 
@@ -183,7 +184,6 @@ $32 \leq a<33$; tā kā $a$ - naturāls skaitlis, tad varētu būt vienīgi $a=3
 Pārbaude (tā nepieciešama) parāda, ka $a=32$ der, jo $32^{3}=32768$.
 
 
-
 # <lo-sample/> LV.VOL.2008.10.3
 
 Ja $x$ un $y$ - naturāli skaitļi (vanbūt vienādi), tad ar $[x, y]$ apzīmējam to
@@ -194,6 +194,7 @@ $n=[x, y]+[y, z]+[z, x]$?
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -226,7 +227,6 @@ Tā ir pretruna, jo kreisajā vienādības pusē ir pāra skaitlis, bet labajā 
 nepāra.
 
 
-
 # <lo-sample/> LV.VOL.2008.10.4
 
 Šaurleņķu trijstūrī $ABC$ novilkti augstumi $AX$ un $CY$. Uz malas $AC$ 
@@ -239,6 +239,7 @@ atzīmēti $M$ un $N$ tā, ka $XM \parallel AB$ un $YN \parallel BC$ (skat.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -256,7 +257,6 @@ leņķis). No $\sphericalangle NYX=\sphericalangle NMX$ seko vajadzīgais.
 ![](LV.VOL.2008.10.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2008.10.5
 
 Universitātē strādā $12$ profesori. No tiem sastādītas $2008$ padomes. Nekādas 
@@ -270,6 +270,7 @@ nosacījumi joprojām izpildītos.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -286,7 +287,6 @@ apakškopu, tātad $\overline{S}$ ir kopīgs loceklis ar katru jau esošu padomi
 tātad par jauno padomi var kalpot $\overline{S}$.
 
 
-
 # <lo-sample/> LV.VOL.2008.11.1
 
 Ar kādu mazāko gājienu skaitu šaha zirdziņš var nonākt no šaha galdiņa kreisā 
@@ -296,6 +296,7 @@ apakšējā stūra uz labo augšējo stūri?
 
 * questionType:
 * domain:
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -310,7 +311,6 @@ $7+7=14$.
 ![](LV.VOL.2008.11.1A.png)
 
 
-
 # <lo-sample/> LV.VOL.2008.11.2
 
 Atrisināt vienādojumu
@@ -322,6 +322,7 @@ $$\bigg|\ldots \Big| \big| |x-1|-10 \big|-10^{2} \Big|-\ldots-10^{2007}\bigg|=10
 * questionType:FindAll
 * domain:Alg
 * method:MTH_InductionWithStepOne
+* _subdomain: DOM_Equations
 
 </small>
 
@@ -337,7 +338,6 @@ no kurienes $x_{1}=\underbrace{11 \ldots 1}_{2009}$ un
 $x_{2}=\underbrace{-11 \ldots 109}_{2007}$.
 
 
-
 # <lo-sample/> LV.VOL.2008.11.3
 
 Dots, ka $n$ - naturāls skaitlis un skaitļa $n^{2}$ decimālajā pierakstā viens
@@ -348,6 +348,7 @@ $11$.
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -373,7 +374,6 @@ $$\begin{array}{ll}
 \end{array}$$
 
 
-
 # <lo-sample/> LV.VOL.2008.11.4
 
 Stars $t$ ir $\sphericalangle AOB$ bisektrise, $CA \perp OA$ un $DB \perp OB$ 
@@ -385,6 +385,7 @@ Stars $t$ ir $\sphericalangle AOB$ bisektrise, $CA \perp OA$ un $DB \perp OB$
 
 * questionType:
 * domain:
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -398,7 +399,6 @@ $ME=MB$. Atliek ievērot, ka "simetrijas pēc" $ME=MA$.
 ![](LV.VOL.2008.11.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2008.11.5
 
 Kvadrāts sastāv no $10 \times 10$ vienādām kvadrātiskām rūtiņām. Katra rūtiņa 
@@ -410,6 +410,7 @@ vismaz $4$ krāsas.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -425,7 +426,6 @@ vairāk kā $3 \cdot(10+10)=60$ "gadījumu", kad kāda krāsa sastopama kādā r
 vai kolonnā - pretruna.
 
 
-
 # <lo-sample/> LV.VOL.2008.12.1
 
 Vai eksistē tādi reāli skaitļi $a,\ b$ un $c$, ka 
@@ -435,6 +435,7 @@ $a+b+c=\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=0$?
 
 * questionType:
 * domain:
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -449,7 +450,6 @@ abi negatīvi. Tas pats attiecas uz $a$ un $b$. Tātad $a,\ b,\ c$ vai nu visi
 pozitīvi, vai visi negatīvi. Bet tad nevar būt $a+b+c=0$ - pretruna.
 
 
-
 # <lo-sample/> LV.VOL.2008.12.2
 
 Vienā un tai pašā koordinātu sistēmā $0xy$ uzzīmēti funkciju $y=x^{2}+x+a$ un 
@@ -460,6 +460,7 @@ punktos. Pierādīt, ka šie $4$ punkti atrodas uz vienas riņķalīnijas.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Locus
 
 </small>
 
@@ -472,7 +473,6 @@ $4$ punkti atrodas attālumā $\sqrt{-(a+b)}$ no koordinātu sākumpunkta, kas
 tātad ir meklētās riņķa līnijas centrs.
 
 
-
 # <lo-sample/> LV.VOL.2008.12.3
 
 Atrisināt naturālos skaitļos vienādojumu
@@ -483,6 +483,7 @@ $x^{2}+(x+1)^{2}=y^{2}$, ja $x \leq 200$
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -508,7 +509,6 @@ vesela skaitļa kvadrātam. Šķirojam divus gadījumus:
    $\mathbf{x}=119;\ \mathbf{y}=169$.
 
 
-
 # <lo-sample/> LV.VOL.2008.12.4
 
 Dots, ka $ABC$ ir šaurleņķu trijstūris, $AB>AC$ un 
@@ -520,6 +520,7 @@ punktos $P$ un $Q$. Pierādīt, ka $PO=HQ$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -541,7 +542,6 @@ $\triangle OPN=\triangle HQE\ (\ell m \ell)$; tāpēc arī $OP=HQ$, k.b.j.
 ![](LV.VOL.2008.12.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2008.12.5
 
 Uz taisnes atrodas figūriņa. Andris un Maija spēlē spēli. Viņi izdara gājienus 
@@ -556,6 +556,7 @@ Maija cenšas to nepieļaut?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialGames
 
 </small>
 
@@ -574,4 +575,3 @@ bīda to pa labi, tad kopējā pārbīde pa labi ir
 $\left(-\frac{1}{2^{12}}\right)+\left(-\frac{1}{2^{11}}\right)+\ldots\left(-\frac{1}{2^{13}-n}\right)+\frac{1}{2^{12-n}}=\frac{1}{2^{12}}$
 Ja Andris sasniedz šo mērķi vairāk nekā $2008 \cdot 2^{12}$ reizes, figūriņa 
 pārbīdījusies par attālumu vairāk nekā $2008$ pa labi.
-

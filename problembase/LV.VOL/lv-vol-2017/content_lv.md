@@ -7,6 +7,7 @@ un pamatojiet, ka citu nav!
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -17,7 +18,6 @@ Aplūkosim $63$ mazākos naturālos skaitļus. To summa ir
 $1+2+\cdots+63=\frac{(1+63) \cdot 63}{2}=2016$. Meklēto skaitļu summa ir tikai 
 par $1$ lielāka - vienīgais veids, kā to iegūt, ir skaitli $63$ aizstāt ar 
 $64$.
-
 
 
 # <lo-sample/> LV.VOL.2017.9.2
@@ -33,6 +33,7 @@ laukumu riņķim, kura diametrs ir $MN$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Area
 
 </small>
 
@@ -51,7 +52,6 @@ Tātad esam pierādījuši, ka iekrāsotās figūras laukums ir vienāds ar lauk
 riņķim, kura diametrs ir $MN$.
 
 
-
 # <lo-sample/> LV.VOL.2017.9.3
 
 Naturālā piecciparu skaitlī vienādus ciparus aizstāja ar vienādiem burtiem, bet
@@ -64,6 +64,7 @@ būt sākotnējais skaitlis?
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_Cryptarithm
 
 </small>
 
@@ -110,7 +111,6 @@ kā $A>N$, tad lielākā iespējamā $N$ vērtība ir $5$. Apskatīsim visus gad
 Tātad sākotnējais skaitlis varēja būt $54254$ vai $92192$.
 
 
-
 # <lo-sample/> LV.VOL.2017.9.4
 
 Pierādīt, ka $x^{4}-x^{2}-3x+4>0$ visiem reāliem $x$.
@@ -119,6 +119,7 @@ Pierādīt, ka $x^{4}-x^{2}-3x+4>0$ visiem reāliem $x$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -136,7 +137,6 @@ pēdējā nevienādība ir patiesa. Tā kā tika veikti ekvivalenti pārveidojum
 arī dotā nevienādība ir patiesa visiem reāliem skaitļiem $x$.
 
 
-
 # <lo-sample/> LV.VOL.2017.9.5
 
 Katra no bumbiņām, kas atrodas kastē, nokrāsota vienā no $N$ krāsām, un uz 
@@ -150,6 +150,7 @@ dažādi skaitļi?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -178,7 +179,6 @@ uz kurām uzrakstīti visi skaitļi no $1$ līdz $N$.
 ![](LV.VOL.2017.9.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2017.10.1
 
 Dots, ka $b$ un $c$ ir naturāli skaitļi un kvadrātvienādojuma $x^{2}-bx+c=0$ 
@@ -189,6 +189,7 @@ $x_{1}^{2}+x_{2}^{2}+2017$; **(B)** $x_{1}^{3}+x_{2}^{3}$ ir naturāls skaitlis!
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerPolynomials
 
 </small>
 
@@ -225,7 +226,6 @@ $x_{1}^{3}+x_{2}^{3}>0$, tad $x_{1}^{3}+x_{2}^{3}$ ir naturāls skaitlis.
 $a^{3}+b^{3}=(a+b)\left(a^{2}-ab+b^{2}\right)$.
 
 
-
 # <lo-sample/> LV.VOL.2017.10.2
 
 Dots pirmskaitlis, kas satur vismaz $4$ dažādus ciparus. Pierādīt, ka tā 
@@ -241,6 +241,7 @@ pirmskaitlis!
 * topic:ModularArithmetic
 * topic:ExhaustionMethod
 * concepts:primes
+* _subdomain: DOM_DigitManipulation
 
 </small>
 
@@ -351,11 +352,6 @@ Dalāmība ar $11$ nemainās, ja samaina ciparus nepāru pozīcijās (vai arī p
 tātad, arī dalot ar $11$ nevar sagaidīt daudzus atlikumus.
 
 
-
-
-
-
-
 # <lo-sample/> LV.VOL.2017.10.3
 
 Četrstūris $ABCD$ ir ievilkts riņķa līnijā $\omega_{1}$, bet $ABCD$ malu 
@@ -366,6 +362,7 @@ $\sphericalangle ABD+\sphericalangle BDC=90^{\circ}$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -392,7 +389,6 @@ $\sphericalangle BDC+\sphericalangle ABD=90^{\circ}$.
 ![](LV.VOL.2017.10.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2017.10.4
 
 Dotas $40$ kartītes, uz divām no tām uzrakstīts skaitlis $1$, uz divām - 
@@ -404,6 +400,7 @@ katrā komplektā būtu trīs kartītes, uz kurām uzrakstīto skaitļu summa ir
 
 * questionType:
 * domain:
+* _subdomain: DOM_NumberPartitionsCompositions
 
 </small>
 
@@ -422,7 +419,6 @@ $$2 \cdot 1+2 \cdot 2+2 \cdot 3+\cdots+2 \cdot 13+14=2 \cdot(1+2+\cdots+13)+14=2
 kas jau ir lielāka nekā $189$. Tātad deviņus komplektus izveidot nevar.
 
 
-
 # <lo-sample/> LV.VOL.2017.10.5
 
 Seši tūristi bija devušies vairākos ceļojumos uz sešām valstīm, katrā ceļojumā 
@@ -434,6 +430,7 @@ no šīm valstīm. Kāds ir mazākais iespējamais kopējais ceļojumu skaits?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -460,7 +457,6 @@ $3$ valstis, ko neviens no šiem trim tūristiem nav apmeklējis, kas ir pretrun
 ar uzdevuma nosacījumiem.
 
 
-
 # <lo-sample/> LV.VOL.2017.11.1
 
 Cik ir tādu piecciparu skaitļu, kam katrs nākamais cipars ir lielāks par 
@@ -470,6 +466,7 @@ iepriekšējo?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CountingObjects
 
 </small>
 
@@ -481,7 +478,6 @@ $C_{9}^{4}=\frac{9 \cdot 8 \cdot 7 \cdot 6}{4 \cdot 3 \cdot 2 \cdot 1}=126$
 veidos, tad ir tieši $126$ šādi piecciparu skaitļi.
 
 
-
 # <lo-sample/> LV.VOL.2017.11.2
 
 Kurš no skaitļiem $(\sqrt{7})^{\sqrt{5}}$ un $(\sqrt{5})^{\sqrt{7}}$ ir 
@@ -491,6 +487,7 @@ lielāks?
 
 * questionType:
 * domain:
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -502,7 +499,6 @@ $(\sqrt{5})^{\sqrt{7} \cdot 2 \sqrt{5}}<(\sqrt{7})^{\sqrt{5} \cdot 2 \sqrt{5}}$.
 Tas savukārt izriet no tā, ka 
 $(\sqrt{7})^{\sqrt{5} \cdot 2 \sqrt{5}}=7^{5}=16087$, bet 
 $(\sqrt{5})^{\sqrt{7} \cdot 2 \sqrt{5}}=5^{\sqrt{35}}<5^{6}=15625$.
-
 
 
 # <lo-sample/> LV.VOL.2017.11.3
@@ -520,6 +516,7 @@ un $C$ atrodas uz vienas taisnes!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Locus
 
 </small>
 
@@ -537,7 +534,6 @@ kā ievilktā četrstūra pretējo leņķu summa.
 ![](LV.VOL.2017.11.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2017.11.4
 
 Pierādīt, ka no jebkuriem $17$ naturāliem skaitļiem var izvēlēties $9$ skaitļus
@@ -547,6 +543,7 @@ tā, lai to summa dalītos ar $9$.
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_Congruences
 
 </small>
 
@@ -590,7 +587,6 @@ Tātad esam ieguvuši, ka $a_{1}+a_{2}+a_{3}+b_{1}+b_{2}+b_{3}+c_{1}+c_{2}+c_{3}
 dalās ar $9$ un prasītais ir pierādīts.
 
 
-
 # <lo-sample/> LV.VOL.2017.11.5
 
 Uz riņķa līnijas atzīmēti $N$ punkti tā, ka šie punkti ir regulāra $N$ - stūra 
@@ -605,6 +601,7 @@ $N=15$?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialGames
 
 </small>
 
@@ -715,7 +712,6 @@ kurš novelk pēdējo hordu, kurai ar jau novilktajām hordām nav kopīgu
 galapunktu.
 
 
-
 # <lo-sample/> LV.VOL.2017.12.1
 
 Doti tādi skaitļi $a,\ b$ un $c$, ka $a+c=\frac{b}{3^{3}}$, turklāt neviens no 
@@ -726,6 +722,7 @@ krusto $x$ asi kādā intervāla $[-1 ; 1]$ punktā!
 
 * questionType:
 * domain:
+* _subdomain: DOM_RealFunctions
 
 </small>
 
@@ -741,7 +738,6 @@ Tādā gadījumā skaidrs, ka šajā intervālā $[-1,1]$ funkcijas grafikam ir
 jākrusto $x$ ass.
 
 
-
 # <lo-sample/> LV.VOL.2017.12.2
 
 Pierādī, ka $\sqrt{x^{2}+y^{2}}+(2-\sqrt{2}) \sqrt{xy} \geq x+y$, ja $x$ un $y$
@@ -751,6 +747,7 @@ ir reāli pozitīvi skaitļi!
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -779,7 +776,6 @@ tika veikti ekvivalenti pārveidojumi, tad arī dotā nevienādība ir patiesa
 visiem reāliem skaitļiem $x$.
 
 
-
 # <lo-sample/> LV.VOL.2017.12.3
 
 Dots taisnstūris $ABCD$. Uz taisnes $BD$ atlikts punkts $E$, tā ka $D$ atrodas 
@@ -791,6 +787,7 @@ laukums!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Area
 
 </small>
 
@@ -849,7 +846,6 @@ kas arī bija jāpierāda.
 ![](LV.VOL.2017.12.3B.png)
 
 
-
 # <lo-sample/> LV.VOL.2017.12.4
 
 Naturālu skaitli sauksim par *skaistu*, ja tā visu naturālo dalītāju summa 
@@ -862,6 +858,7 @@ naturāla skaitļa kvadrāts!
 
 * questionType:FindOptimal
 * domain:NT
+* _subdomain: DOM_SpecialNumbers
 
 </small>
 
@@ -896,7 +893,6 @@ būs ar vienādu paritāti, ja sareizina attiecīgos *skaistos* skaitļus
 $n_{1} \cdot n_{2}=2^{u1+u2} v_{1}v_{2}$ ir naturāla skaitļa kvadrāts.
 
 
-
 # <lo-sample/> LV.VOL.2017.12.5
 
 Kādā valstī no parlamenta deputātiem ir izveidotas $100$ komisijas. Katram 
@@ -917,6 +913,7 @@ darbu komisijās?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -951,4 +948,3 @@ Līdz ar to esam ieguvuši, ka visi parlamenta deputāti kopā par darbu komisij
 mēnesī saņem
 
 $10 \cdot\left(C_{k(1)}^{2}+C_{k(2)}^{2}+\cdots+C_{k(n)}^{2}\right)=49500$ eiro.
-

@@ -6,6 +6,7 @@ Dots, ka $x \neq y$ un $x^{2}-2007x=y^{2}-2007y$. Aprēķiniet $x+y$ vērtību.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Equations
 
 </small>
 
@@ -13,7 +14,6 @@ Dots, ka $x \neq y$ un $x^{2}-2007x=y^{2}-2007y$. Aprēķiniet $x+y$ vērtību.
 
 Doto vienādību pārveido par $x^{2}-y^{2}=2007(x-y)$ un tālāk par 
 $(x-y)(x+y)=2007(x-y)$. Tā kā $x \neq y$, tad no šejienes seko $x+y=2007$.
-
 
 
 # <lo-sample/> LV.VOL.2007.9.2
@@ -28,6 +28,7 @@ $x^{2}+(p-1)x+(q-1)=0$ un $x^{2}+(p-2)x+(q-2)=0$ abas saknes ir veseli skaitļi?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
+* _subdomain: DOM_IntegerPolynomials
 
 </small>
 
@@ -35,7 +36,6 @@ $x^{2}+(p-1)x+(q-1)=0$ un $x^{2}+(p-2)x+(q-2)=0$ abas saknes ir veseli skaitļi?
 
 Var ņemt $p=1,\ q=-2$. Patvaļīgam veselam skaitlim $a$ apskatām vienādojumu 
 $x^{2}+(a-1)x+(a-2)=0$. Tam ir saknes $x_{1}=-1$ un $x_{2}=2-a$.
-
 
 
 # <lo-sample/> LV.VOL.2007.9.3
@@ -48,6 +48,7 @@ ka $BC=2 \cdot AN$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -62,7 +63,6 @@ vienādsānu. Tāpēc $AN=NM=MC$, no kurienes seko vajadzīgais.
 ![](LV.VOL.2007.9.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2007.9.4
 
 Kvadrāts sastāv no $7 \times 7$ vienādām kvadrātiskām rūtiņām. Dažas no tām 
@@ -73,6 +73,7 @@ rūtiņu (varbūt neviena). Kāds var būt kopējais melno rūtiņu skaits?
 
 * questionType:
 * domain:
+* _subdomain: DOM_MagicConfigurations
 
 </small>
 
@@ -103,7 +104,6 @@ rūtiņas, kur melnas ir visas rūtiņas, izņemot vienu diagonāli.
 ![](LV.VOL.2007.9.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2007.9.5
 
 **(A)** Vai var 1.zīm. parādītās tabulas rūtiņās ierakstīt naturālus skaitļus 
@@ -121,6 +121,7 @@ no $1$ līdz $81$ (katrā rūtiņā - citu skaitli) tā, lai izpildītos tāda p
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _subdomain: DOM_MagicConfigurations
 
 </small>
 
@@ -139,7 +140,6 @@ jābūt sastopamam arī atbilstošās kolonnas elementu reizinājumā). Bet šo
 pirmskaitļu pavisam ir $10$, un tie jāizvieto $9$ vietās - pretruna.
 
 
-
 # <lo-sample/> LV.VOL.2007.10.1
 
 Vai eksistē tādi naturāli skaitļi $x$ un $y$, ka izteiksmes $x^{2}-y^{2}-x+y$ 
@@ -152,6 +152,7 @@ vērtība ir
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -160,7 +161,6 @@ vērtība ir
 **(A)** jā; piemēram, $x=4$ un $y=2$.
 **(B)** nē; izteiksmi var pārveidot par $x(x-1)-y(y-1)$, no kurienes redzams, 
 ka tā kā divu pāra skaitļu starpība ir pāra skaitlis.
-
 
 
 # <lo-sample/> LV.VOL.2007.10.2
@@ -179,6 +179,7 @@ trauciņā būtu tieši viena monēta, ja **(A)** $n=7$, **(B)** $n=10$?
 
 * questionType:
 * domain:
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -195,7 +196,6 @@ vienmēr paliek pāra skaitlis. Bet, sasniedzot uzdevuma mērķi, šajos trauci�
 kopā būtu $5$ monētas - pretruna.
 
 
-
 # <lo-sample/> LV.VOL.2007.10.3
 
 Ja $n$ - naturāls skaitlis, kas lielāks par $1$, tad ar $x(n)$ apzīmējam 
@@ -208,6 +208,7 @@ $$\frac{1}{x(2) \cdot y(2)}+\frac{1}{x(3) \cdot y(3)}+\frac{1}{x(4) \cdot y(4)}+
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_PrimeFactors
 
 </small>
 
@@ -225,7 +226,6 @@ $\frac{p_{2}-p_{1}}{p_{1} p_{2}}+\frac{p_{3}-p_{2}}{p_{2} p_{3}}+\ldots+\frac{p_
 k.b.j.
 
 
-
 # <lo-sample/> LV.VOL.2007.10.4
 
 Regulāra trijstūra $ABC$ iekšpusē izvēlas patvaļīgu punktu $O$. Uz trijstūra 
@@ -241,6 +241,7 @@ laukums nav atkarīgs no $O$ izvēles.
 
 * questionType:
 * domain:
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -272,7 +273,6 @@ vajadzīgais.
 $OX+OY+OZ=OX+OR+SZ=AS+ZC+SZ=AC$, k.b.j.
 
 
-
 # <lo-sample/> LV.VOL.2007.10.5
 
 Uz papīra lapas uzrakstīti $n$ dažādi naturāli skaitļi, kas nepārsniedz $14$. 
@@ -288,6 +288,7 @@ Pierādīt, ka
 
 * questionType:Prove,Prove
 * domain:Comb
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -310,7 +311,6 @@ $3 \in K;\ 4 \notin K;\ 5 \in$ K. Tagad redzam, ka $6$ var izsacīt gan kā
 $1+5$, gan kā $2 \cdot 3$ - pretruna.
 
 
-
 # <lo-sample/> LV.VOL.2007.11.1
 
 Dots, ka $n$ - naturāls skaitlis.
@@ -322,6 +322,7 @@ Dots, ka $n$ - naturāls skaitlis.
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _subdomain: DOM_NumeralSystems
 
 </small>
 
@@ -335,7 +336,6 @@ atlikumus, dalot ar $9$. Tad to starpība $(n+199)-n=199$ dalītos ar $9$ -
 pretruna.
 
 
-
 # <lo-sample/> LV.VOL.2007.11.2
 
 Vai eksistē tādi trīs kvadrāttrinomi, ka katram no tiem ir vismaz viena sakne, 
@@ -345,13 +345,13 @@ bet nekādu divu kvadrāttrinomu summai sakņu nav?
 
 * questionType:
 * domain:
+* _subdomain: DOM_Equations
 
 </small>
 
 ## Atrisinājums
 
 Jā, eksistē. Piemēram, var ņemt trinomus $x^{2},\ (x-1)^{2}$ un $(x+1)^{2}$.
-
 
 
 # <lo-sample/> LV.VOL.2007.11.3
@@ -367,6 +367,7 @@ vienādi no abām pusēm.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CuttingCoversColoring
 
 </small>
 
@@ -385,7 +386,6 @@ krāsās daudzstūrus ar numuriem $i_{1}$ un $j_{1}$; $i_{2}$ un $j_{2}$; $i_{3}
 un $j_{3}$ (attiecīgi lapas pirmajā un otrajā pusē), iegūstam vajadzīgo.
 
 
-
 # <lo-sample/> LV.VOL.2007.11.4
 
 Uz trijstūra $ABC$ mediānas $AM$ ņemts tāds punkts $K$, ka 
@@ -396,6 +396,7 @@ $AB \cdot KC=AC \cdot KB$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -420,7 +421,6 @@ no kurienes seko $AB \cdot BS=AC \cdot CS$. Bet $BS=KC$ un $CS=KB$, no kurienes
 seko vajadzīgais.
 
 
-
 # <lo-sample/> LV.VOL.2007.11.5
 
 Reālu skaitļu virknē $a_{1}, a_{2}, a_{3}, \ldots$ dots, ka 
@@ -439,6 +439,7 @@ ja $k$ - patvaļīgs naturāls skaitlis.
 
 * questionType:Prove,Prove,Prove
 * domain:Alg
+* _subdomain: DOM_RealSequences, DOM_SequenceProperties
 
 </small>
 
@@ -493,7 +494,6 @@ $a_{1}^{k}+a_{2}^{k}+\ldots+a_{100}^{k}=25\left(1^{k}+2^{k}+4^{k}+2^{k}\right)=2
 no kā seko vajadzīgais.
 
 
-
 # <lo-sample/> LV.VOL.2007.12.1
 
 Kādi var būt nenegatīvi reāli skaitļi $a$ un $b$, ja vienādojumiem 
@@ -503,6 +503,7 @@ $x^{2}+a^{2}x+b^{3}=0$ un $x^{2}+b^{2}x+a^{3}=0$ ir kopīga reāla sakne?
 
 * questionType:
 * domain:
+* _subdomain: DOM_ParametrizedEquations
 
 </small>
 
@@ -517,7 +518,6 @@ Ja turpretī $a=b$, tad abi vienādojumi ir identiski viens otram. Vienādojumam
 $x^{2}+a^{2}x+a^{3}=0$ ir reāla sakne tad un tikai tad, ja 
 $a^{4}-4a^{3} \geq 0 \Leftrightarrow a^{3}(a-4) \geq 0$. Tā kā $a \geq 0$, tad 
 tas ir gadījumos, ja $\mathbf{a=b=0}$ vai $\mathbf{a=b \geq 4}$.
-
 
 
 # <lo-sample/> LV.VOL.2007.12.2
@@ -536,6 +536,7 @@ Vai var būt, ka
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -550,7 +551,6 @@ $(-1) \cdot(-1)=1$. No otras puses, tas ir piecu sānu skaldņu reizinājumu
 reizinājums (ņemot ik otro skaldni); tāpēc tas ir $(-1)^{5}=1$ - pretruna.
 
 
-
 # <lo-sample/> LV.VOL.2007.12.3
 
 Atrisināt vienādojumu sistēmu
@@ -563,6 +563,7 @@ $$\left\{\begin{array}{l}
 
 * questionType:
 * domain:
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -595,7 +596,6 @@ Tātad sistēmai ir $4$ atrisinājumi
 $(x;y):\ (1;1),\ (1 ;-1),\ (-1 ; 1),\ (-1 ;-1)$.
 
 
-
 # <lo-sample/> LV.VOL.2007.12.4
 
 Divas riņķa līnijas $w_{1}$ un $w_{2}$ krustojas divos punktos $A$ un $B$. 
@@ -611,6 +611,7 @@ Pierādīt, ka trijstūri $ACD,\ AEF$ un $AMN$ ir līdzīgi viens otram.
 
 * questionType:
 * domain:
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -652,7 +653,6 @@ $$\begin{equation*}
 No (3) un (4) seko $\triangle CAD \sim \triangle MAN$, k.b.j.
 
 
-
 # <lo-sample/> LV.VOL.2007.12.5
 
 Naturālo skaitļu kopa sadalīta daļās tā, ka katrs naturāls skaitlis nonācis 
@@ -668,6 +668,7 @@ Atbildēt uz šo jautājumu, ja
 
 * questionType:ProveDisprove
 * domain:NT
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -694,4 +695,3 @@ Katram naturālam $i$ daļa $A_{i}$ nesatur nevienu daudzkārtni skaitlim
 $p_{1} \cdot p_{2} \cdot \ldots \cdot p_{i} \cdot p_{i+1}$, kur 
 $p_{1}, p_{2}, \ldots$, $p_{i}, p_{i+1}$ - dažādi pirmskaitļi (izmantojam 
 aritmētikas pamatteorēmu).
-

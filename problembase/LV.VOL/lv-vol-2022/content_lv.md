@@ -1,6 +1,5 @@
 # <lo-sample/> LV.VOL.2022.9.1
 
-
 Pierādīt, ka visiem reāliem skaitļiem $x$ un $y$ ir spēkā nevienādība 
 $x^{2}+5y^{2}+4xy-6y+9 \geq 0$.
 
@@ -8,6 +7,7 @@ $x^{2}+5y^{2}+4xy-6y+9 \geq 0$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -27,9 +27,7 @@ nevienādība ir patiesa. Tā kā tika veikti ekvivalenti pārveidojumi, tad ar�
 dotā nevienādība ir patiesa visiem reāliem skaitļiem $x$ un $y$.
 
 
-
 # <lo-sample/> LV.VOL.2022.9.2
-
 
 Vienādsānu trijstūrī $ABC$ virsotnes leņķis $\sphericalangle ABC=\beta$. 
 Ar centru punktā $A$ un rādiusu $AC$ novilkta riņķa līnija, kas krusto malas 
@@ -40,6 +38,7 @@ $\sphericalangle ADE=12 \beta$. Aprēķināt $\beta$ lielumu!
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -70,6 +69,7 @@ ar $7$ un kura ciparu summa ir $K$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_NumericConstructions
 
 </small>
 
@@ -104,6 +104,7 @@ ka vienas rūtiņas mala ir vienu vienību gara?
 
 * questionType:
 * domain:
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -129,6 +130,7 @@ Pierādīt, ka trijstūra augstumi nevar būt $19, 37$ un $41$ vienību gari!
 
 * questionType:
 * domain:
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -159,6 +161,7 @@ y^{2}=x+2
 
 * questionType:
 * domain:
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -206,6 +209,7 @@ $AB$ trīs vienāda garuma nogriežņos!
 
 * questionType:
 * domain:
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -238,6 +242,7 @@ Tātad $AM=AK+MK=\frac{a}{4}+\frac{a}{12}=\frac{a}{3}$.
 
 ![](LV.vol.2022.10.2A.png)
 
+
 # <lo-sample/> LV.VOL.2022.10.3
 
 Pierādīt, ka katram naturālam $K>1$ var atrast tādu naturālu skaitli, kas dalās
@@ -247,6 +252,7 @@ ar $13$ un kura ciparu summa ir $K$.
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_NumericConstructions
 
 </small>
 
@@ -274,6 +280,7 @@ izteikti centimetros. Aprēkināt šī trijstūra laukumu!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Equations, DOM_Area
 
 </small>
 
@@ -351,6 +358,7 @@ diētas vienlaicīgi?
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerConditions
 
 </small>
 
@@ -401,6 +409,7 @@ Vai eksistē tāds naturāls skaitlis, kuram vienlaikus izpildās šādas trīs 
 
 * questionType:ProveDisprove
 * domain:
+* _subdomain: DOM_PrimeFactors, DOM_IntegerEquations
 
 </small>
 
@@ -425,6 +434,7 @@ Pierādīt, ka $AB=CD$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Quadrilaterals
 
 </small>
 
@@ -463,7 +473,6 @@ atbilstošie elementi ir vienādi, tad $AB=CD$.
 ![](LV.VOL.2022.11.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2022.11.3
 
 Sākumā uz papīra lapas uzrakstīts skaitlis $16$. Ja uz lapas ir
@@ -478,6 +487,7 @@ uzrakstītais skaitlis netiek nodzēsts)?
 
 * questionType:ProveDisprove
 * domain:NT
+* _subdomain: DOM_NumericGamesAndAlgorithms
 
 </small>
 
@@ -508,6 +518,7 @@ izteikti centimetros. Aprēķināt šī trijstūra laukumu!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Equations, DOM_Area
 
 </small>
 
@@ -585,6 +596,7 @@ naturālu skaitli reizinājums dalās ar $N^{2}$. Kuri skaitlļi nav amizanti?
 
 * questionType:
 * domain:
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -618,6 +630,7 @@ Atrisināt reālos skaitļos vienādojumu $x^{2}-\cos x+1=0$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Equations
 
 </small>
 
@@ -637,6 +650,7 @@ Pierādīt, ka $EF=\frac{|AD+BC-AB-CD|}{2}$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Quadrilaterals
 
 </small>
 
@@ -698,7 +712,7 @@ $$\frac{BC+AD-AB-CD}{2}=\frac{BE_{1}+E_{1}F_{1}+F_{1}C+AE_{3}+E_{3}F_{3}+F_{3}D-
 
 $$\frac{BC+AD-AB-CD}{2}=\frac{BE_{1}-E_{1}F_{1}+F_{1}C+AE_{3}-E_{3}F_{3}+F_{3}D-BE_{2}-E_{2}A-CF_{2}-F_{2}D}{2}=\frac{E_{1}F_{1}+E_{3}F_{3}}{2}=EF$$
 
-![](LV.VOL.2022.10.2B.png) 
+![](LV.VOL.2022.10.2B.png)
 
 
 # <lo-sample/> LV.VOL.2022.12.3
@@ -710,6 +724,7 @@ pirmskaitlis!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -748,7 +763,7 @@ Tā kā visas šīs summas dalās ar $2n$, un vidējais saskaitāmais $n^{3}$ da
 ar $n$, tad arī visu $(2k+1)$ kubu summa dalās ar $n$, līdz ar to nav pirmskaitlis.
 
 *Piezīme.* Uzdevumu var atrisināt arī ar matemātiskās indukcijas metodi.
- 
+
 
 # <lo-sample/> LV.VOL.2022.12.4
 
@@ -759,6 +774,7 @@ izteikti centimetros. Aprēķināt šī trijstūra laukumu!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Area, DOM_Equations
 
 </small>
 
@@ -814,6 +830,7 @@ $3 \times 3$ rūtiņas!
 
 * questionType:
 * domain:
+* _subdomain: DOM_GridCut, DOM_GridColoring
 
 </small>
 
@@ -844,4 +861,3 @@ daudzstūru projekciju garumu summām jābūt $6$ (pretējā gadīumā, ja kaut 
 daudzstūra projekciju garumu summa pārsniegtu $6$, tad visu projekciju garumu 
 summa pārsniegtu $9 \cdot 6=54$ ). Tātad visi daudzstūri ir kvadrāti ar 
 izmēriem $3 \times 3$ rūtiņas.
-

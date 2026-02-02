@@ -7,6 +7,7 @@ $\frac{2015}{n^{4}-m^{4}}$ arī ir naturāls skaitlis!
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -44,7 +45,6 @@ $21$, tātad $n+m \leq 42$. Šajā gadījumā papildus jāpārbauda vēl arī t�
 vērtības, kurām $n+m=31$.
 
 
-
 # <lo-sample/> LV.VOL.2015.9.2
 
 Pierādīt, ka, izmantojot  
@@ -63,6 +63,7 @@ pārklāties.
 
 * questionType:Prove,Prove
 * domain:Geom
+* _subdomain: DOM_CuttingCoversColoring
 
 </small>
 
@@ -87,7 +88,6 @@ piemēram, A2.att.).
 ![](LV.VOL.2015.9.2B.png)
 
 
-
 # <lo-sample/> LV.VOL.2015.9.3
 
 Aija izvēlas naturālu skaitli $n \leq 100$ un veido skaitļu virkni, kur katru 
@@ -107,6 +107,7 @@ atšķirīgi no $100$).
 
 * questionType:FindCount
 * domain:Alg
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -161,7 +162,6 @@ Ja skaitlis $x$ dalās ar $2$, bet nedalās ar $4$, tad $x$ nav *patīkams*, jo,
 $2x$, gan $2x-100$ dalās ar $4$ un tālāk virknē visi skaitļi dalīsies ar $4$.
 
 
-
 # <lo-sample/> LV.VOL.2015.9.4
 
 Trijstūrī $ABC$ novilkta bisektrise $BL$ ($L$ atrodas uz malas $AC$), tā krusto
@@ -172,6 +172,7 @@ Pierādīt, ka $AB>BC$ !
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -195,7 +196,6 @@ No trijstūra nevienādības $AB+AK>BK=BL+LK=BC+AK$ un no tā seko, ka $AB>BC$.
 ![](LV.VOL.2015.9.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2015.9.5
 
 Kāda ir izteiksmes $a^{20}+a^{4}+\frac{1}{a^{4}+1}$ mazākā iespējamā vērtība, 
@@ -205,6 +205,7 @@ ja $a$ ir reāls skaitlis?
 
 * questionType:FindOptimal
 * domain:Alg
+* _subdomain: DOM_Extremes
 
 </small>
 
@@ -235,7 +236,6 @@ $a^{20}+a^{4}+\frac{1}{a^{4}+1} \geq 0-1+2=1$. Tātad dotās izteiksmes vērtīb
 ir vismaz $1$.
 
 
-
 # <lo-sample/> LV.VOL.2015.10.1
 
 Kvadrātvienādojuma
@@ -249,6 +249,7 @@ $a^{4}b+ab^{4}+3a^{3}b^{2}+3a^{2}b^{3}$ vērtība ir vesels skaitlis!
 
 * questionType:Prove
 * domain:Alg
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -272,7 +273,6 @@ $=\frac{7 \cdot(1+2 \sqrt{5}+5)}{3+\sqrt{5}}=\frac{7 \cdot 2 \cdot(3+\sqrt{5})}{
 Tā kā skaitlis $14$ ir vesels skaitlis, tad prasītais ir pierādīts.
 
 
-
 # <lo-sample/> LV.VOL.2015.10.2
 
 Pierādīt, ka katram naturālam $n$ izteiksme $3n^{5}+5n^{4}-8n$ dalās ar $10$.
@@ -285,6 +285,7 @@ Pierādīt, ka katram naturālam $n$ izteiksme $3n^{5}+5n^{4}-8n$ dalās ar $10$
 * topic:ModularParity
 * topic:ModularArithmetic
 * method:MTH_InductionWithStepOne
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -372,8 +373,6 @@ Jāievieto skaitļi $n=1,2,3,4$ izteiksmē $n^4-1$: vienmēr dalīsies ar $5$.
 Lielākiem skaitļiem ($n=6,7,8,9$) šie atlikumi sāks atkārtoties.
 
 
-
-
 # <lo-sample/> LV.VOL.2015.10.3
 
 Pozitīviem skaitļiem $a,\ b,\ c,\ d,\ e,\ f$ ir spēkā sakarības 
@@ -384,6 +383,7 @@ $(a+d)^{2}+(b+e)^{2} \leq(c+f)^{2}$.
 
 * questionType:Prove
 * domain:Alg
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -416,7 +416,6 @@ $|\vec{x}+\vec{y}|^{2} \leq(|\vec{x}|+|\vec{y}|)^{2}$, kas ir patiesa, jo
 jebkuriem diviem vektoriem $|\vec{x}+\vec{y}| \leq|\vec{x}|+|\vec{y}|$.
 
 
-
 # <lo-sample/> LV.VOL.2015.10.4
 
 Pierādīt, ka regulāram desmitstūrim $A_{1}A_{2} \ldots A_{10}$ ir spēkā 
@@ -427,6 +426,7 @@ rādiuss!
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_Polygons
 
 </small>
 
@@ -467,7 +467,6 @@ jāpierāda.
 ![](LV.VOL.2015.10.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2015.10.5
 
 **(A)** Pierādīt, ka, izmantojot visas piecas dotās figūras (skat. 2.att.), 
@@ -484,6 +483,7 @@ apmest otrādi. Taisnstūrī nedrīkst būt caurumi, un figūras nedrīkst pārk
 
 * questionType:Prove,ProveDisprove
 * domain:Geom
+* _subdomain: DOM_CuttingCoversColoring
 
 </small>
 
@@ -523,7 +523,6 @@ taisnstūri izveidot nav iespējams.
 ![](LV.VOL.2015.10.5C.png)
 
 
-
 # <lo-sample/> LV.VOL.2015.11.1
 
 Kvadrātvienādojuma
@@ -538,6 +537,7 @@ vesels skaitlis!
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -562,7 +562,6 @@ $=7 \cdot \frac{36+24 \sqrt{5}+20+16}{6+2 \sqrt{5}}=7 \cdot 12 \cdot \frac{6+2 \
 Tā kā skaitlis $84$ ir vesels skaitlis, tad prasītais ir pierādīts.
 
 
-
 # <lo-sample/> LV.VOL.2015.11.2
 
 Vai uz rūtiņu lapas var uzzīmēt $1612$ - stūri, kura laukums ir $2015$ rūtiņas 
@@ -572,6 +571,7 @@ un kura malas iet pa rūtiņu līnijām?
 
 * questionType:ProveDisprove
 * domain:Geom
+* _subdomain: DOM_IntegerLattices
 
 </small>
 
@@ -589,7 +589,6 @@ $4 \cdot 403=1612$ - stūris.
 *Piezīme.* Daudzstūri var uzzīmēt arī, piemēram, kā A11.att.
 
 
-
 # <lo-sample/> LV.VOL.2015.11.3
 
 Pirātam Džonam Silveram kajītē ir $38$ papagaiļi un $39$ papagaiļu krātiņi. 
@@ -604,6 +603,7 @@ pietiek, lai panāktu, ka visi papagaiļi atrodas savos sākotnējos krātiņos?
 
 * questionType:FindOptimal
 * domain:Comb
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -643,7 +643,6 @@ gājieni. Redzam: ja papagaiļus samaina vietām pa pāriem, tad tieši tik daud
 gājieni arī ir vajadzīgi.
 
 
-
 # <lo-sample/> LV.VOL.2015.11.4
 
 Naturāli skaitļi $a,\ b$ un $c$ ir savstarpēji pirmskaitļi un visi ir lielāki 
@@ -654,6 +653,7 @@ iespējamo $b$ vērtību!
 
 * questionType:FindOptimal
 * domain:NT
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -669,7 +669,6 @@ gadījumā, ja $a=51$ un $c=52$ (vai otrādi), t. i., $b=50 \cdot 51-1=2549$.
 Skaitļi, $51,\ 2549,\ 52$ apmierina dotos nosacījumus.
 
 
-
 # <lo-sample/> LV.VOL.2015.11.5
 
 Pierādīt, ka regulāram četrpadsmitstūrim $A_{1}A_{2} \ldots A_{14}$ ir spēkā 
@@ -680,6 +679,7 @@ līnijas rādiuss!
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_Polygons
 
 </small>
 
@@ -734,7 +734,6 @@ $A_{1}A_{6}-A_{1}A_{4}+A_{1}A_{2}=R$ jeb $A_{1}A_{2}+A_{1}A_{6}=A_{1}A_{4}+R$,
 kas arī bija jāpierāda.
 
 
-
 # <lo-sample/> LV.VOL.2015.12.1
 
 Zināms, ka $\frac{\cos 3x}{\cos x}=\frac{1}{2015}$. Aprēķināt 
@@ -744,6 +743,7 @@ $\frac{\sin 3x}{\sin x}$ vērtību!
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -772,7 +772,6 @@ $\frac{\sin 3x}{\sin x}=\frac{\sin (2x+x)}{\sin x}=\frac{\sin 2x \cos x+\cos 2x 
 $=2 \cos ^{2} x+\cos 2x=2\left(1-\sin ^{2} x\right)+\left(1-2 \sin ^{2} x\right)=3-4 \sin ^{2} x=3-\frac{2014}{2015}=\frac{4031}{2015}$.
 
 
-
 # <lo-sample/> LV.VOL.2015.12.2
 
 Paralelograma $ABCD$ iekšpusē atzīmēts punkts $P$ tā, ka 
@@ -783,6 +782,7 @@ $\sphericalangle PBC=\sphericalangle PDC$!
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -805,7 +805,6 @@ $\sphericalangle PBC=\sphericalangle PDC$.
 ![](LV.VOL.2015.12.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2015.12.3
 
 Pierādīt, ka jebkuram naturālam nepāra skaitlim $n$ izteiksme 
@@ -815,6 +814,7 @@ $2269^{n}+2151^{n}+1389^{n}-1779^{n}$ dalās ar $2015$.
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_Congruences
 
 </small>
 
@@ -870,7 +870,6 @@ Līdz ar to esam pierādījuši, ka dotā izteiksme vienlaikus dalās ar $5,\ 13
 $31$, tātad tā dalās ar $2015$.
 
 
-
 # <lo-sample/> LV.VOL.2015.12.4
 
 Katrs no skaitļu ass punktiem ar veselu koordinātu ir nokrāsots vai nu baltā, 
@@ -882,6 +881,7 @@ kādām naturālām $d$ vērtībām šāds krāsojums ir iespējams!
 
 * questionType:FindAll
 * domain:Geom
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -900,7 +900,6 @@ pamīšus izvietojot punktus, uzdevuma nosacījumi tiek apmierināti, ja $d$ ir
 nepāra skaitlis, bet, ja $d$ ir pāra skaitlis, tad ne.
 
 
-
 # <lo-sample/> LV.VOL.2015.12.5
 
 Votivapu valodā visi vārdi sastāv tikai no diviem burtiem $a$ un $b$. Jebkuru 
@@ -916,6 +915,7 @@ Vai votivapu valodā ir vārdi **(A)** $abbababab$; **(B)** $baabaabaa$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -951,4 +951,3 @@ iegūts ar uzdevumā dotajām darbībām, arī nedalās ar $3$:
 Aizstājot vārda "$baabaabaa$" burtus ar cipariem, iegūst skaitli $311311311$,
 kas dalās ar $3$, jo tā ciparu summa ir $15$. Tātad, vairākkārt izmantojot 
 dotos likumus, šo vārdu nav iespējams iegūt.
-

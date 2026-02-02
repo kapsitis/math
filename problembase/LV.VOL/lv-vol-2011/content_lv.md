@@ -10,6 +10,7 @@ ir veseli skaitļi?
 
 * questionType:ProveDisprove
 * domain:Alg
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -25,7 +26,6 @@ kādām pieļaujamajām $a$ vērtībām. Tāpēc nav iespējams, ka visiem dotaj
 vienādojumiem saknes ir veseli skaitļi.
 
 
-
 # <lo-sample/> LV.VOL.2011.9.2
 
 Uz taisnleņķa trīsstūra garākās katetes kā diametra konstruēta riņķa līnija, 
@@ -36,6 +36,7 @@ garumu. Aprēķināt hipotenūzas un īsākās katetes garumu attiecību!
 
 * questionType:FindAll
 * domain:Geom
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -64,7 +65,6 @@ meklētā attiecība ir $\frac{c}{a}=k=\frac{1+\sqrt{5}}{2}$.
 ![](LV.VOL.2011.9.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2011.9.3
 
 Parādīt, ka no visiem trīsciparu skaitļiem, kuru pierakstā nav cipara $0$, var 
@@ -84,6 +84,7 @@ izvēlēties $81$ trīsciparu skaitli tā, lai vienlaicīgi izpildītos šādas 
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_DigitManipulation
 
 </small>
 
@@ -103,7 +104,6 @@ grupas par $9$ skaitļiem katrā grupā.
 Viegli pārbaudīt, ka minētie skaitļi apmierina uzdevuma nosacījumus.
 
 
-
 # <lo-sample/> LV.VOL.2011.9.4
 
 Doti četri atsvari, kuru masas ir savā starpā atšķirīgas. Šie atsvari visos 
@@ -121,6 +121,7 @@ smagums.)
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* _subdomain: DOM_CombinatorialAlgorithms
 
 </small>
 
@@ -146,7 +147,6 @@ kurš visas trīs reizes bijis uz smagākā / vieglākā kausa. Taču abus divus
 atsvarus - gan smagāko, gan vieglāko - vienlaicīgi noteikt nevar.
 
 
-
 # <lo-sample/> LV.VOL.2011.9.5
 
 Trīs spēlētāji sēž pie apaļa galda un spēlē kādu spēli, kas sastāv no vairākām 
@@ -160,6 +160,7 @@ summā ir **(A)** $48$, **(B)** $49$ punkti?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* _subdomain: DOM_WordProblems
 
 </small>
 
@@ -180,7 +181,6 @@ piemēram, $A$ ir uzvarējis $7$ kārtās, $B$ ir uzvarējis $21$ kārtā, bet $
 uzvarējis nevienā kārtā.
 
 
-
 # <lo-sample/> LV.VOL.2011.10.1
 
 Atrisināt vienādojumu
@@ -191,6 +191,7 @@ $$|||x-2011|-2011|-2011|=|||x-1201|-1201|-1201|$$
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_Equations
 
 </small>
 
@@ -214,7 +215,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-
 # <lo-sample/> LV.VOL.2011.10.2
 
 Trijstūra $ABC$ ($AB>BC$) bisektrise $BD$ krusto tam apvilkto riņķa līniju 
@@ -226,6 +226,7 @@ ka $AO=OK$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -244,7 +245,6 @@ $AO=OK=ON$, k.b.j.
 ![](LV.VOL.2011.10.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2011.10.3
 
 Vai tabulā ar izmēriem $6 \times 6$ rūtiņas var aizkrāsot **(A)** sešas, 
@@ -258,6 +258,7 @@ līnijām jāiet pa rūtiņu malām.)
 * questionType:ProveDisprove
 * domain:Geom
 * subdomain:DOM_GridColoring
+* _subdomain: DOM_GridColoring
 
 </small>
 
@@ -275,8 +276,7 @@ taisnstūri ar izmēru $1 \times 5$ rūtiņas.
 
 **(B)** Atbilde: var, skat., piem., 5.zīm.
 
-![](LV.VOL.2011.10.3A.png) 
-
+![](LV.VOL.2011.10.3A.png)
 
 
 # <lo-sample/> LV.VOL.2011.10.4
@@ -291,6 +291,7 @@ $f(2011)=100$, bet $f(11)=1000$?
 * topic:PolynomialDifferenceDivisibility
 * topic:AdvancedIdentities
 * concepts:integer-polynomial
+* _subdomain: DOM_IntegerPolynomials
 
 </small>
 
@@ -300,7 +301,6 @@ Ja $f(x)=a_{n}x^{n}+\ldots+a_{1}x+a_{0}$ ir polinoms, tad
 $f(x)-f(y)=a_{n}\left(x^{n}-y^{n}\right)+\ldots+a(x-y) \vdots(x-y)$. Tā kā 
 $f(2011)-f(11)=-900$ nedalās ar $2011-11=2000$, polinoms nevar pieņemt šādas 
 vērtības.
-
 
 
 # <lo-sample/> LV.VOL.2011.10.5
@@ -314,6 +314,7 @@ nesakrīt.
 
 * questionType:FindOptimal
 * domain:Geom
+* _subdomain: DOM_ObjectSystemsGeometry
 
 </small>
 
@@ -381,7 +382,6 @@ taisnstūri (citādi $A$ un $C$ atrastos vienā punktā), un no tiem var izveido
 platleņķa trijstūri, otru platleņķa trijstūri veido punkti $B,\ C,\ D$.
 
 
-
 # <lo-sample/> LV.VOL.2011.11.1
 
 Dots, ka $a^{2}+b^{2}+c^{2}=1$ un $m^{2}+n^{2}+p^{2}=1$. Pierādīt, ka 
@@ -391,6 +391,7 @@ $-1 \leq am+bn+cp \leq 1$. $(a, b, c, m, n, p$ - reāli skaitļi).
 
 * questionType:Prove
 * domain:Alg
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -404,7 +405,6 @@ un $-1 \leq \cos (\vec{x}, \vec{y}) \leq 1$, tad
 $-1 \leq \vec{x} \cdot \vec{y}=am+bn+cp \leq 1$, k.b.j.
 
 
-
 # <lo-sample/> LV.VOL.2011.11.2
 
 Trapeces $ABCD$ sānu malas $AD$ garums ir vienāds ar pamatu $AB$ un $CD$ garumu
@@ -415,6 +415,7 @@ viduspunktā.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_Quadrilaterals
 
 </small>
 
@@ -434,7 +435,6 @@ k.b.j.
 ![](LV.VOL.2011.11.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2011.11.3
 
 Atrast visus pirmskaitļus $p$, kuriem skaitlis $p^{p^{2}-5}+2$ arī ir 
@@ -444,6 +444,7 @@ pirmskaitlis.
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_SpecialNumbers
 
 </small>
 
@@ -461,7 +462,6 @@ $p=3k+1$ un 2) $p=3k+2$.
    $1$, dalot ar $3$. Tātad arī šajā gadījumā $p^{p^{2}-5}+2$ dalās ar $3$.
 
 Tā kā $p^{p^{2}-5}+2>3$ un dalās ar $3$, tas nav pirmskaitlis.
-
 
 
 # <lo-sample/> LV.VOL.2011.11.4
@@ -482,6 +482,7 @@ Kāda ir visu uzrakstīto skaitļu summa?
 
 * questionType:FindAll
 * domain:Comb
+* _subdomain: DOM_CountingObjects
 
 </small>
 
@@ -509,7 +510,6 @@ lokiem uzrakstīto skaitļu summa ir
 $707\left(s_{s}+s_{b}\right)+1304\left(z_{s}+z_{b}\right)=707 \cdot 3+1304 \cdot 2=4729$.
 
 
-
 # <lo-sample/> LV.VOL.2011.11.5
 
 Plaknē doti $n$ punkti. Zināms, ka jebkura trijstūra laukums, kura virsotnes 
@@ -521,6 +521,7 @@ atradīsies šī trijstūra iekšpusē vai uz tā malām.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_ObjectSystemsGeometry
 
 </small>
 
@@ -543,7 +544,6 @@ pieder trijstūrim $MKL$. Tā kā $S_{MKL}=4 \cdot S_{ABC} \leq 4~\mathrm{cm}^{2
 tad prasītais apgalvojums pierādīts.
 
 
-
 # <lo-sample/> LV.VOL.2011.12.1
 
 Kurš no skaitļiem $\sqrt[3]{9}+\sqrt[3]{4}-2$ un 
@@ -553,6 +553,7 @@ $\sqrt[3]{6}+\sqrt[3]{12}-2 \sqrt[3]{2}$ ir lielāks?
 
 * questionType:ProveDisprove
 * domain:Alg
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -569,7 +570,6 @@ no kurienes savukārt seko
 $\sqrt[3]{9}+\sqrt[3]{4}-2>\sqrt[3]{6}+\sqrt[3]{12}-2 \sqrt[3]{2}$.
 
 
-
 # <lo-sample/> LV.VOL.2011.12.2
 
 Trijstūrī $ABC$ nogriežņi $AM$ un $CN$ ir mediānas, kuru viduspunkti ir 
@@ -580,6 +580,7 @@ $Y$. Pierādīt, ka $AX=XY=YC$
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -598,7 +599,6 @@ $2AX=XY+AX$ jeb $AX=XY$, tātad $AX=XY=YC$, k.b.j.
 ![](LV.VOL.2011.12.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2011.12.3
 
 Pierādīt, ka neeksistē tādi naturāli skaitļi $n$ un $m$, kuriem ir patiesa 
@@ -608,6 +608,7 @@ vienādība $(2n)^{2n}-1=m^{3}$.
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -623,7 +624,6 @@ Iegūstam pretrunu: $2=b^{3}-a^{3}=(b-a)\left(b^{2}+ab+a^{2}\right)$, jo
 $b^{2}+ab+a^{2}>2$.
 
 
-
 # <lo-sample/> LV.VOL.2011.12.4
 
 Atrast visas stingri augošas funkcijas $g(x)$, kas definētas reāliem skaitļiem,
@@ -634,6 +634,7 @@ $g(g(x))+g(x)=2x$
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_FunctionalEquationsReal
 
 </small>
 
@@ -649,7 +650,6 @@ Atliek vienīgi gadījums, kad $g(x)=x$. Pārbaude liecina, ka šis atrisinājum
 der.
 
 
-
 # <lo-sample/> LV.VOL.2011.12.5
 
 Virkni $V$, kas sastāv no cipariem $0,\ 1,\ 2,\ \ldots,\ 9$ sauc par 
@@ -663,6 +663,7 @@ virkne satur vismaz $55$ ciparus.
 * domain:NT
 * method:MTH_PigeonholePrincipleBasic
 * method:MTH_InductionWithStepOne
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -690,4 +691,3 @@ varēja iegūt no sākotnējās virknes, tad šīs virknes daļa
 $a_{1}a_{2} \ldots a_{k}$ atradās pēc pirmā $c$, un tāpēc neviens no tās 
 cipariem netika izsvītrots. Tāpēc pēc induktīvā pieņēmuma 
 $S-k-1 \geq \frac{k(k+1)}{2} \Rightarrow S \geq \frac{k(k+1)}{2}+(k+1)=\frac{(k+1)(k+2)}{2}$.
-

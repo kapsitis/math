@@ -10,6 +10,7 @@ skaitlis $20112012$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -23,7 +24,6 @@ skaitļi, no kuriem viens dalās ar $4$. Tātad to reizinājums dalās ar $8$, b
 $20112012$ ar $8$ nedalās.
 
 
-
 # <lo-sample/> LV.VOL.2012.9.2
 
 Pierādīt, ka nav iespējams izveidot trijstūri, kura augstumu garumi ir 
@@ -33,6 +33,7 @@ $4~\mathrm{cm}$, $7~\mathrm{cm}$ un $10~\mathrm{cm}$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -46,7 +47,6 @@ $\frac{2S}{7}+\frac{2S}{10}=\frac{17}{70} 2S=\frac{34}{140} 2S<\frac{35}{140} 2S
 pretruna. Tātad šādu trijstūri izveidot nav iespējams.
 
 
-
 # <lo-sample/> LV.VOL.2012.9.3
 
 Kvadrātvienādojuma $x^{2}+p_{1}x+q_{1}=0$ saknes ir $a$ un $b$, 
@@ -58,6 +58,7 @@ $q_{1} \leq q_{2} \leq q_{3} \leq 0$. Kādas ir iespējamās $q_{2}$ vērtības?
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_ParametrizedEquations
 
 </small>
 
@@ -74,7 +75,6 @@ $a=0,\ c \neq 0$, tad $q_{1}=ab=0$ un no nevienādības $0 \leq q_{2} \leq 0$
 seko, ka $q_{2}=0$.
 
 
-
 # <lo-sample/> LV.VOL.2012.9.4
 
 Trijstūra $ABC$ iekšpusē izvēlēts punkts $E$ tā, ka 
@@ -84,6 +84,7 @@ $AB^{2}-BE^{2}+EC^{2}=AC^{2}$. Pierādīt, ka $AE \perp BC$!
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -111,7 +112,6 @@ $AE$, iegūstam $AE+AF+EF=AE+AG+EG$ jeb $2AF=2AG$. Tātad punkti $F$ un $G$
 sakrīt ar $AD \perp BC$.
 
 
-
 # <lo-sample/> LV.VOL.2012.9.5
 
 Kādu lielāko skaitu 1.zīm. attēloto figūru var izgriezt no 2.zīm. attēlotās 
@@ -124,6 +124,7 @@ figūras? Griezuma līnijām jāiet pa rūtiņu malām.
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
+* _subdomain: DOM_GridCut
 
 </small>
 
@@ -137,7 +138,6 @@ Katra izgriežamā figūriņa aizņem tieši divas baltas un divas melnas rūti�
 kā ir deviņas baltas rūtiņas, tad var izgriezt ne vairāk kā četras figūriņas. 
 To, ka četras figūriņas var izgriezt, skat., piem., 3.zīm. (vienas figūrinas 
 rūtiņas apzīmētas ar vienādiem burtiem).
-
 
 
 # <lo-sample/> LV.VOL.2012.10.1
@@ -156,6 +156,7 @@ ir atrisinājums reālos skaitļos?
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_ParametrizedEquations, DOM_EquationSystems
 
 </small>
 
@@ -172,7 +173,6 @@ Ievietojot dotajā sistēmā $a=3$, un atrisinot to, iegūstam atrisinājumus
 $x=1 \pm \sqrt{\frac{1}{2}}, y=1 \mp \sqrt{\frac{1}{2}}$.
 
 
-
 # <lo-sample/> LV.VOL.2012.10.2
 
 Trijstūra $ABC$ katra mala sadalīta septiņās vienādās daļās (skat. 3.zīm.). 
@@ -184,6 +184,7 @@ Pierādīt, ka $S_{A_{1}B_{1}C_{1}}+S_{A_{2}B_{2}C_{2}}>S_{ABC}$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_InequalitiesGeometry
 
 </small>
 
@@ -210,7 +211,6 @@ $S_{A_{1}B_{1}C_{1}}+S_{A_{2}B_{2}C_{2}}=\frac{50}{49} S_{ABC}>S_{ABC}$.
 ![](LV.VOL.2012.10.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2012.10.3
 
 Naturāla skaitļa $N$ decimālajā pierakstā izmantots tikai cipars $6$. Pierādīt,
@@ -223,6 +223,7 @@ ka skaitļa $N^{2}$ decimālajā pierakstā nav cipara $0$.
 * topic:SeriesMembersSumsClosedFormulas
 * topic:PeriodicDigitGroups
 * concepts:full-square
+* _subdomain: DOM_NumeralSystems
 
 </small>
 
@@ -258,12 +259,6 @@ Tātad $\overline{6\ldots6}^2$ pierakstā ir tikai cipari "4","3", "5" un "6":
 $$(\underbrace{6\ldots6}_n)^2=\overline{\underbrace{4\ldots{}4}\_{n-1}3\underbrace{5\ldots{}5}\_{n-1}6}$$
 
 
-
-
-
-
-
-
 # <lo-sample/> LV.VOL.2012.10.4
 
 Trijās no piecstūra virsotnēm atrodas kauliņi $A$, $B$, $C$. Atļauts pārbīdīt 
@@ -275,6 +270,7 @@ kauliņi $B$ un $C$ būtu samainīušies vietām?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -283,7 +279,6 @@ kauliņi $B$ un $C$ būtu samainīušies vietām?
 Aplūkosim piecstūri $A_{1}A_{2}A_{3}A_{4}A_{5}$. Ievērosim, ka kauliņi var tikt
 pārvietoti tikai pa ciklu $A_{1}A_{3}A_{5}A_{2}A_{4}A_{1}$, nemainot secību. 
 Tātad kauliņi $B$ un $C$ nevar samainīties vietām.
-
 
 
 # <lo-sample/> LV.VOL.2012.10.5
@@ -303,6 +298,7 @@ rūtiņas, skat. 4.zīm.)
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* _subdomain: DOM_CombinatorialGames
 
 </small>
 
@@ -324,7 +320,6 @@ centrā, un pēc tam jāspēlē simetriski otrā spēlētāja gājieniem kā apr
 (A) punktā.
 
 
-
 # <lo-sample/> LV.VOL.2012.11.1
 
 Pierādīt, ka eksistē bezgalīgi daudz naturālu skaitļu $a$, kuriem skaitlis 
@@ -334,6 +329,7 @@ $n^{4}+a$ ir salikts skaitlis visiem naturāliem skaitļiem $n>1$.
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_NumericConstructions
 
 </small>
 
@@ -343,7 +339,6 @@ Izvēlēsimies
 $a=4k^{4}$. Tad $n^{4}+4k^{4}=\left(n^{2}-2nk+2k^{2}\right)\left(n^{2}+2nk+2k^{2}\right)$
 ir salikts skaitlis. Tā kā par $k$ var izvēlēties jebkuru naturālu skaitli, tad
 ir bezgalīgi daudz atbilstošo $a$ vērtību.
-
 
 
 # <lo-sample/> LV.VOL.2012.11.2
@@ -357,6 +352,7 @@ rūtiņas tabulā var būt iekrāsotas?
 
 * questionType:FindAll
 * domain:Comb
+* _subdomain: DOM_MagicConfigurations
 
 </small>
 
@@ -411,7 +407,6 @@ Tātad iekrāsoto rūtiņu skaits ir vismaz $5$ un ne vairāk par $7$. 11., 12. 
 ![](LV.VOL.2012.11.2B.png)
 
 
-
 # <lo-sample/> LV.VOL.2012.11.3
 
 Taisne, kas iet caur trijstūra mediānu krustpunktu, dala trijstūri divās daļās.
@@ -421,6 +416,7 @@ Kāda ir maksimālā šo daļu laukumu attiecība?
 
 * questionType:FindOptimal
 * domain:Geom
+* _subdomain: DOM_MaxMinGeometry
 
 </small>
 
@@ -455,7 +451,6 @@ $\frac{S_{BJKC}}{S_{AJK}}=\frac{S_{BEC}+S_{BJM}-S_{EKM}}{S_{ABE}-S_{BJJ}+S_{EKM}
 Tātad $1 \leq \frac{S_{BJKC}}{S_{AJK}} \leq \frac{5}{4}$.
 
 
-
 # <lo-sample/> LV.VOL.2012.11.4
 
 Dota naturālu skaitļu virkne $\left\{a_{i}\right\}$, kur $a_{1}=5$ un katram 
@@ -466,6 +461,7 @@ spēkā sakarība $a_{n}-\sqrt{a_{n+1}}=2$.
 
 * questionType:Prove
 * domain:Alg
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -491,7 +487,6 @@ $n=1:a_{1}=5,\ a_{2}=5+4=9,\ a_{1}-\sqrt{a_{2}}=5-\sqrt{9}=2$. Tātad sakarība
 ir spēkā visiem $n \geq 1$.
 
 
-
 # <lo-sample/> LV.VOL.2012.11.5
 
 Divi zēni pēc kārtas griež apaļu kūku, katru reizi nogriežot pa vienam gabalam,
@@ -508,6 +503,7 @@ Kurš no zēniem uzvarēs, pareizi spēlējot?
 
 * questionType:ProveDisprove
 * domain:Geom
+* _subdomain: DOM_CombinatorialGames
 
 </small>
 
@@ -525,7 +521,6 @@ pieejamais laukums samazinās vismaz par $\frac{1}{100}$ no pilnā riņķa lauku
 vērtības.
 
 
-
 # <lo-sample/> LV.VOL.2012.12.1
 
 Divām naturālu skaitļu virknēm $\left\{a_{i}\right\}$ un $\left\{b_{i}\right\}$
@@ -539,6 +534,7 @@ Atrast vienu šādu virkņu piemēru.
 
 * questionType:FindExample
 * domain:Alg
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -547,7 +543,6 @@ Atrast vienu šādu virkņu piemēru.
 Der, piemēram, virknes $a_{i}=i+2013$ un $b_{i}=i$.
 
 $a_{b_{i}}=a_{i}=i+2013,\ b_{a_{i}}=b_{i+2013}=i+2013,\ a_{i}-b_{i}=2013>2012$.
-
 
 
 # <lo-sample/> LV.VOL.2012.12.2
@@ -560,6 +555,7 @@ centrs atrodas uz trijstūrim $ABC$ apvilktās riņķa līnijas.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -584,7 +580,6 @@ Tātad ap trijstūri $BDC$ apvilktās riņķa līnijas centrs atradīsies uz ap
 trijstūri $ABC$ apvilktās riņķa līnijas.
 
 
-
 # <lo-sample/> LV.VOL.2012.12.3
 
 Atrisināt naturālos skaitļos vienādojumu
@@ -603,6 +598,7 @@ $\lfloor 0.2 \rfloor =0$ utml.)
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -621,7 +617,6 @@ $\frac{n}{2}<3$ un tāpēc $n \leq 5$. Tāpēc $3 \leq n \leq 5$. Pārbaude rād
 der vērtības $n=4$ un $n=5$.
 
 
-
 # <lo-sample/> LV.VOL.2012.12.4
 
 Kvadrātā ar izmēriem $N \times N$ rūtiņas dažas rūtiņas ir nokrāsotas tā, ka 
@@ -635,6 +630,7 @@ Rūtiņas sauc par kaimiņu rūtiņām, ja tām ir kopīga mala.
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
+* _subdomain: DOM_MagicConfigurations
 
 </small>
 
@@ -664,7 +660,6 @@ iespējams.
 **(B)** ir iespējams. Piemēram, skat., 17.zīm.
 
 
-
 # <lo-sample/> LV.VOL.2012.12.5
 
 Riņķa ar diametru $1$ iekšpusē uzzīmēti vairāki riņķi, kuru diametru summa ir 
@@ -675,6 +670,7 @@ uzzīmētos riņķus.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_CuttingCoversColoring
 
 </small>
 

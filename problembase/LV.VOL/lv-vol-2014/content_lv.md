@@ -6,6 +6,7 @@ Kādu mazāko vērtību var pieņemt izteiksme $x+\frac{2014}{x}$, ja $x>0$?
 
 * questionType:FindOptimal
 * domain:Alg
+* _subdomain: DOM_Extremes
 
 </small>
 
@@ -33,7 +34,6 @@ $$x+\frac{2014}{x} \geq 2 \sqrt{x \cdot \frac{2014}{x}}=2 \sqrt{2014}$$
 $x=\sqrt{2014}$.
 
 
-
 # <lo-sample/> LV.VOL.2014.9.2
 
 Naturālu skaitļu virknes pirmie trīs locekļi ir vienādi ar $1$, bet katrs 
@@ -44,6 +44,7 @@ pirmajiem **(A)** $100$, **(B)** $2014$ locekļiem ir tādi, kas dalās ar $5$?
 
 * questionType:FindCount,FindCount
 * domain:NT
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -65,7 +66,6 @@ tādu skaitļu skaits, kas dalās ar $5$ ir $6 \cdot 3+1=19$.
 tādu skaitļu skaits, kas dalās ar $5$, ir $6 \cdot 64+6=390$.
 
 
-
 # <lo-sample/> LV.VOL.2014.9.3
 
 Taisnleņķa trijstūra $ABC$ taisnais leņķis ir $A$. Punkts $X$ ir no $A$ pret 
@@ -77,6 +77,7 @@ perpendikulārs $AY$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -97,7 +98,6 @@ jāpierāda.
 ![](LV.VOL.2014.9.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2014.9.4
 
 Gatavojoties $13$ diplomātu apspriedei, krēsli tika izvietoti ap apaļu galdu 
@@ -116,6 +116,7 @@ iespējams panākt, ka pret savu plāksnīti atradīsies vairāk par vienu diplo
 * questionType:Prove,Prove
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -145,7 +146,6 @@ plāksnītes.
 ar iepriekšminēto īpašību.
 
 
-
 # <lo-sample/> LV.VOL.2014.9.5
 
 Atrast vienādojuma $\left(x^{2}+5x-7\right)^{2}-2\left(x^{2}+5x-6\right)-4=0$ 
@@ -155,6 +155,7 @@ sakņu kubu summu.
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_Equations
 
 </small>
 
@@ -185,7 +186,6 @@ Tāpēc
 $x_{1}^{3}+x_{2}^{3}+x_{3}^{3}+x_{4}^{3}=-5 \cdot(25+3(8+\sqrt{7}))-5 \cdot(25+3(8-\sqrt{7}))=-490$.
 
 
-
 # <lo-sample/> LV.VOL.2014.10.1
 
 Atrisināt vienādojumu sistēmu
@@ -201,6 +201,7 @@ kur $x$, $y$, $z$ - veseli nenegatīvi skaitļi.
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -227,7 +228,6 @@ Tātad dotajai sistēmai ir pieci atrisinājumi:
 $$(0,0,0),(11,10,1),(7,5,2),(7,2,5),(11,1,10)$$
 
 
-
 # <lo-sample/> LV.VOL.2014.10.2
 
 Atrast visas tādas vesela skaitļa $n$ vērtības, kurām gan 
@@ -240,6 +240,7 @@ $\frac{n^{3}+3}{n+3}$, gan $\frac{n^{4}+4}{n+4}$ ir veseli skaitļi.
 * topic:PolynomialLongDivision
 * topic:DivisorNumberAndSum
 * concepts:integer-polynomial
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -350,11 +351,6 @@ No šejienes $(n+4) \in \{ -5, -2, -1, 2, 4, 5, 13 \}$ jeb
 $n \in \{ -9, -6, -5, -2, 0, 1, 9 \}$.
 
 
-
-
-
-
-
 # <lo-sample/> LV.VOL.2014.10.3
 
 Ir pieejams neierobežots daudzums $7$ un $13$ centu pastmarku, kuras izmanto 
@@ -369,6 +365,7 @@ ir lielākā summa, kuru nav iespējams apmaksāt izmantojot tikai šīs pastmar
 * topic:ArithmeticSeriesAll
 * topic:NumTheoryInequalityLargeIntervals
 * concepts:linear-expression
+* _subdomain: DOM_IntegerConditions
 
 </small>
 
@@ -429,15 +426,7 @@ nepieciešamo $7$ centu pastmarku skaitu.
 vismaz sešas $13$ centu markas. Mazākā šāda summa ir $6\cdot{}13 = 78$.  
 Tātad summu $71$, kas šajā virknē ir
 tieši pirms $78$ (un arī dod atlikumu $1$, dalot ar $7$), nevarēs nomaksāt, jo, lietojot mazāk par sešām
-$13$-centu markām, nevar iegūt atlikumu $1$, dalot ar $7$. 
-
-
-
-
-
-
-
-
+$13$-centu markām, nevar iegūt atlikumu $1$, dalot ar $7$.
 
 
 # <lo-sample/> LV.VOL.2014.10.4
@@ -452,6 +441,7 @@ vidusperpendikulu punktā $F$. Pierādīt, ka $BC=2AF$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -488,7 +478,6 @@ Tātad $AF=HX=\frac{r+R}{2}$ kā paralelograma pretējās malas. Līdz ar to esa
 pierādījuši vajadzīgo.
 
 
-
 # <lo-sample/> LV.VOL.2014.10.5
 
 Gatavojoties vēlēšanām politiskās partijas saviem vēlētājiem kopumā ir devušas 
@@ -502,6 +491,7 @@ nē. Kāds ir lielākais iespējamais partiju skaits, kas gatavojas vēlēšanā
 
 * questionType:FindOptimal
 * domain:Comb
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -532,7 +522,6 @@ uzdevuma nosacījumus.
 Tātad lielākais iespējamais partiju skaits ir $2^{s-1}$.
 
 
-
 # <lo-sample/> LV.VOL.2014.11.1
 
 Vai eksistē tāds naturāls skaitlis $n$, ka, noapaļojot izteiksmju 
@@ -543,6 +532,7 @@ naturālajam skaitlim, iegūtie skaitļi ir vienādi?
 
 * questionType:ProveDisprove
 * domain:Alg
+* _subdomain: DOM_NumericConstructions
 
 </small>
 
@@ -561,7 +551,6 @@ bet $\sqrt{10^{2n}-10^{n}+1}-$ uz $10^{n}$. Tas nozīmē, ka nevienai naturālai
 $n$ vērtībai šie skaitļi nevar būt vienādi.
 
 
-
 # <lo-sample/> LV.VOL.2014.11.2
 
 Noteikt, kāds ir lielākais skaits, cik no pieciem naturāliem skaitļiem 
@@ -571,6 +560,7 @@ $a,\ a+14,\ a+22,\ a+32,\ a+46$ var būt pirmskaitļi.
 
 * questionType:FindOptimal
 * domain:NT
+* _subdomain: DOM_PrimeFactors
 
 </small>
 
@@ -596,7 +586,6 @@ $4$ no šiem skaitļiem var būt pirmskaitļi.
 $a+14=29,\ a+22=37$, $a+32=47$ un $a+46=61$ ir pirmskaitļi.
 
 
-
 # <lo-sample/> LV.VOL.2014.11.3
 
 1. zīmējumā redzamās figūras $12$ virsotnēs nepieciešams ierakstīt pirmos $12$ 
@@ -610,6 +599,7 @@ ierakstīto četru skaitļu summa būtu vienāda ar $M$. Vai to var izdarīt, ja
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* _subdomain: DOM_MagicConfigurations
 
 </small>
 
@@ -640,7 +630,6 @@ pretruna ar to, ka virsotnēs jāieraksta dažādi skaitļi.
 ![](LV.VOL.2014.11.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2014.11.4
 
 Platleņķa trijstūra $ABC$ platais leņķis ir $BAC$. Novilktas trīs riņķa līnijas
@@ -652,6 +641,7 @@ $P,\ Q$ un $R$. Pierādīt, ka $A$ ir trijstūra $PQR$ bisektrišu krustpunkts.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -702,7 +692,6 @@ Tātad divas no trijstūra $PQR$ bisektrisēm krustojas punktā $A$ - tātad $A$
 trijstūra $PQR$ bisektrišu krustpunkts, kas arī bija jāpierāda.
 
 
-
 # <lo-sample/> LV.VOL.2014.11.5
 
 Naturālus skaitļus $a,\ b$ un c saista sakarība $c^{2}=a^{2}+b^{2}$. Pierādīt, 
@@ -713,6 +702,7 @@ skaitļu kvadrātu summu.
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_NumberRepresentation
 
 </small>
 
@@ -740,7 +730,6 @@ Atliek ievērot, ka
   $=\frac{c^{2}+a^{2}-2ab+b^{2}}{2}=\frac{2c^{2}-2ab}{2}=c^{2}-ab$
 
 
-
 # <lo-sample/> LV.VOL.2014.12.1
 
 Izteiksmē $\pm 1 \pm 2 \pm 3 \pm \ldots \pm 100=2014$ katru zīmi "$\pm$" 
@@ -751,6 +740,7 @@ lielākais "+" zīmju skaits var būt šajā izteiksmē?
 
 * questionType:FindOptimal
 * domain:Comb
+* _subdomain: DOM_Extremes
 
 </small>
 
@@ -774,7 +764,6 @@ $38 \cdot 2=76$ un būs vienāda ar $2090-76=2014$.
 Tātad lielākais "+" skaits izteiksmē ir $83$.
 
 
-
 # <lo-sample/> LV.VOL.2014.12.2
 
 Katram naturālam skaitlim $n$ ir definēta funkcija 
@@ -786,6 +775,7 @@ spēkā sakarība $n+f(1)+f(2)+\ldots+f(n-1)=nf(n)$.
 * questionType:Prove
 * domain:Alg
 * method:MTH_InductionWithStepOne
+* _subdomain: DOM_RealSequences
 
 </small>
 
@@ -829,7 +819,6 @@ $n=k$, izriet, ka apgalvojums ir spēkā arī $n=k+1$, secinām, ka apgalvojums 
 spēkā visām naturālām $n(n>1)$ vērtībām.
 
 
-
 # <lo-sample/> LV.VOL.2014.12.3
 
 Riņķa līnijā ar centru punktā $O$ novilkti divi savstarpēji perpendikulāri 
@@ -841,6 +830,7 @@ ir trijstūra $AEO$ augstums. Aprēķināt leņķa $AED$ lielumu grādos.
 
 * questionType:FindAll
 * domain:Geom
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -885,7 +875,6 @@ trijstūra leņķis, iegūstam
 $4 \alpha=\pi-\alpha \Rightarrow 5 \alpha=\pi \Rightarrow \alpha=\frac{\pi}{5}$ jeb $\alpha=\frac{180^{\circ}}{5}=36^{\circ}$
 
 
-
 # <lo-sample/> LV.VOL.2014.12.4
 
 Šaha festivālā piedalījās $2014$ dalībnieki, daži savā starpā arī izspēlēja 
@@ -899,6 +888,7 @@ iespējamais kopējais šaha partiju skaits, kas ir izspēlētas šajā festivā
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * method:MTH_StrongInduction
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -968,7 +958,6 @@ nogrieznis. Tātad starp jebkuriem trīs punktiem ir novilkts vismaz viens
 nogrieznis.
 
 
-
 # <lo-sample/> LV.VOL.2014.12.5
 
 Vai var atrast tādu naturālu $n$ vērtību, kam piemīt īpašība: visu skaitļa $n$ 
@@ -978,6 +967,7 @@ naturālo dalītāju, izņemot $1$ un $n$, kvadrātu summa vienāda ar $n^{2}$.
 
 * questionType:ProveDisprove
 * domain:NT
+* _subdomain: DOM_NumericConstructions
 
 </small>
 
@@ -1027,4 +1017,3 @@ $S(n)=n^{2}$.
 
 *Piezīme.* Ir spēkā sakarība 
 $\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\frac{1}{25}+\frac{1}{36}+\frac{1}{49}+\ldots=\frac{\pi^{2}}{6}-1 \approx 0,63 \ldots$.
-

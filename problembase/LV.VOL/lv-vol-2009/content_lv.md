@@ -9,13 +9,13 @@ $\left|x_{1}^{3}-x_{2}^{3}\right|=1$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
 ## Atrisinājums
 
 Saskaņā ar Vjeta teorēmu $\left|x_{1}^{2}-x_{2}^{2}\right|=1 \Leftrightarrow\left|\left(x_{1}-x_{2}\right)\left(x_{1}+x_{2}\right)\right|=1 \Leftrightarrow\left|x_{1}-x_{2}\right|=1 \Leftrightarrow 2 \sqrt{\frac{1}{4}-a}=1 \Leftrightarrow a=0$, kā arī $\left|x_{1}^{3}-x_{2}^{3}\right|=1 \Leftrightarrow\left|\left(x_{1}-x_{2}\right)\left(x_{1}^{2}+x_{1} x_{2}+x_{2}^{2}\right)\right|=1 \Leftrightarrow \mid \sqrt{1-4 a}\left(\left(x_{1}+x_{2}\right)^{2}-x_{1} x_{2}\right)=1 \Leftrightarrow$ $\Leftrightarrow \sqrt{1-4 a}|1-a|=1 \Leftrightarrow 4 a^{3}-9 a^{2}+6 a=0 \Leftrightarrow a=0$.
-
 
 
 # <lo-sample/> LV.VOL.2009.9.2
@@ -29,6 +29,7 @@ naturālu skaitļu var visi būt vienkārši?
 
 * questionType:FindOptimal
 * domain:NT
+* _subdomain: DOM_SpecialNumbers
 
 </small>
 
@@ -41,7 +42,6 @@ $33=3 \cdot 11,\ 34=2 \cdot 17,\ 35=5 \cdot 7$. No četriem pēc kārtas ņemtie
 naturāliem skaitļiem viens dalās ar $4$; ja tas pats nav $4$, tad tas nav 
 vienkāršs. Tieši pārbaudot četru pēc kārtas ņemtu skaitļu komplektus, kas satur
 "$4$", redzam, ka neviens no tiem neder.
-
 
 
 # <lo-sample/> LV.VOL.2009.9.3
@@ -57,6 +57,7 @@ nokrāsotas dažādās krāsās. Kāda ir mazākā iespējamā $k$ vērtība?
 
 * questionType:
 * domain:
+* _subdomain: DOM_MagicConfigurations
 
 </small>
 
@@ -74,7 +75,6 @@ $D=4$. Bet tad rūtiņai $E$ nav piemērotas krāsas.
 ![](LV.VOL.2009.9.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2009.9.4
 
 Šaurleņķu trijstūrī $ABC$ nogriežņi $AA_{1}$ un $BB_{1}$ ir augstumi, $H$ ir 
@@ -85,6 +85,7 @@ $BH$ viduspunkti. Pierādīt, ka $\Delta MKA_{1}=\Delta B_{1}NM$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -96,7 +97,6 @@ $B_{1}N=\frac{1}{2} AH=MK$ un $A_{1}K=\frac{1}{2} HB=MN$, kā arī
 $A_{1}M=\frac{1}{2} AB=B_{1}M$. Pielietojam pazīmi $mmm$.
 
 ![](LV.VOL.2009.9.4A.png)
-
 
 
 # <lo-sample/> LV.VOL.2009.9.5
@@ -118,6 +118,7 @@ ir čempions,
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -137,7 +138,6 @@ $A$ ir zaudējis (tādiem jābūt, jo citādi $B$ nevar būt čempions). Šo sp�
 ja turnīrā ir $2$ čempioni, tad ir arī trešais.
 
 
-
 # <lo-sample/> LV.VOL.2009.10.1
 
 Trīs vienādas riņķa līnijas krustojas punktā $P$. Apzīmējam riņķa līniju 
@@ -150,6 +150,7 @@ $MNCB$ ir paralelograms.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Quadrilaterals
 
 </small>
 
@@ -159,7 +160,6 @@ Viegli redzēt, ka $ANCP$ un $BMAP$ ir rombi, tāpēc nogriežņi $NC$ un $MB$ i
 vienādi un paralēli. No tā seko vajadzīgais.
 
 ![](LV.VOL.2009.10.1A.png)
-
 
 
 # <lo-sample/> LV.VOL.2009.10.2
@@ -176,6 +176,7 @@ naturāls skaitlis). Kādas ir iespējamās $n$ vērtības?
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -198,7 +199,6 @@ dažādas paritātes, un otrais reizinātājs ir lielāks. Iegūstam iespējas
 $n=1,\ k=49; \quad n=4,\ k=10; \quad n=5,\ k=7$.
 
 
-
 # <lo-sample/> LV.VOL.2009.10.3
 
 Maija uz katras no $16$ kartītēm uzrakstījusi " $+1$ " vai " $-1$ ". Kartītes 
@@ -212,6 +212,7 @@ reizinājumu? Vai $17$ kartǐšu gadījumā Andrim pietiek ar $7$ jautājumiem?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialAlgorithms
 
 </small>
 
@@ -225,7 +226,6 @@ Septiņpadsmit skaitļu gadījumā Andris sasniedz mērķi ar $7$ jautājumiem
 $a_{1}a_{2}a_{3}; a_{1}a_{2}a_{4}; a_{1}a_{2}a_{5}; a_{6}a_{7}a_{8}; a_{9}a_{10}a_{11}; a_{12}a_{13}a_{14}; a_{15}a_{16}a_{17}$.
 
 
-
 # <lo-sample/> LV.VOL.2009.10.4
 
 Kādas vērtības var pieņemt izteiksme 
@@ -236,6 +236,7 @@ $x, y, z$ - no nulles atšķirīgi reāli skaitļi?
 
 * questionType:
 * domain:
+* _subdomain: DOM_Extremes
 
 </small>
 
@@ -249,7 +250,6 @@ $x=1$ un $y=z=\frac{a-3}{a+1}$ iegūstam $S=a$. Tātad $S$ vērtību apgabals ir
 $[1; 3]$.
 
 
-
 # <lo-sample/> LV.VOL.2009.10.5
 
 Dots, ka $ABCD$ - kvadrāts un $\sphericalangle MBN=45^{\circ}$ (skat. 3.zīm.). 
@@ -261,6 +261,7 @@ Pierādīt, ka $BO \perp MN$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -277,7 +278,6 @@ vajadzīgais.
 ![](LV.VOL.2009.10.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2009.11.1
 
 Apskatām skaitļu virkni $F_{1}=1;\ F_{2}=2;\ F_{n+2}=F_{n+1}+F_{n}$ pie 
@@ -288,6 +288,7 @@ aritmētisku progresiju?
 
 * questionType:FindOptimal
 * domain:Alg
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -304,7 +305,6 @@ $f_{m+2}=f_{m+1}+f_{m}>f_{m+1}+d$ ir pārāk liels, lai ietilptu mūsu progresij
 Tātad vairāk par $3$ locekļiem nevar būt.
 
 
-
 # <lo-sample/> LV.VOL.2009.11.2
 
 Atrast skaitļu $3^{3}-3; \quad 5^{5}-5; \quad 7^{7}-7; \ldots; 2009^{2009}-2009$
@@ -314,6 +314,7 @@ lielāko kopīgo dalītāju.
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -326,7 +327,6 @@ $n=2k+1\ n^{n}-n=n\left(n^{2k}-1\right)=n\left(n^{2}-1\right)\left(n^{2k-2}+\ldo
 vesels skaitlis. Skaitļi $n-1$ un $n+1$ ir viens otram sekojoši pāra skaitļi; 
 tāpēc to reizinājums dalās ar $8$. Viens no skaitļiem $n-1;\ n;\ n+1$; dalās ar
 $3$. Tā kā $LKD(3; 8)=1$, tad $(n-1)n(n+1)$ dalās ar $24$.
-
 
 
 # <lo-sample/> LV.VOL.2009.11.3
@@ -344,6 +344,7 @@ reālos skaitļos.
 
 * questionType:
 * domain:
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -360,7 +361,6 @@ $x^{3}-x^{2}-x=0$, no kurienes
 $x_{1}=y_{1}=0; x_{2,3}=y_{2,3}=\frac{1}{2} \pm \frac{\sqrt{5}}{2}$.
 
 
-
 # <lo-sample/> LV.VOL.2009.11.4
 
 Andris uzrakstījis $10$ dažādus veselus pozitīvus skaitļus; neviens no tiem 
@@ -372,6 +372,7 @@ abu pārējo Maijas izvēlēto skaitļu summu.
 
 * questionType:
 * domain:
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -402,7 +403,6 @@ lielākais no Andra izvēlētajiem $10$ skaitļiem.
 Visas iespējas izanalizētas.
 
 
-
 # <lo-sample/> LV.VOL.2009.11.5
 
 Dots, ka četrstūris $ABCD$ ievilkts riņķa līnijā. Pierādīt: trijstūros 
@@ -412,6 +412,7 @@ $ABC,\ BCD,\ CDA,\ DAB$ ievilkto riņķa līniju centri ir taisnstūra virsotnes
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -432,7 +433,6 @@ Līdzīgi pierāda, ka arī citi vajadzīgie leņķi ir taisni.
 ![](LV.VOL.2009.11.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2009.12.1
 
 Turnīrā piedalījās $12$ tenisisti. Katrs ar katru citu spēlēja tieši vienu 
@@ -446,6 +446,7 @@ $$x_{1}^{2}+x_{2}^{2}+\ldots+x_{12}^{2}=y_{1}^{2}+y_{2}^{2}+\ldots+y_{12}^{2}$$
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -459,7 +460,6 @@ $=121 \cdot 12-22 \cdot 12 \cdot 11 \cdot \frac{1}{2}+\left(y_{1}^{2}+\ldots+y_{
 k.b.j.
 
 
-
 # <lo-sample/> LV.VOL.2009.12.2
 
 Katrīna uzrakstīja trīsciparu skaitli $n$, kura visi cipari ir dažādi un visi 
@@ -471,6 +471,7 @@ summa ir $3434$. Kāds var būt skaitlis $n$?
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_NumeralSystems
 
 </small>
 
@@ -487,7 +488,6 @@ Ja $a+b+c=10$, tad $n=222 \cdot 10-3434<0$ - pretruna. Ja $a+b+c=19$, tad
 $n=222 \cdot 19-3434=784$. Tas arī apmierina visas uzdevuma prasības.
 
 
-
 # <lo-sample/> LV.VOL.2009.12.3
 
 Dots, ka $ABCD$ ir kvadrāts un $E$ ir malas $AB$ iekšējs punkts. Nogriežņi $AC$
@@ -498,6 +498,7 @@ malu $BC$ punktā $F$. Pierādīt, ka $EF=AE+FC$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Quadrilaterals
 
 </small>
 
@@ -512,7 +513,6 @@ $\sphericalangle FDG=90^{\circ}-45^{\circ}=45^{\circ}$. Iegūstam, ka
 $\triangle EDF=\triangle GDF$ $(m \ell m)$, tātad $EF=GF=GC+CF=AE+CF$, k.b.j.
 
 ![](LV.VOL.2009.12.3A.png)
-
 
 
 # <lo-sample/> LV.VOL.2009.12.4
@@ -534,6 +534,7 @@ un $B$ un tālāk no $B$ uz $C$.)
 
 * questionType:
 * domain:
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -561,7 +562,6 @@ pārbauda tieši, apskatot visas iespējas. Uzdevums atrisināts.
 ![](LV.VOL.2009.12.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2009.12.5
 
 Atrisināt vienādojumu
@@ -574,6 +574,7 @@ reālos skaitļos, kur $a$ - reāla konstante.
 
 * questionType:
 * domain:
+* _subdomain: DOM_ParametrizedEquations
 
 </small>
 
@@ -590,4 +591,3 @@ $x=-1 \mp \sqrt{1-2a}$, ja $a<-\frac{1}{8}; x=-1 \mp \sqrt{1-2a}$ un
 $x=\frac{1}{2} \mp \sqrt{\frac{1}{4}+2a}$, ja 
 $-\frac{1}{8} \leq a \leq \frac{1}{2}; x=\frac{1}{2} \mp \sqrt{\frac{1}{4}+2a}$,
 ja $a>\frac{1}{2}$.
-

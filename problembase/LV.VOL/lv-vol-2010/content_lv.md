@@ -7,6 +7,7 @@ skaitļi, saknes ir divu dažādu naturālu skaitļu kvadrāti?
 
 * questionType:ProveDisprove
 * domain:Alg
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -23,7 +24,6 @@ $y_{1}^{2}+y_{1}{ }^{2}=a^{2}$. Izvēloties, piem., $y_{1}=3$ un $y_{2}=4$, tāt
 iegūstam vienādojumu $x^{2}-5^{2}x+12^{2}=0$, kura saknes ir $3^{2}$ un $4^{2}$.
 
 
-
 # <lo-sample/> LV.VOL.2010.9.2
 
 Trijstūrī $ABC$ nogriežņi $AM$ un $CN$ ir bisektrises, un punkts $O$ ir $CN$
@@ -34,6 +34,7 @@ un $N$ var novilkt riņķa līniju. Atrast $\sphericalangle BAC$ vērtību.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -54,8 +55,6 @@ $\sphericalangle BAC=\sphericalangle NAC=45^{\circ}$.
 ![](LV.VOL.2010.9.2A.png)
 
 
-
-
 # <lo-sample/> LV.VOL.2010.9.3
 
 Par *skaistu* sauksim tādu naturālu skaitli, kas nedalās ne ar vienu no cipariem savā
@@ -67,6 +66,7 @@ Kāds lielākais daudzums pēc kārtas sekojošu naturālu skaitļu visi var bū
 
 * questionType:FindOptimal
 * domain:NT
+* _subdomain: DOM_NumericConstructions
 
 </small>
 
@@ -84,7 +84,6 @@ Piemēram, skaitļi $866, 867, 868, 869, 870$ visi ir *skaisti*, tātad var būt
 kārtas sekojoši *skaisti* skaitļi.
 
 
-
 # <lo-sample/> LV.VOL.2010.9.4
 
 Rūtiņu lapā novietoti divi taisnstūri (var būt sakrītoši) tā, ka to malas iet pa rūtiņu
@@ -97,6 +96,7 @@ Cik no $8$ šo divu taisnstūru virsotnēm var vienlaicīgi piederēt arī otram
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerLattices
 
 </small>
 
@@ -175,7 +175,6 @@ ir aplams, tāpēc tieši septiņas no astoņām abu taisnstūru virsotnēm neva
 piederēt arī otram taisnstūrim.
 
 
-
 # <lo-sample/> LV.VOL.2010.9.5
 
 Taisnstūris ar izmēriem $5 \times n$ rūtiņas izkrāsots šaha galdiņa kārtībā. Vienā
@@ -191,6 +190,7 @@ rūtiņas ir vienā krāsā, ja
 
 * questionType:
 * domain:
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -217,7 +217,6 @@ $11$, tam pieskaitot vai atņemot pāra skaitļus, nevar iegūt pāra skaitli, u
 prasības izpildīt nav iespējams.
 
 
-
 # <lo-sample/> LV.VOL.2010.10.1
 
 Trijstūra malu garumi ir $a, b$ un $c$. Pierādīt, ka
@@ -228,6 +227,7 @@ $$\frac{a}{b+c-a}+\frac{b}{a+c-b}+\frac{c}{a+b-c} \geq 3$$
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -258,7 +258,6 @@ $$\frac{1}{2}\left(\left(\frac{y}{x}+\frac{x}{y}\right)+\left(\frac{z}{x}+\frac{
 Nevienādība (1) ir patiesa, tātad patiesa ir arī dotā nevienādība.
 
 
-
 # <lo-sample/> LV.VOL.2010.10.2
 
 Dots, ka
@@ -270,6 +269,7 @@ Pierādīt, ka $a_{1}=a_{2}=a_{3}=\ldots=a_{20}$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_SequenceProperties
 
 </small>
 
@@ -285,7 +285,6 @@ pirmskaitlis). Tāpēc kopējais skaitītājs ar $19$ nedalīsies, un daļa būs
 Tāpēc tā nav vesels skaitlis, tāpēc nav arī $0$. Pretruna, tāpēc $x=0$.
 
 
-
 # <lo-sample/> LV.VOL.2010.10.3
 
 Šaurleņķu trijstūrī $ABC$ leņķa $BAC$ bisektrise krusto malu $BC$ punktā $D$. Punkti
@@ -296,6 +295,7 @@ $\sphericalangle MDN \geq \sphericalangle BAC$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -331,7 +331,6 @@ $\sphericalangle NDM > \sphericalangle NEM=\sphericalangle NAM$.
 ![](LV.VOL.2010.10.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2010.10.4
 
 Mūzikas festivālā piedalās $7$ mūziķi. Katru dienu uzstājas tieši $4$ no viņiem. Kāds
@@ -342,6 +341,7 @@ tāda diena, kurā viņi abi ir uzstājušies?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -380,7 +380,6 @@ noteikti neuzstājas viens no mūziķiem $5, 6, 7$, tad šis mūziķis nav uzst�
 $3$ un $4$. Tāpēc ar $4$ dienām nepietiek.
 
 
-
 # <lo-sample/> LV.VOL.2010.10.5
 
 Vai kvadrātu ar izmēriem $9 \times 9$ rūtiņas var sadalīt $13$ taisnstūros ar izmēriem
@@ -391,6 +390,7 @@ $2 \times 3$ rūtiņas un vienā stūrītī ![](LV.VOL.2010.10.5.png)?
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _subdomain: DOM_CuttingCoversColoring
 
 </small>
 
@@ -412,7 +412,6 @@ tātad $13$ šādi taisnstūri kopā pārklāj pa $26$ katras krāsas rūtiņām
 ![](LV.VOL.2010.10.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2010.11.1
 
 Dots, ka $a+b+c+d=8$.
@@ -423,6 +422,7 @@ Pierādīt, ka $ab+ac+ad+bc+bd+cd-a^{2}-b^{2}-c^{2}-d^{2} \leq 8$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -447,7 +447,6 @@ $$\begin{aligned}
 kur otrajā solī izmantota nevienādība starp vidējo aritmētisko un vidējo kvadrātisko.
 
 
-
 # <lo-sample/> LV.VOL.2010.11.2
 
 Atrast visas tādas pozitīvu skaitļu virknes $a_{1}, a_{2}, \ldots$, kurām katram
@@ -460,6 +459,7 @@ $$a_{1}^{3}+a_{2}^{3}+\ldots+a_{k}^{3}=\left(a_{1}+a_{2}+\ldots+a_{k}\right)^{2}
 * questionType:
 * domain:
 * method:MTH_StrongInduction
+* _subdomain: DOM_RealSequences
 
 </small>
 
@@ -486,7 +486,6 @@ Pēc Vjeta teorēmas vai nu $a_{k+1}=-k$, vai $a_{k+1}=k+1$. Tā kā virkne sast
 pozitīviem skaitļiem, der tikai otrā iespēja.
 
 
-
 # <lo-sample/> LV.VOL.2010.11.3
 
 Šaurleņķu trijstūrī $ABC$ nogriežņi $BQ$ un $CP$ ir augstumi. Caur punktiem
@@ -498,6 +497,7 @@ $\omega$ pieskare un $AT=TB$. Pierādīt, ka $AB=AC$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Triangles, DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -541,7 +541,6 @@ vai $\sphericalangle ABC=\sphericalangle ACB$, no kā seko vajadzīgais.
 ![](LV.VOL.2010.11.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2010.11.4
 
 Par Fibonači skaitļu virkni sauc virkni $F_{1}=1; F_{2}=1; F_{i+2}=F_{i}+F_{i+1}$ pie
@@ -552,6 +551,7 @@ virknes loceklis, kas dalās ar $n$.
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -584,7 +584,6 @@ $G_{k}=G_{k+1}=1$, $k > 2$, tad $G_{k-1}=0$. Tātad eksistē tāds Fibonači vir
 loceklis $F_{k-1}$, kas dalās ar $n$.
 
 
-
 # <lo-sample/> LV.VOL.2010.11.5
 
 Starp $10$ pilsētām ir uzbūvēti $24$ ceļi. Katrs ceļš savieno divas pilsētas un starp
@@ -601,6 +600,7 @@ ka no katras pilsētas ir iespējams aizbraukt uz katru citu, braucot tikai pa c
 
 * questionType:
 * domain:
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -641,7 +641,6 @@ Tātad ir ne vairāk kā $5+12+6=23$ ceļi.
 		$A_{6}$.)
 
 
-
 # <lo-sample/> LV.VOL.2010.12.1
 
 Doti $n$ skaitļi $-2 \leq x_{1}, x_{2}, \ldots, x_{n} \leq 2$, kuru summa ir $0$.
@@ -653,6 +652,7 @@ $$\left|x_{1}^{3}+x_{2}^{3}+\ldots+x_{n}^{3}\right| \leq 2 n$$
 
 * questionType:
 * domain:
+* _subdomain: DOM_Inequalities, DOM_ProvingInequalities
 
 </small>
 
@@ -671,7 +671,6 @@ Tā kā otrā iekava ir $0$, tad
 $$\left|x_{1}^{3}+\ldots+x_{n}^{3}\right| \leq\left|2 \cos 3 \alpha_{1}\right|+\ldots+\left|2 \cos 3 \alpha_{n}\right| \leq 2n$$, k.b.j.
 
 
-
 # <lo-sample/> LV.VOL.2010.12.2
 
 Dota skaitļu virkne $a_{1}=1$; $a_{2}=1$; $a_{i}=p \cdot a_{i-1}+q \cdot a_{i-2}$ pie
@@ -685,6 +684,7 @@ Pierādīt, ka $p=q=1$.
 * questionType:Prove
 * domain:NT
 * method:MTH_StrongInduction
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -726,7 +726,6 @@ tātad $p=q=1$.
 pierādījums dots 11.4.uzdevuma risinājumā.
 
 
-
 # <lo-sample/> LV.VOL.2010.12.3
 
 Trijstūrī $ABC$ mediānas $AK, BG$ un $CF$ krustojas punktā $O$. Uz malas $CB$ atzīmēti
@@ -739,6 +738,7 @@ Pierādīt, ka trijstūru $OHD$ un $OEJ$ laukumi ir vienādi.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Area
 
 </small>
 
@@ -795,7 +795,6 @@ $$\begin{aligned}
 $L_{1}+L_{2} \neq 0$, tad jābūt $L_{x}-L_{y}=0$ jeb $L_{x}=L_{y}$, k.b.j.
 
 
-
 # <lo-sample/> LV.VOL.2010.12.4
 
 Naturāli skaitļi no $1$ līdz $k$ kaut kādā secībā ir uzrakstīti pa apli (katrs tieši
@@ -809,6 +808,7 @@ Vai ir iespējams, ka **(A)** $k=7$, **(B)** $k=8$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _subdomain: DOM_Congruences
 
 </small>
 
@@ -835,7 +835,6 @@ dalās ar $8$, bet visu iespējamo atlikumu, dalot ar $8$, summa ir $0+1+2+\ldot
 kas ar $8$ nedalās.
 
 
-
 # <lo-sample/> LV.VOL.2010.12.5
 
 Dotas $100$ kredītkartes, katrā no kurām atrodas dažādas naudas summas. Ir pieejama
@@ -850,6 +849,7 @@ noskaidrot, kurā no visām kredītkartēm ir lielākā naudas summa.
 * questionType:Prove
 * domain:Comb
 * method:MTH_StrongInduction
+* _subdomain: DOM_CombinatorialAlgorithms
 
 </small>
 
@@ -914,4 +914,3 @@ ierīci $k-1$ reizi, var noteikt kartes ar vislielāko un otro lielāko naudas s
 
    c. Ierīce paziņo, ka otrā lielākā naudas summa ir kartē $X$. Tad kartē $A$ ir
     	visvairāk naudas, bet kartē $X$- otra lielākā naudas summa.
-

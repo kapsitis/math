@@ -8,6 +8,7 @@ Pierādīt, ka katrai no šīm kvadrātfunkcijām minimālā vērtība ir nulle!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Extremes
 
 </small>
 
@@ -56,7 +57,6 @@ Tā kā $a\left(x+\frac{1009}{a}\right)^{2} \geq 0$, tad kvadrātfunkcijas
 minimālā vērtība $y_{v_{1}}=b-\frac{1009^{2}}{a^{2}}$.
 
 
-
 # <lo-sample/> LV.VOL.2018.9.2
 
 Izvēlēti trīs dažādi naturāli skaitļi un aprēķināti to reizinājumi pa pāriem, 
@@ -64,10 +64,11 @@ iegūstot trīs reizinājumus. Pierādīt, ka šos reizinājumus, dalot ar $4$,
 vismaz divi dod vienādus atlikumus!
 
 <small>
-   
+
 * questionType:Prove
 * domain:NT
-   
+* _subdomain: DOM_Congruences
+
 </small>
 
 ## Atrisinājums
@@ -96,7 +97,6 @@ reizinājumi dod atlikumu $0$.
 Esam aplūkojuši visus gadījumus un prasītais pierādīts.
 
 
-
 # <lo-sample/> LV.VOL.2018.9.3
 
 Rūtiņu tabulas ar izmēriem $8 \times 14$ katrā rūtiņā sēž tieši viena muša. 
@@ -109,6 +109,7 @@ būs kaimiņi arī jaunajā izvietojumā?
 
 * questionType:
 * domain:
+* _subdomain: DOM_GridReorder
 
 </small>
 
@@ -140,7 +141,6 @@ pārlidošanas tas ir $6 \cdot 16+7 \cdot 15=201$, tātad ir vismaz viens mušu
 pāris, kas bija kaimiņi pirms pārlidošanas, bet nav kaimiņi pēc.
 
 
-
 # <lo-sample/> LV.VOL.2018.9.4
 
 Dots vienādsānu trijstūris $ABC$, kuram $AC=6$ un $AB=BC=5$. Uz malas $AB$ 
@@ -152,6 +152,7 @@ $BMC$ laukumu!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Area
 
 </small>
 
@@ -189,7 +190,6 @@ $MEC$ sakrīt augstums, tad
 $S_{BMC}=S_{MEC}=\frac{1}{2} S_{BEC}=\frac{1}{2} \cdot 8=4$.
 
 
-
 # <lo-sample/> LV.VOL.2018.9.5
 
 Rindā izvietotas $2018$ monētas. Vienā gājienā drīkst paņemt vienu monētu, 
@@ -203,6 +203,7 @@ kaudzītē?
 
 * questionType:
 * domain:
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -215,7 +216,6 @@ tad ar $201 \cdot 5+4=1009$ gājieniem monētas iespējams savākt kaudzītēs p
 divām monētām katrā kaudzītē.
 
 ![](LV.VOL.2018.9.5A.png)
-
 
 
 # <lo-sample/> LV.VOL.2018.10.1
@@ -232,6 +232,7 @@ x+2y<\frac{15}{2}
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerConditions
 
 </small>
 
@@ -259,7 +260,6 @@ $(0; 1)$.
 Līdz ar to dotajai sistēmai ir divi atrisinājumi $(-6; 6)$ un $(-7; 7)$.
 
 
-
 # <lo-sample/> LV.VOL.2018.10.2
 
 Paralelograma $ABCD$ malu $BC$ un $CD$ viduspunkti attiecīgi ir $K$ un $M$. 
@@ -269,6 +269,7 @@ Aprēķināt $AD$ garumu, ja $AK=6,\ AM=3$ un $\sphericalangle KAM=60^{\circ}$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -308,7 +309,6 @@ teorēmas apgriezto teorēmu, tas ir, tā kā $AK^{2}+KM^{2}=AM^{2}$, tad
 trijstūris $KAM$ ir taisnleņķa.
 
 
-
 # <lo-sample/> LV.VOL.2018.10.3
 
 Skaitļus $a,\ b,\ c$ sauksim par *skaistu trijnieku*, ja tiem piemīt 
@@ -325,14 +325,15 @@ lielāks nekā $10$.
 **(B)** Pierādīt, ka eksistē bezgalīgi daudz *skaistu trijnieku*!
 
 <small>
-   
+
 * questionType:FindExample,Prove
 * domain:NT
 * topic:DivisibilityRulesFor2And4
 * topic:DivisibilityRulesFor3And9
 * topic:NotationInsert
 * concepts:sum-of-digits
-   
+* _subdomain: DOM_NumeralSystems
+
 </small>
 
 ## Atrisinājums
@@ -375,7 +376,6 @@ $$1\underbrace{0\ldots0}_n10,\;\;1\underbrace{0\ldots0}_n11,\;\;1\underbrace{0\l
 >>>>>>> 52493569e01e32faa41676aa42a782d2400ab975
 
 
-
 # <lo-sample/> LV.VOL.2018.10.4
 
 Desmit šahisti katrs ar katru izspēlēja vienu šaha partiju, dažas no tām 
@@ -393,6 +393,7 @@ vismaz viens *karaliskais neizšķirts*, **(B)** vismaz divi
 
 * questionType:
 * domain:
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -415,7 +416,6 @@ kas spēlējuši viens ar otru, tas ir, noteikti tika izspēlēts vismaz viens
 ![](LV.VOL.2018.10.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2018.10.5
 
 Izvēlēti $12$ dažādi naturāli skaitļi, neviens no tiem nepārsniedz $35$. 
@@ -428,6 +428,7 @@ mazākais).
 
 * questionType:
 * domain:
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -493,7 +494,6 @@ aplūkojam iespējamos gadījumus.
    starpība $34$ dod pretrunu.
 
 
-
 # <lo-sample/> LV.VOL.2018.11.1
 
 Atrisināt nevienādību $|||x-2|-3|-7|<5$.
@@ -502,6 +502,7 @@ Atrisināt nevienādību $|||x-2|-3|-7|<5$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Inequalities
 
 </small>
 
@@ -538,7 +539,6 @@ zem taisnes $y=5$. Līdz ar to $x \in(-13; -3) \cup(1; 3) \cup(7; 17)$.
 ![](LV.VOL.2018.11.1A.png)
 
 
-
 # <lo-sample/> LV.VOL.2018.11.2
 
 Vienādsānu trijstūrī $ABC$ no pamata $BC$ viduspunkta $H$ novilkts perpendikuls
@@ -551,6 +551,7 @@ ka $AO \perp BE$ !
 
 * questionType:
 * domain:
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -566,7 +567,6 @@ kā $\sphericalangle FAO=\sphericalangle FAH+\sphericalangle HAO=\sphericalangle
 tad $\triangle FOA \sim \triangle HEA$ pēc pazīmes $m \ell m$. Tātad 
 $\sphericalangle FOA=90^{\circ}$. Bet $BE \parallel OF$, jo $FO$ ir 
 $\triangle BHE$ viduslīnija. Tāpēc $BE \perp AO$.
-
 
 
 # <lo-sample/> LV.VOL.2018.11.3
@@ -585,10 +585,11 @@ lielāks nekā $10$.
 **(B)** Pierādīt, ka eksistē bezgalīgi daudz *skaistu piecinieku*!
 
 <small>
-   
+
 * questionType:FindExample,Prove
 * domain:NT
-   
+* _subdomain: DOM_NumericConstructions
+
 </small>
 
 
@@ -631,7 +632,6 @@ ir bezgalīgi daudz.
 >>>>>>> 52493569e01e32faa41676aa42a782d2400ab975
 
 
-
 # <lo-sample/> LV.VOL.2018.11.4
 
 Atrisināt vienādojumu sistēmu reālos skaitļos
@@ -646,6 +646,7 @@ z^{3}+4z=5x
 
 * questionType:
 * domain:
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -666,7 +667,6 @@ $x=y=z=-1,\ x=y=z=0$ un $x=y=z=1$ patiešām der kā šīs vienādojumu sistēma
 atrisinājumi.
 
 
-
 # <lo-sample/> LV.VOL.2018.11.5
 
 Trīs $500$ litru mucās atrodas attiecīgi $100,\ 107$ un $113$ litri ūdens. 
@@ -679,6 +679,7 @@ jau atrodas. Vai, veicot šādus gājienus, iespējams iztukšot **(A)** vienu m
 
 * questionType:
 * domain:
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -713,7 +714,6 @@ kā sākotnējais ūdens daudzums ne visās mucās dalās ar $5$, tad skaidrs, k
 tā nav iespējams iegūt situāciju, kad visās mucās ūdens daudzums dalās ar $5$.
 
 
-
 # <lo-sample/> LV.VOL.2018.12.1
 
 Apzīmēsim $a=2018^{\lg (\lg 2018)},\ b=(\lg 2018)^{\lg 2018}$ un 
@@ -724,6 +724,7 @@ $\frac{a-b}{c}+\frac{b-c}{a}+\frac{c-a}{b}$ vērtību!
 
 * questionType:
 * domain:
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -737,7 +738,6 @@ $y=\lg 2018$). Līdz ar to
 $$\frac{a-b}{c}+\frac{b-c}{a}+\frac{c-a}{b}=0+\frac{a-c}{a}+\frac{c-a}{a}=0$$
 
 
-
 # <lo-sample/> LV.VOL.2018.12.2
 
 Uz trijstūra $ABC$ malas $AB$ atlikti punkti $D$ un $E$ tā, ka $AD=DE=EB$, uz 
@@ -749,6 +749,7 @@ punktos $P$ un $R$. Pierādīt, ka $DP=PR=RF$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_MetricRelations
 
 </small>
 
@@ -773,16 +774,16 @@ Tā kā $DR=2RF$ un $DP=PR$, tad $DP=PR=RF$.
 ![](LV.VOL.2018.12.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2018.12.3
 
 Atrisināt veselos skaitļos vienādojumu $x^{6}+3x^{3}+1=y^{4}$.
 
 <small>
-   
+
 * questionType:FindAll
 * domain:NT
-   
+* _subdomain: DOM_IntegerEquations
+
 </small>
 
 
@@ -806,7 +807,6 @@ iegūstam, ka $y^{4}=-1$, kam atrisinājuma nav. Tātad dotajam vienādojumam ir
 tikai divi atrisinājumi $(0; 1)$ un $(0; -1)$.
 
 
-
 # <lo-sample/> LV.VOL.2018.12.4
 
 Taisnstūris, kura izmēri ir $n \times m$ rūtiņas, griežot par rūtiņu līnijām, 
@@ -818,6 +818,7 @@ dalās ar $6$.
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _subdomain: DOM_GridCut
 
 </small>
 
@@ -850,7 +851,6 @@ taisnstūros $1 \times 6$ rūtiņas.
 ![](LV.VOL.2018.12.4B.png)
 
 
-
 # <lo-sample/> LV.VOL.2018.12.5
 
 Trīs mucās attiecīgi ir $a,\ b$ un $c$ litri ūdens, kur $a,\ b,\ c$ ir naturāli
@@ -863,6 +863,7 @@ Pierādīt, ka, veicot šādus gājienus, vienmēr iespējams iztukšot vienu no
 
 * questionType:
 * domain:
+* _subdomain: DOM_NumericGamesAndAlgorithms
 
 </small>
 
@@ -903,4 +904,3 @@ Ar aprakstītajiem gājieniem tiks panākts, ka mucā $B$ paliek $y$ litri ūden
 bet, tā kā $y < a$, tad tagad mucā $B$ ir mazāk ūdens nekā sākotnēji bija mucā 
 $A$ (tas ir, tagad mucā $B$ ir vismazākais ūdens daudzums). Atkārtojot līdzīgas
 gājienu virknes, panāksim, ka kādā no mucām ūdens vairs nebūs.
-

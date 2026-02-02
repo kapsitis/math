@@ -10,6 +10,7 @@ $y$ simti, $z$ desmiti un $t$ vieni.)
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_NumeralSystems
 
 </small>
 
@@ -25,7 +26,6 @@ $1800+10c+d+180+c+18+1=2013 \Rightarrow 1999+11c+d=2013$ $\Rightarrow 11c+d=14$,
 tātad $c=1$ un $d=3$, jeb $\overline{abcd}=1813$.
 
 
-
 # <lo-sample/> LV.VOL.2013.9.2
 
 Doti trīs regulāri trijstūri $OAB, OCD$ un $OEF$ (virsotnes norādītas
@@ -37,6 +37,7 @@ Pierādīt, ka $\triangle ACE=\triangle BDF$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_Polygons
 
 </small>
 
@@ -53,7 +54,6 @@ secinām, ka arī $DF=CE$ un $FB=EA$, tāpēc $\triangle ACE=\triangle BDF$ pēc
 pazīmes $m m m$.
 
 ![](LV.VOL.2013.9.2A.png)
-
 
 
 # <lo-sample/> LV.VOL.2013.9.3
@@ -73,6 +73,7 @@ piemēram, $[3]=3,[4,6]=4,[0,2]=0$ u.tml.)
 * questionType:FindExample
 * domain:Alg
 * method:MTH_InductionWithCombinedStep
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -104,7 +105,6 @@ Apgalvojums pierādīts.
 Tātad $a_{2013}=3 \cdot 2013-5=6034$.
 
 
-
 # <lo-sample/> LV.VOL.2013.9.4
 
 Divas komandas savā starpā izspēlējušas vairākas (vairāk nekā vienu) spēles.
@@ -117,6 +117,7 @@ kopsummā ieguva $92$ punktus. Cik punktus ieguva otra komanda?
 
 * questionType:FindAll
 * domain:Comb
+* _subdomain: DOM_WordProblems
 
 </small>
 
@@ -164,7 +165,6 @@ Tā kā komanda-uzvarētāja ieguva par $3$ punktiem vairāk nekā komandu-zaud�
 tad otra komanda (uzvarētāja) ieguva $95$ punktus.
 
 
-
 # <lo-sample/> LV.VOL.2013.9.5
 
 Kādu lielāko skaitu 1.zīm. attēloto figūru var izgriezt no rūtiņu kvadrāta
@@ -179,6 +179,7 @@ malām, 1.zīm. figūra var būt pagriezta vai apgriezta spoguļattēlā.
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
+* _subdomain: DOM_GridCut
 
 </small>
 
@@ -197,7 +198,6 @@ tieši vienu iekrāsoto rūtiņu. Tātad, ja varētu izgriezt $10$ figūriņas, 
 pārklātu $10$ iekrāsotās rūtiņas, bet ir tikai $9$- pretruna.
 
 
-
 # <lo-sample/> LV.VOL.2013.10.1
 
 Pierādīt, ka vienādojumam
@@ -210,6 +210,7 @@ naturālos skaitļos.
 * domain:NT
 * topic:CountingUsingSymmetry
 * topic:NumTheoryInequalityLargeIntervals
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -252,9 +253,6 @@ Citas $b$ vērtības var neaplūkot, jo dotajam $a$ ($a=3$ vai $a=4$) izteiksme
 $\frac{1}{a} + \frac{1}{b} + \frac{1}{a^2+b^2}$ arvien samazinās tad, ja $b$ pieaug.
 
 
-
-
-
 # <lo-sample/> LV.VOL.2013.10.2
 
 Četrstūris $ABCD$ ievilkts riņķa līnijā. Tā diagonāles $AC$ un $BD$ ir
@@ -265,6 +263,7 @@ Pierādīt, ka $EF \perp CD$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_CirclesAndRelatedAngles, DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -284,7 +283,6 @@ k.b.j.
 ![](LV.VOL.2013.10.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2013.10.3
 
 Funkcija $f(x)=(x+10)x(x-1)(x-11)$ definēta visām reālām $x$ vērtībām. Atrast
@@ -294,6 +292,7 @@ mazāko iespējamo $f(x)$ vērtību.
 
 * questionType:FindOptimal
 * domain:Alg
+* _subdomain: DOM_Extremes
 
 </small>
 
@@ -307,7 +306,6 @@ $f(x) \geq-3025$. Tā kā kvadrātvienādojuma $x^{2}-x-55=0$ diskriminats
 $D=(-1)^{2}-4 \cdot 1 \cdot(-55)=221 > 0$, tad eksistē tāda reāla $x$ vērtība,
 ka $\left(x^{2}-x-55\right)^{2}=x^{2}-x-55=0$, tātad mazākā iespējamā $f(x)$
 vērtība ir $-3025$.
-
 
 
 # <lo-sample/> LV.VOL.2013.10.4
@@ -325,6 +323,7 @@ kvadrāti.
 * topic:PeriodicRemainders
 * topic:ModularArithmetic
 * concepts:fibonacci-sequence,full-square
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -390,8 +389,6 @@ pietiekami lielie virknes locekļi ir kvadrāti.
    $0$ parādīsies bezgalīgi bieži (vismaz vienreiz katrā periodā).
 
 
-
-
 # <lo-sample/> LV.VOL.2013.10.5
 
 Dota rūtiņu lapa ar izmēriem $n \times m$ ($n, m$- naturāli skaitļi) rūtiņas.
@@ -408,6 +405,7 @@ kad - otrais (spēli vienmēr sāk pirmais spēlētājs)?
 * questionType:FindAll
 * domain:Geom
 * subdomain:DOM_GridOther
+* _subdomain: DOM_CombinatorialGames
 
 </small>
 
@@ -429,7 +427,6 @@ kad - otrais (spēli vienmēr sāk pirmais spēlētājs)?
    Tāpēc šajā gadījumā uzvar $1.$ spēlētājs.
 
 
-
 # <lo-sample/> LV.VOL.2013.11.1
 
 Pierādīt, ka nav tādas naturālas $n$ vērtības, ka $n^{2}+4n+16$ dalās ar $36$.
@@ -438,6 +435,7 @@ Pierādīt, ka nav tādas naturālas $n$ vērtības, ka $n^{2}+4n+16$ dalās ar 
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -453,7 +451,6 @@ ir naturāli skaitļi. Taču tādas $k$ un $m$ vērtības neeksistē, tātad nav
 $n$ vērtību, ka $n^{2}+4n+16$ dalās ar $36$.
 
 
-
 # <lo-sample/> LV.VOL.2013.11.2
 
 Dots vienādsānu trijstūris $ABC$, kuram $AB=AC$ un
@@ -464,6 +461,7 @@ punktā $D$. Pierādīt, ka $AD+BD=BC$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -496,7 +494,6 @@ $\sphericalangle BEC=\sphericalangle BCE=80^{\circ}$, tad trijstūris $BEC$ ir
 vienādsānu un $BE=BC$. Bet $BC=BE=BD+DE=BD+DF=BD+AD$, k.b.j.
 
 
-
 # <lo-sample/> LV.VOL.2013.11.3
 
 Vienādojuma $x^{3}-44x^{2}+623x-2860=0$ saknes ir taisnstūra paralēlskaldņa malu
@@ -508,6 +505,7 @@ Aprēķināt šī paralēlskaldņa pilnas virsmas laukumu un tilpumu.
 
 * questionType:FindAll
 * domain:Geom,Alg
+* _subdomain: DOM_WordProblems
 
 </small>
 
@@ -526,7 +524,6 @@ tilpums ir vienāds ar $abc$, kas ir vienādojuma brīvais loceklis ar pretējo
 zīmi, tātad paralēlskaldṇa tilpums ir $2860~ \mathrm{cm}^{2}$.
 
 
-
 # <lo-sample/> LV.VOL.2013.11.4
 
 Diviem vienādiem kvadrātiem ar malas garumu $40~\mathrm{cm}$ ir kopīgs centrs.
@@ -537,6 +534,7 @@ $1250~\mathrm{cm}^{2}$, **(B)** $1300~\mathrm{cm}^{2}$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
+* _subdomain: DOM_MaxMinGeometry
 
 </small>
 
@@ -576,7 +574,6 @@ $1600-2xy=1600-2(2400-80 \cdot 20 \sqrt{2})=3200 \sqrt{2}-3200=3200(\sqrt{2}-1) 
 ![](LV.VOL.2013.11.4A.png)
 
 
-
 # <lo-sample/> LV.VOL.2013.11.5
 
 Valstī Alfa ir $n$ pilsētas, $n \geq 2$. Dažas no šīm pilsētām ir savienotas ar
@@ -596,6 +593,7 @@ skaitlis.
 * questionType:Prove,Prove
 * domain:Comb
 * method:MTH_StrongInduction
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -657,7 +655,6 @@ jebkurām divām ar ceļu savienotām pilsētām vismaz vienai ir piekārtots p�
 numurs. Taču tad šo pilsētu numuru reizinājums ir pāra skaitlis.
 
 
-
 # <lo-sample/> LV.VOL.2013.12.1
 
 Ap šaurlenķu trijstūri $ABC$ apvilkta riņķa līnija. Loka $AB$ (kuram nepieder
@@ -669,6 +666,7 @@ $AD \perp MN$.
 
 * questionType:Prove
 * domain:Geom
+* _subdomain: DOM_CirclesAndRelatedAngles, DOM_Triangles
 
 </small>
 
@@ -698,7 +696,6 @@ $AD \perp MN$, k.b.j.
 ![](LV.VOL.2013.12.1A.png)
 
 
-
 # <lo-sample/> LV.VOL.2013.12.2
 
 Atrisināt vienādojumu sistēmu
@@ -708,6 +705,7 @@ $\left\{\begin{array}{l}\sin x+\cos y=\frac{3}{2} \mbox{tg}\ z \\ \sin y+\cos x=
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -722,7 +720,6 @@ $\cos (x-y)+\frac{1}{2} \sin 2x+\frac{1}{2} \sin 2y=\frac{9}{4}$.
 Acīmredzami, ka pēdējā vienādojuma kreisā puse nepārsniedz
 $1+\frac{1}{2}+\frac{1}{2}=2$, tāpēc šim vienādojumam un līdz ar to arī
 sākotnējai sistēmai atrisinājuma nav.
-
 
 
 # <lo-sample/> LV.VOL.2013.12.3
@@ -742,6 +739,7 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu nav.
 * questionType:FindAll
 * domain:NT
 * method:MTH_InductionWithStepOne
+* _subdomain: DOM_IntegerFunctionalEquations
 
 </small>
 
@@ -820,7 +818,6 @@ Tātad vienīgās funkcijas, kas apmierina uzdevuma nosacījumus, ir
 $f(n)=2n+(-1)^{n+1}$ un $f(n)=2n+(-1)^{n}$.
 
 
-
 # <lo-sample/> LV.VOL.2013.12.4
 
 Ar $d_{i}, i=1,2, \ldots, k$, apzīmēsim visus naturālā skaitļa $n$ naturālos
@@ -833,6 +830,7 @@ visas iespējamās $n$ vērtības.
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -854,7 +852,6 @@ $d_{1}=1, d_{2}=2, d_{3}=3, d_{4}=4$ un
 $n^{2}=d_{3}^{2} d_{4}^{2}\left(d_{3}^{2}+d_{4}^{2}\right)=3^{2} \cdot 4^{2}\left(3^{2}+4^{2}\right)=3^{2} \cdot 4^{2} \cdot 5^{2}=(3 \cdot 4 \cdot 5)^{2}=60^{2} \Rightarrow n=60$.
 
 
-
 # <lo-sample/> LV.VOL.2013.12.5
 
 Uz tāfeles uzrakstīta burtu virkne, kas satur tikai burtus $a$, $b$ un $c$. Ar šo
@@ -873,6 +870,7 @@ ir uzrakstīta virkne **(A)** $abba$; **(B)** $aabbcabaab$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -909,4 +907,3 @@ aprakstītajiem gājieniem to nevar iegūt no skaitļa $1221$. Tātad arī virkn
 nevar iegūt no virknes $abba$ ar aprakstīto gājienu palīdzību.
 
 **(B)** **Atbilde:** var, piemēram, $aabbcabaab \rightarrow aaaaabbbbc \rightarrow aabbbbc \rightarrow aabba \rightarrow abaab \rightarrow aba$.
-

@@ -7,6 +7,7 @@ vesels skaitlis?
 
 * questionType:
 * domain:
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -23,7 +24,6 @@ ja $(n+2)$ ir skaitļa $14$ dalītājs. Ievērojot, ka $n$ ir naturāls, iegūst
 ka $n+2=7$ vai $n+2=14$, no kā iegūstam, ka $n=5$ vai $n=12$.
 
 
-
 # <lo-sample/> LV.VOL.2020.9.2
 
 Atrast visus naturālos skaitļus $B$ intervālā $1 < B < 99$, kuriem izpildās šāda
@@ -35,6 +35,7 @@ vidējais aritmētiskais.
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerConditions
 
 </small>
 
@@ -80,7 +81,6 @@ Līdz ar to esam ieguvuši, ka jebkurai derīgai $C$ vērtībai ir spēkā sakar
 $B \leq V \leq C$, ja $B$ ir $49$, $50$ vai $51$.
 
 
-
 # <lo-sample/> LV.VOL.2020.9.3
 
 Punkts $R$ atrodas uz stara $OB$ un punkti $P$ un $Q$ atrodas uz stara $OA$ tā,
@@ -91,6 +91,7 @@ staru $OB$ punktā $T$. Pierādīt, ka $QT$ ir $\sphericalangle RQA$ bisektrise!
 
 * questionType:
 * domain:
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -113,7 +114,6 @@ $\sphericalangle RQA$ bisektrise.
 ![](LV.VOL.2020.9.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2020.9.4
 
 Vai eksistē tādi četri dažādi **a)** naturāli skaitļi, **b)** pirmskaitļi
@@ -128,6 +128,7 @@ $a, b, c, d$, ka vienlaicīgi izpildās šādi nosacījumi:
 
 * questionType:
 * domain:
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -156,7 +157,6 @@ pretrunu, tātad neeksistē tādi četri dažādi pirmskaitļi, kuriem izpildās
 uzdevuma nosacījumi.
 
 
-
 # <lo-sample/> LV.VOL.2020.9.5
 
 Vai kubu ar izmēriem $12 \times 12 \times 12$ iespējams salikt no ķieģeļiem,
@@ -166,6 +166,7 @@ kuru izmēri ir $1 \times 1 \times 8$ ?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CuttingCoversColoring
 
 </small>
 
@@ -183,7 +184,6 @@ un baltos kubiņus ar izmēriem $1 \times 1 \times 1$, bet $896 \neq 832$.
 ![](LV.VOL.2020.9.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2020.10.1
 
 Pierādīt, ka skaitlim $2019^{3}+2020^{3}+2021^{3}$ ir vismaz $20$ dažādi
@@ -193,6 +193,7 @@ pozitīvi dalītāji!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -215,7 +216,6 @@ $(2+1)(1+1)(1+1)(1+1)=24$ dažādi dalītāji, pat neņemot vērā reizinātāju
 $2020^{2}+2$. Patiesībā dotajam skaitlim ir $640$ dažādi dalītāji.
 
 
-
 # <lo-sample/> LV.VOL.2020.10.2
 
 Zināms, ka $x^{2}+y^{2}+xy=3$. Kāda var būt $x+y$ vērtība?
@@ -224,6 +224,7 @@ Zināms, ka $x^{2}+y^{2}+xy=3$. Kāda var būt $x+y$ vērtība?
 
 * questionType:
 * domain:
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -280,7 +281,6 @@ Lai pēdējā vienādība būtu patiesa, tad
 $-1 \leq u \leq 1$. Tā kā $x+y=(u+v)+(u-v)=2u$, tad $-2 \leq x+y \leq 2$.
 
 
-
 # <lo-sample/> LV.VOL.2020.10.3
 
 Taisnleņķa trijstūrī $ABC$, kurā $\sphericalangle ABC=90^{\circ}$,
@@ -292,6 +292,7 @@ $\sphericalangle AEC+\sphericalangle FBG=180^{\circ}$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -315,7 +316,6 @@ $\sphericalangle AEC+\sphericalangle FBG=(\sphericalangle AED+\sphericalangle DE
 ![](LV.VOL.2020.10.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2020.10.4
 
 Aplūkojam skaitļu virkni $7 ; 737 ; 73737 ; 7373737 ; \ldots$, kuras pirmais
@@ -326,6 +326,7 @@ Pierādīt, ka neviens šīs virknes loceklis nedalās ar $17$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -371,7 +372,6 @@ Tā kā starp pirmajiem $8$ locekļiem šajā virknē nav nevienas nulles, tad, 
 tā ir periodiska, tad arī tālāk tajā nebūs nevienas nulles.
 
 
-
 # <lo-sample/> LV.VOL.2020.10.5
 
 Dotas četras pēc ārējā izskata vienādas monētas, katras monētas masa ir
@@ -383,6 +383,7 @@ kopējo masu?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialAlgorithms
 
 </small>
 
@@ -406,7 +407,6 @@ $B$.
 ![](LV.VOL.2020.10.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2020.11.1
 
 Dota funkcija $f(x)=mx^{2}+(m-1)x+\frac{2020}{m-2019}$. Ar kādām parametra
@@ -416,6 +416,7 @@ $m$ vērtībām funkcija ir augoša intervālā $(1; 2)$ ?
 
 * questionType:
 * domain:
+* _subdomain: DOM_RealFunctions
 
 </small>
 
@@ -460,7 +461,6 @@ intervālā $(1; 2)$, ja
 $m \in\left[\frac{1}{3} ; 2019\right) \cup(2019 ;+\infty)$.
 
 
-
 # <lo-sample/> LV.VOL.2020.11.2
 
 Aplūkojam virkni
@@ -476,6 +476,7 @@ nepārsniedz $x$. Piemēram, $[3,1]=3,[17]=17$, $[6,99]=6$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -518,7 +519,6 @@ $1 \leq i \leq k$. Tā kā visi pārveidojumi bija ekvivalenti (kvadrātā tika
 kāpinātas pozitīvas izteiksmes), tad sākotnējā izteiksme arī ir spēkā.
 
 
-
 # <lo-sample/> LV.VOL.2020.11.3
 
 Četrstūris $ABCD$ ievilkts riņka līnijā. Pierādīt, ka trijstūros
@@ -528,6 +528,7 @@ $ABC, BCD, CDA, DAB$ ievilkto riņķa līniju centri ir taisnstūra virsotnes!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Locus
 
 </small>
 
@@ -567,7 +568,6 @@ taisnstūris.
 ![](LV.VOL.2020.11.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2020.11.4
 
 Zināms, ka trīsciparu skaitlis $\overline{abc}$ ir pirmskaitlis un ka
@@ -578,6 +578,7 @@ saknes ir **a)** veseli skaitļi, **b)** racionāli skaitļi?
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerPolynomials
 
 </small>
 
@@ -641,7 +642,6 @@ reizinātāji - divciparu. Līdz ar to dotā vienādojuma saknes nav racionāli
 skaitļi.
 
 
-
 # <lo-sample/> LV.VOL.2020.11.5
 
 Atrast lielāko naturālo skaitli $N$, kuram ir spēkā īpašība: lai kuras $N$
@@ -654,6 +654,7 @@ izvēlētajā rindā, vai izvēlētajā kolonnā (vai abās).
 * questionType:FindOptimal
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -683,7 +684,6 @@ iekrāsotās rūtiņas.
 ![](LV.VOL.2020.11.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2020.12.1
 
 G̣eometriskās progresijas pirmais, desmitais un $2020~\mathrm{-ais}$ loceklis ir
@@ -694,6 +694,7 @@ naturāls skaitlis?
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -709,7 +710,6 @@ ja $b_{1}=1 \in \mathbb{N}$ un $q=\sqrt[3]{2}$, tad
   kas nav naturāls skaitlis.
 
 
-
 # <lo-sample/> LV.VOL.2020.12.2
 
 Noteikt izteiksmes $(x+y+z)\left(\frac{1}{x}+\frac{1}{y}+\frac{1}{z}\right)$
@@ -719,6 +719,7 @@ vislielāko un vismazāko vērtību, ja $1 \leq x, y, z \leq 2020$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Extremes
 
 </small>
 
@@ -765,7 +766,6 @@ Līdz ar to dotās izteiksmes vislielākā vērtība ir
 $\frac{4041 \cdot 2022}{2020}$.
 
 
-
 # <lo-sample/> LV.VOL.2020.12.3
 
 Riņka līnijā $\omega$ ievilkta vienādsānu trapece $ABCD$, punkts $H$ ir garākā
@@ -778,6 +778,7 @@ $AB^{2}=2CD^{2}$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Quadrilaterals
 
 </small>
 
@@ -807,7 +808,6 @@ Pitagora teorēmas $AB^{2}=AM^{2}+MB^{2}=CD^{2}+CD^{2}=2CD^{2}$.
 ![](LV.VOL.2020.12.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2020.12.4
 
 Zināms, ka četrciparu skaitlis $\overline{abcd}$ ir pirmskaitlis un ka
@@ -818,6 +818,7 @@ ka visas šīs saknes ir **a)** veseli skaitļi, **b)** racionāli skaitļi?
 
 * questionType:
 * domain:
+* _subdomain: DOM_IntegerPolynomials
 
 </small>
 
@@ -888,7 +889,6 @@ pārējie reizinātāji - divciparu. Līdz ar to dotā vienādojuma saknes nav
 racionāli skaitļi.
 
 
-
 # <lo-sample/> LV.VOL.2020.12.5
 
 Kādā valstī ir $2020$ pilsētas, katra ar katru ir savienota ar ceļu, ceļi ārpus
@@ -902,6 +902,7 @@ pilsētām, katrā iegriežoties tieši vienu reizi!
 
 * questionType:
 * domain:
+* _subdomain: DOM_Graphs
 
 </small>
 

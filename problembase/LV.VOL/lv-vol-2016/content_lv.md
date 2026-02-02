@@ -7,6 +7,7 @@ kubs. Pierādīt, ka arī $x^{2}y$ ir naturāla skaitļa kubs!
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_PrimeFactors
 
 </small>
 
@@ -25,7 +26,6 @@ skaitlim - pretruna. Tāpēc $z^{2}$ dalās ar $y$ un tātad $x^{2} y$ ir natur�
 skaitļa kubs.
 
 
-
 # <lo-sample/> LV.VOL.2016.9.2
 
 Trijstūrī $ABC$ novilkta mediāna $AF$, punkts $D$ ir tās viduspunkts. Taisne 
@@ -35,6 +35,7 @@ $CD$ krusto malu $AB$ punktā $E$. Pierādīt: ja $BD=BF$, tad $AE=DE$ !
 
 * questionType:
 * domain:
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -53,7 +54,6 @@ trijstūris. Līdz ar to $AE=DE$ kā sānu malas vienādsānu trijstūrī.
 ![](LV.VOL.2016.9.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2016.9.3
 
 Vai tabulā, kuras izmēri ir $4 \times 4$ rūtiņas, var ierakstīt naturālus 
@@ -67,6 +67,7 @@ kurām ir kopīga mala, ierakstīto skaitļu starpība būtu vismaz **(A)** $6$;
 
 * questionType:
 * domain:
+* _subdomain: DOM_MagicConfigurations
 
 </small>
 
@@ -108,7 +109,6 @@ skaitlis $9$, bet $t$ vietā - skaitlis $8$.
 ![](LV.VOL.2016.9.3C.png)
 
 
-
 # <lo-sample/> LV.VOL.2016.9.4
 
 Atrast skaitļa $\frac{2016^{2016}-3}{3}$ mazāko pirmreizinātāju!
@@ -117,6 +117,7 @@ Atrast skaitļa $\frac{2016^{2016}-3}{3}$ mazāko pirmreizinātāju!
 
 * questionType:FindOptimal
 * domain:NT
+* _subdomain: DOM_PrimeFactors
 
 </small>
 
@@ -153,7 +154,6 @@ $\frac{N}{3}$ dalās ar $11$. Tātad dotā skaitļa mazākais pirmreizinātājs 
 $11$.
 
 
-
 # <lo-sample/> LV.VOL.2016.9.5
 
 Naturālu skaitļu virkni $\left(s_{i}\right)$ pēc parauga " $2016$ " veido šādi: 
@@ -172,6 +172,7 @@ Kādi ir četri nākamie skaitļi, kas virknē seko aiz skaitļa $2016$?
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -208,7 +209,6 @@ nākamie skaitļi virknē pēc *gājieniem* " $6 \rightarrow 2$ ",
 skaitļi $2017,\ 2018,\ 2019$ un $2026$.
 
 
-
 # <lo-sample/> LV.VOL.2016.10.1
 
 Zināms, ka $x$ un $y$ ir tādi naturāli skaitļi, ka $xy^{10}$ ir naturāla 
@@ -219,6 +219,7 @@ pakāpe!
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_PrimeFactors
 
 </small>
 
@@ -237,7 +238,6 @@ tam jābūt naturālam skaitlim - pretruna. Tāpēc $z^{10}$ dalās ar $y^{3}$ u
 tātad arī $x^{10}y$ ir naturāla skaitļa $33.$ pakāpe.
 
 
-
 # <lo-sample/> LV.VOL.2016.10.2
 
 Trijstūra $ABC$ leņķu $\sphericalangle CAB$ un $\sphericalangle BCA$ 
@@ -248,6 +248,7 @@ pašas krustojas punktā $I$. Pierādīt, ka $PQ \perp BI$!
 
 * questionType:
 * domain:
+* _subdomain: DOM_AnglesParallelsSimilarity, DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -275,7 +276,6 @@ augstums pret $BI$ un līdz ar to $PQ \perp BI$.
 ![](LV.VOL.2016.10.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2016.10.3
 
 Doti tādi reāli skaitļi $x,\ y$ un $z$, ka $x+y+z=3$. Pierādīt, ka 
@@ -285,6 +285,7 @@ $xy+xz+yz \leq 3$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -310,7 +311,6 @@ Tā kā $(x-y)^{2}+(x-z)^{2}+(y-z)^{2} \geq 0$, tad $6xy+6xz+6yz \leq 18$ jeb
 $xy+xz+yz \leq 3$.
 
 
-
 # <lo-sample/> LV.VOL.2016.10.4
 
 Pitagora trijstūrī visu malu garumi ir lielāki nekā $5$. Vai var gadīties, ka 
@@ -323,6 +323,7 @@ ir naturāli skaitļi.
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _subdomain: DOM_NumericConstructions
 
 </small>
 
@@ -394,12 +395,7 @@ Varam atrast dažādus blakusesošu skaitļu pārus $(b,c)$, kuru summa ir nepā
 
 Un trijnieks $(11,60,61)$ ir tāds, kurā atradās divi pirmskaitļi.
 Der arī daži citi atrisinājumi, piemēram, $(19, 180, 181)$, 
-Sk. [Eiklīda formula Pitagora trijniekiem](https://en.wikipedia.org/wiki/Pythagorean_triple#Generating_a_triple). 
-
-
-
-
-
+Sk. [Eiklīda formula Pitagora trijniekiem](https://en.wikipedia.org/wiki/Pythagorean_triple#Generating_a_triple).
 
 
 # <lo-sample/> LV.VOL.2016.10.5
@@ -414,6 +410,7 @@ baltajās virsotnēs?
 * questionType:FindOptimal,FindOptimal
 * domain:Geom
 * method:MTH_PigeonholePrincipleBasic
+* _subdomain: DOM_CuttingCoversColoring
 
 </small>
 
@@ -450,7 +447,6 @@ ir ievilktie leņķi, kas balstās uz šiem lokiem.
 ![](LV.VOL.2016.10.5A.png)
 
 
-
 # <lo-sample/> LV.VOL.2016.11.1
 
 Zināms, ka $x$ un $y$ ir tādi naturāli skaitļi, ka $xy^{433}$ ir naturāla 
@@ -464,6 +460,7 @@ pakāpe!
 * topic:FactorizationAndProperties
 * topic:LinearSystemsTransforms
 * concepts:full-power
+* _subdomain: DOM_PrimeFactors
 
 </small>
 
@@ -506,9 +503,6 @@ $$(433a+433^2b) - (433a+b)=(433^2-1)b = 187488b.$$
 Viegli redzēt, ka $187488=2016\cdot{}93$ dalās ar $2016$.
 
 
-
-
-
 # <lo-sample/> LV.VOL.2016.11.2
 
 Šaurleņķu trijstūrim $ABC(AB>AC)$ apvilktās riņķa līnijas centrs ir $O$ un 
@@ -521,6 +515,7 @@ līdzīgi!
 
 * questionType:
 * domain:
+* _subdomain: DOM_AnglesParallelsSimilarity
 
 </small>
 
@@ -551,7 +546,6 @@ Līdz ar to $\triangle ABD \sim \triangle FDM$ pēc pazīmes $\ell \ell$.
 ![](LV.VOL.2016.11.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2016.11.3
 
 Pierādīt, ka katram naturālam skaitlim $n(n>1)$ var atrast tādus naturālus 
@@ -565,6 +559,7 @@ $$\frac{1}{n}=\frac{1}{x(x+1)}+\frac{1}{(x+1)(x+2)}+\cdots+\frac{1}{y(y+1)}$$
 * domain:Alg
 * topic:StandardIdentities
 * topic:TelescopicSums
+* _subdomain: DOM_NumberRepresentation
 
 </small>
 
@@ -621,10 +616,6 @@ Izmantojam vienādības no iepriekšējā slaida. Piemēram, ja $n=5$:
 $$\frac{1}{5} = \frac{1}{4} - \frac{1}{20}.$$
 
 
-
-
-
-
 # <lo-sample/> LV.VOL.2016.11.4
 
 Naturālu skaitļu virkni $\left(s_{i}\right)$ pēc parauga, " $2016$ " veido 
@@ -641,6 +632,7 @@ Vai šajā virknē ir skaitlis **(A)** $2001$, **(B)** $2006$?
 
 * questionType:ProveDisprove
 * domain:NT
+* _subdomain: DOM_IntegerSequences
 
 </small>
 
@@ -673,13 +665,6 @@ Līdz ar to esam pierādījuši, ka skaitlis $2001$ pieder virknei, bet skaitlis
 $2006$ - nepieder.
 
 
-
-
-
-
-
-
-
 # <lo-sample/> LV.VOL.2016.11.5
 
 Pierādīt, ka jebkuru trijstūri **(A)** ar trim, **(B)** ar diviem nogriežņiem 
@@ -689,6 +674,7 @@ var sadalīt trīs daļās tā, ka katrai no daļām ir simetrijas ass!
 
 * questionType:
 * domain:
+* _subdomain: DOM_CuttingCoversColoring
 
 </small>
 
@@ -722,7 +708,6 @@ $DA^{\prime}$ un $EA^{\prime}$.
    $XA^{\prime}$).
 
 
-
 # <lo-sample/> LV.VOL.2016.12.1
 
 Zināms, ka $x,\ y$ un $z$ ir tādi naturāli skaitļi, ka $x^{3}y^{5}z^{6}$ ir 
@@ -733,6 +718,7 @@ skaitļa septītā pakāpe!
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_PrimeFactors
 
 </small>
 
@@ -751,7 +737,6 @@ taču tam jābūt naturālam skaitlim - pretruna. Tāpēc $a^{4}$ dalās ar
 $xy^{2}z^{3}$ un tātad arī $x^{5}y^{6}z^{3}$ ir naturāla skaitļa $7.$ pakāpe.
 
 
-
 # <lo-sample/> LV.VOL.2016.12.2
 
 Trijstūrī $ABC$ ievilktās riņķa līnijas $\omega$ centrs ir $I$. Uz malām $AB$ 
@@ -764,6 +749,7 @@ ka $PU=UV+VQ$ !
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -796,7 +782,6 @@ No tā, ka $PU=PE+UE$ un $UV=UT+VT$, izriet $PU=UV+VQ$.
 ![](LV.VOL.2016.12.2A.png)
 
 
-
 # <lo-sample/> LV.VOL.2016.12.3
 
 Pierādīt, ka vismaz viens no $18$ pēc kārtas sekojošiem trīsciparu skaitļiem 
@@ -806,6 +791,7 @@ dalās ar savu ciparu summu!
 
 * questionType:Prove
 * domain:NT
+* _subdomain: DOM_NumeralSystems
 
 </small>
 
@@ -820,7 +806,6 @@ summa ir $27$, ir $999$, bet tas nedalās ar $18$. Tātad tā ciparu summa ir $9
 vai $18$ un tā kā skaitlis dalās ar $18$, tad tas dalās ar savu ciparu summu.
 
 
-
 # <lo-sample/> LV.VOL.2016.12.4
 
 Divas funkcijas tiek definētas šādi: $f(a)=a^{2}+3a+2$ un 
@@ -831,6 +816,7 @@ iespējams atrast tādas naturālas $b$ un $c$ vērtības, ka $f(a)=g(b; c)$.
 
 * questionType:Prove
 * domain:Alg
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -858,7 +844,6 @@ Pāra $a$ vērtībām izpildās $b=c+2$, tāpēc var apskatīt funkciju
 $$g(c+2; c)=(c+2)^{2}-(c+2)+3c^{2}+3c=4c^{2}+6c+2=(2c+1)(2c+2)$$
 
 
-
 # <lo-sample/> LV.VOL.2016.12.5
 
 Aplūko visus tos funkciju $y=x^{2}+px+q$ grafikus, kuriem ir trīs dažādi 
@@ -869,6 +854,7 @@ novelk riņķa līniju. Pierādīt, ka visām šīm riņķa līnijām ir kopīgs
 
 * questionType:
 * domain:
+* _subdomain: DOM_Locus, DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -946,4 +932,3 @@ Aplūkojam, kāds ir attālums no punkta $(0; 1)$ līdz riņķa līnijas centram
 $$d^{2}=\left(0+\frac{p}{2}\right)^{2}+\left(1-\frac{q+1}{2}\right)^{2}=\frac{p^{2}}{4}+\frac{(1-q)^{2}}{4}=r^{2}$$
 
 Tātad caur punktu $(0; 1)$ iet visas minētā veida riņķa līnijas.
-

@@ -7,6 +7,7 @@ $640000$ dalītāji.
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -22,7 +23,6 @@ $1025-5=520=13 \cdot 5 \cdot 8$ un $1025-125=900$ nav.
 $(1;\ 1024),\ (25;\ 1000),\ (400;\ 625),\ (625;\ 400),\ (1000;\ 25),\ (1024;\ 1)$.
 
 
-
 # <lo-sample/> LV.VOL.2006.9.2
 
 Apzīmējam $f(x)=x^{2}+px+q$. Zināms, ka vienādojumam $f(x)=0$ ir divas saknes, 
@@ -33,6 +33,7 @@ $f(q) \leq 0$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Inequalities
 
 </small>
 
@@ -57,7 +58,6 @@ Saskaņā ar uzdevumā doto tieši viena no kvadrātiekavām ir negatīva, tāp�
 reizinājums ir $\leq 0$.
 
 
-
 # <lo-sample/> LV.VOL.2006.9.3
 
 Trijstūra $ABC$ ievilktās riņķa līnijas centrs ir $I$. Uz taisnes $AB$ atrasti 
@@ -72,6 +72,7 @@ Pierādīt, ka $A_{1}A_{2}+B_{1}B_{2}+C_{1}C_{2}=AB+BC+CA$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Triangles
 
 </small>
 
@@ -86,7 +87,6 @@ vajadzīgo.
 ![](LV.VOL.2006.9.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2006.9.4
 
 Eksāmenam tika sagatavoti $8$ uzdevumi. Katram skolēnam iedeva $3$ no tiem. Nav
@@ -97,6 +97,7 @@ lielākais iespējamais skolēnu skaits?
 
 * questionType:
 * domain:
+* _subdomain: DOM_CombinatorialStructures
 
 </small>
 
@@ -113,7 +114,6 @@ augstākais $8 \cdot 3=24$ uzdevumu teksti. Tā kā katrs skolēns saņēma trī
 tekstus, tad skolēnu nav vairāk par $24:3=8$.
 
 
-
 # <lo-sample/> LV.VOL.2006.9.5
 
 Deviņos traukos pavisam kopā ir $36$ litri ūdens. Ūdeni, kas ir $1.$ traukā, 
@@ -127,6 +127,7 @@ traukā?
 
 * questionType:
 * domain:
+* _subdomain: DOM_EquationSystems
 
 </small>
 
@@ -151,7 +152,6 @@ $8x;\ 7x;\ 6x;\ 5x;\ 4x;\ 3x;\ 2x;\ x;\ 0$. Tā kā $8x+7x+\ldots+x+0=36$,
 iegūstam $x=1$, no kā seko uzdevuma atbilde.
 
 
-
 # <lo-sample/> LV.VOL.2006.10.1
 
 Kādā valstī ir $100$ pilsētas. Starp dažām no tām noorganizēti avioreisi. Starp
@@ -166,6 +166,7 @@ ka ir tāda pilsēta, kurā ir vismaz $9$ biroji.
 
 * questionType:
 * domain:
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -178,7 +179,6 @@ vismaz $9 \cdot 90=810$. Tā kā $810>8 \cdot 100$, tad starp $100$ pilsētām i
 jābūt tādai, kurā ir vairāk nekā $8$, tātad vismaz $9$ biroji.
 
 
-
 # <lo-sample/> LV.VOL.2006.10.2
 
 Kādiem pirmskaitļiem $p$ un $q$, kas nepārsniedz $100$, visi skaitļi 
@@ -188,6 +188,7 @@ $p+6,\ p+10,\ q+4,\ q+10$ un $p+q+1$ arī ir pirmskaitļi?
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_NumericConstructions
 
 </small>
 
@@ -202,7 +203,6 @@ arī ir pirmskaitļi. Tieša pārbaude parāda, ka der tikai
 $p=7,\ p=13,\ p=37,\ p=97$.
 
 
-
 # <lo-sample/> LV.VOL.2006.10.3
 
 Divas riņķa līnijas iekšēji pieskaras punktā $M$. Taisne $t$ krusto tās punktos
@@ -215,6 +215,7 @@ $\sphericalangle AMB=\sphericalangle CMD$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -246,7 +247,6 @@ $B_{1}C_{1} \parallel BC$. Tāpēc loki $AB_{1}$ un $C_{1}D$ ir vienādi, no kā
 seko uz tiem balstošos ievilkto leņķu vienādība.
 
 
-
 # <lo-sample/> LV.VOL.2006.10.4
 
 Pierādīt, ka 
@@ -256,6 +256,7 @@ $\frac{1}{\sqrt{1}+\sqrt{2}}+\frac{1}{\sqrt{3}+\sqrt{4}}+\frac{1}{\sqrt{5}+\sqrt
 
 * questionType:
 * domain:
+* _subdomain: DOM_ProvingInequalities
 
 </small>
 
@@ -273,7 +274,6 @@ mazāks par iepriekšējo, tad uzdevuma formulējumā minēto saskaitāmo summa 
 lielāka par $\frac{1}{2} S$, tātad lielāka par $21,85$.
 
 
-
 # <lo-sample/> LV.VOL.2006.10.5
 
 Kādam mazākajam naturālajam skaitlim $n$ piemīt šāda īpašība: vienalga kādā 
@@ -286,6 +286,7 @@ var būt arī savā starpā vienādas)?
 
 * questionType:FindOptimal
 * domain:Comb
+* _subdomain: DOM_NumericSets
 
 </small>
 
@@ -314,7 +315,6 @@ $x \sim s$. Pieņemsim pretējo tam, kas jāpierāda. Šķirojam divus gadīumus
   tā kā $2+3+3=8$, tad $8 \sim s$. Bet $1+1+6=8$ - pretruna.
 
 
-
 # <lo-sample/> LV.VOL.2006.11.1
 
 Skolā ir $n$ skolnieki un $m$ skolotāji. Ir zināms, ka katrs skolotājs māca 
@@ -327,6 +327,7 @@ $$\frac{m}{b}=\frac{n(n-1)}{a(a-1)}$$
 
 * questionType:
 * domain:
+* _subdomain: DOM_CountingObjects
 
 </small>
 
@@ -343,7 +344,6 @@ $\frac{1}{2} \cdot m \cdot a \cdot(a-1)=\frac{1}{2} \cdot b \cdot n \cdot(n-1)$
 seko vajadzīgais.
 
 
-
 # <lo-sample/> LV.VOL.2006.11.2
 
 Reālu skaitļu virknē $(a_{n})$, $n=1;\ 2;\ 3;\ \ldots$, pirmo locekli $a_{1}$ 
@@ -355,6 +355,7 @@ pieņemt $a_{2006}$?
 
 * questionType:FindAll
 * domain:Alg
+* _subdomain: DOM_RealSequences
 
 </small>
 
@@ -368,7 +369,6 @@ $a_{1}=\sqrt[22^{2005}]{\alpha+1}-1$, iegūsim $a_{2006}=\alpha$. Tāpēc
 $a_{2006}$ iespējamo vērtību kopa ir $[-1; \infty)$.
 
 
-
 # <lo-sample/> LV.VOL.2006.11.3
 
 Atrisināt naturālos skaitļos vienādojumu $(x+y)(xy+1)=2^{z}$.
@@ -377,6 +377,7 @@ Atrisināt naturālos skaitļos vienādojumu $(x+y)(xy+1)=2^{z}$.
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_IntegerEquations
 
 </small>
 
@@ -406,6 +407,7 @@ vērtības tiešām der; $z=2a$ vai $z=3a+1$.
 
 ]
 
+
 # <lo-sample/> LV.VOL.2006.11.4
 
 Dots, ka $\triangle ABC$ ir šaurleņķu trijstūris. Riņķa līnija $a$ iet caur $A$
@@ -418,6 +420,7 @@ diametrs.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles
 
 </small>
 
@@ -447,7 +450,6 @@ $=360^{\circ}-(\sphericalangle A+\sphericalangle B+\sphericalangle C)=180^{\circ
 tāpēc $\sphericalangle ANB=90^{\circ}$ un $AB$ ir $\omega$ diametrs.
 
 
-
 # <lo-sample/> LV.VOL.2006.11.5
 
 Regulāra $n$ - stūra $A$ virsotnēs ierakstīti skaitļi: $n-1$ virsotnē nulles, 
@@ -461,6 +463,7 @@ būtu ierakstīti vienādi skaitļi?
 
 * questionType:
 * domain:
+* _subdomain: DOM_MakingMoves
 
 </small>
 
@@ -477,7 +480,6 @@ $\vec{S}$ **nekad** nav $\overrightarrow{0}$. Bet, ja visās $n$-stūra $A$
 virsotnēs atrastos vienādi skaitļi, tad būtu $\vec{S}=\overrightarrow{0}$.
 
 
-
 # <lo-sample/> LV.VOL.2006.12.1
 
 Pierādīt, ka 
@@ -487,6 +489,7 @@ $\left(1+\mbox{tg}\ 1^{\circ}\right)\left(1+\mbox{tg}\ 2^{\circ}\right)\left(1+\
 
 * questionType:Prove
 * domain:Alg
+* _subdomain: DOM_AlgebraicOperations
 
 </small>
 
@@ -500,9 +503,7 @@ $\left(1+\mbox{tg}\ 44^{\circ}\right),\left(1+\mbox{tg}\ 2^{\circ}\right)$ un
 $\left(1+\mbox{tg}\ 43^{\circ}\right)$ utt., iegūstam vajadzīgo.
 
 
-
 # <lo-sample/> LV.VOL.2006.12.2
-
 
 Funkcija $f(x)$ definēta pie $0 \leq x \leq 1$. Zināms, ka $f(0)=f(1)=0$ un 
 visiem $x$ un $y$ no intervāla $[0;\ 1]$ pastāv nevienādība
@@ -518,6 +519,7 @@ kuras vērtībām ir tādas, kas atšķiras no $0$?
 
 * questionType:
 * domain:
+* _subdomain: DOM_FunctionalEquationsReal
 
 </small>
 
@@ -544,7 +546,6 @@ $$f(x)=\left\{\begin{array}{l}
 apmierina visas uzdevuma prasības.
 
 
-
 # <lo-sample/> LV.VOL.2006.12.3
 
 Trijstūrī $ABC$ visas malas ir dažāda garuma un tajā ievilktās riņķa līnijas 
@@ -562,6 +563,7 @@ līnijai, krusto taisni $AB$ punktā $G$. Pierādīt, ka $GS \perp CI$.
 
 * questionType:
 * domain:
+* _subdomain: DOM_CirclesAndRelatedAngles, DOM_Triangles
 
 </small>
 
@@ -583,7 +585,6 @@ $\sphericalangle GSI=\sphericalangle GKI=90^{\circ}$.
 ![](LV.VOL.2006.12.3A.png)
 
 
-
 # <lo-sample/> LV.VOL.2006.12.4
 
 Naturāli skaitļi $m$ un $n$ apmierina sekojošu īpašību: $m$ dalās ar jebkuru no
@@ -594,6 +595,7 @@ $n+3$. Kādas ir iespējamās $n$ vērtības?
 
 * questionType:FindAll
 * domain:NT
+* _subdomain: DOM_Divisibility
 
 </small>
 
@@ -641,7 +643,6 @@ atbilde neder.
 **Atbilde:** $n=1;\ n=2;\ n=6$.
 
 
-
 # <lo-sample/> LV.VOL.2006.12.5
 
 Uz katras daudzskaldņa šķautnes atzīmēta bultiņa. Zināms, ka katrā virsotnē 
@@ -656,6 +657,7 @@ skaldne, kuras kontūru var apiet, ejot pa malām bultiņu norādītajos virzien
 
 * questionType:
 * domain:
+* _subdomain: DOM_Graphs
 
 </small>
 
@@ -710,4 +712,3 @@ ierobežo **mazāku** apgabalu nekā iepriekšējais, tāpēc mūsu aprakstītai
 meklēšanas process var nekad nebeigties.
 
 ![](LV.VOL.2006.12.5B.png)
-
