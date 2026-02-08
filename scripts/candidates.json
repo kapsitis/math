@@ -1,0 +1,982 @@
+[
+  {
+    "id": "LV.VOL.2004.9.1",
+    "year": 2004,
+    "num": 1,
+    "images": [],
+    "problem_text": "Dots, ka $a,\\ b,\\ c$ - pozitīvi skaitļi un $a^{2}+b^{2}=2c^{2}$.\n\nPierādīt, ka $\\frac{1}{a+c}+\\frac{1}{b+c}=\\frac{2}{a+b}$",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_AlgebraicOperations\n\n</small>\n\n## Atrisinājums\n\nPierādāmo vienādību **ekvivalenti** pārveidojot, pakāpeniski iegūstam\n\n$$\\begin{aligned}\n\\frac{a+b+2c}{(a+c)(b+c)} & =\\frac{2}{a+b} \\\\\n(a+b)(a+b+2c) & =2(a+c)(b+c) \\\\\na^{2}+2ab+b^{2}+2ac+2bc & =2ab+2ac+2bc+2c^{2} \\\\\na^{2}+b^{2} & =2c^{2}\n\\end{aligned}$$"
+  },
+  {
+    "id": "LV.VOL.2004.9.2",
+    "year": 2004,
+    "num": 2,
+    "images": [
+      "LV.VOL.2004.9.2.png",
+      "LV.VOL.2004.9.2A.png"
+    ],
+    "problem_text": "Dots, ka $ABCD$ - paralelograms un $AM=CN$ (skat. 1.zīm). Pierādīt, ka $D$ \natrodas uz $\\sphericalangle ASC$ bisektrises.\n\n![](LV.VOL.2004.9.2.png)",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_AnglesParallelsSimilarity\n\n</small>\n\n## Atrisinājums\n\n![](LV.VOL.2004.9.2A.png)\n\nTrijstūriem $AMD$ un $CND$ katram laukums vienāds ar pusi no paralelograma \nlaukuma. Tāpēc šajos vienlielajos trijstūros augstumi pret vienādām malām $AM$ \nun $CN$ ir vienādi savā starpā. Tāpēc $D$ atrodas vienādos attālumos no \n$\\sphericalangle ASC$ malām."
+  },
+  {
+    "id": "LV.VOL.2004.9.3",
+    "year": 2004,
+    "num": 3,
+    "images": [],
+    "problem_text": "Jānītis grib uzrakstīt $n$ dažādus naturālus skaitļus tā, lai nekādu sešu \nuzrakstīto skaitļu summa nedalītos ar $6$.\n\nVai tas ir iespējams, ja **(A)** $n=10$, **(B)** $n=11$?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove,ProveDisprove\n* domain:NT\n* _subdomain: DOM_Divisibility\n\n</small>\n\n## Atrisinājums\n\n**(A)** jā; var uzrakstīt piecus skaitļus, kas dalās ar $6$, un piecus \nskaitļus, kas dod atlikumu $1$, dalot ar $6$.\n\n**(B)** nē. Varam starp $11$ skaitļiem atrast divus skaitļus ar vienādu \nparitāti; to summa dalās ar $2$. Līdzīgi turpinot, varam atrast $5$ dažādu \nskaitļu pārus, katram no kuriem summa dalās ar $2$. Apskatām šīs $5$ summas un \naprēķinām to atlikumus, dalot ar $3$. Ja sastopami visi atlikumi $0;\\ 1;\\ 2$, \ntad atbilstošo skaitļu summa dalās ar $3$. Ja kāds atlikums nav sastopams, tad \nkāds no atlikumiem sastopams vismaz $3$ reizes; atkal atbilstošo skaitļu summa \ndalās ar $3$.\n\nAtliek ievērot, ka summa, kas dalās gan ar $2$, gan ar $3$, dalās ar $6$."
+  },
+  {
+    "id": "LV.VOL.2004.9.4",
+    "year": 2004,
+    "num": 4,
+    "images": [
+      "LV.VOL.2004.9.4A.png"
+    ],
+    "problem_text": "Kvadrāts sastāv no $4 \\times 4$ vienādām kvadrātiskām rūtiņām Andris pēc kārtas\nnovieto pa vienam tomim kādā vēl neaizņemtā rūtiņā saskaņā ar šādiem \nnoteikumiem: pirmo torni viņš drīkst novietot patvaļīgā rūtiņā pēc savas \nizvēles, bet katru nākošo torni jānovieto tādā rūtiņā, kur to uzlikšanas brīdī \napdraud nepāra skaits jau novietoto (divi torņi apdraud viens otru, ja tie abi \natrodas vienā horizontālē vai vienā vertikālē un starp tiem nav citu torņu).\n\nKādu lielāko torņu daudzumu Andrim var izdoties novietot?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_MagicConfigurations\n\n</small>\n\n## Atrisinājums\n\n**(A)** var uzlikt $15$ torņus; skat., piem., 2.zīm.\n\n![](LV.VOL.2004.9.4A.png)\n\n**(B)** ja uzliktu $16$ torņus, tad tie būtu jānovieto arī visās stūra rūtiņās.\nBet to torni, kuru ievieto **pēdējā stūra rūtiņā**, uzlikšanas brīdī apdraud \ndivi citi - pretruna."
+  },
+  {
+    "id": "LV.VOL.2004.9.5",
+    "year": 2004,
+    "num": 5,
+    "images": [
+      "LV.VOL.2004.9.5A.png"
+    ],
+    "problem_text": "Pa apli uzrakstīti $5$ skaitļi. To summa ir $1$, un neviens skaitlis pēc moduļa\n(absolūtās vērtības) nepārsniedz $1$.\n\nPierādīt, ka var atrast trīs tādus skaitļus $x,\\ y$ un $z$, ka $x+y \\geq 0$, \n$y+z \\geq 0$ un $x+y+z \\geq 0$, pie tam skaitļi $x;\\ y;\\ z$ tieši šādā secībā \nviens aiz otra uzrakstīti pa apli.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_ProvingInequalities\n\n</small>\n\n## Atrisinājums\n\nVispirms pierādīsim, ka no summām $a+b,\\ b+c,\\ c+d,\\ d+e,\\ e+a$ ne vairāk kā \ndivas ir negatīvas (skat. 3.zīm.).\n\n![](LV.VOL.2004.9.5A.png)\n\nJa tā nebūtu, tad atrastos divi blakus esoši skaitļu pāri, kuru summas ir \nnegatīvas, piemēram, $a+b<0$ un $c+d<0$. Tad $e=1-(a+b)-(c+d)>1$ - pretruna. No\nminētā izriet: ja virknē\n\n$$(*)\\ a+b,\\ b+c,\\ c+d,\\ d+e,\\ e+a$$\n\nir divas negatīvas summas, tad tās šajā virknē atrodas blakus (uzskatām, ka \n$a+b$ un $e+a$ arī ir blakus). Tāpēc (*) noteikti ir $3$ pēc kārtas ņemtas \nnenegatīvas summas. Varam pieņemt, ka $a+b \\geq 0,\\ b+c \\geq 0$, $c+d \\geq 0$. \nJa $d+e<0$, tad $a+b+c=1-(d+e)>0$, un varam ņemt $x=a,\\ y=b,\\ z=c$. Līdzīgi \nanalizē gadījumu, ja $e+a<0$. Ja turpretī visas summas no (*) ir nenegatīvas, \ntad arī $(a+b)+\\ldots+(e+a) \\geq 0$ jeb $2(a+b+c+d+e) \\geq 0$, tātad \n$a+b+c+d+e \\geq 0$. Tad nevar būt, ka visas summas \n$a+b+c,\\ b+c+d,\\ \\ldots,\\ e+a+b$ ir negatīvas, jo to summa ir $3(a+b+c+d+e)$. \nJa, piemēram, $a+b+c \\geq 0$, varam ņemt $x=a,\\ y=b,\\ z=c$."
+  },
+  {
+    "id": "LV.VOL.2005.9.1",
+    "year": 2005,
+    "num": 1,
+    "images": [
+      "LV.VOL.2005.9.1.png",
+      "LV.VOL.2005.9.1A.png"
+    ],
+    "problem_text": "Uz trapeces $ABCD$ garākā pamata $AD$ ņemti tādi divi iekšēji punkti $M$ un \n$N$, ka $BM \\parallel CN$. Pierādīt, ka daļu $1,\\ 2$ un $3$ laukumu summa \nvienāda ar daļas $4$ laukumu (skat. 1.zīm.).\n\n![](LV.VOL.2005.9.1.png)",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Area\n\n</small>\n\n## Atrisinājums\n\nPieskaitot pierādāmās vienādības $L(1)+L(2)+L(3)=L(4)$ abām pusēm \n$L(5)+L(6)+L(2)$, iegūstam ekvivalentu vienādību $L(ABC)+L(DBC)=L(BCNM)$, kas \nacīmredzami izriet no trijstūra un paralelograma laukumu formulām \n$L=\\frac{1}{2} ah$ un $L=ah$.\n\n![](LV.VOL.2005.9.1A.png)"
+  },
+  {
+    "id": "LV.VOL.2005.9.2",
+    "year": 2005,
+    "num": 2,
+    "images": [],
+    "problem_text": "Dots, ka $B$ - naturāls skaitlis, $A=7 \\cdot B$ un $A$ ciparu summa divas \nreizes lielāka par $B$ ciparu summu. Skaitli $C$ iegūst, pierakstot skaitlim \n$A$ galā skaitli $B$.\n\n**(A)** atrast kaut vienu šādu $C$,  \n**(B)** pierādīt, ka šādu $C$ ir bezgalīgi daudz,  \n**(C)** pierādīt, ka katrs šāds $C$ dalās ar $9$,  \n**(D)** vai $C$ noteikti dalās ar $27$?",
+    "solution_text": "<small>\n\n* questionType:FindExample,Prove,Prove,ProveDisprove\n* domain:NT\n* _subdomain: DOM_NumeralSystems\n\n</small>\n\n## Atrisinājums\n\n**(A)** $B=27,\\ A=7 \\cdot 27=189,\\ C=18927$.\n\n**(B)** Var ņemt $B=\\underbrace{270027002700 \\ldots 270027}_{n\\ reizes\\ 27}$.\n\n**(C)** Apzīmēsim patvaļīga naturāla skaitļa $X$ ciparu summu ar $S(X)$. Tā kā \n$A=\\underbrace{B+B+B}_{7\\ reies}$, tad, reizinot skaitli $B$ ar $7$, rodas \npārnesumi (citādi būtu $S(A)=7 \\cdot S(B)$ ). Tāpēc \n$2 \\cdot S(B)=S(A)=7 \\cdot S(B)-9 \\cdot k$ ($k$ - pārnesumu skaits). Iegūstam \n$5 \\cdot S(B)=9 \\cdot k$, tātad $S(B)$ dalās ar $9$. Tāpēc \n$S(C)=S(A)+S(B)=2S(B)+S(B)=3S(B)$ arī dalās ar $9$; tāpēc $C$ dalās ar $9$.\n\n**(D)** nē. Piemēram, var ņemt $B=117,\\ A=819,\\ C=819117$."
+  },
+  {
+    "id": "LV.VOL.2005.9.3",
+    "year": 2005,
+    "num": 3,
+    "images": [
+      "LV.VOL.2005.9.3A.png"
+    ],
+    "problem_text": "Ap galdu sēž $8$ bērni. Katriem trīs pēc kārtas sēdošiem bērniem kopā ir nepāra\nskaits konfekšu. Pierādīt, ka katram bērnam ir vismaz viena konfekte.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_IntegerConditions\n\n</small>\n\n## Atrisinājums\n\nUzdevuma apgalvojums būs pierādīts, ja pierādīsim: katram bērnam ir nepāra \nskaits konfekšu. Apzīmēsim bērniem esošo konfekšu skaitus, kā parādīts \nzīmējumā.\n\n![](LV.VOL.2005.9.3A.png)\n\nPēc dotā $a+b+c,\\ d+e+f,\\ g+h+a$ ir nepāra skaitļi. Tad arī \n$(a+b+c)+(d+e+f)+(g+h+a)$ ir $h^{a}b$ nepāra skaitlis; tas nozīmē, ka \n$2a+(b+c+d+e+f+g+h)$ ir nepāra skaitlis. Tātad $(b+c+d)+(e+f+g)+h$ ir nepāra; \ntātad $h$ ir nepāra. Līdzīgi pierāda, ka $a;\\ b;\\ \\ldots;\\ g$ ir nepāra."
+  },
+  {
+    "id": "LV.VOL.2005.9.4",
+    "year": 2005,
+    "num": 4,
+    "images": [],
+    "problem_text": "Dots, ka $a$ un $b$ - tādi reāli skaitļi, ka $a+b$ ir vesels skaitlis un \n$a^{2}+b^{2}=2$. Atrast visus šādus $a$ un $b$ pārus un pierādīt, ka citu bez \nJūsu atrastajiem nav.",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:Alg\n* _subdomain: DOM_MultivariableEquations\n\n</small>\n\n## Atrisinājums\n\nApzīmēsim $a+b=n$. Tad $2\\left(a^{2}+b^{2}\\right)=(a+b)^{2}+(a-b)^{2} \\geq^{2}$,\ntāpēc $n^{2} \\leq 2 \\cdot 2=4$ un $n=0;\\ \\pm 1;\\ \\pm 2$. Risinot vienādojumu \nsistēmas \n$\\left\\{\\begin{array}{c}a+b= \\pm 2 \\\\ a^{2}+b^{2}=2\\end{array},\\ \\left\\{\\begin{array}{c}a+b= \\pm 1 \\\\ a^{2}+b^{2}=2\\end{array},\\ \\left\\{\\begin{array}{c}a+b=0 \\\\ a^{2}+b^{2}=2\\end{array}\\right.\\right.\\right.$,\niegūstam meklētos pārus \n$(1;\\ 1),\\ (-1;\\ -1),\\ (1;\\ -1),\\ (-1;\\ 1)$, \n$\\left(\\frac{1+\\sqrt{3}}{2}; \\frac{1-\\sqrt{3}}{2}\\right),\\ \\left(\\frac{1-\\sqrt{3}}{2}; \\frac{1+\\sqrt{3}}{2}\\right),\\ \\left(\\frac{-1+\\sqrt{3}}{2}; \\frac{-1-\\sqrt{3}}{2}\\right)$,\n$\\left(\\frac{-1-\\sqrt{3}}{2}; \\frac{-1+\\sqrt{3}}{2}\\right)$"
+  },
+  {
+    "id": "LV.VOL.2005.9.5",
+    "year": 2005,
+    "num": 5,
+    "images": [],
+    "problem_text": "Katrs naturāls skaitlis no $1$ līdz $2005$ ieskaitot nokrāsots vienā no $n$ \nkrāsām. Ir zināms: ja $a,\\ b$ un $c$ ir dažādi skaitļi, $a$ dalās ar $b$ un $b$\ndalās ar $c$, tad $a,\\ b$ un $c$ nav visi nokrāsoti vienā un tai pašā krāsā. \nAtrast mazāko iespējamo $n$ vērtību.",
+    "solution_text": "<small>\n\n* questionType:FindOptimal\n* domain:NT\n* _subdomain: DOM_NumericSets\n\n</small>\n\n## Atrisinājums\n\n**Atbilde:** $6$ krāsas.\n\n**Risinājums.** Nekādi $3$ no $11$ skaitļiem \n$1;\\ 2;\\ 4;\\ 8;\\ 16;\\ 32;\\ 64;\\ 128;\\ 256;\\ 512;\\ 1024$ nevar būt nokrāsoti \nvienā krāsā. Tātad krāsu skaits ir vismaz $11:2=5,5$, tātad vismaz $6$.\n\nAr $6$ krāsām var iztikt. Ievērosim, ka neviens no apskatāmajiem skaitļiem \nnesatur vairāk par $10$ pirmreizinātājiem, jo $2^{11}=2048>2005$. Krāsojam $1.$\nkrāsā vieninieku un pirmskaitļus; otrajā krāsā divu un triju pirmskaitļu \nreizinājumus (varbūt reizinājumā pirmskaitļi atkārtojas), trešajā krāsā četru \nun piecu pirmskaitļu reizinājumus, utt."
+  },
+  {
+    "id": "LV.VOL.2006.9.1",
+    "year": 2006,
+    "num": 1,
+    "images": [],
+    "problem_text": "Atrisināt vienādojumu $x+y=1025$, ja $x$ un $y$ ir naturāli skaitļi - skaitļa \n$640000$ dalītāji.",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:NT\n* _subdomain: DOM_Divisibility\n\n</small>\n\n## Atrisinājums\n\nViens no skaitļiem $x$ un $y$ ir pāra, otrs - nepāra. Skaitļa $640000$ nepāra \ndalītāji ir $1;\\ 5;\\ 25;\\ 125;\\ 625$. Ievērojam, ka \n$640000=5^{4} \\cdot 2^{10}$. Tāpēc $1025-1=1024=2^{10},\\ 1025-25=1000$ un \n$1025-625=400$ ir skaitļa $640000$ dalītāji, bet \n$1025-5=520=13 \\cdot 5 \\cdot 8$ un $1025-125=900$ nav.\n\n**Atbilde.** \n$(1;\\ 1024),\\ (25;\\ 1000),\\ (400;\\ 625),\\ (625;\\ 400),\\ (1000;\\ 25),\\ (1024;\\ 1)$."
+  },
+  {
+    "id": "LV.VOL.2006.9.2",
+    "year": 2006,
+    "num": 2,
+    "images": [],
+    "problem_text": "Apzīmējam $f(x)=x^{2}+px+q$. Zināms, ka vienādojumam $f(x)=0$ ir divas saknes, \nno kurām viena atrodas starp $0$ un $1$, bet otra - nē. Pierādīt, ka \n$f(q) \\leq 0$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Inequalities\n\n</small>\n\n## Atrisinājums\n\nTā kā intervālā $(0;\\ 1)$ atrodas tikai viena no kvadrātvienādojuma $f(x)=0$ \nsaknēm, tad abas vērtības $f(0)$ un $f(1)$ reizē nevar būt pozitīvas. Tāpēc \n$f(0) \\cdot f(1) \\leq 0$. Iegūstam $q(p+q+1) \\leq 0$ jeb $q^{2}+pq+q \\leq 0$, \njeb $f(q) \\leq 0$.\n\n## Atrisinājums\n\nPieņemsim, ka vienādojuma $f(x)=0$ saknes ir $x_{1}$ un $x_{2}$. Saskaņā ar \nVjeta teorēmu\n\n$$\\begin{aligned}\n& f(q)=q^{2}+pq+q=x_{1}^{2}x_{2}^{2}-x_{1}x_{2}\\left(x_{1}+x_{2}\\right)+x_{1}x_{2}=x_{1}x_{2}\\left(x_{1}x_{2}-x_{1}-x_{2}+1\\right)= \\\\\n& =\\left[x_{1}\\left(1-x_{1}\\right)\\right] \\cdot\\left[x_{2}\\left(1-x_{2}\\right)\\right] .\n\\end{aligned}$$\n\nSaskaņā ar uzdevumā doto tieši viena no kvadrātiekavām ir negatīva, tāpēc to \nreizinājums ir $\\leq 0$."
+  },
+  {
+    "id": "LV.VOL.2006.9.3",
+    "year": 2006,
+    "num": 3,
+    "images": [
+      "LV.VOL.2006.9.3A.png"
+    ],
+    "problem_text": "Trijstūra $ABC$ ievilktās riņķa līnijas centrs ir $I$. Uz taisnes $AB$ atrasti \ntādi divi dažādi punkti $C_{1}$ un $C_{2}$, ka $IC_{1}=IC_{2}=IC$; uz taisnes \n$AC$ atrasti tādi divi dažādi punkti $B_{1}$ un $B_{2}$, ka $IB_{1}=IB_{2}=IB$;\nuz taisnes $BC$ atrasti tādi divi dažādi punkti $A_{1}$ un $A_{2}$, ka \n$IA_{1}=IA_{2}=IA$.\n\nPierādīt, ka $A_{1}A_{2}+B_{1}B_{2}+C_{1}C_{2}=AB+BC+CA$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Triangles\n\n</small>\n\n## Atrisinājums\n\nApzīmējam ievilktās riņķa līnijas pieskaršanās punktus $\\triangle ABC$ malām ar\n$X;\\ Y;\\ Z$ (skat. 1.zīm.) Taisnleņķa trijstūri $AXI,\\ AZI,\\ A_{1}YI$ un \n$A_{2}YI$ ir vienādi savā starpā $(hk)$, tāpēc $A_{1}A_{2}=AX+AZ$. Līdzīgi \n$B_{1}B_{2}=BX+BY$ un $C_{1}C_{2}=CY+CZ$. Saskaitot šīs vienādības, iegūstam \nvajadzīgo.\n\n![](LV.VOL.2006.9.3A.png)"
+  },
+  {
+    "id": "LV.VOL.2006.9.4",
+    "year": 2006,
+    "num": 4,
+    "images": [],
+    "problem_text": "Eksāmenam tika sagatavoti $8$ uzdevumi. Katram skolēnam iedeva $3$ no tiem. Nav\ntādu divu skolēnu, kas būtu saņēmuši vairāk nekā vienu kopīgu uzdevumu. Kāds ir\nlielākais iespējamais skolēnu skaits?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CombinatorialStructures\n\n</small>\n\n## Atrisinājums\n\nJa uzdevumus apzīmējam ar $A;\\ B;\\ C;\\ D;\\ E;\\ F;\\ G;\\ H$, tad $8$ skolēniem \nvar iedot komplektus $ABC;\\ ADE;\\ AFG;\\ BDG;\\ BFH,\\ CDH,\\ CEF,\\ EGH$. Tātad var\nbūt $8$ skolēni.\n\nJa kādu uzdevumu iedalītu $\\geq 4$ skolēniem, tad katram no tiem jāsaņem vēl \n$2$ citi uzdevumi, un pavisam būtu vismaz $1+4 \\cdot 2=9$ uzdevumi pretruna. \nTātad katru uzdevumu iedeva augstākais $3$ skolēniem, un pavisam tika iedoti \naugstākais $8 \\cdot 3=24$ uzdevumu teksti. Tā kā katrs skolēns saņēma trīs \ntekstus, tad skolēnu nav vairāk par $24:3=8$."
+  },
+  {
+    "id": "LV.VOL.2006.9.5",
+    "year": 2006,
+    "num": 5,
+    "images": [],
+    "problem_text": "Deviņos traukos pavisam kopā ir $36$ litri ūdens. Ūdeni, kas ir $1.$ traukā, \nsadalīja $8$ vienādās daļās un šīs daļas ielēja pārējos $8$ traukos (pa vienai \ndaļai katrā traukā). Pēc tam to pašu izdarīja ar ūdeni, kas bija $2.$ traukā, \n$3.$ traukā, $\\ldots$, $8.$ traukā, $9.$ traukā. Izrādījās, ka tagad katrā \ntraukā ir tikpat ūdens, cik tur bija sākumā. Cik litru ūdens sākumā bija katrā \ntraukā?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_EquationSystems\n\n</small>\n\n## Atrisinājums\n\n**Atbilde:** $8l;\\ 7l;\\ 6l;\\ 5l;\\ 4l;\\ 3l;\\ 2l;\\ 1l;\\ 01$.\n\n**Risinājums.** To, ka minētā atbilde apmierina uzdevuma nosacījumus, pārbauda \ntieši. Pierādīsim, ka tā ir vienīgā. Tā kā pēc viena \"cikla\" ūdens sadalījums \nir sākotnējais, mēs varam iztēloties, ka process notiek bezgalīgi un ir \nperiodisks. Apskatīsim šajā bezgalīgajā periodiskajā procesā deviņu vienu otrai\nsekojošu pārliešanu virkni, kas sākas ar ūdens izliešanu no tā trauka $T$, kurā\nir **vismazākais** procesa gaitā no trauka izlejamais ūdens daudzums; apzīmēsim\nšo daudzumu ar $8x$. Saskaņā ar šo izvēli traukā $T$ astoņās nākošajās liešanās\ntiks ieliets vismaz ūdens daudzums $x$ katrā reizē.\n\nTā kā traukā $T$ astoņās nākošajās liešanās kopā ielies ūdens daudzumu $8x$, \ntad **katrā** no šīm $8$ liešanām traukā $T$ ielies ūdens daudzumu $x$. Tātad \n**katrā** traukā tai brīdī, kad no tā izlej ūdeni, ir ūdens daudzums $8x$. No \ntā iegūstam, ka ūdens daudzums sākotnēji ir \n$8x;\\ 7x;\\ 6x;\\ 5x;\\ 4x;\\ 3x;\\ 2x;\\ x;\\ 0$. Tā kā $8x+7x+\\ldots+x+0=36$, \niegūstam $x=1$, no kā seko uzdevuma atbilde."
+  },
+  {
+    "id": "LV.VOL.2007.9.1",
+    "year": 2007,
+    "num": 1,
+    "images": [],
+    "problem_text": "Dots, ka $x \\neq y$ un $x^{2}-2007x=y^{2}-2007y$. Aprēķiniet $x+y$ vērtību.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Equations\n\n</small>\n\n## Atrisinājums\n\nDoto vienādību pārveido par $x^{2}-y^{2}=2007(x-y)$ un tālāk par \n$(x-y)(x+y)=2007(x-y)$. Tā kā $x \\neq y$, tad no šejienes seko $x+y=2007$."
+  },
+  {
+    "id": "LV.VOL.2007.9.2",
+    "year": 2007,
+    "num": 2,
+    "images": [],
+    "problem_text": "**(A)** Vai var gadīties, ka katram no kvadrātvienādojumiem $x^{2}+px+q=0$, \n$x^{2}+(p+1)x+(q+1)=0$ un $x^{2}+(p+2)x+(q+2)=0$ abas saknes ir veseli skaitļi?  \n**(B)** Vai var gadīties, ka bez tam arī vēl katram no kvadrātvienādojumiem \n$x^{2}+(p-1)x+(q-1)=0$ un $x^{2}+(p-2)x+(q-2)=0$ abas saknes ir veseli skaitļi?\n(Saknes var būt arī vienādas.)",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove,ProveDisprove\n* domain:Alg\n* _subdomain: DOM_IntegerPolynomials\n\n</small>\n\n## Atrisinājums\n\nVar ņemt $p=1,\\ q=-2$. Patvaļīgam veselam skaitlim $a$ apskatām vienādojumu \n$x^{2}+(a-1)x+(a-2)=0$. Tam ir saknes $x_{1}=-1$ un $x_{2}=2-a$."
+  },
+  {
+    "id": "LV.VOL.2007.9.3",
+    "year": 2007,
+    "num": 3,
+    "images": [
+      "LV.VOL.2007.9.3A.png"
+    ],
+    "problem_text": "Šaurleņķu trijstūrī $ABC$ nogrieznis $AM$ ir mediāna, bet nogrieznis $BN$ - \naugstums. Dots, ka $\\sphericalangle MCA=2 \\cdot \\sphericalangle MAC$. Pierādīt,\nka $BC=2 \\cdot AN$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Triangles\n\n</small>\n\n## Atrisinājums\n\nTā kā $\\triangle BNC$ ir taisnleņķa, tad tajā mediāna pret hipotenūzu vienāda \nar pusi no hipotenūzas, t.i., $NM=MC$. Tāpēc \n$\\sphericalangle MNC=2 \\alpha$. No $\\triangle ANM$ ārējā leņķa seko, ka \n$\\sphericalangle AMN=2 \\alpha-\\alpha=\\alpha$, tātad $\\triangle ANM$ - \nvienādsānu. Tāpēc $AN=NM=MC$, no kurienes seko vajadzīgais.\n\n![](LV.VOL.2007.9.3A.png)"
+  },
+  {
+    "id": "LV.VOL.2007.9.4",
+    "year": 2007,
+    "num": 4,
+    "images": [
+      "LV.VOL.2007.9.4A.png"
+    ],
+    "problem_text": "Kvadrāts sastāv no $7 \\times 7$ vienādām kvadrātiskām rūtiņām. Dažas no tām \nnokrāsotas melnas tā, ka katrā kolonnā un katrā rindā ir pāra skaits melnu \nrūtiņu (varbūt neviena). Kāds var būt kopējais melno rūtiņu skaits?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_MagicConfigurations\n\n</small>\n\n## Atrisinājums\n\n**Atbilde:** $0;\\ 4;\\ 6;\\ 8;\\ 10;\\ \\ldots;\\ 38;\\ 40;\\ 42$.\n\n**Risinājums.** Tā kā katrā rindā ir pāra skaits melno rūtiņu, tad (A) tas \nnepārsniedz $6$, un tādēļ kopējais melno rūtiņu skaits nepārsniedz \n$6 \\cdot 7=42$, (B) kopējais melno rūtiņu skaits ir pāra skaitlis. Viegli \nsaprast, ka $0$ melno rūtiņu var būt, bet $2$ melnas rūtiņas - nē (tas tomēr \nskolēna darbā jāpaskaidro!). Atliek parādīt, kā iegūt \n$4;\\ 6;\\ 8;\\ \\ldots;\\ 40;\\ 42$ melnas rūtiņas. Mēs to panāksim, izvietojot \nmelnās rūtiņas divu veidu blokos: kvadrātos ar izmēriem $2k \\times 2k$ rūtiņas,\nkur **katra** rūtiņa ir melna, un kvadrātos ar izmēriem $(2k+1) \\times(2k+1)$ \nrūtiņas, kur melnas ir visas rūtiņas, izņemot vienu diagonāli.\n\n1) Vērtības $4;\\ 8;\\ 12;\\ \\ldots;\\ 32;\\ 36$ tiek iegūtas, izmantojot \n   $1;\\ 2;\\ 3;\\ \\ldots;\\ 9$ kvadrātus ar izmēriem $2 \\times 2$.\n2) Vērtība $6$ tiek iegūta, izmantojot kvadrātu $3 \\times 3$ (ievietojam to \n   lielā kvadrāta stūrī); vērtības $10;\\ 14;\\ 18;\\ \\ldots;\\ 38$ tiek iegūtas, \n   pievienojot tam $1; 2; 3; \\ldots; 8$ kvadrātus ar izmēriem $2 \\times 2$ \n   (skat. 2.zīm.).\n3) Vērtība $40$ tiek iegūta ar vienu $5 \\times 5$ rūtiņu kvadrātu un pieciem \n   $2 \\times 2$ rūtiņu kvadrātiem.\n4) Vērtība $42$ tiek iegūta, izmantojot visu $7 \\times 7$ rūtiņu kvadrātu.\n\n![](LV.VOL.2007.9.4A.png)"
+  },
+  {
+    "id": "LV.VOL.2007.9.5",
+    "year": 2007,
+    "num": 5,
+    "images": [
+      "LV.VOL.2007.9.5.png",
+      "LV.VOL.2007.9.5A.png"
+    ],
+    "problem_text": "**(A)** Vai var 1.zīm. parādītās tabulas rūtiņās ierakstīt naturālus skaitļus \nno $1$ līdz $9$ (katrā rūtiņā - citu skaitli) tā, lai izpildītos īpašība: ja \nrinda un kolonna apzīmētas ar vienādiem burtiem, tad tajās ierakstīto skaitļu \nreizinājumi ir vienādi?\n\n![](LV.VOL.2007.9.5.png)\n\n**(B)** Vai var 2.zīm. parādītās tabulas rūtiņās ierakstīt naturālus skaitļus \nno $1$ līdz $81$ (katrā rūtiņā - citu skaitli) tā, lai izpildītos tāda pati \nīpašība?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove,ProveDisprove\n* domain:NT\n* _subdomain: DOM_MagicConfigurations\n\n</small>\n\n## Atrisinājums\n\n**(A)** jā, skat., piem., 3.zīm.\n\n![](LV.VOL.2007.9.5A.png)\n\n**(B)** nē. Apskatīsim pirmskaitļus \n$41;\\ 43;\\ 47;\\ 53;\\ 59;\\ 61;\\ 67;\\ 71;\\ 73;\\ 79$. Tā kā tie visi lielāki par \n$\\frac{1}{2} \\cdot 81$, tad neviens cits ierakstāmais skaitlis ne ar vienu no \ntiem nedalās. Tāpēc šiem skaitļiem jābūt uz diagonāles (ja kāds pirmskaitlis \nsastopams rindiņas elementu reizinājumā, tad aritmētikas pamatteorēmas dēļ tam \njābūt sastopamam arī atbilstošās kolonnas elementu reizinājumā). Bet šo \npirmskaitļu pavisam ir $10$, un tie jāizvieto $9$ vietās - pretruna."
+  },
+  {
+    "id": "LV.VOL.2008.9.1",
+    "year": 2008,
+    "num": 1,
+    "images": [],
+    "problem_text": "Dots, ka $x$ un $y$ - naturāli skaitļi. Pierādīt, ka mazākais naturālais \nskaitlis, kas dalās gan ar $x$, gan ar $y$, nav $x+y$",
+    "solution_text": "<small>\n\n* questionType:Prove\n* domain:NT\n* _subdomain: DOM_Divisibility\n\n</small>\n\n## Atrisinājums\n\nPieņemsim pretējo. Tā kā $\\frac{x+y}{x}=1+\\frac{y}{x}$ un \n$\\frac{x+y}{y}=1+\\frac{x}{y}$, tad $x$ dalās ar $y$ un $y$ dalās ar $x$; tāpēc \n$x=y$. Bet tad $MKD(x, y)=MKD(x, x)=x \\neq x+y$."
+  },
+  {
+    "id": "LV.VOL.2008.9.2",
+    "year": 2008,
+    "num": 2,
+    "images": [],
+    "problem_text": "Dots, ka $a,\\ b$ un $c$ - pozitīvi skaitļi, pie tam pastāv vienādības \n$ab=\\frac{c-a+1}{b}=\\frac{c+1}{2}$. Pierādīt, ka\n\n- $b=1$,\n- viens no skaitļiem, $a,\\ b,\\ c$ ir divu pārējo summas puse.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_EquationSystems\n\n</small>\n\n## Atrisinājums\n\nNo dotā seko $ab^{2}+a=c+1$ un $2ab=c+1$, tātad $ab^{2}+a=2ab$ un \n$a(b-1)^{2}=0$. Tāpēc $b=1$. Tagad no vienādības $ab=\\frac{c+1}{2}$ seko \n$a=\\frac{c+b}{2}$."
+  },
+  {
+    "id": "LV.VOL.2008.9.3",
+    "year": 2008,
+    "num": 3,
+    "images": [],
+    "problem_text": "Katrs riņķa līnijas punkts nokrāsots vai nu balts, vai sarkans. Ir zināms: ja \nkāds vienādmalu trijstūris ievilkts šajā riņķa līnijā, tad vismaz $2$ no tā \nvirsotnēm ir baltas.\n\nPierādīt: eksistē tāds šajā riņķa līnijā ievilkts kvadrāts, kuram vismaz $3$ \nvirsotnes ir baltas.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CuttingCoversColoring\n\n</small>\n\n## Atrisinājums\n\nApskatīsim $r.l.$ ievilktu regulāru $12$-stūri: $A_{1}A_{2} \\ldots A_{12}$. \nKatrā no trijstūriem $A_{1}A_{5}A_{9},\\ A_{2}A_{6}A_{10}$, \n$A_{3}A_{7}A_{11},\\ A_{4}A_{8}A_{12}$ ir vismaz divas baltas virsotnes, tātad \npavisam balto virsotņu ir vismaz astoņas. Tās sadalās pa trīs kvadrātiem \n$A_{1}A_{4}A_{7}A_{10},\\ A_{2}A_{5}A_{8}A_{11},\\ A_{3}A_{6}A_{9}A_{12}$. Ja \nkatrā kvadrātā būtu augstākais divas baltas virsotnes, tad kopā to nebūtu \nvairāk par $6$ - pretruna."
+  },
+  {
+    "id": "LV.VOL.2008.9.4",
+    "year": 2008,
+    "num": 4,
+    "images": [
+      "LV.VOL.2008.9.4A.png"
+    ],
+    "problem_text": "Dots, ka $ABC$ - trijstūris, bet $X$ un $Y$ - tādi punkti, ka \n$\\sphericalangle AXB=\\sphericalangle BYC=90^{\\circ}$. Pierādīt, ka nogrieznis \n$XY$ nav garāks par $\\triangle ABC$ pusperimetru.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_InequalitiesGeometry\n\n</small>\n\n## Atrisinājums\n\nApzīmēsim ar $M$ un $N$ malu $AB$ un $BC$ viduspunktus. Tad \n$XM=\\frac{1}{2} AB, \\quad YN=\\frac{1}{2} BC$ (mediāna pret hipotenūzu) un \n$MN=\\frac{1}{2} AC$ (viduslīnija). Tāpēc \n$XY \\leq XM+MN+NY \\leq \\frac{1}{2} AB+\\frac{1}{2} CA+\\frac{1}{2} BC=\\frac{1}{2}(AB+BC+CA)$,\nk.b.j.\n\n![](LV.VOL.2008.9.4A.png)"
+  },
+  {
+    "id": "LV.VOL.2008.9.5",
+    "year": 2008,
+    "num": 5,
+    "images": [],
+    "problem_text": "Dotas $27$ lodītes. Uz tām uzrakstīti numuri - naturālie skaitļi no $1$ līdz \n$27$ (uz katras lodītes - cits skaitlis). Lodītes kaut kā saliktas baltā, \nsarkanā un melnā kastē (katra lodīte ir vienā kastē). Zināms, ka baltajā kastē \nesošo lodīšu numuru vidējais aritmētiskais ir $15$; sarkanajā kastē esošo \nlodīšu numuru vidējais aritmētiskais ir $3$; melnajā kastē esošo lodīšu numuru \nvidējais aritmētiskais ir $18$. Cik lodīšu var būt baltajā kastē?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_WordProblems\n\n</small>\n\n## Atrisinājums\n\nApzīmēsim lodīšu daudzumu kastēs attiecīgi ar $b,s,m$. No nosacījuma par \nsarkano kasti seko, ka $s \\leq 5$ (pat sešu **vismazāko** numuru vidējais \naritmētiskais ir $(1+2+3+4+5+6):6=3 \\frac{1}{2}>3$, un, pievienojot lielākus \nnumurus, tas augs). Skaidrs, ka pastāv vienādības\n\n$$b+s+m=27$$\n\n$$15b+3s+18m=1+2+\\ldots+27=378$$\n\nNo šejienes $(15b+3s+18m)-3(b+s+m)=378-3 \\cdot 27=297$, tāpēc $12b+15m=297$ un \n$\\mathbf{4b}+\\mathbf{5m}=\\mathbf{99}$.\n\nTiešas pārbaudes ceļā pārliecināsimies, ka $(b;m)$ var būt \n$(21;3),\\ (16;7),\\ (11;11),\\ (6;15),\\ (1;19)$; atbilstošās $s$ vērtības ir \nattiecīgi $3; 4; 5; 6; 7$, Tā kā $s \\leq 5$, divas pēdējās iespējas atkrīt. \nPierādīsim, ka trīs pirmās tiešām pastāv:\n\n| baltajā kastē | $5;\\ 6;\\ \\ldots;\\ 25$ | $7;\\ 8;\\ \\ldots; 14;\\ 16;\\ 17;\\ \\ldots;\\ 23$ | $10;\\ 11;\\ \\ldots;\\ 20$ |\n| :--- | :---: | :---: | :---: |\n| sarkanajā kastē | $2;\\ 3;\\ 4$ | $1;\\ 2;\\ 4;\\ 5$ | $1;\\ 2;\\ 3;\\ 4;\\ 5$ |\n| melnajā kastē | $1;\\ 26;\\ 27$ | $3;\\ 6;\\ 15;\\ 24;\\ 25;\\ 26;\\ 27$ | $6;\\ 7;\\ 8;\\ 9;\\ 21;\\ \\ldots;\\ 27$ |"
+  },
+  {
+    "id": "LV.VOL.2009.9.1",
+    "year": 2009,
+    "num": 1,
+    "images": [],
+    "problem_text": "Dots, ka $a$ ir tāds reāls skaitlis, ka kvadrātvienādojumam $x^{2}-x+a=0$ ir \ndivas dažādas reālas saknes $x_{1}$ un $x_{2}$. Pierādīt: \n$\\left|x_{1}^{2}-x_{2}^{2}\\right|=1$ tad un tikai tad, ja \n$\\left|x_{1}^{3}-x_{2}^{3}\\right|=1$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_AlgebraicOperations\n\n</small>\n\n## Atrisinājums\n\nSaskaņā ar Vjeta teorēmu $\\left|x_{1}^{2}-x_{2}^{2}\\right|=1 \\Leftrightarrow\\left|\\left(x_{1}-x_{2}\\right)\\left(x_{1}+x_{2}\\right)\\right|=1 \\Leftrightarrow\\left|x_{1}-x_{2}\\right|=1 \\Leftrightarrow 2 \\sqrt{\\frac{1}{4}-a}=1 \\Leftrightarrow a=0$, kā arī $\\left|x_{1}^{3}-x_{2}^{3}\\right|=1 \\Leftrightarrow\\left|\\left(x_{1}-x_{2}\\right)\\left(x_{1}^{2}+x_{1} x_{2}+x_{2}^{2}\\right)\\right|=1 \\Leftrightarrow \\mid \\sqrt{1-4 a}\\left(\\left(x_{1}+x_{2}\\right)^{2}-x_{1} x_{2}\\right)=1 \\Leftrightarrow$ $\\Leftrightarrow \\sqrt{1-4 a}|1-a|=1 \\Leftrightarrow 4 a^{3}-9 a^{2}+6 a=0 \\Leftrightarrow a=0$."
+  },
+  {
+    "id": "LV.VOL.2009.9.2",
+    "year": 2009,
+    "num": 2,
+    "images": [],
+    "problem_text": "Naturālu skaitli sauc par vienkāršu, ja tas ir divu (vienādu vai dažādu) \npirmskaitļu reizinājums. Piemēram, $9=3 \\cdot 3$ ir vienkāršs, bet \n$18=2 \\cdot 3 \\cdot 3-$ nav. Kāds lielākais daudzums pēc kārtas sekojošu \nnaturālu skaitļu var visi būt vienkārši?",
+    "solution_text": "<small>\n\n* questionType:FindOptimal\n* domain:NT\n* _subdomain: DOM_SpecialNumbers\n\n</small>\n\n## Atrisinājums\n\n**Atbilde:** trīs skaitļi.\n\n**Risinājums:** triju skaitļu piemērs ir \n$33=3 \\cdot 11,\\ 34=2 \\cdot 17,\\ 35=5 \\cdot 7$. No četriem pēc kārtas ņemtiem \nnaturāliem skaitļiem viens dalās ar $4$; ja tas pats nav $4$, tad tas nav \nvienkāršs. Tieši pārbaudot četru pēc kārtas ņemtu skaitļu komplektus, kas satur\n\"$4$\", redzam, ka neviens no tiem neder."
+  },
+  {
+    "id": "LV.VOL.2009.9.3",
+    "year": 2009,
+    "num": 3,
+    "images": [
+      "LV.VOL.2009.9.3.png",
+      "LV.VOL.2009.9.3A.png"
+    ],
+    "problem_text": "Plakne sadalīta vienādos kvadrātiņos kā rūtiņu lapa. Katrs kvadrātiņš nokrāsots\nvienā no $k$ krāsām. Ir zināms: katrā tādā figūrā, kāda redzama 1.zīm. (šī \nfigūra var būt arī pagriezta vai apgriezta \"uz mutes\"), visas rūtiņas \nnokrāsotas dažādās krāsās. Kāda ir mazākā iespējamā $k$ vērtība?\n\n![](LV.VOL.2009.9.3.png)",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_MagicConfigurations\n\n</small>\n\n## Atrisinājums\n\n**Atbilde:** $k=8$. \n\nKrāsojumu ar $8$ krāsām skat. 1.zīm.\nParādīsim, ka ar $7$ krāsām nepietiek.\nViegli saprast, ka 2.zīm. rūtiņās $1 \\div 7$ visām krāsām jābūt dažādām, un \nizvairīties no $8.$ krāsas var tikai, krāsojot $A$ krāsā $3$ un $B$ - krāsā \n$1$. Cenšoties tālāk izvairīties no $8.$ krāsas, pakāpeniski iegūstam $C=2$ un \n$D=4$. Bet tad rūtiņai $E$ nav piemērotas krāsas.\n\n![](LV.VOL.2009.9.3A.png)"
+  },
+  {
+    "id": "LV.VOL.2009.9.4",
+    "year": 2009,
+    "num": 4,
+    "images": [
+      "LV.VOL.2009.9.4A.png"
+    ],
+    "problem_text": "Šaurleņķu trijstūrī $ABC$ nogriežņi $AA_{1}$ un $BB_{1}$ ir augstumi, $H$ ir \naugstumu krustpunkts, punkti $M, N$ un $K$ ir attiecīgi nogriežņu $AB$, $AH$ un\n$BH$ viduspunkti. Pierādīt, ka $\\Delta MKA_{1}=\\Delta B_{1}NM$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Triangles\n\n</small>\n\n## Atrisinājums\n\nNo viduslīniju īpašībām trijstūrī $AHB$ iegūstam $NM=\\frac{1}{2} HB$ un \n$KM=\\frac{1}{2} AH$; tā kā mediāna pret hipotenūzu ir puse no hipotenūzas, tad \n$B_{1}N=\\frac{1}{2} AH=MK$ un $A_{1}K=\\frac{1}{2} HB=MN$, kā arī \n$A_{1}M=\\frac{1}{2} AB=B_{1}M$. Pielietojam pazīmi $mmm$.\n\n![](LV.VOL.2009.9.4A.png)"
+  },
+  {
+    "id": "LV.VOL.2009.9.5",
+    "year": 2009,
+    "num": 5,
+    "images": [],
+    "problem_text": "Turnīrā piedalās $12$ tenisisti. Katrs ar katru citu spēlē tieši vienu reizi; \nkatrā spēlē viens no tās dalībniekiem uzvar, bet otrs - zaudē. Teiksim, ka \ntenisists $A$ ir spēcīgāks par tenisistu $B$, ja vai nu $A$ uzvarējis pret $B$,\nvai arī var atrast tādu trešo tenisistu $C$, ka $A$ uzvarējis pret $C$, bet $C$\nuzvarējis pret $B$. Par čempionu sauc jebkuru tādu tenisistu, kurš turnīra \nnoslēgumā izrādās spēcīgāks par jebkuru citu. Pierādīt:\n\n**(A)** katrs tenisists, kam turnīra noslēgumā ir vislielākais uzvaru skaits, \nir čempions,\n\n**(B)** nevar būt, ka turnīra noslēgumā ir tieši divi (ne vairāk un ne mazāk) \nčempioni.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CombinatorialStructures\n\n</small>\n\n## Atrisinājums\n\n**(A)** pieņemsim, ka $A$ noslēgumā ir visvairāk uzvaru. Ņemsim jebkuru citu \ntenisistu $B$. Ja $A$ uzvarējis $B$, tad $A$ ir spēcīgāks par $B$. Ja $A$ \nzaudējis pret $B$, tad nevar būt, ka nav tāda $C$, ka \n$A \\rightarrow C \\rightarrow B$; ja tāda $C$ nebūtu, tad $B$ būtu vairāk uzvaru\nnekā $A$ (uzvaras pret visiem tiem, pret ko uzvarējis $A$, un vēl uzvara \nsavstarpējā spēlē ar $A$.)\n\n**(B)** pieņemsim, ka turnīra noslēgumā ir $2$ čempioni $A$ un $B$, un to \nsavstarpējā spēlē uzvarējis $A$. Aplūkosim visus tos spēlētājus, pret kuriem \n$A$ ir zaudējis (tādiem jābūt, jo citādi $B$ nevar būt čempions). Šo spēlētāju \n\"apakšturnīra\" čempions ir arī visa turnīra čempions (tieša pārbaude). Tātad, \nja turnīrā ir $2$ čempioni, tad ir arī trešais."
+  },
+  {
+    "id": "LV.VOL.2010.9.1",
+    "year": 2010,
+    "num": 1,
+    "images": [],
+    "problem_text": "Vai iespējams, ka kvadrātvienādojuma $x^{2}-a^{2}x+b^{2}=0$, $a$ un $b$ naturāli\nskaitļi, saknes ir divu dažādu naturālu skaitļu kvadrāti?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove\n* domain:Alg\n* _subdomain: DOM_IntegerEquations\n\n</small>\n\n\n## Atrisinājums\n\nSaskaņā ar Vjeta teorēmu $x_{1}+x_{2}=a^{2}$ un $x_{1}x_{2}=b^{2}$.\n\nPieņemsim, ka eksistē divi dažādi naturāli skaitļi $y_{1}$ un $y_{2}$, kuriem būtu\nspēkā $x_{1}=y_{1}{ }^{2}$ un $x_{2}=y_{2}{ }^{2}$. Tad\n$b^{2}=y_{1}^{2}y_{2}^{2}=\\left(y_{1}y_{2}\\right)^{2}$, tātad $b=y_{1}y_{2}$ ir\nnaturāls skaitlis pie visām naturālām $y_{1}$ un $y_{2}$ vērtībām;\n$y_{1}^{2}+y_{1}{ }^{2}=a^{2}$. Izvēloties, piem., $y_{1}=3$ un $y_{2}=4$, tātad $a=5$,\niegūstam vienādojumu $x^{2}-5^{2}x+12^{2}=0$, kura saknes ir $3^{2}$ un $4^{2}$."
+  },
+  {
+    "id": "LV.VOL.2010.9.2",
+    "year": 2010,
+    "num": 2,
+    "images": [
+      "LV.VOL.2010.9.2A.png"
+    ],
+    "problem_text": "Trijstūrī $ABC$ nogriežņi $AM$ un $CN$ ir bisektrises, un punkts $O$ ir $CN$\nviduspunkts. Zināms, ka $\\sphericalangle ABC=90^{\\circ}$ un caur punktiem $B, M, O$\nun $N$ var novilkt riņķa līniju. Atrast $\\sphericalangle BAC$ vērtību.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CirclesAndRelatedAngles\n\n</small>\n\n\n## Atrisinājums\n\nJa caur punktiem $B, M, O$ un $N$ var novilkt riņķa līniju, tad\n$\\sphericalangle NBM+\\sphericalangle NOM=180^{\\circ} \\quad$ un\n$\\sphericalangle NOM=90^{\\circ}$ (skat. 1.zīm.). Tā kā $OM$ $\\triangle NMC$ ir gan\naugstums, gan mediāna, tad $\\triangle NMC$ ir vienādsānu trijstūris. $CN$ ir bisektrise,\ntātad $\\sphericalangle ACN=\\sphericalangle NCM=\\sphericalangle CNM$. No tā seko, ka\n$AC || MN$. Tad $\\sphericalangle CAM=\\sphericalangle NAM=\\sphericalangle AMN$, tātad\n$\\triangle MNA$ ir vienādsānu trijstūris. Iegūstam, ka $AN=MN=MC$ un $ANMC$ ir\nvienādsānu trapece, tāpēc $\\sphericalangle NAC=\\sphericalangle MCA$. Tā kā\n$\\triangle ABC$ ir vienādsānu taisnleņķa trijstūris, tad\n$\\sphericalangle BAC=\\sphericalangle NAC=45^{\\circ}$.\n\n![](LV.VOL.2010.9.2A.png)"
+  },
+  {
+    "id": "LV.VOL.2010.9.3",
+    "year": 2010,
+    "num": 3,
+    "images": [],
+    "problem_text": "Par *skaistu* sauksim tādu naturālu skaitli, kas nedalās ne ar vienu no cipariem savā\ndecimālajā pierakstā (neviens skaitlis nedalās ar $0$).\n\nKāds lielākais daudzums pēc kārtas sekojošu naturālu skaitļu visi var būt *skaisti*?",
+    "solution_text": "<small>\n\n* questionType:FindOptimal\n* domain:NT\n* _subdomain: DOM_NumericConstructions\n\n</small>\n\n\n## Atrisinājums\n\nAplūkosim $11$ tādus pēc kārtas sekojošus naturālus skaitļus no $k$ līdz $k+10$\n(ieskaitot), ka skaitļa $k$ pēdējais cipars ir $1$. Skaitlis $k$ beidzas ar $1$ un\ndalās ar $1$; $k+4$ beidzas ar $5$- tātad dalās ar $5$; skaitlis $k+10$ arī beidzas ar\n$1$. Tātad, skaitlli $k$, $k+4$ un $k+10$ nav skaisti. Starp $k$ un $k+4$ ir $3$\nskaitļi; starp $k+4$ un $k+10$ ir $5$ skaitļi. Tāpēc nevar būt vairāk nekā $5$ pēc\nkārtas sekojoši *skaisti* skaitļi.\n\nPiemēram, skaitļi $866, 867, 868, 869, 870$ visi ir *skaisti*, tātad var būt $5$ pēc\nkārtas sekojoši *skaisti* skaitļi."
+  },
+  {
+    "id": "LV.VOL.2010.9.4",
+    "year": 2010,
+    "num": 4,
+    "images": [
+      "LV.VOL.2010.9.4A.png",
+      "LV.VOL.2010.9.4B.png"
+    ],
+    "problem_text": "Rūtiņu lapā novietoti divi taisnstūri (var būt sakrītoši) tā, ka to malas iet pa rūtiņu\nmalām. Teiksim, ka punkts pieder taisnstūrim, ja tas atrodas taisnstūra iekšpusē vai\nuz tā kontūra.\n\nCik no $8$ šo divu taisnstūru virsotnēm var vienlaicīgi piederēt arī otram taisnstūrim?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_IntegerLattices\n\n</small>\n\n\n## Atrisinājums\n\n**Atbilde:** no astoņām divu taisnstūru virsotnēm vienlaicīgi otram arī taisnstūrim var\npiederēt $0, 2, 3$, $4, 5, 6$ vai $8$ virsotnes, skat., piem., 2.zīm.\n\n![](LV.VOL.2010.9.4A.png)\n\n**Pierādījums.** (A) Pierādīsim, ka otram taisnstūrim nevar piederēt tieši viena\nvirsotne.\n\nPieņemsim pretējo, ka šāda (*īpaša*) virsotne tomēr atrodas- tā ir vienīgā no astoņām\nvirsotnēm, kas vienlaicīgi pieder arī otram taisnstūrim. Šī virsotne nevar sakrist ar\nkādu no otra taisnstūra virsotnēm, jo tad arī otra taisnstūra virsotnei, ar kuru sakrīt\n*īpašā* virsotne, būtu spēkā šī īpašība, t.i., būtu vismaz divas virsotnes ar minēto\nīpašību. Tātad *īpašā* virsotne var atrasties tikai otra taisnstūra iekšpusē vai arī uz\nkādas no tā malām. 3.zīmējumā ir parādīta situācija, kad īpašā virsotne ir otra\ntaisnstūra iekšpusē.\n\n![](LV.VOL.2010.9.4B.png)\n\nAplūkosim, kur var atrasties tās divas virsotnes, kurām ar īpašo virsotni ir kopīga\nmala. Vienai virsotnei $(V_{x})$ jāatrodas uz tās pašas horizontāles, uz kuras atrodas\nīpašā virsotne. $V_{x}$ nevar atrasties otra taisnstūra iekšpusē vai uz tā malas, jo\ntad arī $V_{x}$ būtu ar meklēto īpašību. Citai virsotnei $(V_{y})$ jāatrodas uz tās\npašas vertikāles, uz kuras atrodas īpašā virsotne. $V_{y}$ nevar atrasties otra\ntaisnstūra iekšpusē vai uz tā malas, jo tad arī $V_{y}$ būtu ar minēto īpašību. Tātad\ngan $V_{x}$, gan $V_{y}$ atrodas ārpus otra taisnstūra. Bet tādā gadījumā pirmā\ntaisnstūra (kura trīs virsotnes ir *īpašā* virsotne, $V_{x}$ un $V_{y}$ iekšpusē\natrodas kāda no otrā taisnstūra virsotnēm.\n\nLīdzīgi analizē gadījumu, kad $īpašā$ virsotne atrodas uz otra taisnstūra kontūra.\n\nEsam ieguvuši pretrunu, tātad nevar būt tieši viena virsotne, kas pieder arī otram\ntaisnstūrim.\n\n(B) Pierādīsim, ka otram taisnstūrim nevar piederēt tieši septiņas virsotnes.\n\nIeviesīsim koordinātu sistēmu un apskatīsim doto taisnstūru virsotņu koordinātes.\nPieņemsim, ka viena taisnstūra $ABCD$ virsotnes ir ar koordinātām\n$A\\left(x_{11}; y_{11}\\right), B\\left(x_{11}; y_{12}\\right), C\\left(x_{12}; y_{12}\\right)$\nun $D\\left(x_{12}; y_{11}\\right)$; un ir spēkā sakarības\n$x_{11} < x_{12}$ un $y_{11} < y_{12}$, bet otra\ntaisnstūra ($KLMN$) virsotnes ir ar koordinātām\n$K\\left(x_{21}; y_{21}\\right), L\\left(x_{21}; y_{22}\\right), M\\left(x_{22}; y_{22}\\right)$\nun $N\\left(x_{22}; y_{21}\\right)$.\n\nPieņemsim pretējo- ir iespējams divus taisnstūrus novietot tā, ka tieši septiņas no\nastoņām virsotnēm vienlaikus pieder arī otram taisnstūrim. Šis apgalvojums ir\nlīdzvērtīgs apgalvojumam, ka var novietot divus taisnstūrus tā, ka **tieši viena** no\nastoņām virsotnēm **nepieder** otram taisnstūrim. Varam pieņemt, ka šī vienīgā\n\"nepiederošā\" virsotne ir virsotne $M\\left(x_{22}; y_{22}\\right)$.\n\nTātad virsotņu koordinātas vienlaicīgi saista šādas sakarības:\n\n$x_{11} \\leq x_{21} \\leq x_{12}$ un $y_{11} \\leq y_{21} \\leq y_{12}$ (jo\n$K \\left(x_{21} ; y_{21}\\right)$ pieder taisnstūrim $ABCD$) $\\tag{1}$\n\n$x_{11} \\leq x_{21} \\leq x_{12}$ un $y_{11} \\leq y_{22} \\leq y_{12}$ (jo\nL( $x_{21}; y_{22}$ ) pieder taisnstūrim $ABCD$) $\\tag{2}$\n\n$x_{11} \\leq x_{22} \\leq x_{12}$ un $y_{11} \\leq y_{21} \\leq y_{12}$ (jo\n$N\\left(x_{22}; y_{21}\\right)$ pieder taisnstūrim $ABCD$) $\\tag{3}$\n\nBet no (2) un (3) nosacījumiem seko, ka vienlaicīgi\n\n\n$x_{11} \\leq x_{22} \\leq x_{12}$ un $y_{11} \\leq y_{22} \\leq y_{12}$\n\ntātad arī virsotne $M \\left(x_{22}; y_{22}\\right)$ pieder taisnstūrim $ABCD$. Esam\nieguvuši pretrunu, tātad pieņēmums, ka tieši viena virsotne nepieder otram taisnstūrim,\nir aplams, tāpēc tieši septiņas no astoņām abu taisnstūru virsotnēm nevar vienlaikus\npiederēt arī otram taisnstūrim."
+  },
+  {
+    "id": "LV.VOL.2010.9.5",
+    "year": 2010,
+    "num": 5,
+    "images": [
+      "LV.VOL.2010.9.5A.png",
+      "LV.VOL.2010.9.5B.png"
+    ],
+    "problem_text": "Taisnstūris ar izmēriem $5 \\times n$ rūtiņas izkrāsots šaha galdiņa kārtībā. Vienā\ngājienā drīkst mainīt trīs blakus rūtiņu, kas atrodas vienā rindā vai kolonnā,\nkrāsojumu uz pretējo. Vai, veicot šādus gājienus vairākkārt, var panākt, ka visas\nrūtiņas ir vienā krāsā, ja\n\n**(A)** $n=5$,\n\n**(B)** $n=3$?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_MakingMoves\n\n</small>\n\n\n## Atrisinājums\n\n**(A)** Tā kā galarezultātu nosaka tikai tas, cik reizes katrai rūtiņai ir mainīta\n        krāsa, nav svarīgi, kādā secībā gājieni tiek izdarīti. 4.zīm. parādīts\n\t\tpiemērs, kurā ar treknāku līniju apvilktas rūtiņas, kurām tiek mainīta krāsa\n\t\tvienā gājienā.\n\n![](LV.VOL.2010.9.5A.png)\n\n**(B)** Katrā rūtiņā ierakstīsim skaitli $1$ vai $2$ kā redzams 5.zīmējumā:\n\n![](LV.VOL.2010.9.5B.png)\n\nSākumā skaitļu summa pelēkajās rūtiņāas ir $11$. Pilnībā baltam laukumam (nav nevienas\npelēkās rūtiņas) tā ir $0$, bet pilnībā pelēkam laukumam tā ir vienāda ar visus\nierakstīto skaitļu summu, t.i. $20$. Mainot krāsojumu jebkurās trīs secīgās rūtiņās,\nskaitļu kopsumma iekrāsotajās rūtiņās mainās (palielinās, samazinās vai nemainās, t.i.,\nizmainās par $0$) par pāra skaitli: $(1+1)-2=0$; $(1+2)-1=2$. Tā kā no nepāra skaitļa\n$11$, tam pieskaitot vai atņemot pāra skaitļus, nevar iegūt pāra skaitli, uzdevuma\nprasības izpildīt nav iespējams."
+  },
+  {
+    "id": "LV.VOL.2011.9.1",
+    "year": 2011,
+    "num": 1,
+    "images": [],
+    "problem_text": "Doti $4023$ kvadrātvienādojumi formā $x^{2}+ax+b=0$. Starp visu vienādojumu $a$\nvērtībām sastopami visi veselie skaitļi no $-2011$ līdz $2011$ (ieskaitot), \ntāpat arī starp $b$ vērtībām sastopami visi veselie skaitļi no $-2011$ līdz \n$2011$ (ieskaitot). Vai var gadīties, ka visiem dotajiem vienādojumiem saknes \nir veseli skaitļi?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove\n* domain:Alg\n* _subdomain: DOM_IntegerEquations\n\n</small>\n\n## Atrisinājums\n\nApskatām vienādojumu, kuram $b=2011$, t.i., $x^{2}+ax+2011=0$. Pēc Vjeta \nteorēmas, ja $x_{1}$ un $x_{2}$ ir šī vienādojuma saknes, tad $x_{1}x_{2}=2011$\nun $x_{1}+x_{2}=-a$. Tā kā $2011$ ir pirmskaitlis, ja $x_{1}$ un $x_{2}$ ir \nveseli skaitļi, tad vai nu $x_{1}$ un $x_{2}$ ir $1$ un $2011$ (tātad \n$a=-2012$), vai $x_{1}$ un $x_{2}$ ir $-1$ un $-2011$ (tātad $a=2012$). Tā kā \n$-2011 \\leq a \\leq 2011$, apskatāmajam vienādojumam nav veselu sakņu ne pie \nkādām pieļaujamajām $a$ vērtībām. Tāpēc nav iespējams, ka visiem dotajiem \nvienādojumiem saknes ir veseli skaitļi."
+  },
+  {
+    "id": "LV.VOL.2011.9.2",
+    "year": 2011,
+    "num": 2,
+    "images": [
+      "LV.VOL.2011.9.2A.png"
+    ],
+    "problem_text": "Uz taisnleņķa trīsstūra garākās katetes kā diametra konstruēta riņķa līnija, \nkas no hipotenūzas atšķeļ nogriezni, kura garums vienāds ar īsākās katetes \ngarumu. Aprēķināt hipotenūzas un īsākās katetes garumu attiecību!",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:Geom\n* _subdomain: DOM_MetricRelations\n\n</small>\n\n## Atrisinājums\n\nPieņemsim, ka $\\sphericalangle C=90^{\\circ}$, $AC>BC$ (skat. 1.zīm.). \n$\\sphericalangle CDA=90^{\\circ}$ (ievilkts leņķis, kas balstās uz diametru), \ntātad $CD$ ir $\\triangle ABC$ augstums un \n$\\triangle ABC-\\triangle ACD-\\triangle CBD$. Apzīmēsim \n$AC=b,\\ BC=a,\\ AB=c,\\ CD=h$, $a^{2}+b^{2}=c^{2}$. Nevar būt, ka $BD=BC$ (tad \n$\\triangle CBD$ būtu vienādsānu ar taisnu leņķi pie pamata - nav iespējams), \ntāpēc $AD=BC=a$. No $\\triangle ABC-\\triangle ACD$ seko \n\n$$\\begin{equation}\n\\frac{AB}{AC}=\\frac{BC}{CD} \\Rightarrow \\frac{AB}{BC}=\\frac{AC}{CD} \\Rightarrow \\frac{c}{a}=\\frac{b}{h} \\tag{1}\n\\end{equation}$$\n\nNo $\\triangle ACD-\\triangle CBD$ seko \n$\\frac{CD}{BD}=\\frac{DA}{CD} \\Rightarrow \\frac{h}{c-a}=\\frac{a}{h} \\Rightarrow h^{2}=a(c-a)$.\nIevietojot šo sakarību un vienādībā (1), iegūstam \n$\\frac{c}{a}=\\frac{\\sqrt{c^{2}-a^{2}}}{\\sqrt{a(c-a)}}=\\sqrt{\\frac{(c-a)(c+a)}{a(c-a)}}=\\sqrt{\\frac{c}{a}+1}$.\nApzīmējot $\\frac{c}{a}=k$, iegūstam $k=\\sqrt{k+1} \\Rightarrow k^{2}=k+1$. \nIegūtā vienādojuma saknes ir $\\frac{1 \\pm \\sqrt{5}}{2}$. Tā kā $k>0$, tad \nmeklētā attiecība ir $\\frac{c}{a}=k=\\frac{1+\\sqrt{5}}{2}$.\n\n![](LV.VOL.2011.9.2A.png)"
+  },
+  {
+    "id": "LV.VOL.2011.9.3",
+    "year": 2011,
+    "num": 3,
+    "images": [],
+    "problem_text": "Parādīt, ka no visiem trīsciparu skaitļiem, kuru pierakstā nav cipara $0$, var \nizvēlēties $81$ trīsciparu skaitli tā, lai vienlaicīgi izpildītos šādas trīs \nīpašības:\n\n1. visos izvēlētajos skaitļos izsvītrojot pirmo ciparu, katrs divciparu \n   skaitlis, kas nesatur $0$, tiek iegūts tieši vienu reizi;\n\n2. visos izvēlētajos skaitļos izsvītrojot otro ciparu, katrs divciparu \n   skaitlis, kas nesatur $0$, tiek iegūts tieši vienu reizi;\n\n3. visos izvēlētajos skaitļos izsvītrojot trešo ciparu, katrs divciparu \n   skaitlis, kas nesatur $0$, tiek iegūts tieši vienu reizi.",
+    "solution_text": "<small>\n\n* questionType:Prove\n* domain:NT\n* _subdomain: DOM_DigitManipulation\n\n</small>\n\n## Atrisinājums\n\nMeklēto $81$ skaitli varam atrast, piemēram, sekojošā veidā konstruējot $9$ \ngrupas par $9$ skaitļiem katrā grupā.\n\n| **1. grupa** | **2.grupa** | **...** | **$\\boldsymbol{i}$-tā grupa** | **...** | **9.grupa** |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $111$ | $212$ |  | $\\overline{\\mathrm{ili}}$ |  | $919$ |\n| $122$ | $223$ |  | $\\overline{\\overline{i2(i+1)}}$, ja $i<9$, vai $\\overline{i2(i+1-9)}$, ja $i \\geq 9$ |  | $921$ |\n| $133$ | $234$ |  | $\\overline{i3(i+2)}$, ja $i<8$, vai $\\overline{i3(i+2-9)}$, ja $i \\geq 8$ |  | $932$ |\n| $\\ldots$ | $\\ldots$ |  | $\\ldots$ |  | $\\ldots$ |\n| $199$ | $291$ |  | $\\overline{i9(i-1)}$, ja $i>1$, vai $199$, ja $i=1$ |  | $998$ |\n\nViegli pārbaudīt, ka minētie skaitļi apmierina uzdevuma nosacījumus."
+  },
+  {
+    "id": "LV.VOL.2011.9.4",
+    "year": 2011,
+    "num": 4,
+    "images": [],
+    "problem_text": "Doti četri atsvari, kuru masas ir savā starpā atšķirīgas. Šie atsvari visos \niespējamos veidos tika sadalīti pāros, un katrā gadījumā uz sviras svariem tika\nsalīdzinātas abu pāru masas. Vai, zinot visu šo svēršanu rezultātus (nevienā \nsvēršanā svaru kausi nebija līdzsvarā), iespējams noteikt:\n\n**(A)** vienu atsvaru, kurš ir **vai nu** vissmagākais, **vai** visvieglākais;  \n**(B)** **gan** vissmagāko, **gan** visvieglāko atsvaru?\n\n(Svari nerāda masu starpību, bet ļauj tikai noteikt, uz kura kausa ir lielāks \nsmagums.)",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove,ProveDisprove\n* domain:Comb\n* _subdomain: DOM_CombinatorialAlgorithms\n\n</small>\n\n## Atrisinājums\n\nČetrus atsvarus $A,\\ B,\\ C,\\ D$ pa pāriem var sadalīt trīs dažādos veidos: $AB$\nun $CD,\\ AC$ un $BD,\\ AD$ un $BC$. Tātad pavisam tika veiktas trīs svēršanas.\n\nPieņemsim, ka atsvaru masas ir $x>y>z>t$. Tad divu svēršanu rezultāti vienmēr \nir noteikti viennozīmīgi: $x+y>z+t$ un $x+z>y+t$. Trešajā svēršanā ir iespējami\nabi rezultāti.\n\n1. Ja $x+t>y+z$, tad atsvars ar masu $x$ vienmēr ir bijis uz smagākā kausa, \n   tāpēc ir vissmagākais, bet nevar noteikt visvieglāko atsvaru (visi pārēji ir\n   $1$ reizi bijuši uz smagākā kausa un $2$ reizes uz vieglākā).\n2. Ja $x+t<y+z$, tad atsvars ar masu $t$ vienmēr ir bijis uz vieglākā kausa, \n   tāpēc ir visvieglākais atsvars, bet nevar noteikt vissmagāko atsvaru (visi \n   pārēji ir $1$ reizi bijuši uz vieglākā kausa un $2$ reizes uz smagākā).\n\nTātad, saskaitot cik reizes katrs atsvars ir bijis uz vieglākā kausa un cik \nreizes - uz smagākā, var atrast vai nu vissmagāko, vai visvieglāko atsvaru - to\nkurš visas trīs reizes bijis uz smagākā / vieglākā kausa. Taču abus divus \natsvarus - gan smagāko, gan vieglāko - vienlaicīgi noteikt nevar."
+  },
+  {
+    "id": "LV.VOL.2011.9.5",
+    "year": 2011,
+    "num": 5,
+    "images": [],
+    "problem_text": "Trīs spēlētāji sēž pie apaļa galda un spēlē kādu spēli, kas sastāv no vairākām \nkārtām. Katrā kārtā viens no spēlētājiem uzvar un iegūst $3$ punktus, nākamais \nspēlētājs pie galda pulksteņrādītāja virzienā zaudē divus punktus, bet trešais \nzaudē vienu punktu. Pēc visu kārtu punktu saskaitīšanas izrādījās, ka vienam no\nspēlētājiem summā ir $0$ punktu. Vai var būt, ka kādam no pārējiem spēlētājiem \nsummā ir **(A)** $48$, **(B)** $49$ punkti?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove,ProveDisprove\n* domain:Comb\n* _subdomain: DOM_WordProblems\n\n</small>\n\n## Atrisinājums\n\nPieņemsim, ka spēlētāji ap galdu pulksteņrādītāja virzienā sēž secībā \n$A$, $B$, $C$. Saskaitīsim cik kārtās katrs spēlētājs ir ieguvis $3$ punktus. \nSpēlētājam $A$ šo kārtu skaitu apzīmēsim ar $a$, spēlētājam $B$ - ar $b$, \nspēlētājam $C$ - ar $c$. Tad kopējais spēlētāja $A$ kopsummā iegūto punktu \nskaits ir $3a-2c-b$, spēlētāja $B$ punktu skaits ir $3b-2a-c$, bet spēlētāja \n$C$ punktu skaits ir $3c-2b-a$. Pieņemsim, ka spēlēs beigās spēlētājs $A$ \nkopsummā ieguva $0$ punktus (citos gadījumos spriedumi līdzīgi). Tātad \n$3a-2c-b=0$ jeb $b=3a-2c$. Tad spēlētāja $B$ iegūtu punktu kopsumma ir \n$3(3a-2c)-2a-c=7(a-c)$, bet spēlētāja $C$ iegūto punktu kopsumma ir $7(c-a)$. \nTātad pārējo spēlētāju iegūto punktu kopsumma dalās ar $7$, tāpēc nevienam \nspēlētājam nevar būt $48$ punkti. Spēlētāja $B$ punktu summa var būt $49$, ja, \npiemēram, $A$ ir uzvarējis $7$ kārtās, $B$ ir uzvarējis $21$ kārtā, bet $C$ nav\nuzvarējis nevienā kārtā."
+  },
+  {
+    "id": "LV.VOL.2012.9.1",
+    "year": 2012,
+    "num": 1,
+    "images": [],
+    "problem_text": "**(A)** Vai piecu pēc kārtas ņemtu naturālu skaitļu reizinājums var būt \nskaitlis $20112012$?\n\n**(B)** Vai četru pēc kārtas ņemtu naturālu skaitļu reizinājums var būt \nskaitlis $20112012$?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove,ProveDisprove\n* domain:NT\n* _subdomain: DOM_IntegerEquations\n\n</small>\n\n## Atrisinājums\n\n**(A)** No pieciem pēc kārtas ņemtiem naturāliem skaitļiem viens dalās ar $5$. \nTātad arī to reizinājums dalās ar $5$, bet $20112012$ ar $5$ nedalās.\n\n**(B)** No četriem pēc kārtas ņemtiem naturāliem skaitļiem ir divi pāra \nskaitļi, no kuriem viens dalās ar $4$. Tātad to reizinājums dalās ar $8$, bet \n$20112012$ ar $8$ nedalās."
+  },
+  {
+    "id": "LV.VOL.2012.9.2",
+    "year": 2012,
+    "num": 2,
+    "images": [],
+    "problem_text": "Pierādīt, ka nav iespējams izveidot trijstūri, kura augstumu garumi ir \n$4~\\mathrm{cm}$, $7~\\mathrm{cm}$ un $10~\\mathrm{cm}$.",
+    "solution_text": "<small>\n\n* questionType:Prove\n* domain:Geom\n* _subdomain: DOM_MetricRelations\n\n</small>\n\n## Atrisinājums\n\nPieņemsim, ka šādu trijstūri iespējams izveidot. Pieņemsim, ka šī trijstūra \nlaukums ir $S$, tad tā malu garumi ir $\\frac{2S}{4}, \\frac{2S}{7}$ un \n$\\frac{2S}{10}$. Divu īsāko malu garumu summai jābūt lielākai par trešās malas \ngarumu. Bet \n$\\frac{2S}{7}+\\frac{2S}{10}=\\frac{17}{70} 2S=\\frac{34}{140} 2S<\\frac{35}{140} 2S=\\frac{2S}{4}$ - \npretruna. Tātad šādu trijstūri izveidot nav iespējams."
+  },
+  {
+    "id": "LV.VOL.2012.9.3",
+    "year": 2012,
+    "num": 3,
+    "images": [],
+    "problem_text": "Kvadrātvienādojuma $x^{2}+p_{1}x+q_{1}=0$ saknes ir $a$ un $b$, \nkvadrātvienādojuma $x^{2}+p_{2}x+q_{2}=0$ saknes ir $b$ un $c$, bet \nkvadrātvienādojuma $x^{2}+p_{3}x+q_{3}=0$ saknes ir $a$ un $c$. Zināms, ka \n$q_{1} \\leq q_{2} \\leq q_{3} \\leq 0$. Kādas ir iespējamās $q_{2}$ vērtības?",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:Alg\n* _subdomain: DOM_ParametrizedEquations\n\n</small>\n\n## Atrisinājums\n\n**Atbilde:** $q_{2}=0$. \n\nPēc Vjeta teorēmas $q_{1}=ab,\\ q_{2}=bc,\\ q_{3}=ac$. Tātad \n$ab \\leq bc \\leq ac \\leq 0$. Ja neviens no skaitļiem $a,\\ b$, $c$ nav nulle, \ntad divi no tiem ir vai nu abi pozitīvi, vai abi negatīvi, tāpēc to reizinājums\nir lielāks nekā nulle. Tātad vismaz viens no skaitļiem $a,\\ b,\\ c$ ir $0$. Tad \n$q_{3}=ac=0$, tātad $a$ vai $c$ ir $0$. Ja $c=0$, tad $q_{2}=bc=0$. Ja \n$a=0,\\ c \\neq 0$, tad $q_{1}=ab=0$ un no nevienādības $0 \\leq q_{2} \\leq 0$ \nseko, ka $q_{2}=0$."
+  },
+  {
+    "id": "LV.VOL.2012.9.4",
+    "year": 2012,
+    "num": 4,
+    "images": [
+      "LV.VOL.2012.9.4A.png"
+    ],
+    "problem_text": "Trijstūra $ABC$ iekšpusē izvēlēts punkts $E$ tā, ka \n$AB^{2}-BE^{2}+EC^{2}=AC^{2}$. Pierādīt, ka $AE \\perp BC$!",
+    "solution_text": "<small>\n\n* questionType:Prove\n* domain:Geom\n* _subdomain: DOM_AnglesParallelsSimilarity\n\n</small>\n\n## Atrisinājums\n\nAtradīsim $AE$ un $BC$ krustpunktu $D$ un pieņemsim, ka \n$\\sphericalangle ADB=\\alpha \\leq 90^{\\circ}$.\n\nNovilksim perpendikulus $BF$ un $CG$ pret $AD$ (skat. 1.zīm.).\n\n![](LV.VOL.2012.9.4A.png)\n\nPielietojot Pitagora teorēmu taisnleņķa trijstūros $ABF,\\ BEF,\\ ACG$ un $ECG$, \niegūstam:\n\n$$\\begin{align*}\n& AB^{2}-BE^{2}=\\left(AF^{2}+BF^{2}\\right)-\\left(BF^{2}+EF^{2}\\right)=AF^{2}-EF^{2}= \\\\\n& =(AF-EF)(AF+EF)=AE(AF+EF) \\\\\n& AC^{2}-EC^{2}=\\left(AG^{2}+CG^{2}\\right)-\\left(EG^{2}+CG^{2}\\right)=AG^{2}-EG^{2}= \\\\\n& =(AG-EG)(AG+EG)=AE(AG+EG)\n\\end{align*}$$\n\nPēc dotā $AB^{2}-BE^{2}=AC^{2}-EC^{2}$ jeb $AF+EF=AG+EG$. Pieskaitot abām pusēm\n$AE$, iegūstam $AE+AF+EF=AE+AG+EG$ jeb $2AF=2AG$. Tātad punkti $F$ un $G$ \nsakrīt ar $AD \\perp BC$."
+  },
+  {
+    "id": "LV.VOL.2012.9.5",
+    "year": 2012,
+    "num": 5,
+    "images": [
+      "LV.VOL.2012.9.5.png",
+      "LV.VOL.2012.9.5A.png"
+    ],
+    "problem_text": "Kādu lielāko skaitu 1.zīm. attēloto figūru var izgriezt no 2.zīm. attēlotās \nfigūras? Griezuma līnijām jāiet pa rūtiņu malām.\n\n![](LV.VOL.2012.9.5.png)",
+    "solution_text": "<small>\n\n* questionType:FindOptimal\n* domain:Geom\n* subdomain:DOM_GridCut\n* _subdomain: DOM_GridCut\n\n</small>\n\n## Atrisinājums\n\nIzkrāsosim doto figūru šaha galdiņa veidā, skat. 2.zīm.\n\n![](LV.VOL.2012.9.5A.png)\n\nKatra izgriežamā figūriņa aizņem tieši divas baltas un divas melnas rūtiņas. Tā\nkā ir deviņas baltas rūtiņas, tad var izgriezt ne vairāk kā četras figūriņas. \nTo, ka četras figūriņas var izgriezt, skat., piem., 3.zīm. (vienas figūrinas \nrūtiņas apzīmētas ar vienādiem burtiem)."
+  },
+  {
+    "id": "LV.VOL.2013.9.1",
+    "year": 2013,
+    "num": 1,
+    "images": [],
+    "problem_text": "Atrast tādas ciparu $a, b, c, d$ vērtības, lai izpildītos vienādība\n$\\overline{abcd}+\\overline{abc}+\\overline{ab}+a=2013$.\n\n(Pieraksts $\\overline{xyzt}$ nozīmē, ka četrciparu skaitlī ir $x$ tūkstoši,\n$y$ simti, $z$ desmiti un $t$ vieni.)",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:NT\n* _subdomain: DOM_NumeralSystems\n\n</small>\n\n\n## Atrisinājums\n\nViegli pamanīt, ka $a=1$. Lai summas simtu cipars būtu $0$, tad $b=9$ vai $b=8$.\n$b=9$ neder, jo tad summā veidotos pārnesums no desmitu pozīcijas un simtu\npozīcijā būtu cipars, kas lielāks nekā $0$. Tātad $b=8$.\n\n$\\overline{18cd}+\\overline{18c}+18+1=2013$ jeb\n$1800+10c+d+180+c+18+1=2013 \\Rightarrow 1999+11c+d=2013$ $\\Rightarrow 11c+d=14$,\ntātad $c=1$ un $d=3$, jeb $\\overline{abcd}=1813$."
+  },
+  {
+    "id": "LV.VOL.2013.9.2",
+    "year": 2013,
+    "num": 2,
+    "images": [
+      "LV.VOL.2013.9.2A.png"
+    ],
+    "problem_text": "Doti trīs regulāri trijstūri $OAB, OCD$ un $OEF$ (virsotnes norādītas\npulksteņrādītāja secībā), kuru malu garumi var atšķirties. Punkti $A, C, E$\nneatrodas uz vienas taisnes; punkti $B, D, F$ arī neatrodas uz vienas taisnes.\nPierādīt, ka $\\triangle ACE=\\triangle BDF$.",
+    "solution_text": "<small>\n\n* questionType:Prove\n* domain:Geom\n* _subdomain: DOM_Polygons\n\n</small>\n\n\n## Atrisinājums\n\nIevērosim, ka\n$\\sphericalangle BOC=\\sphericalangle BOD+60^{\\circ}=60^{\\circ}+\\sphericalangle AOC$\n(skat. 1.zīm.). Tāpēc $\\sphericalangle BOD=\\sphericalangle AOC$. Līdz ar to\n$\\triangle BOD=\\triangle AOC \\quad$ pēc pazīmes $m \\ell m$: $BO=AO$,\n$\\sphericalangle BOD=\\sphericalangle AOC$ un $DO=CO$. Bet tad $BD=AC$, jo\nvienādos trijstūros pret vienādiem leņķiem atrodas vienādas malas. Līdzīgi\nsecinām, ka arī $DF=CE$ un $FB=EA$, tāpēc $\\triangle ACE=\\triangle BDF$ pēc\npazīmes $m m m$.\n\n![](LV.VOL.2013.9.2A.png)"
+  },
+  {
+    "id": "LV.VOL.2013.9.3",
+    "year": 2013,
+    "num": 3,
+    "images": [],
+    "problem_text": "Dota virkne $a_{1}, a_{2}, a_{3}, \\ldots$, kur $a_{1}=a_{2}=1$ un visiem $n > 2$\nizpildās\n\n$$a_{n+1}=\\left[\\frac{2 a_{n}+a_{n-1}}{3}\\right]+4$$\n\nAprēķināt $a_{2013}$.\n\n( $[x]$ ir veselā daļa no $x$- lielākais veselais skaitlis, kas nepārsniedz $x$;\npiemēram, $[3]=3,[4,6]=4,[0,2]=0$ u.tml.)",
+    "solution_text": "<small>\n\n* questionType:FindExample\n* domain:Alg\n* method:MTH_InductionWithCombinedStep\n* _subdomain: DOM_IntegerSequences\n\n</small>\n\n\n## Atrisinājums\n\nAplūkojam virknes pirmos locekļus:\n$a_{1}=1$, $a_{2}=1$, $a_{3}=\\left[\\frac{2 \\cdot 1+1}{3}\\right]+4=5$,\n$a_{4}=\\left[\\frac{2 \\cdot 5+1}{3}\\right]+4=7$,\n$a_{5}=\\left[\\frac{2 \\cdot 7+5}{3}\\right]+4=10$,\n$a_{6}=\\left[\\frac{2 \\cdot 10+7}{3}\\right]+4=13$,\n$a_{7}=\\left[\\frac{2 \\cdot 13+10}{3}\\right]+4=16$.\n\nVar ievērot, ka visiem $i \\geq 4 \\quad a_{i}=3i-5$. Pierādīsim to ar matemātisko\nindukciju.\n\n*Bāze.* $a_{4}=3 \\cdot 4-5=7$ un $a_{5}=3 \\cdot 5-5=10$.\n\n*Induktīvais pieņēmums.* Pieņemsim, ka visiem $k < n$ ir spēkā $a_{k}=3k-5$.\n\n*Induktīvā pāreja.* Pierādīsim, ka arī $a_{n}=3n-5$.\n\n$a_{n}=\\left[\\frac{2 \\cdot a_{n-1}+a_{n-2}}{3}\\right]+4=\\left[\\frac{2 \\cdot(3(n-1)-5)+3(n-2)-5}{3}\\right]+4=\\left[\\frac{2 \\cdot(3 n-8)+3 n-11}{3}\\right]+4=$\n\n$=\\left[\\frac{9 n-27}{3}\\right]+4=3n-9+4=3n-5$\n\nApgalvojums pierādīts.\n\nTātad $a_{2013}=3 \\cdot 2013-5=6034$."
+  },
+  {
+    "id": "LV.VOL.2013.9.4",
+    "year": 2013,
+    "num": 4,
+    "images": [],
+    "problem_text": "Divas komandas savā starpā izspēlējušas vairākas (vairāk nekā vienu) spēles.\nPar zaudējumu komanda saņem $n$ punktus ($n$- naturāls skaitlis), bet par uzvaru\n$n+3$ punktus. Neizšķirtu rezultātu nav. Pēc spēļu beigām izrādījās, ka vienai\nkomandai ir par vienu uzvaru vairāk nekā otrai. Zināms, ka viena no komandām\nkopsummā ieguva $92$ punktus. Cik punktus ieguva otra komanda?",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:Comb\n* _subdomain: DOM_WordProblems\n\n</small>\n\n\n## Atrisinājums\n\nJa pieņemam, ka komanda-zaudētāja izcīnījusi $a$ uzvaras, tad komanda-uzvarētāja\nizcīnījusi $a+1$ uzvaru. Kopējais punktu skaits komandai-zaudētājai ir\n$a(n+3)+(a+1)n=2an+3a+n$, bet komandai-uzvarētājai $(a+1)(n+3)+an=2an+3a+n+3$.\n\nPierādīsim, ka komanda-uzvarētāja nevarēja izcīnīt $92$ punktus. Ja tā tomēr\nbūtu bijis, tad $2an+3a+n+3=92$ jeb eksistē tāds naturāls skaitlis $a$, ka\n$n=\\frac{89-3a}{2a+1}$ ir naturāls skaitlis. Tā kā $n \\geq 1$, tad pieļaujamās\n$a$ vērības ir $1 \\leq a \\leq 17$. Aplūkosim skaitītāja un saucēja vērtību\nkatrai no šīm vērtībām:\n\n| $a$  | $89-3a$ | $2a+1$ |\n| :--- | :------ | :----- |\n| $1$  | $86$    | $3$    |\n| $2$  | $83$    | $5$    |\n| $3$  | $80$    | $7$    |\n| $4$  | $77$    | $9$    |\n| $5$  | $74$    | $11$   |\n| $6$  | $71$    | $13$   |\n| $7$  | $68$    | $15$   |\n| $8$  | $65$    | $17$   |\n| $9$  | $62$    | $19$   |\n| $10$ | $59$    | $21$   |\n| $11$ | $56$    | $23$   |\n| $12$ | $53$    | $25$   |\n| $13$ | $50$    | $27$   |\n| $14$ | $47$    | $29$   |\n| $15$ | $44$    | $31$   |\n| $16$ | $41$    | $33$   |\n| $17$ | $38$    | $35$   |\n\nKā redzams, nevienai no pieļaujamajām $a$ vērtībām daļas vērtība nav naturāls\nskaitlis. Tātad komanda-uzvarētāja nevar būt ieguvusi $92$ punktus.\n\nPārbaudīsim, vai komanda-zaudētāja varēja iegūt $92$ punktus. Tad $2an+3a+n=92$\nun $n=\\frac{92-3a}{2a+1}$. Ja $a=5$, tad $n=7$, vai, ja $a=8$, tad $n=4$, tātad,\nkomanda-zaudētāja varēja iegūt $92$ punktus.\n\nTā kā komanda-uzvarētāja ieguva par $3$ punktiem vairāk nekā komandu-zaudētāja,\ntad otra komanda (uzvarētāja) ieguva $95$ punktus."
+  },
+  {
+    "id": "LV.VOL.2013.9.5",
+    "year": 2013,
+    "num": 5,
+    "images": [
+      "LV.VOL.2013.9.5.png",
+      "LV.VOL.2013.9.5A.png"
+    ],
+    "problem_text": "Kādu lielāko skaitu 1.zīm. attēloto figūru var izgriezt no rūtiņu kvadrāta\n$n \\times n$, kuram izṇemtas četras stūra rūtiņas: **(A)** ja $n=6$\n(skat. 2.zīm.), **(B)** ja $n=7$ (skat. 3.zīm.). Griezuma līnijām jāiet pa rūtiņu\nmalām, 1.zīm. figūra var būt pagriezta vai apgriezta spoguļattēlā.\n\n![](LV.VOL.2013.9.5.png)",
+    "solution_text": "<small>\n\n* questionType:FindOptimal\n* domain:Geom\n* subdomain:DOM_GridCut\n* _subdomain: DOM_GridCut\n\n</small>\n\n\n## Atrisinājums\n\n**(A)** **Atbilde:** $8$ , skat., piemēram, 2.zīm.\n\n**(B)** **Atbilde:** $9$, skat., piemēram, 3.zīm.\n\n![](LV.VOL.2013.9.5A.png)\n\nPierādīsim, ka nav iespējams izvietot $10$ figūriņas. Izkrāsosim pārklājamo\nfigūru kā parādīts 4.zīm. Tad, lai arī kā tiktu ievietota figūriņa, tā pārklās\ntieši vienu iekrāsoto rūtiņu. Tātad, ja varētu izgriezt $10$ figūriņas, tās\npārklātu $10$ iekrāsotās rūtiņas, bet ir tikai $9$- pretruna."
+  },
+  {
+    "id": "LV.VOL.2014.9.1",
+    "year": 2014,
+    "num": 1,
+    "images": [],
+    "problem_text": "Kādu mazāko vērtību var pieņemt izteiksme $x+\\frac{2014}{x}$, ja $x>0$?",
+    "solution_text": "<small>\n\n* questionType:FindOptimal\n* domain:Alg\n* _subdomain: DOM_Extremes\n\n</small>\n\n## Atrisinājums\n\nPārveidojam doto izteiksmi, atdalot pilno kvadrātu:\n\n$$x+\\frac{2014}{x}=(\\sqrt{x})^{2}-2 \\sqrt{2014}+\\left(\\frac{\\sqrt{2014}}{\\sqrt{x}}\\right)^{2}+2 \\sqrt{2014}=\\left(\\sqrt{x}-\\frac{\\sqrt{2014}}{\\sqrt{x}}\\right)^{2}+2 \\sqrt{2014}$$\n\nTā kā kvadrāts vienmēr ir nenegatīvs, tad izteiksmes mazākā iespējamā vērtība \nir tad, kad\n\n$\\sqrt{x}-\\frac{\\sqrt{2014}}{\\sqrt{x}}=0, \\sqrt{x}=\\frac{\\sqrt{2014}}{\\sqrt{x}}$ jeb $x=\\sqrt{2014}$\n\nLīdz ar to esam ieguvuši, ka izteiksmes $x+\\frac{2014}{x}$ mazākā vērtība ir \n$2 \\sqrt{2014}$ un tā tiek sasniegta pie $x=\\sqrt{2014}$.\n\n## Atrisinājums\n\nNo sakarības starp vidējo aritmētisko un vidējo ģeometrisko seko, ka\n\n$$x+\\frac{2014}{x} \\geq 2 \\sqrt{x \\cdot \\frac{2014}{x}}=2 \\sqrt{2014}$$\n\nŠo vērtību izteiksme sasniedz, ja $x=\\frac{2014}{x}$ jeb $x^{2}=2014$ un \n$x=\\sqrt{2014}$."
+  },
+  {
+    "id": "LV.VOL.2014.9.2",
+    "year": 2014,
+    "num": 2,
+    "images": [],
+    "problem_text": "Naturālu skaitļu virknes pirmie trīs locekļi ir vienādi ar $1$, bet katrs \nnākamais ir vienāds ar trīs iepriekšējo skaitļu summu. Cik starp virknes \npirmajiem **(A)** $100$, **(B)** $2014$ locekļiem ir tādi, kas dalās ar $5$?",
+    "solution_text": "<small>\n\n* questionType:FindCount,FindCount\n* domain:NT\n* _subdomain: DOM_IntegerSequences\n\n</small>\n\n## Atrisinājums\n\nKatra virknes elementa, dalot to ar $5$, atlikums, ir atkarīgs tikai no triju \niepriekšējo elementu atlikumiem, dalot ar $5$.\n\nAplūkojam atlikumu virkni, kas rodas virknes elementus, dalot ar $5$:\n\n$$1,\\ 1,\\ 1,\\ 3,\\ 0,\\ 4,\\ 2,\\ 1,\\ 2,\\ 0,\\ 3,\\ 0,\\ 3,\\ 1,\\ 4,\\ 3,\\ 3,\\ 0,\\ 1,\\ 4,\\ 0,\\ 0,\\ 4,\\ 4,\\ 3,\\ 1,\\ 3,\\ 2,\\ 1,\\ 1,\\ 4,\\ 1,\\ 1,\\ 1,\\ \\ldots$$\n\nTātad atlikumi ir periodiski ar periodu $31$. Tas nozīmē, ka katrā $31$ locekļu\ngrupā ir $6$ locekļi, kas dalās ar $5$.\n\n**(A)** $100$ locekļi veido trīs pilnas grupas un vēl septiņus locekļus. Tātad \ntādu skaitļu skaits, kas dalās ar $5$ ir $6 \\cdot 3+1=19$.  \n**(B)** $2014$ locekļi veido $64$ pilnas grupas un vēl $30$ locekļus. Tātad \ntādu skaitļu skaits, kas dalās ar $5$, ir $6 \\cdot 64+6=390$."
+  },
+  {
+    "id": "LV.VOL.2014.9.3",
+    "year": 2014,
+    "num": 3,
+    "images": [
+      "LV.VOL.2014.9.3A.png"
+    ],
+    "problem_text": "Taisnleņķa trijstūra $ABC$ taisnais leņķis ir $A$. Punkts $X$ ir no $A$ pret \n$BC$ vilktā augstuma pamats. Nogriežņa $XC$ viduspunkts ir $Y$. Uz malas $AB$ \npagarinājuma izvēlēts punkts $D$ tā, ka $AB=BD$. Pierādīt, ka $DX$ ir \nperpendikulārs $AY$.",
+    "solution_text": "<small>\n\n* questionType:Prove\n* domain:Geom\n* _subdomain: DOM_AnglesParallelsSimilarity\n\n</small>\n\n## Atrisinājums\n\nNogriezni $AY$ pagarina aiz punkta $Y$ un atliek punktu $P$ tā, ka $AY=YP$ \n(skat. A1.zīm.). Tas nozīmē, ka četrstūris $AXPC$ ir paralelograms, jo tā \ndiagonāles $AP$ un $XC$ to krustpunktā $Y$ dalās uz pusēm. Nogriezni $XP$ \npagarinot līdz krustpunktam ar $AD$, iegūst, ka $PH \\perp AD$, jo $AC \\perp AD$\nun $PH \\parallel AC$. Aplūkojam trijstūri $ADP$. No tā, ka $AB=BD$ un $AY=YP$ \nseko, ka $BY$ ir trijstūra $ADP$ viduslīnija. Tātad $BY \\parallel DP$. No tā, \nka $AX \\perp BY$, seko, ka $AR \\perp DP$. Tas nozīmē, ka trijstūrī $ADP$ ir \nnovilkti divi augstumi $PH$ un $AR$, kas krustojas punktā $X$. Līdz ar to \nnogrieznis, kas vilkts no virsotnes $D$ caur punktu $X$, ir trešais šī \ntrijstūra augstums, tātad $DK \\perp AP$ un $DK \\perp AY$, kas arī bija \njāpierāda.\n\n![](LV.VOL.2014.9.3A.png)"
+  },
+  {
+    "id": "LV.VOL.2014.9.4",
+    "year": 2014,
+    "num": 4,
+    "images": [],
+    "problem_text": "Gatavojoties $13$ diplomātu apspriedei, krēsli tika izvietoti ap apaļu galdu \nvienādos attālumos un katrai no vietām tika sagatavota plāksnīte ar diplomāta \nvārdu. Diemžēl, ieņemot vietas pie galda, diplomāti šīs plāksnītes neņēma vērā \nun izrādījās, ka neviens no diplomātiem nav apsēdies pretī savai plāksnītei.\n\n**(A)** Pierādīt: nepārsēdinot diplomātus, galdu ir iespējams pagriezt tā, ka \nvismaz divi diplomāti atradīsies pret savām plāksnītēm.  \n**(B)** Pierādīt: ja sākumā tieši viens diplomāts būtu sēdējis pret savu \nplāksnīti, tad ir iespējams, ka viņi apsēdušies tā, ka, pagriežot galdu, nav \niespējams panākt, ka pret savu plāksnīti atradīsies vairāk par vienu diplomātu.",
+    "solution_text": "<small>\n\n* questionType:Prove,Prove\n* domain:Comb\n* method:MTH_PigeonholePrincipleBasic\n* _subdomain: DOM_MakingMoves\n\n</small>\n\n## Atrisinājums\n\n**(A)** Apaļajam galdam pavisam ir $13$ derīgas pozīcijas, kuras var iegūt \ngalda pagriešanas par noteiktu vietu skaitu rezultātā. Katrs diplomāts pret \nsavu plāksnīti atradīsies tikai vienā no šīm pozīcijām. Katrai galda pozīcijai \n$i(1 \\leq i \\leq 13)$ ar $p_{i}$ apzīmējot diplomātu skaitu, cik šajā pozīcijā \natrodas pret savām plāksnītēm, iegūstam $p_{1}+p_{2}+\\ldots+p_{13}=13$.\n\nZināms, ka viena no $p_{i}$ vērtībām ir $0$, jo sākuma neviens no diplomātiem \nneatrodas pretī savai plāksnītei. Pēc Dirihlē principa kādai no atlikušajām \n$p_{j}$ vērtībām jābūt vismaz $2$, t. i., ir vismaz divi diplomāti, kas kādā \npozīcijā atrodas pretī savām plāksnītēm.\n\n**(B)** Pieņemot, ka diplomāti numurēti ar naturāliem skaitļiem no $1$ līdz \n$13$ pēc kārtas un sēdināt tos ap galdu bija paredzēts pulkstenrādītāja \nvirzienā (plāksnītes saliktas $1-2-3-\\ldots-12-13$), tad diplomātiem pie galda \napsēžoties, piemēram, šādi $1-13-12-11-10-9-8-7-6-5-4-3-2$, izpildās uzdevumā \nprasītais. Diplomātiem $i$ un $j$, ja $i$ sēž savā vietā, tad $j$-tā plāksnīte \natrodas $j-i$ vietas pa labi, bet $j$-ais diplomāts atrodas $j-i$ vietas pa \nkreisi. Tā kā $13$ ir nepāra skaitlis, tad $j$ nevar sēdēt pie savas \nplāksnītes.\n\n*Piezīme.* Pavisam iespējami $13723$ atšķirīgi diplomātu izvietojuma varianti \nar iepriekšminēto īpašību."
+  },
+  {
+    "id": "LV.VOL.2014.9.5",
+    "year": 2014,
+    "num": 5,
+    "images": [],
+    "problem_text": "Atrast vienādojuma $\\left(x^{2}+5x-7\\right)^{2}-2\\left(x^{2}+5x-6\\right)-4=0$ \nsakņu kubu summu.",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:Alg\n* _subdomain: DOM_Equations\n\n</small>\n\n## Atrisinājums\n\nApzīmējam $p=x^{2}+5x-8$.\n\nIevietojot dotajā vienādojumā, iegūstam $(p+1)^{2}-2(p+2)-4=0$ jeb $p^{2}=7$ un\n$p= \\pm \\sqrt{7}$. Esam ieguvuši, ka šo vienādojumu var sadalīt reizinātājos \n$(p-\\sqrt{7})(p+\\sqrt{7})=0$. Tas nozīmē, ka sākotnējā vienādojuma saknes \nsakrīt ar vienādojumu $x^{2}+5x-(8+\\sqrt{7})=0$ un $x^{2}+5x-(8-\\sqrt{7})=0$ \nsaknēm (šo vienādojumu diskriminanti ir attiecīgi $D_{v1}=57+4 \\sqrt{7}>0$ un \n$D_{v2}=57-4 \\sqrt{7}>0$, tāpēc katram no tiem ir divas saknes). Apzīmēsim šīs \nsaknes pa pāriem ar $x_{1}, x_{2}$ un $x_{3}, x_{4}$. Pēc Vjeta teorēmas \niegūstam sakarības:\n\n$$x_{1}+x_{2}=x_{3}+x_{4}=-5$$\n\n$$\\begin{aligned}\n& x_{1}x_{2}=-(8+\\sqrt{7}) \\\\\n& x_{3}x_{4}=-(8-\\sqrt{7})\n\\end{aligned}$$\n\nIevērojam, ka \n$a^{3}+b^{3}=(a+b)\\left(a^{2}-ab+b^{2}\\right)=(a+b)\\left((a+b)^{2}-3ab\\right)$.\n\nTāpēc \n$x_{1}^{3}+x_{2}^{3}+x_{3}^{3}+x_{4}^{3}=-5 \\cdot(25+3(8+\\sqrt{7}))-5 \\cdot(25+3(8-\\sqrt{7}))=-490$."
+  },
+  {
+    "id": "LV.VOL.2015.9.1",
+    "year": 2015,
+    "num": 1,
+    "images": [],
+    "problem_text": "Atrast visus tādus naturālus skaitļus $n$ un $m$, kuriem \n$\\frac{2015}{n^{4}-m^{4}}$ arī ir naturāls skaitlis!",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:NT\n* _subdomain: DOM_IntegerEquations\n\n</small>\n\n## Atrisinājums\n\nIevērojam, ka $n^{4}-m^{4}=(n-m)(n+m)\\left(n^{2}+m^{2}\\right)$. Tā kā $n$ un \n$m$ ir naturāli skaitļi, tad $\\frac{2015}{(n-m)(n+m)\\left(n^{2}+m^{2}\\right)}$ \nvar būt naturāls skaitlis tikai tad, ja $n>m \\geq 1$. Līdz ar to \n$1 \\leq n-m < n+m < n^{2}+m^{2}$. Tas nozīmē, ka $n-m,\\ n+m$ un $n^{2}+m^{2}$ ir \ntrīs dažādi skaitļa $2015$ dalītāji. Sadalām skaitli $2015$ pirmreizinātājos: \n$2015=5 \\cdot 13 \\cdot 31$. Uzrakstām augošā secībā visus skaitļa $2015$ \ndalītājus: $1,\\ 5,\\ 13,\\ 31,\\ 65,\\ 155,\\ 403,\\ 2015$.\n\nNovērtējam saucēja izteiksmi:\n\n$$n^{4}-m^{4} \\geq n^{4}-(n-1)^{4}=4n^{3}-6n^{2}+4n-1=4n(n-1)^{2}+2n^{2}-1>4(n-1)^{3}-1$$\n\nTā kā $n^{4}-m^{4} \\leq 2015$, tad arī $4(n-1)^{3}-1<2015$. No kurienes \niegūstam, ka $(n-1)^{3}<504<512=8^{3}$, tātad $n-1<8$ jeb $n<9$. Līdz ar to \nesam ieguvuši, ka lielākā iespējamā $n$ vērtība ir $8$ un $n+m \\leq 8+7=15$. \nApskatām visus iespējamos gadījumus.\n\n| $n-m$ | $n+m$ | $n$ | $m$ | $n^{2}+m^{2}$ |  |\n| :---: | :---: | :---: | :---: | :---: | :--- |\n| $1$ | $5$ | $\\mathbf{3}$ | $\\mathbf{2}$ | $13$ | Der, jo $2015$: $(1 \\cdot 5 \\cdot 13)=31$. |\n| $1$ | $13$ | $7$ | $6$ | $85$ | Neder, jo nav $2015$ dalītājs. |\n| $5$ | $13$ | $9$ | $4$ | $97$ | Neder, jo nav $2015$ dalītājs. |\n\nTātad vienīgās iespējamās vērtības ir $n=3$ un $m=2$.\n\n*Piezīme.* Var iegūt arī vājāku summas $n+m$ novērtējumu. Ievērojam: ja \n$n^{2}+m^{2}=2015$, tad $n-m=n+m=1$, kas nav dažādi skaitļi. Tātad \n$n^{2}+m^{2} \\leq 403<441=21^{2}$. Līdz ar to ne $n$, ne $m$ nevar pārsniegt \n$21$, tātad $n+m \\leq 42$. Šajā gadījumā papildus jāpārbauda vēl arī tās \nvērtības, kurām $n+m=31$."
+  },
+  {
+    "id": "LV.VOL.2015.9.2",
+    "year": 2015,
+    "num": 2,
+    "images": [
+      "LV.VOL.2015.9.2.png",
+      "LV.VOL.2015.9.2A.png",
+      "LV.VOL.2015.9.2B.png"
+    ],
+    "problem_text": "Pierādīt, ka, izmantojot  \n**(A)** visas septiņas dotās figūras (skat 1.att.), katru tieši vienu reizi, \nnav iespējams salikt taisnstūri;  \n**(B)** sešas no dotajām figūrām, katru tieši vienu reizi, var salikt \ntaisnstūri.\n\nVisas figūras sastāv no vienādiem kvadrātiem. Figūras drīkst pagriezt, bet \nnedrīkst apmest otrādi. Taisnstūrī nedrīkst būt caurumi, un figūras nedrīkst \npārklāties.\n\n![](LV.VOL.2015.9.2.png)",
+    "solution_text": "<small>\n\n* questionType:Prove,Prove\n* domain:Geom\n* _subdomain: DOM_CuttingCoversColoring\n\n</small>\n\n## Atrisinājums\n\n**(A)** Visas septiņas dotās figūras kopā satur $28$ rūtiņas, tātad taisnstūra \nlaukumam arī jābūt $28$ rūtiņām. Vienīgie iespējamie taisnstūra izmēri ir \n$1 \\times 28$ (neder), $2 \\times 14,\\ 4 \\times 7$. Izkrāsojot taisnstūrus kā \nšaha galdiņu, katrā no tiem melno un balto rūtiņu skaits ir vienāds. Ja visas \ndotās figūras izkrāsotu kā šaha galdiņu, tad tās visas, izņemot trešo, saturēu \ntieši divas katras krāsas rūtiņas. Trešā figūra saturētu trīs vienas krāsas un \nvienu otras krāsas rūtiņu (skat. A1.att.). Tātad, saskaitot balto un melno \nrūtiņu skaitu pa visām septiņām figūrām, iegūtu, ka vienas krāsas rūtiņu ir par\ndivām vairāk nekā otras krāsas rūtiņu. Līdz ar to, izmantojot visas septiņas \ndotās figūras, taisnstūri izveidot nav iespējams.\n\n![](LV.VOL.2015.9.2A.png)\n\n**(B)** Ja neizmanto trešo figūru, tad taisnstūri ir iespējams izveidot (skat.,\npiemēram, A2.att.).\n\n![](LV.VOL.2015.9.2B.png)"
+  },
+  {
+    "id": "LV.VOL.2015.9.3",
+    "year": 2015,
+    "num": 3,
+    "images": [],
+    "problem_text": "Aija izvēlas naturālu skaitli $n \\leq 100$ un veido skaitļu virkni, kur katru \nnākamo virknes locekli iegūst pēc šāda likuma:\n\n- ja $2 n \\leq 100$, tad virknes nākamais loceklis ir $2n$;\n- ja $2 n>100$, tad virknes nākamais loceklis ir $2n-100$.\n\nJa virknē vēl kādreiz parādās skaitlis $n$, tad skaitli $n$ sauksim par \n*patīkamu*. Cik pavisam ir *patīkamu* skaitļu, kas nepārsniedz $100$?\n\nPiemēram, skaitlis $40$ ir *patīkams*, jo $40;\\ 80;\\ 60;\\ 20;\\ 40;\\ \\ldots$, bet \n$25$ - nav, jo $25;\\ 50;\\ 100;\\ 100;\\ \\ldots$ (tālāk virknē nav skaitļu, kas \natšķirīgi no $100$).",
+    "solution_text": "<small>\n\n* questionType:FindCount\n* domain:Alg\n* _subdomain: DOM_IntegerSequences\n\n</small>\n\n## Atrisinājums\n\nIr $25$ skaitļi, kas nepārsniedz $100$ un dalās ar $4$. Parādīsim, ka visi šie \nskaitļi ir *patīkami*. Katrs no tiem pieder vienam no trim cikliem:\n\n$100 \\rightarrow 100$;\n\n$20 \\rightarrow 40 \\rightarrow 80 \\rightarrow 60 \\rightarrow 20$;\n\n$4 \\rightarrow 8 \\rightarrow 16 \\rightarrow 32 \\rightarrow 64 \\rightarrow 28 \\rightarrow 56 \\rightarrow 12 \\rightarrow 24 \\rightarrow 48 \\rightarrow 96 \\rightarrow 92 \\rightarrow 84 \\rightarrow 68 \\rightarrow 36 \\rightarrow 72 \\rightarrow 44 \\rightarrow 88 \\rightarrow 76 \\rightarrow 52 \\rightarrow 4$\n\nPierādīsim, ka tie skaitļi, kas nedalās ar $4$, nevar būt *patīkami*. Šķirojam \ndivus gadījums.\n\n- Nepāra skaitļi nevar būt *patīkami*, jo visi nākamie virknes locekļi būs tikai \n  pāra skaitļi un, tātad, sākotnējā $n$ vērtība tajā atkārtoti parādīties nevar.\n- Pāra skaitļi, kas nedalās ar $4$, var pierakstīt formā $n=4k+2$. Šajā \n  gadījumā otrais virknes loceklis būs vai nu $2 \\cdot(4k+2)=4 \\cdot(2k+1)$, \n  vai $2 \\cdot(4k+2)-100=4 \\cdot(2k-24)$. Abos gadījumos virknes otrais \n  loceklis dalās ar $4$ un tas ir uzrakstāms formā $4m$. Visi nākamie virknes \n  locekļi arī dalīsies ar $4$, jo vai nu $2 \\cdot 4m=8m$, vai \n  $2 \\cdot 4m-100=4 \\cdot(2m-25)$. Līdz ar to virknē nevar atkārtoti parādīties\n  skaitlis, kas nedalās ar $4$, un skaitlis $n=4k+2$ nav *patīkams*.\n\nTātad pavisam ir $25$ *patīkami* skaitļi.\n\n## Atrisinājums\n\nIr $25$ skaitļi, kas nepārsniedz $100$ un dalās ar $4$. Parādīsim, ka visi šie \nskaitļi ir *patīkami*. Ja skaitlis $x$ dalās ar $4$, tad gan $2x$, gan $2x-100$ \narī dalīsies ar $4$. Aplūkosim virkni, sākot ar patvaļīgu skaitli $x_{1}$, kas \ndalās ar $4$: $x_{1},\\ x_{2},\\ x_{3},\\ \\ldots$ Tā kā ir tikai $25$ skaitļi, kas\ntajā var parādīties, tad skaidrs, ka kādā brīdī virknes locekļi sāks \natkārtoties. Aplūkosim pirmo skaitli virknē, kas atkārtojas, tas ir, tādu \n$x_{j+1}$, ka visi iepriekšējie $x_{1},\\ x_{2},\\ \\ldots,\\ x_{j}$ ir dažādi, bet\n$x_{j+1}$ ir vienāds ar kādu no tiem. Pierādīsim, ka $x_{j+1}=x_{1}$, ar to arī\nbūs pierādīts, ka skaitlis $x_{1}$ ir *patīkams*. Pieņemsim pretējo, ka \n$x_{j+1}=x_{k+1}$ un aplūkosim, kādi varēja būt iepriekšējie skaitļi $x_{j}$ un\n$x_{k}$. Tā kā tiem jābūt dažādiem, tad skaidrs, ka $x_{j+1}$ un $x_{k+1}$ tika\niegūti ar dažādām darbībām, tas ir, $x_{j+1}=2x_{j}$ un $x_{k+1}=2x_{k}-100$ \n(vai otrādi), kas nozīmē, ka $2x_{j}=2x_{k}-100$ jeb $x_{k}-x_{j}=50$ un tā ir \npretruna, jo gan $x_{j}$, gan $x_{k}$ dalās ar $4$, bet $50$ nedalās ar $4$.\n\nVēl jāpierāda, ka pārējie skaitļi nav *patīkami*. Skaidrs, ka nepāra skaitļi nav \n*patīkami*, jo, ja $x$ ir nepāra skaitlis, tad gan $2x$, gan $2x-100$ ir pāra \nskaitļi un tālāk virknē visi skaitļi būs pāra.\n\nJa skaitlis $x$ dalās ar $2$, bet nedalās ar $4$, tad $x$ nav *patīkams*, jo, gan\n$2x$, gan $2x-100$ dalās ar $4$ un tālāk virknē visi skaitļi dalīsies ar $4$."
+  },
+  {
+    "id": "LV.VOL.2015.9.4",
+    "year": 2015,
+    "num": 4,
+    "images": [
+      "LV.VOL.2015.9.4A.png"
+    ],
+    "problem_text": "Trijstūrī $ABC$ novilkta bisektrise $BL$ ($L$ atrodas uz malas $AC$), tā krusto\ntaisni, kas no $A$ vilkta paralēli $BC$, punktā $K$. Zināms, ka $LK=AB$. \nPierādīt, ka $AB>BC$ !",
+    "solution_text": "<small>\n\n* questionType:Prove\n* domain:Geom\n* _subdomain: DOM_Triangles\n\n</small>\n\n## Atrisinājums\n\nTā kā $\\sphericalangle LBC=\\sphericalangle LBA$ pēc bisektrises definīcijas un \n$\\sphericalangle LBC=\\sphericalangle AKB$ kā iekšējie šķērsleņķi pie paralēlām \ntaisnēm $BC$ un $AK$, tad $\\sphericalangle LBA=\\sphericalangle AKB$ un \ntrijstūris $AKB$ ir vienādsānu, pie kam $AB=AK$ (skat. A3.att.). Arī trijstūris\n$AKL$ ir vienādsānu, jo pēc dotā un iepriekš iegūtā $LK=AB=AK$. Vienādsānu \ntrijstūrim leņķi pie pamata ir vienādi, tāpēc \n$\\sphericalangle ALK=\\sphericalangle LAK$.\n\nTā kā $\\sphericalangle ALK=\\sphericalangle BLC$ kā krustleņķi un \n$\\sphericalangle LAK=\\sphericalangle ACB$ kā iekšējie šķērsleņķi pie paralēlām \ntaisnēm $BC$ un $AK$, tad $\\sphericalangle BLC=\\sphericalangle BCL$ un \ntrijstūris $LBC$ ir vienādsānu, pie kam $BL=BC$.\n\nNo trijstūra nevienādības $AB+AK>BK=BL+LK=BC+AK$ un no tā seko, ka $AB>BC$.\n\n![](LV.VOL.2015.9.4A.png)"
+  },
+  {
+    "id": "LV.VOL.2015.9.5",
+    "year": 2015,
+    "num": 5,
+    "images": [],
+    "problem_text": "Kāda ir izteiksmes $a^{20}+a^{4}+\\frac{1}{a^{4}+1}$ mazākā iespējamā vērtība, \nja $a$ ir reāls skaitlis?",
+    "solution_text": "<small>\n\n* questionType:FindOptimal\n* domain:Alg\n* _subdomain: DOM_Extremes\n\n</small>\n\n## Atrisinājums\n\nDotās izteiksmes mazākā iespējamā vērtība ir $1$, to iegūst, ja $a=0$. \nPamatosim, ka mazāku vērtību nevar iegūt.\n\nEkvivalenti pārveidojam doto izteiksmi: \n$a^{20}+a^{4}+\\frac{1}{a^{4}+1}=a^{20}+\\frac{a^{8}+a^{4}+1}{a^{4}+1}=a^{20}+\\frac{a^{8}}{a^{4}+1}+1$.\n\nPirmie divi saskaitāmie ir nenegatīvi, tātad šīs izteiksmes vērtība ir vismaz $1$.\n\n## Atrisinājums\n\nDotās izteiksmes mazākā iespējamā vērtība ir $1$, to iegūst, ja $a=0$. \nPamatosim, ka mazāku vētību nevar iegūt.\n\nEkvivalenti pārveidojam doto izteiksmi: \n$a^{20}+a^{4}+\\frac{1}{a^{4}+1}=a^{20}-1+\\left(a^{4}+1\\right)+\\frac{1}{a^{4}+1}$.\n\nNo sakarības starp vidējo aritmētisko un vidējo ģeometrisko izriet, ka\n\n$$\\left(a^{4}+1\\right)+\\frac{1}{a^{4}+1} \\geq 2 \\cdot \\sqrt{\\left(a^{4}+1\\right) \\cdot \\frac{1}{a^{4}+1}}=2$$\n\nTā kā $a^{20} \\geq 0$, tad iegūstam \n$a^{20}+a^{4}+\\frac{1}{a^{4}+1} \\geq 0-1+2=1$. Tātad dotās izteiksmes vērtība \nir vismaz $1$."
+  },
+  {
+    "id": "LV.VOL.2016.9.1",
+    "year": 2016,
+    "num": 1,
+    "images": [],
+    "problem_text": "Zināms, ka $x$ un $y$ ir tādi naturāli skaitļi, ka $xy^{2}$ ir naturāla skaitļa\nkubs. Pierādīt, ka arī $x^{2}y$ ir naturāla skaitļa kubs!",
+    "solution_text": "<small>\n\n* questionType:Prove\n* domain:NT\n* _subdomain: DOM_PrimeFactors\n\n</small>\n\n## Atrisinājums\n\nApzīmējam $xy^{2}=z^{3}$, kur $z$ - naturāls skaitlis. Kāpinot abas puses \nkvadrātā, iegūstam $x^{2}y^{4}=z^{6}$. Izsakām\n\n$$x^{2} y=\\frac{z^{6}}{y^{3}}=\\left(\\frac{z^{2}}{y}\\right)^{3}$$\n\nSkaitlis $x^{2}y$ ir naturāls skaitlis, tāpēc arī \n$\\left(\\frac{z^{2}}{y}\\right)^{3}$ ir naturāls. Ja $z^{2}$ nedalītos ar $y$, \ntad $\\frac{z^{2}}{y}$ varētu izteikt kā nesaīsināmu daļu $\\frac{m}{n}$. Bet tad\narī $\\frac{m^{3}}{n^{3}}$ būtu nesaīsināma daļa, taču tam jābūt naturālam \nskaitlim - pretruna. Tāpēc $z^{2}$ dalās ar $y$ un tātad $x^{2} y$ ir naturāla \nskaitļa kubs."
+  },
+  {
+    "id": "LV.VOL.2016.9.2",
+    "year": 2016,
+    "num": 2,
+    "images": [
+      "LV.VOL.2016.9.2A.png"
+    ],
+    "problem_text": "Trijstūrī $ABC$ novilkta mediāna $AF$, punkts $D$ ir tās viduspunkts. Taisne \n$CD$ krusto malu $AB$ punktā $E$. Pierādīt: ja $BD=BF$, tad $AE=DE$ !",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Triangles\n\n</small>\n\n## Atrisinājums\n\nTrijstūris $DBF$ ir vienādsānu ($BD=BF$ pēc dotā), tāpēc \n$\\sphericalangle BDF=\\sphericalangle BFD$ kā leņķi pie pamata malas (skat. \n1.att.). Tā kā $AD=DF$ (jo $D$ ir $AF$ viduspunkts), \n$\\sphericalangle ADB=\\sphericalangle DFC$ (kā vienādu leņķu blakusleņķi) un \n$BD=FC$, tad $\\triangle ADB=\\triangle DFC$ pēc pazīmes $m \\ell m$. Tātad \n$\\sphericalangle BAD=\\sphericalangle CDF$ kā atbilstošie leņķi vienādos \ntrijstūros. Tā kā $\\sphericalangle EDA=\\sphericalangle CDF$ kā krustleņķi, tad \n$\\sphericalangle EAD=\\sphericalangle EDA$ un $\\triangle AED$ ir vienādsānu \ntrijstūris. Līdz ar to $AE=DE$ kā sānu malas vienādsānu trijstūrī.\n\n![](LV.VOL.2016.9.2A.png)"
+  },
+  {
+    "id": "LV.VOL.2016.9.3",
+    "year": 2016,
+    "num": 3,
+    "images": [
+      "LV.VOL.2016.9.3A.png",
+      "LV.VOL.2016.9.3B.png",
+      "LV.VOL.2016.9.3C.png"
+    ],
+    "problem_text": "Vai tabulā, kuras izmēri ir $4 \\times 4$ rūtiņas, var ierakstīt naturālus \nskaitļus no $1$ līdz $16$ (katrā rūtiņā citu) tā, lai katrās divās rūtiņās, \nkurām ir kopīga mala, ierakstīto skaitļu starpība būtu vismaz **(A)** $6$; \n**(B)** $7$?\n\n![](LV.VOL.2016.9.3A.png)",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_MagicConfigurations\n\n</small>\n\n## Atrisinājums\n\n**(A)** Jā, skaitļus tabulā var ierakstīt, piemēram, skat. 2.att., kur pelēkā \nkrāsā norādītas skaitļu starpības.\n\n**(B)** Pamatosim, ka skaitļus tabulā nevar ierakstīt tā, lai izpildās uzdevuma\nnosacījumi. Skaitlim $8$ blakus var atrasties tikai skaitļi $1,\\ 15$ un $16$. \nPieņemsim, ka $1$ neatrodas blakus $8$. Tad skaitlim $8$ ir tikai divi kaimiņi,\ntātad tas atrodas stūrī (skat. 3.att.).\n\nSkaitlim $7$ var atrasties blakus tikai skaitļi $14,\\ 15,\\ 16$, tātad tas \nnoteikti ir blakus skaitlim $15$ vai $16$ (skat. 3.att.), līdz ar to tas \natrodas kādā no vietām $a,\\ b,\\ c$. Tas nevar būt $b$ vietā, jo tur tam būtu \nčetri kaimiņi. Tas nevar atrasties $a$ vietā, jo tur tam ir trīs kaimiņi, bet \nviens no skaitļiem, kas tam varētu būt blakus (skaitlis $16$) tam blakus \nneatrodas. Līdzīgi skaitlis $7$ nevar atrasties arī $c$ vietā.\n\nLīdz ar to esam ieguvuši, ka skaitļiem $1$ un $8$ jābūt blakus. Nezaudējot \nvispārīgumu, varam pieņemt, ka skaitļi izkārtoti tā, kā parādīts 4.att. \nSkaitlis $x$ nevar būt $15$, jo tad $y$ vietā būtu jāieraksta skaitlis $8$, bet\ntas jau ir ierakstīts tabulā. Tātad $x$ vietā jābūt skaitlim $16$, un tad \nvienīgā iespējamā $y$ vērtība ir $9$. Līdz ar to esam ieguvuši 5.att. parādīto \nskaitļu izkārtojumu.\n\n![](LV.VOL.2016.9.3B.png)\n\nIevērojam, ka skaitlim $9$ blakus rūtiņās var būt ierakstīti tikai skaitļi \n$1,\\ 2,\\ 16$. Tātad skaitlis $8$ nav stūrī, jo tad skaitlim $9$ būtu četri \nkaimiņi. Tieši tāpat stūrī nav arī skaitlis $9$, jo tad skaitlim $8$ būtu četri\nkaimiņi. Tātad tiem ir vēl pa vienam kaimiņam. Skaidrs, ka skaitlim $8$ vēl ir \nkaimiņš $15$, bet skaitlim $9$ vēl ir kaimiņš $2$. Iespējami divi gadījumi, kur\nattiecībā pret skaitli $8$ var būt ierakstīts skaitlis $15$ (skat. 6.att. un \n7.att.). Neviens no šiem gadījumiem nav iespējams, jo $z$ vietā būtu jāieraksta \nskaitlis $9$, bet $t$ vietā - skaitlis $8$.\n\n![](LV.VOL.2016.9.3C.png)"
+  },
+  {
+    "id": "LV.VOL.2016.9.4",
+    "year": 2016,
+    "num": 4,
+    "images": [],
+    "problem_text": "Atrast skaitļa $\\frac{2016^{2016}-3}{3}$ mazāko pirmreizinātāju!",
+    "solution_text": "<small>\n\n* questionType:FindOptimal\n* domain:NT\n* _subdomain: DOM_PrimeFactors\n\n</small>\n\n## Atrisinājums\n\nApzīmēsim $N=2016^{2016}-3$, tad dotais skaitlis ir $\\frac{N}{3}$.\n\nTā kā $2016^{2016}$ ir pāra skaitlis, tad $N$ ir nepāra un arī dotais skaitlis \nir nepāra, tātad tas nedalās ar $2$.\n\nIevērojam, ka $2016$ dalās ar $9$, tātad \n$N \\equiv 0^{2016}-3 \\equiv 0-3 \\equiv-3 \\equiv 6(\\bmod 9)$. Tā kā skaitlis $N$\ndalās ar $3$, bet nedalās ar $9$, tad dotajam skaitlim nav pirmreizinātājs $3$.\n\nNo kongruences $2016 \\equiv 1(\\bmod 5)$ izriet, ka \n$N \\equiv 1^{2016}-3 \\equiv 1+2 \\equiv 3(\\bmod 5)$, tātad dotais skaitlis \nnedalās ar $5$.\n\nNo kongruences $2016 \\equiv 0(\\bmod 7)$ izriet, ka \n$N \\equiv 0-3 \\equiv-3 \\equiv 4(\\bmod 7)$, tātad dotais skaitlis nedalās ar \n$7$. Ievērosim, ka $2016 \\equiv 3(\\bmod 11)$; tātad \n$N \\equiv 3^{2016}-3(\\bmod 11)$. Virkne $3^{n}, n=0,1,2, \\ldots$, ir periodiska\npēc moduļa $11$; apskatīsim šīs virknes pirmos locekļus:\n\n| $n$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $\\ldots$ |\n| :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $3^{n}(\\bmod 11)$ | $\\mathbf{1}$ | $3$ | $9$ | $5$ | $4$ | $\\mathbf{1}$ | $\\ldots$ |\n\nTā kā $3^{5} \\equiv 3^{0} \\equiv 1(\\bmod 11)$, tad secinām, ka \n$3^{2016} \\equiv 3^{403 \\cdot 5+1} \\equiv\\left(3^{5}\\right)^{403} \\cdot 3^{1} \\equiv 1^{403} \\cdot 3 \\equiv 3(\\bmod 11)$.\n\nLīdz ar to $N \\equiv 3^{2016}-3 \\equiv 0(\\bmod 11)$, tātad gan $N$, gan \n$\\frac{N}{3}$ dalās ar $11$. Tātad dotā skaitļa mazākais pirmreizinātājs ir \n$11$."
+  },
+  {
+    "id": "LV.VOL.2016.9.5",
+    "year": 2016,
+    "num": 5,
+    "images": [],
+    "problem_text": "Naturālu skaitļu virkni $\\left(s_{i}\\right)$ pēc parauga \" $2016$ \" veido šādi: \nvirknes pirmais loceklis $s_{1}$ ir $2$; virknes otrais loceklis $s_{2}$ - \nmazākais naturālais skaitlis, kas lielāks nekā $s_{1}$ un tā pierakstā ir \ncipars $0$; virknes trešais loceklis $s_{3}$ - mazākais naturālais skaitlis, \nkas lielāks nekā $s_{2}$ un tā pierakstā ir cipars $1$; virknes ceturtais \nloceklis $s_{4}$ - mazākais naturālais skaitlis, kas lielāks nekā $s_{3}$ un tā\npierakstā ir cipars $6$. Pēc tam meklētie cipari cikliski atkārtojas: \n$2-0-1-6-2-0-\\ldots$. Virknes pirmie locekļi ir \n$2;\\ 10;\\ 11;\\ 16;\\ 20;\\ 30;\\ 31;\\ 36;\\ 42;\\ 50$.\n\nKādi ir četri nākamie skaitļi, kas virknē seko aiz skaitļa $2016$?",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:NT\n* _subdomain: DOM_IntegerSequences\n\n</small>\n\n## Atrisinājums\n\nPavisam ir četru veidu *gājieni*: \" $2 \\rightarrow 0$ \" (skaitlis satur $2$ un \nmeklējam nākamo skaitli, kas satur $0$), \" $0 \\rightarrow 1$ \", \n\" $1 \\rightarrow 6$ \" un \" $6 \\rightarrow 2$ \". Turklāt šie *gājieni* cikliski \natkārtojas tieši šādā secībā.\n\nLai noskaidrotu, kuri nākamie skaitļi seko virknē pēc skaitļa $2016$, \nnepieciešams uzzināt, pēc kāda *gājiena* tika sasniegts skaitlis $2016$.\n\nAplūkosim iespējamos gadījumus.\n\n**(A)** Skaitli $2016$ nevar iegūt pēc *gājiena* \" $6 \\rightarrow 2$ \", jo \niepriekšējais virknes loceklis būtu $2006$, bet nākamais skaitlis, kas ir \nlielāks nekā $2006$ un satur ciparu $2$, ir $2007$.\n\n**(B)** Skaitli $2016$ nevar iegūt pēc *gājiena* \" $2 \\rightarrow 0$ \", jo \niepriekšējam virknes loceklim tad būtu jābūt $2015$, bet pirms tā izdarītajam \n*gājienam* jābūt \" $6 \\rightarrow 2$ \", kas noved pie tās pašas pretrunas kā \n(A) gadījumā.\n\n**(C)** Skaitli $2016$ nevar iegūt pēc *gājiena* \" $0 \\rightarrow 1$ \", jo \niepriekšējam virknes loceklim būtu jābūt $2015$, bet pirms tā izdarītajam \n*gājienam* jābūt \" $2 \\rightarrow 0$ \" un skaitlim $2014$. Savukārt, pirms \nskaitļa $2014$ izdarītajam *gājienam* jābūt \" $6 \\rightarrow 2$ \" un iegūstam \nlīdzīgu pretrunu kā (A) gadījumā.\n\n**(D)** Tātad skaitli $2016$ iegūst pēc *gājiena* \" $1 \\rightarrow 6$ \", un \nnākamie skaitļi virknē pēc *gājieniem* \" $6 \\rightarrow 2$ \", \n\" $2 \\rightarrow 0$ \", \" $0 \\rightarrow 1$ \" un \" $1 \\rightarrow 6$ \" ir \nskaitļi $2017,\\ 2018,\\ 2019$ un $2026$."
+  },
+  {
+    "id": "LV.VOL.2017.9.1",
+    "year": 2017,
+    "num": 1,
+    "images": [],
+    "problem_text": "Doti $63$ dažādi naturāli skaitļi, kuru summa ir $2017$. Atrodiet šos skaitļus \nun pamatojiet, ka citu nav!",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:Alg\n* _subdomain: DOM_NumericSets\n\n</small>\n\n## Atrisinājums\n\nDer skaitļi $1,\\ 2,\\ 3,\\ \\ldots,\\ 61,\\ 62,\\ 64$. Pierādīsim, ka citu nav. \nAplūkosim $63$ mazākos naturālos skaitļus. To summa ir \n$1+2+\\cdots+63=\\frac{(1+63) \\cdot 63}{2}=2016$. Meklēto skaitļu summa ir tikai \npar $1$ lielāka - vienīgais veids, kā to iegūt, ir skaitli $63$ aizstāt ar \n$64$."
+  },
+  {
+    "id": "LV.VOL.2017.9.2",
+    "year": 2017,
+    "num": 2,
+    "images": [
+      "LV.VOL.2017.9.2A.png"
+    ],
+    "problem_text": "Uz taisnes atlikti punkti $P,\\ Q,\\ R$ un $S$ tā, ka $PQ=RS$ (skat. 1.att.). \nNogriežņi $PQ,\\ RS,\\ PS,\\ QR$ ir riņķu diametri. Nogrieznis $MN$ ir iekrāsotās \nfigūras simetrijas ass. Pierādīt, ka iekrāsotās figūras laukums ir vienāds ar \nlaukumu riņķim, kura diametrs ir $MN$.\n\n![](LV.VOL.2017.9.2A.png)",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Area\n\n</small>\n\n## Atrisinājums\n\nNogriežņu $MN$ un $QR$ krustpunktu apzīmējam ar $O,\\ OQ=ON=OR=x$ (kā rādiusi) \nun $PQ=RS=y$. Simetrijas dēļ $OP=OS=OM=x+y$. Aprēķinām laukumus:\n\n$S_{MN}=\\left(\\frac{MN}{2}\\right)^{2} \\pi=\\frac{(2x+y)^{2}}{4} \\pi=\\frac{\\pi}{4}\\left(4x^{2}+4xy+y^{2}\\right)=\\pi\\left(x^{2}+xy+\\frac{1}{4} y^{2}\\right);$\n\n$S_{\\text {iekrāsotais }}=\\frac{1}{2} S_{QR}+\\frac{1}{2} S_{PS}-S_{PQ}=\\frac{1}{2} OR^{2} \\pi+\\frac{1}{2} OS^{2} \\pi-\\left(\\frac{PQ}{2}\\right)^{2} \\pi=\\pi\\left(\\frac{1}{2} x^{2}+\\frac{1}{2}(x+y)^{2}-\\left(\\frac{y}{2}\\right)^{2}\\right)=$  \n\n$=\\pi\\left(\\frac{1}{2} x^{2}+\\frac{1}{2} x^{2}+xy+\\frac{1}{2} y^{2}-\\frac{1}{4} y^{2}\\right)=\\pi\\left(x^{2}+xy+\\frac{1}{4} y^{2}\\right)$.\n\nTātad esam pierādījuši, ka iekrāsotās figūras laukums ir vienāds ar laukumu \nriņķim, kura diametrs ir $MN$."
+  },
+  {
+    "id": "LV.VOL.2017.9.3",
+    "year": 2017,
+    "num": 3,
+    "images": [],
+    "problem_text": "Naturālā piecciparu skaitlī vienādus ciparus aizstāja ar vienādiem burtiem, bet\ndažādus ciparus - ar dažādiem burtiem, un ieguva pierakstu $GANGA$. Zināms, ka \n$GANGA$, dalot ar $7$, dod atlikumu $A,\\ GANGA$, dalot ar $11$, dod atlikumu \n$N$, bet $GANGA$, dalot ar $13$, dod atlikumu $G$, turklāt $G>A>N$. Kāds varēja\nbūt sākotnējais skaitlis?",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:NT\n* _subdomain: DOM_Cryptarithm\n\n</small>\n\n## Atrisinājums\n\nNo tā, ka $GANGA$, dalot ar $7$, dod atlikumu $A,\\ GANGA$, dalot ar $11$, dod \natlikumu $N$, bet $GANGA$, dalot ar $13$, dod atlikumu $G$, izriet, ka \n$(\\overline{GANGA}-A)$ dalās ar $7,\\ (\\overline{GANGA}-N)$ dalās ar $11$ un \n$(\\overline{GANGA}-G)$ dalās ar $13$.\n\nPārveidojam doto skaitli\n\n$$\\overline{GANGA}=\\overline{GA} \\cdot 1000+N \\cdot 100+\\overline{GA}=1001 \\cdot \\overline{GA}+100 N=13 \\cdot 11 \\cdot 7 \\cdot \\overline{GA}+100N$$\n\nPirmais saskaitāmais dalās gan ar $13$, gan ar $11$, gan ar $7$.\n\nLai $(\\overline{GANGA}-G)$ dalītos ar $13,\\ (100N-G)$ ir jādalās ar $13$. \nIevērojot, ka\n\n$$100N-G=91N+9N-G=13 \\cdot 7N+9N-G$$\n\niegūstam, ka $(9N-G)$ jādalās ar $13$.\n\nLīdzīgi, ar $7$ ir jādalās $(100N-A)$. Pārveidojot\n\n$$100N-A=98N+2N-A=7 \\cdot 14N+2N-A$$\n\niegūstam, ka $(2N-A)$ jādalās ar $7$.\n\nVisbeidzot ar $11$ ir jādalās $100N-N=99 N$, kas vienmēr izpildās.\n\nTā kā $A$ ir atlikums, kas rodas, skaitli dalot ar $7$, tad $A \\leq 6$, un tā \nkā $A>N$, tad lielākā iespējamā $N$ vērtība ir $5$. Apskatīsim visus gadījumus.\n\n| $\\boldsymbol{N}$ | $\\mathbf{9N}-\\boldsymbol{G}$ | $\\boldsymbol{G}$, **lai** $(\\mathbf{9N}-\\boldsymbol{G}) \\vdots \\mathbf{13}$ | $\\mathbf{2N}-\\boldsymbol{A}$ | $\\boldsymbol{A}$, **lai** $(\\mathbf{2N}-\\boldsymbol{A}) \\vdots \\mathbf{7}$ | $\\overline{\\mathbf{GANGA}}$ |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $\\mathbf{0}$ | $-G$ | $0$ (neder, jo $N=0$ ) |  |  |  |\n| $\\mathbf{1}$ | $9-G$ | $9$ | $2-A$ | $2$ <br> $9$ (neder, jo $G=9)$ | $92192$ |\n| $\\mathbf{2}$ | $18-G$ | $5$ | $4-A$ | $4$ | $54254$ |\n| $\\mathbf{3}$ | $27-G$ | $1$ (neder, jo $G < N)$ |  |  |  |\n| $\\mathbf{4}$ | $36-G$ | nav |  |  |  |\n| $\\mathbf{5}$ | $45-G$ | $6$ | $10-A$ | $3$ (neder, jo $A < N$ ) |  |\n\nTātad sākotnējais skaitlis varēja būt $54254$ vai $92192$."
+  },
+  {
+    "id": "LV.VOL.2017.9.4",
+    "year": 2017,
+    "num": 4,
+    "images": [],
+    "problem_text": "Pierādīt, ka $x^{4}-x^{2}-3x+4>0$ visiem reāliem $x$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_ProvingInequalities\n\n</small>\n\n## Atrisinājums\n\nVeicam ekvivalentus pārveidojumus:\n\n$$\\begin{gathered}\n\\left(x^{2}\\right)^{2}-2x^{2}+1+x^{2}-2 \\cdot x \\cdot \\frac{3}{2}+\\frac{9}{4}+\\frac{3}{4}>0 \\\\\n\\left(x^{2}-1\\right)^{2}+\\left(x-\\frac{3}{2}\\right)^{2}+\\frac{3}{4}>0\n\\end{gathered}$$\n\nTā kā skaitļa kvadrāts ir nenegatīvs un $\\frac{3}{4}$ ir pozitīvs skaitlis, tad\npēdējā nevienādība ir patiesa. Tā kā tika veikti ekvivalenti pārveidojumi, tad \narī dotā nevienādība ir patiesa visiem reāliem skaitļiem $x$."
+  },
+  {
+    "id": "LV.VOL.2017.9.5",
+    "year": 2017,
+    "num": 5,
+    "images": [
+      "LV.VOL.2017.9.5A.png"
+    ],
+    "problem_text": "Katra no bumbiņām, kas atrodas kastē, nokrāsota vienā no $N$ krāsām, un uz \nkatras uzrakstīts naturāls skaitlis, kas nepārsniedz $N$. Zināms, ka katra no \n$N$ krāsām izmantota vismaz vienu reizi, tāpat arī katrs skaitlis, kas \nnepārsniedz $N$, izmantots vismaz vienu reizi. Kādām $N$ vērtībām kastē \nnoteikti varēs atrast $N$ dažādu krāsu bumbiņas, uz kurām būs rakstīti $N$ \ndažādi skaitļi?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CombinatorialStructures\n\n</small>\n\n## Atrisinājums\n\nJa $N=1$, tad kastē ir vismaz viena bumbiņa, kas nokrāsota vienīgajā \niespējamajā krāsā un uz tās uzrakstīts skaitlis $1$. Tātad vērtība $N=1$ der.\n\nParādīsim, ja $N=2$, tad vienmēr var atrast divas bumbiņas, kam izpildās \nprasītās īpašības. Izvēlamies patvaļīgu bumbiņu. Tās krāsu apzīmējam ar \n$k_{1}$, bet skaitli, kas uz tās uzrakstīts - ar $s_{1}$. Ja kastē atrodas \nbumbiņa, kuras krāsa ir $k_{2}$ un uz kuras uzrakstīts skaitlis $s_{2}$, tad \nesam atraduši nepieciešamo bumbiņu pāri. Apskatīsim gadījumu, kad kastē nav \nbumbiņa, kuras krāsa ir $k_{2}$ un uz kuras uzrakstīts skaitlis $s_{2}$. Tā kā \nkastē ir divu dažādu krāsu bumbiņas, tad kastē ir jābūt bumbiņai, kuras krāsa \nir $k_{2}$ un uz kuras uzrakstīts skaitlis $s_{1}$. Tā kā kastē ir bumbiņa, uz \nkuras uzrakstīts skaitlis $s_{2}$, tad kastē ir jābūt bumbiņai, kuras krāsa ir \n$k_{1}$ un uz kuras uzrakstīts skaitlis $s_{2}$. Tātad, kastē ir divas \nbumbiņas, kuru krāsas ir $k_{2}$ un $k_{1}$ un uz tām uzrakstītie skaitļi ir \nattiecīgi $s_{1}$ un $s_{2}$, kas veido nepieciešamo bumbiņu pāri.\n\nPamatosim, ka $N$ nevar būt lielāks kā $2$. Tabulā parādīts piemērs, kurā visas\nuzdevumā minētās īpašības izpildās, bet nevar atrast $N$ dažādu krāsu bumbiņas,\nuz kurām uzrakstīti visi skaitļi no $1$ līdz $N$.\n\n![](LV.VOL.2017.9.5A.png)"
+  },
+  {
+    "id": "LV.VOL.2018.9.1",
+    "year": 2018,
+    "num": 1,
+    "images": [],
+    "problem_text": "Zināms, ka $a$ un $b$ ir pozitīvi skaitļi, un kvadrātfunkciju \n$y=ax^{2}+2018x+b$ un $y=bx^{2}+2018x+a$ minimālo vērtību summa ir nulle. \nPierādīt, ka katrai no šīm kvadrātfunkcijām minimālā vērtība ir nulle!",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Extremes\n\n</small>\n\n## Atrisinājums\n\nAbām dotajām kvadrātfunkcijām ir vienāds sakņu skaits, jo tām ir vienāds \ndiskrimintants $D=2018^{2}-4ab$. Ja tām abām būtu divas saknes, tad to \nminimālās vērtības būtu negatīvas un to summa arī būtu negatīva. Ja tām abām \nnebūtu sakņu, tad to minimālās vērtības būtu pozitīvas un summa arī pozitīva. \nTātad tām abām ir tieši viena sakne, kas nozīmē, ka to minimālā vērtība ir \nnulle.\n\n## Atrisinājums\n\nTā kā $a$ un $b$ ir pozitīvi skaitļi, tad abu parabolu zari ir vērsti uz augšu \nun kvadrātfunkciju minimālā vērtība sakrīt ar parabolas virsotnes $y$ \nkoordinātu. Parabolas $y=ax^{2}+2018x+b$ virsotnes koordinātas ir\n\n$x_{v_{1}}=-\\frac{2018}{2a}=-\\frac{1009}{a}$ un \n$y_{v_{1}}=a \\cdot\\left(-\\frac{1009}{a}\\right)^{2}+2018 \\cdot\\left(-\\frac{1009}{a}\\right)+b=-\\frac{1009^{2}}{a}+b$\n\nbet parabolas $y=bx^{2}+2018x+a$ virsotnes koordinātas ir\n\n$x_{v_{2}}=-\\frac{1009}{b}$ un \n$y_{v_{2}}=b \\cdot\\left(-\\frac{1009}{b}\\right)^{2}+2018 \\cdot\\left(-\\frac{1009}{b}\\right)+a=-\\frac{1009^{2}}{b}+a$\n\nTā kā abu kvadrātfunkciju minimālo vērtību summa ir nulle, tad\n\n$$\\begin{gathered}\n-\\frac{1009^{2}}{a}+b-\\frac{1009^{2}}{b}+a=0 \\\\\na+b-\\frac{1009^{2}}{ab}(a+b)=0 \\\\\n(a+b)\\left(1-\\frac{1009^{2}}{ab}\\right)=0\n\\end{gathered}$$\n\nTā kā $a+b>0$, tad $\\left(1-\\frac{1009^{2}}{ab}\\right)=0$ jeb $ab=1009^{2}$. \nTātad $b=\\frac{1009^{2}}{a}$ un \n$y_{v_{1}}=-\\frac{1009^{2}}{a}+\\frac{1009^{2}}{a}=0$. Līdzīgi iegūst, ka \n$y_{v_{2}}=0$.\n\n*Piezīme.* Kvadrātfunkcijas minimālo vērtību var atrast arī atdalot \npilno kvadrātu:\n\n$$y=ax^{2}+2018 x+b=a\\left(x^{2}+2 \\cdot 1009 \\cdot x \\cdot \\frac{1}{a}+\\frac{1009^{2}}{a^{2}}\\right)+b-\\frac{1009^{2}}{a^{2}}=a\\left(x+\\frac{1009}{a}\\right)^{2}+b-\\frac{1009^{2}}{a^{2}}$$\n\nTā kā $a\\left(x+\\frac{1009}{a}\\right)^{2} \\geq 0$, tad kvadrātfunkcijas \nminimālā vērtība $y_{v_{1}}=b-\\frac{1009^{2}}{a^{2}}$."
+  },
+  {
+    "id": "LV.VOL.2018.9.2",
+    "year": 2018,
+    "num": 2,
+    "images": [],
+    "problem_text": "Izvēlēti trīs dažādi naturāli skaitļi un aprēķināti to reizinājumi pa pāriem, \niegūstot trīs reizinājumus. Pierādīt, ka šos reizinājumus, dalot ar $4$, \nvismaz divi dod vienādus atlikumus!",
+    "solution_text": "<small>\n\n* questionType:Prove\n* domain:NT\n* _subdomain: DOM_Congruences\n\n</small>\n\n## Atrisinājums\n\nKatru naturālu skaitli $n$ var izteikt formā $n=4b+a$, kur $b \\in \\mathbb{Z}$ \nun $a$ ir skaitļa $n$ atlikums, dalot ar $4$. Iespējamās atlikuma $a$ vērtības \nir $0,\\ 1,\\ 2$ vai $3$. Apskatām visus iespējamos gadījumus, kādus atlikumus \nvar dot trīs izvēlētie skaitļi.\n\n**1)** Ja kāds no skaitļiem dalās ar $4$ (jeb dod atlikumu $0$), tad šī skaitļa\nreizinājums ar pārējiem diviem skaitļiem arī dalās ar $4$ jeb šie divi \nreizinājumi dod atlikumu $0$.  \n**2)** Ja neviens no skaitļiem nedalās ar $4$, tad iespējami divi gadījumi.\n\n   a. Ja vismaz diviem skaitļiem atlikums, dalot ar $4$, ir vienāds, tas \n   ir, skaitļus varam izteikt formā $4k+q;\\ 4m+q$ un $4n+p$, tad reizinājumiem \n   $(4k+q)(4n+p)=4(4kn+kp+nq)+qp$ un $(4m+q)(4n+p)=4(4mn+mp+nq)+qp$ atlikums ir\n   vienāds ar $qp$ atlikumu, dalot ar $4$.\n\n   b. Ja visi atlikumi ir dažādi, tad viena skaitļa atlikums, dalot ar \n   $4$, ir $1$, otra - $2$, trešā - $3$, tas ir, skaitļus varam izteikt formā \n   $4k+1;\\ 4m+2$ un $4n+3$. Tad reizinājuma $(4k+1)(4m+2)=4(4km+2k+m)+2$ \n   atlikums ir vienāds ar reizinājuma $(4m+2)(4n+3)=4(4mn+3m+2n+4)+2$ atlikumu,\n   tas ir, ir vienāds ar $2$.\n\nEsam aplūkojuši visus gadījumus un prasītais pierādīts."
+  },
+  {
+    "id": "LV.VOL.2018.9.3",
+    "year": 2018,
+    "num": 3,
+    "images": [
+      "LV.VOL.2018.9.3A.png"
+    ],
+    "problem_text": "Rūtiņu tabulas ar izmēriem $8 \\times 14$ katrā rūtiņā sēž tieši viena muša. \nVisas mušas pārlido uz citu tabulu ar izmēriem $7 \\times 16$ rūtiņas tā, ka \nkatrā rūtiņā atkal ir tieši viena muša. Vai iespējams, ka visas mušas, kas bija\nkaimiņi sākotnējā izvietojumā (tas ir, atradās blakus rūtiņās ar kopīgu malu), \nbūs kaimiņi arī jaunajā izvietojumā?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_GridReorder\n\n</small>\n\n## Atrisinājums\n\nPamatosim, ka prasītais nav iespējams. Pieņemsim, ka mušas ir pārlidojušas tā, \nka visas, kas bija kaimiņos pirms pārlidošanas, ir kaimiņos arī pēc tās. \nlevērojam, ka stūra rūtiņā (skat. 1.att. melnās rūtiņas) sēdošai mušai ir tieši\n$2$ kaimiņi, malējā rūtiņā (pelēkās rūtiņas) - tieši $3$ kaimiņi un vidējā \nrūtiņā (baltās rūtiņas) - tieši $4$ kaimiņi. Skaidrs, ka katrai mušai kaimiņu \nskaits nemainās vai palielinās (ja tas samazinātos, tad kādu no kaimiņiem tā \nbūtu pazaudējusi). Tātad stūra rūtiņās, kurās mušām ir tikai divi kaimiņi, var \nielidot tikai mušas, kas arī pirms tam bijušas stūros. Tabulā ar izmēriem \n$8 \\times 14$ rūtiņas ir $36$ malējās rūtiņas, bet tabulai ar izmēriem \n$7 \\times 16$ ir $38$ malējās rūtiņas. Tā kā abās tabulās ir vienāds rūtiņu \nskaits, tad divas malējās rūtiņas būs jāaizņem mušām, kuras atradās sākotnējās \ntabulas vidējās rūtiņās, bet tad tās būtu pazaudējušas vismaz vienu kaimiņu, \nkas ir pretrunā ar pieņēmumu.\n\n![](LV.VOL.2018.9.3A.png)\n\n## Atrisinājums\n\nPamatosim, ka prasītais nav iespējams. Saskaitīsim, cik mušu pāri bija kaimiņi \npirms un pēc pārlidošanas. Kaimiņu katrā tabulā ir tieši tik, cik ir iekšējo \nlīniju, katra iekšējā līnija atdala divas kaimiņu mušas. Tātad pirms \npārlidošanas kaimiņu skaits bija $7 \\cdot 14+8 \\cdot 13=202$, bet pēc \npārlidošanas tas ir $6 \\cdot 16+7 \\cdot 15=201$, tātad ir vismaz viens mušu \npāris, kas bija kaimiņi pirms pārlidošanas, bet nav kaimiņi pēc."
+  },
+  {
+    "id": "LV.VOL.2018.9.4",
+    "year": 2018,
+    "num": 4,
+    "images": [
+      "LV.VOL.2018.9.4A.png"
+    ],
+    "problem_text": "Dots vienādsānu trijstūris $ABC$, kuram $AC=6$ un $AB=BC=5$. Uz malas $AB$ \natlikts tāds punkts $D$, ka $BD=2$, un uz malas $AC$ atlikts tāds punkts $E$, \nka $AE=2$. Nogriežņi $BE$ un $CD$ krustojas punktā $M$. Aprēķināt trijstūra \n$BMC$ laukumu!",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Area\n\n</small>\n\n## Atrisinājums\n\nNovelkam trijstūrī $ABC$ augstumu $BH$ (skat. 2.att.). Tā kā $BH$ ir arī \nmediāna, tad $HC=\\frac{1}{2} AC=3$, un pēc Pitagora teorēmas $\\triangle BHC$ \naprēķinām $BH=\\sqrt{BC^{2}-HC^{2}}=4$. Tad $S_{ABC}=\\frac{1}{2} BH \\cdot AC=12$.\nTā kā trijstūriem $BCD$ un $DCA$ ir kopīgs augstums no virsotnes $C$, tad \n$S_{BDC}=\\frac{2}{5} S_{ABC}=\\frac{24}{5}$ un \n$S_{ADC}=\\frac{3}{5} S_{ABC}=\\frac{36}{5}$. Iegūstam, ka \n$h_{AC}=\\frac{2S_{ADC}}{AC}=\\frac{12}{5}$, kur $h_{AC}$ ir no virsotnes $D$ \nvilktais augstums. Aprēķinām $S_{DEC}=\\frac{1}{2} EC \\cdot h_{AC}=\\frac{24}{5}$.\nTātad $S_{DEC}=S_{BDC}$. Tas nozīmē, ka augstums no $B$ pret $CD$ ir vienāds ar\naugstumu no $E$ pret $CD$, no kā izriet, ka trijstūru $BMC$ un $EMC$ laukumi ir\nvienādi. Tātad \n$S_{BMC}=\\frac{1}{2} S_{BEC}=\\frac{1}{2} \\cdot 4 \\cdot \\frac{4}{2}=4$.\n\n![](LV.VOL.2018.9.4A.png)\n\n## Atrisinājums\n\nNovelkam trijstūrī $ABC$ augstumu $BH$ (skat. 3.att.). Tā kā $BH$ ir arī \nmediāna, tad $HC=\\frac{1}{2} AC=3$, un pēc Pitagora teorēmas $\\triangle BHC$ \naprēķinām $BH=\\sqrt{BC^{2}-HC^{2}}=4$. Tad $S_{BEC}=\\frac{1}{2} EC$. \n$BH=\\frac{1}{2} \\cdot 4 \\cdot 4=8$. Novelkam $EK \\parallel AB$, kur punkts $K$ \natrodas uz $CD$ (skat. 4.att.). Tad $\\triangle ACD \\sim \\triangle ECK$, jo \n$EK \\parallel AD$. Tad $\\frac{EK}{AD}=\\frac{EC}{AC}$ jeb \n$\\frac{EK}{3}=\\frac{4}{6}$ no kā izriet, ka $EK=2$. Tā kā \n$\\sphericalangle DBM=\\sphericalangle KEM$ un \n$\\sphericalangle BDM=\\sphericalangle EKM$ kā iekšējie šķērsleņķi pie paralēlām \ntaisnēm un $BD=EK=2$, tad $\\triangle DMB=\\Delta KME$ pēc pazīmes $\\ell m \\ell$.\nTā kā $BM=ME$ kā atbilstošās malas vienādos trijstūros un trijstūriem $BMC$ un \n$MEC$ sakrīt augstums, tad \n$S_{BMC}=S_{MEC}=\\frac{1}{2} S_{BEC}=\\frac{1}{2} \\cdot 8=4$."
+  },
+  {
+    "id": "LV.VOL.2018.9.5",
+    "year": 2018,
+    "num": 5,
+    "images": [
+      "LV.VOL.2018.9.5.png",
+      "LV.VOL.2018.9.5A.png"
+    ],
+    "problem_text": "Rindā izvietotas $2018$ monētas. Vienā gājienā drīkst paņemt vienu monētu, \npārcelt to pāri tieši divām monētām un uzlikt to uz nākamās monētas. Vai $1009$\ngājienos visas monētas iespējams savākt kaudzītēs pa divām monētām katrā \nkaudzītē?\n\n![](LV.VOL.2018.9.5.png)",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_MakingMoves\n\n</small>\n\n## Atrisinājums\n\nPamatosim, ka prasītais ir iespējams. Ja ir $10$ monētas vai $8$ monētas, tad \nattiecīgi ar $5$ vai $4$ gājieniem tās var savākt kaudzītēs pa divām monētām \nkatrā kaudzītē, skat., piemēram, 6.att. un 7.att. Tā kā $2018=201 \\cdot 10+8$, \ntad ar $201 \\cdot 5+4=1009$ gājieniem monētas iespējams savākt kaudzītēs pa \ndivām monētām katrā kaudzītē.\n\n![](LV.VOL.2018.9.5A.png)"
+  },
+  {
+    "id": "LV.VOL.2019.9.1",
+    "year": 2019,
+    "num": 1,
+    "images": [],
+    "problem_text": "Reālus skaitļus $a$ un $b$ saista sakarība $\\frac{4a^{2}-7b^{2}}{ab}=12$. Kāda\nvar būt $\\frac{4a^{2}+7b^{2}}{ab}$ vērtība?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_AlgebraicOperations\n\n</small>\n\n## Atrisinājums\n\nPārveidojot doto izteiksmi, iegūstam\n\n$$\\begin{gathered}\n4a^{2}-7b^{2}=12ab \\\\\n4a^{2}-12ab+9b^{2}=16b^{2} \\\\\n(2a-3b)^{2}=(4b)^{2} \\\\\n2a-3b= \\pm 4b\n\\end{gathered}$$\n\nApskatām katru gadījumu.\n\n1. Ja $2a-3b=4b$ jeb $2a=7b$ un $a=\\frac{7}{2} b$, tad\n\n$$\\frac{4a^{2}+7b^{2}}{ab}=\\frac{(7b)^{2}+7 \\cdot b^{2}}{\\frac{7}{2} b \\cdot b}=\\frac{49b^{2}+7b^{2}}{\\frac{7}{2} b^{2}}=56 \\cdot \\frac{2}{7}=8 \\cdot 2=16$$\n\n2. Ja $2a-3b=-4b$ jeb $b=-2a$, tad\n\n$$\\frac{4a^{2}+7b^{2}}{ab}=\\frac{4a^{2}+7(-2a)^{2}}{-2a^{2}}=\\frac{4a^{2}+28a^{2}}{-2a^{2}}=\\frac{32}{-2}=-16$$\n\nTātad izteiksmes $\\frac{4a^{2}+7b^{2}}{ab}$ vērtība ir vai nu $16$ (ja \n$a=\\frac{7b}{2}$), vai $-16$ (ja $b=-2a$).\n\n*Piezīme.* Sakarību starp $a$ un $b$ var iegūt arī, dotās vienādības kreisās \npuses izteiksmes skaitītāja katru saskaitāmo izdalot ar $ab$, apzīmējot \n$\\frac{a}{b}=x$ un atrisinot iegūto vienādojumu \n$4 \\frac{a}{b}-7 \\frac{b}{a}=12$ jeb $4 x-\\frac{7}{x}=12$."
+  },
+  {
+    "id": "LV.VOL.2019.9.2",
+    "year": 2019,
+    "num": 2,
+    "images": [
+      "LV.VOL.2019.9.2A.png"
+    ],
+    "problem_text": "Uz trijstūra $ABC$ malām $AC$ un $BC$ attiecīgi atlikti punkti $M$ un $N$. \nNogriežņi $AN$ un $BM$ krustojas punktā $P$. Aprēķināt trijstūra $ABC$ laukumu,\nja $S(AMP)=S(BNP)=8$ un $S(NMP)=4$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Area, DOM_Triangles\n\n</small>\n\n## Atrisinājums\n\nIevērojam, ka $S(MAN)=S(NBM)=8+4=12$ (skat. 1.att.) un šiem trijstūriem ir \nkopīga mala $MN$, tāpēc augstumi, kas no virsotnēm $A$ un $B$ novilkti pret šo \nmalu $MN$, ir vienādi jeb punkti $A$ un $B$ atrodas vienādā attālumā no \nnogriežņa $MN$. Tātad $MN \\parallel AB$. Apskatām attiecību\n\n$$\\frac{S(MNP)}{S(PNB)}=\\frac{\\frac{1}{2} MP \\cdot h_{MP}}{\\frac{1}{2} BP \\cdot h_{BP}}$$\n\nIevērojot, ka $h_{MP}=h_{BP}$, iegūstam \n$\\frac{MN}{AB}=\\frac{MP}{BP}=\\frac{4}{8}=\\frac{1}{2}$.\n\nTrijstūri $MPN$ un $BPA$ ir līdzīgi pēc pazīmes $\\ell \\ell$, jo \n$\\sphericalangle MPN=\\sphericalangle BPA$ kā krustleņķi \n$\\sphericalangle MNA=\\sphericalangle NAB$ kā iekšējie šķērsleņķi pie paralēlām \ntaisnēm $MN$ un $AB$. Tad \n$\\frac{S(MPN)}{S(BPA)}=\\left(\\frac{MP}{BP}\\right)^{2}=\\frac{1}{4}$, no kā \nizriet, ka $S(BPA)=4 \\cdot 4=16$. Esam ieguvuši, ka $S(AMNB)=4+8 \\cdot 2+16=36$\n\nTā kā $MN \\parallel AB$, tad $\\triangle MCN \\sim \\triangle ACB$ un \n$\\frac{S(MCN)}{S(ACB)}=\\left(\\frac{MN}{AB}\\right)^{2}=\\left(\\frac{1}{2}\\right)^{2}$\njeb\n\n$\\frac{S(ACB)-36}{S(ACB)}=\\frac{1}{4}$. Izsakām trijstūra $ACB$ laukumu:\n\n$$\\begin{gathered}\n4 \\cdot S(ACB)-4 \\cdot 36=S(ACB) \\\\\n3 \\cdot S(ACB)=4 \\cdot 36 \\\\\nS(ACB)=48\n\\end{gathered}$$\n\n![](LV.VOL.2019.9.2A.png)"
+  },
+  {
+    "id": "LV.VOL.2019.9.3",
+    "year": 2019,
+    "num": 3,
+    "images": [],
+    "problem_text": "Vai naturāla skaitļa kvadrāta ciparu summa var būt **(A)** $19$, **(B)** $2019$?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove\n* domain:NT\n* _subdomain: DOM_NumeralSystems\n\n</small>\n\n## Atrisinājums\n\n**(A)** Jā, var, piemēram, $17^{2}=289$ un $2+8+9=19$.\n\n<<<<<<< HEAD\n*Piezīme.* Tā kā $19 \\equiv 1(\\bmod 9)$, tad jāmeklē skaitļi, kuru kvadrāts ir \nkongruents ar $1(\\bmod 9)$, tātad paši skaitļi ir $\\pm 1$ $(\\bmod 9)$. Der arī \n=======\n$\\textit {Piezīme.}$ Tā kā $19 \\equiv 1(\\bmod 9)$, tad jāmeklē skaitļi, kuru kvadrāts ir \nkongruents ar $1 \\pmod 9$, tātad paši skaitļi ir $\\pm 1 \\pmod 9$. Der arī \n>>>>>>> 52493569e01e32faa41676aa42a782d2400ab975\nskaitļi $26, 28, 37, 44, 53, 62, 64, 73, 82, 89, 91$, utt.\n\n**(B)** Nē, nevar. Naturālā skaitļa $n$ kvadrāta ciparu summa $2019$ dalās ar \n$3$, tātad arī $n^{2}$ dalās ar $3$. Tā kā naturāla skaitļa kvadrāts dalās ar \n$3$, tad arī pats skaitlis $n$ dalās ar $3$, bet tādā gadījumā $n^{2}$ ir \njādalās ar $9$. Bet skaitļa $n^{2}$ ciparu summa ir $2019$, kas nedalās ar $9$ \nnedalās, tātad $2019$ nevar būt naturāla skaitļa kvadrāta ciparu summa."
+  },
+  {
+    "id": "LV.VOL.2019.9.4",
+    "year": 2019,
+    "num": 4,
+    "images": [
+      "LV.VOL.2019.9.4A.png"
+    ],
+    "problem_text": "Sākotnēji katrā kvadrāta $5 \\times 5$ rūtiņā atradās tieši viena skudra. Tad \nkatra skudra pārvietojās uz kādu blakus rūtiņu (tas ir, uz rūtiņu, kam ar esošo\nir kopīga mala). Kāds tagad ir **a)** mazākais; **b)** lielākais iespējamais \ntukšo rūtiņu skaits?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CombinatorialStructures\n\n</small>\n\n## Atrisinājums\n\n**a)** Mazākais iespējamais tukšo rūtiņu skaits ir $1$. lekrāsojam doto \nkvadrātu kā šaha galdiņu (skat. 2.att.). Tad ir $13$ melnas un $12$ baltas \nrūtiņas. Tās $13$ skudras, kas atrodas $13$ melnajās rūtiņās, ir pārvietojušās\nuz baltajām rūtiņām. Tā kā balto rūtiņu skaits ir $12$, tad vismaz vienā rūtiņā\nnonāks vairāk nekā viena skudra. Tātad vismaz viena rūtiņa paliks tukša. Skat.,\npiemēram, 2.att., kur skudra no augšējās kreisās rūtiņas pārvietojas bultiņas \nnorādītajā virzienā, bet pārējās skudras ar biezāku līniju izceltajos divu \nrūtiņu laukumos samainās vietām.\n\n**b)** Lielākais iespējamais tukšo rūtiņu skaits ir $16$. Viens no šādiem \npārvietojumiem parādīts 4.att.\n\nPamatosim, ka $16$ ir lielākais iespējamais tukšo rūtiņu skaits. Skudras, kas \natrodas 3.att. iekrāsotajās rūtiņās pēc pārvietošanās uz blakus rūtiņām atkal \nkopā aizņems $9$ rūtiņas, jo nekādas divas no šīm skudrām nevar nonākt vienā un\ntajā pašā rūtiņā. Tātad var palikt ne vairāk kā $25-9=16$ tukšas rūtiņas.\n\n![](LV.VOL.2019.9.4A.png)"
+  },
+  {
+    "id": "LV.VOL.2019.9.5",
+    "year": 2019,
+    "num": 5,
+    "images": [],
+    "problem_text": "Hokeja turnīrā piedalijās $16$ komandas. Katra komanda ar katru citu spēlēja \ntieši vienu reizi; neizšķirtu nav. Apzīmēsim katras komandas uzvaru un \nzaudējumu skaitu attiecīgi ar $x_{i}$ un $y_{i}, i=1; 2; \\ldots ; 16$. \nPierādīt, ka \n$x_{1}^{2}+x_{2}^{2}+\\ldots+x_{16}^{2}=y_{1}^{2}+y_{2}^{2}+\\ldots+y_{16}^{2}$",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CombinatorialStructures\n\n</small>\n\n## Atrisinājums\n\nTā kā turnīrā piedalījās $16$ komandas un katra komanda spēlēja ar katru citu, \ntad katra komanda ir piedalījusies tieši $15$ spēlēs.\n\nTā kā komanda jebkurā spēlē vai nu uzvarēja, vai zaudēja (neizšķirtu nav), tad \nskaidrs, ka $i$-tās komandas uzvaru skaitu var izteikt ar zaudējumu skaitu, tas\nir, $x_{i}=15-y_{i}$. Tad\n\n$$\\begin{aligned}\nx_{1}^{2}+x_{2}^{2}+\\cdots+x_{16}^{2} & =\\left(15-y_{1}\\right)^{2}+\\left(15-y_{2}\\right)^{2}+\\cdots+\\left(15-y_{16}\\right)^{2}= \\\\\n& =\\left(225-30 y_{1}+y_{1}^{2}\\right)+\\cdots+\\left(225-30 y_{16}+y_{16}^{2}\\right)= \\\\\n& =16 \\cdot 225-30 \\cdot\\left(y_{1}+y_{2}+\\cdots+y_{16}\\right)+\\left(y_{1}^{2}+y_{2}^{2}+\\ldots+y_{16}^{2}\\right)\n\\end{aligned}$$\n\nPavisam kopā tika izspēlētas $\\frac{16 \\cdot 15}{2}=120$ spēles, tāpēc \nzaudējumu kopskaits $y_{1}+y_{2}+\\cdots+y_{16}=120$. Līdz ar to \n$16 \\cdot 225-30 \\cdot\\left(y_{1}+y_{2}+\\cdots+y_{16}\\right)=16 \\cdot 225-30 \\cdot 120=0$,\nno kā izriet prasītais, tas ir, \n$x_{1}^{2}+x_{2}^{2}+\\ldots+x_{16}^{2}=y_{1}^{2}+y_{2}^{2}+\\ldots+y_{16}^{2}$."
+  },
+  {
+    "id": "LV.VOL.2020.9.1",
+    "year": 2020,
+    "num": 1,
+    "images": [],
+    "problem_text": "Kādām naturālām $n$ vērtībām izteiksmes $\\frac{(3n-1)(n+4)}{n+2}$ vērtība ir\nvesels skaitlis?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Divisibility\n\n</small>\n\n\n## Atrisinājums\n\nEkvivalenti pārveidojam doto izteiksmi:\n\n$$\\frac{(3n-1)(n+4)}{n+2}=\\frac{3n^{2}+11n-4}{n+2}=\\frac{3n(n+2)+5n-4}{n+2}=\\frac{3n(n+2)}{n+2}+\\frac{5(n+2)-14}{n+2}=3n+5-\\frac{14}{n+2}$$\n\nTā kā $3n+5$ ir naturāls skaitlis, tad dotās izteiksmes vērtība būs vesels\nskaitlis tikai tad, ja $\\frac{-14}{n+2}$ ir vesels skaitlis, bet tas iespējams,\nja $(n+2)$ ir skaitļa $14$ dalītājs. Ievērojot, ka $n$ ir naturāls, iegūstam,\nka $n+2=7$ vai $n+2=14$, no kā iegūstam, ka $n=5$ vai $n=12$."
+  },
+  {
+    "id": "LV.VOL.2020.9.2",
+    "year": 2020,
+    "num": 2,
+    "images": [],
+    "problem_text": "Atrast visus naturālos skaitļus $B$ intervālā $1 < B < 99$, kuriem izpildās šāda\nīpašība: jebkuram naturālam skaitlim $C$, kuram $B < C < 100$ ir spēkā\n$B \\leq V \\leq C$, kur $V=\\frac{1+B+C+100}{4}$ ir skaitļu $1, B, C, 100$\nvidējais aritmētiskais.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_IntegerConditions\n\n</small>\n\n\n## Atrisinājums\n\nPēc dotā $1 < B < C < 100$. Tā kā $B < C$, tad var pieņemt, ka $C=B+x$, kur\n$1 \\leq x \\leq 99-B$. Līdz ar to iegūstam, ka četru doto skaitļu vidējais\naritmētiskais ir\n\n$$V=\\frac{1+B+B+x+100}{4}=\\frac{2B+x+101}{4}$$\n\nŅemot vērā, ka jāizpildās nevienādībām $B \\leq V \\leq C$, iegūstam\n\n$$\\begin{gathered}\nB \\leq \\frac{2B+x+101}{4} \\leq B+x \\\\\n4B \\leq 2B+x+101 \\leq 4B+4x\n\\end{gathered}$$\n\nPārrakstot iegūto divkāršo nevienādību kā nevienādību sistēmu, iegūstam\n\n$$\\left\\{\\begin{array} { l } \n{ 4B \\leq 2B+x+101 } \\\\\n{ 2B+x+101 \\leq 4B+4x }\n\\end{array} \\quad \\text { jeb } \\quad \\left\\{\\begin{array}{l}\n2B \\leq 101+x \\\\\n2B \\geq 101-3x\n\\end{array}\\right.\\right.$$\n\nIevērojam, ja nevienādība izpildās pie $x=1$, tad tā izpildās arī pie lielākiem\n$x$. Tāpēc tas, ka šī nevienādība izpildās visiem $x \\geq 1$ ir ekvivalents\napgalvojumam, ka tā izpildās pie $x=1$. Tātad\n\n$$\\left\\{\\begin{array} { l } \n{ 2B \\leq 102 } \\\\\n{ 2B \\geq 98 }\n\\end{array} \\text { jeb } \\quad \\left\\{\\begin{array}{l}\nB \\leq 51 \\\\\nB \\geq 49\n\\end{array}\\right.\\right.$$\n\nLīdz ar to esam ieguvuši, ka jebkurai derīgai $C$ vērtībai ir spēkā sakarība\n$B \\leq V \\leq C$, ja $B$ ir $49$, $50$ vai $51$."
+  },
+  {
+    "id": "LV.VOL.2020.9.3",
+    "year": 2020,
+    "num": 3,
+    "images": [
+      "LV.VOL.2020.9.3A.png"
+    ],
+    "problem_text": "Punkts $R$ atrodas uz stara $OB$ un punkti $P$ un $Q$ atrodas uz stara $OA$ tā,\nka $OP < OQ$ un $\\sphericalangle ORP=\\sphericalangle BRQ$. leņķa $RPA$ bisektrise krusto\nstaru $OB$ punktā $T$. Pierādīt, ka $QT$ ir $\\sphericalangle RQA$ bisektrise!",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_AnglesParallelsSimilarity\n\n</small>\n\n\n## Atrisinājums\n\nPagarinām nogriezni $PR$, tad $\\sphericalangle ORP=\\sphericalangle NRB$ kā\nkrustleņķi (skat. 1.att.) un līdz ar to arī $BRQ=\\sphericalangle NRB$.\nIzmantojot bisektrises īpašību, iegūstam, ka punkts $T$ atrodas vienādā\nattālumā no\n\n- leņķa $NRQ$ malām $NR$ un $RQ$, tas ir, $TC=TD$;\n- leņķa $QPR$ malām $PR$ un $PQ$, tas ir, $TC=TE$.\n\nTātad $TD=TE$ un esam ieguvuši, ka punkts $T$ atrodas vienādā attālumā no leņķa\n$RQA$ malām. Līdz ar to pēc bisektrises pazīmes esam ieguvuši, ka punkts $T$\natrodas uz $\\sphericalangle RQA$ bisektrises jeb $QT$ ir\n$\\sphericalangle RQA$ bisektrise.\n\n![](LV.VOL.2020.9.3A.png)"
+  },
+  {
+    "id": "LV.VOL.2020.9.4",
+    "year": 2020,
+    "num": 4,
+    "images": [],
+    "problem_text": "Vai eksistē tādi četri dažādi **a)** naturāli skaitļi, **b)** pirmskaitļi\n$a, b, c, d$, ka vienlaicīgi izpildās šādi nosacījumi:\n\n- $b+c+d$ dalās ar $a$,\n- $c+d+a$ dalās ar $b$,\n- $d+a+b$ dalās ar $c$,\n- $a+b+c$ dalās ar $d$ ?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Divisibility\n\n</small>\n\n\n## Atrisinājums\n\n**a)** Jā, eksistē. Skaitļiem $1, 2, 3, 6$ izpildās visi uzdevuma nosacījumi:\n\n- $2+3+6$ dalās ar $1$ ,\n- $1+3+6$ dalās ar $2$ ,\n- $1+2+6$ dalās ar $3$ ,\n- $1+2+3$ dalās ar $6$ .\n\n**b)** Nē, neeksistē. Ievērojam, ka\n\n- $a+(b+c+d)$ dalās ar $a$ (jo abi saskaitāmie dalās ar $a$ ),\n- $b+(c+d+a)$ dalās ar $b$,\n- $c+(d+a+b)$ dalās ar $c$,\n- $d+(a+b+c)$ dalās ar $d$.\n\nTā kā $a, b, c, d$ ir pirmskaitļi, tad $a+b+c+d$ dalās ar $abcd$, no kā izriet,\nka $a+b+c+d \\geq abcd$. Nezaudējot vispārīgumu varam pieņemt, ka\n$a \\leq b \\leq c \\leq d$. Tādā gadījumā $a+b+c+d \\leq 4d < abcd$, jo pat trīs\nmazāko atšķirīgo pirmskaitļu reizinājums $2 \\cdot 3 \\cdot 5 > 4$. Esam ieguvuši\npretrunu, tātad neeksistē tādi četri dažādi pirmskaitļi, kuriem izpildās visi\nuzdevuma nosacījumi."
+  },
+  {
+    "id": "LV.VOL.2020.9.5",
+    "year": 2020,
+    "num": 5,
+    "images": [
+      "LV.VOL.2020.9.5A.png"
+    ],
+    "problem_text": "Vai kubu ar izmēriem $12 \\times 12 \\times 12$ iespējams salikt no ķieģeļiem,\nkuru izmēri ir $1 \\times 1 \\times 8$ ?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CuttingCoversColoring\n\n</small>\n\n\n## Atrisinājums\n\nPamatosim, ka prasīto nevar izdarīt. Sadalām kubu $9$ mazākos kubos, kuru\nizmēri ir $4 \\times 4 \\times 4$, un iekrāsojam tos kā šaha galdiņu\n(skat. 2.att.). Pavisam ir $64 \\cdot 14=896$ melni un $64 \\cdot 13=832$ balti\nkubiņi ar izmēriem $1 \\times 1 \\times 1$. Tā kā katrs kieģelis pārklāj $4$\nmelnus un $4$ baltus kubiņus ar izmēriem $1 \\times 1 \\times 1$ (skat. 3.att.),\ntad, ja no šiem kieģeļiem būtu salikts kubs, tas saturētu vienāda skaita melnos\nun baltos kubiņus ar izmēriem $1 \\times 1 \\times 1$, bet $896 \\neq 832$.\n\n![](LV.VOL.2020.9.5A.png)"
+  },
+  {
+    "id": "LV.VOL.2021.9.1",
+    "year": 2021,
+    "num": 1,
+    "images": [],
+    "problem_text": "Dots, ka $a$ un $b$ ir kaut kādi reāli skaitļi. Pierādīt, ka vismaz vienam no \nvienādojumiem\n\n$$\\begin{aligned}\n& x^{2}+2ax+b=0 \\\\\n& ax^{2}+2bx+1=0 \\\\\n& bx^{2}+2x+a=0\n\\end{aligned}$$\n\nir atrisinājums.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Equations\n\n</small>\n\n## Atrisinājums\n\nPieņemsim pretējo. Tad visiem diskriminantiem jābūt negatīviem, tas ir,\n\n$$a^{2} < b, \\quad b^{2} < a, \\quad 1 < ab$$\n\nNo pirmajām divām nevienādībām izriet, ka $a>0$ un $b>0$. Sareizinot pirmās \ndivas nevienādības (to drīkst darīt, jo visas izteiksmes ir pozitīvas), \niegūstam $a^{2}b^{2} < ab$. Izdalot abas nevienādības puses ar $ab>0$, iegūstam \n$ab<1$, kas ir pretrunā ar trešo nevienādību. Tātad pieņēmums bija aplams, \nlīdz ar to vismaz vienam vienādojumam ir atrisinājums."
+  },
+  {
+    "id": "LV.VOL.2021.9.2",
+    "year": 2021,
+    "num": 2,
+    "images": [
+      "LV.VOL.2021.9.2A.png"
+    ],
+    "problem_text": "Dots naturāls skaitlis $n$. Pierādīt, ka $4n \\times 4 n$ rūtiņu tabulā var \naizkrāsot $4n^{2}$ rūtiņas tā, ka katrā rindā un katrā kolonnā ir aizkrāsotas \ntieši $n$ rūtiņas un nekādām divām aizkrāsotām rūtiņām nav kopīgu punktu (tas \nir, iekrāsotās rūtiņas neatrodas blakus un nesaskaras pat ar stūriem).",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_GridColoring\n\n</small>\n\n## Atrisinājums\n\nVispirms aplūkosim gadījumu, ja $n=1$. Tad $4 \\times 4$ rūtiņu tabulā rūtiņas \nvar aizkrāsot, kā parādīts 1.att. šis tabulas krāsojums atbilst visām prasībām.\n\n![](LV.VOL.2021.9.2A.png)\n\nIevērosim, ka, sadalot aizpildīto tabulu $2 \\times 2$ rūtiņas lielos kvadrātos,\niegūsim vienādi aizpildītus $2 \\times 2$ rūtiņu kvadrātus, kas pagriezti \nattiecībā viens pret otru. Izmantojot šo ideju, veidosim tabulas aizpildījumu \npatvaļīgai $n$ vērtībai.\n\nVispirms izveidosim $2n \\times 2n$ rūtiņu tabulu, kurā īpaši izdalīsim \n$(2n-1) \\times(2n-1)$ kvadrātu, kam papildus ir viena tukša rinda un viena \ntukša kolonna. Šajā $(2n-1) \\times(2n-1)$ kvadrātā aizkrāsosim $n$ rūtiņas \nkatrā otrajā rindā un kolonnā, katrā virzienā atstājot pa tukšai rūtiņai starp \niekrāsotajām (skat. 2.att., kur parādīts gadījums $n=3$).\n\nPagriežot šo kvadrātu un sakombinējot tā, kā $2 \\times 2$ kvadrāti tika \nsakombinēti $4 \\times 4$ tabulā, iegūstam nepieciešamo tabulas aizpildijumu \n(skat. 3.att.)."
+  },
+  {
+    "id": "LV.VOL.2021.9.3",
+    "year": 2021,
+    "num": 3,
+    "images": [],
+    "problem_text": "Atrast visus naturālu skaitļu pārus $(m; n)$, kuriem ir spēkā vienādība \n$m^{5}+5n^{4}=81m$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_IntegerEquations\n\n</small>\n\n## Atrisinājums\n\nPārveidojam doto vienādību:\n\n$$\\begin{gathered}\n5n^{4}=81m-m^{5} \\\\\n5n^{4}=m\\left(9+m^{2}\\right)(3+m)(3-m)\n\\end{gathered}$$\n\nTā kā $m$ un $n$ ir naturāli skaitļi un iegūtās vienādības kreisās puses \nizteiksme ir pozitīva, tad $m=1$ vai $m=2$. Apskatām abus gadījumus:\n\n- ja $m=1$, tad $5n^{4}=1 \\cdot 10 \\cdot 4 \\cdot 2$ jeb $n^{4}=16$, no kā \n  iegūstam, ka $n=2$ (vērtība $n=-2$ neder, jo nav naturāls skaitlis);\n- ja $m=2$, tad $5n^{4}=2 \\cdot 13 \\cdot 5 \\cdot 1$ jeb $n^{4}=26$, no kā \n  iegūstam, ka naturālu atrisinājumu nav.\n\nLīdz ar to esam ieguvuši, ka vienīgais derīgais skaitļu pāris ir $(1; 2)$."
+  },
+  {
+    "id": "LV.VOL.2021.9.4",
+    "year": 2021,
+    "num": 4,
+    "images": [
+      "LV.VOL.2021.9.4A.png"
+    ],
+    "problem_text": "Trijstūrī $ABC$ ievilktā riņķa līnija pieskaras tā malām $AB, BC$ un $AC$ \nattiecīgi punktos $C_{1}, A_{1}$ un $B_{1}$. Taisne, kas vilkta caur punktu $A$\nparalēli $BC$, un taisne $A_{1}C_{1}$ krustojas punktā $K$. Pierādīt, ka \n$\\sphericalangle KB_{1}A_{1}=90^{\\circ}$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CirclesAndRelatedAngles\n\n</small>\n\n## Atrisinājums\n\nTrijstūris $C_{1}BA_{1}$ ir vienādsānu trijstūris (jo $BC_{1}=BA_{1}$ kā \npieskaru nogriežņi, kas vilkti no viena punkta), tāpēc \n$\\sphericalangle BA_{1}C_{1}=\\sphericalangle BC_{1}A_{1}$ (kā pamata pielenķi \npie vienādajām malām). Līdz ar to\n\n$$\\sphericalangle AKC_{1}=\\sphericalangle BA_{1}C_{1}=\\sphericalangle BC_{1}A_{1}=\\sphericalangle AC_{1}K$$\n\n(pirmajā vienādībā ir iekšējie škērsleņķi, trešajā - krustleņķi, skat. 4.att.).\n\nTātad $\\triangle KAC_{1}$ ir vienādsānu trijstūris (jo pamata pieleņķi ir \nvienādi) un $KA=AC_{1}$.\n\nTā kā $AC_{1}=AB_{1}$ kā pieskaru nogriežņi, kas vilkti no viena punkta, tad \narī $KA=AB_{1}$. Tātad $\\triangle KAB_{1}$ ir vienādsānu trijstūris un \n$\\sphericalangle KB_{1}A=\\frac{180^{\\circ}-\\sphericalangle KAB_{1}}{2}$. Tā kā \n$A_{1}C=CB_{1}$, tad arī $\\sphericalangle CB_{1}A_{1}=\\frac{180^{\\circ}-\\sphericalangle B_{1}CA_{1}}{2}$. Tātad\n\n$$\\sphericalangle KB_{1}A+\\sphericalangle CB_{1}A_{1}=\\frac{180^{\\circ}-\\sphericalangle KAB_{1}}{2}+\\frac{180^{\\circ}-\\sphericalangle B_{1}CA_{1}}{2}=180^{\\circ}-\\frac{\\sphericalangle KAB_{1}+\\sphericalangle B_{1}CA_{1}}{2}=90^{\\circ}$$\n\njo $\\sphericalangle KAB_{1}+\\sphericalangle B_{1}CA_{1}=180^{\\circ}$ kā \niekšējie vienpusleņķi. Līdz ar to\n\n$$\\sphericalangle KB_{1}A_{1}=180^{\\circ}-\\sphericalangle KB_{1}A-\\sphericalangle CB_{1}A_{1}=180^{\\circ}-90^{\\circ}=90^{\\circ}$$\n\n![](LV.VOL.2021.9.4A.png)"
+  },
+  {
+    "id": "LV.VOL.2021.9.5",
+    "year": 2021,
+    "num": 5,
+    "images": [],
+    "problem_text": "Dotas $8$ kastes, sākumā tās visas ir tukšas. Divi spēlētāji spēlē sekojošu \nspēli, pirmais spēlētājs sāk. Vienā gājienā var izvēlēties jebkuras $7$ kastes \nun katrā no tām ielikt vienu ābolu (āboli ir pieejami pietiekamā daudzumā). \nUzvar tas spēlētājs, pēc kura gājiena kādā no kastēm ir tieši $15$ āboli. Kurš \nspēlētājs - pirmais vai otrais - uzvarēs, pareizi spēlējot?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CombinatorialGames\n\n</small>\n\n## Atrisinājums\n\nPierādīsim, ka otrais spēlētājs vienmēr var uzvarēt.\n\nSanumurēsim kastes ar skaitļiem no $1$ līdz $8$ un apzīmēsim gājienu ar tās \nkastes numuru, kurā ābols netiek ielikts. Piemēram, gājiens \" $3$ \", nozīmē, ka \nāboli tiek ielikti kastēs ar numuriem $1, 2, 4, 5, 6, 7, 8$.\n\nSimetrijas dēļ pieņemsim, ka savā pirmajā gājienā pirmais spēlētājs veic \ngājienu \" $1$ \". Tad otrais spēlētājs savos pirmajos $7$ gājienos neatkarīgi no \ntālākajiem pirmā spēlētāja gājieniem, var paiet gājienus \n\" $2$ \", \" $3$ \", \" $4$ \", \" $5$ \", \" $6$ \", \" $7$ \", \" $8$ \". Aplūkosim situāciju pirms otrā spēlētāja \nastotā gājiena.\n\nPirmā spēlētāja pirmais gājiens kopā ar otrā spēlētāja pirmajiem $7$ gājieniem \ndod tieši $7$ ābolus katrā kastē. Pirmais spēlētājs vēl ir pagājis $7$ \ngājienus, tātad nevienā kastē nav vairāk kā $14$ āboli, bet noteikti ir vismaz \nviena kaste, kurā ir tieši $14$ āboli. Tajā tad savā $8.$ gājienā $2.$ \nspēlētājs var ielikt ābolu (kur likt pārējos $6$ ābolus nav svarīgi) un \nuzvarēt."
+  },
+  {
+    "id": "LV.VOL.2022.9.1",
+    "year": 2022,
+    "num": 1,
+    "images": [],
+    "problem_text": "Pierādīt, ka visiem reāliem skaitļiem $x$ un $y$ ir spēkā nevienādība \n$x^{2}+5y^{2}+4xy-6y+9 \\geq 0$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_ProvingInequalities\n\n</small>\n\n\n## Atrisinājums\n\n Veicam ekvivalentus pārveidojumus:\n\n$$\\begin{gathered}\n\\left(x^{2}+4xy+4y^{2}\\right)+\\left(y^{2}-6y+9\\right) \\geq 0 \\\\\n(x+2y)^{2}+(y-3)^{2} \\geq 0\n\\end{gathered}$$\n\nTā kā skaitļa kvadrāts ir nenegatīvs, tad pēdējās nevienādības kreisajā pusē ir\ndivu nenegatīvu skaitļu summa, kas arī ir nenegatīvs skaitlis. Tātad pēdējā \nnevienādība ir patiesa. Tā kā tika veikti ekvivalenti pārveidojumi, tad arī \ndotā nevienādība ir patiesa visiem reāliem skaitļiem $x$ un $y$."
+  },
+  {
+    "id": "LV.VOL.2022.9.2",
+    "year": 2022,
+    "num": 2,
+    "images": [
+      "LV.VOL.2022.9.2A.png"
+    ],
+    "problem_text": "Vienādsānu trijstūrī $ABC$ virsotnes leņķis $\\sphericalangle ABC=\\beta$. \nAr centru punktā $A$ un rādiusu $AC$ novilkta riņķa līnija, kas krusto malas \n$AB$ un $BC$ attiecīgi punktos $D$ un $E$. Zināms, ka \n$\\sphericalangle ADE=12 \\beta$. Aprēķināt $\\beta$ lielumu!",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CirclesAndRelatedAngles\n\n</small>\n\n## Atrisinājums\n\nTā kā $\\triangle ABC$ ir vienādsānu, tad \n$\\sphericalangle BAC=\\sphericalangle BCA=\\frac{1}{2}\\left(180^{\\circ}-\\sphericalangle ABC\\right)=\\frac{1}{2}\\left(180^{\\circ}-\\beta\\right)$.\nIevērojam, ka $AD=AE=AC$ kā rādiusi (skat. 1.att.), tātad \n$\\triangle DAE$ un $\\triangle CAE$ ir vienādsānu trijstūri. Izsakām leņķus:\n\n* $\\triangle CAE=180^{\\circ }-2 \\sphericalangle BCA=180^{\\circ }-2 \\cdot \\frac{1}{2}\\left(180^{\\circ }-\\beta \\right )=\\beta$ (no $\\triangle CAE$);\n* $\\sphericalangle DAE=\\sphericalangle BAC-\\sphericalangle CAE=\\frac{1}{2}\\left(180^{\\circ}-\\beta\\right)-\\beta=90^{\\circ}-\\frac{3 \\beta}{2}$;\n* $\\sphericalangle DAE=180^{\\circ}-2 \\sphericalangle ADE=180^{\\circ}-2 \\cdot 12 \\beta=180^{\\circ}-24\\beta$ (no $\\triangle DAE$).\n\nLīdz ar to iegūstam vienādojumu:\n\n$$90^{\\circ}-\\frac{3 \\beta}{2}=180^{\\circ}-24 \\beta ; \\quad 180^{\\circ}-3 \\beta=360^{\\circ}-48 \\beta ; \\quad 45 \\beta=180^{\\circ} ; \\quad \\beta=4^{\\circ}$$\n\n![](LV.VOL.2022.9.2A.png)"
+  },
+  {
+    "id": "LV.VOL.2022.9.3",
+    "year": 2022,
+    "num": 3,
+    "images": [],
+    "problem_text": "Pierādīt, ka katram naturālam $K>1$ var atrast tādu naturālu skaitli, kas dalās\nar $7$ un kura ciparu summa ir $K$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_NumericConstructions\n\n</small>\n\n## Atrisinājums\n \n Apskatām divus gadījumus.\n\n- Ja $K$ ir pāra skaitlis, tas ir, $K=2 n$, kur $n \\in \\mathbb{N}$. \n  Ievērosim, ka $1001$ dalās ar $7$ (jo $7 \\cdot 143=1001$) un tā ciparu summa\n  ir $2$. Uzrakstot skaitli $1001$ rindā aiz sevis $n$ reizes \n  $(100110011001\\ldots )$, iegūsim $(4n)$-ciparu skaitli, kura ciparu summa ir \n  $2n$ un kurš dalās ar $7$.\n- Ja $K$ ir nepāra skaitlis, tas ir, $K=2n+1$, kur $n \\in \\mathbb{N}$. \n  Papildus ievērosim, ka skaitlis $21$ dalās ar $7$ un tā ciparu summa ir $3$. \n  Aiz skaitļa $21$ uzrakstot $(n-1)$ reizi skaitli $1001$ \n  $(2110011001\\ldots )$, iegūsim $(4n-2)$-ciparu skaitli, kura ciparu summa ir\n  $3+(n-1) \\cdot 2=2n+1$ un kurš dalās ar $7$ ."
+  },
+  {
+    "id": "LV.VOL.2022.9.4",
+    "year": 2022,
+    "num": 4,
+    "images": [
+      "LV.VOL.2022.9.4.png",
+      "LV.VOL.2022.9.4A.png"
+    ],
+    "problem_text": "Ziņkārīgs tūrists vēlas pastaigāties pa pilsētas ielām (plānā attēlotas kā \nrūtiņu malas) no krustojuma $A$ līdz krustojumam $B$ (skat. 2.att.), \nveicot pēc iespējas garāku ceļojumu un neatgriežoties nevienā krustojumā \nvairākas reizes. Kāds ir lielākais iespējamais ceļojuma garums, ja uzskatām, \nka vienas rūtiņas mala ir vienu vienību gara?\n\n![](LV.VOL.2022.9.4.png)",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_Graphs\n\n</small>\n\n## Atrisinājums\n\nLielākais iespējamais ceļojuma garums ir $40$, to var veikt, piemēram, kā \nparādīts 3.att.\n\nPierādīsim, ka lielāks ceļojuma garums nav iespējams. Atzīmēsim katru otro \nkrustojumu ar melnu aplīti (skat. 4.att.). Ievērosim, ka ik pēc diviem veiktiem\nposmiem ceļotājs nonāk atzīmētajā krustpunktā. Tā kā sākumpunkts $A$ ir atzīmēts \nun atzīmētu krustpunktu kopā ir $21$, tad apmeklēšanai atliek vairs tikai $20$ \natzīmētu krustpunktu (ieskaitot $B$). Tātad ceļojums beigsies punktā $B$ pēc ne \nvairāk kā $2 \\cdot 20=40$ posmiem.\n![](LV.VOL.2022.9.4A.png)"
+  },
+  {
+    "id": "LV.VOL.2022.9.5",
+    "year": 2022,
+    "num": 5,
+    "images": [],
+    "problem_text": "Pierādīt, ka trijstūra augstumi nevar būt $19, 37$ un $41$ vienību gari!",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_MetricRelations\n\n</small>\n\n## Atrisinājums\n\nPieņemsim, ka šāds trijstūris eksistē un ka tā laukums ir $S$. Izmantojot \ntrijstūra laukuma aprēķināšanas formulu $S=\\frac{a \\cdot h_{a}}{2}$, izsakām \ntrijstūra malas garumu $a=\\frac{2S}{h_{a}}$. Tad trijstūra malu garumi ir \n$\\frac{2S}{19^{\\prime}} \\frac{2S}{37}$ un $\\frac{2S}{41}$. Bet šiem malu \ngarumiem neizpildās trijstūra nevienādība, jo \n$\\frac{2S}{37}+\\frac{2S}{41}<\\frac{2S}{19}$. Šī nevienādība ir ekvivalenta \nnevienādībai $\\frac{1}{37}+\\frac{1}{41}<\\frac{1}{19}$, kuras patiesumu var \nviegli pārbaudīt, piemēram, ar šādiem ekvivalentiem pārveidojumiem:\n\n$$\\frac{1}{37}+\\frac{1}{41}<\\frac{2}{38} ; \\quad \\frac{1}{37}-\\frac{1}{38}<\\frac{1}{38}-\\frac{1}{41} ; \\quad \\frac{1}{37 \\cdot 38}<\\frac{3}{38 \\cdot 41} ; \\quad \\frac{1}{37}<\\frac{3}{41} ; \\quad 41<3 \\cdot 37$$"
+  },
+  {
+    "id": "LV.VOL.2023.9.1",
+    "year": 2023,
+    "num": 1,
+    "images": [],
+    "problem_text": "Vai eksistē tādi naturāli skaitli $x$ un $y$, ka izteiksmes \n$x^{2}-x-y^{2}+y$ vērtība ir **(A)** $10$, **(B)** $2023$?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove,ProveDisprove\n* domain:Alg\n* _subdomain: DOM_IntegerEquations\n\n</small>\n\n## Atrisinājums\n\n**(A)** Jā, piemēram, $x=4$ un $y=2$, tad $4^{2}-4-2^{2}+2=16-4-4+2=10$. \n\n**(B)** Nē, tādi naturāli skaitļi $x$ un $y$ neeksistē. Pārveidojot izteiksmi, iegūstam\n\n$$x^{2}-x-y^{2}+y=x(x-1)-y(y-1)$$\n\nTā kā divu pēc kārtas esošu naturālu skaitļu reizinājums ir pāra skaitlis, \ntad abi saskaitāmie $x(x-1)$ un $y(y-1)$ ir pāra skaitļi. Divu pāra skaitļu \nstarpība ir pāra skaitlis, tātad to starpība nevar būt $2023$, jo tas ir nepāra skaitlis."
+  },
+  {
+    "id": "LV.VOL.2023.9.2",
+    "year": 2023,
+    "num": 2,
+    "images": [
+      "LV.VOL.2023.9.2A.png"
+    ],
+    "problem_text": "Doti $8$ atsvari, kuru masas attiecīgi ir $1,2,3,4,5,6,7$ un \n$8 \\mathrm{~kg}$. Vai šos atsvarus var novietot uz sviru svaru \nkausiem tā, lai izpildās abi nosacijumi:\n\n- sākumā uz katra svaru kausa būtu $4$ atsvari un svari atrastos līdzsvarā;\n- atsvarus varētu pārmainus noņemt no viena svaru kausa un no otra tā, \n  lai pēc katra atsvara (izṇemot pēdējā) noṇemšanas tas kauss, \n  no kura noṇem atsvaru, kļūtu vieglāks nekā otrs svaru kauss?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove\n* domain:Alg\n* _subdomain: DOM_CombinatorialGames\n\n</small>\n\n## Atrisinājums\n\nJā, var, atsvarus izvietojam šādi: uz viena svaru kausa liekam atsvarus, kuru masa ir \n$3, 4, 5, 6 \\mathrm{~kg}$ (kopā $18 \\mathrm{~kg}$), \nbet uz otra - $1, 2, 7, 8 \\mbox{~kg}$ (kopā $18$ $~\\mbox{kg}$). \nAtsvarus var noṇemt šādā secībā: $3$; $7$; $5$; $2$; $4$; $8$; $6$; $1$ \n(masas izmaina dota tabulā, kur pelēkā krāsā iekrāsots vieglākais svaru kauss).\n\n![](LV.VOL.2023.9.2A.png){ width=300px }"
+  },
+  {
+    "id": "LV.VOL.2023.9.3",
+    "year": 2023,
+    "num": 3,
+    "images": [],
+    "problem_text": "Pa apli uzrakstīti $n$ skaitļi, kur katrs no tiem ir $0$ vai $1$. \nVienā gājienā Māris var izvēlēties kādu skaitli, kuram blakus \nabās pusēs (pa labi un pa kreisi) uzrakstītie skaitļi ir vienādi, \nun izvēlētā skaitļa vietā uzrakstīt otru skaitli (tas ir, skaitļa \n$0$ vietā uzrakstīt $1$ un otrādi). Vai Māris, atkārtojot šādus \ngājienus, vienmēr (neatkarīgi no sākotnējām skaitļu vērtībām un \nizkārtojuma) var panākt, ka visi pa apli uzrakstītie skaitļi ir \nvienādi, ja: **(A)** $n=72$; **(B)** $n=73$; **(C)** $n=74$?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove,ProveDisprove,ProveDisprove\n* domain:Comb\n* method:MTH_AugmentationWithNewElements\n* _subdomain: DOM_MakingMoves\n\n</small>\n\n## Atrisinājums\n\n**(A)** Ja $n=72$, tad Māris ne vienmēr var iegūt prasīto. Piemēram, \nja skaitli pa apli izkārtoti tā, ka $18$ reizes pēc kārtas atkārtojas \nskaitļu četrinieki \"$0;0;1;1$\", tad nav tāda skaitļa, \nkam abās pusēs uzrakstīti vienādi skaitļi. Līdz ar to Māris vispār \nnevar veikt nevienu gājienu un nevar panākt, ka visi aplī esošie skaitļi \nkļūst vienādi.\n\n**(B)** Pamatosim, ka Māris vienmēr var panākt, ka pa apli uzrakstīti \nvienādi skaitļi. Ar bloku apzīmēsim vienādu skaitļu virkni, kurai abos \ngalos blakus atrodas pretēji skaitli virknē esošajiem (piemēram, \n$\\ldots ; 0 ; \\underbrace{1 ; 1 ; \\ldots ; 1 ; 1}_{b l o k s} ; 0 ; \\ldots)$. \nIevērosim, ka eksistē bloks, kura garums ir nepāra skaitlis. Ja tāds bloks neeksistētu,\ntad bloku garumu summa būtu pāra skaitlis, kas ir visu skaitļu kopējais skaits. \nIegūstam pretrunu, jo pa apli uzrakstīti $73$ skaitļi (nepāra skaitlis).\n\nNezaudējot vispārīgumu, pieṇemsim, ka šajā blokā ir $2k+1$ vieninieki \n(gadījums ar nullēm ir līdzīgs). Katram vieniniekam piešḳirsim indeksu $a_{i}$ \npulksteṇa rādītāja virzienā. Sākumā Māris veic gājienus ar vieniniekiem, \nkuriem ir pāra indekss, tas ir, $a_{2}, a_{4}, \\ldots, a_{2 k}$, un pēc tam \nveic gājienus ar vieniniekiem ar nepāra indeksu, tas ir, \n$a_{1}, a_{3}, \\ldots, a_{2 k+1}$. Tādā veidā bloks ar vieniniekiem \ntiek pārveidots par bloku ar nullēm. Tā kā sākotnējam blokam abās pusēs \nir divi bloki ar nullēm, tad pēc aprakstīto gājienu veikšanas visi trīs bloki \nsaplūdīs kopā. Tātad kopējais bloku skaits samazinās par $2$. Šādi Māris turpina \ndarboties - atrod bloku ar garumu, kas ir nepāra skaitlis, un sapludina \nto kopā ar blakus esošajiem blokiem. Kādā brīdī bloku skaits kļūs vienāds \nar $2$, jo sākumā bloku skaits ir pāra (nuļļu un vieninieku bloki mainās \npārmainus). Kad tas būs izdarīts, Māris var veikt gājienu ar to bloku, \nkura garums ir nepāra skaitlis, un tad visi uzrakstītie skaitļi būs vienādi.\n\n**(C)** Ja $n=74$, tad Māris ne vienmēr var iegūt prasīto. Aplūkosim \nšādu skaitlu izkārtojumu: skaitlu četriniekam \"$1;1;1;1$\" no abām pusēm \npārmaiṇus ir sarakstīti skaitļu pāri \"$0;0$\" un \"$1;1$\". \nŠādā gadījumā \"$1;1;1;1$\" no abām pusēm būs \"$0;0$\". Māris var veikt \ndivus iespējamus gājienus: \"$1;1;1;1$\" pārrakstīt vai nu par \"$1;0;1;1$\" \nvai \"$1;1;0;1$\". Nezaudējot vispārīgumu, pieṇemsim, ka \"$1;1;1;1$\" \nir pārtaisīts par \"$1;0;1;1$\" (otrs gadījums ir līdzīgs). Tādā gadījumā \nnākamais iespējamais gājiens ir skaitļu bloku \"$0;0;1;0;1;1;0;0$\" \npārrakstīt par \"$0;0;0;0;1;1;0;0$\" vai \"$0;0;1;1;1;1;0;0$\". \nTas nozīmē, ka Māris iegūs līdzīgu situāciju pirms diviem gājieniem \nesošajam skaitļu izkārtojumam. Līdz ar to Māris šajā gadījumā nevarēs \niegūt uzdevumā prasīto."
+  },
+  {
+    "id": "LV.VOL.2023.9.4",
+    "year": 2023,
+    "num": 4,
+    "images": [
+      "LV.VOL.2023.9.4A.png"
+    ],
+    "problem_text": "Plaknē atzīmēti punkti $A(5;2), $B(m;5)$ un $C(3;m)$. \nKādām reālām $m$ vērtībām trijstūris $ABC$ ir taisnleṇka trijstūris?",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:Geom\n* _subdomain: DOM_Triangles\n\n</small>\n\n## Atrisinājums\n\nApskatām taisnleṇka trijstūri $ADB$, kur $D(m;2)$, $AD=|5-m|$ un \n$BD=|5-2|=3$ (skat. 1.att.). Izmantojot Pitagora teorēmu $\\triangle ADB$, \naprēķinām nogriežṇa $AB$ garuma kvadrātu:\n\n$$AB^{2} = AD^{2}+BD^{2}=(5-m)^{2}+(2-5)^{2}=m^{2}-10m+34$$\n\n![](LV.VOL.2023.9.4A.png){ width=150px }\n\nLīdzīgi, katram nogrieznim konstruējot taisnleṇka trijstūri, iegūstam, ka\n\n$$\\begin{gathered}\nAC^{2} = (5-3)^{2} + (2-m)^{2} = m^{2}-4m+8 \\\\\nBC^{2} = (m-3)^{2} + (5-m)^{2} = 2m^{2}-16m+34\n\\end{gathered}$$\n\nLai trijstūris $ABC$ būtu taisnlenka, divu malu garumu kvadrātu summai \njābūt vienādai ar trešās malas garuma kvadrātu. Aplūkojam trīs iespējamos gadījumus.\n\n1. Ja $AB^{2}+AC^{2}=BC^{2}$, tad\n\n   $$\\begin{gathered}\n   m^{2}-10 m+34+m^{2}-4 m+8=2 m^{2}-16 m+34 \\\\\n   2m+8=0 \\\\\n   m=-4\n   \\end{gathered}$$\n\n2. Ja $AC^{2}+BC^{2}=AB^{2}$, tad\n\n   $$\\begin{gathered}\n   m^{2}-4 m+8+2 m^{2}-16 m+34=m^{2}-10 m+34 \\\\\n   m^{2}-5 m+4=0 \\\\\n   m_{1}=1, \\quad m_{2}=4\n   \\end{gathered}$$\n\n3. Ja $A B^{2}+B C^{2}=A C^{2}$, tad\n\n   $$\\begin{gathered}\n   m^{2}-10 m+34+2 m^{2}-16 m+34=m^{2}-4 m+8 \\\\\n   m^{2}-11 m+30=0 \\\\\n   m_{1}=5, \\quad m_{2}=6\n   \\end{gathered}$$\n\nEsam ieguvuši, ka trijstūris $ABC$ ir taisnleṇka ja $m$ ir $-4;1;4;5;6$."
+  },
+  {
+    "id": "LV.VOL.2023.9.5",
+    "year": 2023,
+    "num": 5,
+    "images": [],
+    "problem_text": "Uz tāfeles uzrakstīti dažādi pirmskaitļi, kuru vidējais \naritmētiskais ir $25$. Kāds vislielākais pirmskaitlis var \nbūt uzrakstīts uz tāfeles?",
+    "solution_text": "<small>\n\n* questionType:FindOptimal\n* domain:NT\n* method:MTH_ExtremeElements\n* _subdomain: DOM_NumericConstructions\n\n</small>\n\n## Atrisinājums\n\nLielākais uz tāfeles uzrakstītais pirmskaitlis var būt $127$. \nPamatosim, ka lielāks pirmskaitlis nevar būt uzrakstīts. \nJa viens no uzrakstītajiem pirmskaitļiem ir pirmskaitlis $2$, \ntad pārējie uzrakstītie skaitļi ir nepāra skaitļi un iespējami divi gadījumi:\n\n1. visu uzrakstīto skaitļu kopējais skaits ir nepāra skaitlis un skaitļu summa \n   ir pāra skaitlis, tātad vidējais aritmētiskais nevar būt nepāra skaitlis \n   (var būt pāra skaitlis vai daļskaitlis);\n2. visu uzrakstīto skait|u kopējais skaits ir pāra skaitlis un skaitļu \n   summa ir nepāra skaitlis, tātad vidējais aritmētiskais nav vesels skaitlis.\n\nAbi gadījumi neatbilst uzdevuma nosacījumiem, tātad uz tāfeles nav uzrakstīts skaitlis $2$.\n\nLielāko uz tāfeles uzrakstīto pirmskaitli apzīmēsim ar $p$. Varam secināt, \nka $p>25$, jo uzrakstītie skaitli ir dažādi un to vidējais aritmētiskais ir $25$. \nUzrakstīsim uz tāfeles visus trūkstošos pirmskaitļus, kas mazāki nekā $25$, \nun nodzēsīsim visus uz tāfeles esošos pirmskait|us, kas lielāki nekā 25 , izṇemot $p$. Šādā gadījumā uz tāfeles uzrakstīto skaitlu vidējais aritmētiskais samazināsies. No tā iegūstam, ka\n\n$$\\frac{3+5+7+11+13+17+19+23+p}{9} \\leq 25$$\n\nTātad $p \\leq 127$. Tā kā 127 ir pirmskaitlis, tad uz tāfeles var būt \nuzrakstīti pirmskaitļi $3;5;7;11;13;17;19;23;127$, kuru vidējais aritmētiskais ir $25$."
+  },
+  {
+    "id": "LV.VOL.2024.9.1",
+    "year": 2024,
+    "num": 1,
+    "images": [],
+    "problem_text": "Vai eksistē $5$ dažādi naturāli skaitļi ar īpašību, ka to vidējais aritmētiskais ir: \n**(A)** tieši $3$ reizes lielāks; **(B)** tieši $2$ reizes\nlielāks nekā visu šo skaitļu lielākais kopīgais dalītājs?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove\n* domain:Alg\n* method:MTH_ExtremeElements\n* _subdomain: DOM_Divisibility\n\n</small>\n\n\n## Atrisinājums\n\n**(A)** Jā, tādi skaitļi ir $1; 2; 3; 4; 5$. To vidējais aritmētiskais ir \n$(1 + 2 + 3 + 4 + 5) ∶ 5 = 15 ∶ 5 = 3$ un lielākais kopīgais dalītājs ir $1$.  \n**(B)** Nē, neeksistē. Pieņemsim, ka tādi skaitļi eksistē un to lielākais \nkopīgais dalītājs ir $d$. Tādā gadījumā skaitļi ir\n$a_1d; a_2d; a_3d; a_4d; a_5d$, kur naturāli skaitļi $a_1,a_2,\\ldots,a_5$ tiek iegūti \nsākotnējos piecus skaitļus dalot ar $d$. Ir jāizpildās vienādībai:\n$$\\frac{a_1d + a_2d + a_3d + a_4d + a_5d}{5} = 2d\\;\\;\\text{jeb}\\;\\;a_1 + a_2 + a_3 + a_4 + a_5 = 10.$$\nVisi $a_i$ ir dažādi; bet tā kā pat piecu vismazāko dažādo naturālo skaitļu summa ir \n$1 + 2 + 3 + 4 + 5 = 15 > 10$, tad šādi skaitļi neeksistē."
+  },
+  {
+    "id": "LV.VOL.2024.9.2",
+    "year": 2024,
+    "num": 2,
+    "images": [
+      "LV.VOL.2024.9.2A.png"
+    ],
+    "problem_text": "Taisnstūrī $ABCD$ uz malas $BC$ atlikts punkts $E$. \nNogrieznis $AE$ krusto taisnstūra diagonāli $BD$ punktā $O$. Taisne,\nkas novilkta caur punktu $O$ paralēli $BC$, krusto malas $AB$ un $CD$ \nattiecīgi punktos $F$ un $G$. Zināms, ka trijstūra\n$BOF$ laukums ir $4$, bet trijstūra $AOD$ laukums ir $63$. Aprēķināt četrstūra $OECG$ laukumu!",
+    "solution_text": "<small>\n\n* questionType:FindAll\n* domain:Geom\n* _subdomain: DOM_Area\n\n</small>\n\n\n\n## Atrisinājums\n\nApzīmējam kvadrātu malu garumus ar $AC = a$ un $BC = b$ (skat. 1. att.).\n\n![](LV.VOL.2024.9.2A.png)\n\nAprēķinām trapeces $CEGB$ un trijstūra $AGB$ laukumu:\n\n* $S_{CEGB} = \\frac{EC + BG}{2} \\cdot BC = \\frac{(a+b)b}{2}$;\n* $S_{AGB} = \\frac{AB \\cdot BG}{2} = \\frac{(a+b)b}{2}$. \n\nTātad $S_{CEGB} = S_{AGB}$ un, \natņemot no abām pusēm vienādu lielumu (trapeces $CHGB$ laukumu), vienādība\nsaglabāsies:\n$$S_{CEGB} - S_{CHGB} = S_{AGB} - S_{CHGB}\\;\\;\\text{un}\\;\\;S_{HEG} = S_{ACH}.$$"
+  },
+  {
+    "id": "LV.VOL.2024.9.3",
+    "year": 2024,
+    "num": 3,
+    "images": [],
+    "problem_text": "Datorklasē ir $n$ ($n \\geq 3$) datori, daži no tiem ir savienoti savā starpā. \nIk pa brīdim kāds no datoriem, kurš pirms tam vēl neko nav sūtījis, \nnosūta ziņojumu visiem datoriem, ar ko tas ir savienots. Pierādīt, ka jebkurā laika brīdī\nvar atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!",
+    "solution_text": "<small>\n\n* questionType:Prove\n* domain:Comb\n* method:MTH_ContradictionForExistence\n* _subdomain: DOM_Graphs\n\n</small>\n\n\n## Atrisinājums\n\nPieņemsim pretējo, ka kādā brīdī katrs dators ir saņēmis dažādu ziņojumu skaitu. Tas nozīmē, ka\ndatoru saņemto ziņojumu skaits ir $0; 1; 2; \\ldots ; n-1$ (kaut kādā secībā). \nTālāk datorus attiecīgi apzīmējam ar\n$D_0; D_1; \\ldots, D_{n-1}$ atbilstoši saņemto ziņojumu skaitam, tas ir, dators $D_i$\nir saņēmis tieši $i$ ziņojumus. Tā kā $D_{n-1}$\nir saņēmis $n-1$ ziņojumu, tad tas ir savienots ar visiem pārējiem datoriem, \nturklāt visi pārējie datori ir nosūtījuši\ntam ziņas. Pats $D_{n-1}$ nav sūtījis ziņojumu, jo $D_0$ neko nav saņēmis. \n\nArī $D_{n-2}$ jābūt savienotam ar visiem pārējiem datoriem, jo pretējā gadījumā \nneatrastos tie $n-2$, kuri ar $D_{n-2}$ ir savienoti un nosūtījuši ziņojumu\n(jo mēs jau zinām, ka $D_{n-1}$ vēl nav nosūtījis ziņojumu). \nSavukārt dators $D_0$ ziņojumus nav saņēmis, \nbet tā kā tas ir savienots ar $D_{n-2}$ (un $D_{n-2}$ ir nosūtījis ziņojumu), \ntad $D_0$ būtu bijis jāsaņem ziņojums no $D_{n-2}$. \nIegūta pretruna. Tātad jebkurā laika brīdī var atrast\ndivus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu."
+  },
+  {
+    "id": "LV.VOL.2024.9.4",
+    "year": 2024,
+    "num": 4,
+    "images": [],
+    "problem_text": "Uz tāfeles uzrakstīta izteiksme \n$\\overline{abc} \\cdot \\overline{def} \\cdot \\overline{ghi} \\cdot \\overline{jkl}$, \nkas ir četru trīsciparu skaitļu reizinājums. Katrā gājienā\nGustavs izvēlas kādu nenulles ciparu un Maruta to ieraksta \nkāda burta vietā (Gustavs redz, kurā). Pierādīt, ka\nMaruta vienmēr var panākt, \nka pēc $12$ gājieniem iegūtās izteiksmes vērtība dalās ar $9$.",
+    "solution_text": "<small>\n\n* questionType:Algorithm\n* domain:NT\n* _subdomain: DOM_NumeralSystems\n\n</small>\n\n\n## Atrisinājums\n\nMaruta var rīkoties tā:\n\n* ciparus, kas, dalot ar $3$, dod atlikumu $1$ (cipari $1; 4; 7$), rakstīt pirmajā skaitlī;\n* ciparus, kas, dalot ar $3$, dod atlikumu 2 (cipari 2; 5; 8), rakstīt otrajā skaitlī;\n* ciparus, kas dalās ar $3$ (cipari $3; 6; 9$), rakstīt trešajā skaitlī.\n\nKad kādā no skaitļiem visi cipari ir aizpildīti, tad šo ciparu kategoriju \nMaruta var turpināt rakstīt ceturtajā skaitlī.\nŠādi viņa var panākt, ka vismaz divos skaitļos visi trīs cipari dod vienu \nun to pašu atlikumu, dalot ar 3, tātad to\nsumma dalās ar $3$. Līdz ar to vismaz divi no šiem četriem trīsciparu \nskaitļiem dalīsies ar $3$, tātad visu skaitļu\nreizinājums dalīsies ar $9$."
+  },
+  {
+    "id": "LV.VOL.2024.9.5",
+    "year": 2024,
+    "num": 5,
+    "images": [],
+    "problem_text": "Kims grib naturālos skaitļus no $1$ līdz $2024$ uzrakstīt pa apli tā, \nka katrs skaitlis ir uzrakstīts tieši vienu reizi un\nkatriem trīs pēc kārtas uzrakstītiem skaitļiem $a,b,c$ izpildās īpašība, \nka skaitlis $a + c$ dalās ar $b+1$. Vai Kims to\nvar izdarīt?",
+    "solution_text": "<small>\n\n* questionType:ProveDisprove\n* domain:NT\n* _subdomain: DOM_NumericConstructions\n\n</small>\n\n## Atrisinājums \n\nNē, Kims nevar uzrakstīt skaitļus prasītājā veidā.\nVispirms pamatosim, ka, ja skaitļus varētu uzrakstīt, tad pāra un nepāra skaitļi \npa apli būtu uzrakstīti pamīšus.\nJa tā nebūtu, tad kaut kur blakus būtu uzrakstīti divi nepāra skaitļi. \nEjot tālāk pa apli līdz tuvākajam pāra skaitlim,\nmēs atradīsim vietu, kur skaitļi ir uzrakstīti secībā $n,n,p$ \n($n$ ir nepāra un $p$ – pāra skaitlis). Esam ieguvuši pretrunu\njo $n+p$ ir nepāra skaitlis un nevar dalīties ar $n+1$, kas ir pāra skaitlis.\n\nAplūkojam skaitli $2024$, tam abās pusēs blakus ir uzrakstīti nepāra skaitļi. \nTo summa ir pāra skaitlis, kas dalās ar\n$2025$. Mazākais šāds pāra skaitlis ir $4050$, bet lielākais skaitlis, \nko var iegūt, saskaitot kādus divus dotos nepāra\nskaitļus ir $4044 = 2023 + 2021$, kas ir mazāks nekā $4050$. \nEsam ieguvuši, ka skaitlim $2024$ nevar atrast skaitļus,\nko uzrakstīt blakus. Tātad skaitļus pa apli prasītajā veidā nevar uzrakstīt."
+  },
+  {
+    "id": "LV.VOL.2025.9.1",
+    "year": 2025,
+    "num": 1,
+    "images": [
+      "LV.VOL.2025.9.1.png"
+    ],
+    "problem_text": "Ap apaḷu galdu sēž 8 bērni. Katriem trīs pēc kārtas sēdošiem bērniem \nkopā ir nepāra skaits konfekšu. Pierādīt, ka katram bērnam ir vismaz viena konfekte!",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_IntegerConditions\n\n</small>\n\n## Atrisinājums\n\nPrasītais būs pierādīts, ja pamatosim, katram bērnam ir nepāra skaits konfekšu.\nApzīmējam katram bērniem esošo konfekšu skaitu, kā parādīts 1. att. \nPēc dotā $a+b+c$, $d+e+f$, $g+h+a$ ir nepāra skaitļi. Tad arī \n$(a+b+c)+(d+e+f)+(g+h+a)$ ir nepāra skaitlis; tas nozīmē, ka \n$2a+(b+c+d+e+f+g+h)$ ir nepāra skaitlis. Tātad $(b+c+d)+(e+f+g)+h$ \nir nepāra; tātad $h$ ir nepāra. Līdzīgi pierāda, ka arī \n$a;b; \\ldots;g$ ir nepāra skaitļi.\n\n![](LV.VOL.2025.9.1.png)"
+  },
+  {
+    "id": "LV.VOL.2025.9.2",
+    "year": 2025,
+    "num": 2,
+    "images": [
+      "LV.VOL.2025.9.2A.png"
+    ],
+    "problem_text": "Uz trijstūra $ABC$ malas $AB$ atlikts tāds punkts $D$, ka \n$AD:DB = 2:1$. Trijstūra $ABC$ mediāna $BE$ krusto $CD$ \npunktā $F$. Pierādīt, ka $BF=FE$.",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_MetricRelations\n\n</small>\n\n## Atrisinājums\n\nNovilksim nogriezni $EG$ tā, lai $G$ ir $CD$ viduspunkts \n(skat. 2. att.). Tādā gadījumā $CG = GD$ un $AE = EC$ \n($BE$ ir trijstūra $ABC$ mediāna), tātad $EG$ ir trijstūra \n$ADC$ viduslīnija un $EG \\| AD$.\nIegūstam, ka $\\triangle DBF=\\triangle GEF$ pēc pazīmes $\\ell m \\ell$:\n\n- $\\sphericalangle FDB=\\sphericalangle FGE$ (iekšējie šk̦ērsleņki pie $EG \\| AD$);\n- $EG = \\frac{1}{2}AD = DB$, jo $EG$ ir $\\triangle ADC$ viduslīnija un $AD:DB = 2:1$;\n- $\\sphericalangle DBF = \\sphericalangle GEF$ (iekšējie šķērsleṇki pie $EG \\| AD$).\n\nTātad $BF = FE$ kā vienādo trijstūru atbilstošās malas.\n\n![](LV.VOL.2025.9.2A.png)\n\n\n## Atrisinājums\n\nIzmantosim faktu, ja trijstūra malas dalās attiecībā $a:b$ \nun augstumi pret šīm malām ir vienādi, tad trijstūru laukumi \narī dalās attiecībā $a:b$. Līdz ar to:\n\n- ja $S_{DFB}=y$, tad $S_{DFA}=2y$ ($BD:AD=1:2$ un kopīgs augstums no $F$);\n- ja $S_{AFE}=x$, tad $S_{FEC}=x$ ($AE=EC$ un kopīgs augstums no $G$).\n\nIevērosim, ka arī $S_{ABE}=S_{BEC}$ ($AE=EC$ un kopīgs \naugstums no $B$), tad $S_{BFA} = 3y = S_{BFC}$ (skat. 3.att.).\nTā kā $S_{ADC} = 2S_{BDC}$ ($BD:AD=1:2$ un kopīgs augstums no $C$), \ntad $2y + 2x = 2 \\cdot 4y$ jeb $x=3y$.\nTas nozīmē, ka $S_{FEC} = x = 3y = S_{BFC}$. \nNo apgrieztā fakta $BF:FE = 1:1$ jeb $BF = FE$."
+  },
+  {
+    "id": "LV.VOL.2025.9.3",
+    "year": 2025,
+    "num": 3,
+    "images": [],
+    "problem_text": "Bezgalīgā naturālu skaitḷu virknē katru nākamo skaitli, \nsākot no otrā, var iegūt iepriekšējam pieskaitot vai nu $54$, \nvai $77$. Pierādīt, ka šajā virknē ir skaitlis, \nkuram divi pēdējie cipari ir vienādi!",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_IntegerSequences\n\n</small>\n\n## Atrisinājums\n\nIevērosim, ka $2 \\cdot 77=154$, kas nozīmē, ka pieskaitīt $54$ ir \ntas pats, kas divas reizes pieskaitīt $77$ (mums interesē \ntikai skaitla divi pēdējie cipari). Aplūkosim citu virkni $b_{i}$, \nkurā pirmais loceklis ir dotās virknes pirmais loceklis, \nbet katru nākamo, iegūst, iepriekšējam loceklim pieskaitot $77$:\n\n$b_{0}=a_{1}$; $b_{1}=a_{1}+77$; $b_{2}=a_{1}+2 \\cdot 77$; $b_{3}=a_{1}+3 \\cdot 77$; \n$\\ldots$ jeb $b_{i}=a_{1}+77 \\cdot i$, kur $i=0;1;2;3;\\ldots$.\n\nTad mūsu dotās virknes locekḷus var iegūt no šīs virknes, \nsākot no $a_{1}$ un katrā solī ejot uz priekšu vai nu par $1$ vietu \n(uz nākamo locekli) vai par 2 vietām (uz aiznākamo).\nPierādīsim, ka šajā virknē ir visas $100$ iespējamās pēdējo ciparu \nvērtības (no $00$ līdz $99$). Aplūkosim pirmos $100$ šīs \nvirknes locekļus. Ja kāda no vērtībām nebūtu sastopama, \ntad pēc Dirihlē principa kādiem diviem no pirmajiem $100$ \nvirknes loceklliem būtu vienādi divi pēdējie cipari. \nTādā gadījumā to starpība dalītos ar 100. Ja sakrīt $b_{i}$ ar \n$b_{j}$ locekli, tad \n$b_{j}-b_{i}=a_{1}+77 \\cdot j-\\left(a_{1}+77 \\cdot i\\right)=77(j-i)$, \nkas dalās ar $100$. \n\nTā kā $77$ un $100$ ir savstarpēji pirmskaitļi, tad no tā var \nsecināt, ka $i-j$ dalās ar $100$. Kas ir pretruna, jo gan $i$, \ngan $j$ ir mazāki nekā 100 (mēs aplūkojām pirmos $100$ locekļus).\nTātad kaut kur šajā virknē $b_{i}$ ir loceklis, $b_{k}$, \nkas beidzas ar $11$. Bet tas nozīmē, ka nākamais loceklis \n$b_{k+1}$ beidzas ar $11+77=88$. Tā kā mums ir divi locekļi \npēc kārtas, kam pēdējie cipari ir vienādi, tad tiem \n\"pārlēkt pāri\" nevar, tā kā mēs katrā solī ejam vai nu uz nākamo, \nvai aiznākamo locekli, tad uz viena no šiem diviem mēs noteikti trāpīsim."
+  },
+  {
+    "id": "LV.VOL.2025.9.4",
+    "year": 2025,
+    "num": 4,
+    "images": [],
+    "problem_text": "Dotas septiṇas pēc ārējā izskata vienādas monētas, no \nkurām piecas ir īstas (tām visām ir vienāda masa), \nbet divas ir viltotas (abām viltotajām ir vienāda masa), \nturklāt zināms, ka viltotā monēta ir vieglāka nekā īstā. \nKā ar $3$ svēršanām uz sviru svariem bez atsvariem \natrast abas viltotās monētas?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_CombinatorialAlgorithms\n\n</small>\n\n## Atrisinājums\n\nPirmajā svēršanā uzliksim uz katra svaru kausa $3$ monētas. \nTad ir iespējami divi gadījumi.\n\n1. Svaru kausi ir līdzsvarā. Tas nozīmē, ka uz katra svaru kausa \n   ir tieši divas īstās un viena viltotā monēta.\n   Apzīmēsim monētas, kas atradās uz kreisā svaru kausa, ar $a$, $b$ un $c$. \n   Otrajā svēršanā uzliksim uz viena svaru kausa $a$, bet uz otra - $b$. \n   Ja tagad viens no svaru kausiem ir vieglāks, tad attiecīgā monēta \n   ($a$ vai $b$) ir viltota. Ja svaru kausi ir līdzsvarā, tad monēta \n   $c$ ir viltota. Trešajā svēršanā analoǵiski rīkojamies ar tām trim \n   monētām, kas pirmajā svēršanā atradās uz labā svaru kausa.\n2. Svaru kausi nav līdzsvarā. Tas nozīmē, ka uz smagākā svaru kausa \n   visas monētas ir īstas, bet uz vieglākā ir viena vai divas viltotas.\n   Apzīmēsim monētas, kas atradās uz vieglākā svaru kausa, ar \n   $a$, $b$ un $c$, bet to monētu, kas pirmajā svēršanā nepiedalījās, \n   ar $d$. Otrajā svēršanā uzliksim monētas $a$ un $b$ katru uz sava svaru kausa.\n\n   - Ja svaru kausi ir līdzsvarā, tad vai nu tās abas ir viltotas, \n     vai arī tās abas ir īstas, un tādā gadījumā viltotās ir $c$ un $d$.\n     Kurš no šiem gadījumiem ir īstais, var noskaidrot trešajā svēršanā, \n     salīdzinot, piemēram, monētas $a$ un $c$.\n   - Ja viena no tām ir vieglāka (simetrijas pēc pieṇemsim, ka tā ir \n     monēta $a$), tad mēs zinām, ka monēta $a$ ir viltota, monēta \n     $b$ ir īsta un otra viltotā ir viena no monētām $c$ un $d$. \n     Kura tieši, var noskaidrot trešajā svēršanā, tās salīdzinot."
+  },
+  {
+    "id": "LV.VOL.2025.9.5",
+    "year": 2025,
+    "num": 5,
+    "images": [],
+    "problem_text": "Uz tāfeles uzrakstīti visi naturālie skaitlli no 1 līdz 2025. \nAlise un Kate spēlē šādu spēli. Spēli sāk Alise, viṇas gājienus \nveic pamǐšus un katrā gājiena katra meitene nodzēš vienu skaitli. \nSpēle beidzas, kad uz tāfeles palikuši divi skaitļi. Ja šo skaitlu \nsumma ir kāda naturāla skaitla kvadrāts, tad uzvar Alise, \npretējā gadījumā uzvar Kate. Kura meitene, pareizi spēlējot, noteikti var uzvarēt?",
+    "solution_text": "<small>\n\n* questionType:\n* domain:\n* _subdomain: DOM_NumericGamesAndAlgorithms\n\n</small>\n\n## Atrisinājums\n\nVienmēr var uzvarēt Alise. Savā pirmajā gājienā viṇai jānodzēš \nskaitli 2025. Tālāk visus skaitlus Alisei jāsadala pāros tā, \nlai katrā pārī esošo skaitḷi summa ir $2025$:\n\n$$(1 ; 2024); (2 ; 2023); \\ldots ;(1012 ; 1013).$$\n\nKad Kate nodzēš kādu skaitli, tad Alisei pēc tam jānodzēš atbilstošā pāra \notrais skaitlis. Beigās uz tāfeles paliks divi skaitli, kuru summa ir \n$2025$, kas ir naturāla skaitla kvadrāts ($2025 = 45^{2}$)."
+  }
+]
