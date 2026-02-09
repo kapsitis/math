@@ -122,8 +122,8 @@ iegūt uzdevumā prasīto.
 
 # <lo-sample/> LV.VOL.2023.9.4
 
-Plaknē atzīmēti punkti $A(5;2), $B(m;5)$ un $C(3;m)$. 
-Kādām reālām $m$ vērtībām trijstūris $ABC$ ir taisnleṇka trijstūris?
+Plaknē atzīmēti punkti $A(5;2)$, $B(m;5)$ un $C(3;m)$. 
+Kādām reālām $m$ vērtībām trijstūris $ABC$ ir taisnleņka trijstūris?
 
 <small>
 
