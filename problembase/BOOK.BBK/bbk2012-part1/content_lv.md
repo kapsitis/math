@@ -41,26 +41,26 @@ $$m = q \cdot n + r,\;\;0 \leq r < n.$$
 
 **Pierādījums.** 
 
-* **Eksistence (Izdalīt ar atlikumu vienmēr var).**  
-  Ar $q$ apzīmēsim lielāko veselo skaitli, 
-  kurš nepārsniedz $\frac{m}{n}$; tad  $q \leq \frac{m}{n} < q+1$ un $qn \leq m < qn+n$. 
-  Ar $r$ apzīmēsim skaitli $m-qn$; tātad $m = q \cdot n + r$. 
-  No nevienādībām $qn \leq m < qn+n$ seko, ka $0 \leq r < n$.
+**Eksistence (Izdalīt ar atlikumu vienmēr var).**  
+Ar $q$ apzīmēsim lielāko veselo skaitli, 
+kurš nepārsniedz $\frac{m}{n}$; tad  $q \leq \frac{m}{n} < q+1$ un $qn \leq m < qn+n$. 
+Ar $r$ apzīmēsim skaitli $m-qn$; tātad $m = q \cdot n + r$. 
+No nevienādībām $qn \leq m < qn+n$ seko, ka $0 \leq r < n$.
 
-* **Unitāte (Izdalīt ar atlikumu var tikai vienā veidā).**  
-  Pieņemsim, ka to pašu skaitli $m$ var izteikt divos dažādos veidos: 
-  $$\left\{ \begin{array}{ll}
-  m = q_1 \cdot n + r_1, & 0 \leq r_1 < n\\
-  m = q_1 \cdot n + r_1, & 0 \leq r_1 < n.\\
-  \end{array} \}$$
-	
-  Atņemot no pirmās vienādības otro, iegūstam:
+**Unitāte (Izdalīt ar atlikumu var tikai vienā veidā).**  
+Pieņemsim, ka to pašu skaitli $m$ var izteikt divos dažādos veidos: 
+$$\left\{ \begin{array}{ll}
+m = q_1 \cdot n + r_1, & 0 \leq r_1 < n\\
+m = q_1 \cdot n + r_1, & 0 \leq r_1 < n.\\
+\end{array} \right.$$
 
-  $$0 = (q_1 - q_2) \cdot n + (r_1 - r_2)\;\;\text{jeb}\;\; (q_2 - q_1) \cdot n = (r_1 - r_2).$$
+Atņemot no pirmās vienādības otro, iegūstam:
 
-  Tātad $r_1 - r_2$ dalās ar $n$. Tā kā $|r_1 - r_2 | < n$, tad 
-  $r_1 - r_2 = 0$ un tādēļ arī $r_1 = r_2$ un $q_1 = q_2$.  
-  Unitāte pierādīta.
+$$0 = (q_1 - q_2) \cdot n + (r_1 - r_2)\;\;\text{jeb}\;\; (q_2 - q_1) \cdot n = (r_1 - r_2).$$
+
+Tātad $r_1 - r_2$ dalās ar $n$. Tā kā $|r_1 - r_2 | < n$, tad 
+$r_1 - r_2 = 0$ un tādēļ arī $r_1 = r_2$ un $q_1 = q_2$.  
+Unitāte pierādīta.
 
 
 
