@@ -123,7 +123,7 @@ a_1 = a_2q_2 + a_3, & a_3 < a_2,\\
 \ldots & \\
 a_{k-2} = a_{k-1}q_{k-1} + a_k, & a_k < a_{k-1},\\
 a_{k-1} = a_kq_k. & \\
-\end{array} \right\}$$
+\end{array} \right.$$
 	
 **Teorēma:** Pēdējais nenulles atlikums, ko iegūst, 
 realizējot Eiklīda algoritmu ar skaitļiem $a_0$ un $a_1$, 
@@ -139,8 +139,8 @@ izņemot $1$ un $n$.
 
 **Pirmskaitļu īpašības:**
 
-1.  Naturāls skaitlis $n>1$ nav pirmskaitlis tad un tikai tad, 
-    kad eksistē tāds skaitļa $n$ dalītājs $m>1$, kurš nepārsniedz $\sqrt{n}$.
+1. Naturāls skaitlis $n>1$ nav pirmskaitlis tad un tikai tad, 
+   kad eksistē tāds skaitļa $n$ dalītājs $m>1$, kurš nepārsniedz $\sqrt{n}$.
 2. *Eiklīda lemma.* Ja $p$ ir pirmskaitlis, un $p \mid ab$, tad $p \mid a$ vai $p \mid b$.
 3. Eksistē bezgalīgi daudz pirmskaitļu.
 4. *Bertrāna postulāts.* Jebkuram naturālam skaitlim $n \geq 2$ 

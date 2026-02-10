@@ -2,7 +2,7 @@
 
 Atrodiet visus tādus naturālus skaitlus $m$, kuriem izpildās vienādība
 
-$$1! \cdot 3! \cdot 5! \cdot \cdots \cdot (2m-1)! = \left(\frac{m(m+1)}{2}\right)!$$
+$$1! \cdot 3! \cdot 5! \cdot \ldots \cdot (2m-1)! = \left(\frac{m(m+1)}{2}\right)!$$
 
 
 
