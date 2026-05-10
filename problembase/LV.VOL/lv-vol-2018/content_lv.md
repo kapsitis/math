@@ -296,11 +296,7 @@ $\triangle AED$, iegūstam $AD=\sqrt{AE^{2}+ED^{2}}=\sqrt{4+12}=4$.
 ![](LV.VOL.2018.10.2A.png)
 
 *Piezīme.* Malas $KM$ garumu var aprēķināt arī izmantojot kosinusu 
-<<<<<<< HEAD
-teorēmu trijstūrī $KAM$ :
-=======
 teorēmu trijstūrī $KAM$:
->>>>>>> 52493569e01e32faa41676aa42a782d2400ab975
 
 $$KM^{2}=AK^{2}+AM^{2}-2 \cdot AK \cdot AM \cdot \cos \sphericalangle KAM \quad \Rightarrow \quad KM=3 \sqrt{3}$$
 
@@ -351,8 +347,6 @@ dalās ar $2$. Otrā skaitļa ciparu summa ir $3$, tātad tas dalās ar $3$. Tre
 skaitļa ciparu summa ir $4$, un tas dalās ar $4$, jo tā pēdējo divu ciparu 
 veidotais skaitlis dalās ar $4$. Tā kā $n$ var būt jebkurš naturāls skaitlis, 
 tad *skaistu trijnieku* ir bezgalīgi daudz.
-<<<<<<< HEAD
-=======
 
 
 ## Atrisinājums 
@@ -373,7 +367,6 @@ $$1\underbrace{0\ldots0}_n10,\;\;1\underbrace{0\ldots0}_n11,\;\;1\underbrace{0\l
 
 
 
->>>>>>> 52493569e01e32faa41676aa42a782d2400ab975
 
 
 # <lo-sample/> LV.VOL.2018.10.4
@@ -623,13 +616,8 @@ un ka pirmais saskaitāmais dalās ar visām iespējamām $x$ vērtībām, tas i
 $24,\ 25,\ 26,\ 27$ un $28$. Tā kā abi saskaitāmie dalās ar $x$, tad arī pats 
 skaitlis dalās ar $x$.
 
-<<<<<<< HEAD
 Tā kā $n$ var būt jebkurš naturāls skaitlis, tad *skaistu piecinieku* ir 
 bezgalīgi daudz.
-=======
-Tā kā $n$ var būt jebkurš naturāls skaitlis, tad *skaistu piecinieku*
-ir bezgalīgi daudz.
->>>>>>> 52493569e01e32faa41676aa42a782d2400ab975
 
 
 # <lo-sample/> LV.VOL.2018.11.4

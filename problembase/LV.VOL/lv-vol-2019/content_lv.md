@@ -105,13 +105,8 @@ Vai naturāla skaitļa kvadrāta ciparu summa var būt **(A)** $19$, **(B)** $20
 
 **(A)** Jā, var, piemēram, $17^{2}=289$ un $2+8+9=19$.
 
-<<<<<<< HEAD
 *Piezīme.* Tā kā $19 \equiv 1(\bmod 9)$, tad jāmeklē skaitļi, kuru kvadrāts ir 
 kongruents ar $1(\bmod 9)$, tātad paši skaitļi ir $\pm 1$ $(\bmod 9)$. Der arī 
-=======
-$\textit {Piezīme.}$ Tā kā $19 \equiv 1(\bmod 9)$, tad jāmeklē skaitļi, kuru kvadrāts ir 
-kongruents ar $1 \pmod 9$, tātad paši skaitļi ir $\pm 1 \pmod 9$. Der arī 
->>>>>>> 52493569e01e32faa41676aa42a782d2400ab975
 skaitļi $26, 28, 37, 44, 53, 62, 64, 73, 82, 89, 91$, utt.
 
 **(B)** Nē, nevar. Naturālā skaitļa $n$ kvadrāta ciparu summa $2019$ dalās ar 
