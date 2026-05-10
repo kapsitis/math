@@ -1,61 +1,60 @@
 # Matemātikas uzdevumu lasītprasme un kļūdas pamatojumos
 
-## Uzdevuma lasīšana un matemātiskais modelis
+7.-9.klašu matemātikas saturs 
 
-*Kopsavilkums:* Kā iegūt autora iecerēto matemātisko situāciju. 
+## 1. Uzdevuma lasīšana un matemātiskais modelis
 
-### Sasniedzamie redzultāti
+*Kopsavilkums:* Pirms risināšanas jālasa uzdevums, jāpamana tajā visi nosacījumi un 
+uzdevums jāpārveido par matemātisku modeli. 
 
-Uzdevumu lasīšana; valodiskie pārpratumi un pazaudēti nosacījumi. 
+### Sasniedzamie redzultāti:
 
-Teach a repeatable routine for reading and unpacking problems.
-Recognize common linguistic traps and constraint-loss.
-Practice converting contexts into models (equations, graphs, cases, diagrams).
+* Analizēt uzdevumu tekstus, nepazaudējot nosacījumus (uzdevuma "ievade"). 
+* Pazīt biežus valodiskus pārpratumus. 
+* Uzdevuma kontekstu izsaka kā modeli (vienādojumu, apgalvojumu par grafiem, kombināciju saskaitīšanu vai līdzīgu). 
+* Izlasīt veicamo darbību un saprast, kāds ir vēlamais rezultāts; vai "izvade" ir skaitlis, 
+  skaitļu kopa, konstrukcija jeb algoritms, pierādījums. 
+* Praktizēt 4R secību: *Read, Restate, Represent, Roadmap*:
 
-
-Give 2 short olympiad-ish word problems where the most common error is misreading (e.g., “how many solutions” vs “find a solution”, “integer” omitted, “distinct” omitted).
-Ask participants: What wrong answers would Grade 8–9 students give and why?
-10–25 min — Mini-lecture: “4R routine”
-A practical routine to train students:
-
-4R = Read, Restate, Represent, Roadmap
-
-* Read (slowly) and mark constraints.
-* Restate in your own words (one sentence).
-* Represent (choose model: table/graph/diagram/equations).
-* Roadmap (what needs to be shown/calculated).
+    1. **Izlasīt** uzdevumu un atrast visus nosacījumus;  
+    2. **Pārformulēt** īsāk un saviem vārdiem;  
+    3. **Attēlot** situāciju zīmējumā, tabulā, funkciju grafikā;  
+    4. **Izplānot** nepieciešamās vai sagaidāmās risinājuma darbības.
 
 
-Handout: A one-page checklist teachers can reuse.
+### Izmantotie līdzekļi:
 
-25–55 min — Activity: constraint hunting + rephrasing
+1. Daži ievaduzdevumi, kuri viegli noved pie pārpratumiem (atšķirība starp "cik atrisinājumu", "atrast atrisinājumu", 
+   "atrast visus atrisinājumus", pārprastas skaitļu kopas, izlaists vārds "atšķirīgs"). 
+   Katram uzdevumam uzdodam precizējošus jautājumus, lai saprastu, kādos veidos to var pārprast.
+   Šie uzdevumi jāizvēlas no olimpiāžu un arī matemātikas standartkursa krājumiem.
+2. Uzdevumu piemēri, kuros (a) pasvītro nosacījumus, (b) formalizē, (c) noskaidro atrisinājuma struktūru.  
 
-In small groups, give 3 tasks (mix of competition + textbook style). For each: (a) underline constraints, (b) rewrite the problem in “math language”, (c) list what is being asked (“output type”: number? set? proof? construction?).
-55–70 min — Modelling patterns (mini-lecture + quick examples)
-Show 4–5 modelling “moves” frequently needed in olympiad problems:
+   Piemēri var parādīt modelēšanas paņēmienus (pārsvarā kombinatorikas vai ģeometrijas uzdevumiem):
 
-“People/cities/roads” → graph (vertices/edges; degrees; connectivity).
-“Each affects neighbors / parity changes” → invariant / parity.
-“Choose/arrange” → counting / bijection.
-“Geometric condition” → use named theorems not appearance.
-70–110 min — Workshop: same story, different model
-Give one situation-based problem and ask groups to propose two different models (e.g., graph vs. parity; equation vs. casework).
-Discussion focuses on: Which model makes proof easiest?
+   * Cilvēki/draudzēšanās vai pilsētas/ceļi (modelis ir grafi - virsotnes, šķautnes, virsotņu pakāpes, sakarīgums), 
+   * Uzdevumi, kur elementi iespaido savus kaimiņus (modelis ir summas, invarianti, paritāte), 
+   * Izvēles vai piekārtošanas uzdevumi, kombināciju saskaitīšana (modelis ir bijektīvas vai injektīvas funkcijas), 
+   * Ģeometrisku uzdevumu nosacījumi (modelis ir ģeometriskas teorēmas nevis izskats diagrammā), 
+   * Divu spēlētāju kombinatoriskas spēles modelis.
+   * Algoritmiska uzdevuma modelis.
 
-110–120 min — Takeaway + classroom transfer
-Participants produce: one concrete “reading routine” poster and one modelling exercise they can use next week.
-
-Suggested materials
-
-Handout: “4R routine + constraint checklist”
-A set of 6–8 short tasks (Latvian olympiad/AMC-style length but not multiple-choice)
+3. Piemēri, kuros var izveidot atšķirīgus modeļus tam pašam uzdevumam (grafi vs. paritāte, vienādojums vs. gadījumu 
+   analīze). Kurš no modeļiem ir vienkāršāks risinājuma iegūšanai? 
+   Arī piemēri, kas var viegli novest pie neparastiem modeļiem.
 
 
+### Izmantotie līdzekļi:
+
+* Darbību saraksts uz vienas lapas: 4R secība, pārbaudāmās lietas (*checklist*) uzdevuma nosacījumiem un vēlamajam rezultātam.
+* Uzdevumi līdzīgi 5.-6.lappusei no [5.-9.klašu olimpiāžu 
+  grāmatas](https://www.nms.lu.lv/fileadmin/user_upload/lu_portal/projekti/nms.lu.lv/Gramatas/Tematiskie/GRAMATA_atjaunots_matem_olimp_uzd_macibu_procesa_5-9kl.pdf), bet mazliet tuvāki reālām olimpiādēm.
 
 
 
 
-## Kas ir pierādījums? Pretpiemērs, kvantori, zīmējumi
+
+## 2. Kas ir pierādījums? Pretpiemērs, kvantori, zīmējumi
 
 *Kopsavilkums:* Kādi soļi ir atļauti, kā apgāzt apgalvojumus, kāpēc attēli un piemēri var būt maldinoši. 
 
@@ -118,7 +117,12 @@ A compact “Proof & Disproof toolbox” sheet:
 what to try first (counterexample search),
 common negations,
 forbidden phrases in solutions (“looks like”, “clearly from the drawing” without theorem).
-Part 3 (2h): Pamatojuma struktūra un vērtēšana (minimālais, algoritmi, stratēģijas)
+
+
+
+
+
+## 3. Pamatojuma struktūra un vērtēšana (minimālais, algoritmi, stratēģijas)
 Theme: Turning reasoning into a complete, checkable written solution; diagnosing typical olympiad marking issues.
 
 Learning goals

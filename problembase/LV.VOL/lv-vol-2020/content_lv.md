@@ -36,6 +36,7 @@ vidējais aritmētiskais.
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerConditions
+* subdomain: DOM_SystemsOfInequalities
 
 </small>
 

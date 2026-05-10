@@ -28,7 +28,7 @@ tātad $c=1$ un $d=3$, jeb $\overline{abcd}=1813$.
 
 # <lo-sample/> LV.VOL.2013.9.2
 
-Doti trīs regulāri trijstūri $OAB, OCD$ un $OEF$ (virsotnes norādītas
+Doti trīs regulāri trijstūri $OAB$, $OCD$ un $OEF$ (virsotnes norādītas
 pulksteņrādītāja secībā), kuru malu garumi var atšķirties. Punkti $A, C, E$
 neatrodas uz vienas taisnes; punkti $B, D, F$ arī neatrodas uz vienas taisnes.
 Pierādīt, ka $\triangle ACE=\triangle BDF$.
@@ -122,7 +122,7 @@ kopsummā ieguva $92$ punktus. Cik punktus ieguva otra komanda?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja pieņemam, ka komanda-zaudētāja izcīnījusi $a$ uzvaras, tad komanda-uzvarētāja
 izcīnījusi $a+1$ uzvaru. Kopējais punktu skaits komandai-zaudētājai ir
@@ -163,6 +163,22 @@ komanda-zaudētāja varēja iegūt $92$ punktus.
 
 Tā kā komanda-uzvarētāja ieguva par $3$ punktiem vairāk nekā komandu-zaudētāja,
 tad otra komanda (uzvarētāja) ieguva $95$ punktus.
+
+
+## Atrisinājums-2
+
+Lai parādītu, ka uzvarētāja komanda nevarēja dabūt tieši $2an+3a+n+3 = 92$ punktus, 
+varam pārrakstīt vienādojumu šādi: 
+
+$2an +3a + n = 89$,  
+$(2a + 1)(n + 1.5) - 1.5 = 89$,  
+$(2a + 1)(2n + 3) - 3 = 178$,  
+$(2a + 1)(2n+3) = 181$. 
+
+Pēdējo vienādojumu nevar atrisināt naturālos skaitļos, jo $181$ ir pirmskaitlis.
+Šādu tehniku (kur vairāku mainīgo 2.pakāpes polinomus dala reizinātājos) sauc arī par 
+Saimona iecienīto sadalīšanu reizinātājos (*Simon's Favorite Factoring Trick*). 
+
 
 
 # <lo-sample/> LV.VOL.2013.9.5

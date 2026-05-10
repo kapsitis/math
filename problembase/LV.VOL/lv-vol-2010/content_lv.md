@@ -108,8 +108,8 @@ piederēt $0, 2, 3$, $4, 5, 6$ vai $8$ virsotnes, skat., piem., 2.zīm.
 
 ![](LV.VOL.2010.9.4A.png)
 
-**Pierādījums.** (A) Pierādīsim, ka otram taisnstūrim nevar piederēt tieši viena
-virsotne.
+**Pierādījums.** **(A)**
+Pierādīsim, ka otram taisnstūrim nevar piederēt tieši viena virsotne.
 
 Pieņemsim pretējo, ka šāda (*īpaša*) virsotne tomēr atrodas- tā ir vienīgā no astoņām
 virsotnēm, kas vienlaicīgi pieder arī otram taisnstūrim. Šī virsotne nevar sakrist ar
@@ -132,11 +132,10 @@ taisnstūra (kura trīs virsotnes ir *īpašā* virsotne, $V_{x}$ un $V_{y}$ iek
 atrodas kāda no otrā taisnstūra virsotnēm.
 
 Līdzīgi analizē gadījumu, kad $īpašā$ virsotne atrodas uz otra taisnstūra kontūra.
-
 Esam ieguvuši pretrunu, tātad nevar būt tieši viena virsotne, kas pieder arī otram
 taisnstūrim.
 
-(B) Pierādīsim, ka otram taisnstūrim nevar piederēt tieši septiņas virsotnes.
+**(B)** Pierādīsim, ka otram taisnstūrim nevar piederēt tieši septiņas virsotnes.
 
 Ieviesīsim koordinātu sistēmu un apskatīsim doto taisnstūru virsotņu koordinātes.
 Pieņemsim, ka viena taisnstūra $ABCD$ virsotnes ir ar koordinātām
@@ -180,10 +179,8 @@ piederēt arī otram taisnstūrim.
 Taisnstūris ar izmēriem $5 \times n$ rūtiņas izkrāsots šaha galdiņa kārtībā. Vienā
 gājienā drīkst mainīt trīs blakus rūtiņu, kas atrodas vienā rindā vai kolonnā,
 krāsojumu uz pretējo. Vai, veicot šādus gājienus vairākkārt, var panākt, ka visas
-rūtiņas ir vienā krāsā, ja
-
-**(A)** $n=5$,
-
+rūtiņas ir vienā krāsā, ja  
+**(A)** $n=5$,  
 **(B)** $n=3$?
 
 <small>

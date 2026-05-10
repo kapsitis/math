@@ -28,10 +28,10 @@ starpība ir pāra skaitlis, tātad to starpība nevar būt $2023$, jo tas ir ne
 
 Doti $8$ atsvari, kuru masas attiecīgi ir $1,2,3,4,5,6,7$ un 
 $8 \mathrm{~kg}$. Vai šos atsvarus var novietot uz sviru svaru 
-kausiem tā, lai izpildās abi nosacijumi:
+kausiem tā, lai izpildās abi nosacījumi:
 
 - sākumā uz katra svaru kausa būtu $4$ atsvari un svari atrastos līdzsvarā;
-- atsvarus varētu pārmainus noņemt no viena svaru kausa un no otra tā, 
+- atsvarus varētu pārmaiņus noņemt no viena svaru kausa un no otra tā, 
   lai pēc katra atsvara (izṇemot pēdējā) noṇemšanas tas kauss, 
   no kura noṇem atsvaru, kļūtu vieglāks nekā otrs svaru kauss?
 

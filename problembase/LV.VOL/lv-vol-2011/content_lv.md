@@ -85,6 +85,7 @@ izvēlēties $81$ trīsciparu skaitli tā, lai vienlaicīgi izpildītos šādas 
 * questionType:Prove
 * domain:NT
 * _subdomain: DOM_DigitManipulation
+* subdomain: DOM_CombinatorialCounterexamples
 
 </small>
 

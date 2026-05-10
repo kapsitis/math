@@ -14,7 +14,7 @@ $x^{2}+5y^{2}+4xy-6y+9 \geq 0$.
 
 ## Atrisinājums
 
- Veicam ekvivalentus pārveidojumus:
+Veicam ekvivalentus pārveidojumus:
 
 $$\begin{gathered}
 \left(x^{2}+4xy+4y^{2}\right)+\left(y^{2}-6y+9\right) \geq 0 \\

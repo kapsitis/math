@@ -605,7 +605,6 @@ Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 
 <small>
 
-
 * topic:ModularArithmetic
 * topic:ModularArithmetic
 * questionType:FindExample

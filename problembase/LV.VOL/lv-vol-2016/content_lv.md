@@ -8,6 +8,7 @@ kubs. Pierādīt, ka arī $x^{2}y$ ir naturāla skaitļa kubs!
 * questionType:Prove
 * domain:NT
 * _subdomain: DOM_PrimeFactors
+* subdomain: DOM_PerfectPower
 
 </small>
 

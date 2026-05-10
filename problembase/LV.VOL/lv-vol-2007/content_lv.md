@@ -74,6 +74,7 @@ rūtiņu (varbūt neviena). Kāds var būt kopējais melno rūtiņu skaits?
 * questionType:
 * domain:
 * _subdomain: DOM_MagicConfigurations
+* subdomain: DOM_GridColoring
 
 </small>
 

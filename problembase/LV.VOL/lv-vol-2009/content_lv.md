@@ -58,6 +58,7 @@ nokrāsotas dažādās krāsās. Kāda ir mazākā iespējamā $k$ vērtība?
 * questionType:
 * domain:
 * _subdomain: DOM_MagicConfigurations
+* subdomain: DOM_GridColoring
 
 </small>
 

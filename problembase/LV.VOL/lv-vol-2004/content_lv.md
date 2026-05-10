@@ -96,6 +96,7 @@ Kādu lielāko torņu daudzumu Andrim var izdoties novietot?
 * questionType:
 * domain:
 * _subdomain: DOM_MagicConfigurations
+* subdomain: DOM_MakingMoves
 
 </small>
 

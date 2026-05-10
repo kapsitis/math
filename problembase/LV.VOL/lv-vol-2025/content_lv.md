@@ -798,7 +798,7 @@ $$\begin{gathered}
 
 # <lo-sample/> LV.VOL.2025.12.4
 
-Pirmskaitlli $p$ un $q$ ir tādi, ka $p^{2}+p q+q^{2}$ ir kāda naturāla skaitla kvadrāts. Pierādīt, ka $p^{2}-p q+q^{2}$ ir pirmskaitlis!
+Pirmskaitļi $p$ un $q$ ir tādi, ka $p^{2}+p q+q^{2}$ ir kāda naturāla skaitla kvadrāts. Pierādīt, ka $p^{2}-p q+q^{2}$ ir pirmskaitlis!
 
 <small>
 
