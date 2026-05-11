@@ -1,0 +1,28 @@
+{
+    "preliminary-workflow": [
+        {
+            "add-metadata": {
+                "status": "success",
+                "output": "../../math/problembase/LV.VOL/lv-vol-2018/content_lv2.md"
+            }
+        },
+        {
+            "add-metadata": {
+                "status": "success",
+                "output": "../../math/problembase/LV.VOL/lv-vol-2018/content_lv2.md"
+            }
+        },
+        {
+            "add-metadata": {
+                "status": "success",
+                "output": "../../math/problembase/LV.VOL/lv-vol-2018/content_lv2.md"
+            }
+        },
+        {
+            "add-metadata": {
+                "status": "success",
+                "output": "../../math/problembase/LV.VOL/lv-vol-2018/content_lv2.md"
+            }
+        }
+    ]
+}
