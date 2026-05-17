@@ -29,6 +29,12 @@
                 "status": "success",
                 "output": "../../math/problembase/LV.AMO/lv-amo-2024/content_lv2.md"
             }
+        },
+        {
+            "add-metadata": {
+                "status": "success",
+                "output": "../../math/problembase/LV.AMO/lv-amo-2024/content_lv2.md"
+            }
         }
     ]
 }
