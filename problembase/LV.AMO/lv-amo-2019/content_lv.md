@@ -15,8 +15,7 @@ perimetrs?
 * domain:Geom
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, DirectProportion, RationalNumbers
 * _readingDifficulty: low
-* _hasReasoningMethod: ParallelogramProperties
-* _newReasoningMethodLabel: AreaAsSquareOfSide
+* _hasReasoningMethod: ParallelogramProperties,ScalingByLinearRatio
 
 </small>
 

@@ -219,8 +219,7 @@ $25~\mathrm{cm^{2}}$.
 * domain:Geom
 * _hasSolutionConcept: RationalNumbers, DirectProportion, PerfectSquares
 * _readingDifficulty: low
-* _hasReasoningMethod: ParallelogramProperties
-* _newReasoningMethodLabel: AreaAsSquareOfSide
+* _hasReasoningMethod: ParallelogramProperties,ScalingByLinearRatio
 
 </small>
 
@@ -293,8 +292,7 @@ nevarētu izgriezt $2 \times 3$ rūtiņu taisnstūri, kam visas rūtiņas ir bal
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Coloring, Tiling, OptimumProofStructure
 * _readingDifficulty: medium
-* _hasReasoningMethod: ProofByContradiction
-* _newReasoningMethodLabel: PackingDisjointShapes
+* _hasReasoningMethod: ProofByContradiction,PackingDisjointShapes
 
 </small>
 
@@ -450,8 +448,7 @@ locekļu summu!
 * topic:SequencePeriodicity
 * _hasSolutionConcept: NumberSequence, PeriodicSequence, RationalNumbers
 * _readingDifficulty: low
-* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
-* _newReasoningMethodLabel: DetectPeriodInRecursiveSequence
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities,DetectPeriodInRecursiveSequence
 
 </small>
 
@@ -756,8 +753,7 @@ neiekrāsotas?
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure, FiniteSet
 * _readingDifficulty: high
-* _hasReasoningMethod: ProofByContradiction
-* _newReasoningMethodLabel: PackingDisjointShapes
+* _hasReasoningMethod: ProofByContradiction,PackingDisjointShapes
 
 </small>
 

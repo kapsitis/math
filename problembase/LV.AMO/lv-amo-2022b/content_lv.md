@@ -192,8 +192,7 @@ Cik ir tādu skaitļu, kas ir apvilkti ar vismaz divām dažādām krāsām?
 * topic:MutualPrimes
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, MultiplesSet, InclusionExclusion
 * _readingDifficulty: medium
-* _hasReasoningMethod: CoprimeFactorsDivisibility
-* _newReasoningMethodLabel: InclusionExclusionCounting
+* _hasReasoningMethod: CoprimeFactorsDivisibility,InclusionExclusionCounting
 
 </small>
 

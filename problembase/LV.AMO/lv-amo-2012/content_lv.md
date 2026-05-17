@@ -427,8 +427,7 @@ iet.
 * subdomain:DOM_MakingMoves
 * _hasSolutionConcept: LatticePath, LatticeGrid, RecurrentSequence
 * _readingDifficulty: medium
-* _hasReasoningMethod: CaseAnalysis
-* _newReasoningMethodLabel: DynamicProgramming
+* _hasReasoningMethod: CaseAnalysis,DynamicProgramming
 
 </small>
 

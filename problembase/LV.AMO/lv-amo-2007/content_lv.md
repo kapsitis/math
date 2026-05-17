@@ -233,8 +233,7 @@ būtu vienādi, ja sākotnējais izvietojums ir tāds, kāds parādīts 1.zīm. 
 * domain:Alg
 * _hasSolutionConcept: Invariant, EvenOddParity, ChessboardColoring, LatticeGrid
 * _readingDifficulty: high
-* _hasReasoningMethod: ParityOrModularArgumentForEquations
-* _newReasoningMethodLabel: InvariantByColoring
+* _hasReasoningMethod: ParityOrModularArgumentForEquations,InvariantByColoring
 
 </small>
 

@@ -906,8 +906,7 @@ vienlaicīgi gan $AB$, gan $CD$ viduspunkts!
 * _hasSolutionConcept: PointLineSegmentRay, QuadraticFunction, CoordinatePlane, ParallelogramProperties, ProofByContradiction
 * _readingDifficulty: high
 * _domain: Geom,Alg
-* _hasReasoningMethod: ProofByContradiction, ParallelogramProperties
-* _newReasoningMethodLabel: SlopesOnCoordinatePlane
+* _hasReasoningMethod: ProofByContradiction, ParallelogramProperties, SlopesOnCoordinatePlane
 
 </small>
 
