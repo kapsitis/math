@@ -6,6 +6,8 @@ Izsaki skaitli $1$ kā piecu atšķirīgu daļu summu, kuru saucēji ir vienādi
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, NumberPartitions
+* _readingDifficulty: low
 
 </small>
 
@@ -14,7 +16,6 @@ Izsaki skaitli $1$ kā piecu atšķirīgu daļu summu, kuru saucēji ir vienādi
 
 Piemēram,
 $\frac{1}{15}+\frac{2}{15}+\frac{3}{15}+\frac{4}{15}+\frac{5}{15}=\frac{15}{15}=1$.
-
 
 
 # <lo-sample/> LV.AMO.2015.5.2
@@ -28,6 +29,8 @@ redzamo figūru un $28$ figūrām, kādas redzamas 2.att.? Figūras drīkst pagr
 
 * questionType:ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: Tiling, ChessboardColoring, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -45,7 +48,6 @@ taisnstūri ar dotajām figūrām pārklāt nav iespējams.
 ![](LV.AMO.2015.5.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2015.5.3
 
 Vai iespējams uzzīmēt tādu taisnstūri, kura malu garumi ir naturāli skaitļi,
@@ -55,6 +57,8 @@ bet **(A)** laukums ir pirmskaitlis; **(B)** perimetrs ir pirmskaitlis?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom,NT
+* _hasSolutionConcept: PositiveIntegers, PrimeNumbers, EvenOddParity, DivisibilityRelation, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -72,7 +76,6 @@ $a+b$ būtu jābūt vienādam ar $1$ , bet tas nav iespējams, jo $a$ un $b$ ir
 naturāli skaitļi.
 
 
-
 # <lo-sample/> LV.AMO.2015.5.4
 
 Kādu naturālu skaitli, saskaitot ar savu ciparu summu, iegūst skaitli $328$?
@@ -82,6 +85,8 @@ Atrodi visus tādus skaitļus un pamato, ka citu nav!
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, DigitSum, DigitRepresentation, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -112,7 +117,6 @@ Apskatām katru no gadījumiem.
 Tātad vienīgais skaitlis, kas atbilst uzdevuma nosacījumiem, ir $317$.
 
 
-
 # <lo-sample/> LV.AMO.2015.5.5
 
 Dotas $9$ pēc ārējā izskata vienādas monētas, no kurām $2$ ir viltotas. Visu
@@ -124,6 +128,8 @@ atsvariem atrast abas viltotās monētas?
 
 * questionType:Algorithm
 * domain:Comb
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -162,7 +168,6 @@ viltotā:
      un tā, kas stāv malā) ir viltotas.
 
 
-
 # <lo-sample/> LV.AMO.2015.6.1
 
 Profesors Cipariņš iedomājās četrus skaitļus, kuru summa ir vesels skaitlis.
@@ -176,6 +181,8 @@ bet pārējās - veseli skaitļi?
 
 * questionType:Prove,ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, WholeIntegers, VariableExpression, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -192,7 +199,6 @@ iedomājies, piemēram, skaitļus
 $\frac{1}{3}, \frac{1}{3}, \frac{2}{3}, \frac{2}{3}$.
 
 
-
 # <lo-sample/> LV.AMO.2015.6.2
 
 Vai kvadrātu ar izmēriem $12 \times 12$ rūtiņas, kurām no diviem pretējiem
@@ -204,6 +210,8 @@ taisnstūriem, kuru izmēri ir $1 \times 2$ rūtiņas?
 * questionType:ProveDisprove
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, ChessboardColoring, ParityInvariant, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -222,7 +230,6 @@ rūtiņu. Iegūta pretruna, jo figūrā nav vienāds skaits melno un balto rūti
 ![](LV.AMO.2015.6.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2015.6.3
 
 Aldis aplīšos (skat. 3.att.) ierakstīja ciparus no $0$ līdz $9$ (katrā aplītī
@@ -235,6 +242,8 @@ gadīties, ka visi seši trijstūros ierakstītie skaitļi ir vienādi?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: MagicConfiguration, DivisibilityRelation, DigitSum, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -259,7 +268,6 @@ nevar būt $9$. Tātad $y$ var būt $3$ vai $6$, tad $x$ attiecīgi ir $14$ vai 
 ![](LV.AMO.2015.6.3B.png)
 
 
-
 # <lo-sample/> LV.AMO.2015.6.4
 
 Pierādi, ka naturāla skaitļa kvadrāts nevar sastāvēt tikai no sešiniekiem un
@@ -269,6 +277,8 @@ nullēm! (Skaitļa kvadrāts ir skaitļa reizinājums pašam ar sevi).
 
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: PerfectSquares, PrimeFactorization, DivisibilityRelation, DigitRepresentation
+* _readingDifficulty: medium
 
 </small>
 
@@ -290,7 +300,6 @@ pāra skaitā. Ja atlikušā skaitļa pēdējie divi cipari ir
 Tātad esam pierādījuši, ka dotais skaitlis nav naturālā skaitļa kvadrāts.
 
 
-
 # <lo-sample/> LV.AMO.2015.6.5
 
 Vairāki bērni devās pārgājienā un mājupceļā katrs kā suvenīru paņēma vienu vai
@@ -306,6 +315,8 @@ katram no pārējiem bērniem - samazinājās?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: Invariant, FiniteSequenceArrangement, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -324,7 +335,6 @@ $\ldots$, pēdējais - pirmajam, tad tikai pirmajam bērnam akmentiņu masa ir
 palielinājusies, bet visiem pārējiem- samazinājusies.
 
 
-
 # <lo-sample/> LV.AMO.2015.7.1
 
 Deviņas vienādas cepures kopā maksā mazāk nekā $10$ eiro, bet desmit tādas pašas
@@ -336,6 +346,8 @@ vienādas cepures maksā vairāk nekā $11$ eiro. Cik maksā viena cepure?
 * domain:Alg
 * subdomain:DOM_Inequalities
 * topic:RationalOperations
+* _hasSolutionConcept: RationalNumbers, LinearInequality
+* _readingDifficulty: low
 
 </small>
 
@@ -347,7 +359,6 @@ $10c > 11$ jeb $c < 1 \frac{1}{9}$ un $c > 1 \frac{1}{10}$. Tātad
 $c \in\left(1 \frac{1}{10} ; 1 \frac{1}{9}\right)$ un, ievērojot, ka
 $1 \frac{1}{10}=1,10$ un $1 \frac{1}{9}=1,111 \ldots$, iegūstam, ka cepures cena
 ir $1,11$ eiro.
-
 
 
 # <lo-sample/> LV.AMO.2015.7.2
@@ -366,6 +377,8 @@ apgrieztas spoguļattēlā.
 * subdomain:DOM_GridCut
 * method:MTH_FixedInvariant
 * topic:ColoringProblems
+* _hasSolutionConcept: Tiling, ChessboardColoring, ParityInvariant, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -384,7 +397,6 @@ skaitu visā taisnstūrī, tad taisnstūri pilnībā pārklāt nevar.
 *Piezīme.* Der arī krāsojums joslās.
 
 
-
 # <lo-sample/> LV.AMO.2015.7.3
 
 **(A)** Atrast tādu naturālu skaitli, kura ciparu summa ir $13$, pēdējie divi
@@ -394,7 +406,7 @@ cipari ir $13$ un kurš dalās ar $13$.
 divi cipari ir $11$ un kurš dalās ar $11$?
 
 <small>
-  
+
 * topic:DivisibilityRuleFor11
 * topic:DivisibilityRulesFor3And9
 * topic:MutualPrimes
@@ -403,6 +415,8 @@ divi cipari ir $11$ un kurš dalās ar $11$?
 * subdomain:DOM_NumeralSystems
 * concepts:sum
 * method:MTH_ContradictionForExistence
+* _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, DivisibilityRules, DigitSum, DigitRepresentation, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -439,8 +453,7 @@ Skaitlī $S_1$ ir cipari pāra un nepāra pozīcijās; dalāmības pazīme ar $1
 paredz, ka pāra un nepāra pozīciju ciparu summas ir vienādas vai arī to 
 starpība dalās ar $11$. Faktiski tām ir jābūt vienādām, jo ja tās atšķirtos par $11$
 vai vairāk, tad $S_1$ ciparu summa nebūtu $9$. 
-Bet divas vienādas ciparu summas saskaitot kopā sanāktu pāra skaitlis nevis $9$. 
-
+Bet divas vienādas ciparu summas saskaitot kopā sanāktu pāra skaitlis nevis $9$.
 
 
 # <lo-sample/> LV.AMO.2015.7.4
@@ -458,6 +471,8 @@ Atrodi visus gadījumus un pamato, ka citu nav!
 * method:MTH_ExhaustiveAlgorithms
 * topic:TriangleAngles
 * topic:TriangleInequality
+* _hasSolutionConcept: Triangle, TriangleCongruence, TriangleAngleSum, TriangleInequality, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -502,7 +517,6 @@ trijstūra vienādās malas.
 	    $\sphericalangle BAC=90^{\circ}$.
 
 
-
 # <lo-sample/> LV.AMO.2015.7.5
 
 Uz galda stāv četras pēc izskata vienādas bumbiņas, to masas attiecīgi ir
@@ -519,6 +533,8 @@ atsvariem, kur katrā kausā drīkst ielikt tieši divas bumbiņas, iespējams
 * subdomain:DOM_CombinatorialAlgorithms
 * method:MTH_ExhaustiveAlgorithms
 * topic:ProblemsWithHiddenInformation
+* _hasSolutionConcept: ExhaustiveCheck, FiniteSet, DecisionTree
+* _readingDifficulty: medium
 
 </small>
 
@@ -551,13 +567,15 @@ Nosaki, vai izteiksmes $\sqrt{6+2 \sqrt{5}}-\sqrt{6-2 \sqrt{5}}$ vērtība ir
 racionāls skaitlis!
 
 <small>
-  
+
 * topic:StandardIdentities
 * topic:MethodOfInfiniteDescent
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:DOM_NumberRepresentation
 * concepts:rational-numbers
+* _hasSolutionConcept: RationalNumbers, IrrationalAndReals, SquareOfSumIdentity, PositiveAndNegative
+* _readingDifficulty: low
 
 </small>
 
@@ -590,6 +608,8 @@ apgrieztas spoguļattēlā.
 * subdomain:DOM_GridCut
 * method:MTH_FixedInvariant
 * topic:ColoringProblems
+* _hasSolutionConcept: Tiling, ChessboardColoring, EvenOddParity, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -608,7 +628,6 @@ prasīto nevar izdarīt.
 *Piezīme.* Der arī krāsojums joslās.
 
 
-
 # <lo-sample/> LV.AMO.2015.8.3
 
 Atrast vienu naturālu skaitli, kas lielāks nekā $2015$ un ko nevar izteikt kā
@@ -622,6 +641,8 @@ naturāla skaitļa kvadrāta un pirmskaitļa summu.
 * domain:NT
 * subdomain:DOM_SpecialNumbers
 * concepts:primes,sum,square-Alg
+* _hasSolutionConcept: PositiveIntegers, PrimeNumbers, PerfectSquares, DiffOfSquaresFactoring, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -643,7 +664,6 @@ $2m-1$ ir salikts skaitlis.
 Atliek tikai nodrošināties, lai sadalījumā $(n-a)(n+a)$ neviens no reizinātājiem nebūtu $1$.
 
 
-
 # <lo-sample/> LV.AMO.2015.8.4
 
 Divu taisnstūra paralēlskaldņu visu šķautņu garumi ir naturāli skaitļi. Pirmā
@@ -660,6 +680,8 @@ paralēlskaldņa tilpums?
 * method:MTH_ExtremeElements
 * topic:FindingExtremesWithFunctionProperties
 * topic:ArithmeticOperations
+* _hasSolutionConcept: PositiveIntegers, BasicSolids, Counterexample, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -683,7 +705,6 @@ Saīsinot visīsāko paralēlskaldņa malu, tilpums (reizinājums) samazinās st
 nekā skaldņu perimetri (summas).
 
 
-
 # <lo-sample/> LV.AMO.2015.8.5
 
 Šaurleņķu trijstūrī $ABC$ novilkts augstums $CH$ un mediāna $BK$. Zināms, ka
@@ -697,6 +718,8 @@ $ABC$ ir vienādmalu!
 * subdomain:DOM_Triangles
 * topic:TriangleCongruence
 * topic:TrianglesIsosceles
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, TriangleAngleSum
+* _readingDifficulty: medium
 
 </small>
 
@@ -736,7 +759,6 @@ Esam ieguvuši, ka katrs trijstūra $ABC$ leņķis ir $60^{\circ}$, tātad
 $\triangle ABC$ ir vienādmalu trijstūris.
 
 
-
 # <lo-sample/> LV.AMO.2015.9.1
 
 No visiem tādiem skaitļiem, kuru starpība ir $2015$, noteikt tos divus, kuru
@@ -748,6 +770,8 @@ reizinājums ir vismazākais!
 * domain:Alg
 * subdomain:DOM_Extremes
 * topic:FindingExtremesWithFunctionProperties
+* _hasSolutionConcept: WholeIntegers, QuadraticFunction, OptimumProofStructure
+* _readingDifficulty: low
 
 </small>
 
@@ -779,6 +803,8 @@ ar izmēriem $1 \times 1 \times 3$ ?
 * subdomain:DOM_GridOther
 * method:MTH_FixedInvariant
 * topic:ColoringProblems
+* _hasSolutionConcept: Tiling, Coloring, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -794,7 +820,6 @@ blokiem ar izmēriem $1 \times 1 \times 3$.
 ![](LV.AMO.2015.9.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2015.9.3
 
 Pierādi, ka $x^{5}-5x^{3}+4x$ dalās ar $120$, ja $x$ ir vesels skaitlis!
@@ -805,6 +830,8 @@ Pierādi, ka $x^{5}-5x^{3}+4x$ dalās ar $120$, ja $x$ ir vesels skaitlis!
 * domain:NT
 * subdomain:DOM_Divisibility
 * topic:EquationFactorization
+* _hasSolutionConcept: WholeIntegers, DivisibilityRelation, PrimeNumbers
+* _readingDifficulty: low
 
 </small>
 
@@ -821,7 +848,6 @@ Esam ieguvuši, ka dotā izteiksme ir piecu pēc kārtas esošu skaitļu reizin�
 Vismaz divi no šiem skaitļiem dalās ar $2$, no kuriem viens arī ar $4$, vismaz
 viens -- ar $3$, un vismaz viens -- ar $5$. Tātad šo skaitļu reizinājums dalās ar
 $2 \cdot 3 \cdot 4 \cdot 5=120$.
-
 
 
 # <lo-sample/> LV.AMO.2015.9.4
@@ -841,6 +867,8 @@ $G$. Nosaki $\sphericalangle CGD$ lielumu, ja $\sphericalangle CAD=\alpha$!
 * topic:TrianglesIsosceles
 * topic:IsoscelesTrapezoid
 * topic:TriangleInternalAngles
+* _hasSolutionConcept: QuadrilateralFamilies, Triangle, Angle, CircleAndDisk, InscribedCentralAngle
+* _readingDifficulty: medium
 
 </small>
 
@@ -859,7 +887,6 @@ $\sphericalangle CGD=3 \alpha$.
 ![](LV.AMO.2015.9.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2015.9.5
 
 Parādi, kā naturālos skaitļus no $1$ līdz $2n-1$ uzrakstīt rindā tā, ka visas
@@ -872,6 +899,8 @@ skaitlis $1$ ir vidējais ($n$-tais), ja **(A)** $n=5$; **(B)** $n=1008$.
 * domain:Comb
 * subdomain:DOM_CombinatorialCounterexamples
 * topic:SequenceGaps
+* _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -906,7 +935,6 @@ starpībām atrodami visi skaitļi no $1$ līdz $2014$:
 ![](LV.AMO.2015.9.5B.png)
 
 
-
 # <lo-sample/> LV.AMO.2015.10.1
 
 Nosaki funkcijas **(A)** $y=x^{2}+2x+2$, **(B)** $y=\frac{1}{x^{2}+2x+2}$ vērtību
@@ -931,7 +959,6 @@ vērtību $y_{0}=1-2+2=1$. Tātad funkcijas vērtību kopa ir $[1 ;+\infty)$.
 izteiksme nav vienāda ar $0$ un saucējs ir pozitīvs, tāpēc $y > 0$. Tā kā
 $(x+1)^{2}+1 \geq 1$, tad $y=\frac{1}{(x+1)^{2}+1} \leq \frac{1}{1}=1$. Tātad
 funkcijas vērtību kopa ir $(0; 1]$.
-
 
 
 # <lo-sample/> LV.AMO.2015.10.2
@@ -987,7 +1014,6 @@ skaitā, kas ir pretruna tam, ka katras krāsas rūtiņu skaits kvadrātā ir
 $\frac{(4k+2)^{2}}{4}=(2k+1)^{2}=4k^{2}+4k+1$, kas ir nepāra skaitlis.
 
 
-
 # <lo-sample/> LV.AMO.2015.10.3
 
 Atrast visus naturālos skaitļus, kas ir vienādi ar savu ciparu reizinājumu. (Par
@@ -1030,10 +1056,7 @@ $$a\cdot{}b < 10a \leq 10^1\cdot{}a + b = \overline{ab},$$
 $$a\cdot{}b\cdot{}c < 10^2\cdot{}a < 100a + 10b + c = \overline{abc}.$$
 
 Skaitļa pirmo decimālciparu reizinot ar $k$ turpmākajiem cipariem, iegūsim 
-mazāku rezultātu nekā reizinot ar $10^k$, jo katrs cipars ir mazāks par $10$. 
-
-
-
+mazāku rezultātu nekā reizinot ar $10^k$, jo katrs cipars ir mazāks par $10$.
 
 
 # <lo-sample/> LV.AMO.2015.10.4
@@ -1058,7 +1081,6 @@ atbilstošās malas. No trīsstūra nevienādības $\triangle BEF$ izriet, ka
 $BE+EF > BF=BC+CF=2BC$ jeb $BD+BE > 2BC$.
 
 ![](https://cdn.mathpix.com/cropped/2024_07_28_83ffa171e813e2844936g-10.jpg?height=597&width=672&top_left_y=2100&top_left_x=749)
-
 
 
 # <lo-sample/> LV.AMO.2015.10.5
@@ -1099,7 +1121,6 @@ jebkādus divus perpendikulārus griezienus, kas iet caur augšējās skaldnes
 centru (skat., piemēram, A20.att.).
 
 
-
 # <lo-sample/> LV.AMO.2015.11.1
 
 Aplūkojam visus deviņciparu skaitļus, kas nesatur $0$ un kam visi cipari ir
@@ -1133,7 +1154,6 @@ var izvēlēties $8$ veidos (tas var būt jebkurš no cipariem
 $\{1,2,3,4,6,7,8,9\}$ ), pārējos $8$ ciparus var salikt $8!$ veidos, tātad
 kopējais šādu skaitļu skaits ir $8\cdot8!$. Redzams, ka tas ir tieši divas
 reizes lielāks nekā pāra skaitļu skaits.
-
 
 
 # <lo-sample/> LV.AMO.2015.11.2
@@ -1172,7 +1192,6 @@ baltu rūtiņu, tas ir, pāra skaita baltās rūtiņas, tāpēc tas nav iespēja
 ![](LV.AMO.2015.11.2B.png)
 
 
-
 # <lo-sample/> LV.AMO.2015.11.3
 
 Naturālam skaitlim $n$ ar $M(n)$ apzīmēsim mazāko naturālo skaitli, kas beidzas
@@ -1198,7 +1217,6 @@ mazāko iespējamo skaitļa garumu, tātad arī mazāko skaitļa vērtību. Tā 
 skaitlis $M\left(10^{k}\right)=9 \ldots 91 \underbrace{0 \ldots 0}_{k}$ dalās
 ar $10^{k}$ un naturālo skaitļu $k$ ir bezgalīgi daudz, tad ir arī bezgalīgi
 daudz tādu naturālu skaitļu $n$, ka $M(n)$ dalās ar $n$.
-
 
 
 # <lo-sample/> LV.AMO.2015.11.4
@@ -1269,7 +1287,6 @@ trapecei $ABCD$ apvilktās riņķa līnijas $\omega$ centrs.
 ![](LV.AMO.2015.11.4B.png)
 
 
-
 # <lo-sample/> LV.AMO.2015.11.5
 
 Atrast funkcijas $f(x)=8 \sin x+8 \cos x-12 \sin x \cos x$ mazāko un lielāko
@@ -1308,7 +1325,6 @@ Tātad dotās funkcijas mazākā vērtība ir $(-6-8 \sqrt{2})$ un lielākā vē
 ir $\frac{26}{3}$.
 
 
-
 # <lo-sample/> LV.AMO.2015.12.1
 
 Uz funkcijas $y=|x-3|+2$ grafika atrast tādu punktu $P$, kura attālumu kvadrātu summa līdz koordinātu asīm būtu vismazākā!
@@ -1338,7 +1354,6 @@ Funkcijas $f(x)=2x^{2}-10x+25$ grafiks ir parabola ar zaru vērsumu uz augšu.
 Parabolas virsotnes abscisa $x_{0}=\frac{10}{4}=2,5$ ir punkts, kurā funkcija
 sasniedz vismazāko vērtību. Tad $y_{0}=-x_{0}+5=2,5$ un punkta $P$ koordinātas
 ir $(2,5; 2,5)$.
-
 
 
 # <lo-sample/> LV.AMO.2015.12.2
@@ -1393,7 +1408,6 @@ $0,0,0,0$ rūtiņas, bet tie visi ir pāra skaitļi. Tātad tas nav iespējams.
 ![](LV.AMO.2015.12.2B.png)
 
 
-
 # <lo-sample/> LV.AMO.2015.12.3
 
 Pierādīt, ka
@@ -1419,7 +1433,6 @@ Tā kā iegūta patiesa nevienādība, tad arī
 $\frac{1}{x}+\frac{1}{y} \geq \frac{4}{x+y}$ ir patiesa. Izmantojot šo
 nevienādību trīs reizes, iegūst prasīto:
 $\frac{1}{a}+\frac{1}{b}+\frac{4}{c}+\frac{16}{d} \geq\left(\frac{4}{a+b}+\frac{4}{c}\right)+\frac{16}{d} \geq \frac{16}{a+b+c}+\frac{16}{d} \geq \frac{64}{a+b+c+d}$.
-
 
 
 # <lo-sample/> LV.AMO.2015.12.4
@@ -1474,7 +1487,6 @@ Tā kā $\alpha$ ir trijstūra leņķis, tad $\alpha=45^{\circ}$, kas nozīmē, 
 $\triangle ACB$ ir vienādsānu. Tātad vienādība iespējama tikai tad, ja $AC=CB$.
 
 
-
 # <lo-sample/> LV.AMO.2015.12.5
 
 Atrast visus naturālu skaitļu trijniekus ($a, b, c$) tādus, ka
@@ -1515,4 +1527,3 @@ lai tā dalītos ar $2ab$, ir $2ab$. Tātad $ab+2(a+b)-1=2ab$, no kurienes
 $ab2a-2b+4=3$ jeb $(a-2)(b-2)=3$. No dotā izriet, ka abi reizinātāji ir
 pozitīvi un $a-2 \geq b-2$, tātad $a-2=3$ un $b-2=1$, no kurienes $a=5$ un
 $b=3$. Pārbaude parāda, ka skaitļu trijnieks $(5,3,2)$ ir uzdevuma atrisinājums.
-

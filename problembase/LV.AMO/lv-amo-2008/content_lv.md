@@ -9,6 +9,8 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, DirectedGraph, WalkPathCycle, OptimumProofStructure
+* _readingDifficulty: high
 
 </small>
 
@@ -25,7 +27,6 @@ vārdnīcām pietiek.
 ![](LV.AMO.2008.5.1A.png)
 
 
-
 # <lo-sample/> LV.AMO.2008.5.2
 
 Skaitļi tabulā ierakstīti tā, kā parādīts 1.zīm. Ar vienu gājienu var vai nu 
@@ -39,6 +40,8 @@ skaitļi būtu ierakstīti tabulā tā, kā parādīts 2.zīm.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Invariant, StateSpaceProcess, WholeIntegers
+* _readingDifficulty: medium
 
 </small>
 
@@ -47,7 +50,6 @@ skaitļi būtu ierakstīti tabulā tā, kā parādīts 2.zīm.
 Piemēram, tā: pieskaitām pirmajai rindiņai $12$, otrajai $9$, trešajai $6$, 
 ceturtajai $3$ un pēc tam atņemam no pirmās kolonnas $12$, no otrās $9$, no 
 trešās $6$ un no ceturtās $3$.
-
 
 
 # <lo-sample/> LV.AMO.2008.5.3
@@ -60,6 +62,8 @@ stūriem.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, PointLineSegmentRay
+* _readingDifficulty: medium
 
 </small>
 
@@ -68,7 +72,6 @@ stūriem.
 Skat., piem., 2.zīm.
 
 ![](LV.AMO.2008.5.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2008.5.4
@@ -83,6 +86,8 @@ reizinājuma $k \times k$ ciparu summa ir $24$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRelation, DivisibilityRules, PerfectSquares, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -93,7 +98,6 @@ reizinājuma $k \times k$ ciparu summa ir $24$?
 **(B)** nē. Šāds $k$ dalītos ar $3$ (jo $6$ dalās ar $3$); tātad $k \times k$ 
 dalītos ar $9$; tātad $k \times k$ ciparu summai jādalās ar $9$. Bet $24$ ar 
 $9$ nedalās.
-
 
 
 # <lo-sample/> LV.AMO.2008.5.5
@@ -110,6 +114,8 @@ divus spēlētājus ar vienādiem iegūto punktu daudzumiem.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, FiniteSet, PigeonholePrinciple, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -123,7 +129,6 @@ iespējas). Tā kā $7>3$ un $7>5$, vienai un divām dienām uzdevuma apgalvojum
 izpildās. Triju dienu gadījumā visi iegūtie punktu daudzumi var būt dažādi 
 tikai tad, ja realizējas visas minētās $7$ iespējas. Bet tā nevar būt, jo tad 
 kopējais iegūto punktu skaits nav vesels skaitlis.
-
 
 
 # <lo-sample/> LV.AMO.2008.6.1
@@ -140,6 +145,8 @@ divos gadījumos:
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EquationSystem, PositiveAndNegative, ArithmeticMean
+* _readingDifficulty: medium
 
 </small>
 
@@ -154,7 +161,6 @@ daļu no visu skaitļu summas. Tātad tie visi ir vienādi; tātad to ir $11$
 uzdevuma prasības.
 
 
-
 # <lo-sample/> LV.AMO.2008.6.2
 
 Taisnstūris sastāv no $7 \times 13$ vienādām kvadrātiskām rūtiņām. Vai to var 
@@ -166,6 +172,8 @@ rūtiņas? Griezumiem jāiet pa rūtiņu līnijām.
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
+* _readingDifficulty: medium
 
 </small>
 
@@ -174,7 +182,6 @@ rūtiņas? Griezumiem jāiet pa rūtiņu līnijām.
 Jā, var. Skat., piem., 3.zīm.
 
 ![](LV.AMO.2008.6.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2008.6.3
@@ -187,6 +194,8 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -196,7 +205,6 @@ Ja kāds no cipariem ir $0;\ 3;\ 6$ vai $9$, Maija raksta atbilstošo viencipara
 skaitli. Ja Andra nosauktie skaitļi ir $1;\ 4;\ 7$ vai $2;\ 5;\ 8$, Maija 
 raksta trīsciparu skaitli. Ja ir kāds cipars no kopas $\{1; 4; 7\}$ un kāds - 
 no kopas $\{2; 5; 8\}$, Maija raksta atbilstošo divciparu skaitli.
-
 
 
 # <lo-sample/> LV.AMO.2008.6.4
@@ -210,6 +218,8 @@ no šiem reizinājumiem ar $A$. Kāda ir mazākā iespējamā $A$ vērtība?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitProduct, FiniteSet, OptimumProofStructure, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -227,7 +237,6 @@ $1 \cdot 2 \cdot 3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \cdot 8 \cdot 9=362880>343000
 pretruna.
 
 
-
 # <lo-sample/> LV.AMO.2008.6.5
 
 Katrīna iedomājusies divciparu naturālu skaitli, bet Profesors Cipariņš cenšas 
@@ -243,6 +252,8 @@ ar $11,\ 12$ utt., uzrakstiet labāko no savām atrastajām.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DecisionTree
+* _readingDifficulty: medium
 
 </small>
 
@@ -258,7 +269,6 @@ $\overline{ad}$, vai $\overline{cb}$. Nosaucot vienu no tiem, profesors
 sasniedz savu mērķi.
 
 
-
 # <lo-sample/> LV.AMO.2008.7.1
 
 Kādu lielāko daudzumu dažādu ciparu var izrakstīt pa apli tā, lai katri divi 
@@ -271,6 +281,8 @@ pierakstu?
 * concepts:primes
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, DivisibilityRules, DigitRepresentation, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -281,7 +293,6 @@ $1;\ 3;\ 7;\ 9$. Ja tos uzrakstītu visus, tad devītniekam vismaz vienā pusē
 būtu vai nu $3$, vai $1$; bet $93$ dalās ar $3$ un $91$ dalās ar $7$, tātad nav
 pirmskaitļi. Tātad nedrīkst rakstīt arī $9$. Ciparus $1;\ 3;\ 7$ var izrakstīt 
 jebkurā secībā.
-
 
 
 # <lo-sample/> LV.AMO.2008.7.2
@@ -296,6 +307,8 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 * concepts:decimal-notation
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, PrimeFactorization, DivisibilityRelation, LastDigit, DigitRepresentation
+* _readingDifficulty: low
 
 </small>
 
@@ -307,7 +320,6 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 vai $y$ dalās gan ar $2$, gan ar $5$, tad tas beidzas ar ciparu $0$. Atliek 
 vienīgā iespēja, kad viens no skaitļiem $x$ un $y$ ir $2^{12}$, bet otrs ir 
 $5^{12}$. Bet $2^{12}=4096$.
-
 
 
 # <lo-sample/> LV.AMO.2008.7.3
@@ -323,6 +335,8 @@ $670 \leq n \leq 1339$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tree, FiniteSet, Invariant, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -334,7 +348,6 @@ baktērijas meitām pēcteču nav mazāk kā $\frac{1}{2} x_{2}=x_{3}$, utt.
 Pieņemsim, ka $n$ ir pirmais indekss, pie kura $x_{n} \leq 1399$. Ja būtu 
 $x_{n}<670$, tad $x_{n} \leq 669$; tad $x_{n-1} \leq 2x_{n} \leq 1338$ - 
 pretruna saskaņā ar $n$ izvēli. Tāpēc $x_{n} \geq 670$.
-
 
 
 # <lo-sample/> LV.AMO.2008.7.4
@@ -349,6 +362,8 @@ trijstūrī $ACE$ visas malas vienādas savā starpā.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleCongruence, Angle, Polygon
+* _readingDifficulty: medium
 
 </small>
 
@@ -366,7 +381,6 @@ vienādsānu ar virsotnes leņķi $60^{\circ}$, tātad regulārs.
 ![](LV.AMO.2008.7.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2008.7.5
 
 Plaknē atzīmēti $17$ punkti. Pierādīt, ka $5$ no tiem var nokrāsot sarkanus tā,
@@ -376,6 +390,8 @@ lai nevienam trijstūrim ar trim sarkanām virsotnēm visas malas nebūtu vienā
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, Triangle, FiniteSet, Invariant
+* _readingDifficulty: high
 
 </small>
 
@@ -392,7 +408,6 @@ nokrāsojam melnus. Ir vēl vismaz viens dots nenokrāsots punkts; krāsojam to
 sarkanu.
 
 
-
 # <lo-sample/> LV.AMO.2008.8.1
 
 Kvadrātvienādojuma $x^{2}+px+q=0$ saknes ir $x_{1}$ un $x_{2}$, bet 
@@ -404,6 +419,8 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticEquation, VietasFormulas, ProofByContradiction
+* _readingDifficulty: low
 
 </small>
 
@@ -414,7 +431,6 @@ atrisinājuma. Tātad $p=a$ (un $b \neq q$, bet mums tas nav svarīgi). No $p=a$
 un Vjeta teorēmas seko vajadzīgais.
 
 
-
 # <lo-sample/> LV.AMO.2008.8.2
 
 Dots, ka $\frac{a}{b}=\frac{b}{c}=\frac{c}{a}$. Pierādīt, ka $a=b=c$.
@@ -423,6 +439,8 @@ Dots, ka $\frac{a}{b}=\frac{b}{c}=\frac{c}{a}$. Pierādīt, ka $a=b=c$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, EquationSystem
+* _readingDifficulty: low
 
 </small>
 
@@ -433,7 +451,6 @@ pamatīpašību, iegūstam, $a^{2}=bc,\ b^{2}=ac,\ c^{2}=ab$. Dalot pirmo vienā
 ar otro, iegūstam 
 $\frac{a^{2}}{b^{2}}=\frac{b}{a} \Rightarrow a^{3}=b^{3} \Rightarrow a=b$. 
 Līdzīgi pierāda $b=c$.
-
 
 
 # <lo-sample/> LV.AMO.2008.8.3
@@ -451,6 +468,8 @@ $a_{1}+a_{2}+\ldots+a_{k}=n \cdot\left(\frac{1}{a_{1}}+\frac{1}{a_{2}}+\ldots+\f
 * concepts:primes,series
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DivisorsSet
+* _readingDifficulty: low
 
 </small>
 
@@ -466,7 +485,6 @@ Piemēram,
 $$1+3+9 = 9 \cdot \left( \frac{1}{1} + \frac{1}{3} + \frac{1}{9} \right). $$
 
 
-
 # <lo-sample/> LV.AMO.2008.8.4
 
 Piecstūra zvaigznē $ABCDE$ (skat. 4.zīm.) pastāv sakarības 
@@ -479,6 +497,8 @@ Pierādīt, ka $AD=BD$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PointLineSegmentRay, Angle, TriangleCongruence, Triangle
+* _readingDifficulty: medium
 
 </small>
 
@@ -491,7 +511,6 @@ $\triangle FDG$ ir vienādsānu un $\mathbf{DG}=\mathbf{DF}$. Saskaitot abas
 izceltās vienādības, iegūstam vajadzīgo.
 
 ![](LV.AMO.2008.8.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2008.8.5
@@ -507,6 +526,8 @@ turnīra noslēgumā ir visvairāk punktu.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, OptimumProofStructure, RationalNumbers
+* _readingDifficulty: high
 
 </small>
 
@@ -522,7 +543,6 @@ $n=5 \frac{1}{2}$, skat. 6.zīm.
 ![](LV.AMO.2008.8.5A.png)
 
 
-
 # <lo-sample/> LV.AMO.2008.9.1
 
 Kvadrātveida tabula sastāv no $12 \times 12$ rūtiņām. Katrā rūtiņā ierakstīts 
@@ -534,6 +554,8 @@ gadīties, ka tieši $23$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, DivisibilityRelation, ProofByContradiction
+* _readingDifficulty: high
 
 </small>
 
@@ -546,7 +568,6 @@ $3$, izveidots no kādas kolonnas cipariem (otrs gadījums analoģisks). Tad kat
 rindiņā ciparu summa dalās ar $3$. Tāpēc arī visu ierakstīto ciparu summa dalās
 ar $3$. Savukārt vienpadsmit kolonnās ciparu summas dalās ar $3$, bet vienā - 
 nē; tāpēc arī visu ciparu summa nedalās ar $3$. Iegūta pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2008.9.2
@@ -562,6 +583,8 @@ grafiki?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticFunction, FunctionConcept, FunctionComposition, CoordinatePlane
+* _readingDifficulty: medium
 
 </small>
 
@@ -570,7 +593,6 @@ grafiki?
 Nē. Visu minēto funkciju vērtības pie $x=1$ sakrīt, bet dotie $3$ grafiki neiet
 caur vienu punktu (visi $6$ iespējamie krustpunkti zīmējumā redzami, tātad citu
 nav).
-
 
 
 # <lo-sample/> LV.AMO.2008.9.3
@@ -583,6 +605,8 @@ Pierādīt, ka $MX \perp NY$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, Angle
+* _readingDifficulty: medium
 
 </small>
 
@@ -600,7 +624,6 @@ k. b. j.
 ![](LV.AMO.2008.9.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2008.9.4
 
 Naturālie skaitļi no $1$ līdz $2008$ ieskaitot jāsadala grupās tā, lai 
@@ -613,6 +636,8 @@ grupai. Kāds ir mazākais iespējamais grupu skaits?
 * concepts:groups
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PrimeFactorization, SetPartition, PigeonholePrinciple, Invariant
+* _readingDifficulty: high
 
 </small>
 
@@ -635,7 +660,6 @@ otrajā - ar $h=2$ un $h=3; \ldots$; sestajā - ar $h=10$. Ja $a \vdots b$ un
 $b \vdots c$, tad $h(a)-h(c) \geq 2$, tātad $a$ un $c$ nav vienā grupā.
 
 
-
 # <lo-sample/> LV.AMO.2008.9.5
 
 Kvadrāts sadalīts rūtiņās ar malu garumu $1$. Pa dalījuma līnijām (kvadrāta 
@@ -651,6 +675,8 @@ mala pieder
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, ParityInvariant, ProofByContradiction, Invariant
+* _readingDifficulty: high
 
 </small>
 
@@ -665,7 +691,6 @@ $n(XY),\ n(YZ),\ n(YT)$. Ja tie visi būtu nepāra skaitļi, tad
 $\tilde{N}=n(XY)+n(TZ)+n(YT)$ būtu nepāra skaitlis. Bet $\tilde{N}$ ir pāra 
 skaitlis, jo katrs kontūrs "dod pienesumu" vai nu diviem saskaitāmajiem, vai 
 nevienam. Tā ir pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2008.10.1
@@ -688,7 +713,6 @@ Pieņemsim, ka $n$ dalās gan ar $9\ 999\ 999$, gan ar $10\ 000\ 001$. Tā kā
 $LKD(9\ 999\ 999,\ 10\ 000\ 001)=1$, tad $n$ dalās arī ar 
 $9\ 999\ 999 \cdot 10\ 000\ 001=10^{14}-1$. Bet tā nevar būt, jo desmitciparu 
 skaitlis ir mazāks par $10^{14}-1$.
-
 
 
 # <lo-sample/> LV.AMO.2008.10.2
@@ -714,7 +738,6 @@ kā katra parabola krusto abscisu asi divos punktos, tad visu trinomu
 diskriminanti būtu pozitīvi, t. i., $b^{2}>ac,\ c^{2}>ab,\ a^{2}>cb$. 
 Sareizinot šīs nevienādības, mēs iegūtu $a^{2}b^{2}c^{2}>a^{2}b^{2}c^{2}$ - 
 pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2008.10.3
@@ -748,7 +771,6 @@ vajadzīgais.
 ![](LV.AMO.2008.10.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2008.10.4
 
 Uz $50$ kartiņām uzrakstīti naturāli skaitļi no $1$ līdz $50$ ieskaitot (katrs 
@@ -772,7 +794,6 @@ Saskaņā ar uzdevuma nosacījumiem $1$ vispār nekustas, tāpēc $2$ var kustē
 tikai vienreiz. Tāpēc $3$ var kustēties tikai divreiz (pirms $2$ kustības un 
 pēc tās), $4$ - tikai trīsreiz utt. Tāpēc gājienu kopskaits nevar pārsniegt 
 $1+2+\ldots+49=\frac{1}{2} 49 \cdot 50<25 \cdot 50=1250$, k. b. j.
-
 
 
 # <lo-sample/> LV.AMO.2008.10.5
@@ -811,7 +832,6 @@ saskaitāmajiem iegūstama **tikai** kā $1+10+100+1000$, no kā arī seko
 vajadzīgais.
 
 
-
 # <lo-sample/> LV.AMO.2008.11.1
 
 Pierādīt, ka
@@ -838,7 +858,6 @@ Saskaitot šīs vienādības pie $n=1;\ 2;\ 3;\ \ldots;\ 2008$, iegūstam, ka
 novērtējamās summas vērtība ir 
 $\frac{1}{2}\left[\frac{1}{1^{2}-1+1}-\frac{1}{2009^{2}-2009+1}\right]<\frac{1}{2} \cdot \frac{1}{1^{2}-1+1}=\frac{1}{2}$,
 k.b.j.
-
 
 
 # <lo-sample/> LV.AMO.2008.11.2
@@ -889,7 +908,6 @@ Tāpēc $a^{2}-1=0$ un $ab=2008a$. No šejienes iegūstam abas augšminētās
 iespējas.
 
 
-
 # <lo-sample/> LV.AMO.2008.11.3
 
 Dots, ka $n$ - naturāls skaitlis. Noskaidrojiet:
@@ -931,7 +949,6 @@ $(m-1)$ un $(m+1)$ ir viens otram sekojoši pāra skaitļi, $(m-1)(m+1)$ dalās 
 $8$ un $p_{1}$ dalās ar $2$ - pretruna.
 
 
-
 # <lo-sample/> LV.AMO.2008.11.4
 
 Trijstūra $ABC$ leņķa $A$ bisektrise krusto malu $BC$ punktā $D$ un apvilkto 
@@ -956,7 +973,6 @@ $\tilde{\omega}$ vienādas hordas, kas tātad savelk vienādus lokus, un uz šie
 vienādajiem lokiem balstās vienādi ievilkti leņķi, k. b. j.
 
 ![](LV.AMO.2008.11.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2008.11.5
@@ -1014,7 +1030,6 @@ kādas tieši masas ir katrā atbilstošajā trijniekā, tad rezultāti ļauj uz
 visu monētu masas.
 
 
-
 # <lo-sample/> LV.AMO.2008.12.1
 
 Pierādīt, ka $\sphericalangle AMB=\sphericalangle ANB=\sphericalangle AKB$, kur
@@ -1039,7 +1054,6 @@ apskatāmie leņķi ir ievilkti leņķi, kas balstās uz vienu un to pašu loku.
 Iespējami ļoti daudzi citi risinājumi.
 
 ![](LV.AMO.2008.12.1A.png)
-
 
 
 # <lo-sample/> LV.AMO.2008.12.2
@@ -1089,7 +1103,6 @@ Parādīsim, ka kopa $A$ apmierina uzdevuma prasības
 Līdzīgi pārbauda, ka uzdevuma prasības apmierina arī kopa $B$.
 
 
-
 # <lo-sample/> LV.AMO.2008.12.3
 
 Dots, ka $x, y, z$ - pozitīvi skaitļi un $xy+yz+zx>x+y+z$. Pierādīt, ka 
@@ -1111,7 +1124,6 @@ $(x+y+z)^{2}=x^{2}+y^{2}+z^{2}+2xy+2xz+2yz=$
 $=\frac{1}{2}\left[(x-y)^{2}+(x-z)^{2}+(y-z)^{2}\right]+3(xy+xz+yz) \geq 3(xy+xz+yz)>3(x+y+z)$.
 
 No $(x+y+z)^{2}>3(x+y+z)$ seko $x+y+z>3$, k. b. j.
-
 
 
 # <lo-sample/> LV.AMO.2008.12.4
@@ -1136,7 +1148,6 @@ pārējiem skaitļiem?
 runāts uzdevumā. Tā kā $a^{2}-1$ dalās ar $b$, tad $LKD(a, b)=1$. Tā kā 
 $c^{2}-1$ dalās gan ar $a$, gan ar $b$, tad no pierādītā seko: $c^{2}-1$ dalās 
 ar $ab$. Bet tas nav iespējams, jo $0<c^{2}-1<ab$.
-
 
 
 # <lo-sample/> LV.AMO.2008.12.5
@@ -1173,5 +1184,4 @@ Tā perimetrs $2x+2y=4 \cdot \frac{x+y}{2} \geq 4 \cdot \sqrt{xy} \geq 40$.
 Tāpēc arī sākotnējās figūras perimetrs $P \geq 40$. Turklāt tas var būt $P$ 
 tikai tad, ja $x \cdot y=100$ (t. i., taisnstūris sakrīt ar sākotnējo figūru) 
 un $x=y$ (t. i., taisnstūris ir kvadrāts). Tātad mūsu "izoperimetrisko 
-nevienādību" esam pierādījuši. 
-
+nevienādību" esam pierādījuši.

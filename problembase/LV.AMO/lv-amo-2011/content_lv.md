@@ -15,6 +15,8 @@ nav $0$. Atrodi visus iespējamos atrisinājumus!
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * subdomain:DOM_Cryptarithm
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, CaseAnalysis, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -41,7 +43,6 @@ $\mathbf{AB=74}$ un $\mathbf{CD=12;}$**
 $E=9 \Rightarrow AB=27$ un $CD=37$ vai $AB=37$ un $CD=27(B=D)$ - neder.
 
 
-
 # <lo-sample/> LV.AMO.2011.5.2
 
 Dotās $3 \times 3$ rūtiņu tabulas katrā rūtiņā jāieraksta pa vienam naturālam 
@@ -62,6 +63,8 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 * subdomain:DOM_EquationSystems
 * subdomain:DOM_MagicConfigurations
 * concepts:sum
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, LinearEquation
+* _readingDifficulty: low
 
 </small>
 
@@ -80,7 +83,6 @@ aizpildītā tabula parādīta 2.zīm.
 ![](LV.AMO.2011.5.2B.png)
 
 
-
 # <lo-sample/> LV.AMO.2011.5.3
 
 Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros!
@@ -94,7 +96,8 @@ Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros!
 * domain:Geom
 * subdomain:DOM_CuttingCoversColoring
 * concepts:square-Geo,triangle
-
+* _hasSolutionConcept: Tiling, Triangle, Polygon
+* _readingDifficulty: low
 
 </small>
 
@@ -116,11 +119,12 @@ starpība ir
 
 <small>
 
-
 * topic:TreeTraversalBacktracking
 * topic:GraphProblems
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, EvenOddParity, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -135,7 +139,6 @@ situāciju. Neizvietoti palikuši skaitļi $9,\ 10,\ 11,\ 12$, taču tos šajā 
 atbilstoši uzdevuma nosacījumiem izvietot nevar.
 
 ![](LV.AMO.2011.5.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2011.5.5
@@ -157,6 +160,8 @@ Parādi, kā to var izdarīt, ja
 * topic:TreeTraversalBacktracking
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: Tiling, LatticeGrid, Rotation, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -167,7 +172,6 @@ Parādi, kā to var izdarīt, ja
 ![](LV.AMO.2011.5.5A.png)
 
 
-
 # <lo-sample/> LV.AMO.2011.6.1
 
 Vai eksistē tādi naturāli skaitļi $a$ un $b$, kuriem izpildās vienādība
@@ -176,11 +180,12 @@ $$a \cdot b \cdot(a+b)=20102011?$$
 
 <small>
 
-
 * topic:IntegerFactorization
 * questionType:ProveDisprove
 * domain:NT
 * concepts:equation
+* _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
+* _readingDifficulty: low
 
 </small>
 
@@ -193,7 +198,6 @@ summa $a+b$ ir pāra skaitlis. tātad reizinājums $a \cdot b \cdot(a+b)$ vienm�
 ir pāra skaitlis, bet $20102011$ nav pāra skaitlis.
 
 
-
 # <lo-sample/> LV.AMO.2011.6.2
 
 Sešdesmit pensionāri katru dienu *sociālajā tīklā* sarakstās savā starpā. Katrs
@@ -202,10 +206,11 @@ kungiem. Cik starp šiem pensionāriem ir kungu un cik - kundžu?
 
 <small>
 
-
 * topic:BipartiteGraphs
 * questionType:FindAll
 * domain:Comb
+* _hasSolutionConcept: EquationSystem, DivisibilityRelation, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -217,7 +222,6 @@ dalās ar $13$. Pārbaudot vērtības $a=13$ (tad $b=17$, bet $a+b=30<60$),
 $a=26$ (tad $b=34$ un $a+b=60$ - der), $a>26$ (tad $b>34$ un $a+b>60$), redzam,
 ka visus uzdevuma nosacījumus apmierina tikai $\boldsymbol{a}=26$ (kungi) un 
 $\boldsymbol{b}=34$ (dāmas).
-
 
 
 # <lo-sample/> LV.AMO.2011.6.3
@@ -232,6 +236,8 @@ atrast nevienu pilnībā baltu taisnstūri ar izmēriem $1 \times 3$ rūtiņas
 * topic:ExhaustionMethod
 * questionType:FindOptimal
 * domain:Geom
+* _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -251,7 +257,6 @@ $21$), iegūsim situāciju, ka nebūs iespējams izvēlēties neaizkrāsotu
 $1 \times 3$ rūtiņu grupu.
 
 
-
 # <lo-sample/> LV.AMO.2011.6.4
 
 3.zīmējumā dota $3 \times 3$ rūtiņu tabula, kurā ierakstīti veseli skaitļi. 
@@ -269,6 +274,8 @@ Vai, vairākkārt veicot šādus gājienus, var iegūt tabulu, kāda attēlota 4
 * topic:InvariantRemainder
 * questionType:ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: WholeIntegers, EvenOddParity, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -279,7 +286,6 @@ pirms gājiena visu skaitļu summa bija $S$, tad pēc gājiena tā ir
 $S-a-b+(5a-2b)+(5b-2a)=S+2(a+b)$. Tātad summa ir izmainījusies par pāra 
 skaitli. Tā kā sākumā tabulā visu skaitļu kopsumma ir pāra skaitlis $4$, tad tā
 pēc vairāku gājienu izpildes nevar kļūt vienāda ar nepāra skaitli $15$.
-
 
 
 # <lo-sample/> LV.AMO.2011.6.5
@@ -296,6 +302,8 @@ vienāds konfekšu skaits. Cik konfekšu sākumā bija katrai no māsām?
 * topic:AlgebraicTransformations
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, VariableExpression, LinearEquation
+* _readingDifficulty: medium
 
 </small>
 
@@ -317,7 +325,6 @@ Tātad
 $\frac{9 a+98}{8}=\frac{98+a}{4} \Rightarrow 9a+98=196+2a \Rightarrow 7a=98 \Rightarrow a=14$.
 
 
-
 # <lo-sample/> LV.AMO.2011.7.1
 
 Uz tāfeles augošā secībā uzrakstīti seši dažādi pirmskaitļi, kas nepārsniedz 
@@ -332,12 +339,13 @@ Atrodi visus šos skaitļus!
 
 <small>
 
-
 * topic:PrimesDistribution
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_Cryptarithm
 * concepts:primes
+* _hasSolutionConcept: PrimeNumbers, DigitRepresentation, LastDigit, FiniteSequenceArrangement, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -377,9 +385,6 @@ No otrās un ceturtās īpašības seko, ka $p_3 = 53$, $p_6 = 67$.
 No trešās īpašības seko, ka $p_4=59$.
 
 
-
-
-
 # <lo-sample/> LV.AMO.2011.7.2
 
 No pilsētas $A$ uz pilsētu $B$ vienlaicīgi izbrauca zaļa un sarkana automašīna.
@@ -394,6 +399,8 @@ pilsētā $B$ ierasties vienlaicīgi ar to, ja sarkanās automašīnas ātrums b
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:DOM_WordProblems
+* _hasSolutionConcept: DirectProportion, LinearEquation, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -416,7 +423,6 @@ automašīnai ceļa otrā puse būtu jāveic momentāni ($0$ stundās), kas nav
 iespējams.
 
 
-
 # <lo-sample/> LV.AMO.2011.7.3
 
 Atrodi naturālu skaitli, kuru, dalot ar $2010$, atlikumā iegūst $13$, bet, 
@@ -430,13 +436,14 @@ dalot ar $2011$, atlikumā iegūst $3$.
 * domain:NT
 * subdomain:DOM_Congruences
 * concepts:remainder
+* _hasSolutionConcept: PositiveIntegers, DivisionWithRemainder
+* _readingDifficulty: low
 
 </small>
 
 ## Atrisinājums
 
 Tāds skaitlis ir $2010 \cdot 10+13=2011 \cdot 10+3=20113$.
-
 
 
 # <lo-sample/> LV.AMO.2011.7.4
@@ -451,6 +458,8 @@ kā to var izdarīt!
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, PositiveIntegers, Rectangle, Square
+* _readingDifficulty: medium
 
 </small>
 
@@ -459,7 +468,6 @@ kā to var izdarīt!
 Kvadrāta malas garumam jābūt $11$ vai $13$. Piemērus skat. 10. un 11.zīm.
 
 ![](LV.AMO.2011.7.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2011.7.5
@@ -474,6 +482,8 @@ vienas krāsas punktus, starp kuriem attālums centimetros ir vesels skaitlis.
 * method:MTH_PigeonholePrincipleBasic
 * domain:Geom
 * subdomain:DOM_ObjectSystemsGeometry
+* _hasSolutionConcept: PigeonholePrinciple, Coloring, FiniteSet, PointLineSegmentRay
+* _readingDifficulty: low
 
 </small>
 
@@ -482,7 +492,6 @@ vienas krāsas punktus, starp kuriem attālums centimetros ir vesels skaitlis.
 Izvēlamies $11$ punktus tā, lai attālumi starp katriem diviem no tiem būtu 
 veseli skaitļi. Saskaņā ar Dirihlē principu vismaz $2$ no tiem ir vienā krāsā, 
 tie ir meklētie punkti.
-
 
 
 # <lo-sample/> LV.AMO.2011.8.1
@@ -503,6 +512,8 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("+", "-", " $\cdot$ "
 * domain:Alg
 * seeAlso:LV.AMO.2010.8.1
 * subdomain:DOM_ExpressionBuilding
+* _hasSolutionConcept: WholeIntegers, FiniteSequenceArrangement, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -511,7 +522,6 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("+", "-", " $\cdot$ "
 **(A)** Piem., $8 - 3 + 5 \ast 2 = 8 - (3 - 5 \ast 2) = 15$
 
 **(B)** Piem., $8:(3-5:2)=16$
-
 
 
 # <lo-sample/> LV.AMO.2011.8.2
@@ -525,6 +535,8 @@ $MK,\ ML,\ MP$ un $MR$ viduspunkti, ir kvadrāts.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* _hasSolutionConcept: PointLineSegmentRay, QuadrilateralFamilies, CentralSymmetry, ParallelPerpendicular
+* _readingDifficulty: medium
 
 </small>
 
@@ -541,7 +553,6 @@ k.b.j.
 ![](LV.AMO.2011.8.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2011.8.3
 
 Kuba šķautņu viduspunktos ierakstīti naturālie skaitļi no $1$ līdz $12$, katrs 
@@ -553,6 +564,8 @@ vienādas. Nosaki visas iespējamās šo summu vērtības.
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem
+* _readingDifficulty: medium
 
 </small>
 
@@ -580,7 +593,6 @@ un $S=26$
 ![](LV.AMO.2011.8.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2011.8.4
 
 Leonards izvēlējās patvaļīgu trīsciparu skaitli, pareizināja to ar $2$ un tam 
@@ -595,6 +607,8 @@ dalās ar **(A)** $17$; **(B)** $23$?
 * domain:NT
 * subdomain:DOM_DigitManipulation
 * concepts:divisibility
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, PrimeNumbers, Counterexample
+* _readingDifficulty: medium
 
 </small>
 
@@ -620,9 +634,7 @@ ar $23$.
 ## Atrisinājums
 
 **(A)** Ja 3-ciparu skaitlis ir $\overline{abc}$, tad jaunais ir 
-$2001\overline{abc}$ dalās ar $23$. Bet $17 \nmid 2001$. 
-
-
+$2001\overline{abc}$ dalās ar $23$. Bet $17 \nmid 2001$.
 
 
 # <lo-sample/> LV.AMO.2011.8.5
@@ -641,6 +653,8 @@ spēlētājiem, pareizi spēlējot, uzvarēs? Apraksti, kā uzvarētājam jārī
 * questionType:ProveDisprove,Algorithm
 * domain:NT
 * subdomain:DOM_NumericGamesAndAlgorithms
+* _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, GamePosition, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -661,7 +675,6 @@ samazinās, kādreiz tiks iegūts arī skaitlis $0$. Tā kā tā pēdējais cipa
 $0$, tas tiks iegūts pēc pirmā spēlētāja gājiena.
 
 
-
 # <lo-sample/> LV.AMO.2011.9.1
 
 Atrodi visus naturālu skaitļu pārus $(x, y)$ tādus, ka $x \neq y$ un
@@ -674,6 +687,8 @@ $$\frac{1}{x^{2}+24}+\frac{1}{y^{2}+24}=\frac{2}{xy+24}$$
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_IntegerEquations
+* _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, EquationSystem
+* _readingDifficulty: low
 
 </small>
 
@@ -706,7 +721,6 @@ Pārbaude (simetrijas pēc var pārbaudīt tikai pirmos četrus) liecina, ka vis
 der.
 
 
-
 # <lo-sample/> LV.AMO.2011.9.2
 
 Trijstūrī $ABC\ \sphericalangle ABC=90^{\circ}$, bet punkts $P$ atrodas uz 
@@ -718,6 +732,8 @@ $\sphericalangle BAC=\sphericalangle BMN$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Triangles
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle, ParallelPerpendicular
+* _readingDifficulty: medium
 
 </small>
 
@@ -735,7 +751,6 @@ k.b.j.
 ![](LV.AMO.2011.9.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2011.9.3
 
 Dots vienādojums $\# x^2 − \# x + \# = 0$. Divi rūķīši spēlē spēli - pirmais nosauc
@@ -749,6 +764,8 @@ racionāla sakne?
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:DOM_Equations
+* _hasSolutionConcept: QuadraticEquation, RationalNumbers, VariableExpression, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -763,7 +780,6 @@ saliktu "\#" vietās, vienādojumam noteikti būs vismaz viena racionāla sakne
 $x=-1$.
 
 
-
 # <lo-sample/> LV.AMO.2011.9.4
 
 Kāds lielākais skaits pēc kārtas sekojošu naturālu skaitļu var būt ar īpašību, 
@@ -775,6 +791,8 @@ ka katrs no tiem ir izsakāms kā divu naturālu skaitļu kvadrātu starpība?
 * questionType:FindOptimal
 * domain:NT
 * subdomain:DOM_IntegerEquations
+* _hasSolutionConcept: PositiveIntegers, DiffOfSquaresFactoring, EvenOddParity, DivisibilityRelation
+* _readingDifficulty: medium
 
 </small>
 
@@ -785,7 +803,6 @@ jādalās ar $4$. Tātad, lielākais pēc kārtas sekojošu šādu skaitļu skai
 trīs: $4k-1,\ 4k,\ 4k+1$.
 
 Piemēram, $11=6^{2}-5^{2},\ 12=4^{2}-2^{2}$ un $13=7^{2}-6^{2}$.
-
 
 
 # <lo-sample/> LV.AMO.2011.9.5
@@ -806,6 +823,8 @@ nevar, izpildot tikai atļautos gājienus?
 * questionType:FindAll
 * domain:Geom,Comb
 * subdomain:DOM_MakingMoves
+* _hasSolutionConcept: LatticeGrid, Coloring, Invariant
+* _readingDifficulty: high
 
 </small>
 
@@ -819,7 +838,6 @@ Ievērosim, ka sienāzis, izpildot atļautos gājienus, no melnas rūtiņas var
 nonākt **tikai** melnā rūtiņā. Tātad no rūtiņas $\mathbf{A}$ viņš nekad 
 nenonāks rūtiņās $\mathbf{B}$ un $\mathbf{D}$. Savukārt rūtiņā $\mathbf{C}$ var
 nokļūt, ejot uz augšu pa diagonāli $AC$.
-
 
 
 # <lo-sample/> LV.AMO.2011.10.1
@@ -852,7 +870,6 @@ virknes pirmais loceklis $a=1005$. Tātad $2011$ kā vairāku pēc kārtas sekoj
 naturālu skaitļu summu var izteikt vienā vienīgā veidā.
 
 
-
 # <lo-sample/> LV.AMO.2011.10.2
 
 Nogriežņa $AB$ garums ir $10~\mathrm{cm}$. Uz tā kā uz hipotenūzas konstruēti 
@@ -875,7 +892,6 @@ bisektrise, tad $\sphericalangle ACD$ un $\sphericalangle BCD$ ir divi vienādi
 ievilkti leņķi. Tātad $AD=BD$ un $\triangle ABD$ ir vienādsānu taisnleņķa 
 trīsstūris, kura hipotenūzas garums ir $10~\mathrm{cm}^{2}$. $AB=AD=5 \sqrt{2}$
 un $S_{ABD}=\frac{5 \sqrt{2} \cdot 5 \sqrt{2}}{2}=25~\mathrm{cm}^{2}$.
-
 
 
 # <lo-sample/> LV.AMO.2011.10.3
@@ -953,7 +969,6 @@ z=4
 Pārbaude parāda, ka abi atrisinājumi der.
 
 
-
 # <lo-sample/> LV.AMO.2011.10.4
 
 Riņķī ievilkti regulārs $9$-stūris un regulārs $10$-stūris. To virsotnes sadala
@@ -977,7 +992,6 @@ $\cup A_{i}B_{j}+\cup B_{j+1}A_{i+1}=4^{\circ}$, no kurienes seko ka vismaz
 viens no šiem lokiem nepārsniedz $2^{\circ}$.
 
 ![](LV.AMO.2011.10.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2011.10.5
@@ -1011,7 +1025,6 @@ Taču *klucītis* satur tieši vienu melnu un $1$ baltu kubiņu - pretruna.
 kubiņš pieder kuram *stūrītim*.
 
 ![](LV.AMO.2011.10.5A.png)
-
 
 
 # <lo-sample/> LV.AMO.2011.11.1
@@ -1077,7 +1090,6 @@ $1667+1680p\ (1680=MKD(14,15,16))$. Šādu skaitļu ir bezgalīgi daudz.
 virkņu diferenču mazāko kopīgo dalāmo un pirmo locekli.
 
 
-
 # <lo-sample/> LV.AMO.2011.11.2
 
 Ap kvadrātu $ABCD$ ir apvilkta riņķa līnija, uz kuras mazākā loka $AB$ ir 
@@ -1108,7 +1120,6 @@ ka $NX \parallel AO$. Tad $QXOY$ ir paralelograms ar vienu leņķi $90^{\circ}$,
 t.i., taisnstūris, k.b.j.
 
 ![](LV.AMO.2011.11.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2011.11.3
@@ -1144,7 +1155,6 @@ ko var aizpildīt $f_{n-3}$ veidos.
 
 Tātad $f_{n}=f_{n-1}+f_{n-3}$. Izmantojot šo rekursīvo sakarību viegli 
 aprēķināt, ka $f_{12}=70$.
-
 
 
 # <lo-sample/> LV.AMO.2011.11.4
@@ -1184,7 +1194,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-
 # <lo-sample/> LV.AMO.2011.11.5
 
 Vai pa riņķa līniju var izvietot $2011$ dažādus naturālus skaitļus tā, ka 
@@ -1212,7 +1221,6 @@ skaitļiem $a_{2},\ a_{4},\ \ldots,\ a_{2010}$ - nepāra skaits pirmreizinātāj
 Tā kā abiem skaitļiem $a_{1}$ un $a_{2011}$ pirmreizinātāju skaits ir pāra 
 skaitlis, to dalījums būs vai nu $1$, vai salikts skaitlis, kas satur pāra 
 skaitu (vismaz divus) pirmreizinātājus.
-
 
 
 # <lo-sample/> LV.AMO.2011.12.1
@@ -1264,7 +1272,6 @@ Tātad $13$ nevar būt nevienas grupas skaitļu summa.
 
 Ja vismazākā vienas grupas skaitļu summa ir $17$, tad visu grupu summa 
 pārsniedz $51$, kas ir vairāk nekā visu skaitļu summa.
-
 
 
 # <lo-sample/> LV.AMO.2011.12.2
@@ -1327,7 +1334,6 @@ piemēram, ja $x=y=\pi / 4$. Tad
 $\sin ^{38} \frac{\pi}{4}+\cos ^{38} \frac{\pi}{4}=\frac{1}{2^{19}}+\frac{1}{2^{19}}=\frac{1}{2^{18}}$.
 
 
-
 # <lo-sample/> LV.AMO.2011.12.3
 
 Uz riņķa līnijas ir izvēlētas divas hordas $AC$ un $BD$, kas krustojas punktā 
@@ -1375,7 +1381,6 @@ $BM=MN=OC$, k.b.j.
 ![](LV.AMO.2011.12.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2011.12.4
 
 Vai telpā var izvietot $6$ punktus tā, lai jebkuri trīs no tiem būtu vienādsānu
@@ -1391,7 +1396,6 @@ trijstūra virsotnēs un nekādi pieci no tiem neatrastos vienā plaknē?
 ## Atrisinājums
 
 Jā; piemēram, der oktaedra virsotnes.
-
 
 
 # <lo-sample/> LV.AMO.2011.12.5
@@ -1417,4 +1421,3 @@ Tā kā $\frac{1}{N} \in(0; 1)$, tad arī $\left(\frac{1}{N}\right)^{y} \in(0; 1
 Tāpēc
 
 $$x^{y}+y^{x}+x+y<1+\frac{2}{N}+\frac{1}{N^{N}}<1+\frac{2}{9000}+\frac{1}{9000}=1+\frac{1}{3000}<1+\frac{1}{2011}.$$
-

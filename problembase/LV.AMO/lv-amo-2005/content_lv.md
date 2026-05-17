@@ -14,6 +14,8 @@ ir jautājuma zīme?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: MagicConfiguration, FiniteSequenceArrangement, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -27,7 +29,6 @@ $y=15$. Tāpēc $y=16,\ t=15$ un tabulu var aizpildīt arī tālāk: $u=1,\ x=2$
 ![](LV.AMO.2005.5.1A.png)
 
 
-
 # <lo-sample/> LV.AMO.2005.5.2
 
 Uz galda atrodas $7$ pēc ārējā izskata vienādas monētas. Ir zināms, ka $6$ no 
@@ -39,6 +40,8 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -58,7 +61,6 @@ monētas nav. Ja nav līdzsvara, tad vajadzīgo uzzinām no otrās svēršanas
 (atšķirīgā monēta ir $E,\ F$ vai $G$).
 
 
-
 # <lo-sample/> LV.AMO.2005.5.3
 
 Kvadrātiska tabula sastāv no **(A)** $5 \times 5$, **(B)** $4 \times 4$ 
@@ -70,6 +72,8 @@ rindiņā - nepāra skaits zvaigznīšu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSet, EvenOddParity, ParityInvariant, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -84,7 +88,6 @@ rindiņām - nepāra skaitlis.
 ![](LV.AMO.2005.5.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2005.5.4
 
 Ir $2005$ zelta gabali. Pierādīt, ka divus no tiem var katru sadalīt divos 
@@ -97,6 +100,8 @@ kopējais zelta daudzums tajā.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSet, FiniteSequenceArrangement, SetPartition, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -114,7 +119,6 @@ gabaliem), sadalām divos gabalos jebkuru vienu gabalu, atstājot iegūtās daļ
 tai pašā kaudzē.
 
 
-
 # <lo-sample/> LV.AMO.2005.5.5
 
 No kvadrāta, kas sastāv no $8 \times 8$ rūtiņām, izgrieza $12$ gabalus ar formu
@@ -125,6 +129,8 @@ ar formu ![](LV.AMO.2005.5.5_2.png)?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, ChessboardColoring, Counterexample
+* _readingDifficulty: medium
 
 </small>
 
@@ -133,7 +139,6 @@ ar formu ![](LV.AMO.2005.5.5_2.png)?
 Nē, ne noteikti. Skat. Zīm.
 
 ![](LV.AMO.2005.5.5A.png)
-
 
 
 # <lo-sample/> LV.AMO.2005.6.1
@@ -145,13 +150,14 @@ $200520052005 \times 20042004$ ir lielāks?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, MultiplicationPrinciple
+* _readingDifficulty: low
 
 </small>
 
 ## Atrisinājums
 
 Abi skaitļi ir vienādi ar $2004 \cdot 2005 \cdot 10001 \cdot 100010001$.
-
 
 
 # <lo-sample/> LV.AMO.2005.6.2
@@ -166,6 +172,8 @@ divas kaudzītes, kurās kopā ir tieši $15$ sērkociņu.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PigeonholePrinciple, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -175,7 +183,6 @@ Pieņemam pretējo tam, kas jāpierāda. Tad no katra skaitļu pāra
 $(1;\ 14),\ (2;\ 13),\ (3;\ 12),\ (4;\ 11),\ (5;\ 10),\ (6;\ 9),\ (7;\ 8)$ 
 augstākais viens var būt sērkociņu skaits kādā kaudzītē. Tāpēc sērkociņu nav 
 vairāk par $8+9+10+11+12+13+14=77$ - pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2005.6.3
@@ -188,6 +195,8 @@ svēršanām var noteikt katra atsvara masu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, EvenOddParity, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -209,7 +218,6 @@ $B+C+D$. Ievērosim, ka $B+C$ - pāra skaitlis ($20$ vai $22$). Iegūstam tabulu
 | $33$ | $22$ | $11$ | $11$ | $11$ | $10$ |
 
 
-
 # <lo-sample/> LV.AMO.2005.6.4
 
 Katra no monētām sver $5~\mathrm{g}$ vai $6~\mathrm{g}$, to kopējā masa ir 
@@ -220,6 +228,8 @@ visas vienādas savā starpā.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, FiniteSet, SetPartition, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -231,7 +241,6 @@ katra sver $30~\mathrm{g}$. Līdzīgi iegūstam, ka $6~\mathrm{g}$ smagās monē
 var apvienot kaudzītēs pa $5$, kas katra sver $30~\mathrm{g}$. Kaudzīšu pavisam
 ir $600~\mathrm{g}:30~\mathrm{g}=20$. Apvienojot tās $10$ pāros, iegūstam $10$ 
 kaudzes, kas katra sver $60~\mathrm{g}$.
-
 
 
 # <lo-sample/> LV.AMO.2005.6.5
@@ -247,6 +256,8 @@ garums ir $1$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, PointLineSegmentRay, OptimumProofStructure, ChessboardColoring, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -273,7 +284,6 @@ $f$, abi vienlaicīgi nevar būt garāki par $1$.
 noteikti veido vienības stienītis.
 
 
-
 # <lo-sample/> LV.AMO.2005.7.1
 
 Trijstūrī $ABC$ punkti $K$ un $M$ atrodas uz malas $AC$, pie tam $M$ ir $AC$ 
@@ -286,6 +296,8 @@ Pierādīt, ka $AB=BK$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle
+* _readingDifficulty: medium
 
 </small>
 
@@ -300,7 +312,6 @@ $\triangle BSA=\triangle BMK$, no kā seko vajadzīgais.
 ![](LV.AMO.2005.7.1A.png)
 
 
-
 # <lo-sample/> LV.AMO.2005.7.2
 
 Kādam mazākajam naturālajam $n$ visas daļas 
@@ -311,6 +322,8 @@ ir nesaīsināmas?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, DivisibilityRelation, CoprimeIntegers, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -321,7 +334,6 @@ $\frac{5}{(n+2)+5},\ \frac{6}{(n+2)+6},\ \ldots,\ \frac{36}{(n+2)+36}$. Daļas
 visas būs nesaīsināmas tad un tikai tad, ja $n+2$ nevarēs saīsināt ne ar vienu 
 no skaitļiem $5;\ 6;\ \ldots;\ 36$. Acīmredzot mazākais tāds $n+2$ ir $37$, 
 tāpēc $n=35$.
-
 
 
 # <lo-sample/> LV.AMO.2005.7.3
@@ -336,6 +348,8 @@ Pankūku nomaiņai laiks nav jāparedz.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: OptimumProofStructure, FiniteSet, LatinSquareSudoku
+* _readingDifficulty: medium
 
 </small>
 
@@ -352,7 +366,6 @@ $\underline{Piezīme:}$ veidojot šādu tabulu, jāseko, lai katrā kolonnā vis
 skaitļi būtu dažādi, jo vienu pankūku nevar reizē apcept no abām pusēm.
 
 
-
 # <lo-sample/> LV.AMO.2005.7.4
 
 Triju veselu pozitīvu skaitļu summa ir $407$. Ar kādu lielāko daudzumu nuļļu 
@@ -366,6 +379,8 @@ var beigties šo skaitļu reizinājums?
 * questionType:FindOptimal
 * domain:NT
 * seeAlso:LT.VILNIUS.2008.12.1
+* _hasSolutionConcept: PrimeFactorization, DivisibilityRelation, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -393,7 +408,6 @@ Vairāk kā sešus $5$-pirmreizinātājus nevar iegūt
 ($125=5^3$ un $250=5^3\cdot{}2$ ir optimāli).
 
 
-
 # <lo-sample/> LV.AMO.2005.7.5
 
 Rindā izrakstīti $10$ dažādi skaitļi, kas visi lielāki par $0$ un mazāki par 
@@ -407,6 +421,8 @@ kaimiņiem.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, ProofByContradiction, Invariant, ExistenceVsUniversal
+* _readingDifficulty: high
 
 </small>
 
@@ -434,7 +450,6 @@ $\left(B_{1}+\ldots+B_{5}\right)-\left(A_{1}+\ldots+A_{5}\right)<1$ - pretruna
 ar doto.
 
 
-
 # <lo-sample/> LV.AMO.2005.8.1
 
 Dots, ka kvadrātvienādojuma $x^{2}+px+q=0$ saknes ir $x_{1}$ un $x_{2}$, bet 
@@ -445,6 +460,8 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticEquation, VietasFormulas, VariableExpression
+* _readingDifficulty: low
 
 </small>
 
@@ -453,7 +470,6 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 No Vjeta teorēmas 
 $b=x_{1}^{2} \cdot x_{2}^{2}=\left(x_{1}x_{2}\right)^{2}=q^{2}$, bet 
 $a=-\left(x_{1}^{2}+x_{2}^{2}\right)=2x_{1}x_{2}-\left(x_{1}+x_{2}\right)^{2}=2q-p^{2}$
-
 
 
 # <lo-sample/> LV.AMO.2005.8.2
@@ -468,6 +484,8 @@ skaitļi?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FibonacciLikeSequence, RecurrentSequence, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -476,7 +494,6 @@ skaitļi?
 Pieņemsim, ka $d$ - lielākais no šiem skaitļiem. Apzīmēsim ar $x$ un $y$ tos 
 Fibonači skaitļus, kuru summa ir $d:x+y=d$. Skaidrs, ka $a+b \leq x+y$, jo 
 Fibonači skaitļu virkne ir augoša. Tātad $a+b \leq d$ un $a+b<c+d$, jo $c>0$.
-
 
 
 # <lo-sample/> LV.AMO.2005.8.3
@@ -493,6 +510,8 @@ reizinājumu?
 * questionType:FindExample
 * domain:Alg
 * method:MTH_ExhaustiveAlgorithms
+* _hasSolutionConcept: PositiveIntegers, EquationSystem, CaseAnalysis, SetPartition
+* _readingDifficulty: medium
 
 </small>
 
@@ -542,8 +561,6 @@ a + b + c & = 13 \\
 Šai sistēmai ir atrisinājums $(a,b,c)=(1,4,8)$.
 
 
-
-
 # <lo-sample/> LV.AMO.2005.8.4
 
 Trijstūrī $ABC$ pastāv sakarības $AC=BC$ un $\sphericalangle ACB=20^{\circ}$. 
@@ -556,6 +573,8 @@ Aprēķināt
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleAngleSum, TriangleSpecialLines, TriangleCongruence
+* _readingDifficulty: low
 
 </small>
 
@@ -583,7 +602,6 @@ $\sphericalangle \mathbf{MBC}=\frac{\mathbf{1}}{\mathbf{2}}\left(\mathbf{180}^{\
 ![](LV.AMO.2005.8.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2005.8.5
 
 Kvadrāts sastāv no $8 \times 8$ vienādām kvadrātiskām rūtiņām. Katra rūtiņa 
@@ -597,6 +615,8 @@ Kāda ir lielākā iespējamā $n$ vērtība?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, LatticeGrid, PigeonholePrinciple, OptimumProofStructure, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -617,7 +637,6 @@ nokrāsoti tikai divos principiāli atšķirīgos veidos:
 Abos gadījumos rūtiņām $B$ un $C$ uzdevuma nosacījumi neizpildās - pretruna.
 
 
-
 # <lo-sample/> LV.AMO.2005.9.1
 
 Atrast mazāko naturālo skaitli, kas dalās ar $225$ un kura decimālajā pierakstā
@@ -628,6 +647,8 @@ neizmanto nevienu no cipariem $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9$.
 * concepts:divisibility,decimal-notation
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -639,7 +660,6 @@ palielinās to. Tāpēc pārējie cipari ir $1;\ 2;\ 2;\ 2;\ 2$ tieši šādā s
 (lai skaitlis iznāktu iespējami mazs), un meklējamais skaitlis ir $1222200$.
 
 
-
 # <lo-sample/> LV.AMO.2005.9.2
 
 Trijstūra $ABC$ ievilktā riņķa centrs ir $I$. Dots, ka $CA+AI=CB$. Pierādīt, ka
@@ -649,6 +669,8 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, CircleAndDisk, TriangleSpecialLines, TriangleCongruence, Angle
+* _readingDifficulty: high
 
 </small>
 
@@ -668,7 +690,6 @@ $\frac{1}{2} \sphericalangle B=\sphericalangle IBC=\sphericalangle IMC=\spherica
 un $\sphericalangle A=2 \sphericalangle B$, k.b.j.
 
 
-
 # <lo-sample/> LV.AMO.2005.9.3
 
 Dots, ka $n$ - naturāls skaitlis. Katrs no $2n+1$ rūķīšiem Lieldienās vienu 
@@ -683,6 +704,8 @@ rūķīšus.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSet, SetIntersection, PigeonholePrinciple, ProofByContradiction
+* _readingDifficulty: high
 
 </small>
 
@@ -701,7 +724,6 @@ nebūtu saticis $R$ - pretruna.
 No minētā seko, ka $R$ satika visus rūķīšus.
 
 
-
 # <lo-sample/> LV.AMO.2005.9.4
 
 Dots, ka $x^{2}+yz \leq 2,\ y^{2}+xz \leq 2$ un $z^{2}+xy \leq 2$. Atrast 
@@ -711,6 +733,8 @@ izteiksmes $x+y+z$ lielāko un mazāko iespējamo vērtību.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, EquationSystem, OptimumProofStructure
+* _readingDifficulty: low
 
 </small>
 
@@ -748,7 +772,6 @@ $x=y=z=1$, kas apmierina uzdevuma nosacījumus. Tātad $\mathbf{\min =-3}$ un
 $\mathbf{\max =3}$.
 
 
-
 # <lo-sample/> LV.AMO.2005.9.5
 
 Doti $3$ stienīši. Uz viena no tiem sākotnēji uzmaukti $n$ dažādu izmēru diski 
@@ -768,6 +791,8 @@ $C$ tādā pašā kārtībā, kādā tie sākotnēji atradās uz stienīša $A$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RecurrentSequence, FiniteSequenceArrangement, OptimumProofStructure
+* _readingDifficulty: high
 
 </small>
 
@@ -790,7 +815,6 @@ secībā, iegūstam izmainītā uzdevuma risinājumu $n-1$ diskiem. Tāpēc
 $x_{n}=y_{n-1}+1+y_{n-1}=2y_{n-1}+1=2 \cdot \frac{1}{2}(n-1)n+1=n^{2}-n+1$.
 
 
-
 # <lo-sample/> LV.AMO.2005.10.1
 
 Vai noteikti $x+\frac{9}{x}>y+\frac{9}{y}$, ja
@@ -810,7 +834,6 @@ Vai noteikti $x+\frac{9}{x}>y+\frac{9}{y}$, ja
 
 **(B)** jā, jo 
 $\left(x+\frac{9}{x}\right)-\left(y+\frac{9}{y}\right)=(x-y)\left(1-\frac{9}{xy}\right)>0$.
-
 
 
 # <lo-sample/> LV.AMO.2005.10.2
@@ -841,7 +864,6 @@ $\sin \left(90^{\circ}-\frac{\omega}{2}\right)=\sin \left(90^{\circ}+\frac{\omeg
 un izmantot sinusu teorēmu $MN=2R \cdot \sin \sphericalangle MON$.
 
 
-
 # <lo-sample/> LV.AMO.2005.10.3
 
 Kādiem naturāliem skaitļiem $n$ abi skaitļi $2^{n}-1$ un $2^{n}+1$ ir 
@@ -865,7 +887,6 @@ Ja $n \geq 3$, apskatām $3$ viensotram sekojošus naturālus skaitļus
 $2^{n}-1;\ 2^{n};\ 2^{n}+1$. Tie visi **lielāki par** $\mathbf{3}$, un viens no
 tiem dalās ar $3$. Tā kā $2^{n}$ nedalās ar $3$, tad vai nu $2^{n}-1$, vai 
 $2^{n}+1$ dalās ar $3$; šis skaitlis nav pirmskaitlis.
-
 
 
 # <lo-sample/> LV.AMO.2005.10.4
@@ -917,8 +938,6 @@ $0+1+\ldots+14=105$, kas ir nepāra skaitlis - pretruna.
 | $16$ | $2$ | $14$ |
 
 
-
-
 # <lo-sample/> LV.AMO.2005.10.5
 
 Katrs naturāls skaitlis no $1$ līdz $10$ ieskaitot uzrakstīts uz vienas baltas,
@@ -960,7 +979,6 @@ Izlabojot to, ja vajadzīgs, attiecībā uz citām krāsām, panākam, ka arī $
 kolonna ir laba.
 
 
-
 # <lo-sample/> LV.AMO.2005.11.1
 
 Vai eksistē tāds polinoms $P(x)$, ka visiem $x$ pastāv vienādība
@@ -982,7 +1000,6 @@ Tad $|P(x)|=\left|a_{0}x^{n}\right| \cdot\left|1+\frac{a_{1}}{a_{0}x}+\frac{a_{2
 Ja $x$ ņems pēc moduļa ļoti lielu, otrā "iekava" nav mazāka par $\frac{1}{2}$ 
 (jo visi locekļi, kas satur $x$, kļūst pēc moduļa ļoti mazi). Tātad $|P(x)|$ 
 neierobežoti aug. Bet $|\sin x+2005|$ ir ierobežota funkcija.
-
 
 
 # <lo-sample/> LV.AMO.2005.11.2
@@ -1010,7 +1027,6 @@ tātad $\mathbf{N},\ \mathbf{K},\ \mathbf{C},\ \mathbf{D}$ atrodas uz vienas
 riņķa līnijas. No abiem pasvītrotajiem apgalvojumiem seko vajadzīgais.
 
 ![](LV.AMO.2005.11.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2005.11.3
@@ -1051,7 +1067,6 @@ $A_{1},\ A_{2},\ \ldots,\ A_{n-1}$, iegūstam vajadzīgo.
 vajadzīgo grupu (papildinot to līdz skaitam $n$ ar patvaļīgām komandām).
 
 
-
 # <lo-sample/> LV.AMO.2005.11.4
 
 Dots, ka $a<b \leq c<d$ ir pozitīvi veseli skaitļi, $ad=bc$ un 
@@ -1077,7 +1092,6 @@ $m+n+1 \leq 2 \sqrt{mn}+1$, $m-2 \sqrt{mn}+n \leq 0$ un
 $(\sqrt{m}-\sqrt{n})^{2} \leq 0$, no kurienes $m=n$. Acīmredzami jāpastāv 
 vienādībai $p=m+n+1$, jo citādi būs $(\sqrt{m}-\sqrt{n})^{2}<0$, kā nevar būt. 
 Atceroties iepriekš iegūto, no šejienes seko, ka $a=m \cdot n=m^{2}$, k.b.j.
-
 
 
 # <lo-sample/> LV.AMO.2005.11.5
@@ -1135,7 +1149,6 @@ sastāvdaļas. Tātad cikla iekšpusē ir nepāra laukums, t.i., nepāra skaits
 rūtiņu, k.b.j.
 
 
-
 # <lo-sample/> LV.AMO.2005.12.1
 
 Vai eksistē tāds vesels pozitīvs skaitlis $n$, ka skaitlim $n^{2}$ ir tikpat 
@@ -1162,7 +1175,6 @@ pa pāriem tā, ka vienā pārī ieejošo dalītāju reizinājums ir $a^{2}$), t
 uzdevumā prasītais skaitlis neeksistē.
 
 
-
 # <lo-sample/> LV.AMO.2005.12.2
 
 Par parabolu sauc līniju, kas vienāda ar funkcijas $y=x^{2}$ grafiku. Vai var 
@@ -1183,7 +1195,6 @@ nu krusto šo taisni divos punktos, vai pieskaras tai, vai arī pilnībā atroda
 vienā pusē no tās. tātad katras parabolas "iekšpusē" atrodas tikai viens šīs 
 taisnes nogrieznis vai ari neviens tās punkts. Tāpēc visas parabolas 
 "nepārklāj" pat šo vienu taisni.
-
 
 
 # <lo-sample/> LV.AMO.2005.12.3
@@ -1220,7 +1231,6 @@ $|\overrightarrow{AX}|=|\overrightarrow{CX}|=|\overrightarrow{BX}|=|\overrightar
 $\left|\overrightarrow{YA_{1}}\right|=\left|\overrightarrow{YC_{1}}\right|=\left|\overrightarrow{YB_{1}}\right|=\left|\overrightarrow{YD_{1}}\right|$
 un 
 $\sphericalangle\left(\overrightarrow{AX}, \overrightarrow{YA_{1}}\right)=\sphericalangle\left(\overrightarrow{CX}, \overrightarrow{YC_{1}}\right)=\sphericalangle\left(\overrightarrow{BX}, \overrightarrow{YB_{1}}\right)=\sphericalangle\left(\overrightarrow{DX}, \overrightarrow{YD_{1}}\right)$.
-
 
 
 # <lo-sample/> LV.AMO.2005.12.4
@@ -1278,7 +1288,6 @@ $$\begin{aligned}
 k.b.j.
 
 
-
 # <lo-sample/> LV.AMO.2005.12.5
 
 Divi spēlētāji spēlē sekojošu spēli, izdarot gājienus pēc kārtas. Sākumā doti 
@@ -1311,4 +1320,3 @@ pārbaudīt, ka
 Tātad otrais spēlētājs var ar savu gājienu vienmēr iegūt $U$ pozīciju. Tātad 
 pirmais spēlētājs nevar uzvarēt. Tā kā neizšķirts (bezgalīga spēle) nav 
 iespējams, tad otrais spēlētājs var garantēt sev uzvaru.
-

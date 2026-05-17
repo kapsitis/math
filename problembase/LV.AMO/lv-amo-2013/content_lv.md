@@ -7,6 +7,8 @@ un 24:00 ieskaitīt vienu reizi.) Atbildi pamatot!
 
 * questionType:FindCount
 * domain:Alg
+* _hasSolutionConcept: PeriodicSequence, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -23,7 +25,6 @@ plkst. 12:00 un plkst. 0:00. Tātad diennakts laikā pulksteņa rādītāji sakr
 $10+10+1+1=22$ reizes.
 
 
-
 # <lo-sample/> LV.AMO.2013.5.2
 
 $24$-stāvu mājā ir lifts, kuram ir divas pogas. Nospiežot vienu pogu, tas 
@@ -36,6 +37,8 @@ zemāk par $1.$ stāvu.)
 
 * questionType:FindAll
 * domain:Comb
+* _hasSolutionConcept: LinearDiophantine, GCD, Invariant
+* _readingDifficulty: high
 
 </small>
 
@@ -53,7 +56,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-
 # <lo-sample/> LV.AMO.2013.5.3
 
 1.zīmējumā katrā aplītī ierakstīt vienu ciparu, katrā aplītī - citu, tā, lai 
@@ -67,6 +69,8 @@ būtu viena un tā pati.
 * concepts:sum
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: MagicConfiguration, DigitRepresentation, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -85,7 +89,6 @@ $0,\ 1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7,\ 8$.
 ![](LV.AMO.2013.5.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2013.5.4
 
 No 2.zīmējumā redzamajām figūrām salikt taisnstūri ar laukumu $40$ rūtiņas. 
@@ -98,6 +101,8 @@ Figūras nedrīkst pārklāties un katra veida figūra jāizmanto vismaz vienu r
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: Tiling, LatticeGrid, PlaneTransformation
+* _readingDifficulty: medium
 
 </small>
 
@@ -106,7 +111,6 @@ Figūras nedrīkst pārklāties un katra veida figūra jāizmanto vismaz vienu r
 Skat., piem., 2.zīm.
 
 ![](LV.AMO.2013.5.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2013.5.5
@@ -120,6 +124,8 @@ krāsā. Atbildi pamatot!
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: Coloring, GraphConcept, BipartiteGraph, Counterexample
+* _readingDifficulty: high
 
 </small>
 
@@ -132,7 +138,6 @@ krāsā. Atbildi pamatot!
 **(A)** Pie kuba virsotnes "satiekas" trīs mazie kvadrātiņi, katram no tiem ir 
 kopīga mala ar abiem pārējiem. Tāpēc šos kvadrātiņus nevar izkrāsot divās 
 krāsās atbilstoši uzdevuma prasībām.
-
 
 
 # <lo-sample/> LV.AMO.2013.6.1
@@ -154,6 +159,8 @@ iegūts viens un tas pats skaitlis. Kāds tas ir?
 
 * questionType:Prove
 * domain:Alg
+* _hasSolutionConcept: PositiveIntegers, Invariant, StateSpaceProcess
+* _readingDifficulty: medium
 
 </small>
 
@@ -171,7 +178,6 @@ darbības (t.i. $n=9$). Beigās palikušais skaitlis ir
 $$S+2 \cdot n=(1+2+3+4+5+6+7+8+9+10)+2 \cdot 9=\frac{(1+10) \cdot 10}{2}+18=55+18=73$$
 
 
-
 # <lo-sample/> LV.AMO.2013.6.2
 
 Vai var atrast tādus divus viens otram sekojošus naturālus skaitļus, viens no 
@@ -186,6 +192,8 @@ kuriem dalās ar $3$ un kuru
 * concepts:divisibility,sum
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DigitSum, DigitProduct, DigitRepresentation, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -201,7 +209,6 @@ $3$.
 **(B)** Jā, tā var būt; der, piemēram, skaitļi $30$ un $31$.
 
 
-
 # <lo-sample/> LV.AMO.2013.6.3
 
 Sagriezt 3.zīmējumā attēloto figūru $20$ vienādās mazākās figūrās (figūras var
@@ -213,6 +220,8 @@ būt pagrieztas vai apgrieztas otrādi).
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: DissectionIntoCongruent, PlaneTransformation
+* _readingDifficulty: low
 
 </small>
 
@@ -221,7 +230,6 @@ būt pagrieztas vai apgrieztas otrādi).
 Skat., piem., 4.zīm.
 
 ![](LV.AMO.2013.6.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2013.6.4
@@ -233,6 +241,8 @@ reizinājumi abās grupās ir vienādi?
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, PrimeFactorization, SetPartition
+* _readingDifficulty: low
 
 </small>
 
@@ -247,7 +257,6 @@ $200$ pavisam tiek pārstāvēti tikai vienu reizi katrs, tātad tos nevar sadal
 pa divām grupām tā, lai katrā grupā būtu vienāds skaits.
 
 
-
 # <lo-sample/> LV.AMO.2013.6.5
 
 Una un Ivo, gājienus izdarot pēc kārtas, kvadrāta ar izmēriem $5 \times 5$ 
@@ -260,6 +269,8 @@ panākt savu uzvaru?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
+* _readingDifficulty: medium
 
 </small>
 
@@ -275,7 +286,6 @@ kvadrāta centru. Ja vēl bija brīvas rūtiņas, kur savu vārdu varēja ieraks
 Ivo, tad noteikti brīvas ir arī tām centrāli simetriskās rūtiņas.
 
 
-
 # <lo-sample/> LV.AMO.2013.7.1
 
 Naturālā divciparu skaitlī neviens no cipariem nav $0$. Pierādīt, ka, dalot šo 
@@ -289,6 +299,8 @@ skaitli ar tā ciparu reizinājumu, dalījums ir vismaz $\frac{11}{9}$.
 * questionType:Prove
 * domain:NT
 * subdomain:DOM_NumeralSystems
+* _hasSolutionConcept: DigitRepresentation, DigitProduct, OptimumProofStructure, RationalNumbers
+* _readingDifficulty: low
 
 </small>
 
@@ -310,8 +322,6 @@ $99$ dalījums ar tā ciparu reizinājumu ir $\frac{99}{9 \cdot 9}=\frac{11}{9}$
 $\frac{10a+b}{ab}=\frac{10}{b}+\frac{1}{a}$ ir vismazākā, ja $a=b=9$.
 
 
-
-
 # <lo-sample/> LV.AMO.2013.7.2
 
 Doti seši nogriežņi ar garumiem $1~\mathrm{cm}$, $3~\mathrm{cm}$, 
@@ -326,6 +336,8 @@ izveidot trijstūri (katra trijstūra mala ir viens vesels nogrieznis)?
 * questionType:FindCount
 * domain:Geom
 * subdomain:DOM_Triangles
+* _hasSolutionConcept: Triangle, TriangleInequality, UnorderedSelection, FiniteSet
+* _readingDifficulty: low
 
 </small>
 
@@ -339,7 +351,6 @@ $(5~\mathrm{cm},\ 7~\mathrm{cm},\ 9~\mathrm{cm})$,
 $(5~\mathrm{cm},\ 7~\mathrm{cm},\ 11~\mathrm{cm})$, 
 $(5~\mathrm{cm},\ 9~\mathrm{cm},\ 11~\mathrm{cm})$, 
 $(7~\mathrm{cm},\ 9~\mathrm{cm},\ 11~\mathrm{cm})$.
-
 
 
 # <lo-sample/> LV.AMO.2013.7.3
@@ -357,6 +368,8 @@ kvadrāts ir skaitļa reizinājums pašam ar sevi.)
 * questionType:Prove
 * domain:NT
 * subdomain:DOM_DigitManipulation
+* _hasSolutionConcept: PerfectSquares, PrimeFactorization, DivisibilityRules, DigitSum, DivisibilityRelation, DigitRepresentation
+* _readingDifficulty: medium
 
 </small>
 
@@ -392,7 +405,6 @@ Cits atrisinājums izmanto dalāmību ar $2$:
   saturēt pirmskaitli $2$ nepāru pakāpē.
 
 
-
 # <lo-sample/> LV.AMO.2013.7.4
 
 Vai kvadrātā $5 \times 5$ rūtiņas var iekrāsot **(A)** $6$ rūtiņas; **(B)** $5$
@@ -406,6 +418,8 @@ figūru (tā var būt pagriezta vai apgāzta otrādi)?
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_GridColoring
+* _hasSolutionConcept: Tiling, Coloring, Invariant, LatticeGrid
+* _readingDifficulty: medium
 
 </small>
 
@@ -415,7 +429,6 @@ figūru (tā var būt pagriezta vai apgāzta otrādi)?
 skat., piem., 6.zīm.
 
 ![](LV.AMO.2013.7.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2013.7.5
@@ -432,6 +445,8 @@ panākt savu uzvaru?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
+* _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
+* _readingDifficulty: medium
 
 </small>
 
@@ -446,7 +461,6 @@ rūtiņas, kur savu vārdu varēja ierakstīt Una, tad noteikti brīvas ir arī 
 centrāli simetriskās rūtiņas.
 
 
-
 # <lo-sample/> LV.AMO.2013.8.1
 
 Atrast visus naturālos skaitļus, kas nepārsniedz $1000000$ un kuri, nosvītrojot
@@ -459,6 +473,8 @@ to pirmo ciparu, samazinās $36$ reizes.
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_DigitManipulation
+* _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DivisibilityRelation
+* _readingDifficulty: medium
 
 </small>
 
@@ -484,8 +500,7 @@ $72,\ 720,\ 7200,\ 72000,\ 720000$.
 Uzrakstām algebriski, ko nozīmē pirmā cipara nodalīšana no pārējā gabala
 
 $a$ - 1.cipars; $a \cdot 10^k + b = 36b$; $a \cdot 10^k = 35b$. 
-Tad $a = 7$, $b=2\cdot 10^{k-1}$. 
-
+Tad $a = 7$, $b=2\cdot 10^{k-1}$.
 
 
 # <lo-sample/> LV.AMO.2013.8.2
@@ -500,6 +515,8 @@ perimetra.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Triangles
+* _hasSolutionConcept: Triangle, TriangleInequality
+* _readingDifficulty: low
 
 </small>
 
@@ -513,7 +530,6 @@ jeb $PA+PB+PC>\frac{1}{2} P_{ABC}$.
 ![](LV.AMO.2013.8.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2013.8.3
 
 Doti tādi reāli skaitļi $t$ un $a$, ka $t^{2}-t \cdot \sqrt{t}+a=0$. Pierādīt, 
@@ -524,6 +540,8 @@ ka $t \geq 4 a$.
 * questionType:Prove
 * domain:Alg
 * subdomain:DOM_ParametrizedEquations
+* _hasSolutionConcept: IrrationalAndReals, QuadraticEquation, VariableExpression
+* _readingDifficulty: low
 
 </small>
 
@@ -533,7 +551,6 @@ Aplūkosim kvadrātvienādojumu $x^{2}-\sqrt{t} \cdot x+a=0$. No uzdevumā dotā
 vienādības seko, ka $t$ ir šī vienādojuma sakne. Tā kā kvadrātvienādojumam ir 
 vismaz viena sakne, tā diskriminants ir nenegatīvs, t.i., 
 $D=(\sqrt{t})^{2}-4 \cdot 1 \cdot a=t-4 a \geq 0$ jeb $t \geq 4 a$, k.b.j.
-
 
 
 # <lo-sample/> LV.AMO.2013.8.4
@@ -546,6 +563,8 @@ daudzstūros?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
 * subdomain:DOM_CuttingCoversColoring
+* _hasSolutionConcept: Polygon, DissectionIntoCongruent
+* _readingDifficulty: low
 
 </small>
 
@@ -554,7 +573,6 @@ daudzstūros?
 **(A)** skat., piem., 8.zīm.; **(B)** skat., piem., 9.zīm.
 
 ![](LV.AMO.2013.8.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2013.8.5
@@ -576,6 +594,8 @@ $x_{1} \geq x_{2} \geq x_{3} \geq x_{4}$ ).
 * questionType:Prove
 * domain:Comb
 * subdomain:DOM_Logic
+* _hasSolutionConcept: FiniteSequenceArrangement, CaseAnalysis, DecisionTree
+* _readingDifficulty: high
 
 </small>
 
@@ -593,7 +613,6 @@ $x_{1} \neq x_{3}$ un $x_{3} \neq x_{4}$ (t. i., $x_{1}=x_{4}$), virkne nav
 monotona.
 
 
-
 # <lo-sample/> LV.AMO.2013.9.1
 
 Dota trapece, kuras pamatu malu garumi ir $3$ un $13$. Pierādīt, ka to nevar 
@@ -608,6 +627,8 @@ sadalīt piecos vienlielos trijstūros.
 * domain:Geom
 * sameAs:LV.AMO.2012.9.5
 * subdomain:DOM_Quadrilaterals,DOM_CuttingCoversColoring
+* _hasSolutionConcept: QuadrilateralFamilies, Triangle, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -622,7 +643,6 @@ t.i., šī trijstūra laukums ir mazāks nekā piektā daļa no trapeces laukuma
 Tātad doto trapeci nav iespējams sadalīt piecos vienlielos trijstūros.
 
 
-
 # <lo-sample/> LV.AMO.2013.9.2
 
 Kvadrātā ar izmēriem $4 \times 4$ rūtiņas katra rūtiņu virsotne nokrāsota vienā
@@ -634,6 +654,8 @@ vienā krāsā un atrodas vienādsānu taisnleņķa trijstūra virsotnēs.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_GridColoring
+* _hasSolutionConcept: Coloring, LatticeGrid, Triangle, PigeonholePrinciple, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -655,7 +677,6 @@ taisnleņķa trijstūri. Savukārt, ja $M$ un $K$ abas nokrāsotas tāpat kā vi
 $D$, veidojas vienādsānu taisnleņķa trijstūris $MKD$.
 
 
-
 # <lo-sample/> LV.AMO.2013.9.3
 
 Doti četri dažādi cipari, neviens no kuriem nav $0$. Visu divciparu skaitļu, 
@@ -667,6 +688,8 @@ ciparus.
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_NumeralSystems
+* _hasSolutionConcept: DigitRepresentation, DigitSum, CountingProductRule
+* _readingDifficulty: low
 
 </small>
 
@@ -684,7 +707,6 @@ tātad $a+b+c+d=484:44=11$. Vienīgā iespēja, ka četru dažādu nenulles cipa
 summa ir $11$, ir tad, ja šie cipari ir $1,\ 2,\ 3$ un $5$.
 
 
-
 # <lo-sample/> LV.AMO.2013.9.4
 
 Dota skaitļu virkne $x_{0}, x_{1}, x_{2}, x_{3}, \ldots$, kurā $x_{0}>0$ un 
@@ -696,6 +718,8 @@ $x_{n+1}=x_{n}+\frac{2}{x_{n}}$ visiem $n \geq 0$. Pierādīt, ka $x_{100}>20$.
 * questionType:Prove
 * domain:Alg
 * subdomain:DOM_RealSequences
+* _hasSolutionConcept: NumberSequence, RecurrentSequence, Invariant, PerfectSquares
+* _readingDifficulty: medium
 
 </small>
 
@@ -714,7 +738,6 @@ $x_{100}^{2}>x_{0}^{2}+400>0+400=400$. Tā kā $x_{100}>0$ un $x_{100}^{2}>400$,
 tad $x_{100}>20$, k.b.j.
 
 
-
 # <lo-sample/> LV.AMO.2013.9.5
 
 Dots izliekts četrstūris. Uzzīmēti četri riņķi, kuru diametri ir četrstūra 
@@ -726,6 +749,8 @@ malas. Pierādīt, ka šie riņķi pilnībā pārklāj doto četrstūri.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
+* _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk, Triangle, TriangleSpecialLines
+* _readingDifficulty: low
 
 </small>
 
@@ -741,7 +766,6 @@ pārklāts ar dotajiem riņķiem, līdz ar to arī viss četrstūris $ABCD$ tiek
 pārklāts ar dotajiem četriem riņķiem.
 
 ![](LV.AMO.2013.9.5A.png)
-
 
 
 # <lo-sample/> LV.AMO.2013.10.1
@@ -776,7 +800,6 @@ punkts, kurā funkcija $\frac{1}{3} x^{2}+px+q$ pieņem vērtību $0$. Šis punk
 ir vienādojuma $\frac{1}{3} x^{2}+px+q=0$ sakne.
 
 
-
 # <lo-sample/> LV.AMO.2013.10.2
 
 Trijstūrī $ABC$ nogrieznis $CD$ ir bisektrise. Caur punktu $C$ novilkta riņķa 
@@ -800,7 +823,6 @@ $\sphericalangle DQP=\sphericalangle DCP$ kā ievilktie leņķi. Tā kā $CD$ ir
 bisektrise, tad $\sphericalangle DCQ=\sphericalangle DCP$, tāpēc 
 $\sphericalangle BDQ=\sphericalangle DQP$ - tie šķērsleņķi pie taisnēm $AB$ un 
 $PQ$, kuras krusto taisne $DQ$, tātad $AB \parallel PQ$, k.b.j.
-
 
 
 # <lo-sample/> LV.AMO.2013.10.3
@@ -834,7 +856,6 @@ savukārt šo figūru var sadalīt jebkuros $n$-heksos, ja $n=2,\ 3$, skat., pie
 
 Acīmredzami, ka doto figūru nevar sadalīt 18.zīm. redzamajos $4$-heksos, jo ar 
 tiem nevar pārklāt jau dotās figūras 'malas' divus pirmos sešstūrus.
-
 
 
 # <lo-sample/> LV.AMO.2013.10.4
@@ -892,11 +913,6 @@ Ja skaitļu ir tikai $50$, tad līdzīgi secināt nevar.
 Var izvēlēties $51,\ldots,100$ - no tiem neviens nedalās ar otru.
 
 
-
-
-
-
-
 # <lo-sample/> LV.AMO.2013.10.5
 
 Vai pa riņķi var uzrakstīt $2013$ naturālus skaitļus tā, lai jebkuru divu 
@@ -924,7 +940,6 @@ summa $a+b$ vienam ir pāra skaitlis, bet otram - nepāra. Taču, tā kā pa apl
 jāuzraksta $2013$ - nepāra skaits skaitļu, to nevar izdarīt.
 
 
-
 # <lo-sample/> LV.AMO.2013.11.1
 
 Pierādīt, ka nav tāda naturāla skaitļa $n$, ka skaitlis $n^{2}-3n-1$ dalās ar 
@@ -943,7 +958,6 @@ Ja $n^{2}-3n-1$ dalās ar $169$, tad $n^{2}-3n-1=(n-8)(n+5)+39$ dalās ar $13$.
 Tātad $(n-8)(n+5)$ dalās ar $13$. Tā kā skaitļi $n-8$ un $n+5$ abi vienlaicīgi 
 dalās ar $13$, tad $(n-8)(n+5)$ dalās ar $169$. Bet tādā gadījumā 
 $(n-8)(n+5)+39$ nedalās ar $169$.
-
 
 
 # <lo-sample/> LV.AMO.2013.11.2
@@ -972,7 +986,6 @@ atšķeļ sešstūra mala, atliksim viduspunktu. Savienojot šos viduspunktus un
 sešstūra virsotnes, iegūsim regulāru $12$-stūri. Sākotnējā sešstūra malas un 
 diagonāles ir iegūtā $12$-stūra diagonāles, tātad regulāram $12$-stūrim ir 
 diagonāle, kuras garums ir vienāds ar divu citu diagonāļu garumu summu.
-
 
 
 # <lo-sample/> LV.AMO.2013.11.3
@@ -1019,7 +1032,6 @@ $\frac{1}{a_{1}}+\frac{1}{a_{2}}+\frac{1}{a_{3}}+\cdots+\frac{1}{a_{n}} \leq \fr
 k.b.j.
 
 
-
 # <lo-sample/> LV.AMO.2013.11.4
 
 Kādā valstī ir $2013$ pilsētas, no katras uz katru var aizlidot ar lidmašīnu. 
@@ -1060,7 +1072,6 @@ ieejošais un vismaz viens izejošs reiss, ko nodrošina viena un tā pati
 kompānija, taču aprakstītā plānošanas shēma šādu iespēju izslēdz.
 
 
-
 # <lo-sample/> LV.AMO.2013.11.5
 
 Uz galda virsmas, kurai ir taisnstūra forma, izvietoti vairāki vienādi 
@@ -1089,7 +1100,6 @@ kā vienu adatu. Ja kāds papīra gabals netiek piesprausts ne ar vienu adatu
 pārbīda, līdz katrs kvadrāts ir piesprausts pie galda.
 
 
-
 # <lo-sample/> LV.AMO.2013.12.1
 
 Atrisināt reālos skaitļos vienādojumu $\lg x \cdot \lg (4-x)=\frac{1}{4}$.
@@ -1108,7 +1118,6 @@ negatīva vai vispār neeksistē, ja $1 \leq x \leq 3$, tad arī
 $1 \leq 4-x \leq 3$ un 
 $\lg x \cdot \lg (4-x) \leq \lg (3) \cdot \lg (3)<\frac{1}{4}$, jo 
 $3<\sqrt{10}$. Tātad dotajam vienādojumam atrisinājuma nav.
-
 
 
 # <lo-sample/> LV.AMO.2013.12.2
@@ -1155,7 +1164,6 @@ līnijas centru. Tāpēc visas trīs dotās riņķa līnijas krustojas vienā pu
 $O$ - $\triangle ABC$ apvilktās riņķa līnijas centru.
 
 
-
 # <lo-sample/> LV.AMO.2013.12.3
 
 Pierādīt, ka neeksistē tādi naturāli skaitļi $x, y, z$, ka izpildās vienādība 
@@ -1176,7 +1184,6 @@ $7.6 \equiv-1; 13 \equiv-1; 29 \equiv 1(\bmod 7)$, tāpēc
 $(-1)^{x}+(-1)^{y}=1^{z}(\bmod 7)$ jeb $\pm 1+( \pm 1)=1$, taču pēdējā 
 vienādība nav iespējama, tātad nav tādu naturālu skaitļu $x, y, z$, ar kurām 
 dotā vienādība būtu patiesa.
-
 
 
 # <lo-sample/> LV.AMO.2013.12.4
@@ -1224,7 +1231,6 @@ jeb
 $S(n+3)=i \cdot j \cdot S(n+1)+i \cdot j^{2} \cdot S(n)$, k.b.j.
 
 
-
 # <lo-sample/> LV.AMO.2013.12.5
 
 Dota kvadrātisku rūtiņu plakne, katras rūtiņas malas garums ir $1$. Pierādīt, 
@@ -1264,4 +1270,3 @@ $<\frac{1}{\sqrt{a_{n}^{2}+h_{n}^{2}}+a_{n}}=\frac{2}{P}=\frac{1}{0,5 \sqrt{P}} 
 k.b.j.
 
 ![](LV.AMO.2013.12.5A.png)
-

@@ -10,6 +10,8 @@ mazāku vieninieku skaitu, ar kādu izdodas.
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: DigitRepresentation, PerfectSquares, ArithmeticOperations
+* _readingDifficulty: low
 
 </small>
 
@@ -24,6 +26,7 @@ der šāda izteiksme ar deviņiem vieniniekiem:
 
 Pārbaude: $(11 \cdot (1 + 1 + 1 + 1) + 1)^{1+1} = (11 \cdot 4 + 1)^2 = 45^2 = 2025.$
 
+
 # <lo-sample/> LV.AMO.2025.8.2
 
 Uz vienādsānu trijstūra $ABC$ sānu malām $AB$ un $BC$ izvēlēti attiecīgi punkti $M$
@@ -34,10 +37,10 @@ trijstūra $ABC$ leņķus.
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: Triangle, TriangleCongruence, ParallelPerpendicular, TriangleAngleSum
+* _readingDifficulty: medium
 
 </small>
-
-
 
 
 # <lo-sample/> LV.AMO.2025.8.3
@@ -53,9 +56,10 @@ virknes pirmā locekļa vērtība, ka visi virknes locekļi ir
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: NumberSequence, ParityInvariant, DigitRepresentation
+* _readingDifficulty: medium
 
 </small>
-
 
 
 # <lo-sample/> LV.AMO.2025.8.4
@@ -71,9 +75,10 @@ Kāds ir mazākais reižu skaits, ar kuru Ilmārs noteikti var uznest visus ķir
 
 * questionType:FindOptimal
 * domain:Comb
+* _hasSolutionConcept: OptimumProofStructure, PositiveIntegers, LinearInequality, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
-
 
 
 # <lo-sample/> LV.AMO.2025.8.5
@@ -88,11 +93,10 @@ Pierādi, ka tieši viens no tiem dalās ar $15$. Kurš tas ir?
 
 * questionType:Prove,FindAll
 * domain:Comb
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRules, DivisibilityRelation
+* _readingDifficulty: medium
 
 </small>
-
-
-
 
 
 # <lo-sample/> LV.AMO.2025.9.1
@@ -102,13 +106,11 @@ Atrodiet divus dažādus naturālu skaitļu trijniekus $(a, b, c)$, kuriem $a < 
 $$\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{4}{2025}$$
 
 
-
 # <lo-sample/> LV.AMO.2025.9.2
 
 Uz trijstūra $ABC$ malas $AC$ izvēlēts tāds punkts $D$, ka trijstūra 
 $ABD$ mediāna $AM$ ir paralēla trijstūra $DBC$ mediānai $DN$. 
 Aprēķināt attiecību $\frac{AD}{DC}$.
-
 
 
 # <lo-sample/> LV.AMO.2025.9.3
@@ -117,11 +119,13 @@ Vai eksistē pirmskaitlis $p$, kuram $p \times p$ rūtiņu kvadrātu,
 griežot pa rūtiņu līnijām, var sagriezt tādos mazākos kvadrātos, 
 ka katram no tiem mala ir vismaz $2$ rūtiņas gara?
 
+
 # <lo-sample/> LV.AMO.2025.9.4
 
 Bezgalīgā veselu skaitļu virknē $1, 2, 3, 6, 1, \ldots$ katrs loceklis, 
 sākot ar ceturto, ir iepriekšējo $3$ locekļu summas kvadrāta pēdējais cipars. 
 Aprēķiniet šīs virknes 2025. locekli.
+
 
 # <lo-sample/> LV.AMO.2025.9.5
 

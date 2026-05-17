@@ -13,6 +13,8 @@ cipari $0$ un $2$ un kurš dalās ar $15$?
 * topic:DivisibilityRulesLastDigits
 * topic:DivisibilityRulesFor3And9
 * topic:DecimalNotationDigits
+* _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum
+* _readingDifficulty: low
 
 </small>
 
@@ -28,8 +30,6 @@ tā pēdējam ciparam jābūt $0$. Līdz ar to meklētajam skaitlim ir vismaz $4
 cipari un šis skaitlis ir $2220$.
 
 
-
-    
 # <lo-sample/> LV.AMO.2022B.5.2
 
 Pa rūtiņu līnijām uzzīmē tādu sešstūri, kuram perimetra un laukuma vērtības sakrīt!  
@@ -46,6 +46,8 @@ rūtiņu malu, kas pilnībā atrodas uz robežas, skaits.
 * topic:SquareGridShapes
 * topic:PolygonPerimeter
 * topic:Area
+* _hasSolutionConcept: Polygon, FiniteSet, LatticeGrid
+* _readingDifficulty: medium
 
 </small>
 
@@ -56,7 +58,6 @@ Piemēram, der 1.att. redzamais sešstūris, kuram perimetrs ir
 $20$ un arī laukums ir $20$.
 
 ![](LV.AMO.2022B.5.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2022B.5.3
@@ -74,6 +75,8 @@ septītdaļa – pensionāri. Cik biļetes tika pārdotas?
 * subdomain:DOM_Divisibility
 * topic:MutualPrimes
 * topic:ArithmeticSeriesDivisibility
+* _hasSolutionConcept: DivisibilityRelation, LCM, RationalNumbers
+* _readingDifficulty: medium
 
 </small>
 
@@ -85,8 +88,6 @@ septiņās daļās, pārdoto biļešu skaitam jādalās ar $3$, $5$ un $7$.
 Tātad pārdoto biļešu skaitam jādalās ar $3 \cdot 5 \cdot 7=105$. 
 Tā kā vismaz puse no biļetēm tika pārdotas, tad tika pārdotas 
 $105 \cdot 2=210$ biļetes.
-
-
 
 
 # <lo-sample/> LV.AMO.2022B.5.4
@@ -103,6 +104,8 @@ līdzsvarā? Atbildi pamatot!
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * topic:SystemsSubstituteVariables
+* _hasSolutionConcept: EquationSystem, VariableExpression, PositiveIntegers
+* _readingDifficulty: medium
 
 </small>
 
@@ -122,7 +125,7 @@ katru kvadrātu ar divām bultiņām, iegūstam, ka piecstūra un četru bultiņ
 masa ir tikpat, cik desmit bultiņu masa. Tātad piecstūra masa ir 
 tikpat, cik sešu bultiņu masa.
 
-  
+
 # <lo-sample/> LV.AMO.2022B.5.5
 
 Katrai no trīs meitenēm Elīnai, Gunai un Marutai patīk viena no krāsām: 
@@ -144,6 +147,8 @@ Kāda krāsa patīk katrai meitenei? Atbildi pamatot!
 * domain:Comb
 * subdomain:DOM_Logic
 * topic:PartitioningInPairsBijections
+* _hasSolutionConcept: SelfReferentialStatements, CaseAnalysis, ConsistencyCheck
+* _readingDifficulty: high
 
 </small>
 
@@ -162,11 +167,7 @@ būtu patiesi, kas nav iespējams. Tā kā Gunai patīk oranžā krāsa,
 tad secinām, ka Elīnai patīk zalā krāsa. Tātad Marutai patīk dzeltenā krāsa.
 
 
-
-
-    
 # <lo-sample/> LV.AMO.2022B.6.1
-
 
 Uz papīra lapas uzrakstīti visi naturālie skaitļi no $1$ līdz $2022$ (katrs vienu reizi). 
 Vispirms Amanda ar sarkanu zīmuli apvilka visus skaitļus, kas dalās ar $3$. 
@@ -184,6 +185,8 @@ Cik ir tādu skaitļu, kas ir apvilkti ar vismaz divām dažādām krāsām?
 * subdomain:DOM_Divisibility
 * topic:OtherCountingSetOperations
 * topic:MutualPrimes
+* _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, MultiplesSet, InclusionExclusion
+* _readingDifficulty: medium
 
 </small>
 
@@ -214,10 +217,7 @@ Secinām, ka kopā ir $134+96+57-38 = 249$ skaitļi, kas dalās ar
 vismaz diviem skaitlliem, tātad tie ir apvilkti ar vismaz divu krāsu zīmuļiem.
 
 
-
-    
 # <lo-sample/> LV.AMO.2022B.6.2
-
 
 Parādi, kā no 1. att. dotās rūtiņu lapas var izgriezt desmit figūras, 
 kādas dotas 2. att. (iezīmē, kur jāiet griezuma līnijām)! 
@@ -237,6 +237,8 @@ Figūras var būt arī pagrieztas.
 * topic:SquareGridCutting
 * topic:RotationBy90
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid, Rotation
+* _readingDifficulty: low
 
 </small>
 
@@ -248,9 +250,6 @@ Skat., piemēram, 4. att.
 ![](LV.AMO.2022B.6.2A.png)
 
 
-
-
-    
 # <lo-sample/> LV.AMO.2022B.6.3
 
 Tumšā rudens vakarā Māris izdomāja saskaitīt visus naturālos skaitļus 
@@ -268,6 +267,8 @@ Vai var gadīties, ka Māris ieguva summu, kuras pēdējais cipars ir
 * subdomain:DOM_Congruences
 * topic:PeriodicRemainders
 * topic:SeriesOneToNSum
+* _hasSolutionConcept: PositiveIntegers, LastDigit, NumberSequence, PeriodicSequence
+* _readingDifficulty: low
 
 </small>
 
@@ -322,7 +323,6 @@ periodiski atkārtoties. Cipars $9$ nav tabulas otrajā kolonnā,
 tāpēc tas nevar būt summas pēdējais cipars.
 
 
-    
 # <lo-sample/> LV.AMO.2022B.6.4
 
 Zināms, ka svari (a), (b) un (c) atrodas līdzsvarā. Cik aplīšu jāliek 
@@ -339,6 +339,8 @@ līdzsvarā? Atbildi pamatot!
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * topic:SystemsSubstituteVariables
+* _hasSolutionConcept: LinearEquation, EquationSystem, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -357,7 +359,6 @@ Tālāk apskatīsim svarus (a). Aizvietojot piecstūri ar četriem
 aplīšiem un katru bultiņu ar diviem aplīšiem, iegūstam, ka 
 četrstūra un piecu aplīšu masa ir tikpat, cik desmit aplīšu masa. 
 Tātad četrstūra masa ir tikpat, cik piecu aplīšu masa.
-
 
 
 # <lo-sample/> LV.AMO.2022B.6.5
@@ -382,6 +383,8 @@ sestdiena – $56$, svētdiena – $57$. Cik ciema iedzīvotāji visu laiku melo
 * subdomain:DOM_Logic
 * topic:TrueAndFalseStatements
 * topic:DoubleCounting
+* _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, WholeIntegers
+* _readingDifficulty: medium
 
 </small>
 
@@ -405,8 +408,6 @@ $378-273=105$ atbildes "jā". Tātad par meļiem mums
 jāpārvērš $105:5=21$ ciema iedzīvotājs.
 
 
-
-    
 # <lo-sample/> LV.AMO.2022B.7.1
 
 Uz tāfeles bija uzrakstīts šāds teksts: $A869B$. 
@@ -425,6 +426,8 @@ Cik dažādos veidos to var izdarīt?
 * subdomain:DOM_NumeralSystems
 * topic:DivisibilityRulesLastDigits
 * topic:DivisibilityRulesFor3And9
+* _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, CaseAnalysis
+* _readingDifficulty: low
 
 </small>
 
@@ -454,9 +457,6 @@ $A=5$ un $B=5$;
 $A=8$ un $B=5$.
 
 
-
-
-    
 # <lo-sample/> LV.AMO.2022B.7.2
 
 Vai var atrast **(A)** $5$; **(B)** $15$ naturālus skaitļus 
@@ -470,6 +470,8 @@ Vai var atrast **(A)** $5$; **(B)** $15$ naturālus skaitļus
 * domain:Alg
 * subdomain:DOM_Equations
 * topic:EquationsAndMonotonicity
+* _hasSolutionConcept: PositiveIntegers, NumberPartitions, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -485,9 +487,7 @@ $1 \cdot 1 \cdot 2 \cdot 2 \cdot 2=8$
 *Piezīme.* **(A)** gadījumā der arī $1, 1, 1, 3, 3$ vai $1,1,1,2,5$.
 
 
-    
 # <lo-sample/> LV.AMO.2022B.7.3
-
 
 Parādi, kā plaknē novilkt $6$ taisnes un uz tām atlikt $7$ punktus tā, 
 lai uz katras no taisnēm būtu atzīmēti tieši trīs punkti!
@@ -501,7 +501,8 @@ lai uz katras no taisnēm būtu atzīmēti tieši trīs punkti!
 * domain:Geom
 * subdomain:DOM_ObjectSystemsGeometry
 * topic:CountingPointsSegmentsAndOthers
-
+* _hasSolutionConcept: PointLineSegmentRay, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -513,10 +514,7 @@ Skat., piemēram, 5. att.
 ![](LV.AMO.2022B.7.3A.png)
 
 
-
-    
 # <lo-sample/> LV.AMO.2022B.7.4
-
 
 Uz galda ir kaudze ar konfektēm. Karlsons un Brālītis pēc kārtas izdara gājienus, 
 Karlsons sāk spēli. Vienā gājienā
@@ -537,6 +535,8 @@ ja sākumā kaudzē ir **(A)** $6$ konfektes;
 * subdomain:DOM_Divisibility,FixedInvariant
 * method:MTH_FixedInvariant
 * topic:GameInvariant
+* _hasSolutionConcept: GamePosition, WinningLosingPositions, SymmetryStrategy, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -554,8 +554,6 @@ tas kļūs vienāds ar $0$, tātad Brālītis uzvarēs.
 
 *Piezīme.* **(A)** gadījumā Brālītis uzvarēs jau pēc otrā gājiena, 
 bet **(B)** gadījumā Brālítis uzvarēs pēc $2022: 3=674$. gājiena.
-
-
 
 
 # <lo-sample/> LV.AMO.2022B.7.5
@@ -582,6 +580,8 @@ Cik ciema iedzīvotāju visu laiku melo?
 * domain:Comb
 * subdomain:DOM_Logic
 * topic:DoubleCounting
+* _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, FiniteSet, LinearEquation
+* _readingDifficulty: medium
 
 </small>
 
@@ -604,7 +604,6 @@ ir $392$ atbildes "jā", tad mums "liekas" ir $392-272=120$
 atbildes "jā". Tātad par meļiem mums jāpārvērš $120:5=24$ ciema iedzīvotāji.
 
 
-    
 # <lo-sample/> LV.AMO.2022B.8.1
 
 Uz tāfeles bija uzrakstīts šāds teksts: $N597M$. 
@@ -622,6 +621,8 @@ Cik dažādos veidos to var izdarīt?
 * subdomain:DOM_NumeralSystems
 * topic:DivisibilityRulesFor2And4
 * topic:DivisibilityRulesFor3And9
+* _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -650,7 +651,6 @@ ierakstīt $M$ un $N$ vietā: $(N,M)=(1,2)$; $(N,M)=(4,2)$;
 $(N,M)=(7,2)$; $(N,M)=(3,6)$; $(N,M)=(6,6)$; $(N,M)=(9,6)$.
 
 
-    
 # <lo-sample/> LV.AMO.2022B.8.2
 
 Skolēnam tika uzdots mājas darbs, kurā bija $20$ uzdevumi. 
@@ -669,6 +669,8 @@ ja kopā viņš ieguva $13$ punktus?
 * subdomain:DOM_IntegerEquations
 * topic:NumTheoryInequalitySideComparison
 * method:MTH_ExhaustiveAlgorithms
+* _hasSolutionConcept: LinearEquation, EvenOddParity, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -703,9 +705,6 @@ nepareizi atrisināja $7$ uzdevumus, bet $7$ uzdevumus nerisināja.
 | $\mathbf{11}$ | Nē |
 
 
-
-
-    
 # <lo-sample/> LV.AMO.2022B.8.3
 
 Trijstūrī $ABC$ uz malas $BC$ atlikts tāds punkts $D$, 
@@ -718,6 +717,8 @@ ka $AD = BD$ un $AB = DC = AC$. Aprēķināt trijstūra $ABC$ leņķus!
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
 * topic:TriangleAngles,TrianglesIsosceles
+* _hasSolutionConcept: Triangle, TriangleCongruence, TriangleAngleSum
+* _readingDifficulty: medium
 
 </small>
 
@@ -753,9 +754,7 @@ $$\begin{aligned}
 ![](LV.AMO.2022B.8.3A.png)
 
 
-    
 # <lo-sample/> LV.AMO.2022B.8.4
-
 
 Vai pa apli var uzrakstīt skaitļus  
 **(A)** $0;\;1;\;2;\;3;\;4;\;5;\;6;\;7;\;8;\;9$;
@@ -771,6 +770,8 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 * subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
 * topic:HamiltonCircuits
+* _hasSolutionConcept: FiniteSequenceArrangement, Invariant, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -792,7 +793,7 @@ ierakstīts, par cik atškiras skaitļi.
 
 ![](LV.AMO.2022B.8.4A.png)
 
-    
+
 # <lo-sample/> LV.AMO.2022B.8.5
 
 Piecu draugu lokā izvērsās strīds, kurā:
@@ -813,6 +814,8 @@ Cik draugu saka taisnību?
 * domain:Comb
 * subdomain:DOM_Logic
 * topic:TrueAndFalseStatements
+* _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, SelfReferentialStatements, ConsistencyCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -829,7 +832,6 @@ No tā izriet, ka gan Guna, gan Maruta, gan Emīls melo.
 Tātad tikai viens no draugiem saka taisnību.
 
 
-    
 # <lo-sample/> LV.AMO.2022B.9.1
 
 Cik ir tādu četrciparu skaitļu $\overline{ABBA}$, kas dalās ar $99$? 
@@ -845,6 +847,8 @@ var atbilst arī vienādi cipari.)
 * subdomain:DOM_NumeralSystems
 * topic:DivisibilityRuleFor11
 * topic:DivisibilityRulesFor3And9
+* _hasSolutionConcept: PalindromeNumbers, DivisibilityRules, DigitSum, DigitRepresentation
+* _readingDifficulty: low
 
 </small>
 
@@ -870,7 +874,6 @@ $$A+B=1+8=2+7=3+6=4+5=5+4=6+3=7+2=8+1=9+0$$
 Ja $A+B=18$, tad iespējams tikai viens gadijums $A+B=9+9$.
 
 
-    
 # <lo-sample/> LV.AMO.2022B.9.2
 
 Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(A)** $x > y > 0$, **(B)** $x > y > 3$? 
@@ -884,6 +887,8 @@ Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(A)** $x > y > 0$, **(B)*
 * subdomain:DOM_Inequalities
 * method:MTH_PolynomialTransformations
 * topic:AddingOrMultiplyingInequalities
+* _hasSolutionConcept: RationalNumbers, VariableExpression, Counterexample, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -911,10 +916,7 @@ $$0 < (xy-9)(x-y)=x^{2}y - xy^{2} -9x + 9y$$
 Līdz ar to esam ieguvuši vajadzīgo.
 
 
-
-    
 # <lo-sample/> LV.AMO.2022B.9.3
-
 
 Taisnleņķa trijstūrī $ACB$ ($\sphericalangle C = 90^{\circ}$) 
 novilkts augstums $CH$. Uz malas $AC$ atlikts punkts $K$ tā, ka 
@@ -929,6 +931,8 @@ Pierādīt, ka taisne $CH$ dala nogriezni $BK$ divās vienādās daļās!
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
 * topic:TrianglesIsosceles
+* _hasSolutionConcept: Triangle, TriangleAngleSum, TriangleSpecialLines, TriangleCongruence
+* _readingDifficulty: medium
 
 </small>
 
@@ -959,8 +963,6 @@ dala nogriezni $BK$ divās vienādās daļās
 ![](LV.AMO.2022B.9.3A.png)
 
 
-
-    
 # <lo-sample/> LV.AMO.2022B.9.4
 
 Vai pa apli var uzrakstīt skaitļus  
@@ -977,6 +979,8 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 * subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
 * topic:HamiltonCircuits
+* _hasSolutionConcept: FiniteSequenceArrangement, Invariant, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -1009,8 +1013,6 @@ nevar uzrakstīt tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$;
 par cik atšķiras skaitļi.
 
 
-    
-    
 # <lo-sample/> LV.AMO.2022B.9.5
 
 Mākslas muzeja plānojums ir taisnstūris ar izmēriem **(A)** $8 \times 9$; 
@@ -1037,6 +1039,8 @@ Vai muzeja vadītājs var izveidot šādu maršrutu?
 * method:MTH_ContradictionForExistence
 * subdomain:DOM_Graphs
 * topic:GraphColoredVertices
+* _hasSolutionConcept: HamiltonianPath, ChessboardColoring, ProofByContradiction, Invariant
+* _readingDifficulty: high
 
 </small>
 
@@ -1058,9 +1062,6 @@ Taču tā nevar būt, jo šī rūtiņas atrodas blakus rūtiņai,
 kurā maršruts sākās. Līdz ar to iegūta pretruna, tāpēc šāds maršruts neeksistē.
 
 
-
-    
-    
 # <lo-sample/> LV.AMO.2022B.10.1
 
 Kāds ir skaitļa $2022^{2022}$ pēdējais cipars?
@@ -1115,9 +1116,6 @@ $$2022^{2022} \equiv 2^{2022} \equiv 2^{2020} \cdot 2^{2} \equiv\left(2^{4}\righ
 Līdz ar to esam ieguvuši, ka skaitla $2022^{2022}$ pēdējais cipars ir $4$.
 
 
-
-
-    
 # <lo-sample/> LV.AMO.2022B.10.2
 
 Apskatām $n$ pēc kārtas ņemtus naturālus skaitļus. 
@@ -1150,8 +1148,6 @@ skaitļu summa ir nepāra skaitlis. Tāpēc viena no apskatāmo grupu
 summām ir nepāra skaitlis, bet otra - pāra skaitlis. 
 Tā kā abas summas ir lielākas nekā $2$, tad tā summa, 
 kas ir pāra skaitlis, nav pirmskaitlis.
-
-
 
 
 # <lo-sample/> LV.AMO.2022B.10.3
@@ -1193,8 +1189,6 @@ Līdz ar to $S_{ACB}=\frac{AC \cdot CB}{2}=18 \frac{3}{8} \mathrm{~cm}^{2}$.
 ![](LV.AMO.2022B.10.3A.png)
 
 
-
-
 # <lo-sample/> LV.AMO.2022B.10.4
 
 Doti reāli skaitļi $a$, $b$ un $c$, kuriem $abc = 1$. Pierādīt, ka vienādojumam
@@ -1231,9 +1225,7 @@ Tā kā vienādojuma kreisās puses vērtība ir vismaz $1$, jo kvadrātu vērt�
 ir nenegatīva, tad dotajam vienādojumam nav reālu sakņu.
 
 
-    
 # <lo-sample/> LV.AMO.2022B.10.5
-
 
 Restorānā ieradās pieci deputāti un pirms pusdienām daži no viņiem 
 paspieda viens otram roku. 
@@ -1323,7 +1315,6 @@ deputātu. Tad mums ir lielākais divi pāri deputātu, kas viens otru ienīst,
 nosēdinot tos ne blakus (piemēram, vietās $A$-$C$ un $B$-$D$) prasītais būs panākts.
 
 
-    
 # <lo-sample/> LV.AMO.2022B.11.1
 
 Vai skaitli 2022 var izteikt kā divu veselu skaitļu kubu summu?
@@ -1371,7 +1362,6 @@ Tā kā $2022 \equiv 6 \equiv-3 \pmod 9$ neparādās starp šīm vērtībām,
 tad divu veselu skaitļu kubu summa nevar būt $2022$.
 
 
-
 # <lo-sample/> LV.AMO.2022B.11.2
 
 Kādām reālām $p$ vērtībām vienādojuma $x^2 + x + p = 0$ sakņu kvadrātu summa ir $16$?
@@ -1400,9 +1390,7 @@ $$x_{1}^{2}+x_{2}^{2}=\left(x_{1}+x_{2}\right)^{2}-2 x_{1} x_{2}=1-2 p=16$$
 Esam ieguvuši, ka $2p=-15$ jeb $p=-7,5$.
 
 
-    
 # <lo-sample/> LV.AMO.2022B.11.3
-
 
 Trijstūrī $ABC$ ievilktā riņķa līnija pieskaras malai 
 $AB$ punktā $D$ tā, ka $AD = 8$ un $BD = 1$. Aprēķināt malas $BC$
@@ -1439,10 +1427,7 @@ Tātad $BC=1+x=6.4$.
 ![](LV.AMO.2022B.11.3A.png)
 
 
-    
-    
 # <lo-sample/> LV.AMO.2022B.11.4
-
 
 Pierādīt, ka katru naturālu skaitli, kas ir lielāks nekā $3$, 
 var vienā vienīgā veidā izteikt kā trīs naturālu
@@ -1482,7 +1467,6 @@ var izteikt visus skaitļus, kuri ir kongruenti ar skaitli $1$
 pēc moduļa $3$ un ar trešo trijnieku var izteikt visus skaițus, 
 kuri ir kongruenti ar skaitli $2$ pēc moduļa $3$.
 Var redzēt, ka iegūtais sadalījums katru reizi ir unikāls.
-
 
 
 # <lo-sample/> LV.AMO.2022B.11.5
@@ -1560,8 +1544,8 @@ Aplūkojam trīs gadījumus.
    Līdz ar to iegūta pretruna un šāds maršruts neeksistē.
 
 Tā kā mainīgos $m$ un $n$ uzdevumā kontekstā var mainīt vietām, tad ir aplūkoti visi iespējamie gadījumi.
-    
-    
+
+
 # <lo-sample/> LV.AMO.2022B.12.1
 
 Vai skaitli $2023^2$ var izteikt kā trīs veselu skaitļu kubu summu?
@@ -1612,7 +1596,6 @@ Tagad aplūkojam, ar ko var būt kongruenta trīs veselu skaitļu kubu summa pē
 Esam ieguvuši, ka trīs šādu skaițu summa pēc moduļa 9 var pienemt jebkuru no vērtībām $-3 ;-2 ;-1 ; 0 ; 1 ; 2 ; 3$ un nekādas citas. Tā kā $2023^{2} \equiv 7^{2} \equiv 4 \equiv-5 \pmod 9$ neparādās starp šīm vērtībām, tad trīs veselu skaitļu kubu summa nevar būt $2023^{2}$.
 
 
-    
 # <lo-sample/> LV.AMO.2022B.12.2
 
 Kādām reālām $p$ vērtībām vienādojuma $x^2 + x + p$ sakņu kubu summa ir $(-16)$?
@@ -1643,8 +1626,7 @@ $$x_{1}^{3}+x_{2}^{3}=\left(x_{1}+x_{2}\right)\left(x_{1}^{2}-x_{1} x_{2}+x_{2}^
 
 Tātad $3p=-15$ un $p=-5$.
 
-    
-    
+
 # <lo-sample/> LV.AMO.2022B.12.3
 
 Trijstūrī $ABC$ no virsotnes $A$ vilktā augstuma garums ir $1$,
@@ -1707,8 +1689,6 @@ $$S_{ABC}=\frac{AC \cdot BN}{2}=2 \cdot \frac{\sqrt{3}}{2}=\sqrt{3}.$$
 Tātad trijstūra laukums var būt $\frac{\sqrt{3}}{2}$ vai $\sqrt{3}$.
 
 ![](LV.AMO.2022B.12.3A.png)
-
-
 
 
 # <lo-sample/> LV.AMO.2022B.12.4
@@ -1809,8 +1789,6 @@ ir patiesa. No tā izriet, ka $3 \sin x+4 \cos x \leq \sqrt{3^{2}+4^{2}}=5$,
 tātad dotajam vienādojumam nav sakņu.
 
 
-    
-    
 # <lo-sample/> LV.AMO.2022B.12.5
 
 Dota rūtiņu tabula $n \times n$. Ilmārs un Kims spēlē šādu spēli. 
@@ -1861,7 +1839,3 @@ kad Ilmārs aizpildīs kādu kolonnu, tad nākamajā gājienā Kims
 aizpildīs simetrisko kolonnu. Līdz ar to Ilmārs aizpildīs tieši 
 $1011$ kolonnas, kas viņam dod ne vairāk kā $1011$ punktus. 
 Tātad Kims uzvarēs.
-
-
-
-    

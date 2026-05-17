@@ -5,10 +5,11 @@ gadīties, ka viens skaitlis ir tieši septiņas reizes lielāks nekā otrs skai
 
 <small>
 
-
 * topic:ExhaustionMethod
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, DivisibilityRelation
+* _readingDifficulty: low
 
 </small>
 
@@ -17,7 +18,6 @@ gadīties, ka viens skaitlis ir tieši septiņas reizes lielāks nekā otrs skai
 
 **Atbilde:** nē. Ja skaitļa pēdējais cipars ir $1, 4, 6$ vai $9$, tad septiņas reizes
 lielāka skaitļa pēdējais cipars ir attiecīgi $7, 8, 2$ vai $3$.
-
 
 
 # <lo-sample/> LV.AMO.2012.5.2
@@ -33,6 +33,8 @@ platleņķa trijstūri, ja tam ir viens plats leņķis un divi šauri leņķi.)
 * questionType:ProveDisprove
 * domain:Geom
 * concepts:square-Geo,triangle
+* _hasSolutionConcept: Square, Triangle, Polygon
+* _readingDifficulty: low
 
 </small>
 
@@ -44,7 +46,6 @@ Skat., piem., 1.zīm.
 ![](LV.AMO.2012.5.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2012.5.3
 
 Maisā ir baltas, zaļas un sarkanas pogas (citu krāsu pogu maisā nav). Kādu mazāko
@@ -53,10 +54,11 @@ $2$ baltas, vai $3$ zaļas, vai $4$ sarkanas pogas.
 
 <small>
 
-
 * topic:NumTheoryPigeonholeNewSets
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: PigeonholePrinciple, FiniteSet, CaseAnalysis, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -66,7 +68,6 @@ $2$ baltas, vai $3$ zaļas, vai $4$ sarkanas pogas.
 **Atbilde:** jāpaņem vismaz $7$ pogas. Ja paņems tikai $6$ pogas, var gadīties, ka starp
 tām ir $1$ balta, $2$ zaļas un $3$ sarkanas- nevienas krāsas pogas nav vajadzīgajā
 skaitā.
-
 
 
 # <lo-sample/> LV.AMO.2012.5.4
@@ -81,6 +82,8 @@ mājā. (Lifts nevar uzbraukt augstāk par 24. stāvu un zemāk par 1. stāvu.)
 * topic:NumTheoryMathInduction
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: LinearDiophantine, StateSpaceProcess, Invariant
+* _readingDifficulty: high
 
 </small>
 
@@ -96,7 +99,6 @@ veidā:
 $17. \rightarrow 9. \rightarrow 1. \rightarrow 18. \rightarrow 10. \rightarrow 2. \rightarrow 19. \rightarrow 11. \rightarrow 3. \rightarrow 20. \rightarrow 12. \rightarrow 4. \rightarrow 21. \rightarrow 13. \rightarrow 5. \rightarrow 22. \rightarrow 14. \rightarrow 6. \rightarrow 23. \rightarrow 15. \rightarrow 7. \rightarrow 24. \rightarrow 16. \rightarrow 8.$
 
 
-
 # <lo-sample/> LV.AMO.2012.5.5
 
 Sadali 1.zīmējumā attēloto figūru trīs vienādās figūrās. (Figūru un tās spoguļattēlu
@@ -109,6 +111,8 @@ saucam par vienādām figūrām.)
 * topic:SquareGridCutting
 * questionType:ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: DissectionIntoCongruent, AxialSymmetry
+* _readingDifficulty: low
 
 </small>
 
@@ -118,7 +122,6 @@ saucam par vienādām figūrām.)
 Skat., piem. 2.zīm.
 
 ![](LV.AMO.2012.5.5A.png)
-
 
 
 # <lo-sample/> LV.AMO.2012.6.1
@@ -140,6 +143,8 @@ viens un tas pats skaitlis. Kāds tas ir?
 
 * questionType:Prove
 * domain:Alg
+* _hasSolutionConcept: PositiveIntegers, Invariant, StateSpaceProcess
+* _readingDifficulty: medium
 
 </small>
 
@@ -157,7 +162,6 @@ izpildīja $9$ darbības (t.i. $n=9$ ). Beigās palikušais skaitlis ir
 $S+2 \cdot n=(1+2+3+4+5+6+7+8+9+10)+2 \cdot 9=\frac{(1+10) \cdot 10}{2}+18=55+18=73$.
 
 
-
 # <lo-sample/> LV.AMO.2012.6.2
 
 Sadali kvadrātu divos vienādos **(A)** sešstūros, **(B)** septiņstūros.
@@ -166,6 +170,8 @@ Sadali kvadrātu divos vienādos **(A)** sešstūros, **(B)** septiņstūros.
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: DissectionIntoCongruent, Polygon, SquareOfSumIdentity
+* _readingDifficulty: low
 
 </small>
 
@@ -175,7 +181,6 @@ Sadali kvadrātu divos vienādos **(A)** sešstūros, **(B)** septiņstūros.
 Skat., piem., 3. a) un b) zīmējumus.
 
 ![](LV.AMO.2012.6.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2012.6.3
@@ -189,6 +194,8 @@ būtu vismaz viena zaļa rūtiņa?
 
 * questionType:FindOptimal
 * domain:Geom
+* _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -208,7 +215,6 @@ ka nebūs iespējams izvēlēties neaizkrāsotu $1 \times 3$ rūtiņu grupu.
 ![](LV.AMO.2012.6.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2012.6.4
 
 Vai pa apli var uzrakstīt **(A)** sešus **(B)** septiņus dažādus naturālus skaitļus tā,
@@ -219,6 +225,8 @@ pirmskaitļi būtu dažādi?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, EvenOddParity, ParityInvariant, FiniteSequenceArrangement
+* _readingDifficulty: medium
 
 </small>
 
@@ -238,7 +246,6 @@ skaitli, lielāku nekā $2$ (tas nav pirmskaitlis).
 ![](LV.AMO.2012.6.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2012.6.5
 
 Zīmuļi tiek pakoti divu veidu kastītēs: pa $7$ zīmuļiem kastītē un pa $10$ zīmuļiem
@@ -250,6 +257,8 @@ palikt pāri)?
 
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: FrobeniusType, DivisibilityRelation, MultiplesSet, DivisionWithRemainder
+* _readingDifficulty: medium
 
 </small>
 
@@ -269,7 +278,6 @@ Lielākais no tādiem skaitļiem ir $53$. Visus skaitļus no $54$ līdz $62$ var
 piem., $54=7 \cdot 2+10 \cdot 4,55=7 \cdot 5+10 \cdot 2,56=7 \cdot 8,57=7 \cdot 1+10 \cdot 5,58=7 \cdot 4+10 \cdot 3$, $59=7 \cdot 7+10 \cdot 1,60=10 \cdot 6,61=7 \cdot 3+10 \cdot 4,62=7 \cdot 6+10 \cdot 2$.
 
 
-
 # <lo-sample/> LV.AMO.2012.7.1
 
 Vai var atrast tādus veselus skaitļus $a$ un $b$, kuriem izpildās vienādība
@@ -282,6 +290,8 @@ $ab(3a+5b)=1234567$?
 * domain:NT
 * concepts:equation
 * subdomain:DOM_IntegerEquations
+* _hasSolutionConcept: WholeIntegers, EvenOddParity, ParityInvariant
+* _readingDifficulty: low
 
 </small>
 
@@ -292,9 +302,6 @@ Nē, nevar. Reizinājums $ab(3a+5b)$ ir pāra skaitlis: ja kāds no reizinātāj
 $b$ ir pāra skaitlis, tad reizinājums ir pāra skaitlis, savukārt, ja $a$ un $b$ abi ir
 nepāra skaitļi, tad summa $3a+5b$ ir pāra skaitlis (divu nepāra skaitļu summa ir pāra
 skaitlis), tātad viss reizinājums ir pāra skaitļi.
-
-
-
 
 
 # <lo-sample/> LV.AMO.2012.7.2
@@ -310,6 +317,8 @@ ir viens vesels nogrieznis)?
 * questionType:FindCount
 * domain:Geom
 * subdomain:DOM_Triangles
+* _hasSolutionConcept: Triangle, TriangleInequality, FiniteSet, UnorderedSelection
+* _readingDifficulty: low
 
 </small>
 
@@ -326,7 +335,6 @@ $7~\mathrm{cm}$, $11~\mathrm{cm}$ ), ($5~\mathrm{cm}$, $9~\mathrm{cm}$,
 $11~\mathrm{cm}$), ($7~\mathrm{cm}$, $9~\mathrm{cm}$, $11~\mathrm{cm}$).
 
 
-
 # <lo-sample/> LV.AMO.2012.7.3
 
 No pilsētas $A$ uz pilsētu $B$ vienlaicīgi izbrauca zaļa un sarkana automašīna. Sarkanā
@@ -341,6 +349,8 @@ vienlaicīgi ar to, ja sarkanās automašīnas ātrums bija
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
 * subdomain:DOM_WordProblems
+* _hasSolutionConcept: DirectProportion, LinearEquation, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -363,7 +373,6 @@ ir veikusi visu ceļu un atrodas pilsētā $B$. Tātad zaļajai automašīnai ce
 būtu jāveic momentāni ($0$ stundās), kas nav iespējams.
 
 
-
 # <lo-sample/> LV.AMO.2012.7.4
 
 Vai kubu var sagriezt $20$ mazākos kubiņos (daži no tiem var būt vienādi, daži
@@ -374,6 +383,8 @@ atšķirīgi)?
 * questionType:ProveDisprove
 * domain:Geom
 * subdomain:DOM_GridOther
+* _hasSolutionConcept: BasicSolids, DissectionIntoCongruent, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -384,7 +395,6 @@ Jā to var izdarīt. No sākuma kubu ar izmēriem $3 \times 3 \times 3$ sagriez�
 kubiņos ar izmēriem $1 \times 1 \times 1$. Pēc tam $8$ mazos kubiņus, kas atrodas pie
 lielā kuba viena stūra, apvienosim vienā kubā ar izmēriem $2 \times 2 \times 2$.
 Kopējais kubu skaits samazināsies par $7$ un kļūs vienāds ar $20$.
-
 
 
 # <lo-sample/> LV.AMO.2012.7.5
@@ -401,6 +411,8 @@ iet.
 * questionType:FindCount
 * domain:Geom,Comb
 * subdomain:DOM_MakingMoves
+* _hasSolutionConcept: LatticePath, LatticeGrid, RecurrentSequence
+* _readingDifficulty: medium
 
 </small>
 
@@ -413,7 +425,6 @@ nokļūt $x=c+d+e$ veidos (skat. 7.zīm.). Tātad no rūtiņas $A$ rūtiņā $B$
 veidos (skat. 8.zīm.).
 
 ![](LV.AMO.2012.7.5A.png)
-
 
 
 # <lo-sample/> LV.AMO.2012.8.1
@@ -432,6 +443,8 @@ būtu **(A)** $13$, **(B)** $14$.
 * questionType:FindExample
 * domain:Alg
 * subdomain:DOM_ExpressionBuilding
+* _hasSolutionConcept: WholeIntegers, FiniteSequenceArrangement, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -441,7 +454,6 @@ būtu **(A)** $13$, **(B)** $14$.
 **(A)** Piemēram, $4 \cdot 1 \cdot 5-7=13$
 
 **(B)** Piemēram, $4:(1-5:7)=14$ un arī $(4-1-5) \cdot (-7)=14$.
-
 
 
 # <lo-sample/> LV.AMO.2012.8.2
@@ -454,6 +466,8 @@ $P$ līdz dotā trijstūra virsotnēm ir lielāka nekā puse no trijstūra perim
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Triangles
+* _hasSolutionConcept: Triangle, TriangleInequality
+* _readingDifficulty: low
 
 </small>
 
@@ -466,7 +480,6 @@ Saskaitot šīs nevienādības, iegūstam $2(PA+PB+PC) > AB+AC+BC=P_{ABC}$
 jeb $PA+PB+PC > \frac{1}{2}P_{ABC}$.
 
 ![](LV.AMO.2012.8.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2012.8.3
@@ -483,6 +496,8 @@ olimpiādē?
 * questionType:FindAll
 * domain:Alg
 * subdomain:DOM_EquationSystems
+* _hasSolutionConcept: ArithmeticMean, EquationSystem, PositiveIntegers
+* _readingDifficulty: low
 
 </small>
 
@@ -500,9 +515,7 @@ skolēnu skaits ir $33$.
 
 Smaguma centram $21.6$ abi plecu garumi $1.6=|21.6-20|$ un $5=|15-20|$ 
 attiecas kā $8$ un $25$. Tātad zēnu ir $25$ un meiteņu $8$. Lielākus skaitļus ievietot 
-nevar, jo piemēram $50$ un $16$ summa ir jau $66 > 60$. 
-
-
+nevar, jo piemēram $50$ un $16$ summa ir jau $66 > 60$.
 
 
 # <lo-sample/> LV.AMO.2012.8.4
@@ -517,6 +530,8 @@ dalās ar $5$. Pierādi, ka visi uzrakstītie skaitļi dalās ar $5$.
 * domain:NT
 * subdomain:DOM_Divisibility
 * concepts:sum,divisibility
+* _hasSolutionConcept: WholeIntegers, DivisibilityRelation, ModularArithmetic, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -567,8 +582,6 @@ nozīmē, ka visi uzrakstītie skaitļi dalās ar $5$.
 Atlikumi pēc $5$ moduļa ik pēc $3$ atkārtojas, tātad tie visi vienādi (un vienādi ar $0$).
 
 
-
-
 # <lo-sample/> LV.AMO.2012.8.5
 
 Kvadrātveida tabula ar izmēriem $7 \times 7$ rūtiņas aizpildīta ar skaitļiem no $1$
@@ -584,6 +597,8 @@ pret šo diagonāli ierakstīti vienādi skaitļi.)
 * questionType:Prove
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
+* _hasSolutionConcept: LatinSquareSudoku, AxialSymmetry, Invariant, ParityInvariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -598,7 +613,6 @@ ir spēkā visām septiņām iespējamām $k$ vērtībām, un diagonālē ir tie
 tātad diagonālē ir ierakstīti visi skaitļi no $1$ līdz $7$, katrs tieši vienu reizi.
 
 
-
 # <lo-sample/> LV.AMO.2012.9.1
 
 Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
@@ -611,6 +625,8 @@ Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 * domain:NT
 * concepts:divisors
 * subdomain:DOM_Divisibility
+* _hasSolutionConcept: DivisorsSet, PrimeFactorization, DivisibilityRelation
+* _readingDifficulty: low
 
 </small>
 
@@ -619,7 +635,6 @@ Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 
 Piemēram, skaitlis $2^{11}$. Tā dalītāji ir skaitļi
 $1=2^{0}, 2^{1}, 2^{2}, 2^{3}, 2^{4}, 2^{5}, 2^{6}, 2^{7}, 2^{8}, 2^{9}, 2^{10}, 2^{11}$.
-
 
 
 # <lo-sample/> LV.AMO.2012.9.2
@@ -635,6 +650,8 @@ $\sphericalangle BAC=\sphericalangle BMN$
 * domain:Geom
 * subdomain:DOM_Triangles
 * concepts:triangle
+* _hasSolutionConcept: Triangle, Angle, TriangleSpecialLines, TriangleCongruence
+* _readingDifficulty: medium
 
 </small>
 
@@ -651,7 +668,6 @@ $\sphericalangle BMN=\sphericalangle CMN=\sphericalangle CAP=\sphericalangle BAC
 ![](LV.AMO.2012.9.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2012.9.3
 
 Kvadrātvienādojuma $x^{2}-507x+a=0$ saknes ir $p^{2}$ un $q$, kur $p$ un $q$ ir
@@ -665,6 +681,8 @@ pirmskaitļi. Aprēķini $a$ skaitlisko vērtību.
 * domain:NT,Alg
 * subdomain:DOM_ParametrizedEquations
 * concepts:quadratic-equation,primes
+* _hasSolutionConcept: QuadraticEquation, VietasFormulas, PrimeNumbers, EvenOddParity
+* _readingDifficulty: low
 
 </small>
 
@@ -674,7 +692,6 @@ pirmskaitļi. Aprēķini $a$ skaitlisko vērtību.
 No Vjeta teorēmas seko $p^{2}+q=507$ - nepāra skaitlis, tātad viens no pirmskaitļiem $p$
 vai $q$ ir $2$. Ja $q=2$, tad $p^{2}=505$, bet tad $p$ nav vesels skaitlis. Tātad $p=2$
 un $q=503$, no kurienes iegūstam $a=p^{2}q=2012$.
-
 
 
 # <lo-sample/> LV.AMO.2012.9.4
@@ -687,12 +704,13 @@ ar $37$. Vai Pēteris vienmēr var uzvarēt?
 
 <small>
 
-
 * topic:ModularArithmetic
 * topic:ModularArithmetic
 * questionType:ProveDisprove
 * domain:NT
 * subdomain:DOM_NumericGamesAndAlgorithms
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, SymmetryStrategy
+* _readingDifficulty: high
 
 </small>
 
@@ -707,7 +725,6 @@ ieraksta kādu ciparu, Pēteris tās pašas grupas abu pārējo zvaigznīšu vie
 tādus pašus ciparus, kā Jānis. Tātad pēc Pētera gājiena katrā grupā vai nu visas trīs
 zvaigznītes ir aizstātas ar cipariem, vai arī visas trīs ir neaizstātas. Tātad pēc
 kārtējā Jāņa gājiena Pēteris atkal varēs rīkoties tāpat un panākt savu uzvaru.
-
 
 
 # <lo-sample/> LV.AMO.2012.9.5
@@ -726,7 +743,8 @@ piecos vienlielos trijstūros.
 * sameAs:LV.AMO.2013.9.1
 * subdomain:DOM_Quadrilaterals,DOM_CuttingCoversColoring
 * concepts:trapezoid,triangle
-
+* _hasSolutionConcept: DissectionIntoCongruent, Triangle, QuadrilateralFamilies, Invariant
+* _readingDifficulty: low
 
 </small>
 
@@ -739,7 +757,6 @@ pamata un augstums pret šo malu nepārsniedz trapeces augstumu. Tātad ir trijs
 kura laukums $S_{1} \leq \frac{1}{2} \cdot 3 \cdot h=1,5 h$. Taču
 $1,5h < \frac{8h}{5}=1,6h$, t.i., šī trijstūra laukums ir mazāks nekā piektā daļa no
 trapeces laukuma. Tātad doto trapeci nav iespējams sadalīt piecos vienlielos trijstūros.
-
 
 
 # <lo-sample/> LV.AMO.2012.10.1
@@ -776,10 +793,6 @@ Secinām, ka $p=3$ (citi pirmskaitļi nedalās ar $3$). Tādēļ
 $14p^2 +1 = 127$ un $14p^2 - 1 = 125$, kas tiešām ir pilns kubs $5^3$.
 
 
-
-
-
-
 # <lo-sample/> LV.AMO.2012.10.2
 
 Dots izliekts četrstūris $ABCD$, leņķi $DAB$ un $BCD$ ir plati. Pierādi, ka $BD > AC$.
@@ -797,7 +810,6 @@ Dots izliekts četrstūris $ABCD$, leņķi $DAB$ un $BCD$ ir plati. Pierādi, ka
 Novilksim riņķi, kura diametrs ir $BD$. Tā kā leņķi $DAB$ un $BCD$ ir plati, tad punkti
 $A$ un $C$ atrodas riņķa iekšpusē. Tātad $AC < BD$, jo jebkurš nogrieznis riņķa
 iekšpusē ir īsāks nekā tā diametrs.
-
 
 
 # <lo-sample/> LV.AMO.2012.10.3
@@ -830,7 +842,6 @@ funkcija $\frac{1}{3}x^{2}+px+q$ pieņem vērtību $0$. Šis punkts ir vienādoj
 $\frac{1}{3}x^{2}+px+q=0$ sakne.
 
 
-
 # <lo-sample/> LV.AMO.2012.10.4
 
 Vienā un tajā pašā riņķa līnijā ievilkts regulārs $9$-stūris un regulārs $10$-stūris.
@@ -856,7 +867,6 @@ $\cup A_{i}B_{j}+\cup B_{j+1}A_{i+1}=4^{\circ}$, no kurienes seko, ka vismaz vie
 šiem lokiem nepārsniedz $2^{\circ}$.
 
 ![](LV.AMO.2012.10.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2012.10.5
@@ -888,7 +898,6 @@ nogriežņus skat., piem., 17.zīm.
 ![](LV.AMO.2012.10.5A.png)
 
 
-
 # <lo-sample/> LV.AMO.2012.11.1
 
 Pierādi, ka nav tāda naturāla skaitļa $n$, ka skaitlis $n^{2}-3n-1$ dalās ar $169$.
@@ -907,7 +916,6 @@ Pierādi, ka nav tāda naturāla skaitļa $n$, ka skaitlis $n^{2}-3n-1$ dalās a
 Ja $n^{2}-3n-1$ dalās ar $169$, tad $n^{2}-3n-1=(n-8)(n+5)+39$ dalās ar $13$. Tātad
 $(n-8)(n+5)$ dalās ar $13$. Tā kā skaitļi $n-8$ un $n+5$ abi vienlaicīgi dalās ar $13$,
 tad $(n-8)(n+5)$ dalās ar $169$. Bet tādā gadījumā $(n-8)(n+5)+39$ nedalās ar $169$.
-
 
 
 # <lo-sample/> LV.AMO.2012.11.2
@@ -950,7 +958,6 @@ gadījumā būtu jāšķiro vairāki punktu izvietojuma gadījumi, atkarībā no
 $O$ uz taisnes atrodas katrs punkts.
 
 
-
 # <lo-sample/> LV.AMO.2012.11.3
 
 Atrisini vienādojumu:
@@ -989,7 +996,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-
 # <lo-sample/> LV.AMO.2012.11.4
 
 Pierādi, ka izliektu $2012$-stūri nevar sadalīt $200$ izliektos $12$-stūros.
@@ -1007,7 +1013,6 @@ Pierādi, ka izliektu $2012$-stūri nevar sadalīt $200$ izliektos $12$-stūros.
 Izliekta $2012$-stūra iekšējo leņķu summa ir $2010 \cdot 2 \pi$. Tos ir jānoklāj ar
 $200$ $12$-stūru leņķiem, kuru kopējais lielums ir
 $200 \cdot 10 \cdot 2 \pi < 2010 \cdot 2 \pi$. Tātad prasīto izdarīt nav iespējms.
-
 
 
 # <lo-sample/> LV.AMO.2012.11.5
@@ -1056,7 +1061,6 @@ virsotnēm. Ja ir nokrāsoti $11$ punkti tad ir divas iespējas:
 ![](LV.AMO.2012.11.5A.png)
 
 
-
 # <lo-sample/> LV.AMO.2012.12.1
 
 Skaitļi $A$ un $B$ ir divi dažādi $7$-ciparu skaitļi, kuri katrs satur visus ciparus
@@ -1084,7 +1088,6 @@ $kB=k(9M+1)=9kM+k$, dalot ar $9$, dod atlikumu $k \neq 1$, tātad $kB \neq A$, k
 *Piezīme.* Atrisinājumu var pierakstīt īsāk, lietojot kongruences:
 $A \equiv B \equiv 1(\bmod 9)$, bet $kB \equiv k(\bmod 9)$. Ja $A=nB$, tad
 $1 \equiv k(\bmod 9)$. Tā kā $2 \leq k \leq 7$, iegūta pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2012.12.2
@@ -1120,7 +1123,6 @@ $180^{\circ}$, k.b.j.
 ![](LV.AMO.2012.12.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2012.12.3
 
 Atrisini vienādojumu $\lg x \cdot \lg (4-x)=\frac{1}{4}$.
@@ -1139,7 +1141,6 @@ Ja $x < 1$ vai $x > 3$, tad izteiksmes $\lg x \cdot \lg (4-x)$ vērtība ir vai 
 negatīva vai vispār neeksistē, ja $1 \leq x \leq 3$, tad arī $1 \leq 4-x \leq 3$ un
 $\lg x \cdot \lg (4-x) \leq \lg (3) \cdot \lg (3) < \frac{1}{4}$, jo
 $3 < \sqrt{10}$. Tātad dotajam vienādojumam atrisinājuma nav.
-
 
 
 # <lo-sample/> LV.AMO.2012.12.4
@@ -1162,7 +1163,6 @@ plaknē?
 
 **(B)** Jā; der, piemēram, regulāras trijstūra prizmas, kuras sānu skaldnes ir kvadrāti,
 virsotnes un tai apvilktās sfēras centrs.
-
 
 
 # <lo-sample/> LV.AMO.2012.12.5
