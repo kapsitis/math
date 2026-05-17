@@ -10,6 +10,7 @@ kļūst skaidrs, kurās kastēs ir āboli?
 * domain:Comb
 * _hasSolutionConcept: FiniteSet, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -40,6 +41,7 @@ apli".)
 * domain:Comb
 * _hasSolutionConcept: FiniteSet, GraphConcept, FunctionConcept, ProofByContradiction
 * _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -75,6 +77,7 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 * domain:Comb
 * _hasSolutionConcept: GraphConcept, DirectedGraph, OptimumProofStructure
 * _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -104,6 +107,7 @@ sviras svariem bez atsvariem atrast šo lodīti?
 * domain:Comb
 * _hasSolutionConcept: DecisionTree, Invariant, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -140,6 +144,7 @@ dažādiem, ja tos nevar novietot tā, lai tie pilnīgi sakristu viens ar otru.
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: FiniteSet, ExhaustiveCheck, OptimumProofStructure, DissectionIntoCongruent
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis, ProofByContradiction
 
 </small>
 
@@ -171,6 +176,7 @@ izteiksme $2a+3b+c$ dalās ar $7$.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, DivisibilityRules
 * _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger
 
 </small>
 
@@ -196,6 +202,7 @@ divos gadījumos:
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, RationalNumbers, PositiveAndNegative, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, IntroduceVariablesAndFormEquation, CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -226,6 +233,8 @@ būtu vienādi, ja sākotnējais izvietojums ir tāds, kāds parādīts 1.zīm. 
 * domain:Alg
 * _hasSolutionConcept: Invariant, EvenOddParity, ChessboardColoring, LatticeGrid
 * _readingDifficulty: high
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _newReasoningMethodLabel: InvariantByColoring
 
 </small>
 
@@ -267,6 +276,7 @@ stūris ar kādu atzīmēto?
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, FiniteSet, OptimumProofStructure, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -298,6 +308,7 @@ rūķītis varētu apciemot katru citu?
 * domain:Comb
 * _hasSolutionConcept: GraphConcept, FiniteSet, CountingProductRule, OptimumProofStructure
 * _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -345,6 +356,7 @@ pierakstu?
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, GraphConcept, WalkPathCycle
 * _readingDifficulty: high
 * _domain: NT,Comb
+* _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, NumberConstruction
 
 </small>
 
@@ -382,6 +394,7 @@ Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat.
 * _hasSolutionConcept: Triangle, TriangleCongruence, Angle
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
 
 </small>
 
@@ -417,6 +430,7 @@ spēlēts pietiekoši ilgi).
 * _hasSolutionConcept: DivisibilityRelation, DigitSum, Invariant, GamePosition
 * _readingDifficulty: high
 * _domain: NT,Comb
+* _hasReasoningMethod: GameInvariantsInNT, DivisibilityRules
 
 </small>
 
@@ -446,6 +460,7 @@ citu.
 * _hasSolutionConcept: GraphConcept, VertexDegree, PigeonholePrinciple
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleBasic, ConstructiveExampleForExistence
 
 </small>
 
@@ -471,6 +486,7 @@ starpība?
 * _hasSolutionConcept: FiniteSequenceArrangement, LinearInequality, OptimumProofStructure
 * _readingDifficulty: high
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation, IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -509,6 +525,7 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, VariableExpression
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, VietasFormulas
 
 </small>
 
@@ -532,6 +549,7 @@ Aprēķināt **(A)** $\sphericalangle MCB$, **(B)** $\sphericalangle MBC$.
 * _hasSolutionConcept: Triangle, Angle, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, CongruentTriangles, AuxiliaryLines, PerpendicularBisector, TriangleAngleSum
 
 </small>
 
@@ -576,6 +594,7 @@ $1716$. Kādu skaitli viņa iedomājās sākumā?
 * _hasSolutionConcept: DigitProduct, DivisibilityRelation, PrimeNumbers, DigitRepresentation
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: PrimePropertiesAndUniqueness, CompleteEnumeration, PrimeFactorization
 
 </small>
 
@@ -610,6 +629,7 @@ Dzintars savā starpā nesazinās un nespiego, ko dara skatītājs.)
 * _hasSolutionConcept: DigitRepresentation, PigeonholePrinciple, FiniteSet
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleBasic, ConstructiveExampleForExistence
 
 </small>
 
@@ -646,6 +666,7 @@ figūriņas sākuma pozīciju.
 * _hasSolutionConcept: ChessboardColoring, LatticeGrid, Invariant, OptimumProofStructure
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, RuleOfSumDisjointCases
 
 </small>
 
@@ -686,6 +707,7 @@ gadīties, ka tieši $19$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 * _hasSolutionConcept: DigitSum, DivisibilityRules, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, ProofByContradiction
 
 </small>
 
@@ -716,6 +738,7 @@ punktos $M,\ K$ un $N$. Pierādīt, ka $\sphericalangle BMN=\sphericalangle BMK$
 * _hasSolutionConcept: Triangle, CircleAndDisk, ParallelPerpendicular, QuadrilateralFamilies, InscribedCentralAngle
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: AngleAtCenterAndCircumference, ParallelLinesAngleProperties, IsoscelesTriangleProperties, AngleChasing
 
 </small>
 
@@ -756,6 +779,7 @@ $$(f(x))^{2}+(g(x))^{2}=\left(x^{2}+1\right)\left(x^{2}+4\right)\left(x^{2}+2x+2
 * _hasSolutionConcept: PerfectSquares, PolynomialAndRoots, SquareOfSumIdentity, VariableExpression
 * _readingDifficulty: medium
 * _domain: NT,Alg
+* _hasReasoningMethod: FactoringAlgebraicExpressions, NumberConstruction
 
 </small>
 
@@ -783,6 +807,7 @@ ja **(A)** $n=8$, **(B)** $n=9$?
 * _hasSolutionConcept: GraphConcept, VertexDegree, ParityInvariant, WalkPathCycle
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -819,6 +844,7 @@ monētu daudzums var vienlaicīgi atrasties ar ģerboni uz augšu?
 * _hasSolutionConcept: ParityInvariant, Invariant, OptimumProofStructure
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 

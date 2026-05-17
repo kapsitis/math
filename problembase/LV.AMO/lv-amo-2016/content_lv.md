@@ -10,6 +10,7 @@ $DLV; MMXVI; CMXCIV; XXXVII$
 * domain:Alg
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement
 * _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -32,6 +33,7 @@ $14 \cdot a+2 \cdot b+1=2016$ ?
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
 
 </small>
 
@@ -58,6 +60,7 @@ iekavas tā, lai iegūtu patiesu vienādību!
 * domain:Comb
 * _hasSolutionConcept: RationalNumbers, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -80,6 +83,7 @@ daļas nedrīkst pārklāties, daļas drīkst pagriezt, bet nedrīkst apgāzt ot
 * domain:Geom
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, Rotation
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -103,6 +107,7 @@ viens otram!
 * domain:Comb
 * _hasSolutionConcept: PigeonholePrinciple, GraphConcept, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: PigeonholePrincipleBasic
 
 </small>
 
@@ -130,6 +135,7 @@ risinājumu!
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, EquationSystem
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -153,6 +159,7 @@ $14 \cdot a+15=2016-6 \cdot b$?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument
 
 </small>
 
@@ -182,6 +189,7 @@ tantītes piedalījās sacensībās?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, FiniteSet, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation, CountTheSameQuantityInTwoWays
 
 </small>
 
@@ -223,6 +231,7 @@ taisnstūrī būtu vismaz viena iekrāsota rūtiņa?
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Tiling, Coloring, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -250,6 +259,7 @@ laukuma) daļās! Gabali attiecībā viens pret otru drīkst būt gan pagriezti,
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, PlaneTransformation
 * _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -277,6 +287,7 @@ funkcijas grafiku un iet caur punktu $(1; 43)$!
 * topic:LinearFunctions
 * _hasSolutionConcept: LinearFunction, CoordinatePlane, LinearEquation, ParallelPerpendicular, OrderedPair
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseFunctionGraphForRootsAndComparisons
 
 </small>
 
@@ -311,6 +322,7 @@ centu). Cik samaksāja Brālītis?
 * subdomain:DOM_IntegerSequences
 * _hasSolutionConcept: DivisibilityRelation, CoprimeIntegers, LinearEquation
 * _readingDifficulty: medium
+* _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument, AlgebraicManipulationForInteger
 
 </small>
 
@@ -350,6 +362,7 @@ Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 * topic:TrianglesIsosceles
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, Angle, TriangleCongruence, ParallelogramProperties
 * _readingDifficulty: low
+* _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, IsoscelesTriangleProperties, AngleChasing
 
 </small>
 
@@ -395,6 +408,7 @@ tūbiņu?
 * topic:CongruenceEquationsLinear
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, LinearEquation
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
 
 </small>
 
@@ -430,6 +444,7 @@ Pierādīt, ka varde ir apēdusi vismaz $21$ mušu!
 * topic:SubtractionRule
 * _hasSolutionConcept: ChessboardColoring, ParityInvariant, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability
 
 </small>
 
@@ -458,6 +473,7 @@ $$\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13}-128}$$
 * subdomain:DOM_AlgebraicOperations
 * _hasSolutionConcept: DiffOfSquaresFactoring, DivisibilityRelation, RationalNumbers
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
 
 </small>
 
@@ -487,6 +503,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$?
 * topic:ModularArithmeticContradiction
 * _hasSolutionConcept: WholeIntegers, EvenOddParity, CaseAnalysis
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument, DiophantineEquations
 
 </small>
 
@@ -524,6 +541,7 @@ lielākais ciparu skaits, kas var būt šajā skaitlī?
 * subdomain:DOM_NumeralSystems
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, DivisibilityRules, DigitRepresentation, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules, PrimeFactorization, BoundingArgument, SumOfArithmeticOrTriangularNumbers
 
 </small>
 
@@ -568,6 +586,7 @@ Pierādīt, ka $\triangle MNB=\triangle CKM$.
 * topic:TriangleSideBisector
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, TriangleCongruence, TriangleSpecialLines, ParallelPerpendicular
 * _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, PerpendicularBisector
 
 </small>
 
@@ -608,6 +627,7 @@ pareizi spēlējot, uzvar, ja **(A)** $N=7$, **(B)** $N=8$?
 * topic:GameInvariant
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, LatticeGrid, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -640,6 +660,7 @@ Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
 * topic:InequalitySolvingWithTransformations
 * _hasSolutionConcept: LinearInequality, FunctionDomainRange
 * _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -667,6 +688,7 @@ $x, y$ un $z$, ka $x^{3}-2016xyz=10$ ?
 * topic:ModularArithmeticContradiction
 * _hasSolutionConcept: WholeIntegers, ModularArithmetic, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ModularArithmetic, CompleteEnumeration
 
 </small>
 
@@ -704,6 +726,7 @@ $CDM$ ir vienādmalu!
 * topic:TrianglesRightRatioCosine
 * _hasSolutionConcept: Triangle, TriangleCongruence, TriangleSimilarity, Angle, PointLineSegmentRay
 * _readingDifficulty: medium
+* _hasReasoningMethod: SimilarTriangles, CongruentTriangles, AngleAtCenterAndCircumference, ParallelogramProperties, TriangleAngleSum
 
 </small>
 
@@ -746,6 +769,7 @@ reizinājumu. Kāds ir šīs virknes $2016.$ loceklis?
 * topic:SequencePeriodicity
 * _hasSolutionConcept: NumberSequence, RecurrentSequence, DigitProduct, PeriodicSequence
 * _readingDifficulty: medium
+* _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
 
 </small>
 
@@ -801,6 +825,7 @@ pārbaudot ne vairāk kā četrus podus!
 * topic:SearchProblems
 * _hasSolutionConcept: ArithmeticProgression, FiniteSequenceArrangement, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 

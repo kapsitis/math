@@ -16,6 +16,7 @@ ir jautājuma zīme?
 * domain:Alg
 * _hasSolutionConcept: MagicConfiguration, FiniteSequenceArrangement, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation, BruteForceCheckOverFiniteSet
 
 </small>
 
@@ -42,6 +43,7 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * domain:Comb
 * _hasSolutionConcept: DecisionTree, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
 
 </small>
 
@@ -74,6 +76,7 @@ rindiņā - nepāra skaits zvaigznīšu?
 * domain:Comb
 * _hasSolutionConcept: FiniteSet, EvenOddParity, ParityInvariant, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
 
 </small>
 
@@ -102,6 +105,7 @@ kopējais zelta daudzums tajā.)
 * domain:Comb
 * _hasSolutionConcept: FiniteSet, FiniteSequenceArrangement, SetPartition, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
 
 </small>
 
@@ -131,6 +135,7 @@ ar formu ![](LV.AMO.2005.5.5_2.png)?
 * domain:Geom
 * _hasSolutionConcept: Tiling, ChessboardColoring, Counterexample
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -152,6 +157,7 @@ $200520052005 \times 20042004$ ir lielāks?
 * domain:Alg
 * _hasSolutionConcept: DigitRepresentation, MultiplicationPrinciple
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -174,6 +180,7 @@ divas kaudzītes, kurās kopā ir tieši $15$ sērkociņu.
 * domain:Comb
 * _hasSolutionConcept: PigeonholePrinciple, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, RuleOfSumDisjointCases
 
 </small>
 
@@ -197,6 +204,7 @@ svēršanām var noteikt katra atsvara masu?
 * domain:Comb
 * _hasSolutionConcept: DecisionTree, EvenOddParity, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases, FixedInvariantNumeric
 
 </small>
 
@@ -230,6 +238,7 @@ visas vienādas savā starpā.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, FiniteSet, SetPartition, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: CoprimeFactorsDivisibility, NumberConstruction
 
 </small>
 
@@ -258,6 +267,7 @@ garums ir $1$?
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, PointLineSegmentRay, OptimumProofStructure, ChessboardColoring, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ColoringArgumentForCoverageOrUnreachability, RuleOfSumDisjointCases
 
 </small>
 
@@ -299,6 +309,7 @@ Pierādīt, ka $AB=BK$.
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, PointOnSegmentConstruction, IsoscelesTriangleProperties, TriangleAngleSum
 
 </small>
 
@@ -326,6 +337,7 @@ ir nesaīsināmas?
 * _hasSolutionConcept: RationalNumbers, DivisibilityRelation, CoprimeIntegers, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: BoundingArgument
 
 </small>
 
@@ -353,6 +365,7 @@ Pankūku nomaiņai laiks nav jāparedz.
 * _hasSolutionConcept: OptimumProofStructure, FiniteSet, LatinSquareSudoku
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
 
 </small>
 
@@ -385,6 +398,7 @@ var beigties šo skaitļu reizinājums?
 * _hasSolutionConcept: PrimeFactorization, DivisibilityRelation, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: PrimeFactorization, BoundingArgument, NumberConstruction, LastDigitAnalysis, DivisibilityRules
 
 </small>
 
@@ -428,6 +442,7 @@ kaimiņiem.
 * _hasSolutionConcept: FiniteSequenceArrangement, ProofByContradiction, Invariant, ExistenceVsUniversal
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic
 
 </small>
 
@@ -468,6 +483,7 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, VariableExpression
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: VietasFormulas, UseStandardIdentities
 
 </small>
 
@@ -493,6 +509,7 @@ skaitļi?
 * _hasSolutionConcept: FibonacciLikeSequence, RecurrentSequence, Invariant
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation, ProofByContradictionInAlgebra
 
 </small>
 
@@ -520,6 +537,7 @@ reizinājumu?
 * _hasSolutionConcept: PositiveIntegers, EquationSystem, CaseAnalysis, SetPartition
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: NumericalEstimation, EquivalentTransformationsOfEquationsAndInequalities, IntroduceVariablesAndFormEquation, CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -584,6 +602,7 @@ Aprēķināt
 * _hasSolutionConcept: Triangle, TriangleAngleSum, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, CongruentTriangles, AuxiliaryLines, PerpendicularBisector, TriangleAngleSum
 
 </small>
 
@@ -627,6 +646,7 @@ Kāda ir lielākā iespējamā $n$ vērtība?
 * _hasSolutionConcept: Coloring, LatticeGrid, PigeonholePrinciple, OptimumProofStructure, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, PigeonholePrincipleBasic, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -660,6 +680,7 @@ neizmanto nevienu no cipariem $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9$.
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument
 
 </small>
 
@@ -683,6 +704,7 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 * _hasSolutionConcept: Triangle, CircleAndDisk, TriangleSpecialLines, TriangleCongruence, Angle
 * _readingDifficulty: high
 * _domain: Geom
+* _hasReasoningMethod: PointOnSegmentConstruction, CongruentTriangles, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
 
 </small>
 
@@ -719,6 +741,7 @@ rūķīšus.
 * _hasSolutionConcept: FiniteSet, SetIntersection, PigeonholePrinciple, ProofByContradiction
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ExtremalElementArgument, ContradictionForImpossibility, PigeonholePrincipleBasic
 
 </small>
 
@@ -749,6 +772,7 @@ izteiksmes $x+y+z$ lielāko un mazāko iespējamo vērtību.
 * _hasSolutionConcept: VariableExpression, EquationSystem, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation, UseTrivialInequalitiesAndAddThem, UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -808,6 +832,7 @@ $C$ tādā pašā kārtībā, kādā tie sākotnēji atradās uz stienīša $A$?
 * _hasSolutionConcept: RecurrentSequence, FiniteSequenceArrangement, OptimumProofStructure
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: RecursiveSequenceForCounting, BoundPlusMatchingConstructionForOptimum
 
 </small>
 

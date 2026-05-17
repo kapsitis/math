@@ -16,6 +16,7 @@ lai blakus trijstūros ierakstītie skaitļi neatšķiras vairāk kā par $3$.
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, MagicConfiguration, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -44,6 +45,7 @@ cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, LastDigit, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: LastDigitAnalysis, NumberConstruction
 
 </small>
 
@@ -70,6 +72,7 @@ laukuma vērtība ir tāda pati kā malu skaits!
 * domain:Geom
 * _hasSolutionConcept: Polygon, LatticeGrid, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: AreaCounting
 
 </small>
 
@@ -102,6 +105,7 @@ rūtiņas var pārvietot uz kreiso augšējo rūtiņu, ja kvadrāta izmēri ir:
 * method:MTH_FixedInvariant
 * _hasSolutionConcept: ChessboardColoring, Invariant, LatticeGrid
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability, ConstructiveExampleForExistence
 
 </small>
 
@@ -137,6 +141,7 @@ Kāds ir lielākais iespējamais viesu skaits, kas bija ieradušies uz Gunas dzi
 * topic:LinearOptimization
 * _hasSolutionConcept: FiniteSet, CaseAnalysis, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -193,6 +198,7 @@ lai blakus trijstūros ierakstīties skaitļi neatšķiras vairāk kā par $4$.
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, MagicConfiguration, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -217,6 +223,7 @@ iegūst, otro skaitli pareizinot pašu ar sevi. Vai var gadīties, ka abu skait�
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, LastDigit, PerfectSquares, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: LastDigitAnalysis, NumberConstruction
 
 </small>
 
@@ -248,6 +255,7 @@ ar ko tai ir kopīga mala.
 * domain:Geom
 * _hasSolutionConcept: Tiling, AxialSymmetry, LatticeGrid, ConnectedGraph
 * _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -280,6 +288,7 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 * method:MTH_ContradictionForExistence
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -329,6 +338,7 @@ komplektu viennozīmīgi nav iespējams noteikt?
 * method:MTH_ExtremeElements
 * _hasSolutionConcept: NumberPartitions, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility, ExtremalElementArgument
 
 </small>
 
@@ -392,6 +402,7 @@ skaitļiem nebūtu vienādu ciparu?
 * topic:GraphIndependentSet
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, FiniteSequenceArrangement, PigeonholePrinciple
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic, ConstructiveExampleForExistence
 
 </small>
 
@@ -437,6 +448,7 @@ kuram vienlaicīgi izpildās šādi nosacījumi:
 * topic:NumTheoryInequalityMethod
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRules, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument, CompleteEnumeration
 
 </small>
 
@@ -484,6 +496,7 @@ rūtiņas uz blakus rūtiņu, ar ko tai ir kopīga mala.
 * topic:AxisSymmetryConstructions
 * _hasSolutionConcept: Tiling, AxialSymmetry, LatticeGrid, ConnectedGraph
 * _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -517,6 +530,7 @@ komplektu viennozīmīgi nav iespējams noteikt?
 * topic:CountingUsingSymmetry
 * _hasSolutionConcept: NumberPartitions, ExhaustiveCheck, FrobeniusType
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 
 </small>
 
@@ -577,6 +591,7 @@ Cik bizbizmārīšu sēž uz palodzes?
 * topic:Divisibility
 * _hasSolutionConcept: TruthTellersAndLiars, SelfReferentialStatements, DivisibilityRelation, CaseAnalysis
 * _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
 
 </small>
 
@@ -630,6 +645,7 @@ daļas būtu nesaīsināmas: $\frac{A}{B} + \frac{C}{D} = \frac{E}{F}$.
 * topic:RationalNumbers
 * _hasSolutionConcept: RationalNumbers, DigitRepresentation, CoprimeIntegers, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -657,6 +673,7 @@ ciparus pretējā secībā. Kāds var būt skaitlis $x$?
 * topic:DivisibilityRulesFor3And9
 * _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRelation, DivisibilityRules, LinearEquation
 * _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, DivisibilityRules, BoundingArgument, AlgebraicManipulationForInteger
 
 </small>
 
@@ -702,6 +719,7 @@ Izsaki leņķi $CGF$ ar $\alpha$ un $\beta$.
 * topic:TriangleInternalAngles
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing, TriangleAngleSum, IsoscelesTriangleProperties
 
 </small>
 
@@ -748,6 +766,7 @@ Dorotejai un Almai iedotajām naudas summām?
 * topic:SequencePeriodicity
 * _hasSolutionConcept: DivisionWithRemainder, LCM, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BruteForceCheckOverFiniteSet, NumericalEstimation
 
 </small>
 
@@ -804,6 +823,7 @@ Cik bizbizmārītes sēž uz palodzes?
 * topic:Divisibility
 * _hasSolutionConcept: TruthTellersAndLiars, SelfReferentialStatements, ConsistencyCheck, DivisibilityRelation
 * _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
 
 </small>
 
@@ -859,6 +879,7 @@ un saucēju. Vai, atkārtojot
 * topic:ProvingInequalities
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, Invariant, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, MonovariantStrictlyChangingQuantity
 
 </small>
 
@@ -890,6 +911,7 @@ Zināms, ka $12a + 9b$ dalās ar $13$. Kāds var būt skaitlis $\overline{cd}$?
 * topic:NotationPolynomial
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, MultiplesSet
 * _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger, CompleteEnumeration
 
 </small>
 
@@ -924,6 +946,7 @@ virsotnes, ir divas reizes garāka nekā augstums no tās pašas virsotnes!
 * topic:TriangleInternalAngles
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum
 * _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, TriangleAngleSum, AuxiliaryLines, AngleAtCenterAndCircumference
 
 </small>
 
@@ -969,6 +992,7 @@ kartītēm uzrakstīto skaitļu summas ir vienādas?
 * topic:DoubleCounting
 * _hasSolutionConcept: FiniteSet, SetPartition, PigeonholePrinciple, ProofByContradiction, Counterexample
 * _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, PigeonholePrincipleBasic
 
 </small>
 
@@ -1017,6 +1041,7 @@ Vai var gadīties, ka: **(A)** $S = 100$; **(B)** $S = 123$?
 * topic:ModularParity
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, ParityInvariant, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 

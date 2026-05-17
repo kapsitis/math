@@ -14,6 +14,7 @@ Daži skaitļi jau ir ierakstīti.
 * domain:Alg
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, FiniteSequenceArrangement
 * _readingDifficulty: low
+* _hasReasoningMethod: 
 
 </small>
 
@@ -39,6 +40,7 @@ atkārtoti izpildot šādas darbības, Karlsons var iegūt tieši $2022$ tortes 
 * domain:Alg
 * _hasSolutionConcept: ParityInvariant, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
 
 </small>
 
@@ -74,6 +76,7 @@ figūras var būt pagrieztas vai apgāztas otrādi.
 * domain:Geom
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid, CentralSymmetry
 * _readingDifficulty: medium
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -96,6 +99,7 @@ abi cipari arī ir pirmskaitļi. Kāda ir abu uzrakstīto skaitļu starpība?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -140,6 +144,7 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ tieši šād
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
 
 </small>
 
@@ -193,6 +198,7 @@ kilometru ir no Laines mājām līdz skolai?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearEquation
 * _readingDifficulty: low
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -219,6 +225,7 @@ iespējams, ka kādā brīdī visos četros plauktos būs vienāds skaits eklēr
 * domain:Alg
 * _hasSolutionConcept: EvenOddParity, Invariant, PositiveIntegers
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
 
 </small>
 
@@ -252,6 +259,7 @@ pagrieztas vai apgāztas otrādi.
 * domain:Geom
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, ChessboardColoring, LatticeGrid
 * _readingDifficulty: medium
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -275,6 +283,7 @@ Kāda ir abu uzrakstīto skaitļu summa?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness, DivisibilityRules
 
 </small>
 
@@ -313,6 +322,7 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ (tieši šā
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
 
 </small>
 
@@ -379,6 +389,7 @@ izpildīja Raimonds?
 * topic:FormingEquations
 * _hasSolutionConcept: DirectProportion, RationalNumbers
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -412,6 +423,7 @@ Karlsons var iegūt tieši $2000$ tortes gabalus?
 * topic:DivisibilityProperties
 * _hasSolutionConcept: DivisibilityRelation, Invariant, ProofByContradiction, DigitSum
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
 
 </small>
 
@@ -458,6 +470,7 @@ figūras nedrīkst pārklāties vai iziet ārpus taisnstūra.
 * topic:SquareGridShapes
 * _hasSolutionConcept: Tiling, DivisionWithRemainder, PositiveIntegers, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -488,6 +501,7 @@ ar $7$.
 * topic:ArithmeticSeriesDivisibility
 * _hasSolutionConcept: DivisibilityRelation, DivisionWithRemainder, CountingProductRule, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration
 
 </small>
 
@@ -533,6 +547,7 @@ monētas vērtība? Atrodi visus iespējamos variantus un pamato, ka citu nav!
 * topic:DivisibilityProperties
 * _hasSolutionConcept: NumberPartitions, CaseAnalysis, ParityInvariant, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, FixedInvariantNumeric, ContradictionForImpossibility
 
 </small>
 
@@ -586,6 +601,7 @@ attiecīgi šo taišņu krustpunkti ar $y$ asi. Aprēķināt trijstūra $ABC$ la
 * topic:TriangleAreaFromBaseAltitude
 * _hasSolutionConcept: PointLineSegmentRay, CoordinatePlane, Triangle
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -615,6 +631,7 @@ $2$ kūciņas. Vai iespējams, ka kādā brīdī uz galda bija tieši $2022$ kū
 * topic:DivisibilityProperties
 * _hasSolutionConcept: Invariant, DivisibilityRelation
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
 
 </small>
 
@@ -656,6 +673,7 @@ $F$. Pierādīt, ka $EF=FB$!
 * topic:TrianglesIsosceles
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, Angle, TriangleCongruence
 * _readingDifficulty: low
+* _hasReasoningMethod: CongruentTriangles, AngleChasing, TriangleAngleSum, AuxiliaryLines, IsoscelesTriangleProperties, ParallelogramProperties
 
 </small>
 
@@ -697,6 +715,7 @@ un pamato, ka citu nav!
 * topic:DivisibilityProperties
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PrimeNumbers, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: DiophantineEquations, PrimePropertiesAndUniqueness, AlgebraicManipulationForInteger, CompleteEnumeration
 
 </small>
 
@@ -730,6 +749,7 @@ Kāds ir $3321.$ skaitlis šajā virknē?
 * topic:RuleOfProduct
 * _hasSolutionConcept: NumberSequence, DigitRepresentation, CountingSumRule
 * _readingDifficulty: medium
+* _hasReasoningMethod: RuleOfSumDisjointCases
 
 </small>
 
@@ -771,6 +791,7 @@ sporta preču veikalā?
 * topic:LinearSystems
 * _hasSolutionConcept: FiniteSet, EquationSystem, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -810,6 +831,7 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $212$
 * topic:DivisibilityProperties
 * _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: InvariantMethod, DivisibilityRules
 
 </small>
 
@@ -850,6 +872,7 @@ $CD=AF$.
 * topic:TriangleCongruenceASA
 * _hasSolutionConcept: ParallelPerpendicular, Polygon, ParallelogramProperties, TriangleCongruence
 * _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, ParallelogramProperties, AuxiliaryLines
 
 </small>
 
@@ -890,6 +913,7 @@ aritmētisko progresiju!
 * topic:ArithmeticAndGeometricSeries
 * _hasSolutionConcept: ArithmeticProgression, VariableExpression
 * _readingDifficulty: low
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother, UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -927,6 +951,7 @@ rūtiņas ir neaizkrāsotas?
 * topic:SquareGridShapes
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: medium
+* _hasReasoningMethod: PigeonholePrinciple
 
 </small>
 

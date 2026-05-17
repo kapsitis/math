@@ -17,6 +17,7 @@ nav $0$. Atrodi visus iespējamos atrisinājumus!
 * subdomain:DOM_Cryptarithm
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration, DivisibilityRules
 
 </small>
 
@@ -65,6 +66,7 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 * concepts:sum
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, LinearEquation
 * _readingDifficulty: low
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -98,6 +100,7 @@ Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros!
 * concepts:square-Geo,triangle
 * _hasSolutionConcept: Tiling, Triangle, Polygon
 * _readingDifficulty: low
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -125,6 +128,7 @@ starpība ir
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, EvenOddParity, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -162,6 +166,7 @@ Parādi, kā to var izdarīt, ja
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, Rotation, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: 
 
 </small>
 
@@ -186,6 +191,7 @@ $$a \cdot b \cdot(a+b)=20102011?$$
 * concepts:equation
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument
 
 </small>
 
@@ -211,6 +217,7 @@ kungiem. Cik starp šiem pensionāriem ir kungu un cik - kundžu?
 * domain:Comb
 * _hasSolutionConcept: EquationSystem, DivisibilityRelation, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -238,6 +245,7 @@ atrast nevienu pilnībā baltu taisnstūri ar izmēriem $1 \times 3$ rūtiņas
 * domain:Geom
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant
 
 </small>
 
@@ -276,6 +284,7 @@ Vai, vairākkārt veicot šādus gājienus, var iegūt tabulu, kāda attēlota 4
 * domain:Alg
 * _hasSolutionConcept: WholeIntegers, EvenOddParity, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -304,6 +313,7 @@ vienāds konfekšu skaits. Cik konfekšu sākumā bija katrai no māsām?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, VariableExpression, LinearEquation
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -346,6 +356,7 @@ Atrodi visus šos skaitļus!
 * concepts:primes
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, LastDigit, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration, LastDigitAnalysis, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -401,6 +412,7 @@ pilsētā $B$ ierasties vienlaicīgi ar to, ja sarkanās automašīnas ātrums b
 * subdomain:DOM_WordProblems
 * _hasSolutionConcept: DirectProportion, LinearEquation, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ExpressOneUnknownThroughAnother
 
 </small>
 
@@ -438,6 +450,7 @@ dalot ar $2011$, atlikumā iegūst $3$.
 * concepts:remainder
 * _hasSolutionConcept: PositiveIntegers, DivisionWithRemainder
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -460,6 +473,7 @@ kā to var izdarīt!
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, PositiveIntegers, Rectangle, Square
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -484,6 +498,7 @@ vienas krāsas punktus, starp kuriem attālums centimetros ir vesels skaitlis.
 * subdomain:DOM_ObjectSystemsGeometry
 * _hasSolutionConcept: PigeonholePrinciple, Coloring, FiniteSet, PointLineSegmentRay
 * _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrinciple
 
 </small>
 
@@ -514,6 +529,7 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("+", "-", " $\cdot$ "
 * subdomain:DOM_ExpressionBuilding
 * _hasSolutionConcept: WholeIntegers, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -537,6 +553,7 @@ $MK,\ ML,\ MP$ un $MR$ viduspunkti, ir kvadrāts.
 * subdomain:DOM_Quadrilaterals
 * _hasSolutionConcept: PointLineSegmentRay, QuadrilateralFamilies, CentralSymmetry, ParallelPerpendicular
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParallelogramProperties, ParallelLinesAngleProperties
 
 </small>
 
@@ -566,6 +583,7 @@ vienādas. Nosaki visas iespējamās šo summu vērtības.
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -609,6 +627,7 @@ dalās ar **(A)** $17$; **(B)** $23$?
 * concepts:divisibility
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, PrimeNumbers, Counterexample
 * _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, NumberConstruction
 
 </small>
 
@@ -655,6 +674,7 @@ spēlētājiem, pareizi spēlējot, uzvarēs? Apraksti, kā uzvarētājam jārī
 * subdomain:DOM_NumericGamesAndAlgorithms
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, GamePosition, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: GameInvariantsInNT, LastDigitAnalysis
 
 </small>
 
@@ -689,6 +709,7 @@ $$\frac{1}{x^{2}+24}+\frac{1}{y^{2}+24}=\frac{2}{xy+24}$$
 * subdomain:DOM_IntegerEquations
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, EquationSystem
 * _readingDifficulty: low
+* _hasReasoningMethod: DiophantineEquations, FactoringAlgebraicExpressions, CompleteEnumeration
 
 </small>
 
@@ -734,6 +755,7 @@ $\sphericalangle BAC=\sphericalangle BMN$.
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle, ParallelPerpendicular
 * _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, AngleAtCenterAndCircumference, ParallelLinesAngleProperties
 
 </small>
 
@@ -766,6 +788,7 @@ racionāla sakne?
 * subdomain:DOM_Equations
 * _hasSolutionConcept: QuadraticEquation, RationalNumbers, VariableExpression, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -793,6 +816,7 @@ ka katrs no tiem ir izsakāms kā divu naturālu skaitļu kvadrātu starpība?
 * subdomain:DOM_IntegerEquations
 * _hasSolutionConcept: PositiveIntegers, DiffOfSquaresFactoring, EvenOddParity, DivisibilityRelation
 * _readingDifficulty: medium
+* _hasReasoningMethod: FactoringAlgebraicExpressions, ParityArgument, NumberConstruction
 
 </small>
 
@@ -825,6 +849,7 @@ nevar, izpildot tikai atļautos gājienus?
 * subdomain:DOM_MakingMoves
 * _hasSolutionConcept: LatticeGrid, Coloring, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: ColoringInvariant
 
 </small>
 

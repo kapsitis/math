@@ -9,6 +9,7 @@ un 24:00 ieskaitīt vienu reizi.) Atbildi pamatot!
 * domain:Alg
 * _hasSolutionConcept: PeriodicSequence, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, NumericalEstimation
 
 </small>
 
@@ -39,6 +40,7 @@ zemāk par $1.$ stāvu.)
 * domain:Comb
 * _hasSolutionConcept: LinearDiophantine, GCD, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -71,6 +73,7 @@ būtu viena un tā pati.
 * domain:Alg
 * _hasSolutionConcept: MagicConfiguration, DigitRepresentation, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: BruteForceCheckOverFiniteSet
 
 </small>
 
@@ -103,6 +106,7 @@ Figūras nedrīkst pārklāties un katra veida figūra jāizmanto vismaz vienu r
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, PlaneTransformation
 * _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -126,6 +130,7 @@ krāsā. Atbildi pamatot!
 * domain:Comb
 * _hasSolutionConcept: Coloring, GraphConcept, BipartiteGraph, Counterexample
 * _readingDifficulty: high
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -161,6 +166,7 @@ iegūts viens un tas pats skaitlis. Kāds tas ir?
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -194,6 +200,7 @@ kuriem dalās ar $3$ un kuru
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitSum, DigitProduct, DigitRepresentation, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: DivisibilityRules, NumberConstruction
 
 </small>
 
@@ -222,6 +229,7 @@ būt pagrieztas vai apgrieztas otrādi).
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, PlaneTransformation
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, SymmetryStrategy
 
 </small>
 
@@ -243,6 +251,7 @@ reizinājumi abās grupās ir vienādi?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, SetPartition
 * _readingDifficulty: low
+* _hasReasoningMethod: PrimeFactorization, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -271,6 +280,7 @@ panākt savu uzvaru?
 * domain:Comb
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
 * _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
 
 </small>
 
@@ -301,6 +311,7 @@ skaitli ar tā ciparu reizinājumu, dalījums ir vismaz $\frac{11}{9}$.
 * subdomain:DOM_NumeralSystems
 * _hasSolutionConcept: DigitRepresentation, DigitProduct, OptimumProofStructure, RationalNumbers
 * _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, BoundingArgument
 
 </small>
 
@@ -338,6 +349,7 @@ izveidot trijstūri (katra trijstūra mala ir viens vesels nogrieznis)?
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, TriangleInequality, UnorderedSelection, FiniteSet
 * _readingDifficulty: low
+* _hasReasoningMethod: TriangleInequality, CaseAnalysis
 
 </small>
 
@@ -370,6 +382,7 @@ kvadrāts ir skaitļa reizinājums pašam ar sevi.)
 * subdomain:DOM_DigitManipulation
 * _hasSolutionConcept: PerfectSquares, PrimeFactorization, DivisibilityRules, DigitSum, DivisibilityRelation, DigitRepresentation
 * _readingDifficulty: medium
+* _hasReasoningMethod: PrimeFactorization, DivisibilityRules, SumOfArithmeticOrTriangularNumbers, PositionalNotation
 
 </small>
 
@@ -420,6 +433,7 @@ figūru (tā var būt pagriezta vai apgāzta otrādi)?
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Tiling, Coloring, Invariant, LatticeGrid
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -447,6 +461,7 @@ panākt savu uzvaru?
 * subdomain:DOM_CombinatorialGames
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
 * _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
 
 </small>
 
@@ -475,6 +490,7 @@ to pirmo ciparu, samazinās $36$ reizes.
 * subdomain:DOM_DigitManipulation
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DivisibilityRelation
 * _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, PrimeFactorization, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -517,6 +533,7 @@ perimetra.
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, TriangleInequality
 * _readingDifficulty: low
+* _hasReasoningMethod: TriangleInequality
 
 </small>
 
@@ -542,6 +559,7 @@ ka $t \geq 4 a$.
 * subdomain:DOM_ParametrizedEquations
 * _hasSolutionConcept: IrrationalAndReals, QuadraticEquation, VariableExpression
 * _readingDifficulty: low
+* _hasReasoningMethod: SubstitutionForSimplification
 
 </small>
 
@@ -565,6 +583,7 @@ daudzstūros?
 * subdomain:DOM_CuttingCoversColoring
 * _hasSolutionConcept: Polygon, DissectionIntoCongruent
 * _readingDifficulty: low
+* _hasReasoningMethod: 
 
 </small>
 
@@ -596,6 +615,7 @@ $x_{1} \geq x_{2} \geq x_{3} \geq x_{4}$ ).
 * subdomain:DOM_Logic
 * _hasSolutionConcept: FiniteSequenceArrangement, CaseAnalysis, DecisionTree
 * _readingDifficulty: high
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
 
 </small>
 
@@ -629,6 +649,7 @@ sadalīt piecos vienlielos trijstūros.
 * subdomain:DOM_Quadrilaterals,DOM_CuttingCoversColoring
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, AreaCounting
 
 </small>
 
@@ -656,6 +677,7 @@ vienā krāsā un atrodas vienādsānu taisnleņķa trijstūra virsotnēs.
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Coloring, LatticeGrid, Triangle, PigeonholePrinciple, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis, PigeonholePrinciple
 
 </small>
 
@@ -690,6 +712,7 @@ ciparus.
 * subdomain:DOM_NumeralSystems
 * _hasSolutionConcept: DigitRepresentation, DigitSum, CountingProductRule
 * _readingDifficulty: low
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
 
 </small>
 
@@ -720,6 +743,7 @@ $x_{n+1}=x_{n}+\frac{2}{x_{n}}$ visiem $n \geq 0$. Pierādīt, ka $x_{100}>20$.
 * subdomain:DOM_RealSequences
 * _hasSolutionConcept: NumberSequence, RecurrentSequence, Invariant, PerfectSquares
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation, SubstitutionForSimplification, UseStandardIdentities
 
 </small>
 
@@ -751,6 +775,7 @@ malas. Pierādīt, ka šie riņķi pilnībā pārklāj doto četrstūri.
 * subdomain:DOM_Quadrilaterals
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk, Triangle, TriangleSpecialLines
 * _readingDifficulty: low
+* _hasReasoningMethod: AuxiliaryLines, AngleAtCenterAndCircumference
 
 </small>
 

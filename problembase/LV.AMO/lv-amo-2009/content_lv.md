@@ -11,6 +11,7 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 * domain:Comb
 * _hasSolutionConcept: GraphConcept, DirectedGraph, OptimumProofStructure
 * _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -41,6 +42,7 @@ izdarīt?
 * domain:NT,Comb
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, DivisibilityRelation
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -65,6 +67,7 @@ tieši $6$ balti kaimiņi?
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, Coloring, FiniteSet, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -93,6 +96,7 @@ malas garums ir $1$.)
 * domain:Geom
 * _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, ParityInvariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParityInvariant
 
 </small>
 
@@ -127,6 +131,7 @@ Kāda daļa no $B$ atbalstītājiem ir meļi?
 * domain:Alg
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ArithmeticMean
 * _readingDifficulty: medium
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays, IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -152,6 +157,7 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, CaseAnalysis
 * _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, NumberConstruction, DivisibilityRules
 
 </small>
 
@@ -179,6 +185,7 @@ skaitlisko vērtību. Kādu rezultātu viņa ieguva?
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrincipleBasic
 
 </small>
 
@@ -203,6 +210,7 @@ reizinājumu var būt **(A)** $12$, **(B)** $18$?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, Invariant, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundingArgument, NumberConstruction
 
 </small>
 
@@ -234,6 +242,7 @@ $6$ nedrīkst izmantot, lai attēlotu ciparu $9$, un otrādi.)
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, PigeonholePrincipleBasic
 
 </small>
 
@@ -271,6 +280,7 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, EvenOddParity, DivisibilityRelation, Counterexample, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant
 
 </small>
 
@@ -302,6 +312,7 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 * _hasSolutionConcept: PrimeFactorization, DivisibilityRelation, DigitRepresentation, LastDigit
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: PrimeFactorization, DivisibilityRules, CompleteEnumeration
 
 </small>
 
@@ -330,6 +341,7 @@ tikai tas, ka tie atrodas trijstūra $T$ iekšpusē.
 * _hasSolutionConcept: Triangle, TriangleInequality, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis, AuxiliaryLines, AngleChasing
 
 </small>
 
@@ -376,6 +388,7 @@ Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, Permutation, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: NT,Comb
+* _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness, SumOfArithmeticOrTriangularNumbers
 
 </small>
 
@@ -420,6 +433,7 @@ atrodas ārpus $\triangle ABC$. Pierādīt, ka $AN=CM$.
 * _hasSolutionConcept: Triangle, TriangleCongruence, Angle
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
 
 </small>
 
@@ -449,6 +463,7 @@ pavisam ir rūķīšu? (Dālderis ir vienīgā rūķīšiem pieejamā naudas vie
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, Invariant
 * _readingDifficulty: high
 * _domain: NT
+* _hasReasoningMethod: InvariantMethod, PrimePropertiesAndUniqueness, NumberConstruction
 
 </small>
 
@@ -482,6 +497,7 @@ gadīties, ka
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, ExistenceVsUniversal, Counterexample
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: VietasFormulas
 
 </small>
 
@@ -509,6 +525,7 @@ turnīra noslēgumā ir visvairāk punktu.)
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, RationalNumbers
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, AveragingArgumentForExistenceOfElement, ConstructiveExampleForExistence
 
 </small>
 
@@ -537,6 +554,7 @@ bisektrise.
 * _hasSolutionConcept: PointLineSegmentRay, Angle, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, AuxiliaryLines, ParallelLinesAngleProperties, IsoscelesTriangleProperties
 
 </small>
 
@@ -573,6 +591,7 @@ Cipariņam un cik - viņa kolēgim? (Visus vecumus izsaka veselos gados.)
 * _hasSolutionConcept: PrimeFactorization, EquationSystem, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: high
 * _domain: NT
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility
 
 </small>
 
@@ -614,6 +633,7 @@ vietā uz riņķa līnijas atrastos blakus (vienalga kādā secībā).
 * _hasSolutionConcept: FiniteSequenceArrangement, OrderedPair, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
 
 </small>
 
@@ -646,6 +666,7 @@ grafiki?
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, FunctionComposition, CoordinatePlane
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: ParameterizedInvariantValue, UseFunctionGraphForRootsAndComparisons
 
 </small>
 
@@ -668,6 +689,7 @@ $a+b+c=0$.
 * _hasSolutionConcept: PositiveAndNegative, AbsoluteValue, SquareOfSumIdentity
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, UseTrivialInequalitiesAndAddThem
 
 </small>
 
@@ -701,6 +723,7 @@ paralēls $t$ arī tad, ja tas atrodas uz $t$)
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, Translation, Invariant, ExistenceVsUniversal
 * _readingDifficulty: high
 * _domain: Geom
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -729,6 +752,7 @@ ar $d(n)$.
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PrimeNumbers, PrimeFactorization
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: NumberOfDivisors, NumberConstruction, BoundingArgument
 
 </small>
 
@@ -763,6 +787,7 @@ citādi), un mainīt krāsu uz pretējo visās šīs figūras rūtiņās. Vai, a
 * _hasSolutionConcept: Coloring, ChessboardColoring, LatticeGrid, Invariant
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 

@@ -15,6 +15,7 @@ pirmais cipars par $1$ mazāks nekā visu citu ciparu summa.
 * topic:DecimalNotationDigits
 * _hasSolutionConcept: DigitRepresentation, DigitSum, PositiveIntegers, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundingArgument, NumberConstruction
 
 </small>
 
@@ -44,6 +45,7 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * method:MTH_ExhaustiveAlgorithms
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
 
 </small>
 
@@ -78,6 +80,7 @@ mazākais iespējamais).
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -106,6 +109,7 @@ ne ar vienu citu naturālu skaitli kā $1$?
 * subdomain:DOM_CombinatorialStructures
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, EvenOddParity, ChessboardColoring
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction, ParityArgument
 
 </small>
 
@@ -134,6 +138,7 @@ to var panākt, ja sākotnējie lodīšu daudzumi ir $10,\ 12$ un $15$?
 * subdomain:DOM_CombinatorialAlgorithms
 * _hasSolutionConcept: FiniteSet, StateSpaceProcess, Invariant, EvenOddParity
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -164,6 +169,7 @@ pulkst. $12^{00}$ abi pulksteņi atkal rādīs pareizu laiku?
 * topic:GcdAndLcm
 * _hasSolutionConcept: LCM, DivisibilityRelation, PositiveIntegers
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -192,6 +198,7 @@ otrā. Vai to var izdarīt, ja **(A)** $n=5$, **(B)** $n=7$?
 * topic:RemaindersInCombinatorics
 * _hasSolutionConcept: Tiling, ChessboardColoring, ParityInvariant, ProofByContradiction
 * _readingDifficulty: high
+* _hasReasoningMethod: ColoringInvariant, ProofByContradiction, ParityInvariant
 
 </small>
 
@@ -224,6 +231,7 @@ pēdējo, būtu vienāds ar savu abu kaimiņu summu vai starpību?
 * method:MTH_ExhaustiveAlgorithms
 * _hasSolutionConcept: FiniteSequenceArrangement, FiniteSet, CaseAnalysis, EvenOddParity
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -251,6 +259,7 @@ un cik punktus viņi ieguva?
 * subdomain:DOM_Graphs
 * _hasSolutionConcept: RationalNumbers, GraphConcept, FiniteSet, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, AveragingArgumentForExistenceOfElement, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
 
 </small>
 
@@ -304,6 +313,7 @@ svēršanām var noteikt katra atsvara masu?
 * method:MTH_ExhaustiveAlgorithms
 * _hasSolutionConcept: CaseAnalysis, EvenOddParity, DecisionTree
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases, FixedInvariantNumeric
 
 </small>
 
@@ -337,6 +347,7 @@ Dots, ka $|x+y|+|x-y|=10$. Kāda ir lielākā iespējamā $x$ vērtība?
 * topic:CaseAnalysis
 * _hasSolutionConcept: PositiveAndNegative, VariableExpression, OptimumProofStructure
 * _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, ProofByContradictionInAlgebra, NumericalEstimation
 
 </small>
 
@@ -366,6 +377,7 @@ kā minēts iepriekš?
 * topic:CuttingShapesSpecial
 * _hasSolutionConcept: PointLineSegmentRay, Polygon, Invariant, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: CountingByDoubleCounting, ProofByContradiction
 
 </small>
 
@@ -404,6 +416,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 * topic:GamesSymmetry
 * _hasSolutionConcept: DivisibilityRelation, GamePosition, WinningLosingPositions
 * _readingDifficulty: medium
+* _hasReasoningMethod: GameInvariantsInNT, CompleteEnumeration
 
 </small>
 
@@ -435,6 +448,7 @@ Pierādiet, ka $EE_{1} \perp BC$.
 * topic:TrianglesIsosceles
 * _hasSolutionConcept: Polygon, Triangle, TriangleSpecialLines, ParallelPerpendicular, TriangleCongruence
 * _readingDifficulty: medium
+* _hasReasoningMethod: IsoscelesTriangleProperties
 
 </small>
 
@@ -463,6 +477,7 @@ var būt $0$, ja **(A)** $n=8$, **(B)** $n=9$?
 * subdomain:DOM_CombinatorialAlgorithms
 * _hasSolutionConcept: PositiveIntegers, ParityInvariant, DiffOfSquaresFactoring, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -500,6 +515,7 @@ $x_{0},\ x_{1},\ x_{2}$ un $x_{3}$, nelietojot kvadrātsaknes zīmi.
 * topic:VietaFormulas
 * _hasSolutionConcept: QuadraticEquation, PolynomialAndRoots, VietasFormulas, ArithmeticMean
 * _readingDifficulty: medium
+* _hasReasoningMethod: VietasFormulas, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -531,6 +547,7 @@ vajadzēja iegūt. Kādu sešciparu skaitli Andris uzrakstīja?
 * topic:NotationShift
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, LinearEquation
 * _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, DiophantineEquations, BoundingArgument, CompleteEnumeration
 
 </small>
 
@@ -560,6 +577,7 @@ dalītājs būtu $1$?
 * topic:GcdAndLcm
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, GCD, NumberPartitions, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundingArgument, PrimePropertiesAndUniqueness, NumberConstruction
 
 </small>
 
@@ -592,6 +610,7 @@ kopgarumu. (Tika novilktas **tikai** līnijas, kas dala kvadrātus taisnstūros.
 * topic:PolygonPerimeter
 * _hasSolutionConcept: Tiling, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: CountingByDoubleCounting
 
 </small>
 
@@ -621,6 +640,7 @@ Vai tas iespējams, ja **(A)** $n=3$, **(B)** $n=4$, **(C)** $n=2003$?
 * topic:StandardIdentities
 * _hasSolutionConcept: PositiveIntegers, SetPartition, PerfectSquares, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction, AlgebraicManipulationForInteger
 
 </small>
 
@@ -650,6 +670,7 @@ divas dažādas saknes.
 * domain:Alg
 * _hasSolutionConcept: QuadraticEquation, PositiveAndNegative, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -674,6 +695,7 @@ $8$?
 * topic:DoubleCounting
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, FiniteSequenceArrangement, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation, CountTheSameQuantityInTwoWays
 
 </small>
 
@@ -706,6 +728,7 @@ $\left(p_{1}-1\right)\left(p_{2}-1\right) \ldots \left(p_{n}-1\right)$.
 * topic:DivisibilityProperties
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, EvenOddParity
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument, CompleteEnumeration, AlgebraicManipulationForInteger, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -741,6 +764,7 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 * topic:BisectorDividingArcInTwo,TriangleCongruence
 * _hasSolutionConcept: Triangle, CircleAndDisk, TriangleSpecialLines, TriangleCongruence, Angle
 * _readingDifficulty: medium
+* _hasReasoningMethod: PointOnSegmentConstruction, CongruentTriangles, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
 
 </small>
 
@@ -777,6 +801,7 @@ Kurš uzvar, pareizi spēlējot, ja **(A)** $k=8$, **(B)** $k=64$?
 * topic:GameInvariant
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, Invariant, PerfectSquares
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 

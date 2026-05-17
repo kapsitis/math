@@ -15,6 +15,7 @@ cipari $0$ un $2$ un kurš dalās ar $15$?
 * topic:DecimalNotationDigits
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum
 * _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument
 
 </small>
 
@@ -48,6 +49,7 @@ rūtiņu malu, kas pilnībā atrodas uz robežas, skaits.
 * topic:Area
 * _hasSolutionConcept: Polygon, FiniteSet, LatticeGrid
 * _readingDifficulty: medium
+* _hasReasoningMethod: 
 
 </small>
 
@@ -77,6 +79,7 @@ septītdaļa – pensionāri. Cik biļetes tika pārdotas?
 * topic:ArithmeticSeriesDivisibility
 * _hasSolutionConcept: DivisibilityRelation, LCM, RationalNumbers
 * _readingDifficulty: medium
+* _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument
 
 </small>
 
@@ -106,6 +109,7 @@ līdzsvarā? Atbildi pamatot!
 * topic:SystemsSubstituteVariables
 * _hasSolutionConcept: EquationSystem, VariableExpression, PositiveIntegers
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother
 
 </small>
 
@@ -149,6 +153,7 @@ Kāda krāsa patīk katrai meitenei? Atbildi pamatot!
 * topic:PartitioningInPairsBijections
 * _hasSolutionConcept: SelfReferentialStatements, CaseAnalysis, ConsistencyCheck
 * _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility
 
 </small>
 
@@ -187,6 +192,8 @@ Cik ir tādu skaitļu, kas ir apvilkti ar vismaz divām dažādām krāsām?
 * topic:MutualPrimes
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, MultiplesSet, InclusionExclusion
 * _readingDifficulty: medium
+* _hasReasoningMethod: CoprimeFactorsDivisibility
+* _newReasoningMethodLabel: InclusionExclusionCounting
 
 </small>
 
@@ -239,6 +246,7 @@ Figūras var būt arī pagrieztas.
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid, Rotation
 * _readingDifficulty: low
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -269,6 +277,7 @@ Vai var gadīties, ka Māris ieguva summu, kuras pēdējais cipars ir
 * topic:SeriesOneToNSum
 * _hasSolutionConcept: PositiveIntegers, LastDigit, NumberSequence, PeriodicSequence
 * _readingDifficulty: low
+* _hasReasoningMethod: LastDigitAnalysis, PeriodicSequence, NumberConstruction
 
 </small>
 
@@ -341,6 +350,7 @@ līdzsvarā? Atbildi pamatot!
 * topic:SystemsSubstituteVariables
 * _hasSolutionConcept: LinearEquation, EquationSystem, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -385,6 +395,7 @@ sestdiena – $56$, svētdiena – $57$. Cik ciema iedzīvotāji visu laiku melo
 * topic:DoubleCounting
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, WholeIntegers
 * _readingDifficulty: medium
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
 
 </small>
 
@@ -428,6 +439,7 @@ Cik dažādos veidos to var izdarīt?
 * topic:DivisibilityRulesFor3And9
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, CaseAnalysis
 * _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
 
 </small>
 
@@ -472,6 +484,7 @@ Vai var atrast **(A)** $5$; **(B)** $15$ naturālus skaitļus
 * topic:EquationsAndMonotonicity
 * _hasSolutionConcept: PositiveIntegers, NumberPartitions, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -503,6 +516,7 @@ lai uz katras no taisnēm būtu atzīmēti tieši trīs punkti!
 * topic:CountingPointsSegmentsAndOthers
 * _hasSolutionConcept: PointLineSegmentRay, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -537,6 +551,7 @@ ja sākumā kaudzē ir **(A)** $6$ konfektes;
 * topic:GameInvariant
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, SymmetryStrategy, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: GameInvariantsInNT, InvariantMethod
 
 </small>
 
@@ -582,6 +597,7 @@ Cik ciema iedzīvotāju visu laiku melo?
 * topic:DoubleCounting
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, FiniteSet, LinearEquation
 * _readingDifficulty: medium
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
 
 </small>
 
@@ -623,6 +639,7 @@ Cik dažādos veidos to var izdarīt?
 * topic:DivisibilityRulesFor3And9
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
 
 </small>
 
@@ -671,6 +688,7 @@ ja kopā viņš ieguva $13$ punktus?
 * method:MTH_ExhaustiveAlgorithms
 * _hasSolutionConcept: LinearEquation, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, DiophantineEquations, ParityArgument, BoundingArgument
 
 </small>
 
@@ -719,6 +737,7 @@ ka $AD = BD$ un $AB = DC = AC$. Aprēķināt trijstūra $ABC$ leņķus!
 * topic:TriangleAngles,TrianglesIsosceles
 * _hasSolutionConcept: Triangle, TriangleCongruence, TriangleAngleSum
 * _readingDifficulty: medium
+* _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
 
 </small>
 
@@ -772,6 +791,7 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 * topic:HamiltonCircuits
 * _hasSolutionConcept: FiniteSequenceArrangement, Invariant, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -816,6 +836,7 @@ Cik draugu saka taisnību?
 * topic:TrueAndFalseStatements
 * _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, SelfReferentialStatements, ConsistencyCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -849,6 +870,7 @@ var atbilst arī vienādi cipari.)
 * topic:DivisibilityRulesFor3And9
 * _hasSolutionConcept: PalindromeNumbers, DivisibilityRules, DigitSum, DigitRepresentation
 * _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
 
 </small>
 
@@ -889,6 +911,7 @@ Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(A)** $x > y > 0$, **(B)*
 * topic:AddingOrMultiplyingInequalities
 * _hasSolutionConcept: RationalNumbers, VariableExpression, Counterexample, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, FactorAndUseZeroProductRule, CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -933,6 +956,7 @@ Pierādīt, ka taisne $CH$ dala nogriezni $BK$ divās vienādās daļās!
 * topic:TrianglesIsosceles
 * _hasSolutionConcept: Triangle, TriangleAngleSum, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
 
 </small>
 
@@ -981,6 +1005,7 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 * topic:HamiltonCircuits
 * _hasSolutionConcept: FiniteSequenceArrangement, Invariant, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -1041,6 +1066,7 @@ Vai muzeja vadītājs var izveidot šādu maršrutu?
 * topic:GraphColoredVertices
 * _hasSolutionConcept: HamiltonianPath, ChessboardColoring, ProofByContradiction, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, ColoringArgumentForCoverageOrUnreachability, ConstructiveExampleForExistence
 
 </small>
 

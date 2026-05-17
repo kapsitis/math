@@ -15,6 +15,8 @@ perimetrs?
 * domain:Geom
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, DirectProportion, RationalNumbers
 * _readingDifficulty: low
+* _hasReasoningMethod: ParallelogramProperties
+* _newReasoningMethodLabel: AreaAsSquareOfSide
 
 </small>
 
@@ -50,6 +52,7 @@ pirmais vai otrais - vienmēr var uzvarēt?
 * domain:Comb
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, Invariant, WinningLosingPositions
 * _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
 
 </small>
 
@@ -78,6 +81,7 @@ kopā būtu tieši $6$ krustpunkti?
 * domain:Comb,Geom
 * _hasSolutionConcept: PointLineSegmentRay, FiniteSet, GraphConcept, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -100,6 +104,7 @@ Pamato, ka tas ir mazākais iespējamais skaits!
 * domain:Comb
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -130,6 +135,7 @@ visi tādi skaitļi un citu vairs nav!
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, DigitRepresentation, DivisibilityRelation, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: PrimeFactorization, PositionalNotation, CompleteEnumeration
 
 </small>
 
@@ -162,6 +168,7 @@ $$\frac{16}{17}; \frac{441}{439}; \frac{11}{12}; \frac{391}{389}; \frac{21}{23}$
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, TotalOrder
 * _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -212,6 +219,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 * domain:Comb
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
 
 </small>
 
@@ -245,6 +253,7 @@ plkst. 14:00; **(B)** plkst. 13:40?
 * domain:Geom
 * _hasSolutionConcept: Angle, Rotation
 * _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing
 
 </small>
 
@@ -281,6 +290,7 @@ apgāztas otrādi.
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -304,6 +314,7 @@ naturālie skaitļi no $1$ līdz $99$) dalās ar $9$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitSum, DigitRepresentation
 * _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, CountingWithDigitalConstraints
 
 </small>
 
@@ -339,6 +350,7 @@ pozitīvs, negatīvs skaitlis vai nulle!
 * topic:LinearFunctions
 * _hasSolutionConcept: LinearFunction, LinearInequality, ParallelPerpendicular
 * _readingDifficulty: low
+* _hasReasoningMethod: UseFunctionGraphForRootsAndComparisons
 
 </small>
 
@@ -367,6 +379,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 * topic:GamesSymmetry
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, SymmetryStrategy
 * _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
 
 </small>
 
@@ -406,6 +419,7 @@ mazāki nekā $180^{\circ}$.
 * topic:TriangleAngleBisector
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
+* _hasReasoningMethod: PointOnSegmentConstruction, IsoscelesTriangleProperties, PerpendicularBisector, AuxiliaryLines
 
 </small>
 
@@ -436,6 +450,7 @@ no vienādiem regulāriem trijstūriem. Uzzīmē šādu piecstūri!
 * topic:PolygonsInLattices
 * _hasSolutionConcept: Polygon, Triangle, DissectionIntoCongruent, Tiling
 * _readingDifficulty: medium
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -468,6 +483,7 @@ ciparu)?
 * topic:DivisibilityRulesLastDigits
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, DivisibilityRelation, PrimeFactorization, OptimumProofStructure
 * _readingDifficulty: high
+* _hasReasoningMethod: PrimeFactorization, LastDigitAnalysis, DivisibilityRules, NumberConstruction
 
 </small>
 
@@ -526,6 +542,7 @@ malējiem stabiem. Cik bija stabu, ja viņš nostaigāja $840~\mathrm{m}$?
 * topic:QuadraticEquationRootConditions
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ArithmeticProgression, QuadraticEquation, ExhaustiveCheck
 * _readingDifficulty: high
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -591,6 +608,7 @@ uzvarēt?
 * topic:GamesSymmetry
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
 * _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames
 
 </small>
 
@@ -623,6 +641,7 @@ $DE$ ir perpendikulārs $AF$.
 * topic:Parallelograms
 * _hasSolutionConcept: ParallelogramProperties, TriangleSpecialLines, ParallelPerpendicular, TriangleCongruence
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParallelLinesAngleProperties, IsoscelesTriangleProperties, ParallelogramProperties
 
 </small>
 
@@ -658,6 +677,7 @@ naturāla skaitļa kubs. Kādām $m$ vērtībām tas ir iespējams?
 * topic:HandshakingLemma
 * _hasSolutionConcept: GraphConcept, VertexDegree, PerfectCubes, EvenOddParity, HandshakeLemma
 * _readingDifficulty: high
+* _hasReasoningMethod: ConstructiveExampleForExistence, HandshakingLemmaSumOfDegreesEven, ContradictionForImpossibility
 
 </small>
 
@@ -707,6 +727,7 @@ nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 * topic:DivisibilityRulesFor5And25
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PrimeFactorization, LastDigit, OptimumProofStructure
 * _readingDifficulty: high
+* _hasReasoningMethod: PrimeFactorization, LastDigitAnalysis, DivisibilityRules, BoundingArgument, NumberConstruction
 
 </small>
 
@@ -761,6 +782,7 @@ slīpas taisnes. Cik paralelogramu izveido šīs taisnes?
 * topic:RuleOfSum
 * _hasSolutionConcept: ParallelogramProperties, ParallelPerpendicular, UnorderedSelection, CountingProductRule
 * _readingDifficulty: medium
+* _hasReasoningMethod: RuleOfSumDisjointCases, RuleOfProductIndependentChoices
 
 </small>
 
@@ -805,6 +827,7 @@ otrais - vienmēr var uzvarēt?
 * topic:GamesSymmetry
 * _hasSolutionConcept: Coloring, SymmetryStrategy, Invariant, GamePosition
 * _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
 
 </small>
 
@@ -844,6 +867,7 @@ $QNBC$ ir rombs!
 * topic:TrianglesRight
 * _hasSolutionConcept: Triangle, QuadrilateralFamilies, TriangleCongruence, ParallelogramProperties, TriangleSpecialLines
 * _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, ParallelLinesAngleProperties, ParallelogramProperties, AuxiliaryLines
 
 </small>
 
@@ -899,6 +923,7 @@ būtu par $500290$ lielāks nekā sākotnējais. Atrast doto sešciparu skaitli!
 * topic:NotationPolynomial
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, Invariant, LinearEquation
 * _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger, InvariantMethod
 
 </small>
 
@@ -952,6 +977,7 @@ $$(\sqrt{2020}-2 \sqrt{2019}+\sqrt{2018})(\sqrt{2020}+\sqrt{2019})(\sqrt{2019}+\
 * topic:VietaFormulas
 * _hasSolutionConcept: QuadraticEquation, IrrationalAndReals, DiffOfSquaresFactoring, SquareOfSumIdentity, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 

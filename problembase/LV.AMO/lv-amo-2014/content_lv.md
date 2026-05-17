@@ -16,6 +16,7 @@ dzeltenas, bet pārējās- zilas. Aprēķini:
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, FiniteSet, Coloring, DirectProportion
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -43,6 +44,7 @@ gadīties, ka viens skaitlis ir tieši trīs reizes lielāks nekā otrs skaitlis
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit
 * _readingDifficulty: low
+* _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration
 
 </small>
 
@@ -73,6 +75,7 @@ nekā otra mala.
 * concepts:rectangle,area,perimeter
 * _hasSolutionConcept: Rectangle, PositiveIntegers, LinearEquation, EquationSystem
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, CaseAnalysis
 
 </small>
 
@@ -115,6 +118,7 @@ būt pagrieztas jebkurā stāvoklī)?
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -140,6 +144,7 @@ trīs, gan kā divu dažādu divciparu naturālu skaitļu reizinājumu?
 * concepts:product
 * _hasSolutionConcept: DivisibilityRelation, PositiveIntegers, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: low
+* _hasReasoningMethod: BoundingArgument, NumberConstruction
 
 </small>
 
@@ -173,6 +178,7 @@ pašai palika $1$ metrs makšķerauklas. Cik gara bija makšķeraukla pašā sā
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearEquation
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -198,6 +204,7 @@ reizinājumi abās grupās ir vienādi?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, SetPartition
 * _readingDifficulty: medium
+* _hasReasoningMethod: PrimePropertiesAndUniqueness, PrimeFactorization, ProofByContradiction
 
 </small>
 
@@ -226,6 +233,7 @@ Atbildi pamatot!
 * domain:Alg
 * _hasSolutionConcept: VariableExpression, LinearEquation, LinearInequality
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
 
 </small>
 
@@ -255,6 +263,7 @@ Aprēķināt iekšējā taisnstūra perimetru!
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, Polygon, QuadrilateralFamilies, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -285,6 +294,7 @@ iespējamais!
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -313,6 +323,7 @@ garums, ja $ED=4~\mathrm{cm}$ un $DC=5~\mathrm{cm}$ ?
 * topic:TriangleSides
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis, ProofByContradiction
 
 </small>
 
@@ -357,6 +368,7 @@ $$a \cdot(3a+5b) \cdot 7b=7654321$$?
 * method:MTH_ContradictionForExistence
 * _hasSolutionConcept: WholeIntegers, EvenOddParity, ProofByContradiction
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument, ProofByContradiction
 
 </small>
 
@@ -401,6 +413,7 @@ Visām skrūvēm svars ir vienāds, visām naglām arī.
 * topic:InequalityProvingStronger
 * _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, RationalNumbers
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation, ProofByContradictionInAlgebra, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -453,6 +466,7 @@ Atrodiet visas iespējamās vērtības un pamatojiet, ka citu nav!
 * topic:FormingEquations
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, VariableExpression
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -492,6 +506,7 @@ līnijām.)
 * topic:SquareGridCutting
 * _hasSolutionConcept: LatticeGrid, Tiling, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -523,6 +538,7 @@ Kurš skaitlis lielāks -- sākotnējais vai iegūtais?
 * subdomain:DOM_DigitManipulation
 * _hasSolutionConcept: RationalNumbers, DigitRepresentation, PeriodicSequence, DivisionWithRemainder
 * _readingDifficulty: medium
+* _hasReasoningMethod: PeriodicSequence
 
 </small>
 
@@ -570,6 +586,7 @@ to pirmo ciparu, samazinās $15$ reizes!
 * subdomain:DOM_SpecialNumbers
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DivisibilityRelation, PrimeNumbers
 * _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, PrimeFactorization, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -611,6 +628,7 @@ ka, izvēloties jebkurus $5$ punktus, tie būs savienoti ar vismaz $3$ šķautn�
 * method:MTH_ExhaustiveAlgorithms
 * _hasSolutionConcept: GraphConcept, VertexDegree, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -652,6 +670,7 @@ $\sphericalangle ABC$ un $\sphericalangle CDE$ ir lielāks?
 * method:MTH_AugmentationWithNewElements
 * _hasSolutionConcept: PointLineSegmentRay, Angle, Triangle, TriangleCongruence, LatticeGrid
 * _readingDifficulty: low
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AuxiliaryLines, AngleChasing
 
 </small>
 
@@ -693,6 +712,7 @@ ierakstīts skaitlis **(A)** $7$, **(B)** $17$?
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, ProofByContradictionInAlgebra
 
 </small>
 
@@ -744,6 +764,7 @@ kvadrāts (skat. 10.zīm.). Aprēķināt iekrāsoto daļu laukumu summu!
 * topic:CircleArea
 * _hasSolutionConcept: Polygon, CircleAndDisk, PythagoreanTheorem
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, PythagoreanTheorem
 
 </small>
 
@@ -781,6 +802,7 @@ var izveidot no šiem cipariem, summa ir $1276$. Atrast dotos četrus ciparus!
 * topic:FormingEquations
 * _hasSolutionConcept: DigitRepresentation, DigitSum, CountingProductRule, LinearEquation
 * _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, CompleteEnumeration
 
 </small>
 
@@ -810,6 +832,7 @@ Zināms, ka $AC \| PQ$. Aprēķināt $\sphericalangle BAC$ vērtību!
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, CircleAndDisk, ParallelPerpendicular
 * _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, CyclicQuadrilateral, ParallelLinesAngleProperties, TriangleAngleSum, AngleAtCenterAndCircumference, IsoscelesTriangleProperties
 
 </small>
 
@@ -854,6 +877,7 @@ mazākais skaitlis, kas var būt ierakstīts tabulas centrālajā rūtiņā?
 * topic:FormingEquations
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
 
 </small>
 
@@ -903,6 +927,7 @@ marsiešiem var būt $2014$?
 * topic:DoubleCounting
 * _hasSolutionConcept: GraphConcept, VertexDegree, DivisibilityRelation, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: FixedInvariantNumeric, ContradictionForImpossibility
 
 </small>
 

@@ -11,6 +11,7 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 * domain:Comb
 * _hasSolutionConcept: GraphConcept, DirectedGraph, WalkPathCycle, OptimumProofStructure
 * _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -42,6 +43,7 @@ skaitļi būtu ierakstīti tabulā tā, kā parādīts 2.zīm.
 * domain:Alg
 * _hasSolutionConcept: Invariant, StateSpaceProcess, WholeIntegers
 * _readingDifficulty: medium
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -64,6 +66,7 @@ stūriem.
 * domain:Geom
 * _hasSolutionConcept: LatticeGrid, PointLineSegmentRay
 * _readingDifficulty: medium
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -88,6 +91,7 @@ reizinājuma $k \times k$ ciparu summa ir $24$?
 * domain:NT
 * _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRelation, DivisibilityRules, PerfectSquares, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, NumberConstruction
 
 </small>
 
@@ -116,6 +120,7 @@ divus spēlētājus ar vienādiem iegūto punktu daudzumiem.
 * domain:Comb
 * _hasSolutionConcept: RationalNumbers, FiniteSet, PigeonholePrinciple, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: PigeonholePrincipleBasic, ContradictionForImpossibility, FixedInvariantNumeric
 
 </small>
 
@@ -147,6 +152,7 @@ divos gadījumos:
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, PositiveAndNegative, ArithmeticMean
 * _readingDifficulty: medium
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CountTheSameQuantityInTwoWays, CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -174,6 +180,7 @@ rūtiņas? Griezumiem jāiet pa rūtiņu līnijām.
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
 * _readingDifficulty: medium
+* _hasReasoningMethod: 
 
 </small>
 
@@ -196,6 +203,7 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration, NumberConstruction, DivisibilityRules
 
 </small>
 
@@ -220,6 +228,7 @@ no šiem reizinājumiem ar $A$. Kāda ir mazākā iespējamā $A$ vērtība?
 * domain:Alg
 * _hasSolutionConcept: DigitProduct, FiniteSet, OptimumProofStructure, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ProofByContradictionInAlgebra, NumericalEstimation
 
 </small>
 
@@ -254,6 +263,7 @@ ar $11,\ 12$ utt., uzrakstiet labāko no savām atrastajām.
 * domain:Comb
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DecisionTree
 * _readingDifficulty: high
+* _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
 
 </small>
 
@@ -283,6 +293,7 @@ pierakstu?
 * domain:NT,Comb
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRules, DigitRepresentation, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: DivisibilityRules, LastDigitAnalysis, CompleteEnumeration
 
 </small>
 
@@ -309,6 +320,7 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, PrimeFactorization, DivisibilityRelation, LastDigit, DigitRepresentation
 * _readingDifficulty: low
+* _hasReasoningMethod: PrimeFactorization, LastDigitAnalysis, CompleteEnumeration
 
 </small>
 
@@ -338,6 +350,7 @@ $670 \leq n \leq 1339$.
 * _hasSolutionConcept: Tree, FiniteSet, Invariant, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ExtremalElementArgument, ContradictionForImpossibility
 
 </small>
 
@@ -366,6 +379,7 @@ trijstūrī $ACE$ visas malas vienādas savā starpā.
 * _hasSolutionConcept: Triangle, TriangleCongruence, Angle, Polygon
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
 
 </small>
 
@@ -395,6 +409,7 @@ lai nevienam trijstūrim ar trim sarkanām virsotnēm visas malas nebūtu vienā
 * _hasSolutionConcept: Coloring, Triangle, FiniteSet, Invariant
 * _readingDifficulty: high
 * _domain: Comb,Geom
+* _hasReasoningMethod: ConstructiveExampleForExistence, PigeonholePrincipleGeneralized
 
 </small>
 
@@ -425,6 +440,7 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, ProofByContradiction
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, VietasFormulas
 
 </small>
 
@@ -446,6 +462,7 @@ Dots, ka $\frac{a}{b}=\frac{b}{c}=\frac{c}{a}$. Pierādīt, ka $a=b=c$.
 * _hasSolutionConcept: RationalNumbers, EquationSystem
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -476,6 +493,7 @@ $a_{1}+a_{2}+\ldots+a_{k}=n \cdot\left(\frac{1}{a_{1}}+\frac{1}{a_{2}}+\ldots+\f
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DivisorsSet
 * _readingDifficulty: low
 * _domain: NT,Alg
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -506,6 +524,7 @@ Pierādīt, ka $AD=BD$.
 * _hasSolutionConcept: PointLineSegmentRay, Angle, TriangleCongruence, Triangle
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, AngleChasing, IsoscelesTriangleProperties, AuxiliaryLines
 
 </small>
 
@@ -536,6 +555,7 @@ turnīra noslēgumā ir visvairāk punktu.)
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, RationalNumbers
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, AveragingArgumentForExistenceOfElement
 
 </small>
 
@@ -565,6 +585,7 @@ gadīties, ka tieši $23$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 * _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, DivisibilityRelation, ProofByContradiction
 * _readingDifficulty: high
 * _domain: NT,Comb
+* _hasReasoningMethod: ProofByContradiction, DivisibilityRules
 
 </small>
 
@@ -595,6 +616,7 @@ grafiki?
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, FunctionComposition, CoordinatePlane
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: ParameterizedInvariantValue, UseFunctionGraphForRootsAndComparisons
 
 </small>
 
@@ -618,6 +640,7 @@ Pierādīt, ka $MX \perp NY$.
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, Angle
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: AngleAtCenterAndCircumference, TriangleAngleSum, AngleChasing
 
 </small>
 
@@ -650,6 +673,7 @@ grupai. Kāds ir mazākais iespējamais grupu skaits?
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PrimeFactorization, SetPartition, PigeonholePrinciple, Invariant
 * _readingDifficulty: high
 * _domain: NT,Comb
+* _hasReasoningMethod: PigeonholeInNT, PrimeFactorization, BoundingArgument
 
 </small>
 
@@ -690,6 +714,7 @@ mala pieder
 * _hasSolutionConcept: LatticeGrid, ParityInvariant, ProofByContradiction, Invariant
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 

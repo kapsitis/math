@@ -17,6 +17,7 @@ Kāds varēja būt **(A)** mazākais iegūtais skaitlis;
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, OptimumProofStructure, FiniteSequenceArrangement
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundingArgument, CompleteEnumeration
 
 </small>
 
@@ -53,6 +54,7 @@ pa rūtiņu malām.
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaCounting
 
 </small>
 
@@ -79,6 +81,7 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -126,6 +129,7 @@ komplektā ir tieši viens kauliņš.)
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, Tiling, ProofByContradiction
 * _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -187,6 +191,7 @@ tieši $6$ balti kaimiņi?
 * domain:Comb
 * _hasSolutionConcept: Coloring, FiniteSet, LatticeGrid, CaseAnalysis
 * _readingDifficulty: high
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -209,6 +214,7 @@ reizes lielāks par mazāko. Atrodi šos skaitļus!
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, FiniteSequenceArrangement, LinearEquation
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -246,6 +252,7 @@ cipariem!
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, DivisibilityRelation, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -275,6 +282,7 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, DivisibilityRelation, DissectionIntoCongruent, Coloring, Counterexample, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant
 
 </small>
 
@@ -311,6 +319,7 @@ Vai, vairākkārt veicot šādus gājienus, var iegūt tabulu, kāda attēlota 9
 * domain:Alg
 * _hasSolutionConcept: WholeIntegers, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParameterizedInvariantValue
 
 </small>
 
@@ -340,6 +349,7 @@ Nosaki, kāda ir mazākā iespējamā $n$ vērtība, pie kuras iespējams to izd
 * domain:Comb
 * _hasSolutionConcept: NumberPartitions, ParityInvariant, OptimumProofStructure, Tuple
 * _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ExhaustiveEnumerationOfCases, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -390,6 +400,7 @@ Atrodi visus šos skaitļus!
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, EvenOddParity, DigitRepresentation, EquationSystem
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, ParityArgument, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -439,6 +450,7 @@ Vai var gadīties, ka $AB>AC$?
 * _hasSolutionConcept: Triangle, TriangleCongruence, TriangleInequality, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, ProofByContradiction, CaseAnalysis, IsoscelesTriangleProperties, TriangleInequality
 
 </small>
 
@@ -486,6 +498,7 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 * _hasSolutionConcept: MagicConfiguration, LatinSquareSudoku, PositiveIntegers
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -519,6 +532,7 @@ izmestas.)
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, Invariant
 * _readingDifficulty: high
 * _domain: NT
+* _hasReasoningMethod: InvariantMethod, PrimePropertiesAndUniqueness, NumberConstruction
 
 </small>
 
@@ -559,6 +573,7 @@ rūķīšiem?
 * _hasSolutionConcept: TruthTellersAndLiars, FiniteSequenceArrangement, OptimumProofStructure, CaseAnalysis
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -602,6 +617,7 @@ Vai to var izdarīt?
 * _hasSolutionConcept: RationalNumbers, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -628,6 +644,7 @@ vismaz astoņi būs savā starpā atšķirīgi!
 * _hasSolutionConcept: PositiveIntegers, FiniteSet, CartesianProduct, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -692,6 +709,7 @@ kvadrāts. Pierādi, ka $BDFH$ arī ir kvadrāts!
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, TriangleCongruence, TriangleAngleSum
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, AngleChasing, TriangleAngleSum, ParallelogramProperties
 
 </small>
 
@@ -760,6 +778,7 @@ pieejami tikai:
 * _hasSolutionConcept: DivisionWithRemainder, LinearEquation, CaseAnalysis, Invariant
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation, ProofByContradictionInAlgebra, CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -820,6 +839,7 @@ turnīra noslēgumā ir visvairāk punktu.)
 * _hasSolutionConcept: GraphConcept, FiniteSet, RationalNumbers, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, AveragingArgumentForExistenceOfElement
 
 </small>
 
@@ -852,6 +872,7 @@ iespējams izdarīt, ja
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, SetPartition, ParityInvariant
 * _readingDifficulty: medium
 * _domain: NT,Comb
+* _hasReasoningMethod: BoundingArgument, CompleteEnumeration, NumberConstruction, SumOfArithmeticOrTriangularNumbers
 
 </small>
 
@@ -885,6 +906,8 @@ vienlaicīgi gan $AB$, gan $CD$ viduspunkts!
 * _hasSolutionConcept: PointLineSegmentRay, QuadraticFunction, CoordinatePlane, ParallelogramProperties, ProofByContradiction
 * _readingDifficulty: high
 * _domain: Geom,Alg
+* _hasReasoningMethod: ProofByContradiction, ParallelogramProperties
+* _newReasoningMethodLabel: SlopesOnCoordinatePlane
 
 </small>
 
@@ -952,6 +975,7 @@ $d(n)$.
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, EvenOddParity, PrimeNumbers
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: NumberOfDivisors, NumberConstruction, BoundingArgument, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -986,6 +1010,7 @@ Piemēram, skaitlis $19$ ierakstīts ceturtajā rindā, trešajā kolonnā.
 * _hasSolutionConcept: LatticeGrid, NumberSequence, Invariant, OrderedPair
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric
 
 </small>
 
@@ -1038,6 +1063,7 @@ nevar, izpildot tikai atļautos gājienus?
 * _hasSolutionConcept: LatticeGrid, Coloring, Invariant
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability, ConstructiveExampleForExistence
 
 </small>
 

@@ -12,6 +12,7 @@ burkā, ja Artūrs apēdīs visus atlikušos gurķīšus? (Artūrs ēda tikai gu
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, DirectProportion
 * _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -43,6 +44,7 @@ Kāds ir $999.$ loceklis Raimonda virknē un kāds - Laines virknē?
 * domain:NT
 * _hasSolutionConcept: NumberSequence, PeriodicSequence, RecurrentSequence, DigitRepresentation, DigitSum
 * _readingDifficulty: medium
+* _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
 
 </small>
 
@@ -81,6 +83,7 @@ vertikāli) būtu vismaz viena iekrāsota rūtiņa?
 * domain:Geom
 * _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: 
 
 </small>
 
@@ -114,6 +117,7 @@ skaitlis?
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, Invariant, ProofByContradiction
 * _readingDifficulty: high
+* _hasReasoningMethod: ParityArgument, ProofByContradiction, CompleteEnumeration, NumberConstruction
 
 </small>
 
@@ -155,6 +159,7 @@ naudaszīmju komplektu!
 * domain:Comb
 * _hasSolutionConcept: FrobeniusType, FiniteSet, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -214,6 +219,8 @@ $25~\mathrm{cm^{2}}$.
 * domain:Geom
 * _hasSolutionConcept: RationalNumbers, DirectProportion, PerfectSquares
 * _readingDifficulty: low
+* _hasReasoningMethod: ParallelogramProperties
+* _newReasoningMethodLabel: AreaAsSquareOfSide
 
 </small>
 
@@ -245,6 +252,7 @@ Kāds ir $1000.$ loceklis Viļņa virknē un kāds - Armanda virknē?
 * domain:NT
 * _hasSolutionConcept: NumberSequence, PeriodicSequence, RecurrentSequence, DigitSum
 * _readingDifficulty: medium
+* _hasReasoningMethod: PeriodicSequence, ParityArgument
 
 </small>
 
@@ -285,6 +293,8 @@ nevarētu izgriezt $2 \times 3$ rūtiņu taisnstūri, kam visas rūtiņas ir bal
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Coloring, Tiling, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: ProofByContradiction
+* _newReasoningMethodLabel: PackingDisjointShapes
 
 </small>
 
@@ -309,6 +319,7 @@ burti apzīmē vienādus ciparus, dažādi -- dažādus, turklāt $A$ nav $0$.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -338,6 +349,7 @@ iegūt tieši tikpat dažādos veidos, kā metot divus parastus metamos kauliņu
 * domain:Comb
 * _hasSolutionConcept: CountingProductRule, FiniteSet, Tuple, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 
 </small>
 
@@ -399,6 +411,7 @@ cipariem $2,\ 0,\ 1,\ 8$ ?
 * topic:RuleOfSum
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, CountingProductRule, OrderedSelection
 * _readingDifficulty: low
+* _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
 
 </small>
 
@@ -437,6 +450,8 @@ locekļu summu!
 * topic:SequencePeriodicity
 * _hasSolutionConcept: NumberSequence, PeriodicSequence, RationalNumbers
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _newReasoningMethodLabel: DetectPeriodInRecursiveSequence
 
 </small>
 
@@ -482,6 +497,7 @@ ka $CD>\frac{1}{2}(CA+CB-AB)$.
 * topic:TriangleInequality
 * _hasSolutionConcept: Triangle, TriangleInequality
 * _readingDifficulty: low
+* _hasReasoningMethod: TriangleInequality
 
 </small>
 
@@ -513,6 +529,7 @@ $(n-2021)(n-2018)(n-2017)(n-2016)=2016$ būtu patiesa!
 * topic:NumTheoryEqualityToConstant
 * _hasSolutionConcept: WholeIntegers, DivisibilityRelation, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -543,6 +560,7 @@ spoguļattēlā.
 * topic:SquareGridCutting
 * _hasSolutionConcept: Tiling, LatticeGrid, DivisionWithRemainder, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: AreaCounting
 
 </small>
 
@@ -579,6 +597,7 @@ $\left(x^{2}-2 x+1\right)\left(x^{4}+1\right)^{2}\left(x^{2}+2x+1\right)\left(x^
 * topic:StandardIdentities
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, DiffOfSquaresFactoring
 * _readingDifficulty: low
+* _hasReasoningMethod: UseStandardIdentities
 
 </small>
 
@@ -608,6 +627,7 @@ Kāds ir šīs virknes $2018.$ loceklis?
 * topic:SequencePeriodicity
 * _hasSolutionConcept: NumberSequence, RecurrentSequence, PeriodicSequence, DigitProduct
 * _readingDifficulty: medium
+* _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
 
 </small>
 
@@ -642,6 +662,7 @@ zināms, ka $ABCD$ laukums ir $100$.
 * topic:CentralSymmetry
 * _hasSolutionConcept: ParallelogramProperties, QuadrilateralFamilies, PointLineSegmentRay
 * _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, ParallelogramProperties, AuxiliaryLines
 
 </small>
 
@@ -681,6 +702,7 @@ centrālajā rūtiņā ir ierakstīts skaitlis $\frac{n^{2}+1}{2}$, ja **(A)** $
 * topic:ExpressionRegrouping
 * _hasSolutionConcept: MagicConfiguration, FiniteSet, EquationSystem, Counterexample
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, FixedInvariantNumeric
 
 </small>
 
@@ -734,6 +756,8 @@ neiekrāsotas?
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure, FiniteSet
 * _readingDifficulty: high
+* _hasReasoningMethod: ProofByContradiction
+* _newReasoningMethodLabel: PackingDisjointShapes
 
 </small>
 
@@ -780,6 +804,7 @@ reālas saknes?
 * topic:QuadraticEquationRootConditions
 * _hasSolutionConcept: QuadraticEquation, LinearEquation, VariableExpression
 * _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -827,6 +852,7 @@ trīs dažādos veidos: $4=1+1+1+1=1+3=3+1$.
 * topic:DefiningRecurrentSequences
 * _hasSolutionConcept: RecurrentSequence, FiniteSequenceArrangement, NumberPartitions
 * _readingDifficulty: medium
+* _hasReasoningMethod: RecursiveSequenceForCounting, RuleOfSumDisjointCases, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -890,6 +916,7 @@ ir līdzīgi!
 * topic:TriangleSimilarityAAA
 * _hasSolutionConcept: Triangle, CircleAndDisk, TriangleSimilarity
 * _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, CyclicQuadrilateral, IsoscelesTriangleProperties, SimilarTriangles
 
 </small>
 
@@ -922,6 +949,7 @@ un kuram neviens cipars nav $0$.
 * topic:TotalOrderRelations
 * _hasSolutionConcept: PositiveIntegers, DigitSum, DivisibilityRelation, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundingArgument, CompleteEnumeration, NumberConstruction
 
 </small>
 
@@ -959,6 +987,7 @@ $5 \times 8$ rūtiņas, lai katrā šī taisnstūra $2 \times 3$ rūtiņu taisns
 * topic:SquareGrid
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: high
+* _hasReasoningMethod: ProofByContradiction, AreaInvarianceAndDecomposition
 
 </small>
 

@@ -17,6 +17,7 @@ iegūtās daļas pēc formas atšķirtos no otrā sagriešanā iegūtajām daļ�
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Tiling, FiniteSet, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -40,6 +41,7 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * domain:Comb
 * _hasSolutionConcept: DecisionTree, Invariant, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -71,6 +73,7 @@ apli".)
 * domain:Comb
 * _hasSolutionConcept: GraphConcept, FiniteSet, CaseAnalysis, ProofByContradiction
 * _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -111,6 +114,7 @@ Kuri no rūķīšiem melo, kuri - runā patiesību?
 * domain:Comb
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, CaseAnalysis, ConsistencyCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility
 
 </small>
 
@@ -134,6 +138,7 @@ Vai to var izdarīt ar skaitļiem no $1$ līdz $13$ ieskaitot?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, NumberPartitions
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, SumOfArithmeticOrTriangularNumbers
 
 </small>
 
@@ -158,6 +163,7 @@ izteiksme $2a+3b+c$ dalās ar $7$.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, DivisibilityRules
 * _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger
 
 </small>
 
@@ -179,6 +185,7 @@ svēršanām var noteikt katra atsvara masu?
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, CaseAnalysis, DecisionTree
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases, FixedInvariantNumeric
 
 </small>
 
@@ -213,6 +220,7 @@ bumbieru.
 * domain:Comb
 * _hasSolutionConcept: FiniteSet, CaseAnalysis, ArithmeticMean
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExtremalElementArgument
 
 </small>
 
@@ -241,6 +249,7 @@ $2$ malas?
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, Coloring, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
 
 </small>
 
@@ -271,6 +280,7 @@ $10$ dukāti.
 * domain:Comb
 * _hasSolutionConcept: ChessboardColoring, ParityInvariant, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability
 
 </small>
 
@@ -303,6 +313,7 @@ dažādos vagonos, kas pie tam nav blakus viens otram. Cik vietu ir katrā vagon
 * _hasSolutionConcept: PositiveIntegers, DivisionWithRemainder, SetPartition, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: NumericalEstimation, ProofByContradictionInAlgebra
 
 </small>
 
@@ -338,6 +349,7 @@ var beigties šo skaitļu reizinājums?
 * _hasSolutionConcept: PositiveIntegers, PrimeFactorization, DivisibilityRelation, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: PrimeFactorization, BoundingArgument, NumberConstruction
 
 </small>
 
@@ -368,6 +380,7 @@ Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat.
 * _hasSolutionConcept: Triangle, Angle, TriangleCongruence
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
 
 </small>
 
@@ -397,6 +410,7 @@ palikusi tikai viena dzīva būtne. Kas tā ir?
 * _hasSolutionConcept: ParityInvariant, Invariant, ProofByContradiction
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -439,6 +453,7 @@ tie abi ir tukši). Kādu lielāko konfekšu daudzumu var apēst?
 * _hasSolutionConcept: FiniteSequenceArrangement, Invariant, OptimumProofStructure, CaseAnalysis
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -472,6 +487,7 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, VariableExpression
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: VietasFormulas, UseStandardIdentities
 
 </small>
 
@@ -495,6 +511,7 @@ risināts, ja katri divi bērni kopā risināja vismaz vienu no tiem?
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, FiniteSet
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
 
 </small>
 
@@ -528,6 +545,7 @@ naturāls skaitlis, kam vienlaicīgi izpildās īpašības $S(n)=10$ un $S(5n)=5
 * _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRules, EvenOddParity, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, LastDigitAnalysis, BoundingArgument
 
 </small>
 
@@ -566,6 +584,7 @@ punkts $M$, ka $\sphericalangle KMB=\sphericalangle BAC$. Pierādīt, ka $KM=AL$
 * _hasSolutionConcept: Triangle, ParallelPerpendicular, TriangleCongruence, Angle
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, AuxiliaryLines, ParallelLinesAngleProperties, IsoscelesTriangleProperties
 
 </small>
 
@@ -599,6 +618,7 @@ Vai tas var gadīties, ja sākotnēji melnas ir $33$ rūtiņas?
 * _hasSolutionConcept: Coloring, LatticeGrid, Invariant
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -632,6 +652,7 @@ dalās ar $8$?
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, PositionalNotation, BoundingArgument, NumberConstruction
 
 </small>
 
@@ -670,6 +691,7 @@ rūķīšus.
 * _hasSolutionConcept: FiniteSet, SetIntersection, ExistenceVsUniversal, ProofByContradiction
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ExtremalElementArgument, PigeonholePrincipleBasic, ContradictionForImpossibility
 
 </small>
 
@@ -705,6 +727,7 @@ punktos $M$, $K$ un $N$. Pierādīt, ka $\sphericalangle BMN=\sphericalangle BMK
 * _hasSolutionConcept: Triangle, CircleAndDisk, ParallelPerpendicular, Polygon, Angle
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: ParallelLinesAngleProperties, AngleAtCenterAndCircumference, AngleChasing
 
 </small>
 
@@ -740,6 +763,7 @@ $f(x)+f(x+1)+f(x+2)=0$ arī ir divas saknes.
 * _hasSolutionConcept: QuadraticEquation, QuadraticFunction, PolynomialAndRoots, FunctionConcept
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, UseFunctionGraphForRootsAndComparisons
 
 </small>
 
@@ -772,6 +796,7 @@ lielāks par $1$?
 * _hasSolutionConcept: DivisibilityRelation, GCD, ParityInvariant, OptimumProofStructure
 * _readingDifficulty: high
 * _domain: NT,Comb
+* _hasReasoningMethod: BoundingArgument, PigeonholeInNT, NumberConstruction, ProofByContradiction
 
 </small>
 

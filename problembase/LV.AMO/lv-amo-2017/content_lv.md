@@ -13,6 +13,7 @@ $30~\mathrm{km}$?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, DirectProportion, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, NumericalEstimation
 
 </small>
 
@@ -65,6 +66,7 @@ summa uz katras trijstūra malas būtu viena un tā pati!
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, MagicConfiguration, DivisibilityRelation
 * _readingDifficulty: low
+* _hasReasoningMethod: SumOfArithmeticOrTriangularNumbers, DivisibilityRules, NumberConstruction
 
 </small>
 
@@ -97,6 +99,7 @@ citiem punktiem?
 * domain:Comb,Geom
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, ParityInvariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, HandshakingLemmaSumOfDegreesEven, ConstructiveExampleForExistence
 
 </small>
 
@@ -124,6 +127,7 @@ variantus un pamato, ka citu nav!
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, DivisionWithRemainder
 * _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration, LastDigitAnalysis, BoundingArgument
 
 </small>
 
@@ -154,6 +158,7 @@ Ja mēneša $13.$ datums ir piektdiena, tad saka, ka tā ir melnā piektdiena.
 * domain:NT
 * _hasSolutionConcept: PeriodicSequence, ExhaustiveCheck, OptimumProofStructure, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration
 
 </small>
 
@@ -214,6 +219,7 @@ soļu ir starp draugu mājām?
 * domain:Alg
 * _hasSolutionConcept: DivisibilityRelation, LinearEquation, EvenOddParity
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -239,6 +245,7 @@ summa visās rindās, visās kolonnās un abās diagonālēs būtu viena un tā 
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, MagicConfiguration, FiniteSet
 * _readingDifficulty: low
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays
 
 </small>
 
@@ -269,6 +276,7 @@ līnijām jāiet pa rūtiņu līnijām un stūrīši var būt pagriezti.
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: ProofByContradiction, CaseAnalysis
 
 </small>
 
@@ -309,6 +317,7 @@ meiteņu." Cik zēnu sēž pie apaļā galda?
 * domain:Comb
 * _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, ParityInvariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility
 
 </small>
 
@@ -348,6 +357,7 @@ dalās ar visiem skaitļiem no $1$ līdz $10$ bez atlikuma!
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, LCM, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: PrimeFactorization, CompleteEnumeration, BoundingArgument
 
 </small>
 
@@ -377,6 +387,7 @@ ar nemainīgu ātrumu?
 * topic:LinearFunctions
 * _hasSolutionConcept: RationalNumbers, LinearEquation, DirectProportion
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -418,6 +429,7 @@ summa visās joslās būtu viena un tā pati!
 * topic:DoubleCounting
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -454,6 +466,7 @@ vienādmalu!
 * topic:AlternateAngles
 * _hasSolutionConcept: Triangle, TriangleCongruence, ParallelPerpendicular
 * _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, IsoscelesTriangleProperties
 
 </small>
 
@@ -494,6 +507,7 @@ un $2017$ melnas bumbiņas; **(B)** $2016$ baltas un $2018$ melnas bumbiņas?
 * topic:ModularParity
 * _hasSolutionConcept: ParityInvariant, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -530,6 +544,7 @@ divas reizes mazāks nekā pats skaitlis?
 * topic:NotationPolynomial
 * _hasSolutionConcept: DigitRepresentation, DigitProduct, LinearEquation, EvenOddParity
 * _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, ParityArgument, CompleteEnumeration, AlgebraicManipulationForInteger
 
 </small>
 
@@ -574,6 +589,7 @@ vienādas; **(B)** ordināta ir divas reizes lielāka nekā abscisa?
 * topic:LinearSystems
 * _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane, OrderedPair
 * _readingDifficulty: low
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -605,6 +621,7 @@ skaitļu summa uz katras trijstūra malas būtu **(A)** $22$; **(B)** $23$?
 * topic:ExpressionRegrouping
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
 
 </small>
 
@@ -649,6 +666,7 @@ malu garumi?
 * topic:TriangleCongruence
 * _hasSolutionConcept: RectangleFamilies, Triangle, TriangleCongruence
 * _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, ParallelogramProperties, AuxiliaryLines
 
 </small>
 
@@ -690,6 +708,7 @@ kauss ir smagāks nekā otrs.
 * topic:ProblemsWithHiddenInformation
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, DecisionTree
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -760,6 +779,7 @@ reizinājumu?
 * topic:NotationPolynomial
 * _hasSolutionConcept: DigitProduct, DigitRepresentation, LinearInequality
 * _readingDifficulty: low
+* _hasReasoningMethod: BoundingArgument, PositionalNotation
 
 </small>
 
@@ -788,6 +808,7 @@ vienādas; **(B)** ordināta ir trīs reizes lielāka nekā abscisa?
 * topic:SystemsSubstituteVariables
 * _hasSolutionConcept: QuadraticFunction, QuadraticEquation, CoordinatePlane, PolynomialAndRoots
 * _readingDifficulty: low
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, FactorAndUseZeroProductRule
 
 </small>
 
@@ -817,6 +838,7 @@ Pierādīt, ka $x^{6}+y^{6}+\frac{2}{x^{3}y^{3}}-4 \geq 0$, ja $x>0$, $y>0$.
 * topic:AmGmInequality
 * _hasSolutionConcept: VariableExpression, ArithmeticMean
 * _readingDifficulty: low
+* _hasReasoningMethod: UseTrivialInequalitiesAndAddThem, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -852,6 +874,7 @@ Aprēķināt trijstūra $ABC$ leņķus!
 * topic:TriangleInternalAngles
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, EquationSystem, Angle
 * _readingDifficulty: high
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
 
 </small>
 
@@ -924,6 +947,7 @@ varētu izvietot saskaņā ar uzdevuma nosacījumiem?
 * topic:TotalOrderRelations
 * _hasSolutionConcept: PositiveIntegers, LatticeGrid, DirectedGraph, WalkPathCycle, ProofByContradiction
 * _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -967,6 +991,7 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}+(x+1)^{3}=(x+3)^{3}+1$.
 * topic:NumTheoryEqualityToConstant
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PerfectCubes, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, AlgebraicManipulationForInteger, DiophantineEquations
 
 </small>
 

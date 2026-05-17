@@ -13,6 +13,7 @@ pirmais cipars par $2$ mazāks nekā visu citu ciparu summa.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundingArgument
 
 </small>
 
@@ -44,6 +45,7 @@ ir jautājuma zīme?
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, MagicConfiguration, FiniteSequenceArrangement, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation, BruteForceCheckOverFiniteSet
 
 </small>
 
@@ -80,6 +82,7 @@ dzīvoja blakus rūtiņās, arī kvadrātā dzīvotu blakus rūtiņās?
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, DoubleCountingSameQuantityTwoWays
 
 </small>
 
@@ -106,6 +109,7 @@ tādās daļās, kādas attēlotas 2.zīm.? Jābūt vismaz vienai katra veida da
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, ProofByContradiction, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: ProofByContradiction, CaseAnalysis
 
 </small>
 
@@ -136,6 +140,7 @@ Vai līdzīgā veidā var uzrakstīt naturālos skaitļus no $1$ līdz $13$ iesk
 * domain:NT,Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, DivisibilityRelation, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -157,6 +162,7 @@ tādas pašas grāmatas $22$ latus ar santīmiem. Cik maksā $1$ grāmata?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearEquation
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, NumericalEstimation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -181,6 +187,7 @@ izgriezt no 3.zīm. attēlotās figūras?
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, ChessboardColoring, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant
 
 </small>
 
@@ -206,6 +213,7 @@ divas kaudzītes, kurās kopā ir tieši $13$ sērkociņu.
 * domain:Comb
 * _hasSolutionConcept: PigeonholePrinciple, FiniteSet, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, RuleOfSumDisjointCases
 
 </small>
 
@@ -232,6 +240,7 @@ Kas uzvar, pareizi spēlējot - pirmais vai otrais spēlētājs?
 * domain:Comb
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, Invariant, LatticeGrid
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -260,6 +269,7 @@ vienlaicīgi atrodas skaitļi $21;\ 27;\ 64;\ 180;\ 225$?
 * domain:Alg
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: ProofByContradictionInAlgebra, ParityOrModularArgumentForEquations
 
 </small>
 
@@ -287,6 +297,7 @@ Pierādīt, ka $(x-y)(z-t)>0$.
 * _hasSolutionConcept: ProofByContradiction, CaseAnalysis, BinaryRelation
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, ProofByContradictionInAlgebra
 
 </small>
 
@@ -316,6 +327,7 @@ ir $180^{\circ}$.)
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleAngleSum, TriangleCongruence, ParallelPerpendicular
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: AngleChasing, CongruentTriangles, IsoscelesTriangleProperties, TriangleAngleSum
 
 </small>
 
@@ -354,6 +366,7 @@ ir nesaīsināmas?
 * _hasSolutionConcept: RationalNumbers, GCD, CoprimeIntegers
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: PrimePropertiesAndUniqueness, AlgebraicManipulationForInteger
 
 </small>
 
@@ -392,6 +405,7 @@ un $FF_{1} \perp BC$. Pierādīt, ka $GG_{1} \perp CD$.
 * _hasSolutionConcept: Polygon, Triangle, TriangleSpecialLines, TriangleCongruence, ParallelPerpendicular
 * _readingDifficulty: high
 * _domain: Geom
+* _hasReasoningMethod: IsoscelesTriangleProperties
 
 </small>
 
@@ -417,6 +431,7 @@ diplomātus, kas savā starpā sazinoties lieto visas $3$ valodas.
 * _hasSolutionConcept: GraphConcept, VertexDegree, Coloring, Triangle
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, RuleOfSumDisjointCases
 
 </small>
 
@@ -452,6 +467,7 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, PolynomialAndRoots
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: VietasFormulas, UseStandardIdentities
 
 </small>
 
@@ -481,6 +497,7 @@ nogriežņu $AB,\ BD,\ DC,\ CA$ viduspunkti. Pierādīt, ka $XZ \perp YT$.
 * _hasSolutionConcept: Triangle, CircleAndDisk, QuadrilateralFamilies, ParallelPerpendicular
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: ParallelogramProperties, IsoscelesTriangleProperties
 
 </small>
 
@@ -511,6 +528,7 @@ $A=B$.
 * _hasSolutionConcept: DivisibilityRelation, GCD, DigitRepresentation
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: PositionalNotation, BoundingArgument
 
 </small>
 
@@ -537,6 +555,7 @@ garumu.
 * _hasSolutionConcept: DissectionIntoCongruent, Invariant
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CountingByDoubleCounting, AreaCounting
 
 </small>
 
@@ -570,6 +589,7 @@ rīkojamies tāpat, utt., kamēr paliek neizsvītrots viens skaitlis. Kurš tas 
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, RecurrentSequence, Invariant
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: InvariantMethod, ParityArgument, BoundingArgument
 
 </small>
 
@@ -620,6 +640,7 @@ $x^{2}+p_{1}x+q_{1}=0$ un $x^{2}+p_{2}x+q_{2}=0$ arī eksistē atrisinājums.
 * _hasSolutionConcept: QuadraticEquation, ProofByContradiction, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: ProofByContradictionInAlgebra
 
 </small>
 
@@ -645,6 +666,7 @@ vienas cilts rūķīši, attālums starp kuriem ir vai nu $a$, vai $b$.
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ProofByContradiction, PigeonholePrinciple
 * _readingDifficulty: high
 * _domain: Comb,NT
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
 
 </small>
 
@@ -675,6 +697,7 @@ $EM \perp BC$.
 * _hasSolutionConcept: CircleAndDisk, Triangle, TriangleSpecialLines, ParallelPerpendicular
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties
 
 </small>
 
@@ -705,6 +728,7 @@ rūķīšus.
 * _hasSolutionConcept: GraphConcept, VertexDegree, FiniteSet, ProofByContradiction
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic, ExtremalElementArgument
 
 </small>
 
@@ -739,6 +763,7 @@ Vai to var izdarīt, ja **(A)** $n=4$; **(B)** $n=5$?
 * _hasSolutionConcept: MagicConfiguration, PositiveAndNegative, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: CompleteEnumeration, ParityArgument, ProofByContradiction, NumberConstruction
 
 </small>
 

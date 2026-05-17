@@ -10,6 +10,7 @@ gadīties, ka viens skaitlis ir tieši septiņas reizes lielāks nekā otrs skai
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, DivisibilityRelation
 * _readingDifficulty: low
+* _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration
 
 </small>
 
@@ -35,6 +36,7 @@ platleņķa trijstūri, ja tam ir viens plats leņķis un divi šauri leņķi.)
 * concepts:square-Geo,triangle
 * _hasSolutionConcept: Square, Triangle, Polygon
 * _readingDifficulty: low
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -59,6 +61,7 @@ $2$ baltas, vai $3$ zaļas, vai $4$ sarkanas pogas.
 * domain:Comb
 * _hasSolutionConcept: PigeonholePrinciple, FiniteSet, CaseAnalysis, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -84,6 +87,7 @@ mājā. (Lifts nevar uzbraukt augstāk par 24. stāvu un zemāk par 1. stāvu.)
 * domain:Comb
 * _hasSolutionConcept: LinearDiophantine, StateSpaceProcess, Invariant
 * _readingDifficulty: high
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -113,6 +117,7 @@ saucam par vienādām figūrām.)
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, AxialSymmetry
 * _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -145,6 +150,7 @@ viens un tas pats skaitlis. Kāds tas ir?
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays, NumericalEstimation
 
 </small>
 
@@ -172,6 +178,7 @@ Sadali kvadrātu divos vienādos **(A)** sešstūros, **(B)** septiņstūros.
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, Polygon, SquareOfSumIdentity
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -196,6 +203,7 @@ būtu vismaz viena zaļa rūtiņa?
 * domain:Geom
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant
 
 </small>
 
@@ -227,6 +235,7 @@ pirmskaitļi būtu dažādi?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, ParityInvariant, FiniteSequenceArrangement
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParityArgument, NumberConstruction
 
 </small>
 
@@ -259,6 +268,7 @@ palikt pāri)?
 * domain:NT
 * _hasSolutionConcept: FrobeniusType, DivisibilityRelation, MultiplesSet, DivisionWithRemainder
 * _readingDifficulty: medium
+* _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration, BoundingArgument
 
 </small>
 
@@ -292,6 +302,7 @@ $ab(3a+5b)=1234567$?
 * subdomain:DOM_IntegerEquations
 * _hasSolutionConcept: WholeIntegers, EvenOddParity, ParityInvariant
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument
 
 </small>
 
@@ -319,6 +330,7 @@ ir viens vesels nogrieznis)?
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, TriangleInequality, FiniteSet, UnorderedSelection
 * _readingDifficulty: low
+* _hasReasoningMethod: TriangleInequality, CaseAnalysis
 
 </small>
 
@@ -351,6 +363,7 @@ vienlaicīgi ar to, ja sarkanās automašīnas ātrums bija
 * subdomain:DOM_WordProblems
 * _hasSolutionConcept: DirectProportion, LinearEquation, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
 
 </small>
 
@@ -385,6 +398,7 @@ atšķirīgi)?
 * subdomain:DOM_GridOther
 * _hasSolutionConcept: BasicSolids, DissectionIntoCongruent, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -413,6 +427,8 @@ iet.
 * subdomain:DOM_MakingMoves
 * _hasSolutionConcept: LatticePath, LatticeGrid, RecurrentSequence
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
+* _newReasoningMethodLabel: DynamicProgramming
 
 </small>
 
@@ -445,6 +461,7 @@ būtu **(A)** $13$, **(B)** $14$.
 * subdomain:DOM_ExpressionBuilding
 * _hasSolutionConcept: WholeIntegers, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -468,6 +485,7 @@ $P$ līdz dotā trijstūra virsotnēm ir lielāka nekā puse no trijstūra perim
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, TriangleInequality
 * _readingDifficulty: low
+* _hasReasoningMethod: TriangleInequality
 
 </small>
 
@@ -498,6 +516,7 @@ olimpiādē?
 * subdomain:DOM_EquationSystems
 * _hasSolutionConcept: ArithmeticMean, EquationSystem, PositiveIntegers
 * _readingDifficulty: low
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
 
 </small>
 
@@ -532,6 +551,7 @@ dalās ar $5$. Pierādi, ka visi uzrakstītie skaitļi dalās ar $5$.
 * concepts:sum,divisibility
 * _hasSolutionConcept: WholeIntegers, DivisibilityRelation, ModularArithmetic, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ModularArithmetic
 
 </small>
 
@@ -599,6 +619,7 @@ pret šo diagonāli ierakstīti vienādi skaitļi.)
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: LatinSquareSudoku, AxialSymmetry, Invariant, ParityInvariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric
 
 </small>
 
@@ -627,6 +648,7 @@ Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 * subdomain:DOM_Divisibility
 * _hasSolutionConcept: DivisorsSet, PrimeFactorization, DivisibilityRelation
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, NumberOfDivisors
 
 </small>
 
@@ -652,6 +674,7 @@ $\sphericalangle BAC=\sphericalangle BMN$
 * concepts:triangle
 * _hasSolutionConcept: Triangle, Angle, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, AngleAtCenterAndCircumference
 
 </small>
 
@@ -683,6 +706,7 @@ pirmskaitļi. Aprēķini $a$ skaitlisko vērtību.
 * concepts:quadratic-equation,primes
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, PrimeNumbers, EvenOddParity
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument, CompleteEnumeration
 
 </small>
 
@@ -711,6 +735,7 @@ ar $37$. Vai Pēteris vienmēr var uzvarēt?
 * subdomain:DOM_NumericGamesAndAlgorithms
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, SymmetryStrategy
 * _readingDifficulty: high
+* _hasReasoningMethod: GameInvariantsInNT, PositionalNotation
 
 </small>
 
@@ -745,6 +770,7 @@ piecos vienlielos trijstūros.
 * concepts:trapezoid,triangle
 * _hasSolutionConcept: DissectionIntoCongruent, Triangle, QuadrilateralFamilies, Invariant
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, AreaCounting, ProofByContradiction
 
 </small>
 

@@ -8,6 +8,7 @@ Izsaki skaitli $1$ kā piecu atšķirīgu daļu summu, kuru saucēji ir vienādi
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, NumberPartitions
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -31,6 +32,7 @@ redzamo figūru un $28$ figūrām, kādas redzamas 2.att.? Figūras drīkst pagr
 * domain:Geom
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant, CaseAnalysis
 
 </small>
 
@@ -59,6 +61,7 @@ bet **(A)** laukums ir pirmskaitlis; **(B)** perimetrs ir pirmskaitlis?
 * domain:Geom,NT
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, EvenOddParity, DivisibilityRelation, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityInvariant
 
 </small>
 
@@ -87,6 +90,7 @@ Atrodi visus tādus skaitļus un pamato, ka citu nav!
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitSum, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: BoundingArgument, CompleteEnumeration, PositionalNotation
 
 </small>
 
@@ -130,6 +134,7 @@ atsvariem atrast abas viltotās monētas?
 * domain:Comb
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
 
 </small>
 
@@ -183,6 +188,7 @@ bet pārējās - veseli skaitļi?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, WholeIntegers, VariableExpression, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -212,6 +218,7 @@ taisnstūriem, kuru izmēri ir $1 \times 2$ rūtiņas?
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, ChessboardColoring, ParityInvariant, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant, ProofByContradiction, CaseAnalysis
 
 </small>
 
@@ -244,6 +251,7 @@ gadīties, ka visi seši trijstūros ierakstītie skaitļi ir vienādi?
 * domain:Comb
 * _hasSolutionConcept: MagicConfiguration, DivisibilityRelation, DigitSum, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, FixedInvariantNumeric, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -279,6 +287,7 @@ nullēm! (Skaitļa kvadrāts ir skaitļa reizinājums pašam ar sevi).
 * domain:NT
 * _hasSolutionConcept: PerfectSquares, PrimeFactorization, DivisibilityRelation, DigitRepresentation
 * _readingDifficulty: medium
+* _hasReasoningMethod: PrimeFactorization, DivisibilityRules
 
 </small>
 
@@ -317,6 +326,7 @@ katram no pārējiem bērniem - samazinājās?
 * domain:Comb
 * _hasSolutionConcept: Invariant, FiniteSequenceArrangement, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, FixedInvariantNumeric, ContradictionForImpossibility
 
 </small>
 
@@ -348,6 +358,7 @@ vienādas cepures maksā vairāk nekā $11$ eiro. Cik maksā viena cepure?
 * topic:RationalOperations
 * _hasSolutionConcept: RationalNumbers, LinearInequality
 * _readingDifficulty: low
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
 
 </small>
 
@@ -379,6 +390,7 @@ apgrieztas spoguļattēlā.
 * topic:ColoringProblems
 * _hasSolutionConcept: Tiling, ChessboardColoring, ParityInvariant, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant
 
 </small>
 
@@ -417,6 +429,7 @@ divi cipari ir $11$ un kurš dalās ar $11$?
 * method:MTH_ContradictionForExistence
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, DivisibilityRules, DigitSum, DigitRepresentation, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: DivisibilityRules, ProofByContradiction, PositionalNotation, CoprimeFactorsDivisibility, ParityArgument, NumberConstruction
 
 </small>
 
@@ -473,6 +486,7 @@ Atrodi visus gadījumus un pamato, ka citu nav!
 * topic:TriangleInequality
 * _hasSolutionConcept: Triangle, TriangleCongruence, TriangleAngleSum, TriangleInequality, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum, TriangleInequality, SymmetryStrategy
 
 </small>
 
@@ -535,6 +549,7 @@ atsvariem, kur katrā kausā drīkst ielikt tieši divas bumbiņas, iespējams
 * topic:ProblemsWithHiddenInformation
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSet, DecisionTree
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -576,6 +591,7 @@ racionāls skaitlis!
 * concepts:rational-numbers
 * _hasSolutionConcept: RationalNumbers, IrrationalAndReals, SquareOfSumIdentity, PositiveAndNegative
 * _readingDifficulty: low
+* _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities, CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -610,6 +626,7 @@ apgrieztas spoguļattēlā.
 * topic:ColoringProblems
 * _hasSolutionConcept: Tiling, ChessboardColoring, EvenOddParity, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant
 
 </small>
 
@@ -643,6 +660,7 @@ naturāla skaitļa kvadrāta un pirmskaitļa summu.
 * concepts:primes,sum,square-Alg
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, PerfectSquares, DiffOfSquaresFactoring, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: FactoringAlgebraicExpressions, PrimePropertiesAndUniqueness, ProofByContradiction, NumberConstruction
 
 </small>
 
@@ -682,6 +700,7 @@ paralēlskaldņa tilpums?
 * topic:ArithmeticOperations
 * _hasSolutionConcept: PositiveIntegers, BasicSolids, Counterexample, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -720,6 +739,7 @@ $ABC$ ir vienādmalu!
 * topic:TrianglesIsosceles
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, TriangleAngleSum
 * _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AreaCounting, TriangleAngleSum
 
 </small>
 
@@ -772,6 +792,7 @@ reizinājums ir vismazākais!
 * topic:FindingExtremesWithFunctionProperties
 * _hasSolutionConcept: WholeIntegers, QuadraticFunction, OptimumProofStructure
 * _readingDifficulty: low
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother, UseFunctionGraphForRootsAndComparisons, IntroduceVariablesAndFormEquation
 
 </small>
 
@@ -805,6 +826,7 @@ ar izmēriem $1 \times 1 \times 3$ ?
 * topic:ColoringProblems
 * _hasSolutionConcept: Tiling, Coloring, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant, ProofByContradiction
 
 </small>
 
@@ -832,6 +854,7 @@ Pierādi, ka $x^{5}-5x^{3}+4x$ dalās ar $120$, ja $x$ ir vesels skaitlis!
 * topic:EquationFactorization
 * _hasSolutionConcept: WholeIntegers, DivisibilityRelation, PrimeNumbers
 * _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityByConsecutive, FactoringAlgebraicExpressions
 
 </small>
 
@@ -869,6 +892,7 @@ $G$. Nosaki $\sphericalangle CGD$ lielumu, ja $\sphericalangle CAD=\alpha$!
 * topic:TriangleInternalAngles
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, Angle, CircleAndDisk, InscribedCentralAngle
 * _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, TriangleAngleSum, CyclicQuadrilateral, IsoscelesTriangleProperties
 
 </small>
 
@@ -901,6 +925,7 @@ skaitlis $1$ ir vidējais ($n$-tais), ja **(A)** $n=5$; **(B)** $n=1008$.
 * topic:SequenceGaps
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, Invariant
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
