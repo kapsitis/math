@@ -8,7 +8,7 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: GraphConcept, DirectedGraph, WalkPathCycle, OptimumProofStructure
 * _readingDifficulty: high
 
@@ -39,7 +39,7 @@ skaitļi būtu ierakstīti tabulā tā, kā parādīts 2.zīm.
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: Invariant, StateSpaceProcess, WholeIntegers
 * _readingDifficulty: medium
 
@@ -61,7 +61,7 @@ stūriem.
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * _hasSolutionConcept: LatticeGrid, PointLineSegmentRay
 * _readingDifficulty: medium
 
@@ -85,7 +85,7 @@ reizinājuma $k \times k$ ciparu summa ir $24$?
 <small>
 
 * questionType:
-* domain:
+* domain:NT
 * _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRelation, DivisibilityRules, PerfectSquares, ExistenceVsUniversal
 * _readingDifficulty: low
 
@@ -113,7 +113,7 @@ divus spēlētājus ar vienādiem iegūto punktu daudzumiem.
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: RationalNumbers, FiniteSet, PigeonholePrinciple, Invariant
 * _readingDifficulty: medium
 
@@ -144,7 +144,7 @@ divos gadījumos:
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: EquationSystem, PositiveAndNegative, ArithmeticMean
 * _readingDifficulty: medium
 
@@ -170,7 +170,7 @@ rūtiņas? Griezumiem jāiet pa rūtiņu līnijām.
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
 * _readingDifficulty: medium
@@ -193,7 +193,7 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 <small>
 
 * questionType:
-* domain:
+* domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, ExhaustiveCheck
 * _readingDifficulty: medium
 
@@ -216,8 +216,8 @@ no šiem reizinājumiem ar $A$. Kāda ir mazākā iespējamā $A$ vērtība?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Alg
 * _hasSolutionConcept: DigitProduct, FiniteSet, OptimumProofStructure, ProofByContradiction
 * _readingDifficulty: medium
 
@@ -251,9 +251,9 @@ ar $11,\ 12$ utt., uzrakstiet labāko no savām atrastajām.
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DecisionTree
-* _readingDifficulty: medium
+* _readingDifficulty: high
 
 </small>
 
@@ -280,7 +280,7 @@ pierakstu?
 * seeAlso:LV.AMO.2007.7.1
 * concepts:primes
 * questionType:FindOptimal
-* domain:NT
+* domain:NT,Comb
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRules, DigitRepresentation, CaseAnalysis
 * _readingDifficulty: medium
 
@@ -337,6 +337,7 @@ $670 \leq n \leq 1339$.
 * domain:
 * _hasSolutionConcept: Tree, FiniteSet, Invariant, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -364,6 +365,7 @@ trijstūrī $ACE$ visas malas vienādas savā starpā.
 * domain:
 * _hasSolutionConcept: Triangle, TriangleCongruence, Angle, Polygon
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -392,6 +394,7 @@ lai nevienam trijstūrim ar trim sarkanām virsotnēm visas malas nebūtu vienā
 * domain:
 * _hasSolutionConcept: Coloring, Triangle, FiniteSet, Invariant
 * _readingDifficulty: high
+* _domain: Comb,Geom
 
 </small>
 
@@ -421,6 +424,7 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 * domain:
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, ProofByContradiction
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -441,6 +445,7 @@ Dots, ka $\frac{a}{b}=\frac{b}{c}=\frac{c}{a}$. Pierādīt, ka $a=b=c$.
 * domain:
 * _hasSolutionConcept: RationalNumbers, EquationSystem
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -470,6 +475,7 @@ $a_{1}+a_{2}+\ldots+a_{k}=n \cdot\left(\frac{1}{a_{1}}+\frac{1}{a_{2}}+\ldots+\f
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DivisorsSet
 * _readingDifficulty: low
+* _domain: NT,Alg
 
 </small>
 
@@ -499,6 +505,7 @@ Pierādīt, ka $AD=BD$.
 * domain:
 * _hasSolutionConcept: PointLineSegmentRay, Angle, TriangleCongruence, Triangle
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -528,6 +535,7 @@ turnīra noslēgumā ir visvairāk punktu.)
 * domain:
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, RationalNumbers
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -556,6 +564,7 @@ gadīties, ka tieši $23$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, DivisibilityRelation, ProofByContradiction
 * _readingDifficulty: high
+* _domain: NT,Comb
 
 </small>
 
@@ -585,6 +594,7 @@ grafiki?
 * domain:
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, FunctionComposition, CoordinatePlane
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -607,6 +617,7 @@ Pierādīt, ka $MX \perp NY$.
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, Angle
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -638,6 +649,7 @@ grupai. Kāds ir mazākais iespējamais grupu skaits?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PrimeFactorization, SetPartition, PigeonholePrinciple, Invariant
 * _readingDifficulty: high
+* _domain: NT,Comb
 
 </small>
 
@@ -677,6 +689,7 @@ mala pieder
 * domain:
 * _hasSolutionConcept: LatticeGrid, ParityInvariant, ProofByContradiction, Invariant
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 

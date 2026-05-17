@@ -7,7 +7,7 @@ kļūst skaidrs, kurās kastēs ir āboli?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: FiniteSet, ExhaustiveCheck
 * _readingDifficulty: medium
 
@@ -37,7 +37,7 @@ apli".)
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: FiniteSet, GraphConcept, FunctionConcept, ProofByContradiction
 * _readingDifficulty: high
 
@@ -71,8 +71,8 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Comb
 * _hasSolutionConcept: GraphConcept, DirectedGraph, OptimumProofStructure
 * _readingDifficulty: high
 
@@ -101,7 +101,7 @@ sviras svariem bez atsvariem atrast šo lodīti?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: DecisionTree, Invariant, ExhaustiveCheck
 * _readingDifficulty: medium
 
@@ -136,7 +136,7 @@ dažādiem, ja tos nevar novietot tā, lai tie pilnīgi sakristu viens ar otru.
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: FiniteSet, ExhaustiveCheck, OptimumProofStructure, DissectionIntoCongruent
 * _readingDifficulty: medium
@@ -168,7 +168,7 @@ izteiksme $2a+3b+c$ dalās ar $7$.
 <small>
 
 * questionType:
-* domain:
+* domain:NT
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, DivisibilityRules
 * _readingDifficulty: low
 
@@ -193,7 +193,7 @@ divos gadījumos:
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: EquationSystem, RationalNumbers, PositiveAndNegative, FiniteSet
 * _readingDifficulty: medium
 
@@ -223,7 +223,7 @@ būtu vienādi, ja sākotnējais izvietojums ir tāds, kāds parādīts 1.zīm. 
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: Invariant, EvenOddParity, ChessboardColoring, LatticeGrid
 * _readingDifficulty: high
 
@@ -264,7 +264,7 @@ stūris ar kādu atzīmēto?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: LatticeGrid, FiniteSet, OptimumProofStructure, Invariant
 * _readingDifficulty: high
 
@@ -295,7 +295,7 @@ rūķītis varētu apciemot katru citu?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: GraphConcept, FiniteSet, CountingProductRule, OptimumProofStructure
 * _readingDifficulty: high
 
@@ -344,6 +344,7 @@ pierakstu?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, GraphConcept, WalkPathCycle
 * _readingDifficulty: high
+* _domain: NT,Comb
 
 </small>
 
@@ -380,6 +381,7 @@ Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat.
 * domain:
 * _hasSolutionConcept: Triangle, TriangleCongruence, Angle
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -414,6 +416,7 @@ spēlēts pietiekoši ilgi).
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitSum, Invariant, GamePosition
 * _readingDifficulty: high
+* _domain: NT,Comb
 
 </small>
 
@@ -442,6 +445,7 @@ citu.
 * domain:
 * _hasSolutionConcept: GraphConcept, VertexDegree, PigeonholePrinciple
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -466,6 +470,7 @@ starpība?
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, LinearInequality, OptimumProofStructure
 * _readingDifficulty: high
+* _domain: Alg
 
 </small>
 
@@ -503,6 +508,7 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 * domain:
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, VariableExpression
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -525,6 +531,7 @@ Aprēķināt **(A)** $\sphericalangle MCB$, **(B)** $\sphericalangle MBC$.
 * domain:
 * _hasSolutionConcept: Triangle, Angle, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -568,6 +575,7 @@ $1716$. Kādu skaitli viņa iedomājās sākumā?
 * domain:NT
 * _hasSolutionConcept: DigitProduct, DivisibilityRelation, PrimeNumbers, DigitRepresentation
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -601,6 +609,7 @@ Dzintars savā starpā nesazinās un nespiego, ko dara skatītājs.)
 * domain:
 * _hasSolutionConcept: DigitRepresentation, PigeonholePrinciple, FiniteSet
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -636,6 +645,7 @@ figūriņas sākuma pozīciju.
 * domain:
 * _hasSolutionConcept: ChessboardColoring, LatticeGrid, Invariant, OptimumProofStructure
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -675,6 +685,7 @@ gadīties, ka tieši $19$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 * domain:NT
 * _hasSolutionConcept: DigitSum, DivisibilityRules, ProofByContradiction
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -704,6 +715,7 @@ punktos $M,\ K$ un $N$. Pierādīt, ka $\sphericalangle BMN=\sphericalangle BMK$
 * domain:
 * _hasSolutionConcept: Triangle, CircleAndDisk, ParallelPerpendicular, QuadrilateralFamilies, InscribedCentralAngle
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -743,6 +755,7 @@ $$(f(x))^{2}+(g(x))^{2}=\left(x^{2}+1\right)\left(x^{2}+4\right)\left(x^{2}+2x+2
 * domain:NT
 * _hasSolutionConcept: PerfectSquares, PolynomialAndRoots, SquareOfSumIdentity, VariableExpression
 * _readingDifficulty: medium
+* _domain: NT,Alg
 
 </small>
 
@@ -769,6 +782,7 @@ ja **(A)** $n=8$, **(B)** $n=9$?
 * domain:
 * _hasSolutionConcept: GraphConcept, VertexDegree, ParityInvariant, WalkPathCycle
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -804,6 +818,7 @@ monētu daudzums var vienlaicīgi atrasties ar ģerboni uz augšu?
 * domain:
 * _hasSolutionConcept: ParityInvariant, Invariant, OptimumProofStructure
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 

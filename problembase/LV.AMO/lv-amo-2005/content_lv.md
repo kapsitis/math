@@ -13,7 +13,7 @@ ir jautājuma zīme?
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: MagicConfiguration, FiniteSequenceArrangement, CaseAnalysis
 * _readingDifficulty: medium
 
@@ -39,7 +39,7 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: DecisionTree, CaseAnalysis
 * _readingDifficulty: medium
 
@@ -71,7 +71,7 @@ rindiņā - nepāra skaits zvaigznīšu?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: FiniteSet, EvenOddParity, ParityInvariant, ProofByContradiction
 * _readingDifficulty: medium
 
@@ -99,9 +99,9 @@ kopējais zelta daudzums tajā.)
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: FiniteSet, FiniteSequenceArrangement, SetPartition, Invariant
-* _readingDifficulty: medium
+* _readingDifficulty: high
 
 </small>
 
@@ -128,7 +128,7 @@ ar formu ![](LV.AMO.2005.5.5_2.png)?
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * _hasSolutionConcept: Tiling, ChessboardColoring, Counterexample
 * _readingDifficulty: medium
 
@@ -149,7 +149,7 @@ $200520052005 \times 20042004$ ir lielāks?
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: DigitRepresentation, MultiplicationPrinciple
 * _readingDifficulty: low
 
@@ -171,7 +171,7 @@ divas kaudzītes, kurās kopā ir tieši $15$ sērkociņu.
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: PigeonholePrinciple, ProofByContradiction
 * _readingDifficulty: medium
 
@@ -193,8 +193,8 @@ svēršanām var noteikt katra atsvara masu?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:Comb
 * _hasSolutionConcept: DecisionTree, EvenOddParity, CaseAnalysis
 * _readingDifficulty: medium
 
@@ -227,7 +227,7 @@ visas vienādas savā starpā.
 <small>
 
 * questionType:
-* domain:
+* domain:NT
 * _hasSolutionConcept: DivisibilityRelation, FiniteSet, SetPartition, Invariant
 * _readingDifficulty: medium
 
@@ -255,7 +255,7 @@ garums ir $1$?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: LatticeGrid, PointLineSegmentRay, OptimumProofStructure, ChessboardColoring, CaseAnalysis
 * _readingDifficulty: medium
 
@@ -298,6 +298,7 @@ Pierādīt, ka $AB=BK$.
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -324,6 +325,7 @@ ir nesaīsināmas?
 * domain:
 * _hasSolutionConcept: RationalNumbers, DivisibilityRelation, CoprimeIntegers, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -350,6 +352,7 @@ Pankūku nomaiņai laiks nav jāparedz.
 * domain:
 * _hasSolutionConcept: OptimumProofStructure, FiniteSet, LatinSquareSudoku
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -381,6 +384,7 @@ var beigties šo skaitļu reizinājums?
 * seeAlso:LT.VILNIUS.2008.12.1
 * _hasSolutionConcept: PrimeFactorization, DivisibilityRelation, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -423,6 +427,7 @@ kaimiņiem.
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, ProofByContradiction, Invariant, ExistenceVsUniversal
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -462,6 +467,7 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 * domain:
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, VariableExpression
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -486,6 +492,7 @@ skaitļi?
 * domain:
 * _hasSolutionConcept: FibonacciLikeSequence, RecurrentSequence, Invariant
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -512,6 +519,7 @@ reizinājumu?
 * method:MTH_ExhaustiveAlgorithms
 * _hasSolutionConcept: PositiveIntegers, EquationSystem, CaseAnalysis, SetPartition
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -575,6 +583,7 @@ Aprēķināt
 * domain:
 * _hasSolutionConcept: Triangle, TriangleAngleSum, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -617,6 +626,7 @@ Kāda ir lielākā iespējamā $n$ vērtība?
 * domain:
 * _hasSolutionConcept: Coloring, LatticeGrid, PigeonholePrinciple, OptimumProofStructure, ProofByContradiction
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -649,6 +659,7 @@ neizmanto nevienu no cipariem $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -671,6 +682,7 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 * domain:
 * _hasSolutionConcept: Triangle, CircleAndDisk, TriangleSpecialLines, TriangleCongruence, Angle
 * _readingDifficulty: high
+* _domain: Geom
 
 </small>
 
@@ -706,6 +718,7 @@ rūķīšus.
 * domain:
 * _hasSolutionConcept: FiniteSet, SetIntersection, PigeonholePrinciple, ProofByContradiction
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -735,6 +748,7 @@ izteiksmes $x+y+z$ lielāko un mazāko iespējamo vērtību.
 * domain:
 * _hasSolutionConcept: VariableExpression, EquationSystem, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -793,6 +807,7 @@ $C$ tādā pašā kārtībā, kādā tie sākotnēji atradās uz stienīša $A$?
 * domain:
 * _hasSolutionConcept: RecurrentSequence, FiniteSequenceArrangement, OptimumProofStructure
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 

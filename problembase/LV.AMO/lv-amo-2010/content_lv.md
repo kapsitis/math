@@ -14,7 +14,7 @@ Kāds varēja būt **(A)** mazākais iegūtais skaitlis;
 <small>
 
 * questionType:
-* domain:
+* domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, OptimumProofStructure, FiniteSequenceArrangement
 * _readingDifficulty: medium
 
@@ -50,7 +50,7 @@ pa rūtiņu malām.
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid
 * _readingDifficulty: low
 
@@ -75,9 +75,10 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -122,7 +123,7 @@ komplektā ir tieši viens kauliņš.)
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, Tiling, ProofByContradiction
 * _readingDifficulty: high
 
@@ -183,7 +184,7 @@ tieši $6$ balti kaimiņi?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: Coloring, FiniteSet, LatticeGrid, CaseAnalysis
 * _readingDifficulty: high
 
@@ -205,7 +206,7 @@ reizes lielāks par mazāko. Atrodi šos skaitļus!
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, FiniteSequenceArrangement, LinearEquation
 * _readingDifficulty: medium
 
@@ -242,7 +243,7 @@ cipariem!
 <small>
 
 * questionType:
-* domain:
+* domain:NT
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, DivisibilityRelation, ExhaustiveCheck
 * _readingDifficulty: medium
 
@@ -270,7 +271,7 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, DivisibilityRelation, DissectionIntoCongruent, Coloring, Counterexample, Invariant
 * _readingDifficulty: medium
@@ -307,7 +308,7 @@ Vai, vairākkārt veicot šādus gājienus, var iegūt tabulu, kāda attēlota 9
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: WholeIntegers, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 
@@ -326,8 +327,8 @@ beigās iegūstamajā tabulā tā ir $10$, uzdevuma prasības izpildīt nav iesp
 
 Puķu dobe sadalīta $n$ rindās pa $n$ stādiem katrā rindā. Šajā dobē ir 
 jāiestāda trīs veidu puķes: narcises, hiacintes un tulpes tā, lai izpildītos 
-sekojoši nosacījumi:
-1) katrā rindā ir iestādīts nepāra skaits katra veida stādu;
+sekojoši nosacījumi:  
+1) katrā rindā ir iestādīts nepāra skaits katra veida stādu;  
 2) nav iespējams atrast divas tādas rindas, kurās gan narcišu, gan hiacinšu, 
    gan tulpju daudzumi sakristu.
 
@@ -336,7 +337,7 @@ Nosaki, kāda ir mazākā iespējamā $n$ vērtība, pie kuras iespējams to izd
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: NumberPartitions, ParityInvariant, OptimumProofStructure, Tuple
 * _readingDifficulty: high
 
@@ -388,6 +389,7 @@ Atrodi visus šos skaitļus!
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, EvenOddParity, DigitRepresentation, EquationSystem
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -436,6 +438,7 @@ Vai var gadīties, ka $AB>AC$?
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleCongruence, TriangleInequality, ProofByContradiction
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -482,6 +485,7 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: MagicConfiguration, LatinSquareSudoku, PositiveIntegers
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -514,6 +518,7 @@ izmestas.)
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, Invariant
 * _readingDifficulty: high
+* _domain: NT
 
 </small>
 
@@ -553,6 +558,7 @@ rūķīšiem?
 * domain:
 * _hasSolutionConcept: TruthTellersAndLiars, FiniteSequenceArrangement, OptimumProofStructure, CaseAnalysis
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -595,6 +601,7 @@ Vai to var izdarīt?
 * domain:
 * _hasSolutionConcept: RationalNumbers, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -620,6 +627,7 @@ vismaz astoņi būs savā starpā atšķirīgi!
 * domain:Comb
 * _hasSolutionConcept: PositiveIntegers, FiniteSet, CartesianProduct, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -683,6 +691,7 @@ kvadrāts. Pierādi, ka $BDFH$ arī ir kvadrāts!
 * domain:
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, TriangleCongruence, TriangleAngleSum
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -750,6 +759,7 @@ pieejami tikai:
 * domain:
 * _hasSolutionConcept: DivisionWithRemainder, LinearEquation, CaseAnalysis, Invariant
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -809,6 +819,7 @@ turnīra noslēgumā ir visvairāk punktu.)
 * domain:
 * _hasSolutionConcept: GraphConcept, FiniteSet, RationalNumbers, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -840,6 +851,7 @@ iespējams izdarīt, ja
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, SetPartition, ParityInvariant
 * _readingDifficulty: medium
+* _domain: NT,Comb
 
 </small>
 
@@ -872,6 +884,7 @@ vienlaicīgi gan $AB$, gan $CD$ viduspunkts!
 * domain:
 * _hasSolutionConcept: PointLineSegmentRay, QuadraticFunction, CoordinatePlane, ParallelogramProperties, ProofByContradiction
 * _readingDifficulty: high
+* _domain: Geom,Alg
 
 </small>
 
@@ -938,6 +951,7 @@ $d(n)$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, EvenOddParity, PrimeNumbers
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -971,6 +985,7 @@ Piemēram, skaitlis $19$ ierakstīts ceturtajā rindā, trešajā kolonnā.
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, NumberSequence, Invariant, OrderedPair
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -1022,6 +1037,7 @@ nevar, izpildot tikai atļautos gājienus?
 * domain:
 * _hasSolutionConcept: LatticeGrid, Coloring, Invariant
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 

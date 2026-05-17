@@ -9,8 +9,8 @@ pirmais cipars par $2$ mazāks nekā visu citu ciparu summa.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal,FindOptimal
+* domain:NT
 * _hasSolutionConcept: DigitRepresentation, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
 
@@ -41,7 +41,7 @@ ir jautājuma zīme?
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: PositiveIntegers, MagicConfiguration, FiniteSequenceArrangement, CaseAnalysis
 * _readingDifficulty: medium
 
@@ -77,7 +77,7 @@ dzīvoja blakus rūtiņās, arī kvadrātā dzīvotu blakus rūtiņās?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, Invariant
 * _readingDifficulty: high
 
@@ -102,7 +102,7 @@ tādās daļās, kādas attēlotas 2.zīm.? Jābūt vismaz vienai katra veida da
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, ProofByContradiction, Invariant
 * _readingDifficulty: high
@@ -133,7 +133,7 @@ Vai līdzīgā veidā var uzrakstīt naturālos skaitļus no $1$ līdz $13$ iesk
 <small>
 
 * questionType:
-* domain:
+* domain:NT,Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, DivisibilityRelation, ExistenceVsUniversal
 * _readingDifficulty: medium
 
@@ -153,8 +153,8 @@ tādas pašas grāmatas $22$ latus ar santīmiem. Cik maksā $1$ grāmata?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearEquation
 * _readingDifficulty: medium
 
@@ -176,8 +176,8 @@ izgriezt no 3.zīm. attēlotās figūras?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, ChessboardColoring, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
@@ -203,7 +203,7 @@ divas kaudzītes, kurās kopā ir tieši $13$ sērkociņu.
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: PigeonholePrinciple, FiniteSet, ProofByContradiction
 * _readingDifficulty: medium
 
@@ -229,7 +229,7 @@ Kas uzvar, pareizi spēlējot - pirmais vai otrais spēlētājs?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, Invariant, LatticeGrid
 * _readingDifficulty: medium
 
@@ -257,7 +257,7 @@ vienlaicīgi atrodas skaitļi $21;\ 27;\ 64;\ 180;\ 225$?
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 
@@ -286,6 +286,7 @@ Pierādīt, ka $(x-y)(z-t)>0$.
 * domain:
 * _hasSolutionConcept: ProofByContradiction, CaseAnalysis, BinaryRelation
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -314,6 +315,7 @@ ir $180^{\circ}$.)
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleAngleSum, TriangleCongruence, ParallelPerpendicular
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -351,6 +353,7 @@ ir nesaīsināmas?
 * domain:NT
 * _hasSolutionConcept: RationalNumbers, GCD, CoprimeIntegers
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -388,6 +391,7 @@ un $FF_{1} \perp BC$. Pierādīt, ka $GG_{1} \perp CD$.
 * domain:
 * _hasSolutionConcept: Polygon, Triangle, TriangleSpecialLines, TriangleCongruence, ParallelPerpendicular
 * _readingDifficulty: high
+* _domain: Geom
 
 </small>
 
@@ -412,6 +416,7 @@ diplomātus, kas savā starpā sazinoties lieto visas $3$ valodas.
 * domain:
 * _hasSolutionConcept: GraphConcept, VertexDegree, Coloring, Triangle
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -446,6 +451,7 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 * domain:
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, PolynomialAndRoots
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -474,6 +480,7 @@ nogriežņu $AB,\ BD,\ DC,\ CA$ viduspunkti. Pierādīt, ka $XZ \perp YT$.
 * domain:
 * _hasSolutionConcept: Triangle, CircleAndDisk, QuadrilateralFamilies, ParallelPerpendicular
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -503,6 +510,7 @@ $A=B$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, GCD, DigitRepresentation
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -528,6 +536,7 @@ garumu.
 * domain:
 * _hasSolutionConcept: DissectionIntoCongruent, Invariant
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -560,6 +569,7 @@ rīkojamies tāpat, utt., kamēr paliek neizsvītrots viens skaitlis. Kurš tas 
 * method:MTH_InductiveAlgorithms
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, RecurrentSequence, Invariant
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -609,6 +619,7 @@ $x^{2}+p_{1}x+q_{1}=0$ un $x^{2}+p_{2}x+q_{2}=0$ arī eksistē atrisinājums.
 * domain:
 * _hasSolutionConcept: QuadraticEquation, ProofByContradiction, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -633,6 +644,7 @@ vienas cilts rūķīši, attālums starp kuriem ir vai nu $a$, vai $b$.
 * domain:
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ProofByContradiction, PigeonholePrinciple
 * _readingDifficulty: high
+* _domain: Comb,NT
 
 </small>
 
@@ -662,6 +674,7 @@ $EM \perp BC$.
 * domain:
 * _hasSolutionConcept: CircleAndDisk, Triangle, TriangleSpecialLines, ParallelPerpendicular
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -691,6 +704,7 @@ rūķīšus.
 * domain:
 * _hasSolutionConcept: GraphConcept, VertexDegree, FiniteSet, ProofByContradiction
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -724,6 +738,7 @@ Vai to var izdarīt, ja **(A)** $n=4$; **(B)** $n=5$?
 * domain:NT
 * _hasSolutionConcept: MagicConfiguration, PositiveAndNegative, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 

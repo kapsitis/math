@@ -8,7 +8,7 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: GraphConcept, DirectedGraph, OptimumProofStructure
 * _readingDifficulty: high
 
@@ -38,7 +38,7 @@ izdarīt?
 <small>
 
 * questionType:
-* domain:
+* domain:NT,Comb
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, DivisibilityRelation
 * _readingDifficulty: medium
 
@@ -62,7 +62,7 @@ tieši $6$ balti kaimiņi?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: LatticeGrid, Coloring, FiniteSet, CaseAnalysis
 * _readingDifficulty: medium
 
@@ -90,7 +90,7 @@ malas garums ir $1$.)
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, ParityInvariant
 * _readingDifficulty: medium
 
@@ -124,7 +124,7 @@ Kāda daļa no $B$ atbalstītājiem ir meļi?
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ArithmeticMean
 * _readingDifficulty: medium
 
@@ -149,7 +149,7 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 <small>
 
 * questionType:
-* domain:
+* domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, CaseAnalysis
 * _readingDifficulty: low
 
@@ -176,7 +176,7 @@ skaitlisko vērtību. Kādu rezultātu viņa ieguva?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
 
@@ -200,7 +200,7 @@ reizinājumu var būt **(A)** $12$, **(B)** $18$?
 <small>
 
 * questionType:
-* domain:
+* domain:NT
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, Invariant, CaseAnalysis
 * _readingDifficulty: medium
 
@@ -231,7 +231,7 @@ $6$ nedrīkst izmantot, lai attēlotu ciparu $9$, un otrādi.)
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
 * _hasSolutionConcept: DigitRepresentation, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
 
@@ -267,7 +267,7 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, EvenOddParity, DivisibilityRelation, Counterexample, Invariant
 * _readingDifficulty: medium
@@ -301,6 +301,7 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 * domain:
 * _hasSolutionConcept: PrimeFactorization, DivisibilityRelation, DigitRepresentation, LastDigit
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -328,6 +329,7 @@ tikai tas, ka tie atrodas trijstūra $T$ iekšpusē.
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleInequality, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -373,6 +375,7 @@ Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 * isHard:true
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, Permutation, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: NT,Comb
 
 </small>
 
@@ -416,6 +419,7 @@ atrodas ārpus $\triangle ABC$. Pierādīt, ka $AN=CM$.
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleCongruence, Angle
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -444,6 +448,7 @@ pavisam ir rūķīšu? (Dālderis ir vienīgā rūķīšiem pieejamā naudas vie
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, Invariant
 * _readingDifficulty: high
+* _domain: NT
 
 </small>
 
@@ -476,6 +481,7 @@ gadīties, ka
 * domain:
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, ExistenceVsUniversal, Counterexample
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -502,6 +508,7 @@ turnīra noslēgumā ir visvairāk punktu.)
 * domain:
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, RationalNumbers
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -529,6 +536,7 @@ bisektrise.
 * domain:
 * _hasSolutionConcept: PointLineSegmentRay, Angle, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -564,6 +572,7 @@ Cipariņam un cik - viņa kolēgim? (Visus vecumus izsaka veselos gados.)
 * domain:Comb
 * _hasSolutionConcept: PrimeFactorization, EquationSystem, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: high
+* _domain: NT
 
 </small>
 
@@ -604,6 +613,7 @@ vietā uz riņķa līnijas atrastos blakus (vienalga kādā secībā).
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, OrderedPair, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -635,6 +645,7 @@ grafiki?
 * domain:
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, FunctionComposition, CoordinatePlane
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -656,6 +667,7 @@ $a+b+c=0$.
 * domain:
 * _hasSolutionConcept: PositiveAndNegative, AbsoluteValue, SquareOfSumIdentity
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -688,6 +700,7 @@ paralēls $t$ arī tad, ja tas atrodas uz $t$)
 * domain:
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, Translation, Invariant, ExistenceVsUniversal
 * _readingDifficulty: high
+* _domain: Geom
 
 </small>
 
@@ -715,6 +728,7 @@ ar $d(n)$.
 * domain:NT
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PrimeNumbers, PrimeFactorization
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -748,6 +762,7 @@ citādi), un mainīt krāsu uz pretējo visās šīs figūras rūtiņās. Vai, a
 * domain:
 * _hasSolutionConcept: Coloring, ChessboardColoring, LatticeGrid, Invariant
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
