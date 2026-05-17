@@ -11,6 +11,7 @@ kas dalās ar $3$. Kāda ir uzrakstīto skaitļu summa?
 * _hasSolutionConcept: MultiplesSet, DivisibilityRelation, PositiveIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration
 
 </small>
 
@@ -33,6 +34,9 @@ Kāda ir divu mazāko pirmskaitļu summa?
 * _hasSolutionConcept: PrimeNumbers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: DirectRecallOfDefinitions
+* _newReasoningMethodDescription: Using direct recall of basic definitions or facts
 
 </small>
 
@@ -56,6 +60,7 @@ ja katrā kastē ir vismaz $10$ konfektes?
 * _hasSolutionConcept: NumberSequence, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -87,6 +92,7 @@ vienāds olu skaits?
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PrimeFactorization
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: PrimeFactorization
 
 </small>
 
@@ -115,6 +121,9 @@ attēlā redzama figūra, kas sastāv no četrām 5-rūtiņu figūrām.
 * _hasSolutionConcept: Polygon, LatticeGrid, Invariant
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _newReasoningMethodLabel: PerimeterIncrement
+* _newReasoningMethodDescription: Track perimeter change when adding repeated pieces
 
 </small>
 
@@ -148,6 +157,7 @@ pārtraukt, lai to turpinātu otra darbiniece. Kāds ir īsākais laiks
 * _hasSolutionConcept: OptimumProofStructure, ArithmeticMean, PositiveIntegers
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
 
 </small>
 
@@ -181,6 +191,7 @@ nopirka Mārtiņš?
 * _hasSolutionConcept: DivisibilityRelation, ExhaustiveCheck, LinearDiophantine
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: CompleteEnumeration
 
 </small>
 
@@ -207,6 +218,7 @@ Cik krustpunktu ir trīs dotajām taisnēm (skat. att.)?
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, CountingProductRule
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -235,6 +247,9 @@ centimetros!
 * _hasSolutionConcept: Triangle, Polygon
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: PerimeterComputation
+* _newReasoningMethodDescription: Computing total boundary length and repeated traversal distance
 
 </small>
 
@@ -257,6 +272,7 @@ Cik skaitļi intervālā no $1$ līdz $200$ dalās ar $7$?
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, BoundingArgument
 
 </small>
 
@@ -277,6 +293,7 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules
 
 </small>
 
@@ -302,6 +319,9 @@ figūra, ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 * _hasSolutionConcept: BasicSolids, CountingSumRule
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _newReasoningMethodLabel: LayerCounting3D
+* _newReasoningMethodDescription: Counting cubes by horizontal layers in a 3D stack
 
 </small>
 
@@ -329,6 +349,7 @@ $$25~\mathrm{t}~50~\mathrm{kg} + 13~\mathrm{t}~950~\mathrm{kg} –
 * _hasSolutionConcept: WholeIntegers
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -349,6 +370,7 @@ Vai skaitlis $2021$ dalās ar $5$?
 * _hasSolutionConcept: DivisibilityRules, LastDigit, DivisibilityRelation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules
 
 </small>
 
@@ -374,6 +396,9 @@ Cik trijstūri redzami dotajā zīmējumā?
 * _hasSolutionConcept: Triangle, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: SymmetryStrategy
+* _newReasoningMethodLabel: SystematicSubfigureCounting
+* _newReasoningMethodDescription: Counting all subfigures by partitioning into repeated regions
 
 </small>
 
@@ -406,6 +431,9 @@ Kāds ir flīzes perimetrs centimetros, ja pusriņķa rādiuss ir $4~\mathrm{cm}
 * _hasSolutionConcept: CircleAndDisk, PointLineSegmentRay
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: PerimeterFromArcDiameterComposition
+* _newReasoningMethodDescription: Compute perimeter by composing sides from semicircle diameters
 
 </small>
 
@@ -428,6 +456,9 @@ naturāli skaitļi. Kāds ir taisnstūra perimetrs centimetros?
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, QuadrilateralFamilies
 * _readingDifficulty: low
 * _domain: Geom,NT
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: PrimeFactorizationOfArea
+* _newReasoningMethodDescription: Using prime factorization to determine integer side lengths
 
 </small>
 
@@ -456,6 +487,7 @@ Kura no figūrām ir visvieglākā?
 * _hasSolutionConcept: TotalOrder, Invariant, QuadrilateralFamilies, Triangle, CircleAndDisk
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -491,6 +523,7 @@ uz punktu $B$? Pa ceļiem var pārvietoties tikai bultiņu norādītajā virzien
 * _hasSolutionConcept: DirectedGraph, WalkPathCycle, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -521,6 +554,7 @@ atrodas grāmata, kas maksā 7 eiro?
 * _hasSolutionConcept: SetDifference, FiniteSet, DivisibilityRules
 * _readingDifficulty: medium
 * _domain: NT,Geom
+* _hasReasoningMethod: EulerVennDiagramRegions
 
 </small>
 
@@ -548,6 +582,7 @@ $20$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $5$?
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet
 * _readingDifficulty: low
 * _domain: NT,Geom
+* _hasReasoningMethod: EulerVennDiagramRegions
 
 </small>
 
@@ -573,6 +608,7 @@ Telpā ir $3$ cilvēki. Cik dažādās secībās viņi var pamest šo telpu?
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSequenceArrangement
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -596,6 +632,7 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 * _hasSolutionConcept: PrimeNumbers, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration
 
 </small>
 
@@ -629,6 +666,7 @@ D. vairāk nekā $1000000$
 * _hasSolutionConcept: RationalNumbers, GeometricProgression, ArithmeticMean
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
 
 </small>
 
@@ -673,6 +711,9 @@ figūra, kas sastāv no četrām šādi saliktām T-veida figūrām.
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSequenceArrangement
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CountingByDoubleCounting
+* _newReasoningMethodLabel: PerimeterIncrement
+* _newReasoningMethodDescription: Track perimeter change when attaching repeated pieces
 
 </small>
 
@@ -702,6 +743,9 @@ garāks nekā iepriekšējais!
 * _hasSolutionConcept: PointLineSegmentRay, FiniteSequenceArrangement, CountingSumRule
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: ArithmeticProgressionSummation
+* _newReasoningMethodDescription: Summing terms of an arithmetic progression
 
 </small>
 
@@ -724,6 +768,7 @@ Cik krustpunktu ir četrām dotajām taisnēm (skat. att.)?
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, CountingProductRule
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CountingByDoubleCounting
 
 </small>
 
@@ -746,6 +791,9 @@ tad rezultātā iegūst skaitli $127$. Nosaki $A$ vērtību!
 * _hasSolutionConcept: PerfectCubes, LastDigit
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _newReasoningMethodLabel: LastDigitAnalysis
+* _newReasoningMethodDescription: Inferring a number from the last digit of its power
 
 </small>
 
@@ -775,6 +823,9 @@ veicot $369~\mathrm{cm}$. Nosaki trijstūra malas garumu centimetros!
 * _hasSolutionConcept: Triangle, DivisionWithRemainder, PositiveIntegers
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: PerimeterFromRepeatedTraversal
+* _newReasoningMethodDescription: Compute perimeter from repeated laps and divide by side count
 
 </small>
 
@@ -805,6 +856,7 @@ minūtēs, kurā viņas var apkalpot visas septiņas klientes?
 * _hasSolutionConcept: OptimumProofStructure, ArithmeticMean, PositiveIntegers
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
 
 </small>
 
@@ -835,6 +887,7 @@ Cik skaitļu intervālā no $1$ līdz $600$ dalās ar $7$?
 * _hasSolutionConcept: MultiplesSet, DivisibilityRelation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, BoundingArgument
 
 </small>
 
@@ -857,6 +910,7 @@ olimpiādē?
 * _hasSolutionConcept: RationalNumbers, CountingSumRule
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother
 
 </small>
 
@@ -882,6 +936,7 @@ atrastos līdzsvarā?
 * _hasSolutionConcept: EquationSystem, LinearEquation, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother
 
 </small>
 
@@ -913,6 +968,7 @@ Kāds atlikums rodas, ja $10035$ dala ar $6$?
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRules, EvenOddParity, DigitSum
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
 
 </small>
 
@@ -939,6 +995,7 @@ ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 * _hasSolutionConcept: BasicSolids, FiniteSet, CountingSumRule
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -965,6 +1022,7 @@ $$(2~\mathrm{h}~41~\mathrm{min} + 5~\mathrm{h}~59~\mathrm{min}) : 2 – 28~\math
 * _hasSolutionConcept: ArithmeticMean, RationalNumbers
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -988,6 +1046,7 @@ Vai skaitlis $20212021$ dalās ar $5$?
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules
 
 </small>
 
@@ -1010,6 +1069,9 @@ Cik trijstūri redzami dotajā zīmējumā?
 * _hasSolutionConcept: Triangle, QuadrilateralFamilies, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: SymmetryStrategy
+* _newReasoningMethodLabel: SystematicFigureCounting
+* _newReasoningMethodDescription: Partitioning a diagram into regions and summing repeated subfigure counts
 
 </small>
 
@@ -1042,6 +1104,7 @@ Kāds ir taisnstūra perimetrs, ja riņķa līnijas rādiuss ir $4~\mathrm{cm}$?
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: ParallelogramProperties
 
 </small>
 
@@ -1070,6 +1133,7 @@ rūtiņu pa labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļūt rūti
 * _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: DynamicProgramming, RecursiveSequenceForCounting, RuleOfSumDisjointCases
 
 </small>
 
@@ -1101,6 +1165,7 @@ dalītos ar $90$?
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, LastDigit
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
 
 </small>
 
@@ -1126,6 +1191,7 @@ nenokrāsoti, ja kastes škautnes garums ir $7~\mathrm{cm}$?
 * _hasSolutionConcept: BasicSolids, RationalNumbers
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -1150,6 +1216,7 @@ Cik dažādās secībās $3$ skolēni var nostāties rindā pie kases?
 * _hasSolutionConcept: FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -1178,6 +1245,7 @@ grāmata, kas maksā $17$ eiro?
 * _hasSolutionConcept: DivisibilityRelation, EvenOddParity, SetDifference, EulerVennDiagrams
 * _readingDifficulty: medium
 * _domain: NT,Geom
+* _hasReasoningMethod: EulerVennDiagramRegions, FixedInvariantNumeric
 
 </small>
 
@@ -1204,6 +1272,7 @@ atrodas aplī. Kurā plaknes daļā atrodas skaitlis $10$?
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet, SetIntersection
 * _readingDifficulty: low
 * _domain: NT,Geom
+* _hasReasoningMethod: EulerVennDiagramRegions
 
 </small>
 
@@ -1224,6 +1293,7 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 * _hasSolutionConcept: CountingProductRule, FiniteSequenceArrangement
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: RuleOfProductIndependentChoices
 
 </small>
 
@@ -1250,6 +1320,7 @@ lai skaitļi pa apli būtu uzrakstīti pretējā secībā?
 * _hasSolutionConcept: Permutation, Invariant, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -1275,6 +1346,7 @@ virsotnēm bija attēloti sākotnējā zīmējumā?
 * _hasSolutionConcept: QuadrilateralFamilies, PointLineSegmentRay, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -1300,6 +1372,7 @@ $$A(1;3.5) \quad B(8;6) \quad C(-12;-1) \quad D(-5;1)$$
 * _hasSolutionConcept: CoordinatePlane, LinearFunction, PointLineSegmentRay, OrderedPair
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -1338,6 +1411,7 @@ Nosaki ceturtās virsotnes koordinātu summu!
 * _hasSolutionConcept: CoordinatePlane, QuadrilateralFamilies, ParallelogramProperties, OrderedPair
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: ParallelogramProperties
 
 </small>
 
@@ -1363,6 +1437,7 @@ Cik mazos trijstūrīšus ieguva?
 * _hasSolutionConcept: Triangle, DissectionIntoCongruent, CountingSumRule, NumberSequence
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -1389,6 +1464,7 @@ viņai pietrūktu. Cik centu ir Dacei?
 * _hasSolutionConcept: LinearEquation, EquationSystem, DirectProportion
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -1422,6 +1498,9 @@ kur redzamas pirmās trīs figūras). No cik divu posmu leņķīšiem
 * _hasSolutionConcept: LatticeGrid, Tiling, Invariant, CountingSumRule
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CountingByDoubleCounting
+* _newReasoningMethodLabel: RecursiveChangeCounting
+* _newReasoningMethodDescription: Track total count via fixed increment in each construction step
 
 </small>
 
@@ -1450,6 +1529,7 @@ Cik krustpunktu ir trīs dotajām taisnēm un staram (skat.att.)
 * _hasSolutionConcept: PointLineSegmentRay, CountingSumRule
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -1473,6 +1553,7 @@ Kāds ir galarezultāta pēdējais cipars?
 * _hasSolutionConcept: LastDigit, DigitRepresentation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: LastDigitAnalysis
 
 </small>
 
@@ -1504,6 +1585,9 @@ malas garums ir $4~\mathrm{cm}$?
 * _hasSolutionConcept: DivisionWithRemainder, Triangle, MultiplesSet
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _newReasoningMethodLabel: PeriodicMotionAlongPerimeter
+* _newReasoningMethodDescription: Using perimeter periodicity via division with remainder
 
 </small>
 
@@ -1531,6 +1615,7 @@ olimpiādē. Cik procentu no skolas skolēniem piedalījās olimpiādē?
 * _hasSolutionConcept: RationalNumbers, ArithmeticMean
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -1556,6 +1641,7 @@ Kāda ir riņka un kvadrāta masa, ja trijstūra masa ir $5$ kg?
 * _hasSolutionConcept: EquationSystem, LinearEquation, Triangle, QuadrilateralFamilies
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, SystemOfEquationsAdditionOrSubstitution
 
 </small>
 
@@ -1591,6 +1677,7 @@ Kāds atlikums rodas, ja $2021$ dala ar $4$?
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules
 
 </small>
 
@@ -1615,6 +1702,7 @@ tagadējais klucǐšu izkārtojums redzams attēlā?
 * _hasSolutionConcept: BasicSolids, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -1641,6 +1729,7 @@ būtu patiesa?
 * _hasSolutionConcept: RationalNumbers, LinearEquation, LCM
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -1662,6 +1751,7 @@ dalītos ar $36$?
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, DivisibilityRelation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
 
 </small>
 
@@ -1694,6 +1784,7 @@ Iekrāsotajās rūtiņās ir škēēslis, tajās varde neiet.
 * _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: DynamicProgramming, RuleOfSumDisjointCases
 
 </small>
 
@@ -1730,6 +1821,7 @@ grāmata, kas maksā $27$ eiro?
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, EulerVennDiagrams
 * _readingDifficulty: medium
 * _domain: NT,Geom
+* _hasReasoningMethod: EulerVennDiagramRegions
 
 </small>
 
@@ -1758,6 +1850,7 @@ $15$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $45$?
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, DivisorsSet, EulerVennDiagrams
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: EulerVennDiagramRegions
 
 </small>
 
@@ -1783,6 +1876,7 @@ līniju centros un taisnstūra $LMNO$ perimetrs ir $112~\mathrm{cm}$?
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk, PointLineSegmentRay
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: ParallelogramProperties
 
 </small>
 
@@ -1808,6 +1902,7 @@ atrastos uz funkcijas $y = 3x − 71$ grafika?
 * _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -1830,6 +1925,7 @@ $y=71x+2021$ grafikam un iet caur punktu $A(2;200)$. Nosaki $b$ vērtību!
 * _hasSolutionConcept: LinearFunction, ParallelPerpendicular, CoordinatePlane
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: SlopesOnCoordinatePlane, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -1852,6 +1948,7 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 * _hasSolutionConcept: PrimeNumbers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration
 
 </small>
 
@@ -1881,6 +1978,7 @@ bija Mārim trešajā naudas skaitīšanas reizē?
 * _hasSolutionConcept: StateSpaceProcess, Invariant, FiniteSequenceArrangement
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -1912,6 +2010,7 @@ Cik dažādos veidos $6$ skolēni var nostāties rindā?
 * _hasSolutionConcept: CountingProductRule, FiniteSequenceArrangement
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: RuleOfProductIndependentChoices
 
 </small>
 
@@ -1936,6 +2035,7 @@ $1, 4, 3, 6, 5, 8, 7, 2$, skatoties pulksteņa rādītāja kustības virzienā?
 * _hasSolutionConcept: FiniteSequenceArrangement, Permutation, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -1963,6 +2063,7 @@ tikai visas kvadrātu virsotnes. Cik kvadrāti ar dotajām virsotnēm bija attē
 * _hasSolutionConcept: LatticeGrid, QuadrilateralFamilies, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -1987,6 +2088,9 @@ $$A(-1;3.5) \quad B $(-8;6) \quad C(12;-1) \quad D(5;1).$$
 * _hasSolutionConcept: CoordinatePlane, PointLineSegmentRay, LinearFunction, EquationSystem
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: newMethod
+* _newReasoningMethodLabel: CoordinateLineEquation
+* _newReasoningMethodDescription: Find line equation from two points and test candidates
 
 </small>
 
@@ -2015,6 +2119,7 @@ trijstūrīšus ieguva?
 * _hasSolutionConcept: Triangle, DissectionIntoCongruent, CountingSumRule, NumberSequence
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaCounting
 
 </small>
 
@@ -2047,6 +2152,7 @@ malas garums ir $1~\mathrm{cm}$.
 * _hasSolutionConcept: Triangle, LatticeGrid, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, CaseAnalysis
 
 </small>
 
@@ -2076,6 +2182,7 @@ Cik centu ir Inese?
 * _hasSolutionConcept: LinearEquation, VariableExpression, ArithmeticMean
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -2106,6 +2213,7 @@ kas sastāv no 50 rūtiņām?
 * _hasSolutionConcept: LatticeGrid, Tiling, CountingSumRule, PositiveIntegers
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: AreaCounting
 
 </small>
 
@@ -2133,6 +2241,7 @@ iegūtajam rezultātam pieskaitīja $2$. Kāds ir galarezultāta desmitu
 * _hasSolutionConcept: DigitRepresentation, DivisionWithRemainder, LastDigit
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules
 
 </small>
 
@@ -2162,6 +2271,9 @@ malas robots apstājās, ja katras trijstūra malas garums ir $7~\mathrm{cm}$?
 * _hasSolutionConcept: DivisionWithRemainder, Triangle, PeriodicSequence
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _newReasoningMethodLabel: PerimeterCycleRemainder
+* _newReasoningMethodDescription: Using perimeter cycles and remainders on repeated motion
 
 </small>
 
@@ -2188,6 +2300,7 @@ $2 \sqrt{50}+x>20$ būtu patiesa?
 * _hasSolutionConcept: PositiveIntegers, LinearInequality, PerfectSquares
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -2220,6 +2333,7 @@ $60~\mathrm{cm}$. Cik gara ir trijstūra pamata mala centimetros?
 * _hasSolutionConcept: Triangle, TriangleInequality, DirectProportion, LinearEquation
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: TriangleInequality, CaseAnalysis, IsoscelesTriangleProperties
 
 </small>
 
@@ -2248,6 +2362,7 @@ būtu patiesa?
 * _hasSolutionConcept: VariableExpression, EquationSystem, PrimeFactorization
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -2268,6 +2383,7 @@ Cik skaitli intervālā no $1$ līdz $1000$ dalās ar $7$?
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: BoundingArgument
 
 </small>
 
@@ -2291,6 +2407,7 @@ vienā dienā izlasīja Rihards?
 * _hasSolutionConcept: ArithmeticMean, CountingSumRule
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays
 
 </small>
 
@@ -2314,6 +2431,7 @@ Nosaki leņķu $\alpha$ un $\beta$ summu (grādos)!
 * _hasSolutionConcept: Angle, ParallelPerpendicular
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AngleChasing, ParallelLinesAngleProperties
 
 </small>
 
@@ -2339,6 +2457,7 @@ abu pamata pieleņu summa. Cik grādus liels ir virsotnes leņkis?
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: TriangleAngleSum, AngleChasing, IsoscelesTriangleProperties
 
 </small>
 
@@ -2363,6 +2482,7 @@ un ordinātas kvadrāta summa?
 * _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -2385,6 +2505,7 @@ olimpiādē. Cik procentu no skolas skolēniem nepiedalījās olimpiādē?
 * _hasSolutionConcept: RationalNumbers, CountingSumRule
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -2413,6 +2534,7 @@ Kurā plaknes daļā atrodas grāmata, kas maksā $37$ eiro?
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, SetDifference, CircleAndDisk
 * _readingDifficulty: medium
 * _domain: NT,Geom
+* _hasReasoningMethod: DivisibilityRules
 
 </small>
 
@@ -2440,6 +2562,9 @@ dalītāji atrodas aplī. Kurā plaknes daļā atrodas skaitlis $8$?
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, SetIntersection
 * _readingDifficulty: low
 * _domain: NT,Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: SetIntersectionClassification
+* _newReasoningMethodDescription: Classifying an element by membership in overlapping sets
 
 </small>
 
@@ -2461,6 +2586,7 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules
 
 </small>
 
@@ -2491,6 +2617,7 @@ Cik dalībniekiem patīk tikai matemātika?
 * _hasSolutionConcept: EulerVennDiagrams, FiniteSet, SetIntersection, CountingSumRule
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: EulerVennDiagramRegions, RuleOfSumDisjointCases
 
 </small>
 
@@ -2542,6 +2669,9 @@ Vai ar 2.att. figūrām, kas sastāv no $4$ rūtiņām, var noklāt rūtiņu lau
 * _hasSolutionConcept: Tiling, DivisibilityRelation, LatticeGrid
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: ProofByContradiction
+* _newReasoningMethodLabel: DivisibilityByTileArea
+* _newReasoningMethodDescription: Using total area divisibility by tile size
 
 </small>
 
@@ -2580,6 +2710,7 @@ ja ceļš $CD$ ir slēgts (tas ir, pa ceļu $CD$ nedrīkst braukt)?
 * _hasSolutionConcept: GraphConcept, WalkPathCycle, EvenOddParity, Invariant
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -2620,6 +2751,7 @@ Zināms, ka katram no skolēniem patīk vismaz viens no šiem priekšmetiem. Cik
 * _hasSolutionConcept: EulerVennDiagrams, FiniteSet, SetIntersection, SetUnion
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: EulerVennDiagramRegions, RuleOfSumDisjointCases
 
 </small>
 
@@ -2664,6 +2796,7 @@ ja tām ir kopīga mala.
 * _hasSolutionConcept: LatticeGrid, Coloring, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -2695,6 +2828,7 @@ lai no tām noteikti varētu izveidot divciparu skaitli, kurš dalās ar $7$
 * _hasSolutionConcept: PigeonholePrinciple, DivisibilityRelation, DigitRepresentation, SetPartition, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb,NT
+* _hasReasoningMethod: PigeonholeInNT, CompleteEnumeration, NumberConstruction
 
 </small>
 
@@ -2741,6 +2875,7 @@ $y=ax+b$, $y=bx-c$ un $y=cx+a$ grafiki (grafiki nav doti mērogā)?
 * _hasSolutionConcept: LinearFunction, PositiveAndNegative, CaseAnalysis, CoordinatePlane
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, UseFunctionGraphForRootsAndComparisons
 
 </small>
 
@@ -2780,6 +2915,7 @@ Naturālu skaitli sauc par īpašu, ja tas ir vienāds ar četru savu dažādu d
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, EvenOddParity, ProofByContradiction, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: ParityArgument, ProofByContradiction, NumberConstruction
 
 </small>
 
@@ -2814,6 +2950,7 @@ spēlējot, un kā vinam jārīkojas?
 * _hasSolutionConcept: SymmetryStrategy, GamePosition, WinningLosingPositions, CentralSymmetry
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
 
 </small>
 
@@ -2853,6 +2990,7 @@ funkciju grafiki krustojas vienā punktā!
 * _hasSolutionConcept: LinearFunction, CoordinatePlane, VariableExpression
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -2886,6 +3024,7 @@ kur $n$ ir kāds vesels skaitlis?
 * _hasSolutionConcept: PrimeNumbers, PositiveAndNegative, WholeIntegers, CaseAnalysis, DivisibilityRelation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, AlgebraicManipulationForInteger, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -2980,6 +3119,7 @@ ja zināms, ka $\Varangle BAC=120^{\circ}$.
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, PointOnSegmentConstruction, IsoscelesTriangleProperties, AngleChasing, AuxiliaryLines
 
 </small>
 
@@ -3027,6 +3167,7 @@ stāvošā ūdenī ir vienādi un upes straumes ātrums ir $5~\mathrm{km}/\mathr
 * _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -3068,6 +3209,7 @@ $y=bx^{2}+cx+a$ grafiki? Funkciju grafiki nav zīmēti mērogā.
 * _hasSolutionConcept: QuadraticFunction, QuadraticEquation, VietasFormulas, PositiveAndNegative, ProofByContradiction
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: UseFunctionGraphForRootsAndComparisons, ProofByContradictionInAlgebra, VietasFormulas
 
 </small>
 
@@ -3113,6 +3255,7 @@ Aprēḳināt $S_{CED}$, ja $AB=1$.
 * _hasSolutionConcept: PythagoreanTheorem, QuadrilateralFamilies, Triangle, VariableExpression
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: PythagoreanTheorem, ParallelogramProperties
 
 </small>
 
@@ -3148,6 +3291,7 @@ nevienam pirmskaitlim $p$ skaitlis $p+1$ nav naturāla skaitļa $k$-tā pakāpe.
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, OptimumProofStructure, Counterexample, ProofByContradiction
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: FactoringAlgebraicExpressions, ProofByContradiction, CompleteEnumeration, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -3183,6 +3327,7 @@ rindā augošā secībā, tad 22. un 99. skaitļa summa arī būtu lielāka nek�
 * _hasSolutionConcept: FiniteSequenceArrangement, TotalOrder, ProofByContradiction, PigeonholePrinciple
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic
 
 </small>
 

@@ -12,6 +12,9 @@ $\overline{xzy}<\overline{yaz}<\overline{yax}<\overline{zxa}$?
 * _hasSolutionConcept: DigitRepresentation, TotalOrder, ProofByContradiction
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: ProofByContradiction
+* _newReasoningMethodLabel: LexicographicNumberComparison
+* _newReasoningMethodDescription: Comparing same-length numbers by leading differing digit
 
 </small>
 
@@ -46,6 +49,9 @@ labajā pusē piezīmējot klāt vienu 2.att. doto figūru.
 * _hasSolutionConcept: Polygon, ArithmeticProgression, DivisibilityRelation, DivisionWithRemainder
 * _readingDifficulty: low
 * _domain: Geom,Alg
+* _hasReasoningMethod: ParityInvariant
+* _newReasoningMethodLabel: PatternGrowthArithmetic
+* _newReasoningMethodDescription: Track constant growth in a figure sequence
 
 </small>
 
@@ -97,6 +103,7 @@ Sagriez 5.att. doto figūru divpadsmit 6.att. figūrās!
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, PlaneTransformation
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -121,6 +128,7 @@ $11$, **b)** $12$?
 * _hasSolutionConcept: LatticeGrid, PositiveIntegers, ProofByContradiction, Counterexample
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -159,6 +167,7 @@ Atrodi tādu trīsciparu skaitli, kam vienlaicīgi izpildās tālāk dotie nosac
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation, LCM
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, PrimeFactorization
 
 </small>
 
@@ -185,6 +194,9 @@ Aprēķini iegūtās figūras perimetru!
 * _hasSolutionConcept: QuadrilateralFamilies, Polygon, PointLineSegmentRay
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: ParallelogramProperties
+* _newReasoningMethodLabel: PerimeterByBoundaryStraightening
+* _newReasoningMethodDescription: Replacing stepped boundary by equal straight segments
 
 </small>
 
@@ -209,6 +221,7 @@ Atrodi skaitļa $1^{3}+3^{3}+5^{3}+\cdots+101^{3}$ pēdējo ciparu!
 * _hasSolutionConcept: LastDigit, DigitRepresentation, PerfectCubes, DivisionWithRemainder
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: LastDigitAnalysis
 
 </small>
 
@@ -250,6 +263,7 @@ pagriezt.
 * _hasSolutionConcept: Tiling, Rotation, Rectangle
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -274,6 +288,7 @@ $14$, **b)** $15$?
 * _hasSolutionConcept: LatticeGrid, PositiveIntegers, ProofByContradiction, Counterexample
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -307,6 +322,7 @@ dalās ar $8$?
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, DivisibilityRules, ParityArgument
 
 </small>
 
@@ -357,6 +373,9 @@ $(14; -2006)$ un krusto doto taisni punktā, kura abscisa ir $0$.
 * _hasSolutionConcept: LinearFunction, CoordinatePlane, PointLineSegmentRay
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: CoordinateLineEquation
+* _newReasoningMethodDescription: Finding a line equation from given points and intercept
 
 </small>
 
@@ -383,6 +402,7 @@ ka iegūtās izteiksmes vērtība ir **a)** $4$; **b)** $1$?
 * _hasSolutionConcept: EvenOddParity, Invariant, FiniteSequenceArrangement
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: ParityArgument, NumberConstruction
 
 </small>
 
@@ -420,6 +440,7 @@ trīs 16.att. figūrām un divpadsmit 17.att. figūrām? Figūras drīkst pagrie
 * _hasSolutionConcept: Tiling, ChessboardColoring, EvenOddParity, Invariant
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant
 
 </small>
 
@@ -462,6 +483,7 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 * _hasSolutionConcept: OptimumProofStructure, LatticeGrid, FiniteSequenceArrangement, ProofByContradiction
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ExtremalElementArgument
 
 </small>
 
@@ -494,6 +516,7 @@ reizes mazāka nekā skaitļa $n$ ciparu summa!
 * _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRules, DivisibilityRelation, EvenOddParity
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules
 
 </small>
 
@@ -525,6 +548,7 @@ stundām vairāk nekā atpakaļceļā!
 * _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -566,6 +590,7 @@ lielākais naturālais skaitlis, kuru nevar iegūt uz kalkulatora ekrāna?
 * _hasSolutionConcept: FrobeniusType, ExhaustiveCheck, OptimumProofStructure, PositiveIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, NumberConstruction
 
 </small>
 
@@ -605,6 +630,7 @@ Aprēķini trijstūra $ABC$ leņķus!
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
 
 </small>
 
@@ -645,6 +671,7 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 * _hasSolutionConcept: OptimumProofStructure, ProofByContradiction, LatticeGrid, GraphConcept, PositiveIntegers
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -679,6 +706,7 @@ no iespējām pastāv īstenībā?
 * _hasSolutionConcept: CaseAnalysis, DecisionTree, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 
 </small>
 
@@ -714,6 +742,7 @@ mazāks nekā $30~\mathrm{cm}$. Kāds var būt trijstūra sānu malas garums?
 * _hasSolutionConcept: Triangle, TriangleInequality, LinearInequality
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: TriangleInequality
 
 </small>
 
@@ -746,6 +775,7 @@ $\frac{1}{1 \cdot 3}+\frac{1}{3 \cdot 5}+\frac{1}{5 \cdot 7}+\ldots+\frac{1}{201
 * _hasSolutionConcept: RationalNumbers, NumberSequence, VariableExpression
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: TelescopingSum, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -785,6 +815,9 @@ $\omega_{2}$ diametru garumu attiecību $\frac{AB}{AC}$.
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, ParallelPerpendicular, PythagoreanTheorem, AxialSymmetry
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: PythagoreanTheorem, SymmetryStrategy
+* _newReasoningMethodLabel: IntersectingChordsTheorem
+* _newReasoningMethodDescription: Using the power relation for intersecting chords
 
 </small>
 
@@ -845,6 +878,7 @@ atrastos tieši $k$ citas kartītes. Vai kartītes var salikt prasītajā veidā
 * _hasSolutionConcept: EvenOddParity, Invariant, FiniteSequenceArrangement, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -892,6 +926,7 @@ tabulā ierakstīto skaitļu summa ir kāda naturāla skaitļa kubs!
 * _hasSolutionConcept: PerfectCubes, LatticeGrid, AxialSymmetry, ArithmeticProgression
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
 
 </small>
 

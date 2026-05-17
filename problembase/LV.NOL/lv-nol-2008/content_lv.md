@@ -14,6 +14,7 @@ $$\mathbf{123456789=19}$$
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -38,6 +39,7 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -69,6 +71,7 @@ pārī meitene garāka par zēnu?
 * _hasSolutionConcept: TotalOrder, OrderedPair, Counterexample, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExtremalElementArgument
 
 </small>
 
@@ -116,6 +119,7 @@ viena ar otru.
 * _hasSolutionConcept: Tiling, DivisorsSet, PrimeNumbers
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -141,6 +145,7 @@ virsotnes, kura malas vērstas bultiņu virzienos?
 * _hasSolutionConcept: LatticeGrid, QuadrilateralFamilies, FiniteSet, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: PackingDisjointShapes
 
 </small>
 
@@ -168,6 +173,7 @@ bija guvušas abas komandas kopā?
 * _hasSolutionConcept: ArithmeticMean, LinearEquation
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -193,6 +199,7 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 * _hasSolutionConcept: Tiling, LatticeGrid, CountingProductRule
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -220,6 +227,7 @@ Vai eksistē tādi naturāli skaitļi $x$ un $y$, ka
 * _hasSolutionConcept: EvenOddParity, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: ParityArgument, NumberConstruction
 
 </small>
 
@@ -243,6 +251,7 @@ $1234567 \ldots$?
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, PositiveIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -271,6 +280,7 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 * _hasSolutionConcept: Coloring, GraphConcept, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -301,6 +311,7 @@ $x=a^{3},\ y=b^{4},\ a$ un $b$ - naturāli skaitļi?
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, PerfectCubes, PrimeFactorization
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, PrimeFactorization
 
 </small>
 
@@ -332,6 +343,7 @@ ka Maija noteikti ēd torti sev visizdevīgākajā veidā.
 * _hasSolutionConcept: GamePosition, DecisionTree, CaseAnalysis, Counterexample
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -358,6 +370,7 @@ vidējais svars ir $71~\mathrm{kg}$. Pierādīt, ka cīkstoņu skaits dalās ar 
 * _hasSolutionConcept: ArithmeticMean, LinearEquation, DivisibilityRelation, GCD, CoprimeIntegers
 * _readingDifficulty: low
 * _domain: Alg,NT
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -388,6 +401,7 @@ Vai eksistē
 * _hasSolutionConcept: Polygon, Triangle, QuadrilateralFamilies, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -412,6 +426,7 @@ no otra tieši par $1$. Kāda ir lielākā iespējamā $n$ vērtība?
 * _hasSolutionConcept: EvenOddParity, ChessboardColoring, Invariant, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Geom,NT
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant, ProofByContradiction
 
 </small>
 
@@ -449,6 +464,7 @@ laimīgi. Pierādīt, ka viens no tiem dalās ar $10$.
 * _hasSolutionConcept: DigitRepresentation, DigitSum, EvenOddParity, DivisibilityRules, ProofByContradiction
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: ParityArgument, ProofByContradiction, LastDigitAnalysis
 
 </small>
 
@@ -477,6 +493,7 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 * _hasSolutionConcept: ChessboardColoring, Coloring, EvenOddParity, Invariant
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: ColoringInvariant
 
 </small>
 
@@ -501,6 +518,7 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, LinearInequality
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: UseTrivialInequalitiesAndAddThem, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
 
 </small>
 
@@ -526,6 +544,7 @@ cepuri viņa valkāja iepriekšējā dienā?
 * _hasSolutionConcept: PeriodicSequence, DivisionWithRemainder, FiniteSequenceArrangement
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: PeriodicSequenceForLongIndex
 
 </small>
 
@@ -554,6 +573,7 @@ $K$. Pierādīt, ka $K$ atrodas uz $\sphericalangle ABC$ bisektrises.
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, TriangleCongruence, Angle
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, AngleChasing, IsoscelesTriangleProperties, ParallelLinesAngleProperties
 
 </small>
 
@@ -581,6 +601,7 @@ $3^{32}-2^{32}$.
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DiffOfSquaresFactoring, PrimeFactorization
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: FactoringAlgebraicExpressions, PrimeFactorization, CompleteEnumeration
 
 </small>
 
@@ -610,6 +631,9 @@ Kāds ir mazākais iespējamais $\triangle ABC$ laukums?
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaCounting, PythagoreanTheorem
+* _newReasoningMethodLabel: PerpendicularShortestDistance
+* _newReasoningMethodDescription: Perpendicular gives the shortest distance from a point to a line
 
 </small>
 
@@ -643,6 +667,7 @@ $n$ reizes.
 * _hasSolutionConcept: UnorderedSelection, FiniteSet, Polygon, Triangle
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -671,6 +696,7 @@ sakņu kvadrātu summa vienāda ar otrā kvadrāttrinoma sakņu kvadrātu summu.
 * _hasSolutionConcept: VietasFormulas, QuadraticEquation, PolynomialAndRoots, LinearEquation, VariableExpression
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: VietasFormulas, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
 
 </small>
 
@@ -702,6 +728,7 @@ ceļš, kura garums nav mazāks par $125 ~\mathrm{km}$.
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, ArithmeticMean, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: AveragingArgumentForExistenceOfElement, DoubleCountingSameQuantityTwoWays
 
 </small>
 

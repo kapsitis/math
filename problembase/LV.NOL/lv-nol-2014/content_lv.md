@@ -13,6 +13,7 @@ citu!)
 * domain:Geom
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -40,6 +41,7 @@ pamatot!
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, EvenOddParity, FiniteSet
 * _readingDifficulty: medium
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
 
 </small>
 
@@ -74,6 +76,7 @@ $B$.
 * domain:Alg
 * _hasSolutionConcept: DigitRepresentation, LinearEquation, LinearInequality
 * _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -99,6 +102,7 @@ kārtas. Cik lappušu numuros ir sastopams cipars $7$?
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, CountingProductRule, CountingSumRule
 * _readingDifficulty: low
+* _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
 
 </small>
 
@@ -152,6 +156,7 @@ tā, ka no katra punkta iziet nepāra skaits nogriežņu?
 * domain:Comb
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, HandshakingLemmaSumOfDegreesEven
 
 </small>
 
@@ -178,6 +183,7 @@ b. noapaļojot $2 \cdot a,\ 4 \cdot a,\ 6 \cdot a$ līdz veselam skaitlim,
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearInequality, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -200,6 +206,7 @@ laukums var būt mazāks par $10$ rūtiņām?
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: LatticeGrid, FiniteSet, SetPartition, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -227,6 +234,7 @@ dažādi cipari.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, ExistenceVsUniversal, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -248,6 +256,7 @@ kārtas. Cik lappušu numuros ir sastopams vismaz viens no cipariem $3$ vai $7$?
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, CountingProductRule, SetDifference
 * _readingDifficulty: low
+* _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
 
 </small>
 
@@ -311,6 +320,7 @@ jebkurus divus no tiem, nodzēš tos un rindas galā uzraksta šo skaitļu starp
 * domain:Alg
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess, PositiveIntegers
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
 
 </small>
 
@@ -357,6 +367,7 @@ tukšajā rūtiņā. Pierādīt, ka Ariadne var panākt jebkuru no trim situāci
 * domain:Alg
 * _hasSolutionConcept: LinearEquation, GamePosition, CaseAnalysis, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -393,6 +404,7 @@ Pierādīt, ka $OX=OY$.
 * domain:Geom
 * _hasSolutionConcept: Angle, ParallelPerpendicular, TriangleCongruence, TriangleSpecialLines
 * _readingDifficulty: low
+* _hasReasoningMethod: CongruentTriangles, AngleChasing, AuxiliaryLines
 
 </small>
 
@@ -433,6 +445,7 @@ skaitlis $x(x+1)(x+2)$ dalās ar $87$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, PrimeNumbers, MultiplesSet, CountingSumRule
 * _readingDifficulty: low
+* _hasReasoningMethod: CoprimeFactorsDivisibility, DivisibilityByConsecutive, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -486,6 +499,7 @@ apmeklētājiem ir kļūdījies.
 * domain:Comb
 * _hasSolutionConcept: GraphConcept, VertexDegree, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility
 
 </small>
 
@@ -513,6 +527,7 @@ maršruts drīkst saturēt augstākais vienu pagriezienu.
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, GraphConcept, ConnectedGraph, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, PigeonholePrincipleBasic
 
 </small>
 
@@ -540,6 +555,7 @@ saknes (varbūt vienādas), un izteikt tās, neizmantojot kvadrātsaknes zīmi.
 * domain:Alg
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, PolynomialAndRoots
 * _readingDifficulty: low
+* _hasReasoningMethod: VietasFormulas
 
 </small>
 
@@ -566,6 +582,7 @@ uz $EF$. Malas $BC$ viduspunkts ir $G$. Pierādīt, ka $AG=EG$.
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, ParallelPerpendicular, PointLineSegmentRay, TriangleSpecialLines
 * _readingDifficulty: low
+* _hasReasoningMethod: PerpendicularBisector, AuxiliaryLines, ParallelogramProperties
 
 </small>
 
@@ -600,6 +617,9 @@ Cik ir tādu piecciparu skaitļu, kuru pierakstā ir vismaz viens nepāra cipars
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, CountingProductRule, SetDifference
 * _readingDifficulty: low
+* _hasReasoningMethod: RuleOfProductIndependentChoices, SetComplement
+* _newReasoningMethodLabel: SetComplement
+* _newReasoningMethodDescription: Count desired objects via subtracting the complement
 
 </small>
 
@@ -645,6 +665,7 @@ uzrakstīti nepāra skaitļi, ja **(A)** $N=2014$, **(B)** $N=2401$?
 * domain:Comb
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
 * _readingDifficulty: medium
+* _hasReasoningMethod: HandshakingLemmaSumOfDegreesEven, ConstructiveExampleForExistence
 
 </small>
 
@@ -671,6 +692,7 @@ rūtiņas centru.
 * domain:Geom
 * _hasSolutionConcept: EvenOddParity, CoordinatePlane, LatticeGrid, Triangle, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParityInvariant, CaseAnalysis
 
 </small>
 
@@ -715,6 +737,7 @@ $b$ ir dažādi skaitļi?
 * domain:Alg
 * _hasSolutionConcept: QuadraticEquation, SquareOfSumIdentity, ProofByContradiction
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CompleteTheSquareForNonNegativity, UseStandardIdentities
 
 </small>
 
@@ -760,6 +783,9 @@ taisnstūra laukums. Atrast visus šādus taisnstūrus.
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, WholeIntegers, DivisorsSet, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysis
+* _newReasoningMethodLabel: FactoringAlgebraicExpressions
+* _newReasoningMethodDescription: Rewriting equations by algebraic factorization
 
 </small>
 
@@ -790,6 +816,7 @@ Atrisināt naturālos skaitļos vienādojumu $3abc+3a+3b=7bc+7$.
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, VariableExpression, DivisibilityRelation, CaseAnalysis
 * _readingDifficulty: low
+* _hasReasoningMethod: DiophantineEquations, BoundingArgument, AlgebraicManipulationForInteger, CompleteEnumeration
 
 </small>
 
@@ -835,6 +862,7 @@ sienāzi (katru savā rūtiņā) tā, lai tie viens otru neapdraudētu?
 * domain:Comb
 * _hasSolutionConcept: FiniteSet, CountingSumRule, ExhaustiveCheck, LatticeGrid
 * _readingDifficulty: low
+* _hasReasoningMethod: RuleOfSumDisjointCases, RuleOfProductIndependentChoices
 
 </small>
 
@@ -872,6 +900,7 @@ $AC$ un $BM$ krustojas punktā $S$. Aprēķināt trijstūra $ASM$ laukumu.
 * domain:Geom
 * _hasSolutionConcept: TriangleSimilarity, QuadrilateralFamilies, PointLineSegmentRay, Triangle
 * _readingDifficulty: low
+* _hasReasoningMethod: SimilarTriangles, AreaInvarianceAndDecomposition, ScalingByLinearRatio, ParallelLinesAngleProperties
 
 </small>
 

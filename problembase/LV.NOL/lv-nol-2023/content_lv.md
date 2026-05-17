@@ -14,6 +14,7 @@ vienu veidu, kā to var izdarīt.
 * domain:Alg
 * _hasSolutionConcept: PeriodicSequence, FiniteSequenceArrangement, VariableExpression, ArithmeticMean
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, CountTheSameQuantityInTwoWays
 
 </small>
 
@@ -60,6 +61,7 @@ taciņas var krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity
 * _readingDifficulty: medium
+* _hasReasoningMethod: HandshakingLemmaSumOfDegreesEven, ConstructiveExampleForExistence
 
 </small>
 
@@ -94,6 +96,7 @@ ja tās var uzlikt vienu uz otras tā, ka abas figūras sakrīt
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
 * _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -116,6 +119,7 @@ summu tā, lai katru divu šo skaitļu summa dalītos ar trešo skaitli!
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, NumberPartitions, PositiveIntegers
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -146,6 +150,7 @@ sarkanās un zilās monētas, ja sākumā ir dota viena sarkana monēta?
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric
 
 </small>
 
@@ -176,6 +181,7 @@ būtu patiesa!
 * domain:Alg
 * _hasSolutionConcept: ContinuedFractions, PositiveIntegers, RationalNumbers
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, FunctionalSubstitutionForRecurringExpression
 
 </small>
 
@@ -208,6 +214,7 @@ krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
 * _readingDifficulty: medium
+* _hasReasoningMethod: HandshakingLemmaSumOfDegreesEven, ConstructiveExampleForExistence
 
 </small>
 
@@ -241,6 +248,7 @@ otras tā, ka abas figūras pilnīgi sakrīt (figūras var pagriezt un apmest ot
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: DissectionIntoCongruent, Rotation, AxialSymmetry, LatticeGrid
 * _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -263,6 +271,7 @@ ar atlikušo skaitli?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, PrimeNumbers, NumberPartitions, PositiveIntegers
 * _readingDifficulty: low
+* _hasReasoningMethod: PrimePropertiesAndUniqueness, NumberConstruction
 
 </small>
 
@@ -300,6 +309,7 @@ Vai, vairākkārt izpildot šādus gājienus, no skaitļa $17$ var iegūt:
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: Invariant, DivisibilityRules, DigitRepresentation, DivisibilityRelation
 * _readingDifficulty: low
+* _hasReasoningMethod: InvariantMethod, DivisibilityRules, NumberConstruction
 
 </small>
 
@@ -341,6 +351,7 @@ būtu ierakstīti rūtiņās ar kopīgu malu?
 * domain:Comb
 * _hasSolutionConcept: PositiveIntegers, LatticeGrid, GraphConcept, WalkPathCycle, HamiltonianPath
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -364,6 +375,7 @@ $5$ citām lampiņām?
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity, SetPartition
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, HandshakingLemmaSumOfDegreesEven
 
 </small>
 
@@ -399,6 +411,9 @@ un $AD=3$. Pierādīt, ka $CD>2$.
 * method:MTH_AugmentationWithNewElements
 * _hasSolutionConcept: TriangleInequality, Triangle, Angle, Polygon
 * _readingDifficulty: low
+* _hasReasoningMethod: TriangleInequality, AuxiliaryLines
+* _newReasoningMethodLabel: LongerSideOppositeLargerAngle
+* _newReasoningMethodDescription: In a triangle, larger angle faces longer side
 
 </small>
 
@@ -426,6 +441,7 @@ ir tikpat ciparu, cik skaitlim $n^{3}$?
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, PositiveIntegers, PerfectSquares, PerfectCubes, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: BoundingArgument, CompleteEnumeration
 
 </small>
 
@@ -468,6 +484,7 @@ ja sākumā kastē atrodas:
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -506,6 +523,7 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PeriodicSequence, LinearEquation, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness, AlgebraicManipulationForInteger, NumberConstruction
 
 </small>
 
@@ -556,6 +574,7 @@ nedraudzējas. Vai var gadīties, ka **(A)** $m=11$, **(B)** $m=10$?
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, BipartiteGraph, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, HandshakingLemmaSumOfDegreesEven, ContradictionForImpossibility
 
 </small>
 
@@ -600,6 +619,7 @@ ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ le�
 * method:MTH_AugmentationWithNewElements
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, TriangleSpecialLines, ParallelPerpendicular
 * _readingDifficulty: low
+* _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum, AuxiliaryLines
 
 </small>
 
@@ -640,6 +660,7 @@ pagriezt un apmest otrādi).
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation, AxialSymmetry
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -665,6 +686,7 @@ Cik bieži Mārtiņš satiek Sandri?
 * domain:Alg
 * _hasSolutionConcept: DirectProportion, VariableExpression, LCM
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, CountTheSameQuantityInTwoWays
 
 </small>
 
@@ -725,6 +747,7 @@ $x$; $x+2$; $x+4$; $x+6$; $x+8$ vienlaicīgi var būt pirmskaitḷi?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, DivisibilityRules, LastDigit, OptimumProofStructure
 * _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, ParityArgument, LastDigitAnalysis, DivisibilityRules
 
 </small>
 
@@ -769,6 +792,7 @@ katram rūķim ir tieši $9$ draugi?
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: HandshakingLemmaSumOfDegreesEven, ContradictionForImpossibility
 
 </small>
 
@@ -794,6 +818,7 @@ Zināms, ka $CD \| BX$. Aprēķināt $AD$ garumu, ja $BX=3, BC=7$ un $CD=6$.
 * method:MTH_AugmentationWithNewElements
 * _hasSolutionConcept: ParallelogramProperties, TriangleSimilarity, ParallelPerpendicular, PointLineSegmentRay
 * _readingDifficulty: low
+* _hasReasoningMethod: ParallelogramProperties, AuxiliaryLines, SimilarTriangles, ParallelLinesAngleProperties
 
 </small>
 
@@ -831,6 +856,7 @@ $$\left(x^{4}+1\right)\left(y^{4}+1\right)=4 x^{2} y^{2}$$
 * method:MTH_PolynomialTransformations
 * _hasSolutionConcept: IrrationalAndReals, OrderedPair, VariableExpression, SquareOfSumIdentity, NecessarySufficient
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CompleteTheSquareForNonNegativity, UseStandardIdentities, UseTrivialInequalitiesAndAddThem
 
 </small>
 
@@ -894,6 +920,7 @@ negaisa?
 * domain:Alg
 * _hasSolutionConcept: ArithmeticMean, PositiveIntegers, LinearEquation, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
 
 </small>
 

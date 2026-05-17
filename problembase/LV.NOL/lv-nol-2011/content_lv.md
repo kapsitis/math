@@ -9,6 +9,7 @@ reizinājums būtu $119$?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, NumberPartitions, PrimeFactorization
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, PrimeFactorization
 
 </small>
 
@@ -30,6 +31,7 @@ Cik rūtiņas liels ir trijstūra $ABC$ laukums?
 * domain:Geom
 * _hasSolutionConcept: Triangle, LatticeGrid, Polygon
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -71,6 +73,7 @@ nevienā brīdī autobusā netika pārvadāts vairāk pasažieru kā autobusā i
 * domain:Comb
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSequenceArrangement, CaseAnalysis, LinearInequality
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
 
 </small>
 
@@ -115,6 +118,7 @@ $3 \times 3$ rūtiņu kvadrātā, kas ir lielā kvadrāta daļa, ir iekrāsotas 
 * domain:Geom
 * _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -139,6 +143,7 @@ laiks, pēc kura visas raganas būs iemācījušās visas jaunās burvestības?
 * domain:Comb
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, FiniteSet
 * _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -168,6 +173,7 @@ skaitlis ir vienāds ar pārējo skaitļu summu?
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, SetPartition, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
 
 </small>
 
@@ -192,6 +198,7 @@ $12345, 12354, 12435, \ldots$. Kurš pēc kārtas šajā virknē ir skaitlis $45
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, OrderedSelection, CountingProductRule, TotalOrder
 * _readingDifficulty: low
+* _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
 
 </small>
 
@@ -215,6 +222,7 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, WholeIntegers, LinearDiophantine, GCD
 * _readingDifficulty: low
+* _hasReasoningMethod: DiophantineEquations, NumberConstruction
 
 </small>
 
@@ -239,6 +247,7 @@ vienādās daļās tā, lai katrā no tām būtu pa vienam melnam un pa vienam b
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, FiniteSet
 * _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy, AreaInvarianceAndDecomposition
 
 </small>
 
@@ -263,6 +272,7 @@ visas rūtiņas ir neizkrāsotas.
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Coloring, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: PackingDisjointShapes
 
 </small>
 
@@ -287,6 +297,7 @@ Atrodiet skaitļa $1^{2}+2^{2}+\cdots+99^{2}$ pēdējo ciparu.
 * subdomain:DOM_Congruences
 * _hasSolutionConcept: LastDigit, DigitRepresentation, PerfectSquares, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: LastDigitAnalysis
 
 </small>
 
@@ -318,6 +329,7 @@ $(n+1)(n+2)(n+3)$ dalās ar $125$?
 * subdomain:DOM_Divisibility
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, CountingProductRule
 * _readingDifficulty: low
+* _hasReasoningMethod: PrimeFactorization, BoundingArgument
 
 </small>
 
@@ -345,6 +357,7 @@ reizinājumus. Cik no tiem ir pozitīvi?
 * topic:CountingUsingSymmetry
 * _hasSolutionConcept: PositiveAndNegative, FiniteSequenceArrangement, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -382,6 +395,7 @@ rūtiņām sauksim rūtiņas, kurām ir kopīgs vismaz viens punkts).
 * topic:SquareGridShapes
 * _hasSolutionConcept: PigeonholePrinciple, LatticeGrid, Coloring
 * _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrinciple, PackingDisjointShapes
 
 </small>
 
@@ -416,6 +430,7 @@ procenti pilsētas iedzīvotāju ir godīgie iedzīvotāji un cik blēži?
 * topic:FormingEquations
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, EquationSystem, RationalNumbers
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, SystemOfEquationsAdditionOrSubstitution
 
 </small>
 
@@ -451,6 +466,7 @@ ciparus. Pierādīt, ka $B-A$ dalās ar $9$.
 * method:MTH_PolynomialTransformations
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum
 * _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, DivisibilityRules, TelescopingAndIdentity
 
 </small>
 
@@ -485,6 +501,7 @@ $p+q$?
 * topic:QuadraticEquationRootConditions
 * _hasSolutionConcept: QuadraticEquation, PolynomialAndRoots, VariableExpression
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -506,6 +523,7 @@ ir malas $BC$ viduspunkts.
 * domain:Geom
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
 
 </small>
 
@@ -537,6 +555,7 @@ ir vienādi taisnstūri.)
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: QuadrilateralFamilies, LatticeGrid, OptimumProofStructure, ProofByContradiction, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: ProofByContradiction, AreaCounting
 
 </small>
 
@@ -577,6 +596,7 @@ partiju?
 * domain:Alg
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, LinearEquation, ArithmeticMean
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, SystemOfEquationsAdditionOrSubstitution, CountTheSameQuantityInTwoWays
 
 </small>
 
@@ -606,6 +626,7 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti.
 * domain:Alg
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, IrrationalAndReals, CoordinatePlane
 * _readingDifficulty: low
+* _hasReasoningMethod: ParameterizedInvariantValue, ExpressOneUnknownThroughAnother
 
 </small>
 
@@ -630,6 +651,7 @@ $\sphericalangle ADE=2 \sphericalangle ABE$. Aprēķināt $\sphericalangle ABE$ 
 * domain:Geom
 * _hasSolutionConcept: Angle, QuadrilateralFamilies, CircleAndDisk, Triangle, TriangleCongruence
 * _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, CongruentTriangles, TriangleAngleSum
 
 </small>
 
@@ -664,6 +686,7 @@ mazākā iespējamā $k$ vērtība?
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, DivisibilityRelation, CircleAndDisk, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -692,6 +715,7 @@ $7^{a}=7^{x}+7^{y}+7^{z}$.
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, LinearInequality, ProofByContradiction
 * _readingDifficulty: low
+* _hasReasoningMethod: BoundingArgument
 
 </small>
 
@@ -721,6 +745,7 @@ t.i., iegūs $1.$ vietu?
 * domain:Comb
 * _hasSolutionConcept: TotalOrder, FiniteSet, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 

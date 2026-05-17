@@ -21,6 +21,7 @@ ka iegūtā summa ir vismazākā iespējamā.
 * _hasSolutionConcept: GCD, CoprimeIntegers, DivisibilityRelation, GraphConcept, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -42,6 +43,7 @@ Vai naturāla skaitḷa ciparu reizinājums var būt **(A)** $2520$; **(B)** $54
 * _hasSolutionConcept: DigitProduct, PrimeFactorization, PrimeNumbers, DigitRepresentation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PrimeFactorization, NumberConstruction
 
 </small>
 
@@ -71,6 +73,7 @@ kam visas rūtiṇas ir neiekrāsotas!
 * _hasSolutionConcept: Tiling, LatticeGrid, Coloring, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: PackingDisjointShapes
 
 </small>
 
@@ -99,6 +102,7 @@ vienmēr var uzvarēt, neatkarīgi no Kates nosauktajiem skaitļiem!
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, PositiveIntegers
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -135,6 +139,7 @@ priekšmets ir smagāks, tad atbilstošais kauss nosveras uz leju.
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 
 </small>
 
@@ -181,6 +186,7 @@ ka iegūtā summa ir mazākā iespējamā.
 * _hasSolutionConcept: CoprimeIntegers, GCD, DivisibilityRelation, GraphConcept, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -203,6 +209,7 @@ summu tā, lai arī šo skaitḷu reizinājums būtu 299?
 * _hasSolutionConcept: PrimeFactorization, NumberPartitions, PositiveIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PrimeFactorization, NumberConstruction
 
 </small>
 
@@ -236,6 +243,7 @@ kam visas rūtiņas ir neiekrāsotas!
 * _hasSolutionConcept: Coloring, Tiling, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: PackingDisjointShapes
 
 </small>
 
@@ -264,6 +272,7 @@ drīkst iet arī vairāk nekā vienu reizi.
 * _hasSolutionConcept: EvenOddParity, Coloring, LatticeGrid, WalkPathCycle, Invariant
 * _readingDifficulty: medium
 * _domain: Comb,Geom
+* _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -305,6 +314,7 @@ kauss nosveras uz leju.
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, LinearInequality, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -342,6 +352,7 @@ redzamo figūru, kurai visas rūtiṇas ir neiekrāsotas?
 * _hasSolutionConcept: Coloring, Tiling, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -365,6 +376,7 @@ Atrodi visus iespējamos variantus un pamato, ka citu nav!
 * _hasSolutionConcept: PrimeFactorization, PrimeNumbers, ExhaustiveCheck, PositiveIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PrimeFactorization, CompleteEnumeration, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -407,6 +419,7 @@ Pierādīt, ka trijstūra $ABC$ divi leņk̦i ir vienādi!
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: TriangleAngleSum, AngleChasing
 
 </small>
 
@@ -434,6 +447,7 @@ otrklasnieku. Cik varēja būt otrklasnieku?
 * _hasSolutionConcept: FiniteSet, WalkPathCycle, HandshakeLemma, CountingSumRule
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence, RuleOfSumDisjointCases
 
 </small>
 
@@ -468,6 +482,7 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 * _hasSolutionConcept: DigitRepresentation, PositiveIntegers, ArithmeticProgression, FiniteSet
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -493,6 +508,7 @@ ir divu skaitl!u, kas atrodas divos taisnstūros tieši zem tā, summa!
 * _hasSolutionConcept: WholeIntegers, VariableExpression, LinearEquation, MagicConfiguration
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -521,6 +537,7 @@ ka skaitlis $x(x+1)$ dalās ar $74$?
 * _hasSolutionConcept: DivisibilityRelation, PrimeNumbers, EvenOddParity, MultiplesSet, CountingSumRule
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CoprimeFactorsDivisibility, PrimePropertiesAndUniqueness, DivisibilityByConsecutive
 
 </small>
 
@@ -555,6 +572,7 @@ Aprēḳināt $\sphericalangle ACB$, ja $AB=CM$!
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum, TriangleCongruence
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, AngleChasing, TriangleAngleSum, IsoscelesTriangleProperties, AuxiliaryLines
 
 </small>
 
@@ -598,6 +616,7 @@ spēlētājas gājieniem?
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, SymmetryStrategy, PositiveIntegers
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -627,6 +646,7 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 * _hasSolutionConcept: DigitRepresentation, PositiveIntegers, ArithmeticProgression, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -651,6 +671,7 @@ Aprēḳināt izteiksmes $\frac{20252024^{2}}{20252023^{2}+20252025^{2}-2}$ vēr
 * _hasSolutionConcept: SquareOfSumIdentity, VariableExpression, RationalNumbers
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, SubstitutionForSimplification, UseStandardIdentities
 
 </small>
 
@@ -675,6 +696,7 @@ Atrast vismazāko naturālo skaitli $N$, kam reizinājums $1 \cdot 2 \cdot 3 \cd
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, PrimeNumbers, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PrimeFactorization, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -714,6 +736,7 @@ Zināms, ka $BK=KL$. Pierādīt, ka trijstūris $ABC$ ir vienādsānu!
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
 
 </small>
 
@@ -751,6 +774,7 @@ ierakstīto skaitlu summa ir viena un tā pati!
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, Triangle, Rotation
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -777,6 +801,7 @@ bumbiṇa krāsā $A$, kas atrodas pa kreisi no kādas bumbiṇas krāsā $B$
 * _hasSolutionConcept: FiniteSequenceArrangement, Coloring, OptimumProofStructure, ExistenceVsUniversal, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility
 
 </small>
 

@@ -11,6 +11,7 @@ visi pieci ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $2$.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, LastDigit, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -35,6 +36,7 @@ Kāds mazākais skaits punktu jānodzēš, lai nekādi trīs no atlikušajiem pu
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PointLineSegmentRay, LatticeGrid, FiniteSet, OptimumProofStructure
 * _readingDifficulty: low
+* _hasReasoningMethod: PackingDisjointShapes
 
 </small>
 
@@ -68,6 +70,7 @@ sakrīt (figūras var pagriezt un apmest otrādi).
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
 * _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -93,6 +96,7 @@ $4 \cdot 1+23=27$). Kāds ir pēdējais uzrakstītais skaitlis?
 * domain:NT
 * _hasSolutionConcept: PeriodicSequence, DigitProduct, NumberSequence, DivisionWithRemainder
 * _readingDifficulty: low
+* _hasReasoningMethod: PeriodicSequence
 
 </small>
 
@@ -124,6 +128,7 @@ Vai iespējams, ka pēc atkārtotas automāta izmantošanas viṇai palika:
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -159,6 +164,7 @@ visi seši ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $3$.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, CountingProductRule
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -182,6 +188,7 @@ ja jābūt izgrieztām arī tieši divām 6.att. figūrām?
 * domain:Geom
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant
 
 </small>
 
@@ -222,6 +229,7 @@ ka abas figūras sakrīt (figūras var pagriezt un apmest otrādi).
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
 * _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -246,6 +254,7 @@ Kāds ir pēdējais uzrakstītais skaitlis?
 * domain:NT
 * _hasSolutionConcept: PeriodicSequence, DigitProduct, NumberSequence, DivisionWithRemainder
 * _readingDifficulty: low
+* _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
 
 </small>
 
@@ -279,6 +288,7 @@ ko sauc par posmiem. Lauztu līniju, kuras galapunkti sakrīt, sauc par slēgtu 
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: Polygon, EvenOddParity, SetPartition, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityInvariant
 
 </small>
 
@@ -309,6 +319,7 @@ katru ciparu tieši vienu reizi! (Iekavas lietot nedrīkst un jāievēro darbīb
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration, NumberConstruction
 
 </small>
 
@@ -330,6 +341,7 @@ Kāda lielākā ciparu summa var būt desmitciparu skaitlim, kas dalās ar $18$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument, NumberConstruction
 
 </small>
 
@@ -359,6 +371,7 @@ Kāds var būt nogriežņa $AC$ garums, ja zināms, ka tas ir naturāls skaitlis
 * domain:Geom
 * _hasSolutionConcept: TriangleInequality, Triangle, PositiveIntegers, PointLineSegmentRay
 * _readingDifficulty: low
+* _hasReasoningMethod: TriangleInequality
 
 </small>
 
@@ -400,6 +413,7 @@ salikt taisnstūri, kurā 16. att. figūras nesaskaras ne ar malu, ne ar stūri!
 * domain:Geom
 * _hasSolutionConcept: Tiling, Rotation, QuadrilateralFamilies
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -428,6 +442,7 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PigeonholePrinciple, ProofByContradiction, CountingProductRule
 * _readingDifficulty: low
+* _hasReasoningMethod: ExtremalElementArgument, ContradictionForImpossibility, PigeonholePrincipleBasic
 
 </small>
 
@@ -460,6 +475,7 @@ Vai iespējams, sareizinot sešus dažādus pirmskaiț̣us, iegūt sešciparu sk
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, DivisibilityRelation, PrimeFactorization
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, PrimeFactorization
 
 </small>
 
@@ -482,6 +498,7 @@ $D$ un $E$ tā, lai $AE=AD$ un $\sphericalangle BAD=30^{\circ}$. Aprēk̄ināt l
 * domain:Geom
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
 
 </small>
 
@@ -522,6 +539,7 @@ kolonnā vai diagonālē, bet arī, piemēram, punkti $A, B, C$ (skat. 20. att.)
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: LatticeGrid, PointLineSegmentRay, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -551,6 +569,7 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PigeonholePrinciple, ProofByContradiction, CountingProductRule
 * _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrincipleBasic, ContradictionForImpossibility, ExtremalElementArgument
 
 </small>
 
@@ -591,6 +610,7 @@ viens skaitlis un katrā rindā un katrā kolonnā skaitli pieaugtu bultiņas no
 * method:MTH_ContradictionForExistence
 * _hasSolutionConcept: TotalOrder, DirectedGraph, ProofByContradiction, PositiveIntegers
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -621,6 +641,7 @@ un malu $K L$ un $M N$ vidusperpendikulu krustpunkts $X$ atrodas uz malas $K N$.
 * domain:Geom
 * _hasSolutionConcept: TriangleCongruence, Triangle, Angle, PointLineSegmentRay
 * _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, PerpendicularBisector, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
 
 </small>
 
@@ -653,6 +674,7 @@ Pierādīt, ka $\sqrt{17-12 \sqrt{2}}+\sqrt{3-2 \sqrt{2}}+\sqrt{3+2 \sqrt{2}}=3$
 * method:MTH_PolynomialTransformations
 * _hasSolutionConcept: SquareOfSumIdentity, PositiveAndNegative, IrrationalAndReals
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, CaseAnalysisBySignOrInterval, NumericalEstimation
 
 </small>
 
@@ -710,6 +732,7 @@ Uz kvadrāta $ABCD$ diagonāles $BD$ atlikts punkts $E$. Pierādīt, ka $ED \cdo
 * method:MTH_AugmentationWithNewElements
 * _hasSolutionConcept: QuadrilateralFamilies, PythagoreanTheorem, ParallelPerpendicular, AxialSymmetry
 * _readingDifficulty: low
+* _hasReasoningMethod: PythagoreanTheorem, ParallelogramProperties
 
 </small>
 
@@ -749,6 +772,7 @@ Vai var gadīties, ka tagad visi kaķi atrodas tieši: **(A)** $8$ rūtiņās; *
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, Coloring, Invariant, GraphConcept
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -785,6 +809,7 @@ Pierādīt, ka $9$ reizes lielāka skaitļa ciparu summa ir $9$.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DigitSum, PositiveIntegers
 * _readingDifficulty: low
+* _hasReasoningMethod: AlgebraicManipulationForInteger, TelescopingAndIdentity, PositionalNotation
 
 </small>
 

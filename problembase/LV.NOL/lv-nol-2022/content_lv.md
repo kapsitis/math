@@ -10,6 +10,7 @@ sadalīts ne vairāk kā $3$ daļās?
 * _hasSolutionConcept: RationalNumbers, ArithmeticMean, NumberPartitions
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
  
@@ -39,6 +40,7 @@ trīs citi cipari?
 * _hasSolutionConcept: FiniteSequenceArrangement, ExhaustiveCheck, DigitRepresentation
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -64,6 +66,7 @@ pretējās virsotnes.
 * _hasSolutionConcept: LatticeGrid, QuadrilateralFamilies, GCD, CoprimeIntegers
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: SimilarTriangles
 
 </small>
 
@@ -92,6 +95,7 @@ $x$ un $y$, ja zināms, ka skaitlis $4x7yx3y31x$ dalās ar $45$.
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, CaseAnalysis, CoprimeIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration, BoundingArgument
 
 </small>
 
@@ -133,6 +137,7 @@ klases biedri nav atsūtīujši vienādu skaitu jauno ziņu?
 * _hasSolutionConcept: PigeonholePrinciple, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility
 
 </small>
 
@@ -161,6 +166,7 @@ $$
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, TotalOrder, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -193,6 +199,7 @@ citi cipari?
 * _hasSolutionConcept: FiniteSequenceArrangement, DigitRepresentation, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -217,6 +224,9 @@ $Piezīme.$ Taisnstūra diagonāle ir nogrieznis, kas savieno taisnstūra pretē
 * _hasSolutionConcept: LatticeGrid, GCD, CoprimeIntegers, QuadrilateralFamilies
 * _readingDifficulty: low
 * _domain: Geom,NT
+* _hasReasoningMethod: AuxiliaryLines
+* _newReasoningMethodLabel: GridDecompositionByGCD
+* _newReasoningMethodDescription: Decomposing a grid rectangle into repeated coprime subrectangles
 
 </small>
 
@@ -244,6 +254,7 @@ procentu atlaidi piešķīra, ja zināms, ka tā nepārsniedz $50 \%$?
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, DivisorsSet, RationalNumbers
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -278,6 +289,7 @@ noskaidrot, kurā paraugā ir vīruss?
 * _hasSolutionConcept: DecisionTree, FiniteSet, SetPartition
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, EncodingForBijectionOrInvariant
 
 </small>
 
@@ -311,6 +323,7 @@ Aprēķināt laukumu četrstūrim, kuru ierobežo taisnes
 * _hasSolutionConcept: CoordinatePlane, LinearFunction, PointLineSegmentRay, Triangle, QuadrilateralFamilies
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -340,6 +353,7 @@ Vai visi naturāli skaitļi, kuru ciparu summa dalās ar $27$ , arī paši dalā
 * _hasSolutionConcept: DivisibilityRelation, DigitSum, Counterexample, DigitRepresentation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules
 
 </small>
 
@@ -362,6 +376,7 @@ $MA+MB+MC > \frac{1}{2} P_{ABC}$.
 * _hasSolutionConcept: TriangleInequality, Triangle, PointLineSegmentRay
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: TriangleInequality
 
 </small>
 
@@ -402,6 +417,7 @@ var nokļūt jebkurā citā stāvā bez pārkāpšanas citā liftā?
 * _hasSolutionConcept: GraphConcept, ConnectedGraph, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -429,6 +445,7 @@ pavisam tika izspēlētas? Kas uzvarēja un kas zaudēja septītajā spēlē?
 * _hasSolutionConcept: StateSpaceProcess, Invariant, FiniteSequenceArrangement
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: MonovariantStrictlyChangingQuantity, ContradictionForImpossibility
 
 </small>
 
@@ -457,6 +474,7 @@ lielāks?
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
 
 </small>
 
@@ -488,6 +506,7 @@ Vai no taisnstūra ar izmēriem $6 \times 12$ rūtiņas var izgriezt astoņas
 * _hasSolutionConcept: Tiling, LatticeGrid, Polygon
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: PackingDisjointShapes
 
 </small>
 
@@ -511,6 +530,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādīt, ka $3AC>AB$.
 * _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis, TriangleInequality, IsoscelesTriangleProperties, TriangleAngleSum
 
 </small>
 
@@ -538,6 +558,7 @@ Vai piecu secīgu veselu skaitļu summa var būt **a)** $2022$, **b)** $2025$?
 * _hasSolutionConcept: DivisibilityRelation, WholeIntegers, VariableExpression
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: AlgebraicManipulationForInteger, DivisibilityRules, NumberConstruction
 
 </small>
 
@@ -570,6 +591,7 @@ vienmēr var uzvarēt!
 * _hasSolutionConcept: SymmetryStrategy, GCD, CoprimeIntegers, SetPartition, GamePosition
 * _readingDifficulty: medium
 * _domain: NT,Comb
+* _hasReasoningMethod: GameInvariantsInNT, InvariantMethod
 
 </small>
 
@@ -600,6 +622,7 @@ vismaz viena vesela sakne?
 * _hasSolutionConcept: QuadraticEquation, WholeIntegers, PolynomialAndRoots, VariableExpression
 * _readingDifficulty: low
 * _domain: Alg,NT
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, CaseAnalysisBySignOrInterval, FactorAndUseZeroProductRule
 
 </small>
 
@@ -639,6 +662,7 @@ laukums ir $60$ ?
 * _hasSolutionConcept: Polygon, LatticeGrid, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -664,6 +688,7 @@ krustojas punktā $A$. Aprēķināt $\sphericalangle RAO$.
 * _hasSolutionConcept: Angle, PointLineSegmentRay, Triangle, TriangleSpecialLines
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AngleChasing, TriangleAngleSum
 
 </small>
 
@@ -696,6 +721,7 @@ dalās ar $12^{4}$.
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, EvenOddParity, MultiplesSet
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityByConsecutive, PrimeFactorization, CoprimeFactorsDivisibility
 
 </small>
 
@@ -732,6 +758,7 @@ rūtiņās, kurām ir kopīga mala, ierakstīto skaitļu starpība nepārsniedz
 * _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
 * _domain: Comb,Geom
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, ExtremalElementArgument
 
 </small>
 

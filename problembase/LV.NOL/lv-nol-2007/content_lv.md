@@ -12,6 +12,7 @@ Strēmelītes nedrīkst pārklāties.
 * _hasSolutionConcept: Tiling, QuadrilateralFamilies, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -42,6 +43,7 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 * _hasSolutionConcept: FiniteSet, PositiveIntegers, OptimumProofStructure, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
 
 </small>
 
@@ -73,6 +75,7 @@ melnas rūtiņas?
 * _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -101,6 +104,7 @@ pārī meitene garāka par zēnu?
 * _hasSolutionConcept: TotalOrder, OrderedPair, Counterexample, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExtremalElementArgument
 
 </small>
 
@@ -143,6 +147,7 @@ dalās ar $61$.
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, OptimumProofStructure, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, BoundingArgument
 
 </small>
 
@@ -171,6 +176,7 @@ meļu?
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -205,6 +211,7 @@ $n=11$, **(B)** $n=13$?
 * _hasSolutionConcept: PerfectSquares, Permutation, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: NT,Comb
+* _hasReasoningMethod: CompleteEnumeration, NumberConstruction
 
 </small>
 
@@ -236,6 +243,7 @@ starpā nedrīkst pārklāties.
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: PackingDisjointShapes
 
 </small>
 
@@ -261,6 +269,7 @@ septītniekus?
 * _hasSolutionConcept: DivisibilityRules, DigitSum, PrimeFactorization, PrimeNumbers, DigitRepresentation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, PrimeFactorization, ProofByContradiction
 
 </small>
 
@@ -284,6 +293,7 @@ vismaz divi no bērniem nopirka vienu un to pašu nosaukumu sieriņus.
 * _hasSolutionConcept: FiniteSet, SetIntersection, PigeonholePrinciple, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic
 
 </small>
 
@@ -320,6 +330,7 @@ $x=a^{5},\ y=b^{3}$, $a$ un $b$ - naturāli skaitļi?
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, PrimeFactorization, PrimeNumbers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -349,6 +360,9 @@ summa ir pozitīva. Katru $3$ pēc kārtas uzrakstīto skaitļu summa ir negatī
 * _hasSolutionConcept: WholeIntegers, PositiveAndNegative, FiniteSequenceArrangement, DivisionWithRemainder, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction
+* _newReasoningMethodLabel: GroupingByFixedBlocks
+* _newReasoningMethodDescription: Partitioning a sequence into fixed-size consecutive groups
 
 </small>
 
@@ -380,6 +394,7 @@ katru soli šķērsojot kādu divu melnu rūtiņu kopējo malu?
 * _hasSolutionConcept: Coloring, LatticeGrid, GraphConcept, ConnectedGraph
 * _readingDifficulty: low
 * _domain: Comb,Geom
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -403,6 +418,7 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PositiveIntegers, NecessarySufficient
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumericalEstimation, IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother
 
 </small>
 
@@ -441,6 +457,7 @@ noskaidrot vismaz vienu viltoto monētu?
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -478,6 +495,7 @@ skolēni pareizi izpildīja sev doto uzdevumu?
 * _hasSolutionConcept: FiniteSet, CountingSumRule, SetPartition
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays, NumericalEstimation
 
 </small>
 
@@ -502,6 +520,7 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 * _hasSolutionConcept: VariableExpression, PolynomialAndRoots, DiffOfSquaresFactoring
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, FactorAndUseZeroProductRule, UseStandardIdentities
 
 </small>
 
@@ -525,6 +544,7 @@ un $\sphericalangle OCA=\sphericalangle OAC$?
 * _hasSolutionConcept: Triangle, Angle, ProofByContradiction
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: ProofByContradiction, IsoscelesTriangleProperties
 
 </small>
 
@@ -554,6 +574,7 @@ kārtas ņemtiem naturāliem skaitļiem.
 * _hasSolutionConcept: LCM, DivisibilityRelation, CoprimeIntegers, PositiveIntegers, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument
 
 </small>
 
@@ -594,6 +615,7 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 * _hasSolutionConcept: ChessboardColoring, Coloring, EvenOddParity, Invariant
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: ColoringInvariant
 
 </small>
 
@@ -618,6 +640,7 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, LastDigit
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: LastDigitAnalysis, PositionalNotation, NumberConstruction
 
 </small>
 
@@ -641,6 +664,7 @@ $2x^{2}+2y^{2} \leq 5xy$.
 * _hasSolutionConcept: VariableExpression, LinearInequality, IrrationalAndReals
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, ProvingByEquivalenceChain, UseStandardIdentities
 
 </small>
 
@@ -665,6 +689,7 @@ $\triangle ABC$ leņķu lielumus.
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, CircleAndDisk, ParallelPerpendicular, TriangleSimilarity
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: SimilarTriangles, AngleAtCenterAndCircumference, IsoscelesTriangleProperties, TriangleAngleSum
 
 </small>
 
@@ -695,6 +720,7 @@ $n$ reizes.
 * _hasSolutionConcept: UnorderedSelection, FiniteSet, Polygon, Triangle
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, CountingViaSymmetryClasses
 
 </small>
 
@@ -725,6 +751,7 @@ stūris, tad tajās ierakstīto skaitļu lielākais kopīgais dalītājs ir $1$.
 * _hasSolutionConcept: GCD, CoprimeIntegers, EvenOddParity, PigeonholePrinciple, FiniteSet
 * _readingDifficulty: medium
 * _domain: NT,Comb
+* _hasReasoningMethod: PigeonholeInNT, ParityArgument, BoundingArgument
 
 </small>
 

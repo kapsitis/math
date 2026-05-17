@@ -13,6 +13,7 @@ esošās degvielas. Cik litru degvielas tagad ir katrā tvertnē?
 * _hasSolutionConcept: RationalNumbers, ArithmeticMean
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -42,6 +43,7 @@ vieglāko, gan pašu smagāko monētu?
 * _hasSolutionConcept: DecisionTree, TotalOrder, SetPartition, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExtremalElementArgument, RuleOfSumDisjointCases
 
 </small>
 
@@ -112,6 +114,7 @@ nekā Jānītis? Figūra $stūrītis$ var būt arī pagriezta.
 * _hasSolutionConcept: Coloring, LatticeGrid, Rotation, Counterexample
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -141,6 +144,7 @@ Valentīns uzlīmes nesaņem un netērē.)
 * _hasSolutionConcept: StateSpaceProcess, Invariant, LinearEquation
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -166,6 +170,7 @@ cipariem), bet vienādus - vienādi, turklāt izveidotais skaitlis ir pirmskaitl
 * _hasSolutionConcept: PrimeNumbers, DigitSum, DivisibilityRules, DigitRepresentation, FiniteSet
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, SumOfArithmeticOrTriangularNumbers, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -196,6 +201,7 @@ cik jautājumiem Olafs nesniedza atbildi?
 * _hasSolutionConcept: WholeIntegers, CountingSumRule
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -221,6 +227,7 @@ Kā ar $3$ svēršanām uz sviras svariem bez atsvariem atrast viltoto monētu?
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
 
 </small>
 
@@ -281,6 +288,7 @@ pagrieztas vai apgrieztas spoguļattēlā.
 * _hasSolutionConcept: Tiling, Coloring, EvenOddParity, Invariant, Rotation, AxialSymmetry
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant, CaseAnalysis
 
 </small>
 
@@ -315,6 +323,7 @@ parādīt vienu veidu, kā to izdarīt.)
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ExhaustiveCheck, CaseAnalysis
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases, ContradictionForImpossibility
 
 </small>
 
@@ -353,6 +362,7 @@ atšķirīgi).
 * _hasSolutionConcept: DigitRepresentation, EquationSystem, EvenOddParity, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, ParityArgument
 
 </small>
 
@@ -389,6 +399,7 @@ $a, b, c$ nav $0$.
 * _hasSolutionConcept: LinearEquation, RationalNumbers, PositiveAndNegative, Counterexample
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -420,6 +431,7 @@ vai smagāka nekā pārējās? (Pašu monētu atrast nav nepieciešams.)
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: RuleOfSumDisjointCases, ConstructiveExampleForExistence
 
 </small>
 
@@ -493,6 +505,7 @@ nekā Jānītis? Figūra stūrītis var būt arī pagriezta.
 * _hasSolutionConcept: Coloring, LatticeGrid, Rotation, Counterexample
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -516,6 +529,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b)=150015$ ?
 * _hasSolutionConcept: EvenOddParity, WholeIntegers, CaseAnalysis
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: ParityArgument, CompleteEnumeration
 
 </small>
 
@@ -547,6 +561,7 @@ uzvarēt?
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, MultiplesSet, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: NT,Comb
+* _hasReasoningMethod: NumberConstruction, PositionalNotation
 
 </small>
 
@@ -589,6 +604,9 @@ malas garumu kvadrātam, kura laukums ir tikpat liels kā dotajam taisnstūrim
 * _hasSolutionConcept: QuadrilateralFamilies, DiffOfSquaresFactoring, RationalNumbers, IrrationalAndReals
 * _readingDifficulty: low
 * _domain: Geom,Alg
+* _hasReasoningMethod: ParallelogramProperties
+* _newReasoningMethodLabel: ArithmeticSimplification
+* _newReasoningMethodDescription: Simplifying radicals, products, and area formulas numerically
 
 </small>
 
@@ -620,6 +638,7 @@ atsvariem atrast viltoto monētu?
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
 
 </small>
 
@@ -662,6 +681,7 @@ $EM=BC$.
 * _hasSolutionConcept: TriangleCongruence, Triangle, Angle, PointLineSegmentRay, Polygon
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
 
 </small>
 
@@ -700,6 +720,7 @@ $\frac{4}{3},\ \frac{4}{5},\ \frac{5}{2}$?
 * _hasSolutionConcept: Invariant, RationalNumbers, StateSpaceProcess
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -732,6 +753,7 @@ izveidotais trīsciparu skaitlis $\overline{yxy}$ ?
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, DivisibilityRelation, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, CoprimeFactorsDivisibility, PositionalNotation, AlgebraicManipulationForInteger, BoundingArgument
 
 </small>
 
@@ -777,6 +799,7 @@ augoša vai dilstoša!
 * _hasSolutionConcept: LinearFunction, QuadraticEquation, VariableExpression, CoordinatePlane
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, UseFunctionGraphForRootsAndComparisons, CaseAnalysisBySignOrInterval
 
 </small>
 
@@ -808,6 +831,7 @@ lodīti?
 * _hasSolutionConcept: CaseAnalysis, DecisionTree, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -885,6 +909,7 @@ punkts $O$. Pierādīt, ka $S_{AEOH}+S_{FCGO}=S_{BFOE}+S_{DHOG}$.
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, ParallelPerpendicular, TriangleCongruence, Invariant
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, AuxiliaryLines, CongruentTriangles, TriangleAngleSum
 
 </small>
 
@@ -954,6 +979,7 @@ no visu šajā kolonnā ierakstīto skaitļu reizinājuma. Vai tas ir iespējams
 * _hasSolutionConcept: Invariant, ProofByContradiction, PerfectSquares, EvenOddParity, LatticeGrid
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, FixedInvariantNumeric
 
 </small>
 
@@ -994,6 +1020,7 @@ iegūtu skaitli, kas dalās ar $2019$?
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisionWithRemainder, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: BoundingArgument, PositionalNotation, NumberConstruction
 
 </small>
 

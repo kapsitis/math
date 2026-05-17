@@ -11,6 +11,7 @@ $B$.
 * _hasSolutionConcept: DigitRepresentation, LinearEquation, LinearInequality
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: NumericalEstimation, ExpressOneUnknownThroughAnother
 
 </small>
 
@@ -38,6 +39,7 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 * _hasSolutionConcept: FiniteSequenceArrangement, StateSpaceProcess, Invariant, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, MonovariantStrictlyChangingQuantity
 
 </small>
 
@@ -74,6 +76,7 @@ griežot iegūtā trijstūra malu.
 * _hasSolutionConcept: Triangle, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -104,6 +107,7 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 * _hasSolutionConcept: OptimumProofStructure, PositiveIntegers, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
 
 </small>
 
@@ -135,6 +139,7 @@ krāsas amēba. Vai var gadīties, ka traukā paliek tikai viena amēba?
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric, ContradictionForImpossibility
 
 </small>
 
@@ -159,6 +164,7 @@ kārtībā) tā, ka $AB=1,\ BC=3,\ CD=5,\ DE=7,\ EA=9$?
 * _hasSolutionConcept: EvenOddParity, Invariant, PointLineSegmentRay
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: ParityInvariant, ProofByContradiction
 
 </small>
 
@@ -185,6 +191,7 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 * _hasSolutionConcept: GraphConcept, BinaryRelation, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -216,6 +223,7 @@ $n=11$, **(B)** $n=13$?
 * _hasSolutionConcept: PerfectSquares, Permutation, ProofByContradiction, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb,NT
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -245,6 +253,7 @@ viena santīma monētās?
 * _hasSolutionConcept: StateSpaceProcess, Invariant, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility
 
 </small>
 
@@ -267,6 +276,7 @@ dalītājs. Kāds var būt šis mazākais skaitlis?
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, EvenOddParity, DivisibilityRules, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, ProofByContradiction, ParityArgument, NumberConstruction
 
 </small>
 
@@ -302,6 +312,7 @@ Plaknē atzīmēti $5$ punkti. Cik var būt trijstūru, kam visas virsotnes atro
 * _hasSolutionConcept: Triangle, PointLineSegmentRay, CaseAnalysis, FiniteSet
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 
 </small>
 
@@ -336,6 +347,7 @@ no iespējām pastāv īstenībā?
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -365,6 +377,7 @@ skaitlis nebūtu divu citu izvēlēto skaitļu starpība?
 * _hasSolutionConcept: FiniteSet, PositiveIntegers, PigeonholePrinciple, TotalOrder, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Comb,NT
+* _hasReasoningMethod: PigeonholePrincipleBasic, ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -394,6 +407,7 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PositiveIntegers, NecessarySufficient
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumericalEstimation, IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother
 
 </small>
 
@@ -430,6 +444,7 @@ piezvanīja $B,\ B$ piezvanīja $C$ un $C$ piezvanīja $A$.
 * _hasSolutionConcept: DirectedGraph, GraphConcept, VertexDegree, PigeonholePrinciple, WalkPathCycle
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleBasic
 
 </small>
 
@@ -461,6 +476,7 @@ operāciju palīdzību. Atrast $A$.
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, DiffOfSquaresFactoring
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -489,6 +505,7 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 * _hasSolutionConcept: Triangle, TriangleInequality, GamePosition, WinningLosingPositions, CaseAnalysis
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: TriangleInequality, CaseAnalysis
 
 </small>
 
@@ -523,6 +540,7 @@ ar $4$?
 * _hasSolutionConcept: ModularArithmetic, DivisibilityRelation, FiniteSequenceArrangement, PigeonholePrinciple
 * _readingDifficulty: low
 * _domain: Comb,NT
+* _hasReasoningMethod: ModularArithmetic, PigeonholeInNT
 
 </small>
 
@@ -556,6 +574,9 @@ Vai taisnstūri ar izmēriem **(A)** $8 \times 8$, **(B)** $12 \times 12$,
 * _hasSolutionConcept: Tiling, DivisibilityRelation, QuadrilateralFamilies
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _newReasoningMethodLabel: DivisibilityByTileArea
+* _newReasoningMethodDescription: Using total area divisibility for tiling feasibility
 
 </small>
 
@@ -587,6 +608,7 @@ kartiņas ar skaitli $13$. Cik kartiņu ir Maijai?
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, FiniteSet, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: high
 * _domain: Comb,NT
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -629,6 +651,7 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 * _hasSolutionConcept: GraphConcept, VertexDegree, OptimumProofStructure, BinaryRelation
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
 
 </small>
 
@@ -660,6 +683,7 @@ $ABCD$ - kvadrāts (protams, iegūto punktu skaits tad būs mazāks).
 * _hasSolutionConcept: ParallelogramProperties, Triangle, ParallelPerpendicular
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, ParallelogramProperties
 
 </small>
 
@@ -704,6 +728,7 @@ $$\left\{\begin{array}{l}
 * _hasSolutionConcept: IrrationalAndReals, EquationSystem, WholeIntegers, VariableExpression
 * _readingDifficulty: low
 * _domain: Alg,NT
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -740,6 +765,7 @@ Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
 * _hasSolutionConcept: DivisibilityRelation, CoprimeIntegers, LCM, PositiveIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument, AlgebraicManipulationForInteger
 
 </small>
 
@@ -772,6 +798,7 @@ spēlējot?
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, FiniteSet, PositiveIntegers
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: CompleteEnumeration, ProofByContradiction, GameInvariantsInNT
 
 </small>
 

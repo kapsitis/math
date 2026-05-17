@@ -16,6 +16,7 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, Invariant, ProofByContradiction
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -45,6 +46,7 @@ $22$-jam, bet $60$-ais vagoniņš - pretī $86$-jam (skat. 1.zīm.). Atrast $n$.
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, CountingSumRule
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
 
 </small>
 
@@ -70,6 +72,7 @@ atkārtojot šādus gājienus?
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -100,6 +103,9 @@ Kāds lielākais daudzums krāsu var būt izmantots?
 * _hasSolutionConcept: Coloring, GraphConcept, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: ProofByContradiction
+* _newReasoningMethodLabel: CountingAdjacencyPairs
+* _newReasoningMethodDescription: Counting required color-adjacency pairs versus available shared edges
 
 </small>
 
@@ -135,6 +141,7 @@ pilsētā $A$ un kura kopgarums ir tieši $863~\mathrm{km}$?
 * _hasSolutionConcept: GraphConcept, WalkPathCycle, EvenOddParity, Invariant
 * _readingDifficulty: medium
 * _domain: Comb,NT
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -163,6 +170,7 @@ tabulā ierakstīto skaitļu summa?
 * _hasSolutionConcept: OptimumProofStructure, EvenOddParity, PositiveIntegers, LatticeGrid
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -196,6 +204,7 @@ Vai tas iespējams, ja **(A)** $n=2004$, **(B)** $n=2005$?
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, EvenOddParity, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -226,6 +235,9 @@ Gabali var būt novietoti arī citādi.
 * _hasSolutionConcept: Tiling, LinearDiophantine, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
+* _newReasoningMethodLabel: LinearDiophantineEquation
+* _newReasoningMethodDescription: Solving integer count equations under positivity constraints
 
 </small>
 
@@ -254,6 +266,7 @@ uzrakstītajiem var izvēlēties tādus divus, kuru reizinājums dalās ar $21$.
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, PigeonholePrinciple, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: NT,Comb
+* _hasReasoningMethod: BoundingArgument
 
 </small>
 
@@ -296,6 +309,7 @@ Pierādīt, ka
 * _hasSolutionConcept: DirectedGraph, BinaryRelation, WalkPathCycle, VertexDegree, ExistenceVsUniversal
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -327,6 +341,7 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, OptimumProofStructure, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: NT,Comb
+* _hasReasoningMethod: CompleteEnumeration, ParityArgument
 
 </small>
 
@@ -353,6 +368,7 @@ vienā punktā?
 * _hasSolutionConcept: LinearFunction, CoordinatePlane, EquationSystem, OrderedPair
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseFunctionGraphForRootsAndComparisons
 
 </small>
 
@@ -381,6 +397,7 @@ veselu malu.
 * _hasSolutionConcept: Tiling, Triangle, EvenOddParity, Invariant
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: ParityInvariant
 
 </small>
 
@@ -416,6 +433,7 @@ dalītāju summu.
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet, EvenOddParity
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, ParityArgument, BoundingArgument
 
 </small>
 
@@ -464,6 +482,7 @@ no iespējām pastāv īstenībā?
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -493,6 +512,7 @@ decimālais pieraksts sākas ar ciparu $1$?
 * _hasSolutionConcept: DigitRepresentation, NumberSequence, CountingSumRule
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: BoundingArgument
 
 </small>
 
@@ -527,6 +547,7 @@ daudzums rūtiņu var būt izcilas?
 * _hasSolutionConcept: LatticeGrid, FiniteSet, ProofByContradiction, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ConstructiveExampleForExistence
 
 </small>
 
@@ -563,6 +584,7 @@ Ar kādu mazāko jautājumu skaitu Juris var noteikti noskaidrot $n$?
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DecisionTree, OptimumProofStructure
 * _readingDifficulty: high
 * _domain: Comb,NT
+* _hasReasoningMethod: PrimePropertiesAndUniqueness, NumberConstruction
 
 </small>
 
@@ -603,6 +625,7 @@ tādu punktu $C$, ka $A,\ B$ un $C$ ir vienādsānu trijstūra virsotnes?
 * _hasSolutionConcept: Triangle, PointLineSegmentRay, ParallelPerpendicular, CircleAndDisk, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis, PerpendicularBisector, IsoscelesTriangleProperties
 
 </small>
 
@@ -627,6 +650,7 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 * _hasSolutionConcept: VariableExpression, PolynomialAndRoots, DiffOfSquaresFactoring
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: FactorAndUseZeroProductRule, EquivalentTransformationsOfEquationsAndInequalities, SubstitutionForSimplification
 
 </small>
 
@@ -658,6 +682,7 @@ $$a^{2}-ab+b^{2} \geq 5a+5b-25$$
 * _hasSolutionConcept: VariableExpression, IrrationalAndReals, SquareOfSumIdentity
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CompleteTheSquareForNonNegativity, UseStandardIdentities
 
 </small>
 
@@ -679,6 +704,7 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, LastDigit, DivisibilityRules
 * _readingDifficulty: low
 * _domain: NT,Comb
+* _hasReasoningMethod: DivisibilityRules, PositionalNotation, NumberConstruction
 
 </small>
 
@@ -709,6 +735,9 @@ $A$. Taisne $t$ pieskaras abām riņķa līnijām punktā $A$ un krusto to kopē
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, PointLineSegmentRay, PythagoreanTheorem
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: PythagoreanTheorem
+* _newReasoningMethodLabel: TangentSegmentsFromExternalPoint
+* _newReasoningMethodDescription: Equal tangent segments from the same external point
 
 </small>
 
@@ -739,6 +768,7 @@ diviem, iegūst visus naturālos skaitļus no $1$ līdz $15$ ieskaitot?
 * _hasSolutionConcept: PositiveIntegers, TotalOrder, ProofByContradiction, PigeonholePrinciple
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, ExtremalElementArgument
 
 </small>
 
@@ -777,6 +807,7 @@ $1;\ 2;\ 3;\ 4$?
 * _hasSolutionConcept: RecurrentSequence, PeriodicSequence, LastDigit, EvenOddParity, PigeonholePrinciple
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: PeriodicSequence, ParityArgument, PigeonholeInNT, ProofByContradiction
 
 </small>
 

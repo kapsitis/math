@@ -10,6 +10,7 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vai nu $1$, vai 
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, CircleAndDisk
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -36,6 +37,7 @@ Cik ir tādu naturālu skaitļu, kas ir vairāk nekā viena datuma pieraksti And
 * _hasSolutionConcept: DigitRepresentation, CaseAnalysis, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
 
 </small>
 
@@ -63,6 +65,7 @@ diviem iekrāsotiem trijstūrīšiem nebūtu ne kopīga mala, ne kopīgs stūris
 * _hasSolutionConcept: Triangle, Coloring, OptimumProofStructure, SetPartition
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: PackingDisjointShapes
 
 </small>
 
@@ -89,6 +92,7 @@ būtu tāds, kāds redzams 2.zīm, bet pārējie četri būtu savā starpā vien
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: 
 
 </small>
 
@@ -115,6 +119,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * _hasSolutionConcept: OptimumProofStructure, GraphConcept, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -144,6 +149,7 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
 
 </small>
 
@@ -171,6 +177,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka
 * _hasSolutionConcept: DivisibilityRelation, WholeIntegers, LinearDiophantine, GCD
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, DiophantineEquations, PrimeFactorization
 
 </small>
 
@@ -199,6 +206,7 @@ naturālam skaitlim tā, lai vienlaicīgi
 * _hasSolutionConcept: EvenOddParity, LatticeGrid, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -224,6 +232,7 @@ Kāds lielākais skolēnu skaits šajā turnīrā var iegūt lielmeistara nosauk
 * _hasSolutionConcept: OptimumProofStructure, ProofByContradiction, ArithmeticMean, GraphConcept
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -259,6 +268,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, Monovariant, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -297,6 +307,9 @@ gājienus atkārto, līdz rindā paliek tikai viens skaitlis.
 * _hasSolutionConcept: Invariant, FiniteSequenceArrangement
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ParameterInvariantValue
+* _newReasoningMethodLabel: ConservationOfSumInvariant
+* _newReasoningMethodDescription: Using that an operation preserves the total sum
 
 </small>
 
@@ -323,6 +336,7 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 * _hasSolutionConcept: EquationSystem, VariableExpression, PositiveAndNegative
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -348,6 +362,7 @@ $(x+1)(x+2)(x+3)$ dalās ar $343$?
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, PositiveIntegers, CountingProductRule
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: BoundingArgument, PrimeFactorization
 
 </small>
 
@@ -381,6 +396,7 @@ rūtiņām nebūtu nokrāsotas visas malas?
 * _hasSolutionConcept: LatticeGrid, Coloring, OptimumProofStructure, CountingSumRule
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: CountingByDoubleCounting
 
 </small>
 
@@ -413,6 +429,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 
 </small>
 
@@ -451,6 +468,7 @@ $2$ un $3$.)
 * _hasSolutionConcept: PrimeFactorization, PrimeNumbers, DiffOfSquaresFactoring
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: FactoringAlgebraicExpressions, PrimeFactorization
 
 </small>
 
@@ -481,6 +499,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC > AB$.
 * _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis, TriangleInequality, EquilateralTriangleConstruction, IsoscelesTriangleProperties
 
 </small>
 
@@ -527,6 +546,7 @@ starpība dalās ar $9$.
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DigitSum, DivisibilityRules
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, PositionalNotation, TelescopingAndIdentity
 
 </small>
 
@@ -558,6 +578,7 @@ ir identitāte?
 * _hasSolutionConcept: VariableExpression, PolynomialAndRoots, LinearFunction, PositiveAndNegative, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, ProofByContradictionInAlgebra
 
 </small>
 
@@ -583,6 +604,7 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 * _hasSolutionConcept: GraphConcept, Coloring, Triangle, PigeonholePrinciple
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleGeneralized, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -609,6 +631,7 @@ Atrodiet kaut vienu kvadrātvienādojumu ar veseliem koeficientiem, kam viena no
 * _hasSolutionConcept: QuadraticEquation, WholeIntegers, SquareOfSumIdentity, IrrationalAndReals, PolynomialAndRoots
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -635,6 +658,7 @@ $R^{2}+r^{2}=d^{2}$
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, ParallelPerpendicular, PythagoreanTheorem, NecessarySufficient
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: PythagoreanTheorem, AuxiliaryLines
 
 </small>
 
@@ -673,6 +697,7 @@ $ABC$ malām nav garāka par $ABC$ lielāko augstumu.
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, LinearInequality
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaCounting
 
 </small>
 
@@ -705,6 +730,7 @@ iespējamais bērnu skaits?
 * _hasSolutionConcept: CircleAndDisk, DivisibilityRelation, PositiveIntegers, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric, ConstructiveExampleForExistence
 
 </small>
 
@@ -740,6 +766,7 @@ y^2 + x & = t^2
 * _hasSolutionConcept: PerfectSquares, PositiveIntegers, EquationSystem, TotalOrder
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: BoundingArgument, DiophantineEquations
 
 </small>
 

@@ -9,6 +9,7 @@ ar to reizinājumu?
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -30,6 +31,7 @@ Parādi, kā kvadrātu var sadalīt četros vienādos piecstūros.
 * domain:Geom
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, DissectionIntoCongruent
 * _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -52,6 +54,7 @@ $1, 2, 3, 4, 5, 8$ izmantots tieši vienu reizi.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules
 
 </small>
 
@@ -78,6 +81,7 @@ lielāks nekā $1$.
 * domain:NT
 * _hasSolutionConcept: GCD, PrimeNumbers, CoprimeIntegers, PrimeFactorization, GraphConcept
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -111,6 +115,7 @@ tā, ka no katra punkta iziet tieši $3$ vai $5$ nogriežņi?
 * domain:Comb
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity, ProofByContradiction
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, HandshakingLemmaSumOfDegreesEven
 
 </small>
 
@@ -135,6 +140,7 @@ $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}+\frac{1}{d}=1$.
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: 
 
 </small>
 
@@ -162,6 +168,7 @@ jebkurus divus no tiem, nodzēš tos un rindas galā uzraksta šo skaitļu starp
 * domain:Alg
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess, PositiveIntegers
 * _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
 
 </small>
 
@@ -198,6 +205,7 @@ un riņķa līniju, kas krusto uzzīmētā daudzstūra katru malu tieši vienā 
 * domain:Geom
 * _hasSolutionConcept: Polygon, CircleAndDisk, EvenOddParity, Invariant
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityInvariant
 
 </small>
 
@@ -244,6 +252,7 @@ $y$ *simti,* $z$ *desmiti un* $t$ *vieni.*)
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisibilityRules
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules
 
 </small>
 
@@ -277,6 +286,7 @@ Figūra var tikt novietota tikai tā, lai tās malas ietu pa rūtiņu līnijām.
 * domain:Geom
 * _hasSolutionConcept: Tiling, Coloring, LatticeGrid, Rotation
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -308,6 +318,7 @@ skaitļu summa ir naturāla skaitļa kvadrāts. Ar ko pārī apvienots skaitlis 
 * domain:NT
 * _hasSolutionConcept: PerfectSquares, ExhaustiveCheck, SetPartition
 * _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration
 
 </small>
 
@@ -373,6 +384,7 @@ skaitlis $x(x+1)(x+2)$ dalās ar $111$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, PositiveIntegers, CountingSumRule
 * _readingDifficulty: low
+* _hasReasoningMethod: CoprimeFactorsDivisibility, DivisibilityByConsecutive
 
 </small>
 
@@ -409,6 +421,7 @@ atrodas uz vienas taisnes?
 * domain:Geom
 * _hasSolutionConcept: Polygon, PointLineSegmentRay, PigeonholePrinciple, ProofByContradiction, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrinciple, ProofByContradiction
 
 </small>
 
@@ -438,6 +451,7 @@ skaitļu starpība būtu $6, 10, 14$ vai $18$?
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, Invariant, ModularArithmetic, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
 
 </small>
 
@@ -477,6 +491,7 @@ malas garumu $2$ un kuros ierakstīto skaitļu summa ir vismaz $18$.
 * domain:Geom
 * _hasSolutionConcept: PigeonholePrinciple, Triangle, DissectionIntoCongruent, ArithmeticMean
 * _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrinciple
 
 </small>
 
@@ -503,6 +518,7 @@ reizinātājiem ir lielāks nekā $1$.
 * domain:NT
 * _hasSolutionConcept: DiffOfSquaresFactoring, WholeIntegers
 * _readingDifficulty: low
+* _hasReasoningMethod: FactoringAlgebraicExpressions
 
 </small>
 
@@ -534,6 +550,7 @@ leņķu lielumus!
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum, ParallelPerpendicular
 * _readingDifficulty: medium
+* _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
 
 </small>
 
@@ -570,6 +587,7 @@ Cik ir tādu četrciparu skaitļu, kuru pierakstā ir vismaz viens pāra cipars?
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, CountingProductRule, SetDifference
 * _readingDifficulty: low
+* _hasReasoningMethod: RuleOfProductIndependentChoices
 
 </small>
 
@@ -605,6 +623,7 @@ skaitļu reizinājums būtu viens un tas pats.
 * domain:Alg
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, VariableExpression
 * _readingDifficulty: low
+* _hasReasoningMethod: UseStandardIdentities, NumericalEstimation
 
 </small>
 
@@ -667,6 +686,7 @@ ka vispirms stāv $10$ zēni un pēc tam $10$ meitenes.
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, Invariant, PigeonholePrinciple, Counterexample
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, PigeonholePrincipleBasic
 
 </small>
 
@@ -706,6 +726,7 @@ $987654321$?
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, LastDigit, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -727,6 +748,7 @@ izvēles.
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, PointLineSegmentRay
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaCounting, AuxiliaryLines
 
 </small>
 
@@ -753,6 +775,9 @@ ar vienu un to pašu skaitli. Atrast visus šādus taisnstūrus.
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, WholeIntegers, VariableExpression, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysis
+* _newReasoningMethodLabel: FactoringAlgebraicExpressions
+* _newReasoningMethodDescription: Rewriting equations by algebraic factorization
 
 </small>
 
@@ -780,6 +805,7 @@ $a_{1}+a_{2}+\ldots+a_{2013}$ vērtību.
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, LinearInequality, OptimumProofStructure
 * _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -811,6 +837,7 @@ risinājumi netika iesniegti.
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PigeonholePrinciple, SubsetConcept, FiniteSet
 * _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrincipleGeneralized, RuleOfProductIndependentChoices
 
 </small>
 

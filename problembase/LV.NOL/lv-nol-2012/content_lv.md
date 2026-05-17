@@ -14,6 +14,7 @@ Parādīt, kā no skaitļa $5$ var iegūt skaitli $21$, vairakkārt pielietojot 
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, StateSpaceProcess, PositiveIntegers
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -34,6 +35,7 @@ Cik rūtiņas liels ir kvadrāta $ABCD$ laukums (skat. 1.zīm.)?
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, LatticeGrid
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -59,6 +61,7 @@ cipariem $1,\ 2,\ 3,\ 4,\ 5,\ 7,\ 8$ izmantots tieši vienu reizi.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, MultiplesSet
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules, PositionalNotation
 
 </small>
 
@@ -91,6 +94,7 @@ uzziedētu atšķirīgas krāsas tulpes un lai katrā rindā jebkuras trīs pēc
 * domain:Comb
 * _hasSolutionConcept: Coloring, LatticeGrid, EvenOddParity, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, FixedInvariantNumeric
 
 </small>
 
@@ -128,6 +132,7 @@ $2$: $11,\ 12,\ 22,\ 21$.)
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, ExhaustiveCheck, WalkPathCycle, EulerPath
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -149,6 +154,7 @@ summa dalās ar $5$.
 * domain:NT
 * _hasSolutionConcept: DigitSum, DivisibilityRelation, DigitRepresentation
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules
 
 </small>
 
@@ -170,6 +176,7 @@ skaitlis $53421$?
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, TotalOrder, CountingProductRule, FiniteSequenceArrangement
 * _readingDifficulty: low
+* _hasReasoningMethod: RuleOfProductIndependentChoices
 
 </small>
 
@@ -197,6 +204,7 @@ un riņķa līniju, kas krusto uzzīmētā daudzstūra katru malu tieši vienā 
 * domain:Geom
 * _hasSolutionConcept: Polygon, CircleAndDisk, EvenOddParity, CaseAnalysis
 * _readingDifficulty: low
+* _hasReasoningMethod: ProofByContradiction
 
 </small>
 
@@ -228,6 +236,7 @@ jebkuru divu blakus stāvošu skaitļu summa būtu pirmskaitlis?
 * domain:NT
 * _hasSolutionConcept: EvenOddParity, PrimeNumbers, Polygon, Invariant
 * _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument, ProofByContradiction, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -257,6 +266,7 @@ var uzdot tieši vienu jautājumu, uz kuru viņš var atbildēt tikai ar "jā" v
 * domain:Comb
 * _hasSolutionConcept: DecisionTree, ExhaustiveCheck, TotalOrder
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 
 </small>
 
@@ -303,6 +313,7 @@ vairākas reizes jebkādā secībā?
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, StateSpaceProcess, GraphConcept, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -328,6 +339,7 @@ starp kuriem ir astoņstūris.
 * domain:Geom
 * _hasSolutionConcept: Polygon, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -350,6 +362,7 @@ skaitļu reizinājumus. Cik no šiem septiņiem reizinājumiem ir pozitīvi?
 * domain:Comb
 * _hasSolutionConcept: PositiveAndNegative, FiniteSequenceArrangement, CircleAndDisk, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -384,6 +397,7 @@ Pierādīt, ka $1004041$ nav pirmskaitlis.
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DivisibilityRules, DigitRepresentation
 * _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, DivisibilityRules
 
 </small>
 
@@ -420,6 +434,7 @@ ar malas garumu $2$ un kuros ierakstīto skaitļu summa ir vismaz $18$.
 * domain:Geom
 * _hasSolutionConcept: Triangle, DissectionIntoCongruent, FiniteSet, PigeonholePrinciple
 * _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrinciple, PackingDisjointShapes
 
 </small>
 
@@ -445,6 +460,7 @@ reizinātājiem ir lielāks nekā $1$.
 * domain:NT
 * _hasSolutionConcept: DiffOfSquaresFactoring, WholeIntegers
 * _readingDifficulty: low
+* _hasReasoningMethod: FactoringAlgebraicExpressions
 
 </small>
 
@@ -468,6 +484,7 @@ Pierādīt, ka punkts $F$ ir malas $BC$ viduspunkts.
 * domain:Geom
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, PointLineSegmentRay
 * _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
 
 </small>
 
@@ -493,6 +510,7 @@ vieni.)
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitProduct, DigitRepresentation
 * _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, PositionalNotation
 
 </small>
 
@@ -514,6 +532,7 @@ uzzīmētie punkti atrastos tieši $1~\mathrm{cm}$ attālumā.
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, CoordinatePlane, GraphConcept, VertexDegree
 * _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -541,6 +560,7 @@ uzskatāmi par vienādiem.)
 * domain:Geom
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, Rotation, AxialSymmetry
 * _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis, SymmetryStrategy
 
 </small>
 
@@ -565,6 +585,7 @@ $a+b=2012$. Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti
 * domain:Alg
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, IrrationalAndReals, CoordinatePlane
 * _readingDifficulty: low
+* _hasReasoningMethod: ParameterizedInvariantValue
 
 </small>
 
@@ -586,6 +607,7 @@ izvēles.
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, PointLineSegmentRay
 * _readingDifficulty: low
+* _hasReasoningMethod: AreaCounting
 
 </small>
 
@@ -611,6 +633,7 @@ katrā grupā būtu tieši $5$, $6$ vai $7$ cilvēki?
 * domain:Alg
 * _hasSolutionConcept: NumberPartitions, DivisionWithRemainder, ExhaustiveCheck, PositiveIntegers
 * _readingDifficulty: low
+* _hasReasoningMethod: BruteForceCheckOverFiniteSet, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -648,6 +671,7 @@ divu iepriekšējo locekļu kvadrātu summas pēdējo ciparu.
 * domain:NT
 * _hasSolutionConcept: RecurrentSequence, PeriodicSequence, EvenOddParity, LastDigit
 * _readingDifficulty: low
+* _hasReasoningMethod: PeriodicSequence, ParityArgument, LastDigitAnalysis
 
 </small>
 
@@ -681,6 +705,7 @@ ka šo skaitļu summa dalās ar $n$.
 * domain:NT
 * _hasSolutionConcept: CoprimeIntegers, DivisibilityRelation, PositiveIntegers, EvenOddParity
 * _readingDifficulty: low
+* _hasReasoningMethod: InvariantMethod
 
 </small>
 

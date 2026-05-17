@@ -14,6 +14,7 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -43,6 +44,7 @@ pārklāties un saliktā kvadrāta iekšpusē nedrīkst palikt tukšumi.
 * _hasSolutionConcept: Tiling, LatticeGrid, Polygon, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -78,6 +80,7 @@ vienai reizei ciparus $0;\ 1;\ 2;\ 3;\ 4;\ 5$?
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, LastDigit, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, NumberConstruction
 
 </small>
 
@@ -105,6 +108,7 @@ būtu lielāks par visās savās kaimiņu rūtiņās ierakstītajiem?
 * _hasSolutionConcept: ChessboardColoring, Coloring, PositiveIntegers
 * _readingDifficulty: low
 * _domain: Comb,Geom
+* _hasReasoningMethod: ConstructiveExampleForExistence, ColoringArgumentForCoverageOrUnreachability
 
 </small>
 
@@ -130,6 +134,7 @@ sistēmā?
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
 
 </small>
 
@@ -155,6 +160,7 @@ $3 \times 3$ rūtiņām sastāvošā kvadrātā būtu tieši viena melna rūtiņ
 * _hasSolutionConcept: Coloring, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -182,6 +188,7 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
 
 </small>
 
@@ -209,6 +216,7 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
 
 </small>
 
@@ -239,6 +247,7 @@ nepāra?
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, CaseAnalysis, ProofByContradiction
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: ProofByContradiction, ParityArgument, CompleteEnumeration
 
 </small>
 
@@ -272,6 +281,7 @@ mazākais iespējamais.)
 * _hasSolutionConcept: ProofByContradiction, DivisibilityRelation, WholeIntegers, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, FixedInvariantNumeric
 
 </small>
 
@@ -315,6 +325,9 @@ $x=a^{3}, y=b^{5}$, $a$ un $b$ naturāli skaitļi?
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, CoprimeIntegers, GCD
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, AlgebraicManipulationForInteger
+* _newReasoningMethodLabel: BezoutIdentity
+* _newReasoningMethodDescription: Using Bezout coefficients to combine exponents
 
 </small>
 
@@ -352,6 +365,7 @@ skaitļu summu. Šādus gājienus atkārto, līdz rindā paliek tikai viens skai
 * _hasSolutionConcept: Invariant, FiniteSequenceArrangement
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric, MonovariantStrictlyChangingQuantity
 
 </small>
 
@@ -383,6 +397,7 @@ skaitļa dalītājiem pieskaita gan viņu pašu, gan vieninieku.)
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PrimeFactorization, PrimeNumbers, CaseAnalysis
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberOfDivisors, PrimeFactorization, NumberConstruction
 
 </small>
 
@@ -435,6 +450,7 @@ virzieniem, nebūtu perpendikulāri viens otram?
 * _hasSolutionConcept: LatticeGrid, Coloring, ParallelPerpendicular, OptimumProofStructure, CaseAnalysis
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis, ProofByContradiction, PigeonholePrinciple
 
 </small>
 
@@ -487,6 +503,7 @@ Jūsu atrastajiem plāniem.)
 * _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, DecisionTree
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -531,6 +548,7 @@ ierakstīto skaitļu summa būs $64$.
 * _hasSolutionConcept: Invariant, LatticeGrid, Permutation, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays, BruteForceCheckOverFiniteSet
 
 </small>
 
@@ -590,6 +608,7 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, LinearInequality
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseTrivialInequalitiesAndAddThem, UseStandardIdentities
 
 </small>
 
@@ -612,6 +631,7 @@ Atrodiet skaitļa $113^{113}-19^{19}$ pēdējo ciparu.
 * _hasSolutionConcept: LastDigit, DigitRepresentation, PeriodicSequence
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: LastDigitAnalysis
 
 </small>
 
@@ -645,6 +665,7 @@ iepriekšējās reizēs. Pierādiet, ka svari atkal nostāsies līdzsvarā.
 * _hasSolutionConcept: EquationSystem, VariableExpression, SetIntersection, SetDifference
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, SystemOfEquationsAdditionOrSubstitution, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -675,6 +696,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC>AB$.
 * _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis, TriangleInequality, EquilateralTriangleConstruction, IsoscelesTriangleProperties
 
 </small>
 
@@ -717,6 +739,9 @@ Kāds ir mazākais iespējamais $\triangle ABC$ laukums?
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaCounting
+* _newReasoningMethodLabel: PerpendicularShortestDistance
+* _newReasoningMethodDescription: Perpendicular gives the shortest distance from a point to a line
 
 </small>
 
@@ -745,6 +770,7 @@ naturālā skaitļa kvadrātu?
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, DivisibilityRelation, GCD, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PositionalNotation, CompleteEnumeration, DivisibilityRules, CoprimeFactorsDivisibility
 
 </small>
 
@@ -773,6 +799,7 @@ un tikai tad, ja $R^{2}+r^{2}=d^{2}$.
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, ParallelPerpendicular, PythagoreanTheorem, NecessarySufficient
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: PythagoreanTheorem, AuxiliaryLines
 
 </small>
 
@@ -814,6 +841,7 @@ nevienādība $x^{2}+px+q \geq-1$
 * _hasSolutionConcept: QuadraticEquation, PolynomialAndRoots, QuadraticFunction, PositiveAndNegative
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, WeightedAMGMOrTwoVariableAMGM, FactorAndUseZeroProductRule, NumericalEstimation
 
 </small>
 
@@ -853,6 +881,7 @@ pazīst $Y$, tad arī $Y$ pazīst $X$.
 * _hasSolutionConcept: GraphConcept, VertexDegree, PigeonholePrinciple, EvenOddParity, Counterexample
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic, ConstructiveExampleForExistence, FixedInvariantNumeric
 
 </small>
 

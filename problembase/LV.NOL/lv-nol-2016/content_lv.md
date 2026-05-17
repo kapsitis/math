@@ -12,6 +12,7 @@ $$\frac{5}{16}; \frac{\square}{5}; \frac{3}{4}$$
 * _hasSolutionConcept: RationalNumbers, LCM, DivisibilityRelation, PositiveIntegers
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
 
 </small>
 
@@ -39,6 +40,7 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $8$; **(B)** $18$?
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, EvenOddParity, CoprimeIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, CoprimeFactorsDivisibility
 
 </small>
 
@@ -71,6 +73,9 @@ malas garums ir $1~\mathrm{cm}$, ir nepieciešami, lai aplīmētu visu šo figū
 * _hasSolutionConcept: BasicSolids, Tiling, CountingSumRule, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CountingByDoubleCounting
+* _newReasoningMethodLabel: SurfaceAreaCounting
+* _newReasoningMethodDescription: Counting exposed unit faces of a 3D block figure
 
 </small>
 
@@ -108,6 +113,7 @@ $$\begin{aligned}
 * _hasSolutionConcept: PositiveIntegers, EquationSystem, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: BruteForceCheckOverFiniteSet
 
 </small>
 
@@ -129,6 +135,7 @@ dalījuma līnijas ietu pa rūtiņu līnijām!
 * _hasSolutionConcept: Tiling, QuadrilateralFamilies, LatticeGrid
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -152,6 +159,7 @@ Olafam. Cik naudas ir katram brālim?
 * _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -186,6 +194,7 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $9$; **(B)** $24$?
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, DivisibilityRelation, CoprimeIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
 
 </small>
 
@@ -217,6 +226,7 @@ $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9;\ 10$ vienības!
 * _hasSolutionConcept: Polygon, LatticeGrid, PointLineSegmentRay
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AuxiliaryLines
 
 </small>
 
@@ -240,6 +250,7 @@ vieglāko, gan pašu smagāko monētu?
 * _hasSolutionConcept: TotalOrder, SetPartition, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ExtremalElementArgument
 
 </small>
 
@@ -279,6 +290,7 @@ pareizu reizināšanas piemēru! Neviens skaitlis tajā nedrīkst sākties ar $0
 * _hasSolutionConcept: DigitRepresentation, LastDigit, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: LastDigitAnalysis, ParityArgument, BoundingArgument
 
 </small>
 
@@ -319,6 +331,7 @@ nekā Bruno, Cildai ir vairāk naudas nekā Aivaram, Dainai - vairāk nekā Cild
 * _hasSolutionConcept: DivisionWithRemainder, TotalOrder, Counterexample
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, NumericalEstimation
 
 </small>
 
@@ -352,6 +365,7 @@ kas dalās ar $99$.
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, CoprimeIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
 
 </small>
 
@@ -388,6 +402,7 @@ sakrīt.
 * _hasSolutionConcept: AxialSymmetry, Polygon, Rotation
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -414,6 +429,7 @@ pārējām? Pašu monētu atrast nav nepieciešams.
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -450,6 +466,7 @@ izpildās vienādības $a+b=cd$ un $ab=c+d$ ?
 * _hasSolutionConcept: WholeIntegers, EquationSystem, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother
 
 </small>
 
@@ -493,6 +510,7 @@ Aprēķini izteiksmes $\sqrt{a-b}+\sqrt{b-c}+\sqrt{c-d}+\sqrt{d-a}$ vērtību!
 * _hasSolutionConcept: VariableExpression, IrrationalAndReals, LinearInequality, TotalOrder
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseTrivialInequalitiesAndAddThem
 
 </small>
 
@@ -521,6 +539,7 @@ $104$. Pierādi, ka otrais skaitlis $BURBUĻUVANNA$ nedalās ar $56$.
 * _hasSolutionConcept: DivisibilityRules, DivisibilityRelation, DigitRepresentation, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, PositionalNotation, ProofByContradiction, CompleteEnumeration
 
 </small>
 
@@ -569,6 +588,7 @@ $P$ atrodas uz $AD,\ Q$ - uz $BC$ un $PQ=QD$. Pierādīt, ka $DP=2AP$.
 * _hasSolutionConcept: QuadrilateralFamilies, ParallelogramProperties, TriangleCongruence, TriangleSpecialLines
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AuxiliaryLines, ParallelogramProperties
 
 </small>
 
@@ -597,6 +617,7 @@ pati sevi krustot vai pieskarties.
 * _hasSolutionConcept: Coloring, Invariant, LatticeGrid, Polygon, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: ColoringInvariant
 
 </small>
 
@@ -635,6 +656,7 @@ tieši $3$ centi nevar iegūt pēc PVN pievienošanas.
 * _hasSolutionConcept: RationalNumbers, FunctionConcept, FiniteSet, CountingSumRule
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: BoundingArgument
 
 </small>
 
@@ -669,6 +691,7 @@ koordinātas!
 * _hasSolutionConcept: LinearFunction, InverseProportion, QuadraticEquation, VietasFormulas, CoordinatePlane
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, VietasFormulas
 
 </small>
 
@@ -705,6 +728,7 @@ vairākus (vismaz divus), kuru summa dalās ar $4$.
 * _hasSolutionConcept: ModularArithmetic, DivisionWithRemainder, EvenOddParity, PigeonholePrinciple, CaseAnalysis
 * _readingDifficulty: low
 * _domain: NT,Comb
+* _hasReasoningMethod: CompleteEnumeration, ModularArithmetic, ParityArgument, NumberConstruction
 
 </small>
 
@@ -757,6 +781,7 @@ Aprēķināt $\sphericalangle BAC$ lielumu!
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, TriangleAngleSum, Angle
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: IsoscelesTriangleProperties, CongruentTriangles, AuxiliaryLines, AngleChasing, TriangleAngleSum
 
 </small>
 
@@ -798,6 +823,7 @@ Cik partijas izspēlēja Uzrocis?
 * _hasSolutionConcept: Invariant, EvenOddParity, FiniteSequenceArrangement
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric
 
 </small>
 
@@ -828,6 +854,7 @@ vērtība būtu $0$?
 * _hasSolutionConcept: PerfectSquares, DivisibilityRelation, FiniteSequenceArrangement
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, AlgebraicManipulationForInteger
 
 </small>
 

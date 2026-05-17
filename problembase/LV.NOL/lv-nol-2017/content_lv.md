@@ -24,6 +24,7 @@ joslām noteikti nebrauca autovadītājs?
 * _hasSolutionConcept: PalindromeNumbers, DigitRepresentation, DirectProportion, LinearInequality
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: BoundingArgument, CompleteEnumeration
 
 </small>
 
@@ -62,6 +63,7 @@ iegūtais skaitlis dalās ar $3$. Kādu lielāko skaitli varēja iegūt?
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CompleteEnumeration
 
 </small>
 
@@ -95,6 +97,7 @@ kad tie visi reizē atkal dosies medībās?
 * _hasSolutionConcept: LCM, DivisibilityRelation, MultiplesSet, PeriodicSequence
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: PeriodicSequence
 
 </small>
 
@@ -129,6 +132,7 @@ skat. 1.att.
 * _hasSolutionConcept: CircleAndDisk, QuadrilateralFamilies, ExhaustiveCheck, CaseAnalysis
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -162,6 +166,7 @@ bijis tieši vienu reizi.
 * _hasSolutionConcept: HamiltonianPath, GraphConcept, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -195,6 +200,7 @@ summa. Kā var noteikti zināt, ka pirmais čeks bija kļūdains?
 * _hasSolutionConcept: DivisibilityRelation, DivisionWithRemainder, RationalNumbers
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules
 
 </small>
 
@@ -219,6 +225,7 @@ skaitlis dalās ar $9$. Kādu lielāko skaitli varēja iegūt?
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, BoundingArgument, CompleteEnumeration
 
 </small>
 
@@ -256,6 +263,7 @@ tieši vienu reizi.
 * _hasSolutionConcept: HamiltonianPath, LatticeGrid, GraphConcept, Coloring, Invariant
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -287,6 +295,7 @@ vienāda garuma nogriežnoos.
 * _hasSolutionConcept: Triangle, PointLineSegmentRay, Angle, TriangleSpecialLines, LatticeGrid
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: 
 
 </small>
 
@@ -315,6 +324,7 @@ salīdzinot ar situāciju pirms tās?
 * _hasSolutionConcept: RationalNumbers, VariableExpression, DirectProportion
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -350,6 +360,7 @@ labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļut rūtiņā $B$
 * _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: DynamicProgramming, RuleOfSumDisjointCases
 
 </small>
 
@@ -378,6 +389,7 @@ vērtības un pamato, ka citu nav!
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, CoprimeIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PositionalNotation, PrimePropertiesAndUniqueness
 
 </small>
 
@@ -410,6 +422,7 @@ kā lapa var būt sagriezta $4$ daļās, skat. 14.att.
 * _hasSolutionConcept: CircleAndDisk, QuadrilateralFamilies, ExhaustiveCheck, CaseAnalysis
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -435,6 +448,7 @@ $\sphericalangle BAF=\sphericalangle BEF!$
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, ParallelPerpendicular, TriangleAngleSum
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AngleChasing, TriangleAngleSum, ParallelLinesAngleProperties, IsoscelesTriangleProperties
 
 </small>
 
@@ -480,6 +494,7 @@ izmestas, vismaz viena iekrāsotā rūtiņa paliktu neizmesta?
 * _hasSolutionConcept: Coloring, LatticeGrid, PigeonholePrinciple, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb,Geom
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, PigeonholePrincipleBasic, RuleOfSumDisjointCases
 
 </small>
 
@@ -523,6 +538,7 @@ platība. Aprēķini slidotavas platību!
 * _hasSolutionConcept: QuadrilateralFamilies, VariableExpression, LinearEquation, SquareOfSumIdentity
 * _readingDifficulty: medium
 * _domain: Alg,Geom
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
 
 </small>
 
@@ -557,6 +573,7 @@ un pamato, ka citu nav!
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisibilityRules
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PositionalNotation, DivisibilityRules
 
 </small>
 
@@ -598,6 +615,7 @@ ir bijis tieši vienu reizi.
 * _hasSolutionConcept: HamiltonianPath, GraphConcept, PigeonholePrinciple, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic, ConstructiveExampleForExistence
 
 </small>
 
@@ -640,6 +658,7 @@ iekrāsotās daļas (skat. 23.att.) laukuma attiecību pret $ABCD$ laukumu!
 * _hasSolutionConcept: QuadrilateralFamilies, TriangleCongruence, Angle, DirectProportion
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, CongruentTriangles, TriangleAngleSum
 
 </small>
 
@@ -681,6 +700,7 @@ nav!
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, LinearEquation, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric, ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 
 </small>
 
@@ -752,6 +772,7 @@ vairāk nekā viens metrs koka sijas. Cik sver viens metrs katras sijas?
 * _hasSolutionConcept: VariableExpression, QuadraticEquation, RationalNumbers
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ExpressOneUnknownThroughAnother
 
 </small>
 
@@ -791,6 +812,7 @@ Pierādīt, ka $9x^{6}-x^{3}+1 > 0$ visiem reāliem $x$.
 * _hasSolutionConcept: VariableExpression, IrrationalAndReals, SquareOfSumIdentity, PositiveAndNegative
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: CompleteTheSquareForNonNegativity, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
 
 </small>
 
@@ -837,6 +859,7 @@ $E$ sadala sānu malu $CD$ ?
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, PointLineSegmentRay, DirectProportion
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, AreaCounting
 
 </small>
 
@@ -868,6 +891,7 @@ $9801:1089=9$. Atrast vēl divus citus pārdabiskus skaitļus!
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, PositiveIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, PositionalNotation
 
 </small>
 
@@ -899,6 +923,7 @@ nepārsniedz $2017$?
 * _hasSolutionConcept: PigeonholePrinciple, EvenOddParity, Counterexample, FiniteSet
 * _readingDifficulty: low
 * _domain: Comb,NT
+* _hasReasoningMethod: PigeonholePrincipleBasic, ExtremalElementArgument, ConstructiveExampleForExistence, FixedInvariantNumeric
 
 </small>
 

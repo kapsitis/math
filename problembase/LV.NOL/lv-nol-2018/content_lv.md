@@ -15,6 +15,7 @@ dažādi.
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -49,6 +50,7 @@ gadu skaits?
 * _hasSolutionConcept: PigeonholePrinciple, Counterexample, ExistenceVsUniversal, FiniteSet
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, PigeonholePrincipleGeneralized, ContradictionForImpossibility
 
 </small>
 
@@ -91,6 +93,7 @@ otras tā, ka abas figūras pilnīgi sakrīt.
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation, AxialSymmetry
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -115,6 +118,7 @@ $$7, a, b, c, d, e, f, 9$$
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, EquationSystem, PeriodicSequence
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, IntroduceVariablesAndFormEquation
 
 </small>
 
@@ -145,6 +149,7 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, DivisibilityRelation, Invariant
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric
 
 </small>
 
@@ -184,6 +189,7 @@ $$\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=\frac{4}{5}$$
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -218,6 +224,7 @@ dalībnieki?
 * _hasSolutionConcept: PigeonholePrinciple, Counterexample, ProofByContradiction, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, PigeonholePrincipleBasic
 
 </small>
 
@@ -254,6 +261,7 @@ doto figūru un $22$ figūrām, kādas dotas 4.att.? Figūras drīkst pagriezt.
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, Rotation
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: ColoringInvariant, CaseAnalysis
 
 </small>
 
@@ -288,6 +296,7 @@ pamato, ka citu nav!
 * _hasSolutionConcept: DigitRepresentation, LastDigit, LinearEquation, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PositionalNotation, LastDigitAnalysis, CompleteEnumeration, BoundingArgument
 
 </small>
 
@@ -341,6 +350,7 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 * _hasSolutionConcept: WinningLosingPositions, GamePosition, DivisionWithRemainder, Invariant, SymmetryStrategy
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric
 
 </small>
 
@@ -381,6 +391,7 @@ stāvu zemāk. Kāds mazākais logu skaits var būt šīs mājas ceturtajā stā
 * _hasSolutionConcept: EvenOddParity, VariableExpression, LinearInequality, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ParityOrModularArgumentForEquations
 
 </small>
 
@@ -419,6 +430,7 @@ ka vismaz četras no tām ir vienā krāsā?
 * _hasSolutionConcept: PigeonholePrinciple, Counterexample, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleGeneralized, ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -453,6 +465,7 @@ un $\sphericalangle EFG=60^{\circ}$.
 * _hasSolutionConcept: Angle, ParallelPerpendicular, PointLineSegmentRay
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: ParallelLinesAngleProperties, AuxiliaryLines, AngleChasing
 
 </small>
 
@@ -488,6 +501,7 @@ ciparus!
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, Permutation
 * _readingDifficulty: medium
 * _domain: NT
+* _hasReasoningMethod: DivisibilityRules, PositionalNotation, AlgebraicManipulationForInteger
 
 </small>
 
@@ -563,6 +577,7 @@ Pierādit, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ArithmeticMean
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric
 
 </small>
 
@@ -597,6 +612,7 @@ $a^{2}+\frac{1}{a^{2}}+2$; **b)** $a^{4}+\frac{1}{a^{4}}$
 * _hasSolutionConcept: SquareOfSumIdentity, VariableExpression, IrrationalAndReals
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: UseStandardIdentities, SubstitutionForSimplification
 
 </small>
 
@@ -632,6 +648,7 @@ būtu trīs meitenes, kas izvēlējās vienu un to pašu lenšu krāsu komplektu
 * _hasSolutionConcept: PigeonholePrinciple, ExhaustiveCheck, FiniteSet, Counterexample, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleGeneralized, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -681,6 +698,7 @@ nekā $PQ$ ?
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, TriangleSpecialLines
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, PointOnSegmentConstruction, TriangleAngleSum
 
 </small>
 
@@ -723,6 +741,7 @@ trīs skaitļu summa?
 * _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, DivisibilityRelation, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PositionalNotation, DivisibilityRules, BoundingArgument, CompleteEnumeration, ProofByContradiction
 
 </small>
 
@@ -774,6 +793,7 @@ Pierādīt, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ArithmeticMean
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -812,6 +832,7 @@ bija maršruts?
 * _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -842,6 +863,7 @@ vispār neko. Vai noteikti ir divi skolēni, kas pasūtīja vienu un to pašu?
 * _hasSolutionConcept: PigeonholePrinciple, CountingProductRule, FiniteSet
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleBasic, RuleOfProductIndependentChoices
 
 </small>
 
@@ -876,6 +898,7 @@ Pierādīt, ka punkts $F$ ir $BC$ viduspunkts!
 * _hasSolutionConcept: TriangleCongruence, TriangleSpecialLines, PointLineSegmentRay, QuadrilateralFamilies
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, PointOnSegmentConstruction, PerpendicularBisector
 
 </small>
 
@@ -905,6 +928,7 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka $20x^{3}-17y^{2}+1=2018$?
 * _hasSolutionConcept: WholeIntegers, DivisibilityRelation, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: AlgebraicManipulationForInteger, DivisibilityRules, ParityArgument, CompleteEnumeration
 
 </small>
 
@@ -975,6 +999,7 @@ pieņemot, ka rūtiņas malas garums ir viena vienība!
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis, CountingByDoubleCounting
 
 </small>
 

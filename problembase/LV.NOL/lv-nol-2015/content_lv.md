@@ -12,6 +12,7 @@ Braukšanas ātrums visā ceļa posmā bija viens un tas pats.
 * domain:Alg
 * _hasSolutionConcept: DirectProportion, ArithmeticMean
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -39,6 +40,7 @@ palīgiem?
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric
 
 </small>
 
@@ -75,6 +77,7 @@ grozīt, bet nedrīkst apmest otrādi.
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, Tiling, Rotation, LatticeGrid
 * _readingDifficulty: low
+* _hasReasoningMethod: 
 
 </small>
 
@@ -103,6 +106,7 @@ citu nav!
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisibilityRules, PrimeFactorization
 * _readingDifficulty: low
+* _hasReasoningMethod: PrimeFactorization, DivisibilityRules, ParityArgument, CompleteEnumeration
 
 </small>
 
@@ -145,6 +149,7 @@ nav iespējams precīzi noteikt tajā esošā ūdens daudzumu.
 * domain:Comb
 * _hasSolutionConcept: DivisionWithRemainder, MultiplesSet, CaseAnalysis
 * _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -183,6 +188,7 @@ eiro un otrās - $21$ eiro! (Pakas cena veidojas, saskaitot tajā ielikto
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, LinearEquation, RationalNumbers
 * _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation
 
 </small>
 
@@ -208,6 +214,7 @@ darbības, var panākt, ka kādā brīdī visās lādēs būs vienāds skaits mo
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric
 
 </small>
 
@@ -239,6 +246,7 @@ Vai iespējams, ka neviena no šīm summām nav pirmskaitlis?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
 
 </small>
 
@@ -267,6 +275,7 @@ rūtiņu malām.
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant, CaseAnalysis
 
 </small>
 
@@ -314,6 +323,7 @@ vērtības!
 * domain:NT
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, PrimeFactorization
 
 </small>
 
@@ -341,6 +351,7 @@ Atrisini vienādojumu $\frac{8a-5}{5}-\frac{2a-7}{2}=-3$.
 * domain:Alg
 * _hasSolutionConcept: LinearEquation, RationalNumbers, VariableExpression
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -375,6 +386,7 @@ tieši $2015$ mājlopus?
 * domain:NT
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
+* _hasReasoningMethod: InvariantMethod, ParityArgument
 
 </small>
 
@@ -419,6 +431,7 @@ Vai iespējams, ka visas iegūtās summas ir pirmskaitļi?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, ChessboardColoring, ExhaustiveCheck
 * _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction, ParityArgument, CompleteEnumeration
 
 </small>
 
@@ -452,6 +465,7 @@ skaitlis?
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, Tiling, PositiveIntegers, RationalNumbers, Counterexample
 * _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -483,6 +497,7 @@ atsvariem var noteikt katra veida monētu skaitu?
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, CaseAnalysis, DecisionTree
 * _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
 
 </small>
 
@@ -521,6 +536,7 @@ Pierādi, $ka$
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, EvenOddParity, DivisibilityRules
 * _readingDifficulty: low
+* _hasReasoningMethod: FactoringAlgebraicExpressions
 
 </small>
 
@@ -568,6 +584,7 @@ iespējams, ka "Šrotiņā" kāda mēneša $21.$ datumā būs tieši $2015$ maš
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, Invariant, DivisibilityRules, DigitSum
 * _readingDifficulty: medium
+* _hasReasoningMethod: InvariantMethod, DivisibilityRules, ModularArithmetic
 
 </small>
 
@@ -612,6 +629,7 @@ vismazākais, ja zināms, ka $a>b>c>d>0$? Pamato atbildi!
 * domain:Alg
 * _hasSolutionConcept: LinearInequality, VariableExpression, PositiveAndNegative, TotalOrder
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, ProvingByEquivalenceChain
 
 </small>
 
@@ -660,6 +678,7 @@ $\sphericalangle MAN+\sphericalangle MCN=60^{\circ}$.
 * domain:Geom
 * _hasSolutionConcept: Triangle, Angle, TriangleCongruence, PointLineSegmentRay
 * _readingDifficulty: low
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
 
 </small>
 
@@ -690,6 +709,7 @@ naturāls skaitlis. Vai kvadrāta $ABCD$ perimetrs noteikti ir naturāls skaitli
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, PositiveIntegers, CountingSumRule
 * _readingDifficulty: low
+* _hasReasoningMethod: ParallelogramProperties
 
 </small>
 
@@ -720,6 +740,7 @@ Atrisināt vienādojumu $\frac{5}{x^{2}-9}-\frac{1}{3-x}=\frac{1}{2}$.
 * domain:Alg
 * _hasSolutionConcept: QuadraticEquation, VariableExpression, FunctionDomainRange, DiffOfSquaresFactoring
 * _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
 
 </small>
 
@@ -771,6 +792,7 @@ ierakstīts skaitlis $2014$?
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, Invariant, Polygon
 * _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric
 
 </small>
 
@@ -801,6 +823,7 @@ līdzīgos trijstūros?
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, TriangleSimilarity, ParallelPerpendicular, PositiveIntegers
 * _readingDifficulty: low
+* _hasReasoningMethod: SimilarTriangles, AuxiliaryLines
 
 </small>
 
@@ -855,6 +878,7 @@ izdarīt!
 * domain:Alg
 * _hasSolutionConcept: ArithmeticMean, DivisibilityRelation, DivisionWithRemainder, MagicConfiguration, PositiveIntegers
 * _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, ProofByContradictionInAlgebra, ParityOrModularArgumentForEquations, BruteForceCheckOverFiniteSet
 
 </small>
 
@@ -911,6 +935,7 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti!
 * domain:Alg
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, CoordinatePlane, IrrationalAndReals
 * _readingDifficulty: low
+* _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 

@@ -15,6 +15,7 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 * _hasSolutionConcept: FiniteSequenceArrangement, WalkPathCycle, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 
 </small>
 
@@ -44,6 +45,7 @@ var sadalīt grupās tā, lai katras grupas skaitļu summa dalītos ar $3$?
 * _hasSolutionConcept: DivisibilityRelation, SetPartition, PositiveIntegers
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: NumberConstruction, SumOfArithmeticOrTriangularNumbers, ProofByContradiction
 
 </small>
 
@@ -71,6 +73,7 @@ sastāv šī figūra, ir tikpat lielas kā tās, kurās sadalīta kuba virsma.)
 * _hasSolutionConcept: Tiling, BasicSolids, LatticeGrid, Rotation
 * _readingDifficulty: low
 * _domain: Geom,Comb
+* _hasReasoningMethod: SymmetryStrategy
 
 </small>
 
@@ -99,6 +102,7 @@ Vai tā var gadīties, ja kvadrāta izmēri ir $10 \times 10$ rūtiņas?
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSet, Counterexample, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: PackingDisjointShapes
 
 </small>
 
@@ -129,6 +133,7 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 * _hasSolutionConcept: Invariant, Monovariant, FiniteSequenceArrangement, OptimumProofStructure
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
 
 </small>
 
@@ -165,6 +170,7 @@ vai Jānim?
 * _hasSolutionConcept: VariableExpression, EquationSystem, LinearEquation
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -189,6 +195,7 @@ spoguļattēli, uzskata par vienādiem.)
 * _hasSolutionConcept: OptimumProofStructure, Tiling, ExhaustiveCheck, AxialSymmetry, FiniteSet
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -215,6 +222,7 @@ reizinājumu, iegūst tā ciparu summu. Kuri divciparu naturāli skaitļi ir lab
 * _hasSolutionConcept: DigitRepresentation, DigitSum, DigitProduct, LinearEquation
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger
 
 </small>
 
@@ -238,6 +246,7 @@ tabulā ierakstīto skaitļu summa?
 * _hasSolutionConcept: OptimumProofStructure, PositiveIntegers, EvenOddParity, LatticeGrid
 * _readingDifficulty: low
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
 
 </small>
 
@@ -270,6 +279,7 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 * _hasSolutionConcept: GraphConcept, BinaryRelation, ExistenceVsUniversal
 * _readingDifficulty: high
 * _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
 
 </small>
 
@@ -299,6 +309,7 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, OptimumProofStructure, FiniteSet
 * _readingDifficulty: low
 * _domain: NT,Comb
+* _hasReasoningMethod: ParityArgument, BoundingArgument
 
 </small>
 
@@ -330,6 +341,7 @@ $y=f(x)$ un $y=g(x)$ abas ir lineāras funkcijas.
 * _hasSolutionConcept: LinearFunction, FunctionConcept, Counterexample, VariableExpression
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 
 </small>
 
@@ -356,6 +368,7 @@ Cik garš ir nogrieznis $BD$?
 * _hasSolutionConcept: TriangleInequality, Triangle, CaseAnalysis, PointLineSegmentRay
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: TriangleInequality, CaseAnalysis
 
 </small>
 
@@ -387,6 +400,7 @@ vienāds ar abu pārējo reizinājumu?
 * _hasSolutionConcept: PigeonholePrinciple, LinearInequality, PositiveIntegers, LatticeGrid
 * _readingDifficulty: low
 * _domain: Comb,NT
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic
 
 </small>
 
@@ -412,6 +426,7 @@ jāizgriež taisnstūrus ar izmēriem $1 \times 9$ rūtiņas. Kādu lielāko dau
 * _hasSolutionConcept: Tiling, Coloring, Invariant, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Geom
+* _hasReasoningMethod: ColoringInvariant
 
 </small>
 
@@ -444,6 +459,7 @@ skaitļu reizinājums vienāds ar otras grupas visu skaitļu reizinājumu?
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, DivisibilityRelation, EvenOddParity, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: PrimePropertiesAndUniqueness, NumberConstruction
 
 </small>
 
@@ -488,6 +504,9 @@ decimālais pieraksts sākas ar ciparu $1$?
 * _hasSolutionConcept: DigitRepresentation, NumberSequence, FiniteSet, PigeonholePrinciple
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: BoundingArgument
+* _newReasoningMethodLabel: GroupingByDigitLength
+* _newReasoningMethodDescription: Partition powers by decimal digit length and count one per block
 
 </small>
 
@@ -527,6 +546,7 @@ ka piecstūris var arī nebūt izliekts.)
 * _hasSolutionConcept: Polygon, PointLineSegmentRay, CountingSumRule, OptimumProofStructure
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
 
 </small>
 
@@ -561,6 +581,7 @@ nekā vienā veidā, tad jāuzrāda tos visus.)
 * _hasSolutionConcept: OptimumProofStructure, FiniteSequenceArrangement, VariableExpression, PositiveIntegers
 * _readingDifficulty: medium
 * _domain: Alg,Comb
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
 
 </small>
 
@@ -596,6 +617,7 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 * _hasSolutionConcept: TriangleInequality, Triangle, GamePosition, WinningLosingPositions, CaseAnalysis
 * _readingDifficulty: medium
 * _domain: Geom,Comb
+* _hasReasoningMethod: TriangleInequality, CaseAnalysis
 
 </small>
 
@@ -628,6 +650,7 @@ $$a^{2}+a b+b^{2} \geq 9(a+b-3)$$
 * _hasSolutionConcept: VariableExpression, IrrationalAndReals, SquareOfSumIdentity
 * _readingDifficulty: low
 * _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CompleteTheSquareForNonNegativity, UseStandardIdentities
 
 </small>
 
@@ -652,6 +675,7 @@ var vienlaicīgi būt pirmskaitļi?
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, LastDigit, CaseAnalysis
 * _readingDifficulty: low
 * _domain: NT
+* _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration, ParityArgument
 
 </small>
 
@@ -676,6 +700,7 @@ līnijai $W_{2}$ un kas nesakrīt ar $AB$, ir paralēlas savā starpā.
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, TriangleCongruence, Angle, ParallelPerpendicular
 * _readingDifficulty: low
 * _domain: Geom
+* _hasReasoningMethod: AngleChasing, CongruentTriangles, TriangleAngleSum
 
 </small>
 
@@ -705,6 +730,9 @@ uzrakstīti $2004$ skaitļi, kas visi vienādi ar $1$?
 * _hasSolutionConcept: StateSpaceProcess, Invariant, WholeIntegers
 * _readingDifficulty: medium
 * _domain: Alg
+* _hasReasoningMethod: ConstructiveAlgorithm, EquivalentTransformationsOfEquationsAndInequalities
+* _newReasoningMethodLabel: ConstructiveAlgorithm
+* _newReasoningMethodDescription: Building the target configuration by explicit allowed moves
 
 </small>
 
@@ -732,6 +760,7 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 * _hasSolutionConcept: GraphConcept, VertexDegree, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
 
 </small>
 
