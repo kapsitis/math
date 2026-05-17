@@ -13,6 +13,8 @@ pirmais cipars par $1$ mazāks nekā visu citu ciparu summa.
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * topic:DecimalNotationDigits
+* _hasSolutionConcept: DigitRepresentation, DigitSum, PositiveIntegers, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -25,7 +27,6 @@ iespējamais pirmais cipars, gan mazākie iespējamie sekojošie cipari.
 **(B)** $\mathbf{91111111111}$ (desmit cipari "$1$"). Naturāls skaitlis ir jo
 lielāks, jo tam vairāk ciparu. Tā kā pirmais cipars nepārsniedz $9$, tad citu 
 ciparu summa nepārsniedz $10$; to iznāk visvairāk, ja tie ir $10$ vieninieki.
-
 
 
 # <lo-sample/> LV.AMO.2003.5.2
@@ -41,7 +42,8 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * domain:Comb
 * subdomain:DOM_CombinatorialAlgorithms
 * method:MTH_ExhaustiveAlgorithms
-
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -60,7 +62,6 @@ monētas nav. Ja nav līdzsvara, tad vajadzīgo uzzinām no otrās svēršanas
 (atšķirīgā monēta ir $E,\ F$ vai $G$).
 
 
-
 # <lo-sample/> LV.AMO.2003.5.3
 
 No $10 \times 10$ rūtiņu liela kvadrāta izgriezts centrālais $8 \times 8$ 
@@ -75,6 +76,8 @@ mazākais iespējamais).
 * domain:Geom
 * subdomain:DOM_GridReorder
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, LatticeGrid, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -86,7 +89,6 @@ Varat pamēģināt patstāvīgi pierādīt, ka $6$ ir mazākais iespējamais gab
 skaits.
 
 ![](LV.AMO.2003.5.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2003.5.4
@@ -102,6 +104,8 @@ ne ar vienu citu naturālu skaitli kā $1$?
 * domain:NT
 * topic:GraphColoringAndLabeling
 * subdomain:DOM_CombinatorialStructures
+* _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, EvenOddParity, ChessboardColoring
+* _readingDifficulty: medium
 
 </small>
 
@@ -113,7 +117,6 @@ Jā. Skat., piem., 2.zīm.
 
 Ievērojiet: ja rūtiņas izkrāsotu šaha galdiņa kārtībā, tad pāra skaitļi atrodas
 melnajās rūtiņās, bet nepāra - baltajās rūtiņās.
-
 
 
 # <lo-sample/> LV.AMO.2003.5.5
@@ -129,6 +132,8 @@ to var panākt, ja sākotnējie lodīšu daudzumi ir $10,\ 12$ un $15$?
 * domain:Comb
 * method:MTH_PeriodicInvariant
 * subdomain:DOM_CombinatorialAlgorithms
+* _hasSolutionConcept: FiniteSet, StateSpaceProcess, Invariant, EvenOddParity
+* _readingDifficulty: medium
 
 </small>
 
@@ -144,7 +149,6 @@ gājieniem $sz,\ sz,\ bz$ izveidojam situāciju $2b,\ 2s,\ 3z$. To ar gājieniem
 $bs,\ sz,\ bz,\ sz,\ bz,\ bs$ pārveidojam par $0b,\ 0s,\ 1z$.
 
 
-
 # <lo-sample/> LV.AMO.2003.6.1
 
 Šodien pulkst. $12^{00}$ divi pulksteņi ar parastu ciparnīcu rādīja pareizu 
@@ -158,6 +162,8 @@ pulkst. $12^{00}$ abi pulksteņi atkal rādīs pareizu laiku?
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:GcdAndLcm
+* _hasSolutionConcept: LCM, DivisibilityRelation, PositiveIntegers
+* _readingDifficulty: medium
 
 </small>
 
@@ -168,7 +174,6 @@ $12,\ 24,\ 36,\ \ldots$ stundām. Tas notiek ik pēc $180$ dienām. Pēc $180$
 dienām otrais pulkstenis ir atpalicis par $\frac{180 \cdot 6}{60}=18$ stundām, 
 pēc $360$ dienām - par $36$ stundām. Tātad uzdevuma atbilde ir $\mathbf{360}$ 
 dienas.
-
 
 
 # <lo-sample/> LV.AMO.2003.6.2
@@ -185,6 +190,8 @@ otrā. Vai to var izdarīt, ja **(A)** $n=5$, **(B)** $n=7$?
 * method:MTH_FixedInvariant
 * subdomain:DOM_GridCut
 * topic:RemaindersInCombinatorics
+* _hasSolutionConcept: Tiling, ChessboardColoring, ParityInvariant, ProofByContradiction
+* _readingDifficulty: high
 
 </small>
 
@@ -203,7 +210,6 @@ $21$ - pretruna.
 ![](LV.AMO.2003.6.2B.png)
 
 
-
 # <lo-sample/> LV.AMO.2003.6.3
 
 Vai var rindā izrakstīt divus ciparus $1$, divus ciparus $2$, $\ldots$, divus 
@@ -216,6 +222,8 @@ pēdējo, būtu vienāds ar savu abu kaimiņu summu vai starpību?
 * domain:Comb,Alg
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_ExhaustiveAlgorithms
+* _hasSolutionConcept: FiniteSequenceArrangement, FiniteSet, CaseAnalysis, EvenOddParity
+* _readingDifficulty: medium
 
 </small>
 
@@ -224,7 +232,6 @@ pēdējo, būtu vienāds ar savu abu kaimiņu summu vai starpību?
 Jā, var, piemēram:
 
 $$4,\ 5,\ 1,\ 4,\ 3,\ 1,\ 2,\ 3,\ 5,\ 2$$
-
 
 
 # <lo-sample/> LV.AMO.2003.6.4
@@ -242,6 +249,8 @@ un cik punktus viņi ieguva?
 * domain:Comb
 * topic:GraphVertexDegree
 * subdomain:DOM_Graphs
+* _hasSolutionConcept: RationalNumbers, GraphConcept, FiniteSet, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -281,7 +290,6 @@ $1$ punkts.
 ![](LV.AMO.2003.6.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2003.6.5
 
 Doti $4$ atsvari. Katram no tiem masa ir $10~\mathrm{g}$ vai $11~\mathrm{g}$. 
@@ -294,6 +302,8 @@ svēršanām var noteikt katra atsvara masu?
 * domain:Comb
 * subdomain:DOM_CombinatorialAlgorithms
 * method:MTH_ExhaustiveAlgorithms
+* _hasSolutionConcept: CaseAnalysis, EvenOddParity, DecisionTree
+* _readingDifficulty: medium
 
 </small>
 
@@ -315,7 +325,6 @@ $B+C+D$. Ievērosim, ka $B+C$ - pāra skaitlis ($20$ vai $22$). Iegūstam tabulu
 | $33$ | $22$ | $11$ | $11$ | $11$ | $10$ |
 
 
-
 # <lo-sample/> LV.AMO.2003.7.1
 
 Dots, ka $|x+y|+|x-y|=10$. Kāda ir lielākā iespējamā $x$ vērtība?
@@ -326,7 +335,8 @@ Dots, ka $|x+y|+|x-y|=10$. Kāda ir lielākā iespējamā $x$ vērtība?
 * domain:Alg
 * subdomain:DOM_MultivariableEquations
 * topic:CaseAnalysis
-
+* _hasSolutionConcept: PositiveAndNegative, VariableExpression, OptimumProofStructure
+* _readingDifficulty: low
 
 </small>
 
@@ -337,7 +347,6 @@ Iespējams, ka $x=5$, $y=0$.
 Pierādīsim, ka nevar būt $x>5$. Ja $x>5$ un $y \geq 5$, tad $|x+y|>10$ - 
 pretruna. Ja $x>5$ un $-5 \leq y \leq 5$, tad $|x+y|+|x-y|=x+y+x-y=2x>10$ - 
 pretruna. Ja $x>5$ un $y<-5$, tad $|x-y|>10$ - pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2003.7.2
@@ -355,6 +364,8 @@ kā minēts iepriekš?
 * domain:Geom
 * subdomain:DOM_ObjectSystemsGeometry
 * topic:CuttingShapesSpecial
+* _hasSolutionConcept: PointLineSegmentRay, Polygon, Invariant, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -376,7 +387,6 @@ $11+(4 \cdot 4) \cdot 2=43$ malām. Bet
 $4 \cdot 3+4 \cdot 4+2 \cdot 5+1 \cdot 6=44>43$.
 
 
-
 # <lo-sample/> LV.AMO.2003.7.3
 
 Divi spēlētāji pamīšus raksta uz tāfeles pa vienam naturālam skaitlim no $1$ 
@@ -392,6 +402,8 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 * subdomain:DOM_NumericGamesAndAlgorithms
 * method:MTH_ContradictionForNonExistence
 * topic:GamesSymmetry
+* _hasSolutionConcept: DivisibilityRelation, GamePosition, WinningLosingPositions
+* _readingDifficulty: medium
 
 </small>
 
@@ -408,7 +420,6 @@ Tāpat viņš atbild uz otrā spēlētāja $2.$ gājienu, ja $1.$ ir bijis $5$ v
 Tālāk pirmais spēlētājs uzvar automātiski.
 
 
-
 # <lo-sample/> LV.AMO.2003.7.4
 
 Izliektā piecstūrī $ABCDE$ punkti $A_{1},\ B_{1},\ C_{1},\ D_{1},\ E_{1}$ ir 
@@ -422,6 +433,8 @@ Pierādiet, ka $EE_{1} \perp BC$.
 * domain:Geom
 * subdomain:DOM_Polygons
 * topic:TrianglesIsosceles
+* _hasSolutionConcept: Polygon, Triangle, TriangleSpecialLines, ParallelPerpendicular, TriangleCongruence
+* _readingDifficulty: medium
 
 </small>
 
@@ -432,7 +445,6 @@ $\triangle CAD,\ \triangle DBE,\ \triangle ECA,\ \triangle ADB$ - vienādsānu
 (mediāna ir arī augstums). Tātad $AC=AD,\ BD=BE,\ EC=AC,\ AD=BD$. No šejienes 
 seko, ka $\mathbf{BE}=BD=AD=AC=\mathbf{CE}$. Tāpēc $BE=CE,\ \triangle BEC$ - 
 vienādsānu, tāpēc tajā mediāna ir arī augstums un $EE_{1} \perp BC$, k.b.j.
-
 
 
 # <lo-sample/> LV.AMO.2003.7.5
@@ -449,6 +461,8 @@ var būt $0$, ja **(A)** $n=8$, **(B)** $n=9$?
 * domain:Comb
 * method:MTH_Monovariant
 * subdomain:DOM_CombinatorialAlgorithms
+* _hasSolutionConcept: PositiveIntegers, ParityInvariant, DiffOfSquaresFactoring, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -470,7 +484,6 @@ Variet mēģināt pierādīt patstāvīgi, ka mazākais naturālais skaitlis, ka
 iegūstams no $1;\ 2;\ 3;\ \ldots;\ 9$ ir $3$.
 
 
-
 # <lo-sample/> LV.AMO.2003.8.1
 
 Vienādojumiem $x^{2}+p_{1}x+q_{1}=0$, $x^{2}+p_{2}x+q_{2}=0$ un 
@@ -485,6 +498,8 @@ $x_{0},\ x_{1},\ x_{2}$ un $x_{3}$, nelietojot kvadrātsaknes zīmi.
 * domain:Alg
 * subdomain:DOM_Equations
 * topic:VietaFormulas
+* _hasSolutionConcept: QuadraticEquation, PolynomialAndRoots, VietasFormulas, ArithmeticMean
+* _readingDifficulty: medium
 
 </small>
 
@@ -501,7 +516,6 @@ $x_{0}+w=-\frac{p_{1}+p_{2}+p_{3}}{3}$. Tāpēc
 $$w=-\frac{3x_{0}+p_{1}+p_{2}+p_{3}}{3}=\frac{-\left(x_{0}+p_{1}\right)-\left(x_{0}+p_{2}\right)-\left(x_{0}+p_{3}\right)}{3}=\frac{x_{1}+x_{2}+x_{3}}{3}$$
 
 
-
 # <lo-sample/> LV.AMO.2003.8.2
 
 Andrim vajadzēja sareizināt divus dažādus pozitīvus trīsciparu skaitļus. 
@@ -515,6 +529,8 @@ vajadzēja iegūt. Kādu sešciparu skaitli Andris uzrakstīja?
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * topic:NotationShift
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, LinearEquation
+* _readingDifficulty: medium
 
 </small>
 
@@ -530,7 +546,6 @@ Skaitlis $x$ iznāk trīsciparu tikai pie $k=2$; tad $x=167$ un $y=334$. Pārbau
 parāda, ka atbilde $\mathbf{167334}$ der.
 
 
-
 # <lo-sample/> LV.AMO.2003.8.3
 
 Kādā lielākajā daudzumā dažādu naturālu saskaitāmo, kas visi lielāki par $1$, 
@@ -543,6 +558,8 @@ dalītājs būtu $1$?
 * domain:NT
 * subdomain:DOM_NumberRepresentation
 * topic:GcdAndLcm
+* _hasSolutionConcept: PositiveIntegers, PrimeNumbers, GCD, NumberPartitions, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -554,7 +571,6 @@ iegūt nevar.
 Aizstāsim katru saskaitāmo ar mazāko pirmskaitli, ar kuru tas dalās; summa 
 nepalielināsies. Visiem šiem pirmskaitļiem jābūt dažādiem. Bet pat $7$ mazāko 
 pirmskaitļu summa ir $2+3+5+7+11+13+17=58>56$.
-
 
 
 # <lo-sample/> LV.AMO.2003.8.4
@@ -574,6 +590,8 @@ kopgarumu. (Tika novilktas **tikai** līnijas, kas dala kvadrātus taisnstūros.
 * domain:Geom
 * subdomain:DOM_GridCut
 * topic:PolygonPerimeter
+* _hasSolutionConcept: Tiling, Invariant
+* _readingDifficulty: high
 
 </small>
 
@@ -584,7 +602,6 @@ skaitliski vienāds ar perimetru centimetros. Tā kā Andrim un Jurim jāsadala
 vienādi laukumi, tad viņu iegūtajām daļām ir vienādas perimetru summas. Bet 
 katra zēna daļu perimetru summa vienāda ar $400 \mathrm{~cm}+$ divkāršota 
 dalījuma līniju garumu summa.
-
 
 
 # <lo-sample/> LV.AMO.2003.8.5
@@ -602,6 +619,8 @@ Vai tas iespējams, ja **(A)** $n=3$, **(B)** $n=4$, **(C)** $n=2003$?
 * domain:NT
 * subdomain:DOM_IntegerEquations
 * topic:StandardIdentities
+* _hasSolutionConcept: PositiveIntegers, SetPartition, PerfectSquares, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -619,7 +638,6 @@ gan to kvadrātu summas. Tā kā $2003=3+4 \cdot 500$, tad, pievienojot (A)
 sadalījumam $500$ dažādu "astotnieku" sadalījumus, iegūstam vajadzīgo.
 
 
-
 # <lo-sample/> LV.AMO.2003.9.1
 
 Dots, ka $q_{1}q_{2}q_{3}<0$. Pierādiet, ka vismaz vienam no vienādojumiem 
@@ -630,6 +648,8 @@ divas dažādas saknes.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticEquation, PositiveAndNegative, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -637,7 +657,6 @@ divas dažādas saknes.
 
 Viens (vismaz) no $q_{1}$, $q_{2}$, $q_{3}$ ir negatīvs. Atbilstošā vienādojuma 
 diskriminants ir pozitīvs, tāpēc tam ir divas dažādas saknes.
-
 
 
 # <lo-sample/> LV.AMO.2003.9.2
@@ -653,6 +672,8 @@ $8$?
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
 * topic:DoubleCounting
+* _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, FiniteSequenceArrangement, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -671,7 +692,6 @@ $8$ skaitļu summa, kas katrs dalās ar $8$, ir
 $8(1+2+3+4+5+6+7+8)=8 \cdot 36=288>272$.
 
 
-
 # <lo-sample/> LV.AMO.2003.9.3
 
 Noskaidrot, kādiem dažādiem pirmskaitļiem $p_{1},\ p_{2},\ \ldots,\ p_{n}$ 
@@ -684,6 +704,8 @@ $\left(p_{1}-1\right)\left(p_{2}-1\right) \ldots \left(p_{n}-1\right)$.
 * domain:NT
 * subdomain:DOM_PrimeFactors
 * topic:DivisibilityProperties
+* _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, EvenOddParity
+* _readingDifficulty: low
 
 </small>
 
@@ -706,7 +728,6 @@ tad $p=3$ (skaitlis $2$ dalās ar tikai ar $1$ un ar $2$).
 Tātad vai nu $p_{1}=2$, vai $p_{1}=2$ un $p_{2}=3$.
 
 
-
 # <lo-sample/> LV.AMO.2003.9.4
 
 Trijstūra $ABC$ ievilktā riņķa centrs ir $I$. Dots, ka $CA+AI=CB$. Pierādīt, ka
@@ -718,7 +739,8 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:BisectorDividingArcInTwo,TriangleCongruence
-
+* _hasSolutionConcept: Triangle, CircleAndDisk, TriangleSpecialLines, TriangleCongruence, Angle
+* _readingDifficulty: medium
 
 </small>
 
@@ -738,7 +760,6 @@ $\frac{1}{2} \sphericalangle B=\sphericalangle IBC=\sphericalangle IMC=\spherica
 un $\sphericalangle A=2 \sphericalangle B$, k.b.j.
 
 
-
 # <lo-sample/> LV.AMO.2003.9.5
 
 Uz galda atrodas $k$ konfektes. Andris un Juris pamīšus izdara gājienus: 
@@ -754,6 +775,8 @@ Kurš uzvar, pareizi spēlējot, ja **(A)** $k=8$, **(B)** $k=64$?
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
 * topic:GameInvariant
+* _hasSolutionConcept: GamePosition, WinningLosingPositions, Invariant, PerfectSquares
+* _readingDifficulty: medium
 
 </small>
 
@@ -771,7 +794,6 @@ var ēst $1 \div 2n$ konfektes; Andris attiecīgi ēd $2n \div 1$ konfektes un
 panāk kopējo apēsto konfekšu skaitu $n^{2}+(2n+1)=(n+1)^{2}$, t.i., nākošo 
 kvadrātu. Tā kā starp $n^{2}$ un $(n+1)^{2}$ citu kvadrātu nav, tad Andris savu
 mērķi var realizēt. Tātad viņš apēdīs arī $64$-o konfekti.
-
 
 
 # <lo-sample/> LV.AMO.2003.10.1
@@ -795,7 +817,6 @@ Vai noteikti $x+\frac{4}{x}>y+\frac{4}{y}$, ja
 
 **(B)** jā, jo 
 $\left(x+\frac{4}{x}\right)-\left(y+\frac{4}{y}\right)=(x-y)\left(1-\frac{4}{xy}\right)>0$.
-
 
 
 # <lo-sample/> LV.AMO.2003.10.2
@@ -833,7 +854,6 @@ $\triangle KBM$. Vienādsānu trijstūri ar vienādiem leņķiem pie pamata ir
 līdzīgi.
 
 
-
 # <lo-sample/> LV.AMO.2003.10.3
 
 Dots, ka $n$ - vesels pozitīvs skaitlis un skaitļi $2n+1$ un $3n+1$ ir veselu 
@@ -862,7 +882,6 @@ un $5n+3=4(2n+1)-(3n+1)=4x^{2}-y^{2}=(2x-y)(2x+y)$. Tā kā $x$ un $y$ ir
 naturāli skaitļi, $x,\ y>1$ un $5n+3$ - pirmskaitlis, tad jābūt 
 $2x-y=1$, $2x+y=5n+3$. No šejienes $2y=5n+2$. Tāpēc 
 $4y^{2}=25n^{2}+20n+4>12n+4=4(3n+1)=4y^{2}$ - pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2003.10.4
@@ -899,7 +918,6 @@ pārkārtojumu pēc definīcijas ir $a_{n}$.
 Tātad $a_{n}+2=a_{n+1}+a_{n}$. Iegūstam 
 $a_{3}=1+2=3,\ a_{4}=5,\ a_{5}=8,\ a_{6}=13,\ a_{7}=21,\ a_{8}=34,\ a_{9}=55,\ a_{10}=89$,
 $a_{11}=144, \mathbf{a_{12}=233}$.
-
 
 
 # <lo-sample/> LV.AMO.2003.10.5
@@ -945,7 +963,6 @@ pamīšus baltus un sarkanus. Varam uzskatīt, ka uz baltajiem krēsliem ir vair
 šillišallas. Starp tiem sēdošais rūķītis meklētais.
 
 
-
 # <lo-sample/> LV.AMO.2003.11.1
 
 Dots, ka $x,\ y,\ z$ - reāli skaitļi un
@@ -968,7 +985,6 @@ Kāda ir lielākā iespējamā $z$ vērtība?
 Var būt $z=1001.5$, $x=z$ un $y=0$. Tā kā 
 $|z+x-y|+|z-x+y| \geq|z+x-y+z-x+y|=2|z|$ un $|x+y-z| \geq 0$, tad nevar būt, ka
 $z>\frac{1}{2} \cdot 2003$.
-
 
 
 # <lo-sample/> LV.AMO.2003.11.2
@@ -1002,7 +1018,6 @@ $BK:YA=ZB:ZY=KX:AC$).
 ![](LV.AMO.2003.11.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2003.11.3
 
 Vai eksistē tāds naturāls skaitlis $n$, ka $6^{n}-1$ dalās ar $4^{n}-1$?
@@ -1023,7 +1038,6 @@ $\left(6^{n}-1\right)-\left(4^{n}-1\right)=\left(6^{n}-4^{n}\right)=2^{n}\left(3
 No tā seko, ka $3^{n}-2^{n}4^{n}-1$ (jo reizinātājs $2^{n}$ neiespaido 
 dalīšanos ar nepāra skaitli $4^{n}-1$). Bet $3^{n}-2^{n}<3^{n}-1<4^{n}-1$, 
 tāpēc $3^{n}-2^{n}$ nevar dalīties ar $4^{n}-1$. Iegūta pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2003.11.4
@@ -1061,7 +1075,6 @@ Tātad visi virsotņu trijnieki, kurus tās satur, ir dažādi. Kopā tās satur
 $14 \cdot C^{3}_{4}=14 \cdot 4=56$ trijniekus. Tā kā trijnieku pavisam arī ir 
 $C_{8}^{3}=\frac{8 \cdot 7 \cdot 6}{1 \cdot 2 \cdot 3}=56$, risinājuma 
 pareizība pamatota.
-
 
 
 # <lo-sample/> LV.AMO.2003.11.5
@@ -1104,7 +1117,6 @@ $A_{1},\ A_{2},\ \ldots,\ A_{n-1}$, iegūstam vajadzīgo.
 vajadzīgo grupu (papildinot to līdz skaitam $n$ ar patvaļīgām komandām).
 
 
-
 # <lo-sample/> LV.AMO.2003.12.1
 
 Pierādīt: $\triangle ABC$ visu leņķu kosinusi ir racionāli skaitļi tad un tikai
@@ -1135,7 +1147,6 @@ $\frac{\sin C}{\sin A}$ ir racionāli skaitļi. Tātad katru divu leņķu sinusi
 attiecas kā naturāli skaitļi. Atliek pielietot sinusu teorēmu.
 
 
-
 # <lo-sample/> LV.AMO.2003.12.2
 
 Vai eksistē tāds vesels pozitīvs skaitlis $n$, ka skaitlim $n^{2}$ ir tikpat 
@@ -1158,7 +1169,6 @@ skaitļa $a^{2}$ dalītāji (citi skaitļa $n^{2}$ dalītāji dalās ar $3$).
 Tā kā $a^{2}$ ir nepāra skaits dalītāju (visi dalītāji, izņemot $a$, apvienojas
 pa pāriem tā, ka vienā pārī ieejošo dalītāju reizinājums ir $a^{2}$), tad 
 uzdevumā prasītais skaitlis neeksistē.
-
 
 
 # <lo-sample/> LV.AMO.2003.12.3
@@ -1195,7 +1205,6 @@ $\left(180^{\circ}-2 \alpha\right)+\left(180^{\circ}-2 \beta\right)=180^{\circ}$
 Bet tā ir tieši uzdevumā dotā sakarība.
 
 
-
 # <lo-sample/> LV.AMO.2003.12.4
 
 Atrisināt vienādojumu sistēmu ar $5$ mainīgajiem $x+y=z^{2}$, 
@@ -1220,7 +1229,6 @@ der.
 
 Ja lielākā (mazākā) vērtība ir citam mainīgajam, atbilde, acīmredzami iznāk 
 tāda pati.
-
 
 
 # <lo-sample/> LV.AMO.2003.12.5
@@ -1277,4 +1285,3 @@ redzamos rūtiņu pārus. Tāpēc $B$ spēlē, katrā no šiem pāriem ierakstot
 vienu nulli. Viņš to spēj izdarīt: ja $A$ ieraksta $1$ līdz tam tukša pāra 
 vienā rūtiņā, $B$ atbild ar nulli otrā šī pāra rūtiņā. Pretējā gadījumā $B$ 
 izdara patvaļīgu gājienu.
-
