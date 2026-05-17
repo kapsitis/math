@@ -9,6 +9,8 @@ Strēmelītes nedrīkst pārklāties.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, QuadrilateralFamilies, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -17,7 +19,6 @@ Strēmelītes nedrīkst pārklāties.
 Jā, var; skat., piem., 3.zīm.
 
 ![](LV.NOL.2007.5.1A.png)
-
 
 
 # <lo-sample/> LV.NOL.2007.5.2
@@ -37,6 +38,8 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSet, PositiveIntegers, OptimumProofStructure, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -55,7 +58,6 @@ lielākajai vērtībai $c$ - vismaz uz $2$ kartiņām. Tā kā jābūt vismaz $5
 dažādiem skaitļiem, tad nepieciešama vēl $13.$ kartiņa.
 
 
-
 # <lo-sample/> LV.NOL.2007.5.3
 
 Kvadrāts sastāv no $6 \times 6$ vienādām kvadrātiskām rūtiņām. Vai dažas no tām
@@ -66,6 +68,8 @@ melnas rūtiņas?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -74,7 +78,6 @@ melnas rūtiņas?
 Jā, var; skat., piem., 4.zīm.
 
 ![](LV.NOL.2007.5.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2007.5.4
@@ -92,6 +95,8 @@ pārī meitene garāka par zēnu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TotalOrder, OrderedPair, Counterexample, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -122,7 +127,6 @@ pārī meitene garāka par zēnu?
 | $162$ | $163$ |
 
 
-
 # <lo-sample/> LV.NOL.2007.5.5
 
 Atrodiet mazāko piecciparu naturālo skaitli, kam visi cipari dažādi un kas 
@@ -132,6 +136,8 @@ dalās ar $61$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, OptimumProofStructure, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -143,7 +149,6 @@ $\underline{Risinājums:}$ mazākais piecciparu naturālais skaitlis, kam visi
 cipari ir dažādi, ir $10234$ (vispirms izvēlas iespējami mazu pirmo ciparu, 
 tad - iespējami mazu otro utt.) Virzoties no $10234$ uz augšu, atbildi atrod 
 mēģinājumu ceļā.
-
 
 
 # <lo-sample/> LV.NOL.2007.6.1
@@ -158,6 +163,8 @@ meļu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ProofByContradiction, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -172,7 +179,6 @@ Gamma, otro Alfa.
 izteicieniem ir teicis patiess rūķītis. Bet tad ir patiesība, ka meļu ir vismaz
 divi - pretruna. Ja visi rūķīši būtu meļi, tad abas frāzes ir patiesas, un tās 
 teikuši meļi - atkal pretruna.
-
 
 
 # <lo-sample/> LV.NOL.2007.6.2
@@ -190,6 +196,8 @@ $n=11$, **(B)** $n=13$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PerfectSquares, Permutation, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -201,7 +209,6 @@ $11$ arī var atrasties tikai $5$. Bet $5$ nevar reizē atrasties $2$ kolonnās.
 **(B)** jā, skat. 5.zīm.
 
 ![](LV.NOL.2007.6.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2007.6.3
@@ -219,6 +226,8 @@ starpā nedrīkst pārklāties.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure
+* _readingDifficulty: low
 
 </small>
 
@@ -231,7 +240,6 @@ starpā nedrīkst pārklāties.
 ![](LV.NOL.2007.6.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2007.6.4
 
 Vai eksistē desmitciparu naturāls skaitlis, kura visi cipari ir dažādi un kuru 
@@ -242,6 +250,8 @@ septītniekus?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRules, DigitSum, PrimeFactorization, PrimeNumbers, DigitRepresentation
+* _readingDifficulty: low
 
 </small>
 
@@ -249,7 +259,6 @@ septītniekus?
 
 Nē, neeksistē. Tāda skaitļa ciparu summa ir $45$, tātad tas dalās ar 
 $9=3 \cdot 3$; bet starp tā pirmreizinātājiem nav neviena trijnieka.
-
 
 
 # <lo-sample/> LV.NOL.2007.6.5
@@ -263,6 +272,8 @@ vismaz divi no bērniem nopirka vienu un to pašu nosaukumu sieriņus.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSet, SetIntersection, PigeonholePrinciple, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -282,7 +293,6 @@ naudas daudzumus; tā kā visas cenas ir dažādas, tad sakrīt arī trešo viņ
 nopirkto sieriņu nosaukumi.
 
 
-
 # <lo-sample/> LV.NOL.2007.7.1
 
 Kurus naturālos skaitļus $n$ var izsacīt formā $n=\frac{x}{y}$, kur 
@@ -297,6 +307,8 @@ $x=a^{5},\ y=b^{3}$, $a$ un $b$ - naturāli skaitļi?
 * topic:StandardIdentities
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, RationalNumbers, PrimeFactorization, PrimeNumbers
+* _readingDifficulty: low
 
 </small>
 
@@ -308,8 +320,6 @@ Jebkuru: $n=n^{10}:n^{9}=\left(n^{2}\right)^{5}:\left(n^{3}\right)^{3}$
 sadalījumā var izteikt $p^{5c}/p^{3d}$ kaut kādiem naturāliem $c,d$. 
 Piemēram, $n^1 = n^{10}/n^{9} = (n^2)^5/(n^3)^3$; kāpinot to, var iegūt 
 visas augstākās pakāpes.
-
-
 
 
 # <lo-sample/> LV.NOL.2007.7.2
@@ -325,6 +335,8 @@ summa ir pozitīva. Katru $3$ pēc kārtas uzrakstīto skaitļu summa ir negatī
 
 * questionType:
 * domain:
+* _hasSolutionConcept: WholeIntegers, PositiveAndNegative, FiniteSequenceArrangement, DivisionWithRemainder, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -337,7 +349,6 @@ katru pusi no katra no šiem skaitļiem esošo citu skaitļu skaits dalās ar $3
 sadalot tos grupās pa $3$, iegūstam, ka uz katru pusi no katra no šiem 
 skaitļiem $A$ esošo skaitļu summa ir negatīva. Lai visu skaitļu summa būtu 
 pozitīva, jābūt $A>0$.
-
 
 
 # <lo-sample/> LV.NOL.2007.7.3
@@ -354,6 +365,8 @@ katru soli šķērsojot kādu divu melnu rūtiņu kopējo malu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, LatticeGrid, GraphConcept, ConnectedGraph
+* _readingDifficulty: low
 
 </small>
 
@@ -362,7 +375,6 @@ katru soli šķērsojot kādu divu melnu rūtiņu kopējo malu?
 Jā, var. Skat., piem., 7.zīm.
 
 ![](LV.NOL.2007.7.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2007.7.4
@@ -375,6 +387,8 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 * topic:NumTheoryInequalityLargeIntervals
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PositiveIntegers, NecessarySufficient
+* _readingDifficulty: low
 
 </small>
 
@@ -397,7 +411,6 @@ $\frac{n}{6}$. Lai tādi dalītāji eksistētu, nepieciešams un pietiekams, lai
 dalītos ar $6$.
 
 
-
 # <lo-sample/> LV.NOL.2007.7.5
 
 Profesoram Cipariņam ir $10$ monētas; tieši $2$ no tām ir viltotas, bet viņš 
@@ -411,6 +424,8 @@ noskaidrot vismaz vienu viltoto monētu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -432,7 +447,6 @@ starp jau pārbaudītajām deviņām ir. Tāpēc vismaz viena no $A,\ D,\ G$ ir
 viltota; tāpēc $A$ ir viltota.
 
 
-
 # <lo-sample/> LV.NOL.2007.8.1
 
 Kontroldarbu latviešu valodā rakstīja $50$ pirmklasnieki. Daži no viņiem zina 
@@ -446,6 +460,8 @@ skolēni pareizi izpildīja sev doto uzdevumu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSet, CountingSumRule, SetPartition
+* _readingDifficulty: medium
 
 </small>
 
@@ -455,7 +471,6 @@ Skolēni, kas uzrakstīja "gas", visi kļūdījās. Daži no $22$ skolniekiem, k
 bija jāraksta "galds", uzrakstīa "gals", pārējie - "gads". Tātad no $15+15=30$ 
 atbildēm "gads" un "gals" $22$ atbildes ir nepareizas, bet $30-22=8$ atbildes -
 pareizas.
-
 
 
 # <lo-sample/> LV.NOL.2007.8.2
@@ -468,6 +483,8 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, PolynomialAndRoots, DiffOfSquaresFactoring
+* _readingDifficulty: low
 
 </small>
 
@@ -476,7 +493,6 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 Ar ekvivalentiem pārveidojumiem vienādojums pārveidojas par 
 $x\left(x^{2}-1\right)\left(x^{2}-4\right)\left(x^{2}-9\right)=0$. Tāpēc 
 atrisinājuma kopa ir $\{0; \pm 1; \pm 2; \pm 3\}$.
-
 
 
 # <lo-sample/> LV.NOL.2007.8.3
@@ -489,6 +505,8 @@ un $\sphericalangle OCA=\sphericalangle OAC$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, Angle, ProofByContradiction
+* _readingDifficulty: low
 
 </small>
 
@@ -504,7 +522,6 @@ no kā seko $OB>OB$ - pretruna.
 ![](LV.NOL.2007.8.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2007.8.4
 
 Atrast mazāko naturālo skaitli, kas dalās ar katru no kaut kādiem $12$ pēc 
@@ -516,6 +533,8 @@ kārtas ņemtiem naturāliem skaitļiem.
 * topic:GcdAndLcm
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: LCM, DivisibilityRelation, CoprimeIntegers, PositiveIntegers, OptimumProofStructure
+* _readingDifficulty: low
 
 </small>
 
@@ -540,9 +559,6 @@ elementiem.
   skaitļiem (no $1$ līdz $12$). Tātad $M \leq 27720$.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2007.8.5
 
 Kvadrāts sastāv no $100 \times 100$ vienādām kvadrātiskām rūtiņām, kas 
@@ -556,6 +572,8 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 * questionType:
 * domain:
 * subdomain:DOM_GridColoring
+* _hasSolutionConcept: ChessboardColoring, Coloring, EvenOddParity, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -568,7 +586,6 @@ nodrošinošo" melno rūtiņu, jo lielajā kvadrātā melno un balto rūtiņu ir
 daudzums.
 
 
-
 # <lo-sample/> LV.NOL.2007.9.1
 
 Kāda var būt četru tādu divciparu pirmskaitļu summa, kas sastādīti no cipariem 
@@ -578,6 +595,8 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PrimeNumbers, DigitRepresentation, LastDigit
+* _readingDifficulty: low
 
 </small>
 
@@ -589,7 +608,6 @@ vienu cipari; tāpēc tie ir desmitu cipari, un meklējamā summa noteikti ir
 $10(2+4+5+6)+(1+3+7+9)=10 \cdot 17+20=190$.
 
 
-
 # <lo-sample/> LV.NOL.2007.9.2
 
 Dots, ka $3 \leq x \leq 6$ un $3 \leq y \leq 6$. Pierādīt, ka 
@@ -599,6 +617,8 @@ $2x^{2}+2y^{2} \leq 5xy$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, LinearInequality, IrrationalAndReals
+* _readingDifficulty: low
 
 </small>
 
@@ -607,7 +627,6 @@ $2x^{2}+2y^{2} \leq 5xy$.
 Pierādāmo nevienādību viegli pārveidot par $(x-2y)(2x-y) \leq 0$ un tālāk par 
 $\left(\frac{x}{y}-\frac{1}{2}\right)\left(\frac{x}{y}-2\right) \leq 0$, kas ir
 acīmredzami.
-
 
 
 # <lo-sample/> LV.NOL.2007.9.3
@@ -621,6 +640,8 @@ $\triangle ABC$ leņķu lielumus.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, CircleAndDisk, ParallelPerpendicular, TriangleSimilarity
+* _readingDifficulty: low
 
 </small>
 
@@ -632,7 +653,6 @@ $YA=XA$. Tāpēc $\Delta AYX$ ir regulārs, $\sphericalangle A=60^{\circ}$ un
 $\sphericalangle B=30^{\circ}$.
 
 ![](LV.NOL.2007.9.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2007.9.4
@@ -649,6 +669,8 @@ $n$ reizes.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: UnorderedSelection, FiniteSet, Polygon, Triangle
+* _readingDifficulty: medium
 
 </small>
 
@@ -661,7 +683,6 @@ var būt $n=5$.
 **(B)** attēlosim policistus ar regulāra $7$-stūra virsotnēm. Ja pa reizei 
 dežurēs visi tie policistu trijnieki, kuru atbilstošās virsotnes veido 
 vienādsānu trijstūri, iegūsim situāciju ar $n=3$.
-
 
 
 # <lo-sample/> LV.NOL.2007.9.5
@@ -677,6 +698,8 @@ stūris, tad tajās ierakstīto skaitļu lielākais kopīgais dalītājs ir $1$.
 
 * questionType:Prove,Prove
 * domain:NT
+* _hasSolutionConcept: GCD, CoprimeIntegers, EvenOddParity, PigeonholePrinciple, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -690,7 +713,6 @@ Katrā $2 \times 2$ rūtiņu kvadrātā var būt ne vairāk kā viens no skaitļ
 $3;6;9$. Tāpēc katrā $2 \times 2$ rūtiņu kvadrātā ir vismaz $2$ skaitļi no 
 kopas $\{1; 5; 7\}$; tātad to pavisam ir vismaz $50$. Tā kā $3 \cdot 16<50$, 
 iegūstam (B) risinājumu.
-
 
 
 # <lo-sample/> LV.NOL.2007.10.1
@@ -726,7 +748,6 @@ Salīdzinām divas monētas $A$ un $B$. Pastāv divas iespējas.
    1. gadījumā. Pavisam tiks izmantotas $1+1002+1=1004$ svēršanas.
 
 
-
 # <lo-sample/> LV.NOL.2007.10.2
 
 Kvadrāts sastāv no $n \times n$ rūtiņām, $n \geq 3$. Pierādīt, ka katru rūtiņu
@@ -758,7 +779,6 @@ Ja $n$ - pāra skaitlis, kas nedalās ar $4$, kvadrātu sadala četros vienādos
 kvadrātos ar nepāra skaitu rūtiņu katrā un izmanto sākumā minēto krāsojumu.
 
 
-
 # <lo-sample/> LV.NOL.2007.10.3
 
 Sauksim naturālu skaitli $n>1$ par labu, ja visus tā pozitīvos dalītājus var 
@@ -780,7 +800,6 @@ sadalīt divās daļās, kuru summas ir vienādas.
 
 **(B)** ja $p$ - "pietiekami liels" pirmskaitlis, apskatām skaitli $6p$. 
 Dalītāju grupas ir $1+2+3+p+2p+3p=6+6p$.
-
 
 
 # <lo-sample/> LV.NOL.2007.10.4
@@ -810,7 +829,6 @@ k.b.j.
 ![](LV.NOL.2007.10.4A.png)
 
 
-
 # <lo-sample/> LV.NOL.2007.10.5
 
 Dots, ka $f(x)=x^{2}+8x+12$. Atrisināt vienādojumu $f(f(f(x)))=0$.
@@ -837,7 +855,6 @@ $x+4= \pm \sqrt[4]{2}$
 $x=-4 \pm \sqrt[4]{2}$
 
 
-
 # <lo-sample/> LV.NOL.2007.11.1
 
 Atrisināt naturālos skaitļos vienādojumu
@@ -858,7 +875,6 @@ nepāra skaitlis, kas lielāks par $1$, tātad dalās ar kādu nepāra pirmskait
 tad $x(x+3)$ nevar būt vienāds ar $2^{y}$ saskaņā ar aritmētikas pamatteorēmu. 
 Līdzīgi nevar būt, ka $x>1$ un $x$ - nepāra skaitlis. Pārbaudot $x=1$, redzam, 
 ka $y=2$. Tātad $(x; y)=(1; 2)$ ir vienīgais atrisinājums.
-
 
 
 # <lo-sample/> LV.NOL.2007.11.2
@@ -899,7 +915,6 @@ rādītāja kustības virzienā, sākot ar to, kura stāv viņam vienu pozīciju
 priekšā, tad savstarpēju simpātiju nav.
 
 
-
 # <lo-sample/> LV.NOL.2007.11.3
 
 Vai eksistē $3$ kvadrāttrinomi ar īpašību: lai kā arī apzīmētu vienu no tiem ar
@@ -921,7 +936,6 @@ pamatots, kāpēc tāds zīmējums ir izveidojams (jo principā varētu gadītie
 zīmējumā parādītā krustošānās nav iespējama).
 
 ![](LV.NOL.2007.11.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2007.11.4
@@ -951,7 +965,6 @@ $\sphericalangle AZY=2 \varphi$, tātad
 $\sphericalangle AMY=\sphericalangle AZY$. No šejienes seko vajadzīgais.
 
 
-
 # <lo-sample/> LV.NOL.2007.11.5
 
 Rindā izrakstīti $6$ pozitīvi skaitļi; pirmais no tiem ir $1$, sestais ir $6$. 
@@ -974,7 +987,6 @@ $\frac{1}{y}=\frac{\frac{1}{x}+\frac{1}{z}}{2}$. Tātad dotajiem skaitļiem
 apgrieztie skaitļi veido aritmētisku progresiju; acīmredzami šī progresija ir 
 $1; \frac{5}{6}; \frac{4}{6}; \frac{3}{6}$; $\frac{2}{6}; \frac{1}{6}$, un paši
 skaitļi ir $1; \frac{6}{5}; \frac{3}{2}; 2; 3; 6$.
-
 
 
 # <lo-sample/> LV.NOL.2007.12.1
@@ -1000,7 +1012,6 @@ vienādībām pastāv tikai pirmās divas. Visas šīs vienādības nevar vienla
 pastāvēt. Ja tā būtu, tad kvadrātvienādojumam $f(x)-q \cdot x=0$ ($q$ - 
 progresijas kvocients) būtu $3$ dažādas saknes $a_{1},\ a_{2},\ a_{3}$, bet tas
 nevar būt.
-
 
 
 # <lo-sample/> LV.NOL.2007.12.2
@@ -1040,7 +1051,6 @@ divas reizes (sērijās, kas atbilst $n$ dalītājiem $1$ un $p$) un tāpēc bei
 paliks izslēgta.
 
 
-
 # <lo-sample/> LV.NOL.2007.12.3
 
 Kādiem naturāliem skaitļiem $n$ vienlaicīgi piemīt sekojošas īpašības:
@@ -1066,7 +1076,6 @@ ir dalītāji $1;\ \frac{n}{6};\ \frac{n}{2};\ \frac{n}{3}; n$. Bet
 $\frac{n}{6}+\frac{n}{2}+\frac{n}{3}+n=2n$. Saskaņā ar uzdevuma nosacījumiem 
 $1$ jābūt vienam no skaitļiem $\frac{n}{6};\ \frac{n}{2};\ \frac{n}{3};\ n$. 
 Mums der tikai $1=\frac{n}{6}$; tad $n=6$. Pārbaude parāda, ka šī vērtība der.
-
 
 
 # <lo-sample/> LV.NOL.2007.12.4
@@ -1101,7 +1110,6 @@ No (2) un (3) seko, ka $\Delta CZY \sim \triangle ZBX$. Tas kopā ar $CZ=ZB$ dod
 vajadzīgo trijstūru vienādību.
 
 ![](LV.NOL.2007.12.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2007.12.5
@@ -1140,5 +1148,3 @@ Ar $6$ gājieniem vienu taisnstūri var pārveidot vajadzīgajā formā:
 ![](LV.NOL.2007.12.5B.png)
 
 Tātad pavisam pietiek ar $24 \cdot 6=144$ gājieniem.
-
-

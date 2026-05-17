@@ -11,6 +11,8 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ProofByContradiction
+* _readingDifficulty: low
 
 </small>
 
@@ -21,7 +23,6 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 ![](LV.NOL.2009.5.1A.png)
 
 **(B)** nevar; skaitlim $6$ blakus var būt tikai $12$.
-
 
 
 # <lo-sample/> LV.NOL.2009.5.2
@@ -38,6 +39,8 @@ pārklāties un saliktā kvadrāta iekšpusē nedrīkst palikt tukšumi.
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, LatticeGrid, Polygon, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -46,7 +49,6 @@ pārklāties un saliktā kvadrāta iekšpusē nedrīkst palikt tukšumi.
 Skat., piem., 2.zīm.
 
 ![](LV.NOL.2009.5.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2009.5.3
@@ -71,6 +73,8 @@ vienai reizei ciparus $0;\ 1;\ 2;\ 3;\ 4;\ 5$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRules, DigitRepresentation, LastDigit, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -79,7 +83,6 @@ vienai reizei ciparus $0;\ 1;\ 2;\ 3;\ 4;\ 5$?
 **(A)** nē; izsvītrojot $5$, palikušais skaitlis nevar dalīties ar $5$.
 
 **(B)** jā; piem., skaitlis $154320$.
-
 
 
 # <lo-sample/> LV.NOL.2009.5.4
@@ -96,6 +99,8 @@ būtu lielāks par visās savās kaimiņu rūtiņās ierakstītajiem?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: ChessboardColoring, Coloring, PositiveIntegers
+* _readingDifficulty: low
 
 </small>
 
@@ -103,7 +108,6 @@ būtu lielāks par visās savās kaimiņu rūtiņās ierakstītajiem?
 
 Jā. Piemēram, izkrāsojam rūtiņas šaha galdiņa secībā, baltajās rūtiņās 
 ierakstām skaitļus no $1$ līdz $8$, bet melnajās - no $9$ līdz $16$.
-
 
 
 # <lo-sample/> LV.NOL.2009.5.5
@@ -119,6 +123,8 @@ sistēmā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, CountingSumRule
+* _readingDifficulty: medium
 
 </small>
 
@@ -131,7 +137,6 @@ ir $31$ diena, iegūstam $111$; $211$; $311$; tā kā februārī ir augstākais 
 dienas, iegūstam $112$ un $212$. Tātad pavisam ir $5$ šādi kodi.
 
 
-
 # <lo-sample/> LV.NOL.2009.6.1
 
 Kvadrāts sastāv no $5 \times 5$ vienādām baltām kvadrātiskām rūtiņām. Vai var 
@@ -142,6 +147,8 @@ $3 \times 3$ rūtiņām sastāvošā kvadrātā būtu tieši viena melna rūtiņ
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, LatticeGrid, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -150,7 +157,6 @@ $3 \times 3$ rūtiņām sastāvošā kvadrātā būtu tieši viena melna rūtiņ
 Skat., piem., 3.zīm.
 
 ![](LV.NOL.2009.6.1A.png)
-
 
 
 # <lo-sample/> LV.NOL.2009.6.2
@@ -167,6 +173,8 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, LatticeGrid, FiniteSet, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -177,7 +185,6 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 **(B)** jā. Skat., piem., 4.zīm.
 
 ![](LV.NOL.2009.6.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2009.6.3
@@ -192,6 +199,8 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity
+* _readingDifficulty: medium
 
 </small>
 
@@ -204,7 +213,6 @@ $2n=15$.
 **(B)** jā. Skat., piem., 5.zīm.
 
 ![](LV.NOL.2009.6.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2009.6.4
@@ -220,6 +228,8 @@ nepāra?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, EvenOddParity, CaseAnalysis, ProofByContradiction
+* _readingDifficulty: low
 
 </small>
 
@@ -236,7 +246,6 @@ saskaitīti divi piecinieki (citādi summu, kas ir vismaz $10$, iegūt nevar); b
 tad summā šajā šķirā rodas pāra cipars $0$.
 
 
-
 # <lo-sample/> LV.NOL.2009.6.5
 
 Dotas $200$ pēc ārējā izskata vienādas monētas. Puse no tām sver pa $100$ 
@@ -251,6 +260,8 @@ mazākais iespējamais.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: ProofByContradiction, DivisibilityRelation, WholeIntegers, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -277,7 +288,6 @@ Skaidrs, ka pavisam bez svēršanas prasītās monētu kaudzītes atrast nevar. 
 meklējamais minimums ir $1$.
 
 
-
 # <lo-sample/> LV.NOL.2009.7.1
 
 Kurus naturālos skaitļus $n$ var izsacīt formā $n=\frac{x}{y}$, kur 
@@ -292,6 +302,8 @@ $x=a^{3}, y=b^{5}$, $a$ un $b$ naturāli skaitļi?
 * topic:StandardIdentities
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, RationalNumbers, CoprimeIntegers, GCD
+* _readingDifficulty: low
 
 </small>
 
@@ -310,7 +322,6 @@ pirmskaitļi var nomaksāt jebkuru veselu naudas summu.)
 Tālāk, šo Bezū identitāti pārnesam uz kāpinātājiem: 
 
 $$(n^7)^3/(n^4)^5 = n^{3 \cdot 7 + 5 \cdot (-4)} = n^{21}/n^{20} = n^1.$$
- 
 
 
 # <lo-sample/> LV.NOL.2009.7.2
@@ -327,6 +338,8 @@ skaitļu summu. Šādus gājienus atkārto, līdz rindā paliek tikai viens skai
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Invariant, FiniteSequenceArrangement
+* _readingDifficulty: low
 
 </small>
 
@@ -337,7 +350,6 @@ $2009$ līdz $1$, tad pavisam izdarīs $2009-1=2008$ gājienus.
 
 **(B)** uzrakstīto skaitļu summa paliek nemainīga. Tāpēc pēdējais palikušais 
 skaitlis būs $2009$.
-
 
 
 # <lo-sample/> LV.NOL.2009.7.3
@@ -356,6 +368,8 @@ skaitļa dalītājiem pieskaita gan viņu pašu, gan vieninieku.)
 * topic:ExhaustionMethod
 * questionType:Prove,ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PrimeFactorization, PrimeNumbers, CaseAnalysis
+* _readingDifficulty: low
 
 </small>
 
@@ -392,10 +406,6 @@ Savukārt, mazāk nekā $9$ dalītāji var rasties $3$ veidos:
 Neviens no šiem gadījumiem neatbilst mūsu nosacījumam.
 
 
-
-
-
-
 # <lo-sample/> LV.NOL.2009.7.4
 
 Kvadrātiska režģa veidā izvietoti $16$ punkti (skat. 3.zīm.). Kādu lielāko 
@@ -409,6 +419,8 @@ virzieniem, nebūtu perpendikulāri viens otram?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, Coloring, ParallelPerpendicular, OptimumProofStructure, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -440,7 +452,6 @@ vienu atstātu nenokrāsotu), uzdevumā minētais taisnleņķa trijstūris eksis
 Iegūta pretruna.
 
 
-
 # <lo-sample/> LV.NOL.2009.7.5
 
 Sprīdītis ceļo triju rūķīšu pavadībā. Viņš zina, ka divi rūķīši vienmēr runā 
@@ -459,6 +470,8 @@ Jūsu atrastajiem plāniem.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, DecisionTree
+* _readingDifficulty: high
 
 </small>
 
@@ -484,7 +497,6 @@ runā patiesību!). Balstoties uz $B$ un $C$ teikto un sava izlūkgājiena
 rezultātiem, Sprīdītis izvēlas pareizo ceļu.
 
 
-
 # <lo-sample/> LV.NOL.2009.8.1
 
 Tabulā (skat. 4.zīm.) Katrīnai jāizvēlas $4$ rūtiņas tā, ka katrā rindā un 
@@ -501,6 +513,8 @@ ierakstīto skaitļu summa būs $64$.
 * questionType:Prove
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
+* _hasSolutionConcept: Invariant, LatticeGrid, Permutation, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -545,7 +559,7 @@ $$\left( \begin{array}{cccc}
 
 Neatkarīgi no tā, kā izvēlamies elementus, iegūsim summu 
 $(1+3+5+7) + (0+8+16+24) = 64$, jo katrs skaitlis $\{ 1,3,5,7\}$
-un arī katrs $\{ 0, 8, 16, 24 \}$ piedalās tieši vienu reizi. 
+un arī katrs $\{ 0, 8, 16, 24 \}$ piedalās tieši vienu reizi.
 
 
 # <lo-sample/> LV.NOL.2009.8.2
@@ -557,6 +571,8 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, LinearInequality
+* _readingDifficulty: low
 
 </small>
 
@@ -564,7 +580,6 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 
 No nevienādības $(a-b)^{2}+(b-c)^{2}+(c-a)^{2}>0$, atverot iekavas, seko 
 $a^{2}+b^{2}+c^{2}>ab+ac+bc$
-
 
 
 # <lo-sample/> LV.NOL.2009.8.3
@@ -577,6 +592,8 @@ Atrodiet skaitļa $113^{113}-19^{19}$ pēdējo ciparu.
 * topic:CongruenceClasses
 * questionType:
 * domain:
+* _hasSolutionConcept: LastDigit, DigitRepresentation, PeriodicSequence
+* _readingDifficulty: low
 
 </small>
 
@@ -607,6 +624,8 @@ iepriekšējās reizēs. Pierādiet, ka svari atkal nostāsies līdzsvarā.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EquationSystem, VariableExpression, SetIntersection, SetDifference
+* _readingDifficulty: medium
 
 </small>
 
@@ -625,7 +644,6 @@ $$\begin{aligned}
 Saskaitot šīs vienādības, iegūstam vajadzīgo.
 
 
-
 # <lo-sample/> LV.NOL.2009.8.5
 
 Trijstūrī $ABC$ divas malas ir vienādas savā starpā, un 
@@ -635,6 +653,8 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC>AB$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
+* _readingDifficulty: low
 
 </small>
 
@@ -662,7 +682,6 @@ Tā kā $\sphericalangle ABE=60^{\circ}$ un $BA=BE$, tad $\triangle ABE$ ir
 vienādmalu. Tāpēc $3AC=AC+CD+DE>AE=AB$.
 
 
-
 # <lo-sample/> LV.NOL.2009.9.1
 
 Trijstūrī $ABC$ ar $h_{a}$, $h_{b}$ un $h_{c}$ apzīmēti to augstumu garumi, kas
@@ -675,6 +694,8 @@ Kāds ir mazākais iespējamais $\triangle ABC$ laukums?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, OptimumProofStructure
+* _readingDifficulty: low
 
 </small>
 
@@ -691,7 +712,6 @@ $h_{b}=AB=12, h_{c}=AC=13, h_{a}=\frac{AB \cdot AC}{BC}=\frac{12 \cdot 13}{\sqrt
 ![](LV.NOL.2009.9.1A.png)
 
 
-
 # <lo-sample/> LV.NOL.2009.9.2
 
 Kuri četrciparu naturāli skaitļi vienādi ar savu divu pēdējo ciparu veidotā 
@@ -701,6 +721,8 @@ naturālā skaitļa kvadrātu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, PerfectSquares, DivisibilityRelation, GCD, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -715,7 +737,6 @@ naturāls skaitlis tikai pie $b=76$, tad $a=57$. Tāpēc ir tikai viens
 meklējamais skaitlis $n=5776$.
 
 
-
 # <lo-sample/> LV.NOL.2009.9.3
 
 Divas riņķa līnijas krustojas. To rādiusu garumi ir $R$ un $r$, bet attālums 
@@ -727,6 +748,8 @@ un tikai tad, ja $R^{2}+r^{2}=d^{2}$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, ParallelPerpendicular, PythagoreanTheorem, NecessarySufficient
+* _readingDifficulty: low
 
 </small>
 
@@ -755,7 +778,6 @@ galapunktā, ir pieskare.
    teorēmas seko vajadzīgais.
 
 
-
 # <lo-sample/> LV.NOL.2009.9.4
 
 Kvadrātvienādojumam $x^{2}+px+q=0$ ir divas dažādas saknes, kas abas pieder 
@@ -766,6 +788,8 @@ nevienādība $x^{2}+px+q \geq-1$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticEquation, PolynomialAndRoots, QuadraticFunction, PositiveAndNegative
+* _readingDifficulty: low
 
 </small>
 
@@ -780,7 +804,6 @@ $\left|x^{2}+px+q\right|=\left|\left(x-x_{1}\right)\left(x_{2}-x\right)\right|=\
 $\leq\left(\frac{\left(x-x_{1}\right)+\left(x_{2}-x\right)}{2}\right)^{2}=\left(\frac{x_{2}-x_{1}}{2}\right)^{2} \leq\left(\frac{2}{2}\right)^{2}=1$,
 
 no kā seko vajadzīgais.
-
 
 
 # <lo-sample/> LV.NOL.2009.9.5
@@ -803,6 +826,8 @@ pazīst $Y$, tad arī $Y$ pazīst $X$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, VertexDegree, PigeonholePrinciple, EvenOddParity, Counterexample
+* _readingDifficulty: high
 
 </small>
 
@@ -829,7 +854,6 @@ un $B$ paziņu daudzumi neiznāktu vienādi). Tāpēc $n$ jābūt pāra skaitlim
 $2009$ ir nepāra.
 
 
-
 # <lo-sample/> LV.NOL.2009.10.1
 
 Atrodiet mazāko naturālo skaitli, kuru var izsacīt gan kā $11$, gan kā $12$, 
@@ -851,7 +875,6 @@ pāriem savstarpēji pirmskaitļi, tad tam jādalās ar $6 \cdot 11 \cdot 13=858
 Mazākais naturālais skaitlis, kas dalās ar $858$, ir $858$. Viegli pārbaudīt, 
 ka visi $11\ (12; 13)$ saskaitāmie iznāk **naturāli** skaitļi 
 ($\underline{pārbaude\ nepieciešama}$).
-
 
 
 # <lo-sample/> LV.NOL.2009.10.2
@@ -879,7 +902,6 @@ $MB+BN=\frac{1}{2}(AB+BC+CA)$, k.b.j.
 ![](LV.NOL.2009.10.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2009.10.3
 
 Dots, ka $a$ un $b$ ir naturāli skaitļi, $a^{2}$ dalās ar $b$ un $b^{2}$ dalās 
@@ -901,7 +923,6 @@ $(a+b)^{3}=a^{3}+b^{3}+3ab(a+b)$ dalās ar $ab$. Ja $a=2$ un $b=4$, tad
 $(a+b)^{2}=36$ nedalās ar $a \cdot b=8$.
 
 
-
 # <lo-sample/> LV.NOL.2009.10.4
 
 Atrisināt vienādojumu $\sqrt{x-1}+2 \sqrt{y-4}+3 \sqrt{z-9}=\frac{1}{2}(x+y+z)$
@@ -920,7 +941,6 @@ Pārveidojam vienādojumu par $x+y+z=2 \sqrt{x-1}+4 \sqrt{y-4}+6 \sqrt{z-9}$ un
 tālāk par $(\sqrt{x-1}-1)^{2}+(\sqrt{y-4}-2)^{2}+(\sqrt{z-9}-3)^{2}=0$. Tā kā 
 kvadrāti ir nenegatīvi, tad katrs no tiem ir $0$. No šejienes viegli iegūt 
 $x=2;\ y=8;\ z=18$.
-
 
 
 # <lo-sample/> LV.NOL.2009.10.5
@@ -971,7 +991,6 @@ $\underline{S\ kā\ 100\ nepāra\ skaitļu\ summa\ ir\ pāra\ skaitlis}$. Iegūt
 pretruna.
 
 
-
 # <lo-sample/> LV.NOL.2009.11.1
 
 Regulāra $n$-stūra virsotnēs ierakstīti naturāli skaitļi no $1$ līdz $n$ (katrā
@@ -1015,7 +1034,6 @@ attēlota 12.zīm.; ar tās palīdzību no 13.zīm. iegūts 10.zīm. un no 10.z�
 ![](LV.NOL.2009.11.1B.png)
 
 
-
 # <lo-sample/> LV.NOL.2009.11.2
 
 Atrisināt veselos skaitļos vienādojumu $\frac{x^{2}}{2}+\frac{5}{y}=7$.
@@ -1036,7 +1054,6 @@ un $y \neq 0$, tad jābūt $\left|14-x^{2}\right| \leq 10$, no kurienes
 $4 \leq x^{2} \leq 24$; tā kā apskatām $x \geq 0$, tad $2 \leq x \leq 4$. 
 Pārbaudot visas iespējas, iegūstam atrisinājumus 
 $(2; 1),\ (-2; 1),\ (3; 2),\ (-3; 2),\ (4; -5);\ (-4; -5)$.
-
 
 
 # <lo-sample/> LV.NOL.2009.11.3
@@ -1064,7 +1081,6 @@ $1-1009 \leq x \leq 1+1009$ jeb $-1008 \leq x \leq 1010$; der visi $x$, kur
 $-1008 \leq x<2$. Apvienojot visas atbildes, iegūstam $x \geq-1008$.
 
 
-
 # <lo-sample/> LV.NOL.2009.11.4
 
 Riņķa līnija iet caur regulāra trijstūra $ABC$ virsotni $B$ un krusto tā malas,
@@ -1090,7 +1106,6 @@ $CL \cdot(a-AN)=CK \cdot a$.
 
 Saskaitot abas vienādības un veicot elementārus algebriskus pārveidojumus, 
 iegūstam vajadzīgo.
-
 
 
 # <lo-sample/> LV.NOL.2009.11.5
@@ -1137,7 +1152,6 @@ $\underline{\mathbf{Komentārs\ 2.}}$ Vairāk papūloties, var pierādīt, ka ir
 vismaz $4$ vienkrāsaini trijstūri.
 
 
-
 # <lo-sample/> LV.NOL.2009.12.1
 
 Pierādīt, ka visiem reāliem skaitļiem $x$ un $y$ pastāv nevienādība
@@ -1161,7 +1175,6 @@ $x^{2}=2 \pi n, y^{2}=2 \pi k, xy=\pi(2 l+1), n, k, l \in Z$. No tā seko, ka
 $x^{2}y^{2}=4 \pi^{2} nk$ un $(xy)^{2}=\pi^{2} \cdot(2l+1)^{2}$. No tā seko, ka
 $4nk=(2 l+1)^{2}$ Bet pāra skaitlis nevar būt vienāds ar nepāra skaitli - 
 pretruna.
-
 
 
 # <lo-sample/> LV.NOL.2009.12.2
@@ -1189,7 +1202,6 @@ tāpēc ciparu summa ir lielāka par $9$. Tātad mazākā iespējamā $n$ ciparu
 ir $9$, un tā tiek sasniegta pie $p=2$ un $p=5$.
 
 
-
 # <lo-sample/> LV.NOL.2009.12.3
 
 Atrisināt vienādojumu 
@@ -1209,7 +1221,6 @@ Ar ekvivalentiem pārveidojumiem iegūstam
 $\frac{1}{x}(x-\sqrt{2x+1})^{2}+\frac{1}{y}(y-\sqrt{2y+1})^{2}=0$. Tā kā 
 $x>0,\ y>0$, tad $x-\sqrt{2x+1}=0$ un $y-\sqrt{2y+1}=0$, no kurienes viegli 
 seko $x=y=1+\sqrt{2}$.
-
 
 
 # <lo-sample/> LV.NOL.2009.12.4
@@ -1238,7 +1249,6 @@ $CL \cdot a=CK \cdot(AM+a)$.
 
 Saskaitot šīs vienādības un veicot ekvivalentus pārveidojumus, iegūstam 
 vajadzīgo.
-
 
 
 # <lo-sample/> LV.NOL.2009.12.5
@@ -1285,4 +1295,3 @@ no tiem ir "vidējais ķēdītē", iegūstam $C_{4}^{3} \cdot 3=12$ paralēlskal
 taisnes. Caur tām jāvelk savstarpēji paralēlas skaldņu plaknes; to var izdarīt 
 vienā vienīgā veidā. Tāpēc tāds paralēlskaldnis ir tikai viens. Atliek ievērot,
 ka $4+12+12+1=29$.
-

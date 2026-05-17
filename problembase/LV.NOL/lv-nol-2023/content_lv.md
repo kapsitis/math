@@ -12,6 +12,8 @@ vienu veidu, kā to var izdarīt.
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: PeriodicSequence, FiniteSequenceArrangement, VariableExpression, ArithmeticMean
+* _readingDifficulty: medium
 
 </small>
 
@@ -42,9 +44,6 @@ tātad vienā šādā blokā $(19;20;n)$ skaitļu summa ir $204:4=51$.
 Tātad skaitļa $n$ vietā jāraksta $51-19-21=12$.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2023.5.2
 
 Rūķīši mežā ir uzbūvējuši astoņas mājiņas un starp tām izveidojuši 
@@ -59,6 +58,8 @@ taciņas var krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_FixedInvariant
+* _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity
+* _readingDifficulty: medium
 
 </small>
 
@@ -76,9 +77,6 @@ ir nepāra skaitlis, tad prasītais nav iespējams.
 ![](LV.NOL.2023.5.2A.png){ width=200px }
 
 
-
-
-
 # <lo-sample/> LV.NOL.2023.5.3
 
 Parādi, kā 2.att. figūru ($6 \times 8$ rūtiņu taisnstūris, 
@@ -94,6 +92,8 @@ ja tās var uzlikt vienu uz otras tā, ka abas figūras sakrīt
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
+* _readingDifficulty: low
 
 </small>
 
@@ -102,7 +102,6 @@ ja tās var uzlikt vienu uz otras tā, ka abas figūras sakrīt
 Skat. 7. att.
 
 ![](LV.NOL.2023.5.3A.png){ width=200px }
-
 
 
 # <lo-sample/> LV.NOL.2023.5.4
@@ -115,6 +114,8 @@ summu tā, lai katru divu šo skaitļu summa dalītos ar trešo skaitli!
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, NumberPartitions, PositiveIntegers
+* _readingDifficulty: low
 
 </small>
 
@@ -131,7 +132,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-
 # <lo-sample/> LV.NOL.2023.5.5
 
 Ja automātā ievieto sarkanu monētu, tad tas izdod $5$ zilas monētas, 
@@ -144,6 +144,8 @@ sarkanās un zilās monētas, ja sākumā ir dota viena sarkana monēta?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_FixedInvariant
+* _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess
+* _readingDifficulty: medium
 
 </small>
 
@@ -159,8 +161,6 @@ Bet, ja zilās un sarkanās monētas būtu vienādā skaitā,
 tad kopējais monētu skaits būtu pāra skaitlis. Tātad prasītais nav iespējams.
 
 
-
-
 # <lo-sample/> LV.NOL.2023.6.1
 
 Atrodi vienu veidu, kādi naturāli skaitḷi jāievieto $x, y$ un $z$
@@ -174,6 +174,8 @@ būtu patiesa!
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: ContinuedFractions, PositiveIntegers, RationalNumbers
+* _readingDifficulty: low
 
 </small>
 
@@ -192,9 +194,6 @@ no kā iegūstam, ka $y+\frac{1}{z}=\frac{11}{2}$.
 Ievērojot, ka $\frac{11}{2} = 5\frac{1}{2}$, iegūstam, ka $y=5$ un $z=2$.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2023.6.2
 
 Rūķīši mežā ir uzbūvējuši desmit mājiņas un starp tām izveidojuši 
@@ -207,6 +206,8 @@ krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_FixedInvariant
+* _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
+* _readingDifficulty: medium
 
 </small>
 
@@ -224,7 +225,6 @@ tā izejošo līniju skaits.
 ![](LV.NOL.2023.6.2A.png){ width=200px }
 
 
-
 # <lo-sample/> LV.NOL.2023.6.3
 
 Parādi, kā, griežot pa rūtiņu līnijām, 1.att. doto figūru var sagriezt 
@@ -239,6 +239,8 @@ otras tā, ka abas figūras pilnīgi sakrīt (figūras var pagriezt un apmest ot
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: DissectionIntoCongruent, Rotation, AxialSymmetry, LatticeGrid
+* _readingDifficulty: low
 
 </small>
 
@@ -247,7 +249,6 @@ otras tā, ka abas figūras pilnīgi sakrīt (figūras var pagriezt un apmest ot
 Skat., piemēram, 10. att. vai 11. att.
 
 ![](LV.NOL.2023.6.3A.png){ width=250px }
-
 
 
 # <lo-sample/> LV.NOL.2023.6.4
@@ -260,6 +261,8 @@ ar atlikušo skaitli?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, PrimeNumbers, NumberPartitions, PositiveIntegers
+* _readingDifficulty: low
 
 </small>
 
@@ -295,6 +298,8 @@ Vai, vairākkārt izpildot šādus gājienus, no skaitļa $17$ var iegūt:
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
 * subdomain:DOM_FixedInvariant
+* _hasSolutionConcept: Invariant, DivisibilityRules, DigitRepresentation, DivisibilityRelation
+* _readingDifficulty: low
 
 </small>
 
@@ -321,8 +326,6 @@ Tātad arī pēc vairākām operācijām iegūtais skaitlis nedalīsies
 ar $3$. Tas nozīmē, ka skaitli $15$ iegūt nevar, jo tas dalās ar $3$.
 
 
-
-
 # <lo-sample/> LV.NOL.2023.7.1
 
 Vai tukšajās rūtiņās (skat. 1.att.) var ierakstīt pa vienam 
@@ -336,6 +339,8 @@ būtu ierakstīti rūtiņās ar kopīgu malu?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: PositiveIntegers, LatticeGrid, GraphConcept, WalkPathCycle, HamiltonianPath
+* _readingDifficulty: medium
 
 </small>
 
@@ -344,7 +349,6 @@ būtu ierakstīti rūtiņās ar kopīgu malu?
 Atrisinājums. Jā, var, skat. attēlu.
 
 ![](LV.NOL.2023.7.1A.png){ width=150px }
-
 
 
 # <lo-sample/> LV.NOL.2023.7.2
@@ -358,6 +362,8 @@ $5$ citām lampiņām?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_FixedInvariant
+* _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity, SetPartition
+* _readingDifficulty: medium
 
 </small>
 
@@ -391,6 +397,8 @@ un $AD=3$. Pierādīt, ka $CD>2$.
 * questionType:Prove
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
+* _hasSolutionConcept: TriangleInequality, Triangle, Angle, Polygon
+* _readingDifficulty: low
 
 </small>
 
@@ -407,7 +415,6 @@ $DC>DB-BC>3-1=2$.
 ![](LV.NOL.2023.7.3A.png){ width=150px }
 
 
-
 # <lo-sample/> LV.NOL.2023.7.4
 
 Cik ir tādu naturālu skaitļu $n$, kuriem skaitlim $n^{2}$ 
@@ -417,6 +424,8 @@ ir tikpat ciparu, cik skaitlim $n^{3}$?
 
 * questionType:FindCount
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, PositiveIntegers, PerfectSquares, PerfectCubes, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -442,8 +451,6 @@ skaitḷa kuba ciparu skaits ir vismaz par $1$ lielāks nekā šī skaitļa
 kvadrāta ciparu skaits.
 
 
-
-
 # <lo-sample/> LV.NOL.2023.7.5
 
 Kastē atrodas baltas, sarkanas un zaḷas lodītes. Ar vienu gājienu no 
@@ -459,6 +466,8 @@ ja sākumā kastē atrodas:
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_FixedInvariant
+* _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
+* _readingDifficulty: medium
 
 </small>
 
@@ -481,8 +490,6 @@ gājieniem *bs*, *sz*, *bz*, *sz*, *bz*, *bs* pārveidojam par
 situāciju, kad kastē ir $0$ baltas, $0$ sarkanas un $1$ zaļa lodīte.
 
 
-
-
 # <lo-sample/> LV.NOL.2023.8.1
 
 Ieraksti katrā tukšajā rūtiņā (skat. 1.att.) vienu pirmskaitli 
@@ -497,6 +504,8 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, PeriodicSequence, LinearEquation, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -545,6 +554,8 @@ nedraudzējas. Vai var gadīties, ka **(A)** $m=11$, **(B)** $m=10$?
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * subdomain:DOM_FixedInvariant
+* _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, BipartiteGraph, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -576,9 +587,6 @@ nedraudzējas un uzdevuma nosacījumi izpildās.
 ![](LV.NOL.2023.8.2A.png){ width=120px }
 
 
-
-
-
 # <lo-sample/> LV.NOL.2023.8.3
 
 Dots vienādsānu trijstūris $ABC$, kuram $AB = BC$. Uz malas $AB$ 
@@ -590,6 +598,8 @@ ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ le�
 * questionType:FindAll
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
+* _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, TriangleSpecialLines, ParallelPerpendicular
+* _readingDifficulty: low
 
 </small>
 
@@ -628,6 +638,8 @@ pagriezt un apmest otrādi).
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation, AxialSymmetry
+* _readingDifficulty: low
 
 </small>
 
@@ -636,8 +648,6 @@ pagriezt un apmest otrādi).
 Skat. 23.att. vai 24.att.
 
 ![](LV.NOL.2023.8.4A.png){ width=300px }
-
-
 
 
 # <lo-sample/> LV.NOL.2023.8.5
@@ -653,6 +663,8 @@ Cik bieži Mārtiņš satiek Sandri?
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: DirectProportion, VariableExpression, LCM
+* _readingDifficulty: medium
 
 </small>
 
@@ -711,6 +723,8 @@ $x$; $x+2$; $x+4$; $x+6$; $x+8$ vienlaicīgi var būt pirmskaitḷi?
 
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, EvenOddParity, DivisibilityRules, LastDigit, OptimumProofStructure
+* _readingDifficulty: low
 
 </small>
 
@@ -753,6 +767,8 @@ katram rūķim ir tieši $9$ draugi?
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_FixedInvariant
+* _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -776,6 +792,8 @@ Zināms, ka $CD \| BX$. Aprēķināt $AD$ garumu, ja $BX=3, BC=7$ un $CD=6$.
 * questionType:FindAll
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
+* _hasSolutionConcept: ParallelogramProperties, TriangleSimilarity, ParallelPerpendicular, PointLineSegmentRay
+* _readingDifficulty: low
 
 </small>
 
@@ -800,7 +818,6 @@ $\triangle BXC \sim \triangle DCA$ pēc pazīmes $m \ell m$.
 Līdz ar to $AD=2BC=14$ kā atbilstošās malas līdzīgos trijstūros.
 
 
-
 # <lo-sample/> LV.NOL.2023.9.4
 
 Atrast visus tādus reālu skaitļu pārus $(x;y)$, kuriem
@@ -812,6 +829,8 @@ $$\left(x^{4}+1\right)\left(y^{4}+1\right)=4 x^{2} y^{2}$$
 * questionType:FindAll
 * domain:Alg
 * method:MTH_PolynomialTransformations
+* _hasSolutionConcept: IrrationalAndReals, OrderedPair, VariableExpression, SquareOfSumIdentity, NecessarySufficient
+* _readingDifficulty: low
 
 </small>
 
@@ -858,7 +877,6 @@ Tātad vienādojumam ir četri atrisinājumi:
 $(-1;-1)$, $(-1;1)$, $(1;-1)$ un $(1;1)$.
 
 
-
 # <lo-sample/> LV.NOL.2023.9.5
 
 Dabas rezervātā katra koka vecums gados izsakāms kā naturāls skaitlis. 
@@ -874,6 +892,8 @@ negaisa?
 
 * questionType:FindOptimal
 * domain:Alg
+* _hasSolutionConcept: ArithmeticMean, PositiveIntegers, LinearEquation, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -940,8 +960,6 @@ $$\left( \sqrt{4+2 \sqrt{3}}-\sqrt{4-2 \sqrt{3}} \right)^{2} =
 Tā kā skaitḷa kvadrāts ir $4$, tad dotais skaitlis ir racionāls skaitlis.
 
 
-
-
 # <lo-sample/> LV.NOL.2023.10.2
 
 Uz papīra lapas atzīmēti daži punkti tā, ka nekādi trīs punkti 
@@ -978,7 +996,6 @@ uzzīmēts neviens trijstūris, tad punkts $B$ nevar būt savienots
 ne ar vienu citu punktu, kas savienots ar $A$, bet tādā gadījumā 
 nepieciešami vēl vismaz $3$ citi punkti, tas ir, kopā uz lapas 
 ir atzīmēti vismaz $8$ punkti.
-
 
 
 # <lo-sample/> LV.NOL.2023.10.3
@@ -1024,7 +1041,6 @@ $$S_{ABHC} = S_{ABC}-S_{HBC} =
 \frac{1}{2} BC \cdot AH=\frac{1}{2} \cdot 8 \cdot 8=32.$$
 
 
-
 # <lo-sample/> LV.NOL.2023.10.4
 
 Atrast lielāko naturālo skaitli $N$ ar īpašību - katram pirmskaitlim 
@@ -1054,7 +1070,6 @@ tad kāds no trīs skaitļiem: $N+4, N+6, N+14$ nav pirmskaitlis, jo
 * $N+14$ dalās ar $3$, ja $N = 3k+1$, 
 * $N+14$ dalās ar $3$, ja $N=3k+1$,
 * $N+4$ dalās ar $3$, ja $N=3k+2$.
-
 
 
 # <lo-sample/> LV.NOL.2023.10.5
@@ -1118,7 +1133,6 @@ Apskatām visas iespējamās $y$ vērtības.
   Tātad citu iespēju bez sākumā uzrādītajām nav.
 
 
-
 # <lo-sample/> LV.NOL.2023.11.1
 
 Pierādīt, ka $x^{2}+y^{2}+\frac{1}{2} \geq x+y$ visiem reāliem $x$ un $y$.
@@ -1158,7 +1172,6 @@ x^{2}-2 \cdot \frac{1}{2} x+\left(\frac{1}{2}\right)^{2}+y^{2}-2 \cdot \frac{1}{
 
 Tā kā divu kvadrātu summa ir nenegatīva, tad iegūtā nevienādība 
 ir patiesa, tātad arī sākotnējā nevienādība ir patiesa.
-
 
 
 # <lo-sample/> LV.NOL.2023.11.2
@@ -1213,8 +1226,6 @@ iespējamos gadījumus, kādā krāsā var būt nogriežņi $AB$, $AC$ un $AD$.
    aplams un ir tādi trīs rūķi, kas visi savā starpā draudzējas.
 
 
-
-
 # <lo-sample/> LV.NOL.2023.11.3
 
 Dots vienādsānu trijstūris $ABC$, kuram $AB = AC$ un 
@@ -1263,8 +1274,6 @@ $$AE \cdot AF = AD \cdot AC;\quad 2x \cdot 12x=AD \cdot 7x; \quad AD=\frac{24x^{
 
 Tā kā $DC=AC-AD=7x-\frac{24x}{7}=\frac{25x}{7}$, 
 tad $\frac{AD}{DC}=\frac{24}{25}$.
-
-
 
 
 # <lo-sample/> LV.NOL.2023.11.4
@@ -1326,10 +1335,6 @@ Visi iespējamie varianti ir aplūkoti un nevienā gadījumā
 reizinājuma atlikums pēc moduḷa $9$ nav $8$. Tātad esam ieguvuši 
 pretrunu. Līdz ar to nekādu divu secīgu naturālu skaitḷu 
 reizinājums nav izsakāms formā $36n+8$, kur $n$ ir naturāls skaitlis.
-
-
-
-
 
 
 # <lo-sample/> LV.NOL.2023.11.5
@@ -1394,7 +1399,6 @@ $\left\{b_{i}\right\}$ un $\left\{c_{i}\right\}$ vienlaikus nevar
 būt attiecīgi $n-1$ un $n-2$ mazāko naturālo skaitļu permutācijas.
 
 
-
 # <lo-sample/> LV.NOL.2023.12.1
 
 Atrast mazāko reālo skaitli $a$, ar kuru visiem reāliem 
@@ -1431,7 +1435,6 @@ Ja $a=\frac{7}{2}$, tad nevienādība izpildās visiem reāliem $x, y$ un $z$,
 jo triju kvadrātu summa noteikt ir nenegatīvs skaitlis. Tātad 
 $a=\frac{7}{2}$ ir mazākā iespējamā vērtība, ar kuru izpildās dotā 
 nevienādība visiem reāliem skaitliem $x, y, z$.
-
 
 
 # <lo-sample/> LV.NOL.2023.12.2
@@ -1518,7 +1521,6 @@ Dalot abas vienādības puses ar $(AE+BC)$, iegūstam, ka
 $$AD=2AE-\frac{AE^{2}}{AE+BC} \quad \Rightarrow \quad AD<2AE$$
 
 ![](LV.NOL.2023.12.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2023.12.4
@@ -1634,6 +1636,3 @@ konfekšu skaits var būt lielākais $2$ kastēs, pēc otrā gājiena -
 lielākais $2+2=4$ kastēs, pēc trešā gājiena lielākais $4+4=8$ 
 kastēs, $\ldots$, pēc 10. gājiena - lielākais $2^{10}=1024$ kastēs. 
 Tāpēc pēc 10.gājiena visas $2023$ kastes nevar būt tukšas.
-
-
-

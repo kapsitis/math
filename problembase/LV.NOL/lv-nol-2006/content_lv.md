@@ -8,6 +8,8 @@ $B$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, LinearEquation, LinearInequality
+* _readingDifficulty: low
 
 </small>
 
@@ -16,7 +18,6 @@ $B$.
 No uzdevuma nosacījumiem seko: pieskaitot skaitlim $8002$ skaitli $B$ divas 
 reizes, iegūst vismaz $10\ 000$. Tas ir iespējams tikai, ja $B=999$ (ja 
 $B<999$, tad $8002+B+B<10000)$. Tāpēc $B=999$ un $A=8002+999=9001$.
-
 
 
 # <lo-sample/> LV.NOL.2006.5.2
@@ -33,6 +34,8 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, StateSpaceProcess, Invariant, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -56,7 +59,6 @@ tāda vieta. Ar katru gājienu tādu vietu skaits samazinās ne vairāk kā par 
 tāpēc vajag vismaz $5$ gājienus.
 
 
-
 # <lo-sample/> LV.NOL.2006.5.3
 
 Parādīt, ka trijstūri var sagriezt **(A)** četros, **(B)** sešos trijstūros tā,
@@ -67,6 +69,8 @@ griežot iegūtā trijstūra malu.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, PointLineSegmentRay, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -75,7 +79,6 @@ griežot iegūtā trijstūra malu.
 Skat. 1.zīm.
 
 ![](LV.NOL.2006.5.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2006.5.4
@@ -95,6 +98,8 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: OptimumProofStructure, PositiveIntegers, FiniteSet, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -113,7 +118,6 @@ kartiņām un otrai lielākajai vērtībai $c$ - vismaz uz $2$ kartiņām. Tā k
 vismaz $5$ dažādiem skaitļiem, tad nepieciešama vēl $13.$ kartiņa.
 
 
-
 # <lo-sample/> LV.NOL.2006.5.5
 
 Kādā kolbā atrodas pa $10$ baltām, sarkanām un zaļām amēbām. Ja satiekas tieši 
@@ -124,6 +128,8 @@ krāsas amēba. Vai var gadīties, ka traukā paliek tikai viena amēba?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
+* _readingDifficulty: medium
 
 </small>
 
@@ -136,7 +142,6 @@ nevar iestāties situācija, kad divu krāsu amēbu skaits ir $0$, bet trešās
 krāsas amēbu skaits ir $1$.
 
 
-
 # <lo-sample/> LV.NOL.2006.6.1
 
 Vai var uz taisnes izvietot $5$ punktus $A,\ B,\ C,\ D,\ E$ (varbūt citādā 
@@ -146,6 +151,8 @@ kārtībā) tā, ka $AB=1,\ BC=3,\ CD=5,\ DE=7,\ EA=9$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EvenOddParity, Invariant, PointLineSegmentRay
+* _readingDifficulty: medium
 
 </small>
 
@@ -155,7 +162,6 @@ Nē, nevar, Ejot no $A$ uz $B$, no $B$ uz $C$, no $C$ uz $D$, no $D$ uz $E$ un
 no $E$ uz $A$, katru nostaigāto taisnes gabalu nostaigā pāra skaitu reižu (cik 
 reizes pa labi, tik reizes pa kreisi). Tāpēc kopējam nostaigātajam ceļam 
 jāizsakās ar pāra skaitli. Bet $1+3+5+7+9=25$
-
 
 
 # <lo-sample/> LV.NOL.2006.6.2
@@ -170,6 +176,8 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, BinaryRelation, FiniteSet, ExistenceVsUniversal
+* _readingDifficulty: high
 
 </small>
 
@@ -181,7 +189,6 @@ visi pazīst viens otru. Eksistē tāds $t$, kas pazīst $x,\ y$ un $z$; tātad
 $x,\ y,\ z,\ t$ visi pazīst cits citu. Atlikušajiem $3$ cilvēkiem eksistē kāds,
 kas pazīst tos visus (šis "kāds" ir viens no $x,\ y,\ z,\ t$); tas der par 
 meklējamo cilvēku.
-
 
 
 # <lo-sample/> LV.NOL.2006.6.3
@@ -199,6 +206,8 @@ $n=11$, **(B)** $n=13$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PerfectSquares, Permutation, ProofByContradiction, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -210,7 +219,6 @@ $11$ arī var atrasties tikai $5$. Bet $5$ nevar reizē atrasties $2$ kolonnās.
 **(B)** jā, skat. 2.zīm.
 
 ![](LV.NOL.2006.6.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2006.6.4
@@ -226,6 +234,8 @@ viena santīma monētās?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: StateSpaceProcess, Invariant, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -233,7 +243,6 @@ viena santīma monētās?
 
 Nē. Pēdējā maiņā būtu jāiegūst četras $1$ santīma monētas, samainot vienu $4$ 
 santīmu monētu; bet tādas vispār nav.
-
 
 
 # <lo-sample/> LV.NOL.2006.6.5
@@ -246,6 +255,8 @@ dalītājs. Kāds var būt šis mazākais skaitlis?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, EvenOddParity, DivisibilityRules, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -269,7 +280,6 @@ piemēram, $3;\ 9;\ 18;\ 27;\ 645$) un $A=9$ (var ņemt, piemēram,
 $9;\ 18;\ 27;\ 36;\ 45$).
 
 
-
 # <lo-sample/> LV.NOL.2006.7.1
 
 Plaknē atzīmēti $5$ punkti. Cik var būt trijstūru, kam visas virsotnes atrodas 
@@ -279,6 +289,8 @@ Plaknē atzīmēti $5$ punkti. Cik var būt trijstūru, kam visas virsotnes atro
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, PointLineSegmentRay, CaseAnalysis, FiniteSet
+* _readingDifficulty: low
 
 </small>
 
@@ -299,7 +311,6 @@ $A;\ B;\ C$ un $A;\ D;\ E$), tad ir $8$ trijstūri.
 $\underline{Atbilde:}$ $0;\ 6;\ 8;\ 9;\ 10$.
 
 
-
 # <lo-sample/> LV.NOL.2006.7.2
 
 Dotas $8$ pēc ārējā izskata vienādas monētas. Ir zināms, ka vai nu visām tām 
@@ -311,6 +322,8 @@ no iespējām pastāv īstenībā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -322,7 +335,6 @@ tām $4$, kas pirmajā svēršanā atradās uz viena kausa. Ja līdzsvara nav, i
 dažādu masu monētas. Ja līdzsvars ir, uzliekam uz kausiem pa $1$ monētai no 
 tām, kas otrajā svēršanā atradās uz viena kausa. Ja līdzsvara nav, ir divu 
 dažādu masu monētas. Ja līdzsvars ir, visām monētām ir vienādas masas.
-
 
 
 # <lo-sample/> LV.NOL.2006.7.3
@@ -338,6 +350,8 @@ skaitlis nebūtu divu citu izvēlēto skaitļu starpība?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSet, PositiveIntegers, PigeonholePrinciple, TotalOrder, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -354,7 +368,6 @@ $203>201$, tad divi no apskatāmajiem skaitļiem ir vienādi savā starpā. Skai
 ka var būt tikai $x_{i}=x_{1}+x_{j}$, no kurienes seko $x_{1}=x_{i}-x_{j}$.
 
 
-
 # <lo-sample/> LV.NOL.2006.7.4
 
 Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju summu?
@@ -365,6 +378,8 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 * topic:NumTheoryInequalityLargeIntervals
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PositiveIntegers, NecessarySufficient
+* _readingDifficulty: low
 
 </small>
 
@@ -387,7 +402,6 @@ $\frac{n}{6}$. Lai tādi dalītāji eksistētu, nepieciešams un pietiekams, lai
 dalītos ar $6$.
 
 
-
 # <lo-sample/> LV.NOL.2006.7.5
 
 Kādā ciemā dzīvo $n$ pļāpas; katrai mājās ir telefons. Šodien katra pļāpa 
@@ -399,6 +413,8 @@ piezvanīja $B,\ B$ piezvanīja $C$ un $C$ piezvanīja $A$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DirectedGraph, GraphConcept, VertexDegree, PigeonholePrinciple, WalkPathCycle
+* _readingDifficulty: high
 
 </small>
 
@@ -415,7 +431,6 @@ būtu vismaz par $1$ vairāk nekā $B$ veikto zvanu). Ja $A$ nav zvanījusi $C$,
 tad $C$ ir zvanījusi $A$. Vajadzīgās $3$ pļāpas ir atrastas.
 
 
-
 # <lo-sample/> LV.NOL.2006.8.1
 
 Ir zināms, ka visiem $x$ pastāv vienādība 
@@ -428,6 +443,8 @@ operāciju palīdzību. Atrast $A$.
 * topic:CompletingSquare
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, DiffOfSquaresFactoring
+* _readingDifficulty: low
 
 </small>
 
@@ -437,8 +454,6 @@ $x^{4}+64=\left(x^{2}-4x+8\right)\left(x^{2}+4x+8\right)$.
 
 *Piezīme:* Kreisajai pusei var pieskaitīt un atņemt $16x^2$, tad atdalīt pilno kvadrātu
 un dalīt reizinātājos pēc kvadrātu starpības formulas.
-
-
 
 
 # <lo-sample/> LV.NOL.2006.8.2
@@ -455,6 +470,8 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleInequality, GamePosition, WinningLosingPositions, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -474,7 +491,6 @@ $\frac{b-x}{2} \geq z \Leftrightarrow b-x \geq 2 z$. Pēdējā nevienādība ir
 pareiza, jo $b-x \geq a-x=y+z \geq 2z$.
 
 
-
 # <lo-sample/> LV.NOL.2006.8.3
 
 Vai var izrakstīt rindā visus naturālos skaitļus no $1$ līdz $2006$ ieskaitot 
@@ -487,6 +503,8 @@ ar $4$?
 * topic:CongruenceClasses
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: ModularArithmetic, DivisibilityRelation, FiniteSequenceArrangement, PigeonholePrinciple
+* _readingDifficulty: low
 
 </small>
 
@@ -503,7 +521,6 @@ reizes, bet atlikumi $3$ un $0$ - $501$ reizi.
 t.i. viens no atlikumiem neparādīsies vispār.
 
 
-
 # <lo-sample/> LV.NOL.2006.8.4
 
 Par stūrīti sauc no $3$ vienādiem kvadrātiem sastāvošu figūru, kas redzama 
@@ -518,6 +535,8 @@ Vai taisnstūri ar izmēriem **(A)** $8 \times 8$, **(B)** $12 \times 12$,
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, DivisibilityRelation, QuadrilateralFamilies
+* _readingDifficulty: low
 
 </small>
 
@@ -533,7 +552,6 @@ bet katru šādu taisnstūri divos stūrīšosos.
 ![](LV.NOL.2006.8.4A.png)
 
 
-
 # <lo-sample/> LV.NOL.2006.8.5
 
 Uz katras no $100$ kartiņām ir pa naturālam skaitlim no $1$ līdz $100$ 
@@ -547,6 +565,8 @@ kartiņas ar skaitli $13$. Cik kartiņu ir Maijai?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, MultiplesSet, FiniteSet, ProofByContradiction, CaseAnalysis
+* _readingDifficulty: high
 
 </small>
 
@@ -576,7 +596,6 @@ Maijai ir $93$ pārējās kartiņas.
 nepieciešama)
 
 
-
 # <lo-sample/> LV.NOL.2006.9.1
 
 Kādā kolektīvā katram cilvēkam ir tieši $3$ draugi (ja $A$ ir $B$ draugs, tad 
@@ -587,6 +606,8 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, VertexDegree, OptimumProofStructure, BinaryRelation
+* _readingDifficulty: medium
 
 </small>
 
@@ -602,7 +623,6 @@ ne $D$, tad ir vismaz vēl divi citi cilvēki - $B$ draugi, no kurienes seko
 vajadzīgais.
 
 
-
 # <lo-sample/> LV.NOL.2006.9.2
 
 Dots, ka $ABCD$ - paralelograms. Taisne $t$ ir paralela diagonālei $BD$ un 
@@ -616,6 +636,8 @@ $ABCD$ - kvadrāts (protams, iegūto punktu skaits tad būs mazāks).
 
 * questionType:
 * domain:
+* _hasSolutionConcept: ParallelogramProperties, Triangle, ParallelPerpendicular
+* _readingDifficulty: low
 
 </small>
 
@@ -634,7 +656,6 @@ vajadzīgais.
 
 (Speciālajā kvadrāta gadījumā vajadzīgais seko arī, piemēram, no simetrijas dēļ
 spēkā esošās vienādības $\triangle BMC=\Delta DKC$.)
-
 
 
 # <lo-sample/> LV.NOL.2006.9.3
@@ -658,6 +679,8 @@ $$\left\{\begin{array}{l}
 
 * questionType:
 * domain:
+* _hasSolutionConcept: IrrationalAndReals, EquationSystem, WholeIntegers, VariableExpression
+* _readingDifficulty: low
 
 </small>
 
@@ -677,7 +700,6 @@ puses, skaidrs, ka jebkurš vienādu skaitļu trijnieks $(a;a;a)$ der par
 atrisinājumu.
 
 
-
 # <lo-sample/> LV.NOL.2006.9.4
 
 Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
@@ -692,6 +714,8 @@ Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, CoprimeIntegers, LCM, PositiveIntegers
+* _readingDifficulty: low
 
 </small>
 
@@ -704,7 +728,6 @@ $5 \cdot 7 \cdot 9 \cdot 11=3465$. Tā kā $1 \leq x \leq 2006$, tad
 $3 \leq 2x-5 \leq 4007$. Šajās robežās ar $3465$ dalās tikai $0$ un $3465$. Bet
 $2x-5=0$ naturālam $x$ nav iespējams, tāpēc $2x-5=3465$ un 
 $\mathbf{x}=\mathbf{1735}$.
-
 
 
 # <lo-sample/> LV.NOL.2006.9.5
@@ -722,6 +745,8 @@ spēlējot?
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: GamePosition, WinningLosingPositions, FiniteSet, PositiveIntegers
+* _readingDifficulty: medium
 
 </small>
 
@@ -744,7 +769,6 @@ brīdī, kad zaudētājs uzrakstījis $500$, uz tāfeles atrodas $997$ skaitļi
 viņš zaudē.
 
 Gadījumu, ja "zaudējošais gājiens" ir $999$ uzrakstīšana, analizē līdzīgi.
-
 
 
 # <lo-sample/> LV.NOL.2006.10.1
@@ -792,7 +816,6 @@ $d=3$. Atliek $e=f=1$ (lai parādītos pirmskaitlis $11$).
 $\underline{Atbilde:}$ $\mathbf{619737131179}$.
 
 
-
 # <lo-sample/> LV.NOL.2006.10.2
 
 Katram no diviem vienādiem regulāriem $n$-stūriem virsotnes kaut kādā kārtībā 
@@ -833,7 +856,6 @@ otrā $2006$-stūrī ir pretējā virsotnē skaitlim $x$. Tad skaitļi $x,\ y,\ 
 meklējamie: abi ar tiem sanumurētie trijstūri ir taisnleņķa.
 
 
-
 # <lo-sample/> LV.NOL.2006.10.3
 
 Dots, ka $a,\ b$ un $c$ - pozitīvi skaitļi. Pierādīt, ka vismaz viens no 
@@ -853,7 +875,6 @@ Varam pieņemt, ka $a$ ir mazākais no skaitļiem $a;\ b;\ c$. Tad
 $\frac{a}{bc+1} \leq \frac{a}{a^{2}+1}$. Nevienādība 
 $\frac{a}{a^{2}+1} \leq \frac{1}{2}$ ir pareiza, jo 
 $(a-1)^{2} \geq 0 \Rightarrow a^{2}+1 \geq 2a$.
-
 
 
 # <lo-sample/> LV.NOL.2006.10.4
@@ -895,7 +916,6 @@ $\sphericalangle CB_{1}P=\sphericalangle CA_{1}P=90^{\circ}$, t.i., $P$ ir
 $\triangle ABC$ augstumu krustpunkts.
 
 
-
 # <lo-sample/> LV.NOL.2006.10.5
 
 Ir $2006$ pēc ārējā izskata vienādas monētas. Dažas (vismaz viena) ir īstas un 
@@ -932,7 +952,6 @@ vismaz vienu monētu no pāra $(C,\ D)$, kura ir viltota. Tagad izveidojam pāri
 izmantotas $1+1002+1=1004$ svēršanas.
 
 
-
 # <lo-sample/> LV.NOL.2006.11.1
 
 Doti $6$ viens otram sekojoši naturāli skaitļi. Pierādīt: eksistē pirmskaitlis,
@@ -954,7 +973,6 @@ $n+1;\ n+2;\ n+3;\ n+4$ nedalās ar $5$; divi no tiem (to starpība ir $2$)
 nedalās ar $2$; vismaz viens no šiem abiem nedalās ar $3$. Šis skaitlis tāpēc 
 dalās ar kādu pirmskaitli $p,\ p>5$; tātad $p \geq 7$. Bet no $6$ pēc kārtas 
 ņemtiem skaitļiem tikai viens var dalīties ar $p$, ja $p>6$.
-
 
 
 # <lo-sample/> LV.NOL.2006.11.2
@@ -1000,7 +1018,6 @@ $k \geq 2(n-k),\ 3k \geq 2n-1$, $k \geq \frac{2n-1}{3}$.
 ![](LV.NOL.2006.11.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2006.11.3
 
 Stars $t$ ir $\triangle ABC$ leņķa $A$ bisektrise. Tā krusto malu $BC$ punktā 
@@ -1029,7 +1046,6 @@ $\sphericalangle NCK=\sphericalangle NSK$. No šejienes seko vajadzīgais (skat.
 10.zīm.).
 
 ![](LV.NOL.2006.11.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2006.11.4
@@ -1066,7 +1082,6 @@ Ja $f(x)-x^{2}-x$ ir augoša apgabalos $[0;\ 1]$ un $[1;\ \infty)$, tad tā ir
 augoša arī apgabalā $[0;\ \infty)$
 
 
-
 # <lo-sample/> LV.NOL.2006.11.5
 
 Andrim, Dzintaram un Gunāram ir liels daudzums zīmīšu. Uz katras zīmītes ir 
@@ -1101,7 +1116,6 @@ iepriekšējā secina, ka viņam uz pieres ir $x$ ($x$ ir viens no skaitļiem
 $2;\ 3;\ 5;\ 6;\ 7;\ 8)$.
 
 
-
 # <lo-sample/> LV.NOL.2006.12.1
 
 Koordinātu plaknē uzzīmēts funkcijas $y=x^{4}-2x^{2}+7$ grafiks un taisne, kas 
@@ -1128,7 +1142,6 @@ Apzīmējot krustpunktu abscisas ar $x_{1};\ x_{2};\ x_{3};\ x_{4}$, no Bezū
 teorēmas seko, ka kreisā puse identiski vienāda ar 
 $\left(x-x_{1}\right)\left(x-x_{2}\right)\left(x-x_{3}\right)\left(x-x_{4}\right)$.
 Pielīdzinot koeficientus pie $x^{3}$, iegūstam vajadzīgo.
-
 
 
 # <lo-sample/> LV.NOL.2006.12.2
@@ -1178,7 +1191,6 @@ un ir $\leq 5$ deputāti, pret kuriem viņam ir aizspriedumi). Tātad $A$ var
 pievienot vismaz $1$ komisijai. Induktīvā pāreja izdarīta.
 
 
-
 # <lo-sample/> LV.NOL.2006.12.3
 
 Kuriem pirmskaitļiem $p$ piemīt īpašība: skaitlim $p^{2}+11$ ir mazāk nekā $11$
@@ -1201,7 +1213,6 @@ $p^{2}+11=12a$, kur $a \geq 12$ (jo $p^{2}+11>11^{2}+11=12 \cdot 11$). Šim
 skaitlim ir vismaz $11$ dažādi dalītāji 
 $1;\ 2;\ 3;\ 4;\ 6;\ 12;\ 2a;\ 3a;\ 4a;\ 6a;\ 12a$. Tātad šie $p$ neapmierina 
 uzdevuma prasības.
-
 
 
 # <lo-sample/> LV.NOL.2006.12.4
@@ -1228,7 +1239,6 @@ tad ap $PDMS$ var apvilkt riņķa līniju. Tā kā $\sphericalangle DMS=90^{\cir
 $\sphericalangle DPS=90^{\circ}$. Tāpēc $\mathbf{PS} \perp \mathbf{BD}$. 
 Līdzīgi pierāda, ka $\mathbf{RQ} \perp \mathbf{AC}$. No izceltajiem faktiem 
 seko vajadzīgais, jo $BD \perp AC$.
-
 
 
 # <lo-sample/> LV.NOL.2006.12.5
@@ -1267,4 +1277,3 @@ Ja turpretī skaitlim $n$ ir kāds nepāra pirmskaitlis $p$, ar kuru $n$ dalās,
 tad $(p+1)$-ā spuldze (uzskatot $S$ par pirmo spuldzi) tiks "aizskārta" tieši 
 divas reizes (sērijās, kas atbilst $n$ dalītājiem $1$ un $p$) un tāpēc beigās 
 paliks izslēgta.
-

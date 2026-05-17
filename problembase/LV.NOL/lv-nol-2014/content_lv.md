@@ -11,6 +11,8 @@ citu!)
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: Polygon, QuadrilateralFamilies, LatticeGrid, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -25,7 +27,6 @@ $16-2=14,\ 16-4=12$ vai $16-6=10$.
 ![](LV.NOL.2014.5.1A.png)
 
 
-
 # <lo-sample/> LV.NOL.2014.5.2
 
 Naturālā vienpadsmitciparu skaitlī vienādus ciparus aizstāja ar vienādiem 
@@ -37,6 +38,8 @@ pamatot!
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, EvenOddParity, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -59,7 +62,6 @@ $9$. Tā kā $S$ ir pāra skaitlis, tad cipars $9$ neder.
 Tātad ar burtu $S$ ir aizstāts cipars $0$.
 
 
-
 # <lo-sample/> LV.NOL.2014.5.3
 
 No četrciparu skaitļa $A$ atņemot trīsciparu skaitli $B$, iegūst $8002$. Šos 
@@ -70,6 +72,8 @@ $B$.
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: DigitRepresentation, LinearEquation, LinearInequality
+* _readingDifficulty: low
 
 </small>
 
@@ -84,7 +88,6 @@ $999$ un pamatojot, ka mazāki trīsciparu skaitļi uzdevuma nosacījumus
 neapmierina.
 
 
-
 # <lo-sample/> LV.NOL.2014.5.4
 
 Grāmatas lappuses ir sanumurētas ar naturāliem skaitļiem no $1$ līdz $2014$ pēc
@@ -94,6 +97,8 @@ kārtas. Cik lappušu numuros ir sastopams cipars $7$?
 
 * questionType:FindCount
 * domain:Comb
+* _hasSolutionConcept: DigitRepresentation, CountingProductRule, CountingSumRule
+* _readingDifficulty: low
 
 </small>
 
@@ -136,7 +141,6 @@ Tātad no $1.$ līdz $2014.$ lappusei cipars $7$ ir sastopams $543$ lappušu
 numuros.
 
 
-
 # <lo-sample/> LV.NOL.2014.5.5
 
 Doti $99$ punkti, daži no šiem punktiem savienoti ar nogriežņiem. Vai var būt 
@@ -146,6 +150,8 @@ tā, ka no katra punkta iziet nepāra skaits nogriežņu?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
+* _readingDifficulty: medium
 
 </small>
 
@@ -155,7 +161,6 @@ Pieņemsim, ka tā var būt. Tad no katra no $99$ punktiem iziet nepāra skaits
 nogriežņu. Tātad kopējais nogriežņu galapunktu skaits ir nepāra skaitlis, bet 
 tas ir pretrunā ar to, ka nogrieznim ir tieši divi galapunkti. Tātad uzdevumā 
 aprakstītā situācija nav iespējama.
-
 
 
 # <lo-sample/> LV.NOL.2014.6.1
@@ -171,13 +176,14 @@ b. noapaļojot $2 \cdot a,\ 4 \cdot a,\ 6 \cdot a$ līdz veselam skaitlim,
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, LinearInequality, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
 ## Atrisinājums
 
 Var pārbaudīt, ka der, piemēram, skaitlis $a=0,49$. Der arī citas $a$ vērtīas.
-
 
 
 # <lo-sample/> LV.NOL.2014.6.2
@@ -192,6 +198,8 @@ laukums var būt mazāks par $10$ rūtiņām?
 * questionType:ProveDisprove
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: LatticeGrid, FiniteSet, SetPartition, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -200,7 +208,6 @@ laukums var būt mazāks par $10$ rūtiņām?
 Piemēram, skat. A2.zīm.
 
 ![](LV.NOL.2014.6.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2014.6.3
@@ -218,6 +225,8 @@ dažādi cipari.
 
 * questionType:FindExample,FindExample
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, ExistenceVsUniversal, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -226,7 +235,6 @@ dažādi cipari.
 Der, piemēram,  
 **(A)** $1 \cdot 333=333$ un $2 \cdot 222=444$;  
 **(B)** $3 \cdot 25=75$ un $4 \cdot 16=64$.
-
 
 
 # <lo-sample/> LV.NOL.2014.6.4
@@ -238,6 +246,8 @@ kārtas. Cik lappušu numuros ir sastopams vismaz viens no cipariem $3$ vai $7$?
 
 * questionType:FindCount
 * domain:Comb
+* _hasSolutionConcept: DigitRepresentation, CountingProductRule, SetDifference
+* _readingDifficulty: low
 
 </small>
 
@@ -285,7 +295,6 @@ Tātad no $1.$ līdz $2014.$ lappusei cipars $3$ vai $7$ ir sastopams $979$
 lappušu numuros.
 
 
-
 # <lo-sample/> LV.NOL.2014.6.5
 
 Uz tāfeles rindā uzrakstīti naturālie skaitļi no $1$ līdz $20$. Roberts izvēlas
@@ -300,6 +309,8 @@ jebkurus divus no tiem, nodzēš tos un rindas galā uzraksta šo skaitļu starp
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess, PositiveIntegers
+* _readingDifficulty: medium
 
 </small>
 
@@ -326,7 +337,6 @@ Sākotnējo skaitļu summa $210$ ir pāra skaitlis; tātad rezultātā nevar ieg
 nepāra skaitli $1$.
 
 
-
 # <lo-sample/> LV.NOL.2014.7.1
 
 $$\square \cdot x+ \square = \square$$
@@ -345,6 +355,8 @@ tukšajā rūtiņā. Pierādīt, ka Ariadne var panākt jebkuru no trim situāci
 
 * questionType:Prove,Prove,Prove
 * domain:Alg
+* _hasSolutionConcept: LinearEquation, GamePosition, CaseAnalysis, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -369,7 +381,6 @@ Ariadnei jāieraksta citāds nekā Eleonoras ierakstītais.
 pašam kā Eleonoras ierakstītajam.
 
 
-
 # <lo-sample/> LV.NOL.2014.7.2
 
 Uz taisnā leņķa $KLM$ malām atlikti punkti $X$ un $Y$ (katrs uz savas malas); 
@@ -380,6 +391,8 @@ Pierādīt, ka $OX=OY$.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: Angle, ParallelPerpendicular, TriangleCongruence, TriangleSpecialLines
+* _readingDifficulty: low
 
 </small>
 
@@ -407,7 +420,6 @@ Tad $\triangle XAO=\triangle YBO$ (pēc pazīmes " $\ell m \ell$ "):
 Līdz ar to $OX=OY$ kā vienādu trijstūru atbilstošās malas.
 
 
-
 # <lo-sample/> LV.NOL.2014.7.3
 
 Cik starp pirmajiem $2014$ naturālajiem skaitļiem ir tādu skaitļu $x$, ka 
@@ -419,6 +431,8 @@ skaitlis $x(x+1)(x+2)$ dalās ar $87$?
 * topic:MultiplesInInterval
 * questionType:FindCount
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, PrimeNumbers, MultiplesSet, CountingSumRule
+* _readingDifficulty: low
 
 </small>
 
@@ -454,8 +468,7 @@ Bet tā kā ar $29$ drīkst dalīties arī $x+1$ vai $x+2$, tad der arī $x=28,5
 un arī $x=27,56,85,114,\ldots$. Tāpēc atrisinājumu ir trīsreiz vairāk nekā $69$. 
 To pavisam ir $3 \cdot 69 = 207$.
  
-Tādu $x$ ir trīsreiz vairāk kā $\left\lfloor 2014/29 \right\rfloor$. 
-
+Tādu $x$ ir trīsreiz vairāk kā $\left\lfloor 2014/29 \right\rfloor$.
 
 
 # <lo-sample/> LV.NOL.2014.7.4
@@ -471,6 +484,8 @@ apmeklētājiem ir kļūdījies.
 
 * questionType:Prove
 * domain:Comb
+* _hasSolutionConcept: GraphConcept, VertexDegree, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -481,7 +496,6 @@ uzrakstīts tieši vienu reizi. Tas, kurš uzrakstīja $0$, nepazina nevienu cit
 ballītes dalībnieku un, tātad, arī viņu neviens nepazina. Tas nozīmē, ka 
 nevarēja būt dalībnieks, kas pazīst $N-1$ dalībnieku (visus, izņemot sevi). 
 Tātad vismaz viens no ballītes apmeklētājiem kļūdījās.
-
 
 
 # <lo-sample/> LV.NOL.2014.7.5
@@ -497,6 +511,8 @@ maršruts drīkst saturēt augstākais vienu pagriezienu.
 
 * questionType:FindOptimal
 * domain:Comb
+* _hasSolutionConcept: LatticeGrid, GraphConcept, ConnectedGraph, OptimumProofStructure, PigeonholePrinciple
+* _readingDifficulty: medium
 
 </small>
 
@@ -513,7 +529,6 @@ vertikāles (skat. A4.zīm.).
 ![](LV.NOL.2014.7.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2014.8.1
 
 Dots, ka $a+b+c=0$ un $a \neq 0$. Pierādīt, ka vienādojumam $ax^{2}+bx+c=0$ ir 
@@ -523,6 +538,8 @@ saknes (varbūt vienādas), un izteikt tās, neizmantojot kvadrātsaknes zīmi.
 
 * questionType:Prove
 * domain:Alg
+* _hasSolutionConcept: QuadraticEquation, VietasFormulas, PolynomialAndRoots
+* _readingDifficulty: low
 
 </small>
 
@@ -538,7 +555,6 @@ vai arī
 $x_{1}x_{2}=\frac{c}{a} \Rightarrow \quad x_{1}=1$ un $x_{2}=\frac{c}{a}$
 
 
-
 # <lo-sample/> LV.NOL.2014.8.2
 
 Taisnstūra $ABCD$ diagonāle $BD$ ir taisnstūra $BDEF$ mala, punkts $C$ atrodas 
@@ -548,6 +564,8 @@ uz $EF$. Malas $BC$ viduspunkts ir $G$. Pierādīt, ka $AG=EG$.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: QuadrilateralFamilies, ParallelPerpendicular, PointLineSegmentRay, TriangleSpecialLines
+* _readingDifficulty: low
 
 </small>
 
@@ -570,7 +588,6 @@ Esam ieguvuši, ka $AG=DG=GE$, kas arī bija jāpierāda.
 ![](LV.NOL.2014.8.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2014.8.3
 
 Cik ir tādu piecciparu skaitļu, kuru pierakstā ir vismaz viens nepāra cipars?
@@ -581,6 +598,8 @@ Cik ir tādu piecciparu skaitļu, kuru pierakstā ir vismaz viens nepāra cipars
 * topic:CountingSetDifference
 * questionType:FindCount
 * domain:Comb
+* _hasSolutionConcept: DigitRepresentation, EvenOddParity, CountingProductRule, SetDifference
+* _readingDifficulty: low
 
 </small>
 
@@ -612,7 +631,6 @@ $4 \cdot 5^4 = 2500$.
 Visu pārējo skaitļu, kuros ir vismaz viens nepāra cipars būs $90000 - 2500$.
 
 
-
 # <lo-sample/> LV.NOL.2014.8.4
 
 Uz ballīti ieradās $N(N>1)$ cilvēki un ballītes beigās katrs uz lapiņas 
@@ -625,6 +643,8 @@ uzrakstīti nepāra skaitļi, ja **(A)** $N=2014$, **(B)** $N=2401$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
+* _readingDifficulty: medium
 
 </small>
 
@@ -639,7 +659,6 @@ iesaistītie - $A$ pazīst $B$ un $B$ pazīst $A$). Nepāra skaita nepāru skait
 summa ir nepāra skaitlis, tāpēc šāda situācija nav iespējama.
 
 
-
 # <lo-sample/> LV.NOL.2014.8.5
 
 Trijstūra virsotnes atrodas kvadrātiska rūtiņu režģa punktos. Pierādīt, ka kāda
@@ -650,6 +669,8 @@ rūtiņas centru.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: EvenOddParity, CoordinatePlane, LatticeGrid, Triangle, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -683,7 +704,6 @@ Iespējami divi gadījumi:
   esam pierādījuši prasīto.
 
 
-
 # <lo-sample/> LV.NOL.2014.9.1
 
 Vai vienādojumam $2x^{2}+a^{2}+b^{2}=2x \cdot(a+b)$ ir atrisinājums, ja $a$ un 
@@ -693,6 +713,8 @@ $b$ ir dažādi skaitļi?
 
 * questionType:ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: QuadraticEquation, SquareOfSumIdentity, ProofByContradiction
+* _readingDifficulty: low
 
 </small>
 
@@ -727,7 +749,6 @@ vienādojumam eksistētu atrisinājums ir gadījums, kad $a=b$.
 Tātad, ja $a$ un $b$ ir dažādi skaitļi, dotajam vienādojumam nav atrisinājuma.
 
 
-
 # <lo-sample/> LV.NOL.2014.9.2
 
 Taisnstūra malu garumi ir veseli skaitļi, tā perimetrs ir par $8$ mazāks nekā 
@@ -737,6 +758,8 @@ taisnstūra laukums. Atrast visus šādus taisnstūrus.
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: QuadrilateralFamilies, WholeIntegers, DivisorsSet, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -757,7 +780,6 @@ Uzdevuma nosacījumus apmierina taisnstūri ar izmēriem
 $3 \times 14,\ 4 \times 8$ un $5 \times 6$.
 
 
-
 # <lo-sample/> LV.NOL.2014.9.3
 
 Atrisināt naturālos skaitļos vienādojumu $3abc+3a+3b=7bc+7$.
@@ -766,6 +788,8 @@ Atrisināt naturālos skaitļos vienādojumu $3abc+3a+3b=7bc+7$.
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, VariableExpression, DivisibilityRelation, CaseAnalysis
+* _readingDifficulty: low
 
 </small>
 
@@ -796,7 +820,6 @@ Līdz ar to esam parādījuši, ka dotajam vienādojumam naturālos skaitļos ir
 vienīgs atrisinājums $a=2,\ b=1$ un $c=2$.
 
 
-
 # <lo-sample/> LV.NOL.2014.9.4
 
 Figūra "sienāzis" apdraud tās rūtiņas, kas tai pieskaras ar stūriem (skat. 
@@ -810,6 +833,8 @@ sienāzi (katru savā rūtiņā) tā, lai tie viens otru neapdraudētu?
 
 * questionType:FindCount
 * domain:Comb
+* _hasSolutionConcept: FiniteSet, CountingSumRule, ExhaustiveCheck, LatticeGrid
+* _readingDifficulty: low
 
 </small>
 
@@ -836,7 +861,6 @@ Tātad kopējais dažādo figūru izvietojumu skaits ir $248+1464+2124=3836$.
 ![](LV.NOL.2014.9.4A.png)
 
 
-
 # <lo-sample/> LV.NOL.2014.9.5
 
 Kvadrāta $ABCD$ malas garums ir $1$; $M$ ir malas $AD$ viduspunkts. Nogriežņi 
@@ -846,6 +870,8 @@ $AC$ un $BM$ krustojas punktā $S$. Aprēķināt trijstūra $ASM$ laukumu.
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: TriangleSimilarity, QuadrilateralFamilies, PointLineSegmentRay, Triangle
+* _readingDifficulty: low
 
 </small>
 
@@ -869,7 +895,6 @@ $S_{ABC}=\frac{1}{2} S_{ABCD}=\frac{1}{2} \cdot 1=\frac{1}{2}$, tad
 $6S_{ASM}=\frac{1}{2}$ jeb $S_{ASM}=\frac{1}{12}$.
 
 ![](LV.NOL.2014.9.5A.png)
-
 
 
 # <lo-sample/> LV.NOL.2014.10.1
@@ -918,9 +943,6 @@ Veicot pārveidojumus un novērtējot, iegūstam prasīto:
 $$x^{7}>\sqrt[3]{2} \cdot 4=\sqrt[3]{2} \cdot \sqrt[3]{64}=\sqrt[3]{128}>\sqrt[3]{125}=5$$
 
 
-
-
-
 # <lo-sample/> LV.NOL.2014.10.2
 
 Pierādīt, ka, izvēloties $52$ no aritmētiskās progresijas 
@@ -965,9 +987,6 @@ $$1, 4, 7, \ldots, 148, 151, 154, \ldots, 298$$
 * Dirihlē princips - divi būs no viena pārīša.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2014.10.3
 
 Piecstūris $ABCDE$ ievilkts riņķa līnijā, nogriežņi $AD$ un $BE$ krustojas 
@@ -1000,7 +1019,6 @@ trijstūris $AEC$ ir vienādsānu un $AC=CE$ kā atbilstošās sānu malas.
 ![](LV.NOL.2014.10.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2014.10.4
 
 Zināms, ka $a_{1}, a_{2}, \ldots, a_{10}$ ir tādi dažādi nepāra naturāli 
@@ -1028,7 +1046,6 @@ mazākie dažādie nepāra naturālie skaitļi, kas apmierina dotās nevienādī
 summas $a_{1}+a_{2}+\ldots+a_{10}$ mazākā iespējamā vērtība ir
 
 $$3+5+7+9+11+13+15+17+19+21=120$$
-
 
 
 # <lo-sample/> LV.NOL.2014.10.5
@@ -1080,7 +1097,6 @@ blakusstāvošu grozu pāri un, ja katrā pārī būtu minimālais konfekšu ska
 $672 \cdot 3=2016$, kas pārsniedz $2014$.
 
 
-
 # <lo-sample/> LV.NOL.2014.11.1
 
 Polinoms $P(x)$, kura visi koeficienti ir veseli skaitļi, piecām veselām $x$ 
@@ -1103,7 +1119,6 @@ Ja $P(n)=2014$, tad $F(n)=14=(n-a)(n-b)(n-c)(n-d)(n-e) R(n)$. Esam ieguvuši, ka
 skaitlis $14$ ir uzrakstīts kā vismaz piecu dažādu veselu skaitļu reizinājums. 
 Iegūta pretruna, jo $14=1 \cdot 2 \cdot 7$ vai $14=1 \cdot 14$. Tātad nav tādas
 veselas $x$ vērtības, pie kuras dotais polinoms pieņem vērtību $2014$.
-
 
 
 # <lo-sample/> LV.NOL.2014.11.2
@@ -1140,7 +1155,6 @@ Ievērojam, ka $\sphericalangle DOB+\sphericalangle AOD=90^{\circ}$ jeb
 $3 \alpha=90^{\circ}$ un $\alpha=\sphericalangle AOD=30^{\circ}$.
 
 
-
 # <lo-sample/> LV.NOL.2014.11.3
 
 Kādiem naturāliem skaitļiem $n$ piemīt šāda īpašība: visu skaitļa $n$ naturālo 
@@ -1172,7 +1186,6 @@ $$a^{2}+b^{2} \geq 2ab>ab=n$$
 kur pirmā nevienādība izriet no patiesas nevienādības $(a-b)^{2} \geq 0$. Līdz 
 ar to saliktiem skaitļiem $n$ apskatāmo dalītāju kvadrātu summa ir lielāka nekā
 $n$.
-
 
 
 # <lo-sample/> LV.NOL.2014.11.4
@@ -1219,7 +1232,6 @@ $$A_{1} \rightarrow A_{2} \rightarrow \cdots \rightarrow A_{i} \rightarrow A_{i+
 Līdz ar to esam pieradījuši uzdevuma prasīto.
 
 
-
 # <lo-sample/> LV.NOL.2014.11.5
 
 Neviens no reāliem skaitļiem $x$, $y$ un $z$ nav nulle un $x+y+z=xyz$. 
@@ -1256,7 +1268,6 @@ patiesa. Tā kā tika veikti ekvivalenti pārveidojumi, tad arī dotā nevienād
 ir patiesa.
 
 
-
 # <lo-sample/> LV.NOL.2014.12.1
 
 Zināms, ka $a>\frac{1}{2}$, $b>\frac{1}{2}$, $c>\frac{1}{2}$ un $x$ ir 
@@ -1276,7 +1287,6 @@ $x^{3}-ax^{2}+bx-c<0$.
 
 Tātad vienādojuma $x^{3}-ax^{2}+bx-c=0$ sakne $x$ nevar būt negatīvs skaitlis 
 un $x \geq 0>-\frac{1}{2}$.
-
 
 
 # <lo-sample/> LV.NOL.2014.12.2
@@ -1317,7 +1327,6 @@ S_{GEHF} & =S_{ADH}+S_{BCG}
 kas arī bija jāpierāda.
 
 
-
 # <lo-sample/> LV.NOL.2014.12.3
 
 Uz tāfeles uzrakstīti visi trīsciparu skaitļi, kas dalās ar $31$:
@@ -1349,7 +1358,6 @@ vienai reizei ir atrodams katrs no cipariem $1$ līdz $9$
 **(B)** Uzdevuma prasīto var izpildīt. Der, piemēram, skaitļi
 
 $$124,\ 248,\ 372,\ 465,\ 496,\ 589,\ 651,\ 713,\ 837,\ 992.$$
-
 
 
 # <lo-sample/> LV.NOL.2014.12.4
@@ -1389,7 +1397,6 @@ nepāra pozīcijām, tad šādas rokassprādzes varēs pārtaisīt par jau kādu
 esošajām.
 
 
-
 # <lo-sample/> LV.NOL.2014.12.5
 
 Vai var atrast tādus $2014$ dažādus naturālus skaiţus 
@@ -1423,4 +1430,3 @@ Skaidrs, ka šādā veidā tiks iegūti $2014$ saskaitāmie un tie visi būs da�
 
 *Piezīme.* Uzdevumu var atrisināt arī izmantojot matemātisko indukciju un 
 vienādību $\frac{1}{m}=\frac{1}{m+1}+\frac{1}{m(m+1)}$.
-

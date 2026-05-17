@@ -7,6 +7,8 @@ ar to reizinājumu?
 
 * questionType:ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: PositiveIntegers, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -18,7 +20,6 @@ Jā, piemēram, $1,1,1,1,1,3,4$.
 *Piezīme.* Uzdevumam ir arī vairāki citi atrisinājumi.
 
 
-
 # <lo-sample/> LV.NOL.2013.5.2
 
 Parādi, kā kvadrātu var sadalīt četros vienādos piecstūros.
@@ -27,6 +28,8 @@ Parādi, kā kvadrātu var sadalīt četros vienādos piecstūros.
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: Polygon, QuadrilateralFamilies, DissectionIntoCongruent
+* _readingDifficulty: low
 
 </small>
 
@@ -38,7 +41,6 @@ Skat., piemēram, 1.zīm.
 ![](LV.NOL.2013.5.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2013.5.3
 
 Izveido sešciparu skaitli, kas dalās ar $7$ un kura pierakstā katrs no cipariem
@@ -48,6 +50,8 @@ $1, 2, 3, 4, 5, 8$ izmantots tieši vienu reizi.
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -61,7 +65,6 @@ dalās ar $7$; $35$ dalās ar $7$. Tātad $140000+2800+35=142835$ dalās ar $7$.
 Uzdevuma prasības apmierina arī daudzi citi skaitļi.
 
 
-
 # <lo-sample/> LV.NOL.2013.5.4
 
 Piecstūra katrā virsotnē ieraksti vienu naturālu skaitli tā, lai katras malas
@@ -73,6 +76,8 @@ lielāks nekā $1$.
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: GCD, PrimeNumbers, CoprimeIntegers, PrimeFactorization, GraphConcept
+* _readingDifficulty: medium
 
 </small>
 
@@ -95,7 +100,6 @@ LKD= $1$.
 *Piezīme.* Uzdevuma atrisinājumam pietiek parādīt vienu pareizu piemēru.
 
 
-
 # <lo-sample/> LV.NOL.2013.5.5
 
 Doti $13$ punkti, daži no šiem punktiem savienoti ar nogriežņiem. Vai var būt
@@ -105,6 +109,8 @@ tā, ka no katra punkta iziet tieši $3$ vai $5$ nogriežņi?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity, ProofByContradiction
+* _readingDifficulty: medium
 
 </small>
 
@@ -118,7 +124,6 @@ nogriežņu. Tātad kopējais nogriežņu galapunktu skaits ir nepāra skaitlis,
 tas ir pretrunā ar to, ka nogrieznim ir tieši divi galapunkti.
 
 
-
 # <lo-sample/> LV.NOL.2013.6.1
 
 Atrodi tādus četrus dažādus naturālus skaitļus $a$, $b, c$, $d$, ka
@@ -128,6 +133,8 @@ $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}+\frac{1}{d}=1$.
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, PositiveIntegers, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -137,7 +144,6 @@ $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}+\frac{1}{d}=1$.
 **Atbilde:** piemēram, $2, 3, 9, 18$.
 
 *Piezīme.* Uzdevumam ir arī vairāki citi atrisinājumi.
-
 
 
 # <lo-sample/> LV.NOL.2013.6.2
@@ -154,6 +160,8 @@ jebkurus divus no tiem, nodzēš tos un rindas galā uzraksta šo skaitļu starp
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess, PositiveIntegers
+* _readingDifficulty: medium
 
 </small>
 
@@ -174,7 +182,6 @@ Sākotnējo skaitļu summa $55$ ir nepāra skaitlis; tātad rezultātā nevar ie
 pāra skaitli $0$.
 
 
-
 # <lo-sample/> LV.NOL.2013.6.3
 
 Vai plaknē var uzzīmēt
@@ -189,6 +196,8 @@ un riņķa līniju, kas krusto uzzīmētā daudzstūra katru malu tieši vienā 
 
 * questionType:ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: Polygon, CircleAndDisk, EvenOddParity, Invariant
+* _readingDifficulty: low
 
 </small>
 
@@ -214,7 +223,6 @@ $A_{1}A_{13}$ riņķa līnija nekrusto.
 ![](LV.NOL.2013.6.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2013.6.4
 
 Atrast nenulles ciparus (ne obligāti dažādus):
@@ -234,6 +242,8 @@ $y$ *simti,* $z$ *desmiti un* $t$ *vieni.*)
 
 * questionType:FindExample,FindExample,FindExample
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisibilityRules
+* _readingDifficulty: low
 
 </small>
 
@@ -251,7 +261,6 @@ skaitli, var iegūt skaitli $1125$, kas apmierina uzdevuma prasības.
 *Piezīme. Uzdevumam katrā apakšpunktā ir arī vairāki citi atrisinājumi.*
 
 
-
 # <lo-sample/> LV.NOL.2013.6.5
 
 Vai kvadrātā $6 \times 6$ rūtiņas var iekrāsot **(A)** $7$ rūtiņas; **(B)** $6$
@@ -266,6 +275,8 @@ Figūra var tikt novietota tikai tā, lai tās malas ietu pa rūtiņu līnijām.
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: Tiling, Coloring, LatticeGrid, Rotation
+* _readingDifficulty: medium
 
 </small>
 
@@ -282,7 +293,6 @@ citi veidi, kā var iekrāsot $7$ rūtiņas.
 ![](LV.NOL.2013.6.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2013.7.1
 
 Naturālie skaitļi no $1$ līdz $18$ sadalīti pa pāriem tā, ka katrā pārī esošo
@@ -296,6 +306,8 @@ skaitļu summa ir naturāla skaitļa kvadrāts. Ar ko pārī apvienots skaitlis 
 * topic:BipartiteGraphs
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PerfectSquares, ExhaustiveCheck, SetPartition
+* _readingDifficulty: low
 
 </small>
 
@@ -347,10 +359,6 @@ pakāpeniski secinām:
 * $(1,15)$ (jo $1+3 = 4$ vairs nevar dabūt).
 
 
-
-
-
-
 # <lo-sample/> LV.NOL.2013.7.2
 
 Cik starp pirmajiem $2013$ naturālajiem skaitļiem ir tādu skaitļu $x$, ka
@@ -363,6 +371,8 @@ skaitlis $x(x+1)(x+2)$ dalās ar $111$?
 * seeAlso:LV.NOL.2014.7.3
 * questionType:FindCount
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, PositiveIntegers, CountingSumRule
+* _readingDifficulty: low
 
 </small>
 
@@ -385,8 +395,7 @@ t.i., pavisam ir $54+54+54=162$ tādi skaitļi $x$, ka $x(x+1)(x+2)$ dalās ar $
 ## Atrisinājums
  
 $x(x+1)(x+2)$ vienmēr dalās ar $3$, bet tam jādalās arī ar $37$. 
-Tādu $x$ ir trīsreiz vairāk kā $\left\lfloor 2013/37 \right\rfloor$. 
-
+Tādu $x$ ir trīsreiz vairāk kā $\left\lfloor 2013/37 \right\rfloor$.
 
 
 # <lo-sample/> LV.NOL.2013.7.3
@@ -398,6 +407,8 @@ atrodas uz vienas taisnes?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: Polygon, PointLineSegmentRay, PigeonholePrinciple, ProofByContradiction, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -415,7 +426,6 @@ tās visas atrodas uz vienas taisnes- pretruna.
 ![](LV.NOL.2013.7.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2013.7.4
 
 Vai pa riņķi var uzrakstīt $13$ naturālus skaitļus tā, lai jebkuru blakus esošu
@@ -426,6 +436,8 @@ skaitļu starpība būtu $6, 10, 14$ vai $18$?
 * topic:InvariantRemainder
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: EvenOddParity, Invariant, ModularArithmetic, PositiveIntegers, ProofByContradiction
+* _readingDifficulty: low
 
 </small>
 
@@ -448,8 +460,6 @@ Skaitļu atlikums, dalot ar $4$, palielinās par $2$ katrā solī. Pēc $13$ so�
 būtu jāpaliek tam pašam. Iegūta pretruna.
 
 
-
-
 # <lo-sample/> LV.NOL.2013.7.5
 
 Vienādmalu trijstūris ar malas garumu $4$ sadalīts $16$ vienādos trijstūros
@@ -465,6 +475,8 @@ malas garumu $2$ un kuros ierakstīto skaitļu summa ir vismaz $18$.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: PigeonholePrinciple, Triangle, DissectionIntoCongruent, ArithmeticMean
+* _readingDifficulty: low
 
 </small>
 
@@ -479,8 +491,6 @@ piecinieki, tāpēc tajā ierakstīto skaitļu summa būs vismaz $5+5+5+3=18$, k
 ![](LV.NOL.2013.7.5A.png)
 
 
-
-
 # <lo-sample/> LV.NOL.2013.8.1
 
 Skaitli $8999999$ uzraksti kā divu veselu skaitļu reizinājumu tā, lai katrs no
@@ -491,6 +501,8 @@ reizinātājiem ir lielāks nekā $1$.
 * topic:StandardIdentities
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: DiffOfSquaresFactoring, WholeIntegers
+* _readingDifficulty: low
 
 </small>
 
@@ -508,8 +520,6 @@ $8999999=9000000-1=3000^{2}-1^{2}=(3000-1) \cdot(3000+1)=2999 \cdot 3001$.
 Pārveido $3000^2 - 1^2$ pēc kvadrātu starpības formulas.
 
 
-
-
 # <lo-sample/> LV.NOL.2013.8.2
 
 Trijstūrī $ABC$ novilkts augstums $BH$, bisektrise $BL$ un mediāna $BM$. Zināms,
@@ -522,6 +532,8 @@ leņķu lielumus!
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum, ParallelPerpendicular
+* _readingDifficulty: medium
 
 </small>
 
@@ -546,7 +558,6 @@ $\sphericalangle ABC=180^{\circ}-(\sphericalangle BAC+\sphericalangle ACB)=180^{
 ![](LV.NOL.2013.8.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2013.8.3
 
 Cik ir tādu četrciparu skaitļu, kuru pierakstā ir vismaz viens pāra cipars?
@@ -557,6 +568,8 @@ Cik ir tādu četrciparu skaitļu, kuru pierakstā ir vismaz viens pāra cipars?
 * topic:CountingSetDifference
 * questionType:FindCount
 * domain:Comb
+* _hasSolutionConcept: DigitRepresentation, EvenOddParity, CountingProductRule, SetDifference
+* _readingDifficulty: low
 
 </small>
 
@@ -577,7 +590,6 @@ visu citu (kuros ir vismaz viens pāra cipars)
 būs $9000 - 625 = 8375$.
 
 
-
 # <lo-sample/> LV.NOL.2013.8.4
 
 Kvadrātā $3 \times 3$ rūtiņas ieraksti deviņus dažādus naturālus skaitļus tā,
@@ -591,6 +603,8 @@ skaitļu reizinājums būtu viens un tas pats.
 * subdomain:DOM_MagicConfigurations
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, VariableExpression
+* _readingDifficulty: low
 
 </small>
 
@@ -634,13 +648,7 @@ $1$ pārvēršas par $2^1 = 2$ utt. Iegūstam šādu kvadrātu:
 | 16  | 512 | 4   |
 
 Šajā kvadrātā katrā rindiņā, kolonnā (un arī abās diagonālēs)
-skaitļu reizinājumi ir $2^15 = 32768$. 
-
-
-
-
-
-
+skaitļu reizinājumi ir $2^15 = 32768$.
 
 
 # <lo-sample/> LV.NOL.2013.8.5
@@ -657,6 +665,8 @@ ka vispirms stāv $10$ zēni un pēc tam $10$ meitenes.
 
 * questionType:Prove,Prove
 * domain:Comb
+* _hasSolutionConcept: FiniteSequenceArrangement, Invariant, PigeonholePrinciple, Counterexample
+* _readingDifficulty: medium
 
 </small>
 
@@ -685,7 +695,6 @@ vismaz viens zēns, kas savu vietu nebūs mainījis, tātad joprojām atradīsie
 kādā no pozīcijām no $11$ līdz $20$.
 
 
-
 # <lo-sample/> LV.NOL.2013.9.1
 
 Vai eksistē tāds naturāls skaitlis, kura kvadrāta pēdējie $9$ cipari ir
@@ -695,6 +704,8 @@ $987654321$?
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, PerfectSquares, LastDigit, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -702,7 +713,6 @@ $987654321$?
 ## Atrisinājums
 
 Jā, piem., $111111111^{2}=12345678987654321$.
-
 
 
 # <lo-sample/> LV.NOL.2013.9.2
@@ -715,6 +725,8 @@ izvēles.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, PointLineSegmentRay
+* _readingDifficulty: low
 
 </small>
 
@@ -730,7 +742,6 @@ punkta $K$ izvēles.
 ![](LV.NOL.2013.9.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2013.9.3
 
 Taisnstūra malu garumi ir veseli skaitļi, bet tā perimetrs un laukums izsakās
@@ -740,6 +751,8 @@ ar vienu un to pašu skaitli. Atrast visus šādus taisnstūrus.
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: QuadrilateralFamilies, WholeIntegers, VariableExpression, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -754,7 +767,6 @@ naturālos skaitļos ir divi atrisinājumi:
 - $a-2=4$ un $b-2=1$ jeb $a=6$ un $b=3$.
 
 
-
 # <lo-sample/> LV.NOL.2013.9.4
 
 Zināms, ka $a_{1}, a_{2}, \ldots, a_{2013}$ ir tādi naturāli skaitļi, ka
@@ -766,6 +778,8 @@ $a_{1}+a_{2}+\ldots+a_{2013}$ vērtību.
 
 * questionType:FindOptimal
 * domain:Alg
+* _hasSolutionConcept: PositiveIntegers, LinearInequality, OptimumProofStructure
+* _readingDifficulty: low
 
 </small>
 
@@ -779,7 +793,6 @@ Tātad mazākā iespējamā skaitļu $a_{i}$ vērtība ir $2$. Viegli pārbaudī
 $a_{1}=a_{2}=\ldots=a_{2013}=2$ apmierina dotās nevienādības, tāpēc summas
 $a_{1}+a_{2}+\ldots+a_{2013}$ mazākā iespējamā vērtība ir
 $2+2+\ldots+2=2 \cdot 2013=4026$.
-
 
 
 # <lo-sample/> LV.NOL.2013.9.5
@@ -796,6 +809,8 @@ risinājumi netika iesniegti.
 * questionType:Prove
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
+* _hasSolutionConcept: PigeonholePrinciple, SubsetConcept, FiniteSet
+* _readingDifficulty: low
 
 </small>
 
@@ -809,7 +824,6 @@ $12 \cdot 8=96 < 100$. Tātad ir vismaz $13$ skolēni, kas izrēķinājuši vien
 tos pašus uzdevumus.
 
 *Piezīme.* Dotā uzdevuma risinājumā izmantots Dirihlē princips.
-
 
 
 # <lo-sample/> LV.NOL.2013.10.1
@@ -839,7 +853,6 @@ mazākie dažādie naturālie skaitļi, kas apmierina dotās nevienādības, tad
 $a_{1}+a_{2}+\ldots+a_{10}$ mazākā iespējamā vērtība ir
 
 $$2+3+4+5+6+7+8+9+10+11=65.$$
-
 
 
 # <lo-sample/> LV.NOL.2013.10.2
@@ -889,7 +902,6 @@ $\sphericalangle ACB=\sphericalangle CBA=36^{\circ}, \sphericalangle BAC=108^{\c
 ![](LV.NOL.2013.10.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2013.10.3
 
 Vai eksistē tāda trijstūra piramīda, kurai katras skaldnes perimetrs ir $2013$
@@ -918,7 +930,6 @@ iegūstam $2a=2f$ jeb $a=f-$ pretruna.
 ![](LV.NOL.2013.10.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2013.10.4
 
 Ansītis aprēķināja skaitļu $2^{2013}$ un $5^{2013}$ vērtības un iegūtos skaitļus
@@ -944,7 +955,6 @@ $10^{n+m-2} < 10^{2013} < 10^{n+m}$. Tātad $n+m-2 < 2013 < n+m$ un vienīgā
 iespējamā $n+m$ vērtība (t.i., uzrakstīto ciparu skaits) ir $2014$.
 
 
-
 # <lo-sample/> LV.NOL.2013.10.5
 
 Doti $7$ dažādi naturāli skaitļi, kuri nepārsniedz $21$. Pierādīt, ka no tiem
@@ -968,7 +978,6 @@ tāpēc divu šādu skaitļu starpības vērtība ir vismaz $1$ un nepārsniedz
 $21-1=20$. Tā kā starpības var pieņemt tikai $20$ dažādas vērtības, bet pavisam
 var izveidot $21$ dažādu skaitļu pāri, tad vismaz divu pāru skaitļu starpības
 būs vienādas.
-
 
 
 # <lo-sample/> LV.NOL.2013.11.1
@@ -1007,7 +1016,6 @@ $$x^{2} < x(x-1) < (x-1)^{2}$$
 Tātad arī šajā gadījumā $x(x-1)$ nevar būt vesela skaitļa kvadrāts.
 
 
-
 # <lo-sample/> LV.NOL.2013.11.2
 
 Caur paralelograma $ABCD$ virsotnēm $B$ un $D$ ir novilkta riņķa līnija, kas
@@ -1036,7 +1044,6 @@ Atliek ievērot, ka taisnes $PQ$ un $RS$ veido vienādus lenķus
 $\alpha$ ar paralēlām taisnēm $AD$ un $BC$, tāpēc tās arī ir paralēlas.
 
 ![](LV.NOL.2013.11.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2013.11.3
@@ -1068,7 +1075,6 @@ kausa $A$ un sver vēlreiz. Ja svari ir līdzsvarā, tad atrastas abas
 $9~\mathrm{g}$ monētas, pretējā gadījumā vieglākā no tām sver $9$ gramus.
 
 
-
 # <lo-sample/> LV.NOL.2013.11.4
 
 Polinoms $P(x)$ ar veseliem koeficientiem četrām veselām $x$ vērtībām pieņem
@@ -1090,7 +1096,6 @@ saknes un $F(x)=(x-a)(x-b)(x-c)(x-d) R(x)$.
 
 Ja $P(n)=2013$, tad $F(n)=13=(n-a)(n-b)(n-c)(n-d) R(n)$. Taču skaitļi $13$
 nevar izteikt kā ne mazāk kā $4$ dažādu veselu skaitļu reizinājumu.
-
 
 
 # <lo-sample/> LV.NOL.2013.11.5
@@ -1130,7 +1135,6 @@ un jaunās lauztās līnijas perimetrs ir mazāks nekā iepriekšējēs, kas ir
 pretrunā ar pieņēmumu.
 
 
-
 # <lo-sample/> LV.NOL.2013.12.1
 
 Zināms, ka $a$ un $b$ ir divi dažādi naturāli skaitļi. Pierādīt, ka
@@ -1155,7 +1159,6 @@ Tā kā $a$ un $b$ ir divi dažādi naturāli skaitļi, tad
 $(a-b)^{2} \geq 1$ un $\frac{1}{4(a+b)^{2}} > 0$, līdz ar to pēdējā
 nevienādība ir patiesa. Tā kā tika veikti ekvivalenti pārveidojumi, tad arī
 visas iepriekšējās, t.sk. dotā, nevienādības ir patiesas, k.b.j.
-
 
 
 # <lo-sample/> LV.NOL.2013.12.2
@@ -1189,7 +1192,6 @@ $\ell \ell$.
 to. Tomēr tas nekādi neietekmē uzdevuma risinājumu (piem., sk. 6. un 7.zīm.).
 
 
-
 # <lo-sample/> LV.NOL.2013.12.3
 
 Dots, ka $n>1$ ir tāds naturāls skaitlis, kas, dalot ar $7$, dod atlikumu
@@ -1220,7 +1222,6 @@ nevienādībai $\quad n^{2}+3n+3 < 7n^{2} \quad \Leftrightarrow$ $2n^{2}-n-1 > 0
 Atliek ievērot, ka funkcija $f(x)=2x^{2}-x-1=(x-1)(2x+1)$ pieņem pozitīvas
 vērtības intervālā $(1 ;+\infty)$, tātad $2n^{2}-n-1 > 0$ visiem naturāliem
 skaitļiem $n > 1$.
-
 
 
 # <lo-sample/> LV.NOL.2013.12.4
@@ -1269,7 +1270,6 @@ No (1) un (2) seko, ka trijstūra $\Delta$ laukums nav lielāks kā
 $\frac{\sqrt{3}}{4} \cdot \frac{1}{4}=\frac{\sqrt{3}}{16}$, k.b.j.
 
 
-
 # <lo-sample/> LV.NOL.2013.12.5
 
 Parlamentā ir $2013$ deputāti; katram no viņiem ir domstarpības ar ne vairāk
@@ -1314,5 +1314,3 @@ izveidota $d+1$ komisija. Tas nozīmē, ka ir vismaz viena tāda komisija, ka
 $A$ nav domstarpību ne ar vienu šīs komisijas deputātu. Tad $A$ varam iekļaut
 šajā komisijā, līdz ar ko arī $n+1$ deputāts ir sadalīts $d+1$ komisijā
 vajadzīgajā veidā. Induktīvā pāreja ir izdarīta, tātad apgalvojums ir pierādīts.
-
-

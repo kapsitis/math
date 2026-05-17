@@ -10,6 +10,8 @@ esošās degvielas. Cik litru degvielas tagad ir katrā tvertnē?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, ArithmeticMean
+* _readingDifficulty: low
 
 </small>
 
@@ -26,7 +28,6 @@ $\frac{1}{5} \cdot 300=60$ litrus degvielas. Tātad otrajā tvertnē tagad ir
 $300-60=240$ litri degvielas.
 
 
-
 # <lo-sample/> LV.NOL.2019.5.2
 
 Dotas $15$ pēc ārējā izskata vienādas monētas, bet visas to masas ir dažādas. 
@@ -37,6 +38,8 @@ vieglāko, gan pašu smagāko monētu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, TotalOrder, SetPartition, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -89,7 +92,6 @@ Tātad kopā nepieciešama $7+4+2+1+7=21$ svēršana.
 ![](LV.NOL.2019.5.2B.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.5.3
 
 Anniņa kvadrātā $4 \times 4$ iekrāsoja dažas pelēkas rūtiņas tā, ka neveidojas 
@@ -105,6 +107,8 @@ nekā Jānītis? Figūra $stūrītis$ var būt arī pagriezta.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, LatticeGrid, Rotation, Counterexample
+* _readingDifficulty: medium
 
 </small>
 
@@ -114,7 +118,6 @@ Jā, var gadīties, piemēram, ja Anniņa iekrāsoja $7$ rūtiņas kā parādīt
 bet Jānītis iekrāsoja $8$ rūtiņas kā parādīts 5.att.
 
 ![](LV.NOL.2019.5.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2019.5.4
@@ -132,6 +135,8 @@ Valentīns uzlīmes nesaņem un netērē.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: StateSpaceProcess, Invariant, LinearEquation
+* _readingDifficulty: medium
 
 </small>
 
@@ -144,7 +149,6 @@ Risinām šo uzdevumu no beigām (skat. tabulā).
 Tātad Valentīnam pirms pirmā veikala apmeklējuma bija $27$ uzlīmes.
 
 
-
 # <lo-sample/> LV.NOL.2019.5.5
 
 Vai vārdā $NEAPJAUŠAMAIS$ var aizvietot burtus ar cipariem tā, ka dažādus 
@@ -155,6 +159,8 @@ cipariem), bet vienādus - vienādi, turklāt izveidotais skaitlis ir pirmskaitl
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PrimeNumbers, DigitSum, DivisibilityRules, DigitRepresentation, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -170,7 +176,6 @@ pirmskaitlis, kas dalās ar $3$, ir pats skaitlis $3$, bet dotais ir
 desmitciparu skaitlis, tātad tas nevar būt pirmskaitlis.
 
 
-
 # <lo-sample/> LV.NOL.2019.6.1
 
 Konkursā bija $90$ jautājumu. Par katru pareizu atbildi var iegūt $3$ punktus, 
@@ -183,6 +188,8 @@ cik jautājumiem Olafs nesniedza atbildi?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: WholeIntegers, CountingSumRule
+* _readingDifficulty: low
 
 </small>
 
@@ -195,7 +202,6 @@ pareizu atbildi iegūst $3$ punktus, tad Olafs pareizi atbildēja uz $210:3=70$
 jautājumiem. Tātad Olafs nesniedza atbildi uz $90-10-70=10$ jautājumiem.
 
 
-
 # <lo-sample/> LV.NOL.2019.6.2
 
 Dotas $11$ pēc ārējā izskata vienādas monētas, no kurām $10$ ir īstas, bet 
@@ -206,6 +212,8 @@ Kā ar $3$ svēršanām uz sviras svariem bez atsvariem atrast viltoto monētu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -250,7 +258,6 @@ savā starpā. Viltotā monēta atradīsies "vieglākajā" kausā.
 ![](LV.NOL.2019.6.2B.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.6.3
 
 Vai taisnstūri ar izmēriem **(A)** $5 \times 8$, **(B)** $5 \times 12$ rūtiņas 
@@ -264,6 +271,8 @@ pagrieztas vai apgrieztas spoguļattēlā.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, Coloring, EvenOddParity, Invariant, Rotation, AxialSymmetry
+* _readingDifficulty: medium
 
 </small>
 
@@ -284,7 +293,6 @@ taisnstūrī, tad taisnstūri pārklāt nevar.
 ![](LV.NOL.2019.6.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.6.4
 
 Aizpildi doto kvadrātu (skat. 11.att.), tukšajās rūtiņās ierakstot pa vienam 
@@ -296,6 +304,8 @@ parādīt vienu veidu, kā to izdarīt.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ExhaustiveCheck, CaseAnalysis
+* _readingDifficulty: low
 
 </small>
 
@@ -320,7 +330,6 @@ kvadrāta, pieskaitot $1$.
 ![](LV.NOL.2019.6.4A.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.6.5
 
 Dots, ka $LAI + ŠIS + IR + LABS=2019$ un $IR + IR = LAI$. Parādi vienu piemēru,
@@ -332,6 +341,8 @@ atšķirīgi).
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, EquationSystem, EvenOddParity, CaseAnalysis, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -351,7 +362,6 @@ $R, A, Š$ un $S$ vērtības. Daļa no gadījumiem ir nederīgi, jo dažādiem b
 atbilst vienādi cipari.
 
 
-
 # <lo-sample/> LV.NOL.2019.7.1
 
 Doti trīs vienādojumi $ax+b=0,\ bx+c=0$ un $cx+a=0$. Neviens no koeficientiem 
@@ -366,6 +376,8 @@ $a, b, c$ nav $0$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LinearEquation, RationalNumbers, PositiveAndNegative, Counterexample
+* _readingDifficulty: low
 
 </small>
 
@@ -381,7 +393,6 @@ ir $-\frac{b}{a} \cdot\left(-\frac{c}{b}\right) \cdot\left(-\frac{a}{c}\right)=-
 tātad vismaz viena sakne ir negatīva.
 
 
-
 # <lo-sample/> LV.NOL.2019.7.2
 
 Dotas $14$ pēc ārējā izskata vienādas monētas. Zināms, ka $13$ monētu masas ir 
@@ -395,6 +406,8 @@ vai smagāka nekā pārējās? (Pašu monētu atrast nav nepieciešams.)
 * domain:Comb
 * seeAlso:LV.SOL.2020.9.3
 * seeAlso:LV.NOL.2016.7.4
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -450,7 +463,6 @@ kausā liekam pa $3$ monētām no šīs kaudzītes.
 ![](LV.NOL.2019.7.2B.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.7.3
 
 Anniņa kvadrātā $6 \times 6$ iekrāsoja dažas pelēkas rūtiņas tā, ka neveidojas 
@@ -466,6 +478,8 @@ nekā Jānītis? Figūra stūrītis var būt arī pagriezta.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, LatticeGrid, Rotation, Counterexample
+* _readingDifficulty: medium
 
 </small>
 
@@ -477,7 +491,6 @@ Jā, var gadīties, piemēram, ja Anniņa iekrāsoja $12$ rūtiņas kā parādī
 ![](LV.NOL.2019.7.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.7.4
 
 Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b)=150015$ ?
@@ -487,6 +500,8 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b)=150015$ ?
 * questionType:ProveDisprove
 * subdomain:DOM_IntegerEquations
 * domain:NT
+* _hasSolutionConcept: EvenOddParity, WholeIntegers, CaseAnalysis
+* _readingDifficulty: low
 
 </small>
 
@@ -498,7 +513,6 @@ būt vienāds ar nepāra skaitli $150015$. Ja $a$ un $b$ abi ir nepāra skaitļi
 tad $(a+5b)$ ir pāra skaitlis un vienādojuma kreisās puses izteiksmes vērtība 
 ir pāra skaitlis, kas nevar būt vienāds ar nepāra skaitli $150015$. Tātad nevar
 atrast tādus veselus skaitļus $a$ un $b$, lai dotā vienādība būtu patiesa.
-
 
 
 # <lo-sample/> LV.NOL.2019.7.5
@@ -516,6 +530,8 @@ uzvarēt?
 * concepts:divisibility
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, MultiplesSet, ExistenceVsUniversal
+* _readingDifficulty: medium
 
 </small>
 
@@ -544,7 +560,6 @@ $31$ dalās šādi trīsciparu skaitļi:
 $124;\ 155;\ 186;\ 217;\ 248;\ 279;\ 310;\ 341;\ 372;\ 403;\ 434;\ 465;\ 496;\ 527;\ 558;\ 589;\ 620;\ 651;\ 682;\ 713;\ 744;\ 775;\ 806;\ 837;\ 868;\ 899;\ 930;\ 961;\ 992$.
 
 
-
 # <lo-sample/> LV.NOL.2019.8.1
 
 Taisnstūra vienas malas garums ir $(2 \sqrt{3}-\sqrt{6})(2 \sqrt{3}+\sqrt{6})$,
@@ -556,6 +571,8 @@ malas garumu kvadrātam, kura laukums ir tikpat liels kā dotajam taisnstūrim
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadrilateralFamilies, DiffOfSquaresFactoring, RationalNumbers, IrrationalAndReals
+* _readingDifficulty: low
 
 </small>
 
@@ -574,7 +591,6 @@ Taisnstūra laukums ir $6 \cdot 4 \frac{1}{3}=26$. Līdz ar to kvadrāta malas
 garums ir $\sqrt{26}$.
 
 
-
 # <lo-sample/> LV.NOL.2019.8.2
 
 Zināms, ka no $26$ monētām viena ir viltota - tā ir vieglāka nekā pārējās, 
@@ -585,6 +601,8 @@ atsvariem atrast viltoto monētu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -614,7 +632,6 @@ atsevišķi, varam šai kaudzītei pievienot vienu "parasto" monētu.
 ![](LV.NOL.2019.8.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.8.3
 
 Izliekta piecstūra $ABCDE$ diagonāļu $AC$ un $BD$ krustpunkts ir $M,\ AC$ un 
@@ -625,6 +642,8 @@ $EM=BC$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TriangleCongruence, Triangle, Angle, PointLineSegmentRay, Polygon
+* _readingDifficulty: medium
 
 </small>
 
@@ -645,7 +664,6 @@ Līdz ar to $EM=BC$ kā atbilstošās malas vienādos trijstūros.
 ![](LV.NOL.2019.8.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.8.4
 
 Uz tāfeles uzrakstīti skaitļi $\frac{3}{2},\ \frac{4}{5},\ \frac{5}{3}$. Ar vienu
@@ -661,6 +679,8 @@ $\frac{4}{3},\ \frac{4}{5},\ \frac{5}{2}$?
 * subdomain:DOM_MakingMoves
 * questionType:ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: Invariant, RationalNumbers, StateSpaceProcess
+* _readingDifficulty: medium
 
 </small>
 
@@ -678,7 +698,6 @@ $\frac{4}{3} \cdot \frac{4}{5} \cdot \frac{5}{2}=\frac{8}{3}$, tad prasītais
 nav iespējams.
 
 
-
 # <lo-sample/> LV.NOL.2019.8.5
 
 Izmantojot divus atšķirīgus nenulles ciparus $x$ un $y$ ir izveidoti divi 
@@ -691,6 +710,8 @@ izveidotais trīsciparu skaitlis $\overline{yxy}$ ?
 * questionType:FindAll
 * domain:NT
 * concepts:divisibility
+* _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, DivisibilityRelation, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -723,7 +744,6 @@ Līdz ar to trīsciparu skaitlis $\overline{yxy}$ var būt $828,\ 636,\ 252,\ 69
 visus divciparu skaitļus $\overline{xy}$, kas dalās ar $4$.
 
 
-
 # <lo-sample/> LV.NOL.2019.9.1
 
 Lineāra funkcija $y=\left(m^{2}-3 m\right) x+4m-4$ krusto $x$ asi punktā, kura 
@@ -734,6 +754,8 @@ augoša vai dilstoša!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LinearFunction, QuadraticEquation, VariableExpression, CoordinatePlane
+* _readingDifficulty: low
 
 </small>
 
@@ -750,7 +772,6 @@ gadījumi:
   pie $x$ ir negatīvs.
 
 
-
 # <lo-sample/> LV.NOL.2019.9.2
 
 Dotas divas melnas, divas sarkanas un divas zaļas lodītes. Vienas lodītes masa 
@@ -763,6 +784,8 @@ lodīti?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CaseAnalysis, DecisionTree, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -827,7 +850,6 @@ kas sver $101~\mathrm{g}$. Otrajā svēršanā salīdzinām abas melnās lodīte
      lodīte, kas sver $99~\mathrm{g}$.
 
 
-
 # <lo-sample/> LV.NOL.2019.9.3
 
 Uz kvadrāta $ABCD$ malām $AB,\ BC,\ CD$ un $DA$ attiecīgi atzīmēti punkti 
@@ -838,6 +860,8 @@ punkts $O$. Pierādīt, ka $S_{AEOH}+S_{FCGO}=S_{BFOE}+S_{DHOG}$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadrilateralFamilies, Triangle, ParallelPerpendicular, TriangleCongruence, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -891,7 +915,6 @@ pierādījuši, ka $S_{EOF}+S_{GOH}=S_{FOG}+S_{HOE}$, un līdz ar to arī
 $S_{AEOH}+S_{FCGO}=S_{BFOE}+S_{DHOG}$.
 
 
-
 # <lo-sample/> LV.NOL.2019.9.4
 
 Kvadrāts sastāv no $n \times n$ rūtiņām. Rindas sanumurētas no lejas uz augšu 
@@ -905,6 +928,8 @@ no visu šajā kolonnā ierakstīto skaitļu reizinājuma. Vai tas ir iespējams
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Invariant, ProofByContradiction, PerfectSquares, EvenOddParity, LatticeGrid
+* _readingDifficulty: medium
 
 </small>
 
@@ -931,7 +956,6 @@ piemēram, 24.att., kur tukšajās rūtiņās ierakstīts $(+1)$.
 ![](LV.NOL.2019.9.4A.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.9.5
 
 Kāds mazākais ciparu skaits jāpieraksta ciparu virknes $3456$ beigās, lai 
@@ -943,6 +967,8 @@ iegūtu skaitli, kas dalās ar $2019$?
 * concepts:divisibility
 * subdomain:DOM_DigitManipulation
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisionWithRemainder, OptimumProofStructure
+* _readingDifficulty: low
 
 </small>
 
@@ -995,7 +1021,6 @@ ar to ar divu ciparu pievienošanu nevar izveidot skaitli, kas dalās ar $2019$.
 $3456000=1711 \cdot 2019+1491$ un $1491+528=2019$.
 
 
-
 # <lo-sample/> LV.NOL.2019.10.1
 
 Kvadrātfunkcija $y=x^{2}+\left(m^{2}+3m\right)x+m-1$ krusto $x$ asi punktā, 
@@ -1020,7 +1045,6 @@ gadījumi:
   ir $(-1; 0)$;
 - ja $m=-4$, tad dotā funkcija ir $y=x^{2}+4x-5$ un tās otrs krustpunkts ar $x$
   asi ir $(-5; 0)$.
-
 
 
 # <lo-sample/> LV.NOL.2019.10.2
@@ -1099,7 +1123,6 @@ Pirmajā svēršanā uz katra svaru kausa uzliekam pa $2$ monētām.
 ![](LV.NOL.2019.10.2C.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.10.3
 
 Plaknē dotas divas riņķa līnijas $\omega_{1}$ un $\omega_{2}$, kurām nav kopīgu
@@ -1134,7 +1157,6 @@ $XA=XF$. Līdz ar to $AG=FB$, no kā izriet, ka $AC=BD$.
 ![](LV.NOL.2019.10.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.10.4
 
 Doti $2019$ reāli skaitļi ar īpašību, ka jebkuru $1010$ skaitļu summa ir 
@@ -1160,7 +1182,6 @@ $$S_{A}+S_{B}+2x>S_{A}+S_{B}$$
 
 Līdz ar to $2x>0$ jeb $x>0$. Esam ieguvuši pretrunu ar pieņēmumu, ka 
 $x \leq 0$. Tātad visi dotie skaitļi ir pozitīvi.
-
 
 
 # <lo-sample/> LV.NOL.2019.10.5
@@ -1218,9 +1239,6 @@ $(55,51)$, $(46,61)$, $(\mathbf{37},\mathbf{71})$, $(28,81)$, $(19,91)$, $(10,10
 Tikai divos pāros abi skaitļi ir pirmskaitļi: $(m,n)$ var būt $(73,31)$ vai $(37,71)$.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2019.11.1
 
 Vai var gadīties, ka 30.att. ir doti funkciju $y=ax^{2}+bx+c,\ y=cx^{2}+bx+a$ un
@@ -1249,7 +1267,6 @@ atrodas trešajā kvadrantā, tad $x_{v}<0$ un, ņemot vērā, ka $a>0$, secinā
 $b>0$. Esam ieguvuši pretrunu ar to, ka $b<0$ (lineārā funkcija dilstoša), 
 tātad 30.att. nevar būt doti funkciju $y=ax^{2}+bx+c$,\ $y=cx^{2}+bx+a$ un 
 $y=bx+c$ grafiki.
-
 
 
 # <lo-sample/> LV.NOL.2019.11.2
@@ -1300,7 +1317,6 @@ iespējams, izspēlējot $15$ partijas, atrast arī otru labāko šahistu.
 ![](LV.NOL.2019.11.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.11.3
 
 Divas riņķa līnijas $\omega_{1}$ (ar centru punktā $O_{1}$) un $\omega_{2}$ (ar 
@@ -1339,7 +1355,6 @@ $B_{1}B_{2}C_{2}C_{1}$ var apvilkt riņķa līniju (skat. 33.att.). Līdz ar to
 $\sphericalangle B_{2}B_{1}C_{2}=\sphericalangle C_{2}C_{1}B_{2}$ kā ievilktie 
 leņķi, kas balstās uz viena un tā paša loka $B_{2}C_{2}$. Tātad 
 $\sphericalangle B_{2}B_{1}A=\sphericalangle C_{2}C_{1}A$.
-
 
 
 # <lo-sample/> LV.NOL.2019.11.4
@@ -1406,7 +1421,6 @@ $$\frac{a}{b}(a+1)^{2}+\frac{b}{a}(b+1)^{2} \geq 2 \cdot \sqrt{\frac{a}{b}(a+1)^
 kas arī bija jāpierāda.
 
 
-
 # <lo-sample/> LV.NOL.2019.11.5
 
 Atrast visus pirmskaitļu pārus $(m, n)$, kuriem $20m+19n=2019$.
@@ -1457,7 +1471,6 @@ Atrodam atbilstošās $n$ vērtības:
 - ja $m=43$, tad $20 \cdot 57=19(n-1)$ jeb $n=61$ (pirmskaitlis).
 
 Tātad dotajam vienādojumam ir divi atrisinājumi: $m=5,\ n=101$ un $m=43,\ n=61$.
-
 
 
 # <lo-sample/> LV.NOL.2019.12.1
@@ -1513,7 +1526,6 @@ Līdzīgi iegūstam, ka varbūtība, ka abas izvilktās lodītes ir melnas, ir
 $P(B)=\frac{m(m-1)}{(66+m)(65+m)}$. Līdz ar to varbūtība, ka abas izvilktās 
 lodītes ir vienādā krāsā, ir 
 $\frac{m(m-1)}{(66+m)(65+m)}+\frac{66 \cdot 65}{(66+m)(65+m)}$.
-
 
 
 # <lo-sample/> LV.NOL.2019.12.2
@@ -1576,7 +1588,6 @@ iedomāto skaitli.
 ![](LV.NOL.2019.12.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2019.12.3
 
 Trijstūrī $ABC$ ievilktās riņķa līnijas centrs ir $O$. Nogriežņi $OA, OB, OC$ 
@@ -1622,7 +1633,6 @@ tad trijstūri $ABC$ un $DEF$ ir homotētiski ar homotētijas centru $O$. Tātad
 trijstūrī $DEF$ ievilktās riņķa līnijas centrs arī ir $O$. Tā kā trijstūra 
 $DEF$ bisektrišu krustpunkts sakrīt ar vidusperpendikulu krustpunktu, tad tas 
 ir regulārs trijstūris. Līdz ar to arī trijstūris $ABC$ ir regulārs.
-
 
 
 # <lo-sample/> LV.NOL.2019.12.4
@@ -1673,7 +1683,6 @@ Līdz ar to esam pierādījuši, ka
 $\left|\sqrt{a^{2}+b^{2}}-\sqrt{a^{2}+c^{2}}\right| \leq|b-c|$.
 
 ![](LV.NOL.2019.12.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2019.12.5

@@ -13,6 +13,8 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, Invariant, ProofByContradiction
+* _readingDifficulty: low
 
 </small>
 
@@ -23,7 +25,6 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 $$\mathbf{11,\ 1,\ 12,\ 2,\ 13,\ 3,\ 14,\ 4,\ 15,\ 5,\ 16,\ 6,\ 17,\ 7,\ 18,\ 8,\ 19,\ 9,\ 20,\ 10}$$
 
 **(B)** nē, nevar. Skaitlim $10$ iespējams tikai viens kaimiņš - skaitlis $20$.
-
 
 
 # <lo-sample/> LV.NOL.2005.5.2
@@ -40,6 +41,8 @@ $22$-jam, bet $60$-ais vagoniņš - pretī $86$-jam (skat. 1.zīm.). Atrast $n$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, CountingSumRule
+* _readingDifficulty: medium
 
 </small>
 
@@ -48,7 +51,6 @@ $22$-jam, bet $60$-ais vagoniņš - pretī $86$-jam (skat. 1.zīm.). Atrast $n$.
 No $22.$ līdz $60.$ vagoniņam, tos abus ieskaitot, ir $60-22+1=39$ vagoniņi. 
 Atbilstošajā posmā apakšā arī ir $39$ vagoniņi. Tātad no $86.$ līdz $n$-jam 
 vagoniņam, tos abus ieskaitot, ir $39-12=27$ vagoniņi. Tāpēc $n=86+27-1=112$.
-
 
 
 # <lo-sample/> LV.NOL.2005.5.3
@@ -63,6 +65,8 @@ atkārtojot šādus gājienus?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -75,7 +79,6 @@ nepāra skaits, bet pēc katra gājiena kastītē, kurā ieliek konfektes, to ir
 skaits. Kā savākt kopā $14$ konfektes, redzams shēmā 1.zīm.
 
 ![](LV.NOL.2005.5.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2005.5.4
@@ -91,6 +94,8 @@ Kāds lielākais daudzums krāsu var būt izmantots?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, GraphConcept, FiniteSet, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -103,7 +108,6 @@ jābūt $15$ blakus esošu krāsu pāru
 $ab,\ ac,\ ad,\ ae,\ af,\ bc,\ bd,\ be,\ bf,\ cd,\ ce,\ cf,\ de,\ df,\ ef$. Bet
 ir tikai $12$ malas, pa kurām robežojas $2$ rūtiņas. Piemēru ar $5$ krāsām 
 skat. 2.zīm.
-
 
 
 # <lo-sample/> LV.NOL.2005.5.5
@@ -124,6 +128,8 @@ pilsētā $A$ un kura kopgarums ir tieši $863~\mathrm{km}$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, WalkPathCycle, EvenOddParity, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -138,7 +144,6 @@ reižu jābrauc pa radiāliem ceļiem. Tāpēc maršruta kopgarums izsacīsies a
 skaitu kilometru.
 
 
-
 # <lo-sample/> LV.NOL.2005.6.1
 
 Kvadrāts sastāv no $3 \times 3$ rūtiņām. Katrā rūtiņā ierakstīts kaut kāds 
@@ -150,6 +155,8 @@ tabulā ierakstīto skaitļu summa?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: OptimumProofStructure, EvenOddParity, PositiveIntegers, LatticeGrid
+* _readingDifficulty: low
 
 </small>
 
@@ -168,7 +175,6 @@ par $17$.
 ![](LV.NOL.2005.6.1A.png)
 
 
-
 # <lo-sample/> LV.NOL.2005.6.2
 
 Pa apli stāv $n$ rūķīši ar seju pret centru. Katrs no viņiem vai nu vienmēr 
@@ -181,6 +187,8 @@ Vai tas iespējams, ja **(A)** $n=2004$, **(B)** $n=2005$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, EvenOddParity, ProofByContradiction, CaseAnalysis
+* _readingDifficulty: medium
 
 </small>
 
@@ -192,7 +200,6 @@ Vai tas iespējams, ja **(A)** $n=2004$, **(B)** $n=2005$?
 $1;\ 2;\ 3;\ \ldots;\ 2005$. Ja $1.$ rūķītis ir patiess, tad otrais ir melis, 
 trešais - patiess, ceturtais - melis, $\ldots$, $2005$-ais - patiess, pirmais -
 melis. Iegūta pretruna. Līdzīgi iegūst pretrunu, ja $1.$ rūķītis ir melis.
-
 
 
 # <lo-sample/> LV.NOL.2005.6.3
@@ -209,6 +216,8 @@ Gabali var būt novietoti arī citādi.
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, LinearDiophantine, PositiveIntegers, ExhaustiveCheck
+* _readingDifficulty: medium
 
 </small>
 
@@ -224,7 +233,6 @@ redzam: $b$ iznāk naturāls tikai pie $a=4$ (tad $b=6$) un $a=8$ (tad $b=3$).
 Atbilstoši sadalījumi redzami 4.zīm.
 
 
-
 # <lo-sample/> LV.NOL.2005.6.4
 
 Atrast minimālo naturālo skaitli $n$ ar īpašību: ja uz tāfeles uzrakstīti $n$ 
@@ -235,6 +243,8 @@ uzrakstītajiem var izvēlēties tādus divus, kuru reizinājums dalās ar $21$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, MultiplesSet, PigeonholePrinciple, OptimumProofStructure
+* _readingDifficulty: low
 
 </small>
 
@@ -252,7 +262,6 @@ izvēlamies patvaļīgi).
 
 Ja uz tāfeles ir $86$ skaitļi, tad var gadīties, ka tur nav neviena skaitļa, 
 kas dalās ar $7$, un tad divus meklējamos skaitļus atrast nevar.
-
 
 
 # <lo-sample/> LV.NOL.2005.6.5
@@ -275,6 +284,8 @@ Pierādīt, ka
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DirectedGraph, BinaryRelation, WalkPathCycle, VertexDegree, ExistenceVsUniversal
+* _readingDifficulty: high
 
 </small>
 
@@ -293,7 +304,6 @@ $1 \rightarrow 2 \rightarrow 3 \rightarrow 4 \rightarrow 5 \rightarrow 6 \righta
 $3 \rightarrow 7 \rightarrow 6 \rightarrow 3,\ 5 \rightarrow 7 \rightarrow 2 \rightarrow 5$.
 
 
-
 # <lo-sample/> LV.NOL.2005.7.1
 
 Kādu mazāko daudzumu no skaitļiem $1;\ 2;\ 3;\ \ldots;\ 12;\ 13$ var izsvītrot,
@@ -304,6 +314,8 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 * sameAs:LV.NOL.2003.7.4
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, EvenOddParity, OptimumProofStructure, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -318,7 +330,6 @@ $(1,\ 2),\ (3,\ 4),\ (5,\ 6),\ (7,\ 10),\ (8,\ 9),\ (11,\ 12)$ vismaz viens
 skaitlis ir jāsvītro.
 
 
-
 # <lo-sample/> LV.NOL.2005.7.2
 
 Vai funkciju $y=2003x+4197,\ y=2004x+4198$ un $y=2005x+4199$ grafiki krustojas 
@@ -328,6 +339,8 @@ vienā punktā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LinearFunction, CoordinatePlane, EquationSystem, OrderedPair
+* _readingDifficulty: low
 
 </small>
 
@@ -337,7 +350,6 @@ Katri divi grafiki krustojas. Ja $1.$ un $3.$ grafiks krustojas punktā
 $(a;\ b)$, tad $b=2003a+4197$ un $b=2005a+4199$. Saskaitot šīs vienādības un 
 izdalot rezultātu ar $2$, iegūstam $b=2004a+4198$, t.i., $(a,\ b)$ atrodas arī 
 uz trešā grafika.
-
 
 
 # <lo-sample/> LV.NOL.2005.7.3
@@ -354,6 +366,8 @@ veselu malu.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, Triangle, EvenOddParity, Invariant
+* _readingDifficulty: medium
 
 </small>
 
@@ -368,7 +382,6 @@ kurām saskaras divas plāksnītes. Tātad apkārtmērs ir pāra skaitlis.
 Piemēru **(A)** gadījumam skat. 5.zīm.
 
 ![](LV.NOL.2005.7.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2005.7.4
@@ -387,6 +400,8 @@ dalītāju summu.
 * topic:ModularParity
 * questionType:FindExample,Prove,Prove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet, EvenOddParity
+* _readingDifficulty: low
 
 </small>
 
@@ -421,9 +436,6 @@ Ievērojam arī, ka nepāra skaitļiem visi dalītāji ir nepāra
 Bet četru nepāru summa nevar būt pāru.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2005.7.5
 
 Dotas $8$ pēc ārējā izskata vienādas monētas. Ir zināms, ka vai nu visām tām 
@@ -435,6 +447,8 @@ no iespējām pastāv īstenībā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -446,7 +460,6 @@ tām $4$, kas pirmajā svēršanā atradās uz viena kausa. Ja līdzsvara nav, i
 dažādu masu monētas. Ja līdzsvars ir, uzliekam uz kausiem pa $1$ monētai no 
 tām, kas otrajā svēršanā atradās uz viena kausa. Ja līdzsvara nav, ir divu 
 dažādu masu monētas. Ja līdzsvars ir, visām monētām ir vienādas masas.
-
 
 
 # <lo-sample/> LV.NOL.2005.8.1
@@ -462,6 +475,8 @@ decimālais pieraksts sākas ar ciparu $1$?
 * questionType:FindCount
 * domain:NT
 * seeAlso:LV.NOL.2004.8.2
+* _hasSolutionConcept: DigitRepresentation, NumberSequence, CountingSumRule
+* _readingDifficulty: low
 
 </small>
 
@@ -480,7 +495,6 @@ pakāpes) ir tieši viena pakāpe, kas sākas ar ciparu $1$. Tāpēc uzdevuma at
 ir $30$.
 
 
-
 # <lo-sample/> LV.NOL.2005.8.2
 
 Kvadrāts sastāv no $4 \times 4$ vienādām kvadrātiskām rūtiņām. Rūtiņās 
@@ -494,6 +508,8 @@ daudzums rūtiņu var būt izcilas?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, FiniteSet, ProofByContradiction, OptimumProofStructure
+* _readingDifficulty: medium
 
 </small>
 
@@ -507,7 +523,6 @@ skaitlis no šiem trim, nevarētu būt izcila - pretruna. Tātad izcilu rūtiņu
 vairāk par $4 \cdot 2=8$. Piemēru ar $8$ izcilām rūtiņām skat. 6.zīm.
 
 ![](LV.NOL.2005.8.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2005.8.3
@@ -528,6 +543,8 @@ Ar kādu mazāko jautājumu skaitu Juris var noteikti noskaidrot $n$?
 * questionType:FindOptimal,Algorithm
 * domain:NT
 * subdomain:DOM_MakingMoves
+* _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DecisionTree, OptimumProofStructure
+* _readingDifficulty: high
 
 </small>
 
@@ -556,9 +573,6 @@ Andra otrā atbilde, Juris noskaidros $n$.
   var noteikt $n$.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2005.8.4
 
 Taisne $t$ nav nogriežņa $AB$ vidusperpendikuls. Cik uz taisnes $t$ var būt 
@@ -568,6 +582,8 @@ tādu punktu $C$, ka $A,\ B$ un $C$ ir vienādsānu trijstūra virsotnes?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, PointLineSegmentRay, ParallelPerpendicular, CircleAndDisk, ExhaustiveCheck
+* _readingDifficulty: low
 
 </small>
 
@@ -577,7 +593,6 @@ Punkts $C$ var atrasties vai nu uz $AB$ vidusperpendikula, vai uz
 $r.l.\ (A;\ AB)$, vai uz $r.l.\ (B;\ AB)$. Atkarībā no šo $3$ līniju un $t$ 
 savstarpējā novietojuma tādu punktu $C$ uz taisnes $t$ var būt 
 $0;\ 1;\ 2;\ 3;\ 4;\ 5$. **Visiem gadījumiem nepieciešami piemēri.**
-
 
 
 # <lo-sample/> LV.NOL.2005.8.5
@@ -590,6 +605,8 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, PolynomialAndRoots, DiffOfSquaresFactoring
+* _readingDifficulty: low
 
 </small>
 
@@ -608,7 +625,6 @@ $$\begin{aligned}
 utt.
 
 
-
 # <lo-sample/> LV.NOL.2005.9.1
 
 Dots, ka $a$ un $b$ - kaut kādi reāli skaitļi. Pierādīt, ka
@@ -619,6 +635,8 @@ $$a^{2}-ab+b^{2} \geq 5a+5b-25$$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, IrrationalAndReals, SquareOfSumIdentity
+* _readingDifficulty: low
 
 </small>
 
@@ -626,7 +644,6 @@ $$a^{2}-ab+b^{2} \geq 5a+5b-25$$
 
 Nevienādību pārveido par $(a-5)^{2}-(a-5)(b-5)+(b-5)^{2} \geq 0$ un ievēro, ka 
 $x^{2}-xy+y^{2}=\left(x-\frac{y}{2}\right)^{2}+\frac{3}{4} y^{2} \geq 0$.
-
 
 
 # <lo-sample/> LV.NOL.2005.9.2
@@ -638,6 +655,8 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PrimeNumbers, DigitRepresentation, LastDigit, DivisibilityRules
+* _readingDifficulty: low
 
 </small>
 
@@ -647,7 +666,6 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 nevar būt citāda, jo cipari $2;\ 4;\ 5;\ 6$ nevar būt saskaitāmo pirmskaitļu 
 vienu cipari; tāpēc tie ir desmitu cipari, un meklējamā summa noteikti ir 
 $10(2+4+5+6)+(1+3+7+9)=10 \cdot 17+20=190$
-
 
 
 # <lo-sample/> LV.NOL.2005.9.3
@@ -666,6 +684,8 @@ $A$. Taisne $t$ pieskaras abām riņķa līnijām punktā $A$ un krusto to kopē
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, PointLineSegmentRay, PythagoreanTheorem
+* _readingDifficulty: medium
 
 </small>
 
@@ -684,7 +704,6 @@ $MN=TO_{2}=\sqrt{(R+r)^{2}-(R-r)^{2}}=2 \sqrt{Rr}$. Tādu pašu rezultātu iegū
 ja $R-r=0$ un $\triangle O_{1}TO_{2}$ reducējas par nogriezni.
 
 
-
 # <lo-sample/> LV.NOL.2005.9.4
 
 Vai eksistē tādi $6$ skaitļi, ka, aprēķinot visas iespējamās to summas pa 
@@ -694,6 +713,8 @@ diviem, iegūst visus naturālos skaitļus no $1$ līdz $15$ ieskaitot?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PositiveIntegers, TotalOrder, ProofByContradiction, PigeonholePrinciple
+* _readingDifficulty: low
 
 </small>
 
@@ -714,7 +735,6 @@ skaitliskās vērtības ir dažādas, tātad šīs summas nevar pieņemt visas n
 vērtības no $1$ līdz $15$ ieskaitot.
 
 
-
 # <lo-sample/> LV.NOL.2005.9.5
 
 Ciparu virkni veido sekojoši: tās pirmie cipari ir $1;\ 2;\ 3;\ 4$, bet katrs 
@@ -730,6 +750,8 @@ $1;\ 2;\ 3;\ 4$?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _hasSolutionConcept: RecurrentSequence, PeriodicSequence, LastDigit, EvenOddParity, PigeonholePrinciple
+* _readingDifficulty: medium
 
 </small>
 
@@ -765,7 +787,6 @@ pirmais komplekts, kas atkārtojas - pretruna.
 Tātad $1;\ 2;\ 3;\ 4$ noteikti šajā secībā vēl kādreiz parādīsies mūsu virknē.
 
 
-
 # <lo-sample/> LV.NOL.2005.10.1
 
 Sākumā uz tāfeles uzrakstīti naturāli skaitļi no $1$ līdz $10$, katrs vienu 
@@ -797,7 +818,6 @@ Skaitli $2$ var iegūt, piemēram, aizstājot $1+2+3$ ar $0$ un
 $0+4+5+6+7+9+10=41$ ar $2$.
 
 
-
 # <lo-sample/> LV.NOL.2005.10.2
 
 Apzīmēsim $f(x)=x^{2}+px+q$. Pieņemsim, ka $a,\ b,\ c,\ d,\ e$ - kāda piecstūra
@@ -822,7 +842,6 @@ $f\left(x_{1}\right)=f\left(x_{2}\right)$ (kur $x_{1} \neq x_{2}$) tad un tikai
 tad, ja $\frac{x_{1}+x_{2}}{2}=x_{0}$, kur $x_{0}$ - parabolas virsotnes 
 abscisa. No dotā seko, ka $a+b+c+d+e=2x_{0}$. No tā savukārt seko visas 
 vajadzīgās vienādības.
-
 
 
 # <lo-sample/> LV.NOL.2005.10.3
@@ -851,7 +870,6 @@ $B$ uzvaru daudzumi būtu vienādi, $A$ jābūt zaudējušam pret kādu no
 dalībniekiem, pret kuru $B$ ir uzvarējis, šo dalībnieku varam apzīmēt ar $C$.
 
 
-
 # <lo-sample/> LV.NOL.2005.10.4
 
 Uz izliekta četrstūra $ABCD$ diagonāļu pagarinājumiem ņemti tādi punkti $M$ un 
@@ -876,7 +894,6 @@ $\frac{OB}{OD}=\frac{OA}{ON}$ un $\frac{OD}{OC}=\frac{OM}{OA}$
 
 Sareizinot šīs vienādības, iegūstam $\frac{OB}{OC}=\frac{OM}{ON}$, no kā seko 
 vajadzīgais.
-
 
 
 # <lo-sample/> LV.NOL.2005.10.5
@@ -914,7 +931,6 @@ To, ka $n=9$ der, parāda piemērs $1;\ 2;\ 3;\ 5;\ 10;\ 20;\ 25;\ 50;\ 100$ (ir
 arī citi piemēri).
 
 
-
 # <lo-sample/> LV.NOL.2005.11.1
 
 Aprēķināt $\sqrt{2005 \cdot 2003 \cdot 1999 \cdot 1997+36}$.
@@ -931,7 +947,6 @@ Aprēķināt $\sqrt{2005 \cdot 2003 \cdot 1999 \cdot 1997+36}$.
 Apzīmēsim $a=2001$. Tad zemsaknes izteiksme ir
 $(a+4)(a+2)(a-2)(a-4)+36=\left(a^{2}-16\right)\left(a^{2}-4\right)+36=a^{4}-20a^{2}+100=\left(a^{2}-10\right)^{2}$,
 tāpēc uzdevuma atbilde ir $\left|a^{2}-10\right|=2001^{2}-10=4003991$.
-
 
 
 # <lo-sample/> LV.NOL.2005.11.2
@@ -971,7 +986,6 @@ Tātad viena no tām ir $\alpha \cdot \frac{1+\sqrt{5}}{2}=\mathrm{z}$. Tātad
 visi apskatāmā intervāla punkti ir vajadzīgā tipa vienādojumu saknes.
 
 
-
 # <lo-sample/> LV.NOL.2005.11.3
 
 Naturālu skaitli $n$ sauksim par līdzsvarotu, ja tā visus naturālos dalītājus 
@@ -1005,7 +1019,6 @@ aizvien jaunus līdzsvarotus skaitļus (piemēram, nākošais varētu būt
 $120 \cdot 7=840$).
 
 
-
 # <lo-sample/> LV.NOL.2005.11.4
 
 Četrstūris $ABCD$ ievilkts riņķa līnijā. Zināms, ka 
@@ -1031,7 +1044,6 @@ summa ir $180^{\circ}$). Tāpēc $\triangle CNA=\triangle CDA\ (m \ell m)$; tāt
 $NA=DA$. No tā seko vajadzīgais.
 
 ![](LV.NOL.2005.11.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2005.11.5
@@ -1072,7 +1084,6 @@ rādītāja kustības virzienā, sākot ar to, kura stāv viņam vienu pozīciju
 priekšā, tad savstarpēju simpātiju nav.
 
 
-
 # <lo-sample/> LV.NOL.2005.12.1
 
 Atrisināt pozitīvos skaitļos vienādojumu
@@ -1096,7 +1107,6 @@ $$a\left(1-x+\frac{1}{x}\right)=0$$
 
 Tā kā pie $x>0$ arī $a>0$, iegūstam $1-x+\frac{1}{x}=0$, no kurienes 
 $x=\frac{1+\sqrt{5}}{2}$ (otra sakne neder, jo $x>0$).
-
 
 
 # <lo-sample/> LV.NOL.2005.12.2
@@ -1134,7 +1144,6 @@ a_{1051}<45-\frac{225}{45}=40 & a_{1876}<15-\frac{75}{15}=10 \\
 a_{1251}<40-\frac{200}{40}=35 & a_{1976}<10-\frac{100}{10}=0 \text { - pretruna. } \\
 a_{1426}<35-\frac{175}{35}=30 &
 \end{array}$$
-
 
 
 # <lo-sample/> LV.NOL.2005.12.3
@@ -1175,7 +1184,6 @@ $(m+1)$ un $k$, tas neatstās nekādu iespaidu uz vieninieka kustību. Tālāk
 atsaucamies uz induktīvo hipotēzi.
 
 
-
 # <lo-sample/> LV.NOL.2005.12.4
 
 Dots, ka $AB$ - riņķa līnijas diametrs; $M$ - diametra punkts, kas atšķiras no 
@@ -1203,7 +1211,6 @@ diametrs. Tāpēc $\sphericalangle LKS=90^{\circ}$. Tātad $LK \perp KS$ un
 $AB \perp KS$; tātad $LK \parallel AB$, k.b.j.
 
 ![](LV.NOL.2005.12.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2005.12.5
@@ -1246,4 +1253,3 @@ tāpēc $b-L=\frac{1}{b+L}$
 
 Acīmredzot tas nav iespējams, jo $b-L \in Z$, bet $b+L>3$, tāpēc 
 $\frac{1}{b+L} \notin Z$.
-

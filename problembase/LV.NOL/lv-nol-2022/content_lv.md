@@ -7,6 +7,8 @@ sadalīts ne vairāk kā $3$ daļās?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, ArithmeticMean, NumberPartitions
+* _readingDifficulty: low
 
 </small>
  
@@ -21,7 +23,6 @@ trešdaļa no cita virtuļa (tas ir, $6$ virtuļus jāgriež divās daļās
 un $4$ virtuļus jāgriež trīs daļās).
 
 
-
 # <lo-sample/> LV.NOL.2022.5.2
 
 Vai var uzrakstīt rindā divus vieniniekus, divus divniekus un
@@ -34,6 +35,8 @@ trīs citi cipari?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, ExhaustiveCheck, DigitRepresentation
+* _readingDifficulty: low
 
 </small>
 
@@ -41,7 +44,6 @@ trīs citi cipari?
 ## Atrisinājums
 
 Jā, var, piemēram, $3 ; 1 ; 2 ; 1 ; 3 ; 2$.
-
 
 
 # <lo-sample/> LV.NOL.2022.5.3
@@ -57,6 +59,8 @@ pretējās virsotnes.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, QuadrilateralFamilies, GCD, CoprimeIntegers
+* _readingDifficulty: low
 
 </small>
 
@@ -73,7 +77,6 @@ rūtiņām.
 ![](LV.NOL.2022.5.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2022.5.4
 
 Zināms, ka $x$ un $y$ ir dažādi cipari. Atrast visus tādus ciparus
@@ -83,6 +86,8 @@ $x$ un $y$, ja zināms, ka skaitlis $4x7yx3y31x$ dalās ar $45$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, CaseAnalysis, CoprimeIntegers
+* _readingDifficulty: low
 
 </small>
 
@@ -111,7 +116,6 @@ gadījumus.
 Tātad $x=0$ un $y=9$ vai arī $x=5$ un $y=6$.
 
 
-
 # <lo-sample/> LV.NOL.2022.5.5
 
 Dagnis savā telefonā no $10$ klases biedriem ir saņēmis $54$ jaunas
@@ -122,6 +126,8 @@ klases biedri nav atsūtīujši vienādu skaitu jauno ziņu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PigeonholePrinciple, PositiveIntegers, ProofByContradiction
+* _readingDifficulty: low
 
 </small>
 
@@ -132,7 +138,6 @@ Pamatosim, ka prasītais nav iespējams. Ja katrs no $10$ klases biedriem būtu
 atsūtijis dažādu skaitu jauno ziņu, tad pavisam kopā Dagnis būtu saņēmis vismaz
 $1+2+3+4+5+6+7+8+9+$ $+10=55$ jaunas ziņas (ja tiek ņemts mazākais dažādo ziņu
 skaits), taču Dagnis ir saņēmis tikai $54$ jaunas ziņas.
-
 
 
 # <lo-sample/> LV.NOL.2022.6.1
@@ -148,6 +153,8 @@ $$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, PositiveIntegers, TotalOrder, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -165,7 +172,6 @@ Der, piemēram, $a=21, b=22, c=23, d=50$, tas ir,
 $\frac{20}{50}=\frac{2}{5}<\frac{21}{50}<\frac{22}{50}<\frac{23}{50}<\frac{1}{2}=\frac{25}{50}$.
 
 
-
 # <lo-sample/> LV.NOL.2022.6.2
 
 Vai var uzrakstīt rindā divus vieniniekus, divus divniekus, divus trijniekus un
@@ -178,6 +184,8 @@ citi cipari?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, DigitRepresentation, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -185,7 +193,6 @@ citi cipari?
 ## Atrisinājums
 
 Jā, var, piemēram, $2, 3, 4, 2, 1, 3, 1, 4$.
-
 
 
 # <lo-sample/> LV.NOL.2022.6.3
@@ -200,6 +207,8 @@ $Piezīme.$ Taisnstūra diagonāle ir nogrieznis, kas savieno taisnstūra pretē
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, GCD, CoprimeIntegers, QuadrilateralFamilies
+* _readingDifficulty: low
 
 </small>
 
@@ -214,7 +223,6 @@ taisnstūra $444 \times 777$ diagonāle iet caur $10 \cdot 111=1110$ rūtiņām.
 ![](LV.NOL.2022.6.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2022.6.4
 
 Sākumā auzu pārslu batoniņš veikalā maksāja $50$ centus. Pēc atlaides piešķiršanas visus
@@ -225,6 +233,8 @@ procentu atlaidi piešķīra, ja zināms, ka tā nepārsniedz $50 \%$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, DivisorsSet, RationalNumbers
+* _readingDifficulty: medium
 
 </small>
 
@@ -242,7 +252,6 @@ $50=\frac{19}{50}=\frac{38}{100}=38 \%$. Līdz ar to esam ieguvuši, ka auzu
 pārslu batoniņam pieškīra $38$ % atlaidi.
 
 
-
 # <lo-sample/> LV.NOL.2022.6.5
 
 Laboratorijā $64$ mēģenēs atrodas siekalu paraugi (siekalu daudzums paraugā ir
@@ -257,6 +266,8 @@ noskaidrot, kurā paraugā ir vīruss?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, FiniteSet, SetPartition
+* _readingDifficulty: medium
 
 </small>
 
@@ -278,7 +289,6 @@ mēģenes, no kurām vienā ir vīruss.)
 ![](LV.NOL.2022.6.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2022.7.1
 
 Aprēķināt laukumu četrstūrim, kuru ierobežo taisnes
@@ -288,6 +298,8 @@ Aprēķināt laukumu četrstūrim, kuru ierobežo taisnes
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CoordinatePlane, LinearFunction, PointLineSegmentRay, Triangle, QuadrilateralFamilies
+* _readingDifficulty: low
 
 </small>
 
@@ -306,7 +318,6 @@ laukuma vienības. Līdz ar to $S(ABCD)=10+7,5=17,5$ laukuma vienības.
 4.att.
 
 
-
 # <lo-sample/> LV.NOL.2022.7.2
 
 Vai visi naturāli skaitļi, kuru ciparu summa dalās ar $27$ , arī paši dalās ar $27$?
@@ -315,6 +326,8 @@ Vai visi naturāli skaitļi, kuru ciparu summa dalās ar $27$ , arī paši dalā
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, DigitSum, Counterexample, DigitRepresentation
+* _readingDifficulty: low
 
 </small>
 
@@ -323,7 +336,6 @@ Vai visi naturāli skaitļi, kuru ciparu summa dalās ar $27$ , arī paši dalā
 
 Nē, piemēram, skaitļa $9981$ ciparu summa ir $27$, tātad tā dalās ar $27$, bet pats
 skaitlis ar $27$ nedalās, jo $9981: 27=369$, $atl.$ $18$ .
-
 
 
 # <lo-sample/> LV.NOL.2022.7.3
@@ -335,6 +347,8 @@ $MA+MB+MC > \frac{1}{2} P_{ABC}$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TriangleInequality, Triangle, PointLineSegmentRay
+* _readingDifficulty: low
 
 </small>
 
@@ -361,7 +375,6 @@ $$\frac{1}{2} P_{ABC} < MA+MB+MC$$
 ![](LV.NOL.2022.7.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2022.7.4
 
 Pansionātam ir astoņi stāvi un tajā ir trīs lifti. Katrs lifts apstājas
@@ -373,6 +386,8 @@ var nokļūt jebkurā citā stāvā bez pārkāpšanas citā liftā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, ConnectedGraph, FiniteSet
+* _readingDifficulty: medium
 
 </small>
 
@@ -383,7 +398,6 @@ Jā, var, piemēram, liftu apstāšanās var būt tāda kā 6.att., kur ar " $x$
 atzīmēti stāvi, kuros lifts apstājas.
 
 ![](LV.NOL.2022.7.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2022.7.5
@@ -398,6 +412,8 @@ pavisam tika izspēlētas? Kas uzvarēja un kas zaudēja septītajā spēlē?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: StateSpaceProcess, Invariant, FiniteSequenceArrangement
+* _readingDifficulty: medium
 
 </small>
 
@@ -414,7 +430,6 @@ visās spēlēs). Tātad septītajā spēlē noteikti uzvarēja Ernests, bet
 zaudēja Miķelis.
 
 
-
 # <lo-sample/> LV.NOL.2022.8.1
 
 Kurš no reizinājumiem $2^{56} \cdot 7^{14}$ vai $3^{28} \cdot 5^{21}$ ir
@@ -424,6 +439,8 @@ lielāks?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PrimeNumbers, PrimeFactorization
+* _readingDifficulty: low
 
 </small>
 
@@ -440,7 +457,6 @@ Tā kā pirmā skaitļa bāze ir lielāka $12544<10125$, bet kāpinātāji abiem
 skaitļiem ir vienādi, tad lielāks ir pirmais reizinājums.
 
 
-
 # <lo-sample/> LV.NOL.2022.8.2
 
 Vai no taisnstūra ar izmēriem $6 \times 12$ rūtiņas var izgriezt astoņas
@@ -453,6 +469,8 @@ Vai no taisnstūra ar izmēriem $6 \times 12$ rūtiņas var izgriezt astoņas
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, LatticeGrid, Polygon
+* _readingDifficulty: low
 
 </small>
 
@@ -464,7 +482,6 @@ Jā, piemēram, skat. 8.att.
 ![](LV.NOL.2022.8.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2022.8.3
 
 Dots platleņķa vienādsānu trijstūris, kuram
@@ -474,6 +491,8 @@ $\sphericalangle ABC=20^{\circ}$. Pierādīt, ka $3AC>AB$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
+* _readingDifficulty: low
 
 </small>
 
@@ -490,7 +509,6 @@ nebūtu platleņķa. Apskatām abus iespējamos virsotņu izkārtojumus.
 ![](LV.NOL.2022.8.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2022.8.4
 
 Vai piecu secīgu veselu skaitļu summa var būt **a)** $2022$, **b)** $2025$?
@@ -499,6 +517,8 @@ Vai piecu secīgu veselu skaitļu summa var būt **a)** $2022$, **b)** $2025$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, WholeIntegers, VariableExpression
+* _readingDifficulty: low
 
 </small>
 
@@ -511,7 +531,6 @@ $(n-2)+(n-1)+n+(n+1)+(n+2)=5n$. Tā kā $2022$ nedalās ar $5$,
 tad piecu secīgu skaitļu summa nevar būt $2022$.
 
 **b)**Jā, var, šie pieci skaitļi ir $403 ; 404 ; 405 ; 406 ; 407$.
-
 
 
 # <lo-sample/> LV.NOL.2022.8.5
@@ -529,6 +548,8 @@ vienmēr var uzvarēt!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: SymmetryStrategy, GCD, CoprimeIntegers, SetPartition, GamePosition
+* _readingDifficulty: medium
 
 </small>
 
@@ -547,7 +568,6 @@ beigās paliks divi skaitļi no viena pāra, kas atškiras par $1$, bet
 šādu skaitļu lielākais kopīgais dalītājs ir $1$ .
 
 
-
 # <lo-sample/> LV.NOL.2022.9.1
 
 Kādām reālām $m$ vērtībām vienādojumam $2x^{2}+(2m+3)x+3m=0$ ir
@@ -557,6 +577,8 @@ vismaz viena vesela sakne?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticEquation, WholeIntegers, PolynomialAndRoots, VariableExpression
+* _readingDifficulty: low
 
 </small>
 
@@ -583,7 +605,6 @@ vienādojuma kreiso pusi:
 $$2x^{2}+(2 m+3)x+3m=2x^{2}+2mx+3x+3m=(m+x)(2x+3)$$
 
 
-
 # <lo-sample/> LV.NOL.2022.9.2
 
 Vai rūtiņu lapā, kur katras rūtiņas malas garums ir viena vienība, var uzzīmēt
@@ -594,6 +615,8 @@ laukums ir $60$ ?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Polygon, LatticeGrid, PointLineSegmentRay, ExistenceVsUniversal
+* _readingDifficulty: low
 
 </small>
 
@@ -606,7 +629,6 @@ un laukums $S=2 \cdot 24+3 \cdot 4=60$.
 ![](LV.NOL.2022.9.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2022.9.3
 
 Punkts $R$ ir nogriežņa $KO$ iekšējs punkts, punkts $P$ izvēlēts tā,
@@ -617,6 +639,8 @@ krustojas punktā $A$. Aprēķināt $\sphericalangle RAO$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Angle, PointLineSegmentRay, Triangle, TriangleSpecialLines
+* _readingDifficulty: low
 
 </small>
 
@@ -637,7 +661,6 @@ $\sphericalangle RAO=\sphericalangle KRA-x=x+40^{\circ}-x=40^{\circ}$.
 ![](LV.NOL.2022.9.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2022.9.4
 
 Pierādīt, ka katru $11$ pēc kārtas sekojošu naturālu skaitļu reizinājums
@@ -647,6 +670,8 @@ dalās ar $12^{4}$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, EvenOddParity, MultiplesSet
+* _readingDifficulty: low
 
 </small>
 
@@ -669,7 +694,6 @@ $9 \cdot 3 \cdot 3=3^{2} \cdot 3 \cdot 3=3^{4}$. Tātad šo $11$ skaitļu
 reizinājums dalās ar $2^{8} \cdot 3^{4}=12^{4}$.
 
 
-
 # <lo-sample/> LV.NOL.2022.9.5
 
 Dota $3 \times 3$ rūtiņu tabula. Vai iespējams katrā rūtiņā ierakstīt
@@ -681,6 +705,8 @@ rūtiņās, kurām ir kopīga mala, ierakstīto skaitļu starpība nepārsniedz
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, PositiveIntegers, ProofByContradiction
+* _readingDifficulty: low
 
 </small>
 
@@ -753,7 +779,6 @@ pietiek atrast taisnes $AB$ virziena koeficientu, piemēram,
 $k_{A B}=\frac{y_{A}-y_{B}}{x_{A}-x_{B}}$.
 
 
-
 # <lo-sample/> LV.NOL.2022.10.2
 
 Atrisināt reālos skaitļos vienādojumu $x^{3}-4 x^{2}+8=0$.
@@ -785,7 +810,6 @@ Katru reizinātāju pielīdzinot nullei, iegūstam, ka $x-2=0$ vai $x^{2}-2x-4=0
 Vienādojumu $x^{2}-2x-4=0$ risinām, atrodot diskriminantu $D=4+16=20$,
 tad $x_{2 ; 3}=\frac{2 \pm 2 \sqrt{5}}{2}=1 \pm \sqrt{5}$. Tātad esam ieguvuši,
 ka dotā vienādojuma saknes ir $x_{1}=2$ un $x_{2 ; 3}=1 \pm \sqrt{5}$.
-
 
 
 # <lo-sample/> LV.NOL.2022.10.3
@@ -823,7 +847,6 @@ $\sphericalangle ADY=\sphericalangle DYX=180^{\circ}-\sphericalangle XYC=\spheri
 
 Tā kā četrstūra $ABCD$ pretējie leņki ir pa pāriem vienāda lieluma, tad tas
 ir paralelograms, kas arī bija jāpierāda.
-
 
 
 # <lo-sample/> LV.NOL.2022.10.4
@@ -869,7 +892,6 @@ ar $8$ , tas nozīmē, ka tā dalās arī ar $24$.
 $Piezīme.$ b) gadījumā, lai atrastu skaitli $k$, var izmantot a) gadījumā
 izmantotos spriedumus, tas ir, meklēt $k$ kā saliktu nepāra skaitli, kas
 nedalās ar $3$.
-
 
 
 # <lo-sample/> LV.NOL.2022.10.5
@@ -926,7 +948,6 @@ Lai to izdarītu, pietiek šai summai pievienot $96$ un no tās izņemt $15$
 (ir, protams, arī citi varianti).
 
 
-
 # <lo-sample/> LV.NOL.2022.11.1
 
 Punkts $P$ atrodas paralelograma $ABCD$ iekšpusē. Pierādīt, ka
@@ -952,7 +973,6 @@ $$\overrightarrow{PA}+\overrightarrow{PC}-\overrightarrow{PB}-\overrightarrow{PD
 Līdz ar to esam pierādījuši prasīto.
 
 ![](LV.NOL.2022.11.1A.png)
-
 
 
 # <lo-sample/> LV.NOL.2022.11.2
@@ -1004,7 +1024,6 @@ x^{4}-1=3\left(x^{3}+x^{2}+x+1\right) \\
 \end{gathered}$$
 
 
-
 # <lo-sample/> LV.NOL.2022.11.3
 
 Trapeces $ABCD$ pamati ir $AB$ un $CD$. Diagonāles $AC$ un $BD$ krustojas
@@ -1043,7 +1062,6 @@ $$S_{ABE} \cdot S_{ABCD}=a(a+b+2c)=a^{2}+ab+2ac=a^{2}+c^{2}+2ac=(a+c)^{2}=S_{ABC
 ![](LV.NOL.2022.11.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2022.11.4
 
 Zināms, ka $x$ un $y$ ir naturāli skaitļi un $x+y$ dalās ar $5$. Pierādīt, ka
@@ -1072,7 +1090,6 @@ $\quad x^{5}+y^{5}=(x+y)^{5}-5(x+y)xy\left(x^{2}+xy+y^{2}\right)$
 Tā kā pēc dotā $x+y$ dalās ar $5$, tad izteiksmes labajā pusē abi saskaitāmie
 dalās ar $25$, tātad izteiksmes labā puse dalās ar $25$. Līdz ar to arī
 izteiksmes kreisajai pusei jādalās ar $25$.
-
 
 
 # <lo-sample/> LV.NOL.2022.11.5
@@ -1108,7 +1125,6 @@ Tā kā $2022:17=118$, $atl.$ $16$, tad $119.$ skaitļu grupa beidzas ar
 $119 \cdot 17=2023$. Uzrakstot pēdējā skaitļu grupā visus skaitļus bez šī
 pēdējā skaitļa $2023$, būsim ieguvuši visu skaitļu no $1$ līdz $2022$
 sakārtojumu rindā ar nepieciešamajām īpašībām.
-
 
 
 # <lo-sample/> LV.NOL.2022.12.1
@@ -1152,7 +1168,6 @@ katru jautājumu-divi varianti). No tiem derīgi ir tikai tie, kuros ir $1$
 nepareiza atbilde ($4$ varianti) vai $0$ nepareizas atbildes ($1$ variants).
 Tātad kopumā ir derīgi $5$ no $16$ atbilžu komplektiem, un varbūtība, ka tests
 tiks ieskaitīts, ir $\frac{5}{16}$.
-
 
 
 # <lo-sample/> LV.NOL.2022.12.2
@@ -1236,7 +1251,6 @@ riņķa līnijas atrodas arī punkts $F$.
 ![](LV.NOL.2022.12.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2022.12.4
 
 Pierādīt, ka $p^{4}-1$ dalās ar $240$ katram pirmskaitlim $p \geq 7$.
@@ -1307,7 +1321,6 @@ teorēmu: ja skaitlis $a$ nedalās ar pirmskaitli $n$, tad $a^{n-1}-1$ dalās
 ar $n$.
 
 
-
 # <lo-sample/> LV.NOL.2022.12.5
 
 Sākumā turzā ir $89$ konfektes. Karlsons un Brālītis pēc kārtas ēd no turzas
@@ -1341,4 +1354,3 @@ būt $2+3+4+\ldots+9=44$ konfektes. Tātad abi kopā viņi būs apēduši $81$ l
 $89$ konfektes un turzā būs atlikušas $0$ līdz $8$ konfektes. Tā kā gājiens ir
 Brālītim un viņam ir jāņem $9$ vai $10$ konfektes, tad viņš savu gājienu izdarīt
 vairs nevar, jo nepietiek konfekšu, un zaudē.
-
