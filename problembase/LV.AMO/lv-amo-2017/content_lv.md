@@ -1263,6 +1263,7 @@ pirmskaitļi, tad trešais skaitlis dalās ar $6$.
 
 * topic:DivisibilityProperties
 * topic:ArithmeticSeriesAll
+* domain:NT
 * questionType:Prove
 * concepts:primes
 

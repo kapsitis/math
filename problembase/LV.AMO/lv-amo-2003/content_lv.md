@@ -646,8 +646,8 @@ divas dažādas saknes.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Alg
 * _hasSolutionConcept: QuadraticEquation, PositiveAndNegative, ExistenceVsUniversal
 * _readingDifficulty: low
 
@@ -1125,8 +1125,8 @@ ar veselu skaitu centimetru.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1155,8 +1155,8 @@ dalītāju, kas dod atlikumu $2$, dalot ar $3$?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:ProveDisprove
+* domain:NT
 
 </small>
 
@@ -1180,8 +1180,8 @@ viduspunkts. Pierādīt, ka $\sphericalangle MKN=90^{\circ}$.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:Prove
+* domain:Geom
 
 </small>
 
@@ -1212,8 +1212,8 @@ $y+z=u^{2},\ z+u=v^{2},\ u+v=x^{2},\ v+x=y^{2}$ pozitīvos skaitļos.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
 
 </small>
 
@@ -1243,8 +1243,8 @@ Kādu lielāko summu $S$ var sasniegt spēlētājs $A$?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Comb
 
 </small>
 
