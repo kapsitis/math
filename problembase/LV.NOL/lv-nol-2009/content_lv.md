@@ -13,6 +13,7 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -41,6 +42,7 @@ pārklāties un saliktā kvadrāta iekšpusē nedrīkst palikt tukšumi.
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, LatticeGrid, Polygon, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -75,6 +77,7 @@ vienai reizei ciparus $0;\ 1;\ 2;\ 3;\ 4;\ 5$?
 * domain:
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, LastDigit, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -101,6 +104,7 @@ būtu lielāks par visās savās kaimiņu rūtiņās ierakstītajiem?
 * domain:
 * _hasSolutionConcept: ChessboardColoring, Coloring, PositiveIntegers
 * _readingDifficulty: low
+* _domain: Comb,Geom
 
 </small>
 
@@ -125,6 +129,7 @@ sistēmā?
 * domain:
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -149,6 +154,7 @@ $3 \times 3$ rūtiņām sastāvošā kvadrātā būtu tieši viena melna rūtiņ
 * domain:
 * _hasSolutionConcept: Coloring, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -175,6 +181,7 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 * domain:
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -201,6 +208,7 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 * domain:
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -230,6 +238,7 @@ nepāra?
 * domain:
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, CaseAnalysis, ProofByContradiction
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -262,6 +271,7 @@ mazākais iespējamais.)
 * domain:
 * _hasSolutionConcept: ProofByContradiction, DivisibilityRelation, WholeIntegers, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -304,6 +314,7 @@ $x=a^{3}, y=b^{5}$, $a$ un $b$ naturāli skaitļi?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, CoprimeIntegers, GCD
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -340,6 +351,7 @@ skaitļu summu. Šādus gājienus atkārto, līdz rindā paliek tikai viens skai
 * domain:
 * _hasSolutionConcept: Invariant, FiniteSequenceArrangement
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -370,6 +382,7 @@ skaitļa dalītājiem pieskaita gan viņu pašu, gan vieninieku.)
 * domain:NT
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PrimeFactorization, PrimeNumbers, CaseAnalysis
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -421,6 +434,7 @@ virzieniem, nebūtu perpendikulāri viens otram?
 * domain:
 * _hasSolutionConcept: LatticeGrid, Coloring, ParallelPerpendicular, OptimumProofStructure, CaseAnalysis
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -472,6 +486,7 @@ Jūsu atrastajiem plāniem.)
 * domain:
 * _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, DecisionTree
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -515,6 +530,7 @@ ierakstīto skaitļu summa būs $64$.
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: Invariant, LatticeGrid, Permutation, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -573,6 +589,7 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 * domain:
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, LinearInequality
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -594,6 +611,7 @@ Atrodiet skaitļa $113^{113}-19^{19}$ pēdējo ciparu.
 * domain:
 * _hasSolutionConcept: LastDigit, DigitRepresentation, PeriodicSequence
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -626,6 +644,7 @@ iepriekšējās reizēs. Pierādiet, ka svari atkal nostāsies līdzsvarā.
 * domain:
 * _hasSolutionConcept: EquationSystem, VariableExpression, SetIntersection, SetDifference
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -655,6 +674,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC>AB$.
 * domain:
 * _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -696,6 +716,7 @@ Kāds ir mazākais iespējamais $\triangle ABC$ laukums?
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -723,6 +744,7 @@ naturālā skaitļa kvadrātu?
 * domain:
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, DivisibilityRelation, GCD, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -750,6 +772,7 @@ un tikai tad, ja $R^{2}+r^{2}=d^{2}$.
 * domain:
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, ParallelPerpendicular, PythagoreanTheorem, NecessarySufficient
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -790,6 +813,7 @@ nevienādība $x^{2}+px+q \geq-1$
 * domain:
 * _hasSolutionConcept: QuadraticEquation, PolynomialAndRoots, QuadraticFunction, PositiveAndNegative
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -828,6 +852,7 @@ pazīst $Y$, tad arī $Y$ pazīst $X$.
 * domain:
 * _hasSolutionConcept: GraphConcept, VertexDegree, PigeonholePrinciple, EvenOddParity, Counterexample
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 

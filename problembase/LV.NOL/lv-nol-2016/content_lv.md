@@ -11,6 +11,7 @@ $$\frac{5}{16}; \frac{\square}{5}; \frac{3}{4}$$
 * domain:
 * _hasSolutionConcept: RationalNumbers, LCM, DivisibilityRelation, PositiveIntegers
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -37,6 +38,7 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $8$; **(B)** $18$?
 * domain:
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, EvenOddParity, CoprimeIntegers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -68,6 +70,7 @@ malas garums ir $1~\mathrm{cm}$, ir nepieciešami, lai aplīmētu visu šo figū
 * domain:
 * _hasSolutionConcept: BasicSolids, Tiling, CountingSumRule, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -104,6 +107,7 @@ $$\begin{aligned}
 * domain:
 * _hasSolutionConcept: PositiveIntegers, EquationSystem, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -124,6 +128,7 @@ dalījuma līnijas ietu pa rūtiņu līnijām!
 * domain:
 * _hasSolutionConcept: Tiling, QuadrilateralFamilies, LatticeGrid
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -146,6 +151,7 @@ Olafam. Cik naudas ir katram brālim?
 * domain:
 * _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -179,6 +185,7 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $9$; **(B)** $24$?
 * domain:
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, DivisibilityRelation, CoprimeIntegers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -209,6 +216,7 @@ $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9;\ 10$ vienības!
 * domain:
 * _hasSolutionConcept: Polygon, LatticeGrid, PointLineSegmentRay
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -231,6 +239,7 @@ vieglāko, gan pašu smagāko monētu?
 * domain:
 * _hasSolutionConcept: TotalOrder, SetPartition, FiniteSet
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -269,6 +278,7 @@ pareizu reizināšanas piemēru! Neviens skaitlis tajā nedrīkst sākties ar $0
 * domain:
 * _hasSolutionConcept: DigitRepresentation, LastDigit, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -308,6 +318,7 @@ nekā Bruno, Cildai ir vairāk naudas nekā Aivaram, Dainai - vairāk nekā Cild
 * domain:
 * _hasSolutionConcept: DivisionWithRemainder, TotalOrder, Counterexample
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -340,6 +351,7 @@ kas dalās ar $99$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, CoprimeIntegers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -375,6 +387,7 @@ sakrīt.
 * domain:
 * _hasSolutionConcept: AxialSymmetry, Polygon, Rotation
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -400,6 +413,7 @@ pārējām? Pašu monētu atrast nav nepieciešams.
 * seeAlso:LV.SOL.2020.9.3
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -435,6 +449,7 @@ izpildās vienādības $a+b=cd$ un $ab=c+d$ ?
 * domain:Alg
 * _hasSolutionConcept: WholeIntegers, EquationSystem, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -477,6 +492,7 @@ Aprēķini izteiksmes $\sqrt{a-b}+\sqrt{b-c}+\sqrt{c-d}+\sqrt{d-a}$ vērtību!
 * domain:
 * _hasSolutionConcept: VariableExpression, IrrationalAndReals, LinearInequality, TotalOrder
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -504,6 +520,7 @@ $104$. Pierādi, ka otrais skaitlis $BURBUĻUVANNA$ nedalās ar $56$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DivisibilityRelation, DigitRepresentation, ProofByContradiction
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -551,6 +568,7 @@ $P$ atrodas uz $AD,\ Q$ - uz $BC$ un $PQ=QD$. Pierādīt, ka $DP=2AP$.
 * domain:
 * _hasSolutionConcept: QuadrilateralFamilies, ParallelogramProperties, TriangleCongruence, TriangleSpecialLines
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -578,6 +596,7 @@ pati sevi krustot vai pieskarties.
 * domain:
 * _hasSolutionConcept: Coloring, Invariant, LatticeGrid, Polygon, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -615,6 +634,7 @@ tieši $3$ centi nevar iegūt pēc PVN pievienošanas.
 * domain:
 * _hasSolutionConcept: RationalNumbers, FunctionConcept, FiniteSet, CountingSumRule
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -648,6 +668,7 @@ koordinātas!
 * domain:
 * _hasSolutionConcept: LinearFunction, InverseProportion, QuadraticEquation, VietasFormulas, CoordinatePlane
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -683,6 +704,7 @@ vairākus (vismaz divus), kuru summa dalās ar $4$.
 * domain:
 * _hasSolutionConcept: ModularArithmetic, DivisionWithRemainder, EvenOddParity, PigeonholePrinciple, CaseAnalysis
 * _readingDifficulty: low
+* _domain: NT,Comb
 
 </small>
 
@@ -734,6 +756,7 @@ Aprēķināt $\sphericalangle BAC$ lielumu!
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, TriangleAngleSum, Angle
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -774,6 +797,7 @@ Cik partijas izspēlēja Uzrocis?
 * domain:
 * _hasSolutionConcept: Invariant, EvenOddParity, FiniteSequenceArrangement
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -803,6 +827,7 @@ vērtība būtu $0$?
 * domain:
 * _hasSolutionConcept: PerfectSquares, DivisibilityRelation, FiniteSequenceArrangement
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 

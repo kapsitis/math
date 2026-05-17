@@ -9,6 +9,7 @@ sadalīts ne vairāk kā $3$ daļās?
 * domain:
 * _hasSolutionConcept: RationalNumbers, ArithmeticMean, NumberPartitions
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
  
@@ -37,6 +38,7 @@ trīs citi cipari?
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, ExhaustiveCheck, DigitRepresentation
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -61,6 +63,7 @@ pretējās virsotnes.
 * domain:
 * _hasSolutionConcept: LatticeGrid, QuadrilateralFamilies, GCD, CoprimeIntegers
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -88,6 +91,7 @@ $x$ un $y$, ja zināms, ka skaitlis $4x7yx3y31x$ dalās ar $45$.
 * domain:
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, CaseAnalysis, CoprimeIntegers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -128,6 +132,7 @@ klases biedri nav atsūtīujši vienādu skaitu jauno ziņu?
 * domain:
 * _hasSolutionConcept: PigeonholePrinciple, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -155,6 +160,7 @@ $$
 * domain:
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, TotalOrder, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -186,6 +192,7 @@ citi cipari?
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, DigitRepresentation, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -209,6 +216,7 @@ $Piezīme.$ Taisnstūra diagonāle ir nogrieznis, kas savieno taisnstūra pretē
 * domain:
 * _hasSolutionConcept: LatticeGrid, GCD, CoprimeIntegers, QuadrilateralFamilies
 * _readingDifficulty: low
+* _domain: Geom,NT
 
 </small>
 
@@ -235,6 +243,7 @@ procentu atlaidi piešķīra, ja zināms, ka tā nepārsniedz $50 \%$?
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, DivisorsSet, RationalNumbers
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -268,6 +277,7 @@ noskaidrot, kurā paraugā ir vīruss?
 * domain:
 * _hasSolutionConcept: DecisionTree, FiniteSet, SetPartition
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -300,6 +310,7 @@ Aprēķināt laukumu četrstūrim, kuru ierobežo taisnes
 * domain:
 * _hasSolutionConcept: CoordinatePlane, LinearFunction, PointLineSegmentRay, Triangle, QuadrilateralFamilies
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -328,6 +339,7 @@ Vai visi naturāli skaitļi, kuru ciparu summa dalās ar $27$ , arī paši dalā
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, DigitSum, Counterexample, DigitRepresentation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -349,6 +361,7 @@ $MA+MB+MC > \frac{1}{2} P_{ABC}$.
 * domain:
 * _hasSolutionConcept: TriangleInequality, Triangle, PointLineSegmentRay
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -388,6 +401,7 @@ var nokļūt jebkurā citā stāvā bez pārkāpšanas citā liftā?
 * domain:
 * _hasSolutionConcept: GraphConcept, ConnectedGraph, FiniteSet
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -414,6 +428,7 @@ pavisam tika izspēlētas? Kas uzvarēja un kas zaudēja septītajā spēlē?
 * domain:
 * _hasSolutionConcept: StateSpaceProcess, Invariant, FiniteSequenceArrangement
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -441,6 +456,7 @@ lielāks?
 * domain:
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -471,6 +487,7 @@ Vai no taisnstūra ar izmēriem $6 \times 12$ rūtiņas var izgriezt astoņas
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, LatticeGrid, Polygon
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -493,6 +510,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādīt, ka $3AC>AB$.
 * domain:
 * _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -519,6 +537,7 @@ Vai piecu secīgu veselu skaitļu summa var būt **a)** $2022$, **b)** $2025$?
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, WholeIntegers, VariableExpression
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -550,6 +569,7 @@ vienmēr var uzvarēt!
 * domain:
 * _hasSolutionConcept: SymmetryStrategy, GCD, CoprimeIntegers, SetPartition, GamePosition
 * _readingDifficulty: medium
+* _domain: NT,Comb
 
 </small>
 
@@ -579,6 +599,7 @@ vismaz viena vesela sakne?
 * domain:
 * _hasSolutionConcept: QuadraticEquation, WholeIntegers, PolynomialAndRoots, VariableExpression
 * _readingDifficulty: low
+* _domain: Alg,NT
 
 </small>
 
@@ -617,6 +638,7 @@ laukums ir $60$ ?
 * domain:
 * _hasSolutionConcept: Polygon, LatticeGrid, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -641,6 +663,7 @@ krustojas punktā $A$. Aprēķināt $\sphericalangle RAO$.
 * domain:
 * _hasSolutionConcept: Angle, PointLineSegmentRay, Triangle, TriangleSpecialLines
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -672,6 +695,7 @@ dalās ar $12^{4}$.
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, EvenOddParity, MultiplesSet
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -707,6 +731,7 @@ rūtiņās, kurām ir kopīga mala, ierakstīto skaitļu starpība nepārsniedz
 * domain:
 * _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
+* _domain: Comb,Geom
 
 </small>
 

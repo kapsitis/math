@@ -11,6 +11,7 @@ $\overline{xzy}<\overline{yaz}<\overline{yax}<\overline{zxa}$?
 * domain:
 * _hasSolutionConcept: DigitRepresentation, TotalOrder, ProofByContradiction
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -44,6 +45,7 @@ labajā pusē piezīmējot klāt vienu 2.att. doto figūru.
 * domain:
 * _hasSolutionConcept: Polygon, ArithmeticProgression, DivisibilityRelation, DivisionWithRemainder
 * _readingDifficulty: low
+* _domain: Geom,Alg
 
 </small>
 
@@ -94,6 +96,7 @@ Sagriez 5.att. doto figūru divpadsmit 6.att. figūrās!
 * domain:
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, PlaneTransformation
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -117,6 +120,7 @@ $11$, **b)** $12$?
 * domain:
 * _hasSolutionConcept: LatticeGrid, PositiveIntegers, ProofByContradiction, Counterexample
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -154,6 +158,7 @@ Atrodi tādu trīsciparu skaitli, kam vienlaicīgi izpildās tālāk dotie nosac
 * domain:
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation, LCM
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -179,6 +184,7 @@ Aprēķini iegūtās figūras perimetru!
 * domain:
 * _hasSolutionConcept: QuadrilateralFamilies, Polygon, PointLineSegmentRay
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -202,6 +208,7 @@ Atrodi skaitļa $1^{3}+3^{3}+5^{3}+\cdots+101^{3}$ pēdējo ciparu!
 * domain:
 * _hasSolutionConcept: LastDigit, DigitRepresentation, PerfectCubes, DivisionWithRemainder
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -242,6 +249,7 @@ pagriezt.
 * domain:
 * _hasSolutionConcept: Tiling, Rotation, Rectangle
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -265,6 +273,7 @@ $14$, **b)** $15$?
 * domain:
 * _hasSolutionConcept: LatticeGrid, PositiveIntegers, ProofByContradiction, Counterexample
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -297,6 +306,7 @@ dalās ar $8$?
 * domain:
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -346,6 +356,7 @@ $(14; -2006)$ un krusto doto taisni punktā, kura abscisa ir $0$.
 * domain:
 * _hasSolutionConcept: LinearFunction, CoordinatePlane, PointLineSegmentRay
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -371,6 +382,7 @@ ka iegūtās izteiksmes vērtība ir **a)** $4$; **b)** $1$?
 * domain:
 * _hasSolutionConcept: EvenOddParity, Invariant, FiniteSequenceArrangement
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -407,6 +419,7 @@ trīs 16.att. figūrām un divpadsmit 17.att. figūrām? Figūras drīkst pagrie
 * domain:
 * _hasSolutionConcept: Tiling, ChessboardColoring, EvenOddParity, Invariant
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -448,6 +461,7 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 * domain:
 * _hasSolutionConcept: OptimumProofStructure, LatticeGrid, FiniteSequenceArrangement, ProofByContradiction
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -479,6 +493,7 @@ reizes mazāka nekā skaitļa $n$ ciparu summa!
 * domain:
 * _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRules, DivisibilityRelation, EvenOddParity
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -509,6 +524,7 @@ stundām vairāk nekā atpakaļceļā!
 * domain:
 * _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -549,6 +565,7 @@ lielākais naturālais skaitlis, kuru nevar iegūt uz kalkulatora ekrāna?
 * domain:
 * _hasSolutionConcept: FrobeniusType, ExhaustiveCheck, OptimumProofStructure, PositiveIntegers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -587,6 +604,7 @@ Aprēķini trijstūra $ABC$ leņķus!
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -626,6 +644,7 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 * domain:
 * _hasSolutionConcept: OptimumProofStructure, ProofByContradiction, LatticeGrid, GraphConcept, PositiveIntegers
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -659,6 +678,7 @@ no iespējām pastāv īstenībā?
 * domain:
 * _hasSolutionConcept: CaseAnalysis, DecisionTree, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -693,6 +713,7 @@ mazāks nekā $30~\mathrm{cm}$. Kāds var būt trijstūra sānu malas garums?
 * domain:
 * _hasSolutionConcept: Triangle, TriangleInequality, LinearInequality
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -724,6 +745,7 @@ $\frac{1}{1 \cdot 3}+\frac{1}{3 \cdot 5}+\frac{1}{5 \cdot 7}+\ldots+\frac{1}{201
 * domain:
 * _hasSolutionConcept: RationalNumbers, NumberSequence, VariableExpression
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -762,6 +784,7 @@ $\omega_{2}$ diametru garumu attiecību $\frac{AB}{AC}$.
 * domain:
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, ParallelPerpendicular, PythagoreanTheorem, AxialSymmetry
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -821,6 +844,7 @@ atrastos tieši $k$ citas kartītes. Vai kartītes var salikt prasītajā veidā
 * domain:
 * _hasSolutionConcept: EvenOddParity, Invariant, FiniteSequenceArrangement, ProofByContradiction
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -867,6 +891,7 @@ tabulā ierakstīto skaitļu summa ir kāda naturāla skaitļa kubs!
 * domain:
 * _hasSolutionConcept: PerfectCubes, LatticeGrid, AxialSymmetry, ArithmeticProgression
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 

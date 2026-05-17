@@ -13,6 +13,7 @@ $$\mathbf{123456789=19}$$
 * domain:
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -36,6 +37,7 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -66,6 +68,7 @@ pārī meitene garāka par zēnu?
 * domain:
 * _hasSolutionConcept: TotalOrder, OrderedPair, Counterexample, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -112,6 +115,7 @@ viena ar otru.
 * domain:
 * _hasSolutionConcept: Tiling, DivisorsSet, PrimeNumbers
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -136,6 +140,7 @@ virsotnes, kura malas vērstas bultiņu virzienos?
 * domain:
 * _hasSolutionConcept: LatticeGrid, QuadrilateralFamilies, FiniteSet, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -162,6 +167,7 @@ bija guvušas abas komandas kopā?
 * domain:
 * _hasSolutionConcept: ArithmeticMean, LinearEquation
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -186,6 +192,7 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 * domain:
 * _hasSolutionConcept: Tiling, LatticeGrid, CountingProductRule
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -212,6 +219,7 @@ Vai eksistē tādi naturāli skaitļi $x$ un $y$, ka
 * domain:
 * _hasSolutionConcept: EvenOddParity, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -234,6 +242,7 @@ $1234567 \ldots$?
 * domain:
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, PositiveIntegers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -261,6 +270,7 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 * domain:
 * _hasSolutionConcept: Coloring, GraphConcept, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -290,6 +300,7 @@ $x=a^{3},\ y=b^{4},\ a$ un $b$ - naturāli skaitļi?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, PerfectCubes, PrimeFactorization
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -320,6 +331,7 @@ ka Maija noteikti ēd torti sev visizdevīgākajā veidā.
 * domain:
 * _hasSolutionConcept: GamePosition, DecisionTree, CaseAnalysis, Counterexample
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -345,6 +357,7 @@ vidējais svars ir $71~\mathrm{kg}$. Pierādīt, ka cīkstoņu skaits dalās ar 
 * domain:Alg
 * _hasSolutionConcept: ArithmeticMean, LinearEquation, DivisibilityRelation, GCD, CoprimeIntegers
 * _readingDifficulty: low
+* _domain: Alg,NT
 
 </small>
 
@@ -374,6 +387,7 @@ Vai eksistē
 * domain:
 * _hasSolutionConcept: Polygon, Triangle, QuadrilateralFamilies, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -397,6 +411,7 @@ no otra tieši par $1$. Kāda ir lielākā iespējamā $n$ vērtība?
 * domain:
 * _hasSolutionConcept: EvenOddParity, ChessboardColoring, Invariant, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Geom,NT
 
 </small>
 
@@ -433,6 +448,7 @@ laimīgi. Pierādīt, ka viens no tiem dalās ar $10$.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DigitSum, EvenOddParity, DivisibilityRules, ProofByContradiction
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -460,6 +476,7 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: ChessboardColoring, Coloring, EvenOddParity, Invariant
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -483,6 +500,7 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 * domain:
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, LinearInequality
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -507,6 +525,7 @@ cepuri viņa valkāja iepriekšējā dienā?
 * domain:
 * _hasSolutionConcept: PeriodicSequence, DivisionWithRemainder, FiniteSequenceArrangement
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -534,6 +553,7 @@ $K$. Pierādīt, ka $K$ atrodas uz $\sphericalangle ABC$ bisektrises.
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, TriangleCongruence, Angle
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -560,6 +580,7 @@ $3^{32}-2^{32}$.
 * domain:
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DiffOfSquaresFactoring, PrimeFactorization
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -588,6 +609,7 @@ Kāds ir mazākais iespējamais $\triangle ABC$ laukums?
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -620,6 +642,7 @@ $n$ reizes.
 * domain:
 * _hasSolutionConcept: UnorderedSelection, FiniteSet, Polygon, Triangle
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -647,6 +670,7 @@ sakņu kvadrātu summa vienāda ar otrā kvadrāttrinoma sakņu kvadrātu summu.
 * domain:
 * _hasSolutionConcept: VietasFormulas, QuadraticEquation, PolynomialAndRoots, LinearEquation, VariableExpression
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -677,6 +701,7 @@ ceļš, kura garums nav mazāks par $125 ~\mathrm{km}$.
 * domain:
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, ArithmeticMean, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 

@@ -11,6 +11,7 @@ Strēmelītes nedrīkst pārklāties.
 * domain:
 * _hasSolutionConcept: Tiling, QuadrilateralFamilies, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -40,6 +41,7 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 * domain:
 * _hasSolutionConcept: FiniteSet, PositiveIntegers, OptimumProofStructure, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -70,6 +72,7 @@ melnas rūtiņas?
 * domain:
 * _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -97,6 +100,7 @@ pārī meitene garāka par zēnu?
 * domain:
 * _hasSolutionConcept: TotalOrder, OrderedPair, Counterexample, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -138,6 +142,7 @@ dalās ar $61$.
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, OptimumProofStructure, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -165,6 +170,7 @@ meļu?
 * domain:
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -198,6 +204,7 @@ $n=11$, **(B)** $n=13$?
 * domain:
 * _hasSolutionConcept: PerfectSquares, Permutation, ProofByContradiction
 * _readingDifficulty: medium
+* _domain: NT,Comb
 
 </small>
 
@@ -228,6 +235,7 @@ starpā nedrīkst pārklāties.
 * domain:
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -252,6 +260,7 @@ septītniekus?
 * domain:
 * _hasSolutionConcept: DivisibilityRules, DigitSum, PrimeFactorization, PrimeNumbers, DigitRepresentation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -274,6 +283,7 @@ vismaz divi no bērniem nopirka vienu un to pašu nosaukumu sieriņus.
 * domain:
 * _hasSolutionConcept: FiniteSet, SetIntersection, PigeonholePrinciple, ProofByContradiction
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -309,6 +319,7 @@ $x=a^{5},\ y=b^{3}$, $a$ un $b$ - naturāli skaitļi?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, PrimeFactorization, PrimeNumbers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -337,6 +348,7 @@ summa ir pozitīva. Katru $3$ pēc kārtas uzrakstīto skaitļu summa ir negatī
 * domain:
 * _hasSolutionConcept: WholeIntegers, PositiveAndNegative, FiniteSequenceArrangement, DivisionWithRemainder, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -367,6 +379,7 @@ katru soli šķērsojot kādu divu melnu rūtiņu kopējo malu?
 * domain:
 * _hasSolutionConcept: Coloring, LatticeGrid, GraphConcept, ConnectedGraph
 * _readingDifficulty: low
+* _domain: Comb,Geom
 
 </small>
 
@@ -389,6 +402,7 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 * domain:Alg
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PositiveIntegers, NecessarySufficient
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -426,6 +440,7 @@ noskaidrot vismaz vienu viltoto monētu?
 * domain:
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -462,6 +477,7 @@ skolēni pareizi izpildīja sev doto uzdevumu?
 * domain:
 * _hasSolutionConcept: FiniteSet, CountingSumRule, SetPartition
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -485,6 +501,7 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 * domain:
 * _hasSolutionConcept: VariableExpression, PolynomialAndRoots, DiffOfSquaresFactoring
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -507,6 +524,7 @@ un $\sphericalangle OCA=\sphericalangle OAC$?
 * domain:
 * _hasSolutionConcept: Triangle, Angle, ProofByContradiction
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -535,6 +553,7 @@ kārtas ņemtiem naturāliem skaitļiem.
 * domain:NT
 * _hasSolutionConcept: LCM, DivisibilityRelation, CoprimeIntegers, PositiveIntegers, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -574,6 +593,7 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: ChessboardColoring, Coloring, EvenOddParity, Invariant
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -597,6 +617,7 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 * domain:
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, LastDigit
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -619,6 +640,7 @@ $2x^{2}+2y^{2} \leq 5xy$.
 * domain:
 * _hasSolutionConcept: VariableExpression, LinearInequality, IrrationalAndReals
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -642,6 +664,7 @@ $\triangle ABC$ leņķu lielumus.
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, CircleAndDisk, ParallelPerpendicular, TriangleSimilarity
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -671,6 +694,7 @@ $n$ reizes.
 * domain:
 * _hasSolutionConcept: UnorderedSelection, FiniteSet, Polygon, Triangle
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -700,6 +724,7 @@ stūris, tad tajās ierakstīto skaitļu lielākais kopīgais dalītājs ir $1$.
 * domain:NT
 * _hasSolutionConcept: GCD, CoprimeIntegers, EvenOddParity, PigeonholePrinciple, FiniteSet
 * _readingDifficulty: medium
+* _domain: NT,Comb
 
 </small>
 

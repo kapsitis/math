@@ -10,6 +10,7 @@ kas dalās ar $3$. Kāda ir uzrakstīto skaitļu summa?
 * domain:NT
 * _hasSolutionConcept: MultiplesSet, DivisibilityRelation, PositiveIntegers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -31,6 +32,7 @@ Kāda ir divu mazāko pirmskaitļu summa?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -53,6 +55,7 @@ ja katrā kastē ir vismaz $10$ konfektes?
 * domain:Alg
 * _hasSolutionConcept: NumberSequence, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -83,6 +86,7 @@ vienāds olu skaits?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PrimeFactorization
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -110,6 +114,7 @@ attēlā redzama figūra, kas sastāv no četrām 5-rūtiņu figūrām.
 * domain:Geom
 * _hasSolutionConcept: Polygon, LatticeGrid, Invariant
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -142,6 +147,7 @@ pārtraukt, lai to turpinātu otra darbiniece. Kāds ir īsākais laiks
 * domain:Comb
 * _hasSolutionConcept: OptimumProofStructure, ArithmeticMean, PositiveIntegers
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -174,6 +180,7 @@ nopirka Mārtiņš?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, ExhaustiveCheck, LinearDiophantine
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -199,6 +206,7 @@ Cik krustpunktu ir trīs dotajām taisnēm (skat. att.)?
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, CountingProductRule
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -226,6 +234,7 @@ centimetros!
 * domain:Geom
 * _hasSolutionConcept: Triangle, Polygon
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -247,6 +256,7 @@ Cik skaitļi intervālā no $1$ līdz $200$ dalās ar $7$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -266,6 +276,7 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 * domain:NT
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -290,6 +301,7 @@ figūra, ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, CountingSumRule
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -316,6 +328,7 @@ $$25~\mathrm{t}~50~\mathrm{kg} + 13~\mathrm{t}~950~\mathrm{kg} –
 * domain:Alg
 * _hasSolutionConcept: WholeIntegers
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -335,6 +348,7 @@ Vai skaitlis $2021$ dalās ar $5$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, LastDigit, DivisibilityRelation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -359,6 +373,7 @@ Cik trijstūri redzami dotajā zīmējumā?
 * domain:Geom
 * _hasSolutionConcept: Triangle, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -390,6 +405,7 @@ Kāds ir flīzes perimetrs centimetros, ja pusriņķa rādiuss ir $4~\mathrm{cm}
 * domain:Geom
 * _hasSolutionConcept: CircleAndDisk, PointLineSegmentRay
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -411,6 +427,7 @@ naturāli skaitļi. Kāds ir taisnstūra perimetrs centimetros?
 * domain:Geom
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, QuadrilateralFamilies
 * _readingDifficulty: low
+* _domain: Geom,NT
 
 </small>
 
@@ -438,6 +455,7 @@ Kura no figūrām ir visvieglākā?
 * domain:Alg
 * _hasSolutionConcept: TotalOrder, Invariant, QuadrilateralFamilies, Triangle, CircleAndDisk
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -472,6 +490,7 @@ uz punktu $B$? Pa ceļiem var pārvietoties tikai bultiņu norādītajā virzien
 * domain:Comb
 * _hasSolutionConcept: DirectedGraph, WalkPathCycle, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -501,6 +520,7 @@ atrodas grāmata, kas maksā 7 eiro?
 * domain:Comb
 * _hasSolutionConcept: SetDifference, FiniteSet, DivisibilityRules
 * _readingDifficulty: medium
+* _domain: NT,Geom
 
 </small>
 
@@ -527,6 +547,7 @@ $20$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $5$?
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet
 * _readingDifficulty: low
+* _domain: NT,Geom
 
 </small>
 
@@ -551,6 +572,7 @@ Telpā ir $3$ cilvēki. Cik dažādās secībās viņi var pamest šo telpu?
 * domain:Comb
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSequenceArrangement
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -573,6 +595,7 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -605,6 +628,7 @@ D. vairāk nekā $1000000$
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, GeometricProgression, ArithmeticMean
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -648,6 +672,7 @@ figūra, kas sastāv no četrām šādi saliktām T-veida figūrām.
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSequenceArrangement
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -676,6 +701,7 @@ garāks nekā iepriekšējais!
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, FiniteSequenceArrangement, CountingSumRule
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -697,6 +723,7 @@ Cik krustpunktu ir četrām dotajām taisnēm (skat. att.)?
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, CountingProductRule
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -718,6 +745,7 @@ tad rezultātā iegūst skaitli $127$. Nosaki $A$ vērtību!
 * domain:Alg
 * _hasSolutionConcept: PerfectCubes, LastDigit
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -746,6 +774,7 @@ veicot $369~\mathrm{cm}$. Nosaki trijstūra malas garumu centimetros!
 * domain:Geom
 * _hasSolutionConcept: Triangle, DivisionWithRemainder, PositiveIntegers
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -775,6 +804,7 @@ minūtēs, kurā viņas var apkalpot visas septiņas klientes?
 * domain:Comb
 * _hasSolutionConcept: OptimumProofStructure, ArithmeticMean, PositiveIntegers
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -804,6 +834,7 @@ Cik skaitļu intervālā no $1$ līdz $600$ dalās ar $7$?
 * domain:NT
 * _hasSolutionConcept: MultiplesSet, DivisibilityRelation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -825,6 +856,7 @@ olimpiādē?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, CountingSumRule
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -849,6 +881,7 @@ atrastos līdzsvarā?
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, LinearEquation, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -879,6 +912,7 @@ Kāds atlikums rodas, ja $10035$ dala ar $6$?
 * domain:NT
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRules, EvenOddParity, DigitSum
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -904,6 +938,7 @@ ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, FiniteSet, CountingSumRule
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -929,6 +964,7 @@ $$(2~\mathrm{h}~41~\mathrm{min} + 5~\mathrm{h}~59~\mathrm{min}) : 2 – 28~\math
 * domain:Alg
 * _hasSolutionConcept: ArithmeticMean, RationalNumbers
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -951,6 +987,7 @@ Vai skaitlis $20212021$ dalās ar $5$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -972,6 +1009,7 @@ Cik trijstūri redzami dotajā zīmējumā?
 * domain:Geom
 * _hasSolutionConcept: Triangle, QuadrilateralFamilies, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1003,6 +1041,7 @@ Kāds ir taisnstūra perimetrs, ja riņķa līnijas rādiuss ir $4~\mathrm{cm}$?
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1030,6 +1069,7 @@ rūtiņu pa labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļūt rūti
 * domain:Comb
 * _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -1060,6 +1100,7 @@ dalītos ar $90$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, LastDigit
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -1084,6 +1125,7 @@ nenokrāsoti, ja kastes škautnes garums ir $7~\mathrm{cm}$?
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, RationalNumbers
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1107,6 +1149,7 @@ Cik dažādās secībās $3$ skolēni var nostāties rindā pie kases?
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -1134,6 +1177,7 @@ grāmata, kas maksā $17$ eiro?
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, EvenOddParity, SetDifference, EulerVennDiagrams
 * _readingDifficulty: medium
+* _domain: NT,Geom
 
 </small>
 
@@ -1159,6 +1203,7 @@ atrodas aplī. Kurā plaknes daļā atrodas skaitlis $10$?
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet, SetIntersection
 * _readingDifficulty: low
+* _domain: NT,Geom
 
 </small>
 
@@ -1178,6 +1223,7 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 * domain:Comb
 * _hasSolutionConcept: CountingProductRule, FiniteSequenceArrangement
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -1203,6 +1249,7 @@ lai skaitļi pa apli būtu uzrakstīti pretējā secībā?
 * domain:Comb
 * _hasSolutionConcept: Permutation, Invariant, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -1227,6 +1274,7 @@ virsotnēm bija attēloti sākotnējā zīmējumā?
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, PointLineSegmentRay, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -1251,6 +1299,7 @@ $$A(1;3.5) \quad B(8;6) \quad C(-12;-1) \quad D(-5;1)$$
 * domain:Comb
 * _hasSolutionConcept: CoordinatePlane, LinearFunction, PointLineSegmentRay, OrderedPair
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1288,6 +1337,7 @@ Nosaki ceturtās virsotnes koordinātu summu!
 * domain:Geom
 * _hasSolutionConcept: CoordinatePlane, QuadrilateralFamilies, ParallelogramProperties, OrderedPair
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1312,6 +1362,7 @@ Cik mazos trijstūrīšus ieguva?
 * domain:Geom
 * _hasSolutionConcept: Triangle, DissectionIntoCongruent, CountingSumRule, NumberSequence
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1337,6 +1388,7 @@ viņai pietrūktu. Cik centu ir Dacei?
 * domain:Alg
 * _hasSolutionConcept: LinearEquation, EquationSystem, DirectProportion
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -1369,6 +1421,7 @@ kur redzamas pirmās trīs figūras). No cik divu posmu leņķīšiem
 * domain:Geom
 * _hasSolutionConcept: LatticeGrid, Tiling, Invariant, CountingSumRule
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -1396,6 +1449,7 @@ Cik krustpunktu ir trīs dotajām taisnēm un staram (skat.att.)
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, CountingSumRule
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1418,6 +1472,7 @@ Kāds ir galarezultāta pēdējais cipars?
 * domain:NT
 * _hasSolutionConcept: LastDigit, DigitRepresentation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -1448,6 +1503,7 @@ malas garums ir $4~\mathrm{cm}$?
 * domain:Geom
 * _hasSolutionConcept: DivisionWithRemainder, Triangle, MultiplesSet
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1474,6 +1530,7 @@ olimpiādē. Cik procentu no skolas skolēniem piedalījās olimpiādē?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, ArithmeticMean
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -1498,6 +1555,7 @@ Kāda ir riņka un kvadrāta masa, ja trijstūra masa ir $5$ kg?
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, LinearEquation, Triangle, QuadrilateralFamilies
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -1532,6 +1590,7 @@ Kāds atlikums rodas, ja $2021$ dala ar $4$?
 * domain:NT
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -1555,6 +1614,7 @@ tagadējais klucǐšu izkārtojums redzams attēlā?
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1580,6 +1640,7 @@ būtu patiesa?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearEquation, LCM
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -1600,6 +1661,7 @@ dalītos ar $36$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, DivisibilityRelation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -1631,6 +1693,7 @@ Iekrāsotajās rūtiņās ir škēēslis, tajās varde neiet.
 * domain:Comb
 * _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -1666,6 +1729,7 @@ grāmata, kas maksā $27$ eiro?
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, EulerVennDiagrams
 * _readingDifficulty: medium
+* _domain: NT,Geom
 
 </small>
 
@@ -1693,6 +1757,7 @@ $15$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $45$?
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, DivisorsSet, EulerVennDiagrams
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -1717,6 +1782,7 @@ līniju centros un taisnstūra $LMNO$ perimetrs ir $112~\mathrm{cm}$?
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk, PointLineSegmentRay
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1741,6 +1807,7 @@ atrastos uz funkcijas $y = 3x − 71$ grafika?
 * domain:Alg
 * _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -1762,6 +1829,7 @@ $y=71x+2021$ grafikam un iet caur punktu $A(2;200)$. Nosaki $b$ vērtību!
 * domain:Alg
 * _hasSolutionConcept: LinearFunction, ParallelPerpendicular, CoordinatePlane
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -1783,6 +1851,7 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 * domain:
 * _hasSolutionConcept: PrimeNumbers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -1811,6 +1880,7 @@ bija Mārim trešajā naudas skaitīšanas reizē?
 * domain:
 * _hasSolutionConcept: StateSpaceProcess, Invariant, FiniteSequenceArrangement
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -1841,6 +1911,7 @@ Cik dažādos veidos $6$ skolēni var nostāties rindā?
 * domain:
 * _hasSolutionConcept: CountingProductRule, FiniteSequenceArrangement
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -1864,6 +1935,7 @@ $1, 4, 3, 6, 5, 8, 7, 2$, skatoties pulksteņa rādītāja kustības virzienā?
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, Permutation, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -1890,6 +1962,7 @@ tikai visas kvadrātu virsotnes. Cik kvadrāti ar dotajām virsotnēm bija attē
 * domain:
 * _hasSolutionConcept: LatticeGrid, QuadrilateralFamilies, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -1913,6 +1986,7 @@ $$A(-1;3.5) \quad B $(-8;6) \quad C(12;-1) \quad D(5;1).$$
 * domain:
 * _hasSolutionConcept: CoordinatePlane, PointLineSegmentRay, LinearFunction, EquationSystem
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1940,6 +2014,7 @@ trijstūrīšus ieguva?
 * domain:
 * _hasSolutionConcept: Triangle, DissectionIntoCongruent, CountingSumRule, NumberSequence
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -1971,6 +2046,7 @@ malas garums ir $1~\mathrm{cm}$.
 * domain:
 * _hasSolutionConcept: Triangle, LatticeGrid, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -1999,6 +2075,7 @@ Cik centu ir Inese?
 * domain:
 * _hasSolutionConcept: LinearEquation, VariableExpression, ArithmeticMean
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -2028,6 +2105,7 @@ kas sastāv no 50 rūtiņām?
 * domain:
 * _hasSolutionConcept: LatticeGrid, Tiling, CountingSumRule, PositiveIntegers
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -2054,6 +2132,7 @@ iegūtajam rezultātam pieskaitīja $2$. Kāds ir galarezultāta desmitu
 * domain:
 * _hasSolutionConcept: DigitRepresentation, DivisionWithRemainder, LastDigit
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -2082,6 +2161,7 @@ malas robots apstājās, ja katras trijstūra malas garums ir $7~\mathrm{cm}$?
 * domain:
 * _hasSolutionConcept: DivisionWithRemainder, Triangle, PeriodicSequence
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -2107,6 +2187,7 @@ $2 \sqrt{50}+x>20$ būtu patiesa?
 * domain:
 * _hasSolutionConcept: PositiveIntegers, LinearInequality, PerfectSquares
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -2138,6 +2219,7 @@ $60~\mathrm{cm}$. Cik gara ir trijstūra pamata mala centimetros?
 * domain:
 * _hasSolutionConcept: Triangle, TriangleInequality, DirectProportion, LinearEquation
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -2165,6 +2247,7 @@ būtu patiesa?
 * domain:
 * _hasSolutionConcept: VariableExpression, EquationSystem, PrimeFactorization
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -2184,6 +2267,7 @@ Cik skaitli intervālā no $1$ līdz $1000$ dalās ar $7$?
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -2206,6 +2290,7 @@ vienā dienā izlasīja Rihards?
 * domain:
 * _hasSolutionConcept: ArithmeticMean, CountingSumRule
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -2228,6 +2313,7 @@ Nosaki leņķu $\alpha$ un $\beta$ summu (grādos)!
 * domain:
 * _hasSolutionConcept: Angle, ParallelPerpendicular
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -2252,6 +2338,7 @@ abu pamata pieleņu summa. Cik grādus liels ir virsotnes leņkis?
 * domain:
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -2275,6 +2362,7 @@ un ordinātas kvadrāta summa?
 * domain:
 * _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -2296,6 +2384,7 @@ olimpiādē. Cik procentu no skolas skolēniem nepiedalījās olimpiādē?
 * domain:
 * _hasSolutionConcept: RationalNumbers, CountingSumRule
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -2323,6 +2412,7 @@ Kurā plaknes daļā atrodas grāmata, kas maksā $37$ eiro?
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, SetDifference, CircleAndDisk
 * _readingDifficulty: medium
+* _domain: NT,Geom
 
 </small>
 
@@ -2349,6 +2439,7 @@ dalītāji atrodas aplī. Kurā plaknes daļā atrodas skaitlis $8$?
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, SetIntersection
 * _readingDifficulty: low
+* _domain: NT,Geom
 
 </small>
 
@@ -2369,6 +2460,7 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 * domain:
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -2398,6 +2490,7 @@ Cik dalībniekiem patīk tikai matemātika?
 * domain:
 * _hasSolutionConcept: EulerVennDiagrams, FiniteSet, SetIntersection, CountingSumRule
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -2448,6 +2541,7 @@ Vai ar 2.att. figūrām, kas sastāv no $4$ rūtiņām, var noklāt rūtiņu lau
 * domain:
 * _hasSolutionConcept: Tiling, DivisibilityRelation, LatticeGrid
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -2485,6 +2579,7 @@ ja ceļš $CD$ ir slēgts (tas ir, pa ceļu $CD$ nedrīkst braukt)?
 * domain:
 * _hasSolutionConcept: GraphConcept, WalkPathCycle, EvenOddParity, Invariant
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -2524,6 +2619,7 @@ Zināms, ka katram no skolēniem patīk vismaz viens no šiem priekšmetiem. Cik
 * domain:
 * _hasSolutionConcept: EulerVennDiagrams, FiniteSet, SetIntersection, SetUnion
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -2567,6 +2663,7 @@ ja tām ir kopīga mala.
 * domain:
 * _hasSolutionConcept: LatticeGrid, Coloring, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -2597,6 +2694,7 @@ lai no tām noteikti varētu izveidot divciparu skaitli, kurš dalās ar $7$
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PigeonholePrinciple, DivisibilityRelation, DigitRepresentation, SetPartition, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Comb,NT
 
 </small>
 
@@ -2642,6 +2740,7 @@ $y=ax+b$, $y=bx-c$ un $y=cx+a$ grafiki (grafiki nav doti mērogā)?
 * domain:
 * _hasSolutionConcept: LinearFunction, PositiveAndNegative, CaseAnalysis, CoordinatePlane
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -2680,6 +2779,7 @@ Naturālu skaitli sauc par īpašu, ja tas ir vienāds ar četru savu dažādu d
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, EvenOddParity, ProofByContradiction, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -2713,6 +2813,7 @@ spēlējot, un kā vinam jārīkojas?
 * domain:
 * _hasSolutionConcept: SymmetryStrategy, GamePosition, WinningLosingPositions, CentralSymmetry
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -2751,6 +2852,7 @@ funkciju grafiki krustojas vienā punktā!
 * domain:
 * _hasSolutionConcept: LinearFunction, CoordinatePlane, VariableExpression
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -2783,6 +2885,7 @@ kur $n$ ir kāds vesels skaitlis?
 * domain:
 * _hasSolutionConcept: PrimeNumbers, PositiveAndNegative, WholeIntegers, CaseAnalysis, DivisibilityRelation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -2876,6 +2979,7 @@ ja zināms, ka $\Varangle BAC=120^{\circ}$.
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -2922,6 +3026,7 @@ stāvošā ūdenī ir vienādi un upes straumes ātrums ir $5~\mathrm{km}/\mathr
 * domain:
 * _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -2962,6 +3067,7 @@ $y=bx^{2}+cx+a$ grafiki? Funkciju grafiki nav zīmēti mērogā.
 * domain:
 * _hasSolutionConcept: QuadraticFunction, QuadraticEquation, VietasFormulas, PositiveAndNegative, ProofByContradiction
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -3006,6 +3112,7 @@ Aprēḳināt $S_{CED}$, ja $AB=1$.
 * domain:
 * _hasSolutionConcept: PythagoreanTheorem, QuadrilateralFamilies, Triangle, VariableExpression
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -3040,6 +3147,7 @@ nevienam pirmskaitlim $p$ skaitlis $p+1$ nav naturāla skaitļa $k$-tā pakāpe.
 * domain:
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, OptimumProofStructure, Counterexample, ProofByContradiction
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -3074,6 +3182,7 @@ rindā augošā secībā, tad 22. un 99. skaitļa summa arī būtu lielāka nek�
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, TotalOrder, ProofByContradiction, PigeonholePrinciple
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 

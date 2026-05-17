@@ -12,6 +12,7 @@ esošās degvielas. Cik litru degvielas tagad ir katrā tvertnē?
 * domain:
 * _hasSolutionConcept: RationalNumbers, ArithmeticMean
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -40,6 +41,7 @@ vieglāko, gan pašu smagāko monētu?
 * domain:
 * _hasSolutionConcept: DecisionTree, TotalOrder, SetPartition, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -109,6 +111,7 @@ nekā Jānītis? Figūra $stūrītis$ var būt arī pagriezta.
 * domain:
 * _hasSolutionConcept: Coloring, LatticeGrid, Rotation, Counterexample
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -137,6 +140,7 @@ Valentīns uzlīmes nesaņem un netērē.)
 * domain:
 * _hasSolutionConcept: StateSpaceProcess, Invariant, LinearEquation
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -161,6 +165,7 @@ cipariem), bet vienādus - vienādi, turklāt izveidotais skaitlis ir pirmskaitl
 * domain:
 * _hasSolutionConcept: PrimeNumbers, DigitSum, DivisibilityRules, DigitRepresentation, FiniteSet
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -190,6 +195,7 @@ cik jautājumiem Olafs nesniedza atbildi?
 * domain:
 * _hasSolutionConcept: WholeIntegers, CountingSumRule
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -214,6 +220,7 @@ Kā ar $3$ svēršanām uz sviras svariem bez atsvariem atrast viltoto monētu?
 * domain:
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -273,6 +280,7 @@ pagrieztas vai apgrieztas spoguļattēlā.
 * domain:
 * _hasSolutionConcept: Tiling, Coloring, EvenOddParity, Invariant, Rotation, AxialSymmetry
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -306,6 +314,7 @@ parādīt vienu veidu, kā to izdarīt.)
 * domain:
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ExhaustiveCheck, CaseAnalysis
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -343,6 +352,7 @@ atšķirīgi).
 * domain:
 * _hasSolutionConcept: DigitRepresentation, EquationSystem, EvenOddParity, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -378,6 +388,7 @@ $a, b, c$ nav $0$.
 * domain:
 * _hasSolutionConcept: LinearEquation, RationalNumbers, PositiveAndNegative, Counterexample
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -408,6 +419,7 @@ vai smagāka nekā pārējās? (Pašu monētu atrast nav nepieciešams.)
 * seeAlso:LV.NOL.2016.7.4
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -480,6 +492,7 @@ nekā Jānītis? Figūra stūrītis var būt arī pagriezta.
 * domain:
 * _hasSolutionConcept: Coloring, LatticeGrid, Rotation, Counterexample
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -502,6 +515,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b)=150015$ ?
 * domain:NT
 * _hasSolutionConcept: EvenOddParity, WholeIntegers, CaseAnalysis
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -532,6 +546,7 @@ uzvarēt?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, MultiplesSet, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _domain: NT,Comb
 
 </small>
 
@@ -573,6 +588,7 @@ malas garumu kvadrātam, kura laukums ir tikpat liels kā dotajam taisnstūrim
 * domain:
 * _hasSolutionConcept: QuadrilateralFamilies, DiffOfSquaresFactoring, RationalNumbers, IrrationalAndReals
 * _readingDifficulty: low
+* _domain: Geom,Alg
 
 </small>
 
@@ -603,6 +619,7 @@ atsvariem atrast viltoto monētu?
 * domain:
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -644,6 +661,7 @@ $EM=BC$.
 * domain:
 * _hasSolutionConcept: TriangleCongruence, Triangle, Angle, PointLineSegmentRay, Polygon
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -681,6 +699,7 @@ $\frac{4}{3},\ \frac{4}{5},\ \frac{5}{2}$?
 * domain:Alg
 * _hasSolutionConcept: Invariant, RationalNumbers, StateSpaceProcess
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -712,6 +731,7 @@ izveidotais trīsciparu skaitlis $\overline{yxy}$ ?
 * concepts:divisibility
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, DivisibilityRelation, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -756,6 +776,7 @@ augoša vai dilstoša!
 * domain:
 * _hasSolutionConcept: LinearFunction, QuadraticEquation, VariableExpression, CoordinatePlane
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -786,6 +807,7 @@ lodīti?
 * domain:
 * _hasSolutionConcept: CaseAnalysis, DecisionTree, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -862,6 +884,7 @@ punkts $O$. Pierādīt, ka $S_{AEOH}+S_{FCGO}=S_{BFOE}+S_{DHOG}$.
 * domain:
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, ParallelPerpendicular, TriangleCongruence, Invariant
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -930,6 +953,7 @@ no visu šajā kolonnā ierakstīto skaitļu reizinājuma. Vai tas ir iespējams
 * domain:
 * _hasSolutionConcept: Invariant, ProofByContradiction, PerfectSquares, EvenOddParity, LatticeGrid
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -969,6 +993,7 @@ iegūtu skaitli, kas dalās ar $2019$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisionWithRemainder, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 

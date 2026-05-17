@@ -9,6 +9,7 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vai nu $1$, vai 
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, CircleAndDisk
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -34,6 +35,7 @@ Cik ir tādu naturālu skaitļu, kas ir vairāk nekā viena datuma pieraksti And
 * domain:
 * _hasSolutionConcept: DigitRepresentation, CaseAnalysis, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -60,6 +62,7 @@ diviem iekrāsotiem trijstūrīšiem nebūtu ne kopīga mala, ne kopīgs stūris
 * domain:
 * _hasSolutionConcept: Triangle, Coloring, OptimumProofStructure, SetPartition
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -85,6 +88,7 @@ būtu tāds, kāds redzams 2.zīm, bet pārējie četri būtu savā starpā vien
 * domain:
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -110,6 +114,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * domain:
 * _hasSolutionConcept: OptimumProofStructure, GraphConcept, FiniteSet
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -138,6 +143,7 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 * domain:
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -164,6 +170,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, WholeIntegers, LinearDiophantine, GCD
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -191,6 +198,7 @@ naturālam skaitlim tā, lai vienlaicīgi
 * domain:
 * _hasSolutionConcept: EvenOddParity, LatticeGrid, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -215,6 +223,7 @@ Kāds lielākais skolēnu skaits šajā turnīrā var iegūt lielmeistara nosauk
 * domain:
 * _hasSolutionConcept: OptimumProofStructure, ProofByContradiction, ArithmeticMean, GraphConcept
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -249,6 +258,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * domain:
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, Monovariant, FiniteSet
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -286,6 +296,7 @@ gājienus atkārto, līdz rindā paliek tikai viens skaitlis.
 * method:MTH_FixedInvariant
 * _hasSolutionConcept: Invariant, FiniteSequenceArrangement
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -311,6 +322,7 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 * method:MTH_PolynomialTransformations
 * _hasSolutionConcept: EquationSystem, VariableExpression, PositiveAndNegative
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -335,6 +347,7 @@ $(x+1)(x+2)(x+3)$ dalās ar $343$?
 * subdomain:DOM_PrimeFactors,Divisibility
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, PositiveIntegers, CountingProductRule
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -367,6 +380,7 @@ rūtiņām nebūtu nokrāsotas visas malas?
 * method:MTH_MeanValuePrinciple
 * _hasSolutionConcept: LatticeGrid, Coloring, OptimumProofStructure, CountingSumRule
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -398,6 +412,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * method:MTH_InductiveAlgorithms
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -435,6 +450,7 @@ $2$ un $3$.)
 * method:MTH_PolynomialTransformations
 * _hasSolutionConcept: PrimeFactorization, PrimeNumbers, DiffOfSquaresFactoring
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -464,6 +480,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC > AB$.
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -509,6 +526,7 @@ starpība dalās ar $9$.
 * method:MTH_FixedInvariant
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DigitSum, DivisibilityRules
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -539,6 +557,7 @@ ir identitāte?
 * subdomain:DOM_Equations
 * _hasSolutionConcept: VariableExpression, PolynomialAndRoots, LinearFunction, PositiveAndNegative, ExistenceVsUniversal
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -563,6 +582,7 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 * method:MTH_ExtremeConstructions
 * _hasSolutionConcept: GraphConcept, Coloring, Triangle, PigeonholePrinciple
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -588,6 +608,7 @@ Atrodiet kaut vienu kvadrātvienādojumu ar veseliem koeficientiem, kam viena no
 * domain:Alg
 * _hasSolutionConcept: QuadraticEquation, WholeIntegers, SquareOfSumIdentity, IrrationalAndReals, PolynomialAndRoots
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -613,6 +634,7 @@ $R^{2}+r^{2}=d^{2}$
 * domain:
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, ParallelPerpendicular, PythagoreanTheorem, NecessarySufficient
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -650,6 +672,7 @@ $ABC$ malām nav garāka par $ABC$ lielāko augstumu.
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, LinearInequality
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -681,6 +704,7 @@ iespējamais bērnu skaits?
 * domain:
 * _hasSolutionConcept: CircleAndDisk, DivisibilityRelation, PositiveIntegers, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -715,6 +739,7 @@ y^2 + x & = t^2
 * domain:NT
 * _hasSolutionConcept: PerfectSquares, PositiveIntegers, EquationSystem, TotalOrder
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 

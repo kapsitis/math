@@ -14,6 +14,7 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, WalkPathCycle, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -42,6 +43,7 @@ var sadalīt grupās tā, lai katras grupas skaitļu summa dalītos ar $3$?
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, SetPartition, PositiveIntegers
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -68,6 +70,7 @@ sastāv šī figūra, ir tikpat lielas kā tās, kurās sadalīta kuba virsma.)
 * domain:
 * _hasSolutionConcept: Tiling, BasicSolids, LatticeGrid, Rotation
 * _readingDifficulty: low
+* _domain: Geom,Comb
 
 </small>
 
@@ -95,6 +98,7 @@ Vai tā var gadīties, ja kvadrāta izmēri ir $10 \times 10$ rūtiņas?
 * domain:
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSet, Counterexample, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -124,6 +128,7 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 * domain:
 * _hasSolutionConcept: Invariant, Monovariant, FiniteSequenceArrangement, OptimumProofStructure
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -159,6 +164,7 @@ vai Jānim?
 * domain:
 * _hasSolutionConcept: VariableExpression, EquationSystem, LinearEquation
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -182,6 +188,7 @@ spoguļattēli, uzskata par vienādiem.)
 * domain:
 * _hasSolutionConcept: OptimumProofStructure, Tiling, ExhaustiveCheck, AxialSymmetry, FiniteSet
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -207,6 +214,7 @@ reizinājumu, iegūst tā ciparu summu. Kuri divciparu naturāli skaitļi ir lab
 * domain:
 * _hasSolutionConcept: DigitRepresentation, DigitSum, DigitProduct, LinearEquation
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -229,6 +237,7 @@ tabulā ierakstīto skaitļu summa?
 * domain:
 * _hasSolutionConcept: OptimumProofStructure, PositiveIntegers, EvenOddParity, LatticeGrid
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -260,6 +269,7 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 * domain:
 * _hasSolutionConcept: GraphConcept, BinaryRelation, ExistenceVsUniversal
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -288,6 +298,7 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, OptimumProofStructure, FiniteSet
 * _readingDifficulty: low
+* _domain: NT,Comb
 
 </small>
 
@@ -318,6 +329,7 @@ $y=f(x)$ un $y=g(x)$ abas ir lineāras funkcijas.
 * domain:
 * _hasSolutionConcept: LinearFunction, FunctionConcept, Counterexample, VariableExpression
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -343,6 +355,7 @@ Cik garš ir nogrieznis $BD$?
 * domain:
 * _hasSolutionConcept: TriangleInequality, Triangle, CaseAnalysis, PointLineSegmentRay
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -373,6 +386,7 @@ vienāds ar abu pārējo reizinājumu?
 * domain:
 * _hasSolutionConcept: PigeonholePrinciple, LinearInequality, PositiveIntegers, LatticeGrid
 * _readingDifficulty: low
+* _domain: Comb,NT
 
 </small>
 
@@ -397,6 +411,7 @@ jāizgriež taisnstūrus ar izmēriem $1 \times 9$ rūtiņas. Kādu lielāko dau
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, Coloring, Invariant, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -428,6 +443,7 @@ skaitļu reizinājums vienāds ar otras grupas visu skaitļu reizinājumu?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, DivisibilityRelation, EvenOddParity, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -471,6 +487,7 @@ decimālais pieraksts sākas ar ciparu $1$?
 * seeAlso:LV.NOL.2005.8.1
 * _hasSolutionConcept: DigitRepresentation, NumberSequence, FiniteSet, PigeonholePrinciple
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -509,6 +526,7 @@ ka piecstūris var arī nebūt izliekts.)
 * domain:
 * _hasSolutionConcept: Polygon, PointLineSegmentRay, CountingSumRule, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -542,6 +560,7 @@ nekā vienā veidā, tad jāuzrāda tos visus.)
 * domain:
 * _hasSolutionConcept: OptimumProofStructure, FiniteSequenceArrangement, VariableExpression, PositiveIntegers
 * _readingDifficulty: medium
+* _domain: Alg,Comb
 
 </small>
 
@@ -576,6 +595,7 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 * domain:
 * _hasSolutionConcept: TriangleInequality, Triangle, GamePosition, WinningLosingPositions, CaseAnalysis
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -607,6 +627,7 @@ $$a^{2}+a b+b^{2} \geq 9(a+b-3)$$
 * domain:
 * _hasSolutionConcept: VariableExpression, IrrationalAndReals, SquareOfSumIdentity
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -630,6 +651,7 @@ var vienlaicīgi būt pirmskaitļi?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, LastDigit, CaseAnalysis
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -653,6 +675,7 @@ līnijai $W_{2}$ un kas nesakrīt ar $AB$, ir paralēlas savā starpā.
 * domain:
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, TriangleCongruence, Angle, ParallelPerpendicular
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -681,6 +704,7 @@ uzrakstīti $2004$ skaitļi, kas visi vienādi ar $1$?
 * domain:Alg
 * _hasSolutionConcept: StateSpaceProcess, Invariant, WholeIntegers
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -707,6 +731,7 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 * domain:
 * _hasSolutionConcept: GraphConcept, VertexDegree, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 

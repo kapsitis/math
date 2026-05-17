@@ -15,6 +15,7 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, Invariant, ProofByContradiction
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -43,6 +44,7 @@ $22$-jam, bet $60$-ais vagoniņš - pretī $86$-jam (skat. 1.zīm.). Atrast $n$.
 * domain:
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, CountingSumRule
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -67,6 +69,7 @@ atkārtojot šādus gājienus?
 * domain:
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -96,6 +99,7 @@ Kāds lielākais daudzums krāsu var būt izmantots?
 * domain:
 * _hasSolutionConcept: Coloring, GraphConcept, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -130,6 +134,7 @@ pilsētā $A$ un kura kopgarums ir tieši $863~\mathrm{km}$?
 * domain:
 * _hasSolutionConcept: GraphConcept, WalkPathCycle, EvenOddParity, Invariant
 * _readingDifficulty: medium
+* _domain: Comb,NT
 
 </small>
 
@@ -157,6 +162,7 @@ tabulā ierakstīto skaitļu summa?
 * domain:
 * _hasSolutionConcept: OptimumProofStructure, EvenOddParity, PositiveIntegers, LatticeGrid
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -189,6 +195,7 @@ Vai tas iespējams, ja **(A)** $n=2004$, **(B)** $n=2005$?
 * domain:
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, EvenOddParity, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -218,6 +225,7 @@ Gabali var būt novietoti arī citādi.
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, LinearDiophantine, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: medium
+* _domain: Geom,Comb
 
 </small>
 
@@ -245,6 +253,7 @@ uzrakstītajiem var izvēlēties tādus divus, kuru reizinājums dalās ar $21$.
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, PigeonholePrinciple, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: NT,Comb
 
 </small>
 
@@ -286,6 +295,7 @@ Pierādīt, ka
 * domain:
 * _hasSolutionConcept: DirectedGraph, BinaryRelation, WalkPathCycle, VertexDegree, ExistenceVsUniversal
 * _readingDifficulty: high
+* _domain: Comb
 
 </small>
 
@@ -316,6 +326,7 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, OptimumProofStructure, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: NT,Comb
 
 </small>
 
@@ -341,6 +352,7 @@ vienā punktā?
 * domain:
 * _hasSolutionConcept: LinearFunction, CoordinatePlane, EquationSystem, OrderedPair
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -368,6 +380,7 @@ veselu malu.
 * domain:
 * _hasSolutionConcept: Tiling, Triangle, EvenOddParity, Invariant
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -402,6 +415,7 @@ dalītāju summu.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet, EvenOddParity
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -449,6 +463,7 @@ no iespējām pastāv īstenībā?
 * domain:
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -477,6 +492,7 @@ decimālais pieraksts sākas ar ciparu $1$?
 * seeAlso:LV.NOL.2004.8.2
 * _hasSolutionConcept: DigitRepresentation, NumberSequence, CountingSumRule
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -510,6 +526,7 @@ daudzums rūtiņu var būt izcilas?
 * domain:
 * _hasSolutionConcept: LatticeGrid, FiniteSet, ProofByContradiction, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -545,6 +562,7 @@ Ar kādu mazāko jautājumu skaitu Juris var noteikti noskaidrot $n$?
 * subdomain:DOM_MakingMoves
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DecisionTree, OptimumProofStructure
 * _readingDifficulty: high
+* _domain: Comb,NT
 
 </small>
 
@@ -584,6 +602,7 @@ tādu punktu $C$, ka $A,\ B$ un $C$ ir vienādsānu trijstūra virsotnes?
 * domain:
 * _hasSolutionConcept: Triangle, PointLineSegmentRay, ParallelPerpendicular, CircleAndDisk, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -607,6 +626,7 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 * domain:
 * _hasSolutionConcept: VariableExpression, PolynomialAndRoots, DiffOfSquaresFactoring
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -637,6 +657,7 @@ $$a^{2}-ab+b^{2} \geq 5a+5b-25$$
 * domain:
 * _hasSolutionConcept: VariableExpression, IrrationalAndReals, SquareOfSumIdentity
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -657,6 +678,7 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 * domain:
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, LastDigit, DivisibilityRules
 * _readingDifficulty: low
+* _domain: NT,Comb
 
 </small>
 
@@ -686,6 +708,7 @@ $A$. Taisne $t$ pieskaras abām riņķa līnijām punktā $A$ un krusto to kopē
 * domain:
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, PointLineSegmentRay, PythagoreanTheorem
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -715,6 +738,7 @@ diviem, iegūst visus naturālos skaitļus no $1$ līdz $15$ ieskaitot?
 * domain:
 * _hasSolutionConcept: PositiveIntegers, TotalOrder, ProofByContradiction, PigeonholePrinciple
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -752,6 +776,7 @@ $1;\ 2;\ 3;\ 4$?
 * domain:NT
 * _hasSolutionConcept: RecurrentSequence, PeriodicSequence, LastDigit, EvenOddParity, PigeonholePrinciple
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 

@@ -14,6 +14,7 @@ dažādi.
 * domain:
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -47,6 +48,7 @@ gadu skaits?
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PigeonholePrinciple, Counterexample, ExistenceVsUniversal, FiniteSet
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -88,6 +90,7 @@ otras tā, ka abas figūras pilnīgi sakrīt.
 * domain:
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation, AxialSymmetry
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -111,6 +114,7 @@ $$7, a, b, c, d, e, f, 9$$
 * domain:
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, EquationSystem, PeriodicSequence
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -140,6 +144,7 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 * domain:
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, DivisibilityRelation, Invariant
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -178,6 +183,7 @@ $$\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=\frac{4}{5}$$
 * domain:
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -211,6 +217,7 @@ dalībnieki?
 * domain:
 * _hasSolutionConcept: PigeonholePrinciple, Counterexample, ProofByContradiction, ExistenceVsUniversal
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -246,6 +253,7 @@ doto figūru un $22$ figūrām, kādas dotas 4.att.? Figūras drīkst pagriezt.
 * domain:
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, Rotation
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
@@ -279,6 +287,7 @@ pamato, ka citu nav!
 * domain:
 * _hasSolutionConcept: DigitRepresentation, LastDigit, LinearEquation, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -331,6 +340,7 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 * domain:
 * _hasSolutionConcept: WinningLosingPositions, GamePosition, DivisionWithRemainder, Invariant, SymmetryStrategy
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -370,6 +380,7 @@ stāvu zemāk. Kāds mazākais logu skaits var būt šīs mājas ceturtajā stā
 * domain:
 * _hasSolutionConcept: EvenOddParity, VariableExpression, LinearInequality, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -407,6 +418,7 @@ ka vismaz četras no tām ir vienā krāsā?
 * domain:
 * _hasSolutionConcept: PigeonholePrinciple, Counterexample, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -440,6 +452,7 @@ un $\sphericalangle EFG=60^{\circ}$.
 * domain:
 * _hasSolutionConcept: Angle, ParallelPerpendicular, PointLineSegmentRay
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -474,6 +487,7 @@ ciparus!
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, Permutation
 * _readingDifficulty: medium
+* _domain: NT
 
 </small>
 
@@ -548,6 +562,7 @@ Pierādit, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 * domain:
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ArithmeticMean
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -581,6 +596,7 @@ $a^{2}+\frac{1}{a^{2}}+2$; **b)** $a^{4}+\frac{1}{a^{4}}$
 * domain:
 * _hasSolutionConcept: SquareOfSumIdentity, VariableExpression, IrrationalAndReals
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -615,6 +631,7 @@ būtu trīs meitenes, kas izvēlējās vienu un to pašu lenšu krāsu komplektu
 * domain:
 * _hasSolutionConcept: PigeonholePrinciple, ExhaustiveCheck, FiniteSet, Counterexample, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Comb
 
 </small>
 
@@ -663,6 +680,7 @@ nekā $PQ$ ?
 * domain:
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, TriangleSpecialLines
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -704,6 +722,7 @@ trīs skaitļu summa?
 * domain:
 * _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, DivisibilityRelation, OptimumProofStructure
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -754,6 +773,7 @@ Pierādīt, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 * domain:
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ArithmeticMean
 * _readingDifficulty: low
+* _domain: Alg
 
 </small>
 
@@ -791,6 +811,7 @@ bija maršruts?
 * domain:
 * _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
 * _readingDifficulty: medium
+* _domain: Alg
 
 </small>
 
@@ -820,6 +841,7 @@ vispār neko. Vai noteikti ir divi skolēni, kas pasūtīja vienu un to pašu?
 * domain:
 * _hasSolutionConcept: PigeonholePrinciple, CountingProductRule, FiniteSet
 * _readingDifficulty: low
+* _domain: Comb
 
 </small>
 
@@ -853,6 +875,7 @@ Pierādīt, ka punkts $F$ ir $BC$ viduspunkts!
 * domain:
 * _hasSolutionConcept: TriangleCongruence, TriangleSpecialLines, PointLineSegmentRay, QuadrilateralFamilies
 * _readingDifficulty: low
+* _domain: Geom
 
 </small>
 
@@ -881,6 +904,7 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka $20x^{3}-17y^{2}+1=2018$?
 * domain:
 * _hasSolutionConcept: WholeIntegers, DivisibilityRelation, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: low
+* _domain: NT
 
 </small>
 
@@ -950,6 +974,7 @@ pieņemot, ka rūtiņas malas garums ir viena vienība!
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: medium
+* _domain: Geom
 
 </small>
 
