@@ -12,6 +12,8 @@ $B$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation, ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -40,6 +42,8 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, MonovariantStrictlyChangingQuantity
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -77,6 +81,8 @@ griežot iegūtā trijstūra malu.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, UnjustifiedAuxiliaryLineExists
+* _mistakesFit: medium
 
 </small>
 
@@ -108,6 +114,8 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -140,6 +148,8 @@ krāsas amēba. Vai var gadīties, ka traukā paliek tikai viena amēba?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: FixedInvariantNumeric, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -165,6 +175,8 @@ kārtībā) tā, ka $AB=1,\ BC=3,\ CD=5,\ DE=7,\ EA=9$?
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: ParityInvariant, ProofByContradiction
+* _hasReasoningMistake: UnstatedDirectionAssumption, SkippingCaseAnalysis, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -192,6 +204,8 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -224,6 +238,8 @@ $n=11$, **(B)** $n=13$?
 * _readingDifficulty: medium
 * _domain: Comb,NT
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -254,6 +270,8 @@ viena santīma monētās?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -277,6 +295,8 @@ dalītājs. Kāds var būt šis mazākais skaitlis?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, ProofByContradiction, ParityArgument, NumberConstruction
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -313,6 +333,8 @@ Plaknē atzīmēti $5$ punkti. Cik var būt trijstūru, kam visas virsotnes atro
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -348,6 +370,8 @@ no iespējām pastāv īstenībā?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -378,6 +402,8 @@ skaitlis nebūtu divu citu izvēlēto skaitļu starpība?
 * _readingDifficulty: low
 * _domain: Comb,NT
 * _hasReasoningMethod: PigeonholePrincipleBasic, ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -408,6 +434,8 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumericalEstimation, IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: CaseAnalysisIncomplete, WrongDirectionOfInequalityChain, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -445,6 +473,8 @@ piezvanīja $B,\ B$ piezvanīja $C$ un $C$ piezvanīja $A$.
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -477,6 +507,8 @@ operāciju palīdzību. Atrast $A$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -506,6 +538,8 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: TriangleInequality, CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -541,6 +575,8 @@ ar $4$?
 * _readingDifficulty: low
 * _domain: Comb,NT
 * _hasReasoningMethod: ModularArithmetic, PigeonholeInNT
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -577,6 +613,8 @@ Vai taisnstūri ar izmēriem **(A)** $8 \times 8$, **(B)** $12 \times 12$,
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _newReasoningMethodLabel: DivisibilityByTileArea
 * _newReasoningMethodDescription: Using total area divisibility for tiling feasibility
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -609,6 +647,8 @@ kartiņas ar skaitli $13$. Cik kartiņu ir Maijai?
 * _readingDifficulty: high
 * _domain: Comb,NT
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, MissingConstructionPartInOptimalProblems
+* _mistakesFit: medium
 
 </small>
 
@@ -652,6 +692,8 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -684,6 +726,8 @@ $ABCD$ - kvadrāts (protams, iegūto punktu skaits tad būs mazāks).
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, ParallelogramProperties
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -729,6 +773,8 @@ $$\left\{\begin{array}{l}
 * _readingDifficulty: low
 * _domain: Alg,NT
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -766,6 +812,8 @@ Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument, AlgebraicManipulationForInteger
+* _hasReasoningMistake: NonCoprimeFactorDivisibility, CarelessModularComputation, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -799,6 +847,8 @@ spēlējot?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: CompleteEnumeration, ProofByContradiction, GameInvariantsInNT
+* _hasReasoningMistake: ExampleInsteadOfProof, MissingBoundOrExample
+* _mistakesFit: low
 
 </small>
 

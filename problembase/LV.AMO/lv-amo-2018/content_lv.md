@@ -13,6 +13,8 @@ burkā, ja Artūrs apēdīs visus atlikušos gurķīšus? (Artūrs ēda tikai gu
 * _hasSolutionConcept: RationalNumbers, DirectProportion
 * _readingDifficulty: low
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -45,6 +47,8 @@ Kāds ir $999.$ loceklis Raimonda virknē un kāds - Laines virknē?
 * _hasSolutionConcept: NumberSequence, PeriodicSequence, RecurrentSequence, DigitRepresentation, DigitSum
 * _readingDifficulty: medium
 * _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -83,7 +87,9 @@ vertikāli) būtu vismaz viena iekrāsota rūtiņa?
 * domain:Geom
 * _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
 * _readingDifficulty: medium
-* _hasReasoningMethod: 
+* _hasReasoningMethod:
+* _hasReasoningMistake: ProofByExampleForUniversalClaim
+* _mistakesFit: low
 
 </small>
 
@@ -118,6 +124,8 @@ skaitlis?
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, Invariant, ProofByContradiction
 * _readingDifficulty: high
 * _hasReasoningMethod: ParityArgument, ProofByContradiction, CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -160,6 +168,8 @@ naudaszīmju komplektu!
 * _hasSolutionConcept: FrobeniusType, FiniteSet, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -220,6 +230,8 @@ $25~\mathrm{cm^{2}}$.
 * _hasSolutionConcept: RationalNumbers, DirectProportion, PerfectSquares
 * _readingDifficulty: low
 * _hasReasoningMethod: ParallelogramProperties,ScalingByLinearRatio
+* _hasReasoningMistake: WrongAreaProportionality
+* _mistakesFit: medium
 
 </small>
 
@@ -252,6 +264,8 @@ Kāds ir $1000.$ loceklis Viļņa virknē un kāds - Armanda virknē?
 * _hasSolutionConcept: NumberSequence, PeriodicSequence, RecurrentSequence, DigitSum
 * _readingDifficulty: medium
 * _hasReasoningMethod: PeriodicSequence, ParityArgument
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -293,6 +307,8 @@ nevarētu izgriezt $2 \times 3$ rūtiņu taisnstūri, kam visas rūtiņas ir bal
 * _hasSolutionConcept: Coloring, Tiling, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: ProofByContradiction,PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -318,6 +334,8 @@ burti apzīmē vienādus ciparus, dažādi -- dažādus, turklāt $A$ nav $0$.
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -348,6 +366,8 @@ iegūt tieši tikpat dažādos veidos, kā metot divus parastus metamos kauliņu
 * _hasSolutionConcept: CountingProductRule, FiniteSet, Tuple, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections, ImplicitAssumptionAboutObjectsBeingDistinct, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -410,6 +430,8 @@ cipariem $2,\ 0,\ 1,\ 8$ ?
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, CountingProductRule, OrderedSelection
 * _readingDifficulty: low
 * _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ImplicitAssumptionAboutObjectsBeingDistinct, ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -449,6 +471,8 @@ locekļu summu!
 * _hasSolutionConcept: NumberSequence, PeriodicSequence, RationalNumbers
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities,DetectPeriodInRecursiveSequence
+* _hasReasoningMistake: ConcreteToGeneralLeap, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -495,6 +519,8 @@ ka $CD>\frac{1}{2}(CA+CB-AB)$.
 * _hasSolutionConcept: Triangle, TriangleInequality
 * _readingDifficulty: low
 * _hasReasoningMethod: TriangleInequality
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -527,6 +553,8 @@ $(n-2021)(n-2018)(n-2017)(n-2016)=2016$ būtu patiesa!
 * _hasSolutionConcept: WholeIntegers, DivisibilityRelation, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption, FactoringWithoutIntegerCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -558,6 +586,8 @@ spoguļattēlā.
 * _hasSolutionConcept: Tiling, LatticeGrid, DivisionWithRemainder, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -595,6 +625,8 @@ $\left(x^{2}-2 x+1\right)\left(x^{4}+1\right)^{2}\left(x^{2}+2x+1\right)\left(x^
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, DiffOfSquaresFactoring
 * _readingDifficulty: low
 * _hasReasoningMethod: UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -625,6 +657,8 @@ Kāds ir šīs virknes $2018.$ loceklis?
 * _hasSolutionConcept: NumberSequence, RecurrentSequence, PeriodicSequence, DigitProduct
 * _readingDifficulty: medium
 * _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -660,6 +694,8 @@ zināms, ka $ABCD$ laukums ir $100$.
 * _hasSolutionConcept: ParallelogramProperties, QuadrilateralFamilies, PointLineSegmentRay
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, ParallelogramProperties, AuxiliaryLines
+* _hasReasoningMistake: FromSpecialToGeneral, AreaWithoutPosition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -700,6 +736,8 @@ centrālajā rūtiņā ir ierakstīts skaitlis $\frac{n^{2}+1}{2}$, ja **(A)** $
 * _hasSolutionConcept: MagicConfiguration, FiniteSet, EquationSystem, Counterexample
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -754,6 +792,8 @@ neiekrāsotas?
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure, FiniteSet
 * _readingDifficulty: high
 * _hasReasoningMethod: ProofByContradiction,PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -801,6 +841,8 @@ reālas saknes?
 * _hasSolutionConcept: QuadraticEquation, LinearEquation, VariableExpression
 * _readingDifficulty: low
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -849,6 +891,8 @@ trīs dažādos veidos: $4=1+1+1+1=1+3=3+1$.
 * _hasSolutionConcept: RecurrentSequence, FiniteSequenceArrangement, NumberPartitions
 * _readingDifficulty: medium
 * _hasReasoningMethod: RecursiveSequenceForCounting, RuleOfSumDisjointCases, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -913,6 +957,8 @@ ir līdzīgi!
 * _hasSolutionConcept: Triangle, CircleAndDisk, TriangleSimilarity
 * _readingDifficulty: medium
 * _hasReasoningMethod: AngleChasing, CyclicQuadrilateral, IsoscelesTriangleProperties, SimilarTriangles
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -946,6 +992,8 @@ un kuram neviens cipars nav $0$.
 * _hasSolutionConcept: PositiveIntegers, DigitSum, DivisibilityRelation, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundingArgument, CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -984,6 +1032,8 @@ $5 \times 8$ rūtiņas, lai katrā šī taisnstūra $2 \times 3$ rūtiņu taisns
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: high
 * _hasReasoningMethod: ProofByContradiction, AreaInvarianceAndDecomposition
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 

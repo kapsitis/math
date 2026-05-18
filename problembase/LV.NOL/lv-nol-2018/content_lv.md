@@ -16,6 +16,8 @@ dažādi.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: low
 
 </small>
 
@@ -51,6 +53,8 @@ gadu skaits?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, PigeonholePrincipleGeneralized, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: high
 
 </small>
 
@@ -94,6 +98,8 @@ otras tā, ka abas figūras pilnīgi sakrīt.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -119,6 +125,8 @@ $$7, a, b, c, d, e, f, 9$$
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, IntroduceVariablesAndFormEquation
+* _hasReasoningMistake: ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: low
 
 </small>
 
@@ -150,6 +158,8 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: high
 
 </small>
 
@@ -190,6 +200,8 @@ $$\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=\frac{4}{5}$$
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: low
 
 </small>
 
@@ -225,6 +237,8 @@ dalībnieki?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -262,6 +276,8 @@ doto figūru un $22$ figūrām, kādas dotas 4.att.? Figūras drīkst pagriezt.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: ColoringInvariant, CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, SkippingCaseAnalysis
+* _mistakesFit: high
 
 </small>
 
@@ -297,6 +313,8 @@ pamato, ka citu nav!
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PositionalNotation, LastDigitAnalysis, CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -351,6 +369,8 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -392,6 +412,8 @@ stāvu zemāk. Kāds mazākais logu skaits var būt šīs mājas ceturtajā stā
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ParityOrModularArgumentForEquations
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -431,6 +453,8 @@ ka vismaz četras no tām ir vienā krāsā?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: PigeonholePrincipleGeneralized, ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, MissingConstructionPartInOptimalProblems
+* _mistakesFit: high
 
 </small>
 
@@ -466,6 +490,8 @@ un $\sphericalangle EFG=60^{\circ}$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: ParallelLinesAngleProperties, AuxiliaryLines, AngleChasing
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -502,6 +528,8 @@ ciparus!
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, PositionalNotation, AlgebraicManipulationForInteger
+* _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -578,6 +606,8 @@ Pierādit, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric
+* _hasReasoningMistake: DoubleCountingTheSameObject, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -613,6 +643,8 @@ $a^{2}+\frac{1}{a^{2}}+2$; **b)** $a^{4}+\frac{1}{a^{4}}$
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: UseStandardIdentities, SubstitutionForSimplification
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -649,6 +681,8 @@ būtu trīs meitenes, kas izvēlējās vienu un to pašu lenšu krāsu komplektu
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: PigeonholePrincipleGeneralized, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier, MissingConstructionPartInOptimalProblems
+* _mistakesFit: high
 
 </small>
 
@@ -699,6 +733,8 @@ nekā $PQ$ ?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, PointOnSegmentConstruction, TriangleAngleSum
+* _hasReasoningMistake: UnjustifiedAuxiliaryLineExists, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -742,6 +778,8 @@ trīs skaitļu summa?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PositionalNotation, DivisibilityRules, BoundingArgument, CompleteEnumeration, ProofByContradiction
+* _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -794,6 +832,8 @@ Pierādīt, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: low
 
 </small>
 
@@ -833,6 +873,8 @@ bija maršruts?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -864,6 +906,8 @@ vispār neko. Vai noteikti ir divi skolēni, kas pasūtīja vienu un to pašu?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: PigeonholePrincipleBasic, RuleOfProductIndependentChoices
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -899,6 +943,8 @@ Pierādīt, ka punkts $F$ ir $BC$ viduspunkts!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, PointOnSegmentConstruction, PerpendicularBisector
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, UnjustifiedAuxiliaryLineExists, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -929,6 +975,8 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka $20x^{3}-17y^{2}+1=2018$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: AlgebraicManipulationForInteger, DivisibilityRules, ParityArgument, CompleteEnumeration
+* _hasReasoningMistake: IncompleteResidueCases, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -1000,6 +1048,8 @@ pieņemot, ka rūtiņas malas garums ir viena vienība!
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis, CountingByDoubleCounting
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 

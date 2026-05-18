@@ -10,6 +10,8 @@ ar to reizinājumu?
 * _hasSolutionConcept: PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -32,6 +34,8 @@ Parādi, kā kvadrātu var sadalīt četros vienādos piecstūros.
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, DissectionIntoCongruent
 * _readingDifficulty: low
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -55,6 +59,8 @@ $1, 2, 3, 4, 5, 8$ izmantots tieši vienu reizi.
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -82,6 +88,8 @@ lielāks nekā $1$.
 * _hasSolutionConcept: GCD, PrimeNumbers, CoprimeIntegers, PrimeFactorization, GraphConcept
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumberConstruction, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -116,6 +124,8 @@ tā, ka no katra punkta iziet tieši $3$ vai $5$ nogriežņi?
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, HandshakingLemmaSumOfDegreesEven
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -140,7 +150,9 @@ $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}+\frac{1}{d}=1$.
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
-* _hasReasoningMethod: 
+* _hasReasoningMethod:
+* _hasReasoningMistake: ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: low
 
 </small>
 
@@ -169,6 +181,8 @@ jebkurus divus no tiem, nodzēš tos un rindas galā uzraksta šo skaitļu starp
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess, PositiveIntegers
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: ConcreteToGeneralLeap, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -206,6 +220,8 @@ un riņķa līniju, kas krusto uzzīmētā daudzstūra katru malu tieši vienā 
 * _hasSolutionConcept: Polygon, CircleAndDisk, EvenOddParity, Invariant
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, SkippingCaseAnalysis
+* _mistakesFit: high
 
 </small>
 
@@ -253,6 +269,8 @@ $y$ *simti,* $z$ *desmiti un* $t$ *vieni.*)
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisibilityRules
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityDirection, ConfusingDivisorAndMultiple, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -287,6 +305,8 @@ Figūra var tikt novietota tikai tā, lai tās malas ietu pa rūtiņu līnijām.
 * _hasSolutionConcept: Tiling, Coloring, LatticeGrid, Rotation
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, UpperBoundWithoutExample, SkippingCaseAnalysis
+* _mistakesFit: medium
 
 </small>
 
@@ -319,6 +339,8 @@ skaitļu summa ir naturāla skaitļa kvadrāts. Ar ko pārī apvienots skaitlis 
 * _hasSolutionConcept: PerfectSquares, ExhaustiveCheck, SetPartition
 * _readingDifficulty: low
 * _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -385,6 +407,8 @@ skaitlis $x(x+1)(x+2)$ dalās ar $111$?
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, PositiveIntegers, CountingSumRule
 * _readingDifficulty: low
 * _hasReasoningMethod: CoprimeFactorsDivisibility, DivisibilityByConsecutive
+* _hasReasoningMistake: WrongDivisibilityDirection, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -422,6 +446,8 @@ atrodas uz vienas taisnes?
 * _hasSolutionConcept: Polygon, PointLineSegmentRay, PigeonholePrinciple, ProofByContradiction, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: PigeonholePrinciple, ProofByContradiction
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -452,6 +478,8 @@ skaitļu starpība būtu $6, 10, 14$ vai $18$?
 * _hasSolutionConcept: EvenOddParity, Invariant, ModularArithmetic, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -492,6 +520,8 @@ malas garumu $2$ un kuros ierakstīto skaitļu summa ir vismaz $18$.
 * _hasSolutionConcept: PigeonholePrinciple, Triangle, DissectionIntoCongruent, ArithmeticMean
 * _readingDifficulty: low
 * _hasReasoningMethod: PigeonholePrinciple
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -519,6 +549,8 @@ reizinātājiem ir lielāks nekā $1$.
 * _hasSolutionConcept: DiffOfSquaresFactoring, WholeIntegers
 * _readingDifficulty: low
 * _hasReasoningMethod: FactoringAlgebraicExpressions
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -551,6 +583,8 @@ leņķu lielumus!
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum, ParallelPerpendicular
 * _readingDifficulty: medium
 * _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -588,6 +622,8 @@ Cik ir tādu četrciparu skaitļu, kuru pierakstā ir vismaz viens pāra cipars?
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, CountingProductRule, SetDifference
 * _readingDifficulty: low
 * _hasReasoningMethod: RuleOfProductIndependentChoices
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -624,6 +660,8 @@ skaitļu reizinājums būtu viens un tas pats.
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, VariableExpression
 * _readingDifficulty: low
 * _hasReasoningMethod: UseStandardIdentities, NumericalEstimation
+* _hasReasoningMistake: ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: low
 
 </small>
 
@@ -687,6 +725,8 @@ ka vispirms stāv $10$ zēni un pēc tam $10$ meitenes.
 * _hasSolutionConcept: FiniteSequenceArrangement, Invariant, PigeonholePrinciple, Counterexample
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, PigeonholePrincipleBasic
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -727,6 +767,8 @@ $987654321$?
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, LastDigit, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -749,6 +791,8 @@ izvēles.
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, PointLineSegmentRay
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaCounting, AuxiliaryLines
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -778,6 +822,8 @@ ar vienu un to pašu skaitli. Atrast visus šādus taisnstūrus.
 * _hasReasoningMethod: CaseAnalysis
 * _newReasoningMethodLabel: FactoringAlgebraicExpressions
 * _newReasoningMethodDescription: Rewriting equations by algebraic factorization
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: low
 
 </small>
 
@@ -806,6 +852,8 @@ $a_{1}+a_{2}+\ldots+a_{2013}$ vērtību.
 * _hasSolutionConcept: PositiveIntegers, LinearInequality, OptimumProofStructure
 * _readingDifficulty: low
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: WrongDirectionOfInequalityChain, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -838,6 +886,8 @@ risinājumi netika iesniegti.
 * _hasSolutionConcept: PigeonholePrinciple, SubsetConcept, FiniteSet
 * _readingDifficulty: low
 * _hasReasoningMethod: PigeonholePrincipleGeneralized, RuleOfProductIndependentChoices
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 

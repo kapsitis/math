@@ -9,6 +9,8 @@ Izsaki skaitli $1$ kā piecu atšķirīgu daļu summu, kuru saucēji ir vienādi
 * _hasSolutionConcept: RationalNumbers, NumberPartitions
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -33,6 +35,8 @@ redzamo figūru un $28$ figūrām, kādas redzamas 2.att.? Figūras drīkst pagr
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringInvariant, CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, SkippingCaseAnalysis
+* _mistakesFit: medium
 
 </small>
 
@@ -62,6 +66,8 @@ bet **(A)** laukums ir pirmskaitlis; **(B)** perimetrs ir pirmskaitlis?
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, EvenOddParity, DivisibilityRelation, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -91,6 +97,8 @@ Atrodi visus tādus skaitļus un pamato, ka citu nav!
 * _hasSolutionConcept: PositiveIntegers, DigitSum, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: BoundingArgument, CompleteEnumeration, PositionalNotation
+* _hasReasoningMistake: WrongDigitSumRange, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -135,6 +143,8 @@ atsvariem atrast abas viltotās monētas?
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -189,6 +199,8 @@ bet pārējās - veseli skaitļi?
 * _hasSolutionConcept: RationalNumbers, WholeIntegers, VariableExpression, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -219,6 +231,8 @@ taisnstūriem, kuru izmēri ir $1 \times 2$ rūtiņas?
 * _hasSolutionConcept: Tiling, ChessboardColoring, ParityInvariant, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringInvariant, ProofByContradiction, CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -252,6 +266,8 @@ gadīties, ka visi seši trijstūros ierakstītie skaitļi ir vienādi?
 * _hasSolutionConcept: MagicConfiguration, DivisibilityRelation, DigitSum, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, FixedInvariantNumeric, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -288,6 +304,8 @@ nullēm! (Skaitļa kvadrāts ir skaitļa reizinājums pašam ar sevi).
 * _hasSolutionConcept: PerfectSquares, PrimeFactorization, DivisibilityRelation, DigitRepresentation
 * _readingDifficulty: medium
 * _hasReasoningMethod: PrimeFactorization, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -327,6 +345,8 @@ katram no pārējiem bērniem - samazinājās?
 * _hasSolutionConcept: Invariant, FiniteSequenceArrangement, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, FixedInvariantNumeric, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -359,6 +379,8 @@ vienādas cepures maksā vairāk nekā $11$ eiro. Cik maksā viena cepure?
 * _hasSolutionConcept: RationalNumbers, LinearInequality
 * _readingDifficulty: low
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -391,6 +413,8 @@ apgrieztas spoguļattēlā.
 * _hasSolutionConcept: Tiling, ChessboardColoring, ParityInvariant, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -430,6 +454,8 @@ divi cipari ir $11$ un kurš dalās ar $11$?
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, DivisibilityRules, DigitSum, DigitRepresentation, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: DivisibilityRules, ProofByContradiction, PositionalNotation, CoprimeFactorsDivisibility, ParityArgument, NumberConstruction
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility, ExampleInsteadOfProof
+* _mistakesFit: high
 
 </small>
 
@@ -487,6 +513,8 @@ Atrodi visus gadījumus un pamato, ka citu nav!
 * _hasSolutionConcept: Triangle, TriangleCongruence, TriangleAngleSum, TriangleInequality, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum, TriangleInequality, SymmetryStrategy
+* _hasReasoningMistake: SkippingCaseAnalysis, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -550,6 +578,8 @@ atsvariem, kur katrā kausā drīkst ielikt tieši divas bumbiņas, iespējams
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSet, DecisionTree
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -592,6 +622,8 @@ racionāls skaitlis!
 * _hasSolutionConcept: RationalNumbers, IrrationalAndReals, SquareOfSumIdentity, PositiveAndNegative
 * _readingDifficulty: low
 * _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities, CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, MissedSolutionsWhenSquareRootOfSquare
+* _mistakesFit: medium
 
 </small>
 
@@ -627,6 +659,8 @@ apgrieztas spoguļattēlā.
 * _hasSolutionConcept: Tiling, ChessboardColoring, EvenOddParity, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -661,6 +695,8 @@ naturāla skaitļa kvadrāta un pirmskaitļa summu.
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, PerfectSquares, DiffOfSquaresFactoring, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: FactoringAlgebraicExpressions, PrimePropertiesAndUniqueness, ProofByContradiction, NumberConstruction
+* _hasReasoningMistake: PrimeOnePointConfusion, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -701,6 +737,8 @@ paralēlskaldņa tilpums?
 * _hasSolutionConcept: PositiveIntegers, BasicSolids, Counterexample, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -740,6 +778,8 @@ $ABC$ ir vienādmalu!
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, TriangleAngleSum
 * _readingDifficulty: medium
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AreaCounting, TriangleAngleSum
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, ConflatingPropertyAndCriterion
+* _mistakesFit: medium
 
 </small>
 
@@ -793,6 +833,8 @@ reizinājums ir vismazākais!
 * _hasSolutionConcept: WholeIntegers, QuadraticFunction, OptimumProofStructure
 * _readingDifficulty: low
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother, UseFunctionGraphForRootsAndComparisons, IntroduceVariablesAndFormEquation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -827,6 +869,8 @@ ar izmēriem $1 \times 1 \times 3$ ?
 * _hasSolutionConcept: Tiling, Coloring, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringInvariant, ProofByContradiction
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -855,6 +899,8 @@ Pierādi, ka $x^{5}-5x^{3}+4x$ dalās ar $120$, ja $x$ ir vesels skaitlis!
 * _hasSolutionConcept: WholeIntegers, DivisibilityRelation, PrimeNumbers
 * _readingDifficulty: low
 * _hasReasoningMethod: DivisibilityByConsecutive, FactoringAlgebraicExpressions
+* _hasReasoningMistake: NonCoprimeFactorDivisibility, UnstatedNumberSetAssumption, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -893,6 +939,8 @@ $G$. Nosaki $\sphericalangle CGD$ lielumu, ja $\sphericalangle CAD=\alpha$!
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, Angle, CircleAndDisk, InscribedCentralAngle
 * _readingDifficulty: medium
 * _hasReasoningMethod: AngleChasing, TriangleAngleSum, CyclicQuadrilateral, IsoscelesTriangleProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongAngleDecomposition, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -926,6 +974,8 @@ skaitlis $1$ ir vidējais ($n$-tais), ja **(A)** $n=5$; **(B)** $n=1008$.
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 

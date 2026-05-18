@@ -25,6 +25,8 @@ joslām noteikti nebrauca autovadītājs?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: BoundingArgument, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -64,6 +66,8 @@ iegūtais skaitlis dalās ar $3$. Kādu lielāko skaitli varēja iegūt?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -98,6 +102,8 @@ kad tie visi reizē atkal dosies medībās?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: PeriodicSequence
+* _hasReasoningMistake: ConfusingDivisorAndMultiple
+* _mistakesFit: low
 
 </small>
 
@@ -133,6 +139,8 @@ skat. 1.att.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: high
 
 </small>
 
@@ -167,6 +175,8 @@ bijis tieši vienu reizi.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -201,6 +211,8 @@ summa. Kā var noteikti zināt, ka pirmais čeks bija kļūdains?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -226,6 +238,8 @@ skaitlis dalās ar $9$. Kādu lielāko skaitli varēja iegūt?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, BoundingArgument, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -264,6 +278,8 @@ tieši vienu reizi.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -295,7 +311,9 @@ vienāda garuma nogriežnoos.
 * _hasSolutionConcept: Triangle, PointLineSegmentRay, Angle, TriangleSpecialLines, LatticeGrid
 * _readingDifficulty: low
 * _domain: Geom
-* _hasReasoningMethod: 
+* _hasReasoningMethod:
+* _hasReasoningMistake: RelyingOnDiagramAppearance, MisuseOfMidpointOrParallel
+* _mistakesFit: medium
 
 </small>
 
@@ -325,6 +343,8 @@ salīdzinot ar situāciju pirms tās?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -361,6 +381,8 @@ labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļut rūtiņā $B$
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: DynamicProgramming, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -390,6 +412,8 @@ vērtības un pamato, ka citu nav!
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PositionalNotation, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -423,6 +447,8 @@ kā lapa var būt sagriezta $4$ daļās, skat. 14.att.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: high
 
 </small>
 
@@ -449,6 +475,8 @@ $\sphericalangle BAF=\sphericalangle BEF!$
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AngleChasing, TriangleAngleSum, ParallelLinesAngleProperties, IsoscelesTriangleProperties
+* _hasReasoningMistake: WrongAngleDecomposition, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -495,6 +523,8 @@ izmestas, vismaz viena iekrāsotā rūtiņa paliktu neizmesta?
 * _readingDifficulty: medium
 * _domain: Comb,Geom
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, PigeonholePrincipleBasic, RuleOfSumDisjointCases
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: high
 
 </small>
 
@@ -539,6 +569,8 @@ platība. Aprēķini slidotavas platību!
 * _readingDifficulty: medium
 * _domain: Alg,Geom
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -574,6 +606,8 @@ un pamato, ka citu nav!
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PositionalNotation, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -616,6 +650,8 @@ ir bijis tieši vienu reizi.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -659,6 +695,8 @@ iekrāsotās daļas (skat. 23.att.) laukuma attiecību pret $ABCD$ laukumu!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, CongruentTriangles, TriangleAngleSum
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -701,6 +739,8 @@ nav!
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric, ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -773,6 +813,8 @@ vairāk nekā viens metrs koka sijas. Cik sver viens metrs katras sijas?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -813,6 +855,8 @@ Pierādīt, ka $9x^{6}-x^{3}+1 > 0$ visiem reāliem $x$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: CompleteTheSquareForNonNegativity, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -860,6 +904,8 @@ $E$ sadala sānu malu $CD$ ?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, AreaCounting
+* _hasReasoningMistake: WrongAreaProportionality, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -892,6 +938,8 @@ $9801:1089=9$. Atrast vēl divus citus pārdabiskus skaitļus!
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction, PositionalNotation
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -924,6 +972,8 @@ nepārsniedz $2017$?
 * _readingDifficulty: low
 * _domain: Comb,NT
 * _hasReasoningMethod: PigeonholePrincipleBasic, ExtremalElementArgument, ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 

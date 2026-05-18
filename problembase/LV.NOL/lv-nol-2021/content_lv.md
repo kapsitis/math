@@ -12,6 +12,8 @@ kas dalās ar $3$. Kāda ir uzrakstīto skaitļu summa?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -37,6 +39,8 @@ Kāda ir divu mazāko pirmskaitļu summa?
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: DirectRecallOfDefinitions
 * _newReasoningMethodDescription: Using direct recall of basic definitions or facts
+* _hasReasoningMistake: PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
@@ -61,6 +65,8 @@ ja katrā kastē ir vismaz $10$ konfektes?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -93,6 +99,8 @@ vienāds olu skaits?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: PrimeFactorization
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -124,6 +132,8 @@ attēlā redzama figūra, kas sastāv no četrām 5-rūtiņu figūrām.
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _newReasoningMethodLabel: PerimeterIncrement
 * _newReasoningMethodDescription: Track perimeter change when adding repeated pieces
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -158,6 +168,8 @@ pārtraukt, lai to turpinātu otra darbiniece. Kāds ir īsākais laiks
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -192,6 +204,8 @@ nopirka Mārtiņš?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -219,6 +233,8 @@ Cik krustpunktu ir trīs dotajām taisnēm (skat. att.)?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -250,6 +266,8 @@ centimetros!
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: PerimeterComputation
 * _newReasoningMethodDescription: Computing total boundary length and repeated traversal distance
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -273,6 +291,8 @@ Cik skaitļi intervālā no $1$ līdz $200$ dalās ar $7$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: ConfusingDivisorAndMultiple
+* _mistakesFit: low
 
 </small>
 
@@ -294,6 +314,8 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -322,6 +344,8 @@ figūra, ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 * _hasReasoningMethod: CaseAnalysis
 * _newReasoningMethodLabel: LayerCounting3D
 * _newReasoningMethodDescription: Counting cubes by horizontal layers in a 3D stack
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -350,6 +374,8 @@ $$25~\mathrm{t}~50~\mathrm{kg} + 13~\mathrm{t}~950~\mathrm{kg} –
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -371,6 +397,8 @@ Vai skaitlis $2021$ dalās ar $5$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -399,6 +427,8 @@ Cik trijstūri redzami dotajā zīmējumā?
 * _hasReasoningMethod: SymmetryStrategy
 * _newReasoningMethodLabel: SystematicSubfigureCounting
 * _newReasoningMethodDescription: Counting all subfigures by partitioning into repeated regions
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -434,6 +464,8 @@ Kāds ir flīzes perimetrs centimetros, ja pusriņķa rādiuss ir $4~\mathrm{cm}
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: PerimeterFromArcDiameterComposition
 * _newReasoningMethodDescription: Compute perimeter by composing sides from semicircle diameters
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: low
 
 </small>
 
@@ -459,6 +491,8 @@ naturāli skaitļi. Kāds ir taisnstūra perimetrs centimetros?
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: PrimeFactorizationOfArea
 * _newReasoningMethodDescription: Using prime factorization to determine integer side lengths
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -488,6 +522,8 @@ Kura no figūrām ir visvieglākā?
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -524,6 +560,8 @@ uz punktu $B$? Pa ceļiem var pārvietoties tikai bultiņu norādītajā virzien
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -555,6 +593,8 @@ atrodas grāmata, kas maksā 7 eiro?
 * _readingDifficulty: medium
 * _domain: NT,Geom
 * _hasReasoningMethod: EulerVennDiagramRegions
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -583,6 +623,8 @@ $20$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $5$?
 * _readingDifficulty: low
 * _domain: NT,Geom
 * _hasReasoningMethod: EulerVennDiagramRegions
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -609,6 +651,8 @@ Telpā ir $3$ cilvēki. Cik dažādās secībās viņi var pamest šo telpu?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -633,6 +677,8 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
@@ -667,6 +713,8 @@ D. vairāk nekā $1000000$
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -714,6 +762,8 @@ figūra, kas sastāv no četrām šādi saliktām T-veida figūrām.
 * _hasReasoningMethod: CountingByDoubleCounting
 * _newReasoningMethodLabel: PerimeterIncrement
 * _newReasoningMethodDescription: Track perimeter change when attaching repeated pieces
+* _hasReasoningMistake: FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -746,6 +796,8 @@ garāks nekā iepriekšējais!
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: ArithmeticProgressionSummation
 * _newReasoningMethodDescription: Summing terms of an arithmetic progression
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -769,6 +821,8 @@ Cik krustpunktu ir četrām dotajām taisnēm (skat. att.)?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CountingByDoubleCounting
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -794,6 +848,8 @@ tad rezultātā iegūst skaitli $127$. Nosaki $A$ vērtību!
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _newReasoningMethodLabel: LastDigitAnalysis
 * _newReasoningMethodDescription: Inferring a number from the last digit of its power
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -826,6 +882,8 @@ veicot $369~\mathrm{cm}$. Nosaki trijstūra malas garumu centimetros!
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: PerimeterFromRepeatedTraversal
 * _newReasoningMethodDescription: Compute perimeter from repeated laps and divide by side count
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -857,6 +915,8 @@ minūtēs, kurā viņas var apkalpot visas septiņas klientes?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -888,6 +948,8 @@ Cik skaitļu intervālā no $1$ līdz $600$ dalās ar $7$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -911,6 +973,8 @@ olimpiādē?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -937,6 +1001,8 @@ atrastos līdzsvarā?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -969,6 +1035,8 @@ Kāds atlikums rodas, ja $10035$ dala ar $6$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -996,6 +1064,8 @@ ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -1023,6 +1093,8 @@ $$(2~\mathrm{h}~41~\mathrm{min} + 5~\mathrm{h}~59~\mathrm{min}) : 2 – 28~\math
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -1047,6 +1119,8 @@ Vai skaitlis $20212021$ dalās ar $5$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -1072,6 +1146,8 @@ Cik trijstūri redzami dotajā zīmējumā?
 * _hasReasoningMethod: SymmetryStrategy
 * _newReasoningMethodLabel: SystematicFigureCounting
 * _newReasoningMethodDescription: Partitioning a diagram into regions and summing repeated subfigure counts
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -1105,6 +1181,8 @@ Kāds ir taisnstūra perimetrs, ja riņķa līnijas rādiuss ir $4~\mathrm{cm}$?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: ParallelogramProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: low
 
 </small>
 
@@ -1134,6 +1212,8 @@ rūtiņu pa labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļūt rūti
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: DynamicProgramming, RecursiveSequenceForCounting, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -1166,6 +1246,8 @@ dalītos ar $90$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -1192,6 +1274,8 @@ nenokrāsoti, ja kastes škautnes garums ir $7~\mathrm{cm}$?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1217,6 +1301,8 @@ Cik dažādās secībās $3$ skolēni var nostāties rindā pie kases?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -1246,6 +1332,8 @@ grāmata, kas maksā $17$ eiro?
 * _readingDifficulty: medium
 * _domain: NT,Geom
 * _hasReasoningMethod: EulerVennDiagramRegions, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -1273,6 +1361,8 @@ atrodas aplī. Kurā plaknes daļā atrodas skaitlis $10$?
 * _readingDifficulty: low
 * _domain: NT,Geom
 * _hasReasoningMethod: EulerVennDiagramRegions
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1294,6 +1384,8 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: RuleOfProductIndependentChoices
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -1321,6 +1413,8 @@ lai skaitļi pa apli būtu uzrakstīti pretējā secībā?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -1347,6 +1441,8 @@ virsotnēm bija attēloti sākotnējā zīmējumā?
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, SkippingCaseAnalysis
+* _mistakesFit: medium
 
 </small>
 
@@ -1373,6 +1469,8 @@ $$A(1;3.5) \quad B(8;6) \quad C(-12;-1) \quad D(-5;1)$$
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1412,6 +1510,8 @@ Nosaki ceturtās virsotnes koordinātu summu!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: ParallelogramProperties
+* _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -1438,6 +1538,8 @@ Cik mazos trijstūrīšus ieguva?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: WrongAreaProportionality, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -1465,6 +1567,8 @@ viņai pietrūktu. Cik centu ir Dacei?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -1501,6 +1605,8 @@ kur redzamas pirmās trīs figūras). No cik divu posmu leņķīšiem
 * _hasReasoningMethod: CountingByDoubleCounting
 * _newReasoningMethodLabel: RecursiveChangeCounting
 * _newReasoningMethodDescription: Track total count via fixed increment in each construction step
+* _hasReasoningMistake: FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -1530,6 +1636,8 @@ Cik krustpunktu ir trīs dotajām taisnēm un staram (skat.att.)
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -1554,6 +1662,8 @@ Kāds ir galarezultāta pēdējais cipars?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: LastDigitAnalysis
+* _hasReasoningMistake: CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -1588,6 +1698,8 @@ malas garums ir $4~\mathrm{cm}$?
 * _hasReasoningMethod: CaseAnalysis
 * _newReasoningMethodLabel: PeriodicMotionAlongPerimeter
 * _newReasoningMethodDescription: Using perimeter periodicity via division with remainder
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1616,6 +1728,8 @@ olimpiādē. Cik procentu no skolas skolēniem piedalījās olimpiādē?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -1642,6 +1756,8 @@ Kāda ir riņka un kvadrāta masa, ja trijstūra masa ir $5$ kg?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, SystemOfEquationsAdditionOrSubstitution
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -1678,6 +1794,8 @@ Kāds atlikums rodas, ja $2021$ dala ar $4$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1703,6 +1821,8 @@ tagadējais klucǐšu izkārtojums redzams attēlā?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -1730,6 +1850,8 @@ būtu patiesa?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1752,6 +1874,8 @@ dalītos ar $36$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -1785,6 +1909,8 @@ Iekrāsotajās rūtiņās ir škēēslis, tajās varde neiet.
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: DynamicProgramming, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -1822,6 +1948,8 @@ grāmata, kas maksā $27$ eiro?
 * _readingDifficulty: medium
 * _domain: NT,Geom
 * _hasReasoningMethod: EulerVennDiagramRegions
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: low
 
 </small>
 
@@ -1851,6 +1979,8 @@ $15$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $45$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: EulerVennDiagramRegions
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -1877,6 +2007,8 @@ līniju centros un taisnstūra $LMNO$ perimetrs ir $112~\mathrm{cm}$?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: ParallelogramProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -1903,6 +2035,8 @@ atrastos uz funkcijas $y = 3x − 71$ grafika?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -1926,6 +2060,8 @@ $y=71x+2021$ grafikam un iet caur punktu $A(2;200)$. Nosaki $b$ vērtību!
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: SlopesOnCoordinatePlane, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -1949,6 +2085,8 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1979,6 +2117,8 @@ bija Mārim trešajā naudas skaitīšanas reizē?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -2011,6 +2151,8 @@ Cik dažādos veidos $6$ skolēni var nostāties rindā?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: RuleOfProductIndependentChoices
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -2036,6 +2178,8 @@ $1, 4, 3, 6, 5, 8, 7, 2$, skatoties pulksteņa rādītāja kustības virzienā?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -2064,6 +2208,8 @@ tikai visas kvadrātu virsotnes. Cik kvadrāti ar dotajām virsotnēm bija attē
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -2091,6 +2237,8 @@ $$A(-1;3.5) \quad B $(-8;6) \quad C(12;-1) \quad D(5;1).$$
 * _hasReasoningMethod: newMethod
 * _newReasoningMethodLabel: CoordinateLineEquation
 * _newReasoningMethodDescription: Find line equation from two points and test candidates
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2120,6 +2268,8 @@ trijstūrīšus ieguva?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: low
 
 </small>
 
@@ -2153,6 +2303,8 @@ malas garums ir $1~\mathrm{cm}$.
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, CaseAnalysis
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -2183,6 +2335,8 @@ Cik centu ir Inese?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -2214,6 +2368,8 @@ kas sastāv no 50 rūtiņām?
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2242,6 +2398,8 @@ iegūtajam rezultātam pieskaitīja $2$. Kāds ir galarezultāta desmitu
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -2274,6 +2432,8 @@ malas robots apstājās, ja katras trijstūra malas garums ir $7~\mathrm{cm}$?
 * _hasReasoningMethod: CaseAnalysis
 * _newReasoningMethodLabel: PerimeterCycleRemainder
 * _newReasoningMethodDescription: Using perimeter cycles and remainders on repeated motion
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2301,6 +2461,8 @@ $2 \sqrt{50}+x>20$ būtu patiesa?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2334,6 +2496,8 @@ $60~\mathrm{cm}$. Cik gara ir trijstūra pamata mala centimetros?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: TriangleInequality, CaseAnalysis, IsoscelesTriangleProperties
+* _hasReasoningMistake: SkippingCaseAnalysis, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -2363,6 +2527,8 @@ būtu patiesa?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2384,6 +2550,8 @@ Cik skaitli intervālā no $1$ līdz $1000$ dalās ar $7$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: BoundingArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2408,6 +2576,8 @@ vienā dienā izlasīja Rihards?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -2432,6 +2602,8 @@ Nosaki leņķu $\alpha$ un $\beta$ summu (grādos)!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AngleChasing, ParallelLinesAngleProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongAngleDecomposition, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -2458,6 +2630,8 @@ abu pamata pieleņu summa. Cik grādus liels ir virsotnes leņkis?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: TriangleAngleSum, AngleChasing, IsoscelesTriangleProperties
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2483,6 +2657,8 @@ un ordinātas kvadrāta summa?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2506,6 +2682,8 @@ olimpiādē. Cik procentu no skolas skolēniem nepiedalījās olimpiādē?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -2535,6 +2713,8 @@ Kurā plaknes daļā atrodas grāmata, kas maksā $37$ eiro?
 * _readingDifficulty: medium
 * _domain: NT,Geom
 * _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2565,6 +2745,8 @@ dalītāji atrodas aplī. Kurā plaknes daļā atrodas skaitlis $8$?
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: SetIntersectionClassification
 * _newReasoningMethodDescription: Classifying an element by membership in overlapping sets
+* _hasReasoningMistake: ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -2587,6 +2769,8 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -2618,6 +2802,8 @@ Cik dalībniekiem patīk tikai matemātika?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: EulerVennDiagramRegions, RuleOfSumDisjointCases
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -2672,6 +2858,8 @@ Vai ar 2.att. figūrām, kas sastāv no $4$ rūtiņām, var noklāt rūtiņu lau
 * _hasReasoningMethod: ProofByContradiction
 * _newReasoningMethodLabel: DivisibilityByTileArea
 * _newReasoningMethodDescription: Using total area divisibility by tile size
+* _hasReasoningMistake: ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -2711,6 +2899,8 @@ ja ceļš $CD$ ir slēgts (tas ir, pa ceļu $CD$ nedrīkst braukt)?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -2752,6 +2942,8 @@ Zināms, ka katram no skolēniem patīk vismaz viens no šiem priekšmetiem. Cik
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: EulerVennDiagramRegions, RuleOfSumDisjointCases
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -2797,6 +2989,8 @@ ja tām ir kopīga mala.
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2829,6 +3023,8 @@ lai no tām noteikti varētu izveidot divciparu skaitli, kurš dalās ar $7$
 * _readingDifficulty: medium
 * _domain: Comb,NT
 * _hasReasoningMethod: PigeonholeInNT, CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -2876,6 +3072,8 @@ $y=ax+b$, $y=bx-c$ un $y=cx+a$ grafiki (grafiki nav doti mērogā)?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: CaseAnalysisIncomplete, IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -2916,6 +3114,8 @@ Naturālu skaitli sauc par īpašu, ja tas ir vienāds ar četru savu dažādu d
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: ParityArgument, ProofByContradiction, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -2951,6 +3151,8 @@ spēlējot, un kā vinam jārīkojas?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -2991,6 +3193,8 @@ funkciju grafiki krustojas vienā punktā!
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -3025,6 +3229,8 @@ kur $n$ ir kāds vesels skaitlis?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, AlgebraicManipulationForInteger, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: ExampleInsteadOfProof, PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
@@ -3120,6 +3326,8 @@ ja zināms, ka $\Varangle BAC=120^{\circ}$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, PointOnSegmentConstruction, IsoscelesTriangleProperties, AngleChasing, AuxiliaryLines
+* _hasReasoningMistake: UnjustifiedAuxiliaryLineExists, WrongTriangleSimilarityOrCongruence, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -3168,6 +3376,8 @@ stāvošā ūdenī ir vienādi un upes straumes ātrums ir $5~\mathrm{km}/\mathr
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -3210,6 +3420,8 @@ $y=bx^{2}+cx+a$ grafiki? Funkciju grafiki nav zīmēti mērogā.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: UseFunctionGraphForRootsAndComparisons, ProofByContradictionInAlgebra, VietasFormulas
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -3256,6 +3468,8 @@ Aprēḳināt $S_{CED}$, ja $AB=1$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: PythagoreanTheorem, ParallelogramProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -3292,6 +3506,8 @@ nevienam pirmskaitlim $p$ skaitlis $p+1$ nav naturāla skaitļa $k$-tā pakāpe.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: FactoringAlgebraicExpressions, ProofByContradiction, CompleteEnumeration, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: MissingBoundOrExample, PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -3328,6 +3544,8 @@ rindā augošā secībā, tad 22. un 99. skaitļa summa arī būtu lielāka nek�
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 

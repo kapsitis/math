@@ -14,6 +14,8 @@ citu!)
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: high
 
 </small>
 
@@ -42,6 +44,8 @@ pamatot!
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, EvenOddParity, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -77,6 +81,8 @@ $B$.
 * _hasSolutionConcept: DigitRepresentation, LinearEquation, LinearInequality
 * _readingDifficulty: low
 * _hasReasoningMethod: NumericalEstimation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, WrongDirectionOfInequalityChain, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -103,6 +109,8 @@ kārtas. Cik lappušu numuros ir sastopams cipars $7$?
 * _hasSolutionConcept: DigitRepresentation, CountingProductRule, CountingSumRule
 * _readingDifficulty: low
 * _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -157,6 +165,8 @@ tā, ka no katra punkta iziet nepāra skaits nogriežņu?
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, HandshakingLemmaSumOfDegreesEven
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -184,6 +194,8 @@ b. noapaļojot $2 \cdot a,\ 4 \cdot a,\ 6 \cdot a$ līdz veselam skaitlim,
 * _hasSolutionConcept: RationalNumbers, LinearInequality, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -207,6 +219,8 @@ laukums var būt mazāks par $10$ rūtiņām?
 * _hasSolutionConcept: LatticeGrid, FiniteSet, SetPartition, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -235,6 +249,8 @@ dažādi cipari.
 * _hasSolutionConcept: DigitRepresentation, ExistenceVsUniversal, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -257,6 +273,8 @@ kārtas. Cik lappušu numuros ir sastopams vismaz viens no cipariem $3$ vai $7$?
 * _hasSolutionConcept: DigitRepresentation, CountingProductRule, SetDifference
 * _readingDifficulty: low
 * _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -321,6 +339,8 @@ jebkurus divus no tiem, nodzēš tos un rindas galā uzraksta šo skaitļu starp
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess, PositiveIntegers
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: ConcreteToGeneralLeap, CircularReasoningOrAssumingTheConclusion, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -368,6 +388,8 @@ tukšajā rūtiņā. Pierādīt, ka Ariadne var panākt jebkuru no trim situāci
 * _hasSolutionConcept: LinearEquation, GamePosition, CaseAnalysis, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -405,6 +427,8 @@ Pierādīt, ka $OX=OY$.
 * _hasSolutionConcept: Angle, ParallelPerpendicular, TriangleCongruence, TriangleSpecialLines
 * _readingDifficulty: low
 * _hasReasoningMethod: CongruentTriangles, AngleChasing, AuxiliaryLines
+* _hasReasoningMistake: WrongAngleDecomposition, WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -446,6 +470,8 @@ skaitlis $x(x+1)(x+2)$ dalās ar $87$?
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, PrimeNumbers, MultiplesSet, CountingSumRule
 * _readingDifficulty: low
 * _hasReasoningMethod: CoprimeFactorsDivisibility, DivisibilityByConsecutive, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: WrongDivisibilityDirection, NonCoprimeFactorDivisibility, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -500,6 +526,8 @@ apmeklētājiem ir kļūdījies.
 * _hasSolutionConcept: GraphConcept, VertexDegree, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -528,6 +556,8 @@ maršruts drīkst saturēt augstākais vienu pagriezienu.
 * _hasSolutionConcept: LatticeGrid, GraphConcept, ConnectedGraph, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, PigeonholePrincipleBasic
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -556,6 +586,8 @@ saknes (varbūt vienādas), un izteikt tās, neizmantojot kvadrātsaknes zīmi.
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, PolynomialAndRoots
 * _readingDifficulty: low
 * _hasReasoningMethod: VietasFormulas
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -583,6 +615,8 @@ uz $EF$. Malas $BC$ viduspunkts ir $G$. Pierādīt, ka $AG=EG$.
 * _hasSolutionConcept: QuadrilateralFamilies, ParallelPerpendicular, PointLineSegmentRay, TriangleSpecialLines
 * _readingDifficulty: low
 * _hasReasoningMethod: PerpendicularBisector, AuxiliaryLines, ParallelogramProperties
+* _hasReasoningMistake: MisuseOfMidpointOrParallel, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -620,6 +654,8 @@ Cik ir tādu piecciparu skaitļu, kuru pierakstā ir vismaz viens nepāra cipars
 * _hasReasoningMethod: RuleOfProductIndependentChoices, SetComplement
 * _newReasoningMethodLabel: SetComplement
 * _newReasoningMethodDescription: Count desired objects via subtracting the complement
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -666,6 +702,8 @@ uzrakstīti nepāra skaitļi, ja **(A)** $N=2014$, **(B)** $N=2401$?
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
 * _readingDifficulty: medium
 * _hasReasoningMethod: HandshakingLemmaSumOfDegreesEven, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -693,6 +731,8 @@ rūtiņas centru.
 * _hasSolutionConcept: EvenOddParity, CoordinatePlane, LatticeGrid, Triangle, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParityInvariant, CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -738,6 +778,8 @@ $b$ ir dažādi skaitļi?
 * _hasSolutionConcept: QuadraticEquation, SquareOfSumIdentity, ProofByContradiction
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CompleteTheSquareForNonNegativity, UseStandardIdentities
+* _hasReasoningMistake: CircularReasoningOrAssumingTheConclusion, UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -786,6 +828,8 @@ taisnstūra laukums. Atrast visus šādus taisnstūrus.
 * _hasReasoningMethod: CaseAnalysis
 * _newReasoningMethodLabel: FactoringAlgebraicExpressions
 * _newReasoningMethodDescription: Rewriting equations by algebraic factorization
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -817,6 +861,8 @@ Atrisināt naturālos skaitļos vienādojumu $3abc+3a+3b=7bc+7$.
 * _hasSolutionConcept: PositiveIntegers, VariableExpression, DivisibilityRelation, CaseAnalysis
 * _readingDifficulty: low
 * _hasReasoningMethod: DiophantineEquations, BoundingArgument, AlgebraicManipulationForInteger, CompleteEnumeration
+* _hasReasoningMistake: UnstatedNumberSetAssumption, FactoringWithoutIntegerCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -863,6 +909,8 @@ sienāzi (katru savā rūtiņā) tā, lai tie viens otru neapdraudētu?
 * _hasSolutionConcept: FiniteSet, CountingSumRule, ExhaustiveCheck, LatticeGrid
 * _readingDifficulty: low
 * _hasReasoningMethod: RuleOfSumDisjointCases, RuleOfProductIndependentChoices
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -901,6 +949,8 @@ $AC$ un $BM$ krustojas punktā $S$. Aprēķināt trijstūra $ASM$ laukumu.
 * _hasSolutionConcept: TriangleSimilarity, QuadrilateralFamilies, PointLineSegmentRay, Triangle
 * _readingDifficulty: low
 * _hasReasoningMethod: SimilarTriangles, AreaInvarianceAndDecomposition, ScalingByLinearRatio, ParallelLinesAngleProperties
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAreaProportionality, AreaWithoutPosition
+* _mistakesFit: high
 
 </small>
 

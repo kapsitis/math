@@ -11,6 +11,8 @@ gadīties, ka viens skaitlis ir tieši septiņas reizes lielāks nekā otrs skai
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, DivisibilityRelation
 * _readingDifficulty: low
 * _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -37,6 +39,8 @@ platleņķa trijstūri, ja tam ir viens plats leņķis un divi šauri leņķi.)
 * _hasSolutionConcept: Square, Triangle, Polygon
 * _readingDifficulty: low
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -62,6 +66,8 @@ $2$ baltas, vai $3$ zaļas, vai $4$ sarkanas pogas.
 * _hasSolutionConcept: PigeonholePrinciple, FiniteSet, CaseAnalysis, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: high
 
 </small>
 
@@ -88,6 +94,8 @@ mājā. (Lifts nevar uzbraukt augstāk par 24. stāvu un zemāk par 1. stāvu.)
 * _hasSolutionConcept: LinearDiophantine, StateSpaceProcess, Invariant
 * _readingDifficulty: high
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -118,6 +126,8 @@ saucam par vienādām figūrām.)
 * _hasSolutionConcept: DissectionIntoCongruent, AxialSymmetry
 * _readingDifficulty: low
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -151,6 +161,8 @@ viens un tas pats skaitlis. Kāds tas ir?
 * _hasSolutionConcept: PositiveIntegers, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays, NumericalEstimation
+* _hasReasoningMistake: ConcreteToGeneralLeap, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -179,6 +191,8 @@ Sadali kvadrātu divos vienādos **(A)** sešstūros, **(B)** septiņstūros.
 * _hasSolutionConcept: DissectionIntoCongruent, Polygon, SquareOfSumIdentity
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -204,6 +218,8 @@ būtu vismaz viena zaļa rūtiņa?
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -236,6 +252,8 @@ pirmskaitļi būtu dažādi?
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, ParityInvariant, FiniteSequenceArrangement
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParityArgument, NumberConstruction
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -269,6 +287,8 @@ palikt pāri)?
 * _hasSolutionConcept: FrobeniusType, DivisibilityRelation, MultiplesSet, DivisionWithRemainder
 * _readingDifficulty: medium
 * _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -303,6 +323,8 @@ $ab(3a+5b)=1234567$?
 * _hasSolutionConcept: WholeIntegers, EvenOddParity, ParityInvariant
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityArgument
+* _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -331,6 +353,8 @@ ir viens vesels nogrieznis)?
 * _hasSolutionConcept: Triangle, TriangleInequality, FiniteSet, UnorderedSelection
 * _readingDifficulty: low
 * _hasReasoningMethod: TriangleInequality, CaseAnalysis
+* _hasReasoningMistake: ConcludingFromZeroOrEdgeCase, SkippingCaseAnalysis
+* _mistakesFit: medium
 
 </small>
 
@@ -364,6 +388,8 @@ vienlaicīgi ar to, ja sarkanās automašīnas ātrums bija
 * _hasSolutionConcept: DirectProportion, LinearEquation, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -399,6 +425,8 @@ atšķirīgi)?
 * _hasSolutionConcept: BasicSolids, DissectionIntoCongruent, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -428,6 +456,8 @@ iet.
 * _hasSolutionConcept: LatticePath, LatticeGrid, RecurrentSequence
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis,DynamicProgramming
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -461,6 +491,8 @@ būtu **(A)** $13$, **(B)** $14$.
 * _hasSolutionConcept: WholeIntegers, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -485,6 +517,8 @@ $P$ līdz dotā trijstūra virsotnēm ir lielāka nekā puse no trijstūra perim
 * _hasSolutionConcept: Triangle, TriangleInequality
 * _readingDifficulty: low
 * _hasReasoningMethod: TriangleInequality
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -516,6 +550,8 @@ olimpiādē?
 * _hasSolutionConcept: ArithmeticMean, EquationSystem, PositiveIntegers
 * _readingDifficulty: low
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -551,6 +587,8 @@ dalās ar $5$. Pierādi, ka visi uzrakstītie skaitļi dalās ar $5$.
 * _hasSolutionConcept: WholeIntegers, DivisibilityRelation, ModularArithmetic, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ModularArithmetic
+* _hasReasoningMistake: CarelessModularComputation, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -619,6 +657,8 @@ pret šo diagonāli ierakstīti vienādi skaitļi.)
 * _hasSolutionConcept: LatinSquareSudoku, AxialSymmetry, Invariant, ParityInvariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -648,6 +688,8 @@ Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 * _hasSolutionConcept: DivisorsSet, PrimeFactorization, DivisibilityRelation
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction, NumberOfDivisors
+* _hasReasoningMistake: ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -674,6 +716,8 @@ $\sphericalangle BAC=\sphericalangle BMN$
 * _hasSolutionConcept: Triangle, Angle, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
 * _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, AngleAtCenterAndCircumference
+* _hasReasoningMistake: MisuseOfMidpointOrParallel, WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -706,6 +750,8 @@ pirmskaitļi. Aprēķini $a$ skaitlisko vērtību.
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, PrimeNumbers, EvenOddParity
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityArgument, CompleteEnumeration
+* _hasReasoningMistake: PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
@@ -735,6 +781,8 @@ ar $37$. Vai Pēteris vienmēr var uzvarēt?
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, SymmetryStrategy
 * _readingDifficulty: high
 * _hasReasoningMethod: GameInvariantsInNT, PositionalNotation
+* _hasReasoningMistake: ExampleInsteadOfProof, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -770,6 +818,8 @@ piecos vienlielos trijstūros.
 * _hasSolutionConcept: DissectionIntoCongruent, Triangle, QuadrilateralFamilies, Invariant
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, AreaCounting, ProofByContradiction
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 

@@ -11,6 +11,8 @@ kļūst skaidrs, kurās kastēs ir āboli?
 * _hasSolutionConcept: FiniteSet, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -42,6 +44,8 @@ apli".)
 * _hasSolutionConcept: FiniteSet, GraphConcept, FunctionConcept, ProofByContradiction
 * _readingDifficulty: high
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -78,6 +82,8 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 * _hasSolutionConcept: GraphConcept, DirectedGraph, OptimumProofStructure
 * _readingDifficulty: high
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -108,6 +114,8 @@ sviras svariem bez atsvariem atrast šo lodīti?
 * _hasSolutionConcept: DecisionTree, Invariant, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -145,6 +153,8 @@ dažādiem, ja tos nevar novietot tā, lai tie pilnīgi sakristu viens ar otru.
 * _hasSolutionConcept: FiniteSet, ExhaustiveCheck, OptimumProofStructure, DissectionIntoCongruent
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis, ProofByContradiction
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -177,6 +187,8 @@ izteiksme $2a+3b+c$ dalās ar $7$.
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, DivisibilityRules
 * _readingDifficulty: low
 * _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -203,6 +215,8 @@ divos gadījumos:
 * _hasSolutionConcept: EquationSystem, RationalNumbers, PositiveAndNegative, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, IntroduceVariablesAndFormEquation, CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -234,6 +248,8 @@ būtu vienādi, ja sākotnējais izvietojums ir tāds, kāds parādīts 1.zīm. 
 * _hasSolutionConcept: Invariant, EvenOddParity, ChessboardColoring, LatticeGrid
 * _readingDifficulty: high
 * _hasReasoningMethod: ParityOrModularArgumentForEquations,InvariantByColoring
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -276,6 +292,8 @@ stūris ar kādu atzīmēto?
 * _hasSolutionConcept: LatticeGrid, FiniteSet, OptimumProofStructure, Invariant
 * _readingDifficulty: high
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -308,6 +326,8 @@ rūķītis varētu apciemot katru citu?
 * _hasSolutionConcept: GraphConcept, FiniteSet, CountingProductRule, OptimumProofStructure
 * _readingDifficulty: high
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -356,6 +376,8 @@ pierakstu?
 * _readingDifficulty: high
 * _domain: NT,Comb
 * _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -394,6 +416,8 @@ Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -430,6 +454,8 @@ spēlēts pietiekoši ilgi).
 * _readingDifficulty: high
 * _domain: NT,Comb
 * _hasReasoningMethod: GameInvariantsInNT, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -460,6 +486,8 @@ citu.
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: PigeonholePrincipleBasic, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: medium
 
 </small>
 
@@ -486,6 +514,8 @@ starpība?
 * _readingDifficulty: high
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation, IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: WrongDirectionOfInequalityChain, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -525,6 +555,8 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, VietasFormulas
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: low
 
 </small>
 
@@ -549,6 +581,8 @@ Aprēķināt **(A)** $\sphericalangle MCB$, **(B)** $\sphericalangle MBC$.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, CongruentTriangles, AuxiliaryLines, PerpendicularBisector, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: high
 
 </small>
 
@@ -594,6 +628,8 @@ $1716$. Kādu skaitli viņa iedomājās sākumā?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: PrimePropertiesAndUniqueness, CompleteEnumeration, PrimeFactorization
+* _hasReasoningMistake: ConfusingDivisorAndMultiple, WrongDivisibilityDirection, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -629,6 +665,8 @@ Dzintars savā starpā nesazinās un nespiego, ko dara skatītājs.)
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: PigeonholePrincipleBasic, ConstructiveExampleForExistence
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -666,6 +704,8 @@ figūriņas sākuma pozīciju.
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, RuleOfSumDisjointCases
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -707,6 +747,8 @@ gadīties, ka tieši $19$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, ProofByContradiction
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -738,6 +780,8 @@ punktos $M,\ K$ un $N$. Pierādīt, ka $\sphericalangle BMN=\sphericalangle BMK$
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: AngleAtCenterAndCircumference, ParallelLinesAngleProperties, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption, WrongAngleDecomposition
+* _mistakesFit: medium
 
 </small>
 
@@ -779,6 +823,8 @@ $$(f(x))^{2}+(g(x))^{2}=\left(x^{2}+1\right)\left(x^{2}+4\right)\left(x^{2}+2x+2
 * _readingDifficulty: medium
 * _domain: NT,Alg
 * _hasReasoningMethod: FactoringAlgebraicExpressions, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -807,6 +853,8 @@ ja **(A)** $n=8$, **(B)** $n=9$?
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -844,6 +892,8 @@ monētu daudzums var vienlaicīgi atrasties ar ģerboni uz augšu?
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 

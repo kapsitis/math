@@ -18,6 +18,8 @@ nav $0$. Atrodi visus iespējamos atrisinājumus!
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: CompleteEnumeration, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityDirection, ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -67,6 +69,8 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, LinearEquation
 * _readingDifficulty: low
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -101,6 +105,8 @@ Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros!
 * _hasSolutionConcept: Tiling, Triangle, Polygon
 * _readingDifficulty: low
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -129,6 +135,8 @@ starpība ir
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, EvenOddParity, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -166,7 +174,9 @@ Parādi, kā to var izdarīt, ja
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, Rotation, ExhaustiveCheck
 * _readingDifficulty: medium
-* _hasReasoningMethod: 
+* _hasReasoningMethod:
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -192,6 +202,8 @@ $$a \cdot b \cdot(a+b)=20102011?$$
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -218,6 +230,8 @@ kungiem. Cik starp šiem pensionāriem ir kungu un cik - kundžu?
 * _hasSolutionConcept: EquationSystem, DivisibilityRelation, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: DoubleCountingTheSameObject, ImplicitAssumptionAboutObjectsBeingDistinct
+* _mistakesFit: medium
 
 </small>
 
@@ -246,6 +260,8 @@ atrast nevienu pilnībā baltu taisnstūri ar izmēriem $1 \times 3$ rūtiņas
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -285,6 +301,8 @@ Vai, vairākkārt veicot šādus gājienus, var iegūt tabulu, kāda attēlota 4
 * _hasSolutionConcept: WholeIntegers, EvenOddParity, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParityOrModularArgumentForEquations, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -314,6 +332,8 @@ vienāds konfekšu skaits. Cik konfekšu sākumā bija katrai no māsām?
 * _hasSolutionConcept: RationalNumbers, VariableExpression, LinearEquation
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -357,6 +377,8 @@ Atrodi visus šos skaitļus!
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, LastDigit, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: CompleteEnumeration, LastDigitAnalysis, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -413,6 +435,8 @@ pilsētā $B$ ierasties vienlaicīgi ar to, ja sarkanās automašīnas ātrums b
 * _hasSolutionConcept: DirectProportion, LinearEquation, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -451,6 +475,8 @@ dalot ar $2011$, atlikumā iegūst $3$.
 * _hasSolutionConcept: PositiveIntegers, DivisionWithRemainder
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -474,6 +500,8 @@ kā to var izdarīt!
 * _hasSolutionConcept: Tiling, PositiveIntegers, Rectangle, Square
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -499,6 +527,8 @@ vienas krāsas punktus, starp kuriem attālums centimetros ir vesels skaitlis.
 * _hasSolutionConcept: PigeonholePrinciple, Coloring, FiniteSet, PointLineSegmentRay
 * _readingDifficulty: low
 * _hasReasoningMethod: PigeonholePrinciple
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -530,6 +560,8 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("+", "-", " $\cdot$ "
 * _hasSolutionConcept: WholeIntegers, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -554,6 +586,8 @@ $MK,\ ML,\ MP$ un $MR$ viduspunkti, ir kvadrāts.
 * _hasSolutionConcept: PointLineSegmentRay, QuadrilateralFamilies, CentralSymmetry, ParallelPerpendicular
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParallelogramProperties, ParallelLinesAngleProperties
+* _hasReasoningMistake: MisuseOfMidpointOrParallel, RelyingOnDiagramAppearance, ConflatingPropertyAndCriterion
+* _mistakesFit: high
 
 </small>
 
@@ -584,6 +618,8 @@ vienādas. Nosaki visas iespējamās šo summu vērtības.
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -628,6 +664,8 @@ dalās ar **(A)** $17$; **(B)** $23$?
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, PrimeNumbers, Counterexample
 * _readingDifficulty: medium
 * _hasReasoningMethod: PositionalNotation, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -675,6 +713,8 @@ spēlētājiem, pareizi spēlējot, uzvarēs? Apraksti, kā uzvarētājam jārī
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, GamePosition, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: GameInvariantsInNT, LastDigitAnalysis
+* _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -710,6 +750,8 @@ $$\frac{1}{x^{2}+24}+\frac{1}{y^{2}+24}=\frac{2}{xy+24}$$
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, EquationSystem
 * _readingDifficulty: low
 * _hasReasoningMethod: DiophantineEquations, FactoringAlgebraicExpressions, CompleteEnumeration
+* _hasReasoningMistake: UnstatedNumberSetAssumption, FactoringWithoutIntegerCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -756,6 +798,8 @@ $\sphericalangle BAC=\sphericalangle BMN$.
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle, ParallelPerpendicular
 * _readingDifficulty: medium
 * _hasReasoningMethod: CongruentTriangles, AngleAtCenterAndCircumference, ParallelLinesAngleProperties
+* _hasReasoningMistake: MisuseOfMidpointOrParallel, WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -789,6 +833,8 @@ racionāla sakne?
 * _hasSolutionConcept: QuadraticEquation, RationalNumbers, VariableExpression, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -817,6 +863,8 @@ ka katrs no tiem ir izsakāms kā divu naturālu skaitļu kvadrātu starpība?
 * _hasSolutionConcept: PositiveIntegers, DiffOfSquaresFactoring, EvenOddParity, DivisibilityRelation
 * _readingDifficulty: medium
 * _hasReasoningMethod: FactoringAlgebraicExpressions, ParityArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -850,6 +898,8 @@ nevar, izpildot tikai atļautos gājienus?
 * _hasSolutionConcept: LatticeGrid, Coloring, Invariant
 * _readingDifficulty: high
 * _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 

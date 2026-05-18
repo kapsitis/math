@@ -21,6 +21,8 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $2$.
 * _hasSolutionConcept: LatinSquareSudoku, FiniteSequenceArrangement, Coloring
 * _readingDifficulty: medium
 * _hasReasoningMethod: BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -48,6 +50,8 @@ lai garantētu, ka viņam:
 * _hasSolutionConcept: FiniteSet, CountingSumRule, PigeonholePrinciple, OptimumProofStructure, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier, MissingConstructionPartInOptimalProblems
+* _mistakesFit: high
 
 </small>
 
@@ -85,6 +89,8 @@ $7 \cdot(9-5)-3=25$.
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -118,6 +124,8 @@ pārklāties viena ar otru vai iziet ārpus taisnstūra.
 * _hasSolutionConcept: Tiling, LatticeGrid, PlaneTransformation
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -152,6 +160,8 @@ Cik patiesībā bija pulkstenis? Atbildi pamato!
 * _hasSolutionConcept: ExhaustiveCheck, CaseAnalysis, FiniteSequenceArrangement
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -191,6 +201,8 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $4$.
 * _hasSolutionConcept: LatinSquareSudoku, FiniteSet, Coloring, ArithmeticOperations
 * _readingDifficulty: medium
 * _hasReasoningMethod: BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -217,6 +229,8 @@ lai varētu apgalvot, ka kopumā Annai vismaz sešas no bumbiņām ir vienā kr�
 * _hasSolutionConcept: FiniteSet, PigeonholePrinciple, ExistenceVsUniversal, Counterexample, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, PigeonholePrincipleBasic, PigeonholePrincipleGeneralized
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -261,6 +275,8 @@ savu roku. Cik no šiem rūķiem vienmēr saka patiesību?
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -292,6 +308,8 @@ ka tās sakrīt.
 * _hasSolutionConcept: DissectionIntoCongruent, AxialSymmetry, LatticeGrid
 * _readingDifficulty: low
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -318,6 +336,8 @@ viens - par trīs, viens - par pieci un viens - par deviņi.
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSet, PositiveIntegers, AbsoluteValue
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -371,6 +391,8 @@ telpa bija gatava?
 * _hasSolutionConcept: RationalNumbers, DirectProportion
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -426,6 +448,8 @@ tādas balvas, kurām bija vienāds saturs.
 * _hasSolutionConcept: PigeonholePrinciple, NumberPartitions, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, IncompleteCaseAnalysisInCombinatorialBranching, ImplicitAssumptionAboutObjectsBeingDistinct
+* _mistakesFit: high
 
 </small>
 
@@ -464,6 +488,8 @@ $2$ vai $3$ (ja tas dalās bez atlikuma). Vai šīs skaitļu virknes
 * _hasSolutionConcept: NumberSequence, PrimeFactorization, ParityInvariant, Invariant
 * _readingDifficulty: high
 * _hasReasoningMethod: PrimeFactorization, InvariantMethod, PeriodicSequence, ProofByContradiction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -510,6 +536,8 @@ rūtiņu līnijām? Figūras drīkst būt pagrieztas.
 * _hasSolutionConcept: Tiling, DivisionWithRemainder, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -541,6 +569,8 @@ bet Sandra dziedāja 4 dziesmas (mazāk nekā jebkura cita meitene)?
 * _hasSolutionConcept: FiniteSet, DivisibilityRelation, EquationSystem
 * _readingDifficulty: medium
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -586,6 +616,8 @@ Nosakiet šo trīs skaitḷu summu!
 * _hasSolutionConcept: IrrationalAndReals, ArithmeticMean, LinearEquation
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ExpressOneUnknownThroughAnother, UseStandardIdentities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -635,6 +667,8 @@ secīgus skaitļus, kuru summa būs vismaz $17$.
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, PigeonholePrinciple, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -676,6 +710,8 @@ Vai burvji rituālā no skaitliem $3,8,9,2,4$ var iegūt
 * _hasSolutionConcept: StateSpaceProcess, Invariant, EvenOddParity, DivisionWithRemainder
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -753,6 +789,8 @@ $\sphericalangle BCO$ ar $\alpha$ un $\beta$!
 * _hasSolutionConcept: CircleAndDisk, Triangle, TriangleAngleSum, TriangleCongruence, Angle
 * _readingDifficulty: medium
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -802,6 +840,8 @@ Dotas piecas smagas kastes un tās izkārtotas, kā tas redzams 12. att. Šīs k
 * _hasSolutionConcept: ChessboardColoring, Invariant, Rotation
 * _readingDifficulty: high
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant, ProofByContradiction
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -852,6 +892,8 @@ Kāda var būt izteiksmes $a^{4}+b^{4}$ vērtība, ja papildus zināms, ka $a+b 
 * _hasSolutionConcept: IrrationalAndReals, EquationSystem, QuadraticEquation, VietasFormulas
 * _readingDifficulty: medium
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, VietasFormulas, ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: RootLossByDivisionByExpression, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -896,6 +938,8 @@ vai arī vismaz $4$ skolēni ieguva atzīmi, kas ir augstāka nekā $7$.
 * _hasSolutionConcept: PigeonholePrinciple, FiniteSet
 * _readingDifficulty: low
 * _hasReasoningMethod: PigeonholePrincipleGeneralized, RuleOfSumDisjointCases
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -950,6 +994,8 @@ skaitļi $20, 24, 25$?
 * _hasSolutionConcept: ParityInvariant, Invariant, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -995,6 +1041,8 @@ krustpunkts ir $H$. Pamatot, ka $S_{AGHI} = S_{BEG}+S_{CEHF}+S_{DFI}$.
 * _hasSolutionConcept: ParallelogramProperties, Polygon, Triangle, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, AreaCounting, ParallelogramProperties
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -1048,6 +1096,8 @@ Cik ir tādu deviņciparu tālruņa numuru, kas varētu būt Zanes tālruņa num
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRules, FiniteSequenceArrangement, CountingProductRule, QuadrilateralFamilies
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, FixedInvariantNumeric, RuleOfProductIndependentChoices
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 

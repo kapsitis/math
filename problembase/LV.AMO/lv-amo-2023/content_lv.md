@@ -17,6 +17,8 @@ lai blakus trijstūros ierakstītie skaitļi neatšķiras vairāk kā par $3$.
 * _hasSolutionConcept: FiniteSequenceArrangement, MagicConfiguration, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -46,6 +48,8 @@ cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, LastDigit, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: LastDigitAnalysis, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, IncompleteResidueCases, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -73,6 +77,8 @@ laukuma vērtība ir tāda pati kā malu skaits!
 * _hasSolutionConcept: Polygon, LatticeGrid, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -106,6 +112,8 @@ rūtiņas var pārvietot uz kreiso augšējo rūtiņu, ja kvadrāta izmēri ir:
 * _hasSolutionConcept: ChessboardColoring, Invariant, LatticeGrid
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -142,6 +150,8 @@ Kāds ir lielākais iespējamais viesu skaits, kas bija ieradušies uz Gunas dzi
 * _hasSolutionConcept: FiniteSet, CaseAnalysis, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -199,6 +209,8 @@ lai blakus trijstūros ierakstīties skaitļi neatšķiras vairāk kā par $4$.
 * _hasSolutionConcept: FiniteSequenceArrangement, MagicConfiguration, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -224,6 +236,8 @@ iegūst, otro skaitli pareizinot pašu ar sevi. Vai var gadīties, ka abu skait�
 * _hasSolutionConcept: DigitRepresentation, LastDigit, PerfectSquares, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: LastDigitAnalysis, NumberConstruction
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -256,6 +270,8 @@ ar ko tai ir kopīga mala.
 * _hasSolutionConcept: Tiling, AxialSymmetry, LatticeGrid, ConnectedGraph
 * _readingDifficulty: medium
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -289,6 +305,8 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -339,6 +357,8 @@ komplektu viennozīmīgi nav iespējams noteikt?
 * _hasSolutionConcept: NumberPartitions, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility, ExtremalElementArgument
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -403,6 +423,8 @@ skaitļiem nebūtu vienādu ciparu?
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, FiniteSequenceArrangement, PigeonholePrinciple
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -449,6 +471,8 @@ kuram vienlaicīgi izpildās šādi nosacījumi:
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRules, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample, NonCoprimeFactorDivisibility
+* _mistakesFit: high
 
 </small>
 
@@ -497,6 +521,8 @@ rūtiņas uz blakus rūtiņu, ar ko tai ir kopīga mala.
 * _hasSolutionConcept: Tiling, AxialSymmetry, LatticeGrid, ConnectedGraph
 * _readingDifficulty: medium
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -531,6 +557,8 @@ komplektu viennozīmīgi nav iespējams noteikt?
 * _hasSolutionConcept: NumberPartitions, ExhaustiveCheck, FrobeniusType
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -592,6 +620,8 @@ Cik bizbizmārīšu sēž uz palodzes?
 * _hasSolutionConcept: TruthTellersAndLiars, SelfReferentialStatements, DivisibilityRelation, CaseAnalysis
 * _readingDifficulty: high
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -646,6 +676,8 @@ daļas būtu nesaīsināmas: $\frac{A}{B} + \frac{C}{D} = \frac{E}{F}$.
 * _hasSolutionConcept: RationalNumbers, DigitRepresentation, CoprimeIntegers, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -674,6 +706,8 @@ ciparus pretējā secībā. Kāds var būt skaitlis $x$?
 * _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRelation, DivisibilityRules, LinearEquation
 * _readingDifficulty: medium
 * _hasReasoningMethod: PositionalNotation, DivisibilityRules, BoundingArgument, AlgebraicManipulationForInteger
+* _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -720,6 +754,8 @@ Izsaki leņķi $CGF$ ar $\alpha$ un $\beta$.
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
 * _hasReasoningMethod: AngleChasing, TriangleAngleSum, IsoscelesTriangleProperties
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -767,6 +803,8 @@ Dorotejai un Almai iedotajām naudas summām?
 * _hasSolutionConcept: DivisionWithRemainder, LCM, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BruteForceCheckOverFiniteSet, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -824,6 +862,8 @@ Cik bizbizmārītes sēž uz palodzes?
 * _hasSolutionConcept: TruthTellersAndLiars, SelfReferentialStatements, ConsistencyCheck, DivisibilityRelation
 * _readingDifficulty: high
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -880,6 +920,8 @@ un saucēju. Vai, atkārtojot
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, Invariant, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, MonovariantStrictlyChangingQuantity
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -912,6 +954,8 @@ Zināms, ka $12a + 9b$ dalās ar $13$. Kāds var būt skaitlis $\overline{cd}$?
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, MultiplesSet
 * _readingDifficulty: low
 * _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger, CompleteEnumeration
+* _hasReasoningMistake: CarelessModularComputation, WrongDivisibilityDirection, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -947,6 +991,8 @@ virsotnes, ir divas reizes garāka nekā augstums no tās pašas virsotnes!
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum
 * _readingDifficulty: medium
 * _hasReasoningMethod: AngleChasing, TriangleAngleSum, AuxiliaryLines, AngleAtCenterAndCircumference
+* _hasReasoningMistake: WrongAngleDecomposition, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -993,6 +1039,8 @@ kartītēm uzrakstīto skaitļu summas ir vienādas?
 * _hasSolutionConcept: FiniteSet, SetPartition, PigeonholePrinciple, ProofByContradiction, Counterexample
 * _readingDifficulty: high
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, PigeonholePrincipleBasic
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -1042,6 +1090,8 @@ Vai var gadīties, ka: **(A)** $S = 100$; **(B)** $S = 123$?
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, ParityInvariant, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 

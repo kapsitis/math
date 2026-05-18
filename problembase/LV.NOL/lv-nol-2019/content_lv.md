@@ -14,6 +14,8 @@ esošās degvielas. Cik litru degvielas tagad ir katrā tvertnē?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -44,6 +46,8 @@ vieglāko, gan pašu smagāko monētu?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExtremalElementArgument, RuleOfSumDisjointCases
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -115,6 +119,8 @@ nekā Jānītis? Figūra $stūrītis$ var būt arī pagriezta.
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, SkippingCaseAnalysis
+* _mistakesFit: medium
 
 </small>
 
@@ -145,6 +151,8 @@ Valentīns uzlīmes nesaņem un netērē.)
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -171,6 +179,8 @@ cipariem), bet vienādus - vienādi, turklāt izveidotais skaitlis ir pirmskaitl
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, SumOfArithmeticOrTriangularNumbers, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: WrongDivisibilityRule, PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
@@ -202,6 +212,8 @@ cik jautājumiem Olafs nesniedza atbildi?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -228,6 +240,8 @@ Kā ar $3$ svēršanām uz sviras svariem bez atsvariem atrast viltoto monētu?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -289,6 +303,8 @@ pagrieztas vai apgrieztas spoguļattēlā.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant, CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, SkippingCaseAnalysis
+* _mistakesFit: high
 
 </small>
 
@@ -324,6 +340,8 @@ parādīt vienu veidu, kā to izdarīt.)
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases, ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ImplicitAssumptionAboutObjectsBeingDistinct
+* _mistakesFit: medium
 
 </small>
 
@@ -363,6 +381,8 @@ atšķirīgi).
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, ParityArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -400,6 +420,8 @@ $a, b, c$ nav $0$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: ConcreteToGeneralLeap, WrongDirectionOfInequalityChain, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -432,6 +454,8 @@ vai smagāka nekā pārējās? (Pašu monētu atrast nav nepieciešams.)
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: RuleOfSumDisjointCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -506,6 +530,8 @@ nekā Jānītis? Figūra stūrītis var būt arī pagriezta.
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, SkippingCaseAnalysis
+* _mistakesFit: medium
 
 </small>
 
@@ -530,6 +556,8 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b)=150015$ ?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: ParityArgument, CompleteEnumeration
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -562,6 +590,8 @@ uzvarēt?
 * _readingDifficulty: medium
 * _domain: NT,Comb
 * _hasReasoningMethod: NumberConstruction, PositionalNotation
+* _hasReasoningMistake: ExampleInsteadOfProof, CarelessModularComputation, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -607,6 +637,8 @@ malas garumu kvadrātam, kura laukums ir tikpat liels kā dotajam taisnstūrim
 * _hasReasoningMethod: ParallelogramProperties
 * _newReasoningMethodLabel: ArithmeticSimplification
 * _newReasoningMethodDescription: Simplifying radicals, products, and area formulas numerically
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -639,6 +671,8 @@ atsvariem atrast viltoto monētu?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -682,6 +716,8 @@ $EM=BC$.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -721,6 +757,8 @@ $\frac{4}{3},\ \frac{4}{5},\ \frac{5}{2}$?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -754,6 +792,8 @@ izveidotais trīsciparu skaitlis $\overline{yxy}$ ?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, CoprimeFactorsDivisibility, PositionalNotation, AlgebraicManipulationForInteger, BoundingArgument
+* _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -800,6 +840,8 @@ augoša vai dilstoša!
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, UseFunctionGraphForRootsAndComparisons, CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -832,6 +874,8 @@ lodīti?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -910,6 +954,8 @@ punkts $O$. Pierādīt, ka $S_{AEOH}+S_{FCGO}=S_{BFOE}+S_{DHOG}$.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, AuxiliaryLines, CongruentTriangles, TriangleAngleSum
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: medium
 
 </small>
 
@@ -980,6 +1026,8 @@ no visu šajā kolonnā ierakstīto skaitļu reizinājuma. Vai tas ir iespējams
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -1021,6 +1069,8 @@ iegūtu skaitli, kas dalās ar $2019$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: BoundingArgument, PositionalNotation, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, CarelessModularComputation, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 

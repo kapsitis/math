@@ -13,6 +13,8 @@ $$\frac{5}{16}; \frac{\square}{5}; \frac{3}{4}$$
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -41,6 +43,8 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $8$; **(B)** $18$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, CoprimeFactorsDivisibility
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -76,6 +80,8 @@ malas garums ir $1~\mathrm{cm}$, ir nepieciešami, lai aplīmētu visu šo figū
 * _hasReasoningMethod: CountingByDoubleCounting
 * _newReasoningMethodLabel: SurfaceAreaCounting
 * _newReasoningMethodDescription: Counting exposed unit faces of a 3D block figure
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -114,6 +120,8 @@ $$\begin{aligned}
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -136,6 +144,8 @@ dalījuma līnijas ietu pa rūtiņu līnijām!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -160,6 +170,8 @@ Olafam. Cik naudas ir katram brālim?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -195,6 +207,8 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $9$; **(B)** $24$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility, MissingBoundOrExample
+* _mistakesFit: high
 
 </small>
 
@@ -227,6 +241,8 @@ $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9;\ 10$ vienības!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -251,6 +267,8 @@ vieglāko, gan pašu smagāko monētu?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ExtremalElementArgument
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -291,6 +309,8 @@ pareizu reizināšanas piemēru! Neviens skaitlis tajā nedrīkst sākties ar $0
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: LastDigitAnalysis, ParityArgument, BoundingArgument
+* _hasReasoningMistake: WrongDigitSumRange
+* _mistakesFit: low
 
 </small>
 
@@ -332,6 +352,8 @@ nekā Bruno, Cildai ir vairāk naudas nekā Aivaram, Dainai - vairāk nekā Cild
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -366,6 +388,8 @@ kas dalās ar $99$.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -403,6 +427,8 @@ sakrīt.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -430,6 +456,8 @@ pārējām? Pašu monētu atrast nav nepieciešams.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -467,6 +495,8 @@ izpildās vienādības $a+b=cd$ un $ab=c+d$ ?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: UncheckedConsistencyOfFoundValues, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -511,6 +541,8 @@ Aprēķini izteiksmes $\sqrt{a-b}+\sqrt{b-c}+\sqrt{c-d}+\sqrt{d-a}$ vērtību!
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseTrivialInequalitiesAndAddThem
+* _hasReasoningMistake: CaseAnalysisIncomplete, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -540,6 +572,8 @@ $104$. Pierādi, ka otrais skaitlis $BURBUĻUVANNA$ nedalās ar $56$.
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, PositionalNotation, ProofByContradiction, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -589,6 +623,8 @@ $P$ atrodas uz $AD,\ Q$ - uz $BC$ un $PQ=QD$. Pierādīt, ka $DP=2AP$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AuxiliaryLines, ParallelogramProperties
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -618,6 +654,8 @@ pati sevi krustot vai pieskarties.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -657,6 +695,8 @@ tieši $3$ centi nevar iegūt pēc PVN pievienošanas.
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -692,6 +732,8 @@ koordinātas!
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, VietasFormulas
+* _hasReasoningMistake: RootLossByDivisionByExpression, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -729,6 +771,8 @@ vairākus (vismaz divus), kuru summa dalās ar $4$.
 * _readingDifficulty: low
 * _domain: NT,Comb
 * _hasReasoningMethod: CompleteEnumeration, ModularArithmetic, ParityArgument, NumberConstruction
+* _hasReasoningMistake: IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -782,6 +826,8 @@ Aprēķināt $\sphericalangle BAC$ lielumu!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: IsoscelesTriangleProperties, CongruentTriangles, AuxiliaryLines, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -824,6 +870,8 @@ Cik partijas izspēlēja Uzrocis?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -855,6 +903,8 @@ vērtība būtu $0$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction, AlgebraicManipulationForInteger
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 

@@ -10,6 +10,8 @@ reizinājums būtu $119$?
 * _hasSolutionConcept: PositiveIntegers, NumberPartitions, PrimeFactorization
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction, PrimeFactorization
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -32,6 +34,8 @@ Cik rūtiņas liels ir trijstūra $ABC$ laukums?
 * _hasSolutionConcept: Triangle, LatticeGrid, Polygon
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -74,6 +78,8 @@ nevienā brīdī autobusā netika pārvadāts vairāk pasažieru kā autobusā i
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSequenceArrangement, CaseAnalysis, LinearInequality
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -119,6 +125,8 @@ $3 \times 3$ rūtiņu kvadrātā, kas ir lielā kvadrāta daļa, ir iekrāsotas 
 * _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: low
 
 </small>
 
@@ -144,6 +152,8 @@ laiks, pēc kura visas raganas būs iemācījušās visas jaunās burvestības?
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, FiniteSet
 * _readingDifficulty: high
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -174,6 +184,8 @@ skaitlis ir vienāds ar pārējo skaitļu summu?
 * _hasSolutionConcept: EvenOddParity, SetPartition, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -199,6 +211,8 @@ $12345, 12354, 12435, \ldots$. Kurš pēc kārtas šajā virknē ir skaitlis $45
 * _hasSolutionConcept: DigitRepresentation, OrderedSelection, CountingProductRule, TotalOrder
 * _readingDifficulty: low
 * _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -223,6 +237,8 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka
 * _hasSolutionConcept: DivisibilityRelation, WholeIntegers, LinearDiophantine, GCD
 * _readingDifficulty: low
 * _hasReasoningMethod: DiophantineEquations, NumberConstruction
+* _hasReasoningMistake: WrongDivisibilityDirection, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -248,6 +264,8 @@ vienādās daļās tā, lai katrā no tām būtu pa vienam melnam un pa vienam b
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, FiniteSet
 * _readingDifficulty: low
 * _hasReasoningMethod: SymmetryStrategy, AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -273,6 +291,8 @@ visas rūtiņas ir neizkrāsotas.
 * _hasSolutionConcept: Coloring, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -298,6 +318,8 @@ Atrodiet skaitļa $1^{2}+2^{2}+\cdots+99^{2}$ pēdējo ciparu.
 * _hasSolutionConcept: LastDigit, DigitRepresentation, PerfectSquares, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: LastDigitAnalysis
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: high
 
 </small>
 
@@ -330,6 +352,8 @@ $(n+1)(n+2)(n+3)$ dalās ar $125$?
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, CountingProductRule
 * _readingDifficulty: low
 * _hasReasoningMethod: PrimeFactorization, BoundingArgument
+* _hasReasoningMistake: IncompleteResidueCases, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -358,6 +382,8 @@ reizinājumus. Cik no tiem ir pozitīvi?
 * _hasSolutionConcept: PositiveAndNegative, FiniteSequenceArrangement, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -396,6 +422,8 @@ rūtiņām sauksim rūtiņas, kurām ir kopīgs vismaz viens punkts).
 * _hasSolutionConcept: PigeonholePrinciple, LatticeGrid, Coloring
 * _readingDifficulty: low
 * _hasReasoningMethod: PigeonholePrinciple, PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -431,6 +459,8 @@ procenti pilsētas iedzīvotāju ir godīgie iedzīvotāji un cik blēži?
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, EquationSystem, RationalNumbers
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, SystemOfEquationsAdditionOrSubstitution
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -467,6 +497,8 @@ ciparus. Pierādīt, ka $B-A$ dalās ar $9$.
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum
 * _readingDifficulty: low
 * _hasReasoningMethod: PositionalNotation, DivisibilityRules, TelescopingAndIdentity
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -502,6 +534,8 @@ $p+q$?
 * _hasSolutionConcept: QuadraticEquation, PolynomialAndRoots, VariableExpression
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -524,6 +558,8 @@ ir malas $BC$ viduspunkts.
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -556,6 +592,8 @@ ir vienādi taisnstūri.)
 * _hasSolutionConcept: QuadrilateralFamilies, LatticeGrid, OptimumProofStructure, ProofByContradiction, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ProofByContradiction, AreaCounting
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -597,6 +635,8 @@ partiju?
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, LinearEquation, ArithmeticMean
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, SystemOfEquationsAdditionOrSubstitution, CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -627,6 +667,8 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti.
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, IrrationalAndReals, CoordinatePlane
 * _readingDifficulty: low
 * _hasReasoningMethod: ParameterizedInvariantValue, ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -652,6 +694,8 @@ $\sphericalangle ADE=2 \sphericalangle ABE$. Aprēķināt $\sphericalangle ABE$ 
 * _hasSolutionConcept: Angle, QuadrilateralFamilies, CircleAndDisk, Triangle, TriangleCongruence
 * _readingDifficulty: low
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, CongruentTriangles, TriangleAngleSum
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition
+* _mistakesFit: high
 
 </small>
 
@@ -687,6 +731,8 @@ mazākā iespējamā $k$ vērtība?
 * _hasSolutionConcept: EvenOddParity, DivisibilityRelation, CircleAndDisk, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -716,6 +762,8 @@ $7^{a}=7^{x}+7^{y}+7^{z}$.
 * _hasSolutionConcept: PositiveIntegers, LinearInequality, ProofByContradiction
 * _readingDifficulty: low
 * _hasReasoningMethod: BoundingArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -746,6 +794,8 @@ t.i., iegūs $1.$ vietu?
 * _hasSolutionConcept: TotalOrder, FiniteSet, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 

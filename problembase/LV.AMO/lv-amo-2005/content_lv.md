@@ -17,6 +17,8 @@ ir jautājuma zīme?
 * _hasSolutionConcept: MagicConfiguration, FiniteSequenceArrangement, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumericalEstimation, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -44,6 +46,8 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * _hasSolutionConcept: DecisionTree, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -77,6 +81,8 @@ rindiņā - nepāra skaits zvaigznīšu?
 * _hasSolutionConcept: FiniteSet, EvenOddParity, ParityInvariant, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -106,6 +112,8 @@ kopējais zelta daudzums tajā.)
 * _hasSolutionConcept: FiniteSet, FiniteSequenceArrangement, SetPartition, Invariant
 * _readingDifficulty: high
 * _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -136,6 +144,8 @@ ar formu ![](LV.AMO.2005.5.5_2.png)?
 * _hasSolutionConcept: Tiling, ChessboardColoring, Counterexample
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -158,6 +168,8 @@ $200520052005 \times 20042004$ ir lielāks?
 * _hasSolutionConcept: DigitRepresentation, MultiplicationPrinciple
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -181,6 +193,8 @@ divas kaudzītes, kurās kopā ir tieši $15$ sērkociņu.
 * _hasSolutionConcept: PigeonholePrinciple, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, RuleOfSumDisjointCases
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, MisusingPigeonholeWithWrongCounts, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -205,6 +219,8 @@ svēršanām var noteikt katra atsvara masu?
 * _hasSolutionConcept: DecisionTree, EvenOddParity, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases, FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -239,6 +255,8 @@ visas vienādas savā starpā.
 * _hasSolutionConcept: DivisibilityRelation, FiniteSet, SetPartition, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: CoprimeFactorsDivisibility, NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -268,6 +286,8 @@ garums ir $1$?
 * _hasSolutionConcept: LatticeGrid, PointLineSegmentRay, OptimumProofStructure, ChessboardColoring, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ColoringArgumentForCoverageOrUnreachability, RuleOfSumDisjointCases
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -310,6 +330,8 @@ Pierādīt, ka $AB=BK$.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, PointOnSegmentConstruction, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, UnjustifiedAuxiliaryLineExists, WrongAngleDecomposition
+* _mistakesFit: medium
 
 </small>
 
@@ -338,6 +360,8 @@ ir nesaīsināmas?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: BoundingArgument
+* _hasReasoningMistake: MissingBoundOrExample, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -366,6 +390,8 @@ Pankūku nomaiņai laiks nav jāparedz.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -399,6 +425,8 @@ var beigties šo skaitļu reizinājums?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: PrimeFactorization, BoundingArgument, NumberConstruction, LastDigitAnalysis, DivisibilityRules
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -443,6 +471,8 @@ kaimiņiem.
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -484,6 +514,8 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: VietasFormulas, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -510,6 +542,8 @@ skaitļi?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation, ProofByContradictionInAlgebra
+* _hasReasoningMistake: ConcreteToGeneralLeap, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -538,6 +572,8 @@ reizinājumu?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: NumericalEstimation, EquivalentTransformationsOfEquationsAndInequalities, IntroduceVariablesAndFormEquation, CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -603,6 +639,8 @@ Aprēķināt
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, CongruentTriangles, AuxiliaryLines, PerpendicularBisector, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: high
 
 </small>
 
@@ -647,6 +685,8 @@ Kāda ir lielākā iespējamā $n$ vērtība?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, PigeonholePrincipleBasic, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -681,6 +721,8 @@ neizmanto nevienu no cipariem $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9$.
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument
+* _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -705,6 +747,8 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 * _readingDifficulty: high
 * _domain: Geom
 * _hasReasoningMethod: PointOnSegmentConstruction, CongruentTriangles, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: UnjustifiedAuxiliaryLineExists, WrongAngleDecomposition, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: medium
 
 </small>
 
@@ -742,6 +786,8 @@ rūķīšus.
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ExtremalElementArgument, ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -773,6 +819,8 @@ izteiksmes $x+y+z$ lielāko un mazāko iespējamo vērtību.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation, UseTrivialInequalitiesAndAddThem, UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: WrongDirectionOfInequalityChain, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -833,6 +881,8 @@ $C$ tādā pašā kārtībā, kādā tie sākotnēji atradās uz stienīša $A$?
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: RecursiveSequenceForCounting, BoundPlusMatchingConstructionForOptimum
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 

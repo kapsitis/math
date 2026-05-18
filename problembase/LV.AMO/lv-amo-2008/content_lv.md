@@ -12,6 +12,8 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 * _hasSolutionConcept: GraphConcept, DirectedGraph, WalkPathCycle, OptimumProofStructure
 * _readingDifficulty: high
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -44,6 +46,8 @@ skaitļi būtu ierakstīti tabulā tā, kā parādīts 2.zīm.
 * _hasSolutionConcept: Invariant, StateSpaceProcess, WholeIntegers
 * _readingDifficulty: medium
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -67,6 +71,8 @@ stūriem.
 * _hasSolutionConcept: LatticeGrid, PointLineSegmentRay
 * _readingDifficulty: medium
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -92,6 +98,8 @@ reizinājuma $k \times k$ ciparu summa ir $24$?
 * _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRelation, DivisibilityRules, PerfectSquares, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: DivisibilityRules, NumberConstruction
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -121,6 +129,8 @@ divus spēlētājus ar vienādiem iegūto punktu daudzumiem.
 * _hasSolutionConcept: RationalNumbers, FiniteSet, PigeonholePrinciple, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: PigeonholePrincipleBasic, ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -153,6 +163,8 @@ divos gadījumos:
 * _hasSolutionConcept: EquationSystem, PositiveAndNegative, ArithmeticMean
 * _readingDifficulty: medium
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CountTheSameQuantityInTwoWays, CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -180,7 +192,9 @@ rūtiņas? Griezumiem jāiet pa rūtiņu līnijām.
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
 * _readingDifficulty: medium
-* _hasReasoningMethod: 
+* _hasReasoningMethod:
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -204,6 +218,8 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: CompleteEnumeration, NumberConstruction, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -229,6 +245,8 @@ no šiem reizinājumiem ar $A$. Kāda ir mazākā iespējamā $A$ vērtība?
 * _hasSolutionConcept: DigitProduct, FiniteSet, OptimumProofStructure, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ProofByContradictionInAlgebra, NumericalEstimation
+* _hasReasoningMistake: ConcreteToGeneralLeap, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -264,6 +282,8 @@ ar $11,\ 12$ utt., uzrakstiet labāko no savām atrastajām.
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DecisionTree
 * _readingDifficulty: high
 * _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -294,6 +314,8 @@ pierakstu?
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRules, DigitRepresentation, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: DivisibilityRules, LastDigitAnalysis, CompleteEnumeration
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -321,6 +343,8 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 * _hasSolutionConcept: PositiveIntegers, PrimeFactorization, DivisibilityRelation, LastDigit, DigitRepresentation
 * _readingDifficulty: low
 * _hasReasoningMethod: PrimeFactorization, LastDigitAnalysis, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -351,6 +375,8 @@ $670 \leq n \leq 1339$.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ExtremalElementArgument, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -380,6 +406,8 @@ trijstūrī $ACE$ visas malas vienādas savā starpā.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, UnstatedDirectionAssumption, WrongAngleDecomposition
+* _mistakesFit: high
 
 </small>
 
@@ -410,6 +438,8 @@ lai nevienam trijstūrim ar trim sarkanām virsotnēm visas malas nebūtu vienā
 * _readingDifficulty: high
 * _domain: Comb,Geom
 * _hasReasoningMethod: ConstructiveExampleForExistence, PigeonholePrincipleGeneralized
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -441,6 +471,8 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, VietasFormulas
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -463,6 +495,8 @@ Dots, ka $\frac{a}{b}=\frac{b}{c}=\frac{c}{a}$. Pierādīt, ka $a=b=c$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: RootLossByDivisionByExpression, UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -494,6 +528,8 @@ $a_{1}+a_{2}+\ldots+a_{k}=n \cdot\left(\frac{1}{a_{1}}+\frac{1}{a_{2}}+\ldots+\f
 * _readingDifficulty: low
 * _domain: NT,Alg
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -525,6 +561,8 @@ Pierādīt, ka $AD=BD$.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, AngleChasing, IsoscelesTriangleProperties, AuxiliaryLines
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -556,6 +594,8 @@ turnīra noslēgumā ir visvairāk punktu.)
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, AveragingArgumentForExistenceOfElement
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -586,6 +626,8 @@ gadīties, ka tieši $23$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 * _readingDifficulty: high
 * _domain: NT,Comb
 * _hasReasoningMethod: ProofByContradiction, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -617,6 +659,8 @@ grafiki?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: ParameterizedInvariantValue, UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -641,6 +685,8 @@ Pierādīt, ka $MX \perp NY$.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: AngleAtCenterAndCircumference, TriangleAngleSum, AngleChasing
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, ConflatingPropertyAndCriterion
+* _mistakesFit: medium
 
 </small>
 
@@ -674,6 +720,8 @@ grupai. Kāds ir mazākais iespējamais grupu skaits?
 * _readingDifficulty: high
 * _domain: NT,Comb
 * _hasReasoningMethod: PigeonholeInNT, PrimeFactorization, BoundingArgument
+* _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityDirection, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -715,6 +763,8 @@ mala pieder
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 

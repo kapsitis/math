@@ -14,6 +14,8 @@ $30~\mathrm{km}$?
 * _hasSolutionConcept: RationalNumbers, DirectProportion, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: high
 
 </small>
 
@@ -67,6 +69,8 @@ summa uz katras trijstūra malas būtu viena un tā pati!
 * _hasSolutionConcept: PositiveIntegers, MagicConfiguration, DivisibilityRelation
 * _readingDifficulty: low
 * _hasReasoningMethod: SumOfArithmeticOrTriangularNumbers, DivisibilityRules, NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -100,6 +104,8 @@ citiem punktiem?
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, ParityInvariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, HandshakingLemmaSumOfDegreesEven, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -128,6 +134,8 @@ variantus un pamato, ka citu nav!
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, DivisionWithRemainder
 * _readingDifficulty: medium
 * _hasReasoningMethod: CompleteEnumeration, LastDigitAnalysis, BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -159,6 +167,8 @@ Ja mēneša $13.$ datums ir piektdiena, tad saka, ka tā ir melnā piektdiena.
 * _hasSolutionConcept: PeriodicSequence, ExhaustiveCheck, OptimumProofStructure, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -220,6 +230,8 @@ soļu ir starp draugu mājām?
 * _hasSolutionConcept: DivisibilityRelation, LinearEquation, EvenOddParity
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -246,6 +258,8 @@ summa visās rindās, visās kolonnās un abās diagonālēs būtu viena un tā 
 * _hasSolutionConcept: PositiveIntegers, MagicConfiguration, FiniteSet
 * _readingDifficulty: low
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: UncheckedConsistencyOfFoundValues, ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -277,6 +291,8 @@ līnijām jāiet pa rūtiņu līnijām un stūrīši var būt pagriezti.
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure, Invariant
 * _readingDifficulty: high
 * _hasReasoningMethod: ProofByContradiction, CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, SkippingCaseAnalysis
+* _mistakesFit: high
 
 </small>
 
@@ -318,6 +334,8 @@ meiteņu." Cik zēnu sēž pie apaļā galda?
 * _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, ParityInvariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -358,6 +376,8 @@ dalās ar visiem skaitļiem no $1$ līdz $10$ bez atlikuma!
 * _hasSolutionConcept: PositiveIntegers, LCM, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: PrimeFactorization, CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: ConfusingDivisorAndMultiple, WrongDivisibilityRule, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -388,6 +408,8 @@ ar nemainīgu ātrumu?
 * _hasSolutionConcept: RationalNumbers, LinearEquation, DirectProportion
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -430,6 +452,8 @@ summa visās joslās būtu viena un tā pati!
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -467,6 +491,8 @@ vienādmalu!
 * _hasSolutionConcept: Triangle, TriangleCongruence, ParallelPerpendicular
 * _readingDifficulty: medium
 * _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, IsoscelesTriangleProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -508,6 +534,8 @@ un $2017$ melnas bumbiņas; **(B)** $2016$ baltas un $2018$ melnas bumbiņas?
 * _hasSolutionConcept: ParityInvariant, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ImplicitParityOrModularAssumption, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -545,6 +573,8 @@ divas reizes mazāks nekā pats skaitlis?
 * _hasSolutionConcept: DigitRepresentation, DigitProduct, LinearEquation, EvenOddParity
 * _readingDifficulty: medium
 * _hasReasoningMethod: PositionalNotation, ParityArgument, CompleteEnumeration, AlgebraicManipulationForInteger
+* _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -590,6 +620,8 @@ vienādas; **(B)** ordināta ir divas reizes lielāka nekā abscisa?
 * _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane, OrderedPair
 * _readingDifficulty: low
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -622,6 +654,8 @@ skaitļu summa uz katras trijstūra malas būtu **(A)** $22$; **(B)** $23$?
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -667,6 +701,8 @@ malu garumi?
 * _hasSolutionConcept: RectangleFamilies, Triangle, TriangleCongruence
 * _readingDifficulty: medium
 * _hasReasoningMethod: CongruentTriangles, ParallelogramProperties, AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: medium
 
 </small>
 
@@ -709,6 +745,8 @@ kauss ir smagāks nekā otrs.
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, DecisionTree
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -780,6 +818,8 @@ reizinājumu?
 * _hasSolutionConcept: DigitProduct, DigitRepresentation, LinearInequality
 * _readingDifficulty: low
 * _hasReasoningMethod: BoundingArgument, PositionalNotation
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -809,6 +849,8 @@ vienādas; **(B)** ordināta ir trīs reizes lielāka nekā abscisa?
 * _hasSolutionConcept: QuadraticFunction, QuadraticEquation, CoordinatePlane, PolynomialAndRoots
 * _readingDifficulty: low
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, FactorAndUseZeroProductRule
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -839,6 +881,8 @@ Pierādīt, ka $x^{6}+y^{6}+\frac{2}{x^{3}y^{3}}-4 \geq 0$, ja $x>0$, $y>0$.
 * _hasSolutionConcept: VariableExpression, ArithmeticMean
 * _readingDifficulty: low
 * _hasReasoningMethod: UseTrivialInequalitiesAndAddThem, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: WrongDirectionOfInequalityChain, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -875,6 +919,8 @@ Aprēķināt trijstūra $ABC$ leņķus!
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, EquationSystem, Angle
 * _readingDifficulty: high
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -948,6 +994,8 @@ varētu izvietot saskaņā ar uzdevuma nosacījumiem?
 * _hasSolutionConcept: PositiveIntegers, LatticeGrid, DirectedGraph, WalkPathCycle, ProofByContradiction
 * _readingDifficulty: high
 * _hasReasoningMethod: ContradictionForImpossibility, BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -992,6 +1040,8 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}+(x+1)^{3}=(x+3)^{3}+1$.
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PerfectCubes, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: CompleteEnumeration, AlgebraicManipulationForInteger, DiophantineEquations
+* _hasReasoningMistake: UnstatedNumberSetAssumption, FactoringWithoutIntegerCondition
+* _mistakesFit: medium
 
 </small>
 

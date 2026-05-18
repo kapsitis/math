@@ -15,6 +15,8 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -45,6 +47,8 @@ pārklāties un saliktā kvadrāta iekšpusē nedrīkst palikt tukšumi.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -81,6 +85,8 @@ vienai reizei ciparus $0;\ 1;\ 2;\ 3;\ 4;\ 5$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, NumberConstruction
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -109,6 +115,8 @@ būtu lielāks par visās savās kaimiņu rūtiņās ierakstītajiem?
 * _readingDifficulty: low
 * _domain: Comb,Geom
 * _hasReasoningMethod: ConstructiveExampleForExistence, ColoringArgumentForCoverageOrUnreachability
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -135,6 +143,8 @@ sistēmā?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -161,6 +171,8 @@ $3 \times 3$ rūtiņām sastāvošā kvadrātā būtu tieši viena melna rūtiņ
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, UpperBoundWithoutExample, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -189,6 +201,8 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -217,6 +231,8 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -248,6 +264,8 @@ nepāra?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: ProofByContradiction, ParityArgument, CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -282,6 +300,8 @@ mazākais iespējamais.)
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -328,6 +348,8 @@ $x=a^{3}, y=b^{5}$, $a$ un $b$ naturāli skaitļi?
 * _hasReasoningMethod: NumberConstruction, AlgebraicManipulationForInteger
 * _newReasoningMethodLabel: BezoutIdentity
 * _newReasoningMethodDescription: Using Bezout coefficients to combine exponents
+* _hasReasoningMistake: UnstatedNumberSetAssumption, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -366,6 +388,8 @@ skaitļu summu. Šādus gājienus atkārto, līdz rindā paliek tikai viens skai
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: FixedInvariantNumeric, MonovariantStrictlyChangingQuantity
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -398,6 +422,8 @@ skaitļa dalītājiem pieskaita gan viņu pašu, gan vieninieku.)
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberOfDivisors, PrimeFactorization, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -451,6 +477,8 @@ virzieniem, nebūtu perpendikulāri viens otram?
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: CaseAnalysis, ProofByContradiction, PigeonholePrinciple
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -504,6 +532,8 @@ Jūsu atrastajiem plāniem.)
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -549,6 +579,8 @@ ierakstīto skaitļu summa būs $64$.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -609,6 +641,8 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseTrivialInequalitiesAndAddThem, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -632,6 +666,8 @@ Atrodiet skaitļa $113^{113}-19^{19}$ pēdējo ciparu.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: LastDigitAnalysis
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -666,6 +702,8 @@ iepriekšējās reizēs. Pierādiet, ka svari atkal nostāsies līdzsvarā.
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, SystemOfEquationsAdditionOrSubstitution, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -697,6 +735,8 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC>AB$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis, TriangleInequality, EquilateralTriangleConstruction, IsoscelesTriangleProperties
+* _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance, UnjustifiedAuxiliaryLineExists
+* _mistakesFit: high
 
 </small>
 
@@ -742,6 +782,8 @@ Kāds ir mazākais iespējamais $\triangle ABC$ laukums?
 * _hasReasoningMethod: AreaCounting
 * _newReasoningMethodLabel: PerpendicularShortestDistance
 * _newReasoningMethodDescription: Perpendicular gives the shortest distance from a point to a line
+* _hasReasoningMistake: UpperBoundWithoutExample, AreaWithoutPosition, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -771,6 +813,8 @@ naturālā skaitļa kvadrātu?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PositionalNotation, CompleteEnumeration, DivisibilityRules, CoprimeFactorsDivisibility
+* _hasReasoningMistake: UnstatedNumberSetAssumption, WrongDivisibilityDirection
+* _mistakesFit: medium
 
 </small>
 
@@ -800,6 +844,8 @@ un tikai tad, ja $R^{2}+r^{2}=d^{2}$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: PythagoreanTheorem, AuxiliaryLines
+* _hasReasoningMistake: ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -842,6 +888,8 @@ nevienādība $x^{2}+px+q \geq-1$
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, WeightedAMGMOrTwoVariableAMGM, FactorAndUseZeroProductRule, NumericalEstimation
+* _hasReasoningMistake: CaseAnalysisIncomplete, WrongDirectionOfInequalityChain, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -882,6 +930,8 @@ pazīst $Y$, tad arī $Y$ pazīst $X$.
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic, ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 

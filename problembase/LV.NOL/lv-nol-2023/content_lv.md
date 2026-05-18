@@ -15,6 +15,8 @@ vienu veidu, kā to var izdarīt.
 * _hasSolutionConcept: PeriodicSequence, FiniteSequenceArrangement, VariableExpression, ArithmeticMean
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -62,6 +64,8 @@ taciņas var krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity
 * _readingDifficulty: medium
 * _hasReasoningMethod: HandshakingLemmaSumOfDegreesEven, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -97,6 +101,8 @@ ja tās var uzlikt vienu uz otras tā, ka abas figūras sakrīt
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
 * _readingDifficulty: low
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -120,6 +126,8 @@ summu tā, lai katru divu šo skaitļu summa dalītos ar trešo skaitli!
 * _hasSolutionConcept: DivisibilityRelation, NumberPartitions, PositiveIntegers
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -151,6 +159,8 @@ sarkanās un zilās monētas, ja sākumā ir dota viena sarkana monēta?
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -182,6 +192,8 @@ būtu patiesa!
 * _hasSolutionConcept: ContinuedFractions, PositiveIntegers, RationalNumbers
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, FunctionalSubstitutionForRecurringExpression
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -215,6 +227,8 @@ krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
 * _readingDifficulty: medium
 * _hasReasoningMethod: HandshakingLemmaSumOfDegreesEven, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -249,6 +263,8 @@ otras tā, ka abas figūras pilnīgi sakrīt (figūras var pagriezt un apmest ot
 * _hasSolutionConcept: DissectionIntoCongruent, Rotation, AxialSymmetry, LatticeGrid
 * _readingDifficulty: low
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -272,6 +288,8 @@ ar atlikušo skaitli?
 * _hasSolutionConcept: DivisibilityRelation, PrimeNumbers, NumberPartitions, PositiveIntegers
 * _readingDifficulty: low
 * _hasReasoningMethod: PrimePropertiesAndUniqueness, NumberConstruction
+* _hasReasoningMistake: WrongDivisibilityDirection, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -310,6 +328,8 @@ Vai, vairākkārt izpildot šādus gājienus, no skaitļa $17$ var iegūt:
 * _hasSolutionConcept: Invariant, DivisibilityRules, DigitRepresentation, DivisibilityRelation
 * _readingDifficulty: low
 * _hasReasoningMethod: InvariantMethod, DivisibilityRules, NumberConstruction
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -352,6 +372,8 @@ būtu ierakstīti rūtiņās ar kopīgu malu?
 * _hasSolutionConcept: PositiveIntegers, LatticeGrid, GraphConcept, WalkPathCycle, HamiltonianPath
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -376,6 +398,8 @@ $5$ citām lampiņām?
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity, SetPartition
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, HandshakingLemmaSumOfDegreesEven
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -414,6 +438,8 @@ un $AD=3$. Pierādīt, ka $CD>2$.
 * _hasReasoningMethod: TriangleInequality, AuxiliaryLines
 * _newReasoningMethodLabel: LongerSideOppositeLargerAngle
 * _newReasoningMethodDescription: In a triangle, larger angle faces longer side
+* _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -442,6 +468,8 @@ ir tikpat ciparu, cik skaitlim $n^{3}$?
 * _hasSolutionConcept: DigitRepresentation, PositiveIntegers, PerfectSquares, PerfectCubes, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: BoundingArgument, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -485,6 +513,8 @@ ja sākumā kastē atrodas:
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: high
 
 </small>
 
@@ -524,6 +554,8 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 * _hasSolutionConcept: PrimeNumbers, PeriodicSequence, LinearEquation, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness, AlgebraicManipulationForInteger, NumberConstruction
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -575,6 +607,8 @@ nedraudzējas. Vai var gadīties, ka **(A)** $m=11$, **(B)** $m=10$?
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, BipartiteGraph, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, HandshakingLemmaSumOfDegreesEven, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -620,6 +654,8 @@ ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ le�
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, TriangleSpecialLines, ParallelPerpendicular
 * _readingDifficulty: low
 * _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum, AuxiliaryLines
+* _hasReasoningMistake: ConflatingPropertyAndCriterion, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -661,6 +697,8 @@ pagriezt un apmest otrādi).
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation, AxialSymmetry
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -687,6 +725,8 @@ Cik bieži Mārtiņš satiek Sandri?
 * _hasSolutionConcept: DirectProportion, VariableExpression, LCM
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -748,6 +788,8 @@ $x$; $x+2$; $x+4$; $x+6$; $x+8$ vienlaicīgi var būt pirmskaitḷi?
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, DivisibilityRules, LastDigit, OptimumProofStructure
 * _readingDifficulty: low
 * _hasReasoningMethod: CompleteEnumeration, ParityArgument, LastDigitAnalysis, DivisibilityRules
+* _hasReasoningMistake: MissingBoundOrExample, PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -793,6 +835,8 @@ katram rūķim ir tieši $9$ draugi?
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: HandshakingLemmaSumOfDegreesEven, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -819,6 +863,8 @@ Zināms, ka $CD \| BX$. Aprēķināt $AD$ garumu, ja $BX=3, BC=7$ un $CD=6$.
 * _hasSolutionConcept: ParallelogramProperties, TriangleSimilarity, ParallelPerpendicular, PointLineSegmentRay
 * _readingDifficulty: low
 * _hasReasoningMethod: ParallelogramProperties, AuxiliaryLines, SimilarTriangles, ParallelLinesAngleProperties
+* _hasReasoningMistake: MisuseOfMidpointOrParallel, WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -857,6 +903,8 @@ $$\left(x^{4}+1\right)\left(y^{4}+1\right)=4 x^{2} y^{2}$$
 * _hasSolutionConcept: IrrationalAndReals, OrderedPair, VariableExpression, SquareOfSumIdentity, NecessarySufficient
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CompleteTheSquareForNonNegativity, UseStandardIdentities, UseTrivialInequalitiesAndAddThem
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, WrongDirectionOfInequalityChain, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -921,6 +969,8 @@ negaisa?
 * _hasSolutionConcept: ArithmeticMean, PositiveIntegers, LinearEquation, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 

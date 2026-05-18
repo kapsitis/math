@@ -14,7 +14,9 @@ Daži skaitļi jau ir ierakstīti.
 * domain:Alg
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, FiniteSequenceArrangement
 * _readingDifficulty: low
-* _hasReasoningMethod: 
+* _hasReasoningMethod:
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -41,6 +43,8 @@ atkārtoti izpildot šādas darbības, Karlsons var iegūt tieši $2022$ tortes 
 * _hasSolutionConcept: ParityInvariant, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -77,6 +81,8 @@ figūras var būt pagrieztas vai apgāztas otrādi.
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid, CentralSymmetry
 * _readingDifficulty: medium
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -100,6 +106,8 @@ abi cipari arī ir pirmskaitļi. Kāda ir abu uzrakstīto skaitļu starpība?
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: PrimeOnePointConfusion, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -145,6 +153,8 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ tieši šād
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -199,6 +209,8 @@ kilometru ir no Laines mājām līdz skolai?
 * _hasSolutionConcept: RationalNumbers, LinearEquation
 * _readingDifficulty: low
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -226,6 +238,8 @@ iespējams, ka kādā brīdī visos četros plauktos būs vienāds skaits eklēr
 * _hasSolutionConcept: EvenOddParity, Invariant, PositiveIntegers
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: ConcreteToGeneralLeap, IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -260,6 +274,8 @@ pagrieztas vai apgāztas otrādi.
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, ChessboardColoring, LatticeGrid
 * _readingDifficulty: medium
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -284,6 +300,8 @@ Kāda ir abu uzrakstīto skaitļu summa?
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness, DivisibilityRules
+* _hasReasoningMistake: PrimeOnePointConfusion, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -323,6 +341,8 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ (tieši šā
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -390,6 +410,8 @@ izpildīja Raimonds?
 * _hasSolutionConcept: DirectProportion, RationalNumbers
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -424,6 +446,8 @@ Karlsons var iegūt tieši $2000$ tortes gabalus?
 * _hasSolutionConcept: DivisibilityRelation, Invariant, ProofByContradiction, DigitSum
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -471,6 +495,8 @@ figūras nedrīkst pārklāties vai iziet ārpus taisnstūra.
 * _hasSolutionConcept: Tiling, DivisionWithRemainder, PositiveIntegers, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -502,6 +528,8 @@ ar $7$.
 * _hasSolutionConcept: DivisibilityRelation, DivisionWithRemainder, CountingProductRule, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: IncompleteResidueCases, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -548,6 +576,8 @@ monētas vērtība? Atrodi visus iespējamos variantus un pamato, ka citu nav!
 * _hasSolutionConcept: NumberPartitions, CaseAnalysis, ParityInvariant, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, FixedInvariantNumeric, ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -602,6 +632,8 @@ attiecīgi šo taišņu krustpunkti ar $y$ asi. Aprēķināt trijstūra $ABC$ la
 * _hasSolutionConcept: PointLineSegmentRay, CoordinatePlane, Triangle
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: low
 
 </small>
 
@@ -632,6 +664,8 @@ $2$ kūciņas. Vai iespējams, ka kādā brīdī uz galda bija tieši $2022$ kū
 * _hasSolutionConcept: Invariant, DivisibilityRelation
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -674,6 +708,8 @@ $F$. Pierādīt, ka $EF=FB$!
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, Angle, TriangleCongruence
 * _readingDifficulty: low
 * _hasReasoningMethod: CongruentTriangles, AngleChasing, TriangleAngleSum, AuxiliaryLines, IsoscelesTriangleProperties, ParallelogramProperties
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -716,6 +752,8 @@ un pamato, ka citu nav!
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PrimeNumbers, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: DiophantineEquations, PrimePropertiesAndUniqueness, AlgebraicManipulationForInteger, CompleteEnumeration
+* _hasReasoningMistake: ConfusingDivisorAndMultiple, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -750,6 +788,8 @@ Kāds ir $3321.$ skaitlis šajā virknē?
 * _hasSolutionConcept: NumberSequence, DigitRepresentation, CountingSumRule
 * _readingDifficulty: medium
 * _hasReasoningMethod: RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -792,6 +832,8 @@ sporta preču veikalā?
 * _hasSolutionConcept: FiniteSet, EquationSystem, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -832,6 +874,8 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $212$
 * _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: InvariantMethod, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -873,6 +917,8 @@ $CD=AF$.
 * _hasSolutionConcept: ParallelPerpendicular, Polygon, ParallelogramProperties, TriangleCongruence
 * _readingDifficulty: medium
 * _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, ParallelogramProperties, AuxiliaryLines
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, ConflatingPropertyAndCriterion
+* _mistakesFit: high
 
 </small>
 
@@ -914,6 +960,8 @@ aritmētisko progresiju!
 * _hasSolutionConcept: ArithmeticProgression, VariableExpression
 * _readingDifficulty: low
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother, UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -952,6 +1000,8 @@ rūtiņas ir neaizkrāsotas?
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: medium
 * _hasReasoningMethod: PigeonholePrinciple
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 

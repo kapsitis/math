@@ -12,6 +12,8 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 * _hasSolutionConcept: GraphConcept, DirectedGraph, OptimumProofStructure
 * _readingDifficulty: high
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -43,6 +45,8 @@ izdarīt?
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, DivisibilityRelation
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -68,6 +72,8 @@ tieši $6$ balti kaimiņi?
 * _hasSolutionConcept: LatticeGrid, Coloring, FiniteSet, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -97,6 +103,8 @@ malas garums ir $1$.)
 * _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, ParityInvariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -132,6 +140,8 @@ Kāda daļa no $B$ atbalstītājiem ir meļi?
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ArithmeticMean
 * _readingDifficulty: medium
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays, IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -158,6 +168,8 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, CaseAnalysis
 * _readingDifficulty: low
 * _hasReasoningMethod: CompleteEnumeration, NumberConstruction, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -186,6 +198,8 @@ skaitlisko vērtību. Kādu rezultātu viņa ieguva?
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: PigeonholePrincipleBasic
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -211,6 +225,8 @@ reizinājumu var būt **(A)** $12$, **(B)** $18$?
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, Invariant, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundingArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -243,6 +259,8 @@ $6$ nedrīkst izmantot, lai attēlotu ciparu $9$, un otrādi.)
 * _hasSolutionConcept: DigitRepresentation, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, PigeonholePrincipleBasic
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -281,6 +299,8 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 * _hasSolutionConcept: Tiling, EvenOddParity, DivisibilityRelation, Counterexample, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -313,6 +333,8 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: PrimeFactorization, DivisibilityRules, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityDirection, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -342,6 +364,8 @@ tikai tas, ka tie atrodas trijstūra $T$ iekšpusē.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis, AuxiliaryLines, AngleChasing
+* _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -389,6 +413,8 @@ Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 * _readingDifficulty: medium
 * _domain: NT,Comb
 * _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness, SumOfArithmeticOrTriangularNumbers
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -434,6 +460,8 @@ atrodas ārpus $\triangle ABC$. Pierādīt, ka $AN=CM$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -464,6 +492,8 @@ pavisam ir rūķīšu? (Dālderis ir vienīgā rūķīšiem pieejamā naudas vie
 * _readingDifficulty: high
 * _domain: NT
 * _hasReasoningMethod: InvariantMethod, PrimePropertiesAndUniqueness, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -498,6 +528,8 @@ gadīties, ka
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: VietasFormulas
+* _hasReasoningMistake: ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -526,6 +558,8 @@ turnīra noslēgumā ir visvairāk punktu.)
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, AveragingArgumentForExistenceOfElement, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -555,6 +589,8 @@ bisektrise.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, AuxiliaryLines, ParallelLinesAngleProperties, IsoscelesTriangleProperties
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -592,6 +628,8 @@ Cipariņam un cik - viņa kolēgim? (Visus vecumus izsaka veselos gados.)
 * _readingDifficulty: high
 * _domain: NT
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -634,6 +672,8 @@ vietā uz riņķa līnijas atrastos blakus (vienalga kādā secībā).
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -667,6 +707,8 @@ grafiki?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: ParameterizedInvariantValue, UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -690,6 +732,8 @@ $a+b+c=0$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, UseTrivialInequalitiesAndAddThem
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -724,6 +768,8 @@ paralēls $t$ arī tad, ja tas atrodas uz $t$)
 * _readingDifficulty: high
 * _domain: Geom
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -753,6 +799,8 @@ ar $d(n)$.
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: NumberOfDivisors, NumberConstruction, BoundingArgument
+* _hasReasoningMistake: ConfusingDivisorAndMultiple, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -788,6 +836,8 @@ citādi), un mainīt krāsu uz pretējo visās šīs figūras rūtiņās. Vai, a
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 

@@ -10,6 +10,8 @@ un 24:00 ieskaitīt vienu reizi.) Atbildi pamatot!
 * _hasSolutionConcept: PeriodicSequence, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, NumericalEstimation
+* _hasReasoningMistake: CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues, IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -41,6 +43,8 @@ zemāk par $1.$ stāvu.)
 * _hasSolutionConcept: LinearDiophantine, GCD, Invariant
 * _readingDifficulty: high
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -74,6 +78,8 @@ būtu viena un tā pati.
 * _hasSolutionConcept: MagicConfiguration, DigitRepresentation, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -107,6 +113,8 @@ Figūras nedrīkst pārklāties un katra veida figūra jāizmanto vismaz vienu r
 * _hasSolutionConcept: Tiling, LatticeGrid, PlaneTransformation
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -131,6 +139,8 @@ krāsā. Atbildi pamatot!
 * _hasSolutionConcept: Coloring, GraphConcept, BipartiteGraph, Counterexample
 * _readingDifficulty: high
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -167,6 +177,8 @@ iegūts viens un tas pats skaitlis. Kāds tas ir?
 * _hasSolutionConcept: PositiveIntegers, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: ConcreteToGeneralLeap, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -201,6 +213,8 @@ kuriem dalās ar $3$ un kuru
 * _hasSolutionConcept: DivisibilityRelation, DigitSum, DigitProduct, DigitRepresentation, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: DivisibilityRules, NumberConstruction
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -230,6 +244,8 @@ būt pagrieztas vai apgrieztas otrādi).
 * _hasSolutionConcept: DissectionIntoCongruent, PlaneTransformation
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, SymmetryStrategy
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -252,6 +268,8 @@ reizinājumi abās grupās ir vienādi?
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, SetPartition
 * _readingDifficulty: low
 * _hasReasoningMethod: PrimeFactorization, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -281,6 +299,8 @@ panākt savu uzvaru?
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
 * _readingDifficulty: medium
 * _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -312,6 +332,8 @@ skaitli ar tā ciparu reizinājumu, dalījums ir vismaz $\frac{11}{9}$.
 * _hasSolutionConcept: DigitRepresentation, DigitProduct, OptimumProofStructure, RationalNumbers
 * _readingDifficulty: low
 * _hasReasoningMethod: PositionalNotation, BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -350,6 +372,8 @@ izveidot trijstūri (katra trijstūra mala ir viens vesels nogrieznis)?
 * _hasSolutionConcept: Triangle, TriangleInequality, UnorderedSelection, FiniteSet
 * _readingDifficulty: low
 * _hasReasoningMethod: TriangleInequality, CaseAnalysis
+* _hasReasoningMistake: ConcludingFromZeroOrEdgeCase, SkippingCaseAnalysis
+* _mistakesFit: medium
 
 </small>
 
@@ -383,6 +407,8 @@ kvadrāts ir skaitļa reizinājums pašam ar sevi.)
 * _hasSolutionConcept: PerfectSquares, PrimeFactorization, DivisibilityRules, DigitSum, DivisibilityRelation, DigitRepresentation
 * _readingDifficulty: medium
 * _hasReasoningMethod: PrimeFactorization, DivisibilityRules, SumOfArithmeticOrTriangularNumbers, PositionalNotation
+* _hasReasoningMistake: WrongDivisibilityRule, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -434,6 +460,8 @@ figūru (tā var būt pagriezta vai apgāzta otrādi)?
 * _hasSolutionConcept: Tiling, Coloring, Invariant, LatticeGrid
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, SkippingCaseAnalysis
+* _mistakesFit: medium
 
 </small>
 
@@ -462,6 +490,8 @@ panākt savu uzvaru?
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
 * _readingDifficulty: medium
 * _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -491,6 +521,8 @@ to pirmo ciparu, samazinās $36$ reizes.
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DivisibilityRelation
 * _readingDifficulty: medium
 * _hasReasoningMethod: PositionalNotation, PrimeFactorization, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: WrongDivisibilityDirection, FactoringWithoutIntegerCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -534,6 +566,8 @@ perimetra.
 * _hasSolutionConcept: Triangle, TriangleInequality
 * _readingDifficulty: low
 * _hasReasoningMethod: TriangleInequality
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -560,6 +594,8 @@ ka $t \geq 4 a$.
 * _hasSolutionConcept: IrrationalAndReals, QuadraticEquation, VariableExpression
 * _readingDifficulty: low
 * _hasReasoningMethod: SubstitutionForSimplification
+* _hasReasoningMistake: ExtraneousRootsAfterSquaring, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -583,7 +619,9 @@ daudzstūros?
 * subdomain:DOM_CuttingCoversColoring
 * _hasSolutionConcept: Polygon, DissectionIntoCongruent
 * _readingDifficulty: low
-* _hasReasoningMethod: 
+* _hasReasoningMethod:
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -616,6 +654,8 @@ $x_{1} \geq x_{2} \geq x_{3} \geq x_{4}$ ).
 * _hasSolutionConcept: FiniteSequenceArrangement, CaseAnalysis, DecisionTree
 * _readingDifficulty: high
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -650,6 +690,8 @@ sadalīt piecos vienlielos trijstūros.
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, AreaCounting
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -678,6 +720,8 @@ vienā krāsā un atrodas vienādsānu taisnleņķa trijstūra virsotnēs.
 * _hasSolutionConcept: Coloring, LatticeGrid, Triangle, PigeonholePrinciple, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis, PigeonholePrinciple
+* _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -713,6 +757,8 @@ ciparus.
 * _hasSolutionConcept: DigitRepresentation, DigitSum, CountingProductRule
 * _readingDifficulty: low
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -744,6 +790,8 @@ $x_{n+1}=x_{n}+\frac{2}{x_{n}}$ visiem $n \geq 0$. Pierādīt, ka $x_{100}>20$.
 * _hasSolutionConcept: NumberSequence, RecurrentSequence, Invariant, PerfectSquares
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumericalEstimation, SubstitutionForSimplification, UseStandardIdentities
+* _hasReasoningMistake: WrongDirectionOfInequalityChain, UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -776,6 +824,8 @@ malas. Pierādīt, ka šie riņķi pilnībā pārklāj doto četrstūri.
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk, Triangle, TriangleSpecialLines
 * _readingDifficulty: low
 * _hasReasoningMethod: AuxiliaryLines, AngleAtCenterAndCircumference
+* _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 

@@ -16,6 +16,8 @@ pirmais cipars par $1$ mazāks nekā visu citu ciparu summa.
 * _hasSolutionConcept: DigitRepresentation, DigitSum, PositiveIntegers, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundingArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -46,6 +48,8 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -81,6 +85,8 @@ mazākais iespējamais).
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -110,6 +116,8 @@ ne ar vienu citu naturālu skaitli kā $1$?
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, EvenOddParity, ChessboardColoring
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumberConstruction, ParityArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -139,6 +147,8 @@ to var panākt, ja sākotnējie lodīšu daudzumi ir $10,\ 12$ un $15$?
 * _hasSolutionConcept: FiniteSet, StateSpaceProcess, Invariant, EvenOddParity
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -170,6 +180,8 @@ pulkst. $12^{00}$ abi pulksteņi atkal rādīs pareizu laiku?
 * _hasSolutionConcept: LCM, DivisibilityRelation, PositiveIntegers
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -199,6 +211,8 @@ otrā. Vai to var izdarīt, ja **(A)** $n=5$, **(B)** $n=7$?
 * _hasSolutionConcept: Tiling, ChessboardColoring, ParityInvariant, ProofByContradiction
 * _readingDifficulty: high
 * _hasReasoningMethod: ColoringInvariant, ProofByContradiction, ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -232,6 +246,8 @@ pēdējo, būtu vienāds ar savu abu kaimiņu summu vai starpību?
 * _hasSolutionConcept: FiniteSequenceArrangement, FiniteSet, CaseAnalysis, EvenOddParity
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -260,6 +276,8 @@ un cik punktus viņi ieguva?
 * _hasSolutionConcept: RationalNumbers, GraphConcept, FiniteSet, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, AveragingArgumentForExistenceOfElement, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: medium
 
 </small>
 
@@ -314,6 +332,8 @@ svēršanām var noteikt katra atsvara masu?
 * _hasSolutionConcept: CaseAnalysis, EvenOddParity, DecisionTree
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases, FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -348,6 +368,8 @@ Dots, ka $|x+y|+|x-y|=10$. Kāda ir lielākā iespējamā $x$ vērtība?
 * _hasSolutionConcept: PositiveAndNegative, VariableExpression, OptimumProofStructure
 * _readingDifficulty: low
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, ProofByContradictionInAlgebra, NumericalEstimation
+* _hasReasoningMistake: CaseAnalysisIncomplete, ExtraneousRootsAfterSquaring, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -378,6 +400,8 @@ kā minēts iepriekš?
 * _hasSolutionConcept: PointLineSegmentRay, Polygon, Invariant, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: CountingByDoubleCounting, ProofByContradiction
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -417,6 +441,8 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 * _hasSolutionConcept: DivisibilityRelation, GamePosition, WinningLosingPositions
 * _readingDifficulty: medium
 * _hasReasoningMethod: GameInvariantsInNT, CompleteEnumeration
+* _hasReasoningMistake: ConfusingDivisorAndMultiple, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -449,6 +475,8 @@ Pierādiet, ka $EE_{1} \perp BC$.
 * _hasSolutionConcept: Polygon, Triangle, TriangleSpecialLines, ParallelPerpendicular, TriangleCongruence
 * _readingDifficulty: medium
 * _hasReasoningMethod: IsoscelesTriangleProperties
+* _hasReasoningMistake: ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -478,6 +506,8 @@ var būt $0$, ja **(A)** $n=8$, **(B)** $n=9$?
 * _hasSolutionConcept: PositiveIntegers, ParityInvariant, DiffOfSquaresFactoring, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -516,6 +546,8 @@ $x_{0},\ x_{1},\ x_{2}$ un $x_{3}$, nelietojot kvadrātsaknes zīmi.
 * _hasSolutionConcept: QuadraticEquation, PolynomialAndRoots, VietasFormulas, ArithmeticMean
 * _readingDifficulty: medium
 * _hasReasoningMethod: VietasFormulas, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -548,6 +580,8 @@ vajadzēja iegūt. Kādu sešciparu skaitli Andris uzrakstīja?
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, LinearEquation
 * _readingDifficulty: medium
 * _hasReasoningMethod: PositionalNotation, DiophantineEquations, BoundingArgument, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityDirection, ConfusingDivisorAndMultiple, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -578,6 +612,8 @@ dalītājs būtu $1$?
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, GCD, NumberPartitions, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundingArgument, PrimePropertiesAndUniqueness, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -611,6 +647,8 @@ kopgarumu. (Tika novilktas **tikai** līnijas, kas dala kvadrātus taisnstūros.
 * _hasSolutionConcept: Tiling, Invariant
 * _readingDifficulty: high
 * _hasReasoningMethod: CountingByDoubleCounting
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -641,6 +679,8 @@ Vai tas iespējams, ja **(A)** $n=3$, **(B)** $n=4$, **(C)** $n=2003$?
 * _hasSolutionConcept: PositiveIntegers, SetPartition, PerfectSquares, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumberConstruction, AlgebraicManipulationForInteger
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -671,6 +711,8 @@ divas dažādas saknes.
 * _hasSolutionConcept: QuadraticEquation, PositiveAndNegative, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -696,6 +738,8 @@ $8$?
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, FiniteSequenceArrangement, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumericalEstimation, CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -729,6 +773,8 @@ $\left(p_{1}-1\right)\left(p_{2}-1\right) \ldots \left(p_{n}-1\right)$.
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, EvenOddParity
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityArgument, CompleteEnumeration, AlgebraicManipulationForInteger, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: PrimeOnePointConfusion, WrongDivisibilityDirection, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -765,6 +811,8 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 * _hasSolutionConcept: Triangle, CircleAndDisk, TriangleSpecialLines, TriangleCongruence, Angle
 * _readingDifficulty: medium
 * _hasReasoningMethod: PointOnSegmentConstruction, CongruentTriangles, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -802,6 +850,8 @@ Kurš uzvar, pareizi spēlējot, ja **(A)** $k=8$, **(B)** $k=64$?
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, Invariant, PerfectSquares
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 

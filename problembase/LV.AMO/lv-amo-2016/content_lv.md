@@ -11,6 +11,8 @@ $DLV; MMXVI; CMXCIV; XXXVII$
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement
 * _readingDifficulty: low
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -34,6 +36,8 @@ $14 \cdot a+2 \cdot b+1=2016$ ?
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -61,6 +65,8 @@ iekavas tā, lai iegūtu patiesu vienādību!
 * _hasSolutionConcept: RationalNumbers, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -84,6 +90,8 @@ daļas nedrīkst pārklāties, daļas drīkst pagriezt, bet nedrīkst apgāzt ot
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, Rotation
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -108,6 +116,8 @@ viens otram!
 * _hasSolutionConcept: PigeonholePrinciple, GraphConcept, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -136,6 +146,8 @@ risinājumu!
 * _hasSolutionConcept: RationalNumbers, EquationSystem
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -160,6 +172,8 @@ $14 \cdot a+15=2016-6 \cdot b$?
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -190,6 +204,8 @@ tantītes piedalījās sacensībās?
 * _hasSolutionConcept: RationalNumbers, FiniteSet, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumericalEstimation, CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, WrongDirectionOfInequalityChain, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -232,6 +248,8 @@ taisnstūrī būtu vismaz viena iekrāsota rūtiņa?
 * _hasSolutionConcept: Tiling, Coloring, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -260,6 +278,8 @@ laukuma) daļās! Gabali attiecībā viens pret otru drīkst būt gan pagriezti,
 * _hasSolutionConcept: DissectionIntoCongruent, PlaneTransformation
 * _readingDifficulty: low
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -288,6 +308,8 @@ funkcijas grafiku un iet caur punktu $(1; 43)$!
 * _hasSolutionConcept: LinearFunction, CoordinatePlane, LinearEquation, ParallelPerpendicular, OrderedPair
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -323,6 +345,8 @@ centu). Cik samaksāja Brālītis?
 * _hasSolutionConcept: DivisibilityRelation, CoprimeIntegers, LinearEquation
 * _readingDifficulty: medium
 * _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument, AlgebraicManipulationForInteger
+* _hasReasoningMistake: UnstatedNumberSetAssumption, WrongDivisibilityDirection
+* _mistakesFit: medium
 
 </small>
 
@@ -363,6 +387,8 @@ Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, Angle, TriangleCongruence, ParallelogramProperties
 * _readingDifficulty: low
 * _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, MisuseOfMidpointOrParallel, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -409,6 +435,8 @@ tūbiņu?
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, LinearEquation
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -445,6 +473,8 @@ Pierādīt, ka varde ir apēdusi vismaz $21$ mušu!
 * _hasSolutionConcept: ChessboardColoring, ParityInvariant, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -474,6 +504,8 @@ $$\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13}-128}$$
 * _hasSolutionConcept: DiffOfSquaresFactoring, DivisibilityRelation, RationalNumbers
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -504,6 +536,8 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$?
 * _hasSolutionConcept: WholeIntegers, EvenOddParity, CaseAnalysis
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityArgument, DiophantineEquations
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -542,6 +576,8 @@ lielākais ciparu skaits, kas var būt šajā skaitlī?
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, DivisibilityRules, DigitRepresentation, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumberConstruction, DivisibilityRules, PrimeFactorization, BoundingArgument, SumOfArithmeticOrTriangularNumbers
+* _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: high
 
 </small>
 
@@ -587,6 +623,8 @@ Pierādīt, ka $\triangle MNB=\triangle CKM$.
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, TriangleCongruence, TriangleSpecialLines, ParallelPerpendicular
 * _readingDifficulty: medium
 * _hasReasoningMethod: CongruentTriangles, PerpendicularBisector
+* _hasReasoningMistake: MisuseOfMidpointOrParallel, RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: high
 
 </small>
 
@@ -628,6 +666,8 @@ pareizi spēlējot, uzvar, ja **(A)** $N=7$, **(B)** $N=8$?
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, LatticeGrid, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -661,6 +701,8 @@ Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
 * _hasSolutionConcept: LinearInequality, FunctionDomainRange
 * _readingDifficulty: low
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: CaseAnalysisIncomplete, SignFlipForgottenInInequality, UncheckedConsistencyOfFoundValues
+* _mistakesFit: high
 
 </small>
 
@@ -689,6 +731,8 @@ $x, y$ un $z$, ka $x^{3}-2016xyz=10$ ?
 * _hasSolutionConcept: WholeIntegers, ModularArithmetic, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ModularArithmetic, CompleteEnumeration
+* _hasReasoningMistake: IncompleteResidueCases, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -727,6 +771,8 @@ $CDM$ ir vienādmalu!
 * _hasSolutionConcept: Triangle, TriangleCongruence, TriangleSimilarity, Angle, PointLineSegmentRay
 * _readingDifficulty: medium
 * _hasReasoningMethod: SimilarTriangles, CongruentTriangles, AngleAtCenterAndCircumference, ParallelogramProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance, WrongAngleDecomposition
+* _mistakesFit: high
 
 </small>
 
@@ -770,6 +816,8 @@ reizinājumu. Kāds ir šīs virknes $2016.$ loceklis?
 * _hasSolutionConcept: NumberSequence, RecurrentSequence, DigitProduct, PeriodicSequence
 * _readingDifficulty: medium
 * _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -826,6 +874,8 @@ pārbaudot ne vairāk kā četrus podus!
 * _hasSolutionConcept: ArithmeticProgression, FiniteSequenceArrangement, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 

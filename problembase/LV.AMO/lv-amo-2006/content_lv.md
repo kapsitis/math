@@ -18,6 +18,8 @@ iegūtās daļas pēc formas atšķirtos no otrā sagriešanā iegūtajām daļ�
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Tiling, FiniteSet, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -42,6 +44,8 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * _hasSolutionConcept: DecisionTree, Invariant, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -74,6 +78,8 @@ apli".)
 * _hasSolutionConcept: GraphConcept, FiniteSet, CaseAnalysis, ProofByContradiction
 * _readingDifficulty: high
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -115,6 +121,8 @@ Kuri no rūķīšiem melo, kuri - runā patiesību?
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, CaseAnalysis, ConsistencyCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -139,6 +147,8 @@ Vai to var izdarīt ar skaitļiem no $1$ līdz $13$ ieskaitot?
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, NumberPartitions
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction, SumOfArithmeticOrTriangularNumbers
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -164,6 +174,8 @@ izteiksme $2a+3b+c$ dalās ar $7$.
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, DivisibilityRules
 * _readingDifficulty: low
 * _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger
+* _hasReasoningMistake: WrongDivisibilityRule, WrongDivisibilityDirection
+* _mistakesFit: medium
 
 </small>
 
@@ -186,6 +198,8 @@ svēršanām var noteikt katra atsvara masu?
 * _hasSolutionConcept: EvenOddParity, CaseAnalysis, DecisionTree
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases, FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -221,6 +235,8 @@ bumbieru.
 * _hasSolutionConcept: FiniteSet, CaseAnalysis, ArithmeticMean
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExtremalElementArgument
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -250,6 +266,8 @@ $2$ malas?
 * _hasSolutionConcept: LatticeGrid, Coloring, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -281,6 +299,8 @@ $10$ dukāti.
 * _hasSolutionConcept: ChessboardColoring, ParityInvariant, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: low
 
 </small>
 
@@ -314,6 +334,8 @@ dažādos vagonos, kas pie tam nav blakus viens otram. Cik vietu ir katrā vagon
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: NumericalEstimation, ProofByContradictionInAlgebra
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -350,6 +372,8 @@ var beigties šo skaitļu reizinājums?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: PrimeFactorization, BoundingArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -381,6 +405,8 @@ Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -411,6 +437,8 @@ palikusi tikai viena dzīva būtne. Kas tā ir?
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -454,6 +482,8 @@ tie abi ir tukši). Kādu lielāko konfekšu daudzumu var apēst?
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -488,6 +518,8 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: VietasFormulas, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -512,6 +544,8 @@ risināts, ja katri divi bērni kopā risināja vismaz vienu no tiem?
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -546,6 +580,8 @@ naturāls skaitlis, kam vienlaicīgi izpildās īpašības $S(n)=10$ un $S(5n)=5
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction, LastDigitAnalysis, BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -585,6 +621,8 @@ punkts $M$, ka $\sphericalangle KMB=\sphericalangle BAC$. Pierādīt, ka $KM=AL$
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, AuxiliaryLines, ParallelLinesAngleProperties, IsoscelesTriangleProperties
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, UnjustifiedAuxiliaryLineExists, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -619,6 +657,8 @@ Vai tas var gadīties, ja sākotnēji melnas ir $33$ rūtiņas?
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -653,6 +693,8 @@ dalās ar $8$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, PositionalNotation, BoundingArgument, NumberConstruction
+* _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -692,6 +734,8 @@ rūķīšus.
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ExtremalElementArgument, PigeonholePrincipleBasic, ContradictionForImpossibility
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -728,6 +772,8 @@ punktos $M$, $K$ un $N$. Pierādīt, ka $\sphericalangle BMN=\sphericalangle BMK
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: ParallelLinesAngleProperties, AngleAtCenterAndCircumference, AngleChasing
+* _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption, WrongAngleDecomposition
+* _mistakesFit: medium
 
 </small>
 
@@ -764,6 +810,8 @@ $f(x)+f(x+1)+f(x+2)=0$ arī ir divas saknes.
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: CaseAnalysisIncomplete, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -797,6 +845,8 @@ lielāks par $1$?
 * _readingDifficulty: high
 * _domain: NT,Comb
 * _hasReasoningMethod: BoundingArgument, PigeonholeInNT, NumberConstruction, ProofByContradiction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 

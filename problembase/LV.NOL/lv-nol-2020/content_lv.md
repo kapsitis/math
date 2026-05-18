@@ -15,6 +15,8 @@ $\overline{xzy}<\overline{yaz}<\overline{yax}<\overline{zxa}$?
 * _hasReasoningMethod: ProofByContradiction
 * _newReasoningMethodLabel: LexicographicNumberComparison
 * _newReasoningMethodDescription: Comparing same-length numbers by leading differing digit
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -52,6 +54,8 @@ labajā pusē piezīmējot klāt vienu 2.att. doto figūru.
 * _hasReasoningMethod: ParityInvariant
 * _newReasoningMethodLabel: PatternGrowthArithmetic
 * _newReasoningMethodDescription: Track constant growth in a figure sequence
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -104,6 +108,8 @@ Sagriez 5.att. doto figūru divpadsmit 6.att. figūrās!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -129,6 +135,8 @@ $11$, **b)** $12$?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -168,6 +176,8 @@ Atrodi tādu trīsciparu skaitli, kam vienlaicīgi izpildās tālāk dotie nosac
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction, PrimeFactorization
+* _hasReasoningMistake: NonCoprimeFactorDivisibility, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -197,6 +207,8 @@ Aprēķini iegūtās figūras perimetru!
 * _hasReasoningMethod: ParallelogramProperties
 * _newReasoningMethodLabel: PerimeterByBoundaryStraightening
 * _newReasoningMethodDescription: Replacing stepped boundary by equal straight segments
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -222,6 +234,8 @@ Atrodi skaitļa $1^{3}+3^{3}+5^{3}+\cdots+101^{3}$ pēdējo ciparu!
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: LastDigitAnalysis
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -264,6 +278,8 @@ pagriezt.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -289,6 +305,8 @@ $14$, **b)** $15$?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -323,6 +341,8 @@ dalās ar $8$?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, DivisibilityRules, ParityArgument
+* _hasReasoningMistake: WrongDivisibilityRule, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -376,6 +396,8 @@ $(14; -2006)$ un krusto doto taisni punktā, kura abscisa ir $0$.
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: CoordinateLineEquation
 * _newReasoningMethodDescription: Finding a line equation from given points and intercept
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -403,6 +425,8 @@ ka iegūtās izteiksmes vērtība ir **a)** $4$; **b)** $1$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: ParityArgument, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -441,6 +465,8 @@ trīs 16.att. figūrām un divpadsmit 17.att. figūrām? Figūras drīkst pagrie
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -484,6 +510,8 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ExtremalElementArgument
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -517,6 +545,8 @@ reizes mazāka nekā skaitļa $n$ ciparu summa!
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -549,6 +579,8 @@ stundām vairāk nekā atpakaļceļā!
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -591,6 +623,8 @@ lielākais naturālais skaitlis, kuru nevar iegūt uz kalkulatora ekrāna?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -631,6 +665,8 @@ Aprēķini trijstūra $ABC$ leņķus!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -672,6 +708,8 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -707,6 +745,8 @@ no iespējām pastāv īstenībā?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -743,6 +783,8 @@ mazāks nekā $30~\mathrm{cm}$. Kāds var būt trijstūra sānu malas garums?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: TriangleInequality
+* _hasReasoningMistake: ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -776,6 +818,8 @@ $\frac{1}{1 \cdot 3}+\frac{1}{3 \cdot 5}+\frac{1}{5 \cdot 7}+\ldots+\frac{1}{201
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: TelescopingSum, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -818,6 +862,8 @@ $\omega_{2}$ diametru garumu attiecību $\frac{AB}{AC}$.
 * _hasReasoningMethod: PythagoreanTheorem, SymmetryStrategy
 * _newReasoningMethodLabel: IntersectingChordsTheorem
 * _newReasoningMethodDescription: Using the power relation for intersecting chords
+* _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -879,6 +925,8 @@ atrastos tieši $k$ citas kartītes. Vai kartītes var salikt prasītajā veidā
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -927,6 +975,8 @@ tabulā ierakstīto skaitļu summa ir kāda naturāla skaitļa kubs!
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 

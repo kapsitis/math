@@ -17,6 +17,8 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -47,6 +49,8 @@ $22$-jam, bet $60$-ais vagoniņš - pretī $86$-jam (skat. 1.zīm.). Atrast $n$.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -73,6 +77,8 @@ atkārtojot šādus gājienus?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -106,6 +112,8 @@ Kāds lielākais daudzums krāsu var būt izmantots?
 * _hasReasoningMethod: ProofByContradiction
 * _newReasoningMethodLabel: CountingAdjacencyPairs
 * _newReasoningMethodDescription: Counting required color-adjacency pairs versus available shared edges
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -142,6 +150,8 @@ pilsētā $A$ un kura kopgarums ir tieši $863~\mathrm{km}$?
 * _readingDifficulty: medium
 * _domain: Comb,NT
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -171,6 +181,8 @@ tabulā ierakstīto skaitļu summa?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -205,6 +217,8 @@ Vai tas iespējams, ja **(A)** $n=2004$, **(B)** $n=2005$?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -238,6 +252,8 @@ Gabali var būt novietoti arī citādi.
 * _hasReasoningMethod: CaseAnalysis
 * _newReasoningMethodLabel: LinearDiophantineEquation
 * _newReasoningMethodDescription: Solving integer count equations under positivity constraints
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -267,6 +283,8 @@ uzrakstītajiem var izvēlēties tādus divus, kuru reizinājums dalās ar $21$.
 * _readingDifficulty: low
 * _domain: NT,Comb
 * _hasReasoningMethod: BoundingArgument
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -310,6 +328,8 @@ Pierādīt, ka
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -342,6 +362,8 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 * _readingDifficulty: low
 * _domain: NT,Comb
 * _hasReasoningMethod: CompleteEnumeration, ParityArgument
+* _hasReasoningMistake: MissingBoundOrExample, PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -369,6 +391,8 @@ vienā punktā?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -398,6 +422,8 @@ veselu malu.
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -434,6 +460,8 @@ dalītāju summu.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction, ParityArgument, BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -483,6 +511,8 @@ no iespējām pastāv īstenībā?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -513,6 +543,8 @@ decimālais pieraksts sākas ar ciparu $1$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: BoundingArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -548,6 +580,8 @@ daudzums rūtiņu var būt izcilas?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -585,6 +619,8 @@ Ar kādu mazāko jautājumu skaitu Juris var noteikti noskaidrot $n$?
 * _readingDifficulty: high
 * _domain: Comb,NT
 * _hasReasoningMethod: PrimePropertiesAndUniqueness, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -626,6 +662,8 @@ tādu punktu $C$, ka $A,\ B$ un $C$ ir vienādsānu trijstūra virsotnes?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis, PerpendicularBisector, IsoscelesTriangleProperties
+* _hasReasoningMistake: SkippingCaseAnalysis, UnstatedDirectionAssumption, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: high
 
 </small>
 
@@ -651,6 +689,8 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: FactorAndUseZeroProductRule, EquivalentTransformationsOfEquationsAndInequalities, SubstitutionForSimplification
+* _hasReasoningMistake: RootLossByDivisionByExpression, UnjustifiedCancellationOrCombination, MissedSolutionsWhenSquareRootOfSquare
+* _mistakesFit: medium
 
 </small>
 
@@ -683,6 +723,8 @@ $$a^{2}-ab+b^{2} \geq 5a+5b-25$$
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CompleteTheSquareForNonNegativity, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -705,6 +747,8 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 * _readingDifficulty: low
 * _domain: NT,Comb
 * _hasReasoningMethod: DivisibilityRules, PositionalNotation, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
@@ -738,6 +782,8 @@ $A$. Taisne $t$ pieskaras abām riņķa līnijām punktā $A$ un krusto to kopē
 * _hasReasoningMethod: PythagoreanTheorem
 * _newReasoningMethodLabel: TangentSegmentsFromExternalPoint
 * _newReasoningMethodDescription: Equal tangent segments from the same external point
+* _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -769,6 +815,8 @@ diviem, iegūst visus naturālos skaitļus no $1$ līdz $15$ ieskaitot?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, ExtremalElementArgument
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ImplicitAssumptionAboutObjectsBeingDistinct, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -808,6 +856,8 @@ $1;\ 2;\ 3;\ 4$?
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: PeriodicSequence, ParityArgument, PigeonholeInNT, ProofByContradiction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 

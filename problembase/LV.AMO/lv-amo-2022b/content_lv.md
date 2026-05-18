@@ -16,6 +16,8 @@ cipari $0$ un $2$ un kurš dalās ar $15$?
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum
 * _readingDifficulty: low
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument
+* _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -49,7 +51,9 @@ rūtiņu malu, kas pilnībā atrodas uz robežas, skaits.
 * topic:Area
 * _hasSolutionConcept: Polygon, FiniteSet, LatticeGrid
 * _readingDifficulty: medium
-* _hasReasoningMethod: 
+* _hasReasoningMethod:
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -80,6 +84,8 @@ septītdaļa – pensionāri. Cik biļetes tika pārdotas?
 * _hasSolutionConcept: DivisibilityRelation, LCM, RationalNumbers
 * _readingDifficulty: medium
 * _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument
+* _hasReasoningMistake: ConfusingDivisorAndMultiple, WrongDivisibilityDirection
+* _mistakesFit: medium
 
 </small>
 
@@ -110,6 +116,8 @@ līdzsvarā? Atbildi pamatot!
 * _hasSolutionConcept: EquationSystem, VariableExpression, PositiveIntegers
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -154,6 +162,8 @@ Kāda krāsa patīk katrai meitenei? Atbildi pamatot!
 * _hasSolutionConcept: SelfReferentialStatements, CaseAnalysis, ConsistencyCheck
 * _readingDifficulty: high
 * _hasReasoningMethod: ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -193,6 +203,8 @@ Cik ir tādu skaitļu, kas ir apvilkti ar vismaz divām dažādām krāsām?
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, MultiplesSet, InclusionExclusion
 * _readingDifficulty: medium
 * _hasReasoningMethod: CoprimeFactorsDivisibility,InclusionExclusionCounting
+* _hasReasoningMistake: ConfusingDivisorAndMultiple
+* _mistakesFit: low
 
 </small>
 
@@ -246,6 +258,8 @@ Figūras var būt arī pagrieztas.
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid, Rotation
 * _readingDifficulty: low
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -277,6 +291,8 @@ Vai var gadīties, ka Māris ieguva summu, kuras pēdējais cipars ir
 * _hasSolutionConcept: PositiveIntegers, LastDigit, NumberSequence, PeriodicSequence
 * _readingDifficulty: low
 * _hasReasoningMethod: LastDigitAnalysis, PeriodicSequence, NumberConstruction
+* _hasReasoningMistake: IncompleteResidueCases, ExampleInsteadOfProof, CarelessModularComputation
+* _mistakesFit: high
 
 </small>
 
@@ -350,6 +366,8 @@ līdzsvarā? Atbildi pamatot!
 * _hasSolutionConcept: LinearEquation, EquationSystem, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -395,6 +413,8 @@ sestdiena – $56$, svētdiena – $57$. Cik ciema iedzīvotāji visu laiku melo
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, WholeIntegers
 * _readingDifficulty: medium
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -439,6 +459,8 @@ Cik dažādos veidos to var izdarīt?
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, CaseAnalysis
 * _readingDifficulty: low
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -484,6 +506,8 @@ Vai var atrast **(A)** $5$; **(B)** $15$ naturālus skaitļus
 * _hasSolutionConcept: PositiveIntegers, NumberPartitions, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -516,6 +540,8 @@ lai uz katras no taisnēm būtu atzīmēti tieši trīs punkti!
 * _hasSolutionConcept: PointLineSegmentRay, FiniteSet
 * _readingDifficulty: medium
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -551,6 +577,8 @@ ja sākumā kaudzē ir **(A)** $6$ konfektes;
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, SymmetryStrategy, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: GameInvariantsInNT, InvariantMethod
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -597,6 +625,8 @@ Cik ciema iedzīvotāju visu laiku melo?
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, FiniteSet, LinearEquation
 * _readingDifficulty: medium
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -639,6 +669,8 @@ Cik dažādos veidos to var izdarīt?
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility, WrongDigitSumRange
+* _mistakesFit: high
 
 </small>
 
@@ -688,6 +720,8 @@ ja kopā viņš ieguva $13$ punktus?
 * _hasSolutionConcept: LinearEquation, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: CompleteEnumeration, DiophantineEquations, ParityArgument, BoundingArgument
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -737,6 +771,8 @@ ka $AD = BD$ un $AB = DC = AC$. Aprēķināt trijstūra $ABC$ leņķus!
 * _hasSolutionConcept: Triangle, TriangleCongruence, TriangleAngleSum
 * _readingDifficulty: medium
 * _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -791,6 +827,8 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 * _hasSolutionConcept: FiniteSequenceArrangement, Invariant, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -836,6 +874,8 @@ Cik draugu saka taisnību?
 * _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, SelfReferentialStatements, ConsistencyCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -870,6 +910,8 @@ var atbilst arī vienādi cipari.)
 * _hasSolutionConcept: PalindromeNumbers, DivisibilityRules, DigitSum, DigitRepresentation
 * _readingDifficulty: low
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, WrongDigitSumRange
+* _mistakesFit: high
 
 </small>
 
@@ -911,6 +953,8 @@ Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(A)** $x > y > 0$, **(B)*
 * _hasSolutionConcept: RationalNumbers, VariableExpression, Counterexample, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, FactorAndUseZeroProductRule, CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: ConcreteToGeneralLeap, WrongDirectionOfInequalityChain, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -956,6 +1000,8 @@ Pierādīt, ka taisne $CH$ dala nogriezni $BK$ divās vienādās daļās!
 * _hasSolutionConcept: Triangle, TriangleAngleSum, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -1005,6 +1051,8 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 * _hasSolutionConcept: FiniteSequenceArrangement, Invariant, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -1066,6 +1114,8 @@ Vai muzeja vadītājs var izveidot šādu maršrutu?
 * _hasSolutionConcept: HamiltonianPath, ChessboardColoring, ProofByContradiction, Invariant
 * _readingDifficulty: high
 * _hasReasoningMethod: ContradictionForImpossibility, ColoringArgumentForCoverageOrUnreachability, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 

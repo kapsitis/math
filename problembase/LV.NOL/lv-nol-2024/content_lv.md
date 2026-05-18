@@ -12,6 +12,8 @@ visi pieci ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $2$.
 * _hasSolutionConcept: DigitRepresentation, LastDigit, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -37,6 +39,8 @@ Kāds mazākais skaits punktu jānodzēš, lai nekādi trīs no atlikušajiem pu
 * _hasSolutionConcept: PointLineSegmentRay, LatticeGrid, FiniteSet, OptimumProofStructure
 * _readingDifficulty: low
 * _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -71,6 +75,8 @@ sakrīt (figūras var pagriezt un apmest otrādi).
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
 * _readingDifficulty: low
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -97,6 +103,8 @@ $4 \cdot 1+23=27$). Kāds ir pēdējais uzrakstītais skaitlis?
 * _hasSolutionConcept: PeriodicSequence, DigitProduct, NumberSequence, DivisionWithRemainder
 * _readingDifficulty: low
 * _hasReasoningMethod: PeriodicSequence
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -129,6 +137,8 @@ Vai iespējams, ka pēc atkārtotas automāta izmantošanas viṇai palika:
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -165,6 +175,8 @@ visi seši ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $3$.
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, CountingProductRule
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -189,6 +201,8 @@ ja jābūt izgrieztām arī tieši divām 6.att. figūrām?
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -230,6 +244,8 @@ ka abas figūras sakrīt (figūras var pagriezt un apmest otrādi).
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
 * _readingDifficulty: low
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -255,6 +271,8 @@ Kāds ir pēdējais uzrakstītais skaitlis?
 * _hasSolutionConcept: PeriodicSequence, DigitProduct, NumberSequence, DivisionWithRemainder
 * _readingDifficulty: low
 * _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -289,6 +307,8 @@ ko sauc par posmiem. Lauztu līniju, kuras galapunkti sakrīt, sauc par slēgtu 
 * _hasSolutionConcept: Polygon, EvenOddParity, SetPartition, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -320,6 +340,8 @@ katru ciparu tieši vienu reizi! (Iekavas lietot nedrīkst un jāievēro darbīb
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -342,6 +364,8 @@ Kāda lielākā ciparu summa var būt desmitciparu skaitlim, kas dalās ar $18$?
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: low
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, WrongDigitSumRange, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -372,6 +396,8 @@ Kāds var būt nogriežņa $AC$ garums, ja zināms, ka tas ir naturāls skaitlis
 * _hasSolutionConcept: TriangleInequality, Triangle, PositiveIntegers, PointLineSegmentRay
 * _readingDifficulty: low
 * _hasReasoningMethod: TriangleInequality
+* _hasReasoningMistake: ConcludingFromZeroOrEdgeCase, SkippingCaseAnalysis, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -414,6 +440,8 @@ salikt taisnstūri, kurā 16. att. figūras nesaskaras ne ar malu, ne ar stūri!
 * _hasSolutionConcept: Tiling, Rotation, QuadrilateralFamilies
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -443,6 +471,8 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 * _hasSolutionConcept: PigeonholePrinciple, ProofByContradiction, CountingProductRule
 * _readingDifficulty: low
 * _hasReasoningMethod: ExtremalElementArgument, ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -476,6 +506,8 @@ Vai iespējams, sareizinot sešus dažādus pirmskaiț̣us, iegūt sešciparu sk
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, DivisibilityRelation, PrimeFactorization
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction, PrimeFactorization
+* _hasReasoningMistake: PrimeOnePointConfusion, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -499,6 +531,8 @@ $D$ un $E$ tā, lai $AE=AD$ un $\sphericalangle BAD=30^{\circ}$. Aprēk̄ināt l
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -540,6 +574,8 @@ kolonnā vai diagonālē, bet arī, piemēram, punkti $A, B, C$ (skat. 20. att.)
 * _hasSolutionConcept: LatticeGrid, PointLineSegmentRay, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -570,6 +606,8 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 * _hasSolutionConcept: PigeonholePrinciple, ProofByContradiction, CountingProductRule
 * _readingDifficulty: low
 * _hasReasoningMethod: PigeonholePrincipleBasic, ContradictionForImpossibility, ExtremalElementArgument
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: medium
 
 </small>
 
@@ -611,6 +649,8 @@ viens skaitlis un katrā rindā un katrā kolonnā skaitli pieaugtu bultiņas no
 * _hasSolutionConcept: TotalOrder, DirectedGraph, ProofByContradiction, PositiveIntegers
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -642,6 +682,8 @@ un malu $K L$ un $M N$ vidusperpendikulu krustpunkts $X$ atrodas uz malas $K N$.
 * _hasSolutionConcept: TriangleCongruence, Triangle, Angle, PointLineSegmentRay
 * _readingDifficulty: medium
 * _hasReasoningMethod: CongruentTriangles, PerpendicularBisector, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -675,6 +717,8 @@ Pierādīt, ka $\sqrt{17-12 \sqrt{2}}+\sqrt{3-2 \sqrt{2}}+\sqrt{3+2 \sqrt{2}}=3$
 * _hasSolutionConcept: SquareOfSumIdentity, PositiveAndNegative, IrrationalAndReals
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, CaseAnalysisBySignOrInterval, NumericalEstimation
+* _hasReasoningMistake: MissedSolutionsWhenSquareRootOfSquare, ExtraneousRootsAfterSquaring, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: high
 
 </small>
 
@@ -733,6 +777,8 @@ Uz kvadrāta $ABCD$ diagonāles $BD$ atlikts punkts $E$. Pierādīt, ka $ED \cdo
 * _hasSolutionConcept: QuadrilateralFamilies, PythagoreanTheorem, ParallelPerpendicular, AxialSymmetry
 * _readingDifficulty: low
 * _hasReasoningMethod: PythagoreanTheorem, ParallelogramProperties
+* _hasReasoningMistake: UnstatedDirectionAssumption, SkippingCaseAnalysis, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -773,6 +819,8 @@ Vai var gadīties, ka tagad visi kaķi atrodas tieši: **(A)** $8$ rūtiņās; *
 * _hasSolutionConcept: LatticeGrid, Coloring, Invariant, GraphConcept
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -810,6 +858,8 @@ Pierādīt, ka $9$ reizes lielāka skaitļa ciparu summa ir $9$.
 * _hasSolutionConcept: DigitRepresentation, DigitSum, PositiveIntegers
 * _readingDifficulty: low
 * _hasReasoningMethod: AlgebraicManipulationForInteger, TelescopingAndIdentity, PositionalNotation
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 

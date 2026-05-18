@@ -11,6 +11,8 @@ sadalīts ne vairāk kā $3$ daļās?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching, ImplicitAssumptionAboutObjectsBeingDistinct
+* _mistakesFit: medium
 
 </small>
  
@@ -41,6 +43,8 @@ trīs citi cipari?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -67,6 +71,8 @@ pretējās virsotnes.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: SimilarTriangles
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -96,6 +102,8 @@ $x$ un $y$, ja zināms, ka skaitlis $4x7yx3y31x$ dalās ar $45$.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange, NonCoprimeFactorDivisibility
+* _mistakesFit: high
 
 </small>
 
@@ -138,6 +146,8 @@ klases biedri nav atsūtīujši vienādu skaitu jauno ziņu?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -167,6 +177,8 @@ $$
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -200,6 +212,8 @@ citi cipari?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -227,6 +241,8 @@ $Piezīme.$ Taisnstūra diagonāle ir nogrieznis, kas savieno taisnstūra pretē
 * _hasReasoningMethod: AuxiliaryLines
 * _newReasoningMethodLabel: GridDecompositionByGCD
 * _newReasoningMethodDescription: Decomposing a grid rectangle into repeated coprime subrectangles
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -255,6 +271,8 @@ procentu atlaidi piešķīra, ja zināms, ka tā nepārsniedz $50 \%$?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -290,6 +308,8 @@ noskaidrot, kurā paraugā ir vīruss?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, EncodingForBijectionOrInvariant
+* _hasReasoningMistake: ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -324,6 +344,8 @@ Aprēķināt laukumu četrstūrim, kuru ierobežo taisnes
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -354,6 +376,8 @@ Vai visi naturāli skaitļi, kuru ciparu summa dalās ar $27$ , arī paši dalā
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: high
 
 </small>
 
@@ -377,6 +401,8 @@ $MA+MB+MC > \frac{1}{2} P_{ABC}$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: TriangleInequality
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -418,6 +444,8 @@ var nokļūt jebkurā citā stāvā bez pārkāpšanas citā liftā?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -446,6 +474,8 @@ pavisam tika izspēlētas? Kas uzvarēja un kas zaudēja septītajā spēlē?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: MonovariantStrictlyChangingQuantity, ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -475,6 +505,8 @@ lielāks?
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -507,6 +539,8 @@ Vai no taisnstūra ar izmēriem $6 \times 12$ rūtiņas var izgriezt astoņas
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -531,6 +565,8 @@ $\sphericalangle ABC=20^{\circ}$. Pierādīt, ka $3AC>AB$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis, TriangleInequality, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -559,6 +595,8 @@ Vai piecu secīgu veselu skaitļu summa var būt **a)** $2022$, **b)** $2025$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: AlgebraicManipulationForInteger, DivisibilityRules, NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -592,6 +630,8 @@ vienmēr var uzvarēt!
 * _readingDifficulty: medium
 * _domain: NT,Comb
 * _hasReasoningMethod: GameInvariantsInNT, InvariantMethod
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -623,6 +663,8 @@ vismaz viena vesela sakne?
 * _readingDifficulty: low
 * _domain: Alg,NT
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, CaseAnalysisBySignOrInterval, FactorAndUseZeroProductRule
+* _hasReasoningMistake: MissedSolutionsWhenSquareRootOfSquare, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -663,6 +705,8 @@ laukums ir $60$ ?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -689,6 +733,8 @@ krustojas punktā $A$. Aprēķināt $\sphericalangle RAO$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -722,6 +768,8 @@ dalās ar $12^{4}$.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityByConsecutive, PrimeFactorization, CoprimeFactorsDivisibility
+* _hasReasoningMistake: NonCoprimeFactorDivisibility, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -759,6 +807,8 @@ rūtiņās, kurām ir kopīga mala, ierakstīto skaitļu starpība nepārsniedz
 * _readingDifficulty: low
 * _domain: Comb,Geom
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, ExtremalElementArgument
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 

@@ -16,6 +16,8 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -46,6 +48,8 @@ var sadalīt grupās tā, lai katras grupas skaitļu summa dalītos ar $3$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction, SumOfArithmeticOrTriangularNumbers, ProofByContradiction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -74,6 +78,8 @@ sastāv šī figūra, ir tikpat lielas kā tās, kurās sadalīta kuba virsma.)
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -103,6 +109,8 @@ Vai tā var gadīties, ja kvadrāta izmēri ir $10 \times 10$ rūtiņas?
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, UpperBoundWithoutExample
+* _mistakesFit: high
 
 </small>
 
@@ -134,6 +142,8 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -171,6 +181,8 @@ vai Jānim?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -196,6 +208,8 @@ spoguļattēli, uzskata par vienādiem.)
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -223,6 +237,8 @@ reizinājumu, iegūst tā ciparu summu. Kuri divciparu naturāli skaitļi ir lab
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -247,6 +263,8 @@ tabulā ierakstīto skaitļu summa?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -280,6 +298,8 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 * _readingDifficulty: high
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -310,6 +330,8 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 * _readingDifficulty: low
 * _domain: NT,Comb
 * _hasReasoningMethod: ParityArgument, BoundingArgument
+* _hasReasoningMistake: MissingBoundOrExample, PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -342,6 +364,8 @@ $y=f(x)$ un $y=g(x)$ abas ir lineāras funkcijas.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -369,6 +393,8 @@ Cik garš ir nogrieznis $BD$?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: TriangleInequality, CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -401,6 +427,8 @@ vienāds ar abu pārējo reizinājumu?
 * _readingDifficulty: low
 * _domain: Comb,NT
 * _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -427,6 +455,8 @@ jāizgriež taisnstūrus ar izmēriem $1 \times 9$ rūtiņas. Kādu lielāko dau
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -460,6 +490,8 @@ skaitļu reizinājums vienāds ar otras grupas visu skaitļu reizinājumu?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PrimePropertiesAndUniqueness, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof, WrongDivisibilityDirection
+* _mistakesFit: medium
 
 </small>
 
@@ -507,6 +539,8 @@ decimālais pieraksts sākas ar ciparu $1$?
 * _hasReasoningMethod: BoundingArgument
 * _newReasoningMethodLabel: GroupingByDigitLength
 * _newReasoningMethodDescription: Partition powers by decimal digit length and count one per block
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -547,6 +581,8 @@ ka piecstūris var arī nebūt izliekts.)
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, SkippingCaseAnalysis, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -582,6 +618,8 @@ nekā vienā veidā, tad jāuzrāda tos visus.)
 * _readingDifficulty: medium
 * _domain: Alg,Comb
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -618,6 +656,8 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: TriangleInequality, CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -651,6 +691,8 @@ $$a^{2}+a b+b^{2} \geq 9(a+b-3)$$
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CompleteTheSquareForNonNegativity, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, WrongDirectionOfInequalityChain, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -676,6 +718,8 @@ var vienlaicīgi būt pirmskaitļi?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration, ParityArgument
+* _hasReasoningMistake: PrimeOnePointConfusion, IncompleteResidueCases, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -701,6 +745,8 @@ līnijai $W_{2}$ un kas nesakrīt ar $AB$, ir paralēlas savā starpā.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AngleChasing, CongruentTriangles, TriangleAngleSum
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition
+* _mistakesFit: medium
 
 </small>
 
@@ -733,6 +779,8 @@ uzrakstīti $2004$ skaitļi, kas visi vienādi ar $1$?
 * _hasReasoningMethod: ConstructiveAlgorithm, EquivalentTransformationsOfEquationsAndInequalities
 * _newReasoningMethodLabel: ConstructiveAlgorithm
 * _newReasoningMethodDescription: Building the target configuration by explicit allowed moves
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -761,6 +809,8 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 

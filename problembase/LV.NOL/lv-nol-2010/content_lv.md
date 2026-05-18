@@ -11,6 +11,8 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vai nu $1$, vai 
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -38,6 +40,8 @@ Cik ir tādu naturālu skaitļu, kas ir vairāk nekā viena datuma pieraksti And
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -66,6 +70,8 @@ diviem iekrāsotiem trijstūrīšiem nebūtu ne kopīga mala, ne kopīgs stūris
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -92,7 +98,9 @@ būtu tāds, kāds redzams 2.zīm, bet pārējie četri būtu savā starpā vien
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
 * _readingDifficulty: low
 * _domain: Geom
-* _hasReasoningMethod: 
+* _hasReasoningMethod:
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -120,6 +128,8 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -150,6 +160,8 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -178,6 +190,8 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction, DiophantineEquations, PrimeFactorization
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -207,6 +221,8 @@ naturālam skaitlim tā, lai vienlaicīgi
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -233,6 +249,8 @@ Kāds lielākais skolēnu skaits šajā turnīrā var iegūt lielmeistara nosauk
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -269,6 +287,8 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -310,6 +330,8 @@ gājienus atkārto, līdz rindā paliek tikai viens skaitlis.
 * _hasReasoningMethod: ParameterInvariantValue
 * _newReasoningMethodLabel: ConservationOfSumInvariant
 * _newReasoningMethodDescription: Using that an operation preserves the total sum
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -337,6 +359,8 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UncheckedConsistencyOfFoundValues, RootLossByDivisionByExpression
+* _mistakesFit: medium
 
 </small>
 
@@ -363,6 +387,8 @@ $(x+1)(x+2)(x+3)$ dalās ar $343$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: BoundingArgument, PrimeFactorization
+* _hasReasoningMistake: WrongDivisibilityDirection, NonCoprimeFactorDivisibility, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -397,6 +423,8 @@ rūtiņām nebūtu nokrāsotas visas malas?
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: CountingByDoubleCounting
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -430,6 +458,8 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -469,6 +499,8 @@ $2$ un $3$.)
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: FactoringAlgebraicExpressions, PrimeFactorization
+* _hasReasoningMistake: PrimeOnePointConfusion
+* _mistakesFit: low
 
 </small>
 
@@ -500,6 +532,8 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC > AB$.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CaseAnalysis, TriangleInequality, EquilateralTriangleConstruction, IsoscelesTriangleProperties
+* _hasReasoningMistake: SkippingCaseAnalysis, UnjustifiedAuxiliaryLineExists, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -547,6 +581,8 @@ starpība dalās ar $9$.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, PositionalNotation, TelescopingAndIdentity
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -579,6 +615,8 @@ ir identitāte?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, ProofByContradictionInAlgebra
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -605,6 +643,8 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: PigeonholePrincipleGeneralized, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -632,6 +672,8 @@ Atrodiet kaut vienu kvadrātvienādojumu ar veseliem koeficientiem, kam viena no
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, MissedSolutionsWhenSquareRootOfSquare, ExtraneousRootsAfterSquaring
+* _mistakesFit: medium
 
 </small>
 
@@ -659,6 +701,8 @@ $R^{2}+r^{2}=d^{2}$
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: PythagoreanTheorem, AuxiliaryLines
+* _hasReasoningMistake: ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -698,6 +742,8 @@ $ABC$ malām nav garāka par $ABC$ lielāko augstumu.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -731,6 +777,8 @@ iespējamais bērnu skaits?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -767,6 +815,8 @@ y^2 + x & = t^2
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: BoundingArgument, DiophantineEquations
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 

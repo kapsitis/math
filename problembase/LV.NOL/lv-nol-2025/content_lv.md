@@ -22,6 +22,8 @@ ka iegūtā summa ir vismazākā iespējamā.
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -44,6 +46,8 @@ Vai naturāla skaitḷa ciparu reizinājums var būt **(A)** $2520$; **(B)** $54
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PrimeFactorization, NumberConstruction
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -74,6 +78,8 @@ kam visas rūtiṇas ir neiekrāsotas!
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -103,6 +109,8 @@ vienmēr var uzvarēt, neatkarīgi no Kates nosauktajiem skaitļiem!
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -140,6 +148,8 @@ priekšmets ir smagāks, tad atbilstošais kauss nosveras uz leju.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -187,6 +197,8 @@ ka iegūtā summa ir mazākā iespējamā.
 * _readingDifficulty: medium
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -210,6 +222,8 @@ summu tā, lai arī šo skaitḷu reizinājums būtu 299?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PrimeFactorization, NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption, PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -244,6 +258,8 @@ kam visas rūtiņas ir neiekrāsotas!
 * _readingDifficulty: medium
 * _domain: Geom
 * _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -273,6 +289,8 @@ drīkst iet arī vairāk nekā vienu reizi.
 * _readingDifficulty: medium
 * _domain: Comb,Geom
 * _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -315,6 +333,8 @@ kauss nosveras uz leju.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -353,6 +373,8 @@ redzamo figūru, kurai visas rūtiṇas ir neiekrāsotas?
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, UpperBoundWithoutExample
+* _mistakesFit: medium
 
 </small>
 
@@ -377,6 +399,8 @@ Atrodi visus iespējamos variantus un pamato, ka citu nav!
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PrimeFactorization, CompleteEnumeration, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: UnstatedNumberSetAssumption, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -420,6 +444,8 @@ Pierādīt, ka trijstūra $ABC$ divi leņk̦i ir vienādi!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: TriangleAngleSum, AngleChasing
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongAngleDecomposition, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -448,6 +474,8 @@ otrklasnieku. Cik varēja būt otrklasnieku?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence, RuleOfSumDisjointCases
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -483,6 +511,8 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: low
 
 </small>
 
@@ -509,6 +539,8 @@ ir divu skaitl!u, kas atrodas divos taisnstūros tieši zem tā, summa!
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: low
 
 </small>
 
@@ -538,6 +570,8 @@ ka skaitlis $x(x+1)$ dalās ar $74$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CoprimeFactorsDivisibility, PrimePropertiesAndUniqueness, DivisibilityByConsecutive
+* _hasReasoningMistake: WrongDivisibilityDirection, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -573,6 +607,8 @@ Aprēḳināt $\sphericalangle ACB$, ja $AB=CM$!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, AngleChasing, TriangleAngleSum, IsoscelesTriangleProperties, AuxiliaryLines
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -617,6 +653,8 @@ spēlētājas gājieniem?
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -647,6 +685,8 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -672,6 +712,8 @@ Aprēḳināt izteiksmes $\frac{20252024^{2}}{20252023^{2}+20252025^{2}-2}$ vēr
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, SubstitutionForSimplification, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -697,6 +739,8 @@ Atrast vismazāko naturālo skaitli $N$, kam reizinājums $1 \cdot 2 \cdot 3 \cd
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: PrimeFactorization, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: MissingBoundOrExample, NonCoprimeFactorDivisibility, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -737,6 +781,8 @@ Zināms, ka $BK=KL$. Pierādīt, ka trijstūris $ABC$ ir vienādsānu!
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, ConflatingPropertyAndCriterion
+* _mistakesFit: medium
 
 </small>
 
@@ -775,6 +821,8 @@ ierakstīto skaitlu summa ir viena un tā pati!
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -802,6 +850,8 @@ bumbiṇa krāsā $A$, kas atrodas pa kreisi no kādas bumbiṇas krāsā $B$
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 

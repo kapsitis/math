@@ -13,6 +13,8 @@ Braukšanas ātrums visā ceļa posmā bija viens un tas pats.
 * _hasSolutionConcept: DirectProportion, ArithmeticMean
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -41,6 +43,8 @@ palīgiem?
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -77,7 +81,9 @@ grozīt, bet nedrīkst apmest otrādi.
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, Tiling, Rotation, LatticeGrid
 * _readingDifficulty: low
-* _hasReasoningMethod: 
+* _hasReasoningMethod:
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -107,6 +113,8 @@ citu nav!
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisibilityRules, PrimeFactorization
 * _readingDifficulty: low
 * _hasReasoningMethod: PrimeFactorization, DivisibilityRules, ParityArgument, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -150,6 +158,8 @@ nav iespējams precīzi noteikt tajā esošā ūdens daudzumu.
 * _hasSolutionConcept: DivisionWithRemainder, MultiplesSet, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -189,6 +199,8 @@ eiro un otrās - $21$ eiro! (Pakas cena veidojas, saskaitot tajā ielikto
 * _hasSolutionConcept: EquationSystem, LinearEquation, RationalNumbers
 * _readingDifficulty: low
 * _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -215,6 +227,8 @@ darbības, var panākt, ka kādā brīdī visās lādēs būs vienāds skaits mo
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -247,6 +261,8 @@ Vai iespējams, ka neviena no šīm summām nav pirmskaitlis?
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: PrimeOnePointConfusion
+* _mistakesFit: low
 
 </small>
 
@@ -276,6 +292,8 @@ rūtiņu malām.
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: ColoringInvariant, CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -324,6 +342,8 @@ vērtības!
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: low
 * _hasReasoningMethod: CompleteEnumeration, PrimeFactorization
+* _hasReasoningMistake: UnstatedNumberSetAssumption, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -352,6 +372,8 @@ Atrisini vienādojumu $\frac{8a-5}{5}-\frac{2a-7}{2}=-3$.
 * _hasSolutionConcept: LinearEquation, RationalNumbers, VariableExpression
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -387,6 +409,8 @@ tieši $2015$ mājlopus?
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 * _hasReasoningMethod: InvariantMethod, ParityArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -432,6 +456,8 @@ Vai iespējams, ka visas iegūtās summas ir pirmskaitļi?
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, ChessboardColoring, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumberConstruction, ParityArgument, CompleteEnumeration
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -466,6 +492,8 @@ skaitlis?
 * _hasSolutionConcept: QuadrilateralFamilies, Tiling, PositiveIntegers, RationalNumbers, Counterexample
 * _readingDifficulty: low
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -498,6 +526,8 @@ atsvariem var noteikt katra veida monētu skaitu?
 * _hasSolutionConcept: FiniteSequenceArrangement, CaseAnalysis, DecisionTree
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -537,6 +567,8 @@ Pierādi, $ka$
 * _hasSolutionConcept: DivisibilityRelation, EvenOddParity, DivisibilityRules
 * _readingDifficulty: low
 * _hasReasoningMethod: FactoringAlgebraicExpressions
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -585,6 +617,8 @@ iespējams, ka "Šrotiņā" kāda mēneša $21.$ datumā būs tieši $2015$ maš
 * _hasSolutionConcept: DivisibilityRelation, Invariant, DivisibilityRules, DigitSum
 * _readingDifficulty: medium
 * _hasReasoningMethod: InvariantMethod, DivisibilityRules, ModularArithmetic
+* _hasReasoningMistake: CarelessModularComputation, WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -630,6 +664,8 @@ vismazākais, ja zināms, ka $a>b>c>d>0$? Pamato atbildi!
 * _hasSolutionConcept: LinearInequality, VariableExpression, PositiveAndNegative, TotalOrder
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, ProvingByEquivalenceChain
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -679,6 +715,8 @@ $\sphericalangle MAN+\sphericalangle MCN=60^{\circ}$.
 * _hasSolutionConcept: Triangle, Angle, TriangleCongruence, PointLineSegmentRay
 * _readingDifficulty: low
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -710,6 +748,8 @@ naturāls skaitlis. Vai kvadrāta $ABCD$ perimetrs noteikti ir naturāls skaitli
 * _hasSolutionConcept: QuadrilateralFamilies, PositiveIntegers, CountingSumRule
 * _readingDifficulty: low
 * _hasReasoningMethod: ParallelogramProperties
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -741,6 +781,8 @@ Atrisināt vienādojumu $\frac{5}{x^{2}-9}-\frac{1}{3-x}=\frac{1}{2}$.
 * _hasSolutionConcept: QuadraticEquation, VariableExpression, FunctionDomainRange, DiffOfSquaresFactoring
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: UncheckedConsistencyOfFoundValues, UnjustifiedCancellationOrCombination, RootLossByDivisionByExpression
+* _mistakesFit: medium
 
 </small>
 
@@ -793,6 +835,8 @@ ierakstīts skaitlis $2014$?
 * _hasSolutionConcept: EvenOddParity, Invariant, Polygon
 * _readingDifficulty: medium
 * _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -824,6 +868,8 @@ līdzīgos trijstūros?
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, TriangleSimilarity, ParallelPerpendicular, PositiveIntegers
 * _readingDifficulty: low
 * _hasReasoningMethod: SimilarTriangles, AuxiliaryLines
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: high
 
 </small>
 
@@ -879,6 +925,8 @@ izdarīt!
 * _hasSolutionConcept: ArithmeticMean, DivisibilityRelation, DivisionWithRemainder, MagicConfiguration, PositiveIntegers
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, ProofByContradictionInAlgebra, ParityOrModularArgumentForEquations, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -936,6 +984,8 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti!
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, CoordinatePlane, IrrationalAndReals
 * _readingDifficulty: low
 * _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 

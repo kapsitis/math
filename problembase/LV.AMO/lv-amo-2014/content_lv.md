@@ -17,6 +17,8 @@ dzeltenas, bet pārējās- zilas. Aprēķini:
 * _hasSolutionConcept: RationalNumbers, FiniteSet, Coloring, DirectProportion
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -45,6 +47,8 @@ gadīties, ka viens skaitlis ir tieši trīs reizes lielāks nekā otrs skaitlis
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit
 * _readingDifficulty: low
 * _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -76,6 +80,8 @@ nekā otra mala.
 * _hasSolutionConcept: Rectangle, PositiveIntegers, LinearEquation, EquationSystem
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -119,6 +125,8 @@ būt pagrieztas jebkurā stāvoklī)?
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -145,6 +153,8 @@ trīs, gan kā divu dažādu divciparu naturālu skaitļu reizinājumu?
 * _hasSolutionConcept: DivisibilityRelation, PositiveIntegers, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: low
 * _hasReasoningMethod: BoundingArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -179,6 +189,8 @@ pašai palika $1$ metrs makšķerauklas. Cik gara bija makšķeraukla pašā sā
 * _hasSolutionConcept: RationalNumbers, LinearEquation
 * _readingDifficulty: low
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -205,6 +217,8 @@ reizinājumi abās grupās ir vienādi?
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, SetPartition
 * _readingDifficulty: medium
 * _hasReasoningMethod: PrimePropertiesAndUniqueness, PrimeFactorization, ProofByContradiction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -234,6 +248,8 @@ Atbildi pamatot!
 * _hasSolutionConcept: VariableExpression, LinearEquation, LinearInequality
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -264,6 +280,8 @@ Aprēķināt iekšējā taisnstūra perimetru!
 * _hasSolutionConcept: PointLineSegmentRay, Polygon, QuadrilateralFamilies, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -295,6 +313,8 @@ iespējamais!
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -324,6 +344,8 @@ garums, ja $ED=4~\mathrm{cm}$ un $DC=5~\mathrm{cm}$ ?
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis, ProofByContradiction
+* _hasReasoningMistake: SkippingCaseAnalysis, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -369,6 +391,8 @@ $$a \cdot(3a+5b) \cdot 7b=7654321$$?
 * _hasSolutionConcept: WholeIntegers, EvenOddParity, ProofByContradiction
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityArgument, ProofByContradiction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -414,6 +438,8 @@ Visām skrūvēm svars ir vienāds, visām naglām arī.
 * _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, RationalNumbers
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumericalEstimation, ProofByContradictionInAlgebra, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: WrongDirectionOfInequalityChain, CaseAnalysisIncomplete, IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -467,6 +493,8 @@ Atrodiet visas iespējamās vērtības un pamatojiet, ka citu nav!
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, VariableExpression
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -507,6 +535,8 @@ līnijām.)
 * _hasSolutionConcept: LatticeGrid, Tiling, FiniteSet, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -539,6 +569,8 @@ Kurš skaitlis lielāks -- sākotnējais vai iegūtais?
 * _hasSolutionConcept: RationalNumbers, DigitRepresentation, PeriodicSequence, DivisionWithRemainder
 * _readingDifficulty: medium
 * _hasReasoningMethod: PeriodicSequence
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -587,6 +619,8 @@ to pirmo ciparu, samazinās $15$ reizes!
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DivisibilityRelation, PrimeNumbers
 * _readingDifficulty: medium
 * _hasReasoningMethod: PositionalNotation, PrimeFactorization, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: WrongDivisibilityDirection, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -629,6 +663,8 @@ ka, izvēloties jebkurus $5$ punktus, tie būs savienoti ar vismaz $3$ šķautn�
 * _hasSolutionConcept: GraphConcept, VertexDegree, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -671,6 +707,8 @@ $\sphericalangle ABC$ un $\sphericalangle CDE$ ir lielāks?
 * _hasSolutionConcept: PointLineSegmentRay, Angle, Triangle, TriangleCongruence, LatticeGrid
 * _readingDifficulty: low
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AuxiliaryLines, AngleChasing
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition
+* _mistakesFit: medium
 
 </small>
 
@@ -713,6 +751,8 @@ ierakstīts skaitlis **(A)** $7$, **(B)** $17$?
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem, ProofByContradiction
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, ProofByContradictionInAlgebra
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -765,6 +805,8 @@ kvadrāts (skat. 10.zīm.). Aprēķināt iekrāsoto daļu laukumu summu!
 * _hasSolutionConcept: Polygon, CircleAndDisk, PythagoreanTheorem
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, PythagoreanTheorem
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -803,6 +845,8 @@ var izveidot no šiem cipariem, summa ir $1276$. Atrast dotos četrus ciparus!
 * _hasSolutionConcept: DigitRepresentation, DigitSum, CountingProductRule, LinearEquation
 * _readingDifficulty: low
 * _hasReasoningMethod: PositionalNotation, CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -833,6 +877,8 @@ Zināms, ka $AC \| PQ$. Aprēķināt $\sphericalangle BAC$ vērtību!
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, CircleAndDisk, ParallelPerpendicular
 * _readingDifficulty: medium
 * _hasReasoningMethod: AngleChasing, CyclicQuadrilateral, ParallelLinesAngleProperties, TriangleAngleSum, AngleAtCenterAndCircumference, IsoscelesTriangleProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongAngleDecomposition, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -878,6 +924,8 @@ mazākais skaitlis, kas var būt ierakstīts tabulas centrālajā rūtiņā?
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete, IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -928,6 +976,8 @@ marsiešiem var būt $2014$?
 * _hasSolutionConcept: GraphConcept, VertexDegree, DivisibilityRelation, Invariant
 * _readingDifficulty: high
 * _hasReasoningMethod: FixedInvariantNumeric, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 

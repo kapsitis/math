@@ -15,6 +15,8 @@ Parādīt, kā no skaitļa $5$ var iegūt skaitli $21$, vairakkārt pielietojot 
 * _hasSolutionConcept: DigitRepresentation, StateSpaceProcess, PositiveIntegers
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -36,6 +38,8 @@ Cik rūtiņas liels ir kvadrāta $ABCD$ laukums (skat. 1.zīm.)?
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, LatticeGrid
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -62,6 +66,8 @@ cipariem $1,\ 2,\ 3,\ 4,\ 5,\ 7,\ 8$ izmantots tieši vienu reizi.
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, MultiplesSet
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction, DivisibilityRules, PositionalNotation
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -95,6 +101,8 @@ uzziedētu atšķirīgas krāsas tulpes un lai katrā rindā jebkuras trīs pēc
 * _hasSolutionConcept: Coloring, LatticeGrid, EvenOddParity, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -133,6 +141,8 @@ $2$: $11,\ 12,\ 22,\ 21$.)
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, ExhaustiveCheck, WalkPathCycle, EulerPath
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -155,6 +165,8 @@ summa dalās ar $5$.
 * _hasSolutionConcept: DigitSum, DivisibilityRelation, DigitRepresentation
 * _readingDifficulty: low
 * _hasReasoningMethod: NumberConstruction, DivisibilityRules
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -177,6 +189,8 @@ skaitlis $53421$?
 * _hasSolutionConcept: DigitRepresentation, TotalOrder, CountingProductRule, FiniteSequenceArrangement
 * _readingDifficulty: low
 * _hasReasoningMethod: RuleOfProductIndependentChoices
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -205,6 +219,8 @@ un riņķa līniju, kas krusto uzzīmētā daudzstūra katru malu tieši vienā 
 * _hasSolutionConcept: Polygon, CircleAndDisk, EvenOddParity, CaseAnalysis
 * _readingDifficulty: low
 * _hasReasoningMethod: ProofByContradiction
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -237,6 +253,8 @@ jebkuru divu blakus stāvošu skaitļu summa būtu pirmskaitlis?
 * _hasSolutionConcept: EvenOddParity, PrimeNumbers, Polygon, Invariant
 * _readingDifficulty: low
 * _hasReasoningMethod: ParityArgument, ProofByContradiction, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -267,6 +285,8 @@ var uzdot tieši vienu jautājumu, uz kuru viņš var atbildēt tikai ar "jā" v
 * _hasSolutionConcept: DecisionTree, ExhaustiveCheck, TotalOrder
 * _readingDifficulty: medium
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -314,6 +334,8 @@ vairākas reizes jebkādā secībā?
 * _hasSolutionConcept: DigitRepresentation, StateSpaceProcess, GraphConcept, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -340,6 +362,8 @@ starp kuriem ir astoņstūris.
 * _hasSolutionConcept: Polygon, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -363,6 +387,8 @@ skaitļu reizinājumus. Cik no šiem septiņiem reizinājumiem ir pozitīvi?
 * _hasSolutionConcept: PositiveAndNegative, FiniteSequenceArrangement, CircleAndDisk, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: medium
 * _hasReasoningMethod: ContradictionForImpossibility, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -398,6 +424,8 @@ Pierādīt, ka $1004041$ nav pirmskaitlis.
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DivisibilityRules, DigitRepresentation
 * _readingDifficulty: low
 * _hasReasoningMethod: PositionalNotation, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
@@ -435,6 +463,8 @@ ar malas garumu $2$ un kuros ierakstīto skaitļu summa ir vismaz $18$.
 * _hasSolutionConcept: Triangle, DissectionIntoCongruent, FiniteSet, PigeonholePrinciple
 * _readingDifficulty: low
 * _hasReasoningMethod: PigeonholePrinciple, PackingDisjointShapes
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -461,6 +491,8 @@ reizinātājiem ir lielāks nekā $1$.
 * _hasSolutionConcept: DiffOfSquaresFactoring, WholeIntegers
 * _readingDifficulty: low
 * _hasReasoningMethod: FactoringAlgebraicExpressions
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -485,6 +517,8 @@ Pierādīt, ka punkts $F$ ir malas $BC$ viduspunkts.
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, PointLineSegmentRay
 * _readingDifficulty: low
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -511,6 +545,8 @@ vieni.)
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitProduct, DigitRepresentation
 * _readingDifficulty: low
 * _hasReasoningMethod: DivisibilityRules, PositionalNotation
+* _hasReasoningMistake: WrongDivisibilityRule, WrongDivisibilityDirection
+* _mistakesFit: medium
 
 </small>
 
@@ -533,6 +569,8 @@ uzzīmētie punkti atrastos tieši $1~\mathrm{cm}$ attālumā.
 * _hasSolutionConcept: PointLineSegmentRay, CoordinatePlane, GraphConcept, VertexDegree
 * _readingDifficulty: low
 * _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -561,6 +599,8 @@ uzskatāmi par vienādiem.)
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, Rotation, AxialSymmetry
 * _readingDifficulty: medium
 * _hasReasoningMethod: CaseAnalysis, SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -586,6 +626,8 @@ $a+b=2012$. Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, IrrationalAndReals, CoordinatePlane
 * _readingDifficulty: low
 * _hasReasoningMethod: ParameterizedInvariantValue
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -608,6 +650,8 @@ izvēles.
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, PointLineSegmentRay
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: AreaWithoutPosition, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -634,6 +678,8 @@ katrā grupā būtu tieši $5$, $6$ vai $7$ cilvēki?
 * _hasSolutionConcept: NumberPartitions, DivisionWithRemainder, ExhaustiveCheck, PositiveIntegers
 * _readingDifficulty: low
 * _hasReasoningMethod: BruteForceCheckOverFiniteSet, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -672,6 +718,8 @@ divu iepriekšējo locekļu kvadrātu summas pēdējo ciparu.
 * _hasSolutionConcept: RecurrentSequence, PeriodicSequence, EvenOddParity, LastDigit
 * _readingDifficulty: low
 * _hasReasoningMethod: PeriodicSequence, ParityArgument, LastDigitAnalysis
+* _hasReasoningMistake: ExampleInsteadOfProof, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -706,6 +754,8 @@ ka šo skaitļu summa dalās ar $n$.
 * _hasSolutionConcept: CoprimeIntegers, DivisibilityRelation, PositiveIntegers, EvenOddParity
 * _readingDifficulty: low
 * _hasReasoningMethod: InvariantMethod
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 

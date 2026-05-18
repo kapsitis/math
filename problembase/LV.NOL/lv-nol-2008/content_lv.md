@@ -15,6 +15,8 @@ $$\mathbf{123456789=19}$$
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -40,6 +42,8 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 * _readingDifficulty: low
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -72,6 +76,8 @@ pārī meitene garāka par zēnu?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExtremalElementArgument
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -120,6 +126,8 @@ viena ar otru.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -146,6 +154,8 @@ virsotnes, kura malas vērstas bultiņu virzienos?
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -174,6 +184,8 @@ bija guvušas abas komandas kopā?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -200,6 +212,8 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -228,6 +242,8 @@ Vai eksistē tādi naturāli skaitļi $x$ un $y$, ka
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: ParityArgument, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -252,6 +268,8 @@ $1234567 \ldots$?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -281,6 +299,8 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -312,6 +332,8 @@ $x=a^{3},\ y=b^{4},\ a$ un $b$ - naturāli skaitļi?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction, PrimeFactorization
+* _hasReasoningMistake: UnstatedNumberSetAssumption, FactoringWithoutIntegerCondition, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -344,6 +366,8 @@ ka Maija noteikti ēd torti sev visizdevīgākajā veidā.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -371,6 +395,8 @@ vidējais svars ir $71~\mathrm{kg}$. Pierādīt, ka cīkstoņu skaits dalās ar 
 * _readingDifficulty: low
 * _domain: Alg,NT
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -402,6 +428,8 @@ Vai eksistē
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -427,6 +455,8 @@ no otra tieši par $1$. Kāda ir lielākā iespējamā $n$ vērtība?
 * _readingDifficulty: medium
 * _domain: Geom,NT
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant, ProofByContradiction
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -465,6 +495,8 @@ laimīgi. Pierādīt, ka viens no tiem dalās ar $10$.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: ParityArgument, ProofByContradiction, LastDigitAnalysis
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -494,6 +526,8 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -519,6 +553,8 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: UseTrivialInequalitiesAndAddThem, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -545,6 +581,8 @@ cepuri viņa valkāja iepriekšējā dienā?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: PeriodicSequenceForLongIndex
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -574,6 +612,8 @@ $K$. Pierādīt, ka $K$ atrodas uz $\sphericalangle ABC$ bisektrises.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, AngleChasing, IsoscelesTriangleProperties, ParallelLinesAngleProperties
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -602,6 +642,8 @@ $3^{32}-2^{32}$.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: FactoringAlgebraicExpressions, PrimeFactorization, CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -634,6 +676,8 @@ Kāds ir mazākais iespējamais $\triangle ABC$ laukums?
 * _hasReasoningMethod: AreaCounting, PythagoreanTheorem
 * _newReasoningMethodLabel: PerpendicularShortestDistance
 * _newReasoningMethodDescription: Perpendicular gives the shortest distance from a point to a line
+* _hasReasoningMistake: UpperBoundWithoutExample, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -668,6 +712,8 @@ $n$ reizes.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -697,6 +743,8 @@ sakņu kvadrātu summa vienāda ar otrā kvadrāttrinoma sakņu kvadrātu summu.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: VietasFormulas, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -729,6 +777,8 @@ ceļš, kura garums nav mazāks par $125 ~\mathrm{km}$.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: AveragingArgumentForExistenceOfElement, DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: DoubleCountingTheSameObject, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 

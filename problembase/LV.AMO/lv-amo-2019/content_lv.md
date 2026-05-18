@@ -16,6 +16,8 @@ perimetrs?
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, DirectProportion, RationalNumbers
 * _readingDifficulty: low
 * _hasReasoningMethod: ParallelogramProperties,ScalingByLinearRatio
+* _hasReasoningMistake: WrongAreaProportionality
+* _mistakesFit: medium
 
 </small>
 
@@ -52,6 +54,8 @@ pirmais vai otrais - vienmēr var uzvarēt?
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, Invariant, WinningLosingPositions
 * _readingDifficulty: medium
 * _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -81,6 +85,8 @@ kopā būtu tieši $6$ krustpunkti?
 * _hasSolutionConcept: PointLineSegmentRay, FiniteSet, GraphConcept, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -104,6 +110,8 @@ Pamato, ka tas ir mazākais iespējamais skaits!
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -135,6 +143,8 @@ visi tādi skaitļi un citu vairs nav!
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, DigitRepresentation, DivisibilityRelation, ExhaustiveCheck
 * _readingDifficulty: medium
 * _hasReasoningMethod: PrimeFactorization, PositionalNotation, CompleteEnumeration
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -168,6 +178,8 @@ $$\frac{16}{17}; \frac{441}{439}; \frac{11}{12}; \frac{391}{389}; \frac{21}{23}$
 * _hasSolutionConcept: RationalNumbers, TotalOrder
 * _readingDifficulty: low
 * _hasReasoningMethod: NumericalEstimation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: ConcreteToGeneralLeap, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -219,6 +231,8 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions, Invariant
 * _readingDifficulty: medium
 * _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -253,6 +267,8 @@ plkst. 14:00; **(B)** plkst. 13:40?
 * _hasSolutionConcept: Angle, Rotation
 * _readingDifficulty: low
 * _hasReasoningMethod: AngleChasing
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -290,6 +306,8 @@ apgāztas otrādi.
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
 * _readingDifficulty: low
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -314,6 +332,8 @@ naturālie skaitļi no $1$ līdz $99$) dalās ar $9$?
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitSum, DigitRepresentation
 * _readingDifficulty: low
 * _hasReasoningMethod: DivisibilityRules, CountingWithDigitalConstraints
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -350,6 +370,8 @@ pozitīvs, negatīvs skaitlis vai nulle!
 * _hasSolutionConcept: LinearFunction, LinearInequality, ParallelPerpendicular
 * _readingDifficulty: low
 * _hasReasoningMethod: UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -379,6 +401,8 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, SymmetryStrategy
 * _readingDifficulty: medium
 * _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -419,6 +443,8 @@ mazāki nekā $180^{\circ}$.
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
 * _hasReasoningMethod: PointOnSegmentConstruction, IsoscelesTriangleProperties, PerpendicularBisector, AuxiliaryLines
+* _hasReasoningMistake: UnjustifiedAuxiliaryLineExists, ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -450,6 +476,8 @@ no vienādiem regulāriem trijstūriem. Uzzīmē šādu piecstūri!
 * _hasSolutionConcept: Polygon, Triangle, DissectionIntoCongruent, Tiling
 * _readingDifficulty: medium
 * _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: low
 
 </small>
 
@@ -483,6 +511,8 @@ ciparu)?
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, DivisibilityRelation, PrimeFactorization, OptimumProofStructure
 * _readingDifficulty: high
 * _hasReasoningMethod: PrimeFactorization, LastDigitAnalysis, DivisibilityRules, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -542,6 +572,8 @@ malējiem stabiem. Cik bija stabu, ja viņš nostaigāja $840~\mathrm{m}$?
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ArithmeticProgression, QuadraticEquation, ExhaustiveCheck
 * _readingDifficulty: high
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -608,6 +640,8 @@ uzvarēt?
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
 * _readingDifficulty: medium
 * _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -641,6 +675,8 @@ $DE$ ir perpendikulārs $AF$.
 * _hasSolutionConcept: ParallelogramProperties, TriangleSpecialLines, ParallelPerpendicular, TriangleCongruence
 * _readingDifficulty: medium
 * _hasReasoningMethod: ParallelLinesAngleProperties, IsoscelesTriangleProperties, ParallelogramProperties
+* _hasReasoningMistake: UnstatedDirectionAssumption, RelyingOnDiagramAppearance, WrongAngleDecomposition
+* _mistakesFit: medium
 
 </small>
 
@@ -677,6 +713,8 @@ naturāla skaitļa kubs. Kādām $m$ vērtībām tas ir iespējams?
 * _hasSolutionConcept: GraphConcept, VertexDegree, PerfectCubes, EvenOddParity, HandshakeLemma
 * _readingDifficulty: high
 * _hasReasoningMethod: ConstructiveExampleForExistence, HandshakingLemmaSumOfDegreesEven, ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -727,6 +765,8 @@ nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PrimeFactorization, LastDigit, OptimumProofStructure
 * _readingDifficulty: high
 * _hasReasoningMethod: PrimeFactorization, LastDigitAnalysis, DivisibilityRules, BoundingArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -782,6 +822,8 @@ slīpas taisnes. Cik paralelogramu izveido šīs taisnes?
 * _hasSolutionConcept: ParallelogramProperties, ParallelPerpendicular, UnorderedSelection, CountingProductRule
 * _readingDifficulty: medium
 * _hasReasoningMethod: RuleOfSumDisjointCases, RuleOfProductIndependentChoices
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections, IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: high
 
 </small>
 
@@ -827,6 +869,8 @@ otrais - vienmēr var uzvarēt?
 * _hasSolutionConcept: Coloring, SymmetryStrategy, Invariant, GamePosition
 * _readingDifficulty: medium
 * _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -867,6 +911,8 @@ $QNBC$ ir rombs!
 * _hasSolutionConcept: Triangle, QuadrilateralFamilies, TriangleCongruence, ParallelogramProperties, TriangleSpecialLines
 * _readingDifficulty: medium
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, ParallelLinesAngleProperties, ParallelogramProperties, AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongAngleDecomposition, MisuseOfMidpointOrParallel
+* _mistakesFit: high
 
 </small>
 
@@ -923,6 +969,8 @@ būtu par $500290$ lielāks nekā sākotnējais. Atrast doto sešciparu skaitli!
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, Invariant, LinearEquation
 * _readingDifficulty: medium
 * _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger, InvariantMethod
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -977,6 +1025,8 @@ $$(\sqrt{2020}-2 \sqrt{2019}+\sqrt{2018})(\sqrt{2020}+\sqrt{2019})(\sqrt{2019}+\
 * _hasSolutionConcept: QuadraticEquation, IrrationalAndReals, DiffOfSquaresFactoring, SquareOfSumIdentity, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 

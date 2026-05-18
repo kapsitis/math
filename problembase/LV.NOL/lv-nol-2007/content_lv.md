@@ -13,6 +13,8 @@ Strēmelītes nedrīkst pārklāties.
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -44,6 +46,8 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -76,6 +80,8 @@ melnas rūtiņas?
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -105,6 +111,8 @@ pārī meitene garāka par zēnu?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExtremalElementArgument
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -148,6 +156,8 @@ dalās ar $61$.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -177,6 +187,8 @@ meļu?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -212,6 +224,8 @@ $n=11$, **(B)** $n=13$?
 * _readingDifficulty: medium
 * _domain: NT,Comb
 * _hasReasoningMethod: CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -244,6 +258,8 @@ starpā nedrīkst pārklāties.
 * _readingDifficulty: low
 * _domain: Geom,Comb
 * _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -270,6 +286,8 @@ septītniekus?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: DivisibilityRules, PrimeFactorization, ProofByContradiction
+* _hasReasoningMistake: WrongDivisibilityRule, PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
@@ -294,6 +312,8 @@ vismaz divi no bērniem nopirka vienu un to pašu nosaukumu sieriņus.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -331,6 +351,8 @@ $x=a^{5},\ y=b^{3}$, $a$ un $b$ - naturāli skaitļi?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -363,6 +385,8 @@ summa ir pozitīva. Katru $3$ pēc kārtas uzrakstīto skaitļu summa ir negatī
 * _hasReasoningMethod: NumberConstruction
 * _newReasoningMethodLabel: GroupingByFixedBlocks
 * _newReasoningMethodDescription: Partitioning a sequence into fixed-size consecutive groups
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -395,6 +419,8 @@ katru soli šķērsojot kādu divu melnu rūtiņu kopējo malu?
 * _readingDifficulty: low
 * _domain: Comb,Geom
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -419,6 +445,8 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: NumericalEstimation, IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -458,6 +486,8 @@ noskaidrot vismaz vienu viltoto monētu?
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: high
 
 </small>
 
@@ -496,6 +526,8 @@ skolēni pareizi izpildīja sev doto uzdevumu?
 * _readingDifficulty: medium
 * _domain: Alg
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -521,6 +553,8 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, FactorAndUseZeroProductRule, UseStandardIdentities
+* _hasReasoningMistake: RootLossByDivisionByExpression, UnjustifiedCancellationOrCombination, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -545,6 +579,8 @@ un $\sphericalangle OCA=\sphericalangle OAC$?
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: ProofByContradiction, IsoscelesTriangleProperties
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -575,6 +611,8 @@ kārtas ņemtiem naturāliem skaitļiem.
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument
+* _hasReasoningMistake: NonCoprimeFactorDivisibility, ConfusingDivisorAndMultiple, MissingBoundOrExample
+* _mistakesFit: high
 
 </small>
 
@@ -616,6 +654,8 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 * _readingDifficulty: medium
 * _domain: Geom,Comb
 * _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -641,6 +681,8 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 * _readingDifficulty: low
 * _domain: NT
 * _hasReasoningMethod: LastDigitAnalysis, PositionalNotation, NumberConstruction
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -665,6 +707,8 @@ $2x^{2}+2y^{2} \leq 5xy$.
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, ProvingByEquivalenceChain, UseStandardIdentities
+* _hasReasoningMistake: CircularReasoningOrAssumingTheConclusion, SignFlipForgottenInInequality, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -690,6 +734,8 @@ $\triangle ABC$ leņķu lielumus.
 * _readingDifficulty: low
 * _domain: Geom
 * _hasReasoningMethod: SimilarTriangles, AngleAtCenterAndCircumference, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance, ConflatingPropertyAndCriterion
+* _mistakesFit: high
 
 </small>
 
@@ -721,6 +767,8 @@ $n$ reizes.
 * _readingDifficulty: medium
 * _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, CountingViaSymmetryClasses
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -752,6 +800,8 @@ stūris, tad tajās ierakstīto skaitļu lielākais kopīgais dalītājs ir $1$.
 * _readingDifficulty: medium
 * _domain: NT,Comb
 * _hasReasoningMethod: PigeonholeInNT, ParityArgument, BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
