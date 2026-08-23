@@ -7,6 +7,11 @@ reizinājums būtu $119$?
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, NumberPartitions, PrimeFactorization
+* _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, PrimeFactorization
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -14,7 +19,6 @@ reizinājums būtu $119$?
 ## Atrisinājums
 
 Jā, piemēram $7$, $17$, un $95$ vieninieki.
-
 
 
 # <lo-sample/> LV.NOL.2011.5.2
@@ -27,6 +31,11 @@ Cik rūtiņas liels ir trijstūra $ABC$ laukums?
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: Triangle, LatticeGrid, Polygon
+* _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -41,7 +50,6 @@ Tātad $S(ABC)=S(AKLM)-S(ACM)-S(AKB)-S(CBL)= \\
 =3 \cdot 4-3-2-2=5$ rūtiņas (skat. 1.zīm.).
 
 ![](LV.NOL.2011.5.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2011.5.3
@@ -67,6 +75,11 @@ nevienā brīdī autobusā netika pārvadāts vairāk pasažieru kā autobusā i
 
 * questionType:FindAll
 * domain:Comb
+* _hasSolutionConcept: ExhaustiveCheck, FiniteSequenceArrangement, CaseAnalysis, LinearInequality
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -99,7 +112,6 @@ Analizēsim iespējamos šo maršrutu turpinājumus:
 Tātad vienīgais maršruts, kas apmierina visus noteikumus, ir $ACFDBEG$.
 
 
-
 # <lo-sample/> LV.NOL.2011.5.4
 
 Vai ir iespējams $5 \times 5$ rūtiņu kvadrātā izkrāsot dažas rūtiņas tā, ka katrā
@@ -110,6 +122,11 @@ $3 \times 3$ rūtiņu kvadrātā, kas ir lielā kvadrāta daļa, ir iekrāsotas 
 
 * questionType:ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
+* _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: low
 
 </small>
 
@@ -119,7 +136,6 @@ $3 \times 3$ rūtiņu kvadrātā, kas ir lielā kvadrāta daļa, ir iekrāsotas 
 **(A)** skat., piem., 2.zīm.; **(B)** skat., piem., 3.zīm.
 
 ![](LV.NOL.2011.5.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2011.5.5
@@ -133,6 +149,11 @@ laiks, pēc kura visas raganas būs iemācījušās visas jaunās burvestības?
 
 * questionType:FindOptimal
 * domain:Comb
+* _hasSolutionConcept: GraphConcept, OptimumProofStructure, FiniteSet
+* _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -151,7 +172,6 @@ Tā kā katru jauno burvestību pēc $2$ minūtēm var zināt augstākais $4$ ra
 $2$ minūtēm nepietiek.
 
 
-
 # <lo-sample/> LV.NOL.2011.6.1
 
 Vai naturālos skaitļus no $1$ līdz $21$ var sadalīt grupās tā, ka katrā grupā lielākais
@@ -161,6 +181,11 @@ skaitlis ir vienāds ar pārējo skaitļu summu?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: EvenOddParity, SetPartition, PositiveIntegers, ProofByContradiction
+* _readingDifficulty: low
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -173,7 +198,6 @@ attiecīgās grupas lielākais skaitlis). Taču visu doto skaitļu summa
 $1+2+3+\cdots+21=231$ ir nepāra skaitlis.
 
 
-
 # <lo-sample/> LV.NOL.2011.6.2
 
 Visi piecciparu naturālie skaitļi, kuru pierakstā katrs no cipariem $1, 2, 3, 4, 5$
@@ -184,6 +208,11 @@ $12345, 12354, 12435, \ldots$. Kurš pēc kārtas šajā virknē ir skaitlis $45
 
 * questionType:FindCount
 * domain:Comb
+* _hasSolutionConcept: DigitRepresentation, OrderedSelection, CountingProductRule, TotalOrder
+* _readingDifficulty: low
+* _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -193,7 +222,6 @@ $12345, 12354, 12435, \ldots$. Kurš pēc kārtas šajā virknē ir skaitlis $45
 Pavisam šajā virknē ir $5 \cdot 4 \cdot 3 \cdot 2 \cdot 1=120$ skaitļi. Interesējošais
 skaitlis ir pēdējais, kas sākas ar $4$, un pēc šī skaitļa virknē vēl ir $24$ skaitļi,
 kas sākas ar ciparu $5$. Tātad šajā virknē skaitlis $45321$ atrodas $96.$ vietā.
-
 
 
 # <lo-sample/> LV.NOL.2011.6.3
@@ -206,6 +234,11 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, WholeIntegers, LinearDiophantine, GCD
+* _readingDifficulty: low
+* _hasReasoningMethod: DiophantineEquations, NumberConstruction
+* _hasReasoningMistake: WrongDivisibilityDirection, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -215,7 +248,6 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka
 **(A)** nē, jo gan $12$, gan $8$ dalās ar $4$, bet $2$- nedalās.
 
 **(B)** jā; piemēram, $11 \cdot 4-7 \cdot 6=2$.
-
 
 
 # <lo-sample/> LV.NOL.2011.6.4
@@ -229,6 +261,11 @@ vienādās daļās tā, lai katrā no tām būtu pa vienam melnam un pa vienam b
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, FiniteSet
+* _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy, AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -238,7 +275,6 @@ vienādās daļās tā, lai katrā no tām būtu pa vienam melnam un pa vienam b
 Skat., piem., 4.zīm.
 
 ![](LV.NOL.2011.6.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2011.6.5
@@ -252,6 +288,11 @@ visas rūtiņas ir neizkrāsotas.
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_GridColoring
+* _hasSolutionConcept: Coloring, LatticeGrid, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -261,7 +302,6 @@ visas rūtiņas ir neizkrāsotas.
 Skat., piem., 5.zīm.
 
 ![](LV.NOL.2011.6.5A.png)
-
 
 
 # <lo-sample/> LV.NOL.2011.7.1
@@ -275,6 +315,11 @@ Atrodiet skaitļa $1^{2}+2^{2}+\cdots+99^{2}$ pēdējo ciparu.
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_Congruences
+* _hasSolutionConcept: LastDigit, DigitRepresentation, PerfectSquares, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: LastDigitAnalysis
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: high
 
 </small>
 
@@ -292,7 +337,6 @@ tātad meklētās summas pēdējais cipars ir nulle.
 Iegūstam $(1+4+9+6)\cdot 2 + 5 = 5$.)
 
 
-
 # <lo-sample/> LV.NOL.2011.7.2
 
 Cik ir tādu naturālu skaitļu $n$ no $1$ līdz $2011$ ieskaitot, ka skaitlis
@@ -305,6 +349,11 @@ $(n+1)(n+2)(n+3)$ dalās ar $125$?
 * questionType:FindCount
 * domain:NT
 * subdomain:DOM_Divisibility
+* _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, CountingProductRule
+* _readingDifficulty: low
+* _hasReasoningMethod: PrimeFactorization, BoundingArgument
+* _hasReasoningMistake: IncompleteResidueCases, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -316,10 +365,6 @@ $n+1 ; n+2 ; n+3$ jādalās ar $5$ . Tā kā skaitļi, kas dalās ar $5$, atšķ
 otra vismaz par $5$, tad tieši viena iekava dalās ar $125$. Šī iekava ir viens no
 skaitļiem $125 \cdot k$, kur $k=1,2,3, \ldots, 16$, jo jau $125 \cdot 17 > 2011$.
 Tāpēc meklējamo skaitļu ir $16 \cdot 3=48$.
-
-
-
-
 
 
 # <lo-sample/> LV.NOL.2011.7.3
@@ -334,6 +379,11 @@ reizinājumus. Cik no tiem ir pozitīvi?
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * topic:CountingUsingSymmetry
+* _hasSolutionConcept: PositiveAndNegative, FiniteSequenceArrangement, ProofByContradiction, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -356,7 +406,6 @@ trīs triju blakusstāvošu skaitļu reizinājumi satur reizinātāju $e$, tāta
 $0$. Tātad tieši viens no šiem reizinājumiem ir pozitīvs.
 
 
-
 # <lo-sample/> LV.NOL.2011.7.4
 
 Vai $8 \times 8$ rūtiņas lielā kvadrātā var aizkrāsot **(A)** $16$ rūtiņas, **(B)**
@@ -370,6 +419,11 @@ rūtiņām sauksim rūtiņas, kurām ir kopīgs vismaz viens punkts).
 * subdomain:DOM_GridColoring
 * method:MTH_PigeonholePrincipleBasic
 * topic:SquareGridShapes
+* _hasSolutionConcept: PigeonholePrinciple, LatticeGrid, Coloring
+* _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrinciple, PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -383,7 +437,6 @@ rūtiņām sauksim rūtiņas, kurām ir kopīgs vismaz viens punkts).
 **(B)** Nē, nevar. Kvadrātu $8 \times 8$ rūtiņas sadalām $16$ kvadrātiņos ar izmēriem
 $2 \times 2$ rūtiņas. Vismaz vienā no tiem būs vismaz divas aizkrāsotās rūtiņas, bet
 tās ir blakusrūtiņas.
-
 
 
 # <lo-sample/> LV.NOL.2011.7.5
@@ -403,6 +456,11 @@ procenti pilsētas iedzīvotāju ir godīgie iedzīvotāji un cik blēži?
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:FormingEquations
+* _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, EquationSystem, RationalNumbers
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, SystemOfEquationsAdditionOrSubstitution
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -422,7 +480,6 @@ Saskaitot šīs vienādības, iegūstam $g+3b=154\%$, tātad $2b=54\%$ jeb $b=27
 $g=73\%$.
 
 
-
 # <lo-sample/> LV.NOL.2011.8.1
 
 Piecciparu skaitlis $B$ ir iegūts no mazāka piecciparu skaitļa $A$, samainot vietām tā
@@ -437,6 +494,11 @@ ciparus. Pierādīt, ka $B-A$ dalās ar $9$.
 * domain:NT
 * subdomain:DOM_Divisibility
 * method:MTH_PolynomialTransformations
+* _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum
+* _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, DivisibilityRules, TelescopingAndIdentity
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -459,9 +521,6 @@ Ja atņem divus skaitļus ar vienādiem atlikumiem, to starpība $B-A$
 dalās ar $9$ bez atlikuma.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2011.8.2
 
 Zināms, ka skaitlis $1$ ir vienādojuma $x^{2}+px+q=0$ sakne. Ar ko ir vienāda summa
@@ -472,6 +531,11 @@ $p+q$?
 * questionType:FindAll
 * domain:Alg
 * topic:QuadraticEquationRootConditions
+* _hasSolutionConcept: QuadraticEquation, PolynomialAndRoots, VariableExpression
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -479,7 +543,6 @@ $p+q$?
 ## Atrisinājums
 
 Ievietojot $x=1$, iegūstam $1+p+q=0$ jeb $p+q=-1$.
-
 
 
 # <lo-sample/> LV.NOL.2011.8.3
@@ -492,6 +555,11 @@ ir malas $BC$ viduspunkts.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
+* _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -504,7 +572,6 @@ $\sphericalangle BEF=180^{\circ}-30^{\circ}-120^{\circ}=30^{\circ}$, tātad
 $\triangle EBF$- vienādsānu un $BF=EF=FC$ (skat. 7.zīm.)
 
 ![](LV.NOL.2011.8.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2011.8.4
@@ -522,6 +589,11 @@ ir vienādi taisnstūri.)
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: QuadrilateralFamilies, LatticeGrid, OptimumProofStructure, ProofByContradiction, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: ProofByContradiction, AreaCounting
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -544,7 +616,6 @@ dažādo taisnstūru skaits, kuros figūru var sagriezt.
 ![](LV.NOL.2011.8.4A.png)
 
 
-
 # <lo-sample/> LV.NOL.2011.8.5
 
 Pilsētā, kurā dzīvo godīgie iedzīvotāji (kas vienmēr runā tikai taisnību) un blēži (kas
@@ -561,6 +632,11 @@ partiju?
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, LinearEquation, ArithmeticMean
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, SystemOfEquationsAdditionOrSubstitution, CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -579,7 +655,6 @@ un $b=16 \%$. Tātad par partiju $A$ ir balsojuši $17 \%$, par $B$- $28 \%$, pa
 $C$- $39\%$, par $D$- $16 \%$ iedzīvotāju.
 
 
-
 # <lo-sample/> LV.NOL.2011.9.1
 
 Apskatām funkcijas $y=ax^{2}+x+b$, kur $a$ un $b$- reāli skaitļi, pie tam $a+b=2011$.
@@ -589,6 +664,11 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti.
 
 * questionType:Prove
 * domain:Alg
+* _hasSolutionConcept: QuadraticFunction, FunctionConcept, IrrationalAndReals, CoordinatePlane
+* _readingDifficulty: low
+* _hasReasoningMethod: ParameterizedInvariantValue, ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -597,7 +677,6 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti.
 
 Ja $x=1$, tad $y=a+1+b=2012$. Ja $x=-1$, tad $y=a-1+b=2010$. Tātad punkti $(1; 2012)$
 un $(-1 ; 2010)$ pieder visu minēto funkciju grafikiem.
-
 
 
 # <lo-sample/> LV.NOL.2011.9.2
@@ -612,6 +691,11 @@ $\sphericalangle ADE=2 \sphericalangle ABE$. Aprēķināt $\sphericalangle ABE$ 
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: Angle, QuadrilateralFamilies, CircleAndDisk, Triangle, TriangleCongruence
+* _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, CongruentTriangles, TriangleAngleSum
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition
+* _mistakesFit: high
 
 </small>
 
@@ -633,7 +717,6 @@ $\sphericalangle ABE=15^{\circ}$.
 ![](LV.NOL.2011.9.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2011.9.3
 
 Aplī uzrakstīti $k$ dažādi naturāli skaitļi. Starp tiem pāra skaitļu ir trīs reizes
@@ -645,6 +728,11 @@ mazākā iespējamā $k$ vērtība?
 
 * questionType:FindOptimal
 * domain:Comb
+* _hasSolutionConcept: EvenOddParity, DivisibilityRelation, CircleAndDisk, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -662,7 +750,6 @@ Piemērs parāda, ka $12$ skaitļus var izvietot atbilstoši uzdevuma nosacījum
 ![](LV.NOL.2011.9.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2011.9.4
 
 Pierādīt, ka nav tādu naturālu skaitļu $a, x$, $y$ un $z$, ka
@@ -672,6 +759,11 @@ $7^{a}=7^{x}+7^{y}+7^{z}$.
 
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, LinearInequality, ProofByContradiction
+* _readingDifficulty: low
+* _hasReasoningMethod: BoundingArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -684,7 +776,6 @@ Ja dotā vienādība izpildās, tad $a > x, a > y$ un $a > z$. Naturāliem skait
 Tātad
 $7^{a}=7 \cdot 7^{a-1}=4 \cdot 7^{a-1}+7^{a-1}+7^{a-1}+7^{a-1} > 7^{x}+7^{y}+7^{z}$ un
 nav tādu naturālu skaitļu $a, x, y, z$, ka $7^{a}=7^{x}+7^{y}+7^{z}$.
-
 
 
 # <lo-sample/> LV.NOL.2011.9.5
@@ -700,6 +791,11 @@ t.i., iegūs $1.$ vietu?
 
 * questionType:FindOptimal
 * domain:Comb
+* _hasSolutionConcept: TotalOrder, FiniteSet, OptimumProofStructure, PigeonholePrinciple
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -719,7 +815,6 @@ Pierādīsim, ka $N$ nevar būt lielāks par $7$. Ja $N$ būtu $8$, tad katrā b
 tikai viena sportiste būtu zaudējusi Maijai un kopumā būtu tikai četras sportistes no
 astoņām, kas kopvērtējumā varētu būt zaudējušas Maijai, tātad Maija kopvērtējumā
 nevarētu būt ieguvusi augstākais $5.$ vietu.
-
 
 
 # <lo-sample/> LV.NOL.2011.10.1
@@ -746,7 +841,6 @@ Tā kā $(s-t)^{2} \geq 0,(s-u)^{2} \geq 0$ un $(t-u)^{2} \geq 0$, tad
 $3s^{2} \geq p^{2}-3t^{2}-3u^{2}$, k.b.j.
 
 
-
 # <lo-sample/> LV.NOL.2011.10.2
 
 Trijstūrī $ABC$ novilkts augstums $AD$. Zināms, ka $AC > AB$. Pierādīt, ka
@@ -770,7 +864,6 @@ Ja $\triangle ABC$ ir platleņķa trijstūris un $AD$ atrodas ārpus trijstūra 
 pierādāmais apgalvojums tieši seko no trijstūra nevienādības trijstūrī $ABC$.
 
 ![](LV.NOL.2011.10.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2011.10.3
@@ -806,7 +899,6 @@ b. $[3x]=10 ; 10x=41, x=4.1$- neder, jo $[x] \neq 3$;
 c. $[3x]=11 ; 11x=41, x=3 \frac{8}{11}$- der (nepieciešama pārbaude).
 
 
-
 # <lo-sample/> LV.NOL.2011.10.4
 
 Trijstūris $ABC$ ir vienādsānu ($AB=BC$) un $\sphericalangle ABC=30^{\circ}$. Uz malas
@@ -832,7 +924,6 @@ Apzīmēsim $AB=BC=2a$, tad $FC=BF=a$. Tad $S_{CEF}=\frac{\sqrt{3}}{4}a^2$ un
 
 $S_{ABC}=\frac{1}{2} \cdot 2a \cdot 2a \cdot \sin 30^{\circ}=a^{2}$. Tātad
 $\frac{S_{CEF}}{S_{ABC}}=\frac{\sqrt{3}}{4}$.
-
 
 
 # <lo-sample/> LV.NOL.2011.10.5
@@ -876,7 +967,6 @@ deviņas- ceturtajā). Tātad zemākā Jāņa komandas ieņemtā vieta kopvērt�
 (Jāparāda piemērs, kad tas var realizēties.)
 
 
-
 # <lo-sample/> LV.NOL.2011.11.1
 
 Pierādīt, ka visiem reāliem $x, y$
@@ -900,8 +990,6 @@ $$2x^{2}+2y^{2}+8 \geq 4x+4y+2xy.$$
 To savukārt var pārveidot par triju kvadrātu summu:
 
 $$(x-y)^{2}+(x-2)^{2}+(y-2)^{2} \geq 0.$$
-
-
 
 
 # <lo-sample/> LV.NOL.2011.11.2
@@ -932,7 +1020,6 @@ ka arī trijstūru $AEF$ un $CEF$ laukumi ir vienādi. Tad
 $S_{ADE}=S_{AEF}+S_{DEF}=S_{CEF}+S_{BEF}=S_{BCF}$, k.b.j.
 
 ![](LV.NOL.2011.11.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2011.11.3
@@ -994,7 +1081,6 @@ z=-4 \sqrt{3}-1
 \end{array}\right.\right.$$
 
 
-
 # <lo-sample/> LV.NOL.2011.11.4
 
 Zināms, ka $a$ un $b$ ir naturāli skaitļi, pie tam $a^{b}+1$ dalās ar $21$. Kāda ir
@@ -1021,7 +1107,6 @@ pārbaudīt šādas $b$ vērtības: $1, 3 , 5, 7$. Ja $b=1$, tad $a \geq 20$ un 
 $b=7$, tad $a > 1$ un $a+b > 8$. Tāpēc ja summa $a+b$ ir minimāla, tad $b$ ir $3$ vai $5$.
 Tālāka pārbaude rāda, ka ja $a^{3}+1$ dalās ar $21$, tad $a \geq 5$ un ja $a^{5}+1$
 dalās ar $21$, tad $a \geq 4$. Tāpēc $S \geq 8$, no kurienes seko, ka $S=8$.
-
 
 
 # <lo-sample/> LV.NOL.2011.11.5
@@ -1051,7 +1136,6 @@ pie tam tie sadalās $k$ grupiņās pa trim $(L, L, 0)$.
 
 Tātad visu skaitļu summa ir $10=2L \cdot k$, bet uzrakstīto skaitļu skaits $n=3k$.
 $Lk=5$, tātad $k=1$ vai $k=5$ un $n=3$ ($L=5$) vai $n=15$ ($L=1$).
-
 
 
 # <lo-sample/> LV.NOL.2011.12.1
@@ -1087,7 +1171,6 @@ iegūstam $9$ atrisinājumus
 $(1; 1),(1;-1),(-1; 1),(-1;-1),(1; 0)$, $(-1; 0),(0; 1),(0;-1),(0; 0)$.
 
 
-
 # <lo-sample/> LV.NOL.2011.12.2
 
 Trijstūrī $ABC$ caur patvaļīgu malas $BC$ iekšējo punktu $P$ tiek vilktas taisnes
@@ -1114,7 +1197,6 @@ $S(NBP)=\frac{1}{2} NP \cdot h_{2}=\frac{1}{2} S(AMPN)$, jo augstums no $B$ pret
 ir vienāds ar augstumu no $A$ pret $NP$, jo $AB || NP$.
 
 ![](LV.NOL.2011.12.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2011.12.3
@@ -1159,7 +1241,6 @@ Līdz ar to, ja $n$ ir nepāra skaitlis, tad $n^{2}$ satur vismaz vienu pāra ci
 visu ciparu reizinājums ir pāra skaitlis, tātad nav vienāds ar $n$.
 
 
-
 # <lo-sample/> LV.NOL.2011.12.4
 
 Taisnstūrveida rūtiņu tabula sastāv no $n$ rindām un $2011$ kolonnām. Tās rūtiņās
@@ -1198,7 +1279,6 @@ Ja $N=1$, tabulas aizpildījums var būt šāds:
 | $2009$   |
 | $2010$   |
 | $2010$   |
-
 
 
 # <lo-sample/> LV.NOL.2011.12.5

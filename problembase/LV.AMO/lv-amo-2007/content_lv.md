@@ -7,7 +7,12 @@ kļūst skaidrs, kurās kastēs ir āboli?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: FiniteSet, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -25,7 +30,6 @@ atvēršanas viss ir skaidrs (neatkarīgi no tā, vai atrasti $4$ vai $5$ āboli
 un desmitā kaste nemaz nav jāatver.
 
 
-
 # <lo-sample/> LV.AMO.2007.5.2
 
 Pa apli stāv Andris, Dzintars, Gunārs, Juliata, Maija un Skaidrīte. Visi 
@@ -36,7 +40,12 @@ apli".)
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: FiniteSet, GraphConcept, FunctionConcept, ProofByContradiction
+* _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -59,7 +68,6 @@ $F$, kas arī nosaukts divas reizes, pie tam $E$ un $F$ nosaukuši viens otru -
 pretruna.
 
 
-
 # <lo-sample/> LV.AMO.2007.5.3
 
 Uz kādas planētas tiek lietotas $2007$ dažādas valodas. Kāds mazākais daudzums 
@@ -69,8 +77,13 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Comb
+* _hasSolutionConcept: GraphConcept, DirectedGraph, OptimumProofStructure
+* _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -87,7 +100,6 @@ vārdnīcām pietiek.
 ![](LV.AMO.2007.5.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2007.5.4
 
 Dotas $4$ pēc ārēja izskata vienādas lodītes. Uz tām uzrakstīts attiecīgi " $1$
@@ -98,7 +110,12 @@ sviras svariem bez atsvariem atrast šo lodīti?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: DecisionTree, Invariant, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -122,7 +139,6 @@ Ja svēršanās uz leju nosveras dažādi kausi (vienā svēršanā viens, otrā
 tad īpašā lodīte ir ![](LV.AMO.2007.5.4E.png).
 
 
-
 # <lo-sample/> LV.AMO.2007.5.5
 
 Kādā vislielākajā daudzumā dažādu gabalu var sagriezt kvadrātu ar izmēriem 
@@ -132,8 +148,13 @@ dažādiem, ja tos nevar novietot tā, lai tie pilnīgi sakristu viens ar otru.
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: FiniteSet, ExhaustiveCheck, OptimumProofStructure, DissectionIntoCongruent
+* _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis, ProofByContradiction
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -153,7 +174,6 @@ gabalu nevar būt. Tas, ka $10$ gabali var būt, redzams 5.zīm.
 ![](LV.AMO.2007.5.5B.png)
 
 
-
 # <lo-sample/> LV.AMO.2007.6.1
 
 Trīsciparu skaitļa $x$ simtu cipars ir $a$, desmitu cipars ir $b$ un vienu 
@@ -163,7 +183,12 @@ izteiksme $2a+3b+c$ dalās ar $7$.
 <small>
 
 * questionType:
-* domain:
+* domain:NT
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, DivisibilityRules
+* _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -171,7 +196,6 @@ izteiksme $2a+3b+c$ dalās ar $7$.
 
 Ievērojam, ka 
 $\overline{abc}=100a+10b+c=(98a+7b)+(2a+3b+c)=7(14a+b)+(2a+3b+c)$.
-
 
 
 # <lo-sample/> LV.AMO.2007.6.2
@@ -187,7 +211,12 @@ divos gadījumos:
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
+* _hasSolutionConcept: EquationSystem, RationalNumbers, PositiveAndNegative, FiniteSet
+* _readingDifficulty: medium
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, IntroduceVariablesAndFormEquation, CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -200,7 +229,6 @@ daļu no visu skaitļu summas. Tātad tie visi ir vienādi; tātad to ir $11$
 
 **(B)** skaitļu sistēmas $(0; 0),\ (0; 0; 0),\ (0; 0; 0; 0)$ utt. apmierina 
 uzdevuma prasības.
-
 
 
 # <lo-sample/> LV.AMO.2007.6.3
@@ -216,7 +244,12 @@ būtu vienādi, ja sākotnējais izvietojums ir tāds, kāds parādīts 1.zīm. 
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
+* _hasSolutionConcept: Invariant, EvenOddParity, ChessboardColoring, LatticeGrid
+* _readingDifficulty: high
+* _hasReasoningMethod: ParityOrModularArgumentForEquations,InvariantByColoring
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -245,7 +278,6 @@ Bet, ja visi skaitļi kļūtu vienādi, tad abām šīm summām arī būtu jāk�
 vienādām.
 
 
-
 # <lo-sample/> LV.AMO.2007.6.4
 
 Kvadrāts sastāv no $8 \times 8$ rūtiņām. Kādu mazāko daudzumu rūtiņu var 
@@ -256,7 +288,12 @@ stūris ar kādu atzīmēto?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: LatticeGrid, FiniteSet, OptimumProofStructure, Invariant
+* _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -275,8 +312,6 @@ krustiņš, nebūtu ne kopīgas malas, ne kopīga stūra ne ar vienu atzīmēto.
 Tātad vismaz $9$ rūtiņas (pa vienai katrā apgabalā) jāatzīmē.
 
 
-
-
 # <lo-sample/> LV.AMO.2007.6.5
 
 Seši rūķīši brīvdienās apciemo cits citu. Katru dienu daži rūķīši sēž mājās un 
@@ -287,7 +322,12 @@ rūķītis varētu apciemot katru citu?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: GraphConcept, FiniteSet, CountingProductRule, OptimumProofStructure
+* _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -318,7 +358,6 @@ Redzam, ka vienā dienā nevar notikt vairāk par $9$ apciemojumiem, bet
 $9 \cdot 3=27<30$, tātad ar $3$ dienām nepietiek.
 
 
-
 # <lo-sample/> LV.AMO.2007.7.1
 
 Kādu lielāko daudzumu dažādu ciparu var izrakstīt pa apli tā, lai katri divi 
@@ -333,6 +372,12 @@ pierakstu?
 * questionType:FindOptimal
 * seeAlso:LV.AMO.2008.7.2
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, DigitRepresentation, GraphConcept, WalkPathCycle
+* _readingDifficulty: high
+* _domain: NT,Comb
+* _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -356,8 +401,6 @@ $(7,9)$. Četru ciparu cikla nav, jo ciparam $9$ ir tikai viens kaimiņš.
 Tādēļ garākais ir trīs ciparu cikls $1-3-7-1$.
 
 
-
-
 # <lo-sample/> LV.AMO.2007.7.2
 
 Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat. 
@@ -369,6 +412,12 @@ Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleCongruence, Angle
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -381,7 +430,6 @@ $\triangle EAC=\triangle DAB$ pēc pazīmes $\mathbf{m \ell m}$, un no tā seko,
 ka $EC=DB$.
 
 ![](LV.AMO.2007.7.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2007.7.3
@@ -402,6 +450,12 @@ spēlēts pietiekoši ilgi).
 * subdomain:DOM_NumericGamesAndAlgorithms
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DigitSum, Invariant, GamePosition
+* _readingDifficulty: high
+* _domain: NT,Comb
+* _hasReasoningMethod: GameInvariantsInNT, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -418,7 +472,6 @@ barjerām. Tāpēc Maija tos visus pakāpeniski varēs nodzēst (ja tas nebūs n
 jau agrāk).
 
 
-
 # <lo-sample/> LV.AMO.2007.7.4
 
 Divpadsmit cilvēku grupā katrs pazīst tieši $7$ citus (ja $A$ pazīst $B$, tad 
@@ -429,6 +482,12 @@ citu.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, VertexDegree, PigeonholePrinciple
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleBasic, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: medium
 
 </small>
 
@@ -438,7 +497,6 @@ Izvēlēsimies divus pazīstamus cilvēkus $A$ un $B$. Katrs no tiem pazīst vē
 sešus citus. Tā kā $6+6>10$, tad starp pārējiem $10$ cilvēkiem atradīsies tāds,
 kas ietilpst gan $A$ "pārējo $6$ paziņu" grupā, gan $B$ "pārējo $6$ paziņu" 
 grupā. Šo cilvēku varam ņemt par $C$.
-
 
 
 # <lo-sample/> LV.AMO.2007.7.5
@@ -452,6 +510,12 @@ starpība?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, LinearInequality, OptimumProofStructure
+* _readingDifficulty: high
+* _domain: Alg
+* _hasReasoningMethod: NumericalEstimation, IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: WrongDirectionOfInequalityChain, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -476,7 +540,6 @@ tad $\mathbf{S} \leq \mathbf{x_{2}}+\mathbf{12}$. No izceltajām nevienādībām
 seko $x_{1}+10 \leq x_{2}+12$ un tālāk $x_{1}-x_{2} \leq 2$, k.b.j.
 
 
-
 # <lo-sample/> LV.AMO.2007.8.1
 
 Kvadrātvienādojuma $x^{2}+px+q=0$ saknes ir $x_{1}$ un $x_{2}$, bet 
@@ -488,6 +551,12 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticEquation, VietasFormulas, VariableExpression
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, VietasFormulas
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: low
 
 </small>
 
@@ -496,7 +565,6 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 No dotā seko, ka vienādojumam $x^{2}+px+q=x^{2}+ax+b$ jeb $(p-a)x=b-q$ nav 
 atrisinājuma. Tātad $p=a$ (un $b \neq q$, bet mums tas nav svarīgi). No $p=a$ 
 un Vjeta teorēmas seko vajadzīgais.
-
 
 
 # <lo-sample/> LV.AMO.2007.8.2
@@ -509,6 +577,12 @@ Aprēķināt **(A)** $\sphericalangle MCB$, **(B)** $\sphericalangle MBC$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, Angle, TriangleSpecialLines, TriangleCongruence
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, CongruentTriangles, AuxiliaryLines, PerpendicularBisector, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: high
 
 </small>
 
@@ -536,7 +610,6 @@ $\sphericalangle MDB=180^{\circ}-60^{\circ}=120^{\circ}$, tad
 $\sphericalangle \mathbf{MBC}=\frac{\mathbf{1}}{\mathbf{2}}\left(\mathbf{180^{\circ}}-\mathbf{120^{\circ}}\right)=\mathbf{30^{\circ}}$.
 
 
-
 # <lo-sample/> LV.AMO.2007.8.3
 
 Juliata iedomājās naturālu skaitli, sareizināja visus tā ciparus un iegūto 
@@ -551,6 +624,12 @@ $1716$. Kādu skaitli viņa iedomājās sākumā?
 * subdomain:DOM_DigitManipulation
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: DigitProduct, DivisibilityRelation, PrimeNumbers, DigitRepresentation
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: PrimePropertiesAndUniqueness, CompleteEnumeration, PrimeFactorization
+* _hasReasoningMistake: ConfusingDivisorAndMultiple, WrongDivisibilityDirection, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -562,7 +641,6 @@ $1716$. Kādu skaitli viņa iedomājās sākumā?
 ir pirmskaitļi un nevar būt cipari, tad Juliatas iedomātais skaitlis dalās ar 
 $11 \cdot 13=143$. Tad tas ir $143 \cdot x$, kur $x$ - skaitļa $12$ naturāls 
 dalītājs. Pārbaude parāda, ka der tikai $x=1$.
-
 
 
 # <lo-sample/> LV.AMO.2007.8.4
@@ -583,6 +661,12 @@ Dzintars savā starpā nesazinās un nespiego, ko dara skatītājs.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, PigeonholePrinciple, FiniteSet
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleBasic, ConstructiveExampleForExistence
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -601,7 +685,6 @@ divām no tām skaitļiem pēdējie cipari ir vienādi savā starpā, bet uz tre
 pēdējais cipars ir citāds. Šo kartīti Dzintars arī norāda.
 
 
-
 # <lo-sample/> LV.AMO.2007.8.5
 
 Kvadrāts sastāv no $9 \times 9$ rūtiņām, kas izkrāsotas šaha galdiņa kārtībā; 
@@ -617,6 +700,12 @@ figūriņas sākuma pozīciju.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: ChessboardColoring, LatticeGrid, Invariant, OptimumProofStructure
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, RuleOfSumDisjointCases
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -642,7 +731,6 @@ no sākuma pozīcijas; lai realizētu atlikušās $24$ ieiešanas, atkal vajag v
 $24-16=8$ "liekus" gājienus, un kopējais gājienu skaits ir vismaz $40+8=48$.
 
 
-
 # <lo-sample/> LV.AMO.2007.9.1
 
 Kvadrātveida tabula sastāv no $10 \times 10$ rūtiņām. Katrā rūtiņā ierakstīts 
@@ -655,6 +743,12 @@ gadīties, ka tieši $19$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 * concepts:divisibility
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DigitSum, DivisibilityRules, ProofByContradiction
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, ProofByContradiction
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -667,7 +761,6 @@ $3$, izveidots no kādas kolonnas cipariem (otrs gadījums analoģisks). Tad kat
 rindiņā ciparu summa dalās ar $3$. Tāpēc arī visu ierakstīto ciparu summa dalās
 ar $3$. Savukārt deviņās kolonnās ciparu summas dalās ar $3$, bet vienā - nē; 
 tāpēc arī visu ciparu summa nedalās ar $3$. Iegūta pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2007.9.2
@@ -683,6 +776,12 @@ punktos $M,\ K$ un $N$. Pierādīt, ka $\sphericalangle BMN=\sphericalangle BMK$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, CircleAndDisk, ParallelPerpendicular, QuadrilateralFamilies, InscribedCentralAngle
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: AngleAtCenterAndCircumference, ParallelLinesAngleProperties, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption, WrongAngleDecomposition
+* _mistakesFit: medium
 
 </small>
 
@@ -704,7 +803,6 @@ hordām), atņemot tās vienu no otras.
 **Piezīme.** No pierādītā seko, ka $M,\ N,\ K$ atrodas uz vienas taisnes.
 
 
-
 # <lo-sample/> LV.AMO.2007.9.3
 
 **(A)** katrs no naturāliem skaitļiem $a$ un $b$ ir izsakāms kā divu veselu 
@@ -721,6 +819,12 @@ $$(f(x))^{2}+(g(x))^{2}=\left(x^{2}+1\right)\left(x^{2}+4\right)\left(x^{2}+2x+2
 * concepts:sum,square-Alg,equation
 * questionType:Prove,FindExample
 * domain:NT
+* _hasSolutionConcept: PerfectSquares, PolynomialAndRoots, SquareOfSumIdentity, VariableExpression
+* _readingDifficulty: medium
+* _domain: NT,Alg
+* _hasReasoningMethod: FactoringAlgebraicExpressions, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -731,7 +835,6 @@ $\left(x^{2}+y^{2}\right)\left(z^{2}+t^{2}\right)=(xz+yt)^{2}+(xt-yz)^{2}$
 
 **(B)** izmantojot (A) punkta identitāti, pakāpeniski iegūstam 
 $\left.\left(x^{2}+1^{2}\right)\left(x^{2}+2^{2}\right)\left((x+1)^{2}+1^{2}\right)\left((x-1)^{2}+1^{2}\right)=\left(\left(x^{2}+2\right)^{2}+(x)^{2}\right)\left(x^{2}-1+1\right)^{2}+(2)^{2}\right)=\left(x^{4}+2x^{2}+2x\right)^{2}+\left(x^{3}-2x^{2}-4\right)^{2}$
-
 
 
 # <lo-sample/> LV.AMO.2007.9.4
@@ -746,6 +849,12 @@ ja **(A)** $n=8$, **(B)** $n=9$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, VertexDegree, ParityInvariant, WalkPathCycle
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -765,7 +874,6 @@ Tur $9$-stūra virsotnes attēlotas kā astoņstūra virsotnes un centrs, un lī
 uzzīmēto līniju jāiedomājas arī tās attēli pagriezienos ap $8$-stūra centru.
 
 
-
 # <lo-sample/> LV.AMO.2007.9.5
 
 Pa apli novietotas $10$ viena lata monētas, visas ar "lasi" uz augšu. Ar vienu 
@@ -780,6 +888,12 @@ monētu daudzums var vienlaicīgi atrasties ar ģerboni uz augšu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: ParityInvariant, Invariant, OptimumProofStructure
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -795,7 +909,6 @@ gājiens aizskar tieši divas no tām. Tāpēc šādā monētu pieciniekā katr�
 "lašu" skaits vai nu nemainās, vai mainās par $2$, tātad paliek nepāra 
 skaitlis. Tātad katrā no abiem šādiem monētu pieciniekiem vienmēr uz augšu ir 
 vismaz viens "lasis".
-
 
 
 # <lo-sample/> LV.AMO.2007.10.1
@@ -818,7 +931,6 @@ Pieņemsim, ka $n$ dalās gan ar $999\ 999$, gan ar $1\ 000\ 001$. Tā kā
 $LKD(999\ 999,\ 1\ 000\ 001)1$, tad $n$ dalās arī ar 
 $999\ 999 \cdot 1\ 000\ 001=10^{12}-1$. Bet tā nevar būt, jo desmitciparu 
 skaitlis ir mazāks par $10^{12}-1$.
-
 
 
 # <lo-sample/> LV.AMO.2007.10.2
@@ -854,7 +966,6 @@ apgalvojums.
 **(B)** apskatām piemēru $x=y=z=0,1;\ t=1000$.
 
 
-
 # <lo-sample/> LV.AMO.2007.10.3
 
 Doti $7$ dažādi siera gabali. Pierādīt: vienu no tiem iespējams sagriezt divos 
@@ -882,7 +993,6 @@ pirmajai kaudzei $m_{7}$ un sākam $m_{7}$ pakāpeniski "pārsūknēt" uz otro
 kaudzi, tad sākumā smagākā ir pirmā kaudze, bet beigās - otrā. Tāpēc būs tāds 
 brīdis, kad abās kaudzēs būs vienādas masas. Šai brīdī redzams, kādos gabalos 
 jāsagriež $m_{7}$.
-
 
 
 # <lo-sample/> LV.AMO.2007.10.4
@@ -913,7 +1023,6 @@ $\frac{1}{2} a_{1} \cdot 1+\frac{1}{2}\left(a_{1}+a_{2}\right) \cdot 1+\frac{1}{
 $+\frac{1}{2}\left(a_{n-1}+a_{n}\right) \cdot 1+\frac{1}{2} a_{n} \cdot 1=a_{1}+\ldots+a_{n}$.
 Tātad vertikālo līniju garuma summa ir vienāda ar daudzstūra laukumu. Tas pats 
 attiecas uz horizontālo rūtiņu līniju garumu summu.
-
 
 
 # <lo-sample/> LV.AMO.2007.10.5
@@ -953,7 +1062,6 @@ $n$-to taisni
 **(C)** ja dotie $n$ punkti ir regulāra $n$-stūra virsotnēs, tad taisnēm, kas 
 vilktas caur diviem no tiem, ir pavisam $n$ dažādi virzieni. Tāpēc no tām nevar
 izvēlēties vairāk par $n$ pa pāriem neparalēlām taisnēm.
-
 
 
 # <lo-sample/> LV.AMO.2007.11.1
@@ -1007,7 +1115,6 @@ Saskaitot (1) un (2) un ievērojot, ka $MN=AN$, iegūstam
 $BP+CP+AP<BM+CN+MN+AM==(BM+AM)+(CN+AN)=BA+AC=2 \cdot AB$, k.b.j.
 
 
-
 # <lo-sample/> LV.AMO.2007.11.2
 
 Pierādīt, ka
@@ -1034,7 +1141,6 @@ Saskaitot šīs vienādības pie $n=1;\ 2;\ 3;\ \ldots;\ 2007$, iegūstam, ka
 novērtējamās summas vērtība ir 
 $\frac{1}{2}\left[\frac{1}{1^{4}-1^{2}+1}-\frac{1}{2008^{4}-2008^{2}+1}\right]<\frac{1}{2} \cdot \frac{1}{1^{4}-1^{2}+1}=\frac{1}{2}$,
 k.b.j.
-
 
 
 # <lo-sample/> LV.AMO.2007.11.3
@@ -1064,7 +1170,6 @@ $\cos \alpha=0$, tad $\alpha=90^{\circ}$ un $S$ atrodas uz abām riņķa līnij�
 pretruna. Tātad pietiek pierādīt, ka $SB \cdot SA=\mathrm{SC} \cdot SD$ jeb, ka
 $\frac{SB}{SC}=\frac{SD}{SA}$. Tas seko no trijstūru $\triangle BSC$ un 
 $\triangle DSA$ līdzības.
-
 
 
 # <lo-sample/> LV.AMO.2007.11.4
@@ -1099,7 +1204,6 @@ ilgāk par šo meli). Apskatīsim to no $P$, kurš strādājis vismazāko laiku;
 vairāk kā $9$ citi $P$. Tātad patieso darbinieku ir tieši $10$.
 
 Tātad firmā strādā tieši $100$ darbinieki.
-
 
 
 # <lo-sample/> LV.AMO.2007.11.5
@@ -1148,7 +1252,6 @@ skaits mainās par $0$, par $3$ vai par $12$, tātad vienmēr dalās ar $3$. Tā
 prasītā nokrāsošana nav iespējama.
 
 
-
 # <lo-sample/> LV.AMO.2007.12.1
 
 Pierādīt, ka $\sphericalangle AMB=\sphericalangle ANB=\sphericalangle AKB$, kur
@@ -1173,7 +1276,6 @@ apskatāmie leņķi ir ievilkti leņķi, kas balstās uz vienu un to pašu loku.
 Iespējami ļoti daudzi citi risinājumi.
 
 ![](LV.AMO.2007.12.1A.png)
-
 
 
 # <lo-sample/> LV.AMO.2007.12.2
@@ -1204,7 +1306,6 @@ Tāpēc $x_{1}x_{2}x_{3}=1$ un $x_{1}x_{2}+x_{1}x_{3}+x_{2}x_{3}=7$. Tātad
 tilpums ir $1$ un virsmas laukums ir $14$.
 
 
-
 # <lo-sample/> LV.AMO.2007.12.3
 
 Uz taisnes $t$ atrodas divas figūriņas: pa kreisi - balta, pa labi sarkana. Ar 
@@ -1233,7 +1334,6 @@ figūriņas vietā, no kuras pa kreisi ir $n$ sarkanas, tad vēlamo pāru skaits
 par $2n$; līdzīgi analizē trīs pārējos gadījumus.)
 
 Tātad vēlamo pāru vienmēr ir pāra skaits, un uzdevumā prasītais nav sasniedzams.
-
 
 
 # <lo-sample/> LV.AMO.2007.12.4
@@ -1276,7 +1376,6 @@ ar riņķa diametru; tāpēc savietojot daļas tā, lai tās sakristu, vai nu $A
 sakrīt ar $A$ un $B$ ar $B$, vai arī $A$ ar $B$ un $B$ ar $A$. Bet tad daļas 
 kopumā nesakrīt, jo viena no tām satur centru $O$, bet otra - nē. Tātad mūsu 
 pieņēmums ir nepareizs.
-
 
 
 # <lo-sample/> LV.AMO.2007.12.5
@@ -1340,4 +1439,3 @@ Skaidrs, ka $j \neq m+t;\ m+t-1;\ m+t-2;\ \ldots;\ m+1;\ m$. Tāpēc varam sēju
 īstajā vietā, bet ![](LV.AMO.2007.12.5G.png) pabīdījies vienu vietu pa labi. 
 Līdzīgi turpinām, kamēr iestājas $A$ vai $B$ gadījums. Induktīvā pāreja 
 izdarīta.
-

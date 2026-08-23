@@ -18,6 +18,11 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $2$.
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: LatinSquareSudoku, FiniteSequenceArrangement, Coloring
+* _readingDifficulty: medium
+* _hasReasoningMethod: BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -26,10 +31,6 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $2$.
 Skaitḷus režģī iespējams sarakstīt, kā tas redzams 2. att.
 
 ![](LV.AMO.2024.5.1.png)
-
-
-
-
 
 
 # <lo-sample/> LV.AMO.2024.5.2
@@ -46,6 +47,11 @@ lai garantētu, ka viņam:
 
 * questionType:FindOptimal
 * domain:Comb
+* _hasSolutionConcept: FiniteSet, CountingSumRule, PigeonholePrinciple, OptimumProofStructure, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier, MissingConstructionPartInOptimalProblems
+* _mistakesFit: high
 
 </small>
 
@@ -80,6 +86,11 @@ $7 \cdot(9-5)-3=25$.
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -98,7 +109,6 @@ $$(9-3):(7-5) = 3;\;\;\;\; (7+9)-(3+5) = 8;$$
 $$(9+5)-(7+3) = 4;\;\;\;\; 9 \cdot(3-(7-5)) = 9.$$
 
 
-
 # <lo-sample/> LV.AMO.2024.5.4
 
 Dots $7 \times 9$ rūtiņu taisnstūris. Vai tajā var ievietot deviņas 3. att. 
@@ -111,6 +121,11 @@ pārklāties viena ar otru vai iziet ārpus taisnstūra.
 
 * questionType:ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: Tiling, LatticeGrid, PlaneTransformation
+* _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -142,6 +157,11 @@ Cik patiesībā bija pulkstenis? Atbildi pamato!
 
 * questionType:FindAll
 * domain:Comb
+* _hasSolutionConcept: ExhaustiveCheck, CaseAnalysis, FiniteSequenceArrangement
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -156,8 +176,6 @@ par 9 minūtēm. Tātad tas ir starp 2:55 un 3:01.
 Neviens nekļūdās par 1 minūti, tādēl neder 2:55, 2:56, 2:58, 3:01. 
 Atliek tikai 3:00 vai 2:59. 3:00 neder, jo tad gan B, 
 gan C kḷūdās par 3 min. Tātad pulkstenis bija 2:59.
-
-
 
 
 # <lo-sample/> LV.AMO.2024.6.1
@@ -180,6 +198,11 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $4$.
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: LatinSquareSudoku, FiniteSet, Coloring, ArithmeticOperations
+* _readingDifficulty: medium
+* _hasReasoningMethod: BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -203,6 +226,11 @@ lai varētu apgalvot, ka kopumā Annai vismaz sešas no bumbiņām ir vienā kr�
 
 * questionType:ProveDisprove,ProveDisprove,FindOptimal
 * domain:Comb
+* _hasSolutionConcept: FiniteSet, PigeonholePrinciple, ExistenceVsUniversal, Counterexample, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, PigeonholePrincipleBasic, PigeonholePrincipleGeneralized
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -229,7 +257,6 @@ ka sešas no tām ir vienā krāsā. Secinām, ka Annai jāizvelk
 vēl $20-9=11$ bumbiņas.
 
 
-
 # <lo-sample/> LV.AMO.2024.6.3
 
 Katrs no $10$ rūķīšiem vienmēr saka patiesību vai vienmēr melo. 
@@ -245,6 +272,11 @@ savu roku. Cik no šiem rūķiem vienmēr saka patiesību?
 
 * questionType:FindAll
 * domain:Comb
+* _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, FiniteSet
+* _readingDifficulty: medium
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -252,7 +284,7 @@ savu roku. Cik no šiem rūķiem vienmēr saka patiesību?
 
 Kopā rūķı̄ši pacēla rokas $8+5+1=14$ reizes. Ja visi teiktu patiesību, 
 tad katrs paceltu roku vienu reizi un būtu 10 paceltas rokas kopumā.
-Melis cels roku divas reizes - mīl̄ākajai saldējuma garšai necels, 
+Melis cels roku divas reizes - mīļākajai saldējuma garšai necels, 
 bet pārējām divām pacels. Katru patieso rūk̦i aizstājot ar meli, 
 pacelto roku skaits palielinās par viens. Tā kā tika paceltas 
 par $14-10=4$ rokām vairāk nekā tad, ja visi teiktu patiesību, 
@@ -273,6 +305,11 @@ ka tās sakrīt.
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: DissectionIntoCongruent, AxialSymmetry, LatticeGrid
+* _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -281,7 +318,6 @@ ka tās sakrīt.
 Skatīt 8. att.
 
 ![](LV.AMO.2024.6.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2024.6.5
@@ -297,6 +333,11 @@ viens - par trīs, viens - par pieci un viens - par deviņi.
 
 * questionType:FindAll
 * domain:Comb
+* _hasSolutionConcept: ExhaustiveCheck, FiniteSet, PositiveIntegers, AbsoluteValue
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -329,7 +370,6 @@ ka abos gadījumos izpildās uzdevuma nosacījumi,
 tādēļ kastē var būt $119$ vai $125$ konfektes.
 
 
-
 # <lo-sample/> LV.AMO.2024.7.1
 
 Marta, Sandris un Linda vēlas sagatavot pulciņa telpu 
@@ -348,6 +388,11 @@ telpa bija gatava?
 * subdomain:DOM_WordProblems
 * topic:FormingEquations
 * topic:RationalOperations
+* _hasSolutionConcept: RationalNumbers, DirectProportion
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -385,7 +430,6 @@ $10+15+12 \frac{1}{2}=37 \frac{1}{2}$ minūtes jeb telpa
 bija gatava 16:37:30.
 
 
-
 # <lo-sample/> LV.AMO.2024.7.2
 
 Jurģis Mik̦eļdienas tirgū ar izlozes palīdzību izdalīja $11$ balvas. 
@@ -401,6 +445,11 @@ tādas balvas, kurām bija vienāds saturs.
 * subdomain:DOM_CountingObjects
 * topic:CombinationsWithRepetition
 * method:MTH_InterpretationWithCoding
+* _hasSolutionConcept: PigeonholePrinciple, NumberPartitions, FiniteSet
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, IncompleteCaseAnalysisInCombinatorialBranching, ImplicitAssumptionAboutObjectsBeingDistinct
+* _mistakesFit: high
 
 </small>
 
@@ -421,7 +470,6 @@ tad pēc Dirihlē principa noteikti būs izdalīti divi tādi komplekti,
 kam ir vienāds saturs.
 
 
-
 # <lo-sample/> LV.AMO.2024.7.3
 
 Skaitḷu virknes pirmais loceklis ir $12$. Katru nākamo iegūst 
@@ -437,6 +485,11 @@ $2$ vai $3$ (ja tas dalās bez atlikuma). Vai šīs skaitļu virknes
 * method:MTH_PeriodicInvariant
 * topic:GraphColoredVertices
 * topic:ModularParity
+* _hasSolutionConcept: NumberSequence, PrimeFactorization, ParityInvariant, Invariant
+* _readingDifficulty: high
+* _hasReasoningMethod: PrimeFactorization, InvariantMethod, PeriodicSequence, ProofByContradiction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -480,6 +533,11 @@ rūtiņu līnijām? Figūras drīkst būt pagrieztas.
 * subdomain:DOM_GridCut
 * topic:SquareGridCutting
 * topic:RotationBy90
+* _hasSolutionConcept: Tiling, DivisionWithRemainder, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -492,7 +550,6 @@ izkārtot $16$ figūras rūtiņas var skatīt 10.att.
 Secinām, ka $16$ ir vislielākais figūru skaits.
 
 ![](LV.AMO.2024.7.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2024.7.5
@@ -509,7 +566,11 @@ bet Sandra dziedāja 4 dziesmas (mazāk nekā jebkura cita meitene)?
 * subdomain:DOM_CombinatorialStructures
 * topic:DivisibilityProperties
 * topic:DoubleCounting
-
+* _hasSolutionConcept: FiniteSet, DivisibilityRelation, EquationSystem
+* _readingDifficulty: medium
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -537,7 +598,6 @@ uzrādīt vismaz vienu derīgu piemēru.
 | S     | x     | x     |       |       |       | x     | x     |
 
 
-
 # <lo-sample/> LV.AMO.2024.8.1
 
 Doti trīs dažādi reāli skaitḷi. Zināms, ka aritmētiskais 
@@ -553,6 +613,11 @@ Nosakiet šo trīs skaitḷu summu!
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * topic:LinearSystems
+* _hasSolutionConcept: IrrationalAndReals, ArithmeticMean, LinearEquation
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ExpressOneUnknownThroughAnother, UseStandardIdentities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -599,6 +664,11 @@ secīgus skaitļus, kuru summa būs vismaz $17$.
 * subdomain:DOM_CombinatorialStructures
 * topic:AddingOrMultiplyingInequalities
 * topic:DoubleCounting
+* _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, PigeonholePrinciple, ProofByContradiction
+* _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -637,6 +707,11 @@ Vai burvji rituālā no skaitliem $3,8,9,2,4$ var iegūt
 * subdomain:DOM_MakingMoves
 * topic:DirectedGraphs
 * topic:WorkingBackwards
+* _hasSolutionConcept: StateSpaceProcess, Invariant, EvenOddParity, DivisionWithRemainder
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -696,8 +771,6 @@ turpinot to dalīt, rezultāts arī būs nevesels. Tātad
 nevaram no $9$ iegūt $2$, lai rituālā sasniegtu prasīto skaitļu kombināciju.
 
 
-
-
 # <lo-sample/> LV.AMO.2024.8.4
 
 Uz riņk̦a līnijas ar centru $O$ ir atlikti punkti 
@@ -713,6 +786,11 @@ $\sphericalangle BCO$ ar $\alpha$ un $\beta$!
 * subdomain:DOM_CirclesAndRelatedAngles
 * topic:TrianglesIsosceles
 * topic:TriangleAngles
+* _hasSolutionConcept: CircleAndDisk, Triangle, TriangleAngleSum, TriangleCongruence, Angle
+* _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -745,7 +823,6 @@ Secinām, ka $\sphericalangle OBC=\frac{\alpha}{2}-\beta$.
 ![](LV.AMO.2024.8.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2024.8.5
 
 Dotas piecas smagas kastes un tās izkārtotas, kā tas redzams 12. att. Šīs kastes var pārvietot tikai pagriežot par 90 grādiem ap kādu no kastes stūriem. Kastes nav iespējams pārvietot citām kastēm virsū. Pēc vairākiem šādiem pārvietojumiem šīs kastes tika izkārtotas, kā tas redzams 13. att. Kuras no šīm kastēm varēja sākotnēji atrasties 12. att. izkārtojuma centrā? Piemēru, kā kasti var pārvietot ap vienu stūri divos dažādos veidos skatīt 14. att.
@@ -760,6 +837,11 @@ Dotas piecas smagas kastes un tās izkārtotas, kā tas redzams 12. att. Šīs k
 * method:MTH_PeriodicInvariant
 * topic:SquareGrid
 * topic:RotationBy90
+* _hasSolutionConcept: ChessboardColoring, Invariant, Rotation
+* _readingDifficulty: high
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant, ProofByContradiction
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -792,8 +874,6 @@ līdz tā atrodas vienā rindā ar visām kastēm. Šādi centra kaste ir
 ceturtā pēc kārtas, kā tas prasīts.
 
 
-
-
 # <lo-sample/> LV.AMO.2024.9.1
 
 Doti reāli skaitļi $a$ un $b$, kuriem
@@ -809,6 +889,11 @@ Kāda var būt izteiksmes $a^{4}+b^{4}$ vērtība, ja papildus zināms, ka $a+b 
 * subdomain:DOM_MultivariableEquations
 * topic:VietaFormulas
 * topic:SystemsVariableElimination
+* _hasSolutionConcept: IrrationalAndReals, EquationSystem, QuadraticEquation, VietasFormulas
+* _readingDifficulty: medium
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, VietasFormulas, ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: RootLossByDivisionByExpression, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -836,7 +921,6 @@ ko iegūst no dotās sakarības, tas ir, $4b = 5-b^{2}$.
 Abos gadījumos iegūstam, ka $a^{4}+b^{4}=5^{4}+1^{4}=625+1=626$.
 
 
-
 # <lo-sample/> LV.AMO.2024.9.2
 
 Katrs no $28$ klases skolēniem kontroldarbā saņēma atzīmi, 
@@ -851,6 +935,11 @@ vai arī vismaz $4$ skolēni ieguva atzīmi, kas ir augstāka nekā $7$.
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleGeneralized
 * topic:ProvingInequalities
+* _hasSolutionConcept: PigeonholePrinciple, FiniteSet
+* _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrincipleGeneralized, RuleOfSumDisjointCases
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -902,6 +991,11 @@ skaitļi $20, 24, 25$?
 * subdomain:DOM_MakingMoves
 * method:MTH_FixedInvariant
 * topic:ModularParity
+* _hasSolutionConcept: ParityInvariant, Invariant, ProofByContradiction
+* _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -930,7 +1024,6 @@ kas ir $2$ pāra skaitļi un 1 nepāra skaitlis.
 Iegūstam pretrunu, tāpēc prasītais nav iespējams.
 
 
-
 # <lo-sample/> LV.AMO.2024.9.4
 
 Uz paralelograma $ABCD$ malām $BC$ un $CD$ atzīmēti attiecīgi 
@@ -945,6 +1038,11 @@ krustpunkts ir $H$. Pamatot, ka $S_{AGHI} = S_{BEG}+S_{CEHF}+S_{DFI}$.
 * subdomain:DOM_Quadrilaterals
 * topic:TriangleAreaFromBaseAltitude
 * topic:ParallelogramArea
+* _hasSolutionConcept: ParallelogramProperties, Polygon, Triangle, FiniteSet
+* _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, AreaCounting, ParallelogramProperties
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -995,6 +1093,11 @@ Cik ir tādu deviņciparu tālruņa numuru, kas varētu būt Zanes tālruņa num
 * topic:RuleOfProduct
 * topic:DivisibilityRulesLastDigits
 * topic:DivisibilityRulesFor3And9
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRules, FiniteSequenceArrangement, CountingProductRule, QuadrilateralFamilies
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, FixedInvariantNumeric, RuleOfProductIndependentChoices
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -1039,8 +1142,6 @@ kā iegūt tālruņa numuru, kam izpildās īpašības,
 kas piemīt Zanes tālruṇa numuram.
 
 
-
-
 # <lo-sample/> LV.AMO.2024.10.1
 
 Atrast visus naturālos skaitļus $m$ un $n$, kuriem $m^{3} n+m+n = mn+2mn^{2}$.
@@ -1068,7 +1169,6 @@ dalās ar $n$. Tātad $n$ var būt tikai $1$ vai $2$,
 un varam ievērot, ka abas šīs vērtības apmierina 
 vienādojumu. Secinām, ka ir divi atrisinājuma pāri: 
 $m=n=1$ un $m=n=2$.
-
 
 
 # <lo-sample/> LV.AMO.2024.10.2
@@ -1136,7 +1236,6 @@ tad iegūstam prasīto īpašību, ka visi cipari no $0$ līdz
 $9$ parādās kādā no pāru summām kā pēdējais cipars.
 
 
-
 # <lo-sample/> LV.AMO.2024.10.4
 
 Kvadrāta $ABCD$ iekšienē atlikts punkts $E$ tā, ka 
@@ -1168,7 +1267,6 @@ Tātad $\triangle B E^{\prime} A=\triangle E E^{\prime} A$ pēc pazīmes $m\ell{
 Iegūstam, ka $AE=BA=AD$ jeb to, ka trijstūris $AED$ ir regulārs.
 
 ![](LV.AMO.2024.10.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2024.10.5
@@ -1203,7 +1301,6 @@ pilnībā riņki ar laukumu $S$ kvadrātkilometri. Iegūstam
 pretrunu ar to, ka riņk̦a līnija nešk̦ērso meža robežu.
 
 
-
 # <lo-sample/> LV.AMO.2024.11.1
 
 Dots trijstūris, kura malu garumi ir $a, b$ un $c$. 
@@ -1236,7 +1333,6 @@ a^{2}+2bc > b^{2}+c^{2} \\
 Līdzīgas nevienādības iegūstam, ja apskatām trijstūra 
 nevienādības $b+c>a$ un $c+b>a$. Saskaitot šīs trīs nevienādības, 
 iegūsim uzdevumā prasīto.
-
 
 
 # <lo-sample/> LV.AMO.2024.11.2
@@ -1276,7 +1372,6 @@ Bet šādā gadījumā dalībnieku kopējā iegūtā punktu summa būtu
 $5 \cdot\left(0+\frac{1}{2}+1+1 \frac{1}{2}+\ldots+8 \frac{1}{2}+9\right)=427 \frac{1}{2}$,
 kas nav iespējams, jo kopējai punktu summai jābūt veselam 
 skaitlim (tā kā katrā partijā tiek izspēlēts tieši viens punkts).
-
 
 
 # <lo-sample/> LV.AMO.2024.11.3
@@ -1454,8 +1549,6 @@ Pieņemsim pretējo, ka $i>1$, tas ir, to, ka virkne neatkātojas
  krāsojuma kombināciju.
 
 
-
-
 # <lo-sample/> LV.AMO.2024.12.1
 
 Dots trijstūris, kura malu garumi ir $a, b$ un $c$. Pamatot, ka ir spēkā nevienādība
@@ -1551,8 +1644,6 @@ $$3 \cdot 1+3 \cdot 1 \frac{1}{2} + 3 \cdot 2 + 3 \cdot 2 \frac{1}{2}+ \ldots + 
 Iegūta pretruna.
 
 
-
-
 # <lo-sample/> LV.AMO.2024.12.3
 
 Uz tāfeles uzrakstīti vairāki veseli skaitļi, kuru kubu summa ir $2024$.
@@ -1584,7 +1675,6 @@ x_{1}+x_{2}+\cdots+x_{k} \equiv 2024 \equiv 2(\bmod 6)$$
 Tā kā 24 dalās ar 6 , tad secinām, ka prasītais nav iespējams.
 
 **(B)** Jā, var. Piemēram, $2024=10^{3}+10^{3}+2^{3}+2^{3}+2^{3}$ un $26=10+10+2+2+2$.
-
 
 
 # <lo-sample/> LV.AMO.2024.12.4
@@ -1653,4 +1743,3 @@ laukums ir $\pi(\sqrt{2S})^{2}=S$ kvadrātkilometri,
 tad iegūstam, ka mežs satur sevī figūru, kuras laukums ir 
 vienāds ar pašu mežu. Iegūstam pretrunu. Tātad pieņēmums, ka šī līnija 
 nepieskaras meža robežai, ir bijis aplams.
-

@@ -21,6 +21,12 @@ joslām noteikti nebrauca autovadītājs?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PalindromeNumbers, DigitRepresentation, DirectProportion, LinearInequality
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: BoundingArgument, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -47,7 +53,6 @@ $15951+240=16191$, kas ir vairāk nekā $16161$. Tātad autovadītājs noteikti
 nebrauca pa trešo joslu.
 
 
-
 # <lo-sample/> LV.NOL.2017.5.2
 
 Skaitlim $2016201620172017$ izsvītroja vienu vai vairākus ciparus tā, ka 
@@ -57,6 +62,12 @@ iegūtais skaitlis dalās ar $3$. Kādu lielāko skaitli varēja iegūt?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -73,7 +84,6 @@ $201601620172017$, $201620160172017$, $201620162017017$), lielākais ir
 $201620162017017$.
 
 
-
 # <lo-sample/> LV.NOL.2017.5.3
 
 Krokodils, lauva, tīģeris un gepards iztiku sev sagādā, medījot antilopes. Katrs
@@ -88,6 +98,12 @@ kad tie visi reizē atkal dosies medībās?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LCM, DivisibilityRelation, MultiplesSet, PeriodicSequence
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: PeriodicSequence
+* _hasReasoningMistake: ConfusingDivisorAndMultiple
+* _mistakesFit: low
 
 </small>
 
@@ -105,7 +121,6 @@ dalāmais, kas ir $60$. Tātad visi reizē atkal dosies medībās pēc $60$ dien
 tas ir, $2017.$ gada $18.$ aprīlī.
 
 
-
 # <lo-sample/> LV.NOL.2017.5.4
 
 Zane uz papīra lapas uzzīmēja riņķa līniju un kvadrātu (tā, ka neviens no tiem
@@ -120,6 +135,12 @@ skat. 1.att.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CircleAndDisk, QuadrilateralFamilies, ExhaustiveCheck, CaseAnalysis
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: high
 
 </small>
 
@@ -129,7 +150,6 @@ skat. 1.att.
 Var iegūt $1, 2, 3, 4$ vai $5$ pelēkas daļas, skat., piemēram, 2.att.
 
 ![](LV.NOL.2017.5.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2017.5.5
@@ -151,6 +171,12 @@ bijis tieši vienu reizi.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: HamiltonianPath, GraphConcept, LatticeGrid, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -161,7 +187,6 @@ bijis tieši vienu reizi.
 parādīts 5.att.
 
 ![](LV.NOL.2017.5.5A.png)
-
 
 
 # <lo-sample/> LV.NOL.2017.6.1
@@ -182,6 +207,12 @@ summa. Kā var noteikti zināt, ka pirmais čeks bija kļūdains?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, DivisionWithRemainder, RationalNumbers
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -194,7 +225,6 @@ $1 \cdot 0,90+2 \cdot 0,60=2,10$ eiro. Līdz ar to par $3$ vienādiem dzērveņu
 Tā kā $320$ nedalās ar $3$, tad pirmais čeks noteikti bija kļūdains.
 
 
-
 # <lo-sample/> LV.NOL.2017.6.2
 
 Skaitlim $201720182019$ izsvītroja vienu vai vairākus ciparus tā, ka iegūtais
@@ -204,6 +234,12 @@ skaitlis dalās ar $9$. Kādu lielāko skaitli varēja iegūt?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, BoundingArgument, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -217,7 +253,6 @@ skaitļa ciparu summa ir $33$. Nav iespējams izsvītrot vienu ciparu, lai iegū
 skaitļa ciparu summa dalītos ar $9$ . Vienīgā iespēja izsvītrot divus ciparus,
 lai iegūtā skaitļa ciparu summa un tātad arī pats skaitlis dalītos ar $9$, ir
 izsvītrot ciparus $7$ un $8$ .
-
 
 
 # <lo-sample/> LV.NOL.2017.6.3
@@ -239,6 +274,12 @@ tieši vienu reizi.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: HamiltonianPath, LatticeGrid, GraphConcept, Coloring, Invariant
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -248,7 +289,6 @@ tieši vienu reizi.
 Jā, zirdziņš var apstaigāt uzdevumā doto figūru, skat., piemēram, 9.att.
 
 ![](LV.NOL.2017.6.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2017.6.4
@@ -268,6 +308,12 @@ vienāda garuma nogriežnoos.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, PointLineSegmentRay, Angle, TriangleSpecialLines, LatticeGrid
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod:
+* _hasReasoningMistake: RelyingOnDiagramAppearance, MisuseOfMidpointOrParallel
+* _mistakesFit: medium
 
 </small>
 
@@ -277,7 +323,6 @@ vienāda garuma nogriežnoos.
 Kā uzzīmēt trijstūri skat., piemēram, 10.att.
 
 ![](LV.NOL.2017.6.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2017.6.5
@@ -294,6 +339,12 @@ salīdzinot ar situāciju pirms tās?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, VariableExpression, DirectProportion
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -314,7 +365,6 @@ ozolu skaits parkā pēc talkas beigām ir pieaudzis
 $\frac{51}{4}x: \frac{3}{4}x=\frac{51 \cdot 4}{4 \cdot 3}=17$ reizes.
 
 
-
 # <lo-sample/> LV.NOL.2017.7.1
 
 Varde vienā lēcienā var pārvietoties vienu rūtiņu uz augšu vai vienu rūtiņu pa
@@ -327,6 +377,12 @@ labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļut rūtiņā $B$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: DynamicProgramming, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -342,7 +398,6 @@ var nokļūt $19$ dažādos veidos (skat. 13.att.).
 ![](LV.NOL.2017.7.1A.png)
 
 
-
 # <lo-sample/> LV.NOL.2017.7.2
 
 Piecciparu skaitļa kas dalās ar $13$, pirmais cipars ir vienāds ar ceturto, bet
@@ -353,6 +408,12 @@ vērtības un pamato, ka citu nav!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, CoprimeIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: PositionalNotation, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -369,7 +430,6 @@ arī saskaitāmajam $100c$ jādalās ar $13$. Tā kā $100$ un $13$ ir savstarp�
 pirmskaitļi, tad $c$ jādalās ar $13$, tas iespējams tikai tad, kad $c=0$.
 
 
-
 # <lo-sample/> LV.NOL.2017.7.3
 
 Zane uz papīra lapas uzzīmēja riņķa līniju un kvadrātu (tā, ka neviens no tiem
@@ -383,6 +443,12 @@ kā lapa var būt sagriezta $4$ daļās, skat. 14.att.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CircleAndDisk, QuadrilateralFamilies, ExhaustiveCheck, CaseAnalysis
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: high
 
 </small>
 
@@ -392,7 +458,6 @@ kā lapa var būt sagriezta $4$ daļās, skat. 14.att.
 Lapa var būt sagriezta $3,4,5,6,7,8,9,10$ daļās, skat., piemēram, 15.att.
 
 ![](LV.NOL.2017.7.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2017.7.4
@@ -406,6 +471,12 @@ $\sphericalangle BAF=\sphericalangle BEF!$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, ParallelPerpendicular, TriangleAngleSum
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AngleChasing, TriangleAngleSum, ParallelLinesAngleProperties, IsoscelesTriangleProperties
+* _hasReasoningMistake: WrongAngleDecomposition, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -437,7 +508,6 @@ $\triangle ABF=\triangle EBF$ pēc pazīmes $\ell m \ell$.
 ![](LV.NOL.2017.7.4A.png)
 
 
-
 # <lo-sample/> LV.NOL.2017.7.5
 
 Kāds ir mazākais rūtiņu skaits, kas jāiekrāso $4 \times 4$ rūtiņu kvadrātā, lai
@@ -449,6 +519,12 @@ izmestas, vismaz viena iekrāsotā rūtiņa paliktu neizmesta?
 * questionType:FindOptimal
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
+* _hasSolutionConcept: Coloring, LatticeGrid, PigeonholePrinciple, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: Comb,Geom
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, PigeonholePrincipleBasic, RuleOfSumDisjointCases
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: high
 
 </small>
 
@@ -475,7 +551,6 @@ viena rinda, kurā ir $2$ iekrāsotas rūtiņas. Izmetot arī to, atliek $2$
 iekrāsotas rūtiņas, kuras var izmest, izmetot divas kolonnas.
 
 
-
 # <lo-sample/> LV.NOL.2017.8.1
 
 Slidotavai "Pa plānu ledu" ir taisnstūrveida forma un tās perimetrs ir $120$
@@ -490,6 +565,12 @@ platība. Aprēķini slidotavas platību!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadrilateralFamilies, VariableExpression, LinearEquation, SquareOfSumIdentity
+* _readingDifficulty: medium
+* _domain: Alg,Geom
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -510,7 +591,6 @@ x=20
 Tātad slidotavas platība ir $x \cdot(60-x)=20 \cdot 40=800 \mathrm{~m}^{2}$.
 
 
-
 # <lo-sample/> LV.NOL.2017.8.2
 
 Ja no piecciparu skaitļa, kam pirmais cipars vienāds ar ceturto, bet otrais
@@ -522,6 +602,12 @@ un pamato, ka citu nav!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisibilityRules
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: PositionalNotation, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -536,7 +622,6 @@ $\overline{abcab}-1=\overline{ab} \cdot 1000+c \cdot 100+\overline{ab}-1=\overli
 Tā kā $1001$ dalās ar $11$ $(1001:11=91)$ un $99$ dalās ar $11$ , tad, lai viss
 skaitlis dalītos ar $11$, arī $c-1$ jādalās ar $11$. Tas iespējams tikai tad,
 ja $c=1$.
-
 
 
 # <lo-sample/> LV.NOL.2017.8.3
@@ -561,6 +646,12 @@ ir bijis tieši vienu reizi.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: HamiltonianPath, GraphConcept, PigeonholePrinciple, ProofByContradiction
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -587,7 +678,6 @@ kādi ir tikai $4$. Tātad kāds no ar " $o$ " apzīmētajiem lauciņiem būs sa
 ar līniju ar vairāk nekā vienu lauciņu - pretruna.
 
 
-
 # <lo-sample/> LV.NOL.2017.8.4
 
 Uz kvadrāta $ABCD$ malām atzīmēti punkti $E, F, G$ un $H$ tā, ka
@@ -601,6 +691,12 @@ iekrāsotās daļas (skat. 23.att.) laukuma attiecību pret $ABCD$ laukumu!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadrilateralFamilies, TriangleCongruence, Angle, DirectProportion
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, CongruentTriangles, TriangleAngleSum
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -624,7 +720,6 @@ laukumu ir $\frac{41x^{2}}{100x^{2}}=\frac{41}{100}$.
 ![](LV.NOL.2017.8.4A.png)
 
 
-
 # <lo-sample/> LV.NOL.2017.8.5
 
 Divi septītās klases skolēni un vairāki astotās klases skolēni piedalījās skolas
@@ -640,6 +735,12 @@ nav!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, DivisorsSet, LinearEquation, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric, ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -698,7 +799,6 @@ Tātad turnīrā piedalījās $7$ vai $14$ astotās klases skolēni. Parādīsim
 visiem $8.$ klases skolēniem ir $8$ punkti ($14$ neizšķirti un viena uzvara).
 
 
-
 # <lo-sample/> LV.NOL.2017.9.1
 
 Koka sija sver $90~\mathrm{kg}$, bet par $2~\mathrm{m}$ garāka dzelzs sija sver
@@ -709,6 +809,12 @@ vairāk nekā viens metrs koka sijas. Cik sver viens metrs katras sijas?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, QuadraticEquation, RationalNumbers
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -737,7 +843,6 @@ Tātad viens metrs koka sijas sver $90:6=15 \mathrm{~kg}$ un viens metrs dzelzs
 sijas sver $160:8=20 \mathrm{~kg}$.
 
 
-
 # <lo-sample/> LV.NOL.2017.9.2
 
 Pierādīt, ka $9x^{6}-x^{3}+1 > 0$ visiem reāliem $x$.
@@ -746,6 +851,12 @@ Pierādīt, ka $9x^{6}-x^{3}+1 > 0$ visiem reāliem $x$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, IrrationalAndReals, SquareOfSumIdentity, PositiveAndNegative
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: CompleteTheSquareForNonNegativity, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -779,7 +890,6 @@ veikti ekvivalenti pārveidojumi, tad arī dotā nevienādība ir patiesa visiem
 reāliem skaitļiem $x$.
 
 
-
 # <lo-sample/> LV.NOL.2017.9.3
 
 Trapeces $ABCD$ pamatu attiecība $BC:AD=3:5$. Uz sānu malas $CD$ atlikts punkts
@@ -790,6 +900,12 @@ $E$ sadala sānu malu $CD$ ?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadrilateralFamilies, Triangle, PointLineSegmentRay, DirectProportion
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, AreaCounting
+* _hasReasoningMistake: WrongAreaProportionality, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -807,7 +923,6 @@ tad $CE:ED=1:4$ jeb punkts $E$ dala malu $CD$ attiecībā $1:4$.
 ![](LV.NOL.2017.9.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2017.9.4
 
 Naturālu skaitli sauksim par *pārdabisku*, ja, tā ciparus uzrakstot pretējā secībā,
@@ -819,6 +934,12 @@ $9801:1089=9$. Atrast vēl divus citus pārdabiskus skaitļus!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, PositiveIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction, PositionalNotation
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -834,7 +955,6 @@ nākamie mazākie ir
 $2178; 10989; 21978; 109989; 219978; 1099989; 2199978; 10891089; 10999989; 21782178; 21999978$.
 
 
-
 # <lo-sample/> LV.NOL.2017.9.5
 
 **(A)** Pierādīt, ka starp $1010$ dažādiem naturāliem skaitļiem, no kuriem
@@ -848,6 +968,12 @@ nepārsniedz $2017$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PigeonholePrinciple, EvenOddParity, Counterexample, FiniteSet
+* _readingDifficulty: low
+* _domain: Comb,NT
+* _hasReasoningMethod: PigeonholePrincipleBasic, ExtremalElementArgument, ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -885,7 +1011,6 @@ izvēlēti ir $1009$ skaitļi, no kuriem nekādi divi summā nedod citu skaitli 
 līdz $2017$), tad jebkuru divu šādu skaitļu summa būs lielāka nekā divu mazāko
 skaitļu summa, tas ir, $1009+1010=2019$, kas jau ir lielāka nekā vislielākais
 skaitlis $2017$.
-
 
 
 # <lo-sample/> LV.NOL.2017.10.1
@@ -942,7 +1067,6 @@ Tātad ceļinieka ātrums pa šoseju $v=6 \mathrm{~km} / \mathrm{h}$, bet pa lau
 viņa ātrums ir $c=4 \mathrm{~km} / \mathrm{h}$.
 
 
-
 # <lo-sample/> LV.NOL.2017.10.2
 
 Pierādīt, ka $x^{2}+2y^{2}+2xy+y+1 > 0$, ja $x, y$ - reāli skaitļi!
@@ -968,7 +1092,6 @@ $$\begin{gathered}
 Tā kā skaitļa kvadrāts ir nenegatīvs un $\frac{3}{4}$ ir pozitīvs skaitlis, tad
 pēdējā nevienādība ir patiesa. Tā kā tika veikti ekvivalenti pārveidojumi, tad
 arī dotā nevienādība ir patiesa visiem reāliem skaitļiem $x$ un $y$.
-
 
 
 # <lo-sample/> LV.NOL.2017.10.3
@@ -1026,7 +1149,6 @@ mediāna, gan augstums, tad trijstūris $BFG$ ir vienādsānu trijstūris, kas a
 bija jāpierāda.
 
 
-
 # <lo-sample/> LV.NOL.2017.10.4
 
 Dots taisnstūris ar izmēriem $7 \times 5$ rūtiņas. Griežot pa rūtiņu līnijām,
@@ -1079,7 +1201,6 @@ Tātad ir ne vairāk kā sešas 32.att. figūras un septītā figūra ir citād�
 turklāt tās perimetrs ir $12$. Līdz ar to perimetru summa ir vismaz
 $6 \cdot 10+12=72$, un griezuma līniju garumu summa 
 $L \geq \frac{72-24}{2}=24$.
-
 
 
 # <lo-sample/> LV.NOL.2017.10.5
@@ -1160,10 +1281,6 @@ t.i. $\overline{EMĀ}=258$ vai $\overline{EMĀ}=654$.
   jo cipari $K$ un $Ā$ nedrīkst sakrist).
 
 
-
-
-
-
 # <lo-sample/> LV.NOL.2017.11.1
 
 Zināms, ka skaitļu $a_{1}; a_{2}; a_{3}$ summa ir $105$ un tie veido
@@ -1210,7 +1327,6 @@ Līdz ar to esam ieguvuši, ka
 $a_{1}=25 ; a_{2}=35 ; a_{3}=45$ vai $a_{1}=49; a_{2}=35 ; a_{3}=21$
 
 
-
 # <lo-sample/> LV.NOL.2017.11.2
 
 Pierādīt, ka $x^{4}+2x^{3}y+2xy^{3}+y^{4} \geq 6x^{2}y^{2}$, ja $x$ un $y$ ir
@@ -1237,7 +1353,6 @@ $$\begin{gathered}
 Tā kā skaitļa kvadrāts ir nenegatīvs un $xy > 0$ pēc dotā, tad pēdējā
 nevienādība ir patiesa. Tā kā tika veikti ekvivalenti pārveidojumi, tad arī
 dotā nevienādība ir patiesa visiem pozitīviem skaitļiem $x$ un $y$.
-
 
 
 # <lo-sample/> LV.NOL.2017.11.3
@@ -1300,7 +1415,6 @@ ir simetriska attiecībā pret $x$ un $z$, iegūstam otru atrisinājumu
 $x=1521, y=4836, z=496$.
 
 
-
 # <lo-sample/> LV.NOL.2017.11.4
 
 Četras riņķa līnijas ārēji pieskaras tā, kā parādīts 34.att. Pierādīt, ka
@@ -1335,7 +1449,6 @@ tad četrstūrim $ABCD$ var apvilkt riņķa, līniju, kas arī bija jāpierāda.
 leņķi.
 
 ![](LV.NOL.2017.11.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2017.11.5
@@ -1386,7 +1499,6 @@ ja pirmā gājienu izdara Baiba, tad viņai centrālajā rūtiņā jāieliek „
 tālāk jāspēlē pēc iepriekš aprakstītās stratēģijas.
 
 
-
 # <lo-sample/> LV.NOL.2017.12.1
 
 Jebkuriem diviem pozitīviem skaitļiem $x$ un $y$ piekārtots trešais skaitlis
@@ -1416,7 +1528,6 @@ Pēdējā vienādība ir patiesa, tātad pozitīviem skaitļiem $x, y$ un $z$ iz
 $(x * y) * z=x * (y * z)$.
 
 
-
 # <lo-sample/> LV.NOL.2017.12.2
 
 Pierādīt, ka $x^{2}+y^{2}+4 \geq 2x-2y-xy$, ja $x, y-$ reāli skaitļi!
@@ -1444,7 +1555,6 @@ Tā kā skaitļa kvadrāts ir nenegatīvs, tad pēdējās nevienādības kreisaj
 trīs nenegatīvu skaitļu summa, kas arī ir nenegatīvs skaitlis. Tātad pēdējā
 nevienādība ir patiesa. Tā kā tika veikti ekvivalenti pārveidojumi, tad arī
 dotā nevienādība ir patiesa visiem reāliem skaitļiem $x$ un $y$.
-
 
 
 # <lo-sample/> LV.NOL.2017.12.3
@@ -1487,7 +1597,6 @@ ierakstot tiem vidū patvaļīgu skaitu devītnieku, ir pārdabiski, bet šajā
 gadījumā pierādījums ir sarežģītāks.
 
 
-
 # <lo-sample/> LV.NOL.2017.12.4
 
 Divas dažādas riņķa līnijas iekšēji pieskaras punktā $A$. Lielākās riņķa
@@ -1523,7 +1632,6 @@ $\frac{AC-BC}{2}=\frac{50}{6}-\frac{7}{2}=\frac{29}{6}$.
 
 *Piezīme.* Vienādību $OD^{2}=AO \cdot OB$ var iegūt arī pamatojot, ka
 $\triangle AOD \sim \triangle DOB$.
-
 
 
 # <lo-sample/> LV.NOL.2017.12.5
@@ -1570,4 +1678,3 @@ vērtības:
 
 Nevienā gadījumā $n$ nav nenegatīvs vesels skaitlis. Tātad $47$ taisnstūros
 doto lapu sagriezt nav iespējams.
-

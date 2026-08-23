@@ -7,6 +7,12 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vai nu $1$, vai 
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, CircleAndDisk
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -16,7 +22,6 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vai nu $1$, vai 
 Piemēram, skat. 1.zīm.
 
 ![](LV.NOL.2010.5.1A.png)
-
 
 
 # <lo-sample/> LV.NOL.2010.5.2
@@ -31,6 +36,12 @@ Cik ir tādu naturālu skaitļu, kas ir vairāk nekā viena datuma pieraksti And
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, CaseAnalysis, ExhaustiveCheck, CountingSumRule
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -44,7 +55,6 @@ $111; 211; 311;$ tā kā februārī ir augstākais $29$ dienas, iegūstam $112$ 
 Tātad pavisam ir $5$ šādi kodi.
 
 
-
 # <lo-sample/> LV.NOL.2010.5.3
 
 Kādu lielāko daudzumu trijstūrīšu var iekrāsot 1.zīm. redzamajā figūrā, lai nekādiem
@@ -56,6 +66,12 @@ diviem iekrāsotiem trijstūrīšiem nebūtu ne kopīga mala, ne kopīgs stūris
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, Coloring, OptimumProofStructure, SetPartition
+* _readingDifficulty: low
+* _domain: Geom,Comb
+* _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -66,7 +82,6 @@ Katrā izdalītajā daļā drīkst nokrāsot augstākais vienu trijstūrīti (sk
 Tāpēc maksimums ir $4$ (piemēram, stūra un centrālā rūtiņa).
 
 ![](LV.NOL.2010.5.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2010.5.4
@@ -80,6 +95,12 @@ būtu tāds, kāds redzams 2.zīm, bet pārējie četri būtu savā starpā vien
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod:
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -89,7 +110,6 @@ būtu tāds, kāds redzams 2.zīm, bet pārējie četri būtu savā starpā vien
 Jā, var. Skat., piem., 3.zīm.
 
 ![](LV.NOL.2010.5.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2010.5.5
@@ -104,6 +124,12 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 
 * questionType:
 * domain:
+* _hasSolutionConcept: OptimumProofStructure, GraphConcept, FiniteSet
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -119,7 +145,6 @@ Tā kā katru jaunumu pēc $2$ stundām var zināt augstākais $4$ rūķīši, t
 nepietiek.
 
 
-
 # <lo-sample/> LV.NOL.2010.6.1
 
 Pieci rūķīši sanesa savā namiņā kastes ar dārgakmeņiem. Katru kasti nesa tieši divi
@@ -131,6 +156,12 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -145,7 +176,6 @@ $5 \cdot 3$. Bet naturālam $n$ nevar pastāvēt vienādība $2n=15$.
 ![](LV.NOL.2010.6.1A.png)
 
 
-
 # <lo-sample/> LV.NOL.2010.6.2
 
 Vai var atrast tādus veselus skaitļus $a$ un $b$, ka
@@ -156,6 +186,12 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, WholeIntegers, LinearDiophantine, GCD
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction, DiophantineEquations, PrimeFactorization
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -165,7 +201,6 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka
 **(A)** jā; piemēram, $10 \cdot 17-13 \cdot 13=1$.
 
 **(B)** nē, jo gan $39$, gan $91$ dalās ar $13$ , bet $2$- nedalās.
-
 
 
 # <lo-sample/> LV.NOL.2010.6.3
@@ -182,6 +217,12 @@ naturālam skaitlim tā, lai vienlaicīgi
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EvenOddParity, LatticeGrid, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -191,7 +232,6 @@ naturālam skaitlim tā, lai vienlaicīgi
 Jā. Skat., piem., 5.zīm.
 
 ![](LV.NOL.2010.6.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2010.6.4
@@ -205,6 +245,12 @@ Kāds lielākais skolēnu skaits šajā turnīrā var iegūt lielmeistara nosauk
 
 * questionType:
 * domain:
+* _hasSolutionConcept: OptimumProofStructure, ProofByContradiction, ArithmeticMean, GraphConcept
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -225,7 +271,6 @@ būt- piemēram, ja katrs no viņiem uzvar visus citus dalībniekus, bet savā s
 lielmeistari spēlē neizšķirti; tad katrs iegūst $7$ punktus.
 
 
-
 # <lo-sample/> LV.NOL.2010.6.5
 
 Deviņi rūķīši katrs uzzinājuši vienu jaunu ziņu (katrs citu). Katram mājās ir telefons,
@@ -238,6 +283,12 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, OptimumProofStructure, Monovariant, FiniteSet
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -258,7 +309,6 @@ $2.$- $4.$ stundā $A, B, C, D, E, F, G, H$ uzzina visu kā 5.5.uzdevuma risinā
 $5.$ stundā atkal runā $H$ un $I$.
 
 
-
 # <lo-sample/> LV.NOL.2010.7.1
 
 Rindā no sākuma bija uzrakstīti $2009$ vieninieki. Ar vienu gājienu nodzēš divus pirmos
@@ -274,6 +324,14 @@ gājienus atkārto, līdz rindā paliek tikai viens skaitlis.
 * domain:Alg
 * subdomain:DOM_RealSequences
 * method:MTH_FixedInvariant
+* _hasSolutionConcept: Invariant, FiniteSequenceArrangement
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ParameterInvariantValue
+* _newReasoningMethodLabel: ConservationOfSumInvariant
+* _newReasoningMethodDescription: Using that an operation preserves the total sum
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -287,7 +345,6 @@ līdz $1$, tad pavisam izdarīs $2009-1=2008$ gājienus.
 būs $2009$.
 
 
-
 # <lo-sample/> LV.NOL.2010.7.2
 
 Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīvi skaitļi.
@@ -298,6 +355,12 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * method:MTH_PolynomialTransformations
+* _hasSolutionConcept: EquationSystem, VariableExpression, PositiveAndNegative
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UncheckedConsistencyOfFoundValues, RootLossByDivisionByExpression
+* _mistakesFit: medium
 
 </small>
 
@@ -306,7 +369,6 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 
 No pirmās vienādības seko $x^{12}=y^{16}$. Dalot to ar otro vienādību, iegūst $x=y$.
 Ievietojot pirmajā, seko $y=1$ un pēc tam $x=1$.
-
 
 
 # <lo-sample/> LV.NOL.2010.7.3
@@ -321,6 +383,12 @@ $(x+1)(x+2)(x+3)$ dalās ar $343$?
 * questionType:FindCount
 * domain:NT
 * subdomain:DOM_PrimeFactors,Divisibility
+* _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, PositiveIntegers, CountingProductRule
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: BoundingArgument, PrimeFactorization
+* _hasReasoningMistake: WrongDivisibilityDirection, NonCoprimeFactorDivisibility, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -351,6 +419,12 @@ rūtiņām nebūtu nokrāsotas visas malas?
 * domain:Geom
 * subdomain:DOM_ObjectSystemsGeometry,IntegerLattices
 * method:MTH_MeanValuePrinciple
+* _hasSolutionConcept: LatticeGrid, Coloring, OptimumProofStructure, CountingSumRule
+* _readingDifficulty: low
+* _domain: Geom,Comb
+* _hasReasoningMethod: CountingByDoubleCounting
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -364,7 +438,6 @@ var nokrāsot ne vairāk kā $3$ malas; pieskaitot vēl $8$ atlikušos nogriež�
 kvadrāta kontūra, iegūstam, ka $8 \cdot 3+8=32$ tiešām ir maksimums.
 
 ![](LV.NOL.2010.7.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2010.7.5
@@ -381,6 +454,12 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * domain:Comb
 * subdomain:DOM_CombinatorialAlgorithms
 * method:MTH_InductiveAlgorithms
+* _hasSolutionConcept: GraphConcept, OptimumProofStructure, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -395,7 +474,6 @@ $1.$ stunda: $AD, BE, CF$;
 $2.$ stunda: $AE, BF, CD$;
 
 $3.$ stunda: $AF, BD, CE$.
-
 
 
 # <lo-sample/> LV.NOL.2010.8.1
@@ -417,6 +495,12 @@ $2$ un $3$.)
 * domain:NT
 * subdomain:DOM_PrimeFactors
 * method:MTH_PolynomialTransformations
+* _hasSolutionConcept: PrimeFactorization, PrimeNumbers, DiffOfSquaresFactoring
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: FactoringAlgebraicExpressions, PrimeFactorization
+* _hasReasoningMistake: PrimeOnePointConfusion
+* _mistakesFit: low
 
 </small>
 
@@ -430,8 +514,7 @@ jaunus pirmskaitļus nedod.
 
 ## Atrisinājums
 
-Dala reizinātājos $102^2 - 1=(102-1)(102+1)$ utt., īsina. Labajā pusē par pirmreizinātāju $101$ vairāk.  
-
+Dala reizinātājos $102^2 - 1=(102-1)(102+1)$ utt., īsina. Labajā pusē par pirmreizinātāju $101$ vairāk.
 
 
 # <lo-sample/> LV.NOL.2010.8.2
@@ -445,6 +528,12 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC > AB$.
 * questionType:Prove
 * domain:Geom
 * subdomain:DOM_Triangles
+* _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis, TriangleInequality, EquilateralTriangleConstruction, IsoscelesTriangleProperties
+* _hasReasoningMistake: SkippingCaseAnalysis, UnjustifiedAuxiliaryLineExists, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -474,15 +563,12 @@ Tāpēc $3AC=AC+CD+DE > AE=AB$.
 ![](LV.NOL.2010.8.2C.png)
 
 
-
-
 # <lo-sample/> LV.NOL.2010.8.3
 
 Četrciparu skaitlim pārlika ciparus citā kārtībā. Pierādīt: sākotnējā un iegūtā skaitļa
 starpība dalās ar $9$.
 
 <small>
-
 
 * topic:DivisibilityRulesForRemainders
 * topic:DivisibilityRulesFor3And9
@@ -491,6 +577,12 @@ starpība dalās ar $9$.
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * method:MTH_FixedInvariant
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DigitSum, DivisibilityRules
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, PositionalNotation, TelescopingAndIdentity
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -507,9 +599,6 @@ saīsinās.
 $n$ atlikums dalot ar $9$ (arī pārkārtotā $n$ atlikums) vienādi ar $n$ ciparu summas atlikumu.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2010.8.4
 
 Vai eksistē tādi skaitļi
@@ -522,6 +611,12 @@ ir identitāte?
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:DOM_Equations
+* _hasSolutionConcept: VariableExpression, PolynomialAndRoots, LinearFunction, PositiveAndNegative, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, ProofByContradictionInAlgebra
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -531,7 +626,6 @@ ir identitāte?
 Nē. Ja kaut viens no skaitļiem $a_{1}, b_{1}, a_{2}, b_{2}$ nav $0$, tad $x$ un $y$ var
 izvēlēties tā, lai attiecīgā iekava, tātad arī visa labā puse, būtu $0$; bet kreisā
 puse vienmēr ir pozitīva. Pretējā gadījumā labā puse ir konstante, bet kreisā- nav.
-
 
 
 # <lo-sample/> LV.NOL.2010.8.5
@@ -545,6 +639,12 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_ExtremeConstructions
+* _hasSolutionConcept: GraphConcept, Coloring, Triangle, PigeonholePrinciple
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleGeneralized, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -554,7 +654,6 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 N̦emam vienu lampu $A$; no tās iziet $5$ vītnes. Vismaz trīs no tām ir vienā krāsā;
 varam pieņemt, ka $AB, AC, AD$ ir baltas. Ja kaut viena no vītnēm $BC, BD, CD$ arī ir
 balta, mums ir balts trijstūris; pretējā gadījumā $BCD$ ir sarkans trijstūris.
-
 
 
 # <lo-sample/> LV.NOL.2010.9.1
@@ -569,6 +668,12 @@ Atrodiet kaut vienu kvadrātvienādojumu ar veseliem koeficientiem, kam viena no
 
 * questionType:FindExample,FindExample
 * domain:Alg
+* _hasSolutionConcept: QuadraticEquation, WholeIntegers, SquareOfSumIdentity, IrrationalAndReals, PolynomialAndRoots
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, MissedSolutionsWhenSquareRootOfSquare, ExtraneousRootsAfterSquaring
+* _mistakesFit: medium
 
 </small>
 
@@ -579,7 +684,6 @@ Atrodiet kaut vienu kvadrātvienādojumu ar veseliem koeficientiem, kam viena no
 
 **(B)** ievērojam, ka $\sqrt{7+4 \sqrt{3}}=\sqrt{(\sqrt{3}+2)^{2}}=\sqrt{3}+2$. 
 Tāpēc der, piemēram, vienādojums $x^{2}-4x+1=0$
-
 
 
 # <lo-sample/> LV.NOL.2010.9.2
@@ -593,6 +697,12 @@ $R^{2}+r^{2}=d^{2}$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, ParallelPerpendicular, PythagoreanTheorem, NecessarySufficient
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: PythagoreanTheorem, AuxiliaryLines
+* _hasReasoningMistake: ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -619,7 +729,6 @@ Atceramies, ka
    vajadzīgais.
 
 
-
 # <lo-sample/> LV.NOL.2010.9.3
 
 Šaurleņķu trijstūra $ABC$ iekšpusē dots punkts $P$. Pierādīt: $P$ attālumu summa līdz
@@ -629,6 +738,12 @@ $ABC$ malām nav garāka par $ABC$ lielāko augstumu.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, LinearInequality
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -647,7 +762,6 @@ $h=f+\frac{a}{c} \cdot d+\frac{b}{c} \cdot e$.
 Tā kā $\frac{a}{c} \geq 1$ un $\frac{b}{c} \geq 1$, iegūstam $h \geq f+d+e$, k.b.j.
 
 
-
 # <lo-sample/> LV.NOL.2010.9.4
 
 Ap apaļu galdu sēž zēni un meitenes, zēnu ir trīs reizes vairāk nekā meiteņu. Tādu
@@ -659,6 +773,12 @@ iespējamais bērnu skaits?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CircleAndDisk, DivisibilityRelation, PositiveIntegers, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -673,7 +793,6 @@ $3a=4m$. Tātad $m$ jādalās ar $3$, un ir vismaz $12$ bērnu. Piemēru ar $12$
 skat. 5.zīm.
 
 ![](LV.NOL.2010.9.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2010.9.5
@@ -692,6 +811,12 @@ y^2 + x & = t^2
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PerfectSquares, PositiveIntegers, EquationSystem, TotalOrder
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: BoundingArgument, DiophantineEquations
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -701,7 +826,6 @@ y^2 + x & = t^2
 Varam pieņemt, ka $x \geq y$. Tad $x^{2} < x^{2}+y < x^{2}+2x+1=(x+1)^{2}$. Tāpēc
 $x^{2}+y$ atrodas starp diviem blakus esošu naturālu skaitļu kvadrātiem. Tātad tas nav
 naturāla skaitļa kvadrāts. Tāpēc sistēmai atrisinājuma naturālos skaitļos nav.
-
 
 
 # <lo-sample/> LV.NOL.2010.10.1
@@ -727,7 +851,6 @@ naturāla skaitļa kvadrāts. Tāpēc sistēmai atrisinājuma naturālos skaitļ
         $a+b+c=(x+y+z)-3 \cdot \frac{n}{3}=0$. Tāpēc
 		$x^{2}+y^{2}+z^{2}=\left(\frac{n}{3}+a\right)^{2}+\left(\frac{n}{3}+b\right)^{2}+\left(\frac{n}{3}+c\right)^{2}=\frac{n^{2}}{3}+\frac{2}{3}n(a+b+c)+\left(a^{2}+b^{2}+c^{2}\right)=\frac{n^{2}}{3}+\left(a^{2}+b^{2}+c^{2}\right) \geq \frac{n^{2}}{3}$,
 		k.b.j.
-
 
 
 # <lo-sample/> LV.NOL.2010.10.2
@@ -778,10 +901,6 @@ Katrs no $4$ saskaitāmajiem dalās ar $ab$:
 * Ja $a=18$, $b=12$, tad $(a-b)^2 = 36$ nedalās ar $ab=216$.
 
 
-
-
-
-
 # <lo-sample/> LV.NOL.2010.10.3
 
 Taisnleņķa trijstūrī $ABC$ augstums no taisnā leņķa $B$ virsotnes ir $BD$. Trijstūros
@@ -807,7 +926,6 @@ $\triangle O_{1}DO_{2} \sim \triangle ABC$ (leņķu vienādība un sānu malu
 proporcionalitāte).
 
 ![](LV.NOL.2010.10.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2010.10.4
@@ -860,10 +978,6 @@ Aplūkojam $x$ paritāti. Vienīgā iespēja: $x$ ir pāru skaitlis: $x=2k$.
 * Kreisā puse dalās ar $8$, bet labā (pie $y>3$) dod atlikumu $2$, dalot ar $8$.
 
 
-
-
-
-
 # <lo-sample/> LV.NOL.2010.10.5
 
 Turnīrā piedalās $6$ komandas. Katrai ar katru citu jāspēlē tieši vienu reizi;
@@ -895,7 +1009,6 @@ Pierādīsim, ka ar $3$ dienām nepietiek. Pieņemot pretējo, pirms divām pēd
 uzvarētāja pārsvaram jābūt vismaz $3$ uzvaras, zaudētāja atpalicībai- tāpat. Bet
 starpība starp uzvarētāju un zaudētāju pēc $3.$ dienas var būt augstākais $3$, un
 $3 < 3+3$.
-
 
 
 # <lo-sample/> LV.NOL.2010.11.1
@@ -934,7 +1047,6 @@ $\left(x_{1}^{5}+x_{2}^{5}\right)=\left(x_{1}^{4}+x_{2}^{4}\right)\left(x_{1}+x_
 un atkal lietojam Vjeta teorēmu līdz ar iepriekšējiem rezultātiem.
 
 
-
 # <lo-sample/> LV.NOL.2010.11.2
 
 Atrisināt veselos skaitļos vienādojumu $\frac{x^{2}}{2}+\frac{5}{y}=7$.
@@ -955,7 +1067,6 @@ $y=\frac{10}{14-x^{2}}$. Tā kā $y$ jābūt veselam un $y \neq 0$, tad jābūt
 $\left|14-x^{2}\right| \leq 10$, no kurienes $4 \leq x^{2} \leq 24$; tā kā apskatām
 $x \geq 0$, tad $2 \leq x \leq 4$. Pārbaudot visas iespējas, iegūstam atrisinājumus
 $(2;1), (-2;1), (3;2), (-3;2),(4;-5) ;(-4;-5)$.
-
 
 
 # <lo-sample/> LV.NOL.2010.11.3
@@ -979,7 +1090,6 @@ Pārveidojam nevienādību par
 $(a-b)+(b-c)+(c-d)+\frac{1}{a-b}+\frac{1}{b-c}+\frac{1}{c-d} \geq 6$ un lietojam
 nevienādību $x+\frac{1}{x} \geq 2$ pie $x=a-b ; b-c ; c-d$. Vienādība pastāv tad un
 tikai tad, kad $a-b=b-c=c-d=1$.
-
 
 
 # <lo-sample/> LV.NOL.2010.11.4
@@ -1007,7 +1117,6 @@ $CC_{1}=AA_{1}$.
 Tāpēc $L(ABN)=L(AMN)+L(BMN)=\frac{1}{2}MN^{2}\left(AA_{1}+BB_{1}\right)$.
 
 Līdzīgi $L(CDM)=\frac{1}{2} MN\left(C_{1}+D_{1}\right)$. No tā arī seko vajadzīgais.
-
 
 
 # <lo-sample/> LV.NOL.2010.11.5
@@ -1042,7 +1151,6 @@ starpība starp uzvarētāju un zaudētāju pēc $5.$ dienas var būt augstākai
 $5 < 3+3$.
 
 
-
 # <lo-sample/> LV.NOL.2010.12.1
 
 Dots, ka $n$ - naturāls skaitlis, kas nedalās ar $5$. Kāda ir mazākā iespējamā ciparu
@@ -1065,7 +1173,6 @@ ir pāra, tad $\left(n^{2}-1\right)\left(n^{2}-4\right)$ dalās ar $10$. Tāpēc
 skaitļa pēdējais cipars ir $7$. Pie $n=1$ un $n=2$ meklējamā ciparu summa ir $7$; pie
 $n \geq 3$ skaitlim ir vismaz divi cipari. Tāpēc tā ciparu summa ir lielāka par $7$.
 Tātad mazākā iespējamā ciparu summa ir $7$, kas tiek sasniegta pie $n=1$ un $n=2$.
-
 
 
 # <lo-sample/> LV.NOL.2010.12.2
@@ -1099,7 +1206,6 @@ Pavisam iznāk $84 \cdot 2 \cdot 10 \cdot 2=3360$.
 ![](LV.NOL.2010.12.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2010.12.3
 
 Atrisināt vienādojumu $\sqrt{1-x^{2}}+\sqrt{1-y^{2}}=2-x^{2}-y^{2}$.
@@ -1118,7 +1224,6 @@ Apzīmējam $1-x^{2}=a$, $1-y^{2}=b$; tad $\sqrt{a}+\sqrt{b}=a+b$. Tā kā
 $0 \leq a \leq 1$ un $0 \leq b \leq 1$, tad $\sqrt{a} \geq a$ un $\sqrt{b} \geq b$,
 turklāt vienādības pastāv tad un tikai tad, ja $a$ un $b$ ir $0$ vai $1$. Tāpēc
 iegūstam $9$ atrisinājumus $(1; 1),(1;-1),(-1; 1),(-1;-1),(1; 0),(-1; 0),(0; 1),(0;-1),(0; 0)$.
-
 
 
 # <lo-sample/> LV.NOL.2010.12.4
@@ -1146,8 +1251,6 @@ Līdzīgi pierāda $\frac{AF}{CD}=\frac{SF}{SD} \quad$ un
 $\quad \frac{ED}{AB}=\frac{SD}{SB}$. Sareizinot šīs vienādības, iznāk
 $\frac{BC}{EF} \cdot \frac{AF}{CD} \cdot \frac{ED}{AB}=1$, no kurienes
 $BC \cdot AF \cdot ED=EF \cdot CD \cdot AB$.
-
-
 
 
 # <lo-sample/> LV.NOL.2010.12.5

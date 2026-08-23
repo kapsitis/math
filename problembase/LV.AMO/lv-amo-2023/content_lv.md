@@ -14,6 +14,11 @@ lai blakus trijstūros ierakstītie skaitļi neatšķiras vairāk kā par $3$.
 * seeAlso:LV.AMO.2023.6.1
 * questionType:FindExample
 * domain:Comb
+* _hasSolutionConcept: FiniteSequenceArrangement, MagicConfiguration, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -23,9 +28,6 @@ lai blakus trijstūros ierakstītie skaitļi neatšķiras vairāk kā par $3$.
 Sk., piemēram, 2. att., kur pelēkā krāsā norādītas atbilstošās starpības.
 
 ![](LV.AMO.2023.5.1A.png)
-
-
-
 
 
 # <lo-sample/> LV.AMO.2023.5.2
@@ -43,6 +45,11 @@ cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari
 * method:MTH_ExhaustiveAlgorithms
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, LastDigit, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _hasReasoningMethod: LastDigitAnalysis, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, IncompleteResidueCases, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -56,7 +63,6 @@ nevar izmantot skaitļu pierakstā.
 **(b)** Jā, var, piemēram, der skaitļi $33$ un $231$, jo $33 \cdot 7 = 231$.
 
 
-
 # <lo-sample/> LV.AMO.2023.5.3
 
 Rūtiņu lapā, kurā katras rūtiņas malas garums ir $1$, uzzīmē daudzstūri, kuram gan perimetra, gan
@@ -68,6 +74,11 @@ laukuma vērtība ir tāda pati kā malu skaits!
 * topic:SquareGridShapes
 * subdomain:DOM_IntegerLattices
 * domain:Geom
+* _hasSolutionConcept: Polygon, LatticeGrid, FiniteSet
+* _readingDifficulty: medium
+* _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -98,6 +109,11 @@ rūtiņas var pārvietot uz kreiso augšējo rūtiņu, ja kvadrāta izmēri ir:
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_FixedInvariant
+* _hasSolutionConcept: ChessboardColoring, Invariant, LatticeGrid
+* _readingDifficulty: medium
+* _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -131,6 +147,11 @@ Kāds ir lielākais iespējamais viesu skaits, kas bija ieradušies uz Gunas dzi
 * method:MTH_ExtremeElements,ContradictionForExistence
 * domain:Comb
 * topic:LinearOptimization
+* _hasSolutionConcept: FiniteSet, CaseAnalysis, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -171,8 +192,6 @@ pretruna, tātad pieņēmums ir aplams un $22$ viesus Guna pacienāt nevar. Ja v
 viesus, tad nevar arī vairāk, un $21$ ir lielākais iespējamais viesu skaits.
 
 
-
-
 # <lo-sample/> LV.AMO.2023.6.1
 
 Skaitļus no $1$ līdz $16$ ieraksti 7.att. redzamajos mazajos trijstūros 
@@ -187,6 +206,11 @@ lai blakus trijstūros ierakstīties skaitļi neatšķiras vairāk kā par $4$.
 
 * questionType:FindExample
 * domain:Comb
+* _hasSolutionConcept: FiniteSequenceArrangement, MagicConfiguration, PositiveIntegers, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -209,6 +233,11 @@ iegūst, otro skaitli pareizinot pašu ar sevi. Vai var gadīties, ka abu skait�
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, LastDigit, PerfectSquares, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: LastDigitAnalysis, NumberConstruction
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -238,6 +267,11 @@ ar ko tai ir kopīga mala.
 
 * questionType:FindExample,FindExample
 * domain:Geom
+* _hasSolutionConcept: Tiling, AxialSymmetry, LatticeGrid, ConnectedGraph
+* _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -268,6 +302,11 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 * questionType:FindCount
 * domain:Comb
 * method:MTH_ContradictionForExistence
+* _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ProofByContradiction
+* _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -299,7 +338,6 @@ $x=10−x$ jeb $x=5$.
 Ja pirmie pieci bruņinieki ir sarkanie un pēdējie pieci ir zaļie, tad uzdevuma nosacījumi izpildās.
 
 
-
 # <lo-sample/> LV.AMO.2023.6.5
 
 Latvijā, tāpat kā visās eirozonas valstīs, apgrozībā ir $1$; $2$; $5$; 
@@ -316,6 +354,11 @@ komplektu viennozīmīgi nav iespējams noteikt?
 * questionType:FindOptimal
 * domain:Comb
 * method:MTH_ExtremeElements
+* _hasSolutionConcept: NumberPartitions, ExhaustiveCheck, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility, ExtremalElementArgument
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -377,6 +420,11 @@ skaitļiem nebūtu vienādu ciparu?
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
 * topic:GraphIndependentSet
+* _hasSolutionConcept: PositiveIntegers, DigitRepresentation, FiniteSequenceArrangement, PigeonholePrinciple
+* _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -420,6 +468,11 @@ kuram vienlaicīgi izpildās šādi nosacījumi:
 * subdomain:DOM_SpecialNumbers
 * topic:DivisibilityRulesFor2And4
 * topic:NumTheoryInequalityMethod
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRules, DigitSum, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample, NonCoprimeFactorDivisibility
+* _mistakesFit: high
 
 </small>
 
@@ -465,6 +518,11 @@ rūtiņas uz blakus rūtiņu, ar ko tai ir kopīga mala.
 * domain:Geom
 * subdomain:DOM_GridCut
 * topic:AxisSymmetryConstructions
+* _hasSolutionConcept: Tiling, AxialSymmetry, LatticeGrid, ConnectedGraph
+* _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -473,7 +531,6 @@ rūtiņas uz blakus rūtiņu, ar ko tai ir kopīga mala.
 Skat., piemēram, **(a)** 13. att. un **(b)** 14. att.
 
 ![](LV.AMO.2023.7.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2023.7.4
@@ -497,6 +554,11 @@ komplektu viennozīmīgi nav iespējams noteikt?
 * subdomain:DOM_NumberPartitionsCompositions
 * method:MTH_ExhaustiveAlgorithms
 * topic:CountingUsingSymmetry
+* _hasSolutionConcept: NumberPartitions, ExhaustiveCheck, FrobeniusType
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -530,9 +592,6 @@ komplektu varēja noteikt viennozīmīgi,
 tādēļ $S=8$ ir mazākā iespējamā $S$ vērtība.
 
 
-
-
-
 # <lo-sample/> LV.AMO.2023.7.5
 
 Uz palodzes sēž vairākas bizbizmārītes, 
@@ -558,6 +617,11 @@ Cik bizbizmārīšu sēž uz palodzes?
 * method:MTH_ContradictionForExistence
 * subdomain:DOM_Logic
 * topic:Divisibility
+* _hasSolutionConcept: TruthTellersAndLiars, SelfReferentialStatements, DivisibilityRelation, CaseAnalysis
+* _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -593,8 +657,7 @@ kas nav iespējams, jo $31$ nedalās ar $7$. Tātad patiesību
 saka trešā bizbizmārīte un atlikušajām kopā ir $32 − 11 = 21$
 punktiņš un bez pirmajām trim bizbizmārītēm ir vēl $21 ∶ 7 = 3$ 
 bizbizmārītes. Tātad kopā uz palodzes
-sēž $6$ bizbizmārītes. 
-
+sēž $6$ bizbizmārītes.
 
 
 # <lo-sample/> LV.AMO.2023.8.1
@@ -610,14 +673,18 @@ daļas būtu nesaīsināmas: $\frac{A}{B} + \frac{C}{D} = \frac{E}{F}$.
 * domain:NT
 * subdomain:DOM_NumberRepresentation
 * topic:RationalNumbers
-
+* _hasSolutionConcept: RationalNumbers, DigitRepresentation, CoprimeIntegers, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 
 ## Atrisinājums
 
-Jā, var, piemēram, $\frac{7}{3} + \frac{1}{6} = \frac{5}{2}$. 
+Jā, var, piemēram, $\frac{7}{3} + \frac{1}{6} = \frac{5}{2}$.
 
 
 # <lo-sample/> LV.AMO.2023.8.2
@@ -636,7 +703,11 @@ ciparus pretējā secībā. Kāds var būt skaitlis $x$?
 * subdomain:DOM_DigitManipulation
 * topic:NotationPolynomial
 * topic:DivisibilityRulesFor3And9
-
+* _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRelation, DivisibilityRules, LinearEquation
+* _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, DivisibilityRules, BoundingArgument, AlgebraicManipulationForInteger
+* _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -664,7 +735,6 @@ a - c = 1.\\ \end{aligned}$$
 Tā kā $c=3$, tad $a=4$. Tā kā $a+b=9$, tad $b=5$.
 
 
-
 # <lo-sample/> LV.AMO.2023.8.3
 
 Divi vienādmalu trijstūri novietoti plaknē kā parādīts 15. att. 
@@ -681,6 +751,11 @@ Izsaki leņķi $CGF$ ar $\alpha$ un $\beta$.
 * subdomain:DOM_AnglesParallelsSimilarity
 * topic:VerticalAngles
 * topic:TriangleInternalAngles
+* _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
+* _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing, TriangleAngleSum, IsoscelesTriangleProperties
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -725,6 +800,11 @@ Dorotejai un Almai iedotajām naudas summām?
 * subdomain:DOM_WordProblems
 * method:MTH_ExhaustiveAlgorithms
 * topic:SequencePeriodicity
+* _hasSolutionConcept: DivisionWithRemainder, LCM, ExhaustiveCheck, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: BruteForceCheckOverFiniteSet, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -779,6 +859,11 @@ Cik bizbizmārītes sēž uz palodzes?
 * subdomain:DOM_Logic
 * method:MTH_ContradictionForExistence
 * topic:Divisibility
+* _hasSolutionConcept: TruthTellersAndLiars, SelfReferentialStatements, ConsistencyCheck, DivisibilityRelation
+* _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -816,7 +901,6 @@ $24∶8=3$ bizbizmārītes. Tātad kopā uz palodzes sēž $6$
 bizbizmārītes.
 
 
-
 # <lo-sample/> LV.AMO.2023.9.1
 
 Uz tāfeles uzrakstīta daļa $\frac{10}{2023}$. 
@@ -833,6 +917,11 @@ un saucēju. Vai, atkārtojot
 * subdomain:DOM_MakingMoves
 * method:MTH_Monovariant
 * topic:ProvingInequalities
+* _hasSolutionConcept: RationalNumbers, PositiveIntegers, Invariant, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, MonovariantStrictlyChangingQuantity
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -862,6 +951,11 @@ Zināms, ka $12a + 9b$ dalās ar $13$. Kāds var būt skaitlis $\overline{cd}$?
 * domain:NT
 * subdomain:DOM_DigitManipulation
 * topic:NotationPolynomial
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, MultiplesSet
+* _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger, CompleteEnumeration
+* _hasReasoningMistake: CarelessModularComputation, WrongDivisibilityDirection, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -894,6 +988,11 @@ virsotnes, ir divas reizes garāka nekā augstums no tās pašas virsotnes!
 * subdomain:DOM_Triangles
 * topic:TrianglesRight
 * topic:TriangleInternalAngles
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum
+* _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, TriangleAngleSum, AuxiliaryLines, AngleAtCenterAndCircumference
+* _hasReasoningMistake: WrongAngleDecomposition, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -918,7 +1017,6 @@ tā ir vienāda ar pusi no hipotenūzas $AM$ jeb $AM = 2AH$.
 ![](LV.AMO.2023.9.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2023.9.4
 
 Uz katras no $36$ kartītēm uzrakstīts kāds naturāls skaitlis 
@@ -938,6 +1036,11 @@ kartītēm uzrakstīto skaitļu summas ir vienādas?
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
 * topic:DoubleCounting
+* _hasSolutionConcept: FiniteSet, SetPartition, PigeonholePrinciple, ProofByContradiction, Counterexample
+* _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, PigeonholePrincipleBasic
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -970,7 +1073,6 @@ kartīšu summa ir $4 \cdot 1 = 4$. Esam ieguvuši pretrunu, ko izraisīja pieņ
 ka kartītes sešās grupās pa sešām katrā ar vienādu skaitļu kopsummu sadalīt ir iespējams.
 
 
-
 # <lo-sample/> LV.AMO.2023.9.5
 
 Pirmie sešpadsmit naturālie skaitļi patvaļīgā secībā izvietoti pa apli, 
@@ -985,6 +1087,11 @@ Vai var gadīties, ka: **(A)** $S = 100$; **(B)** $S = 123$?
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_FixedInvariant
 * topic:ModularParity
+* _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, ParityInvariant, Invariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -1011,8 +1118,6 @@ Ja mēs katru negatīvo starpību pārvērstu par pozitīvu, lai rezultātā ieg
 kā tas aprakstīts uzdevuma nosacījumos, tad pie $0$ būtu pakāpeniski jāpieskaita pāra skaitļi. 
 Tātad neatkarīgi no tā, kā pa apli ir izkārtoti pirmie $16$ naturālie
 skaitļi, skaitlis $S$ vienmēr būs pāra skaitlis.
-
-
 
 
 # <lo-sample/> LV.AMO.2023.10.1
@@ -1064,8 +1169,6 @@ $x = 10−x$ jeb $x=5$.
 Ja pirmie pieci bruņinieki ir sarkanie un pēdējie pieci – zaļie, tad izpildās uzdevuma nosacījumi.
 
 
-
-
 # <lo-sample/> LV.AMO.2023.10.2
 
 Pierādīt, ka $9x^2 + 5y^2 − 8xy − 4x + 2 > 0$ visām reālām $x$ un $y$ vērtībām!
@@ -1090,8 +1193,6 @@ $$\begin{array}{c}
 Tā kā skaitļa kvadrāts ir nenegatīvs, tad pēdējās nevienādības kreisajā pusē ir četri nenegatīvi
 saskaitāmie un vēl pozitīvs skaitlis $1$. Tātad pēdējā nevienādība ir patiesa. Tā kā tika veikti ekvivalenti
 pārveidojumi, tad arī dotā nevienādība ir patiesa visiem reāliem skaitļiem $x$ un $y$.
-
-
 
 
 # <lo-sample/> LV.AMO.2023.10.3
@@ -1178,7 +1279,6 @@ Tātad
 $$360^{\circ} − 7\alpha = 240^{\circ} − 2\alpha \;\;\Rightarrow\;\; \alpha = 24^{\circ}.$$
 
 
-
 # <lo-sample/> LV.AMO.2023.10.4
 
 Uz katras no $72$ kartītēm uzrakstīts kāds naturāls skaitlis 
@@ -1263,9 +1363,6 @@ pretrunu, ko izraisīja pieņēmums, ka ir iespējams sadalīt kartītes
 $12$ grupās pa sešām katrā ar vienādu skaitļu kopsummu.
 
 
-
-
-
 # <lo-sample/> LV.AMO.2023.10.5
 
 Uz tāfeles uzrakstīti visi naturālie skaitļi no $1$ līdz $100$ 
@@ -1302,8 +1399,6 @@ Ja nodzēstais skaitlis ir $y$, tad $(S − y)$ jādalās ar 99.
 Tātad $(51 \cdot 99 + 1 − y)$ jādalās ar $99$. Tas nozīmē,
 ka $y$ (kam jādod atlikums $1$, dalot ar $99$) 
 var būt tikai $1$ vai $100$.
-
-
 
 
 # <lo-sample/> LV.AMO.2023.11.1
@@ -1366,8 +1461,6 @@ kā vienu “Sarkano magoni”, tātad pāri jāpaliek vismaz $45 − 37 = 7$
 pretruna, tātad pieņēmums ir aplams, un Māris nevar pacienāt $38$ viesus. 
 Ja viņš nevar pacienāt $38$
 viesus, tad nevar arī vairāk, un lielākais iespējamais viesu skaits ir $37$.
-
-
 
 
 # <lo-sample/> LV.AMO.2023.11.2
@@ -1527,7 +1620,6 @@ $12$ grupās pa sešām katrā ar vienādu
 skaitļu kopsummu.
 
 
-
 # <lo-sample/> LV.AMO.2023.11.5
 
 Atrisināt veselos skaitļos vienādojumu $17a^2 - 7b^2 + c^2 = 2023$.
@@ -1562,7 +1654,6 @@ skaitli, kas atlikumā, dalot ar $8$, dotu $7$.
 Tātad šim vienādojumam nav atrisinājuma.
 
 
-
 # <lo-sample/> LV.AMO.2023.12.1
 
 Vai burtu vietā var ierakstīt $9$ dažādus nenulles ciparus, 
@@ -1580,7 +1671,7 @@ būtu patiesa?
 ## Atrisinājums 
 
 Jā, var, piemēram,
-$\frac{5}{4} + \frac{9}{3} + \frac{6}{8} + \frac{2}{1} = 1\frac{1}{4} + 3 + \frac{3}{4} + 2 = 7$. 
+$\frac{5}{4} + \frac{9}{3} + \frac{6}{8} + \frac{2}{1} = 1\frac{1}{4} + 3 + \frac{3}{4} + 2 = 7$.
 
 
 # <lo-sample/> LV.AMO.2023.12.2
@@ -1609,7 +1700,6 @@ $$\begin{array}{c}2x^2 − 8xy + 4x + 9y^2 − 14y + 9 = \\
 
 Tā kā kvadrāti ir nenegatīvi, tad dotās izteiksmes mazākā vērtība 
 ir $−2$ un to iegūst, ja $y = 3$ un $x = 5$.
-
 
 
 # <lo-sample/> LV.AMO.2023.12.3
@@ -1650,8 +1740,6 @@ $$S_{CEF} = \frac{1}{2}S_{EFGH} = \frac{S_{BDEF} - S_{BDHG}}{2} =
 \frac{a^2 + b^2 - ab}{2} = \frac{(a-b)^2 + ab}{2} \geq \frac{ab}{2} = S_{ABD}.$$
 
 ![](LV.AMO.2023.12.3A.png)
-
-
 
 
 # <lo-sample/> LV.AMO.2023.12.4
@@ -1745,7 +1833,6 @@ taisnstūri ar neatzīmētu rūtiņu.
 ![](LV.AMO.2023.12.4E.png)
 
 
-
 # <lo-sample/> LV.AMO.2023.12.5
 
 Vai eksistē tāds naturāls skaitlis, kuram tieši 
@@ -1795,7 +1882,3 @@ dalot ar $3$, dod atlikumu $1$. Apskatām divus gadījumus.
 
 Tā kā skaitlim $3 \cdot 2^{24}$ ir $50$ dalītāji, tad $\frac{13}{50} = 26\%$ 
 no tiem atlikumā dod $1$, dalot ar $3$.
-
-
-
-

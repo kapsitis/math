@@ -9,8 +9,13 @@ pirmais cipars par $2$ mazāks nekā visu citu ciparu summa.
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal,FindOptimal
+* domain:NT
+* _hasSolutionConcept: DigitRepresentation, DigitSum, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundingArgument
+* _hasReasoningMistake: MissingBoundOrExample, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -22,7 +27,6 @@ cipars, gan mazākie iespējamie pārējie cipari.
 **(B)** Lielākais ciparu skaits tiks sasniegts, ja cipari, sākot no otrā, būs 
 vieninieki. Tāpēc meklējamais skaitlis ir $\mathbf{911111111111}$ ($11$ 
 vieninieki).
-
 
 
 # <lo-sample/> LV.AMO.2004.5.2
@@ -40,7 +44,12 @@ ir jautājuma zīme?
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
+* _hasSolutionConcept: PositiveIntegers, MagicConfiguration, FiniteSequenceArrangement, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -53,7 +62,6 @@ $z=8$. Tad nevar būt $y=15$. Tāpēc $y=16,\ t=15$ un tabulu var aizpildīt ar�
 tālāk: $u=1,\ x=2$.
 
 ![](LV.AMO.2004.5.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2004.5.3
@@ -75,7 +83,12 @@ dzīvoja blakus rūtiņās, arī kvadrātā dzīvotu blakus rūtiņās?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, Invariant
+* _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -88,7 +101,6 @@ Tāpēc no stūra rūtiņām taisnstūrī jāpārceļas uz stūra rūtiņām kva
 izšķir divus pārus.
 
 
-
 # <lo-sample/> LV.AMO.2004.5.4
 
 Vai eksistē taisnstūris, kura malas iet pa rūtiņu līnijām un kuru var sagriezt 
@@ -99,8 +111,13 @@ tādās daļās, kādas attēlotas 2.zīm.? Jābūt vismaz vienai katra veida da
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, ProofByContradiction, Invariant
+* _readingDifficulty: high
+* _hasReasoningMethod: ProofByContradiction, CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -116,7 +133,6 @@ apskatāmo - pretruna.
 ![](LV.AMO.2004.5.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2004.5.5
 
 Vai naturālos skaitļus no $1$ līdz $10$ ieskaitot var izrakstīt rindā katru 
@@ -129,7 +145,12 @@ Vai līdzīgā veidā var uzrakstīt naturālos skaitļus no $1$ līdz $13$ iesk
 <small>
 
 * questionType:
-* domain:
+* domain:NT,Comb
+* _hasSolutionConcept: FiniteSequenceArrangement, DivisibilityRelation, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -140,7 +161,6 @@ Vai līdzīgā veidā var uzrakstīt naturālos skaitļus no $1$ līdz $13$ iesk
 **(B)** jā, piemēram: $7,\ 1,\ 8,\ 2,\ 9,\ 3,\ 10,\ 4,\ 11,\ 5,\ 12,\ 6,\ 13$.
 
 
-
 # <lo-sample/> LV.AMO.2004.6.1
 
 Dots, ka $19$ vienādas grāmatas kopā maksā $24$ latus ar santīmiem, bet $18$ 
@@ -148,8 +168,13 @@ tādas pašas grāmatas $22$ latus ar santīmiem. Cik maksā $1$ grāmata?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindAll
+* domain:Alg
+* _hasSolutionConcept: RationalNumbers, LinearEquation
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, NumericalEstimation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -158,7 +183,6 @@ tādas pašas grāmatas $22$ latus ar santīmiem. Cik maksā $1$ grāmata?
 Ja vienas grāmatas cena ir $x$ santīmi, tad $2400 \leq 19 x \leq 2499$ un 
 $2200 \leq 18 x \leq 2299$. Tāpēc $x>126$ un $x<128$ (tiešām, 
 $126 \cdot 19=2394$ un $128 \cdot 18=2304$). Tāpēc grāmata maksā Ls $1,27$.
-
 
 
 # <lo-sample/> LV.AMO.2004.6.2
@@ -170,9 +194,14 @@ izgriezt no 3.zīm. attēlotās figūras?
 
 <small>
 
-* questionType:
-* domain:
+* questionType:FindOptimal
+* domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, ChessboardColoring, FiniteSet, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -182,7 +211,6 @@ Tā kā katrs taisnstūris satur vismaz $1$ melnu rūtiņu, tad to nav vairāk p
 $9$ (skat.zīm.). Izgriezt $9$ taisnstūrus var ļoti daudzos veidos.
 
 ![](LV.AMO.2004.6.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2004.6.3
@@ -196,7 +224,12 @@ divas kaudzītes, kurās kopā ir tieši $13$ sērkociņu.
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: PigeonholePrinciple, FiniteSet, ProofByContradiction
+* _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, RuleOfSumDisjointCases
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: medium
 
 </small>
 
@@ -206,7 +239,6 @@ Pieņemam pretējo tam, kas jāpierāda. Tad no katra skaitļu pāra
 $(1;\ 12),\ (2;\ 11),\ (3;\ 10),\ (4;\ 9),\ (5;\ 8),\ (6;\ 7)$ augstākais viens
 var būt sērkociņu skaits kādā kaudzītē. Tāpēc sērkociņu nav vairāk par 
 $7+8+9+10+11+12=57$ - pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2004.6.4
@@ -221,7 +253,12 @@ Kas uzvar, pareizi spēlējot - pirmais vai otrais spēlētājs?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: GamePosition, WinningLosingPositions, Invariant, LatticeGrid
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -236,7 +273,6 @@ noteikti uzvar, tad tas ir pirmais.
 ![](LV.AMO.2004.6.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2004.6.5
 
 No sākuma uz tāfeles uzrakstīti skaitļi $2;\ 3;\ 4;\ 5;\ 6$ (katrs vienu 
@@ -248,7 +284,12 @@ vienlaicīgi atrodas skaitļi $21;\ 27;\ 64;\ 180;\ 225$?
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
+* _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
+* _readingDifficulty: medium
+* _hasReasoningMethod: ProofByContradictionInAlgebra, ParityOrModularArgumentForEquations
+* _hasReasoningMistake: ConcreteToGeneralLeap, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -256,7 +297,6 @@ vienlaicīgi atrodas skaitļi $21;\ 27;\ 64;\ 180;\ 225$?
 
 Viegli izsekot, ka pieļauto gājienu rezultātā uz tāfeles esošo pāra skaitļu 
 daudzums nevar samazināties. Tāpēc prasītais nav sasniedzams.
-
 
 
 # <lo-sample/> LV.AMO.2004.7.1
@@ -274,6 +314,12 @@ Pierādīt, ka $(x-y)(z-t)>0$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: ProofByContradiction, CaseAnalysis, BinaryRelation
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, ProofByContradictionInAlgebra
+* _hasReasoningMistake: CaseAnalysisIncomplete, CircularReasoningOrAssumingTheConclusion, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -285,7 +331,6 @@ Tad $\max (x,\ y)+\max (z,\ t)=x+t$. Ja $x+t=x+z$, tad $z=t$ - pretruna.
 
 Ja $x+t=y+t$, tad $x=y$ - pretruna. Līdzīgi iegūst pretrunu, ja $x<y$ un $z>t$.
 Tāpēc vai nu $x>y$ un $z>t$, vai arī $x<y$ un $z<t$.
-
 
 
 # <lo-sample/> LV.AMO.2004.7.2
@@ -301,6 +346,12 @@ ir $180^{\circ}$.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleAngleSum, TriangleCongruence, ParallelPerpendicular
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: AngleChasing, CongruentTriangles, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -323,7 +374,6 @@ $\sphericalangle MNC=\sphericalangle MHC=90^{\circ}$, k.b.j.
 ![](LV.AMO.2004.7.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2004.7.3
 
 Kādam mazākajam naturālajamam $n$ visas daļas 
@@ -337,6 +387,12 @@ ir nesaīsināmas?
 * concepts:fractions,gcd
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: RationalNumbers, GCD, CoprimeIntegers
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: PrimePropertiesAndUniqueness, AlgebraicManipulationForInteger
+* _hasReasoningMistake: MissingBoundOrExample, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -360,9 +416,6 @@ $$\mbox{LKD}(k,n+(k+2))=\mbox{LKD}(k,n+2)=1,\;\;k=5,\ldots,36.$$
 $n+2=37$ ir savstarpējs pirmskaitlis ar visiem $k \in [5;36]$, t.i. $n=35$.
 
 
-
-
-
 # <lo-sample/> LV.AMO.2004.7.4
 
 Izliektā $7$-stūrī $ABCDEFG$ punkti 
@@ -375,6 +428,12 @@ un $FF_{1} \perp BC$. Pierādīt, ka $GG_{1} \perp CD$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Polygon, Triangle, TriangleSpecialLines, TriangleCongruence, ParallelPerpendicular
+* _readingDifficulty: high
+* _domain: Geom
+* _hasReasoningMethod: IsoscelesTriangleProperties
+* _hasReasoningMistake: ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -384,7 +443,6 @@ Trijstūrī $DAE$ augstums sakrīt ar mediānu, tāpēc tas ir vienādsānu un $
 Līdzīgi $BE=BF,\ CF=CG,\ DG=DA,\ EA=EB,\ FB=FC$. No šīm vienādībām seko, ka arī
 $GC=GD$. Tātad $\Delta CGD$ ir vienādsānu; tāpēc tā mediāna pret pamatu ir arī 
 augstums, k.b.j.
-
 
 
 # <lo-sample/> LV.AMO.2004.7.5
@@ -398,6 +456,12 @@ diplomātus, kas savā starpā sazinoties lieto visas $3$ valodas.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, VertexDegree, Coloring, Triangle
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, RuleOfSumDisjointCases
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -420,7 +484,6 @@ visas malas nokrāsotas dažādi. Katra šāda trijstūra virsotnes dod mums
 vajadzīgo diplomātu trijnieku.
 
 
-
 # <lo-sample/> LV.AMO.2004.8.1
 
 Dots, ka kvadrātvienādojuma $x^{2}+px+q=0$ saknes ir $x_{1}$ un $x_{2}$, bet 
@@ -431,6 +494,12 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticEquation, VietasFormulas, PolynomialAndRoots
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: VietasFormulas, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -441,7 +510,6 @@ $b=x_{1}^{2} \cdot x_{2}^{2}=\left(x_{1}x_{2}\right)^{2}=q^{2}$,
 
 bet 
 $a=-\left(x_{1}^{2}+x_{2}^{2}\right)=2x_{1}x_{2}-\left(x_{1}+x_{2}\right)^{2}=2q-p^{2}$.
-
 
 
 # <lo-sample/> LV.AMO.2004.8.2
@@ -458,6 +526,12 @@ nogriežņu $AB,\ BD,\ DC,\ CA$ viduspunkti. Pierādīt, ka $XZ \perp YT$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, CircleAndDisk, QuadrilateralFamilies, ParallelPerpendicular
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: ParallelogramProperties, IsoscelesTriangleProperties
+* _hasReasoningMistake: MisuseOfMidpointOrParallel, RelyingOnDiagramAppearance, ConflatingPropertyAndCriterion
+* _mistakesFit: medium
 
 </small>
 
@@ -468,7 +542,6 @@ viduslīniju īpašībām seko $XY=YZ=ZT=TX$. Tāpēc $XYZT$ - rombs; tāpēc
 $XZ \perp YT$.
 
 ![](LV.AMO.2004.8.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2004.8.3
@@ -486,6 +559,12 @@ $A=B$.
 * subdomain:DOM_DigitManipulation
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, GCD, DigitRepresentation
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: PositionalNotation, BoundingArgument
+* _hasReasoningMistake: WrongDivisibilityDirection, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -494,7 +573,6 @@ $A=B$.
 Acīmredzot $X=\overline{AB}=100A+B,\ Y=100B+A$. Tāpēc $X-Y=99(A-B)$, un 
 $99(A-B)$ dalās ar $91$. Skaitļu $99$ un $91\ LKD$ ir $1$, tāpēc $A-B$ dalās ar
 $91$. Bet $|A-B| \leq 89$. Tāpēc $|A-B|=0$ un $A=B$, k.b.j.
-
 
 
 # <lo-sample/> LV.AMO.2004.8.4
@@ -510,6 +588,12 @@ garumu.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DissectionIntoCongruent, Invariant
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: CountingByDoubleCounting, AreaCounting
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -520,7 +604,6 @@ laukumu kvadrātcentimetros. Tāpēc visu daļu perimetru summa ir
 $20000~\mathrm{cm}$ jeb $200~\mathrm{m}$. Šī summa sastāv no kvadrāta perimetra
 $4~\mathrm{m}$ un divkāršota visu novilkto līniju kopējā garuma $2L$. Tāpēc 
 $2L=200~\mathrm{m}-4~\mathrm{m}=196~\mathrm{m}$ un $L=98~\mathrm{m}$.
-
 
 
 # <lo-sample/> LV.AMO.2004.8.5
@@ -541,6 +624,12 @@ rīkojamies tāpat, utt., kamēr paliek neizsvītrots viens skaitlis. Kurš tas 
 * questionType:FindAll
 * domain:NT
 * method:MTH_InductiveAlgorithms
+* _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, RecurrentSequence, Invariant
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: InvariantMethod, ParityArgument, BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -577,8 +666,6 @@ Pēc $n$ svītrošanām pirmais palikušais ir $x_n$. Pamato
 $x_{n+1} = \left\lceil 3x_n/2 \right\rceil$ pāru un nepāru $x_n$.
 
 
-
-
 # <lo-sample/> LV.AMO.2004.9.1
 
 Dots, ka vienādojumam 
@@ -590,6 +677,12 @@ $x^{2}+p_{1}x+q_{1}=0$ un $x^{2}+p_{2}x+q_{2}=0$ arī eksistē atrisinājums.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticEquation, ProofByContradiction, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: ProofByContradictionInAlgebra
+* _hasReasoningMistake: CircularReasoningOrAssumingTheConclusion, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -599,7 +692,6 @@ Pretējā gadījumā **katram** $x$ pastāv nevienādības $x^{2}+p_{1}x+q_{1}>0
 $^{2}+p_{2}x+q_{2}>0$, bet tad arī katram 
 $x \quad 2x^{2}+\left(p_{1}+p_{2}\right) x+\left(q_{1}+q_{2}\right)>0$ - 
 pretruna.
-
 
 
 # <lo-sample/> LV.AMO.2004.9.2
@@ -613,6 +705,12 @@ vienas cilts rūķīši, attālums starp kuriem ir vai nu $a$, vai $b$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PositiveIntegers, EvenOddParity, ProofByContradiction, PigeonholePrinciple
+* _readingDifficulty: high
+* _domain: Comb,NT
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -629,7 +727,6 @@ $1 \cdot b$ dzīvo šillišalla, punktā $2 \cdot b$ - votivapa, $\ldots$,
 Līdzīgi iegūst pretrunu, ja punktā $0$ dzīvo šillišalla.
 
 
-
 # <lo-sample/> LV.AMO.2004.9.3
 
 Dots, ka $ABCD$ - kvadrāts, bet $w$ - riņķa līnija, kas iet caur $A$ un $B$; 
@@ -641,6 +738,12 @@ $EM \perp BC$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CircleAndDisk, Triangle, TriangleSpecialLines, ParallelPerpendicular
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -652,7 +755,6 @@ $EF=EC$ un $\triangle CEF$ ir vienādsānu; tāpēc mediāna $EM$ tajā ir arī
 augstums.
 
 ![](LV.AMO.2004.9.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2004.9.4
@@ -669,6 +771,12 @@ rūķīšus.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, VertexDegree, FiniteSet, ProofByContradiction
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic, ExtremalElementArgument
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -687,7 +795,6 @@ nebūtu saticis $R$ - pretruna.
 No minētā seko, ka $R$ satika visus rūķīšus.
 
 
-
 # <lo-sample/> LV.AMO.2004.9.5
 
 Kvadrāts sastāv no $n \times n$ rūtiņām. Katrā rūtiņā jāieraksta viens no 
@@ -701,6 +808,12 @@ Vai to var izdarīt, ja **(A)** $n=4$; **(B)** $n=5$?
 * concepts:sum
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _hasSolutionConcept: MagicConfiguration, PositiveAndNegative, EvenOddParity, ExhaustiveCheck
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: CompleteEnumeration, ParityArgument, ProofByContradiction, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -741,7 +854,6 @@ Jābūt $x \neq y$ un $z \neq t$. Pārbaudot visas iespējas, katrā no tām ieg
 pretrunu.
 
 
-
 # <lo-sample/> LV.AMO.2004.10.1
 
 Atrast mazāko pozitīvo skaitli $a$, kam piemīt īpašība: ja $x>y>a$, tad 
@@ -764,7 +876,6 @@ $x^{2}-2x>y^{2}-2y$.
 $\left(x_{1}-1\right)^{2}>\left(x_{2}-1\right)^{2}$, skat. zīm.
 
 ![](LV.AMO.2004.10.1A.png)
-
 
 
 # <lo-sample/> LV.AMO.2004.10.2
@@ -801,7 +912,6 @@ $\sin \left(90^{\circ}-\frac{\omega}{2}\right)=\sin \left(90^{\circ}+\frac{\omeg
 un izmantot sinusu teorēmu $MN=2R \cdot \sin \sphericalangle MON$.
 
 
-
 # <lo-sample/> LV.AMO.2004.10.3
 
 Dots, ka $n$ - naturāls skaitlis.
@@ -825,7 +935,6 @@ kvadrāts,
 **(B)** apzīmējam $n+5=x$; pētāmais skaitlis ir $\sqrt{x^{2}+x}$. Viegli 
 pārbaudīt, ka naturāliem $x$ pastāv nevienādības $x+0,4<\sqrt{x^{2}+x}<x+0,5$. 
 Tāpēc meklējamais cipars ir $4$.
-
 
 
 # <lo-sample/> LV.AMO.2004.10.4
@@ -860,7 +969,6 @@ sasniedzams, ja viens amatieris uzvar visus citus amatierus un ir vienīgais no
 amatieriem, kas uzvar profesionāļus (citu spēļu rezultātam nav nozīmes).
 
 
-
 # <lo-sample/> LV.AMO.2004.10.5
 
 Vai, izmantojot tikai $3$ dažādus ciparus, var uzrakstīt $16$ trīsciparu 
@@ -890,7 +998,6 @@ dažādus atlikumus šiem divciparu skaitļiem, dalot tos ar $8$, un divi no tie
 dos vienādus atlikumus; tad to starpība dalīsies ar $8$.
 
 
-
 # <lo-sample/> LV.AMO.2004.11.1
 
 Vai eksistē tāds naturāls skaitlis $n$, ka $2004^{n}-1$ dalās ar $1500^{n}-1$?
@@ -914,7 +1021,6 @@ Tā kā $LKD\left(2^{n}, 1500^{n}-1\right)=1$, tad $1002^{n}-750^{n}:1500^{n}-1$
 Bet tas nav iespējams, jo $0<1002^{n}-750^{n}<1500^{n}-1$.
 
 
-
 # <lo-sample/> LV.AMO.2004.11.2
 
 Kvadrāts $ABCD$ sastāv no $4 \times 4$ vienādām kvadrātiskām rūtiņām. Katrā 
@@ -934,7 +1040,6 @@ kopīga mala. Cik dažādi kvadrāta krāsojumi iespējami?
 **Atbilde:** $4^{4}=256$. Viegli redzēt, ka rūtiņas uz vienas diagonāles var 
 nokrāsot patvaļīgi un ka šis krāsojums viennozīmīgi nosaka citu rūtiņu 
 krāsojumu.
-
 
 
 # <lo-sample/> LV.AMO.2004.11.3
@@ -964,7 +1069,6 @@ riņķa līnijas. No abiem pasvītrotajiem apgalvojumiem seko vajadzīgais.
 ![](LV.AMO.2004.11.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2004.11.4
 
 Dots, ka $a$ un $b$ - pozitīvi skaitļi. Pierādīt, ka
@@ -986,7 +1090,6 @@ $a \lg a+b \lg b \geq b \lg a+a \lg b$
 $$(a-b)(\lg a-\lg b) \geq 0$$
 
 Vajadzīgais seko no tā, ka $y=\lg x$ - augoša funkcija pie $x>0$.
-
 
 
 # <lo-sample/> LV.AMO.2004.11.5
@@ -1031,7 +1134,6 @@ starpā nedraudzējas un otrādi).
 Viegli pārbaudīt, ka uzdevuma nosacījumi ir izpildīti.
 
 
-
 # <lo-sample/> LV.AMO.2004.12.1
 
 Dots, ka $n$ - naturāls skaitlis, $n>1$. Vai izteiksmi
@@ -1055,7 +1157,6 @@ skaitļi?
 Viegli pārbaudīt, ka apskatāmā izteiksme vienāda ar
 
 $$\left(x^{n+1}+x^{n}+x^{n-1}+\ldots+x+1\right)\left(x^{n-1}+x^{n-2}+\ldots+x+1\right)$$
-
 
 
 # <lo-sample/> LV.AMO.2004.12.2
@@ -1094,7 +1195,6 @@ un
 $\sphericalangle\left(\overrightarrow{AX}, \overrightarrow{YA_{1}}\right)=\sphericalangle\left(\overrightarrow{CX}, \overrightarrow{YC_{1}}\right)=\sphericalangle\left(\overrightarrow{BX}, \overrightarrow{YB_{1}}\right)=\sphericalangle\left(\overrightarrow{DX}, \overrightarrow{YD_{1}}\right)$.
 
 
-
 # <lo-sample/> LV.AMO.2004.12.3
 
 Funkcijai $f(n)$ gan argumenti, gan vērtības ir naturāli skaitļi, un katriem 
@@ -1123,7 +1223,6 @@ $$f(x)=\frac{xf(x)+yf(x)}{x+y}<\frac{xf(y)+yf(x)}{x+y}<\frac{xf(y)+yf(y)}{x+y}=f
 
 Esam ieguvuši, ka $f(x)<f\left(x^{2}+y^{2}\right)<f(y)$ - pretruna ar $x$ un 
 $y$ izvēli.
-
 
 
 # <lo-sample/> LV.AMO.2004.12.4
@@ -1166,7 +1265,6 @@ $2b \leq n-1$.
 Tālāk pretrunu iegūst tāpat kā pierādot, ka $n$ ir pirmskaitlis.
 
 Esam pierādījuši, ka $n+2$ - pirmskaitlis.
-
 
 
 # <lo-sample/> LV.AMO.2004.12.5
@@ -1217,4 +1315,3 @@ Bet tā ir pretruna ar nevienādību starp vidējo kvadrātisko un vidējo
 aritmētisko, saskaņā ar kuru jābūt 
 $\frac{x_{2}^{2}+\ldots x_{8}^{2}}{7} \geq\left(\frac{x_{2}+\ldots+x_{8}}{7}\right)^{2}$:
 pēc (*) tā neiznāk.
-

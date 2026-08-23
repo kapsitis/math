@@ -18,6 +18,12 @@ ka iegūtā summa ir vismazākā iespējamā.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GCD, CoprimeIntegers, DivisibilityRelation, GraphConcept, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -28,7 +34,6 @@ Skat., piemēram, 2. att., kur ierakstīto skaitlu summa ir 26.
 ![](LV.NOL.2025.5.1A.png)
 
 
-
 # <lo-sample/> LV.NOL.2025.5.2
 
 Vai naturāla skaitḷa ciparu reizinājums var būt **(A)** $2520$; **(B)** $5460$?
@@ -37,6 +42,12 @@ Vai naturāla skaitḷa ciparu reizinājums var būt **(A)** $2520$; **(B)** $54
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitProduct, PrimeFactorization, PrimeNumbers, DigitRepresentation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: PrimeFactorization, NumberConstruction
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -52,7 +63,6 @@ ir $13$ ($5460 = 2 \cdot 2 \cdot 3 \cdot 5 \cdot 7 \cdot 13$),
 tātad tas nav neviena skaitla ciparu reizinājums.
 
 
-
 # <lo-sample/> LV.NOL.2025.5.3
 
 Dots kvadrāts ar izmēriem $8 \times 8$ rūtiṇas. Iekrāso 9 taisnstūrus 
@@ -64,6 +74,12 @@ kam visas rūtiṇas ir neiekrāsotas!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, LatticeGrid, Coloring, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: Geom,Comb
+* _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -72,6 +88,7 @@ kam visas rūtiṇas ir neiekrāsotas!
 Skat., piemēram, 3. att.
 
 ![](LV.NOL.2025.5.3A.png)
+
 
 # <lo-sample/> LV.NOL.2025.5.4
 
@@ -88,6 +105,12 @@ vienmēr var uzvarēt, neatkarīgi no Kates nosauktajiem skaitļiem!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GamePosition, SymmetryStrategy, PositiveIntegers
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -99,7 +122,6 @@ Kates iepriekšējā gājienā izvēlēto skaitli summā dod 11 (šādu
 gājienu Alise vienmēr var veikt, jo var izvēlēties skaitlus no 
 $1$ līdz $10$). Līdz ar to pēc katra Alises gājiena skaitlis 
 palielināsies par $11$. Alises nosauktie skaitḷi būs $1; 12; 23; 34; 45; 56$.
-
 
 
 # <lo-sample/> LV.NOL.2025.5.5
@@ -122,6 +144,12 @@ priekšmets ir smagāks, tad atbilstošais kauss nosveras uz leju.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -145,8 +173,6 @@ bumbiṇas, bet otrā liekam $3~\text{g}$ bumbiṇu. Iespējami trīs gadījumi.
 *Piezīme.* Ir arī citi varianti, kā noskaidrot prasīto.
 
 
-
-
 # <lo-sample/> LV.NOL.2025.6.1
 
 Desmitstūra virsotnēs ieraksti 10 dažādus naturālus skaitlus tā, 
@@ -167,6 +193,12 @@ ka iegūtā summa ir mazākā iespējamā.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CoprimeIntegers, GCD, DivisibilityRelation, GraphConcept, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -186,6 +218,12 @@ summu tā, lai arī šo skaitḷu reizinājums būtu 299?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PrimeFactorization, NumberPartitions, PositiveIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: PrimeFactorization, NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption, PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -202,8 +240,6 @@ $299=13 \cdot 23 \cdot \underbrace{1 \cdot 1 \cdot \ldots \cdot 1}_{263~\text{vi
 *Piezīme.* Šis ir vienīgais atrisinājums, neṇemot vērā reizinātāju secību.
 
 
-
-
 # <lo-sample/> LV.NOL.2025.6.3
 
 Dots kvadrāts ar izmēriem $6 \times 6$ rūtiṇas. lekrāso 6 rūtiṇas tā, 
@@ -218,6 +254,12 @@ kam visas rūtiņas ir neiekrāsotas!
 * questionType:
 * domain:
 * subdomain:DOM_GridColoring
+* _hasSolutionConcept: Coloring, Tiling, LatticeGrid, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -226,7 +268,6 @@ kam visas rūtiņas ir neiekrāsotas!
 Skat., piemēram, 7. att.
 
 ![](LV.NOL.2025.6.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2025.6.4
@@ -244,6 +285,12 @@ drīkst iet arī vairāk nekā vienu reizi.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EvenOddParity, Coloring, LatticeGrid, WalkPathCycle, Invariant
+* _readingDifficulty: medium
+* _domain: Comb,Geom
+* _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -259,7 +306,6 @@ līdz pilsētai $D$ jābūt pāra skaitlim. Tātad maršruta garums nevar
 būt $25~\text{km}$.
 
 ![](LV.NOL.2025.6.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2025.6.5
@@ -283,6 +329,12 @@ kauss nosveras uz leju.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, LinearInequality, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -303,7 +355,6 @@ Pirmajā svēršanā vienā kausā liekam 1 g un 2 g atsvarus, bet otrā liekam 
 - ja $1 \mathrm{~g}+5 \mathrm{~g}=2 \mathrm{~g}+4 \mathrm{~g}$, tad nepareizais uzraksts ir 6 g .
 
 
-
 # <lo-sample/> LV.NOL.2025.7.1
 
 Dots kvadrāts ar izmēriem $5 \times 5$ rūtiņas. 
@@ -318,6 +369,12 @@ redzamo figūru, kurai visas rūtiṇas ir neiekrāsotas?
 * questionType:
 * domain:
 * subdomain:DOM_GridColoring
+* _hasSolutionConcept: Coloring, Tiling, LatticeGrid, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, UpperBoundWithoutExample
+* _mistakesFit: medium
 
 </small>
 
@@ -329,8 +386,6 @@ kur iekrāsotas $7$ rūtiṇas.
 ![](LV.NOL.2025.7.1A.png)
 
 
-
-
 # <lo-sample/> LV.NOL.2025.7.2
 
 Kādu četru dažādu naturālu skaitlu reizinājums ir $414$?
@@ -340,6 +395,12 @@ Atrodi visus iespējamos variantus un pamato, ka citu nav!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PrimeFactorization, PrimeNumbers, ExhaustiveCheck, PositiveIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: PrimeFactorization, CompleteEnumeration, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: UnstatedNumberSetAssumption, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -368,7 +429,6 @@ Esam apskatījuši visas iespējas, tātad nav citu veidu, kā skaitli
 $414$ sadalīt četros dažādos naturālos reizinātājos.
 
 
-
 # <lo-sample/> LV.NOL.2025.7.3
 
 Uz trijstūra $ABC$ malas $AC$ atzīmēts punkts $M$, bet uz 
@@ -380,6 +440,12 @@ Pierādīt, ka trijstūra $ABC$ divi leņk̦i ir vienādi!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: TriangleAngleSum, AngleChasing
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongAngleDecomposition, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -404,6 +470,12 @@ otrklasnieku. Cik varēja būt otrklasnieku?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSet, WalkPathCycle, HandshakeLemma, CountingSumRule
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence, RuleOfSumDisjointCases
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -424,9 +496,6 @@ katrs tur divus pirmklasniekus (attiecīgi pārējie 24 tur katrs
 vismaz vienu otrklasnieku).
 
 
-
-
-
 # <lo-sample/> LV.NOL.2025.7.5
 
 Trīs naturālus skaitlus $A, B$ un $C$ saista sakarības: $A<B<C$ un 
@@ -438,6 +507,12 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, PositiveIntegers, ArithmeticProgression, FiniteSet
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: low
 
 </small>
 
@@ -446,10 +521,6 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 **(A)** Jā, ir iespējams, piemēram, $A=21$, $B=354$, $C=687$ ($687-354 = 333=354-21$).
 
 **(B)** Jā, ir iespējams, piemēram, $A=3$, $B=546$, $C=1089$ ($1089-546 = 543 = 546-3$).
-
-
-
-
 
 
 # <lo-sample/> LV.NOL.2025.8.1
@@ -464,6 +535,12 @@ ir divu skaitl!u, kas atrodas divos taisnstūros tieši zem tā, summa!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: WholeIntegers, VariableExpression, LinearEquation, MagicConfiguration
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: low
 
 </small>
 
@@ -480,8 +557,6 @@ Iegūstam vienādojumu $11-x = 3x-20+7$, kura atrisinājums $x=6$.
 ![](LV.NOL.2025.8.1B.png)
 
 
-
-
 # <lo-sample/> LV.NOL.2025.8.2
 
 Cik starp pirmajiem 2025 naturālajiem skaitlliem ir tādu skaitļu $x$, 
@@ -491,6 +566,12 @@ ka skaitlis $x(x+1)$ dalās ar $74$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, PrimeNumbers, EvenOddParity, MultiplesSet, CountingSumRule
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: CoprimeFactorsDivisibility, PrimePropertiesAndUniqueness, DivisibilityByConsecutive
+* _hasReasoningMistake: WrongDivisibilityDirection, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -513,7 +594,6 @@ Tātad pavisam starp pirmajiem $2025$ naturālajiem skaitlliem ir
 $54+54=108$ tādi skaitļi $x$, ka $x(x+1)$ dalās ar $74$.
 
 
-
 # <lo-sample/> LV.NOL.2025.8.3
 
 Šaurleṇḳu trijstūrī $ABC$ visi augstumi krustojas punktā $M$. 
@@ -523,6 +603,12 @@ Aprēḳināt $\sphericalangle ACB$, ja $AB=CM$!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum, TriangleCongruence
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, AngleChasing, TriangleAngleSum, IsoscelesTriangleProperties, AuxiliaryLines
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -548,7 +634,6 @@ $\sphericalangle ACH=\sphericalangle CAH=\left(180^{\circ}-\sphericalangle AHC\r
 ![](LV.NOL.2025.8.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2025.8.4
 
 Alise un Kate spēlē spēli. Pirmajā gājienā Kate nosauc skaitli nulle, 
@@ -564,6 +649,12 @@ spēlētājas gājieniem?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GamePosition, WinningLosingPositions, SymmetryStrategy, PositiveIntegers
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -579,7 +670,6 @@ par $11$. Alises nosauktie skaitḷi būs
 $1; 12; 23; 34; 45; 56; 67; 78; 89; 100$.
 
 
-
 # <lo-sample/> LV.NOL.2025.8.5
 
 Trīs naturālus skaitlus $A, B$ un $C$ saista sakarības: $A<B<C$ un 
@@ -591,6 +681,12 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, PositiveIntegers, ArithmeticProgression, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -603,11 +699,6 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 ($17049-8526=8523=8526-3$).
 
 
-
-
-
-
-
 # <lo-sample/> LV.NOL.2025.9.1
 
 Aprēḳināt izteiksmes $\frac{20252024^{2}}{20252023^{2}+20252025^{2}-2}$ vērtību!
@@ -617,6 +708,12 @@ Aprēḳināt izteiksmes $\frac{20252024^{2}}{20252023^{2}+20252025^{2}-2}$ vēr
 
 * questionType:
 * domain:
+* _hasSolutionConcept: SquareOfSumIdentity, VariableExpression, RationalNumbers
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, SubstitutionForSimplification, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -638,6 +735,12 @@ Atrast vismazāko naturālo skaitli $N$, kam reizinājums $1 \cdot 2 \cdot 3 \cd
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, PrimeNumbers, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: PrimeFactorization, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: MissingBoundOrExample, NonCoprimeFactorDivisibility, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -664,7 +767,6 @@ ir jāsatur vismaz četri reizinātāji 3 un vismaz divi reizinātāji $5$. Līd
   Tātad mazākā $N$ vērtība ir $10$.
 
 
-
 # <lo-sample/> LV.NOL.2025.9.3
 
 Šaurleņku trijstūrī $ABC$ novilkti augstumi $AK$ un $BL$. 
@@ -675,6 +777,12 @@ Zināms, ka $BK=KL$. Pierādīt, ka trijstūris $ABC$ ir vienādsānu!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, ConflatingPropertyAndCriterion
+* _mistakesFit: medium
 
 </small>
 
@@ -695,8 +803,6 @@ Tā kā $AK$ ir gan augstums, gan mediāna, tad trijstūris $ABC$ ir vienādsān
 ![](LV.NOL.2025.9.3A.png)
 
 
-
-
 # <lo-sample/> LV.NOL.2025.9.4
 
 Dots regulārs piecstūris, kurā novilktas visas diagonāles, kas to 
@@ -711,6 +817,12 @@ ierakstīto skaitlu summa ir viena un tā pati!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, Triangle, Rotation
+* _readingDifficulty: medium
+* _domain: Geom,Comb
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -721,7 +833,6 @@ Piemēram, skat. 3. att., kur katrā trijstūrī ierakstīto skaitlu summa ir $2
 līdz pagriešanai un apmešanai otrādi.
 
 ![](LV.NOL.2025.9.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2025.9.5
@@ -735,6 +846,12 @@ bumbiṇa krāsā $A$, kas atrodas pa kreisi no kādas bumbiṇas krāsā $B$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, Coloring, OptimumProofStructure, ExistenceVsUniversal, FiniteSet
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -751,7 +868,6 @@ $2$ bumbiņām. Tātad mazākais bumbiṇu skaits ir $1+2 \cdot 99=199$.
 Atbilstošu bumbiṇu krāsojumu skat. 4. att.
 
 ![](LV.NOL.2025.9.5A.png)
-
 
 
 # <lo-sample/> LV.NOL.2025.10.1
@@ -828,7 +944,6 @@ mazākie pirmskaitļi ar vislielāko pakāpi. Apskatām visus gadījumus:
 
 Tātad vismazākais naturālais skaitlis, kuram ir tieši 18 dažādi 
 naturāli dalītāji un kas dalās ar $7$, ir $252$.
-
 
 
 # <lo-sample/> LV.NOL.2025.10.3
@@ -919,8 +1034,6 @@ un Māris uzvar. Pamatosim, ka Kims vienmēr var uzvarēt atlikušajām $n$ vēr
   $3k-1$, un gājiens ir Mārim, rīkojoties tāpat kā iepriekš, Kims uzvar.
 
 
-
-
 # <lo-sample/> LV.NOL.2025.10.5
 
 Atrisināt naturālos skaitlos vienādojumu $(a+1)(b+1)(c+1)=3 a b c$.
@@ -972,8 +1085,6 @@ Līdz ar to esam aplūkojuši visus iespējamos gadījumus un ieguvuši atrisin�
 | $(2;2;3)$ | $(2;3;2)$ | $(3;2;2)$ |  |  |  |
 
 
-
-
 # <lo-sample/> LV.NOL.2025.11.1
 
 Atrast divas tādas reālas pozitīvas $x$ vērtības, ka $2 x^{x}=\sqrt{2}$.
@@ -993,7 +1104,6 @@ Der $x=\frac{1}{2}$ un $x=\frac{1}{4}$. Pārbaudām, ka iegūta patiesa vienād�
 - $2 \cdot\left(\frac{1}{4}\right)^{\frac{1}{4}}=2 \cdot \frac{1}{\sqrt[4]{4}}=2 \cdot \frac{1}{\sqrt{2}}=\sqrt{2}$.
 
 Piezīme. Citu derīgu reālu pozitīvu vērtību nav.
-
 
 
 # <lo-sample/> LV.NOL.2025.11.2
@@ -1018,7 +1128,6 @@ dažādi dalītāji; turklāt $k+1 \geq 4$ un $m+1 \geq 4$.
 Taču skaitli $111=37 \cdot 3$ nevar sadalīt reizinājumā, kurā divi 
 reizinātāji ir lielāki vai vienādi ar $4$. Tātad pien̦ēmums ir aplams. 
 Līdz ar to esam pierādījuši, ka skaitlis $A$ nedalās ar $216$.
-
 
 
 # <lo-sample/> LV.NOL.2025.11.3
@@ -1072,8 +1181,6 @@ ap $AEKH$) un $DK \cdot DE = DF \cdot DC$ (attiecībā pret riņḳa līniju,
 kas apvilkta ap $ECFK$). Tas nozīmē, ka $DH \cdot DA = DF \cdot DC$, 
 kas nozīmē, ka ap četrstūri $HACF$ var apvilkt riṇḳa līniju 
 (no apgrieztās teorēmas) jeb punkti $A,H,F,C$ atrodas uz vienas riṇka līnijas.
-
-
 
 
 # <lo-sample/> LV.NOL.2025.11.4
@@ -1145,7 +1252,6 @@ ierakstīts tikai $1$, bet skaitḷi no $7$ līdz $11$ izvietoti dal̦ās
 gar piecstūra malām.
 
 
-
 # <lo-sample/> LV.NOL.2025.11.5
 
 Doti tādi reāli skaitļi $a, b$ un $c$, ka 
@@ -1201,9 +1307,6 @@ Līdzīgi iegūst, ka $b=-\frac{1}{3}$, bet tā ir pretruna ar pieṇ̄mumu,
 ka $a \neq b$. Tātad noteikti $a=b=c$.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2025.12.1
 
 Doti tādi naturāli skaitļi $a, b$ un $c$, ka skaitlis 
@@ -1226,8 +1329,6 @@ $$\frac{a \sqrt{2}+b}{b \sqrt{2}+c} = \frac{(a \sqrt{2}+b)(b \sqrt{2}-c)}{(b \sq
 Tā kā skaitlis ir racionāls, tad skaitītājā jābūt veselam skaitlim 
 (jo saucējā ir vesels skaitlis), tāpēc $b^{2} - ac=0$ jeb $b^{2} = ac$.
 Tādā gadījumā $ab+bc+ca=ab+bc+b^{2}=b(a+b+c)$ un tas dalās ar $a+b+c$.
-
-
 
 
 # <lo-sample/> LV.NOL.2025.12.2
@@ -1272,7 +1373,6 @@ un $c=-25k$. Tātad der visi skaitlu trijnieki ($10k; -4k; -25k$),
 kur $k$ ir jebkurš vesels skaitlis.
 
 
-
 # <lo-sample/> LV.NOL.2025.12.3
 
 Izliektā piecstūrī četras no diagonālēm ir paralēlas kādai no piecstūra 
@@ -1307,8 +1407,6 @@ kopīga mala $AE$. Tā kā šo trijstūru laukumi ir vienādi, tad augstumiem,
 kas novilkti pret šo malu, arī jābūt vienādiem. Tātad attālumi 
 starp nogriežņiem $AE$ un $BD$ ir vienādi. Secinām, ka šie nogriežṇi 
 ir paralēli, tas ir, $AE \| BD$.
-
-
 
 
 # <lo-sample/> LV.NOL.2025.12.4
@@ -1369,7 +1467,6 @@ vai nu palielinās mazākais konfekšu skaits, vai arī samazinās
 rūķīšu skaits ar mazāko konfekšu skaitu, tad pēc galīga skaita 
 gājienu mazākais konfekšu skaits sakritīs ar lielāko konfekšu 
 skaitu, tas ir, visiem rūḳīšiem būs vienāds skaits konfekšu.
-
 
 
 # <lo-sample/> LV.NOL.2025.12.5

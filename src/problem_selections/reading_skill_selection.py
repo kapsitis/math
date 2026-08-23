@@ -8,7 +8,12 @@ def main():
         print("Usage: python reading_skill_selection.py <grades_comma_separated> <output_directory>")
         sys.exit(1)
 
-    grades = sys.argv[1].split(',')
+    grade_args = sys.argv[1].split(',')
+    if len(grade_args) == 2 and grade_args[0].isdigit() and grade_args[1].isdigit():
+        g_start, g_end = int(grade_args[0]), int(grade_args[1])
+        grades = [str(g) for g in range(min(g_start, g_end), max(g_start, g_end) + 1)]
+    else:
+        grades = grade_args
     output_dir = sys.argv[2]
 
     # Create output directory if it doesn't exist
@@ -22,15 +27,16 @@ def main():
         pass
 
     # We visit problembase/LV.AMO and problembase/LV.NOL
-    base_dirs = ['problembase/LV.AMO', 'problembase/LV.NOL']
+    # base_dirs = ['problembase/LV.AMO', 'problembase/LV.NOL']
+    base_dirs = ['problembase/LV.NOL']
     
     for base_dir in base_dirs:
         if not os.path.exists(base_dir):
             continue
             
         for root, dirs, files in os.walk(base_dir):
-            if 'content_lv2.md' in files:
-                file_path = os.path.join(root, 'content_lv2.md')
+            if 'content_lv.md' in files:
+                file_path = os.path.join(root, 'content_lv.md')
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
                 

@@ -12,6 +12,12 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, WalkPathCycle, PositiveIntegers, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -22,7 +28,6 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 $$11,\ 1,\ 12,\ 2,\ 13,\ 3,\ 14,\ 4,\ 15,\ 5,\ 16,\ 6,\ 17,\ 7,\ 18,\ 8,\ 19,\ 9,\ 20,\ 10$$
 
 **(B)** nē, nevar. Skaitlim $10$ iespējams tikai viens kaimiņš - skaitlis $20$.
-
 
 
 # <lo-sample/> LV.NOL.2004.5.2
@@ -39,6 +44,12 @@ var sadalīt grupās tā, lai katras grupas skaitļu summa dalītos ar $3$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, SetPartition, PositiveIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction, SumOfArithmeticOrTriangularNumbers, ProofByContradiction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -49,7 +60,6 @@ $\mathbf{1;\ 2;\ 4;\ 5;\ 7;\ 8;\ 10;\ 11}$
 
 **(B)** nē, nevar. Ja tas būtu iespējams, tad visu skaitļu summai būtu jādalās 
 ar $3$, bet tā ir $91$.
-
 
 
 # <lo-sample/> LV.NOL.2004.5.3
@@ -64,6 +74,12 @@ sastāv šī figūra, ir tikpat lielas kā tās, kurās sadalīta kuba virsma.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, BasicSolids, LatticeGrid, Rotation
+* _readingDifficulty: low
+* _domain: Geom,Comb
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -72,7 +88,6 @@ sastāv šī figūra, ir tikpat lielas kā tās, kurās sadalīta kuba virsma.)
 Jā, var. Skat. 3.zīm.
 
 ![](LV.NOL.2004.5.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2004.5.4
@@ -90,6 +105,12 @@ Vai tā var gadīties, ja kvadrāta izmēri ir $10 \times 10$ rūtiņas?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, LatticeGrid, FiniteSet, Counterexample, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Geom,Comb
+* _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, UpperBoundWithoutExample
+* _mistakesFit: high
 
 </small>
 
@@ -101,7 +122,6 @@ Vai tā var gadīties, ja kvadrāta izmēri ir $10 \times 10$ rūtiņas?
 
 **(B)** nevar gadīties, skat. 5.zīm. Katrs iekrāsotais taisnstūris "aizliedz" 
 parādīties augstākais diviem no tur attēlotajiem "domino", bet tādu ir $12$.
-
 
 
 # <lo-sample/> LV.NOL.2004.5.5
@@ -118,6 +138,12 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Invariant, Monovariant, FiniteSequenceArrangement, OptimumProofStructure
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -141,7 +167,6 @@ $\underline{Atbilde:}$ Ar $5$ gājieniem.
   $2$, tāpēc vajag vismaz $5$ gājienus.
 
 
-
 # <lo-sample/> LV.NOL.2004.6.1
 
 Andrim ir trīsreiz mazāk naudas nekā Jānim un Pēterim kopā, bet Jānim ir 
@@ -152,6 +177,12 @@ vai Jānim?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, EquationSystem, LinearEquation
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -160,7 +191,6 @@ vai Jānim?
 No dotā seko: četrkāršots Andra naudas daudzums ir visu zēnu kopējais naudas 
 daudzums, un pieckāršots Jāņa naudas daudzums ir visu zēnu kopējais naudas 
 daudzums. Tāpēc Andrim naudas ir vairāk.
-
 
 
 # <lo-sample/> LV.NOL.2004.6.2
@@ -174,6 +204,12 @@ spoguļattēli, uzskata par vienādiem.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: OptimumProofStructure, Tiling, ExhaustiveCheck, AxialSymmetry, FiniteSet
+* _readingDifficulty: medium
+* _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -188,7 +224,6 @@ $4$ figūras ar $5$ rūtiņām. Ja figūras aizstātu ar citām, kas sastāv no 
 rūtiņām, daļu skaits nevarētu palielināties.
 
 
-
 # <lo-sample/> LV.NOL.2004.6.3
 
 Sauksim naturālu skaitli par labu, ja, atņemot no šī skaitļa tā ciparu 
@@ -198,6 +233,12 @@ reizinājumu, iegūst tā ciparu summu. Kuri divciparu naturāli skaitļi ir lab
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, DigitSum, DigitProduct, LinearEquation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -205,7 +246,6 @@ reizinājumu, iegūst tā ciparu summu. Kuri divciparu naturāli skaitļi ir lab
 
 Ja $\overline{ab}$ ir labs naturāls skaitlis, tad $10a+b=ab+a+b$ un 
 $9a=ab,\ b=9$. Tātad meklējamie skaitļi ir $19;\ 29;\ 39;\ \ldots;\ 99$.
-
 
 
 # <lo-sample/> LV.NOL.2004.6.4
@@ -219,6 +259,12 @@ tabulā ierakstīto skaitļu summa?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: OptimumProofStructure, PositiveIntegers, EvenOddParity, LatticeGrid
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, FixedInvariantNumeric, DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -236,7 +282,6 @@ sešu summu summa $S$ nav mazāka par $3+4+5+6+7+8=33$. Tā kā $S$ pāra skaitl
 kurienes seko, ka tabulā ierakstīto skaitļu summa nav mazāka par $17$.
 
 
-
 # <lo-sample/> LV.NOL.2004.6.5
 
 Ap galdu sēž $7$ cilvēki. Katriem trim pie galda sēdošiem cilvēkiem var atrast 
@@ -249,6 +294,12 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, BinaryRelation, ExistenceVsUniversal
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -260,7 +311,6 @@ visi pazīst viens otru. Eksistē tāds $t$, kas pazīst $x,\ y$ un $z$; tātad
 $x,\ y,\ z,\ t$ visi pazīst cits citu. Atlikušajiem $3$ cilvēkiem eksistē kāds,
 kas pazīst tos visus (šis "kāds" ir viens no $x,\ y,\ z,\ t$); tas der par 
 meklējamo cilvēku.
-
 
 
 # <lo-sample/> LV.NOL.2004.7.1
@@ -276,6 +326,12 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 * topic:InvariantParity
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, EvenOddParity, OptimumProofStructure, FiniteSet
+* _readingDifficulty: low
+* _domain: NT,Comb
+* _hasReasoningMethod: ParityArgument, BoundingArgument
+* _hasReasoningMistake: MissingBoundOrExample, PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -291,7 +347,6 @@ $(1,\ 2),\ (3,\ 14),\ (4,\ 13),\ (5,\ 6),\ (7,\ 10),\ (8,\ 15),\ (11,\ 12)$
 vismaz viens skaitlis ir jāsvītro.
 
 
-
 # <lo-sample/> LV.NOL.2004.7.2
 
 Šajā uzdevumā runājam par funkcijām, kas definētas visiem $x$. Pieņemsim, ka 
@@ -305,6 +360,12 @@ $y=f(x)$ un $y=g(x)$ abas ir lineāras funkcijas.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LinearFunction, FunctionConcept, Counterexample, VariableExpression
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -313,7 +374,6 @@ $y=f(x)$ un $y=g(x)$ abas ir lineāras funkcijas.
 **(A)** nē; $(ax+b)+(cx+d)=(a+c)x+(b+d)$
 
 **(B)** jā; piemēram, $f(x)=1$ un $g(x)=1$.
-
 
 
 # <lo-sample/> LV.NOL.2004.7.3
@@ -329,6 +389,12 @@ Cik garš ir nogrieznis $BD$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TriangleInequality, Triangle, CaseAnalysis, PointLineSegmentRay
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: TriangleInequality, CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -346,7 +412,6 @@ Tāpēc jābūt $BD=4 \mathrm{~cm}$. Šī iespēja der, jo var ņemt, piemēram,
 $AB=2 \mathrm{~cm},\ AD=3 \mathrm{~cm},\ CB=7 \mathrm{~cm},\ CD=10 \mathrm{~cm}$.
 
 
-
 # <lo-sample/> LV.NOL.2004.7.4
 
 Kvadrāts sastāv no $8 \times 8$ rūtiņām. Katrā rūtiņā ierakstīts naturāls 
@@ -358,6 +423,12 @@ vienāds ar abu pārējo reizinājumu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PigeonholePrinciple, LinearInequality, PositiveIntegers, LatticeGrid
+* _readingDifficulty: low
+* _domain: Comb,NT
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -367,7 +438,6 @@ Nē, nevar. Ir tikai $7$ skaitļi, kas mazāki par $8$. Tāpēc kādā no $8$ ri
 noteikti visi skaitļi ir vismaz $8$. Ja $a,\ b,\ c$ - šīs rindiņas skaitļi, tad
 vai nu $b>8$, vai $c>8$; tāpēc $b \cdot c>8 \cdot 8=64 \geq a$, tātad 
 $b \cdot c>a$.
-
 
 
 # <lo-sample/> LV.NOL.2004.7.5
@@ -381,6 +451,12 @@ jāizgriež taisnstūrus ar izmēriem $1 \times 9$ rūtiņas. Kādu lielāko dau
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, Coloring, Invariant, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -397,7 +473,6 @@ rūtiņa (9.zīm.). Tā kā šādu rūtiņu ir $24$, tad vairāk par $24$ taisns
 izgriezt nevar.
 
 
-
 # <lo-sample/> LV.NOL.2004.8.1
 
 Kādu mazāko daudzumu no skaitļiem $1;\ 2;\ 3;\ \ldots;\ 14;\ 15$ var izsvītrot,
@@ -411,6 +486,12 @@ skaitļu reizinājums vienāds ar otras grupas visu skaitļu reizinājumu?
 * seeAlso:LV.NOL.2003.8.3
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, PrimeFactorization, DivisibilityRelation, EvenOddParity, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: PrimePropertiesAndUniqueness, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof, WrongDivisibilityDirection
+* _mistakesFit: medium
 
 </small>
 
@@ -439,7 +520,6 @@ Pēc tam var, piemēram, uzrakstīt vienādību:
 $$3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \cdot 12 = 1 \cdot 2 \cdot 8 \cdot 9 \cdot 14 \cdot 15$$
 
 
-
 # <lo-sample/> LV.NOL.2004.8.2
 
 Ir zināms, ka skaitļa $2^{200}$ decimālajā pierakstā ir $61$ cipars. Cik 
@@ -453,6 +533,14 @@ decimālais pieraksts sākas ar ciparu $1$?
 * questionType:FindCount
 * domain:NT
 * seeAlso:LV.NOL.2005.8.1
+* _hasSolutionConcept: DigitRepresentation, NumberSequence, FiniteSet, PigeonholePrinciple
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: BoundingArgument
+* _newReasoningMethodLabel: GroupingByDigitLength
+* _newReasoningMethodDescription: Partition powers by decimal digit length and count one per block
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -476,9 +564,7 @@ Benforda sadalījumu, sk.
 [Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law). 
 Šo sadalījumu reizēm izmanto, lai atšķirtu reāli iegūtus datus 
 no safabricētiem skaitļiem - nejaušā secībā uzrakstītām ciparu virknēm. 
-Sk. [Ideāli Valsts Domes vēlēšanu rezultāti](https://meduza.io/feature/2017/01/13/itogi-vyborov-v-gosdumu-okazalis-slishkom-idealnymi). 
-
-
+Sk. [Ideāli Valsts Domes vēlēšanu rezultāti](https://meduza.io/feature/2017/01/13/itogi-vyborov-v-gosdumu-okazalis-slishkom-idealnymi).
 
 
 # <lo-sample/> LV.NOL.2004.8.3
@@ -491,6 +577,12 @@ ka piecstūris var arī nebūt izliekts.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Polygon, PointLineSegmentRay, CountingSumRule, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, SkippingCaseAnalysis, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -502,7 +594,6 @@ būt ne vairāk par $5$, ne mazāk par $0$. Piemērus skat. 10.zīm.; piecstūru
 malas iezīmētas ar biezākām līnijām.
 
 ![](LV.NOL.2004.8.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2004.8.4
@@ -523,6 +614,12 @@ nekā vienā veidā, tad jāuzrāda tos visus.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: OptimumProofStructure, FiniteSequenceArrangement, VariableExpression, PositiveIntegers
+* _readingDifficulty: medium
+* _domain: Alg,Comb
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -541,7 +638,6 @@ gala") izrādās $(x+y+z+t+v)^{2}$. Tātad izmaksas visos gadījumos ir vienas u
 tās pašas.
 
 
-
 # <lo-sample/> LV.NOL.2004.8.5
 
 Jānis sadala $a$ metrus garu nogriezni $3$ mazākos nogriežņos; pēc tam Pēteris 
@@ -556,6 +652,12 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TriangleInequality, Triangle, GamePosition, WinningLosingPositions, CaseAnalysis
+* _readingDifficulty: medium
+* _domain: Geom,Comb
+* _hasReasoningMethod: TriangleInequality, CaseAnalysis
+* _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -575,7 +677,6 @@ $\frac{b-x}{2} \geq z \Leftrightarrow b-x \geq 2z$. Pēdējā nevienādība ir
 pareiza, jo $b-x \geq a-x=y+z \geq 2z$.
 
 
-
 # <lo-sample/> LV.NOL.2004.9.1
 
 Dots, ka $a$ un $b$ - kaut kādi reāli skaitļi. Pierādīt, ka
@@ -586,6 +687,12 @@ $$a^{2}+a b+b^{2} \geq 9(a+b-3)$$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, IrrationalAndReals, SquareOfSumIdentity
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, CompleteTheSquareForNonNegativity, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, WrongDirectionOfInequalityChain, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -593,7 +700,6 @@ $$a^{2}+a b+b^{2} \geq 9(a+b-3)$$
 
 Nevienādību pārveido par $(a-3)^{2}+(a-3)(b-3)+(b-3)^{2} \geq 0$. Tālāk ievēro,
 ka $x^{2}+xy+y^{2}=\left(x+\frac{y}{2}\right)^{2}+\frac{3}{4} y^{2} \geq 0$
-
 
 
 # <lo-sample/> LV.NOL.2004.9.2
@@ -608,6 +714,12 @@ var vienlaicīgi būt pirmskaitļi?
 
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, EvenOddParity, LastDigit, CaseAnalysis
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration, ParityArgument
+* _hasReasoningMistake: PrimeOnePointConfusion, IncompleteResidueCases, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -617,7 +729,6 @@ Ja $x$ - pāra skaitlis, pirmskaitļu ir $\leq 1$. Ja $x=1;\ 3;\ 5$, pirmskaitļ
 ir $\leq 4$ (to ir $4$ pie $x=3$ un $x=5$). Ja $x>5$, tad, šķirojot iespējas 
 atkarībā no $x$ pēdējā cipara, redzam, ka vienam skaitlim pēdējais cipars ir 
 $5$. Tātad tas nav pirmskaitlis, un pirmskaitļu nav vairāk par $4$.
-
 
 
 # <lo-sample/> LV.NOL.2004.9.3
@@ -630,6 +741,12 @@ līnijai $W_{2}$ un kas nesakrīt ar $AB$, ir paralēlas savā starpā.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, TriangleCongruence, Angle, ParallelPerpendicular
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AngleChasing, CongruentTriangles, TriangleAngleSum
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition
+* _mistakesFit: medium
 
 </small>
 
@@ -644,7 +761,6 @@ no kā seko vajadzīgais.
 ![](LV.NOL.2004.9.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2004.9.4
 
 Uz tāfeles uzrakstīti $2004$ skaitļi; viens no tiem ir $1$. Ar vienu gājienu 
@@ -657,6 +773,14 @@ uzrakstīti $2004$ skaitļi, kas visi vienādi ar $1$?
 
 * questionType:ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: StateSpaceProcess, Invariant, WholeIntegers
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: ConstructiveAlgorithm, EquivalentTransformationsOfEquationsAndInequalities
+* _newReasoningMethodLabel: ConstructiveAlgorithm
+* _newReasoningMethodDescription: Building the target configuration by explicit allowed moves
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -671,7 +795,6 @@ vismaz $5$ vieninieki. Līdzīgi pakāpeniski pārvēršam par vieniniekiem visu
 skaitļus, kas tādi vēl nav.
 
 
-
 # <lo-sample/> LV.NOL.2004.9.5
 
 Kādā kolektīvā katram cilvēkam ir tieši $3$ draugi (ja $A$ ir $B$ draugs, tad 
@@ -682,6 +805,12 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, VertexDegree, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -695,7 +824,6 @@ Pierādīsim, ka tas ir mazākais iespējamais skaits. Apzīmēsim ar $A$ vienu
 cilvēku, ar $B,\ C,\ D$ - viņa draugus. Tā kā $B$ nevar draudzēties ne ar $C$, 
 ne $D$, tad ir vismaz vēl divi citi cilvēki - $B$ draugi, no kurienes seko 
 vajadzīgais.
-
 
 
 # <lo-sample/> LV.NOL.2004.10.1
@@ -720,7 +848,6 @@ $2 \max (|x+1|, |x-3|)$. Tā kā $\max (|x+1|, |x-3|)=|x-1|+2$ (skat. 5.zīm.),
 tad meklējamais minimums ir $4$, un to sasniedz pie $x=1$.
 
 ![](LV.NOL.2004.10.1A.png)
-
 
 
 # <lo-sample/> LV.NOL.2004.10.2
@@ -763,7 +890,6 @@ $b=\underbrace{100 \ldots 01}_{t-1\ reizi}$ (ja būtu citādi, tad starp $a$ un
 $b$ atrastos palindroms $\underbrace{999 \ldots 9}_{|a|}$). Tad $b-a=2$.
 
 
-
 # <lo-sample/> LV.NOL.2004.10.3
 
 Riņķī ievilkta četrstūra malu garumi ir 
@@ -791,7 +917,6 @@ un $L(ABCD)=\frac{5 \sqrt{3}}{4}$ (6.zīm.)
 $BD$ un vienu no daļām "apgriežam otrādi", pēc tam abas daļas atkal saliekot 
 kopā pa hordu. Simetrijas dēļ atkal iznāks riņķis, un šis gadījums reducēts uz 
 iepriekšējo.
-
 
 
 # <lo-sample/> LV.NOL.2004.10.4
@@ -834,7 +959,6 @@ $6$-stūrī ir pretējā virsotnē skaitlim $x$. Tad skaitļi $x,\ y,\ z$ ir
 meklējamie: abi ar tiem sanumurētie trijstūri ir taisnleņķa.
 
 
-
 # <lo-sample/> LV.NOL.2004.10.5
 
 Apzīmēsim $f(x)=x^{2}+px+q$. Pieņemsim, ka $a,\ b,\ c,\ d,\ e$ - kaut kādi 
@@ -858,7 +982,6 @@ $f\left(x_{1}\right)=f\left(x_{2}\right)$ (kur $x_{1} \neq x_{2}$) tad un tikai
 tad, ja $\frac{x_{1}+x_{2}}{2}=x_{0}$, kur $x_{0}$ - parabolas virsotnes 
 abscisa. No dotā seko, ka $a+b+c+d+e=2x_{0}$. No tā savukārt seko visas 
 vajadzīgās vienādības.
-
 
 
 # <lo-sample/> LV.NOL.2004.11.1
@@ -887,7 +1010,6 @@ $$\begin{aligned}
 \end{aligned}$$
 
 parāda, ka pastāv visas iespējas $7;\ 8;\ 9;\ 10$.
-
 
 
 # <lo-sample/> LV.NOL.2004.11.2
@@ -923,7 +1045,6 @@ seko, ka abi saskaitāmie dalās ar $2 \cdot 5=10$. Tātad mazākā $n$ vērtīb
 $5$.
 
 
-
 # <lo-sample/> LV.NOL.2004.11.3
 
 Platleņķa trijstūrim $ABC \left(\sphericalangle B>90^{\circ}\right.)$ apvilktā 
@@ -951,7 +1072,6 @@ $\gamma=90^{\circ}-\alpha>45^{\circ}$. No $\beta<90^{\circ}$ un
 $\gamma>45^{\circ}$ seko vajadzīgais.
 
 ![](LV.NOL.2004.11.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2004.11.4
@@ -989,7 +1109,6 @@ $\left|-\alpha^{2}\right| \leq 1$, un šī vienādojuma saknes ir
 $\frac{\alpha}{2} \mp \sqrt{\frac{\alpha^{2}}{4}+\alpha^{2}}=\frac{\alpha}{2} \mp|\alpha| \cdot \frac{\sqrt{5}}{2}$.
 Tātad viena no tām ir $\alpha \cdot \frac{1+\sqrt{5}}{2}=\mathrm{z}$. Tātad 
 visi apskatāmā intervāla punkti ir vajadzīgā tipa vienādojumu saknes.
-
 
 
 # <lo-sample/> LV.NOL.2004.11.5
@@ -1035,7 +1154,6 @@ $k \geq 2(n-k),\ 3k \geq n-1$, $k \geq \frac{2n-1}{3}$.
 ![](LV.NOL.2004.11.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2004.12.1
 
 Skaitļu virknē $1;\ 1;\ 2;\ 3;\ 5;\ \ldots$ katrs loceklis, sākot ar trešo, 
@@ -1064,7 +1182,6 @@ Redzam, ka virknes $24.$ loceklis dalās ar $6$. Tāpat skaidrs, ka atlikumi
 atkārtojas ar periodu $24$, jo $1.$ atlikums sakrīt ar $25$-o, bet $2.$ 
 atlikums sakrīt ar $26$-o. Tā kā $2004=24 \cdot 83+12$, tad $2004$-ais loceklis
 dod tādu pašu atlikumu kā $12$-ais, tātad arī dalās ar $6$.
-
 
 
 # <lo-sample/> LV.NOL.2004.12.2
@@ -1112,7 +1229,6 @@ Savukārt no taisnleņķa trijstūru $ACB$ un $ADC$ līdzības seko $AC:AB=AD:AC
 tāpēc $AC^{2}=AB \cdot AD=2R \cdot AD=AE^{2}$. Tātad $AC=AE$.
 
 
-
 # <lo-sample/> LV.NOL.2004.12.3
 
 Skaitļu virknē $a_{1};\ a_{2};\ a_{3};\ \ldots$ zināms, ka $a_{1}=60$ un 
@@ -1148,7 +1264,6 @@ a_{1051}<45-\frac{225}{45}=40 & a_{1876}<15-\frac{75}{15}=10 \\
 a_{1251}<40-\frac{200}{40}=35 & a_{1976}<10-\frac{100}{10}=0\ - \text { pretruna. } \\
 a_{1426}<35-\frac{175}{35}=30 &
 \end{array}$$
-
 
 
 # <lo-sample/> LV.NOL.2004.12.4
@@ -1187,7 +1302,6 @@ $x^{3}-13 x+12=0$ jeb $(x-1)(x-3)(x+4)=0$
 
 No šejienes $x_{1}=1;\ x_{2}=3;\ x_{3}=-4$. Pārbaude parāda, ka visas saknes 
 der (pārbaude nepieciešama!).
-
 
 
 # <lo-sample/> LV.NOL.2004.12.5
@@ -1233,5 +1347,3 @@ var sadalīt $5$ komisijās vajadzīgā veidā. Deputāts $A$ ir "nepieņemams" 
 vairāk kā $4$ no tām (jo ir $\leq 2$ deputāti, kam ir aizspriedumi pret viņu, 
 un ir $\leq 2$ deputāti, pret kuriem viņam ir aizspriedumi). Tātad $A$ var 
 pievienot vismaz $1$ komisijai. Induktīvā pāreja izdarīta.
-
-

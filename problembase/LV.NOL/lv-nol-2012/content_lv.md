@@ -12,13 +12,17 @@ Parādīt, kā no skaitļa $5$ var iegūt skaitli $21$, vairakkārt pielietojot 
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, StateSpaceProcess, PositiveIntegers
+* _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
 Piemēram, $5 \rightarrow 15 \rightarrow 1 \rightarrow 3 \rightarrow 9 \rightarrow 27 \rightarrow 81 \rightarrow 8 \rightarrow 24 \rightarrow 72 \rightarrow 7 \rightarrow 21$.
-
 
 
 # <lo-sample/> LV.NOL.2012.5.2
@@ -31,6 +35,11 @@ Cik rūtiņas liels ir kvadrāta $ABCD$ laukums (skat. 1.zīm.)?
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: QuadrilateralFamilies, Triangle, LatticeGrid
+* _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -45,7 +54,6 @@ Tātad $S(ABCD)=4 \cdot 4-2 \cdot 3=10$ rūtiņas.
 ![](LV.NOL.2012.5.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2012.5.3
 
 Izveidot septiņciparu skaitli, kas dalās ar $7$ un kura pierakstā katrs no 
@@ -55,6 +63,11 @@ cipariem $1,\ 2,\ 3,\ 4,\ 5,\ 7,\ 8$ izmantots tieši vienu reizi.
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, MultiplesSet
+* _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules, PositionalNotation
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -66,7 +79,6 @@ Ievērosim, ka $14$ dalās ar $7$, tātad arī $1400000$ dalās ar $7;\ 28$ un
 $28000$ dalās ar $7;\ 35$ un $350$ dalās ar $7$. Tātad 
 $1400000+28000+350+7=1428357$ dalās ar $7$. Uzdevuma prasības apmierina arī 
 daudzi citi skaitļi.
-
 
 
 # <lo-sample/> LV.NOL.2012.5.4
@@ -86,6 +98,11 @@ uzziedētu atšķirīgas krāsas tulpes un lai katrā rindā jebkuras trīs pēc
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: Coloring, LatticeGrid, EvenOddParity, ExistenceVsUniversal
+* _readingDifficulty: low
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -99,7 +116,6 @@ nepāra saskaitāmo summa, t.i., nepāra skaitlis, bet katrā rindā jābūt $10
 lauciņos jāstāda vienas krāsas tulpes, ar dažādiem - dažādu krāsu tulpes.)
 
 ![](LV.NOL.2012.5.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2012.5.5
@@ -122,6 +138,11 @@ $2$: $11,\ 12,\ 22,\ 21$.)
 
 * questionType:FindExample,ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, ExhaustiveCheck, WalkPathCycle, EulerPath
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -130,7 +151,6 @@ $2$: $11,\ 12,\ 22,\ 21$.)
 **(A)** Skat., piem., 3.zīm. **(B)** Skat., piem., 4.zīm.
 
 ![](LV.NOL.2012.5.5A.png)
-
 
 
 # <lo-sample/> LV.NOL.2012.6.1
@@ -142,13 +162,17 @@ summa dalās ar $5$.
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: DigitSum, DivisibilityRelation, DigitRepresentation
+* _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
 Piemēram, $49999$ un $50000$.
-
 
 
 # <lo-sample/> LV.NOL.2012.6.2
@@ -162,6 +186,11 @@ skaitlis $53421$?
 
 * questionType:FindCount
 * domain:Comb
+* _hasSolutionConcept: DigitRepresentation, TotalOrder, CountingProductRule, FiniteSequenceArrangement
+* _readingDifficulty: low
+* _hasReasoningMethod: RuleOfProductIndependentChoices
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -171,7 +200,6 @@ Pavisam šajā virknē ir $5 \cdot 4 \cdot 3 \cdot 2 \cdot 1=120$ skaitļi.
 Interesējošais skaitlis ir pēdējais, kas sākas ar $53$, un pēc šī skaitļa 
 virknē vēl ir $6$ skaitļi, kas sākas ar cipariem $54$. Tātad šajā virknē 
 skaitlis $53421$ atrodas $114.$ vietā.
-
 
 
 # <lo-sample/> LV.NOL.2012.6.3
@@ -188,6 +216,11 @@ un riņķa līniju, kas krusto uzzīmētā daudzstūra katru malu tieši vienā 
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: Polygon, CircleAndDisk, EvenOddParity, CaseAnalysis
+* _readingDifficulty: low
+* _hasReasoningMethod: ProofByContradiction
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -208,7 +241,6 @@ $A_{7}$ - riņķa iekšpusē. Bet tādā gadījumā septiņstūra malu $A_{1}A_{
 līnija nekrusto.
 
 
-
 # <lo-sample/> LV.NOL.2012.6.4
 
 Vai piecstūra virsotnēs var ierakstīt piecus dažādus naturālus skaitļus, lai 
@@ -218,6 +250,11 @@ jebkuru divu blakus stāvošu skaitļu summa būtu pirmskaitlis?
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: EvenOddParity, PrimeNumbers, Polygon, Invariant
+* _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument, ProofByContradiction, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -229,7 +266,6 @@ prasības būtu iespējams izpildīt, tad blakus stāvošajiem skaitļiem būtu 
 ar dažādu paritāti. Tā kā pa apli uzrakstīto skaitļu skaits ir $5$ (nepāra), 
 tad kādā vietā blakus atradīsies vienādas paritātes skaitļi, kuru summa būs 
 pāra skaitlis, lielāks nekā $2$, t.i., salikts skaitlis.
-
 
 
 # <lo-sample/> LV.NOL.2012.6.5
@@ -246,6 +282,11 @@ var uzdot tieši vienu jautājumu, uz kuru viņš var atbildēt tikai ar "jā" v
 
 * questionType:Algorithm
 * domain:Comb
+* _hasSolutionConcept: DecisionTree, ExhaustiveCheck, TotalOrder
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -274,7 +315,6 @@ iedomātais skaitlis ir $1$. Atkal pārējo rūķišu iedomātos skaitļus var n
 pēc atbildes uz 3. jautājumu.
 
 
-
 # <lo-sample/> LV.NOL.2012.7.1
 
 Ar naturālu skaitli var veikt divu veidu operācijas:
@@ -291,6 +331,11 @@ vairākas reizes jebkādā secībā?
 * topic:GraphAlgorithms
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, StateSpaceProcess, GraphConcept, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -302,9 +347,7 @@ $9 \rightarrow 63 \rightarrow 441 \rightarrow 41 \rightarrow 287 \rightarrow 27$
 *Piezīme:* Ievērojam, ka no katra skaitļa var veikt divas pārejas - skaitļi veido "koku", kura
 sakne ir $9$ un tas pēc tam sazarojas. Secīgi izrakstot koka virsotnēs esošos skaitļus un 
 veicot, piemēram, "meklēšanu platumā" (*depth first search (DFS)*) var atrast īsāko ceļu līdz 
-skaitlim $9$. 
-
-
+skaitlim $9$.
 
 
 # <lo-sample/> LV.NOL.2012.7.2
@@ -316,6 +359,11 @@ starp kuriem ir astoņstūris.
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: Polygon, PointLineSegmentRay, ExistenceVsUniversal
+* _readingDifficulty: low
+* _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -324,7 +372,6 @@ starp kuriem ir astoņstūris.
 Skat., piem., 6.zīm.
 
 ![](LV.NOL.2012.7.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2012.7.3
@@ -337,6 +384,11 @@ skaitļu reizinājumus. Cik no šiem septiņiem reizinājumiem ir pozitīvi?
 
 * questionType:FindAll
 * domain:Comb
+* _hasSolutionConcept: PositiveAndNegative, FiniteSequenceArrangement, CircleAndDisk, ProofByContradiction, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -360,7 +412,6 @@ reizinājumi satur reizinātāju $g$, tātad to vērtība ir $0$. Tātad tieši 
 šiem reizinājumiem ir pozitīvi.
 
 
-
 # <lo-sample/> LV.NOL.2012.7.4
 
 Pierādīt, ka $1004041$ nav pirmskaitlis.
@@ -370,6 +421,11 @@ Pierādīt, ka $1004041$ nav pirmskaitlis.
 * topic:DivisibilityRulesOther
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DivisibilityRules, DigitRepresentation
+* _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
@@ -385,8 +441,6 @@ tātad tas nav pirmskaitlis.
 Var pamanīt dalāmības pazīmi ar $101$ (pēc analoģijas ar dalāmības pazīmi ar $11$):  
 Ar $101$ dalās skaitļi, kam apaļajās un kvadrātiekavās likto ciparu grupu summas ir savstarpēji vienādas 
 vai arī to starpība dalās ar $101$: $[01](00)[40](41)$.
-
-
 
 
 # <lo-sample/> LV.NOL.2012.7.5
@@ -406,6 +460,11 @@ ar malas garumu $2$ un kuros ierakstīto skaitļu summa ir vismaz $18$.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: Triangle, DissectionIntoCongruent, FiniteSet, PigeonholePrinciple
+* _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrinciple, PackingDisjointShapes
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -419,7 +478,6 @@ piecinieki, tāpēc tajā ierakstīto skaitļu summa būs vismaz $5+5+5+3=18$, k
 ![](LV.NOL.2012.7.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2012.8.1
 
 Skaitli $3999991$ uzrakstīt kā divu veselu skaitļu reizinājumu tā, lai katrs no
@@ -430,6 +488,11 @@ reizinātājiem ir lielāks nekā $1$.
 * topic:StandardIdentities
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: DiffOfSquaresFactoring, WholeIntegers
+* _readingDifficulty: low
+* _hasReasoningMethod: FactoringAlgebraicExpressions
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -437,8 +500,6 @@ reizinātājiem ir lielāks nekā $1$.
 
 Izmantojam kvadrātu starpības formulu. Ievērojam, ka 
 $3999991=4000000-9=2000^{2}-3^{2}=(2000-3) \cdot(2000+3)=1997 \cdot 2003$.
-
-
 
 
 # <lo-sample/> LV.NOL.2012.8.2
@@ -453,6 +514,11 @@ Pierādīt, ka punkts $F$ ir malas $BC$ viduspunkts.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, PointLineSegmentRay
+* _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -462,7 +528,6 @@ $\sphericalangle FCE=\sphericalangle CEF=\sphericalangle EFC=60^{\circ}$. Tad
 $\sphericalangle BFE=180^{\circ}-60^{\circ}=120^{\circ}$ (blakusleņķi) un 
 $\sphericalangle BEF=180^{\circ}-30^{\circ}$ $120^{\circ}=30^{\circ}$, tātad 
 $\triangle EBF$ - vienādsānu un $BF=EF=FC$ (skat. 8.zīm.)
-
 
 
 # <lo-sample/> LV.NOL.2012.8.3
@@ -477,6 +542,11 @@ vieni.)
 * topic:EuclideanLemma
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitProduct, DigitRepresentation
+* _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, PositionalNotation
+* _hasReasoningMistake: WrongDivisibilityRule, WrongDivisibilityDirection
+* _mistakesFit: medium
 
 </small>
 
@@ -485,7 +555,6 @@ vieni.)
 Ievērosim, ka skaitlis $\overline{aabbcc}=11 \cdot \overline{a0b0c}$ dalās ar 
 $11$, taču neviens cipars nedalās ar $11$. Tātad $\overline{aabbcc}$ nevar būt 
 neviena naturāla skaitļa ciparu reizinājums.
-
 
 
 # <lo-sample/> LV.NOL.2012.8.4
@@ -497,6 +566,11 @@ uzzīmētie punkti atrastos tieši $1~\mathrm{cm}$ attālumā.
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: PointLineSegmentRay, CoordinatePlane, GraphConcept, VertexDegree
+* _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -507,7 +581,6 @@ pārējie attālumi starp šiem punktiem ir lielāki vai mazāki nekā
 $1~\mathrm{cm}$.
 
 ![](LV.NOL.2012.8.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2012.8.5
@@ -523,6 +596,11 @@ uzskatāmi par vienādiem.)
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: Tiling, DissectionIntoCongruent, Rotation, AxialSymmetry
+* _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis, SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -536,7 +614,6 @@ divi dažādi veidi, kā šo figūru sadalīt "stūrīšos".
 ![](LV.NOL.2012.8.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2012.9.1
 
 Apskatām visas funkcijas $y=ax^{2}-2x+b$, kur $a$ un $b$ - reāli skaitļi un 
@@ -546,6 +623,11 @@ $a+b=2012$. Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti
 
 * questionType:Prove
 * domain:Alg
+* _hasSolutionConcept: QuadraticFunction, FunctionConcept, IrrationalAndReals, CoordinatePlane
+* _readingDifficulty: low
+* _hasReasoningMethod: ParameterizedInvariantValue
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -553,7 +635,6 @@ $a+b=2012$. Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti
 
 Ja $x=1$, tad $y=a-2+b=2010$. Ja $x=-1$, tad $y=a+2+b=2014$. Tātad punkti 
 $(1; 2010)$ un $(-1; 2014)$ pieder visu minēto funkciju grafikiem.
-
 
 
 # <lo-sample/> LV.NOL.2012.9.2
@@ -566,6 +647,11 @@ izvēles.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, PointLineSegmentRay
+* _readingDifficulty: low
+* _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: AreaWithoutPosition, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -580,7 +666,6 @@ no punkta $P$ izvēles.
 ![](LV.NOL.2012.9.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2012.9.3
 
 Kādām $n$ vērtībām $n$ cilvēkus var sadalīt grupās (varbūt tikai vienā) tā, lai
@@ -590,6 +675,11 @@ katrā grupā būtu tieši $5$, $6$ vai $7$ cilvēki?
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: NumberPartitions, DivisionWithRemainder, ExhaustiveCheck, PositiveIntegers
+* _readingDifficulty: low
+* _hasReasoningMethod: BruteForceCheckOverFiniteSet, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -612,7 +702,6 @@ $5k$ var sadalīt $k$ grupās pa $5$ cilvēkiem katrā, tad visiem $n \geq 10$
 uzdevuma prasības var izpildīt.
 
 
-
 # <lo-sample/> LV.NOL.2012.9.4
 
 Dota skaitļu virkne $1,\ 1,\ 2,\ 5,\ 9,\ 6,\ \ldots$. Tā tiek veidota pēc 
@@ -626,6 +715,11 @@ divu iepriekšējo locekļu kvadrātu summas pēdējo ciparu.
 
 * questionType:ProveDisprove,FindAll
 * domain:NT
+* _hasSolutionConcept: RecurrentSequence, PeriodicSequence, EvenOddParity, LastDigit
+* _readingDifficulty: low
+* _hasReasoningMethod: PeriodicSequence, ParityArgument, LastDigitAnalysis
+* _hasReasoningMistake: ExampleInsteadOfProof, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -647,7 +741,6 @@ garumu $12$. Tāpēc $2006.$ loceklis ir $1$ (jo $2+12 \cdot 167=2006$ ) un
 $2007.$ loceklis ir $2$. Tāpēc $2012.$ loceklis ir $5$.
 
 
-
 # <lo-sample/> LV.NOL.2012.9.5
 
 Dots naturāls skaitlis $n \geq 3$. Aplūkojam visus naturālos skaitļus no $1$ 
@@ -658,6 +751,11 @@ ka šo skaitļu summa dalās ar $n$.
 
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: CoprimeIntegers, DivisibilityRelation, PositiveIntegers, EvenOddParity
+* _readingDifficulty: low
+* _hasReasoningMethod: InvariantMethod
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -672,7 +770,6 @@ pirmskaitļi).
 
 Katrā pārī skaitļu summa ir $n$. Tātad visu aplūkojamo skaitļu summa dalās ar 
 $n$.
-
 
 
 # <lo-sample/> LV.NOL.2012.10.1
@@ -699,7 +796,6 @@ $3a^{2}-(a-b)^{2}-(a-c)^{2}-(b-c)^{2}=d^{2}-3b^{2}-3c^{2}$.
 
 Tā kā $(a-b)^{2} \geq 0,(a-c)^{2} \geq 0$ un $(b-c)^{2} \geq 0$, tad 
 $3a^{2} \geq d^{2}-3b^{2}-3c^{2}$, k.b.j.
-
 
 
 # <lo-sample/> LV.NOL.2012.10.2
@@ -733,7 +829,6 @@ iespējas.
 ![](LV.NOL.2012.10.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2012.10.3
 
 Doti seši pēc kārtas sekojoši naturāli skaitļi. Pierādīt, ka var atrast tādu 
@@ -762,7 +857,6 @@ spriedumus, var pierādīt, ka kāds no skaitļiem $a+2$ vai $a+4$ dalās ar kā
 pirmskaitli $p \geq 5$, kas der par meklēto.
 
 
-
 # <lo-sample/> LV.NOL.2012.10.4
 
 Ir aprēķinātas skaitļu $2^{2012}$ un $5^{2012}$ vērtības un iegūtie skaitļi 
@@ -784,7 +878,6 @@ ciparu skaits. Tad $10^{n-1}<2^{2012}<10^{n}$ un $10^{m-1}<5^{2012}<10^{m}$.
 Sareizināsim šīs nevienādības: $10^{n+m-2}<10^{2012}<10^{n+m}$. Tātad 
 $n+m-2 < 2012 < n+m$ un vienīgā iespējamā $n+m$ vērtība (t.i., uzrakstīto ciparu 
 skaits) ir $2013$.
-
 
 
 # <lo-sample/> LV.NOL.2012.10.5
@@ -822,7 +915,6 @@ Ja $n \geqq 3$, tad nosacījumus neapmierina, piemēram, 4.zīm. attēlotā tabu
 ![](LV.NOL.2012.10.5B.png)
 
 
-
 # <lo-sample/> LV.NOL.2012.11.1
 
 Vai eksistē tāds naturāls skaitlis $m$, kura ciparu reizinājums ir vienāds ar 
@@ -845,7 +937,6 @@ ciparu summa pāra pozīcijās $a+c+d+b$ ir vienāda ar ciparu summu nepāra
 pozīcijās $b+d+c+a$ (summu starpība $0$ dalās ar $11$). Dotais skaitlis nevar 
 būt ciparu reizinājums, jo vienam reizinātājam jādalās ar $11$, bet neviens 
 cipars nepārsniedz $9$.
-
 
 
 # <lo-sample/> LV.NOL.2012.11.2
@@ -901,7 +992,6 @@ z=-8
 \end{array}\right.$$
 
 
-
 # <lo-sample/> LV.NOL.2012.11.3
 
 Vienā riņķa līnijā ievilkts regulārs deviņstūris un regulārs trijstūris. Kas ir
@@ -930,7 +1020,6 @@ malu kvadrātu summa.
 ![](LV.NOL.2012.11.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2012.11.4
 
 Atrast augošu aritmētisku progresiju, kuras visi elementi ir naturāli skaitļi 
@@ -956,7 +1045,6 @@ un pie $k \geq 2b^{k}$ dalās ar $4$. Taču $a_{n}$ ar $4$ nedalās - pretruna,
 tāpēc minētā virkne der par meklēto.
 
 $\underline{Piezīme:}$ Šī nav vienīgā virkne, kas apmierina uzdevuma prasības.
-
 
 
 # <lo-sample/> LV.NOL.2012.11.5
@@ -987,7 +1075,6 @@ kausa $A$ un sver vēlreiz. Ja svari ir līdzsvarā, tad atrastas abas
 $7~\mathrm{g}$ monētas, pretējā gadījumā vieglākā no tām sver $7$ gramus.
 
 
-
 # <lo-sample/> LV.NOL.2012.12.1
 
 Skaitlis $a$ ir vienādojuma $x^{3}-2x^{2}+3x-4=0$ sakne. Pierādīt, ka 
@@ -1005,7 +1092,6 @@ $a>-\frac{1}{2}$.
 Pieņemsim, ka $x<0$. Tad $x^{3}<0,\ x^{2}>0$ un $-2x^{2}<0,\ 3x<0$, tāpēc 
 $x^{3}-2x^{2}+3x-4<0$. Tātad vienādojuma $x^{3}-2x^{2}+3x-4=0$ sakne $a$ nevar 
 būt negatīvs skaitlis un $a \geq 0>-\frac{1}{2}$.
-
 
 
 # <lo-sample/> LV.NOL.2012.12.2
@@ -1026,7 +1112,6 @@ Katra šķautne ir mala tieši divām skaldnēm, tātad divkāršots daudzskald�
 šķautņu skaits ir vienāds ar visu skaldņu malu skaitu summu, tāpēc šī summa ir 
 pāra skaitlis. Bet nepāra skaita nepāru skaitļu ir nepāra skaitlis, tad 
 iegūstam pretrunu.
-
 
 
 # <lo-sample/> LV.NOL.2012.12.3
@@ -1060,7 +1145,6 @@ un 7.zīm.).
 ![](LV.NOL.2012.12.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2012.12.4
 
 Kādiem pirmskaitļiem $p$ skaitlim $p^{2}+23$ ir tieši četri naturāli dalītāji?
@@ -1089,7 +1173,6 @@ $$\begin{equation*}
 
 (*) $k(k+1)=2m$, jo divu pēc kārtas sekojošu naturālu skaitļu 
 reizinājums pāra skaitlis.
-
 
 
 # <lo-sample/> LV.NOL.2012.12.5
@@ -1151,4 +1234,3 @@ $j-i,\ k-j,\ l-k,\ 17+i-l$ ir $5$.
 
 Atbilstoši šiem nosacījumiem ($i, j, k, l$) var izvēlēties $17$ veidos: 
 $(1,5,9,13),\ (1,5,9,14),\ (1,5,10,14),\ (1,6,10,14),\ (2,6,10,14),\ (2,6,10,15),\ (2,6,11,15),\ (2,7,11,15),\ (3,7,11,15),\ (3,7,11,16),\ (3,7,12,16),\ (3,8,12,16),\ (4,8,12,16),\ (4,8,12,17),\ (4,8,13,17),\ (4,9,13,17),\ (5,9,13,17)$.
-

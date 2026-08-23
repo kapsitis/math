@@ -12,6 +12,11 @@ Daži skaitļi jau ir ierakstīti.
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, FiniteSequenceArrangement
+* _readingDifficulty: low
+* _hasReasoningMethod:
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -35,6 +40,11 @@ atkārtoti izpildot šādas darbības, Karlsons var iegūt tieši $2022$ tortes 
 
 * questionType:ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: ParityInvariant, Invariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -68,6 +78,11 @@ figūras var būt pagrieztas vai apgāztas otrādi.
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid, CentralSymmetry
+* _readingDifficulty: medium
+* _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -88,6 +103,11 @@ abi cipari arī ir pirmskaitļi. Kāda ir abu uzrakstīto skaitļu starpība?
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, DigitRepresentation, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: PrimeOnePointConfusion, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -130,6 +150,11 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ tieši šād
 
 * questionType:FindCount
 * domain:Comb
+* _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -169,8 +194,6 @@ c. $\ldots 202\mid 2\ldots$ ja trīsciparu skaitlim $202$
 
 Tātad rindā cipari $2,0,2,2$ tieši šādā secībā ir uzrakstīti divās vietās.
 
-   
-
 
 # <lo-sample/> LV.AMO.2022A.6.1
 
@@ -183,6 +206,11 @@ kilometru ir no Laines mājām līdz skolai?
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, LinearEquation
+* _readingDifficulty: low
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -193,7 +221,6 @@ garumu no Laines mājām līdz skolai apzīmējam ar $x$, tad iegūstam, ka $60 
 no $x=1200$ jeb $\frac{60}{100} \cdot x=1200$. Tātad 
 $x=\frac{1200 \cdot 100}{60}=2000$. Līdz ar to no Laines mājām līdz skolai 
 ir $2000$ metri jeb $2$ kilometri.
-
 
 
 # <lo-sample/> LV.AMO.2022A.6.2
@@ -208,6 +235,11 @@ iespējams, ka kādā brīdī visos četros plauktos būs vienāds skaits eklēr
 
 * questionType:ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: EvenOddParity, Invariant, PositiveIntegers
+* _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: ConcreteToGeneralLeap, IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -239,6 +271,11 @@ pagrieztas vai apgāztas otrādi.
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: Tiling, DissectionIntoCongruent, ChessboardColoring, LatticeGrid
+* _readingDifficulty: medium
+* _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -252,7 +289,6 @@ Skat., piemēram, 7.att.
 
 # <lo-sample/> LV.AMO.2022A.6.4
 
-
 Laine uz lapas uzrakstīja lielāko divciparu pirmskaitli, kuram abi cipari arī 
 ir pirmskaitļi. Raimonds uz lapas uzrakstīja mazāko trīsciparu pirmskaitli. 
 Kāda ir abu uzrakstīto skaitļu summa?
@@ -261,6 +297,11 @@ Kāda ir abu uzrakstīto skaitļu summa?
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, DigitRepresentation, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness, DivisibilityRules
+* _hasReasoningMistake: PrimeOnePointConfusion, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -297,6 +338,11 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ (tieši šā
 
 * questionType:FindCount
 * domain:Comb
+* _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -346,7 +392,6 @@ c. $\ldots 202\mid 2\ldots $
 Tātad rindā cipari $2, 0, 2, 2$ tieši šādā secībā ir uzrakstīti piecās vietās.
 
 
-
 # <lo-sample/> LV.AMO.2022A.7.1
 
 Attālināto mācību laikā skolēni iemācījās ļoti ātri atbildēt uz testa 
@@ -362,6 +407,11 @@ izpildīja Raimonds?
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:FormingEquations
+* _hasSolutionConcept: DirectProportion, RationalNumbers
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -393,6 +443,11 @@ Karlsons var iegūt tieši $2000$ tortes gabalus?
 * subdomain:DOM_MakingMoves
 * method:MTH_FixedInvariant
 * topic:DivisibilityProperties
+* _hasSolutionConcept: DivisibilityRelation, Invariant, ProofByContradiction, DigitSum
+* _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -437,6 +492,11 @@ figūras nedrīkst pārklāties vai iziet ārpus taisnstūra.
 * subdomain:DOM_GridCut
 * method:MTH_InductiveAlgorithms
 * topic:SquareGridShapes
+* _hasSolutionConcept: Tiling, DivisionWithRemainder, PositiveIntegers, Invariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -449,7 +509,6 @@ sadalīt $3370: 5=674$ šādos taisntūros, tad nepārklātas paliek tieši
 $3 \cdot 674=2022$ rūtiņas.
 
 ![](LV.AMO.2022A.7.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2022A.7.4
@@ -466,6 +525,11 @@ ar $7$.
 * method:MTH_ExhaustiveAlgorithms
 * subdomain:DOM_Divisibility
 * topic:ArithmeticSeriesDivisibility
+* _hasSolutionConcept: DivisibilityRelation, DivisionWithRemainder, CountingProductRule, FiniteSet
+* _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: IncompleteResidueCases, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -509,6 +573,11 @@ monētas vērtība? Atrodi visus iespējamos variantus un pamato, ka citu nav!
 * subdomain:DOM_NumberPartitionsCompositions
 * method:MTH_ExhaustiveAlgorithms
 * topic:DivisibilityProperties
+* _hasSolutionConcept: NumberPartitions, CaseAnalysis, ParityInvariant, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, FixedInvariantNumeric, ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -549,7 +618,6 @@ Ievērojam, ka vienīgā monētas vērtība, kas sakrīt, ir $9$. Līdz ar to es
 ieguvuši, ka vienīgā iespējamā trešās monētas vērtība ir $9$ centi.
 
 
-
 # <lo-sample/> LV.AMO.2022A.8.1
 
 Taisnes $y=x$ un $y = -2x+2022$ krustojas punktā $A$. Punkti $B$ un $C$ ir 
@@ -561,6 +629,11 @@ attiecīgi šo taišņu krustpunkti ar $y$ asi. Aprēķināt trijstūra $ABC$ la
 * domain:Alg,Geom
 * subdomain:DOM_Area
 * topic:TriangleAreaFromBaseAltitude
+* _hasSolutionConcept: PointLineSegmentRay, CoordinatePlane, Triangle
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: low
 
 </small>
 
@@ -571,7 +644,6 @@ Ievērojot, ka $y=x$, aprēķinām abu taišņu krustpunkta $x$ koordinātu:
 $x=-2x+2022$ jeb $3x=2022$, tātad $x=674$. Līdz ar to attālums no punkta $A$ 
 līdz $y$ asij ir $674$. Tātad 
 $S_{ABC}=\frac{1}{2} BC \cdot h_{BC}=\frac{1}{2} \cdot 2022 \cdot 674=681414$.
-
 
 
 # <lo-sample/> LV.AMO.2022A.8.2
@@ -589,6 +661,11 @@ $2$ kūciņas. Vai iespējams, ka kādā brīdī uz galda bija tieši $2022$ kū
 * subdomain:DOM_AlgebraicOperations
 * method:MTH_FixedInvariant
 * topic:DivisibilityProperties
+* _hasSolutionConcept: Invariant, DivisibilityRelation
+* _readingDifficulty: medium
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -615,7 +692,6 @@ Skaitlis $2022$ nedalās ar $4$. Tātad nav iespējams, ka uz galda kādā brīd
 tieši $2022$ kūciņas.
 
 
-
 # <lo-sample/> LV.AMO.2022A.8.3
 
 Kvadrātā $ABCD$ novilkta diagonāle $AC$ un uz tās atzīmēts punkts $E$ tā, ka 
@@ -629,6 +705,11 @@ $F$. Pierādīt, ka $EF=FB$!
 * subdomain:DOM_Quadrilaterals
 * topic:TriangleCongruenceSAS
 * topic:TrianglesIsosceles
+* _hasSolutionConcept: QuadrilateralFamilies, Triangle, Angle, TriangleCongruence
+* _readingDifficulty: low
+* _hasReasoningMethod: CongruentTriangles, AngleChasing, TriangleAngleSum, AuxiliaryLines, IsoscelesTriangleProperties, ParallelogramProperties
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -655,7 +736,6 @@ Līdz ar to $EF=FB$.
 ![](LV.AMO.2022A.8.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2022A.8.4
 
 Māris iedomājās naturālu skaitli $n$. Pēc tam viņš izvēlējās vienu skaitļa $n$ 
@@ -669,6 +749,11 @@ un pamato, ka citu nav!
 * domain:NT
 * subdomain:DOM_Divisibility
 * topic:DivisibilityProperties
+* _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PrimeNumbers, PositiveIntegers, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: DiophantineEquations, PrimePropertiesAndUniqueness, AlgebraicManipulationForInteger, CompleteEnumeration
+* _hasReasoningMistake: ConfusingDivisorAndMultiple, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -683,7 +768,6 @@ divi gadījumi:
 - $d=11$ un $k-4=1$ jeb $k=5$; no kā iegūstam, ka $n=k \cdot d=5 \cdot 11=55$.
 
 Tātad Māris iedomājās vai nu skaitli $15$, vai $55$.
-
 
 
 # <lo-sample/> LV.AMO.2022A.8.5
@@ -701,6 +785,11 @@ Kāds ir $3321.$ skaitlis šajā virknē?
 * domain:Comb
 * subdomain:DOM_CountingStrings
 * topic:RuleOfProduct
+* _hasSolutionConcept: NumberSequence, DigitRepresentation, CountingSumRule
+* _readingDifficulty: medium
+* _hasReasoningMethod: RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -727,8 +816,6 @@ Tātad kopā uzrakstīts $1+10+100+1000 \cdot 3+200+10=3321$ skaitlis, līdz ar 
 meklētais skaitlis ir $33212209$.
 
 
-
-
 # <lo-sample/> LV.AMO.2022A.9.1
 
 Sporta preču veikalā ir daži vienriteņi, daži divriteņi un daži trīsriteņi, 
@@ -742,6 +829,11 @@ sporta preču veikalā?
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:LinearSystems
+* _hasSolutionConcept: FiniteSet, EquationSystem, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -757,7 +849,6 @@ $t>0$, tad iespējami divi gadījumi:
 
 Tātad $v+4+1=7$ jeb $v=2$. Līdz ar to esam ieguvuši, ka veikalā ir divi 
 vienriteņi.
-
 
 
 # <lo-sample/> LV.AMO.2022A.9.2
@@ -780,6 +871,11 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $212$
 * method:MTH_FixedInvariant
 * topic:DivisibilityRulesFor3And9
 * topic:DivisibilityProperties
+* _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, Invariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: InvariantMethod, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -804,7 +900,6 @@ trīs. Tātad gājienu rezultātā var iegūt tikai skaitļus, kuri dalās ar $3
 skaitlis $212$ nedalās ar $3$, tāpēc to ar aprakstītajiem gājieniem nevar iegūt.
 
 
-
 # <lo-sample/> LV.AMO.2022A.9.3
 
 Izliektā sešstūrī $ABCDEF$ pretējās malas ir pa pāriem paralēlas, tas ir, 
@@ -819,6 +914,11 @@ $CD=AF$.
 * method:MTH_AugmentationWithNewElements
 * topic:Parallelograms
 * topic:TriangleCongruenceASA
+* _hasSolutionConcept: ParallelPerpendicular, Polygon, ParallelogramProperties, TriangleCongruence
+* _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, ParallelogramProperties, AuxiliaryLines
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, ConflatingPropertyAndCriterion
+* _mistakesFit: high
 
 </small>
 
@@ -845,7 +945,6 @@ Līdz ar to $BC=EF$ un $CD=AF$ kā vienādu trijstūru atbilstošās malas.
 ![](LV.AMO.2022A.9.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2022A.9.4
 
 Skaitļi $a; b; c$ (tieši šādā secībā) veido aritmētisko progresiju. Pierādīt, 
@@ -858,6 +957,11 @@ aritmētisko progresiju!
 * domain:Alg
 * subdomain:DOM_ArithmeticSeries
 * topic:ArithmeticAndGeometricSeries
+* _hasSolutionConcept: ArithmeticProgression, VariableExpression
+* _readingDifficulty: low
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother, UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -879,7 +983,6 @@ pieskaitot $3bd$ (progresijas diference). Tātad skaitļi
 $a^{2}-bc; b^{2}-ac; c^{2}-ab$ veido aritmētisko progresiju.
 
 
-
 # <lo-sample/> LV.AMO.2022A.9.5
 
 Kāds mazākais skaits rūtiņu jāaizkrāso taisnstūrī ar izmēriem $8 \times 8$ 
@@ -894,6 +997,11 @@ rūtiņas ir neaizkrāsotas?
 * subdomain:DOM_GridColoring
 * method:MTH_PigeonholePrincipleBasic
 * topic:SquareGridShapes
+* _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure, PigeonholePrinciple
+* _readingDifficulty: medium
+* _hasReasoningMethod: PigeonholePrinciple
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -910,7 +1018,6 @@ līniju izceltajiem taisnstūriem jābūt aizkrāsotai vismaz vienai rūtiņai. 
 jāaizkrāso vismaz $12$ rūtiņas.
 
 ![](LV.AMO.2022A.9.5B.png)
-
 
 
 # <lo-sample/> LV.AMO.2022A.10.1
@@ -939,7 +1046,6 @@ Ja nepāra skaitļu skaitu apzīmējam ar $x$, tad pāra skaitļu skaits ir $x+1
 $k=2x+1$. Līdz ar to $\frac{x+1}{2x+1}=52 \%$ jeb 
 $\frac{x+1}{2x+1}=\frac{13}{25}$. Iegūstam, ka $25x+25=26x+13$ jeb $x=12$. 
 Tātad $k=2x+1=25$.
-
 
 
 # <lo-sample/> LV.AMO.2022A.10.2
@@ -984,7 +1090,6 @@ trīs. Tātad gājienu rezultātā var iegūt tikai skaitļus, kuri dalās ar $3
 skaitlis $121$ nedalās ar $3$, tāpēc to ar aprakstītajiem gājieniem nevar iegūt.
 
 
-
 # <lo-sample/> LV.AMO.2022A.10.3
 
 Uz trijstūra $ABC$ malām $AC$ un $BC$ atlikti attiecīgi punkti $M$ un $K$. 
@@ -1018,7 +1123,6 @@ no kā aprēķinām, ka $S_{ABC}=48$.
 $\textit {Piezīme.}$ Var ievērot, ka $MK$ ir trijstūra $ABC$ viduslīnija.
 
 ![](LV.AMO.2022A.10.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2022A.10.4
@@ -1058,7 +1162,6 @@ ir lielāks nekā $3$, tātad nevar būt pirmskaitlis.
 
 Līdz ar to esam pierādījuši, ka vairāk kā $4$ skaitlus izvēlēties nav 
 iespējams.
-
 
 
 # <lo-sample/> LV.AMO.2022A.10.5
@@ -1104,8 +1207,6 @@ $2 \times 2$, tad $A-B=m^{2}=\left(\frac{n}{2}\right)^{2}$.
    $1$. Tātad $A-B=m^{2}=\left(\frac{n+1}{2}\right)^{2}$.
 
 
-
-
 # <lo-sample/> LV.AMO.2022A.11.1
 
 Punkts $A$ ir parabolas $y=x^{2}+50$ virsotne, bet punkts $B$ ir parabolas 
@@ -1126,7 +1227,6 @@ ir $50$. Parabolas $y=x^{2}-2022x+47$ virsotnes $x$ koordināta ir
 $x_{v}=\frac{2022}{2}=1011$. Tātad attālums no punkta $B$ līdz $y$ asij ir 
 $1011$. Līdz ar to 
 $S_{AOB}=\frac{1}{2} OA \cdot h_{OA}=\frac{1}{2} \cdot 50 \cdot 1011=25275$.
-
 
 
 # <lo-sample/> LV.AMO.2022A.11.2
@@ -1170,7 +1270,6 @@ divi. Tas nozīmē, ka pēc katra gājiena traukā A ir nepāra skaits balto bum
 Līdz ar to vienas pēdējās bumbiņas krāsa traukā A būs balta.
 
 
-
 # <lo-sample/> LV.AMO.2022A.11.3
 
 Izliekta četrstūra $ABCD$ diagonāle $AC$ ir leņķa $A$ bisektrise, $AC=AD$ un 
@@ -1201,7 +1300,6 @@ tad arī $HK=KD$. Tātad $DK=KC$ un esam pamatojuši, ka $BH$ krusto nogriezni
 $CD$ tā viduspunktā $K$.
 
 ![](LV.AMO.2022A.11.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2022A.11.4
@@ -1251,7 +1349,6 @@ $\textit {Piezīme.}$ Ekscentriski ir skaitļi:
 $1318, 1428, 1538, 1648, 1758, 1868, 1978, 2417, 2527, 2637, 2747, 2857, 2967, 3516, 3626, 3736, 3846, 3956, 4615, 4725, 4835, 4945, 5714, 5824, 5934, 6813, 6923, 7912$.
 
 
-
 # <lo-sample/> LV.AMO.2022A.11.5
 
 Zināms, ka trijstūra $ABC$ leņķus $\alpha, \beta$ un $\gamma$ saista sakarība 
@@ -1299,8 +1396,6 @@ Vismaz vienam no reizinātājiem jābūt vienādam ar nulli:
 Tātad kāds no trijstūra leņķiem ir taisns un trijstūris $ABC$ ir taisnleņķa.
 
 
-
-
 # <lo-sample/> LV.AMO.2022A.12.1
 
 Regulāras piecstūra plāksnītes virsotnēs pa vienai reizei uzrakstīti skaitļi 
@@ -1335,7 +1430,6 @@ plāksnītes drīkst brīvi grozīt, tad dažādo variantu skaits ir $5$ reizes
 mazāks, tas ir, $120:5=24$. Šajā skaitā ir ieskaitīta arī katras plāksnītes 
 apgrieztā plāksnīte (spoguļattēls), tātad pavisam ir $24:2=12$ dažādas 
 plāksnītes.
-
 
 
 # <lo-sample/> LV.AMO.2022A.12.2
@@ -1376,7 +1470,6 @@ skaits traukā A.
 Tātad balto bumbiņu skaits traukā A vai nu nemainās, vai arī samazinās par 
 divi. Tas nozīmē, ka pēc katra gājiena traukā A ir pāra skaits balto bumbiņu. 
 Līdz ar to vienas pēdējās bumbiņas krāsa traukā A būs melna.
-
 
 
 # <lo-sample/> LV.AMO.2022A.12.3
@@ -1430,7 +1523,6 @@ $$S_{BDF}=S_{BDJ}+S_{DFK}+S_{BFL}+S_{JKL}=\frac{S_{ABLF}+S_{BCDJ}+S_{DEFK}}{2}+S
 ![](LV.AMO.2022A.12.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2022A.12.4
 
 Doti pieci naturāli skaitļi. Šo skaitļu reizinājums apzīmēts ar $R$, bet to 
@@ -1481,7 +1573,6 @@ $5$, tātad nevar būt kongruents ar $0$ pēc moduļa $11$. Taču tā ir pretrun
 to, ka $S$ dalās ar $11$. Līdz ar to pieņēmums bijis aplams un $R$ dalās ar 
 $11$. Secinām, ka skaitliem $R$ un $S$ ir kopīgs pirmreizinātājs $11$, tātad 
 tie nav savstarpēji pirmskaitļi.
-
 
 
 # <lo-sample/> LV.AMO.2022A.12.5
@@ -1552,4 +1643,3 @@ $$\begin{gathered}
 
 Pēc induktīvā pieņēmuma šīs izteiksmes vērtība ir $1$, tātad skaitļu komplekts 
 ir derīgs, un prasītais pierādīts.
-

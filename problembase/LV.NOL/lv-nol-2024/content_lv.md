@@ -9,6 +9,11 @@ visi pieci ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $2$.
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, LastDigit, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -17,7 +22,6 @@ visi pieci ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $2$.
 
 Der, piemēram, $23 \cdot 26=598$.  
 *Piezīme.* Der arī $26 \cdot 29=754$.
-
 
 
 # <lo-sample/> LV.NOL.2024.5.2
@@ -32,6 +36,11 @@ Kāds mazākais skaits punktu jānodzēš, lai nekādi trīs no atlikušajiem pu
 * questionType:FindOptimal
 * domain:Geom
 * method:MTH_PigeonholePrincipleBasic
+* _hasSolutionConcept: PointLineSegmentRay, LatticeGrid, FiniteSet, OptimumProofStructure
+* _readingDifficulty: low
+* _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -63,6 +72,11 @@ sakrīt (figūras var pagriezt un apmest otrādi).
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
+* _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -73,7 +87,6 @@ sakrīt (figūras var pagriezt un apmest otrādi).
 Skat. 4. att.
 
 ![](LV.NOL.2024.5.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2024.5.4
@@ -87,6 +100,11 @@ $4 \cdot 1+23=27$). Kāds ir pēdējais uzrakstītais skaitlis?
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: PeriodicSequence, DigitProduct, NumberSequence, DivisionWithRemainder
+* _readingDifficulty: low
+* _hasReasoningMethod: PeriodicSequence
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -100,8 +118,6 @@ $$\underbrace{41 ; 27 ; 37 ; 44 ; 39 ; 50 ; 23 ; 29}; 41 ; 27 ; 37 ; \ldots$$
 
 levērojam, ka, sākot ar 9. virknes locekli, skaitli sāk periodiski atkārtoties, perioda garums ir 8 skaitli. 
 Tã kā $2024$ dalās ar $8$ ($2024: 8=253$), tad 2024. skaitlis būs tāds pats, kā 8. skaitlis, tātad $29$.
-
-
 
 
 # <lo-sample/> LV.NOL.2024.5.5
@@ -118,6 +134,11 @@ Vai iespējams, ka pēc atkārtotas automāta izmantošanas viṇai palika:
 * questionType:ProveDisprove
 * domain:Comb
 * subdomain:DOM_FixedInvariant
+* _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess
+* _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -140,9 +161,6 @@ $1$ zaļu žetonu, kā rezultātā zaļo žetonu skaits katrā reizē samazināt
 Tātad beigās viņai paliktu 2 dzelteni žetoni un 1 zaļš žetons.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2024.6.1
 
 Parādi vienu veidu, kādu ciparu var ierakstīt katrā aplītī, lai iegūtu patiesu vienādību, 
@@ -154,6 +172,11 @@ visi seši ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $3$.
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, CountingProductRule
+* _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -162,7 +185,6 @@ visi seši ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $3$.
 
 Der, piemēram, $34 \cdot 37=1258$.  
 *Piezīme.* Der arī $37 \cdot 38=1406$.
-
 
 
 # <lo-sample/> LV.NOL.2024.6.2
@@ -176,6 +198,11 @@ ja jābūt izgrieztām arī tieši divām 6.att. figūrām?
 
 * questionType:FindOptimal
 * domain:Geom
+* _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -198,7 +225,6 @@ tad 7. att. figūras var izgriezt ne vairāk kā $14$.
 ![](LV.NOL.2024.6.2B.png)
 
 
-
 # <lo-sample/> LV.NOL.2024.6.3
 
 Dots kvadrāts ar izmēriem $6 \times 6$ rūtiṇas, kurā dažas rūtinas atzīmētas ar 
@@ -215,6 +241,11 @@ ka abas figūras sakrīt (figūras var pagriezt un apmest otrādi).
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
+* _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -237,6 +268,11 @@ Kāds ir pēdējais uzrakstītais skaitlis?
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: PeriodicSequence, DigitProduct, NumberSequence, DivisionWithRemainder
+* _readingDifficulty: low
+* _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -255,8 +291,6 @@ $35$ (noņemot dotās virknes pirmos trīs skait|us), pēdējo skaitli.
 Tādā gadījumā $2021:11=183$, atlikums $8$, tāpēc meklētais skaitlis ir perioda 8. skaitlis un tas ir $37$.
 
 
-
-
 # <lo-sample/> LV.NOL.2024.6.5
 
 Vai var uzzīmēt tādu slēgtu lauztu līniju no **(A)** $6$ posmiem, **(B)** $7$ posmiem, 
@@ -270,6 +304,11 @@ ko sauc par posmiem. Lauztu līniju, kuras galapunkti sakrīt, sauc par slēgtu 
 * questionType:ProveDisprove
 * domain:Geom
 * subdomain:DOM_FixedInvariant
+* _hasSolutionConcept: Polygon, EvenOddParity, SetPartition, ExistenceVsUniversal
+* _readingDifficulty: low
+* _hasReasoningMethod: ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -285,10 +324,6 @@ katrā pāri saliekot divus posmus, kas krustojas. Tātad šādas lauztas līnij
 jābūt pāra skaitlim, bet $7$ ir nepāra skaitlis.
 
 
-
-
-
-
 # <lo-sample/> LV.NOL.2024.7.1
 
 Katrā tukšajā aplîtī ierakstīt vienu darbību zīmi ($+$,$-$,$\cdot$,$:$) tā, 
@@ -302,6 +337,11 @@ katru ciparu tieši vienu reizi! (Iekavas lietot nedrīkst un jāievēro darbīb
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, DigitRepresentation, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -313,8 +353,6 @@ Skat. 14. att.
 ![](LV.NOL.2024.7.1A.png)
 
 
-
-
 # <lo-sample/> LV.NOL.2024.7.2
 
 Kāda lielākā ciparu summa var būt desmitciparu skaitlim, kas dalās ar $18$?
@@ -323,6 +361,11 @@ Kāda lielākā ciparu summa var būt desmitciparu skaitlim, kas dalās ar $18$?
 
 * questionType:FindOptimal
 * domain:NT
+* _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
+* _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, WrongDigitSumRange, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -350,6 +393,11 @@ Kāds var būt nogriežņa $AC$ garums, ja zināms, ka tas ir naturāls skaitlis
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: TriangleInequality, Triangle, PositiveIntegers, PointLineSegmentRay
+* _readingDifficulty: low
+* _hasReasoningMethod: TriangleInequality
+* _hasReasoningMistake: ConcludingFromZeroOrEdgeCase, SkippingCaseAnalysis, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -389,6 +437,11 @@ salikt taisnstūri, kurā 16. att. figūras nesaskaras ne ar malu, ne ar stūri!
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: Tiling, Rotation, QuadrilateralFamilies
+* _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -398,8 +451,6 @@ salikt taisnstūri, kurā 16. att. figūras nesaskaras ne ar malu, ne ar stūri!
 Skat., piemēram, 17. att.
 
 ![](LV.NOL.2024.7.4A.png)
-
-
 
 
 # <lo-sample/> LV.NOL.2024.7.5
@@ -417,6 +468,11 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 * topic:LinearOptimization
 * method:MTH_ExtremeElements
 * method:MTH_PigeonholePrincipleBasic
+* _hasSolutionConcept: PigeonholePrinciple, ProofByContradiction, CountingProductRule
+* _readingDifficulty: low
+* _hasReasoningMethod: ExtremalElementArgument, ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -439,10 +495,6 @@ katrs gardēdis ir iztērējis ($85$ eiro). Tātad kopā nopirka ne vairāk kā 
 līdz ar to vismaz viena torte palika nenopirkta.
 
 
-
-
-
-
 # <lo-sample/> LV.NOL.2024.8.1
 
 Vai iespējams, sareizinot sešus dažādus pirmskaiț̣us, iegūt sešciparu skaitli, kam visi cipari ir vienādi?
@@ -451,6 +503,11 @@ Vai iespējams, sareizinot sešus dažādus pirmskaiț̣us, iegūt sešciparu sk
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, DigitRepresentation, DivisibilityRelation, PrimeFactorization
+* _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction, PrimeFactorization
+* _hasReasoningMistake: PrimeOnePointConfusion, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -462,8 +519,6 @@ Jā, var, piemēram, der sešciparu skaitlis $222222=2 \cdot 3 \cdot 37 \cdot 7 
 *Piezīme.* Der arī skaitlis $555555=5 \cdot 3 \cdot 37 \cdot 7 \cdot 11 \cdot 13$.
 
 
-
-
 # <lo-sample/> LV.NOL.2024.8.2
 
 Vienādsānu trijstūrī $ABC$ ($AB=AC$) uz malām $BC$ un $AC$ atlikti attiecīgi punkti 
@@ -473,6 +528,11 @@ $D$ un $E$ tā, lai $AE=AD$ un $\sphericalangle BAD=30^{\circ}$. Aprēk̄ināt l
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
+* _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -511,6 +571,11 @@ kolonnā vai diagonālē, bet arī, piemēram, punkti $A, B, C$ (skat. 20. att.)
 * questionType:FindOptimal
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
+* _hasSolutionConcept: LatticeGrid, PointLineSegmentRay, FiniteSet, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -523,7 +588,6 @@ Pamatosim, ka mazāk punktu nodzēst nav iespējams. Katrā rindā ir jānodzē�
 trīs punkti (citādi būs taisne, uz kuras atrodas trīs punkti), tātad kopā ir jānodzēš vismaz $15$ punkti.
 
 ![](LV.NOL.2024.8.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2024.8.4
@@ -539,6 +603,11 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 * domain:Comb
 * method:MTH_ExtremeElements
 * method:MTH_PigeonholePrincipleBasic
+* _hasSolutionConcept: PigeonholePrinciple, ProofByContradiction, CountingProductRule
+* _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrincipleBasic, ContradictionForImpossibility, ExtremalElementArgument
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: medium
 
 </small>
 
@@ -564,7 +633,6 @@ $30+31+32+33=126$, kas ir vairāk nekā katrs gardēdis ir iztērējis ($125$ ei
 Tātad kopā nopirka ne vairāk kā $3 \cdot 5=15$ tortes, lî̀z ar to vismaz viena torte palika nenopirkta.
 
 
-
 # <lo-sample/> LV.NOL.2024.8.5
 
 Vai **(A)** 22. att., **(B)** 23. att. dotā kvadrāta rūtiṇās var ierakstīt 
@@ -578,6 +646,11 @@ viens skaitlis un katrā rindā un katrā kolonnā skaitli pieaugtu bultiņas no
 * questionType:ProveDisprove
 * domain:Comb
 * method:MTH_ContradictionForExistence
+* _hasSolutionConcept: TotalOrder, DirectedGraph, ProofByContradiction, PositiveIntegers
+* _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -597,7 +670,6 @@ tad šāds skaitļu izvietojums nav iespējams.
 ![](LV.NOL.2024.8.5B.png)
 
 
-
 # <lo-sample/> LV.NOL.2024.9.1
 
 Dots izliekts četrstūris $K L M N$. Zināms, ka $\sphericalangle LKN = \sphericalangle MNK$ 
@@ -607,6 +679,11 @@ un malu $K L$ un $M N$ vidusperpendikulu krustpunkts $X$ atrodas uz malas $K N$.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: TriangleCongruence, Triangle, Angle, PointLineSegmentRay
+* _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, PerpendicularBisector, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -628,7 +705,6 @@ Tātad $KM=LN$ kā atbilstošās malas vienādos trijstūros.
 ![](LV.NOL.2024.9.1A.png)
 
 
-
 # <lo-sample/> LV.NOL.2024.9.2
 
 Pierādīt, ka $\sqrt{17-12 \sqrt{2}}+\sqrt{3-2 \sqrt{2}}+\sqrt{3+2 \sqrt{2}}=3$.
@@ -638,6 +714,11 @@ Pierādīt, ka $\sqrt{17-12 \sqrt{2}}+\sqrt{3-2 \sqrt{2}}+\sqrt{3+2 \sqrt{2}}=3$
 * questionType:Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
+* _hasSolutionConcept: SquareOfSumIdentity, PositiveAndNegative, IrrationalAndReals
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, CaseAnalysisBySignOrInterval, NumericalEstimation
+* _hasReasoningMistake: MissedSolutionsWhenSquareRootOfSquare, ExtraneousRootsAfterSquaring, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: high
 
 </small>
 
@@ -684,8 +765,6 @@ $$\begin{gathered}
 Tā kā tika veikti ekvivalenti pārveidojumi un iegūta patiesa vienādība, tad arī dotā vienādība ir patiesa.
 
 
-
-
 # <lo-sample/> LV.NOL.2024.9.3
 
 Uz kvadrāta $ABCD$ diagonāles $BD$ atlikts punkts $E$. Pierādīt, ka $ED \cdot EB + EA \cdot EC = AB^{2}$!
@@ -695,6 +774,11 @@ Uz kvadrāta $ABCD$ diagonāles $BD$ atlikts punkts $E$. Pierādīt, ka $ED \cdo
 * questionType:Prove
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
+* _hasSolutionConcept: QuadrilateralFamilies, PythagoreanTheorem, ParallelPerpendicular, AxialSymmetry
+* _readingDifficulty: low
+* _hasReasoningMethod: PythagoreanTheorem, ParallelogramProperties
+* _hasReasoningMistake: UnstatedDirectionAssumption, SkippingCaseAnalysis, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -720,7 +804,6 @@ $AB=AD$, tad $2AB^{2}=d^{2}$ jeb $AB^{2}=\frac{d^{2}}{2}$.
 Līdz ar to esam ieguvuši, ka $ED \cdot EB+EA \cdot EC=\frac{d^{2}}{2}=AB^{2}$.
 
 
-
 # <lo-sample/> LV.NOL.2024.9.4
 
 Taisnstūrī ar izmēriem $4 \times 6$ rūtinas sākotnēji katrā rūtịnā atradās tieši viens kaķis. 
@@ -733,6 +816,11 @@ Vai var gadīties, ka tagad visi kaķi atrodas tieši: **(A)** $8$ rūtiņās; *
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: LatticeGrid, Coloring, Invariant, GraphConcept
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -757,9 +845,6 @@ tādai rūtiṇai, kurai divas blakus rūtiṇas ir pelēkā krāsā, bet tādas
 Tātad pēc pārlēkšanas kaķi atradīsies vismaz $8$ rūtiņās.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2024.9.5
 
 Dots naturāls skaitlis, kura cipari ir sakārtoti augošā secībā (katrs cipars, 
@@ -770,6 +855,11 @@ Pierādīt, ka $9$ reizes lielāka skaitļa ciparu summa ir $9$.
 
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, DigitSum, PositiveIntegers
+* _readingDifficulty: low
+* _hasReasoningMethod: AlgebraicManipulationForInteger, TelescopingAndIdentity, PositionalNotation
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -783,9 +873,6 @@ Ievērojam, ka $9 x=10 x-x=\overline{x 0}-x$. Apzīmējam $x=\overline{a_{1} a_{
 Aplūkojot skaiț̣a $9x$ ciparu summu, iegūstam prasīto:
 
 $$a_{1}+\left(a_{2}-a_{1}\right)+\left(a_{3}-a_{2}\right)+\cdots+\left(a_{n-1}-a_{n-2}\right)+\left(a_{n}-a_{n-1}-1\right)+10-a_{n}=9.$$
-
-
-
 
 
 # <lo-sample/> LV.NOL.2024.10.1
@@ -850,9 +937,6 @@ Tā kā reizinājums ir vienāds ar 0 , tad $y^{3}-1=0$ vai $x-1=0$ jeb $y=1$ va
 * Ja $x=1$, tad vienādība $y x^{3}+1=y+x^{3}$ ir patiesa, jo $y+1=y+1$.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2024.10.3
 
 Šaurleņķu trijstūra $ABC$ malu garumi ir $AB=7 \mathrm{~cm}$, $AC=12 \mathrm{~cm}$ 
@@ -897,8 +981,6 @@ $BQ = \sqrt{BD^{2}+DQ^{2}} = \sqrt{48+16} = 8 \mathrm{~cm}$.
 
 1. Augstumu $B D$ var aprēkināt arī, izmantojot trijstūra laukumu (pēc Hērona formulas).
 2. Vajadzīgos punktus var iegūt, mēǵinot kombinēt dažādus malu garumus, lai iegūtu, ka hipotenūzas garums ir vesels skaitlis.
-
-
 
 
 # <lo-sample/> LV.NOL.2024.10.4
@@ -955,8 +1037,6 @@ $a^{2}-(b+1) a+b^{2}-b=0$ attiecībā pret nezināmo $a$, tad $D=-3 b^{2}+6 b+1$
 kuram ir reālas saknes, ja $D \geq 0$ jeb $b \in\left[\frac{3-2 \sqrt{3}}{3} ; \frac{3+2 \sqrt{3}}{3}\right]$. Pārbauda veselās $b$ vērtības, kas atrodas atbilstošajā intervālā, tās ir $0 ; 1 ; 2$.
 
 
-
-
 # <lo-sample/> LV.NOL.2024.10.5
 
 Taisnstūrī ar izmēriem $8 \times 10$ rūtiṇas sākotnēji katrā rūtināa atradās tieši viena varde. 
@@ -981,10 +1061,6 @@ Vai var gadīties, ka tagad visas vardes atrodas tieši: **(A)** $24$ rūtiņās
 **(B)** Nē, nevar. Pierādīsim, ka vardes atrodas vismaz 24 rūtiṇās.
 
 Aplūkosim tās 24 vardes, kas sākumā atradās 6. att. iekrāsotajās rūtiṇās, un ievērosim, ka nekādas divas no tām pēc pārlēkšanas nevar atrasties vienā un tajā pašā rūtinā. Lai divas vardes no pelēkajām rūtiṇām varētu nonākt vienā un tajā pašā rūtiṇā, būtu jābūt tādai rūtịnai, kurai divas blakus rūtị̣as ir pelēkā krāsā, bet tādas rūtinas nav. Tātad pēc pārlēkšanas vardes atradīsies vismaz 24 rūtiṇās.
-
-
-
-
 
 
 # <lo-sample/> LV.NOL.2024.11.1
@@ -1014,8 +1090,6 @@ Tātad ap četrstūri $OCAB$ var apvilkt riṇķa līniju un punkti
 $O$, $A$, $B$ un $C$ atrodas uz vienas riṇķa līnijas.
 
 ![](LV.NOL.2024.11.1A.png)
-
-
 
 
 # <lo-sample/> LV.NOL.2024.11.2
@@ -1059,7 +1133,6 @@ Tātad, ja $\frac{x+y}{x-y}+\frac{x-y}{x+y}=5$, tad $\frac{x^{2}+y^{2}}{x^{2}-y^
 $$
 \frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}=\frac{5}{2}+\frac{2}{5}=\frac{29}{10}<3
 $$
-
 
 
 # <lo-sample/> LV.NOL.2024.11.3
@@ -1120,8 +1193,6 @@ $$\frac{30}{4(4+x)}=\frac{7}{x} \quad \Rightarrow \quad 30 x=112+28 x \quad \Rig
 Tātad $EC=x=56$.
 
 
-
-
 # <lo-sample/> LV.NOL.2024.11.4
 
 Pierādīt: ja $a, b, c$ ir naturāli skaitli un 
@@ -1156,7 +1227,6 @@ Pien̦msim, ka visi trīs skaiț̣i $a, b, c$ dalās ar kādu naturālu skaitli 
 Līdzīgi kā 1. atrisinājumā varam iegūt, ka, ja $\operatorname{LKD}\left(a_{1}, b_{1}\right)=x$, tad arī $c_{1}$ dalās ar $x$. Bet tā kā visu skaitlu lielākais kopīgais dalītājs ir 1 , tad secinām, $\operatorname{ka} \operatorname{LKD}\left(a_{1}, b_{1}\right)=1$.
 
 Līdzīgi iegūstam, $\operatorname{kaKD}\left(b_{1}, c_{1}\right)=1$ un $\operatorname{LKD}\left(c_{1}, a_{1}\right)=1$. Tātad $a_{1}+1=b_{1}+1=c_{1}+1$ jeb $a_{1}=b_{1}=c_{1}=1$.
-
 
 
 # <lo-sample/> LV.NOL.2024.11.5
@@ -1217,7 +1287,6 @@ Redzams, ka pirmajās 1013 kastēs auglu skaits ir attiecīgi no $2026$ līdz $1
 no $3038$ līdz $2027$ (katrā nākamajā kastē par vienu mazāk).
 
 
-
 # <lo-sample/> LV.NOL.2024.12.1
 
 Šaurlen̦ķu trijstūrī $ABC$ novilkti augstumi $AD, BE$ un $CF$, kas krustojas punktā $H$. 
@@ -1243,7 +1312,6 @@ kā ievilktie leṇki, kas balstās uz vienu un to pašu loku $F H$. Tātad
 $\sphericalangle HDE=\alpha=\sphericalangle FDH$ un $DH$ ir leṇka $EDF$ bisektrise.
 
 ![](LV.NOL.2024.12.1A.png)
-
 
 
 # <lo-sample/> LV.NOL.2024.12.2
@@ -1288,7 +1356,6 @@ Tātad, ja $\frac{x+y}{x-y}+\frac{x-y}{x+y}=7$, tad $\frac{x^{2}+y^{2}}{x^{2}-y^
 $$\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}=\frac{7}{2}+\frac{2}{7}=\frac{53}{14}=\sqrt{\frac{53^{2}}{14^{2}}}=\sqrt{\frac{2809}{196}}=\sqrt{14 \frac{65}{196}}>\sqrt{14}.$$
 
 
-
 # <lo-sample/> LV.NOL.2024.12.3
 
 Taisnleṇķa trijstūrī $ABC\left(\sphericalangle ABC=90^{\circ}\right)$ uz malas 
@@ -1319,7 +1386,6 @@ $$\frac{A D}{A C}=\frac{A D}{A E} \cdot \frac{A E}{A C}=\frac{2}{3} \cdot \frac{
 Izmantojot **(1)**, iegūstam:
 $$\frac{10}{3(3+x)}=\frac{3}{x} \quad \Rightarrow \quad 10 x=27+9 x \quad \Rightarrow \quad x=27.$$
 Tātad $EC=x=27$.
-
 
 
 # <lo-sample/> LV.NOL.2024.12.4
@@ -1359,7 +1425,6 @@ lai pāri paliktu $18$ (vai $12$) konfektes.
 Arī **(B)** gadījumā pirmajā gājienā Māris var paṇemt $2$ konfektes, 
 lai pāri paliktu $2022$ konfektes, kas dalās ar $6$ (Māris pirmajā gājienā var n̦emt arī citu 
 konfekšu skaitu, piemēram, $8 ; 32 ; 128 ; \ldots$ ).
-
 
 
 # <lo-sample/> LV.NOL.2024.12.5
@@ -1411,4 +1476,3 @@ Tā kā $p \geq 3$, tad $2^{p}+7 \equiv 0+$ $3 \equiv 3 \pmod 4$. Tā kā $p$ ir
 tas ir, $p=2n+1$ kādam naturālam skaitlim $n$, tad 
 $$p^{2} \equiv(2 n+1)^{2} \equiv 4 n^{2}+4 n+1 \equiv 1 \pmod {4}$. 
 Tā kā $1 \not \equiv 3 \pmod {4}$, tad vienādojumam nav atrisinājuma, ja $q=2$.
-

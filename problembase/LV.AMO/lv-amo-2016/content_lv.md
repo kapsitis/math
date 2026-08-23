@@ -8,6 +8,11 @@ $DLV; MMXVI; CMXCIV; XXXVII$
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement
+* _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -19,7 +24,6 @@ $CMXCIV=994 ; XXXVII=37$. Tātad skaitļi augošā secībā ir
 $XXXVII ; DLV ; CMXCIV ; MMXVI$.
 
 
-
 # <lo-sample/> LV.AMO.2016.5.2
 
 Vai var atrast tādus naturālus skaitļus $a$ un $b$, ka
@@ -29,6 +33,11 @@ $14 \cdot a+2 \cdot b+1=2016$ ?
 
 * questionType:ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
+* _readingDifficulty: low
+* _hasReasoningMethod: ParityOrModularArgumentForEquations
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -42,7 +51,6 @@ nevar atrast tādus naturālus skaitļus $a$ un $b$, lai dotā vienādība būtu
 patiesa.
 
 
-
 # <lo-sample/> LV.AMO.2016.5.3
 
 Starp dotajiem skaitļiem vienādības kreisajā pusē saliec darbību zīmes un
@@ -54,6 +62,11 @@ iekavas tā, lai iegūtu patiesu vienādību!
 
 * questionType:FindExample,FindExample
 * domain:Comb
+* _hasSolutionConcept: RationalNumbers, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -61,7 +74,6 @@ iekavas tā, lai iegūtu patiesu vienādību!
 ## Atrisinājums
 
 **(A)** $3-3+7+7=14$; **(B)** $(3+3:7) \cdot 7=\frac{24}{7} \cdot 7=24$
-
 
 
 # <lo-sample/> LV.AMO.2016.5.4
@@ -75,6 +87,11 @@ daļas nedrīkst pārklāties, daļas drīkst pagriezt, bet nedrīkst apgāzt ot
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: Tiling, DissectionIntoCongruent, Rotation
+* _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -96,6 +113,11 @@ viens otram!
 
 * questionType:Prove
 * domain:Comb
+* _hasSolutionConcept: PigeonholePrinciple, GraphConcept, FiniteSet
+* _readingDifficulty: medium
+* _hasReasoningMethod: PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -107,7 +129,6 @@ $\frac{12 \cdot 11}{2}=66$ dažādus pārus. Uzskatīsim, ka pāris saņem īszi
 viens no pāra dalībniekiem nosūtījis īsziņu otram dalībniekam. Tā kā $72 > 66$,
 tad būs tāds pāris, kurš saņems divas īsziņas. Tātad šī pāra dalībnieki
 nosūtījuši īsziņas viens otram.
-
 
 
 # <lo-sample/> LV.AMO.2016.6.1
@@ -122,6 +143,11 @@ risinājumu!
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, EquationSystem
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -134,7 +160,6 @@ Skat. 4.att., kur
 ![](LV.AMO.2016.6.1A.png)
 
 
-
 # <lo-sample/> LV.AMO.2016.6.2
 
 Vai var atrast tādus naturālus skaitļus $a$ un $b$, ka
@@ -144,6 +169,11 @@ $14 \cdot a+15=2016-6 \cdot b$?
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
+* _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -156,7 +186,6 @@ $6 \cdot b$ ir pāra skaitlis, tad vienādojuma labajās puses izteiksmes vērt�
 ir pāra skaitlis. Tā kā pāra skaitlis nevar būt vienāds ar nepāra skaitli, tad
 nevar atrast tādus naturālus skaitļus $a$ un $b$, lai dotā vienādība būtu
 patiesa.
-
 
 
 # <lo-sample/> LV.AMO.2016.6.3
@@ -172,6 +201,11 @@ tantītes piedalījās sacensībās?
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, FiniteSet, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation, CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, WrongDirectionOfInequalityChain, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -195,7 +229,6 @@ $\frac{6}{65}$ un $\frac{8}{65}$ no visu baraviku kopskaita. Līdz ar to esam
 ieguvuši, ka sacensībās piedalījās $7+2=9$ tantītes.
 
 
-
 # <lo-sample/> LV.AMO.2016.6.4
 
 Kvadrāts ar izmēriem $12 \times 12$ rūtiņas divos veidos ir sadalīts taisnstūros
@@ -212,6 +245,11 @@ taisnstūrī būtu vismaz viena iekrāsota rūtiņa?
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_GridColoring
+* _hasSolutionConcept: Tiling, Coloring, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -223,7 +261,6 @@ kopā jābūt vismaz $12$ iekrāsotām rūtiņām. Ar $12$ iekrāsotām rūtiņ�
 lai izpildītos uzdevuma nosacījumi, skat., piemēram, 6.att.
 
 ![](LV.AMO.2016.6.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2016.6.5
@@ -238,6 +275,11 @@ laukuma) daļās! Gabali attiecībā viens pret otru drīkst būt gan pagriezti,
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: DissectionIntoCongruent, PlaneTransformation
+* _readingDifficulty: low
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -247,7 +289,6 @@ laukuma) daļās! Gabali attiecībā viens pret otru drīkst būt gan pagriezti,
 Skat., piemēram, 8.att.
 
 ![](LV.AMO.2016.6.5A.png)
-
 
 
 # <lo-sample/> LV.AMO.2016.7.1
@@ -264,6 +305,11 @@ funkcijas grafiku un iet caur punktu $(1; 43)$!
 * domain:Alg
 * subdomain:DOM_RealFunctions
 * topic:LinearFunctions
+* _hasSolutionConcept: LinearFunction, CoordinatePlane, LinearEquation, ParallelPerpendicular, OrderedPair
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -281,7 +327,6 @@ punktu $(1; 43)$, tas ir, atrisinām vienādojumu $43=2015 \cdot 1+b$. Tātad
 $b=-1972$.
 
 
-
 # <lo-sample/> LV.AMO.2016.7.2
 
 Karlsons sev pusdienām nopirka $8$ pīrādziņus un $15$ magoņmaizītes, bet
@@ -297,6 +342,11 @@ centu). Cik samaksāja Brālītis?
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_IntegerSequences
+* _hasSolutionConcept: DivisibilityRelation, CoprimeIntegers, LinearEquation
+* _readingDifficulty: medium
+* _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument, AlgebraicManipulationForInteger
+* _hasReasoningMistake: UnstatedNumberSetAssumption, WrongDivisibilityDirection
+* _mistakesFit: medium
 
 </small>
 
@@ -315,8 +365,7 @@ Tātad Brālītis samaksāja $18$ centus.
 ## Atrisinājums
 
 $200-8p=15m$, tātad $m$ dalās ar $8$. 
-Un $m$ nevar būt $16$, jo citādi $p<0$. Tāpēc $m=8$. 
-
+Un $m$ nevar būt $16$, jo citādi $p<0$. Tāpēc $m=8$.
 
 
 # <lo-sample/> LV.AMO.2016.7.3
@@ -335,6 +384,11 @@ Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 * topic:TriangleCongruence
 * topic:AlternateAngles
 * topic:TrianglesIsosceles
+* _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, Angle, TriangleCongruence, ParallelogramProperties
+* _readingDifficulty: low
+* _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, MisuseOfMidpointOrParallel, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -360,7 +414,6 @@ vienpusleņķi pie paralēlām taisnēm $AN$ un $CD$ ir vienādi, tātad
 $\sphericalangle ANC=90^{\circ}$.
 
 
-
 # <lo-sample/> LV.AMO.2016.7.4
 
 Divi rūķi -- Svirpulnieks un Pukstiņš -- katru dienu tīra zobus. Katrs lieto savu
@@ -379,6 +432,11 @@ tūbiņu?
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:CongruenceEquationsLinear
+* _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, LinearEquation
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -394,7 +452,6 @@ Izsakot mainīgo $n$, iegūstam $n=\frac{2k+1}{3-k}$. Lai $n$ būtu naturāls, t
 $k$ varētu būt $1$ vai $2$. Pārbaudot iegūstam, ka der vienīgi $k=2$, un tādā
 gadījumā $n=5$. Esam ieguvuši, ka Pukstiņam zobu pastas tūbiņa pietiek $5$
 dienām, bet Svirpulniekam- $7$ dienām.
-
 
 
 # <lo-sample/> LV.AMO.2016.7.5
@@ -413,6 +470,11 @@ Pierādīt, ka varde ir apēdusi vismaz $21$ mušu!
 * method:MTH_PeriodicInvariant
 * subdomain:DOM_MakingMoves
 * topic:SubtractionRule
+* _hasSolutionConcept: ChessboardColoring, ParityInvariant, FiniteSet
+* _readingDifficulty: medium
+* _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -426,7 +488,6 @@ visās neapmeklētajās baltajās rūtiņās ir pa mušai, varde ir apēdusi vis
 $43-22=21$ mušu.
 
 
-
 # <lo-sample/> LV.AMO.2016.8.1
 
 Aprēķini dotās izteiksmes vērtību!
@@ -434,12 +495,17 @@ Aprēķini dotās izteiksmes vērtību!
 $$\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13}-128}$$
 
 <small>
-  
+
 * topic:StandardIdentities
 * questionType:FindAll
 * domain:Alg
 * concepts:expression
 * subdomain:DOM_AlgebraicOperations
+* _hasSolutionConcept: DiffOfSquaresFactoring, DivisibilityRelation, RationalNumbers
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -453,9 +519,7 @@ $\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13}-128}=\frac{\left(2 \cdot 10^{6
 
 Rakstām algebrisku pārveidojumu:
 
-$$\frac{4(10^6 - 8)(10^6 + 8)}{2(10^{12} -64)} = \frac{4}{2}=2.$$ 
-
-
+$$\frac{4(10^6 - 8)(10^6 + 8)}{2(10^{12} -64)} = \frac{4}{2}=2.$$
 
 
 # <lo-sample/> LV.AMO.2016.8.2
@@ -469,6 +533,11 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$?
 * subdomain:DOM_IntegerEquations
 * topic:ModularParity
 * topic:ModularArithmeticContradiction
+* _hasSolutionConcept: WholeIntegers, EvenOddParity, CaseAnalysis
+* _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument, DiophantineEquations
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -486,8 +555,7 @@ patiesa.
 
 ## Atrisinājums
 
-Reizinājums  $ab(a+43b)$ ir nepāru, tātad $a,b$ abi ir nepāru. Bet tad $a+43b$ ir pāru. 
-
+Reizinājums  $ab(a+43b)$ ir nepāru, tātad $a,b$ abi ir nepāru. Bet tad $a+43b$ ir pāru.
 
 
 # <lo-sample/> LV.AMO.2016.8.3
@@ -505,6 +573,11 @@ lielākais ciparu skaits, kas var būt šajā skaitlī?
 * domain:NT
 * concepts:divisibility
 * subdomain:DOM_NumeralSystems
+* _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, DivisibilityRules, DigitRepresentation, DigitSum, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules, PrimeFactorization, BoundingArgument, SumOfArithmeticOrTriangularNumbers
+* _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: high
 
 </small>
 
@@ -547,6 +620,11 @@ Pierādīt, ka $\triangle MNB=\triangle CKM$.
 * subdomain:DOM_Quadrilaterals
 * topic:TriangleCongruenceSSS
 * topic:TriangleSideBisector
+* _hasSolutionConcept: QuadrilateralFamilies, Triangle, TriangleCongruence, TriangleSpecialLines, ParallelPerpendicular
+* _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, PerpendicularBisector
+* _hasReasoningMistake: MisuseOfMidpointOrParallel, RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: high
 
 </small>
 
@@ -562,7 +640,6 @@ tāpēc $MK=\frac{1}{2} AC=CN$. Līdz ar to esam ieguvuši, ka
 $\triangle MNB=\triangle CKM$ pēc pazīmes $mmm$.
 
 ![](LV.AMO.2016.8.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2016.8.5
@@ -586,6 +663,11 @@ pareizi spēlējot, uzvar, ja **(A)** $N=7$, **(B)** $N=8$?
 * method:MTH_InductiveAlgorithms
 * topic:GameModelAsGrid
 * topic:GameInvariant
+* _hasSolutionConcept: GamePosition, WinningLosingPositions, LatticeGrid, Invariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -606,7 +688,6 @@ ka pirmajam spēlētājam gājiens jāizdara no zaudējošas rūtiņas.
 ![](LV.AMO.2016.8.5A.png)
 
 
-
 # <lo-sample/> LV.AMO.2016.9.1
 
 Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
@@ -617,6 +698,11 @@ Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
 * domain:Alg
 * subdomain:DOM_Inequalities
 * topic:InequalitySolvingWithTransformations
+* _hasSolutionConcept: LinearInequality, FunctionDomainRange
+* _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval
+* _hasReasoningMistake: CaseAnalysisIncomplete, SignFlipForgottenInInequality, UncheckedConsistencyOfFoundValues
+* _mistakesFit: high
 
 </small>
 
@@ -628,7 +714,6 @@ $x= \pm 2$. Izmantojot Intervālu metodi (skat. 15.att.), iegūstam, ka
 $x \in(-\infty ;-2) \cup [1 ; 2)$.
 
 ![](LV.AMO.2016.9.1A.png)
-
 
 
 # <lo-sample/> LV.AMO.2016.9.2
@@ -643,6 +728,11 @@ $x, y$ un $z$, ka $x^{3}-2016xyz=10$ ?
 * domain:NT
 * subdomain:DOM_IntegerEquations
 * topic:ModularArithmeticContradiction
+* _hasSolutionConcept: WholeIntegers, ModularArithmetic, ProofByContradiction
+* _readingDifficulty: medium
+* _hasReasoningMethod: ModularArithmetic, CompleteEnumeration
+* _hasReasoningMistake: IncompleteResidueCases, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -663,7 +753,6 @@ $3$ , bet $10 \equiv 2(\bmod 4)$. Tātad dotajam vienādojumam nav atrisinājuma
 veselos skaitļos.
 
 
-
 # <lo-sample/> LV.AMO.2016.9.3
 
 Dots taisnstūris $ABCD$. Malas $AB$ viduspunkts ir $M$. Zināms, ka uz malas $BC$
@@ -679,6 +768,11 @@ $CDM$ ir vienādmalu!
 * topic:SimilarTriangleSideRatio
 * topic:TrianglesRight
 * topic:TrianglesRightRatioCosine
+* _hasSolutionConcept: Triangle, TriangleCongruence, TriangleSimilarity, Angle, PointLineSegmentRay
+* _readingDifficulty: medium
+* _hasReasoningMethod: SimilarTriangles, CongruentTriangles, AngleAtCenterAndCircumference, ParallelogramProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance, WrongAngleDecomposition
+* _mistakesFit: high
 
 </small>
 
@@ -705,7 +799,6 @@ Pitagora teorēmu $\triangle MBC$, iegūstam, ka $CM=2x$.
 ![](LV.AMO.2016.9.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2016.9.4
 
 Naturālu skaitļu virknes $1; 2; 2; 4; 8; 32; 48; \ldots$ katrs loceklis,
@@ -720,6 +813,11 @@ reizinājumu. Kāds ir šīs virknes $2016.$ loceklis?
 * subdomain:DOM_IntegerSequences
 * method:MTH_PeriodicInvariant
 * topic:SequencePeriodicity
+* _hasSolutionConcept: NumberSequence, RecurrentSequence, DigitProduct, PeriodicSequence
+* _readingDifficulty: medium
+* _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -758,7 +856,6 @@ sākot ar $7.$ locekli, ir periodiska ar perioda garumu $10.$ Tā kā
 $2016=6+10 \cdot 201$, tad $a_{2016}=a_{16}=160$.
 
 
-
 # <lo-sample/> LV.AMO.2016.9.5
 
 Sivēnam ir $10$ podi ar medu, kas pēc kārtas sanumurēti ar skaitļiem no $1$
@@ -774,6 +871,11 @@ pārbaudot ne vairāk kā četrus podus!
 * subdomain:DOM_Logic
 * method:MTH_ExhaustiveAlgorithms
 * topic:SearchProblems
+* _hasSolutionConcept: ArithmeticProgression, FiniteSequenceArrangement, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -800,7 +902,6 @@ podu un vēl vienu podu.
    - Ja tas ir $6.$ pods, tad $d=1$ un izēsts ir $6.$ ,$7.$ ,$8.$ un $9.$ pods.
 
 
-
 # <lo-sample/> LV.AMO.2016.10.1
 
 Doti divi dažādi kabeļi. Pirmā kabeļa masa ir $65~\mathrm{kg}$, otrā kabeļa
@@ -825,7 +926,6 @@ Reizinot vienādojuma abas puses ar $x(x+3) > 0$, iegūstam vienādojumu
 $120x=65x+195+2x^{2}+6x$ jeb $2x^{2}-49x+195=0$, kura saknes ir $x=5$ un
 $x=19,5$. Tātad pirmā un otrā kabeļa garums attiecīgi var būt $5~\mathrm{m}$ un
 $8~ \mathrm{m}$ vai $19,5~\mathrm{m}$ un $22,5~\mathrm{m}$.
-
 
 
 # <lo-sample/> LV.AMO.2016.10.2
@@ -876,8 +976,6 @@ Tā kā $2016$ dalās ar $9$, tad $x^3 \equiv 3 \pmod {9}$. Pārbaudot visus
 kubus $0^3,1^3,\ldots,8^3$, neviens no tiem nedod atlikumu $3$, dalot ar $9$.
 
 
-
-
 # <lo-sample/> LV.AMO.2016.10.3
 
 Aritmētiskās progresijas četri pēc kārtas ņemti locekļi ir veseli skaitļi
@@ -915,7 +1013,6 @@ summa $A^{2}+2B^{2}+3C^{2}+4D^{2}$ ir izteikta kā divu veselu skaitļu kvadrāt
 summa.
 
 
-
 # <lo-sample/> LV.AMO.2016.10.4
 
 Trijstūrī $ABC$ leņķa $\sphericalangle ABC$ bisektrise krusto malu $AC$ punktā
@@ -943,7 +1040,6 @@ $BDQP$ ir paralelograms, jo $BD || QP$ un $BP || DQ$. Paralelogramā diagonāles
 krustpunktā dalās uz pusēm, tāpēc $PM=MD$.
 
 ![](LV.AMO.2016.10.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2016.10.5
@@ -974,7 +1070,6 @@ $4$. Tāda ir tikai laukuma centrālā rūtiņa. Taisnstūrus ar izmēriem
 $1 \times 5$ rūtiņas var izvietot, piemēram, tā, kā parādīts 19.att.
 
 
-
 # <lo-sample/> LV.AMO.2016.11.1
 
 No visiem vienādsānu trijstūriem ar sānu malas garumu $10~\mathrm{cm}$ atrast to,
@@ -996,7 +1091,6 @@ $\alpha-$ virsotnes leņķis. Tā kā $\sin \alpha \in[-1 ; 1]$, tad lielākais
 iespējamais laukums būs gadījumā, ja $\sin \alpha=1$. Tā kā $\alpha$ ir
 trijstūra leņķis, tad $\alpha=90^{\circ}$. Tātad no visiem vienādsānu
 trijstūriem vislielākais laukums ir taisnleņķa trijstūrim.
-
 
 
 # <lo-sample/> LV.AMO.2016.11.2
@@ -1040,7 +1134,6 @@ tad nevar atrast tādus naturālus skaitļus $x, y$ un $z$, lai dotā vienādīb
 patiesa.
 
 
-
 # <lo-sample/> LV.AMO.2016.11.3
 
 Pierādīt nevienādību
@@ -1067,7 +1160,6 @@ $$\begin{aligned}
 & =\frac{\sqrt{3}-\sqrt{1}+\sqrt{4}-\sqrt{2}+\sqrt{5}-\sqrt{3}+\sqrt{6}-\sqrt{4}+\cdots+\sqrt{49}-\sqrt{47}+\sqrt{50}-\sqrt{48}}{2}= \\
 & =\frac{-\sqrt{1}-\sqrt{2}+\sqrt{49}+\sqrt{50}}{2}=3+2 \sqrt{2}<3+2 \cdot 1,5=6
 \end{aligned}$$
-
 
 
 # <lo-sample/> LV.AMO.2016.11.4
@@ -1112,7 +1204,6 @@ un, izmantojot formulu $\mbox{tg}\ 2 \alpha=\frac{\mbox{tg}\ \alpha}{1-\mbox{tg}
 aprēķināt vērtību $\mbox{tg}\ \frac{\pi}{8}=\sqrt{2}-1$.
 
 
-
 # <lo-sample/> LV.AMO.2016.11.5
 
 Uz kādas salas dzīvo zaļi, zili un sarkani hameleoni. Ja divi atšķirīgas krāsas
@@ -1139,7 +1230,6 @@ panākt situāciju, ka divu krāsu hameleonu skaits būtu $0$, nav iespējams.
 
 **(B)** Jā, ir iespējams:
 $(12,15,16) \rightarrow(14,14,15) \rightarrow(13,13,17) \rightarrow \ldots \rightarrow(1,1,41) \rightarrow(0,0,43)$.
-
 
 
 # <lo-sample/> LV.AMO.2016.12.1
@@ -1169,7 +1259,6 @@ $\left(\frac{2}{3}\right)^{\sin x}=\frac{9}{4} \quad \Rightarrow \sin x=-2 \quad
 Tātad dotā vienādojuma atrisinājums ir $x=\pi n, n \in \mathbb{Z}$.
 
 
-
 # <lo-sample/> LV.AMO.2016.12.2
 
 Pierādīt, ka vienādojumam $10^{x}+12^{y}=34^{z}$ nav atrisinājuma naturālos
@@ -1192,7 +1281,6 @@ tad iegūstam $(-1)^{x}+1^{y} \equiv 1^{z}(\bmod 11)$. Šī kongruence nav
 patiesa, jo kreisās puses izteiksmes vērtība ir $0$ vai $2$, bet labās puses
 izteiksmes vērtība ir $1$. Tātad dotajam vienādojumam nav atrisinājuma
 naturālos skaitļos.
-
 
 
 # <lo-sample/> LV.AMO.2016.12.3
@@ -1226,7 +1314,6 @@ $$\begin{gathered}
 \end{gathered}$$
 
 Tātad $\frac{y^{2}}{4} > 2xz$ jeb $y^{2} > 8xz$.
-
 
 
 # <lo-sample/> LV.AMO.2016.12.4
@@ -1266,7 +1353,6 @@ vienlaicīgi ir arī mediāna, tāpēc $AM=MC$.
 ![](LV.AMO.2016.12.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2016.12.5
 
 Dotas piecas pēc ārējā izskata vienādas monētas. Trīs no tām ir īstas (to
@@ -1298,4 +1384,3 @@ Ja $x \neq 0$ un $y=0$, tad $A$ un $C$ abas ir īstas.
 Ja $x \neq 0$ un $x=y$, tad $B$ un $D$ abas ir īstas.
 
 Ja $x \neq 0$ un $x=2 y$, tad $E$ ir īsta.
-

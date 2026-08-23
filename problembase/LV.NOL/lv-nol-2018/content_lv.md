@@ -12,6 +12,12 @@ dažādi.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, PositiveIntegers, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: low
 
 </small>
 
@@ -20,7 +26,6 @@ dažādi.
 Der jebkuri divi no variantiem:
 
 $$\frac{1}{3}+\frac{1}{3}+\frac{1}{3}=1; \quad \frac{1}{2}+\frac{1}{4}+\frac{1}{4}=\frac{2}{4}+\frac{1}{4}+\frac{1}{4}=1; \quad \frac{1}{2}+\frac{1}{3}+\frac{1}{6}=\frac{3}{6}+\frac{2}{6}+\frac{1}{6}=1$$
-
 
 
 # <lo-sample/> LV.NOL.2018.5.2
@@ -44,6 +49,12 @@ gadu skaits?
 * questionType:ProveDisprove,ProveDisprove,ProveDisprove,ProveDisprove
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
+* _hasSolutionConcept: PigeonholePrinciple, Counterexample, ExistenceVsUniversal, FiniteSet
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, PigeonholePrincipleGeneralized, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts
+* _mistakesFit: high
 
 </small>
 
@@ -68,7 +79,6 @@ kolektīvā ir vismaz četri dejotāji, kam ir vienāds gadu skaits. (Izmantots
 Dirihlē princips.)
 
 
-
 # <lo-sample/> LV.NOL.2018.5.3
 
 Sadali 1.att. doto figūru $8$ vienādās daļās, tā, lai dalījuma līnijas ietu pa 
@@ -84,6 +94,12 @@ otras tā, ka abas figūras pilnīgi sakrīt.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation, AxialSymmetry
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -92,7 +108,6 @@ otras tā, ka abas figūras pilnīgi sakrīt.
 Der jebkurš no 2.att. dotajiem sadalījumiem.
 
 ![](LV.NOL.2018.5.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2018.5.4
@@ -106,6 +121,12 @@ $$7, a, b, c, d, e, f, 9$$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, EquationSystem, PeriodicSequence
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, IntroduceVariablesAndFormEquation
+* _hasReasoningMistake: ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: low
 
 </small>
 
@@ -121,7 +142,6 @@ pozīcijas atstatu ir vienādi. Tātad $7=c=f$ un $a=d=9$, visbeidzot $b=e$ un t
 vērtību var atrast, izmantojot to, ka $a+b+c=20$.
 
 
-
 # <lo-sample/> LV.NOL.2018.5.5
 
 Divi spēlētāji pēc kārtas ņem konfektes no konfekšu kaudzes. Katrā gājienā 
@@ -134,6 +154,12 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GamePosition, WinningLosingPositions, DivisibilityRelation, Invariant
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: high
 
 </small>
 
@@ -159,7 +185,6 @@ jāņem $2$ konfektes (lai atlikušais skaits $2016$ dalītos ar $8$) un tad tā
 jārīkojas atbilstoši iepriekš aprakstītajai shēmai.
 
 
-
 # <lo-sample/> LV.NOL.2018.6.1
 
 Parādi vienu piemēru, kādus naturālus skaitļus var ierakstīt burtu $a, b, c$ 
@@ -171,6 +196,12 @@ $$\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=\frac{4}{5}$$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, PositiveIntegers, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption
+* _mistakesFit: low
 
 </small>
 
@@ -182,7 +213,6 @@ $$\begin{aligned}
 & \frac{1}{2}+\frac{1}{4}+\frac{1}{20}=\frac{10}{20}+\frac{5}{20}+\frac{1}{20}=\frac{16}{20}=\frac{4}{5} \\
 & \frac{1}{2}+\frac{1}{5}+\frac{1}{10}=\frac{5}{10}+\frac{2}{10}+\frac{1}{10}=\frac{8}{10}=\frac{4}{5}
 \end{aligned}$$
-
 
 
 # <lo-sample/> LV.NOL.2018.6.2
@@ -203,6 +233,12 @@ dalībnieki?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PigeonholePrinciple, Counterexample, ProofByContradiction, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -224,9 +260,7 @@ noteikti ir tāds koris, kurā ir vismaz $30$ dalībnieki. (Izmantots Dirihlē
 princips.)
 
 
-
 # <lo-sample/> LV.NOL.2018.6.3
-
 
 Vai taisnstūri ar izmēriem $6 \times 8$ rūtiņas var pārklāt ar **a)** divām 
 3.att. dotajām figūrām un $20$ figūrām, kādas dotas 4.att.; **b)** vienu 3.att.
@@ -238,6 +272,12 @@ doto figūru un $22$ figūrām, kādas dotas 4.att.? Figūras drīkst pagriezt.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, Rotation
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: ColoringInvariant, CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, SkippingCaseAnalysis
+* _mistakesFit: high
 
 </small>
 
@@ -258,7 +298,6 @@ taisnstūri ar dotajām figūrām pārklāt nav iespējams.
 ![](LV.NOL.2018.6.3B.png)
 
 
-
 # <lo-sample/> LV.NOL.2018.6.4
 
 Divciparu skaitļa sākumā un beigās pierakstīja ciparu $1$. leguva četrciparu 
@@ -270,6 +309,12 @@ pamato, ka citu nav!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, LastDigit, LinearEquation, ExhaustiveCheck
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: PositionalNotation, LastDigitAnalysis, CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -308,7 +353,6 @@ a=7
 Tātad vienīgais derīgais divciparu skaitlis ir $77$.
 
 
-
 # <lo-sample/> LV.NOL.2018.6.5
 
 Divi spēlētāji pēc kārtas ņem konfektes no konfekšu kaudzes. Katrā gājienā 
@@ -321,6 +365,12 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 
 * questionType:
 * domain:
+* _hasSolutionConcept: WinningLosingPositions, GamePosition, DivisionWithRemainder, Invariant, SymmetryStrategy
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -348,7 +398,6 @@ dotu atlikumā $1$) un tad tālāk jārīkojas atbilstoši iepriekš aprakstīta
 shēmai.
 
 
-
 # <lo-sample/> LV.NOL.2018.7.1
 
 Četrstāvu mājai ir vairāk nekā $200$ logu. Zināms, ka pirmajā stāvā ir nepāra 
@@ -359,6 +408,12 @@ stāvu zemāk. Kāds mazākais logu skaits var būt šīs mājas ceturtajā stā
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EvenOddParity, VariableExpression, LinearInequality, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ParityOrModularArgumentForEquations
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -374,7 +429,6 @@ x>47
 \end{gathered}$$
 
 Līdz ar to mazākais iespējamais logu skaits $4.$ stāvā ir $49$.
-
 
 
 # <lo-sample/> LV.NOL.2018.7.2
@@ -395,6 +449,12 @@ ka vismaz četras no tām ir vienā krāsā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PigeonholePrinciple, Counterexample, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleGeneralized, ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, MissingConstructionPartInOptimalProblems
+* _mistakesFit: high
 
 </small>
 
@@ -414,7 +474,6 @@ lentes, tad pēc Dirihlē principa noteikti vismaz četras no tām būtu vienā
 krāsā.
 
 
-
 # <lo-sample/> LV.NOL.2018.7.3
 
 Aprēķināt $\sphericalangle BCD+\sphericalangle DEF+\sphericalangle FGH$ (skat. 
@@ -427,6 +486,12 @@ un $\sphericalangle EFG=60^{\circ}$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Angle, ParallelPerpendicular, PointLineSegmentRay
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: ParallelLinesAngleProperties, AuxiliaryLines, AngleChasing
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -448,7 +513,6 @@ $$\begin{gathered}
 \end{gathered}$$
 
 
-
 # <lo-sample/> LV.NOL.2018.7.4
 
 Dots, ka piecciparu skaitlis $\overline{acbba}$ dalās ar $11$ un $a>b>c$. 
@@ -460,6 +524,12 @@ ciparus!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, Permutation
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, PositionalNotation, AlgebraicManipulationForInteger
+* _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -519,7 +589,6 @@ ciparu summas, kas atrodas nepāra pozīcijās, un ciparu summas, kas atrodas p�
 pozīcijās, starpība ir $2a-c$, kas dalās ar $11$.
 
 
-
 # <lo-sample/> LV.NOL.2018.7.5
 
 Visi naturālie skaitļi no $1$ līdz $16$ ierakstīti tabulas (skat. 10.att.) 
@@ -533,6 +602,12 @@ Pierādit, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ArithmeticMean
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric
+* _hasReasoningMistake: DoubleCountingTheSameObject, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -555,7 +630,6 @@ $$S=\frac{1}{2}\left(D_{1}+D_{2}+R_{2}+R_{3}-K_{1}-K_{4}\right)=\frac{1}{2} \cdo
 ![](LV.NOL.2018.7.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2018.8.1
 
 Zināms, ka $a$ ir tāds reāls skaitlis, ka $a+\frac{1}{a}=3$. Aprēķināt **a)** 
@@ -565,6 +639,12 @@ $a^{2}+\frac{1}{a^{2}}+2$; **b)** $a^{4}+\frac{1}{a^{4}}$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: SquareOfSumIdentity, VariableExpression, IrrationalAndReals
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: UseStandardIdentities, SubstitutionForSimplification
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -577,7 +657,6 @@ $a^{2}+\frac{1}{a^{2}}+2=a^{2}+2 \cdot a \cdot \frac{1}{a}+\frac{1}{a^{2}}=\left
 iegūstam, ka
 
 $$a^{4}+\frac{1}{a^{4}}=a^{4}+2 \cdot a^{2} \cdot \frac{1}{a^{2}}+\frac{1}{a^{4}}-2=\left(a^{2}+\frac{1}{a^{2}}\right)^{2}-2=49-2=47$$
-
 
 
 # <lo-sample/> LV.NOL.2018.8.2
@@ -598,6 +677,12 @@ būtu trīs meitenes, kas izvēlējās vienu un to pašu lenšu krāsu komplektu
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PigeonholePrinciple, ExhaustiveCheck, FiniteSet, Counterexample, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleGeneralized, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier, MissingConstructionPartInOptimalProblems
+* _mistakesFit: high
 
 </small>
 
@@ -633,7 +718,6 @@ meiteni, tad pēc Dirihlē principa noteikti būtu trīs meitenes, kas izvēlēj
 vienu un to pašu lenšu krāsu komplektu.
 
 
-
 # <lo-sample/> LV.NOL.2018.8.3
 
 Dots trijstūris $PQR$, kurā $\sphericalangle PQR=20^{\circ}$ un 
@@ -645,6 +729,12 @@ nekā $PQ$ ?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, TriangleSpecialLines
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, PointOnSegmentConstruction, TriangleAngleSum
+* _hasReasoningMistake: UnjustifiedAuxiliaryLineExists, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -674,7 +764,6 @@ vajadzīgo.
 ![](LV.NOL.2018.8.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2018.8.4
 
 No cipariem $1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7,\ 8,\ 9$, katru izmantojot vienu reizi, 
@@ -685,6 +774,12 @@ trīs skaitļu summa?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, DivisibilityRelation, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: PositionalNotation, DivisibilityRules, BoundingArgument, CompleteEnumeration, ProofByContradiction
+* _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -720,7 +815,6 @@ beigties ar trīs nullēm.
 ar skaitļu pēdējo ciparu.
 
 
-
 # <lo-sample/> LV.NOL.2018.8.5
 
 Visi naturālie skaitļi no $1$ līdz $16$ ierakstīti tabulas (skat. 13.att.) 
@@ -734,6 +828,12 @@ Pierādīt, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ArithmeticMean
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: low
 
 </small>
 
@@ -756,7 +856,6 @@ $$S=\frac{1}{2}\left(D_{1}+D_{2}+K_{1}+K_{4}-R_{2}-R_{3}\right)=\frac{1}{2} \cdo
 ![](LV.NOL.2018.8.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2018.9.1
 
 Jaunieši devās četru dienu pārgājienā gar jūru. Pirmajā dienā tie nogāja 
@@ -770,6 +869,12 @@ bija maršruts?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -785,7 +890,6 @@ $x=120$. Tātad kopējais maršruta garums bija $x+30=120+30=150$ kilometri.
 ![](LV.NOL.2018.9.1A.png)
 
 
-
 # <lo-sample/> LV.NOL.2018.9.2
 
 Skolas ēdnīcas pusdienu piedāvājumā ir divas dažādas zupas, divi dažādi 
@@ -798,6 +902,12 @@ vispār neko. Vai noteikti ir divi skolēni, kas pasūtīja vienu un to pašu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PigeonholePrinciple, CountingProductRule, FiniteSet
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: PigeonholePrincipleBasic, RuleOfProductIndependentChoices
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -819,7 +929,6 @@ $3 \cdot 3 \cdot 3-1=26$ dažādus pusdienu komplektus.
 Dirihlē principa noteikti ir divi skolēni, kas pasūtīja vienu un to pašu.
 
 
-
 # <lo-sample/> LV.NOL.2018.9.3
 
 Četrstūra $ABCD$ malu $AB$ un $CD$ garumu summa ir vienāda ar malas $AD$ 
@@ -830,6 +939,12 @@ Pierādīt, ka punkts $F$ ir $BC$ viduspunkts!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TriangleCongruence, TriangleSpecialLines, PointLineSegmentRay, QuadrilateralFamilies
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, PointOnSegmentConstruction, PerpendicularBisector
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, UnjustifiedAuxiliaryLineExists, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -848,7 +963,6 @@ $BC$ viduspunkts.
 ![](LV.NOL.2018.9.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2018.9.4
 
 Vai var atrast tādus veselus skaitļus $x$ un $y$, ka $20x^{3}-17y^{2}+1=2018$?
@@ -857,6 +971,12 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka $20x^{3}-17y^{2}+1=2018$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: WholeIntegers, DivisibilityRelation, EvenOddParity, ExhaustiveCheck
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: AlgebraicManipulationForInteger, DivisibilityRules, ParityArgument, CompleteEnumeration
+* _hasReasoningMistake: IncompleteResidueCases, CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -910,7 +1030,6 @@ pierādījuši, ka nevar atrast tādus veselus skaitļus $x$ un $y$, lai pastāv
 vienādība.
 
 
-
 # <lo-sample/> LV.NOL.2018.9.5
 
 Dota figūra, kuras laukums ir $24$ rūtiņas (skat. 17.att.). Griežot pa rūtiņu 
@@ -925,6 +1044,12 @@ pieņemot, ka rūtiņas malas garums ir viena vienība!
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, ExhaustiveCheck, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis, CountingByDoubleCounting
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -948,7 +1073,6 @@ ar to mazākais iespējamais griezuma līniju kopgarums ir
 $(2 \cdot 8+4 \cdot 10-26):2=15$, to var iegūt, piemēram, kā parādīts 20.att.
 
 ![](LV.NOL.2018.9.5A.png)
-
 
 
 # <lo-sample/> LV.NOL.2018.10.1
@@ -981,7 +1105,6 @@ x-y=30
 
 Saskaitot pēdējās sistēmas vienādojumus, iegūstam $2x=150$ jeb 
 $x=75~\mathrm{cm/min}$ un $y=45~\mathrm{cm/min}$.
-
 
 
 # <lo-sample/> LV.NOL.2018.10.2
@@ -1020,7 +1143,6 @@ ir, $18 \cdot 8+8 \cdot 7=200$ ).
 principa noteikti ir $8$ skolēni, kas pasūtīja vienu un to pašu.
 
 
-
 # <lo-sample/> LV.NOL.2018.10.3
 
 Punkts $K$ ir kvadrāta $ABCD$ malas $AB$ viduspunkts. Uz diagonāles $AC$ 
@@ -1050,7 +1172,6 @@ $\sphericalangle KLD=\sphericalangle KLE+\sphericalangle ELD=\sphericalangle KLE
 *Piezīme.* Iegūt prasīto var arī aprēķinot, ka 
 $KD=\sqrt{\frac{5a}{4}}$ un $KL=LD=\sqrt{\frac{5a}{8}}$, kur $a$ - kvadrāta 
 malas garums, un izmantojot Pitagora teorēmas apgriezto teorēmu.
-
 
 
 # <lo-sample/> LV.NOL.2018.10.4
@@ -1126,9 +1247,6 @@ izpildītu prasības par ciparu atkārtošanos un arī piecām nullēm beigās.
 ![](LV.NOL.2018.10.4A.png){ width=250px }
 
 
-
-
-
 # <lo-sample/> LV.NOL.2018.10.5
 
 Dota figūra, kuras laukums ir $28$ rūtiņas (skat. 22.att.). Griežot pa rūtiņu 
@@ -1176,7 +1294,6 @@ $(4 \cdot 8+3 \cdot 10-26):2=18$, to var iegūt, piemēram, kā parādīts 25.at
 ![](LV.NOL.2018.10.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2018.11.1
 
 Spīdolai ir $482$ bildes un divi vienādi fotoalbumi. Pirmā albuma katrā lapā 
@@ -1209,7 +1326,6 @@ Tā kā lapu skaits ir naturāls skaitlis, tad fotoalbumā ir $12$ lapas.
 *Piezīme.* Ja sistēmas otrā nevienādība ir $23x>482-21x$, tad iegūst,
 ka $x=11$ vai $x=12$, bet vērtība $x=11$ neder, jo tad albumā nepaliek vismaz 
 viena tukša lapa.
-
 
 
 # <lo-sample/> LV.NOL.2018.11.2
@@ -1247,7 +1363,6 @@ Ja pēdējā grupā ir mazāk nekā divi cilvēki, tad pa atlikušajām grupām 
 vismaz $31$ cilvēks. Tā kā ir $10$ grupas un vismaz $31=3 \cdot 10+1$ cilvēks, 
 tad pēc Dirihlē principa kādā no šīm grupām ir vismaz $4$ cilvēki, tātad tiem 
 gadu skaits ir vienāds.
-
 
 
 # <lo-sample/> LV.NOL.2018.11.3
@@ -1291,7 +1406,6 @@ Esam ieguvuši, ka $\sphericalangle BFC$ ir izstiepts leņķis, līdz ar to $F$
 atrodas uz $BC$.
 
 ![](LV.NOL.2018.11.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2018.11.4
@@ -1343,7 +1457,6 @@ kas nedalās ar $9$. Tāpēc summa $S$ nevar beigties ar septiņām nullēm.
 ar skaitļu pēdējo ciparu.
 
 
-
 # <lo-sample/> LV.NOL.2018.11.5
 
 Pierādīt, ka 
@@ -1386,7 +1499,6 @@ $$\begin{aligned}
 & \geq 10 \cdot \sqrt[10]{a^{4} \cdot b^{4} \cdot c^{4} \cdot d^{4} \cdot a^{2}b^{2} \cdot b^{2}c^{2} \cdot c^{2}d^{2} \cdot d^{2}a^{2} \cdot a^{2}c^{2} \cdot b^{2}d^{2}}= \\
 & \quad=10 \cdot \sqrt[10]{a^{10} \cdot b^{10} \cdot c^{10} \cdot d^{10}}=10 \cdot|abcd| \geq 10abcd
 \end{aligned}$$
-
 
 
 # <lo-sample/> LV.NOL.2018.12.1
@@ -1434,7 +1546,6 @@ $b=\frac{8}{112}=\frac{1}{14}$. Tātad $y=\frac{1}{b}=14$. Līdz ar to esam
 ieguvuši, ka otrā sniega tīrāmā mašīna sniegu Sūnu ciemā notīrītu $14$ stundās.
 
 
-
 # <lo-sample/> LV.NOL.2018.12.2
 
 Pierādīt, ka starp jebkuriem $78$ trīsciparu skaitļiem var atrast četrus tādus 
@@ -1480,7 +1591,6 @@ tāda grupa, kurā ir vismaz četri skaitļi - tie arī ir meklētie četri skai
 kuru ciparu summas ir vienādas.
 
 
-
 # <lo-sample/> LV.NOL.2018.12.3
 
 Trijstūrī $ABC$ ievilktā riņķa līnija pieskaras malai $AB$ punktā $D$, bet 
@@ -1519,7 +1629,6 @@ $\sphericalangle ABD=\sphericalangle ACD$, tad ap četrstūri var apvilkt riņķ
 līniju.
 
 
-
 # <lo-sample/> LV.NOL.2018.12.4
 
 Doti naturāli skaitļi $a$ un $b$. Pierādīt
@@ -1543,7 +1652,6 @@ dalās ar $7$.
 
 **(B)** Ja $201a+8b$ dalās ar $7$, tad arī $201a+8b-7(28a+b)=5a+b$ dalās ar $7$.
 Tas nozīmē, ka arī $18(5a+b)-7 \cdot 10a=20a+18b$ dalās ar $7$.
-
 
 
 # <lo-sample/> LV.NOL.2018.12.5
@@ -1593,4 +1701,3 @@ vienādojuma sakne.
 Ņemot vērā, ka $(-x)$ ir dotā vienādojuma sakne, ja $x$ ir šī vienādojuma 
 sakne, iegūstam, ka vienādojuma saknes ir $x_{1,2}=\sqrt{20} \pm \sqrt{18}$ un 
 $x_{3,4}=-\sqrt{20} \pm \sqrt{18}$.
-

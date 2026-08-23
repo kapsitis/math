@@ -10,6 +10,11 @@ burkā, ja Artūrs apēdīs visus atlikušos gurķīšus? (Artūrs ēda tikai gu
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, DirectProportion
+* _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -21,7 +26,6 @@ apēdot visus gurķīšus jeb $\frac{3}{3}$ gurķīšu, šķidruma līmenis burk
 samazināsies par $3 \cdot \frac{1}{5}=\frac{3}{5}$, tas ir, burkā paliks 
 $1-\frac{3}{5}=\frac{2}{5}$ šķidruma, kas ir divas reizes mazāk nekā pēc pirmās
 gurķīšu ēšanas.
-
 
 
 # <lo-sample/> LV.AMO.2018.5.2
@@ -40,6 +44,11 @@ Kāds ir $999.$ loceklis Raimonda virknē un kāds - Laines virknē?
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: NumberSequence, PeriodicSequence, RecurrentSequence, DigitRepresentation, DigitSum
+* _readingDifficulty: medium
+* _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -66,7 +75,6 @@ visi locekļi ir $80$, bet nepāra - $56$. Tā kā $999$ ir pāra skaitlis, tad 
 vietā virknē ir skaitlis $56$.
 
 
-
 # <lo-sample/> LV.AMO.2018.5.3
 
 Vai kvadrātā ar izmēriem $8 \times 8$ rūtiņas var iekrāsot $12$ rūtiņas tā, lai
@@ -77,6 +85,11 @@ vertikāli) būtu vismaz viena iekrāsota rūtiņa?
 
 * questionType:ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _hasReasoningMethod:
+* _hasReasoningMistake: ProofByExampleForUniversalClaim
+* _mistakesFit: low
 
 </small>
 
@@ -85,7 +98,6 @@ vertikāli) būtu vismaz viena iekrāsota rūtiņa?
 Jā, var, piemēram, skat. 1.att.
 
 ![](LV.AMO.2018.5.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2018.5.4
@@ -109,6 +121,11 @@ skaitlis?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, EvenOddParity, Invariant, ProofByContradiction
+* _readingDifficulty: high
+* _hasReasoningMethod: ParityArgument, ProofByContradiction, CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -136,7 +153,6 @@ ir izmantots no $4+8$. Tātad saskaitot divus sešciparu raibus skaitļus, summ�
 nav iespējams iegūt sešciparu raibu skaitli.
 
 
-
 # <lo-sample/> LV.AMO.2018.5.5
 
 Miķelis ir izgudrojis spēli, kurā nepieciešama spēļu nauda - miķelīši. No
@@ -149,6 +165,11 @@ naudaszīmju komplektu!
 
 * questionType:FindExample
 * domain:Comb
+* _hasSolutionConcept: FrobeniusType, FiniteSet, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -195,7 +216,6 @@ summu no $1$ līdz $36$. Nākamie labākie komplekti ir $1,\ 2,\ 5,\ 10$ un
 $1,\ 2,\ 5,\ 15$, bet ar tiem var izveidot summas no $1$ līdz $27$.
 
 
-
 # <lo-sample/> LV.AMO.2018.6.1
 
 Sarkanā kvadrāta laukums ir $80 \%$ no zilā kvadrāta laukuma, bet zilā kvadrāta
@@ -207,6 +227,11 @@ $25~\mathrm{cm^{2}}$.
 
 * questionType:FindOptimal,FindAll
 * domain:Geom
+* _hasSolutionConcept: RationalNumbers, DirectProportion, PerfectSquares
+* _readingDifficulty: low
+* _hasReasoningMethod: ParallelogramProperties,ScalingByLinearRatio
+* _hasReasoningMistake: WrongAreaProportionality
+* _mistakesFit: medium
 
 </small>
 
@@ -218,7 +243,6 @@ $0.8 \cdot 1.25x=1 \cdot x=x$. Tātad zaļā un sarkanā kvadrāta laukums ir
 vienāds un vienādi ir to malu garumi (abiem šiem kvadrātiem ir visīsākā mala). 
 Tā kā sarkanā kvadrāta laukums ir $25~\mathrm{cm^{2}}$, tad gan sarkanā, gan 
 zaļā kvadrāta malas garums ir $5~\mathrm{cm}$, jo $5^{2}=25$.
-
 
 
 # <lo-sample/> LV.AMO.2018.6.2
@@ -237,6 +261,11 @@ Kāds ir $1000.$ loceklis Viļņa virknē un kāds - Armanda virknē?
 
 * questionType:FindAll,FindAll
 * domain:NT
+* _hasSolutionConcept: NumberSequence, PeriodicSequence, RecurrentSequence, DigitSum
+* _readingDifficulty: medium
+* _hasReasoningMethod: PeriodicSequence, ParityArgument
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -264,7 +293,6 @@ vietās visi locekļi ir $96$, bet nepāra - $128$. Tā kā $1000$ ir pāra skai
 tad šajā vietā virknē ir skaitlis $96$.
 
 
-
 # <lo-sample/> LV.AMO.2018.6.3
 
 Kvadrātā ar izmēriem $7 \times 7$ rūtiņas sākotnēji visas rūtiņas ir baltas. 
@@ -276,6 +304,11 @@ nevarētu izgriezt $2 \times 3$ rūtiņu taisnstūri, kam visas rūtiņas ir bal
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_GridColoring
+* _hasSolutionConcept: Coloring, Tiling, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: ProofByContradiction,PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -288,7 +321,6 @@ izmēriem $2 \times 3$ rūtiņas (skat. 3.att.).
 ![](LV.AMO.2018.6.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2018.6.4
 
 Parādi vienu piemēru, kādus ciparus var ierakstīt burtu vietā, lai vienādība 
@@ -299,13 +331,17 @@ burti apzīmē vienādus ciparus, dažādi -- dažādus, turklāt $A$ nav $0$.
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, PerfectSquares, ExistenceVsUniversal
+* _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
 Der $A=1;\ B=2;\ C=8$, tad iegūstam $18 \cdot 8=12 \cdot 12$ jeb $144=144$.
-
 
 
 # <lo-sample/> LV.AMO.2018.6.5
@@ -327,6 +363,11 @@ iegūt tieši tikpat dažādos veidos, kā metot divus parastus metamos kauliņu
 
 * questionType:FindAll,FindExample
 * domain:Comb
+* _hasSolutionConcept: CountingProductRule, FiniteSet, Tuple, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections, ImplicitAssumptionAboutObjectsBeingDistinct, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -374,7 +415,6 @@ $2-1,\ 3-2,\ 4-3,\ 5-3,\ 6-5,\ 7-5,\ 8-4,\ 9-3,\ 10-2,\ 11-2$. Uz pēdējās
 skaldnes uzrakstot skaitli $4$, iegūsim atlikušās trūkstošās summas.
 
 
-
 # <lo-sample/> LV.AMO.2018.7.1
 
 Cik dažādus naturālus skaitļus, kam visi cipari ir dažādi, var izveidot no 
@@ -387,6 +427,11 @@ cipariem $2,\ 0,\ 1,\ 8$ ?
 * subdomain:DOM_CountingStrings
 * topic:RuleOfProduct
 * topic:RuleOfSum
+* _hasSolutionConcept: PositiveIntegers, DigitRepresentation, CountingProductRule, OrderedSelection
+* _readingDifficulty: low
+* _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ImplicitAssumptionAboutObjectsBeingDistinct, ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -409,7 +454,6 @@ skaitļus:
 Tātad pavisam ir $3+9+18+18=48$ šādi skaitļi.
 
 
-
 # <lo-sample/> LV.AMO.2018.7.2
 
 Skaitļu virkne tiek veidota pēc šāda likuma: ja $x$ ir virknes loceklis, tad 
@@ -424,6 +468,11 @@ locekļu summu!
 * subdomain:DOM_SequenceProperties
 * method:MTH_PeriodicInvariant
 * topic:SequencePeriodicity
+* _hasSolutionConcept: NumberSequence, PeriodicSequence, RationalNumbers
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities,DetectPeriodInRecursiveSequence
+* _hasReasoningMistake: ConcreteToGeneralLeap, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -455,7 +504,6 @@ virknes pirmo $2018$ locekļu summa ir
 $$\frac{53}{12} \cdot 672+4-\frac{1}{3}=53 \cdot 56+4-\frac{1}{3}=2971 \frac{2}{3}$$
 
 
-
 # <lo-sample/> LV.AMO.2018.7.3
 
 Uz trijstūra $ABC$ malas $AB$ izvēlēts patvaļīgs iekšējs punkts $D$. Pierādīt, 
@@ -468,6 +516,11 @@ ka $CD>\frac{1}{2}(CA+CB-AB)$.
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:TriangleInequality
+* _hasSolutionConcept: Triangle, TriangleInequality
+* _readingDifficulty: low
+* _hasReasoningMethod: TriangleInequality
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -486,7 +539,6 @@ CD>\frac{1}{2}(CA+CB-AB)
 ![](LV.AMO.2018.7.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2018.7.4
 
 Atrast tādu veselu skaitli $n$, lai vienādība 
@@ -498,6 +550,11 @@ $(n-2021)(n-2018)(n-2017)(n-2016)=2016$ būtu patiesa!
 * domain:NT
 * subdomain:DOM_IntegerEquations
 * topic:NumTheoryEqualityToConstant
+* _hasSolutionConcept: WholeIntegers, DivisibilityRelation, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: UnstatedNumberSetAssumption, FactoringWithoutIntegerCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -508,7 +565,6 @@ Der $n=2025$, tad $4 \cdot 7 \cdot 8 \cdot 9=2016$.
 *Piezīme.* Uzdevumu palīdz atrisināt, ja ievērojam, ka starpības 
 starp blakus esošiem reizinātājiem attiecīgi ir $3,\ 1,\ 1$ un ka skaitļi 
 $2016$ var izteikt kā $2016=4 \cdot 7 \cdot 8 \cdot 9$.
-
 
 
 # <lo-sample/> LV.AMO.2018.7.5
@@ -527,6 +583,11 @@ spoguļattēlā.
 * subdomain:DOM_GridCut
 * method:MTH_InductionConstructions
 * topic:SquareGridCutting
+* _hasSolutionConcept: Tiling, LatticeGrid, DivisionWithRemainder, Invariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -550,7 +611,6 @@ var izgriezt vienādu skaitu figūru.
 ![](LV.AMO.2018.7.5B.png)
 
 
-
 # <lo-sample/> LV.AMO.2018.8.1
 
 Vienkāršot izteiksmi 
@@ -562,6 +622,11 @@ $\left(x^{2}-2 x+1\right)\left(x^{4}+1\right)^{2}\left(x^{2}+2x+1\right)\left(x^
 * domain:Alg
 * subdomain:DOM_AlgebraicOperations
 * topic:StandardIdentities
+* _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, DiffOfSquaresFactoring
+* _readingDifficulty: low
+* _hasReasoningMethod: UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination
+* _mistakesFit: medium
 
 </small>
 
@@ -573,7 +638,6 @@ $a^{2} \pm 2ab+b^{2}=(a \pm b)^{2}$, iegūstam
 $\left(x^{2}-2x+1\right)\left(x^{4}+1\right)^{2}\left(x^{2}+2x+1\right)\left(x^{4}+2x^{2}+1\right)=(x-1)^{2}\left(x^{4}+1\right)^{2}(x+1)^{2}\left(x^{2}+1\right)^{2}=$  
 $=((x-1)(x+1))^{2}\left(x^{2}+1\right)^{2}\left(x^{4}+1\right)^{2}=\left(x^{2}-1\right)^{2}\left(x^{2}+1\right)^{2}\left(x^{4}+1\right)^{2}=$  
 $=\left(x^{4}-1\right)^{2}\left(x^{4}+1\right)^{2}=\left(x^{8}-1\right)^{2}$
-
 
 
 # <lo-sample/> LV.AMO.2018.8.2
@@ -590,6 +654,11 @@ Kāds ir šīs virknes $2018.$ loceklis?
 * subdomain:DOM_SequenceProperties
 * method:MTH_PeriodicInvariant
 * topic:SequencePeriodicity
+* _hasSolutionConcept: NumberSequence, RecurrentSequence, PeriodicSequence, DigitProduct
+* _readingDifficulty: medium
+* _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -609,7 +678,6 @@ pilnais periods beidzas pie $2018.$ virknes locekļa, jo $2018=8+10 \cdot 201$,
 un $2018.$ loceklis ir periodā pēdējais, tātad tas ir $5760$.
 
 
-
 # <lo-sample/> LV.AMO.2018.8.3
 
 Paralelograma $ABCD$ malu $BC$ un $AD$ viduspunkti ir attiecīgi $E$ un $F$. 
@@ -623,6 +691,11 @@ zināms, ka $ABCD$ laukums ir $100$.
 * subdomain:DOM_Quadrilaterals
 * topic:ParallelogramArea
 * topic:CentralSymmetry
+* _hasSolutionConcept: ParallelogramProperties, QuadrilateralFamilies, PointLineSegmentRay
+* _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, ParallelogramProperties, AuxiliaryLines
+* _hasReasoningMistake: FromSpecialToGeneral, AreaWithoutPosition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -644,7 +717,6 @@ $S_{GEF}=\frac{1}{2} S_{BEF}=\frac{1}{2} \cdot 25=12.5$. Līdzīgi iegūstam, ka
 $S_{FEH}=12.5$. Līdz ar to $S_{FGEH}=12.5 \cdot 2=25$.
 
 
-
 # <lo-sample/> LV.AMO.2018.8.4
 
 Par maģisko kvadrātu sauc $n \times n$ rūtiņu tabulu, kuras rūtiņās ierakstīti 
@@ -661,6 +733,11 @@ centrālajā rūtiņā ir ierakstīts skaitlis $\frac{n^{2}+1}{2}$, ja **(A)** $
 * subdomain:DOM_MagicConfigurations
 * topic:DoubleCounting
 * topic:ExpressionRegrouping
+* _hasSolutionConcept: MagicConfiguration, FiniteSet, EquationSystem, Counterexample
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -694,7 +771,6 @@ skaitlis $12$, skat., piemēram, 14.att., kur atbilstošā summa ir $65$.
 ![](LV.AMO.2018.8.4B.png)
 
 
-
 # <lo-sample/> LV.AMO.2018.8.5
 
 **(A)** Kāds ir mazākais rūtiņu skaits, kas jāiekrāso $6 \times 6$ rūtiņu 
@@ -713,6 +789,11 @@ neiekrāsotas?
 * method:MTH_ContradictionForExistence
 * topic:SquareGrid
 * subdomain:DOM_GridColoring
+* _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure, FiniteSet
+* _readingDifficulty: high
+* _hasReasoningMethod: ProofByContradiction,PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -743,7 +824,6 @@ neiekrāsotas.
 ![](LV.AMO.2018.8.5B.png)
 
 
-
 # <lo-sample/> LV.AMO.2018.9.1
 
 Dots vienādojums $(a-3)x^{2}+5x-2=0$.   
@@ -758,6 +838,11 @@ reālas saknes?
 * domain:Alg
 * subdomain:DOM_ParametrizedEquations
 * topic:QuadraticEquationRootConditions
+* _hasSolutionConcept: QuadraticEquation, LinearEquation, VariableExpression
+* _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -789,7 +874,6 @@ Tātad dotajam vienādojumam ir divas dažādas reālas saknes, ja
 $a \in\left(-\frac{1}{8}; 3\right) \cup(3;+\infty)$.
 
 
-
 # <lo-sample/> LV.AMO.2018.9.2
 
 Cik dažādos veidos basketbolā var gūt $18$ punktus, izmantojot tikai $1$ punkta
@@ -804,6 +888,11 @@ trīs dažādos veidos: $4=1+1+1+1=1+3=3+1$.
 * subdomain:DOM_NumberPartitionsCompositions
 * method:MTH_InductiveAlgorithms
 * topic:DefiningRecurrentSequences
+* _hasSolutionConcept: RecurrentSequence, FiniteSequenceArrangement, NumberPartitions
+* _readingDifficulty: medium
+* _hasReasoningMethod: RecursiveSequenceForCounting, RuleOfSumDisjointCases, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -850,7 +939,6 @@ Tātad $18$ punktus, izmantojot tikai $1$ punkta un $3$ punktu metienus, var
 iegūt $595$ veidos.
 
 
-
 # <lo-sample/> LV.AMO.2018.9.3
 
 Ap vienādsānu trijstūri $ABC$ ($AB=AC$) apvilkta riņķa līnija. Caur virsotni 
@@ -866,6 +954,11 @@ ir līdzīgi!
 * topic:FourPointsOnCircle
 * topic:ComplementaryLinearPairs
 * topic:TriangleSimilarityAAA
+* _hasSolutionConcept: Triangle, CircleAndDisk, TriangleSimilarity
+* _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, CyclicQuadrilateral, IsoscelesTriangleProperties, SimilarTriangles
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -883,7 +976,6 @@ $\triangle ABC \sim \triangle AED$ pēc pazīmes $\ell \ell$.
 ![](LV.AMO.2018.9.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2018.9.4
 
 Atrast lielāko naturālo skaitli, kas dalās ar $7$, kura ciparu summa ir $100$ 
@@ -897,6 +989,11 @@ un kuram neviens cipars nav $0$.
 * subdomain:DOM_NumeralSystems
 * topic:NotationFragments
 * topic:TotalOrderRelations
+* _hasSolutionConcept: PositiveIntegers, DigitSum, DivisibilityRelation, DigitRepresentation, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundingArgument, CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -919,7 +1016,6 @@ $7$, bet to var rakstīt trešajā pozicijā, jo $112$ dalās ar $7$ un atlikuš
 skaitlis no $96$ vieniniekiem arī dalās ar $7$.
 
 
-
 # <lo-sample/> LV.AMO.2018.9.5
 
 Kāds ir mazākais rūtiņu skaits, kas jāiekrāso taisnstūrī ar izmēriem 
@@ -933,6 +1029,11 @@ $5 \times 8$ rūtiņas, lai katrā šī taisnstūra $2 \times 3$ rūtiņu taisns
 * subdomain:DOM_GridColoring
 * method:MTH_PigeonholePrincipleBasic
 * topic:SquareGrid
+* _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure, PigeonholePrinciple
+* _readingDifficulty: high
+* _hasReasoningMethod: ProofByContradiction, AreaInvarianceAndDecomposition
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -969,7 +1070,6 @@ neiekrāsotās rūtiņas). Redzams, ka ir taisnstūris $2 \times 3$, kurā nav
 iekrāsota neviena rūtiņa. Tātad ar $6$ iekrāsotām rūtiņām nepietiek.
 
 ![](LV.AMO.2018.9.5B.png)
-
 
 
 # <lo-sample/> LV.AMO.2018.10.1
@@ -1032,7 +1132,6 @@ $S_{ABC}=\frac{1}{2} AC \cdot BD=\frac{1}{2} \sqrt{145} \cdot \frac{38}{\sqrt{14
 kas ir naturāls skaitlis.
 
 
-
 # <lo-sample/> LV.AMO.2018.10.2
 
 Uz koordinātu ass koordinātu sākumpunktā sēž blusa. Ar vienu lēcienu tā var 
@@ -1092,7 +1191,6 @@ Izmantojot iegūto formulu un sākuma vērtības, aprēķinām $a_{15}$.
 | $15$ | $1843$  |
 
 
-
 # <lo-sample/> LV.AMO.2018.10.3
 
 Dots trijstūris $ABC$. No virsotnes $C$ novilkti perpendikuli $CM$ un $CN$ 
@@ -1120,7 +1218,6 @@ Tātad $MN$ ir trijstūra $M_{1}CN_{1}$ viduslīnija un tās garums ir
 $$MN=\frac{1}{2} M_{1}N_{1}=\frac{1}{2}\left(M_{1}A+AB+BN_{1}\right)=\frac{1}{2}(AC+AB+BC)=\frac{1}{2} P(ABC)$$
 
 ![](LV.AMO.2018.10.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2018.10.4
@@ -1235,7 +1332,6 @@ izteiksme dalās ar $7$. Ja $x$ nedalās ar $7$, tad $\left(x^{6}-1\right)$ dal�
 ar $7$ pēc Mazās Fermā teorēmas.
 
 
-
 # <lo-sample/> LV.AMO.2018.10.5
 
 Miķelis ir izgudrojis spēli, kurā nepieciešama spēļu nauda - miķelīši. No 
@@ -1295,7 +1391,6 @@ summu no $1$ līdz $91$. Nākamais labākais komplekts ir $1,\ 2,\ 10,\ 25$, bet
 ar to var izveidot summas no $1$ līdz $67$.
 
 
-
 # <lo-sample/> LV.AMO.2018.11.1
 
 Pierādīt, ka visām naturālām $n$ vērtībām izpildās 
@@ -1343,7 +1438,6 @@ $$\begin{gathered}
 *Secinājums.* Tā kā vienādība ir patiesa, ja $n=1$, un no tā, ka 
 vienādība ir spēkā, ja $n=k$, izriet, ka vienādība ir spēkā arī $n=k+1$, 
 secinām, ka vienādība ir spēkā visām naturālām $n$ vērtībām.
-
 
 
 # <lo-sample/> LV.AMO.2018.11.2
@@ -1406,7 +1500,6 @@ sākuma vērtības $a_{1}=1,\ a_{2}=2$ un $a_{3}=3$, aprēķinām $a_{18}$.
 Tātad taisnstūri $1 \times 12$ var salikt $309$ dažādos veidos.
 
 
-
 # <lo-sample/> LV.AMO.2018.11.3
 
 Riņķa līnija $\omega_{1}$ iekšēji pieskaras riņķa līnijai $\omega_{2}$ punktā 
@@ -1438,7 +1531,6 @@ $\sphericalangle QAR=180^{\circ}-\sphericalangle QPR=180^{\circ}-\left(180^{\cir
 Līdz ar to esam pierādījuši, ka $\sphericalangle QAR=2 \sphericalangle XAY$.
 
 ![](LV.AMO.2018.11.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2018.11.4
@@ -1493,7 +1585,6 @@ neeksistē tādi naturāli skaitļi $m$ un $n$, lai izpildītos dotā vienādīb
 *Piezīme.* 2. atrisinājumā tika izmantota bezgalīgā kritiena metode.
 
 
-
 # <lo-sample/> LV.AMO.2018.11.5
 
 Vienādojuma $x^{3}-44x^{2}+623x-2860=0$ saknes ir trijstūra malu garumi. 
@@ -1545,7 +1636,6 @@ trijstūra laukumu
 $$S_{\Delta}=\sqrt{p(p-a)(p-b)(p-c)}=\sqrt{22 \cdot 12 \cdot 11 \cdot 9}=22 \cdot 3=66$$
 
 
-
 # <lo-sample/> LV.AMO.2018.12.1
 
 Pierādīt, ka
@@ -1579,7 +1669,6 @@ $$\begin{aligned}
 \log _{81} 96 & =\frac{\log _{3} 96}{\log _{3} 81}=\frac{\log _{3}\left(2^{5} \cdot 3\right)}{\log _{3}\left(3^{4}\right)}=\frac{5 \log _{3} 2+\log _{3} 3}{4 \log _{3} 3}=\frac{5x+1}{4}=\frac{1}{4}\left(5 \cdot \frac{3-\log _{48} 54}{4 \log _{48} 54-1}+1\right)= \\
 & =\frac{1}{4}\left(\frac{15-5 \log _{48} 54+4 \log _{48} 54-1}{4 \log _{48} 54-1}\right)=\frac{14-\log _{48} 54}{16 \log _{48} 54-4}
 \end{aligned}$$
-
 
 
 # <lo-sample/> LV.AMO.2018.12.2
@@ -1623,7 +1712,6 @@ uzdevuma nosacījumus.
 | $k_{n}$ | $4$ | $12$ | $40$ | $128$ | $416$ | $1344$ | $4352$ |
 
 
-
 # <lo-sample/> LV.AMO.2018.12.3
 
 Kvadrāta $ABCD$ mala $AD$ pārlocīta tā, ka pēc pārlocīšanas punkts $D$ sakrīt 
@@ -1664,7 +1752,6 @@ $y^{2}-z^{2}=-x^{2}$. Tātad
 $$r=\frac{2xz-2x^{2}}{2(z-x)}=\frac{2x(z-x)}{2(z-x)}=x$$
 
 ![](LV.AMO.2018.12.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2018.12.4
@@ -1721,7 +1808,6 @@ nepāra.
 Tātad esam pierādījuši, ka gan $A$, gan $B$ dalās ar $5$.
 
 
-
 # <lo-sample/> LV.AMO.2018.12.5
 
 Katras divas regulāra sešstūra virsotnes savieno vai nu ar sarkanu, vai zilu 
@@ -1768,4 +1854,3 @@ $\textcolor{red}{BC}$ ir sarkanā krāsā. Tagad vai nu $FEB$, vai $BEC$ ir
 vienkrāsas trijstūris. Iegūta pretruna ar pieņēmumu.
 
 ![](LV.AMO.2018.12.5B.png)
-

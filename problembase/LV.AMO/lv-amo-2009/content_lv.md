@@ -8,7 +8,12 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: GraphConcept, DirectedGraph, OptimumProofStructure
+* _readingDifficulty: high
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -25,7 +30,6 @@ $2009$ vārdnīcām pietiek.
 ![](LV.AMO.2009.5.1A.png)
 
 
-
 # <lo-sample/> LV.AMO.2009.5.2
 
 Andris grib izrakstīt rindā naturālos skaitļus no $1$ līdz $10$ katru tieši 
@@ -37,14 +41,18 @@ izdarīt?
 <small>
 
 * questionType:
-* domain:
+* domain:NT,Comb
+* _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, DivisibilityRelation
+* _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
 Piemēram, tā: $1;\ 2;\ 4;\ 3;\ 6;\ 7;\ 5;\ 9;\ 8;\ 10$.
-
 
 
 # <lo-sample/> LV.AMO.2009.5.3
@@ -60,7 +68,12 @@ tieši $6$ balti kaimiņi?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: LatticeGrid, Coloring, FiniteSet, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -86,7 +99,12 @@ malas garums ir $1$.)
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
+* _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, ParityInvariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -99,7 +117,6 @@ malas garums ir $1$.)
 **(B)** nē. Katrā no $8$ punktiem $A;\ B;\ \ldots;\ H$ saiet kopā $3$ (nepāra 
 skaits) nogriežņu, tāpēc katrā no tiem jābūt vismaz vienas līnijas galam. Bet 
 $3$ līnijām kopā ir tikai $6$ gali.
-
 
 
 # <lo-sample/> LV.AMO.2009.5.5
@@ -119,7 +136,12 @@ Kāda daļa no $B$ atbalstītājiem ir meļi?
 <small>
 
 * questionType:
-* domain:
+* domain:Alg
+* _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ArithmeticMean
+* _readingDifficulty: medium
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays, IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -133,7 +155,6 @@ atbalsta $B$, ir $50 \% -(50-x) \% =x \%$ no visiem iedzīvotājiem. Tātad star
 $B$ atbalstītājiem tieši puse ir meļi.
 
 
-
 # <lo-sample/> LV.AMO.2009.6.1
 
 Andris nosauc Maijai trīs dažādus ciparus. Pierādiet: Maija, neizmantojot citus
@@ -143,7 +164,12 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 <small>
 
 * questionType:
-* domain:
+* domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, CaseAnalysis
+* _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, NumberConstruction, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -153,7 +179,6 @@ Ja kāds no cipariem ir $0;\ 3;\ 6$ vai $9$, Maija raksta atbilstošo viencipara
 skaitli. Ja Andra nosauktie skaitļi ir $1;\ 4;\ 7$ vai $2;\ 5;\ 8$, Maija 
 raksta trīsciparu skaitli. Ja ir kāds cipars no kopas $\{1; 4; 7\}$ un kāds - 
 no kopas $\{2; 5; 8\}$, Maija raksta atbilstošo divciparu skaitli.
-
 
 
 # <lo-sample/> LV.AMO.2009.6.2
@@ -169,7 +194,12 @@ skaitlisko vērtību. Kādu rezultātu viņa ieguva?
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: PigeonholePrincipleBasic
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -178,7 +208,6 @@ skaitlisko vērtību. Kādu rezultātu viņa ieguva?
 Pavisam izteiksmē ir $10$ dažādi burti, tātad tie šifrē $10$ dažādus ciparus. 
 Tātad viens no tiem ir $0$. Tā kā $0$ nevar būt saucējā, tad tā ir skaitītājā. 
 Tāpēc izteiksmes vērtība ir $0$.
-
 
 
 # <lo-sample/> LV.AMO.2009.6.3
@@ -192,7 +221,12 @@ reizinājumu var būt **(A)** $12$, **(B)** $18$?
 <small>
 
 * questionType:
-* domain:
+* domain:NT
+* _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, Invariant, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundingArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -203,7 +237,6 @@ reizinājumu var būt **(A)** $12$, **(B)** $18$?
 **(B)** nē. Ievērosim, ka $\frac{n+1}{n}=1+\frac{1}{n} \leq 2$. Tāpēc 
 reizinājuma vērtība var pieaugt augstākais $2 \cdot 2 \cdot 2 \cdot 2=16$ 
 reizes
-
 
 
 # <lo-sample/> LV.AMO.2009.6.4
@@ -222,7 +255,12 @@ $6$ nedrīkst izmantot, lai attēlotu ciparu $9$, un otrādi.)
 <small>
 
 * questionType:
-* domain:
+* domain:Comb
+* _hasSolutionConcept: DigitRepresentation, FiniteSet, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, PigeonholePrincipleBasic
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -237,7 +275,6 @@ $\{0; 1; 2; 7; 8; 9\}$.
 Lai izsacītu skaitļus līdz $33$ ieskaitot (tātad arī $11$ un $22$), uz diviem 
 kauliņiem jābūt gan $1$, gan $2$, gan $3$. Septiņiem pārējiem cipariem vairs 
 nepaliek vietas.
-
 
 
 # <lo-sample/> LV.AMO.2009.6.5
@@ -257,8 +294,13 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 <small>
 
 * questionType:
-* domain:
+* domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, EvenOddParity, DivisibilityRelation, Counterexample, Invariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -278,7 +320,6 @@ nu $3$, vai $1$ melnu rūtiņu. Tāpēc $9\ L$ - tetramino kopā satur nepāra s
 melnu rūtiņu. Bet melno rūtiņu pavisam ir $18$.
 
 
-
 # <lo-sample/> LV.AMO.2009.7.1
 
 Dots, ka $x$ un $y$ - tādi naturāli skaitļi, ka $x \cdot y=10^{20}$. Vai var 
@@ -288,6 +329,12 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PrimeFactorization, DivisibilityRelation, DigitRepresentation, LastDigit
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: PrimeFactorization, DivisibilityRules, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityDirection, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -299,7 +346,6 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 vai $y$ dalās gan ar $2$, gan ar $5$, tad tas beidzas ar ciparu $0$. Atliek 
 vienīgā iespēja, kad viens no skaitļiem $x$ un $y$ ir $2^{20}$, bet otrs ir 
 $5^{20}$. Bet $2^{20}=1048576$.
-
 
 
 # <lo-sample/> LV.AMO.2009.7.2
@@ -314,6 +360,12 @@ tikai tas, ka tie atrodas trijstūra $T$ iekšpusē.
 * concepts:triangle
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: Triangle, TriangleInequality, PointLineSegmentRay, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis, AuxiliaryLines, AngleChasing
+* _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -338,7 +390,6 @@ pie augšminētā sprieduma otrās daļas.
 visas situācijas.
 
 
-
 # <lo-sample/> LV.AMO.2009.7.3
 
 Tabula sastāv no $3 \times 3$ rūtiņām. Rūtiņās ierakstīti naturāli skaitļi no 
@@ -358,7 +409,12 @@ Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 * questionType:FindOptimal
 * domain:NT
 * isHard:true
-
+* _hasSolutionConcept: PrimeNumbers, PositiveIntegers, Permutation, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: NT,Comb
+* _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness, SumOfArithmeticOrTriangularNumbers
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof, MissingBoundOrExample
+* _mistakesFit: medium
 
 </small>
 
@@ -390,7 +446,6 @@ visi nepāra cipari novietoti vienā rindā un vienā kolonnā). Piemēram,
 | 7   | 3   | 1   |
 
 
-
 # <lo-sample/> LV.AMO.2009.7.4
 
 Trijstūris $ABC$ ir šaurleņķu. Trijstūri $AMB$ un $BNC$ abi ir vienādmalu un 
@@ -401,6 +456,12 @@ atrodas ārpus $\triangle ABC$. Pierādīt, ka $AN=CM$.
 * concepts:triangle
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: Triangle, TriangleCongruence, Angle
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -413,7 +474,6 @@ $\sphericalangle ABN= \sphericalangle ABC +60^{\circ}=\sphericalangle MBC < 150^
 tad $\triangle ABN=\triangle MBC\ (m \ell m)$. Tāpēc $AN=MC$.
 
 
-
 # <lo-sample/> LV.AMO.2009.7.5
 
 Vairākiem rūķīšiem ir vienādi naudas daudzumi. Brīdi pa brīdim kāds no rūķīšiem
@@ -423,12 +483,17 @@ pavisam ir rūķīšu? (Dālderis ir vienīgā rūķīšiem pieejamā naudas vie
 
 <small>
 
-
 * topic:InvariantRemainder
 * concepts:divisibility
 * subdomain:DOM_MakingMoves
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, Invariant
+* _readingDifficulty: high
+* _domain: NT
+* _hasReasoningMethod: InvariantMethod, PrimePropertiesAndUniqueness, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -447,9 +512,6 @@ sākumā ir $17$ rūķīšu, katram $24$ dālderi. Viens rūķītis iedod katram
 citiem pa vienam dālderim.
 
 
-
-
-
 # <lo-sample/> LV.AMO.2009.8.1
 
 Vienādojumam $x^{2}+px+q=0$ ir divas dažādas saknes $x_{1}$ un $x_{2}$. Vai var
@@ -462,6 +524,12 @@ gadīties, ka
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticEquation, VietasFormulas, ExistenceVsUniversal, Counterexample
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: VietasFormulas
+* _hasReasoningMistake: ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -471,7 +539,6 @@ gadīties, ka
 
 **(B)** jā, skat, piem., vienādojumu $x^{2}-0,3x-0,54=0$, kam ir saknes 
 $x_{1}=-0,6$ un $x_{2}=0,9$.
-
 
 
 # <lo-sample/> LV.AMO.2009.8.2
@@ -487,6 +554,12 @@ turnīra noslēgumā ir visvairāk punktu.)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, OptimumProofStructure, RationalNumbers
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, AveragingArgumentForExistenceOfElement, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -502,7 +575,6 @@ $n=5 \frac{1}{2}$, skat. 9.zīm.
 ![](LV.AMO.2009.8.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2009.8.3
 
 Uz kvadrāta $ABCD$ malas $BC$ ņemts tāds punkts $M$, ka leņķa $AMC$ bisektrise 
@@ -513,6 +585,12 @@ bisektrise.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PointLineSegmentRay, Angle, TriangleSpecialLines, TriangleCongruence
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, AuxiliaryLines, ParallelLinesAngleProperties, IsoscelesTriangleProperties
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -524,7 +602,6 @@ Pagarinām $MK$ līdz krustpunktam $E$ ar $AD$. Tad
 $\sphericalangle DEK=\sphericalangle CMK$, tāpēc 
 $\triangle MCK=\triangle EDK\ (\ell m \ell)$, tad $MK=KE$. Tāpēc $AK$ ir 
 vienādsānu trijstūra $MAE$ mediāna pret pamatu, tāpēc arī bisektrise.
-
 
 
 # <lo-sample/> LV.AMO.2009.8.4
@@ -547,6 +624,12 @@ Cipariņam un cik - viņa kolēgim? (Visus vecumus izsaka veselos gados.)
 * isUnverified:true
 * questionType:FindAll
 * domain:Comb
+* _hasSolutionConcept: PrimeFactorization, EquationSystem, CaseAnalysis, ExhaustiveCheck
+* _readingDifficulty: high
+* _domain: NT
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -569,9 +652,6 @@ Kolēģa 1.atbildei atbilst $(5,10,49)$ vai $(7,7,50)$.
 Otrā Profesora Cipariņa piebilde neļauj tos atšķirt.
 
 
-
-
-
 # <lo-sample/> LV.AMO.2009.8.5
 
 Uz riņķa līnijas atzīmēti vairāki punkti. Katram punktam jāpieraksta viens no 
@@ -588,6 +668,12 @@ vietā uz riņķa līnijas atrastos blakus (vienalga kādā secībā).
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, OrderedPair, OptimumProofStructure, PigeonholePrinciple
+* _readingDifficulty: high
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -604,7 +690,6 @@ vismaz $3$ eksemplāros; tāpēc vajag vismaz $6 \cdot 3=18$ punktus.
 ![](LV.AMO.2009.8.5A.png)
 
 
-
 # <lo-sample/> LV.AMO.2009.9.1
 
 Pieņemsim, ka 7.zīm. attēlotās līknes ir kvadrātfunkciju grafiki.
@@ -618,6 +703,12 @@ grafiki?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadraticFunction, FunctionConcept, FunctionComposition, CoordinatePlane
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: ParameterizedInvariantValue, UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -626,7 +717,6 @@ grafiki?
 Nē. Visu minēto funkciju vērtības pie $x=1$ sakrīt, bet dotie $3$ grafiki neiet
 caur vienu punktu (visi $6$ iespējamie krustpunkti zīmējumā redzami, tātad citu
 nav).
-
 
 
 # <lo-sample/> LV.AMO.2009.9.2
@@ -638,6 +728,12 @@ $a+b+c=0$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PositiveAndNegative, AbsoluteValue, SquareOfSumIdentity
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, UseTrivialInequalitiesAndAddThem
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -655,7 +751,6 @@ Saskaitot, pārnesot visus locekļus uz labo pusi un savelkot līdzīgos locekļ
 iegūstam $(a+b+c)^{2} \leq 0 \Rightarrow a+b+c=0$.
 
 
-
 # <lo-sample/> LV.AMO.2009.9.3
 
 Uz taisnes $t$ novietots stienītis ar garumu $1$. Sākumā tā gali atrodas 
@@ -669,6 +764,12 @@ paralēls $t$ arī tad, ja tas atrodas uz $t$)
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, Translation, Invariant, ExistenceVsUniversal
+* _readingDifficulty: high
+* _domain: Geom
+* _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -677,7 +778,6 @@ paralēls $t$ arī tad, ja tas atrodas uz $t$)
 Jā, var. Skat, piem., 12.zīm., kur $h$ var tikt padarīts patvaļīgi mazs.
 
 ![](LV.AMO.2009.9.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2009.9.4
@@ -695,6 +795,12 @@ ar $d(n)$.
 * concepts:divisors
 * questionType:FindExample,Prove
 * domain:NT
+* _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PrimeNumbers, PrimeFactorization
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: NumberOfDivisors, NumberConstruction, BoundingArgument
+* _hasReasoningMistake: ConfusingDivisorAndMultiple, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -706,7 +812,6 @@ naturāls skaitlis. Apskatīsim $A=p^{p^{n}-1}$. Tam ir $p^{n}$ dalītāju. Lai
 pierādītu, ka $A$ ir apaļīgs, pietiek pierādīt, ka $p^{n}-1 \geq n$ jeb 
 $p^{n} \geq n+1$. To iegūst, sareizinot $n$ acīmredzamas nevienādības 
 $p \geq 2, \quad p \geq \frac{3}{2}, \quad p \geq \frac{4}{3}, \quad \ldots, \quad p \geq \frac{n+1}{n}$.
-
 
 
 # <lo-sample/> LV.AMO.2009.9.5
@@ -727,6 +832,12 @@ citādi), un mainīt krāsu uz pretējo visās šīs figūras rūtiņās. Vai, a
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, ChessboardColoring, LatticeGrid, Invariant
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -737,7 +848,6 @@ citādi), un mainīt krāsu uz pretējo visās šīs figūras rūtiņās. Vai, a
 Mainot krāsas stūrīšos $ABC,\ ADC,\ BAD$, rezultātā krāsa mainījusies tikai 
 rūtiņā $A$. Tātad varam mainīt krāsu vienā (patvaļīgā) rūtiņā. Tātad no jebkura
 krāsojuma varam iegūt jebkuru.
-
 
 
 # <lo-sample/> LV.AMO.2009.10.1
@@ -770,7 +880,6 @@ $b^{2}>ac,\ c^{2}>ab,\ a^{2}>cb$. Sareizinot šīs nevienādības, mēs iegūtu
 $a^{2}b^{2}c^{2}>a^{2}b^{2}c^{2}$ - pretruna.
 
 
-
 # <lo-sample/> LV.AMO.2009.10.2
 
 Dots, ka $p$ un $q$ ir divi viens otram sekojoši nepāra pirmskaitļi (piemēram, 
@@ -792,7 +901,6 @@ Apzīmējam $p=2k+1,\ q=2n+1,\ k,\ n$ - naturāli skaitļi. Tad $p+q=2(k+n+1)$.
 Varam pieņemt, ka $k<n$; tad $2k+1<k+n+1<2n+1$. Tā kā $2k+1$ un $2n+1$ ir divi 
 viens otram sekojoši pirmskaitļi, tad $k+n+1$ nav pirmskaitlis. Tāpēc $k+n+1$ 
 sadalās vismaz divos reizinātājos.
-
 
 
 # <lo-sample/> LV.AMO.2009.10.3
@@ -825,7 +933,6 @@ Tāpēc $\sphericalangle A+\sphericalangle CSB=180^{\circ}$, no kā seko
 vajadzīgais.
 
 
-
 # <lo-sample/> LV.AMO.2009.10.4
 
 Dots, ka $a,\ b,\ c,\ d$ - pozitīvi skaitļi. Pierādīt, ka 
@@ -850,7 +957,6 @@ $\frac{a+c}{a+b}+\frac{c+a}{c+d} \geq 4 \cdot \frac{a+c}{a+b+c+d}$ un
 $\frac{b+d}{b+c}+\frac{d+b}{d+a} \geq 4 \cdot \frac{b+d}{a+b+c+d}$.
 
 Saskaitot šīs nevienādības, iegūstam vajadzīgo.
-
 
 
 # <lo-sample/> LV.AMO.2009.10.5
@@ -884,7 +990,6 @@ $4n+2;\ 4n+1;\ \ldots;\ 2n+2$ arī pulksteņa rādītāja kustības virzienā (s
 16.zīm.)
 
 
-
 # <lo-sample/> LV.AMO.2009.11.1
 
 Pierādīt, ka
@@ -911,7 +1016,6 @@ Saskaitot šīs vienādības pie $n=1;\ 2;\ 3;\ \ldots;\ 2009$, iegūstam, ka
 novērtējamās summas vērtība ir 
 $\frac{1}{2}\left[\frac{1}{1^{2}-1+1}-\frac{1}{2010^{2}-2010+1}\right]<\frac{1}{2} \cdot \frac{1}{1^{2}-1+1}=\frac{1}{2}$,
 k.b.j.
-
 
 
 # <lo-sample/> LV.AMO.2009.11.2
@@ -951,7 +1055,6 @@ Viegli pārbaudīt: ja
 uzdevuma prasības ir izpildītas.
 
 
-
 # <lo-sample/> LV.AMO.2009.11.3
 
 Dots, ka $a$ un $b$ - naturāli skaitļi un skaitļa $S=a^{2}+ab+b^{2}$ pēdējais 
@@ -972,7 +1075,6 @@ $a^{3}-b^{3} \equiv 0(\bmod 5)$. Tāpēc $a^{3} \equiv b^{3}(\bmod 5)$; tāpēc
 $a \equiv b(\bmod 5)$. Tāpēc $3a^{2} \equiv a^{2}+ab+b^{2} \equiv 0(\bmod 5)$. 
 Tāpēc $a \equiv 0(\bmod 5)$. Tāpēc $S$ dalās ar $25$. Tā kā $LKD(4,25)=1$, tad 
 $S$ dalās ar $100$ un $S$ priekšpēdējais cipars ir $0$.
-
 
 
 # <lo-sample/> LV.AMO.2009.11.4
@@ -1005,7 +1107,6 @@ $B_{1}E_{1} \perp PQ$. Līdzīgi iegūstam, ka $A_{1}D_{1}$ iet caur $PR$
 viduspunktu un $A_{1}D_{1} \perp PR$, kā arī $C_{1}F_{1}$ iet caur $QR$ 
 viduspunktu un $C_{1}F_{1} \perp QR$. Tāpēc taisnes $A_{1}D_{1},\ B_{1}E_{1}$ 
 un $C_{1}F_{1}$ krustojas $\triangle PQR$ apvilktās riņķa līnijas centrā.
-
 
 
 # <lo-sample/> LV.AMO.2009.11.5
@@ -1048,7 +1149,6 @@ x^{4}y^{4}z^{4} \geq(4x-3)(4y-3)(4z-3) \tag{2}
 No (1) un (2) seko $x^{4}y^{4}z^{4}=(4x-3)(4y-3)(4z-3) \Rightarrow x=y=z=1$.
 
 
-
 # <lo-sample/> LV.AMO.2009.12.1
 
 Dots, ka $a_{1}, a_{2}, \ldots, a_{2009}$ un $b_{1}, b_{2}, \ldots, b_{2009}$ 
@@ -1075,7 +1175,6 @@ zinām, ka ir spēkā viena no 18.zīm. parādītajām situācijām:
 Redzam, ka abos gadījumos a.p. locekļu summa ir lielāka.
 
 
-
 # <lo-sample/> LV.AMO.2009.12.2
 
 Dots, ka $x, y, z$ - pozitīvi skaitļi un $xy+yz+zx>x+y+z$. Pierādīt, ka 
@@ -1096,7 +1195,6 @@ $(x+y+z)^{2}=x^{2}+y^{2}+z^{2}+2xy+2xz+2yz=$
 
 $=\frac{1}{2}\left[(x-y)^{2}+(x-z)^{2}+(y-z)^{2}\right]+3(xy+xz+yz) \geq 3(xy+xz+yz)>3(x+y+z)$.
 No $(x+y+z)^{2}>3(x+y+z)$ seko $x+y+z>3$, k. b.j.
-
 
 
 # <lo-sample/> LV.AMO.2009.12.3
@@ -1132,7 +1230,6 @@ $(n+1)^{3}<n(n+2)(n+3)<(n+2)^{3}$, un skaitlis, kas atrodas starp divu viens
 otram sekojošu naturālu skaitļu kubiem, nav naturāla skaitļa kubs.
 
 
-
 # <lo-sample/> LV.AMO.2009.12.4
 
 Četrstūris $ABCD$ ir ievilkts riņķa līnijā. Zināms, ka 
@@ -1161,7 +1258,6 @@ atbilst malas $DK$ viduspunktam $C$. Tāpēc
 $\sphericalangle ABM=\sphericalangle DBC$, k.b.j.
 
 
-
 # <lo-sample/> LV.AMO.2009.12.5
 
 Uz galda atrodas $n$ konfektes, $n$ - naturāls skaitlis. Divi spēlētāji pamīšus
@@ -1188,4 +1284,3 @@ Pirmais spēlētājs ar savu pirmo gājienu nevar apēst vairāk par $n^{2}$
 konfektēm, jo $(n+1)^{2}>n^{2}+n+1$. Tāpēc pēc šī gājiena uz galda paliek 
 $\geq n+1$ konfekte. Saskaņā ar pieņēmumu šajā situācijā uzvar tas, kas sāk, 
 t.i., otrais spēlētājs. Vajadzīgā pretruna iegūta.
-

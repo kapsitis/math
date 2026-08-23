@@ -13,6 +13,11 @@ perimetrs?
 
 * questionType:FindAll,FindAll
 * domain:Geom
+* _hasSolutionConcept: Polygon, QuadrilateralFamilies, DirectProportion, RationalNumbers
+* _readingDifficulty: low
+* _hasReasoningMethod: ParallelogramProperties,ScalingByLinearRatio
+* _hasReasoningMistake: WrongAreaProportionality
+* _mistakesFit: medium
 
 </small>
 
@@ -34,7 +39,6 @@ zaļā kvadrāta perimetrs ir par $40-20=20~\mathrm{cm}$ mazāks jeb par $50 \%$
 mazāks nekā zilā kvadrāta perimetrs.
 
 
-
 # <lo-sample/> LV.AMO.2019.5.2
 
 Uz galda ir divas vāzes ar tulpēm - vienā vāzē ir $46$ tulpes, bet otrā - $43$ 
@@ -47,6 +51,11 @@ pirmais vai otrais - vienmēr var uzvarēt?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: GamePosition, SymmetryStrategy, Invariant, WinningLosingPositions
+* _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -64,7 +73,6 @@ to varēs izdarīt. Līdz ar to gājieni pietrūks otrajam spēlētājam un viņ
 zaudēs.
 
 
-
 # <lo-sample/> LV.AMO.2019.5.3
 
 Vai var novietot plaknē $5$ taisnes tā, lai katras divas no tām krustotos un 
@@ -74,6 +82,11 @@ kopā būtu tieši $6$ krustpunkti?
 
 * questionType:ProveDisprove
 * domain:Comb,Geom
+* _hasSolutionConcept: PointLineSegmentRay, FiniteSet, GraphConcept, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -82,7 +95,6 @@ kopā būtu tieši $6$ krustpunkti?
 Jā, var, skat., piemēram, 1.att.
 
 ![](LV.AMO.2019.5.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2019.5.4
@@ -95,6 +107,11 @@ Pamato, ka tas ir mazākais iespējamais skaits!
 
 * questionType:FindOptimal
 * domain:Comb
+* _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -113,7 +130,6 @@ iekrāsotām rūtiņām pietiek, lai izpildītos uzdevuma nosacījumi (skat. 2.a
 ![](LV.AMO.2019.5.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2019.5.5
 
 Atrodi visus tādus sešciparu skaitļus, kuriem visi seši cipari ir vienādi un 
@@ -124,6 +140,11 @@ visi tādi skaitļi un citu vairs nav!
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, PrimeFactorization, DigitRepresentation, DivisibilityRelation, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: PrimeFactorization, PositionalNotation, CompleteEnumeration
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -144,7 +165,6 @@ $222222=2 \cdot 3 \cdot 7 \cdot 11 \cdot 13 \cdot 37$ un
 $555555=3 \cdot 5 \cdot 7 \cdot 11 \cdot 13 \cdot 37$.
 
 
-
 # <lo-sample/> LV.AMO.2019.6.1
 
 Uzraksti daļas augošā secībā! Pamato!
@@ -155,6 +175,11 @@ $$\frac{16}{17}; \frac{441}{439}; \frac{11}{12}; \frac{391}{389}; \frac{21}{23}$
 
 * questionType:ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, TotalOrder
+* _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: ConcreteToGeneralLeap, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -190,7 +215,6 @@ $1-\frac{2}{23}<1-\frac{1}{12}<1-\frac{1}{17}$ jeb
 $\frac{21}{23}<\frac{11}{12}<\frac{16}{17}$.
 
 
-
 # <lo-sample/> LV.AMO.2019.6.2
 
 Riņķis sadalīts $16$ vienādās daļās (skat. 4.att.). Divi spēlētāji pamīšus tās 
@@ -204,6 +228,11 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions, Invariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -226,7 +255,6 @@ viņš zaudēs.
 ![](LV.AMO.2019.6.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2019.6.3
 
 Cik lielu leņķi (šaurāko) veido pulksteņa stundu un minūšu rādītājs **(A)** 
@@ -236,6 +264,11 @@ plkst. 14:00; **(B)** plkst. 13:40?
 
 * questionType:FindAll,FindAll
 * domain:Geom
+* _hasSolutionConcept: Angle, Rotation
+* _readingDifficulty: low
+* _hasReasoningMethod: AngleChasing
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -257,7 +290,6 @@ pulksteņa rādītājiem ir $180^{\circ}-10^{\circ}=170^{\circ}$
 ![](LV.AMO.2019.6.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2019.6.4
 
 Parādi, kā no taisnstūra ar izmēriem $6 \times 10$ rūtiņas var izgriezt **(A)** 
@@ -271,6 +303,11 @@ apgāztas otrādi.
 * questionType:FindExample
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
+* _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -283,7 +320,6 @@ apgāztas otrādi.
 *Piezīme.* (B) daļas atrisinājums der arī (A) daļai.
 
 
-
 # <lo-sample/> LV.AMO.2019.6.5
 
 Vai skaitlis $1234\ldots{}9899$ (pēc kārtas bez atstarpēm uzrakstīti visi 
@@ -293,6 +329,11 @@ naturālie skaitļi no $1$ līdz $99$) dalās ar $9$?
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitSum, DigitRepresentation
+* _readingDifficulty: low
+* _hasReasoningMethod: DivisibilityRules, CountingWithDigitalConstraints
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -314,7 +355,6 @@ Tātad visu ciparu summa $20 \cdot(0+1+2+3+4+5+6+7+8+9)=20 \cdot 45=900$ dalās
 ar $9$. Tātad arī dotais skaitlis dalās ar $9$.
 
 
-
 # <lo-sample/> LV.AMO.2019.7.1
 
 Dotas divas funkcijas $f(x)=ax+b$ un $g(x)=cx+d$. Zināms, ka katrai $x$ 
@@ -327,6 +367,11 @@ pozitīvs, negatīvs skaitlis vai nulle!
 * domain:Alg
 * subdomain:DOM_RealFunctions
 * topic:LinearFunctions
+* _hasSolutionConcept: LinearFunction, LinearInequality, ParallelPerpendicular
+* _readingDifficulty: low
+* _hasReasoningMethod: UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -335,7 +380,6 @@ pozitīvs, negatīvs skaitlis vai nulle!
 No dotā izriet, ka šo funkciju grafiki ir taisnes bez kopīgiem punktiem, tas 
 ir, tās ir paralēlas taisnes. Šo taišņu virzienu koeficienti $a$ un $c$ ir 
 vienādi, tātad $a-c=0$.
-
 
 
 # <lo-sample/> LV.AMO.2019.7.2
@@ -354,6 +398,11 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 * subdomain:DOM_CombinatorialGames
 * method:MTH_FixedInvariant
 * topic:GamesSymmetry
+* _hasSolutionConcept: GamePosition, WinningLosingPositions, SymmetryStrategy
+* _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -374,7 +423,6 @@ gājieni pietrūks pirmajam spēlētājam un viņš zaudēs.
 ![](LV.AMO.2019.7.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2019.7.3
 
 Izliektā četrstūrī $ABCD$ leņķu $BAD$ un $ADC$ bisektrises krustojas punktā 
@@ -392,6 +440,11 @@ mazāki nekā $180^{\circ}$.
 * topic:TrianglesIsosceles
 * topic:TriangleSideBisector
 * topic:TriangleAngleBisector
+* _hasSolutionConcept: QuadrilateralFamilies, Triangle, TriangleSpecialLines, TriangleCongruence
+* _readingDifficulty: medium
+* _hasReasoningMethod: PointOnSegmentConstruction, IsoscelesTriangleProperties, PerpendicularBisector, AuxiliaryLines
+* _hasReasoningMistake: UnjustifiedAuxiliaryLineExists, ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -408,7 +461,6 @@ atrodas vienādā attālumā no nogriežņa galapunktiem. Tātad $MB=ME$ un $ME=
 ![](LV.AMO.2019.7.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2019.7.4
 
 Andris apgalvo, ka sapnī bijis kādā Éģiptes piramīdā un kādā tās telpā redzējis
@@ -421,6 +473,11 @@ no vienādiem regulāriem trijstūriem. Uzzīmē šādu piecstūri!
 * domain:Geom
 * subdomain:DOM_GridReorder
 * topic:PolygonsInLattices
+* _hasSolutionConcept: Polygon, Triangle, DissectionIntoCongruent, Tiling
+* _readingDifficulty: medium
+* _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: low
 
 </small>
 
@@ -432,7 +489,6 @@ Skat., piemēram, 16.att.
 pazīstams ar nosaukumu heksamonds sfinksa.
 
 ![](LV.AMO.2019.7.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2019.7.5
@@ -452,7 +508,12 @@ ciparu)?
 * topic:FactorizationAndDivisibility
 * topic:DivisibilityRulesFor2And4
 * topic:DivisibilityRulesLastDigits
-  
+* _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, DivisibilityRelation, PrimeFactorization, OptimumProofStructure
+* _readingDifficulty: high
+* _hasReasoningMethod: PrimeFactorization, LastDigitAnalysis, DivisibilityRules, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof, CarelessModularComputation
+* _mistakesFit: medium
+
 </small>
 
 
@@ -494,7 +555,6 @@ $a_{0} \cdot a_{2} \cdot a_{4} \cdot a_{6} \cdot a_{8}$, tad arī $10^{n}$ dalā
 ar $2^{11}$. Tātad $n$ nevar būt mazāks kā $11$.
 
 
-
 # <lo-sample/> LV.AMO.2019.8.1
 
 Atjaunojot taisnu žogu, Raimonds izraka vecos žoga stabus, kuri atradās $8$ 
@@ -509,6 +569,11 @@ malējiem stabiem. Cik bija stabu, ja viņš nostaigāja $840~\mathrm{m}$?
 * subdomain:DOM_WordProblems
 * topic:SeriesArithmeticSum
 * topic:QuadraticEquationRootConditions
+* _hasSolutionConcept: PositiveIntegers, EvenOddParity, ArithmeticProgression, QuadraticEquation, ExhaustiveCheck
+* _readingDifficulty: high
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -557,7 +622,6 @@ kvadrātvienādojuma atrisināšanas metodes, bet apskatot visas dažādās iesp
 kādu divu naturālu skaitļu reizinājums var būt $105$.
 
 
-
 # <lo-sample/> LV.AMO.2019.8.2
 
 Divi spēlētāji pamīšus izvieto kauliņus tabulas $6 \times 6$ rūtiņās. Vienā 
@@ -573,6 +637,11 @@ uzvarēt?
 * subdomain:DOM_CombinatorialGames
 * method:MTH_FixedInvariant
 * topic:GamesSymmetry
+* _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
+* _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -589,7 +658,6 @@ pirmajam spēlētājam un viņš zaudēs.
 ![](LV.AMO.2019.8.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2019.8.3
 
 Dots paralelograms $ABCD$. Leņķa $BAD$ bisektrise krusto malu $BC$ iekšējā 
@@ -604,6 +672,11 @@ $DE$ ir perpendikulārs $AF$.
 * topic:AlternateAngles
 * topic:TrianglesIsosceles
 * topic:Parallelograms
+* _hasSolutionConcept: ParallelogramProperties, TriangleSpecialLines, ParallelPerpendicular, TriangleCongruence
+* _readingDifficulty: medium
+* _hasReasoningMethod: ParallelLinesAngleProperties, IsoscelesTriangleProperties, ParallelogramProperties
+* _hasReasoningMistake: UnstatedDirectionAssumption, RelyingOnDiagramAppearance, WrongAngleDecomposition
+* _mistakesFit: medium
 
 </small>
 
@@ -624,7 +697,6 @@ Tā kā $AD=BC$ kā paralelograma pretējās malas, tad esam ieguvuši, ka $BC=D
 jāizmanto.
 
 
-
 # <lo-sample/> LV.AMO.2019.8.4
 
 Mežā dzīvo $m$ rūķīši. Daži no tiem savā starpā draudzējas (ja $A$ draudzējas 
@@ -638,6 +710,11 @@ naturāla skaitļa kubs. Kādām $m$ vērtībām tas ir iespējams?
 * subdomain:DOM_Graphs
 * method:MTH_InductiveAlgorithms
 * topic:HandshakingLemma
+* _hasSolutionConcept: GraphConcept, VertexDegree, PerfectCubes, EvenOddParity, HandshakeLemma
+* _readingDifficulty: high
+* _hasReasoningMethod: ConstructiveExampleForExistence, HandshakingLemmaSumOfDegreesEven, ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -668,7 +745,6 @@ lielākais nogriežņu galu skaits, kas var iziet no kāda punkta, ir $6$
 (gadījumā, ja $m=7$ ).
 
 
-
 # <lo-sample/> LV.AMO.2019.8.5
 
 Kādai mazākajai naturālai $n$ vērtībai skaitli $10^{n}$ iespējams izteikt kā 
@@ -677,7 +753,7 @@ to visu pēdējie cipari ir dažādi (tas ir, nevienam no tiem pēdējais cipars
 nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 
 <small>
-  
+
 * questionType:FindOptimal
 * domain:NT
 * concepts:product
@@ -686,7 +762,12 @@ nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 * topic:FactorizationAndProperties
 * topic:DivisibilityRulesFor2And4
 * topic:DivisibilityRulesFor5And25
-  
+* _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PrimeFactorization, LastDigit, OptimumProofStructure
+* _readingDifficulty: high
+* _hasReasoningMethod: PrimeFactorization, LastDigitAnalysis, DivisibilityRules, BoundingArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
+
 </small>
 
 
@@ -725,7 +806,6 @@ $a_{0} \cdot a_{2} \cdot a_{4} \cdot a_{6} \cdot a_{8}$, tad arī $10^{n}$ dalā
 ar $2^{23}$. Tātad $n$ nevar būt mazāks kā $23$.
 
 
-
 # <lo-sample/> LV.AMO.2019.9.1
 
 Plaknē novilktas $5$ vertikālas, $4$ horizontālas un $3$ savstarpēji paralēlas 
@@ -739,6 +819,11 @@ slīpas taisnes. Cik paralelogramu izveido šīs taisnes?
 * topic:StandardCombinatorialNumbers
 * topic:RuleOfProduct
 * topic:RuleOfSum
+* _hasSolutionConcept: ParallelogramProperties, ParallelPerpendicular, UnorderedSelection, CountingProductRule
+* _readingDifficulty: medium
+* _hasReasoningMethod: RuleOfSumDisjointCases, RuleOfProductIndependentChoices
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections, IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: high
 
 </small>
 
@@ -763,7 +848,6 @@ kā var izvēlēties pretējās malas (skat. 23.att.).
    $3 \cdot 10=30$. Tātad pavisam ir izveidoti $60+18+30=108$ paralelogrami.
 
 
-
 # <lo-sample/> LV.AMO.2019.9.2
 
 Divi spēlētāji pamīšus aizkrāso tabulas $9 \times 9$ rūtiņas. Spēlētājs, kurš 
@@ -782,6 +866,11 @@ otrais - vienmēr var uzvarēt?
 * subdomain:DOM_CombinatorialGames
 * method:MTH_FixedInvariant
 * topic:GamesSymmetry
+* _hasSolutionConcept: Coloring, SymmetryStrategy, Invariant, GamePosition
+* _readingDifficulty: medium
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: high
 
 </small>
 
@@ -799,7 +888,6 @@ Melno rūtiņu noteikti būs vairāk nekā zilo rūtiņu centrālajā rindā un
 centrālajā kolonnā. Ja ir kāda rinda (vai kolonna), kurā ir vairāk zilo rūtiņu,
 tad tai centrāli simetriskajā rindā (vai kolonnā) būs vairāk melno rūtiņu. 
 Tātad vairāk punktus iegūs pirmais spēlētājs.
-
 
 
 # <lo-sample/> LV.AMO.2019.9.3
@@ -820,6 +908,11 @@ $QNBC$ ir rombs!
 * topic:Rhombus
 * topic:AlternateAngles
 * topic:TrianglesRight
+* _hasSolutionConcept: Triangle, QuadrilateralFamilies, TriangleCongruence, ParallelogramProperties, TriangleSpecialLines
+* _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, ParallelLinesAngleProperties, ParallelogramProperties, AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongAngleDecomposition, MisuseOfMidpointOrParallel
+* _mistakesFit: high
 
 </small>
 
@@ -858,7 +951,6 @@ $CB=BN$, tad $QNBC$ ir rombs.
 ![](LV.AMO.2019.9.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2019.9.4
 
 Ja naturāla sešciparu skaitļa visus nepāra ciparus aizvietotu ar $7$, iegūtu 
@@ -874,6 +966,11 @@ būtu par $500290$ lielāks nekā sākotnējais. Atrast doto sešciparu skaitli!
 * method:MTH_FixedInvariant
 * method:MTH_PolynomialTransformations
 * topic:NotationPolynomial
+* _hasSolutionConcept: DigitRepresentation, EvenOddParity, Invariant, LinearEquation
+* _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, AlgebraicManipulationForInteger, InvariantMethod
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -911,7 +1008,6 @@ Pārbaudām, ka skaitlis $271489$ apmierina uzdevuma nosacījumus:
 - aizvietojot šī skaitļa pāra ciparus ar $7$, iegūstam $771779=271489+500290$.
 
 
-
 # <lo-sample/> LV.AMO.2019.9.5
 
 Vai eksistē tāds kvadrātvienādojums ar veseliem koeficientiem, kuram ir sakne
@@ -926,6 +1022,11 @@ $$(\sqrt{2020}-2 \sqrt{2019}+\sqrt{2018})(\sqrt{2020}+\sqrt{2019})(\sqrt{2019}+\
 * subdomain:DOM_AlgebraicOperations
 * topic:StandardIdentities
 * topic:VietaFormulas
+* _hasSolutionConcept: QuadraticEquation, IrrationalAndReals, DiffOfSquaresFactoring, SquareOfSumIdentity, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -949,7 +1050,6 @@ $$\begin{aligned}
 Tātad jāatrod kvadrātvienādojums ar veseliem koeficientiem, kura sakne ir 
 $x=2$. Der, piemēram, kvadrātvienādojums $x^{2}+3x+2=0$, kura saknes ir 
 $x_{1}=-2$ un $x_{2}=-1$.
-
 
 
 # <lo-sample/> LV.AMO.2019.10.1
@@ -998,7 +1098,6 @@ vienādība ir spēkā, ja $n=k$, izriet, ka vienādība ir spēkā arī $n=k+1$
 secinām, ka vienādība ir spēkā visām naturālām $n$ vērtībām.
 
 
-
 # <lo-sample/> LV.AMO.2019.10.2
 
 Dots taisnstūris $90 \times 19$ rūtiņas. Vienā gājienā spēlētājs var aizkrāsot 
@@ -1028,7 +1127,6 @@ skaits ir galīgs, tad pirmais spēlētājs uzvarēs.
 ![](LV.AMO.2019.10.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2019.10.3
 
 Dots taisnstūris $ABCD$, kur $AB < BC$. Uz malas $BC$ izvēlēts tāds punkts $E$, 
@@ -1055,7 +1153,6 @@ $\sphericalangle AGC=180^{\circ}-\sphericalangle CGD=180^{\circ}-\left(90^{\circ
 Tātad $\sphericalangle AGC=\sphericalangle AFC=90^{\circ}+\alpha$.
 
 ![](LV.AMO.2019.10.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2019.10.4
@@ -1103,7 +1200,6 @@ kvadrāts, ja $n$ ir $2; 5$ vai $18$.
 
 *Piezīme.* Otrā novērtējuma vietā var arī pārbaudīt $n$ vērtības 
 $1,2,3, \ldots, 18$.
-
 
 
 # <lo-sample/> LV.AMO.2019.10.5
@@ -1173,7 +1269,6 @@ Tā kā $(n-3)$ jābūt naturālam skaitlim, tad vienīgā iespējamā $(n-3)$ v
 ir $7$, tātad $n=10$. Tātad karalienei ir $10$ dimanti.
 
 
-
 # <lo-sample/> LV.AMO.2019.11.1
 
 Atrisināt nevienādību
@@ -1205,7 +1300,6 @@ grafikus (skat. 28.att.) un nosakām dotās izteiksmes zīmi katrā intervālā.
 Tātad dotās nevienādības atrisinājums ir $x \in[-4 ;-3) \cup(3 ; 20]$.
 
 ![](LV.AMO.2019.11.1A.png)
-
 
 
 # <lo-sample/> LV.AMO.2019.11.2
@@ -1266,7 +1360,6 @@ spēlētājs. Tā kā skaitlim $216$ ir galīgs skaits dalītāju, tad gājieni 
 pirmajam spēlētājam un viņš zaudēs.
 
 
-
 # <lo-sample/> LV.AMO.2019.11.3
 
 Uz trijstūra $ABC$ malām $AB$ un $BC$ izvēlēti attiecīgi tādi punkti $D$ un 
@@ -1306,7 +1399,6 @@ Tāpēc četrstūris $AFCG$ ir paralelograms, jo tā pretējās malas ir pa pār
 paralēlas. Paralelograma diagonāles krustpunktā dalās uz pusēm, tāpēc $FH=GH$.
 
 ![](LV.AMO.2019.11.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2019.11.4
@@ -1363,7 +1455,6 @@ Līdz ar to esam ieguvuši, ka
        iespējamais reizinājums ir $4 \cdot 3^{672}$.
 
 
-
 # <lo-sample/> LV.AMO.2019.11.5
 
 Dots reāls skaitlis $x$ un naturāls skaitlis $n$. Zināms, ka gan $x^{2}-nx$, 
@@ -1408,7 +1499,6 @@ racionāli skaitļi.
 aprēķinot diskriminantu, attiecībā pret mainīgo $x$.
 
 
-
 # <lo-sample/> LV.AMO.2019.12.1
 
 Atrisināt vienādojumu
@@ -1434,7 +1524,6 @@ $$\begin{gathered}
 
 Tātad dotā vienādojum atrisinājums ir $x= \pm \frac{\pi}{5}+2 \pi n$, kur 
 $n \in \mathbb{Z}$.
-
 
 
 # <lo-sample/> LV.AMO.2019.12.2
@@ -1506,9 +1595,6 @@ otrajam spēlētājam un viņš zaudēs.
   dalītāju $d$ atbild ar $144/d$.
 
 
-
-
-
 # <lo-sample/> LV.AMO.2019.12.3
 
 Dots četrstūris $ABCD$, kuram $AB=AD$ un $BC=CD$. Riņķa līnija, kas iet caur 
@@ -1545,7 +1631,6 @@ $DGF$ ir vienādsānu un $DG=FG$ kā malas pret vienādiem leņķiem. Līdz ar t
 pierādījuši, ka $EG=DG=FG$.
 
 ![](LV.AMO.2019.12.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2019.12.4
@@ -1617,14 +1702,7 @@ $9 \cdot 27 \cdot 45 \cdot 63 \cdot 81 \cdot 99$
 Saskaitot šīs pakāpes $17 + 6 + 2 + 1 = 26$. 
 
 *Piezīme.* Līdzīga saskaitīšanas ideja ir arī Ležandra formulā, kas 
-atrod lielāko pirmskaitļa pakāpi, ar ko dalās $n!$. 
-
-
-
-
-
-
-
+atrod lielāko pirmskaitļa pakāpi, ar ko dalās $n!$.
 
 
 # <lo-sample/> LV.AMO.2019.12.5
@@ -1705,4 +1783,3 @@ $$
 Tā kā $(n-4)$ jābūt naturālam skaitlim, tad vienīgā iespējamā $(n-4)$ vērtība ir $8$, tātad $n=12$.
 
 Tātad klubā ir $12$ biedri.
-

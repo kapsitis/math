@@ -11,6 +11,12 @@ $$\mathbf{123456789=19}$$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, CountingSumRule
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -18,7 +24,6 @@ $$\mathbf{123456789=19}$$
 
 "-" zīmes var likt pirms $4$ un $9$; $5$ un $8$; $6$ un $7$. Starp citu, tās ir 
 vienīgās iespējas (tas bērniem nav jāpamato).
-
 
 
 # <lo-sample/> LV.NOL.2008.5.2
@@ -33,6 +38,12 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ProofByContradiction
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -44,7 +55,6 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 
 **(B)** nē, nevar. Skaitlim " $5$ " iespējams tikai viens kaimiņš - skaitlis 
 " $10$ ".
-
 
 
 # <lo-sample/> LV.NOL.2008.5.3
@@ -62,6 +72,12 @@ pārī meitene garāka par zēnu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TotalOrder, OrderedPair, Counterexample, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExtremalElementArgument
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -93,7 +109,6 @@ pārī meitene garāka par zēnu?
 | $162$ | $163$ |
 
 
-
 # <lo-sample/> LV.NOL.2008.5.4
 
 Vai no figūrām, kas parādītas 1.zīm., var salikt kaut kādu taisnstūri? Katru 
@@ -107,6 +122,12 @@ viena ar otru.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, DivisorsSet, PrimeNumbers
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -115,7 +136,6 @@ viena ar otru.
 Nē. Rūtiņu kopskaits ir $17$. Vienīgais veids, kā $17$ sadalās naturālos 
 reizinātājios, ir $1 \cdot 17=17 \cdot 1$. Bet divas no dotajām figūrām nevar 
 ietilpināt joslā ar platumu " $1$ ".
-
 
 
 # <lo-sample/> LV.NOL.2008.5.5
@@ -130,6 +150,12 @@ virsotnes, kura malas vērstas bultiņu virzienos?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, QuadrilateralFamilies, FiniteSet, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: Geom,Comb
+* _hasReasoningMethod: PackingDisjointShapes
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -143,7 +169,6 @@ Skaidrs, ka vismaz $4$ punkti jānodzēš, lai "likvidētu" kaut vai tikai 6.zī
 redzamos kvadrātus.
 
 
-
 # <lo-sample/> LV.NOL.2008.6.1
 
 Basketbola spēlē starp votivapām un šillišallām uzvarēja votivapas ar rezultātu
@@ -155,13 +180,18 @@ bija guvušas abas komandas kopā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: ArithmeticMean, LinearEquation
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
 ## Atrisinājums
 
 Acīmredzami, $62$.
-
 
 
 # <lo-sample/> LV.NOL.2008.6.2
@@ -178,6 +208,12 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, LatticeGrid, CountingProductRule
+* _readingDifficulty: low
+* _domain: Geom,Comb
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -188,7 +224,6 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 **(B)** jā. Skat., piem., 7.zīm.
 
 ![](LV.NOL.2008.6.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2008.6.3
@@ -203,6 +238,12 @@ Vai eksistē tādi naturāli skaitļi $x$ un $y$, ka
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EvenOddParity, PositiveIntegers, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: ParityArgument, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -214,7 +255,6 @@ gan $x$, gan $y$ ir nepāra, tad $x-y$ ir pāra, un $xy(x-y)$ atkal ir pāra.
 **(B)** piemēram, $x=10;\ y=6$.
 
 
-
 # <lo-sample/> LV.NOL.2008.6.4
 
 Vai eksistē tāds naturāls skaitlis $n$, ka reizinājums $n \cdot n$ sākas ar 
@@ -224,13 +264,18 @@ $1234567 \ldots$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, PerfectSquares, PositiveIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
 Var ņemt, piemēram, $n=1111111$.
-
 
 
 # <lo-sample/> LV.NOL.2008.6.5
@@ -250,6 +295,12 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, GraphConcept, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -261,7 +312,6 @@ Piemēru ar $n=5$ skat. 8.zīm.
 
 Tā kā lampai un $4$ vītnēm, kas tai piestiprinātas, visām jābūt dažādās krāsās,
 tad ar mazāk nekā $5$ krāsām nepietiek.
-
 
 
 # <lo-sample/> LV.NOL.2008.7.1
@@ -278,6 +328,12 @@ $x=a^{3},\ y=b^{4},\ a$ un $b$ - naturāli skaitļi?
 * topic:StandardIdentities
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, RationalNumbers, PerfectCubes, PrimeFactorization
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction, PrimeFactorization
+* _hasReasoningMistake: UnstatedNumberSetAssumption, FactoringWithoutIntegerCondition, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -288,8 +344,6 @@ Jebkuru: $n=\left(n^{3}\right)^{3}:\left(n^{2}\right)^{4}$.
 *Piezīme:* Katru pirmskaitļa pakāpi $p^k$ skaitļa $n$ sadalījumā 
 var izteikt $p^{3c}/p^{4d}$ kaut kādiem naturāliem $c,d$. Piemēram, 
 $n = n^{9}/n^{8} = (n^3)^3/(n^2)^4$.
-
-
 
 
 # <lo-sample/> LV.NOL.2008.7.2
@@ -308,6 +362,12 @@ ka Maija noteikti ēd torti sev visizdevīgākajā veidā.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GamePosition, DecisionTree, CaseAnalysis, Counterexample
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -316,7 +376,6 @@ ka Maija noteikti ēd torti sev visizdevīgākajā veidā.
 Jā. Pieņemsim, ka $x=4;\ y=5;\ z=6;\ t=10$. Ja Maija ēd $y$ vai $z$, Andris 
 paspēj sākt ēst $t$, un $4+10>5+6$. Ja Maija ēd $t$, Andris pēc $x$ ēd $y$ un 
 vēl paspēj sākt ēst $z$, iekāms Maija pabeigusi ēst $t$.
-
 
 
 # <lo-sample/> LV.NOL.2008.7.3
@@ -332,6 +391,12 @@ vidējais svars ir $71~\mathrm{kg}$. Pierādīt, ka cīkstoņu skaits dalās ar 
 * topic:IntegerFactorization
 * questionType:Prove
 * domain:Alg
+* _hasSolutionConcept: ArithmeticMean, LinearEquation, DivisibilityRelation, GCD, CoprimeIntegers
+* _readingDifficulty: low
+* _domain: Alg,NT
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -347,7 +412,6 @@ starp $84k$ un $54m$, attiecībai $k/m$ jābūt
 $17/13$ un $\text{LKD}(13,17)=1$.
 
 
-
 # <lo-sample/> LV.NOL.2008.7.4
 
 Vai eksistē
@@ -360,6 +424,12 @@ Vai eksistē
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Polygon, Triangle, QuadrilateralFamilies, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -368,7 +438,6 @@ Vai eksistē
 Jā. Skat. 9.zīm.
 
 ![](LV.NOL.2008.7.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2008.7.5
@@ -382,6 +451,12 @@ no otra tieši par $1$. Kāda ir lielākā iespējamā $n$ vērtība?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EvenOddParity, ChessboardColoring, Invariant, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: Geom,NT
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant, ProofByContradiction
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -404,7 +479,6 @@ $(225-1):2=112$. Vienas krāsas rūtiņās visi skaitļi ir nepāra, tātad vism
 $1$; tāpēc to summa ir vismaz $112>101$ pretruna.
 
 
-
 # <lo-sample/> LV.NOL.2008.8.1
 
 Sešciparu naturālu skaitli sauc par laimīgu, ja kaut kādu $3$ ciparu summa 
@@ -417,6 +491,12 @@ laimīgi. Pierādīt, ka viens no tiem dalās ar $10$.
 * topic:InvariantParity
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, DigitSum, EvenOddParity, DivisibilityRules, ProofByContradiction
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: ParityArgument, ProofByContradiction, LastDigitAnalysis
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -427,7 +507,6 @@ summas ir viens otram sekojoši naturāli skaitļi; tāpēc viena no tām ir nep
 pretruna.
 
 *Piezīme.* Palielinot skaitli par $1$ bez pārnesuma, tā ciparu summas paritāte mainās par $1$.
-
 
 
 # <lo-sample/> LV.NOL.2008.8.2
@@ -443,6 +522,12 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 * questionType:
 * domain:
 * subdomain:DOM_GridColoring
+* _hasSolutionConcept: ChessboardColoring, Coloring, EvenOddParity, Invariant
+* _readingDifficulty: medium
+* _domain: Geom,Comb
+* _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -455,7 +540,6 @@ nodrošinošo" melno rūtiņu, jo lielajā kvadrātā melno un balto rūtiņu ir
 daudzums.
 
 
-
 # <lo-sample/> LV.NOL.2008.8.3
 
 Skaitļi $a,\ b,\ c$ visi nav vienādi savā starpā. Pierādīt, ka 
@@ -465,6 +549,12 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, LinearInequality
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: UseTrivialInequalitiesAndAddThem, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -472,7 +562,6 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 
 No nevienādības $(a-b)^{2}+(b-c)^{2}+(c-a)^{2}>0$, atverot iekavas, seko 
 $a^{2}+b^{2}+c^{2}>ab+ac+bc$.
-
 
 
 # <lo-sample/> LV.NOL.2008.8.4
@@ -488,6 +577,12 @@ cepuri viņa valkāja iepriekšējā dienā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PeriodicSequence, DivisionWithRemainder, FiniteSequenceArrangement
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: PeriodicSequenceForLongIndex
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -503,7 +598,6 @@ secībā valkāja trīs cepures, no kurām pirmā ir tā, kuru viņa valkāja pa
 Skaidri redzams, ka tā ir zaļa.
 
 
-
 # <lo-sample/> LV.NOL.2008.8.5
 
 Šaurleņķu trijstūrī $ABC$ novilkts augstums $CH$; izrādījās, ka $AH=BC$. Caur 
@@ -514,6 +608,12 @@ $K$. Pierādīt, ka $K$ atrodas uz $\sphericalangle ABC$ bisektrises.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, TriangleCongruence, Angle
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, AngleChasing, IsoscelesTriangleProperties, ParallelLinesAngleProperties
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -529,7 +629,6 @@ $\sphericalangle HBK=\sphericalangle KBC$, k.b.j.
 ![](LV.NOL.2008.8.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2008.9.1
 
 Atrodiet vismaz $5$ dažādus pirmskaitļus, ar kuriem dalās skaitlis 
@@ -539,6 +638,12 @@ $3^{32}-2^{32}$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DiffOfSquaresFactoring, PrimeFactorization
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: FactoringAlgebraicExpressions, PrimeFactorization, CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -553,7 +658,6 @@ ir pirmskaitlis, jo nedalās ne ar vienu skaitli no $2$ līdz
 $\lfloor \sqrt{401}\rfloor=20$ ieskaitot.)
 
 
-
 # <lo-sample/> LV.NOL.2008.9.2
 
 Trijstūrī $ABC$ ar $h_{a}$, $h_{b}$ un $h_{c}$ apzīmēti to augstumu garumi, kas
@@ -566,6 +670,14 @@ Kāds ir mazākais iespējamais $\triangle ABC$ laukums?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, ParallelPerpendicular, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AreaCounting, PythagoreanTheorem
+* _newReasoningMethodLabel: PerpendicularShortestDistance
+* _newReasoningMethodDescription: Perpendicular gives the shortest distance from a point to a line
+* _hasReasoningMistake: UpperBoundWithoutExample, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -582,7 +694,6 @@ $h_{b}=AB=4, h_{c}=AC=5, h_{a}=\frac{AB \cdot AC}{BC}=\frac{4 \cdot 5}{\sqrt{41}
 ![](LV.NOL.2008.9.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2008.9.3
 
 Ceļu policijas vienībā ir $7$ policisti. Katru vakaru dežurēt dodas $3$ no 
@@ -597,6 +708,12 @@ $n$ reizes.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: UnorderedSelection, FiniteSet, Polygon, Triangle
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -611,7 +728,6 @@ dežurēs visi tie policistu trijnieki, kuru atbilstošās virsotnes veido
 vienādsānu trijstūri, iegūsim situāciju ar $n=3$.
 
 
-
 # <lo-sample/> LV.NOL.2008.9.4
 
 Katram no kvadrāttrinomiem $x^{2}+ax+b$ un $x^{2}+cx+d$ ir divas dažādas 
@@ -623,6 +739,12 @@ sakņu kvadrātu summa vienāda ar otrā kvadrāttrinoma sakņu kvadrātu summu.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VietasFormulas, QuadraticEquation, PolynomialAndRoots, LinearEquation, VariableExpression
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: VietasFormulas, EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -635,7 +757,6 @@ Tāpēc $\frac{d-b}{a-c}=-\frac{a+c}{2}$ no kurienes $2d-2b=c^{2}-a^{2}$. No
 Vjeta teorēmas iegūstam 
 $2x_{3}x_{4}-2x_{1}x_{2}=\left(x_{3}+x_{4}\right)^{2}-\left(x_{1}+x_{2}\right)^{2}$,
 no kurienes tieši seko vajadzīgais.
-
 
 
 # <lo-sample/> LV.NOL.2008.9.5
@@ -652,6 +773,12 @@ ceļš, kura garums nav mazāks par $125 ~\mathrm{km}$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, ArithmeticMean, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: AveragingArgumentForExistenceOfElement, DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: DoubleCountingTheSameObject, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -663,7 +790,6 @@ $2 \cdot 30000 \mathrm{~km}=60000 \mathrm{~km}$. Automašīnas, kas brauca pa
 uzdevumā minētajiem īsākajiem ceļiem, kopā nobrauca $10000~\mathrm{km}$; tāpēc 
 $400$ pārējās automašīnas kopā nobrauca $50000~\mathrm{km}$; tāpēc vismaz viena
 no tām nobrauca $\geq \frac{50000}{400}=125(\mathrm{~km})$.
-
 
 
 # <lo-sample/> LV.NOL.2008.10.1
@@ -691,9 +817,6 @@ ka visi $15\ (16;\ 17)$ saskaitāmie iznāk naturāli skaitļi (šī pārbaude
 nepieciešama).
 
 
-
-
-
 # <lo-sample/> LV.NOL.2008.10.2
 
 Dots, ka $f(x)=x^{2}+8x+12$. Atrisināt vienādojumu $f(f(f(f(x))))=0$.
@@ -717,7 +840,6 @@ $$\begin{aligned}
 & x+4= \pm \sqrt[8]{2} \\
 & x=-4 \pm \sqrt[8]{2}
 \end{aligned}$$
-
 
 
 # <lo-sample/> LV.NOL.2008.10.3
@@ -744,7 +866,6 @@ trijstūrī $CHM$ hipotenūza divas reizes garāka par kateti. Tāpēc no ievilk
 leņķu īpašībām $\sphericalangle AKC=\sphericalangle AMC=60^{\circ}$.
 
 
-
 # <lo-sample/> LV.NOL.2008.10.4
 
 Dots, ka $x$ un $y$ - reāli skaitļi. Pierādīt, ka 
@@ -767,7 +888,6 @@ $$\begin{aligned}
 & =\left(1+x^{2}\right)\left(1+y^{2}\right)-2 x\left(1+y^{2}\right)+\left(1+x^{2}\right)\left(1+y^{2}\right)-2y\left(1+x^{2}\right)= \\
 & =(1-x)^{2}\left(1+y^{2}\right)+(1-y)^{2}\left(1+x^{2}\right) \geq 0
 \end{aligned}$$
-
 
 
 # <lo-sample/> LV.NOL.2008.10.5
@@ -805,7 +925,6 @@ kurā tās vispār ir, tās ir nepāra skaitā.
 **B.** Risinājumu pie $n=14$ skat. 6.zīm.
 
 
-
 # <lo-sample/> LV.NOL.2008.11.1
 
 Šaurleņķu trijstūrī $ABC$ novilkti augstumi $AX$ un $CY$; malas $AC$ 
@@ -831,7 +950,6 @@ $\sphericalangle AZY=2 \varphi$, tātad
 $\sphericalangle AMY=\sphericalangle AZY$. No šejienes seko vajadzīgais.
 
 ![](LV.NOL.2008.11.1A.png)
-
 
 
 # <lo-sample/> LV.NOL.2008.11.2
@@ -860,7 +978,6 @@ Atrisinājumu pie $n=6$ skat. 8.zīm.
 ![](LV.NOL.2008.11.2A.png)
 
 
-
 # <lo-sample/> LV.NOL.2008.11.3
 
 Ir zināms, ka $f(x)$ un $g(x)$ - kvadrāttrinomi, pie tam gan $2f(x)+g(x)$, gan 
@@ -885,7 +1002,6 @@ $f(x)-g(x)$ ir nenegatīvs, bet otrs - nepozitīvs, turklāt to (vienīgās) sak
 atšķiras viena no otras. Bet tad polinoms $(2f(x)+g(x))-2(f(x)-g(x))=3g(x)$ 
 pieņem vai nu tikai pozitīvas, vai tikai negatīvas vērtības, no kā seko 
 uzdevuma apgalvojums.
-
 
 
 # <lo-sample/> LV.NOL.2008.11.4
@@ -914,7 +1030,6 @@ pāra $n$, $n=2k$, iegūstam
 $3^{n}=3^{2k}=9^{k}=(8+1)^{k}=8P+1(Q, P \in \mathbf{Z})$. Tāpēc summa $f(n)$ 
 dod atlikumu $4$ vai $2$, dalot ar $8$; tāpēc nedalās ar $8$; tāpēc tā nedalās 
 ar $1000$.
-
 
 
 # <lo-sample/> LV.NOL.2008.11.5
@@ -960,7 +1075,6 @@ attēlota 11.zīm.; ar tās palīdzību no 12.zīm. iegūts 9.zīm. un no 9.zīm
 ![](LV.NOL.2008.11.5B.png)
 
 
-
 # <lo-sample/> LV.NOL.2008.12.1
 
 No $10$ skaitļiem izveidotu virkni sauc par **labu**, ja tā vienlaicīgi 
@@ -994,7 +1108,6 @@ ierakstīšanai - deviņas vietas un "$10$" ierakstīšanai - $10$ vietas. Tāp�
 meklējamo virkņu ir $6 \cdot 8 \cdot 9 \cdot 10=4320$.
 
 
-
 # <lo-sample/> LV.NOL.2008.12.2
 
 Kādiem naturāliem skaitļiem $n$ vienlaicīgi piemīt sekojošas īpašības:
@@ -1022,7 +1135,6 @@ $1$ jābūt vienam no skaitļiem $\frac{n}{6}; \frac{n}{2}; \frac{n}{3}; n$. Mum
 der tikai $1=\frac{n}{6}$; tad $n=6$. Pārbaude parāda, ka šī vērtība der.
 
 
-
 # <lo-sample/> LV.NOL.2008.12.3
 
 Pierādīt, ka visiem reāliem skaitļiem $x$ un $y$ pastāv nevienādība
@@ -1046,7 +1158,6 @@ $x^{2}=2 \pi n, y^{2}=2 \pi k, x y=\pi(2l+1), n, k, l \in Z$. No tā seko, ka
 $x^{2}y^{2}=4 \pi^{2} nk$ un $(xy)^{2}=\pi^{2} \cdot(2l+1)^{2}$. No tā seko, ka
 $4nk=(2l+1)^{2}$ Bet pāra skaitlis nevar būt vienāds ar nepāra skaitli - 
 pretruna.
-
 
 
 # <lo-sample/> LV.NOL.2008.12.4
@@ -1081,7 +1192,6 @@ starpā. Pēc teorēmas par paralēlām hordām $AF \parallel CB$, k.b.j.
 **(B)** iepriekšējā pierādījuma galā aiz teikuma "Tāpēc loki $AmC$ un $FnB$ 
 vienādi savā starpā." jāiestarpina "Atņemot no tiem abiem loku $AF$, iegūstam, 
 ka loki $FmC$ un $AnB$ vienādi savā starpā".
-
 
 
 # <lo-sample/> LV.NOL.2008.12.5
@@ -1133,4 +1243,3 @@ neiekļaut). Tāpēc balto lapu ir $2^{a_{1}}+\ldots+2^{a_{k}}=n$, kas bija
 vajadzīgs.
 
 **Piezīme:** iespējams arī risinājums ar matemātisko indukciju.
-

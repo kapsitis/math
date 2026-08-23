@@ -9,6 +9,12 @@ $$\frac{5}{16}; \frac{\square}{5}; \frac{3}{4}$$
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, LCM, DivisibilityRelation, PositiveIntegers
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -19,7 +25,6 @@ $\frac{25}{80}; \frac{16 \cdot \square}{80}; \frac{60}{80}$. Vidējās daļas
 skaitītājam $16 \cdot \square$ jābūt lielākam nekā $25$ un mazākam nekā $60$, 
 turklāt tam jādalās ar $16$. Vienīgie skaitļi, kas atbilst, ir $32=16 \cdot 2$ 
 un $48=16 \cdot 3$, tāpēc kvadrātiņā var būt ierakstīts skaitlis $2$ vai $3$.
-
 
 
 # <lo-sample/> LV.NOL.2016.5.2
@@ -34,6 +39,12 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $8$; **(B)** $18$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, EvenOddParity, CoprimeIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, CoprimeFactorsDivisibility
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -50,7 +61,6 @@ tas dalās arī ar $18$, jo skaitļi $2$ un $9$ ir savstarpēji pirmskaitļi. T�
 mazākais skaitlis, kas apmierina uzdevuma nosacījumus, ir $12345678$.
 
 
-
 # <lo-sample/> LV.NOL.2016.5.3
 
 No $20$ vienādiem kubiņiem, kuriem katras šķautnes garums ir $1~\mathrm{cm}$, 
@@ -64,6 +74,14 @@ malas garums ir $1~\mathrm{cm}$, ir nepieciešami, lai aplīmētu visu šo figū
 
 * questionType:
 * domain:
+* _hasSolutionConcept: BasicSolids, Tiling, CountingSumRule, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: CountingByDoubleCounting
+* _newReasoningMethodLabel: SurfaceAreaCounting
+* _newReasoningMethodDescription: Counting exposed unit faces of a 3D block figure
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -83,7 +101,6 @@ kuriem nesalīmētas ir palikušas četras skaldnes. Tātad figūras pārklāša
 vajag $8 \cdot 3+12 \cdot 4=24+48=72$ kvadrātiņus.
 
 
-
 # <lo-sample/> LV.NOL.2016.5.4
 
 Vienādi burti apzīmē vienādus skaitļus, dažādi - dažādus. Atrodi vienu piemēru,
@@ -99,6 +116,12 @@ $$\begin{aligned}
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PositiveIntegers, EquationSystem, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -106,7 +129,6 @@ $$\begin{aligned}
 
 Der, piemēram, $A=2,\ B=3,\ C=1$ un $D=5$, jo $2+3=1 \cdot 5$ un 
 $2 \cdot 3=1+5$.
-
 
 
 # <lo-sample/> LV.NOL.2016.5.5
@@ -118,6 +140,12 @@ dalījuma līnijas ietu pa rūtiņu līnijām!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, QuadrilateralFamilies, LatticeGrid
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -126,7 +154,6 @@ dalījuma līnijas ietu pa rūtiņu līnijām!
 Skat., piemēram, 2.att.
 
 ![](LV.NOL.2016.5.5A.png)
-
 
 
 # <lo-sample/> LV.NOL.2016.6.1
@@ -139,6 +166,12 @@ Olafam. Cik naudas ir katram brālim?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -158,7 +191,6 @@ Līdz ar to Haraldam ir $4$ eiro, Rihardam ir $1,90$ eiro un Olafam ir $7,30$
 eiro.
 
 
-
 # <lo-sample/> LV.NOL.2016.6.2
 
 Rindā viens aiz otra bez tukšumiem ir uzrakstīti pēc kārtas sekojoši naturāli 
@@ -171,6 +203,12 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $9$; **(B)** $24$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, DivisibilityRelation, CoprimeIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility, MissingBoundOrExample
+* _mistakesFit: high
 
 </small>
 
@@ -189,7 +227,6 @@ savstarpēji pirmskaitļi. Tātad mazākais skaitlis, kas apmierina uzdevuma
 nosacījumus, ir $123456$.
 
 
-
 # <lo-sample/> LV.NOL.2016.6.3
 
 Rūtiņu lapā, kurā katras rūtiņas malas garums ir $1$ vienība, pa rūtiņu līnijām
@@ -200,6 +237,12 @@ $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9;\ 10$ vienības!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Polygon, LatticeGrid, PointLineSegmentRay
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -208,7 +251,6 @@ $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9;\ 10$ vienības!
 Skat. 3.att.
 
 ![](LV.NOL.2016.6.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2016.6.4
@@ -221,6 +263,12 @@ vieglāko, gan pašu smagāko monētu?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: TotalOrder, SetPartition, FiniteSet
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ExtremalElementArgument
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -246,7 +294,6 @@ Līdz ar to ar $10+9+9=28$ svēršanām esam atraduši gan pašu vieglāko, gan 
 smagāko monētu.
 
 
-
 # <lo-sample/> LV.NOL.2016.6.5
 
 Katrā tukšajā kvadrātiņā (skat. 4.att.) ieraksti vienu ciparu tā, lai iegūtu 
@@ -258,6 +305,12 @@ pareizu reizināšanas piemēru! Neviens skaitlis tajā nedrīkst sākties ar $0
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, LastDigit, EvenOddParity, ExhaustiveCheck
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: LastDigitAnalysis, ParityArgument, BoundingArgument
+* _hasReasoningMistake: WrongDigitSumRange
+* _mistakesFit: low
 
 </small>
 
@@ -282,7 +335,6 @@ rezultāta pirmspēdējais cipars būtu $9$, vienīgā iespēja, ka $e=2$. Pārb
 redzam, ka $129$ un $879$ reizinājums tiešām atbilst dotajam piemēram.
 
 
-
 # <lo-sample/> LV.NOL.2016.7.1
 
 Saldumu veikalā vienas konfektes cena ir $3$ centi. Aivaram ir vairāk naudas 
@@ -296,6 +348,12 @@ nekā Bruno, Cildai ir vairāk naudas nekā Aivaram, Dainai - vairāk nekā Cild
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisionWithRemainder, TotalOrder, Counterexample
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -313,7 +371,6 @@ piemēram, ja Bruno ir $3$ centi, Aivaram ir $4$ centi un Cildai ir $5$ centi,
 tad šajā gadījumā Cilda var nopirkt tikpat konfektes, cik Bruno.
 
 
-
 # <lo-sample/> LV.NOL.2016.7.2
 
 Dots naturāls skaitlis, kas dalās ar $99$ un kura pēdējais cipars nav $0$. 
@@ -327,6 +384,12 @@ kas dalās ar $99$.
 * topic:DivisibilityRulesOther
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, CoprimeIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility, WrongDigitSumRange
+* _mistakesFit: medium
 
 </small>
 
@@ -346,8 +409,6 @@ $11$ un skaitļi $9$ un $11$ ir savstarpēji pirmskaitļi, tad iegūtais skaitli
 dalās arī ar $99$.
 
 
-
-
 # <lo-sample/> LV.NOL.2016.7.3
 
 No trīs dotajām figūrām (skat. 7.att.) saliec simetrisku daudzstūri un uzzīmē 
@@ -362,6 +423,12 @@ sakrīt.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: AxialSymmetry, Polygon, Rotation
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -370,7 +437,6 @@ sakrīt.
 Skat. 8.att.
 
 ![](LV.NOL.2016.7.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2016.7.4
@@ -386,6 +452,12 @@ pārējām? Pašu monētu atrast nav nepieciešams.
 * domain:Comb
 * seeAlso:LV.NOL.2019.7.2
 * seeAlso:LV.SOL.2020.9.3
+* _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -406,7 +478,6 @@ Katrā svaru kausā ieliekam $6$ monētas.
   kreisajā svaru kausā, tātad tā ir vieglāka nekā pārējās.
 
 
-
 # <lo-sample/> LV.NOL.2016.7.5
 
 **(A)** Vai var atrast dažādus veselus skaitļus $a, b, c$ un $d$ tādus, ka 
@@ -420,6 +491,12 @@ izpildās vienādības $a+b=cd$ un $ab=c+d$ ?
 * topic:NumTheoryExtremeElement
 * questionType:ProveDisprove,ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: WholeIntegers, EquationSystem, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: UncheckedConsistencyOfFoundValues, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -452,8 +529,6 @@ Izvēlamies $c=0$. Tad $a+b=0$, $ab=d$.
 Der, piemēram, atrisinājums $(a,b,c,d) = (2017, -2017, 0, -2017^2)$.
 
 
-
-
 # <lo-sample/> LV.NOL.2016.8.1
 
 Aprēķini izteiksmes $\sqrt{a-b}+\sqrt{b-c}+\sqrt{c-d}+\sqrt{d-a}$ vērtību!
@@ -462,6 +537,12 @@ Aprēķini izteiksmes $\sqrt{a-b}+\sqrt{b-c}+\sqrt{c-d}+\sqrt{d-a}$ vērtību!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: VariableExpression, IrrationalAndReals, LinearInequality, TotalOrder
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseTrivialInequalitiesAndAddThem
+* _hasReasoningMistake: CaseAnalysisIncomplete, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -473,7 +554,6 @@ $a \geq b \geq c \geq d \geq a$. Tas ir iespējams tikai tad, ja $a=b=c=d$.
 
 Līdz ar to izteiksmes $\sqrt{a-b}+\sqrt{b-c}+\sqrt{c-d}+\sqrt{d-a}$ vērtība ir 
 $0$.
-
 
 
 # <lo-sample/> LV.NOL.2016.8.2
@@ -488,6 +568,12 @@ $104$. Pierādi, ka otrais skaitlis $BURBUĻUVANNA$ nedalās ar $56$.
 * topic:DivisibilityRulesFor2And4
 * questionType:Prove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRules, DivisibilityRelation, DigitRepresentation, ProofByContradiction
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, PositionalNotation, ProofByContradiction, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -533,6 +619,12 @@ $P$ atrodas uz $AD,\ Q$ - uz $BC$ un $PQ=QD$. Pierādīt, ka $DP=2AP$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadrilateralFamilies, ParallelogramProperties, TriangleCongruence, TriangleSpecialLines
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AuxiliaryLines, ParallelogramProperties
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -548,7 +640,6 @@ Līdz ar to $AP=PH=HD$ un $DP=PH+HD=2AP$.
 ![](LV.NOL.2016.8.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2016.8.4
 
 Kādu lielāko skaitu rūtiņu diagonāļu var novilkt $4 \times 4$ rūtiņas lielā 
@@ -559,6 +650,12 @@ pati sevi krustot vai pieskarties.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Coloring, Invariant, LatticeGrid, Polygon, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: ColoringInvariant
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -574,7 +671,6 @@ tā, kā parādīts 11.att., iegūsim $9$ melnas un $12$ baltas virsotnes. Katra
 rūtiņas diagonāle savā starpā saista divas vienas krāsas virsotnes un, tā kā 
 jāveido lauzta līnija, tad visas līnijai piederošās virsotnes būs vienā krāsā. 
 Tātad tā nevar saturēt vairāk kā $12$ virsotnes un tātad arī posmus.
-
 
 
 # <lo-sample/> LV.NOL.2016.8.5
@@ -595,6 +691,12 @@ tieši $3$ centi nevar iegūt pēc PVN pievienošanas.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, FunctionConcept, FiniteSet, CountingSumRule
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -617,7 +719,6 @@ $826$ dažādas cenas intervālā $[1; 1000]$. Visas pārējās cenas būs neies
 tādu pavisam ir $1000-826=174$.
 
 
-
 # <lo-sample/> LV.NOL.2016.9.1
 
 Nosaki funkciju $y=2016-x$ un $y=\frac{2015}{x}$ grafiku krustpunktu 
@@ -627,6 +728,12 @@ koordinātas!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LinearFunction, InverseProportion, QuadraticEquation, VietasFormulas, CoordinatePlane
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, VietasFormulas
+* _hasReasoningMistake: RootLossByDivisionByExpression, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -646,7 +753,6 @@ $y_{2}=2015$. Esam ieguvuši, ka grafiku krustpunktu koordinātas ir $(2015; 1)$
 un $(1; 2015)$.
 
 
-
 # <lo-sample/> LV.NOL.2016.9.2
 
 Pierādīt, ka
@@ -661,6 +767,12 @@ vairākus (vismaz divus), kuru summa dalās ar $4$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: ModularArithmetic, DivisionWithRemainder, EvenOddParity, PigeonholePrinciple, CaseAnalysis
+* _readingDifficulty: low
+* _domain: NT,Comb
+* _hasReasoningMethod: CompleteEnumeration, ModularArithmetic, ParityArgument, NumberConstruction
+* _hasReasoningMistake: IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -701,7 +813,6 @@ skaitļi ir, piemēram, $4,\ 1,\ 5,\ 9$ (to, ka tie der var pārbaudīt arī,
 aprēķinot visas $11$ iespējamās vairāku no tiem summas).
 
 
-
 # <lo-sample/> LV.NOL.2016.9.3
 
 Trijstūrī $ABC$ novilkta bisektrise $BD$. Zināms, ka $AD=DB$ un $AB=2BC$. 
@@ -711,6 +822,12 @@ Aprēķināt $\sphericalangle BAC$ lielumu!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, TriangleAngleSum, Angle
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: IsoscelesTriangleProperties, CongruentTriangles, AuxiliaryLines, AngleChasing, TriangleAngleSum
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -738,7 +855,6 @@ $3 \alpha=90^{\circ}$ jeb $\alpha=30^{\circ}$.
 Tātad $\sphericalangle BAC=30^{\circ}$.
 
 
-
 # <lo-sample/> LV.NOL.2016.9.4
 
 Ķērpjbārdis, Puszābaks un Uzrocis spēlē novusu, pie tam tas, kurš zaudē 
@@ -750,6 +866,12 @@ Cik partijas izspēlēja Uzrocis?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Invariant, EvenOddParity, FiniteSequenceArrangement
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -767,7 +889,6 @@ $(2,\ 4,\ 6,\ \ldots)$, bet Uzrocis visās ar nepāra numuriem
 $(1,\ 3,\ 5,\ \ldots)$, visās partijās uzvarēja Puszābaks.
 
 
-
 # <lo-sample/> LV.NOL.2016.9.5
 
 Doti $2016$ skaitļi: $1^{2}$; $2^{2}$; $3^{2}$; $\ldots$; $2015^{2}$; $2016^{2}$. 
@@ -778,6 +899,12 @@ vērtība būtu $0$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PerfectSquares, DivisibilityRelation, FiniteSequenceArrangement
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction, AlgebraicManipulationForInteger
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -802,7 +929,6 @@ $\left(n^{2}-(n+1)^{2}-(n+2)^{2}+(n+3)^{2}\right)+\left(-(n+4)^{2}+(n+5)^{2}+(n+
 Tā kā $2016$ dalās ar $8$, tad visus kvadrātus var sadalīt grupās pa $8$ un 
 katrā no tām salikt zīmes tā, ka šīs grupas summa ir $0$, tātad arī visas 
 izteiksmes summa ir $0$.
-
 
 
 # <lo-sample/> LV.NOL.2016.10.1
@@ -875,10 +1001,7 @@ Ja $n=1$, tad $a_1 = 1\cdot{}4 = 4$ un arī $n(n+1)^2 = 4$.
 
 **Pāreja:**
 Palielinot $n$ par $1$, gan virkne $a_n$, gan formula $n(n+1)^2$ 
-pieaug vienādiem soļiem. 
-
-
-
+pieaug vienādiem soļiem.
 
 
 # <lo-sample/> LV.NOL.2016.10.2
@@ -915,7 +1038,6 @@ vai $4$.
   $1+4=5$, tad šo atbilstošo kvadrātu summa dalīsies ar $5$.
 
 
-
 # <lo-sample/> LV.NOL.2016.10.3
 
 Izliektā četrstūrī $APQC$ uz malas $AC$ izvēlēts punkts $B$ tā, ka trijstūri 
@@ -945,7 +1067,6 @@ taisnleņķa ar virsotni punktā $S$. Tāpēc $PS=SQ$.
 ![](LV.NOL.2016.10.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2016.10.4
 
 Ķērpjbārdis, Puszābaks un Uzrocis spēlē novusu, pie tam tas, kurš zaudē 
@@ -967,7 +1088,6 @@ $(10+15+17):2=21$ partija. Katrs spēlētājs spēlē vismaz vienā no divām p�
 kārtas sekojošām partijām. Vienīgā iespēja, kā Ķērpjbārdis varēja spēlēt tikai 
 $10$ partijas, ir tad, ja viņš spēlēja visās partijās ar pāra numuriem un visās
 zaudēja. Tātad viņš zaudēja arī sestajā partijā.
-
 
 
 # <lo-sample/> LV.NOL.2016.10.5
@@ -996,7 +1116,6 @@ pa labi, būsim nonākuši punktā $C$. Velkot nogriezni no $C$ ar garumu $n+4$
 vertikāli uz leju, tad $n+5$ - horizontāli pa labi, tad $n+6$ - vertikāli uz 
 augšu, tad $n+7$ - horizontāli pa kreisi, atgriezīsimies sākumpunktā $A$. Šī 
 konstrukcija nav atkarīga no konkrētās $n$ vērtības.
-
 
 
 # <lo-sample/> LV.NOL.2016.11.1
@@ -1031,7 +1150,6 @@ Apkoposim nevienādības atrisinājumu.
 - Ja $k=0$, tad $x \in(-\infty; 0) \cup(0;+\infty)$.
 - Ja $k \in\left(-\infty;-\frac{4}{9}\right) \cup(0;+\infty)$, tad 
   $x \in\left(-\infty; \frac{-3k-\sqrt{9k^{2}+4k}}{2}\right) \cup\left(\frac{-3k+\sqrt{9k^{2}+4k}}{2};+\infty\right)$.
-
 
 
 # <lo-sample/> LV.NOL.2016.11.2
@@ -1078,7 +1196,6 @@ $0,\ 1,\ 3,\ 4,\ 9,\ 10$ vai $12$.
   $\{0\}$, $\{1; 12\}$, $\{3; 10\}$, $\{4; 9\}$. Tā kā ir jāizvēlas pieci 
   naturālu skaitļu kvadrāti, tad vismaz divi no tiem būs vienā grupā (Dirihlē 
   princips). Šo divu skaitļu summa dalās ar $13$.
-
 
 
 # <lo-sample/> LV.NOL.2016.11.3
@@ -1138,7 +1255,6 @@ reizes. Tas ir iespējams tikai tad, ja viņš spēlēja $2.,\ 4.,\ 6.,\ 8.,\ 10
 un $12.$ partijā un visās zaudēja. Tātad viņš zaudēja otrajā partijā.
 
 
-
 # <lo-sample/> LV.NOL.2016.11.5
 
 Uz tāfeles uzrakstīts vienādojums 
@@ -1165,7 +1281,6 @@ tad, lai kā Morics tos ierakstītu tukšajos kvadrātiņos, vienādojumam notei
 būs vismaz viena vesela sakne $x=-1$.
 
 
-
 # <lo-sample/> LV.NOL.2016.12.1
 
 Noteikt funkcijas $y=\sqrt{5 \cdot 2^{x}-3^{x}}$ definīcijas kopu!
@@ -1184,7 +1299,6 @@ kā $2^{x}>0$ visiem reāliem $x$, tad, nevienādības abas puses dalot ar $2^{x
 iegūst $5-1,5^{x} \geq 0$ jeb $5 \geq 1,5^{x}$. Logaritmējot abas puses pie 
 bāzes $1,5>1$, iegūst $\log _{1,5} 5 \geq x$. Līdz ar to dotās funkcijas 
 definīcijas kopa ir $x \in\left(-\infty; \log _{1,5} 5\right]$.
-
 
 
 # <lo-sample/> LV.NOL.2016.12.2
@@ -1246,7 +1360,6 @@ jebkuriem nepāra skaitļiem $a$ un $b$ to kvadrātu summa dalās ar $2$, bet
 kvadrātu starpība dalās ar $8$.
 
 
-
 # <lo-sample/> LV.NOL.2016.12.3
 
 Četrstūris $ABCD$ ir ievilkts riņķa līnijā, arī tā malu viduspunkti atrodas uz 
@@ -1283,7 +1396,6 @@ jāpierāda.
 ![](LV.NOL.2016.12.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2016.12.4
 
 Ķērpjbārdis, Puszābaks un Uzrocis spēlē novusu, pie tam tas, kurš zaudē 
@@ -1314,7 +1426,6 @@ $z+n=24$, tātad viņam $z=n=12$, un $z+12=24$ partijas, kurās viņš spēlēja
 Uzrocim $z+n=22$, tātad viņam $z=n=11$ un $z+14=25$ partijas. Esam ieguvuši, ka
 Ķērpjbārdis izspēlēja $23$ partijas, Puszābaks - $24$ partijas, bet Uzrocis - 
 $25$ partijas.
-
 
 
 # <lo-sample/> LV.NOL.2016.12.5
@@ -1348,4 +1459,3 @@ arī $\lg x<\lg y$, tātad arī
 $$1+\frac{\lg \left(1+\frac{1}{x}\right)}{\lg x}>1+\frac{\lg \left(1+\frac{1}{y}\right)}{\lg y}$$
 
 kas nozīmē, ka $f(x) > f(y)$, ja $x < y$.
-

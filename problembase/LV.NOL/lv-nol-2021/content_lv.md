@@ -8,6 +8,12 @@ kas dalās ar $3$. Kāda ir uzrakstīto skaitļu summa?
 * answer:165
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: MultiplesSet, DivisibilityRelation, PositiveIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -16,7 +22,6 @@ kas dalās ar $3$. Kāda ir uzrakstīto skaitļu summa?
 $$3 + 6 + 9 + 12 + 15 + 18 + 21 + 24 + 27 + 30 =$$
 $$= (3 + 27) + (6 + 24) + (9 + 21) + (12 + 18) + +30 + 15 =$$ 
 $$= 30 \cdot 4 + 15 = 165$$
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.2
@@ -28,13 +33,20 @@ Kāda ir divu mazāko pirmskaitļu summa?
 * answer:5
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: DirectRecallOfDefinitions
+* _newReasoningMethodDescription: Using direct recall of basic definitions or facts
+* _hasReasoningMistake: PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
 ## Atrisinājums
 
 $2 + 3 = 5$
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.3
@@ -49,6 +61,12 @@ ja katrā kastē ir vismaz $10$ konfektes?
 * answer:7
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: NumberSequence, ExhaustiveCheck, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -60,7 +78,6 @@ $$1024; 512; 256; 128; 64; 32; 16,$$
 
 ja būtu vēl viena kaste, tad tajā būtu $8$ konfektes, bet uzdevumā teikts, 
 ka katrā kastē ir vismaz $10$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.4
@@ -78,6 +95,12 @@ vienāds olu skaits?
 * answer:82
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PrimeFactorization
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: PrimeFactorization
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -103,6 +126,14 @@ attēlā redzama figūra, kas sastāv no četrām 5-rūtiņu figūrām.
 * answer:408
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: Polygon, LatticeGrid, Invariant
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _newReasoningMethodLabel: PerimeterIncrement
+* _newReasoningMethodDescription: Track perimeter change when adding repeated pieces
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -119,7 +150,6 @@ $$12 + 4 \cdot 99 = 408~\mathrm{cm}.$$
 
 # <lo-sample/> LV.NOL.2021TEST.5.6
 
-
 Divām kosmētikas salona darbiniecēm kopā ir septiņas klientes, 
 un katra no tām vēlas, lai viņai veic manikīru. Četras klientes
 vēlas arī sejas kopšanas procedūru. Katrai darbiniecei vajag $15$ 
@@ -134,6 +164,12 @@ pārtraukt, lai to turpinātu otra darbiniece. Kāds ir īsākais laiks
 * answer:50
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: OptimumProofStructure, ArithmeticMean, PositiveIntegers
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -152,7 +188,6 @@ nepietiek, jo visu procedūru kopējais garums ir $95~\mathrm{min}$,
 kas ir vairāk nekā $2 \cdot 45~\mathrm{min}$.
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.5.7
 
 Ciemata veikalā pudele piena maksā $55$ centus un maizes kukulis 
@@ -165,6 +200,12 @@ nopirka Mārtiņš?
 * answer:3
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, ExhaustiveCheck, LinearDiophantine
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -188,6 +229,12 @@ Cik krustpunktu ir trīs dotajām taisnēm (skat. att.)?
 * answer:3
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, CountingProductRule
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -197,7 +244,6 @@ Redzams, ka nekādas divas taisnes nav paralēlas,
 tātad tām ir visi $3$ krustpunkti.
 
 *Atceries!* Taisne ir bezgalīga.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.9
@@ -214,6 +260,14 @@ centimetros!
 * answer:18189
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: Triangle, Polygon
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: PerimeterComputation
+* _newReasoningMethodDescription: Computing total boundary length and repeated traversal distance
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -221,8 +275,7 @@ centimetros!
 ## Atrisinājums
 
 Trijstūra perimetrs ir $3 \cdot 3~\mathrm{cm}=9~\mathrm{cm}$, tātad 
-robots nogāja $9 \cdot 2021=18189~\mathrm{cm}$. 
-
+robots nogāja $9 \cdot 2021=18189~\mathrm{cm}$.
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.10
@@ -234,13 +287,18 @@ Cik skaitļi intervālā no $1$ līdz $200$ dalās ar $7$?
 * answer:28
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, MultiplesSet
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: ConfusingDivisorAndMultiple
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
-Skaitļi, kas dalās, ir $7$; $2 \cdot 7$; $3 \cdot 7$; $\ldots$; $28 \cdot 7=196$. 
-
+Skaitļi, kas dalās, ir $7$; $2 \cdot 7$; $3 \cdot 7$; $\ldots$; $28 \cdot 7=196$.
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.11
@@ -252,6 +310,12 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 * answer:3
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -259,7 +323,6 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 
 Var ievērot, ka $10000$ dalās ar $4$, tātad, 
 $10003$ dalot ar $4$, atlikumā iegūs $3$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.12
@@ -275,6 +338,14 @@ figūra, ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 * answer:23
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: BasicSolids, CountingSumRule
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _newReasoningMethodLabel: LayerCounting3D
+* _newReasoningMethodDescription: Counting cubes by horizontal layers in a 3D stack
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -299,6 +370,12 @@ $$25~\mathrm{t}~50~\mathrm{kg} + 13~\mathrm{t}~950~\mathrm{kg} –
 * answer:32203
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: WholeIntegers
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -316,6 +393,12 @@ Vai skaitlis $2021$ dalās ar $5$?
 * answer:N
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: DivisibilityRules, LastDigit, DivisibilityRelation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -325,6 +408,7 @@ Jo tā pēdējais cipars nav ne $0$, ne $5$.
 
 *Atceries!* Skaitlis $a$ dalās ar skaitli $b$, 
 ja, $a$ dalot ar $b$, atlikumā iegūst $0$.
+
 
 # <lo-sample/> LV.NOL.2021TEST.5.15
 
@@ -337,6 +421,14 @@ Cik trijstūri redzami dotajā zīmējumā?
 * answer:24
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: Triangle, ExhaustiveCheck, CountingSumRule
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: SymmetryStrategy
+* _newReasoningMethodLabel: SystematicSubfigureCounting
+* _newReasoningMethodDescription: Counting all subfigures by partitioning into repeated regions
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -366,6 +458,14 @@ Kāds ir flīzes perimetrs centimetros, ja pusriņķa rādiuss ir $4~\mathrm{cm}
 * answer:64
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: CircleAndDisk, PointLineSegmentRay
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: PerimeterFromArcDiameterComposition
+* _newReasoningMethodDescription: Compute perimeter by composing sides from semicircle diameters
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: low
 
 </small>
 
@@ -373,7 +473,6 @@ Kāds ir flīzes perimetrs centimetros, ja pusriņķa rādiuss ir $4~\mathrm{cm}
 
 Flīzes malas garums sastāv no diviem pusriņku diametriem, tātad tas ir 
 $4 \mathrm{~cm} \cdot 2 \cdot 2=16 \mathrm{~cm}$. Tātad tās perimetrs ir $16 \cdot 4=64 \mathrm{~cm}$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.17
@@ -386,6 +485,14 @@ naturāli skaitļi. Kāds ir taisnstūra perimetrs centimetros?
 * answer:144
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: PrimeNumbers, PositiveIntegers, QuadrilateralFamilies
+* _readingDifficulty: low
+* _domain: Geom,NT
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: PrimeFactorizationOfArea
+* _newReasoningMethodDescription: Using prime factorization to determine integer side lengths
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -411,6 +518,12 @@ Kura no figūrām ir visvieglākā?
 * answer:C
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: TotalOrder, Invariant, QuadrilateralFamilies, Triangle, CircleAndDisk
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -431,7 +544,6 @@ Tā kā riņķis ir smagāks nekā trijstūris, kas savukārt ir smagāks nekā
 kvadrāts, tad secinām, ka kvadrāts ir visvieglākais.
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.5.19
 
 Cik dažādos veidos pa zīmējumā attēlotajiem ceļiem var nokļūt no punkta $A$ 
@@ -444,6 +556,12 @@ uz punktu $B$? Pa ceļiem var pārvietoties tikai bultiņu norādītajā virzien
 * answer:4
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: DirectedGraph, WalkPathCycle, ExhaustiveCheck
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -453,7 +571,6 @@ uz punktu $B$? Pa ceļiem var pārvietoties tikai bultiņu norādītajā virzien
 Iespējamie ceļi ir $ACDB$, $ACEB$, $AFEB$, $AFB$.
 
 ![](LV.NOL.2021TEST.5.19A.png){ width=150px }
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.5.20
@@ -472,6 +589,12 @@ atrodas grāmata, kas maksā 7 eiro?
 * answer:N
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: SetDifference, FiniteSet, DivisibilityRules
+* _readingDifficulty: medium
+* _domain: NT,Geom
+* _hasReasoningMethod: EulerVennDiagramRegions
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -496,6 +619,12 @@ $20$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $5$?
 * answer:M
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet
+* _readingDifficulty: low
+* _domain: NT,Geom
+* _hasReasoningMethod: EulerVennDiagramRegions
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -508,8 +637,6 @@ Bet $5$ ir skaitļa $20$
 dalītājs, tātad tas atrodas aplī.
 
 
-
-
 # <lo-sample/> LV.NOL.2021TEST.5.22
 
 Telpā ir $3$ cilvēki. Cik dažādās secībās viņi var pamest šo telpu?
@@ -520,6 +647,12 @@ Telpā ir $3$ cilvēki. Cik dažādās secībās viņi var pamest šo telpu?
 * answer:6
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: ExhaustiveCheck, FiniteSequenceArrangement
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -531,8 +664,6 @@ tad ir iespējamas sešas dažādas secības:
 $ABC$, $ACB$, $BAC$, $BCA$, $CAB$, $CBA$.
 
 
-
-
 # <lo-sample/> LV.NOL.2021TEST.6.1
 
 Kāda ir pirmo $10$ pirmskaitļu summa? 
@@ -542,13 +673,19 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 * answer:129
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, ExhaustiveCheck
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
 
 ## Atrisinājums
 
-$2+3+5+7+11+13+17+19+23+29=129$ 
+$2+3+5+7+11+13+17+19+23+29=129$
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.2
@@ -572,6 +709,12 @@ D. vairāk nekā $1000000$
 * answer:B
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, GeometricProgression, ArithmeticMean
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -598,7 +741,6 @@ reizināt ar $8$. Piemēram,
 $$160000 \cdot \frac{4}{5} = \frac{160000}{10} \cdot 8 = 16000 \cdot 8 = 128000.$$
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.6.3
 
 Figūra izveidota no divdesmit piecām T-veida piecu rūtiņu 
@@ -614,6 +756,14 @@ figūra, kas sastāv no četrām šādi saliktām T-veida figūrām.
 * answer:156
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: Tiling, LatticeGrid, FiniteSequenceArrangement
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: CountingByDoubleCounting
+* _newReasoningMethodLabel: PerimeterIncrement
+* _newReasoningMethodDescription: Track perimeter change when attaching repeated pieces
+* _hasReasoningMistake: FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -628,7 +778,6 @@ Viena $T$ burta perimetrs ir $12~\mathrm{cm}$, pieliekot klāt vēl $24$
 citus $T$ burtus, kopējais perimetrs būs $12+24 \cdot 6=156~\mathrm{cm}$.
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.6.4
 
 Aprēķini lauztās līnijas garumu centimetros, ja tai ir $6$ posmi, 
@@ -641,13 +790,20 @@ garāks nekā iepriekšējais!
 * answer:60
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: PointLineSegmentRay, FiniteSequenceArrangement, CountingSumRule
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: ArithmeticProgressionSummation
+* _newReasoningMethodDescription: Summing terms of an arithmetic progression
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
 $5+7+9+11+13+15=60 \mathrm{~cm}$
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.5
@@ -661,6 +817,12 @@ Cik krustpunktu ir četrām dotajām taisnēm (skat. att.)?
 * answer:6
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, CountingProductRule
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CountingByDoubleCounting
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -668,8 +830,6 @@ Cik krustpunktu ir četrām dotajām taisnēm (skat. att.)?
 
 Redzams, ka nekādas no $4$ taisnēm nav paralēlas, līdz ar to katra taisne 
 krusto visas $3$ pārējās, tātad krustpunktu skaits ir $4 \cdot 3: 2=6$.
-
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.6
@@ -682,6 +842,14 @@ tad rezultātā iegūst skaitli $127$. Nosaki $A$ vērtību!
 * answer:5
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: PerfectCubes, LastDigit
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _newReasoningMethodLabel: LastDigitAnalysis
+* _newReasoningMethodDescription: Inferring a number from the last digit of its power
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -708,6 +876,14 @@ veicot $369~\mathrm{cm}$. Nosaki trijstūra malas garumu centimetros!
 * answer:3
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: Triangle, DivisionWithRemainder, PositiveIntegers
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: PerimeterFromRepeatedTraversal
+* _newReasoningMethodDescription: Compute perimeter from repeated laps and divide by side count
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -717,7 +893,6 @@ Robota noietais attālums ir $41$ reizi trijstūra perimetrs,
 tātad trijstūra $ABC$ 
 perimetrs ir $369 \mathrm{~cm}: 41=9 \mathrm{~cm}$. 
 Tātad trijstūra malas garums ir $9 \mathrm{~cm}: 3=3 \mathrm{~cm}$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.8
@@ -736,6 +911,12 @@ minūtēs, kurā viņas var apkalpot visas septiņas klientes?
 * answer:50
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: OptimumProofStructure, ArithmeticMean, PositiveIntegers
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -754,7 +935,6 @@ nepietiek, jo visu procedūru kopējais garums ir 95 min, kas ir vairāk nekā
 $2 \cdot 45$ min.
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.6.9
 
 Cik skaitļu intervālā no $1$ līdz $600$ dalās ar $7$? 
@@ -764,13 +944,18 @@ Cik skaitļu intervālā no $1$ līdz $600$ dalās ar $7$?
 * answer:85
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: MultiplesSet, DivisibilityRelation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
 Dalās visi skaitļi $7$; $2 \cdot 7$; $3 \cdot 7$; $\ldots$; $84 \cdot 7$; $85 \cdot 7=595$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.10
@@ -784,12 +969,18 @@ olimpiādē?
 * answer:20
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, CountingSumRule
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
 ## Atrisinājums
 
-$\frac{8}{8+32}=\frac{1}{5}=20 \%$ 
+$\frac{8}{8+32}=\frac{1}{5}=20 \%$
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.11
@@ -806,6 +997,12 @@ atrastos līdzsvarā?
 * answer:A
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: EquationSystem, LinearEquation, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: ExpressOneUnknownThroughAnother
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -834,6 +1031,12 @@ Kāds atlikums rodas, ja $10035$ dala ar $6$?
 * answer:3
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: DivisionWithRemainder, DivisibilityRules, EvenOddParity, DigitSum
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -842,8 +1045,6 @@ Kāds atlikums rodas, ja $10035$ dala ar $6$?
 
 Var ievērot, ka $10032$ dalās ar $6$ (tas ir pāra skaitlis un 
 tā ciparu summa dalās ar $3$).
-
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.13
@@ -859,6 +1060,12 @@ ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 * answer:28
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: BasicSolids, FiniteSet, CountingSumRule
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -868,7 +1075,6 @@ Skaitīt var dažādi, piemēram, šādi.
 Pirmajā "stāvā" ir $13$ klucīši (kā 2. att.), otrajā "stāvā" ir $8$,
 trešajā "stāvā" ir $4$, ceturtajā "stāvā" ir $3$. 
 Kopā $13 + 8 + 4 + 3 = 28$ klucīši.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.14
@@ -883,6 +1089,12 @@ $$(2~\mathrm{h}~41~\mathrm{min} + 5~\mathrm{h}~59~\mathrm{min}) : 2 – 28~\math
 * answer:232
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: ArithmeticMean, RationalNumbers
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -903,6 +1115,12 @@ Vai skaitlis $20212021$ dalās ar $5$?
 * answer:N
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: DivisibilityRules, DigitRepresentation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -922,6 +1140,14 @@ Cik trijstūri redzami dotajā zīmējumā?
 * answer:24
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: Triangle, QuadrilateralFamilies, ExhaustiveCheck, CountingSumRule
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: SymmetryStrategy
+* _newReasoningMethodLabel: SystematicFigureCounting
+* _newReasoningMethodDescription: Partitioning a diagram into regions and summing repeated subfigure counts
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -951,6 +1177,12 @@ Kāds ir taisnstūra perimetrs, ja riņķa līnijas rādiuss ir $4~\mathrm{cm}$?
 * answer:112
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: ParallelogramProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: low
 
 </small>
 
@@ -976,6 +1208,12 @@ rūtiņu pa labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļūt rūti
 * answer:7
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: DynamicProgramming, RecursiveSequenceForCounting, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -1004,6 +1242,12 @@ dalītos ar $90$?
 * answer:6
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, LastDigit
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -1012,7 +1256,7 @@ dalītos ar $90$?
 Lai skaitlis dalītos ar $90$, tam jādalās ar $9$ un ar $10$. Ar $10$ dotais skaitlis noteikti dalās 
 (jo tā pēdējais cipars ir $0$), ar $9$ tas dalīsies, ja tā ciparu summa dalīsies ar $9$. 
 Tātad $5+7+8+3+y+1+y+0$ jādalās ar $9$ jeb $24+2 \cdot y$ jādalās ar $9$. 
-Redzams, ka vienīgais, kas der, ir $y=6$. 
+Redzams, ka vienīgais, kas der, ir $y=6$.
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.20
@@ -1026,6 +1270,12 @@ nenokrāsoti, ja kastes škautnes garums ir $7~\mathrm{cm}$?
 * answer:196
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: BasicSolids, RationalNumbers
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1047,6 +1297,12 @@ Cik dažādās secībās $3$ skolēni var nostāties rindā pie kases?
 * answer:6
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: FiniteSequenceArrangement, ExhaustiveCheck
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -1054,7 +1310,6 @@ Cik dažādās secībās $3$ skolēni var nostāties rindā pie kases?
 
 Apzīmēsim skolēnus ar $A,B,C$, tad šīs secības ir 
 $ABC$, $ACB$, $BAC$, $BCA$, $CAB$, $CBA$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.6.22
@@ -1073,6 +1328,12 @@ grāmata, kas maksā $17$ eiro?
 * answer:N
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: DivisibilityRelation, EvenOddParity, SetDifference, EulerVennDiagrams
+* _readingDifficulty: medium
+* _domain: NT,Geom
+* _hasReasoningMethod: EulerVennDiagramRegions, FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -1096,14 +1357,18 @@ atrodas aplī. Kurā plaknes daļā atrodas skaitlis $10$?
 * answer:L
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet, SetIntersection
+* _readingDifficulty: low
+* _domain: NT,Geom
+* _hasReasoningMethod: EulerVennDiagramRegions
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
 Tā kā skaitlis $10$ dalās ar $10$ un ir arī $10$ dalītājs, tad tas atrodas gan taisnstūrī, gan aplī.
-
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.1
@@ -1115,6 +1380,12 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 * answer:120
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: CountingProductRule, FiniteSequenceArrangement
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: RuleOfProductIndependentChoices
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -1138,14 +1409,18 @@ lai skaitļi pa apli būtu uzrakstīti pretējā secībā?
 * answer:3
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: Permutation, Invariant, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
 ## Atrisinājums
 
 Jāsamaina $2$ ar $8$, $3$ ar $7$, $4$ ar $6$.
-
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.3
@@ -1162,14 +1437,18 @@ virsotnēm bija attēloti sākotnējā zīmējumā?
 * answer:5
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: QuadrilateralFamilies, PointLineSegmentRay, ExhaustiveCheck
+* _readingDifficulty: low
+* _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, SkippingCaseAnalysis
+* _mistakesFit: medium
 
 </small>
 
 ## Atrisinājums
 
 ![](LV.NOL.2021TEST.7.3A.png){ width=100px }
-
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.4
@@ -1186,6 +1465,12 @@ $$A(1;3.5) \quad B(8;6) \quad C(-12;-1) \quad D(-5;1)$$
 * answer:C
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: CoordinatePlane, LinearFunction, PointLineSegmentRay, OrderedPair
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1221,6 +1506,12 @@ Nosaki ceturtās virsotnes koordinātu summu!
 * answer:0
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: CoordinatePlane, QuadrilateralFamilies, ParallelogramProperties, OrderedPair
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: ParallelogramProperties
+* _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -1230,7 +1521,6 @@ Ceturtās virsotnes koordinātas ir $(1; −1)$.
 Tātad koordinātu summa ir $1 − 1 = 0$.
 
 ![](LV.NOL.2021TEST.7.5A.png){ width=100px }
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.6
@@ -1244,6 +1534,12 @@ Cik mazos trijstūrīšus ieguva?
 * answer:49
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: Triangle, DissectionIntoCongruent, CountingSumRule, NumberSequence
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: WrongAreaProportionality, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -1254,7 +1550,6 @@ vairāk nekā iepriekšējā slānī, tātad pavisam ir
 $1+3+5+7+9+11+13=49$ trijstūrīši.
 
 ![](LV.NOL.2021TEST.7.6A.png){ width=150px }
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.7
@@ -1268,6 +1563,12 @@ viņai pietrūktu. Cik centu ir Dacei?
 * answer:380
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: LinearEquation, EquationSystem, DirectProportion
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -1280,7 +1581,6 @@ klades maksā $120$ centus, tātad viena klade maksā $30$ centus.
 
 Tātad $11$ klades maksā $11 \cdot 30 = 330$ centus un 
 Dacei ir $330 + 50 = 380$ centu.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.8
@@ -1299,6 +1599,14 @@ kur redzamas pirmās trīs figūras). No cik divu posmu leņķīšiem
 * answer:26
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: LatticeGrid, Tiling, Invariant, CountingSumRule
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: CountingByDoubleCounting
+* _newReasoningMethodLabel: RecursiveChangeCounting
+* _newReasoningMethodDescription: Track total count via fixed increment in each construction step
+* _hasReasoningMistake: FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -1313,7 +1621,6 @@ $10$ stūrīšus (vēl $30$ rūtiņas). Tā kā krusta kontūru var salikt
 no $6$ leņķīšiem, tad tai būs vajadzīgi $6+10 \cdot 2=26$ leņķīši.
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.7.9
 
 Cik krustpunktu ir trīs dotajām taisnēm un staram (skat.att.)
@@ -1325,6 +1632,12 @@ Cik krustpunktu ir trīs dotajām taisnēm un staram (skat.att.)
 * answer:4
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: PointLineSegmentRay, CountingSumRule
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -1345,6 +1658,12 @@ Kāds ir galarezultāta pēdējais cipars?
 * answer:0
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: LastDigit, DigitRepresentation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: LastDigitAnalysis
+* _hasReasoningMistake: CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -1373,6 +1692,14 @@ malas garums ir $4~\mathrm{cm}$?
 * answer:BC
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: DivisionWithRemainder, Triangle, MultiplesSet
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _newReasoningMethodLabel: PeriodicMotionAlongPerimeter
+* _newReasoningMethodDescription: Using perimeter periodicity via division with remainder
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1397,13 +1724,18 @@ olimpiādē. Cik procentu no skolas skolēniem piedalījās olimpiādē?
 * answer:20
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, ArithmeticMean
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
 ## Atrisinājums
 
 $\frac{16}{64+16}=\frac{16}{80}=\frac{1}{5}=20 \%$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.13
@@ -1420,6 +1752,12 @@ Kāda ir riņka un kvadrāta masa, ja trijstūra masa ir $5$ kg?
 * answer:1;2
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: EquationSystem, LinearEquation, Triangle, QuadrilateralFamilies
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, SystemOfEquationsAdditionOrSubstitution
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -1443,7 +1781,6 @@ $10~\mathrm{kg}$,
 un viens kvadrāts sver $2~\mathrm{kg}$, bet riņkis sver $1~\mathrm{kg}$.
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.7.14
 
 Kāds atlikums rodas, ja $2021$ dala ar $4$? 
@@ -1453,13 +1790,18 @@ Kāds atlikums rodas, ja $2021$ dala ar $4$?
 * answer:1
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
 $2020$ dalās ar $4$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.15
@@ -1475,6 +1817,12 @@ tagadējais klucǐšu izkārtojums redzams attēlā?
 * answer:36
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: BasicSolids, ExhaustiveCheck, CountingSumRule
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -1483,7 +1831,6 @@ tagadējais klucǐšu izkārtojums redzams attēlā?
 Skaitīt var dažādi. No pirmā "stāva" ir aiznesti $3$ klucīši, 
 no otrā "stāva" - $8$, no trešā - $12$, no ceturtā -- $13$, kopā ir 
 aiznesti $3+8+12+13=36$ klucīši.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.16
@@ -1499,12 +1846,18 @@ būtu patiesa?
 * answer:12
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, LinearEquation, LCM
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
-$\frac{1}{x}=2-\frac{1}{2}-\frac{1}{3}-\frac{1}{4}-\frac{5}{6}=\frac{24-6-4-3-10}{12}=\frac{1}{12}$ 
+$\frac{1}{x}=2-\frac{1}{2}-\frac{1}{3}-\frac{1}{4}-\frac{5}{6}=\frac{24-6-4-3-10}{12}=\frac{1}{12}$
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.17
@@ -1517,6 +1870,12 @@ dalītos ar $36$?
 * answer:8
 * questionType:ShortAnswer
 * domain:NT
+* _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, DivisibilityRelation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
+* _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -1528,7 +1887,6 @@ ciparu summai jādalās ar $9$.
 Tātad $1+2+3+4+5+6+8+9+m+8$ dalās ar $9$ jeb $46+m$ dalās ar $9$. 
 Tātad vienīgā iespējamā $m$ vērtība ir $8$. 
 Tā kā skaitlis tagad beidzas ar $88$, tad tas noteikti dalās arī ar $4$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.18
@@ -1547,6 +1905,12 @@ Iekrāsotajās rūtiņās ir škēēslis, tajās varde neiet.
 * answer:34
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: DynamicProgramming, RuleOfSumDisjointCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
+* _mistakesFit: medium
 
 </small>
 
@@ -1562,7 +1926,6 @@ cik veidos varde var nonākt katrā rūtinā, sākot no jautājuma zīmes
 (kur tā var nonākt vienā veidā, jo tā jau tur ir).
 
 ![](LV.NOL.2021TEST.7.18A.png){ width=150px }
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.19
@@ -1581,6 +1944,12 @@ grāmata, kas maksā $27$ eiro?
 * answer:N
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, EulerVennDiagrams
+* _readingDifficulty: medium
+* _domain: NT,Geom
+* _hasReasoningMethod: EulerVennDiagramRegions
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: low
 
 </small>
 
@@ -1589,7 +1958,6 @@ grāmata, kas maksā $27$ eiro?
 Tā kā $27$ eiro nevar samaksāt tikai ar $2$ eiro monētām, 
 ne arī tikai ar $2$ eiro banknotēm, tad šī grāmata 
 neatrodas ne taisnstūrī, ne riņķī.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.7.20
@@ -1607,6 +1975,12 @@ $15$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $45$?
 * answer:K
 * questionType:ShortAnswer
 * domain:Comb
+* _hasSolutionConcept: DivisibilityRelation, MultiplesSet, DivisorsSet, EulerVennDiagrams
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: EulerVennDiagramRegions
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -1629,6 +2003,12 @@ līniju centros un taisnstūra $LMNO$ perimetrs ir $112~\mathrm{cm}$?
 * answer:24
 * questionType:ShortAnswer
 * domain:Geom
+* _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk, PointLineSegmentRay
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: ParallelogramProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -1651,6 +2031,12 @@ atrastos uz funkcijas $y = 3x − 71$ grafika?
 * answer:25
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -1670,6 +2056,12 @@ $y=71x+2021$ grafikam un iet caur punktu $A(2;200)$. Nosaki $b$ vērtību!
 * answer:58
 * questionType:ShortAnswer
 * domain:Alg
+* _hasSolutionConcept: LinearFunction, ParallelPerpendicular, CoordinatePlane
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: SlopesOnCoordinatePlane, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -1678,7 +2070,6 @@ $y=71x+2021$ grafikam un iet caur punktu $A(2;200)$. Nosaki $b$ vērtību!
 Grafiki ir paralēli, ja to virziena koeficienti sakrīt, 
 tātad $a=71$. levietojot $y=200$ un $x=2$ iegūstam, 
 ka $200=71 \cdot 2+b$, no kurienes $b=58$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.1
@@ -1690,15 +2081,18 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 * answer:129
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: PrimeNumbers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
 $$2 + 3 + 5 + 7 + 11 + 13 + 17 + 18 + 23 + 29 = 129.$$
-
-
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.2
@@ -1719,6 +2113,12 @@ bija Mārim trešajā naudas skaitīšanas reizē?
 * answer:40
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: StateSpaceProcess, Invariant, FiniteSequenceArrangement
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -1738,7 +2138,6 @@ Paku skaits pēc trešās pārdales (trešā skaitīšana):
 $$2, 12, 30, \mathbf{40}, 30, 12, 2.$$
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.8.3
 
 Cik dažādos veidos $6$ skolēni var nostāties rindā?
@@ -1748,6 +2147,12 @@ Cik dažādos veidos $6$ skolēni var nostāties rindā?
 * answer:720
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: CountingProductRule, FiniteSequenceArrangement
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: RuleOfProductIndependentChoices
+* _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
+* _mistakesFit: medium
 
 </small>
 
@@ -1756,7 +2161,6 @@ Cik dažādos veidos $6$ skolēni var nostāties rindā?
 Pirmo skolēnu var izvēlēties $6$ veidos, otro – $5$, trešo – $4$, 
 ceturto – $3$, piekto – $2$. Tātad kopējais veidu skaits ir 
 $6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 = 720$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.4
@@ -1770,6 +2174,12 @@ $1, 4, 3, 6, 5, 8, 7, 2$, skatoties pulksteņa rādītāja kustības virzienā?
 * answer:3
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, Permutation, OptimumProofStructure
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -1779,7 +2189,6 @@ Var ievērot, ka skaitļi $1, 3, 5, 7$ atrodas savās vietās,
 jāsamaina tikai pāra cipari. To var izdarīt ar 3 maiņām
 
 $$2\ ar\ 4, \quad 2\ ar\ 6, \quad 2\ ar\ 8.$$
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.5
@@ -1795,14 +2204,18 @@ tikai visas kvadrātu virsotnes. Cik kvadrāti ar dotajām virsotnēm bija attē
 * answer:5
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: LatticeGrid, QuadrilateralFamilies, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Geom,Comb
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
 ## Atrisinājums
 
 ![](LV.NOL.2021TEST.8.5A.png){ width=100px }
-
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.6
@@ -1818,6 +2231,14 @@ $$A(-1;3.5) \quad B $(-8;6) \quad C(12;-1) \quad D(5;1).$$
 * answer:C
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: CoordinatePlane, PointLineSegmentRay, LinearFunction, EquationSystem
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: newMethod
+* _newReasoningMethodLabel: CoordinateLineEquation
+* _newReasoningMethodDescription: Find line equation from two points and test candidates
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1829,7 +2250,7 @@ $b=2+3 k$ un $b=5-6 k$.
 Tātad $2+3 k=5-6 k$. Līdz ar to $k=\frac{1}{3}$ un $b=3$. 
 Pārbaudot atbilžu variantus, redzam, ka $-1=-12 \cdot \frac{1}{3}+3$. 
 
-*Piezīme.* Var arī atrisināt grafiski. 
+*Piezīme.* Var arī atrisināt grafiski.
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.7
@@ -1843,6 +2264,12 @@ trijstūrīšus ieguva?
 * answer:225
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: Triangle, DissectionIntoCongruent, CountingSumRule, NumberSequence
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: low
 
 </small>
 
@@ -1856,7 +2283,6 @@ $=(1+29)+(3+27)+(5+25)+(7+23)+(9+21)+(11+19)+$
 $+(13+17)+15=30 \cdot 7+15=225$ 
 
 ![](LV.NOL.2021TEST.8.7A.png){ width=150px }
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.8
@@ -1873,6 +2299,12 @@ malas garums ir $1~\mathrm{cm}$.
 * answer:24
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: Triangle, LatticeGrid, ExhaustiveCheck, CountingSumRule
+* _readingDifficulty: low
+* _domain: Geom,Comb
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, CaseAnalysis
+* _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -1887,7 +2319,6 @@ trešo virsotni uz apakšējās malas, kā arī trijstūri $AFB$ un $CED$
 ![](LV.NOL.2021TEST.8.8A.png){ width=150px }
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.8.9
 
 Ja Inese nopirks $11$ klades, viņai vēl paliks $50$ centi. 
@@ -1900,6 +2331,12 @@ Cik centu ir Inese?
 * answer:380
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: LinearEquation, VariableExpression, ArithmeticMean
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -1911,8 +2348,6 @@ viņa var nopirkt vēl tieši $4$ klades. Tātad $4$ klades maksā
 $120$ centus, tātad viena klade maksā $30$ centus.
 Tātad $11$ klades maksā $11 \cdot 30 = 330$ 
 centus un Inesei ir $330 + 50 = 380$ centu.
-
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.10
@@ -1929,6 +2364,12 @@ kas sastāv no 50 rūtiņām?
 * answer:24
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: LatticeGrid, Tiling, CountingSumRule, PositiveIntegers
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: AreaCounting
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1942,7 +2383,6 @@ Katra trīs posmu stieplīte noklāj $3$ rūtiņu malas, tāpēc vajadzīgas
 $72 ∶ 3 = 24$ stieplītes.
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.8.11
 
 Ilze skaitli $123456787777777777777765412$ kāpināja kubā un pēc tam 
@@ -1954,6 +2394,12 @@ iegūtajam rezultātam pieskaitīja $2$. Kāds ir galarezultāta desmitu
 * answer:3
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: DigitRepresentation, DivisionWithRemainder, LastDigit
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: CarelessModularComputation
+* _mistakesFit: medium
 
 </small>
 
@@ -1963,8 +2409,6 @@ Tā kā reizinājuma pēdējie divi cipari ir atkarīgi tikai no
 reizinātāju diviem pēdējiem cipariem, tad rezultāts būs tāds 
 pats kā, ja Ilze aprakstīto darītu ar skaitli $12$. 
 Tā kā $123 + 2 = 1730$, tad desmitu cipars būs $3$.
-
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.12
@@ -1982,6 +2426,14 @@ malas robots apstājās, ja katras trijstūra malas garums ir $7~\mathrm{cm}$?
 * answer:AC
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: DivisionWithRemainder, Triangle, PeriodicSequence
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: CaseAnalysis
+* _newReasoningMethodLabel: PerimeterCycleRemainder
+* _newReasoningMethodDescription: Using perimeter cycles and remainders on repeated motion
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -1995,7 +2447,6 @@ atradīsies uz malas
 $AC$ ($1~\mathrm{cm}$ no punkta $C$).
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.8.13
 
 Kāds mazākais naturālais skaitlis jāieliek $x$ vietā, lai nevienādība 
@@ -2006,6 +2457,12 @@ $2 \sqrt{50}+x>20$ būtu patiesa?
 * answer:6
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: PositiveIntegers, LinearInequality, PerfectSquares
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2025,7 +2482,6 @@ tāpēc
 $$2 \sqrt{50}+x < 2 \cdot 7.5+5 = 20.$$
 
 
-
 # <lo-sample/> LV.NOL.2021TEST.8.14
 
 Vienādsānu trijstūra divu malu attiecība ir $2: 4$ un tā perimetrs ir 
@@ -2036,6 +2492,12 @@ $60~\mathrm{cm}$. Cik gara ir trijstūra pamata mala centimetros?
 * answer:12
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: Triangle, TriangleInequality, DirectProportion, LinearEquation
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: TriangleInequality, CaseAnalysis, IsoscelesTriangleProperties
+* _hasReasoningMistake: SkippingCaseAnalysis, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -2046,7 +2508,6 @@ neizpildītos trijstūra nevienādība $2 x+2 x>4 x$ ). Tātad $2:4$ ir pamata
 attiecība pret sānu malu. Tātad trijstūra pamats ir $2x$, sānu mala ir 
 $4x$ un perimetrs ir $2x+4x+4x=10x$, no kurienes iegūstam, 
 ka $x=6 \mathrm{~cm}$ un pamata mala ir $2 x=12 \mathrm{~cm}$.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.15
@@ -2062,6 +2523,12 @@ būtu patiesa?
 * answer:2
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: VariableExpression, EquationSystem, PrimeFactorization
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2079,12 +2546,18 @@ Cik skaitli intervālā no $1$ līdz $1000$ dalās ar $7$?
 * answer:142
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, MultiplesSet
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: BoundingArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
 ## Atrisinājums
 
-Tie ir $7$; $2 \cdot 7$; $3 \cdot 7$; $\ldots$; $142 \cdot 7=994$. 
+Tie ir $7$; $2 \cdot 7$; $3 \cdot 7$; $\ldots$; $142 \cdot 7=994$.
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.17
@@ -2099,6 +2572,12 @@ vienā dienā izlasīja Rihards?
 * answer:9
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: ArithmeticMean, CountingSumRule
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -2106,7 +2585,6 @@ vienā dienā izlasīja Rihards?
 
 Kopā novembrī Rihards izlasīja $5 \cdot 18+15 \cdot 12=270$ lappuses. 
 Tātad vienā dienā vidēji $270:30=9$ lappuses.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.18
@@ -2120,6 +2598,12 @@ Nosaki leņķu $\alpha$ un $\beta$ summu (grādos)!
 * answer:120
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: Angle, ParallelPerpendicular
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AngleChasing, ParallelLinesAngleProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongAngleDecomposition, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -2142,6 +2626,12 @@ abu pamata pieleņu summa. Cik grādus liels ir virsotnes leņkis?
 * answer:80
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: TriangleAngleSum, AngleChasing, IsoscelesTriangleProperties
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2163,6 +2653,12 @@ un ordinātas kvadrāta summa?
 * answer:2
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2182,12 +2678,18 @@ olimpiādē. Cik procentu no skolas skolēniem nepiedalījās olimpiādē?
 * answer:80
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: RationalNumbers, CountingSumRule
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
 ## Atrisinājums
 
-$\frac{64}{64+16}=\frac{4}{5}=80 \%$ 
+$\frac{64}{64+16}=\frac{4}{5}=80 \%$
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.22
@@ -2207,6 +2709,12 @@ Kurā plaknes daļā atrodas grāmata, kas maksā $37$ eiro?
 * answer:N
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, MultiplesSet, SetDifference, CircleAndDisk
+* _readingDifficulty: medium
+* _domain: NT,Geom
+* _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2215,7 +2723,6 @@ Kurā plaknes daļā atrodas grāmata, kas maksā $37$ eiro?
 Tā kā $37$ eiro nevar samaksāt tikai ar $2$ eiro monētām, 
 ne arī tikai ar $5$ eiro 
 banknotēm, tad šī grāmata neatrodas ne taisnstūrī, ne riņkī.
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.23
@@ -2232,6 +2739,14 @@ dalītāji atrodas aplī. Kurā plaknes daļā atrodas skaitlis $8$?
 * answer:L
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, DivisorsSet, SetIntersection
+* _readingDifficulty: low
+* _domain: NT,Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: SetIntersectionClassification
+* _newReasoningMethodDescription: Classifying an element by membership in overlapping sets
+* _hasReasoningMistake: ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -2239,8 +2754,6 @@ dalītāji atrodas aplī. Kurā plaknes daļā atrodas skaitlis $8$?
 
 Tā kā $8$ dalās ar $8$ un ir arī skait!̣a $64$ dalītājs, 
 tad tas atrodas gan taisnstūrī, gan aplī.
-
-
 
 
 # <lo-sample/> LV.NOL.2021TEST.8.24
@@ -2252,16 +2765,18 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 * answer:3
 * questionType:ShortAnswer
 * domain:
+* _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
 ## Atrisinājums
 
-Viegli ievērot, ka $10000$ dalās ar $4$. 
-
-
-
-
+Viegli ievērot, ka $10000$ dalās ar $4$.
 
 
 # <lo-sample/> LV.NOL.2021.5.1
@@ -2283,6 +2798,12 @@ Cik dalībniekiem patīk tikai matemātika?
 
 * questionType:FindAll
 * domain:
+* _hasSolutionConcept: EulerVennDiagrams, FiniteSet, SetIntersection, CountingSumRule
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: EulerVennDiagramRegions, RuleOfSumDisjointCases
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: high
 
 </small>
 
@@ -2319,9 +2840,6 @@ $$M=1270-400-100-40-20-90-71=549$$
 Līdz ar to esam ieguvuši, ka 549 skolēniem patīk tikai matemātika.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2021.5.2
 
 Vai ar 2.att. figūrām, kas sastāv no $4$ rūtiņām, var noklāt rūtiņu laukumu, kura izmērs ir
@@ -2334,6 +2852,14 @@ Vai ar 2.att. figūrām, kas sastāv no $4$ rūtiņām, var noklāt rūtiņu lau
 
 * questionType:ProveDisprove
 * domain:
+* _hasSolutionConcept: Tiling, DivisibilityRelation, LatticeGrid
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: ProofByContradiction
+* _newReasoningMethodLabel: DivisibilityByTileArea
+* _newReasoningMethodDescription: Using total area divisibility by tile size
+* _hasReasoningMistake: ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -2347,10 +2873,6 @@ ar $4$. legūta pretruna, tātad nevar pārklāt.
 **(B)** Jā, var, piemēram, skat. 3.att.
 
 ![](LV.NOL.2021.5.2A.png){ width=200px }
-
-
-
-
 
 
 # <lo-sample/> LV.NOL.2021.5.3
@@ -2373,6 +2895,12 @@ ja ceļš $CD$ ir slēgts (tas ir, pa ceļu $CD$ nedrīkst braukt)?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:
+* _hasSolutionConcept: GraphConcept, WalkPathCycle, EvenOddParity, Invariant
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -2391,11 +2919,7 @@ Tātad kopējais nobrauktā ceļa garums no ciema $A$ līdz ciemam $A$
 vienmēr būs pāra skaitlis, tātad tas nevar būt $95~\mathrm{km}$.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2021.6.1
-
 
 Šogad uz Olimpijas 6. klašu matemātikas olimpiādi ir reǵistrējušies 1243 skolēni, 
 kuriem jautāja par mācību priekšmetiem (matemātika, dabas zinības, vizuālā māksla), 
@@ -2414,6 +2938,12 @@ Zināms, ka katram no skolēniem patīk vismaz viens no šiem priekšmetiem. Cik
 
 * questionType:FindAll
 * domain:
+* _hasSolutionConcept: EulerVennDiagrams, FiniteSet, SetIntersection, SetUnion
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: EulerVennDiagramRegions, RuleOfSumDisjointCases
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -2444,7 +2974,6 @@ $$M=1243-500-150-50-30-20-120=373$$
 Līdz ar to esam ieguvuši, ka $373$ skolēniem patīk tikai matemātika.
 
 
-
 # <lo-sample/> LV.NOL.2021.6.2
 
 Ieraksti $5 \times 6$ rūtiņu laukumā $14$ plusus un $16$ mīnusus 
@@ -2456,6 +2985,12 @@ ja tām ir kopīga mala.
 
 * questionType:FindExample
 * domain:
+* _hasSolutionConcept: LatticeGrid, Coloring, ExhaustiveCheck
+* _readingDifficulty: low
+* _domain: Geom,Comb
+* _hasReasoningMethod: SymmetryStrategy
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2472,10 +3007,6 @@ To var izdarīt, piemēram, kā parādīts attēlā:
 | + | - | - | - | - | + |
 
 
-
-
-
-
 # <lo-sample/> LV.NOL.2021.6.3
 
 Dotas deviņas kārtis ar cipariem no $1$ līdz $9$, uz katras kārts uzrakstīts 
@@ -2488,6 +3019,12 @@ lai no tām noteikti varētu izveidot divciparu skaitli, kurš dalās ar $7$
 * questionType:FindOptimal
 * domain:NT
 * method:MTH_PigeonholePrincipleBasic
+* _hasSolutionConcept: PigeonholePrinciple, DivisibilityRelation, DigitRepresentation, SetPartition, OptimumProofStructure
+* _readingDifficulty: medium
+* _domain: Comb,NT
+* _hasReasoningMethod: PigeonholeInNT, CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -2520,8 +3057,6 @@ tad no tām nevar izveidot divciparu skaitli, kas dalās ar $7$
 Tātad mazākais kāršu skaits, kas jāizvelk, ir $5$.
 
 
-
-
 # <lo-sample/> LV.NOL.2021.7.1
 
 Vai var gadīties, ka 7.att. dotās taisnes ir funkciju 
@@ -2533,6 +3068,12 @@ $y=ax+b$, $y=bx-c$ un $y=cx+a$ grafiki (grafiki nav doti mērogā)?
 
 * questionType:ProveDisprove
 * domain:
+* _hasSolutionConcept: LinearFunction, PositiveAndNegative, CaseAnalysis, CoordinatePlane
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, UseFunctionGraphForRootsAndComparisons
+* _hasReasoningMistake: CaseAnalysisIncomplete, IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -2556,9 +3097,6 @@ Līdz ar to esam pamatojuši, ka dotās taisnes nevar atbilst
 uzdevumā dotajām formulām.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2021.7.2
 
 Naturālu skaitli sauc par īpašu, ja tas ir vienāds ar četru savu dažādu dalītāju summu.
@@ -2572,6 +3110,12 @@ Naturālu skaitli sauc par īpašu, ja tas ir vienāds ar četru savu dažādu d
 
 * questionType:FindExample,Prove,Prove
 * domain:
+* _hasSolutionConcept: DivisibilityRelation, DivisorsSet, EvenOddParity, ProofByContradiction, ExistenceVsUniversal
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: ParityArgument, ProofByContradiction, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -2586,9 +3130,6 @@ $12n$, kur $n$ ir naturāls skaitlis, jo $12n = n+2n+3n+6n$.
 **(C)** Pieņemsim pretējo, ka ir kāds īpašs nepāra skaitlis. 
 Nepāra skaitlim visi tā dalītāji ir nepāra skaitli, bet četru 
 nepāra skaitļu summa ir pāra skaitlis - pretruna.
-
-
-
 
 
 # <lo-sample/> LV.NOL.2021.7.3
@@ -2606,6 +3147,12 @@ spēlējot, un kā vinam jārīkojas?
 
 * questionType:ProveDisprove,Algorithm
 * domain:
+* _hasSolutionConcept: SymmetryStrategy, GamePosition, WinningLosingPositions, CentralSymmetry
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: SymmetryStrategyInTwoPlayerGames, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -2632,9 +3179,6 @@ ja tortes gabalu varēs apēst Brālītis, tad arī Karlsons varēs
 apēst simetrisko gabalu, kas atrodas otrā blokā.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2021.8.1
 
 Aplūkosim lineāras funkcijas $y=bx-71+m$, kur koeficientus $b$ 
@@ -2645,6 +3189,12 @@ funkciju grafiki krustojas vienā punktā!
 
 * questionType:Prove
 * domain:
+* _hasSolutionConcept: LinearFunction, CoordinatePlane, VariableExpression
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -2662,7 +3212,6 @@ Tātad visas dotās taisnes krustojas punktā
 $\left(\frac{1}{2}; 939\frac{1}{2}\right)$.
 
 
-
 # <lo-sample/> LV.NOL.2021.8.2
 
 Kādus pirmskaitļus var izteikt formā
@@ -2676,6 +3225,12 @@ kur $n$ ir kāds vesels skaitlis?
 
 * questionType:FindAll
 * domain:
+* _hasSolutionConcept: PrimeNumbers, PositiveAndNegative, WholeIntegers, CaseAnalysis, DivisibilityRelation
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, AlgebraicManipulationForInteger, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: ExampleInsteadOfProof, PrimeOnePointConfusion
+* _mistakesFit: medium
 
 </small>
 
@@ -2755,9 +3310,6 @@ Līdz ar to esam pierādījuši, ka tikai pirmskaitli $13$
 var izteikt prasītajā formā.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2021.8.3
 
 Trijstūrī $ABC$ novilkta bisektrise $AE$. 
@@ -2770,6 +3322,12 @@ ja zināms, ka $\Varangle BAC=120^{\circ}$.
 
 * questionType:Prove
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: CongruentTriangles, PointOnSegmentConstruction, IsoscelesTriangleProperties, AngleChasing, AuxiliaryLines
+* _hasReasoningMistake: UnjustifiedAuxiliaryLineExists, WrongTriangleSimilarityOrCongruence, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -2800,12 +3358,6 @@ Tātad trijstūris $BCD$ ir vienādmalu.
 ![](LV.NOL.2021.8.3A.png){ width=200px }
 
 
-
-
-
-
-
-
 # <lo-sample/> LV.NOL.2021.9.1
 
 Neaizsalušas upes krastā $50~\mathrm{km}$ attālumā atrodas divas 
@@ -2820,6 +3372,12 @@ stāvošā ūdenī ir vienādi un upes straumes ātrums ir $5~\mathrm{km}/\mathr
 
 * questionType:FindAll
 * domain:
+* _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -2847,10 +3405,6 @@ $8\frac{1}{3}~\mathrm{km}/\mathrm{h}$.
 bet tādā gadījumā visas darbības ir jāpaskaidro.
 
 
-
-
-
-
 # <lo-sample/> LV.NOL.2021.9.2
 
 Vai var gadities, ka 1.att. ir doti funkciju $y=ax^{2}+bx+c$ un 
@@ -2862,6 +3416,12 @@ $y=bx^{2}+cx+a$ grafiki? Funkciju grafiki nav zīmēti mērogā.
 
 * questionType:ProveDisprove
 * domain:
+* _hasSolutionConcept: QuadraticFunction, QuadraticEquation, VietasFormulas, PositiveAndNegative, ProofByContradiction
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: UseFunctionGraphForRootsAndComparisons, ProofByContradictionInAlgebra, VietasFormulas
+* _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -2895,10 +3455,6 @@ ir $y=a x^{2}+b x+c$ (otrs gadījums līdzīgs). Saskaņā ar Vjeta teorēmu
 $x_{1}+x_{2}=-\frac{b}{a}<0$. Iegūta pretruna, jo divu pozitīvu skaitļu summa nevar būt negatīva.
 
 
-
-
-
-
 # <lo-sample/> LV.NOL.2021.9.3
 
 Uz kvadrāta $ABCD$ malas $AD$ izvēlēts punkts $E$ tā, ka $AB+AE=CE$. 
@@ -2908,6 +3464,12 @@ Aprēḳināt $S_{CED}$, ja $AB=1$.
 
 * questionType:FindAll
 * domain:
+* _hasSolutionConcept: PythagoreanTheorem, QuadrilateralFamilies, Triangle, VariableExpression
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: PythagoreanTheorem, ParallelogramProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -2931,9 +3493,6 @@ $S_{CED}=\frac{1}{2} ED \cdot CD=\frac{1}{2}(1-x) \cdot 1=\frac{1}{2} \cdot \fra
 ![](LV.NOL.2021.9.3A.png){ width=150px }
 
 
-
-
-
 # <lo-sample/> LV.NOL.2021.9.4
 
 Atrast mazāko naturālo skaitli $k$, kuram izpildās sekojoša īpašība: 
@@ -2943,6 +3502,12 @@ nevienam pirmskaitlim $p$ skaitlis $p+1$ nav naturāla skaitļa $k$-tā pakāpe.
 
 * questionType:FindOptimal
 * domain:
+* _hasSolutionConcept: PrimeNumbers, PositiveIntegers, OptimumProofStructure, Counterexample, ProofByContradiction
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: FactoringAlgebraicExpressions, ProofByContradiction, CompleteEnumeration, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: MissingBoundOrExample, PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -2965,13 +3530,6 @@ un nevar būt pirmskaitlis. Tātad jebkurai pirmskaitļa $p$ vērtībai skaitlis
 $p+1$ nav naturāla skaitļa ceturtā pakāpe.
 
 
-
-
-
-
-
-
-
 # <lo-sample/> LV.NOL.2021.9.5
 
 Doti $120$ dažādi naturāli skaitļi, tie sadalīti pa pāriem tā, ka katrā pārī 
@@ -2982,6 +3540,12 @@ rindā augošā secībā, tad 22. un 99. skaitļa summa arī būtu lielāka nek�
 
 * questionType:Prove
 * domain:
+* _hasSolutionConcept: FiniteSequenceArrangement, TotalOrder, ProofByContradiction, PigeonholePrinciple
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, PigeonholePrincipleBasic
+* _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -2994,11 +3558,6 @@ skaitliem $a_{1} ; a_{2} ; \ldots ; a_{22}$ sākumā varēja būt pārī tikai a
 no skaitļiem, kas ir lielāks nekā $a_{99}$. Bet tādu skaitļu ir tikai 
 $21\left(a_{100} ; a_{101} ; \ldots ; a_{120}\right)$, iegūta pretruna. 
 Tātad $a_{22}+a_{99}>1000$.
-
-
-
-
-
 
 
 # <lo-sample/> LV.NOL.2021.10.1
@@ -3042,7 +3601,6 @@ Esam ieguvuši, ka, atseviški strādājot, Maruta var uzrakstīt atrisinājumu 
 *Piezīme.* Uzdevumu var risināt, sastādot vienādojumu sistēmu.
 
 
-
 # <lo-sample/> LV.NOL.2021.10.2
 
 Aplūkosim funkcijas $y=ax^{2}+2x+2b$, kuru koeficienti $a$ un $b$ ir reāli skaitļi, 
@@ -3069,9 +3627,6 @@ Pamatosim, ka visu aplūkoto funkciju grafikiem ir divi kopīgi punkti:
   \frac{1}{9}(a+18 b)-\frac{2}{3}=\frac{2021}{9}-\frac{2}{3}=\frac{2015}{9}$.
 
 Tātad punkti $\left(\frac{1}{3} ; \frac{2027}{9}\right)$ un $\left(-\frac{1}{3} ; \frac{2015}{9}\right)$ ir kopīgi visu doto funkciju grafikiem.
-
-
-
 
 
 # <lo-sample/> LV.NOL.2021.10.3
@@ -3155,11 +3710,6 @@ Simetrijas dēl $S_{D G H I}=2 \cdot \frac{2}{15}=\frac{4}{15}$.
 ![](LV.NOL.2021.10.3B.png){ width=150px }
 
 
-
-
-
-
-
 # <lo-sample/> LV.NOL.2021.10.4
 
 Pierādīt, ka nevienai naturālai $n$ vērtībai izteiksmes $n^{2}-n+36$ vērtība nedalās ar
@@ -3239,9 +3789,6 @@ kas nav iespējams. Esam ieguvuši pretrunu, tātad dotā
 izteiksme nevienai $n$ vērtībai ar 169 nedalās.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2021.10.5
 
 Doti $500$ dažādi naturāli skaitļi, tie sadalīti pa pāriem tā, ka katrā pārī skaitļu 
@@ -3268,11 +3815,6 @@ Tā kā visi dotie skaitļi ir dažādi un naturāli, tad
 $$a_{146} \geq a_{145}+1 \geq a_{144}+2 \geq a_{143}+3 \geq \ldots \geq a_{125}+21$$
 
 Tātad $a_{146}+a_{376} \geq a_{125}+a_{376}+21>2000+21=2021$.
-
-
-
-
-
 
 
 # <lo-sample/> LV.NOL.2021.11.1
@@ -3365,9 +3907,6 @@ $d_{1}=-0.75$ un $d_{2}=1.5$. Apskatām abus gadījumus:
   $(2; 1.25; 0.5; -0.25; -1)$ summa ir $S_{5}=2+1.25+0.5-0.25-1=2.5$.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2021.11.2
 
 Doti tādi skaitļi $a,b$ un $c$, ka $a+c=\frac{b}{2021}$, 
@@ -3399,8 +3938,6 @@ ir sakne, kas atrodas intervālā $[-1;1]$.
 $$f(-1)f(1) = (a+c-b)(a+c+b) = (a+c)^{2}-b^{2} = \frac{b^{2}}{2021^{2}}-b^{2} < 0$$
 
 
-
-
 # <lo-sample/> LV.NOL.2021.11.3
 
 Divi vienādi vienādsānu trijstūri $ABC$ un $DEF$ ($AB=AC=DE=DF$ un $BC=EF$) 
@@ -3430,7 +3967,6 @@ Pēc dotā $\Varangle SAR=\Varangle PDS$
 Tā kā četrstūrim $PQRS$ var apvilkt riņka līiju, tad 
 $\Varangle ARS+\Varangle DPS=180^{\circ}$, 
 tātad $\Varangle ARS=\Varangle DP S=90^{\circ}$.
-
 
 
 # <lo-sample/> LV.NOL.2021.11.4
@@ -3482,9 +4018,6 @@ ka jebkuru divu tīri jauku skaitlu summa arī ir tīri
 jauks skaitlis.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2021.11.5
 
 Šaha turnīrā katrs dalībnieks ar katru izspēlēja tieši vienu partiju. Katrā partijā par uzvaru 
@@ -3522,7 +4055,6 @@ iegūtais punktu skaits nepārsniedz $11+10,5+10+9,5+\ldots+3,5=116$.
 
 Bet kopā turnīrā tika izspēlētas $\frac{16 \cdot 15}{2}=120$ partijas un katrā partijā izcīnīts 
 viens punkts, tātad kopējam punktu skaitam jābūt tieši $120$, iegūta pretruna.
-
 
 
 # <lo-sample/> LV.NOL.2021.12.1
@@ -3579,8 +4111,6 @@ kura saknes ir $y_{1}=-450$ (neder) un $y_{2}=500$ sekundes. Pēc tam aprēķina
 $36~\mathrm{km}/\mathrm{h}$ un $32.4~\mathrm{km}/\mathrm{h}$.
 
 
-
-
 # <lo-sample/> LV.NOL.2021.12.2
 
 Dots, ka $8ac + 2bc + c^{2}<0$. Pierādīt, ka $b^{2}-8ac>0$.
@@ -3616,11 +4146,6 @@ $$\begin{gathered}
 \end{gathered}$$
 
 Tā kā $(b+c)^{2} \geq 0, \operatorname{tad} b^{2}-8 a c>0$.
-
-
-
-
-
 
 
 # <lo-sample/> LV.NOL.2021.12.3
@@ -3695,9 +4220,6 @@ $45^{\circ}$ (jo lenki, kuru malas ir paralēlas, ir vienādi) un $135^{\circ}$.
 ![](LV.NOL.2021.12.3B.png){ width=300px }
 
 
-
-
-
 # <lo-sample/> LV.NOL.2021.12.4
 
 Doti naturāli skaitļj $a$ un $b$, kas lielāki nekā 1. Zināms, ka gan $a^{2}+b$, 
@@ -3741,9 +4263,6 @@ arī dalītos ar $p$. Tātad $b-1$ dalās ar $p$. Bet tādā gadījumā
 $$b^{2}+a=(b-1)(b+1)+(a+1)=p \cdot\left((b+1) \frac{b-1}{p}+\frac{a+1}{p}\right)$$
 
 nav pirmskaitlis - pretruna.
-
-
-
 
 
 # <lo-sample/> LV.NOL.2021.12.5
@@ -3842,5 +4361,3 @@ Kad šādi būsim tikuši līdz beigām (pēdējā posmā sakārtojot
 divas rindas), gan kolonnas, gan rindas būs sakārtotas augošā 
 secībā. Tas nozīmē, ka arī pēc kolonnu sakārtošanas skaitļi 
 tabulas rindās ir sakārtoti.
-
-

@@ -10,6 +10,11 @@ Braukšanas ātrums visā ceļa posmā bija viens un tas pats.
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: DirectProportion, ArithmeticMean
+* _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -24,7 +29,6 @@ $225:3=75~\mathrm{km}$. No Skrundas uz Rīgu Mudīte brauca $2$ stundas, tātad
 attālums no Skrundas līdz Rīgai ir $75 \cdot 2=150~\mathrm{km}$.
 
 
-
 # <lo-sample/> LV.NOL.2015.5.2
 
 Niknajam jūras laupītājam Smuidrim ir četras kaudzes ar zelta monētām. Viņš māk
@@ -36,6 +40,11 @@ palīgiem?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
+* _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -56,7 +65,6 @@ Tātad kopējais kaudžu skaits vienmēr būs pāra skaitlis. Tā kā $2015$ ir 
 skaitlis, tad tieši $2015$ kaudzes iegūt nevarēs.
 
 
-
 # <lo-sample/> LV.NOL.2015.5.3
 
 Rihards ir izcepis interesantas formas torti, kuras pamatā ir $17$ kvadrātveida
@@ -71,6 +79,11 @@ grozīt, bet nedrīkst apmest otrādi.
 
 * questionType:FindExample
 * domain:Geom
+* _hasSolutionConcept: DissectionIntoCongruent, Tiling, Rotation, LatticeGrid
+* _readingDifficulty: low
+* _hasReasoningMethod:
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -81,7 +94,6 @@ Tortes sadalījumu skat., piemēram, A2.att.
 ![](LV.NOL.2015.5.3A.png)
 
 *Piezīme.* Iespējami arī citi sadalījumi.
-
 
 
 # <lo-sample/> LV.NOL.2015.5.4
@@ -98,6 +110,11 @@ citu nav!
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisibilityRules, PrimeFactorization
+* _readingDifficulty: low
+* _hasReasoningMethod: PrimeFactorization, DivisibilityRules, ParityArgument, CompleteEnumeration
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -126,7 +143,6 @@ $2015=5 \cdot 13 \cdot 31$. Tātad vienīgais viencipara skaitlis, kas ir $2015$
 reizinātājs, ir $5$ un cipari ir aizvietoti šādi: $E=4,\ J=0,\ A=3,\ M=5$.
 
 
-
 # <lo-sample/> LV.NOL.2015.5.5
 
 Raimonds stāv upes krastā un viņam ir divi spaiņi. Viena spaiņa tilpums ir $10$
@@ -139,6 +155,11 @@ nav iespējams precīzi noteikt tajā esošā ūdens daudzumu.
 
 * questionType:Algorithm
 * domain:Comb
+* _hasSolutionConcept: DivisionWithRemainder, MultiplesSet, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -162,7 +183,6 @@ Ievērojam, ka $4 \cdot 7=28$ un $4 \cdot 8=32$. Tas nozīmē:
 *Piezīme.* Ir arī citi atrisinājumi.
 
 
-
 # <lo-sample/> LV.NOL.2015.6.1
 
 Veikalā ir divu veidu saldumu pakas. Vienā pakā ir $8$ vienādas lielas 
@@ -176,6 +196,11 @@ eiro un otrās - $21$ eiro! (Pakas cena veidojas, saskaitot tajā ielikto
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: EquationSystem, LinearEquation, RationalNumbers
+* _readingDifficulty: low
+* _hasReasoningMethod: NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -186,7 +211,6 @@ atšķiras tikai par $12-8=4$ lielajām šokolādēm. Tā kā paku cena atšķir
 $21-15=6$ eiro, tad vienas lielās šokolādes cena ir $6:4=1,50$ eiro. Tātad $8$ 
 lielās šokolādes maksā $8 \cdot 1,50=12$ eiro un $6$ mazās šokolādes maksā 
 $15-12=3$ eiro. Tad vienas mazās šokolādes cena ir $3:6=0,50$ eiro.
-
 
 
 # <lo-sample/> LV.NOL.2015.6.2
@@ -200,6 +224,11 @@ darbības, var panākt, ka kādā brīdī visās lādēs būs vienāds skaits mo
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
+* _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -218,7 +247,6 @@ skaitļu summa ir pāra skaitlis.
 Tātad nevar panākt, ka visās lādēs ir vienāds monētu skaits.
 
 
-
 # <lo-sample/> LV.NOL.2015.6.3
 
 Tabulā, kuras izmēri ir $3 \times 3$ rūtiņas, katrā rūtiņā ierakstūts tieši 
@@ -230,6 +258,11 @@ Vai iespējams, ka neviena no šīm summām nav pirmskaitlis?
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, PositiveIntegers, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: NumberConstruction
+* _hasReasoningMistake: PrimeOnePointConfusion
+* _mistakesFit: low
 
 </small>
 
@@ -241,7 +274,6 @@ piemēram, A3.att.).
 ![](LV.NOL.2015.6.3A.png)
 
 *Piezīme.* Iespējami arī citi skaitļu izvietojumi.
-
 
 
 # <lo-sample/> LV.NOL.2015.6.4
@@ -257,6 +289,11 @@ rūtiņu malām.
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, LatticeGrid, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: ColoringInvariant, CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -292,7 +329,6 @@ Tātad lielākais skaits 3.att. figūru, ko var izgriezt no dotās figūras, ir 
 ![](LV.NOL.2015.6.4B.png)
 
 
-
 # <lo-sample/> LV.NOL.2015.6.5
 
 Sivēntiņš $229$ ābolus salika $60$ grozos. Dažos grozos viņš ielika $x$ ābolus,
@@ -303,6 +339,11 @@ vērtības!
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PositiveIntegers, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, PrimeFactorization
+* _hasReasoningMistake: UnstatedNumberSetAssumption, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -320,7 +361,6 @@ trīs gadījumi:
 Līdz ar to vienīgās iespējamās naturālās $x$ vērtības ir $4,\ 10$ vai $52$.
 
 
-
 # <lo-sample/> LV.NOL.2015.7.1
 
 Atrisini vienādojumu $\frac{8a-5}{5}-\frac{2a-7}{2}=-3$.
@@ -329,6 +369,11 @@ Atrisini vienādojumu $\frac{8a-5}{5}-\frac{2a-7}{2}=-3$.
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: LinearEquation, RationalNumbers, VariableExpression
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -347,7 +392,6 @@ $$\begin{aligned}
 Atbilde: $a=-\frac{55}{6}$.
 
 
-
 # <lo-sample/> LV.NOL.2015.7.2
 
 Sensenos laikos saimnieciskajam Gotfrīdam bija $99$ aitas un $21$ kamielis, 
@@ -362,6 +406,11 @@ tieši $2015$ mājlopus?
 * topic:InvariantParity
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
+* _readingDifficulty: medium
+* _hasReasoningMethod: InvariantMethod, ParityArgument
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -389,7 +438,6 @@ Tātad kopējais mājlopu skaits vienmēr būs pāra skaitlis. Tā kā $2015$ ir
 skaitlis, tad tieši $2015$ mājlopus iegūt nevarēs.
 
 
-
 # <lo-sample/> LV.NOL.2015.7.3
 
 Tabulā, kuras izmēri ir $3 \times 3$ rūtiņas, katrā rūtiņā ierakstīts viens 
@@ -398,13 +446,18 @@ Katrām divām rūtiņām ar kopīgu malu aprēķina tajos ierakstīto skaitļu 
 Vai iespējams, ka visas iegūtās summas ir pirmskaitļi?
 
 <small>
-  
+
 * topic:GraphColoredVertices
 * topic:ModularParity
 * topic:PrimesDistribution
 * topic:ExhaustionMethod
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, EvenOddParity, ChessboardColoring, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: NumberConstruction, ParityArgument, CompleteEnumeration
+* _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -426,9 +479,6 @@ Pāru/nepāru skaitļi izvietojami kā melnās/baltās rūtiņas
 izvietojumu variantus (skaitli $8$ neizmanto).
 
 
-
-
-
 # <lo-sample/> LV.NOL.2015.7.4
 
 Taisnstūris $ABCD$ sagriezts kvadrātos, katra iegūtā kvadrāta perimetrs ir 
@@ -439,6 +489,11 @@ skaitlis?
 
 * questionType:ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: QuadrilateralFamilies, Tiling, PositiveIntegers, RationalNumbers, Counterexample
+* _readingDifficulty: low
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -452,7 +507,6 @@ $2 \cdot\left(\frac{1}{4}+\frac{2}{4}\right)=2 \cdot \frac{3}{4}=\frac{3}{2}$
 (nav naturāls skaitlis).
 
 ![](LV.NOL.2015.7.4A.png)
-
 
 
 # <lo-sample/> LV.NOL.2015.7.5
@@ -469,6 +523,11 @@ atsvariem var noteikt katra veida monētu skaitu?
 
 * questionType:Algorithm
 * domain:Comb
+* _hasSolutionConcept: FiniteSequenceArrangement, CaseAnalysis, DecisionTree
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -494,7 +553,6 @@ monētas ir uz otrā kausa. Līdz ar to ar divām svēršanām ir noskaidrots, k
 monētas ir novietotas uz galda.
 
 
-
 # <lo-sample/> LV.NOL.2015.8.1
 
 Pierādi, $ka$
@@ -506,6 +564,11 @@ Pierādi, $ka$
 * topic:CongruenceClasses
 * questionType:Prove,Prove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, EvenOddParity, DivisibilityRules
+* _readingDifficulty: low
+* _hasReasoningMethod: FactoringAlgebraicExpressions
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -535,8 +598,7 @@ skaitli; divu nepāra skaitļu summa ir pāra skaitlis), tātad tas dalās ar $2
 ## Atrisinājums
 
 Divu nepāru skaitļu summas/starpības ir pāru skaitļi. 
-Pie tam $49^n$ un $7^n$ dod atlikumu $1$, dalot ar $3$. 
-
+Pie tam $49^n$ un $7^n$ dod atlikumu $1$, dalot ar $3$.
 
 
 # <lo-sample/> LV.NOL.2015.8.2
@@ -552,6 +614,11 @@ iespējams, ka "Šrotiņā" kāda mēneša $21.$ datumā būs tieši $2015$ maš
 * topic:InvariantRemainder
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: DivisibilityRelation, Invariant, DivisibilityRules, DigitSum
+* _readingDifficulty: medium
+* _hasReasoningMethod: InvariantMethod, DivisibilityRules, ModularArithmetic
+* _hasReasoningMistake: CarelessModularComputation, WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -585,7 +652,6 @@ Mašīnu skaits vienmēr mainās par $-7+16=9$ vai par $-19+4 = -15$,
 tātad par $3k$. Bet $39+3k \neq 2015$.
 
 
-
 # <lo-sample/> LV.NOL.2015.8.3
 
 Kurš no skaitļiem $(a+b)(c+d)$, $(b+c)(d+a)$, $(a+c)(b+d)$ ir vislielākais un kurš 
@@ -595,6 +661,11 @@ vismazākais, ja zināms, ka $a>b>c>d>0$? Pamato atbildi!
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: LinearInequality, VariableExpression, PositiveAndNegative, TotalOrder
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, ProvingByEquivalenceChain
+* _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -631,7 +702,6 @@ Tātad esam ieguvuši, ka $(b+c)(d+a)>(a+c)(b+d)>(a+b)(c+d)$ no kā seko
 prasītais.
 
 
-
 # <lo-sample/> LV.NOL.2015.8.4
 
 Uz vienādmalu trijstūra $ABC$ malām $AB$ un $BC$ attiecīgi atlikti punkti $M$ 
@@ -642,6 +712,11 @@ $\sphericalangle MAN+\sphericalangle MCN=60^{\circ}$.
 
 * questionType:Prove
 * domain:Geom
+* _hasSolutionConcept: Triangle, Angle, TriangleCongruence, PointLineSegmentRay
+* _readingDifficulty: low
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
+* _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -661,7 +736,6 @@ $\sphericalangle MAN+\sphericalangle MCN=\sphericalangle ACM+\sphericalangle MCN
 $\triangle MBC=\triangle NCA$.
 
 
-
 # <lo-sample/> LV.NOL.2015.8.5
 
 Kvadrāts $ABCD$ sagriezts kvadrātos, katra iegūtā kvadrāta perimetrs ir 
@@ -671,6 +745,11 @@ naturāls skaitlis. Vai kvadrāta $ABCD$ perimetrs noteikti ir naturāls skaitli
 
 * questionType:ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: QuadrilateralFamilies, PositiveIntegers, CountingSumRule
+* _readingDifficulty: low
+* _hasReasoningMethod: ParallelogramProperties
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -691,7 +770,6 @@ perimetrs noteikti ir naturāls skaitlis.
 ![](LV.NOL.2015.8.5A.png)
 
 
-
 # <lo-sample/> LV.NOL.2015.9.1
 
 Atrisināt vienādojumu $\frac{5}{x^{2}-9}-\frac{1}{3-x}=\frac{1}{2}$.
@@ -700,6 +778,11 @@ Atrisināt vienādojumu $\frac{5}{x^{2}-9}-\frac{1}{3-x}=\frac{1}{2}$.
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: QuadraticEquation, VariableExpression, FunctionDomainRange, DiffOfSquaresFactoring
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
+* _hasReasoningMistake: UncheckedConsistencyOfFoundValues, UnjustifiedCancellationOrCombination, RootLossByDivisionByExpression
+* _mistakesFit: medium
 
 </small>
 
@@ -733,7 +816,6 @@ Abas $x$ vērtības pieder vienādojuma definīcijas kopai.
 Atbilde: $x=1+\sqrt{26}$ vai $x=1-\sqrt{26}$.
 
 
-
 # <lo-sample/> LV.NOL.2015.9.2
 
 Regulāra astoņstūra virsotnēs pēc kārtas uzrakstīti skaitļi 
@@ -750,6 +832,11 @@ ierakstīts skaitlis $2014$?
 
 * questionType:ProveDisprove
 * domain:Comb
+* _hasSolutionConcept: EvenOddParity, Invariant, Polygon
+* _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric
+* _hasReasoningMistake: ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -769,7 +856,6 @@ virsotnēs, vienmēr paliek nepāra. Bet skaitlis $2014$ ir pāra skaitlis, tāt
 skaitli $2014$ iegūt nevarēs.
 
 
-
 # <lo-sample/> LV.NOL.2015.9.3
 
 Vai jebkuru taisnstūri var sagriezt **(A)** $2014$, **(B)** $2015$ savstarpēji 
@@ -779,6 +865,11 @@ līdzīgos trijstūros?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Geom
+* _hasSolutionConcept: QuadrilateralFamilies, Triangle, TriangleSimilarity, ParallelPerpendicular, PositiveIntegers
+* _readingDifficulty: low
+* _hasReasoningMethod: SimilarTriangles, AuxiliaryLines
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: high
 
 </small>
 
@@ -816,7 +907,6 @@ ir $a$ un $b$).
 ![](LV.NOL.2015.9.3B.png)
 
 
-
 # <lo-sample/> LV.NOL.2015.9.4
 
 Uz tāfeles uzrakstīti naturāli skaitļi no $1$ līdz $13$. Dārta grib nodzēst 
@@ -832,6 +922,11 @@ izdarīt!
 
 * questionType:Prove,FindExample
 * domain:Alg
+* _hasSolutionConcept: ArithmeticMean, DivisibilityRelation, DivisionWithRemainder, MagicConfiguration, PositiveIntegers
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, ProofByContradictionInAlgebra, ParityOrModularArgumentForEquations, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -875,7 +970,6 @@ Skaitļu izvietojumu skat., piemēram, A4.zīm.
 ![](LV.NOL.2015.9.4A.png)
 
 
-
 # <lo-sample/> LV.NOL.2015.9.5
 
 Apskata visas funkcijas $y=ax^{2}+x+b$, kur koeficientus $a$ un $b$ saista 
@@ -887,6 +981,11 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti!
 
 * questionType:Prove
 * domain:Alg
+* _hasSolutionConcept: QuadraticFunction, FunctionConcept, CoordinatePlane, IrrationalAndReals
+* _readingDifficulty: low
+* _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -912,7 +1011,6 @@ kopīgi visu aplūkoto funkciju grafikiem.
    iegūt arī no dotajām parabolām paņemot divas patvaļīgas (piemēram, 
    $a=0,\ b=\frac{2015}{2}$ un $a=1,\ b=1007$) un atrodot to krustpunktus 
    (atrisinot kvadrātvienādojumu).
-
 
 
 # <lo-sample/> LV.NOL.2015.10.1
@@ -967,7 +1065,6 @@ Atbilde. Koeficientu vērtības ir $a=1$, $b=6$, $c=8$.
    $y=1 \cdot(x+3)^{2}-1=x^{2}+6x+8$.
 
 
-
 # <lo-sample/> LV.NOL.2015.10.2
 
 Ar naturālu skaitli atļauts veikt šādas darbības:
@@ -1009,10 +1106,6 @@ Tātad, ja dotais skaitlis dalās ar $3$, tad pēc atļauto darbību izpildes ar
 jauniegūtais skaitlis dalīsies ar $3$.
 
 Skaitlis $2015$ ar $3$ nedalās, tātad ar atļautajām darbībām to iegūt nevar.
-
-
-
-
 
 
 # <lo-sample/> LV.NOL.2015.10.3
@@ -1093,9 +1186,6 @@ progresijām, kurās būtu arī negatīvi locekļi.
 Tās neder, jo $177$ bija vairāku pēc kārtas sekojošu **naturālu** skaitļu summa.
 
 
-
-
-
 # <lo-sample/> LV.NOL.2015.10.4
 
 Vai eksistē tāds vesels skaitlis $x$, ka visi skaitļi
@@ -1162,12 +1252,7 @@ Noskaidrojam, vai $x$ un $x+46$ var *vienlaikus* būt naturālu skaitļu pakāpe
 * Ja $x$ ir pāru, tad **gan** $x$, **gan** $x+46$ dalās ar $4$ (tā ir pretruna, 
   jo $46$ nedalās ar $4$). 
 * Ja $x$ ir nepāru, tad **gan** $x+23$, **gan** $x+121$ dalās ar $4$ (tā ir pretruna, 
-  jo starpība $121-23 = 98$ nedalās ar $4$). 
-
-
-
-
-
+  jo starpība $121-23 = 98$ nedalās ar $4$).
 
 
 # <lo-sample/> LV.NOL.2015.10.5
@@ -1203,7 +1288,6 @@ trijstūris $AEB$ ir taisnleņķa.
 *Piezīme.* Risinājumā var izmantot arī to, ka 
 $\sphericalangle AOB+\sphericalangle AEB=180^{\circ}$, jo četrstūris $AEBO$ ir 
 ievilkts riņķa līnijā.
-
 
 
 # <lo-sample/> LV.NOL.2015.11.1
@@ -1250,7 +1334,6 @@ $x \in(-\infty;-3) \cup(1; 2) \cup(2; 3) \cup(7;+\infty)$.
 *Piezīme.* Nevienādību var risināt arī ar intervālu metodi.
 
 
-
 # <lo-sample/> LV.NOL.2015.11.2
 
 Vienā gājienā no 1.zīm. attēlotās figūras var izvēlēties jebkuru 2.zīm. redzamo
@@ -1288,7 +1371,6 @@ nepieciešamā summa $38285$, dalot ar $3$, dod atlikumu $2$ (skaitļa $38285$
 ciparu summa ir $26$ un, dalot ar $3$, tā dod tādu pašu atlikumu, kā skaitli 
 dalot ar $3$). Tā kā atlikumi ir dažādi, tad uzdevumā prasītais nav izpildāms, 
 t. i., nevar panākt, lai katrā šūnā būtu ierakstīts skaitlis $2015$.
-
 
 
 # <lo-sample/> LV.NOL.2015.11.3
@@ -1347,7 +1429,6 @@ Iespējami divi gadījumi:
 Tātad mazākā iespējamā $n$ vērtība ir $6+19+30=55$.
 
 
-
 # <lo-sample/> LV.NOL.2015.11.4
 
 Uz trijstūra $XAC$ malas $XC$ atlikts iekšējs punkts $B$ tā, ka $AB=AC$. Leņķu 
@@ -1386,7 +1467,6 @@ $\sphericalangle BAC$ ir centra leņķis, kas balstās uz hordas $BC$. Tā kā
 leņķa $BDC$ lielums ir tieši divas reizes mazāks nekā centra leņķim, tad tas ir
 ievilkts leņķis. Tātad punkts $D$ atrodas uz riņķa līnijas $\omega$. Līdz ar to
 $AD=AB$ kā riņķa līnijas $\omega$ rādiusi, kas arī bija jāpierāda.
-
 
 
 # <lo-sample/> LV.NOL.2015.11.5
@@ -1458,7 +1538,6 @@ Taisnstūrus var izvēlēties, piemēram, kā parādīts A9.zīm.
 ![](LV.NOL.2015.11.5C.png)
 
 
-
 # <lo-sample/> LV.NOL.2015.12.1
 
 Atrisināt vienādojumu 
@@ -1510,7 +1589,6 @@ vērtība $2$ nepieder definīcijas kopai) un iegūt vienādojumu:
 $\log _{\sqrt{6}}\left(x^{2}-5x\right)=2$.
 
 
-
 # <lo-sample/> LV.NOL.2015.12.2
 
 Ar naturālu skaitli atļauts izdarīt šādas darbības:
@@ -1549,7 +1627,6 @@ Visi tālāk iegūstamie skaitļi ir lielāki nekā $193$, tātad skaitli $193$
 nevarēs iegūt.
 
 
-
 # <lo-sample/> LV.NOL.2015.12.3
 
 Cik daudz ir piecciparu skaitļu, kas sastāv tieši no trīs dažādiem cipariem, no
@@ -1575,7 +1652,6 @@ cipari $a,\ b,\ c$ var veidot meklēto piecciparu skaitli. Ciparu $a$ no
 cipariem $1,\ 2,\ \ldots,\ 9$ var izvēlēties $9$ veidos, bet $b$ un 
 $c-\frac{8 \cdot 7}{2}=28$ veidos. Tātad pavisam ir $30 \cdot 9 \cdot 28=7560$ 
 piecciparu skaitļi, kas atbilst uzdevuma nosacījumiem.
-
 
 
 # <lo-sample/> LV.NOL.2015.12.4
@@ -1619,7 +1695,6 @@ S_{BFL}+S_{CMG}+S_{DNH}+S_{AKE}=S_{KLMN}
 \end{gathered}$$
 
 kas arī bija jāpierāda.
-
 
 
 # <lo-sample/> LV.NOL.2015.12.5
@@ -1675,4 +1750,3 @@ Tātad vienādojumam (*) nav atrisinājuma jeb neeksistē tādi naturāli skait�
 $a$, $b$ un $c$, ka skaitļa $a^{2}+b^{2}+c^{2}$ pēdējie četri cipari ir $2015$.
 
 *Piezīme.* Uzdevumu var risināt, izmantojot kongruenci pēc moduļa $8$.
-

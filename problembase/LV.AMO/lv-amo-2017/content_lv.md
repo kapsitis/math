@@ -11,6 +11,11 @@ $30~\mathrm{km}$?
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, DirectProportion, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysisBySignOrInterval, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
+* _mistakesFit: high
 
 </small>
 
@@ -49,7 +54,6 @@ Līdz ar to esam ieguvuši, ka abi velosipēdisti būs $30~\mathrm{km}$ attālum
 viens no otra plkst. 9:40 un 11:40.
 
 
-
 # <lo-sample/> LV.AMO.2017.5.2
 
 Katrā tukšajā aplītī (skat. 3.att.) ieraksti vienu naturālu skaitli tā, lai 
@@ -62,6 +66,11 @@ summa uz katras trijstūra malas būtu viena un tā pati!
 
 * questionType:FindExample
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, MagicConfiguration, DivisibilityRelation
+* _readingDifficulty: low
+* _hasReasoningMethod: SumOfArithmeticOrTriangularNumbers, DivisibilityRules, NumberConstruction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -79,7 +88,6 @@ $3 \cdot S=1+2+3+4+5+6+7+8+9+a+b+c$ jeb $3 \cdot S=45+a+b+c$. Tātad $a+b+c$
 jādalās ar $3$.
 
 
-
 # <lo-sample/> LV.AMO.2017.5.3
 
 **(A)** Vai var uz lapas atlikt sešus punktus un savienot tos ar nogriežņiem 
@@ -93,6 +101,11 @@ citiem punktiem?
 
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb,Geom
+* _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, ParityInvariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, HandshakingLemmaSumOfDegreesEven, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -107,7 +120,6 @@ pretruna.
 ![](LV.AMO.2017.5.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2017.5.4
 
 Pareizā reizināšanas piemērā $AH \cdot E=UHH$ vienādi cipari aizstāti ar 
@@ -119,6 +131,11 @@ variantus un pamato, ka citu nav!
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, DivisionWithRemainder
+* _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration, LastDigitAnalysis, BoundingArgument
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -135,7 +152,6 @@ $84 \cdot 6=504$ (neder). Tātad vienīgā iespēja, ka $A=4;\ H=8;\ E=6$ un
 $U=2$.
 
 
-
 # <lo-sample/> LV.AMO.2017.5.5
 
 Ja mēneša $13.$ datums ir piektdiena, tad saka, ka tā ir melnā piektdiena.
@@ -148,6 +164,11 @@ Ja mēneša $13.$ datums ir piektdiena, tad saka, ka tā ir melnā piektdiena.
 
 * questionType:FindOptimal,ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PeriodicSequence, ExhaustiveCheck, OptimumProofStructure, ExistenceVsUniversal
+* _readingDifficulty: medium
+* _hasReasoningMethod: CompleteEnumeration
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -195,7 +216,6 @@ tā, vai gads ir īsais vai garais) ir $3$.
 $x$, gada laikā ir vismaz viena melnā piektdiena.
 
 
-
 # <lo-sample/> LV.AMO.2017.6.1
 
 Vienmērīgi soļojot pie sava drauga, Agris nolēma noteikt attālumu no savas 
@@ -207,6 +227,11 @@ soļu ir starp draugu mājām?
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: DivisibilityRelation, LinearEquation, EvenOddParity
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -216,7 +241,6 @@ Pusi no attāluma starp draugu mājām apzīmēsim ar $x$. Tad soļu pāru skait
 $\frac{x}{2}$, bet soļu trijnieku skaits ir $\frac{x}{3}$. No uzdevuma 
 nosacījumiem izriet, ka $\frac{x}{2}-\frac{x}{3}=250$ jeb $\frac{x}{6}=250$ un 
 $x=1500$ soļu. Tātad starp draugu mājām ir $2 \cdot x=3000$ soļu.
-
 
 
 # <lo-sample/> LV.AMO.2017.6.2
@@ -231,6 +255,11 @@ summa visās rindās, visās kolonnās un abās diagonālēs būtu viena un tā 
 
 * questionType:FindExample
 * domain:Alg
+* _hasSolutionConcept: PositiveIntegers, MagicConfiguration, FiniteSet
+* _readingDifficulty: low
+* _hasReasoningMethod: CountTheSameQuantityInTwoWays
+* _hasReasoningMistake: UncheckedConsistencyOfFoundValues, ConcreteToGeneralLeap
+* _mistakesFit: low
 
 </small>
 
@@ -246,7 +275,6 @@ rindās ierakstīto skaitļu summām ir jābūt vienādām, tad skaitļu summai 
 rindā jābūt $136:4=34$. Tad tabulu aizpildīt sāk ar otro rindu.
 
 
-
 # <lo-sample/> LV.AMO.2017.6.3
 
 Kāds mazākais skaits stūrīšu (skat. 8.att.) jāizgriež no $6 \times 6$ rūtiņu 
@@ -260,6 +288,11 @@ līnijām jāiet pa rūtiņu līnijām un stūrīši var būt pagriezti.
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure, Invariant
+* _readingDifficulty: high
+* _hasReasoningMethod: ProofByContradiction, CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, SkippingCaseAnalysis
+* _mistakesFit: high
 
 </small>
 
@@ -282,7 +315,6 @@ stūrītim. Tātad ar diviem stūrīšiem nepietiek.
 ![](LV.AMO.2017.6.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2017.6.4
 
 Ap apaļu galdu apsēdās $13$ bērni. Tie nolēma, ka zēni vienmēr melos meitenēm, 
@@ -299,6 +331,11 @@ meiteņu." Cik zēnu sēž pie apaļā galda?
 
 * questionType:FindAll
 * domain:Comb
+* _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, ParityInvariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -327,7 +364,6 @@ vairāk nekā meiteņu.
 Tātad pie galda sēž septiņi zēni.
 
 
-
 # <lo-sample/> LV.AMO.2017.6.5
 
 Atrodi visus tādus naturālus četrciparu skaitļus, kuru cipari ir dažādi un kas 
@@ -337,6 +373,11 @@ dalās ar visiem skaitļiem no $1$ līdz $10$ bez atlikuma!
 
 * questionType:FindAll
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, LCM, DigitRepresentation, ExhaustiveCheck
+* _readingDifficulty: medium
+* _hasReasoningMethod: PrimeFactorization, CompleteEnumeration, BoundingArgument
+* _hasReasoningMistake: ConfusingDivisorAndMultiple, WrongDivisibilityRule, NonCoprimeFactorDivisibility
+* _mistakesFit: medium
 
 </small>
 
@@ -349,7 +390,6 @@ iespējamie skaitļi ir $2520 \cdot 2=5040-$ neder, jo ir divi vienādi cipari, 
 $2520 \cdot 3=7560-$ der. Ja $2520$ reizina ar skaitli, kas ir lielāks nekā 
 $3$, tad iegūst skaitli, kam ir vairāk nekā $4$ cipari $(2520 \cdot 4=10080)$, 
 tātad pārējie skaitļi neder. Vienīgais derīgais skaitlis ir $7560$.
-
 
 
 # <lo-sample/> LV.AMO.2017.7.1
@@ -365,6 +405,11 @@ ar nemainīgu ātrumu?
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:LinearFunctions
+* _hasSolutionConcept: RationalNumbers, LinearEquation, DirectProportion
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -386,7 +431,6 @@ Tātad velosipēdista ātrums ir $27~\mathrm{km/h}$ un automašīnas ātrums ir
 $27+45=72~\mathrm{km/h}$.
 
 
-
 # <lo-sample/> LV.AMO.2017.7.2
 
 Katrā tukšajā lodziņā (skat. 12.att.) ieraksti vienu naturālu skaitli tā, lai 
@@ -405,6 +449,11 @@ summa visās joslās būtu viena un tā pati!
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
 * topic:DoubleCounting
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, FiniteSet
+* _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -439,6 +488,11 @@ vienādmalu!
 * topic:TrianglesIsosceles
 * topic:TrianglesEquilateral
 * topic:AlternateAngles
+* _hasSolutionConcept: Triangle, TriangleCongruence, ParallelPerpendicular
+* _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, IsoscelesTriangleProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, UnstatedDirectionAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -453,7 +507,6 @@ $AH=GH$. Līdzīgi iegūstam, ka $DI=IG$. Tā kā $AH=HI=ID$, tad $GH=HI=IG$ un
 trijstūris $HGI$ ir vienādmalu.
 
 ![](LV.AMO.2017.7.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2017.7.4
@@ -478,6 +531,11 @@ un $2017$ melnas bumbiņas; **(B)** $2016$ baltas un $2018$ melnas bumbiņas?
 * subdomain:DOM_MakingMoves
 * method:MTH_FixedInvariant
 * topic:ModularParity
+* _hasSolutionConcept: ParityInvariant, Invariant, StateSpaceProcess
+* _readingDifficulty: medium
+* _hasReasoningMethod: FixedInvariantNumeric, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: ImplicitParityOrModularAssumption, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: high
 
 </small>
 
@@ -500,7 +558,6 @@ Līdz ar to **(A)** gadījumā pēdējā bumbiņa kastē $A$ būs balta, bet **(
 gadījumā - melna.
 
 
-
 # <lo-sample/> LV.AMO.2017.7.5
 
 Cik ir tādu naturālu divciparu skaitļu, kuriem ciparu reizinājums ir tieši 
@@ -513,6 +570,11 @@ divas reizes mazāks nekā pats skaitlis?
 * concepts:product
 * subdomain:DOM_DigitManipulation
 * topic:NotationPolynomial
+* _hasSolutionConcept: DigitRepresentation, DigitProduct, LinearEquation, EvenOddParity
+* _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, ParityArgument, CompleteEnumeration, AlgebraicManipulationForInteger
+* _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -544,7 +606,6 @@ neder.
 Tātad der tikai skaitlis $36$.
 
 
-
 # <lo-sample/> LV.AMO.2017.8.1
 
 Vai uz taisnes $y=72-5x$ ir punkts, kura **(A)** abscisa un ordināta ir 
@@ -556,6 +617,11 @@ vienādas; **(B)** ordināta ir divas reizes lielāka nekā abscisa?
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * topic:LinearSystems
+* _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane, OrderedPair
+* _readingDifficulty: low
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -569,7 +635,6 @@ un meklētā punkta koordinātas ir $(12; 12)$.
 lielāka nekā ordināta, tad $y=2x$ un iegūstam vienādojumu $2x=72-5x$ jeb 
 $7x=72$. Tātad $x=\frac{72}{7}=10 \frac{2}{7}$ un $y=20 \frac{4}{7}$, līdz ar 
 to meklētā punkta koordinātas ir $\left(10 \frac{2}{7}; 20 \frac{4}{7}\right)$.
-
 
 
 # <lo-sample/> LV.AMO.2017.8.2
@@ -586,6 +651,11 @@ skaitļu summa uz katras trijstūra malas būtu **(A)** $22$; **(B)** $23$?
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
 * topic:ExpressionRegrouping
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, ProofByContradiction
+* _readingDifficulty: medium
+* _hasReasoningMethod: ContradictionForImpossibility, DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -613,7 +683,6 @@ ieguvuši pretrunu, tāpēc $S$ vērtība nevar būt $22$.
 ![](LV.AMO.2017.8.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2017.8.3
 
 Taisnstūrveida papīra lapu pārlocīja tā, ka pārlocītais lapas stūris atrodas uz
@@ -629,6 +698,11 @@ malu garumi?
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:TriangleCongruence
+* _hasSolutionConcept: RectangleFamilies, Triangle, TriangleCongruence
+* _readingDifficulty: medium
+* _hasReasoningMethod: CongruentTriangles, ParallelogramProperties, AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption, WrongTriangleSimilarityOrCongruence
+* _mistakesFit: medium
 
 </small>
 
@@ -647,7 +721,6 @@ $10+7=17~\mathrm{cm}$. Līdz ar to sākotnējās papīra lapas malu garumi ir
 $10~\mathrm{cm}$ un $17~\mathrm{cm}$.
 
 ![](LV.AMO.2017.8.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2017.8.4
@@ -669,6 +742,11 @@ kauss ir smagāks nekā otrs.
 * subdomain:DOM_CombinatorialAlgorithms
 * method:MTH_ExhaustiveAlgorithms
 * topic:ProblemsWithHiddenInformation
+* _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, DecisionTree
+* _readingDifficulty: medium
+* _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -724,20 +802,24 @@ uzvaras/neizšķirti/zaudējumi.
 nepiedalās $1/1/1$, ir atsvars $C$.
 
 
-
 # <lo-sample/> LV.AMO.2017.8.5
 
 Vai var atrast tādu desmitciparu skaitli, kas ir vienāds ar visu savu ciparu 
 reizinājumu?
 
 <small>
-   
+
 * questionType:ProveDisprove
 * domain:NT
 * concepts:product
 * subdomain:DOM_DigitManipulation
 * topic:NumTheoryInequalitySideComparison
 * topic:NotationPolynomial
+* _hasSolutionConcept: DigitProduct, DigitRepresentation, LinearInequality
+* _readingDifficulty: low
+* _hasReasoningMethod: BoundingArgument, PositionalNotation
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -753,7 +835,6 @@ $$\overline{a_{1}a_{2} \ldots a_{10}} \geq \overline{a_{1}0 \ldots 0}=a_{1} \cdo
 Pēdējā nevienādībā tika izmantots, ka neviens skaitļa cipars nepārsniedz $9$.
 
 
-
 # <lo-sample/> LV.AMO.2017.9.1
 
 Vai uz parabolas $y=x^{2}+6x+6$ ir punkts, kura **(A)** abscisa un ordināta ir 
@@ -765,6 +846,11 @@ vienādas; **(B)** ordināta ir trīs reizes lielāka nekā abscisa?
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * topic:SystemsSubstituteVariables
+* _hasSolutionConcept: QuadraticFunction, QuadraticEquation, CoordinatePlane, PolynomialAndRoots
+* _readingDifficulty: low
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, FactorAndUseZeroProductRule
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -782,7 +868,6 @@ vienādojumam nav reālu sakņu un nevar atrast tādu $x$ vērtību, ka $y=3x$ u
 punkts atrodas uz parabolas.
 
 
-
 # <lo-sample/> LV.AMO.2017.9.2
 
 Pierādīt, ka $x^{6}+y^{6}+\frac{2}{x^{3}y^{3}}-4 \geq 0$, ja $x>0$, $y>0$.
@@ -793,6 +878,11 @@ Pierādīt, ka $x^{6}+y^{6}+\frac{2}{x^{3}y^{3}}-4 \geq 0$, ja $x>0$, $y>0$.
 * domain:Alg
 * subdomain:DOM_ProvingInequalities
 * topic:AmGmInequality
+* _hasSolutionConcept: VariableExpression, ArithmeticMean
+* _readingDifficulty: low
+* _hasReasoningMethod: UseTrivialInequalitiesAndAddThem, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: WrongDirectionOfInequalityChain, CircularReasoningOrAssumingTheConclusion
+* _mistakesFit: medium
 
 </small>
 
@@ -811,7 +901,6 @@ $$x^{6}+y^{6}+\frac{2}{x^{3}y^{3}}=x^{6}+y^{6}+\frac{1}{x^{3}y^{3}}+\frac{1}{x^{
 kas arī bija jāpierāda.
 
 
-
 # <lo-sample/> LV.AMO.2017.9.3
 
 Dots trijstūris $ABC$, kuram $AB>AC>BC$. Virsotnes $A$ blakusleņķa bisektrise 
@@ -827,6 +916,11 @@ Aprēķināt trijstūra $ABC$ leņķus!
 * topic:VerticalAngles
 * topic:TrianglesIsosceles
 * topic:TriangleInternalAngles
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, EquationSystem, Angle
+* _readingDifficulty: high
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -878,7 +972,6 @@ $\sphericalangle BAC=24^{\circ}: 2=12^{\circ};\ \sphericalangle ACB=180^{\circ}-
 un $\sphericalangle ABC=180^{\circ}-132^{\circ}-12^{\circ}=36^{\circ}$.
 
 
-
 # <lo-sample/> LV.AMO.2017.9.4
 
 **(A)** Pierādi, ka dotajā $4 \times 4$ rūtiņu laukumā (skat. 23.att.) nevar 
@@ -898,6 +991,11 @@ varētu izvietot saskaņā ar uzdevuma nosacījumiem?
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_ContradictionForExistence
 * topic:TotalOrderRelations
+* _hasSolutionConcept: PositiveIntegers, LatticeGrid, DirectedGraph, WalkPathCycle, ProofByContradiction
+* _readingDifficulty: high
+* _hasReasoningMethod: ContradictionForImpossibility, BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -927,7 +1025,6 @@ divas. Apvēršot divas bultiņas: otrajā rindā un trešajā kolonnā, skaitļ
 ierakstīt, piemēram, tā, kā parādīts 25.att.
 
 
-
 # <lo-sample/> LV.AMO.2017.9.5
 
 Atrisināt naturālos skaitļos vienādojumu $x^{3}+(x+1)^{3}=(x+3)^{3}+1$.
@@ -940,6 +1037,11 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}+(x+1)^{3}=(x+3)^{3}+1$.
 * subdomain:DOM_IntegerEquations
 * topic:EquationFactorization
 * topic:NumTheoryEqualityToConstant
+* _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PerfectCubes, ExhaustiveCheck
+* _readingDifficulty: low
+* _hasReasoningMethod: CompleteEnumeration, AlgebraicManipulationForInteger, DiophantineEquations
+* _hasReasoningMistake: UnstatedNumberSetAssumption, FactoringWithoutIntegerCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -987,7 +1089,6 @@ $11$ vienīgie dalītāji ir $1$ un $11$. Apskatām abus gadījumus.
 Esam ieguvuši, ka sākotnējā vienādojuma atrisinājums ir $x=9$.
 
 
-
 # <lo-sample/> LV.AMO.2017.10.1
 
 Noteikt tās parametra $a$ vērtības, ar kurām vienādojumam 
@@ -1024,7 +1125,6 @@ progresijas īpašību $d=a_{2}-a_{1}=a_{3}-a_{2}$.
 
 Tātad vienādojuma saknes ir aritmētiskās progresijas trīs pēc kārtas ņemti 
 locekļi, ja $a=\frac{2}{3}$ vai $a=\frac{1}{3}$.
-
 
 
 # <lo-sample/> LV.AMO.2017.10.2
@@ -1074,7 +1174,6 @@ Apzīmējam $x=\frac{a}{b}>0$, un pēc iekavu atvēršanas lietojam nevienādīb
 $x+\frac{1}{x} \geq 2$ :
 
 $$(3x+1)\left(\frac{3}{x}+1\right)=3 x+\frac{3}{x}+9+1=3\left(x+\frac{1}{x}\right)+10 \geq 3 \cdot 2+10=16$$
-
 
 
 # <lo-sample/> LV.AMO.2017.10.3
@@ -1193,7 +1292,6 @@ $AQ \cdot AC=AP \cdot AB+AR \cdot AD$.
 ![](LV.AMO.2017.10.3C.png)
 
 
-
 # <lo-sample/> LV.AMO.2017.10.4
 
 Dotajā $3 \times 3$ rūtiņu tabulā (skat. 29.att.) ierakstīti deviņi dažādi 
@@ -1231,7 +1329,6 @@ piemēram, 31.att.
 ![](LV.AMO.2017.10.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2017.10.5
 
 Pierādīt, ja no trim naturāliem skaitļiem $n$; $n+11$ un $n+22$ divi ir 
@@ -1241,6 +1338,7 @@ pirmskaitļi, tad trešais skaitlis dalās ar $6$.
 
 * topic:DivisibilityProperties
 * topic:ArithmeticSeriesAll
+* domain:NT
 * questionType:Prove
 * concepts:primes
 
@@ -1278,7 +1376,6 @@ Aplūkojam abus iespējamos gadījumus.
 Līdz ar to esam pierādījuši prasīto.
 
 
-
 # <lo-sample/> LV.AMO.2017.11.1
 
 Atrisināt nevienādību $2 \sin^{2} x - \sin x - 1 < 0$.
@@ -1299,7 +1396,6 @@ $a \in\left(-\frac{1}{2}; 1\right)$. Tātad
 $\sin x \in\left(-\frac{1}{2}; 1\right)$. Atbilstošās trigonometriskās 
 nevienādības atrisinājums (skat. 33.att.) ir 
 $x \in\left(-\frac{\pi}{6}+2 \pi n; \frac{\pi}{2}+2 \pi n\right) \cup\left(\frac{\pi}{2}+2 \pi n; \frac{7 \pi}{6}+2 \pi n\right), n \in \mathbb{Z}$.
-
 
 
 # <lo-sample/> LV.AMO.2017.11.2
@@ -1326,7 +1422,6 @@ Tātad
 $\left(a_{1}+a_{2}\right)\left(a_{3}+a_{4}\right) \geq 2 \cdot \sqrt{a_{1}a_{2}} \cdot 2 \cdot \sqrt{a_{3}a_{4}}=4 \cdot \sqrt{\left(a_{1}a_{3}\right)\left(a_{2}a_{4}\right)}=4 \cdot \sqrt{2017 \cdot 2017}=4 \cdot 2017=8068$
 Vienādība tiek sasniegta, piemēram, ja $a_{1}=a_{2}=2017$ un $a_{3}=a_{4}=1$. 
 Tātad dotās izteiksmes mazākā iespējamā vērtība ir $8068$.
-
 
 
 # <lo-sample/> LV.AMO.2017.11.3
@@ -1365,7 +1460,6 @@ $\sphericalangle CBQ=\sphericalangle CDQ=\beta$ kā ievilktie leņķi, kas balst
 attiecīgi uz lokiem $PA$ un $CQ$. Tāpēc 
 $\sphericalangle PBQ=\sphericalangle PBA+\sphericalangle ABC+\sphericalangle CBQ=\alpha+90^{\circ}+\beta=180^{\circ}$.
 Līdz ar to punkti $P,\ B$ un $Q$ atrodas uz vienas taisnes.
-
 
 
 # <lo-sample/> LV.AMO.2017.11.4
@@ -1409,7 +1503,6 @@ $100$, pēc iepriekš pierādītā, tas neizmainīja nevienas svēršanas rezult
 tāpēc tāpat varam secināt, ka vissmagākais atsvars ir $99$ - pretruna.
 
 
-
 # <lo-sample/> LV.AMO.2017.11.5
 
 Doti naturāli skaitļi $k$ un $n,\ k \leq n$.
@@ -1445,7 +1538,6 @@ kas dalās ar $18$, un skaitļi $4$ un $18$ nav savstarpēji pirmskaitļi, jo ab
 dalās ar $2$.
 
 
-
 # <lo-sample/> LV.AMO.2017.12.1
 
 Vai eksistē tāda reāla parametra $a$ vērtība, ka vienādojumam $\cos x=ax^{2}$ 
@@ -1465,7 +1557,6 @@ jo $\cos 0=1$. Ja vienādojumam $\cos x=ax^{2}$ ir sakne $x_{1}$, tad tam ir ar�
 sakne $\left(-x_{1}\right)$, jo abas funkcijas $y=\cos x$ un $y=x^{2}$ ir pāra 
 funkcijas. Tātad pie jebkuras $a$ vērtības šim vienādojumam ir pāra skaits 
 sakņu, bet $2017$ ir nepāra skaitlis.
-
 
 
 # <lo-sample/> LV.AMO.2017.12.2
@@ -1494,7 +1585,6 @@ $$\begin{gathered}
 \end{gathered}$$
 
 kas arī bija jāpierāda.
-
 
 
 # <lo-sample/> LV.AMO.2017.12.3
@@ -1552,7 +1642,6 @@ vidusperpendikula. Tātad $MN \perp OP$. Bet nogrieznis $OP$ atrodas uz trapeces
 $BFEC$ viduslīnijas, tāpēc tas ir paralēls $BC$. Tātad $MN \perp BC$ un esam 
 pierādījuši, ka $M$ un $N$ atrodas uz taisnes, kas satur no virsotnes $A$ 
 vilkto augstumu.
-
 
 
 # <lo-sample/> LV.AMO.2017.12.4
@@ -1673,7 +1762,6 @@ Tad, atgriežoties pie tenisistiem, tos var salikt pa pāriem, kas vēl nav
 spēlējuši savā starpā.
 
 
-
 # <lo-sample/> LV.AMO.2017.12.5
 
 **(A)** Doti naturāli skaitļi no $1$ līdz $11$. Izvēlieties deviņus no tiem un 
@@ -1717,4 +1805,3 @@ nevar būt, jo vienīgās iespējamās $y$ vērtības ir $2,\ 3,\ 4,\ 5,\ 8,\ 9,
 
 *Piezīme.* Lai atrisinātu (A) gadījumu, varēja izmantot (B) gadījumā iegūto, ka
 skaitlim $7$ ir jāatrodas tabulas centrā.
-

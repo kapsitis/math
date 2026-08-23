@@ -14,6 +14,11 @@ dzeltenas, bet pārējās- zilas. Aprēķini:
 * topic:AlgebraicEquations
 * questionType:FindAll,FindAll,FindAll
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, FiniteSet, Coloring, DirectProportion
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -29,7 +34,6 @@ $\frac{40}{200}=\frac{1}{5}$ bija zilā krāsā. No visām olām
 $\frac{120}{200}=\frac{60}{100}$ jeb $60 \%$ bija dzeltenā krāsā.
 
 
-
 # <lo-sample/> LV.AMO.2014.5.2
 
 Divu naturālu skaitļu pierakstā izmantoti tikai cipari $2, 3, 7$ un $8$. Vai var
@@ -40,6 +44,11 @@ gadīties, ka viens skaitlis ir tieši trīs reizes lielāks nekā otrs skaitlis
 * topic:IntegerCongruence
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit
+* _readingDifficulty: low
+* _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -50,7 +59,6 @@ Ja skaitļa pēdējais cipars ir $2, 3, 7$ vai $8$, tad trīs reizes lielāka
 skaitļa pēdējais cipars ir attiecīgi $6, 9, 1$ vai $4$, bet pēc uzdevuma
 nosacījumiem nevienu no šiem cipariem nevar izmantot skaitļu pierakstā. Tātad
 uzdevumā prasītais nav iespējams.
-
 
 
 # <lo-sample/> LV.AMO.2014.5.3
@@ -69,6 +77,11 @@ nekā otra mala.
 * questionType:FindAll
 * domain:Geom
 * concepts:rectangle,area,perimeter
+* _hasSolutionConcept: Rectangle, PositiveIntegers, LinearEquation, EquationSystem
+* _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, CaseAnalysis
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -93,7 +106,6 @@ taisnstūra $ABCD$ perimetrs ir $2 \cdot(9+4)=26(\mathrm{~cm})$.
 ![](LV.AMO.2014.5.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2014.5.4
 
 Kvadrāts sastāv no $8 \times 8$ vienādām kvadrātiskām rūtiņām. Tas sagriezts
@@ -110,6 +122,11 @@ būt pagrieztas jebkurā stāvoklī)?
 * questionType:FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
+* _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -120,7 +137,6 @@ Tā kā $13 \cdot 5 = 65 > 64$, tad vairāk par $12$ norādītajām figūrām iz
 nevar. Izgriezt $12$ figūras var, piemēram, tā, kā parādīts A2.zīm.
 
 ![](LV.AMO.2014.5.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2014.5.5
@@ -134,6 +150,11 @@ trīs, gan kā divu dažādu divciparu naturālu skaitļu reizinājumu?
 * questionType:FindOptimal,FindOptimal
 * domain:NT
 * concepts:product
+* _hasSolutionConcept: DivisibilityRelation, PositiveIntegers, ExhaustiveCheck, OptimumProofStructure
+* _readingDifficulty: low
+* _hasReasoningMethod: BoundingArgument, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, UnstatedNumberSetAssumption
+* _mistakesFit: medium
 
 </small>
 
@@ -153,7 +174,6 @@ $9702=11 \cdot 18 \cdot 49$. Tātad skaitlis $9702$ ir lielākais meklētais
 skaitlis.
 
 
-
 # <lo-sample/> LV.AMO.2014.6.1
 
 Klementīne ar trīs savām draudzenēm brīvdienās gāja makšķererēt. Tētis viņai
@@ -166,6 +186,11 @@ pašai palika $1$ metrs makšķerauklas. Cik gara bija makšķeraukla pašā sā
 
 * questionType:FindAll
 * domain:Alg
+* _hasSolutionConcept: RationalNumbers, LinearEquation
+* _readingDifficulty: low
+* _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -180,7 +205,6 @@ Klementīnei atļāva paņemt pusi no savas makšķerauklas, tad makšķerauklas
 pašā sākumā bija $2 \cdot 15=30$ $(m)$.
 
 
-
 # <lo-sample/> LV.AMO.2014.6.2
 
 Vai skaitļus no $1$ līdz $100$ var sadalīt divās grupās tā, ka skaitļu
@@ -190,6 +214,11 @@ reizinājumi abās grupās ir vienādi?
 
 * questionType:ProveDisprove
 * domain:NT
+* _hasSolutionConcept: PrimeNumbers, PrimeFactorization, SetPartition
+* _readingDifficulty: medium
+* _hasReasoningMethod: PrimePropertiesAndUniqueness, PrimeFactorization, ProofByContradiction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -201,7 +230,6 @@ pirmreizinātājiem jābūt pārstāvētiem vieniem un tiem pašiem pirmskaitļi
 vienādā skaitā. Taču visi pirmskaitļi, kas lielāki nekā $50$ un mazāki nekā
 $100$ pavisam tiek pārstāvēti tikai vienu reizi katrs, tātad skaitļus no $1$
 līdz $100$ nevar sadalīt pa divām grupām tā, lai katrā grupā būtu vienāds skaits.
-
 
 
 # <lo-sample/> LV.AMO.2014.6.3
@@ -217,6 +245,11 @@ Atbildi pamatot!
 
 * questionType:ProveDisprove
 * domain:Alg
+* _hasSolutionConcept: VariableExpression, LinearEquation, LinearInequality
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, WrongDirectionOfInequalityChain
+* _mistakesFit: medium
 
 </small>
 
@@ -232,7 +265,6 @@ dārgāki nekā $2$ patafoni. Tāpēc $19$ ksilofoni maksā dārgāk nekā $19$
 mikrofoni. No kā seko, ka ksilofons ir dārgāks nekā mikrofons.
 
 
-
 # <lo-sample/> LV.AMO.2014.6.4
 
 Kvadrāts, kura malas garums ir $4~\mathrm{m}$, sagriezts taisnstūros, kā
@@ -245,6 +277,11 @@ Aprēķināt iekšējā taisnstūra perimetru!
 
 * questionType:FindAll
 * domain:Geom
+* _hasSolutionConcept: PointLineSegmentRay, Polygon, QuadrilateralFamilies, Invariant
+* _readingDifficulty: medium
+* _hasReasoningMethod: AuxiliaryLines
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -260,7 +297,6 @@ taisnstūra malu garumiem. Tātad iekšējā taisnstūra perimetrs ir $12~ \math
 ![](LV.AMO.2014.6.4A.png)
 
 
-
 # <lo-sample/> LV.AMO.2014.6.5
 
 Rūtiņu kvadrātā $5 \times 5$ iekrāsot iespējami maz rūtiņu tā, lai atlikušajā
@@ -274,6 +310,11 @@ iespējamais!
 
 * questionType:FindOptimal
 * domain:Geom
+* _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: high
 
 </small>
 
@@ -285,7 +326,6 @@ nozīmē, ka kvadrātā $5 \times 5$ jāiekrāso vismaz četras rūtiņas. Tas, 
 četrām iekrāsotām rūtiņām pietiek, redzams A4.zīm.
 
 ![](LV.AMO.2014.6.5A.png)
-
 
 
 # <lo-sample/> LV.AMO.2014.7.1
@@ -301,6 +341,11 @@ garums, ja $ED=4~\mathrm{cm}$ un $DC=5~\mathrm{cm}$ ?
 * method:MTH_ExhaustiveAlgorithms
 * subdomain:DOM_Triangles
 * topic:TriangleSides
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis, ProofByContradiction
+* _hasReasoningMistake: SkippingCaseAnalysis, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
+* _mistakesFit: high
 
 </small>
 
@@ -330,7 +375,6 @@ būt novietots augstums $BD$ un mediāna $BE$ :
 Līdz ar to $AC$ garums ir $2~\mathrm{cm}$ vai $18~\mathrm{cm}$.
 
 
-
 # <lo-sample/> LV.AMO.2014.7.2
 
 Vai var atrast tādus veselus skaitļus $a$ un $b$, kuriem izpildās vienādība
@@ -344,6 +388,11 @@ $$a \cdot(3a+5b) \cdot 7b=7654321$$?
 * domain:NT
 * subdomain:DOM_Divisibility
 * method:MTH_ContradictionForExistence
+* _hasSolutionConcept: WholeIntegers, EvenOddParity, ProofByContradiction
+* _readingDifficulty: low
+* _hasReasoningMethod: ParityArgument, ProofByContradiction
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -368,8 +417,7 @@ izpildītos dotā vienādība.
 ## Atrisinājums
 
 Nepāra reizinājums $a \cdot(3a+5b) \cdot 7b$ nozīmē, ka $a,b$ ir nepāru. 
-Bet tad $3a+5b$ ir pāru, kas ir pretruna. 
-
+Bet tad $3a+5b$ ir pāru, kas ir pretruna.
 
 
 # <lo-sample/> LV.AMO.2014.7.3
@@ -387,6 +435,11 @@ Visām skrūvēm svars ir vienāds, visām naglām arī.
 * subdomain:DOM_Inequalities
 * topic:InequalitiesEquivalentTransformations
 * topic:InequalityProvingStronger
+* _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, RationalNumbers
+* _readingDifficulty: medium
+* _hasReasoningMethod: NumericalEstimation, ProofByContradictionInAlgebra, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: WrongDirectionOfInequalityChain, CaseAnalysisIncomplete, IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -420,7 +473,6 @@ apgalvojums $18s > 22n$ ($18$ skrūves ir smagākas nekā $22$ naglas) nav
 patiess.
 
 
-
 # <lo-sample/> LV.AMO.2014.7.4
 
 Tabulas $3 \times 3$ rūtiņās katrā rūtiņā jāieraksta pa vienam naturālam
@@ -438,6 +490,11 @@ Atrodiet visas iespējamās vērtības un pamatojiet, ka citu nav!
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
 * topic:FormingEquations
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, VariableExpression
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
+* _mistakesFit: medium
 
 </small>
 
@@ -459,8 +516,6 @@ Ja $a_{22}=x$, tad summas ir $3x$. Un $a_{13}=2x-13$,
 $a_{11}=x-11$, $a_{33}=x+11$, $a_{23}=2$.
 
 
-
-
 # <lo-sample/> LV.AMO.2014.7.5
 
 Kādu mazāko skaitu rūtiņu jāizgriež no kvadrāta $6 \times 6$, lai no atlikušās
@@ -477,6 +532,11 @@ līnijām.)
 * method:MTH_PigeonholePrincipleGeneralized
 * topic:CentralSymmetry
 * topic:SquareGridCutting
+* _hasSolutionConcept: LatticeGrid, Tiling, FiniteSet, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: CaseAnalysis
+* _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -489,7 +549,6 @@ jāizgriež vismaz $8$ rūtiņas. Tas, ka ar $8$ rūtiņām pietiek, redzams no
 A9. zīmējuma.
 
 ![](LV.AMO.2014.7.5A.png)
-
 
 
 # <lo-sample/> LV.AMO.2014.8.1
@@ -507,6 +566,11 @@ Kurš skaitlis lielāks -- sākotnējais vai iegūtais?
 * domain:NT
 * concepts:decimal-fractions
 * subdomain:DOM_DigitManipulation
+* _hasSolutionConcept: RationalNumbers, DigitRepresentation, PeriodicSequence, DivisionWithRemainder
+* _readingDifficulty: medium
+* _hasReasoningMethod: PeriodicSequence
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -539,10 +603,6 @@ aiz kura seko cipars $2$. Izsvītrojot šo ciparu $9$, tas aizstājas
 ar $2$, tāpēc skaitlis kļūst mazāks.
 
 
-
-
-
-
 # <lo-sample/> LV.AMO.2014.8.2
 
 Atrast visus naturālos skaitļus, kas nepārsniedz $1000000$ un kuri, nosvītrojot
@@ -556,6 +616,11 @@ to pirmo ciparu, samazinās $15$ reizes!
 * questionType:FindAll
 * domain:NT
 * subdomain:DOM_SpecialNumbers
+* _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DivisibilityRelation, PrimeNumbers
+* _readingDifficulty: medium
+* _hasReasoningMethod: PositionalNotation, PrimeFactorization, PrimePropertiesAndUniqueness
+* _hasReasoningMistake: WrongDivisibilityDirection, WrongDivisibilityRule
+* _mistakesFit: medium
 
 </small>
 
@@ -578,9 +643,7 @@ $75, 750, 7500, 75000, 750000$.
 ## Atrisinājums
 
 $a$ - 1.cipars; $a \cdot 10^k + b = 15b$; $a \cdot 10^k = 14b$. 
-Tad $a = 7$, $b=5\cdot 10^{k-1}$. 
-
-
+Tad $a = 7$, $b=5\cdot 10^{k-1}$.
 
 
 # <lo-sample/> LV.AMO.2014.8.3
@@ -597,6 +660,11 @@ ka, izvēloties jebkurus $5$ punktus, tie būs savienoti ar vismaz $3$ šķautn�
 * subdomain:DOM_Graphs
 * topic:Subgraphs
 * method:MTH_ExhaustiveAlgorithms
+* _hasSolutionConcept: GraphConcept, VertexDegree, CaseAnalysis
+* _readingDifficulty: medium
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingExistenceVsUniversalityQuantifier
+* _mistakesFit: medium
 
 </small>
 
@@ -620,7 +688,6 @@ Apskatām abus gadījumus:
 Līdz ar to esam pierādījuši prasīto.
 
 
-
 # <lo-sample/> LV.AMO.2014.8.4
 
 Rūtiņu lapā rūtiņu virsotnēs atzīmēti punkti $A, B, C, D, E$ un novilkti
@@ -637,6 +704,11 @@ $\sphericalangle ABC$ un $\sphericalangle CDE$ ir lielāks?
 * topics:SimilarShapes
 * topics:RotationBy90
 * method:MTH_AugmentationWithNewElements
+* _hasSolutionConcept: PointLineSegmentRay, Angle, Triangle, TriangleCongruence, LatticeGrid
+* _readingDifficulty: low
+* _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AuxiliaryLines, AngleChasing
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition
+* _mistakesFit: medium
 
 </small>
 
@@ -655,7 +727,6 @@ $\sphericalangle CDE=45^{\circ}$. Līdz ar to esam parādījuši, ka
 $\sphericalangle ABC=\sphericalangle CDE=45^{\circ}$.
 
 ![](LV.AMO.2014.8.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2014.8.5
@@ -677,6 +748,11 @@ ierakstīts skaitlis **(A)** $7$, **(B)** $17$?
 * questionType:ProveDisprove
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem, ProofByContradiction
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, ProofByContradictionInAlgebra
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, ConcreteToGeneralLeap
+* _mistakesFit: medium
 
 </small>
 
@@ -711,8 +787,6 @@ Apzīmējam $a_{22}=x$, $a_{31}=b$.
 Tad $a_{13}=2x-b$, $a_{11}=x+b-24$, $a_{33}=x-b+24$, $a_{23}=2b-24$. Pie $b=7$, $a_{23}<0$.
 
 
-
-
 # <lo-sample/> LV.AMO.2014.9.1
 
 Kvadrātā, kura malas garums ir $2$, ievilkts riņķis un šajā riņķī ievilkts
@@ -728,6 +802,11 @@ kvadrāts (skat. 10.zīm.). Aprēķināt iekrāsoto daļu laukumu summu!
 * topic:RotationByAnyAngle
 * topic:RegroupingAreas
 * topic:CircleArea
+* _hasSolutionConcept: Polygon, CircleAndDisk, PythagoreanTheorem
+* _readingDifficulty: low
+* _hasReasoningMethod: AreaInvarianceAndDecomposition, PythagoreanTheorem
+* _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition
+* _mistakesFit: medium
 
 </small>
 
@@ -749,7 +828,6 @@ $S_{1}+S_{2}=\frac{1}{4}(4-\pi)+\frac{1}{4}(\pi-2)=\frac{4-\pi+\pi-2}{4}=\frac{1
 ![](LV.AMO.2014.9.1A.png)
 
 
-
 # <lo-sample/> LV.AMO.2014.9.2
 
 Doti četri dažādi cipari, neviens no tiem nav $0$. Visu divciparu skaitļu, kurus
@@ -764,6 +842,11 @@ var izveidot no šiem cipariem, summa ir $1276$. Atrast dotos četrus ciparus!
 * topic:StandardCombinatorialNumbers
 * topic:NotationPolynomial
 * topic:FormingEquations
+* _hasSolutionConcept: DigitRepresentation, DigitSum, CountingProductRule, LinearEquation
+* _readingDifficulty: low
+* _hasReasoningMethod: PositionalNotation, CompleteEnumeration
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -780,7 +863,6 @@ tātad $a+b+c+d=1276:44=29$. Vienīgā iespēja, ka četru dažādu nenulles cip
 summa ir $29$, ir tad, ja šie cipari ir $5, 7, 8$ un $9$.
 
 
-
 # <lo-sample/> LV.AMO.2014.9.3
 
 Trijstūrī $ABC$ leņķis $\sphericalangle ABC=90^{\circ}$. Punkti $M$ un $N$ ir
@@ -792,7 +874,11 @@ Zināms, ka $AC \| PQ$. Aprēķināt $\sphericalangle BAC$ vērtību!
 
 * questionType:FindAll
 * domain:Geom
-
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, CircleAndDisk, ParallelPerpendicular
+* _readingDifficulty: medium
+* _hasReasoningMethod: AngleChasing, CyclicQuadrilateral, ParallelLinesAngleProperties, TriangleAngleSum, AngleAtCenterAndCircumference, IsoscelesTriangleProperties
+* _hasReasoningMistake: RelyingOnDiagramAppearance, WrongAngleDecomposition, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -819,7 +905,6 @@ $\sphericalangle BAC=\sphericalangle BAM=60^{\circ}$.
 ![](LV.AMO.2014.9.3A.png)
 
 
-
 # <lo-sample/> LV.AMO.2014.9.4
 
 Tabulas $3 \times 3$ rūtiņās katrā rūtiņā jāieraksta pa vienam naturālam
@@ -836,6 +921,11 @@ mazākais skaitlis, kas var būt ierakstīts tabulas centrālajā rūtiņā?
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
 * topic:FormingEquations
+* _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem, OptimumProofStructure
+* _readingDifficulty: medium
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
+* _hasReasoningMistake: UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete, IncorrectTranslationOfWordProblem
+* _mistakesFit: medium
 
 </small>
 
@@ -869,7 +959,6 @@ Līdz ar to mazākais skaitlis, kas var būt ierakstīts tabulas centrālajā r�
 ir $10$.
 
 
-
 # <lo-sample/> LV.AMO.2014.9.5
 
 Katram marsietim ir trīs rokas un dažas antenas. Visi marsieši sadevās rokās
@@ -884,6 +973,11 @@ marsiešiem var būt $2014$?
 * domain:Comb
 * subdomain:DOM_Graphs
 * topic:DoubleCounting
+* _hasSolutionConcept: GraphConcept, VertexDegree, DivisibilityRelation, Invariant
+* _readingDifficulty: high
+* _hasReasoningMethod: FixedInvariantNumeric, ContradictionForImpossibility
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -901,7 +995,6 @@ $6x$ margrietiņas, tad abiem kopā ir $7x$ margrietiņas). Tātad margrietiņu
 kopējam skaitam jādalās ar $7$, bet $3 \cdot 2014=3 \cdot 2 \cdot 19 \cdot 53$
 nedalās ar $7$. Līdz ar to esam parādījuši, ka kopējais antenu skaits nevar būt
 $2014$.
-
 
 
 # <lo-sample/> LV.AMO.2014.10.1
@@ -934,7 +1027,6 @@ Esam ieguvuši, ka $a_{n+1} < a_{n}$. Tātad virkne $a_{n}=\frac{3n+7}{n+2}$ ir
 dilstoša.
 
 
-
 # <lo-sample/> LV.AMO.2014.10.2
 
 Dotas divas paralēlas taisnes. Uz vienas no tām atzīmēti $14$ zaļi punkti, uz
@@ -964,7 +1056,6 @@ vērtības. Kā uzzīmēt $27$ nogriežņus skat., piem., 17.zīm.
 ![](LV.AMO.2014.10.2A.png)
 
 
-
 # <lo-sample/> LV.AMO.2014.10.3
 
 Aplūkosim funkcijas $y=x^{2}+ax+b$, kur $a+2b=2014$. Pierādīt, ka visu šādu
@@ -986,7 +1077,6 @@ $$y=\frac{1}{4}+\frac{a}{2}+b=\frac{1}{2}(a+2b)+\frac{1}{4}=\frac{1}{2} \cdot 20
 
 Tātad punkts $\left(\frac{1}{2}, 1007 \frac{1}{4}\right)$ ir kopīgs visu
 funkciju grafikiem.
-
 
 
 # <lo-sample/> LV.AMO.2014.10.4
@@ -1070,10 +1160,6 @@ Aplūkojam atlikumus, dalot ar 3.
   dalot ar $3$, var panākt, lai visas $12$ summas būtu pirmskaitļi.
 
 
-
-
-
-
 # <lo-sample/> LV.AMO.2014.10.5
 
 Uz taisnstūra $ABCD$ diagonāles $BD$ iespējams atrast iekšēju punktu $P$ tā, ka
@@ -1138,7 +1224,6 @@ kvadrātam, kas arī bija jāpierāda.
 *Piezīme.* Prasīto iespējams pierādīt arī tehniski ar proporciju palīdzību.
 
 
-
 # <lo-sample/> LV.AMO.2014.11.1
 
 Uz riņķa līnijas atlikti **(A)** $6$; **(B)** $2014$ punkti. Viens no tiem
@@ -1161,7 +1246,6 @@ no tiem sarkano virsotni, iegūsim daudzstūrus, kam viena virsotne ir sarkana,
 pie tam tie visi būs dažādi. Bez tam vēl ir trijstūri, kam viena virsotne ir
 sarkana un kurus nevar iegūt no daudzstūriem, kam visas virsotnes ir baltas.
 Tātad abos gadījumos daudzstūru ar sarkano virsotni ir vairāk.
-
 
 
 # <lo-sample/> LV.AMO.2014.11.2
@@ -1219,7 +1303,6 @@ Ievietojot skaitliskās vērtības, aprēķinām prasīto:
 $$a_{50}=1000 \cdot \frac{2}{50 \cdot 51}=\frac{40}{51}$$
 
 
-
 # <lo-sample/> LV.AMO.2014.11.3
 
 Ap šaurleņķu trijstūri $ABC$ apvilkta riņķa līnija. Loka $AB$ (kuram nepieder
@@ -1248,7 +1331,6 @@ un $AC$ veido vienādus leņķus ar nogriezni $CN$. Tā kā tie ir kāpšļu le�
 nogriežņi $OK$ un $AC$ ir paralēli, kas arī bija jāpierāda.
 
 ![](LV.AMO.2014.11.3A.png)
-
 
 
 # <lo-sample/> LV.AMO.2014.11.4
@@ -1281,7 +1363,6 @@ iegūtais secinājums ir spēkā visiem pirmskaitļiem $p$, tad esam pierādīju
 visu doto $99$ skaitļu reizinājums ir naturāla skaitļa kvadrāts.
 
 
-
 # <lo-sample/> LV.AMO.2014.11.5
 
 Pierādīt, ka izliektu $2014$-stūri nevar sadalīt $167$ izliektos $14$-stūros!
@@ -1300,7 +1381,6 @@ Izliekta $2014$-stūra iekšējo leņķu summa ir $2012 \cdot 180^{\circ}$. Tos 
 jānoklāj ar $167$ $14$-stūru leņķiem, kuru kopējais lielums ir
 $167 \cdot 12 \cdot 180^{\circ}=2004 \cdot 180^{\circ} < 2012 \cdot 180^{\circ}$.
 Tātad prasīto izdarīt nav iespējams.
-
 
 
 # <lo-sample/> LV.AMO.2014.12.1
@@ -1331,7 +1411,6 @@ $\left\{\begin{array}{l}3^{x} \geq-1 \\ 3^{x} \leq 3\end{array}\right.$.
 Sistēmas pirmā nevienādība ir patiesa visiem reāliem skaitļiem $x$, tāpēc
 sistēmas un līdz ar to arī dotās nevienādības atrisinājums ir
 $3^{x} \leq 3^{1}$ jeb $x \leq 1$.
-
 
 
 # <lo-sample/> LV.AMO.2014.12.2
@@ -1366,7 +1445,6 @@ $\sphericalangle AXQ=180^{\circ}-\sphericalangle ABC$. To summa ir vienāda ar
 $180^{\circ}$, kas arī bija jāpierāda.
 
 ![](LV.AMO.2014.12.2A.png)
-
 
 
 # <lo-sample/> LV.AMO.2014.12.3
@@ -1416,7 +1494,6 @@ vērtības:
 Esam ieguvuši, ka uzdevuma nosacījumus apmierina tikai viena $p$ vērtība $p=5$.
 
 
-
 # <lo-sample/> LV.AMO.2014.12.4
 
 Vai kvadrātu ar malas garumu $10$ var noklāt ar $25$ „krustiņiem”
@@ -1442,7 +1519,6 @@ $4 \sqrt{5}+\frac{3}{\sqrt{5}}=\frac{23}{\sqrt{5}} > 10$. Tātad kvadrātu ar
 malas garumu $10$ rūtiņas var pārklāt ar $25$ dotajām figūrām.
 
 ![](LV.AMO.2014.12.4A.png)
-
 
 
 # <lo-sample/> LV.AMO.2014.12.5
@@ -1482,4 +1558,3 @@ $$\begin{aligned}
 & 4 f\left(\frac{3A_{3}+A_{3}}{4}\right)=4 f\left(A_{3}\right) \leq f\left(x_{1}\right)+f\left(x_{2}\right)+f\left(x_{3}\right)+f\left(A_{3}\right) \Rightarrow \\
 & 3 f\left(A_{3}\right) \leq f\left(x_{1}\right)+f\left(x_{2}\right)+f\left(x_{3}\right) .
 \end{aligned}$$
-

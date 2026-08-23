@@ -9,6 +9,14 @@ $\overline{xzy}<\overline{yaz}<\overline{yax}<\overline{zxa}$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitRepresentation, TotalOrder, ProofByContradiction
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: ProofByContradiction
+* _newReasoningMethodLabel: LexicographicNumberComparison
+* _newReasoningMethodDescription: Comparing same-length numbers by leading differing digit
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -19,7 +27,6 @@ iepriekšējais. Lielāks ir tas skaitlis, kuram lielāks ir vecākās šķiras 
 Aplūkojot pirmo, otro un ceturto skaitli, iegūstam, ka $x < y < z$. Salīdzinot 
 otro un trešo skaitli, iegūstam $z < x$. Iegūta pretruna, tātad nevar būt, ka 
 šajā virknē katrs nākamais skaitlis ir lielāks nekā iepriekšējais.
-
 
 
 # <lo-sample/> LV.NOL.2020.5.2
@@ -41,6 +48,14 @@ labajā pusē piezīmējot klāt vienu 2.att. doto figūru.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Polygon, ArithmeticProgression, DivisibilityRelation, DivisionWithRemainder
+* _readingDifficulty: low
+* _domain: Geom,Alg
+* _hasReasoningMethod: ParityInvariant
+* _newReasoningMethodLabel: PatternGrowthArithmetic
+* _newReasoningMethodDescription: Track constant growth in a figure sequence
+* _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -79,7 +94,6 @@ Tātad $70.$ figūras perimetrs ir $P_{70}=4+70 \cdot 8=564~\mathrm{cm}$.
        ar $8$), tad nav tādas figūras, kuras perimetrs ir $1000~\mathrm{cm}$.
 
 
-
 # <lo-sample/> LV.NOL.2020.5.3
 
 Sagriez 5.att. doto figūru divpadsmit 6.att. figūrās!
@@ -90,6 +104,12 @@ Sagriez 5.att. doto figūru divpadsmit 6.att. figūrās!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, DissectionIntoCongruent, PlaneTransformation
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -98,7 +118,6 @@ Sagriez 5.att. doto figūru divpadsmit 6.att. figūrās!
 Skat., piemēram, 7.att.
 
 ![](LV.NOL.2020.5.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2020.5.4
@@ -112,6 +131,12 @@ $11$, **b)** $12$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, PositiveIntegers, ProofByContradiction, Counterexample
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -128,7 +153,6 @@ $11$, **b)** $12$?
        viens no tabulā ierakstītajiem skaitļiem var nodrošināt starpību, kas ir
        vismaz $12$, ir skaitlis $24$. Esam ieguvuši pretrunu, tātad derīgs 
        tabulas aizpildījums neeksistē.
-
 
 
 # <lo-sample/> LV.NOL.2020.5.5
@@ -148,6 +172,12 @@ Atrodi tādu trīsciparu skaitli, kam vienlaicīgi izpildās tālāk dotie nosac
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation, LCM
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction, PrimeFactorization
+* _hasReasoningMistake: NonCoprimeFactorDivisibility, ConfusingDivisorAndMultiple
+* _mistakesFit: medium
 
 </small>
 
@@ -157,7 +187,6 @@ Ja meklētajam skaitlim pieskaitīsim $1$, tad iegūtais skaitlis dalīsies ar
 $2; 3; 4; 5; 6; 7; 8$ (bez atlikuma). Ievērojam, ka der skaitlis 
 $3 \cdot 5 \cdot 7 \cdot 8=840$, tas dalās ar $2; 3; 4; 5; 6; 7$ un $8$. Tātad 
 meklētais skaitlis ir $840-1=839$.
-
 
 
 # <lo-sample/> LV.NOL.2020.6.1
@@ -172,6 +201,14 @@ Aprēķini iegūtās figūras perimetru!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: QuadrilateralFamilies, Polygon, PointLineSegmentRay
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: ParallelogramProperties
+* _newReasoningMethodLabel: PerimeterByBoundaryStraightening
+* _newReasoningMethodDescription: Replacing stepped boundary by equal straight segments
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
+* _mistakesFit: medium
 
 </small>
 
@@ -185,7 +222,6 @@ $1+2+3=6~\mathrm{m}$ un platums ir $3~\mathrm{m}$. Līdz ar to figūras perimetr
 ir $(6+3) \cdot 2=18~\mathrm{m}$.
 
 
-
 # <lo-sample/> LV.NOL.2020.6.2
 
 Atrodi skaitļa $1^{3}+3^{3}+5^{3}+\cdots+101^{3}$ pēdējo ciparu!
@@ -194,6 +230,12 @@ Atrodi skaitļa $1^{3}+3^{3}+5^{3}+\cdots+101^{3}$ pēdējo ciparu!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LastDigit, DigitRepresentation, PerfectCubes, DivisionWithRemainder
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: LastDigitAnalysis
+* _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases
+* _mistakesFit: medium
 
 </small>
 
@@ -220,7 +262,6 @@ katras grupas summas pēdējo ciparu:
 Tātad uzdevumā dotā skaitļa pēdējais cipars ir $1$.
 
 
-
 # <lo-sample/> LV.NOL.2020.6.3
 
 Izmantojot divas 11.att. un četrpadsmit 12.att. figūras, saliec taisnstūri ar 
@@ -233,6 +274,12 @@ pagriezt.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, Rotation, Rectangle
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AreaInvarianceAndDecomposition
+* _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, ProofByExampleForUniversalClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -241,7 +288,6 @@ pagriezt.
 Skat., piemēram, 13.att.
 
 ![](LV.NOL.2020.6.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2020.6.4
@@ -255,6 +301,12 @@ $14$, **b)** $15$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LatticeGrid, PositiveIntegers, ProofByContradiction, Counterexample
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -273,7 +325,6 @@ $14$, **b)** $15$?
        tabulas aizpildījums neeksistē.
 
 
-
 # <lo-sample/> LV.NOL.2020.6.5
 
 Sešciparu naturāliem skaitļiem katrs cipars aizstāts ar burtu tā, ka vienādi 
@@ -286,6 +337,12 @@ dalās ar $8$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DivisibilityRules, DigitRepresentation, EvenOddParity, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, DivisibilityRules, ParityArgument
+* _hasReasoningMistake: WrongDivisibilityRule, IncompleteResidueCases, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -324,7 +381,6 @@ vārdam $AGNESE$ atbilst skaitlis $923040,\ ASTERE - 946080,\ SNIEGS - 435024$ u
 $GRIEZE - 285010$.
 
 
-
 # <lo-sample/> LV.NOL.2020.7.1
 
 Dota taisne $y=2019x-2020$. Uzraksti vienādojumu taisnei, kas iet caur punktu 
@@ -334,6 +390,14 @@ $(14; -2006)$ un krusto doto taisni punktā, kura abscisa ir $0$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LinearFunction, CoordinatePlane, PointLineSegmentRay
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: 
+* _newReasoningMethodLabel: CoordinateLineEquation
+* _newReasoningMethodDescription: Finding a line equation from given points and intercept
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -347,7 +411,6 @@ taisne iet caur punktu $(14; -2006)$, tad iegūstam vienādojumu $-2006=14k-2020
 jeb $k=1$. Tātad meklētās taisnes vienādojums ir $y=x-2020$.
 
 
-
 # <lo-sample/> LV.NOL.2020.7.2
 
 Uz tāfeles rindā uzrakstīti nepāra skaitļi $1;\ 3;\ 5;\ \ldots ;\ 2021;\ 2023$. 
@@ -358,6 +421,12 @@ ka iegūtās izteiksmes vērtība ir **a)** $4$; **b)** $1$?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EvenOddParity, Invariant, FiniteSequenceArrangement
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: ParityArgument, NumberConstruction
+* _hasReasoningMistake: ExampleInsteadOfProof
+* _mistakesFit: low
 
 </small>
 
@@ -381,7 +450,6 @@ $$\underbrace{-1+3-5+7}_{=4} \underbrace{+9-11-13+15}_{=0}+\ldots \underbrace{+2
        saskaitot vai atņemot divus nepāra skaitļus, iegūst pāra skaitli.
 
 
-
 # <lo-sample/> LV.NOL.2020.7.3
 
 Vai 15.att. figūru var pārklāt ar **a)** piecpadsmit 16.att. figūrām, **b)** 
@@ -393,6 +461,12 @@ trīs 16.att. figūrām un divpadsmit 17.att. figūrām? Figūras drīkst pagrie
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Tiling, ChessboardColoring, EvenOddParity, Invariant
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: ColoringInvariant, ParityInvariant
+* _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
+* _mistakesFit: medium
 
 </small>
 
@@ -420,7 +494,6 @@ apskatot apakšējo kreiso rūtiņu, kuru var pārklāt vienā vienīgā veidā,
 pamatojot, ka arī tālākais pārklājums ir noteikts viennozīmīgi.
 
 
-
 # <lo-sample/> LV.NOL.2020.7.4
 
 Dota tabula ar izmēriem $2 \times n$ rūtiņas, kurā katrā rūtiņā ierakstīts 
@@ -433,6 +506,12 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 
 * questionType:
 * domain:
+* _hasSolutionConcept: OptimumProofStructure, LatticeGrid, FiniteSequenceArrangement, ProofByContradiction
+* _readingDifficulty: low
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ExtremalElementArgument
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -453,7 +532,6 @@ starpību, kas ir vismaz $n$, tas ir skaitlis $2n$. Iegūta pretruna, tātad
 derīgs tabulas aizpildījums šajā gadījumā neeksistē.
 
 
-
 # <lo-sample/> LV.NOL.2020.7.5
 
 Atrodi tādu naturālu skaitli $n$, ka skaitļa $11n$ ciparu summa ir vismaz $11$ 
@@ -463,6 +541,12 @@ reizes mazāka nekā skaitļa $n$ ciparu summa!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRules, DivisibilityRelation, EvenOddParity
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: NumberConstruction, DivisibilityRules
+* _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -474,7 +558,6 @@ Der, piemēram, skaitlis $n=909091$ (ciparu summa ir $28$), jo $11n=10000001$
 $Piezīme.$ Prasīto skaitli var atrast, izmantojot dalāmības pazīmi ar $11$ un 
 ievērojot, ka skaitlis $1\underbrace {00 \ldots 00}_{pāra\ skaits\ 0}1$ dalās 
 ar $11$.
-
 
 
 # <lo-sample/> LV.NOL.2020.8.1
@@ -492,6 +575,12 @@ stundām vairāk nekā atpakaļceļā!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
+* _readingDifficulty: medium
+* _domain: Alg
+* _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
+* _mistakesFit: medium
 
 </small>
 
@@ -519,7 +608,6 @@ x=2
 Līdz ar to esam ieguvuši, ka upes straumes ātrums ir $2~\mathrm{km/h}$.
 
 
-
 # <lo-sample/> LV.NOL.2020.8.2
 
 Dīvainam kalkulatoram ir tikai divas pogas: "P", kas uz ekrāna redzamo skaitli 
@@ -531,6 +619,12 @@ lielākais naturālais skaitlis, kuru nevar iegūt uz kalkulatora ekrāna?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: FrobeniusType, ExhaustiveCheck, OptimumProofStructure, PositiveIntegers
+* _readingDifficulty: low
+* _domain: NT
+* _hasReasoningMethod: CompleteEnumeration, NumberConstruction
+* _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
+* _mistakesFit: medium
 
 </small>
 
@@ -558,7 +652,6 @@ Katru no skaitļiem, kas lielāks nekā $28$, var iegūt no kāda no skaitļiem
 $24; 25; 26; 27; 28$, nospiežot pogu "P" vajadzīgo reižu skaitu.
 
 
-
 # <lo-sample/> LV.NOL.2020.8.3
 
 Trijstūrī $ABC$ novilktas bisektrises $AK$ un $BM$. Zināms, ka $AK=BM=AB$. 
@@ -568,6 +661,12 @@ Aprēķini trijstūra $ABC$ leņķus!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
+* _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -593,7 +692,6 @@ un $\sphericalangle ACB=180^{\circ}-2 \cdot 72^{\circ}=36^{\circ}$.
 ![](LV.NOL.2020.8.3A.png)
 
 
-
 # <lo-sample/> LV.NOL.2020.8.4
 
 Dota tabula ar izmēriem $3 \times 2n$ rūtiņas, kurā katrā rūtiņā ierakstīts 
@@ -606,6 +704,12 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 
 * questionType:
 * domain:
+* _hasSolutionConcept: OptimumProofStructure, ProofByContradiction, LatticeGrid, GraphConcept, PositiveIntegers
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ConstructiveExampleForExistence
+* _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
+* _mistakesFit: medium
 
 </small>
 
@@ -626,7 +730,6 @@ blakus rūtiņās ierakstīto skaitļu starpības periodiski atkārtojas.
 ![](LV.NOL.2020.8.4A.png)
 
 
-
 # <lo-sample/> LV.NOL.2020.8.5
 
 Dotas $8$ pēc ārējā izskata vienādas monētas. Ir zināms, ka vai nu visām tām 
@@ -638,6 +741,12 @@ no iespējām pastāv īstenībā?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CaseAnalysis, DecisionTree, ExhaustiveCheck
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
+* _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
+* _mistakesFit: medium
 
 </small>
 
@@ -661,7 +770,6 @@ vietā svaru kausā ieliekam abas nesvērtās monētas. lespējami divi gadījum
       2. Ja svaru kausi nav līdzsvarā, tad ir divu dažādu masu monētas.
 
 
-
 # <lo-sample/> LV.NOL.2020.9.1
 
 Vienādsānu trijstūra pamata malas garums ir $10~\mathrm{cm}$, bet perimetrs ir 
@@ -671,6 +779,12 @@ mazāks nekā $30~\mathrm{cm}$. Kāds var būt trijstūra sānu malas garums?
 
 * questionType:
 * domain:
+* _hasSolutionConcept: Triangle, TriangleInequality, LinearInequality
+* _readingDifficulty: low
+* _domain: Geom
+* _hasReasoningMethod: TriangleInequality
+* _hasReasoningMistake: ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -691,7 +805,6 @@ jeb trijstūra sānu malas garums ir lielāks nekā $5~\mathrm{cm}$ un mazāks n
 $10~\mathrm{cm}$.
 
 
-
 # <lo-sample/> LV.NOL.2020.9.2
 
 Pierādit, ka 
@@ -701,6 +814,12 @@ $\frac{1}{1 \cdot 3}+\frac{1}{3 \cdot 5}+\frac{1}{5 \cdot 7}+\ldots+\frac{1}{201
 
 * questionType:
 * domain:
+* _hasSolutionConcept: RationalNumbers, NumberSequence, VariableExpression
+* _readingDifficulty: low
+* _domain: Alg
+* _hasReasoningMethod: TelescopingSum, EquivalentTransformationsOfEquationsAndInequalities
+* _hasReasoningMistake: 
+* _mistakesFit: low
 
 </small>
 
@@ -724,7 +843,6 @@ $$\frac{1}{1 \cdot 3}+\frac{1}{3 \cdot 5}+\frac{1}{5 \cdot 7}+\ldots+\frac{1}{20
 kas arī bija jāpierāda.
 
 
-
 # <lo-sample/> LV.NOL.2020.9.3
 
 Divas riņķa līnijas $\omega_{1}$ un $\omega_{2}$ iekšēji pieskaras punktā $A$ 
@@ -738,6 +856,14 @@ $\omega_{2}$ diametru garumu attiecību $\frac{AB}{AC}$.
 
 * questionType:
 * domain:
+* _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, ParallelPerpendicular, PythagoreanTheorem, AxialSymmetry
+* _readingDifficulty: medium
+* _domain: Geom
+* _hasReasoningMethod: PythagoreanTheorem, SymmetryStrategy
+* _newReasoningMethodLabel: IntersectingChordsTheorem
+* _newReasoningMethodDescription: Using the power relation for intersecting chords
+* _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption, ConcludingFromZeroOrEdgeCase
+* _mistakesFit: medium
 
 </small>
 
@@ -783,7 +909,6 @@ divi gadījumi:
 $\frac{AB}{AC}=\frac{2R}{2r}=\frac{R}{r}=5$.
 
 
-
 # <lo-sample/> LV.NOL.2020.9.4
 
 Uz katras no $2N$ kartītēm uzrakstīts viens naturāls skaitlis no $1$ līdz $N$, 
@@ -796,6 +921,12 @@ atrastos tieši $k$ citas kartītes. Vai kartītes var salikt prasītajā veidā
 
 * questionType:
 * domain:
+* _hasSolutionConcept: EvenOddParity, Invariant, FiniteSequenceArrangement, ProofByContradiction
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
+* _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
+* _mistakesFit: high
 
 </small>
 
@@ -826,7 +957,6 @@ Bet pavisam ir $5$ vietas ar pāra numuriem un $5$ vietas ar nepāra numuriem,
 iegūta pretruna, tātad prasīto izdarīt nevar.
 
 
-
 # <lo-sample/> LV.NOL.2020.9.5
 
 Dota $N \times N$ rūtiņu tabula, kurā visas diagonāles ir sanumurētas pēc 
@@ -841,6 +971,12 @@ tabulā ierakstīto skaitļu summa ir kāda naturāla skaitļa kubs!
 
 * questionType:
 * domain:
+* _hasSolutionConcept: PerfectCubes, LatticeGrid, AxialSymmetry, ArithmeticProgression
+* _readingDifficulty: medium
+* _domain: Comb
+* _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
+* _hasReasoningMistake: ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
+* _mistakesFit: medium
 
 </small>
 
@@ -869,7 +1005,6 @@ $$\begin{aligned}
 Ns & +N(1+2+\cdots+(N-1))=N(1+2+\cdots+N)+N \cdot \frac{N \cdot(N-1)}{2}= \\
 & =N \cdot \frac{N \cdot(N+1)}{2}+N \cdot \frac{N \cdot(N-1)}{2}=\frac{N}{2}\left(N^{2}-N+N^{2}+N\right)=N^{3}
 \end{aligned}$$
-
 
 
 # <lo-sample/> LV.NOL.2020.10.1
@@ -916,7 +1051,6 @@ spēkā, ja $n=k$, izriet, ka vienādība ir spēkā arī $n=k+1$, secinām, ka
 vienādība ir spēkā visām naturālām $n$ vērtībām.
 
 
-
 # <lo-sample/> LV.NOL.2020.10.2
 
 Vai eksistē tāds dažādmalu trijstūris, kura malu garumi ir naturāli skaitļi, 
@@ -934,7 +1068,6 @@ kas veido ģeometrisko progresiju?
 Jā, eksistē, piemēram, trijstūris ar malu garumiem $4,\ 6$ un $9$ , jo šie 
 skaitļi apmierina trijstūra nevienādību: $4+6>9,\ 4+9>6$ un $6+9>4$ un tie veido
 ģeometrisko progresiju, kuras pirmais loceklis ir $4$ un kvocients $1,5$.
-
 
 
 # <lo-sample/> LV.NOL.2020.10.3
@@ -991,7 +1124,6 @@ divi gadījumi:
   $\frac{AB}{AC}=\frac{2R}{2r}=\frac{R}{r}=4$.
 
 
-
 # <lo-sample/> LV.NOL.2020.10.4
 
 Uz katras no $2N$ kartītēm uzrakstīts viens naturāls skaitlis no $1$ līdz $N$, 
@@ -1029,7 +1161,6 @@ $6$ vietas ar nepāra numuriem, iegūta pretruna, tātad prasīto izdarīt nevar
 **b)** Jā, kartītes var salikt, piemēram, skat. 29.att.
 
 ![](LV.NOL.2020.10.4B.png)
-
 
 
 # <lo-sample/> LV.NOL.2020.10.5
@@ -1092,7 +1223,6 @@ nepāra skaitļu ir bezgalīgi daudz, tad arī derīgu $N$ vērtību ir bezgalī
 daudz.
 
 
-
 # <lo-sample/> LV.NOL.2020.11.1
 
 Pierādīt, ka visām naturālām $n$ vērtībām $6^{2n}+19^{n}-2^{n+1}$ dalās ar 
@@ -1136,7 +1266,6 @@ Apskatām doto izteiksmi pēc moduļa $17$:
 $$6^{2n}+19^{n}-2^{n+1} \equiv 36^{n}+19^{n}-2 \cdot 2^{n} \equiv 2^{n}+2^{n}-2 \cdot 2^{n} \equiv 0(\bmod 17)$$
 
 
-
 # <lo-sample/> LV.NOL.2020.11.2
 
 Bezgalīgas augošas aritmētiskās progresijas locekļi ir naturāli skaitļi. 
@@ -1163,7 +1292,6 @@ $\underbrace{5555 \ldots 555}_{m\ piecinieki}} \underbrace{00 \ldots 00}_{n\ nul
 Tā kā šie ir vairāk nekā $d$ pēc kārtas sekojoši naturāli skaitļi, tad vismaz 
 viens no tiem piederēs dotajai aritmētiskajai progresijai un tajā ir vismaz 
 $10$ piecinieki pēc kārtas.
-
 
 
 # <lo-sample/> LV.NOL.2020.11.3
@@ -1224,7 +1352,6 @@ Līdz ar to $CD=2r$ un $AC=2 \cdot O_{1}A=2r$, un esam pierādījuši, ka $AC=CD
 ![](LV.NOL.2020.11.3B.png)
 
 
-
 # <lo-sample/> LV.NOL.2020.11.4
 
 Pa apli uzrakstīti $10$ naturāli skaitļi, kuru summa ir $100$. Zināms, ka 
@@ -1245,7 +1372,6 @@ piemēram, kā parādīts 33.att. Pierādīsim, ka lielākais skaitlis nevar bū
 lielāks kā $13$. Apzīmējam lielāko skaitli ar $a$ un pārējos $9$ skaitļus 
 sadalām trīs trijniekos. Skaitļu summa katrā trijniekā ir vismaz $29$, tāpēc 
 $a \leq 100-3 \cdot 29=13$.
-
 
 
 # <lo-sample/> LV.NOL.2020.11.5
@@ -1280,7 +1406,6 @@ Vienādojumam $n^{2}-3n+3=0$ nav veselu sakņu, jo $D=9-12<0$.
 *Piezīme.* Tā kā vienādojuma veselās saknes var būt tikai brīvā locekļa 
 dalītāji, tad var pārbaudīt visas iespējamās vērtības 
 $\pm 1; \pm 2; \pm 3; \pm 6; \pm 9; \pm 18$.
-
 
 
 # <lo-sample/> LV.NOL.2020.12.1
@@ -1324,7 +1449,6 @@ formula ir spēkā, ja $n=k$, $n=k+1$ un $n=k+2$, izriet, ka formula ir spēkā 
 $n=k+3$, secinām, ka formula ir spēkā visām naturālām $n$ vērtībām.
 
 
-
 # <lo-sample/> LV.NOL.2020.12.2
 
 **a)** Parādi vienu veidu, kā 34.att. figūras katrā rūtiņā ierakstīt veselu 
@@ -1358,7 +1482,6 @@ skaitļu skaits ir $13-4=9$, jo pavisam ir $13$ skaitļi un vismaz $4$ ir vienā
 ar kādu citu.
 
 ![](LV.NOL.2020.12.2A.png)
-
 
 
 # <lo-sample/> LV.NOL.2020.12.3
@@ -1406,7 +1529,6 @@ Tātad $\triangle ABF=\triangle EGA$ pēc pazīmes $\ell m \ell$ un $AG=BF$ kā
 atbilstošās malas.
 
 ![](LV.NOL.2020.12.3A.png)
-
 
 
 # <lo-sample/> LV.NOL.2020.12.4
@@ -1475,7 +1597,6 @@ levadīsim $1$ un nospiedīsim <uz augšu>:
                  brauks uz augšu un mēs nokļūsim tieši vienu stāvu uz augšu no sākotnējā.
 
 
-
 # <lo-sample/> LV.NOL.2020.12.5
 
 Zināms, ka naturāli skaitļi $x$ un $y$ ir tādi, ka $x^{2}+y^{2}+1$ dalās ar 
@@ -1529,4 +1650,3 @@ atlikumu pāri, kas summā dod $12$, tie ir $(0; 12)$ vai $(3; 9)$.
   $y^{4} \equiv 9^{2} \equiv 81 \equiv 3(\bmod 13)$, bet tādā gadījumā 
   $x^{4}+y^{4}+1 \equiv 3+9+1 \equiv 0(\bmod 13)$, līdz ar to tieši viens no 
   skaitļiem $x^{4}, y^{4}, x^{4}+y^{4}+1$ dalās ar $13$.
-
