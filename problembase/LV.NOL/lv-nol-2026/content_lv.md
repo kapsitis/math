@@ -572,7 +572,7 @@ Ja $N = 49$, Elza var uzvarēt. Elza savieno pilsētas $(1,2), (3,4), ..., (97,9
 
 # <lo-sample/> LV.NOL.2026.9.4
 
-Atrast visus tādus naturālos skaitļus $n$, ka a) $n! - 8$; b) $n! - 1$ ir naturāla skaitļa kvadrāts!
+Atrast visus tādus naturālos skaitļus $n$, ka **(A)** $n! - 8$; **(B)** $n! - 1$ ir naturāla skaitļa kvadrāts!
 
 *Piezīme:* Ar $n!$ apzīmē visu to naturālo skaitļu reizinājumu, kuri nepārsniedz $n$. Piemēram, $5! = 1 \cdot 2 \cdot 3 \cdot 4 \cdot 5 = 120$.
 
@@ -585,25 +585,47 @@ Atrast visus tādus naturālos skaitļus $n$, ka a) $n! - 8$; b) $n! - 1$ ir nat
 
 ## Atrisinājums
 
-**1.atrisinājums a)** Pieņemsim, ka $n \geq 6$. Tādā gadījumā $n! - 8 = x^2$. Vienādojuma kreisā puse dalās ar 8, jo $n!$ dalās ar 8 un saskaitāmais 8 dalās ar 8. Vienādojuma labā puse ir naturāla skaitļa kvadrāts, tātad satur visus dažādos skaitļa $x$ pirmreizinātājus pāra pakāpē. Tas nozīmē, ka vienādojuma abām pusēm jādalās ar 16, jo tas ir mazākais skaitlis, kas dalās ar 8 un ir skaitlis 2 pāra pakāpē. Tā kā $n!$ dalās ar 16, ja $n \geq 6$ (jo sareizinot naturālos skaitļus no 1 līdz vismaz 6, pirmreizinātājs 2 ieiet reizinājumā 4 reizes – no skaitļiem 2, 4 un 6), tad iegūta pretruna, jo 8 nedalās ar 16, tātad vienādojuma kreisā puse nedalās ar 16.
+**1.atrisinājums:** **(A)** Pieņemsim, ka $n \geq 6$. Tādā gadījumā $n! - 8 = x^2$. 
+Vienādojuma kreisā puse dalās ar 8, jo $n!$ dalās ar 8 un saskaitāmais 8 dalās ar 8. 
+Vienādojuma labā puse ir naturāla skaitļa kvadrāts, tātad satur visus dažādos skaitļa 
+$x$ pirmreizinātājus pāra pakāpē. Tas nozīmē, ka vienādojuma abām pusēm jādalās ar 16, 
+jo tas ir mazākais skaitlis, kas dalās ar 8 un ir skaitlis 2 pāra pakāpē. 
+Tā kā $n!$ dalās ar 16, ja $n \geq 6$ (jo sareizinot naturālos skaitļus no 1 līdz 
+vismaz 6, pirmreizinātājs 2 ieiet reizinājumā 4 reizes – no skaitļiem 2, 4 un 6), 
+tad iegūta pretruna, jo 8 nedalās ar 16, tātad vienādojuma kreisā puse nedalās ar 16.
 
-Atliek pārbaudīt vērtības $1 \leq n \leq 5$. Vērtības $n \leq 3$ neder, jo tad $n! < 8$ un vienādojuma kreisā puse ir negatīva, bet naturāla skaitļa kvadrāts nevar būt negatīvs. Ja $n = 4$, tad $1 \cdot 2 \cdot 3 \cdot 4 - 8 = 16$ ir naturāla skaitļa kvadrāts, bet $n = 5$ neder, jo $1 \cdot 2 \cdot 3 \cdot 4 \cdot 5 - 8 = 112$ nav naturāla skaitļa kvadrāts. Tātad der tikai $n = 4$.
+Atliek pārbaudīt vērtības $1 \leq n \leq 5$. Vērtības $n \leq 3$ neder, jo tad 
+$n! < 8$ un vienādojuma kreisā puse ir negatīva, bet naturāla skaitļa kvadrāts 
+nevar būt negatīvs. Ja $n = 4$, tad $1 \cdot 2 \cdot 3 \cdot 4 - 8 = 16$ ir 
+naturāla skaitļa kvadrāts, bet $n = 5$ neder, jo 
+$1 \cdot 2 \cdot 3 \cdot 4 \cdot 5 - 8 = 112$ nav naturāla skaitļa kvadrāts. 
+Tātad der tikai $n = 4$.
 
-**2.atrisinājums a)** Sākot ar $n \geq 5$, visi $n!$ beidzas ar ciparu 0. Tādā gadījumā, $n! - 8$ visiem $n \geq 5$ beigsies ar ciparu 2. Aplūkosim, ar kādiem cipariem var beigties naturāla skaitļa kvadrāts.
+**2.atrisinājums:** **(A)** Sākot ar $n \geq 5$, visi $n!$ beidzas ar ciparu 0. 
+Tādā gadījumā, $n! - 8$ visiem $n \geq 5$ beigsies ar ciparu 2. Aplūkosim, 
+ar kādiem cipariem var beigties naturāla skaitļa kvadrāts.
 
 | $x$ pēdējais cipars | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | $x^2$ pēdējais cipars | 0 | 1 | 4 | 9 | 6 | 5 | 6 | 9 | 4 | 1 |
 
-Redzams, ka naturāla skaitļa kvadrāts nekad nevar beigties ar 2, tādēļ prasītais neizpildās neviena $n \geq 5$. Tā kā pie $n \leq 3$ vienādojuma kreisā puse ir negatīva, tad atliek vēl pārbaudīt tikai variantu $n = 4$, kurš šajā gadījumā der un ir vienīgā atbilde.
+Redzams, ka naturāla skaitļa kvadrāts nekad nevar beigties ar 2, tādēļ prasītais 
+neizpildās neviena $n \geq 5$. Tā kā pie $n \leq 3$ vienādojuma kreisā puse ir 
+negatīva, tad atliek vēl pārbaudīt tikai variantu $n = 4$, kurš šajā 
+gadījumā der un ir vienīgā atbilde.
 
-**b)** Pieņemsim, ka $n \geq 4$. Tādā gadījumā vienādojuma kreisā puse $n! - 1$ vienmēr dod atlikumu 3, dalot ar 4, jo $n!$, ja $n \geq 4$, dalās ar 4 (jo skaitlis 4 ir kā reizinātājs). Aplūkosim, kādus atlikumus, dalot ar 4, var dot $x^2$.
+**(B)** Pieņemsim, ka $n \geq 4$. Tādā gadījumā vienādojuma kreisā puse 
+$n! - 1$ vienmēr dod atlikumu 3, dalot ar 4, jo $n!$, ja $n \geq 4$, dalās ar 4 
+(jo skaitlis 4 ir kā reizinātājs). Aplūkosim, kādus atlikumus, dalot ar 4, var dot $x^2$.
 
 | Atlikums, $x$ dalot ar 4 | 0 | 1 | 2 | 3 |
 |---|---:|---:|---:|---:|
 | Atlikums, $x^2$ dalot ar 4 | 0 | 1 | 0 | 1 |
 
-Naturāla skaitļa kvadrāts nevar dot atlikumu 3, dalot ar 4, nevienā gadījumā. Tātad iegūta pretruna un atliek pārbaudīt vērtības $1 \leq n \leq 3$. Ja $n = 1$, tad $n! - 1 = 0$, bet 0 nav naturāla skaitļa kvadrāts. Ja $n = 2$, tad $n! - 1 = 1$, kas ir naturāla skaitļa kvadrāts un, ja $n = 3$, tad $n! - 1 = 5$, kas nav naturāla skaitļa kvadrāts.
+Naturāla skaitļa kvadrāts nevar dot atlikumu 3, dalot ar 4, nevienā gadījumā. 
+Tātad iegūta pretruna un atliek pārbaudīt vērtības $1 \leq n \leq 3$. Ja $n = 1$, 
+tad $n! - 1 = 0$, bet 0 nav naturāla skaitļa kvadrāts. Ja $n = 2$, tad $n! - 1 = 1$, 
+kas ir naturāla skaitļa kvadrāts un, ja $n = 3$, tad $n! - 1 = 5$, kas nav naturāla skaitļa kvadrāts.
 
 
 # <lo-sample/> LV.NOL.2026.9.5

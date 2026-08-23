@@ -410,11 +410,7 @@ Pieaugums par $5\%$ vai $10\%$ nozīmē, ka lidojumu skaits palielinājās attie
 $\frac{105}{100}=\frac{21}{20}$ vai $\frac{110}{100}=\frac{11}{10}$ reizes. 
 Tātad pa visiem šiem $5$ gadiem to skaits ir palielinājies
 
-$$
-\frac{21}{20}\cdot \frac{21}{20}\cdot \frac{11}{10}\cdot \frac{11}{10}\cdot \frac{21}{20}
-=
-\frac{21^3\cdot 11^2}{800000}
-$$
+$$\frac{21}{20}\cdot \frac{21}{20}\cdot \frac{11}{10}\cdot \frac{11}{10}\cdot \frac{21}{20}=\frac{21^3\cdot 11^2}{800000}$$
 
 reizes. Tas nozīmē, ka $3545$. gadā lidojumu skaits dalījās ar $800000$ un, tā kā tas 
 nebija lielāks par $1000000$, tad tas bija tieši $800000$. Tātad $3550$. gadā no 

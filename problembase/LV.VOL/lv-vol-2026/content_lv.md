@@ -2,9 +2,7 @@
 
 Izteiksmē
 
-$$
-\frac{*}{*+*}+\frac{*}{*+*}
-$$
+$$\frac{\ast}{\ast + \ast} + \frac{\ast}{\ast + \ast}$$
 
 ieraksti zvaigznīšu vietā skaitļus **(A)** $0, 1, 2, 3, 4, 2026$; **(B)** $10, 11, 20, 74, 100, 2026$ (katras zvaigznītes vietā citu skaitli) tā, lai izteiksmes vērtība būtu vesels skaitlis!
 
@@ -93,9 +91,7 @@ $$
 
 Vai, izmantojot viencipara skaitļus $1, 2, 3, 4, 5, 6, 7, 8, 9$, var uzrakstīt trīs nesaīsināmas daļas $\frac{a}{b}$, $\frac{c}{d}$ un $\frac{e}{f}$ tā, ka
 
-$$
-\frac{a}{b} \cdot \frac{c}{d} \cdot \frac{e}{f}=1?
-$$
+$$\frac{a}{b} \cdot \frac{c}{d} \cdot \frac{e}{f}=1?$$
 
 Katru skaitli drīkst izmantot tieši vienu reizi vai arī neizmantot vispār.
 
@@ -105,17 +101,7 @@ Piezīme. Daļa $\frac{a}{b}$ ir nesaīsināma, ja skaitļu $a$ un $b$ lielākai
 
 Jā, var, piemēram, izvēloties $a=2$, $c=3$, $e=6$ un $b=9$, $d=4$, $f=1$, iegūsim, ka
 
-$$
-\frac{a}{b} \cdot \frac{c}{d} \cdot \frac{e}{f}
-=
-\frac{a \cdot c \cdot e}{b \cdot d \cdot f}
-=
-\frac{2 \cdot 3 \cdot 6}{9 \cdot 4 \cdot 1}
-=
-\frac{36}{36}
-=
-1.
-$$
+$$\frac{a}{b} \cdot \frac{c}{d} \cdot \frac{e}{f} = \frac{a \cdot c \cdot e}{b \cdot d \cdot f} = \frac{2 \cdot 3 \cdot 6}{9 \cdot 4 \cdot 1} = \frac{36}{36} = 1.$$
 
 Piezīme. Atbildi ir iespējams atrast, ievērojot, ka $\frac{a}{b} \cdot \frac{c}{d} \cdot \frac{e}{f}=\frac{a \cdot c \cdot e}{b \cdot d \cdot f}=1$ jeb $a \cdot c \cdot e=b \cdot d \cdot f$, tātad, ja $a, c$ vai $e$ dalās ar kādu pirmreizinātāju, tad arī kādam no $b, d, f$ ar to ir jādalās. Viegli ievērot, ka ir pieejams tikai viens skaitlis, kas dalās ar $5$, kas ir pats $5$, un tikai viens, kas dalās ar $7$, kas ir $7$, tādat tie neder. Tālāk var sadalīt atlikušos skaitļus pirmreizinātājos $2$ un $3$ un sadalīt grupās tā, lai, sareizinot vienas grupas locekļus, iegūst tādas pašas pirmskaitļu pakāpes, kā sareizinot otras grupas locekļus.
 
@@ -406,7 +392,7 @@ Uz vienādsānu trijstūra $ABC$ sānu malām $AB$ un $AC$ atlikti attiecīgi pu
 
 Tā kā $AK=LC$ un trijstūris $ABC$ ir vienādsānu, tad arī $AL=KB$. Konstruē taisni $t_1 \parallel AC$, kas iet caur punktu $B$, un taisni $t_2 \parallel BC$, kas iet caur punktu $L$ (skat. 1. att.). Apzīmējam taisņu $t_1$ un $t_2$ krustpunktu ar $M$. Tādā gadījumā četrstūris $CLMB$ ir paralelograms, jo tā malas ir pa pāriem paralēlas. Paralelograma pretējās malas ir pa pāriem vienādas, tātad $LC=BM$ un $LM=CB$. Tā kā $AC \parallel MB$, tad $\angle CAB=\angle ABM$ kā iekšējie šķērsleņķi pie $AC \parallel MB$, ko krusto $AB$, kas nozīmē, ka $\triangle AKL=\triangle BMK$ ($mlm$). Tad (kā vienādu trijstūru atbilstošie elementi) $\angle ALK=\angle MKB=\alpha$ un $KL=MK$. Aplūkojot trijstūri $LKM$, tas ir vienādsānu ($KL=MK$) ar $\angle LKM=60^\circ$, no kā var secināt, ka $\triangle LKM$ ir vienādmalu un $LK=KM=ML$. Kā pierādīts iepriekš, $ML=CB$, tātad arī $KL=CB$, kas arī bija jāpierāda.
 
-![1. att.](LV.VOL.2026.9.5.png)
+![1. att.](LV.VOL.2026.9.5A.png)
 
 
 
@@ -455,7 +441,7 @@ Pierādīt, ka $BC^2=BM\cdot CN$.
 
 ## Atrisinājums.
 
-![2. att.](LV.VOL.2026.10.3.png)
+![2. att.](LV.VOL.2026.10.3A.png)
 
 
 Apzīmēsim $\angle ABC=\beta$ (skat. 2. att.). Tad $\angle AOC=2\beta$ kā centra leņķis 
@@ -468,15 +454,9 @@ $\frac{BM}{BC}=\frac{AB}{AC}$. Tāpat $\triangle ACN\sim \triangle ABC$,
 jo $\angle BAC$- kopīgs leņķis un $\angle ACN=\angle ABC=\beta$. 
 No tā izriet, ka $\frac{CN}{BC}=\frac{AC}{AB}$. Tā kā
 
-$$
-\left.
-\begin{array}{l}
-\dfrac{BM}{BC}=\dfrac{AB}{AC} \\
-\dfrac{CN}{BC}=\dfrac{AC}{AB}
-\end{array}
-\right\}
-\Rightarrow BM\cdot CN=BC^2\cdot \frac{AB}{AC}\cdot \frac{AC}{AB}=BC^2.
-$$
+$$\left.\begin{array}{ccc}
+\dfrac{BM}{BC} & = & \dfrac{AB}{AC} \\ \dfrac{CN}{BC} & = & \dfrac{AC}{AB} \\
+\end{array} \right\} \Rightarrow BM\cdot CN=BC^2\cdot \frac{AB}{AC}\cdot \frac{AC}{AB}=BC^2.$$
 
 
 # <lo-sample/> LV.VOL.2026.10.4
@@ -669,7 +649,7 @@ Dots riņķa līnijā ievilkts četrstūris $ABCD$, kuram $BC<AD$. Punkts $E$ ir
 
 ## Atrisinājums.
 
-![3. att.](LV.VOL.2026.11.3.png)
+![3. att.](LV.VOL.2026.11.3A.png)
 
 Ievērosim, ka, tā kā ap četrstūri $ABCD$ var apvilkt riņķa līniju, tad $\angle BAD=\angle BCE$ un $\angle CDA=\angle CBE$. Ievērosim, ka
 
@@ -731,7 +711,7 @@ $$
 b(c-a)=((bc+1)-(ab+1))\vdots (ab+1).
 $$
 
-Ievērosim, ka $\operatorname{LKD}(ab+1,a)=\operatorname{LKD}(bc+1,b)=1$, līdz ar to $(c-b)\vdots (ab+1)$ un $(c-a)\vdots (ab+1)$. Tas nozīmē, ka
+Ievērosim, ka $\text{LKD}(ab+1,a)=\text{LKD}(bc+1,b)=1$, līdz ar to $(c-b)\vdots (ab+1)$ un $(c-a)\vdots (ab+1)$. Tas nozīmē, ka
 
 $$
 (c-a)-(c-b)=(b-a)\vdots (ab+1).
@@ -817,17 +797,9 @@ Ievērosim, ka, tā kā $\alpha$ un $\beta$ ir šauri, tad $|\alpha - \beta| < 9
 
 Doti reāli skaitļi $a_1, a_2, \ldots, a_{104}$, kuriem izpildās
 
-$$
-a_1 + a_2 \cdot a_3 \cdot \ldots \cdot a_{104}
-=
-a_2 + a_3 \cdot \ldots \cdot a_{104} \cdot a_1
-=
-\ldots
-=
-a_{104} + a_1 \cdot a_2 \cdot \ldots \cdot a_{103}
-=
-2026
-$$
+$$a_1 + a_2 \cdot a_3 \cdot \ldots \cdot a_{104} = a_2 + a_3 \cdot \ldots \cdot a_{104} \cdot a_1 = \ldots =$$
+
+$$= a_{104} + a_1 \cdot a_2 \cdot \ldots \cdot a_{103} = 2026.$$
 
 Pierādīt, ka starp skaitļiem $a_1, a_2, \ldots, a_{104}$ ir vismaz $52$ vienādi.
 
@@ -848,9 +820,7 @@ Ar $P$ apzīmēsim $a_1 a_2 \cdot \ldots \cdot a_{104}$. Ievērosim, ka no uzdev
 
 Riņķa līnijā $\omega$, kuras centrs ir punkts $O$, ir ievilkts piecstūris $ABCDE$ tā, ka taisnes $AE$ un $BD$ ir paralēlas. Uz diagonālēm $AC$ un $CE$ ir attiecīgi izvēlēti punkti $X$ un $Y$ ar īpašību, ka
 
-$$
-\angle ABX = \angle CBD \quad \text{un} \quad \angle EDY = \angle CDB
-$$
+$$\angle ABX = \angle CBD \quad \text{un} \quad \angle EDY = \angle CDB$$
 
 Pierādīt, ka ap trijstūriem $DYO$ un $BXO$ apvilktās riņķa līnijas vēlreiz krustojas punktā, kas atrodas uz $\omega$.
 
@@ -865,23 +835,31 @@ Pierādīt, ka ap trijstūriem $DYO$ un $BXO$ apvilktās riņķa līnijas vēlre
 
 ![](LV.VOL.2026.12.3.png)
 
-Tā kā $AE \parallel BD$, tad $ABDE$ ir vienādsānu trapece, tāpēc $AB = DE$. Ievērosim, ka $\angle BAX = \angle BDC = \angle EDY = \alpha$ un $\angle ABX = \angle DBC = \angle DEY = \beta$, kur mēs izmantojām to, ka leņķi, kas balstās uz vienu un to pašu loku, ir vienādi. Secinām, ka $\triangle ABX = \triangle DEY$ pēc pazīmes $\ell m \ell$. Tādā gadījumā $BX = YE$ kā vienādos trijstūros atbilstošie elementi.
+Tā kā $AE \parallel BD$, tad $ABDE$ ir vienādsānu trapece, tāpēc $AB = DE$. 
+Ievērosim, ka $\angle BAX = \angle BDC = \angle EDY = \alpha$ un 
+$\angle ABX = \angle DBC = \angle DEY = \beta$, kur mēs izmantojām to, 
+ka leņķi, kas balstās uz vienu un to pašu loku, ir vienādi. Secinām, ka 
+$\triangle ABX = \triangle DEY$ pēc pazīmes $\ell m \ell$. Tādā gadījumā 
+$BX = YE$ kā vienādos trijstūros atbilstošie elementi.
 
-Ievērosim, ka $OB = OA = OE = OD$ kā rādiusi un $\angle BOA = \angle EOD$, jo loki $AB$ un $DE$ ir vienādi, kas nozīmē, ka $\angle OBA = \angle OAB = \angle OED = \angle ODE$. Tādā gadījumā
+Ievērosim, ka $OB = OA = OE = OD$ kā rādiusi un $\angle BOA = \angle EOD$, 
+jo loki $AB$ un $DE$ ir vienādi, kas nozīmē, ka 
+$\angle OBA = \angle OAB = \angle OED = \angle ODE$. Tādā gadījumā
 
-$$
-\angle XBO = \angle OBA - \angle ABX = \angle OED - \angle YED = \angle YEO.
-$$
+$$\angle XBO = \angle OBA - \angle ABX = \angle OED - \angle YED = \angle YEO.$$
 
-Secinām, ka $\triangle XBO = \triangle YEO$ pēc pazīmes $m\ell m$. Tādā gadījumā $\angle BXO = \angle OYE$ kā vienādos trijstūros atbilstošie elementi.
+Secinām, ka $\triangle XBO = \triangle YEO$ pēc pazīmes $m\ell m$. 
+Tādā gadījumā $\angle BXO = \angle OYE$ kā vienādos trijstūros atbilstošie elementi.
 
-Pieņemsim, ka trijstūra $BXO$ apvilktā riņķa līnija krusto $\omega$ punktā $T$. Ievērosim, ka $\angle BTO = 180^\circ - \angle BXO = 180^\circ - \angle OYE = \angle OYC$. Pieņemsim, ka taisnes $CE$ un $BT$ krustojas punktā $Z$. Tādā gadījumā esam ieguvuši, ka $\angle ZTO = \angle OYZ$, kas nozīmē, ka ap četrstūri $OYTZ$ var apvilkt riņķa līniju.
+Pieņemsim, ka trijstūra $BXO$ apvilktā riņķa līnija krusto $\omega$ punktā $T$. 
+Ievērosim, ka $\angle BTO = 180^\circ - \angle BXO = 180^\circ - \angle OYE = \angle OYC$. 
+Pieņemsim, ka taisnes $CE$ un $BT$ krustojas punktā $Z$. Tādā gadījumā esam 
+ieguvuši, ka $\angle ZTO = \angle OYZ$, kas nozīmē, ka ap četrstūri $OYTZ$ 
+var apvilkt riņķa līniju.
 
 Ievērosim, ka $\angle ZYD = \angle YDE + \angle YED = \alpha + \beta$ kā trijstūra $YDE$ ārējais leņķis. Atzīmēsim arī to, ka
 
-$$
-\angle BCD = 180^\circ - \angle DBC - \angle CDB = 180^\circ - \beta - \alpha = \angle BTD
-$$
+$$\angle BCD = 180^\circ - \angle DBC - \angle CDB = 180^\circ - \beta - \alpha = \angle BTD$$
 
 kā leņķi, kas balstās uz vienu un to pašu loku. Secinām, ka $\angle BTD + \angle ZYD = 180^\circ$, kas nozīmē, ka ap četrstūri $ZTYD$ var apvilkt riņķa līniju. Esam ieguvuši, ka četrstūri $OYTZ$ un $ZTYD$ ir ievilkti. Tādā gadījumā punkti $O$ un $D$ pieder trijstūrim $ZTY$ apvilktai riņķa līnijai, tāpēc visi pieci punkti $Z,T,Y,O,D$ atrodas uz vienas riņķa līnijas. Secinām, ka ap četrstūri $OYDT$ var apvilkt riņķa līniju, kas atrisina uzdevumu.
 
@@ -904,7 +882,7 @@ Mazākais iespējamais labo rūtiņu skaits ir $10$. Piemēram, pirmajā rindā 
 
 Tagad pierādīsim, ka mazāk par $10$ labām rūtiņām nevar būt. Sadalām tabulas rūtiņas $10$ grupās pa $10$ rūtiņām tā, lai katrā grupā rūtiņas atrastos dažādās rindās un dažādās kolonnās (piemēram, ņemot cikliskās diagonāles, kā redzams 5. att. (b)). Pieņemsim, ka kādā grupā visas rūtiņas nav labas; tad katrai rūtiņai šajā grupā tās rindas summa ir mazāka nekā tās kolonnas summa. Saskaitot šīs nevienādības pa visām grupas rūtiņām, iegūstam, ka visu tabulas skaitļu summa, saskaitīta pa rindām, ir mazāka nekā tā pati summa, saskaitīta pa kolonnām, kas nav iespējams. Tātad katrā grupā ir vismaz viena laba rūtiņa, un labo rūtiņu skaits ir vismaz $10$.
 
-![5. att.](LV.VOL.2026.12.4.png)
+![5. att.](LV.VOL.2026.12.4A.png)
 
 
 
