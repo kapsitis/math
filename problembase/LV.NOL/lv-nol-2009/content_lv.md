@@ -636,13 +636,14 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 <small>
 
 * questionType:
-* domain:
+* domain: Alg
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, LinearInequality
 * _readingDifficulty: low
 * _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseTrivialInequalitiesAndAddThem, UseStandardIdentities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
 * _mistakesFit: medium
+* same: LV.NOL.2008.8.3
 
 </small>
 

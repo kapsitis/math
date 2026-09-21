@@ -555,6 +555,7 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, FactorAndUseZeroProductRule, UseStandardIdentities
 * _hasReasoningMistake: RootLossByDivisionByExpression, UnjustifiedCancellationOrCombination, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* sameAs: LV.NOL.2005.8.5
 
 </small>
 

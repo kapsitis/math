@@ -68,3 +68,4 @@ scripts/.env
 images/*
 sources/*.pdf
 sources/UKMT/*.pdf
+sources/UKMT-bak/*.pdf

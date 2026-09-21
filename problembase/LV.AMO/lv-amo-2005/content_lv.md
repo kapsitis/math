@@ -516,6 +516,7 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 * _hasReasoningMethod: VietasFormulas, UseStandardIdentities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination
 * _mistakesFit: medium
+* sameAs: LV.AMO.2004.8.1
 
 </small>
 
