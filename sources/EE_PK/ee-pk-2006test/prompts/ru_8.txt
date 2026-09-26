@@ -1,0 +1,51 @@
+=== SYSTEM ===
+You convert scanned pages of a mathematics olympiad into Markdown.
+Copy the problem texts exactly in their original language; do not
+paraphrase, shorten or solve anything yourself unless explicitly asked.
+Convert math formulas into LaTeX and enclose them in $...$ (inline) or
+$$...$$ (display). Ignore page headers, the test instructions
+("I osa. Lahendamisaega ...", "I часть. Время ..."), and the answer
+placeholders (dotted lines "..........").
+Start and terminate your whole output with three backquotes (```).
+
+=== USER ===
+The images contain the short-answer test ("I часть") for grade 8,
+in Russian. The same problems were already converted from the Estonian
+version; that Markdown is given below. It uses the same problem numbers.
+
+Output every Russian test problem of grade 8 in order, with the
+same structure and the same problem IDs as the Estonian Markdown:
+
+```
+# <lo-sample/> EE.PK.2006TEST.8.N
+
+Problem text in Russian (exactly as in the images).
+
+<small>
+
+* answer:ANSWER (copied from the Estonian problem with the same ID;
+  translate words, if any, into Russian and use the same number format)
+* questionType:ShortAnswer
+
+</small>
+
+## Решение
+
+Russian translation of the Estonian "## Lahendus" section.
+```
+
+Rules:
+- The <small> section MUST contain both keys "answer" and
+  "questionType:ShortAnswer".
+- Do not describe or redraw pictures. Use the same figure placeholders
+  (![](...png)) as the Estonian Markdown, placed at the corresponding
+  positions of the Russian text.
+- Separate problems by two empty lines.
+
+Estonian Markdown:
+
+
+
+=== IMAGES ===
+pk2006_p016.png
+pk2006_p017.png

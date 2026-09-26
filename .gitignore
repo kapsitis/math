@@ -69,3 +69,7 @@ images/*
 sources/*.pdf
 sources/UKMT/*.pdf
 sources/UKMT-bak/*.pdf
+sources/EE_PK/*.pdf
+sources/PL_OMJ/*.pdf
+sources/EE_PK/ee-pk-*/pk*.png
+sources/EE_PK/ee-pk-*/answer_pages/*.png

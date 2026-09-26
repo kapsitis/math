@@ -1,0 +1,63 @@
+=== SYSTEM ===
+You convert scanned pages of a mathematics olympiad into Markdown.
+Copy the problem texts exactly in their original language; do not
+paraphrase, shorten or solve anything yourself unless explicitly asked.
+Convert math formulas into LaTeX and enclose them in $...$ (inline) or
+$$...$$ (display). Ignore page headers, the test instructions
+("I osa. Lahendamisaega ...", "I часть. Время ..."), and the answer
+placeholders (dotted lines "..........").
+Start and terminate your whole output with three backquotes (```).
+
+=== USER ===
+The first 2 image(s) contain the short-answer test
+("I osa") for grade 7, in Estonian. The remaining 2
+image(s) are pages from the official solutions section
+("Lahendused ja vastused"); use only the part titled
+"7. klass, I osa" and ignore solutions of other grades or of "II osa".
+
+Output every test problem of grade 7 in order, as follows
+(N is the problem number as printed on the page):
+
+```
+# <lo-sample/> EE.PK.2006TEST.7.N
+
+Problem text in Estonian (exactly as in the test pages).
+
+<small>
+
+* answer:ANSWER
+* questionType:ShortAnswer
+
+</small>
+
+## Lahendus
+
+Solution text in Estonian (exactly as in the solutions section).
+
+
+# <lo-sample/> EE.PK.2006TEST.7.N+1
+...
+```
+
+Rules:
+- ANSWER is the final answer from the solutions section, written on one
+  line in a short form (e.g. 165, 3/5, 2,4\pi cm, 3; 5). If the solutions
+  section gives no explicit answer for a problem, derive it from the
+  solution text; if even that is impossible, write "answer:TODO".
+- The <small> section MUST contain both keys "answer" and
+  "questionType:ShortAnswer" as shown.
+- If the solution is only an answer without explanation, still add the
+  "## Lahendus" section with that answer.
+- Do not describe or redraw pictures. Where a problem contains a figure,
+  insert a placeholder at the position of the figure:
+  ![](EE.PK.2006TEST.7.N.png) for the first figure, then
+  ![](EE.PK.2006TEST.7.NA.png), ![](EE.PK.2006TEST.7.NB.png), etc.
+  for further figures of the same problem. Figures inside the solution
+  get the same kind of placeholders, continuing the letter sequence.
+- Separate problems by two empty lines.
+
+=== IMAGES ===
+pk2006_p002.png
+pk2006_p003.png
+pk2006_p026.png
+pk2006_p027.png

@@ -1,0 +1,166 @@
+# Configuration for pdf_ocr.py: Estonian regional olympiad (Piirkonnavoor),
+# short-answer test ("I osa") for grades 7-9, in Estonian and Russian.
+# Usage:
+#   python scripts/ocr/pdf_ocr.py sources/EE_PK pk2006.pdf scripts/ocr/ee_pk_test.yaml
+
+csv_file: list.csv
+file_column: File
+year_regex: '(\d{4})'                      # applied to the PDF file name
+problem_id_prefix: 'EE.PK.{year}TEST'      # problem IDs: EE.PK.2006TEST.7.6
+output_dir: '{parent}/ee-pk-{year}test'    # {parent} = the first command-line argument
+png_name: '{stem}_p{page}.png'             # {page} is zero-padded: pk2006_p002.png
+
+grades: [7, 8, 9]
+
+render:
+  dpi: 200
+
+# All lengths are PDF points (1/72 inch); the pages are A5 (420 x 595 pt).
+geometry:
+  margins:                 # always trimmed; may be overridden with "odd:"/"even:" sub-maps
+    left: 22
+    right: 22
+    top: 20
+    bottom: 12
+  header:                  # text blocks ending within "zone" pt from the top edge and
+    zone: 92               # matching "regex" are cut away (with the box around them)
+    regex: 'klass|класс|êëàññ|olümpiaad|Олимпиада|Îëèìïèàäà|Piirkonnavoor|Региональный'
+    padding: 6
+  footer:                  # text blocks starting within "zone" pt from the bottom edge
+    zone: 40               # and matching "regex" (page numbers) are cut away
+    regex: '^\s*\d+\s*$'
+    padding: 2
+
+languages:
+  ee:
+    first_column: ee_first
+    last_column: ee_last
+    grade_regex: '(\d+)\.\s*klass'
+    prompt: user_ee
+    output: content_ee.md
+  ru:
+    first_column: ru_first
+    last_column: ru_last
+    grade_regex: '(\d+)\s*(?:класс|êëàññ)'
+    prompt: user_ru
+    output: content_ru.md
+    answers_from: ee       # gets the Estonian Markdown (answers, solutions) as text
+
+# Official answers/solutions for the test ("Lahendused ja vastused", "7. klass, I osa").
+# Searched in pages after all problem ranges; the first page matching start_regex
+# (and must_contain) begins the range, the first page matching end_regex ends it.
+answers:
+  enabled: true
+  start_regex: '{grade}\.\s*klass,?\s*I\s+osa'
+  end_regex: '\d+\.\s*klass,?\s*I{1,2}\s+osa'   # next heading: this grade's II osa or the next grade
+  must_contain: 'Lahendused'
+  max_pages: 4
+  png_subdir: answer_pages
+
+llm:
+  provider: openai
+  api_key_env: OPENAI_API_KEY
+  model_env: OPENAI_MODEL
+  model: gpt-5             # used when OPENAI_MODEL is not set
+  max_completion_tokens: 32000
+  temperature: null        # null = model default (required by reasoning models)
+  image_detail: high
+
+# Placeholders: {id_prefix} {grade} {year} {stem} {num_problem_pages}
+# {num_answer_pages} {source_markdown}. Other braces (LaTeX) are kept verbatim.
+prompts:
+  system: |
+    You convert scanned pages of a mathematics olympiad into Markdown.
+    Copy the problem texts exactly in their original language; do not
+    paraphrase, shorten or solve anything yourself unless explicitly asked.
+    Convert math formulas into LaTeX and enclose them in $...$ (inline) or
+    $$...$$ (display). Ignore page headers, the test instructions
+    ("I osa. Lahendamisaega ...", "I часть. Время ..."), and the answer
+    placeholders (dotted lines "..........").
+    Start and terminate your whole output with three backquotes (```).
+
+  user_ee: |
+    The first {num_problem_pages} image(s) contain the short-answer test
+    ("I osa") for grade {grade}, in Estonian. The remaining {num_answer_pages}
+    image(s) are pages from the official solutions section
+    ("Lahendused ja vastused"); use only the part titled
+    "{grade}. klass, I osa" and ignore solutions of other grades or of "II osa".
+
+    Output every test problem of grade {grade} in order, as follows
+    (N is the problem number as printed on the page):
+
+    ```
+    # <lo-sample/> {id_prefix}.{grade}.N
+
+    Problem text in Estonian (exactly as in the test pages).
+
+    <small>
+
+    * answer:ANSWER
+    * questionType:ShortAnswer
+
+    </small>
+
+    ## Lahendus
+
+    Solution text in Estonian (exactly as in the solutions section).
+
+
+    # <lo-sample/> {id_prefix}.{grade}.N+1
+    ...
+    ```
+
+    Rules:
+    - ANSWER is the final answer from the solutions section, written on one
+      line in a short form (e.g. 165, 3/5, 2,4\pi cm, 3; 5). If the solutions
+      section gives no explicit answer for a problem, derive it from the
+      solution text; if even that is impossible, write "answer:TODO".
+    - The <small> section MUST contain both keys "answer" and
+      "questionType:ShortAnswer" as shown.
+    - If the solution is only an answer without explanation, still add the
+      "## Lahendus" section with that answer.
+    - Do not describe or redraw pictures. Where a problem contains a figure,
+      insert a placeholder at the position of the figure:
+      ![]({id_prefix}.{grade}.N.png) for the first figure, then
+      ![]({id_prefix}.{grade}.NA.png), ![]({id_prefix}.{grade}.NB.png), etc.
+      for further figures of the same problem. Figures inside the solution
+      get the same kind of placeholders, continuing the letter sequence.
+    - Separate problems by two empty lines.
+
+  user_ru: |
+    The images contain the short-answer test ("I часть") for grade {grade},
+    in Russian. The same problems were already converted from the Estonian
+    version; that Markdown is given below. It uses the same problem numbers.
+
+    Output every Russian test problem of grade {grade} in order, with the
+    same structure and the same problem IDs as the Estonian Markdown:
+
+    ```
+    # <lo-sample/> {id_prefix}.{grade}.N
+
+    Problem text in Russian (exactly as in the images).
+
+    <small>
+
+    * answer:ANSWER (copied from the Estonian problem with the same ID;
+      translate words, if any, into Russian and use the same number format)
+    * questionType:ShortAnswer
+
+    </small>
+
+    ## Решение
+
+    Russian translation of the Estonian "## Lahendus" section.
+    ```
+
+    Rules:
+    - The <small> section MUST contain both keys "answer" and
+      "questionType:ShortAnswer".
+    - Do not describe or redraw pictures. Use the same figure placeholders
+      (![](...png)) as the Estonian Markdown, placed at the corresponding
+      positions of the Russian text.
+    - Separate problems by two empty lines.
+
+    Estonian Markdown:
+
+    {source_markdown}
