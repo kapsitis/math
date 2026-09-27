@@ -1,0 +1,11 @@
+PL.OMJ.2024TEST.7_8.5.png: caption, test-2024-rozw p.2, 210x479px, saved
+PL.OMJ.2024TEST.7_8.5A.png: caption, test-2024-rozw p.2, 210x401px, saved
+PL.OMJ.2024TEST.7_8.5B.png: caption, test-2024-rozw p.2, 210x329px, saved
+PL.OMJ.2024TEST.7_8.11.png: caption, test-2024-rozw p.5, 595x288px, saved
+PL.OMJ.2024TEST.7_8.11A.png: caption, test-2024-rozw p.5, 594x312px, saved
+PL.OMJ.2024TEST.7_8.12.png: caption, test-2024-rozw p.6, 282x283px, saved
+PL.OMJ.2024TEST.7_8.12A.png: caption, test-2024-rozw p.6, 282x283px, saved
+PL.OMJ.2024TEST.7_8.12B.png: caption, test-2024-rozw p.6, 283x283px, saved
+PL.OMJ.2024TEST.7_8.15.png: caption, test-2024-rozw p.8, 452x363px, saved
+PL.OMJ.2024TEST.7_8.15A.png: caption, test-2024-rozw p.8, 452x366px, saved
+PL.OMJ.2024TEST.7_8.15B.png: caption, test-2024-rozw p.8, 452x493px, saved

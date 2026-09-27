@@ -73,3 +73,7 @@ sources/EE_PK/*.pdf
 sources/PL_OMJ/*.pdf
 sources/EE_PK/ee-pk-*/pk*.png
 sources/EE_PK/ee-pk-*/answer_pages/*.png
+sources/PL_OMJ/pl-omj-*/test*.png
+sources/PL_OMJ/pl-omj-*/answer_pages/*.png
+sources/**/figure_previews/*
+sources/**/*.docx

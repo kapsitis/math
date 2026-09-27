@@ -1,0 +1,15 @@
+EE.PK.2016TEST.7.3.png: local, pk2016 p.2, 159x160px, saved
+EE.PK.2016TEST.7.6.png: local, pk2016 p.2, 449x163px, saved
+EE.PK.2016TEST.7.7.png: local, pk2016 p.3, 246x246px, saved
+EE.PK.2016TEST.7.7A.png: caption, pk2016 p.27, 246x246px, saved
+EE.PK.2016TEST.7.8.png: local, pk2016 p.3, 420x251px, saved
+EE.PK.2016TEST.8.7.png: local, pk2016 p.5, 324x206px, saved
+EE.PK.2016TEST.8.8.png: local, pk2016 p.5, 277x187px, saved
+EE.PK.2016TEST.8.8A.png: caption, pk2016 p.29, 278x190px, saved
+EE.PK.2016TEST.8.9.png: local, pk2016 p.5, 358x208px, saved
+EE.PK.2016TEST.8.9A.png: caption, pk2016 p.29, 358x209px, saved
+EE.PK.2016TEST.9.4.png: local, pk2016 p.6, 183x183px, saved
+EE.PK.2016TEST.9.7.png: local, pk2016 p.7, 327x205px, saved
+EE.PK.2016TEST.9.8.png: local, pk2016 p.7, 191x191px, saved
+EE.PK.2016TEST.9.9.png: local, pk2016 p.7, 372x421px, saved
+EE.PK.2016TEST.9.9A.png: caption, pk2016 p.31, 404x619px, saved

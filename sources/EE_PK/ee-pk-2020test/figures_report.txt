@@ -1,0 +1,16 @@
+EE.PK.2020TEST.7.6.png: llm, pk2020 p.3, 312x207px, saved
+EE.PK.2020TEST.7.7.png: caption, pk2020 p.27, 356x274px, saved
+EE.PK.2020TEST.7.9.png: llm, pk2020 p.3, 122x123px, saved
+EE.PK.2020TEST.7.10.png: llm, pk2020 p.3, 306x123px, saved
+EE.PK.2020TEST.8.6.png: llm, pk2020 p.5, 254x127px, saved
+EE.PK.2020TEST.8.6A.png: caption, pk2020 p.29, 313x197px, saved
+EE.PK.2020TEST.8.7.png: caption, pk2020 p.29, 379x198px, saved
+EE.PK.2020TEST.8.9.png: llm, pk2020 p.5, 247x247px, saved
+EE.PK.2020TEST.8.10.png: llm, pk2020 p.5, 105x96px, saved
+EE.PK.2020TEST.8.10A.png: llm, pk2020 p.5, 151x96px, saved
+EE.PK.2020TEST.9.6.png: llm, pk2020 p.6, 225x210px, saved
+EE.PK.2020TEST.9.7.png: llm, pk2020 p.7, 144x99px, saved
+EE.PK.2020TEST.9.8.png: llm, pk2020 p.7, 304x97px, saved
+EE.PK.2020TEST.9.9.png: llm, pk2020 p.7, 186x171px, saved
+EE.PK.2020TEST.9.9A.png: caption, pk2020 p.32, 260x261px, saved
+EE.PK.2020TEST.9.10.png: llm, pk2020 p.7, 200x233px, saved

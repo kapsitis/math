@@ -1,0 +1,9 @@
+PL.OMJ.2018TEST.7_8.4.png: caption, test-2018-rozw p.2, 430x265px, saved
+PL.OMJ.2018TEST.7_8.8.png: caption, test-2018-rozw p.4, 254x222px, saved
+PL.OMJ.2018TEST.7_8.8A.png: caption, test-2018-rozw p.4, 254x222px, saved
+PL.OMJ.2018TEST.7_8.8B.png: caption, test-2018-rozw p.4, 254x222px, saved
+PL.OMJ.2018TEST.7_8.9.png: caption, test-2018-rozw p.4, 182x207px, saved
+PL.OMJ.2018TEST.7_8.9A.png: caption, test-2018-rozw p.4, 181x207px, saved
+PL.OMJ.2018TEST.7_8.9B.png: caption, test-2018-rozw p.4, 182x160px, saved
+PL.OMJ.2018TEST.7_8.12.png: caption, test-2018-rozw p.6, 587x252px, saved
+PL.OMJ.2018TEST.7_8.14.png: caption, test-2018-rozw p.7, 385x356px, saved

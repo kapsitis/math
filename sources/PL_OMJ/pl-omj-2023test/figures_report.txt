@@ -1,0 +1,13 @@
+PL.OMJ.2023TEST.7_8.3.png: caption, test-2023-rozw p.2, 458x404px, saved
+PL.OMJ.2023TEST.7_8.3A.png: caption, test-2023-rozw p.2, 457x404px, saved
+PL.OMJ.2023TEST.7_8.4.png: caption, test-2023-rozw p.2, 457x398px, saved
+PL.OMJ.2023TEST.7_8.4A.png: caption, test-2023-rozw p.2, 417x396px, saved
+PL.OMJ.2023TEST.7_8.9.png: caption, test-2023-rozw p.4, 265x269px, saved
+PL.OMJ.2023TEST.7_8.9A.png: caption, test-2023-rozw p.4, 238x207px, saved
+PL.OMJ.2023TEST.7_8.9B.png: caption, test-2023-rozw p.4, 237x238px, saved
+PL.OMJ.2023TEST.7_8.9C.png: caption, test-2023-rozw p.4, 270x238px, saved
+PL.OMJ.2023TEST.7_8.11.png: caption, test-2023-rozw p.5, 273x273px, saved
+PL.OMJ.2023TEST.7_8.15.png: caption, test-2023-rozw p.8, 403x353px, saved
+PL.OMJ.2023TEST.7_8.15A.png: caption, test-2023-rozw p.8, 593x353px, saved
+
+grade 7_8: suspicious marker sequence [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 21, 13, 14, 15]

@@ -1,0 +1,13 @@
+EE.PK.2008TEST.7.1.png: llm-bbox, page 2, 667x74px, saved
+EE.PK.2008TEST.7.2.png: llm-bbox, page 2, 444x85px, saved
+EE.PK.2008TEST.7.8.png: local, page 3, 238x243px, saved
+EE.PK.2008TEST.7.9.png: local, page 3, 238x238px, saved
+EE.PK.2008TEST.8.1.png: llm-bbox, page 4, 617x99px, saved
+EE.PK.2008TEST.8.2.png: llm-bbox, page 4, 444x77px, saved
+EE.PK.2008TEST.8.8.png: local, page 5, 318x268px, saved
+EE.PK.2008TEST.8.9.png: local, page 5, 418x218px, saved
+EE.PK.2008TEST.9.3.png: llm-bbox, page 6, 476x85px, saved
+EE.PK.2008TEST.9.7.png: local, page 7, 302x287px, saved
+EE.PK.2008TEST.9.8.png: local, page 7, 184x184px, saved
+EE.PK.2008TEST.9.8A.png: local, page 7, 263x184px, saved
+EE.PK.2008TEST.9.9.png: local, page 7, 319x184px, saved

@@ -1,0 +1,30 @@
+EE.PK.2013TEST.7.6.png: caption, pk2013 p.27, 332x333px, saved
+EE.PK.2013TEST.7.7.png: llm, pk2013 p.3, 323x175px, saved
+EE.PK.2013TEST.7.7A.png: caption, pk2013 p.27, 332x293px, saved
+EE.PK.2013TEST.7.8.png: local, pk2013 p.3, 175x136px, saved
+EE.PK.2013TEST.8.6.png: local, pk2013 p.5, 335x211px, saved
+EE.PK.2013TEST.8.6A.png: caption, pk2013 p.29, 400x243px, saved
+EE.PK.2013TEST.8.7.png: llm, pk2013 p.5, 321x155px, saved
+EE.PK.2013TEST.8.7A.png: caption, pk2013 p.29, 352x270px, saved
+EE.PK.2013TEST.8.7B.png: caption, pk2013 p.29, 254x254px, saved
+EE.PK.2013TEST.8.8.png: caption, pk2013 p.30, 459x270px, saved
+EE.PK.2013TEST.8.9.png: local, pk2013 p.5, 144x126px, saved
+EE.PK.2013TEST.8.9A.png: caption, pk2013 p.30, 126x113px, saved
+EE.PK.2013TEST.8.9B.png: caption, pk2013 p.30, 126x113px, saved
+EE.PK.2013TEST.8.9C.png: caption, pk2013 p.30, 127x113px, saved
+EE.PK.2013TEST.8.9D.png: caption, pk2013 p.30, 127x113px, saved
+EE.PK.2013TEST.8.9E.png: caption, pk2013 p.30, 126x112px, saved
+EE.PK.2013TEST.8.9F.png: caption, pk2013 p.30, 126x112px, saved
+EE.PK.2013TEST.8.9G.png: caption, pk2013 p.30, 126x112px, saved
+EE.PK.2013TEST.8.9H.png: caption, pk2013 p.30, 127x112px, saved
+EE.PK.2013TEST.9.6.png: local, pk2013 p.7, 394x201px, saved
+EE.PK.2013TEST.9.6A.png: llm, pk2013 p.32, 583x272px, saved
+EE.PK.2013TEST.9.7.png: local, pk2013 p.7, 128x128px, saved
+EE.PK.2013TEST.9.7A.png: local, pk2013 p.7, 128x128px, saved
+EE.PK.2013TEST.9.7B.png: llm, pk2013 p.33, 322x223px, saved
+EE.PK.2013TEST.9.8.png: local, pk2013 p.7, 207x112px, saved
+EE.PK.2013TEST.9.8A.png: llm, pk2013 p.33, 332x184px, saved
+EE.PK.2013TEST.9.9.png: local, pk2013 p.7, 236x207px, saved
+
+EE.PK.2013TEST.8.9D.png: same region as EE.PK.2013TEST.8.9C.png (check the placeholders)
+EE.PK.2013TEST.8.9F.png: same region as EE.PK.2013TEST.8.9E.png (check the placeholders)

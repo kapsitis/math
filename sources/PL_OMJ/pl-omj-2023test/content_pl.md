@@ -1,0 +1,450 @@
+# <lo-sample/> PL.OMJ.2023TEST.7_8.1
+
+Istnieją dwie liczby pierwsze, których suma jest równa
+
+**(a)** $17$;
+
+**(b)** $18$;
+
+**(c)** $19$.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Liczba $17$ jest nieparzysta, więc każde jej przedstawienie w postaci sumy dwóch liczb całkowitych ma jeden składnik parzysty i jeden nieparzysty. Jedyną parzystą liczbą pierwszą jest $2$, jednak $17-2=15$ nie jest liczbą pierwszą. Wynika z tego, że przedstawienie liczby $17$ w postaci sumy dwóch liczb pierwszych nie istnieje.
+
+b) $18=7+11$
+
+c) $19=2+17$
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.2
+
+Pewne dwie liczby całkowite większe od $10$ różnią się o $10$. Wynika z tego, że te dwie liczby
+
+**(a)** mają takie same cyfry jedności;
+
+**(b)** mają cyfry dziesiątek różniące się o $1$;
+
+**(c)** dają takie same reszty przy dzieleniu przez $2$.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Dwie liczby różniące się o $10$ dają takie same reszty przy dzieleniu przez $10$, a cyfra jedności dodatniej liczby całkowitej równa jest właśnie reszcie z dzielenia tej liczby przez $10$.
+
+c) Dwie liczby o parzystej różnicy są albo obie parzyste, albo obie nieparzyste. To oznacza, że dają takie same reszty przy dzieleniu przez $2$.
+
+b) Liczby $90$ oraz $100$ różnią się o $10$, a ich cyfry dziesiątek różnią się o $9$.
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.3
+
+Sześciokąt $ABCDEF$ jest foremny. Wynika z tego, że
+
+**(a)** trójkąt $ABC$ jest równoramienny;
+
+**(b)** trójkąt $ACE$ jest równoboczny;
+
+**(c)** trójkąt $ACF$ jest prostokątny.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Skoro sześciokąt $ABCDEF$ jest foremny, to $AB=BC$.
+
+c) Ponieważ kąt wewnętrzny sześciokąta foremnego ma miarę $120^\circ$, więc każdy z kątów przy podstawie $AC$ trójkąta równoramiennego $ABC$ ma miarę $\frac12(180^\circ-120^\circ)=30^\circ$ (rys. 1). Stąd w szczególności wynika, że
+
+$$\angle FAC=\angle FAB-\angle BAC=120^\circ-30^\circ=90^\circ.$$
+
+![](PL.OMJ.2023TEST.7_8.3.png)
+
+rys. 1
+
+![](PL.OMJ.2023TEST.7_8.3A.png)
+
+rys. 2
+
+b) Każde dwa z trójkątów $ABC$, $CDE$, $EFA$ są przystające (cecha bok–kąt–bok), skąd $AC=CE=EA$ (rys. 2), czyli trójkąt $ACE$ jest równoboczny.
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.4
+
+Dany jest okrąg o promieniu $5$. Istnieje cięciwa tego okręgu, która ma długość
+
+**(a)** $5$;
+
+**(b)** $10$;
+
+**(c)** $15$.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Niech $O$ będzie środkiem danego okręgu, a $A$, $B$, $C$ takimi punktami tego okręgu, że $\angle AOB=60^\circ$ oraz punkt $O$ leży na odcinku $AC$ (rys. 3).
+
+a) Trójkąt $AOB$ jest równoramienny i kąt pomiędzy jego ramionami ma miarę $60^\circ$, więc trójkąt ten jest równoboczny. Stąd $AB=OA=5$. Wobec tego cięciwa $AB$ danego okręgu ma długość $5$.
+
+![](PL.OMJ.2023TEST.7_8.4.png)
+
+rys. 3
+
+![](PL.OMJ.2023TEST.7_8.4A.png)
+
+rys. 4
+
+b) Średnica $AC$ danego okręgu ma długość $OA+OC=10$.
+
+c) Rozważmy dowolną cięciwę $XY$ danego okręgu (rys. 4). Z nierówności trójkąta zastosowanej do punktów $O$, $X$, $Y$ wynika, że $XY\leq OX+OY=10$. Każda cięciwa danego okręgu ma zatem długość nie większą od $10$.
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.5
+
+W wyniku zwiększenia liczby $50$ o $100\%$ uzyskujemy tę samą liczbę, co w wyniku
+
+**(a)** zwiększenia liczby $100$ o $50\%$;
+
+**(b)** zmniejszenia liczby $150$ o $50\%$;
+
+**(c)** zmniejszenia liczby $200$ o $50\%$.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+W wyniku zwiększenia liczby $50$ o $100\%$, czyli o liczbę $50$, otrzymamy liczbę $100$.
+
+a) $100+50\%\cdot 100=150\%\cdot 100=150$
+
+b) $150-50\%\cdot 150=50\%\cdot 150=75$
+
+c) $200-50\%\cdot 200=50\%\cdot 200=100$
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.6
+
+Istnieje trójkąt ostrokątny o wszystkich trzech bokach całkowitej długości i obwodzie równym
+
+**(a)** $3$;
+
+**(b)** $4$;
+
+**(c)** $5$.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Takim trójkątem jest trójkąt równoboczny o boku $1$.
+
+c) Trójkąt równoramienny o podstawie długości $1$ i ramieniu długości $2$ ma wszystkie boki całkowitej długości i obwód równy $5$. Trójkąt ten jest ostrokątny — kąty przy podstawie są ostre, a pozostały kąt mniejszy od każdego z nich (gdyż ramię jest dłuższe od podstawy).
+
+b) Liczba $4$ posiada tylko jedno przedstawienie w postaci sumy trzech dodatnich liczb całkowitych, mianowicie: $4=1+1+2$. Nie istnieje jednak trójkąt o bokach długości $1$, $1$, $2$, gdyż liczba $2$ nie jest mniejsza od sumy dwóch pozostałych.
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.7
+
+Kostka do gry ma kształt sześcianu, który na każdej ścianie ma inną liczbę oczek, od $1$ do $6$. Jaś rzucił trzema takimi kostkami, a Małgosia — czterema. Następnie każde z nich dodało liczby wyrzuconych przez siebie oczek. Wynika z tego, że
+
+**(a)** wynik uzyskany przez Małgosię jest większy od wyniku uzyskanego przez Jasia;
+
+**(b)** różnica pomiędzy wynikiem Jasia i wynikiem Małgosi równa jest co najwyżej $6$;
+
+**(c)** wyniki otrzymane przez Jasia i Małgosię są różne.
+
+<small>
+
+* answer:N,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), c) Małgosia mogła wyrzucić cztery jedynki, a Jaś — trzy szóstki. Wówczas wynik Małgosi, równy $4$, jest mniejszy od wyniku Jasia, równego $18$. Co więcej, różnica między tymi wynikami jest większa od $6$.
+
+b) Mogło się zdarzyć, że Małgosia wyrzuciła cztery trójki, a Jaś — trzy czwórki. Wówczas każde z nich uzyskałoby wynik $3\cdot 4=12$.
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.8
+
+Liczby całkowite $a$, $b$ spełniają nierówności $a>1$ oraz $b>9$. Wynika z tego, że
+
+**(a)** $a+b>11$;
+
+**(b)** $ab>19$;
+
+**(c)** $b-a\geq 8$.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), b) Skoro $a>1$ i $b>9$ oraz liczby $a$ i $b$ są całkowite, to zachodzą nierówności $a\geq 2$ oraz $b\geq 10$. Wobec tego $a+b\geq 12>11$ oraz $ab\geq 20>19$.
+
+c) Na przykład liczby $a=b=10$ spełniają nierówności $a>1$ oraz $b>9$, ale $b-a=0<8$.
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.9
+
+Na bokach kwadratu o boku $1$ wybrano trzy różne punkty $A$, $B$, $C$. Wynika z tego, że co najmniej jeden z odcinków $AB$, $BC$, $CA$ ma długość
+
+**(a)** nie większą od $1$;
+
+**(b)** nie mniejszą od $1$;
+
+**(c)** różną od $1$.
+
+<small>
+
+* answer:N,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Punkty $A$, $B$, $C$ można wybrać w taki sposób, że każdy bok trójkąta $ABC$ ma długość większą od $1$. Przykładowo można za punkt $A$ przyjąć jeden z wierzchołków kwadratu, a punkty $B$ i $C$ wybrać na nieprzyległych doń bokach w taki sposób, aby odcinek $BC$ miał długość większą od $1$ (rys. 5).
+
+b) Punkty $A$, $B$, $C$ można wybrać w taki sposób, że każdy z odcinków $AB$, $BC$, $CA$ ma długość mniejszą od $1$ — na przykład zaznaczając wszystkie punkty na tym samym boku, ale nie na jego końcach (rys. 6) lub na dwóch bokach o wspólnym końcu w pobliżu tego końca (rys. 7).
+
+![](PL.OMJ.2023TEST.7_8.9.png)
+
+rys. 5
+
+![](PL.OMJ.2023TEST.7_8.9A.png)
+
+rys. 6
+
+![](PL.OMJ.2023TEST.7_8.9B.png)
+
+rys. 7
+
+![](PL.OMJ.2023TEST.7_8.9C.png)
+
+rys. 8
+
+c) Punkty $A$, $B$, $C$ można wybrać w taki sposób, że trójkąt $ABC$ jest równoboczny o boku $1$ (rys. 8). W tym celu wystarczy wybrać dowolny bok kwadratu, jego środek oznaczyć przez $C$, a odcinek $AB$ wybrać tak, aby był równoległy do wybranego boku kwadratu i odległy odeń o $\frac12\sqrt3$ (wysokość trójkąta równobocznego o boku $1$).
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.10
+
+Istnieją takie dwie naturalne liczby $19$-cyfrowe, których iloczyn jest liczbą
+
+**(a)** $37$-cyfrową;
+
+**(b)** $38$-cyfrową;
+
+**(c)** $39$-cyfrową.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Jeżeli $a=b=10^{18}$, to iloczyn $ab=10^{36}$ jest liczbą $37$-cyfrową.
+
+b) Jeżeli $a=2\cdot 10^{18}$ oraz $b=5\cdot 10^{18}$, to iloczyn $ab=10^{37}$ jest liczbą $38$-cyfrową.
+
+c) Przypuśćmy, że liczby naturalne $a$ oraz $b$ są $19$-cyfrowe. To oznacza, że
+
+$$10^{18}\leq a<10^{19}\quad \text{oraz}\quad 10^{18}\leq b<10^{19}.$$
+
+W konsekwencji
+
+$$10^{36}\leq ab<10^{38},$$
+
+co oznacza, że iloczyn $ab$ ma co najmniej $37$ cyfr i co najwyżej $38$ cyfr. Nie może zatem być liczbą $39$-cyfrową.
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.11
+
+W pola tablicy $3\times 3$ wpisano liczby całkowite od $1$ do $9$, każdą dokładnie raz. Wynika z tego, że suma trzech liczb w pewnym wierszu jest
+
+**(a)** parzysta;
+
+**(b)** nieparzysta;
+
+**(c)** równa co najmniej $15$.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Zauważmy, że suma wszystkich liczb wpisanych w pola tablicy jest równa $45$.
+
+a) Jeśli liczby zostaną wpisane na przykład w sposób przedstawiony na rysunku 9, to w każdym wierszu (a także w każdej kolumnie) suma wpisanych liczb będzie nieparzysta (równa $15$).
+
+![](PL.OMJ.2023TEST.7_8.11.png)
+
+rys. 9
+
+b) Przypuśćmy, że w każdym z trzech wierszy sumy wpisanych liczb są liczbami parzystymi. Wówczas suma tych trzech sum jest liczbą parzystą. Z drugiej strony jest to suma wszystkich liczb znajdujących się w tablicy, czyli $45$ — liczba nieparzysta. Uzyskana sprzeczność oznacza, że nie jest możliwe, aby suma trzech liczb w każdym wierszu była parzysta.
+
+c) Przypuśćmy, że w każdym wierszu suma wpisanych liczb jest mniejsza od $15$. Wówczas suma tych trzech sum jest liczbą mniejszą od $45$. Z drugiej strony jest to suma wszystkich liczb znajdujących się w tablicy, czyli dokładnie $45$. Uzyskana sprzeczność oznacza, że w pewnym wierszu suma trzech wpisanych liczb jest nie mniejsza od $15$.
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.12
+
+Liczba $7^{19}+7^{20}+7^{21}$ jest podzielna przez
+
+**(a)** $19$;
+
+**(b)** $20$;
+
+**(c)** $21$.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Zauważmy, że
+
+$$7^{19}+7^{20}+7^{21}=7^{19}\cdot 1+7^{19}\cdot 7+7^{19}\cdot 49=7^{19}\cdot (1+7+49)=7^{19}\cdot 57=7^{19}\cdot 3\cdot 19.$$
+
+Liczba ta jest podzielna przez $19$ oraz $3\cdot 7=21$, ale nie jest podzielna przez $20$ (nie jest nawet parzysta).
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.13
+
+Przez $\operatorname{NWD}(x,y)$ oznaczamy największy wspólny dzielnik liczb $x$ oraz $y$. Istnieją dodatnie liczby całkowite $a$, $b$, $c$ o tej własności, że $\operatorname{NWD}(a,b)=2$, $\operatorname{NWD}(b,c)=4$ oraz
+
+**(a)** $\operatorname{NWD}(a,c)=3$;
+
+**(b)** $\operatorname{NWD}(a,c)=6$;
+
+**(c)** $\operatorname{NWD}(a,c)=12$.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Jeśli $\operatorname{NWD}(a,b)=2$, to liczba $a$ jest parzysta. Jeśli ponadto $\operatorname{NWD}(b,c)=4$, to liczba $c$ również jest parzysta. Stąd wniosek, że największy wspólny dzielnik liczb $a$ i $c$ jest liczbą parzystą, więc różną od $3$.
+
+c) Jeśli $\operatorname{NWD}(b,c)=4$, to liczba $b$ jest podzielna przez $4$. Gdyby ponadto zachodziła równość $\operatorname{NWD}(a,c)=12$, to liczba $a$ również byłaby podzielna przez $4$. Stąd wniosek, że największy wspólny dzielnik liczb $a$ i $b$ dzieli się przez $4$ — jest on jednak równy $2$. Uzyskana sprzeczność oznacza, że $\operatorname{NWD}(a,c)\neq 12$.
+
+b) Jeśli $a=6$, $b=4$, $c=12$, to $\operatorname{NWD}(a,b)=2$, $\operatorname{NWD}(b,c)=4$ oraz $\operatorname{NWD}(a,c)=6$.
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.14
+
+W czworokącie wypukłym $ABCD$ zachodzą równości $AB=AC=2$, $CB=CD=1$. Wynika z tego, że
+
+**(a)** $BD\leq 2$;
+
+**(b)** $\angle BAD\leq 60^\circ$;
+
+**(c)** pole czworokąta $ABCD$ jest nie większe od pola trójkąta równobocznego o boku $2$.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Z nierówności trójkąta zastosowanej do trójkąta $BCD$ wynika, że
+
+$$BD\leq CB+CD=1+1=2.$$
+
+b) Rozważmy okrąg o środku w punkcie $C$ i promieniu $1$. Poprowadźmy z punktu $A$ odcinki $AX$ i $AY$ styczne do tego okręgu. Ponieważ $AC=2$, więc każdy z trójkątów prostokątnych $ACX$, $ACY$ jest połówką trójkąta równobocznego, a zatem $\angle XAY=60^\circ$. Pozostaje zauważyć, że kąt $BAD$ leży wewnątrz kąta $XAY$.
+
+c) Załóżmy, że $AD=2$, czyli czworokąt $ABCD$ składa się z dwóch trójkątów równoramiennych o bokach $1$, $2$, $2$. Na mocy twierdzenia Pitagorasa wysokość takiego trójkąta opuszczona na podstawę ma długość $\sqrt{2^2-\left(\frac12\right)^2}=\frac12\sqrt{15}$. W takim razie pole czworokąta $ABCD$ jest równe
+
+$$2\cdot \frac12\cdot 1\cdot \frac12\sqrt{15}=\frac12\sqrt{15}.$$
+
+Z kolei pole trójkąta równobocznego o boku $2$ jest równe $\frac14\cdot 2^2\cdot \sqrt3=\sqrt3=\frac12\sqrt{12}<\frac12\sqrt{15}$.
+
+
+# <lo-sample/> PL.OMJ.2023TEST.7_8.15
+
+W gronie siedmiu osób każdy ma co najmniej $3$ znajomych pośród pozostałych osób (przyjmujemy, że jeśli $A$ jest znajomym $B$, to również $B$ jest znajomym $A$). Wynika z tego, że w tym gronie
+
+**(a)** pewna osoba ma co najmniej $4$ znajomych pośród pozostałych osób;
+
+**(b)** pewne dwie osoby mają co najmniej $3$ wspólnych znajomych;
+
+**(c)** pewne trzy osoby znają się wzajemnie.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Przypuśćmy, że każda osoba ma dokładnie $3$ znajomych wśród pozostałych. Jeśli zapytamy każdą osobę, ilu ma znajomych i dodamy uzyskane w odpowiedzi liczby, otrzymamy więc $3\cdot 7=21$. To jednak oznaczałoby, że liczba znajomości w całym siedmioosobowym gronie jest równa $\frac12\cdot 21=10{,}5$, (gdyż o każdej znajomości powiedziały nam dwie osoby), a to nie jest liczba całkowita. To oznacza, że pewna osoba ma co najmniej $4$ znajomych.
+
+![](PL.OMJ.2023TEST.7_8.15.png)
+
+rys. 10
+
+![](PL.OMJ.2023TEST.7_8.15A.png)
+
+rys. 11
+
+b) Jeśli układ znajomości wygląda tak, jak zilustrowano na rysunku 10 (kropki odpowiadają osobom, a odcinki między nimi — znajomościom), to żadne dwie osoby nie mają trzech wspólnych znajomych, mimo że każda ma ich co najmniej $3$.
+
+c) Jeśli układ znajomości wygląda tak, jak zilustrowano na rysunku 11, to żadne trzy osoby nie znają się wzajemnie, mimo że każda ma co najmniej $3$ znajomych.

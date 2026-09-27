@@ -1,0 +1,507 @@
+# <lo-sample/> PL.OMJ.2016TEST.7_8.1
+
+Dodatnia liczba $a$ powiększona o 50% jest równa dodatniej liczbie $b$ pomniejszonej o 50%. Wynika z tego, że liczba $b$ jest
+
+**(a)** 2 razy większa od liczby $a$;
+
+**(b)** 3 razy większa od liczby $a$;
+
+**(c)** 4 razy większa od liczby $a$.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Z warunków zadania wynika, że
+$$a+\frac{50}{100}a=b-\frac{50}{100}b,$$
+skąd uzyskujemy $3a=b$.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.2
+
+Pole powierzchni sześcianu $A$ jest 4 razy mniejsze od pola powierzchni sześcianu $B$. Wynika z tego, że
+
+**(a)** krawędź sześcianu $A$ jest 2 razy mniejsza od krawędzi sześcianu $B$;
+
+**(b)** krawędź sześcianu $A$ jest 4 razy mniejsza od krawędzi sześcianu $B$;
+
+**(c)** objętość sześcianu $A$ jest 8 razy mniejsza od objętości sześcianu $B$.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), b) Oznaczmy przez $a$ długość krawędzi sześcianu $A$, a przez $b$ długość krawędzi sześcianu $B$. Z warunków zadania wynika, że $6b^2=4\cdot 6a^2$, skąd uzyskujemy $b=2a$.
+
+c) Objętość sześcianu $A$ jest równa $a^3$, a objętość sześcianu $B$ jest równa
+$$b^3=(2a)^3=8a^3,$$
+czyli jest 8 razy większa od objętości sześcianu $A$.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.3
+
+Liczby rzeczywiste $a$ i $b$ spełniają nierówność $a\geqslant b$. Wynika z tego, że
+
+**(a)** $a^2\geqslant ab$;
+
+**(b)** $a^2\geqslant b^2$;
+
+**(c)** $a^3\geqslant b^3$.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), b) Jeżeli $a=-1$, $b=-2$, to nierówność $a\geqslant b$ jest spełniona, ale
+$$a^2=1<2=ab\quad\text{oraz}\quad a^2=1<4=b^2.$$
+
+c) Ponieważ $a\geqslant b$, więc możliwe są trzy przypadki: 1) $a\geqslant b\geqslant 0$, 2) $a>0>b$, 3) $0\geqslant a\geqslant b$. W przypadku 1) obie strony nierówności $a\geqslant b$ są liczbami nieujemnymi, wobec tego możemy obie strony tej nierówności podnieść do dowolnej potęgi, będącej liczbą naturalną. W szczególności, uzyskujemy $a^3\geqslant b^3$.
+
+W przypadku 2) liczba $a^3$ jest dodatnia, a liczba $b^3$ jest ujemna, wobec czego $a^3>b^3$. Wreszcie w przypadku 3) obie liczby $-a$ i $-b$ są nieujemne oraz $-b\geqslant -a$. W związku z tym, podnosząc obie strony tej nierówności do trzeciej potęgi, uzyskujemy $(-b)^3\geqslant (-a)^3$, czyli $a^3\geqslant b^3$.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.4
+
+W trójkącie $ABC$ kąt $ABC$ jest dwa razy większy od kąta $BAC$. Dwusieczna kąta $ABC$ przecina okrąg opisany na tym trójkącie w punkcie $E$. Wynika z tego, że
+
+**(a)** $EA=BC$;
+
+**(b)** $CA=2\cdot BC$;
+
+**(c)** proste $EC$ i $AB$ są równoległe.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Oznaczmy okrąg opisany na trójkącie $ABC$ przez $o$ (rys. 1). Z warunków zadania wynika, że $\angle BAC=\angle CBE=\angle EBA$. Kąty te są wpisane w okrąg $o$ i oparte odpowiednio na łukach $BC$, $CE$ oraz $EA$, a więc łuki te są równej długości. Stąd wniosek, że również cięciwy $BC$, $CE$ oraz $EA$ są równej długości.
+
+![](PL.OMJ.2016TEST.7_8.4.png)
+
+rys. 1
+
+b) Zapisując nierówność trójkąta dla trójkąta $ACE$, uzyskujemy
+$$CA<CE+EA=2\cdot BC.$$
+
+c) Kąty $BEC$ i $EBA$ są kątami wpisanymi w okrąg $o$, opartymi odpowiednio na łukach $BC$ i $EA$, które są równej długości. Wobec tego $\angle BEC=\angle EBA$, a to oznacza, że proste $EC$ i $AB$ są równoległe.
+
+**Uwaga.** W rozwiązaniu skorzystaliśmy z własności kątów wpisanych w okrąg, opartych na przystających łukach. Więcej własności i przykładów zastosowań w zadaniach można odnaleźć w artykule „O łukach równej długości”, *Kwadrat* nr 14 (grudzień 2014).
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.5
+
+Liczba $\underbrace{33\ldots 3}_{n\ \text{trójek}}$ jest podzielna przez 99. Wynika z tego, że liczba $n$ jest podzielna
+
+**(a)** przez 3;
+
+**(b)** przez 6;
+
+**(c)** przez 9.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Przyjmijmy oznaczenie $A_n=\underbrace{33\ldots 3}_{n\ \text{trójek}}$.
+
+a) Liczba $A_n$ jest podzielna przez 99, więc jest również liczbą podzielną przez 9. To oznacza, że suma cyfr liczby $A_n$ — równa $3n$ — jest liczbą podzielną przez 9. Stąd wynika, że $n$ jest liczbą podzielną przez 3.
+
+b) Ponieważ $6=2\cdot 3$ oraz największy wspólny dzielnik liczb 2 i 3 jest równy 1, więc wykorzystując podpunkt a), wystarczy dowieść, że liczba $n$ jest parzysta.
+
+Przypuśćmy, że liczba $n$ jest nieparzysta. Wówczas liczba
+$$A_n=\underbrace{33\ldots 3}_{n-1\ \text{cyfr}}0+3=33\cdot\underbrace{1010\ldots 10}_{n-1\ \text{cyfr}}+3$$
+daje resztę 3 z dzielenia przez 33. Nie jest więc podzielna przez 33, a tym bardziej przez 99. Uzyskaliśmy sprzeczność, z której wynika, że liczba $n$ jest parzysta.
+
+c) Zauważmy, że $A_6=333333=99\cdot 3367$, a 6 nie jest liczbą podzielną przez 9.
+
+**Uwaga.** Można dowieść, że $A_n$ jest liczbą podzielną przez 99 wtedy i tylko wtedy, gdy $n$ jest liczbą podzielną przez 6.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.6
+
+Liczby rzeczywiste $a$ i $b$ są różne od zera, a liczba $a\sqrt2+b\sqrt3$ jest wymierna. Wynika z tego, że
+
+**(a)** obie liczby $a$ i $b$ są niewymierne;
+
+**(b)** co najmniej jedna z liczb $a$, $b$ jest wymierna;
+
+**(c)** co najmniej jedna z liczb $a$, $b$ jest niewymierna.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Jeżeli $a=\sqrt6$ i $b=-2$, to
+$$a\sqrt2+b\sqrt3=\sqrt{12}-2\sqrt3=2\sqrt3-2\sqrt3=0$$
+jest liczbą wymierną, a jedna z liczb $a$, $b$ jest wymierna.
+
+b) Jeżeli $a=\sqrt2$ i $b=\sqrt3$, to
+$$a\sqrt2+b\sqrt3=2+3=5$$
+jest liczbą wymierną, a żadna z liczb $a$, $b$ nie jest wymierna.
+
+c) Załóżmy, że obydwie liczby $a$ i $b$ są wymierne. Przyjmijmy oznaczenie $c=a\sqrt2+b\sqrt3$; z warunków zadania wynika więc, że $c$ jest liczbą wymierną. Zauważmy, że
+$$(a\sqrt2+b\sqrt3)^2=c^2,$$
+$$2a^2+2ab\sqrt6+3b^2=c^2,$$
+$$2ab\sqrt6=c^2-2a^2-3b^2.$$
+Ponieważ obie liczby $a$ i $b$ są różne od 0, więc $ab\neq 0$. Wobec tego
+$$\sqrt6=\frac{c^2-2a^2-3b^2}{2ab}.$$
+Zarówno licznik, jak i mianownik ułamka stojącego po prawej stronie ostatniej równości są liczbami wymiernymi, więc cały ułamek jest liczbą wymierną. Tymczasem lewa strona ostatniej równości, równa $\sqrt6$, jest liczbą niewymierną. Uzyskana sprzeczność oznacza, że co najmniej jedna z liczb $a$ i $b$ jest niewymierna.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.7
+
+Sześciokąt $ABCDEF$ jest opisany na okręgu o środku $S$. Wynika z tego, że
+
+**(a)** $AB+CD+EF=BC+DE+FA$;
+
+**(b)** $AD=BE=CF$;
+
+**(c)** suma pól trójkątów $ABS$, $CDS$, $EFS$ jest równa sumie pól trójkątów $BCS$, $DES$, $FAS$.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Oznaczmy odpowiednio przez $a$, $b$, $c$, $d$, $e$, $f$ długości odcinków stycznych do okręgu wpisanego w sześciokąt $ABCDEF$ poprowadzonych z punktów $A$, $B$, $C$, $D$, $E$, $F$ (rys. 2). Wówczas
+$$AB+CD+EF=a+b+c+d+e+f=BC+DE+FA.$$
+
+c) Zauważmy, że wysokości trójkątów $ABS$, $CDS$, $EFS$ opuszczone z wierzchołka $S$ mają tę samą długość, równą promieniowi $r$ okręgu wpisanego w sześciokąt $ABCDEF$ (rys. 3). Wobec tego suma pól trójkątów $ABS$, $CDS$, $EFS$ jest równa
+$$\frac{AB\cdot r}{2}+\frac{CD\cdot r}{2}+\frac{EF\cdot r}{2}=\frac r2(AB+CD+EF).$$
+Analogicznie dochodzimy do wniosku, że suma pól trójkątów $BCS$, $DES$, $FAS$ jest równa
+$$\frac r2(BC+DE+FA).$$
+Aby przekonać się, że rozważane sumy pól są równe, pozostaje skorzystać z konkluzji podpunktu a).
+
+![](PL.OMJ.2016TEST.7_8.7.png)
+
+rys. 2
+
+![](PL.OMJ.2016TEST.7_8.7A.png)
+
+rys. 3
+
+b) Rozważmy kwadrat $ABKL$ opisany na okręgu $\omega$. Na bokach $AL$, $BK$ wybierzmy odpowiednio takie punkty $F$, $C$, że $AF=BC>\frac12 AB$ (rys. 4). Wreszcie niech $D$, $E$ będą takimi punktami należącymi do odcinka $KL$, że odcinki $CD$ i $EF$ są styczne do okręgu $\omega$. Wówczas $ABCDEF$ jest sześciokątem opisanym na okręgu $\omega$, ale
+$$CF=AB=AL<AD.$$
+
+![](PL.OMJ.2016TEST.7_8.7B.png)
+
+rys. 4
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.8
+
+Liczbę $n$ można przedstawić w postaci sumy kwadratów dwóch liczb całkowitych. Wynika z tego, że w postaci sumy kwadratów dwóch liczb całkowitych można przedstawić także liczbę
+
+**(a)** $2n$;
+
+**(b)** $3n$;
+
+**(c)** $4n$.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Z warunków zadania wynika, że istnieją takie liczby całkowite $a$ i $b$, że $n=a^2+b^2$.
+
+c) Zauważmy, że $4n=4a^2+4b^2=(2a)^2+(2b)^2$ oraz liczby $2a$ i $2b$ są całkowite.
+
+a) Zauważmy, że
+$$2n=2a^2+2b^2=a^2+2ab+b^2+a^2-2ab+b^2=(a+b)^2+(a-b)^2$$
+oraz liczby $a+b$ i $a-b$ są całkowite.
+
+b) Liczba $n=1=1^2+0^2$ jest sumą kwadratów dwóch liczb całkowitych, ale liczba $3n=3$ nie da się przedstawić w tej postaci.
+
+**Uwaga.** 1. Można udowodnić, że jeżeli różną od zera liczbę $n$ można przedstawić w postaci sumy kwadratów dwóch liczb całkowitych, to liczby $3n$ nie można przedstawić w takiej postaci.
+
+2. Zależności wyprowadzone w podpunktach c) i a) są szczególnymi przypadkami tzw. *tożsamości Diofantosa*. Więcej na ten temat można przeczytać w artykule „Tożsamość Diofantosa”, *Kwadrat* nr 2 (grudzień 2011).
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.9
+
+Czworokąt wypukły $ABCD$ ma dokładnie dwie osie symetrii. Wynika z tego, że ten czworokąt jest
+
+**(a)** rombem;
+
+**(b)** prostokątem;
+
+**(c)** równoległobokiem.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Dowolny prostokąt nie będący kwadratem ma dokładnie dwie osie symetrii (rys. 5).
+
+b) Dowolny romb nie będący kwadratem ma dokładnie dwie osie symetrii (rys. 6).
+
+![](PL.OMJ.2016TEST.7_8.9.png)
+
+rys. 5
+
+![](PL.OMJ.2016TEST.7_8.9A.png)
+
+rys. 6
+
+![](PL.OMJ.2016TEST.7_8.9B.png)
+
+rys. 7
+
+c) Udowodnimy ogólniejszy fakt: jeżeli wielokąt ma dokładnie dwie osie symetrii, to są one prostopadłe, a ich punkt przecięcia jest środkiem symetrii wielokąta. Wynika stąd, że jeśli czworokąt ma dokładnie dwie osie symetrii, to ma on także środek symetrii, a więc jest równoległobokiem.
+
+Niech $k$ i $\ell$ będą (jedynymi dwiema) osiami symetrii wielokąta $\mathcal W$. Oznaczmy przez $k'$ prostą symetryczną do prostej $k$ względem prostej $\ell$. Wówczas prosta $k'$ również jest osią symetrii wielokąta $\mathcal W$ oraz $k'\neq \ell$, skąd wynika, że $k'=k$. Tym samym prosta $k$ jest symetryczna względem prostej $\ell$ (różnej od $k$), a to oznacza, że proste $k$ i $\ell$ są prostopadłe.
+
+Oznaczmy przez $S$ punkt przecięcia prostych $k$ i $\ell$. Niech $P$ będzie dowolnym punktem płaszczyzny, $Q$ będzie punktem symetrycznym do $P$ względem prostej $k$, a $P'$ będzie punktem symetrycznym do $Q$ względem prostej $\ell$ (rys. 7). Zauważmy, że punkt $P$ należy do wielokąta $\mathcal W$ dokładnie wtedy, gdy punkt $Q$ należy do wielokąta $\mathcal W$, czyli dokładnie wtedy, gdy punkt $P'$ należy do wielokąta $\mathcal W$. Dowód będzie więc zakończony, jeśli wykażemy, że punkty $P$ i $P'$ są symetryczne względem punktu $S$ — będzie to oznaczało, że $S$ jest środkiem symetrii wielokąta $\mathcal W$.
+
+Zauważmy, że $SP=SQ=SP'$, więc $S$ jest środkiem okręgu opisanego na trójkącie $PQP'$. Z prostopadłości prostych $k$ i $\ell$ wynika, że $\angle PQP'=90^\circ$, czyli trójkąt $PQP'$ jest prostokątny i wobec tego punkt $S$ jest środkiem przeciwprostokątnej $PP'$. To oznacza, że punkty $P$ i $P'$ są symetryczne względem punktu $S$ i kończy dowód faktu.
+
+**Uwaga.** Można uzasadnić, że jeśli czworokąt wypukły ma dokładnie dwie osie symetrii, to jest on prostokątem (nie będącym kwadratem) lub rombem (nie będącym kwadratem). Zarówno prostokąt, jak i romb są równoległobokami. Wobec tego, jeśli czworokąt wypukły ma dokładnie dwie osie symetrii, to jest równoległobokiem, choć oczywiście na każdy równoległobok ma dwie osie symetrii.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.10
+
+Liczby wymierne $a$, $b$, $c$ są różne i każdy z iloczynów $a\cdot b$, $b\cdot c$, $c\cdot a$ jest liczbą całkowitą. Wynika z tego, że
+
+**(a)** co najmniej jedna z liczb $a$, $b$, $c$ jest całkowita;
+
+**(b)** co najmniej dwie z liczb $a$, $b$, $c$ są całkowite;
+
+**(c)** każda z liczb $a$, $b$, $c$ jest całkowita.
+
+<small>
+
+* answer:N,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Niech $a=\frac{3\cdot 5}{2}$, $b=\frac{5\cdot 2}{3}$, $c=\frac{2\cdot 3}{5}$. Liczby $a$, $b$, $c$ są różne, wymierne i żadna z nich nie jest liczbą całkowitą. Tymczasem każdy z iloczynów $a\cdot b=25$, $b\cdot c=4$, $c\cdot a=9$ jest liczbą całkowitą.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.11
+
+Dany jest taki trójkąt $ABC$, że $\angle ACB=30^\circ$. Promień okręgu opisanego na tym trójkącie jest równy $R$, a promień okręgu wpisanego jest równy $r$. Wynika z tego, że
+
+**(a)** $AB=R$;
+
+**(b)** $r=\frac{R\sqrt3}{2}$;
+
+**(c)** pole trójkąta $ABC$ jest mniejsze od $R^2$.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Oznaczmy przez $O$ środek okręgu opisanego na trójkącie $ABC$ (rys. 8). Ponieważ $\angle AOB=2\cdot\angle ACB=2\cdot 30^\circ=60^\circ$ oraz $AO=BO=R$, więc trójkąt $ABO$ jest równoboczny. Stąd wniosek, że $AB=R$.
+
+![](PL.OMJ.2016TEST.7_8.11.png)
+
+rys. 8
+
+![](PL.OMJ.2016TEST.7_8.11A.png)
+
+rys. 9
+
+![](PL.OMJ.2016TEST.7_8.11B.png)
+
+rys. 10
+
+c) Niech $H$ będzie spodkiem wysokości trójkąta $ABC$ poprowadzonej z wierzchołka $C$, a $M$ spodkiem wysokości trójkąta równobocznego $ABO$, poprowadzonej z wierzchołka $O$ (rys. 9). Wówczas
+$$CH\leqslant CO+OM=R+\frac{R\sqrt3}{2}<2R.$$
+Wobec tego, oznaczając przez $S$ pole trójkąta $ABC$, uzyskujemy
+$$S=\frac12\cdot AB\cdot CH<\frac12\cdot R\cdot 2R=R^2.$$
+
+b) Rozważmy trójkąt $ABC$, w którym $\angle ACB=30^\circ$ i $\angle BAC=\angle CBA=75^\circ$ (rys. 10). Oznaczmy środek okręgu wpisanego w ten trójkąt przez $I$. Punkty $O$ oraz $I$ leżą na prostej prostopadłej do $AB$ oraz
+$$\angle BAO=60^\circ>37.5^\circ=\frac{\angle BAC}{2}=\angle BAI.$$
+Wobec tego odległość punktu $I$ od prostej $AB$ jest mniejsza od odległości punktu $O$ od prostej $AB$, a zatem $r<\frac{R\sqrt3}{2}$.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.12
+
+Istnieje dodatnia liczba całkowita $n$ o następującej własności: można tak przestawić cyfry zapisu dziesiętnego liczby $2^n$, aby otrzymać pewną całkowitą potęgę liczby
+
+**(a)** 3;
+
+**(b)** 5;
+
+**(c)** 7.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Jeżeli $n$ jest dodatnią liczbą całkowitą, to liczba $2^n$ nie jest podzielna przez 3. Wobec tego także suma cyfr zapisu dziesiętnego liczby $2^n$ nie jest podzielna przez 3. Tymczasem liczba będąca dodatnią całkowitą potęgą liczby 3 jest podzielna przez 3, a więc suma cyfr jej zapisu dziesiętnego jest liczbą podzielną przez 3.
+
+b) Dla $n=9$ cyfry liczby $2^n=512$ można tak przestawić, by otrzymać liczbę $125=5^3$.
+
+c) Dla $n=10$ cyfry liczby $2^n=1024$ można tak przestawić, by otrzymać liczbę $2401=7^4$.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.13
+
+Każda krawędź graniastosłupa $n$-kątnego została pomalowana na jeden z trzech kolorów w taki sposób, że w każdym wierzchołku graniastosłupa schodzą się krawędzie trzech kolorów. Wynika z tego, że
+
+**(a)** $n$ jest liczbą parzystą;
+
+**(b)** wszystkie krawędzie boczne tego graniastosłupa mają ten sam kolor;
+
+**(c)** ten graniastosłup ma po $n$ krawędzi każdego koloru.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), b) Rozważmy graniastosłup trójkątny o podstawach $ABC$, $A'B'C'$ i krawędziach bocznych $AA'$, $BB'$, $CC'$ (rys. 11). Jeżeli krawędzie $AA'$, $BC$, $B'C'$ pomalujemy na czerwono, krawędzie $BB'$, $CA$, $C'A'$ na zielono, a krawędzie $CC'$, $AB$, $A'B'$ na niebiesko, to warunki zadania będą spełnione. Wówczas $n=3$ jest liczbą nieparzystą oraz krawędzie $AA'$, $BB'$, $CC'$ mają różne kolory.
+
+![](PL.OMJ.2016TEST.7_8.13.png)
+
+rys. 11
+
+c) Przyjmijmy, że krawędzie graniastosłupa pomalowano na czerwono, zielono i niebiesko. Z warunków zadania wynika, że każdy z $2n$ wierzchołków graniastosłupa jest końcem dokładnie jednej czerwonej krawędzi. Ponieważ każda krawędź łączy dokładnie dwa wierzchołki graniastosłupa, więc krawędzi czerwonych jest dokładnie $2n/2=n$. W pełni analogicznie uzasadniamy, że wielościan te posiada dokładnie $n$ krawędzi zielonych i dokładnie $n$ krawędzi niebieskich.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.14
+
+Spośród wierzchołków pewnego dwunastokąta foremnego wyróżniono siedem. Wynika z tego, że wśród wyróżnionych punktów można wskazać takie trzy, które są wierzchołkami trójkąta
+
+**(a)** prostokątnego;
+
+**(b)** równobocznego;
+
+**(c)** rozwartokątnego równoramiennego.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Oznaczmy dany dwunastokąt foremny przez $A_1A_2\ldots A_{12}$.
+
+a) Zauważmy, że co najmniej jedna z sześciu średnic okręgu opisanego na danym dwunastokącie
+$$A_1A_7,\ A_2A_8,\ A_3A_9,\ A_4A_{10},\ A_5A_{11},\ A_6A_{12}$$
+ma obydwa końce w wyróżnionych punktach (rys. 12), gdyż w przeciwnym przypadku wyróżnionych punktów byłoby co najwyżej sześć. Dołączając do końców takiej średnicy dowolny inny wyróżniony punkt, otrzymujemy wierzchołki trójkąta prostokątnego.
+
+![](PL.OMJ.2016TEST.7_8.14.png)
+
+rys. 12
+
+![](PL.OMJ.2016TEST.7_8.14A.png)
+
+rys. 13
+
+![](PL.OMJ.2016TEST.7_8.14B.png)
+
+rys. 14
+
+b) Jeżeli wyróżnione zostały punkty $A_1$, $A_2$, $\ldots$, $A_7$, to żadne trzy z nich nie są wierzchołkami trójkąta równobocznego (rys. 13). Rzeczywiście, tylko cztery trójki wierzchołków danego dwunastokąta wyznaczają trójkąty równoboczne:
+$$A_1A_5A_9,\ A_2A_6A_{10},\ A_3A_7A_{11},\ A_4A_8A_{12}$$
+i żadna z nich nie jest złożona wyłącznie z wyróżnionych punktów.
+
+c) Jeżeli wyróżnione zostały punkty $A_1$, $A_2$, $A_4$, $A_5$, $A_7$, $A_{10}$, $A_{11}$ (rys. 14), to żadne trzy z nich nie są wierzchołkami trójkąta rozwartokątnego równoramiennego. Wówczas jedynymi trójkątami równoramiennymi o wierzchołkach w wyróżnionych punktach są
+$$A_1A_4A_7,\ A_1A_4A_{10},\ A_1A_7A_{10},\ A_2A_5A_{11},\ A_4A_7A_{10}$$
+i wszystkie te trójkąty są prostokątne (gdyż odcinki $A_1A_7$, $A_4A_{10}$, $A_5A_{11}$ są średnicami okręgu opisanego na danym dwunastokącie).
+
+**Uwaga.** Można zauważyć, że dołączając punkt $A_8$ do siódemek wyróżnionych punktów w kontrprzykładach do podpunktów b) oraz c), otrzymujemy ósemki wyróżnionych punktów wciąż stanowiące odpowiednie kontrprzykłady. Wobec tego odpowiedzi w podpunktach b) oraz c) nie ulegną zmianie, jeśli w treści zadania słowo *siedem* zastąpimy przez *osiem*.
+
+
+# <lo-sample/> PL.OMJ.2016TEST.7_8.15
+
+Sześcian można rozciąć na
+
+**(a)** trzy ostrosłupy czworokątne;
+
+**(b)** cztery graniastosłupy trójkątne;
+
+**(c)** pięć czworościanów.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Na rysunku 15 sześcian został podzielony na trzy ostrosłupy czworokątne o podstawach $ABB'A'$, $BCC'B'$, $ABCD$ i wspólnym wierzchołku $D'$.
+
+b) Na rysunku 16 sześcian został podzielony na cztery graniastosłupy trójkątne o podstawach $ABE$, $BCE$, $CDE$, $DEF$ i wspólnej krawędzi bocznej $EE'$, łączącej środki ścian $ABCD$ i $A'B'C'D'$.
+
+c) Na rysunku 17 sześcian został podzielony na pięć czworościanów $A'BC'B'$, $A'BAD$, $A'D'C'D$, $CBC'D$ oraz $A'BC'D$.
+
+![](PL.OMJ.2016TEST.7_8.15.png)
+
+rys. 15
+
+![](PL.OMJ.2016TEST.7_8.15A.png)
+
+rys. 16
+
+![](PL.OMJ.2016TEST.7_8.15B.png)
+
+rys. 17

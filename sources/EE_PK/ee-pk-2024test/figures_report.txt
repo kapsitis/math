@@ -1,0 +1,6 @@
+EE.PK.2024TEST.7.5.png: local, pk2024 p.3, 195x101px, saved
+EE.PK.2024TEST.7.6.png: local, pk2024 p.3, 273x156px, saved
+EE.PK.2024TEST.8.5.png: caption, pk2024 p.29, 432x438px, saved
+EE.PK.2024TEST.8.6.png: local, pk2024 p.5, 233x222px, saved
+EE.PK.2024TEST.9.5.png: caption, pk2024 p.31, 312x306px, saved
+EE.PK.2024TEST.9.6.png: local, pk2024 p.7, 318x283px, saved

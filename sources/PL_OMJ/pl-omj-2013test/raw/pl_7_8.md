@@ -1,0 +1,406 @@
+# <lo-sample/> PL.OMJ.2013TEST.7_8.1
+
+Liczba $\sqrt[3]{9\cdot\sqrt[3]{27}}$ jest
+
+**(a)** niewymierna;
+
+**(b)** równa $\sqrt[3]{27}$;
+
+**(c)** całkowita.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+$$
+\sqrt[3]{9\cdot\sqrt[3]{27}}=\sqrt[3]{9\cdot 3}=\sqrt[3]{27}=3.
+$$
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.2
+
+Zmieszano 1 litr 4% roztworu soli kuchennej w wodzie z 2 litrami 4% roztworu soli kuchennej w wodzie. Otrzymano wówczas roztwór o stężeniu
+
+**(a)** 4%;
+
+**(b)** 6%;
+
+**(c)** 12%.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Roztwory, o których mowa w zadaniu, zawierają te same substancje i mają takie samo stężenie, są więc jednakowe. Po ich zmieszaniu otrzymano zatem tę samą ciecz — 4% roztwór soli kuchennej w wodzie.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.3
+
+Przekątne czworokąta wypukłego $ABCD$ są prostopadłe. Wynika z tego, że
+
+**(a)** czworokąt ten jest kwadratem;
+
+**(b)** czworokąt ten jest rombem;
+
+**(c)** $AB^2+CD^2=BC^2+DA^2$.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), b) Rozpatrzmy dwa dowolne przecinające się pod kątem prostym odcinki $AC$ i $BD$, których środki się nie pokrywają. Końce tych odcinków tworzą czworokąt wypukły $ABCD$, który nie jest równoległobokiem, a więc tym bardziej rombem, czy też kwadratem.
+
+c) Oznaczmy przez $P$ punkt przecięcia przekątnych czworokąta $ABCD$. Na mocy twierdzenia Pitagorasa odpowiednio dla trójkątów $APB$ i $CPD$, otrzymujemy
+
+$$
+AB^2=AP^2+BP^2 \quad \text{oraz} \quad CD^2=CP^2+DP^2.
+$$
+
+Dodając powyższe równości stronami, uzyskujemy $AB^2+CD^2=AP^2+BP^2+CP^2+DP^2$. Analogicznie dowodzimy, że $BC^2+DA^2=AP^2+BP^2+CP^2+DP^2$. Stąd wniosek, że $AB^2+CD^2=BC^2+DA^2$.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.4
+
+Każdy bok kwadratu powiększono o 20%. Wynika z tego, że pole tego kwadratu zwiększyło się o
+
+**(a)** 20%;
+
+**(b)** 40%;
+
+**(c)** 44%.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Oznaczmy przez $a$ początkową długość boku kwadratu. Zwiększając liczbę $a$ o 20%, uzyskujemy liczbę $a+\frac{20}{100}a=\frac{12}{10}a$. Pole kwadratu o boku długości $\frac{12}{10}a$ jest równe
+
+$$
+\left(\frac{12}{10}a\right)^2=\frac{144}{100}a^2=a^2+\frac{44}{100}a^2.
+$$
+
+Stąd wynika, że pole tego kwadratu, początkowo równe $a^2$, zwiększyło się o 44%.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.5
+
+Suma cyfr dodatniej liczby całkowitej $a$ wynosi 30. Wynika z tego, że liczba $a$ jest podzielna przez
+
+**(a)** 2;
+
+**(b)** 3;
+
+**(c)** 5.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), c) Niech $a$ będzie liczbą, której wszystkie 30 cyfr to 1. Liczba $a$ nie jest podzielna przez 2, gdyż jej ostatnia cyfra jest nieparzysta. Liczba $a$ nie jest podzielna przez 5, gdyż jej ostatnią cyfrą nie jest 0 ani 5.
+
+b) Liczba 30 jest podzielna przez 3, a zatem na mocy cechy podzielności przez 3, liczba o sumie cyfr równej 30 jest podzielna przez 3.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.6
+
+Równanie $x^2-2|x|=0$ ma
+
+**(a)** co najmniej jedno rozwiązanie;
+
+**(b)** dokładnie dwa rozwiązania;
+
+**(c)** więcej niż dwa rozwiązania.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Zauważmy, że $x^2=|x|^2$. Dane równanie możemy zatem zapisać w postaci równoważnej $|x|^2-2|x|=0$, czyli $|x|\cdot(|x|-2)=0$. Z kolei ta zależność jest spełniona wtedy i tylko wtedy, gdy $|x|=0$ lub $|x|=2$. Wobec tego równanie $x^2-2|x|=0$ ma dokładnie trzy rozwiązania: $x=0$, $x=2$ oraz $x=-2$.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.7
+
+Liczby $a$ i $b$ są całkowite. Wynika z tego, że liczba $2a(a+1)(a+2)+3b(b+1)$ jest podzielna przez
+
+**(a)** 4;
+
+**(b)** 5;
+
+**(c)** 6.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), b) Przyjmijmy $a=0$, $b=1$. Wówczas liczba $2a(a+1)(a+2)+3b(b+1)=0+6=6$ nie jest podzielna przez 4 oraz nie jest podzielna przez 5.
+
+c) Ponieważ $6=2\cdot 3$ oraz największy wspólny dzielnik liczb 2 i 3 wynosi 1, więc liczba całkowita jest podzielna przez 6 wtedy i tylko wtedy, gdy jest podzielna przez 2 i przez 3.
+
+Liczba $3b(b+1)$ jest podzielna przez 3. Ponadto, jedna spośród dwóch kolejnych liczb całkowitych $b$, $b+1$ jest parzysta. Wobec tego liczba $3b(b+1)$ jest podzielna przez 2. Stąd wynika, że jest ona podzielna przez 6.
+
+Liczba $2a(a+1)(a+2)$ jest podzielna przez 2. Ponadto, wśród trzech kolejnych liczb całkowitych $a$, $a+1$, $a+2$ jest jedna podzielna przez 3. Wobec tego liczba $2a(a+1)(a+2)$ jest podzielna przez 3. A zatem jest ona podzielna przez 6.
+
+Skoro obie liczby $2a(a+1)(a+2)$ oraz $3b(b+1)$ są podzielne przez 6, to ich suma również ma tę własność.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.8
+
+W czworokącie wypukłym $ABCD$ pola trójkątów $ABC$ i $ADC$ są równe. Wynika z tego, że
+
+**(a)** pola trójkątów $BCD$ i $BAD$ są równe;
+
+**(b)** środek przekątnej $BD$ należy do przekątnej $AC$;
+
+**(c)** czworokąt $ABCD$ jest równoległobokiem.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+b) Rozważmy wysokości $BM$ i $DN$ odpowiednio trójkątów $ABC$ i $ADC$. Ponieważ pola tych trójkątów są równe oraz mają one wspólną podstawę $AC$, więc $BM=DN$.
+
+Odcinki $BM$ i $DN$ są więc równej długości i równoległe. Wobec tego, jeśli punkty $M$ i $N$ pokrywają się, to każdy z nich jest środkiem odcinka $BD$, skąd wynika, że środek ten leży na przekątnej $AC$. W przeciwnym wypadku, czworokąt $MBND$ jest równoległobokiem, a zatem środek przekątnej $BD$ pokrywa się ze środkiem przekątnej $MN$. Stąd wniosek, że również w tym przypadku środek przekątnej $BD$ należy do przekątnej $AC$.
+
+a), c) Rozpatrzmy trójkąt ostrokątny $ABC$, w którym $AB\ne BC$. Niech $D$ będzie obrazem symetrycznym punktu $B$ względem prostej $AC$. Wówczas czworokąt $ABCD$ jest wypukły, a pola trójkątów $ABC$ i $ADC$ są równe, gdyż są to trójkąty przystające. Ponieważ wysokości trójkątów $BCD$ i $BAD$ opuszczone na wspólny bok $BD$ są różnej długości, więc pola tych trójkątów są różne. Ponadto $AB\ne CD$, a zatem czworokąt $ABCD$ nie jest równoległobokiem.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.9
+
+Nierówność $(x^2+2)x<x$
+
+**(a)** nie ma rozwiązań;
+
+**(b)** ma nieskończenie wiele rozwiązań;
+
+**(c)** jest spełniona przez pewną liczbę dodatnią.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Przekształcając daną nierówność równoważnie, uzyskujemy kolejno
+
+$$
+(x^2+2)x<x
+$$
+
+$$
+x^3+2x<x
+$$
+
+$$
+x^3+x<0
+$$
+
+$$
+x(x^2+1)<0.
+$$
+
+Ponieważ $x^2+1>0$, więc zbiorem rozwiązań danej nierówności jest zbiór liczb ujemnych.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.10
+
+Liczba $\sqrt{0,4444\ldots}$ jest
+
+**(a)** wymierna;
+
+**(b)** równa $0,2222\ldots$;
+
+**(c)** większa od $0,5$.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Oznaczmy przez $x$ liczbę $0,4444\ldots$. Wówczas
+
+$$
+10x=10\cdot 0,4444\ldots=4,4444\ldots=4+0,4444\ldots=4+x.
+$$
+
+Stąd wynika, że $9x=4$, wobec czego $x=\frac{4}{9}$, a zatem
+
+$$
+\sqrt{0,4444\ldots}=\sqrt{\frac{4}{9}}=\frac{2}{3}=0,6666\ldots.
+$$
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.11
+
+Odległość punktu $E$ od prostej $AB$ jest mniejsza od odległości punktu $F$ od prostej $AB$. Wynika z tego, że
+
+**(a)** pole trójkąta $ABE$ jest mniejsze od pola trójkąta $ABF$;
+
+**(b)** obwód trójkąta $ABE$ jest mniejszy od obwodu trójkąta $ABF$;
+
+**(c)** promień okręgu wpisanego w trójkąt $ABE$ jest mniejszy od promienia okręgu wpisanego w trójkąt $ABF$.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Trójkąty $ABE$ i $ABF$ mają wspólną podstawę $AB$, a wysokość trójkąta $ABE$ jest mniejsza od wysokości trójkąta $ABF$. Wobec tego pole trójkąta $ABE$ jest mniejsze od pola trójkąta $ABF$.
+
+Rozpatrzmy proste $k$ i $l$ równoległe do prostej $AB$. Przyjmijmy, że odległość prostej $k$ od prostej $AB$ jest mniejsza od odległości prostej $l$ od prostej $AB$.
+
+b) Wybierzmy dowolny punkt $F$ na prostej $l$. Na prostej $k$ znajdujemy taki punkt $E$, że długość odcinka $AE$ jest większa od obwodu trójkąta $ABF$. Punkty $E$ i $F$ spełniają warunki zadania (odległość punktu $E$ od prostej $AB$ jest mniejsza od odległości punktu $F$ od prostej $AB$), jednak obwód trójkąta $ABE$ jest większy od obwodu trójkąta $ABF$.
+
+c) Wybierzmy dowolny punkt $E$ na prostej $k$. Przez punkt $B$ poprowadźmy prostą $m$, której odległość od punktu $A$ jest dodatnia, ale mniejsza od promienia okręgu wpisanego w trójkąt $ABE$. Niech $F$ będzie punktem przecięcia prostych $l$ i $m$. Wówczas punkty $E$ i $F$ spełniają warunki zadania. Ponadto promień okręgu wpisanego w trójkąt $ABF$ jest mniejszy od wysokości tego trójkąta poprowadzonej z wierzchołka $A$. Z kolei wysokość ta ma długość równą odległości punktu $A$ od prostej $m$ i jest krótsza od promienia okręgu wpisanego w trójkąt $ABE$.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.12
+
+Liczba $a^2$ jest niewymierna. Wynika z tego, że liczba
+
+**(a)** $a$ jest niewymierna;
+
+**(b)** $a$ jest wymierna;
+
+**(c)** $a^4$ jest wymierna.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), b) Przypuśćmy, że liczba $a$ jest wymierna. Wówczas liczba $a^2$, jako iloczyn dwóch liczb wymiernych, również jest wymierna. Z otrzymanej sprzeczności wynika, że $a$ jest liczbą niewymierną.
+
+c) Przyjmijmy $a=\sqrt[8]{2}$. Wtedy obie liczby $a^2=\sqrt[4]{2}$ oraz $a^4=\sqrt{2}$ są niewymierne.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.13
+
+Sześcian można rozciąć płaskim cięciem na dwa wielościany w taki sposób, aby jeden z tych wielościanów
+
+**(a)** był graniastosłupem pięciokątnym;
+
+**(b)** miał osiem ścian;
+
+**(c)** był ostrosłupem prawidłowym.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Rozważmy sześcian o podstawie $ABCD$.
+
+a) Oznaczmy przez $K$ i $L$ środki odpowiednio krawędzi $AB$ i $BC$. Przecinając rozpatrywany sześcian płaszczyzną prostopadłą do płaszczyzny podstawy, przechodzącą przez punkty $K$ i $L$, otrzymujemy graniastosłup pięciokątny o podstawie $AKLCD$.
+
+c) Oznaczmy przez $B'$ taki wierzchołek sześcianu, że odcinek $BB'$ jest jego krawędzią boczną. Przecinając rozpatrywany sześcian płaszczyzną $ACB'$, otrzymujemy ostrosłup prawidłowy trójkątny: jego podstawa $ACB'$ jest trójkątem równobocznym, a krawędzie boczne $AB$, $CB$ oraz $B'B$ są równej długości.
+
+b) Rozpatrzmy dowolną z dwóch części, na jakie rozcięto dany sześcian. Jest nią wielościan, którego jedna ściana leży w płaszczyźnie przekroju. Każda z pozostałych ścian tego wielościanu należy do innej ściany wyjściowego sześcianu. Stąd wynika, że otrzymany wielościan ma nie więcej niż siedem ścian.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.14
+
+Dany jest 101-kąt foremny $A_1A_2\ldots A_{101}$. Wynika z tego, że
+
+**(a)** trójkąt $A_5A_{10}A_{15}$ jest równoramienny;
+
+**(b)** trójkąt $A_{15}A_{31}A_{100}$ jest równoramienny;
+
+**(c)** pewien trójkąt, którego wierzchołkami są trzy spośród punktów $A_1,A_2,\ldots,A_{101}$ jest prostokątny.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Rozważmy okrąg opisany na danym 101-kącie. Przyjmijmy, że kolejność wierzchołków $A_1,A_2,\ldots,A_{101}$ na tym okręgu jest zgodna z ruchem wskazówek zegara. Przez łuk $XY$ będziemy rozumieli łuk danego okręgu biegnący od punktu $X$ do punktu $Y$ zgodnie z ruchem wskazówek zegara.
+
+a), b) Zauważmy, że łuki $A_1A_2$, $A_2A_3$, $\ldots$, $A_{101}A_1$ są równej długości. Oznaczmy tę długość przez $a$. Wówczas łuki $A_5A_{10}$ oraz $A_{10}A_{15}$ mają długość równą $5a$. Wobec tego $\angle A_{15}A_{15}A_{10}=\angle A_{10}A_5A_{15}$, gdyż są to kąty wpisane oparte na łukach tej samej długości. Stąd wniosek, że trójkąt $A_5A_{10}A_{15}$ jest równoramienny. Ponieważ oba łuki $A_{100}A_{15}$ oraz $A_{15}A_{31}$ mają długość $16a$, więc analogicznie wykazujemy, że trójkąt $A_{15}A_{31}A_{100}$ jest równoramienny.
+
+c) Ponieważ 101 jest liczbą nieparzystą, więc żadne dwa punkty spośród wierzchołków $A_1,A_2,\ldots,A_{101}$ nie są końcami średnicy rozpatrywanego okręgu. Stąd wniosek, że żaden trójkąt, którego wierzchołkami są trzy spośród punktów $A_1,A_2,\ldots,A_{101}$ nie może być prostokątny.
+
+
+# <lo-sample/> PL.OMJ.2013TEST.7_8.15
+
+Każdy bok i każdą przekątną pięciokąta foremnego pomalowano na czerwono lub niebiesko. Wynika z tego, że
+
+**(a)** pewne trzy boki są tego samego koloru;
+
+**(b)** pewne dwie przekątne są różnych kolorów;
+
+**(c)** z pewnego wierzchołka wychodzą trzy odcinki tego samego koloru.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Przypuśćmy, że nie istnieją trzy boki tego samego koloru. Wobec tego, co najwyżej dwa boki są czerwone oraz co najwyżej dwa boki są niebieskie. Stąd wniosek, że pomalowano nie więcej niż cztery boki. Z otrzymanej sprzeczności wynika, że pewne trzy boki są tego samego koloru.
+
+b), c) Przyjmijmy, że wszystkie boki pięciokąta pomalowano na czerwono, a wszystkie przekątne na niebiesko. Wówczas wszystkie przekątne są tego samego koloru i z żadnego wierzchołka nie wychodzą trzy czerwone ani trzy niebieskie odcinki.

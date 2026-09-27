@@ -1,0 +1,11 @@
+PL.OMJ.2020TEST.7_8.4.png: caption, test-2020-rozw p.2, 312x345px, saved
+PL.OMJ.2020TEST.7_8.4A.png: caption, test-2020-rozw p.2, 298x330px, saved
+PL.OMJ.2020TEST.7_8.4B.png: caption, test-2020-rozw p.2, 416x322px, saved
+PL.OMJ.2020TEST.7_8.5.png: caption, test-2020-rozw p.3, 535x599px, saved
+PL.OMJ.2020TEST.7_8.10.png: caption, test-2020-rozw p.6, 437x402px, saved
+PL.OMJ.2020TEST.7_8.11.png: caption, test-2020-rozw p.7, 140x139px, saved
+PL.OMJ.2020TEST.7_8.13.png: caption, test-2020-rozw p.8, 484x463px, saved
+PL.OMJ.2020TEST.7_8.14.png: caption, test-2020-rozw p.9, 350x350px, saved
+PL.OMJ.2020TEST.7_8.15.png: caption, test-2020-rozw p.9, 684x416px, saved
+PL.OMJ.2020TEST.7_8.15A.png: caption, test-2020-rozw p.10, 684x416px, saved
+PL.OMJ.2020TEST.7_8.15B.png: caption, test-2020-rozw p.10, 684x417px, saved

@@ -1,0 +1,15 @@
+EE.PK.2022TEST.7.6.png: local, pk2022 p.3, 117x104px, saved
+EE.PK.2022TEST.7.7.png: local, pk2022 p.3, 247x191px, saved
+EE.PK.2022TEST.7.8.png: local, pk2022 p.3, 144x144px, saved
+EE.PK.2022TEST.7.8A.png: caption, pk2022 p.28, 143x144px, saved
+EE.PK.2022TEST.7.10.png: local, pk2022 p.3, 90x87px, saved
+EE.PK.2022TEST.8.6.png: local, pk2022 p.5, 144x144px, saved
+EE.PK.2022TEST.8.7.png: local, pk2022 p.5, 305x195px, saved
+EE.PK.2022TEST.8.8.png: local, pk2022 p.5, 159x160px, saved
+EE.PK.2022TEST.8.10.png: local, pk2022 p.5, 112x81px, saved
+EE.PK.2022TEST.9.6.png: local, pk2022 p.7, 358x240px, saved
+EE.PK.2022TEST.9.6A.png: caption, pk2022 p.32, 358x240px, saved
+EE.PK.2022TEST.9.7.png: local, pk2022 p.7, 207x112px, saved
+EE.PK.2022TEST.9.7A.png: caption, pk2022 p.32, 207x144px, saved
+EE.PK.2022TEST.9.8.png: local, pk2022 p.7, 175x154px, saved
+EE.PK.2022TEST.9.10.png: local, pk2022 p.7, 112x80px, saved

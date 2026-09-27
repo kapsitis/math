@@ -1,0 +1,17 @@
+PL.OMJ.2016TEST.7_8.4.png: caption, test-2016-rozw p.2, 345x320px, saved
+PL.OMJ.2016TEST.7_8.7.png: caption, test-2016-rozw p.5, 407x398px, saved
+PL.OMJ.2016TEST.7_8.7A.png: caption, test-2016-rozw p.5, 407x395px, saved
+PL.OMJ.2016TEST.7_8.7B.png: caption, test-2016-rozw p.5, 345x344px, saved
+PL.OMJ.2016TEST.7_8.9.png: caption, test-2016-rozw p.6, 358x273px, saved
+PL.OMJ.2016TEST.7_8.9A.png: caption, test-2016-rozw p.6, 358x273px, saved
+PL.OMJ.2016TEST.7_8.9B.png: caption, test-2016-rozw p.6, 358x273px, saved
+PL.OMJ.2016TEST.7_8.11.png: caption, test-2016-rozw p.8, 358x394px, saved
+PL.OMJ.2016TEST.7_8.11A.png: caption, test-2016-rozw p.8, 363x369px, saved
+PL.OMJ.2016TEST.7_8.11B.png: caption, test-2016-rozw p.8, 358x397px, saved
+PL.OMJ.2016TEST.7_8.13.png: caption, test-2016-rozw p.9, 347x461px, saved
+PL.OMJ.2016TEST.7_8.14.png: caption, test-2016-rozw p.10, 413x408px, saved
+PL.OMJ.2016TEST.7_8.14A.png: caption, test-2016-rozw p.10, 413x408px, saved
+PL.OMJ.2016TEST.7_8.14B.png: caption, test-2016-rozw p.10, 413x408px, saved
+PL.OMJ.2016TEST.7_8.15.png: caption, test-2016-rozw p.11, 385x408px, saved
+PL.OMJ.2016TEST.7_8.15A.png: caption, test-2016-rozw p.11, 385x408px, saved
+PL.OMJ.2016TEST.7_8.15B.png: caption, test-2016-rozw p.11, 385x408px, saved

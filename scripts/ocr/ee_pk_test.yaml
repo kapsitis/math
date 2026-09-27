@@ -1,14 +1,34 @@
-# Configuration for pdf_ocr.py: Estonian regional olympiad (Piirkonnavoor),
-# short-answer test ("I osa") for grades 7-9, in Estonian and Russian.
+# Estonian regional olympiad (Piirkonnavoor): short-answer test ("I osa") for
+# grades 7-9, in Estonian and Russian; solutions later in the same PDF.
 # Usage:
 #   python scripts/ocr/pdf_ocr.py sources/EE_PK pk2006.pdf scripts/ocr/ee_pk_test.yaml
+#   python scripts/ocr/extract_figures.py sources/EE_PK pk2006.pdf scripts/ocr/ee_pk_test.yaml
+#   python scripts/ocr/md_to_test_docx.py sources/EE_PK/ee-pk-2006test --config scripts/ocr/ee_pk_test.yaml
 
-csv_file: list.csv
-file_column: File
 year_regex: '(\d{4})'                      # applied to the PDF file name
 problem_id_prefix: 'EE.PK.{year}TEST'      # problem IDs: EE.PK.2006TEST.7.6
 output_dir: '{parent}/ee-pk-{year}test'    # {parent} = the first command-line argument
 png_name: '{stem}_p{page}.png'             # {page} is zero-padded: pk2006_p002.png
+question_type: ShortAnswer
+
+# Page ranges differ between the PDFs; they are listed in list.csv
+# (columns File,ee_first,ee_last,ru_first,ru_last) and used as {csv:column}.
+page_list:
+  file: list.csv
+  key_column: File
+
+# PDFs and page ranges (1-based, both ends included; "end" = last page).
+sources:
+  test_ee:
+    file: '{pdf}'
+    pages: ['{csv:ee_first}', '{csv:ee_last}']
+  test_ru:
+    file: '{pdf}'
+    pages: ['{csv:ru_first}', '{csv:ru_last}']
+  solutions:                                 # "Lahendused ja vastused" follows the tests
+    file: '{pdf}'
+    pages: ['{csv:ru_last}+1', end]
+    png_subdir: answer_pages
 
 grades: [7, 8, 9]
 
@@ -33,35 +53,28 @@ geometry:
 
 languages:
   ee:
-    first_column: ee_first
-    last_column: ee_last
-    grade_regex: '(\d+)\.\s*klass'
+    problems: test_ee
+    grade_regex: '(\d+)\.\s*klass'         # grade in the page header
+    solutions: solutions
+    solutions_find:        # the part of "solutions" that belongs to one grade:
+      start_regex: '{grade}\.\s*klass,?\s*I\s+osa'     # first page with this heading
+      end_regex: '\d+\.\s*klass,?\s*I{1,2}\s+osa'      # ... up to the next heading
+      must_contain: 'Lahendused'
+      max_pages: 4
     prompt: user_ee
     output: content_ee.md
   ru:
-    first_column: ru_first
-    last_column: ru_last
+    problems: test_ru
     grade_regex: '(\d+)\s*(?:класс|êëàññ)'
+    answers_from: ee       # gets the Estonian Markdown (answers, solutions) as text
     prompt: user_ru
     output: content_ru.md
-    answers_from: ee       # gets the Estonian Markdown (answers, solutions) as text
-
-# Official answers/solutions for the test ("Lahendused ja vastused", "7. klass, I osa").
-# Searched in pages after all problem ranges; the first page matching start_regex
-# (and must_contain) begins the range, the first page matching end_regex ends it.
-answers:
-  enabled: true
-  start_regex: '{grade}\.\s*klass,?\s*I\s+osa'
-  end_regex: '\d+\.\s*klass,?\s*I{1,2}\s+osa'   # next heading: this grade's II osa or the next grade
-  must_contain: 'Lahendused'
-  max_pages: 4
-  png_subdir: answer_pages
 
 llm:
   provider: openai
   api_key_env: OPENAI_API_KEY
   model_env: OPENAI_MODEL
-  model: gpt-5             # used when OPENAI_MODEL is not set
+  model: gpt-5.5           # used when OPENAI_MODEL is not set
   max_completion_tokens: 32000
   temperature: null        # null = model default (required by reasoning models)
   image_detail: high
@@ -164,3 +177,66 @@ prompts:
     Estonian Markdown:
 
     {source_markdown}
+
+# Settings for extract_figures.py (cuts figures for the ![](...png) placeholders
+# out of the page PNGs). Lengths are PDF points, like "geometry".
+figures:
+  language: ee               # figures are cut from the pages of this language only
+  padding: 3                 # extra space around every figure
+  use_llm: true              # ask the model only when local matching is ambiguous
+  preview_subdir: figure_previews
+  marker:                    # problem numbers "1.", "2.", ... at the left margin
+    regex: '^\s*(\d{1,2})\.\s*$'
+    font_regex: 'SFSX|Bold'  # bold sans-serif numbering font of these PDFs
+    max_x: 60
+  cluster:
+    gap: 6                   # drawings closer than this belong to one figure
+    min_size: 10             # figure must be at least this wide and high ...
+    min_items: 4             # ... or consist of this many drawings and
+    min_long: 40             #     be this long (e.g. a number line)
+    min_image_side: 8        # smaller raster images (fraction rules) are ignored
+    label_margin: 8          # short text spans this close are figure labels
+    label_max_width: 45
+    ignore_text_regex: '^[\s.…]+$'
+  caption_regex: '^\s*Joonis\s+(\d+)\s*$'          # caption span in the answer pages
+  caption_mention_regex: '[Jj]oonis\w*\s+(\d+)'    # caption number in the Markdown
+  caption_max_gap: 40        # max distance between figure bottom and its caption
+
+  prompts:
+    system: |
+      You help to cut figures out of scanned pages of a mathematics olympiad.
+      Candidate figures are marked on the page images with red boxes, each
+      with a number in its top-left corner. Answer with JSON only.
+    select: |
+      The {part} of problem {problem_id} contains these figure placeholders,
+      in this order:
+      {placeholders}
+
+      Markdown of the {part} (placeholders show where each figure belongs):
+      {text}
+
+      Images: {pages}.
+      For every placeholder return the numbers of the red boxes that together
+      form that figure (several numbers if a figure is split into several
+      boxes). If no box covers the figure, return instead
+      {"image": <image number>, "bbox": [x0, y0, x1, y1]} with coordinates
+      scaled to 0..1000 of that image's width and height.
+      Example: {"EE.PK.2006TEST.7.10.png": [3], "EE.PK.2006TEST.7.10A.png": [4, 5]}
+
+# Settings for md_to_test_docx.py (content_<lang>.md -> content_<lang>.docx test
+# sheets without answers). Defaults are in the script; lengths in mm.
+docx:
+  answer_column: 60          # right column: answer box + points square + dotted lines
+  answer_box: [45, 12]
+  points_box: 8
+  reasoning_lines: 3         # 0..4 dotted lines under the answer box
+  reasoning_line_height: 6
+  figure_dpi: 200            # = render.dpi above (figure PNG pixels -> mm)
+  wide_figure_ratio: 0.6     # figures wider than this share of the text area go under the text
+  max_side_figure_ratio: 0.6
+  labels:                    # per language (content_<lang>.md); "lv" is the fallback
+    lv:
+      title: 'Matemātikas īso atbilžu tests — {grade}. klase — I daļa — variants {variant}'
+      name: 'Vārds, uzvārds:'
+      class: 'Klase:'
+      answer: 'Atbilde:'

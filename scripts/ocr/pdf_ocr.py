@@ -4,9 +4,10 @@ Configurable PDF -> PNG -> Markdown OCR pipeline (adapted from ../openai_ocr.py)
 Usage:
     python pdf_ocr.py <parent_dir> <pdf_name> <config.yaml> [options]
 
-    <parent_dir>   directory containing the CSV page list (e.g. list.csv) and the PDFs
-    <pdf_name>     PDF file inside <parent_dir>; must be listed in the CSV
-    <config.yaml>  page geometry, grade/answer detection rules and LLM prompts
+    <parent_dir>   directory containing the PDFs (and the optional page list CSV)
+    <pdf_name>     the main PDF inside <parent_dir>, e.g. pk2006.pdf or test-2011.pdf
+    <config.yaml>  sources (PDFs and page ranges), page geometry, grade/solution
+                   detection rules and LLM prompts; see ee_pk_test.yaml, pl_omj_test.yaml
 
 Options:
     --out DIR      output directory (default: config "output_dir" template)
@@ -15,19 +16,29 @@ Options:
     --dry-run      render PNGs and write the prompts that would be sent (prompts/*.txt)
     --force        ignore cached LLM responses in <out>/raw/
 
+Configuration model:
+  sources     named PDF files with page ranges, e.g. the test pages of one
+              language, or a separate solutions PDF. File names and page numbers
+              are templates: {pdf} = <pdf_name>, {stem} = its name without .pdf,
+              {csv:column} = a column of this PDF's row in the optional
+              "page_list" CSV, "end" = last page, "+1"/"-1" offsets. Pages are
+              1-based and both ends are included; without "pages" all are used.
+  languages   one Markdown output per language: which source holds the
+              problems, which source holds the official solutions (optionally
+              narrowed per grade by "solutions_find"), or "answers_from" another
+              language whose Markdown is passed as text instead.
+  grades      problem groups; the problem pages are split among them by
+              "grade_regex" (page header) or evenly. One LLM request per
+              (language, grade); a single group such as "7_8" takes all pages.
+
 Pipeline:
-  1. For every language (e.g. "ee", "ru") read its page range from the CSV
-     (1-based, both endpoints included) and render each page to a PNG, cropped
-     to remove margins, the page header and the footer (see "geometry" in YAML).
-  2. Split the pages of every language into grades (by a regex on the page
-     header, or evenly across the configured grade list).
-  3. Locate pages with official answers for every grade (e.g. "7. klass, I osa"
-     after the problem pages) and render them as well (answer_pages/ subdir).
-  4. Send one request per (language, grade) to the vision model; languages that
-     declare "answers_from" receive the Markdown of that language as text
-     instead of answer pages (so e.g. Russian reuses Estonian answers).
-  5. Concatenate the responses into content_<lang>.md and validate that every
-     problem has a <small> section with "answer" and "questionType:ShortAnswer".
+  1. Render the pages of all sources to PNGs, cropped to remove margins, page
+     header and footer ("geometry"); solution pages may go to a subdirectory.
+  2. Send one request per (language, grade) to the vision model with the
+     problem pages and the matching solution pages (or the Markdown of the
+     "answers_from" language).
+  3. Concatenate the responses into content_<lang>.md and validate that every
+     problem has a <small> section with "answer" and the expected questionType.
 """
 import argparse
 import base64
@@ -71,6 +82,98 @@ def read_csv_row(csv_path: pathlib.Path, pdf_name: str, file_column: str) -> dic
             if row.get(file_column) == pdf_name:
                 return row
     raise SystemExit(f"Error: '{pdf_name}' is not listed in {csv_path}")
+
+
+class Job:
+    """Paths, template values and PDF sources for one run (shared by all scripts)."""
+
+    def __init__(self, cfg: dict, parent_dir: str, pdf_name: str, out: str | None = None):
+        self.cfg = cfg
+        self.parent = pathlib.Path(parent_dir)
+        self.pdf_name = pdf_name
+        if not (self.parent / pdf_name).is_file():
+            raise SystemExit(f"Error: {self.parent / pdf_name} not found")
+        stem = pathlib.Path(pdf_name).stem
+        m = re.search(cfg.get("year_regex", r"(\d{4})"), pdf_name)
+        self.tvars = dict(parent=self.parent.as_posix(), pdf=pdf_name, stem=stem,
+                          year=m.group(1) if m else stem)
+        self.year = self.tvars["year"]
+        self.id_prefix = fill(cfg["problem_id_prefix"], **self.tvars)
+        self.out_dir = pathlib.Path(out or fill(cfg["output_dir"], **self.tvars))
+        self.dpi = cfg.get("render", {}).get("dpi", 200)
+        self._row = None
+        self._docs = {}
+        self.sources = {name: Source(self, name, scfg) for name, scfg in cfg["sources"].items()}
+
+    def csv_row(self) -> dict:
+        if self._row is None:
+            pl = self.cfg.get("page_list")
+            if not pl:
+                raise SystemExit("Error: {csv:...} is used, but the config has no 'page_list'")
+            self._row = read_csv_row(self.parent / pl["file"], self.pdf_name, pl.get("key_column", "File"))
+        return self._row
+
+    def open_pdf(self, path: pathlib.Path):
+        if path not in self._docs:
+            if not path.is_file():
+                raise SystemExit(f"Error: {path} not found")
+            self._docs[path] = pymupdf.open(path)
+        return self._docs[path]
+
+    def resolve_page(self, spec, n_pages: int) -> int:
+        """1-based page number from an int, "end", or a template like "{csv:ru_last}+1"."""
+        text = str(spec).strip()
+        if text == "end":
+            return n_pages
+        text = re.sub(r"\{csv:([^}]+)\}", lambda m: self.csv_row()[m.group(1)], text)
+        m = re.fullmatch(r"(\d+)\s*([+-]\s*\d+)?", text)
+        if not m:
+            raise SystemExit(f"Error: cannot understand page number '{spec}'")
+        return int(m.group(1)) + (int(m.group(2).replace(" ", "")) if m.group(2) else 0)
+
+
+class Source:
+    """A PDF file of a job and the pages used from it."""
+
+    def __init__(self, job: Job, name: str, scfg: dict):
+        self.job, self.name = job, name
+        self.path = job.parent / fill(scfg.get("file", "{pdf}"), **job.tvars)
+        self.stem = self.path.stem
+        self.doc = job.open_pdf(self.path)
+        geometry = {**job.cfg.get("geometry", {}), **(scfg.get("geometry") or {})}
+        self.renderer = PageRenderer(self.doc, geometry, job.dpi)
+        first, last = scfg.get("pages", [1, "end"])
+        n = len(self.doc)
+        self.pages = list(range(job.resolve_page(first, n), job.resolve_page(last, n) + 1))
+        self.png_dir = job.out_dir / scfg["png_subdir"] if scfg.get("png_subdir") else job.out_dir
+
+    def png_path(self, page_no: int) -> pathlib.Path:
+        name = fill(self.job.cfg.get("png_name", "{stem}_p{page}.png"), stem=self.stem, page=f"{page_no:03d}")
+        return self.png_dir / name
+
+    def render(self, page_no: int) -> pathlib.Path:
+        path = self.png_path(page_no)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        self.renderer.render(page_no, path)
+        return path
+
+
+def problem_pages(job: Job, lcfg: dict) -> dict:
+    """grade -> problem pages of a language."""
+    src = job.sources[lcfg["problems"]]
+    return split_by_grade(src.renderer, src.pages, job.cfg["grades"], lcfg.get("grade_regex"))
+
+
+def solution_pages(job: Job, lcfg: dict, grade) -> tuple:
+    """(source, pages) with the official solutions of a grade, or (None, [])."""
+    if not lcfg.get("solutions"):
+        return None, []
+    src = job.sources[lcfg["solutions"]]
+    find = lcfg.get("solutions_find")
+    if not find:
+        return src, list(src.pages)
+    pages = find_answer_pages(src.renderer, find, grade, src.pages[0])
+    return src, [p for p in pages if p in src.pages]
 
 
 # ---------------------------------------------------------------- page geometry
@@ -122,6 +225,14 @@ class PageRenderer:
             hits = [b for b in blocks if b[1] >= zone and rx.search(b[4])]
             if hits:
                 y1 = min(y1, min(b[1] for b in hits) - self.footer.get("padding", 0))
+        # Footer separated by a long horizontal rule (e.g. above sponsor logos); crop above it.
+        if self.footer.get("rule_min_width"):
+            zone = r.y1 - self.footer.get("zone", 0)
+            rules = [d["rect"] for d in page.get_drawings()
+                     if d["rect"].y0 >= zone and d["rect"].height <= 1.5
+                     and d["rect"].width >= self.footer["rule_min_width"]]
+            if rules:
+                y1 = min(y1, min(rr.y0 for rr in rules) - self.footer.get("padding", 0))
         return pymupdf.Rect(x0, y0, x1, y1)
 
     def render(self, page_no: int, out_path: pathlib.Path):
@@ -141,10 +252,11 @@ def split_by_grade(renderer: PageRenderer, pages: list, grades: list, grade_rege
         for p in pages:
             m = rx.search(renderer.header_text(p))
             if m:
-                current = int(m.group(1))
+                found = m.group(1)
+                current = next((g for g in grades if str(g) == found), found)
             if current is not None:
                 result.setdefault(current, []).append(p)
-        if sorted(result) == sorted(grades) and sum(map(len, result.values())) == len(pages):
+        if sorted(map(str, result)) == sorted(map(str, grades)) and sum(map(len, result.values())) == len(pages):
             return result
         print(f"  Warning: grade detection found {dict(result)}; falling back to even split.")
     if len(pages) % len(grades) != 0:
@@ -213,7 +325,7 @@ class OpenAIClient:
 
 # ---------------------------------------------------------------- validation
 
-def validate_markdown(md: str, lang: str):
+def validate_markdown(md: str, lang: str, question_type: str = "ShortAnswer"):
     blocks = re.split(r"(?m)^# <lo-sample/>\s*", md)[1:]
     print(f"  content_{lang}.md: {len(blocks)} problems")
     for b in blocks:
@@ -225,8 +337,8 @@ def validate_markdown(md: str, lang: str):
         else:
             if not re.search(r"^\*\s*answer:\s*\S", small.group(1), re.M):
                 problems.append("no answer")
-            if not re.search(r"^\*\s*questionType:\s*ShortAnswer\s*$", small.group(1), re.M):
-                problems.append("no questionType:ShortAnswer")
+            if not re.search(rf"^\*\s*questionType:\s*{question_type}\s*$", small.group(1), re.M):
+                problems.append(f"no questionType:{question_type}")
         if problems:
             print(f"    Warning: {pid}: {', '.join(problems)}")
 
@@ -247,62 +359,35 @@ def main():
 
     with open(args.config, encoding="utf-8") as f:
         cfg = yaml.safe_load(f)
-
-    parent = pathlib.Path(args.parent_dir)
-    pdf_path = parent / args.pdf_name
-    if not pdf_path.is_file():
-        raise SystemExit(f"Error: {pdf_path} not found")
-    row = read_csv_row(parent / cfg.get("csv_file", "list.csv"), args.pdf_name, cfg.get("file_column", "File"))
-
-    stem = pdf_path.stem
-    m = re.search(cfg.get("year_regex", r"(\d{4})"), args.pdf_name)
-    year = m.group(1) if m else stem
-    tvars = dict(parent=parent.as_posix(), stem=stem, year=year)
-    id_prefix = fill(cfg["problem_id_prefix"], **tvars)
-    out_dir = pathlib.Path(args.out or fill(cfg["output_dir"], **tvars))
+    job = Job(cfg, args.parent_dir, args.pdf_name, args.out)
+    out_dir, id_prefix, year = job.out_dir, job.id_prefix, job.year
     out_dir.mkdir(parents=True, exist_ok=True)
-    print(f"Processing {pdf_path} -> {out_dir} (problem IDs {id_prefix}.<grade>.<n>)")
-
-    doc = pymupdf.open(pdf_path)
-    renderer = PageRenderer(doc, cfg.get("geometry", {}), cfg.get("render", {}).get("dpi", 200))
-    png_name = cfg.get("png_name", "{stem}_p{page}.png")
-
-    def png_for(page_no: int, subdir: str | None = None) -> pathlib.Path:
-        d = out_dir / subdir if subdir else out_dir
-        d.mkdir(parents=True, exist_ok=True)
-        path = d / fill(png_name, stem=stem, page=f"{page_no:03d}")
-        renderer.render(page_no, path)
-        return path
+    print(f"Processing {job.parent / job.pdf_name} -> {out_dir} (problem IDs {id_prefix}.<grade>.<n>)")
 
     languages = cfg["languages"]
     selected = args.langs.split(",") if args.langs else list(languages)
     grades = cfg["grades"]
 
-    # 1-2. Render the page ranges and split them by grade.
+    # 1. Render problem pages (split by grade) and solution pages.
     lang_pages = {}   # lang -> {grade: [png paths]}
-    last_page = 0
-    for lang, lcfg in languages.items():
-        first, last = int(row[lcfg["first_column"]]), int(row[lcfg["last_column"]])
-        last_page = max(last_page, last)
-        if lang not in selected:
-            continue
-        pages = list(range(first, last + 1))
-        by_grade = split_by_grade(renderer, pages, grades, lcfg.get("grade_regex"))
-        print(f"  [{lang}] pages {first}-{last}: " +
+    answer_pngs = {}  # lang -> {grade: [png paths]}
+    for lang in selected:
+        lcfg = languages[lang]
+        src = job.sources[lcfg["problems"]]
+        by_grade = problem_pages(job, lcfg)
+        print(f"  [{lang}] {src.path.name} pages {src.pages[0]}-{src.pages[-1]}: " +
               ", ".join(f"grade {g}: {ps}" for g, ps in by_grade.items()))
-        lang_pages[lang] = {g: [png_for(p) for p in ps] for g, ps in by_grade.items()}
-
-    # 3. Locate and render answer pages (searched after all problem ranges).
-    answer_pngs = {}
-    acfg = cfg.get("answers") or {}
-    if acfg.get("enabled"):
-        for g in grades:
-            pages = find_answer_pages(renderer, acfg, g, last_page + 1)
+        lang_pages[lang] = {g: [src.render(p) for p in ps] for g, ps in by_grade.items()}
+        answer_pngs[lang] = {}
+        for g in by_grade:
+            sol, pages = solution_pages(job, lcfg, g)
+            if sol is None:
+                continue
             if not pages:
-                print(f"  Warning: no answer pages found for grade {g}")
+                print(f"  Warning: [{lang}] no solution pages found for grade {g}")
             else:
-                print(f"  answers for grade {g}: pages {pages}")
-            answer_pngs[g] = [png_for(p, acfg.get("png_subdir", "answer_pages")) for p in pages]
+                print(f"  [{lang}] solutions for grade {g}: {sol.path.name} pages {pages}")
+            answer_pngs[lang][g] = [sol.render(p) for p in pages]
 
     if args.render_only:
         print("PNG rendering complete (--render-only).")
@@ -337,12 +422,10 @@ def main():
             if source_lang and not source_md:
                 cached = raw_dir / f"{source_lang}_{g}.md"
                 source_md = cached.read_text(encoding="utf-8") if cached.exists() else ""
-            images = list(pngs)
-            if not source_lang:
-                images += answer_pngs.get(g, [])
-            pvars = dict(id_prefix=id_prefix, grade=g, year=year, stem=stem,
-                         num_problem_pages=len(pngs),
-                         num_answer_pages=0 if source_lang else len(answer_pngs.get(g, [])),
+            solution_pngs = answer_pngs[lang].get(g, [])
+            images = list(pngs) + solution_pngs
+            pvars = dict(id_prefix=id_prefix, grade=g, year=year, stem=job.tvars["stem"],
+                         num_problem_pages=len(pngs), num_answer_pages=len(solution_pngs),
                          source_markdown=source_md)
             system_prompt = fill(prompts["system"], **pvars)
             user_prompt = fill(prompts[lcfg["prompt"]], **pvars)
@@ -384,7 +467,7 @@ def main():
         out_md = out_dir / languages[lang]["output"]
         out_md.write_text(md, encoding="utf-8")
         print(f"Wrote {out_md}")
-        validate_markdown(md, lang)
+        validate_markdown(md, lang, cfg.get("question_type", "ShortAnswer"))
 
     print("\nProcessing complete.")
 

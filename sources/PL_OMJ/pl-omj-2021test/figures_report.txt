@@ -1,0 +1,13 @@
+PL.OMJ.2021TEST.7_8.2.png: caption, test-2021-rozw p.1, 396x231px, saved
+PL.OMJ.2021TEST.7_8.2A.png: caption, test-2021-rozw p.1, 207x236px, saved
+PL.OMJ.2021TEST.7_8.7.png: caption, test-2021-rozw p.4, 302x207px, saved
+PL.OMJ.2021TEST.7_8.7A.png: caption, test-2021-rozw p.4, 738x205px, saved
+PL.OMJ.2021TEST.7_8.8.png: caption, test-2021-rozw p.4, 226x256px, saved
+PL.OMJ.2021TEST.7_8.8A.png: caption, test-2021-rozw p.4, 339x369px, saved
+PL.OMJ.2021TEST.7_8.10.png: caption, test-2021-rozw p.5, 605x312px, saved
+PL.OMJ.2021TEST.7_8.13.png: caption, test-2021-rozw p.7, 181x324px, saved
+PL.OMJ.2021TEST.7_8.13A.png: caption, test-2021-rozw p.7, 539x278px, saved
+PL.OMJ.2021TEST.7_8.14.png: caption, test-2021-rozw p.8, 290x254px, saved
+PL.OMJ.2021TEST.7_8.14A.png: caption, test-2021-rozw p.8, 290x254px, saved
+PL.OMJ.2021TEST.7_8.15.png: caption, test-2021-rozw p.9, 375x384px, saved
+PL.OMJ.2021TEST.7_8.15A.png: caption, test-2021-rozw p.9, 375x387px, saved

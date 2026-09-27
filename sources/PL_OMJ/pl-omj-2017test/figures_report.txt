@@ -1,0 +1,10 @@
+PL.OMJ.2017TEST.7_8.10.png: caption, test-2017-rozw p.4, 358x334px, saved
+PL.OMJ.2017TEST.7_8.10A.png: caption, test-2017-rozw p.4, 500x366px, saved
+PL.OMJ.2017TEST.7_8.13.png: caption, test-2017-rozw p.6, 245x214px, saved
+PL.OMJ.2017TEST.7_8.13A.png: caption, test-2017-rozw p.6, 245x214px, saved
+PL.OMJ.2017TEST.7_8.13B.png: caption, test-2017-rozw p.6, 245x214px, saved
+PL.OMJ.2017TEST.7_8.13C.png: caption, test-2017-rozw p.6, 245x214px, saved
+PL.OMJ.2017TEST.7_8.15.png: caption, test-2017-rozw p.8, 385x407px, saved
+PL.OMJ.2017TEST.7_8.15A.png: caption, test-2017-rozw p.8, 241x250px, saved
+PL.OMJ.2017TEST.7_8.15B.png: caption, test-2017-rozw p.8, 241x250px, saved
+PL.OMJ.2017TEST.7_8.15C.png: caption, test-2017-rozw p.8, 242x250px, saved

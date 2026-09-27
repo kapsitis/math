@@ -1,0 +1,467 @@
+# <lo-sample/> PL.OMJ.2024TEST.7_8.1
+
+Początkową cenę pewnego produktu obniżono o $50\%$, a następnie nową cenę obniżono o $50\%$. W wyniku tych dwóch obniżek początkowa cena spadła
+
+**(a)** o $50\%$;
+
+**(b)** o $75\%$;
+
+**(c)** o $100\%$.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Załóżmy, że początkowa cena była równa $c$. Cena po pierwszej obniżce była więc równa $\frac{1}{2}c$, a cena po drugiej obniżce była równa $\frac{1}{2}\cdot\frac{1}{2}c=\frac{1}{4}c=c-\frac{3}{4}c=c-75\%c$. Wobec tego w wyniku obu obniżek początkowa cena spadła o $75\%$.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.2
+
+Liczba $20^1\cdot20^2\cdot20^3$ jest równa
+
+**(a)** $20^{1+2+3}$;
+
+**(b)** $20^{1\cdot2\cdot3}$;
+
+**(c)** $\left(\left(20^1\right)^2\right)^3$.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), b) Dana liczba to iloczyn $1+2+3=6$ czynników równych $20$, więc jest równa $20^6$.
+
+c) Dla dowolnych dodatnich liczb całkowitych $a$, $b$, $c$ mamy $\left(a^b\right)^c=a^{b\cdot c}$, skąd
+$$
+\left(\left(20^1\right)^2\right)^3=\left(20^{1\cdot2}\right)^3=20^{1\cdot2\cdot3}=20^6.
+$$
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.3
+
+Każda cyfra pewnej $9$-cyfrowej liczby $n$ jest równa $2$ lub $5$. Wynika z tego, że liczba $n$ jest podzielna przez
+
+**(a)** $2$;
+
+**(b)** $3$;
+
+**(c)** $5$.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Jeśli cyfrą jedności $n$ jest $5$, to $n$ nie jest liczbą parzystą.
+
+c) Jeśli cyfrą jedności $n$ jest $2$, to $n$ nie jest liczbą podzielną przez $5$.
+
+b) Każda z liczb $2=3-1$, $5=6-1$ jest o $1$ mniejsza od liczby podzielnej przez $3$. Wobec tego suma dziewięciu liczb, z których każda jest równa $2$ lub $5$, jest o $9$ mniejsza od sumy dziewięciu liczb podzielnych przez $3$. To oznacza, że suma cyfr liczby $n$ jest podzielna przez $3$ i w konsekwencji — również liczba $n$ jest podzielna przez $3$.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.4
+
+Liczba $\sqrt{2}+\sqrt{3}$ jest
+
+**(a)** mniejsza od $\sqrt{5}$;
+
+**(b)** równa $\sqrt{5}$;
+
+**(c)** większa od $\sqrt{5}$.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Ponieważ $\sqrt{3}>\sqrt{2}$ oraz $\sqrt{8}>\sqrt{5}$, więc $\sqrt{2}+\sqrt{3}>\sqrt{2}+\sqrt{2}=2\sqrt{2}=\sqrt{8}>\sqrt{5}$.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.5
+
+Istnieje pięciokąt, który można rozciąć wzdłuż przekątnej na dwa wielokąty
+
+**(a)** o równych polach;
+
+**(b)** o równych obwodach.
+
+**(c)** foremne.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Niech $ABCD$ będzie kwadratem o boku $1$.
+
+a) Na zewnątrz kwadratu $ABCD$ zbudujmy trójkąt równoramienny $ADE$, w którym $AE=DE$ oraz wysokość poprowadzona z wierzchołka $E$ ma długość $2$ (rys. 1). Wówczas pięciokąt $ABCDE$ można wzdłuż przekątnej $AD$ rozciąć na dwa wielokąty o polu $1$.
+
+![](PL.OMJ.2024TEST.7_8.5.png)
+
+rys. 1
+
+![](PL.OMJ.2024TEST.7_8.5A.png)
+
+rys. 2
+
+![](PL.OMJ.2024TEST.7_8.5B.png)
+
+rys. 3
+
+b) Na zewnątrz kwadratu $ABCD$ zbudujmy trójkąt równoramienny $ADF$, w którym $AF=DF=\frac{3}{2}$ (rys. 2). Wówczas pięciokąt $ABCDF$ można wzdłuż przekątnej $AD$ rozciąć na dwa wielokąty o obwodzie $4$.
+
+c) Na zewnątrz kwadratu $ABCD$ zbudujmy trójkąt równoboczny $ADG$ (rys. 3). Wówczas pięciokąt $ABCDG$ można wzdłuż przekątnej $AD$ rozciąć na dwa wielokąty foremne.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.6
+
+Istnieją cztery kolejne liczby całkowite, których suma jest podzielna przez
+
+**(a)** $18$;
+
+**(b)** $19$;
+
+**(c)** $20$.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Liczba $3+4+5+6=18$ jest podzielna przez $18$.
+
+b) Liczba $8+9+10+11=38$ jest podzielna przez $19$.
+
+c) Suma czterech kolejnych liczb całkowitych, najmniejszą z których jest $n$, wynosi
+$$
+n+(n+1)+(n+2)+(n+3)=4n+6=2(2n+3).
+$$
+Dla każdej liczby całkowitej $n$ liczba $2n+3$ jest nieparzysta, więc liczba $2(2n+3)$ nie jest podzielna przez $4$. Nie jest to więc także liczba podzielna przez $4\cdot5=20$.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.7
+
+Istnieją liczby rzeczywiste $a$, $b$, $c$ spełniające warunek $a<b<c$, których średnia arytmetyczna jest
+
+**(a)** mniejsza od średniej arytmetycznej liczb $a$ oraz $b$;
+
+**(b)** mniejsza od średniej arytmetycznej liczb $b$ oraz $c$;
+
+**(c)** mniejsza od średniej arytmetycznej liczb $a$ oraz $c$.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Skoro $c>a$ oraz $c>b$, to $2c>a+b$, czyli $c>\frac{a+b}{2}$. Wobec tego
+$$
+\frac{a+b+c}{3}>\frac{a+b+\frac{a+b}{2}}{3}=\frac{\frac{3(a+b)}{2}}{3}=\frac{a+b}{2}.
+$$
+
+b), c) Jeżeli $a=1$, $b=2$, $c=6$, to średnia arytmetyczna liczb $a$, $b$, $c$ jest równa $\frac{a+b+c}{3}=3$, więc jest mniejsza od każdej z liczb $\frac{a+c}{2}=3{,}5$ oraz $\frac{b+c}{2}=4$.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.8
+
+Każdą dodatnią liczbę nieparzystą można przedstawić jako
+
+**(a)** różnicę dwóch liczb pierwszych;
+
+**(b)** różnicę dwóch liczb złożonych;
+
+**(c)** różnicę dwóch kwadratów liczb całkowitych.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Wykażemy, że liczby $7$ nie można zapisać w postaci różnicy dwóch liczb pierwszych. Przypuśćmy, że $p-q=7$ dla pewnych liczb pierwszych $p$, $q$. Wówczas jedna z liczb $p$, $q$ jest parzysta, a druga — nieparzysta. Jedyną parzystą liczbą pierwszą jest $2$, a ponieważ $p>7$, więc wynika z tego, że $q=2$. Jednak wówczas uzyskujemy $p=9$, a to jest liczba złożona. Otrzymana sprzeczność oznacza, że nie jest możliwe przedstawienie liczby $7$ w postaci różnicy dwóch liczb pierwszych.
+
+b) Zauważmy, że $1=9-8$ jest szukanym przedstawieniem liczby $1$. Jeżeli $n\geqslant3$ jest liczbą nieparzystą, to $n=3n-2n$. Każda z liczb $3n$ oraz $2n$ jest złożona, bo jest iloczynem dwóch liczb całkowitych większych od $1$.
+
+c) Każdą dodatnią liczbę nieparzystą można zapisać w postaci $2k-1$, gdzie $k\geqslant1$ jest liczbą całkowitą. Wówczas $2k-1=k^2-(k-1)^2$ jest przedstawieniem liczby $2k-1$ w postaci różnicy kwadratów dwóch liczb całkowitych.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.9
+
+Liczby rzeczywiste $x$ i $y$ spełniają warunek $x-y\geqslant x^2$. Wynika z tego, że
+
+**(a)** $x\geqslant0$;
+
+**(b)** $y\leqslant0$;
+
+**(c)** $x\geqslant y$.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Jeśli $x=-1$ oraz $y=-2$, to dany warunek jest spełniony oraz $x<0$.
+
+b) Jeśli $x=\frac{1}{2}$ oraz $y=\frac{1}{4}$, to dany warunek jest spełniony oraz $y>0$.
+
+c) Skoro $x^2\geqslant0$ dla każdej liczby rzeczywistej $x$, to z danego warunku uzyskujemy, że $x-y\geqslant0$, czyli $x\geqslant y$.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.10
+
+Istnieje trójkąt prostokątny, w którym długości wszystkich boków są liczbami całkowitymi, a ponadto
+
+**(a)** długość dokładnie jednego boku jest parzysta;
+
+**(b)** długości dokładnie dwóch boków są parzyste;
+
+**(c)** długości wszystkich trzech boków są parzyste.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Trójkąt o bokach długości $3$, $4$, $5$ jest prostokątny i ma dokładnie jeden bok o parzystej długości.
+
+c) Trójkąt o bokach długości $6$, $8$, $10$ jest prostokątny i ma wszystkie trzy boki o parzystej długości.
+
+b) Załóżmy, że pewien trójkąt prostokątny ma przyprostokątne o długości $a$, $b$ oraz przeciwprostokątną o długości $c$, przy czym liczby $a$, $b$, $c$ są całkowite. W myśl twierdzenia Pitagorasa zachodzi równość $a^2+b^2=c^2$. To oznacza, że liczba $a^2+b^2+c^2=2c^2$ jest parzysta, więc wśród składników $a^2$, $b^2$, $c^2$ jest parzysta liczba liczb nieparzystych. W konsekwencji wśród liczb $a$, $b$, $c$ jest parzysta liczba liczb nieparzystych. Nie jest więc możliwe, że dokładnie dwie z tych liczb są parzyste.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.11
+
+Punkt $P$ leży wewnątrz trójkąta prostokątnego $ABC$, w którym $\angle ACB=90^\circ$ oraz $AC>BC$. Wynika z tego, że
+
+**(a)** $\angle APB>90^\circ$;
+
+**(b)** $\angle APC>90^\circ$;
+
+**(c)** $\angle APC>\angle BPC$.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Zauważmy, że $\angle PAB<\angle CAB$ oraz $\angle PBA<\angle CBA$ (rys. 4). Zatem
+$$
+\angle PAB+\angle PBA<\angle CAB+\angle CBA=180^\circ-\angle ACB=90^\circ.
+$$
+W konsekwencji
+$$
+\angle APB=180^\circ-(\angle PAB+\angle PBA)>180^\circ-90^\circ=90^\circ.
+$$
+
+![](PL.OMJ.2024TEST.7_8.11.png)
+
+rys. 4
+
+![](PL.OMJ.2024TEST.7_8.11A.png)
+
+rys. 5
+
+b), c) Rozważmy dowolny trójkąt prostokątny $ABC$ spełniający warunki zadania. Wybierzmy punkt $P$ wewnątrz trójkąta w taki sposób, aby znalazł się na okręgu o środku $A$ i promieniu $AC$, tzn. $AP=AC$ (rys. 5). Wówczas $\angle APC<90^\circ$, gdyż jest to kąt między podstawą i ramieniem w trójkącie równoramiennym $ACP$.
+
+Niech $D$ będzie spodkiem wysokości trójkąta $ABC$ poprowadzonej z wierzchołka $C$. Wówczas punkt $P$ znajduje się wewnątrz trójkąta prostokątnego $BCD$. Stosując udowodniony już punkt a) do tego trójkąta, otrzymujemy $\angle BPC>90^\circ$. W połączeniu z nierównością $\angle APC<90^\circ$ oznacza to, że $\angle BPC>\angle APC$.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.12
+
+Tablica o wymiarach $4\times4$ składa się z kwadratowych pól o boku $1$. Dokładnie osiem pól tej tablicy jest koloru czarnego. Wynika z tego, że środki pewnych dwóch z tych ośmiu pól są odległe o
+
+**(a)** $1$;
+
+**(b)** $\sqrt{2}$;
+
+**(c)** $2$.
+
+<small>
+
+* answer:N,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Jeżeli tablica pokolorowana jest tak, jak na rysunku 6 (w „szachownicę”), to żadne dwa czarne pola nie sąsiadują bokiem. Wobec tego środki żadnych dwóch czarnych pól nie są odległe o $1$.
+
+b) Jeżeli tablica pokolorowana jest tak, jak na rysunku 7 (w „paski”), to żadne dwa czarne pola nie stykają się tylko rogiem. Wobec tego środki żadnych dwóch czarnych pól nie są odległe o $\sqrt{2}$.
+
+c) Pola o środkach odległych o $2$ to pola w tym samym wierszu lub kolumnie, między którymi znajduje się dokładnie jedno inne pole. Jeżeli tablica pokolorowana jest tak, jak na rysunku 8, to środki żadnych dwóch czarnych pól nie są odległe o $2$.
+
+![](PL.OMJ.2024TEST.7_8.12.png)
+
+rys. 6
+
+![](PL.OMJ.2024TEST.7_8.12A.png)
+
+rys. 7
+
+![](PL.OMJ.2024TEST.7_8.12B.png)
+
+rys. 8
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.13
+
+Z każdych pięciu dodatnich liczb całkowitych można wybrać
+
+**(a)** takie dwie, których suma jest podzielna przez $2$;
+
+**(b)** takie trzy, których suma jest podzielna przez $3$;
+
+**(c)** takie cztery, których suma jest podzielna przez $4$.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Wśród dowolnych pięciu (a nawet wśród dowolnych trzech) liczb całkowitych są albo co najmniej dwie liczby parzyste, albo co najmniej dwie liczby nieparzyste. Zarówno suma dwóch liczb parzystych, jak i suma dwóch liczb nieparzystych, jest liczbą podzielną przez $2$.
+
+b) Rozważmy dowolne pięć liczb całkowitych i obliczmy reszty z dzielenia tych liczb przez $3$. Są dwa możliwe przypadki:
+
+* Pewna reszta $r$ pojawia się co najmniej trzykrotnie.
+
+  Wybierzmy dowolne trzy liczby dające tę resztę z dzielenia przez $3$, tzn. liczby postaci $3a+r$, $3b+r$, $3c+r$ dla pewnych liczb całkowitych $a$, $b$, $c$. Suma wybranych liczb jest równa
+  $$
+  (3a+r)+(3b+r)+(3c+r)=3(a+b+c+r),
+  $$
+  więc jest to liczba podzielna przez $3$.
+
+* Każda z reszt $0$, $1$, $2$ pojawia się co najwyżej dwukrotnie.
+
+  Skoro liczb jest pięć, to każda z tych reszt pojawia się co najmniej raz. Wybierzmy po jednej liczbie dla każdej z tych reszt, tzn. liczby postaci $3a$, $3b+1$, $3c+2$ dla pewnych liczb całkowitych $a$, $b$, $c$. Suma tych trzech liczb jest równa
+  $$
+  3a+(3b+1)+(3c+2)=3(a+b+c+1),
+  $$
+  więc jest podzielna przez $3$.
+
+c) Rozważmy liczby $1$, $2$, $4$, $8$, $12$. Żadna z sum czterech spośród tych pięciu liczb:
+$$
+1+2+4+8=15,\quad 1+2+4+12=19,\quad 1+2+8+12=23,\quad 1+4+8+12=25,\quad 2+4+8+12=26
+$$
+nie jest liczbą podzielną przez $4$.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.14
+
+Każda dodatnia liczba całkowita została pokolorowana albo na czerwono, albo na niebiesko. Wynika z tego, że
+
+**(a)** pewna liczba większa od $1$ ma ten sam kolor, co jej wszystkie dodatnie dzielniki;
+
+**(b)** pewna liczba ma ten sam kolor, co jej dwukrotność;
+
+**(c)** pewne dwie liczby różniące się o $20$ mają ten sam kolor.
+
+<small>
+
+* answer:N,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Jeżeli liczba $1$ jest czerwona, a wszystkie pozostałe liczby są niebieskie, to każda liczba większa od $1$ ma dodatni dzielnik w innym kolorze niż swój własny kolor (mianowicie dzielnik równy $1$).
+
+b) Rozważmy kolorowanie, w którym wszystkie liczby mające parzystą liczbę dwójek w rozkładzie na czynniki pierwsze są czerwone, a wszystkie liczby mające nieparzystą liczbę dwójek w rozkładzie na czynniki pierwsze są niebieskie. Wówczas każda liczba ma inny kolor niż jej dwukrotność.
+
+c) Rozważmy kolorowanie, w którym czerwone są liczby dające przy dzieleniu przez $40$ jedną z reszt $0$, $1$, $2$, $\ldots$, $19$, a niebieskie są liczby dające przy dzieleniu przez $40$ jedną z reszt $20$, $21$, $22$, $\ldots$, $39$. Wówczas każde dwie liczby różniące się o $20$ mają różny kolor.
+
+
+# <lo-sample/> PL.OMJ.2024TEST.7_8.15
+
+Punkty $D$ i $E$ leżą odpowiednio na bokach $BC$ i $AC$ trójkąta $ABC$, przy czym $\angle ADC=\angle BEC$. Odcinki $AD$ i $BE$ przecinają się w punkcie $P$. Wynika z tego, że
+
+**(a)** $\angle CAD=\angle CBE$;
+
+**(b)** $\angle ACP=\angle BCP$;
+
+**(c)** $\angle DEP=\angle BAP$.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Korzystając z własności sumy miar kątów wewnętrznych w trójkątach $ACD$ i $BCE$ (rys. 9), otrzymujemy
+$$
+\angle CAD=180^\circ-\angle ACB-\angle ADC=180^\circ-\angle ACB-\angle BEC=\angle CBE.
+$$
+
+![](PL.OMJ.2024TEST.7_8.15.png)
+
+rys. 9
+
+![](PL.OMJ.2024TEST.7_8.15A.png)
+
+rys. 10
+
+b) Rozważmy dowolny trójkąt ostrokątny $ABC$, w którym $\angle BAC\neq\angle ABC$. Oznaczmy przez $D$ oraz $E$ spodki wysokości poprowadzonych odpowiednio z wierzchołków $A$ oraz $B$ (rys. 10). Wówczas $\angle ADC=90^\circ=\angle BEC$.
+
+Punkt $P$ jest przecięciem dwóch spośród wysokości trójkąta $ABC$, więc leży także na trzeciej wysokości. To oznacza, że jeżeli przez $F$ oznaczymy punkt przecięcia prostej $CP$ i boku $AB$, to $\angle AFC=\angle BFC=90^\circ$. W konsekwencji
+$$
+\angle ACP=\angle ACF=90^\circ-\angle BAC\neq90^\circ-\angle ABC=\angle BCF=\angle BCP.
+$$
+
+c) Z udowodnionej w punkcie a) równości $\angle DAE=\angle DBE$ oraz tego, że punkty $A$ i $B$ leżą po tej samej stronie prostej $DE$ wynika, że na czworokącie $ABDE$ można opisać okrąg (rys. 11). W konsekwencji $\angle DEP=\angle DEB=\angle DAB=\angle BAP$.
+
+![](PL.OMJ.2024TEST.7_8.15B.png)
+
+rys. 11

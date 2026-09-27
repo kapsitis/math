@@ -1,0 +1,6 @@
+PL.OMJ.2011TEST.7_8.4.png: caption, test-2011-rozw p.3, 616x267px, exists, kept
+PL.OMJ.2011TEST.7_8.9.png: caption, test-2011-rozw p.5, 399x338px, exists, kept
+PL.OMJ.2011TEST.7_8.11.png: caption, test-2011-rozw p.6, 267x267px, exists, kept
+PL.OMJ.2011TEST.7_8.13.png: caption, test-2011-rozw p.8, 396x520px, exists, kept
+PL.OMJ.2011TEST.7_8.13A.png: caption, test-2011-rozw p.8, 399x617px, exists, kept
+PL.OMJ.2011TEST.7_8.13B.png: caption, test-2011-rozw p.8, 568x376px, exists, kept

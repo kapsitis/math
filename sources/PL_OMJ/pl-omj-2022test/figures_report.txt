@@ -1,0 +1,17 @@
+PL.OMJ.2022TEST.7_8.4.png: caption, test-2022-rozw p.2, 268x256px, saved
+PL.OMJ.2022TEST.7_8.4A.png: caption, test-2022-rozw p.2, 246x281px, saved
+PL.OMJ.2022TEST.7_8.4B.png: caption, test-2022-rozw p.2, 281x281px, saved
+PL.OMJ.2022TEST.7_8.6.png: caption, test-2022-rozw p.3, 301x276px, saved
+PL.OMJ.2022TEST.7_8.6A.png: caption, test-2022-rozw p.3, 301x276px, saved
+PL.OMJ.2022TEST.7_8.8.png: caption, test-2022-rozw p.4, 254x254px, saved
+PL.OMJ.2022TEST.7_8.8A.png: caption, test-2022-rozw p.4, 254x254px, saved
+PL.OMJ.2022TEST.7_8.9.png: caption, test-2022-rozw p.5, 535x339px, saved
+PL.OMJ.2022TEST.7_8.12.png: caption, test-2022-rozw p.7, 261x284px, saved
+PL.OMJ.2022TEST.7_8.12A.png: caption, test-2022-rozw p.7, 261x284px, saved
+PL.OMJ.2022TEST.7_8.12B.png: caption, test-2022-rozw p.7, 396x302px, saved
+PL.OMJ.2022TEST.7_8.14.png: caption, test-2022-rozw p.8, 460x404px, saved
+PL.OMJ.2022TEST.7_8.15.png: caption, test-2022-rozw p.9, 361x268px, saved
+PL.OMJ.2022TEST.7_8.15A.png: caption, test-2022-rozw p.9, 562x229px, saved
+PL.OMJ.2022TEST.7_8.15B.png: caption, test-2022-rozw p.9, 725x386px, saved
+PL.OMJ.2022TEST.7_8.15C.png: caption, test-2022-rozw p.10, 507x144px, saved
+PL.OMJ.2022TEST.7_8.15D.png: caption, test-2022-rozw p.10, 611x144px, saved

@@ -1,0 +1,498 @@
+# <lo-sample/> PL.OMJ.2022TEST.7_8.1
+
+Liczba $2022$ jest podzielna przez sumę swoich cyfr. Tę własność ma również liczba
+
+**(a)** $2023$;
+
+**(b)** $2024$;
+
+**(c)** $2025$.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Bezpośrednio sprawdzamy, że $2023=7\cdot 289=(2+0+2+3)\cdot 289$.
+
+b) Zauważmy, że $2024$ to liczba zakończona cyframi „$024$”, wobec czego na mocy cechy podzielności przez $8$ jest liczbą podzielną przez $8=2+0+2+4$.
+
+c) Suma cyfr liczby $2025$ jest równa $9$, więc na mocy cechy podzielności przez $9$ liczba $2025$ jest podzielna przez $9=2+0+2+5$.
+
+**Uwaga.**
+
+Liczby $2022$, $2023$, $2024$, $2025$ to cztery kolejne liczby naturalne, z których każda jest podzielna przez sumę swoich cyfr. Poprzednia taka czwórka to liczby od $1014$ do $1017$, a następna — od $3030$ do $3033$. Okazuje się, że istnieje nawet $20$ kolejnych liczb naturalnych o tej własności, ale $21$ — już nie.
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.2
+
+Liczba $100^{100}$ jest
+
+**(a)** $100$-cyfrowa;
+
+**(b)** $200$-cyfrowa;
+
+**(c)** $300$-cyfrowa.
+
+<small>
+
+* answer:N,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Zauważmy, że
+
+$$100^{100}=(10^2)^{100}=10^{200}=\underbrace{100\ldots0}_{200\ \text{zer}},$$
+
+co oznacza, że liczba $100^{100}$ jest $201$-cyfrowa.
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.3
+
+Jeśli każdy bok kwadratu wydłużymy o $10\%$, to
+
+**(a)** długość przekątnej tego kwadratu wzrośnie o $10\%$;
+
+**(b)** pole tego kwadratu wzrośnie o $20\%$;
+
+**(c)** obwód tego kwadratu wzrośnie o $40\%$.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Przypuśćmy, że początkowo bok kwadratu ma długość $a$. Jeśli każdy bok wydłużymy o $10\%$, to uzyskamy kwadrat o boku $1{,}1a$.
+
+a) Długość przekątnej kwadratu o boku $a$ jest równa $a\sqrt2$, a długość przekątnej kwadratu o boku $1{,}1a$ jest równa $1{,}1\cdot a\sqrt2$. Jest to liczba o $10\%$ większa od $a\sqrt2$.
+
+b) Pole kwadratu o boku $a$ jest równe $a^2$, a pole kwadratu o boku $1{,}1a$ jest równe $(1{,}1a)^2=1{,}21\cdot a^2$. Jest to liczba o $21\%$ większa od $a^2$.
+
+c) Obwód kwadratu o boku $a$ jest równy $4a$, a obwód kwadratu o boku $1{,}1a$ jest równy $4{,}4a=1{,}1\cdot 4a$. Jest to liczba o $10\%$ większa od $4a$.
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.4
+
+Co najmniej jedną parę prostopadłych przekątnych ma
+
+**(a)** pięciokąt foremny;
+
+**(b)** sześciokąt foremny;
+
+**(c)** ośmiokąt foremny.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Dwa odcinki są prostopadłe dokładnie wtedy, gdy ich symetralne są prostopadłe. Tymczasem kąt między symetralnymi dwóch przekątnych pięciokąta foremnego jest całkowitą wielokrotnością kąta $\frac15\cdot 360^\circ=72^\circ$, czyli nie może być prosty (rys. 1).
+
+![](PL.OMJ.2022TEST.7_8.4.png)
+
+rys. 1
+
+b), c) Przykładowa para prostopadłych przekątnych sześciokąta foremnego jest przedstawiona na rysunku 2, a przykładowa para prostopadłych przekątnych ośmiokąta foremnego — na rysunku 3. W obu przypadkach przekątna pozioma jest symetryczna względem prostej zawierającej przekątną pionową.
+
+![](PL.OMJ.2022TEST.7_8.4A.png)
+
+rys. 2
+
+![](PL.OMJ.2022TEST.7_8.4B.png)
+
+rys. 3
+
+**Uwaga.**
+
+Wielokąt foremny ma parę prostopadłych przekątnych dokładnie wtedy, gdy ma parzystą liczbę boków.
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.5
+
+Liczbę $18$ można przedstawić w postaci sumy
+
+**(a)** trzech kolejnych liczb całkowitych;
+
+**(b)** sześciu kolejnych liczb całkowitych;
+
+**(c)** dwunastu kolejnych liczb całkowitych.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), c) Zauważmy, że $18=5+6+7=(-4)+(-3)+(-2)+(-1)+0+1+2+3+4+5+6+7$.
+
+b) Przypuśćmy, że $18=n+(n+1)+(n+2)+(n+3)+(n+4)+(n+5)$ dla pewnej liczby $n$. To oznacza, że $18=6n+15$, czyli $n=\frac12$. Liczba $\frac12$ nie jest całkowita, więc żądane przedstawienie nie jest możliwe.
+
+**Uwaga.**
+
+Wszystkie liczby $n\geqslant 2$ o tej własności, że liczbę $18$ można przedstawić w postaci sumy $n$ kolejnych liczb całkowitych to $3$, $4$, $9$, $12$ oraz $36$.
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.6
+
+Punkt $P$ leży wewnątrz trójkąta równobocznego $ABC$, przy czym zachodzi równość $\angle PAB+\angle PBC=60^\circ$. Wynika z tego, że
+
+**(a)** $\angle PAB=30^\circ$;
+
+**(b)** $\angle PBC=30^\circ$;
+
+**(c)** $\angle PCA=30^\circ$.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Zauważmy, że $\angle PBA=60^\circ-\angle PBC$, wobec czego punkt $P$ spełnia daną w treści zadania równość wtedy i tylko wtedy, gdy $\angle PAB=\angle PBA$ (rys. 4).
+
+![](PL.OMJ.2022TEST.7_8.6.png)
+
+rys. 4
+
+c) Jeśli $\angle PAB=\angle PBA$, to trójkąt $ABP$ jest równoramienny i $AP=BP$. Z kolei trójkąt $ABC$ jest równoboczny, więc $AC=BC$. Oznacza to, że trójkąty $PAC$ oraz $PBC$ są przystające (cecha bok–bok–bok) i w konsekwencji $\angle PCA=\angle PCB=\frac12\cdot \angle ACB=30^\circ$.
+
+a), b) Jeśli punkt $P$ zostanie wybrany w taki sposób, że $\angle PAB=\angle PBA\neq 30^\circ$ (rys. 5), to założenia zadania będą spełnione, ale $\angle PAB\neq 30^\circ$ oraz $\angle PBC=60^\circ-\angle PBA\neq 30^\circ$.
+
+![](PL.OMJ.2022TEST.7_8.6A.png)
+
+rys. 5
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.7
+
+Istnieje taka liczba rzeczywista $x$, że żadne dwie spośród liczb $x$, $x^2$, $x^3$ nie są równe, a największą z nich jest
+
+**(a)** $x$;
+
+**(b)** $x^2$;
+
+**(c)** $x^3$.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Jeżeli $x=\frac12$, to $x^2=\frac14$ i $x^3=\frac18$, więc $x$ jest największą spośród tych trzech liczb.
+
+b) Jeżeli $x=-2$, to $x^2=4$ i $x^3=-8$, więc $x^2$ jest największą spośród tych trzech liczb.
+
+c) Jeżeli $x=2$, to $x^2=4$ i $x^3=8$, więc $x^3$ jest największą spośród tych trzech liczb.
+
+**Uwaga.**
+
+Liczby $x$, $x^2$, $x^3$ są parami różne dokładnie wtedy, gdy $x$ jest liczbą różną od $-1$, $0$, $1$. Jeśli $x<0$, to $x^2$ jest największą z liczb $x$, $x^2$, $x^3$; jeśli $0<x<1$, to $x$ jest największą z tych trzech liczb, a jeśli $x>1$, to $x^3$ jest największą z tych trzech liczb.
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.8
+
+Kwadrat $5\times 5$ można rozciąć na prostokąty, z których każdy ma wymiary
+
+**(a)** $1\times 2$ lub $1\times 4$;
+
+**(b)** $1\times 2$ lub $1\times 3$;
+
+**(c)** $1\times 3$ lub $1\times 4$.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Kwadrat $5\times 5$ ma pole $25$, czyli wyrażające się liczbą nieparzystą. Tymczasem każdy z prostokątów $1\times 2$ lub $1\times 4$ ma pole wyrażające się liczbą parzystą. Suma liczb parzystych nie może być liczbą nieparzystą, co oznacza, że rozcięcie nie jest możliwe.
+
+b), c) Przykładowe rozcięcia przedstawione są na rysunkach 6 i 7.
+
+![](PL.OMJ.2022TEST.7_8.8.png)
+
+rys. 6
+
+![](PL.OMJ.2022TEST.7_8.8A.png)
+
+rys. 7
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.9
+
+Punkt $P$ leży wewnątrz czworokąta $ABCD$, przy czym trójkąty $ABP$ oraz $CDP$ są równoboczne. Wynika z tego, że
+
+**(a)** $AB=CD$;
+
+**(b)** $AC=BD$;
+
+**(c)** $AD=BC$.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Zauważmy, że
+
+$$\angle BPC+\angle APD=360^\circ-\angle APB-\angle CPD=240^\circ,$$
+
+więc co najmniej jeden z kątów $BPC$, $APD$ ma miarę nie większą od $120^\circ$. Przypuśćmy, że $\angle BPC\leqslant 120^\circ$; rozumowanie w drugim przypadku jest analogiczne.
+
+b) Ponieważ $AP=BP$, $CP=DP$ oraz
+
+$$\angle APC=\angle BPC+\angle APB=\angle BPC+60^\circ=\angle BPC+\angle CPD=\angle BPD,$$
+
+więc trójkąty $APC$ oraz $BPD$ są przystające (cecha bok–kąt–bok). To oznacza, że $AC=BD$.
+
+![](PL.OMJ.2022TEST.7_8.9.png)
+
+rys. 8
+
+a), c) Wybierając punkty $A$, $B$, $C$, $D$, $P$ w taki sposób, że $AP=BP\neq CP=DP$, $\angle APB=\angle CPD=60^\circ$ oraz $60^\circ<\angle BPC<120^\circ$ (rys. 8), uzyskujemy konfigurację spełniającą warunki zadania, w której $AB\neq CD$. Ponadto $\angle APD=240^\circ-\angle BPC>120^\circ$, czyli w szczególności $\angle BPC\neq \angle APD$. Równość $AD=BC$ oznaczałaby, że trójkąty $BPC$ oraz $APD$ są przystające (cecha bok–bok–bok), skąd $\angle BPC=\angle APD$. To oznacza, że $AD\neq BC$.
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.10
+
+Liczba naturalna $m$ ma dokładnie $3$ dodatnie dzielniki, a liczba naturalna $n$ ma dokładnie $5$ dodatnich dzielników. Wynika z tego, że
+
+**(a)** $m<n$;
+
+**(b)** liczba $m\cdot n$ ma co najmniej $8$ dodatnich dzielników;
+
+**(c)** liczba $m\cdot n$ ma co najwyżej $15$ dodatnich dzielników.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Przyjmijmy, że $m=25$ oraz $n=16$. Wówczas liczba $m$ ma dokładnie $3$ dodatnie dzielniki: $1$, $5$, $25$, liczba $n$ ma dokładnie $5$ dodatnich dzielników: $1$, $2$, $4$, $8$, $16$ oraz $m>n$.
+
+b) Przyjmijmy, że $m=4$ oraz $n=16$. Wówczas liczba $m$ ma dokładnie $3$ dodatnie dzielniki: $1$, $2$, $4$, a liczba $n$ ma dokładnie $5$ dodatnich dzielników: $1$, $2$, $4$, $8$, $16$. Liczba $m\cdot n=64$ ma dokładnie $7$ dodatnich dzielników: $1$, $2$, $4$, $8$, $16$, $32$, $64$.
+
+c) Każdy dodatni dzielnik liczby $m\cdot n$ można przedstawić w postaci $c\cdot d$, gdzie $c$ jest dodatnim dzielnikiem liczby $m$, a $d$ jest dodatnim dzielnikiem liczby $n$ (być może na więcej niż jeden sposób). To oznacza, że liczba $m\cdot n$ ma co najwyżej $3\cdot 5=15$ dodatnich dzielników.
+
+**Uwaga.**
+
+Można uzasadnić, że jeśli liczba $m$ ma dokładnie $3$ dodatnie dzielniki, to jest postaci $p^2$ dla pewnej liczby pierwszej $p$, a jeśli liczba $n$ ma dokładnie $5$ dodatnich dzielników, to jest postaci $q^4$ dla pewnej liczby pierwszej $q$. Jeżeli $p=q$, to iloczyn $m\cdot n$ ma dokładnie $7$ dodatnich dzielników. Jeżeli zaś $p\neq q$, to iloczyn $m\cdot n$ ma dokładnie $15$ dodatnich dzielników.
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.11
+
+Ułamek o liczniku równym $1$ oraz mianowniku będącym dodatnią liczbą całkowitą nazywamy prostym. Liczbę $\frac17$ można przedstawić jako
+
+**(a)** iloczyn dwóch ułamków prostych;
+
+**(b)** różnicę dwóch ułamków prostych;
+
+**(c)** sumę dwóch ułamków prostych.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Zauważmy, że $\frac17=\frac11\cdot \frac17=\frac16-\frac1{42}=\frac1{14}+\frac1{14}=\frac18+\frac1{56}$.
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.12
+
+Dokładnie siedem spośród krawędzi pewnego sześcianu pomalowano na czerwono. Wynika z tego, że
+
+**(a)** pewien wierzchołek sześcianu jest końcem mniej niż dwóch czerwonych krawędzi;
+
+**(b)** pewna ściana sześcianu ma dokładnie dwa czerwone boki;
+
+**(c)** pewne trzy czerwone krawędzie są równoległe.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Przypuśćmy, że każdy wierzchołek jest końcem co najmniej dwóch czerwonych krawędzi. To oznacza, że czerwone krawędzie mają łącznie co najmniej $8\cdot 2=16$ końców, czyli tych krawędzi jest co najmniej $8$ (gdyż każda krawędź ma dwa końce). Zatem jeśli czerwonych krawędzi jest mniej niż $8$, to pewien wierzchołek sześcianu jest końcem co najwyżej jednej czerwonej krawędzi.
+
+c) Zauważmy, że sześcian ma trzy czwórki równoległych krawędzi (rys. 9). Wobec tego jeśli siedem krawędzi sześcianu ma kolor czerwony, to co najmniej trzy czerwone krawędzie należą do tej samej czwórki — czyli są równoległe.
+
+b) Jeżeli na czerwono zostały pomalowane krawędzie pogrubione na rysunku 10, to sześcian ma cztery ściany o dokładnie trzech czerwonych bokach oraz dwie ściany o dokładnie jednym czerwonym boku.
+
+![](PL.OMJ.2022TEST.7_8.12.png)
+
+rys. 9
+
+![](PL.OMJ.2022TEST.7_8.12A.png)
+
+rys. 10
+
+![](PL.OMJ.2022TEST.7_8.12B.png)
+
+rys. 11
+
+**Uwaga.**
+
+Przykład kolorowania z podpunktu b) można także przedstawić następująco: na czerwono kolorujemy wszystkie krawędzie, wzdłuż których sklejana jest siatka sześcianu z rysunku 11 (pogrubione), a niepokolorowane pozostają krawędzie, wzdłuż których ta siatka jest zaginana (przerywane).
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.13
+
+Istnieją dodatnie liczby całkowite $a$, $b$, $c$, dla których liczby $a+b$, $b+c$, $c+a$ są, w pewnej kolejności, równe
+
+**(a)** $101$, $202$, $303$;
+
+**(b)** $102$, $201$, $300$;
+
+**(c)** $201$, $302$, $403$.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Zauważmy, że jeżeli liczby $a$, $b$, $c$ są dodatnie, to suma dowolnych dwóch spośród liczb $a+b$, $b+c$, $c+a$ jest większa od trzeciej. Tymczasem $101+202=303$.
+
+b) Zauważmy, że jeżeli liczby $a$, $b$, $c$ są całkowite, to suma liczb $a+b$, $b+c$, $c+a$, równa $2(a+b+c)$ jest liczbą parzystą. Tymczasem $102+201+300=603$ jest liczbą nieparzystą.
+
+c) Jeżeli $a=50$, $b=151$, $c=252$, to $a+b=201$, $a+c=302$ oraz $b+c=403$.
+
+**Uwaga.**
+
+Znając wartości sum $a+b$, $b+c$, $c+a$, liczby $a$, $b$, $c$ można wyznaczyć korzystając z równości
+
+$$a=\frac{(a+b)+(c+a)-(b+c)}2,\quad b=\frac{(b+c)+(a+b)-(c+a)}2,\quad c=\frac{(c+a)+(b+c)-(a+b)}2.$$
+
+Można także uzasadnić, że trzy liczby są postaci $a+b$, $b+c$, $c+a$ dla dodatnich $a$, $b$, $c$ dokładnie wtedy, gdy są długościami boków pewnego trójkąta.
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.14
+
+W turnieju badmintona wzięło udział $6$ osób, każde dwie osoby rozegrały dokładnie jeden mecz i żaden mecz nie zakończył się remisem. Wynika z tego, że istnieje osoba, która wygrała
+
+**(a)** nieparzystą liczbę meczów;
+
+**(b)** parzystą liczbę meczów;
+
+**(c)** dokładnie $2$ mecze lub dokładnie $3$ mecze.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Wynikiem zawodnika nazwiemy liczbę meczów wygranych przez tego zawodnika. Ponieważ rozegrano dokładnie $15$ meczów, więc suma wyników wszystkich sześciu zawodników jest równa $15$.
+
+a) Gdyby każdy zawodnik miał parzysty wynik, to suma wszystkich wyników również byłaby liczbą parzystą, czyli nie mogłaby być równa $15$.
+
+b) Gdyby każdy zawodnik miał nieparzysty wynik, to suma wszystkich wyników byłaby liczbą parzystą (jako suma sześciu liczb nieparzystych), czyli nie mogłaby być równa $15$.
+
+c) Nazwijmy zawodników turnieju $A$, $B$, $C$, $D$, $E$, $F$. Przypuśćmy, że $A$ wygrał z $B$, $B$ wygrał z $C$, $C$ wygrał z $A$ oraz $D$ wygrał z $E$, $E$ wygrał z $F$, $F$ wygrał z $D$, a ponadto każdy z zawodników $A$, $B$, $C$ wygrał z każdym z zawodników $D$, $E$, $F$ (co zilustrowano na rysunku 12, przy czym każda strzałka prowadzi od zwycięzcy do przegranego). Przy takim układzie rozstrzygnięć meczów każdy z zawodników $A$, $B$, $C$ wygrał dokładnie $4$ mecze, a każdy z zawodników $D$, $E$, $F$ wygrał dokładnie $1$ mecz.
+
+![](PL.OMJ.2022TEST.7_8.14.png)
+
+rys. 12
+
+
+# <lo-sample/> PL.OMJ.2022TEST.7_8.15
+
+Odcinki $AC$ i $BD$ przecinają się w punkcie $P$, przy czym $AP<CP$ oraz $BP<DP$. Wynika z tego, że
+
+**(a)** $AB<CD$;
+
+**(b)** obwód trójkąta $ABP$ jest mniejszy od obwodu trójkąta $CDP$;
+
+**(c)** odległość punktu $P$ od prostej $AB$ jest mniejsza od odległości $P$ od prostej $CD$.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+b) Niech $A'$ będzie takim punktem odcinka $CP$, że $A'P=AP$, a $B'$ będzie takim punktem odcinka $DP$, że $B'P=BP$. Innymi słowy — punkty $A'$ oraz $B'$ są obrazami odpowiednio punktów $A$ oraz $B$ w symetrii środkowej względem punktu $P$ (rys. 13). Wówczas trójkąty $ABP$ oraz $A'B'P$ są przystające (cecha bok–kąt–bok), skąd wynika, że $AB=A'B'$ oraz obwód trójkąta $ABP$ jest równy obwodowi trójkąta $A'B'P$. Zauważmy, że $A'B'<A'C+CD+DB'$, wobec czego
+
+$$A'P+A'B'+B'P<A'P+A'C+CD+DB'+B'P=AC+CD+DP,$$
+
+czyli obwód trójkąta $A'B'P$ jest mniejszy od obwodu trójkąta $CDP$.
+
+![](PL.OMJ.2022TEST.7_8.15.png)
+
+rys. 13
+
+a) Rozważmy trójkąt $CDP$, w którym $CP=DP>CD$. Na boku $CP$ tego trójkąta wybierzmy punkty $A'$ oraz $X$ w taki sposób, że $A'X=CD$ oraz $A'$ leży na odcinku $CX$, a na boku $DP$ — taki punkt $B'$, że odcinek $B'X$ jest równoległy do $CD$ (rys. 14). Wreszcie punkty $A$ i $B$ zdefiniujmy jako symetryczne odpowiednio do punktów $A'$ i $B'$ względem punktu $P$. Wówczas w trójkącie $A'B'X$ kąt przy wierzchołku $X$ jest rozwarty, wobec czego bok $A'B'$ leżący naprzeciw tego kąta jest dłuższy od boku $A'X$. Stąd $AB=A'B'>A'X=CD$.
+
+![](PL.OMJ.2022TEST.7_8.15A.png)
+
+rys. 14
+
+c) Rozważmy trójkąt $ABP$, w którym $AP=BP$ oraz $\angle APB<60^\circ$ i oznaczmy przez $A'$, $B'$ punkty symetryczne odpowiednio do $A$, $B$ względem punktu $P$. Niech $\omega$ będzie okręgiem o środku w punkcie $P$, który jest styczny do odcinków $AB$ oraz $A'B'$. Rozważmy dowolną cięciwę okręgu $\omega$, której przedłużenie przecina półproste $PA'$, $PB'$ odpowiednio w takich punktach $C$, $D$, że $PC>PA'$, $PD>PB'$ (rys. 15). Wówczas odległość punktu $P$ od prostej $CD$ jest mniejsza od promienia okręgu $\omega$, czyli odległości $P$ od prostej $AB$.
+
+![](PL.OMJ.2022TEST.7_8.15B.png)
+
+rys. 15
+
+**Uwaga.**
+
+Aby przekonać się o poprawności odpowiedzi w podpunktach a) oraz c) nie trzeba wykonywać precyzyjnych konstrukcji, a wystarczy spojrzeć na odpowiednio tendencyjnie wybrane konfiguracje. Przypuśćmy, że kąt przy wierzchołku $P$ ma niewielką miarę. Przy rozmieszczeniu punktów jak na rysunku 16 uzyskujemy $AB>CD$, a przy rozmieszczeniu jak na rysunku 17 — uzyskujemy, że punkt $P$ jest bliżej prostej $CD$ niż prostej $AB$.
+
+![](PL.OMJ.2022TEST.7_8.15C.png)
+
+rys. 16
+
+![](PL.OMJ.2022TEST.7_8.15D.png)
+
+rys. 17

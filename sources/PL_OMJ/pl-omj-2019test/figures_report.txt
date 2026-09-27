@@ -1,0 +1,8 @@
+PL.OMJ.2019TEST.7_8.2.png: caption, test-2019-rozw p.1, 266x316px, saved
+PL.OMJ.2019TEST.7_8.2A.png: caption, test-2019-rozw p.1, 266x242px, saved
+PL.OMJ.2019TEST.7_8.2B.png: caption, test-2019-rozw p.1, 266x316px, saved
+PL.OMJ.2019TEST.7_8.7.png: caption, test-2019-rozw p.4, 445x417px, saved
+PL.OMJ.2019TEST.7_8.7A.png: caption, test-2019-rozw p.4, 445x450px, saved
+PL.OMJ.2019TEST.7_8.11.png: caption, test-2019-rozw p.6, 385x403px, saved
+PL.OMJ.2019TEST.7_8.13.png: caption, test-2019-rozw p.8, 384x369px, saved
+PL.OMJ.2019TEST.7_8.13A.png: caption, test-2019-rozw p.8, 384x369px, saved

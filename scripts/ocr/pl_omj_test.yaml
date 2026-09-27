@@ -1,0 +1,187 @@
+# Polish junior olympiad (Olimpiada Matematyczna Juniorów / Gimnazjalistów),
+# first round, test part: about 15 problems, each with three true/false
+# statements a), b), c); aimed at grades 7-8. The solutions ("Rozwiązania zadań
+# testowych") are in a separate PDF: test-2011.pdf -> test-2011-rozw.pdf.
+# Usage:
+#   python scripts/ocr/pdf_ocr.py sources/PL_OMJ test-2011.pdf scripts/ocr/pl_omj_test.yaml
+#   python scripts/ocr/extract_figures.py sources/PL_OMJ test-2011.pdf scripts/ocr/pl_omj_test.yaml
+#   python scripts/ocr/md_to_test_docx.py sources/PL_OMJ/pl-omj-2011test --config scripts/ocr/pl_omj_test.yaml
+
+year_regex: '(\d{4})'                      # applied to the PDF file name
+problem_id_prefix: 'PL.OMJ.{year}TEST'     # problem IDs: PL.OMJ.2011TEST.7_8.1
+output_dir: '{parent}/pl-omj-{year}test'   # {parent} = the first command-line argument
+png_name: '{stem}_p{page}.png'             # test-2011_p001.png, test-2011-rozw_p001.png
+question_type: ShortAnswer
+
+# PDFs and page ranges (1-based, both ends included); all pages of both files.
+sources:
+  test:
+    file: '{pdf}'
+  solutions:
+    file: '{stem}-rozw.pdf'
+    png_subdir: answer_pages
+
+grades: ['7_8']            # one group for all problems
+
+render:
+  dpi: 200
+
+# All lengths are PDF points (1/72 inch); the pages are A4 (595 x 842 pt).
+geometry:
+  margins:
+    left: 50
+    right: 50
+    top: 30
+    bottom: 30
+  header:                  # "Imię i nazwisko: ..... Klasa: ...." (or "Imiona:/Nazwisko:")
+    zone: 125              # at the top of every test page
+    regex: 'Imi[ęo]|Nazwisko|Klasa'
+    padding: 6
+  footer:                  # sponsor logos below a full-width rule, sponsor text,
+    zone: 110              # "1/4" page numbers
+    rule_min_width: 400    # a horizontal line at least this long: cut above it
+    regex: 'finansow|^\s*\d+\s*/\s*\d+\s*$|^\s*\d+\s*$'
+    padding: 4
+
+languages:
+  pl:
+    problems: test
+    solutions: solutions   # the whole solutions PDF goes with the (single) group
+    prompt: user_pl
+    output: content_pl.md
+
+llm:
+  provider: openai
+  api_key_env: OPENAI_API_KEY
+  model_env: OPENAI_MODEL
+  model: gpt-5.5           # used when OPENAI_MODEL is not set
+  max_completion_tokens: 64000
+  temperature: null        # null = model default (required by reasoning models)
+  image_detail: high
+
+# Placeholders: {id_prefix} {grade} {year} {stem} {num_problem_pages}
+# {num_answer_pages} {source_markdown}. Other braces (LaTeX) are kept verbatim.
+prompts:
+  system: |
+    You convert scanned pages of a mathematics olympiad into Markdown.
+    Copy the problem texts exactly in their original language; do not
+    paraphrase, shorten or solve anything yourself unless explicitly asked.
+    Convert math formulas into LaTeX and enclose them in $...$ (inline) or
+    $$...$$ (display). Ignore page headers, footers, the name/class fields,
+    the test instructions and the empty answer boxes.
+    Start and terminate your whole output with three backquotes (```).
+
+  user_pl: |
+    The first {num_problem_pages} image(s) contain a Polish olympiad test.
+    Every problem has an introductory sentence followed by three statements
+    a), b), c); each statement is either true or false. Ignore the
+    instructions on the first page and the solved example problem "0.".
+    The remaining {num_answer_pages} image(s) are the official solutions
+    ("Rozwiązania zadań testowych"): each problem is repeated there with the
+    letter T (true, "prawda") or N (false, "nie") printed to the left of
+    every statement, followed by a "Komentarz" (and sometimes "Uwaga").
+
+    Output every test problem in order, as follows (N is the problem number
+    as printed on the page):
+
+    ```
+    # <lo-sample/> {id_prefix}.{grade}.N
+
+    Introductory text in Polish (exactly as in the test pages).
+
+    **(a)** first statement;
+
+    **(b)** second statement;
+
+    **(c)** third statement.
+
+    <small>
+
+    * answer:T,N,T
+    * questionType:ShortAnswer
+
+    </small>
+
+    ## Rozwiązanie
+
+    The "Komentarz" text of this problem from the solutions, in Polish
+    (exactly as printed, without the heading "Komentarz"). Keep an
+    "Uwaga" paragraph, if any, starting it with "**Uwaga.**".
+    ```
+
+    Rules:
+    - The answer consists of the letters T or N for the statements (a), (b),
+      (c), in this order, separated by commas without spaces, exactly as
+      printed in the solutions (e.g. "answer:T,N,N").
+    - The <small> section MUST contain both keys "answer" and
+      "questionType:ShortAnswer" as shown.
+    - Every statement is a separate paragraph starting with **(a)**, **(b)**,
+      **(c)** (bold letter in parentheses, followed by a space) even if the
+      statement starts with a formula; keep the final ";" or "." of each
+      statement. Inside the solution, refer to the statements as in the
+      original ("a)", "b), c)").
+    - Keep sub-headings of the solution such as "Sposób I" as bold
+      paragraphs ("**Sposób I.**").
+    - Do not describe or redraw pictures. Where a problem statement contains
+      a figure, insert ![]({id_prefix}.{grade}.N.png) at its position; for a
+      figure in the solution use the next free name of the sequence
+      ![]({id_prefix}.{grade}.N.png), ![]({id_prefix}.{grade}.NA.png),
+      ![]({id_prefix}.{grade}.NB.png), ... and put its caption (e.g.
+      "rys. 2") as a separate line right after the placeholder.
+    - Separate problems by two empty lines.
+
+# Settings for extract_figures.py (see ee_pk_test.yaml for explanations).
+figures:
+  language: pl
+  padding: 3
+  use_llm: true
+  preview_subdir: figure_previews
+  marker:                    # problem numbers "1.", "2.", ... at the left margin
+    regex: '^\s*(\d{1,2})\.\s*$'
+    font_regex: '.'          # same font as the text; the position decides
+    max_x: 100
+  cluster:
+    gap: 6
+    min_width: 25            # the column of empty answer boxes (20 pt wide) is no figure
+    min_size: 10
+    min_items: 4
+    min_long: 40
+    min_image_side: 8
+    label_margin: 12
+    label_max_width: 60      # e.g. "Towar X:" next to a bar
+    ignore_text_regex: '^[\s.…]+$'
+  caption_regex: '^\s*rys\.\s*(\d+)\s*$'           # caption line in the solutions
+  caption_mention_regex: 'rys\.\s*(\d+)'           # caption number in the Markdown
+  caption_max_gap: 40
+  caption_stack_gap: 25      # parts stacked above each other belong to one figure
+
+  prompts:
+    system: |
+      You help to cut figures out of scanned pages of a mathematics olympiad.
+      Candidate figures are marked on the page images with red boxes, each
+      with a number in its top-left corner. Answer with JSON only.
+    select: |
+      The {part} of problem {problem_id} contains these figure placeholders,
+      in this order:
+      {placeholders}
+
+      Markdown of the {part} (placeholders show where each figure belongs):
+      {text}
+
+      Images: {pages}.
+      For every placeholder return the numbers of the red boxes that together
+      form that figure (several numbers if a figure is split into several
+      boxes). If no box covers the figure, return instead
+      {"image": <image number>, "bbox": [x0, y0, x1, y1]} with coordinates
+      scaled to 0..1000 of that image's width and height.
+      Example: {"PL.OMJ.2011TEST.7_8.4.png": [3], "PL.OMJ.2011TEST.7_8.4A.png": [4, 5]}
+
+# Settings for md_to_test_docx.py (defaults are in the script; lengths in mm).
+docx:
+  reasoning_lines: 3
+  labels:
+    pl:
+      title: 'Test z matematyki — klasy {grade} — część testowa — wariant {variant}'
+      name: 'Imię i nazwisko:'
+      class: 'Klasa:'
+      answer: 'Odpowiedź (T/N):'

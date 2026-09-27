@@ -1,0 +1,29 @@
+EE.PK.2009TEST.7.5.png: llm, pk2009 p.2, 279x240px, saved
+EE.PK.2009TEST.7.6.png: llm, pk2009 p.3, 194x194px, saved
+EE.PK.2009TEST.7.6A.png: caption, pk2009 p.27, 182x181px, saved
+EE.PK.2009TEST.7.7.png: llm, pk2009 p.3, 422x156px, saved
+EE.PK.2009TEST.7.8.png: llm, pk2009 p.3, 157x157px, saved
+EE.PK.2009TEST.7.8A.png: llm, pk2009 p.27, 156x156px, saved
+EE.PK.2009TEST.7.8B.png: llm, pk2009 p.27, 156x156px, saved
+EE.PK.2009TEST.7.8C.png: caption, pk2009 p.27, 156x156px, saved
+EE.PK.2009TEST.7.10.png: llm, pk2009 p.3, 313x240px, saved
+EE.PK.2009TEST.8.6.png: llm, pk2009 p.5, 197x215px, saved
+EE.PK.2009TEST.8.6A.png: caption, pk2009 p.29, 269x293px, saved
+EE.PK.2009TEST.8.7.png: llm, pk2009 p.5, 202x202px, saved
+EE.PK.2009TEST.8.7A.png: caption, pk2009 p.29, 202x202px, saved
+EE.PK.2009TEST.8.9.png: llm, pk2009 p.5, 157x157px, saved
+EE.PK.2009TEST.8.9A.png: llm, pk2009 p.29, 157x157px, saved
+EE.PK.2009TEST.8.9B.png: llm, pk2009 p.29, 157x157px, saved
+EE.PK.2009TEST.8.9C.png: caption, pk2009 p.29, 157x157px, saved
+EE.PK.2009TEST.8.10.png: llm, pk2009 p.5, 313x240px, saved
+EE.PK.2009TEST.8.10A.png: caption, pk2009 p.29, 136x136px, saved
+EE.PK.2009TEST.8.10B.png: caption, pk2009 p.29, 136x136px, saved
+EE.PK.2009TEST.9.7.png: llm, pk2009 p.7, 241x274px, saved
+EE.PK.2009TEST.9.7A.png: caption, pk2009 p.32, 286x325px, saved
+EE.PK.2009TEST.9.8.png: llm, pk2009 p.7, 216x216px, saved
+EE.PK.2009TEST.9.9.png: llm, pk2009 p.7, 335x210px, saved
+EE.PK.2009TEST.9.9A.png: caption, pk2009 p.32, 335x210px, saved
+
+EE.PK.2009TEST.7.8C.png: same region as EE.PK.2009TEST.7.8A.png (check the placeholders)
+EE.PK.2009TEST.8.9C.png: same region as EE.PK.2009TEST.8.9A.png (check the placeholders)
+EE.PK.2009TEST.8.10B.png: same region as EE.PK.2009TEST.8.10A.png (check the placeholders)

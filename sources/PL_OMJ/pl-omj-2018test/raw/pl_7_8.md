@@ -1,0 +1,463 @@
+# <lo-sample/> PL.OMJ.2018TEST.7_8.1
+
+W sklepie „U Bronka” cena spodni była równa cenie sukienki. Cenę spodni najpierw podniesiono o $5\%$, a następnie nową cenę obniżono o $15\%$. Z kolei cenę sukienki najpierw obniżono o $15\%$, a następnie nową cenę podniesiono o $5\%$. Wynika z tego, że w efekcie tych zmian
+
+**(a)** cena spodni jest większa od ceny sukienki;
+
+**(b)** cena spodni jest równa cenie sukienki;
+
+**(c)** cena spodni jest mniejsza od ceny sukienki.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Niech $a$ oznacza początkową cenę spodni oraz sukienki.
+
+Po $5\%$-owej podwyżce spodnie kosztują $a+a\cdot 5\%=a\cdot 1{,}05$. Po obniżce tej ceny o $15\%$ cena spodni równa się $a\cdot 1{,}05-(a\cdot 1{,}05)\cdot 15\%=a\cdot 1{,}05\cdot 0{,}85$.
+
+Z kolei po $15\%$ obniżce sukienka kosztuje $a-a\cdot 15\%=a\cdot 0{,}85$. Po podniesieniu tej ceny o $5\%$ cena sukienki wynosi $a\cdot 0{,}85+a\cdot 0{,}85\cdot 5\%=a\cdot 0{,}85\cdot 1{,}05$.
+
+W efekcie tych zmian ceny spodni i sukienki są równe.
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.2
+
+Liczba $6^6\cdot 12^{12}$ jest podzielna przez
+
+**(a)** $8^8$;
+
+**(b)** $10^{10}$;
+
+**(c)** $18^{18}$.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Zauważmy, że $12^{12}=(2^2\cdot 3)^{12}=2^{24}\cdot 3^{12}$ oraz $8^8=(2^3)^8=2^{24}$. Wobec tego liczba $12^{12}$ jest podzielna przez $8^8$, a więc również liczba $6^6\cdot 12^{12}$ jest podzielna przez $8^8$.
+
+b) Liczba $10^{10}$ jest podzielna przez $5$, a iloczyn $6^6\cdot 12^{12}$ — nie jest.
+
+c) Obie liczby $18^{18}$ oraz $6^6\cdot 12^{12}$ rozkładamy na czynniki pierwsze:
+$$
+18^{18}=(2\cdot 3^2)^{18}=2^{18}\cdot 3^{36},
+$$
+$$
+6^6\cdot 12^{12}=(2\cdot 3)^6\cdot (2^2\cdot 3)^{12}=2^6\cdot 3^6\cdot 2^{24}\cdot 3^{12}=2^{30}\cdot 3^{18}.
+$$
+Widzimy stąd, że $18^{18}$ jest liczbą podzielną przez $3^{36}$, a $6^6\cdot 12^{12}$ — nie. Wobec tego $6^6\cdot 12^{12}$ nie może być wielokrotnością liczby $18^{18}$.
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.3
+
+Istnieje taka liczba rzeczywista $x$, że
+
+**(a)** $x(x+1)=(x+1)(x+2)$;
+
+**(b)** $x(x+1)=(x+2)(x+3)$;
+
+**(c)** $x^2=(x+1)^2$.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Dla $x=-1$ mamy $x(x+1)=-1\cdot 0=0\cdot 1=(x+1)(x+2)$.
+
+b) Dla $x=-\frac{3}{2}$ mamy $x(x+1)=-\frac{3}{2}\cdot\left(-\frac{1}{2}\right)=\frac{1}{2}\cdot\frac{3}{2}=(x+2)(x+3)$.
+
+c) Dla $x=-\frac{1}{2}$ mamy $x^2=\left(-\frac{1}{2}\right)^2=\left(\frac{1}{2}\right)^2=(x+1)^2$.
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.4
+
+Wszystkie boki pięciokąta wypukłego $ABCDE$ są równej długości. Wynika z tego, że
+
+**(a)** wszystkie przekątne pięciokąta $ABCDE$ są równej długości;
+
+**(b)** proste $AB$ i $CE$ są równoległe;
+
+**(c)** pięciokąt $ABCDE$ jest foremny.
+
+<small>
+
+* answer:N,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Niech $ABDE$ będzie kwadratem, a $BCD$ — trójkątem równobocznym zbudowanym na zewnątrz tego kwadratu (rys. 1). Wówczas wszystkie boki pięciokąta wypukłego $ABCDE$ są równej długości.
+
+![](PL.OMJ.2018TEST.7_8.4.png)
+
+rys. 1
+
+a) Mamy $AD>BD$, gdyż w trójkącie prostokątnym $ABD$ przeciwprostokątna jest dłuższa od przyprostokątnej.
+
+b) Proste $AB$ i $DE$ są równoległe, a proste $DE$ i $CE$ nie są równoległe. Wobec tego proste $AB$ i $CE$ również nie są równoległe.
+
+c) Nie wszystkie kąty wewnętrzne pięciokąta $ABCDE$ są równe, np. $\sphericalangle EAB=90^\circ$, a $\sphericalangle BCD=60^\circ$. Wobec tego nie jest to pięciokąt foremny.
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.5
+
+Istnieje dodatnia liczba całkowita o sumie cyfr równej $2$, która jest podzielna przez
+
+**(a)** $3$;
+
+**(b)** $5$;
+
+**(c)** $7$.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Liczba jest podzielna przez $3$ wtedy i tylko wtedy, gdy jej suma cyfr jest podzielna przez $3$. Wobec tego nie istnieje liczba o sumie cyfr $2$, która jest podzielna przez $3$.
+
+b) Liczba $20$ ma sumę cyfr równą $2$ i jest podzielna przez $5$.
+
+c) Liczba $1001$ ma sumę cyfr równą $2$ i jest podzielna przez $7$ ($1001=7\cdot 11\cdot 13$).
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.6
+
+Liczba całkowita $a$ jest podzielna przez $6$, a liczba całkowita $b$ jest podzielna przez $10$. Wynika z tego, że liczba
+
+**(a)** $a+b$ jest podzielna przez $16$;
+
+**(b)** $a\cdot b$ jest podzielna przez $60$;
+
+**(c)** $5a+3b$ jest podzielna przez $15$.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Ponieważ liczba $a$ jest podzielna przez $6$, więc $a=6k$ dla pewnej liczby całkowitej $k$. Podobnie, skoro $b$ jest liczbą podzielną przez $10$, to $b=10\ell$ dla pewnej liczby całkowitej $\ell$.
+
+b) Mamy $a\cdot b=6k\cdot 10\ell=60\cdot k\ell$. Ponieważ liczba $k\ell$ jest całkowita, więc z ostatniej równości wynika, że liczba $a\cdot b$ dzieli się przez $60$.
+
+c) Mamy $5a+3b=5\cdot 6k+3\cdot 10\ell=15\cdot 2(k+\ell)$. Liczba $2(k+\ell)$ jest całkowita, więc z ostatniej zależności wynika, że liczba $5a+3b$ dzieli się przez $15$.
+
+a) Przyjmijmy $a=6$ oraz $b=0$. Wtedy $a$ jest liczbą podzielną przez $6$, a $b$ — liczbą podzielną przez $10$. Jednak liczba $a+b=6$ nie jest podzielna przez $16$.
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.7
+
+Istnieje taka liczba całkowita $n$, że dwiema ostatnimi cyframi liczby $n^2$ są
+
+**(a)** $44$;
+
+**(b)** $55$;
+
+**(c)** $66$.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Przyjmijmy $n=12$. Wtedy $n^2=144$.
+
+b) Przypuśćmy, że istnieje taka liczba całkowita $n$, że $n^2$ kończy się cyframi $55$. Wówczas liczba $n$ jest nieparzysta oraz podzielna przez $5$. W związku z tym liczba $n^2$ jest nieparzysta i podzielna przez $25$. Jednak każda liczba nieparzysta podzielna przez $25$ kończy się cyframi $25$ lub $75$.
+
+c) Liczba, której dwiema ostatnimi cyframi są $66$ jest parzysta, ale niepodzielna przez $4$. Taka liczba nie może być kwadratem liczby całkowitej.
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.8
+
+Trójkąt równoboczny można rozciąć na
+
+**(a)** $4$ trójkąty równoboczne;
+
+**(b)** $6$ trójkątów równobocznych;
+
+**(c)** $1000$ trójkątów równobocznych.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Trójkąt równoboczny można rozciąć na $4$ trójkąty równoboczne wzdłuż odcinków łączących środki boków (rys. 2).
+
+b) Trójkąt równoboczny o boku długości $3$ można rozciąć na $5$ trójkątów równobocznych o boku długości $1$ oraz jeden trójkąt równoboczny o boku długości $2$ — łącznie $6$ trójkątów równobocznych (rys. 3).
+
+c) Zauważmy, że jedną z części uzyskanych w podziale z punktu a) można ponownie rozciąć na $4$ trójkąty równoboczne, tym samym otrzymując $3$ dodatkowe kawałki. Następnie dowolny z tych kawałków można ponownie rozciąć na $4$ trójkąty równoboczne i otrzymać kolejne $3$ części. Powtarzając tę czynność łącznie $332$ razy, uzyskamy w końcu podział trójkąta równobocznego na $4+3\cdot 332=1000$ trójkątów równobocznych (rys. 4).
+
+![](PL.OMJ.2018TEST.7_8.8.png)
+
+rys. 2
+
+![](PL.OMJ.2018TEST.7_8.8A.png)
+
+rys. 3
+
+![](PL.OMJ.2018TEST.7_8.8B.png)
+
+rys. 4
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.9
+
+Podczas spotkania grupy $6$ osób wymieniono dokładnie $9$ uścisków dłoni, przy czym każda para osób wymieniła co najwyżej jeden uścisk dłoni. Wynika z tego, że
+
+**(a)** pewna osoba wymieniła co najmniej $4$ uściski dłoni;
+
+**(b)** pewna osoba wymieniła dokładnie $3$ uściski dłoni;
+
+**(c)** każdy wymienił co najmniej $1$ uścisk dłoni.
+
+<small>
+
+* answer:N,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Na poniższych obrazkach każda gruba kropka oznacza osobę, a odcinek łączący dwie kropki — uścisk dłoni między odpowiadającymi im osobami.
+
+a) Może się zdarzyć, że każdy wymienił dokładnie $3$ uściski dłoni (rys. 5).
+
+b) Może się zdarzyć, że każdy wymienił $2$ lub $4$ uściski dłoni (rys. 6).
+
+c) Może się zdarzyć, że pewna osoba nie wymieniła ani jednego uścisku dłoni (rys. 7).
+
+![](PL.OMJ.2018TEST.7_8.9.png)
+
+rys. 5
+
+![](PL.OMJ.2018TEST.7_8.9A.png)
+
+rys. 6
+
+![](PL.OMJ.2018TEST.7_8.9B.png)
+
+rys. 7
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.10
+
+Istnieją takie liczby rzeczywiste $a$, $b$, $c$, że wśród liczb $a\cdot b$, $b\cdot c$, $c\cdot a$ są
+
+**(a)** dokładnie dwie dodatnie;
+
+**(b)** dokładnie dwie ujemne;
+
+**(c)** dokładnie trzy ujemne.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+c) Gdyby wszystkie trzy dane iloczyny były ujemne, to ich iloczyn również byłby liczbą ujemną. Tymczasem
+$$
+a\cdot b\cdot b\cdot c\cdot c\cdot a=(abc)^2
+$$
+jest kwadratem liczby rzeczywistej, a więc liczbą nieujemną.
+
+a) Przypuśćmy, że wśród danych trzech iloczynów są dokładnie dwa dodatnie. Wtedy żadna z liczb $a$, $b$, $c$ nie jest równa $0$; w przeciwnym razie co najmniej dwa spośród iloczynów $a\cdot b$, $b\cdot c$, $c\cdot a$ byłyby równe $0$, a wtedy nie mogłoby być dwóch dodatnich. W związku z tym trzeci iloczyn nie może być równy $0$, a więc musi być liczbą ujemną. Wówczas, podobnie jak w rozwiązaniu punktu c), uzyskujemy sprzeczną nierówność $(abc)^2<0$.
+
+b) Przyjmując $a=1$ oraz $b=c=-1$, uzyskujemy
+$$
+a\cdot b=-1,\qquad b\cdot c=1,\qquad c\cdot a=-1.
+$$
+Wśród tych trzech liczb są dokładnie dwie ujemne.
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.11
+
+Dokładnie $70\%$ uczniów pewnej klasy uczy się języka angielskiego, dokładnie $50\%$ uczy się języka niemieckiego oraz dokładnie $30\%$ uczy się języka francuskiego. Wynika z tego, że
+
+**(a)** każdy uczeń tej klasy uczy się co najmniej jednego języka obcego;
+
+**(b)** co najmniej połowa uczniów tej klasy uczy się co najmniej dwóch języków;
+
+**(c)** istnieje osoba, która uczy się co najmniej dwóch języków, w tym niemieckiego.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), b) Przypuśćmy, że w $10$-osobowej klasie jest:
+
+• $3$ uczniów, którzy uczą się wszystkich trzech języków;
+
+• $2$ uczniów, którzy uczą się tylko niemieckiego;
+
+• $4$ uczniów, którzy uczą się tylko angielskiego;
+
+• $1$ uczeń, który nie uczy się żadnego języka obcego.
+
+Wówczas warunki zadania są spełnione, a przy tym istnieje uczeń, który nie uczy się żadnego języka obcego oraz mniej niż połowa uczniów uczy się co najmniej dwóch języków.
+
+c) Skoro $50\%$ uczniów uczy się niemieckiego, a $70\%$ uczniów uczy się angielskiego, to co najmniej $20\%$ uczniów uczy się obu tych języków jednocześnie.
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.12
+
+Istnieje taki czworokąt wypukły, że każda jego przekątna dzieli go na dwa trójkąty
+
+**(a)** prostokątne;
+
+**(b)** ostrokątne;
+
+**(c)** rozwartokątne.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Każda przekątna prostokąta dzieli go na dwa trójkąty prostokątne.
+
+b) Gdyby taki czworokąt istniał, to jego każdy kąt wewnętrzny byłby ostry. Jednak wówczas suma kątów wewnętrznych tego czworokąta byłaby mniejsza od $4\cdot 90^\circ=360^\circ$, co nie może mieć miejsca.
+
+c) Rozważmy prostokąt $AKCL$, w którym $AK=3$, $KC=1$ oraz takie punkty $B$ i $D$ leżące odpowiednio na bokach $AK$ i $CL$, że $AB=CD=1$ (rys. 8). Wówczas kąty $KBC$, $KBD$, $LDA$, $LDB$ są ostre, więc każda przekątna równoległoboku $ABCD$ dzieli go na dwa trójkąty rozwartokątne.
+
+![](PL.OMJ.2018TEST.7_8.12.png)
+
+rys. 8
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.13
+
+Suma cyfr dodatniej liczby całkowitej $n$ jest równa liczbie cyfr liczby $n$. Wynika z tego, że
+
+**(a)** każda cyfra liczby $n$ jest równa $1$;
+
+**(b)** iloczyn cyfr liczby $n$ jest mniejszy od $2$;
+
+**(c)** suma cyfr liczby $n+1$ jest większa od sumy cyfr liczby $n$.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Jeżeli $n=20$, to liczba $n$ ma dwie cyfry i sumę cyfr równą $2$.
+
+c) Jeżeli $n=1000000009$, to suma cyfr i liczba cyfr liczby $n$ są równe (obie wynoszą $10$). Tymczasem suma cyfr liczby $n+1=1000000010$ jest równa $2$, a zatem jest mniejsza od sumy cyfr liczby $n$.
+
+b) Jeżeli pewna cyfra liczby $n$ jest równa $0$, to iloczyn cyfr liczby $n$ jest także równy $0$, a więc w szczególności jest on mniejszy od $2$. W przeciwnym przypadku każda cyfra liczby $n$ jest dodatnia. Wtedy z warunku, że suma cyfr liczby $n$ jest równa liczbie jej cyfr wynika, że wszystkie cyfry liczby $n$ równe są $1$. Wówczas jednak także iloczyn cyfr takiej liczby jest mniejszy od $2$.
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.14
+
+Spośród wierzchołków sześcianu wybrano pięć. Wynika z tego, że wśród wybranych punktów istnieją
+
+**(a)** dwa, które są połączone krawędzią sześcianu;
+
+**(b)** trzy, które są wierzchołkami trójkąta równobocznego;
+
+**(c)** cztery, które są wierzchołkami prostokąta.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Rozważmy sześcian o przeciwległych ścianach $ABCD$ i $A'B'C'D'$ oznaczonych tak, że odcinki $AA'$, $BB'$, $CC'$, $DD'$ są krawędziami sześcianu (rys. 9).
+
+![](PL.OMJ.2018TEST.7_8.14.png)
+
+rys. 9
+
+a) Skoro wybrano pięć punktów, to wybrano obydwa końce co najmniej jednej spośród krawędzi $AA'$, $BB'$, $CC'$, $DD'$.
+
+b) Zauważmy, że $AB'CD'$ oraz $A'BC'D$ to czworościany, których wszystkie krawędzie mają jednakową długość (równą długości przekątnej ściany sześcianu). Skoro wybrano pięć punktów, to pewne trzy należą do tego samego z tych dwóch czworościanów, a zatem wyznaczają trójkąt równoboczny.
+
+c) Przypuśćmy, że wybrano punkty $A$, $B$, $C$, $B'$, $D'$. Wówczas żadne cztery z tych punktów nie leżą w jednej płaszczyźnie; nie mogą więc być wierzchołkami prostokąta.
+
+
+# <lo-sample/> PL.OMJ.2018TEST.7_8.15
+
+Dodatnie liczby całkowite $a$, $b$, $c$ są takie, że liczby $2^a$, $2^b$, $2^c$ są długościami boków pewnego trójkąta. Wynika z tego, że
+
+**(a)** jest to trójkąt ostrokątny;
+
+**(b)** liczby $a$, $b$, $c$ są długościami boków pewnego trójkąta;
+
+**(c)** co najmniej dwie spośród liczb $a$, $b$, $c$ są równe.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Bez straty ogólności przyjmijmy, że $a\leq b\leq c$.
+
+c) Przypuśćmy, że $b<c$, czyli $b+1\leq c$. Wówczas
+$$
+2^a+2^b\leq 2^b+2^b=2^{b+1}\leq 2^c,
+$$
+co przeczy nierówności trójkąta o bokach $2^a$, $2^b$, $2^c$. To oznacza, że $b=c$.
+
+b) Bezpośrednio sprawdzamy, że $a+b>b=c$, $b+c>b\geq a$, $c+a>c\geq a$, więc liczby $a$, $b$, $c$ spełniają nierówność trójkąta.
+
+a) Z poprzednich dwóch punktów wynika, że trójkąt o bokach $2^a$, $2^b$, $2^c$ jest równoramienny i długość ramienia jest w nim nie mniejsza od długości podstawy. Ponieważ w trójkącie naprzeciw dłuższego boku leży większy kąt, więc wynika z tego, że kąt między ramionami jest nie większy od kąta między podstawą a ramieniem, a ten jest ostry w każdym trójkącie równoramiennym.

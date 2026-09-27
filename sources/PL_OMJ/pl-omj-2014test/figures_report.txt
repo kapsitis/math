@@ -1,0 +1,9 @@
+PL.OMJ.2014TEST.7_8.5.png: caption, test-2014-rozw p.3, 508x401px, saved
+PL.OMJ.2014TEST.7_8.7.png: caption, test-2014-rozw p.4, 322x366px, saved
+PL.OMJ.2014TEST.7_8.7A.png: caption, test-2014-rozw p.4, 345x366px, saved
+PL.OMJ.2014TEST.7_8.8.png: caption, test-2014-rozw p.5, 432x289px, saved
+PL.OMJ.2014TEST.7_8.8A.png: caption, test-2014-rozw p.5, 431x289px, saved
+PL.OMJ.2014TEST.7_8.11.png: caption, test-2014-rozw p.7, 284x399px, saved
+PL.OMJ.2014TEST.7_8.11A.png: caption, test-2014-rozw p.7, 395x396px, saved
+PL.OMJ.2014TEST.7_8.15.png: caption, test-2014-rozw p.9, 535x750px, saved
+PL.OMJ.2014TEST.7_8.15A.png: caption, test-2014-rozw p.9, 535x750px, saved

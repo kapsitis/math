@@ -1,0 +1,490 @@
+# <lo-sample/> PL.OMJ.2021TEST.7_8.1
+
+Istnieje taka liczba naturalna, której każda cyfra jest równa 2 lub 6 i która jest podzielna przez
+
+**(a)** 4;
+
+**(b)** 5;
+
+**(c)** 9.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Liczby jednocyfrowe 2 oraz 6 nie są podzielne przez 4. Liczba naturalna o co najmniej dwóch cyfrach, z których każda jest równa 2 lub 6, może być zakończona tylko cyframi 22, 26, 62 lub 66. Zgodnie z cechą podzielności przez 4, żadna taka liczba nie jest podzielna przez 4.
+
+b) Każda liczba podzielna przez 5 jest zakończona cyfrą 0 lub 5. W związku z tym żadna liczba, której ostatnią cyfrą jest 2 lub 6 nie jest podzielna przez 5.
+
+c) Liczba naturalna jest podzielna przez 9, jeśli suma jej cyfr jest podzielna przez 9. Przykładami liczb podzielnych przez 9, których jedynymi cyframi są 2 i 6 są więc 666, 66222, 222222222, gdyż suma cyfr każdej z tych liczb jest podzielna przez 9.
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.2
+
+Istnieją takie dwa trójkąty, których część wspólna jest
+
+**(a)** pięciokątem;
+
+**(b)** sześciokątem;
+
+**(c)** siedmiokątem.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Przykładowe ułożenie takich dwóch trójkątów jest przedstawione na rysunku 1.
+
+b) Przykładowe ułożenie takich dwóch trójkątów jest przedstawione na rysunku 2.
+
+![](PL.OMJ.2021TEST.7_8.2.png)
+
+rys. 1
+
+![](PL.OMJ.2021TEST.7_8.2A.png)
+
+rys. 2
+
+c) Przypuśćmy, że wielokąt $\mathcal{W}$ jest częścią wspólną pewnych dwóch trójkątów. Wówczas boki wielokąta $\mathcal{W}$ zawierają się w bokach tych dwóch trójkątów. Co więcej żaden z sześciu boków tych trójkątów nie może zawierać więcej niż jednego boku wielokąta $\mathcal{W}$. W związku z tym liczba boków wielokąta $\mathcal{W}$ jest nie większa od 6.
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.3
+
+Suma pięciu parami różnych dodatnich liczb całkowitych jest równa 17. Wynika z tego, że jedną z tych pięciu liczb jest
+
+**(a)** 2;
+
+**(b)** 3;
+
+**(c)** 4.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Przypuśćmy, że żadna z pięciu danych liczb nie jest równa 2. Wówczas suma tych pięciu liczb jest nie mniejsza od $1+3+4+5+6=19$, a zatem nie może być równa 17.
+
+b) Przypuśćmy, że żadna z pięciu danych liczb nie jest równa 3. Wówczas suma tych pięciu liczb jest nie mniejsza od $1+2+4+5+6=18$, a zatem nie może być równa 17.
+
+c) Zachodzi równość $1+2+3+5+6=17$, a przy tym żaden z pięciu składników sumy po lewej stronie nie jest równy 4.
+
+**Uwaga.** Liczby rozważane w zadaniu są parami różne, czyli żadne dwie z nich nie są równe. W szczególności piątka liczb 1, 1, 5, 5, 5 nie spełnia warunków zadania.
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.4
+
+Istnieją takie liczby całkowite $x$, $y$, $z$, że ujemna jest każda z liczb
+
+**(a)** $x+y$, $y+z$, $z+x$;
+
+**(b)** $x-y$, $y-z$, $z-x$;
+
+**(c)** $x\cdot y$, $y\cdot z$, $z\cdot x$.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Przyjmując $x=y=z=-1$, uzyskujemy $x+y=y+z=z+x=-2$.
+
+b) Gdyby wszystkie trzy z liczb $x-y$, $y-z$, $z-x$ były ujemne, to ich suma byłaby również liczbą ujemną. Tymczasem
+
+$$(x-y)+(y-z)+(z-x)=0$$
+
+nie jest liczbą ujemną.
+
+c) Gdyby wszystkie trzy z liczb $x\cdot y$, $y\cdot z$, $z\cdot x$ były ujemne, to ich iloczyn również byłby liczbą ujemną. Tymczasem
+
+$$(x\cdot y)\cdot (y\cdot z)\cdot (z\cdot x)=(x\cdot y\cdot z)^2$$
+
+jest liczbą nieujemną jako kwadrat pewnej liczby całkowitej.
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.5
+
+Liczba naturalna $n$ jest podzielna przez 2, a liczba $n+1$ jest podzielna przez 3. Wynika z tego, że
+
+**(a)** liczba $n+2$ jest podzielna przez 4;
+
+**(b)** liczba $n+3$ jest podzielna przez 5;
+
+**(c)** liczba $n+4$ jest podzielna przez 6.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a), b) Liczba $n=8$ spełnia warunki zadania, gdyż jest podzielna przez 2, a liczba $n+1=9$ jest podzielna przez 3. Jednocześnie liczba $n+2=10$ nie jest podzielna przez 4, a liczba $n+3=11$ nie jest podzielna przez 5.
+
+c) Jeśli liczba $n$ jest parzysta, to również liczba $n+4$ jest parzysta. Jeśli liczba $n+1$ jest podzielna przez 3, to również liczba $(n+1)+3=n+4$ jest podzielna przez 3. Skoro liczba $n+4$ jest parzysta i podzielna przez 3, to jest podzielna przez 6.
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.6
+
+Liczby całkowite $a$ oraz $b$ spełniają nierówność $a^3\geqslant b^2$. Wynika z tego, że
+
+**(a)** $a\geqslant 0$;
+
+**(b)** $b\geqslant 0$;
+
+**(c)** $2a+b\geqslant 0$.
+
+<small>
+
+* answer:T,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Kwadrat dowolnej liczby całkowitej jest liczbą nieujemną, wobec czego $b^2\geqslant 0$. Łącząc tę obserwację z założeniem $a^3\geqslant b^2$, wnioskujemy, że $a^3\geqslant 0$. Stąd wynika, że $a\geqslant 0$.
+
+b), c) Przyjmując $a=9=3^2$ oraz $b=-27=-3^3$, uzyskujemy $a^3=3^6=b^2$. Wówczas jednak $b<0$ oraz $2a+b=-9<0$.
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.7
+
+Istnieje taki trójkąt, który można rozciąć na dwa trójkąty
+
+**(a)** ostrokątne;
+
+**(b)** prostokątne;
+
+**(c)** rozwartokątne.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Zauważmy, że jeśli trójkąt jest rozcięty na dwa trójkąty, to rozcinający odcinek łączy jeden z jego wierzchołków z pewnym punktem znajdującym się na przeciwległym boku.
+
+a) Przypuśćmy, że trójkąt $ABC$ został rozcięty na trójkąty $ACD$ i $BCD$. Wówczas nie jest możliwe, aby obydwa kąty $ADC$ oraz $BDC$ były ostre, gdyż suma ich miar wynosi $180^\circ$. To oznacza, że co najmniej jeden z trójkątów $ACD$ i $BCD$ nie jest ostrokątny.
+
+b) Rozważmy dowolny trójkąt ostrokątny. Dowolna wysokość w tym trójkącie jest odcinkiem rozcinającym go na dwa trójkąty prostokątne (rys. 3).
+
+![](PL.OMJ.2021TEST.7_8.7.png)
+
+rys. 3
+
+c) Rozważmy dowolny trójkąt rozwartokątny $ABC$ o kącie rozwartym przy wierzchołku $C$ i wybierzmy na boku $AB$ dowolny punkt $D$ o tej własności, że $\sphericalangle ACD>90^\circ$ (rys. 4). Wówczas $\sphericalangle ADC<90^\circ$ i w konsekwencji $\sphericalangle BDC>90^\circ$. Odcinek $CD$ rozcina zatem trójkąt $ABC$ na dwa trójkąty rozwartokątne.
+
+![](PL.OMJ.2021TEST.7_8.7A.png)
+
+rys. 4
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.8
+
+Z pewnej liczby prostopadłościennych klocków o wymiarach $1\times 2\times 3$ można zbudować prostopadłościan o wymiarach
+
+**(a)** $4\times 4\times 4$;
+
+**(b)** $5\times 6\times 7$;
+
+**(c)** $7\times 8\times 9$.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Objętość sześcianu o wymiarach $4\times 4\times 4$ jest równa 64, a objętość jednego klocka o wymiarach $1\times 2\times 3$ jest równa 6. Ponieważ 64 nie jest liczbą podzielną przez 6, więc nie jest możliwe zbudowanie sześcianu o krawędzi długości 4 z klocków o wymiarach $1\times 2\times 3$.
+
+b) Zauważmy, że z pięciu klocków o wymiarach $1\times 2\times 3$ można zbudować prostopadłościan o wymiarach $1\times 5\times 6$ (rys. 5). W związku z tym łącząc siedem takich warstw możemy zbudować prostopadłościan o wymiarach $5\times 6\times 7$ (przy użyciu 35 klocków).
+
+![](PL.OMJ.2021TEST.7_8.8.png)
+
+rys. 5
+
+c) Zauważmy, że z dwunastu klocków o wymiarach $1\times 2\times 3$ można zbudować prostopadłościan o wymiarach $1\times 8\times 9$ (rys. 6). W związku z tym łącząc siedem takich warstw możemy zbudować prostopadłościan o wymiarach $7\times 8\times 9$ (przy użyciu 84 klocków).
+
+![](PL.OMJ.2021TEST.7_8.8A.png)
+
+rys. 6
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.9
+
+Liczba dodatnich dzielników dodatniej liczby całkowitej $a$ jest większa od liczby dodatnich dzielników dodatniej liczby całkowitej $b$. Wynika z tego, że
+
+**(a)** liczba $a$ jest większa od liczby $b$;
+
+**(b)** liczba $a+1$ ma więcej dodatnich dzielników niż liczba $b+1$;
+
+**(c)** liczba $2a$ ma więcej dodatnich dzielników niż liczba $2b$.
+
+<small>
+
+* answer:N,N,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Przyjmijmy $a=8$ oraz $b=9$. Wówczas liczba $a$ ma cztery dodatnie dzielniki: 1, 2, 4, 8, a liczba $b$ ma trzy dodatnie dzielniki: 1, 3, 9.
+
+a) Dla tak dobranych liczb $a$, $b$ zachodzi nierówność $a<b$.
+
+b) Liczba $b+1=10$ ma cztery dodatnie dzielniki: 1, 2, 5, 10, a liczba $a+1=9$ ma trzy dodatnie dzielniki.
+
+c) Liczba $2a=16$ ma pięć dodatnich dzielników: 1, 2, 4, 8, 16, a liczba $2b=18$ ma sześć dodatnich dzielników: 1, 2, 3, 6, 9, 18.
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.10
+
+W trójkącie $ABC$ kąt przy wierzchołku $A$ ma miarę $60^\circ$. Wysokość $CD$ dzieli bok $AB$ na odcinki długości $AD=2$ i $BD=6$. Wynika z tego, że
+
+**(a)** jeden z boków trójkąta $ABC$ jest dwa razy dłuższy od innego boku tego trójkąta;
+
+**(b)** jeden z kątów trójkąta $ABC$ jest dwa razy większy od innego kąta tego trójkąta;
+
+**(c)** pole trójkąta $BCD$ jest dwa razy większe od pola trójkąta $ACD$.
+
+<small>
+
+* answer:T,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Trójkąt prostokątny $ACD$ jest połową trójkąta równobocznego, skąd wniosek, że $AC=2\cdot AD=4$. Wobec tego $AB=8=2\cdot AC$.
+
+b) Skoro w trójkącie $ABC$ kąt przy wierzchołku $A$ ma miarę $60^\circ$ oraz $AB=2\cdot AC$, to ten trójkąt również jest połową trójkąta równobocznego i wobec tego $\sphericalangle ABC=30^\circ$.
+
+c) Niech $h$ będzie długością odcinka $CD$ (rys. 7). Oznaczając przez $[T]$ pole trójkąta $T$, mamy więc
+
+$$[ACD]=\frac12 AD\cdot h\quad \text{oraz}\quad [BCD]=\frac12 BD\cdot h.$$
+
+Stąd wniosek, że $[BCD]=3\cdot [ACD]$, gdyż $BD=3\cdot AD$.
+
+![](PL.OMJ.2021TEST.7_8.10.png)
+
+rys. 7
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.11
+
+Liczby dodatnie $x$ oraz $y$ spełniają równość $x+y=x\cdot y$. Wynika z tego, że liczba $\frac1x+\frac1y$ jest równa
+
+**(a)** $\frac1x\cdot\frac1y$;
+
+**(b)** $\frac1{x-1}\cdot\frac1{y-1}$;
+
+**(c)** 1.
+
+<small>
+
+* answer:N,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Liczby $x=y=2$ spełniają równość $x+y=x\cdot y$, ale
+
+$$\frac1x+\frac1y=1\neq \frac14=\frac1x\cdot \frac1y.$$
+
+b), c) Sprowadzając składniki rozważanej sumy do wspólnego mianownika i korzystając z założenia $x+y=x\cdot y$, uzyskujemy
+
+$$\frac1x+\frac1y=\frac{y}{x\cdot y}+\frac{x}{x\cdot y}=\frac{y+x}{x\cdot y}=1.$$
+
+Zauważmy ponadto, że
+
+$$\frac1{x-1}\cdot \frac1{y-1}=\frac1{(x-1)(y-1)}=\frac1{x\cdot y-(x+y)+1}=1,$$
+
+przy czym ponownie skorzystaliśmy z założenia $x+y=x\cdot y$.
+
+**Uwaga.** Jeśli liczby $x$, $y$ spełniają warunek $x+y=x\cdot y$, to $x\neq 1$ oraz $y\neq 1$, czyli liczby $x-1$ oraz $y-1$ są różne od zera. Istotnie, dla dowolnej liczby $x$ mamy $x+1\neq x\cdot 1$, a zatem $y\neq 1$ (analogicznie można uzasadnić, że $x\neq 1$).
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.12
+
+Istnieje taki sześcian, że długość jego krawędzi jest liczbą naturalną oraz
+
+**(a)** suma długości jego wszystkich krawędzi jest kwadratem liczby naturalnej;
+
+**(b)** jego pole powierzchni całkowitej jest kwadratem liczby naturalnej;
+
+**(c)** jego objętość jest kwadratem liczby naturalnej.
+
+<small>
+
+* answer:T,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Suma długości wszystkich krawędzi sześcianu o krawędzi długości $n$ jest równa $12n$. Pole powierzchni całkowitej takiego sześcianu jest równe $6n^2$, a jego objętość jest równa $n^3$.
+
+a) Jeżeli $n=12$, to suma długości krawędzi sześcianu jest równa $12^2$.
+
+c) Jeżeli $n=1$, to objętość sześcianu jest równa $1^2$.
+
+b) Skorzystamy z następującego faktu: liczba całkowita większa od 1 jest kwadratem liczby całkowitej wtedy i tylko wtedy, gdy w jej rozkładzie na czynniki pierwsze wszystkie wykładniki są parzyste. Innymi słowy, w rozkładzie kwadratu liczby całkowitej większej od 1 na czynniki pierwsze każda liczba pierwsza występuje parzystą liczbę razy.
+
+Zgodnie z przytoczonym faktem, w rozkładzie na czynniki pierwsze liczby $n^2$ liczba 2 występuje z parzystym wykładnikiem. W rozkładzie na czynniki pierwsze liczby $6n^2=2\cdot 3\cdot n^2$ czynnik 2 występuje z o jeden większym, a więc nieparzystym wykładnikiem. To oznacza, że liczba $6n^2$ nie jest kwadratem liczby całkowitej.
+
+**Uwaga.** Przytoczona własność charakteryzująca kwadraty liczb całkowitych większych od 1 została omówiona, wraz z dowodem i przykładowymi zastosowaniami, w artykule „Kwadraty i dzielniki” (Kwadrat nr 11, grudzień 2013, twierdzenie 2.).
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.13
+
+Punkt $P$ leży wewnątrz trójkąta $ABC$. Wynika z tego, że
+
+**(a)** suma długości odcinków $AP$ i $BP$ jest większa od długości odcinka $CP$;
+
+**(b)** suma obwodów trójkątów $ACP$ i $BCP$ jest większa od obwodu trójkąta $ABP$;
+
+**(c)** suma pól trójkątów $ACP$ i $BCP$ jest większa od pola trójkąta $ABP$.
+
+<small>
+
+* answer:N,T,N
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+a) Rozważmy trójkąt $ABP$, w którym $AP=BP=1$. Niech $C$ będzie takim punktem, że $CP>2$ oraz punkt $P$ znajduje się wewnątrz $ABC$ (rys. 8). Wówczas $AP+BP<CP$.
+
+![](PL.OMJ.2021TEST.7_8.13.png)
+
+rys. 8
+
+b) Zauważmy, że zachodzą nierówności $AC+BC>AB$ oraz $CP>0$. Wobec tego
+
+$$(AC+CP+AP)+(BC+CP+BP)=AP+BP+(AC+BC)+2\cdot CP>AP+BP+AB,$$
+
+czyli suma obwodów trójkątów $ACP$ i $BCP$ jest większa od obwodu trójkąta $ABP$.
+
+c) Rozważmy dowolny trójkąt $ABC$ i oznaczmy przez $h$ długość wysokości poprowadzonej z wierzchołka $C$. Wybierzmy wewnątrz trójkąta dowolny punkt $P$, którego odległość od prostej $AB$ jest większa od $\frac12 h$ (rys. 9). Wówczas pole trójkąta $ABP$ jest większe od połowy pola trójkąta $ABC$, a co za tym idzie — pole czworokąta $APBC$ jest mniejsze od połowy pola trójkąta $ABC$. W konsekwencji suma pól trójkątów $ACP$ i $BCP$ jest mniejsza od pola trójkąta $ABP$.
+
+![](PL.OMJ.2021TEST.7_8.13A.png)
+
+rys. 9
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.14
+
+W gronie sześciu osób każda zna dokładnie trzy spośród pozostałych pięciu osób, przy czym jeśli osoba $A$ zna osobę $B$, to również osoba $B$ zna osobę $A$. Wynika z tego, że
+
+**(a)** pewne trzy spośród tych sześciu osób wzajemnie się znają;
+
+**(b)** pewne trzy spośród tych sześciu osób wzajemnie się nie znają;
+
+**(c)** można te sześć osób podzielić na trzy pary znających się osób.
+
+<small>
+
+* answer:N,N,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Zauważmy, że w rozważanej grupie każdy ma dokładnie dwóch nieznajomych pośród pozostałych pięciu osób. Wyobraźmy sobie, że każdy podaje rękę każdemu ze swoich nieznajomych (jednemu lewą, jednemu prawą). W taki sposób wszystkie uściski rąk tworzą „cykle” złożone z co najmniej trzech osób. To oznacza, że wszystkie nieznajomości w grupie układają się albo w dwa „trójkąty” (rys. 10), albo w jeden „sześciokąt” (rys. 11), przy czym na ilustracjach odcinki przerywane oznaczają nieznajomości, a odcinki ciągłe — znajomości.
+
+![](PL.OMJ.2021TEST.7_8.14.png)
+
+rys. 10
+
+![](PL.OMJ.2021TEST.7_8.14A.png)
+
+rys. 11
+
+a) Jeśli układ znajomości wygląda tak, jak na rysunku 10, to nie ma takich trzech osób, które wzajemnie się znają.
+
+b) Jeśli układ znajomości wygląda tak, jak na rysunku 11, to nie ma takich trzech osób, które wzajemnie się nie znają.
+
+c) W obydwu możliwych sytuacjach można znaleźć odpowiednie sposoby podziału na pary — są one zaznaczone na rysunkach 10 i 11 przy użyciu pogrubionych odcinków.
+
+
+
+# <lo-sample/> PL.OMJ.2021TEST.7_8.15
+
+W pewnym ostrosłupie prawidłowym czworokątnym długość krawędzi podstawy jest równa 2, a długość krawędzi bocznej jest równa $b$. Wynika z tego, że
+
+**(a)** $b>\sqrt2$;
+
+**(b)** wysokość tego ostrosłupa jest mniejsza od $b$;
+
+**(c)** pole powierzchni bocznej tego ostrosłupa jest większe od 4.
+
+<small>
+
+* answer:T,T,T
+* questionType:ShortAnswer
+
+</small>
+
+## Rozwiązanie
+
+Oznaczmy kwadrat w podstawie danego ostrosłupa przez $ABCD$, środek podstawy przez $P$, środek odcinka $AB$ przez $M$, a wierzchołek ostrosłupa — przez $S$.
+
+a), b) W trójkącie prostokątnym $APS$ przeciwprostokątna $AS$ o długości $b$ jest dłuższa zarówno od przyprostokątnej $AP$ o długości $\frac12\cdot AC=\frac12\cdot 2\sqrt2=\sqrt2$, jak i od przyprostokątnej $PS$, która jest wysokością danego ostrosłupa (rys. 12).
+
+![](PL.OMJ.2021TEST.7_8.15.png)
+
+rys. 12
+
+c) W trójkącie prostokątnym $MPS$ przeciwprostokątna $MS$ jest dłuższa od przyprostokątnej $MP$ (rys. 13). W konsekwencji pole ściany $ABS$, równe $\frac12\cdot AB\cdot MS$, jest większe od $\frac12\cdot AB\cdot MP$, czyli pola trójkąta $ABP$. Analogicznie uzasadniamy, że pola ścian $BCS$, $CDS$, $DAS$ są większe odpowiednio od pól trójkątów $BCP$, $CDP$, $DAP$. Pole powierzchni bocznej ostrosłupa jest zatem większe od pola podstawy tego ostrosłupa, które jest równe 4.
+
+![](PL.OMJ.2021TEST.7_8.15A.png)
+
+rys. 13

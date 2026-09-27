@@ -1,0 +1,5 @@
+PL.OMJ.2025TEST.7_8.5.png: caption, test-2025-rozw p.3, 583x286px, saved
+PL.OMJ.2025TEST.7_8.5A.png: caption, test-2025-rozw p.3, 1054x286px, saved
+PL.OMJ.2025TEST.7_8.13.png: caption, test-2025-rozw p.7, 893x377px, saved
+PL.OMJ.2025TEST.7_8.15.png: caption, test-2025-rozw p.8, 307x294px, saved
+PL.OMJ.2025TEST.7_8.15A.png: caption, test-2025-rozw p.8, 238x238px, saved
