@@ -15,15 +15,18 @@ geometry: "a4paper, top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm"
 
 # 10. klase · Tests A · 1. daļa
 
-Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 17 p.
+Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 16 p.
 
 **Laiks — 40 minūtes. Vērtē tikai to, kas ierakstīts rindiņā "Atbilde"; aprēķinus vari veikt lapas brīvajā vietā vai uz melnraksta.** Kalkulatoru nelieto; par nepareizu atbildi punktus neatņem; ja jāatrod *visi* atrisinājumi, uzraksti visus, atdalot ar komatiem (pārus raksti formā $(x;y)$).
 
 <!-- SAGATAVE. Zem katra uzdevuma numura slīprakstā ir norāde, kāds uzdevums šeit ievietojams; pirms drukāšanas norādes dzēst.
      Priekšzināšanas: tikai 1.-9. klases kurss (10. klases temati nav mācīti).
-     Struktūra: 1.-4. uzd. — skolas temats T1 (9.4. Izteiksmju sadalīšana reizinātājos); 5. un 10. uzd. — olimpiāžu temats O1 (Ģ4. Riņķa līnija: ievilktais leņķis, ievilkts četrstūris; 9.-10. kl. līmenis);
+     Struktūra: 1.-4. uzd. — skolas temats T1 (9.4. Izteiksmju sadalīšana reizinātājos); 5. un 10. uzd. — olimpiāžu temats O1 (Ģ4. Riņķa līnija: ievilktais leņķis; 9.-10. kl. līmenis);
+     Programmas atbilstība (Skola2030, prog-validate): centra leņķis, ievilkts leņķis, loka leņķiskais lielums, ievilkts leņķis uz diametra
+     apgūti 8. klasē (G8.4. "Daudzstūri un riņķa līnija", SR T66.B1.SR1-SR2, T66.B3.SR3). Hordas-pieskares leņķis, leņķis starp sekantēm,
+     krustisku hordu īpašība un ievilkta četrstūra pretējo leņķu summa pamatskolā NAV — tie ir Matemātika II (T14 "Ģeometrija"); tos neizmantot.
      6.-9. uzd. — skolas temats T2 (9.5. Kvadrātvienādojums un kvadrātfunkcija). Katrā skolas tematā: 2 uzdevumi SOLO 1-2, 2 uzdevumi SOLO 3 (viens no tiem ar citu tematu).
-     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. un 3 p. Kopā 17 p. -->
+     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. Kopā 16 p. (4 × 1 p. + 6 × 2 p.) -->
 
 <!-- ŠIS FAILS ir uzdevumu komplekts kopā ar analīzi (metadati <small>, atbildes un pilni atrisinājumi).
      Skolēniem izdalāmajā variantā jāatstāj tikai uzdevumu teksti, zīmējumi un tukšās rindiņas "Atbilde". -->
@@ -169,6 +172,8 @@ Punkti $A$ un $D$ atrodas uz riņķa līnijas, kuras diametrs ir $BC$. Atrodi le
 
 Pēc ievilkto leņķu īpašības $\angle ACB = \angle ADB = 55^\circ$ (abi balstās uz loku $AB$). Pēc Talesa teorēmas $\angle BAC = 90^\circ$ (balstās uz diametru $BC$), tāpēc $\angle ABC = 90^\circ - 55^\circ = 35^\circ$.
 
+*Piezīme skolotājam.* Izmantotās īpašības (ievilkti leņķi, kas balstās uz viena loka, ir vienādi; ievilkts leņķis uz diametra ir taisns) atbilst 8. klases tematam G8.4. „Daudzstūri un riņķa līnija”.
+
 <!-- ===== Lapas otrā puse: 6.–10. uzdevums ===== -->
 
 ## 6. uzdevums (1 p.)
@@ -293,7 +298,7 @@ Tā kā $(x-y)^2\geqslant 0$, tad $2xy\leqslant x^2+y^2=36$, turklāt vienādīb
 
 *Pielāgojums.* Oriģinālajā uzdevumā (EE.PK.2022TEST.9.7) bija dots, ka taisnstūra viena mala ir divreiz garāka par otru, un jāatrod laukums (arī $36$ cm$^2$). Šeit tas pārveidots par lielākā laukuma atrašanu; izrādās, ka lielākais laukums ir tieši tam taisnstūrim.
 
-## 10. uzdevums (3 p.)
+## 10. uzdevums (2 p.)
 
 <!-- *Šeit ievietot uzdevumu par olimpiāžu tematu **ievilkts četrstūris vai divas riņķa līnijas** (Ģ4, 9.–10. kl.), SOLO 3–4: konfigurācija ar divām riņķa līnijām, kas krustojas, vai ievilktu četrstūri ar diagonālēm; dots viens vai divi leņķi, jāaprēķina trešais, ķēdē lietojot ievilktos leņķus, ievilkta četrstūra pretējo leņķu summu un vienādsānu trijstūrus; risinājumā jāsaskata vairāki soļi, kurus tekstā nesaka priekšā. Šis ir daļas grūtākais uzdevums; formulēt kā aprēķinu, nevis pierādījumu. Atbilde — leņķis grādos. Līdzīgi: LV.NOL.2022.10.3, LV.NOL.2024.10.1, LV.AMO.2023.10.3.* -->
 
@@ -325,7 +330,7 @@ $$
 
 tad no trijstūra $CDX$ iegūstam $\angle CXD = 180^\circ - 50^\circ - 55^\circ = 75^\circ$. Tātad $\angle DXA = 180^\circ - 75^\circ = 105^\circ$ (blakusleņķi).
 
-*Piezīme skolotājam.* Galvenais nepateiktais solis — saskatīt, ka $\angle ACE=\angle ABE$ (abi balstās uz loku $AE$) un $\angle BDC=\angle BEC$ (abi balstās uz loku $BC$). Tipiskā kļūda — atbildē uzrakstīt $75^\circ$ (leņķis $CXD$, nevis $DXA$).
+*Piezīme skolotājam.* Atrisinājumā izmanto tikai ievilkto leņķu vienādību (8. klases temats G8.4.), trijstūra leņķu summu un blakusleņķus; ievilkta četrstūra pretējo leņķu summa nav vajadzīga. Galvenais nepateiktais solis — saskatīt, ka $\angle ACE=\angle ABE$ (abi balstās uz loku $AE$) un $\angle BDC=\angle BEC$ (abi balstās uz loku $BC$). Tipiskā kļūda — atbildē uzrakstīt $75^\circ$ (leņķis $CXD$, nevis $DXA$).
 
 *Vieta aprēķiniem un zīmējumiem:*
 
@@ -354,8 +359,8 @@ tad no trijstūra $CDX$ iegūstam $\angle CXD = 180^\circ - 50^\circ - 55^\circ 
 | 7 | T2 9.5. | 2 | 1 | 2012 | |
 | 8 | T2 9.5. | 3 | 2 | 3; −1/8 | jebkurā secībā; −0,125 |
 | 9 | T2 9.5. + A3/Ģ5 | 3 | 2 | 36 (cm²) | |
-| 10 | O1 Ģ4 | 3–4 | 3 | 105° | |
+| 10 | O1 Ģ4 | 3–4 | 2 | 105° | |
 
-Jomu profils: T1 (1.–4. uzd.) — 6 p.; T2 (6.–9. uzd.) — 6 p.; O1 (5., 10. uzd.) — 5 p. Kopā 17 p.
+Jomu profils: T1 (1.–4. uzd.) — 6 p.; T2 (6.–9. uzd.) — 6 p.; O1 (5., 10. uzd.) — 4 p. Kopā 16 p.
 
 Avoti: EE.PK (Igaunijas īso atbilžu testi, latviešu tulkojums `math/sources/EE_PK/`), PL.OMJ (`math/sources/PL_OMJ/`, pielāgots), UKMT (Senior Mathematical Challenge 2008, `math/sources/UKMT/Yearbook-2008-09.pdf`, pielāgots, tulkots), LV.AMO (`math/problembase/`).

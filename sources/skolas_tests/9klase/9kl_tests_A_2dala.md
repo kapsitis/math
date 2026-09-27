@@ -15,7 +15,7 @@ geometry: "a4paper, top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm"
 
 # 9. klase · Tests A · 2. daļa
 
-Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 17 p.
+Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 16 p.
 
 **Laiks — 40 minūtes. Vērtē tikai to, kas ierakstīts rindiņā "Atbilde"; aprēķinus vari veikt lapas brīvajā vietā vai uz melnraksta.** Kalkulatoru nelieto; par nepareizu atbildi punktus neatņem; ja jāatrod *visi* skaitļi, uzraksti visus, atdalot ar komatiem; leņķus raksti grādos.
 
@@ -23,7 +23,7 @@ Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
      Priekšzināšanas: 1.-8. klases kurss.
      Struktūra: 11.-14. uzd. — skolas temats T3 (8.2., 5.2. Pakāpes, sadalījums pirmreizinātājos un dalāmība); 15. un 20. uzd. — olimpiāžu temats O2 (K2. Dirihlē princips un ekstremālais elements; 9.-10. kl.);
      16.-19. uzd. — skolas temats T4 (7.5., 7.6. Trijstūris: leņķi, bisektrises, augstumi, vienādsānu trijstūris, trijstūra nevienādība). Katrā skolas tematā: 2 uzdevumi SOLO 1-2, 2 uzdevumi SOLO 3 (viens ar citu tematu).
-     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. un 3 p. Kopā 17 p. Numerācija turpinās (11.-20.). -->
+     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. Kopā 16 p. (4 × 1 p. + 6 × 2 p.) Numerācija turpinās (11.-20.). -->
 
 <!-- ŠIS FAILS ir uzdevumu komplekts kopā ar analīzi (metadati <small>, atbildes un pilni atrisinājumi).
      Skolēniem izdalāmajā variantā jāatstāj tikai uzdevumu teksti, zīmējumi un tukšās rindiņas "Atbilde". -->
@@ -249,7 +249,7 @@ Tā kā $\angle BLD = 180^\circ - 110^\circ = 70^\circ$, tad no taisnleņķa tri
 
 (Oriģinālajā atrisinājumā izmantota trijstūru $ACD$ un $ABC$ līdzība; 9. klasē pirms līdzības tēmas pietiek ar leņķu summu divos taisnleņķa trijstūros.)
 
-## 20. uzdevums (3 p.)
+## 20. uzdevums (2 p.)
 
 <!-- *Šeit ievietot uzdevumu par olimpiāžu tematu **Dirihlē princips ar ekstremālo elementu** (K2 + M5, 9.–10. kl.), SOLO 3–4: uz $36$ kartītēm skaitļi, kurus var sadalīt 9 grupās pa 4 ar vienādām summām un 6 grupās pa 6 ar vienādām summām — jāatrod, **cik lielākais** skaitļu var būt lielāki par doto, vai $120$ dažādi naturāli skaitļi pa pāriem ar summu $>1000$ — jāatrod lielākā garantētā vērtība noteiktam pēc lieluma skaitlim; pareizai atbildei nepieciešams gan novērtējums, gan piemērs. Šis ir daļas grūtākais uzdevums; formulēt kā "lielākais/mazākais", nevis "pierādīt". Atbilde — skaitlis. Līdzīgi: LV.AMO.2023.9.4, LV.NOL.2021.9.5.* -->
 
@@ -300,8 +300,8 @@ Doti septiņi dažādi naturāli skaitļi; katriem diviem no dotajiem skaitļiem
 | 17 | T4 7.5./7.6. | 2 | 1 | 100° | |
 | 18 | T4 7.6. | 3 | 2 | 31° | |
 | 19 | T4 7.5. + 8.8. | 3 | 2 | 40° | |
-| 20 | O2 K2 + M5 | 3–4 | 3 | 12 | |
+| 20 | O2 K2 + M5 | 3–4 | 2 | 12 | |
 
-Jomu profils: T3 (11.–14. uzd.) — 6 p.; T4 (16.–19. uzd.) — 6 p.; O2 (15., 20. uzd.) — 5 p. Kopā 17 p. Abas daļas kopā — 34 p.
+Jomu profils: T3 (11.–14. uzd.) — 6 p.; T4 (16.–19. uzd.) — 6 p.; O2 (15., 20. uzd.) — 4 p. Kopā 16 p. Abas daļas kopā — 32 p.
 
 Avoti: EE.PK (`math/sources/EE_PK/`), UKMT (2006 European Pink Kangaroo, `math/sources/UKMT/Yearbook-2005-06.pdf`, tulkots), LV.AMO (`math/problembase/`).

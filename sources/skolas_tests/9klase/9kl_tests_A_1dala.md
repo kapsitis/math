@@ -15,7 +15,7 @@ geometry: "a4paper, top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm"
 
 # 9. klase · Tests A · 1. daļa
 
-Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 17 p.
+Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 16 p.
 
 **Laiks — 40 minūtes. Vērtē tikai to, kas ierakstīts rindiņā "Atbilde"; aprēķinus vari veikt lapas brīvajā vietā vai uz melnraksta.** Kalkulatoru nelieto; par nepareizu atbildi punktus neatņem; saknes un daļas raksti precīzi un vienkāršotā formā (piem., $2\sqrt{3}$, $\frac{5}{8}$).
 
@@ -23,7 +23,7 @@ Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
      Priekšzināšanas: 1.-8. klases kurss (9. klases temati — līdzība, kvadrātvienādojums, ievilktais leņķis — nav mācīti).
      Struktūra: 1.-4. uzd. — skolas temats T1 (8.3., 8.6. Kvadrātsaknes un saīsinātās reizināšanas formulas); 5. un 10. uzd. — olimpiāžu temats O1 (K3/S4. Paritāte un invarianti; 7.-8./9.-10. kl.);
      6.-9. uzd. — skolas temats T2 (8.5. Četrstūri: paralelograms, taisnstūris, rombs, kvadrāts; priekšzināšanas — laukumi 8.4., Pitagora teorēma 8.8.). Katrā skolas tematā: 2 uzdevumi SOLO 1-2, 2 uzdevumi SOLO 3 (viens ar citu tematu).
-     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. un 3 p. Kopā 17 p. -->
+     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. Kopā 16 p. (4 × 1 p. + 6 × 2 p.) -->
 
 <!-- ŠIS FAILS ir uzdevumu komplekts kopā ar analīzi (metadati <small>, atbildes un pilni atrisinājumi).
      Skolēniem izdalāmajā variantā jāatstāj tikai uzdevumu teksti, zīmējumi un tukšās rindiņas "Atbilde". -->
@@ -267,7 +267,7 @@ tātad romba malas garums ir $7{,}5$ cm.
 
 *Pielāgojums.* Oriģinālajā uzdevumā taisnstūrveida papīra lapu $6\times 12$ cm saloka pa diagonāli, nogriež pārkarošās daļas un lapu atloka — iegūst rombu; jautāts romba malas garums (varianti A $2\sqrt5$ cm, B $7{,}35$ cm, C $7{,}5$ cm, D $7{,}85$ cm, E $8{,}1$ cm). Šeit tas pats rombs aprakstīts tieši.
 
-## 10. uzdevums (3 p.)
+## 10. uzdevums (2 p.)
 
 <!-- *Šeit ievietot uzdevumu par olimpiāžu tematu **invariants procesā** (K3, 9.–10. kl. līmenis), SOLO 3–4: uz tāfeles trīs skaitļi (piem., $11, 12, 13$) un gājiens "vienu skaitli aizstāj ar divkāršotu pārējo summu mīnus tas pats", vai daļa, kurai skaitītājam un saucējam pieskaita/reizina, vai rūtiņu taisnstūris ar kaķiem, kas pārlec uz blakus rūtiņu; jānosaka, **kuri no dotajiem 3–4 stāvokļiem** ir sasniedzami (uzrakstīt burtus) vai **mazākais tukšo rūtiņu skaits**. Nepieciešams invariants (atlikums pēc moduļa, starpība, šaha dēļa krāsojums). Šis ir daļas grūtākais uzdevums; formulēt bez "vai var". Atbilde — burti vai skaitlis. Līdzīgi: LV.AMO.2024.9.3, LV.AMO.2023.9.1, LV.NOL.2024.9.4.* -->
 
@@ -330,8 +330,8 @@ $a4a3,\ a3a2,\ b3c3,\ d4d3,\ d4d3,\ b1b2,\ b1b2,\ c1c2,\ c2d2,\ c2d2.$
 | 7 | T2 8.5. + 8.8. | 2 | 1 | 90 (cm²) | |
 | 8 | T2 8.5. + Ģ5 | 3 | 2 | 3 (cm) | |
 | 9 | T2 8.5. + 8.8./7.8. | 3 | 2 | 7,5 (cm) | 15/2 |
-| 10 | O1 K3 | 3–4 | 3 | A | burti jebkurā secībā |
+| 10 | O1 K3 | 3–4 | 2 | A | burti jebkurā secībā |
 
-Jomu profils: T1 (1.–4. uzd.) — 6 p.; T2 (6.–9. uzd.) — 6 p.; O1 (5., 10. uzd.) — 5 p. Kopā 17 p.
+Jomu profils: T1 (1.–4. uzd.) — 6 p.; T2 (6.–9. uzd.) — 6 p.; O1 (5., 10. uzd.) — 4 p. Kopā 16 p.
 
 Avoti: EE.PK (`math/sources/EE_PK/`), PL.OMJ (`math/sources/PL_OMJ/`, pielāgoti), UKMT (2003 European Pink Kangaroo, `math/sources/UKMT/Yearbook-2002-03.pdf`, tulkots un pielāgots), LV.AMO (`math/problembase/`, pielāgots).

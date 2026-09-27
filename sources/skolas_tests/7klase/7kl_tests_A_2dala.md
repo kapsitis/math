@@ -15,14 +15,14 @@ geometry: "a4paper, top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm"
 
 # 7. klase · Tests A · 2. daļa
 
-Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 17 p.
+Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 16 p.
 
 **Laiks — 40 minūtes. Vērtē tikai to, kas ierakstīts rindiņā "Atbilde"; aprēķinus vari veikt lapas brīvajā vietā vai uz melnraksta.** Kalkulatoru nelieto; par nepareizu atbildi punktus neatņem; daļu raksti nesaīsināmā formā (decimāldaļa arī ir pareiza, ja tā ir galīga).
 
 <!-- SAGATAVE. Zem katra uzdevuma numura slīprakstā ir norāde, kāds uzdevums šeit ievietojams; pirms drukāšanas norādes dzēst.
      Struktūra: 11.-14. uzd. — skolas temats T3 (5.3.–5.5., 6.2. Parastās daļas un darbības ar tām); 15. un 20. uzd. — olimpiāžu temats O2 (K3/S4. Paritāte un invarianti);
      16.-19. uzd. — skolas temats T4 (6.1., 6.5., 5.4. Attiecība, daļa no kopuma un procenti). Katrā skolas tematā: 2 uzdevumi SOLO 1-2, 2 uzdevumi SOLO 3 (viens ar citu tematu).
-     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. un 3 p. Kopā 17 p. Numerācija turpinās (11.-20.), lai abu daļu rezultātus var apvienot vienā tabulā. -->
+     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. Kopā 16 p. (4 × 1 p. + 6 × 2 p.) Numerācija turpinās (11.-20.), lai abu daļu rezultātus var apvienot vienā tabulā. -->
 
 <!-- ŠIS FAILS ir uzdevumu komplekts kopā ar analīzi (metadati <small>, atbildes un pilni atrisinājumi).
      Skolēniem izdalāmajā variantā jāatstāj tikai uzdevumu teksti un tukšās rindiņas "Atbilde". -->
@@ -272,7 +272,7 @@ Saskaņā ar uzdevuma nosacījumiem ir vismaz viena dziesma krievu valodā. Tā 
 
 *Piezīme skolotājam.* Tipiskā kļūda — atbilde $20$ (ar $20$ dziesmām viena krievu dziesma veido tieši $5\%$, bet nosacījums prasa „vairāk nekā $95\%$”).
 
-## 20. uzdevums (3 p.)
+## 20. uzdevums (2 p.)
 
 <!-- *Šeit ievietot uzdevumu par olimpiāžu tematu **invariants procesā** (K3, 7.–8. kl. līmenis), SOLO 3–4: kastē ir trīs krāsu lodītes (vai uz tāfeles — skaitļi), gājienā divas aizstāj ar vienu pēc dota likuma; jānosaka, **kādas krāsas lodīte var palikt pēdējā** (uzrakstīt visas iespējamās krāsas ar burtiem B, S, Z) vai **kāds skaitlis** var palikt uz tāfeles, — nepieciešams invariants (atlikumi pēc moduļa 2 vai 3, starpību paritāte). Šis ir daļas grūtākais uzdevums; formulēt bez "vai var". Atbilde — burti vai skaitlis. Līdzīgi: LV.NOL.2023.7.5, LV.AMO.2024.7.3.* -->
 
@@ -337,8 +337,8 @@ Ja pēdējā lodīte būtu sarkana, tad balto un zaļo lodīšu skaits būtu $0$
 | 17 | T4 procenti | 2 | 1 | 8,8 (g) | 8,8 vai 8.8 |
 | 18 | T4 procenti | 3 | 2 | 20 (%) | |
 | 19 | T4 attiecība + dalāmība | 3 | 2 | 21 | |
-| 20 | O2 invariants | 3–4 | 3 | B | burti jebkurā secībā |
+| 20 | O2 invariants | 3–4 | 2 | B | burti jebkurā secībā |
 
-Jomu profils: T3 (11.–14. uzd.) — 6 p.; T4 (16.–19. uzd.) — 6 p.; O2 (15., 20. uzd.) — 5 p. Kopā 17 p. Abas daļas kopā — 34 p.
+Jomu profils: T3 (11.–14. uzd.) — 6 p.; T4 (16.–19. uzd.) — 6 p.; O2 (15., 20. uzd.) — 4 p. Kopā 16 p. Abas daļas kopā — 32 p.
 
 Avoti: EE.PK (Igaunijas īso atbilžu testi, latviešu tulkojums `math/sources/EE_PK/`), LV.AMO, LV.NOL (`math/problembase/`, pielāgoti).

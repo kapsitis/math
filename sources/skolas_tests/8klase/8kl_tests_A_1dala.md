@@ -15,7 +15,7 @@ geometry: "a4paper, top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm"
 
 # 8. klase · Tests A · 1. daļa
 
-Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 17 p.
+Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 16 p.
 
 **Laiks — 40 minūtes. Vērtē tikai to, kas ierakstīts rindiņā "Atbilde"; aprēķinus vari veikt lapas brīvajā vietā vai uz melnraksta.** Kalkulatoru nelieto; par nepareizu atbildi punktus neatņem; leņķus raksti grādos, koordinātas — formā $(x;y)$.
 
@@ -23,7 +23,7 @@ Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
      Priekšzināšanas: 1.-7. klases kurss (8. klases temati nav mācīti). Zīmējumi ģeometrijā — obligāti, ar piezīmi "nav mērogā".
      Struktūra: 1.-4. uzd. — skolas temats T1 (7.5., 7.2., 7.6. Trijstūris un leņķi); 5. un 10. uzd. — olimpiāžu temats O1 (K3. Invarianti un procesi; 5.-6./7.-8. kl.);
      6.-9. uzd. — skolas temats T2 (7.4. Lineāra funkcija). Katrā skolas tematā: 2 uzdevumi SOLO 1-2, 2 uzdevumi SOLO 3 (viens ar citu tematu).
-     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. un 3 p. Kopā 17 p. -->
+     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. Kopā 16 p. (4 × 1 p. + 6 × 2 p.) -->
 
 <!-- ŠIS FAILS ir uzdevumu komplekts kopā ar analīzi (metadati <small>, atbildes un pilni atrisinājumi).
      Skolēniem izdalāmajā variantā jāatstāj tikai uzdevumu teksti, zīmējumi un tukšās rindiņas "Atbilde". -->
@@ -258,7 +258,7 @@ $$S=\frac{3+6}{2}\cdot 6=27.$$
 
 *Pielāgojums.* Oriģinālajā uzdevumā (LV.NOL.2022.7.1) bija taisnes $y=1$, $x=-2$, $x=3$, $y=\frac35x+\frac{21}{5}$ (atbilde $17{,}5$); skaitļi mainīti.
 
-## 10. uzdevums (3 p.)
+## 10. uzdevums (2 p.)
 
 <!-- *Šeit ievietot uzdevumu par olimpiāžu tematu **invariants procesā** (K3, 7.–8. kl. līmenis), SOLO 3–4: uz tāfeles skaitļi (vai daļas), gājienā divus aizstāj pēc likuma (summa, starpība, $a\cdot b$, $\frac{a+b}{2}$) vai "burvji" katrs maina skaitli savā veidā; jānosaka **mazākais gājienu skaits** līdz dotam stāvoklim vai **kuri no dotajiem 3–4 stāvokļiem** ir sasniedzami (uzrakstīt burtus). Atbilde izriet no paritātes, atlikuma vai reizinājuma invarianta. Šis ir daļas grūtākais uzdevums; formulēt bez "vai var". Atbilde — skaitlis vai burti. Līdzīgi: LV.AMO.2024.8.3, LV.NOL.2019.8.4.* -->
 
@@ -319,8 +319,8 @@ Pēc tam piecos gājienos $(1,1)\rightarrow 0$ iegūst piecas nulles, un tad če
 | 7 | T2 7.4. | 2 | 1 | 2 | |
 | 8 | T2 7.4. | 3 | 2 | (−1; 2194) | |
 | 9 | T2 7.4. + Ģ5/7.3. | 3 | 2 | 27 | |
-| 10 | O1 K3 | 3–4 | 3 | A, C | burti jebkurā secībā |
+| 10 | O1 K3 | 3–4 | 2 | A, C | burti jebkurā secībā |
 
-Jomu profils: T1 (1.–4. uzd.) — 6 p.; T2 (6.–9. uzd.) — 6 p.; O1 (5., 10. uzd.) — 5 p. Kopā 17 p.
+Jomu profils: T1 (1.–4. uzd.) — 6 p.; T2 (6.–9. uzd.) — 6 p.; O1 (5., 10. uzd.) — 4 p. Kopā 16 p.
 
 Avoti: EE.PK (`math/sources/EE_PK/`), LV.NOL, LV.AMO (`math/problembase/`, daļa pielāgoti).

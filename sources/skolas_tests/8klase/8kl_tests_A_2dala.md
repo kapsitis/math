@@ -15,7 +15,7 @@ geometry: "a4paper, top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm"
 
 # 8. klase · Tests A · 2. daļa
 
-Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 17 p.
+Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 16 p.
 
 **Laiks — 40 minūtes. Vērtē tikai to, kas ierakstīts rindiņā "Atbilde"; aprēķinus vari veikt lapas brīvajā vietā vai uz melnraksta.** Kalkulatoru nelieto; par nepareizu atbildi punktus neatņem; ja jāatrod *visi* skaitļi, uzraksti visus, atdalot ar komatiem; lielumiem pieraksti mērvienību.
 
@@ -23,7 +23,7 @@ Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
      Priekšzināšanas: 1.-7. klases kurss.
      Struktūra: 11.-14. uzd. — skolas temats T3 (5.1., 5.2. Decimālais pieraksts, dalāmība un pirmskaitļi — 8. klases līmenī); 15. un 20. uzd. — olimpiāžu temats O2 (Ģ7/K4. Rūtiņu figūras un tabulas: sagriešana, izvietojums, lielākais/mazākais skaits);
      16.-19. uzd. — skolas temats T4 (7.8., 7.3. Lineāri vienādojumi un teksta uzdevumi: kustība, vidējais, proporcionalitāte). Katrā skolas tematā: 2 uzdevumi SOLO 1-2, 2 uzdevumi SOLO 3 (viens ar citu tematu).
-     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. un 3 p. Kopā 17 p. Numerācija turpinās (11.-20.). -->
+     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. Kopā 16 p. (4 × 1 p. + 6 × 2 p.) Numerācija turpinās (11.-20.). -->
 
 <!-- ŠIS FAILS ir uzdevumu komplekts kopā ar analīzi (metadati <small>, atbildes un pilni atrisinājumi).
      Skolēniem izdalāmajā variantā jāatstāj tikai uzdevumu teksti, zīmējumi un tukšās rindiņas "Atbilde". -->
@@ -249,7 +249,7 @@ No uzdevuma nosacījumiem vēl iegūstam, ka ir spēkā vai nu $b = a - 5$, vai 
 
 *Piezīme skolotājam.* Tipiskā kļūda — neapskatīt otru gadījumu vai iegūt neveselu $a=27{,}5$ un to noapaļot.
 
-## 20. uzdevums (3 p.)
+## 20. uzdevums (2 p.)
 
 <!-- *Šeit ievietot uzdevumu par olimpiāžu tematu **rūtiņu tabula: mazākais/lielākais skaits ar novērtējumu un konstrukciju** (K4 + M5, 7.–8. kl. līmenis), SOLO 3–4: rūtiņu krustpunktu režģis $5\times 5$, no kura jānodzēš **mazākais** punktu skaits, lai nekādi trīs neatrastos uz vienas taisnes, vai tabula $3\times 2n$ ar skaitļiem, kur jāatrod **lielākais** $K$, lai kaimiņu starpība būtu vismaz $K$; pareizai atbildei nepieciešams piemērs un pamatojums, kāpēc labāk nevar. Šis ir daļas grūtākais uzdevums. Atbilde — skaitlis. Līdzīgi: LV.NOL.2024.8.3, LV.NOL.2020.8.4 (ar konkrētu $n$).* -->
 
@@ -302,8 +302,8 @@ Pierādīsim, ka nepietiek iekrāsot mazāk rūtiņu. Sadalām kvadrātu sešos 
 | 17 | T4 7.8. | 2 | 1 | 15 | |
 | 18 | T4 7.8. + 7.3. | 3 | 2 | 3 (km/h) | arī $3$ bez mērvienības |
 | 19 | T4 7.8. + 5.2. | 3 | 2 | 30 | |
-| 20 | O2 K4 + M5 | 3–4 | 3 | 6 | |
+| 20 | O2 K4 + M5 | 3–4 | 2 | 6 | |
 
-Jomu profils: T3 (11.–14. uzd.) — 6 p.; T4 (16.–19. uzd.) — 6 p.; O2 (15., 20. uzd.) — 5 p. Kopā 17 p. Abas daļas kopā — 34 p.
+Jomu profils: T3 (11.–14. uzd.) — 6 p.; T4 (16.–19. uzd.) — 6 p.; O2 (15., 20. uzd.) — 4 p. Kopā 16 p. Abas daļas kopā — 32 p.
 
 Avoti: EE.PK (`math/sources/EE_PK/`), LV.NOL, LV.AMO (`math/problembase/`, daļa pielāgoti).

@@ -1,0 +1,61 @@
+# Student copies of the school tests (sources/skolas_tests/*/*.md) for md_to_test_docx.py.
+# The .md files hold everything for teachers and graders (<small> metadata, answers,
+# solutions, answer key, HTML comments with the task specifications); the student copy
+# keeps only the head (title, name/class/result line, rules) and the problem statements,
+# and adds an answer box (+ points square) and dotted lines for a short explanation.
+#
+# Usage:
+#   python scripts/ocr/md_to_test_docx.py sources/skolas_tests/8klase --config scripts/ocr/skolas_test.yaml
+#   python scripts/ocr/md_to_test_docx.py sources/skolas_tests/*/ --config scripts/ocr/skolas_test.yaml
+#
+# Files in the content_<lang>.md format (EE_PK, PL_OMJ) are still converted as before,
+# with the "docx" settings below.
+
+student_copy:
+  output_name: '{stem}_skolenam.docx'          # written next to the .md file
+
+  # Problem headings "## 3. uzdevums (2 p.)"; groups "number" and "points" are used.
+  problem_heading: '^##\s+(?P<number>\d+)\.\s*uzdevums\b[^\n(]*(?:\((?P<points>[^)\n]*)\))?[^\n]*$'
+  points_format: '({points})'                  # printed after the problem number; '' hides it
+
+  # Everything from the first line matching one of these is for teachers only.
+  end_of_problems:
+    - '^<!--\s*Skolotājam'
+    - '^##\s+Atbilžu atslēga'
+
+  # A problem statement ends at the first line matching one of these
+  # (the answer line with "\_\_\_" or the filled answer, solutions, scratch space).
+  statement_ends_at:
+    - '^\*\*Atbilde:\*\*'
+    - '^#{2,4}\s+(Atrisinājums|Cits atrisinājums|Risinājums)'
+    - '^\*Vieta aprēķiniem'
+
+  # Removed everywhere before parsing: HTML comments (task specifications, notes),
+  # <small> metadata, unfilled "*Šeit ievietot ...*" placeholders, rules "---", "&nbsp;".
+  drop:
+    - '(?s)<!--.*?-->'
+    - '(?s)<small>.*?</small>'
+    - '(?m)^\*Šeit ievietot.*\*\s*$'
+    - '(?m)^---\s*$'
+    - '(?m)^&nbsp;\s*$'
+
+  # The head line with fields to fill in: runs of "\_" (or "_") become writing lines.
+  form_line: '(\\_){3,}|_{3,}'
+
+  answer_label: 'Atbilde:'                     # grey label inside the answer box
+
+# Layout (lengths in mm); defaults are in md_to_test_docx.py.
+# Font and font size come from docx_font / docx_fontsize of each file's front matter,
+# the page header/footer from docx_header / docx_footer.
+docx:
+  page: {width: 210, height: 297, left: 18, right: 15, top: 18, bottom: 15, header_distance: 8}
+  answer_column: 60          # right column: answer box + points square + dotted lines
+  answer_box: [45, 12]
+  points_box: 8
+  reasoning_lines: 2         # dotted lines under the answer box (0..4)
+  reasoning_line_height: 6
+  explanation_lines: 2       # dotted lines under each problem text, for a short explanation
+  explanation_line_height: 7
+  figure_dpi: 200            # figure PNG pixels -> mm (the PNGs were rendered at 200 dpi)
+  wide_figure_ratio: 0.6
+  max_side_figure_ratio: 0.6

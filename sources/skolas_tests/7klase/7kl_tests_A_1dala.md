@@ -15,14 +15,14 @@ geometry: "a4paper, top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm"
 
 # 7. klase · Tests A · 1. daļa
 
-Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 17 p.
+Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 16 p.
 
 **Laiks — 40 minūtes. Vērtē tikai to, kas ierakstīts rindiņā "Atbilde"; aprēķinus vari veikt lapas brīvajā vietā vai uz melnraksta.** Kalkulatoru nelieto; par nepareizu atbildi punktus neatņem; ja jāatrod *visi* skaitļi, uzraksti visus, atdalot ar komatiem.
 
 <!-- SAGATAVE. Zem katra uzdevuma numura slīprakstā ir norāde, kāds uzdevums šeit ievietojams; pirms drukāšanas norādes dzēst.
      Struktūra: 1.-4. uzd. — skolas temats T1 (5.1. Naturālo skaitļu pieraksts); 5. un 10. uzd. — olimpiāžu temats O1 (Ģ7. Sagriešana un noklāšana rūtiņu lapā);
      6.-9. uzd. — skolas temats T2 (5.2. Skaitļa sadalījums reizinātājos un dalāmība). Katrā skolas tematā: 2 uzdevumi SOLO 1-2, 2 uzdevumi SOLO 3 (viens no tiem ar citu tematu).
-     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. un 3 p. Kopā 17 p. -->
+     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. Kopā 16 p. (4 × 1 p. + 6 × 2 p.) -->
 
 <!-- ŠIS FAILS ir uzdevumu komplekts kopā ar analīzi (metadati <small>, atbildes un pilni atrisinājumi).
      Skolēniem izdalāmajā variantā jāatstāj tikai uzdevumu teksti, zīmējumi un tukšās rindiņas "Atbilde". -->
@@ -255,7 +255,7 @@ $$a \cdot b \cdot c + d \cdot e = 2013.$$
 
 Tā kā divu reizinājumu summa $2013$ ir nepāra skaitlis, viens reizinājums ir nepāra, bet otrs pāra. Pāra reizinājumā vismaz viens reizinātājs ir pāra skaitlis. Tātad no dotajiem pieciem skaitļiem vismaz vienam jābūt pāra skaitlim, ne vairāk kā četri var būt nepāra. Četri nepāra skaitļi arī ir iespējami, piemēram, $1 \cdot 1 \cdot 1 + 1 \cdot 2012 = 2013$.
 
-## 10. uzdevums (3 p.)
+## 10. uzdevums (2 p.)
 
 <!-- *Šeit ievietot uzdevumu par olimpiāžu tematu **noklāšana un izgriešana ar novērtējumu** (Ģ7 + M5, 7.–8. kl. līmenis), SOLO 3–4: rūtiņu kvadrātā $5\times 5$ līdz $10\times 10$ jāatrod lielākais izgriežamo figūru skaits vai mazākais iekrāsojamo rūtiņu skaits, lai vairs nevarētu izgriezt doto figūru; pareizai atbildei nepieciešams gan piemērs, gan novērtējums (krāsošanas vai grupēšanas arguments), kaut arī tiek prasīts tikai skaitlis. Šis ir daļas grūtākais uzdevums; formulēt bez "vai var". Atbilde — skaitlis. Līdzīgi: LV.AMO.2024.7.4, LV.NOL.2025.7.1, LV.NOL.2019.7.3.* -->
 
@@ -315,8 +315,8 @@ Nepietiek iekrāsot mazāk kā $8$ rūtiņas, jo kvadrātā $7 \times 7$ rūtiņ
 | 7 | T2 5.2. | 2 | 1 | 7 | arī visu 7 skaitļu vai pāru saraksts |
 | 8 | T2 5.2. | 3 | 2 | 33 | |
 | 9 | T2 5.2. + S4/A2 | 3 | 2 | 4 | |
-| 10 | O1 Ģ7 + M5 | 3–4 | 3 | 8 | |
+| 10 | O1 Ģ7 + M5 | 3–4 | 2 | 8 | |
 
-Jomu profils: T1 (1.–4. uzd.) — 6 p.; T2 (6.–9. uzd.) — 6 p.; O1 (5., 10. uzd.) — 5 p. Kopā 17 p.
+Jomu profils: T1 (1.–4. uzd.) — 6 p.; T2 (6.–9. uzd.) — 6 p.; O1 (5., 10. uzd.) — 4 p. Kopā 16 p.
 
 Avoti: EE.PK (Igaunijas īso atbilžu testi, latviešu tulkojums `math/sources/EE_PK/`), PL.OMJ (`math/sources/PL_OMJ/`, pielāgots), LV.NOL, LV.AMO (`math/problembase/`).

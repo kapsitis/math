@@ -15,7 +15,7 @@ geometry: "a4paper, top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm"
 
 # 10. klase · Tests A · 2. daļa
 
-Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 17 p.
+Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Klase: \_\_\_\_\_\_ Rezultāts: \_\_\_\_\_ / 16 p.
 
 **Laiks — 40 minūtes. Vērtē tikai to, kas ierakstīts rindiņā "Atbilde"; aprēķinus vari veikt lapas brīvajā vietā vai uz melnraksta.** Kalkulatoru nelieto; par nepareizu atbildi punktus neatņem; garumus un laukumus raksti precīzi (piem., $3\sqrt{2}$, nevis $4{,}24$).
 
@@ -23,7 +23,7 @@ Vārds, uzvārds: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
      Priekšzināšanas: tikai 1.-9. klases kurss (10. klases temati nav mācīti).
      Struktūra: 11.-14. uzd. — skolas temats T3 (9.1. Līdzīgi trijstūri; priekšzināšanas — Pitagora teorēma 8.8., laukumi 8.4.); 15. un 20. uzd. — olimpiāžu temats O2 (K2. Dirihlē princips skaitļu teorijā un ģeometrijā; 9.-10. kl. līmenis);
      16.-19. uzd. — skolas temats T4 (8.2. Pakāpe ar veselu kāpinātāju un skaitļa sadalījums pirmreizinātājos). Katrā skolas tematā: 2 uzdevumi SOLO 1-2, 2 uzdevumi SOLO 3 (viens ar citu tematu).
-     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. un 3 p. Kopā 17 p. Numerācija turpinās (11.-20.). -->
+     Punkti: SOLO 1-2 → 1 p., SOLO 3 → 2 p., olimpiāžu uzdevumi → 2 p. Kopā 16 p. (4 × 1 p. + 6 × 2 p.) Numerācija turpinās (11.-20.). -->
 
 <!-- ŠIS FAILS ir uzdevumu komplekts kopā ar analīzi (metadati <small>, atbildes un pilni atrisinājumi).
      Skolēniem izdalāmajā variantā jāatstāj tikai uzdevumu teksti, zīmējumi un tukšās rindiņas "Atbilde". -->
@@ -260,7 +260,7 @@ Ievērosim, ka $113^{113}=\left(113^{4}\right)^{28} \cdot 113$ un $113^{4}$ beid
 
 *Piezīme skolotājam.* Tipiskā kļūda — atņemt pēdējos ciparus bez „aizņemšanās” un iegūt $3-9=-6$, t.i., atbildi $6$.
 
-## 20. uzdevums (3 p.)
+## 20. uzdevums (2 p.)
 
 <!-- *Šeit ievietot uzdevumu par olimpiāžu tematu **Dirihlē princips ar novērtējumu un konstrukciju** (K2 + M5, 9.–10. kl.), SOLO 3–4: atrast **lielāko** skaitļu skaitu, ko var izvēlēties no $1, 2, \ldots, 100$ tā, lai nekādu divu summa (vai starpība) nedalītos ar 5 (vai nekādi divi neatšķirtos par 7), vai lielāko punktu skaitu kvadrātā, lai attālums starp jebkuriem diviem būtu lielāks par doto; pareizai atbildei nepieciešams gan konstrukcija, gan Dirihlē novērtējums, kaut arī tiek prasīts tikai skaitlis. Šis ir daļas grūtākais uzdevums; skaitļus izvēlēties tā, lai "naivā" atbilde (piem., puse no visiem) būtu nepareiza. Atbilde — skaitlis. Līdzīgi: LV.AMO.2023.10.4, LV.NOL.2020.10.4, LV.NOL.2021.10.5.* -->
 
@@ -319,8 +319,8 @@ Apskatām naturālos skaitļus no $1$ līdz $100$ ieskaitot. Kādu lielāko daud
 | 17 | T4 8.2. | 2 | 1 | 10 | |
 | 18 | T4 8.2. | 3 | 2 | 336 | |
 | 19 | T4 8.2. + S4/S6 | 3 | 2 | 4 | |
-| 20 | O2 K2 + M5 | 3–4 | 3 | 25 | |
+| 20 | O2 K2 + M5 | 3–4 | 2 | 25 | |
 
-Jomu profils: T3 (11.–14. uzd.) — 6 p.; T4 (16.–19. uzd.) — 6 p.; O2 (15., 20. uzd.) — 5 p. Kopā 17 p. Abas daļas kopā — 34 p.
+Jomu profils: T3 (11.–14. uzd.) — 6 p.; T4 (16.–19. uzd.) — 6 p.; O2 (15., 20. uzd.) — 4 p. Kopā 16 p. Abas daļas kopā — 32 p.
 
 Avoti: EE.PK (Igaunijas īso atbilžu testi, latviešu tulkojums `math/sources/EE_PK/`), UKMT (2006 European Grey Kangaroo, `math/sources/UKMT/Yearbook-2005-06.pdf`, tulkots), LV.NOL, LV.AMO (`math/problembase/`).
