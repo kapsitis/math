@@ -77,3 +77,4 @@ sources/PL_OMJ/pl-omj-*/test*.png
 sources/PL_OMJ/pl-omj-*/answer_pages/*.png
 sources/**/figure_previews/*
 sources/**/*.docx
+sources/skolas_tests/**/*.pdf
