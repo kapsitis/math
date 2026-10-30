@@ -136,6 +136,10 @@ atrast abas viltotās monētas?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialAlgorithms
+* seeAlso: LV.AMO.2015.5.5
+* topic: WeighingComparisonsToCases
+* topic: WeighingConclusionsByContradiction
+* topic: WeighingAmongGroups
 
 </small>
 
@@ -451,6 +455,10 @@ uz sviru svariem bez atsvariem atrast abas viltotās monētas?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialAlgorithms
+* sameAs: LV.VOL.2025.9.4
+* topic: WeighingComparisonsToCases
+* topic: WeighingConclusionsByContradiction
+* topic: WeighingAmongGroups
 
 </small>
 

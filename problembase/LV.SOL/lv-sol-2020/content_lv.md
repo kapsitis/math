@@ -408,6 +408,11 @@ ir vieglāka vai smagāka nekā pārējās?
 * domain:Comb
 * seeAlso:LV.NOL.2016.7.4
 * seeAlso:LV.NOL.2019.7.2
+* seeAlso: LV.AMO.2003.5.2
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingReducedGoal
    
 </small>
 

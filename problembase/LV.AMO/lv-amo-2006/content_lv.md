@@ -46,6 +46,12 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* sameAs: LV.AMO.2003.5.2
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingReducedGoal
+* topic: WeighingInformationBound
 
 </small>
 
@@ -200,6 +206,10 @@ svēršanām var noteikt katra atsvara masu?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases, FixedInvariantNumeric
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* sameAs: LV.AMO.2003.6.5
+* topic: WeighingWithNumericReadout
+* topic: CaseAnalysis
+* topic: RemaindersInCombinatorics
 
 </small>
 
@@ -1298,6 +1308,10 @@ ir mazākais iespējamais.)
 
 * questionType:
 * domain:
+* seeAlso: LV.AMO.2016.12.5
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingWithNumericReadout
+* topic: CaseAnalysis
 
 </small>
 

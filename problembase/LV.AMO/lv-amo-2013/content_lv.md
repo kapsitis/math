@@ -656,6 +656,9 @@ $x_{1} \geq x_{2} \geq x_{3} \geq x_{4}$ ).
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* topic: OtherSearchProblems
+* topic: ProblemsWithHiddenInformation
+* topic: CaseAnalysis
 
 </small>
 

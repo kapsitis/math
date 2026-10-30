@@ -284,6 +284,8 @@ ar $11,\ 12$ utt., uzrakstiet labāko no savām atrastajām.
 * _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* topic: OtherSearchProblems
+* topic: ProblemsWithHiddenInformation
 
 </small>
 
@@ -1077,6 +1079,10 @@ uzlikto masu starpību.
 
 * questionType:
 * domain:
+* topic: WeighingIndistinguishableStates
+* topic: WeighingWithNumericReadout
+* topic: InformationEncoding
+* topic: OtherNumeralSystems
 
 </small>
 

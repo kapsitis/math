@@ -1133,6 +1133,11 @@ svēršanām atrast vismaz vienu monētu, kas sver $9$ gramus?
 
 * questionType:Algorithm
 * domain:Comb
+* seeAlso: LV.NOL.2012.11.5
+* seeAlso: LV.NOL.2019.10.2
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingReducedGoal
 
 </small>
 

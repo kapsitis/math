@@ -528,6 +528,9 @@ atsvariem var noteikt katra veida monētu skaitu?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingToFindAuthenticObject
 
 </small>
 

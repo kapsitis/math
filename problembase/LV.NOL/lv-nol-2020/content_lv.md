@@ -747,6 +747,11 @@ no iespējām pastāv īstenībā?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.NOL.2005.7.5
+* topic: WeighingComparisonsToCases
+* topic: WeighingConclusionsByContradiction
+* topic: WeighingAmongGroups
+* topic: WeighingReducedGoal
 
 </small>
 

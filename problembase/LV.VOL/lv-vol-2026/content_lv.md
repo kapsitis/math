@@ -39,6 +39,14 @@ Ievērojam, ka stūros nevar būt skaitļi $1, 2, 3, 4$. Stūra rūtiņai ir div
 
 Dotas $79$ pēc ārējā izskata vienādas monētas, no tām $7$ ir viltotas, bet pārējās ir īstas. Visu īsto monētu masa ir vienāda, visu viltoto monētu masa arī ir vienāda, īstā monēta ir smagāka par viltoto. Kā ar $3$ svēršanām uz sviras svariem bez atsvariem atrast $9$ īstās monētas?
 
+<small>
+
+* topic: WeighingConclusionsByContradiction
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingReducedGoal
+
+</small>
+
 ## Atrisinājums
 
 Pirmajā svēršanā uzliksim uz katra svaru kausa $39$ monētas (vienu atstāsim malā). Izvēlēsimies smagāko kausu (ja svari ir līdzsvarā, tad jebkuru), tajā ir ne vairāk kā $3$ viltotās monētas. Ja tajā būtu vismaz $4$ viltotās monētas, tad vieglākajā kausā būtu ne vairāk kā $3$ viltotās monētas, bet tad tas vairs nebūtu vieglākais kauss.

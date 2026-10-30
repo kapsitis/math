@@ -281,6 +281,11 @@ svaru kausa kaut kas tiek mainīts, tā jau skaitās cita svēršana)
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialAlgorithms
+* seeAlso: LV.NOL.2006.10.5
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingReducedGoal
 
 </small>
 

@@ -310,6 +310,9 @@ noskaidrot, kurā paraugā ir vīruss?
 * _hasReasoningMethod: ConstructiveExampleForExistence, EncodingForBijectionOrInvariant
 * _hasReasoningMistake: ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* topic: OtherSearchProblems
+* topic: ProblemsWithHiddenInformation
+* topic: PowersRootsLogarithms
 
 </small>
 

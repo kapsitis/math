@@ -48,6 +48,12 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* sameAs: LV.AMO.2003.5.2
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingReducedGoal
+* topic: WeighingInformationBound
 
 </small>
 
@@ -221,6 +227,10 @@ svēršanām var noteikt katra atsvara masu?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases, FixedInvariantNumeric
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* sameAs: LV.AMO.2003.6.5
+* topic: WeighingWithNumericReadout
+* topic: CaseAnalysis
+* topic: RemaindersInCombinatorics
 
 </small>
 

@@ -150,6 +150,10 @@ priekšmets ir smagāks, tad atbilstošais kauss nosveras uz leju.
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.NOL.2025.6.5
+* seeAlso: LV.AMO.2007.5.4
+* topic: WeighingComparisonsToCases
+* topic: WeighingLabelledMasses
 
 </small>
 
@@ -335,6 +339,10 @@ kauss nosveras uz leju.
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.NOL.2025.5.5
+* seeAlso: LV.AMO.2007.5.4
+* topic: WeighingComparisonsToCases
+* topic: WeighingLabelledMasses
 
 </small>
 

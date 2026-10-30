@@ -385,6 +385,10 @@ kopējo masu?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialAlgorithms
+* seeAlso: LV.AMO.2003.6.5
+* topic: WeighingWithNumericReadout
+* topic: CaseAnalysis
+* topic: RemaindersInCombinatorics
 
 </small>
 

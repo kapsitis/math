@@ -747,6 +747,11 @@ kauss ir smagāks nekā otrs.
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
 * _mistakesFit: medium
+* seeAlso: LV.AMO.2015.7.5
+* seeAlso: LV.AMO.2017.11.4
+* topic: WeighingComparisonsToCases
+* topic: WeighingLabelledMasses
+* topic: SetTraversalOrganization
 
 </small>
 
@@ -1473,6 +1478,9 @@ vissmagākais?
 
 * questionType:ProveDisprove
 * domain:Comb
+* seeAlso: LV.AMO.2015.7.5
+* seeAlso: LV.AMO.2017.8.4
+* topic: WeighingIndistinguishableStates
 
 </small>
 

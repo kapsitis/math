@@ -123,6 +123,9 @@ smagums.)
 * questionType:ProveDisprove,ProveDisprove
 * domain:Comb
 * _subdomain: DOM_CombinatorialAlgorithms
+* seeAlso: LV.AMO.2015.7.5
+* topic: WeighingIndistinguishableStates
+* topic: SetTraversalOrganization
 
 </small>
 

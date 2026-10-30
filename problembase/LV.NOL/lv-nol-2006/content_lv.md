@@ -372,6 +372,10 @@ no iespējām pastāv īstenībā?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* sameAs: LV.NOL.2005.7.5
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingReducedGoal
 
 </small>
 
@@ -1030,6 +1034,11 @@ noskaidrot, cik ir viltoto monētu?
 
 * questionType:
 * domain:
+* seeAlso: LV.VOL.2004.10.5
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingReducedGoal
 
 </small>
 

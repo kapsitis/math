@@ -40,6 +40,7 @@ kausiem tā, lai izpildās abi nosacījumi:
 * questionType:ProveDisprove
 * domain:Alg
 * _subdomain: DOM_CombinatorialGames
+* topic: WeighingBalanceEquations
 
 </small>
 
@@ -266,6 +267,8 @@ kausiem tā, lai izpildās abi nosacījumi:
 * questionType:ProveDisprove
 * domain:Comb
 * _subdomain: DOM_CombinatorialGames
+* sameAs: LV.VOL.2023.9.2
+* topic: WeighingBalanceEquations
 
 </small>
 

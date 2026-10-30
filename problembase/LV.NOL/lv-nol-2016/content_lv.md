@@ -269,6 +269,9 @@ vieglāko, gan pašu smagāko monētu?
 * _hasReasoningMethod: ExtremalElementArgument
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.NOL.2019.5.2
+* topic: WeighingProblems
+* topic: TournamentMinAndMax
 
 </small>
 
@@ -458,6 +461,11 @@ pārējām? Pašu monētu atrast nav nepieciešams.
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.AMO.2003.5.2
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingReducedGoal
 
 </small>
 

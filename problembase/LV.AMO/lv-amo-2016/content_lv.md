@@ -876,6 +876,10 @@ pārbaudot ne vairāk kā četrus podus!
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* topic: OtherSearchProblems
+* topic: ProblemsWithHiddenInformation
+* topic: CaseAnalysis
+* topic: ArithmeticAndGeometricSeries
 
 </small>
 
@@ -1366,6 +1370,10 @@ vienu īsto monētu?
 
 * questionType:ProveDisprove
 * domain:Comb
+* seeAlso: LV.AMO.2006.12.4
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingWithNumericReadout
+* topic: CaseAnalysis
 
 </small>
 

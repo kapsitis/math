@@ -116,6 +116,11 @@ sviras svariem bez atsvariem atrast šo lodīti?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.NOL.2025.5.5
+* seeAlso: LV.NOL.2025.6.5
+* topic: WeighingComparisonsToCases
+* topic: WeighingLabelledMasses
+* topic: InformationEncoding
 
 </small>
 

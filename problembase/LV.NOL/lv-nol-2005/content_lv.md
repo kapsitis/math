@@ -513,6 +513,10 @@ no iespējām pastāv īstenībā?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.NOL.2020.8.5
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingReducedGoal
 
 </small>
 
@@ -621,6 +625,8 @@ Ar kādu mazāko jautājumu skaitu Juris var noteikti noskaidrot $n$?
 * _hasReasoningMethod: PrimePropertiesAndUniqueness, NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof, MissingBoundOrExample
 * _mistakesFit: medium
+* topic: OtherSearchProblems
+* topic: ProblemsWithHiddenInformation
 
 </small>
 

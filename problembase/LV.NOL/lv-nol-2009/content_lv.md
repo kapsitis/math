@@ -302,6 +302,10 @@ mazākais iespējamais.)
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, FixedInvariantNumeric
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* topic: WeighingConclusionsByContradiction
+* topic: WeighingAmongGroups
+* topic: WeighingBalanceEquations
+* topic: RemaindersInCombinatorics
 
 </small>
 
@@ -705,6 +709,8 @@ iepriekšējās reizēs. Pierādiet, ka svari atkal nostāsies līdzsvarā.
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, SystemOfEquationsAdditionOrSubstitution, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, CircularReasoningOrAssumingTheConclusion
 * _mistakesFit: medium
+* topic: WeighingBalanceEquations
+* topic: FormingEquations
 
 </small>
 

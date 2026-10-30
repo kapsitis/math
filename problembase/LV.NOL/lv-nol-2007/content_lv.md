@@ -488,6 +488,8 @@ noskaidrot vismaz vienu viltoto monētu?
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
 * _mistakesFit: high
+* topic: OtherSearchProblems
+* topic: ProblemsWithHiddenInformation
 
 </small>
 
@@ -830,6 +832,11 @@ noskaidrot, cik ir viltoto monētu?
 
 * questionType:
 * domain:
+* sameAs: LV.NOL.2006.10.5
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingReducedGoal
 
 </small>
 

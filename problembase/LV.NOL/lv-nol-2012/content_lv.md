@@ -287,6 +287,8 @@ var uzdot tieši vienu jautājumu, uz kuru viņš var atbildēt tikai ar "jā" v
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* topic: OtherSearchProblems
+* topic: ProblemsWithHiddenInformation
 
 </small>
 
@@ -1057,6 +1059,11 @@ svēršanām atrast **vismaz** vienu monētu, kas sver $7$ gramus?
 
 * questionType:Algorithm
 * domain:Comb
+* seeAlso: LV.NOL.2013.11.3
+* seeAlso: LV.NOL.2019.10.2
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingReducedGoal
 
 </small>
 

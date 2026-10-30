@@ -1041,6 +1041,8 @@ Doti sviras svari un 30 atsvari, kuru svars ir 1 kg, 2 kg, 3 kg, ..., 30 kg. Alf
 
 * questionType:
 * domain:
+* topic: WeighingBalanceEquations
+* topic: Games
 
 </small>
 

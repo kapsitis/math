@@ -145,6 +145,10 @@ atsvariem atrast abas viltotās monētas?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.VOL.2025.9.4
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingInformationBound
 
 </small>
 
@@ -580,6 +584,11 @@ atsvariem, kur katrā kausā drīkst ielikt tieši divas bumbiņas, iespējams
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
 * _mistakesFit: medium
+* seeAlso: LV.AMO.2017.8.4
+* seeAlso: LV.VOL.2011.9.4
+* seeAlso: LV.AMO.2017.11.4
+* topic: WeighingIndistinguishableStates
+* topic: SetTraversalOrganization
 
 </small>
 

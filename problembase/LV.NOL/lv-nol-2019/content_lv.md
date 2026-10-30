@@ -48,6 +48,9 @@ vieglāko, gan pašu smagāko monētu?
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExtremalElementArgument, RuleOfSumDisjointCases
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* seeAlso: LV.NOL.2016.6.4
+* topic: WeighingProblems
+* topic: TournamentMinAndMax
 
 </small>
 
@@ -242,6 +245,10 @@ Kā ar $3$ svēršanām uz sviras svariem bez atsvariem atrast viltoto monētu?
 * _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.NOL.2019.8.2
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingInformationBound
 
 </small>
 
@@ -456,6 +463,11 @@ vai smagāka nekā pārējās? (Pašu monētu atrast nav nepieciešams.)
 * _hasReasoningMethod: RuleOfSumDisjointCases, ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.AMO.2003.5.2
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingToFindAuthenticObject
+* topic: WeighingReducedGoal
 
 </small>
 
@@ -673,6 +685,11 @@ atsvariem atrast viltoto monētu?
 * _hasReasoningMethod: ConstructiveExampleForExistence, RuleOfSumDisjointCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* seeAlso: LV.NOL.2019.6.2
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingInformationBound
+* topic: PowersRootsLogarithms
 
 </small>
 
@@ -876,6 +893,9 @@ lodīti?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* topic: WeighingComparisonsToCases
+* topic: WeighingConclusionsByContradiction
+* topic: WeighingAmongGroups
 
 </small>
 
@@ -1160,6 +1180,11 @@ $51~\mathrm{g}$?
 
 * questionType:
 * domain:
+* seeAlso: LV.NOL.2012.11.5
+* seeAlso: LV.NOL.2013.11.3
+* topic: WeighingComparisonsToCases
+* topic: WeighingAmongGroups
+* topic: WeighingReducedGoal
 
 </small>
 
