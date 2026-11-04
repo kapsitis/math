@@ -1,0 +1,149 @@
+# Latvian preparatory olympiad ("Sagatavošanās olimpiāde", later "Valsts matemātikas
+# olimpiādes 1. posms"), archive sources/LV.SOL.ARCHIVE/so<NN>_uzd.pdf (problems) and
+# so<NN>_atr.pdf (solutions); so<NN> is the olympiad of the year 1950 + NN
+# (so38 -> LV.SOL.1988, so70 -> LV.SOL.2020).
+#
+# Usage (from the math/ directory):
+#   python scripts/ocr/lv_sol_ocr.py sources/LV.SOL.ARCHIVE so38                 # one year
+#   python scripts/ocr/lv_sol_ocr.py sources/LV.SOL.ARCHIVE so38 so39 so40       # several
+#   python scripts/ocr/lv_sol_ocr.py sources/LV.SOL.ARCHIVE --all --skip so70    # all but 2020
+# Stages (--stage; default "all"): render, ocr, assemble, figures.
+# Every stage caches its results under <output_dir>/work/; --force redoes a stage.
+
+file_regex: '^so(\d\d)_(uzd|atr)\.pdf$'    # group 1 = NN, group 2 = kind
+year_offset: 1950                           # year = 1950 + NN
+problem_id_prefix: 'LV.SOL.{year}'          # IDs: LV.SOL.1988.4.1 (= "88.1" in the PDF)
+output_dir: '{math}/problembase/LV.SOL/lv-sol-{year}'   # {math} = parent of scripts/
+output_md: content_lv.md
+kinds: [uzd, atr]                           # uzd = problems, atr = solutions
+
+# The Markdown of an already converted year, shown to the model as a style example.
+example_md: '{math}/problembase/LV.SOL/lv-sol-2020/content_lv.md'
+example_chars: 3500
+
+# Placeholder between every problem statement and its solution.
+metadata_block: "<small>\n   \n* questionType:\n* domain:\n   \n</small>\n"
+
+render:
+  dpi: 200
+  trim_padding: 12          # px of white kept around the content after trimming
+
+# Lengths are PDF points (1/72 inch); pages are A4 (one file is US Letter).
+geometry:
+  margins: {left: 25, right: 25, top: 25, bottom: 25}
+  header:                   # page numbers / running titles at the top
+    zone: 62
+    regex: '^\s*\d{1,3}\s*$'
+    padding: 2
+  footer:                   # page numbers and the school's URL at the bottom
+    zone: 62
+    regex: '^\s*(\d{1,3}|https?://nms\.lu\.lv/?)\s*$'
+    padding: 2
+
+# Figure candidates: clusters of vector drawings and raster images (see extract_figures.py).
+figures:
+  padding: 4                # pt of extra space around every cut figure
+  max_page_fraction: 0.6    # larger candidates (scanned full pages) are ignored
+  min_image_only_height: 20 # smaller raster-only candidates are inline formulas (pt)
+  width_px_per_pt: 1.3      # Markdown width = figure width in pt * this, rounded to 50
+  min_width_px: 100
+  max_width_px: 500
+  cluster:
+    gap: 6
+    min_size: 12
+    min_items: 4
+    min_long: 40
+    min_image_side: 8
+    label_margin: 8
+    label_max_width: 45
+    ignore_text_regex: '^[\s.…]+$'
+  caption_regex: '^\s*(\d+)\s*\.\s*(zīm|att)\.?\s*$'
+  marker:
+    regex: '^$'             # no problem-number markers are used here
+
+llm:
+  api_key_env: OPENAI_API_KEY
+  model_env: OPENAI_MODEL
+  model: gpt-5.5
+  image_detail: high
+  max_completion_tokens: 32000
+  workers: 6                # parallel requests
+
+prompts:
+  ocr_system: |
+    You transcribe scanned pages of Latvian mathematics olympiad booklets into
+    Markdown. Answer with the Markdown only, no code fences, no comments.
+  ocr_page: |
+    The two images show page {page} of the file {file} ({kind_text}) of the Latvian
+    preparatory mathematics olympiad of the school year {school_year}: the first
+    image is the clean page (read the text from it), the second is the same page
+    with numbered red boxes around candidate figures.
+
+    Transcribe ALL text of the page faithfully, in Latvian, in reading order:
+    * Keep headings such as "5. klase", "UZDEVUMI", "ATRISINĀJUMI" as Markdown
+      headings "## ...".
+    * Keep the problem numbers exactly as printed ("88.1.", "00.17.", "5.1.", "1." ...),
+      bold, at the start of the paragraph: **88.1.**
+    * Write every formula, number expression and variable in LaTeX between $...$
+      (display formulas between $$...$$). Write multiplication as \cdot, angles as
+      \angle, degrees as ^{\circ}. Do not change the mathematical content.
+    * Simple tables become Markdown tables. Lists such as a), b) stay as text.
+    * Fix only obvious scanning errors in Latvian words (missing diacritics).
+
+    Figures: in the second image candidate figures are marked with thin red boxes, each with a red
+    number tag at its top-left corner. Where a figure (drawing, diagram, picture,
+    complicated table or grid) is, write on a separate line
+        [[FIG n]]
+    with the number n of its red box, or [[FIG n+m]] if one figure is split into
+    several boxes. Ignore boxes that are not figures (parts of formulas, lines).
+    If a figure has no box (or its box covers only a part of it), write
+    [[FIG x0,y0,x1,y1]] with its bounding box in coordinates scaled to 0..1000
+    of the image width and height.
+    Do not transcribe the labels inside figures; keep the figure caption
+    (e.g. "3. zīm.") as a separate line after the [[FIG ...]] line.
+  assemble_system: |
+    You turn transcribed Latvian mathematics olympiad booklets into a structured
+    Markdown problem base. Answer with the Markdown only, no code fences.
+  assemble_grade: |
+    Below are the transcriptions of the problems file ({uzd_file}) and of the
+    solutions file ({atr_file}) of the Latvian preparatory mathematics olympiad
+    of the school year {school_year}. The olympiad has the grades {grades}.
+
+    Write ALL problems of grade {grade} (the section "{grade}. klase" of the problems
+    file), in their order, with their solutions. Number them 1, 2, 3, ... within the
+    grade; their IDs are {id_prefix}.{grade}.1, {id_prefix}.{grade}.2, ... (in older
+    booklets the problems are numbered consecutively over all grades, e.g. "88.6" is
+    the 1st problem of the 2nd grade; the solutions file uses the same numbers).
+
+    Format of every problem (follow the example at the end):
+
+    # <lo-sample/> {id_prefix}.{grade}.<n>
+
+    <problem statement>
+
+    ## Atrisinājums
+
+    <solution>
+
+    Rules:
+    * Do not write the original number ("88.6.") or the grade in the text.
+    * Copy the text faithfully; keep $...$ LaTeX formulas; keep parts as **(A)**, **(B)**
+      or a), b) as in the source.
+    * Copy every [[FIG ...]] line exactly as it is (same characters) to the place
+      where the figure belongs: figures of the problems file go to the statement,
+      figures of the solutions file go to the solution. Keep figure captions
+      ("3. zīm.") after them. Never invent [[FIG ...]] lines.
+    * If the solutions file has no solution for a problem, write
+      <!-- TODO: atrisinājums nav atrasts --> under "## Atrisinājums".
+    * If the solutions file repeats the problem statement, do not repeat it in the
+      solution.
+    * Do not write a <small> section; it is added later.
+
+    === PROBLEMS FILE ({uzd_file}) ===
+    {uzd_md}
+
+    === SOLUTIONS FILE ({atr_file}) ===
+    {atr_md}
+
+    === EXAMPLE OF THE OUTPUT FORMAT (another year) ===
+    {example}
