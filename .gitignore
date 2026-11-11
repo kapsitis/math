@@ -79,5 +79,5 @@ sources/**/figure_previews/*
 sources/**/*.docx
 sources/skolas_tests/**/*.pdf
 problembase/LV.SOL/**/work/*
-sources/LV.SOL.ARCHIVE/*
+
 sources/skolas_olimpiade/*
