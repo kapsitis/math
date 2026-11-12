@@ -80,4 +80,10 @@ sources/**/*.docx
 sources/skolas_tests/**/*.pdf
 problembase/LV.SOL/**/work/*
 
-sources/skolas_olimpiade/*
+sources/skolas_olimpiade/*.md
+!sources/skolas_olimpiade/grade10/*
+!sources/skolas_olimpiade/grade9/*
+!sources/skolas_olimpiade/grade8/*
+!sources/skolas_olimpiade/grade7/*
+!sources/skolas_olimpiade/visas_klases/*
+
