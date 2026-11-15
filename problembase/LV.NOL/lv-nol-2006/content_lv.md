@@ -7,7 +7,7 @@ $B$.
 <small>
 
 * questionType:
-* domain:
+* domain: Alg
 * _hasSolutionConcept: DigitRepresentation, LinearEquation, LinearInequality
 * _readingDifficulty: low
 * _domain: Alg
@@ -37,7 +37,7 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, StateSpaceProcess, Invariant, OptimumProofStructure
 * _readingDifficulty: medium
 * _domain: Comb
@@ -76,7 +76,7 @@ griežot iegūtā trijstūra malu.
 <small>
 
 * questionType:
-* domain:
+* domain: Geom
 * _hasSolutionConcept: Triangle, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
 * _domain: Geom
@@ -109,7 +109,7 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: OptimumProofStructure, PositiveIntegers, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: medium
 * _domain: Comb
@@ -143,7 +143,7 @@ krāsas amēba. Vai var gadīties, ka traukā paliek tikai viena amēba?
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
 * _domain: Comb
@@ -170,7 +170,7 @@ kārtībā) tā, ka $AB=1,\ BC=3,\ CD=5,\ DE=7,\ EA=9$?
 <small>
 
 * questionType:
-* domain:
+* domain: Geom
 * _hasSolutionConcept: EvenOddParity, Invariant, PointLineSegmentRay
 * _readingDifficulty: medium
 * _domain: Geom
@@ -199,7 +199,7 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: GraphConcept, BinaryRelation, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: high
 * _domain: Comb
@@ -233,7 +233,7 @@ $n=11$, **(B)** $n=13$?
 <small>
 
 * questionType:
-* domain:
+* domain: Comb,NT
 * _hasSolutionConcept: PerfectSquares, Permutation, ProofByContradiction, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: Comb,NT
@@ -265,7 +265,7 @@ viena santīma monētās?
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: StateSpaceProcess, Invariant, ProofByContradiction
 * _readingDifficulty: medium
 * _domain: Comb
@@ -290,7 +290,7 @@ dalītājs. Kāds var būt šis mazākais skaitlis?
 <small>
 
 * questionType:
-* domain:
+* domain: NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, EvenOddParity, DivisibilityRules, ExhaustiveCheck
 * _readingDifficulty: medium
 * _domain: NT
@@ -328,10 +328,9 @@ Plaknē atzīmēti $5$ punkti. Cik var būt trijstūru, kam visas virsotnes atro
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: Triangle, PointLineSegmentRay, CaseAnalysis, FiniteSet
 * _readingDifficulty: low
-* _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
@@ -365,7 +364,7 @@ no iespējām pastāv īstenībā?
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
 * _domain: Comb
@@ -401,10 +400,9 @@ skaitlis nebūtu divu citu izvēlēto skaitļu starpība?
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: FiniteSet, PositiveIntegers, PigeonholePrinciple, TotalOrder, ExistenceVsUniversal
 * _readingDifficulty: low
-* _domain: Comb,NT
 * _hasReasoningMethod: PigeonholePrincipleBasic, ConstructiveExampleForExistence, ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: high
@@ -433,10 +431,9 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 * topic:IntegerFactorization
 * topic:NumTheoryInequalityLargeIntervals
 * questionType:FindAll
-* domain:Alg
+* domain: NT
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PositiveIntegers, NecessarySufficient
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: NumericalEstimation, IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother
 * _hasReasoningMistake: CaseAnalysisIncomplete, WrongDirectionOfInequalityChain, ConcreteToGeneralLeap
 * _mistakesFit: medium
@@ -472,7 +469,7 @@ piezvanīja $B,\ B$ piezvanīja $C$ un $C$ piezvanīja $A$.
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: DirectedGraph, GraphConcept, VertexDegree, PigeonholePrinciple, WalkPathCycle
 * _readingDifficulty: high
 * _domain: Comb
@@ -506,7 +503,7 @@ operāciju palīdzību. Atrast $A$.
 
 * topic:CompletingSquare
 * questionType:FindAll
-* domain:Alg
+* domain: Alg
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, DiffOfSquaresFactoring
 * _readingDifficulty: low
 * _domain: Alg
@@ -537,7 +534,7 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 <small>
 
 * questionType:
-* domain:
+* domain: Geom,Comb
 * _hasSolutionConcept: Triangle, TriangleInequality, GamePosition, WinningLosingPositions, CaseAnalysis
 * _readingDifficulty: medium
 * _domain: Geom,Comb
@@ -574,10 +571,9 @@ ar $4$?
 * topic:PeriodicRemainders
 * topic:CongruenceClasses
 * questionType:ProveDisprove
-* domain:NT
+* domain: Comb
 * _hasSolutionConcept: ModularArithmetic, DivisibilityRelation, FiniteSequenceArrangement, PigeonholePrinciple
 * _readingDifficulty: low
-* _domain: Comb,NT
 * _hasReasoningMethod: ModularArithmetic, PigeonholeInNT
 * _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -610,10 +606,9 @@ Vai taisnstūri ar izmēriem **(A)** $8 \times 8$, **(B)** $12 \times 12$,
 <small>
 
 * questionType:
-* domain:
+* domain: Geom
 * _hasSolutionConcept: Tiling, DivisibilityRelation, QuadrilateralFamilies
 * _readingDifficulty: low
-* _domain: Geom,Comb
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _newReasoningMethodLabel: DivisibilityByTileArea
 * _newReasoningMethodDescription: Using total area divisibility for tiling feasibility
@@ -646,10 +641,9 @@ kartiņas ar skaitli $13$. Cik kartiņu ir Maijai?
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, FiniteSet, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: high
-* _domain: Comb,NT
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, MissingConstructionPartInOptimalProblems
 * _mistakesFit: medium
@@ -691,7 +685,7 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * _hasSolutionConcept: GraphConcept, VertexDegree, OptimumProofStructure, BinaryRelation
 * _readingDifficulty: medium
 * _domain: Comb
@@ -725,7 +719,7 @@ $ABCD$ - kvadrāts (protams, iegūto punktu skaits tad būs mazāks).
 <small>
 
 * questionType:
-* domain:
+* domain: Geom
 * _hasSolutionConcept: ParallelogramProperties, Triangle, ParallelPerpendicular
 * _readingDifficulty: low
 * _domain: Geom
@@ -772,10 +766,9 @@ $$\left\{\begin{array}{l}
 <small>
 
 * questionType:
-* domain:
+* domain: Alg
 * _hasSolutionConcept: IrrationalAndReals, EquationSystem, WholeIntegers, VariableExpression
 * _readingDifficulty: low
-* _domain: Alg,NT
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap
 * _mistakesFit: medium
@@ -811,7 +804,7 @@ Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
 <small>
 
 * questionType:FindAll
-* domain:NT
+* domain: NT
 * _hasSolutionConcept: DivisibilityRelation, CoprimeIntegers, LCM, PositiveIntegers
 * _readingDifficulty: low
 * _domain: NT
@@ -846,10 +839,9 @@ spēlējot?
 <small>
 
 * questionType:ProveDisprove
-* domain:NT
+* domain: Comb
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, FiniteSet, PositiveIntegers
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: CompleteEnumeration, ProofByContradiction, GameInvariantsInNT
 * _hasReasoningMistake: ExampleInsteadOfProof, MissingBoundOrExample
 * _mistakesFit: low
@@ -941,7 +933,7 @@ Atbildiet uz šo jautājumu, ja **(A)** $n=5$; **(B)** $n=2006$.
 <small>
 
 * questionType:
-* domain:
+* domain: Comb,Geom
 
 </small>
 
@@ -971,7 +963,7 @@ $\frac{1}{2}$.
 <small>
 
 * questionType:
-* domain:
+* domain: Alg
 
 </small>
 
@@ -994,7 +986,7 @@ $\triangle ABC$ augstumu krustpunkts.
 <small>
 
 * questionType:
-* domain:
+* domain: Geom
 
 </small>
 
@@ -1033,7 +1025,7 @@ noskaidrot, cik ir viltoto monētu?
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 * seeAlso: LV.VOL.2004.10.5
 * topic: WeighingComparisonsToCases
 * topic: WeighingAmongGroups
@@ -1101,7 +1093,7 @@ būtu apdraudētas?
 <small>
 
 * questionType:
-* domain:
+* domain: Comb
 
 </small>
 
@@ -1139,7 +1131,7 @@ ir $S$. Pierādīt, ka $\sphericalangle MSK=\sphericalangle NSK$.
 <small>
 
 * questionType:
-* domain:
+* domain: Geom
 
 </small>
 
@@ -1172,7 +1164,7 @@ funkcija $f(x)-x^{2}-x$ ir augoša
 <small>
 
 * questionType:
-* domain:
+* domain: Alg
 
 </small>
 
@@ -1236,7 +1228,7 @@ ir $0$.
 <small>
 
 * questionType:
-* domain:
+* domain: Alg
 
 </small>
 
@@ -1336,7 +1328,7 @@ punktos $Q$ un $S$. Pierādiet, ka $PS \perp QR$.
 <small>
 
 * questionType:
-* domain:
+* domain: Geom
 
 </small>
 
