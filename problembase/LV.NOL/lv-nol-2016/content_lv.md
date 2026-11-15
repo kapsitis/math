@@ -18,7 +18,7 @@ $$\frac{5}{16}; \frac{\square}{5}; \frac{3}{4}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Paplašinot visas daļas, lai to saucēji būtu $80$, iegūstam 
 $\frac{25}{80}; \frac{16 \cdot \square}{80}; \frac{60}{80}$. Vidējās daļas 
@@ -48,7 +48,7 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $8$; **(B)** $18$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Skaitlis dalās ar $8$, ja tā pēdējo trīs ciparu veidotais skaitlis 
 dalās ar $8$. Pārbaudot trīs ciparu veidotos skaitļus iegūstam, ka mazākais 
@@ -85,7 +85,7 @@ malas garums ir $1~\mathrm{cm}$, ir nepieciešami, lai aplīmētu visu šo figū
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katras skaldnes pārklāšanai nepieciešami $8$ kvadrātiņi, tātad, lai pārklātu 
 visas sešas skaldnes, vajag $6 \cdot 8=48$ kvadrātiņus. Lai pārklātu katrā 
@@ -93,7 +93,7 @@ skaldnē esošo caurumu, vajag $4$ kvadrātiņus, tātad, lai pārklātu visus s
 caurumus, vajag $6 \cdot 4=24$ kvadrātiņus. Kopā figūras pārklāšanai vajag 
 $48+24=72$ kvadrātiņus.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ievērojam, ka salīmētajā figūrā ir tikai divu veidu kubiņi - astoņi stūra 
 kubiņi, kuriem nesalīmētas ir atlikušas trīs skaldnes, un $12$ vidus kubiņi, 
@@ -125,7 +125,7 @@ $$\begin{aligned}
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der, piemēram, $A=2,\ B=3,\ C=1$ un $D=5$, jo $2+3=1 \cdot 5$ un 
 $2 \cdot 3=1+5$.
@@ -149,7 +149,7 @@ dalījuma līnijas ietu pa rūtiņu līnijām!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 2.att.
 
@@ -175,7 +175,7 @@ Olafam. Cik naudas ir katram brālim?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja Haraldam ir $x$ eiro, tad Rihardam ir $x-2,10$ eiro un Olafam ir $x+3,30$ 
 eiro. Tātad
@@ -212,7 +212,7 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $9$; **(B)** $24$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Skaitlis dalās ar $9$, ja tā ciparu summa dalās ar $9$. Pārbaudot 
 ciparu summas, iegūstam, ka mazākais skaitlis, kas dalās ar $9$, ir $12345678$,
@@ -246,7 +246,7 @@ $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9;\ 10$ vienības!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 3.att.
 
@@ -275,7 +275,7 @@ vieglāko, gan pašu smagāko monētu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalām monētas pa pāriem un salīdzinām katra pāra monētas - nosakām vieglāko 
 un smagāko monētu katrā pārī. Pēc katras svēršanas vieglāko monētu liekam vienā
@@ -317,7 +317,7 @@ pareizu reizināšanas piemēru! Neviens skaitlis tajā nedrīkst sākties ar $0
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der skaitļu $129$ un $879$ reizinājums (skat. 5.att.).
 
@@ -360,7 +360,7 @@ nekā Bruno, Cildai ir vairāk naudas nekā Aivaram, Dainai - vairāk nekā Cild
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka Aivaram ir $a$ centi, Bruno - $b$ centi, Cildai - $c$ centi un 
 Dainai - $d$ centi. Pēc uzdevuma nosacījumiem $d>c>a>b$.
@@ -396,7 +396,7 @@ kas dalās ar $99$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja skaitlis dalās ar $99$, tad tas vienlaicīgi dalās gan ar $9$, gan $11$. 
 Skaitlis dalās ar $9$ tad un tikai tad, ja tā ciparu summa dalās ar $9$. 
@@ -435,7 +435,7 @@ sakrīt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 8.att.
 
@@ -469,7 +469,7 @@ pārējām? Pašu monētu atrast nav nepieciešams.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā svaru kausā ieliekam $6$ monētas.
 
@@ -508,7 +508,7 @@ izpildās vienādības $a+b=cd$ un $ab=c+d$ ?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Der, piemēram, $a=2,\ b=3, c=1$ un $d=5$, jo $2+3=1 \cdot 5$ un 
 $2 \cdot 3=1+5$.
@@ -520,7 +520,7 @@ $2017-2017=0 \cdot\left(-2017^{2}\right)$ un $2017 \cdot(-2017)=0-2017^{2}$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 **(A)** Izveidojam piemēru, izvēloties nelielu vērtību, ar kuru iespējami 
 vienkārši veikt aprēķinus.
@@ -554,7 +554,7 @@ Aprēķini izteiksmes $\sqrt{a-b}+\sqrt{b-c}+\sqrt{c-d}+\sqrt{d-a}$ vērtību!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā zemsaknes izteiksmei jābūt nenegatīvai, tad 
 $a \geq b,\ b \geq c,\ c \geq d,\ d \geq a$, no kā izriet, ka 
@@ -585,7 +585,7 @@ $104$. Pierādi, ka otrais skaitlis $BURBUĻUVANNA$ nedalās ar $56$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā skaitlis $DUBĻUNNN$ dalās ar $104=8 \cdot 13$, tad tas dalās arī ar $8$. 
 Ar $8$ dalās skaitļi, kuru pēdējo trīs ciparu veidotais skaitlis dalās ar $8$, 
@@ -600,7 +600,7 @@ $0$, ne $8$. Tātad skaitlis $BURBUĻVANNA$ nedalās ar $56$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Skaitļi $104$ un $56$ šeit nav izraudzīti patvaļīgi, 
 tiem lielākais kopīgais dalītājs $\gcd(104,56) = 8$. 
@@ -636,7 +636,7 @@ $P$ atrodas uz $AD,\ Q$ - uz $BC$ un $PQ=QD$. Pierādīt, ka $DP=2AP$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle AOP=\sphericalangle COQ,\ AO=OC$ un 
 $\sphericalangle OAP=\sphericalangle OCQ$, tad $\triangle AOP=\triangle COQ$ 
@@ -667,7 +667,7 @@ pati sevi krustot vai pieskarties.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var novilkt $12$ rūtiņu diagonāles, skat. 10.att.
 
@@ -708,7 +708,7 @@ tieši $3$ centi nevar iegūt pēc PVN pievienošanas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pamatosim, ja sākumā preču cenas bija dažādas, tad pēc PVN 
 pievienošanas un noapaļošanas tās arī būs dažādas. Ievērojam, ka, noapaļojot 
@@ -745,7 +745,7 @@ koordinātas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Krustpunkta abscisu iegūst no vienādojuma $2016-x=\frac{2015}{x}$. Reizinot 
 abas vienādojuma puses ar $x \neq 0$, iegūst $x^{2}-2016x+2015=0$. Pēc Vjeta 
@@ -784,7 +784,7 @@ vairākus (vismaz divus), kuru summa dalās ar $4$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Naturāls skaitlis, dalot ar $4$, dod atlikumu $0,\ 1,\ 2$ vai $3$, pāra
 skaitļi dod atlikumu $0$ vai $2$, nepāra - atlikumu $1$ vai $3$.
@@ -839,7 +839,7 @@ Aprēķināt $\sphericalangle BAC$ lielumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc bisektrises definīcijas $\sphericalangle ABD=\sphericalangle DBC=\alpha$. 
 Malas $AB$ viduspunktu apzīmējam ar $E$ (skat. 1.att.)
@@ -883,7 +883,7 @@ Cik partijas izspēlēja Uzrocis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka katrs spēlētājs spēlē vismaz vienā no divām pēc kārtas sekojošām 
 partijām. Tā kā Ķērpjbārdis spēlēja tikai $10$ partijas, tad kopējais partiju 
@@ -916,7 +916,7 @@ vērtība būtu $0$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Ievērosim, ka divu pēc kārtas sekojošu skaitļu kvadrātu starpība ir 
 $(n+1)^{2}-n^{2}=2n+1$. Tāpat arī $(n+3)^{2}-(n+2)^{2}=2n+5$ un tātad, saliekot
@@ -954,7 +954,7 @@ $1 \cdot 4+2 \cdot 7+3 \cdot 10+\cdots+n \cdot(3n+1)=n(n+1)^{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātiskās indukcijas metodi.
 
@@ -977,7 +977,7 @@ $=(k+1)(k(k+1)+3k+4)=(k+1)\left(k^{2}+4k+4\right)=(k+1)(k+2)^{2}$.
 
 *Secinājums.* Tā kā vienādība ir patiesa, ja $n=1$, un no tā, ka vienādība ir spēkā, ja $n=k$, izriet, ka vienādība ir spēkā arī $n=k+1$, secinām, ka vienādība ir spēkā visām naturālām $n$ vērtībām.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ekvivalenti pārveidojot doto vienādību, iegūstam
 
@@ -990,7 +990,7 @@ summa ir $\frac{n(n+1)(2n+1)}{6}$.
 
 
 
-## Atrisinājums
+## Atrisinājums-3
 
 Definējam virkni 
 
@@ -1027,7 +1027,7 @@ tā, ka to summa vai starpība dalās ar $5$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms noskaidrosim, ar ko var būt kongruents naturāla skaitļa kvadrāts pēc 
 moduļa $5$.
@@ -1060,7 +1060,7 @@ punktā $S$. Pierādīt, ka $PS=SQ$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā trijstūri $APB$ un $BQC$ ir vienādsānu taisnleņķa, tad 
 $\sphericalangle ABP=\sphericalangle CBQ=45^{\circ}$ (skat. 2.att.). Tāpēc 
@@ -1089,7 +1089,7 @@ Uzrocis - $17$. Kurš zaudēja sestajā partijā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katrā partijā spēlē divi spēlētāji, tad kopā tika izspēlēta 
 $(10+15+17):2=21$ partija. Katrs spēlētājs spēlē vismaz vienā no divām pēc 
@@ -1111,7 +1111,7 @@ pēc kārtas ir $n;\ n+1;\ n+2;\ n+3;\ n+4;\ n+5;\ n+6;\ n+7$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Parādīsim, kā katram naturālam $n$ konstruēt astoņstūri $ALKPCONM$ (skat. 
 3.att.).
@@ -1137,7 +1137,7 @@ Atrisināt nevienādību $x^{2}+3kx-k>0$ visām parametra $k$ vērtībām!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aprēķinām diskriminantu: $D=9k^{2}+4k=k(9k+4)$. Tā kā $D=0$, ja $k=0$ vai 
 $k=-\frac{4}{9}$, tad šie punkti sadala parametra $k$ asi trīs intervālos. 
@@ -1173,7 +1173,7 @@ divus tādus, ka to summa vai starpība dalās ar $13$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms noskaidrosim, ar ko var būt kongruents naturāla skaitļa kvadrāts pēc 
 moduļa $13$.
@@ -1219,7 +1219,7 @@ trijstūri $ABF$ un $CDF$ ir līdzīgi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $\sphericalangle DEC=\sphericalangle AEB$ kā krustleņķi (skat. 
 5.att.) un $\sphericalangle CFD=\sphericalangle DEC$ kā ievilktie leņķi, kas 
@@ -1251,7 +1251,7 @@ atdod savu vietu tam, kurš iepriekšējo partiju nespēlēja. Beigās izrādij�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka otrajā partijā zaudēja Ķērpjbārdis. Tā kā katrā partijā spēlē $2$
 spēlētāji, tad kopā tika izspēlētas $(12+15+19):2=23$ partijas. Katrs spēlētājs
@@ -1279,7 +1279,7 @@ vienmēr var panākt, lai iegūtajam vienādojumam ir vismaz viena vesela sakne?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, Makss prasīto vienmēr var panākt. Aplūkosim vienādojumu 
 $ax^{4}-bx^{3}+cx^{2}-dx+e=0$. Ievietojot $x=-1$, iegūstam, ka $a+b+c+d+e=0$. 
@@ -1300,7 +1300,7 @@ Noteikt funkcijas $y=\sqrt{5 \cdot 2^{x}-3^{x}}$ definīcijas kopu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zemsaknes izteiksmei jābūt nenegatīvai, tāpēc $5 \cdot 2^{x}-3^{x} \geq 0$. Tā 
 kā $2^{x}>0$ visiem reāliem $x$, tad, nevienādības abas puses dalot ar $2^{x}$,
@@ -1321,7 +1321,7 @@ $b$ ir pirmskaitļi, lielāko kopīgo dalītāju!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka 
 $a^{4}-b^{4}=\left(a^{2}-b^{2}\right)\left(a^{2}+b^{2}\right)=(a-b)(a+b)\left(a^{2}+b^{2}\right)$.
@@ -1381,7 +1381,7 @@ $\sphericalangle ABD+\sphericalangle BDC=90^{\circ}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam malu $AB,\ BC,\ CD$ un $DA$ viduspunktus attiecīgi ar $E,\ F,\ G$ un 
 $H$ (skat. 6.att.). Tā kā $EF$ un $HG$ ir attiecīgi trijstūru $ABC$ un $ADC$ 
@@ -1418,7 +1418,7 @@ Uzrocis - $14$ partijās. Cik partijas izspēlēja katrs no viņiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katrā partijā ir tieši viens uzvarētājs, tad kopā tika izspēlētas 
 $10+12+14=36$ partijas. Aplūkosim jebkuru spēlētāju un apzīmēsim ar $z$ tā 
@@ -1447,7 +1447,7 @@ Kurš skaitlis ir lielāks: $\log _{2015} 2016$ vai $\log _{2016} 2017$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka lielāks ir skaitlis $\log _{2015} 2016$.
 

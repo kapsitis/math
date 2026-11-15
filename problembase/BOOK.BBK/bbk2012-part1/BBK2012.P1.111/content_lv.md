@@ -7,7 +7,7 @@ Pierādīt, ka $\left(a a^{\prime}, a b^{\prime}, b a^{\prime}, b b^{\prime}\rig
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot LKD īpašības, iegūstam
 

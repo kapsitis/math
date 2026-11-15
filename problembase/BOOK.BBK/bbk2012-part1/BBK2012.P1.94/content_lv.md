@@ -7,7 +7,7 @@ Kāda var būt lielākā šīs progresijas diferences vērtība?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $d$ apzīmēsim dotās progresijas diferenci. Tad
 

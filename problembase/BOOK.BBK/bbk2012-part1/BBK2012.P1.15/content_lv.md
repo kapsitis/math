@@ -6,7 +6,7 @@ tad $n$ ir vai nu trīs, vai deviņi.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka aplūkota dalāmības pazīme ar skaitli $k$. 
 Izvēlēsimies $n$-ciparu skaitli $m$ intervālā 

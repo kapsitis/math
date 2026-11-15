@@ -6,7 +6,7 @@ un $7n+5$ ir savstarpēji pirmskaitļi.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x$ ir doto skaitlu kopīgais dalītājs, tad $x$ dala arī skaitli 
 $3(7n+5) - 7(3n+2)=1$. Tātad tas var būt tikai $1$.

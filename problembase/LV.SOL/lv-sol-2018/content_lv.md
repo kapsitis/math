@@ -9,7 +9,7 @@ Istabā sēž $8$ cilvēki. Pierādīt, ka starp tiem ir vismaz $2$, kuri dzimu�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja uzdevumā prasītais neizpildītos, tad katrā nedēļas dienā būtu dzimis ne vairāk kā $1$ cilvēks, bet tādā gadījumā istabā atrastos ne vairāk kā $7$ cilvēki. Tā ir pretruna ar doto, ka istabā ir $8$ cilvēki. Tātad ir vismaz divi cilvēki, kas dzimuši vienā nedēļas dienā.
 
@@ -29,7 +29,7 @@ $1.$ att.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $2.$ att.
 
@@ -49,7 +49,7 @@ Jānis, Juris, Andris, Pēteris un Kārlis katrs iedomājās pa skaitlim; tie vi
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrs no iedomātajiem skaitļiem var būt lielāks nekā $0$, $1$, $2$, $3$ vai $4$ citi iedomātie skaitļi. Tā kā no iedomātajiem skaitļiem jau ir skaitļi, kas ir lielāki nekā $0$, $1$, $2$ vai $4$ citi iedomātie skaitļi un visi iedomātie skaitļi ir dažādi, tad Andra iedomātais skaitlis ir lielāks nekā $3$ citi iedomātie skaitļi.
 
@@ -65,7 +65,7 @@ Istabā sēž $13$ cilvēki. Pierādīt, ka starp tiem ir vismaz $2$, kuri dzimu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja uzdevumā prasītais neizpildītos, tad katrā mēnesī būtu dzimis ne vairāk kā $1$ cilvēks, bet tādā gadījumā istabā atrastos ne vairāk kā $12$ cilvēki. Tā ir pretruna ar doto, ka istabā ir $13$ cilvēki. Tātad ir vismaz divi cilvēki, kas dzimuši vienā mēnesī.
 
@@ -81,7 +81,7 @@ Vai visus divciparu pirmskaitļus var uzrakstīt rindā tā, lai katrs nākamais
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Pirmskaitlis $43$ nevar atrasties ne aiz viena cita pirmskaitļa (nav pirmskaitļa, kura pēdējais cipars ir $4$). To varētu ņemt kā pirmo, taču tad rindā nevar uzrakstīt pirmskaitli $47$.
 
@@ -97,7 +97,7 @@ Vai uz lineāla var atzīmēt četrus punktus tā, lai seši attālumi starp tie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, skat., piemēram, $3.$ att.
 
@@ -117,7 +117,7 @@ Tabulā $3 \times 3$ rūtiņas katrā rūtiņā ierakstīts viens no trim skait�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka Velta noteikti ieguva vismaz divas vienādas summas. Velta aprēķināja astoņas summas ($3$ rindas, $3$ kolonnas un $2$ diagonāles). No skaitļiem $-1$, $0$, $1$ var iegūt septiņas dažādas summas (mazāko summu iegūst, ja visās trīs rūtiņās ieraksta “$-1$”, lielāko summu iegūst, ja visās trīs rūtiņās ieraksta “$1$”):
 
@@ -145,7 +145,7 @@ Vienādojumam $ax=b$ nav neviena atrisinājuma ($a$ un $b$ – kaut kādi doti s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā vienādojumam $ax=b$ nav atrisinājuma, tad $a=0$ un $b \ne 0$. Tātad vienādojumam $bx=a$ ir viens atrisinājums $x=0$.
 
@@ -161,7 +161,7 @@ Koordinātu plaknē atzīmēti $10$ punkti. Caur katru no tiem novilktas $2$ tai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Var būt $7$ taisnes, skat., piemēram, $4$. att.
 
@@ -189,7 +189,7 @@ Kontroldarbu rakstīja $17$ skolēni. Vienam no viņiem bija $5$ kļūdas, pār�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zināms, ka $5$ kļūdas bija tikai vienam skolēnam. Apskatīsim kādās grupās varam sadalīt pārējos $16$ skolēnus:
 
@@ -213,7 +213,7 @@ Rindā uzrakstīti cipari $12345678901234567890...1234567890$ (ciparu grupa $123
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Rindā pavisam ir uzrakstīti $1000$ cipari. Ievērojam, ka
 
@@ -237,7 +237,7 @@ Kvadrāts sastāv no $8 \times 8$ rūtiņām. Vienu rūtiņu izgriež. Vai atlik
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izkrāsosim kvadrātu kā šaha galdiņu, ir $32$ baltas un $32$ melnas rūtiņas. Pēc vienas rūtiņas izgriešanas vienas krāsas rūtiņu skaits samazinās par $1$. Katrs trijstūris pārklāj vienādu balto un melno laukumu. Tātad prasītā sagriešana nav iespējama.
 
@@ -253,7 +253,7 @@ Kādā namā dzīvo $135$ cilvēki. Neviens no viņiem nav jaunāks par $10$ gad
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalīsim visus iedzīvotājus grupās pēc to vecumiem:
 
@@ -277,7 +277,7 @@ Cik ir tādu naturālu skaitļu $n$, ka $\left[\sqrt{n}\right] = 25$? Ar $[x]$ a
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai izpildītos vienādība $\left[\sqrt{n}\right]=25$, tad jāizpildās divkāršajai nevienādībai $25\leq \sqrt{n}<26$ jeb $25^2\leq n<26^2$. Tātad šādu naturālu skaitļu skaits ir $26^2-25^2=(26-25)(26+25)=51$.
 
@@ -293,7 +293,7 @@ Vai trapeces diagonāļu krustpunkts var atrasties uz tās viduslīnijas?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Pieņemsim, ka tāda situācija izveidojusies (skat. $5$. att.). Tā kā $BM=AM$ un $MO\parallel BC$, tad pēc Talesa teorēmas $AO=OC$. Līdzīgi pierāda, ka $DO=OB$. Tātad četrstūra $ABCD$ diagonāles krustojoties dalās uz pusēm, no tā secinām, ka četrstūris ir paralelograms; tātad nav trapece.
 
@@ -313,7 +313,7 @@ Pierādīt, ka no jebkuriem $11$ naturāliem skaitļiem var izvēlēties divus t
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Naturāls skaitlis, dalot ar $10$, var dot $10$ dažādus atlikumus: $0$; $1$; $2$; $3$; $4$; $5$; $6$; $7$; $8$ vai $9$. Dotos $11$ skaitļus uzskatīsim par „trušiem”, savukārt vienā „būrī” ievietosim tos skaitļus, kas dod vienādus atlikumus, dalot ar $10$, tātad ir $10$ „būri”. No Dirihlē principa izriet, ka, $11$ „trušus” izvietojot pa $10$ „būriem”, vismaz vienā „būrī” nonāks vismaz divi „truši”, tas ir, vismaz divi skaitļi dod vienādus atlikumus, dalot ar $10$. Šo divu skaitļu starpība dalās ar $10$.
 
@@ -331,7 +331,7 @@ Pierādīt, ka aritmētiskajā progresijā, kuras vispārīgais loceklis ir $a_n
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotajai aritmētiskajai progresijai pieder visi skaitļi, kas uzrakstāmi formā $2018\underbrace{00\ldots 0}_{k}2017$. Visiem šādiem skaitļiem ciparu summa ir $21$.
 
@@ -347,7 +347,7 @@ Taisnleņķa trijstūrī hipotenūzas garums ir $10$. Aprēķināt to mediānu g
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $BC=2a$ un $AC=2b$. Izmantojot Pitagora teorēmu (skat. $6.$ att.), iegūstam
 
@@ -375,7 +375,7 @@ Pierādīt, ka no patvaļīgiem pieciem naturāliem skaitļiem var izvēlēties 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aprēķinām, kādus atlikumus pēc moduļa $7$ dod naturālu skaitļu kvadrāti:
 
@@ -398,7 +398,7 @@ $$|8 - x| + |4 - y| = 3.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā moduļa vērtības ir nenegatīvas, tad jāizpildās nevienādībām $|8-x|\leq 3$ un $|4-y|\leq 3$. Tātad $x\in[5;11]$ un $y\in[1;7]$. Apskatām četrus iespējamos gadījumus:
 
@@ -427,7 +427,7 @@ Trijstūrī $ABC$ novilkta mediāna $BM$. Vai var gadīties, ka trijstūrī $ABM
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim trijstūrī $ABM$ (skat. 8. att.) ievilktās riņķa līnijas rādiusu ar $r_1$, bet trijstūrī $CBM$ ievilktās riņķa līnijas rādiusu ar $r_2$. Pieņemsim, ka $r_1=2r_2$.
 
@@ -453,7 +453,7 @@ Pierādīt, ka no jebkuriem $15$ naturāliem skaitļiem var izvēlēties divus t
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Naturāls skaitlis, dalot ar $14$, var dot $14$ dažādus atlikumus: $0$; $1$; $2$; $3$; $4$; $5$; $6$; $7$; $8$; $9$; $10$; $11$; $12$ vai $13$. Dotos $15$ skaitļus uzskatīsim par „trušiem”, savukārt vienā „būrī” ievietosim tos skaitļus, kas dod vienādus atlikumus, dalot ar $14$, tātad ir $14$ „būri”. No Dirihlē principa izriet, ka, $15$ „trušus” izvietojot pa $14$ „būriem”, vismaz vienā „būrī” nonāks vismaz divi „truši”, tas ir, vismaz divi skaitļi dod vienādus atlikumus, dalot ar $14$. Šo divu skaitļu starpība dalās ar $14$.
 
@@ -469,7 +469,7 @@ Dots, ka $a$ un $b$ – naturāli skaitļi un $a^2 + b^2$ dalās ar $7$. Pierād
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aprēķinām, kādus atlikumus pēc moduļa $7$ dod naturālu skaitļu kvadrāti:
 
@@ -497,7 +497,7 @@ Izliekta četrstūra $ABCD$ laukums ir $S$, bet malu viduspunkti ir $M, N, K, T$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $N$ un $K$ ir malu viduspunkti (skat. $10.$ att.), tad
 

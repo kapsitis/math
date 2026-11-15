@@ -18,7 +18,7 @@ burkā, ja Artūrs apēdīs visus atlikušos gurķīšus? (Artūrs ēda tikai gu
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā, apēdot $\frac{1}{3}$ no visiem gurķīšiem, šķidruma līmenis burkā 
 samazinājās par $\frac{1}{5}$ (burkā palika $\frac{4}{5}$ šķidruma), tad, 
@@ -52,7 +52,7 @@ Kāds ir $999.$ loceklis Raimonda virknē un kāds - Laines virknē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka Raimonda virknē $999.$ loceklis ir skaitlis $1$. Tā kā skaitļu 
 secība virknē atkārtojas ik pēc $4$ skaitļiem un $999=4 \cdot 249+3$, tad 
@@ -93,7 +93,7 @@ vertikāli) būtu vismaz viena iekrāsota rūtiņa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, piemēram, skat. 1.att.
 
@@ -129,7 +129,7 @@ skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, ir iespējams, piemēram, $23856+21836=45692$.
 
@@ -173,7 +173,7 @@ naudaszīmju komplektu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Miķelim jāizvēlas naudaszīmes $1,\ 3,\ 10$ un $15$. Jebkuru summu līdz $15$, 
 izņemot $8\ (8=1+1+3+3)$, var iegūt ar trīs banknotēm, tāpēc, katrai no šīm 
@@ -235,7 +235,7 @@ $25~\mathrm{cm^{2}}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zaļā kvadrāta laukumu apzīmējam ar $x$. Tad zilā kvadrāta laukums ir $125 \%$ 
 no $x$ jeb $1.25x$. Sarkanā kvadrāta laukums ir $80 \%$ no $1.25x$ jeb 
@@ -269,7 +269,7 @@ Kāds ir $1000.$ loceklis Viļņa virknē un kāds - Armanda virknē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka Viļņa virknē $1000.$ loceklis ir skaitlis $8$. Tā kā skaitļu 
 secība virknē atkārtojas ik pēc $8$ skaitļiem un $1000=8 \cdot 125$, tad 
@@ -312,7 +312,7 @@ nevarētu izgriezt $2 \times 3$ rūtiņu taisnstūri, kam visas rūtiņas ir bal
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jāiekrāso $8$ rūtiņas, skat., piemēram, 2.att. Nepietiek iekrāsot mazāk kā $8$ 
 rūtiņas, jo kvadrātā $7 \times 7$ rūtiņas var izvietot astoņus taisnstūrus ar 
@@ -339,7 +339,7 @@ burti apzīmē vienādus ciparus, dažādi -- dažādus, turklāt $A$ nav $0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der $A=1;\ B=2;\ C=8$, tad iegūstam $18 \cdot 8=12 \cdot 12$ jeb $144=144$.
 
@@ -371,7 +371,7 @@ iegūt tieši tikpat dažādos veidos, kā metot divus parastus metamos kauliņu
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Diviem parastiem metamajiem kauliņiem katrai iespējamajai summai 
 atbilstošo veidu skaits ir šāds: 
@@ -435,7 +435,7 @@ cipariem $2,\ 0,\ 1,\ 8$ ?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka meklētie var būt viencipara, divciparu, trīsciparu un četrciparu 
 skaitļi un skaitļa pirmais cipars nedrīkst būt $0$. Saskaitām katra veida 
@@ -476,7 +476,7 @@ locekļu summu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka virknes $2018.$ loceklis ir skaitlis $\left(-\frac{1}{3}\right)$.
 Aprēķinām dažus nākamos virknes locekļus:
@@ -524,7 +524,7 @@ ka $CD>\frac{1}{2}(CA+CB-AB)$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot trijstūra nevienādību trijstūros $ADC$ un $BDC$ (skat. 4.att.), 
 iegūstam
@@ -558,7 +558,7 @@ $(n-2021)(n-2018)(n-2017)(n-2016)=2016$ būtu patiesa!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der $n=2025$, tad $4 \cdot 7 \cdot 8 \cdot 9=2016$.
 
@@ -591,7 +591,7 @@ spoguļattēlā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Abi var izgriezt vienādu skaitu figūru. Taisnstūris ar izmēriem $7 \times 2018$
 rūtiņas satur $7 \cdot 2018=14126$ rūtiņas, tāpēc maksimālais figūru skaits, ko
@@ -630,7 +630,7 @@ $\left(x^{2}-2 x+1\right)\left(x^{4}+1\right)^{2}\left(x^{2}+2x+1\right)\left(x^
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot saīsinātās reizināšanas formulas $(a-b)(a+b)=a^{2}-b^{2}$ un 
 $a^{2} \pm 2ab+b^{2}=(a \pm b)^{2}$, iegūstam
@@ -662,7 +662,7 @@ Kāds ir šīs virknes $2018.$ loceklis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Turpinot virkni tālāk, iegūsim, ka tā ir (ar pelēkiem cipariem norādīts katra 
 virknes locekļa nenulles ciparu reizinājums):
@@ -699,7 +699,7 @@ zināms, ka $ABCD$ laukums ir $100$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam nogriezni $EF$, tas sadala doto paralelogramu $ABCD$ divos vienādos 
 paralelogramos $ABEF$ un $FECD$, jo to pretējās malas ir paralēlas un vienādas.
@@ -741,7 +741,7 @@ centrālajā rūtiņā ir ierakstīts skaitlis $\frac{n^{2}+1}{2}$, ja **(A)** $
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var apgalvot. Apzīmējam tabulā ierakstītos skaitļus ar 
 $a, b, c, d, e, f, g, h$ un $i$ (skat. 12.att.).
@@ -797,7 +797,7 @@ neiekrāsotas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Mazākais rūtiņu skaits, kas jāiekrāso, ir 6, skat., piemēram, 15.att.
 
@@ -846,7 +846,7 @@ reālas saknes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja $a=3$, tad iegūstam lineāru vienādojumu $5x-2=0$, kuram ir viens 
 atrisinājums $x=0,4$. Ja $a \neq 3$, tad dotais vienādojums ir 
@@ -896,7 +896,7 @@ trīs dažādos veidos: $4=1+1+1+1=1+3=3+1$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $a_{n}$ apzīmējam, cik dažādos veidos var gūt $n$ punktus, izdarot $1$ 
 punkta un $3$ punktu metienus. Pamatosim, ka virknes $\left(a_{n}\right)$ katrs
@@ -962,7 +962,7 @@ ir līdzīgi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle ACB=\sphericalangle CBA=\alpha$ (skat. 19.att.). Tā 
 kā četrstūris $ACBD$ ir ievilkts riņķa līnijā, tad tā pretējo leņķu summa ir 
@@ -997,7 +997,7 @@ un kuram neviens cipars nav $0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka lielākais skaitlis, kas apmierina uzdevuma nosacījumus, ir 
 $112 \underbrace{1111 \ldots 111}_{96\ vieninieki}$.
@@ -1037,7 +1037,7 @@ $5 \times 8$ rūtiņas, lai katrā šī taisnstūra $2 \times 3$ rūtiņu taisns
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais rūtiņu skaits, kas jāiekrāso, ir $7$, skat., piemēram, 20.att.
 
@@ -1053,7 +1053,7 @@ vismaz viena rūtiņa. Tātad iekrāsotas ir vismaz $7$ rūtiņas.
 
 ![](LV.AMO.2018.9.5A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Mazākais rūtiņu skaits, kas jāiekrāso, ir $7$, skat., piemēram, 20.att.
 
@@ -1146,7 +1146,7 @@ atšķiras izdarīto lēcienu secība.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $a_{n}$ apzīmējam, cik dažādos veidos blusa var aizlēkt uz punktu, kura 
 koordināta ir $n$. lespējami trīs atšķirīgi gadījumi:
@@ -1204,7 +1204,7 @@ $MN$ garums ir vienāds ar pusi no trijstūra $ABC$ perimetra!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Taišņu $CM$ un $CN$ krustpunktus ar taisni $AB$ apzīmējam attiecīgi ar $M_{1}$ 
 un $N_{1}$ (skat. 27.att.). Nogrieznis $AM$ vienlaicīgi ir trijstūra $M_{1}AC$ 
@@ -1347,7 +1347,7 @@ vienu šādu četru naudaszīmju komplektu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Miķelim jāizvēlas naudaszīmes $1,\ 3,\ 10$ un $25$. Ievērojam, ka visas summas 
 līdz $4$ var iegūt ar ne vairāk kā divām banknotēm un visas summas no $5$ līdz 
@@ -1405,7 +1405,7 @@ $1^{3}+2^{3}+3^{3}+\cdots+n^{3}=(1+2+3+\cdots+n)^{2}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot aritmētiskās progresijas pirmo $n$ locekļu summas formulu, iegūstam,
 ka $1+2+\cdots+n=\frac{(n+1)n}{2}$. Tātad pietiek pierādīt, ka visām naturālām 
@@ -1456,7 +1456,7 @@ $1 \times 4$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $a_{n}$ apzīmējam dažādo taisnstūru ar izmēriem $1 \times n$ skaitu. 
 Apskatām, kādā veidā var likt pirmo no dotajām figūriņām:
@@ -1514,7 +1514,7 @@ $\sphericalangle QAR=2 \sphericalangle XAY$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $O$ apzīmējam riņķa līnijas $\omega_{1}$ centru (skat. 33.att.). Apzīmējam 
 $\sphericalangle XOY=2 \alpha$.
@@ -1546,7 +1546,7 @@ Vai eksistē tādi naturāli skaitļi $m$ un $n$, ka $m^{2}-n^{2}=2mn$ ?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, neeksistē. Pārveidojam doto vienādību:
 
@@ -1559,7 +1559,7 @@ Kreisās puses izteiksme ir naturāla skaitļa kvadrāts, bet labās puses iztei
 nav naturāla skaitļa kvadrāts, tāpēc neeksistē tādi naturāli skaitļi $m$ un 
 $n$, lai izpildītos dotā vienādība.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Nē, neeksistē. Ja $m$ un $n$ ir dažādas paritātes skaitļi, tad vienādības 
 $m^{2}-n^{2}=2mn$ kreisajā pusē ir nepāra skaitlis, bet labajā - pāra skaitlis.
@@ -1597,7 +1597,7 @@ Aprēķināt šī trijstūra laukumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc Hērona formulas $S_{\Delta}=\sqrt{p(p-a)(p-b)(p-c)}$, kur $a,\ b$ un $c$ ir
 trijstūra malu garumi, bet $p$ - pusperimetrs. Doto vienādojumu var pārrakstīt 
@@ -1609,7 +1609,7 @@ ir
 
 $$S_{\Delta}=\sqrt{22\left(22^{3}-44 \cdot 22^{2}+623 \cdot 22-2860\right)}=22 \sqrt{22^{2}-2 \cdot 22^{2}+623-130}=22 \sqrt{9}=66$$
 
-## Atrisinājums
+## Atrisinājums-2
 
 Dotā trijstūra malu garumus apzīmējam ar $a,\ b$ un $c$. Tā kā $a,\ b$ un $c$ 
 ir vienādojuma saknes, tad
@@ -1649,7 +1649,7 @@ $$\log _{81} 96=\frac{14-\log _{48} 54}{16 \log _{48} 54-4}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $48=2^{4} \cdot 3,54=2 \cdot 3^{3},\ 81=3^{4}$ un 
 $96=2^{5} \cdot 3$.
@@ -1685,7 +1685,7 @@ dažādi.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $k_{n}$ apzīmējam dažādo veidu skaitu, kā rindā iestādīt $n$ kokus 
 atbilstoši uzdevuma nosacījumiem. Ja pirmais ir lapu koks ($2$ veidi), tad 
@@ -1729,7 +1729,7 @@ $EBD^{\prime}$ ievilktās riņķa līnijas rādiusu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $\triangle FA^{\prime}E \sim \triangle D^{\prime}BE$ (skat. 
 35.att.) pēc pazīmes $\ell \ell$, jo 
@@ -1769,7 +1769,7 @@ ciparus. Zināms, ka $A+B=10^{45}$. Pierādīt, ka gan $A$, gan $B$ dalās ar $5
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $A=\overline{a_{45}a_{44} \ldots a_{2}a_{1}}$ un 
 $B=\overline{b_{45}b_{44} \ldots b_{2}b_{1}}$.
@@ -1826,7 +1826,7 @@ Trijstūri sauc par vienkrāsas, ja tam visas malas ir nokrāsotas vienā krās�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Regulārā sešstūra virsotnes apzīmējam ar $A, B, C, D, E, F$.
 

@@ -13,7 +13,7 @@ $1.$zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 1. zīm.
 
@@ -33,7 +33,7 @@ Kvadrāts sastāv no $3\cdot 3$ rūtiņām. Vai var katrā rūtiņā ierakstīt 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 2.zīm.
 
@@ -53,7 +53,7 @@ Pa apli izrakstīti naturāli skaitļi no $11$ līdz $20$, katrs tieši vienu re
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzrakstītajiem skaitļiem tieši $3$ ($12$; $15$; $18$) dalās ar $3$. Pastāv trīs iespējas:  
 a) nekādi divi no tiem nav blakus; meklējamo reizinājumu ir $6$;  
@@ -72,7 +72,7 @@ Kvadrāts sastāv no $7\cdot 7$ rūtiņām. No tām $11$ rūtiņas nokrāsotas. 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 3.zīm.; četros taisnstūros kopā ir ne vairāk kā $11$ rūtiņas, un $4\cdot 3=12>11$.
 
@@ -104,7 +104,7 @@ $3.$zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Skaitļi $7$ un $8$, kas sākotnēji ir vienā rindā, nevar nonākt dažādās rindās.
 
@@ -124,7 +124,7 @@ $4.$zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, skat., piem., 5.zīm.
 
@@ -144,7 +144,7 @@ Cik ir tādu desmitciparu naturālu skaitļu, kas dalās ar $9$ un kuru pierakst
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja skaitlī ir $n$ ciparu „$7$”, tad tā ciparu summa ir $7n$. Lai tā dalītos ar $9$, skaitlim $n$ jādalās ar $9$. Tātad mūsu skaitlī ir deviņi septītnieki un viena nulle. Nulle var būt jebkurā pozīcijā, izņemot pirmo. Tātad pavisam ir $9$ tādi skaitļi.
 
@@ -160,7 +160,7 @@ Vai var kvadrātā, kas sastāv no $3 \times 3$ rūtiņām, katrā rūtiņā ier
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Ja to varētu izdarīt, tad $5$ varētu būt blakus tikai ar $1$ un ar $9$, $4$ – tikai ar $8$ un $9$, $6$ – tikai ar $1$ un $2$. Tāpēc izvietojumam būtu jābūt tādam, kā redzams 6.zīm. Bet tad $3$ jābūt blakus ar $2$ – pretruna.
 
@@ -180,7 +180,7 @@ Vai kāds naturāls skaitlis, kuram katrs nākošais cipars (izņemot pirmo) ir 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Ja tāds būtu, apskatām mazāko no tiem $x$. Ir divas iespējas:
 
@@ -201,7 +201,7 @@ Kvadrāts sastāv no $8 \times 8$ rūtiņām. Sprīdītis sāk ceļu vienā no t
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 7.zīm.
 
@@ -223,7 +223,7 @@ Dots, ka $a$, $b$, $c$, $d$ – konstantes un funkcija $y=\max(ax+b;cx+d)$ ir li
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a=c$, tad funkciju $a\cdot x+b$ un $c\cdot x+d$ grafiki ir paralēlas taisnes, un $y=a\cdot x+b$ vai $y=c\cdot x+d$ visiem $x$; tātad $y$ ir lineāra funkcija. Ja $a\neq c$, minētie grafiki krustojas; tātad $y$ grafiks ir lauzta līnija, un tātad $y$ nav lineāra funkcija.
 
@@ -239,7 +239,7 @@ Ir zināms, ka no apgalvojumiem „$x^3$ dalās ar $2$”; „$x^3$ dalās ar $4
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No visiem apgalvojumiem seko, ka $x$ ir pāra skaitlis, tātad tā arī ir. No tā savukārt seko, ka $x^3$ dalās ar $2$, ar $4$ un ar $8$. Tāpēc **vienīgais** aplamais apgalvojums var būt „$x^3$ dalās ar $16$”. Tā var gadīties, piem., ja $x=2$.
 
@@ -255,7 +255,7 @@ Trijstūra $ABC$ iekšpusē atrodas tāds punkts $O$, ka $AO=BO=CO$. Pierādīt,
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\angle AOC=180^{\circ}-2\cdot x;$  
 $\angle BOC=180^{\circ}-2\cdot y.$  
@@ -283,7 +283,7 @@ Dotas $2010$ pēc ārējā izskata vienādas monētas; to masas visas ir atšķi
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Salīdzinām divas monētas; vieglāko atliekam malā, bet palikušo salīdzinām ar nākošo, utt. Kad malā atliktas $2009$ monētas (t.i. pēc $2009$ svēršanām), vienīgā palikusi ir smagākā no visām. Līdzīgi atrodam vieglāko monētu no visām.  
 b) Sadalām $2010$ monētas $1005$ pāros. Katra pāra monētas salīdzinām savā starpā. Pēc tam līdzīgi kā a) punktā ar $1004$ svēršanām atrodam „smagāko no smagajām” un ar $1004$ svēršanām – „vieglāko no vieglajām”. Tās arī ir meklētās. Patērētas $1005+1004+1004=3013<4000$ svēršanas.  
@@ -301,7 +301,7 @@ Dots, ka $0<x<1$, $0<y<1$, $0<z<1$, $0<t<1$. Pierādīt, ka vismaz viens no skai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo. Tad $x(1-y)>\frac{1}{4}$, $y(1-z)>\frac{1}{4}$, $z(1-t)>\frac{1}{4}$, $t(1-x)>\frac{1}{4}$. Sareizinot šīs nevienādības, iegūstam $[x(1-x)][y(1-y)][z(1-z)][t(1-t)]>\left(\frac{1}{4}\right)^4$.
 
@@ -321,7 +321,7 @@ $$x^2 + y^2 + 1 \ge 2(xy - x + y).$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nevienādību var identiski pārveidot par $(x-y+1)^2\ge0$.
 
@@ -339,7 +339,7 @@ Kādas ir iespējamās $x$; $y$; $z$; $t$; $v$ vērtības?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzot $x+y=32$; $x+z=36$; $z+v=48$; $t+v=51$. Iegūstam $z-y=4$; $t-z=3$; no šīm abām sakarībām $t-y=7$. Tāpēc $x+t=(x+y)+(t-y)=39$. Tāpēc $37=y+z$. Tātad $2x=(x+y)+(x+z)-(y+z)=32+36-37=31$. No šejienes $x=15\frac{1}{2}$; $y=16\frac{1}{2}$; $z=20\frac{1}{2}$; $v=27\frac{1}{2}$; $t=23\frac{1}{2}$. Pārbaude (**nepieciešama!**) parāda, ka uzdevuma nosacījumi ir apmierināti. Tāpēc vienīgās iespējamās vērtības ir atrastas.
 
@@ -357,7 +357,7 @@ Pierādīt, ka $OM \perp BK$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $AB=BC$, $BJ=CK$ un $\angle ABJ=90^{\circ}+\angle CBJ=90^{\circ}+\angle DCK=\angle BCK$, tad $\triangle ABJ=\triangle BCK$. Tāpēc $AJ\perp BK$. Bet $OM\parallel AJ$ kā viduslīnija trijstūrī $ACJ$. Tāpēc arī $OM\perp BK$.
 
@@ -377,7 +377,7 @@ Uz galda atrodas $7$ kartītes; uz tām uzrakstīti cipari $0$; $1$; $2$; $3$; $
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzvar pirmais „p”. Viņš ņem $3$; otrajam „o” jāņem $4$. Tagad jau skaidrs, ka „o” ar otro gājienu neuzvarēs. Tālāk „p” ņem $1$; „o” jāņem $5$. Tagad „p” ņem $6$ un uzvar, jo $136$ dalās ar $17$.
 
@@ -399,7 +399,7 @@ Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzdevumā dotajām pēdējām $4$ prasībām seko, ka $2\cdot x-5$ dalās ar $5$; ar $7$; ar $9$; ar $11$ (piemēram, $2\cdot x-5=2\cdot (x+1)-7$ dalās ar $7$ u.tml.). Tā kā $5$; $7$; $9$; $11$ pa pāriem ir savstarpēji pirmskaitļi, tad $2\cdot x-5$ dalās ar $5\cdot 7\cdot 9\cdot 11=3465$. Tā kā $1\le x\le 2009$, tad $-3\le 2\cdot x-5\le 4013$. Šajās robežās ar $3465$ dalās tikai $0$ un $3465$. Bet $2\cdot x-5=0$ naturālam $x$ nav iespējams, tāpēc $2\cdot x-5=3465$ un $\mathbf{x=1735}$.
 
@@ -415,7 +415,7 @@ Vai eksistē naturāls skaitlis $n$, kura visus naturālos dalītājus (ieskaito
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja naturālam skaitlim ir $2\cdot n$ dalītāji (tāds ir, piemēram, jebkurš skaitlis $p^{2n-1}$, $p$ – pirmskaitlis) $d_1<d_2<\ldots<d_{2n}$, tad $d_1\cdot d_{2n}=d_2\cdot d_{2n-1}=\ldots=d_n\cdot d_{n+1}$. Tātad var izveidot $n$ prasītā tipa grupas.
 
@@ -431,7 +431,7 @@ Ja naturālam skaitlim ir $2\cdot n$ dalītāji (tāds ir, piemēram, jebkurš s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādāmās nevienādības $\frac{1}{2}\cdot AM\cdot R+\frac{1}{2}\cdot AD\cdot R+\frac{1}{2}\cdot DN\cdot R=\frac{1}{2}\cdot MB\cdot R+\frac{1}{2}\cdot BC\cdot R+\frac{1}{2}\cdot CN\cdot R$ abas puses dala ar $\frac{1}{2}\cdot R$ ($R$ – rādiuss).
 
@@ -455,7 +455,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nevienādību pārveido par $x(y-1)^2+y(x-1)^2\ge 0$.
 
@@ -471,7 +471,7 @@ Ir $100$ pēc ārējā izskata vienādas monētas. Dažas (vismaz viena) ir īst
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Salīdzinām divas monētas $A$ un $B$. Pastāv divas iespējas.
 
@@ -494,7 +494,7 @@ $5.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja katra veida figūru ir $k$, tad kopējais rūtiņu skaits tajās ir $4k+3k=7k$; tātad $n^2=7k$ un $n$ jādalās ar $7$. Mazākās iespējamās $n$ vērtības ir $n=7$ un $n=14$.
 
@@ -524,7 +524,7 @@ $$x^2+15x=2^y$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības $x(x+15)=2^y$ seko, ka katrs no skaitļiem $x$ un $x+15$ vai nu vieninieks, vai divnieka pakāpe ar naturālu kāpinātāju. Virkne $1; 2; 4; 8; 16; 32; \ldots$ vienīgie skaitļi, kuru starpība ir $15$, ir $1$ un $16$ (nepieciešams pamatojums!). Tāpēc $x=1$ un $y=4$.
 
@@ -542,7 +542,7 @@ Atrast izteiksmes $\dfrac{y}{x}$ mazāko iespējamo vērtību.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzzīmējam attiecīgo $(x;y)$ punktu apgabalu koordinātu plaknē ($14.$ zīm.).
 
@@ -568,7 +568,7 @@ $6.$zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $\angle CBM=\angle NAD$ (leņķi ar savstarpēji paralēlām un vienādi vērstām malām). Tāpēc loki $\overset{\frown}{CK}$ un $\overset{\frown}{LD}$ ir vienādi. Tāpēc $KL\parallel CD$. Prasītais seko no vienādībām $\angle BAN+\angle BMN=\angle BAN+\angle BKL=180^{\circ}$
 
@@ -592,7 +592,7 @@ Kādā klasē ir $n$ zēni un $n$ meitenes. Katrai meitenei patīk $x$ zēni. Ka
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Pieņemsim, ka tāda pāra nav. Lūgsim katram zēnam uzrakstīt $y$ dažādas kartītes – katru ar savu vārdu un kādu tās meitenes vārdu, kas viņam patīk. Līdzīgu darbu lūgsim izdarīt meitenēm. Tā kā savstarpēju simpātiju nav, tad nav divu kartīšu, uz kurām būtu vienādi uzraksti; tāpēc kartīšu nav vairāk par $n\cdot n=n^2$. No otras puses, kartīšu ir $x\cdot n+y\cdot n=(x+y)\cdot n>n\cdot n=n^2$ – pretruna.
 
@@ -616,7 +616,7 @@ Kvadrāts ar izmēriem $1\cdot 1$ sadalīts dažos izliektos četrstūros. Pier�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja četrstūra pēc kārtas ņemtas malas ir $a; b; c; d$, tad
 
@@ -642,7 +642,7 @@ Kādu mazāko daudzumu rūtiņu jāatzīmē kvadrātā, kas sastāv no $5 \times
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To, ka pietiek ar $8$, bet ne mazāk rūtiņām, skat $17.$zīm.
 
@@ -666,7 +666,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam vienādojumu par
 
@@ -698,7 +698,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No teorēmas par sekanšu nogriežņu reizinājumiem iegūstam
 
@@ -728,7 +728,7 @@ Pierādīt, ka $\sqrt{a+b+c} \ge \sqrt{a-1}+\sqrt{b-1}+\sqrt{c-1}$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atceramies Košī – Buņjakovska nevienādību: katriem diviem „vektoriem” $(x_1;x_2;x_3)$ un $(y_1;y_2;y_3)$ ir spēkā
 
@@ -764,6 +764,6 @@ Izstrādāt paņēmienu, kā no patvaļīgiem reāliem skaitļiem $a$, $b$, $c$,
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aprēķinām $x=(a+b)(c+d)$, $y=ac$, $z=bd$. Tad $ad+bc=x-y-z$ un $ac-bd=y-z$.

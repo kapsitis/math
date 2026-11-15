@@ -5,7 +5,7 @@ Pierādīt, ka $A$ dalās ar $9$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $3A=B$. 
 Tā kā $B$ dalās ar $3$, tad arī $B$ ciparu summa $S(B)$ 

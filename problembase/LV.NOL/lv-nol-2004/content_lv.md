@@ -21,7 +21,7 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, var; piemēram,
 
@@ -53,7 +53,7 @@ var sadalīt grupās tā, lai katras grupas skaitļu summa dalītos ar $3$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, var; piemēram, $\mathbf{3;\ 6;\ 9;\ 12}$ un 
 $\mathbf{1;\ 2;\ 4;\ 5;\ 7;\ 8;\ 10;\ 11}$
@@ -83,7 +83,7 @@ sastāv šī figūra, ir tikpat lielas kā tās, kurās sadalīta kuba virsma.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat. 3.zīm.
 
@@ -114,7 +114,7 @@ Vai tā var gadīties, ja kvadrāta izmēri ir $10 \times 10$ rūtiņas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** var gadīties; skat. 4.zīm.
 
@@ -147,7 +147,7 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ Ar $5$ gājieniem.
 
@@ -186,7 +186,7 @@ vai Jānim?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko: četrkāršots Andra naudas daudzums ir visu zēnu kopējais naudas 
 daudzums, un pieckāršots Jāņa naudas daudzums ir visu zēnu kopējais naudas 
@@ -213,7 +213,7 @@ spoguļattēli, uzskata par vienādiem.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Var iegūt $13$ gabalus (skat. 6.zīm.)
 
@@ -242,7 +242,7 @@ reizinājumu, iegūst tā ciparu summu. Kuri divciparu naturāli skaitļi ir lab
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $\overline{ab}$ ir labs naturāls skaitlis, tad $10a+b=ab+a+b$ un 
 $9a=ab,\ b=9$. Tātad meklējamie skaitļi ir $19;\ 29;\ 39;\ \ldots;\ 99$.
@@ -268,7 +268,7 @@ tabulā ierakstīto skaitļu summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $17$;
 
@@ -303,7 +303,7 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Eksistē divi cilvēki $x$ un $y$, kuri pazīst viens otru. Ja $u$ - patvaļīgs 
 cilvēks, tad eksistē tāds $z$, kas pazīst $x,\ y$ un $u$; tātad $x,\ y,\ z$ 
@@ -335,7 +335,7 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 *Atbilde:* $7$ skaitļus.
 
@@ -369,7 +369,7 @@ $y=f(x)$ un $y=g(x)$ abas ir lineāras funkcijas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē; $(ax+b)+(cx+d)=(a+c)x+(b+d)$
 
@@ -398,7 +398,7 @@ Cik garš ir nogrieznis $BD$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzdevumā minētie nogriežņi veido divus trijstūrus $\triangle BAD$ un 
 $\triangle BCD$ ar kopīgu malu $BD$. Ne $2 \mathrm{~cm}$, ne $3 \mathrm{~cm}$ 
@@ -432,7 +432,7 @@ vienāds ar abu pārējo reizinājumu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Ir tikai $7$ skaitļi, kas mazāki par $8$. Tāpēc kādā no $8$ rindiņām
 noteikti visi skaitļi ir vismaz $8$. Ja $a,\ b,\ c$ - šīs rindiņas skaitļi, tad
@@ -460,7 +460,7 @@ jāizgriež taisnstūrus ar izmēriem $1 \times 9$ rūtiņas. Kādu lielāko dau
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $24$.
 
@@ -495,7 +495,7 @@ skaitļu reizinājums vienāds ar otras grupas visu skaitļu reizinājumu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $3$ skaitļus.
 **(A)** izsvītrojot skaitļus 10; 11; 13, iegūstam sadalījumu
@@ -507,7 +507,7 @@ Tāpēc $11$ un $13$ jāsvītro noteikti (tie katrs sastopami vienā eksemplār�
 jāsvītro arī $5,\ 10$ vai $15$, lai atlikušo reizinātāju " $5$ " būtu pāra skaits.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 *#EuclideanLemma* 
 Jāsvītro $11,13$, jo pēc Eiklīda lemmas - ja ar kādu no šiem pirmskaitļiem 
@@ -544,7 +544,7 @@ decimālais pieraksts sākas ar ciparu $1$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka:
 
@@ -586,7 +586,7 @@ ka piecstūris var arī nebūt izliekts.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piecstūrim ir $5$ diagonāles, no tām pavisam var izveidot $10$ pārus. Piecos 
 pāros diagonāles saskaras ar galiem, tātad nekrustojas. Tāpēc krustpunktu nevar
@@ -623,7 +623,7 @@ nekā vienā veidā, tad jāuzrāda tos visus.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skaitļus $a,\ b,\ c,\ d,\ e$ ciemu apmeklěšanas secībā ar 
 $x,\ y,\ z,\ t,\ v$. Tad izmaksas ir
@@ -661,7 +661,7 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a>b$, uzvar Jānis. Apzīmēsim $a=b+c$, $c>0$. Jānis sadala savu nogriezni 
 gabalos $b+\frac{2c}{3},\ \frac{c}{6},\ \frac{c}{6}$. Tad daļa ar garumu 
@@ -696,7 +696,7 @@ $$a^{2}+a b+b^{2} \geq 9(a+b-3)$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nevienādību pārveido par $(a-3)^{2}+(a-3)(b-3)+(b-3)^{2} \geq 0$. Tālāk ievēro,
 ka $x^{2}+xy+y^{2}=\left(x+\frac{y}{2}\right)^{2}+\frac{3}{4} y^{2} \geq 0$
@@ -723,7 +723,7 @@ var vienlaicīgi būt pirmskaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x$ - pāra skaitlis, pirmskaitļu ir $\leq 1$. Ja $x=1;\ 3;\ 5$, pirmskaitļu 
 ir $\leq 4$ (to ir $4$ pie $x=3$ un $x=5$). Ja $x>5$, tad, šķirojot iespējas 
@@ -750,7 +750,7 @@ līnijai $W_{2}$ un kas nesakrīt ar $AB$, ir paralēlas savā starpā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\triangle AOX=\triangle AOZ\ (hk)$, tad 
 $\sphericalangle XAZ=2 \sphericalangle OAZ$. Līdzīgi 
@@ -784,7 +784,7 @@ uzrakstīti $2004$ skaitļi, kas visi vienādi ar $1$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 *Atbilde:* jā, var.
 
@@ -814,7 +814,7 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To, ka var būt $6$ cilvēki, skat. 4.zīm.
 
@@ -841,7 +841,7 @@ mazāko iespējamo vērtību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $a+b+|a-b|=2 \max (a,\ b)$. Tāpēc apskatāmā izteiksme ir 
 $2 \max (|x+1|, |x-3|)$. Tā kā $\max (|x+1|, |x-3|)=|x-1|+2$ (skat. 5.zīm.), 
@@ -866,7 +866,7 @@ blakus uzrakstītu palindromu starpība, ja zināms, ka tā ir pirmskaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim divus viens otram sekojošus palindromus, kuru starpība ir 
 pirmskaitlis, ar $a$ un $b$, $a<b$. Pieņemsim, ka $a$ sākas (tatad arī beidzas)
@@ -903,7 +903,7 @@ noteikti šajā secībā). Kāds var būt šī četrstūra laukums?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šķirojam divus gadījumus:
 
@@ -942,7 +942,7 @@ Atbildiet uz šo jautājumu, ja **(A)** $n=5$; **(B)** $n=6$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē. Skat., piem., 8.zīm.
 
@@ -975,7 +975,7 @@ $$f(a+b)=f(c+d+e),\ f(a+b+c)=f(d+e),\ f(e)=f(a+b+c+d)?$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrātvienādojuma grafika simetrijas dēļ 
 $f\left(x_{1}\right)=f\left(x_{2}\right)$ (kur $x_{1} \neq x_{2}$) tad un tikai
@@ -996,7 +996,7 @@ skaitļiem aprēķināja to summu. Kādu daudzumu dažādu summu Andris varēja 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a<b<c<d<e$, tad $a+b<a+c<a+d<a+e<b+e<c+e<d+e$. Tātad ir vismaz $7$ dažādas 
 summas. Tā kā pavisam ir $10$ izvēlēto skaitļu pāri, tad nav vairāk par $10$ 
@@ -1024,7 +1024,7 @@ $x^{n}-x$ dalās ar $10$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pie $n=2;\ n=3;\ n=4$ redzams, ka $2^{n}-2$ nedalās ar $10$. Ievērojam, ka
 
@@ -1060,7 +1060,7 @@ $\sphericalangle OBC<2 \sphericalangle OBA$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 9.zīm. No ievilktu leņķu īpašības 
 $\sphericalangle BDA=\sphericalangle BCA=\alpha$. Tāpēc 
@@ -1087,7 +1087,7 @@ apgabalu uz skaitļu ass aizpilda visu šo kvadrātvienādojumu visas saknes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ intervālu 
 $\left[-\frac{1+\sqrt{5}}{2}; \frac{1+\sqrt{5}}{2}\right]$.
@@ -1130,7 +1130,7 @@ būtu apdraudētas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ vajag vismaz $k=\left\lceil\frac{2n-1}{3}\right\rceil$ 
 lēdijas, un ar šo daudzumu pietiek.
@@ -1170,7 +1170,7 @@ vienāds ar abu iepriekšējo locekļu summu. Noskaidrot, vai ar $6$ dalās
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katra nākošā virknes locekļa atlikumu, dalot ar $6$, iegūst, saskaitot abu 
 iepriekšējo virknes locekļu atlikumus dalīšanā ar $6$ un dalot iegūto summu ar 
@@ -1204,7 +1204,7 @@ $\sphericalangle BCD$ bisektrise,
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** No trijstūra $\triangle CEB$ pēc ārējā leņķa īpašības 
 $\sphericalangle CBE+\sphericalangle BCE=\sphericalangle CED$. Pēc pieņēmuma 
@@ -1246,7 +1246,7 @@ $a_{n} \neq 0$. Pierādīt:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pieņemsim no pretējā, ka visiem naturāliem $k$ pastāv nevienādība 
 $a_{k}>0$. Tā kā virkne ir dilstoša, tad $a_{k} \leq 60$; tāpēc 
@@ -1277,7 +1277,7 @@ Atrisināt vienādojumu $x^{3}-13 \sqrt[3]{13x-12}+12=0$ reālos skaitļos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sqrt[3]{13x-12}=y$. Iegūstam sistēmu
 
@@ -1322,7 +1322,7 @@ nevienā komisijā nevienam deputātam nav aizspriedumu ne pret vienu citu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Var gadīties, ka ir $5$ deputāti, kuru "aizspriedumu struktūra" 
 attēlota 14.zīm. Nekādus divus no tiem nevar iekļaut vienā komisijā. Tātad var 

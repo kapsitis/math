@@ -4,7 +4,7 @@ Kādiem naturāliem $n$ skaitlis $(n-1)!$ nedalās ar $n$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n$ ir pirmskaitlis, tad $(n-1)!$ acīmredzami nedalās ar $n$.
 

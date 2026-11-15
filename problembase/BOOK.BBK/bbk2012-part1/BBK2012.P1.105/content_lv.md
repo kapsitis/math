@@ -5,7 +5,7 @@ ja to summa ir $1001$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\left(a_{1}, a_{2}, \ldots, a_{10}\right)$ ar $d$. Tad
 

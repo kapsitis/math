@@ -10,7 +10,7 @@ Dots, ka $(a,b)=6$. Kādas vērtības var pien̦emt sekojošie skaitļi?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $(a, b+5 a)=(a, b+5 a-5 a)=(a, b)=6$;
 

@@ -5,7 +5,7 @@ $\left[ a_{1}, a_{2}, \ldots, a_{n} \right] \geq n a_{1}$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $A$ skaiț̣u $a_{1}, a_{2}, \ldots, a_{n}$ mazāko kopīgo dalāmo. 
 Tādā gadījumā izpildās nevienādības

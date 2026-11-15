@@ -6,7 +6,7 @@ Pierādīt, ka $(a, b) \leq \sqrt{a+b}$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $(a, b)=d$. No vienādības
 

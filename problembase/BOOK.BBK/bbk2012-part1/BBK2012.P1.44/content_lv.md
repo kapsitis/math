@@ -5,7 +5,7 @@
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $S=(a+1)+(a+2)+\cdots+(a+n)=n a+\frac{n(n+1)}{2}$. Redzam, ka skaitlim 
 $n=1996 \cdot 2 = 3992$ prasītā īpašība izpildās.

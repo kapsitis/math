@@ -19,7 +19,7 @@ citu!)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katra taisnstūra perimetrs ir $2 \cdot(1+3)=8$, tātad *"kopējais"* perimetrs ir
 $16$. Saliekot kopā, taisnstūri var saskarties ar $1,\ 2$ vai $3$ rūtiņu malām 
@@ -49,7 +49,7 @@ pamatot!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vārdā $PĀRSTEIGUMS$ pavisam ir $11$ burti, no tiem pirmie $10$ dažādi, tātad 
 pirmie $10$ burti apzīmē visus $10$ ciparus. Tad
@@ -86,7 +86,7 @@ $B$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzdevuma nosacījumiem seko, ka, pieskaitot skaitlim $8002$ skaitli $B$ divas
 reizes, iegūst vismaz $10\ 000$. Tas ir iespējams tikai, ja $B=999$ (ja 
@@ -114,7 +114,7 @@ kārtas. Cik lappušu numuros ir sastopams cipars $7$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms noskaidrosim, cik lappušu numuros pirmajās $1000$ lappusēs nav 
 izmantots cipars $7$. Aizstāsim $1000$ lappusi ar $0$ - to lappusi, tad visi 
@@ -126,7 +126,7 @@ numurā. Tikpat daudz lappusēs cipars $7$ ir izmantots otrajā tūkstotī. Vēl
 viens cipars $7$ ir izmantots skaitlī $2007$. Tātad kopā cipars $7$ ir 
 sastopams $271+271+1=543$ lappušu numuros.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pieņemsim, ka grāmatai ir vēl arī $0$ - tā lappuse. Tā kā tās numerācijā nav 
 izmantots cipars $7$, tad šāds pieņēmums neizmanīs rezultātu - aprēķināto 
@@ -170,7 +170,7 @@ tā, ka no katra punkta iziet nepāra skaits nogriežņu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka tā var būt. Tad no katra no $99$ punktiem iziet nepāra skaits 
 nogriežņu. Tātad kopējais nogriežņu galapunktu skaits ir nepāra skaitlis, bet 
@@ -199,7 +199,7 @@ b. noapaļojot $2 \cdot a,\ 4 \cdot a,\ 6 \cdot a$ līdz veselam skaitlim,
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var pārbaudīt, ka der, piemēram, skaitlis $a=0,49$. Der arī citas $a$ vērtīas.
 
@@ -224,7 +224,7 @@ laukums var būt mazāks par $10$ rūtiņām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, skat. A2.zīm.
 
@@ -254,7 +254,7 @@ dažādi cipari.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der, piemēram,  
 **(A)** $1 \cdot 333=333$ un $2 \cdot 222=444$;  
@@ -278,7 +278,7 @@ kārtas. Cik lappušu numuros ir sastopams vismaz viens no cipariem $3$ vai $7$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms noskaidrosim, cik lappušu numuros pirmajās $1000$ lappusēs nav 
 izmantots cipars $3$ vai $7$. Aizstāsim $1000$ lappusi ar $0$ - to lappusi, tad
@@ -291,7 +291,7 @@ tūkstotī. Vēl cipars $3$ ir izmantots skaitlī $2003$ un $2013$, cipars $7$ -
 skaitlī $2007$. Tātad kopā cipars $3$ vai $7$ ir sastopams $488+488+3=979$ 
 lappušu numuros.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pieņemsim, ka grāmatai ir vēl arī $0$-tā lappuse. Tā kā tās numerācijā nav 
 izmantoti cipari $3$ un $7$, tad šāds pieņēmums neizmanīs rezultātu - 
@@ -344,7 +344,7 @@ jebkurus divus no tiem, nodzēš tos un rindas galā uzraksta šo skaitļu starp
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, piemēram, vispirms desmit gājienos iegūst
 
@@ -393,7 +393,7 @@ tukšajā rūtiņā. Pierādīt, ka Ariadne var panākt jebkuru no trim situāci
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka lineāram vienādojumam $ax=b$ :
 
@@ -432,7 +432,7 @@ Pierādīt, ka $OX=OY$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam no punkta $O$ perpendikulus $OA$ un $OB$ pret leņķa $KLM$ malām $KL$ 
 un $LM$ (skat. A3.zīm.). Tā kā punkts $O$ atrodas uz leņķa bisektrises, tad 
@@ -475,7 +475,7 @@ skaitlis $x(x+1)(x+2)$ dalās ar $87$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $87=29 \cdot 3$. Tā kā $29$ ir pirmskaitlis, tad vienam no 
 skaitļiem $x,\ x+1$ vai $x+2$ jādalās ar $29$. Starp trīs pēc kārtas sekojošiem
@@ -492,7 +492,7 @@ ar $87$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
  
 **#DivisibilityProperties** 
 Ievērojam, ka izteiksme $x(x+1)(x+2)$ vienmēr dalās ar $3$, 
@@ -531,7 +531,7 @@ apmeklētājiem ir kļūdījies.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja visi skaitļi ir atšķirīgi, tad katrs no skaitļiem no $0$ līdz $N-1$ ir bijis
 uzrakstīts tieši vienu reizi. Tas, kurš uzrakstīja $0$, nepazina nevienu citu 
@@ -561,7 +561,7 @@ maršruts drīkst saturēt augstākais vienu pagriezienu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrs maršruts iet pa augstākais vienu horizontāli un vienu vertikāli. Ja 
 maršrutu skaits nepārsniedz $8$, tad atrastos vertikāle un horizontāle, pa 
@@ -591,7 +591,7 @@ saknes (varbūt vienādas), un izteikt tās, neizmantojot kvadrātsaknes zīmi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības $a+b+c=0$ seko, ka skaitlis $1$ ir vienādojuma $ax^{2}+bx+c=0$ 
 sakne. Otru vienādojuma sakni atrodam izmantojot Vjeta teorēmu:
@@ -620,7 +620,7 @@ uz $EF$. Malas $BC$ viduspunkts ir $G$. Pierādīt, ka $AG=EG$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam nogriežņu $BC$ un $BF$ vidusperpendikulus $GK$ un $MN$ (skat. 
 A5.zīm.).
@@ -659,7 +659,7 @@ Cik ir tādu piecciparu skaitļu, kuru pierakstā ir vismaz viens nepāra cipars
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam ir $9 \cdot 10 \cdot 10 \cdot 10 \cdot 10=90000$ piecciparu skaitļi. 
 Uzdevumā prasīts atrast visus tos piecciparu skaitļus, kuru pierakstā ir vismaz
@@ -671,7 +671,7 @@ skaitļu pierakstā ir vismaz viens nepāra cipars.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 **#SetComplement** 
 Vieglāk saskaitīt skaitļus, kuri neapmierina doto prasību -- t.i. skaitļus, 
@@ -707,7 +707,7 @@ uzrakstīti nepāra skaitļi, ja **(A)** $N=2014$, **(B)** $N=2401$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** var būt. Piemēram, ja visi viesi viens otru pazīst pa pāriem, tad visi 
 viesi uz lapiņas būs uzrakstījuši pa vieniniekam.
@@ -736,7 +736,7 @@ rūtiņas centru.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ieviesīsim koordinātu sistēmu tā, ka koordinātu asis iet pa rūtiņu malām un $1$
 vienība ir vienas rūtiņas malas garums. Varam ievērot, ka rūtiņu krustpunktu 
@@ -783,7 +783,7 @@ $b$ ir dažādi skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -798,7 +798,7 @@ Ja $x$ ir dotā vienādojuma sakne, tad jābūt $x=a$ un $x=b$; bet tas nozīmē
 $a=b$; pretruna ar uzdevuma nosacījumu. Tātad dotajam vienādojumam nav 
 atrisinājuma.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Uzrakstām dota kvadrātvienādojuma diskriminatu:
 
@@ -833,7 +833,7 @@ taisnstūra laukums. Atrast visus šādus taisnstūrus.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a$ un $b,\ a \geq b$ ir taisnstūra malu garumi, tad $ab=2a+2b+8$. 
 Ekvivalenti pārveidojot, iegūstam $ab-2a-2b+4=12$ jeb $(a-2)(b-2)=12$. Pēdējā 
@@ -866,7 +866,7 @@ Atrisināt naturālos skaitļos vienādojumu $3abc+3a+3b=7bc+7$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izsakām mainīgo $a$ :
 
@@ -914,7 +914,7 @@ sienāzi (katru savā rūtiņā) tā, lai tie viens otru neapdraudētu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām trīs principiāli atšķirīgus baltā sienāža izvietojumus:
 
@@ -954,7 +954,7 @@ $AC$ un $BM$ krustojas punktā $S$. Aprēķināt trijstūra $ASM$ laukumu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūri $ASM$ un $CSB$ ir līdzīgi (pēc pazīmes "$\ell \ell$"), jo 
 $\sphericalangle ASM=\sphericalangle CSB$ kā krustleņķi un 
@@ -989,25 +989,25 @@ Dots, ka $x^{3}>2$. Pierādīt, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ievērojam, ka $x^{6}=x^{3} \cdot x^{3}>2 \cdot 2=4$. Līdz ar to esam 
 pierādījuši, ka $x^{6}>4$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 **(A)** Dotās nevienādības $x^{3}>2$ abas puses ir pozitīvas. Tāpēc, ceļotot to
 pakāpē ar naturālu kāpinātāju, atkal iegūst patiesas nevienādības. Tātad, ceļot
 $x^{3}>2$ kvadrātā, iegūst $x^{6}>4$, kas arī bija jāpierāda.
 
-## Atrisinājums
+## Atrisinājums-3
 
 **(B)** Tā kā $2^{7}=128>125=5^{3}$, tad, doto izteiksmi kāpinot septītajā 
 pakāpē, iegūstam:
 
 $$\left(x^{3}\right)^{7}>2^{7}>5^{3} \Rightarrow\left(x^{7}\right)^{3}>5^{3} \Rightarrow x^{7}>5$$
 
-## Atrisinājums
+## Atrisinājums-4
 
 **(B)** Velkot trešās pakāpes sakni no dotās nevienādības abu pušu izteiksmēm, 
 iegūstam $x>\sqrt[3]{2}$.
@@ -1040,7 +1040,7 @@ skaitļiem var atrast divus skaitļus, kuru summa ir $302$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais minētās aritmētiskās progresijas loceklis, kas nepārsniedz $300$, ir 
 $298$. Sadalām visus progresijas locekļus kopās (katras kopas, kurā ir divi 
@@ -1054,7 +1054,7 @@ $302$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Progresijā ir 100 locekļu zem 300
 
@@ -1078,7 +1078,7 @@ punktā $F$. Zināms, ka $BC=DF=DE$. Pierādīt, ka $AC=CE$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam $BD,\ AC$ un $EC$ (skat. A3.zīm.).
 
@@ -1112,7 +1112,7 @@ $a_{1}+a_{2}+\ldots+a_{10}$ vērtību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā visi $a_{i}(i=1,2, \ldots, 10)$ ir naturāli skaitļi, to mazākā iespējamā 
 vērtība ir $1$. Ja kāds no dotajiem skaitļiem $a_{k}=1$, tad nevienādība 
@@ -1141,7 +1141,7 @@ grozu skaits?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Vismazākais grozu skaits, kas apmierina uzdevuma nosacījumus, ir $4$. 
 Konfekšu izvietojums grozos ir šāds: $(503,\ 504,\ 503,\ 504)$.
@@ -1189,7 +1189,7 @@ pie kuras dotais polinoms pieņem vērtību $2014$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $F(x)=P(x)-2000$. Tādā gadījumā $a,\ b,\ c,\ d,\ e$ ir polinoma 
 $F(x)$ saknes un $F(x)=(x-a)(x-b)(x-c)(x-d)(x-e)R(x)$.
@@ -1214,7 +1214,7 @@ lielumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $F$ apzīmējam nogriežņu $OB$ un $DE$ krustpunktu un 
 $\sphericalangle AOD=\alpha$ (skat. A4.zīm.). Tā kā $AC=CB$ un 
@@ -1246,7 +1246,7 @@ dalītāju, izņemot $1$ un $n$, kvadrātu summa ir vienāda ar pašu skaitli $n
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Parādīsim, ka uzdevuma nosacījumus apmierina visi naturālie skaitļi, kas ir 
 pirmskaitļu kvadrāti, t.i., $n=p^{2},\ p$ - pirmskaitlis.
@@ -1282,7 +1282,7 @@ ka pirmais izseko otro, otrais - trešo, $\ldots$, $(n-1)$-ais izseko $n$-to.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apgalvojumu pierādīsim ar matemātisko indukciju pēc detektīvu skaita $n$.
 
@@ -1325,7 +1325,7 @@ $$\frac{1}{x^{2}}+\frac{1}{y^{2}}+\frac{1}{z^{2}} \geq 1$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Reizinot doto nevienādību ar $(xyz)^{2}>0$, iegūstam ekvivalentu nevienādību:
 
@@ -1359,7 +1359,7 @@ vienādojuma $x^{3}-ax^{2}+bx-c=0$ sakne. Pierādīt, ka $x>-\frac{1}{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $x<0$. Tad $x^{3}<0,\ -ax^{2}<0,\ bx<0,\ -c<0$, tāpēc 
 $x^{3}-ax^{2}+bx-c<0$.
@@ -1381,7 +1381,7 @@ krustpunkts ir $G$. Pierādīt, ka $S_{EGFH}=S_{ADH}+S_{BCG}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izsakām trijstūra $ABF$ (skat. A5.zīm.) laukumu vairākos veidos:
 
@@ -1423,7 +1423,7 @@ katrs no cipariem $1$ līdz $9$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Lai pa reizei būtu pārstāvēts katrs no nenulles cipariem, tiem katrā 
 pozīcijā jāparādās tieši vienu reizi. Tātad katrā pozīcijā ciparu summa ir $45$
@@ -1455,7 +1455,7 @@ pagriežot pa apli (ap roku).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde. $6$ rokassprādzes.
 
@@ -1491,7 +1491,7 @@ $$\frac{1}{a_{1}}+\frac{1}{a_{2}}+\ldots+\frac{1}{a_{2014}}=1?$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $\frac{1}{2}+\frac{1}{3}+\frac{1}{6}=1$.
 

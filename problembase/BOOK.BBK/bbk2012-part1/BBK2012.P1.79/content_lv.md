@@ -8,7 +8,7 @@ Vai $(n-1)!$ dalās ar $n$, ja
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, jo $16=2 \cdot 8$ un $15!$ satur abus šos reizinātājus.  
 **(B)** Nē, jo 41 ir pirmskaitlis, bet $40!$ nesatur pirmreizinātājus, lielākus par $40$.  

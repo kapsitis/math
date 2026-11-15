@@ -8,7 +8,7 @@ $$11 \cdot 12 \cdot 13 \cdot 14 \cdot 15 \cdot 16 \cdot 17 \cdot 18 \cdot 19 \cd
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šis reizinājums dalās ar $10$; tātad tā pēdējais cipars ir $0$.
 

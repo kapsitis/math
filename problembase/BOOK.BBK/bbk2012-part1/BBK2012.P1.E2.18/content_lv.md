@@ -4,7 +4,7 @@ Dots, ka $5 \mid (3a + 4b)$ un $5 \mid (2a + 3b)$.
 Pierādiet, ka $25 \mid ab$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $5 \mid a$, jo $a = 3 (3a + 4b) - 4 (2a + 3b)$.   
 $5 \mid b$, jo $b = 3 (2a + 3b) - 2 (3a + 4b)$.  

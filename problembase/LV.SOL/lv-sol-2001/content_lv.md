@@ -9,7 +9,7 @@ Kvadrāts sastāv no $5\cdot 5$ rūtiņām. Vai var rūtiņās ierakstīt natur�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. piem., $1.$ zīm., kur skaitļi $1\div 13$ rakstīti "melnās" rūtiņās, bet skaitļi $14\div 25$ – "baltās".
 
@@ -31,7 +31,7 @@ b) $8$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) acīmredzami, jā (vidējā kokā).  
 b) nē. Kopējam pārvietošanās garumam pa kreisi jābūt vienādam ar kopējo pārvietošanās garumu pa labi; bet, savācoties jebkurā kokā, tie atšķirtos (tieši pārbauda visas iespējas).
@@ -48,7 +48,7 @@ Kvadrāts sastāv no $8\cdot 8$ rūtiņām. Parādiet, ka katru rūtiņu var izk
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., $2.$ zīm.
 
@@ -68,7 +68,7 @@ Apskatām naturālos skaitļus no $1$ līdz $12$. Izsvītrojiet no tiem dažus s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļi $7$ un $11$ var būt blakus tikai ar $1$, tāpēc tie noteikti jāsvītro. Pārējo skaitļu izvietojumu skat. $3.$ zīm.
 
@@ -88,7 +88,7 @@ Vai naturālos skaitļus no $1$ līdz $60$ var sadalīt $3$ grupās pa $20$ skai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izveidojam $30$ pārus $(1;60)$, $(2;59)$, $(3;58)$, ..., $(30,31)$ un katrā grupā apvienojam $10$ no šiem pāriem.
 
@@ -104,7 +104,7 @@ Kvadrāts sastāv no $4 \cdot 4$ rūtiņām. Katrā rūtiņā ierakstīts natur�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., $4.$ zīm.
 
@@ -127,7 +127,7 @@ b) kāds ir mazākais iespējamais skaitļa $n$ ciparu skaits?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) skaitlim var būt $5$ cipari: $90209\cdot 11=992299$
 
@@ -153,7 +153,7 @@ Vai kvadrātiņus, kas attēloti $1$. zīm., var pārvietot tā, lai tie veidotu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat. 5. zīm.
 
@@ -173,7 +173,7 @@ Gan Jānis, gan Andris zina, ka astoņas pēc ārējā izskata vienādas monēta
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $5$ vieglāko monētu summa $1+2+3+4+5=15$ vienāda ar abu smagāko monētu summu $7+8=15$, tad Jānis var nodemonstrēt Andrim šo vienādību, un Andrim jāatzīst, ka vienīgās uz svariem neuzliktās monētas masa var būt tikai $6$ g.
 
@@ -193,7 +193,7 @@ Divu kvadrātu kontūrām krustojoties, tās sadalās taisnes nogriežņos (skat
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) pietiek ar $8$ taisnēm (skat. 6. zīm.).
 
@@ -219,7 +219,7 @@ Dots, ka $x$, $y$, $z$ - trīs dažādi skaitļi. Cik daudzi no skaitļiem $x(x-
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemērā $x=-2$; $y=-1$; $z=1$ negatīvu skaitļu nav. Piemērā $x=-1$; $y=1$; $z=2$ ir viens negatīvs skaitlis. Piemērā $x=1$, $y=2$; $z=3$ ir divi negatīvi skaitļi.
 
@@ -237,7 +237,7 @@ Vai uz kuba skaldnēm var uzrakstīt naturālus skaitļus no $1$ līdz $6$ (uz k
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Pieņemsim, ka skaitļi tā izkārtoti. Tad "$6$" blakus ir četri skaitļi no kopas $1$; $2$; $3$; $4$; $5$. Vienīgā iespēja, kad četru šo skaitļu summa dalās ar $6$, ir, ja tie ir $1$; $2$; $4$; $5$. Tātad "$3$" atrodas "$6$" pretējā skaldnē. Skaitlim "$5$" blakus atrodas $3$, $6$ un divi no skaitļiem $1$; $2$; $4$; tam jābūt blakus $2$ un $4$. Bet tad $4$ ir blakus ar $3$; $6$; $5$; $1$ – pretruna.
 
@@ -253,7 +253,7 @@ Pa apli stāv $10$ cilvēki. Katru minūti tieši viens pāris blakus esošu cil
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalām cilvēkus divās "virknēs" pa pieciem (skat. 7. zīm.) Grupā pa labi izdarām secīgas maiņas $AB$; $AC$; $AD$; $AE$; $BC$; $BD$; $BE$; $CD$; $CE$; $DE$. Grupā pa kreisi rīkojamies līdzīgi.
 
@@ -277,7 +277,7 @@ $4.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pietiek ar $6$ taisnēm (skat. $8.$ zīm.).  
 Ar mazāk taisnēm nepietiek, jo katra taisne var krustot augstākais divus no $12$ nogriežņiem $9.$ zīm.
@@ -306,7 +306,7 @@ $5.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja divi trijstūrīši veido rombu (skat. $10.$ zīm.), tad malu $x$ un $y$ krāsas kopumā ir tādas pašas kā $z$ un $t$ krāsas kopumā.
 
@@ -338,7 +338,7 @@ Dots, ka kvadrātvienādojumam $x^2+p\cdot x+q=0$ nav atrisinājuma reālos skai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $\left(\dfrac{p}{2}\right)^2-q<0$, tātad $q>0$. Tāpēc $\left(\dfrac{p}{2}\right)^2-2q<\left(\dfrac{p}{2}\right)^2-q<0$, no kurienes seko vajadzīgais.
 
@@ -354,7 +354,7 @@ Pierādīt, ka katram naturālam $n$ skaitlis $n\cdot(n+1)\cdot(2\cdot n+1)$ dal
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vai nu $n$, vai $n+1$ ir pāra skaitlis, tāpēc izteiksme dalās ar $2$. Pārveidojot
 $$
@@ -374,7 +374,7 @@ Dots, ka eksistē tādi nenegatīvi veseli skaitļi $x$ un $y$, ka $S=x^2+y^2+x\
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārbaudīt, ka $x^2+y^2+xy=(x+y)^2+y^2-(x+y)\cdot y$.
 
@@ -394,7 +394,7 @@ Viegli pārbaudīt, ka $x^2+y^2+xy=(x+y)^2+y^2-(x+y)\cdot y$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka $AE\perp BC$. Tad līdzīgi $CM\perp AB$, un vajadzīgais seko no fakta, ka $ABC$ augstumi krustojas vienā punktā. (Skat. $14.$ zīm.).
 
@@ -416,7 +416,7 @@ Uz šaha galdiņa novietotas dažas figūras, katrā lauciņā ne vairāk par vi
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim pāra (nepāra) kolonnās kopējo figūru skaitu ar $PK$ ($NK$); līdzīgi ieviešam jēdzienus $PR$ un $NR$. Skaidrs, ka $PK$, $NK$, $PR$, $NR$ ir pāra skaitļi. Viegli pārbaudīt, ka uz melnajām rūtiņām esošo figūru skaits ir $NK+PR-2\cdot S$, kur $S$ – to figūru skaits, kas atrodas vienlaicīgi nepāra kolonnās un pāra rindiņās.
 
@@ -434,7 +434,7 @@ b) $x^2-7x=y^2$ un $x$ - pirmskaitlis?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) jā; piemēram, $x=16$ un $y=12$.
 
@@ -454,7 +454,7 @@ sasniedz savu mazāko vērtību?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $|a-b|$ ir attālums starp skaitļu ass punktiem $a$ un $b$.
 
@@ -479,7 +479,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam $CZ\perp AX$ un $BX$ (skat. 15. zīm.). Tā kā $AB$ – diametrs, tad $\angle AXB=90^{\circ}$ un $BX\parallel CZ$. Tā kā $\operatorname{tg}\angle AXC=\dfrac{CZ}{XZ}$ un $\operatorname{tg}\angle XAC=\dfrac{CZ}{AZ}$, tad
 
@@ -509,7 +509,7 @@ Kvadrāts ar diagonāles garumu $d$ sagriezts $n$ taisnstūros, kuru diagonāļu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrāta laukums ir $\dfrac{1}{2}d^2$, bet $i$-tā taisnstūra laukums ir $\dfrac{1}{2}d_i^2\sin\varphi_i$, kur $\varphi_i$ – leņķis starp tā diagonālēm. Tā kā kvadrāta laukums vienāds ar taisnstūru laukumu summu, tad
 
@@ -537,7 +537,7 @@ $8$. zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2001.10.5A.png){ width=200px }
 
@@ -569,7 +569,7 @@ Naturālam skaitlim $A$ ir tieši $10$ dalītāju. Pierādīt, ka skaitlim $A^2$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $A^2=A\cdot A$, tad katrs $A$ dalītājs $d$ ir izsakāms kā $d=d_1\cdot d_2$, kur $d_1$ ir $A$ "pirmā eksemplāra" dalītājs un $d_2$ ir $A$ "otrā eksemplāra" dalītājs. Tāpēc $A^2$ nekādi nevar būt vairāk par $10\cdot 10=100$ dalītājiem. Tā kā, piemēram, skaitļa $A^2$ dalītājs $A$ ir izsakāms gan kā $1\cdot A$, gan kā $A\cdot 1$, tad $A^2$ dalītāju skaits ir mazāks par $100$.
 
@@ -587,7 +587,7 @@ nav atrisinājumu reālos skaitļos.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli redzēt, ka skaitļi $0;\ \pm 1;\ \pm 2;\ \ldots;\ \pm 2000$ nav vienādojuma saknes. No dotā vienādojuma seko: ja $x$ - tā sakne, tad
 
@@ -609,7 +609,7 @@ Taisne $l$ krusto nogriezni $AB$ punktā $C$. Kā ar cirkuli un lineālu konstru
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzami
 $$
@@ -633,7 +633,7 @@ Pierādīt, ka vienādojumam $\frac{1}{x}+\frac{1}{y}+\frac{1}{z}+\frac{1}{u}+\f
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atrisinājumi, kuros $x\ne y$, apvienojas pa pāriem (vienā pārī ir atrisinājumi, kas atšķiras tikai ar to, ka $x$ un $y$ vērtības tajos ir apmainītas vietām). Šos atrisinājumus atmetam. Paliek vienādojums $\frac{2}{x}+\frac{1}{z}+\frac{1}{u}+\frac{1}{t}=1$. Līdzīgi atmetam atrisinājumus, kuros $z\ne u$; paliek vienādojums $\frac{2}{x}+\frac{2}{z}+\frac{1}{t}=1$. Līdzīgi atmetam atrisinājumus, kuros $x\ne z$; paliek vienādojums $\frac{4}{x}+\frac{1}{t}=1$. Tas pārveidojas par $(x-4)(t-1)=4$. Tam ir $3$ (nepāra skaits!) atrisinājumi: $(x-4=1,\ t-1=4)$, $(x-4=2,\ t-1=2)$, $(x-4=4,\ t-1=1)$. tātad arī sākotnējam vienādojumam ir nepāra skaits atrisinājumu naturālos skaitļos.
 
@@ -653,6 +653,6 @@ d) katram veselam $n$ ir spēkā $f(f(n+2)+2)=n$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko $f(n)=f(f(f(n+2)+2))=f(n+2)+2$, tātad $f(n+2)=f(n)-2$. Bez tam $f(1)=f(f(0))=0$. No nosacījumiem $f(0)=1$, $f(1)=0$, $f(n+2)=f(n)-2$ viegli seko, ka $f(n)=1-n$. Pārbaude parāda, ka šī funkcija der par uzdevuma atbildi.

@@ -5,7 +5,7 @@ $\frac{a}{b}+\frac{b}{c}$, $\frac{b}{c}+\frac{c}{a}, \frac{c}{a}+\frac{a}{b}$ ir
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 *Atbilde:* $\left( \pm t, \pm t, \pm t \right)$, $t \in R$, $t \neq 0$.
 

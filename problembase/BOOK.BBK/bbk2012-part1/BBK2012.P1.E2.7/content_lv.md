@@ -5,7 +5,7 @@ $b \mid c$, $c \mid a$. Pierādiet, ka
 $a = b = c$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No tā, ka $b \mid c$ un $c \mid a$ seko, ka $b \mid a$ (īpašība **D4**). 
 Tā kā $a \mid b$ un $b \mid a$, tad $a = b$ (īpašība **D6**). 

@@ -4,7 +4,7 @@ Pierādīt, ka skaiţu $19951995$ un $19952003$ lielākais kopīgais dalītājs 
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $d$ doto skaitlu lielāko kopīgo dalītāju. Tad doto skaitļu starpība $8$ 
 dalās ar $d$; tas nozīmē, ka $d$ ir $1$, $2$, $4$ vai $8$. Tā kā $19951995$ ir nepāra skaitlis, 

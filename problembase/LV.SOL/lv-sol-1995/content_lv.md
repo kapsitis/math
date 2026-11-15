@@ -11,7 +11,7 @@ $$11 \cdot 12 \cdot 13 \cdot 14 \cdot 15 \cdot 16 \cdot 17 \cdot 18 \cdot 19 \cd
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šis reizinājums dalās ar $10$; tātad tā pēdējais cipars ir $0$.
 
@@ -31,7 +31,7 @@ $$5\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ 6$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Aplūkosim pirmos $5$ skaitļus: $5$, $a$, $b$, $c$, $d$. Tad
 
@@ -65,7 +65,7 @@ c)
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Nē, nevar; rūtiņu skaits nedalās ar $3$.
 
@@ -93,7 +93,7 @@ Uz tāfeles uzrakstīti skaitļi $1, 2, 3, \ldots, 19, 20$. Ar vienu gājienu va
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Vispirms izpildām gājienus ar skaitļu pāriem $(1,3)$, $(5,7)$, ..., $(17,19)$. Iegūstam skaitļus $2,2,4,4,6,6,\ldots,20,20$. Tālāk katru vienādo skaitļu pāri ar vairākiem gājieniem papildinām līdz skaitlim $20$.
 
@@ -115,7 +115,7 @@ Pierādīt, ka daļās $A$ un $B$ ir vienāds skaits krustiņu. Vai tas var būt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat 10. zīm.
 
@@ -143,7 +143,7 @@ Summā $12345+67890$ katrā saskaitāmajā ievietot decimālo komatu tā, lai ie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienīgā iespēja ir šāda: $123{,}45+678{,}90$. Ar nelielu pārlasi var pārliecināties, ka citu atrisinājumu nav.
 
@@ -159,7 +159,7 @@ Parādīt, ka $8\cdot 8$ rūtiņu kvadrātu var sagriezt $12$ dažādos taisnst�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, piemēram, tā, kā parādīts 12. zīmējumā.
 
@@ -181,7 +181,7 @@ Pirmais cipars ir $7$. Kāds ir pēdējais?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Divciparu skaitļi, kas dalās ar $19$ ir $19$, $38$, $57$, $76$, $95$;
 
@@ -201,7 +201,7 @@ Uz tāfeles uzrakstīti skaitļi $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, $1
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Šāda gājiena rezultātā visu skaitļu summa pieaug par $2$. Sākumā šī summa ir vienāda ar $55$ (nepāra skaitlis). Ja visi skaitļi kļūs vienādi, tad šo skaitļu summa $6x$ būs pāra skaitlis; bet tas nav iespējams.
 
@@ -223,7 +223,7 @@ No rūtiņas $A$ vienlaicīgi iziet vairāki rūķīši un, virzoties tikai uz a
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $13.$ zīm. redzams, ka $10$ rūķīši var savākt visus dārgakmeņus.
 
@@ -249,7 +249,7 @@ Parādīt, ka var izvēlēties $8$ skaitļus tā, lai no to summām pa divi tie�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var izvēlēties, piemēram, šādus skaitļus $-1$, $-2$, $-3$, $-4$, $20$, $21$, $21$, $23$. Lai summa iegūtu negatīvu skaitli jāizvēlas divi no četriem negatīviem skaitļiem. Tādu pāru skaits ir $6$.
 
@@ -265,7 +265,7 @@ Dots, ka $a$ un $b$ ir divi naturāli skaitļi. Vai var būt, ka to lielākais k
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt. Divu skaitļu mazākais kopīgais dalāmais dalās ar katru no dotajiem skaitļiem, tātad dalās arī ar to lielāko kopīgo dalāmo; bet $1200$ nedalās ar $32$.
 
@@ -287,7 +287,7 @@ Pierādīt, ka tos visus var pārsvītrot, novelkot slēgtu līniju, kas sastāv
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, $15.$ zīm.
 
@@ -307,7 +307,7 @@ Kvadrāts sastāv no $4 \cdot 4$ rūtiņām. Vai rūtiņās var ierakstīt natur
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Ievērojam, ka $1+2+\cdots+16=136$; tāpēc visu rindiņu un visu kolonnu summa būtu $136\cdot 2=272$. Bet $8$ pēc kārtas ejošu naturālu skaitļu summa nevar būt vienāda ar $272$, jo $30+31+\cdots+37<272$, bet $31+32+\cdots+38>272$.
 
@@ -323,7 +323,7 @@ Rūtiņu burtnīcas lapā katra rūtiņa nokrāsota balta vai melna. Zināms, ka
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim rūtiņu lapā kvadrātu ar izmēriem $6\times 6$ rūtiņas. To var sadalīt $4$ kvadrātos ar izmēriem $3\times 3$ rūtiņas; katrā no tiem ir vismaz $7$ melnas rūtiņas, tātad lielajā kvadrātā ir vismaz $28$ melnas rūtiņas.
 
@@ -341,7 +341,7 @@ Vai var uzzīmēt $6$ punktus, no kuriem nekādi trīs neatrodas uz vienas taisn
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat., piemēram, $16.$ zīm.
 
@@ -361,7 +361,7 @@ Naturāla skaitļa $x$ ciparu summa ir $y$; skaitļa $y$ ciparu summa ir $x$. Pi
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skaitļa $n$ ciparu summu ar $S(n)$. Ja skaitlis $n$ satur vairāk nekā $1$ ciparu, tad $S(n)<n$. Tiešām
 $$
@@ -381,7 +381,7 @@ Pierādīt, ka $3^{100} + 4$ nav pirmskaitlis.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šo skaitli var sadalīt reizinātājos, kas ir lielāki par $1$:
 
@@ -405,7 +405,7 @@ Pa apli izrakstīti $99$ skaitļi. Katru triju pēc kārtas uzrakstītu skaitļu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var izrakstīt $66$ negatīvus skaitļus $33$ reizes pēc kārtas rakstot skaitļu grupu $(-1,-1,10)$.
 
@@ -423,7 +423,7 @@ Uzzīmētas vairākas riņķa līnijas; nekādas divas no tām nekrustojas un ne
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim riņķa līniju ar mazāko rādiusu no visām uzzīmētajām (skat. $17.$ zīm.)
 
@@ -445,7 +445,7 @@ Dots, ka $a + b = 1$. Pierādīt, ka $a^3 + b^3 + 3ab = 1$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot doto izteiksmi, iegūstam:
 $$
@@ -467,7 +467,7 @@ Plaknē uzzīmētas $10$ riņķa līnijas. Pierādīt, ka starp tām var atrast 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais pieskaršanās punktu skaits vienai riņķa līnijai ir $0$, lielākais — $9$. Tātad pavisam iespējamas $10$ pieskaršanās punktu skaita vērtības $0$, $1$, $2$, ..., $9$. Taču visas šīs vērtības reizē realizēties nevar, jo, ja kāda riņķa līnija nepieskaras nevienai citai (pieskaršanās punktu skaits ir $0$), tad nav riņķa līnijas, kas pieskaras visām pārējām (pieskaršanās punktu skaits ir $9$).
 
@@ -485,7 +485,7 @@ Vai eksistē $4$ dažādi naturāli skaitļi, kuru summa vienāda ar to reizinā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, neeksistē. Ja $a<b<c<d$, tad $b\ge 2$, $c\ge 3$; tāpēc
 
@@ -505,7 +505,7 @@ Katra no izliekta $4$-stūra diagonālēm sadala to divos trijstūros ar vienād
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 18. zīm.
 
@@ -549,7 +549,7 @@ ir divnieka pakāpe ar naturālu kāpinātāju.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pareizināsim pirmo saskaitāmo ar $(2-1)$ un atkārtoti pielietosim formulu $(x-y)\cdot(x+y)=x^2-y^2$.
 
@@ -583,7 +583,7 @@ eksistē atrisinājums. Vai noteikti $a=b$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, ne noteikti. Šiem vienādojumiem eksistē atrisinājums, ja to diskriminanti ir nenegatīvi, t.i.
 
@@ -609,7 +609,7 @@ ir naturāla skaitļa kvadrāts?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n \ge 2$, tad skaitlis $2^n+2=2\cdot\left(2^{n-1}+1\right)$ dalās ar $2$, bet nedalās ar $4$; tātad nevar būt naturāla skaitļa kvadrāts.
 
@@ -633,7 +633,7 @@ Pierādīt, ka šo triju vienādo leņķu bisektrises krustojas vienā punktā.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $19.$ zīm.
 
@@ -657,7 +657,7 @@ Kas lielāks: $a^3+b^3+c^3$ vai $a^4+b^4+c^4$? (Zināms, ka šie lielumi nav vie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izpildot pārveidojumus, iegūstam:
 
@@ -689,7 +689,7 @@ Pierādīt, ka var atrast vienādsānu trijstūri, kura visas virsotnes ir balta
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visas $20$ stūra virsotnes sadalām $4$ regulāru piecstūru virsotņu komplektos; skat. $20.$ zīm.
 
@@ -713,7 +713,7 @@ $$|x-1|+|x-3|+|x-5|=3.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojumam nav atrisinājumu., jo
 
@@ -737,7 +737,7 @@ Dots, ka $a,b,c$ ir naturāli skaitļi un reizinājums $abc$ dalās ar $3$, bet 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka viens skaitlis (teiksim $a$) dalās ar $3$, bet pārējie skaitļi ar $3$ nedalās. Tā kā $b,c\in\{1,2\}\pmod{3}$, tad
 
@@ -761,7 +761,7 @@ $$a^2+b^2+2>a+b+ab.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka
 
@@ -785,7 +785,7 @@ Izliekta četrstūra abu diagonāļu garumi ir $20$. Pierādīt, ka vismaz viena
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $\alpha\ge 90^{\circ}$ (skat. 21. zīm.)
 
@@ -825,7 +825,7 @@ No regulāra $13$-stūra virsotnēm sešas nokrāsotas melnas. Pierādīt, ka va
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Taisnes, kas savieno regulāra $13$-stūra virsotnes, var iet $13$ dažādos virzienos. Sešus melnos punktus savieno $\frac{6\cdot 5}{2}=15$ nogriežņi. Tātad vismaz divi no tiem $\mathit{AB}$ un $\mathit{DC}$ ir paralēli. Tā kā $13$ ir nepāra skaitlis, tad $\mathit{ABCD}$ nav paralelograms (nav taisnstūris), un ir trapece ar visām melnām virsotnēm.
 
@@ -841,7 +841,7 @@ Vai visi skaitļi $\log_a b$, $\log_b c$, $\log_c a$ var būt negatīvi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt. Pieņemsim, ka $a>1$ (otrs gadījums ir analoģisks). Tad
 
@@ -872,7 +872,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $22.$ zīm.
 
@@ -907,7 +907,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visu šādu skaitļu summa ir mazāka par
 
@@ -933,7 +933,7 @@ Pierādīt: ir iespējama situācija, ka turnīra beigās katrām divām komand�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šāda shēma ir parādīta $23.$ zīmējumā.
 
@@ -955,7 +955,7 @@ Pierādīt, ka lentu platumu summa nav mazāka par riņķa diametru.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Konstruējam uz riņķa kā ekvatoriāla šķēluma sfēru ar rādiusu $R$; caur lentu malām novelkam plaknes perpendikulāri šim šķēlumam. Ja lentas pārklāj riņķi, tad slāņi starp plaknēm apsedz visu sfēras virsmu. Bet slānis ar biezumu $h$ apsedz virsmu, kas nav lielāka par $2\pi R\cdot h$ (joslas vai segmenta laukums ar augstumu $h$ ir tieši $2\pi R\cdot h$, bet slānis varbūt daļēji iet ārpus sfēras). Tāpēc
 $$

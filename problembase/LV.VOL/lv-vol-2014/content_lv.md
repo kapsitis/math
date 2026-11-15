@@ -10,7 +10,7 @@ Kādu mazāko vērtību var pieņemt izteiksme $x+\frac{2014}{x}$, ja $x>0$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam doto izteiksmi, atdalot pilno kvadrātu:
 
@@ -24,7 +24,7 @@ $\sqrt{x}-\frac{\sqrt{2014}}{\sqrt{x}}=0, \sqrt{x}=\frac{\sqrt{2014}}{\sqrt{x}}$
 Līdz ar to esam ieguvuši, ka izteiksmes $x+\frac{2014}{x}$ mazākā vērtība ir 
 $2 \sqrt{2014}$ un tā tiek sasniegta pie $x=\sqrt{2014}$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 No sakarības starp vidējo aritmētisko un vidējo ģeometrisko seko, ka
 
@@ -48,7 +48,7 @@ pirmajiem **(A)** $100$, **(B)** $2014$ locekļiem ir tādi, kas dalās ar $5$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katra virknes elementa, dalot to ar $5$, atlikums, ir atkarīgs tikai no triju 
 iepriekšējo elementu atlikumiem, dalot ar $5$.
@@ -81,7 +81,7 @@ perpendikulārs $AY$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nogriezni $AY$ pagarina aiz punkta $Y$ un atliek punktu $P$ tā, ka $AY=YP$ 
 (skat. A1.zīm.). Tas nozīmē, ka četrstūris $AXPC$ ir paralelograms, jo tā 
@@ -120,7 +120,7 @@ iespējams panākt, ka pret savu plāksnīti atradīsies vairāk par vienu diplo
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Apaļajam galdam pavisam ir $13$ derīgas pozīcijas, kuras var iegūt 
 galda pagriešanas par noteiktu vietu skaitu rezultātā. Katrs diplomāts pret 
@@ -159,7 +159,7 @@ sakņu kubu summu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $p=x^{2}+5x-8$.
 
@@ -205,7 +205,7 @@ kur $x$, $y$, $z$ - veseli nenegatīvi skaitļi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka sistēmas atrisinājums ir $(0,0,0)$.
 
@@ -244,7 +244,7 @@ $\frac{n^{3}+3}{n+3}$, gan $\frac{n^{4}+4}{n+4}$ ir veseli skaitļi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $k=n+3$. Tad $n=k-3$ un pārveidojam pirmo izteiksmi:
 
@@ -285,7 +285,7 @@ Tātad meklētās $n$ vērtības ir $-9,\ -6,\ -5,\ -2,\ 0,\ 1,\ 9$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Polinomus (tāpat kā naturālus skaitļus) var dalīt ar atlikumu. 
 
@@ -369,7 +369,7 @@ ir lielākā summa, kuru nav iespējams apmaksāt izmantojot tikai šīs pastmar
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Parādīsim, ka $71$ centu nav iespējams precīzi apmaksāt ar $7$ un $13$ centu 
 pastmarkām. Šajā summā ir ne vairāk kā piecas $13$ centu pastmarkas. Aplūkosim,
@@ -410,7 +410,7 @@ nepieciešamo $7$ centu pastmarku skaitu.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Šķirojam atkarībā no tā, cik $13$ centu pastmarkas lietotas
 
@@ -445,7 +445,7 @@ vidusperpendikulu punktā $F$. Pierādīt, ka $BC=2AF$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $AB=r$ un $AC=R$.
 
@@ -495,7 +495,7 @@ nē. Kāds ir lielākais iespējamais partiju skaits, kas gatavojas vēlēšanā
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais iespējamais dažādo solījumu komplektu skaits ir 
 $\underbrace{2 \cdot 2 \cdot 2 \cdot \ldots \cdot 2}_{\mathrm{s}}=2^{s}$ 
@@ -536,7 +536,7 @@ naturālajam skaitlim, iegūtie skaitļi ir vienādi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -564,7 +564,7 @@ $a,\ a+14,\ a+22,\ a+32,\ a+46$ var būt pirmskaitļi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a$ ir pāra skaitlis, tad starp dotajiem pieciem skaitļiem ir ne vairāk kā 
 viens pirmskaitlis, t. i., ja $a=2$, tad pirmskaitlis ir $2$, vai ja $a$ ir 
@@ -603,7 +603,7 @@ ierakstīto četru skaitļu summa būtu vienāda ar $M$. Vai to var izdarīt, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Viens no atrisinājumiem ir parādīts A3.zīm.
 
@@ -645,7 +645,7 @@ $P,\ Q$ un $R$. Pierādīt, ka $A$ ir trijstūra $PQR$ bisektrišu krustpunkts.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim riņķa līniju, kuras diametrs ir $AB$ ar $R_{1}$, kuras diametrs ir 
 $AC$ - ar $R_{2}$ un kuras diametrs ir $BC$ - ar $R_{3}$ (skat. A5.zīm.).
@@ -706,7 +706,7 @@ skaitļu kvadrātu summu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkojam skaitļus $x=\frac{a+b+c}{2},\ y=\frac{a+b-c}{2},\ p=\frac{c+a-b}{2}$ 
 un $q=\frac{c-a+b}{2}$.
@@ -744,7 +744,7 @@ lielākais "+" zīmju skaits var būt šajā izteiksmē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka "+" zīmju skaits nevar būt lielāks kā $83$.
 
@@ -779,7 +779,7 @@ spēkā sakarība $n+f(1)+f(2)+\ldots+f(n-1)=nf(n)$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātiskās indukcijas metodi. Ievērojam, ka $f(1)=1$.
 
@@ -834,7 +834,7 @@ ir trijstūra $AEO$ augstums. Aprēķināt leņķa $AED$ lielumu grādos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pagarinām $OA$ tā, ka $AF$ ir diametrs un novelkam nogriezni $EF$ (skat. 
 A6.zīm.). Tad trijstūris $AEF$ ir taisnleņķa, jo $\sphericalangle AEF$ balstās 
@@ -892,7 +892,7 @@ iespējamais kopējais šaha partiju skaits, kas ir izspēlētas šajā festivā
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim festivāla dalībniekus ar punktiem un, ja divi spēlētāji sava starpā 
 ir izspēlējuši šaha partiju, tad atbilstošos punktus savienosim ar nogriezni. 
@@ -971,7 +971,7 @@ naturālo dalītāju, izņemot $1$ un $n$, kvadrātu summa vienāda ar $n^{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka šādu naturālu skaitļu $n$ nav.
 

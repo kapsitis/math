@@ -21,7 +21,7 @@ perimetrs?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zilā kvadrāta perimetrs ir $4 \cdot 10=40$ centimetri, bet laukums 
 $10 \cdot 10=100~\mathrm{cm}^{2}$.
@@ -59,7 +59,7 @@ pirmais vai otrais - vienmēr var uzvarēt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka vienmēr var uzvarēt pirmais spēlētājs.
 
@@ -90,7 +90,7 @@ kopā būtu tieši $6$ krustpunkti?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, skat., piemēram, 1.att.
 
@@ -115,7 +115,7 @@ Pamato, ka tas ir mazākais iespējamais skaits!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais iespējamais iekrāsoto rūtiņu skaits ir $4$, skat, piemēram, 2.att.
 
@@ -148,7 +148,7 @@ visi tādi skaitļi un citu vairs nav!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ir divi tādi skaitļi, kas atbilst uzdevuma prasībām: 
 $222222=2 \cdot 3 \cdot 7 \cdot 11 \cdot 13 \cdot 37$ un 
@@ -236,7 +236,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka vienmēr var uzvarēt otrais spēlētājs.
 
@@ -272,7 +272,7 @@ plkst. 14:00; **(B)** plkst. 13:40?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ievērojam, ka plkst. 15:00 pulksteņa rādītāji veidotu $90^{\circ}$ 
 lielu leņķi, tātad plkst. 14:00 pulksteņa rādītāji veido $\frac{2}{3}$ no 
@@ -311,7 +311,7 @@ apgāztas otrādi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Skat., piemēram, 10.att. **(B)** Skat., piemēram, 11.att.
 
@@ -337,7 +337,7 @@ naturālie skaitļi no $1$ līdz $99$) dalās ar $9$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, dotais skaitlis dalās ar $9$.
 
@@ -375,7 +375,7 @@ pozitīvs, negatīvs skaitlis vai nulle!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā izriet, ka šo funkciju grafiki ir taisnes bez kopīgiem punktiem, tas 
 ir, tās ir paralēlas taisnes. Šo taišņu virzienu koeficienti $a$ un $c$ ir 
@@ -406,7 +406,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka vienmēr var uzvarēt otrais spēlētājs.
 
@@ -448,7 +448,7 @@ mazāki nekā $180^{\circ}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uz malas $AD$ atliekam punktu $E$ tā, ka $AE=AB$ (skat. 15.att.). Tā kā pēc 
 dotā $AD=AB+CD$, tad $ED=CD$. Tātad trijstūri $BAE$ un $CDE$ ir vienādsānu 
@@ -481,7 +481,7 @@ no vienādiem regulāriem trijstūriem. Uzzīmē šādu piecstūri!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 16.att.
 
@@ -517,7 +517,7 @@ ciparu)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā šāda $n$ vērtība $11$. Ja $n=11$, tad 
 $10^{11}=1 \cdot 2 \cdot 4 \cdot 8 \cdot 10 \cdot 16 \cdot 5^{10}$. Pierādīsim,
@@ -645,7 +645,7 @@ uzvarēt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka vienmēr var uzvarēt otrais spēlētājs.
 
@@ -680,7 +680,7 @@ $DE$ ir perpendikulārs $AF$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka
 
@@ -718,7 +718,7 @@ naturāla skaitļa kubs. Kādām $m$ vērtībām tas ir iespējams?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais ir iespējams, ja $m$ ir pāra skaitlis vai nepāra 
 skaitlis, kas nav mazāks kā $9$. Ievērojam, ka pirmo divu naturālo skaitļu kubi
@@ -771,7 +771,7 @@ nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā šāda $n$ vērtība ir $23$. Ja $n=23$, tad 
 $10^{23}=10 \cdot 32 \cdot 64 \cdot 16 \cdot 128 \cdot 5^{22}$. Pierādīsim, ja 
@@ -827,7 +827,7 @@ slīpas taisnes. Cik paralelogramu izveido šīs taisnes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā paralelograma pretējās malas ir paralēlas, tad iespējami trīs gadījumi, 
 kā var izvēlēties pretējās malas (skat. 23.att.).
@@ -874,7 +874,7 @@ otrais - vienmēr var uzvarēt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka vienmēr var uzvarēt pirmais spēlētājs.
 
@@ -916,7 +916,7 @@ $QNBC$ ir rombs!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Tā kā $AC=AM$, tad trijstūris $MAC$ ir vienādsānu un 
 $\sphericalangle ACM=\sphericalangle AMC=\alpha$ (skat. 24.att.). No taisnleņķa
@@ -974,7 +974,7 @@ būtu par $500290$ lielāks nekā sākotnējais. Atrast doto sešciparu skaitli!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam doto skaitli ar $x$, skaitli, ko iegūst visus pāra ciparus aizstājot 
 ar septītniekiem, apzīmējam ar $A$ un skaitli, ko iegūst visus nepāra ciparus 
@@ -1030,7 +1030,7 @@ $$(\sqrt{2020}-2 \sqrt{2019}+\sqrt{2018})(\sqrt{2020}+\sqrt{2019})(\sqrt{2019}+\
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotās izteiksmes pirmajās iekavās esošo izteiksmi izsakām kā
 
@@ -1068,7 +1068,7 @@ $$6+24+60+\cdots+n(n+1)(n+2)=\frac{n(n+1)(n+2)(n+3)}{4}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
  
 Izmantosim matemātiskās indukcijas metodi.
 
@@ -1112,7 +1112,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka vienmēr var uzvarēt pirmais spēlētājs.
 
@@ -1140,7 +1140,7 @@ novilkts augstums $EG$. Pierādīt, ka $\sphericalangle AGC=\sphericalangle AFC$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle EAF=\sphericalangle FAD=\alpha$ (skat. 27.att.). Tad
 $\sphericalangle AFC=\sphericalangle FAD+\sphericalangle ADF=\alpha+90^{\circ}$
@@ -1169,7 +1169,7 @@ kvadrāts?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atradīsim, kādām $n$ vērtībām izteiksmes $n^{2}+n+19$ vērtība atrodas starp 
 divu blakusesošu naturālu skaitļu kvadrātiem, tas ir, starp $n^{2}$ un 
@@ -1216,7 +1216,7 @@ dimanti kopā. Cik dimantu ir karalienei?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka karalienei ir $n$ dimanti, sakārtosim tos neaugošā secībā pēc to 
 masas un apzīmēsim to masas attiecīgi ar $a_{1}, a_{2}, \ldots, a_{n}$, bet to 
@@ -1283,7 +1283,7 @@ $$\frac{(x-20)^{19} \cdot(x+4)}{\left(\sqrt{x^{2}+4}\right)\left(9-x^{2}\right)}
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka reizinātājs $\sqrt{x^{2}+4}$ ir pozitīvs visām reālām $x$ 
 vērtībām, tātad tas neietekmē kreisās puses izteiksmes zīmi. Izteiksmei 
@@ -1325,7 +1325,7 @@ otrais - vienmēr var uzvarēt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka vienmēr var uzvarēt otrais spēlētājs.
 
@@ -1376,7 +1376,7 @@ $FH=GH$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā četrstūri $BAGC$ un $BDFE$ ir ievilkti, tad 
 $\sphericalangle GAC=\sphericalangle GBC$ un 
@@ -1415,7 +1415,7 @@ ir lielākais iespējamais šo skaitļu reizinājums?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļu summu apzīmēsim ar $N$. Pieņemsim, ka esam atraduši lielāko iespējamo 
 reizinājumu $a_{1} \cdot a_{2} \cdot \ldots \cdot a_{k}$, kuram 
@@ -1468,7 +1468,7 @@ skaitlis!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $x^{2}-nx=a$, tad
 
@@ -1512,7 +1512,7 @@ $$\cos 3x \cos 2x+\sin 2x \sin 3x=\left(\cos \frac{\pi}{10}-\sin \frac{\pi}{10}\
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot formulu $(a-b)(a+b)=a^{2}-b^{2}$ un trigonometrijas formulas, 
 pārveidojam doto vienādojumu:
@@ -1611,7 +1611,7 @@ punktos $E$ un $F$ un nogriezni $BD$ punktā $G$. Pierādīt, ka $EG=FG$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $AB=AD$ un $BC=CD$, tad trijstūri $DAB$ un $DCB$ ir vienādsānu trijstūri 
 un $\sphericalangle ADB=\sphericalangle ABD=\alpha$ un 
@@ -1720,7 +1720,7 @@ Cik biedru ir šajā klubā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka klubā ir $n$ biedri, sakārtosim tos neaugošā secībā pēc to 
 bagātības un apzīmēsim to naudas daudzumus attiecīgi ar 

@@ -15,7 +15,7 @@ Vai ar šādiem gājieniem, veicot tos pēc patikas ilgi jebkādā secībā var 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, to var izdarīt, piemēram, šādi:
 
@@ -37,7 +37,7 @@ b) no $1$ līdz $99$ ieskaitot ?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Ar $5$, jo $1+2+\cdots+9=45$.
 
@@ -63,7 +63,7 @@ Deju ansamblī ir $5$ zēni un $5$ meitenes. Vai var būt, ka visām meitenēm i
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var būt. Skat, piemēram, $5.$ zīmējumu. Zēni un meitenes apzīmēti ar punktiem, draudzības – ar nogriežņiem.
 
@@ -85,7 +85,7 @@ Divi velosipēdisti, starp kuriem attālums bija $24$ km, devās viens otram pre
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Iespējami divi gadījumi.
 
@@ -105,7 +105,7 @@ Kvadrāts sastāv no $4 \cdot 4$ rūtiņām. Vai tajā var $8$ rūtiņas nokrās
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, to var izdarīt; skat. $6.$ zīm.
 
@@ -125,7 +125,7 @@ Saskaitot $6$ dažādus naturālus skaitļus, summā ieguva $24$. Kādi varēja 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaitāmie var būt šādi:
 
@@ -149,7 +149,7 @@ Uzzīmēt trijstūri un četrstūri tā, lai to kopīgā daļa būtu daudzstūri
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, $7$. zīmējumu.
 
@@ -169,7 +169,7 @@ No skaitļa $1230123012301230$ jāizsvītro vairāki cipari tā, lai iegūtais s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā uzrakstītā skaitļa ciparu summa ir $15$, tad, lai atlikušais skaitlis dalītos ar $9$, ir jāizsvītro cipari, kuru summa ir $6$. Protams, lai iegūtu lielāko skaitli ir jāizsvītro pēc iespējas mazāk cipari; tātad jāizsvītro divi trijnieki.
 
@@ -191,7 +191,7 @@ b) septiņstūra malas.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Jā, var. Skat., piemēram, $8$. zīm.
 
@@ -219,7 +219,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot, iegūstam:
 
@@ -249,7 +249,7 @@ Jāņa solis par $10$ procentiem īsāks par Pētera soli, bet stundā viņš ve
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievēdīsim apzīmējumus.
 
@@ -275,7 +275,7 @@ Kādā valstī ir tikai $5$ dilleru un $4$ dilleru naudas zīmes. Pierādīt, ka
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Parādīsim, kā palielināt nomaksātās summas vērtību par vienu dilleru.  
 Ja summā ir $4$-dilleru monētas, tad to aizvieto ar $5$-dilleru monētu.
@@ -310,7 +310,7 @@ Kādu lielāko daudzumu figūru, kāda parādīta $1.$ zīm., var izgriezt no ta
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā taisnstūrī ar izmēriem $5\times 6$ ir $30$ rūtiņas, bet dotā figūra aizņem $5$ rūtiņas, tad nevar izgriezt vairāk par $6$ figūrām. Ja izgrieztas būtu $6$ figūras, tad visām rūtiņām jābūt aizpildītām. Mēģinot aizpildīt no stūra visas rūtiņas, redzam, ka tas nav iespējams. Kā izgriezt $5$ figūras, parādīts $9.$ zīmējumā.
 
@@ -330,7 +330,7 @@ Pierādīt, ka skaitļu $19951995$ un $19952003$ lielākais kopīgais dalītājs
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $d$ doto skaitļu lielāko kopīgo dalītāju. Tad doto skaitļu starpība $8$ dalās ar $d$; tas nozīmē, ka $d$ ir $1$, $2$, $4$ vai $8$. Tā kā $19951995$ ir nepāra skaitlis, tad $d$ arī jābūt nepāra skaitlim. Tas nozīmē, ka $d=1$.
 
@@ -348,7 +348,7 @@ Pierādīt: lai kā arī būtu sapakota krava, to var aizvest ar $5$ platformām
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms aplūkosim piemēru, kad ar $4$ platformām nepietiek. Pieņemsim, ka mums ir $13$ kastes un katra sver $\frac{10}{13}$ t. Ja šī krava sakrauta $4$ platformās, tad vismaz vienā platformā ir vismaz $4$ kastes (jo $4\cdot 3<13$); bet tad šajā platformā sakrautās kravas svars ir ne mazāks par $4\cdot \frac{10}{13}=\frac{40}{13}>3$ t.
 
@@ -372,7 +372,7 @@ dalās ar $15$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības
 
@@ -400,7 +400,7 @@ Vai var gadīties, ka kopā ņemtu balto un melno skaitļu vidējais aritmētisk
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, tā var gadīties; piemēram, ņemsim
 
@@ -436,7 +436,7 @@ Ar $\overline{xyz}$ apzīmēsim trīsciparu skaitli ar cipariem $x$, $y$, $z$. P
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -476,7 +476,7 @@ $2.$ zīm..
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izkrāsosim trijstūrīšus baltā un melnā krāsā, kā parādīts $10.$ zīmējumā.
 
@@ -498,7 +498,7 @@ Kāds ir lielākais iespējamais paralēlo malu skaits $1995$-stūrī?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kā redzams $11.$ zīmējuma paralēlo malu skaits var būt $997$.
 
@@ -523,7 +523,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot, iegūstam
 
@@ -563,7 +563,7 @@ Dotas divas baltas, divas sarkanas un divas zaļas lodītes. Divu krāsu lodīte
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms uzliekam uz viena svaru kausa baltu lodīti, bet uz otra – sarkanu.
 
@@ -583,7 +583,7 @@ Atrast visus naturālos divciparu skaitļus, kam piemīt īpašība: saskaitot s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dots, ka
 $$
@@ -610,7 +610,7 @@ Trijstūrī $ABC$ leņķa $A$ bisektrise krusto malu $BC$ punktā $D$. Uz malas 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $12.$ zīm.
 
@@ -641,7 +641,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot, iegūstam
 $$
@@ -667,7 +667,7 @@ Aplūkojam kvadrātfunkciju $f(x)=ax^2+bx+c$. Zināms, ka $f(-1)>-1$, $f(0)<0$ u
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotās nevienādības var pārrakstīt šādā veidā
 
@@ -702,7 +702,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja dotā vienādība izpildās, tad $a>x$, $a>y$ un $a>z$. Naturāliem skaitļiem no šejienes seko nevienādības $a\ge x+1$, $a\ge y+1$ un $a\ge z+1$.
 
@@ -726,7 +726,7 @@ Ar $\overline{xyz}$ saprotam trīsciparu skaitli ar cipariem $x$, $y$, $z$. Pier
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -762,7 +762,7 @@ Plaknē uzzīmēts kvadrāts ar izmēriem $3\times 3$. Tas jāpārklāj ar kvadr
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka pietiek ar $4$ šabloniem; skat. 13. zīm.
 
@@ -786,7 +786,7 @@ Kādā klasē darbojas $5$ pulciņi. Katru pulciņu apmeklē vairāk nekā puse 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skolēnu skaitu pulciņos $P_1, P_2, P_3, P_4, P_5$ atbilstoši ar $a_1, a_2, a_3, a_4, a_5$, bet skolēnu skaitu klasē ar $n$.
 
@@ -820,7 +820,7 @@ Dots, ka $x+y=a$ un $x^2+y^2=b$. Aprēķināt $x^3+y^3$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -850,7 +850,7 @@ Vai eksistē $3$ viens otram sekojoši skaitļi, kuru reizinājums ir $199419951
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, neeksistē. Šādam reizinājumam jādalās ar $3$, bet dotais skaitlis ar $3$ nedalās.
 
@@ -869,7 +869,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja dotā vienādība izpildās, tad $\cos x\geq 0$ un $\sin x\geq 0$.
 
@@ -899,7 +899,7 @@ Uz paralelograma $ABCD$ malām konstruēti kvadrāti ārpus tā (skat. $3$. zīm
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $14.$ zīm.
 
@@ -943,7 +943,7 @@ Pierādīt, ka ir tāda pilsēta, no kuras var aizbraukt uz visām citām
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlēsimies pilsētu $A$, no kuras var aizbraukt uz maksimālo daudzumu citu pilsētu. Ņemam patvaļīgu pilsētu $B$. Ja no $A$ nevar aizbraukt uz $B$, tad ir vienvirziena ceļš no $B$ uz $A$.
 
@@ -965,7 +965,7 @@ $$(a-\beta)\cdot(b-\gamma)\cdot(c-\alpha)=(a-\gamma)\cdot(b-\alpha)\cdot(c-\beta
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $a\alpha=b\beta=c\gamma=2\cdot S$. Tātad
 
@@ -1001,7 +1001,7 @@ Vai $19^{95}+95^{19}$ dalās ar $3$ ?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, dalās.
 
@@ -1023,7 +1023,7 @@ Pierādīt, ka $|\cos \alpha|+|\cos \beta|+|\cos \gamma|\geq 1$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\left|\sin x\right|\leq 1$, tad no dotā seko, ka
 
@@ -1069,7 +1069,7 @@ Pierādīt, ka $RM=SM$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $15$. zīm.
 
@@ -1100,6 +1100,6 @@ Pierādīt, ka ar $n$ gājieniem pietiek, lai iegūtu jebkuru mums vēlamu kart�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piešķirsim kartiņām numurus $1;2;\ldots;2^n$ tādā kārtībā, kādā tām jāparādās beigās (no apakšas uz augšu). Apskatīsim sākotnējo sakārtojumu no apakšas uz augšu. Kartiņas numuri izvietojušies kaut kādā secībā. Sadalīsim tos monotoni augošos fragmentos; šādu fragmentu sākumā nav vairāk par $2^n$. Pieņemsim, ka fragmentu skaits ir $k$. Sadalīsim kaudzīti divās daļās tā, lai augšējā daļā būtu $\left[\frac{k}{2}\right]$ monotoni fragmenti. Pēc tam daļas apvienojam tā, ka abu daļu apakšējie monotonie fragmenti tagad veido vienu monotonu fragmentu, nākošie abu daļu monotonie fragmenti arī veido vienu monotonu fragmentu nav vairāk par $2^{n-1}$. Atkārtojot šādas operācijas, pēc $n$ gājieniem būs $1$ monotons fragments, t.i., kartiņas būs novietotas vajadzīgajā kārtībā.

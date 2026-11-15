@@ -9,7 +9,7 @@ Kvadrāts sastāv no $3\cdot 3$ rūtiņām. Katrā rūtiņā ierakstīts kāds s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Tad $(k_1+k_2+k_3)+(r_1+r_2+r_3)=57$, tātad visu ierakstīto skaitļu summa būtu $28,5$. Bet tai jābūt $10$-u un $9$-u summai – pretruna.
 
@@ -25,7 +25,7 @@ Andris uzrakstīja rindā citu aiz cita $6$ skaitļus. Pirmos divus viņš izvē
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja skaitļi ir $a$; $b$; $a+b$; $a+2b$; $2a+3b$; $3a+5b$, tad to summa $S$ ir $8a+12b$. Redzam, ka piektais skaitlis ir
 $$
@@ -44,7 +44,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam ciparus ar $a$; $b$; $c$. Tad $\overline{abc}=100a+10b+c=(99a+9b)+(a+b+c)$. Pirmais saskaitāmais noteikti dalās ar $3$; otrais ir viens un tas pats visiem minētajiem trīsciparu skaitļiem. No dotā seko, ka $2(a+b+c)$ nedalās ar $3$. Tāpēc arī $4(a+b+c)$ nedalās ar $3$, no kurienes seko vajadzīgais.
 
@@ -60,7 +60,7 @@ Pierādīt, ka eksistē tāds četrciparu skaitlis, kas dod atlikumu $3$, dalot 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $5040=1\cdot 2\cdot 3\cdot 4\cdot 5\cdot 6\cdot 7$ dalās ar divciparu skaitļiem $10$; $12$; $14$; $15$; $18$; $20$; $21$; $24$; $28$; $30$; $35$; $36$; $40$; $42$; $48$; $56$; $60$; $70$; $72$; $84$. Tātad der, piemēram, skaitlis $5043$.
 
@@ -82,7 +82,7 @@ Vai $1$.zīm. attēloto režģi var salikt no tādām figūrām, kāda parādīt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Skat., piem., $7.$ zīm.
 
@@ -102,7 +102,7 @@ Vai a) $10$, b) $11$ pēc kārtas ņemtu veselu skaitļu summa var būt $0$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) nē, jo summa satur tieši $5$ nepāra saskaitāmos, tātad ir nepāra skaitlis.  
 b) jā; $(-5)+(-4)+...+4+5=0$.
@@ -123,7 +123,7 @@ $3.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: $10$ figūras.
 
@@ -139,7 +139,7 @@ Doti $100$ zelta gabali, kuru masas ir $1\text{g}$, $2\text{g}$, $3\text{g}$, $4
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: jā.  
 Risinājums. Izveidosim $50$ pārus: $(1\mathrm{g}, 100\mathrm{g})$, $(2\mathrm{g}, 99\mathrm{g})$, ..., $(50\mathrm{g}, 51\mathrm{g})$. Katrā pārī zelta gabalu kopējā masa ir $101\mathrm{g}$. pieņemsim, ka Ņurga jau paņēmis $x$ pilnus pārus, tad viņš paņēmis pa vienam zelta gabalam no $25-2x$ pāriem, bet $50-x-(25-2x)=25+x$ pāri vēl vispār nav aiztikti. Tagad Ņurga ņem atlikušos zelta gabalus no tiem pāriem, no kuriem viens gabals jau paņemts (tādu ir $25-2x$) un vēl $x$ pilnus pārus; kopā viņš būs paņēmis $x+(25-2x)+x=25$ pilnus pārus, t.i., $50$ zelta gabalus, kas veido pusi no kopējās masas.
@@ -156,7 +156,7 @@ Vai eksistē $10$ dažādi naturāli skaitļi ar īpašību: lai kā tos sadalī
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 <u>Atbilde</u>: jā.  
 <u>Risinājums.</u> Pietiek atrast $10$ dažādus skaitļus ar īpašību: visu $10$ skaitļu summa dalās ar jebkuras šo skaitļu grupas summu. Tādi skaitļi ir, piemēram, $1$; $2$; $3$; $4$; $5$; $6$; $7$; $8$; $9$ un $45!-45$ (ievērojam, ka $1+2+\ldots+9=45$).
@@ -175,7 +175,7 @@ Pierādīt: ir tādas trīs lampas, kas visas savienotas ar lentām cita ar citu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja katrai lampai būtu piestiprināti ne vairāk kā $2$ lentu gali, tad lentu būtu ne vairāk kā $\frac{6\cdot 2}{2}=6$ – pretruna. Tātad ir lampa $A$, kurai piestiprinātas (vismaz) $3$ lentas; pieņemsim, ka tās iet uz lampām $x$, $y$, $z$. Vismaz divas no lampām $x$, $y$, $z$ savienotas ar lentu; tās kopā ar $A$ veido meklējamo trijnieku.
 
@@ -194,7 +194,7 @@ Cik dažādu funkciju grafiki, kas ir taisnes nogriežņi vai lauztas līnijas, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 <u>Atbilde</u>: $13$ grafiki.
 
@@ -212,7 +212,7 @@ Vai noteikti uz taisnēm var izvēlēties virzienus tā, lai izpildītos īpaš�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 <u>Atbilde</u>: jā, var.  
 <u>Risinājums.</u> Novelkam vēl vienu taisni $t$, kas nav ne paralēla, ne perpendikulāra nevienai no dotajām. Uz taisnes $t$ virzienu izvēlamies patvaļīgi, uz citām – tā, lai šie virzieni veidotu šaurus leņķus ar $t$ virzienu. Tad jebkuras kustības gaitā kustīgā objekta projekcija uz $t$ pārvietojas $t$ virzienā, tātad nevar atgriezties kustības sākuma stāvoklī.
@@ -229,7 +229,7 @@ Vai noteikti uz taisnēm var izvēlēties virzienus tā, lai izpildītos īpaš�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2004.8.3A.png){ width=150px }
 
@@ -249,7 +249,7 @@ Kādā klasē ir $25$ skolēni. Sauksim skolēnu par noslēgtu, ja viņam klasē
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sāksim skolēnu, kas nav noslēgts, par atklātu. Pieņemsim pretējo tam, kas jāpierāda. Ja visi skolēni ir noslēgti, tad tie visi savā starpā draudzējas – pretruna, jo katram ir $24$ draugi. Pieņemsim, ka ir kāds atklāts skolnieks $A$. Apskatām viņa draugus; to ir vismaz $21$, un tie visi ir noslēgti. Tāpēc tie visi draudzējas savā starpā. Tāpēc katram no tiem ir vismaz $21$ draugs (pārējie $20$ un $A$), un viņi ir atklāti – pretruna.
 
@@ -265,7 +265,7 @@ Vai eksistē tādi naturāli skaitļi $a$, $b$, $c$, $d$, ka no $15$ skaitļiem:
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 <u>Atbilde</u>: nē, neeksistē.  
 <u>Risinājums.</u> Šķirojam divus gadījumus:  
@@ -284,7 +284,7 @@ Vai $\sqrt{3+\sqrt{8}}+\sqrt{7-\sqrt{40}}$ lielāks, mazāks vai vienāds ar $\s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $(\sqrt{2}+1)^2=3+2\sqrt{2}=3+\sqrt{8}$, $(\sqrt{5}-\sqrt{2})^2=7-2\sqrt{10}=7-\sqrt{40}$ un $(\sqrt{5}+1)^2=6+2\sqrt{5}=6+\sqrt{20}$. Tāpēc abas izteiksmes vienādas savā starpā.
 
@@ -300,7 +300,7 @@ Apaļa ezera krastā atrodas $4$ pilsētas $A$, $B$, $C$, $D$ (tieši šajā sec
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $AC$ un $BD$ krustpunktu ar $O$, bet no $A$ un $D$ izbraucošo laivu ātrumus attiecīgi ar $u$ un $v$.
 
@@ -322,7 +322,7 @@ Uz tāfeles uzrakstīti $2003$ vieninieki. Ar vienu gājienu atļauts izvēlēti
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\left(\sqrt{2ab}\right)^2=2ab\le a^2+b^2$, tad uz tāfeles esošo skaitļu kvadrātu summa gājienu rezultātā nepalielināsies. Sākumā tā ir $2003$. Ja uz tāfeles paliek viens skaitlis $X$, tad $x^2\le 2003<2025=45^2$; tāpēc $x<45$.
 
@@ -338,7 +338,7 @@ Izliektā $4$-stūrī $ABCD$ pastāv vienādība $\angle BAD=\angle CDA$. Malu $
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2004.9.4A.png){ width=250px }
 
@@ -358,7 +358,7 @@ Rindā uzrakstīti naturāli skaitļi no $1$ līdz $100$ ieskaitot, katrs tieši
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam ir $98$ summas. Pieņemsim, ka tās visas ir nepāra skaitļi. Apzīmējot pāra skaitļus ar $p$, bet nepāra – ar $n$, viegli iegūt, ka pastāv tikai šādas iespējas:  
 a) $n\,n\,n\,n\,n\,n\,n\ldots$  
@@ -385,7 +385,7 @@ Vai 5.zīm var būt attēloti funkciju $y=x^2+px+q$ un $y=qx+1$ grafiki?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Parabola krusto $Oy$ asi punktā $(0;q)$, bet taisne – punktā $(0;1)$; tāpēc $q=1$. Tāpēc taisne krusto $OX$ asi punktā $(-1;0)$. Šis punkts atrodas uz parabolas, tāpēc $(-1)^2+p(-1)+1=0$ un $p=2$. Bet tad parabolas vienādojums ir $y=x^2+2x+1$ jeb $y=(x+1)^2$, un tai ir tikai viens kopīgs punkts ar $Ox$ asi.
 
@@ -401,7 +401,7 @@ Dots, ka $p$ un $q$ – reāli skaitļi un vienādojumam $x^4+px+q=0$ ir reāla 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $c$ ir vienādojuma $x^4+px+q=0$ sakne, tad $c^4+pc+q=0$; tas nozīmē, ka $c$ ir vienādojuma $c^2\cdot x^2+px+q=0$ sakne. Tātad šī vienādojuma diskriminants nav negatīvs, no kurienes seko vajadzīgais.
 
@@ -417,7 +417,7 @@ Atrodiet mazāko pozitīvo veselo skaitli $x$ ar īpašību: $x^2-1$ dalās gan 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $x>1$ (citādi $x^2-1$ dalītos ar $2003$). Tā kā $2\cdot 501-1001=1$, tad $LKD(501,1001)=1$. Tāpēc mums jāmeklē tādu $x$, ka $x^2-1$ dalās ar reizinājumu $501\cdot 1001$.
 
@@ -435,7 +435,7 @@ Uz trijstūra ABC malas AB ņemts tāds punkts M, ka $AB=3\cdot AM$. Ir zināms,
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\triangle MCD$ – vienādsānu, tad riņķa līnija pieskaras malai $MB$ tās viduspunktā $X$. Tāpēc $MX=MA$. Bez tam $MX=MK$ kā pieskares. Tāpēc $\angle MAK=\angle MKA=\alpha$. No ārējā leņķa īpašībām $\angle KMX=2\alpha$; tā kā $MO$ ir $\angle KMX$ bisektrise, tad $\angle OMX=\alpha=\angle KAM$, no kurienes seko vajadzīgais.
 
@@ -455,7 +455,7 @@ Kvadrāts sastāv no $10\cdot 10$ rūtiņām. Desmit rūtiņas nokrāsotas melna
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: nē, nevar.
 
@@ -476,7 +476,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka pie $k\geq1$
 
@@ -504,7 +504,7 @@ Riņķī ar rādiusu $R$ ievilkts regulārs $14$-stūris $A_1A_2\ldots A_{14}$. 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $OA_1A_4A_{13}$ ir paralelograms. Tāpēc $OA_1=A_4A_{13}$ un $OA_{13}=A_1A_4$. Tā kā $\angle A_1A_2A_9=\angle A_2OA_{13}$, seko $OQ=A_2Q$. Tāpēc $R+QA_{13}=A_1A_2+QA_1$ jeb $R+A_1A_4=A_1A_2+A_4A_{13}=A_1A_2+A_1A_6$, k.b.j.
 
@@ -524,7 +524,7 @@ Naturālam skaitlim $n$ ir tādi divi dažādi naturāli dalītāji $a$ un $b$, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atverot iekavas, iegūstam $a\cdot b-a+2\cdot b=n$. Tā kā $n$ dalās ar $b$, tad arī $a$ dalās ar $b$, tāpēc $a>b$ (atceramies, ka $a\neq b$); tātad $a\geq2\cdot b$. Tā kā $n$ dalās ar $a$, tad $2\cdot b$ dalās ar $a$; tāpēc $2\cdot b\geq a$. Skaidrs, ka $a=2\cdot b$. Tad $n=a\cdot b-a+2\cdot b=2\cdot b^2-2\cdot b+2\cdot b=2\cdot b^2$ un $2\cdot n=4\cdot b^2=(2\cdot b)^2$.
 
@@ -540,7 +540,7 @@ Aļģirds un Benedikts katrs uzrakstīja vairākus naturālus skaitļus. Katrs n
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo. Ar $a(n)$ resp. $b(n)$ apzīmēsim ciparu skaitu Aļģirda resp. Benedikta uzrakstītajā skaitlī, kas satur ciparu $n$. Tā kā jau četru mazāko naturālo skaitļu summa $1+2+3+4=10$ ir lielāka par $9$ – nenulles ciparu skaitu, tad $a(n)$ iespējamas augstākais $3$ dažādas vērtības; tas pats attiecas uz $b(n)$. Tāpēc iespējami augstākais $9$ dažādi pāri $(a(n), b(n))$. Tā kā saskaņā ar pieņēmumu dažādiem nenulles cipariem $n$ ir dažādi pāri $(a(n),b(n))$, tad katrs iespējamais pāris $(a(n), b(n))$ sastopams tieši vienu reizi. Tāpēc $a(n)$ ir trīs dažādas vērtības, katra tieši trim dažādiem cipariem $n$. Ja būtu $a(n)\ge 4$, tad tieši trīs cipari būtu četrciparu vai vēl garākos skaitļos – pretruna. Ja būtu $a(n)=2$, tad tieši trīs cipari būtu divciparu skaitļos – pretruna. Tāpēc $a(n)$ iespējamas tikai divas vērtības $1$ un $3$ – pretruna.
 
@@ -556,7 +556,7 @@ Funkcija $f(x,y)$ definēta veseliem pozitīviem $x$ un $y$, un tās vērtības 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katram pozitīvam veselam $A$ ir augstākais $2003\cdot A$ pāri $(x,y)$, kam izpildās nosacījums $f(x,y)=A$. Pieņemsim, ka visiem $m$ un $n$ pastāv nevienādība $f(m,n)\le m\cdot n$. Tad no $m\cdot n\le A$ seko $f(m,n)\le A$. Tāpēc no $m\cdot n\le A$ seko, ka vai nu $f(m,n)=1$ vai $f(m,n)=2$, ..., vai $f(m,n)=A$. Tātad tādu pāru $(m,n)$, kam izpildās $m\cdot n\le A$, ir ne vairāk par $2003\cdot A$. Bet pie fiksēta $m$ ir $\left[\frac{A}{m}\right]$ tādu pāru $(m,n)$, ka $m\cdot n\le A$. Tāpēc
 

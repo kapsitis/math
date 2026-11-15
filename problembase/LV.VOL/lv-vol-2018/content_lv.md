@@ -12,7 +12,7 @@ Pierādīt, ka katrai no šīm kvadrātfunkcijām minimālā vērtība ir nulle!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Abām dotajām kvadrātfunkcijām ir vienāds sakņu skaits, jo tām ir vienāds 
 diskrimintants $D=2018^{2}-4ab$. Ja tām abām būtu divas saknes, tad to 
@@ -21,7 +21,7 @@ nebūtu sakņu, tad to minimālās vērtības būtu pozitīvas un summa arī poz
 Tātad tām abām ir tieši viena sakne, kas nozīmē, ka to minimālā vērtība ir 
 nulle.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Tā kā $a$ un $b$ ir pozitīvi skaitļi, tad abu parabolu zari ir vērsti uz augšu 
 un kvadrātfunkciju minimālā vērtība sakrīt ar parabolas virsotnes $y$ 
@@ -71,7 +71,7 @@ vismaz divi dod vienādus atlikumus!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katru naturālu skaitli $n$ var izteikt formā $n=4b+a$, kur $b \in \mathbb{Z}$ 
 un $a$ ir skaitļa $n$ atlikums, dalot ar $4$. Iespējamās atlikuma $a$ vērtības 
@@ -113,7 +113,7 @@ būs kaimiņi arī jaunajā izvietojumā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais nav iespējams. Pieņemsim, ka mušas ir pārlidojušas tā, 
 ka visas, kas bija kaimiņos pirms pārlidošanas, ir kaimiņos arī pēc tās. 
@@ -131,7 +131,7 @@ kas ir pretrunā ar pieņēmumu.
 
 ![](LV.VOL.2018.9.3A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pamatosim, ka prasītais nav iespējams. Saskaitīsim, cik mušu pāri bija kaimiņi 
 pirms un pēc pārlidošanas. Kaimiņu katrā tabulā ir tieši tik, cik ir iekšējo 
@@ -156,7 +156,7 @@ $BMC$ laukumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam trijstūrī $ABC$ augstumu $BH$ (skat. 2.att.). Tā kā $BH$ ir arī 
 mediāna, tad $HC=\frac{1}{2} AC=3$, un pēc Pitagora teorēmas $\triangle BHC$ 
@@ -173,7 +173,7 @@ $S_{BMC}=\frac{1}{2} S_{BEC}=\frac{1}{2} \cdot 4 \cdot \frac{4}{2}=4$.
 
 ![](LV.VOL.2018.9.4A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Novelkam trijstūrī $ABC$ augstumu $BH$ (skat. 3.att.). Tā kā $BH$ ir arī 
 mediāna, tad $HC=\frac{1}{2} AC=3$, un pēc Pitagora teorēmas $\triangle BHC$ 
@@ -207,7 +207,7 @@ kaudzītē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais ir iespējams. Ja ir $10$ monētas vai $8$ monētas, tad 
 attiecīgi ar $5$ vai $4$ gājieniem tās var savākt kaudzītēs pa divām monētām 
@@ -236,7 +236,7 @@ x+2y<\frac{15}{2}
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam sistēmas pirmo nevienādību
 
@@ -273,7 +273,7 @@ Aprēķināt $AD$ garumu, ja $AK=6,\ AM=3$ un $\sphericalangle KAM=60^{\circ}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam $KM,\ BD$ un ar $E$ apzīmējam $BD$ un $AM$ krustpunktu (skat. 8.att.).
 Uz stara $AM$ atliekam tādu punktu $A^{\prime}$, ka $A^{\prime}M=AM=3$, tad 
@@ -332,7 +332,7 @@ lielāks nekā $10$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** *Skaists trijnieks* ir, piemēram, $110$ (dalās ar $2$), $111$
 (dalās ar $3$), $112$ (dalās ar $4$).
@@ -349,7 +349,7 @@ veidotais skaitlis dalās ar $4$. Tā kā $n$ var būt jebkurš naturāls skaitl
 tad *skaistu trijnieku* ir bezgalīgi daudz.
 
 
-## Atrisinājums 
+## Atrisinājums-2
 
 Vispirms apskatām vienkāršāku uzdevumu – "labu skaitļu" ķēdītes garumā $2$.  
 Var aplūkot tādus skaitļus, kuru vidū var iespraust neierobežotu skaitu nuļļu.
@@ -390,7 +390,7 @@ vismaz viens *karaliskais neizšķirts*, **(B)** vismaz divi
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šahistus apzīmējam ar punktiem. Ja divi šahisti spēlējuši neizšķirti viens ar 
 otru, tad atbilstošos punktus savienojam ar līniju. Tad, atbilstoši uzdevuma 
@@ -425,7 +425,7 @@ mazākais).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka eksistē tāds $12$ skaitļu komplekts, kur visas starpības 
 starp skaitļiem atkārtojas ne vairāk kā divas reizes.
@@ -499,7 +499,7 @@ Atrisināt nevienādību $|||x-2|-3|-7|<5$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā moduļa vērtība ir mazāka nekā $5$, tad
 
@@ -513,7 +513,7 @@ Iespējami divi gadījumi:
 2) $-12 < |x-2|-3 < -2$ jeb $-9 < |x-2| < 1$ un tā kā modulis ir nenegatīvs, tad 
    $-1 < x-2 < 1$ jeb $1 < x < 3$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Doto nevienādību var atrisināt, pakāpeniski veidojot funkciju 
 $y=|x-2|,\ y=|x-2|-3$, $y=|| x-2|-3|,\ y=|| x-2|-3|-7,\ y=|||x-2|-3|-7|$ 
@@ -548,7 +548,7 @@ ka $AO \perp BE$ !
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādsānu trijstūrī mediāna, kas vilkta no virsotnes, ir arī augstums un 
 bisektrise. Tāpēc $AH \perp BC$ un $\sphericalangle BAH=\sphericalangle HAC$, 
@@ -587,7 +587,7 @@ lielāks nekā $10$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** *Skaists piecinieks* ir, piemēram,
 
@@ -638,7 +638,7 @@ z^{3}+4z=5x
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotās sistēmas atrisinājumi ir $(0; 0; 0);\ (1; 1; 1)$ un $(-1; -1; -1)$. 
 Pierādīsim, ka citu atrisinājumu nav. Tā kā vienādojums ir simetrisks attiecībā
@@ -671,7 +671,7 @@ jau atrodas. Vai, veicot šādus gājienus, iespējams iztukšot **(A)** vienu m
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Vienu mucu ir iespējams iztukšot, skat., piemēram, tālāk dotajā tabulā
 
@@ -716,7 +716,7 @@ $\frac{a-b}{c}+\frac{b-c}{a}+\frac{c-a}{b}$ vērtību!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot logaritmu īpašību $m^{\log m}=t$, iegūstam, ka 
 $x^{\lg y}=10^{\lg \left(y^{\lg x}\right)}=10^{\lg x \lg y}=y^{\lg x}$, tāpēc 
@@ -741,7 +741,7 @@ punktos $P$ un $R$. Pierādīt, ka $DP=PR=RF$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nogriežņi $DF$ un $GE$ ir trijstūra $BDG$ mediānas (skat. 13.att.). Mediānas 
 krustojoties tiek sadalītas attiecībā $2:1$, skaitot no virsotnes, tāpēc 
@@ -775,7 +775,7 @@ Atrisināt veselos skaitļos vienādojumu $x^{6}+3x^{3}+1=y^{4}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der skaitļu pāri $(0; 1)$ un $(0; -1)$. Pierādīsim, ka citu atrisinājumu nav.
 
@@ -810,7 +810,7 @@ dalās ar $6$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sākotnējo rūtiņu laukumu šaha veidā izkrāsosim $3 \times 3$ rūtiņas lielos 
 melnos un baltos kvadrātos (skat. 14.att.).
@@ -855,7 +855,7 @@ Pierādīt, ka, veicot šādus gājienus, vienmēr iespējams iztukšot vienu no
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām mucu, kurā ir vismazāk ūdens. Parādīsim, kā kādā no pārējām mucām 
 iegūt mazāk ūdens nekā šajā mucā. Tad skaidrs, ka, atkārtojot šo procesu, agrāk

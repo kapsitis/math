@@ -12,7 +12,7 @@ jo $123$ un $9$ abi dalās ar $3$.)
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ielikt $5$ semikolus, piemēram:
 

@@ -9,7 +9,7 @@ ka tas ir savstarpējs pirmskaitlis ar katru no pārējiem.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** no skaițiem $n, n+1, n+2$ var izvēlēties skaitli $n+1$;
 

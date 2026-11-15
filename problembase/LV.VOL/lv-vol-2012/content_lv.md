@@ -14,7 +14,7 @@ skaitlis $20112012$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** No pieciem pēc kārtas ņemtiem naturāliem skaitļiem viens dalās ar $5$. 
 Tātad arī to reizinājums dalās ar $5$, bet $20112012$ ar $5$ nedalās.
@@ -37,7 +37,7 @@ $4~\mathrm{cm}$, $7~\mathrm{cm}$ un $10~\mathrm{cm}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka šādu trijstūri iespējams izveidot. Pieņemsim, ka šī trijstūra 
 laukums ir $S$, tad tā malu garumi ir $\frac{2S}{4}, \frac{2S}{7}$ un 
@@ -62,7 +62,7 @@ $q_{1} \leq q_{2} \leq q_{3} \leq 0$. Kādas ir iespējamās $q_{2}$ vērtības?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $q_{2}=0$. 
 
@@ -88,7 +88,7 @@ $AB^{2}-BE^{2}+EC^{2}=AC^{2}$. Pierādīt, ka $AE \perp BC$!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atradīsim $AE$ un $BC$ krustpunktu $D$ un pieņemsim, ka 
 $\sphericalangle ADB=\alpha \leq 90^{\circ}$.
@@ -128,7 +128,7 @@ figūras? Griezuma līnijām jāiet pa rūtiņu malām.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izkrāsosim doto figūru šaha galdiņa veidā, skat. 2.zīm.
 
@@ -160,7 +160,7 @@ ir atrisinājums reālos skaitļos?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $a=3$.
 
@@ -188,7 +188,7 @@ Pierādīt, ka $S_{A_{1}B_{1}C_{1}}+S_{A_{2}B_{2}C_{2}}>S_{ABC}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aprēķināsim $S_{A_{1}B_{1}C_{1}}$ (skat. 4.zīm.).
 
@@ -227,7 +227,7 @@ ka skaitļa $N^{2}$ decimālajā pierakstā nav cipara $0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $N=\underbrace{666 \ldots}_{n "6"}$, tad
 
@@ -239,7 +239,7 @@ $=\underbrace{44 \ldots 4}_{n "4"} \cdot(\underbrace{100 \ldots 0}_{n "0"}-1)=\u
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Parādām, kā kāpināt $66\ldots{}66$ kvadrātā
 
@@ -274,7 +274,7 @@ kauliņi $B$ un $C$ būtu samainīušies vietām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim piecstūri $A_{1}A_{2}A_{3}A_{4}A_{5}$. Ievērosim, ka kauliņi var tikt
 pārvietoti tikai pa ciklu $A_{1}A_{3}A_{5}A_{2}A_{4}A_{1}$, nemainot secību. 
@@ -302,7 +302,7 @@ rūtiņas, skat. 4.zīm.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka laukums ir izkrāsots šaha galdiņa veidā. Jebkuram šādi krāsotam 
 kvadrātam piemīt centrālā simetrija. Ievērosim, ka, šaha zirdziņu novietojot uz
@@ -333,7 +333,7 @@ $n^{4}+a$ ir salikts skaitlis visiem naturāliem skaitļiem $n>1$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlēsimies 
 $a=4k^{4}$. Tad $n^{4}+4k^{4}=\left(n^{2}-2nk+2k^{2}\right)\left(n^{2}+2nk+2k^{2}\right)$
@@ -356,7 +356,7 @@ rūtiņas tabulā var būt iekrāsotas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nezaudējot vispārīgumu, varam pieņemt, ka tabulā pa reizei ierakstīti skaitļi 
 no $1$ līdz $9$.
@@ -420,7 +420,7 @@ Kāda ir maksimālā šo daļu laukumu attiecība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlēsimies vienu trijstūra malu (piem., $BC$) un caur mediānu $AD,\ BE$ un 
 $CF$ krustpunktu $M$ novilksim tai paralēlu taisni, kas malas $AB$ un $AC$ 
@@ -465,7 +465,7 @@ spēkā sakarība $a_{n}-\sqrt{a_{n+1}}=2$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $a_{n}$ ir augoša skaitļu virkne un visi tās locekļi ir lielāki 
 vai vienādi ar $5$.
@@ -507,7 +507,7 @@ Kurš no zēniem uzvarēs, pareizi spēlējot?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Otrais spēlētājs vienmēr var uzvarēt. Lai to panāktu, pēc katra pirmā spēlētāja
 gājiena viņš nogriež sev sektoru, kas ir simetrisks tikko nogrieztajam pirmā 
@@ -538,7 +538,7 @@ Atrast vienu šādu virkņu piemēru.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der, piemēram, virknes $a_{i}=i+2013$ un $b_{i}=i$.
 
@@ -559,7 +559,7 @@ centrs atrodas uz trijstūrim $ABC$ apvilktās riņķa līnijas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\sphericalangle ACD=\sphericalangle BCD=\alpha$ un 
 $\sphericalangle ABD=\sphericalangle DBX=\beta$ (skat. 15.zīm.). Tad 
@@ -602,7 +602,7 @@ $\lfloor 0.2 \rfloor =0$ utml.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzot vērtības $n=1$ un $n=2$ neder par vienādojuma saknēm, tāpēc apskatām
 gadījumu kad $n \geq 3$. Vienādojuma labajā pusē ir $n-1$ saskaitāmie, kuri 
@@ -634,7 +634,7 @@ Rūtiņas sauc par kaimiņu rūtiņām, ja tām ir kopīga mala.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nav iespējams.
 
@@ -674,7 +674,7 @@ uzzīmētos riņķus.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novilksim dotajam riņķim pieskari un projecēsim uz tās uzzīmēto riņķu 
 diametrus, kas paralēli novilktajai piekarei (piem., skat., 18.zīm.). Šo 

@@ -8,7 +8,7 @@ reizinājums dalās ar $5$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atlikumi ir veseli nenegatīvi skaitļi. Ja četru atlikumu summa ir $3$, 
 tad vismaz viens no tiem ir $0$; atbilstošais skaitlis un līdz ar to 

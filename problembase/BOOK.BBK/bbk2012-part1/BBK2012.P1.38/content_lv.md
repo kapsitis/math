@@ -5,7 +5,7 @@ Pierādīt, ka gan $a$, gan $b$ dalās ar $7$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No tā, ka $3a+4b$ un $2a+3b$ dalās ar $7$, seko, ka
 $a+b = (3a+4b)-(2a+3b)$ dalās ar $7$. Līdzīgi iegūstam, ka

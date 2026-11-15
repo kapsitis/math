@@ -9,7 +9,7 @@ Atrast mazāko naturālo skaitli, kura ciparu reizinājums ir lielāks vai vien�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklētajam jābūt četrciparu skaitlim, jo lielākā trīsciparu skaitļa ciparu reizinājums ir $9\cdot 9\cdot 9=729<2012$. Vismazākajam no atbilstošajiem četrciparu skaitļiem cipari ir sakārtoti augošā secībā.
 
@@ -29,7 +29,7 @@ Mūzikas akadēmijas absolventi katrs māk spēlēt vismaz vienu mūzikas instru
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim to absolventu skaitu, kas māk spēlēt klavieres, ar $k$, kas māks spēlēt vijoli – ar $v$, un tos, kas spēlē bungas – ar $b$. Apskatīsim Eilera – Venna diagrammu ($1$. zīm.).
 
@@ -58,7 +58,7 @@ $1.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais kvadrāts, ko var izveidot atbilstoši uzdevuma nosacījumiem, ir $6\times 6$ rūtiņas, skat., piem., $2$. zīm.
 
@@ -78,7 +78,7 @@ Vienā gadā bija tikpat trešdienu, cik piektdienu. Vai noteikti šajā gadā b
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) **Atbilde:** ne obligāti. Īsajā gadā ir $365$ dienas jeb $52$ pilnas nedēļas un viena diena. Ja $1$. janvāris ir ceturtdiena, tad arī $31$. decembris ir ceturtdiena un ceturtdienu skaits gada laikā būs par vienu lielāks nekā trešdienu un piektdienu skaits.
 
@@ -96,7 +96,7 @@ Aizmežu tirgū tirdzniecība notiek izmantojot $1$, $2$, $5$, $10$ un $20$ sant
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visas naudas summas no $2$ līdz $9$ santīmiem var izteikt ar tieši trīs dažādu monētu palīdzību: $2=5-2-1$, $3=10-5-2$; $4=5+1-2$; $5=20-10-5$; $6=5+2-1$; $7=10-2-1$; $8=5+2+1$; $9=10+1-2$.
 
@@ -114,7 +114,7 @@ Cik ir tādu naturālu skaitļu, kuru decimālā pieraksta ciparu reizinājums i
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim skaitļa $20$ dalītājus – viencipara skaitļus: tie ir $1$, $2$, $4$ un $5$. Skaitli $1$ kā reizinātāju var izmantot patvaļīgu skaitu reižu – tas nemaina reizinājuma vērtību. Tātad skaitli $20$ kā vienciparu skaitļu reizinājumu, kuru summa ir $11$, var izteikt divos veidos: a) $5\cdot4\cdot1\cdot1$ vai b) $5\cdot2\cdot2\cdot1\cdot1$.
 
@@ -133,7 +133,7 @@ Visi septiņciparu *palindromi* sakārtoti augošā secībā. Noteikt, kurš *pa
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Septiņciparu *palindroms* uzrakstāms formā $\overline{abcdcba}$, kur $a$, $b$, $c$, $d$ ir cipari (varbūt vienādi; $a\neq0$). Jo mazāks ir četrciparu skaitlis $\overline{abcd}$, jo mazāks ir *palindroms* $\overline{abcdcba}$, tāpēc pietiek apskatīt visus četrciparu skaitļus un noskaidrot, kurš no tiem pēc kārtas ir $2011$-ais. Pirmais četrciparu skaitlis ir $1000$, $2001$-ais – $3000$, tātad $2011$-ais četrciparu skaitlis ir $3010$ un meklētais septiņciparu *palindroms* ir **$3010103$**.
 
@@ -154,7 +154,7 @@ Parādīt zīmējumā, kā to var izdarīt.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais taisnstūris, ko var izveidot atbilstoši uzdevuma nosacījumiem, ir $5\cdot6$ rūtiņas, skat. 3. zīm.
 
@@ -174,7 +174,7 @@ Piecstūra un sešstūra malu garumi centimetros ir pēc kārtas sekojoši natur
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim piecstūra īsākās malas garumu ar $a$, tad sešstūra garākās malas garums arī ir $a$. Tad piecstūra perimetrs ir $a+(a+1)+(a+2)+(a+3)+(a+4)=5a+10$, bet sešstūra perimetrs ir $a+(a-1)+(a-2)+(a-3)+(a-4)+(a-5)=6a-15$. Tātad $5a+10=6a-15$ un sešstūra garākā mala $a=25$ cm, bet sešstūra īsākā mala ir **$a-5=20$ cm**.
 
@@ -195,7 +195,7 @@ Noteikt, kurā no lādītēm atrodas dimants, ja tikai viens no šiem apgalvojum
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim, kuri apgalvojumi ir patiesi, ja dimants atrodas noteiktas krāsas lādītē.
 
@@ -223,7 +223,7 @@ c) Cik starp šiem vienādojumiem ir tādu, kuriem nav sakņu?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Piemēram, $3x+1=2x+1$.
 
@@ -245,7 +245,7 @@ b) $2011$ taisnes?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim uzdevuma atrisinājumu vispārīgajā gadījumā, ja plaknē ir dotas $n$ taisnes. Tad katra taisne krusto visas pārējās $n-1$ taisnes, katru citā punktā. Tā kā katrs krustpunkts šādā veidā tiek ieskaitīts tieši divas reizes (uz katras no abām taisnēm, kas krustojas šajā punktā), tad pavisam dažādo krustpunktu skaits ir $\dfrac{n(n-1)}{2}$.
 
@@ -265,7 +265,7 @@ Dota virkne $u_{1},u_{2},\ldots$, kur $u_{1}=u_{2}=1$ un katrs nākamais virknes
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar virknes veidošanas likumu
 
@@ -287,7 +287,7 @@ Vienādmalu trijstūra, kura malas garums ir $2$ cm, iekšpusē atzīmēti pieci
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalām doto trijstūri četros vienādos vienādmalu trijstūros kā parādīts $4.$ zīmējumā. Katra trijstūra visu malu garumi ir $1$ cm, tāpēc attālums starp diviem punktiem, kas atrodas viena trijstūra iekšpusē vai uz tā kontūra, nepārsniedz malas garumu, t.i., $1$ cm. Tā kā ir atzīmēti $5$ sarkani punkti, tad vismaz divi sarkanie punkti būs atzīmēti viena trijstūra iekšpusē vai uz tā kontūra. Tie arī ir meklētie divi punkti.
 
@@ -308,7 +308,7 @@ Pēteris uzvar, ja sešciparu skaitlis, kas izveidojas beigās, dalās ar $13$. 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, Pēteris var uzvarēt. Atbildot uz Jāņa gājieniem, Pēteris raksta ciparus tā, lai izveidotos skaitlis $\overline{abcabc}=1001\cdot \overline{abc}$. Šis skaitlis dalās ar $1001=13\cdot 11\cdot 7$, tātad tas dalās arī ar $13$.
 
@@ -328,7 +328,7 @@ Koordinātu plaknē konstruēti funkciju $y=a\cdot x+k$ un $y=b\cdot x+m$ grafik
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļi $k$ un $m$ norāda taišņu krustpunktu ar $Oy$ asi $y$ koordinātu, tātad $k<m$. Taišņu virziena koeficienti $a$ un $b$ norāda taišņu „slīpumu”, tātad $a>b$. No tā seko, ka $b-a<0$ un $k-m<0$, tāpēc $(b-a)(k-m)>0$.
 
@@ -348,7 +348,7 @@ Divi vienādsānu trīsstūri $ABC$ ($AB=AC$) un $DEF$ ($DE=DF$) savstarpēji no
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dots, ka $\angle BAC=\angle DEF=32^{\circ}$ (skat. $5.$ zīm.). $\angle AGE=\angle BGD$ kā krustleņķi. No četrstūra $BGDH$ leņķu summas iegūstam, ka $\angle BGD=360^{\circ}-\angle EDF-\angle DHB-\angle HBG$.
 
@@ -378,7 +378,7 @@ Skaitļi $a_1,a_2,\ldots,a_n$ ir visi naturālie skaitļi no $1$ līdz $n$ kaut 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai reizinājums būtu nepāra skaitlis, visiem reizinātājiem jābūt nepāra skaitļiem. Divu skaitļu starpība ir nepāra skaitlis tikai tad, ja viens no skaitļiem ir pāra skaitlis, bet otrs – nepāra skaitlis. Ņemot pēc kārtas nepāra skaitu naturālu skaitļu, gan starp skaitļiem $1$, $2$, $\ldots$, $n$, gan starp skaitļiem $a_1$, $a_2$, $\ldots$, $a_n$ nepāra skaitļu būs par vienu vairāk nekā pāra skaitļu. Tātad nav iespējams sadalīt šos skaitļus $n$ pāros tā, ka katrā pārī viens skaitlis ir pāra skaitlis, bet otrs – nepāra. Tātad vismaz vienās iekavās būs divu nepāra skaitļu starpība, kas dod pāra skaitli, līdz ar to reizinājums arī būs pāra skaitlis.
 
@@ -394,7 +394,7 @@ Augošas naturālu skaitļu virknes $1, 7, 11, 13,\ldots$ locekļi ir visi tie s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja jebkurai veselai nenulles skaitļa $k$ vērtībai aplūko skaitļus intervālā $[30k; 30k+29]$, tad viegli pamanīt, ka ar $2$, $3$ vai $5$ nedalās astoņi no šiem skaitļiem: $30k+1$, $30k+7$, $30k+11$, $30k+13$, $30k+17$, $30k+19$, $30k+23$ un $30k+29$. Tātad, lai noteiktu prasīto virknes locekļu vērtības, nepieciešams noteikt 1) kurai grupai tas pieder – atrast attiecīgo $k$ vērtību ($k=0$, $1$, $2$, $\ldots$) un 2) kurš pēc kārtas elements grupā tas ir.
 
@@ -412,7 +412,7 @@ Draugu portālā ir reģistrējušies $N$ zēni un $M$ meitenes. Katrs zēns dra
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzdevuma nosacījumiem seko, ka zēnu savstarpējo draudzību skaits ir $\dfrac{3N}{2}$. Tātad $N$ ir pāra skaitlis.
 
@@ -444,7 +444,7 @@ Dots, ka $x$, $y$, $z$, $t$ ir pozitīvi skaitļi un $x^2<y$, $y^2<z$, $z^2<t$ u
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā visu doto nevienādību abās puses ir pozitīvi skaitļi, varam visas četras nevienādības sareizināt. Tādējādi iegūstam, ka $x^2y^2z^2t^2<xyzt$. Izdalot iegūtās nevienādības abas puses ar $xyzt>0$, iegūstam $xyzt<1$, no kurienes seko, ka $x$, $y$, $z$, $t$ visi reizē nevar būt lielāki vai vienādi ar $1$.
 
@@ -460,7 +460,7 @@ Tā kā visu doto nevienādību abās puses ir pozitīvi skaitļi, varam visas �
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No punkta D novelkam perpendikulu pret BE, apzīmējam $DG=a$ (skat. $9.$ zīm.). $DF=CF$ un $\angle GFD=\angle EFC$, tāpēc taisnleņķa trijstūri DGF un EFC ir vienādi (pēc pazīmes „kl”). Vienādu trijstūru atbilstošie elementi ir vienādi, tātad $GF=EF=x$. No Talesa teorēmas seko $\frac{BD}{DA}=\frac{BG}{EG}=1$ un no līdzīgiem trijstūriem BDG un BAE seko, ka $\frac{DG}{AE}=\frac{BD}{BA}=\frac{1}{2}$. Tātad $BG=EG=2x$ un $AE=2a$.
 
@@ -484,7 +484,7 @@ Vienādojuma $x^2-27x+113=0$ saknes ir taisnleņķa trijstūra katešu garumi, i
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja dotā vienādojuma saknes – katešu garumi – ir $x_1$ un $x_2$, tad trijstūra laukums ir $S=\frac{x_1x_2}{2}$.
 
@@ -508,7 +508,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atņemot no otrā vienādojuma pirmo, iegūstam $x(1-y)-z(1-y)=1$ jeb $(1-y)(x-z)=1$. Skaitli $1$ kā divu veselu skaitļu reizinājumu var izteikt divos veidos: $1=1\cdot 1=(-1)\cdot(-1)$.
 
@@ -534,7 +534,7 @@ Atrast lielāko strēmeļu kopgarumu, kuru Svirpulnieks var paņemt, neatkarīgi
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja lielākais strēmeļu kopgarums būtu $9$, tad maksimālais dažāda garuma strēmeļu skaits būtu $1\cdot 7+1\cdot 6+1\cdot 5+2\cdot 4+3\cdot 3+4\cdot 2=43<49$, tātad ar šo kopgarumu nepietiek, lai noklātu visu laukumu.  
 Ja lielākais strēmeļu kopgarums būtu $10$ vai $11$, tad maksimālais dažāda garuma strēmeļu skaits būtu $1\cdot 7+1\cdot 6+2\cdot 5+2\cdot 4+3\cdot 3+5\cdot 2=50$. Lai dotais kvadrāts būtu sadalīts pilnībā, tad šāds dalījums neder, jo viena rūtiņa ir par daudz. Bet tas nozīmē, ka kādam garumam strēmeļu skaits ir mazāks par maksimāli iespējamo, bet šis liekais garums ir sadalīts starp cita garuma strēmelēm, tādējādi palielinot šīs grupas kopgarumu un pārsniedzot maksimāli pieļaujamo summu.  
@@ -556,7 +556,7 @@ Doti tādi veseli skaitļi $a$ un $b$, ka $3a+5b$ dalās ar $11$. Pierādīt, ka
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $(5a+b)=11(a+b)-2(3a+5b)$. Labās puses katrs saskaitāmais dalās ar $11$, tātad arī kreisās puses izteiksmei jādalās ar $11$, k.b.j.
 
@@ -576,7 +576,7 @@ $7.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim sešstūra malas garumu ar $a$, $\mathrm{AE}=\mathrm{EC}=h$, $\mathrm{AE}\perp \mathrm{AB}$, $\mathrm{EC}\perp \mathrm{BC}$ (skat. 11. zīm.). Tad
 
@@ -602,7 +602,7 @@ Zināms, ka $a$ un $\frac{a^2+a-1}{2a+1}$ ir veseli skaitļi. Atrast visas iesp�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $\frac{a^2+a-1}{2a+1}$ ir vesels skaitlis, tad arī $\frac{4(a^2+a-1)}{2a+1}=\frac{4a^2+4a-4}{2a+1}$ ir vesels skaitlis. Bet
 
@@ -633,7 +633,7 @@ Vai nevienādība $a_n>\frac{2^n}{3}$ ir patiesa, ja 1) $n=2011$; 2) $n=2012$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka skaitļus $a_n$ var uzdot ar formulu $a_n=\frac{2^n-(-1)^n}{3}$.
 
@@ -653,7 +653,7 @@ Pukstiņš un Svirpulnieks spēlē šādu spēli: vispirms Pukstiņš sadala $9 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja lielākais strēmeļu kopgarums būtu $14$, tad maksimālais dažāda garuma strēmeļu skaits būtu $1\cdot 9+1\cdot 8+2\cdot 7+2\cdot 6+2\cdot 5+3\cdot 4+4\cdot 3=77<81$, tātad ar šo kopgarumu nepietiek, lai noklātu visu laukumu.
 
@@ -679,7 +679,7 @@ ir vienāds sakņu skaits?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrātvienādojumu apzīmēsim ar $V_1$ un otru vienādojumu – ar $V_2$.
 
@@ -707,7 +707,7 @@ Ja $a>1$, tad $D<0$ un $V_1$ sakņu nav. Vienādojuma $V_2$ sakņu nav, kad $\co
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uz katras trijstūra malas kā diametra konstruēsim riņķa līniju (skat. $13.$ zīm.). Apzīmēsim riņķa līniju, kuras diametrs ir $AB$ ar $w_1$, riņķa līniju, kuras diametrs ir $AC$, – ar $w_2$ un to, kuras diametrs ir $BC$, – ar $w_3$. Šīs riņķa līnijas katra iet caur attiecīgās malas galapunktiem un caur to augstumu pamatiem, kas atrodas uz divām pārējām malām, t.i., $w_1$ iet caur punktiem $A$, $B$, $D$ un $E$; $w_2$ – caur $A$, $C$, $D$ un $F$, bet $w_3$ – caur $B$, $C$, $E$ un $F$.
 
@@ -735,7 +735,7 @@ Zināms, ka $x$, $y$ un $z$ ir naturāli skaitļi, $7x^2-3y^2+4z^2=8$ un $16x^2-
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidosim dotos vienādojumus:
 
@@ -786,7 +786,7 @@ Skudra atrodas punktā $\mathrm{A}$ (skat. $8.$ zīm.) un viņai jānonāk punkt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja skudra virzās tikai pa zemi apkārt klucim, tad īsākais ceļš no $A$ līdz $B$ ir $s=13+25=38$ cm.
 
@@ -814,7 +814,7 @@ Laura un Dace no naturālu skaitļu kopas $A=\{1,\,2,\,3,\,4,\,6,\,8,\,12,\,16,\
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalīsim visus skaitļus pa pāriem tā, ka katra pāra reizinājums ir $48$: $\{1, 48\}$, $\{2, 24\}$, $\{3, 16\}$, $\{4, 12\}$, $\{6, 8\}$.
 

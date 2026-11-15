@@ -8,7 +8,7 @@ $$\left\lfloor \frac{n+1}{2} \right\rfloor +
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim doto summu ar $S_{n}$. Tad
 

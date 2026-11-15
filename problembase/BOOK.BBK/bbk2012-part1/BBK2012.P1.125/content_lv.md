@@ -4,7 +4,7 @@ Cik daudz tādu piecciparu skaitļu, kuru pēdējais cipars ir $6$,
 un kuri dalās ar $3$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $\overline{abcd}$ dalās ar 3 tad un tikai tad, kad $\overline{abcd}$ 
 dalās ar 3. Tādu skaitļu pavisam ir

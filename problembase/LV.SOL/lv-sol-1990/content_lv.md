@@ -10,7 +10,7 @@ Par cik iedomātajiem skaitļiem bija lielāks Andra skaitlis.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrs no iedomātajiem skaitļiem var būt lielāks par $0$, $1$, $2$, $3$, $4$ skaitļiem. Tā kā vērtības $0$, $1$, $2$, $4$ jau izmantotas, tad Andra iedomātais skaitlis ir lielāks par $3$ citu iedomātajiem skaitļiem.
 
@@ -27,7 +27,7 @@ Visi attālumiem jābūt dažādiem.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, skat. $4.$ zīm.
 
@@ -47,7 +47,7 @@ Dotas $6$ pēc ārējā izskata vienādas monētas. Trim no tām ir vienādas ma
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajā svēršanā noliekam uz katra kausa $3$ monētas. Viens no svaru kausiem noteikti nosvērsies uz leju. Šajā svaru kausā būs vismaz $2$ smagās monētas. Otrajā svēršanā salīdzinām jebkuras divas monētas no šī kausa. Ja viens kauss pārsver otru, tad smagā monēta ir atrasta; ja abi kausi ir līdzsvarā, tad abas monētas ir smagās.
 
@@ -63,7 +63,7 @@ Aizstāt vārdos VIENS, DIVI, TRĪS, ČETRI, PIECI burtus ar cipariem (vienādus
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jāizmanto apsvērums, ka vecākajās šķirās jāliek lielāki cipari. Atbilde: $V=9$, $C=8$, $P=7$, $I=6$, $E=5$, $T=4$, $D=3$, $R=2$, $N=1$, $S=0$.
 
@@ -87,7 +87,7 @@ Paskaidrojums: saka, ka kuba virsotnes atrodas blakus, ja tās savienotas ar š�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sarkanais trijnieks varēja rasties tikai kā trīs vieninieku summa. Tālāk viennozīmīgi var atrast pārējos skaitļus.
 
@@ -107,7 +107,7 @@ Izmantojot katru ciparu tieši vienu reizi, uzrakstīt vienu vai vairākus skait
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Divus saskaitāmos pierakstot vienu otram galā, kopējā summa palielinās, jo pirmā pierakstītā skaitļa cipari "pāriet" vecākās šķirās. Tāpēc maksimums tiks sasniegts, ja ir tikai viens saskaitāmais. Skaidrs, ka tas ir $9876543210$.
 
@@ -125,7 +125,7 @@ Pierādīt, ka $|b-c|>|b+c|$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nevienādība $|a+b|>|a-b|$ izpildās, ja skaitļu $a$ un $b$ zīmes ir vienādas. Nevienādība $|a-c|>|a+c|$ izpildās, ja skaitļu $a$ un $c$ zīmes ir dažādas. Tātad skaitļu $b$ un $c$ zīmes atšķiras, un izpildās nevienādība $|b-c|>|b+c|$.
 
@@ -145,7 +145,7 @@ Bet tikai $6$ dažādas taisnes?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var būt $7$ taisnes. Skat. 6. zīmējumu.
 
@@ -169,7 +169,7 @@ Pietiek uzzīmēt vienu piemēru.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, tā, kā parādīts 7. zīmējumā.
 
@@ -189,7 +189,7 @@ Plaknē uzzīmētas $4$ taisnes; nekādas divas no tām nav paralēlas un nekād
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Pieņemsim, ka summa uz vienas taisnes ir $S$. Saskaitot visas summas uz visām taisnēm, iegūstam $4S$. Šajā summā katrs skaitlis ir ieskaitīts divas reizes; iegūstam vienādību
 
@@ -209,7 +209,7 @@ Vai $5$ taisnēm var būt $11$ dažādi krustpunkti?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt. Katra no $5$ taisnēm var krustoties augstākais ar $4$ taisnēm. Katrs no krustpunktiem tiek ieskaitīts $2$ reizes. Tātad kopīgais krustpunktu skaits nevar pārsniegt $\dfrac{5\cdot4}{2}=10$.
 
@@ -227,7 +227,7 @@ Vai vienādība $[x]+[x]=[2x]$ ir identitāte?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, šī vienādība nav identitāte. Piemēram, izvēlēsimies $x=1\frac{3}{4}$. Tad $[x]+[x]=1+1=2$, bet $[2x]=[3\frac{1}{2}]=3$.
 
@@ -243,7 +243,7 @@ Sadalīt skaitli $1989$ divos veselos pozitīvos saskaitāmajos, kas tieši prop
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalīsim skaitli $1989$ pirmreizinātājos: $1989=3^2\cdot13\cdot17$. No vienādībām $13=2^2+3^2$ un $17=1^2+4^2$ iegūstam prasītos sadalījumus:
 $$1989=9\cdot17\cdot(4+9)=612+1377 \text{ un } 1989=9\cdot13\cdot(1+16)=117+1872.$$
@@ -260,7 +260,7 @@ Dota kvadrātveida tabula $3\times 3$ rūtiņas. Vai var rūtiņās ierakstīt p
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. No dotajiem skaitļiem tikai $4$ skaitļi ir pāra skaitļi; tie ir $2$, $4$, $6$, $8$. Lai reizinājums dalītos ar $4$, katrā rindiņā un katrā kolonnā jāatrodas vismaz vienam pāra skaitlim. Tātad katrā rindiņā atrodas tikai viens pāra skaitlis. Ja tas ir $2$, tad skaitļu reizinājums nedalās ar $4$.
 
@@ -282,7 +282,7 @@ Ierakstīt katrā no tām veselu skaitli, kas nav $0$, tā, lai gan vienā, gan 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, piemēram, tā, kā parādīts $8$. zīmējumā.
 
@@ -309,7 +309,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atņemot no otrā vienādojuma pirmo, iegūstam $x=y+1$. Ievietojot šo vienādību pirmajā vienādojumā, iegūstam $x=-1987$, $y=-1988$.
 
@@ -325,7 +325,7 @@ Sadalīt skaitļus no $1$ līdz $15$ sešās grupās tā, lai visās grupās ska
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, piemēram, šādi:
 $$\{1,2,4,10\},\{5,15\},\{6,14\},\{7,13\},\{8,12\},\{9,11\}.$$
@@ -347,7 +347,7 @@ $3$. zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $9$. zīm.
 
@@ -369,7 +369,7 @@ Daļas $\frac{a}{b}$ skaitītājs un saucējs ir veseli pozitīvi skaitļi. Pies
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Daļa pirms pieskaitīšanas ir vienāda ar $1-\frac{b-a}{b}$, bet pēc pirmās pieskaitīšanas ar $1-\frac{b-a}{b+1}$. No dotā seko, ka $a<b$.
 
@@ -389,7 +389,7 @@ Vai to var izdarīt?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Piemērs parādīts 10. zīmējumā.
 
@@ -409,7 +409,7 @@ Dota kvadrātveida tabula ar izmēriem $5\cdot 5$ rūtiņas. Atzīmēt tajā $5$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemērs parādīts 11. zīmējumā.
 
@@ -431,7 +431,7 @@ Cik ir dažādu taisnleņķu trijstūru, kam katra mala vienāda ar vienu no ši
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Pitagora teorēmas seko, ka jāatrod starp skaitļiem $1$, $2$, $3$, $4$, $5$, $6$, $7$ tik daudz trijnieku, ka divu skaitļu summa ir vienāda ar trešo. Tādu trijnieku kopskaits ir $12$.
 
@@ -451,7 +451,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. No pirmajiem diviem nosacījumiem seko, ka pirmās progresijas diference ir lielāka par otrās progresijas diferenci; bet tad no nevienādības $a_{100}>b_{100}$ sekotu nevienādība $a_{200}>b_{200}$, kas ir pretrunā ar uzdevuma nosacījumiem.
 
@@ -467,7 +467,7 @@ Dots naturāls skaitlis $n>5$. Pierādīt, ka $n$ var izsacīt kā pirmskaitļa 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n$ ir pāra skaitlis, izteiksim $n$ formā
 
@@ -497,7 +497,7 @@ Dots, ka $x+y+z\geq xyz$. Pierādīt, ka $x^2+y^2+z^2\geq xyz$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja neviens no skaitļiem $x$, $y$, $z$ pēc absolūtās vērtības nav mazāks par $1$, tad
 
@@ -523,7 +523,7 @@ Vai kvadrātveida tabulā ar izmēriem $4\cdot 4$ rūtiņas var ierakstīt natur
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar, jo tikai vienā rindiņā skaitļu reizinājums var dalīties ar $13$ (tajā, kurā ierakstīts skaitlis $13$),
 
@@ -539,7 +539,7 @@ Atrast skaitļa $\sin 1989$ zīmi. Dots, ka $\pi = 3{,}14159265$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $3{,}1415<\pi<3{,}1416$. Tā kā
 
@@ -573,7 +573,7 @@ Vai plakne var šķelt piecas trijstūra piramīdas šķautnes to iekšējos pun
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Pretējā gadījumā šķēlumā izveidotos piecstūris (jo daudzstūrim būtu $5$ virsotnes – plaknes krustpunkti ar piramīdas šķautnēm). Taču šķēluma daudzstūrim var būt augstākais $4$ malas, jo trijstūra piramīdai ir tikai $4$ skaldnes (katra no tām šķeļoties ar plakni var dot tikai vienu šķēluma daudzstūra malu).
 
@@ -589,7 +589,7 @@ Trijstūrī $ABC$ novilkta mediāna $BM$. Vai var gadīties, ka trijstūrī $ABM
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Aplūkosim $12.$ zīmējumu
 
@@ -627,7 +627,7 @@ Pierādīt, ka $a^2+3b^2+5c^2 \le 1$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot iegūstam:
 
@@ -651,7 +651,7 @@ Trijstūrī $ABC$ mediānu garumu summa vienāda ar augstumu garumu summu. Pier�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mediāna ir garāka vai vienāda par augstumu, kas vilkts no tās pašas virsotnes; pie kam vienādība izpildās tikai tad, kad malas, kas iziet no atbilstošās virsotnes, ir vienādas. Tātad
 
@@ -679,7 +679,7 @@ Atrast kaut vienu otrās pakāpes polinomu $P(x)$, lai vienādība $(P'(x))^2=P(
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, tāds ir polinoms $P(x)=\frac{1}{4}x^2$.
 
@@ -697,7 +697,7 @@ Vai no regulāra $13$-stūra virsotnēm var izvēlēties $4$ virsotnes tā, lai 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Ņemam pēc kārtas $1$., $2$.,$4$.,$10$. virsotnes. Skat. $14$. zīm.
 
@@ -717,7 +717,7 @@ Dots, ka $n$ dalās ar $6$, $n$ – naturāls skaitlis. Pierādīt, ka $n$ var s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n=6k$, ņemam saskaitāmos $2k-1$, $2k$, $2k+1$.
 
@@ -737,7 +737,7 @@ Pierādīt, ka $x=y$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā gan funkcija $\sin t$, gan funkcija $\operatorname{tg} t$ aplūkojamā intervālā ir augošas, tad arī funkcija $f(t)=\sin t+\operatorname{tg}^3 t$ ir augoša.
 
@@ -761,7 +761,7 @@ Vai trijstūri $ABC$, $BCD$, $CDA$, $DAB$ visi var būt vienādi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, ja, piemēram, $ABCD$ ir kvadrāts. Visi aplūkojamie trijstūri šajā gadījumā ir vienādi vienādsānu taisnleņķa trijstūri.
 
@@ -779,7 +779,7 @@ Kādas veselas vērtības var pieņemt izteiksme $\sin x+\sin 2x$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x=0$, tad $\sin x+\sin 2x=0$. Tā kā $\sin \frac{\pi}{6}+\sin \frac{2\pi}{6}=\frac{1}{2}+\frac{\sqrt{3}}{2}>1$, tad, izmantojot funkcijas $\sin x+\sin 2x$ nepārtrauktību, secinām, ka intervālā $\left[0;\frac{\pi}{6}\right]$ atradīsies tāds skaitlis $a$, kuram izpildās vienādība
 
@@ -811,7 +811,7 @@ Zināms, ka divu dotu racionālu skaitļu summa un reizinājums ir veseli skait�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim dotos skaitļus ar $x$ un $y$. Tad
 
@@ -845,7 +845,7 @@ Plauktā atrodas $6$ sējumu kopotie raksti. Sākumā sējumi atrodas pareizā k
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jānis to var izdarīt. Pierādīsim to ar indukciju.
 
@@ -873,6 +873,6 @@ Kuba šķautnes garums ir $1$. To projicē plaknē $Q$ un atrod projekcijas lauk
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kuba projekciju plaknē $Q$ veido triju tā skaldņu projekcijas (paralelogramu) ar kopīgu virsotni; šīs projekcijas nepārklājas. Savukārt kuba projekciju uz taisni $t$ veido šīm $3$ skaldnēm perpendikulāro šķautņu projekcijas, kas saliktas cita citai galā. Atliek ievērot, ka skaldne ar $Q$ veido tādu pašu leņķi, kā tai perpendikulārā šķautne ar $t$, un atcerēties formulas $S_{proj}=S\cdot\cos\alpha,\quad a_{proj}=a\cdot\cos\alpha$.

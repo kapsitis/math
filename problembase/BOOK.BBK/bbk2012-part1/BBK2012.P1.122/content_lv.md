@@ -4,7 +4,7 @@ Cik daudz ir tādu naturālu skaitļu $n \leq 1983$, kuriem $3n+5$ dalās ar $7$
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $(3x+5)+7 = 3(x+4)$, tad skaitlis $3x+5$ dalās ar $7$ tad un tikai tad, kad ar $7$ dalās 
 skaitlis $x+4$. Mums ir jānoskaidro cik intervālā $[1,1983]$ ir skaitlu $x$, kuriem $x+4$ 

@@ -6,7 +6,7 @@ lielākais kopīgais dalītājs.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katra šāda skaitļa ciparu summa ir $45$. 
 Tātad visi šie skaitļi dalās ar $9$. Tā kā $123456798 - 123456789=9$, 

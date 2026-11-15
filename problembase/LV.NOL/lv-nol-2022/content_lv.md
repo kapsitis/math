@@ -17,7 +17,7 @@ sadalīts ne vairāk kā $3$ daļās?
 </small>
  
  
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $10$ virtuļi jāsadala $12$ vienādās daļās, tad katram bērnam
 būs $\frac{10}{12}$ no visiem virtuļiem. Pārveidojot
@@ -49,7 +49,7 @@ trīs citi cipari?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, piemēram, $3 ; 1 ; 2 ; 1 ; 3 ; 2$.
 
@@ -77,7 +77,7 @@ pretējās virsotnes.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\frac{333}{555}=\frac{3}{5}$ un $\frac{3}{5}$ ir nesaīsināma
 daļa, tad novilktā diagonāle sastāv no $111$ taisnstūru
@@ -108,7 +108,7 @@ $x$ un $y$, ja zināms, ka skaitlis $4x7yx3y31x$ dalās ar $45$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $45=5 \cdot 9$ un tie ir savstarpēji pirmskaitļi, tad dotajam
 skaitlim ir jādalās gan ar $5$, gan ar $9$. Lai skaitlis dalītos ar
@@ -152,7 +152,7 @@ klases biedri nav atsūtīujši vienādu skaitu jauno ziņu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais nav iespējams. Ja katrs no $10$ klases biedriem būtu
 atsūtijis dažādu skaitu jauno ziņu, tad pavisam kopā Dagnis būtu saņēmis vismaz
@@ -183,7 +183,7 @@ $$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 levērojam, ka $\frac{2}{5}=\frac{20}{50}$ un $\frac{1}{20}=\frac{25}{50}$. Tātad
 jāatrod tādi naturāli skaitļi $a, b, c, d$, lai
@@ -218,7 +218,7 @@ citi cipari?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, piemēram, $2, 3, 4, 2, 1, 3, 1, 4$.
 
@@ -247,7 +247,7 @@ $Piezīme.$ Taisnstūra diagonāle ir nogrieznis, kas savieno taisnstūra pretē
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\frac{444}{777}=\frac{4}{7}$ un $\frac{4}{7}$ ir nesaīsināma daļa, tad novilktā
 diagonāle sastāv no $111$ taisnstūru $4 \times 7$ diagonālēm. Taisnstūra, kura izmēri
@@ -277,7 +277,7 @@ procentu atlaidi piešķīra, ja zināms, ka tā nepārsniedz $50 \%$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visus veikalā esošos auzu pārslu batoniņus pārdeva par $3193$ centiem. Sadalot
 šo skaitli reizinātājos, iegūstam $3193=31 \cdot 103$, kur skaitļi $31$ un $103$
@@ -317,7 +317,7 @@ noskaidrot, kurā paraugā ir vīruss?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajā pārbaudē laborantam vienā traukā jāsajauc nedaudz siekalu no $32$ mēģenēm.
 Ja reaģents uzrāda, ka šajā traukā ir vīruss, tad vīruss ir kādā no $32$ mēģenēm,
@@ -353,7 +353,7 @@ Aprēķināt laukumu četrstūrim, kuru ierobežo taisnes
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Koordinātu plaknē uzzīmējam dotās taisnes un iekrāsojam četrstūri $ABCD$, ko tās ierobežo
 (skat. 4.att.). levērojam, ka četrstūra $ABCD$ laukumu var izteikt kā taisnstūra
@@ -385,7 +385,7 @@ Vai visi naturāli skaitļi, kuru ciparu summa dalās ar $27$ , arī paši dalā
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, piemēram, skaitļa $9981$ ciparu summa ir $27$, tātad tā dalās ar $27$, bet pats
 skaitlis ar $27$ nedalās, jo $9981: 27=369$, $atl.$ $18$ .
@@ -410,7 +410,7 @@ $MA+MB+MC > \frac{1}{2} P_{ABC}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot trijstūra nevienādību katrā trijstūrī (skat. 5.att.), iegūstam:
 
@@ -453,7 +453,7 @@ var nokļūt jebkurā citā stāvā bez pārkāpšanas citā liftā?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, piemēram, liftu apstāšanās var būt tāda kā 6.att., kur ar " $x$ "
 atzīmēti stāvi, kuros lifts apstājas.
@@ -483,7 +483,7 @@ pavisam tika izspēlētas? Kas uzvarēja un kas zaudēja septītajā spēlē?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No katrām divām pēc kārtas ņemtām spēlēm Gustavs vismaz vienā piedalījās.
 Tāpēc spēļu skaits nepārsniedz $2 \cdot 7+1=15$ un var būt tikai tad,
@@ -514,7 +514,7 @@ lielāks?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielāks ir reizinājums $2^{56} \cdot 7^{14}$. Pārveidojam abus reizinājumus,
 izmantojot pakāpju īpašības:
@@ -548,7 +548,7 @@ Vai no taisnstūra ar izmēriem $6 \times 12$ rūtiņas var izgriezt astoņas
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, piemēram, skat. 8.att.
 
@@ -574,7 +574,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādīt, ka $3AC>AB$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūra virsotnes leņķis nevar būt $20^{\circ}$, jo tad leņķi pie pamata
 būtu $\left(180^{\circ}-20^{\circ}\right): 2=80^{\circ}$ un trijstūris
@@ -604,7 +604,7 @@ Vai piecu secīgu veselu skaitļu summa var būt **a)** $2022$, **b)** $2025$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Nē, nevar būt. Apzīmējam piecus secīgos skaitļus ar
 $n-2 ; n-1 ; n ; n+1 ; n+2$. Šo skaitlu summa ir
@@ -639,7 +639,7 @@ vienmēr var uzvarēt!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aprakstīsim, kā jārīkojas otrajam spēlētājam. Otrais spēlētājs domās sadala
 skaitļus pa pāriem:
@@ -672,7 +672,7 @@ vismaz viena vesela sakne?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka dotajam vienādojumam ir vesela sakne tikai tad, ja $m$
 ir vesels skaitlis. Izmantojot formulu $D=b^{2}-4ac$, iegūstam, ka
@@ -714,7 +714,7 @@ laukums ir $60$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, piemēram, skat. 1.att., kur sešstūra perimetrs $P=2+21+4+3+6+24=60$
 un laukums $S=2 \cdot 24+3 \cdot 4=60$.
@@ -742,7 +742,7 @@ krustojas punktā $A$. Aprēķināt $\sphericalangle RAO$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\sphericalangle AOP=x$ (skat. 2.att.), tad arī
 $\sphericalangle AOR=x$, jo $AO$ ir leņķa $POR$ bisektrise.
@@ -777,7 +777,7 @@ dalās ar $12^{4}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitli $12^{4}$ varam izteikt kā $12^{4}=(4 \cdot 3)^{4}=2^{8} \cdot 3^{4}$.
 Tātad jāpierāda, ka jebkuru $11$ pēc kārtas sekojošu naturālu skaitļu
@@ -816,7 +816,7 @@ rūtiņās, kurām ir kopīga mala, ierakstīto skaitļu starpība nepārsniedz
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Pamatosim, ka prasītais nav iespējams.
 
@@ -849,7 +849,7 @@ taisnei, kas iet caur punktu $C$ paralēli taisnei $AB$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Taisnes $AB$ vienādojums ir formā $y=kx+b$. levietojot šajā
 vienādojumā punktu $A$ un $B$ koordinātas, iegūstam vienādojumu
@@ -868,7 +868,7 @@ koordinātas, iegūstam, ka $b=2+21 \cdot 10=212$. Tātad vienādojums
 taisnei, kas iet caur punktu $C$ paralēli taisnei $AB$, ir $y=-21x+212$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Uzrakstām taisnes $AB$ vienādojumu caur diviem tās punktiem:
 $\frac{x-21}{20-21}=\frac{y-1}{22-1}$. legūstam
@@ -896,7 +896,7 @@ Atrisināt reālos skaitļos vienādojumu $x^{3}-4 x^{2}+8=0$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzminam, ka $x=2$ ir dotā vienādojuma sakne, jo $8-16+8=0$. Izdalot
 polinomus (skat. 5.att.), iegūstam $(x-2)\left(x^{2}-2x-4\right)=0$.
@@ -934,7 +934,7 @@ ir paralelograms.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā hordas $AX$ un $DY$ ir paralēlas (skat. 6.att.), tad riņka
 līnijas loki starp šīm hordām ir vienādi, tas ir,
@@ -970,7 +970,7 @@ $m$, ka izpildās $k^{2}=24m+1$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Vienādību $p^{2}=24n+1$ pārveidojam formā $n=\frac{p^{2}-1}{24}$.
 Pierādīsim, ka katram pirmskaitlim $p$, kas lielāks nekā $3$, skaitlis
@@ -1014,7 +1014,7 @@ skaits attiecīgajā izteiksmē?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $P$ - visu skaitļu summu, kuri ir ar " + " zīmi un ar $M-$ visu
 to pozitīvo skaitļu summu, pirms kuriem ir "-" zīme. Tad iegūtās izteiksmes
@@ -1066,7 +1066,7 @@ $\overrightarrow{PA}+\overrightarrow{PC}=\overrightarrow{PB}+\overrightarrow{PD}
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām patvaļīgu punktu $P$ (skat. 7.att.). Pierādāmā vienādība ir
 ekvivalenta ar vienādību
@@ -1092,7 +1092,7 @@ Atrisināt reālos skaitļos vienādojumu $x^{4}-4=3\left(x^{3}+x^{2}+x\right)$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ekvivalenti pārveidojam doto vienādojumu $x^{4}-3x^{3}-3x^{2}-3x-4=0$.
 
@@ -1142,7 +1142,7 @@ punktā $E$. Pierādīt, ka $S_{ABE} \cdot S_{ABCD}=S_{ABC}^{2}$ !
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pamatosim, ka $S_{AED}=S_{BEC}$ (skat. 9.att.). Tā kā trapeces pamati
 ir paralēli, tad $S_{ACD}=S_{BCD}$, jo trijstūriem ir kopīga mala $CD$ un
@@ -1180,7 +1180,7 @@ $x^{5}+y^{5}$ dalās ar $25$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām izteiksmi $(x+y)^{5}$ un to ekvivalenti pārveidojam:
 
@@ -1211,7 +1211,7 @@ par $11$ .
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms parādīsim, ka prasītajā veidā ir iespējams sakārtot skaitļus no $1$
 līdz $17$:
@@ -1249,7 +1249,7 @@ tests ir ieskaitīts. Kāda ir varbūtība, ka tests tiks ieskaitīts, atbildes 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzzīmējam koka diagrammu, kas ilustrē testa izpildi (skat. 10.att.).
 
@@ -1261,7 +1261,7 @@ varianti. Tātad varbūtība, ka tests tiks ieskaitīts, atbildes minot, ir
 $\frac{5}{16}$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Lai vienkāršotu situāciju, atmetam nosacījumu, ka pie divām nepareizām atbildēm
 tests tiek pārtraukts. Šādā gadījumā (tā kā ir divas nepareizas atbildes) tests
@@ -1287,7 +1287,7 @@ Atrisināt reālos skaitļos vienādojumu $4x^{4}-11x^{2}+9x-2=0$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzminam, ka $x=1$ ir dotā vienādojuma sakne, jo $4-11+9-2=0$. Izdalot polinomus
 (skat. 11.att.), iegūstam $(x-1)\left(4x^{3}+4x^{2}-7x+2\right)=0$.
@@ -1307,7 +1307,7 @@ Katru reizinātāju pielīdzinot nullei, iegūstam, ka dotā vienādojuma saknes
 $x_{1}=1, x_{2}=-2, x_{3}=x_{4}=\frac{1}{2}$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Uzminam, ka $x=1$ ir vienādojuma sakne, jo $4-11+9-2=0$, un ka $x=-2$ ir sakne,
 jo $4 \cdot 16-44-18-2=0$. Tātad vienādojuma kreisā puse dalās ar
@@ -1333,7 +1333,7 @@ krustpunkts atrodas uz trijstūrim $ADE$ apvilktās riņķa līnijas.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Bisektrišu krustpunktu apzīmējam ar $F$ (skat. 14.att.). Apzīmējam
 $\sphericalangle BAC=\sphericalangle ACB=\alpha$ un
@@ -1368,7 +1368,7 @@ Pierādīt, ka $p^{4}-1$ dalās ar $240$ katram pirmskaitlim $p \geq 7$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 levērojam, ka $240=3 \cdot 5 \cdot 16$. Pārveidojam doto izteiksmi:
 
@@ -1442,7 +1442,7 @@ izdarīt gājienu. Kurš spēlētājs - Karlsons vai Brālītis - vienmēr var u
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Karlsons vienmēr var uzvarēt. Lai to izdarītu, viņam savā otrajā gājienā jāapēd
 divas konfektes, trešajā - trīs, ceturtajā - četras, ..., devītajā - deviņas

@@ -7,7 +7,7 @@ Pietiek uzrādīt vienu šādu $1328$ skaitļu komplektu.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlēsimies skaitļus, kas dalās ar $2$ vai $3$. Šādu skaitļu ir
 

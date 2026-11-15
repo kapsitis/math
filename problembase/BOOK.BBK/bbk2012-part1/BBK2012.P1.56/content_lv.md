@@ -7,7 +7,7 @@ b. $n-1$ dalās ar katru no skaitļiem $2,3,4,5,6,7,8,9,10$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja skaitlis $n-1$ dalās ar katru no skaitliem $2,3,4,5,6,7,8,9,10$, tad skaitlis $n$ nedalās 
 ne ar vienu no šiem skaiţliem. Skaitli $n-1$ var izvēlēties kā norādīto skaiţu mazāko 

@@ -6,7 +6,7 @@ ka $a$ dalās ar $9$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības $S(a)=S(2a)$ seko, ka $a \equiv 2a \pmod 9$. 
 Tātad $a \equiv 0 \pmod 9$, jeb $9\mid{}a$.

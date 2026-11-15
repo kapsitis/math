@@ -9,7 +9,7 @@ skaitļu decimālie pieraksti. Vai var gadīties tā, ka
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)**  Jā, var; piemēram, $125, 368, 479$.
 

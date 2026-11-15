@@ -5,7 +5,7 @@ var būt pirmskaitlis?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Simetrisks astoņciparu skaitlis dalās ar 11 pēc dalāmības pazīmes, 
 un tas nevar būt pirmskaitlis.

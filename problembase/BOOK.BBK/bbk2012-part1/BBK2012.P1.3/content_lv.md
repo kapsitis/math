@@ -6,7 +6,7 @@ Pierādīt, ka Andris kļūdījās.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārbaudīt, ka sešu viens otram sekojošu naturālu skaitļu summa dalās ar $3$, 
 bet skaitlis, kurā katrs cipars no $2$ līdz $9$ sastopams vienu reizi, 

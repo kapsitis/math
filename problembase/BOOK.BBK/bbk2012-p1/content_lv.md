@@ -180,7 +180,7 @@ $19941995199620$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, neeksistē. Trīs sekojošu naturālu skaitļu reizinājums dalās ar $3$, 
 bet dotais skaitlis ar $3$ nedalās, jo tā ciparu summa nedalās ar $3$.
@@ -198,7 +198,7 @@ Vai $6$ pēc kārtas ņemtu naturālu skaitļu reizinājums var būt $1111140960
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Sešu pēc kārtas ņemtu naturālu skaitļu reizinājums dalās ar $9$, 
 bet dotais skaitlis ar $9$ nedalās.
@@ -218,7 +218,7 @@ Pierādīt, ka Andris kļūdījās.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārbaudīt, ka sešu viens otram sekojošu naturālu skaitļu summa dalās ar $3$, 
 bet skaitlis, kurā katrs cipars no $2$ līdz $9$ sastopams vienu reizi, 
@@ -238,7 +238,7 @@ dalās ar $27$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka izpildās vienādība
 
@@ -260,7 +260,7 @@ Pierādīt, ka skaitlis $\underbrace{111\ldots{}1}_{\mbox{81 vieninieki}}$ dalā
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -284,7 +284,7 @@ uzrakstīti viens aiz otra. Pierādiet, ka uzrakstītais skaitlis nav divnieka n
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstītā skaitļa ciparu summa dalās ar $9$. 
 Tātad šis skaitlis dalās ar $9$, un tas nevar būt divnieka pakāpe.
@@ -305,7 +305,7 @@ lielākais kopīgais dalītājs.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katra šāda skaitļa ciparu summa ir $45$. 
 Tātad visi šie skaitļi dalās ar $9$. Tā kā $123456798 - 123456789=9$, 
@@ -330,7 +330,7 @@ No skaitļa 1985 atņēma tā ciparu summu, no rezultāta – tā ciparu summu, 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atņemot no skaitļa tā ciparu summu iegūstam skaitli, 
 kas dalās ar $9$. Ja skaitlis nav viencipara, tad tā ciparu summa 
@@ -356,7 +356,7 @@ Kas tas par ciparu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot dalāmības pazīmes ar $3$ un $9$, noskaidrojam, ka skaitļu 
 reizinājums dalās ar $9$, bet otrais reizinātājs nedalās ar $3$. 
@@ -383,7 +383,7 @@ Atrodiet, kāds cipars aizstāts ar zvaigznīti.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jāņa iegūtais reizinājums dalās ar $9$; 
 tātad arī tā ciparu summa dalās ar $9$.
@@ -405,7 +405,7 @@ lai iegūtais skaitlis dalītos ar $9$ un būtu maksimāli liels. Kuri cipari j�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā uzrakstītā skaitļa ciparu summa ir $15$, tad, lai atlikušais skaitlis 
 dalītos ar $9$ ir jāizsvītro cipari, kuru summa ir $6$. Protams, lai iegūtu 
@@ -432,7 +432,7 @@ skaitļu decimālie pieraksti. Vai var gadīties tā, ka
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)**  Jā, var; piemēram, $125, 368, 479$.
 
@@ -460,7 +460,7 @@ ciparu summu apzīmēsim ar $c$. Ar ko ir vienāds skaitlis $c$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $a \leq 9 \cdot 1973 = 17757$; 
 tātad $b<45$ un $c \leq 12$. 
@@ -482,7 +482,7 @@ kas satur visus ciparus (katru tieši vienu reizi).
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklējamais skaitlis ir $9$. Tiešām, ar 9 dalās visi skaitļi, 
 kas satur katru ciparu tieši vienu reizi, jo tā ciparu summa $45$ dalās ar $9$.
@@ -506,7 +506,7 @@ tad $n$ ir vai nu trīs, vai deviņi.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka aplūkota dalāmības pazīme ar skaitli $k$. 
 Izvēlēsimies $n$-ciparu skaitli $m$ intervālā 
@@ -534,7 +534,7 @@ ka $a$ dalās ar $9$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības $S(a)=S(2a)$ seko, ka $a \equiv 2a \pmod 9$. 
 Tātad $a \equiv 0 \pmod 9$, jeb $9\mid{}a$.
@@ -554,7 +554,7 @@ Pierādīt, ka $A$ dalās ar $9$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $3A=B$. 
 Tā kā $B$ dalās ar $3$, tad arī $B$ ciparu summa $S(B)$ 
@@ -581,7 +581,7 @@ Pierādīt, ka tam ir vismaz divi vienādi cipari.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja iegūtajam skaitlim visi cipari būtu dažādi, tad to summa būtu 
 $0+1+2+\cdots{}+9=45$; t.i., šis skaitlis dalītos ar $9$. 
@@ -602,7 +602,7 @@ var būt pirmskaitlis?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Simetrisks astoņciparu skaitlis dalās ar 11 pēc dalāmības pazīmes, 
 un tas nevar būt pirmskaitlis.
@@ -622,7 +622,7 @@ bet otrais ar trešo var būt pirmskaitlis?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt, jo šāds skaitlis dalās ar 11. Tiešām
 
@@ -647,7 +647,7 @@ nav pareiza.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis  $FFGG$  dalās ar $11$ (dalījums ir $F0G$), 
 bet neviens no kreisās puses reizinātājiem ar $11$ nedalās; tā ir pretruna.
@@ -666,7 +666,7 @@ ir ne mazāka kā $18$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $S_1$ dotā skaitļa ciparu summu, kas atrodas nepāra pozīcijās, 
 un ar $S_2$ dotā skaitļa ciparu summu, kas atrodas pāra pozīcijās. 
@@ -691,7 +691,7 @@ trīs ciparu summu, vai tādu, kuru numurs dalās ar $11$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vairāk ir tādu biļešu, kuru numuri dalās ar $11$. 
 Tiešām, katrai biļetei $\overline{a_1a_2a_3a_4a_5a_6}$, 
@@ -722,7 +722,7 @@ dalās ar $7$ ($11$ vai $13$).
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $1000^k \equiv (-1)^k \pmod {1001}$, tad 
 $$\overline{a_1a_2a_3\cdots{}a_{3m-2}a_{3m-1}a_{3m}} \equiv \overline{a_1a_2a_3} \cdot 10^{3m-3} + \cdots + \overline{a_{3m-2}a_{3m-1}a_{3m}} \equiv$$
@@ -749,7 +749,7 @@ Pamatojiet savu atbildi:
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)**  Nē, jo skaitlis dalās ar $5$.
 **(B)**  Nē, jo skaitlis dalās ar $13$.
@@ -772,7 +772,7 @@ ciparu un pēdējo trīs ciparu veidoto skaitļu starpība
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apgalvojums seko no vienādības
 $$\overline{abcdef} = 1000 \cdot \overline{abc} + \overline{def} =$$
@@ -844,7 +844,7 @@ Dots, ka $5 \mid a$ un $5 \mid b$. Pierādiet, ka
 $5 \mid (a^2 + 7b)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $5 \mid a$, tātad $5 \mid a^2$ (īpašība **D2**); 
 $5 \mid b$, tātad $5 \mid 7b$ (īpašība **D2**). 
@@ -858,7 +858,7 @@ Dots, ka $7 \mid a$. Pierādiet, ka $7 \mid (a^2 + 3a + 7b - 21)$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $7 \mid a$, tātad $7 \mid a^2$ un $7 \mid 3a$ (īpašība **D2**); 
 $7 \mid 7b$ un $7 \mid 21$. No īpašības **D3** seko, ka 
@@ -872,7 +872,7 @@ $7 \mid (a^2 + 3a ­+ 7b - 21)$.
 Dots, ka $n \mid a$ un $n \mid (5a + b)$. Pierādiet, ka $n \mid b$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $b = (5a + b) - 5a$. Tā kā $n \mid (5a + b)$ un $n \mid 5a$ 
 (jo $n \mid a$), tad $n$ ir šo skaitļu starpības dalītājs, t.i., $n \mid b$.
@@ -884,7 +884,7 @@ $b = (5a + b) - 5a$. Tā kā $n \mid (5a + b)$ un $n \mid 5a$
 Dots, ka $n \mid (a - b)$. Pierādiet, ka $n \mid (a^2 + a - b^2 - b)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izteiksmi $a­^­­­­­­2 + a - b2 - b$ var sadalīt reizinātājos 
 $(a - b)(a + b + 1)$. Tā kā $n \mid (a - b)$, 
@@ -897,7 +897,7 @@ tad no īpašības **D2** seko, ka $n \mid (a^­­­­­­­2 + a - b^2 - b)$.
 Dots, ka $n \mid 3a$ un $n \mid (12a + 5b)$. Pierādiet, ka $n \mid 10b$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No īpašības **D3** seko, ka $n \mid 5b = (12a +5b) - 4 \cdot 3a$. 
 Tātad $n$ dala arī $10b$ (īpašība **D2**).
@@ -908,7 +908,7 @@ Tātad $n$ dala arī $10b$ (īpašība **D2**).
 Dots, ka $5 \mid (a - b)$ un $7 \mid (a + b)$. Pierādiet, ka $35 \mid (a^2 - b^2)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No īpašības **D5** seko, ka $5 \cdot 7 = 35 \mid (a-b)(a+b) = a^2 - b^2$.
 
@@ -921,7 +921,7 @@ $b \mid c$, $c \mid a$. Pierādiet, ka
 $a = b = c$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No tā, ka $b \mid c$ un $c \mid a$ seko, ka $b \mid a$ (īpašība **D4**). 
 Tā kā $a \mid b$ un $b \mid a$, tad $a = b$ (īpašība **D6**). 
@@ -935,7 +935,7 @@ Dots, ka $3 \mid (a - 1)$ un $5 \mid (a+2)$. Pierādiet,
 ka $15 \mid (a^2 + a - 2)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apgalvojums seko no vienādības $a^2 + a - 2 = (a -1)(a + 2)$ un īpašības **D5**.
 
@@ -945,7 +945,7 @@ Apgalvojums seko no vienādības $a^2 + a - 2 = (a -1)(a + 2)$ un īpašības **
 Kuri no skaitļiem $101, 111, 141, 143, 155, 161, 163$ ir pirmskaitļi?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visi no dotajiem skaitļiem ir mazāki par $13^2 = 169$. 
 Tātad, lai noskaidrotu, vai dotie skaitļi ir pirmskaitļi, 
@@ -960,7 +960,7 @@ Pārbaudot redzam, ka pirmskaitļi ir skaitļi $101$, $141$, $163$.
 Atrodiet visus pirmskaitļus intervālā $[100, 120]$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sqrt{120} < 11$, tad pietiek pārbaudīt dalāmību ar 
 pirmskaitļiem, kas ir mazāki par $11$. Tie ir 2, 3, 5 un 7. 
@@ -979,7 +979,7 @@ Nepasvītrotie skaitļi $101$, $103$, $107$, $109$, $113$ ir pirmskaitļi.
 Atrodiet visus pirmskaitļus intervālā $[180, 200]$s.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotajā intervālā pirmskaitļi ir skaitļi  $181$, $191$, $193$, $197$ un $199$.
 Citi neder, jo $3 \mid 183$, $5 \mid 185$, $11 \mid 187$, 
@@ -990,7 +990,7 @@ $3 \mid 189$, $5 \mid 195$ (vai arī ir pāra skaitļi).
 Ar kādām naturālām $n$ vērtībām skaitlis $n^2 - 1$ ir pirmskaitlis?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zināms, ka $n^2 - 1 = (n - 1)(n + 1)$. 
 Tātad, ja $n - 1 > 1$, tad $n^2-1$ nav pirmskaitlis, jo $n-1$ 
@@ -1005,7 +1005,7 @@ Ja $n = 2$, tad $n^2 - 1 = 3$ ir pirmskaitlis.
 Dots, ka $5 \mid 12a$. Pierādiet, ka $5 \mid a$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No pirmskaitļu 2.īpašības seko, ka $5 \mid 12$ vai $5 \mid a$. 
 Tā kā $\operatorname{gcd}(5, 12) = 1$, tad $5 \mid a$.
@@ -1016,7 +1016,7 @@ Tā kā $\operatorname{gcd}(5, 12) = 1$, tad $5 \mid a$.
 Dots, ka $7 \mid a$ un $7 \mid (2a + 3b)$. Pierādiet, ka $7 \mid b$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No īpašības **D3** seko, ka $7 \mid (2a + 3b) - 2a = 3b$. 
 No pirmskaitļu 2 īpašības seko, ka $7 \mid b$.
@@ -1028,7 +1028,7 @@ No pirmskaitļu 2 īpašības seko, ka $7 \mid b$.
 Dots, ka $5 \mid 7b$ un $7 \mid 5a$. Pierādiet, ka $35 \mid ab$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No pirmskaitļu 2.īpašības seko, ka $5 \mid b$ un $7 \mid a$. 
 Tātad $35 \mid ab$ (īpašība **D5**).
@@ -1041,7 +1041,7 @@ Dots, ka $n \mid (5a + 3b)$ un $n \mid (3a + 2b)$.
 Pierādiet, ka $n \mid a$ un $n \mid b$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pareizinot $5a + 3b$ ar $2$ un $3a + 2b$ ar $3$ un atņemot 
 otro izteiksmi no pirmās, iegūsim: $2 (5a + 3b) - 3 (3a + 2b) = a$. 
@@ -1057,7 +1057,7 @@ Dots, ka $n \mid (3a + 7b)$ un $n \mid (2a + 5b)$.
 Pierādiet, ka $n \mid a$ un $n \mid b$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Seko no tā, ka $a = 5 (3a + 7b) - 7 (2a + 5b)$ un 
 $b = 3 (2a + 5b) - 2 (3a + 7b)$.
@@ -1071,7 +1071,7 @@ Dots, ka $5 \mid (3a + 4b)$ un $5 \mid (2a + 3b)$.
 Pierādiet, ka $25 \mid ab$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $5 \mid a$, jo $a = 3 (3a + 4b) - 4 (2a + 3b)$.   
 $5 \mid b$, jo $b = 3 (2a + 3b) - 2 (3a + 4b)$.  
@@ -1085,7 +1085,7 @@ Pierādiet, ka visiem naturāliem $n$ skaitlis
 $n^2 + n + 6$ dalās ar $2$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viens no skaitļiem $n$ vai $n + 1$ ir pāra skaitlis, 
 tāpēc $n^2+ n = n(n + 1)$ dalās ar $2$. Tātad $2 \mid (n^2+ n + 6)$.
@@ -1097,7 +1097,7 @@ tāpēc $n^2+ n = n(n + 1)$ dalās ar $2$. Tātad $2 \mid (n^2+ n + 6)$.
 Dots, ka $n \mid (a - b)$. Pierādiet, ka $n \mid (a^3 + a^2 - b^3 - b^2)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Seko no tā, ka $a^3 + a^2 - b^3 - b^2 = (a^3 - b^3) + (a^2 - b^2)$,   
 $(a^3 - b^3) + (a^2 - b^2) = (a - b)(a^2 + ab + b2) + (a - b)(a + b)$.  
@@ -1109,7 +1109,7 @@ Abi saskaitāmie dalās ar $a-b$, tātad arī ar $n$.
 Dots, ka $n \mid (a + 2b)$. Pierādiet, ka $n \mid (a^3 + 2a + 8b^3 + 4b)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Seko no tā, ka $a^3 + 2a + 8b^3 + 4b = (a^3 + 8b^3) + 2(a + 2b)$,  
 $(a^3 + 8b^3) + 2(a + 2b) = (a + 2b)(a^2 - 2ab + 4b^2) + 2(a + 2b)$.  
@@ -1124,7 +1124,7 @@ Un otrādi, ja zināms, ka daļa $(a - b)/(a + b)$ ir saīsināma,
 vai daļa $a/b$ noteikti ir saīsināma?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, ir saīsināma. Ja $n \mid a$ un $n \mid b$, tad $n \mid (a - b)$ un 
 $n \mid (a + b)$. Apgrieztais apgalvojums neizpildās, jo, 
@@ -1141,7 +1141,7 @@ Dots, ka $11 \mid (3x + 7y)$ un $11 \mid (2x + 5y)$. Pierādiet, ka
 $121 \mid (x^2 + y^2)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $11 \mid x$, jo $x = 5 (3x + 7y) - 7 (2x + 5y)$ un   
 $11 \mid y$, jo $y = 3 (2x + 5y) - 2 (3x + 7y)$.   
@@ -1155,7 +1155,7 @@ Doti tādi naturāli skaitļi $a,b$, ka $a \mid (a + b)$ un $b \mid (a + b)$.
 Pierādiet, ka $a = b$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $a \mid (a + b)$ seko, ka $a \mid b$. Līdzīgi iegūstam, ka $b \mid a$. 
 No īpašības **D6** seko, ka $a = b$.
@@ -1169,7 +1169,7 @@ Dots, ka $2 \mid (a - 1)$ un $3 \mid (a + 1)$.
 Pierādiet, ka $6 \mid (a^2 + 5)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dalāmības īpašībām seko, ka $6 \mid (a - 1)(a + 1) = a^2 - 1$. 
 Tātad $6 \mid (a^2 + 5)$, jo $a^2 + 5 = (a^2 - 1) + 6$.
@@ -1183,7 +1183,7 @@ Dots, ka $6 \mid (a - b)$ un $6 \mid (a + b)$.
 Pierādiet, ka $3 \mid (a^2 + 8b^2)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No tā, ka $6 \mid (a - b)$ seko, ka $6 \mid (a^2 - b^2) = (a - b)(a + b)$. 
 No īpašības **D1** seko, ka $6 \mid (a^2 - b^2 + 6b^2) = a^2 + 5b^2$. 
@@ -1196,7 +1196,7 @@ Tā kā $3 \mid 6$, tad arī $3 \mid (a^2 + 5b^2)$.
 Ar kādām naturālām $n$ vērtībām skaitlis $n^3-1$ ir pirmskaitlis?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zināms, ka $n^3 - 1 = (n - 1)(n^2 + n + 1)$. Tātad, ja $n-1 > 1$, 
 tad $n^3-1$ nav pirmskaitlis, jo $n-1$ ir tā dalītājs, pie kam 
@@ -1213,7 +1213,7 @@ tad $n^3 - 1 = 7$ ir pirmskaitlis.
 Ar kādām naturālām $n$ vērtībām skaitlis $n^2+5n+6$ ir pirmskaitlis? 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $n^2 + 5n + 6 = (n + 2)(n + 3)$ nav pirmskaitlis 
 nevienai n vērtībai, jo tas sadalās reizinātājos, kuri ir lielāki par $1$.
@@ -1229,7 +1229,7 @@ Ar kādām naturālām $a$ un $b$ vērtībām skaitlis
 $ab + a + b + 1$ ir pirmskaitlis?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izteiksmi $ab + a + b + 1$ sadalām reizinātājos $(a+1)(b+1)$. 
 Tātad šis skaitlis nav pirmskaitlis nekādām $a$ un $b$ vērtībām, 
@@ -1242,7 +1242,7 @@ jo abi reizinātāji ir lielāki par $1$.
 Dots, ka $4 \mid x$ un $3 \mid y$. Pierādiet, ka $12 \mid (xy + 8y + 9x)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $12 \mid xy$, jo $4 \mid x$ un $3 \mid y$ (īpašība **D5**); 
 $12 \mid 8y$, jo $4 \mid 8$ un $3 \mid y$; $12 \mid 9x$, 
@@ -1258,7 +1258,7 @@ Dots, ka $11 \mid (4a + b)$ un $11 \mid (a+4b)$. Pierādiet,
 ka $11 \mid a$ un $11 \mid b$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzdevuma nosacījumiem seko, ka skaitlis $4(a + 4b) - (4a +b) = 15b$ 
 dalās ar $11$. No pirmskaitļu 2. īpašības izriet, ka $11 \mid b$. 
@@ -1271,7 +1271,7 @@ Līdzīgi pierāda, ka $11 \mid a$.
 Dots, ka $7 \mid (3a + b)$ un $7 \mid (a + 3b)$. Pierādiet, ka $49 \mid ab$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $7 \mid (3(a + 3b) - (3a + b)) = 8b$. 
 Tātad, $7 \mid b$. Līdzīgi pierāda, ka $7 \mid a$. 
@@ -1285,7 +1285,7 @@ No īpašības **D5** seko, ka $49 \mid ab$.
 Dots, ka $7 \mid (2a + 3b)$. Pierādiet, ka $7 \mid (a + 5b)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $7 \mid 4(2a +3b) = 8a + 12b$. 
 Tātad arī skaitlis 
@@ -1299,7 +1299,7 @@ $a + 5b = 8a + 12b - 7(a + b)$ dalās ar $7$.
 Dots, ka $13 \mid (a + 4b)$. Pierādiet, ka $13 \mid (10a + b)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $13 \mid 10(a +4b) = 10a + 40b$. Tātad arī skaitlis 
 $10a + b = (10a + 40b) - 39b$ dalās ar $13$.
@@ -1313,7 +1313,7 @@ $10a + b = (10a + 40b) - 39b$ dalās ar $13$.
 Dots, ka $11 \mid (3a + 7b)$. Pierādiet, ka $11 \mid (4a + 2b)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $11 \mid 5(3a +7b) = 15a + 35b$. 
 Tātad arī skaitlis 
@@ -1328,7 +1328,7 @@ Pierādiet, ka skaitlis $4a + 5b$ dalās ar $17$ tad un tikai tad,
 kad skaitlis $7a - 3b$ dalās ar $17$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $17 \mid (4a +5b)$, tad arī skaitlis $6(4a +5b) = 24a + 30b$ dalās ar $17$. Tas nozīmē, ka skaitlis $7a - 4b = 24a + 30b - 17(a + 2b)$ dalās ar $17$.
 Līdzīgi pierāda apgriezto apgalvojumu.
@@ -1343,7 +1343,7 @@ Ar kādām naturālām $n$ un $m$ vērtībām skaitlis
 $(n-m)(n^2+m-1)$ ir pirmskaitlis?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nav tādu $n$ un $m$ vērtību. Vērtības $n<m$ dod negatīvu rezultātu un neder.
 Ja $n-m=0$, tad $0$ nav pirmskaitlis. 
@@ -1367,7 +1367,7 @@ Atrodiet vismaz vienu naturālu skaitli $n$,
 lai intervālā $[n, n + 10]$ nebūtu neviena pirmskaitļa.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzdevuma nosacījumus apmierina, piemēram, skaitlis 
 $n = 12! +2 = 479001602$. 
@@ -1400,7 +1400,7 @@ $$11 \cdot 12 \cdot 13 \cdot 14 \cdot 15 \cdot 16 \cdot 17 \cdot 18 \cdot 19 \cd
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šis reizinājums dalās ar $10$; tātad tā pēdējais cipars ir $0$.
 
@@ -1421,7 +1421,7 @@ reizinājums dalās ar $5$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atlikumi ir veseli nenegatīvi skaitļi. Ja četru atlikumu summa ir $3$, 
 tad vismaz viens no tiem ir $0$; atbilstošais skaitlis un līdz ar to 
@@ -1444,7 +1444,7 @@ skaitļu reizinājumu ar nākošo naturālo skaitli, atlikuma iegūst $2$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, tā notiek vienmēr, jo $(n-2) \cdot (n-1) = n^2 - 3n + 2 = (n-3) \cdot n + 2$. 
 
@@ -1462,7 +1462,7 @@ Pierādīt, ka $2^{1995} + 2^{1996} + 2^{1997} + 2^{1998}$ dalās ar $15$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības
 
@@ -1484,7 +1484,7 @@ Pierādīt, ka $ab$ nedalās ar $210$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka $a \cdot b$ dalās ar $210$.
 Ievērosim, ka $210 = 2 \cdot 3 \cdot 5 \cdot 7$. 
@@ -1516,7 +1516,7 @@ Pamatojiet savu atbildi.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. zīm.
 
@@ -1545,7 +1545,7 @@ $30$ gabali ar garumu $3$ cm katrs un $11$ gabali ar garumu $6$ cm katrs?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Visu daļu garumi dalās ar $3$, bet $50$ ar $3$ nedalās.
 
@@ -1564,7 +1564,7 @@ Nē. Visu daļu garumi dalās ar $3$, bet $50$ ar $3$ nedalās.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim piecu pēc kārtas ņemtu skaitļu summu:
 
@@ -1590,7 +1590,7 @@ Vai to var izdarīt?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar uzdevuma nosacījumiem katrā grupā skaitļu summai jādalās ar $9$; 
 tātad visu skaitļu summai arī jādalās ar $9$, 
@@ -1612,7 +1612,7 @@ Atrast lielāko iespējamo diferences vērtību, ja zināms, ka tā ir vesels sk
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aritmētiskās progresijas locekļu starpības ir tās diferences $d$ daudzkārtņi. 
 Tātad $113 - 41 = 72$ un $193 - 113 = 80$ dalās ar $d$. 
@@ -1640,7 +1640,7 @@ Pierādīt, ka $10a+b$ dalās ar $7$ tad un tikai tad, ja $a-2b$ dalās ar $7$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $10a+b$ dalās ar $7$, tad arī $(10a+b) - 7(a+b) = 3(a-2b)$ dalās ar $7$; 
 līdz ar to $a-2 b$ dalās ar $7$.
@@ -1661,7 +1661,7 @@ Pierādīt, ka gan $a$, gan $b$ dalās ar $7$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No tā, ka $3a+4b$ un $2a+3b$ dalās ar $7$, seko, ka
 $a+b = (3a+4b)-(2a+3b)$ dalās ar $7$. Līdzīgi iegūstam, ka
@@ -1684,7 +1684,7 @@ Dots, ka $a$ - naturāls skaitlis, $p$ - pirmskaitlis, pie tam $3 a+1$ un $a-8$ 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka arī skaitlis $(3 a+1)-3(a-8)=25$ dalās ar pirmskaitli $p$. Tātad $p=5$.
 
@@ -1706,7 +1706,7 @@ Vai $a+b$ var būt pirmskaitlis?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $34(a+b) = 34a+34b = 43b+34b = 77b$. Tas nozīmē, ka skaitlis $34(a+b)$ dalās ar $77$.
 
@@ -1729,7 +1729,7 @@ $a+b, \quad a+c, \quad b+c$ var būt pirmskaitļi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a=1, b=2, c=3$, tad veidojas divi pirmskaitļi $a+b=3$ un $b+c=5$. 
 
@@ -1752,7 +1752,7 @@ Noskaidrojiet
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, jo šis reizinājums satur gan skaitli $7$, gan $11$.
 
@@ -1774,7 +1774,7 @@ dalīties ar $101$. Tātad arī reizinājums nedalās ar $101$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ievērosim, ka $1996 = 499 \cdot 4$. No $499$ pēc kārtas ņemtiem naturāliem 
 skaitļiem viens dalās ar $499$; starp jebkuriem $4$ pēc kārtas n̦emtiem naturāliem 
@@ -1799,7 +1799,7 @@ $499$, un, tātad, nedalās arī ar $1996$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $S=(a+1)+(a+2)+\cdots+(a+n)=n a+\frac{n(n+1)}{2}$. Redzam, ka skaitlim 
 $n=1996 \cdot 2 = 3992$ prasītā īpašība izpildās.
@@ -1825,7 +1825,7 @@ Kāds lielākais pirmskaitlu daudzums var būt sastopams starp $12$ pēc kārtas
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $2$ līdz $13$ sastopami $6$ pirmskaitļi: $2, 3, 5, 7, 11, 13$.
 
@@ -1848,7 +1848,7 @@ Kādas var būt skaitļa $a$ vērtības?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $a \mid(2077-100)=1977$. Skaitļa $1977$ sadalījums 
 pirmreizinātājos ir šāds: $1977=3 \cdot 659$. Tātad $a \in\{1,3,659,1977\}$.
@@ -1866,7 +1866,7 @@ Dalot skaitli $1987$ ar $a$, atlikumā ieguva skaitli $9$. Kādas var būt skait
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzdevuma nosacījumiem seko, ka $1987=ak+9$, $a>9$. Tātad $a \mid(1987-9)=2 \cdot 23 \cdot 43$. 
 Skaitlis $a$ var būt jebkurš skaitļa $1978$ dalītājs, kurš lielāks par $9$.
@@ -1886,7 +1886,7 @@ Skaitli $1991$ dalot ar $a$, atlikumā iegūst $9$. Kāds var būt $a$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $1991 = ka+9$, tad $ka = 1982 = 2 \cdot 991$, kur abi reizinātāji ir pirmskaitļi. 
 Tātad $a \in\{1,2,991,1982\}$. Tā kā $a>9$, tad der tikai skaitļi $991$ un $1982$.
@@ -1904,7 +1904,7 @@ Vai dažādu pirmskaitļu apgriezto lielumu summa var būt vesels skaitlis?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt. Pien̦emsim pretējo, ka 
 $\frac{1}{p_{1}}+\frac{1}{p_{2}}+\cdots+\frac{1}{p_{n}}=m$, $m \in N$. 
@@ -1933,7 +1933,7 @@ dod atlikumā $13$. Kādu atlikumu dod $A$, dalot ar $14$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā skaiţ̦i $1981$ un $35$ dalās ar $7$, tad no pirmā nosacījuma 
 $A=1981 \cdot q+35$ seko, ka $7 \mid A$. Otrais nosacījums $A=1982 \cdot q+13$ 
@@ -1954,7 +1954,7 @@ dalītāji, kas mazāki par pašu skaitli).
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $12$ pēc kārtas ņemtiem skaitļiem var izvēlēties tādu skaitli $n$, kurš dalās ar $12$. 
 Tādā gadījumā $\frac{n}{2}, \frac{n}{3}, \frac{n}{4}$ ir skaiț̣a $n$ dalītāji, kuru summa 
@@ -1979,7 +1979,7 @@ piederētu vismaz vienai progresijai?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, tādas ǵeometriskas progresijas neeksistē. Aplūkosim galīgu skaitu ģeometrisko progresiju
 
@@ -2013,7 +2013,7 @@ iegūst atlikumā atbilstoši $r, r+1, \ldots, r+m$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja $a$ ir meklētais skaitlis, tad $a+1$ dalās ar 2, 3, 4, 5, 6. Tātad $a+1=[2,3,4,5,6]=60$ un $a=59$.
 
@@ -2041,7 +2041,7 @@ bet pārējos sadalīja savā starpā piecās vienādās daļās.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pievienosim sākotnējai riekstu kaudzei $4$ viltus riekstus. Tad šo kaudzi pirmais jūrnieks 
 var sadalīt $5$ vienādās daļās. Šo procesu var atkārtot $6$ reizes. Tātad 
@@ -2063,7 +2063,7 @@ var vienlaikus dalîties ar $3$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jebkurš skaitlu daudzums no $0$ līdz $3$. Piemēri:
 
@@ -2087,7 +2087,7 @@ b. $n-1$ dalās ar katru no skaitļiem $2,3,4,5,6,7,8,9,10$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja skaitlis $n-1$ dalās ar katru no skaitliem $2,3,4,5,6,7,8,9,10$, tad skaitlis $n$ nedalās 
 ne ar vienu no šiem skaiţliem. Skaitli $n-1$ var izvēlēties kā norādīto skaiţu mazāko 
@@ -2114,7 +2114,7 @@ no kuriem nevienu nevar izsacìt kā divu (dažādu vai vienādu) divciparu skai
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Starp $10$ pēc kārtas ņemtiem trīsciparu skaițiem viens dalās ar $10$; tātad šis skaitlis 
 $\overline{ab0} = \overline{ab} \cdot 10$ ir divu divciparu skaitlu reizinājums.
@@ -2143,7 +2143,7 @@ $\overline{ab}$ ir divciparu skaitlis.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto vienādību var pārrakstīt šādi: $a+0.1b+0.01c = (10a+b):c$. Pareizinot vienādību ar 
 $100c$, iegūstam $100ac + 10bc + c^{2} = 1000a + 100b$; tātad $c$ dalās ar $10$, 
@@ -2167,7 +2167,7 @@ $\overline{bca}+\overline{cab}$ dalās ar $37$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -2197,7 +2197,7 @@ otrādā kārtībā, ir naturāla skaiţ̦a kvadrāts.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim meklējamo skaitli ar $\overline{ab}$. Tad
 
@@ -2225,7 +2225,7 @@ kuru iegūst mainot tā ciparus vietām, starpība ir kāda naturāla skaiţ̦a 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dots, ka $\overline{ab} - \overline{ba} = n^{2}$. 
 Tātad $n^{2}=\overline{ab}-\overline{ba} = 9 \cdot(a-b)$. 
@@ -2257,7 +2257,7 @@ $$x^{3}-y^{3}=z.$$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības $(x-y) \cdot\left(x^{2}+x y+y^{2}\right)=z$
 seko, ka $x-y=1$, jo $z$ ir pirmskaitlis. Tā kā $x$ un $y$ arī ir pirmskaitļi 
@@ -2283,7 +2283,7 @@ dalās ar $m$, skaitlis $cx + dy$ arī dalās ar $m$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstīsim sekojošu identitāti
 
@@ -2309,7 +2309,7 @@ Pierādiet, ka abi skaitlii $u$ un $v$ dalās ar $3$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dots, ka skaitlis $u^{2}+uv+v^{2} = (u-v)^{2} + 3uv$ dalās ar $9$. No šejienes seko, ka
 
@@ -2335,7 +2335,7 @@ skaitļu pāris $(x, y)$, kuram izpildās vienādība $\frac{1}{x}-\frac{1}{y}=\
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka $\frac{1}{x}-\frac{1}{y}=\frac{1}{n}$. Tad $x<n$ un $n \neq 1$. Apzīmēsim 
 $x=n-i$ ($0<i<n$). Ievietojot dotajā vienādībā, iegūsim vienādību
@@ -2369,7 +2369,7 @@ skaiţ̦a kubu. Atrast visus tādus skaiţlus, kuriem izpildās šāda īpašīb
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\overline{ab} - \overline{ba} = (10a+b) - (10b+a) = 9(a-b)$ dalās ar $9$, 
 tad iegūtais kvadrāts varēja būt $9$, $36$ vai $81$. No šejienes seko, ka $a-b=1, a-b=4$ vai $a-b=9$.
@@ -2392,7 +2392,7 @@ Pirmo $n$ naturālo skaitlu summa ir trīsciparu skaitlis, kuram visi cipari ir 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzdevuma nosacījumu pierakstīsim šādi:
 
@@ -2423,7 +2423,7 @@ Zināms, ka divu dotu racionālu skaitlu summa un reizinājums ir veseli skaitļ
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim dotos skaitlus ar $x$ un $y$. Tad
 
@@ -2468,7 +2468,7 @@ Naturālu skaitli sauc par interesantu, ja tā ciparu summa dalās ar $5$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Tāds, piemēram, ir skaitlis $5$.
 
@@ -2496,7 +2496,7 @@ Atrodiet divciparu skaitli, kurš ir vienāds ar otrā cipara kvadrāta un pirm�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim meklējamo skaitli ar $\overline{ab}$. Tad $10a+b = a+b^{2}$, jeb $9a=b^{2}-b$. 
 Tāpēc $b(b-1)$ dalās ar $9$. Tas ir iespējams tikai, ja cipars $b$ ir $9$.
@@ -2519,7 +2519,7 @@ kura pēdējie trīs cipari veido sākotnējo skaitli.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim meklējamo skaitli ar $N$. Tad $1000 \mid \left(N^{2}-N\right)$ un
 $8 \cdot 125 \mid (N-1) \cdot N$.
@@ -2556,7 +2556,7 @@ b. visiem naturāliem $m$ un $n$ starpība $a_m - a_n$ dalās ar $m-n$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $a_{1}=1, a_{2}=1$ vai $2$. Aplūkosim abus gadījumus:
 
@@ -2587,7 +2587,7 @@ kuriem $m+k^{2}$ ir pilns kvadrāts.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotajai $m$ vērtībai mums ir jānosaka, cik atrisinājumu ir vienādojumam $m+y^{2}=x^{2}$ 
 veselos nenegatīvos skaitlos $x,y$. Vienādojumu pārveidojam formā
@@ -2631,7 +2631,7 @@ grupas skaitlu reizinājums būtu vienāds ar visu otrās grupas skaitḷu reizi
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Bertrāna postulāta seko, ka skaitļu grupā no $1$ līdz $n$ eksistē pirmskaitlis $p$, 
 kurš lielāks par $\frac{n}{2}$. Visi šā pirmskaiṭ̦a daudzkārtņi ir lielāki par $n$. 
@@ -2656,7 +2656,7 @@ $$1! \cdot 3! \cdot 5! \cdot \cdots \cdot (2m-1)! = \left(\frac{m(m+1)}{2}\right
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nemsim pirmskaitli $p$, kuram izpildās nevienādības $(2 m-1)<p<2(2 m-1)$. Ja izpildītos 
 nevienādība $2(2 m-1) \leq \frac{m(m+1)}{2}$, tad $p$ būtu vienādības labās puses
@@ -2685,7 +2685,7 @@ ir kļūdījušies. Kuri no skolniekiem kḷūdījās?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļiem, ar kuriem dalāmību pārbaudīja skolnieki, kuri kļūdījās, izpildās šādas īpašības:
 
@@ -2720,7 +2720,7 @@ $\frac{a}{b}+\frac{b}{c}$, $\frac{b}{c}+\frac{c}{a}, \frac{c}{a}+\frac{a}{b}$ ir
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 *Atbilde:* $\left( \pm t, \pm t, \pm t \right)$, $t \in R$, $t \neq 0$.
 
@@ -2754,7 +2754,7 @@ Pierādīt, ka $p+q$ ir vismaz trīs naturālu skaitļu reizinājums, katrs no k
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $q-p=2k$, tad $p+q=2 \cdot(p+k)$. Ievērosim, ka
 
@@ -2836,7 +2836,7 @@ Vai $(n-1)!$ dalās ar $n$, ja
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, jo $16=2 \cdot 8$ un $15!$ satur abus šos reizinātājus.  
 **(B)** Nē, jo 41 ir pirmskaitlis, bet $40!$ nesatur pirmreizinātājus, lielākus par $40$.  
@@ -2859,7 +2859,7 @@ kuriem nav neviena pirmskaitļa.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim šādus $1000$ pēc kārtas ņemtus naturālus skaitļus:
 
@@ -2883,7 +2883,7 @@ skaițiem $1,2, \ldots, n$, ir pirmskaitlis.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka skaitlim $N$ eksistē dalītājs $d$, kurš ir atšķirīgs no $1$ un $N$. tad skaitlis 
 $d$ ir savstarpējs pirmskaitlis ar skaitļiem $1,2, \ldots, n$ un ir mazāks par $N$. 
@@ -2906,7 +2906,7 @@ ka skaitlis $(n-1)!+1$ dalās ar $q$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ņemsim jebkuru saliktu skaitli $n$ un jebkuru skaitļa $(n-1)!+1$ pirmreizinātāju $q$. 
 Skaidrs, ka $q>n-1$ un $q \neq n$, jo $n$ nav pirmskaitlis.
@@ -2928,7 +2928,7 @@ Kādiem naturāliem $n$ skaitlis $(n-1)!$ nedalās ar $n$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n$ ir pirmskaitlis, tad $(n-1)!$ acīmredzami nedalās ar $n$.
 
@@ -2961,7 +2961,7 @@ kad $(n-1)!$ nedalās ne ar $n$, ne ar $n+2$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atzīmēsim, ka skaiț̣a $(n-1)!$ visi pirmreizinātāji ir mazāki par $n$. 
 Ja skaitlis $(n-1)!$ dalās ar $n$ vai $n+2$, tad šis skaitlis ir salikts skaitlis. 
@@ -2983,7 +2983,7 @@ Pierādiet, ka visiem $n \geq 4$ izpildās nevienādība $(n-1)? > n$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka $(n-1)? = p_{1}p_{2} \cdots p_{n} \leq n$, un tātad $p_{1} p_{2} \cdots p_{n}-1<n$. 
 Aplūkosim skaitļa $p_{1} p_{2} \cdots p_{n}-1$ pirmreizinātāju $p$. 
@@ -3009,7 +3009,7 @@ $n$ izpildās nevienādība $p_{n}<2^{2^{n}}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apgalvojumu pierādīsim ar indukciju.
 
@@ -3044,7 +3044,7 @@ $x^{2}+x+1 = py$ eksistē atrisinājums veselos skaitļos.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka pirmskaitļu, kam izpildās dotā īpašība ir galīgs skaits, un apzīmēsim tos ar 
 $p_{1}, p_{2}, \ldots, p_{n}$. Ņemsim $x=p_{1} p_{2} \cdots p_{n}$ un skaitļa
@@ -3076,7 +3076,7 @@ Pierādiet, ka $\lim _{n \rightarrow \infty} \frac{q_{n}}{n}=0$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādījumā aplūko skaiţ̦u 
 $p_{1} p_{2} \cdots p_{n}-1$ un $p_{1} p_{2} \cdots p_{n}+1$ 
@@ -3101,7 +3101,7 @@ $2x^2 + 2x + 1 = py$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jāpierāda, ka polinoma $2x^{2}+2x+1$ vērtības, kur $x=1,2,3, \ldots, n, \ldots$, 
 dalās ar bezgalīgi daudziem pirmskaitļiem.
@@ -3137,7 +3137,7 @@ Izdalīt ar atlikumu:
 **(H)** $-18$ ar $3$,  
 **(I)** $-111$ ar $7$. 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $1996=11 \times 181+5$; $181$ ir nepilnais dalījums, $5$ ir atlikums.
 **(B)** $200=10 \times 20+0$;
@@ -3160,7 +3160,7 @@ Ar Eiklīda algoritmu aprēķināt:
 **(C)** $(56,39)$,  
 **(D)** $(312,138)$.
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)**
 
@@ -3201,7 +3201,7 @@ Izmantojot formulu $[a,b] = ab/(a,b)$, aprēķināt $[a,b]$:
 **(D)** $[200,150]$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $(30,18)=6$, $[30,18]=\frac{30 \cdot 18}{6}=90$.  
 **(B)** $(55,25)=5$, $[55,25]=\frac{55 \cdot 25}{5}=275$.  
@@ -3220,7 +3220,7 @@ Saīsināt daļas:
 **(D)** $3053/4343$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 *Atbilde:* **(A)** $13/8$; **(B)** $15/4$; **(C)** $34/29$; **(D)** $71/101$.
 
@@ -3235,7 +3235,7 @@ Ar Eiklīda algoritmu aprēķināt $d=(a,b)$, un izteikt skaitli $d$ formā $ua 
 **(D)** $(200,40)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)**
 
@@ -3272,7 +3272,7 @@ Dots, ka $a-b$ dalās ar $5$, un $a+b$ dalās ar $5$. Pierādiet, ka abi skaitļ
 $a$ un $b$ dalās ar $5$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $2a = (a-b)+(a+b)$ dalās ar $5$. Tā kā $(2,5)=1$, tad $a$ dalās ar $5$. 
 Līdzīgi pierāda, ka $b$ dalās ar $5$.
@@ -3286,7 +3286,7 @@ Dalot skaitli $a$ ar $13$, iegūstam nepilno dalījumu $17$.
 Noteikt skaiț̣a $a$ lielāko iespējamo vērtību.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $a=13 \times 17+\mathrm{r}$, $0 \leq r<13$. Tātad lielākā iespējamā $a$ 
 vērtība ir $a = 13 \times 17 + 12=233$.
@@ -3300,7 +3300,7 @@ Dalot skaitli $x$ ar $7$, iegūstam nepilno dalījumu $11$.
 Kādas vērtības var pien̦emt skaitlis $x$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $x=7 \times 11+\mathrm{r}$, $0 \leq r<7$. Tātad $x$ var pien̦emt vērtības $77, 78, 79, 80, 81, 82, 83$.
 
@@ -3313,7 +3313,7 @@ Skaitli $a$ dalot ar $12$, atlikumā iegūstam $7$. Kādu atlikumu iegūsim, ska
 $a$ dalot ar $6$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $a = 12q+7 = 6(2q+1) + 1$. Skaitli $a$ dalot ar $6$, atlikumā iegūsim $1$.
 
@@ -3326,7 +3326,7 @@ Skaitli $a$ dalot ar $18$, atlikumā iegūstam $12$. Kādu atlikumu iegūsim,
 skaitli $a$ dalot ar $3$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $a = 18q+12 = 3(6q+4)+0$. Skaitli $a$ dalot ar $3$, atlikumā iegūsim $0$.
 
@@ -3344,7 +3344,7 @@ Dots, ka $(a,b)=6$. Kādas vērtības var pien̦emt sekojošie skaitļi?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $(a, b+5 a)=(a, b+5 a-5 a)=(a, b)=6$;
 
@@ -3389,7 +3389,7 @@ Dots, ka $(x, y)=10$. Kādas vērtības var pien̦mt sekojošie skaitļi?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbildes: **(A)** 10 ; **(B)** 10 ; **(C)** $10 ; 20$; **(D)** 30; **(E)** $10;20;30;60$; **(F)** $10;20$; 
 **(G)** $20$; **(H)** $10;20;30;60$.
@@ -3402,7 +3402,7 @@ Atbildes: **(A)** 10 ; **(B)** 10 ; **(C)** $10 ; 20$; **(D)** 30; **(E)** $10;2
 Dots, ka $10 \mid (4a+3b)$ un $10 \mid (3a+5b)$. Pierādiet, ka $10 \mid a$ 
 un $10 \mid b$.
 
-## Atrisinājums
+## Atrisinājums-1
 
 $11a = 5(4a+3b) - 3(3a+5b)$ dalās ar $10$ (īpašība D3).
 Tā kā $(10,11)=1$, tad $10 \mid a$ (īpašība L5). 
@@ -3416,7 +3416,7 @@ $3(4a+3b) - 4(3a+5b) = -11b$ dalās ar $10$. Tātad arī $b$ dalās ar $10$.
 Pierādiet, ka trīs pēc kārtas n̦emtu naturālu skaițlu reizinājums dalās ar $6$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierāda, ka šis reizinājums dalās ar $2$ un ar $3$.
 
@@ -3430,7 +3430,7 @@ Pierāda, ka šis reizinājums dalās ar $2$ un ar $3$.
 Dots, ka $6 \mid(3a-8b)$ un $6 \mid (2a-3b)$. Pierādiet, ka $36 \mid \left(a^{2} + ab + b^{2}\right)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $2(3a-8b)-3(2a-3b)=-7b$ dalās ar $6$. Tātad $b$ dalās ar $6$. 
 Līdzīgi pierāda, ka $a$ dalās ar $6$. No īpašības D5 seko, ka skaitli $a^{2}$, $ab$ un $b^{2}$ 
@@ -3444,7 +3444,7 @@ dalās ar $36$. Tātad $\left( a^{2}+ab+b^{2} \right)$ dalās ar $36$.
 Pierādiet, ka skaitļi $\left(n^{3}-1\right)/(n-1)$ un $(n+1)^{2}$ ir savstarpēji pirmskaitļi. 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\left(\left(n^{3}-1\right) /(n-1),(n+1)^{2}\right)=\left(n^{2}+n+1, n^{2}+2 n+1\right)=$  
 $\left(n^{2}+n+1,\left(n^{2}+2 n+1\right)-\left(n^{2}+n+1\right)\right)=\left(n^{2}+n+1, n\right)=$  
@@ -3458,7 +3458,7 @@ $\left(n^{2}+n+1-(n+1) n, n\right)=(1, n)=1$.
 Dots, ka $2a+3b$ dalās ar $5$ un $2a+9b$ dalās ar $5$. Pierādiet, ka abi skaitļi $a$ un $b$ dalās ar $5$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $6b = (2a+9b)-(2a+3b)$ dalās ar $5$. Tā kā $(6,5)=1$, tad arī $b$ dalās ar $5$; 
 $2a=(2a+3b)-3b$ dalās ar $5$, un arī $a$ dalās ar $5$.
@@ -3471,7 +3471,7 @@ $2a=(2a+3b)-3b$ dalās ar $5$, un arī $a$ dalās ar $5$.
 Cik daudz ir trīsciparu skaitļu, kas dalās ar $13$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trīsciparu skaiţ̦i atrodas intervālā $[100; 999]$. Intervālā $[1; 999]$ atrodas 
 $[999 / 13] = 76$ skaitļi, kas dalās ar $13$. Intervālā $[1; 99]$ atrodas $[99 / 13] = 7$ skaitļi, 
@@ -3486,7 +3486,7 @@ kas dalās ar $13$. Tātad trīsciparu skaitḷu, kas dalās ar $13$, pavisam ir
 Cik daudz ir četrciparu skaițlu, kas dalās ar $7$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Četrciparu skaiţu, kas dalās ar $7$, pavisam ir $\lfloor 9999 / 7 \rfloor -  \lfloor 999 / 7 \rfloor = 1286$.
 
@@ -3499,7 +3499,7 @@ Cik daudz ir četrciparu skaițlu, kas dalās ar $7$?
 Pierādiet, ka skaitļi $n^{3} + 2n$ un $n^{2}+1$ ir savstarpēji pirmskaitļi visām $n$ vērtībām.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\left(n^{3}+2 n, n^{2}+1\right) = \left( n^{3}+2n-n \left(n^{2}+1 \right), n^{2}+1 \right) = \left(n, n^{2}+1\right)=$  
 $\left(n, n^{2}+1-n \cdot n\right)=(n, 1)=1$.
@@ -3513,7 +3513,7 @@ Dalāmais ir vienāds ar $371$, bet nepilnais dalījums ir $14$.
 Nosakiet iespējamās dalītāja vērtības un atbilstošos atlikumus.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $371 = x \times 14+r$, $0 \leq r<x$.
 $14 x<371$, tātad $x \leq[371 / 14]=26$.
@@ -3530,7 +3530,7 @@ $371=14 x+r<14 x+x=15 x$, tātad $x>371 / 15>24$.
 Dalot skaitli $100$ ar $b$, atlikumā ieguvām $6$. Kādas vērtības var pien̦emt skaitlis $b$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $100 = bq+6$, $b>6$. $bq=94=2 \times 47$. $b$ ir skaitlạa 94 dalītājs, kas lielāks par $6$. 
 Tātad $b=47$ vai $b=94$.
@@ -3543,7 +3543,7 @@ Tātad $b=47$ vai $b=94$.
 Dots, ka $(a,c)=1$ un $(b,c)=1$. Pierādiet, ka $(ab, c)=1$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦msim pretējo, ka $(ab,c)=d \neq 1$. Ar $p$ apzīmēsim kādu no skaitļa $d$ pirmreizinātājiem, 
 t.i. $p \mid c$ un $p \mid a b$. No pirmskaitḷu 2.īpašības seko, ka $p \mid a$ vai $p \mid b$. 
@@ -3562,7 +3562,7 @@ Dots, ka $(a,b)=1$. Kādas vērtības var pieņemt skaitlis
 $\left(a+b, a^{2}+b^{2}\right)$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka $p$ ir kopīgs skaitlu $a+b$ un $a^{2}+b^{2}$ nepāra pirmreizinātājs. 
 Tad $p \mid(a+b)^{2}-\left(a^{2}+b^{2}\right)=2ab$ un $p \mid a$ vai $p \mid b$. 
@@ -3583,7 +3583,7 @@ būt pāra skaitļi. Atliek divas iespējas:
 Pierādiet, ka četru pēc kārtas n̦emtu naturālu skaitļu reizinājums dalās ar $24$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierāda, ka četru pēc kārtas n̦emtu naturālu skaitlu reizinājums dalās ar $3$ un ar $8$.
 
@@ -3594,7 +3594,7 @@ Pierāda, ka četru pēc kārtas n̦emtu naturālu skaitlu reizinājums dalās a
 
 Dots, ka $5\,\mid\,(4a+7b)$ un $5\,\mid\,(3a+8b)$. Pierādiet, ka $250\,\mid\,ab(a+b)$.
 
-## Atrisinājums
+## Atrisinājums-1
 
 $5 \mid 3(4a+7b) - 4(3a+8b) = -11b$, tātad $5 \mid b$; līdzīgi pierāda, ka $5 \mid a$. 
 No tā seko, ka $5 \mid (a+b)$. Ja viens no skaițiem $a,b$ ir pāra skaitlis, tad $2 \mid ab$. 
@@ -3626,7 +3626,7 @@ ir $32$, bet to mazākais kopīgais dalāmais ir $1200$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt. Divu skaitlu mazākais kopīgais dalāmais dalās ar katru no dotajiem skaitļiem, 
 tātad dalās arī ar to lielāko kopīgo dalāmo; bet $1200$ nedalās ar $32$.
@@ -3646,7 +3646,7 @@ Pierādīt, ka skaiţu $19951995$ un $19952003$ lielākais kopīgais dalītājs 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $d$ doto skaitlu lielāko kopīgo dalītāju. Tad doto skaitļu starpība $8$ 
 dalās ar $d$; tas nozīmē, ka $d$ ir $1$, $2$, $4$ vai $8$. Tā kā $19951995$ ir nepāra skaitlis, 
@@ -3670,7 +3670,7 @@ ne ar kādu naturālu skaitli, kas lielāks par $1$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka $2n+5$ un $3 n+8$ dalās ar kādu naturālu skaitli $m$. Tad ar $m$ dalās 
 arī skaitlis $3 \cdot(2n+5) - 2 \cdot(3n+8)=1$. Tātad $m=1$.
@@ -3692,7 +3692,7 @@ un $7n+5$ ir savstarpēji pirmskaitļi.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x$ ir doto skaitlu kopīgais dalītājs, tad $x$ dala arī skaitli 
 $3(7n+5) - 7(3n+2)=1$. Tātad tas var būt tikai $1$.
@@ -3716,7 +3716,7 @@ Kāda var būt lielākā šīs progresijas diferences vērtība?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $d$ apzīmēsim dotās progresijas diferenci. Tad
 
@@ -3741,7 +3741,7 @@ $(n+2)$ dalās ar $4$, $(n+3)$ dalās ar $3$, $(n+4)$ dalās ar $2$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tāds skaitlis, piemēram, ir $54$.
 
@@ -3768,7 +3768,7 @@ lielākais kopīgais dalītājs būtu $1$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n=6k$, ņemam saskaitāmos $2k-1, 2k, \quad 2k+1$.
 
@@ -3797,7 +3797,7 @@ lielākais kopīgais dalītājs ir $1$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pāra skaitlus izsaka šādi:
 
@@ -3844,7 +3844,7 @@ u + v = 32 \\
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jebkuriem naturāliem skaitliem $x$ un $y$ izpildās īpašība
 
@@ -3894,7 +3894,7 @@ jo $123$ un $9$ abi dalās ar $3$.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ielikt $5$ semikolus, piemēram:
 
@@ -3923,7 +3923,7 @@ rezultātā iegūstam vienādus atlikumus. Atrodiet skaitli $N$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $r$ apzīmēsim atlikumu, ko iegūstam, dalot skaitli $N$ ar $3,4,7,9,11,13$. 
 Protams, $0 \leq r<3$, un tā kā $N$ ir nepāra skaitlis, tad $r=1$. 
@@ -3951,7 +3951,7 @@ $\left[ a_{1}, a_{2}, \ldots, a_{n} \right] \geq n a_{1}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $A$ skaiț̣u $a_{1}, a_{2}, \ldots, a_{n}$ mazāko kopīgo dalāmo. 
 Tādā gadījumā izpildās nevienādības
@@ -3977,7 +3977,7 @@ $(a,b)$ dalās ar $b$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $(a, b)=d$. Tad $a=rd$, $b=s d$, $(r, s)=1$. Skaitļus 
 $a, 2a, \ldots, ba$ dalot ar $b$, iegūstam skaitļus $\frac{r}{s}, \frac{2r}{s}, \ldots, \frac{(ds)r}{s}$. 
@@ -4000,7 +4000,7 @@ Doti veseli skaitļi $a$ un $b$. Pierādiet, ka skaitļu $a+b$ un $a^{2}+b^{2}$ 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot vienādību $2 a b=(a+b)^{2}-\left(a^{2}+b^{2}\right)$ pierāda, ka skaitļiem 
 $a+b$ un $a^{2}+b^{2}$ nav kopīgu dalītāju, kas ir lielāki par $2$.
@@ -4028,7 +4028,7 @@ Atrast skaitļu $a_{1989}$ un $a_{1990}$ lielāko kopīgo dalītāju.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atzīmēsim lielākā kopīgā dalītāja pamatīpašību:
 
@@ -4058,7 +4058,7 @@ ja to summa ir $1001$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\left(a_{1}, a_{2}, \ldots, a_{10}\right)$ ar $d$. Tad
 
@@ -4089,7 +4089,7 @@ lielākajam kopīgajam dalītājam?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $a_{1}+a_{2}+\cdots+a_{10}=1001$, tad 1001 dalās ar visu skaitļu 
 $a_{1}, a_{2}, \ldots, a_{10}$ kopīgo dalītāju. Tā kā $1001=7 \cdot 11 \cdot 13$, 
@@ -4122,7 +4122,7 @@ Kāda ir mazākā iespējamā šo skaitļu MKD vērtība?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 *Atbilde:* $98$.
 
@@ -4153,7 +4153,7 @@ lielākais kopīgais dalītājs būtu $1$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $1$ ir savstarpējs pirmskaitlis ar visiem naturāliem skaitļiem. 
 Aplūkosim naturālus skaitļus no $2$ līdz $360$. Ja tāds $n$ nav pirmskaitlis, 
@@ -4188,7 +4188,7 @@ ka tas ir savstarpējs pirmskaitlis ar katru no pārējiem.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** no skaițiem $n, n+1, n+2$ var izvēlēties skaitli $n+1$;
 
@@ -4218,7 +4218,7 @@ Pierādīt, ka $(a, b) \leq \sqrt{a+b}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $(a, b)=d$. No vienādības
 
@@ -4246,7 +4246,7 @@ Pierādīt, ka $\left(a a^{\prime}, a b^{\prime}, b a^{\prime}, b b^{\prime}\rig
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot LKD īpašības, iegūstam
 
@@ -4272,7 +4272,7 @@ Vai skaitlis $x$ noteikti ir racionāls, ja zināms, ka racionāli ir sekojoši 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** No dotā seko, ka racionāls ir skaitlis $x^{98}: x^{55}=x^{34}$. Līdzīgi iegūstam, ka 
 racionāli ir skaitļi $x^{55}:x^{34}=x^{21}$, x^{34}:x^{21}=x^{13}$, $x^{21}:x^{13}=x^{8}$, 
@@ -4300,7 +4300,7 @@ Pierādiet, ka $a+b$ ir naturāla skaiţ̦a kvadrāts.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidosim doto vienādību formā $a+b=\frac{a b}{c}$. Apzīmēsim $(a, b)=d$; tad $a=a_{1}d$, $b=b_{1}d$, 
 $\left(a_{1}, b_{1}\right)=1$. Iegūstam
@@ -4331,7 +4331,7 @@ Skaitļu $x, y, z$ lielākais kopīgais dalītājs ir $h$. Pierādīt, ka skait�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $x=ah$, $y=bh$, $z=ch$, $(a, b, c)=1$. 
 Doto vienādību pārveidojam formā $c(b-a)=ab$. Tad $hxyz = h^{4} c^{2}(b-a)$ 
@@ -4362,7 +4362,7 @@ kuriem skaitļi $ab$, $ac$ un $bc$ veido aritmētisko progresiju.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Nosacījumu, ka trīs skaiţ̦i $ab$, $bc$, $ac$ veido aritmētisko progresiju, pierakstīsim šādi:
@@ -4406,7 +4406,7 @@ vienāds ar skaiț̣a $n^{2}$ pozitīvo dalītāju skaitu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai pierādītu prasīto apgalvojumu, katram naturālu skaitlu pārim $(u ; v)$, kuram $[u, v]=1$, 
 viennozīmīgi piekārtosim skaitla $n^{2}$ naturālu dalītāju.
@@ -4446,7 +4446,7 @@ $1\,000\,000$ skaitļi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pierādīsim, ka divi viens otram sekojoši naturāli skaitli ir savstarpēji pirmskaitļi. 
 Tiešām $(n,(n+1))=(n,(n+1)-n)=(n, 1)=1$.
@@ -4484,7 +4484,7 @@ skaitļi kādreiz pārstās mainīties.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\operatorname{LKD}(x, y)=(x, y)=u$, bet $\operatorname{MKD}(x, y)=[x, y]=v$. 
 No vienādības $u \cdot v=x \cdot y$ seko, ka kopējais skaitļu reizinājums $R$ nemainās. 
@@ -4526,7 +4526,7 @@ ir bezgalīgi daudz locekļu, kas ir savstarpēji pirmskaitļi ar skaitli $m$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $A$ visu tādu skaitļa $m$ pirmreizinātāju reizinājumu, kuri ir arī skaitļa $a$ dalītāji.  
 Apzīmēsim ar $B$ visu tādu skaitļa $m$ pirmreizinātāju reizinājumu, kuri ir arī skaitļa $b$ dalītāji.  
@@ -4570,7 +4570,7 @@ skaiţ̦liem ir savstarpēji pirmskaitļi.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pien̦emsim pretējo, ka ir izdevies izvēlēties piecus skaitļus, kas ir 
 pa pāriem savstarpēji pirmskaiţ̦i; apzīmēsim tos ar $a_{1}, a_{2}, a_{3}, a_{4}, a_{5}$. 
@@ -4631,7 +4631,7 @@ lielāko kopīgo dalītāju.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar indukciju pierādīsim, ka $\operatorname{LKD}\left(x_{k-1}, x_{k}\right)=19$.
 Ja $k=3, \operatorname{tad} \operatorname{LKD}\left(x_{k-1}, x_{k}\right)=\operatorname{LKD}(95,114)=19$.
@@ -4685,7 +4685,7 @@ Cik daudz ir tādu naturālu skaitļu $n \leq 1983$, kuriem $3n+5$ dalās ar $7$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $(3x+5)+7 = 3(x+4)$, tad skaitlis $3x+5$ dalās ar $7$ tad un tikai tad, kad ar $7$ dalās 
 skaitlis $x+4$. Mums ir jānoskaidro cik intervālā $[1,1983]$ ir skaitlu $x$, kuriem $x+4$ 
@@ -4711,7 +4711,7 @@ Cik daudz ir tādu naturālu skaitļu $n \leq 1000$, kuri nedalās ne ar $5$, ne
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No izslēgšanas ieslēgšanas formulas seko, ka tādu skaitļu pavisam ir 
 $1000 - \left\lfloor \frac{1000}{5} \right\rfloor - \left\lfloor \frac{1000}{7} \right\rfloor + \left\lfloor \frac{1000}{35} \right\rfloor = 676$.
@@ -4736,7 +4736,7 @@ vai nu ar $3$, vai ar $5$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Šādi skaitli veido aritmētisku progresiju ar 200 locekliem, kurā pirmais loceklis 
 ir $5$ un pēdējais $-1000$. Tāpēc $S_{1}=\frac{5+1000}{2} \cdot 200=100500$.
@@ -4761,7 +4761,7 @@ un kuri dalās ar $3$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $\overline{abcd}$ dalās ar 3 tad un tikai tad, kad $\overline{abcd}$ 
 dalās ar 3. Tādu skaitļu pavisam ir
@@ -4787,7 +4787,7 @@ Pietiek uzrādīt vienu šādu $1328$ skaitļu komplektu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlēsimies skaitļus, kas dalās ar $2$ vai $3$. Šādu skaitļu ir
 
@@ -4813,7 +4813,7 @@ $$\left\lfloor \frac{n}{k} \right\rfloor +
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $0 \leq j \leq k$, tad $\left[\frac{n+j}{k}\right]$ norāda tādu skaitlu skaitu, 
 kas nepārsniedz $n$ un, dalot ar $k$, dod atlikumā $k-j$, ja $j \neq 0$, vai $0$, 
@@ -4848,7 +4848,7 @@ $$=\left\lfloor \frac{q}{p} \right\rfloor +
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādījumā izmanto faktu, ka skaiţ̦i $p, 2p, \ldots, (q-1)p$ 
 dod visus nenulles atlikumus pēc moduḷa $q$.
@@ -4873,7 +4873,7 @@ $$\left\lfloor \frac{n+1}{2} \right\rfloor +
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim doto summu ar $S_{n}$. Tad
 
@@ -4913,7 +4913,7 @@ izpildās tad un tikai tad, kad $n$ ir pirmskaitlis.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka  
 $$\sum_{k=1}^{n}\left[\frac{n}{k}\right]=\left[\frac{n}{1}\right]+\sum_{k=2}^{n-1}\left[\frac{n}{k}\right]+\left[\frac{n}{n}\right]=n+1+\sum_{k=2}^{n-1}\left[\frac{n}{k}\right]$$  
@@ -4947,7 +4947,7 @@ satur maksimālo iespējamo pirmskaitļu skaitu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Eksistē tikai viens šāds skaitlis $k=1$.
 
@@ -4983,7 +4983,7 @@ $$d(1)+d(2)+\ldots+d(n)= \left\lfloor \frac{n}{1} \right\rfloor +
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim funkciju, kas definēta visiem naturāliem skaitlu pāriem $(i, j)$ :
 

@@ -4,7 +4,7 @@ Ar kādām naturālām $a$ un $b$ vērtībām skaitlis
 $ab + a + b + 1$ ir pirmskaitlis?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izteiksmi $ab + a + b + 1$ sadalām reizinātājos $(a+1)(b+1)$. 
 Tātad šis skaitlis nav pirmskaitlis nekādām $a$ un $b$ vērtībām, 

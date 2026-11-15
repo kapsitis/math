@@ -9,7 +9,7 @@ Atrast $7$ saliktus trīsciparu skaitļus, katram no kuriem ciparu reizinājums 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der skaitļi $237$, $273$, $327$, $372$, $723$, $732$ (tie visi dalās ar $3$, tāpēc nav pirmskaitļi), kā arī $176$, jo $176=11\cdot16$.
 
@@ -25,7 +25,7 @@ Vai var uzzīmēt plaknē $7$ starus tā, lai katrs no tiem krustotu tieši divu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Skat., piemēram, $7.$ zīm.
 
@@ -48,7 +48,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojuma kreisās puses izteiksme ir lineāra funkcija $f(x)=ax+b$. Viegli pārbaudīt, ka $f(1)=1$; tātad $1$ ir dotā vienādojuma sakne. Skaidrs, ka $f(2)$ ir pāra skaitlis; tātad $f(2)\ne1$, un $f(x)$ nav konstanta funkcija.
 
@@ -66,7 +66,7 @@ Pierādīt, ka naturālos skaitļus no $1$ līdz $29$ ieskaitot var tā uzrakst�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, piemēram, tā:
 
@@ -86,7 +86,7 @@ Uz tāfeles uzrakstīti skaitļi $2$; $4$; $6$. Ar vienu gājienu atļauts nodz�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $1.$ metode.
 
@@ -111,7 +111,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ir vairākas risināšanas iespējas:
 
@@ -134,7 +134,7 @@ Vai naturālos skaitļus no $1$ līdz $25$ ieskaitot var izrakstīt rindā katru
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Piemēram, šādi:
 
@@ -152,7 +152,7 @@ Uzzīmēt a) desmitstūri, b) piecpadsmitstūri ar īpašību: uz katras taisnes
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 8. zīm.
 
@@ -178,7 +178,7 @@ Cik no iedomātajiem skaitļiem var būt dažādi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var būt visi vienādi skaitļi, piemēram, $x=y=z=1$.
 
@@ -198,7 +198,7 @@ Naturālā skaitlī $x$ katrs nākošais cipars ir lielāks par iepriekšējo. P
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $9 \cdot x=10 \cdot x-x=\overline{x0}-x$. Apzīmējot $x=\overline{a_1a_2\cdots a_{n-1}a_n}$ un ievērojot, ka ciparu virkne ir augoša, iegūstam
 
@@ -230,7 +230,7 @@ $$(a-b)^3+(b-c)^3+(c-a)^3.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $$
 \begin{aligned}
@@ -253,7 +253,7 @@ Pierādīt: ja $n \ge 7$ un $n$ – nepāra skaitlis, tad skaitli $n^2$ var izsa
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Varam izsacīt $n=a+4$, kur $a$ – nepāra skaitlis, $a\geq 3$. Tad
 
@@ -273,7 +273,7 @@ Trīs smagākās loma zivis kopā svēra $35\%$ no visa loma. Pēc to pārdošan
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trīs vieglākās zivis svēra $\frac{5}{13}\cdot 65\%=25\%$ no loma. Tātad "vidējās" zivis svēra $40\%$ no loma. Ja to ir trīs vai mazāk, rodas pretruna ar faktu, ka trīs smagākās zivis svēra $35\%$ loma. Pieņemsim, ka "vidējo" zivju ir $5$ vai vairāk. Apzīmēsim masas (procentos) piecām vieglākajām no tām ar $x\leq y\leq z\leq e\leq f$. Tad $x+y+z+e+f\leq 40$. Jābūt $x+y+z\geq 25$, tāpēc $3z\geq 25$, $z\geq 8\frac{1}{3}$; tad arī $e\geq 8\frac{1}{3}$ un $f\geq 8\frac{1}{3}$. Iznāk, ka
 
@@ -297,7 +297,7 @@ Pierādīt, ka trijstūros $AMK$, $BNM$, $CKN$ ievilkto riņķa līniju centri a
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Hordas—pieskares leņķis $\angle BMN$ ietver loku $\overset{\frown}{M\omega N}$ (Skat. $9$.zīm.), tāpēc tā lielums ir $\frac{1}{2}\overset{\frown}{M\omega N}$.
 
@@ -319,7 +319,7 @@ No $10$ cilvēkiem katrs ir ienaidā ar augstākais $4$ citiem. Pierādīt, ka c
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apvienosim vispirms cilvēkus pāros, kā pagadās. Sauksim pāri par sliktu, ja tajā ir ienaidnieki un par labu pretējā gadījumā. Pieņemsim, ka ir kāds slikts pāris $(A,B)$. Pieņemsim, ka eksistē tāds pāris $(X,Y)$, ka $A$ nav ienaidā ar $X$ un $B$ nav ienaidā ar $Y$. Tad, izveidojot pāri $(A,B)$ un $(X,Y)$ vietā pārus $(A,X)$ un $(B,Y)$, slikto pāru skaits samazinās. Atkārtojot šādu operāciju vēl un vēl, varam panākt, ka slikto pāru vairs nav, un mūsu mērķis sasniegts.
 
@@ -344,7 +344,7 @@ Pierādīt, ka $x \cdot y<a \cdot b$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $xy=\frac{1}{4}\left((x+y)^2-(x-y)^2\right)<\frac{1}{4}\left((a+b)^2-(a-b)^2\right)=ab.$
 
@@ -365,7 +365,7 @@ Pierādīt, ka otrais trijstūris ir šaurleņķu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar doto
 
@@ -391,7 +391,7 @@ Kādi skaitļi bija uzrakstīti uz lapiņām?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim šos skaitļus ar $x_1,x_2,\ldots,x_{10}$, bet to summu ar $S$. No dotajiem skaitļiem pavisam var sastādīt $10$ summas pa deviņiem skaitļiem. Tā kā šīs summas pieņem tikai $9$ dažādas vērtības, tad divas no tām ir vienādas.
 
@@ -413,7 +413,7 @@ Pierādīt, ka ap trijstūriem $ABC$ un $ABH$ apvilkto riņķa līniju rādiusi 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim taisnes $CH$ otru krustpunktu ar vienu riņķa līniju ar $C_1$. Ja mēs pierādīsim, ka $SH=SC_1$, tad $\triangle AHB=\triangle AC_1B$ (simetriski pret $AB$) un tad to apvilkto riņķa līniju rādiusi arī būs vienādi. (Atzīmēsim, ka ap trijstūri $ABC$ apvilktā r.l. sakrīt ar ap trijstūri $ABC$ apvilkto r.l.). Skat. $10.$ zīm.
 
@@ -439,7 +439,7 @@ Taisnstūris sastāv no $5\cdot 15$ vienādām kvadrātiskām rūtiņām. Pierā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izkrāsosim taisnstūra $15$ rūtiņas kā parādīts $11.$ zīmējumā.
 
@@ -461,7 +461,7 @@ No $8$ policistiem jāizveido $4$ pāri nakts dežūrai. Cik dažādu sadalījum
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ņemam vienu policistu $A$; tam var piekomandēt jebkuru no atlikušajiem policistiem (t.i. izdarīt to $7$ veidos). Kad tas izdarīts, ņemam jebkuru no atlikušajiem policistiem $B$; tam var piekārtot pārinieku $5$ veidos. Tālāk ņemam jebkuru no atlikušajiem policistiem $C$; tam var piekārtot pārinieku $3$ veidos. Atlikušie divi policisti veido ceturto pāri.
 
@@ -481,7 +481,7 @@ Pierādīt, ka taisnes $AM$, $BN$ un $CK$ krustojas vienā punktā.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $12$. zīm.
 
@@ -513,7 +513,7 @@ Kādiem naturāliem skaitļiem $n$ piemīt īpašība: jebkuriem divu $n$ dalīt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der visi pirmskaitļi $n$, jo tiem ir tikai $2$ dalītāji $1$ un $n$, un $1 \cdot n > \frac{n}{6}$.
 
@@ -541,7 +541,7 @@ $$x^2y^2\left(x^2+y^2-3\right)\ge -1.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x=0$ vai $y=0$, nevienādība ir acīmredzama.
 
@@ -571,7 +571,7 @@ Pierādiet, ka otrais spēlētājs var panākt, lai pirmais neuzvarētu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aprakstīsim otrā spēlētāja stratēģiju, kas garantē, ka viņš nezaudēs.
 
@@ -597,7 +597,7 @@ b) Dots, ka $\sin x=\sin y$. Vai noteikti $\sin 4x=\sin 4y$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Pakāpeniski iegūstam:
 $$
@@ -627,7 +627,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka der visi vienādu skaitļu pāri: $(r,r)$, kur $r \in R$.
 
@@ -668,7 +668,7 @@ dalās ar $323$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $323=18^2-1=17\cdot 19$. Mums jānoskaidro kādiem naturāliem $n$ dotās izteiksmes vērtība dalās ar $17$ un $19$ vienlaicīgi.
 
@@ -718,7 +718,7 @@ Dots vienādsānu trijstūris $ABC$, kur $AB=AC$. Tā iekšpusē ņemts punkts $
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $13.$ zīm.
 
@@ -748,7 +748,7 @@ Regulāra $2n$-stūra virsotnēs ierakstīti naturāli skaitļi no $1$ līdz $2n
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Jā, var. Skaitļus var pa riņķi ierakstīt šādā secībā: $1, 9, 2, 10, 3, 6, 4, 7, 5, 8$.
 

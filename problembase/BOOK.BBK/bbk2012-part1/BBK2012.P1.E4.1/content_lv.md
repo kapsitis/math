@@ -11,7 +11,7 @@ Izdalīt ar atlikumu:
 **(H)** $-18$ ar $3$,  
 **(I)** $-111$ ar $7$. 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $1996=11 \times 181+5$; $181$ ir nepilnais dalījums, $5$ ir atlikums.
 **(B)** $200=10 \times 20+0$;

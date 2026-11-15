@@ -7,7 +7,7 @@ piederētu vismaz vienai progresijai?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, tādas ǵeometriskas progresijas neeksistē. Aplūkosim galīgu skaitu ģeometrisko progresiju
 

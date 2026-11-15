@@ -8,7 +8,7 @@ lielākais kopīgais dalītājs ir $1$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pāra skaitlus izsaka šādi:
 

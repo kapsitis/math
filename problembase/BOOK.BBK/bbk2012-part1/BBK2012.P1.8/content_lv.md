@@ -7,7 +7,7 @@ No skaitļa 1985 atņēma tā ciparu summu, no rezultāta – tā ciparu summu, 
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atņemot no skaitļa tā ciparu summu iegūstam skaitli, 
 kas dalās ar $9$. Ja skaitlis nav viencipara, tad tā ciparu summa 

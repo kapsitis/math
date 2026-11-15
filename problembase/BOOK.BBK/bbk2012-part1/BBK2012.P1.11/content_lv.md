@@ -5,7 +5,7 @@ lai iegūtais skaitlis dalītos ar $9$ un būtu maksimāli liels. Kuri cipari j�
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā uzrakstītā skaitļa ciparu summa ir $15$, tad, lai atlikušais skaitlis 
 dalītos ar $9$ ir jāizsvītro cipari, kuru summa ir $6$. Protams, lai iegūtu 

@@ -5,7 +5,7 @@ uzrakstīti viens aiz otra. Pierādiet, ka uzrakstītais skaitlis nav divnieka n
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstītā skaitļa ciparu summa dalās ar $9$. 
 Tātad šis skaitlis dalās ar $9$, un tas nevar būt divnieka pakāpe.

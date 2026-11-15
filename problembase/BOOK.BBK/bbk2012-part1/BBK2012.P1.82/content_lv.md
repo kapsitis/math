@@ -5,7 +5,7 @@ ka skaitlis $(n-1)!+1$ dalās ar $q$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ņemsim jebkuru saliktu skaitli $n$ un jebkuru skaitļa $(n-1)!+1$ pirmreizinātāju $q$. 
 Skaidrs, ka $q>n-1$ un $q \neq n$, jo $n$ nav pirmskaitlis.

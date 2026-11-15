@@ -18,7 +18,7 @@ Braukšanas ātrums visā ceļa posmā bija viens un tas pats.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Shematiski attēlojam uzdevumā doto (skat. A1.att.).
 
@@ -48,7 +48,7 @@ palīgiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka sākumā bija $4$ kaudzes - pāra skaitlis.
 
@@ -87,7 +87,7 @@ grozīt, bet nedrīkst apmest otrādi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tortes sadalījumu skat., piemēram, A2.att.
 
@@ -118,7 +118,7 @@ citu nav!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $M$ nevar būt pāra skaitlis, jo tad arī reizinājums būtu pāra 
 skaitlis.
@@ -135,7 +135,7 @@ Vērtība $M=5$ der, jo $403 \cdot 5=2015$.
 
 Tātad vienīgā iespēja, kā var būt aizstāti cipari, ir $E=4,\ J=0,\ A=3,\ M=5$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Skaitlis $M$ nevar būt ne $0$, ne $1$, jo tad $EJA \cdot 0=0 \neq 2015$ vai 
 $EJA \cdot 1=EJA \neq 2015$. Sadalām skaitli $2015$ pirmreizinātājos: 
@@ -163,7 +163,7 @@ nav iespējams precīzi noteikt tajā esošā ūdens daudzumu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Spaini, kura tilpums ir $10$ litri, sauksim par lielo spaini, otru spaini - par
 mazo.
@@ -204,7 +204,7 @@ eiro un otrās - $21$ eiro! (Pakas cena veidojas, saskaitot tajā ielikto
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka abās pakās ir vienāds skaits mazo šokolāžu, tad paku saturs 
 atšķiras tikai par $12-8=4$ lielajām šokolādēm. Tā kā paku cena atšķiras par 
@@ -232,7 +232,7 @@ darbības, var panākt, ka kādā brīdī visās lādēs būs vienāds skaits mo
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sākumā lādēs esošo monētu kopējais skaits ir nepāra skaitlis: $1+5+0+0+2+3=11$.
 
@@ -266,7 +266,7 @@ Vai iespējams, ka neviena no šīm summām nav pirmskaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, skaitļus var ierakstīt tā, ka neviena no summām nav pirmskaitlis (skat., 
 piemēram, A3.att.).
@@ -297,7 +297,7 @@ rūtiņu malām.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotās figūras var izgriezt četras 3.att. figūras (skat. A4.att.).
 
@@ -310,7 +310,7 @@ $5 \cdot 2=10$ melnās rūtiņas.
 
 ![](LV.NOL.2015.6.4A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 No dotās figūras var izgriezt četras 3.att. figūras (skat. A4.att.).
 
@@ -347,7 +347,7 @@ vērtības!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja katrā grozā būtu tieši $3$ āboli, tad kopā grozos būtu salikti tikai 
 $3 \cdot 60=180$ āboli. Tātad atlikušie $229-180=49$ āboli ir jāsadala pa 
@@ -377,7 +377,7 @@ Atrisini vienādojumu $\frac{8a-5}{5}-\frac{2a-7}{2}=-3$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -420,7 +420,7 @@ Par cik mainās dzīvnieku kopskaits katras maiņas iznākumā?
 Vai ejot šādiem soļiem var no $99+21$ sasniegt $2015$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka sākumā kopējais mājlopu skaits ir 99+21=120 - pāra skaitlis.
 
@@ -461,7 +461,7 @@ Vai iespējams, ka visas iegūtās summas ir pirmskaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, skaitļus var ierakstīt tā, ka visas summas ir pirmskaitļi (skat., piemēram,
 A9.att.).
@@ -472,7 +472,7 @@ A9.att.).
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pāru/nepāru skaitļi izvietojami kā melnās/baltās rūtiņas 
 šaha galdiņam. Kvadrāta vidū liek $1$, un pārlasa dažādos $2,4,6,10$ 
@@ -497,7 +497,7 @@ skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ne , taisnstūra perimetrs var nebūt naturāls skaitlis. Piemēram, ja taisnstūris
 ar izmēriem $\frac{1}{2} \times \frac{1}{4}$ sadalīts divos kvadrātos, kuru 
@@ -534,7 +534,7 @@ atsvariem var noteikt katra veida monētu skaitu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā no katras īstās monētas pa labi atrodas kāda viltota monēta, tad pirmā 
 monēta no labās puses nevar būt īsta, tātad tā ir viltota. Līdzīgi secinām, ka 
@@ -575,7 +575,7 @@ Pierādi, $ka$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Izmantojot pakāpju īpašības, iegūstam
 
@@ -598,7 +598,7 @@ skaitlis (nepāra skaitli kāpinot jebkurā naturālā pakāpē, iegūst nepāra
 skaitli; divu nepāra skaitļu summa ir pāra skaitlis), tātad tas dalās ar $2$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Divu nepāru skaitļu summas/starpības ir pāru skaitļi. 
 Pie tam $49^n$ un $7^n$ dod atlikumu $1$, dalot ar $3$.
@@ -625,7 +625,7 @@ iespējams, ka "Šrotiņā" kāda mēneša $21.$ datumā būs tieši $2015$ maš
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka sākumā mašīnu skaits ir $39$, kas dalās ar $3$.
 
@@ -648,7 +648,7 @@ skaitlis $2015$ nedalās ar $3$. Tātad nav iespējams, ka „Šrotiņā" kāda 
 $21.$ datumā būs tieši $2015$ mašīnas.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Salīdzina atlikumus pēc $3$ moduļa.
 Mašīnu skaits vienmēr mainās par $-7+16=9$ vai par $-19+4 = -15$, 
@@ -672,7 +672,7 @@ vismazākais, ja zināms, ka $a>b>c>d>0$? Pamato atbildi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vislielākais ir skaitlis $(b+c)(d+a)$ un vismazākais ir skaitlis $(a+b)(c+d)$.
 
@@ -723,7 +723,7 @@ $\sphericalangle MAN+\sphericalangle MCN=60^{\circ}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūris $ABC$ ir regulārs, tāpēc $AC=AB$. No nogriežņu garuma īpašībām 
 iegūstam, ka $AB=AM+MB$. Tā kā $AC=MB+BN$, tad $AM+MB=MB+BN$ jeb $AM=BN$ (skat.
@@ -756,7 +756,7 @@ naturāls skaitlis. Vai kvadrāta $ABCD$ perimetrs noteikti ir naturāls skaitli
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām dotā kvadrāta $ABCD$ vienu malu $AB$ un visus kvadrātus, kam viena 
 mala atrodas uz $AB$ (skat. A12.att.). Apzīmējam $AB$ garumu ar $a$, bet mazo 
@@ -789,7 +789,7 @@ Atrisināt vienādojumu $\frac{5}{x^{2}-9}-\frac{1}{3-x}=\frac{1}{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Definīcijas kopa: 
 $\left\{\begin{array}{l}x^{2}-9 \neq 0 \\ 3-x \neq 0\end{array} \Rightarrow x \neq 3\right.$
@@ -843,7 +843,7 @@ ierakstīts skaitlis $2014$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visi skaitļi, kas uzrakstīti regulārā astoņstūra virsotnēs, sākumā ir nepāra 
 skaitļi.
@@ -876,7 +876,7 @@ līdzīgos trijstūros?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jebkuru taisnstūri var sagriezt divos vienādos taisnleņķa trijstūros (skat. A1.
 zīm.).
@@ -933,7 +933,7 @@ izdarīt!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka tabulā ir trīs rindas un četras kolonnas. Ar $A$ apzīmējam rindā 
 ierakstīto četru skaitļu vidējo aritmētisko. Tad rindā ierakstīto skaitļu summa
@@ -992,7 +992,7 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim funkcijas vērtību, ja $x= \pm \frac{1}{\sqrt{2}}$ :
 
@@ -1028,7 +1028,7 @@ $N(-3;-1)$. Noteikt koeficientus $a$, $b$ un $c$!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja punkts $M(1; 15)$ atrodas uz parabolas, tad iegūstam vienādību:
 $15=a \cdot 1^{2}+b \cdot 1+c$ jeb $15=a+b+c$. 
@@ -1087,7 +1087,7 @@ Vai, atkārtoti izpildot šīs darbības, no skaitļa $30$ var iegūt skaitli $2
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Kā invariantu aplūkojam dalāmību ar $3$ - skaitlim 
 $30$ izpildās īpašība "dalās ar $3$", bet skaitlim $2015$ šī īpašība 
@@ -1126,7 +1126,7 @@ pieņemt mazākais no šiem saskaitāmajiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojam aritmētiskās progresijas locekļu summas formulu:
 
@@ -1162,7 +1162,7 @@ Tātad mazākais no saskaitāmajiem var būt $88,\ 58$ vai $27$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Aritmētiskas progresijas locekļu summa
 
@@ -1210,7 +1210,7 @@ ir veselu skaitļu pakāpes ar naturālu kāpinātāju, kas lielāks nekā $1$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, piemēram, var ņemt $x=4$, tad
 
@@ -1241,7 +1241,7 @@ Tātad neeksistē tāds vesels skaitlis $x$, ka visi skaitļi
 $x,\ x+23,\ x+46,\ x+121$ ir veselu skaitļu pakāpes ar naturālu kāpinātāju, kas
 lielāks nekā $1$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 **(A)** Ievietojam nelielas vērtības. 
 Ievērojam, ka $x$ arī ir vesela skaitļa pakāpe. 
@@ -1273,7 +1273,7 @@ taisnleņķa!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrāta pretējās malas $AB$ un $CD$ ir paralēlas, tāpēc 
 $\sphericalangle BAC=\sphericalangle ACD$ kā iekšējie šķērsleņķi (skat. A5. 
@@ -1304,7 +1304,7 @@ Atrisināt nevienādūbu $|x-2|-6+\frac{5}{|x-2|}>0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotās nevienādības definīcijas kopa ir visi reālie skaitļi, izņemot skaitli 
 $2$, t. i., $x \in(-\infty; 2) \cup(2;+\infty)$.
@@ -1355,7 +1355,7 @@ ierakstīts skaitlis $2015$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šūnās ierakstītie skaitļi $1,\ 2,\ \ldots,\ 19$ veido aritmētisko progresiju ar
 diferenci $1$. Izmantojot aritmētiskās progresijas locekļu summas formulu, 
@@ -1389,7 +1389,7 @@ $a+b$, $a+c$, $b+c$ ir naturālu skaitļu kvadrāti?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā iespējamā $n$ vērtība ir $55=6+19+30$.
 
@@ -1444,7 +1444,7 @@ $ACB$ un $ABX$ bisektrises krustojas punktā $D$. Pierādīt, ka $AD=AB$!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle ACD=\sphericalangle DCB=\alpha$ (pēc bisektrises 
 definīcijas). Tad $\sphericalangle BCA=\sphericalangle ABC=2 \alpha$ kā leņķi 
@@ -1497,7 +1497,7 @@ $4 \times 4$ rūtiņas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Rūtiņās var būt ierakstīti $16$ atšķirīgi skaitļi:
 
@@ -1553,7 +1553,7 @@ $(x-2) \log _{\sqrt{6}}\left(x^{2}-5x\right)=2x-\log _{\sqrt{6}} 36$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Definīcijas kopa: $x^{2}-5x>0$.
 
@@ -1609,7 +1609,7 @@ Vai, atkārtoti izpildot šīs darbības, no skaitļa $139$ var iegūt skaitli
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Skaitli $63$ var iegūt šādi:
 
@@ -1642,7 +1642,7 @@ kuriem neviens nav $0$ un neviens neatkārtojas vairāk kā divas reizes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $a$ apzīmējam ciparu, kas skaitlī ir vienu reizi, bet ar $b$ un $c$ - 
 ciparus, kas skaitlī ir divas reizes.
@@ -1671,7 +1671,7 @@ Pierādīt, ka $S_{BFL}+S_{CMG}+S_{DNH}+S_{AKE}=S_{KLMN}$ !
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam nogriezni $AC$ un aplūkojam trijstūrus $ABF,\ AFC,\ ACH$ un $CDH$ 
 (skat. A10.zīm.). Izmantojot trijstūra laukuma formulu 
@@ -1714,7 +1714,7 @@ Vai eksistē tādi naturāli skaitļi $a,\ b$ un $c$, ka skaitļa $a^{2}+b^{2}+c
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, eksistē, piemēram, $a=9,\ b=5,\ c=3$. Tad 
 $a^{2}+b^{2}+c^{2}=81+25+9=115$.

@@ -5,7 +5,7 @@
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ievērosim, ka $1996 = 499 \cdot 4$. No $499$ pēc kārtas ņemtiem naturāliem 
 skaitļiem viens dalās ar $499$; starp jebkuriem $4$ pēc kārtas n̦emtiem naturāliem 

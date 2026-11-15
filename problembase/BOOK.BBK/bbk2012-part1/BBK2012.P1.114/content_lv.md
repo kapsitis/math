@@ -5,7 +5,7 @@ Skaitļu $x, y, z$ lielākais kopīgais dalītājs ir $h$. Pierādīt, ka skait�
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $x=ah$, $y=bh$, $z=ch$, $(a, b, c)=1$. 
 Doto vienādību pārveidojam formā $c(b-a)=ab$. Tad $hxyz = h^{4} c^{2}(b-a)$ 

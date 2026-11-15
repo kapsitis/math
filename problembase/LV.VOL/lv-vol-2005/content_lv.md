@@ -14,7 +14,7 @@ vienāda ar daļas $4$ laukumu (skat. 1.zīm.).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieskaitot pierādāmās vienādības $L(1)+L(2)+L(3)=L(4)$ abām pusēm 
 $L(5)+L(6)+L(2)$, iegūstam ekvivalentu vienādību $L(ABC)+L(DBC)=L(BCNM)$, kas 
@@ -43,7 +43,7 @@ $A$ galā skaitli $B$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $B=27,\ A=7 \cdot 27=189,\ C=18927$.
 
@@ -72,7 +72,7 @@ skaits konfekšu. Pierādīt, ka katram bērnam ir vismaz viena konfekte.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzdevuma apgalvojums būs pierādīts, ja pierādīsim: katram bērnam ir nepāra 
 skaits konfekšu. Apzīmēsim bērniem esošo konfekšu skaitus, kā parādīts 
@@ -100,7 +100,7 @@ Jūsu atrastajiem nav.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $a+b=n$. Tad $2\left(a^{2}+b^{2}\right)=(a+b)^{2}+(a-b)^{2} \geq^{2}$,
 tāpēc $n^{2} \leq 2 \cdot 2=4$ un $n=0;\ \pm 1;\ \pm 2$. Risinot vienādojumu 
@@ -127,7 +127,7 @@ Atrast mazāko iespējamo $n$ vērtību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $6$ krāsas.
 
@@ -158,7 +158,7 @@ vienādi un perpendikulāri.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli ievērot, ka $\triangle BCG$ iegūstams no $\triangle DCE$, pagriežot to 
 par $90^{\circ}$ pretēji pulksteņa rādītāja kustības virzienam. Tāpēc arī $1.$ 
@@ -184,7 +184,7 @@ $x^{3}+y^{3}+z^{3}=1000^{3}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $x=1;\ y=-1;\ z=1000;\ t=1000$.
 
@@ -213,7 +213,7 @@ $x \cdot f(x)+y \cdot f(y)$ dalās ar $x+y$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $xf(x)+yf(y)$ un $xf(y)+yf(y)$ dalās ar $x+y$, tad arī starpība 
 $x(f(y)-f(x))$ dalās ar $x+y$. Pie $y=x+1$ iegūstam, ka $x(f(x+1)-f(x))$ dalās 
@@ -243,7 +243,7 @@ Pierādiet, ka $DCB$ ir vienādsānu trijstūris.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šķirojam divus gadījumus atkarībā no tā, vai $C$ un $O$ pieder vienam un tam 
 pašam vai dažādiem $\triangle AOB$ apvilktās riņķa līnijas lokiem.
@@ -289,7 +289,7 @@ lekcijas. Daži no viņiem klausās citu profesoru lekcijas. Ir zināms, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam profesorus ar $P_{1}, P_{2}, \ldots, P_{7}$. Klausītāju kopas var būt
 šādas:
@@ -336,7 +336,7 @@ $\left\{x^{2}\right\}+\{x\}=0,99$,
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārbaudīt, ka der visi skaitļi 
 $10n+\frac{13}{10},\ n=0;\ 1;\ 2;\ \ldots$.
@@ -367,7 +367,7 @@ Pierādīt, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Papildinām $\triangle ABC$ līdz kvadrātam $ABEC$. Apzīmējam $AQ$ krustpunktu ar
 $BE$ ar $N$.
@@ -401,7 +401,7 @@ ir viens vienīgs atrisinājums reālos skaitļos?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $2^{x}=y$ un iegūstam
 
@@ -429,7 +429,7 @@ dalās ar $p$" vai nu abi ir pareizi, vai abi - nepareizi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $p=2$, tad ievērojam: $x^{2}+x=x(x+1)$ ir pāra skaitlis, tāpēc abi 
 apgalvojumi ir aplami.
@@ -468,7 +468,7 @@ kļūtu vienādi. Kuriem sākotnējiem vieninieku izvietojumiem to var izdarīt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** to var izdarīt tad un tikai tad, ja vieninieki nav kuba vienas 
 skaldnes pretējās virsotnēs.
@@ -498,7 +498,7 @@ $5^{x}+7^{y}=11^{y}$. Pierādīt, ka $x<y$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim no pretējā, ka $x \geqslant y$. Tad $13^{x} \geq 13^{y}$ un 
 $5^{x} \geq^{y}$. No $3^{x}+13^{y}=17^{x}$ seko, ka $3^{x}+13^{x} \geq 7^{x}$ 
@@ -528,7 +528,7 @@ Pierādīt, ka $r_{1}+r_{3}+r_{5}=r_{2}+r_{4}+r_{6}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No labi zināmas taisnleņķa trijstūrī ievilktās riņķa līnijas rādiusa garuma 
 formulas $r=\frac{a+b-c}{2}$ (skat. 1.zīm.) iegūstam, ka pierādāmā vienādība 
@@ -557,7 +557,7 @@ vērtību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Kaut kur uz riņķa līnijas ir $1$, kaut kur $n$. Apskatām vienu no 
 lokiem, kas "savieno" šos skaitļus. Ja uz tā atrodas vēl skaitļi 
@@ -611,7 +611,7 @@ Par skaitļu virkni $x_{1}, x_{2}, x_{3}, \ldots$ zināms, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzami, visi virknes locekļi ir pozitīvi. Tāpēc $x_{2n}>1$, bet 
 $x_{2n+1}<1(n \in N,\ n \geq 1)$. No šejienes seko, ka vienādi varētu būt tikai
@@ -657,7 +657,7 @@ dažādās krāsās, un pārkrāsot tās abas trešajā krāsā. Pierādiet, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim krāsas ar $0;\ 1;\ 2$. Pierādīsim vispirms divas lemmas.
 

@@ -8,7 +8,7 @@ lielākajam kopīgajam dalītājam?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $a_{1}+a_{2}+\cdots+a_{10}=1001$, tad 1001 dalās ar visu skaitļu 
 $a_{1}, a_{2}, \ldots, a_{10}$ kopīgo dalītāju. Tā kā $1001=7 \cdot 11 \cdot 13$, 

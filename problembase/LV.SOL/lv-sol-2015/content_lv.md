@@ -9,7 +9,7 @@ Rindā uzrakstīti veselie skaitļi $1$, $2$, $3$, $\ldots$, $2014$, katrs vienu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam ir $9$ viencipara skaitļi, $90$ divciparu skaitļi, $900$ trīsciparu skaitļi un $1015$ četrciparu skaitļi; tāpēc kopējais ciparu skaits ir
 
@@ -27,7 +27,7 @@ Kvadrāts sastāv no $3 \cdot 3$ vienādām rūtiņām. Vai tās visas var pārs
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, to var izdarīt (skat. A1. zīm.).
 
@@ -51,7 +51,7 @@ $1.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaitīsim piparkūku skaitu laukumos: melnajos - tas ir $2$, bet baltajos - $0$. Starpība starp piparkūku skaitu melnajos un baltajos laukumos ir $2$. Ar katru gājienu par $1$ palielinās piparkūku skaits gan melnajos, gan baltajos laukumos, tātad starpība starp piparkūku skaitu dažādu krāsu laukumos paliek $2$, un nevarēs iegūt vienādu piparkūku skaitu visos laukumos.
 
@@ -68,7 +68,7 @@ b) Vai var atrast tādu skaitli, kas dalot ar $4$, dod atlikumu $1$, bet, dalot 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Jā, var. Tāds ir, piemēram, skaitlis $126$.
 
@@ -86,7 +86,7 @@ Vai var uzzīmēt plaknē $7$ starus tā, lai katrs no tiem krustotu tieši divu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var (skat., piemēram, A$2$. zīm.).
 
@@ -110,7 +110,7 @@ $2.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2015.6.3A.png){ width=150px }
 
@@ -130,7 +130,7 @@ Apskatām $10$ dažādus skaitļus un visas to starpības (no lielākā skaitļa
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais dažādo starpību skaits ir deviņas. Piemēram, var izvēlēties skaitļus $1$, $2$, $3$, ..., $10$, tad iegūs starpības $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$.
 
@@ -149,7 +149,7 @@ Vai tā var uzzīmēt trīs patvaļīgas līnijas?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Nē, nevar. Tā kā diviem nogriežņiem ir ne vairāk kā viens krustpunkts, tad iespējamais krustpunktu skaits katram nogrieznim ir $0$, $1$ vai $2$. Ja kādam nogrieznim ir $2$ krustpunkti, tad tas krustojas ar abiem pārējiem, bet tad nav nogriežņa, kas nekrustojas ne ar vienu no abiem pārējiem. Tas nozīmē, ka atliek tikai $2$ vērtības, bet nogriežņu skaits ir $3$.
 
@@ -175,7 +175,7 @@ Rūķīši uz grīdas ir uzzīmējuši spēļu laukumu un spēlējas ar dāvanā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2015.7.3A.png){ width=150px }
 
@@ -201,7 +201,7 @@ Cik ir tādu funkciju, kurām definīcijas kopa sastāv no četriem elementiem: 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā no četriem definīcijas apgabala punktiem funkcija var pieņemt jebkuru no divām vērtībām. Tātad pavisam iespējamas $2\cdot2\cdot2\cdot2=16$ dažādas funkcijas.
 
@@ -221,7 +221,7 @@ Dots, ka $SA = SB = AN = BM = MN$ (skat. 4. zīm.). Aprēķināt $\angle ASB$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2015.8.2A.png){ width=350px }
 
@@ -257,7 +257,7 @@ b) Kāds mazākais skaits no šīm summām var būt pāra skaitļi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2015.8.3A.png){ width=100px }
 
@@ -286,7 +286,7 @@ Turnīrā piedalās $10$ komandas, katrai ar katru jāizspēlē viena spēle. Va
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Komandas izspēlēto spēļu skaits var būt tikai $0, 1, 2, \ldots, 9$ (desmit dažādas vērtības). Ja visas $10$ komandas izspēlējušas dažādu spēļu skaitu, tad ir komanda, kas izspēlējusi $9$ spēles - tātad spēlējusi ar visām pārējām komandām. Tas nozīmē, ka nav komandas, kura ir izspēlējusi $0$ spēles. Tātad nav tāda brīža, kad visas komandas ir izspēlējušas dažādu spēļu skaitu.
 
@@ -302,7 +302,7 @@ Komandas izspēlēto spēļu skaits var būt tikai $0, 1, 2, \ldots, 9$ (desmit 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\angle BAO = \alpha$ (skat. A6. zīm.). Ievērojam, ka $\triangle AMO = \triangle BMO$ (pēc pazīmes „$m\ell m$”), jo $BM = MA$, $\angle AMO = \angle BMO = 90^{\circ}$ un mala $MO$ kopīga. Tad $\angle ABO = \angle BAO = \alpha$ kā atbilstošie leņķi vienādos trijstūros. No bisektrises īpašības seko, ka $\angle ABC = 2\alpha$. No $\triangle ABH$ iekšējo leņķu summas iegūstam $\alpha + 2\alpha + 90^{\circ} = 180^{\circ}$ jeb $\alpha = 30^{\circ}$. Tātad $\angle ABC = 2\alpha = 60^{\circ}$.
 
@@ -326,7 +326,7 @@ Katrā mazajā trijstūrītī (skat. 6. zīm.) ierakstīts naturāls skaitlis no
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2015.9.3A.png){ width=150px }
 
@@ -354,7 +354,7 @@ $$3\cdot x(x+2\cdot y+1)(7\cdot y+1)?$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā izteiksme dalās ar $3$ neatkarīgi no $x$ un $y$, jo satur reizinātāju $3$.
 
@@ -381,7 +381,7 @@ $$MA\cdot MC+MB\cdot MD=AB^2.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $AC=d$ un $OM=x$ (skat. A8. zīm.). Diagonāle $AC$ sadala kvadrātu divos vienādos trijstūros $ABC$ un $ADC$, tāpēc $BM=MD$.
 
@@ -425,7 +425,7 @@ Kvadrātos ir ierakstīti skaitļi $1$, $2$, $3$, $4$, $5$, $6$ (skat. 7. zīm.)
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam skaitļus (skat. A$9.$ zīm.). Apskatām starpību $S=(a+b+c)-(A+B+C)$. Tā kā katrā gājienā katrai izteiksmei $a+b+c$ un $A+B+C$ pieskaita vienu un to pašu skaitli, tad $S$ nemainās. Sākumā (skat. $7.$ zīm.) šī starpība ir $S_1=(1+5+3)-(6+2+4)=9-12=-3$. Beigās (skat. $8.$ zīm.) starpība ir: $S_2=(6+4+2)-(5+1+3)=12-9=3$. Tā kā $S_1\ne S_2$, tad uzdevumā prasīto nevarēs izdarīt.
 
@@ -449,7 +449,7 @@ Turnīra beigās katrs spēlētājs bija saņēmis vienādu punktu skaitu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam notika $C_9^2=\frac{8\cdot 9}{2}=36$ spēles, katrs spēlētājs spēlēja $8$ spēles. Tā kā beigās visi spēlētāji bija ieguvuši vienādu punktu skaitu, tad katrs spēlētājs ieguva $36:9=4$ punktus.
 
@@ -469,7 +469,7 @@ Izliektam četrstūrim novilktas visu astoņu ārējo leņķu bisektrises. Pier�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jāpierāda, ka ap četrstūri $EFGH$ var apvilkt riņķa līniju (skat. A10. zīm.). Izmantosim, ka
 
@@ -505,7 +505,7 @@ Tabulas $3\times 3$ rūtiņās ierakstītas nulles. Vienā gājienā atļauts do
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izpētīsim, kā ir veidota gala rezultātā iegūtā tabula. Redzam, ka kvadrātā $2 \times 2$, kurš atrodas kreisajā augšējā stūrī, visi skaitļi palielināti par $1$ četras reizes, jo pašā stūrī atrodas skaitlis $4$. Labajā augšējā stūrī atrodas skaitlis $5$, tātad atbilstošajā kvadrātā $2 \times 2$ visus skaitļus palielina par $1$ piecas reizes, bet apakšējos kvadrātos - attiecīgi $6$ un $7$ reizes.
 
@@ -531,7 +531,7 @@ Deviņciparu naturāla skaitļa $n$ ciparu summa ir $3$. Kāda var būt $n^3$ ci
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai skaitļa ciparu summa būtu $3$, tad skaitlis var saturēt:
 - trīs vieniniekus un pārējās nulles;
@@ -559,7 +559,7 @@ Trapeces diagonāles ir vienādas. Pierādīt, ka ap šo trapeci var apvilkt ri�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $\triangle ACF=\triangle DBE$ (pēc pazīmes "katete-hipotenūza"), jo $BE=CF$ kā trapeces augstumi un $BD=AC$ pēc dotā. Tad $\angle CAD=\angle ADB$ kā atbilstošie leņķi vienādos trijstūros (skat. A12. zīm.). Tā kā $\angle ADB=\angle DBC$ (iekšējie šķērsleņķi pie paralēlām taisnēm $AD$ un $BC$), tad $\angle DAC=\angle DBC$ un ap trapeci $ABCD$ var apvilkt riņķa līniju.
 
@@ -583,7 +583,7 @@ b) labajā augšējā stūrī?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Aplūkosim sākumā doto kvadrātu $3 \cdot 3$ rūtiņas; tajā $5$ rūķīši atrodas uz melnajiem lauciņiem un $4$ - uz baltajiem lauciņiem. Tā kā rūķīši pārvietojoties paliek uz tās pašas krāsas lauciņiem, tad rūķīši nevar izvietoties kreisajā augšējā $3 \cdot 3$ kvadrātā, jo tur ir $4$ melnie un $5$ baltie lauciņi (skat. A$13$. zīm.).
 

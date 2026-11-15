@@ -5,7 +5,7 @@ grupas skaitlu reizinājums būtu vienāds ar visu otrās grupas skaitḷu reizi
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Bertrāna postulāta seko, ka skaitļu grupā no $1$ līdz $n$ eksistē pirmskaitlis $p$, 
 kurš lielāks par $\frac{n}{2}$. Visi šā pirmskaiṭ̦a daudzkārtņi ir lielāki par $n$. 

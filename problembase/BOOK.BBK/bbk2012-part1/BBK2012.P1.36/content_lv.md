@@ -4,7 +4,7 @@ Trīs no aritmētiskās progresijas locekļiem ir $41$, $113$, $193$.
 Atrast lielāko iespējamo diferences vērtību, ja zināms, ka tā ir vesels skaitlis.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aritmētiskās progresijas locekļu starpības ir tās diferences $d$ daudzkārtņi. 
 Tātad $113 - 41 = 72$ un $193 - 113 = 80$ dalās ar $d$. 

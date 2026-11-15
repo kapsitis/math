@@ -9,7 +9,7 @@ $$d(1)+d(2)+\ldots+d(n)= \left\lfloor \frac{n}{1} \right\rfloor +
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim funkciju, kas definēta visiem naturāliem skaitlu pāriem $(i, j)$ :
 

@@ -5,7 +5,7 @@ kuriem nav neviena pirmskaitļa.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim šādus $1000$ pēc kārtas ņemtus naturālus skaitļus:
 

@@ -7,7 +7,7 @@ skaitļu reizinājumu ar nākošo naturālo skaitli, atlikuma iegūst $2$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, tā notiek vienmēr, jo $(n-2) \cdot (n-1) = n^2 - 3n + 2 = (n-3) \cdot n + 2$. 
 

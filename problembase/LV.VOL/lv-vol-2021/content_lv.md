@@ -19,7 +19,7 @@ ir atrisinājums.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo. Tad visiem diskriminantiem jābūt negatīviem, tas ir,
 
@@ -47,7 +47,7 @@ ir, iekrāsotās rūtiņas neatrodas blakus un nesaskaras pat ar stūriem).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms aplūkosim gadījumu, ja $n=1$. Tad $4 \times 4$ rūtiņu tabulā rūtiņas 
 var aizkrāsot, kā parādīts 1.att. šis tabulas krāsojums atbilst visām prasībām.
@@ -83,7 +83,7 @@ $m^{5}+5n^{4}=81m$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam doto vienādību:
 
@@ -118,7 +118,7 @@ $\sphericalangle KB_{1}A_{1}=90^{\circ}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūris $C_{1}BA_{1}$ ir vienādsānu trijstūris (jo $BC_{1}=BA_{1}$ kā 
 pieskaru nogriežņi, kas vilkti no viena punkta), tāpēc 
@@ -163,7 +163,7 @@ spēlētājs - pirmais vai otrais - uzvarēs, pareizi spēlējot?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka otrais spēlētājs vienmēr var uzvarēt.
 
@@ -199,7 +199,7 @@ priekšpēdējais cipars ir $7$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim skaitli $S+49=9n^{2}+42n+49=(3n+7)^{2}$.
 
@@ -228,7 +228,7 @@ fiksētu skaitli $q$, tas ir, $x_{2}=qx_{1}, x_{3}=qx_{2}$ utt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ģeometriskās progresijas kvocientu ar $q$. Ievērojam, ka $q$ ir 
 pozitīvs skaitlis un nav vienāds ar $1$ (citādi progresija būtu konstanta un 
@@ -265,7 +265,7 @@ Pierādīt, ka $BP=BC$ vai $BP=AD$, ja zināms, ka $AB=AD+BC$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim divus punktus $P_{1}$ un $P_{2}$ uz malas $AB$ tā, ka $BP_{1}=BC$ un 
 $BP_{2}=AD$ (skat. 5.att.). Tā kā trapeces pamati pēc definīcijas ir dažāda 
@@ -305,7 +305,7 @@ vesela sakne. Kurš spēlētājs - pirmais vai otrais - uzvarēs, pareizi spēl�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmais spēlētājs vienmēr var uzvarēt. Pierādīsim to.
 
@@ -341,7 +341,7 @@ pirmajā rindā!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka no divām 6.att. figūrām var salikt $2 \times 7$ rūtiņu 
 taisnstūri, skaitļu summa šajā taisnstūrī ir $2$. Visu tabulu $19 \times 14$ 
@@ -367,7 +367,7 @@ Pierādìt, ka $\sqrt[3]{6 \sqrt{3}+10}-\sqrt[3]{6 \sqrt{3}-10}=2$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $(\sqrt{3}+1)^{3}=6 \sqrt{3}+10$ un 
 $(\sqrt{3}-1)^{3}=6 \sqrt{3}-10$. Līdz ar to
@@ -389,7 +389,7 @@ $y_{5}+y_{6}$ mazākā iespējamā vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka $y_{5}+y_{6}$ mazākā iespējamā vērtība ir $60$.
 
@@ -430,7 +430,7 @@ daudz elegantu skaitļu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skaitļa $x$ ciparu summu ar $S(x)$. Pierādīsim, ka, ja $A$ ir 
 elegants, tad arī $\overline{AAA}$ (skaitlis, kas sastāv no trim pēc kārtas 
@@ -460,7 +460,7 @@ $BC, AD, AC$ var salikt taisnleņķa trijstūri!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $AC$ un $BD$ krustpunktu ar $O$ (skat. 8.att.).
 
@@ -501,7 +501,7 @@ labā malējā kvadrāta labo augšējo virsotni!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka prasītais izpildās visām nepāra $k$ vērtīām $k=2n-1$. 
 Pievērsīsim uzmanību $n$-tajai kvadrātu rindai pēc kārtas un tās pēdējā 
@@ -541,7 +541,7 @@ malas attiecība pret garāko ir $2-\sqrt{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zīmējumā (skat. 11.att.) attēlots, kā var sagriezt kvadrātu, kura malas garums 
 ir $4$. Lielākajiem taisnstūriem īsākās malas attiecība pret garāko ir 
@@ -564,7 +564,7 @@ $$\frac{x^{2}+y^{2}}{x+y}+\frac{y^{2}+z^{2}}{y+z}+\frac{z^{2}+x^{2}}{z+x} \geq x
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pamatosim, ka patvaļīgiem $x$ un $y$ ir spēkā 
 $x^{2}+y^{2} \geq \frac{(x+y)^{2}}{2}$. Atverot iekavas un pārnest visu uz 
@@ -593,7 +593,7 @@ Agitas iedomāto skaitli?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais gājienu skaits ir $2021$. Vispirms parādīsim, kā Konstantīns var 
 atrast Agitas skaitli $2021$ gājienā.
@@ -646,7 +646,7 @@ nogriežņi $BE$ un $CD$ ir perpendikulāri!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Caur $BE$ un $CD$ krustpunktu $O$ novelk nogriezni $AF$, kur $F$ atrodas uz 
 $BC$ (skat. 12.att.). Pēc Čevas teorēmas 
@@ -685,7 +685,7 @@ ir kāda vesela skaitļa kvadrāts.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienīgais šāds pāris ir $(0; 0)$, kurš der, jo $0^{18}+0^{18}+0^{18}=0$. 
 Pierādīsim, ka neviens cits pāris neder. Pieņemsim, ka kāds skaitļu pāris 

@@ -17,7 +17,7 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $2008$
 
@@ -51,7 +51,7 @@ skaitļi būtu ierakstīti tabulā tā, kā parādīts 2.zīm.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, tā: pieskaitām pirmajai rindiņai $12$, otrajai $9$, trešajai $6$, 
 ceturtajai $3$ un pēc tam atņemam no pirmās kolonnas $12$, no otrās $9$, no 
@@ -76,7 +76,7 @@ stūriem.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 2.zīm.
 
@@ -103,7 +103,7 @@ reizinājuma $k \times k$ ciparu summa ir $24$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, piemēram, $n=111111111$
 
@@ -134,7 +134,7 @@ divus spēlētājus ar vienādiem iegūto punktu daudzumiem.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc $1.$, $2.$ un $3.$ dienas spēlētājs var būt ieguvis attiecīgi 
 $0;\ \frac{1}{2};\ 1$ punktus ($3$ iespējas), 
@@ -168,7 +168,7 @@ divos gadījumos:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** $11$, **(B)** var būt jebkurš skaits, kas lielāks par $1$.
 
@@ -198,7 +198,7 @@ rūtiņas? Griezumiem jāiet pa rūtiņu līnijām.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat., piem., 3.zīm.
 
@@ -223,7 +223,7 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja kāds no cipariem ir $0;\ 3;\ 6$ vai $9$, Maija raksta atbilstošo viencipara 
 skaitli. Ja Andra nosauktie skaitļi ir $1;\ 4;\ 7$ vai $2;\ 5;\ 8$, Maija 
@@ -250,7 +250,7 @@ no šiem reizinājumiem ar $A$. Kāda ir mazākā iespējamā $A$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $72$.
 
@@ -289,7 +289,7 @@ ar $11,\ 12$ utt., uzrakstiet labāko no savām atrastajām.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms Cipariņš nosauc Katrīnai skaitļus 
 $12,\ 23,\ 34,\ 45,\ 56,\ 67,\ 78,\ 89,\ 91$. Ja Katrīna par kādu skaitli 
@@ -321,7 +321,7 @@ pierakstu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzot, nedrīkst rakstīt ne pāra ciparus, ne $5$. Atliek cipari 
 $1;\ 3;\ 7;\ 9$. Ja tos uzrakstītu visus, tad devītniekam vismaz vienā pusē 
@@ -350,7 +350,7 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē.
 
@@ -382,7 +382,7 @@ $670 \leq n \leq 1339$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajai baktērijai ir $2008$ pēcteči; apzīmējam $x_{1}=2008$. Vienai no tās 
 "meitām" pēcteču nav mazāk kā $\frac{1}{2} x_{1}=x_{2}$. Vienai no šīs 
@@ -413,7 +413,7 @@ trijstūrī $ACE$ visas malas vienādas savā starpā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar doto $\triangle ABD$ ir vienādsānu ar virsotnes leņķi $60^{\circ}$, 
 tātad regulārs. Tāpēc 
@@ -445,7 +445,7 @@ lai nevienam trijstūrim ar trim sarkanām virsotnēm visas malas nebūtu vienā
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ņemam divus patvaļīgus dotos punktus $A$ un $B$ un nokrāsojam sarkanus; tos 
 abus punktus (dotos vai nē), kas ar $A$ un $B$ veido regulāru trijstūri, 
@@ -478,7 +478,7 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka vienādojumam $x^{2}+px+q=x^{2}+ax+b$ jeb $(p-a)x=b-q$ nav 
 atrisinājuma. Tātad $p=a$ (un $b \neq q$, bet mums tas nav svarīgi). No $p=a$ 
@@ -502,7 +502,7 @@ Dots, ka $\frac{a}{b}=\frac{b}{c}=\frac{c}{a}$. Pierādīt, ka $a=b=c$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka ne $a$, ne $b$, ne $c$ nav $0$. Izmantojot proporcijas 
 pamatīpašību, iegūstam, $a^{2}=bc,\ b^{2}=ac,\ c^{2}=ab$. Dalot pirmo vienādību
@@ -535,7 +535,7 @@ $a_{1}+a_{2}+\ldots+a_{k}=n \cdot\left(\frac{1}{a_{1}}+\frac{1}{a_{2}}+\ldots+\f
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar doto skaitlim $n$ ir vismaz $3$ naturāli dalītāji. Apzīmēsim visus 
 $n$ naturālos dalītājus augošā secībā ar $a_{1}<a_{2}<\ldots<a_{k}$. Tad 
@@ -568,7 +568,7 @@ Pierādīt, ka $AD=BD$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā $\triangle ACG=\triangle BEF$ $(\ell m \ell)$. Tāpēc 
 $\sphericalangle AGC=\sphericalangle BFE$ un $\mathbf{AG}=\mathbf{BF}$. No šīs 
@@ -601,7 +601,7 @@ turnīra noslēgumā ir visvairāk punktu.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja uzvarētājs ieguvis $n$ punktus, tad kopējais iegūto punktu daudzums nav 
 lielāks par 
@@ -633,7 +633,7 @@ gadīties, ka tieši $23$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē.
 
@@ -666,7 +666,7 @@ grafiki?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Visu minēto funkciju vērtības pie $x=1$ sakrīt, bet dotie $3$ grafiki neiet
 caur vienu punktu (visi $6$ iespējamie krustpunkti zīmējumā redzami, tātad citu
@@ -692,7 +692,7 @@ Pierādīt, ka $MX \perp NY$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā (mediāna pret hipotenūzu vienāda ar pusi no hipotenūzas) seko, ka 
 $\Delta AXM$ un $\triangle CYN$ ir regulāri. 
@@ -727,7 +727,7 @@ grupai. Kāds ir mazākais iespējamais grupu skaits?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $6$ grupas.
 
@@ -770,7 +770,7 @@ mala pieder
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā. Novelkam katras rūtiņas kontūru un visa kvadrāta kontūru.
 **(B)** nē. Pieņemsim, ka $X,\ Y,\ Z,\ T$ - rūtiņu virsotnes, pie tam 
@@ -797,7 +797,7 @@ ar $10\ 000\ 001$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $n$ dalās gan ar $9\ 999\ 999$, gan ar $10\ 000\ 001$. Tā kā 
 $LKD(9\ 999\ 999,\ 10\ 000\ 001)=1$, tad $n$ dalās arī ar 
@@ -821,7 +821,7 @@ $y=ax^{2}+2bx+c$, $y=bx^{2}+2cx+a$ un $y=cx^{2}+2ax+b$ grafiki?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Tā kā parabolām zari vērsti uz augšu, tad būtu $a>0,\ b>0,\ c>0$. Tā
 kā katra parabola krusto abscisu asi divos punktos, tad visu trinomu 
@@ -845,7 +845,7 @@ atrodas uz vienas taisnes.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzot $BC$ ir $\omega_{2}$ diametrs un tāpēc 
 $\sphericalangle BMC=90^{\circ}$. Novelkam $\omega_{1}$ un $\omega_{2}$ kopīgo 
@@ -878,7 +878,7 @@ gājieniem.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar uzdevuma nosacījumiem $1$ vispār nekustas, tāpēc $2$ var kustēties 
 tikai vienreiz. Tāpēc $3$ var kustēties tikai divreiz (pirms $2$ kustības un 
@@ -903,7 +903,7 @@ nokrāsotām rūtiņām nav kopīgu robežas punktu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** sadalām kvadrātu $100$ daļās ar izmēriem $2 \times 2$ rūtiņas. Katrā 
 daļā sastopamas visas četras krāsas. Tāpēc sarkano rūtiņu ir $100$. 
@@ -935,7 +935,7 @@ $\frac{1}{1^{4}+1^{2}+1}+\frac{2}{2^{4}+2^{2}+1}+\frac{3}{3^{4}+3^{2}+1}+\ldots+
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka katram $n>0$ pastāv vienādība
 
@@ -967,7 +967,7 @@ Atrast visas tādas funkcijas $f$ un pierādīt, ka citu bez Jūsu atrastajām n
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $f_{1}(x)=x+2008$ un $f_{2}(x)=-x+2008$
 
@@ -1015,7 +1015,7 @@ dalītāji, ja $n$ - pāra skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, var; piemēram, $n=7$, jo skaitļa $7^{2}-1=48$ naturālie dalītāji ir
 $1;\ 2;\ 3;\ 4;\ 6;\ 8;\ 12;\ 16;\ 24;\ 48$.
@@ -1053,7 +1053,7 @@ ka stars $AD$ ir $\sphericalangle XAY$ bisektrise.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $BXCY$ ievilkts riņķa līnijā, tad $BD \cdot DC=XD \cdot DY \cdot$ Tā kā 
 $ABMC$ ievilkts riņķa līnijā, tad $BD \cdot DC=AD \cdot DM \cdot$ Tāpēc 
@@ -1086,7 +1086,7 @@ uzlikto masu starpību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** ar $2$ svēršanām.
 
@@ -1139,7 +1139,7 @@ $A,\ B,\ M,\ N,\ K$ - punkti, kas atrodas kvadrātiska režģa virsotnēs (skat.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārliecināties, ka punkti $A,\ B,\ K,\ N,\ M$ atrodas vienādos attālumos
 no iekrāsotās rūtiņas centra, tātad atrodas uz vienas riņķa līnijas. Tātad 
@@ -1167,7 +1167,7 @@ c. katras daļas visu skaitļu vidējais aritmētiskais arī piederētu šai da�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $n$ jābūt pāra skaitlim. Pie $n=2$ der $A=\{1\}, B=\{2\}$. Pie 
 $n=4$ prasītais sadalījums neeksistē (viegla visu gadījumu pārbaude). Pie 
@@ -1209,7 +1209,7 @@ $x+y+z>3$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -1234,7 +1234,7 @@ pārējiem skaitļiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, neeksistē.
 
@@ -1261,7 +1261,7 @@ kvadrātu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar uzdevuma nosacījumiem aizpildīto rūtiņu veidotās figūras robežas 
 garums nepieaug. Ja mēs pratīsim pierādīt, ka $10 \times 10$ rūtiņu kvadrāts ir

@@ -3,7 +3,7 @@
 Ar kādām naturālām $n$ vērtībām skaitlis $n^2 - 1$ ir pirmskaitlis?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zināms, ka $n^2 - 1 = (n - 1)(n + 1)$. 
 Tātad, ja $n - 1 > 1$, tad $n^2-1$ nav pirmskaitlis, jo $n-1$ 

@@ -7,7 +7,7 @@ $\overline{ab}$ ir divciparu skaitlis.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto vienādību var pārrakstīt šādi: $a+0.1b+0.01c = (10a+b):c$. Pareizinot vienādību ar 
 $100c$, iegūstam $100ac + 10bc + c^{2} = 1000a + 100b$; tātad $c$ dalās ar $10$, 

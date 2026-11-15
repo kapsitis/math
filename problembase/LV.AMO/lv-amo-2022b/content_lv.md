@@ -22,7 +22,7 @@ cipari $0$ un $2$ un kurš dalās ar $15$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka mazākais skaitlis, kas atbilst nosacijumiem ir $2220$. 
 Lai skaitlis dalītos ar $15$, tam jādalās gan ar $3$, gan ar $5$. 
@@ -58,7 +58,7 @@ rūtiņu malu, kas pilnībā atrodas uz robežas, skaits.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, der 1.att. redzamais sešstūris, kuram perimetrs ir 
 $20$ un arī laukums ir $20$.
@@ -90,7 +90,7 @@ septītdaļa – pensionāri. Cik biļetes tika pārdotas?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai skatītāju skaitu varētu sadalīt tieši trīs, piecās un 
 septiņās daļās, pārdoto biļešu skaitam jādalās ar $3$, $5$ un $7$. 
@@ -122,7 +122,7 @@ līdzsvarā? Atbildi pamatot!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jautājuma zīmes vietā jāliek sešas bultiņas. Izteiksim visu figūru 
 masu bultiņās. No tā, ka svari (c) atrodas līdzsvarā, secinām, 
@@ -168,7 +168,7 @@ Kāda krāsa patīk katrai meitenei? Atbildi pamatot!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Gunai patīk oranžā, Elīnai - zalā un Marutai - dzeltenā krāsa.
 
@@ -209,7 +209,7 @@ Cik ir tādu skaitļu, kas ir apvilkti ar vismaz divām dažādām krāsām?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka $249$ skaitlii ir apvilkti ar vismaz divu krāsu zīmuļiem.
 
@@ -264,7 +264,7 @@ Figūras var būt arī pagrieztas.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 4. att.
 
@@ -297,7 +297,7 @@ Vai var gadīties, ka Māris ieguva summu, kuras pēdējais cipars ir
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, $1+2+3+4+5+6+7=28$.
 
@@ -372,7 +372,7 @@ līdzsvarā? Atbildi pamatot!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jautājuma zīmes vietā jāliek pieci aplǐši. Izteiksim visu figūru 
 masu aplīšos. No tā, ka svari (c) atrodas līdzsvarā, secinām, 
@@ -419,7 +419,7 @@ sestdiena – $56$, svētdiena – $57$. Cik ciema iedzīvotāji visu laiku melo
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ciemā ir $21$ melis.
 
@@ -465,7 +465,7 @@ Cik dažādos veidos to var izdarīt?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Prasīto var izdarīt $6$ veidos.
 
@@ -512,7 +512,7 @@ Vai var atrast **(A)** $5$; **(B)** $15$ naturālus skaitļus
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, der skaitļi $1,1,2,2,2$, jo $1+1+2+2+2=8$ un 
 $1 \cdot 1 \cdot 2 \cdot 2 \cdot 2=8$
@@ -545,7 +545,7 @@ lai uz katras no taisnēm būtu atzīmēti tieši trīs punkti!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Skat., piemēram, 5. att.
@@ -582,7 +582,7 @@ ja sākumā kaudzē ir **(A)** $6$ konfektes;
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 
 Abos gadījumos vienmēr var uzvarēt Brālītis. Lai to panāktu, 
@@ -631,7 +631,7 @@ Cik ciema iedzīvotāju visu laiku melo?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 *Atbilde.* Ciemā ir $24$ meļi.
 
@@ -675,7 +675,7 @@ Cik dažādos veidos to var izdarīt?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Prasīto var izdarīt $6$ dažādos veidos.
 
@@ -726,7 +726,7 @@ ja kopā viņš ieguva $13$ punktus?
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Skolēns pareizi atrisināja $6$ uzdevumus. Pamatosim, 
 ka tā ir vienīgā derīgā vērtība. Apzīmējam pareizi 
@@ -777,7 +777,7 @@ ka $AD = BD$ un $AB = DC = AC$. Aprēķināt trijstūra $ABC$ leņķus!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $AD=BD$, tad trijstūris $ABD$ ir vienādsānu 
 trijstūris ar pamatu $AB$ un tā pamata pielenķi ir vienādi, 
@@ -833,7 +833,7 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Pamatosim, ka prasītais nav iespējams.  
 Ievērosim, ka skaitli 0; 1; 2; 8 un 9 nevar būt uzrakstiti blakus 
@@ -880,7 +880,7 @@ Cik draugu saka taisnību?
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pamatosim, ka tikai viens no draugiem saka taisnību. Ievērojam:
 
@@ -916,7 +916,7 @@ var atbilst arī vienādi cipari.)
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pamatosim, ka ir 10 skaitlļi, kas atbilst uzdevuma nosacījumiem: 
 $1881$, $2772$, $3663$, $4554$, $5445$, $6336$, $7227$, $8118$, $9009$, $9999$.
@@ -959,7 +959,7 @@ Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(A)** $x > y > 0$, **(B)*
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, piemēram, ja $x=1$ un $y=0.1$, tad 
 $x+\frac{9}{x}=10$ un $y+\frac{9}{y}=90.1$, bet $10<90.1$.
@@ -1007,7 +1007,7 @@ Pierādīt, ka taisne $CH$ dala nogriezni $BK$ divās vienādās daļās!
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $CH$ un $KB$ krustpunktu ar $O$ un 
 $\sphericalangle CBK=\sphericalangle BAC=\alpha$, 
@@ -1057,7 +1057,7 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Pamatosim, ka prasītais nav iespējams.
 
@@ -1120,7 +1120,7 @@ Vai muzeja vadītājs var izveidot šādu maršrutu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, skat., piemēram, 12. att.
 
@@ -1211,7 +1211,7 @@ grupas skaitļu summa ir pirmskaitlis, ja **(A)** $n = 8$,
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Jā, piemēram, skait!us no 1 līdz 8 var sadalīt šādās divās grupās:
 
@@ -1242,7 +1242,7 @@ abām katetēm. Aprēķināt trijstūra $ACB$ laukumu, ja $OB = 5$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Punktus, kur riņķa līnijas rādiuss pieskaras katetēm, apzīmēsim ar 
 $M$ un $N$ (skat. 13. att.). Tā kā rādiuss ir perpendikulārs 
@@ -1284,7 +1284,7 @@ nav reālu sakņu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Abas vienādojuma puses reizinām ar $a$ un veicam ekvivalentus 
 pārveidojumus (izmantojot, ka $abc=1$):
@@ -1407,7 +1407,7 @@ Vai skaitli 2022 var izteikt kā divu veselu skaitļu kubu summu?
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Vispirms noskaidrosim, ar ko var būt kongruenti veselu skaitlu kubi pēc moduļa $9$:
 
@@ -1454,7 +1454,7 @@ Kādām reālām $p$ vērtībām vienādojuma $x^2 + x + p = 0$ sakņu kvadrātu
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim kvadrātvienādojuma saknes ar $x_{1}$ un $x_{2}$. 
 Pēc Vjeta teorēmas zināms, ka $x_{1} x_{2}=p$ un $x_{1}+x_{2}=-1$. 
@@ -1483,7 +1483,7 @@ garumu, ja trijstūra leņķa $B$ lielums ir $120^{\circ}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam riņka līnijas pieskaršanās punktu malai $BC$ ar $E$ un 
 malai $AC$ ar $F$ skat. 15.att. Tā kā trijstūrī $ABC$ ir ievilkta riņķa 
@@ -1522,7 +1522,7 @@ $$x^2 + y^2 + z^2 - xy - yz - xz \leq 1.$$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -1572,7 +1572,7 @@ Kādām $m$ un $n$ vērtībām muzeja vadītājs var izveidot šādu maršrutu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Muzeja vadītājs var izveidot aprakstīto maršrutu visām 
 $m;n \geq 2$ vērtībām, kurām vismaz viens no $m$ vai $n$ dalās ar 2. 
@@ -1637,7 +1637,7 @@ Vai skaitli $2023^2$ var izteikt kā trīs veselu skaitļu kubu summu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms noskaidrosim, ar ko var būt kongruenti veselu skaitlu kubi pēc moduļa $9$:
 
@@ -1687,7 +1687,7 @@ Kādām reālām $p$ vērtībām vienādojuma $x^2 + x + p$ sakņu kubu summa ir
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim kvadrātvienādojuma saknes ar $x_{1}$ un $x_{2}$. 
 Pēc Vjeta teorēmas zināms, ka $x_{1} x_{2}=p$ un $x_{1}+x_{2}=-1$. 
@@ -1720,7 +1720,7 @@ augstuma no virsotnes $B$ garums ir $\sqrt{3}$. Kāds var būt šī trijstūra l
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $AB$ viduspunktu ar $M$ un novilksim perpendikulus 
 $MP$ un $MT$ attiecīgi pret malām $AC$ un $BC$. 
@@ -1889,7 +1889,7 @@ punktu. Kuram spēlētājam ir uzvaroša stratēģija, ja **(A)** $n = 2021$; **
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Ja $n=2021$, uzvar Ilmārs. Pirmajā gājienā viņš centrālajā 
 rūtiņā ieraksta skaitli $-1$, bet tālākajos gājienos spēlē simetriski 

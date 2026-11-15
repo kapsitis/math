@@ -3,7 +3,7 @@
 Cik daudz ir četrciparu skaițlu, kas dalās ar $7$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Četrciparu skaiţu, kas dalās ar $7$, pavisam ir $\lfloor 9999 / 7 \rfloor -  \lfloor 999 / 7 \rfloor = 1286$.
 

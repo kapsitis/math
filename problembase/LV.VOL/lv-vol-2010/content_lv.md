@@ -12,7 +12,7 @@ skaitļi, saknes ir divu dažādu naturālu skaitļu kvadrāti?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar Vjeta teorēmu $x_{1}+x_{2}=a^{2}$ un $x_{1}x_{2}=b^{2}$.
 
@@ -39,7 +39,7 @@ un $N$ var novilkt riņķa līniju. Atrast $\sphericalangle BAC$ vērtību.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja caur punktiem $B, M, O$ un $N$ var novilkt riņķa līniju, tad
 $\sphericalangle NBM+\sphericalangle NOM=180^{\circ} \quad$ un
@@ -71,7 +71,7 @@ Kāds lielākais daudzums pēc kārtas sekojošu naturālu skaitļu visi var bū
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim $11$ tādus pēc kārtas sekojošus naturālus skaitļus no $k$ līdz $k+10$
 (ieskaitot), ka skaitļa $k$ pēdējais cipars ir $1$. Skaitlis $k$ beidzas ar $1$ un
@@ -101,7 +101,7 @@ Cik no $8$ šo divu taisnstūru virsotnēm var vienlaicīgi piederēt arī otram
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** no astoņām divu taisnstūru virsotnēm vienlaicīgi otram arī taisnstūrim var
 piederēt $0, 2, 3$, $4, 5, 6$ vai $8$ virsotnes, skat., piem., 2.zīm.
@@ -192,7 +192,7 @@ rūtiņas ir vienā krāsā, ja
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Tā kā galarezultātu nosaka tikai tas, cik reizes katrai rūtiņai ir mainīta
         krāsa, nav svarīgi, kādā secībā gājieni tiek izdarīti. 4.zīm. parādīts
@@ -229,7 +229,7 @@ $$\frac{a}{b+c-a}+\frac{b}{a+c-b}+\frac{c}{a+b-c} \geq 3$$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $b+c-a=2x$, $a+c-b=2y$ un $a+b-c=2z$, tātad $a=y+z$, $b=x+z$ un $c=x+y$. Tā
 kā $a, b, c$ ir trijstūra malu garumi, tad $x, y, z$ ir pozitīvi skaitļi. Lietojot
@@ -271,7 +271,7 @@ Pierādīt, ka $a_{1}=a_{2}=a_{3}=\ldots=a_{20}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam kopējo vērtību ar $x$. Tad $a_{1}-a_{2}=\mp x$,
 $a_{2}-a_{3}=\mp \frac{x}{2}$, $\ldots$, $a_{20}-a_{1}=\mp \frac{x}{20}$. Saskaitot
@@ -297,7 +297,7 @@ $\sphericalangle MDN \geq \sphericalangle BAC$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $E$ apzīmēsim no virsotnes $A$ vilktā augstuma pamatu, ar $F$- malas $BC$
 viduspunktu. Pierādīsim, ka $D$ atrodas starp $E$ un $F$ (vai ar tiem sakrīt, ja $ABC$
@@ -343,7 +343,7 @@ tāda diena, kurā viņi abi ir uzstājušies?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais iespējamais dienu skaits festivālā ir $5$.
 
@@ -392,7 +392,7 @@ $2 \times 3$ rūtiņas un vienā stūrītī ![](LV.VOL.2010.10.5.png)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka ir izdevies kvadrātu ar izmēriem $9 \times 9$ rūtiņas sagriezt uzdevumā
 prasītajās figūrās. Simetrijas dēļ var uzskatīt, ka šajā sadalījumā *stūrītis* ir
@@ -424,7 +424,7 @@ Pierādīt, ka $ab+ac+ad+bc+bd+cd-a^{2}-b^{2}-c^{2}-d^{2} \leq 8$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 $$\begin{aligned}
@@ -433,7 +433,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 
 $$\begin{aligned}
@@ -461,7 +461,7 @@ $$a_{1}^{3}+a_{2}^{3}+\ldots+a_{k}^{3}=\left(a_{1}+a_{2}+\ldots+a_{k}\right)^{2}
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātisko indukciju, lai pierādītu, ka $a_{i}=i, i=1 ; 2 ; \ldots ; n$.
 
@@ -499,7 +499,7 @@ $\omega$ pieskare un $AT=TB$. Pierādīt, ka $AB=AC$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 1) No dotā seko, ka $\triangle ATB$ ir vienādsānu un
 $\sphericalangle TAB=\sphericalangle TBA$ (skat. 8.zīm.).
@@ -553,7 +553,7 @@ virknes loceklis, kas dalās ar $n$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katram naturālam $n$ aplūkosim virkni $\left\{G_{i}\right\} i \geq 1$, kur $G_{i}$ ir
 atlikums, ko iegūst $F_{i}$ dalot ar $n$. Ja $n=1$, tad katrs Fibonači virknes loceklis
@@ -602,7 +602,7 @@ ka no katras pilsētas ir iespējams aizbraukt uz katru citu, braucot tikai pa c
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pieņemsim, ka ir $2$ pilsētas, īsākais ceļš starp kurām iet caur vismaz četrām
 citām pilsētām. Tad šajā ceļā noteikti ir $2$ tādas pilsētas, starp kurām īsākais ceļš
@@ -654,7 +654,7 @@ $$\left|x_{1}^{3}+x_{2}^{3}+\ldots+x_{n}^{3}\right| \leq 2 n$$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Varam apzīmēt $x_{i}=2 \cos \alpha_{i}, i=1,2, \ldots, n$. Ievērojam, ka
 
@@ -686,7 +686,7 @@ Pierādīt, ka $p=q=1$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim virknes, kurām vismaz viens no koeficientiem $p$ vai $q$ ir lielāks nekā $1$
 jeb $p+q > 2$. Ar matemātisko indukciju pierādīsim, ka visi virknes
@@ -740,7 +740,7 @@ Pierādīt, ka trijstūru $OHD$ un $OEJ$ laukumi ir vienādi.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim īpašību, ka ja diviem trijstūriem ir vienādi augstumi, tad pamatu garumu
 attiecība ir vienāda ar trijstūru laukumu attiecību. No trijstūru mediānu attiecībām
@@ -810,7 +810,7 @@ Vai ir iespējams, ka **(A)** $k=7$, **(B)** $k=8$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** To var izdarīt, piemēram, izvietojot skaitļus pa apli pēc kārtas: $1234567$.
 
@@ -851,7 +851,7 @@ noskaidrot, kurā no visām kredītkartēm ir lielākā naudas summa.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dosim risinājumu **(B)** gadījumam. Skaidrs, ka, ja uzdevuma prasības var izpildīt ar
 $99$ ierīces lietojumiem, tad ar $100$ lietojumiem to arī var izdarīt.

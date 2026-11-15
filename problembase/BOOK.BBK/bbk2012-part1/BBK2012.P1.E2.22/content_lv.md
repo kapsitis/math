@@ -5,7 +5,7 @@ Un otrādi, ja zināms, ka daļa $(a - b)/(a + b)$ ir saīsināma,
 vai daļa $a/b$ noteikti ir saīsināma?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, ir saīsināma. Ja $n \mid a$ un $n \mid b$, tad $n \mid (a - b)$ un 
 $n \mid (a + b)$. Apgrieztais apgalvojums neizpildās, jo, 

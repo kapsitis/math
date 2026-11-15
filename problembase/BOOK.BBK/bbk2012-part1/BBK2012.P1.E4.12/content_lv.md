@@ -12,7 +12,7 @@ Dots, ka $(x, y)=10$. Kādas vērtības var pien̦mt sekojošie skaitļi?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbildes: **(A)** 10 ; **(B)** 10 ; **(C)** $10 ; 20$; **(D)** 30; **(E)** $10;20;30;60$; **(F)** $10;20$; 
 **(G)** $20$; **(H)** $10;20;30;60$.

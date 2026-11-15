@@ -4,7 +4,7 @@ What is the smallest positive integer that uses only the digits $0$ and $2$ in i
 notation and is divisible by $15$?
 
 
-## Solution
+## Solution-1
 
 We show that the smallest number satisfying the conditions is $2220$. 
 For a number to be divisible by $15$, it must be divisible by 
@@ -25,7 +25,7 @@ perimeter is the number of sides of the little squares on its border.
 
 
 
-## Solution
+## Solution-1
 
 Consider the hexagon shown in Fig.1. Its perimeter is $20$ and the area is also $20$.
 
@@ -44,7 +44,7 @@ were students and exactly one-seventh were retirees. How many tickets were sold?
 
 
 
-## Solution 
+## Solution-1
 
 *Answer.* $210$ tickets were sold.
 
@@ -69,7 +69,7 @@ balance scale (d) is also in equilibrium? Justify your answer!
 
 
 
-## Solution
+## Solution-1
 
 We need to place six arrows instead of the question mark. 
 Let's express the mass of all the figures in "arrow units". 
@@ -101,7 +101,7 @@ Exactly one of the following claims is known to be true:
 What colour does every girl like? Justify your answer!
 
 
-## Solution 
+## Solution-1
 
 Guna likes orange, Elina likes green, and Maruta likes yellow. 
 At least one of the last two claims must be true since Elina cannot 
@@ -130,7 +130,7 @@ least two different colors?
 
 
 
-## Solution
+## Solution-1
 
 We show that $249$ numbers are circled with at least two colors.
 
@@ -167,7 +167,7 @@ The figures can also be rotated.
 
 
 
-## Solution 
+## Solution-1
 
 See, for example, Fig.4.
 
@@ -186,7 +186,7 @@ Could it happen that Maris gets a sum whose last digit is
 
 
 
-## Solution 
+## Solution-1
 
 **(A)**  
 Yes, he can. For example, be $1+2+3+4+5+6+7=28$. 
@@ -253,7 +253,7 @@ How many circles should you put in place of the question mark so that the balanc
 ![](LV.AMO.2022B.6.4.png) 
 
 
-## Solution
+## Solution-1
 
 *Answer.* The question mark should be replaced by five circles. 
 
@@ -294,7 +294,7 @@ How many villagers lie all the time?
 
 
 
-## Solution 
+## Solution-1
 
 *Answer.* In the village there are $21$ liars. 
 
@@ -320,7 +320,7 @@ number is divisible by $15$. In how many ways can you do this?
 
 
 
-## Solution
+## Solution-1
 
 *Answer.* This can be done in $6$ ways. 
 
@@ -346,7 +346,7 @@ Do there exist **(A)** $5$; **(B)** $15$ positive integers
 (some of them may be equal) such that their sum equals their product?
 
 
-## Solution 
+## Solution-1
 
 **(A)** Yes, the numbers $1,1,2,2,2$ satisfy the condition, since 
 $1+1+2+2+2=8$ and $1 \cdot 1 \cdot 2 \cdot 2 \cdot 2=8$ 
@@ -367,7 +367,7 @@ exactly three points are marked on each line!
 
 
 
-## Solution 
+## Solution-1
 
 An possible answer is shown in Fig.5. 
 
@@ -389,7 +389,7 @@ book *Karlsson-on-the-Roof*.)
 
 
 
-## Solution 
+## Solution-1
 
 Lillebror can win in both cases. To achieve this, he can proceed 
 as follows: in every move, if Karlsson eats one candy, then Lillebror 
@@ -423,7 +423,7 @@ How many villagers lie all the time?
 
 
 
-## Solution 
+## Solution-1
 
 *Answer.* In the village there are $24$ liars. 
 
@@ -452,7 +452,7 @@ In how many ways can you do this?
 
 
 
-## Solution 
+## Solution-1
 
 The requirements can be satisfied in $6$ different ways. 
 In order to have a number $\overline{N597M}$ divisible by $12$, 
@@ -486,7 +486,7 @@ correctly, if his total score is $13$?
 
 
 
-## Solution 
+## Solution-1
 
 *Answer.* The student solved $6$ tasks correctly. 
 
@@ -521,7 +521,7 @@ such that $AD = BD$ and $AB = DC = AC$. Calculate the angles
 of $ABC$!
 
 
-## Solution 
+## Solution-1
 
 Since $AD=BD$, the triangle $ABD$ is an isosceles 
 triangle with the base $AB$ and both angles at the base 
@@ -560,7 +560,7 @@ around a circle so that any two adjacent numbers differ by $3$, $4$, or $5$?
 
 
 
-## Solution
+## Solution-1
 
 **(A)** Let us show that it is impossible. Note that the numbers 
 $0$; $1$; $2$; $8$ and $9$ cannot be written next to each other 
@@ -600,7 +600,7 @@ How many friends speak the truth?
 
 
 
-## Solution 
+## Solution-1
 
 *Answer.* We show that only one of the friends speaks the truth. 
 Note that: 
@@ -625,7 +625,7 @@ but different letters may or may not be the same.)
 
 
 
-## Solution 
+## Solution-1
 
 There are $10$ numbers that satisfy the conditions: 
 $1881$, $2772$, $3663$, $4554$, $5445$, $6336$, $7227$, $8118$, $9009$, $9999$. 
@@ -650,7 +650,7 @@ Is the inequality always true: $x + \frac{9}{x} > y + \frac{9}{y}$, if
 **(A)** $x > y > 0$,  **(B)** $x > y > 3$?
 
 
-## Solution 
+## Solution-1
 
 **(A)** 
 No. For example, take $x=1$, and $y=0.1$. Then 
@@ -686,7 +686,7 @@ Prove that the line $CH$ divides the segment $BK$ in half!
  
 
 
-## Solution
+## Solution-1
 
 Denote the intersection of $CH$ and $KB$ with $O$ and $\sphericalangle CBK=\sphericalangle BAC=\alpha$, 
 $\sphericalangle ABC=\beta$ (see Fig.9). 
@@ -720,7 +720,7 @@ on a circle so that any two adjacent numbers differ by $3$; $4$ or $5$?
 
  
 
-## Solution 
+## Solution-1
 
 **(A)** We show that it is impossible.  
 Note that the numbers $1$; $2$; $3$; $11$; $12$ and $13$ 
@@ -771,7 +771,7 @@ Can the director of the museum create such route?
  
 
 
-## Solution 
+## Solution-1
 
 **(A)** Yes, he can. See, for example, Fig.12. 
 
@@ -862,7 +862,7 @@ Each group must contain at least $2$ numbers.
 
 
 
-## Solution 
+## Solution-1
 
 **(A)** Yes, for example, numbers from $1$ to $8$ can be 
 divided into the following two groups: 
@@ -889,7 +889,7 @@ Calculate the area of triangle $ACB$, if $OB = 5$.
 
 
 
-## Solution 
+## Solution-1
 
 Denote the points where the circle touches the legs $CB$ and $CA$ by 
 $M$ and $N$ respectively (see Fig.13). Since the radius $OM$ is perpendicular 
@@ -926,7 +926,7 @@ has no real roots!
  
 
 
-## Solution 
+## Solution-1
 
 Multiply both sides of the equation by $a$ and 
 makes equivalent transforms (using $abc=1$): 
@@ -1027,7 +1027,7 @@ Can $2022$ be expressed as the sum of cubes of two integers?
 
  
 
-## Solution 
+## Solution-1
 
 We find out what are the integer cubes congruent to modulo $9$: 
 
@@ -1069,7 +1069,7 @@ $x_1^2 + x_2^2 = 16$?
 
 
 
-## Solution 
+## Solution-1
 
 Let $x_1,x_2$ be the roots of the quadratic equation. 
 By Vietas theorem, $x_{1} x_{2}=p$ and $x_{1}+x_{2}=-1s. 
@@ -1091,7 +1091,7 @@ of angle $\sphericalangle B$ in the triangle is $120^{\circ}$.
 
 
 
-## Solution 
+## Solution-1
 
 Denote the point where the inscribed circle touches $BC$ 
 by $E$ and the point where it touches $AC$ by $F$ (Fig. 15).
@@ -1129,7 +1129,7 @@ $$x^2 + y^2 + z^2 - xy - yz - xz \leq 1.$$
  
 
 
-## Solution 
+## Solution-1
 
 Let us note the following:
 
@@ -1171,7 +1171,7 @@ create a route satisfying these requirements?
 
 
 
-## Solution 
+## Solution-1
 
 The director can create a route as described above 
 if and only if $m;n \geq 2$, and at least one of the $m$ 
@@ -1227,7 +1227,7 @@ Can the number $2023^2$ be expressed as the sum of three integer cubes?
 
  
  
-## Solution 
+## Solution-1
 
 We first find out what the integer cubes are congruent to modulo $9$: 
 
@@ -1276,7 +1276,7 @@ For what real values $p$ the sum of cubes of both roots of the equation
 $x^2 + x + p$ is equal to $(-16)$?
  
 
-## Solution 
+## Solution-1
 
 Denote the roots of the square equation with $x_{1}$ and $x_{2}$. 
 Vietas theorem states that $x_{1} x_{2}=p$ and $x_{1}+x_{2}=-1$. Using the 
@@ -1300,7 +1300,7 @@ has length $\sqrt{3}$. What can be the area of this triangle?
 
  
 
-## Solution 
+## Solution-1
 
 Let $M$ be the midpoint of $AB$. Draw perpendiculars $MP$ and $MT$ against 
 the sides $AC$ and $BC$ respectively. Let $Q$ and $N$ be the feet of 
@@ -1455,7 +1455,7 @@ The player who gets more points wins. Which player has a winning strategy, if
 
  
 
-## Solution 
+## Solution-1
 
 **(A)** If $n=2021$, Ilmārs wins. In his first move, he enters $-1$ in the central 
 square; in all subsequent moves he plays symmetrically -- he writes the 

@@ -21,7 +21,7 @@ vienu veidu, kā to var izdarīt.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Prasīto var izdarīt, kā parādīts 2. att., kur katru trīs pēc kārtas esošu 
 skaitļu summa ir $51$.
@@ -69,7 +69,7 @@ taciņas var krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Jā, piemēram, skat. 5. att., kur ar punktiem attēlotas mājiņas, 
 bet ar līnijām attēlotas taciņas un pie katra punkta pierakstīts no tā 
@@ -106,7 +106,7 @@ ja tās var uzlikt vienu uz otras tā, ka abas figūras sakrīt
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 7. att.
 
@@ -132,7 +132,7 @@ summu tā, lai katru divu šo skaitļu summa dalītos ar trešo skaitli!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Prasīto var izdarīt šādi: $174=29+58+87$. Pārbaudām, ka katru divu 
 šo skaitļu summa dalās ar trešo skaitli:
@@ -165,7 +165,7 @@ sarkanās un zilās monētas, ja sākumā ir dota viena sarkana monēta?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, tas nav iespējams. Ievērosim, ka sākumā ir dota viena monēta 
 un ar katru darbību monētu skaits palielinās par $4$ monētām 
@@ -197,7 +197,7 @@ būtu patiesa!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der vērtības $x=1$; $y=5$ un $z=2$. Ar šīm vērtībām vienādība ir patiesa, jo
 
@@ -232,7 +232,7 @@ krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pamatosim, ka tas nav iespējams. Tā kā katrai taciņai ir 
 divi gali, tad kopējam taciņu galu skaitam ir jābūt pāra skaitlim, 
@@ -268,7 +268,7 @@ otras tā, ka abas figūras pilnīgi sakrīt (figūras var pagriezt un apmest ot
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 10. att. vai 11. att.
 
@@ -293,7 +293,7 @@ ar atlikušo skaitli?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var šādi $72=12+24+36$. Pārbaudām, vai katru divu šo 
 skait|u summa dalās ar trešo skaitli:
@@ -334,7 +334,7 @@ Vai, vairākkārt izpildot šādus gājienus, no skaitļa $17$ var iegūt:
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, šādi:
 
@@ -377,7 +377,7 @@ būtu ierakstīti rūtiņās ar kopīgu malu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atrisinājums. Jā, var, skat. attēlu.
 
@@ -403,7 +403,7 @@ $5$ citām lampiņām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var. Sadalām $90$ lampiņas $15$ grupās pa $6$ 
 lampiņām katrā grupā. Katras grupas katras divas lampiņas 
@@ -443,7 +443,7 @@ un $AD=3$. Pierādīt, ka $CD>2$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam nogriezni $BD$ (skat. 15.att.). No dotā izriet, ka 
 $\sphericalangle DAB = \sphericalangle ABC > \sphericalangle ABD$. 
@@ -473,7 +473,7 @@ ir tikpat ciparu, cik skaitlim $n^{3}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ir trīs skaitli, kam izpildās uzdevuma nosacījumi, šie skaitḷi ir 
 $1$; $2$ un $4$, jo $1^{2}=1^{3}=1$; $2^{2}=4$ un $2^{3}=8$ 
@@ -518,7 +518,7 @@ ja sākumā kastē atrodas:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, nevar. Ar katru gājienu visu krāsu lodīšu skaita 
 paritāte mainās (no pāra skaitļa uz nepāra skaitli un otrādi). 
@@ -559,7 +559,7 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, kā parādīts 17.att., kur katru četru pēc kārtas 
 ierakstītu skait|u summa ir $36$.
@@ -612,7 +612,7 @@ nedraudzējas. Vai var gadīties, ka **(A)** $m=11$, **(B)** $m=10$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, nevar. Cilvēkus iedomāsimies kā punktus, 
 bet draudzības kā nogriežņus, kas šos punktus savieno. 
@@ -660,7 +660,7 @@ ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ le�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $AK$ un $MC$ krustpunktu ar $H$ (skat. 21.att.). 
 Tā kā $\triangle KAC$ un $\triangle ABC$ ir vienādsānu 
@@ -702,7 +702,7 @@ pagriezt un apmest otrādi).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 23.att. vai 24.att.
 
@@ -793,7 +793,7 @@ $x$; $x+2$; $x+4$; $x+6$; $x+8$ vienlaicīgi var būt pirmskaitḷi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x=1$, tad ir $3$ pirmskaitli, un tie ir $3 ; 5 ; 7$ 
 ($1+8=9$ nav pirmskaitlis).
@@ -840,7 +840,7 @@ katram rūķim ir tieši $9$ draugi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Rūķus apzīmējam ar punktiem un divus punktus savienojam ar nogriezni, 
 ja punktiem atbilstošie rūķi savā starpā draudzējas. Tā kā no katra 
@@ -975,7 +975,7 @@ negaisa?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Koku skaitu pirms negaisa apzīmēsim ar $n$, bet koku gadu 
 kopsummu apzīmēsim ar $s$.
@@ -1053,7 +1053,7 @@ kas var būt atzīmēti uz papīra lapas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais iespējamais punktu skaits ir astoņi. Dotajā piemērā 
 (skat. 3.att.) punkti sadalīti divās grupās (1. grupa un 2. grupa) 
@@ -1131,7 +1131,7 @@ $p<N$ skaitlis $N+2p$ arī ir pirmskaitlis!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkojam vērtību $N=7$ un pārbaudām, vai $N+2p$ ir pirmskaitlis 
 visiem $p$, kas mazāki nekā $N$:
@@ -1165,7 +1165,7 @@ Kāds var būt komandu skaits, kas piedalījās šajā turnīrā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Turnīrā varēja piedalīties $3$ vai $4$ komandas, piemēram, 
 atbilstošu spēļu norisi skat. 6.att., kur skaitlis $1$ norāda 
@@ -1269,7 +1269,7 @@ trīs rūḳus, kas visi savā starpā draudzējas, ja šajā zemē ir
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katru rūķi apzīmēsim ar punktu. Ja divi rūḳi draudzējas, tad 
 tos savienosim ar zaḷu nogriezni (nepārtraukta līnija), ja 
@@ -1440,7 +1440,7 @@ naturālo skaitļu permutācijas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka abas virknes $\left\{b_{i}\right\}$ un 
 $\left\{c_{i}\right\}$ ir attiecīgi $n-1$ un $n-2$ mazāko skaitļu 
@@ -1491,7 +1491,7 @@ $$x^{2}+y^{2}+z^{2}+a \geq x + 2y + 3z$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā iespējamā vērtība ir $a=\frac{7}{2}$. Ekvivalenti pārveidosim 
 doto nevienādību, atdalot pilnos kvadrātus:
@@ -1530,7 +1530,7 @@ visas $3$ partijas, vai nevienu partiju, ja turnīrā piedalās
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šahistus apzīmējam ar punktiem. Divus šahistus savienosim ar nepārtrauktu līniju, ja tie ir izspēēejuši partiju, bet ar pārtrauktu līiiju, ja tie nav izspēlējuši partiju.
 
@@ -1569,7 +1569,7 @@ un $E$. Pierādīt, ka $AD < 2AE$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūri $ABC$ un $BCD$ ir vienādsānu trijstūri ($AB=AC$ pēc dotā 
 un $BC=BD$ kā rādiusi), turklāt leņķi pie pamata abiem trijstūriem 
@@ -1692,7 +1692,7 @@ ka visas kastes ir tukšas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 *Atbilde.* Mazākais gājienu skaits ir $11$.
 

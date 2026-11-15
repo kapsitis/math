@@ -4,7 +4,7 @@ Ar kādām naturālām $n$ un $m$ vērtībām skaitlis
 $(n-m)(n^2+m-1)$ ir pirmskaitlis?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nav tādu $n$ un $m$ vērtību. Vērtības $n<m$ dod negatīvu rezultātu un neder.
 Ja $n-m=0$, tad $0$ nav pirmskaitlis. 

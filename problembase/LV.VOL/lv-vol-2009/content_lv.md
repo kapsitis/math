@@ -13,7 +13,7 @@ $\left|x_{1}^{3}-x_{2}^{3}\right|=1$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar Vjeta teorēmu $\left|x_{1}^{2}-x_{2}^{2}\right|=1 \Leftrightarrow\left|\left(x_{1}-x_{2}\right)\left(x_{1}+x_{2}\right)\right|=1 \Leftrightarrow\left|x_{1}-x_{2}\right|=1 \Leftrightarrow 2 \sqrt{\frac{1}{4}-a}=1 \Leftrightarrow a=0$, kā arī $\left|x_{1}^{3}-x_{2}^{3}\right|=1 \Leftrightarrow\left|\left(x_{1}-x_{2}\right)\left(x_{1}^{2}+x_{1} x_{2}+x_{2}^{2}\right)\right|=1 \Leftrightarrow \mid \sqrt{1-4 a}\left(\left(x_{1}+x_{2}\right)^{2}-x_{1} x_{2}\right)=1 \Leftrightarrow$ $\Leftrightarrow \sqrt{1-4 a}|1-a|=1 \Leftrightarrow 4 a^{3}-9 a^{2}+6 a=0 \Leftrightarrow a=0$.
 
@@ -33,7 +33,7 @@ naturālu skaitļu var visi būt vienkārši?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** trīs skaitļi.
 
@@ -62,7 +62,7 @@ nokrāsotas dažādās krāsās. Kāda ir mazākā iespējamā $k$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $k=8$. 
 
@@ -90,7 +90,7 @@ $BH$ viduspunkti. Pierādīt, ka $\Delta MKA_{1}=\Delta B_{1}NM$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No viduslīniju īpašībām trijstūrī $AHB$ iegūstam $NM=\frac{1}{2} HB$ un 
 $KM=\frac{1}{2} AH$; tā kā mediāna pret hipotenūzu ir puse no hipotenūzas, tad 
@@ -123,7 +123,7 @@ ir čempions,
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** pieņemsim, ka $A$ noslēgumā ir visvairāk uzvaru. Ņemsim jebkuru citu 
 tenisistu $B$. Ja $A$ uzvarējis $B$, tad $A$ ir spēcīgāks par $B$. Ja $A$ 
@@ -155,7 +155,7 @@ $MNCB$ ir paralelograms.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli redzēt, ka $ANCP$ un $BMAP$ ir rombi, tāpēc nogriežņi $NC$ un $MB$ ir 
 vienādi un paralēli. No tā seko vajadzīgais.
@@ -181,7 +181,7 @@ naturāls skaitlis). Kādas ir iespējamās $n$ vērtības?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pastāv divas iespējas:
 
@@ -217,7 +217,7 @@ reizinājumu? Vai $17$ kartǐšu gadījumā Andrim pietiek ar $7$ jautājumiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sešpadsmit skaitļu gadījumā Andris ar $5$ jautājumiem tos visus nevar aptvert. 
 Ar $6$ jautājumiem 
@@ -241,7 +241,7 @@ $x, y, z$ - no nulles atšķirīgi reāli skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $|a+b| \leq |a|+|b|$, tad neviens saskaitāmais nepārsniedz $1$, un 
 $S \leq 3$. Divi no skaitļiem $x;\ y;\ z$ ir ar vienādu zīmi; attiecīgais 
@@ -266,7 +266,7 @@ Pierādīt, ka $BO \perp MN$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle MBX=45^{\circ}=\sphericalangle MCX$, tad punkti $B$; 
 $C$; $M$; $X$ atrodas uz vienas riņķa līnijas. Tā kā 
@@ -293,7 +293,7 @@ aritmētisku progresiju?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $3$.
 
@@ -319,7 +319,7 @@ lielāko kopīgo dalītāju.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $3^{3}-3=24$, tad meklējamais $d$ nevar būt lielāks par $24$. Pierādīsim,
 ka visi apskatāmie skaitļi dalās ar $24$; tad būs pierādīts, ka $d=24$. Pie 
@@ -349,7 +349,7 @@ reālos skaitļos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atņemot pirmo vienādojumu no otrā, iegūstam
 
@@ -377,7 +377,7 @@ abu pārējo Maijas izvēlēto skaitļu summu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim visas Andra izvēlēto skaitļu starpības, no lielāka skaitļa atņemot 
 mazāku. Šādu starpību pavisam ir $45$. Tā kā tās ir robežās no $1$ līdz $36$, 
@@ -417,7 +417,7 @@ $ABC,\ BCD,\ CDA,\ DAB$ ievilkto riņķa līniju centri ir taisnstūra virsotnes
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $X$ un $Y$ ir attiecīgi $\triangle ABD$ un $\triangle ABC$ iecentri, tad 
 $\sphericalangle AYB=180^{\circ}-\frac{1}{2}(\sphericalangle BAC+\sphericalangle \mathrm{ABC})=90^{\circ}+\frac{1}{2} \sphericalangle ACB$
@@ -451,7 +451,7 @@ $$x_{1}^{2}+x_{2}^{2}+\ldots+x_{12}^{2}=y_{1}^{2}+y_{2}^{2}+\ldots+y_{12}^{2}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $x_{1}+y_{1}=x_{2}+y_{2}=\ldots=x_{12}+y_{12}=11$ un 
 $x_{1}+\ldots+x_{12}=y_{1}+\ldots+y_{12}$ (katrā spēlē viens uzvar un viens 
@@ -476,7 +476,7 @@ summa ir $3434$. Kāds var būt skaitlis $n$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja Katrīnas uzrakstītais skaitlis ir $\overline{abc}=100a+10b+c$, tad visu sešu
 no cipariem $a; b; c$ izveidojamo skaitļu summa ir $222(a+b+c)$, bet Maijas 
@@ -503,7 +503,7 @@ malu $BC$ punktā $F$. Pierādīt, ka $EF=AE+FC$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atliekam uz $BC$ pagarinājuma $CG=AE$. Tad $\triangle DAE=\triangle DCG$, tāpēc
 $\sphericalangle ADE=\sphericalangle CDG$; tātad 
@@ -539,7 +539,7 @@ un $B$ un tālāk no $B$ uz $C$.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka tāda vārdnīcu sistēma iespējama jebkuram nepāra skaitam valodu 
 $n,\ n \geq 3$.
@@ -579,7 +579,7 @@ reālos skaitļos, kur $a$ - reāla konstante.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojums pārveidojas par $x^{4}+x^{3}-2x^{2}-6ax-4a^{2}=0$.
 

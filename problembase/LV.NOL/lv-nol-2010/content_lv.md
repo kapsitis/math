@@ -17,7 +17,7 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vai nu $1$, vai 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, skat. 1.zīm.
 
@@ -46,7 +46,7 @@ Cik ir tādu naturālu skaitļu, kas ir vairāk nekā viena datuma pieraksti And
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Andra "kods" var būt divciparu, trīsciparu vai četrciparu. To atšifrējot, problēmas var
 radīt tikai trīsciparu kodi, pie tam tikai tādi, kam pēdējais cipars ir $1$ vai $2$;
@@ -76,7 +76,7 @@ diviem iekrāsotiem trijstūrīšiem nebūtu ne kopīga mala, ne kopīgs stūris
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā izdalītajā daļā drīkst nokrāsot augstākais vienu trijstūrīti (skat. 2.zīm.).
 Tāpēc maksimums ir $4$ (piemēram, stūra un centrālā rūtiņa).
@@ -105,7 +105,7 @@ būtu tāds, kāds redzams 2.zīm, bet pārējie četri būtu savā starpā vien
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat., piem., 3.zīm.
 
@@ -134,7 +134,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: $3$ stundās.
 
@@ -166,7 +166,7 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē. Ja kastu būtu $n$, tad rūķīšu piedalīšanos kopā būtu gan $2 \cdot n$, gan
 $5 \cdot 3$. Bet naturālam $n$ nevar pastāvēt vienādība $2n=15$.
@@ -196,7 +196,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; piemēram, $10 \cdot 17-13 \cdot 13=1$.
 
@@ -227,7 +227,7 @@ naturālam skaitlim tā, lai vienlaicīgi
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Skat., piem., 5.zīm.
 
@@ -255,7 +255,7 @@ Kāds lielākais skolēnu skaits šajā turnīrā var iegūt lielmeistara nosauk
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Turnīrā kopā izspēlē $45$ partijas un izcīna $45$ punktus (katrā partijā vienu).
 
@@ -293,7 +293,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $4$ stundām nepietiek. Pirmajā stundā vismaz viens rūķītis nerunā; tāpēc viņa
 jaunumu pēc pirmās stundas zina tikai viens rūķītis- viņš pats. Pēc otrās stundas to
@@ -336,7 +336,7 @@ gājienus atkārto, līdz rindā paliek tikai viens skaitlis.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** ar katru gājienu skaitļu skaits samazinās par $1$. Tā kā tas dilst no $2009$
 līdz $1$, tad pavisam izdarīs $2009-1=2008$ gājienus.
@@ -365,7 +365,7 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No pirmās vienādības seko $x^{12}=y^{16}$. Dalot to ar otro vienādību, iegūst $x=y$.
 Ievietojot pirmajā, seko $y=1$ un pēc tam $x=1$.
@@ -393,7 +393,7 @@ $(x+1)(x+2)(x+3)$ dalās ar $343$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $343=7 \cdot 7 \cdot 7$. Vismaz vienam no reizinātājiem
 $x+1 ; x+2 ; x+3$ jādalās ar $7$. Tā kā skaitļi, kas dalās ar $7$, atšķiras viens no
@@ -402,7 +402,7 @@ skaitļiem $343 \cdot 1 ; 343 \cdot 2 ; 343 \cdot 3 ; 343 \cdot 4 ; 343 \cdot 5$
 $343 \cdot 6 > 2010$. Tāpēc meklējamo skaitļu ir $5 \cdot 3=15$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Katrs septītais skaitlis dalās ar $7$, tādēļ $x+1$, $x+2$ vai $x+3$ dalās ar $7^3 = 343$.
 
@@ -429,7 +429,7 @@ rūtiņām nebūtu nokrāsotas visas malas?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $32$.
 
@@ -464,7 +464,7 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $2$ stundām nepietiek (skat. 5.5.risinājumu). Ar $3$ stundām mērķi var sasniegt,
 piemēram, šādi (rūķīšus apzīmējam ar burtiem):
@@ -505,14 +505,14 @@ $2$ un $3$.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot otro skaitli, lietojot kvadrātu starpības formulu, iegūstam reizinājumu
 $101 \cdot 103 \cdot 102 \cdot 104 \cdot \ldots \cdot 198 \cdot 200$. Redzam, ka otrajā
 skaitlī ir **viens** papildus pirmskaitlis $101$. Skaitlis $200$, kas rodas labajā galā,
 jaunus pirmskaitļus nedod.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Dala reizinātājos $102^2 - 1=(102-1)(102+1)$ utt., īsina. Labajā pusē par pirmreizinātāju $101$ vairāk.
 
@@ -538,7 +538,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC > AB$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šķirojam $3$ gadījumus.
 
@@ -587,14 +587,14 @@ starpība dalās ar $9$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstām $\overline{abcd}=(999a+99b+9c)+(a+b+c+d)$. Atņemot saskaitāmie $(a+b+c+d)$
 saīsinās.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
  
 $n$ atlikums dalot ar $9$ (arī pārkārtotā $n$ atlikums) vienādi ar $n$ ciparu summas atlikumu.
 
@@ -621,7 +621,7 @@ ir identitāte?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Ja kaut viens no skaitļiem $a_{1}, b_{1}, a_{2}, b_{2}$ nav $0$, tad $x$ un $y$ var
 izvēlēties tā, lai attiecīgā iekava, tātad arī visa labā puse, būtu $0$; bet kreisā
@@ -649,7 +649,7 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 N̦emam vienu lampu $A$; no tās iziet $5$ vītnes. Vismaz trīs no tām ir vienā krāsā;
 varam pieņemt, ka $AB, AC, AD$ ir baltas. Ja kaut viena no vītnēm $BC, BD, CD$ arī ir
@@ -678,7 +678,7 @@ Atrodiet kaut vienu kvadrātvienādojumu ar veseliem koeficientiem, kam viena no
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** piemēram, $x^{2}-2x-1=0$.
 
@@ -707,7 +707,7 @@ $R^{2}+r^{2}=d^{2}$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atceramies, ka
 
@@ -748,7 +748,7 @@ $ABC$ malām nav garāka par $ABC$ lielāko augstumu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Varam pieņemt, ka garākais augstums $h$ ir pret malu $c$. Tātad $c$ ir īsākā vai viena
 no īsākajām malām.
@@ -783,7 +783,7 @@ iespējamais bērnu skaits?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim meiteņu un zēnu daudzumus attiecīgi ar $m$ un $z$. Tad $z=3m$, un pavisam ir
 $4m$ bērnu.
@@ -821,7 +821,7 @@ y^2 + x & = t^2
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Varam pieņemt, ka $x \geq y$. Tad $x^{2} < x^{2}+y < x^{2}+2x+1=(x+1)^{2}$. Tāpēc
 $x^{2}+y$ atrodas starp diviem blakus esošu naturālu skaitļu kvadrātiem. Tātad tas nav
@@ -842,7 +842,7 @@ naturāla skaitļa kvadrāts. Tāpēc sistēmai atrisinājuma naturālos skaitļ
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $x^{2}+y^{2}=x^{2}+(n-x)^{2}=2x^{2}-2nx+n^{2}=2\left(x-\frac{n}{2}\right)^{2}+\frac{n^{2}}{2} \geq \frac{n^{2}}{2}$,
         jo kvadrāts nav negatīvs.
@@ -870,7 +870,7 @@ $a \cdot b$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka
 $(a-b)^{3}=a^{3}-3a^{2}b+3ab^{2}-b^{3}=a^{2} \cdot a-3ab(a-b)-b^{2} \cdot b$.
@@ -881,7 +881,7 @@ Ja $a=4$ un $b=2$, tad $(a-b)^{2}$ nedalās ar $ab$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 **(A)** Rakstām algebrisku pārveidojumu:
 
@@ -915,7 +915,7 @@ $\triangle ABC$ un $\triangle O_{1}DO_{2}$ ir līdzīgi savā starpā.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle O_{1}DB=\sphericalangle O_{2}DB=45^{\circ}$, tad
 $\sphericalangle O_{1}DO_{2}=90^{\circ}$. Atceramies, ka $\triangle ADB$ un
@@ -946,7 +946,7 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}=y!+2$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pie $y \geq 4$ labā puse dalās ar $2$, bet nedalās ar $8$. Kreisajai pusei $2$ jāsatur
 kā reizinātāju $3., 6., 9., \ldots$ pakāpē, tāpēc atrisinājuma nav. Atliek pārbaudīt
@@ -954,7 +954,7 @@ $y=1; 2; 3$. Iegūstam atrisinājumu $x=2; y=3$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Sastádám faktoriālu un pilno kubu tabulas
 
@@ -996,7 +996,7 @@ jebkurai citai?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: pēc $4$ dienām.
 
@@ -1029,7 +1029,7 @@ ir vesels skaitlis.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka
 $x_{1}^{2}+x_{2}^{2}=\left(x_{1}+x_{2}\right)^{2}-2\left(x_{1}x_{2}\right)=p^{2}-2q$
@@ -1059,7 +1059,7 @@ Atrisināt veselos skaitļos vienādojumu $\frac{x^{2}}{2}+\frac{5}{y}=7$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $(x; y)$ ir atrisinājums, tad arī $(-x ; y)$ ir atrisinājums. Tāpēc sākumā apskatām
 tikai gadījumu $x \geq 0$. Vienādojumu var pārveidot par $x^{2}y+10=14y$ un tālāk par
@@ -1084,7 +1084,7 @@ Kad pastāv vienādība?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam nevienādību par
 $(a-b)+(b-c)+(c-d)+\frac{1}{a-b}+\frac{1}{b-c}+\frac{1}{c-d} \geq 6$ un lietojam
@@ -1106,7 +1106,7 @@ un $N$. Pierādīt, ka trijstūru $ABN$ un $CDM$ laukumi ir vienādi savā starp
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam ar $A_{1}, B_{1}, C_{1}, D_{1}$ punktu $A, B, C, D$ projekcijas uz taisnes
 $EF$. Tā kā $\triangle BFB_{1}=\triangle DFD_{1}(h l)$, tad $BB_{1}=DD_{1}$. Līdzīgi
@@ -1136,7 +1136,7 @@ kurai (vienīgajai) komandai pēc turnīra noslēguma būs mazāk uzvaru nekā j
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ pēc $6$ dienām.
 
@@ -1165,7 +1165,7 @@ tiek sasniegta?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viens no skaitļiem $n-2; n-1; n; n+1; n+2$ dalās ar $5$. Tā kā tas nav $n$, tad
 $\left(n^{2}-1\right)\left(n^{2}-4\right)$ dalās ar $5$. Tā kā viens no reizinātājiem
@@ -1191,7 +1191,7 @@ izvietojumu var izveidot?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzot jābūt $A=1$. Skaitļus starp "kreiso" un  "labo" zaru var sadalīt
 $C_{9}^{3}=84$ veidos.
@@ -1218,7 +1218,7 @@ Atrisināt vienādojumu $\sqrt{1-x^{2}}+\sqrt{1-y^{2}}=2-x^{2}-y^{2}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $1-x^{2}=a$, $1-y^{2}=b$; tad $\sqrt{a}+\sqrt{b}=a+b$. Tā kā
 $0 \leq a \leq 1$ un $0 \leq b \leq 1$, tad $\sqrt{a} \geq a$ un $\sqrt{b} \geq b$,
@@ -1240,7 +1240,7 @@ iekļauto malu garumu reizinājumi ir vienādi savā starpā.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No riņķī ievilktu leņķu īpašībām seko, ka $\triangle BSC \sim \triangle FSE$. Tāpēc
 $\frac{BC}{EF}=\frac{SB}{SF}$.
@@ -1271,7 +1271,7 @@ virzienam. Vai, atkārtojot šādus gājienus, var savākt visas monētas
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ (A) var, (B) nevar.
 

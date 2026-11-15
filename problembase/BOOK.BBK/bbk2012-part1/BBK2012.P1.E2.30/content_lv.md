@@ -3,7 +3,7 @@
 Dots, ka $4 \mid x$ un $3 \mid y$. Pierādiet, ka $12 \mid (xy + 8y + 9x)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $12 \mid xy$, jo $4 \mid x$ un $3 \mid y$ (īpašība **D5**); 
 $12 \mid 8y$, jo $4 \mid 8$ un $3 \mid y$; $12 \mid 9x$, 

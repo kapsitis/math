@@ -11,7 +11,7 @@ un pamatojiet, ka citu nav!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der skaitļi $1,\ 2,\ 3,\ \ldots,\ 61,\ 62,\ 64$. Pierādīsim, ka citu nav. 
 Aplūkosim $63$ mazākos naturālos skaitļus. To summa ir 
@@ -37,7 +37,7 @@ laukumu riņķim, kura diametrs ir $MN$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nogriežņu $MN$ un $QR$ krustpunktu apzīmējam ar $O,\ OQ=ON=OR=x$ (kā rādiusi) 
 un $PQ=RS=y$. Simetrijas dēļ $OP=OS=OM=x+y$. Aprēķinām laukumus:
@@ -68,7 +68,7 @@ būt sākotnējais skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No tā, ka $GANGA$, dalot ar $7$, dod atlikumu $A,\ GANGA$, dalot ar $11$, dod 
 atlikumu $N$, bet $GANGA$, dalot ar $13$, dod atlikumu $G$, izriet, ka 
@@ -123,7 +123,7 @@ Pierādīt, ka $x^{4}-x^{2}-3x+4>0$ visiem reāliem $x$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -154,7 +154,7 @@ dažādi skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $N=1$, tad kastē ir vismaz viena bumbiņa, kas nokrāsota vienīgajā 
 iespējamajā krāsā un uz tās uzrakstīts skaitlis $1$. Tātad vērtība $N=1$ der.
@@ -193,7 +193,7 @@ $x_{1}^{2}+x_{2}^{2}+2017$; **(B)** $x_{1}^{3}+x_{2}^{3}$ ir naturāls skaitlis!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Vjeta teorēmas izriet, ka $x_{1}+x_{2}=b$ un $x_{1}x_{2}=c$. Tātad gan sakņu
 summa, gan sakņu reizinājums ir naturāls skaitlis un abas saknes ir pozitīvas.
@@ -271,7 +271,7 @@ Samaisām ciparus tā, lai $1,3,7,9$ (katrs pa vienam) nonāktu skaitļa decimā
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja pirmskaitlis satur kādu no cipariem $0,\ 2,\ 4,\ 5,\ 6$ vai $8$, tad, 
 izveidojot skaitli, kur šis cipars ir pēdējais, būsim ieguvuši skaitli, kas 
@@ -306,7 +306,7 @@ Līdz ar to esam pierādījuši vajadzīgo.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ievērojam, ka jebkurš no cipariem $0,2,4,5,6,8$ skaitļa pierakstā ļauj 
 to pārcelt uz beigām un iegūt skaitli, kas nav pirmskaitlis.
@@ -366,7 +366,7 @@ $\sphericalangle ABD+\sphericalangle BDC=90^{\circ}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim malu $AB,\ BC,\ CD$ un $DA$ malu viduspunktus attiecīgi ar 
 $E,\ F,\ G$ un $H$ (skat. 2.att.). Nogrieznis $EF$ ir trijstūra $ABC$ 
@@ -404,7 +404,7 @@ katrā komplektā būtu trīs kartītes, uz kurām uzrakstīto skaitļu summa ir
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais komplektu skaits ir astoņi, piemēram, 
 $(6,\ 7,\ 8);\ (5,\ 7,\ 9);\ (4,\ 5,\ 12);\ (3,\ 4,\ 14);\ (3,\ 6,\ 12);\ (2,\ 8,\ 11);\ (2,\ 9,\ 10);\ (1,\ 1,\ 19)$.
@@ -434,7 +434,7 @@ no šīm valstīm. Kāds ir mazākais iespējamais kopējais ceļojumu skaits?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais iespējamais kopējais ceļojumu skaits ir $10$. Rakstīsim ceļojumus 
 $6 \times 6$ tabulā, rindiņas atbildīs tūristiem, kolonnas - valstīm, ja 
@@ -470,7 +470,7 @@ iepriekšējo?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katru šādu piecciparu skaitli var iegūt izsvītrojot $4$ ciparus no skaitļa 
 $123456789$. Tā kā četrus ciparus var izvēlēties 
@@ -491,7 +491,7 @@ lielāks?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielāks ir skaitlis $(\sqrt{7})^{\sqrt{5}}$. Kāpināsim abus skaitļus pakāpē 
 $2 \sqrt{5}$ un pierādīsim, ka 
@@ -520,7 +520,7 @@ un $C$ atrodas uz vienas taisnes!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Savienojam punktu $R$ ar $B$ un $C$ (skat. 3.att.), pietiek pierādīt, ka 
 $\sphericalangle BRC=180^{\circ}$. Tā kā ievilkta četrstūra pretējo leņķu summa
@@ -547,7 +547,7 @@ tā, lai to summa dalītos ar $9$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka no jebkuriem pieciem naturāliem skaitļiem var izvēlēties trīs 
 skaitļus tā, ka to summa dalās ar $3$. Skaitli, dalot ar $3$, var iegūt 
@@ -605,7 +605,7 @@ $N=15$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja $N=14$, tad noteikti var uzvarēt spēlētājs $A$. Pirmajā gājienā 
 spēlētājam $A$ jānovelk diametrs. Pēc katra spēlētāja $B$ gājiena spēlētājs $A$
@@ -726,7 +726,7 @@ krusto $x$ asi kādā intervāla $[-1 ; 1]$ punktā!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka funkcijas vērtībām $f(-1)$ un $f(1)$ ir dažādas zīmes:
 
@@ -751,7 +751,7 @@ ir reāli pozitīvi skaitļi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā abas nevienādības puses ir pozitīvas, tad, kāpinot kvadrātā, iegūstam
 
@@ -791,7 +791,7 @@ laukums!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No punkta $F$ velkam perpendikulu pret taisni $BC$, šī perpendikula krustpunktu
 ar $BD$ apzīmējam ar $F^{\prime}$ (skat. 6.att.). Ievērojam, ka 
@@ -816,7 +816,7 @@ izriet, ka $CE>CF$.
 
 ![](LV.VOL.2017.12.3A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $AB=CD=a,\ DE=p,\ OA=OB=OC=OD=y$ (kur punkts $O$ ir diagonālu 
 krustpunkts), $BF=x$ un 
@@ -862,7 +862,7 @@ naturāla skaitļa kvadrāts!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā $k$ vērtība ir $3$.
 
@@ -917,7 +917,7 @@ darbu komisijās?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sanumurējam deputātus ar numuriem $1, 2, 3, \ldots, n$. Ar $k(d)$ apzīmējam 
 visu komisiju skaitu, kurās strādā deputāts $d$. No dotā izriet, ka deputāts 

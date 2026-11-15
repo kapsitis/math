@@ -10,7 +10,7 @@ Par katru grāmatu izmaksājamā honorāra lielums var atšķirties.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka par grāmatu „Izturīgās būves” katram autoram pienākas $a$ latu liels honorārs (kopējais honorārs par grāmatu ir $4a$ Ls), bet par grāmatu „Visvisādi pīrādziņi” katram autoram ir $b$ latu liels honorārs (kopējais honorārs par šo grāmatu ir $3b$ Ls). Pēc tam, kad Naf-Nafs saņēma savu daļu, t.i., $a$ latus, neizņemti ir $3a+3b=3\cdot(a+b)=2520$ lati. Vilkam pienākas $a+b$ lati, kas ir trešā daļa no atlikušās summas jeb **$840$ lati**.
 
@@ -30,7 +30,7 @@ Tirmantiņš ir izcepis dīvainas formas torti (skat. $1.$ zīm.) un vēlas to s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., $1.$ zīm.
 
@@ -50,7 +50,7 @@ Kādu dienu Robinsons izrēķināja, ka nākamajās $1000$ dienās ceturtdienu b
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā nedēļā ir septiņas dienas un $1000=7\cdot142+6$, tad visās pilnajās nedēļās ir vienāds ceturtdienu un piektdienu skaits, bet nepilnajā nedēļā pietrūkst viena diena (visas pārējās ir vienādā skaitā). Tātad trūkstošā diena ir **piektdiena**, tāpēc tā arī ir diena, kad Robinsons veica aprēķinus.
 
@@ -66,7 +66,7 @@ Septiņciparu skaitļa $A$ ciparu summa ir divciparu skaitlis $B$, kura ciparu s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $S(N)$ apzīmēsim skaitļa $N$ ciparu summu. Tad $B=S(A)$ un $C=S(B)$. Tā kā $C$ ir vienciparu, tad $C=S(C)$. Tā kā visi skaitļus $A$, $B$ un $C$ veidojošie cipari ir atšķirīgi un to pierakstā ir izmantoti visi desmit cipari $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$ un $9$ (to summa ir $45$), iegūstam vienādību $S(A)+S(B)+S(C)=B+C+C=B+2C=45$ jeb $B=45-2C$. Pārbaudīsim visas iespējamās $C$ vērtības.
 
@@ -101,7 +101,7 @@ Noteikt, cik dažādos veidos no rūtiņas $A$ var nonākt rūtiņā $B$ (skat. 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā rūtiņā ierakstīsim, cik dažādos veidos tajā var nonākt. Sākotnējā ($A$) rūtiņā ierakstīsim $1$ (sākuma rūtiņā „var nonākt” vienā veidā). Katrā no pārējām rūtiņām var nonākt tikai no blakus rūtiņas pa kreisi vai blakus rūtiņas apakšā, tad kopējais veidu skaits, kā var tajā nonākt, ir vienāds ar šajās blakus rūtiņās ierakstīto skaitļu summu. Šādā veidā aizpildot visu tabulu, iegūstam, ka rūtiņā $B$ var nonākt $20$ veidos (skat. $2.$ zīm.).
 
@@ -121,7 +121,7 @@ Ar kādu mazāko naturālo skaitli jāreizina skaitlis $315$, lai reizinājumā 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms sadalīsim skaitli $315$ pirmreizinātājos: $315=3\cdot 3\cdot 5\cdot 7$.
 
@@ -141,7 +141,7 @@ Vinnijs Pūks un Sivēntiņš ir sadalījuši savā starpā torti. Pēc abu daļ
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja Sivēntiņa daļa palielinājās septiņas reizes, tad tas nozīmē, ka no Vinnija Pūka viņš saņēma sešreiz lielāku tortes daļu nekā viņam jau bija. Tā kā šis saņemtais gabals bija ceturtā daļa no Vinnija Pūka sākotnējā gabala, tad sākumā Vinnijam Pūkam bija $24$ reizes lielāks gabals nekā Sivēntiņam. Tātad sākumā Vinnijam Pūkam bija $\frac{24}{25}$ tortes un Sivēntiņam $\frac{1}{25}$ tortes.
 
@@ -157,7 +157,7 @@ Taisnstūrveida zemes gabala katras malas garums izsakāms veselā skaitā metru
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Taisnstūra garākās malas garumu metros apzīmēsim ar $a$, tad otras malas garums ir $a-7$ metri. Tā kā nav teikts, kuras trīs malas summā dod $2012\,m$, iespējami divi gadījumi:
 
@@ -188,7 +188,7 @@ $3.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 3. zīm.
 
@@ -208,7 +208,7 @@ Mazākais naturālais skaitlis, kuru var izteikt kā piecu dažādu naturālu sk
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $7$ veidos:
 
@@ -228,7 +228,7 @@ Daļskaitļa skaitītājs un saucējs ir naturāli skaitļi, kuru summa ir $2012
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā skaitītāja un saucēja summa ir konstanta, tad lielāka vērtība ir daļai ar pēc iespējas lielāku skaitītāja vērtību – jāatrod pēc iespējas lielāka $n$ vērtība, kurai $\frac{n}{2012-n}<\frac{1}{7}$, jeb $8n<2012$, tātad $n\le 251$. Tātad lielākā iespējamā šāda daļskaitļa vērtība ir $\frac{251}{1761}$.
 
@@ -244,7 +244,7 @@ Uzzīmē slēgtu lauztu līniju, kurai ir a) $6$, b) $7$ posmi un kas pati sevi 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 4. un 5. zīm.
 
@@ -273,7 +273,7 @@ Rūtiņu lapā uzzīmēts taisnstūris, kura malas iet pa rūtiņu malām. Šī 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Minimālā taisnstūra izmēri ir $3 \times 4$ rūtiņas, skat., piem., $6.$ zīm.
 
@@ -295,7 +295,7 @@ Divos televīzijas kanālos vienlaicīgi sāka demonstrēt vienu un to pašu fil
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc katrām $28$ minūtēm abos kanālos vienlaicīgi sāksies jauns filmas fragments. No brīža, kad pirmais kanāls sāks rādīt pēdējo fragmentu, paies $26$ minūtes. Savukārt, otrajā kanālā filma beigsies pēc $13+1+13=27$ minūtēm. Tātad **pirmajā kanālā** filma beigsies par vienu minūti **ātrāk.**
 
@@ -312,7 +312,7 @@ Pieraksts $\overline{KLM}$ nozīmē, ka skaitlī ir $M$ vieni, $L$ desmiti un $K
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) $\overline{AABB}=\overline{A0B}\cdot 11$. Lai $\overline{AABB}$ būtu naturāla skaitļa kvadrāts, skaitlim $\overline{A0B}$ jābūt naturāla skaitļa kvadrāta reizinājumam ar $11$. Skaitlis $\overline{A0B}=100A+B=110A-10A+11B-10B=11(10A+B)-10(A+B)$ dalās ar $11$, $11(10A+B)$ dalās ar $11$, tātad $A+B$ dalās ar $11$. Tā kā $A$ un $B$ ir cipari, tad $A+B=0$ (t.i. $A=B=0$ – neder, jo $A$ un $B$ jābūt dažādiem cipariem) vai $A+B=11$. Tātad $\overline{A0B}=11(10A+B)-10\cdot 11=11(10(A-1)+B)$ un divciparu skaitlis $10(A-1)+B$ ir naturāla skaitļa kvadrāts. No visiem diviparu skaitļiem, kas ir veselu skaitļu kvadrāti, nosacījumus apmierina tikai $64$, t.i. $B=4$ un $A=7$. Tātad uzdevuma prasības apmierina skaitlis $7744=88^2$.
 
@@ -330,7 +330,7 @@ Cik starp pirmajiem $2012$ naturālajiem skaitļiem ir tādi, kas nedalās ne ar
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $1$ līdz $2012$ pavisam ir $2010:5=402$ skaitļi, kas dalās ar $5$, $2009:7=287$ skaitļi, kas dalās ar $7$, un $1995:35=57$ skaitļi, kas dalās gan ar $5$, gan ar $7$. Tātad tādu skaitļu, kas nedalās ne ar $5$, ne ar $7$, ir $2012-402-287+57=\mathbf{1380}$.
 
@@ -346,7 +346,7 @@ Uz tāfeles uzrakstīti $n$ ($n>1$) dažādi naturāli skaitļi. Lielākais no t
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja visu uzrakstīto skaitļu summa ir $S$ un visu uzrakstīto skaitļu vidējais aritmētiskais ir $k_1$, tad $S=n\cdot k_1$. Pēc skaitļa $11$ nodzēšanas, atlikušo skaitļu vidējo aritmētisko apzīmēsim ar $k_2$. Tad $S-11=(n-1)k_2$. Pārveidojot, iegūstam $nk_1=(n-1)k_2+11$ jeb $n(k_1-k_2)=11-k_2$ un $k_1-k_2=\frac{11-k_2}{n}$.
 
@@ -378,7 +378,7 @@ Kvadrātisku rūtiņu lapā atzīmētas piecas virsotnes $A$, $B$, $C$, $D$ un $
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pagarinām $CA$ līdz $CF$ tā, ka $\triangle CFB$ ir taisnleņķa trijstūris (skat. $7.$ zīm.). Tad $\frac{CF}{BF}=\frac{DE}{BE}=\frac{5}{3}$
 
@@ -402,7 +402,7 @@ Tūrists pārgājienā pavadīja $4{,}5$ stundas. Katrā vienu stundu garā laik
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ne obligāti vidējais ātrums visā pārgājienā bija $4$ km/h.
 
@@ -425,7 +425,7 @@ Par blakus lauciņiem sauc lauciņus, kam ir kopīga mala.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka dažos gadījumos ir iespējama tikai viena pāreja ($\text{B-R}$, $\text{Ī-D}$, $\text{I-N}$, $\text{Ā-J}$, $\text{U-M}$), bet visos citos gadījumos – divas. Ja nodzēsīsim viennozīmīgās robežas, tad iegūsim $8.$ zīmējumu.
 
@@ -448,7 +448,7 @@ Pieci veseli skaitļi $a$, $b$, $c$, $d$ un $e$ ir pēc kārtas sekojoši aritm�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No aritmētiskās progresijas definīcijas izteiksim $b$, $c$, $d$ un $e$, izmantojot $a$ un aritmētiskās progresijas diferenci $d$: $b=a+d$, $c=a+2d$, $d=a+3d$ un $e=a+4d$. Tātad dotais kvadrātvienādojums ir $ax^2+(a+2d)x+a+4d=0$ un tā saknes ir $x_1=a+d$, $x_2=a+3d$.
 
@@ -504,7 +504,7 @@ Trijstūrī $ABC$ izvēlēts malas $AB$ iekšējs punkts $D$ un novilkts nogriez
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\angle ABC=x$ un $\angle BAC=y$ (skat. $9.$ zīm.). Tā kā $\triangle ABC$ ir vienādsānu, tad $\angle BCA=\angle BAC=y$; tā kā $\triangle ACD$ ir vienādsānu, tad $\angle CDA=\angle BAC=y$; tā kā $\triangle BDC$ ir vienādsānu, tad $\angle BCD=\angle ABC=x$. $\angle CDA$ ir $\triangle BDC$ ārējais leņķis, tātad $\angle CDA=\angle BCD+\angle DBC$ jeb $y=x+x=2x$. Trijstūra $ABC$ leņķu summa ir $180^{\circ}=y+y+x=2\cdot 2x+x=5x$ un $x=\angle ABC=36^{\circ}$.
 
@@ -524,7 +524,7 @@ Ar kādu lielāko skaitļa $2013$ pakāpi dalās skaitlis $1 \cdot 2 \cdot 3 \cd
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalīsim skaitli $2013$ pirmreizinātājos: $2013=3\cdot 11\cdot 61$. Lai noteiktu, ar kādu lielāko $2013$ pakāpi dalās skaitlis $1\cdot 2\cdot 3\cdot \ldots \cdot 2012=2012!$, pietiek noteikt, ar kādu lielāko skaitļa $61$ pakāpi dalās $2012!$ (jo šajā reizinājumā gan skaitļa $3$, gan skaitļa $11$ pakāpes nebūs mazākas par skaitļa $61$ pakāpi). No pirmajiem $2012$ naturālajiem skaitļiem, kas ietilpst reizinājumā $2012!$, ar $61$ dalās $32$ skaitļi: $61$, $122$, ..., $1952$. Neviens no šiem skaitļiem nedalās ar $61^2$ vai augstāku pakāpi. Tātad skaitļa $2013$ lielākā pakāpe, ar kuru dalās $2012!$, ir $32$.
 
@@ -540,7 +540,7 @@ Kvadrātveida tabulā ar izmēriem $5 \cdot 5$ rūtiņas katrā rūtiņā ir ier
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nokrāsosim visas tabulas rūtiņas piecās krāsās tā, lai katrā krāsā būtu nokrāsotas tieši $5$ rūtiņas un nekādas divas vienā krāsā nokrāsotās rūtiņas neatrastos vienā rindiņā vai vienā kolonnā (skat., piem., $10.$ zīm.; katra krāsa ir apzīmēta ar citu burtu).  
 Ar $a$ apzīmēsim visu piecu A krāsas rūtiņās ierakstīto skaitļu summu, ar $b$ – B krāsas rūtiņās ierakstīto skaitļu summu, ar $c$ – C krāsas rūtiņās ierakstīto skaitļu summu, ar $d$ – D krāsas rūtiņās ierakstīto skaitļu summu un ar $e$ – E krāsas rūtiņās ierakstīto skaitļu summu. Pieņemsim, ka $a\le 0$, $b\le 0$, $c\le 0$, $d\le 0$ un $e\le 0$, tad $a+b+c+d+e\le 0$.  
@@ -563,7 +563,7 @@ Vai, zinot **tikai šo informāciju**, citplanētieši var viennozīmīgi noteik
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) **Jā, var.** Ja pieņemtu, ka visos mēnešos ir lielākais iespējamais dienu skaits ($31$), tad $11$ šādos mēnešos kopējais dienu skaits būtu $341<365$. Tātad, mēnešu skaits ir lielāks nekā $11$.  
 Ja ar $a$ apzīmēsim to mēnešu skaitu, kuros ir $28$ dienas, ar $b$ – to, kuros $30$ dienas, un ar $c$ – to, kuros $31$ diena, tad $13$ mēnešos kopā ir $28(a+b+c)+2b+3c\ge 28\cdot 13+5=369>365$ dienas. Tātad gadā ir tieši **$12$ mēneši**.  
@@ -581,7 +581,7 @@ Atrisināt veselos skaitļos vienādojumu $x^3+y^3-x^2y-xy^2+x^2-y^2-10=0$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidosim doto vienādojumu.
 $$
@@ -631,7 +631,7 @@ Taisnstūra $ABCD$ diagonāle $BD$ ir taisnstūra $BDEF$ mala. Punkts $C$ atroda
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam $CG\perp BD$ (skat. $11.$ zīm.). Tad esam ieguvuši taisnstūrus $BFCG$ un $CEDG$. Jebkura taisnstūra diagonāle sadala to divos vienlielos trijstūros. Tātad $S_{ABD}=S_{BCD}=S_{DCG}+S_{BCG}=S_{CDE}+S_{BCF}$, k.b.j.
 
@@ -651,7 +651,7 @@ Pierādīt, ka izteiksmes $19\cdot 8^n+17$ vērtība nav pirmskaitlis nevienai v
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka visām veselām nenegatīvām $n$ vērtībām $19\cdot 8^n+17\ge 19+17=36$.
 
@@ -683,7 +683,7 @@ Atrast visus naturālos skaitļus, kuros ir vairāk nekā četri cipari, kas bei
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim meklējamo skaitli ar $a\cdot 10^4+2013$ ($a$ – naturāls skaitlis), tad pēc nodzēšanas paliek skaitlis $a$. $\frac{a\cdot 10^4+2013}{a}=10^4+\frac{2013}{a}$. Tātad skaitlim $a$ jābūt skaitļa $2013$ dalītājam. $2013=3\cdot 11\cdot 61$, tātad skaitļa $2013$ visi dalītāji ir $1$, $3$, $11$, $33$, $61$, $183$, $671$, $2013$ un meklētie skaitļi ir **$12013$**, **$32013$**, **$112013$**, **$332013$**, **$612013$**, **$1832013$**, **$6712013$** un **$20132013$**.
 
@@ -699,7 +699,7 @@ Tabulā ar izmēriem $4 \times 4$ rūtiņas katrā rūtiņā ir ierakstīts skai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā tabulas $2\times 2$ rūtiņu kvadrātā būs vismaz $2$ vienādi skaitļi (seko no Dirihlē principa), tāpēc būs vismaz $1$ pāris. Katros divos $2\times 2$ rūtiņu kvadrātos, kuriem nav vairāk par $1$ kopīgu rūtiņu, būs vismaz $2$ pāri. Tāpēc visā $4\times 4$ rūtiņu tabulā būs vismaz $5$ pāri (pa vienam katrā $2\times 2$ rūtiņu kvadrātā, kas satur kādu stūra rūtiņu un $2\times 2$ rūtiņu “centrālajā” kvadrātā). Tabulā var būt tieši $5$ pāri, kā redzams $12.$ zīmējumā. Tas arī ir mazākais iespējamai pāru skaits.
 
@@ -719,7 +719,7 @@ Pierādīt, ka nav tādas ģeometriskās progresijas, kas satur visus trīs skai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka ir tāda ģeometriskā progresija, kuras locekļi ir visi trīs dotie skaitļi. Tā kā $1<\sqrt{2}<\sqrt[3]{3}$, tad varam uzskatīt, ka $b_1=1$. Tad no ģeometriskās progresijas vispārīgā locekļa formulas $b_{n+1}=b_1q^n$ seko, ka $\sqrt{2}=q^a$ un $\sqrt[3]{3}=q^b$, kur $q$ ir kvocients un $a$, $b$ – naturāli skaitļi.
 
@@ -739,7 +739,7 @@ Tātad nav tādas ģeometriskās progresijas, kas satur visus trīs skaitļus $1
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Nē, ne obligāti.** Šī īpašība ir spēkā arī vienādsānu trapecēm, kuru īsākais pamats ir vienāds ar sānu malu garumu (skat. 13. zīm.).
 
@@ -759,7 +759,7 @@ Pierādīt, ka ir bezgalīgi daudz tādu naturālu skaitļu $k$, ka $11k-2$ ir s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim, kādi ir trijnieka pakāpju atlikumi pēc moduļa $11$.  
 $3^1 \equiv 3 \pmod{11}$, $3^2 \equiv 9 \pmod{11}$, $3^3 \equiv 5 \pmod{11}$, $3^4 \equiv 4 \pmod{11}$, $3^5 \equiv 1 \pmod{11}$, tālāk pakāpju vērtības cikliski atkārtosies un katram naturālam $m$ pakāpes $3^{5m-3} \equiv 9 \pmod{11}$ jeb $3^{5m-3}+2$ dalās ar $11$ un šis dalījums ir atbilstošā $k$ vērtība. Tā kā $m$ vērtība var būt jebkurš naturāls skaitlis, tad arī atbilstošo $k$ vērtību ir bezgalīgi daudz.
@@ -780,7 +780,7 @@ Regulāra trijstūra režģa (skat. 7. zīm.) katra no desmit virsotnēm nokrās
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā virsotnes $2$, $6$ un $8$ atrodas viena regulāra trijstūra virsotnēs, tad divām no tām jābūt vienā, bet vienai – otrā krāsā (skat. 14. zīm.). Simetrijas dēļ var pieņemt, ka virsotnes $2$ un $6$ ir krāsā $A$, bet virsotne $8$ – krāsā $B$. Aplūkosim, kādā krāsā var būt virsotne $3$.  
 1) Virsotne $3$ ir krāsā $A$. Lai virsotnes $2$, $3$ un $5$ nebūtu vienā krāsā, tad $5$ jābūt krāsā $B$. Lai virsotnes $5$, $8$ un $9$ nebūtu vienā krāsā, virsotnei $9$ jābūt krāsā $A$. Lai $5$, $8$ un $4$ nebūtu vienā krāsā, virsotnei $4$ jābūt krāsā $A$. Bet tad virsotnes $3$, $4$ un $9$ veido regulāru trijstūri, kur visas virsotnes ir krāsā $A$.  
@@ -802,7 +802,7 @@ Pierādīt, ka bezgalīgā rūtiņu lapā var novilkt riņķa līniju, kuras iek
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Rūtiņu lapā ieviesīsim koordinātu sistēmu tā, ka punkts $(0;0)$ atrodas kādas rūtiņas virsotnē, koordinātu asis paralēlas rūtiņu malām un rūtiņas malas garums ir $1$ vienība, tad visām rūtiņu virsotnēm abas koordinātas ir veseli skaitļi. Apskatīsim riņķa līniju, kuras centrs punktā $A(\sqrt{2};\sqrt{3})$ un rādiuss ir $0{,}01$; šīs riņķa līnijas iekšpusē neatrodas neviena rūtiņu virsotne. Pakāpeniski „izpletīsim” šo riņķa līniju, nemainot tās centru, bet tikai nepārtraukti palielinot rādiusu. Pamatosim, ka šādā procesā **riņķa līnijas iekšpusē vienā laika momentā var „ienākt” ne vairāk kā viena rūtiņas virsotne.**
 
@@ -832,7 +832,7 @@ Kāda ir izteiksmes $\frac{a}{b+1}+\frac{b}{a+1}$ mazākā iespējamā vērtība
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Minimālā vērtība ir $1$, ko iegūst ņemot $a=b=1$. Var pieņemt, ka $b\ge a$. Tad
 
@@ -854,7 +854,7 @@ $8.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $$S_{AFD}=\frac{S_{ABCD}}{2}=S_{AED}+S_{EBC}$$
 
@@ -882,7 +882,7 @@ Naturālu skaitļu virknes pirmie trīs locekļi ir vienādi ar $1$, bet katrs n
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim, kāds ir virknes katra elementa atlikums, dalot ar $5$:
 
@@ -902,7 +902,7 @@ Lauka forma ir taisnstūris ar malu garumiem $4\ \mathrm{km}$ un $6\ \mathrm{km}
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām nogriezni, kas savieno taisnstūra to malu, kuru garums ir $4$ km, viduspunktus. Gadījumā, ja kādas mājas attālums līdz šim nogrieznim nepārsniedz $1$ km, tad, uzbūvējot ceļu pa šo nogriezni, un no katras mājas īsāko ceļu līdz šim nogrieznim, kopējais izbūvēto ceļu garums nepārsniegs $6+1+4\cdot2=15$ km. Ja attālums no katras mājas līdz novilktajam nogrieznim pārsniedz $1$ km, tad nogriezni pārbīdīsim par $1$ km uz to pusi, kur ir vairāk māju (nogriežņa vienā pusē būs vismaz $3$ mājas). Uzbūvējot no katras mājas īsāko nogriezni līdz šim nogrieznim, kopējais garums nepārsniegs $6+3\cdot1+2\cdot3=15$ km.
 
@@ -918,7 +918,7 @@ Naturālu skaitli sauksim par *jokainu*, ja tā pieraksts sastāv tikai no cipar
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zināms, ka ir pieci jokaini viencipara skaitļi: $1$, $3$, $5$, $7$ un $9$. Varam uzskatīt, ka ir pa vienam viencipara skaitlim, kas **beidzas** ar katru no nepāra cipariem. Jokainais $n$-ciparu skaitlis var beigties ar $1$ tikai tad, ja $n-1$ ciparu skaitlis beidzas ar $3$ (pie tam $n-1$ ciparu skaitlim arī jābūt jokainam); $n$-ciparu skaitlis var beigties ar $3$ tikai tad, ja $n-1$ ciparu skaitlis beidzas ar $1$ vai $5$, utt. Pieņemsim, ka $a$ ir $k$-ciparu jokaino skaitļu skaits, kas beidzas ar $1$ vai $9$, $b$ ir $k$-ciparu skaitļu skaits, kas beidzas ar $3$ vai $7$ un $c$ ir $k$-ciparu skaitļu skaits, kas beidzas ar $5$. Pierakstīsim to šādi:
 

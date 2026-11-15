@@ -5,7 +5,7 @@ kas satur visus ciparus (katru tieši vienu reizi).
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklējamais skaitlis ir $9$. Tiešām, ar 9 dalās visi skaitļi, 
 kas satur katru ciparu tieši vienu reizi, jo tā ciparu summa $45$ dalās ar $9$.

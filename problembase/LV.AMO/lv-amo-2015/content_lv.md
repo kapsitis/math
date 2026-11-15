@@ -15,7 +15,7 @@ Izsaki skaitli $1$ kā piecu atšķirīgu daļu summu, kuru saucēji ir vienādi
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram,
 $\frac{1}{15}+\frac{2}{15}+\frac{3}{15}+\frac{4}{15}+\frac{5}{15}=\frac{15}{15}=1$.
@@ -41,7 +41,7 @@ redzamo figūru un $28$ figūrām, kādas redzamas 2.att.? Figūras drīkst pagr
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, prasīto izdarīt nevar. Iekrāsosim doto taisnstūri kā šaha galdiņu
 (skat. A1.att.). Lai kur novietotu 2.att. figūru, tā vienmēr pārklās tieši vienu
@@ -72,7 +72,7 @@ bet **(A)** laukums ir pirmskaitlis; **(B)** perimetrs ir pirmskaitlis?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, piemēram, der taisnstūris ar malu garumiem $1$ un $3$, tad laukums ir
 $3$, kas ir pirmskaitlis.
@@ -103,7 +103,7 @@ Atrodi visus tādus skaitļus un pamato, ka citu nav!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklētajam skaitlim nevar būt mazāk kā trīs cipari, jo pat lielāko divciparu
 skaitli saskaitot ar tā ciparu summu iegūst $99+9+9=117$, kas ir mazāk nekā $328$.
@@ -153,7 +153,7 @@ atsvariem atrast abas viltotās monētas?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sanumurēsim monētas ar skaitļiem no $1$ līdz $9$ un sadalīsim grupās pa trim:
 $a=(1,2,3)$, $b=(4,5,6)$, $c=(7,8,9)$. Abas viltotās monētas var atrasties vienā
@@ -209,7 +209,7 @@ bet pārējās - veseli skaitļi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Visu četru skaitļu $a, b, c, d$ summu apzīmēsim ar $S=a+b+c+d$ un to
 summu, kas ir daļskaitlis, apzīmēsim ar $S_{1}=a+b$. Tā kā $S$ ir vesels
@@ -241,7 +241,7 @@ taisnstūriem, kuru izmēri ir $1 \times 2$ rūtiņas?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, prasīto izdarīt nevar. Ir divi dažādi veidi, kā no kvadrāta pretējiem
 stūriem var izgriezt $3 \times 5$ rūtiņu taisnstūrus: 1) viens novietots
@@ -276,7 +276,7 @@ gadīties, ka visi seši trijstūros ierakstītie skaitļi ir vienādi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, trijstūros ierakstītie skaitļi var būt vienādi, skat., piemēram, A4.att.
 
@@ -314,7 +314,7 @@ nullēm! (Skaitļa kvadrāts ir skaitļa reizinājums pašam ar sevi).
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā skaitļa kvadrāts ir skaitļa reizinājums pašam ar sevi, tad visi dažādie
 pirmreizinātāji tam ir pāra skaitā. Ja skaitlis beidzas ar pāra skaita nullēm,
@@ -355,7 +355,7 @@ katram no pārējiem bērniem - samazinājās?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Tas nav iespējams. Ja katra bērna akmentiņu masa būtu samazinājusies,
 tad arī visu akmeņu kopējai masai būtu jāsamazinās, bet maiņas rezultātā visu
@@ -389,7 +389,7 @@ vienādas cepures maksā vairāk nekā $11$ eiro. Cik maksā viena cepure?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $c$ apzīmējam vienas cepures cenu. Tad no dotā izriet, ka $9c < 10$ un
 $10c > 11$ jeb $c < 1 \frac{1}{9}$ un $c > 1 \frac{1}{10}$. Tātad
@@ -423,7 +423,7 @@ apgrieztas spoguļattēlā.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Izkrāsosim taisnstūri šaha galdiņa veidā. Melnā krāsā ir nokrāsota
 $21$ (nepāra skaits) rūtiņa. Lai kā arī šajā taisnstūrī tiktu novietotas dotās
@@ -464,7 +464,7 @@ divi cipari ir $11$ un kurš dalās ar $11$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Der, piemēram, skaitlis $11713$, jo $1+1+7+1+3=13$ un $11713:13=901$.
 
@@ -523,7 +523,7 @@ Atrodi visus gadījumus un pamato, ka citu nav!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle ABC=\sphericalangle ACB=\alpha$ (skat. A8.att.).
 
@@ -593,7 +593,7 @@ atsvariem, kur katrā kausā drīkst ielikt tieši divas bumbiņas, iespējams
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katrā svaru kausā drīkst ielikt tieši divas bumbiņas, tad ir iespējami
 trīs dažādi varianti, kā bumbiņas var būt izvietotas uz svaru kausiem:
@@ -637,7 +637,7 @@ racionāls skaitlis!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam doto izteiksmi:
 
@@ -674,7 +674,7 @@ apgrieztas spoguļattēlā.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Izkrāsosim taisnstūri šaha galdiņa veidā. Taisnstūrī kopā ir $90$
 rūtiņas, bet vienā figūrā ir $6$ rūtiņas. Lai kā arī šajā taisnstūrī tiktu
@@ -710,7 +710,7 @@ naturāla skaitļa kvadrāta un pirmskaitļa summu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der, piemēram, skaitlis $2500$. Parādīsim, ka to nevar izteikt kā naturāla
 skaitļa kvadrāta un pirmskaitļa summu. Pieņemsim pretējo, ka $2500=k^{2}+p$,
@@ -752,7 +752,7 @@ paralēlskaldņa tilpums?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotais apgalvojums ne vienmēr ir patiess. Parādīsim pretpiemēru. Par pirmo
 izvēlēsimies paralēlskaldni, kura šķautņu garumi ir $3, 10$ un $12$, bet par
@@ -848,7 +848,7 @@ reizinājums ir vismazākais!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotos skaitļus apzīmējam ar $x$ un $x+2015$. Šo skaitļu reizinājums ir
 $x \cdot(x+2015)$. Apskatām funkciju $f(x) = x \cdot(x+2015) = x^{2}+2015x$.
@@ -884,7 +884,7 @@ ar izmēriem $1 \times 1 \times 3$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katru slāni izkrāsosim trīs krāsās diagonālveidā (skat. A13.att.). Katrs bloks
 ar izmēriem $1 \times 1 \times 3$ satur visas trīs krāsas, tāpēc visi bloki kopā
@@ -914,7 +914,7 @@ Pierādi, ka $x^{5}-5x^{3}+4x$ dalās ar $120$, ja $x$ ir vesels skaitlis!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalām doto izteiksmi reizinātājos:
 
@@ -954,7 +954,7 @@ $G$. Nosaki $\sphericalangle CGD$ lielumu, ja $\sphericalangle CAD=\alpha$!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā trapece $ABCD$ ir vienādsānu, tad arī $\sphericalangle ADE=\alpha$
 (skat. A14.att.). No trijstūra $AED$ iegūstam, ka
@@ -989,7 +989,7 @@ skaitlis $1$ ir vidējais ($n$-tais), ja **(A)** $n=5$; **(B)** $n=1008$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Der, piemēram, virkne
 
@@ -1032,7 +1032,7 @@ kopu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Dotās funkcijas grafiks ir parabola, kuras zari ir vērsti uz augšu,
 tāpēc funkcijai ir vismazākā, bet nav vislielākās vērtības. Parabolas virsotnes
@@ -1060,7 +1060,7 @@ malām.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n$- nepāra skaitlis, tad kvadrāts $n \times n$ satur nepāra skaita rūtiņas,
 kas nedalās ar $4$- rūtiņu skaitu taisnstūrī. Tātad $n$ jābūt pāra skaitlim.
@@ -1114,7 +1114,7 @@ viencipara skaitļa ciparu reizinājumu sauc tā vienīgo ciparu.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka visi viencipara skaitļi atbilst uzdevuma nosacījumiem. Pierādīsim,
 ka citu šādu skaitļu nav. Pieņemsim, ka
@@ -1130,7 +1130,7 @@ uzdevuma prasības, ir visi viencipara skaitļi.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pārbaudot dažādus skaitļus var novērot, ka ciparu reizinājums allaž mazāks par pašu skaitli.
 Pamatojam to 2-ciparu un 3-ciparu skaitļiem $\overline{ab}$ un $\overline{abc}$
@@ -1157,7 +1157,7 @@ Pierādīt, ka $BD+BE > 2BC$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pagarinām malu $BC$ un uz tās atliekam punktu $F$ tā, ka $BC=CF$ (skat. A17.att.).
 Trijstūri $DAB$ un $ECF$ ir vienādi pēc pazīmes $m \ell m$, tāpēc $BD=EF$ kā
@@ -1182,7 +1182,7 @@ taisna prizma un gan biezpiena, gan glazūras daudzums visās daļās ir vienād
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tortes augšējo skaldni sadalām $n$ vienlielās figūrās tā, lai augšējās
 skaldnes perimetrs būtu sadalīts $n$ vienādās daļās. Skat., piemēram, A18.att.,
@@ -1220,7 +1220,7 @@ tādu, kas dalās ar $3$, bet nedalās ar $5$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visi deviņciparu skaitļi, kas nesatur nulli un kuriem nav vienādu ciparu, dalās
 ar $3$, jo to ciparu summa ir $1+2+3+\ldots+9=45$, kas dalās ar $3$.
@@ -1255,7 +1255,7 @@ taisnstūrus, vēl joprojām var pārklāt doto taisnstūri?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izkrāsosim taisnstūri četrās krāsās diagonālveidā (skat. A21.att.) Kvadrāts
 $2 \times 2$ vienmēr pārklāj tieši divas rūtiņas, kurām ir vienāda krāsa. Tātad
@@ -1265,7 +1265,7 @@ krāsas, tāpēc tas nav iespējams.
 
 ![](LV.AMO.2015.11.2A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izkrāsosim taisnstūri četrās krāsās tā, kā parādīts A22 .att. Kvadrāts
 $2 \times 2$ vienmēr pārklāj tieši vienu (nepāra skaitlis) baltu rūtiņu. Tātad
@@ -1291,7 +1291,7 @@ bezgalīgi daudz tādu $n$, ka $M(n)$ dalās ar $n$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n=10^{k}$, kur $k$- naturāls skaitlis, tad
 $M(n)=M\left(10^{k}\right)=\underbrace{9 \ldots 9}_{\left(10^{k}-1\right): 9} 1 \underbrace{0 \ldots 0}_{k}$.
@@ -1319,7 +1319,7 @@ un $\omega_{2}$ krustpunktā, kas atšķirīgs no punkta $E$ !
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Riņķa līniju $\omega_{1}$ un $\omega_{2}$ otru krustpunktu apzīmējam ar $F$
 (skat. A23.att.). Tad ir jāpierāda, ka $\omega$ centrs ir punktā $F$.
@@ -1348,7 +1348,7 @@ apvilktās riņķa līnijas $\omega$ centrs.
 
 ![](LV.AMO.2015.11.4A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ar $F$ apzīmējam riņķa līniju $\omega_{1}$ un $\omega_{2}$ otru krustpunktu
 (skat. A24.att.). Tā kā $ABCD$ ir vienādsānu trapece, tad simetrijas dēļ
@@ -1384,7 +1384,7 @@ vērtību!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $t=\sin x+\cos x$. Tad
 
@@ -1421,7 +1421,7 @@ Uz funkcijas $y=|x-3|+2$ grafika atrast tādu punktu $P$, kura attālumu kvadrā
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzzīmējam funkcijas $y=|x-3|+2$ grafiku (skat. A25.att.).
 
@@ -1457,7 +1457,7 @@ spoguļattēlā.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izkrāsosim iegūto figūru divās krāsās tā, kā parādīts A26.att. Lai kā arī tiktu
 novietota 8.att. figūra, tā vienmēr pārklāj pāra skaita melnās rūtiņas.
@@ -1468,7 +1468,7 @@ melnās rūtiņas, tātad prasīto nevar izdarīt.
 
 ![](LV.AMO.2015.12.2A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izkrāsosim iegūto figūru četrās krāsās diagonālveidā (skat. A27.att.). Tā satur
 $24$ katras krāsas rūtiņas. Lai kā novietotu 7.att. figūru, tā vienmēr pārklāj
@@ -1506,7 +1506,7 @@ ja $a, b, c, d$ ir pozitīvi skaitļi!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai pierādītu prasīto, pamatosim, ka pozitīviem skaitļiem ir spēkā
 $\frac{1}{x}+\frac{1}{y} \geq \frac{4}{x+y}$. Veicam ekvivalentus pārveidojumus:
@@ -1533,7 +1533,7 @@ kvadrāts. Pierādīt, ka $AB \geq 3PS$. Kādā gadījumā $AB=3PS$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $PS=QR$ un $AB=AQ+QR+RB$ (skat. A28.att.), tad pietiek pierādīt, ka
 $AQ+RB \geq 2PS$. Uz nogriežņa $AB$ atliekam punktu $B^{\prime}$ tā, ka
@@ -1554,7 +1554,7 @@ trīsstūris, tāpēc arī $\triangle ACB$ ir vienādsānu, jo
 $\sphericalangle CAB=45^{\circ}$. Tātad vienādība iespējama tikai tad, ja
 $AC=CB$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Kvadrāta malas garumu pieņemsim par vienu vienību $PS=SR=RQ=PQ=1$, tad
 jāpierāda, ka $AB \geq 3$. Ievērojam, ka $AB=AQ+QR+RB$ (skat. Axxx.att.).
@@ -1586,7 +1586,7 @@ ar $b$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā izriet, ka $(ab-1)(bc-1)(ac-1)$ dalās ar $abc$. Atverot iekavas iegūst,
 ka $a^{2}b^{2}c^{2}-a^{2}bc-ab^{2}c-abc^{2}+ab+bc+ac-1$ dalās ar $abc$. Tā kā

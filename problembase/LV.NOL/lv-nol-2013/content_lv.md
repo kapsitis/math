@@ -16,7 +16,7 @@ ar to reizinājumu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, piemēram, $1,1,1,1,1,3,4$.
 
@@ -40,7 +40,7 @@ Parādi, kā kvadrātu var sadalīt četros vienādos piecstūros.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 1.zīm.
 
@@ -65,7 +65,7 @@ $1, 2, 3, 4, 5, 8$ izmantots tieši vienu reizi.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** piemēram, $142835$.
 
@@ -94,7 +94,7 @@ lielāks nekā $1$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 2.zīm.
 
@@ -130,7 +130,7 @@ tā, ka no katra punkta iziet tieši $3$ vai $5$ nogriežņi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, nevar.
 
@@ -157,7 +157,7 @@ $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}+\frac{1}{d}=1$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** piemēram, $2, 3, 9, 18$.
 
@@ -187,7 +187,7 @@ jebkurus divus no tiem, nodzēš tos un rindas galā uzraksta šo skaitļu starp
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Jā, piemēram: vispirms piecos gājienos iegūst
 
@@ -226,7 +226,7 @@ un riņķa līniju, kas krusto uzzīmētā daudzstūra katru malu tieši vienā 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Skat., piem., 3.zīm.
 
@@ -275,7 +275,7 @@ $y$ *simti,* $z$ *desmiti un* $t$ *vieni.*)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja pirmais cipars ir $1$, tad, pierakstot klāt divciparu skaitli, ar ko
 dalās $100$, piemēram, $25$, iegūstam meklēto skaitli $125$.
@@ -311,7 +311,7 @@ Figūra var tikt novietota tikai tā, lai tās malas ietu pa rūtiņu līnijām.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** var iekrāsot gan $7$ , gan $6$ rūtiņas tā, lai uzdevuma prasības
 būtu izpildītas. 
@@ -345,7 +345,7 @@ skaitļu summa ir naturāla skaitļa kvadrāts. Ar ko pārī apvienots skaitlis 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izveidosim tabulu, ar ko pārī var būt apvienots katrs no dotajiem skaitļiem.
 
@@ -379,7 +379,7 @@ ar $3, 6$ ar $10$ un $1$ ar $15$.
 **Atbilde:** $1$ ir apvienots pārī ar $15$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Saliekam skaitļus pāros (sākot ar tiem skaitļiem, kam nav alternatīvu) un 
 pakāpeniski secinām: 
@@ -413,7 +413,7 @@ skaitlis $x(x+1)(x+2)$ dalās ar $111$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $162$.
 
@@ -428,7 +428,7 @@ $x$, ka $x+1$ dalās ar $37$ un $54$ veidos- tādu $x$, ka $x+2$ dalās ar $37$,
 t.i., pavisam ir $54+54+54=162$ tādi skaitļi $x$, ka $x(x+1)(x+2)$ dalās ar $111$.
 
 
-## Atrisinājums
+## Atrisinājums-2
  
 $x(x+1)(x+2)$ vienmēr dalās ar $3$, bet tam jādalās arī ar $37$. 
 Tādu $x$ ir trīsreiz vairāk kā $\left\lfloor 2013/37 \right\rfloor$.
@@ -452,7 +452,7 @@ atrodas uz vienas taisnes?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja $11$-stūra $8$ virsotnes atrodas uz vienas taisnes, tad $3$ virsotnes
 uz tās neatrodas. Apzīmēsim tās ar $A$, $B$ un $C$. Tad no pārējām $8$
@@ -484,7 +484,7 @@ skaitļu starpība būtu $6, 10, 14$ vai $18$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka to var izdarīt. Ievērosim, ka tādā gadījumā visu skaitļu
 paritātes ir vienādas. Ja visi skaitļi ir nepāra, tad tiem visiem pieskaitīsim
@@ -496,7 +496,7 @@ blakus stāvošo skaitļu paritātes ir dažādas, bet $13$ skaitļu gadījumā 
 iespējams.
 
 
-## Atrisinājums
+## Atrisinājums-2
  
 Skaitļu atlikums, dalot ar $4$, palielinās par $2$ katrā solī. Pēc $13$ soļiem arī mainās par $2$, bet 
 būtu jāpaliek tam pašam. Iegūta pretruna.
@@ -526,7 +526,7 @@ malas garumu $2$ un kuros ierakstīto skaitļu summa ir vismaz $18$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalīsim sākotnējo trijstūri četros vienādmalu trijstūros ar malas garumu $2$
 (skat. 6.zīm.). Tā kā ir četri šādi trijstūri (kas nepārklājas), un tajos
@@ -555,7 +555,7 @@ reizinātājiem ir lielāks nekā $1$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 $8999999=9000000-1=3000^{2}-1^{2}=(3000-1) \cdot(3000+1)=2999 \cdot 3001$.
@@ -563,7 +563,7 @@ $8999999=9000000-1=3000^{2}-1^{2}=(3000-1) \cdot(3000+1)=2999 \cdot 3001$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
  
 Pārveido $3000^2 - 1^2$ pēc kvadrātu starpības formulas.
 
@@ -589,7 +589,7 @@ leņķu lielumus!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $\sphericalangle A=30^{\circ}, \sphericalangle B=90^{\circ}, \sphericalangle C=60^{\circ}$.
 
@@ -628,7 +628,7 @@ Cik ir tādu četrciparu skaitļu, kuru pierakstā ir vismaz viens pāra cipars?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $8375$.
 
@@ -637,7 +637,7 @@ nepāra ciparus. Tātad $9000-625=8375$ četrciparu skaitļu pierakstā ir visma
 viens pāra cipars.
 
 
-## Atrisinājums
+## Atrisinājums-2
  
 $4$-ciparu skaitļu bez pāru cipariem ir $5^4 = 625$; 
 visu citu (kuros ir vismaz viens pāra cipars) 
@@ -666,7 +666,7 @@ skaitļu reizinājums būtu viens un tas pats.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, piemēram, tā, kā parādīts 8.zīm.
 
@@ -678,7 +678,7 @@ rindiņā un katrā kolonnā būtu viena un tā pati.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Sākam ar parastu maģisko kvadrātu, kur katrā rindiņā, 
 kolonnā (un pat diagonālē - kaut arī tas nav prasīts) 
@@ -731,7 +731,7 @@ ka vispirms stāv $10$ zēni un pēc tam $10$ meitenes.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Sanumurēsim pozīcijas no $1$ līdz $20$. Mums jāpanāk, ka pozīcijās no
 $1$ līdz $10$ stāv zēni, bet no $11$ līdz $20$- meitenes.
@@ -773,7 +773,7 @@ $987654321$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, piem., $111111111^{2}=12345678987654321$.
 
@@ -797,7 +797,7 @@ izvēles.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim dotā regulārā trijstūra $ABC$ malas garumu ar $a$ un augstumu ar $h$
 (skat. 1.zīm.). Tad
@@ -828,7 +828,7 @@ ar vienu un to pašu skaitli. Atrast visus šādus taisnstūrus.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a$ un $b, a \geq b$ ir taisnstūra malu garumi, tad $ab=2a+2b$. Pārveidojot,
 1.zīm. iegūstam $ab-2a-2b+4=4$ jeb $\quad(a-2)(b-2)=4$. Iegūtajam vienādojumam
@@ -858,7 +858,7 @@ $a_{1}+a_{2}+\ldots+a_{2013}$ vērtību.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā visi $a_{i}(i=1,2, \ldots, 2013)$ ir naturāli skaitļi, to mazākā iespējamā
 vērtība ir $1$. Ja kāds no dotajiem skaitļiem $a_{k}=1$, tad nevienādība
@@ -892,7 +892,7 @@ risinājumi netika iesniegti.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No trīs uzdevumiem var izveidot $8$ dažādus atrisināto uzdevumu „komplektus"
 (t.sk., neviens atrisināts uzdevums). Ja katru "komplektu" būtu atrisinājuši ne
@@ -918,7 +918,7 @@ $a_{1}+a_{2}+\ldots+a_{10}$ vērtību.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā visi $a_{i}$ ($i=1,2, \ldots, 10$) ir naturāli skaitļi, to mazākā iespējamā
 vērtība ir $1$. Ja kāds no dotajiem skaitļiem $a_{k}=1$, tad nevienādība
@@ -946,7 +946,7 @@ $ABC$ leņķus.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $36^{\circ}, 36^{\circ}, 108^{\circ}$.
 
@@ -992,7 +992,7 @@ un kurai nav vienāda garuma šķautņu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim piramīdas šķautņu garumus kā parādīts 3.zīm.
 
@@ -1023,7 +1023,7 @@ uzrakstīja vienu aiz otra. Cik cipari uzrakstīti?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $n$ ir skaitļa $2^{2013}$ ciparu skaits, $m$- skaitļa
 $5^{2013}$ ciparu skaits. Tad $10^{n-1} < 2^{2013} < 10^{n}$ un
@@ -1047,7 +1047,7 @@ mazāko.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No septiņiem dažādiem skaitļiem var izveidot $(6 \cdot 7):2=21$ dažādus pārus.
 Dotie skaitļi ir dažādi, pie tam nav mazāki kā $1$ un nav lielāki kā $21$,
@@ -1069,7 +1069,7 @@ Atrisināt veselos skaitļos vienādojumu $(x-y)(x+y)=x$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** atrisinājumi ir $(0; 0)$ un $(1; 0)$.
 
@@ -1107,7 +1107,7 @@ iekšējos punktos $P, Q, R$ un $S$. Pierādīt, ka $PQ \| RS$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novilksim diagonāli $BD$; apzīmēsim $\sphericalangle PQD=\alpha$
 (skat. 4.zīm.). Tā kā četrstūris $PQDB$ ir ievilkts riņķa līnijā, tad
@@ -1142,7 +1142,7 @@ svēršanām atrast vismaz vienu monētu, kas sver $9$ gramus?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var rīkoties, piemēram, šādi.
 
@@ -1171,7 +1171,7 @@ polinoms pieņem vērtību $2013$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $F(x)=P(x)-2000$. Tādā gadījumā $a, b, c, d$ ir polinoma $F(x)$
 saknes un $F(x)=(x-a)(x-b)(x-c)(x-d) R(x)$.
@@ -1195,7 +1195,7 @@ nedrīkst krustoties.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim visas iespējamās slēgtās lauztās līnijas, kas katra sastāv no $n$
 posmiem un visi tās $n$ lauzuma punkti ir dotajos punktos. Pierādīsim, ka no
@@ -1231,7 +1231,7 @@ $$\frac{a+b}{2}-\sqrt{ab} > \frac{1}{4(a+b)}.$$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidosim doto nevienādību:
 
@@ -1257,7 +1257,7 @@ $MN$ krustojas punktā $X$. Pierādīt, ka $\triangle NBX \sim \triangle PBC$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No bisektrises īpašības iegūstam $\frac{AB}{AP}=\frac{BC}{PC}$. Tā kā
 $AM=BC$ un $AN=PC$, tad ir spēkā $\frac{AB}{AP}=\frac{AM}{AN}$. Tāpēc
@@ -1288,7 +1288,7 @@ $n^{2}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $n^{2}+3n+3 \equiv 1^{2}+3+3 \equiv 0(\bmod 7)$. Tātad skaitlis
 $n^{2}+3n+3$ dalās ar $7$ un tā pirmreizinātāji var būt tikai skaitlis $7$ vai
@@ -1323,7 +1323,7 @@ trijstūra laukums nepārsniedz $\frac{\sqrt{3}}{16}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sauksim par doto $6$ trijstūru sānu malām tās malas, kas atrodas uz sešstūra
 malām. Aplūkosim šo trijstūru abu sānu malu garumu summas. Tā kā dotā sešstūra
@@ -1369,7 +1369,7 @@ komisijas locekļiem nebūtu domstarpību savā starpā.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim vispārīgāku apgalvojumu: ja parlamentā ir $n$ deputāti un katram no
 viņiem ir domstarpības ar ne vairāk kā $d$ citiem deputātiem, kur

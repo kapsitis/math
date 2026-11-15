@@ -6,7 +6,7 @@ lielākais kopīgais dalītājs būtu $1$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n=6k$, ņemam saskaitāmos $2k-1, 2k, \quad 2k+1$.
 

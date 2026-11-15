@@ -5,7 +5,7 @@ kuriem $m+k^{2}$ ir pilns kvadrāts.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotajai $m$ vērtībai mums ir jānosaka, cik atrisinājumu ir vienādojumam $m+y^{2}=x^{2}$ 
 veselos nenegatīvos skaitlos $x,y$. Vienādojumu pārveidojam formā

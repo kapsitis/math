@@ -16,7 +16,7 @@ for all positive integers $n$. Show that $a_{2022}\leq 1$.
 </small>
 
 
-## Solution
+## Solution-1
 
 We begin by observing that 
 $\left(a_{n+1}\right)^{2}-1 \leqslant a_{n}+a_{n+2}-a_{n} a_{n+2}-1$, which is equivalent to
@@ -57,7 +57,7 @@ sum of $k$ other distinct elements of the set.
 
 </small>
 
-## Solution
+## Solution-1
 
 *Answer:* $n=k+4$.
 
@@ -363,7 +363,7 @@ $$2^{j-i}x_ix_j>2^{s-3}.$$
 </small>
 
 
-## Solution
+## Solution-1
 
 Let $1 \leqslant a<b \leqslant n$ be such that $2^{b-a} x_{a} x_{b}$ is maximal. 
 This choice of $a$ and $b$ implies that $x_{a+t} \leqslant 2^{t} x_{a}$ for all 
@@ -439,7 +439,7 @@ $r^1,r^2,\ldots,r^{\frac{1}{2}n(n-1)}$.
 
 </small>
 
-## Solution
+## Solution-1
 
 *Answer:* $n \in\{2,3,4\}$.
 
@@ -580,7 +580,7 @@ for every function $f\in\mathcal F$, there exists some $z\in\mathbb R$ satisfyin
 
 </small>
 
-## Solution
+## Solution-1
 
 *Answer:* The desired set of rational numbers is 
 $\left\{\frac{n+1}{n}: n \in \mathbb{Z}, n \neq 0\right\}$.
@@ -680,7 +680,7 @@ and $s(P(k))$ have the same parity?
 
 </small>
 
-## Solution
+## Solution-1
 
 *Answer:* No. For any such polynomial there exists a positive integer $k$ such 
 that $s(k)$ and $s(P(k))$ have different parities.
@@ -770,7 +770,7 @@ for all positive integers $n$.
 
 </small>
 
-## Solution
+## Solution-1
 
 *Answer:* Such constants exist with $\lambda=3^{1 / 6}$; we will discuss 
 appropriate values of $c_{1}$ and $c_{2}$ in the solution below.
@@ -977,7 +977,7 @@ and $$\left| \sum_{i = 1}^{k} a_{t_i} \right| \ge C.$$
 </small>
 
 
-## Solution
+## Solution-1
 
 *Answer:* The answer is $C=506$.
 
@@ -1050,7 +1050,7 @@ at some moment during the process, the leftmost $n$ coins will all be of the sam
 </small>
 
 
-## Solution
+## Solution-1
 
 Define a block to be a maximal subsequence of consecutive coins made out of 
 the same metal, and let $M^{b}$ denote a block of $b$ coins of metal $M$. 
@@ -1126,7 +1126,7 @@ no matter how the lumberjack plays.
 
 </small>
 
-## Solution
+## Solution-1
 
 *Answer:* $K=5 \cdot \frac{2022^{2}}{9}=2271380$. 
 In general, for a $3 N \times 3 N$ board, $K=5 N^{2}$.
@@ -1358,7 +1358,7 @@ Prove that the number of nice functions is at least $n^n$.
 </small>
 
 
-## Solution
+## Solution-1
 
 For a subset $Y \subseteq X$, we write $f(Y)$ for $\sum_{y \in Y} f(y)$. 
 Note that a function $f: X \rightarrow$ $\{1, \ldots, n+1\}$ is nice, 
@@ -1710,7 +1710,7 @@ What is the smallest possible number $s$ of tuples that she initially wrote?
 
 </small>
 
-## Solution
+## Solution-1
 
 *Answer:* The smallest possible number is $s=3$.
 
@@ -1858,7 +1858,7 @@ Find, as a function of $n$, the smallest possible total number of uphill paths i
 </small>
 
 
-## Solution
+## Solution-1
 
 *Answer:* $2 n^{2}-2 n+1$.
 
@@ -1950,7 +1950,7 @@ such that $f(x,y)$ is odd. Find the smallest and largest possible values of $N$.
 
 </small>
 
-## Solution 
+## Solution-1
 
 *Answer:* The optimal bounds are $2500 \leqslant N \leqslant 7500$.
 
@@ -2593,7 +2593,7 @@ line $PQ$ passes through a fixed point.
 
 </small>
 
-## Solution
+## Solution-1
 
 Let the reflections of the line $BC$ with respect to the lines 
 $AB$ and $AC$ intersect at point $K$. We will prove that $P,Q$ and 
@@ -2702,7 +2702,7 @@ $AA’, BB’, CC’$, prove that the circumcenter of $PQR$ lies on $OH$.
 </small>
 
 
-## Solution
+## Solution-1
 
 In what follows, $\sphericalangle(p, q)$ will denote the directed angle 
 between lines $p$ and $q$, taken modulo $180^{\circ}$. 
@@ -2852,7 +2852,7 @@ Prove that if $XBYB'$ is a convex quadrilateral, then it has an incircle.
 
 </small>
 
-## Solution
+## Solution-1
 
 Denote by $\omega$ and $\omega^{\prime}$ the incircles of $\triangle ABC$ 
 and $\triangle A^{\prime} B^{\prime} C^{\prime}$ and let $I$ and 
@@ -2931,7 +2931,7 @@ is allowed to be larger than $3$.)
 
 </small>
 
-## Solution
+## Solution-1
 
 *Answer:* $1344$
 
@@ -3004,7 +3004,7 @@ $$n! \mid \prod_{ p<q \leq n, p,q \, \text{primes}} (p+q).$$
 
 </small>
 
-## Solution
+## Solution-1
 
 *Answer:* This only holds for $n=7$.
 
@@ -3291,7 +3291,7 @@ precisely two distinct values among $d_1(T)$, $d_2(T)$, $\dots$, $d_9(T)$.
 
 </small>
 
-## Solution
+## Solution-1
 
 Let $n:=1829$. First, we choose some $k$ such that $n \mid 10^{k}-1$. 
 For instance, any multiple of $\varphi(n)$ would work since $n$ is coprime to $10$. 
@@ -3361,7 +3361,7 @@ $q(63)=3$, $p(2022)=3$, $q(2022)=1$.)
 
 </small>
 
-## Solution
+## Solution-1
 
 Let us call two positive integers $m, n$ friends if $p(m)+p(n)$ and 
 $q(m)+q(n)$ are both even integers. We start by noting that the pairs 
@@ -3441,7 +3441,7 @@ of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$.
 
 </small>
 
-## Solution
+## Solution-1
 
 Let us allow the value $x=0$ as well; we prove the same statement under this 
 more general constraint. Obviously that implies the statement with the original conditions.

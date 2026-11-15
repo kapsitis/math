@@ -3,7 +3,7 @@
 Ar kādām naturālām $n$ vērtībām skaitlis $n^3-1$ ir pirmskaitlis?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zināms, ka $n^3 - 1 = (n - 1)(n^2 + n + 1)$. Tātad, ja $n-1 > 1$, 
 tad $n^3-1$ nav pirmskaitlis, jo $n-1$ ir tā dalītājs, pie kam 

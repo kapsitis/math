@@ -9,7 +9,7 @@ Rindā uzrakstīti visi naturālie skaitļi no $1$ līdz $1000$ ieskaitot, katrs
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ciparu virknēs no $000$ līdz $999$ pāra un nepāra ciparu ir vienāds daudzums („simetrijas pēc”). Tā kā $000$ vispār nav jāapskata un nulles skaitļa priekšā netiek rakstītas, tad starp „īstajiem” cipariem nepāra ciparu ir vairāk nekā par $100$ vairāk nekā pāra ciparu. Šo faktu negroza arī skaitlis $1000$, kurā pāra ciparu ir par $2$ vairāk nekā nepāra ciparu.
 
@@ -25,7 +25,7 @@ Naturālam trīsciparu skaitlim pirmo ciparu palielināja par $3$, otro - par $2
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sākotnējam skaitlim $x$ pieskaitīja $321$, tātad $3\cdot x=321$ un $x=107$. Pārbaude (obligāta!) $107\cdot4=428$ parāda, ka šī atbilde der.
 
@@ -41,7 +41,7 @@ Naturālā desmitciparu skaitlī vienādus ciparus aizstāja ar vienādiem burti
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vārdā KRIZANTĒMA ir pavisam $10$ burti, no tiem $9$ dažādi. Apzīmēsim skaitlī iztrūkstošo ciparu ar $X$. Tad **$K+R+I+Z+A+N+T+\text{Ē}+M+X=0+1+\ldots+9=45$**.  
 Saskaņā ar uzdevuma nosacījumiem $A$ ir pāra cipars un **$K+R+I+Z+A+N+T+\text{Ē}+M+A$ dalās ar $9$**. No abiem izceltajiem faktiem seko, ka $X-A$ dalās ar $9$. Tā kā $X-A\ne0$, tad $|X-A|\ge9$, un $|X-A|=9$ iespējams tikai tad, ja $X$ un $A$ ir $0$ un $9$. Tā kā $A$ - pāra cipars, tad $A=0$.
@@ -64,7 +64,7 @@ $2$. zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Režģa līniju kopgarums ir $40$, tāpēc katrs tā posms jākrāso tieši vienu reizi.
 
@@ -89,7 +89,7 @@ b) Vai tās var būt citādas?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) skat. 8.zīm.
 
@@ -111,7 +111,7 @@ Vai kvadrātu, kas sastāv no $7 \cdot 7$ rūtiņām, var sagriezt kvadrātos, k
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $2\cdot2$ kvadrātu skaitu ar $x$, bet $3\cdot3$ kvadrātu skaitu ar $y$. Tad $4\cdot x+9\cdot y=49$, $x\ge0$, $y\ge0$, $x$ un $y$ – veseli skaitļi. Pārbaudot $x=0;\ 1;\ \ldots;\ 12$ (lielākas $x$ vērtības nav jāpārbauda, jo tad $y$ iznāk negatīvs), redzam, ka varētu derēt tikai $x=1;\ y=5$ un $x=10;\ y=1$. Pirmajā gadījumā ir $\ge2$ lielā kvadrāta malas, kas nesatur nevienu $2\cdot2$ kvadrāta malu - pretruna, jo $7$ nedalās ar $3$. Otro gadījumu apskata līdzīgi. Tātad minētā sagriešana nav iespējama.
 
@@ -127,7 +127,7 @@ Krūzē ir tīra kafija un piens vienādās daļās. Profesors Cipariņš nodzē
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kafijas krūzē ir vairāk.
 
@@ -145,7 +145,7 @@ Kvadrāts sastāv no $4 \cdot 4$ rūtiņām. Tajās jāieraksta naturāli nepār
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar.
 
@@ -167,7 +167,7 @@ Cik klasē ir zēnu, un cik no viņiem ir meļi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmais apgalvojums ir patiess tikai visīsākā zēna mutē. Tāpēc klasē ir tikai viens patiess zēns, bet visi citi ir meļi, un patiesais zēns $X$ ir visīsākais. Tāpēc citu zēnu tiešām ir $\ge 11$. Ja to būtu $>12$, tad otrā īsākā zēna otrais apgalvojums būtu patiess; tā nevar būt. Tāpēc citu zēnu ir tieši $11$, un pavisam klasē ir $12$ zēnu. (Pārbaude parāda, ka iegūtā situācija apmierina uzdevuma nosacījumus.)
 
@@ -183,7 +183,7 @@ Klasē ir $34$ skolēni. Visi sēž $17$ divvietīgos solos. Ir zināms, ka tie�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja puse meiteņu sēž ar zēniem, tad otrā puse meiteņu sēž ar meitenēm; tātad šī „otrā puse” sastāv no pāra skaita meiteņu. Tāpēc meiteņu kopējais skaits dalās ar $4$. Ja uzdevumā minētā pārsēdināšana būtu iespējama, tad arī zēnu skaits dalītos ar $4$; tad arī kopējais skolēnu skaits dalītos ar $4$. Bet $34$ ar $4$ nedalās - pretruna.
 
@@ -199,7 +199,7 @@ Dots, ka $a$, $b$, $c$ - dažādi pozitīvi skaitļi. Vai var eksistēt tāds sk
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja tāds skaitlis $x$ būtu, tad vienlaicīgi jāpastāv sakarībām $x=\frac{c-b}{a}$, $x=\frac{a-c}{b}$, $x=\frac{b-a}{c}$. Tā kā $(c-b)+(a-c)+(b-a)=0$ un neviens no skaitļiem $c-b$; $a-c$; $b-a$ nav $0$, tad kāds no tiem ir negatīvs, bet kāds cits – pozitīvs. Tāpēc arī kāda no iegūtajām izteiksmēm pieņem pozitīvu vērtību, bet kāda cita – negatīvu; tas nav iespējams.
 
@@ -218,7 +218,7 @@ b) Vai to var izdarīt tā, lai katrā rindiņā un katrā kolonnā ierakstīto 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) jā; skat., piem., $9.$zīm.
 
@@ -240,7 +240,7 @@ Andris uzrakstīja piecciparu skaitli, izsvītroja no tā vienu ciparu un iegūt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja Andris būtu izsvītrojis citu ciparu, nevis pēdējo, tad summai būtu jābūt pāra skaitlim. Tātad Andris izsvītrojis pēdējo ciparu. Apzīmēsim sākotnējo skaitli ar $\overline{abcde}$; tātad $\overline{abcde}+\overline{abcd}=38207$. Tā kā $\overline{abcde}=10 \cdot \overline{abcd}+e$, iegūstam $11 \cdot \overline{abcd}+e=38207$. Tā kā $0 \le e \le 9$, tad $e$ ir atlikums, kuru iegūst, $38207$ dalot ar $11$; tātad $e=4$; $\overline{abcd}=(38207-4):11=3473$ un Andra sākotnēji uzrakstītais skaitlis ir $34734$.
 
@@ -256,7 +256,7 @@ Kvadrāts sastāv no $9 \cdot 9$ rūtiņām. Tajā atzīmētas $9$ rūtiņas tā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo: ir tāds $5 \cdot 5$ rūtiņu kvadrāts, kurā nav nevienas atzīmētās rūtiņas. Tad visas $9$ atzīmētās rūtiņas katra pieder rindai vai kolonnai, kas neiet caur šo kvadrātu; tādu kopā ir $8$. Tāpēc divas atzīmētās rūtiņas pieder vai nu vienai rindai, vai vienai kolonnai – pretruna.
 
@@ -272,7 +272,7 @@ Plaknē uzzīmēti $6$ nogriežņi. Nekādi divi no tiem neatrodas uz vienas tai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrs nogrieznis var krustot augstākais $5$ citus un katru no tiem – tikai vienā punktā. Nodzēsīsim tos $3$ nogriežņus, kas katrs krusto visus piecus citus; līdz ar to pazudīs arī attiecīgie krustpunkti. Paliks $3$ nogriežņi; uz viena no tiem būs palicis $1$ krustpunkts, uz otra – neviens. Tāpēc uz trešā palikušā nogriežņa būs palicis $1$ krustpunkts. Tātad sākotnēji uz tā bija $1+3=4$ krustpunkti.
 
@@ -292,7 +292,7 @@ Uz sakarības $y=\frac{1}{x}$ grafika ņemti $2$ punkti $A$ un $B$ un no tiem no
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Taisnstūriem, kam diagonāles ir $OA$ un $OB$, katram laukums ir $1$ saskaņā ar $A$ un $B$ izvēli. Atņemot to kopīgās daļas laukumu, iegūstam vajadzīgo.
 
@@ -308,7 +308,7 @@ Vai eksistē $100$ dažādi veseli skaitļi, kuru summa vienāda ar to reizināj
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Piemēram:
 
@@ -328,7 +328,7 @@ Trijstūra $MNK$ malas vienādas ar trijstūra $ABC$ mediānām (katra mala - ar
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $X$ ir $\triangle ABC$ malas $AC$ ir viduspunkts ($10.$zīm.)
 
@@ -352,7 +352,7 @@ $$\operatorname{LKD}(x,y)=52;\ \operatorname{LKD}(x,z)=54;\ \operatorname{LKD}(y
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, nevar.
 
@@ -374,7 +374,7 @@ Kvadrāts sastāv no $11\times 11$ rūtiņām. Tajā iezīmētas $28$ tādas fig
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** apgalvojums seko no tā, ka $28\cdot 9=252$ un $252>121\cdot 2$.
 
@@ -400,7 +400,7 @@ Uz koordinātu asīm nav uzrādīti mērogi. Vai var gadīties, ka 5.zīm. attē
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Tā kā visām parabolām zari vērsti „uz augšu”, tad $a>0$, $b>0$, $c>0$. Bet tad neviena no parabolām nevar krustot ordinātu asi (kur $x=0$) punktā, kurā $y<0$.
 
@@ -416,7 +416,7 @@ Pierādīt: trijstūra $ABC$ tā ārējā leņķa bisektrise, kas atrodas pie vi
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam arī iekšējā leņķa bisektrisi, kas krusto riņķa līniju punktā $N$. Tā kā $\overset{\frown}{AN}=2\beta=\overset{\frown}{NC}$, tad $N$ ir $\overset{\frown}{AC}$ viduspunkts.
 
@@ -438,7 +438,7 @@ Dots, ka $p$ – pirmskaitlis. Pierādīt, ka $p^4-1$ dalās vai nu ar $15$, vai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $p=2$, tad $p^4-1=15$. Ja $p>2$, tad $p$ – nepāra skaitlis. Ievērojam, ka  
 $p^4-1=(p^2-1)(p^2+1)=(p-1)(p+1)(p^2+1)$.  
@@ -456,7 +456,7 @@ Riņķa līnija ar rādiusu $R$ pieskaras $\triangle ABC$ malām $AB$ un $BC$, b
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $L(ABC)=L(ABO)+L(CBO)=\frac{1}{2}AB\cdot R+\frac{1}{2}BC\cdot R=\frac{1}{2}(AB+BC)\cdot R$ un
 
@@ -484,7 +484,7 @@ Kvadrātisks režģis sastāv no $5\cdot5$ vienādām kvadrātiskām rūtiņām 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** Ar $8$ gājieniem.  
 **Risinājums.** Viegli redzēt, ka prasītais sasniedzams, nokrāsojot kvadrātus, kuru diagonāles ir $AE$; $AD$; $CF$; $BF$; $HL$; $IL$; $JG$; $KG$ (skat. 14.zīm.).
@@ -511,7 +511,7 @@ Dots, ka $a>0$ un $b>0$. Pierādīt: taisne, kuras vienādojums ir $\frac{x}{a}+
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Punktu $(a;\ 0)$ un $(0;\ b)$ koordinātas apmierina vienādojumu $\frac{x}{a}+\frac{y}{b}=1$, tātad šie punkti atrodas uz uzdevumā minētās taisnes.
 
@@ -527,7 +527,7 @@ Vai eksistē tādi racionāli skaitļi $x$ un $y$, ka vienlaicīgi $x\ne0$, $y\n
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Ja $x^2+y^2=13xy$, tad $\left(\frac{x}{y}\right)^2-13\cdot\left(\frac{x}{y}\right)+1=0$ un $\frac{x}{y}=\frac{13}{2}\pm\frac{\sqrt{165}}{2}$. Bet $\sqrt{165}$ ir iracionāls skaitlis, tāpēc arī iegūtās $\frac{x}{y}$ vērtības ir iracionālas – pretruna.
 
@@ -545,7 +545,7 @@ $$R_{12}\cdot R_{34}=R_{13}\cdot R_{24}.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $R_{12}=\frac{BA_2}{2\sin\alpha_1}=\frac{h}{2\sin\alpha_1\sin\alpha_2};$ līdzīgi $R_{34}=\frac{h}{2\sin\alpha_3\sin\alpha_4};$ $R_{13}=\frac{h}{2\sin\alpha_1\sin\alpha_3}$ un $R_{24}=\frac{h}{2\sin\alpha_2\sin\alpha_4}$. No tā seko vajadzīgais. (Ievērojam, ka punktu kārtība uz taisnes nav svarīga.)
 
@@ -565,7 +565,7 @@ Dots, ka $a$, $b$, $c$ – pozitīvi skaitļi un $abc=1$. Pierādīt, ka $a^2+b^
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $a^2+b^2+c^2\geq a^2+2bc=a^2+\frac{2}{a}$. Tāpēc pietiek pierādīt, ka $a^2+\frac{2}{a}\geq a+\frac{1}{a}+1$ jeb $a^2-a-1+\frac{1}{a}\geq 0\Leftrightarrow \frac{a^3-a^2-a+1}{a}\geq 0\Leftrightarrow \frac{(a^2-1)(a-1)}{a}\geq 0\Leftrightarrow \frac{(a-1)^2(a+1)}{a}\geq 0$, kas ir acīmredzams.
 
@@ -581,7 +581,7 @@ Klasē ir $6$ aktīvisti. Katri divi aktīvisti veido tieši vienu komisiju. Atr
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: $n=11$  
 Risinājums. Apzīmēsim aktīvistus ar $A$; $B$; $C$; $D$; $E$; $F$. Desmit komisiju piemērs $AB$; $AC$; $AD$; $AE$; $BC$; $BD$; $BE$; $CD$; $CE$; $DE$ parāda, ka jābūt $n>10$. Pieņemsim, ka $n=11$. Sadalām visas komisijas $5$ grupās:
@@ -606,7 +606,7 @@ Divas paralēlas taisnes krusto funkcijas $y=x^2$ grafiku: viena taisne - punkto
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim taisņu vienādojumus ar $y=kx+b_1$ un $y=kx+b_2$. Tad punktu $A$ un $B$ abscisas ir vienādojuma $x^2=kx+b_1$ saknes, bet punktu $C$ un $D$ abscisas ir vienādojuma $x^2=kx+b_2$ saknes. Pēc Vjeta teorēmas $x_A+x_B=k$ un $x_C+x_D=k$, tātad $\frac{x_A+x_B}{2}=\frac{x_C+x_D}{2}$. Tāpēc $AB$ un $CD$ viduspunktiem ir vienādas abscisas, no kā seko vajadzīgais.
 
@@ -626,7 +626,7 @@ Klasē ir $5$ aktīvisti. Viņi izveidojuši vairākas komisijas. Katrā komisij
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $16$ komisijas.
 
@@ -644,7 +644,7 @@ Riņķa līnijas $W_1$ un $W_2$ krustojas punktos $A$ un $B$. Riņķa līnijas $
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No hordas – pieskares leņķa un ievilkta leņķa īpašībām $\angle XBC=\dfrac{1}{2}\overset{\frown}{BC}=\angle BAC=\dfrac{1}{2}\overset{\frown}{BmA}=\angle BDA$. No tā un no kāpšļu leņķu īpašībām seko vajadzīgais.
 
@@ -668,7 +668,7 @@ $\sin(\alpha+\beta)\cdot \sin(\beta+\gamma)\cdot \sin(\gamma+\delta)\cdot \sin(\
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām trijstūri, kura divu leņķu lielumi ir $\alpha$ un $\beta$. Tad trešā leņķa lielums ir $\gamma+\delta+90^{\circ}$, tāpēc trijstūris ir platleņķa. No sinusu teorēmas tā malu garumi ir $2R\sin\alpha$; $2R\sin\beta$; $2R\sin(\alpha+\beta)$. No kosinusu teorēmas $(2R\sin(\alpha+\beta))^2>(2R\sin\alpha)^2+(2R\sin\beta)^2$, tāpēc $\sin^2(\alpha+\beta)>\sin^2\alpha+\sin^2\beta\geq 2\sin\alpha\sin\beta$
 
@@ -696,7 +696,7 @@ ja $n$- patvaļīgs piecciparu naturāls skaitlis, tad $M$ ciparus var pārkārt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, neeksistē.
 
@@ -716,7 +716,7 @@ Dots, ka $a$, $b$, $c$ – reāli skaitļi un $|a-b|<c<a+b$. Vai noteikti $|a-c|
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Dotās nevienādības ir ekvivalentas sistēmai $a-b<c$, $b-a<c$, $c<a+b$, kas reducējas par $a+b>c$, $b+c>a$, $c+a>b$. Uz to pašu reducējas pierādāmās nevienādības.
 
@@ -732,7 +732,7 @@ Vai eksistē tādi naturāli skaitļi $x$ un $y$, ka abi skaitļi $7^x \cdot 2^y
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Viens no trim pēc kārtas sekojošiem naturāliem skaitļiem $7^x\cdot 2^y-1$, $7^x\cdot 2^y$ un $7^x\cdot 2^y+1$ dalās ar $3$. Tā kā tas nav $7^x\cdot 2^y$, tad viens no abiem apskatāmajiem skaitļiem dalās ar $3$. Tā kā tas ir vismaz $13$, tad tas nav pirmskaitlis.
 
@@ -748,7 +748,7 @@ Dots, ka $ABCDE$ ir izliekts piecstūris, pie tam $AB\parallel CE$, $BC\parallel
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pierādīsim, ka $AC\parallel DE$. Ja patvaļīgas figūras $F$ laukumu apzīmējam ar $L(F)$, tad no dotā seko $L(AED)=L(AEB)=L(ACB)=L(DCB)=L(DCE)$; bet no $L(AED)=L(DCE)$ seko $AC\parallel DE$. Tātad $DCD_1E$ un $DCBC_1$ ir paralelogrami; tātad $BC_1=CD=ED_1$. No $BC_1=ED_1$ seko vajadzīgais.
 
@@ -768,7 +768,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nepāra naturālie $n$.
 
@@ -802,7 +802,7 @@ Futbola turnīrā piedalījās $28$ komandas, katra ar katru citu spēlēja tie�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam tiek izspēlētas $C_{28}^2=\dfrac{28\cdot 27}{2}=378$ spēles. Tā kā $378\cdot \dfrac{3}{4}=283,5$, tad vismaz $284$ spēles beidzas neizšķirti. Tāpēc turnīrā pavisam izcīnītas ne vairāk kā $378-284=94$ uzvaras un piedzīvoti ne vairāk kā $94$ zaudējumi.
 

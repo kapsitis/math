@@ -5,7 +5,7 @@ kuru iegūst mainot tā ciparus vietām, starpība ir kāda naturāla skaiţ̦a 
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dots, ka $\overline{ab} - \overline{ba} = n^{2}$. 
 Tātad $n^{2}=\overline{ab}-\overline{ba} = 9 \cdot(a-b)$. 

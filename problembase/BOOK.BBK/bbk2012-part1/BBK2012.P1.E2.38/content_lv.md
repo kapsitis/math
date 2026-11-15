@@ -4,7 +4,7 @@ Atrodiet vismaz vienu naturālu skaitli $n$,
 lai intervālā $[n, n + 10]$ nebūtu neviena pirmskaitļa.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzdevuma nosacījumus apmierina, piemēram, skaitlis 
 $n = 12! +2 = 479001602$. 

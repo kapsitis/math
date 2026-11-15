@@ -7,7 +7,7 @@ trīs ciparu summu, vai tādu, kuru numurs dalās ar $11$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vairāk ir tādu biļešu, kuru numuri dalās ar $11$. 
 Tiešām, katrai biļetei $\overline{a_1a_2a_3a_4a_5a_6}$, 

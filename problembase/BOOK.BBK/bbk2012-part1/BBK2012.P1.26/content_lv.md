@@ -7,7 +7,7 @@ ciparu un pēdējo trīs ciparu veidoto skaitļu starpība
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apgalvojums seko no vienādības
 $$\overline{abcdef} = 1000 \cdot \overline{abc} + \overline{def} =$$

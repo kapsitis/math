@@ -12,7 +12,7 @@ vesels skaitlis?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ekvivalenti pārveidojam doto izteiksmi:
 
@@ -41,7 +41,7 @@ vidējais aritmētiskais.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc dotā $1 < B < C < 100$. Tā kā $B < C$, tad var pieņemt, ka $C=B+x$, kur
 $1 \leq x \leq 99-B$. Līdz ar to iegūstam, ka četru doto skaitļu vidējais
@@ -97,7 +97,7 @@ staru $OB$ punktā $T$. Pierādīt, ka $QT$ ir $\sphericalangle RQA$ bisektrise!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pagarinām nogriezni $PR$, tad $\sphericalangle ORP=\sphericalangle NRB$ kā
 krustleņķi (skat. 1.att.) un līdz ar to arī $BRQ=\sphericalangle NRB$.
@@ -134,7 +134,7 @@ $a, b, c, d$, ka vienlaicīgi izpildās šādi nosacījumi:
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Jā, eksistē. Skaitļiem $1, 2, 3, 6$ izpildās visi uzdevuma nosacījumi:
 
@@ -172,7 +172,7 @@ kuru izmēri ir $1 \times 1 \times 8$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasīto nevar izdarīt. Sadalām kubu $9$ mazākos kubos, kuru
 izmēri ir $4 \times 4 \times 4$, un iekrāsojam tos kā šaha galdiņu
@@ -199,7 +199,7 @@ pozitīvi dalītāji!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $n=2020$ un pārveidojam doto skaitli:
 
@@ -230,7 +230,7 @@ Zināms, ka $x^{2}+y^{2}+xy=3$. Kāda var būt $x+y$ vērtība?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka $x^{2}+y^{2}+xy \geq \frac{3}{4}(x+y)^{2}$. Veicam ekvivalentus
 pārveidojumus:
@@ -267,7 +267,7 @@ $D \geq 0$. Tātad $-2 \leq x+y \leq 2$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $x=u+v$ un $y=u-v$. levietojot apzīmējumus dotajā vienādībā,
 jegūstam
@@ -298,7 +298,7 @@ $\sphericalangle AEC+\sphericalangle FBG=180^{\circ}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $\triangle ABD \sim \triangle BDC$ pēc pazīmes
 $\ell \ell$, jo $\sphericalangle ADB=\sphericalangle BDC=90^{\circ}$ un 
@@ -332,7 +332,7 @@ Pierādīt, ka neviens šīs virknes loceklis nedalās ar $17$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam virknes locekļus ar $s_{0}=7, s_{1}=737, s_{2}=73737, \ldots$
 
@@ -393,7 +393,7 @@ kopējo masu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam monētas ar $A, B, C, D$. Pirmajā svēršanā uz svariem liekam $A$ un
 $B$.
@@ -426,7 +426,7 @@ $m$ vērtībām funkcija ir augoša intervālā $(1; 2)$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $m \neq 2019$ . Lai funkcija būtu augoša, jāizpildās
 nevienādībai $f(1) < f(2)$. Atrisinām šo nevienādību:
@@ -453,7 +453,7 @@ $m \in\left[\frac{1}{3} ; 2019\right) \cup$ $\cup(2019 ;+\infty)$ .
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ievērojam, ka $m \neq 2019$. Ja $m<0$, tad parabolas virsotnes abscisa
 $\frac{1-m}{2m}<0$, kas nozīmē, ka funkcija nav augoša dotajā intervālā.
@@ -486,7 +486,7 @@ nepārsniedz $x$. Piemēram, $[3,1]=3,[17]=17$, $[6,99]=6$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrs naturāls skaitlis $k$ dotajā virknē atkārtojas $k$ reizes, noskaidrosim,
 ar kādiem indeksiem (kurās pozīcijās) tas tajā parādās.
@@ -538,7 +538,7 @@ $ABC, BCD, CDA, DAB$ ievilkto riņķa līniju centri ir taisnstūra virsotnes!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $X$ un $Y$ ir attiecīgi $\triangle ABD$ un $\triangle ABC$ ievilkto riņķa
 līniju centri (skat. 6.att.), tad $AY$ un $BY$ ir attiecīgi
@@ -588,7 +588,7 @@ saknes ir **a)** veseli skaitļi, **b)** racionāli skaitļi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Nē, saknes nevar būt veseli skaitļi. Ievērojam, ka
 $c \neq 0$, jo pretējā gadījumā $\overline{abc}$ nav pirmskaitlis. Tas nozīmē,
@@ -664,7 +664,7 @@ izvēlētajā rindā, vai izvēlētajā kolonnā (vai abās).
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākā $N$ vērtība ir $6$ . Pamatosim, ja iekrāsotas $6$ rūtiņas, tad
 jebkuram krāsojumam izpildās uzdevuma nosacījumi. Ja kādā rindā ir vairāk
@@ -704,7 +704,7 @@ naturāls skaitlis?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, $2019~\mathrm{-ais}$ loceklis var nebūt naturāls skaitlis, piemēram,
 ja $b_{1}=1 \in \mathbb{N}$ un $q=\sqrt[3]{2}$, tad
@@ -729,7 +729,7 @@ vislielāko un vismazāko vērtību, ja $1 \leq x, y, z \leq 2020$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam doto izteiksmi un lietojam nevienādību
 $\frac{a}{b}+\frac{b}{a} \geq 2$ :
@@ -788,7 +788,7 @@ $AB^{2}=2CD^{2}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka $H$ ir riņķa līnijas $\omega$ centrs. Tā kā $AC=DM$, tad
 $\overline{CDA}=\overline{DAM}$ un $\overline{AkM}=\overline{DAM}-\overline{DA}=$ $=\overline{CDA}-\overline{DA}=\overline{CmD}$
@@ -828,7 +828,7 @@ ka visas šīs saknes ir **a)** veseli skaitļi, **b)** racionāli skaitļi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Nē, saknes nevar būt veseli skaitļi. Ievērojam, ka $d \neq 0$, jo
 pretējā gadījumā $\overline{abcd}$ nav pirmskaitlis. Tas nozīmē, ka $0$ nav
@@ -912,7 +912,7 @@ pilsētām, katrā iegriežoties tieši vienu reizi!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms biznesmenis sev var izveidot ceļu virkni no $67$ ceļiem caur kādām
 pilsētām $A_{1}-A_{2}-A_{3}-\ldots-A_{67}-A_{68}$. To noteikti var izdarīt, jo

@@ -3,7 +3,7 @@
 Dots, ka $7 \mid (2a + 3b)$. Pierādiet, ka $7 \mid (a + 5b)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $7 \mid 4(2a +3b) = 8a + 12b$. 
 Tātad arī skaitlis 

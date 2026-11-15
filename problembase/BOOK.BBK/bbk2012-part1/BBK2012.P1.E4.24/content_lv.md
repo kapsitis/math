@@ -4,7 +4,7 @@ Dots, ka $(a,b)=1$. Kādas vērtības var pieņemt skaitlis
 $\left(a+b, a^{2}+b^{2}\right)$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka $p$ ir kopīgs skaitlu $a+b$ un $a^{2}+b^{2}$ nepāra pirmreizinātājs. 
 Tad $p \mid(a+b)^{2}-\left(a^{2}+b^{2}\right)=2ab$ un $p \mid a$ vai $p \mid b$. 

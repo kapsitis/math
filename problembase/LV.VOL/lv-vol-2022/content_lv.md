@@ -12,7 +12,7 @@ $x^{2}+5y^{2}+4xy-6y+9 \geq 0$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -42,7 +42,7 @@ $\sphericalangle ADE=12 \beta$. Aprēķināt $\beta$ lielumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\triangle ABC$ ir vienādsānu, tad 
 $\sphericalangle BAC=\sphericalangle BCA=\frac{1}{2}\left(180^{\circ}-\sphericalangle ABC\right)=\frac{1}{2}\left(180^{\circ}-\beta\right)$.
@@ -73,7 +73,7 @@ ar $7$ un kura ciparu summa ir $K$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
  
  Apskatām divus gadījumus.
 
@@ -108,7 +108,7 @@ ka vienas rūtiņas mala ir vienu vienību gara?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais iespējamais ceļojuma garums ir $40$, to var veikt, piemēram, kā 
 parādīts 3.att.
@@ -134,7 +134,7 @@ Pierādīt, ka trijstūra augstumi nevar būt $19, 37$ un $41$ vienību gari!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka šāds trijstūris eksistē un ka tā laukums ir $S$. Izmantojot 
 trijstūra laukuma aprēķināšanas formulu $S=\frac{a \cdot h_{a}}{2}$, izsakām 
@@ -165,7 +165,7 @@ y^{2}=x+2
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atņemot no pirmā vienādojuma otro un veicot ekvivalentus pārveidojumus, iegūstam
 
@@ -213,7 +213,7 @@ $AB$ trīs vienāda garuma nogriežņos!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nogriežņu $CD$ un $CE$ krustpunktus ar $AB$ apzīmējam attiecīgi ar $M$ un $N$ 
 (skat. 5.att.) un apzīmējam $AB=AC=CB=a$. No simetrijas izriet, ka $AM=NB$, 
@@ -256,7 +256,7 @@ ar $13$ un kura ciparu summa ir $K$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām divus gadījumus.
 
@@ -284,7 +284,7 @@ izteikti centimetros. Aprēkināt šī trijstūra laukumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā vienādojuma saknes apzīmējam ar $a, b, c$ un vienādojumu pārrakstām formā:
 
@@ -325,7 +325,7 @@ S=\sqrt{p\left(p^{3}-(a+b+c)p^{2}+(ab+ac+bc)p-abc\right)}= \\
 20 \sqrt{409-400}=60\left(\mathrm{~cm}^{2}\right).
 \end{gathered}$$
 
-## Atrisinājums
+## Atrisinājums-2
 
 Atradīsim trijstūra malu garumus. Ja tie ir naturāli skaitļi, tad tiem jābūt 
 brīvā locekla $2040$ dalītājiem. Ievērojot, ka 
@@ -362,7 +362,7 @@ diētas vienlaicīgi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Abas diētas vienlaicīgi var ievērot lielākais $15$ dienas pēc kārtas. Lai to 
 izdarītu viens sieriṇš "Kārums" jāēd $1., 4., 5., 8., 11., 12., 15.$ dienā. 
@@ -413,7 +413,7 @@ Vai eksistē tāds naturāls skaitlis, kuram vienlaikus izpildās šādas trīs 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, piemēram, der skaitlis $2^{15} \cdot 3^{20} \cdot 5^{24}$, jo
 
@@ -438,7 +438,7 @@ Pierādīt, ka $AB=CD$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pierādīsim lemmu: ja diviem trijstūriem ir vienādas divas malas un 
 mediānas pret trešo malu, tad šie trijstūri ir vienādi.
@@ -491,7 +491,7 @@ uzrakstītais skaitlis netiek nodzēsts)?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka nevar panākt, lai uz lapas būtu uzrakstīts skaitlis $2022$.
 
@@ -522,7 +522,7 @@ izteikti centimetros. Aprēķināt šī trijstūra laukumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā vienādojuma saknes apzīmējam ar $a, b, c$ un vienādojumu pārrakstām formā:
 
@@ -562,7 +562,7 @@ S= & \sqrt{p\left(p^{3}-(a+b+c)p^{2}+(ab+ac+bc)p-abc\right)}= \\
 = & 9 \sqrt{-9 \cdot 27^{2}+7785-1160}=9 \sqrt{64}=72\left(\mathrm{~cm}^{2}\right)
 \end{aligned}$$
 
-## Atrisinājums
+## Atrisinājums-2
 
 Atradīsim trijstūra malu garumus. Ja kāds no tiem ir racionāls skaitlis, tad 
 tas ir skaitļa $3480$ dalītājs. Ievērojot, ka 
@@ -600,7 +600,7 @@ naturālu skaitli reizinājums dalās ar $N^{2}$. Kuri skaitlļi nav amizanti?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka amizanti nav visi pirmskaitli, kā arī skaitlis $4$.
 
@@ -634,7 +634,7 @@ Atrisināt reālos skaitļos vienādojumu $x^{2}-\cos x+1=0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der vērtība $x=0$, jo $0^{2}-1+1=0$. Ja $x \neq 0$, tad $x^{2}+1>1 \geq \cos x$, 
 tātad vienādība nevar pastāvēt.
@@ -654,7 +654,7 @@ Pierādīt, ka $EF=\frac{|AD+BC-AB-CD|}{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Taisnes $BE$ un $AD$ krustpunktu apzīmēsim ar $G$, bet taisnes $CH$ krustpunktu
 ar $AD$ - ar $H$ (skat. 8.att.).
@@ -682,7 +682,7 @@ Apskatīsim divus gadījumus, kādā secībā var būt izkārtoti punkti uz tais
 
 ![](LV.VOL.2022.12.2A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 No punkta $E$ novelkam perpendikulus pret malām $BC, AB$ un $AD$, to pamatus 
 attiecīgi apzīmējam ar $E_{1}, E_{2}, E_{3}$ (skat. 10.att.). 
@@ -728,7 +728,7 @@ pirmskaitlis!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No kubu summas formulas $a^{3}+b^{3}=(a+b)\left(a^{2}-ab+b^{2}\right)$ redzams,
 ka $a^{3}+b^{3}$ dalās ar $(a+b)$. Apskatīsim divus iespējamos gadījumus.
@@ -778,7 +778,7 @@ izteikti centimetros. Aprēķināt šī trijstūra laukumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā vienādojuma saknes apzīmējam ar $a, b, c$ un vienādojumu pārrakstām formā:
 
@@ -834,7 +834,7 @@ $3 \times 3$ rūtiņas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim, cik garas var būt katra daudzstūra projekcijas uz divām dotā kvadrāta 
 perpendikulārajām malām. Abas projekcijas ir nogriežṇi, tās apzīmēsim ar 

@@ -23,7 +23,7 @@ iegūtās daļas pēc formas atšķirtos no otrā sagriešanā iegūtajām daļ�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 1.zīm.
 
@@ -55,7 +55,7 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar pirmo svēršanu salīdzinām $A$, $B$ pret $C$, $D$. Ja svari **nav** līdzsvarā, 
 tad pašreiz uz tiem ir atšķirīgā monēta. Ar otro svēršanu salīdzinām $A,\ B$ 
@@ -89,7 +89,7 @@ apli".)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $0,\ 1$ vai $2$.
 
@@ -132,7 +132,7 @@ Kuri no rūķīšiem melo, kuri - runā patiesību?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Patieso rūķīšu nav vairāk kā viens, jo visas atbildes ir dažādas. Tā kā vismaz 
 viena atbilde ir patiesa (meļu skaits nav $0$), tad viens rūķītis runā 
@@ -158,7 +158,7 @@ Vai to var izdarīt ar skaitļiem no $1$ līdz $13$ ieskaitot?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, var, piemēram:
 
@@ -185,7 +185,7 @@ izteiksme $2a+3b+c$ dalās ar $7$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka 
 $\overline{abc}=100a+10b+c=(98a+7b)+(2a+3b+c)=7(14a+b)+(2a+3b+c)$.
@@ -213,7 +213,7 @@ svēršanām var noteikt katra atsvara masu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sveram $A+B$. Ja $A+B=20$ vai $A+B=22$, $A$ un $B$ masas jau zināmas. Tālāk ar 
 $2$ svēršanām atrodam atsevišķi $C$ un $D$.
@@ -250,7 +250,7 @@ bumbieru.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Andris paņem to grozu, kurā ir visvairāk ābolu (vai vienu no tādiem, ja to ir 
 vairāki) un to grozu, kurā ir visvairāk bumbieru (vai vienu no tādiem, ja to ir
@@ -281,7 +281,7 @@ $2$ malas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam jābūt nokrāsotām $16 \times 2=32$ malām. Viena nogriežņa nokrāsošana 
 dod vienas vai divu malu krāsojumu (atkarībā no tā, vai šis nogrieznis ir uz 
@@ -314,7 +314,7 @@ $10$ dukāti.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka Sprīdītis ir pamīšus baltās un melnās rūtiņās, tāpēc viņš 
 apmeklējis $54:2=27$ baltas rūtiņas. Pavisam balto rūtiņu ir 
@@ -349,7 +349,7 @@ dažādos vagonos, kas pie tam nav blakus viens otram. Cik vietu ir katrā vagon
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $1996$ līdz $2015$ (ieskaitot) ir $20$ naturāli skaitļi, tātad vagonā 
 **ir vismaz** $20$ vietas. Starp tiem vagoniem, kuros ir $630.$ un 
@@ -387,7 +387,7 @@ var beigties šo skaitļu reizinājums?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemērs $407=250+125+32$ parāda, ka $6$ nulles var būt. Tiešām, 
 $250 \cdot 125 \cdot 32=2 \cdot 5^{3} \cdot 5^{3} \cdot 2^{5}=1000000$.
@@ -420,7 +420,7 @@ Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā trijstūrī pret vienādiem leņķiem atrodas vienādas malas, tad $AE=AD$ un 
 $AC=AB$. Bez tam 
@@ -452,7 +452,7 @@ palikusi tikai viena dzīva būtne. Kas tā ir?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** pūķis.
 
@@ -497,7 +497,7 @@ tie abi ir tukši). Kādu lielāko konfekšu daudzumu var apēst?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka brīdī, kad būtu palikušas $2$ konfektes, nevienu no tām apēst vairs
 nevarēs. Tāpēc apēsto konfekšu skaits nepārsniedz $22$. Parādīsim, kā apēst 
@@ -534,7 +534,7 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Vjeta teorēmas seko 
 $b=x_{1}^{2} \cdot x_{2}^{2}=\left(x_{1}x_{2}\right)^{2}=q^{2}$ un 
@@ -560,7 +560,7 @@ risināts, ja katri divi bērni kopā risināja vismaz vienu no tiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katram bērnam jāpiedalās uzdevumu risināšanā kopā ar $5$ citiem. Tā kā vienā 
 grupā katrs bērns ir kopā $2$ citiem, tad katram bērnam jārisina vismaz $3$ 
@@ -596,7 +596,7 @@ naturāls skaitlis, kam vienlaicīgi izpildās īpašības $S(n)=10$ un $S(5n)=5
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** piemēram, $n=64$;
 
@@ -609,7 +609,7 @@ neapmierina uzdevuma nosacījumus.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Uzminēts piemērs (pāru cipari divreiz samazinās, ja reizina ar $5$).
 
@@ -637,7 +637,7 @@ punkts $M$, ka $\sphericalangle KMB=\sphericalangle BAC$. Pierādīt, ka $KM=AL$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atliekam uz $BC$ tādu punktu $N$, ka $\sphericalangle KNC=\sphericalangle KMB$ 
 (tā kā $\triangle ABC$ - šaurleņķu, tad $N$ nesakrīt ar $M$). Pēc dotā 
@@ -673,7 +673,7 @@ Vai tas var gadīties, ja sākotnēji melnas ir $33$ rūtiņas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja nokrāsotas $32$ rūtiņas, visu kvadrātu melnu nokrāsot neizdosies.
 
@@ -709,7 +709,7 @@ dalās ar $8$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Septiņciparu naturāls skaitlis dalās ar $8$ tad un tikai tad, ja tā pēdējo $3$ 
 ciparu veidotais skaitlis dalās ar $8$ (jo 
@@ -750,7 +750,7 @@ rūķīšus.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka pēdējais atnāca rūķītis $A$, bet pirmais aizgāja rūķītis $B$. Ja 
 $A=B$, tas ir meklējamais rūķītis. Ja $A \neq B$, tad ar $K_{A}$ apzīmēsim 
@@ -788,7 +788,7 @@ punktos $M$, $K$ un $N$. Pierādīt, ka $\sphericalangle BMN=\sphericalangle BMK
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No konstrukcijas seko, ka $PMBN$ ir trapece, pie tam vienādsānu (leņķi pie 
 pamata $PM$ abi ir $60^{\circ}$ ). Tāpēc 
@@ -826,7 +826,7 @@ $f(x)+f(x+1)+f(x+2)=0$ arī ir divas saknes.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam vienādojuma $f(x)=0$ saknes $x_{1}$ un $x_{2},\ x_{1}<x_{2}$. Tad pie
 $x_{1}<x<x_{2}$ pastāv nevienādība $f(x)<0$, bet pie $x>x_{2}$ un pie $x<x_{1}$
@@ -861,7 +861,7 @@ lielāks par $1$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $25$ skaitļus.
 
@@ -897,7 +897,7 @@ $R$ ir kopīga mala.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 7.zīm.
 
@@ -920,7 +920,7 @@ hordas $MN$ garuma, nevis no tās novietojuma.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim hordas $MN$ garumu ar $a$, bet tās savilktā loka leņķisko lielumu ar 
 $\omega$. Iespējami divi gadījumi:
@@ -945,7 +945,7 @@ Noskaidrojiet $x,\ y,\ z$ un $t$ vērtības.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka 
 $33!=31 \cdot 29 \cdot 23 \cdot 19 \cdot 17 \cdot 13^{2} \cdot 11^{3} \cdot 7^{4} \cdot 3^{15} \cdot 5^{7} \cdot 2^{31}=M \cdot 11^{3} \cdot 3^{15} \cdot 2^{24} \cdot 10^{7}$,
@@ -980,7 +980,7 @@ nu $11$, vai $12$ uzvaras. Kāda var būt $n$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n=12$.
 
@@ -1022,7 +1022,7 @@ $\frac{1}{x}+\frac{1}{y}+\frac{1}{z} \leq 3$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, noteikti. Ievērosim, ka 
 $(x+y+z)\left(\frac{1}{x}+\frac{1}{y}+\frac{1}{z}\right)=3+\left(\frac{x}{y}+\frac{y}{x}\right)+\left(\frac{x}{z}+\frac{z}{x}\right)+\left(\frac{y}{z}+\frac{z}{y}\right)$.
@@ -1048,7 +1048,7 @@ sadalīt divās grupās tā, ka katras grupas skaitļu summa ir pirmskaitlis, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; piemēram, $1+2+4=7$ un $3+5+6+7+8=29$.
 
@@ -1072,7 +1072,7 @@ $\sqrt{d}-\sqrt{a} \leq 1$. Pierādīt, ka $a$ ir vesela skaitļa kvadrāts.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $b=a+n, \quad c=a+m, \quad d=a+p$, kur $0<n \leq m<p$. No 
 $a(a+p)=(a+n)(a+m)$ seko $p=m+n+\frac{m \cdot n}{a}$. Tā kā $p$ - naturāls 
@@ -1101,7 +1101,7 @@ Punkts $P$ atrodas regulāra trijstūra $ABC$ iekšpusē. Pierādīt, ka:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Lemma.** $PA<AB$.
 
@@ -1150,7 +1150,7 @@ $x+a^{3}=\sqrt[3]{a-x}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam vienādojumu:
 
@@ -1192,7 +1192,7 @@ trīs dažādas valodas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātisko indukciju. Pie $n=3$ uzdevuma apgalvojums ir 
 acīmredzams. Pieņemsim, ka tas ir patiess pie $n=3;\ 4;\ \ldots;\ k$. Apskatām 
@@ -1226,7 +1226,7 @@ dalītāju, kas dod atlikumu $2$, dalot ar $3$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Varam apzīmēt $n=3^{k} \cdot a$, kur $a$ nedalās ar $3$. Tad 
 $n^{2}=3^{2k} \cdot a^{2}$. Dalītāji, par kuriem runā uzdevumā, ir precīzi 
@@ -1252,7 +1252,7 @@ $A,\ B,\ M,\ N,\ K$ - punkti, kas atrodas kvadrātiska režģa virsotnēs (skat.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārliecināties, ka punkti $A,\ B,\ K,\ N,\ M$ atrodas vienādos attālumos
 no iekrāsotās rūtiņas centra, tātad atrodas uz vienas riņķa līnijas. Tātad 
@@ -1277,7 +1277,7 @@ $a^{2}+b^{2}+c^{2} \leq A^{2}+B^{2}+C^{2}$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $a \neq 0$ un $A \neq 0$. Funkciju 
 $f(x)=\left|ax^{2}+bx+c\right|$ un $F(x)=\left|Ax^{2}+Bx+C\right|$ grafiki 
@@ -1315,7 +1315,7 @@ ir mazākais iespējamais.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Parādīsim, kā to var izdarīt ar $2$ svēršānām. Apzīmēsim monētas ar 
 $A,\ B,\ C,\ D,\ E$.
@@ -1352,7 +1352,7 @@ $f\left(x_{1}\right) \neq f\left(x_{2}\right)$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalīsim plakni vienības kvadrātos un sanumurēsim tos "pa spirāli" ar 
 naturāliem skaitļiem, kā parādīts 13.zīm.

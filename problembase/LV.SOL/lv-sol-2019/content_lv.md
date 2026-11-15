@@ -13,7 +13,7 @@ $1.$ att.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, $2.$ att.
 
@@ -39,7 +39,7 @@ Vai $x$ un $y$ vietā var ierakstīt pa vienam ciparam tā, lai skaitlis **a)** 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Jā, piemēram, skaitlis $90837$ dalās ar $9$, jo tā ciparu summa dalās ar $9$.
 
@@ -59,7 +59,7 @@ Kādos daudzstūros ar vienu taisnu griezienu var sagriezt trijstūri? *Atrodi v
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar vienu taisnu griezienu trijstūri var sadalīt divos trijstūros vai trijstūrī un četrstūrī (skat. $3.$ att.). Pamatosim, ka citu variantu nav.
 
@@ -89,7 +89,7 @@ $2.$ att.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 5. att.
 
@@ -116,7 +116,7 @@ Skat., piemēram, 5. att.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Lai skaitlis dalītos ar $6$, tam jādalās ar $2$ un $3$. Dotais skaitlis dalās ar $2$, jo tā pēdējais cipars ir pāra. Lai skaitlis dalītos ar $3$, tā ciparu summai jādalās ar $3$, tas ir, $2 + 0 + x + 1 + 8 = 11 + x$ jādalās ar $3$. Tātad $x$ vietā var ierakstīt vai nu ciparu $1$, vai $4$, vai $7$.  
 **b)** Nē. Lai skaitlis dalītos ar $25$, tā pēdējo divu ciparu veidotajam skaitlim jādalās ar $25$. Tas nozīmē, ka divciparu skaitlim $\overline{8y}$ jādalās ar $25$, kas nav iespējams.
@@ -133,7 +133,7 @@ Uz taisnstūra $ABCD$ malas $AB$ atzīmēts punkts $M$ tā, ka nogrieznis $AM$ i
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Ievērojam, ka trijstūra $MBC$ laukums ir puse no taisnstūra $MBCN$ laukuma (skat. 6. att.). Tāpēc $MBCN$ laukums ir $5 \cdot 2 = 10 \text{ (cm}^2\text{)}$. Tā kā $AM$ ir četras reizes garāks nekā $MB$, tad taisnstūra $AMND$ laukums ir četras reizes lielāks nekā $MBCN$ laukums, tas ir, $10 \cdot 4 = 40 \text{ (cm}^2\text{)}$. Līdz ar to taisnstūra $ABCD$ laukums ir $10 + 40 = 50 \text{ (cm}^2\text{)}$.
 
@@ -163,7 +163,7 @@ Ziemassvētku vecīša noliktavā ir skapis, kas sastāv no $6 \cdot 6$ kvadrāt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Jā, piemēram, skat. 8. att., kur tie plaukti, kuros atrodas dāvanas, ir iekrāsoti pelēki.
 
@@ -189,7 +189,7 @@ Kādus ciparus var ierakstīt $x$ un $y$ vietā, lai piecciparu skaitlis $\overl
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai skaitlis dalītos ar $12$, tam jādalās ar $3$ un $4$. Skaitlis dalās ar $3$, ja tā ciparu summa dalās ar $3$. Skaitlis dalās ar $4$, ja tā pēdējo divu ciparu veidotais skaitlis dalās ar $4$. Tātad divciparu skaitlim $\overline{3y}$ jādalās ar $4$. Tas nozīmē, ka $y$ vietā var būt vai nu $2$, vai $6$.
 
@@ -209,7 +209,7 @@ Plaknē novilktas četras taisnes. Cik leņķus, kas mazāki nekā $180^{\circ}$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka četras taisnes var veidot $0$; $12$, $16$, $20$ vai $24$ leņķus, kas mazāki nekā $180^{\circ}$. Ievērojam, ka katras divas taisnes, kas krustojas, veido $4$ leņķus, kas mazāki nekā $180^{\circ}$. Pavisam iespējamas četras dažādas četru taišņu krustošanās iespējas:
 
@@ -239,7 +239,7 @@ Skolēni jau laicīgi gribēja radīt sev Ziemassvētku noskaņu. Katrs no $26$ 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, noteikti. Ja katrai dāvanai būtu bijusi cita cena, tad kopā būtu ne vairāk kā $100$ dāvanas, bet tā ir pretruna ar to, ka pēc ceturtās reizes pavisam kopā būs uzdāvinātas $26 \cdot 4 = 104$ dāvanas. Tātad noteikti ir vismaz divas dāvanas, kuru cena ir vienāda. (Izmantots Dirihlē princips, kur būri – dāvanu iespējamā cena; truši – dāvanas.)
 
@@ -256,7 +256,7 @@ Jā, noteikti. Ja katrai dāvanai būtu bijusi cita cena, tad kopā būtu ne vai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Nē. Lai skaitlis dalītos ar $20$, tam jādalās ar $4$ un $5$. Skaitlis dalās ar $5$, ja tā pēdējais cipars ir vai nu $0$, vai $5$. Skaitlis dalās ar $4$, ja tā pēdējo divu ciparu veidotais skaitlis dalās ar $4$. Taču ne $30$, ne $35$ ar $4$ nedalās. Tātad prasītais nav iespējams.  
 
@@ -274,7 +274,7 @@ Pierādīt, ka izliekta četrstūra diagonāļu garumu summa ir lielāka nekā j
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Patvaļīgā izliektā četrstūrī $ABCD$ jāpierāda, ka $AB + CD < AC + BD$. Apzīmēsim diagonāļu krustpunktu ar $O$ (skat. $11.$ att.). Trijstūrī $AOB$ no trijstūra nevienādības izriet, ka
 $$
@@ -302,7 +302,7 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka $xy(x+69y)=20182019201820
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar atrast. Ja $x$ vai $y$ ir pāra skaitlis, tad vienādojuma kreisās puses izteiksmes vērtība ir pāra skaitlis, kas nevar būt vienāda ar nepāra skaitli $2018201920182019$. Ja $x$ un $y$ abi ir nepāra skaitļi, tad $x+69y$ ir pāra skaitlis un vienādojuma kreisās puses izteiksmes vērtība ir pāra skaitlis, kas nevar būt vienāda ar nepāra skaitli $2018201920182019$.
 
@@ -320,7 +320,7 @@ Doti astoņi dažādi naturāli skaitļi, kuri nepārsniedz $28$. Pierādīt, ka
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārī nav nozīmes skaitļu secībai, jo interesējamies par lielākā un mazākā skaitļa starpību. Tātad no astoņiem dažādiem skaitļiem var izveidot $8 \cdot 7 : 2 = 28$ dažādus pārus.
 
@@ -338,7 +338,7 @@ Romba $ABCD$ iekšpusē izvēlēts patvaļīgs punkts $M$, bet $K$, $L$, $P$ un 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $X$, $Y$, $Z$ un $T$ apzīmējam attiecīgi nogriežņu $MK$, $ML$, $MP$ un $MR$ viduspunktus (skat. $12.$ att.). No viduslīnijas īpašībām trijstūrī $BCD$ izriet, ka $BD \parallel PL$. No viduslīnijas īpašībām trijstūrī $MPL$ izriet, ka $PL \parallel ZY$. Tātad $ZY \parallel BD$.
 
@@ -368,7 +368,7 @@ Pierādīt, ka $9x^2 - 12xy + 20y^2 + 8y + 4 > 0$ visām reālām $x$ un $y$ vē
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicot ekvivalentus pārveidojumus, iegūstam
 $$
@@ -391,7 +391,7 @@ Ap apaļu galdu sēž zēni un meitenes, turklāt zēnu ir trīs reizes vairāk 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam meiteņu skaitu ar $m$ un zēnu skaitu ar $z$, tad $z = 3m$ un kopējais bērnu skaits ir $4m$. Ja ir $a$ pāru „zēns-meitene” skaits, tad citu pāru ir $2a$, tātad pavisam ir $3a$ pāru. Tāpēc $3a = 4m$. Tātad $m$ jādalās ar $3$ un ir vismaz $12$ bērni. Piemēru, kā $12$ bērni var sēdēt pie galda, skat. $13$. att.
 
@@ -415,7 +415,7 @@ $4$. att.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No hordu īpašības iegūstam, ka $AM \cdot AK = AN \cdot AB$ un $CK \cdot CM = CL \cdot CB$.
 
@@ -447,7 +447,7 @@ Vai vienādojumam $6^x + 15^y = 7^z$ eksistē atrisinājums naturālos skaitļos
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, neeksistē. Dotā vienādojuma kreisās puses izteiksme dalās ar $3$, jo katrs saskaitāmais dalās ar $3$, bet vienādojuma labā puse nedalās ar $3$. Līdz ar to dotajam vienādojumam nav atrisinājumu naturālos skaitļos.
 
@@ -463,7 +463,7 @@ Klasē ir $30$ skolēni. Katrā decembra dienā daži (varbūt arī neviens, vie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais nav iespējams. Pieņemsim pretējo, ka visi skolēni pie sienas ir piesprauduši vienu un to pašu lapiņu skaitu $n$. Divos dažādos veidos saskaitīsim kopējo piesprausto lapiņu skaitu.
 
@@ -488,7 +488,7 @@ $5$. att.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2019.11.3A.png){ width=100px }
 
@@ -520,7 +520,7 @@ Kāds atlikums rodas, $2018^{10} + 2019^5$ dalot ar $9$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka
 
@@ -545,7 +545,7 @@ Cik daudz ir piecciparu skaitļu, kas sastāv tieši no trīs dažādiem ciparie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā šādā skaitlī ir viens cipars $a$, kas skaitlī ir tikai vienu reizi un divi cipari $b$ un $c$, kas katrs parādās šajā skaitlī divas reizes.
 
@@ -567,7 +567,7 @@ Trijstūra $ABC$ leņķa $ACB$ bisektrise un leņķa $ABC$ blakusleņķa bisektr
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\angle ACD = \angle BCD = \alpha$ un $\angle ABD = \angle DBX = \beta$ (skat. $17.$ att.). Tad $\angle ABC = 180^{\circ} - 2\beta$ un $\angle BAC = 180^{\circ} - \angle ABC - \angle ACB = 2\beta - 2\alpha = 2(\beta - \alpha)$.
 

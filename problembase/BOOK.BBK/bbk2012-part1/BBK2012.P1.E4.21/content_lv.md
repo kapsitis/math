@@ -4,7 +4,7 @@ Dalāmais ir vienāds ar $371$, bet nepilnais dalījums ir $14$.
 Nosakiet iespējamās dalītāja vērtības un atbilstošos atlikumus.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $371 = x \times 14+r$, $0 \leq r<x$.
 $14 x<371$, tātad $x \leq[371 / 14]=26$.

@@ -5,7 +5,7 @@ Pierādīt, ka $10a+b$ dalās ar $7$ tad un tikai tad, ja $a-2b$ dalās ar $7$
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $10a+b$ dalās ar $7$, tad arī $(10a+b) - 7(a+b) = 3(a-2b)$ dalās ar $7$; 
 līdz ar to $a-2 b$ dalās ar $7$.

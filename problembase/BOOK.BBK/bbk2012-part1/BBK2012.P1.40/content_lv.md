@@ -5,7 +5,7 @@ Vai $a+b$ var būt pirmskaitlis?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $34(a+b) = 34a+34b = 43b+34b = 77b$. Tas nozīmē, ka skaitlis $34(a+b)$ dalās ar $77$.
 

@@ -22,7 +22,7 @@ ir jautājuma zīme?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kreisajā summa ir $30$, aizpildītajā diagonālē tā ir $39$. Tātad apskatāmās 
 summas ir no $30$ līdz $39$. Vēl jāieraksta skaitļi $1;\ 2;\ 8;\ 15;\ 16$. 
@@ -57,7 +57,7 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar pirmo svēršanu salīdzinām $A$, $B$ pret $C$, $D$. Ja svari **nav** 
 līdzsvarā, tad pašreiz uz tiem ir atšķirīgā monēta. Ar otro svēršanu salīdzinām
@@ -92,7 +92,7 @@ rindiņā - nepāra skaits zvaigznīšu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē, nav iespējams. Ja tāda tabula pastāvētu, tad kopējais zvaigznīšu 
 skaits tajā, skaitot pa kolonnām, būtu pāra skaitlis, bet, skaitot, pa 
@@ -123,7 +123,7 @@ kopējais zelta daudzums tajā.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienu sākotnējo gabalu sadala divos vienādos; tās būs kaudzes $A$ un $B$. 
 Pārējos gabalus noliek rindā un rindu sadala divās daļās tā, lai šajās daļās 
@@ -155,7 +155,7 @@ ar formu ![](LV.AMO.2005.5.5_2.png)?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, ne noteikti. Skat. Zīm.
 
@@ -179,7 +179,7 @@ $200520052005 \times 20042004$ ir lielāks?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Abi skaitļi ir vienādi ar $2004 \cdot 2005 \cdot 10001 \cdot 100010001$.
 
@@ -204,7 +204,7 @@ divas kaudzītes, kurās kopā ir tieši $15$ sērkociņu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemam pretējo tam, kas jāpierāda. Tad no katra skaitļu pāra 
 $(1;\ 14),\ (2;\ 13),\ (3;\ 12),\ (4;\ 11),\ (5;\ 10),\ (6;\ 9),\ (7;\ 8)$ 
@@ -234,7 +234,7 @@ svēršanām var noteikt katra atsvara masu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sveram $A+B$. Ja $A+B=20$ vai $A+B=22$, $A$ un $B$ masas jau zināmas. Tālāk ar 
 $2$ svēršanām atrodam atsevišķi $C$ un $D$.
@@ -270,7 +270,7 @@ visas vienādas savā starpā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To monētu kopējam svaram gramos, kuras katra sver $5~\mathrm{g}$, jādalās ar 
 $6$. Tāpēc to skaitam jādalās ar $6$, un tās var apvienot kaudzītēs pa $6$, kas
@@ -301,7 +301,7 @@ garums ir $1$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $14$.
 
@@ -345,7 +345,7 @@ Pierādīt, ka $AB=BK$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atliekam uz taisnes $AC$ nogriezni $AS=1$; tad $MS=3=MB$. Tā ka 
 $\sphericalangle AMB=180^{\circ}-120^{\circ}=60^{\circ}$, tad $\Delta SMB$ ir 
@@ -375,7 +375,7 @@ ir nesaīsināmas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstām daļas kā 
 $\frac{5}{(n+2)+5},\ \frac{6}{(n+2)+6},\ \ldots,\ \frac{36}{(n+2)+36}$. Daļas 
@@ -405,7 +405,7 @@ Pankūku nomaiņai laiks nav jāparedz.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piecām pankūkām ir $10$ apcepamas virsmas, tātad jāpatērē $10 \cdot 6=60$ 
 "virsmminūtes". Tā kā augstākais četras "virsmminūtes" var tikt izmantotas 
@@ -440,7 +440,7 @@ var beigties šo skaitļu reizinājums?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** ar $6$ nullēm.
 
@@ -454,7 +454,7 @@ summa nedalās ar $5$. Tāpēc visi $3$ saskaitāmie kopā satur ne vairāk kā
 $3+3=\mathbf{6}$ pirmreizinātājus $5$. Tāpēc arī vairāk par $6$ nullēm nevar 
 būt.
 
-## Atrisinājums 
+## Atrisinājums-2
 
 Pamatosim, ka vēl vairāk nuļļu dabūt nevar dabūt.
 Divi saskaitāmie nevar beigties ar "5", jo atlikušajam tad jābeidzas ar "7". 
@@ -486,7 +486,7 @@ kaimiņiem.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo tam, kas jāpierāda.
 
@@ -530,7 +530,7 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Vjeta teorēmas 
 $b=x_{1}^{2} \cdot x_{2}^{2}=\left(x_{1}x_{2}\right)^{2}=q^{2}$, bet 
@@ -558,7 +558,7 @@ skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $d$ - lielākais no šiem skaitļiem. Apzīmēsim ar $x$ un $y$ tos 
 Fibonači skaitļus, kuru summa ir $d:x+y=d$. Skaidrs, ka $a+b \leq x+y$, jo 
@@ -655,7 +655,7 @@ Aprēķināt
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $\sphericalangle CAB=\sphericalangle CBA=80^{\circ}$ un 
 $\sphericalangle CAM=\sphericalangle BAM=40^{\circ}$. Tā kā $AM=CM$ ($M$ uz 
@@ -701,7 +701,7 @@ Kāda ir lielākā iespējamā $n$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $16$.
 
@@ -737,7 +737,7 @@ neizmanto nevienu no cipariem $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $225=9 \cdot 25$, skaitlim jābeidzas vismaz ar divām nullēm, bet pārējo 
 ciparu summai jādalās ar $9$. Lieku nuļļu ieviešana pagarinās skaitli, tātad 
@@ -763,7 +763,7 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atliksim uz $CA$ pagarinājuma $AM=AI$ (skat.zīm.).
 
@@ -802,7 +802,7 @@ rūķīšus.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim rūķīti, kurš atnāca pēdējais, ar $A$, un rūķīti, kurš aizgāja 
 pirmais, ar $B$. Ar $K_{A}$ apzīmēsim kompāniju, kas sastāv no paša $A$ un viņa
@@ -835,7 +835,7 @@ izteiksmes $x+y+z$ lielāko un mazāko iespējamo vērtību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaitot dotās nevienādības, iegūstam
 
@@ -897,7 +897,7 @@ $C$ tādā pašā kārtībā, kādā tie sākotnēji atradās uz stienīša $A$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim meklējamo skaitu ar $x_{n}$ (skaidrs, $x_{1}=1$). Ar $y_{n}$ 
 apzīmēsim minimālo gājienu skaitu līdzīgā uzdevumā, kura vienīgā atšķirība - uz
@@ -929,7 +929,7 @@ Vai noteikti $x+\frac{9}{x}>y+\frac{9}{y}$, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē; piemēram, $x=1$ un $y=0,00001$.
 
@@ -953,7 +953,7 @@ hordas $MN$ garuma, nevis no tās novietojuma.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim hordas $MN$ garumu ar $a$, bet tās savilktā loka leņķisko lielumu ar 
 $\omega$. Iespējami divi gadījumi:
@@ -978,7 +978,7 @@ pirmskaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pie $n=1$ skaitlis $2^{n}-1=1$ nav pirmskaitlis.
 
@@ -1006,7 +1006,7 @@ visi skaitļi $|f(x)-x|,\ x=1;\ 2;\ \ldots;\ n$, ir dažādi, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pie $n=15$ tas nav iespējams. Jābūt
 
@@ -1055,7 +1055,7 @@ visas $4$ krāsas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka pirmajās $k-1$ kolonnās ir visas krāsas, bet $k$-jā kolonnā - nē 
 $(k=1;\ 2;\ \ldots;\ 9 $; skaidrs, ka nevar būt $k=10$). Parādīsim, kā 
@@ -1093,7 +1093,7 @@ $$P(x)=\sin x+2005?$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, neeksistē. skaidrs, ka tas nevar būt konstants polinoms. Apzīmējam 
 $P(x)$ $=a_{0}x^{n}+a_{1}x^{n-1}+\ldots+a_{n-1}x+a_{n},\ a_{0} \neq 0,\ n \geq 1$.
@@ -1116,7 +1116,7 @@ virsotnes $C$ un $D$ atrodas uz vienas riņķa līnijas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atzīmējam arī $BO$ viduspunktu (skat. zīm.). No viduslīniju īpašībām seko, ka 
 $MNKC$ vienādsānu trapece, tāpēc punkti 
@@ -1144,7 +1144,7 @@ pārējām zaudējusi vismaz vienai no izvēlētajām $n$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vismaz vienam turnīra dalībniekam noslēgumā būs vismaz $(n+2) \cdot 2^{n-2}-1$ 
 uzvara un tātad ne vairāk kā $(n+2) \cdot 2^{n-2}-2$ zaudējumi (pretējā 
@@ -1181,7 +1181,7 @@ $\sqrt{d}-\sqrt{a} \leq 1$. Pierādīt, ka $a$ ir vesela skaitļa kvadrāts.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $b=a+n,\ c=a+m,\ d=a+p$, kur $0<n \leq m<p$. No $a(a+p)=(a+n)(a+m)$ 
 seko $p=m+n+\frac{m \cdot n}{a}$. Tā kā $p$ - naturāls skaitlis, tad 
@@ -1215,7 +1215,7 @@ rūtiņa $R$ nebūs pārklāta.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām domino kauliņu, kas pārklāj $R$. Uzzīmējam uz tā bultiņu no $R$ centra
 uz otras pārklātās (baltās) rūtiņas centru. Šī bultiņa norāda uz citu melnu 
@@ -1265,7 +1265,7 @@ dalītāju, kas dod atlikumu $2$, dalot ar $3$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Varam apzīmēt $n=3^{k} \cdot a$, kur $a$ nedalās ar $3$. Tad 
 $n^{2}=3^{2k} \cdot a^{2}$. Dalītāji, par kuriem runā uzdevumā, ir precīzi 
@@ -1289,7 +1289,7 @@ starp vienas parabolas zariem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novilksim taisni, kas nav paralēla nevienas parabolas asij. Katra parabola vai 
 nu krusto šo taisni divos punktos, vai pieskaras tai, vai arī pilnībā atrodas 
@@ -1311,7 +1311,7 @@ $AA_{1}^{2}+CC_{1}^{2}=BB_{1}^{2}+DD_{1}^{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $ABCD$ centru un malas garumu attiecīgi ar $X$ un 
 $x,\ A_{1}B_{1}C_{1}D_{1}$ centru un malas garumu attiecīgi ar $Y$ un $y$, bet 
@@ -1350,7 +1350,7 @@ ir identiski patiesa.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pie $n=2$ nevienādība ir 
 $\frac{\left(x_{1}^{2}+x_{2}^{2}\right)^{2}}{4} \geq\left(\frac{x_{1} x_{2}+x_{2}x_{1}}{2}\right)^{2}$,
@@ -1407,7 +1407,7 @@ Kurš spēlētājs uzvar, pareizi spēlējot?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $U$ to pozīciju kopu, kurās ir pāra daudzums stieņu un augstākais 
 viens stienis ar pāra garumu. Apzīmēsim ar $Z$ to pozīciju kopu, kurās ir 

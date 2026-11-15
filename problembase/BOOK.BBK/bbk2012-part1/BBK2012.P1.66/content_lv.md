@@ -5,7 +5,7 @@ skaiţ̦a kubu. Atrast visus tādus skaiţlus, kuriem izpildās šāda īpašīb
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\overline{ab} - \overline{ba} = (10a+b) - (10b+a) = 9(a-b)$ dalās ar $9$, 
 tad iegūtais kvadrāts varēja būt $9$, $36$ vai $81$. No šejienes seko, ka $a-b=1, a-b=4$ vai $a-b=9$.

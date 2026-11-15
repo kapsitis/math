@@ -3,7 +3,7 @@
 Dots, ka $n \mid (a - b)$. Pierādiet, ka $n \mid (a^2 + a - b^2 - b)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izteiksmi $a­^­­­­­­2 + a - b2 - b$ var sadalīt reizinātājos 
 $(a - b)(a + b + 1)$. Tā kā $n \mid (a - b)$, 

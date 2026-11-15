@@ -15,7 +15,7 @@ un 24:00 ieskaitīt vienu reizi.) Atbildi pamatot!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $22$ reizes.
 
@@ -48,7 +48,7 @@ zemāk par $1.$ stāvu.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** no $17.$ stāva. Ievērosim, ka šajā mājā ar doto liftu ne no viena 
 stāva nav iespējams nokļūt uz $17.$ stāvu (zemākais stāvs, uz kuru var nokļūt, 
@@ -83,7 +83,7 @@ būtu viena un tā pati.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 1.zīm.
 
@@ -118,7 +118,7 @@ Figūras nedrīkst pārklāties un katra veida figūra jāizmanto vismaz vienu r
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 2.zīm.
 
@@ -144,7 +144,7 @@ krāsā. Atbildi pamatot!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** nevar; **(B)** var, skat., piem., 3.zīm.
 
@@ -182,7 +182,7 @@ iegūts viens un tas pats skaitlis. Kāds tas ir?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc katras darbības visu uz tāfeles uzrakstīto skaitļu summa palielinās par $2$
 (divu nodzēsto skaitļu vietā tiek rakstīta to summa, kurai pieskaitīts skaitlis
@@ -218,7 +218,7 @@ kuriem dalās ar $3$ un kuru
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja skaitlis dalās ar $3$, tad tā ciparu summa dalās ar $3$. Ja šī 
 skaitļa un tam blakusesošā skaitļa ciparu summas atšķiras par $3$, tad arī 
@@ -249,7 +249,7 @@ būt pagrieztas vai apgrieztas otrādi).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 4.zīm.
 
@@ -273,7 +273,7 @@ reizinājumi abās grupās ir vienādi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, nevar.
 
@@ -304,7 +304,7 @@ panākt savu uzvaru?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** Una vienmēr var panākt savu uzvaru.
 
@@ -337,7 +337,7 @@ skaitli ar tā ciparu reizinājumu, dalījums ir vismaz $\frac{11}{9}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja divciparu skaitļa desmitu cipars ir $a$, bet vienu cipars ir $b$, tad 
 divciparu skaitlis ir $10a+b$, tā ciparu reizinājums ir $a \cdot b$ un 
@@ -350,7 +350,7 @@ $99$ dalījums ar tā ciparu reizinājumu ir $\frac{99}{9 \cdot 9}=\frac{11}{9}$
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 $\frac{10a+b}{ab}=\frac{10}{b}+\frac{1}{a}$ ir vismazākā, ja $a=b=9$.
 
@@ -377,7 +377,7 @@ izveidot trijstūri (katra trijstūra mala ir viens vesels nogrieznis)?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No trijstūra nevienādības (katru divu malu summa ir lielāka nekā trešā mala) 
 seko, ka $1~\mathrm{cm}$ garais nogrieznis nav izmantojams neviena trijstūra 
@@ -465,7 +465,7 @@ figūru (tā var būt pagriezta vai apgāzta otrādi)?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** ir iespējams, skat., piem., 5.zīm.; **(B)** ir iespējams, 
 skat., piem., 6.zīm.
@@ -495,7 +495,7 @@ panākt savu uzvaru?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** Ivo vienmēr var panākt savu uzvaru.
 
@@ -571,7 +571,7 @@ perimetra.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No trijstūra nevienādības seko $PA+PB>AB,\ PA+PC>AC$ un $PB+PC>BC$ (skat. 
 7.zīm.). Saskaitot šīs nevienādības, iegūstam $2(PA+PB+PC)>AB+AC+BC=P_{ABC}$
@@ -599,7 +599,7 @@ ka $t \geq 4 a$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim kvadrātvienādojumu $x^{2}-\sqrt{t} \cdot x+a=0$. No uzdevumā dotās 
 vienādības seko, ka $t$ ir šī vienādojuma sakne. Tā kā kvadrātvienādojumam ir 
@@ -625,7 +625,7 @@ daudzstūros?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** skat., piem., 8.zīm.; **(B)** skat., piem., 9.zīm.
 
@@ -662,7 +662,7 @@ $x_{1} \geq x_{2} \geq x_{3} \geq x_{4}$ ).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pajautāsim par $x_{1}$, tad par $x_{3}$. Ja $x_{1}=x_{3}$, jautāsim 
 par $x_{2}$, ja $x_{1} \neq x_{3}$, jautāsim par $x_{4}$. Ja 
@@ -698,7 +698,7 @@ sadalīt piecos vienlielos trijstūros.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja trapeces augstums ir $h$, tad tās laukumus ir 
 $S=\frac{(3+13)}{2} \cdot h=8h$. Sadalot trapeci piecos trijstūros, vismaz 
@@ -728,7 +728,7 @@ vienā krāsā un atrodas vienādsānu taisnleņķa trijstūra virsotnēs.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms aplūkosim virsotnes $A,\ B,\ C,\ D$ un $E$ (skat. 10.zīm.). Vismaz 
 trīs no tām ir nokrāsotas vienā krāsā. Ja vienā krāsā nokrāsotas trīs no 
@@ -765,7 +765,7 @@ ciparus.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $1$, $2$, $3$ un $5$.
 
@@ -798,7 +798,7 @@ $x_{n+1}=x_{n}+\frac{2}{x_{n}}$ visiem $n \geq 0$. Pierādīt, ka $x_{100}>20$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $x_{0}>0$ un $x_{n+1}=x_{n}+\frac{2}{x_{n}}$ katram $n \geq 0$, tad 
 $x_{n}>0$ visiem $n \geq 0$.
@@ -832,7 +832,7 @@ malas. Pierādīt, ka šie riņķi pilnībā pārklāj doto četrstūri.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim doto četrstūri ar $ABCD$. Novilksim augstumus $BE$ un $DF$ pret 
 diagonāli $AC$. Riņķis ar diametru $AB$ pilnībā satur sevī $\triangle ABE$, jo 
@@ -862,7 +862,7 @@ $x_{2} \leq x_{3} \leq x_{1}$).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim kvadrātfunkcijas $\frac{1}{3} x^{2}+px+q$ vērtības punktos $x_{1}$ un
 $x_{2}$.
@@ -892,7 +892,7 @@ attiecīgi punktos $P$ un $Q$. Pierādīt, ka $AB \parallel PQ$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $AB$ ir riņķa līnijas pieskare, tad 
 $\sphericalangle BDQ=\sphericalangle DCQ$ kā hordas-pieskares leņķis un ievilkts 
@@ -922,7 +922,7 @@ centrā)?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n=4$.
 
@@ -952,7 +952,7 @@ no tiem var izvēlēties divus, no kuriem viens dalās ar otru.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visus naturālos skaitļus no $1$ līdz $100$ sadalīsim $50$ grupās: katru nepāra 
 skaitli ievietosim citā grupā (pavisam ir $50$ nepāra skaitļi), savukārt, tā kā
@@ -972,7 +972,7 @@ tad vismaz divi skaitļi būs no vienas grupas; tie arī ir meklētie divi skait
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izrakstām ģeometriskas progresijas, kas sākas ar nepāru skaitļiem un $q=2$: 
 
@@ -1003,7 +1003,7 @@ blakus esošu skaitļu attiecība būtu $2,\ 3,\ 12$ vai $18$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $2=2^{1},\ 3=3^{1},\ 12=2^{2} \cdot 3^{1},\ 18=2^{1} \cdot 3^{2}$.
 
@@ -1030,7 +1030,7 @@ $169$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n^{2}-3n-1$ dalās ar $169$, tad $n^{2}-3n-1=(n-8)(n+5)+39$ dalās ar $13$. 
 Tātad $(n-8)(n+5)$ dalās ar $13$. Tā kā skaitļi $n-8$ un $n+5$ abi vienlaicīgi 
@@ -1050,7 +1050,7 @@ divu citu diagonāļu garumu summu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** jā, piemēram, regulārs $12$-stūris.
 
@@ -1081,7 +1081,7 @@ $$\frac{1}{a_{1}}+\frac{1}{a_{2}}+\frac{1}{a_{3}}+\cdots+\frac{1}{a_{n}}<2.$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visi skaitļi $a_{i}$ uzrakstāmi formā $a_{i}=3^{b} \cdot 5^{c}$, tāpēc 
 apskatāmas summas katrs saskaitāmais izsakāms formā 
@@ -1130,7 +1130,7 @@ izvēlējies un kura ir sākotnējā pilsēta $Z$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Maršrutus plānosim sekojošā viedā. Vispirms izvēlamies divas pilsētas $K$ un 
 $L$, un reisu no $K$ uz $L$ dodam apkalpot aviokompānijai $A$, bet reisu no $L$
@@ -1164,7 +1164,7 @@ papīra gabaliņš būs piesprausts pie galda tieši ar vienu adatu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Galda virsmu "pārklāsim" ar kvadrātisku rūtiņu režģi, kur rūtiņas malas garums 
 vienāds ar kvadrātveida papīra gabalu malas garumu un režģa līnijas ir 
@@ -1189,7 +1189,7 @@ Atrisināt reālos skaitļos vienādojumu $\lg x \cdot \lg (4-x)=\frac{1}{4}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x<1$ vai $x>3$, tad izteiksmes $\lg x \cdot \lg (4-x)$ vērtība ir vai nu 
 negatīva vai vispār neeksistē, ja $1 \leq x \leq 3$, tad arī 
@@ -1213,7 +1213,7 @@ riņķa līnijas krustojas vienā punktā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim divas no dotajām riņķa līnijām, skat. 20.zīm. $\Delta AMK$ un 
 $\Delta KNC$ ir līdzīgi $\triangle ABC$ ar līdzības koeficientu $\frac{1}{2}$. 
@@ -1229,7 +1229,7 @@ punktu $O$.
 
 ![](LV.AMO.2013.12.2A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Trijstūris $\triangle AMK$ ir homotētisks trijstūrim $\triangle ABC$ ar 
 koeficientu $\frac{1}{2}$ un homotētijas centru punktā $A$. Tāpēc 
@@ -1255,7 +1255,7 @@ $6^{x}+13^{y}=29^{z}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim doto vienādojumu pēc moduļa 
 $7.6 \equiv-1; 13 \equiv-1; 29 \equiv 1(\bmod 7)$, tāpēc 
@@ -1287,7 +1287,7 @@ $$S(n+3)=i \cdot j \cdot S(n+1)+i \cdot j^{2} \cdot S(n)$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $a(n)$ apzīmēsim $n$ burtus garo vārdu, kas sākas ar patskani, skaitu, bet 
 ar $b(n)-n$ burtus garo vārdu, kas sākas ar līdzskani, skaitu. Tad 
@@ -1323,7 +1323,7 @@ $\frac{1}{2013 \cdot \sqrt{P}}$, kur $P$ ir šī trijstūra perimetrs.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim faktu, ka, ja $x \in(0; 1)$, tad arī $x^{2} \in(0; 1)$. Tad 
 $2-\sqrt{3} \in(0; 1)$, 

@@ -12,7 +12,7 @@ kubs. Pierādīt, ka arī $x^{2}y$ ir naturāla skaitļa kubs!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $xy^{2}=z^{3}$, kur $z$ - naturāls skaitlis. Kāpinot abas puses 
 kvadrātā, iegūstam $x^{2}y^{4}=z^{6}$. Izsakām
@@ -40,7 +40,7 @@ $CD$ krusto malu $AB$ punktā $E$. Pierādīt: ja $BD=BF$, tad $AE=DE$ !
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūris $DBF$ ir vienādsānu ($BD=BF$ pēc dotā), tāpēc 
 $\sphericalangle BDF=\sphericalangle BFD$ kā leņķi pie pamata malas (skat. 
@@ -72,7 +72,7 @@ kurām ir kopīga mala, ierakstīto skaitļu starpība būtu vismaz **(A)** $6$;
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, skaitļus tabulā var ierakstīt, piemēram, skat. 2.att., kur pelēkā 
 krāsā norādītas skaitļu starpības.
@@ -122,7 +122,7 @@ Atrast skaitļa $\frac{2016^{2016}-3}{3}$ mazāko pirmreizinātāju!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $N=2016^{2016}-3$, tad dotais skaitlis ir $\frac{N}{3}$.
 
@@ -177,7 +177,7 @@ Kādi ir četri nākamie skaitļi, kas virknē seko aiz skaitļa $2016$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam ir četru veidu *gājieni*: " $2 \rightarrow 0$ " (skaitlis satur $2$ un 
 meklējam nākamo skaitli, kas satur $0$), " $0 \rightarrow 1$ ", 
@@ -224,7 +224,7 @@ pakāpe!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $xy^{10}=z^{33}$, kur $z$ - naturāls skaitlis. Kāpinot abas puses 
 $10.$ pakāpē, iegūstam $x^{10}y^{100}=z^{330}$. Izsakām
@@ -253,7 +253,7 @@ pašas krustojas punktā $I$. Pierādīt, ka $PQ \perp BI$!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle BAP=\sphericalangle PAC=\alpha$ un 
 $\sphericalangle BCQ=\sphericalangle QCA=\beta$ (skat. 8.att.). Ievilktie 
@@ -290,7 +290,7 @@ $xy+xz+yz \leq 3$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotās vienādības abas puses kāpinot kvadrātā un pēc tam reizinot ar $2$, 
 iegūstam:
@@ -338,7 +338,7 @@ Izmantot paritāti - aplūkot pāra un nepāra malu garumus.
 Pitagora trijnieka skaitļus ievietot kvadrātu starpības formulā. 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, trīs malu garumi nevar būt pirmskaitļi. Taisnleņķa trijstūrī malu 
 garumus $a,\ b$ un $c$ saista Pitagora teorēma $a^{2}+b^{2}=c^{2}$. Tā kā visu 
@@ -367,7 +367,7 @@ teorēmas nosacījums, tas ir, $11^{2}+60^{2}=61^{2}$ jeb $121+3600=3721$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 **(A)**  
 Nē, trīs malu garumi nevar būt pirmskaitļi. Taisnleņķa trijstūrī malu garumi $a$, $b$ un $c$ 
@@ -415,7 +415,7 @@ baltajās virsotnēs?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Visas regulāra $2016$ - stūra virsotnes atrodas uz vienas riņķa 
 līnijas. Ievilkts leņķis ir taisns tikai tādā gadījumā, ja tas balstās uz 
@@ -465,7 +465,7 @@ pakāpe!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $xy^{433}=z^{2016}$, kur $z$ - naturāls skaitlis. Kāpinot abas puses 
 $433.$ pakāpē, iegūstam $x^{433}y^{433 \cdot 433}=z^{2016 \cdot 433}$. Izsakām
@@ -481,7 +481,7 @@ dalās ar $y^{93}$ un tātad arī $x^{433}y$ ir naturāla skaitļa $2016.$ pakā
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 **Apgalvojums:** Skaitlis $N$ ir kāda naturāla skaitļa 2016. pakāpe tad un 
 tikai tad, ja, sadalot pirmreizinātājos $N=p_1^{a_1}\cdot{}p_2^{a^2}\cdot\ldots\cdot{}p_k^{a_k}$, 
@@ -520,7 +520,7 @@ līdzīgi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle BAC=\alpha, \sphericalangle ABC=\beta$ un 
 $\sphericalangle BCA=\gamma$.
@@ -570,7 +570,7 @@ $$\frac{1}{n}=\frac{1}{x(x+1)}+\frac{1}{(x+1)(x+2)}+\cdots+\frac{1}{y(y+1)}$$
 Pārveidot katru apakšizteiksmi par starpību.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot vienādību $\frac{1}{k(k+1)}=\frac{1}{k}-\frac{1}{k+1}$, pārrakstām 
 dotās vienādības labās puses izteiksmi
@@ -592,7 +592,7 @@ $x=\frac{n}{2}$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 **Apgalvojums:** Ir spēkā identitāte $\frac{1}{n(n+1)} = \frac{1}{n}-\frac{1}{n+1}$.
 
@@ -637,7 +637,7 @@ Vai šajā virknē ir skaitlis **(A)** $2001$, **(B)** $2006$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam ir četru veidu *gājieni*: " $2 \rightarrow 0$ " (skaitlis satur $2$ un 
 meklējam nākamo skaitli, kas satur $0$), " $0 \rightarrow 0$ ", 
@@ -679,7 +679,7 @@ var sadalīt trīs daļās tā, ka katrai no daļām ir simetrijas ass!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Novelkot ievilktās riņķa līnijas rādiusus pret visām trim trijstūra 
 malām, tas tiek sadalīts trīs četrstūros (skat. 12.att.). Katram no tiem 
@@ -723,7 +723,7 @@ skaitļa septītā pakāpe!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $x^{3}y^{5}z^{6}=a^{7}$, kur $a$ - naturāls skaitlis. Kāpinot abas 
 puses ceturtajā pakāpē, iegūstam $x^{12}y^{20}z^{24}=a^{28}$. Izsakām
@@ -754,7 +754,7 @@ ka $PU=UV+VQ$ !
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\omega$ pieskaršanās punktus malām $AB$ un $BC$ attiecīgi ar $E$ un 
 $F$ (skat.att.). Tā kā $PI=QI$ un $EI=IF$, tad $\triangle PEI=\triangle QFI$ 
@@ -796,7 +796,7 @@ dalās ar savu ciparu summu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $18$ pēc kārtas sekojošiem skaitļiem viens noteikti dalās ar $18$. 
 Pierādīsim, ka šis skaitlis ir meklētais.
@@ -821,7 +821,7 @@ iespējams atrast tādas naturālas $b$ un $c$ vērtības, ka $f(a)=g(b; c)$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $f(a)=a^{2}+3a+2=(a+1)(a+2)$.
 
@@ -859,7 +859,7 @@ novelk riņķa līniju. Pierādīt, ka visām šīm riņķa līnijām ir kopīgs
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visām riņķa līnijām ir kopīgs punkts $(0; 1)$. Pierādīsim to.
 
@@ -907,7 +907,7 @@ $C(0 ; q)$. Apskatīsim divus iespējamos gadījumus.
    
    ![](LV.VOL.2016.12.5B.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Šo trīs krustpunktu koordinātas ir
 

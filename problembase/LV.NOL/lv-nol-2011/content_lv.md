@@ -16,7 +16,7 @@ reizinājums būtu $119$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, piemēram $7$, $17$, un $95$ vieninieki.
 
@@ -40,7 +40,7 @@ Cik rūtiņas liels ir trijstūra $ABC$ laukums?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $S(ACM)=\frac{1}{2}S(ANCM)=\frac{1}{2} \cdot 3 \cdot 2=3$ rūtiņas, līdzīgi
 $S(AKB)=\frac{1}{2} \cdot 4 \cdot 1=2$ rūtiņas un
@@ -84,7 +84,7 @@ nevienā brīdī autobusā netika pārvadāts vairāk pasažieru kā autobusā i
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim trīs nosacījumus, kuriem jābūt spēkā visu ceļojuma laiku: autobusā nevienā
 brīdī nedrīkst būt vairāk par $40$ pasažieriem, nevienā pieturā no autobusa nevar
@@ -131,7 +131,7 @@ $3 \times 3$ rūtiņu kvadrātā, kas ir lielā kvadrāta daļa, ir iekrāsotas 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** skat., piem., 2.zīm.; **(B)** skat., piem., 3.zīm.
 
@@ -158,7 +158,7 @@ laiks, pēc kura visas raganas būs iemācījušās visas jaunās burvestības?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: pēc $3$ minūtēm.
 
@@ -190,7 +190,7 @@ skaitlis ir vienāds ar pārējo skaitļu summu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja tāds sadalījums būtu iespējams, tad katrā grupā un līdz ar to arī visu skaitļu summa
 būtu pāra skaitlis (katrā grupā ietilpstošo skaitļu summa ir $2M_{i}$, kur $M_{i}$ ir
@@ -217,7 +217,7 @@ $12345, 12354, 12435, \ldots$. Kurš pēc kārtas šajā virknē ir skaitlis $45
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam šajā virknē ir $5 \cdot 4 \cdot 3 \cdot 2 \cdot 1=120$ skaitļi. Interesējošais
 skaitlis ir pēdējais, kas sākas ar $4$, un pēc šī skaitļa virknē vēl ir $24$ skaitļi,
@@ -243,7 +243,7 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē, jo gan $12$, gan $8$ dalās ar $4$, bet $2$- nedalās.
 
@@ -270,7 +270,7 @@ vienādās daļās tā, lai katrā no tām būtu pa vienam melnam un pa vienam b
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 4.zīm.
 
@@ -297,7 +297,7 @@ visas rūtiņas ir neizkrāsotas.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 5.zīm.
 
@@ -324,7 +324,7 @@ Atrodiet skaitļa $1^{2}+2^{2}+\cdots+99^{2}$ pēdējo ciparu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katriem desmit pēc kārtas ņemtiem skaitļiem kvadrātu summa beidzas ar vienu un to
 pašu ciparu, un šai summai pievienojot $0^{2}$, tajā būs desmit desmitnieku
@@ -358,7 +358,7 @@ $(n+1)(n+2)(n+3)$ dalās ar $125$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $125=5 \cdot 5 \cdot 5$. Vismaz vienam no reizinātājiem
 $n+1 ; n+2 ; n+3$ jādalās ar $5$ . Tā kā skaitļi, kas dalās ar $5$, atšķiras viens no
@@ -388,7 +388,7 @@ reizinājumus. Cik no tiem ir pozitīvi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** tieši viens no tiem.
 
@@ -428,7 +428,7 @@ rūtiņām sauksim rūtiņas, kurām ir kopīgs vismaz viens punkts).
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Var, skat., piem., 6.zīm.
 
@@ -465,7 +465,7 @@ procenti pilsētas iedzīvotāju ir godīgie iedzīvotāji un cik blēži?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $g$ apzīmēsim cik $\%$ no visiem iedzīvotājiem ir godīgie, ar $g_{A}$ (resp.
 $g_{B}, g_{C}, g_{D}$)- tos godīgos iedzīvotājus ($\%$ no visiem iedzīvotājiem), kas
@@ -540,7 +540,7 @@ $p+q$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievietojot $x=1$, iegūstam $1+p+q=0$ jeb $p+q=-1$.
 
@@ -564,7 +564,7 @@ ir malas $BC$ viduspunkts.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\sphericalangle FCE=\sphericalangle CEF=\sphericalangle EFC=60^{\circ}$. Tad
 $\sphericalangle BFE=180^{\circ}-60^{\circ}=120^{\circ}$ (blakusleņķi) un
@@ -598,7 +598,7 @@ ir vienādi taisnstūri.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Figūru var sagriezt augstākais $7$ dažādos taisnstūros, piem., skat. 8.zīm.
 
@@ -641,7 +641,7 @@ partiju?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā par partiju $D$ neviens iedzīvotājs nav atbildējis ar "jā", tad visi blēži ir
 balsojuši par šo partiju un $g_{D}=0$ (*apzīmējumi tādi paši kā 7.5.uzdevuma risinājumā*).
@@ -673,7 +673,7 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x=1$, tad $y=a+1+b=2012$. Ja $x=-1$, tad $y=a-1+b=2010$. Tātad punkti $(1; 2012)$
 un $(-1 ; 2010)$ pieder visu minēto funkciju grafikiem.
@@ -700,7 +700,7 @@ $\sphericalangle ADE=2 \sphericalangle ABE$. Aprēķināt $\sphericalangle ABE$ 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $\sphericalangle ABE=15^{\circ}$.
 
@@ -737,7 +737,7 @@ mazākā iespējamā $k$ vērtība?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $k=12$.
 
@@ -768,7 +768,7 @@ $7^{a}=7^{x}+7^{y}+7^{z}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja dotā vienādība izpildās, tad $a > x, a > y$ un $a > z$. Naturāliem skaitļiem no
 šejienes seko nevienādības $a \geq x+1, a \geq y+1$ un $a \geq z+1$.
@@ -800,7 +800,7 @@ t.i., iegūs $1.$ vietu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $N \leq 7$.
 
@@ -830,7 +830,7 @@ nevarētu būt ieguvusi augstākais $5.$ vietu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $(s+t)^{2}=p^{2} \Rightarrow s^{2}+2st+t^{2}=p^{2} \Rightarrow s^{2}+2st-t^{2}=p^{2}-2t^{2} \Rightarrow 2s^{2}-(s-t)^{2}=p^{2}-2t^{2}$.
 Tā kā $(s-t)^{2} \geq 0$, tad $2s^{2} \geq p^{2}-2t^{2}$, k.b.j.
@@ -854,7 +854,7 @@ $DC-DB > AC-AB$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $AD$ atrodas trijstūra $ABC$ iekšpusē, atliekam punktu $C_{1}$ simetriski punktam $C$
 attiecībā pret taisni $AD$. Tad $DC_{1}=DC$ un $AC_{1}=AC$. No trijstūra nevienādības
@@ -881,7 +881,7 @@ $$x \cdot \left\lfloor x \cdot \lfloor x \rfloor \right\rfloor = 41.$$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ vienīgais šāds skaitlis ir $3 \frac{8}{11}$.
 
@@ -913,7 +913,7 @@ vienādmalu. Aprēķināt trijstūru $CEF$ un $ABC$ laukumu attiecību!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\sphericalangle BAC=\sphericalangle BCA=\left(180^{\circ}-30^{\circ}\right):2=75^{\circ}, \sphericalangle FCE=\sphericalangle CEF=\sphericalangle EFC=60^{\circ}$.
 Tad $\sphericalangle BFE=180^{\circ}-60^{\circ}=120^{\circ}$ (blakusleņķik) un
@@ -943,7 +943,7 @@ atšķirīga. Kādu augstāko un kādu zemāko vietu kopvērtējumā varēja ieg
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ augstākā- $1.$ vieta, zemākā- $16.$ vieta.
 
@@ -981,7 +981,7 @@ $$x^{2}+y^{2}+4 \geq 2x+2y+xy$$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pareizinot doto izteiksmi ar divi, iegūst
 
@@ -1007,7 +1007,7 @@ starpā vienādi!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Punkti $P$ un $O$ ir attiecīgi $AC$ un $BD$ viduspunkti $(AP=PC$ un $BO=OD)$. No $B$ un
 $D$ novelk perpendikulus pret $EF$: $BG \perp EF$ un $DH \perp EF$. Aplūko taisnleņķa
@@ -1040,7 +1040,7 @@ z+zx+x=11
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visiem vienādojumiem abām pusēm pieskaitot $1$ , iegūstam
 
@@ -1094,7 +1094,7 @@ mazākā iespējamā summas $a+b$ vērtība?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklējamo $a+b$ mazāko iespējamo vērtību apzīmēsim ar $S$. Ievērosim, ka
 $21=5^{2}-5+1$, tāpēc $5^{3}+1=(5+1)\left(5^{2}-5+1\right)$ dalās ar $21$ un tāpēc
@@ -1123,7 +1123,7 @@ visas iespējamās $n$ vērtības!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katrs no skaitļiem ir divu citu skaitļu starpības modulis, tad visi uzrakstītie
 skaitļi ir nenegatīvi. Aplūkosim lielāko no tiem, apzīmēsim to ar $L$ Savukārt ar $A$
@@ -1152,7 +1152,7 @@ $$\left(\frac{1}{2}-\sqrt{1-a^{2}}\right)^{2}+\left(\frac{1}{2}-\sqrt{1-b^{2}}\r
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $0 \leq a^{2} \leq 1$ un $0 \leq b^{2} \leq 1$, tad
 $0 \leq \sqrt{1-a^{2}} \leq 1$ un $0 \leq \sqrt{1-b^{2}} \leq 1$. Tātad
@@ -1186,7 +1186,7 @@ summu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $S(ABC)=S(MBP)+S(NPC)+S(AMPN)$, $S(MBC)=S(MBP)+S(MPC)$,
 $S(NBC)=S(NPC)+S(NBP)$. Lai pierādītu prasīto atliek pierādīt, ka S(MPC)+S(NBP)=S(AMPN).
@@ -1214,7 +1214,7 @@ lielāki par $1$, nav *fantastiski*.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārbaudīt, ka skaitli $3, 5, 7$ un $9$ nav fantastiski:
 $3 \neq 9,5 \neq 10,7 \neq 36$ un $9 \neq 8$.
@@ -1257,7 +1257,7 @@ kopīga mala.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka $N$ nevar būt lielāks par $1$.
 
@@ -1294,7 +1294,7 @@ skaldnei ir nepāra skaits virsotņu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katra šķautne ir mala tieši divām skaldnēm, tātad divkāršots daudzskaldņa šķautņu
 skaits ir vienāds ar visu skaldņu malu skaitu summu, tāpēc šī summa ir pāra skaitlis.

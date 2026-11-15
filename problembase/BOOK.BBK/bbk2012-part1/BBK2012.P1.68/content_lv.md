@@ -6,7 +6,7 @@ Zināms, ka divu dotu racionālu skaitlu summa un reizinājums ir veseli skaitļ
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim dotos skaitlus ar $x$ un $y$. Tad
 

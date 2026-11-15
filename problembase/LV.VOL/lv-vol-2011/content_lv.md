@@ -14,7 +14,7 @@ ir veseli skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām vienādojumu, kuram $b=2011$, t.i., $x^{2}+ax+2011=0$. Pēc Vjeta 
 teorēmas, ja $x_{1}$ un $x_{2}$ ir šī vienādojuma saknes, tad $x_{1}x_{2}=2011$
@@ -40,7 +40,7 @@ garumu. Aprēķināt hipotenūzas un īsākās katetes garumu attiecību!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $\sphericalangle C=90^{\circ}$, $AC>BC$ (skat. 1.zīm.). 
 $\sphericalangle CDA=90^{\circ}$ (ievilkts leņķis, kas balstās uz diametru), 
@@ -89,7 +89,7 @@ izvēlēties $81$ trīsciparu skaitli tā, lai vienlaicīgi izpildītos šādas 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklēto $81$ skaitli varam atrast, piemēram, sekojošā veidā konstruējot $9$ 
 grupas par $9$ skaitļiem katrā grupā.
@@ -129,7 +129,7 @@ smagums.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Četrus atsvarus $A,\ B,\ C,\ D$ pa pāriem var sadalīt trīs dažādos veidos: $AB$
 un $CD,\ AC$ un $BD,\ AD$ un $BC$. Tātad pavisam tika veiktas trīs svēršanas.
@@ -168,7 +168,7 @@ summā ir **(A)** $48$, **(B)** $49$ punkti?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka spēlētāji ap galdu pulksteņrādītāja virzienā sēž secībā 
 $A$, $B$, $C$. Saskaitīsim cik kārtās katrs spēlētājs ir ieguvis $3$ punktus. 
@@ -199,7 +199,7 @@ $$|||x-2011|-2011|-2011|=|||x-1201|-1201|-1201|$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim funkcijas $f(x)=||x-a|-a|-a|$, kur $a$ - reāls, pozitīvs skaitlis, 
 grafiku (skat. 2.zīm.).
@@ -234,7 +234,7 @@ ka $AO=OK$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūrī $NBC$ taisne $BX$ ir gan bisektrise, gan augstums (skat. 4.zīm.). 
 Tāpēc $NB=BC$ un $NX=XC$.
@@ -266,7 +266,7 @@ līnijām jāiet pa rūtiņu malām.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Atbilde: nevar.
 
@@ -299,7 +299,7 @@ $f(2011)=100$, bet $f(11)=1000$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $f(x)=a_{n}x^{n}+\ldots+a_{1}x+a_{0}$ ir polinoms, tad 
 $f(x)-f(y)=a_{n}\left(x^{n}-y^{n}\right)+\ldots+a(x-y) \vdots(x-y)$. Tā kā 
@@ -322,7 +322,7 @@ nesakrīt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā vajag izveidot divus trijstūrus bez kopīgām virsotnēm, tad būs vajadzīgi 
 vismaz seši punkti. 6.zīm. parādīts piemērs ar $6$ punktiem, no kuriem nevar 
@@ -399,7 +399,7 @@ $-1 \leq am+bn+cp \leq 1$. $(a, b, c, m, n, p$ - reāli skaitļi).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim vektorus ar koordinātēm $(a; b; c)$ un $(m; n; p)$. Tad no dotajām 
 sakarībām seko, ka šo vektoru garums ir $1$. Savukārt izteiksme $am+bn+cp$ 
@@ -423,7 +423,7 @@ viduspunktā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uz malas $AD$ var atrast tādu iekšēju punktu $E$, ka $AE=AB$ un $ED=CD$ (skat. 
 9.zīm.).
@@ -452,7 +452,7 @@ pirmskaitlis.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: $p=3$.
 
@@ -490,7 +490,7 @@ Kāda ir visu uzrakstīto skaitļu summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katru punktu nosacīti sadalīsim divās daļās: tajā, kas atrodas loka sākumā un 
 tajā, kas atrodas loka beigās. Pieņemsim, ka uz katra loka uzrakstītais 
@@ -529,7 +529,7 @@ atradīsies šī trijstūra iekšpusē vai uz tā malām.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No visiem trijstūriem ar virsotnēm dotajos punktos izvēlamies trijstūri $ABC$ 
 ar vislielāko laukumu (vai vienu no šādiem trijstūriem. ja to ir vairāk). Caur 
@@ -561,7 +561,7 @@ $\sqrt[3]{6}+\sqrt[3]{12}-2 \sqrt[3]{2}$ ir lielāks?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atverot iekavas un savelkot līdzīgos locekļus nevienādībā
 
@@ -588,7 +588,7 @@ $Y$. Pierādīt, ka $AX=XY=YC$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\triangle APX=\triangle MPR$, jo $AX \parallel RM$ un $AP=PM$ (skat. 11.zīm.).
 Tādēļ $AX=RM$. Savukārt $RM$ ir $\triangle XBC$ viduslīnija, tāpēc $XC=2RM$.
@@ -616,7 +616,7 @@ vienādība $(2n)^{2n}-1=m^{3}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka tādi skaitļi $m$ un $n$ eksistē. 
 $m^{3}=(2n)^{2n}-1=\left((2n)^{n}-1\right)\left((2n)^{n}+1\right)$. Tā kā 
@@ -642,7 +642,7 @@ $g(g(x))+g(x)=2x$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka kādam $x \quad g(x)>x$. Tad $g(g(x))>g(x)$, jo funkcija ir 
 stingri augoša un $g(g(x))+g(x)>x+x=2x$ - pretruna.
@@ -671,7 +671,7 @@ virkne satur vismaz $55$ ciparus.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar indukciju pierādīsim vispārīgāku apgalvojumu.
 

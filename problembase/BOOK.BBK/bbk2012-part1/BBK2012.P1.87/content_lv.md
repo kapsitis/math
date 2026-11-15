@@ -6,7 +6,7 @@ $x^{2}+x+1 = py$ eksistē atrisinājums veselos skaitļos.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka pirmskaitļu, kam izpildās dotā īpašība ir galīgs skaits, un apzīmēsim tos ar 
 $p_{1}, p_{2}, \ldots, p_{n}$. Ņemsim $x=p_{1} p_{2} \cdots p_{n}$ un skaitļa

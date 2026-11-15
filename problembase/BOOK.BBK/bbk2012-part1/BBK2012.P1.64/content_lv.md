@@ -5,7 +5,7 @@ Pierādiet, ka abi skaitlii $u$ un $v$ dalās ar $3$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dots, ka skaitlis $u^{2}+uv+v^{2} = (u-v)^{2} + 3uv$ dalās ar $9$. No šejienes seko, ka
 

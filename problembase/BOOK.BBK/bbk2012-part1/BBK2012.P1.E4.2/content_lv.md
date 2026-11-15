@@ -6,7 +6,7 @@ Ar Eiklīda algoritmu aprēķināt:
 **(C)** $(56,39)$,  
 **(D)** $(312,138)$.
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)**
 

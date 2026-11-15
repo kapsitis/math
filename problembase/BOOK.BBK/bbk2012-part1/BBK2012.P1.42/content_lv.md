@@ -6,7 +6,7 @@ Noskaidrojiet
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, jo šis reizinājums satur gan skaitli $7$, gan $11$.
 

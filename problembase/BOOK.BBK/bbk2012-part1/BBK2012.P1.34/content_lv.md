@@ -6,7 +6,7 @@
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim piecu pēc kārtas ņemtu skaitļu summu:
 

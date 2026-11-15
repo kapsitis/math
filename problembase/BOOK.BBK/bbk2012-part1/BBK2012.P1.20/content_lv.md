@@ -5,7 +5,7 @@ bet otrais ar trešo var būt pirmskaitlis?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt, jo šāds skaitlis dalās ar 11. Tiešām
 

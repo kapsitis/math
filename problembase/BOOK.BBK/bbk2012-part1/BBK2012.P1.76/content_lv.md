@@ -8,7 +8,7 @@ ir kļūdījušies. Kuri no skolniekiem kḷūdījās?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļiem, ar kuriem dalāmību pārbaudīja skolnieki, kuri kļūdījās, izpildās šādas īpašības:
 

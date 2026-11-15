@@ -11,7 +11,7 @@ $640000$ dalītāji.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viens no skaitļiem $x$ un $y$ ir pāra, otrs - nepāra. Skaitļa $640000$ nepāra 
 dalītāji ir $1;\ 5;\ 25;\ 125;\ 625$. Ievērojam, ka 
@@ -37,14 +37,14 @@ $f(q) \leq 0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā intervālā $(0;\ 1)$ atrodas tikai viena no kvadrātvienādojuma $f(x)=0$ 
 saknēm, tad abas vērtības $f(0)$ un $f(1)$ reizē nevar būt pozitīvas. Tāpēc 
 $f(0) \cdot f(1) \leq 0$. Iegūstam $q(p+q+1) \leq 0$ jeb $q^{2}+pq+q \leq 0$, 
 jeb $f(q) \leq 0$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pieņemsim, ka vienādojuma $f(x)=0$ saknes ir $x_{1}$ un $x_{2}$. Saskaņā ar 
 Vjeta teorēmu
@@ -76,7 +76,7 @@ Pierādīt, ka $A_{1}A_{2}+B_{1}B_{2}+C_{1}C_{2}=AB+BC+CA$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam ievilktās riņķa līnijas pieskaršanās punktus $\triangle ABC$ malām ar
 $X;\ Y;\ Z$ (skat. 1.zīm.) Taisnleņķa trijstūri $AXI,\ AZI,\ A_{1}YI$ un 
@@ -101,7 +101,7 @@ lielākais iespējamais skolēnu skaits?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja uzdevumus apzīmējam ar $A;\ B;\ C;\ D;\ E;\ F;\ G;\ H$, tad $8$ skolēniem 
 var iedot komplektus $ABC;\ ADE;\ AFG;\ BDG;\ BFH,\ CDH,\ CEF,\ EGH$. Tātad var
@@ -131,7 +131,7 @@ traukā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $8l;\ 7l;\ 6l;\ 5l;\ 4l;\ 3l;\ 2l;\ 1l;\ 01$.
 
@@ -170,7 +170,7 @@ ka ir tāda pilsēta, kurā ir vismaz $9$ biroji.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja kādai kompānijai būtu mazāk par $9$ birojiem, tad tā nevarētu noorganizēt 
 vairāk par $28$ reisiem, jo no $8$ elementiem var izveidot ne vairāk kā $28$ 
@@ -192,7 +192,7 @@ $p+6,\ p+10,\ q+4,\ q+10$ un $p+q+1$ arī ir pirmskaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $p \neq 2,\ q \neq 2,\ p \neq 3$. Ja $p=3k+2,\ k \in N$, tad $p+10$
 nav pirmskaitlis. Tāpēc $p=3k+1,\ k \in N$. Ja $q=3m+1,\ m \in N$, tad 
@@ -219,7 +219,7 @@ $\sphericalangle AMB=\sphericalangle CMD$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Speciālā gadījumā, ja $M$ ir loka $AMD$ viduspunkts, apskatām taisni $l$, kas 
 iet caur $M$ un abu riņķu centriem. Tā ir perpendikulāra taisnei $t$, tātad 
@@ -237,7 +237,7 @@ $\sphericalangle CMD=\sphericalangle AMB$.
 
 ![](LV.VOL.2006.10.3B.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pagarinām $MB$ un $MC$ līdz krustpunktiem $B_{1}$ un $C_{1}$ ar ārējo riņķa 
 līniju (skat. 3.zīm.) Tā kā abas riņķa līnijas ir homotētiskas ar centru $M$, 
@@ -260,7 +260,7 @@ $\frac{1}{\sqrt{1}+\sqrt{2}}+\frac{1}{\sqrt{3}+\sqrt{4}}+\frac{1}{\sqrt{5}+\sqrt
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka
 
@@ -290,7 +290,7 @@ var būt arī savā starpā vienādas)?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n=11$.
 
@@ -331,7 +331,7 @@ $$\frac{m}{b}=\frac{n(n-1)}{a(a-1)}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Attēlosim skolotājus ar $m$ sarkaniem punktiem, bet skolnieku pārus - ar 
 $\frac{n(n-1)}{2}$ zaļiem punktiem. Ja kāds skolotājs māca abus kādā pārī 
@@ -359,7 +359,7 @@ pieņemt $a_{2006}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieskaitot abām dotās vienādības pusēm $1$, iegūstam 
 $a_{n+1}+1=\left(a_{n}+1\right)^{2}$. Tāpēc 
@@ -381,7 +381,7 @@ Atrisināt naturālos skaitļos vienādojumu $(x+y)(xy+1)=2^{z}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms atzīmēsim, ka naturāliem $x$ un $y$ pastāv nevienādība 
 $xy+1 \geq x+y$; tiešām, tā ir ekvivalenta ar $(x-1)(y-1) \geq 0$, kas ir 
@@ -424,7 +424,7 @@ diametrs.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **A.** Pieņemsim, ka $AB$ ir $\omega$ diametrs. Tad $AN$ un $BM$ ir $\triangle ABC$ 
 augstumi; apzīmēsim $\triangle ABC$ augstumu krustpunktu ar $H$. Pieņemsim, ka 
@@ -467,7 +467,7 @@ būtu ierakstīti vienādi skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To nevar panākt nevienam $n$. Apzīmēsim $n$-stūra $A$ virsotnes ar 
 $A_{1}, A_{2}, \ldots, A_{n}$, bet centru - ar $O$. Apskatīsim lielumu 
@@ -493,7 +493,7 @@ $\left(1+\mbox{tg}\ 1^{\circ}\right)\left(1+\mbox{tg}\ 2^{\circ}\right)\left(1+\
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka 
 $(1+\mbox{tg}\ x)\left(1+\mbox{tg}\ \left(45^{\circ}-x\right)\right)=(1+\mbox{tg}\ x)\left(1+\frac{1-\mbox{tg}\ x}{1+\mbox{tg}\ x}\right)=(1+\mbox{tg}\ x) \cdot \frac{2}{1+\mbox{tg}\ x}=2$
@@ -523,7 +523,7 @@ kuras vērtībām ir tādas, kas atšķiras no $0$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ievietojot $x=y=a$, iegūstam $f(a) \leq 2f(a)$, tāpēc $f(a) \geq 0$. 
 Ņemot $x=0;\ y=1$, iegūstam $0 \leq f\left(\frac{1}{2}\right) \leq f(0)+f(1)=0$,
@@ -567,7 +567,7 @@ līnijai, krusto taisni $AB$ punktā $G$. Pierādīt, ka $GS \perp CI$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Tā kā $CF=CE$, tad $\triangle ECF$ ir vienādsānu un tā bisektrise $CS$ 
 ir arī augstums. Tāpēc $ES$ ir augstums pret hipotenūzu taisnleņķa trijstūrī 
@@ -599,7 +599,7 @@ $n+3$. Kādas ir iespējamās $n$ vērtības?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pierādīsim, ka $n+1;\ n+2;\ n+3$ ir kaut kādu pirmskaitļu pakāpes ar 
 naturāliem kāpinātājiem. Pretējā gadījumā kāds no šiem skaitļiem būtu izsakāms 
@@ -661,7 +661,7 @@ skaldne, kuras kontūru var apiet, ejot pa malām bultiņu norādītajos virzien
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim vispirms izliekta daudzskaldņa gadījumu.
 

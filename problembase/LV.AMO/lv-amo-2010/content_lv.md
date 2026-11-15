@@ -23,7 +23,7 @@ Kāds varēja būt **(A)** mazākais iegūtais skaitlis;
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā virkne, no kuras tiek izsvītroti $26$ cipari, ir:
 
@@ -62,7 +62,7 @@ pa rūtiņu malām.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 1.zīm.
 
@@ -91,7 +91,7 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skaitļus katrā no neaizpildītajām rūtiņām ar burtiem $a, b, c, d, e$ 
 un $f$ kā parādīts 2.zīm.
@@ -141,7 +141,7 @@ komplektā ir tieši viens kauliņš.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pieņemsim, ka var gadīties, ka rūtiņās $A$ un $B$ ir vienāds punktu 
 skaits, apzīmēsim to ar $a$. Tā kā dotajā kauliņu virknes fragmentā nav 
@@ -205,7 +205,7 @@ tieši $6$ balti kaimiņi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 9.zīm.; katrā melnā rūtiņā ierakstīts tās balto kaimiņu skaits.
 
@@ -230,7 +230,7 @@ reizes lielāks par mazāko. Atrodi šos skaitļus!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $8, 9, 10, 11, 12, 13, 14, 15, 16$.
 
@@ -270,7 +270,7 @@ cipariem!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, $\mathbf{167832}$.
 
@@ -302,7 +302,7 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** no dotā seko, ka $m \cdot n$ dalās ar $5$. Tātad vai nu $m$, vai $n$ 
 dalās ar $5$. Varam pieņemt, ka $n$ dalās ar $5$. Tad sagriežam taisnstūri 
@@ -341,7 +341,7 @@ Vai, vairākkārt veicot šādus gājienus, var iegūt tabulu, kāda attēlota 9
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, nevar.
 
@@ -373,7 +373,7 @@ Nosaki, kāda ir mazākā iespējamā $n$ vērtība, pie kuras iespējams to izd
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai izveidotu tādu puķu dobi kā minēts uzdevumā, nepieciešams, lai dažādo veidu
 skaits kā $n$ var izteikt kā trīs nepāra saskaitāmo summu, būtu vismaz $n$. 
@@ -478,7 +478,7 @@ Vai var gadīties, ka $AB>AC$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Taisne $t$ krusto malu $BC$ kādā iekšējā punktā $D$ (ja tā nekrustotu pretējo 
 malu, tad sākotnējais trijstūris netiktu sadalīts divos trijstūros). Pieņemsim,
@@ -528,14 +528,14 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 12.zīm.
 
 ![](LV.AMO.2010.7.3A.png)
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Saskaita 2 tabulas: $((1,2,3,4),\ldots,(1,2,3,4))$ un
 $(0,\ldots,0),(4,\ldots,4),(996,\ldots,996),(1000,\ldots,1000)$.
@@ -564,7 +564,7 @@ izmestas.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka bērnu ir $n$. Viegli izsekot, ka katras konfekšu dalīšanas 
 rezultātā starpības starp jebkuru divu bērnu konfekšu daudzumiem mainās par 
@@ -575,7 +575,7 @@ bērni, katram $22$ konfektes. Viens bērns iedod katram no $18$ citiem pa viena
 konfektei.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ja bērnu ir $a$, pārdalot $k$ konfektes, starpība mainās par $(a-1)k+k = ak$. 
 Ja starpība divu bērnu konfekšu skaitam pēc kāda laika ir $19$, tad $a=19$.
@@ -607,7 +607,7 @@ rūķīšiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $p_{\max}$ apzīmēsim lielāko iespējamo *patiešu* skaitu, ar $p_{min}$ - 
 mazāko iespējamo *patiešu* skaitu.
@@ -653,7 +653,7 @@ Vai to var izdarīt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** $(6+1) \cdot 3+4=25$
 
@@ -682,7 +682,7 @@ vismaz astoņi būs savā starpā atšķirīgi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka viens no puišiem izvēlējies skaitļus $\mathbf{a-1,\ a}$ un 
 $\mathbf{a+1}$, bet otrs - $\mathbf{b-1,} \mathbf{b}$ un $\mathbf{b+1}$. Tā kā 
@@ -725,7 +725,7 @@ vismaz astoņi savā starpā atšķirīgi skaitļi.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ja iedomāti $(a-1,a,a+1)$ un $(b-1,b,b+1)$ tad 2 vienādi reizinājumi var rasties vien tad,  
 ja $b \pm 1 = 2a$ vai $a \pm 1 = 2b$.
@@ -749,7 +749,7 @@ kvadrāts. Pierādi, ka $BDFH$ arī ir kvadrāts!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai pierādītu, ka $BDFH$ ir kvadrāts, jāpierāda, ka visas tā malas ir vienādas 
 un visi leņķi taisni (skat. 15.zīm.).
@@ -820,7 +820,7 @@ pieejami tikai:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Katru baļķi var sazāģēt vai nu bez, vai ar "atlikumu", "atlikumus" 
 sauksim par "izniekotiem". Bez "atlikuma" $10~\mathrm{m}$ garu baļķi vajadzīgā 
@@ -883,7 +883,7 @@ turnīra noslēgumā ir visvairāk punktu.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja uzvarētājs ieguvis $n$ punktus, tad kopējais iegūto punktu daudzums nav 
 lielāks par 
@@ -918,7 +918,7 @@ iespējams izdarīt, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** skaitļus no $1$ līdz $10$ ir iespējams sadalīt piecos pāros tā, ka 
 katra pāra skaitļu summa ir atšķirīgs pirmskaitlis: 
@@ -954,7 +954,7 @@ vienlaicīgi gan $AB$, gan $CD$ viduspunkts!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $E$ ir gan $AB$, gan $CD$ viduspunkts, tad četrstūris $ACBD$ ir 
 paralelograms. Paralelograma pretējās malas pa pāriem ir paralēlas, tātad jābūt
@@ -1024,7 +1024,7 @@ $d(n)$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $p$ ir pirmskaitlis, tad skaitlim $p^{n-1}$ ir tieši $n$ dalītāji 
 $1;\ p;\ p^{2};\ \ldots;\ p^{n-1}$. Pieņemsim, ka $p$ - pirmskaitlis, $n$ - 
@@ -1061,7 +1061,7 @@ Piemēram, skaitlis $19$ ierakstīts ceturtajā rindā, trešajā kolonnā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka skaitļi tabulā ir izvietoti pa diagonālēm. Ievērosim, ka uz 
 vienas diagonāles esošām rūtiņām rindas un kolonnas numuru summa ir konstanta, 
@@ -1116,7 +1116,7 @@ nevar, izpildot tikai atļautos gājienus?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izkrāsosim dotajā taisnstūrī katru trešo diagonāli kā parādīts 17.zīmējumā.
 
@@ -1141,7 +1141,7 @@ $$\frac{x_{1}+x_{3}}{x_{1}+x_{2}}+\frac{x_{2}+x_{4}}{x_{2}+x_{3}}+\frac{x_{3}+x_
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pierādīt nevienādību $x+y \geq \frac{4}{\frac{1}{x}+\frac{1}{y}}$ 
 pozitīviem $x$ un $y$.
@@ -1169,7 +1169,7 @@ $AB,\ AC$ un $BC$ ir mazāki par $1$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $12$; piemēram, varam ņemt regulāra $12$-stūra, kas ievilkts riņķa
 līnijā, virsotnes $A_{1}, A_{2}, \ldots, A_{12}$. Tad starp katrām $2$ blakus 
@@ -1206,7 +1206,7 @@ attiecība in $7:4$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Neatkarīgi no tā, pret kuru malu pāri ($AD$ un $BC$, vai $CD$ un $AB$) 
 perpendikuli tiek vilkti, to krustpunkti ar $AC$ ir simetriski attiecībā pret 
@@ -1253,7 +1253,7 @@ sekojošu naturālu skaitļu summu? Saskaitāmo secība nav svarīga.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc kārtas sekojoši naturāli skaitļi veido aritmētisku progresiju ar diferenci 
 $1$. Tās $n$ pēc kārtas ņemtu locekļu $a,\ a+1,\ \ldots,\ a+n-1$ summa ir 
@@ -1299,7 +1299,7 @@ no žoga formas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka privātmājas žogs veido patvaļīgu izliektu daudzstūri (skat. 
 19.zīm.). Platība, kas sētniekam jānotīra, sastāv no taisnstūriem, kuru viena 
@@ -1349,7 +1349,7 @@ dotajām virknēm!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Noskaidrosim, kādi skaitļi vienlaicīgi pieder pirmajām divām 
 progresijām (1) un (2).
@@ -1419,7 +1419,7 @@ reālos skaitļos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $4a-3 \geq 0,\ 4b-3 \geq 0,\ 4c-3 \geq 0$. Sareizinot visas 
 nevienādības, iegūstam
@@ -1453,7 +1453,7 @@ garums ir $2a$. Nosaki $ABCD$ laukumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle BAC=\sphericalangle CAD$, tad $BC=CD$ kā hordas, kas 
 savelk vienādus lokus (skat. 20.zīm.). Līdzīgi, no leņķu $\sphericalangle ADB$ 
@@ -1487,7 +1487,7 @@ tas, kurš izdara otro gājienu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nosauksim skaitli $N$ par *sliktu*, ja $N$ ir nepāra skaitlis vai $N=2^{2i+1}$, 
 kur $i$ - vesels nenegatīvs skaitlis. Nosauksim visus pārējos naturālos 
@@ -1549,7 +1549,7 @@ $2^{k}$ ir *sakarīgs*!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzot skaitlis $2^{1}=2$ nav *sakarīgs*.
 
@@ -1584,7 +1584,7 @@ vērtību!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 1. Vislielākā dotās izteiksmes vērtība ir $1$, jo
 
@@ -1632,7 +1632,7 @@ $AQ^{2}+PB^{2}=PQ^{2}$ Pierādi, ka $AC \cdot BC=2MC \cdot KC$!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\triangle AQM \sim \triangle PQL \sim \triangle PBK\ (ll)$ (skat. 24.zīm.).
 
@@ -1665,7 +1665,7 @@ skaits.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pamatot, ka katram naturālam $n\ d(n) \leq 2 \sqrt{n}$. Tad, ja 
 $n,\ d(n)$ un $d(d(n))$ veido aritmētisku progresiju, tad 
@@ -1690,7 +1690,7 @@ $$2\left(ah_{a}+bh_{b}+ch_{c}\right) \leq\left(ah_{b}+ah_{c}+bh_{a}+bh_{c}+ch_{a
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $2\left(ah_{a}+bh_{b}+ch_{c}\right) \leq\left(ah_{b}+ah_{c}+bh_{a}+bh_{c}+ch_{a}+ch_{b}\right)$
 
@@ -1718,7 +1718,7 @@ tādu $n$, ka, pareizi spēlējot, otrais spēlētājs uzvar!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim no pretējā, ka $n$ ir **lielākais** cepumu skaits sākuma pozīcijā, 
 pie kura otrajam spēlētājam eksistē uzvaroša stratēģija. (Tādi $n$ vispār 

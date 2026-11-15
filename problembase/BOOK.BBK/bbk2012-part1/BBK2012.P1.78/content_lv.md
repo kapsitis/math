@@ -5,7 +5,7 @@ Pierādīt, ka $p+q$ ir vismaz trīs naturālu skaitļu reizinājums, katrs no k
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $q-p=2k$, tad $p+q=2 \cdot(p+k)$. Ievērosim, ka
 

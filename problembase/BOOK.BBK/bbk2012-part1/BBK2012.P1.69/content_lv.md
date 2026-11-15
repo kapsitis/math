@@ -8,7 +8,7 @@ Naturālu skaitli sauc par interesantu, ja tā ciparu summa dalās ar $5$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Tāds, piemēram, ir skaitlis $5$.
 

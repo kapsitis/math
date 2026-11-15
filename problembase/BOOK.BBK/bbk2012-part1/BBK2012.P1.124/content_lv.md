@@ -8,7 +8,7 @@ vai nu ar $3$, vai ar $5$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Šādi skaitli veido aritmētisku progresiju ar 200 locekliem, kurā pirmais loceklis 
 ir $5$ un pēdējais $-1000$. Tāpēc $S_{1}=\frac{5+1000}{2} \cdot 200=100500$.

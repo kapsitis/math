@@ -7,7 +7,7 @@ Izmantojot formulu $[a,b] = ab/(a,b)$, aprēķināt $[a,b]$:
 **(D)** $[200,150]$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $(30,18)=6$, $[30,18]=\frac{30 \cdot 18}{6}=90$.  
 **(B)** $(55,25)=5$, $[55,25]=\frac{55 \cdot 25}{5}=275$.  

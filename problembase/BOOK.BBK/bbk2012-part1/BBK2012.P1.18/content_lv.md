@@ -7,7 +7,7 @@ Pierādīt, ka tam ir vismaz divi vienādi cipari.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja iegūtajam skaitlim visi cipari būtu dažādi, tad to summa būtu 
 $0+1+2+\cdots{}+9=45$; t.i., šis skaitlis dalītos ar $9$. 

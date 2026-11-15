@@ -5,7 +5,7 @@ var vienlaikus dalîties ar $3$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jebkurš skaitlu daudzums no $0$ līdz $3$. Piemēri:
 

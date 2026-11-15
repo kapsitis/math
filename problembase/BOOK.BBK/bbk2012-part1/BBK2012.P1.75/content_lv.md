@@ -6,7 +6,7 @@ $$1! \cdot 3! \cdot 5! \cdot \ldots \cdot (2m-1)! = \left(\frac{m(m+1)}{2}\right
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nemsim pirmskaitli $p$, kuram izpildās nevienādības $(2 m-1)<p<2(2 m-1)$. Ja izpildītos 
 nevienādība $2(2 m-1) \leq \frac{m(m+1)}{2}$, tad $p$ būtu vienādības labās puses

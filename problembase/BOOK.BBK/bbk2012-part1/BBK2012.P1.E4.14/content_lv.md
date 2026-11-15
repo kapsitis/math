@@ -3,7 +3,7 @@
 Pierādiet, ka trīs pēc kārtas n̦emtu naturālu skaițlu reizinājums dalās ar $6$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierāda, ka šis reizinājums dalās ar $2$ un ar $3$.
 

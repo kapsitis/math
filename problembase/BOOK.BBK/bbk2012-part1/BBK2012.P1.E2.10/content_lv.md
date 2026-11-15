@@ -3,7 +3,7 @@
 Atrodiet visus pirmskaitļus intervālā $[100, 120]$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sqrt{120} < 11$, tad pietiek pārbaudīt dalāmību ar 
 pirmskaitļiem, kas ir mazāki par $11$. Tie ir 2, 3, 5 un 7. 

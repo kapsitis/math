@@ -4,7 +4,7 @@ Kāds lielākais pirmskaitlu daudzums var būt sastopams starp $12$ pēc kārtas
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $2$ līdz $13$ sastopami $6$ pirmskaitļi: $2, 3, 5, 7, 11, 13$.
 

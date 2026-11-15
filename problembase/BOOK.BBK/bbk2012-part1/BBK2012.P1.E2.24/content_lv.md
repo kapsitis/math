@@ -4,7 +4,7 @@ Doti tādi naturāli skaitļi $a,b$, ka $a \mid (a + b)$ un $b \mid (a + b)$.
 Pierādiet, ka $a = b$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $a \mid (a + b)$ seko, ka $a \mid b$. Līdzīgi iegūstam, ka $b \mid a$. 
 No īpašības **D6** seko, ka $a = b$.

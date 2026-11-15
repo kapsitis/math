@@ -4,7 +4,7 @@ Vai dažādu pirmskaitļu apgriezto lielumu summa var būt vesels skaitlis?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt. Pien̦emsim pretējo, ka 
 $\frac{1}{p_{1}}+\frac{1}{p_{2}}+\cdots+\frac{1}{p_{n}}=m$, $m \in N$. 

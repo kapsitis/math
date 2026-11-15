@@ -3,7 +3,7 @@
 Pierādiet, ka četru pēc kārtas n̦emtu naturālu skaitļu reizinājums dalās ar $24$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierāda, ka četru pēc kārtas n̦emtu naturālu skaitlu reizinājums dalās ar $3$ un ar $8$.
 

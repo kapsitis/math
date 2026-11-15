@@ -9,7 +9,7 @@ Atrast naturālu skaitli, kura ciparu summa dalās ar $27$, bet pats ar $27$ ned
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der, piemēram, skaitlis $9981$. Tā ciparu summa ir $9 + 9 + 8 + 1 = 27$, bet $9981 : 27 = 369$, atl. $18$.
 
@@ -25,7 +25,7 @@ Parādi vienu piemēru, kā rūtiņu burtnīcas lapā nokrāsot dažas rūtiņas
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, var nokrāsot rūtiņas kā $1.$ att.
 
@@ -45,7 +45,7 @@ Zināms, ka katrs klases skolēns nodarbojas ar vismaz vienu no trim aktivitāt�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot Eilera riņķus, attēlojam uzdevumā doto (skat. $2.$ att.). Aprēķinām, cik ir tādu skolēnu, kas
 
@@ -75,7 +75,7 @@ Uzzīmē divpadsmitstūri, kura visas malas novietotas uz $6$ taisnēm! Piemēra
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 4. att.
 
@@ -95,7 +95,7 @@ Sniedzei ir $54$ piparkūkas un $10$ dāvanu maisiņi. Vai viņa var salikt pipa
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Apskatām gadījumu, kad katrā maisiņā Sniedze ieliek mazāko iespējamo piparkūku skaitu. Tad vienā maisiņā būs $1$ piparkūka, otrā – $2$ piparkūkas, trešā – $3$ piparkūkas, ..., desmitajā maisiņā – $10$ piparkūkas. Taču tādā gadījumā visos maisiņos kopā jau būs $1+2+3+4+5+6+7+8+9+10=55$ piparkūkas, bet Sniedzei ir tikai $54$ piparkūkas.
 
@@ -111,7 +111,7 @@ Vai naturāla skaitļa ciparu reizinājums var būt $6930$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Sadalām skaitli $6930$ pirmreizinātājos $6930=2\cdot3\cdot3\cdot5\cdot7\cdot11$. Tā kā $11$ ir skaitļa $6930$ pirmreizinātājs, tad meklētajam skaitlim būtu jāsatur cipars $11$, bet $11$ nav cipars.
 
@@ -127,7 +127,7 @@ Skaitļa $n$ pierakstā izmantoti tikai cipari $1$ un $2$. Vieninieku ir $7$ rei
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja skaitļa $n$ pierakstā ir $x$ divnieki, tad tā pierakstā ir $7x$ vieninieki. Līdz ar to skaitļa $n$ ciparu summa ir $2x+7x=9x$. Tātad skaitļa $n$ ciparu summa dalās ar $3$ un arī pats skaitlis $n$ dalās ar $3$. Skaitlis $2017$ ar $3$ nedalās (jo tā ciparu summa ir $2+0+1+7=10$), tātad $n+2017$ nedalās ar $3$.
 
@@ -143,7 +143,7 @@ Ekskursijā piedalījās $15$ skolēni. Visiem kopā līdzi bija ne mazāk kā $
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemam pretējo, ka katram skolēnam līdzi bija mazāk nekā $9$ eiro. Tā kā katram skolēnam līdzi bija vesels skaits eiro, tad katram līdzi bija $8$ eiro vai mazāk. Līdz ar to $15$ skolēniem kopā līdzi bija ne vairāk kā $15\cdot8=120$ eiro. Iegūta pretruna, tātad pieņēmums ir aplams. Līdz ar to vismaz vienam skolēnam līdzi bija ne mazāk kā $9$ eiro.
 
@@ -159,7 +159,7 @@ Vai var uzzīmēt sešas taisnes tā, lai tām būtu tieši a) $6$ krustpunkti, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Jā, var uzzīmēt, piemēram, skat. 5. att. **b)** Pamatosim, ka $6$ taisnēm nevar būt tieši $16$ krustpunkti. Divām taisnēm var būt $0$ krustpunkti (tās nekrustojas), tieši $1$ krustpunkts vai bezgalīgi daudz krustpunkti (taisnes sakrīt). Tātad katra no $6$ taisnēm var krustot katru no pārējām $5$ taisnēm augstākais $1$ punktā. Tātad krustpunktu skaits ir ne lielāks kā $6\cdot5:2=15$.
 
@@ -179,7 +179,7 @@ Atrast mazāko naturālo skaitli, kura ciparu reizinājums ir $210$ un kas dalā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais naturālais skaitlis, kas atbilst uzdevuma nosacījumiem, ir $567$. Pamatosim, ka mazāku iegūt nevar. Sadalām skaitli $210$ pirmreizinātājos $210=2\cdot3\cdot5\cdot7$. Meklētais skaitlis noteikti saturēs ciparu $5$ un $7$, jo reizinot šos skaitļus ar jebkuru citu no iegūtajiem pirmreizinātājiem, iegūsim divciparu skaitli nevis ciparu. Meklētā skaitļa ciparu reizinājums dalās ar $2$ un ar $3$. Tā kā ir jāatrod mazākais skaitlis, tad tam jāsatur pēc iespējas mazāk ciparu. Ja skaitlis satur ciparu $6=2\cdot 3$, tad mazākais skaitlis, ko var izveidot no cipariem $5, 6, 7$, ir $567$. Tā kā $5+6+7=18$, kas dalās ar $9$, tad arī skaitlis $567$ dalās ar $9$.
 
@@ -195,7 +195,7 @@ Ekskursijā piedalījās $15$ skolēni. Visiem kopā līdzi bija ne mazāk kā $
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemam pretējo, ka katram skolēnam līdzi bija mazāk nekā $9$ eiro. Tādā gadījumā tiem $13$ skolēniem, kam bija tikai eiro monētas vai papīra nauda, katram bija ne vairāk kā $8$ eiro, bet atlikušajiem diviem skolēniem – katram ne vairāk kā $8$ eiro un $99$ centi. Tāpēc kopējā naudas summa nav lielāka kā $13\cdot 8+2\cdot 8{,}99=121{,}98$ eiro. Iegūta pretruna, tātad pieņēmums ir aplams. Līdz ar to vismaz vienam skolēnam līdzi bija ne mazāk kā $9$ eiro.
 
@@ -211,7 +211,7 @@ Trijstūrī $ABC$ no virsotnēm novilkti nogriežņi $AM$, $BN$ un $CK$, kas kru
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No trijstūra nevienādības izriet (skat. $6$. att.)
 
@@ -268,7 +268,7 @@ a) Vai noteikti visiem reāliem skaitļiem $x$ izpildās $3x^2 - 0{,}25x + 0{,}0
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Nē, dotā nevienādība neizpildās visiem reāliem skaitļiem $x$, piemēram, ja $x=\frac{1}{20}$, tad $\frac{3}{400}-\frac{1}{4}\cdot\frac{1}{20}+\frac{1}{200}=0$. Tā kā $0$ nav lielāka kā $0$, tad dotā nevienādība neizpildās.
 
@@ -298,7 +298,7 @@ Par kādu vismazāko skaitli, veicot tikai atļautās operācijas, var pārveido
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izpildot atļautās trīs operācijas, nevar iegūt negatīvus skaitļus un $0$.
 
@@ -321,7 +321,7 @@ Izliektā četrstūrī $ABCD$ punkts $M$ ir malas $BC$ viduspunkts un punkts $N$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūru $AMB$ un $AMC$ laukumi ir vienādi, jo tiem ir vienādi pamati $BM$ un $MC$ un to augstumi sakrīt; arī trijstūru $CAN$ un $AND$ laukumi ir vienādi (skat. $7$. att.). Tātad
 $$S_{AMN}<S_{AMCN}=S_{AMC}+S_{ACN}=\frac{1}{2}(S_{ABC}+S_{ACD})=\frac{1}{2}S_{ABCD}.$$
@@ -342,7 +342,7 @@ Pierādīt, ka $a^2 + b^2 + \frac{1}{2} \ge a + b$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ekvivalenti pārveidojam doto nevienādību:
 $$a^2-a+\frac{1}{4}+b^2-b+\frac{1}{4}\ge 0;$$
@@ -361,7 +361,7 @@ Trīs no aritmētiskās progresijas locekļiem ir $41$; $113$; $193$. Atrast lie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jebkuru divu aritmētiskās progresijas locekļu starpība dalās ar diferenci $d$. Tātad $113-41=72$ dalās ar $d$ un $193-113=80$ dalās ar $d$. Līdz ar to arī šo skaitļu starpība $80-72=8$ dalās ar $d$. Tas nozīmē, ka $d\le 8$. Diferences vērtība var būt $8$, piemēram, aritmētiskā progresija $a_n=8n+1$ ar diferenci $8$ satur visus uzdevumā dotos skaitļus.
 
@@ -377,7 +377,7 @@ Taisnstūra $ABCD$ iekšpusē atlikts punkts $P$. Pierādīt, ka $PA^2 + PC^2 = 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Caur punktu $P$ novelkam taisni $KL$ paralēli $AB$ un taisni $MN$ paralēli $BC$ (skat. 8. att.). Iegūti četri taisnstūri. No Pitagora teorēmas un taisnstūra īpašībām izriet vienādības:
 $$
@@ -403,7 +403,7 @@ Pierādīt, ka $(a^2 + b^2)(a^4 + b^4) \ge (a^3 + b^3)^2$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ekvivalenti pārveidojam doto nevienādību:
 $$
@@ -434,7 +434,7 @@ No sākuma uz papīra lapas uzrakstīts skaitlis $16$. Ja uz lapas uzrakstīts s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uz lapas uzrakstītais skaitlis $16$ dod atlikumu $1$, dalot to ar $3$. Ievērojam, ka
 
@@ -456,7 +456,7 @@ Izliektā četrstūrī $ABCD$ diagonāles ir savstarpēji perpendikulāras. Pier
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam malu viduspunktus ar $E$, $F$, $G$, $H$ (skat. 9. att.). No trijstūra viduslīnijas īpašībām izriet, ka $EF\parallel AC\parallel HG$ un $EH\parallel BD\parallel FG$. Tā kā $AC\perp BD$, tad $EFGH$ ir taisnstūris. Taisnstūra pretējo leņķu summa ir $180^{\circ}$, tātad ap to var apvilkt riņķa līniju, no kā izriet, ka četrstūra malu viduspunkti atrodas uz vienas riņķa līnijas.
 
@@ -476,7 +476,7 @@ Pierādīt, ka $\frac{a+b}{a^2+b^2} \ge \frac{a^2+b^2}{a^3+b^3}$, ja $a$ un $b$ 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $a$ un $b$ ir pozitīvi skaitļi, tad $a^2+b^2>0$ un $a^3+b^3>0$. Abas nevienādības puses reizinot ar $(a^2+b^2)\cdot(a^3+b^3)>0$, iegūstam $(a+b)\cdot(a^3+b^3)\geq(a^2+b^2)\cdot(a^2+b^2)$.
 
@@ -506,7 +506,7 @@ Kādu lielāko daudzumu skaitļu var izvēlēties no kopas $\{1; 2; 3; \ldots; 2
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var izvēlēties $1009$ skaitļus, piemēram, visus nepāra skaitļus, jo tad jebkuru divu izvēlēto skaitļu summa ir pāra skaitlis un tātad nesakrīt ar trešo izvēlēto skaitli.
 
@@ -532,7 +532,7 @@ Dots izliekts četrstūris $ABCD$. Zināms, ka $AC \perp BD$ un $AB = 10$, $BC =
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Pitagora teorēmas iegūstam vienādības (skat. $10$. att.):
 $$AB^2=AO^2+OB^2;\quad BC^2=BO^2+OC^2;\quad CD^2=CO^2+OD^2;\quad AD^2=AO^2+OD^2.$$

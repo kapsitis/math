@@ -9,7 +9,7 @@ Dots, ka $a$ un $b$ – reāli pozitīvi skaitļi. Pierādiet, ka $\frac{a}{a+1}
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzami, ka $\frac{a}{a+1}>\frac{a}{a+b+1}$ (skaitītāji vienādi, otrajai daļai saucējs lielāks) un arī $\frac{b}{b+1}>\frac{b}{a+b+1}$. Saskaitot abas šīs nevienādības, iegūstam prasīto.
 
@@ -25,7 +25,7 @@ Trisstūrī $ABC$ malu $AB$, $BC$ un $AC$ viduspunkti ir attiecīgi punkti $D$, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\triangle ADF=\triangle FEC$ $(mmm)$, jo $AD=FE$, $DF=EC$ un $AF=FC$. $DG$ un $EH$ ir atbilstošie augstumi šajos trijstūros, tātad punkti $G$ un $H$ ir atbilstošie augstumu pamati, tātad $GF$ un $HC$ ir atbilstošie nogriežņi, tāpēc ir vienādi.
 
@@ -45,7 +45,7 @@ Kādiem $n$ regulāru sešstūri ar malas garumu $n$ var sagriezt tādās figūr
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** var sagriezt tad un tikai tad, ja $n$ ir pāra skaitlis.
 
@@ -67,7 +67,7 @@ b) pirmais cipars, ja pēdējais cipars ir $1$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde: a)** $6$; **b)** $4$.
 
@@ -91,7 +91,7 @@ Pie sienas ir lampiņas, kas pēc kārtas sanumurētas ar naturāliem skaitļiem
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $N=5$.
 
@@ -111,7 +111,7 @@ Dots, ka $a^2 + ab + ac < 0$. Pierādiet, ka $b^2 > 4ac$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkojam kvadrātfunkciju $f(x)=cx^2+bx+a$. No dotā seko, ka $f(0)\cdot f(1)<0$. Tātad šim polinomam eksistē divas saknes, un tā diskriminants $b^2-4ac$ ir pozitīvs.
 
@@ -131,7 +131,7 @@ Vai var rindā uzrakstīt $2010$ dažādus skaitļus $a_1$, $a_2$, ..., $a_{2010
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, der piemēram skaitļi $\frac{1}{2010!}$, $\frac{2}{2010!}$, $\frac{3}{2010!}$, ..., $\frac{2010}{2010!}$. Tiem visiem saucējs dalās ar skaitītāju, tātad ar skaitītāju var saīsināt un iegūt daļu, kuras skaitītājā ir $1$. Acīmredzami spēkā arī otrs nosacījums: $a_{i+1}-a_i=\frac{1}{2010!}$ visiem $i$.
 
@@ -149,7 +149,7 @@ $$n = pqrs = 2p^{10} - 38 \quad (p, q, r, s \text{ – dažādi pirmskaitļi}).$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības $38=p(2p^9-qrs)$ seko, ka $38$ dalās ar $p$. Tātad pastāv divas iespējas:
 
@@ -169,7 +169,7 @@ Piramīdas pamats ir daudzstūris ar nepāra skaitu malu. Vai uz visām tās š�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nevar.  
 Projicējam visus vektorus uz taisni, kas perpendikulāra piramīdas pamata plaknei. Tad pamata plaknes vektori projicējas nulles vektoros, bet sānu šķautņu vektori vienāda garuma paralēlos vektoros. Tā kā šo vektoru skaits ir nepāra skaitlis, tad summā iegūt nulles vektoru nevar.
@@ -186,7 +186,7 @@ Ir deviņas lampiņas, kas pēc kārtas sanumurētas ar naturāliem skaitļiem n
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $7$ lampiņas.  
 Vispirms ievērosim, ka katru slēdzi ir vērts pārslēgt ne vairāk kā vienreiz. Aplūkosim trīs lampiņu grupas: [$2$, $3$ un $6$], [$2$, $5$ un $10$], [$4$ un $8$]. Katrā no tām iespējams ieslēgt ne vairāk kā divas lampiņas. Ja ieslēgta ir lampiņa ar numuru $2$, tad ieslēgtas ir arī abas trešās grupas lampiņas un šajās trijās grupās kopā ir ne vairāk kā četras ieslēgtas lampiņas. Savukārt, ja $2$. lampiņa ir ieslēgta, tad abas trešās grupas lampiņas ir ieslēgtas un pa visām trim grupām kopā ir vismaz divas izslēgtas lampiņas (viena pirmajā un viena – otrajā grupā). Tātad iespējams ieslēgt ne vairāk kā septiņas lampiņas.  
@@ -206,7 +206,7 @@ $$7^x+8^y=13^z$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc moduļa $3$ iegūstam kongruenci $1^x+(-1)^y\equiv1^z\pmod{3}$, kurai nav atrisinājumu. Tātad nav atrisinājumu arī dotajam vienādojumam.
 
@@ -222,7 +222,7 @@ Riņķa līnijā $\omega_1$ ar centru punktā $O_1$ novilkta horda $AB$ un tai p
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pagarinām rādiusu $O_1C$ līdz diametram $CD$ (skat. $6$. zīm.). Veidojas vienādsānu trapece $ABCD$. Novelkam leņķa $AO_1C$ bisektrisi, tās krustpunktu ar taisni $CB$ apzīmējam ar $E$. Apzīmējam $\angle ADC=\angle DCB=\beta$, $\angle DO_1A=2\alpha=\pi-2\beta$. Tad $\angle AO_1C=2\beta$ un $\angle EO_1C=\beta$. Tātad $\Delta O_1EC$ ir vienādsānu, $EC=EO_1$. Vienādsānu trijstūrī $\Delta AO_1C$ taisne $O_1E$ satur leņķa $AO_1C$ bisektrisi, tad tā satur arī augstumu un mediānu. Tātad $O_1E\perp AC$ un $AM=MC$. Nogrieznis $EM$ trijstūrī $ACE$ ir gan
 
@@ -244,7 +244,7 @@ Dota virkne $x_0>1$, $x_{n+1}=x_n+\dfrac{1}{x_n^2}$ ($n=0, 1, 2 \ldots$). Pierā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $x_{n+1}^{3}=x_n^{3}+3+a$, kur $a>0$. Aplūkojam virkni $y_n=x_n^{3}$. Tad $y_{333}>1000$, no tā seko, ka $x_{333}>10$.
 
@@ -260,7 +260,7 @@ Dota kvadrātveida tabula ar izmēriem $15 \times 15$ rūtiņas. Katra tās rūt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo. Tad pirmās krāsas skaits jebkurās divās rindiņās ir dažāds. Tātad pirmajā krāsā nokrāsoto rūtiņu skaits ir ne mazāks par $0+1+2+\cdots+13+14=105$. Analoģiski arī pārējām krāsām. Tātad tabulā jābūt ne mazāk kā $3\cdot 105=315$ rūtiņām, bet tabula ir tikai $225$ rūtiņas. Iegūta pretruna.
 
@@ -276,7 +276,7 @@ Plaknē doti $100$ zili un $100$ sarkani punkti, nekādi trīs no tiem neatrodas
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim tādu punktu sadalījumu pa pāriem, ka visu $100$ nogriežņu garumu summa ir pati mazākā iespējamā. Pierādīsim, ka šajā gadījumā nogriežņi nekrustojas.
 
@@ -294,7 +294,7 @@ Vai eksistē tāda $a$ vērtība, ka vienādojumam $\sin x=ax$ ir tieši $2010$ 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** Nē, neeksistē.
 
@@ -312,7 +312,7 @@ Vai eksistē tāda trijstūra piramīda, kurā no katras sānu šķautnes vidusp
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** Nē, neeksistē.
 
@@ -354,7 +354,7 @@ Aprēķiniet izteiksmes $\operatorname{arctg}1+\operatorname{arctg}2+\operatorna
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $\pi$.
 
@@ -376,7 +376,7 @@ Dots, ka naturāls skaitlis $n=2\cdot(10^k+5)$ dalās ar $67$ ($k$ – vesels sk
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n=2010$.
 
@@ -403,7 +403,7 @@ Vai ar šo kalkulatoru, lietojot to vairākkārt, no četrinieka $(3,4,2,1)$ var
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nevar.
 

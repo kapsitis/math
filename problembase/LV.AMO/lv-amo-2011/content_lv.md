@@ -23,7 +23,7 @@ nav $0$. Atrodi visus iespējamos atrisinājumus!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $EEE=E \cdot 111=E \cdot 3 \cdot 37$. Tātad $E>3$, lai pie tam 
 viens no skaitļiem $AB$ vai $CD$ ir $37$ vai $74$. Apskatot visas iespējamās 
@@ -74,7 +74,7 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skaitli, kas atrodas vidējās kolonnas apakšējā rūtiņā ar $x$ (skat. 
 1.zīm.). Tad katras rindas, kolonnas un diagonāles skaitļu summas ir $26+x$. 
@@ -110,7 +110,7 @@ Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var; skat., piem., 3.zīm.
 
@@ -140,7 +140,7 @@ starpība ir
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var. Skat., piem., 4.zīm.
 
@@ -180,7 +180,7 @@ Parādi, kā to var izdarīt, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** skat. 6.zīm.; **(B)** skat. 7.zīm.
 
@@ -207,7 +207,7 @@ $$a \cdot b \cdot(a+b)=20102011?$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē.
 
@@ -235,7 +235,7 @@ kungiem. Cik starp šiem pensionāriem ir kungu un cik - kundžu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aprēķināsim, cik "sarakstes" pavisam notiek. Ja kungu skaitu apzīmē ar $a$, bet
 dāmu skaitu ar $b$, tad ir spēkā sakarības $a+b=60$ un $17a=13b$. Tātad $a$ 
@@ -265,7 +265,7 @@ atrast nevienu pilnībā baltu taisnstūri ar izmēriem $1 \times 3$ rūtiņas
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrātā ar izmēriem $8 \times 8$ rūtiņas var izvietot $21$ taisnstūri ar 
 izmēriem $1 \times 3$ rūtiņas tā, ka tie nepārklājas. (skat. 8.zīm.). Katrā no 
@@ -306,7 +306,7 @@ Vai, vairākkārt veicot šādus gājienus, var iegūt tabulu, kāda attēlota 4
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim, kā mainās tabulas skaitļu kopsumma pēc viena gājiena izpildes. Ja 
 pirms gājiena visu skaitļu summa bija $S$, tad pēc gājiena tā ir 
@@ -337,7 +337,7 @@ vienāds konfekšu skaits. Cik konfekšu sākumā bija katrai no māsām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** Almai un Danai sākuma bija pa $14$ konfektēm, Betai $50$.
 
@@ -382,7 +382,7 @@ Atrodi visus šos skaitļus!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmskaitļi var beigties ar ciparu $1,\ 2$ (tikai skaitlis $2$), $3,\ 5$ (tikai
 skaitlis $5$), $7$ un $9$. Tā kā ir uzrakstīti seši skaitļi, tad starp šiem 
@@ -407,7 +407,7 @@ $61$ un visa virkne: $\mathbf{2,\ 5,\ 53,\ 59,\ 61,\ 67}$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 No pirmās īpašības seko, ka jābūt $p_1=2$,$p_2=5$ (citādi nevar dabūt sešus dažādus 
 pēdējos ciparus pirmskaitļiem). Vēl atsevišķi jāpamato, ka $p_2 \neq 3$, jo 
@@ -440,7 +440,7 @@ pilsētā $B$ ierasties vienlaicīgi ar to, ja sarkanās automašīnas ātrums b
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Var. Ar $2s$ apzīmēsim attālumu starp pilsētām, ar $t_{1}$ - laiku, 
 kādā zaļā automašīna veica ceļa pirmo pusi, ar $t_{2}$ - laiku, kādā zaļā 
@@ -480,7 +480,7 @@ dalot ar $2011$, atlikumā iegūst $3$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tāds skaitlis ir $2010 \cdot 10+13=2011 \cdot 10+3=20113$.
 
@@ -505,7 +505,7 @@ kā to var izdarīt!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrāta malas garumam jābūt $11$ vai $13$. Piemērus skat. 10. un 11.zīm.
 
@@ -532,7 +532,7 @@ vienas krāsas punktus, starp kuriem attālums centimetros ir vesels skaitlis.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlamies $11$ punktus tā, lai attālumi starp katriem diviem no tiem būtu 
 veseli skaitļi. Saskaņā ar Dirihlē principu vismaz $2$ no tiem ir vienā krāsā, 
@@ -565,7 +565,7 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("+", "-", " $\cdot$ "
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Piem., $8 - 3 + 5 \ast 2 = 8 - (3 - 5 \ast 2) = 15$
 
@@ -591,7 +591,7 @@ $MK,\ ML,\ MP$ un $MR$ viduspunkti, ir kvadrāts.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No viduslīniju īpašības trijstūros $MZY$ un $BCD$ seko 
 $ZY=\frac{1}{2} PL=\frac{1}{2}\left(\frac{1}{2} BD\right)=\frac{1}{4} BD$ 
@@ -623,7 +623,7 @@ vienādas. Nosaki visas iespējamās šo summu vērtības.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ierakstos skaitļus kā parādīts $13$. a) zīm. Tad
 
@@ -669,7 +669,7 @@ dalās ar **(A)** $17$; **(B)** $23$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, piemēram, ja Leonards izvēlējās skaitli $444$, tad viņš ieguva 
 $888444$, bet tas nedalās ar $17$ ($888444:17=52261$ atlikumā $7$).
@@ -688,7 +688,7 @@ ar $23\ (2001:23=87)$, tātad arī jauniegūtais skaitlis $2001x$ noteikti dalā
 ar $23$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 **(A)** Ja 3-ciparu skaitlis ir $\overline{abc}$, tad jaunais ir 
 $2001\overline{abc}$ dalās ar $23$. Bet $17 \nmid 2001$.
@@ -724,7 +724,7 @@ spēlētājiem, pareizi spēlējot, uzvarēs? Apraksti, kā uzvarētājam jārī
 Pēc katra Annas gājiena skaitlim jādalās ar $10$. 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzvar pirmais spēlētājs, katrā gājienā atņemot no skaitļa tā pēdējo ciparu, 
 tādējādi pēc sava gājiena iegūstot skaitli, kura pēdējais cipars ir $0$. Tā kā 
@@ -755,7 +755,7 @@ $$\frac{1}{x^{2}+24}+\frac{1}{y^{2}+24}=\frac{2}{xy+24}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojumu var pārveidot kā:
 
@@ -803,7 +803,7 @@ $\sphericalangle BAC=\sphericalangle BMN$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\triangle ABC$ un $\triangle PBC$ ir taisnleņķa, $AM=BM=CM$ un 
 $PN=BN=CN$ (skat. 14.zīm.). Tāpēc $\Delta MBN=\triangle MCN$ (pazīme $mmm$) un 
@@ -838,7 +838,7 @@ racionāla sakne?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** Jā, var.
 
@@ -868,7 +868,7 @@ ka katrs no tiem ir izsakāms kā divu naturālu skaitļu kvadrātu starpība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $x^{2}-y^{2}=N$. Ja $N$-pāru, tad $(x-y)$ un $(x+y)$ ir vienāda paritāte un $N$
 jādalās ar $4$. Tātad, lielākais pēc kārtas sekojošu šādu skaitļu skaits ir 
@@ -903,7 +903,7 @@ nevar, izpildot tikai atļautos gājienus?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izkrāsosim dotajā taisnstūrī katru trešo diagonāli kā parādīts 15.zīmējumā.
 
@@ -929,7 +929,7 @@ sekojošu naturālu skaitļu summu? Saskaitāmo secība nav svarīga.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc kārtas sekojoši naturāli skaitļi veido aritmētisku progresiju ar diferenci 
 $1$. Tās $n$ pēc kārtas ņemtu locekļu $a,\ a+1,\ \ldots,\ a+n-1$ summa ir 
@@ -959,7 +959,7 @@ laukumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $ABC$ un $ABD$ ir taisnleņķa trīsstūri, tad ap četrstūri $ACBD$ var 
 apvilkt riņķa līniju (tās diametrs ir $AB$). Tā kā $CD$ ir $\sphericalangle ACB$
@@ -986,7 +986,7 @@ $$\left\{\begin{array}{l}
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojumam $a^{2}=b^{2}$ vispārīgā gadījumā iespējami divi atrisinājumi: 
 $a=b$ un $a=-b$. Aplūko pirmo vienādojumu un iztirzā abus iespējamos variantus:
@@ -1056,7 +1056,7 @@ riņķa līniju $19$ lokos. Pierādīt, ka ir loks, kurš nepārsniedz $2^{\circ
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Būs divas tādas desmitstūra virsotnes $B_{j}$ un $B_{j+1}$, kas pieder lokam 
 $A_{i}A_{i+1}$, ko veido divas deviņstūra virsotnes (skat. 16.zīm.). 
@@ -1089,7 +1089,7 @@ Vai šo *torni* var salikt no
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē, nav iespējams. Izkrāsojot vienības kubiņus pamīšu melnā un baltā 
 krāsā (tā, ka kubiņi, kam ir kopīga skaldne, nokrāsoti dažādās krāsās), 
@@ -1126,7 +1126,7 @@ dotajām virknēm!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstīsim katrai virknei vispārīgā elementa formulu:
 
@@ -1181,7 +1181,7 @@ Pierādīt, ka $QXOY$ ir taisnstūris.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\sphericalangle CPD=\sphericalangle CAD$, jo tie balstās uz viena loka (skat. 
 18.zīm.). Savukārt $\sphericalangle CAD=\sphericalangle BAC=45^{\circ}$, tāpēc 
@@ -1211,7 +1211,7 @@ rūtiņu malām, taisnstūri var būt novietoti gan horizontāli, gan vertikāli
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $f_{n}$ apzīmēsim cik veidos taisnstūri $3 \times n$ var sadalīt taisnstūros
 $1 \times 3$.
@@ -1248,7 +1248,7 @@ $$\begin{aligned}
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam doto vienādojumu, pareizinot ar saucējam saistīto izteiksmi:
 
@@ -1283,7 +1283,7 @@ ir pirmskaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, nevar.
 
@@ -1315,7 +1315,7 @@ katrā grupā aprēķināta tajā ietilpstošo skaitļu summa. Vai var būt, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** **Atbilde:** var.
 
@@ -1361,7 +1361,7 @@ Atrodi izteiksmes $\sin ^{38} x+\cos ^{38} x$ vislielāko un vismazāko vērtīb
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** Vislielākā vērtība ir $1$ un vismazākā $2^{-18}$.
 
@@ -1422,7 +1422,7 @@ $BM=CO$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No bisektrises īpašībām seko, ka $\frac{AO}{BO}=\frac{AM}{BM}$. No hordu 
 īpašības seko $AO \cdot OC=BO \cdot OD$ jeb $\frac{AO}{BO}=\frac{OD}{OC}$. Tas 
@@ -1430,7 +1430,7 @@ nozīmē, ka $\frac{AM}{BM}=\frac{OD}{OC}$. Tā kā $AM=OD$, tad
 
 $BM=OC$, k.b.j.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apvilksim ap $M$, $B$ un $O$ riņķa līniju, kas krusto $AO$ punktā $N$ (skat. 
 19.zīm.). $\sphericalangle ABD=\sphericalangle ACD$ kā ievilktie leņķi, kas 
@@ -1468,7 +1468,7 @@ trijstūra virsotnēs un nekādi pieci no tiem neatrastos vienā plaknē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā; piemēram, der oktaedra virsotnes.
 
@@ -1486,7 +1486,7 @@ $$x^{y}+y^{x}+x+y<1+\frac{1}{2011}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām skaitļus $N=9000,\ x=\frac{1}{N}$ un $y=\frac{1}{N^{N}}$. Tad
 

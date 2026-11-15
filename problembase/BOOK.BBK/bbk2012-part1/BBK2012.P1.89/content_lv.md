@@ -7,7 +7,7 @@ $2x^2 + 2x + 1 = py$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jāpierāda, ka polinoma $2x^{2}+2x+1$ vērtības, kur $x=1,2,3, \ldots, n, \ldots$, 
 dalās ar bezgalīgi daudziem pirmskaitļiem.

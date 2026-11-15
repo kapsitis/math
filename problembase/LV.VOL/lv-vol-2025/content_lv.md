@@ -11,7 +11,7 @@ kopā ir nepāra skaits konfekšu. Pierādīt, ka katram bērnam ir vismaz viena
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Prasītais būs pierādīts, ja pamatosim, katram bērnam ir nepāra skaits konfekšu.
 Apzīmējam katram bērniem esošo konfekšu skaitu, kā parādīts 1. att. 
@@ -38,7 +38,7 @@ punktā $F$. Pierādīt, ka $BF=FE$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novilksim nogriezni $EG$ tā, lai $G$ ir $CD$ viduspunkts 
 (skat. 2. att.). Tādā gadījumā $CG = GD$ un $AE = EC$ 
@@ -55,7 +55,7 @@ Tātad $BF = FE$ kā vienādo trijstūru atbilstošās malas.
 ![](LV.VOL.2025.9.2A.png)
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izmantosim faktu, ja trijstūra malas dalās attiecībā $a:b$ 
 un augstumi pret šīm malām ir vienādi, tad trijstūru laukumi 
@@ -87,7 +87,7 @@ kuram divi pēdējie cipari ir vienādi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $2 \cdot 77=154$, kas nozīmē, ka pieskaitīt $54$ ir 
 tas pats, kas divas reizes pieskaitīt $77$ (mums interesē 
@@ -143,7 +143,7 @@ atrast abas viltotās monētas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajā svēršanā uzliksim uz katra svaru kausa $3$ monētas. 
 Tad ir iespējami divi gadījumi.
@@ -189,7 +189,7 @@ pretējā gadījumā uzvar Kate. Kura meitene, pareizi spēlējot, noteikti var 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienmēr var uzvarēt Alise. Savā pirmajā gājienā viṇai jānodzēš 
 skaitli 2025. Tālāk visus skaitlus Alisei jāsadala pāros tā, 
@@ -214,7 +214,7 @@ Vai eksistē tādi veseli skaitli $a, b, c, d$, ka $|a-b|+|b-c|+|c-d|+|d-a|=2025
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $|x-y| \equiv x+y \pmod 2$. (Citiem vārdiem, 
 $|x-y|$ un $x+y$ dod vienādus atlikumus, dalot ar $2$ -- vai nu 
@@ -245,7 +245,7 @@ Aprēḳināt $\sphericalangle AMC$ lielumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam virsotnes leṇka bisektrisi (kas ir arī mediānu 
 un augstums) $A F$, tās krustpunktu ar $BE$ apzīmējam ar $D$ 
@@ -293,7 +293,7 @@ kladē ir uzrakstīti vieni un tie paši skaitļi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka, ja $n+1 = ab$, tad skaitli $n$, dalot ar $a$, 
 dalījumā iegūstam $b-1$ un atlikumā $a-1$ (jo $n=(b-1) \cdot a+(a-1)$, 
@@ -328,7 +328,7 @@ Kāds skaitlis var būt rakstīts uz šīs rūtiņas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Parādīsim, ka pāri palikusī rūtiṇa ir stūra rūtiṇa, t.i., uz tās 
 ir rakstīts $1$, $5$, $21$ vai $25$. Tas, ka tā var būt stūra rūtiṇa, 
@@ -353,7 +353,7 @@ trīs figūras, kam tās var piederēt. Tā kā divas stūra rūtiṇas nevar
 atrasties vienā figūrā, tad viena no tām paliks neizgriezta.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Parādīsim, ka pāri palikusī rūtiņa ir stūra rūtiņa, t.i., uz tās 
 ir rakstīts $1,5,21$ vai 25. Tas, ka tā var būt stūra rūtiņa, 
@@ -398,7 +398,7 @@ skaitlis sākas ar vienu vai vairākām nullēm, tad liekās nulles tiek atmesta
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka katram īpašam skaitlim, kuram ir vismaz 
 trīs cipari, pēdējais cipars noteikti ir 0, kā arī nodzēšot 
@@ -462,7 +462,7 @@ uz sviru svariem bez atsvariem atrast abas viltotās monētas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajā svēršanā uzliksim uz katra svaru kausa 3 monētas. Tad ir 
 iespējami divi gadījumi.
@@ -509,7 +509,7 @@ $B,F,G,C$ atrodas uz vienas riṇḳa līnijas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot krustisku hordu īpašību, iegūstam, ka $BE \cdot ED = AE \cdot CE$ 
 (skat. 8. att.). Izsakām nogriežṇus $ED$ un $AE$: 
@@ -545,7 +545,7 @@ $$\frac{c_{1}^{2}-4 a_{1} b_{1}}{a_{1}+b_{1}+c_{1}}+\frac{c_{2}^{2}-4 a_{2} b_{2
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $(a+b)^{2} \geq 4 a b$ jebkuriem skaitļiem 
 $a$ un $b$ (tas ir ekvivalents $(a-b)^{2} \geq 0$ ), 
@@ -577,7 +577,7 @@ Dots $7 \times 7$ rūtiṇu kvadrāts. No šī kvadrāta izgrieza 12 figūras, k
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka pāri palikusī rūtina varēja atrasties tikai un vienīgi 
 sākotnējā kvadrāta centrā, piemēru skat. 9.att.
@@ -621,7 +621,7 @@ skaitļi **(A)** $20$ un $24$; **(A)** $20$ un $25$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Var, piemēram, šādi:
 
@@ -650,7 +650,7 @@ Pierādīt, ka visām naturālām $n$ vērtībām $2^{2n-1} 3^{n-1}+5^{n}$ dalā
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -662,7 +662,7 @@ izteiksme ir naturāls skaitlis visām naturālām $n$ vērtībām, un $7$ un $6
 ir savstarpēji pirmskaitļi, tad arī sākotnējā izteiksme dalās ar $7$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izmantosim matemātiskās indukcijas metodi.
 
@@ -701,7 +701,7 @@ uz četrstūra malas $AD$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle B C D=2 \alpha$ un $\sphericalangle A B C=2 \beta$. No tā, ka četrstūrim $A B C D$ var apvilkt riṇḳa līniju, iegūstam, ka $\sphericalangle B A D=180^{\circ}-2 \alpha$ un $\sphericalangle A D C=180^{\circ}-2 \beta$. Uz malas $A D$ atliek punktu $E$ tā, ka $A B=A E=a$ un $D E=D C=b$. Tad $\triangle A B E$ un $\triangle C D E$ ir vienādsānu trijstūri, kuriem $\sphericalangle A E B=\sphericalangle A B E=\alpha$ un $\sphericalangle C E D=\sphericalangle E C D=\beta$. Ap trijstūri $B C E$ apvelkam riṇk̦a līniju. lespējami divi gadījumi.
 2. Četrstūra mala $A D$ ir šīs riṇka līnijas pieskare un punkts $E$ ir vienīgais punkts uz $A D$, kas kopīgs šim nogrieznim un riṇka līnijai (skat. 11. att.). Tad $\sphericalangle B C E=\sphericalangle A E B=\alpha$ kā ievilktais leṇkis un hordas-pieskares leṇkis, kas abi balstās uz vienu un to pašu loku $B E$. Līdz ar to $\sphericalangle E C D=\sphericalangle B C D-\sphericalangle B C E=2 \alpha-\alpha=\alpha$. Tātad $C E$ ir leṇka $B C D$ bisektrise. Līdzīgi pierāda, ka $B E$ ir leṇḳa $A B C$ bisektrise.
@@ -710,7 +710,7 @@ Apzīmējam $\sphericalangle B C D=2 \alpha$ un $\sphericalangle A B C=2 \beta$.
 ![](LV.VOL.2025.12.2A.png)
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $\sphericalangle B C D=2 \alpha$ un $\sphericalangle A B C=2 \beta$. 
 No tā, ka četrstūrim $A B C D$ var apvilkt riṇḳa līniju, 
@@ -780,7 +780,7 @@ $$\frac{1}{x y-z+2}+\frac{1}{y z-x+2}+\frac{1}{x z-y+2} \geq \frac{27}{16}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot doto vienādību $x+y+z=1$ un veicot ekvivalentus pārveidojumus, iegūstam:
 
@@ -816,7 +816,7 @@ Pirmskaitļi $p$ un $q$ ir tādi, ka $p^{2}+p q+q^{2}$ ir kāda naturāla skaitl
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $p=q$, tad $p^{2}+p q+q^{2}=3 p^{2}$ un tas nav naturāla skaitla kvadrāts.
 Nezaudējot vispārīgumu, varam pieṇemt, ka $p<q$. Tādā gadījumā $p^{2}+p q+q^{2}=k^{2}>1$. Veicot ekvivalentus pārveidojumus, iegūstam:
@@ -865,7 +865,7 @@ tāfeles uzrakstīt polinomu: **(A)** $x^{3}+2$; **(B)** $x^{4}+2$ ?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, neizdosies. levērosim, ka sākotnējiem polinomiem $P(2)=6$ 
 un $Q(2)=3$, tātad polinoma vērtība punktā $x=2$ dalās ar $3$. 

@@ -22,7 +22,7 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, var; piemēram,
 
@@ -54,7 +54,7 @@ $22$-jam, bet $60$-ais vagoniņš - pretī $86$-jam (skat. 1.zīm.). Atrast $n$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $22.$ līdz $60.$ vagoniņam, tos abus ieskaitot, ir $60-22+1=39$ vagoniņi. 
 Atbilstošajā posmā apakšā arī ir $39$ vagoniņi. Tātad no $86.$ līdz $n$-jam 
@@ -82,7 +82,7 @@ atkārtojot šādus gājienus?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $14.$
 
@@ -117,7 +117,7 @@ Kāds lielākais daudzums krāsu var būt izmantots?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $5$ krāsas.
 
@@ -155,7 +155,7 @@ pilsētā $A$ un kura kopgarums ir tieši $863~\mathrm{km}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā. Piemēram, var $20$ reizes veikt ciklisku maršrutu $ABCDEA$ un $1$ 
 reizi - maršrutu $ABCFDEA$.
@@ -186,7 +186,7 @@ tabulā ierakstīto skaitļu summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $17$;
 
@@ -222,7 +222,7 @@ Vai tas iespējams, ja **(A)** $n=2004$, **(B)** $n=2005$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; piemēram, patiesie rūķīši un meļi stāv pamīšus.
 
@@ -257,7 +257,7 @@ Gabali var būt novietoti arī citādi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $4$ vai $8$ trīs rūtiņu gabali un atbilstoši $6$ vai $3$
 četru rūtiņu gabali.
@@ -288,7 +288,7 @@ uzrakstītajiem var izvēlēties tādus divus, kuru reizinājums dalās ar $21$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $n=87$;
 
@@ -333,7 +333,7 @@ Pierādīt, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To, ka kompānija $X$ piemānījusi kompāniju $Y$, attēlosim ar $X \rightarrow Y$.
 
@@ -367,7 +367,7 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $6$ skaitļus.
 
@@ -396,7 +396,7 @@ vienā punktā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katri divi grafiki krustojas. Ja $1.$ un $3.$ grafiks krustojas punktā 
 $(a;\ b)$, tad $b=2003a+4197$ un $b=2005a+4199$. Saskaitot šīs vienādības un 
@@ -427,7 +427,7 @@ veselu malu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ **(A)** jā; **(B)** nē.
 
@@ -465,7 +465,7 @@ dalītāju summu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $12=1+2+3+6$
 
@@ -480,7 +480,7 @@ kas vienādi ar dažu savu dalītāju summu:
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Īpašu skaitļu ir bezgalīgi daudz, jo 
 $n=n/2+n/3+n/7+n/42$. Tātad visi skaitļi 
@@ -520,7 +520,7 @@ no iespējām pastāv īstenībā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzliekam monētas uz kausiem pa $4$. Ja līdzsvara nav, ir divu dažādu masu 
 monētas. Ja līdzsvars ir, otrajā svēršanā uzliekam uz kausiem pa $2$ monētām no
@@ -552,7 +552,7 @@ decimālais pieraksts sākas ar ciparu $1$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka:
 
@@ -589,7 +589,7 @@ daudzums rūtiņu var būt izcilas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $8$ rūtiņas.
 
@@ -630,7 +630,7 @@ Ar kādu mazāko jautājumu skaitu Juris var noteikti noskaidrot $n$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ ar diviem jautājumiem.
 
@@ -645,7 +645,7 @@ $p_{1},\ p_{2},\ p_{3},\ p_{4},\ p_{5}$, ar kuriem nedalās $A$ (un tātad arī
 $n$), un pasaka tos Andrim. Atkarībā no tā, ar kuru no šiem pirmskaitļiem dalās
 Andra otrā atbilde, Juris noskaidros $n$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 * Ar 1 gājienu nepietiek. Pirmajā gājienā Andris var atbildēt ar tādu $x$, 
   kas dalās ar vairākiem $x_i$. 
@@ -673,7 +673,7 @@ tādu punktu $C$, ka $A,\ B$ un $C$ ir vienādsānu trijstūra virsotnes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Punkts $C$ var atrasties vai nu uz $AB$ vidusperpendikula, vai uz 
 $r.l.\ (A;\ AB)$, vai uz $r.l.\ (B;\ AB)$. Atkarībā no šo $3$ līniju un $t$ 
@@ -700,7 +700,7 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $x \in\{0;\ \pm 1;\ \pm 2;\ \pm 3\}$.
 
@@ -734,7 +734,7 @@ $$a^{2}-ab+b^{2} \geq 5a+5b-25$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nevienādību pārveido par $(a-5)^{2}-(a-5)(b-5)+(b-5)^{2} \geq 0$ un ievēro, ka 
 $x^{2}-xy+y^{2}=\left(x-\frac{y}{2}\right)^{2}+\frac{3}{4} y^{2} \geq 0$.
@@ -758,7 +758,7 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šādi pirmskaitļi var būt, piemēram, $23;\ 41;\ 59;\ 67$. To summa ir $190$. Tā 
 nevar būt citāda, jo cipari $2;\ 4;\ 5;\ 6$ nevar būt saskaitāmo pirmskaitļu 
@@ -793,7 +793,7 @@ $A$. Taisne $t$ pieskaras abām riņķa līnijām punktā $A$ un krusto to kopē
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Tā kā $KM=KA$ (pieskares no viena punkta) un $KN=KA$ (tāpat), tad 
 $KM=KN$.
@@ -826,7 +826,7 @@ diviem, iegūst visus naturālos skaitļus no $1$ līdz $15$ ieskaitot?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ nē, neeksistē.
 
@@ -867,7 +867,7 @@ $1;\ 2;\ 3;\ 4$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Apzīmējot pāra ciparu ar $p$, bet nepāra ciparu ar $n$, tieši 
 pārliecināmies, ka virknes sākums ir 
@@ -915,7 +915,7 @@ divi skaitļi; viens no tiem bija $8$. Kāds varēja būt otrs skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sākotnēji uzrakstīto skaitļu summa ir $55$. Izdarot gājienus, atlikums, ko 
 iegūst, uz tāfeles esošo skaitļu summu dalot ar $3$, nemainās. Tātad arī beigu 
@@ -946,7 +946,7 @@ $$f(a+b)=f(c+d+e),\ f(a+b+c)=f(d+e),\ f(e)=f(a+b+c+d)?$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katras malas garums ir mazāks par visu citu malu garumu summu, tad 
 $a \neq b+c+d+e$. Kvadrātvienādojuma grafika simetrijas dēļ 
@@ -971,7 +971,7 @@ $B,\ B$ - pret $C$, bet $C$ - pret $A$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katrs no $n$ dalībniekiem izcīnīja vismaz vienu un ne vairāk kā $n-1$ 
 uzvaru, tad viena dalībnieka uzvaru skaits var pieņemt tikai $n-1$ dažādas 
@@ -997,7 +997,7 @@ $BC \parallel MN$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $ABCD$ diagonāļu krustpunktu ar $O$. Tad no 
 $\triangle AOB \sim \triangle NOB$ un $\triangle COD \sim \triangle AOM$ seko
@@ -1027,7 +1027,7 @@ Kāds mazākais daudzums skaitļu var būt uzrakstīti uz lapas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim uzrakstītos skaitļus ar $1=n_{1}<n_{2}<\ldots<n_{k}=100$. Pie 
 $i=1;\ 2;\ \ldots;\ k-1$ jābūt $n_{i+1} \leq n_{i}$, citādi $n_{i+1}$ nav 
@@ -1054,7 +1054,7 @@ Aprēķināt $\sqrt{2005 \cdot 2003 \cdot 1999 \cdot 1997+36}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $a=2001$. Tad zemsaknes izteiksme ir
 $(a+4)(a+2)(a-2)(a-4)+36=\left(a^{2}-16\right)\left(a^{2}-4\right)+36=a^{4}-20a^{2}+100=\left(a^{2}-10\right)^{2}$,
@@ -1074,7 +1074,7 @@ apgabalu uz skaitļu ass aizpilda visu šo kvadrātvienādojumu visas saknes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ intervālu 
 $\left[-\frac{1+\sqrt{5}}{2}; \frac{1+\sqrt{5}}{2}\right]$.
@@ -1113,7 +1113,7 @@ Naturālu skaitli $n$ sauksim par līdzsvarotu, ja tā visus naturālos dalītā
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Skaitļa $120$ apskatāmie dalītāji ir 
 $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 8;\ 10;\ 12;\ 15;\ 20;\ 24;\ 30;\ 40;\ 60;\ 120$; to 
@@ -1143,7 +1143,7 @@ $\sphericalangle ABC=60^{\circ}$ un $BC=CD$. Pierādīt, ka $AB=BC+DA$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atliekam uz $BA$ tādu punktu $N$, ka $BN=BC$. Tad $\triangle BCN$ - regulārs, 
 tāpēc $\sphericalangle CNA=120^{\circ}$ un $CN=CD$. Tā kā 
@@ -1176,7 +1176,7 @@ neizdodas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pieņemsim, ka tāda pāra nav. Lūgsim katram zēnam uzrakstīt $y$ dažādas 
 kartītes - katru ar savu vārdu un kādu tās meitenes vārdu, kas viņam patīk. 
@@ -1209,7 +1209,7 @@ $$\frac{1}{x+\frac{1}{x^{2}+\frac{1}{x^{3}+\frac{1}{x^{4}}}}}=\frac{1}{1+\frac{1
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim vienādojuma kreiso pusi ar $a$; tad labās puses mazināmais ir 
 $a \cdot x$, bet mazinātājs ir $\frac{a}{x}$. Iegūstam vienādojumu 
@@ -1238,7 +1238,7 @@ $a_{n} \neq 0$. Pierādīt:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pieņemsim no pretējā, ka visiem naturāliem $k$ pastāv nevienādība 
 $a_{k}>0$. Tā kā virkne ir dilstoša, tad $a_{k} \leq 60$; tāpēc 
@@ -1275,7 +1275,7 @@ atradīsies vieninieks.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātisko indukciju. Ja $n=1$, vieninieks jau atrodas vajadzīgajā 
 vietā. Pieņemsim, ka apgalvojums ir pareizs pie $n=1;\ 2;\ \ldots;\ m$, un 
@@ -1314,7 +1314,7 @@ Pierādīt, ka $LK \parallel AB$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pagarinām $NM$ līdz krustpunktam $S$ ar riņķa līniju. Tā kā 
 $\sphericalangle BMS=\sphericalangle BMK$, tad $K$ un $S$ ir simetriski 
@@ -1337,7 +1337,7 @@ skaitlis? (Malas mēra metros, laukumu - kvadrātmetros.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim trijstūra malu garumus ar $a,\ b,\ c;$ apzīmēsim $a+b+c=x$. No Herona
 formulas iegūstam

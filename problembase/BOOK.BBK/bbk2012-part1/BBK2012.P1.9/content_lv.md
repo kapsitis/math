@@ -8,7 +8,7 @@ Kas tas par ciparu?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot dalāmības pazīmes ar $3$ un $9$, noskaidrojam, ka skaitļu 
 reizinājums dalās ar $9$, bet otrais reizinātājs nedalās ar $3$. 

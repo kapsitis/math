@@ -4,7 +4,7 @@ Pirmo $n$ naturālo skaitlu summa ir trīsciparu skaitlis, kuram visi cipari ir 
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzdevuma nosacījumu pierakstīsim šādi:
 

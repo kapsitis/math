@@ -17,7 +17,7 @@ gadīties, ka viens skaitlis ir tieši septiņas reizes lielāks nekā otrs skai
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē. Ja skaitļa pēdējais cipars ir $1, 4, 6$ vai $9$, tad septiņas reizes
 lielāka skaitļa pēdējais cipars ir attiecīgi $7, 8, 2$ vai $3$.
@@ -45,7 +45,7 @@ platleņķa trijstūri, ja tam ir viens plats leņķis un divi šauri leņķi.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 1.zīm.
 
@@ -72,7 +72,7 @@ $2$ baltas, vai $3$ zaļas, vai $4$ sarkanas pogas.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** jāpaņem vismaz $7$ pogas. Ja paņems tikai $6$ pogas, var gadīties, ka starp
 tām ir $1$ balta, $2$ zaļas un $3$ sarkanas- nevienas krāsas pogas nav vajadzīgajā
@@ -100,7 +100,7 @@ mājā. (Lifts nevar uzbraukt augstāk par 24. stāvu un zemāk par 1. stāvu.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** no $17.$ stāva. Ievērosim, ka šajā mājā ar doto liftu ne no viena stāva
 nav iespējams nokļūt uz $17.$ stāvu (zemākais stāvs, uz kuru var nokļūt, braucot uz
@@ -132,7 +132,7 @@ saucam par vienādām figūrām.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem. 2.zīm.
 
@@ -167,7 +167,7 @@ viens un tas pats skaitlis. Kāds tas ir?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc katras darbības visu uz tāfeles uzrakstīto skaitļu summa palielinās par $2$
 (divu nodzēsto skaitļu vietā tiek rakstīta tos summa, palielināta par $2$, bet pārējie
@@ -197,7 +197,7 @@ Sadali kvadrātu divos vienādos **(A)** sešstūros, **(B)** septiņstūros.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 3. a) un b) zīmējumus.
 
@@ -224,7 +224,7 @@ būtu vismaz viena zaļa rūtiņa?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrātā ar izmēriem $8 \times 8$ rūtiņas var izvietot $21$ taisnstūri ar izmēriem
 $1 \times 3$ rūtiņas tā, ka tie nepārklājas. (skat. 4.zīm.). Katrā no šiem taisnstūriem
@@ -258,7 +258,7 @@ pirmskaitļi būtu dažādi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, skat., piem., 6.zīm.
 
@@ -293,7 +293,7 @@ palikt pāri)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $53$.
 
@@ -329,7 +329,7 @@ $ab(3a+5b)=1234567$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Reizinājums $ab(3a+5b)$ ir pāra skaitlis: ja kāds no reizinātājiem $a$ vai
 $b$ ir pāra skaitlis, tad reizinājums ir pāra skaitlis, savukārt, ja $a$ un $b$ abi ir
@@ -359,7 +359,7 @@ ir viens vesels nogrieznis)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No trijstūra nevienādības (katru divu malu summa ir lielāka nekā trešā mala) seko, ka
 $1~\mathrm{cm}$ garais nogrieznis nav izmantojams neviena trijstūra izveidošanai. No
@@ -394,7 +394,7 @@ vienlaicīgi ar to, ja sarkanās automašīnas ātrums bija
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Var. Ar $2s$ apzīmēsim attālumu starp pilsētām, ar $t_{1}$- laiku, kādā zaļā
 automašīna veica ceļa pirmo pusi, ar $t_{2}$- laiku, kādā zaļā automašīna veica ceļa
@@ -431,7 +431,7 @@ atšķirīgi)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā to var izdarīt. No sākuma kubu ar izmēriem $3 \times 3 \times 3$ sagriezīsim $27$
 kubiņos ar izmēriem $1 \times 1 \times 1$. Pēc tam $8$ mazos kubiņus, kas atrodas pie
@@ -462,7 +462,7 @@ iet.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pakāpeniski aprēķināsim, cik veidos zilonis var nokļūt katrā rūtiņā. Ievērosim: ja
 rūtiņās $C, D$ un $E$ var nokļūt attiecīgi $c, d$ un $e$ veidos, tad rūtiņā $X$ var
@@ -497,7 +497,7 @@ būtu **(A)** $13$, **(B)** $14$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Piemēram, $4 \cdot 1 \cdot 5-7=13$
 
@@ -523,7 +523,7 @@ $P$ līdz dotā trijstūra virsotnēm ir lielāka nekā puse no trijstūra perim
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No trijstūra nevienādības seko $PA+PB > AB, PA+PC > AC$ un $PB+PC > BC$ (skat. 9.zīm.).
 Saskaitot šīs nevienādības, iegūstam $2(PA+PB+PC) > AB+AC+BC=P_{ABC}$
@@ -663,7 +663,7 @@ pret šo diagonāli ierakstīti vienādi skaitļi.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlamies jebkuru skaitli $k$ ($k=1,2, \ldots, 7$). Tā kā dotā tabula ir simetriska,
 diagonāles abās pusēs skaitlis $k$ ir ierakstīts vienādā skaitā rūtiņu, tātad ārpus
@@ -694,7 +694,7 @@ Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, skaitlis $2^{11}$. Tā dalītāji ir skaitļi
 $1=2^{0}, 2^{1}, 2^{2}, 2^{3}, 2^{4}, 2^{5}, 2^{6}, 2^{7}, 2^{8}, 2^{9}, 2^{10}, 2^{11}$.
@@ -722,7 +722,7 @@ $\sphericalangle BAC=\sphericalangle BMN$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\triangle ABC$ un $\triangle PBC$ ir taisnleņķa, $AM=BM=CM$ un $PN=BN=CN$
 (skat. 11.zīm.). Tāpēc $\triangle MBN=\triangle MCN$ (pazīme $mmm$ ) un
@@ -756,7 +756,7 @@ pirmskaitļi. Aprēķini $a$ skaitlisko vērtību.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Vjeta teorēmas seko $p^{2}+q=507$ - nepāra skaitlis, tātad viens no pirmskaitļiem $p$
 vai $q$ ir $2$. Ja $q=2$, tad $p^{2}=505$, bet tad $p$ nav vesels skaitlis. Tātad $p=2$
@@ -787,7 +787,7 @@ ar $37$. Vai Pēteris vienmēr var uzvarēt?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 $\overline{aaabbbccc}=111 \cdot \overline{a00b00c}=37 \cdot 3 \cdot \overline{a00b00c}$.
@@ -824,7 +824,7 @@ piecos vienlielos trijstūros.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja trapeces augstums ir $h$, tad tās laukumus ir $S=\frac{(3+13)}{2} \cdot h=8h$.
 Sadalot trapeci piecos trijstūros, vismaz vienam no tiem mala atrodas uz trapeces īsākā
@@ -849,7 +849,7 @@ Pierādi: ja $p$ un $14p^{2}+1$ ir pirmskaitļi, tad $14p^{2}-1$ ir naturāla sk
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $p \neq 3$, tad $p^{2}$, dalot ar $3$, dod atlikumu $1$, tāpēc $14p^{2}+1$ dalās ar
 $3$, un nav pirmskaitlis. Ja $p=3$, tad $14p^{2}-1=125=5^{3}$.
@@ -857,7 +857,7 @@ $3$, un nav pirmskaitlis. Ja $p=3$, tad $14p^{2}-1=125=5^{3}$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 * Ja $p$ nedalās ar $3$, tad $p^2$ atlikums, dalot ar $3$, ir $1$. 
 * Tad $14p^2$ dod atlikumu $2$, dalot ar $3$, jo skaitli ar atlikumu $2$ 
@@ -880,7 +880,7 @@ Dots izliekts četrstūris $ABCD$, leņķi $DAB$ un $BCD$ ir plati. Pierādi, ka
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novilksim riņķi, kura diametrs ir $BD$. Tā kā leņķi $DAB$ un $BCD$ ir plati, tad punkti
 $A$ un $C$ atrodas riņķa iekšpusē. Tātad $AC < BD$, jo jebkurš nogrieznis riņķa
@@ -902,7 +902,7 @@ $x_{2}$ (t.i., $x_{1} \leq x_{3} \leq x_{2}$ vai $x_{2} \leq x_{3} \leq x_{1}$).
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim kvadrātfunkcijas $\frac{1}{3}x^{2}+px+q$ vērtības punktos $x_{1}$ un $x_{2}$.
 
@@ -931,7 +931,7 @@ $2^{\circ}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Būs divas tādas desmitstūra virsotnes $B_{j}$ un $B_{j+1}$, kas pieder lokam
 $A_{i} A_{i+1}$, ko veido divas deviņstūra virsotnes (skat. 12.zīm.). Deviņstūra
@@ -961,7 +961,7 @@ kopīgs tikai galapunkts, tie nekrustojas.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visus zaļos punktus sanumurējam no kreisās uz labo pusi ar skaitļiem no $1$ līdz $10$
 (skat. 17.zīm.). Līdzīgi sanumurējam visus sarkanos punktus. Tā kā nogriežņi
@@ -986,7 +986,7 @@ Pierādi, ka nav tāda naturāla skaitļa $n$, ka skaitlis $n^{2}-3n-1$ dalās a
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n^{2}-3n-1$ dalās ar $169$, tad $n^{2}-3n-1=(n-8)(n+5)+39$ dalās ar $13$. Tātad
 $(n-8)(n+5)$ dalās ar $13$. Tā kā skaitļi $n-8$ un $n+5$ abi vienlaicīgi dalās ar $13$,
@@ -1007,7 +1007,7 @@ paralēls $B_{1}C$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sākumā apskatām gadījumu, kad taisnes ir paralēlas (skat. 18.zīm.). Ievērojam, ka
 $\triangle AB_{1}C_{1}$ ir vienāds ar $\triangle A_{1}BC$, pie tam viens ir iegūts ar
@@ -1050,7 +1050,7 @@ $$\begin{aligned}
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam doto vienādojumu, pareizinot ar saucējam saistīto izteiksmi:
 
@@ -1083,7 +1083,7 @@ Pierādi, ka izliektu $2012$-stūri nevar sadalīt $200$ izliektos $12$-stūros.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izliekta $2012$-stūra iekšējo leņķu summa ir $2010 \cdot 2 \pi$. Tos ir jānoklāj ar
 $200$ $12$-stūru leņķiem, kuru kopējais lielums ir
@@ -1111,7 +1111,7 @@ kuram visas virsotnes ir atzīmētie punkti?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tas, ka $10$ punktus var nokrāsot redzams piem. 19.zīmējumā. Atliek pamatot, ka, ja
 nokrāsosim $11$ punktus, tad noteikti atradīsies *labs* taisnstūris ar visām nokrāsotām
@@ -1150,7 +1150,7 @@ no $1$ līdz $7$. Pierādi, ka $A$ nedalās ar $B$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim vienu no dotajiem septiņciparu skaitļiem ar $A$, bet otru- ar $B$. Tā kā abu
 skaitļu decimālais pieraksts sastāv no vieniem un tiem pašiem cipariem, to ciparu
@@ -1180,7 +1180,7 @@ ka $NQ$ iet caur trijstūriem $AMQ$ un $APN$ apvilkto riņķa līniju krustpunkt
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\triangle AMQ$ un $\triangle APN$ apvilkto riņķa līniju krustošanās punktu
 ar $X$ (skat. 20.zīm.). Lai pierādītu, ka $X$ atrodas uz nogriežņa $QN$, pietiek
@@ -1210,7 +1210,7 @@ Atrisini vienādojumu $\lg x \cdot \lg (4-x)=\frac{1}{4}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x < 1$ vai $x > 3$, tad izteiksmes $\lg x \cdot \lg (4-x)$ vērtība ir vai nu
 negatīva vai vispār neeksistē, ja $1 \leq x \leq 3$, tad arī $1 \leq 4-x \leq 3$ un
@@ -1232,7 +1232,7 @@ plaknē?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā; der, piemēram, oktaedra virsotnes.
 
@@ -1255,7 +1255,7 @@ otrs nē?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** pietiek ar $5$ dienām. Piemēram, $\underline{1. dienā}$ pie tāfeles tika
 izsaukti $1., 2., 3., 4., 5., 6., 7.$ un $8.$ skolēni, $\underline{2. dienā}$- 

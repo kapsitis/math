@@ -11,7 +11,7 @@ Pamatojiet savu atbildi:
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)**  Nē, jo skaitlis dalās ar $5$.
 **(B)**  Nē, jo skaitlis dalās ar $13$.

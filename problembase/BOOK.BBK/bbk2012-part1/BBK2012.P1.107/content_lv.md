@@ -5,7 +5,7 @@ Kāda ir mazākā iespējamā šo skaitļu MKD vērtība?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 *Atbilde:* $98$.
 

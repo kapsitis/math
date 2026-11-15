@@ -6,7 +6,7 @@ $$\frac{\ast}{\ast + \ast} + \frac{\ast}{\ast + \ast}$$
 
 ieraksti zvaigznīšu vietā skaitļus **(A)** $0, 1, 2, 3, 4, 2026$; **(B)** $10, 11, 20, 74, 100, 2026$ (katras zvaigznītes vietā citu skaitli) tā, lai izteiksmes vērtība būtu vesels skaitlis!
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $\frac{2}{0+4}+\frac{2026}{1+3}=\frac{2028}{4}=507$ (iespējami arī citi varianti).
 
@@ -16,7 +16,7 @@ ieraksti zvaigznīšu vietā skaitļus **(A)** $0, 1, 2, 3, 4, 2026$; **(B)** $1
 
 Vai taisnstūrveida torti, kuras pamatnes platums ir $n$ cm un garums ir $55$ cm, var sagriezt $n$ gabalos, kuru izmērs ir $5 \times 11$ cm (tie var būt novietoti gan horizontāli, gan vertikāli), ja **(A)** $n=38$; **(B)** $n=39$?
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, ir iespējams, piemēram, kā parādīts 1. att.
 
@@ -31,7 +31,7 @@ Cik dažādos veidos $3 \times 3$ rūtiņu tabulā var ierakstīt skaitļus no $
 
 Piezīme. Par kaimiņiem sauc rūtiņas, kurām ir kopīga mala. Izkārtojumi, kurus var iegūt citu no cita ar simetrijām vai pagriezieniem, tiek uzskatīti par dažādiem.
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka stūros nevar būt skaitļi $1, 2, 3, 4$. Stūra rūtiņai ir divi kaimiņi, tāpēc, ja tajā būtu $5$, tad abiem kaimiņiem būtu jābūt ne lielākiem kā $1$, kas nav iespējams. Tātad stūros var būt tikai skaitļi $6, 7, 8, 9$. Līdz ar to pārējās rūtiņās ir skaitļi $1, 2, 3, 4, 5$. Centrā jābūt $5$, jo tas nevar reizē būt kaimiņš diviem stūriem. Sānu vidējās rūtiņas satur $1, 2, 3, 4$. Ja sānu rūtiņa atrodas starp stūriem ar skaitļiem $x < y$, tad tajā var būt ne vairāk kā $x - 4$. No tā izriet, ka skaitlis $4$ var atrasties tikai starp $8$ un $9$, tātad $8$ un $9$ jābūt blakus stūros. Tad skaitlis $3$ atrodas starp $7$ un vienu no $8, 9$, bet divas rūtiņas, kas robežojas ar $6$, satur $1$ un $2$ jebkurā secībā. Izvēlamies vietu skaitlim $8$ ($4$ veidi), tad blakus esošu vietu skaitlim $9$ ($2$ veidi), atlikušajos stūros izvietojam $6$ un $7$ ($2$ veidi), un visbeidzot varam samainīt vietām $1$ un $2$ ($2$ veidi), kopā $4 \cdot 2 \cdot 2 \cdot 2 = 32$.
 
@@ -47,7 +47,7 @@ Dotas $79$ pēc ārējā izskata vienādas monētas, no tām $7$ ir viltotas, be
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajā svēršanā uzliksim uz katra svaru kausa $39$ monētas (vienu atstāsim malā). Izvēlēsimies smagāko kausu (ja svari ir līdzsvarā, tad jebkuru), tajā ir ne vairāk kā $3$ viltotās monētas. Ja tajā būtu vismaz $4$ viltotās monētas, tad vieglākajā kausā būtu ne vairāk kā $3$ viltotās monētas, bet tad tas vairs nebūtu vieglākais kauss.
 
@@ -65,7 +65,7 @@ Spēles vienā gājienā drīkst vai nu pieskaitīt skaitlim vienu no tā cipari
 
 **(B)** Vai, izpildot vairākus gājienus, no skaitļa $1000$ var iegūt skaitli $3001$?
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var. Piemēram,
 
@@ -105,7 +105,7 @@ Katru skaitli drīkst izmantot tieši vienu reizi vai arī neizmantot vispār.
 
 Piezīme. Daļa $\frac{a}{b}$ ir nesaīsināma, ja skaitļu $a$ un $b$ lielākais kopīgais dalītājs ir $1$.
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, piemēram, izvēloties $a=2$, $c=3$, $e=6$ un $b=9$, $d=4$, $f=1$, iegūsim, ka
 
@@ -123,7 +123,7 @@ Vai iespējams 2. att. redzamo figūru noklāt ar desmit **(A)** 3. att.; **(B)*
 ![](LV.VOL.2026.6.2.png)
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, prasītais nav iespējams. Lai noklātu visu 2. att. redzamo figūru, nepieciešamas 10 mazās figūras. Iekrāsosim deviņas rūtiņas, kā redzams 5. att. Ievērosim, ka katra 3. att. redzamā figūra vienmēr noklāj vismaz vienu melno rūtiņu. Tā kā melnas rūtiņas ir tikai deviņas, desmit šādas figūras ievietot nevar.
 
@@ -138,7 +138,7 @@ Vai iespējams 2. att. redzamo figūru noklāt ar desmit **(A)** 3. att.; **(B)*
 
 Kvadrāts sastāv no $4 \times 4$ vienādām kvadrātiskām rūtiņām. Rūtiņās ierakstīti naturāli skaitļi no $1$ līdz $16$ (katrā rūtiņā cits skaitlis). Rūtiņu sauc par *izcilu*, ja tajā ierakstītais skaitlis ir mazāks par ne vairāk kā vienā kaimiņu rūtiņā ierakstītu skaitli (divas rūtiņas sauc par kaimiņu rūtiņām, ja tām ir kopīga mala vai kopīgs stūris). Kāds lielākais skaits rūtiņu var būt *izcilas*?
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā $2 \times 2$ rūtiņu kvadrātā ne vairāk kā divas rūtiņas var būt izcilas: ja tādu būtu trīs, tad rūtiņa, kurā ierakstīts mazākais skaitlis no šiem trim, nevarētu būt izcila – pretruna. Tātad izcilu rūtiņu nav vairāk kā $4 \cdot 2 = 8$. Piemērs ar $8$ izcilām rūtiņām, kas iekrāsotas zilā krāsā:
 
@@ -151,7 +151,7 @@ Kāds ir lielākais septiņciparu palindroms, kas dalās ar $18$?
 
 Piezīme. Palindroms ir naturāls skaitlis, kuru, lasot no otra gala (no labās puses uz kreiso), iegūst to pašu skaitli. Piemēram, palindromi ir $77, 151, 8338$ u.c.
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais septiņciparu palindroms ir $8992998$. Lai septiņciparu skaitlis būtu palindroms, tam ir jābūt formā $abcdcba$. Skaitlis dalās ar $18$ tad un tikai tad, ja tas dalās ar $2$ un $9$. Savukārt ar $2$ skaitlis dalās tad un tikai tad, ja tā pēdējais cipars ir pāra. Tā kā pirmais un pēdējais cipars sakrīt, tad $a$ ir pāra cipars. Lai skaitlis būtu pēc iespējas lielāks, jāizvēlas lielākais iespējamais pāra cipars, kas ir $a=8$. Tātad skaitlis ir formā $8bcdcb8$. Lai tas būtu maksimāls, izvēlamies $b=9$ un $c=9$, iegūstot $899d998$. Skaitlis dalās ar $9$ tad un tikai tad, ja tā ciparu summa dalās ar $9$. Šajā gadījumā $8+9+9+d+9+9+8=52+d$. Jāpanāk, lai $52+d$ dalītos ar $9$. Tā kā $52$ dod atlikumu $7$, dalot ar $9$, tad $d$ jādod atlikums $2$, dalot ar $9$. Tas nozīmē, ka $d=2$ un mēs iegūstam skaitli $8992998$. Ievērojam, ka, izvēloties katru no cipariem, esam izvēlējušies lielāko iespējamo vērtību katram ciparam, līdz ar to esam atraduši lielāko skaitli, kam izpildās dotās īpašības. Pārbaudām: $8+9+9+2+9+9+8=54$, un $54$ dalās ar $9$, turklāt pēdējais cipars ir pāra, tātad skaitlis dalās ar $18$. Tātad lielākais septiņciparu palindroms, kas dalās ar $18$, ir $8992998$.
 
@@ -159,7 +159,7 @@ Lielākais septiņciparu palindroms ir $8992998$. Lai septiņciparu skaitlis bū
 
 Olimpiādes komisija piedalījās cepumu cepšanas konkursā. Katrs komisijas loceklis izcepa dažus cepumus. No visiem izceptajiem cepumiem $\frac{1}{4}$ izrādījās konkursam nederīgi. Visvairāk derīgo cepumu bija tieši diviem komisijas locekļiem, katram no viņiem derīgo cepumu skaits bija tieši $\frac{1}{8}$ no visu sākotnējo (gan derīgo, gan nederīgo) cepumu kopskaita. Vismazāk derīgo cepumu bija tieši pieciem komisijas locekļiem, katram no viņiem derīgo cepumu skaits bija tieši $\frac{1}{12}$ no visu derīgo cepumu kopskaita. Cik cilvēku ir olimpiādes komisijā?
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms noskaidrojam, ka $1-\frac{1}{4}=\frac{3}{4}$ no visiem cepumiem ir derīgi. Zināms, ka tie divi komisijas locekļi, kas izcepa visvairāk derīgos cepumus, izcepa $2 \cdot \frac{1}{8}=\frac{1}{4}$ no visiem cepumiem. Tie komisijas locekļi, kas izcepa vismazāk derīgo cepumu, kopā izcepa $5 \cdot \frac{1}{12}=\frac{5}{12}$ no derīgajiem cepumiem jeb $\frac{5}{12}$ no $\frac{3}{4}=\frac{5}{12} \cdot \frac{3}{4}=\frac{5}{16}$ no visiem cepumiem. Tas nozīmē, ka pārējie komisijas locekļi izcepa $\frac{3}{4}-\frac{1}{4}-\frac{5}{16}=\frac{3}{16}$ no visiem cepumiem, turklāt zināms, ka katrs no viņiem noteikti izcepa mazāk nekā $\frac{1}{8}$ un vairāk nekā $\frac{1}{16}$ no visiem cepumiem, jo zināms, ka atlikušie komisijas locekļi neizcepa ne visvairāk, ne vismazāk derīgo cepumu. Tā kā katrs atlikušais komisijas loceklis nevarēja izcept vairāk kā $\frac{1}{8}=\frac{2}{16}<\frac{3}{16}$, tad noteikti ir vēl vismaz divi komisijas locekļi. Nevar būt, ka ir trīs vai vairāk atlikušo komisijas locekļu, jo tad viņi kopā noteikti izceptu vairāk nekā $3 \cdot \frac{1}{16}=\frac{3}{16}$ no visiem cepumiem. Divi cilvēki var panākt prasīto, piemēram, katrs izcepot $\frac{3}{32}$ no visiem cepumiem. Tātad kopā ir $2+5+2=9$ komisijas locekļi.
 
@@ -168,7 +168,7 @@ Vispirms noskaidrojam, ka $1-\frac{1}{4}=\frac{3}{4}$ no visiem cepumiem ir der�
 
 Saskaitot divus naturālus skaitļus, Kristīne nejauši pierakstīja $0$ viena skaitļa beigās. Rezultātā viņa ieguva summu $999999$, lai gan pareizajai summai bija jābūt $333333$. Kādi bija sākotnējie skaitļi, kurus Kristīne gribēja saskaitīt?
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam skaitļus, kurus gribēja saskaitīt, kā $x$ un $y$. Iegūstam, ka $x+y=333333$. Pieņemsim, ka $y$ bija tas skaitlis, kam beigās pielika $0$. Ja skaitlim beigās pieraksta $0$, tad to reizina ar $10$. Tātad tika saskaitīti $x$ un $10y$, no kā iegūstam, ka $x+10y=999999$. Ievērojam, ka $x+10y=x+y+9y=333333+9y=999999$. Tad $9y=666666$, kur, izdalot abas puses ar $9$, iegūsim $y=74074$. Ievietojot iegūto $y$ vērtību pirmajā vienādojumā, iegūsim, ka $x=259259$.
 
@@ -176,7 +176,7 @@ Apzīmējam skaitļus, kurus gribēja saskaitīt, kā $x$ un $y$. Iegūstam, ka 
 
 Trijstūra malu garumi ir $a, b, c$ ($a>b>c$); viens no trijstūra leņķiem ir $60^\circ$ liels. Pierādīt, ka eksistē trijstūris, kura malu garumi ir $a, b, a-c$ un viens no leņķiem arī ir $60^\circ$ liels.
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $60^\circ$ leņķis atrodas pret malu $b$ (ja tas būtu pret $a$ vai $c$, tad trijstūra leņķu summa attiecīgi sanāktu mazāka vai lielāka nekā $180^\circ$). Tālāk skat. 7. att., kur $ABC$ - dotais trijstūris, bet $BCM$ - vienādmalu trijstūris. Redzam, ka $MC=a$, $MA=a-c$, $AC=b$, $\angle M=60^\circ$; tātad trijstūris $ACM$ ir meklētais.
 
@@ -187,7 +187,7 @@ Ievērosim, ka $60^\circ$ leņķis atrodas pret malu $b$ (ja tas būtu pret $a$ 
 
 Kādā ciemā dzīvo $n>3$ pļāpas; katrai mājās ir telefons. Šodien katra pļāpa piezvanīja vismaz vienai citai. Starp katrām divām pļāpām notika tieši viena saruna. Pierādīt, ka var atrast trīs tādas pļāpas $A$, $B$ un $C$, ka $A$ piezvanīja $B$, $B$ piezvanīja $C$ un $C$ piezvanīja $A$.
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katra pļāpa zvanījusi vismaz $1$ reizi un ne vairāk kā $(n-1)$ reizi, tātad dažādu iespējamu zvanīšanu daudzumu ir $n-1$. Pļāpu ir $n$; ievērojam, ka $n>n-1$. Tāpēc ir $2$ pļāpas (apzīmēsim tās ar $A$ un $B$), kas zvanījušas vienādu daudzumu reižu. Viena no tām zvanījusi otrai; pieņemsim, ka pļāpa $A$ zvanījusi pļāpai $B$. Tad pļāpa $B$ nav zvanījusi pļāpai $A$. Lai pļāpas $A$ un $B$ būtu veikušas vienādu skaitu zvanu, ir jābūt tādai pļāpai - apzīmēsim to ar $C$ - kam $B$ ir zvanījusi, bet $A$ nav zvanījusi (citādi $A$ veikto zvanu būtu vismaz par $1$ vairāk nekā $B$ veikto zvanu). Ja $A$ nav zvanījusi $C$, tad $C$ ir zvanījusi $A$. Vajadzīgās $3$ pļāpas ir atrastas.
 
@@ -195,7 +195,7 @@ Katra pļāpa zvanījusi vismaz $1$ reizi un ne vairāk kā $(n-1)$ reizi, tāta
 
 Artim, Brencim un Centim katram mamma iedeva $n$ eiro. Par savu naudu Artis nopirka vienu cirkuli, Brencis nopirka divas pildspalvas, bet Centis nopirka piecus zīmuļus. Saskaitot atlikušo naudu, izrādījās, ka visiem zēniem kopā ir tieši $n$ eiro. Pierādīt, ka kāds no zēniem var nopirkt sev vēl vienu tādu pašu rakstāmpiederumu (Artis - cirkuli, Brencis - pildspalvu vai Centis - zīmuli), izmantojot tikai savu naudas atlikumu.
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo - neviens no zēniem nevar vairs nopirkt sev tādu pašu rakstāmpiederumu. Tad varam secināt, ka:
 
@@ -212,7 +212,7 @@ Tātad visiem kopā viņiem ir atlicis mazāk nekā $\frac{n}{2}+\frac{n}{3}+\fr
 
 Andris ir iedomājies patvaļīgu naturālu skaitli $n$. Juris savā gājienā pasaka Andrim piecus dažādus naturālus skaitļus $a, b, c, d, e$, un Andris pasaka Jurim vienu no skaitļiem $na, nb, nc, nd, ne$ (bet nepaskaidro, kura reizinājuma vērtību viņš saka). Vai Juris vienmēr var noskaidrot $n$ vērtību **(A)** vienā gājienā; **(B)** divos gājienos?
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ar vienu gājienu nepietiek: ja Andris pateiks Jurim skaitli $abcde$, Juris nezinās, vai Andris kā skaitli $n$ ir iedomājies $abcd, abce, acde$ vai $bcde$.
 
@@ -223,7 +223,7 @@ Andris ir iedomājies patvaļīgu naturālu skaitli $n$. Juris savā gājienā p
 
 Saskaitot divus naturālus skaitļus, Kristīne nejauši pierakstīja $0$ viena skaitļa beigās. Rezultātā viņa ieguva summu $10000$, lai gan pareizajai summai bija jābūt $2026$. Kādi bija sākotnējie skaitļi, kurus Kristīne gribēja saskaitīt?
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam skaitļus, kurus gribēja saskaitīt, kā $x$ un $y$. Iegūstam, ka $x+y=2026$. Pieņemsim, ka $y$ bija tas skaitlis, kam beigās pielika $0$. Ja skaitlim beigās pieraksta $0$, tad to reizina ar $10$. Tātad tika saskaitīti $x$ un $10y$, no kā iegūstam, ka $x+10y=10000$. Ievērojam, ka $x+10y=x+y+9y=2026+9y=10000$. Tad iegūst, ka $9y=10000-2026=7974$, kur, izdalot abas puses ar $9$, iegūsim $y=886$. Ievietojot iegūto $y$ vērtību pirmajā vienādojumā, iegūsim, ka $x=1140$.
 
@@ -231,7 +231,7 @@ Apzīmējam skaitļus, kurus gribēja saskaitīt, kā $x$ un $y$. Iegūstam, ka 
 
 Šaurleņķu trijstūrī $ABC$ novilkti augstumi $CH$ un $AA_1$, turklāt $AH=BC$. Caur $H$ novilkta taisne paralēli malai $BC$, tā krusto augstumu $AA_1$ punktā $K$. Pierādīt, ka $K$ atrodas uz leņķa $ABC$ bisektrises.
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $AK \perp HK$, jo $AA_1 \perp BC$ un $HK \parallel BC$. Tas nozīmē, ka $\angle KAH=90^\circ-\angle ABC=\angle HCB$. Tāpēc $\triangle KAH=\triangle HCB$ pēc pazīmes $hl$, no kā izriet, ka $HK=BH$. Tātad $\triangle KHB$ - vienādsānu un $\angle HBK=\angle HKB$. Bet $\angle HKB=\angle KBC$, jo $HK \parallel BC$, tātad $\angle HBK=\angle KBC$, kas bija jāpierāda.
 
@@ -242,7 +242,7 @@ Ievērosim, ka $AK \perp HK$, jo $AA_1 \perp BC$ un $HK \parallel BC$. Tas nozī
 
 Dārzā aug $4$ bumbieres un dažas ābeles. Zināms, ka no katras ābeles tieši $10$ metru attālumā aug tieši divas bumbieres. Kāds lielākais skaits ābeļu var augt šādā dārzā?
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: Lielākais skaits ābeļu, kas var augt dārzā, ir $12$.
 
@@ -257,7 +257,7 @@ Atliek pamatot, ka vairāk nekā $12$ ābeles šādi augt nevar. Katram bumbieru
 
 Dots $45$-ciparu skaitlis, tā pieraksts sastāv no viena vieninieka, diviem divniekiem, trīs trijniekiem, $\ldots$, deviņiem devītniekiem. Pierādīt, ka tas nevar būt vesela skaitļa kvadrāts!
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim šāda skaitļa ciparu summu. Tā kā skaitļa sastāvā katrs no minētajiem $9$ cipariem ir tikpat reižu, cik tas pats ir, ciparu summa skaitlim ir
 
@@ -273,7 +273,7 @@ Sienāzis lec pa skaitļu taisni $2$ vai $3$ vienības pa labi. Tas nedrīkst no
 
 Piezīme. Pirmskaitlis ir naturāls skaitlis, kas ir lielāks par $1$ un kam ir tieši divi dažādi dalītāji – pats skaitlis un $1$.
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $f(n)$ veidu skaitu, kā nokļūt līdz skaitlim $n$. Tad katram atļautajam skaitlim $f(n)=f(n-2)+f(n-3)$, jo pēdējais lēciens var būt $2$ vai $3$ vienības garš. Ja $n$ ir pirmskaitlis, tad $f(n)=0$. Pirmskaitļi, kas nepārsniedz $36$, ir $2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31$. Tālāk aprēķinām:
 
@@ -296,7 +296,7 @@ Tātad sienāzis no $1$ līdz $36$ var nokļūt $48$ veidos.
 
 Doti četri naturāli skaitļi $a<b<c<d$. Zināms, ka skaitļu $a, b, c$ vidējais aritmētiskais ir divas reizes mazāks par skaitļu $a, b, c, d$ vidējo aritmētisko. Kāda ir mazākā iespējamā $d$ vērtība?
 
-## Atrisinājums.
+## Atrisinājums-1
 
 No uzdevuma nosacījumiem izriet, ka
 
@@ -335,7 +335,7 @@ kas nozīmē, ka mazākā iespējamā $d$ vērtība ir $10$. To var sasniegt, ja
 
 Ilmārs un Kims spēlē spēli, pamīšus izdarot gājienus, Ilmārs sāk pirmais. Sākumā uz tāfeles ir uzrakstīts skaitlis $2$. Savā gājienā spēlētājs nodzēš uz tāfeles uzrakstīto skaitli $x$ un tā vietā uzraksta kādu naturālu skaitli $y$, kuram $x<y<2x$. Uzvar tas spēlētājs, kas uzraksta uz tāfeles skaitli **(A)** $31$; **(B)** $2026$. Kuram spēlētājam ir uzvaroša stratēģija?
 
-## Atrisinājums.
+## Atrisinājums-1
 
 **(B)** Ievērosim, ka, ja spēlētājs savā gājienā uzraksta skaitli $k$, tad savā nākamajā gājienā viņš noteikti var uzrakstīt vai nu skaitli $2k$, vai arī $2k+1$.
 
@@ -359,7 +359,7 @@ Tātad uzvarēs pirmais spēlētājs (Ilmārs), jo savā pirmajā gājienā viņ
 
 Vai eksistē tāds naturāls skaitlis $n$, ka tam var atrast trīs dažādus tā dalītājus $a, b, c$, kuri ir lielāki par $1$ un kuriem izpildās, ka skaitlis $(a-1)(b-1)(c-1)$ dalās ar: **(A)** $n$; **(B)** $n^2$?
 
-## Atrisinājums.
+## Atrisinājums-1
 
 **(A)** Jā, eksistē.
 
@@ -379,7 +379,7 @@ līdz ar to dalāmība nevar izpildīties. Secinām, ka mūsu pieņēmums ir apl
 
 Skolotājs uz tāfeles uzrakstīja kvadrātvienādojumu $x^2+10x+20=0$. Pēc tam katrs skolēns pēc kārtas palielināja vai samazināja par $1$ vai nu koeficientu pie $x$, vai brīvo locekli (bez $x$). Galarezultātā uz tāfeles palika uzrakstīts kvadrātvienādojums $x^2+20x+10=0$. Vai noteikti var apgalvot, ka kādā brīdī uz tāfeles bija uzrakstīts kvadrātvienādojums ar veselām saknēm?
 
-## Atrisinājums.
+## Atrisinājums-1
 
 Jā, kvadrātvienādojums ar veselām saknēm vienmēr atradīsies.
 
@@ -396,7 +396,7 @@ Tā kā sākumā $d=-10$ un beigās $d=10$, tad kaut kādā brīdī $d$ vērtīb
 
 Uz vienādsānu trijstūra $ABC$ sānu malām $AB$ un $AC$ atlikti attiecīgi punkti $K$ un $L$ tā, ka $AK=CL$ un $\angle ALK+\angle BKL=60^\circ$. Pierādīt, ka $KL=BC$.
 
-## Atrisinājums.
+## Atrisinājums-1
 
 Tā kā $AK=LC$ un trijstūris $ABC$ ir vienādsānu, tad arī $AL=KB$. Konstruē taisni $t_1 \parallel AC$, kas iet caur punktu $B$, un taisni $t_2 \parallel BC$, kas iet caur punktu $L$ (skat. 1. att.). Apzīmējam taisņu $t_1$ un $t_2$ krustpunktu ar $M$. Tādā gadījumā četrstūris $CLMB$ ir paralelograms, jo tā malas ir pa pāriem paralēlas. Paralelograma pretējās malas ir pa pāriem vienādas, tātad $LC=BM$ un $LM=CB$. Tā kā $AC \parallel MB$, tad $\angle CAB=\angle ABM$ kā iekšējie šķērsleņķi pie $AC \parallel MB$, ko krusto $AB$, kas nozīmē, ka $\triangle AKL=\triangle BMK$ ($mlm$). Tad (kā vienādu trijstūru atbilstošie elementi) $\angle ALK=\angle MKB=\alpha$ un $KL=MK$. Aplūkojot trijstūri $LKM$, tas ir vienādsānu ($KL=MK$) ar $\angle LKM=60^\circ$, no kā var secināt, ka $\triangle LKM$ ir vienādmalu un $LK=KM=ML$. Kā pierādīts iepriekš, $ML=CB$, tātad arī $KL=CB$, kas arī bija jāpierāda.
 
@@ -408,7 +408,7 @@ Tā kā $AK=LC$ un trijstūris $ABC$ ir vienādsānu, tad arī $AL=KB$. Konstru�
 
 Vai eksistē kvadrāttrinoms $ax^2+bx+c$, kur $a, b, c$ ir veseli nepāra skaitļi un $\frac{1}{2026}$ ir viena no tā saknēm?
 
-## Atrisinājums.
+## Atrisinājums-1
 
 Nē, jo, ievietojot $\frac{1}{2026}$ vienādojumā, iegūst
 
@@ -431,7 +431,7 @@ Ar $d(a)$ apzīmēsim naturāla skaitļa $a$ dalītāju skaitu no $1$ līdz $a$ 
 
 Pierādi, ka skaitlis ir stilīgs tad un tikai tad, ja tas izsakāms formā $p^{2m}$, kur $m$ ir naturāls skaitlis un $p$ ir pirmskaitlis!
 
-## Atrisinājums.
+## Atrisinājums-1
 
 Vispirms pierādīsim, ka $d(n)$ ir nepāra tikai naturālu skaitļu kvadrātiem. Aplūkosim naturālu skaitli $n$. Ievērosim, ka, ja skaitlis $l$ ir skaitļa $n$ dalītājs, tad skaitlis $\frac{n}{l}$ arī ir dalītājs. Tas nozīmē, ka visus skaitļa $n$ dalītājus var sadalīt pāros $\left(l,\frac{n}{l}\right)$, līdz ar to skaitļa $n$ dalītāju skaits (tas ir, skaitlis $d(n)$) ir pāra skaitlis, izņemot gadījumu $n=k^2$, jo tādā gadījumā $k$ un $\frac{k^2}{k}$ sakrīt. Secinām, ka $d(n)$ ir pāra skaitlis visiem skaitļiem, izņemot, ja $n$ ir naturāla skaitļa kvadrāts (jeb pāra pakāpe), kas arī bija jāpierāda.
 
@@ -447,7 +447,7 @@ Perpendikuls, kas vilkts no punkta $B$ pret $AO$, krusto malu $AC$ punktā $M$.
 Perpendikuls, kas vilkts no punkta $C$ pret $AO$, krusto taisni $AB$ punktā $N$. 
 Pierādīt, ka $BC^2=BM\cdot CN$.
 
-## Atrisinājums.
+## Atrisinājums-1
 
 ![2. att.](LV.VOL.2026.10.3A.png)
 
@@ -471,7 +471,7 @@ $$\left.\begin{array}{ccc}
 
 Uz $6 \times 6$ šaha galdiņa katra lauciņa sākumā atrodas pa tornim. Katrā gājienā drīkst noņemt no galdiņa jebkuru vienu torni, kas apdraud nepāra skaitu citu torņu (torņi apdraud viens otru, ja tie atrodas vienā rindā vai vienā kolonnā un starp tiem nav citu torņu). Kāds ir lielākais torņu skaits, ko var noņemt?
 
-## Atrisinājums.
+## Atrisinājums-1
 
 Atbilde ir $31$.
 
@@ -504,7 +504,7 @@ $$
 \sqrt{xy+1}+\sqrt{yz+1}+\sqrt{zx+1}>x+y+z.
 $$
 
-## Atrisinājums.
+## Atrisinājums-1
 
 Ievērosim, ka, ja mēs pierādītu, ka $\sqrt{xy+1}>\frac{x+y}{2}$, $\sqrt{yz+1}>\frac{y+z}{2}$ un $\sqrt{zx+1}>\frac{z+x}{2}$, tad, saskaitot šīs $3$ nevienādības kopā, mēs iegūtu, ka
 
@@ -541,7 +541,7 @@ Pēdējā nevienādība ir patiesa, jo pēc uzdevuma nosacījumiem $2>|x-y|$, ka
 
 Doti pozitīvi reāli skaitļi $a, b$. Zināms, ka $2026$ skaitļu $\frac{a+1}{b+1}, \frac{a+2}{b+2}, \ldots, \frac{a+2026}{b+2026}$ summa ir vienāda ar $2026$. Ar ko ir vienāds šo $2026$ skaitļu reizinājums?
 
-## Atrisinājums.
+## Atrisinājums-1
 
 Doto $2026$ skaitļu reizinājums ir vienāds ar $1$.
 
@@ -579,7 +579,7 @@ Reālu skaitļu trijnieku $x, y, z$ sauksim par *triādi*, ja $x+y+z=1$.
 
 **(B)** Pierādīt, ka neeksistē tāda konstante $C$, ka jebkurai triādei $\min(x^2+y, y^2+z, z^2+x)\leq C$.
 
-## Atrisinājums.
+## Atrisinājums-1
 
 **(A)** Lielākā iespējamā $C$ vērtība ir $C=\frac{4}{9}$.
 
@@ -655,7 +655,7 @@ Taču, tā kā mēs skaitli $t$ varam izvēlēties pēc patikas lielu, tad neeks
 
 Dots riņķa līnijā ievilkts četrstūris $ABCD$, kuram $BC<AD$. Punkts $E$ ir taisņu $AB$ un $CD$ krustpunkts. Punkti $K$ un $L$ ir izvēlēti attiecīgi uz malām $CD$ un $AB$ ar īpašību, ka $\angle KAD=\angle KBC$ un $\angle LDA=\angle LCB$. Pierādīt, ka $EK=EL$.
 
-## Atrisinājums.
+## Atrisinājums-1
 
 ![3. att.](LV.VOL.2026.11.3A.png)
 
@@ -701,7 +701,7 @@ Atrast visus naturālo skaitļu trijniekus $a,b,c$, kuriem eksistē tādi natur�
 
 Piezīme. Ar $n!$ apzīmē skaitļa $n$ faktoriālu – pirmo $n$ naturālo skaitļu reizinājumu, piemēram, $5!=5\cdot 4\cdot 3\cdot 2\cdot 1=120$.
 
-## Atrisinājums.
+## Atrisinājums-1
 
 Nezaudējot vispārīgumu, pieņemsim, ka $a\leq b\leq c$. Tādā gadījumā $ab\leq ac\leq bc$ un
 
@@ -733,7 +733,7 @@ Lai šī dalāmība izpildītos, ir jābūt patiesai nevienādībai $ab+1\leq b-
 
 Alberts ir pierakstījis virkni $a_1, a_2, \ldots, a_{2026}$, kurā katrs no skaitļiem $1, 2, \ldots, 2026$ parādās tieši vienu reizi. Kristīne vēlas noteikt šo virkni, veicot vairākus gājienus, pēc kuriem Alberts viņai sniedz informāciju. Vienā gājienā Kristīne uz lapas uzraksta skaitļus no $1$ līdz $2026$ un dažus no tiem savieno ar līnijām tā, ka katrs skaitlis ir savienots ar ne vairāk kā vienu citu skaitli. Pēc tam viņa iedod šo lapu Albertam. Tad Alberts uz citas lapas uzraksta skaitļus no $1$ līdz $2026$ un katram skaitļu pārim $i$ un $j$, kurus Kristīne savienoja ar līniju, viņš savieno ar līniju skaitļus $a_i$ un $a_j$. Beigās viņš iedod šo lapu Kristīnei. Kāds ir mazākais gājienu skaits, kas nepieciešams, lai Kristīne varētu noteikt Alberta sākotnējo virkni?
 
-## Atrisinājums.
+## Atrisinājums-1
 
 Atbilde ir $n=2$.
 
@@ -763,7 +763,7 @@ Pierādīt, ka $\gamma = 90^\circ$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **1. atrisinājums.** Tā kā trijstūra leņķu summa ir $180^\circ$, tad mums pietiek pierādīt, ka $\alpha+\beta = 90^\circ$. Skaidrs, ka leņķi $\alpha$ un $\beta$ ir šauri, apzīmēsim $\varphi = 90^\circ - \beta$ un ievērosim, ka arī $\varphi$ ir šaurs. Tādā gadījumā mums jāpierāda, ka $\alpha = \varphi$. Ievietojot dotajā vienādojumā $\beta = 90^\circ - \varphi$ un izmantojot to, ka $\sin (90^\circ - \varphi) = \cos \varphi$ un $\cos (90^\circ - \varphi) = \sin \varphi$, iegūstam, ka
 
@@ -818,7 +818,7 @@ Pierādīt, ka starp skaitļiem $a_1, a_2, \ldots, a_{104}$ ir vismaz $52$ vien�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $P$ apzīmēsim $a_1 a_2 \cdot \ldots \cdot a_{104}$. Ievērosim, ka no uzdevuma nosacījumiem izriet, ka $a_i^2 + P = 2026a_i$ katram $1 \leq i \leq 104$. Tas nozīmē, ka skaitļi $a_1, a_2, \ldots, a_{104}$ ir vienādojuma $x^2 - 2026x + P = 0$ saknes. Taču kvadrātvienādojumam ir ne vairāk kā $2$ dažādas saknes, tāpēc pēc Dirihlē principa starp skaitļiem $a_1, a_2, \ldots, a_{104}$ vismaz $104 \div 2 = 52$ ir vienādi.
 
@@ -839,7 +839,7 @@ Pierādīt, ka ap trijstūriem $DYO$ un $BXO$ apvilktās riņķa līnijas vēlre
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.VOL.2026.12.3.png)
 
@@ -884,7 +884,7 @@ Dota $10 \times 10$ rūtiņu tabula, katrā tās rūtiņā ir ierakstīts kāds 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais iespējamais labo rūtiņu skaits ir $10$. Piemēram, pirmajā rindā visās rūtiņās ieraksta $1$, bet visās pārējās rindās visās rūtiņās ieraksta $0$ (skat. 5. att. (a)). Tad pirmās rindas summa ir $10$, bet katras kolonnas summa ir $1$, tāpēc visas pirmās rindas rūtiņas ir labas (to ir $10$), bet visas pārējās nav labas; tātad var panākt tieši $10$ labas rūtiņas.
 
@@ -910,7 +910,7 @@ Atrast visus naturālos skaitļus $n \geq 2$, kuriem eksistē latviska naturālu
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde ir $n = 2$.
 

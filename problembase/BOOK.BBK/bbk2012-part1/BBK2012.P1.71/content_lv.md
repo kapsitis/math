@@ -5,7 +5,7 @@ kura pēdējie trīs cipari veido sākotnējo skaitli.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim meklējamo skaitli ar $N$. Tad $1000 \mid \left(N^{2}-N\right)$ un
 $8 \cdot 125 \mid (N-1) \cdot N$.

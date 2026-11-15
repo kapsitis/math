@@ -9,7 +9,7 @@ Vai var uzzīmēt $6$ nogriežņus tā, lai katrs no tiem krustotu tieši četru
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var; skat., piemēram, $6.$ zīm.
 
@@ -29,7 +29,7 @@ Tabula sastāv no $3 \times 3$ rūtiņām. Katrā rūtiņā ierakstīts kāds sk
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kolonnās ierakstīto skaitļu summas saskaitot, iegūsim visu tabulā ierakstīto skaitļu summu. To pašu var teikt arī par rindiņās ierakstīto skaitļu summām. Tāpēc trešajā rindiņā ierakstīto skaitļu summa ir
 
@@ -53,7 +53,7 @@ Divi no tiem skaitļiem, kas attēloti ar melniem aplīšiem, dalās ar $3$, bet
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $7.$ zīm.
 
@@ -77,7 +77,7 @@ Sešas monētas sver pa $5$ g katra, bet divas — pa $6$ g katra. Doti svari ar
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nosveram vispirms kopā $4$ monētas; svēršanas rezultātā uzzinām, cik smagāko monētu ir svērto monētu grupā (ja kopsvars ir $20\ \mathrm{g}$, tad smago monētu nav; ja – $21\ \mathrm{g}$, tad smagā monēta ir viena; ja – $22\ \mathrm{g}$, tad ir divas smagas monētas). Aplūkosim šos gadījumus.
 
@@ -107,7 +107,7 @@ Pierādīt, ka var atrast divus tādus trijstūrīšus, kuros ierakstītie skait
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $8.$ zīm.
 
@@ -129,7 +129,7 @@ Kā redzams no zīmējuma, no viena trijstūrīša uz otru var pāriet augstāka
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atlikumi ir veseli nenegatīvi skaitļi. Ja četru atlikumu summa ir $3$, tad vismaz viens no tiem ir $0$; atbilstošais skaitlis un līdz ar to visu skaitļu reizinājums dalās ar $5$.
 
@@ -145,7 +145,7 @@ Vai var uzzīmēt $8$ nogriežņus tā, lai katrs no tiem krustotos ar dažādu 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Katrs nogrieznis var krustoties ar $0$, $1$, $2$, ..., $7$ citiem. Ja katrs nogrieznis krustojas ar atšķirīgu skaitu citiem nogriežņiem, tad jābūt realizētām visām $8$ pieminētajām vērtībām. Bet, ja kāds nogrieznis krustojas ar $7$ citiem (tātad ar visiem), tad nav nogriežņa, kam būtu $0$ krustpunktu.
 
@@ -165,7 +165,7 @@ Kas tas par ciparu?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot dalāmības pazīmes ar $3$ un $9$, noskaidrojam, ka skaitļu reizinājums dalās ar $9$, bet otrais reizinātājs nedalās ar $3$. Tātad pirmais reizinātājs dalās ar $9$. Tā kā pirmā reizinātāja ierakstīto ciparu summa ir $24$, lai tas dalītos ar $9$, zvaigznītes vietā ir jāieraksta cipars $3$.
 
@@ -181,7 +181,7 @@ Vai piecstūra malas un diagonāles var tā sanumurēt ar skaitļiem no $1$ līd
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Pieņemsim, ka tas iespējams un katra trijstūra malu numuru summa ir $S$. Tad, saskaitot tās visas, iegūstam
 
@@ -203,7 +203,7 @@ Klases šaha turnīrā piedalās $10$ dalībnieki; katrs spēlē ar katru vienu 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Turnīrā kopā izspēlē $45$ partijas un izcīna $45$ punktus.
 
@@ -225,7 +225,7 @@ Vienādojumu $ax=b$, $bx=c$, $cx=a$ saknes ir vienādi pozitīvi skaitļi. Atras
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto vienādojumu saknes ir $\frac{b}{a}$, $\frac{c}{b}$, $\frac{a}{c}$. Dots, ka tās ir vienādas; šo kopīgo sakni apzīmēsim ar $s$. Tad
 
@@ -249,7 +249,7 @@ Pierādīt, ka $ah=gb$ (burti apzīmē pozitīvus skaitļus).
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotās vienādības pierakstām proporciju veidā:
 
@@ -273,7 +273,7 @@ Pierādīt, ka $ab$ nedalās ar $210$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka $a\cdot b$ dalās ar $210$.
 
@@ -297,7 +297,7 @@ Vai var gadīties, ka starp apgabaliem, kuros šīs taisnes sadala plakni ir $9$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Divas taisnes sadala plakni $4$ apgabalos. Trešā taisne, krustojot abas jau novilktās, ar $2$ krustpunktiem sadalās $3$ daļās. Katra no šīm daļām sadala vienu apgabalu divos, tātad trīs taisnes veido $4+3=7$ apgabalus. Pakāpeniski pierāda, ka $7$ taisnes veido
 
@@ -319,7 +319,7 @@ Pa apli izrakstīti $10$ skaitļi; daži no tiem ir pozitīvi, pārējie – neg
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skaitļus pēc kārtas ar $a,b,c,d,e,f,g,h,i,j$.
 
@@ -347,7 +347,7 @@ vienlaicīgi ir saīsināmas; turklāt $m \ne n$ .
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ņemt, piemēram, skaitļus
 
@@ -367,7 +367,7 @@ Kā ar $10$ gājieniem iegūt uz tāfeles $2^{89}$ ?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt šādi:
 
@@ -389,7 +389,7 @@ Bet vai tas var tieši trīs reizes pārsniegt melno trijstūru skaitu?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar katru melno trijstūri robežojas ne vairāk kā trīs balti, pie tam daži baltie trijstūri var robežoties reizē ar vairākiem melnajiem. Tātad balto trijstūru skaits nevar vairāk kā trīs reizes pārsniegt melno trijstūru skaitu.
 
@@ -415,7 +415,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim šādas vienādības
 
@@ -444,7 +444,7 @@ Pierādīt, ka $AO+BO+CO<AB+AC+BC$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $K$ taisnes $OB$ krustpunktu ar $AC$ (skat. $10.$ zīm.)
 
@@ -479,7 +479,7 @@ Dots, ka skaitļi $a_1, a_2, \ldots, a_n$ veido aritmētisku progresiju un ka $f
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, tie veido aritmētisko progresiju. Lai to pierādītu, parādīsim, ka divu sekojošu virknes locekļu starpība ir konstanta.
 $$
@@ -501,7 +501,7 @@ Uzzīmēt $13$-stūri, kuru var sagriezt $5$ paralelogramos.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, skat. $11.$ zīmējumu.
 
@@ -523,7 +523,7 @@ Pierādīt, ka $x_1^2+x_2^2\ge 2(x_1+x_2)$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot Vjeta teorēmu, pārveidojam nevienādību:
 $$
@@ -552,7 +552,7 @@ Pierādīt, ka $RB=SB$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $12.$ zīm.
 
@@ -583,7 +583,7 @@ ir bezgalīgi daudz atrisinājumu naturālos skaitļos.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli atrast vienu atrisinājumu $x=1$, $y=2$, $z=3$. Izmantojot šo atrisinājumu, var norādīt bezgalīgu atrisinājumu sēriju. Tiešām, katram naturālam $n$ der atrisinājums $x=1\cdot n^6$, $y=2\cdot n^{10}$, $z=3\cdot n^{15}$.
 
@@ -601,7 +601,7 @@ Pamatojiet savu atbildi.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, ne noteikti. Kā pretpiemēru var ņemt skaitļus
 $$
@@ -620,7 +620,7 @@ Vai četrciparu skaitlis, kura pirmais cipars vienāds ar pēdējo, bet otrais a
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt, jo šāds skaitlis dalās ar $11$. Tiešām
 $$
@@ -647,7 +647,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim
 $$
@@ -682,7 +682,7 @@ mazāko iespējamo vērtību.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim plaknē punktus ar sekojošām koordinātēm:
 
@@ -712,7 +712,7 @@ Abas riņķa līnijas krustojas punktos $A$ un $B$. Punktā $B$ riņķa līnijai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $13.$ zīm.
 
@@ -738,7 +738,7 @@ Skaitli $1991$ dalot ar $a$, atlikumā iegūst $9$. Kāds var būt $a$ ?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $1991=ka+9$, tad $ka=1982=2\cdot 991$, kur abi reizinātāji ir pirmskaitļi. Tātad $a\in\{1,2,991,1982\}$. Tā kā $a>9$, tad der tikai skaitļi $991$ un $1982$.
 
@@ -758,7 +758,7 @@ ir vismaz $3$ dažādas saknes.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzskatīsim, ka $a<b<c<d$.
 
@@ -782,7 +782,7 @@ Par zebru sauksim figūru, kas ar vienu gājienu var pārvietoties par $2$ vai p
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zebra to var izdarīt; gājienu secība parādīta $14.$ zīmējumā.
 
@@ -802,7 +802,7 @@ Viena trijstūra piramīda atrodas otras iekšpusē. Vai pirmās piramīdas šķ
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, ne noteikti. Pretpiemērs: ārējā piramīdā $ABCD$ šķautnes $AB$, $AC$, $BC$ izvēlas ļoti īsas, bet $AD$, $BD$, $CD$ garas; bet iekšējās piramīdas divas virsotnes novieto tuvu punktam $D$, bet pārējās divas tuvu trijstūrim $ABC$. Rezultātā Ārējai piramīdai ir $3$ garas šķautnes, bet iekšējai $4$ garas šķautnes. Pārējo šķautņu garumi uz nevienādību neietekmē.
 
@@ -821,7 +821,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūrī $ABC$ izpildās nevienādības $\angle A<\angle B<\angle C$.
 
@@ -849,7 +849,7 @@ Dots, ka $\sin 4x<4\sin x$. Pierādīt, ka $\sin x>0$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto nevienādību pārveidojam formā
 
@@ -869,7 +869,7 @@ Divas riņķa līnijas ar centriem $A$ un $B$ katra pieskaras abām leņķa mal�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim doto riņķa līniju rādiusus ar $r$ un $R$. Tad $AB=r+R$ un trešās riņķa līnijas rādiuss ir $\dfrac{r+R}{2}$. No trapeces viduslīnijas garuma formulas seko, ka attālums no trešās riņķa līnijas centra – $AB$ viduspunkta līdz leņķa malām ir $\dfrac{r+R}{2}$. Tātad trešā riņķa līnija pieskaras leņķa malām.
 
@@ -885,7 +885,7 @@ Cik ir dažādu trijstūra piramīdu ar šķautņu garumiem $2$, $3$, $3$, $4$, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No trijstūra nevienādībām seko, ka iespējams izveidot $3$ dažādas piramīdas ar norādītajiem šķautņu garumiem (skat. $15.$ zīm.).
 
@@ -909,7 +909,7 @@ Pierādīt, ka $a_{10}$ savā pierakstā satur vismaz $1000$ devītniekus.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām skaitļu virkni $x_n=a_n+1$. Tad
 
@@ -934,7 +934,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No nevienādības starp vidējo aritmētisko un vidējo ģeometrisko seko
 

@@ -5,7 +5,7 @@ Pierādiet, ka visiem $n \geq 4$ izpildās nevienādība $(n-1)? > n$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka $(n-1)? = p_{1}p_{2} \cdots p_{n} \leq n$, un tātad $p_{1} p_{2} \cdots p_{n}-1<n$. 
 Aplūkosim skaitļa $p_{1} p_{2} \cdots p_{n}-1$ pirmreizinātāju $p$. 

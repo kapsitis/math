@@ -8,7 +8,7 @@ Vai to var izdarīt?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar uzdevuma nosacījumiem katrā grupā skaitļu summai jādalās ar $9$; 
 tātad visu skaitļu summai arī jādalās ar $9$, 

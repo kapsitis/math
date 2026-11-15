@@ -8,7 +8,7 @@ is $223$. It is sufficient to show one example of how to achieve this.
 ![](LV.NOL.2023.5.1.png){ width=300px }
 
 
-## Solution
+## Solution-1
 
 The required solution can be achieved as shown in Figure 2, where the sum 
 of every three consecutive numbers is $51$.
@@ -45,7 +45,7 @@ of paths coming out of them:
 **(B)** $1, 2, 2, 2, 2, 3, 4, 5$ paths respectively?
 
 
-## Solution
+## Solution-1
 
 **(A)** Yes, for example, see Fig. 5, where dots represent houses, lines 
 represent paths, and the number of lines emanating from each point is 
@@ -72,7 +72,7 @@ the other so that they coincide (the shapes may be rotated and flipped).
 
 
 
-## Solution
+## Solution-1
 
 See Fig. 7.
 
@@ -89,7 +89,7 @@ that the sum of any two of these numbers is divisible by the third number!
 
 
 
-## Solution
+## Solution-1
 
 This can be done as follows: $174=29+58+87$. Let's verify that the sum of any two of 
 these numbers is divisible by the third number:
@@ -111,7 +111,7 @@ of red and blue coins if initially one red coin is given?
 
 
 
-## Solution
+## Solution-1
 
 No, this is not possible. Observe that initially there is one coin, and with each 
 operation the number of coins increases by $4$ coins (if you insert $1$ red coin, 
@@ -133,7 +133,7 @@ holds!
 
 
 
-## Solution
+## Solution-1
 
 The values $x=1$; $y=5$ and $z=2$ work. With these values the equality holds, since
 
@@ -158,7 +158,7 @@ Is it possible that the numbers of paths leaving the houses are respectively:
 
 
 
-## Solution
+## Solution-1
 
 **(A)** We will prove that this is not possible. Since each path has two ends, 
 the total number of path ends must be even, but from the given we get that 
@@ -184,7 +184,7 @@ the other so that they coincide (the shapes may be rotated and flipped).
 
 
 
-## Solution
+## Solution-1
 
 See, for example, Fig. 10 or Fig. 11.
 
@@ -201,7 +201,7 @@ natural numbers such that the sum of any two of these numbers is divisible by th
 
 
 
-## Solution
+## Solution-1
 
 **(A)** Yes, for example: $72=12+24+36$. Let us check that the sum of any two of these 
 numbers is divisible by the third number:
@@ -237,7 +237,7 @@ Is it possible to obtain **(A)** the number 1? **(B)** the number 15?
 
 
 
-## Solution
+## Solution-1
 
 **(A)** Yes, for example, as follows:
 
@@ -269,7 +269,7 @@ is $1$ are placed in squares sharing a common side?
 
 
 
-## Solution
+## Solution-1
 
 Solution. Yes, it is possible; see the figure.
 
@@ -286,7 +286,7 @@ each of them is connected by a wire to exactly $5$ other light bulbs?
 
 
 
-## Solution
+## Solution-1
 
 **(A)** Yes, it is possible. Divide the $90$ bulbs into $15$ groups of $6$ bulbs each. 
 In each group, connect every pair of bulbs with a wire (see Fig. 14, where bulbs are 
@@ -311,7 +311,7 @@ $\sphericalangle A=\sphericalangle B$, $BC=1$ and $AD=3$. Prove that $CD>2$.
 
 
 
-## Solution
+## Solution-1
 
 Draw the segment $BD$ (see Fig. 15). From the given it follows that 
 $\sphericalangle DAB = \sphericalangle ABC > \sphericalangle ABD$. 
@@ -330,7 +330,7 @@ has as many digits as the number $n^{3}$?
 
 
 
-## Solution
+## Solution-1
 
 There are three numbers that satisfy the problem’s conditions: 
 $1$, $2$, and $4$, because $1^{2}=1^{3}=1$; $2^{2}=4$ and $2^{3}=8$ 
@@ -365,7 +365,7 @@ if initially the box contains:
 
 
 
-## Solution
+## Solution-1
 
 **(A)** No, it is not possible. With each move, the parity of the number of 
 balls of every color changes (from even to odd and vice versa). Therefore, we cannot 
@@ -398,7 +398,7 @@ Provide one arrangement of numbers that meets these conditions.
 
 
 
-## Solution
+## Solution-1
 
 This can be done as shown in Fig. 17, where the sum of every four consecutive entered numbers is $36$.
 
@@ -440,7 +440,7 @@ Can it happen that **(A)** $m=11$, **(B)** $m=10$?
 
 
 
-## Solution
+## Solution-1
 
 **(A)** No, it cannot. Imagine people as points and friendships as line segments connecting 
 these points. Since exactly $3$ segments emanate from each point and each segment 
@@ -475,7 +475,7 @@ that $AM = AK = AC$. It is known that $AK \perp MC$. Calculate the angles of tri
 
 
 
-## Solution
+## Solution-1
 
 Denote the intersection point of $AK$ and $MC$ by $H$ (see Fig. 21). 
 Since $\triangle KAC$ and $\triangle ABC$ are isosceles 
@@ -508,7 +508,7 @@ rotated and flipped over).
 
 
 
-## Solution
+## Solution-1
 
 See Fig. 23 or Fig. 24.
 
@@ -548,7 +548,7 @@ $m+s=(m-v)+(s-k)+(k+v)=\frac{\ell}{5}+\frac{\ell}{20}+\frac{\ell}{12}=\frac{\ell
 we conclude that Mārtiņš meets Sandris every $3$ minutes.
 
 
-## Solution 2
+## Solution-2
 
 Assume that Kārlis and Sandris move to the right, 
 but Vilnis and Kārlis — to the left. Also assume that 
@@ -585,7 +585,7 @@ $x$; $x+2$; $x+4$; $x+6$; $x+8$ that can simultaneously be prime?
 
 
 
-## Solution
+## Solution-1
 
 If $x=1$, then there are $3$ primes, namely $3; 5; 7$ 
 ($1+8=9$ is not a prime).
@@ -622,7 +622,7 @@ that is, friendship is mutual). Can it be that each dwarf has exactly $9$ friend
 
 
 
-## Solution
+## Solution-1
 
 Represent the dwarfs by points and connect two points by a segment if the 
 corresponding dwarfs are friends with each other. Since every point connects to 
@@ -733,7 +733,7 @@ have been in the reserve before yesterday’s storm?
 
 
 
-## Solution
+## Solution-1
 
 Let $n$ be the number of trees before the storm, and let 
 $s$ be the sum of their ages.
@@ -771,7 +771,7 @@ is rational or irrational!
 
 
 
-## Solution 1
+## Solution-1
 
 Perform equivalent transformations:
 
@@ -783,7 +783,7 @@ $$\begin{aligned}
 Thus we have obtained that the given number is a rational number.
 
 
-## Solution 2
+## Solution-2
 
 By squaring the given number, we obtain
 
@@ -809,7 +809,7 @@ marked on the sheet of paper?
 
 
 
-## Solution
+## Solution-1
 
 The smallest possible number of points is eight. In the given example 
 (see Fig. 3) the points are divided into two groups (Group 1 and Group 2) 
@@ -878,7 +878,7 @@ $p<N$ the number $N+2p$ is also prime!
 
 
 
-## Solution
+## Solution-1
 
 Consider the value $N=7$ and check whether $N+2p$ is prime 
 for all $p$ smaller than $N$:
@@ -908,7 +908,7 @@ this tournament? (In any tournament there are at least $2$ teams.)
 
 
 
-## Solution
+## Solution-1
 
 There could have been $3$ or $4$ teams in the tournament; for example, 
 see Fig. 6 for suitable match outcomes, where the number $1$ indicates a win 
@@ -1000,7 +1000,7 @@ there are **(A)** $5$ dwarves, **(B)** $6$ dwarves?
 
 
 
-## Solution
+## Solution-1
 
 Represent each dwarf by a point. If two dwarves are friends, connect them with 
 a green segment (solid line); if they hate each other, connect them with a red segment (dashed line).
@@ -1144,7 +1144,7 @@ simultaneously be permutations of the $n-1$ and $n-2$ smallest natural numbers,
 respectively!
 
 
-## Solution
+## Solution-1
 
 Assume the contrary, that both sequences $\left\{b_{i}\right\}$ and $\left\{c_{i}\right\}$ 
 are permutations of the $n-1$ and $n-2$ smallest numbers, respectively. This means that 
@@ -1187,7 +1187,7 @@ Find the smallest real number $a$ such that for all real numbers $x, y, z$ the i
 $$x^{2}+y^{2}+z^{2}+a \geq x + 2y + 3z$$
 
 
-## Solution
+## Solution-1
 
 The smallest possible value is $a=\frac{7}{2}$. We equivalently transform the given inequality by completing the square:
 
@@ -1219,7 +1219,7 @@ Consider this for a tournament with:
 
 
 
-## Solution
+## Solution-1
 
 Represent the players by points. Connect two players with a solid line if they have played 
 a game, and with a dashed line if they have not.
@@ -1251,7 +1251,7 @@ The circle with center at point $B$ and radius $BC$ intersects the sides $AC$ an
 at the points $D$ (which does not coincide with $C$) and $E$, respectively. Prove that $AD < 2AE$.
 
 
-## Solution
+## Solution-1
 
 The triangles $ABC$ and $BCD$ are isosceles ($AB=AC$ by the given and $BC=BD$ as radii), 
 and the base angles of both triangles are equal ($\sphericalangle ACB$ is common to both 
@@ -1359,7 +1359,7 @@ In a single move, you may choose a natural number $n$ and eat $n$ candies from s
 (possibly only from one). What is the smallest number of moves needed to make all boxes empty?
 
 
-## Solution
+## Solution-1
 
 *Answer.* The minimal number of moves is $11$.
 

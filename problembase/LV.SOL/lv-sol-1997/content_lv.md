@@ -13,7 +13,7 @@ katru ciparu izmainīt par $1$ tā, lai atkal iegūtu pareizu vienādību. Pieti
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viena no iespējām ir šāda
 
@@ -35,7 +35,7 @@ b) $116$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja skaitlis nedalās ar $3$, tad reizinot to ar $2$, tas arī nedalīsies ar $3$; ja skaitlis nedalās ar $3$, tad mainot tā ciparus vietām, tas arī nedalīsies ar $3$. Tā kā $1$ nedalās ar $3$, tad ar dotajām operācijām no $1$ nevar iegūt skaitli $96$.
 
@@ -61,7 +61,7 @@ Pēc kāda laika sienāži ieņēma tās pašas vietas, ko sākumā, tikai bija 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzskatīsim, ka sākumā sienāži sākumā sēž uz koordinātu ass punktos ar koordinātēm $0$, $1$, $2$. Izpildot vienu lēcienu nemainās sienāža koordinātes paritāte. Tā kā sākumā tieši viens sienāzis atrodas punktā ar nepāra koordināti, tad viņš atgriezīsies savā vietā; tā kā sienāži izvietojušies citā kārtībā, tad malējie sienāži ir samainījušies vietām.
 
@@ -81,7 +81,7 @@ Kādu lielāko daudzumu rūtiņu var iekrāsot kvadrātā ar izmēriem $5 \cdot 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var nokrāsot $15$ melnas rūtiņas (skat. $6$. zīm.)
 
@@ -109,7 +109,7 @@ Vai dažas rūtiņas burtnīcas lapā var nokrāsot melnas tā, lai katrs taisns
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, to var izdarīt, piemēram, tā, kā parādīts $8.$ zīmējumā.
 
@@ -129,7 +129,7 @@ Vai var izvēlēties $4$ skaitļus (starp tiem var būt arī vienādi) tā, ka k
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, to var izdarīt, piemēram, šādi: $\{1,1,-1,-1\}$.
 
@@ -151,7 +151,7 @@ ir vesels?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, šis skaitlis nav vesels
 
@@ -180,7 +180,7 @@ Pierādīt, ka var atrast tādu rūtiņu, kurai ir kopīga mala ar vismaz divām
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalīsim doto kvadrātu $16$ kvadrātos ar izmēriem $3\cdot 3$. Vismaz viens no tiem satur ne mazāk par $3$ melnām rūtiņām. Viegli pārbaudīt, ka jebkurā gadījumā atradīsies rūtiņa, kurai ir divas kopīgas malas ar melno rūtiņu.
 
@@ -196,7 +196,7 @@ Naturālu skaitli katru minūti var vai nu reizināt, vai dalīt vai nu ar $2$, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitli $2^3\cdot 3^1$ ir jāpārveido par skaitli $2^2\cdot 3^3$. Katrā gājienā kāpinātāju summa mainās par $1$. Tā kā sākumā šī summa ir $4$ – pāra skaitlis, un mēs izpildīsim $60$ gājienus, tad arī beigās šai summai ir jābūt pāra skaitlim; taču $2+3$ nav pāra skaitlis. Tātad tieši stundas laikā nav iespējams no skaitļa $24$ iegūt skaitli $108$.
 
@@ -212,7 +212,7 @@ Vai dažas rūtiņas burtnīcas lapā var nokrāsot melnas tā, lai katrs taisns
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, to var izdarīt, piemēram, tā, kā parādīts $9.$ zīmējumā.
 
@@ -238,7 +238,7 @@ formā $ax+b$, kur $a$ un $b$ – veseli skaitļi.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot, iegūstam
 
@@ -266,7 +266,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var izvēlēties, piemēram, skaitļus $n=12^2$, $k=12$.
 
@@ -284,7 +284,7 @@ Uzrādiet visas iespējas un pamatojiet, ka citu nav.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šķirosim gadījumus, atkarībā no tā kāds lielākais punktu skaits atrodas uz vienas taisnes.
 
@@ -332,7 +332,7 @@ Jānis un Juris nopirka $100$ litrus "Fanta"-s pudelēs pa $0{,}5\,\mathrm{l}$, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $0{,}5$ l un $1$ l pudeles kopā satur ne mazāk kā $50$ l "Fanta"-s, tad ar tām var izveidot $50$ litru daļu Jānim, pārējo atdodot Jurim.
 
@@ -350,7 +350,7 @@ Vai kvadrātu ar izmēriem $7\times 7$ rūtiņas var sagriezt kvadrātos, kuru i
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Iekrāsosim kvadrāta rūtiņas, kā parādīts 15. zīmējumā.
 
@@ -372,7 +372,7 @@ Saīsināt daļu $\dfrac{x^8-1}{x^2+1}$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot, iegūstam:
 
@@ -396,7 +396,7 @@ Vai šajā virknē ir sastopams cipars $7$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Virknes turpinājumu viennozīmīgi nosaka tās pēdējie $2$ cipari (protams jāņem vērā, ka šajā vietā pilnībā uzrakstīts pēdējais skaitlis); uzrakstām virkni:
 
@@ -422,7 +422,7 @@ Pierādīt, ka $CD>2$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $16.$ zīm.
 
@@ -450,7 +450,7 @@ Pierādīt, ka no tiem var izvēlēties divus tādus, kuru reizinājums ir vesel
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim skaitļu grupas
 
@@ -474,7 +474,7 @@ Istabas forma ir astoņstūris (varbūt ieliekts). Pierādīt, ka to var pilnīb
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Astoņstūri ar diagonālēm (kas savā starpā nešķeļas) sadalām $6$ trijstūros. Astoņstūra virsotnes sanumurējam ar skaitļiem $1$, $2$, $3$ tā, lai katrā trijstūrī būtu visi numuri. Vismaz viens no skaitļiem tiks lietots ne vairāk par $2$ reizēm. Virsotnēs, kurās ierakstīts šis skaitlis, ievietojam lampas; acīmredzot viss astoņstūris būs apgaismots.
 
@@ -492,7 +492,7 @@ $$\frac{a}{b(a+b)}+\frac{b}{c(c+b)}+\frac{c}{a(a+c)}=\frac{b}{a(a+b)}+\frac{c}{b
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot identitāti
 $$
@@ -524,7 +524,7 @@ Kvadrāts sastāv no $3\times 3$ rūtiņām. Vai var rūtiņās ierakstīt natur
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat., piemēram, $17.$ zīmējumu.
 
@@ -548,7 +548,7 @@ ir pirmskaitļi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotie skaitļi, dalot ar $3$, dod dažādus atlikumus; tiešām
 $$
@@ -574,7 +574,7 @@ Dots, ka $MN=20$. Aprēķināt iesvītrotās daļas laukumu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $18.$ zīmējumu.
 
@@ -600,7 +600,7 @@ Jānim ir $5$ lati piecu, desmit un divdesmit santīmu monētās; monētu pavisa
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotos nosacījumus pierakstīsim vienādojumu sistēmas veidā.
 
@@ -643,7 +643,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto nevienādību var pārveidot formā
 
@@ -681,7 +681,7 @@ Kvadrātā ievilkta riņķa līnija ar rādiusu $R$. Taisne, kas tai pieskaras, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $19.$ zīmējumu.
 
@@ -721,7 +721,7 @@ Vai kvadrātu, kas sastāv no $15 \times 15$ rūtiņām, var pārklāt ar $225$ 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Iekrāsosim doto kvadrātu šaha galdiņa kārtībā. Tad melno un balto lauciņu skaits nav vienāds. Taču katra no dotajām figūrām pārklāj vienādus baltos un melnos laukumus; pretruna.
 
@@ -737,7 +737,7 @@ Nē, nevar. Iekrāsosim doto kvadrātu šaha galdiņa kārtībā. Tad melno un b
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apvilksim ap doto trijstūri $ABC$ riņķa līniju (skat. 20. zīm.).
 
@@ -771,7 +771,7 @@ Pierādīt, ka $a+b+c+d$ nav pirmskaitlis.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka $a+b+c+d$ ir pirmskaitlis. Tad
 
@@ -803,7 +803,7 @@ nav mazāks par $3$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Pielietojam nevienādību par divu skaitļu vidējo aritmētisko un vidējo ģeometrisko.
 
@@ -841,7 +841,7 @@ Taisnleņķa trijstūra $ABC$ laukums ir $1$. Katrai $ABC$ virsotnei atrodam sim
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $21.$ zīm.
 
@@ -886,7 +886,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $22.$ zīm.
 
@@ -927,7 +927,7 @@ c) nekādi divi sarkanie skaitļi nedalās viens ar otru.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var izvēlēties, piemēram, šādus $10$ sarkanos skaitļus:
 
@@ -947,7 +947,7 @@ Mēneša laikā katra klases skolēna draugu skaits mainījās tieši par $1$ (v
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skolēnu draudzību skaitus mēneša sākumā un beigās attiecīgi ar $a_1$ un $b_1$, $a_2$ un $b_2$, ... , $a_n$ un $b_n$.
 
@@ -977,7 +977,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot vienādību
 
@@ -1006,7 +1006,7 @@ Vai tornis var apstaigāt šaha galdiņu tā, lai katru divu rūtiņu kopējo ma
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Piemēram, rūtiņai $a2$ ir trīs kopīgas malas ar blakus rūtiņām, bet ienākot un izejot no rūtiņas tornis krusto $2$ malas.
 
@@ -1030,7 +1030,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādījumā izmanto faktu, ka skaitļi $p, 2p, \ldots, (q-1)p$ dod visus nenulles atlikumus pēc moduļa $q$.
 
@@ -1050,7 +1050,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim $5$ intervālus $(0; 0{,}2)$, $(0{,}2; 0{,}4)$, $(0{,}4; 0{,}6)$, $(0{,}6; 0{,}8)$, $(0{,}8; 1)$. Tā kā ir doti $4$ punkti, tad vismaz vienā no šiem intervāliem neatradīsies neviens no dotajiem punktiem. Par skaitli $x$ izvēlēsimies šā intervāla viduspunktu (vēl varam uzskatīt, ka ne visi punkti $a$, $b$, $c$, $d$ atrodas šā nogriežņa galapunktos. Tādā gadījumā visi skaitļi $|x-a|, |x-b|, |x-c|, |x-d|$ ir ne mazāki par $0{,}1$ (piedevām vismaz viens no skaitļiem ir lielāks par $0{,}1$); no šejienes seko pierādāmā nevienādība.
 
@@ -1070,6 +1070,6 @@ Saskatiet Pitagora teorēmas pierādījumu 5. zīm. un pierakstiet to ar visiem 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apgalvojums seko no tā, ka iesvītrotie četrstūri ir vienādi. Atņemot no to laukumiem dotā taisnleņķa trijstūra laukumu, iegūsim Pitagora teorēmu.

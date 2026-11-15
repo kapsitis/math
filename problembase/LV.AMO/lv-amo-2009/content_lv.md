@@ -17,7 +17,7 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $2009$
 
@@ -50,7 +50,7 @@ izdarīt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, tā: $1;\ 2;\ 4;\ 3;\ 6;\ 7;\ 5;\ 9;\ 8;\ 10$.
 
@@ -77,7 +77,7 @@ tieši $6$ balti kaimiņi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 2.zīm.
 
@@ -108,7 +108,7 @@ malas garums ir $1$.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; skat., piem., 3.zīm.
 
@@ -145,7 +145,7 @@ Kāda daļa no $B$ atbalstītājiem ir meļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja ir $n$ iedzīvotāju, tad ir uzdoti $3n$ jautājumi; $1,5n$ atbilžu bija "jā". 
 Katrs patiesais cilvēks atbildēja "jā" vienreiz, katrs melis - divreiz. Tātad 
@@ -173,7 +173,7 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja kāds no cipariem ir $0;\ 3;\ 6$ vai $9$, Maija raksta atbilstošo viencipara 
 skaitli. Ja Andra nosauktie skaitļi ir $1;\ 4;\ 7$ vai $2;\ 5;\ 8$, Maija 
@@ -203,7 +203,7 @@ skaitlisko vērtību. Kādu rezultātu viņa ieguva?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam izteiksmē ir $10$ dažādi burti, tātad tie šifrē $10$ dažādus ciparus. 
 Tātad viens no tiem ir $0$. Tā kā $0$ nevar būt saucējā, tad tā ir skaitītājā. 
@@ -230,7 +230,7 @@ reizinājumu var būt **(A)** $12$, **(B)** $18$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; piemēram, ja sākumā bija uzrakstīti skaitļi $1;\ 1;\ 1;\ 2$.
 
@@ -264,7 +264,7 @@ $6$ nedrīkst izmantot, lai attēlotu ciparu $9$, un otrādi.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $32$.
 
@@ -304,7 +304,7 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.AMO.2009.6.5A.png)
 
@@ -338,7 +338,7 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē.
 
@@ -369,7 +369,7 @@ tikai tas, ka tie atrodas trijstūra $T$ iekšpusē.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, skat., piem, 5.zīm.
 
@@ -418,7 +418,7 @@ Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** četras summas.
 
@@ -465,7 +465,7 @@ atrodas ārpus $\triangle ABC$. Pierādīt, ka $AN=CM$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.AMO.2009.7.4A.png)
 
@@ -497,7 +497,7 @@ pavisam ir rūķīšu? (Dālderis ir vienīgā rūķīšiem pieejamā naudas vie
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka rūķīšu ir $n$. Viegli izsekot, ka katras naudas dalīšanas 
 rezultātā starpības starp jebkuru divu rūķīšu naudas daudzumiem mainās par 
@@ -533,7 +533,7 @@ gadīties, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē; saskaņā ar Vjeta teorēmu jābūt $p+x_{1}+x_{2}=0$.
 
@@ -563,7 +563,7 @@ turnīra noslēgumā ir visvairāk punktu.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja uzvarētājs ieguvis $n$ punktus, tad kopējais iegūto punktu daudzums nav 
 lielāks par 
@@ -594,7 +594,7 @@ bisektrise.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.AMO.2009.8.3A.png)
 
@@ -633,7 +633,7 @@ Cipariņam un cik - viņa kolēgim? (Visus vecumus izsaka veselos gados.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja trīs viesu vecumi ir $x, y, z$, iegūstam sakarības $x \cdot y \cdot z=2450$ 
 un $x+y+z=2v$, kur $v$ kolēģa vecums. Kolēģis savu vecumu, protams, zina. Ja 
@@ -646,7 +646,7 @@ nevarētu atrast viesu vecumus arī pēc Cipariņa otrās piezīmes. Situācija 
 nav iespējama. Tāpēc $t=50$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Kolēģa 1.atbildei atbilst $(5,10,49)$ vai $(7,7,50)$. 
 Otrā Profesora Cipariņa piebilde neļauj tos atšķirt.
@@ -677,7 +677,7 @@ vietā uz riņķa līnijas atrastos blakus (vienalga kādā secībā).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** no $6$ burtiem var izveidot $15$ dažādu burtu pārus, tāpēc diviem 
 punktiem jābūt blakus vismaz $15$ vietās. Tāpēc arī punktu ir vismaz $15$.
@@ -712,7 +712,7 @@ grafiki?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Visu minēto funkciju vērtības pie $x=1$ sakrīt, bet dotie $3$ grafiki neiet
 caur vienu punktu (visi $6$ iespējamie krustpunkti zīmējumā redzami, tātad citu
@@ -737,7 +737,7 @@ $a+b+c=0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ceļot dotās nevienādības kvadrātā, iegūstam
 
@@ -773,7 +773,7 @@ paralēls $t$ arī tad, ja tas atrodas uz $t$)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat, piem., 12.zīm., kur $h$ var tikt padarīts patvaļīgi mazs.
 
@@ -804,7 +804,7 @@ ar $d(n)$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $p$ ir pirmskaitlis, tad skaitlim $p^{n-1}$ ir tieši $n$ dalītāji 
 $1;\ p;\ p^{2};\ \ldots;\ p^{n-1}$. Pieņemsim, ka $p$ - pirmskaitlis, $n$ - 
@@ -841,7 +841,7 @@ citādi), un mainīt krāsu uz pretējo visās šīs figūras rūtiņās. Vai, a
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.AMO.2009.9.5A.png)
 
@@ -870,7 +870,7 @@ $y=cx^{2}+2ax+b$ grafiki?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Tā kā parabolām zari vērsti uz augšu, tad būtu $a>0,\ b>0,\ c>0$. Tā
 kā katra parabola krusto abscisu asi divos punktos, tad visu trinomu 
@@ -895,7 +895,7 @@ vienādi).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $p=2k+1,\ q=2n+1,\ k,\ n$ - naturāli skaitļi. Tad $p+q=2(k+n+1)$. 
 Varam pieņemt, ka $k<n$; tad $2k+1<k+n+1<2n+1$. Tā kā $2k+1$ un $2n+1$ ir divi 
@@ -919,7 +919,7 @@ riņķa līnijas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.AMO.2009.10.3A.png)
 
@@ -945,7 +945,7 @@ $\frac{a+c}{a+b}+\frac{b+d}{b+c}+\frac{c+a}{c+d}+\frac{d+b}{d+a} \geq 4$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pierādīt nevienādību $x+y \geq \frac{4}{\frac{1}{x}+\frac{1}{y}}$ 
 pozitīviem $x$ un $y$.
@@ -977,7 +977,7 @@ vienas malas, visas būtu savā starpā vienādas. Vai to var izdarīt, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** skat. 15.zīm.
 
@@ -1003,7 +1003,7 @@ $\frac{1}{1^{4}+1^{2}+1}+\frac{2}{2^{4}+2^{2}+1}+\frac{3}{3^{4}+3^{2}+1}+\ldots+
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka katram $n>0$ pastāv vienādība
 
@@ -1033,7 +1033,7 @@ kāda mazākā dienu skaita var gadīties, ka visiem atkal ir pa $0$ punktiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** pēc $2n-1$ dienām.
 
@@ -1067,7 +1067,7 @@ cipars ir $0$. Kāds ir skaitļa $S$ priekšpēdējais cipars?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli redzēt, ka $a$ un $b$ ir pāra skaitļi, tātad $S$ dalās ar $4$. Tā kā 
 $a^{3}-b^{3}=(a-b)\left(a^{2}+ab+b^{2}\right)$, tad 
@@ -1092,7 +1092,7 @@ $A_{1}D_{1},\ B_{1}E_{1}$ un $C_{1}F_{1}$ krustojas vienā punktā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No trijstūru viduslīniju īpašībām viegli seko vispārzināms fakts: izliektā 
 četrstūrī $XYZT$, kam nav paralēlu malu, nogriežņu $XZ,\ YZ,\ YT$ un $XT$ 
@@ -1128,7 +1128,7 @@ pozitīvos skaitļos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $4x-3 \geq 0,\ 4y-3 \geq 0,\ 4z-3 \geq 0$. Sareizinot visas 
 nevienādības, iegūstam 
@@ -1163,7 +1163,7 @@ lielāks: visu aritmētiskās vai visu ģeometriskās progresijas locekļu summa
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Attēlosim abas progresijas kā naturāla argumenta funkcijas. Aritmētiskās 
 progresijas locekļi izvietojas uz taisnes, bet ģeometriskās progresijas 
@@ -1187,7 +1187,7 @@ $x+y+z>3$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -1213,7 +1213,7 @@ $$R=n(n+1)(n+2)(n+3).$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** ievērojam, ka **katram** naturālam 
 $n \quad R=n^{4}+6n^{3}+11n^{2}+6n=\left(n^{2}+3n+1\right)^{2}-1$. Nav divu naturālu
@@ -1243,7 +1243,7 @@ $\sphericalangle ABM=\sphericalangle DBC$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.AMO.2009.12.4A.png)
 
@@ -1272,7 +1272,7 @@ tādu $n$, ka, pareizi spēlējot, otrais spēlētājs var uzvarēt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim no pretējā, ka $n$ ir **lielākais** konfekšu skaits sākuma pozīcijā, 
 pie kura otrajam spēlētājam eksistē uzvaroša stratēģija. (Tādi $n$ vispār 

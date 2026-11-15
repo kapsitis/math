@@ -31,7 +31,7 @@ joslām noteikti nebrauca autovadītājs?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām, kādi ir nākamie simetriskie skaitļi, ko var redzēt odometra displejā.
 
@@ -72,7 +72,7 @@ iegūtais skaitlis dalās ar $3$. Kādu lielāko skaitli varēja iegūt?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais skaitlis, kādu var iegūt, ir $201620162017017$. Pamatosim, ka lielāku
 skaitli nevar iegūt. Lai iegūtu lielāko skaitli, jāizsvītro pēc iespējas mazāk
@@ -108,7 +108,7 @@ kad tie visi reizē atkal dosies medībās?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka krokodils dodas medībās katru otro dienu, lauva - katru trešo,
 tīģeris - katru ceturto, bet gepards - katru piekto dienu. Pēc $n$ dienām
@@ -145,7 +145,7 @@ skat. 1.att.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var iegūt $1, 2, 3, 4$ vai $5$ pelēkas daļas, skat., piemēram, 2.att.
 
@@ -181,7 +181,7 @@ bijis tieši vienu reizi.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šaha galdiņu ar izmēriem $4 \times 4$ lauciņus var apstaigāt, piemēram, kā
 parādīts 5.att.
@@ -217,7 +217,7 @@ summa. Kā var noteikti zināt, ka pirmais čeks bija kļūdains?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Par $1~\mathrm{kg}$ apelsīnu un $2~\mathrm{kg}$ banānu pircējam kopā jāmaksā
 $1 \cdot 0,90+2 \cdot 0,60=2,10$ eiro. Līdz ar to par $3$ vienādiem dzērveņu
@@ -244,7 +244,7 @@ skaitlis dalās ar $9$. Kādu lielāko skaitli varēja iegūt?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais skaitlis, kādu var iegūt, ir $2012012019$. Pamatosim, ka lielāku
 skaitli nevar iegūt. Lai iegūtu lielāko skaitli, jāizsvītro pēc iespējas mazāk
@@ -284,7 +284,7 @@ tieši vienu reizi.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, zirdziņš var apstaigāt uzdevumā doto figūru, skat., piemēram, 9.att.
 
@@ -318,7 +318,7 @@ vienāda garuma nogriežnoos.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kā uzzīmēt trijstūri skat., piemēram, 10.att.
 
@@ -349,7 +349,7 @@ salīdzinot ar situāciju pirms tās?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Koku skaitu pirms talkas apzīmējam ar $x$, tad liepu skaits ir $\frac{1}{4} x$
 un ozolu skaits ir $\frac{3}{4} x$. Pēc pirmās talkas dienas ozolu īpatsvars
@@ -387,7 +387,7 @@ labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļut rūtiņā $B$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pakāpeniski aprēķinām, cik veidos varde var nokļūt katrā rūtiņā. Ievērojam, ka
 rūtiņā $X$ (skat. 12.att.) varde var nokļūt no rūtiņas $C$ vai $D$. Ja rūtiņā
@@ -418,7 +418,7 @@ vērtības un pamato, ka citu nav!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto piecciparu skaitli varam uzrakstīt kā $\overline{abcab}$. Pārveidojam šo
 skaitli
@@ -453,7 +453,7 @@ kā lapa var būt sagriezta $4$ daļās, skat. 14.att.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lapa var būt sagriezta $3,4,5,6,7,8,9,10$ daļās, skat., piemēram, 15.att.
 
@@ -481,7 +481,7 @@ $\sphericalangle BAF=\sphericalangle BEF!$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle ABF=\sphericalangle EBF=\beta$ un
 $\sphericalangle AFD=\sphericalangle ADF=\alpha$ un aprēķināsim
@@ -529,7 +529,7 @@ izmestas, vismaz viena iekrāsotā rūtiņa paliktu neizmesta?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais skaits rūtiņu, kas jāiekrāso, ir $7$. Tās var iekrāsot, piemēram, kā
 parādīts 17.att. Redzams, ka, izmetot jebkuras divas rindas, aizkrāsotas paliek
@@ -575,7 +575,7 @@ platība. Aprēķini slidotavas platību!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Slidu nomas malas garumu apzīmējam ar $x$, tad stāvlaukuma malas garums ir
 $60-x$. Slidu nomas platība ir $x^{2}$ un stāvlaukuma platība ir
@@ -612,7 +612,7 @@ un pamato, ka citu nav!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto piecciparu skaitli varam uzrakstīt kā $\overline{abcab}$. Pārveidojam šo
 skaitli
@@ -656,7 +656,7 @@ ir bijis tieši vienu reizi.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Šaha zirdziņš galdiņu var apstaigāt tā, kā parādīts, piemēram, 21.att.
 
@@ -701,7 +701,7 @@ iekrāsotās daļas (skat. 23.att.) laukuma attiecību pret $ABCD$ laukumu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $EB=x$, tad $EB=CF=DG=AH=x$ un $AE=BF=CG=DH=9x$ (skat. 24.att.).
 Kvadrāta $ABCD$ malas garums ir $10x$ un $S(ABCD)=100x^{2}$
@@ -745,7 +745,7 @@ nav!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $n$ apzīmējam astotās klases skolēnu skaitu, kas piedalījās turnīrā un ar
 $x$ - punktu skaitu, ko ieguva katrs astotās klases skolēns. Tātad turnīrā kopā
@@ -819,7 +819,7 @@ vairāk nekā viens metrs koka sijas. Cik sver viens metrs katras sijas?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Koka sijas garumu apzīmējam ar $x$, bet dzelzs sijas garumu - ar $x+2$. Tad
 viens metrs koka sijas sver $\frac{90}{x} \mathrm{~kg}$, bet viens metrs dzelzs
@@ -861,7 +861,7 @@ Pierādīt, ka $9x^{6}-x^{3}+1 > 0$ visiem reāliem $x$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -874,7 +874,7 @@ Tā kā skaitļa kvadrāts ir nenegatīvs un $\frac{35}{36}$ ir pozitīvs skaitl
 tad pēdējā nevienādība ir patiesa. Tā kā tika veikti ekvivalenti pārveidojumi,
 tad arī dotā nevienādība ir patiesa visiem reāliem skaitļiem $x$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Reizinām nevienādības abas puses ar $2$ un veicam ekvivalentus pārveidojumus:
 
@@ -910,7 +910,7 @@ $E$ sadala sānu malu $CD$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $BC:AD=3:5$, tad $S(ABC):S(ACD)=3:5$, jo šiem trijstūriem ir vienādi
 augstumi, kas sakrīt ar trapeces augstumu (skat. 25.att.). Tātad $S(ABC)=3x$ un
@@ -944,7 +944,7 @@ $9801:1089=9$. Atrast vēl divus citus pārdabiskus skaitļus!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ievērot, ka, pierakstot pārdabiskam skaitlim galā pašam sevi, arī iegūst
 pārdabisku skaitli, tāpēc der, piemēram, skaitļi $10891089$ un $108910891089$,
@@ -978,7 +978,7 @@ nepārsniedz $2017$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Lielāko starp izvēlētajiem skaitļiem apzīmējam ar $x$ un pierādīsim, ka
 var atrast divus citus skaitļus, kuru summa ir $x$.
@@ -1036,7 +1036,7 @@ minūtes. Aprēķināt $v$ un $c$!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot Pitagora teorēmu trijstūrī $ABC$, iegūstam $AC=20 \mathrm{~km}$
 (skat. 27.att.). Tā kā $BD=AB-AD=16-11=5 \mathrm{~km}$, tad, lietojot Pitagora
@@ -1079,7 +1079,7 @@ Pierādīt, ka $x^{2}+2y^{2}+2xy+y+1 > 0$, ja $x, y$ - reāli skaitļi!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -1108,7 +1108,7 @@ krusto malu $BC$ punktā $G$. Pierādīt, ka trijstūris $BFG$ ir vienādsānu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūri $AEF$ un $CEB$ ir līdzīgi pēc pazīmes $\ell \ell$, jo 
 $\sphericalangle AEF=\sphericalangle CEB$ kā krustleņķi un
@@ -1128,7 +1128,7 @@ augstums, tad trijstūris $BFG$ ir vienādsānu trijstūris, kas arī bija jāpi
 
 ![](LV.NOL.2017.10.3A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Savienojam diagonāļu krustpunktu $O$ ar malas $AB$ viduspunktu $T$, nogriežņa
 $OT$ krustpunktu ar $BE$ apzīmējam ar $P$ (skat. 29.att.). Tad $OT || AD$,
@@ -1165,7 +1165,7 @@ rūtiņas malas garums ir viena vienība!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais iespējamais griezuma līniju kopgarums ir $24$ vienības, skat., piemēram,
 30.att.
@@ -1228,7 +1228,7 @@ sākotnējais desmitciparu skaitlis!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja skaitlis dalās ar $10$, tā pēdējais cipars ir $0$ . Tātad $A=0$.
 
@@ -1265,7 +1265,7 @@ iespējamos variantus atkarībā no $T$ vērtības.
 |                  | $6$              | $4$              | $I=2$ un $K=9$, līdz ar to sākotnējais skaitlis bija $5076547290$.                                        |
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 * $\overline{MATEMĀTIKA}$ dalās ar $10$ ($A=0$)
 * $\overline{MATEM}$ dalās ar $5$ ($M=5$)
@@ -1296,7 +1296,7 @@ ka citu nav!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No aritmētiskās progresijas definīcijas izriet, ka $a_{2}=a_{1}+d$ un
 $a_{3}=a_{1}+2d$, kur $d$ ir diference. Līdz ar to iegūstam vienādojumu
@@ -1340,7 +1340,7 @@ reāli pozitīvi skaitļi!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -1372,7 +1372,7 @@ x+z=2017  \tag{1}\\
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No (2) izriet, ka $y$ jādalās ar $31$ jeb
 
@@ -1430,7 +1430,7 @@ $x=1521, y=4836, z=496$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Riņķa līniju pieskaršanās punktus apzīmējam ar $A, B, C$ un $D$ (skat. 35.att.).
 Novelkam doto riņķa līniju kopīgās pieskares $AM$ un $BM$. Trijstūris $AMB$ ir
@@ -1471,7 +1471,7 @@ to!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim gadījumu, kad pirmā gājienu izdara Antra un izmanto tālāk aprakstīto
 stratēģiju. Pirmajā gājienā centrālajā rūtiņā Antra ieliek krustiņu
@@ -1513,7 +1513,7 @@ $z$ izpildās $(x * y) * z=x * (y * z)$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādāmā vienādība $(x * y) * z=x * (y * z)$ ir ekvivalenta vienādībām:
 
@@ -1540,7 +1540,7 @@ Pierādīt, ka $x^{2}+y^{2}+4 \geq 2x-2y-xy$, ja $x, y-$ reāli skaitļi!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Reizinām nevienādības abas puses ar $2$ un veicam ekvivalentus pārveidojumus:
 
@@ -1574,7 +1574,7 @@ $1089$, jo $9801:1089=9$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nākamie pārdabiskie skaitļi ir
 $2178; 10989; 21978; 109989; 219978; 1099989; 2199978; 10891089 ; 10999989 ; 21782178 ; 21999978$.
@@ -1616,7 +1616,7 @@ rādiusu garumus, ja $DE=5$ un $BC=7$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākās riņķa līnijas rādiusa garumu apzīmējam ar $R$, tad $AO=OE=OC=R$,
 $OD=OE-ED=R-5$ un $OB=OC-BC=R-7$.
@@ -1648,7 +1648,7 @@ lapas, kuras izmēri ir **a)** $41 \times 65$; **b)** $47 \times 65$ rūtiņas?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Lielākais skaits taisnstūru $5 \times 13$, ko var izgriezt no rūtiņu
 lapas $41 \times 65$, ir $41$, piemēram, skat. 39.att. Vairāk taisnstūrus nav

@@ -27,7 +27,7 @@ ka iegūtā summa ir vismazākā iespējamā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 2. att., kur ierakstīto skaitlu summa ir 26.
 
@@ -51,7 +51,7 @@ Vai naturāla skaitḷa ciparu reizinājums var būt **(A)** $2520$; **(B)** $54
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var būt, piemēram, skaitla 8975 ciparu reizinājums ir 
 $8 \cdot 9 \cdot 7 \cdot 5=72 \cdot 35=2520$.
@@ -83,7 +83,7 @@ kam visas rūtiṇas ir neiekrāsotas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 3. att.
 
@@ -114,7 +114,7 @@ vienmēr var uzvarēt, neatkarīgi no Kates nosauktajiem skaitļiem!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Savā pirmajā gājienā Alisei jānosauc skaitlis 1. Pēc tam pēc katra 
 Kates gājiena Alise izvēlas pieskaitīt tādu skaitli, kas kopā ar 
@@ -157,7 +157,7 @@ priekšmets ir smagāks, tad atbilstošais kauss nosveras uz leju.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajā svēršanā vienā kausā liekam $1~\text{g}$ un $2~\text{g}$ 
 bumbiṇas, bet otrā liekam $3~\text{g}$ bumbiṇu. Iespējami trīs gadījumi.
@@ -206,7 +206,7 @@ ka iegūtā summa ir mazākā iespējamā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 5. att., kur ierakstīto skaitlu summa ir 64.
 
@@ -231,7 +231,7 @@ summu tā, lai arī šo skaitḷu reizinājums būtu 299?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis 299 ir izsakāms kā $299=13 \cdot 23$, bet reizinātāju 
 summa ir $13+23=36<299$. Tātad reizinājumam $13 \cdot 23$ vēl 
@@ -267,7 +267,7 @@ kam visas rūtiņas ir neiekrāsotas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 7. att.
 
@@ -298,7 +298,7 @@ drīkst iet arī vairāk nekā vienu reizi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Var, piemēram, skat. 9. att.
 
@@ -346,7 +346,7 @@ kauss nosveras uz leju.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajā svēršanā vienā kausā liekam 1 g un 2 g atsvarus, bet otrā liekam 3 g atsvaru. Iespējami trīs gadījumi.
 
@@ -386,7 +386,7 @@ redzamo figūru, kurai visas rūtiṇas ir neiekrāsotas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Abos gadījumos prasītais ir izdarāms, piemēram, skat. 12. att., 
 kur iekrāsotas $7$ rūtiṇas.
@@ -412,7 +412,7 @@ Atrodi visus iespējamos variantus un pamato, ka citu nav!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitli $414$ kā četru dažādu skaitḷu reizinājumu var iegūt trīs veidos:
 
@@ -457,7 +457,7 @@ Pierādīt, ka trijstūra $ABC$ divi leņk̦i ir vienādi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot trijstūra iekšējo leṇḳu summu divos trijstūros (skat. 13. att.), iegūstam:
 ○ $\sphericalangle N B C=180^{\circ}-\sphericalangle B N C-\sphericalangle N C B=180^{\circ}-4 x-6 x=180^{\circ}-10 x(\triangle N B C)$;
@@ -487,7 +487,7 @@ otrklasnieku. Cik varēja būt otrklasnieku?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja 20 bērni turēja aiz rokas vismaz vienu pirmklasnieku, tad atlikušie $30-20=10$ katrs turēja pie rokas divus otrklasniekus.
 Tā kā kopā bija 24 bērni, kas turēja pie rokas vismaz vienu otrklasnieku, un 10 no tiem turēja divus otrklasniekus, tad atlikušie 24-10=14 katrs turēja tieši vienu otrklasnieku.
@@ -524,7 +524,7 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, ir iespējams, piemēram, $A=21$, $B=354$, $C=687$ ($687-354 = 333=354-21$).
 
@@ -552,7 +552,7 @@ ir divu skaitl!u, kas atrodas divos taisnstūros tieši zem tā, summa!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 15. att.
 
@@ -583,7 +583,7 @@ ka skaitlis $x(x+1)$ dalās ar $74$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $74=37 \cdot 2$. Tā kā 37 ir pirmskaitlis, tad vienam 
 no skaitlliem $x$ vai $x+1$ jādalās ar 37. No diviem pēc kārtas 
@@ -620,7 +620,7 @@ Aprēḳināt $\sphericalangle ACB$, ja $AB=CM$!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $H$ un $G$ apzīmēsim augstumu, kas vilkti attiecīgi no virsotnēm 
 $A$ un $C$, galapunktus (skat. 17. att.). Apzīmējot $\sphericalangle ABC=\alpha$ 
@@ -666,7 +666,7 @@ spēlētājas gājieniem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienmēr var uzvarēt Alise. Savā pirmajā gājienā Alisei jānosauc 
 skaitlis $1$. Pēc tam pēc katra Kates gājiena Alise izvēlas 
@@ -698,7 +698,7 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, ir iespējams, piemēram, $A=27$, $B=1548$, $C=3069$ 
 ($3069-1548 = 1521 = 1548-27$).
@@ -725,7 +725,7 @@ Aprēḳināt izteiksmes $\frac{20252024^{2}}{20252023^{2}+20252025^{2}-2}$ vēr
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $20252024=a$, tad iegūstam, ka
 
@@ -752,7 +752,7 @@ Atrast vismazāko naturālo skaitli $N$, kam reizinājums $1 \cdot 2 \cdot 3 \cd
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Vismazākais skaitlis $N=31$. Sadalot pirmreizinātājos, iegūstam, 
 ka $434=2 \cdot 7 \cdot 31$. Lai reizinājums 
@@ -794,7 +794,7 @@ Zināms, ka $BK=KL$. Pierādīt, ka trijstūris $ABC$ ir vienādsānu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $BK=KL$, tad $\sphericalangle BLK = \sphericalangle KBL=\alpha$ 
 (skat. 1.att.) kā leṇki pret vienādām malām trijstūrī $LKB$.
@@ -834,7 +834,7 @@ ierakstīto skaitlu summa ir viena un tā pati!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, skat. 3. att., kur katrā trijstūrī ierakstīto skaitlu summa ir $22$.
 *Piezīme.* Ir tikai viens derīgs skaitlu izkārtojums ar precizitāti 
@@ -863,7 +863,7 @@ bumbiṇa krāsā $A$, kas atrodas pa kreisi no kādas bumbiṇas krāsā $B$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais bumbiņu skaits ir 199. No dotā secinām, ka katrā krāsā ir 
 vismaz viena bumbiṇa. Ja būtu divas krāsas $K_{1}$ un $K_{2}$, 
@@ -890,7 +890,7 @@ lielāki par savu ciparu reizinājumu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam meklējamo skaitli $\overline{abc}=100 a+10 b+c$. 
 Tad iegūstam, ka $100a + 10b + c = 5 a b c$. 
@@ -930,7 +930,7 @@ dalītāji un kas dalās ar $7$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $18=18 \cdot 1=9 \cdot 2=6 \cdot 3=3 \cdot 3 \cdot 2$. 
 Ja skaitlis $n$ sadalās pirmreizinātājos kā 
@@ -968,7 +968,7 @@ $L$ tā, ka $2KE = EA$ un $2LF=FB$. Pierādīt, ka $ABKL$ ir paralelograms!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam divu trijstūru pāru līdzību pēc pazīmes $m \ell m$ (skat.
 5. att.).
@@ -1006,7 +1006,7 @@ Dots taisnstūris ar izmēriem $1 \times n$ rūtiṇas, kur $n \geq 3$, uz kura 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Māris vienmēr var uzvarēt, ja $n=3 k+2$, kur $k \in \mathbb{N}$, bet Kims vienmēr var uzvarēt visām atlikušajām $n$ vērtībām.
 Apskatām mazākās $n$ vērtības.
@@ -1053,7 +1053,7 @@ Atrisināt naturālos skaitlos vienādojumu $(a+1)(b+1)(c+1)=3 a b c$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka vienādojums ir simetrisks attiecībā pret $a, b, c$ vērtībām, tāpēc, nezaudējot vispārīgumu, var pieṇemt, ka $a \leq b \leq c$. Abas vienādojuma puses dalot ar $a b c>0$, iegūstam $\left(1+\frac{1}{a}\right)\left(1+\frac{1}{b}\right)\left(1+\frac{1}{c}\right)=3$. Ja $a \geq 3$, tad
 
@@ -1104,7 +1104,7 @@ Atrast divas tādas reālas pozitīvas $x$ vērtības, ka $2 x^{x}=\sqrt{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der $x=\frac{1}{2}$ un $x=\frac{1}{4}$. Pārbaudām, ka iegūta patiesa vienādība:
 
@@ -1125,7 +1125,7 @@ Zināms, ka naturālam skaitlim $A$ ir tieši 111 dažādi naturāli dalītāji.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka $A$ dalās ar 216. Tā kā $216=2^{3} \cdot 3^{3}$, 
 tad skaitli $A$ var uzrakstīt formā 
@@ -1152,7 +1152,7 @@ Pierādīt, ka punkti $A,H,F,C$ atrodas uz vienas riṇķa līnijas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādsānu trijstūrī $DAE$ ir novilkta bisektrise $AK$, tātad tā ir 
 arī augstums un mediāna, no kā izriet, ka $AK \perp ED$ un $K$ ir 
@@ -1175,7 +1175,7 @@ un esam ieguvuši, ka $\sphericalangle AHC=\sphericalangle AFC=180^{\circ}-\alph
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ar $K$ apzīmējam $AF$ un $DE$ krustpunktu. Trijstūris $DAE$ 
 ir vienādsānu trijstūris, tāpēc bisektrise $AK$ ir arī augstums 
@@ -1209,7 +1209,7 @@ arī dotā piecstūra virsotnes, ierakstīto skaitlu summa ir viena un tā pati!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Piemēram, skat. 10. att.
 **(B)** Pamatosim, ka daḷā, kas apzīmēta ar $X$, var būt ierakstīts tikai skaitlis 1. Vispirms noskaidrosim, kāda ir vienā trijstūrī ierakstīto skaitļu summa. Visu ierakstīto skaitḷu summa ir visu skaitḷu no 1 līdz 11 summa, tātad 66. Doto piecstūri var sadalīt trīs trijstūros no vienas piecstūra virsotnes novelkot divas diagonāles. Tātad vienā trijstūrī ierakstīto skaitḷu summa ir $M=66: 3=22$.
@@ -1226,7 +1226,7 @@ Tātad der tikai $X=1$.
 
 ![](LV.NOL.2025.11.4A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 **(A)** Līdzīgi kā iepriekšējā atrisinājumā.
 
@@ -1272,7 +1272,7 @@ $a^{2}+c-bc = b^{2}+a-ac = c^{2}+b-ab$. Vai noteikti $a=b=c$ ?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No pirmās vienādības iegūstam:
 
@@ -1328,7 +1328,7 @@ Pierādīt, ka $ab + bc + ac$ dalās ar $a+b+c$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotās daḷas skaitītāju un saucēju reizinām ar saucēja saistīto izteiksmi
 
@@ -1351,7 +1351,7 @@ $(a ; b ; c)$, ka $972^{a} \cdot 32^{b} \cdot 9^{c}=1$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der, piemēram, $(0 ; 0 ; 0)$ un $(10 ;-4 ;-25)$. Pārbaudām, ka šie skaitlu trijnieki atbilst nosacījumiem:
 
@@ -1393,7 +1393,7 @@ malām. Pierādīt, ka arī piektā diagonāle ir paralēla kādai piecstūra ma
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam piecstūri ar $ABCDE$ un pieṇemam, ka 
 $AB \| CE$, $BC \| AD$, $CD \| BE$ un $DE \| AC$. 
@@ -1434,7 +1434,7 @@ ka pēc galīga šādu gājienu skaita visiem rūḳīšiem būs vienāds skaits
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pamatosim, ka lielākais iespējamais skaits konfekšu, kas var būt 
 katram rūḳītim pēc gājiena, nepalielinās. Ievērosim, ka kādam rūḳītim 
@@ -1495,7 +1495,7 @@ skaitlu reizinājums dalās ar $5$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Tā kā $n$ ir pāra skaitlis, tad $n=2 k, k \in \mathbb{N}$, 
 un kopā tabulā ir $n^{2}=(2 k)^{2}=4 k^{2}$ rūtiņu. Tādā gadījumā 

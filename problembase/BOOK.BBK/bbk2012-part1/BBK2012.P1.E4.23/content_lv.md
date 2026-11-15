@@ -3,7 +3,7 @@
 Dots, ka $(a,c)=1$ un $(b,c)=1$. Pierādiet, ka $(ab, c)=1$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦msim pretējo, ka $(ab,c)=d \neq 1$. Ar $p$ apzīmēsim kādu no skaitļa $d$ pirmreizinātājiem, 
 t.i. $p \mid c$ un $p \mid a b$. No pirmskaitḷu 2.īpašības seko, ka $p \mid a$ vai $p \mid b$. 

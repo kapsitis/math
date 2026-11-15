@@ -6,7 +6,7 @@ lielākais kopīgais dalītājs būtu $1$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $1$ ir savstarpējs pirmskaitlis ar visiem naturāliem skaitļiem. 
 Aplūkosim naturālus skaitļus no $2$ līdz $360$. Ja tāds $n$ nav pirmskaitlis, 

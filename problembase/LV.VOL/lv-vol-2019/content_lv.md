@@ -11,7 +11,7 @@ var būt $\frac{4a^{2}+7b^{2}}{ab}$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot doto izteiksmi, iegūstam
 
@@ -55,7 +55,7 @@ ja $S(AMP)=S(BNP)=8$ un $S(NMP)=4$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $S(MAN)=S(NBM)=8+4=12$ (skat. 1.att.) un šiem trijstūriem ir 
 kopīga mala $MN$, tāpēc augstumi, kas no virsotnēm $A$ un $B$ novilkti pret šo 
@@ -101,7 +101,7 @@ Vai naturāla skaitļa kvadrāta ciparu summa var būt **(A)** $19$, **(B)** $20
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, $17^{2}=289$ un $2+8+9=19$.
 
@@ -131,7 +131,7 @@ tukšo rūtiņu skaits?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Mazākais iespējamais tukšo rūtiņu skaits ir $1$. lekrāsojam doto 
 kvadrātu kā šaha galdiņu (skat. 2.att.). Tad ir $13$ melnas un $12$ baltas 
@@ -169,7 +169,7 @@ $x_{1}^{2}+x_{2}^{2}+\ldots+x_{16}^{2}=y_{1}^{2}+y_{2}^{2}+\ldots+y_{16}^{2}$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā turnīrā piedalījās $16$ komandas un katra komanda spēlēja ar katru citu, 
 tad katra komanda ir piedalījusies tieši $15$ spēlēs.
@@ -206,7 +206,7 @@ pirmskaitļa un salikta skaitļa summu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visus pāra skaitļus, kas lielāki nekā $100$, var izteikt kā summu $(2+p)$, kur 
 $p$ ir pāra skaitlis, kas lielāks nekā $100$, tātad $p$ ir salikts skaitlis. 
@@ -219,7 +219,7 @@ lielāki nekā $5$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Mēģinām izteikt, piemēram $101$ dažādos veidos:
 
@@ -248,7 +248,7 @@ Pierādīt, ka taisne $BH$ sadala nogriezni $CD$ uz pusēm!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Taisnes $BH$ krustpunktu ar $CD$ apzīmējam ar $P$ (skat. 5.att.). Tātad 
 jāpierāda, ka $CP=PD$. Apzīmējam 
@@ -302,7 +302,7 @@ vērtība nav naturāla skaitļa kvadrāts!
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka naturālu skaitli $n$, dalot ar $3$, var iegūt atlikumu $0, 1$ vai
 $2$, un atrodam, kādu atlikumu var iegūt, ja $n^{2}$ dala ar $3$:
@@ -335,7 +335,7 @@ locekļiem varētu atrast divus, kas savā starpā sarokojušies?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais iespējamais sarokošanos skaits ir $9$, skat., piemēram, 6.att. kur 
 komisijas locekļi ir attēloti ar punktiem, bet sarokošanās - ar līniju starp 
@@ -384,7 +384,7 @@ $\frac{a_{1}+a_{2}+\cdots+a_{n}}{n} \leq \frac{1}{1000}$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka pie $n=1; 2; \ldots ; 999$ ir spēkā nevienādība
 
@@ -427,7 +427,7 @@ ka ir tāda pilsēta, kurā ir vismaz $9$ biroji!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka katrai aviokompānijai ir vismaz $9$ biroji. Ja kādai kompānijai 
 būtu ne vairāk kā $8$ biroji, tad tā varētu noorganizēt ne vairāk kā $28$ 
@@ -455,7 +455,7 @@ kas apvilktas ap trijstūriem $AMD$ un $DNC$, pieskaras viena otrai!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam nogriezni $BD$ (skat. 8.att.). Ievērojam, ka 
 $\sphericalangle DAC=\sphericalangle DBC$ kā ievilktie leņķi, kas balstās uz 
@@ -492,7 +492,7 @@ $13^{n}+10^{n}+7^{n}+3^{n}$ vērtība nav naturāla skaitļa kvadrāts!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka naturālu skaitli $n$, dalot ar $4$, var iegūt atlikumu $0, 1, 2$ 
 vai $3$, un atrodam, kādu atlikumu var iegūt, ja $n^{2}$ dala ar $4$:
@@ -539,7 +539,7 @@ var būt vienāds ar $100a_{1}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka lielākā iespējamā indeksa $i$ vērtība ir $11$.
 
@@ -583,7 +583,7 @@ virsotnēm šajos punktos mediānu krustpunkta koordinātas arī ir veseli skait
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka trijstūra ar virsotnēm 
 $A\left(x_{A}, y_{A}\right), B\left(x_{B}, y_{B}\right)$ un 
@@ -677,7 +677,7 @@ $x_{1}^{3}+x_{2}^{3}+x_{3}^{3}$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojot, ka $x_{1}, x_{2}, x_{3}$ ir dotā vienādojuma saknes, to var 
 pārrakstīt formā 
@@ -713,7 +713,7 @@ $x_{1}^{3}+x_{2}^{3}+x_{3}^{3}=p\left(x_{1}+x_{2}+x_{3}\right)-3 \cdot 2019=p \c
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ievērojot, ka $x_{1}, x_{2}, x_{3}$ ir dotā vienādojuma saknes, to var 
 pārrakstīt formā 
@@ -750,7 +750,7 @@ $OE^{2}=OB^{2}+2 \cdot OB \cdot BE$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $OB=OC=R$ (skat. 12.att.). Tā kā $C$ ir loka $AB$ viduspunkts, tad 
 $OC$ ir nogriežņa $AB$ vidusperpendikuls, kas krusto $AB$ punktā $F$. Tātad 
@@ -777,7 +777,7 @@ Līdz ar to esam ieguvuši, ka $OE^{2}=OB^{2}+2 \cdot OB \cdot BE$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-2
 
 Novelkam rādiusu $OC$ (skat. 13.att.). Tā kā $C$ ir loka $AB$ viduspunkts, tad 
 $OC$ ir nogriežņa $AB$ vidusperpendikuls, kas $AB$ krusto punktā $F$. Tātad 
@@ -829,7 +829,7 @@ vērtība nav naturāla skaitļa kvadrāts!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto summu apzīmējam ar $S$. Aplūkojam katru saskaitāmo un summu $S$ pēc moduļa
 $8$ dažādām $n$ vērtībām.
@@ -888,7 +888,7 @@ ir iracionāli!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotos sešus iracionālos skaitļus attēlosim ar punktiem un savienosim divus 
 punktus ar pelēku nogriezni, ja attiecīgo skaitļu summa ir racionāls skaitlis, 
@@ -931,7 +931,7 @@ nenegatīvi veseli skaitļi, ir $2019$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pamatosim, ka der, piemēram, skaitļi $a=2$ un $b=2021$.
 

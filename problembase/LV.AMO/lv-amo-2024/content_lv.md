@@ -26,7 +26,7 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $2$.
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Skaitḷus režģī iespējams sarakstīt, kā tas redzams 2. att.
 
@@ -55,7 +55,7 @@ lai garantētu, ka viņam:
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Tā kā ir četras dažādas krāsas, tad minimālais bumbiṇu skaits, 
 kas jāizvelk Aleksandram ir $4+1=5$. Ar četrām nepietiks, jo tad varētu 
@@ -94,7 +94,7 @@ $7 \cdot(9-5)-3=25$.
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Prasītos ciparus varam iegūt sekojoši:
 
@@ -129,7 +129,7 @@ pārklāties viena ar otru vai iziet ārpus taisnstūra.
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Jā var. Piemēram tā, kā redzams 4. att.
 
@@ -165,7 +165,7 @@ Cik patiesībā bija pulkstenis? Atbildi pamato!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierakstīsim katra cilvēka atbildi. A - 2:54; B-2:57; C-3:03; D-3:02. 
 Neviens no šiem laikiem pēc dotā nevar būt pareizs.
@@ -206,7 +206,7 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $4$.
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Skaitḷus režģī iespējams sarakstīt, kā tas redzams 6. att.
 
@@ -234,7 +234,7 @@ lai varētu apgalvot, ka kopumā Annai vismaz sešas no bumbiņām ir vienā kr�
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Nē. Piemēram, varētu gadīties, ka Anna kopā ir 
 izvilkusi $9$ violetas bumbiņas.
@@ -280,7 +280,7 @@ savu roku. Cik no šiem rūķiem vienmēr saka patiesību?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kopā rūķı̄ši pacēla rokas $8+5+1=14$ reizes. Ja visi teiktu patiesību, 
 tad katrs paceltu roku vienu reizi un būtu 10 paceltas rokas kopumā.
@@ -313,7 +313,7 @@ ka tās sakrīt.
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Skatīt 8. att.
 
@@ -341,7 +341,7 @@ viens - par trīs, viens - par pieci un viens - par deviņi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka konfekšu kastē var būt vai nu $119$, vai arı̄ 
 125 konfektes. Konfekšu skaits nevar būt 115 (jo tad kāds 
@@ -396,7 +396,7 @@ telpa bija gatava?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka kopā tika pavadītas $37 \frac{1}{2}$ minūtes, 
 lai sagatavotu telpu jeb telpa bija gatava 16:37:30. 
@@ -453,7 +453,7 @@ tādas balvas, kurām bija vienāds saturs.
 
 </small>
 
-## Atrisinājums  
+## Atrisinājums-1
 
 Nepieciešams uzzināt, cik dažādus komplektus Jurǵis varēja 
 izveidot. Tā kā katra balva satur vismaz pa vienam no katra 
@@ -493,7 +493,7 @@ $2$ vai $3$ (ja tas dalās bez atlikuma). Vai šīs skaitļu virknes
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pamatosim, ka prasītais nav iespējams. Aplūkojam, 
 cik daudz pirmreizinātāju ir sākotnējam skaitlim. 
@@ -541,7 +541,7 @@ rūtiņu līnijām? Figūras drīkst būt pagrieztas.
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Kvadrātā ir $10 \cdot 10=100$ rūtiņas, bet katrai figūrai 
 ir $6$ rūtiņas. Tā kā $100:6 = 16$, atlikumā $4$, tad vairāk 
@@ -574,7 +574,7 @@ bet Sandra dziedāja 4 dziesmas (mazāk nekā jebkura cita meitene)?
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pamatosim, ka kopējais nodziedāto dziesmu skaits ir 7. 
 Apzīmēsim Maijas un Ināras nodziedāto dziesmu skaitu attiecīgi 
@@ -621,7 +621,7 @@ Nosakiet šo trīs skaitḷu summu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka atbilde ir $6072$. Apzīmēsim dotos skaitļus ar 
 $a, b$ un $c$. Pie tam tā kā ir mazākais un lielākais skaitlis, 
@@ -672,7 +672,7 @@ secīgus skaitļus, kuru summa būs vismaz $17$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim pretējo, tas ir, pieņemsim, ka katru 3 secīgu skaitļu 
 summa būs mazāka nekā 17. Ievērosim, ka kopā var izveidot $10$ 
@@ -715,7 +715,7 @@ Vai burvji rituālā no skaitliem $3,8,9,2,4$ var iegūt
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, burvji var iegūt šos skaitlus, ja (jebkurā secībā) 
 pielieto sekojošās burvestības:
@@ -794,7 +794,7 @@ $\sphericalangle BCO$ ar $\alpha$ un $\beta$!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka trijstūris $AOC$ ir vienādsānu, jo $AO=CO$ 
 kā riņka līnijas rādiusi. Ņemot vērā, ka vienādsānu trijstūrim 
@@ -845,7 +845,7 @@ Dotas piecas smagas kastes un tās izkārtotas, kā tas redzams 12. att. Šīs k
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka sākotnējā izkārtojumā centrā varēja atrasties 
 tikai ceturtā kaste. Iztēlosimies, ka kastes pilnībā atrodas uz 
@@ -897,7 +897,7 @@ Kāda var būt izteiksmes $a^{4}+b^{4}$ vērtība, ja papildus zināms, ka $a+b 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojot saucējus pirmajai vienādībai, iegūstam
 
@@ -999,7 +999,7 @@ skaitļi $20, 24, 25$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka Agnese nevar panākt to, ka uz tāfeles 
 ir uzrakstīti skaitḷi $20$, $24$, $25$. Katrā gājienā 
@@ -1046,7 +1046,7 @@ krustpunkts ir $H$. Pamatot, ka $S_{AGHI} = S_{BEG}+S_{CEHF}+S_{DFI}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $S_{AED}=\frac{1}{2} S_{ABCD}$, jo trijstūra $AED$ 
 mala $A D$ sakrīt ar paralelograma malu un arī to attiecīgie augstumi 
@@ -1101,7 +1101,7 @@ Cik ir tādu deviņciparu tālruņa numuru, kas varētu būt Zanes tālruņa num
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka atbilde ir 12 dažādi skaitļi. Vispirms 
 uzrakstīsim visas pogas, kuru centri veido kvadrātu:
@@ -1153,7 +1153,7 @@ Atrast visus naturālos skaitļus $m$ un $n$, kuriem $m^{3} n+m+n = mn+2mn^{2}$.
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pārrakstīsim izteiksmi kā $m=mn+2mn^{2}-m^{3}n-n$. 
 Tā kā vienādojuma labā puse dalās ar $n$, tad arı̄ kreisā puse 
@@ -1184,7 +1184,7 @@ vai arī divus tādus, kuru ciparu summu summa ir vienāda ar $28$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā iespējamā trīsciparu skaitḷa ciparu summa ir $1$, 
 kas atbilst skaitlim $100$, bet lielākā ciparu summa ir $27$, 
@@ -1218,7 +1218,7 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka mazākais $n$ ir $6$. Tā kā visi cipari no 
 $0$ līdz $9$ parādās vismaz vienā no summām kā pēdējais 
@@ -1249,7 +1249,7 @@ Pamatot, ka trijstūris $AED$ ir vienādmalu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atzı̄mēsim punktu $E'$ kvadrāta $ABCD$ iekšienē, 
 lai $\triangle BEC=\triangle AE'B$ 
@@ -1285,7 +1285,7 @@ meža formu, ne savu sākotnējo atrašanās vietu tajā).
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pamatosim, ka, ja Jānītis ies pa riņķa līniju, kuras 
 garums ir $2 \sqrt{\pi S}$ kilometri, tad viņš vienmēr 
@@ -1315,7 +1315,7 @@ $$\frac{a^{2}+2bc}{b^{2}+c^{2}}+\frac{b^{2}+2ac}{a^{2}+c^{2}}+\frac{c^{2}+2ab}{a
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka katrs saskaitāmais nevienādība ir lielāks nekā $1$. 
 Tā kā $a, b$ un $c$ ir trijstūra malas garumi, tad pēc trijstūra 
@@ -1352,7 +1352,7 @@ Vai var droši apgalvot, ka festivāla beigās bija vismaz
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais iespējamais iegūtais punktu skaits ir 0, 
 bet lielākais ir 9, tātad dalībnieka punktu skaits var pieņemt 
@@ -1389,7 +1389,7 @@ divciparu skaitlis dalās ar $3$.
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Tā kā skaitlis dalās ar $3$ tad un tikai tad, ja tā ciparu 
 summa dalās ar $3$, tad visus spriedumus varam izteikt 
@@ -1425,7 +1425,7 @@ Izliekta četrstūra diagonāles sadala to četros trijstūros ar vienādiem per
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pamatosim, ka šim četrstūrim diagonāles krustpunktā dalās uz pusēm. Diagonālu krustpunktu atzīmēsim ar $O$. Pieņemsim pretējo, tas ir, ka diagonāles nedalās uz pusēm krustpunktā. Tātad, nezaudējot vispārību, pieņemsim, ka $C O \leq A O$ un $B O \leq D O$. Atliksim punktus $C^{\prime}$ un $B^{\prime}$ attiecīgi uz nogriežņiem $C A$ un $B D$, lai $C O=O C^{\prime}$ un $B O=O D$ (skatīt 17. att.). Šādi esam izveidojuši paralelogramu $B C B^{\prime} C^{\prime}$.
 
@@ -1466,7 +1466,7 @@ krāsa sakritīs ar sākotnējo, ja pie galda sēž
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Nē, ne vienmēr. Ja pie galda apsēdušies hameleoni, 
 kuru krāsas secīgi ir: sarkans, zaļš, zaḷš, sarkans, zaļš, zaḷš, 
@@ -1562,7 +1562,7 @@ $$a+b+c > \sqrt{2\left(a^{2}+b^{2}+c^{2}\right)}.$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $a, b$ un $c$ un ir trijstūra malas garumi, tad zināms, 
 ka ir spēkā trijstūra nevienādība, tas ir, $a+b>c$. Pie 
@@ -1607,7 +1607,7 @@ bija vismaz **(A)** $3$; **(B)** $4$ dalībnieki ar vienādu punktu skaitu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais iespējamais iegūtais punktu skaits ir 1, bet lielākais 
 ir $11 \frac{1}{2}$, tātad dalībnieka punktu skaits var 
@@ -1656,7 +1656,7 @@ Vai var gadīties, ka šo skaitļu summa ir **(A)** $24$; **(B)** $26$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pamatosim, ka šis nav iespējams. Ja mums ir dots, 
 ka $2024=x_{1}^{3}+x_{2}^{3}+\cdots+x_{k}^{3}$, kur 
@@ -1691,7 +1691,7 @@ $\sphericalangle DHC = 90^{\circ}$. Pamatot, ka $BH \| CD$.
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Uz malas $CD$ atliksim viduspunktu $M$. Tādā gadījumā $HM$ ir 
 taisnleņka trijstūra mediāna, kas novilkta pret hipotenūzu $CD$, 
@@ -1723,7 +1723,7 @@ ne meža formu, ne savu sākotnējo atrašanās vietu tajā).
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pamatosim, ka Jānītis var izkļūt no meža, ejot pa loku, kas atbilst 
 pusei no riņka līnijas ar rādiusu $\sqrt{\frac{2 S}{\pi}}$ 

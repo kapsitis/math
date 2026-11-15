@@ -19,7 +19,7 @@ pirmais cipars par $2$ mazāks nekā visu citu ciparu summa.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $\mathbf{21111}$. Šim skaitlim ir gan mazākais iespējamais pirmais 
 cipars, gan mazākie iespējamie pārējie cipari.
@@ -53,7 +53,7 @@ ir jautājuma zīme?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Augšējā rindiņā summa ir $30$, aizpildītajā diagonālē tā ir $39$. Tātad 
 apskatāmās summas ir no $30$ līdz $39$. Vēl jāieraksta skaitļi 
@@ -92,7 +92,7 @@ dzīvoja blakus rūtiņās, arī kvadrātā dzīvotu blakus rūtiņās?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē. Kvadrātā ir $24$ kaimiņu pāri, bet taisnstūrī tikai $22$,
 
@@ -121,7 +121,7 @@ tādās daļās, kādas attēlotas 2.zīm.? Jābūt vismaz vienai katra veida da
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, neeksistē. Pieņemsim pretējo un apskatīsim "krustu", kura centrālā rūtiņa 
 atrodas visaugstāk (vai vienu no tādiem, ja tādu ir vairāki). Tad rūtiņas 
@@ -154,7 +154,7 @@ Vai līdzīgā veidā var uzrakstīt naturālos skaitļus no $1$ līdz $13$ iesk
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, piemēram: $6,\ 1,\ 7,\ 2,\ 8,\ 3,\ 9,\ 4,\ 10,\ 5$.
 
@@ -178,7 +178,7 @@ tādas pašas grāmatas $22$ latus ar santīmiem. Cik maksā $1$ grāmata?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja vienas grāmatas cena ir $x$ santīmi, tad $2400 \leq 19 x \leq 2499$ un 
 $2200 \leq 18 x \leq 2299$. Tāpēc $x>126$ un $x<128$ (tiešām, 
@@ -205,7 +205,7 @@ izgriezt no 3.zīm. attēlotās figūras?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katrs taisnstūris satur vismaz $1$ melnu rūtiņu, tad to nav vairāk par 
 $9$ (skat.zīm.). Izgriezt $9$ taisnstūrus var ļoti daudzos veidos.
@@ -233,7 +233,7 @@ divas kaudzītes, kurās kopā ir tieši $13$ sērkociņu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemam pretējo tam, kas jāpierāda. Tad no katra skaitļu pāra 
 $(1;\ 12),\ (2;\ 11),\ (3;\ 10),\ (4;\ 9),\ (5;\ 8),\ (6;\ 7)$ augstākais viens
@@ -262,7 +262,7 @@ Kas uzvar, pareizi spēlējot - pirmais vai otrais spēlētājs?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmais spēlētājs var uzvarēt, ar katru savu gājienu iebīdot figūriņu 
 iesvītrotā rūtiņā (sk.zīm.). Tad otrais ir spiests to iebīdīt baltā rūtiņā, un 
@@ -293,7 +293,7 @@ vienlaicīgi atrodas skaitļi $21;\ 27;\ 64;\ 180;\ 225$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli izsekot, ka pieļauto gājienu rezultātā uz tāfeles esošo pāra skaitļu 
 daudzums nevar samazināties. Tāpēc prasītais nav sasniedzams.
@@ -323,7 +323,7 @@ Pierādīt, ka $(x-y)(z-t)>0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pienemsim, ka $x>y$ un $z<t$. Tad $\max (x,\ y)=x$ un $\max (z,\ t)=t$.
 
@@ -355,7 +355,7 @@ ir $180^{\circ}$.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle ABC=\beta$. No vienādsānu trijstūra $CBM$ seko
 
@@ -396,7 +396,7 @@ ir nesaīsināmas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstām daļas kā 
 $\frac{5}{(n+2)+5},\ \frac{6}{(n+2)+6},\ \ldots,\ \frac{36}{(n+2)+36}$. Daļas 
@@ -405,7 +405,7 @@ no skaitļiem $5;\ 6;\ \ldots;\ 36$. Acīmredzot mazākais tāds $n+2$ ir $37$,
 tāpēc $n=35$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izmantojam Eiklīda algoritmu.
 Visas daļas izskatās šādi: $\frac{k}{n+(k+2)}$. 
@@ -437,7 +437,7 @@ un $FF_{1} \perp BC$. Pierādīt, ka $GG_{1} \perp CD$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūrī $DAE$ augstums sakrīt ar mediānu, tāpēc tas ir vienādsānu un $AD=AE$.
 Līdzīgi $BE=BF,\ CF=CG,\ DG=DA,\ EA=EB,\ FB=FC$. No šīm vienādībām seko, ka arī
@@ -465,7 +465,7 @@ diplomātus, kas savā starpā sazinoties lieto visas $3$ valodas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Attēlosim diplomātus ar $7$ punktiem. Izvēlēsimies vienu punktu. Starp 
 atlikušajiem $6$ punktiem var novilkt $\frac{6 \cdot 5}{2}=15$ nogriežņus (no 
@@ -503,7 +503,7 @@ $a$ un $b$ ar $p$ un $q$ palīdzību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Vjeta teorēmas 
 $b=x_{1}^{2} \cdot x_{2}^{2}=\left(x_{1}x_{2}\right)^{2}=q^{2}$,
@@ -535,7 +535,7 @@ nogriežņu $AB,\ BD,\ DC,\ CA$ viduspunkti. Pierādīt, ka $XZ \perp YT$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $ABC$ ir regulārs un $AB=BC=AC=AD$. No šejienes un trijstūru 
 viduslīniju īpašībām seko $XY=YZ=ZT=TX$. Tāpēc $XYZT$ - rombs; tāpēc 
@@ -568,7 +568,7 @@ $A=B$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzot $X=\overline{AB}=100A+B,\ Y=100B+A$. Tāpēc $X-Y=99(A-B)$, un 
 $99(A-B)$ dalās ar $91$. Skaitļu $99$ un $91\ LKD$ ir $1$, tāpēc $A-B$ dalās ar
@@ -597,7 +597,7 @@ garumu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka katras daļas perimetrs centimetros vienāds ar divkāršotu tās 
 laukumu kvadrātcentimetros. Tāpēc visu daļu perimetru summa ir 
@@ -633,7 +633,7 @@ rīkojamies tāpat, utt., kamēr paliek neizsvītrots viens skaitlis. Kurš tas 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skaitli, kas ir pirmais neizsvītrotais pēc $n$ svītrošanas sērijām, 
 ar $x_{n}(n=0;\ 1;\ 2;\ \ldots$. Viegli pārbaudīt, ka 
@@ -686,7 +686,7 @@ $x^{2}+p_{1}x+q_{1}=0$ un $x^{2}+p_{2}x+q_{2}=0$ arī eksistē atrisinājums.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pretējā gadījumā **katram** $x$ pastāv nevienādības $x^{2}+p_{1}x+q_{1}>0$ un 
 $^{2}+p_{2}x+q_{2}>0$, bet tad arī katram 
@@ -714,7 +714,7 @@ vienas cilts rūķīši, attālums starp kuriem ir vai nu $a$, vai $b$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo. Viens no skaitļiem $a$ un $b$ ir pāra, otrs - nepāra; 
 pieņemsim, ka a - pāra, b - nepāra.
@@ -747,7 +747,7 @@ $EM \perp BC$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No teorēmas par vienādiem ievilktiem leņķiem un tiem atbilstošām hordām, seko 
 $EA=EF$. No $\triangle EDA=\triangle EDC\ (m \ell m)$ seko $EA=EC$. Tāpēc 
@@ -780,7 +780,7 @@ rūķīšus.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim rūķīti, kurš atnāca pēdējais, ar $A$, un rūķīti, kurš aizgāja 
 pirmais, ar $B$. Ar $K_{A}$ apzīmēsim kompāniju, kas sastāv no paša $A$ un viņa
@@ -817,7 +817,7 @@ Vai to var izdarīt, ja **(A)** $n=4$; **(B)** $n=5$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; skat.zīm. $\alpha$
 
@@ -866,7 +866,7 @@ $x^{2}-2x>y^{2}-2y$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $a=1$.
 
@@ -894,7 +894,7 @@ hordas $MN$ garuma, nevis no tās novietojuma.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim hordas $MN$ garumu ar $a$, bet tās savilktā loka leņķisko lielumu ar 
 $\omega$. Iespējami divi gadījumi:
@@ -926,7 +926,7 @@ Dots, ka $n$ - naturāls skaitlis.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** katram naturālam $n \quad(n+5)^{2}<n^{2}+11n+30<(n+6)^{2}$; tātad 
 $n^{2}+11n+30$ atrodas starp blakus esošu naturālu skaitļu kvadrātiem un nav 
@@ -952,7 +952,7 @@ amatieris? Tenisā neizšķirtu nav.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka ir $x$ amatieri un $x+9$ profesionāļi, un amatieri $n$ reizes 
 uzvarējuši profesionāļus. Tad amatieriem kopā ir $\frac{x(x-1)}{2}+n$ uzvaras, 
@@ -982,7 +982,7 @@ skaitļus, kas visi dod dažādus atlikumus, dalot ar $16$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. No šiem $16$ skaitļiem $8$ jābūt pāra un $8$ - nepāra. Tāpēc starp 
 tiem cipariem jābūt gan pāra, gan nepāra ciparam. Apskatām $2$ pāra un $1$ 
@@ -1010,7 +1010,7 @@ Vai eksistē tāds naturāls skaitlis $n$, ka $2004^{n}-1$ dalās ar $1500^{n}-1
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, neeksistē. Ja $2004^{n}-1:1500^{n}-1$, tad arī
 
@@ -1035,7 +1035,7 @@ kopīga mala. Cik dažādi kvadrāta krāsojumi iespējami?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $4^{4}=256$. Viegli redzēt, ka rūtiņas uz vienas diagonāles var 
 nokrāsot patvaļīgi un ka šis krāsojums viennozīmīgi nosaka citu rūtiņu 
@@ -1055,7 +1055,7 @@ virsotnes $C$ un $D$ atrodas uz vienas riņķa līnijas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atzīmējam arī $BO$ viduspunktu (skat. zīm.). No viduslīniju īpašībām seko, ka 
 $MNKC$ vienādsānu trapece, tāpēc punkti $\mathbf{M,\ N,\ K,\ C}$ **atrodas uz 
@@ -1082,7 +1082,7 @@ $$a^{a} \cdot b^{b} \geq a^{b}b^{a}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Logaritmējot iegūstam ekvivalentu nevienādību 
 $a \lg a+b \lg b \geq b \lg a+a \lg b$
@@ -1108,7 +1108,7 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n=6$.
 
@@ -1152,7 +1152,7 @@ skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārbaudīt, ka apskatāmā izteiksme vienāda ar
 
@@ -1172,7 +1172,7 @@ $AA_{1}^{2}+CC_{1}^{2}=BB_{1}^{2}+DD_{1}^{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $ABCD$ centru un malas garumu attiecīgi ar $X$ un 
 $x,\ A_{1}B_{1}C_{1}D_{1}$ centru un malas garumu attiecīgi ar $Y$ un $y$, bet 
@@ -1212,7 +1212,7 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu bez jūsu atrastajām 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka der visas konstantās funkcijas. Pierādīsim, ka citu atrisinājumu 
 nav. Pieņemsim pretējo; tad eksistē tādi $x$ un $y$, ka $f(x)<f(y)$. 
@@ -1239,7 +1239,7 @@ ja $(n-1)!$ nedalās ne ar $n$, ne ar $n+2$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** ievērosim, ka katrs pirmskaitlis, ar kuru dalās $(n-1)!$, nepārsniedz 
 $n-1$. Tāpēc, ja $(n-1)!$ dalās ar $n$ resp. ar $n+2$, tad $n$ resp. $n+2$ nav 
@@ -1290,7 +1290,7 @@ Kāda ir lielākā iespējamā $n$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sekojošā tabula parāda, ka var būt $n=7$:
 

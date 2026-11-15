@@ -6,7 +6,7 @@ rezultātā iegūstam vienādus atlikumus. Atrodiet skaitli $N$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $r$ apzīmēsim atlikumu, ko iegūstam, dalot skaitli $N$ ar $3,4,7,9,11,13$. 
 Protams, $0 \leq r<3$, un tā kā $N$ ir nepāra skaitlis, tad $r=1$. 

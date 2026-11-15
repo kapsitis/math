@@ -9,7 +9,7 @@ Uzrakstīt vienādību, kas satur $x$ un ir pareiza, ja $x$ vietā ievieto jebku
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var uzrakstīt, piemēram, šādu vienādību:
 $$(x-1)\cdot(x-2)\cdot(x-3)\cdot(x-4)\cdot(x-5)\cdot(x-6)\cdot(x-7)\cdot(x-8)\cdot(x-9)=0.$$
@@ -30,7 +30,7 @@ Sanumurēt $2.$ zīmējumā parādīto taišņu krustpunktus ar skaitļiem no $1
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atrisinājums parādīts $10.$ zīmējumā.
 
@@ -50,7 +50,7 @@ Kāds ir lielākais daudzums pēc kārtas ņemtu naturālu trīsciparu skaitļu,
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Starp $10$ pēc kārtas ņemtiem trīsciparu skaitļiem viens dalās ar $10$; tātad šis skaitlis $\overline{ab0}=\overline{ab}\cdot 10$ ir divu divciparu skaitļu reizinājums.
 
@@ -70,7 +70,7 @@ Rūtiņas malas garums ir $1$. Kvadrāts, kas sastāv no $50 \times 50$ rūtiņ�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Perimetru "ārējo" daļu summa ir $200$, bet "iekšējo" perimetra daļu katrs posms ietilpst summā divas reizes; tātad perimetru summai ir jābūt pāra skaitlim, bet $1999$ nav pāra skaitlis.
 
@@ -86,7 +86,7 @@ Uz tāfeles uzrakstīti astoņi divnieki. Ar vienu gājienu atļauts nodzēst di
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Ievērosim divas īpašības:
 
@@ -121,7 +121,7 @@ ja $a>0$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojot saucējus, pierādīsim identitāti:
 $$
@@ -154,7 +154,7 @@ Kvadrāts sastāv no $4 \times 4$ rūtiņām (skat. 3. zīm.).
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 11. zīm.
 
@@ -186,7 +186,7 @@ Katrs lācis apēda pa spainim ogu; spainī bija gan avenes, gan lācenes (visi 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim lāču skaitu ar $n$, bet kopējo apēsto aveņu daudzumu (spaiņos) ar $m$. Tad apēsto lāceņu daudzums (spaiņos) ir $n-m$. Pekainīša apēstais spainis satur $\frac{m}{4}$ spaiņus aveņu un $\frac{n-m}{6}$ spaiņus lāceņu. Tātad
 
@@ -216,7 +216,7 @@ Pierādīt, ka var atrast tādus tenisistus $A$, $B$, $C$, ka $A$ uzvarējis pre
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzvaru daudzums vienam tenisistam var būt $0,1,2,\ldots,10$. Tā kā ir $12$ tenisisti, bet uzvaru skaits pieņem tikai $11$ vērtības, tad var atrast divus tenisistus, kam ir vienāds uzvaru skaits. To no viņiem, kas uzvarējis savstarpējā spēlē apzīmēsim ar $A$, otru ar $B$. Ir jābūt tādam tenisistam, kas uzvarējis pret $A$, bet zaudējis pret $B$. Ja $A$ būtu uzvarējis visus tos, ko uzvarējis $B$, tad $A$ būtu vismaz par vienu uzvaru vairāk nekā $B$. Šo tenisistu varam izvēlēties kā $C$.
 
@@ -232,7 +232,7 @@ Piecstūra visas malas vienādas un visi leņķi arī vienādi. Vai to var sagri
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piecstūrim ir piecas malas, bet trijstūri ir tikai četri. Tāpēc vienam trijstūrim malas atrodas uz divām piecstūra malām (skaidrs, ka uz blakus malām); bet šīs malas veido platu leņķi. Tāpēc prasītā sagriešana nav iespējama.
 
@@ -252,7 +252,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 12. zīm.
 
@@ -290,7 +290,7 @@ dažādus racionālus skaitļus tā, ka neviens no tiem nav vesels, bet katru di
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Piemēram, var ņemt skaitļus $\frac{2^2\cdot 3^2}{5}$, $\frac{2^2\cdot 5^2}{3}$, $\frac{3^2\cdot 5^2}{2}$.
 
@@ -318,7 +318,7 @@ ir $3$ saknes $x=a$, $x=b$, $x=c$ (pārbaudi izdara, ievietojot $x$ vērtības v
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojuma kreisā puse ir identiski vienāda ar $1$; tātad uzrakstītā vienādība nav kvadrātvienādojums, bet vienādība $1=1$.
 
@@ -338,7 +338,7 @@ Cikos Lutausis būs pusceļā starp Betu un Sprīdīti?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja Lutausis brauktu divreiz ātrāk, tad plkst. $13^{00}$ viņš satiktu Sprīdīti (kura ātrums ir sākotnējais). Tātad, ja Lutausis brauc ar sākotnējo ātrumu, bet Sprīdītis divreiz lēnāk nekā patiesībā, tad viņi satiktos $14^{00}$. Tātad, braucot ar patiesajiem ātrumiem, plkst. $14^{00}$ Lutausis būs pusceļā starp Betu un Sprīdīti.
 
@@ -356,7 +356,7 @@ Kāds ir lielākais iespējamais draudzību skaits?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja rindā (kolonnā) ir $n$ baltas un $8-n$ melnas figūriņas, tad šajā rindā (kolonnā) ir $n(8-n)$ draudzības. Tā kā $n(8-n)=16-(n-4)^2\le 16$, tad katrā rindā (kolonnā) ir augstākais $16$ draudzības, un kopējais draudzību skaits nepārsniedz $16\cdot 16=256$. Tas tiek sasniegts, ja figūriņas izvietotas, piemēram, šaha galdiņa krāsojuma kārtībā.
 
@@ -374,7 +374,7 @@ Vai noteikti $m^2$ dalās ar $n^3$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $m$ dalās ar $n^2$, tad $m^2$ dalās ar $n^4$; tātad dalās arī ar $n^3$.
 
@@ -390,7 +390,7 @@ Vai var atzīmēt plaknē $10$ punktus tā, lai katri trīs no tiem būtu platle
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šos $10$ punktus var izvietot, piemēram, uz tāda riņķa līnijas loka, kura leņķiskais lielums mazāks par $180^{\circ}$.
 
@@ -408,7 +408,7 @@ Cik pavisam bija rūķīšu?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim rūķīšu skaitu ar $n$. Sākumā katru divu rūķīšu monētu skaitu starpība dalījās ar $n$. Viegli saprast, ka šī īpašība saglabājas, izdarot vienu pārdali, tātad saglabājas vienmēr. Tāpēc $81-64=17$ dalās ar $n$, un $n=1$ vai $n=17$. Tā kā ir vismaz divi rūķīši, tad $n=17$.
 
@@ -430,7 +430,7 @@ Kādas ir iespējamās $x$ vērtības?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja kāds no skaitļiem $a$, $b$, $c$ būtu $0$, tad no vienādības seko, ka tie visi ir $0$, bet tā nevar būt. Tāpēc doto vienādību var pārrakstīt kā
 
@@ -458,7 +458,7 @@ Atrast visus naturālos skaitļus, kas vienādi ar sava kvadrāta ciparu summu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja meklējamais skaitlis $x$ ir $n$-ciparu, tad $x^2$ nav vairāk par $2n$ cipariem, un $x^2$ ciparu summa nepārsniedz $9\cdot 2n=18n$. No otras puses, $n$-ciparu skaitlis ir vismaz $10^{n-1}$. Pie $n\ge 3$ pastāv nevienādība $18n<10^{n-1}$, tāpēc $n=1$ vai $n=2$, un $x\le 18\cdot 2=36$. Tieša pārbaude parāda, ka der tikai $x=1$ un $x=9$.
 
@@ -474,7 +474,7 @@ Hokeja mačs starp "Gigantiem" un "Milžiem" beidzās ar rezultātu $9:7$ "Gigan
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkojam starpību $x-y$, kur $x$ ir to vārtu skaits, kas "Milžiem" vēl jāiesit, bet $y$ ir to vārtu skaits, ko "Giganti" jau iesituši. Spēles sākumā šī starpība ir $7$, bet beigās tā ir $(-9)$. Tā kā starpība mainās tikai par $1$, tad kādā brīdī tā bija $0$.
 
@@ -496,7 +496,7 @@ Pierādīt, ka ap četrstūri $ADHE$ var apvilkt riņķa līniju.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $13$. zīmējumu.
 
@@ -538,7 +538,7 @@ nav atrisinājumu naturālos skaitļos.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pāra skaitļa kvadrāts, dalot ar $4$, dod atlikumu $0$, bet nepāra skaitļa kvadrāts, dalot ar $4$, dod atlikumu $1$.
 
@@ -581,7 +581,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka
 
@@ -619,7 +619,7 @@ Apspriedē piedalās $9$ dalībnieki. Neviens nepārvalda vairāk nekā trīs va
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka nevienu valodu nezina vairāk par $2$ dalībniekiem. Tad dalībniekam $A$ ir kopīga valoda ar augstākais $3$ citiem dalībniekiem; tātad var atrast $5$ dalībniekus $B$, $C$, $D$, $E$, $F$, kam nav kopīgas valodas ar $A$. Apskatot trijnieku $(A,B,C)$ redzam, ka $B$ un $C$ ir kopīga valoda. Līdzīgi iegūstam, ka $B$ ir kopīga valoda arī ar $D$, $E$, $F$. Tātad $B$ ir kopīga valoda ar četriem citiem dalībniekiem. Tā kā $B$ zina ne vairāk kā $3$ valodas, tad ar kādiem diviem no šiem četriem viņš zina vienu un to pašu valodu, un šo valodu zina vismaz $3$ dalībnieki. Iegūta pretruna.
 
@@ -638,7 +638,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības
 
@@ -663,7 +663,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $14.$ zīmējumu.
 
@@ -698,7 +698,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 
@@ -744,7 +744,7 @@ Atrast $f(3600)$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No a) seko, ka $f(x^2)=2f(x)-1$. Ja $f(x)=1$, tad $f(x^2)=1$, $f(x^4)=1$, utt., tāpēc saskaņā ar b) jābūt $x=1$. Tātad, ja $x\ne 1$, tad $f(x)\ge 2$.
 
@@ -776,7 +776,7 @@ Spēlē piedalās divi spēlētāji, gājienus izdara pēc kārtas. Kas nevar iz
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzvar pirmais spēlētājs:
 

@@ -14,7 +14,7 @@ lielāks nekā visu šo skaitļu lielākais kopīgais dalītājs?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, tādi skaitļi ir $1; 2; 3; 4; 5$. To vidējais aritmētiskais ir 
 $(1 + 2 + 3 + 4 + 5) ∶ 5 = 15 ∶ 5 = 3$ un lielākais kopīgais dalītājs ir $1$.  
@@ -45,7 +45,7 @@ $BOF$ laukums ir $4$, bet trijstūra $AOD$ laukums ir $63$. Aprēķināt četrst
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam kvadrātu malu garumus ar $AC = a$ un $BC = b$ (skat. 1. att.).
 
@@ -79,7 +79,7 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka kādā brīdī katrs dators ir saņēmis dažādu ziņojumu skaitu. Tas nozīmē, ka
 datoru saņemto ziņojumu skaits ir $0; 1; 2; \ldots ; n-1$ (kaut kādā secībā). 
@@ -119,7 +119,7 @@ ka pēc $12$ gājieniem iegūtās izteiksmes vērtība dalās ar $9$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Maruta var rīkoties tā:
 
@@ -152,7 +152,7 @@ var izdarīt?
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Nē, Kims nevar uzrakstīt skaitļus prasītājā veidā.
 Vispirms pamatosim, ka, ja skaitļus varētu uzrakstīt, tad pāra un nepāra skaitļi 
@@ -187,7 +187,7 @@ dalītāju?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(a)** Jā, var. Ja izvēlas $50$ nepāra skaitļus, tad visas to starpības 
 ir pāra skaitļi, bet nepāra skaitļu
@@ -212,7 +212,7 @@ $\sphericalangle EAF = \sphericalangle EDF$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $AB=BC=CD$, tad trijstūri $BCD$ un $ABC$ ir vienādsānu un to pamata pieleņķi ir vienādi:
 $\sphericalangle BAC = \sphericalangle BCA = \alpha$ un 
@@ -239,7 +239,7 @@ Līdz ar to esam ieguvuši, ka $2x = 2y$ jeb $x=y$, kas arī bija jāpierāda.
 *Piezīme.* Citiem punktu $E$ un $F$ izkārtojumiem risinājums ir analoģisks. 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Tā kā pēc dotā $AB = BC = CD$ (skat. 3. att.), tad:
 
@@ -285,7 +285,7 @@ z + \frac{1}{z} = 2x^2 \\
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojot vienādojumu kreiso pušu izteiksmju saucējus, iegūstam
 
@@ -331,7 +331,7 @@ $2x^2 = x^2 + x^2 > z + \frac{1}{z}$. Iegūta pretruna.
 Tātad $x = 1$ un tā kā tas ir lielākais no skaitļiem, tad arī $y = 1$  un $z=1$. 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Līdzīgi kā 1. atrisinājumā, iegūstam, ka $x,y,z \geq 1$. 
 Nezaudējot vispārīgumu, varam pieņemt, ka
@@ -379,7 +379,7 @@ kopā piedalījās šajā olimpiādē?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Olimpiādē pavisam piedalījās $26$ skolēni.
 
@@ -442,7 +442,7 @@ iekrāsot visas tabulas rūtiņas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais sākotnēji iekrāsoto rūtiņu skaits ir $6$, piemēram, skat. 4. att. 
 Parādīsim, kā ar atļautajiem
@@ -492,7 +492,7 @@ $$4a + 4b^2 + \sqrt{4a - 4b^2 - 1} \leq 1.$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Zemsaknes izteiksmei $4a - 4b^2 -1$ jābūt nenegatīvai, 
 tāpēc $4a - 4b^2 - 1 \geq 0$ jeb 
@@ -512,7 +512,7 @@ ${\displaystyle \left( \frac{1}{4}; 0 \right)}$
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ja $a = \frac{1}{4}$ un $b = 0$, tad nevienādība ir spēkā. jo 
 $4 \cdot \frac{1}{4} + 4 \cdot 0 + \sqrt{4 \cdot \frac{1}{4} - 4 \cdot 0 - 1} = 1 \geq 1$
@@ -549,7 +549,7 @@ Aprēķināt četrstūra $OECG$ laukumu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam nogriežņu garumus
 $OF = x_1$, $OG = x_2$, $BF = CG = y_1$, $AF = DG = y_2$ (skat. 12. att.).
@@ -602,7 +602,7 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka kādā brīdī katrs dators ir saņēmis dažādu ziņojumu skaitu. 
 Tas nozīmē, ka datoru saņemto ziņojumu skaits ir $0; 1; 2; \ldots ; n-1$ 
@@ -638,7 +638,7 @@ skaitļu summu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n=1$, tad skaitļiem $(1; 1; 1)$ izpildās uzdevuma nosacījumi 
 (jebkuru divu izvēlēto skaitļu summa
@@ -696,7 +696,7 @@ saskaitītas. Pierādīt, ka spēlētājs $B$ var panākt, lai iegūtā summa b�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja spēlētājs $A$ izvēlas skaitli $i$, tad spēlētājam $B$ jāizvēlas skaitli 
 $2n + 1 - i$. Aplūkojam divu iegūto
@@ -731,7 +731,7 @@ z + \frac{1}{z} = x+y\\
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No pirmā vienādojuma atņemot otro, iegūstam:
 $$x - y + \frac{1}{x} - \frac{1}{y} = y - x;$$
@@ -764,7 +764,7 @@ Pierādīt, ka $AT$ ir leņķa $BAC$ bisektrise!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot ievilkta četrstūra īpašību un blakusleņķu īpašību, iegūstam:
 
@@ -802,7 +802,7 @@ uzvarēs pareizi spēlējot, ja papildus zināms, ka katrs no viņiem var apēst
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Vienmēr var uzvarēt Brālītis. Šajā gadījumā $140$ ir pietiekami liels skaitlis 
 un neietekmē spēles gaitu, var spēlēt tā it kā šāda ierobežojuma nebūtu. 
@@ -868,7 +868,7 @@ ka skaitlis $C-1$ ir pirmskaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka $C-1$ nevar būt pirmskaitlis. Pieņemsim pretējo, 
 ka ir dots tāds naturāls skaitlis $n$,
@@ -909,7 +909,7 @@ $3x^2 + y^2 + 1 \geq A(x^2 + xy + x)$ visiem reāliem skaitļiem $x$ un $y$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms ekvivalenti pārveidojam doto nevienādību:
 $$\begin{aligned}
@@ -935,7 +935,7 @@ $2A^2 + 4A − 12 = 0$ sakne ir $\sqrt{7} - 1$.
 Līdz ar to esam ieguvuši, ka lielākā $A$ vērtība ir $\sqrt{7} - 1$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apskatām trīs tādus pozitīvus skaitļus $\alpha, \beta, \gamma$, 
 kuriem $\alpha + \beta + \gamma = 3$. Tad, lietojot nevienādību

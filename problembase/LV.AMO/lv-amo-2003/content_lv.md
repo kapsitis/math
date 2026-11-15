@@ -21,7 +21,7 @@ pirmais cipars par $1$ mazāks nekā visu citu ciparu summa.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $\mathbf{2111}$. Trīs pēdējo ciparu summa nevar būt mazāka par $3$, 
 tātad pirmais cipars nevar būt mazāks par $2$. Skaitlim $2111$ ir gan mazākais 
@@ -61,7 +61,7 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar pirmo svēršanu salīdzinām $A$, $B$ pret $C$, $D$. Ja svari **nav** līdzsvarā,
 tad pašreiz uz tiem ir atšķirīgā monēta. Ar otro svēršanu salīdzinām $A,\ B$ 
@@ -98,7 +98,7 @@ mazākais iespējamais).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrātu var izveidot no $6$ gabaliem (skat. 1.zīm.).
 
@@ -129,7 +129,7 @@ ne ar vienu citu naturālu skaitli kā $1$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Skat., piem., 2.zīm.
 
@@ -160,7 +160,7 @@ to var panākt, ja sākotnējie lodīšu daudzumi ir $10,\ 12$ un $15$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē, nevar. Ar katru gājienu visu krāsu lodīšu skaita paritāte mainās 
 (no pāra uz nepāra un atpakaļ). Tāpēc nevar būt, ka divi daudzumi ir $0$ (pāra 
@@ -193,7 +193,7 @@ pulkst. $12^{00}$ abi pulksteņi atkal rādīs pareizu laiku?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai 1.pulkstenis $12^{00}$ rādītu pareizu laiku, tam jāpasteidzas par 
 $12,\ 24,\ 36,\ \ldots$ stundām. Tas notiek ik pēc $180$ dienām. Pēc $180$ 
@@ -224,7 +224,7 @@ otrā. Vai to var izdarīt, ja **(A)** $n=5$, **(B)** $n=7$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var. Skat. 3.zīm.
 
@@ -259,7 +259,7 @@ pēdējo, būtu vienāds ar savu abu kaimiņu summu vai starpību?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, piemēram:
 
@@ -289,7 +289,7 @@ un cik punktus viņi ieguva?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Turnīrā ar $n$ spēlētājiem ir $\frac{1}{2} n \cdot (n-1)$ spēles (katrs no $n$ 
 spēlē ar katru no $(n-1)$ citiem, bet reizinājumā $n \cdot(n-1)$ katra spēle 
@@ -349,7 +349,7 @@ svēršanām var noteikt katra atsvara masu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sveram $A+B$. Ja $A+B=20$ vai $A+B=22$, $A$ un $B$ masas jau zināmas. Tālāk ar 
 $2$ svēršanām atrodam atsevišķi $C$ un $D$.
@@ -385,7 +385,7 @@ Dots, ka $|x+y|+|x-y|=10$. Kāda ir lielākā iespējamā $x$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Iespējams, ka $x=5$, $y=0$.
 
@@ -417,7 +417,7 @@ kā minēts iepriekš?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, var. Skat. 7.zīm.
 
@@ -458,7 +458,7 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmais spēlētājs ar $1.$ gājienu uzraksta $2$. Uz otrā spēlētāja 1.gājienu 
 viņš atbild pēc shēmas:
@@ -492,7 +492,7 @@ Pierādiet, ka $EE_{1} \perp BC$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka 
 $\triangle CAD,\ \triangle DBE,\ \triangle ECA,\ \triangle ADB$ - vienādsānu 
@@ -523,7 +523,7 @@ var būt $0$, ja **(A)** $n=8$, **(B)** $n=9$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā var:
 
@@ -563,7 +563,7 @@ $x_{0},\ x_{1},\ x_{2}$ un $x_{3}$, nelietojot kvadrātsaknes zīmi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto vienādojumu var pārveidot par
 
@@ -597,7 +597,7 @@ vajadzēja iegūt. Kādu sešciparu skaitli Andris uzrakstīja?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam trīsciparu skaitļus ar $x$ un $y$. Tad Andra uzrakstītais skaitlis ir
 $1000x+y$. Iegūstam $3xy=1000x+y$, tātad $y$ dalās ar $x$. Ja $y=kx$, tad 
@@ -629,7 +629,7 @@ dalītājs būtu $1$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var iegūt $6$ saskaitāmos: $56=3+5+7+11+13+17$. Parādīsim, ka vairāk saskaitāmo
 iegūt nevar.
@@ -664,7 +664,7 @@ kopgarumu. (Tika novilktas **tikai** līnijas, kas dala kvadrātus taisnstūros.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $4 \times 4$ un $3 \times 6$ daļām laukums kvadrātcentimetros 
 skaitliski vienāds ar perimetru centimetros. Tā kā Andrim un Jurim jāsadala 
@@ -696,7 +696,7 @@ Vai tas iespējams, ja **(A)** $n=3$, **(B)** $n=4$, **(C)** $n=2003$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; piemēram $(1;\ 5;\ 6)$ un $(2;\ 3;\ 7)$
 
@@ -728,7 +728,7 @@ divas dažādas saknes.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viens (vismaz) no $q_{1}$, $q_{2}$, $q_{3}$ ir negatīvs. Atbilstošā vienādojuma 
 diskriminants ir pozitīvs, tāpēc tam ir divas dažādas saknes.
@@ -755,7 +755,7 @@ $8$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, var. Skat., piem., 8.zīm.
 
@@ -790,7 +790,7 @@ $\left(p_{1}-1\right)\left(p_{2}-1\right) \ldots \left(p_{n}-1\right)$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ne vairāk kā viens no $p_{1},\ p_{2}\ \ldots,\ p_{n}$ ir pāra pirmskaitlis. 
 Tāpēc $n \leq 2$. Ja $n3$, tad $p_{1}p_{2}p_{n}$ nedalās ar $4$, bet 
@@ -828,7 +828,7 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atliksim uz $CA$ pagarinājuma $AM=AI$ (skat. 9.zīm.).
 
@@ -867,7 +867,7 @@ Kurš uzvar, pareizi spēlējot, ja **(A)** $k=8$, **(B)** $k=64$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** uzvar Juris. Viņš ar otro gājienu ēd $2$ konfektes. Kopā tagad apēsta 
 $3$ konfektes. Andris var ēst $1,\ 2$ vai $3$ konfektes. Andris ēd attiecīgi 
@@ -898,7 +898,7 @@ Vai noteikti $x+\frac{4}{x}>y+\frac{4}{y}$, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē; piemēram $x=1$ un $y=0,0001$.
 
@@ -923,7 +923,7 @@ līdzīgi savā starpā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\triangle ABC$ ārējo leņķi pie virsotnes $A$ ar $2 \alpha$ (skat. 
 10.zīm.).
@@ -960,7 +960,7 @@ skaitļu kvadrāti.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** piemēram, $n=40$.
 
@@ -988,7 +988,7 @@ Cik dažādi skolēnu izvietojumi iespējami pēc pārkārtošanās?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim atbilstošu pārkārtojumu skaitu $n$ skolēnu gadījumā ar $a_{n}$. 
 Acīmredzami, $a_{1}=1$ un $a_{2}=2$.
@@ -1022,7 +1022,7 @@ $m+n \geq 3$).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $x$ apzīmēsim to rūķīšu skaitu, kam abi kaimiņi ir šillišallas; ar $y$ - to 
 rūķīšu skaitu, kam abi kaimiņi ir votivapas; ar $z$ - to rūķīšu skaitu, kam 
@@ -1067,7 +1067,7 @@ Kāda ir lielākā iespējamā $z$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var būt $z=1001.5$, $x=z$ un $y=0$. Tā kā 
 $|z+x-y|+|z-x+y| \geq|z+x-y+z-x+y|=2|z|$ un $|x+y-z| \geq 0$, tad nevar būt, ka
@@ -1091,7 +1091,7 @@ Pierādiet, ka taisne $AZ$ dala nogriezni $XB$ uz pusēm.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pagarinām $ZX$ līdz krustpunktam $C$ ar taisni $YA$ (skat. 11.zīm.). Tad 
 $ZYC$ - taisnleņķa trijstūris ar augstumu $YX$ pret hipotenūzu $ZC$. Tāpēc 
@@ -1118,7 +1118,7 @@ Vai eksistē tāds naturāls skaitlis $n$, ka $6^{n}-1$ dalās ar $4^{n}-1$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $6^{n}-14^{n}-1$. Tad arī 
 $\left(6^{n}-1\right)-\left(4^{n}-1\right)=\left(6^{n}-4^{n}\right)=2^{n}\left(3^{n}-2^{n}\right) 4^{n}-1$.
@@ -1144,7 +1144,7 @@ vienlaicīgi izpildītos divas prasības:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Attēlosim kluba biedrus ar kuba virsotnēm. Izvēlēsimies šādas $4$ virsotņu 
 kopas:
@@ -1180,7 +1180,7 @@ pārējām zaudējusi vismaz vienai no izvēlētajām $n$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vismaz vienam turnīra dalībniekam noslēgumā būs vismaz $(n+2) \cdot 2^{n-2}-1$ 
 uzvara un tātad ne vairāk kā $(n+2) \cdot 2^{n-2}-2$ zaudējumi (pretējā 
@@ -1217,7 +1217,7 @@ ar veselu skaitu centimetru.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $\triangle ABC$ līdzīgs $\triangle A_{1}B_{1}C_{1}$ ar veseliem malu 
 garumiem, vajadzīgais seko no kosinusu teorēmas.
@@ -1247,7 +1247,7 @@ dalītāju, kas dod atlikumu $2$, dalot ar $3$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Varam apzīmēt $n=3^{k} \cdot a$, kur $a$ nedalās ar $3$. Tad 
 $n^{2}=3^{2k} \cdot a^{2}$. Dalītāji, par kuriem runā uzdevumā, ir precīzi 
@@ -1272,7 +1272,7 @@ viduspunkts. Pierādīt, ka $\sphericalangle MKN=90^{\circ}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Papildināsim zīmējumu līdz simetriskam (skat. 13.zīm.). Tad $MNM_{1}N_{1}$ ir 
 paralelograms ar simetrijas centru (tātad diagonāļu krustpunktu) $K$. Ja 
@@ -1304,7 +1304,7 @@ $y+z=u^{2},\ z+u=v^{2},\ u+v=x^{2},\ v+x=y^{2}$ pozitīvos skaitļos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $x$ - lielākā (vai viena no lielākajām) mainīgo vērtībām 
 atrisinājumā. Tad $x^{2}=u+v \leq x+x$, tātad $x^{2} \leq 2x$. Tāpēc 
@@ -1335,7 +1335,7 @@ Kādu lielāko summu $S$ var sasniegt spēlētājs $A$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $S$ lielākā iespējamā vērtība ir $6$.
 

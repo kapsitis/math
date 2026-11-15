@@ -7,7 +7,7 @@ $\overline{bca}+\overline{cab}$ dalās ar $37$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 

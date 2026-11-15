@@ -3,7 +3,7 @@
 Kuri no skaitļiem $101, 111, 141, 143, 155, 161, 163$ ir pirmskaitļi?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visi no dotajiem skaitļiem ir mazāki par $13^2 = 169$. 
 Tātad, lai noskaidrotu, vai dotie skaitļi ir pirmskaitļi, 

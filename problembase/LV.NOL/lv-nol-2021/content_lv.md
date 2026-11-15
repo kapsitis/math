@@ -17,7 +17,7 @@ kas dalās ar $3$. Kāda ir uzrakstīto skaitļu summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $$3 + 6 + 9 + 12 + 15 + 18 + 21 + 24 + 27 + 30 =$$
 $$= (3 + 27) + (6 + 24) + (9 + 21) + (12 + 18) + +30 + 15 =$$ 
@@ -44,7 +44,7 @@ Kāda ir divu mazāko pirmskaitļu summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $2 + 3 = 5$
 
@@ -70,7 +70,7 @@ ja katrā kastē ir vismaz $10$ konfektes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Konfekšu skaits kastēs ir
 
@@ -104,7 +104,7 @@ vienāds olu skaits?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $287 = 7 \cdot 41$, tad varam secināt, ka vienā kastē ir 
 $7$ olas un kopā piekabē palika $41$ kaste. Sākumā kastu bija 
@@ -137,7 +137,7 @@ attēlā redzama figūra, kas sastāv no četrām 5-rūtiņu figūrām.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ievērot, ka, uzliekot jaunu 5-rūtiņu figūru, kopējais figūras 
 perimetrs palielinās par $4~\mathrm{cm}$ (nāk klāt augšējās 5-rūtiņu figūras 
@@ -173,7 +173,7 @@ pārtraukt, lai to turpinātu otra darbiniece. Kāds ir īsākais laiks
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai pamatotu, ka $50$ minūtes ir īsākais laiks, mums jāparāda, 
 ka $50$ minūtēs to var izdarīt, un jāpierāda, ka īsākā laikā to nevar.
@@ -209,7 +209,7 @@ nopirka Mārtiņš?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $$580=120 \cdot 3+55 \cdot 4$$
 
@@ -238,7 +238,7 @@ Cik krustpunktu ir trīs dotajām taisnēm (skat. att.)?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Redzams, ka nekādas divas taisnes nav paralēlas, 
 tātad tām ir visi $3$ krustpunkti.
@@ -272,7 +272,7 @@ centimetros!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūra perimetrs ir $3 \cdot 3~\mathrm{cm}=9~\mathrm{cm}$, tātad 
 robots nogāja $9 \cdot 2021=18189~\mathrm{cm}$.
@@ -296,7 +296,7 @@ Cik skaitļi intervālā no $1$ līdz $200$ dalās ar $7$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļi, kas dalās, ir $7$; $2 \cdot 7$; $3 \cdot 7$; $\ldots$; $28 \cdot 7=196$.
 
@@ -319,7 +319,7 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ievērot, ka $10000$ dalās ar $4$, tātad, 
 $10003$ dalot ar $4$, atlikumā iegūs $3$.
@@ -349,7 +349,7 @@ figūra, ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitīt var dažādi, piemēram šādi.
 Pirmajā "stāvā" ir $10$ klucīši (kā 2. att.), otrajā "stāvā" 
@@ -379,7 +379,7 @@ $$25~\mathrm{t}~50~\mathrm{kg} + 13~\mathrm{t}~950~\mathrm{kg} –
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $25050~\mathrm{kg} + 13950~\mathrm{kg} – (24800~\mathrm{kg} – 18003~\mathrm{kg}) = 32203~\mathrm{kg}$.
 
@@ -402,7 +402,7 @@ Vai skaitlis $2021$ dalās ar $5$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jo tā pēdējais cipars nav ne $0$, ne $5$.
 
@@ -432,7 +432,7 @@ Cik trijstūri redzami dotajā zīmējumā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākajā kvadrātā (atzīmēts ar raustīto līniju) redzami 
 $8$ trijstūri (4 "mazie" un 4 "lielie"). 
@@ -469,7 +469,7 @@ Kāds ir flīzes perimetrs centimetros, ja pusriņķa rādiuss ir $4~\mathrm{cm}
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Flīzes malas garums sastāv no diviem pusriņku diametriem, tātad tas ir 
 $4 \mathrm{~cm} \cdot 2 \cdot 2=16 \mathrm{~cm}$. Tātad tās perimetrs ir $16 \cdot 4=64 \mathrm{~cm}$.
@@ -496,7 +496,7 @@ naturāli skaitļi. Kāds ir taisnstūra perimetrs centimetros?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $71$ ir pirmskaitlis, tad vienīgie iespējamie taisnstūra 
 malu garumi ir $1~\mathrm{cm}$ un $71~\mathrm{cm}$ 
@@ -527,7 +527,7 @@ Kura no figūrām ir visvieglākā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka, ja no svaru kausa abām pusēm mēs noņemsim vienādus 
 "komplektus", tad svari savu stāvokli nemainīs. 
@@ -566,7 +566,7 @@ uz punktu $B$? Pa ceļiem var pārvietoties tikai bultiņu norādītajā virzien
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Iespējamie ceļi ir $ACDB$, $ACEB$, $AFEB$, $AFB$.
 
@@ -598,7 +598,7 @@ atrodas grāmata, kas maksā 7 eiro?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $7$ eiro nevar samaksāt tikai ar $2$ eiro monētām, 
 ne arī tikai ar $5$ eiro banknotēm, tad tas neatrodas 
@@ -630,7 +630,7 @@ $20$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $5$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $5$ nedalās ar $20$, tātad tas neatrodas taisnstūrī. 
 Bet $5$ ir skaitļa $20$ 
@@ -657,7 +657,7 @@ Telpā ir $3$ cilvēki. Cik dažādās secībās viņi var pamest šo telpu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim cilvēkus ar $A$, $B$ un $C$, 
 tad ir iespējamas sešas dažādas secības: 
@@ -683,7 +683,7 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $2+3+5+7+11+13+17+19+23+29=129$
 
@@ -720,7 +720,7 @@ D. vairāk nekā $1000000$
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Tā kā katrā kastē ir par $\frac{1}{5}$ mazāk nekā iepriekšējā, 
@@ -768,7 +768,7 @@ figūra, kas sastāv no četrām šādi saliktām T-veida figūrām.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka pie jau esošās figūras, pieliekot jaunu $T$ burtu, kopējais 
 figūras perimetrs palielinās par 6 cm (nāk klāt malējā T burta "treknā 
@@ -801,7 +801,7 @@ garāks nekā iepriekšējais!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $5+7+9+11+13+15=60 \mathrm{~cm}$
 
@@ -826,7 +826,7 @@ Cik krustpunktu ir četrām dotajām taisnēm (skat. att.)?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Redzams, ka nekādas no $4$ taisnēm nav paralēlas, līdz ar to katra taisne 
 krusto visas $3$ pārējās, tātad krustpunktu skaits ir $4 \cdot 3: 2=6$.
@@ -853,7 +853,7 @@ tad rezultātā iegūst skaitli $127$. Nosaki $A$ vērtību!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $$5 \cdot 5 \cdot 5+2=127.$$ 
 
@@ -887,7 +887,7 @@ veicot $369~\mathrm{cm}$. Nosaki trijstūra malas garumu centimetros!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Robota noietais attālums ir $41$ reizi trijstūra perimetrs, 
 tātad trijstūra $ABC$ 
@@ -920,7 +920,7 @@ minūtēs, kurā viņas var apkalpot visas septiņas klientes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai pamatotu, ka 50 minūtes ir īsākais laiks, mums jāparāda, ka 50 minūtēs 
 to var izdarīt, un jāpierāda, ka īsākā laikā to nevar. 
@@ -953,7 +953,7 @@ Cik skaitļu intervālā no $1$ līdz $600$ dalās ar $7$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dalās visi skaitļi $7$; $2 \cdot 7$; $3 \cdot 7$; $\ldots$; $84 \cdot 7$; $85 \cdot 7=595$.
 
@@ -978,7 +978,7 @@ olimpiādē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\frac{8}{8+32}=\frac{1}{5}=20 \%$
 
@@ -1006,7 +1006,7 @@ atrastos līdzsvarā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No svariem Nr.1 mēs varam secināt, 
 ka riņķis sver tikpat, cik divi kvadrāti. 
@@ -1040,7 +1040,7 @@ Kāds atlikums rodas, ja $10035$ dala ar $6$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Var ievērot, ka $10032$ dalās ar $6$ (tas ir pāra skaitlis un 
@@ -1069,7 +1069,7 @@ ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitīt var dažādi, piemēram, šādi.
 Pirmajā "stāvā" ir $13$ klucīši (kā 2. att.), otrajā "stāvā" ir $8$,
@@ -1098,7 +1098,7 @@ $$(2~\mathrm{h}~41~\mathrm{min} + 5~\mathrm{h}~59~\mathrm{min}) : 2 – 28~\math
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $(161~\mathrm{min} + 359~\mathrm{min}) : 2 – 28~\mathrm{min} = 232~\mathrm{min}$.
 
@@ -1124,7 +1124,7 @@ Vai skaitlis $20212021$ dalās ar $5$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jo tas nebeidzas ne ar $0$, ne ar $5$.
 
@@ -1151,7 +1151,7 @@ Cik trijstūri redzami dotajā zīmējumā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākajā kvadrātā (atzīmēts ar raustīto līniju) redzami $8$ 
 trijstūri (4 "mazie" un 4 "lielie"). Riņķī $A$ redzami $3$ 
@@ -1186,7 +1186,7 @@ Kāds ir taisnstūra perimetrs, ja riņķa līnijas rādiuss ir $4~\mathrm{cm}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Riņka līnijas diametrs ir $2 \cdot 4 \mathrm{~cm}=8 \mathrm{~cm}$. 
 Taisnstūra platums ir vienāds ar rinķa līnijas diametru ($8 \mathrm{~cm}$), 
@@ -1217,7 +1217,7 @@ rūtiņu pa labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļūt rūti
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atradīsim rezultātu pakāpeniski, atrodot, cik veidos varde var noklūt 
 katrā rūtiņā. Katrā rūtiņā varde var nonākt vai nu no apakšas, 
@@ -1251,7 +1251,7 @@ dalītos ar $90$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai skaitlis dalītos ar $90$, tam jādalās ar $9$ un ar $10$. Ar $10$ dotais skaitlis noteikti dalās 
 (jo tā pēdējais cipars ir $0$), ar $9$ tas dalīsies, ja tā ciparu summa dalīsies ar $9$. 
@@ -1279,7 +1279,7 @@ nenokrāsoti, ja kastes škautnes garums ir $7~\mathrm{cm}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kuba vienas skaldnes laukums ir $7 \cdot 7=49 \mathrm{~cm}^{2}$, 
 tā kopējais virsmas laukums ir $49 \cdot 6=294 \mathrm{~cm}^{2}$. 
@@ -1306,7 +1306,7 @@ Cik dažādās secībās $3$ skolēni var nostāties rindā pie kases?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skolēnus ar $A,B,C$, tad šīs secības ir 
 $ABC$, $ACB$, $BAC$, $BCA$, $CAB$, $CBA$.
@@ -1337,7 +1337,7 @@ grāmata, kas maksā $17$ eiro?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $17$ eiro nevar samaksāt tikai ar $2$ eiro monētām, ne arī 
 tikai ar $5$ eiro banknotēm, tad grāmata neatrodas ne taisnstūrī, ne riņķī.
@@ -1366,7 +1366,7 @@ atrodas aplī. Kurā plaknes daļā atrodas skaitlis $10$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā skaitlis $10$ dalās ar $10$ un ir arī $10$ dalītājs, tad tas atrodas gan taisnstūrī, gan aplī.
 
@@ -1389,7 +1389,7 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmo skolēnu var izvēlēties $5$ veidos, otro – $4$ veidos, 
 trešo – $3$ veidos, ceturto – $2$ veidos. (Savukārt piektais ir nosakāms
@@ -1418,7 +1418,7 @@ lai skaitļi pa apli būtu uzrakstīti pretējā secībā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jāsamaina $2$ ar $8$, $3$ ar $7$, $4$ ar $6$.
 
@@ -1446,7 +1446,7 @@ virsotnēm bija attēloti sākotnējā zīmējumā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.NOL.2021TEST.7.3A.png){ width=100px }
 
@@ -1474,7 +1474,7 @@ $$A(1;3.5) \quad B(8;6) \quad C(-12;-1) \quad D(-5;1)$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x$ pieaug par $9$ vienībām (no $-3$ līdz $6$), 
 tad $y$ pieaug par $3$ vienībām (no $2$ līdz $5$). 
@@ -1515,7 +1515,7 @@ Nosaki ceturtās virsotnes koordinātu summu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ceturtās virsotnes koordinātas ir $(1; −1)$. 
 Tātad koordinātu summa ir $1 − 1 = 0$.
@@ -1543,7 +1543,7 @@ Cik mazos trijstūrīšus ieguva?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka katrā nākamajā slānī ir par $2$ trijstūrīšiem 
 vairāk nekā iepriekšējā slānī, tātad pavisam ir 
@@ -1572,7 +1572,7 @@ viņai pietrūktu. Cik centu ir Dacei?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka 11 klades Dace jau ir nopirkusi. Tad viņai ir 
 atlikuši $50$ centi. Iedosim viņai vēl $70$ centus, 
@@ -1610,7 +1610,7 @@ kur redzamas pirmās trīs figūras). No cik divu posmu leņķīšiem
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katru nākamo figūru var iegūt, iepriekšējai figūrai nonemot nost vienu 
 leņķīti un pieliekot klāt trīs citus, tātad katrai nākamajai figūrai vajag par $2$ 
@@ -1641,7 +1641,7 @@ Cik krustpunktu ir trīs dotajām taisnēm un staram (skat.att.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijām taisnēm kopā ir $3$ krustpunkti, stars krusto tikai vienu no tām.
 
@@ -1667,7 +1667,7 @@ Kāds ir galarezultāta pēdējais cipars?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā reizinājuma pēdējais cipars ir atkarīgs tikai no reizinātāju 
 pēdējiem cipariem, tad Gunas skaitli, izkāpinot kubā, tā 
@@ -1703,7 +1703,7 @@ malas garums ir $4~\mathrm{cm}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūra perimetrs ir $4 \cdot 3=12 \mathrm{~cm}$. Ievērosim, ka skaitlis 
 $2016$ dalās ar $12$ (jo tas dalās gan ar $4$, gan ar $3$). Tātad tad, kad 
@@ -1733,7 +1733,7 @@ olimpiādē. Cik procentu no skolas skolēniem piedalījās olimpiādē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\frac{16}{64+16}=\frac{16}{80}=\frac{1}{5}=20 \%$.
 
@@ -1761,7 +1761,7 @@ Kāda ir riņka un kvadrāta masa, ja trijstūra masa ir $5$ kg?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieliksim pirmajiem svariem abās pusēs vēl pa vienam kvadrātam (tad tie 
 joprojām būs līdzsvarā). No tā secināsim, ka $2$ trijstūri un $2$ kvadrāti sver 
@@ -1799,7 +1799,7 @@ Kāds atlikums rodas, ja $2021$ dala ar $4$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $2020$ dalās ar $4$.
 
@@ -1826,7 +1826,7 @@ tagadējais klucǐšu izkārtojums redzams attēlā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitīt var dažādi. No pirmā "stāva" ir aiznesti $3$ klucīši, 
 no otrā "stāva" - $8$, no trešā - $12$, no ceturtā -- $13$, kopā ir 
@@ -1855,7 +1855,7 @@ būtu patiesa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\frac{1}{x}=2-\frac{1}{2}-\frac{1}{3}-\frac{1}{4}-\frac{5}{6}=\frac{24-6-4-3-10}{12}=\frac{1}{12}$
 
@@ -1879,7 +1879,7 @@ dalītos ar $36$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai skaitlis dalītos ar $36$, tam jādalās ar $9$ un ar $4$. 
 Lai tas dalītos ar $9$, tā 
@@ -1914,7 +1914,7 @@ Iekrāsotajās rūtiņās ir škēēslis, tajās varde neiet.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā rūtinā varde var nonākt vai nu no kreisās puses, 
 vai no apakšas, vai pa diagonāli no kreisās apakšējās puses. 
@@ -1953,7 +1953,7 @@ grāmata, kas maksā $27$ eiro?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $27$ eiro nevar samaksāt tikai ar $2$ eiro monētām, 
 ne arī tikai ar $2$ eiro banknotēm, tad šī grāmata 
@@ -1984,7 +1984,7 @@ $15$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $45$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $45$ dalās ar $15$, bet nav skaitļa $15$ dalītājs, tad tas atrodas 
 taisnstūrī, bet neatrodas aplī.
@@ -2012,7 +2012,7 @@ līniju centros un taisnstūra $LMNO$ perimetrs ir $112~\mathrm{cm}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja riņķa līnijas diametrs ir $D$, tad taisnstūra platums ir $D$, 
 garums ir $6D$ un perimetrs ir $(D + 6D) \cdot 2 = 14D$.
@@ -2040,7 +2040,7 @@ atrastos uz funkcijas $y = 3x − 71$ grafika?
 
 </small>
 
-## Atrisinājumss
+## Atrisinājums-1
 
 Ievietojot $y=4$, iegūstam $3x=75$ jeb $x=25$.
 
@@ -2065,7 +2065,7 @@ $y=71x+2021$ grafikam un iet caur punktu $A(2;200)$. Nosaki $b$ vērtību!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Grafiki ir paralēli, ja to virziena koeficienti sakrīt, 
 tātad $a=71$. levietojot $y=200$ un $x=2$ iegūstam, 
@@ -2090,7 +2090,7 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $$2 + 3 + 5 + 7 + 11 + 13 + 17 + 18 + 23 + 29 = 129.$$
 
@@ -2122,7 +2122,7 @@ bija Mārim trešajā naudas skaitīšanas reizē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka Māris sēž vidū un virknes gali ir "savienoti riņķī". 
 Paku skaits pēc pirmās pārdales (pirmā skaitīšana):
@@ -2156,7 +2156,7 @@ Cik dažādos veidos $6$ skolēni var nostāties rindā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmo skolēnu var izvēlēties $6$ veidos, otro – $5$, trešo – $4$, 
 ceturto – $3$, piekto – $2$. Tātad kopējais veidu skaits ir 
@@ -2183,7 +2183,7 @@ $1, 4, 3, 6, 5, 8, 7, 2$, skatoties pulksteņa rādītāja kustības virzienā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ievērot, ka skaitļi $1, 3, 5, 7$ atrodas savās vietās, 
 jāsamaina tikai pāra cipari. To var izdarīt ar 3 maiņām
@@ -2213,7 +2213,7 @@ tikai visas kvadrātu virsotnes. Cik kvadrāti ar dotajām virsotnēm bija attē
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.NOL.2021TEST.8.5A.png){ width=100px }
 
@@ -2242,7 +2242,7 @@ $$A(-1;3.5) \quad B $(-8;6) \quad C(12;-1) \quad D(5;1).$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka taisnes vienādojums ir $y=k x+b$. Ievietojot dotos 
 punktus iegūstam, ka $2=-3 k+b$ un $5=6 k+b$. Izsakām nezināmo $b$ 
@@ -2273,7 +2273,7 @@ trijstūrīšus ieguva?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka katrā nākamajā slānī ir par $2$ trijstūrīšiem vairāk nekā 
 iepriekšējā slānī (attēlā doti pirmie 7 slāņi), 
@@ -2308,7 +2308,7 @@ malas garums ir $1~\mathrm{cm}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ievērot, ka visa taisnstūra laukums ir $20 \mathrm{~cm}^{2}$, 
 tātad trijstūrim jāaizņem tieši puse no taisnstūra laukuma. 
@@ -2340,7 +2340,7 @@ Cik centu ir Inese?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $11$ klades Inese jau ir nopirkusi. Tad viņai 
 ir atlikuši $50$ centi. Iedosim viņai vēl $70$ centus, tagad 
@@ -2373,7 +2373,7 @@ kas sastāv no 50 rūtiņām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka rūtiņas malas garums ir 1. Katras nākamās figūras perimetrs ir par 4 lielāks nekā iepriekšējās (no pieliktā trijstūrīša nāk klāt 6 redzamās rūtiņu malas un nāk nost 2 neredzamās). Figūru, kas sastāv no 50 rūtiņām, var iegūt krustam (5 rūtiņas), pieliekot trijstūrīti (3 rūtiņas) 15 reizes. Sākumā krusta perimetrs ir 12, tātad šīs figūras perimetrs būs
 
@@ -2403,7 +2403,7 @@ iegūtajam rezultātam pieskaitīja $2$. Kāds ir galarezultāta desmitu
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā reizinājuma pēdējie divi cipari ir atkarīgi tikai no 
 reizinātāju diviem pēdējiem cipariem, tad rezultāts būs tāds 
@@ -2437,7 +2437,7 @@ malas robots apstājās, ja katras trijstūra malas garums ir $7~\mathrm{cm}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūra perimetrs ir $21~\mathrm{cm}$. Ievērosim, ka skaitlis 
 $2016$ dalās ar $21$, tātad 
@@ -2466,7 +2466,7 @@ $2 \sqrt{50}+x>20$ būtu patiesa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Ja $x=6$, tad nevienādība ir spēkā, jo 
@@ -2501,7 +2501,7 @@ $60~\mathrm{cm}$. Cik gara ir trijstūra pamata mala centimetros?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šajā gadījumā jāievēro, ka īsākā mala nevar būt sānu mala (ja tā būtu, tad 
 neizpildītos trijstūra nevienādība $2 x+2 x>4 x$ ). Tātad $2:4$ ir pamata 
@@ -2532,7 +2532,7 @@ būtu patiesa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $8^{4}=2^{12}$ un $4^{20}=2^{40}$. Tātad $\qquad x=30+12-40=2$
 
@@ -2555,7 +2555,7 @@ Cik skaitli intervālā no $1$ līdz $1000$ dalās ar $7$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tie ir $7$; $2 \cdot 7$; $3 \cdot 7$; $\ldots$; $142 \cdot 7=994$.
 
@@ -2581,7 +2581,7 @@ vienā dienā izlasīja Rihards?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kopā novembrī Rihards izlasīja $5 \cdot 18+15 \cdot 12=270$ lappuses. 
 Tātad vienā dienā vidēji $270:30=9$ lappuses.
@@ -2607,7 +2607,7 @@ Nosaki leņķu $\alpha$ un $\beta$ summu (grādos)!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $\beta=\alpha$ (krustleņki) un 
 $\alpha=\gamma$ (kāpšļu leņki), 
@@ -2635,7 +2635,7 @@ abu pamata pieleņu summa. Cik grādus liels ir virsotnes leņkis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja virsotnes lenkis ar $\alpha$, tad pamata pieleņķu summa ir 
 $\alpha+20^{\circ}$ un visu <br> trijstūra leņķu summa ir 
@@ -2662,7 +2662,7 @@ un ordinātas kvadrāta summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Funkciju krustpunkta koordinātas ir $(-1 ; 1)$ (to var uzminēt, vai arī 
 atrisināt vienādojumu $2020 x+2021=2021 x+2022)$.
@@ -2687,7 +2687,7 @@ olimpiādē. Cik procentu no skolas skolēniem nepiedalījās olimpiādē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\frac{64}{64+16}=\frac{4}{5}=80 \%$
 
@@ -2718,7 +2718,7 @@ Kurā plaknes daļā atrodas grāmata, kas maksā $37$ eiro?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $37$ eiro nevar samaksāt tikai ar $2$ eiro monētām, 
 ne arī tikai ar $5$ eiro 
@@ -2750,7 +2750,7 @@ dalītāji atrodas aplī. Kurā plaknes daļā atrodas skaitlis $8$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $8$ dalās ar $8$ un ir arī skait!̣a $64$ dalītājs, 
 tad tas atrodas gan taisnstūrī, gan aplī.
@@ -2774,7 +2774,7 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli ievērot, ka $10000$ dalās ar $4$.
 
@@ -2807,7 +2807,7 @@ Cik dalībniekiem patīk tikai matemātika?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzzīmējam trīs riņkus, tie ilustrēs attiecīgi skolēnu skaitu, kam patīk konkrētie 
 priekšmeti (matemātika, latviešu valoda un sociālās zinības). Ievērojam, ka ir daļas, 
@@ -2864,7 +2864,7 @@ Vai ar 2.att. figūrām, kas sastāv no $4$ rūtiņām, var noklāt rūtiņu lau
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, nevar. Kopējais rūtiņu laukuma rūtiņu skaits ir $6 \cdot 7=42$, kas nedalās ar $4$, 
 bet katra figūra aizņem $4$ rūtiņas; tātad kopējam noklāto rūtiņu skaitam ir jādalās 
@@ -2905,7 +2905,7 @@ ja ceļš $CD$ ir slēgts (tas ir, pa ceļu $CD$ nedrīkst braukt)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Var, piemēram, izbraucot maršrutu ABCDABCDABCDEA.
 
@@ -2948,7 +2948,7 @@ Zināms, ka katram no skolēniem patīk vismaz viens no šiem priekšmetiem. Cik
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzzīmējam trīs riņkus, tie ilustrēs attiecīgi skolēnu skaitu, kam patīk konkrētie priekšmeti (matemātika, dabas zinības un vizuālā māksla). levērojam, ka ir dalas, kurā pārklājas divi riņki, un ir arī daļa, kurā pārklājas visi trīs ringi. Mums jānoskaidro, kas ierakstīts daļā M.
 
@@ -2995,7 +2995,7 @@ ja tām ir kopīga mala.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, piemēram, kā parādīts attēlā:
 
@@ -3029,7 +3029,7 @@ lai no tām noteikti varētu izveidot divciparu skaitli, kurš dalās ar $7$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais skaits kāršu, kas jāizvelk, ir $5$. Pierādīsim to. 
 Sadalām visus ciparus četrās grupās:
@@ -3078,7 +3078,7 @@ $y=ax+b$, $y=bx-c$ un $y=cx+a$ grafiki (grafiki nav doti mērogā)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar.
 
@@ -3120,7 +3120,7 @@ Naturālu skaitli sauc par īpašu, ja tas ir vienāds ar četru savu dažādu d
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Īpašs skaitlis ir, piemēram, $12$, jo $12=1+2+3+6$.
 
@@ -3157,7 +3157,7 @@ spēlējot, un kā vinam jārīkojas?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pareizi spēlējot, vienmēr var uzvarēt Karlsons. Viņš var izmantot 
 simetriju. Ja Brālītis pirmajā gājienā apēd vienu gabalu, 
@@ -3199,7 +3199,7 @@ funkciju grafiki krustojas vienā punktā!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkojam funkcijas $y=b x-71+m$ vērtību, ja argumenta vērtība 
 $x=\frac{1}{2}$:
@@ -3235,7 +3235,7 @@ kur $n$ ir kāds vesels skaitlis?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienīgais pirmskaitlis, ko var izteikt šādā formā, ir 13.
 
@@ -3332,7 +3332,7 @@ ja zināms, ka $\Varangle BAC=120^{\circ}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka $BC=BD$.
 
@@ -3382,7 +3382,7 @@ stāvošā ūdenī ir vienādi un upes straumes ātrums ir $5~\mathrm{km}/\mathr
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Riharda un Kalvja laivu kustības ātrumu stāvošā ūdenī apzīmējam ar $x$. 
 Tad Rihards uz Olimpiju brauca ar ātrumu $(x-5) \mathrm{km} / \mathrm{h}$, 
@@ -3425,7 +3425,7 @@ $y=bx^{2}+cx+a$ grafiki? Funkciju grafiki nav zīmēti mērogā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar gadīties. Tā kā parabolu zari vērsti uz augšu, 
 tad $a>0$ un $b>0$. 
@@ -3474,7 +3474,7 @@ Aprēḳināt $S_{CED}$, ja $AB=1$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $AE=x$, tad $ED=1-x$ un $EC=1+x$ (skat. 2. att.). 
 Pēc Pitagora teorēmas trijstūrī $EDC$ iegūstam, ka
@@ -3512,7 +3512,7 @@ nevienam pirmskaitlim $p$ skaitlis $p+1$ nav naturāla skaitļa $k$-tā pakāpe.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka mazākā derīgā vērtība ir $k=4$.
 
@@ -3550,7 +3550,7 @@ rindā augošā secībā, tad 22. un 99. skaitļa summa arī būtu lielāka nek�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim visus skaitlus augošā secībā ar $a_{1} ; a_{2} ; \ldots ; a_{120}$. 
 Pieņemsim pretējo, ka $a_{22}+a_{99} \leq 1000$. Tas nozīmē, ka katrs no $22$ 
@@ -3578,7 +3578,7 @@ atrisinājuma uzrakstīšanai nekā Marutai?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $x$ apzīmējam stundu skaitu, kas nepieciešams Marutai, lai uzrakstītu uzdevuma atrisinājumus. 
 Tādā gadījumā Elīnai nepieciešamas $x+2$ stundas. Tā kā Maruta rakstīja atrisinājumu $1~\mathrm{h}~12~\mathrm{min}$ 
@@ -3614,7 +3614,7 @@ kurus saista sakarība $a+18b=2021$. Pierādīt, ka visu šo funkciju grafikiem 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka visu aplūkoto funkciju grafikiem ir divi kopīgi punkti:
 
@@ -3644,7 +3644,7 @@ Aprēķināt četrstūra $DGHI$ laukumu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $S_{EHD}=S_{BDE}-S_{BHE}$ (skat. 3.att.). 
 Aprēķinām atbilstošo trijstūru laukumus:
@@ -3682,7 +3682,7 @@ un simetrijas dēļ $S_{DGHI}=2 \cdot \frac{2}{15}=\frac{4}{15}$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izmantosim koordinātu metodi. Novietojam kvadrātu koordinātu sistēmas 
 1.kvadrantā tā, lai kvadrāta virsotne $A$ sakrīt ar koordinātu sākumpunktu 
@@ -3723,7 +3723,7 @@ Pierādīt, ka nevienai naturālai $n$ vērtībai izteiksmes $n^{2}-n+36$ vērt�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ievērojam, ka $165=3 \cdot 5 \cdot 11$. Pamatosim, ka dotā izteiksme nedalās ar $5$.
 
@@ -3750,7 +3750,7 @@ $$n^{2}-n+36=(5 k+1)^{2}-(5 k+1)+36=25 k^{2}+10 k+1-5 k-1+36=5\left(5 k^{2}+k+7\
 Līdzīgi apskata citus gadīumus.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 **(A)** Ievērojam, ka $165=3 \cdot 5 \cdot 11$ un ka visām $n$ vērtībām izteiksme 
 $n^{2}-n=n(n-1)$ ir pāra skaitlis kā divu secīgu skaitļu reizinājums. Tā kā reizinājuma 
@@ -3803,7 +3803,7 @@ rindā augošā secībā, tad 146. un 376. skaitļu summa būtu lielāka nekā $
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam visus skait|us augošā secībā ar $a_{1} ; a_{2} ; \ldots ; a_{500}$. 
 Vispirms pierādīsim, ka $a_{125}+a_{376}>2000$. Pieņemsim pretējo, ka 
@@ -3836,7 +3836,7 @@ progresijas pirmo piecu locekļu summu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 N̦emot vērā pienemtos apzīmējumus progresijām, uzdevumā dotos nosacījumus varam pierakstīt 
 kā $a_{1}=b_{1}=2, a_{2}=b_{2}+0,25$ un $a_{3}=b_{3}$.
@@ -3881,7 +3881,7 @@ Apskatām abus gadijumus:
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Tā kā dota aritmētiskā progresija 2 ; $a_{2}$; $a_{3}$, tad 
 $a_{2}-2=a_{3}-a_{2}$ un $a_{3}=2 a_{2}-2$.
@@ -3923,7 +3923,7 @@ kas atrodas intervālā $[-1;1]$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām funkciju $f(x)=a x^{2}+b x+c$. levērojam, ka funkcijas vērtībām $f(-1)$ un $f(1)$ ir pretējas zīmes:
 
@@ -3955,7 +3955,7 @@ kuram var apvilkt riņķa līniju. Pierādīt, ka divi no četrstūra $PQRS$ le�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No trijstūriem ASR un $D P S$ attiecīgi iegūstam, ka
 
@@ -3985,7 +3985,7 @@ Pierādīt, ka jebkuru divu *tīri jauku* skaitļu summa arī ir *tīri jauks* s
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim, kāds ir mazākais tīri jaukais skaitlis. Tā kā tīri jaukos skaitļus 
 raksturo īpašība "jo lielāka sastāvdaļa, jo lielāks rezultāts", tad mazāko no 
@@ -4035,7 +4035,7 @@ Vai iespējams, ka turnīrā piedalījās **(A)** $15$ dalībnieki, **(B)** $16$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, ir iespējams. Apzīmējam dalībniekus ar $d_{1}, d_{2}, \ldots, d_{15}$, 
 tad iespējams, ka dalībnieks $d_{1}$ ir ieguvis $3.$ punktus, $d_{2}-4$ punktus, $\ldots$, $d_{15}$ 
@@ -4075,7 +4075,7 @@ Ar kādu ātrumu brauc Māris un Mārtiņš?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $x$ apzīmējam ātrumu, ar kādu brauc Māris, tad Mārtiņa 
 braukšanas ātrums ir $x-1$. 
@@ -4124,7 +4124,7 @@ Dots, ka $8ac + 2bc + c^{2}<0$. Pierādīt, ka $b^{2}-8ac>0$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkojam kvadrātfunkciju $f(x)=2ax^{2}+bx+c$. Ievērojam, ka
 
@@ -4136,7 +4136,7 @@ tas ir, $D=b^{2}-8ac>0$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pārveidojam doto nevienādību:
 
@@ -4163,7 +4163,7 @@ Taisnstūris salikts no četriem vienības kvadrātiem. Aprēḳināt iekrāsot�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka iekrāsotais četrstūris ir paralelograms, jo tā pretējās malas 
 ir pa pāriem paralēlas. Tā kā krustleņḳi ir vienādi un iekšējie šķērsleņķi 
@@ -4202,7 +4202,7 @@ Līdz ar to esam ieguvuši, ka $\Varangle AHD=135^{\circ}$ un $\Varangle HEF=45^
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Papildinām doto zīmējum ar vēl 4 kvadrātiem un novelkam dotajām taisnēm paralēlas 
 taisnes (skat. 8. att., kur paralēlās taisnes iekrāsotas zila un violetā krāsā). 
@@ -4232,7 +4232,7 @@ gan $b^{2}+a$ ir pirmskaitli. Pierādīt, ka $a+b$ un $a b+1$ ir savstarpēji pi
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka $a+b$ un $ab+1$ abi dalās ar kādu pirmskaitli $p$. 
 Tādā gadījumā reizinājums 
@@ -4244,7 +4244,7 @@ $a+b^{2}>a+b$, bet tā kā $a+b$ dalās ar $p$, tad $a+b \geq p$ - pretruna.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Tā kā $a^{2}+b$ ir pirmskaitlis, tad tas ir nepāra skaitlis 
 (jo $a, b>1$), līdz ar to skaitliem $a$ un $b$ ir pretēja paritāte. 
@@ -4283,7 +4283,7 @@ ir sakārtoti augošā secībā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka kāda rinda vairs nav sakārtota augošā secībā. Aplūkosim 
 pirmo nesakārtoto rindu, tās kārtas numuru apzīmēsim ar $i$. Tas nozīmē, 
@@ -4310,7 +4310,7 @@ ir sakārtoti augošā secībā.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Aplūkosim, kā iespējams veikt prasīto skaitļu sakārtošanu pa kolonnām, 
 kārtošanas procesā nepazaudējot sakārtojumu pa rindām. Skaidrs, 

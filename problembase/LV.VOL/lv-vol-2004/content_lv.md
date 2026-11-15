@@ -12,7 +12,7 @@ Pierādīt, ka $\frac{1}{a+c}+\frac{1}{b+c}=\frac{2}{a+b}$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādāmo vienādību **ekvivalenti** pārveidojot, pakāpeniski iegūstam
 
@@ -39,7 +39,7 @@ atrodas uz $\sphericalangle ASC$ bisektrises.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.VOL.2004.9.2A.png)
 
@@ -64,7 +64,7 @@ Vai tas ir iespējams, ja **(A)** $n=10$, **(B)** $n=11$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; var uzrakstīt piecus skaitļus, kas dalās ar $6$, un piecus 
 skaitļus, kas dod atlikumu $1$, dalot ar $6$.
@@ -100,7 +100,7 @@ Kādu lielāko torņu daudzumu Andrim var izdoties novietot?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** var uzlikt $15$ torņus; skat., piem., 2.zīm.
 
@@ -128,7 +128,7 @@ viens aiz otra uzrakstīti pa apli.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pierādīsim, ka no summām $a+b,\ b+c,\ c+d,\ d+e,\ e+a$ ne vairāk kā 
 divas ir negatīvas (skat. 3.zīm.).
@@ -167,7 +167,7 @@ Pierādīt, ka $a+b+c-abc \leq 2$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $a+b+c-abc=a(1-bc)+b+c \leq 1-bc+b+c$. Mums pietiek pierādīt, ka 
 $1-bc+b+c \leq$. Bet šī nevienādība ekvivalenta ar $1-b-c+bc \geq 0$ jeb 
@@ -190,7 +190,7 @@ Aprēķināt $\sphericalangle AOE$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.VOL.2004.10.2A.png)
 
@@ -215,7 +215,7 @@ Kāds vislielākais pirmskaitlis var būt uzrakstīts uz tāfeles?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja viens no uzrakstītajiem pirmskaitļiem būtu $2$, tad citi būtu nepāra; tāpēc 
 v.a. nebūtu vesels skaitlis. Tāpēc $2$ uz tāfeles nav.
@@ -249,7 +249,7 @@ virsotnes, pie tam šī trijstūra katetes paralēlas kvadrāta malām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kā redzams 5.zīm., $n=14$ vēl neder.
 
@@ -289,7 +289,7 @@ svaru kausa kaut kas tiek mainīts, tā jau skaitās cita svēršana)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Sadalām visas monētas $49$ pāros. Pirmajā svēršanā salīdzinām savā 
 starpā $1.$ pāra monētas.
@@ -324,7 +324,7 @@ $$(x+y)(1+xy) \geq 4xy$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $(x+y)(1+xy) \geq 2 \sqrt{xy} \cdot 2 \sqrt{1 \cdot xy}=4xy$ saskaņā ar 
 nevienādību starp vidējo aritmētisko un vidējo ģeometrisko.
@@ -343,7 +343,7 @@ kvadrāts?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $a^{2}+3ab+b^{2}=n^{2}$. Tā kā $(3k+1)^{2}=9k^{2}+6k+1$ un 
 $(3k+2)^{2}=9k^{2}+12k+4$, secinām: ja ne $a$, ne $b$ nedalās ar $3$, tad 
@@ -370,7 +370,7 @@ un $CF$ - augstumi. Pierādīt, ka $OA \perp EF$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.VOL.2004.11.3A.png)
 
@@ -403,7 +403,7 @@ ir tieši viens atrisinājums reālos skaitļos $(x,\ y,\ z)$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja mainīgos $x,\ y,\ z$ cikliski maina vietām, sistēma nemainās. Tātad: ja 
 $(p,\ q,\ r)$ ir tās atrisinājums, tad arī $(r,\ p,\ q)$ un $(q,\ r,\ p)$ ir 
@@ -438,7 +438,7 @@ Vai noteikti var panākt, ka visas konfektes atrodas uz viena šķīvja?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Izmantosim matemātisko indukciju pēc $k$.
 
@@ -478,7 +478,7 @@ tikai no hordas $AB$ garuma, bet ne no tās novietojuma.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim leņķus, ko $OA$ un $OB$ veido ar $Ox$ ass pozitīvo virzienu, 
 attiecīgi ar $\alpha$ un $\beta$. Apskatāmo trapeču laukumu summa ir
@@ -507,7 +507,7 @@ iedomāto skaitli ar $3$ jautājumiem, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka uz $3$ jautājumiem ir $8$ dažādas atbilžu "jā" un "nē" 
 kombinācijas. Tā kā pie $n=9$ jāšķiro $9$ situācijas, prasītais nav panākams. 
@@ -530,7 +530,7 @@ mazākais iespējamais $M$ virsotņu skaits?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienīgais daudzskaldnis ar $4$ skaldnēm (tetraedrs) neapmierina uzdevuma 
 prasības. Apskatām daudzskaldņus ar $\geq 5$ skaldnēm. Vienai skaldnei jābūt 
@@ -557,7 +557,7 @@ ir lielākā iespējamā $n$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemērs $0;\ 2;\ 3;\ 4;\ 6$ parāda, ka var būt $n=5$. Pierādīsim, ka $n \geq 6$
 nav iespējams.
@@ -598,7 +598,7 @@ skaitļa kubs.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $2 \cdot(3a+2b)^{2}-(4a+3b)^{2}=2a^{2}-b^{2}$, tad katram naturālam $n$ 
 pastāv vienādība

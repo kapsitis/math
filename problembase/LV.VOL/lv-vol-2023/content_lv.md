@@ -11,7 +11,7 @@ $x^{2}-x-y^{2}+y$ vērtība ir **(A)** $10$, **(B)** $2023$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, piemēram, $x=4$ un $y=2$, tad $4^{2}-4-2^{2}+2=16-4-4+2=10$. 
 
@@ -44,7 +44,7 @@ kausiem tā, lai izpildās abi nosacījumi:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, atsvarus izvietojam šādi: uz viena svaru kausa liekam atsvarus, kuru masa ir 
 $3, 4, 5, 6 \mathrm{~kg}$ (kopā $18 \mathrm{~kg}$), 
@@ -75,7 +75,7 @@ vienādi, ja: **(A)** $n=72$; **(B)** $n=73$; **(C)** $n=74$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja $n=72$, tad Māris ne vienmēr var iegūt prasīto. Piemēram, 
 ja skaitli pa apli izkārtoti tā, ka $18$ reizes pēc kārtas atkārtojas 
@@ -134,7 +134,7 @@ Kādām reālām $m$ vērtībām trijstūris $ABC$ ir taisnleņka trijstūris?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām taisnleṇka trijstūri $ADB$, kur $D(m;2)$, $AD=|5-m|$ un 
 $BD=|5-2|=3$ (skat. 1.att.). Izmantojot Pitagora teorēmu $\triangle ADB$, 
@@ -196,7 +196,7 @@ būt uzrakstīts uz tāfeles?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais uz tāfeles uzrakstītais pirmskaitlis var būt $127$. 
 Pamatosim, ka lielāks pirmskaitlis nevar būt uzrakstīts. 
@@ -237,7 +237,7 @@ $$3\left(x^{2}+y^{2}+z^{2}+4\right) - 2(xy + yz + zx) - 4(x+y+z)=0$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atverot iekavas un sagrupējot saskaitāmos, iegūstam
 
@@ -272,7 +272,7 @@ kausiem tā, lai izpildās abi nosacījumi:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, atsvarus izvietojam šādi: uz viena svaru kausa liekam atsvarus, 
 kuru masa ir $3,4,5,6\mathrm{~kg}$ (kopā $18 \mathrm{~kg}$), 
@@ -304,7 +304,7 @@ pēdējā skaitļa vērtības!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēdējais skaitlis vienmēr būs $9$. Pamatosim, ka uz tāfeles beigās nevar 
 būt uzrakstīts kāds cits skaitlis. Ievērosim, ka, ja skaitlis dalās ar $9$, 
@@ -355,7 +355,7 @@ un $\sphericalangle ABC = 2 \sphericalangle ADC$. Aprēķināt $\sphericalangle 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle BAD=\alpha$ un $\sphericalangle BCD=2 \alpha$. 
 Tad $\sphericalangle BAC=\alpha-30^{\circ}$.
@@ -419,7 +419,7 @@ apli uzrakstītie skaitļi kļūst vienādi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kims prasīto var panākt visiem nepāra skaitliem $n$. Vispirms pierādīsim, ka, 
 ja $n \equiv 0(\bmod 4)$ un $n \equiv 2(\bmod 4)$, tad eksistē skaitļu 
@@ -483,7 +483,7 @@ un atrast šo vērtību!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai iegūtu prasīto vērtību, izmantosim šādu vienādību:
 
@@ -503,7 +503,7 @@ $$
 a_{3}=4 ; a_{4}=7 ; a_{5}=11 ; a_{6}=18 ; a_{7}=29 ; a_{8}=47 ; a_{9}=76 ; a_{10}=123 ; a_{11}=199
 $$
 
-## Atrisinājums
+## Atrisinājums-2
 
 Vispirms noskaidrosim skaitļa $xy$ vērtību:
 
@@ -534,7 +534,7 @@ jebkura cita, samainot vietām tā ciparus. Kāda ir mazākā iespējamā
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā diferences vērtība ir $45$, kuru var iegūt, piemēram, 
 ja dota aritmētiskā progresija $127;172;217$. 
@@ -623,7 +623,7 @@ atrodas uz vienas riṇka līnijas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai pierādītu, ka ap četrstūri $BCMY$ var apvilkt riņķa līniju, 
 pietiek pierādīt, ka $\sphericalangle M Y B+\sphericalangle M C B=180^{\circ}$ 
@@ -678,7 +678,7 @@ $$2^{a_{1}}-\left(b_{1}\right)^{2}=2^{a_{2}}-\left(b_{2}\right)^{2}>0$$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ņemsim patvaļīgu naturālu skaitli $k \geq 2$ un aplūkosim skaitļu 
 četriniekus $\left(2 k ; 2^{k}-1 ; k+1 ; 1\right)$. Visi šie skaitļu 
@@ -704,7 +704,7 @@ Kādas ir iespējamās naturālās šīs skaitļa vērtības?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uz tāfeles var būt palicis jebkurš naturālais skaitlis no $2$ līdz $2022$. 
 Tā kā vidējais aritmētiskais no diviem dažādiem skaitļiem ir mazāks nekā 
@@ -783,7 +783,7 @@ un atrast šo vērtību!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot kubu summas formulu, iegūstam, ka $(x+y)\left(x^{2}-x y+y^{2}\right)=4$. 
 Tā kā $x+y=1$, tad $x^{2}-x y+y^{2}=4$. Veicot ekvivalentus pārveidojumus, 
@@ -815,7 +815,7 @@ $BC$ punktā $Y$, kas nesakrīt ar $C$. Pierādīt, ka $DX=DY$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka $\sphericalangle D X A=\sphericalangle X A D$ (skat. 4. att.). Tā kā apvilktā četrstūra
 $AI_{1} BX$ pretējo leṇku summa ir $180^{\circ}$, tad $\sphericalangle DXA=180^{\circ}-\sphericalangle AI_{1}B$. 
@@ -856,7 +856,7 @@ ka viens no uzrakstītajiem skaitliem ir $73$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka visi $100$ uzrakstītie skaitļi ir vienādi.
 
@@ -894,7 +894,7 @@ kuriem $p^{q-1}+q^{p-1}+1$ ir vesela skaitļa kvadrāts!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $p$ un $q$ abi ir nepāra skaitļi. Tādā gadījumā $p-1$ un $q-1$ 
 abi ir pāra skaitļi. Tā kā nepāra skaitļa kvadrāts dod atlikumu $1$, dalot ar $4$, tad
@@ -943,7 +943,7 @@ citu pilsētu (varbūt arī caur vienu vai vairākām citām pilsētām)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pats mazākais ceļu skaits ir $\frac{100 \cdot 99}{2}-(100-2)=4852$. 
 Atrisināsim uzdevumu vispārīgajā gadijumā ar $n$ pilsētām un pamatosim, 

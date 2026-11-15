@@ -3,7 +3,7 @@
 Dots, ka $7 \mid (3a + b)$ un $7 \mid (a + 3b)$. Pierādiet, ka $49 \mid ab$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $7 \mid (3(a + 3b) - (3a + b)) = 8b$. 
 Tātad, $7 \mid b$. Līdzīgi pierāda, ka $7 \mid a$. 

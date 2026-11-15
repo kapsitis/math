@@ -13,7 +13,7 @@ Cik pavisam vārdu uzrakstīts?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstīti $172$ vārdi.
 
@@ -29,7 +29,7 @@ Kvadrāts sastāv no $4 \cdot 4$ rūtiņām. Vai var katrā rūtiņā ierakstīt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Sadalīsim kvadrātu četros kvadrātos $2\times 2$. Katrā no tiem ierakstīto skaitļu reizinājumam jādalās ar $5$; tas nozīmē, ka jābūt ierakstītam vismaz vienam skaitlim, kas dalās ar $5$. Taču starp pirmajiem $16$ skaitļiem ir tikai $3$ skaitļi, kas dalās ar $5$.
 
@@ -45,7 +45,7 @@ Pierādīt, ka trīssimt divnieku reizinājums nesatur vairāk par $100$ ciparie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $2\cdot 2\cdot 2=8<10$, tad apskatāmais reizinājums mazāks par
 
@@ -71,7 +71,7 @@ $1.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Kvadrātu no $8\times 8$ rūtiņām sagriežam četros kvadrātos ar izmēriem $4\times 4$ rūtiņas. Katru $4\times 4$ rūtiņu kvadrātu var sagriezt šādās figūrās tā, kā tas parādīts $6.$ zīm.
 
@@ -101,7 +101,7 @@ Aprēķināt vērtību $(a * b) \circ (c * d)$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā vienādība $a+a=a$ nav iespējama, jo $a\ne 0$, tad $*$ apzīmē reizināšanu un $a=1$. No otrās vienādības secinām, ka $c=b+1$. Trešā vienādība norāda, ka $b\cdot(b+1)=d$. Tā kā $d$ cipars, tad $b=2$, $c=3$, $d=6$.
 
@@ -123,7 +123,7 @@ Izrakstīt neiekrāsotajās rūtiņās ($2.$ zīm.) skaitļus no $1$ līdz $24$ 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Neiekrāsotās rūtiņas izkrāso baltas un sarkanas šahveida kārtībā un baltajās rūtiņās patvaļīgā veidā ieraksta pāra skaitļus, bet sarkanajās nepāra skaitļus.
 
@@ -143,7 +143,7 @@ b) $7$ ?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Jā, var: $1+2+3+4+5+6+7=28$.
 
@@ -171,7 +171,7 @@ Nav pareiza.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $FFGG$ dalās ar $11$ (dalījums ir $F0G$), bet neviens no kreisās puses reizinātājiem ar $11$ nedalās; tā ir pretruna.
 
@@ -191,7 +191,7 @@ Vai trijstūra piramīdas (skat. $3.$ zīm.) šķautnes (trijstūru malas) var s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Pieņemsim, ka visas summas ir vienādas ar $S$. Sasummēsim visas šīs summas un ievērosim, ka katrs skaitlis no $1$ līdz $6$ būs ieskaitīts divas reizes, jo katra šķautne pieder divām skaldnēm; iegūsim:
 
@@ -211,7 +211,7 @@ Salikt taisnstūri ar izmēriem $5\cdot 6$ rūtiņas no gabaliem ar izmēriem $1
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, $7.$ zīm.
 
@@ -235,7 +235,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visiem skaitļiem $n$ izpildās vienādība
 
@@ -267,7 +267,7 @@ Vai var katram no tiem priekšā pierakstīt "$+$" vai "$-$" zīmi tā, lai ieg�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Ievērosim, ka $1982$ dalās ar $4$. Visus skaitļus sagrupēsim grupās pa četriem pēc kārtas ņemtiem skaitļiem. No šādiem skaitļiem var summā iegūt nulli:
 
@@ -293,7 +293,7 @@ Kādu mazāko skaitu rūtiņu jāiekrāso kvadrātā ar izmēriem $6\times 6$ r�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais daudzums rūtiņu, kāds jāiekrāso, ir $18$. Var iekrāsot $18$ rūtiņas, piemēram, kā parādīts $8.$ zīmējumā.
 
@@ -315,7 +315,7 @@ Kvadrāts sastāv no $4\times 4$ rūtiņām. Tajās ierakstīti naturāli skait�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Pieņemsim pretējo, ka tas ir izdevies un aplūkosim tās blakus rūtiņas, kurās ierakstīto skaitļu $A$ un $B$ summa ir pāra skaitlis. Tām blakus atrodas rūtiņas, kurās ierakstīti skaitļi $C$ un $D$ (skat. 9. zīm.).
 
@@ -337,7 +337,7 @@ Turnīrā piedalās $10$ komandas, katrai ar katru jāizspēlē viena spēle. Va
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Komandu izspēlēto spēļu skaits var būt tikai $0$, $1$, $2$, ... , $9$. Ja visas $10$ komandas izspēlējušas dažādu spēļu skaitu, tad visām norādītajām vērtībām (to ir $10$) jābūt realizētām. Bet, ja kāda komanda ir izspēlējusi $9$ spēles, tad tā ir spēlējusi ar visām komandām; tas nozīmē, ka nav komandas kurai ir $0$ spēļu.
 
@@ -353,7 +353,7 @@ Slēgtā lauztā līnijā ir $10$ posmi. Cik posmi var krustoties vienā punktā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienā punktā var krustoties $2$, $3$, $4$ vai $5$ posmi (skat. 10. zīm.). Vairāk nekā $5$ posmi krustoties vienā punktā nevar. Ja vienā punktā krustotos $6$ posmi, tad kopā tiem ir $12$ gali, kas jāsavieno; tātad vajadzīgi vēl vismaz $6$ posmi, bet atlikuši tikai četri.
 
@@ -379,7 +379,7 @@ devītniekiem.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Piemēram, skaitlis $995^2$ sākas ar $2$ devītniekiem, bet skaitlis $\left(\underbrace{99\ldots 9}_{9}5\right)^2$ sākas ar $9$ devītniekiem.
 
@@ -405,7 +405,7 @@ Kvadrāts sastāv no $6\times 6$ rūtiņām. Kādu mazāko skaitu rūtiņu jāie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrātu no $6\times 6$ rūtiņām var sagriezt $6$ taisnstūros ar izmēriem $2\times 3$. Tā kā katrā taisnstūrī jāiekrāso vismaz viena rūtiņa, tad jāiekrāso vismaz $6$ rūtiņas. Ar $6$ rūtiņām pietiek; piemērs parādīts 11. zīmējumā.
 
@@ -431,7 +431,7 @@ Vai var katram no tiem priekšā pierakstīt "$+$" vai "$-$" zīmi tā, lai ieg�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā starp dotajiem skaitļiem ir $51$ (nepāra skaits) nepāra skaitļu, tad iegūtā vērtība vienmēr būs nepāra skaitlis, tātad nevar būt vienāda ar $0$.
 
@@ -449,7 +449,7 @@ Pierādīt, ka ar šādiem gājieniem var panākt, lai konfekšu skaits visos š
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieliekot pa vienai konfektei septiņos šķīvīšos, tad nākošajos septiņos šķīvīšos, utt. ($8$ reizes), rezultātā $10$ šķīvīšos pievienots pa $5$ konfektēm, bet vienā – $6$ konfektes. Tā kā kopējais konfekšu skaits šķīvīšos mūs neinteresē, varam uzskatīt, ka vienā šķīvītī ielikta konfekte. Skaidrs, ka tādā gadījumā mēs varam izlīdzināt konfekšu skaitu visos šķīvīšos.
 
@@ -467,7 +467,7 @@ Aprēķināt trešās malas garumu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat $12.$ zīm.
 
@@ -493,7 +493,7 @@ Dots, ka $\sqrt{x}+\sqrt{y}<x+y$. Pierādīt, ka $x+y>1$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vismaz viens no skaitļiem $x$, $y$ lielāks par $1$; pretējā gadījumā būtu $\sqrt{x}\ge x$ un $\sqrt{y}\ge y$, tātad būtu $\sqrt{x}+\sqrt{y}\ge x+y$; iegūta pretruna.
 
@@ -515,7 +515,7 @@ b) Vai noteikti visi šie skaitļi ir veseli?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Ievietojot $x=0$, iegūstam, ka $c$ ir vesels skaitlis.
 
@@ -535,7 +535,7 @@ Pierādīt, ka no skaitļiem $a,b,c,d$ var izvēlēties divus, kuru reizinājums
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam dotos skaitļus dilstošā kārtībā ar $x_1\ge x_2\ge x_3\ge x_4$. Katram $i$, $1\le i\le 4$, iegūstam $(x_1-x_i)(x_i-x_4)\ge 0$ (abi reizinātāji ir nenegatīvi), no kurienes seko
 
@@ -573,7 +573,7 @@ Figūra (skat. $5.$ zīm.) sastāv no $6$ vienādiem vienādmalu trijstūriem. K
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, $13.$zīm.
 
@@ -593,7 +593,7 @@ Vai var uzzīmēt $5$ riņķa līnijas tā, ka katra no tām pieskaras tieši tr
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Ja tas būtu iespējams, tad, saskaitot visām riņķa līnijām to pieskaršanās punktu skaitu, iegūtu $5 \cdot 3=15$. Bet šai summai jābūt pāra skaitlim, jo katra pieskaršanās ieskaitīta divas reizes.
 
@@ -609,7 +609,7 @@ Dots, ka $x^2+y^2=1$. Pierādīt, ka $x^4+y^4\ge 2x^3y^3$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No nevienādības par divu skaitļu vidējo aritmētisko un vidējo ģeometrisko seko
 
@@ -631,7 +631,7 @@ Dots, ka $n$ – naturāls skaitlis. Pierādīt, ka $3^n+2\cdot17^n$ nav nekāda
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Noskaidrosim, kādi var būt šo skaitļu pēdējie cipari. Lai to izdarītu sastādīsim tabulu:
 
@@ -656,7 +656,7 @@ Diagonāles sadala izliektu četrstūri $4$ trijstūros. Šo trijstūru laukumie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $14.$ zīmējumu. Divu trijstūru laukumi ir vienādi. Tie nevar atrasties blakus. Tiešām, ja, piemēram $S_{ABO}=S_{CBO}$, tad $AO=CO$ un $S_{AOD}=S_{COD}$; tas nozīmē, ka trijstūru laukumi pieņem ne vairāk kā divas vērtības.
 
@@ -678,7 +678,7 @@ Doti sviras svari. To pleci ir dažāda garuma un svaru kausiem ir dažādas mas
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemam, ka kreisā pleca garums ir $k$, labā pleca garums $l$, kreisā kausa masa $K$ un labā pleca masa $L$. Iegūstam vienādojumu sistēmu:
 
@@ -712,7 +712,7 @@ $$(a+1)(b+1)(c+1)=2+a+b+c+\frac{1}{a}+\frac{1}{b}+\frac{1}{c}.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Identitāte
 
@@ -742,7 +742,7 @@ dalās ar $3$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n=3k$, tad $n+9$ dalās ar $3$, un arī viss reizinājums dalās ar $3$;
 
@@ -762,7 +762,7 @@ Izliekta sešstūra $ABCDEF$ visu malu garumi mazāki par $1$ cm. Pierādīt, ka
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 15. zīmējumu. Ievērojam, ka
 
@@ -794,7 +794,7 @@ $$\frac{x_1^2}{x_1+x_2}+\frac{x_2^2}{x_2+x_3}+\cdots+\frac{x_n^2}{x_n+x_1}\ge \f
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka
 
@@ -842,7 +842,7 @@ Pierādīt, ka $9$ sargi var noķert pilī ielavījušos zagli. (Zaglis skaitās
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pilī var atrast istabu, uz katru pusi no kuras ir ne vairāk kā $250$ istabas. To pierāda, izvēloties patvaļīgu istabu un, ja kādas durvis ved virzienā ar vairāk nekā $250$ istabām, tad pavirzāmies pa šīm durvīm uz blakus istabu; atkārtojot šo procesu atrodam vajadzīgo istabu.
 
@@ -868,7 +868,7 @@ $$\cos x = 1 + x^2$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visiem $x$ izpildās nevienādības
 
@@ -892,7 +892,7 @@ Tātad, ja $x \ne 0$, $\cos x < 1+x^2$. Atliek pārbaudīt vērtību $x=0$; tā 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pierādīt, ka ģeometriskās progresijas (visi locekļi pozitīvi) pirmā un ceturtā locekļu summa lielāka par otrā un trešā locekļa summu. Tiešām, jāpierāda, ka
 
@@ -924,7 +924,7 @@ Uz trijstūra malas $AB$ ņemts tās iekšējs punkts $M$. Zināms, ka $\dfrac{A
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam leņķa $B$ bisektrisi $BE$ (skat. $16.$ zīm.).
 
@@ -948,7 +948,7 @@ Katram no skaitļiem $m$ un $n$ aprēķināja tā visu pozitīvo dalītāju reiz
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim naturāla skaitļa $x$ visus pozitīvos dalītājus ar $d_1<d_2<\ldots<d_k$, bet to reizinājumu ar $r(x)$. Ievērosim, ka $x=d_1 \cdot d_k=d_2 \cdot d_{k-1}=\ldots$ no šejienes iegūstam formulu
 
@@ -978,7 +978,7 @@ Rūķīšu ziemassvētku ballē katri divi rūķīši sasveicinās, vai nu pamā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lūk piemērs, kad ballē ir $9$ rūķīši. Apzīmēsim rūķīšus ar burtiem un izvietosim tos kvadrātā $3\times 3$.
 

@@ -5,7 +5,7 @@ dod atlikumā $13$. Kādu atlikumu dod $A$, dalot ar $14$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā skaiţ̦i $1981$ un $35$ dalās ar $7$, tad no pirmā nosacījuma 
 $A=1981 \cdot q+35$ seko, ka $7 \mid A$. Otrais nosacījums $A=1982 \cdot q+13$ 

@@ -17,7 +17,7 @@ $DLV; MMXVI; CMXCIV; XXXVII$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstām dotos skaitļus ar arābu cipariem: $\quad DLV=555 ; MMXVI=2016$;
 $CMXCIV=994 ; XXXVII=37$. Tātad skaitļi augošā secībā ir
@@ -42,7 +42,7 @@ $14 \cdot a+2 \cdot b+1=2016$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $14 \cdot a$ un $2 \cdot b$ ir pāra skaitļi. Tātad dotā
 vienādojuma kreisās puses izteiksmes vērtība ir nepāra skaitlis, bet labajā pusē
@@ -71,7 +71,7 @@ iekavas tā, lai iegūtu patiesu vienādību!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $3-3+7+7=14$; **(B)** $(3+3:7) \cdot 7=\frac{24}{7} \cdot 7=24$
 
@@ -96,7 +96,7 @@ daļas nedrīkst pārklāties, daļas drīkst pagriezt, bet nedrīkst apgāzt ot
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 2.att.
 
@@ -122,7 +122,7 @@ viens otram!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam tika nosūtītas $12 \cdot 6=72$ īsziņas. No $12$ skolēniem var izveidot
 $\frac{12 \cdot 11}{2}=66$ dažādus pārus. Uzskatīsim, ka pāris saņem īsziņu, ja
@@ -152,7 +152,7 @@ risinājumu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 4.att., kur
 1) $8,5+43=51,5 ; \quad 2) \quad 18 \frac{37}{48}:8,5=\frac{901}{48}: \frac{17}{2}=\frac{901 \cdot 2}{48 \cdot 17}=\frac{53}{24}=2 \frac{5}{24}$; 3) $\frac{9}{10}-\frac{7}{12}=\frac{54}{60}-\frac{35}{60}=\frac{19}{60}$; 4) $\frac{19}{60}: \frac{19}{130}=\frac{19 \cdot 130}{60 \cdot 19}=2 \frac{10}{60}=2 \frac{1}{6}$; 5) $18 \frac{37}{48}+2 \frac{1}{6}=20 \frac{37}{48}+\frac{8}{48}=20 \frac{45}{48}=20 \frac{15}{16}$
@@ -178,7 +178,7 @@ $14 \cdot a+15=2016-6 \cdot b$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $14 \cdot a$ ir pāra skaitlis, tātad dotā vienādojuma kreisās
 puses izteiksmes vērtība ir nepāra skaitlis. Tā kā
@@ -210,7 +210,7 @@ tantītes piedalījās sacensībās?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katra no divām tantītēm, kurām bija visvairāk baraviku, salasīja
 $\frac{1}{5}$ jeb $\frac{13}{65}$ no visu baraviku kopskaita un katra no piecām
@@ -254,7 +254,7 @@ taisnstūrī būtu vismaz viena iekrāsota rūtiņa?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katrā melnajā taisnstūrī ir jābūt vismaz vienai iekrāsotai rūtiņai, tad
 kopā jābūt vismaz $12$ iekrāsotām rūtiņām. Ar $12$ iekrāsotām rūtiņām pietiek,
@@ -284,7 +284,7 @@ laukuma) daļās! Gabali attiecībā viens pret otru drīkst būt gan pagriezti,
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 8.att.
 
@@ -314,7 +314,7 @@ funkcijas grafiku un iet caur punktu $(1; 43)$!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Funkcijas grafiks krusto $y$ asi, ja $x=0$, tātad krustpunkts ar $y$ asi
 ir $(0; 2016)$. Funkcijas grafiks krusto $x$ asi, ja $y=0$, tātad krustpunkts ar
@@ -351,7 +351,7 @@ centu). Cik samaksāja Brālītis?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējot pīrādziņu cenu centos ar $p$ un magoņmaizīšu cenu centos ar $m$,
 iegūstam vienādojumu $8p+15m=200$ jeb $15m=200-8p$. Ievērojam, ka vienādojuma
@@ -362,7 +362,7 @@ naturāli skaitļi, tad $15m < 200$. Līdz ar to vienīgā derīgā vērtība ir
 Tādā gadījumā magoņmaizīte maksā $8$ centus un pīrādziņš maksā $10$ centus.
 Tātad Brālītis samaksāja $18$ centus.
 
-## Atrisinājums
+## Atrisinājums-2
 
 $200-8p=15m$, tātad $m$ dalās ar $8$. 
 Un $m$ nevar būt $16$, jo citādi $p<0$. Tāpēc $m=8$.
@@ -393,7 +393,7 @@ Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $\triangle ABD=\triangle CDB$ pēc pazīmes $\ell m \ell$, jo
 $\sphericalangle ABD=\sphericalangle CDB$ kā iekšējie šķērsleņķi pie paralēlām
@@ -441,7 +441,7 @@ tūbiņu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja Pukstiņam viena tūbiņa pietiek $n$ dienām, tad Svirpulniekam viena tūbiņa
 pietiek $n+2$ dienām. No dotā izriet, ka $(3n-1)$-ajā dienā Svirpulnieks ir
@@ -479,7 +479,7 @@ Pierādīt, ka varde ir apēdusi vismaz $21$ mušu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka varde ir pamīšus baltās un melnās rūtiņās, tāpēc viņa ir
 apmeklējusi vismaz $100:2=50$ baltas rūtiņas. Kopējais balto rūtiņu skaits ir
@@ -510,12 +510,12 @@ $$\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13}-128}$$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13}-128}=\frac{\left(2 \cdot 10^{6}+16\right)\left(2 \cdot 10^{6}-16\right)}{2 \cdot(5 \cdot 2)^{12}-128}=\frac{4 \cdot 10^{12}-256}{2 \cdot 10^{12}-128}=\frac{4 \cdot\left(10^{12}-64\right)}{2 \cdot\left(10^{12}-64\right)}=2$
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Rakstām algebrisku pārveidojumu:
 
@@ -542,7 +542,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a$ vai $b$ ir pāra skaitlis, tad vienādojuma kreisās puses izteiksmes
 vērtība ir pāra skaitlis, kas nevar būs vienāda ar nepāra skaitli $434343$. 
@@ -553,7 +553,7 @@ nepāra skaitli $434343$.
 Tātad nevar atrast tādus veselus skaitļus $a$ un $b$, lai dotā vienādība būtu
 patiesa.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Reizinājums  $ab(a+43b)$ ir nepāru, tātad $a,b$ abi ir nepāru. Bet tad $a+43b$ ir pāru.
 
@@ -582,7 +582,7 @@ lielākais ciparu skaits, kas var būt šajā skaitlī?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā pavisam ir desmit dažādi cipari, tad meklētajam skaitlim nav vairāk kā $10$
 cipari. Der, piemēram, desmitciparu skaitlis $6401398752$.
@@ -595,7 +595,7 @@ pēdējo piecu ciparu veidotajam skaitlim jādalās ar $32$. Der, piemēram, $98
 Tad atlikušie cipari $0,1,3,4,6$ jāizkārto tā, lai iegūtais desmitciparu
 skaitlis dalītos ar $7$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Dalām pirmreizinātājos: $2016 = 2^{5} \cdot 3^{2} \cdot 7$.
 
@@ -629,7 +629,7 @@ Pierādīt, ka $\triangle MNB=\triangle CKM$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nogrieznis $MN$ ir trijstūra $CAD$ viduslīnija (skat. 11.att.), tāpēc
 $NM=\frac{1}{2} CD=CK$ un $NM \| CD$. Tā kā $NM \| CD$ un $AM=MD$, tad $NM$
@@ -672,7 +672,7 @@ pareizi spēlējot, uzvar, ja **(A)** $N=7$, **(B)** $N=8$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Analizēsim spēli no beigām. Skaidrs, ka laukuma labā augšējā stūra rūtiņa ir
 zaudējoša, jo no tās nevar izdarīt gājienu. Tālāk laukuma rūtiņas aizpildīsim
@@ -707,7 +707,7 @@ Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Punkti, kuros skaitītājs un saucējs ir vienāds ar $0$, ir $x=1$ un
 $x= \pm 2$. Izmantojot Intervālu metodi (skat. 15.att.), iegūstam, ka
@@ -737,7 +737,7 @@ $x, y$ un $z$, ka $x^{3}-2016xyz=10$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām dotā vienādojuma kreisās puses izteiksmi pēc moduļa $4$.
 
@@ -777,7 +777,7 @@ $CDM$ ir vienādmalu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $M$ ir $AB$ viduspunkts, tad simetrijas dēļ $CM=MD$ (skat. 16.att.). Tad
 pietiek pierādīt, ka $MD=CD$. Trijstūri $BMN$ un $CDN$ ir līdzīgi pēc pazīmes
@@ -822,7 +822,7 @@ reizinājumu. Kāds ir šīs virknes $2016.$ loceklis?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Virknes locekļus apzīmējam ar $a_{i}$, kur $i$ ir naturāls skaitlis. Aprēķinām
 nākamos virknes locekļus.
@@ -884,7 +884,7 @@ pārbaudot ne vairāk kā četrus podus!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ir skaidrs, ka attiecīgās progresijas diference $d$ var būt tikai $1, 2$ vai $3$.
 Pierādīsim, ka Sivēns var izdomāt atbildi, pārbaudot $4$, $5.$, $6.$
@@ -921,7 +921,7 @@ pirmā kabeļa katra metra masa. Kādi var būt kabeļu garumi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējot pirmā kabeļa garumu ar $x$, iegūstam, ka tā katra metra masa ir
 $\frac{65}{x}$. Otrā kabeļa garums ir $x+3$ un tā katra metra masa ir
@@ -948,14 +948,14 @@ Vai var atrast tādus veselus skaitļus $x, y$ un $z$, ka $x^{3}-2016xyz=120$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Gan $2016$ gan $120$ dalās ar $3$, tātad arī $x^{3}$ jādalās ar $3$. Tas nozīmē,
 ka arī $x$ jādalās ar $3$, bet tad $x^{3}$ noteikti dalās ar $9$. Tas nozīmē, ka
 vienādojuma kreisā puse dalās ar $9$, jo arī $2016$ dalās ar $9$, bet vienādojuma
 labā puse ar $9$ nedalās. Tātad šādus skaitļus atrast nav iespējams.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apskatām dotā vienādojuma kreisās puses izteiksmi pēc moduļa $9$.
 
@@ -973,7 +973,7 @@ veselos skaitļos.
 
 
 
-## Atrisinājums
+## Atrisinājums-3
 
 Pretrunas modulis: aplūkojam abu vienādības pušu atlikumus, dalot ar $9$. 
 Tā kā $2016$ dalās ar $9$, tad $x^3 \equiv 3 \pmod {9}$. Pārbaudot visus 
@@ -998,7 +998,7 @@ veselu skaitļu kvadrātu summu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot aritmētiskās progresijas definīciju, izsakām
 $B=A+d, C=A+2d, D=A+3d$, kur $d$- aritmētiskās progresijas diference.
@@ -1032,7 +1032,7 @@ $PD$ krusto nogriezni $BQ$ punktā $M$. Pierādīt, ka $PM=MD$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nogrieznis $BD$ ir bisektrise, tāpēc
 $\sphericalangle ABD=\sphericalangle DBC$ (skat. 17.att.). Tā kā
@@ -1060,7 +1060,7 @@ taisnstūri nepārklājas. Pierādīt, ka nenoklāta paliek laukuma centrālā r
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ierakstām katrā laukuma rūtiņā pa skaitlim tā, kā parādīts 18.att.
 
@@ -1087,7 +1087,7 @@ kuram ir vislielākais laukums!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādsānu trijstūra laukums ir
 $S=\frac{1}{2} 10^{2} \sin \alpha=50 \sin \alpha$, kur
@@ -1110,7 +1110,7 @@ $x^{2}+y^{2}+z^{2}=\underbrace{1111 \ldots 1}_{2016}$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām doto vienādojumu pēc moduļa $8$. Viegli pārbaudīt, ka veselu skaitļu
 kvadrāti, dalot ar $8$, var dot tikai atlikumus $0$, $1$ vai $4$.
@@ -1152,7 +1152,7 @@ $$\frac{1}{\sqrt{1}+\sqrt{3}}+\frac{1}{\sqrt{2}+\sqrt{4}}+\frac{1}{\sqrt{3}+\sqr
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka
 $\frac{1}{\sqrt{n}+\sqrt{n+2}}=\frac{\sqrt{n+2}-\sqrt{n}}{(\sqrt{n+2}+\sqrt{n})(\sqrt{n+2}-\sqrt{n})}=\frac{\sqrt{n+2}-\sqrt{n}}{n+2-n}=\frac{\sqrt{n+2}-\sqrt{n}}{2}$.
@@ -1181,7 +1181,7 @@ trijstūra $AFG$ laukums ir vienāds ar četrstūra $GHJK$ laukumu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam nogriezni $HK$ (skat. 20.att.). Simetrijas dēļ $HK || AD$ un sadala
 četrstūri $GHJK$ divās vienādās daļās, tas ir, $S_{HGK}=S_{HJK}$.
@@ -1225,7 +1225,7 @@ zaļi, $15$ zili un $16$ sarkani hameleoni?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pamatosim, ka prasītais nav iespējams. Ja aplūko hameleonu skaitu pēc
 moduļa $3$, tad sākotnēji tas ir $(2,0,1)$. Pēc jebkuru divu dažādu krāsu
@@ -1249,7 +1249,7 @@ $4 \cdot\left(\frac{2}{3}\right)^{\sin x}+9 \cdot\left(\frac{3}{2}\right)^{\sin 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\left(\frac{2}{3}\right)^{\sin x}=a > 0$, tad
 $4a+9 \cdot \frac{1}{a}-13=0$. Reizinot abas puses ar $a > 0$, iegūstam
@@ -1277,7 +1277,7 @@ skaitļos!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim doto vienādojumu pēc moduļa $11$. Tā kā
 $10 \equiv-1(\bmod 11), 12 \equiv 1(\bmod 11)$ un $34 \equiv 1(\bmod 11)$,
@@ -1300,14 +1300,14 @@ $2x^{2}+xy+xz < 0$. Pierādīt, ka izpildās arī nevienādība $y^{2} > 8xz$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $xz=t$. Tad $2x^{2}+xy+t < 0$. Tas nozīmē, ka kvadrātvienādojumam
 $2x^{2}+xy+t=0$ ir divas dažādas saknes, jo kvadrātfunkcijas
 $2x^{2}+xy+t$ zari ir vērsti uz augšu un vismaz viens punkts atrodas zem $x$
 ass. Tātad $D=y^{2}-8t > 0$. levietojot $t=xz$ iegūstam $y^{2} > 8xz$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Reizinām doto nevienādību ar $2$ un izdalām no tās pilno kvadrātu:
 
@@ -1334,7 +1334,7 @@ $BCD$ augstumi. Pierādīt, ka nogrieznis $PQ$ krusto malu $AC$ tās viduspunkt�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle ABD=\sphericalangle DBC=\alpha$ un $PQ$ un $AC$
 krustpunktu ar $M$ (skat 21.att.). Četrstūra $BPDQ$ pretējo leņķu summa ir
@@ -1378,7 +1378,7 @@ vienu īsto monētu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Parādīsim, ka to var izdarīt ar divām svēršanām. Apzīmējam monētas ar
 $A, B, C, D, E$. Pirmajā svēršanā vienā svaru kausā liekam $A$ un $B$, otrā-

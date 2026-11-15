@@ -4,7 +4,7 @@ Dots, ka $a$ - naturāls skaitlis, $p$ - pirmskaitlis, pie tam $3 a+1$ un $a-8$ 
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka arī skaitlis $(3 a+1)-3(a-8)=25$ dalās ar pirmskaitli $p$. Tātad $p=5$.
 

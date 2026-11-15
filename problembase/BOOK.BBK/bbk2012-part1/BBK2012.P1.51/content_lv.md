@@ -6,7 +6,7 @@ dalītāji, kas mazāki par pašu skaitli).
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $12$ pēc kārtas ņemtiem skaitļiem var izvēlēties tādu skaitli $n$, kurš dalās ar $12$. 
 Tādā gadījumā $\frac{n}{2}, \frac{n}{3}, \frac{n}{4}$ ir skaiț̣a $n$ dalītāji, kuru summa 

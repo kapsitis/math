@@ -5,7 +5,7 @@ $(n+2)$ dalās ar $4$, $(n+3)$ dalās ar $3$, $(n+4)$ dalās ar $2$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tāds skaitlis, piemēram, ir $54$.
 

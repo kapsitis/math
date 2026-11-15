@@ -5,7 +5,7 @@ Pierādīt, ka $ab$ nedalās ar $210$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka $a \cdot b$ dalās ar $210$.
 Ievērosim, ka $210 = 2 \cdot 3 \cdot 5 \cdot 7$. 

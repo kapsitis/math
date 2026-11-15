@@ -19,7 +19,7 @@ esošās degvielas. Cik litru degvielas tagad ir katrā tvertnē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms no pirmās degvielas tvertnes izlēja $\frac{1}{5} \cdot 250=50$ litrus 
 degvielas un tvertnē palika $250-50=200$ litri degvielas. Pēc tam pielēja 
@@ -54,7 +54,7 @@ vieglāko, gan pašu smagāko monētu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalām monētas septiņos pāros (viena monēta paliek bez pāra; apzīmēsim šo 
 monētu ar $M$). Salīdzinām katra pāra monētas - nosakām vieglāko un smagāko 
@@ -83,7 +83,7 @@ smagāko monētu.
 
 ![](LV.NOL.2019.5.2A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Sākumā izveidojam $7$ monētu pārus (skat. 2.att.) un katrā pārī noskaidrojam, 
 kura ir smagākā monēta ($1.$ kārta; $7$ svēršanas). Tad šīm septiņām atrastajām
@@ -127,7 +127,7 @@ nekā Jānītis? Figūra $stūrītis$ var būt arī pagriezta.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var gadīties, piemēram, ja Anniņa iekrāsoja $7$ rūtiņas kā parādīts 4.att.,
 bet Jānītis iekrāsoja $8$ rūtiņas kā parādīts 5.att.
@@ -159,7 +159,7 @@ Valentīns uzlīmes nesaņem un netērē.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Risinām šo uzdevumu no beigām (skat. tabulā).
 
@@ -187,7 +187,7 @@ cipariem), bet vienādus - vienādi, turklāt izveidotais skaitlis ir pirmskaitl
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Vārdā $NEAPJAUŠAMAIS$ izmantoti desmit atšķirīgi burti, tātad būtu 
 jāizmanto visi desmit cipari. Tad $NEAPJAUŠAMAIS$ ciparu summa būtu
@@ -220,7 +220,7 @@ cik jautājumiem Olafs nesniedza atbildi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā Olafs uz $10$ jautājumiem atbildēja nepareizi, tad par pareizajām 
 atbildēm kopējais iegūto punktu skaits tika samazināts par $10$, tas ir, par 
@@ -252,7 +252,7 @@ Kā ar $3$ svēršanām uz sviras svariem bez atsvariem atrast viltoto monētu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā svaru kausā ieliekam $5$ monētas, vienu monētu atstājot malā.
 
@@ -271,7 +271,7 @@ monētas no "vieglākā" kausa, vienu monētu atstājot malā.
 
 ![](LV.NOL.2019.6.2A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Katrā svaru kausā ieliekam $4$ monētas, $3$ monētas atstājot malā.
 
@@ -315,7 +315,7 @@ pagrieztas vai apgrieztas spoguļattēlā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, skat. 9.att.
 
@@ -352,7 +352,7 @@ parādīt vienu veidu, kā to izdarīt.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļu izkārtojumu skat., piemēram, 12.att.
 
@@ -393,7 +393,7 @@ atšķirīgi).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienīgais šī uzdevuma atrisinājums ir $L=1; A=2; I=6; Š=5; S=0; R=3; B=7$, tad 
 iegūstam patiesas vienādības $126+560+63+1270=2019$ un $63+63=126$.
@@ -432,7 +432,7 @@ $a, b, c$ nav $0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Jā, var. Piemēram, ja $a=4,\ b=8,\ c=2$, tad vienādojumi ir 
 $4x+8=0,\ 8x+2=0$ un $2x+4=0$ un to saknes attiecīgi ir $x=-2,\ x=-0,25$ un 
@@ -471,7 +471,7 @@ vai smagāka nekā pārējās? (Pašu monētu atrast nav nepieciešams.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzliekam uz katra svaru kausa $4$ monētas, malā atstājot $6$ monētas.
 
@@ -496,7 +496,7 @@ monētām.
 
 ![](LV.NOL.2019.7.2A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Uzliekam uz katra svaru kausa $5$ monētas, malā atstājot $4$ monētas.
 
@@ -547,7 +547,7 @@ nekā Jānītis? Figūra stūrītis var būt arī pagriezta.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var gadīties, piemēram, ja Anniņa iekrāsoja $12$ rūtiņas kā parādīts 
 16.att., bet Jānītis iekrāsoja $18$ rūtiņas kā parādīts 17.att.
@@ -573,7 +573,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b)=150015$ ?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka nevar atrast prasītos skaitļus. Ja $a$ vai $b$ ir pāra skaitlis, 
 tad vienādojuma kreisās puses izteiksmes vērtība ir pāra skaitlis, kas nevar 
@@ -607,7 +607,7 @@ uzvarēt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka Rihards vienmēr var uzvarēt.
 
@@ -654,7 +654,7 @@ malas garumu kvadrātam, kura laukums ir tikpat liels kā dotajam taisnstūrim
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aprēķinām taisnstūra malu garumus:
 
@@ -693,7 +693,7 @@ atsvariem atrast viltoto monētu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalām monētas trīs kaudzītēs: divas kaudzītes pa $9$ monētām katrā un viena 
 kaudzīte, kurā ir $8$ monētas.
@@ -738,7 +738,7 @@ $EM=BC$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $\triangle MAE=\triangle CKB$ pēc pazīmes $m \ell m$, jo
 
@@ -779,7 +779,7 @@ $\frac{4}{3},\ \frac{4}{5},\ \frac{5}{2}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Izdarot gājienus, uz tāfeles uzrakstīto skaitļu reizinājums 
 nemainās, tas ir, ja uz tāfeles pirms gājiena izdarīšanas ir uzrakstīti skaitļi
@@ -814,7 +814,7 @@ izveidotais trīsciparu skaitlis $\overline{yxy}$ ?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis dalās ar $3$ tad, ja tā ciparu summa dalās ar $3$. Tātad $(2x+y)$ 
 dalās ar $3$.
@@ -862,7 +862,7 @@ augoša vai dilstoša!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā funkcija krusto $x$ asi punktā $(2; 0)$, ievietojot šīs vērtīas dotajā 
 funkcijā, iegūstam vienādojumu $0=\left(m^{2}-3m\right) \cdot 2+4m-4$ jeb 
@@ -899,7 +899,7 @@ lodīti?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajā svēršanā salī̀dzinām vienas sarkanās un vienas melnās lodītes masu.
 
@@ -924,7 +924,7 @@ vieglākā svaru kausa ar kādu no zaļajām.)
 
 ![](LV.NOL.2019.9.2B.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pirmajā svēršanā katrā kausā liekam no katras krāsas pa vienai lodītei (katrā 
 svaru kausā ir $3$ lodītes). Svari noteikti nebūs līdzsvarā, jo viens no 
@@ -979,7 +979,7 @@ punkts $O$. Pierādīt, ka $S_{AEOH}+S_{FCGO}=S_{BFOE}+S_{DHOG}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nezaudējot vispārīgumu, varam pieņemt, ka kvadrāta malas garums ir $1$. 
 Apzīmējam $AE=BF=CG=DH=x$, tad $DG=BE=1-x$. Novelkam nogriežņus $OB$ un $OD$ 
@@ -1006,7 +1006,7 @@ S_{AEOH}+S_{FCGO}=S_{ABCD}-\left(S_{BFOE}+S_{DHOG}\right)=1-\frac{1}{2}=\frac{1}
 
 Līdz ar to esam pierādijuši, ka $S_{AEOH}+S_{FCGO}=S_{BFOE}+S_{DHOG}$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Novelkam nogriežņus $EF,\ FG,\ GH$ un $HE$ (skat. 23.att.). Trijstūri 
 $HAE,\ EBF,\ FCG$ un $GDH$ ir vienādi pēc pazīmes $m \ell m$ un to laukumi arī 
@@ -1051,7 +1051,7 @@ no visu šajā kolonnā ierakstīto skaitļu reizinājuma. Vai tas ir iespējams
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Nē, nav iespējams. Ievērojam, ka rindā vai kolonnā visu ierakstīto 
 skaitļu reizinājums var būt tikai $(+1)$ vai $(-1)$. Apzīmēsim rindās 
@@ -1094,7 +1094,7 @@ iegūtu skaitli, kas dalās ar $2019$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais ciparu skaits, kas jāpieraksta ciparu virknes beigās, ir trīs. 
 Piemēram, skaitlis $3456528$ dalās ar $2019$ ($3456528=2019 \cdot 1712$).
@@ -1115,7 +1115,7 @@ ar divu ciparu pievienošanu nevar izveidot skaitli, kas dalās ar $2019$.
 
 Tātad esam pierādījuši, ka jāpievieno vismaz trīs cipari.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Mazākais ciparu skaits, kas jāpieraksta ciparu virknes beigās, ir trīs. 
 Piemēram, skaitlis $3456528$ dalās ar $2019$ ($3456528=2019 \cdot 1712$).
@@ -1156,7 +1156,7 @@ krustpunktu ar $x$ asi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā funkcija krusto $x$ asi punktā $(1; 0)$, līdz ar to, ievietojot šīs 
 vērtības dotajā funkcijā, iegūstam vienādojumu $0=1+m^{2}+3m+m-1$ jeb 
@@ -1188,7 +1188,7 @@ $51~\mathrm{g}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajā svēršanā uz katra svaru kausa uzliekam pa $3$ monētām. lespējami divi 
 gadījumi:
@@ -1216,7 +1216,7 @@ $51~\mathrm{g}$, un prasītais ir izpildīts.
 
 ![](LV.NOL.2019.10.2A.png)
 
-## Atrisināums
+## Atrisinājums-2
 
 Pirmajā svēršanā uz katra svaru kausa uzliekam pa $2$ monētām.
 
@@ -1269,7 +1269,7 @@ $\omega_{2}$ punktā $B$ un krusto $t_{3}$ punktā $D$. Pierādīt, ka $AC=BD$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $E, F, G$ un $H$ apzīmējam pārējos pieskaršanās punktus (skat. 29.att.). Tā 
 kā pieskaru, kas vilktas no viena punkta, nogriežņi ir vienādi, tad iegūstam 
@@ -1297,7 +1297,7 @@ pozitīvi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka kāds no dotajiem skaitļiem $x$ ir negatīvs vai $0$, tas 
 ir $x \leq 0$. Atlikušos $2018$ skaitļus sadalām divās grupās $A$ un $B$ katrā 
@@ -1327,7 +1327,7 @@ Atrast visus pirmskaitļu pārus $(m, n)$, kuriem $20m+18n=2018$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dalām abas dotā vienādojuma puses ar $2$ un pārveidojam iegūto vienādojumu:
 
@@ -1351,7 +1351,7 @@ vērtības:
 Tātad dotajam vienādojumam ir divi atrisinājumi: $m=37, n=71$ un $m=73, n=31$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izdalām abas puses ar $2$: Iegūstam sakarību $10m+9n=1009$.
 
@@ -1380,7 +1380,7 @@ $y=bx+c$ grafiki? (Funkciju grafiki nav zīmēti mērogā.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar.
 
@@ -1410,7 +1410,7 @@ pašu labāko, gan otru labāko šahistu šajā klubā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Izvēlamies divus šahistus un noskaidrojam labāko. Pirmās partijas 
 uzvarētājs spēlē ar kādu vēl nespēlējušu šahistu. Šīs partijas uzvarētājs spēlē
@@ -1461,7 +1461,7 @@ krusto $\omega_{1}$ punktā $B_{1}$, bet $\omega_{2}$ - punktā $C_{2}$ (skat.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle C_{1}B_{1}A=\sphericalangle C_{2}B_{2}A=90^{\circ}$ (kā 
 ievilktie leņķi, kas balstās uz diametra) un 
@@ -1474,7 +1474,7 @@ $\Delta B_{1}AB_{2} \sim \Delta C_{1}AC_{2}$ pēc pazīmes $m \ell m$. Tātad
 $\sphericalangle B_{2}B_{1}A=\sphericalangle C_{2}C_{1}A$ kā atbilstošie leņķi 
 līdzīgos trijstūros.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Tā kā $\sphericalangle C_{1}B_{1}A=\sphericalangle C_{2}B_{2}A=90^{\circ}$ kā 
 ievilktie leņķi, kas balstās uz diametra, tad ap četrstūri 
@@ -1497,7 +1497,7 @@ reāliem pozitīviem skaitļiem $a$ un $b$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $a$ un $b$ ir pozitīvi skaitļi, tad abas nevienādības puses drīkst 
 reizināt ar $ab$. Iegūstam pierādāmajai nevienādībai ekvivalentu nevienādību
@@ -1518,7 +1518,7 @@ Reāla skaitļa kvadrāts ir vienmēr ir nenegatīvs. Līdz ar to iegūta paties
 nevienādība un arī dotā nevienādība ir patiesa, jo tika veikti tikai 
 ekvivalenti pārveidojumi.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Dotā nevienādība ir ekvivalenta nevienādībai
 
@@ -1537,7 +1537,7 @@ Reāla skaitļa kvadrāts vienmēr ir nenegatīvs. Līdz ar to iegūta patiesa
 nevienādība un arī dotā nevienādība ir patiesa, jo tika veikti tikai 
 ekvivalenti pārveidojumi.
 
-## Atrisinājums
+## Atrisinājums-3
 
 Tā kā $a$ un $b$ ir pozitīvi skaitļi, tad dotās nevienādības kreisās puses 
 izteiksmi var novērtēt, izmantojot nevienādību starp vidējo aritmētisko un 
@@ -1562,7 +1562,7 @@ Atrast visus pirmskaitļu pārus $(m, n)$, kuriem $20m+19n=2019$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam doto vienādojumu
 
@@ -1584,7 +1584,7 @@ pirmskaitļi. Atrodam atbilstošās $n$ vērtības:
 Tātad dotajam vienādojumam ir divi atrisinājumi: $m=5,\ n=101$ un 
 $m=43,\ n=61$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apskatīsim doto vienādojumu pēc moduļa $19$. Tā kā 
 $20m \equiv 1 \cdot m \equiv m(\bmod 19)$, $19n \equiv 0(\bmod 19)$ un 
@@ -1613,7 +1613,7 @@ ar varbūtību, ka lodītes būs dažādās krāsās. Cik melno lodīšu atrodas
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā varbūtība, ka abas lodītes būs vienā krāsā, sakrīt ar varbūtību, ka 
 lodītes būs dažādās krāsās, tad abas varbūtības ir $\frac{1}{2}$. Varbūtību, ka
@@ -1668,7 +1668,7 @@ sešus jautājumus, Indra noteikti var uzzināt Brigitas iedomāto skaitli?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Indra domās sadala skaitļus divos vienāda apjoma intervālos: $[1; 30]$ un 
 $[31; 60]$. Pirmais jautājums: "Vai iedomātais skaitlis pieder intervālam 
@@ -1695,7 +1695,7 @@ iedomāto skaitli.
 
 *Piezīme.* Atrisinājums balstīts uz "skaldi un valdi" algoritmu.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Tā kā Brigitas iedomātais skaitlis nepārsniedz $60$, tad to binārajā 
 skaitīšanas sistēmā var uzrakstīt izmantojot ne vairāk kā $6$ ciparus. Indrai 
@@ -1729,7 +1729,7 @@ regulārs!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Punkts $O$ ir trijstūra $ABC$ bisektrišu krustpunkts (skat. 35.att.). Apzīmējam
 $\sphericalangle BAC=2 \alpha$, $\sphericalangle ABC=2 \beta$ un 
@@ -1752,7 +1752,7 @@ $2 \alpha=\frac{\alpha}{2}+45^{\circ}, 2 \beta=\frac{\beta}{2}+45^{\circ}$ un
 $2 \gamma=\frac{\gamma}{2}+45^{\circ}$. Tātad $\alpha=\beta=\gamma=30^{\circ}$ 
 jeb $2 \alpha=2 \beta=2 \gamma=60^{\circ}$ un $\triangle ABC$ ir regulārs.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Punkts $O$ ir trijstūrim $DEF$ apvilktās riņķa līnijas centrs - 
 vidusperpendikulu krustpunkts. Tā kā $\frac{AB}{DE}=\frac{BC}{EF}=\frac{AC}{DF}$,
@@ -1774,7 +1774,7 @@ $\left|\sqrt{a^{2}+b^{2}}-\sqrt{a^{2}+c^{2}}\right| \leq|b-c|$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $b=c$, tad dotā nevienādība ir patiesa.
 
@@ -1794,7 +1794,7 @@ $c \leq \sqrt{a^{2}+c^{2}}$.
 Ja $b < c$, tad jāpierāda, ka $\sqrt{a^{2}+c^{2}}-\sqrt{a^{2}+b^{2}} \leq c-b$, 
 ko var izdarīt analogi kā iepriekšējā gadījumā.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ja $b=c$, tad dotā nevienādība ir patiesa.
 
@@ -1825,7 +1825,7 @@ naturālos skaitļos!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka der vērtības formā $a=\frac{k(k+1)}{2}$ un $b=\frac{k(k-1)}{2}$, 
 kur $k$ ir naturāls skaitlis, kas lielāks nekā $1$:

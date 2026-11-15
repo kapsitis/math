@@ -14,7 +14,7 @@ $$=\left\lfloor \frac{q}{p} \right\rfloor +
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādījumā izmanto faktu, ka skaiţ̦i $p, 2p, \ldots, (q-1)p$ 
 dod visus nenulles atlikumus pēc moduḷa $q$.

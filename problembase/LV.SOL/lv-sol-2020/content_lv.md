@@ -13,7 +13,7 @@ $4500$ rūtiņas un kura malas iet pa rūtiṇu līnijām?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var (skat., piemēram, 1.att.).
 
@@ -35,7 +35,7 @@ ka trim skaitļiem $A, B$ un $A+B$ ciparu summas visas savā starpā vienādas?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā; piemēram, var izvēlēties $A=117, B=225$ un $A+B=117+225=342$, 
 kuru ciparu summas ir $9$.
@@ -65,7 +65,7 @@ trijstūrīšos ar kopīgu malu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, skat. 4. att.
 
@@ -93,7 +93,7 @@ tikai $5$ nepāra skaitļi $(1,3,5,7,9)$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, skat., piemēram, 7. att.
 
@@ -120,7 +120,7 @@ visu komandu nav nevienas uzvaras. Cik spēlu izspēlēja turnīrā?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Bez uzvarām var palikt augstākais viena komanda. Ja tādas komandas 
 būtu vismaz divas, tad kas uzvarēja to savstarpējās spēlēs 
@@ -141,7 +141,7 @@ skaitļu reizinājums dalās ar to summu?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, eksistē, piemēram, uzdevuma nosacījumus apmierina skaitli 
 $120$, $240$ un $360$, jo
@@ -167,7 +167,7 @@ $120$, $240$ un $360$, jo
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, skat., piemēram, 9.att.
 
@@ -196,7 +196,7 @@ bet katrs atlikušais attālums nepārsniegtu $4 \mathrm{~cm}$ ?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Apzīmēsim punktus ar $A,B,C,D$. Ja, piemēram, $AD=10$, 
 tad trijstūrī $ABD$ un $ACD$ jāizpildās trijstūra nevienādībai, 
@@ -222,7 +222,7 @@ pēc kārtas uzrakstītu skaitļu summa būtu negatīva?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais skait|u skaits ir 6, piemēram, 10; $-18 ; 10 ; 10 ;-18 ; 10$. 
 Pamatosim, ka vairāk skaitļus nevar uzrakstīt, lai izpildītos uzdevumā 
@@ -250,7 +250,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienkāršojam doto izteiksmi
 
@@ -277,7 +277,7 @@ Pierādīt, ka $AN=CM$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šķirojam divus gadijumus.
 
@@ -316,7 +316,7 @@ divi blakus uzrakstīti cipari veidotu pirmskaitli un visi šie pirmskaitļi bū
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklētais skaitlis ir $619737131179$, jo $61$, $19$, $97$, $73$, $37$, $71$, $13$, 
 $31$, $11$, $17$, $79$ visi ir pirmskaitļi.
@@ -338,7 +338,7 @@ $\frac{1}{a_{1}}+\frac{1}{a_{2}}+\cdots+\frac{1}{a_{10}}=1$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, $\frac{1}{2}+\frac{1}{3}+\frac{1}{6}=1$.
 
@@ -370,7 +370,7 @@ Vai šaurleṇku trijstūrī mediānas garums var būt vienāds ar viduslīnijas
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Pieṇemsim, ka mediānas garums var būt vienāds ar viduslīnijas garumu. 
 Šķirojam divus gadijumus.
@@ -416,7 +416,7 @@ ir vieglāka vai smagāka nekā pārējās?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzliekam uz katra svaru kausa $8$ monētas. Iespējami divi gadījumi.
 
@@ -450,7 +450,7 @@ $$1^{2}+3^{2}+5^{2}+\cdots+(2 n-1)^{2}=\frac{n(2 n-1)(2 n+1)}{3}$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātiskās indukcijas metodi.
 
@@ -489,7 +489,7 @@ laukumi ir vienādi!
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $S(AEC)=S(COE)-S(AOE)$ un $S(DBF)=S(BOF)-S(BOD)$ 
 (skat. 16.att.). Izmantojot trijstūra $COF$ laukumus, izsakām visus laukumus:
@@ -517,7 +517,7 @@ Pierādīt, ka uz melnajiem lauciṇiem kopā ir pāra skaits figūru!
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam pāra un nepāra kolonnās kopējo figūru skaitu attiecīgi ar 
 $PK$ un $NK$; līdzīgi ieviešam apzīmējumus rindām $PR$ un $NR$. 
@@ -539,7 +539,7 @@ Pierādīt, ka $10^{n}-9n-1$ dalās ar $81$ visām naturālām $n$ vērtībām!
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātiskās indukcijas metodi.
 
@@ -579,7 +579,7 @@ starp taisnēm $AN$ un $CM$ ir $60^{\circ}$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $\triangle MBC=\triangle ABN$ pēc pazīmes 
 $\mathrm{mlm}$ (skat. 17.att.), jo
@@ -611,7 +611,7 @@ ar $b$ un $a+1$ dalās ar $b+1$. Pierādīt, ka $a>b^{2}$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $a=nb$, kur $n \in N$ un $n>1$. Tad 
 $\frac{n b+1}{b+1}=\frac{n b+n+1-n}{b+1}=\frac{n(b+1)-(n-1)}{b+1}=n-\frac{n-1}{b+1}$ 
@@ -632,7 +632,7 @@ kur $x_{1}=3$ un $x_{2}=6$. Pierādīt, ka virkni var definēt ar formulu $x_{n}
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātiskās indukcijas metodi.
 
@@ -672,7 +672,7 @@ Pierādīt, ka $\frac{\operatorname{tg} \sphericalangle AXC}{\operatorname{tg} \
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam $CZ \perp AX$ (skat. 18.att.). Tā kā $AB$ ir diametrs, 
 tad $\sphericalangle AXB=90^{\circ}$ un $BX \| CZ$. No $\triangle XZC$ 
@@ -706,7 +706,7 @@ nevienādība $Z>U$ ?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Apzīmējam $i$-tā šahista iegūto punktu skaitu ar $P_{i}$, 
 bet atbilstošās summas $i$-jam šahistam ar $Z_{i}$ un $U_{i}$. Apskatām 

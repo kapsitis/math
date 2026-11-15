@@ -21,7 +21,7 @@ dažādi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der jebkuri divi no variantiem:
 
@@ -58,7 +58,7 @@ gadu skaits?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, piemēram, varētu gadīties, ka vienam dejotājam ir $11$ gadi, bet 
 pārējiem $17$ dejotājiem - $15$ gadi.
@@ -103,7 +103,7 @@ otras tā, ka abas figūras pilnīgi sakrīt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der jebkurš no 2.att. dotajiem sadalījumiem.
 
@@ -130,7 +130,7 @@ $$7, a, b, c, d, e, f, 9$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ir viens vienīgs veids, kā ierakstīt skaitļus: $7;\ 9;\ 4;\ 7;\ 9;\ 4;\ 7;\ 9$.
 Redzams, ka katri trīs pēc kārtas esoši skaitļi ir $7,\ 9,\ 4$, kaut kādā 
@@ -163,7 +163,7 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka **(A)** gadījumā vienmēr var uzvarēt otrais spēlētājs, bet **(B)** 
 gadījumā - pirmais spēlētājs.
@@ -205,7 +205,7 @@ $$\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=\frac{4}{5}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der jebkurš no variantiem:
 
@@ -242,7 +242,7 @@ dalībnieki?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Nē, piemēram, varētu gadīties, ka vienā korī ir tieši $30$ dalībnieki, 
 bet pārējos deviņos koros - katrā pa $29$ dalībniekiem.
@@ -281,7 +281,7 @@ doto figūru un $22$ figūrām, kādas dotas 4.att.? Figūras drīkst pagriezt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Jā, var, piemēram, skat., 5.att.
 
@@ -318,7 +318,7 @@ pamato, ka citu nav!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam doto divciparu skaitli ar $\overline{ab}$. Tad jābūt patiesai 
 vienādībai $23 \cdot \overline{ab}=\overline{1ab1}$. Lai reizinājuma pēdējais 
@@ -336,7 +336,7 @@ cipara $a$ vērtības:
 
 Tātad vienīgais derīgais divciparu skaitlis ir $77$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam doto divciparu skaitli ar $\overline{ab}$. Tad jābūt patiesai 
 vienādībai $23 \cdot \overline{ab}=\overline{1ab1}$. Lai reizinājuma pēdējais 
@@ -374,7 +374,7 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka **a)** gadījumā vienmēr var uzvarēt otrais spēlētājs, bet **b)** 
 gadījumā - pirmais spēlētājs.
@@ -417,7 +417,7 @@ stāvu zemāk. Kāds mazākais logu skaits var būt šīs mājas ceturtajā stā
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $x$ apzīmējam logu skaitu ceturtajā stāvā. Tad kopējais logu skaits ir
 
@@ -458,7 +458,7 @@ ka vismaz četras no tām ir vienā krāsā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Nē, piemēram, varētu gadīties, ka $1$ meitene izvēlējās sarkanu lenti, 
 $1$ meitene - dzeltenu lenti un $6$ meitenes - zaļu lenti.
@@ -495,7 +495,7 @@ un $\sphericalangle EFG=60^{\circ}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam taisnei $AB$ paralēlas taisnes caur punktiem $C,\ D,\ E$ un $F$ (skat.
 9.att.). Tā kā iekšējo vienpusleņķu summa pie paralēlām taisnēm ir 
@@ -533,7 +533,7 @@ ciparus!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārrakstām doto skaitli formā
 
@@ -577,7 +577,7 @@ $$\begin{gathered}
 
 kur katrs saskaitāmais dalās ar $11$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Skaitlis dalās ar $11$, ja tā ciparu summas, kas atrodas nepāra pozīcijās, un 
 ciparu summas, kas atrodas pāra pozīcijās, starpība dalās ar $11$. Dotais 
@@ -611,7 +611,7 @@ Pierādit, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā rindās ierakstīto skaitļu summas ir vienādas, tad katrā rindā ierakstīto 
 skaitļu summa ir
@@ -648,7 +648,7 @@ $a^{2}+\frac{1}{a^{2}}+2$; **b)** $a^{4}+\frac{1}{a^{4}}$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Redzams, ka 
 $a^{2}+\frac{1}{a^{2}}+2=a^{2}+2 \cdot a \cdot \frac{1}{a}+\frac{1}{a^{2}}=\left(a+\frac{1}{a}\right)^{2}=3^{2}=9$.
@@ -686,7 +686,7 @@ būtu trīs meitenes, kas izvēlējās vienu un to pašu lenšu krāsu komplektu
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 levērojam, ka iespējami $10$ dažādi lenšu krāsu komplekti:
 
@@ -738,7 +738,7 @@ nekā $PQ$ ?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $PS$ ir leņķa $\sphericalangle QPR$ bisektrise un trijstūra iekšējo leņķu
 summa ir $180^{\circ}$, tad 
@@ -783,7 +783,7 @@ trīs skaitļu summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais nuļļu skaits ir $2$. To var iegūt, piemēram, $195+762+843=1800$.
 
@@ -837,7 +837,7 @@ Pierādīt, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā rindās ierakstīto skaitļu summas ir vienādas, tad katrā rindā ierakstīto 
 skaitļu summa ir
@@ -878,7 +878,7 @@ bija maršruts?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atlikušo maršruta garumu, kas palicis, kad noieti pirmie $30~\mathrm{km}$, 
 apzīmējam ar $x$ (skat. 15.att.). Tad ar jahtu pa jūru jaunieši brauca 
@@ -911,7 +911,7 @@ vispār neko. Vai noteikti ir divi skolēni, kas pasūtīja vienu un to pašu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka noteikti ir divi tādi skolēni, kas pasūtīja vienu un to pašu. 
 levērojam, ka katra veida ēdienu var vai nu neiekļaut komplektā, vai izvēlēties
@@ -948,7 +948,7 @@ Pierādīt, ka punkts $F$ ir $BC$ viduspunkts!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $AD=AB+CD$, tad uz malas $AD$ ir tāds punkts $E$, ka $AB=AE$ un $ED=DC$ 
 (skat. 16.att.). levērojam, ka $\triangle BAF=\triangle EAF$ pēc pazīmes 
@@ -980,7 +980,7 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka $20x^{3}-17y^{2}+1=2018$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka tādus skaitļus nevar atrast. Pārveidojam doto vienādojumu:
 
@@ -998,7 +998,7 @@ $$20\left(x^{3}-100\right)=17\left(2+4k^{2}+4k\right)$$
 Tā kā vienādības kreisā puse dalās ar četri, bet labā puse nedalās, tad 
 vienādojumam nav atrisinājuma veselos skaitļos.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pierādīsim, ka tādus skaitļus nevar atrast. Pārveidojam doto vienādojumu:
 
@@ -1053,7 +1053,7 @@ pieņemot, ka rūtiņas malas garums ir viena vienība!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotās figūras perimetrs ir $26$ vienības. Iegūto sešu daļu perimetrus apzīmējam
 ar $p_{1}, p_{2}, p_{3}, p_{4}, p_{5}, p_{6}$ un aplūkojam summu 
@@ -1090,7 +1090,7 @@ un cik - gliemezis!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skudras ātrumu apzīmējam ar $x$ un gliemeža - ar $y$. Tad iegūstam vienādojumu 
 sistēmu
@@ -1122,7 +1122,7 @@ lielākais skaits skolēnu, kas noteikti pasūtīja vienu un to pašu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka lielākais skolēnu skaits, kas noteikti pasūtīja vienu un to pašu,
 ir $8$. levērojam, ka katra veida ēdienu var vai nu neiekļaut komplektā, vai 
@@ -1156,7 +1156,7 @@ $\sphericalangle KLD=90^{\circ}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No punkta $L$ pret malām $AB$ un $AD$ novelkam attiecīgi perpendikulus $LF$ un 
 $LE$ (skat. 21.att.). Simetrijas dēļ $LF=LE$. Tā kā $AL:LC=3:1$, tad pēc Talesa
@@ -1194,7 +1194,7 @@ trīs izveidoto skaitļu summa?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais nuļļu skaits ir $5$. To var iegūt, piemēram, 
 $257899+327686+314415=900000$.
@@ -1231,7 +1231,7 @@ $921478+925176+853346=2700000$. 2) Vajadzīgo piemēru var atrast, piemeklējot
 ciparus, sākot ar skaitļu pēdējo ciparu.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Katrs sešciparu skaitlis ir mazāks par 1 miljonu. 
 $3$ šādu skaitļu summa ir zem $10$ miljoniem - ne vairāk kā 7-ciparu skaitlis. 
@@ -1264,7 +1264,7 @@ pieņemot, ka rūtiņas malas garums ir viena vienība!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotās figūras perimetrs ir $26$ vienības. Iegūto septiņu daļu perimetrus 
 apzīmējam ar $p_{1}, p_{2}, p_{3}, p_{4}, p_{5}, p_{6}, p_{7}$ un aplūkojam 
@@ -1308,7 +1308,7 @@ $23$ bildes, tad vismaz viena lapa paliktu tukša. Cik lapu ir fotoalbumā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam ar $x$ lapu skaitu katrā fotoalbumā. Tad bilžu skaits, kas Spīdolai 
 jāielīmē otrajā fotoalbumā, ir $(482-21 x)$. Iegūstam nevienādību sistēmu:
@@ -1341,7 +1341,7 @@ $30$ gadi vai $4$ tādus, kuru gadu skaits ir vienāds!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemam pretējo tam, kas jāpierāda, tas ir, nav divu cilvēku, kuriem ir vairāk
 kā $30$ gadi un nav četru cilvēku, kuriem ir vienāds gadu skaits. Sadalām 
@@ -1353,7 +1353,7 @@ cilvēks - pretruna. Tātad pieņēmums ir aplams un esam pierādījuši, ka var
 atrast divus tādus cilvēkus, kuriem ir vairāk nekā $30$ gadi vai $4$ tādus, 
 kuru gadu skaits ir vienāds.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Sadalām cilvēkus grupās pēc to gadu skaita: 
 $\{ 21\}$ ; $\{ 22\}$ ; $\{ 23\}$ ; $\ldots$ ; $\{ 29\}$ ; $\{ 30\}$ ; $\{\text{vairāk nekā}\ 30\}$.
@@ -1378,7 +1378,7 @@ viduspunktā!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Bisektrišu krustpunktu apzīmējam ar $F$. Ir jāpierāda, ka $F$ atrodas uz $BC$, 
 un arī, ka $FB=FC$.
@@ -1421,7 +1421,7 @@ kādu lielāko nuļļu skaitu var beigties trīs izveidoto skaitļu summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais nuļļu skaits ir $6$. To var iegūt, piemēram, 
 $8514789+421679+63532=9000000$. Pierādīsim, ka ar vairāk kā $6$ nullēm skaitļu 
@@ -1470,7 +1470,7 @@ visiem reāliem skaitļiem $a, b, c, d$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -1489,7 +1489,7 @@ $$\left(a^{2}-b^{2}\right)^{2}+\left(c^{2}-d^{2}\right)^{2}+2(ab-cd)^{2}+(ab-cd)
 Tā kā katrs saskaitāmais ir nenegatīvs, tad pēdējā nevienādība ir patiesa un 
 arī dotā nevienādība ir patiesa.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Izmantojot nevienādību starp vidējo aritmētisko un vidējo ģeometrisko, 
 novērtējam dotās nevienādības kreiso pusi:
@@ -1516,7 +1516,7 @@ sniegu Sūnu ciemā notīrītu, ja strādātu tikai otrā sniega tīrāmā maš�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam: $x$ - tik stundās pirmā mašīna notīrītu sniegu, ja strādātu viena; 
 $y$ - tik stundās otrā mašīna notīrītu sniegu, ja strādātu viena. Tad vienā 
@@ -1558,7 +1558,7 @@ skaitļus, kuru ciparu summas ir vienādas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam iespējamas $27$ dažādas ciparu summas vērtības:
 
@@ -1605,7 +1605,7 @@ vienas riņķa līnijas!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $CN$ un $BM$ ir bisektrises, tad 
 $\sphericalangle ACN=\sphericalangle NCB=\alpha$ un 
@@ -1644,7 +1644,7 @@ Doti naturāli skaitļi $a$ un $b$. Pierādīt
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja $20a+18b$ dalās ar $7$, tad arī $6a+4b$ dalās ar $7$, jo 
 $20a+18b=14a+14b+(6a+4b)$. Tas nozīmē, ka arī $7 \cdot 27a+2(6a+4b)=201a+8b$ 
@@ -1667,7 +1667,7 @@ saknes!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 levērojam, ja $x=\sqrt{20}-\sqrt{18}$, tad $x^{2}=38-12 \sqrt{10}>0$ un 
 $x^{4}=2884-912 \sqrt{10}$.

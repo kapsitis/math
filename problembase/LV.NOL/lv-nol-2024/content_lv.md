@@ -18,7 +18,7 @@ visi pieci ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $2$.
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Der, piemēram, $23 \cdot 26=598$.  
 *Piezīme.* Der arī $26 \cdot 29=754$.
@@ -46,7 +46,7 @@ Kāds mazākais skaits punktu jānodzēš, lai nekādi trīs no atlikušajiem pu
 
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Mazākais punktu, ko jānodzēš, skaits ir $8$, piemēram, skat. 2. att.
 
@@ -82,7 +82,7 @@ sakrīt (figūras var pagriezt un apmest otrādi).
 
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Skat. 4. att.
 
@@ -110,7 +110,7 @@ $4 \cdot 1+23=27$). Kāds ir pēdējais uzrakstītais skaitlis?
 
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pēdējais skaitlis ir $29$. Aprēķinām pirmos dotās virknes skaitļus:
 
@@ -143,7 +143,7 @@ Vai iespējams, ka pēc atkārtotas automāta izmantošanas viṇai palika:
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Nē, tas nav iespējams. levērosim, ka pēc katras darbības dzelteno žetonu skaits 
 vai nu nemainās (tas notiek gadījumos, kad automātā iemet divus zalus žetonus 
@@ -181,7 +181,7 @@ visi seši ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $3$.
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Der, piemēram, $34 \cdot 37=1258$.  
 *Piezīme.* Der arī $37 \cdot 38=1406$.
@@ -208,7 +208,7 @@ ja jābūt izgrieztām arī tieši divām 6.att. figūrām?
 
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Lielākais skaits figūru ir $14$, piemēram, skat. 8. att. Pamatosim, ka vairāk 7. att. figūru nevar izgriezt.
 
@@ -250,7 +250,7 @@ ka abas figūras sakrīt (figūras var pagriezt un apmest otrādi).
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Skat. 12. att.
 
@@ -277,7 +277,7 @@ Kāds ir pēdējais uzrakstītais skaitlis?
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pēdējais uzrakstītais skaitlis ir $37$. Aprēkinām pirmos dotās virknes skaitļus:
 
@@ -313,7 +313,7 @@ ko sauc par posmiem. Lauztu līniju, kuras galapunkti sakrīt, sauc par slēgtu 
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, skat. 13. att.
 
@@ -346,7 +346,7 @@ katru ciparu tieši vienu reizi! (Iekavas lietot nedrīkst un jāievēro darbīb
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Skat. 14. att.
 
@@ -371,7 +371,7 @@ Kāda lielākā ciparu summa var būt desmitciparu skaitlim, kas dalās ar $18$?
 
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Lielākā iespējamā ciparu summa ir $81$. Tāda ir, piemēram, skaitlim $9999999990$, tas dalās, 
 gan ar $9$, gan ar $2$, tātad tas dalās arī ar $9 \cdot 2=18$.
@@ -402,7 +402,7 @@ Kāds var būt nogriežņa $AC$ garums, ja zināms, ka tas ir naturāls skaitlis
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 No trijstūra nevienādības $\triangle ABC$ un $\triangle ADC$ 
 (pieļaujot, ka punkti atrodas arī uz vienas taisnes) attiecīgi iegūstam:
@@ -446,7 +446,7 @@ salikt taisnstūri, kurā 16. att. figūras nesaskaras ne ar malu, ne ar stūri!
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Skat., piemēram, 17. att.
 
@@ -477,7 +477,7 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 levērosim, ka katrs gardēdis varēja nopirkt ne vairāk kā 3 tortes, jo pat 
 $4$ vislētākās tortes kopā maksā 86 eiro $(20+21+22+23=86)$. Tātad visi trīs gardēži 
@@ -486,7 +486,7 @@ kopā varēja nopirkt ne vairāk kā $3 \cdot 3 = 9$ tortes, tātad vismaz viena
 
 
 
-## Atrisinājums 
+## Atrisinājums-2
 
 Pienemsim pretējo, ka trīs gardēži kopā nopirkuši visas tortes. 
 Tad pēc Dirihlē principa var atrast gardēdi, kurš ir nopircis vismaz $4$ tortes. 
@@ -512,7 +512,7 @@ Vai iespējams, sareizinot sešus dažādus pirmskaiț̣us, iegūt sešciparu sk
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Jā, var, piemēram, der sešciparu skaitlis $222222=2 \cdot 3 \cdot 37 \cdot 7 \cdot 11 \cdot 13$.
 
@@ -537,7 +537,7 @@ $D$ un $E$ tā, lai $AE=AD$ un $\sphericalangle BAD=30^{\circ}$. Aprēk̄ināt l
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Tā kā $AB=AC$, tad $\sphericalangle B=\sphericalangle C=\alpha$ (skat. 18. att.). 
 No trijstūra $ABC$ iekšējo leṇku summas iegūstam, ka 
@@ -580,7 +580,7 @@ kolonnā vai diagonālē, bet arī, piemēram, punkti $A, B, C$ (skat. 20. att.)
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Mazākais punktu, ko jānodzēš, skaits ir $15$, piemēram, skat. 21. att.
 
@@ -615,7 +615,7 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Ievērosim, ka katrs gardēdis varēja nopirkt ne vairāk kā $3$ tortes, 
 jo pat $4$ vislētākās tortes kopā maksā $126$ eiro $(30+31+32+33=126)$. 
@@ -624,7 +624,7 @@ tātad vismaz viena torte palika nenopirkta.
 
 
 
-## Atrisinājums 
+## Atrisinājums-2
 
 Pien̦msim pretējo, ka trīs gardēži kopā nopirkuši visas tortes. 
 Tā kā $16=5 \cdot 3+1$, tad pēc Dirihlē principa var atrast gardēdi, 
@@ -656,7 +656,7 @@ viens skaitlis un katrā rindā un katrā kolonnā skaitli pieaugtu bultiņas no
 
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, skat. 24. att.
 
@@ -689,7 +689,7 @@ un malu $K L$ un $M N$ vidusperpendikulu krustpunkts $X$ atrodas uz malas $K N$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc vidusperpendikula īpašības iegūstam, ka $XK=XL$ un $XN=XM$, 
 tātad $\triangle KXL$ un $\triangle MXN$ ir vienādsānu trijstūri un to pamata pieleṇịi ir vienādi, tas ir, $\sphericalangle X K L=\sphericalangle X L K$ un $\sphericalangle X M N=\sphericalangle X N M$ (skat. 1. att.).
@@ -723,7 +723,7 @@ Pierādīt, ka $\sqrt{17-12 \sqrt{2}}+\sqrt{3-2 \sqrt{2}}+\sqrt{3+2 \sqrt{2}}=3$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katru zemsaknes izteiksmi izteiksim kā summas vai starpības kvadrātu un veiksim ekvivalentus pārveidojumus:
 
@@ -735,7 +735,7 @@ $$\begin{gathered}
 \end{gathered}$$
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -784,7 +784,7 @@ Uz kvadrāta $ABCD$ diagonāles $BD$ atlikts punkts $E$. Pierādīt, ka $ED \cdo
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam diagonālu krustpunktu ar $O$; apzīmējam $BD=d$ un $OE=x$. 
 Diagonāle $B D$ ir kvadrāta simetrijas ass, tāpēc $EA = EC$ (skat. 2. att.).
@@ -825,7 +825,7 @@ Vai var gadīties, ka tagad visi kaķi atrodas tieši: **(A)** $8$ rūtiņās; *
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, skat. 3. att., kur visi kaķi atrodas pelēkajās rūtiṇās 
 (katrs kaķis no baltās rūtiṇas varēja pārlēkt uz kādu pelēko rūtịnu, 
@@ -864,7 +864,7 @@ Pierādīt, ka $9$ reizes lielāka skaitļa ciparu summa ir $9$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $9 x=10 x-x=\overline{x 0}-x$. Apzīmējam $x=\overline{a_{1} a_{2} \cdots a_{n-1} a_{n}}$ un aplūkojam skait!a $9 x=\overline{x 0}-x$ ciparus, ievērojot, ka ciparu virkne ir augoša:
 
@@ -892,7 +892,7 @@ Pierādīt, ka $AC$ ir paralēla ar $BD$!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle ACY = \alpha$ (skat. 4. att.). 
 Tā kā četrstūris $CAXY$ ir ievilkts četrstūris, tad tā pretējo lenku summa ir 
@@ -918,7 +918,7 @@ Doti reāli skaiții $x$ un $y$, kuriem $xy^{3}+1=x+y^{3}$. Pierādīt, ka $y x^
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus un sadalām vienādības kreiso pusi reizinātājos:
 
@@ -952,7 +952,7 @@ iekšējus punktus $P$ un $Q$, ka nogriežnu $AP, AQ, BP$ un $BQ$ garumi ir izsa
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Punkti $P$ un $Q$ jāatliek tā, ka $A P=2 \mathrm{~cm}$ un $A Q=5 \mathrm{~cm}$ (skat. 5. att.). 
 Parādīsim, ka šādā gadījumā $BP=7 \mathrm{~cm}$ un $B Q=8 \mathrm{~cm}$.
@@ -996,7 +996,7 @@ Atrast visus tādus veselu skaitlu pārus $(a ; b)$, kuriem izpildās vienādīb
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalām vienādības labo pusi reizinātājos:
 
@@ -1052,7 +1052,7 @@ Vai var gadīties, ka tagad visas vardes atrodas tieši: **(A)** $24$ rūtiņās
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, skat. 6. att., kur visas vardes ir nonākušas pelēkajās rūtiṇās (katra varde no baltās rūtiṇas varēja pārlēkt uz kādu pelēko rūtiṇu, un vardes, kas sākumā atradās kādā no pelēkajām rūtinām, pārlēca uz blakus esošo pelēko rūtinu).
 
@@ -1078,7 +1078,7 @@ $A$ un $E$ un $OB = OC$. Pierādīt, ka punkti $O$, $A$, $B$ un $C$ atrodas uz v
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $OD=OE$ (rādiusi) un $OB=OC$ (dots), tad abi taisnleṇķa trijstūri $OBD$ un $OCE$ 
 ir vienādi pēc pazīmes $hk$, tātad to atbilstošie leṇķi ir vienādi: 
@@ -1106,7 +1106,7 @@ Pierādīt, ka $\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}<
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Reizinot dotās vienādības abas puses ar $\left(x^{2}-y^{2}\right) \neq 0$, iegūstam:
 
@@ -1120,7 +1120,7 @@ levietojam iegūto sakarību pierādāmās nevienādības kreisās puses izteiks
 $$\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}=\frac{\frac{10}{7} x^{2}}{\frac{4}{7} x^{2}}+\frac{\frac{4}{7} x^{2}}{\frac{10}{7} x^{2}}=\frac{5}{2}+\frac{2}{5}=\frac{29}{10}<3$$
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Vienādojot saucējus izteiksmē $\frac{x+y}{x-y}+\frac{x-y}{x+y}$, iegūstam, ka
 
@@ -1151,7 +1151,7 @@ Aprēķināt $EC$ garumu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot bisektrises īpašību trijstūrī $A B E$ (skat. 8. att.), iegūstam, ka $\frac{A B}{A E}=\frac{B D}{D E}=\frac{3}{4}$. Apzīmējam $A B=3 x$ un $A E=4 x$. Pēc Pitagora teorēmas $\triangle A B E$ iegūstam:
 
@@ -1173,7 +1173,7 @@ Lídz ar to esam ieguvuši, ka $EC=7a=56$.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $E C=x, \sphericalangle B A D=\sphericalangle D A E=\alpha, \sphericalangle E A C=2 \alpha$ un atliekam punktiem $D$ un $E$ attiecīgi simetriskus punktus $D_{1}$ un $E_{1}$ pret taisni $A B$ (skat. 9. att.). Tātad $B D_{1}=B D=3$ un $D E=D_{1} E_{1}=4$. Izmantosim bisektrises īpašību un nogriežṇu garumu vienādību $A E_{1}=A E$ (simetrijas dēļ):  
 **(1)** $\triangle B A C$ bisektrise $A E: \quad \frac{A B}{A C}=\frac{B E}{E C}=\frac{7}{x}$;
@@ -1209,7 +1209,7 @@ $a+\operatorname{LKD}(a, b)=b+\operatorname{LKD}(b, c)=c+\operatorname{LKD}(c, a
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, $\operatorname{kaKD}(a, b)=\operatorname{LKD}(a, c)=\operatorname{LKD}(b, c)$.
 
@@ -1220,7 +1220,7 @@ Tātad esam pierādījuši, ka $\operatorname{LKD}(a, c)$ dalās ar $\operatorna
 levietojot to dotajā vienādībā, iegūstam, ka $a+x=b+x=c+x$ jeb $a=b=c$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pien̦msim, ka visi trīs skaiț̣i $a, b, c$ dalās ar kādu naturālu skaitli $y$. Tādā gadījumā varam ievērot, ka arī skaitli $a_{1}=\frac{a}{y}, b_{1}=\frac{b}{y}$ un $c_{1}=\frac{c}{y}$ ir doto vienādojumu atrisinājums (tas izriet no tā, $\operatorname{ka} \operatorname{LKD}\left(\frac{a}{y}, \frac{b}{y}\right)=\frac{\operatorname{LKD}(a, b)}{y}$ ). Par $y$ var izvēlēties visu trīs doto skaiț̣u lielāko kopīgo dalītāju un tālāk aplūkot skaitlus $a_{1}, b_{1}$ un $c_{1}$, kam izpildās uzdevuma nosacījumi un kuru lielākais kopīgais dalītājs ir 1.
 
@@ -1247,7 +1247,7 @@ Vai iespējams, ka: **(A)** $n=2024$; **(B)** $n=2025$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pamatosim, ka $n=2024$ nav iespējams. Izmantosim pierādījumu no pretējā. 
 Pienemsim, ka mums ir tādas 2024 kastes ar augliem, kas atbilst uzdevuma nosacijumiem. 
@@ -1300,7 +1300,7 @@ Pierādīt, ka $DH$ ir leṇka $EDF$ bisektrise!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle HEC+\sphericalangle HDC=180^{\circ}$, tad ap četrstūri 
 $EHDC$ var apvilkt riṇ̦̣a līniju un $\sphericalangle E C H=\sphericalangle E D H=\alpha$ kā ievilktie leṇki, kas balstās uz vienu un to pašu loku $E H$ (skat. 10. att.). Taisnleṇka trijstūros $A F C$ un $A E B$ izmantojam iekšējo leṇku summu. Tātad $\sphericalangle CAF=180^{\circ}-\sphericalangle AFC-\sphericalangle FCA=90^{\circ}-\alpha$ un 
@@ -1328,7 +1328,7 @@ Pierādīt, ka $\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}>
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Reizinot dotās vienādības abas puses $\operatorname{ar}\left(x^{2}-y^{2}\right) \neq 0$, iegūstam:
 
@@ -1345,7 +1345,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Vienādojot saucējus izteiksmē $\frac{x+y}{x-y}+\frac{x-y}{x+y}$, iegūstam, ka
 
@@ -1371,7 +1371,7 @@ $BD=1, DE=3$. Aprēķināt $EC$ garumu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $E C=x, \sphericalangle B A D=\alpha, \sphericalangle D A E=\sphericalangle E A C=2 \alpha$ un punktiem $D$ un $E$ atliksim attiecīgi simetriskus punktus $D_{1}$ un $E_{1}$ pret taisni $A B$ (skat. 11. att.). Tātad $B D_{1}=B D=1$ un $D E=D_{1} E_{1}=3$. Izmantosim bisektrises īpašību vairākos trijstūros un nogriežṇu garumu vienādību $A D_{1}=A D ; A E_{1}=A E$ (simetrijas dēl):
 
@@ -1405,7 +1405,7 @@ ja sākumā kastē ir: **(A)** $20$; **(B)** $2024$ konfektes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka Māris abos gadījumos var uzvarēt. levērosim, ka vienā gājienā drīkst paṇemt 
 $1$; $2$; $3$; $4$ vai $5$ konfektes, bet nedrīkst paņemt 6 konfektes, 
@@ -1440,7 +1440,7 @@ Atrast visus pirmskaitlu pārus $(p;q)$, kuriem izpildās vienādība $p^{q}=q^{
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms ievērosim, ka abi pirmskaiț̣i $p$ un $q$ vienlaicīgi nevar būt pāra skaitļi vai nepāra skaitl̦i. 
 Ja $p=q=2$, tad $2^{2} \neq 2^{2}+7$. Ja gan $p$, gan $q$ būtu nepāra skaitli, 

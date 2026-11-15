@@ -5,7 +5,7 @@ $a+b, \quad a+c, \quad b+c$ var būt pirmskaitļi?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a=1, b=2, c=3$, tad veidojas divi pirmskaitļi $a+b=3$ un $b+c=5$. 
 

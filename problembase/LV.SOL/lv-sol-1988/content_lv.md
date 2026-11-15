@@ -20,7 +20,7 @@ Atrodiet visas iespējas un parādiet, kāpēc citu bez Jūsu atrastajām nav.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ciparus, kā parādīts 2.zīmējumā
 
@@ -51,7 +51,7 @@ Rindā uzrakstīti visi veselie skaitļi no $1$ līdz $1987$ ieskaitot, katrs vi
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam ir $9$ viencipara skaitļi $90$ divciparu skaitļi $900$ trīsciparu skaitļi un $988$ četrciparu skaitļi; tāpēc kopējais ciparu skaits ir
 
@@ -71,7 +71,7 @@ Vai var plaknē uzzīmēt $8$ punktus tā, ka nekādi $3$ no tiem neatrodas uz v
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat. $3.$ zīmējumu.
 
@@ -91,7 +91,7 @@ Parādīt, ka $4$ stari var sadalīt plakni $2$; $3$; $4$; $5$; $6$; $7$ daļās
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $4.$ zīm.
 
@@ -125,7 +125,7 @@ $2$) Plauktā stāv septiņas grāmatas. Kā ar robota palīdzību pārlikt tās
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $1)$ Robots var rīkoties šādi:
 
@@ -149,7 +149,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a=0$, tad $b$ var pieņemt $11$ vērtības $0,\pm1,\pm2,\pm3,\pm4,\pm5$.
 
@@ -177,7 +177,7 @@ Piezīme. Rūtiņu malu punktus un virsotnes varam vienlaicīgi uzskatīt gan pa
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) rūtiņu virsotnes un to centri,
 
@@ -197,7 +197,7 @@ Vai sienāzis var lēkāt tā, lai beigās atkal atrastos punktā $O$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Ievērosim, ka
 
@@ -221,7 +221,7 @@ $1$. zīmējumā attēloto figūru sagriezt divās vienādās daļās (iekrāsot
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $5.$ zīmējumu.
 
@@ -241,7 +241,7 @@ Jānis iedomājies $5$ veselus skaitļus. Pierādiet, ka Andris no šiem skaitļ
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aizstājam skaitļus ar to atlikumiem, dalot ar $3$: tie var būt $0$, $1$, $2$. Ja trīs atlikumi ir vienādi, varam izvēlēties atbilstošos trīs skaitļus. Pretējā gadījumā paliek $3$ iespējas, kuras pārbauda tieši:
 
@@ -274,7 +274,7 @@ Kā ērti ģeometriski aprakstīt labās un kreisās puses veidošanos?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Identitāti pārbauda, atverot iekavas:
 
@@ -310,7 +310,7 @@ Piezīme. Dotajā laika periodā trijstūri $ABC$ un $BCA$ tika uzskatīti par d
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $AB=BC$, $BC=CA$ un $CA=AB$. Tātad trijstūris $ABC$ ir regulārs; protams tas nozīmē, ka $\triangle BCA=\triangle CAB$.
 
@@ -332,7 +332,7 @@ Apskata vienādojumus $a\cdot x+b=c\cdot x+d$, kur $a$, $b$, $c$, $d$ katrs ir a
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 1) $3x+1=2x+1$ ;
 
@@ -358,7 +358,7 @@ Cik no tiem skaitliskais reizinātājs būs pāra skaitlis?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Paliks saskaitāmie, kuros pakāpju reizinājumi ir
 
@@ -389,7 +389,7 @@ ja $x$ un $y$ – veseli pozitīvi skaitļi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka skaitlis dalās ar $3$ neatkarīgi no $x$ un $y$. Parādīsim, ka tas nav trijnieka pakāpe. Tiešām, ja $x$ ir trijnieka pakāpe, tad $x+2y+1$ ir pāra skaitlis, tātad dalās ar $2$.
 
@@ -412,7 +412,7 @@ būtu identitāte.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojot saucējus, iegūstam vienādību
 $$A(x+2)+B(x+1)=7x+10.$$
@@ -439,7 +439,7 @@ Izliektā četrstūrī $ABCD$ dots, ka $AB=BC$ un $AD=DC$. Pierādīt, ka $AC\pe
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat 6.zīm.
 
@@ -467,7 +467,7 @@ Uzrakstīt to kā racionālu skaitli ar vienu daļsvītru.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pakāpeniski aprēķinām analogas izteiksmes ar divām, trijām, ... daļsvītrām. Iegūstam $1$, $\frac{1}{2}$, $\frac{2}{3}$, $\frac{3}{5}$, $\frac{5}{8}$, utt. Izpētot daļu veidošanās procesu, viegli saprast, ka katras nākošās daļas skaitītājs vienāds ar iepriekšējo saucēju, bet saucējs — ar iepriekšējās skaitītāja un saucēja summu. Tātad daļu virkne ir
 
@@ -487,7 +487,7 @@ Ja katrs klases zēns nopirktu pīrādziņu, bet katra meitene – bulciņu, tad
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim zēnu skaitu ar $Z$, meiteņu kopu ar $M$, pīrādziņu cenu ar $p$, bulciņu cenu ar $b$ (cenas izteiktas kapeikās). Tad
 
@@ -509,7 +509,7 @@ Dotas $1000$ kartiņas. Daļa no tām nokrāsotas zilas, pārējās – sarkanas
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aizstāsim katru sarkanu kartiņu, uz kuras uzrakstīts skaitlis $x$, ar dzeltenu kartiņu, uz kuras ir uzrakstīts $1000 - x$. Tad uzdevuma apgalvojums izsakāms šādi: eksistē zila un dzeltena kartiņa uz kurām uzrakstītie skaitļi ir vienādi.
 

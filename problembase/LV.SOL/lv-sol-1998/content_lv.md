@@ -9,7 +9,7 @@ Rindā stāv $12$ rūķīši. Katrs no viņiem vai nu vienmēr runā taisnību, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pats labējais rūķītis noteikti ir melis; tātad visi pārējie rūķīši runā patiesību. Starp rūķīšiem ir tieši viens melis.
 
@@ -27,7 +27,7 @@ Kvadrāts sastāv no $3\cdot 3$ vienādām rūtiņām. Vai tās visas var pārsv
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, to var izdarīt; skat. 5. zīm.
 
@@ -47,7 +47,7 @@ Jānis izvēlējās naturālu skaitli, pareizināja to ar $11$, nosvītroja rezu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šo uzdevumu jārēķina pretējā virzienā. Pirms pēdējā cipara nosvītrošanas, bija iegūts skaitlis $\overline{11x}$. Tā kā šis skaitlis vienāds ar $7y$, tad tam jādalās ar $7$. No šejienes viegli iegūt, ka šis skaitlis ir $112$ vai $119$.
 
@@ -69,7 +69,7 @@ Kvadrāts sastāv no $4\cdot 4$ rūtiņām. Vai var katrā rūtiņā nostādīt 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, to var izdarīt, piemēram, tā, kā parādīts 6. zīmējumā.
 
@@ -93,7 +93,7 @@ Vai var gadīties, ka pavisam kopā tiek nosūtīti tieši $1997$ apsveikumi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā gadījumā mākslinieks nosūta tieši $7$ kartiņas. Tātad kopējam apsveikuma kartiņu skaitam ir jādalās ar $7$, bet $1997$ ar $7$ nedalās. Tātad prasītā situācija nav iespējama.
 
@@ -111,7 +111,7 @@ Bet vai tā var uzzīmēt trīs patvaļīgas līnijas?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Nē, nevar. Tā kā diviem nogriežņiem ir ne vairāk par vienu krustpunktu, tad iespējamais krustpunktu skaits katram nogrieznim ir $0$, $1$ vai $2$. Taču, ja kādam nogrieznim ir $0$ krustpunktu ar diviem citiem, tad nav nogriežņa, kam ir $2$ krustpunkti ar citiem (jo ar vienu no tiem tas nekrustojas). Tas nozīmē, ka atliek tikai $2$ vērtības, bet nogriežņu ir $3$.
 
@@ -133,7 +133,7 @@ Saskaitot divus naturālus skaitļus, summā ieguva $9999$. Pierādīt, ka saska
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Sākot no labās puses, redzam, ka pārnesumu nevar būt, jo divu ciparu summa nevar būt vienāda ar $19$.
 
@@ -152,7 +152,7 @@ Vai visi dotie skaitļi var būt dažādi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt. Tā kā $512=2^9$, tad visi skaitļa $512$ dalītāji ir divnieka pakāpes. Bet pat piecu dažādu mazāko divnieku pakāpju reizinājums
 $$
@@ -172,7 +172,7 @@ Kvadrāts sastāv no $4\cdot 4$ vienādām kvadrātiskām rūtiņām. Katras rū
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrātā $2\cdot 2$ rūtiņas nevar būt vairāk par vienu tādu rūķīti; tāpēc lielākais iespējamais rūķīšu skaits ar melnajām cepurītēm nepārsniedz $4$ (jo kvadrātu $4\cdot 4$ var sadalīt četros kvadrātos ar izmēriem $2\cdot 2$ rūtiņas).
 
@@ -198,7 +198,7 @@ b) skaitli $15$ ?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Jā, var; piemēram, šādi:
 
@@ -218,7 +218,7 @@ Doti $3$ skaitļi. Katru divu skaitļu summa ir pozitīva. Vai visu skaitļu sum
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt. Vismaz viens no skaitļiem (teiksim $a$) ir pozitīvs. Bet tādā gadījumā
 
@@ -244,7 +244,7 @@ Pietiek parādīt vienu lapu, kurai tas iespējams.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēri parādīti $9.$ zīmējumā.
 
@@ -264,7 +264,7 @@ Pierādīt, ka daļas $\frac{1}{1997}$ mazākais periods satur ne vairāk par di
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja dalījumā rodas piecinieks, tas nozīmē, ka iepriekšējais atlikums atrodas starp $0{,}5\cdot 1997$ un $0{,}6\cdot 1997$. Šajā intervālā ir tieši $200$ veseli skaitļi. Tiklīdz atlikumi atkārtojas, periods beidzas.
 
@@ -280,7 +280,7 @@ Planētai Mungo ir lodes forma. Uz tās ekvatora aug vienāda garuma koki. Pūš
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Otreiz pārklātos ekvatora posmus var iegūt, pirmajā reizē pārklāto daļu "pabīdot" uz austrumiem par viena koka garumu. Tātad arī otrajā reizē koki pārklās tieši pusi no ekvatora garuma.
 
@@ -296,7 +296,7 @@ Pa apli izrakstīti $8$ naturāli skaitļi. katram skaitlim aprēķina to četru
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim dotos skaitļus ar $a_1,a_2,\ldots,a_8$. Pēc pirmā gājiena iegūstam
 
@@ -345,7 +345,7 @@ c) nulle.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, visos gadījumos viegli norādīt atbilstošos piemērus:
 
@@ -367,7 +367,7 @@ Vai var uzzīmēt $5$ riņķa līnijas tā, ka pirmā pieskaras otrajai, otrā �
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, to var izdarīt; skat. 10. zīmējumu.
 
@@ -391,7 +391,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, tāds naturāls skaitlis $a$ neeksistē. Tā kā
 
@@ -417,7 +417,7 @@ Pierādīt, ka kvadrātā $6 \cdot 6$ rūtiņas katrā rūtiņā var ierakstīt 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, piemēram, tā, ka parādīts 11. zīmējumā.
 
@@ -441,7 +441,7 @@ Vai kvadrātu, kas sastāv no $101 \cdot 101$ rūtiņām, var sagriezt daļās t
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izkrāsosim doto kvadrātu šaha galdiņa kārtībā; tad starpība starp melno rūtiņu skaitu un balto rūtiņu skaitu būs $1$. Katra pirmā tipa figūra pārklāj vienādu skaitu balto un melno rūtiņu; bet katra otrā tipa figūra (krusts) pārklāj par trim vienas krāsas rūtiņām vairāk nekā otras krāsas rūtiņas. Tātad, ja pārklāšana būtu iespējama, starpība starp melno un balto pārklāto rūtiņu skaitu dalītos ar $3$, bet šajā gadījumā tā nedalās ar $3$.
 
@@ -461,7 +461,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pareizinot doto vienādību ar $a-b$, iegūstam
 
@@ -491,7 +491,7 @@ Dots, ka $SA=SB=AN=BM=BN$. Aprēķināt $\angle ASB$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 12. zīmējumu.
 
@@ -521,7 +521,7 @@ Kvadrāts sastāv no $8\times 8$ rūtiņām. Kāds mazākais daudzums rūtiņu j
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā katrā kolonnā jānokrāso vismaz divas rūtiņas, tad kopējais nokrāsoto rūtiņu skaits ir ne mazāks par $16$. Piemērs ar $16$ nokrāsotām rūtiņām redzams $13$. zīmējumā.
 
@@ -541,7 +541,7 @@ Uz tāfeles uzrakstīts $1001$ naturāls skaitlis; tie visi ir dažādi un nepā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvietosim skaitļus šādā tabulā:
 
@@ -567,7 +567,7 @@ Dots, ka $x^2+xy+y^2=3$. Pierādīt, ka vai nu $x^2+xy\geq 2$, vai arī $y^2+xy\
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x \ge y$, tad $x^2 \ge xy \ge y^2$. Tā kā šo trīs skaitļu summa ir vienāda ar $3$, tad divu lielāko skaitļu summa ir ne mazāka par $2$; t.i.
 $$
@@ -590,7 +590,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var būt. Ja $n$ patvaļīgs skaitlis, tad $(n+1)+(-n)=1$ un skaitlis
 $$
@@ -618,7 +618,7 @@ Aprēķināt $\angle BAE$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $14.$ zīmējumu.
 
@@ -650,7 +650,7 @@ Kvadrāts sastāv no $8\cdot 8$ rūtiņām. Kādu lielāko daudzumu rūtiņu var
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā rindā ir vismaz viena nenokrāsota rūtiņa; tātad nokrāsoto rūtiņu skaits nepārsniedz $64-8=56$.
 
@@ -672,7 +672,7 @@ Dots, ka $a$ – naturāls skaitlis, $p$ – pirmskaitlis, pie tam $3a+1$ un $a-
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka arī skaitlis $(3a+1)-3(a-8)=25$ dalās ar pirmskaitli $p$. Tātad $p=5$.
 
@@ -693,7 +693,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim taisnstūru malas ar $x_i$ un $y_i$, bet to laukumus ar $S_i$. Tad
 
@@ -721,7 +721,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nav iespējams. Trijstūrī pret lielāku malu atrodas lielāks leņķis. Tātad,
 
@@ -749,7 +749,7 @@ $4$. zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $16.$ zīmējumu.
 
@@ -786,7 +786,7 @@ Pierādīt, ka $abcd$ ir naturāla skaitļa kvadrāts.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kāpinot doto vienādību kvadrātā, iegūstam:
 
@@ -828,7 +828,7 @@ Pierādīt, ka kāds no šīs virknes locekļiem ir nulle.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pareizināsim doto sakarību $x_{n+3}=x_n-\frac{1}{x_{n+1}\cdot x_{n+2}}$ ar $x_{n+1}x_{n+2}$; iegūsim:
 
@@ -864,7 +864,7 @@ Pierādīt, ka eksistē tāda pilsēta, uz kuru var aizbraukt no jebkuras citas,
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim pilsētu $A$, kurā ieiet visvairāk ceļu (šo ceļu skaitu apzīmēsim ar $m$). Pierādīsim, ka tai izpildās uzdevuma prasības.
 
@@ -891,7 +891,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, visas prasītās nevienādības var izpildīties, piemēram, ja $x=60^{\circ}$ un $y=150^{\circ}$. Tiešām,
 
@@ -927,7 +927,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojuma kreisā puse ir monotoni augoša funkcija; tāpēc katru vērtību (tai skaitā $31$) tā var pieņemt tikai vienu reizi. Vienīgo atrisinājumu var uzminēt: $x=3$. Tiešām, $3+3^3+\log_3 3=31$.
 
@@ -945,7 +945,7 @@ Cik mazos kubiņus tā šķeļ?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kubs $3\times 3\times 3$ sastāv no trim slāņiem, kuru horizontālās plaknes (tādas ir četras) parādītas $17.$ zīmējumā. Zīmējumā attēloti to šķēlumi ar doto plakni.
 
@@ -979,7 +979,7 @@ ir veseli skaitļi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, šādi naturāli skaitļi neeksistē, jo doto summu starpība ir mazāka par $1$; tātad tās abas nevar būt veseli skaitļi. Pierādīsim šo apgalvojumu:
 
@@ -1015,7 +1015,7 @@ Cik darbinieku strādā firmā?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzdevuma nosacījumiem seko, ka tas darbinieks, kam ir visatbildīgākais amats, runā patiesību, bet tas, kam ir vislielākā alga, melo. Tātad starp darbiniekiem ir gan "meļi" gan "patiesi".
 

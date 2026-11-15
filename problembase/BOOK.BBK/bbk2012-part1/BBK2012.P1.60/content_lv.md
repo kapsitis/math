@@ -6,7 +6,7 @@ otrādā kārtībā, ir naturāla skaiţ̦a kvadrāts.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim meklējamo skaitli ar $\overline{ab}$. Tad
 

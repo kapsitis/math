@@ -5,7 +5,7 @@ Pierādīt, ka skaitlis $\underbrace{111\ldots{}1}_{\mbox{81 vieninieki}}$ dalā
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 

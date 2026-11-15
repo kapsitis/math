@@ -10,7 +10,7 @@ Atrodiet, kāds cipars aizstāts ar zvaigznīti.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jāņa iegūtais reizinājums dalās ar $9$; 
 tātad arī tā ciparu summa dalās ar $9$.

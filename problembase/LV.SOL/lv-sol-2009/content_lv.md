@@ -9,7 +9,7 @@ Vai var no cipariem $1$; $2$; $3$; $4$; $5$; $6$; $7$; $8$; $9$, lietojot katru 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Piemēram: $35+6+47+28+19=135$.
 
@@ -33,7 +33,7 @@ b) kubu ar izmēriem $5 \cdot 5 \cdot 5$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) no diviem ķieģeļiem var salikt kubu $2 \cdot 2 \cdot 2$, no astoņiem šādiem kubiem – prasīto.  
 b) nē; mazo kubiņu kopskaits $125$ nedalās ar $4$ – kubiņu skaitu vienā ķieģelī.
@@ -56,7 +56,7 @@ Kāds ir mazākais rūtiņu daudzums, kādu var atzīmēt 2.zīm. attēlotajā f
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $4$. Skat. 1.zīm. Katrā no tur redzamajām $4$ daļām jābūt atzīmētai vismaz vienai rūtiņai. Savukārt $4$ atzīmētas rūtiņas apmierina uzdevuma prasības.
 
@@ -80,7 +80,7 @@ Apzīmējiet katrā no 4.zīm. parādītajām figūrām punktus ar burtiem $A$; 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 2.zīm.
 
@@ -102,7 +102,7 @@ Kādu lielāko ūdens daudzumu var savākt vienā spainī, izpildot, ja vajadzī
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $14\,l$.  
 **Risinājums.** Skaidrs, ka katrā spainī vienmēr ir vesels skaits litru. Sadalījums nevar būt $0; 0; 15$, jo tad pēdējā gājienā tiktu salieti kopā divi ūdens daudzumi pa $7\frac{1}{2}\,l$ katrs. Kā savākt $14\,l$ vienā spainī, skat., piem., pievienoto tabulu 3.zīm.
@@ -123,7 +123,7 @@ Doti $11$ dažādi naturāli skaitļi. Pierādīt, ka no tiem var izvēlēties d
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Iespējami pavisam $10$ dažādi pēdējie cipari. Tā kā $11>10$, tad diviem skaitļiem pēdējie cipari ir vienādi. Tos var ņemt par meklējamiem.
 
@@ -143,7 +143,7 @@ Kvadrāts sastāv no $8 \times 8$ rūtiņām. Sākotnēji tās visas ir baltas. 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** uzvar Katrīna.  
 Katrīna domās sadala lielo kvadrātu daļās ar izmēriem $2 \cdot 2$. Tikko Andris nokrāso rūtiņu kādā no šīm daļām, Katrīna nokrāso atlikušās rūtiņas šai daļā.
@@ -160,7 +160,7 @@ Uz galda atrodas trauks ar $10$ zilām, $10$ zaļām un $10$ sarkanām konfektē
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Viegli saprast, ka pēc katra gājiena visu konfekšu daudzumi ir vienas paritātes skaitļi (vai nu visi pāra, vai visi nepāra). Tāpēc nevar iegūt situāciju $(0; 0; 1)$.
 
@@ -176,7 +176,7 @@ Pie eglītes sapulcējušies $10$ rūķīši – votivapas un šillišallas. Vot
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli saprast: jebkurā gadījumā visi šillišallas atbild vienādi, visi votivapas – arī. Ja šillišallu būtu vairāk, tad viņu pārsvars būtu vismaz $6:4$. Tad starp aptaujātajiem būtu vismaz viens šillišalla, un viņa atbilde būtu aplama – pretruna. Līdzīgi iegūst pretrunu, pieņemot, ka vairāk ir votivapu. Tāpēc atliek tikai iespējams, ka gan vienu, gan otru ir tieši pieci. Pārbaude parāda, ka tas apmierina uzdevuma nosacījumus.
 
@@ -192,7 +192,7 @@ Katrā kuba skaldnē (t.i., katrā no $6$ kvadrātiem, kas to norobežo) novilkt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $12$.  
 Piemēru skat. 4.zīm.; katrā no $4$ virsotnēm ir pa $3$ draudzībām. Pavisam novilktas $6$ diagonāles $a$, $b$, $c$, $d$, $e$, $f$. Pavisam no tām var izveidot $15$ pārus: $ab$, $ac$, $ad$, $ae$, $af$, $bc$, $bd$, $be$, $bf$, $cd$, $ce$, $cf$, $de$, $df$, $ef$. Bet trijos pāros diagonāles nevar būt draudzīgas, jo diagonālēm, kas atrodas kuba pretējās skaldnēs, kopīgu punktu nav. Tāpēc draudzību skaits nepārsniedz $15-3=12$.
@@ -217,7 +217,7 @@ b) $5$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Starp skaitļu pirmreizinātājiem ir tieši $2$ trijnieki: skaitlī $3$ un skaitlī $6$. Viens no tiem nevar „noīsināties”, „nenoīsinoties” arī otram. Tāpēc vērtība „$3$” nav iespējama.  
 Izteiksmes $1:(2:3:4:(5:6))$ vērtība ir $5$.
@@ -238,7 +238,7 @@ b) desmitstūris?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 5.zīm.
 
@@ -262,7 +262,7 @@ $6.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2009.7.3A.png){ width=150px }
 
@@ -286,7 +286,7 @@ b) $99$ gājienus?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde: a)** nē, **b)** nē.  
 **Risinājums. a)** Lai katra no monētām $A$ un $D$ nonāktu rindas otrā galā, tai jāpiedalās $3$ maiņās, pat visu laiku virzoties vienā virzienā; ja kāda monēta izdara „soli atpakaļ”, gājienu skaits jau ir vismaz $5$. Tātad $A$ un $D$ kopā izdara vismaz $3+3=6$ gājienus; tikai viens no tiem ir kopīgs, tātad jau $A$ un $D$ kopā jāizdara vismaz $5$ gājieni.  
@@ -308,7 +308,7 @@ Vai kvadrātā, kas sastāv no $4\cdot 4$ rūtiņām, var ierakstīt naturālos 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat., piem., 7.zīm.
 
@@ -328,7 +328,7 @@ Kādu lielāko daudzumu no naturāliem skaitļiem $1; 2; 3; 4; 5; 6; 7; 8; 9; 10
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmskaitļi $7$ un $11$ nevar būt starp šiem skaitļiem, jo tikai vienas grupas skaitļu reizinājums var dalīties ar $7$ resp. $11$. Atlikušajos skaitļos kopā ir $5$ – nepāra skaits – pirmreizinātāji „$3$”, tāpēc vismaz vēl viens skaitlis jāizslēdz. Tāpēc sadalīti var tikt ne vairāk kā $12-3=9$ skaitļi. Piemērs
 $$
@@ -352,7 +352,7 @@ Taisnes $m$, $n$ un $t$ ir attiecīgi četrstūra $ABCD$ malu $AB$, $BC$, $CD$ v
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atcerēsimies vispārzināmu faktu: ja punkts $M$ atrodas uz to pašu pusi no nogriežņa $XY$ vidusperpendikula kā $X$, tad $MX<MY$.  
 Tiešām (skat. 8.zīm.) $MX<MS+SX=MS+SY=MY$.
@@ -379,7 +379,7 @@ Uzzīmējiet kaut vienu piecstūri, kuram nekādas divas diagonāles nekrustojas
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., $9.$zīm. Piecstūra malas zīmētas ar resnākām, diagonāles – ar tievākām līnijām.
 
@@ -399,7 +399,7 @@ Vai kuba virsotnes un šķautnes var sanumurēt ar naturāliem skaitļiem no $1$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. No katras virsotnes iziet $3$ šķautnes. Tāpēc, aprēķinot visu virsotņu un visu šķautņu numuru summu, iegūtajā rezultātā katras virsotnes numurs ieiet kā saskaitāmais tieši $4$ reizes, un citu saskaitāmo nebūtu, bet summa $1+2+3+\ldots+19+20=210$ nedalās ar $4$.
 
@@ -415,7 +415,7 @@ Sniegbaltītes pulkstenim ir stundu, minūšu un sekunžu rādītāji; pulksteni
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Rūķīši cits citu neapdzen. Tāpēc katru divu rūķīšu veikto pilno apļu daudzumi neatšķiras viens no otra vairāk kā par $1$. Kopējais veikto pilno apļu daudzums ir $1+12+12\cdot60=733=3\cdot244+1$. No šejienes viegli saprast, ka Sniegbaltītei tika pateikti skaitļi $244$; $244$; $245$.
 
@@ -431,7 +431,7 @@ Dots, ka $a<b<c<d<e$, $a+b=10$, $d+e=18$; visi skaitļi $a$; $b$; $c$; $d$; $e$ 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka $c=7$. Ja būtu $c\le6$, tad $a+b\le4+5=9$ - pretruna. Ja būtu $c\ge8$, tad $d+e\ge9+10=19$ - pretruna. Tātad $a+b+c+d+e=(a+b)+c+(d+e)=10+7+18=35$.
 
@@ -447,7 +447,7 @@ Uz trijstūra $ABC$ malas $BC$ atzīmēts punkts $M$, bet uz malas $AC$ – punk
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2009.9.2A.png){ width=300px }
 
@@ -469,7 +469,7 @@ Skaitļa $n$ decimālais pieraksts sastāv no $11$ vieniniekiem, $11$ divniekiem
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlim $n$ pieskaitot $4$, pārnesumi nerodas. Tāpēc $n+4$ ciparu summa ir $11(1+2+3+4)+4=114$. Tā kā $114$ dalās ar $3$, tad arī $n+4$ dalās ar $3$. Tā kā $n+4>3$, tad tas nav pirmskaitlis.
 
@@ -485,7 +485,7 @@ Profesoram Cipariņam uzdāvinātas $5$ pēc ārējā izskata vienādas zelta mo
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms uzdodam $3$ jautājumus un pēc katras atbildes „noliekam malā” norādīto vidējo monētu (tā vairs nepiedalās nākošajos no šiem $3$ jautājumiem). Palikušās, malā nenoliktās divas monētas ir smagākā un vieglākā no visām (mēs nezinām, „kura ir kura”). Tagad meklēto monētu atrodam ar vienu jautājumu par „malā noliktajām” monētām.
 
@@ -501,7 +501,7 @@ Katrs vesels skaitlis nokrāsots vai nu balts, vai sarkans, pie tam skaitļi $5$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To, ka skaitlis $n$ ir nokrāsots balts/sarkans, pierakstīsim kā $n\sim b/n\sim s$; varam uzskatīt, ka $5\sim b$ un $6\sim s$. Tagad pieņemsim no pretējā, ka uzdevuma apgalvojums nav spēkā. Šķirojam divus gadījumus.
 
@@ -550,7 +550,7 @@ Kādām $a$ vērtībām vienādojumam $x^3+ax-2(a+4)=0$ ir tieši $2$ dažādas 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $a=-3$ un $a=-12$.
 
@@ -572,7 +572,7 @@ Izliektā četrstūrī $ABCD$ diagonāles $AC$ vidusperpendikuls krusto diagonā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar doto $B$ un $D$ atrodas dažādās pusēs vidusperpendikulam (skat. zīm.) Tad $BA<BC$ un $DC<DA$, tāpēc $BA+DC<BC+DA$.
 
@@ -592,7 +592,7 @@ Pierādīt, ka skaitļi $2n^3+4n$ un $n^3+5n$ dalās ar $3$ pie vienām un tām 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Abu izteiksmju starpība $(2n^3+4n)-(n^3+5n)=n^3-n=(n-1)n(n+1)$ dalās ar $3$ kā triju pēc kārtas ņemtu veselu skaitļu reizinājums.
 
@@ -608,7 +608,7 @@ Visa plakne sadalīta vienādos kvadrātiņos kā rūtiņu lapa. Divi spēlētā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, nevar.
 
@@ -628,7 +628,7 @@ Vai kubiskā kastē ar izmēriem $6 \cdot 6 \cdot 6$ var ievietot $53$ klucīšu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Sadalīsim kasti $27$ kubos ar izmēriem $2\times 2\times 2$ un izkrāsosim šos kubus „šaha galdiņa kārtībā”. Varam uzskatīt, ka ir $13$ melni kubi, tātad $13\cdot 8=104$ melni kubiņi. Bet katrs klucītis satur $2$ melnus kubiņus, tātad kopā jābūt vismaz $53\cdot 2=106$ melniem kubiņiem.
 
@@ -644,7 +644,7 @@ Dots, ka $a$ un $b$ – pozitīvi skaitļi. Pierādīt, ka $3a^8+5b^8 \ge 8a^3b^
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar nevienādību starp vidējo aritmētisko un vidējo ģeometrisko
 
@@ -668,7 +668,7 @@ Trijstūra $ABC$ virsotnes leņķa $A$ bisektrise krusto apvilkto riņķa līnij
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2009.11.2A.png){ width=150px }
 
@@ -692,7 +692,7 @@ Dots, ka $a$, $b$ un $c$ ir naturāli skaitļi, bet reizinājumi $ab$, $bc$ un $
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $ab=\alpha^3$, $bc=\beta^3$, $ca=\gamma^3$, kur $\alpha,\beta,\gamma$ - naturāli skaitļi. Tad
 
@@ -714,7 +714,7 @@ Kvadrāts sastāv no $3 \cdot 3$ rūtiņām. Sākumā visās rūtiņās ierakst�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dabīgā veidā ieviešam jēdzienus „horizontāls gājiens” ($hg$) un „vertikāls gājiens” ($vg$). Katrs $vg$ pirmās un trešās kolonnas summu maina par $0$ vai par $2$, katrs $hg$ – par $1$. Procesa beigās šī summa mainījusies par pāra skaitli (no pāra skaitļa uz pāra skaitli). Tāpēc izdarīts pāra skaits $hg$. Līdzīgi pierāda, ka izdarīts pāra skaits $vg$.
 
@@ -730,7 +730,7 @@ Katrā kuba skaldnē novilkta viena diagonāle. Ja divām novilktajām diagonāl
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $4$.
 
@@ -759,7 +759,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievietojot $y=x^{-2}$ pirmajā vienādojumā, iegūstam $x^{x+x^{-2}}=x^{-2(x-x^{-2})}$.
 
@@ -787,7 +787,7 @@ Tātad $x=\frac{1}{\sqrt[3]{3}}$ un no $2.$ vienādojuma $y=\sqrt[3]{9}$. Pārba
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\angle BMD+\angle BND=180^{\circ}$, ap $MBND$ var apvilkt riņķa līniju. Tāpēc $\angle BMN=\angle BDN$. Tātad
 
@@ -811,7 +811,7 @@ Dots, ka $n$ ir naturāls skaitlis un skaitļa $A=n^2+2008n$ pēdējais cipars i
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļa $A=n^2+2008n$ vietā varam apskatīt $B=n^2+8n=(n+4)^2-16$. Tā kā $B$ beidzas ar $4$, tad $(n+4)^2$ beidzas ar $0$; tāpēc $(n+4)^2$ beidzas ar $00$ un $B$ beidzas ar $84$. Tātad $A$ priekšpēdējais cipars ir $8$.
 
@@ -827,7 +827,7 @@ Plakne sadalīta vienādos kvadrātiņos kā rūtiņu lapa. Tajā novietoti bezg
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Sauksim jau novietotos taisnstūrus par melniem. Sadalām plakni $2 \times 2$ rūtiņu lielos kvadrātos. Tad sākumā katrs kvadrāts satur $0$, $1$ vai $2$ melnas rūtiņas.
 
@@ -849,6 +849,6 @@ Klasē ir $z$ zēni un $m$ meitenes. Katriem diviem zēniem var atrast meiteni, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katram zēnam piekārtosim to meiteņu kopu, kas viņam patīk. Tad visas šīs kopas ir dažādas. Tātad meiteņu kopas apakškopu nevar būt mazāk nekā zēnu. Kopai ar $m$ elementiem ir $2^m$ apakškopu. Tāpēc $2^m \ge z$, k.b.j.

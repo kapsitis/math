@@ -10,7 +10,7 @@ skaitļi kādreiz pārstās mainīties.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\operatorname{LKD}(x, y)=(x, y)=u$, bet $\operatorname{MKD}(x, y)=[x, y]=v$. 
 No vienādības $u \cdot v=x \cdot y$ seko, ka kopējais skaitļu reizinājums $R$ nemainās. 

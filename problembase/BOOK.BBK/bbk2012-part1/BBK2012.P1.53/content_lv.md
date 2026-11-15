@@ -13,7 +13,7 @@ iegūst atlikumā atbilstoši $r, r+1, \ldots, r+m$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja $a$ ir meklētais skaitlis, tad $a+1$ dalās ar 2, 3, 4, 5, 6. Tātad $a+1=[2,3,4,5,6]=60$ un $a=59$.
 

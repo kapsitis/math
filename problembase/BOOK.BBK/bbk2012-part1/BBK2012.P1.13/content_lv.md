@@ -6,7 +6,7 @@ ciparu summu apzīmēsim ar $c$. Ar ko ir vienāds skaitlis $c$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $a \leq 9 \cdot 1973 = 17757$; 
 tātad $b<45$ un $c \leq 12$. 

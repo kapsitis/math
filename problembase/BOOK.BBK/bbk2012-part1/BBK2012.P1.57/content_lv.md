@@ -6,7 +6,7 @@ no kuriem nevienu nevar izsacìt kā divu (dažādu vai vienādu) divciparu skai
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Starp $10$ pēc kārtas ņemtiem trīsciparu skaițiem viens dalās ar $10$; tātad šis skaitlis 
 $\overline{ab0} = \overline{ab} \cdot 10$ ir divu divciparu skaitlu reizinājums.

@@ -6,7 +6,7 @@ kuriem skaitļi $ab$, $ac$ un $bc$ veido aritmētisko progresiju.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Nosacījumu, ka trīs skaiţ̦i $ab$, $bc$, $ac$ veido aritmētisko progresiju, pierakstīsim šādi:

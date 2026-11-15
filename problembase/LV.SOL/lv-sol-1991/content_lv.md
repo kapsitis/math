@@ -9,7 +9,7 @@ Doti $1990$ vienādi stienīši. Kādas figūras no tiem var salikt vairāk: tri
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izdalām skaitli $1990$ ar $3$ un ar $4$ ar atlikumu
 
@@ -31,7 +31,7 @@ Kvadrātiska režģa veidā novietoti $8 \cdot 8$ punkti; katrā vertikālē un 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kā parādīts $4.$ zīmējumā, var novilkt $21$ nogriezni.
 
@@ -53,7 +53,7 @@ Izveidoti $2$ četrciparu skaitļi; katrs no tiem pa reizei satur ciparus $1$, $
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Skaidrs, ka ņemot mazākā skaitļa pēdējo ciparu un pareizinot to ar $7$, jāiegūst skaitlis, kura pēdējais cipars ir lielākā skaitļa pēdējais cipars. Reizinot ciparus $1$, $4$, $6$, $9$ ar $7$ iegūstam skaitļus $7$, $28$, $42$, $63$. Neviens no šo skaitļu pēdējiem cipariem nav vienāds ar cipariem $1$, $4$, $6$, $9$; tātad nevar būt lielākā skaitļa pēdējais cipars.
 
@@ -69,7 +69,7 @@ Kastītē atrodas vairāki zīmuļi. Starp tiem var atrast zīmuļus, kuri atš�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, noteikti var. Paņemsim jebkurus divus zīmuļus $A$ un $B$, kas atšķiras pēc garuma. Pastāv divas iespējas:
 
@@ -89,7 +89,7 @@ Dotas $8$ pēc ārējā izskata vienādas monētas. No tām $7$ ir ar vienādu m
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novietojam uz katra svaru kausa pa divām monētām. Ja kausi nav līdzsvarā, tad atšķirīgā monēta ir starp šīm četrām. Ja ir, tad starp atlikušajām četrām. Atrastas četras monētas, starp kurām ir atšķirīgā.
 
@@ -117,7 +117,7 @@ no šiem reizinājumiem ir negatīvi?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Var. Ņemsim $5$ pozitīvus skaitļus un $5$ negatīvus. Tad negatīvu reizinājumu iegūsim, ja viens no reizinātājiem ir pozitīvs, bet otrs negatīvs. Tādu reizinājumu skaits ir $5\cdot5=25$.
 
@@ -137,7 +137,7 @@ Apskatām $10$ dažādus skaitļus un visas to starpības (no lielākā skaitļa
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var būt tieši $9$ dažādas starpības. Piemēram, var izvēlēties skaitļus $1,2,3,\ldots,10$. Vismaz $9$ dažādas starpības noteikti būs; tās var iegūt no lielākā skaitļa atņemot visus citus.
 
@@ -155,7 +155,7 @@ Vai tos visus var izrakstīt rindā tā, lai katrs nākošais pirmskaitlis sākt
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Pirmskaitlis $43$ nevar sekot ne aiz viena cita pirmskaitļa (nav pirmskaitļu, kuru pēdējais cipars ir $4$). To varētu ņemt kā pirmo, taču to pašu var teikt par pirmskaitli $47$.
 
@@ -171,7 +171,7 @@ Attēlot koordinātu plaknē visus tos punktus $(x,y)$, kas apmierina vienādīb
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Punkti veido kvadrāta kontūru, kura virsotnes atrodas punktos ar koordinātēm $(5;4)$, $(11;4)$, $(8;1)$, $(8;7)$.
 
@@ -187,7 +187,7 @@ Dotas $6$ pēc ārējā izskata vienādas monētas. Četrām no tām masas savā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Salīdzinām $A+B$ ar $C+D$ (uz viena svaru kausa uzliktas monētas $A$ un $B$, uz otra $C$ un $D$).
 
@@ -221,7 +221,7 @@ Par kurām taisnēm var droši pateikt, kas tas ir?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $5$. zīm.
 
@@ -245,7 +245,7 @@ Vienādojumam $ax=b$ nav neviena atrisinājuma ($a$ un $b$ – kaut kādi doti s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā vienādojumam $ax=b$ nav atrisinājuma, tad $a=0$ un $b\ne 0$.
 
@@ -263,7 +263,7 @@ Rindā izrakstīti cipari $1234567890123\ldots890$ (ciparu grupa $1234567890$ at
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēc pirmās svītrošanas paliek cipari, kuru kārtas numuri dalās ar $2$, pēc otrās, kuru kārtas numuri dalās ar $4$, $\ldots$, pēc devītās – ar $512$. Tāds cipars ir tikai viens – tas, kas atrodas $512$. vietā. Tas ir cipars $2$.
 
@@ -279,7 +279,7 @@ Doti $6$ stieņi, katrs $50$ cm garš. Vai tos var sagriezt gabalos tā, lai ras
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Visu daļu garumi dalās ar $3$, bet $50$ ar $3$ nedalās.
 
@@ -295,7 +295,7 @@ Kastītē atrodas vairāki zīmuļi. Ir zināms, ka starp tiem var atrast zīmu�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Lūk pretpiemērs ar četriem zīmuļiem:
 
@@ -319,7 +319,7 @@ Sadalīt reizinātājos izteiksmi $a^4-b^4$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $a^4-b^4=(a^2-b^2)(a^2+b^2)=(a-b)(a+b)(a^2+b^2)$.
 
@@ -339,7 +339,7 @@ Cik ir tādu naturālu skaitļu $n$, ka $\left[\sqrt{n}\right]=25$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādība $\left[\sqrt n\right]=25$ ir ekvivalenta nevienādībām
 
@@ -359,7 +359,7 @@ Vai trapeces diagonāļu krustpunkts var atrasties uz tās viduslīnijas?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Pieņemsim, ka tāda situācija izveidojusies (skat. $6$. zīmējumu).
 
@@ -385,7 +385,7 @@ Sagriezt 2. zīm. parādīto figūru divās vienādās daļās. Griezumiem jāie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 7. zīmējumu.
 
@@ -415,7 +415,7 @@ Katrā gadījumā pietiek uzrādīt vienu skaitļu komplektu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) $1$, $2$ un $3$;
 
@@ -439,7 +439,7 @@ Atrast to mediānu garumu kvadrātu summu, kuras novilktas no šauro leņķu vir
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat 8. zīmējumu.
 
@@ -477,7 +477,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto nevienādību pārveidojam formā
 
@@ -505,7 +505,7 @@ var atrast bezgalīgi daudzus locekļus, kuru ciparu summas savā starpā ir vie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotajai aritmētiskajai progresijai pieder visi šādi skaitļi
 
@@ -529,7 +529,7 @@ Divas komisijas nesastāv no vieniem un tiem pašiem cilvēkiem
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim cilvēkus ar $A$, $B$, $C$, $D$. var izveidot $8$ komisijas:
 
@@ -553,7 +553,7 @@ Vai atlikušo daļu var sagriezt $63$ vienādsānu trijstūros, kuru katetes ir 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izkrāsosim kvadrātu šaha galdiņa kārtībā. Pēc rūtiņas izgriešanas vienas krāsas laukums paliek pārsvarā, bet katrs trijstūris pārklāj vienādu balto un melno laukumu. Tātad prasītā sagriešana nav iespējama.
 
@@ -571,7 +571,7 @@ Atrast $a$ un $b$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Funkcija $f(x)=a+b\sin x$ pieņem savu lielāko un mazāko vērtību tajos punktos, kuros pieņem savu lielāko un mazāko vērtību funkcija $\sin x$. Tikai ne obligāti minimumam atbilst minimums; tas ir atkarīgs no $b$ zīmes.
 
@@ -603,7 +603,7 @@ Kādu vislielāko kuba šķautņu skaitu to iekšējos punktos var šķelt viena
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja kubu šķeļ ar plakni, kas iet caur tā centru perpendikulāri galvenajai diagonālei, tad šķēlumā veidojas sešstūris un plakne šķeļ $6$ kuba šķautnes.
 
@@ -627,7 +627,7 @@ Atrast trijstūru $ANS$, $BST$, $CTM$ un $DMN$ laukumu summu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $9.$ zīmējumu.
 
@@ -669,7 +669,7 @@ Zināms, ka divu pozitīvu skaitļu reizinājums lielāks par to summu. Pierād�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot nevienādību starp divu skaitļu vidējo aritmētisko un vidējo ģeometrisko, iegūstam:
 
@@ -693,7 +693,7 @@ Pierādīt, ka $a^2+b^2$ dalās ar $49$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aprēķināsim, kādus atlikumus pēc moduļa $7$ dod veselu skaitļu kvadrāti:
 
@@ -745,7 +745,7 @@ $$(h\cdot g)''=h''\cdot g+2h'\cdot g'+h\cdot g''.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot atvasināšanas formulas, iegūstam
 $$
@@ -768,7 +768,7 @@ Kāds lielākais pirmskaitļu daudzums var būt sastopams starp $12$ pēc kārta
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $2$ līdz $13$ sastopami $6$ pirmskaitļi: $2$, $3$, $5$, $7$, $11$, $13$.
 
@@ -788,7 +788,7 @@ $$|\sin x|+|\sin \sqrt{2}x|=0.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā vienādība ir iespējama tikai, ja $\sin x=0$ un $\sin \sqrt{2}x=0$ (jo abi saskaitāmie ir nenegatīvi). Iegūstam:
 $$
@@ -808,7 +808,7 @@ Trīs savstarpēji perpendikulāras plaknes krustojas punktā $O$ un sadala telp
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzskatīsim, ka dotās plaknes ir koordinātu plaknes telpā. Punktu koordinātes apzīmēsim ar $A(x_1,y_1,z_1)$ un $B(x_2,y_2,z_2)$. Tā kā $A$ un $B$ atrodas vienā oktantā, tad punktu atbilstošo koordināšu zīmes sakrīt. Tātad
 $$
@@ -828,7 +828,7 @@ Stacijā pie vienas sienas karājas divi pilnīgi vienādi absolūti precīzi pu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim stundu rādītāju galapunktus ar $A$ un $B$, bet ciparnīcu centrus ar $O_1$ un $O_2$. Tad
 $$
@@ -848,7 +848,7 @@ Dots, ka $x+y=1$. Pierādīt, ka $x^2+y^2\ge\dfrac{1}{2}$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $x^2+y^2=x^2+(1-x)^2=2x^2-2x+1=2\left(x-\frac{1}{2}\right)^2+\frac{1}{2}\geq \frac{1}{2}$.
 
@@ -866,7 +866,7 @@ Kvadrāts sastāv no $5\times 5$ rūtiņām. Vai var visas rūtiņas pārsvītro
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt. Skat. 10. zīmējumu.
 
@@ -892,7 +892,7 @@ Aprēķināt $F(5)-G(5)$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $F'(x)=G'(x)$, tad $F(x)$ un $G(x)$ atšķiras par konstanti. Tātad
 
@@ -914,7 +914,7 @@ Pierādīt, ka trīskārt atstarotā stara virziens ir pretējs sākotnējā sta
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim krītošā stara virziena vektoru ar $(a,b,c)$. Pēc pirmās atstarošanās uz pretējo mainās viena koordināta, pēc otrās – otra, pēc trešās – trešā. Rezultātā iegūstam pretēji vērstu vektoru.
 
@@ -932,6 +932,6 @@ Vai var salikt taisnstūra paralēlskaldni ar izmēriem $11 \cdot 12 \cdot 13$ n
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka taisnstūra paralēlskaldnis salikts no ķieģeļiem. $429$ ķieģeļos ir tieši $11\cdot 12\cdot 13$ vienības kubiņi. Izkrāsosim paralēlskaldņa kubiņus telpiskā šahveida kārtībā. Katrs ķieģelis satur vai nu $3$ melnus kubiņus, vai $1$ melnu kubiņu. Tātad $429$ ķieģeļi satur nepāra skaitu melno kubiņu. Bet paralēlskaldnī ir pāra skaits melno kubiņu. Iegūta pretruna.

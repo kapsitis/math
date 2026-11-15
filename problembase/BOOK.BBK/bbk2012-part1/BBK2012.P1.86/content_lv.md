@@ -5,7 +5,7 @@ $n$ izpildās nevienādība $p_{n}<2^{2^{n}}$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apgalvojumu pierādīsim ar indukciju.
 

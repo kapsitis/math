@@ -8,7 +8,7 @@ $$\left\lfloor \frac{n}{k} \right\rfloor +
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $0 \leq j \leq k$, tad $\left[\frac{n+j}{k}\right]$ norāda tādu skaitlu skaitu, 
 kas nepārsniedz $n$ un, dalot ar $k$, dod atlikumā $k-j$, ja $j \neq 0$, vai $0$, 

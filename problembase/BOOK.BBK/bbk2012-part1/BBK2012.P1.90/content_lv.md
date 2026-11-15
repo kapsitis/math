@@ -5,7 +5,7 @@ ir $32$, bet to mazākais kopīgais dalāmais ir $1200$?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt. Divu skaitlu mazākais kopīgais dalāmais dalās ar katru no dotajiem skaitļiem, 
 tātad dalās arī ar to lielāko kopīgo dalāmo; bet $1200$ nedalās ar $32$.

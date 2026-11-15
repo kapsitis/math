@@ -9,7 +9,7 @@ Trīs meitenēm kopā bija 120 konfektes. No sākuma Jūlija iedeva Nellijai un 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mēs zinām, ka beigās katrai meitenei bija $120 : 3 = 40$ konfektes. Pirms pēdējās (trešās) dalīšanas Jūlijai un Nellijai bija divreiz mazāk. Tas nozīmē, ka Jūlijai un Nellijai katrai bija 20 konfektes, bet Sintijai - 80. Pirms otrās dalīšanas Jūlijai un Sintijai bija divreiz mazāk, t.i., Jūlijai bija 10 un Sintijai - 40, attiecīgi Nellija bija $120 - 10 - 40 = 70$. Pirms pirmās dalīšanas Sintijai un Nellija bija divreiz mazāk konfekšu, t.i. Sintijai bija 20 konfektes, Nellijai bija 35 konfektes un Jūlijai bija $120 - 20 - 35 = 65$ konfektes.
 
@@ -31,7 +31,7 @@ Jānītis vēlas 1. att. redzamo figūru sadalīt 4 vienādos daudzstūros, grie
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 5 derīgi varianti redzami 2. attēlā.
 
@@ -51,7 +51,7 @@ Uzrakstiet tādu deviņciparu skaitli, kuram visi cipari ir dažādi un katrs sk
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $784913526$.
 
@@ -83,7 +83,7 @@ Alise mežā satika 5 rūķīšus. Katrs no viņiem vai nu vienmēr saka paties�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē. Piemēram, ja tieši viens no rūķīšiem saka patiesību, tad to atbildes varēja būt 0, 1, 2, 4, 5 (tas, kas saka patiesību, teica 4, pārējie meloja).
 
@@ -104,7 +104,7 @@ Kādu mazāko skaitu mazo trijstūrīšu var nokrāsot melnus tā, lai katram ma
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar 4 trijstūrīšiem pietiek, kā redzams zīmējumā. Ar mazāku skaitu nepietiek, jo katrā no četriem izdalītajiem “vidējā lieluma” trijstūriem, ko veido 4 mazie trijstūriši, vismaz vienam mazajam trijstūrītim jābūt melnam, citādi centrālajam mazajam trijstūrītim uzdevuma prasības neizpildās.
 
@@ -122,7 +122,7 @@ $4 \times 4$ rūtiņu tabulā ierakstīti 16 veseli skaitļi (ne obligāti daž�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, tas ir iespējams, ja tabula aizpildīta, piemēram, kā 1. tabulā:
 
@@ -151,7 +151,7 @@ Figūras var būt arī pagrieztas vai apmestas otrādi, bet tās nevar pārklāt
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, nevar, jo kopējais taisnstūra rūtiņu skaits ir $5 \cdot 10 = 50$, kas nedalās ar 4, bet katra figūra aizņem 4 rūtiņas; tātad kopējais noklāto rūtiņu skaits dalīsies ar 4.
 
@@ -181,7 +181,7 @@ Pēc sacensībām izrādījās, ka neviens no ekspertiem nav kļūdījies. Kād�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izveidosim tabulu, kur katrai iespējamai finišēšanas secībai atliksim nekļūdīgo viedokļu skaitu. Ja eksperts pie dotās secības nav kļūdījies, viņa kolonnā atliksim “+”. Rezultāts attēlots 2. tabulā.
 
@@ -209,7 +209,7 @@ Divi $n$-ciparu skaitļi katrs satur visus ciparus no $1$ līdz $n$ ieskaitot. V
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, nevar. Skaitot stabiņā, šķiru pārnese var notikt tikai tad, ja 5 ir zem 5, taču tādā gadījumā viens no cipariem būs 0, kas ir pāra. Bet, ja šķiru pārneses nav, tad, lai iegūtu nepāra ciparu, konkrētajā šķirā jābūt pāra un nepāra ciparam, taču katrā skaitlī ir tikai 2 pāra cipari, tāpēc būs vismaz viena šķira, kur abi saskaitāmie cipari būs nepāra un viņu summa būs pāra cipars.
 
@@ -228,7 +228,7 @@ Kādu taisnstūru ar veseliem malu garumiem ir vairāk: ar perimetru 2024 vai ar
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja taisnstūra perimetrs ir vienāds ar 2024, tad tā blakus malu summa ir vienāda ar 1012. No tā seko, ka īsākās malas garums var pieņemt vērtības no 1 līdz 506. Savukārt, ja taisnstūra perimetrs ir vienāds ar 2026, tad tā blakus malu summa ir vienāda ar 1013. No tā seko, ka īsākās malas garums arī var pieņemt vērtības no 1 līdz 506. Tādējādi abos gadījumos ir vienāds iespējamo taisnstūru skaits - 506.
 
@@ -250,7 +250,7 @@ $4 \times 4$ rūtiņu tabulā ierakstīti 16 veseli skaitļi (ne obligāti daž�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nevar.
 
@@ -281,7 +281,7 @@ Vai iespējams noklāt 9. att. redzamās figūras ar 8. att. redzamajām figūr�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, skatīt 10. att.
 
@@ -305,7 +305,7 @@ Piecās kastēs kopā ir 21 bumbiņa, bumbiņu skaits jebkurās divās kastēs i
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pierādīsim, ka nevienā kastē nevar būt vairāk par 7 bumbiņām. Apzīmēsim visas kastes ar A, B, C, D, E. Pieņemsim pretējo - kādā no kastēm, piemēram, kastē A, ir vairāk nekā 7 bumbiņas, tātad, vismaz 8. Tagad, izvēloties jebkuras divas citas kastes, piemēram, kastes B un C, pēc dotā mēs varam ievietot visas bumbiņas no šīm divām kastēm pārējās, lai bumbiņu skaits tajās būtu vienāds. Tā kā kopā ir 21 bumbiņa, tad katrā no kastēm A, D, E jābūt tieši 7 bumbiņām. Bet tas nav iespējams, jo kastē A jau bija vismaz 8 bumbiņas.
 
@@ -329,7 +329,7 @@ $3 \times 3$ punktu režģī (skat. 12. att.) 5 no punktiem nokrāsoti sarkani. 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n$ var būt 8, 9 vai 10. Nosauksim trijstūri, kam visas virsotnes ir sarkanajos punktos, par sarkano trijstūri. Katrs sarkano punktu trijnieks mums var veidot sarkano trijstūri, izņemot, ja šie trīs punkti atrodas uz vienas taisnes. Līdz ar to sarkano trijstūru skaitu $n$ mēs varam aprēķināt no visu trijnieku skaita atņemot to trijnieku skaitu, kuros punkti atrodas uz vienas taisnes.
 
@@ -361,7 +361,7 @@ Kādu lielāko skaitu dažādu naturālu skaitļu var uzrakstīt uz tāfeles tā
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** 12 skaitļus.
 
@@ -387,7 +387,7 @@ Dots izliekts četrstūris $ABCD$, tā diagonāles krustojas punktā $O$, zinām
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![16. att.](LV.NOL.2026.8.1A.png)
 
@@ -410,7 +410,7 @@ Vai iespējams noklāt 18. att. redzamās figūras ar 17. att. redzamajām figū
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, skatīt 19.att.
 
@@ -433,7 +433,7 @@ Doti naturāli skaitļi $a$ un $b$, kuriem ir spēkā $34a = 43b$. Pierādīt, k
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $34a = 43b$, tad $a = \frac{43}{34}b$. Pieskaitot abām vienādojuma pusēm skaitli $b$, iegūstam $a + b = \frac{43}{34}b + b = \frac{77}{34}b$ jeb $34(a + b) = 77b$. Tātad $34(a + b)$ dalās ar 77. Tā kā 77 un 34 ir savstarpēji pirmskaitļi, tad $a + b$ ir jādalās ar 77. Tā kā $77 = 11 \cdot 7$, tad $a + b$ noteikti nav pirmskaitlis, jo tas dalīsies ar 7 un 11.
 
@@ -452,7 +452,7 @@ Viens aiz otra uzrakstīti 9 veseli (ne noteikti dažādi) skaitļi. Zināms, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, ja viens aiz otra uzrakstīti, piemēram, šādi skaitļi
 
@@ -494,7 +494,7 @@ Sākumā uz tāfeles ir uzrakstīts skaitlis 1234. Pēteris un Lote spēlē spē
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pēteris vienmēr var uzvarēt, kā pirmo gājienu veicot $1234 - 4 = 1230$. Pētera uzvarošā stratēģija ir atstāt Lotei skaitli, kas beidzas ar nulli. Ja rezultāts ir nulle, viņš ir uzvarējis. Ja rezultāts nav nulle, tad eksistē vismaz viens nenulles cipars. Lote būs spiesta atņemt no skaitļa nenulles ciparu, atstājot Pēterim skaitli, kas nebeidzas ar nulli. Pēteris atkal var atņemt no skaitļa tā pēdējo ciparu, turpinot uzvarošso stratēģiju.
 
@@ -512,7 +512,7 @@ Uz paralelograma $ABCD$ malas $AB$ atlikts punkts $E$ tāds, ka $AE : EB = 1 : 2
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $AB \parallel CD$ kā paralelograma $ABCD$ pretējās malas un tās krusto $AC$, tad $\angle BAC = \angle ACD$ (iekšējie šķērsleņķi pie paralēlām taisnēm) (skat. 1.att.). Iegūstam, ka $\triangle AOE \sim \triangle COD$ $(\ell\ell)$, jo $\angle BAC = \angle ACD$ un $\angle AOE = \angle COD$ (krustleņķi). Tā kā $AE : EB = 1 : 2$, tad $AE : CD = AE : AB = 1 : 3$. No šīs attiecības un no $\triangle AOE \sim \triangle COD$ iegūstam, ka $AO : OC = AE : CD = 1 : 3$, un tā kā $AO + OC = AC = 20$, iegūstam, ka $AO = 5$.
 
@@ -531,7 +531,7 @@ Vai izteiksmi $(2 + 1)(2^2 + 1)(2^4 + 1)(2^8 + 1) ... (2^{128} + 1)$ var izteikt
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Reizinām doto izteiksmi ar $(2 - 1)$. Tā kā reizinātāja vērtība ir 1, tas nemainīs izteiksmes vērtību. Tad iegūstam, ka
 
@@ -560,7 +560,7 @@ Dots naturāls skaitlis $N$. Elza kartē uzzīmēja 99 pilsētas un savienoja t�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā $N$ vērtība ir 49.
 
@@ -583,7 +583,7 @@ Atrast visus tādus naturālos skaitļus $n$, ka **(A)** $n! - 8$; **(B)** $n! -
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **1.atrisinājums:** **(A)** Pieņemsim, ka $n \geq 6$. Tādā gadījumā $n! - 8 = x^2$. 
 Vienādojuma kreisā puse dalās ar 8, jo $n!$ dalās ar 8 un saskaitāmais 8 dalās ar 8. 
@@ -639,7 +639,7 @@ Dots trijstūris $ABC$ ar $\angle A = 120^\circ$. Uz $\angle BAC$ bisektrises at
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atliek punktu $E$ uz $AD$ tā, lai $AE = AB$. Tad $ED = AC$, jo $AD = AB + AC$ (skat. 2.att.). Tā kā $AD$ – bisektrise $\angle BAC$, tad $\angle BAE = \angle CAE = 60^\circ$. Tā kā $AE = AB$ pēc konstrukcijas un $\angle BAE = 60^\circ$, tad trijstūris $BAE$ ir vienādmalu. Tā kā vienādmalu trijstūrī visi leņķi ir $60^\circ$, tad $\angle AEB = \angle ABE = 60^\circ$ un $\angle ABC = 60^\circ - \angle CBE$. Tad $\angle BED = 180^\circ - \angle BEA = 180^\circ - 60^\circ = 120^\circ$. Tas nozīmē, ka $\triangle ABC = \triangle EBD$ $(m\ell m)$, jo $\angle BAC = \angle BED$, $AB = EB$ un $AC = ED$. Tad $CB = BD$ kā vienādu trijstūru atbilstošās malas un trijstūris $BCD$ ir vienādsānu. Tāpat $\angle ABC = \angle EBD = 60^\circ - \angle CBE$ kā vienādu trijstūru atbilstošie leņķi. Tātad $\angle CBD = 60^\circ - \angle CBE + \angle CBE = 60^\circ$, jeb $\triangle CBD$ ir vienādmalu kā vienādsānu trijstūris ar leņķi $60^\circ$.
 
@@ -660,7 +660,7 @@ Dots taisnleņķa trijstūris $ABC$ ar leņķiem $\angle C = 90^\circ$ un $\angl
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām $\triangle DEC$: $DE = 6$, $DC = 3$, $\angle ACB = 90^\circ$ (skat. 3.att.). No tā iegūstam, ka $\angle DEC = 30^\circ$, jo hipotenūza ir divas reizes garāka nekā katete, un $CE = 3\sqrt{3}$ kā trešā mala taisnleņķa trijstūrī ar $30^\circ$ leņķi. Tāpat $\triangle DEC \sim \triangle ABC$ $(\ell \ell)$, jo $\angle DEC = 30^\circ = \angle ABC$ un $\angle ACB$ ir kopīgs. No trijstūru līdzības iegūstam, ka $\frac{DC}{AC} = \frac{EC}{BC} = \frac{3\sqrt{3}}{4 + 3\sqrt{3}}$. Tā kā $DC = 3$, iegūstam vienādību $\frac{3}{AC} = \frac{3\sqrt{3}}{4 + 3\sqrt{3}}$ jeb $3\sqrt{3}AC = 3(4 + 3\sqrt{3})$, no kā $AC = 3 + \frac{4\sqrt{3}}{3}$.
 
@@ -679,7 +679,7 @@ Māris izvēlējās trīs dažādus pozitīvus reālus skaitļus $a, b, c$ un uz
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nezaudējot vispārīgumu, varam pieņemt, ka $a < b < c$. Tad $a + b < a + c < b + c$ un $ab < ac < cb$. Ja pieņem, ka uz tāfeles ir trīs dažādi skaitļi, tad jāizpildās, ka $a + b = ab$, $a + c = ac$, $b + c = bc$. Apskatīsim vienādojumus $a + b = ab$ un $a + c = ac$. Atņemot tos vienu no otra, iegūst:
 
@@ -726,7 +726,7 @@ No 24 melniem un 25 baltiem kubiņiem ir izveidots “tornis”, saliekot kubiņ
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **1. atrisinājums.** Vispārinot uzdevumu, varam pieņemt, ka melno un baltu kubiņu skaits ir attiecīgi $m$ un $n$. Aplūkosim kubiņu pārus, kur pa vienam ir no katras krāsas kubiņiem. Katrā šādā kubiņu pārī, vienam no kubiņiem ir tornī jāatrodas virs otra, tātad tieši viens no kubiņiem (tas, kurš tornī ir augstāk), ir pieskaitīts skaitļu uz otra kubiņa. Kopā var izveidot $mn$ pārus ar dažādu krāsu kubiņiem. Katrā pārī savstarpēji tieši viens kubiņš ir pieskaitīts skaitļu uz otra kubiņa, līdz ar to visu uzrakstīto skaitļu summa sakrīt ar pāru skaitu, kas šajā gadījumā ir $24 \cdot 25 = 600$.
 
@@ -746,7 +746,7 @@ Dots izliekts četrstūris $ABCD$, kuram $\angle CBD = 2 \angle CAD$ un $\angle 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **1.atrisinājums.** Atliekam punktu $X$ uz $CA$ tā, ka $BX$ ir $\angle CBD$ bisektrise, un punktu $Y$ uz $CA$ tā, ka $DY$ ir $\angle CDB$ bisektrise (skat. 4.att.).
 
@@ -776,7 +776,7 @@ Atrast visus naturālos skaitļus $n$, kuriem vienlaicīgi izpildās šādas div
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $n$ ir pāra skaitlis, jo pretējā gadījumā $n - 1$ un $n + 1$ abi ir pāra skaitļi un neeksistē divi pāra pirmskaitļi. Pierādīsim, ka $n$ dalās ar 3. Pieņemsim pretējo, ka $n$ nedalās ar 3. Tad ir iespējami divi gadījumi.
 
@@ -799,7 +799,7 @@ Uz šaurleņķu trijstūra $ABC$ malas $AB$ atlikts punkts $D$, un uz malas $AC$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $S(\triangle BFD) = 4$ un $S(\triangle EFD) = 2$, un abus šo trijstūru laukumus var izteikt, izmantojot vienu un to pašu augstumu no punkta $D$ pret taisni $EB$, iegūstam, ka $EF : FB = 1 : 2$ (skat. 6.att.). No tā, ka $ED \parallel BC$, un ka šīs paralēlās taisnes krusto nogriežņi $EB$ un $CD$, izriet, ka $\triangle EDF \sim \triangle BCF$ $(\ell\ell)$, jo $\angle EDF = \angle BCF$ un $\angle DEF = \angle FBC$ kā iekšējie šķērsleņķi. Tā kā līdzības koeficients ir $k = \frac{EF}{FB} = \frac{1}{2}$, tad laukumu attiecība ir $S(\triangle EDF) : S(\triangle BCF) = k^2 = \frac{1}{4}$, no kā iegūstam, ka $S(\triangle BCF) = 8$. No šo trijstūru līdzības arī seko, ka $DF : FC = 1 : 2$, un, analoģiski iepriekšējam spriedumam, var secināt, ka $S(\triangle CEF) = 4$. Tādējādi trapeces $BCED$ laukums ir visu tajā esošo trijstūru laukumu summa: $S(BCED) = S(\triangle BCF) + S(\triangle CEF) + S(\triangle EFD) + S(\triangle BFD) = 8 + 4 + 2 + 4 = 18$. Tā kā $ED : BC = 1 : 2$ (no līdzīgiem trijstūriem) un no $\angle A$– kopīgs, $\angle AED = \angle ACB$ (kāpšļu leņķi pie $ED \parallel CB$, krustojot $AC$) secinām, ka $\triangle AED \sim \triangle ACB$ $(\ell\ell)$. Tad $S(\triangle AED) : S(\triangle ACB) = 1 : 4$. Tātad trapeces $BCED$ laukums veido $\frac{3}{4}$ no trijstūra $ABC$ laukuma daļām, un līdz ar to $S(\triangle ABC) = 24$.
 
@@ -826,7 +826,7 @@ $$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x > 1$, tad $y^2 = 3 - 2x^2 < 3 - 2 = 1$, kas nozīmē, ka $y < 1$. No otrā vienādojuma izriet, ka $z^3 = 4 - 3y^2 > 4 - 3 = 1$, kas nozīmē, ka $z > 1$. No trešā vienādojuma izriet, ka $x^3 = 5 - 4z^2 < 5 - 4 < 1$, kas nozīmē, ka $x < 1$ – pretruna ar sākotnējo pieņēmumu.
 
@@ -847,7 +847,7 @@ Secinām, ka $x = 1$, no pirmā vienādojuma izriet, ka $y = 1$ un no otrā vien
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\angle BFC = \angle BEC = 90^\circ$, tad ap $BFEC$ var apvilkt riņķa līniju (ievilkta četrstūra pazīme). Ievērosim, ka $\angle BCF = 90^\circ - \angle FBC = \angle FEB$ (kā leņķi, kas balstās uz vienu loku ap četrstūri $BFEC$ apvilktai riņķa līnijai) (skat. 7.att.). Tad $\angle FBC = 90^\circ - \angle FCB = 90^\circ - \angle FEB$ un $\angle THE = \angle FBC$ (taisnleņķa trijstūra šauro leņķu summa ir $90^\circ$). Tas nozīmē, ka $\angle THB = 180^\circ - \angle FBC$.
 
@@ -869,7 +869,7 @@ Rūtiņu tabulā $2026 \times 2026$ atzīmētas 2026 rūtiņas tā, ka katrā ri
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim taisnstūri $m \times n$, kurā neatrodas neviena atzīmēta rūtiņa, kurš ir novietots tā, ka tas aizņem $m$ kolonnas un $n$ rindas. Tajās $n$ rindās, kurās atrodas šis taisnstūris, ir tieši $n$ iekrāsotas rūtiņas un tās ir sadalītas pa $2026 - m$ kolonnām, kuras šis taisnstūris nenoklāj. Tā kā katra no $n$ rūtiņām atrodas citā kolonnā, tad iegūstam $2026 - m \geq n$ jeb $m + n \leq 2026$. Tā kā varam izteikt $mn = \frac{(m+n)^2 - (m-n)^2}{4}$, tad ir spēkā
 
@@ -895,7 +895,7 @@ Doti naturāli skaitļi $a$ un $b$ ar īpašību, ka $a + d(a) = b^2 + 2$, kur $
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim naturālo skaitli $n$. Ievērosim, ka, ja skaitlis $d$ ir skaitļa $n$ dalītājs, tad $\frac{n}{d}$ arī ir skaitļa dalītājs. Tas nozīmē, ka visus $n$ dalītājus var sadalīt pāros $\left(d; \frac{n}{d}\right)$, līdz ar to skaitļa $n$ dalītāju skaits (tas ir skaitlis $d(n)$) ir pāra skaitlis, izņemot gadījumu $n = k^2$, jo tādā gadījumā $k$ un $\frac{k^2}{k}$ sakrīt. Secinām, ka $d(n)$ ir pāra skaitlis, izņemot to gadījumu, kad $n$ ir naturāla skaitļa kvadrāts (tad $d(n)$ ir nepāra skaitlis).
 
@@ -916,7 +916,7 @@ Dots kvadrāts $ABCD$, kura malas garums ir 12. Uz malas $AB$ atlikts punkts $E$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $\triangle AEF \sim \triangle ABD$ $(\ell \ell)$, jo $\angle BAD = 90^\circ$ ir kopīgs un $\angle AEF = \angle ABD$ (kāpšļu leņķi pie $EF \parallel BD$, krustojoties ar $AB$ (skat. 9.att.). Tā kā $AB = AD$, tad $AF = AE = 3$, no kā izriet, ka $FD = AD - AF = 12 - 3 = 9$. Tālāk apskatām trijstūrus $\triangle AGF$ un $\triangle DCF$; tā kā $AB \parallel CD$ kā kvadrāta malas un šīs paralēlās taisnes krusto taisne $CG$, iegūstam vienādus iekšējos šķērsleņķus $\angle EGF = \angle FCD$, kā arī krustleņķus $\angle AFG = \angle CFD$, tāpēc $\triangle AGF \sim \triangle DCF$ $(\ell \ell)$. No trijstūru līdzības izriet, ka $\frac{AG}{AF} = \frac{DC}{FD} = \frac{12}{9}$, un, tā kā $AF = 3$, iegūstam $AG = 4$. Trijstūrī $AGF$ pēc Pitagora teorēmas $GF = 5$, bet $\triangle CDF$ pēc Pitagora teorēmas $CF = 15$, tāpēc $CG = GF + CF = 5 + 15 = 20$.
 
@@ -943,7 +943,7 @@ $$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No pirmā vienādojuma izsakām $z = x + y - 1$ un ievietojam otrajā vienādojumā, lai iegūtu, ka
 
@@ -1000,7 +1000,7 @@ Atrast visus tādus naturālos skaitļus $n$, ka $n! - 144$ ir naturāla skaitļ
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **1. atrisinājums.** Apzīmēsim $n! - 144 = x^2$. Lai $x \in N$, nepieciešams, lai $n \geq 6$, citādi vienādojuma kreisā puse pieņem negatīvas vērtības, bet naturāla skaitļa kvadrāts nevar būt negatīvs. Ja $n \geq 7$, tad vienādojuma kreisā puse vienmēr dos atlikumu 3, dalot ar 7, jo, ja $n \geq 7$, tad $n!$ dalās ar 7, bet 144 dod atlikumu 4, dalot ar 7. Vienādojuma labajā pusē ir naturāla skaitļa kvadrāts. Aplūkosim, kādus atlikumus var dot naturāla skaitļa kvadrāts, dalot to ar 7.
 
@@ -1046,7 +1046,7 @@ Doti sviras svari un 30 atsvari, kuru svars ir 1 kg, 2 kg, 3 kg, ..., 30 kg. Alf
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalīsim atsvarus pa pāriem šādā veidā: $(1, 2)$, $(3, 4)$, ..., $(27, 28)$ un $(29, 30)$ kg. Ja Alfrēds kādā no pirmajiem 14 pāriem vienu atsvaru uzliek uz viena no svaru kausiem, tad Kims otru atsvaru no šī pāra uzliek uz otra svaru kausa. Tad katrā šāda pāra starpība ir $\pm 1$, un, ja aplūkotu tikai šos pārus, tad $S$ nepārsniedz 14. Pārī $(29, 30)$ Kims otru atsvaru uzliek uz tā paša svaru kausa, uz kura Alfrēds uzlika pirmo. Tādējādi šī pāra summa ir $(29 + 30) = 59$. Tātad gala rezultāts $S \geq 59 - 14 = 45$, un Kims var garantēt vismaz 45.
 
@@ -1065,7 +1065,7 @@ Tagad pierādīsim, ka Alfrēds var garantēt, ka $S$ nepārsniegs 45. Viņam j�
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\angle DAB$ ir hordas-pieskares leņķis un $\angle ACB$ – ievilkts leņķis lokam $AB$, tad $\angle DAB = \angle ACB$ (skat. 10.att.). Analogi $\angle CAE = \angle ABC$. Aplūkojot $\triangle EAC$ un $\triangle ADB$, tie ir vienādsānu pēc dotā. Vienādsānu trijstūrī pamata pieleņķi ir vienādi, tātad $\angle ADB = 90^\circ - \frac{\angle ACB}{2}$ un $\angle AEC = 90^\circ - \frac{\angle ABC}{2}$. Tā kā $L$ ir trijstūrī $ABC$ ievilktās riņķa līnijas centrs, tad $AL$ un $BL$ ir bisektrises. Tad no trijstūra iekšējo leņķu summas
 

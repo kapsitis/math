@@ -10,7 +10,7 @@ Pamatojiet savu atbildi.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. zīm.
 

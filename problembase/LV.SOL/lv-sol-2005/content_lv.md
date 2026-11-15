@@ -9,7 +9,7 @@ Vai var pa apli uzrakstīt visus naturālos skaitļus no $1$ līdz $15$, katru t
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat., piem., $5.$ zīm.
 
@@ -29,7 +29,7 @@ Kvadrāts sastāv no $3 \cdot 3$ rūtiņām. Sākumā tās visas ir tukšas. Vai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, nevar.  
 **Pierādījums.** Blakus centrālajai rūtiņai jābūt tieši vienam krustiņam. Varam uzskatīt, ka situācija attēlota $6.$ zīm. (“$\bullet$” nozīmē, ka krustiņa attiecīgajā rūtiņā nav). Līdz ar to ar A apzīmētajai rūtiņai uzdevuma nosacījumi neizpildās.
@@ -52,7 +52,7 @@ Taisnstūris sastāv no $3 \cdot 4$ rūtiņām. Vai rūtiņās var ierakstīt na
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) jā, var; skat., piem., $7.$ zīm.  
 b) nē, nevar, jo summa $1+2+\ldots+12=78$ nedalās ar $4$.
@@ -73,7 +73,7 @@ Klasē ir $8$ zēni un $5$ meitenes. Katrs zēns draudzējas ar tieši $2$ meite
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pastāv $8\cdot 2=16$ draudzības “zēns-meitene”. Ja uz katru meiteni attiektos ne vairāk par $3$ no tām, tad šādu draudzību skaits nepārsniegtu $5\cdot 3=15$ – pretruna.
 
@@ -89,7 +89,7 @@ Kvadrāts sastāv no $3 \cdot 3$ rūtiņām. Andris rūtiņās ierakstījis natu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** jā, var.  
 **Pierādījums.** Jānis uzdod jautājumus par četriem no $4$ rūtiņām sastāvošiem kvadrātiem. Īsuma labad apzīmēsim šos jautājumus ar A, B, C, D atkarībā no tā, kuru no kvadrāta stūra rūtiņām attiecīgais jautājums “ietver” (skat. $8.$ zīm.). Tālāk Jānis spriež sekojoši:  
@@ -113,7 +113,7 @@ Aukla sākotnēji bija $10$ km gara. To sagrieza $2$m, $3$m un $5$m gabalos tā,
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pašreiz ir izdarīti $4219-1=4218$ griezumi. Lai beigās iznāktu $10000$ gabali, pavisam jāizdara $10000-1=9999$ griezumi. Tātad vēl jāizdara $9999-4218=5781$ griezumi.
 
@@ -129,7 +129,7 @@ Par naturāla skaitļa $n$ faktoriālu sauc visu naturālo skaitļu reizinājumu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $2004$.  
 **Risinājums.** a) tā kā
@@ -151,7 +151,7 @@ Klasē ir $31$ skolēns. Katrs no viņiem nosūtīja apsveikumu vai nu $2$ vai $
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kopējais nosūtīto apsveikumu skaits ir pāra skaitlis, bet kopējais saņemto apsveikumu skaits – nepāra.
 
@@ -167,7 +167,7 @@ Seši laupītāji dala $23$ zelta monētas. To masas ir $79$g, $80$g, $81$g, ...
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $6\cdot 4=24>23$, tad kāds no laupītājiem saņēma augstākais $3$ monētas. Bet pat $3$ smagākās monētas kopā sver tikai $300$ g. Tāpēc atbilde ir “nē”.
 
@@ -187,7 +187,7 @@ Andris, Dzintars, Juliata un Gunārs katrs sadalīja $1$. zīm. redzamo figūru 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat. $9.$ zīm.
 
@@ -211,7 +211,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atverot iekavas, iegūstam vienādojumu
 
@@ -233,7 +233,7 @@ Gatavojoties olimpiādei, Andris $5$ nedēļas risināja uzdevumus. Katru nāko�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja Andra atrisināto uzdevumu daudzumi minētajās nedēļās ir $x$; $x+y$; $x+2y$; $x+3y$; $x+4y$, tad kopējais atrisināto uzdevumu daudzums ir $5x+10y=5(x+2y)$.
 
@@ -253,7 +253,7 @@ Andris, Dzintars un Gunārs katrs sadalīja vienu un to pašu riņķa līniju $2
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., $10.$ zīm.
 
@@ -273,7 +273,7 @@ Kādu lielāko daudzumu naturālo skaitļu no $1$ līdz $2004$ var izvēlēties 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Drīkst būt ne vairāk kā viens skaitlis, kas dalās ar $3$, un no katra pāra $(1;2)$, $(4;5)$, $(7;8)$, ..., $(2002;2003)$ arī drīkst būt ne vairāk kā viens skaitlis. Tātad kopējais skaits nevar pārsniegt $1+\dfrac{2004}{3}=669$. Šādu skaitļu daudzumu var sasniegt, piemēram, izvēloties skaitli $3$ un visus tos skaitļus, kas, dalot ar $3$, dod atlikumu $1$ (t.i., skaitļus $1$; $4$; $7$; ...; $2002$).
 
@@ -289,7 +289,7 @@ Futbola turnīrā piedalījās vismaz $5$ komandas; katra ar katru citu spēlēj
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To, ka $X$ uzvarējusi pret $Y$, apzīmēsim ar $X\to Y$; to, ka $X$ un $Y$ nospēlējušas neizšķirti, apzīmēsim ar $X\sim Y$; to, ka $X$ nezaudēja pret $Y$, apzīmēsim ar $X\nleftarrow Y$.
 
@@ -313,7 +313,7 @@ Vai divu lineāru funkciju $y=k_1\cdot x+a_1$ un $y=k_2\cdot x+a_2$ grafiki var 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Novelkam abiem grafikiem paralēlas taisnes caur $(0;0)$. Tās abas iet caur I un III kvadrantu, tātad divi leņķi starp tām ir šauri, divi – plati. Bet leņķi starp tām ir vienādi ar leņķiem starp doto funkciju grafikiem.
 
@@ -329,7 +329,7 @@ Vai visi skaitļi $x+y-z$, $2\cdot x-3\cdot y+z$ un $-8\cdot x+7\cdot y-z$ var v
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, jo $2(x+y-z)+3(2x-3y+z)+(-8x+7y-z)=0$.
 
@@ -345,7 +345,7 @@ Vai eksistē $2$ izliekti četrstūri, katram no kuriem katra mala atrodas uz k�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Skat. $11.$ zīm., kur attēloti divi vienādi rombi ar kopīgu centru un šaurajiem leņķiem $45^{\circ}$; rombi pagriezti viens attiecībā pret otru par $90^{\circ}$.
 
@@ -374,7 +374,7 @@ Kāda var būt visu tabulā ierakstīto skaitļu summa?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalām kvadrātu četros mazākos kvadrātos ar izmēriem $2\cdot2$. Katrā no tiem ierakstīto skaitļu summa ir vai nu $1$, vai $3$. Tātad visai summai nevar būt citas vērtības kā $4\cdot1+0\cdot3=4$; $3\cdot1+1\cdot3=6$; $2\cdot1+2\cdot3=8$; $1\cdot1+3\cdot3=10$; $0\cdot1+4\cdot3=12$. To, ka visas šīs summas iespējamas, skat. $13.$ zīm.
 
@@ -395,7 +395,7 @@ Cik vecs ir Dzintars, cik – Andris? (Vecumu mēra veselos gados.)
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja iedomātie skaitļi ir $x\ge y\ge z$, tad $xyz=2450$ un $x+y+z=2d$, kur $d$ – Dzintara vecums. Acīmredzot šai sistēmai ir vairāk nekā viens atrisinājums naturālos skaitļos $(x,\ y,\ z)$, citādi Dzintars uzreiz varētu noskaidrot $x,\ y,\ z$ vērtības. Pārbaudot visas iespējas, kā var rasties reizinājums $x\cdot y\cdot z=2450$, redzams, ka tikai divos gadījumos summai $x+y+z$ ir vienāda (pāra) vērtība: $(50;\ 7;\ 7)$ un $(49;\ 10;\ 5)$. Tātad Dzintaram ir $(50+7+7):2=32$ gadi. Ja Andra vecums būtu mazāks par $50$ gadiem, uzdevumam nebūtu atrisinājuma. Ja Andra vecums būtu lielāks par $50$ gadiem, Andra otrais paziņojums nepalīdzētu Dzintaram izšķirties starp abām iespējām. Tātad Andrim ir $50$ gadi (un iedomātie skaitļi ir $49;\ 10;\ 5$).
 
@@ -411,7 +411,7 @@ Atrisināt reālos skaitļos vienādojumu $(4x+3)^2(2x+1)(x+1)=9$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam vienādojumu par $(16x^2+24x+9)(2x^2+3x+1)=9$
 
@@ -453,7 +453,7 @@ No sākuma uz tāfeles uzrakstīts skaitlis $2$. Ar $1.$, $3.$, $5.$, ... gājie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, jo pamīšus iegūst skaitļus, kas dalot ar $3$, dod atlikumus $1$ un $2$, bet iegūstamais skaitlis dalās ar $3$.
 
@@ -473,7 +473,7 @@ Dots, ka $\angle AOD=90^{\circ}$, $AB=x$, $CD=y$, $M$-$BC$ viduspunkts, $N$-$AD$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $T$ apzīmējam $BD$ viduspunktu (skat. $14.$ zīm.). Tad no viduslīniju īpašībām
 
@@ -498,7 +498,7 @@ Cik klasē ir tādu bērnu, kam šajā pašā klasē mācās vai nu brālis, vai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Iedalām skolēnus $3$ grupās:  
 $1.$grupa – tie, kam atnāca abi vecāki  
@@ -523,7 +523,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārbaudīt, ka pozitīviem $x$ un $y$ pastāv nevienādība $\frac{2xy}{x+y}\le\frac{x+y}{2}$ $(*)$ (nevienādība starp vidējo harmonisko un vidējo aritmētisko).
 
@@ -562,7 +562,7 @@ grafiks? (Ordinātu ass atrašanās vieta nav noteikta.)
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, eksistē; piemēram, $y=-\frac{1}{2}|x+1|+\frac{1}{2}|x-1|+x$. (Var pierādīt, ka citu iespēju nav.)
 
@@ -580,7 +580,7 @@ $$10^x-3^y=7$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārrakstām vienādojumu formā $\underbrace{999\ldots9}_{x}-3^y=6$.
 
@@ -598,7 +598,7 @@ Trijstūrī $ABC$ punkts $M$ ir malas $AB$ viduspunkts, punkts $N$ ir malas $AC$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $MN$ ir $\triangle BAC$ viduslīnija, tāpēc $\angle NMA=\angle NCK$. Tāpēc $\angle NCK+\angle NMK=180^{\circ}$ un ap $MNCK$ var apvilkt riņķa līniju. No tā seko, ka $\angle CNK=\angle CMK$ kā ievilkti leņķi, kas balstās uz vienu un to pašu loku. Prasītā līdzība seko pēc pazīmes (II).
 
@@ -618,7 +618,7 @@ Kādiem naturāliem $n$ kubu ar izmēriem $n\times n\times n$ var salikt no kluc
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā klucīša tilpums ir $8$, tad $n^3$ jādalās ar $8$, tātad $n$ noteikti jābūt pāra skaitlim, $n=2k$.  
 **Pierādīsim, ka der tās un tikai tās pāra $n$ vērtības, kuras dalās ar $4$.**  
@@ -641,7 +641,7 @@ Profesors Cipariņš izdomājis jaunu barjerskriešanas disciplīnu. Sacensības
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzot uz uzdevumā minēto efektu sportistu ātrumi neatstāj nekādu iespaidu. Tāpēc varam uzskatīt, ka tie visi ir vienādi. Tad pie katra karodziņa divi sportisti vienkārši maina celiņus, tāpēc **visu laiku** (tātad arī beigās) katrā celiņā ir pa vienam sportistam.
 
@@ -657,7 +657,7 @@ Dots, ka $\dfrac{x}{x^2+x+1}=a$. Izteikt $\dfrac{x^2}{x^4+x^2+1}$ ar $a$ palīdz
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x\ne0$ un $a\ne0$, tad
 $$
@@ -685,7 +685,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka
 $$
@@ -711,7 +711,7 @@ dalās ar $3^{2004}$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli saprast, ka
 $$
@@ -739,7 +739,7 @@ Pierādīt, ka taisnes $AA_1$, $BB_1$, $CC_1$ krustojas vienā punktā.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar leņķa bisektrises īpašību
 $$
@@ -759,7 +759,7 @@ Katra no $n$-stūra prizmas virsotnēm jānokrāso balta, sarkana vai zaļa. Jā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** tiem $n$, kas dalās ar $3$.
 
@@ -783,7 +783,7 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu bez atrastajām nav.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievietojot “$x$” vietā “$-x$”, iegūstam vienādību $f(-x)+2f(x)=-x$. No sistēmas
 $$
@@ -806,7 +806,7 @@ Kādam mazākajam naturālam $n$ skaitlis $9^n+2^n$ dalās ar $11^3$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n=121$.
 
@@ -842,7 +842,7 @@ Regulārā tetraedrā katras šķautnes garums ir $1$. Projicējam šo tetraedru
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2005.12.3A.png){ width=100px }
 
@@ -862,7 +862,7 @@ Cik dažādus summas vektorus var iegūt?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $125$ vektorus.  
 **Risinājums:** Ieviešam koordinātu sistēmu telpā tā, ka asis paralēlas kuba šķautnēm, bet vienības nogrieznis vienāds ar kuba šķautni. Katra šķautnes vektora katra komponente katras ass virzienā ir “$-1$”, “$0$” vai “$+1$”, pie tam katru komponenti summas vektoram ietekmē $4$ šķautņu vektori (katru komponenti – citi $4$ šķautņu vektori). Tāpēc komponenšu skaitliskās vērtības var būt $-4$; $-2$; $0$; $2$; $4$, t.i. tām var būt $5$ dažādas vērtības. Tā kā komponenšu vērtības ir neatkarīgas viena no otras, tad varam iegūt $5 \cdot 5 \cdot 5 = 125$ dažādus summas vektorus.
@@ -884,7 +884,7 @@ Pierādīt, ka $|x_{2004}|\le 1$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārbaudīt, ka $x_1^2 + y_1^2 = 1$ un
 

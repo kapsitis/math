@@ -11,7 +11,7 @@ Ieraksti 1. att. aplīšos skaitļus no $1$ līdz $12$, katrā aplītī citu ska
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, kā redzams 2. attēlā. Iespējami arī citi varianti.
 
@@ -32,7 +32,7 @@ Ieraksti burtu un zvaigznīšu vietā ciparus tā, lai būtu pareizs reizināša
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šis ir vienīgais atrisinājums:
 
@@ -51,7 +51,7 @@ Kāda ir mazākā iespējamā ciparu summa sešciparu skaitlim, kas dalās ar $2
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā iespējamā summa ir $3$. Šāds skaitlis ir, piemēram, skaitlis $300000$, viegli redzēt, ka tas dalās, gan ar $3$ (jo tā ciparu summa dalās ar $3$), gan ar $8$ (jo tā pēdējo $3$ ciparu veidotais skaitlis $000$ dalās ar $8$).
 
@@ -73,7 +73,7 @@ Parādi, kā $5 \times 7$ rūtiņu taisnstūri var sagriezt vienā $1 \times 3$ 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt šādi, kā redzams 5. attēlā.
 
@@ -96,7 +96,7 @@ ir pirmskaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var gadīties $8$ pirmskaitļi, bet nevar gadīties $9$ pirmskaitļi.
 
@@ -137,7 +137,7 @@ Pietiek parādīt vienu veidu, kā to izdarīt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, kā redzams 10 attēlā. Iespējami arī citi varianti.
 
@@ -160,7 +160,7 @@ $1 \times 3$ rūtiņu taisnstūrī (11. att.) un $24$ ”T” veida figūrās
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt tā, kā redzams 13. attēlā.
 
@@ -188,7 +188,7 @@ vienu veidu, kā to izdarīt. Atceries, ka skaitlis nevar sākties ar nulli!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šis ir vienīgais atrisinājums:
 
@@ -211,7 +211,7 @@ otrs uzrakstītais skaitlis SOKRATS nedalās ar $54$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā PLATONS dalās ar $45$, tad tas dalās arī ar $5$, tātad $S=0$ 
 vai $S=5$. Pirmais gadījums ($S=0$) nav iespējams, jo skaitlis nevar 
@@ -236,7 +236,7 @@ gadā no tā tika nosūtīts ne vairāk kā $15000$ telegrammu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katru gadu nosūtīto telegrammu skaits palielinās tieši 
 $\frac{110}{100}=\frac{11}{10}$ reizes. Tātad pa visiem šiem $4$ 
@@ -271,7 +271,7 @@ ir vai nu tieši $20$, vai arī tieši $30$ kaimiņi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, tas ir iespējams, ja cilvēku skaits mājās ir, piemēram, šāds:
 
@@ -317,7 +317,7 @@ pārbīdot vai ”apmetot otrādi”, tās nevar uzlikt vienu uz otras tā, ka t
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt šādi, kā redzams 14. attēlā.
 
@@ -335,7 +335,7 @@ Kāda ir mazākā iespējamā ciparu summa sešciparu skaitlim, kas dalās ar $9
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā iespējamā ciparu summa šādam sešciparu skaitlim ir $18$, tāda tā ir, 
 piemēram, skaitlim $990000$.
@@ -372,7 +372,7 @@ Indriķis vai Oto, vienmēr var uzvarēt, pareizi spēlējot?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Indriķis vienmēr var uzvarēt. Lai to izdarītu viņam pirmajā gājienā 
 jāizdzer $6$. un $7$. glāze, tādējādi atliks divi pilnu glāžu piecinieki. 
@@ -404,7 +404,7 @@ Zināms, ka $3546$. gadā no Saturna kosmiskās stacijas startēja tieši par $5
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieaugums par $5\%$ vai $10\%$ nozīmē, ka lidojumu skaits palielinājās attiecīgi 
 $\frac{105}{100}=\frac{21}{20}$ vai $\frac{110}{100}=\frac{11}{10}$ reizes. 
@@ -431,7 +431,7 @@ Parādi, kā skaitli $2025$ var izteikt ar $9$ vieniniekiem, pēc vajadzības li
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $$
 2025=(1+1)^{11}-11-11-1
@@ -455,7 +455,7 @@ Uz vienādsānu trijstūra $ABC$ sānu malām $AB$ un $BC$ izvēlēti attiecīgi
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.AMO.2025.8.2A.png)
 
@@ -485,7 +485,7 @@ Bezgalīgā naturālu skaitļu virknē katru locekli, sākot no otrā, iegūst, 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka tas (ne a) ne b) gadījumi) nav iespējams. Aplūkosim virknes locekļu desmitu ciparu (t.i. otro no labās puses). Katrā solī tas vai nu nemainās, vai arī palielinās par vienu (vai arī no $9$ mainās uz $0$), jo katrā solī virknei tiek pieskaitīts kāds skaitlis, kas ir mazāks par $10$. Tas nozīmē, ka kādā brīdī šis te desmitu cipars būs vienāds ar $9$. Tajā brīdī tas būs lielākais šī skaitļa cipars, un, tā kā $9$ ir nepāra skaitlis, tad, to pieskaitot, nākamajam skaitlim mainīsies paritāte. Tātad, neatkarīgi no $a_1$ vērtības, šajā virknē noteikti būs, gan pāra, gan nepāra skaitļi.
 
@@ -502,7 +502,7 @@ Ilmārs grib uznest augšā uz dzīvokli $150$ kg ķirbju. Zināms, ka katrs ķi
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais skaits ir $7$ reizes.
 
@@ -525,7 +525,7 @@ LAPSA un SPALS ir divi piecciparu skaitļi, kuros cipari aizstāti ar burtiem, v
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: LAPSA dalās ar $15$, bet SPALS nedalās.
 
@@ -550,7 +550,7 @@ $$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šādu trijnieku ir ļoti daudz, te daži no tiem:
 
@@ -613,7 +613,7 @@ Uz trijstūra $ABC$ malas $AC$ izvēlēts tāds punkts $D$, ka trijstūra $ABD$ 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novilksim nogriezni $MN$, kas ir trijstūra $DBC$ viduslīnija (jo $M$ un $N$ ir malu viduspunkti).
 
@@ -640,7 +640,7 @@ Vai eksistē pirmskaitlis $p$, kuram $p \times p$ rūtiņu kvadrātu, griežot p
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais šāds pirmskaitlis ir $11$.
 
@@ -659,7 +659,7 @@ Bezgalīgā veselu skaitļu virknē $1,2,3,6,1,\ldots$ katrs loceklis, sākot ar
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstot virknes pirmos locekļus
 
@@ -680,7 +680,7 @@ Ilmārs grib uznest augšā uz dzīvokli $255$ kg ķirbju. Zināms, ka katrs ķi
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais skaits ir $11$ reizes.
 
@@ -709,7 +709,7 @@ $$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārnesot divnieku uz kreiso pusi un pareizinot abas puses ar $ab$ (kas ir pozitīvs skaitlis), iegūstam ekvivalentu nevienādību pierādāmajai:
 
@@ -738,7 +738,7 @@ $EF$ viduspunkts. Kādā garumu attiecībā taisne $AC$ sadala nogriezni $MD$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Attēlosim dotos kvadrātus uz kvadrātveida rūtiņu režģa kā redzams zīmējumā. Caur
 
@@ -762,7 +762,7 @@ Aprēķināt šīs virknes $2025$. locekli.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: virknes $2025$. loceklis ir $15$.
 
@@ -790,7 +790,7 @@ Piezīme: ar $LKD(x,y)$ un $MKD(x,y)$ apzīmē attiecīgi skaitļu $x$ un $y$ li
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **1. atrisinājums.** Pierādīsim, ka jebkuriem naturāliem skaitļiem $a$ un $b$ ir spēkā
 
@@ -837,7 +837,7 @@ Vai eksistē pirmskaitlis $p$, kuram $p \times p$ rūtiņu kvadrātu, griežot p
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais šāds pirmskaitlis ir $11$.
 
@@ -858,7 +858,7 @@ Piezīme: naturāla skaitļa $n$ faktoriāls $n!$ ir visu naturālo skaitļu no 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms ievērosim, ka, tā kā $a>b$ (jo $a-b=k>0$), tad nosacījums $a!$ dalās ar $b$ vienmēr izpildās. Tāpēc aplūkosim tikai otru nosacījumu. Parādīsim, kā katram naturālam $k$ atrast šādus skaitļus $a$ un $b$, ka $a-b=k$ un $b!$ dalās ar $a$.
 
@@ -878,7 +878,7 @@ Regulāra $9$-stūra virsotnēs un malu viduspunktos ierakstīti naturālie skai
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: mazākā iespējamā vērtība ir $24$. Vispirms parādīsim, ka vērtība $k=24$ ir iespējama. To var izdarīt, kā redzams 18. att.
 
@@ -910,7 +910,7 @@ Cik dažādos veidos skaitli $12$ var izteikt kā vieninieku, divnieku un četri
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: $520$ veidos.
 
@@ -974,7 +974,7 @@ himnu, ja tajā ir **(A)** $20$ **(B)** $21$ pantiņi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā. Pieņemsim pretējo, ka šādu divu votivapu nav. Tādā gadījumā 
 katriem $2$ votivapām ir pantiņš, kuru neviens no viņiem nezina. Kopā 
@@ -1006,7 +1006,7 @@ $$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $x=-1$.
 
@@ -1026,7 +1026,7 @@ Cik ir tādu sešciparu skaitļu, kas nesatur nevienu no cipariem $5,6,7,8,9,0$ 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde: ir $3105$ šādi skaitļi.
 
@@ -1077,7 +1077,7 @@ $\angle ABE=\angle CBD=23^\circ$. Aprēķināt $\angle DBE$ lielumu grādos!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pagarināsim $BE$ aiz $E$ tā, ka $EF=BE$. Tad $ABCF$ ir paralelograms 
 (jo tā diagonāles krustpunktā dalās uz pusēm) un 
@@ -1115,7 +1115,7 @@ kas kopā var nodziedāt šillišallu himnu, ja tajā ir **(A)** $34$ **(B)** $3
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā. Pieņemsim pretējo, ka šādu divu šillišallu nav. Tādā gadījumā katram šillišallu trijniekam ir pantiņš, kuru neviens no viņiem nezina. Kopā no $7$ šillišallām var izveidot $C_7^3=\frac{7\cdot 6\cdot 5}{1\cdot 2\cdot 3}=35$ šillišallu trijniekus, pēc Dirihlē principa mums būs divi šillišallu trijnieki, kas nezina vienu un to pašu pantiņu. Bet šajos abos trijniekos kopā ir vismaz $4$ šillišallas, tā ir pretruna ar to, ka jebkuri $4$ šillišallas kopā var nodziedāt himnu.
 
@@ -1132,7 +1132,7 @@ Doti tādi naturāli skaitļi $x$ un $y$, ka $x+2y+1$ ir pirmskaitlis. Pierādī
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $p=x+2y+1$ un ievērosim, ka $p\geq x+3$ (jo $y\geq 1$). Ievērosim arī, ka $x\geq 2$ 
 ($x$ jābūt pāra skaitlim, pretējā gadījumā $x+2y+1$ būs pāra skaitlis, tātad nebūs pirmskaitlis).

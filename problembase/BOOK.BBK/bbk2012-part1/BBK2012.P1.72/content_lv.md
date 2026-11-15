@@ -10,7 +10,7 @@ b. visiem naturāliem $m$ un $n$ starpība $a_m - a_n$ dalās ar $m-n$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $a_{1}=1, a_{2}=1$ vai $2$. Aplūkosim abus gadījumus:
 

@@ -19,7 +19,7 @@ $30~\mathrm{km}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Juris galapunktā nokļūs pēc $90:20=4,5$ stundām jeb 
 $4~\mathrm{h}\ 30~\mathrm{min}$. Tātad Juris galapunktā nokļūs plkst. 12:00. 
@@ -74,7 +74,7 @@ summa uz katras trijstūra malas būtu viena un tā pati!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der, piemēram, jebkurš no 4.att. dotajiem skaitļu izkārtojumiem, tiem 
 atbilstošās summas ir $17;\ 19;\ 20;\ 21;\ 23$.
@@ -109,7 +109,7 @@ citiem punktiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, skat., piemēram, 5.att. **(B)** Nē, nevar. Saskaitīsim visu 
 nogriežņu galapunktus. Katrā no $7$ punktiem atrodas triju nogriežņu 
@@ -139,7 +139,7 @@ variantus un pamato, ka citu nav!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka reizinot $H$ un $E$ iegūstam skaitli, kura pēdējais cipars ir 
 $H$. Pārbaudot visus iespējamos gadījumus 
@@ -172,7 +172,7 @@ Ja mēneša $13.$ datums ir piektdiena, tad saka, ka tā ir melnā piektdiena.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Lielākais melno piektdienu skaits gada laikā ir $3$. Pamatosim, ka 
 vairāk melno piektdienu gada laikā nevar būt. Aplūkosim, kurā nedēļas dienā ir 
@@ -235,7 +235,7 @@ soļu ir starp draugu mājām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pusi no attāluma starp draugu mājām apzīmēsim ar $x$. Tad soļu pāru skaits ir 
 $\frac{x}{2}$, bet soļu trijnieku skaits ir $\frac{x}{3}$. No uzdevuma 
@@ -263,7 +263,7 @@ summa visās rindās, visās kolonnās un abās diagonālēs būtu viena un tā 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 7.att., kur skaitļu summa katrā rindā, kolonnā un abās diagonāles ir 
 $34$.
@@ -296,7 +296,7 @@ līnijām jāiet pa rūtiņu līnijām un stūrīši var būt pagriezti.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākais skaits stūrīšu, kas jāizgriež, ir $3$, skat., piemēram, 9.att. 
 Pamatosim, ka ar mazāk kā $3$ stūrīšiem nepietiek. Pieņemsim, ka pietiek ar $2$
@@ -339,7 +339,7 @@ meiteņu." Cik zēnu sēž pie apaļā galda?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārbaudīsim abus iespējamos gadījumus: meiteņu ir vairāk nekā zēnu, zēnu ir 
 vairāk nekā meiteņu.
@@ -381,7 +381,7 @@ dalās ar visiem skaitļiem no $1$ līdz $10$ bez atlikuma!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļu no $1$ līdz $10$ mazākais kopīgais dalāmais ir 
 $2^{3} \cdot 3^{2} \cdot 5 \cdot 7=2520$. Skaitlis $2520$ neder, jo tam ir divi
@@ -413,7 +413,7 @@ ar nemainīgu ātrumu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Velosipēdista ātrumu apzīmējam ar $v~\mathrm{km/h}$, tad automašīnas ātrums ir 
 $v+45~\mathrm{km/h}$. Tā kā abi veica vienādu ceļa garumu, tad iegūstam 
@@ -457,7 +457,7 @@ summa visās joslās būtu viena un tā pati!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 14.att., skaitļu summa katrā joslā ir $38$.
 
@@ -496,7 +496,7 @@ vienādmalu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā trijstūris $ABG$ sakrīt ar trijstūri $AEG$, tad leņķis 
 $\sphericalangle BGA=\sphericalangle EGA$ (skat. 16.att.). Taisnstūra pretējās 
@@ -539,7 +539,7 @@ un $2017$ melnas bumbiņas; **(B)** $2016$ baltas un $2018$ melnas bumbiņas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkojam, kā atkarībā no paņemto bumbiņu krāsas mainās balto bumbiņu skaits 
 kastē $A$.
@@ -578,7 +578,7 @@ divas reizes mazāks nekā pats skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzdevuma nosacījumiem atbilst tikai skaitlis $36$. Pamatosim, ka citu skaitļu 
 nav.
@@ -625,7 +625,7 @@ vienādas; **(B)** ordināta ir divas reizes lielāka nekā abscisa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, uz taisnes ir šāds punkts. Ja punkta abscisa un ordināta ir 
 vienādas, tad $y=x$ un iegūstam vienādojumu $x=72-5x$ jeb $6x=72$. Tātad $x=12$
@@ -659,7 +659,7 @@ skaitļu summa uz katras trijstūra malas būtu **(A)** $22$; **(B)** $23$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nav iespējams. Virsotnēs ierakstītos skaitļus apzīmēsim ar $a,\ b,\ c$ 
 (skat. 18.att.), skaitļu summu uz katras trijstūra malas apzīmēsim ar $S$. 
@@ -706,7 +706,7 @@ malu garumi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sākotnējās lapas vienas malas garums $CD=CB+BD=10~\mathrm{cm}$ (skat. 21.att.).
 Ievērojam, ka $AB=CD=10~\mathrm{cm}$ kā pārlocītās taisnstūrveida lapas pretējā
@@ -755,7 +755,7 @@ kauss ir smagāks nekā otrs.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Parādīsim, ka abos gadījumos prasītais ir iespējams. Apzīmējam atsvarus ar 
 burtiem, iekavās norādot to masu:
@@ -828,7 +828,7 @@ reizinājumu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, šāds skaitlis neeksistē. Desmitciparu skaitļa (un vispār jebkura skaitļa, 
 kam ir vairāk nekā viens cipars) ciparu reizinājums vienmēr būs mazāks nekā 
@@ -859,7 +859,7 @@ vienādas; **(B)** ordināta ir trīs reizes lielāka nekā abscisa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, uz parabolas ir šāds punkts. Ja punkta abscisa un ordināta ir 
 vienādas, tad $y=x$ un iegūstam vienādojumu $x=x^{2}+6x+6$ jeb $x^{2}+5x+6=0$, 
@@ -891,7 +891,7 @@ Pierādīt, ka $x^{6}+y^{6}+\frac{2}{x^{3}y^{3}}-4 \geq 0$, ja $x>0$, $y>0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādāmo nevienādību ekvivalenti pārveidojam formā
 
@@ -1004,7 +1004,7 @@ varētu izvietot saskaņā ar uzdevuma nosacījumiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Apzīmējam rūtiņās ierakstītos skaitļus tā, kā parādīts 24.att. 
 Ievērojam, ka
@@ -1107,7 +1107,7 @@ aritmētiskās progresijas trīs pēc kārtas ņemti locekļi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā vienādojuma kreisajā pusē ir reizinājums, tāpēc $x-2a=0$ vai 
 $x^{2}-(a+1)x+a=0$. Lineārā vienādojuma sakne ir $x=2a$. Izmantojot Vjeta 
@@ -1315,7 +1315,7 @@ augšu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka otrajā kolonnā skaitļi pieaug virzienā no augšas uz leju,
 tas ir, bultiņa vērsta uz leju. Apzīmējam skaitļus, kas ierakstīti rūtiņās tā, 
@@ -1355,7 +1355,7 @@ Gadījumus $n=2,3$ aplūko atsevišķi.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n=2$ (pirmskaitlis), tad $n+11=13$ (pirmskaitlis) un $n+22=24$ (dalās ar 
 $6$).
@@ -1392,7 +1392,7 @@ Atrisināt nevienādību $2 \sin^{2} x - \sin x - 1 < 0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējot $\sin x=a$, iegūstam kvadrātnevienādību $2a^{2}-a-1<0$. 
 Kvadrāttrinoma saknes ir $a_{1}=1$ un $a_{2}=-\frac{1}{2}$, līdz ar to 
@@ -1416,7 +1416,7 @@ $\left(a_{1}+a_{2}\right)\left(a_{3}+a_{4}\right)$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot nevienādību starp vidējo aritmētisko un vidējo ģeometrisko, iegūstam
 
@@ -1444,7 +1444,7 @@ atrodas uz vienas taisnes!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pierādīsim šādu lemmu: trijstūra leņķa bisektrises un pretējās malas 
 vidusperpendikula krustpunkts atrodas uz trijstūrim apvilktās riņķa līnijas.
@@ -1484,7 +1484,7 @@ vissmagākais?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, tas ne vienmēr ir iespējams.
 
@@ -1532,7 +1532,7 @@ elementiem.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, noteikti. Ievērojam, ka 
 $C_{n}^{k}=\frac{n!}{k!(n-k)!}=\frac{n(n-1)!}{k(k-1)!(n-k)!}=n \cdot \frac{1}{k} \cdot C_{n-1}^{k-1}$,
@@ -1558,7 +1558,7 @@ ir tieši $2017$ dažādas reālas saknes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, tāda $a$ vērtība neeksistē. Ievērojam, ka $x=0$ nav šī vienādojuma sakne, 
 jo $\cos 0=1$. Ja vienādojumam $\cos x=ax^{2}$ ir sakne $x_{1}$, tad tam ir arī
@@ -1579,7 +1579,7 @@ $a,\ b,\ c$ ir pozitīvi skaitļi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Reizinot abas nevienādības puses ar $a+b+c>0$, iegūstam
 
@@ -1609,7 +1609,7 @@ trijstūra augstuma (vai tā pagarinājuma), kas no $A$ vilkts pret malu $BC$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Riņķa līniju ar diametru $BE$ apzīmēsim ar $\omega_{1}$, tās centru apzīmēsim 
 ar $O$, riņķa līniju ar diametru $CF$ apzīmēsim ar $\omega_{2}$ un tās 
@@ -1784,7 +1784,7 @@ abās galvenajās diagonālēs ierakstīto skaitļu summa dalās ar $7$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Skaitļus var ierakstīt, piemēram, tā, kā parādīts 42.att.
 

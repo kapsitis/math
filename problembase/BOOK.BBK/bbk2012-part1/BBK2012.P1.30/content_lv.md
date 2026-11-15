@@ -4,7 +4,7 @@ Pierādīt, ka $2^{1995} + 2^{1996} + 2^{1997} + 2^{1998}$ dalās ar $15$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības
 

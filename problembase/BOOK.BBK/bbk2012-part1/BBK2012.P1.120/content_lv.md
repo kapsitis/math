@@ -10,7 +10,7 @@ skaiţ̦liem ir savstarpēji pirmskaitļi.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pien̦emsim pretējo, ka ir izdevies izvēlēties piecus skaitļus, kas ir 
 pa pāriem savstarpēji pirmskaiţ̦i; apzīmēsim tos ar $a_{1}, a_{2}, a_{3}, a_{4}, a_{5}$. 

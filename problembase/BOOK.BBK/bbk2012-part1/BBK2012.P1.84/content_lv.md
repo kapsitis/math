@@ -5,7 +5,7 @@ kad $(n-1)!$ nedalās ne ar $n$, ne ar $n+2$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atzīmēsim, ka skaiț̣a $(n-1)!$ visi pirmreizinātāji ir mazāki par $n$. 
 Ja skaitlis $(n-1)!$ dalās ar $n$ vai $n+2$, tad šis skaitlis ir salikts skaitlis. 

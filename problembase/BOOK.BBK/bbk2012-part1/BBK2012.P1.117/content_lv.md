@@ -12,7 +12,7 @@ $1\,000\,000$ skaitļi?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pierādīsim, ka divi viens otram sekojoši naturāli skaitli ir savstarpēji pirmskaitļi. 
 Tiešām $(n,(n+1))=(n,(n+1)-n)=(n, 1)=1$.

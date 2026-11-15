@@ -11,7 +11,7 @@ u + v = 32 \\
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jebkuriem naturāliem skaitliem $x$ un $y$ izpildās īpašība
 

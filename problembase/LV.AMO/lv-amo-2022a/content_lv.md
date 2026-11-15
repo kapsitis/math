@@ -20,7 +20,7 @@ Daži skaitļi jau ir ierakstīti.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 2.att., kur katrā rindā, katrā kolonnā un katrā diagonālē 
 ierakstīto trīs skaitļu summa ir $21$.
@@ -48,7 +48,7 @@ atkārtoti izpildot šādas darbības, Karlsons var iegūt tieši $2022$ tortes 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais nav iespējams. Ievērojam, ka sākumā bija $29$
 tortes gabali - nepāra skaitlis.
@@ -86,7 +86,7 @@ figūras var būt pagrieztas vai apgāztas otrādi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 4.att. un 5.att.
 
@@ -111,7 +111,7 @@ abi cipari arī ir pirmskaitļi. Kāda ir abu uzrakstīto skaitļu starpība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka abu uzrakstīto skaitlu starpība ir $50$.
 
@@ -158,7 +158,7 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ tieši šād
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka cipari $2,0,2,2$ tieši šādā secībā ir uzrakstīti divās vietās.
 
@@ -214,7 +214,7 @@ kilometru ir no Laines mājām līdz skolai?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzdevumā dotā izriet, ka $60 \%$ no visa ceļa ir $1200$ metri. Ja visu ceļa 
 garumu no Laines mājām līdz skolai apzīmējam ar $x$, tad iegūstam, ka $60 \%$ 
@@ -243,7 +243,7 @@ iespējams, ka kādā brīdī visos četros plauktos būs vienāds skaits eklēr
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais nav iespējams.
 
@@ -279,7 +279,7 @@ pagrieztas vai apgāztas otrādi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Skat., piemēram, 7.att.
@@ -305,7 +305,7 @@ Kāda ir abu uzrakstīto skaitļu summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka abu uzrakstīto skaitlu summa ir $174$.
 
@@ -346,7 +346,7 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ (tieši šā
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Pamatosim, ka cipari $2, 0, 2, 2$ tieši šādā secībā ir uzrakstīti piecās vietās.
@@ -415,7 +415,7 @@ izpildīja Raimonds?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā Vilnis uz $4$ jautājumiem var atbildēt $30$ sekundēs, tad $1$ minūtē 
 Vilnis atbild uz $8$ jautājumiem. Tātad stundas laikā Vilnis atbildēja uz 
@@ -452,7 +452,7 @@ Karlsons var iegūt tieši $2000$ tortes gabalus?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais nav iespējams.
 
@@ -500,7 +500,7 @@ figūras nedrīkst pārklāties vai iziet ārpus taisnstūra.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Jā, var, skat. 9.att. Tā kā katrā taisnstūrī ar izmēriem $3 \times 5$ ir tieši 
@@ -533,7 +533,7 @@ ar $7$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka diennaktī $207$ reizes stundu skaita un minūšu skaita starpība 
 dalās ar $7$.
@@ -581,7 +581,7 @@ monētas vērtība? Atrodi visus iespējamos variantus un pamato, ka citu nav!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka vienīgā iespējamā trešās monētas vērtība ir $9$ centi.
 
@@ -637,7 +637,7 @@ attiecīgi šo taišņu krustpunkti ar $y$ asi. Aprēķināt trijstūra $ABC$ la
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Punktu $B$ un $C$ koordinātas ir $(0;0)$ un $(0;2022)$. Tātad $BC=2022$. 
 Ievērojot, ka $y=x$, aprēķinām abu taišņu krustpunkta $x$ koordinātu: 
@@ -669,7 +669,7 @@ $2$ kūciņas. Vai iespējams, ka kādā brīdī uz galda bija tieši $2022$ kū
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais nav iespējams.
 
@@ -713,7 +713,7 @@ $F$. Pierādīt, ka $EF=FB$!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $AC$ ir kvadrāta diagonāle, tad 
 $\sphericalangle BCA=\sphericalangle DCA=90^{\circ}: 2=45^{\circ}$. No 
@@ -757,7 +757,7 @@ un pamato, ka citu nav!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļa $n$ dalītāju apzīmējam ar $d$, tad $n-4d=11$. Tā kā $d$ ir skaitļa $n$ 
 dalītājs, tad $n=k \cdot d$ un iegūstam, ka $kd-4d=11$ jeb $d(k-4)=11$, tas 
@@ -793,7 +793,7 @@ Kāds ir $3321.$ skaitlis šajā virknē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmais naturālais skaitlis, kura pieraksts sākas ar "$3321$", ir pats 
 skaitlis $3321$.
@@ -837,7 +837,7 @@ sporta preču veikalā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienriteņu, divriteņu un trīsriteņu skaitu apzīmējam attiecīgi ar $v, d$ un 
 $t$. No dotā iegūstam, ka $v+d+t=7$ un $v+2d+3t=13$. levērojot, ka 
@@ -880,7 +880,7 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $212$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais nav iespējams.
 
@@ -922,7 +922,7 @@ $CD=AF$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam $AE$ un $BD$ (skat. 11.att.). Četrstūris $ABDE$ ir paralelograms, jo 
 $AB \| DE$ un $AB=DE$. Tāpēc $BD=AE, \sphericalangle BAE=\sphericalangle BDE$ un 
@@ -966,7 +966,7 @@ aritmētisko progresiju!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā skaitļi $a; b; c$ veido aritmētisko progresiju, tad tos varam pierakstīt 
 kā $b-d; b; b+d$, kur $d$ ir diference. Izmantojot $b$ un $d$, izsakām arī 
@@ -1005,7 +1005,7 @@ rūtiņas ir neaizkrāsotas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Mazākais skaits rūtiņu, kas jāaizkrāso, ir $12$, skat., piemēram, 12.att.
@@ -1036,7 +1036,7 @@ pāra skaitļi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā pāra skaitļu ir vairāk nekā nepāra skaitļu, tad pirmais un pēdējais 
 uzrakstītais skaitlis ir pāra, jo tie pamīšus mainās - pāra skaitlis, nepāra 
@@ -1068,7 +1068,7 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $121$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka prasītais nav iespējams.
 
@@ -1103,7 +1103,7 @@ ja $S_{AMO}=S_{BKO}=8$ un $S_{KMO}=4$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $S_{AMK}=S_{BMK}=8+4=12$ (skat. 14.att.) un mala $MK$ ir kopīga, tad šo 
 trijstūru augstumi, kas novilkti attiecīgi no virsotnēm $A$ un $B$, ir vienādi.
@@ -1137,7 +1137,7 @@ jebkuru trīs izvēlēto skaitļu summa būtu pirmskaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais skaits dažādo naturālo skaitļu, ko var izvēlēties, ir $4$. Piemēram, 
 der skaitļi $1, 3, 7, 9$, jo jebkuru trīs skaitļu summa ir pirmskaitlis: 
@@ -1183,7 +1183,7 @@ vērtību (tā var būt atkarīga no $n$ vērtības).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šķirojam divus gadījumus.
 
@@ -1220,7 +1220,7 @@ ir koordinātu asu krustpunkts!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka punkta $A$ koordinātas ir $(0;50)$. Tātad nogriežņa $OA$ garums 
 ir $50$. Parabolas $y=x^{2}-2022x+47$ virsotnes $x$ koordināta ir 
@@ -1252,7 +1252,7 @@ iespējams, ka tā būs melna?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Pamatosim, ka tā nevar būt melna. Sākumā traukā A bija $2023$ bumbiņas - nepāra
@@ -1284,7 +1284,7 @@ Pierādīt, ka taisne $BH$ krusto nogriezni $CD$ tā viduspunktā!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle BAC=\sphericalangle HAD$ un 
 $AC=AD$, tad $\triangle ABC=\triangle AHD$ pēc pazīmes 
@@ -1317,7 +1317,7 @@ ekscentrisks, jo $19+78=97$. Cik pavisam ir ekscentrisku skaitļu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārrakstot doto sakarību $\overline{ab}+\overline{cd}=\overline{bc}$, iegūstam:
 
@@ -1362,7 +1362,7 @@ $ABC$ ir taisnleņķa trijstūris!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 
 Tā kā $\alpha+\beta+\gamma=180^{\circ}$, tad
@@ -1455,7 +1455,7 @@ iespējams, ka tā būs balta?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pamatosim, ka tā nevar būt balta. Sākumā traukā A bija $2022$ bumbiņas - pāra 
 skaitlis. Aplūkosim, kā atkarībā no paņemto bumbiņu krāsas mainās balto bumbiņu
@@ -1485,7 +1485,7 @@ garuma. Pierādīt, ka $S_{ACE}=S_{BDF}$!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai aprēķinātu $S_{ACE}$ no virsotnes $A$ novelkam nogriezni, kas paralēls $BC$
 un $EF$, no $C$ novelkam nogriezni, kas paralēls $AB$ un $ED$, no $E$ novelkam 
@@ -1537,7 +1537,7 @@ ka $R$ un $S$ ir savstarpēji pirmskaitļi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $1001$ dalās ar $11$, tātad doto skaitļu piekto pakāpju summa $S$
 dalās ar $11$. Pierādīsim, ka no tā izriet, ka arī $R$ jādalās ar $11$, līdz ar

@@ -9,7 +9,7 @@ No divām vienādām figūrām nogrieza pa vienādam gabalam. Vai var gadīties,
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Piemēram, ņemam divus kvadrātus no $3 \cdot 3$ rūtiņām; pirmajam izgriežam stūra rūtiņu, bet otrajam – malas vidējo rūtiņu. Protams, ka iegūtās figūras nav vienādas.
 
@@ -31,7 +31,7 @@ c) $1045$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Nē. No desmit pēc kārtas ņemtiem skaitļiem tieši $5$ ir nepāra skaitļi; tātad šo desmit skaitļu summa ir nepāra skaitlis, bet $1000$ ir pāra skaitlis.
 
@@ -57,7 +57,7 @@ Pietiek uzrādīt vienu piemēru.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tādi, piemēram, ir skaitļi $1$, $4$, $6$, $10$.
 
@@ -73,7 +73,7 @@ Vai vari pa apli uzrakstīt naturālos skaitļus no $1$ līdz $1000$ (katru vien
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Sadalīsim uzrakstītos skaitļus $200$ grupās pa pieciem pēc kārtas ņemtiem skaitļiem. Katrā no grupām jābūt vismaz diviem skaitļiem, kas dalās ar $3$; tātad kopā jābūt vismaz $400$ skaitļiem, kas dalās ar $3$, bet starp pirmajiem $1000$ skaitļiem ir tikai $333$ skaitļi, kas dalās ar $3$.
 
@@ -93,7 +93,7 @@ $1.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Izkrāsojam rūtiņas šaha galdiņa kārtībā; tad abi vieninieki atrodas uz vienas (teiksim, melnās) krāsas lauciņiem.
 
@@ -113,7 +113,7 @@ Katram naturālam skaitlim no $1$ līdz $1000$ aprēķināja tā ciparu reizinā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļu ciparu reizinājums ir nulle, ja kaut viens no tā cipariem ir nulle.
 
@@ -141,7 +141,7 @@ Taisnstūris sastāv no vienādām kvadrātiskām rūtiņām. Katrā no tām ier
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Visu kolonnu reizinājumu reizinājumam jābūt vienādam ar visu rindu reizinājumu reizinājumu (jo tie abi ir vienādi ar visu tabulā ierakstīto skaitļu reizinājumu).
 
@@ -163,7 +163,7 @@ $2.$zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atbilde parādīta $8$.zīmējumā.
 
@@ -183,7 +183,7 @@ Ap apaļu galdu sēž $1993$ rūķīši no $4$ ciltīm: voti, šilli, pukki un e
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo. Palūgsim piecelties kājās votus un šillus. Starp katriem diviem sēdošajiem tagad ir vismaz viena brīva vieta. Tā kā voti un šilli nesēdēja blakus, tad divu brīvu vietu blakus nav. Tāpēc aizņemtās un brīvās vietas atrodas pamīšus; tātad kopā jābūt pāra skaitam vietu. Pretruna.
 
@@ -203,7 +203,7 @@ $3.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Izkrāsojam virsotnes, kā parādīts $9$. zīm. Ar katru gājienu par $1$ palielinās gan melnajās, gan baltajās virsotnēs ierakstīto skaitļu summas. Sākuma melnajās virsotnēs ierakstīto skaitļu summa ir $2$, bet baltajās virsotnēs ierakstīto skaitļu summa ir $0$. Tātad tās nekad nekļūs vienādas, bet, ja visās virsotnēs ierakstītie skaitļi būtu vienādi, tad arī abām summām jābūt vienādām.
 
@@ -223,7 +223,7 @@ Plaknē novilktas $5$ taisnes un $1$ riņķa līnija. Vai var gadīties, ka tās
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Piemērs parādīts $10$. zīm.
 
@@ -252,7 +252,7 @@ d) $1991$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Nē, jo skaitlis dalās ar $5$.
 
@@ -280,7 +280,7 @@ Vai tā var būt?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt. No dotā seko, ka
 
@@ -309,7 +309,7 @@ $4.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, piemēram, tā, kā parādīts $11.$ zīm.
 
@@ -333,7 +333,7 @@ $5.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Izkrāsojam trijstūrīšus, kā parādīts $12.$ zīm. Ar katru gājienu par $1$ palielinās gan melnajos, gan baltajos trijstūrīšos ierakstīto skaitļu summas. Sākuma melnajos trijstūrīšos ierakstīto skaitļu summa ir $2$, bet baltajos trijstūrīšos ierakstīto skaitļu summa ir $0$. Tātad baltajos trijstūrīšos ierakstīto skaitļu summa nekad nekļūs lielāka par melnajos trijstūrīšos ierakstīto skaitļu summu, bet, ja visās virsotnēs ierakstītie skaitļi būtu vienādi, tad otrajai summai jābūt lielākai (balto trijstūru ir vairāk)
 
@@ -353,7 +353,7 @@ Dots, ka $\dfrac{x}{y}=\dfrac{9y}{x}$. Kāda var būt $\dfrac{x}{y}$ vērtība?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot doto vienādību, iegūstam
 
@@ -375,7 +375,7 @@ Uzzīmējiet kaut vienu deviņstūri, kam $6$ virsotnes atrodas uz vienas taisne
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 13. zīmējumu.
 
@@ -395,7 +395,7 @@ Desmitstūrim ir $4$ šauri leņķi. Vai var būt, ka visi tā leņķi mazāki p
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Ja visi desmitstūra leņķi mazāki par $180^{\circ}$, tad desmitstūris ir izliekts, un tā ārējo leņķu summa ir $360^{\circ}$.
 
@@ -415,7 +415,7 @@ Pierādiet, ka pēc $96$ gājieniem varēs atrast tādu $5 \cdot 5$ rūtiņu kva
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklējamā kvadrāta stūra rūtiņas iekrāsotas (skat. 14. zīm.).
 
@@ -441,7 +441,7 @@ Pa katru maršrutu autobuss kursē abos virzienos; Katrs maršruts drīkst satur
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrs maršruts iet pa augstākais vienu horizontāli un vienu vertikāli. Ja maršrutu skaits nepārsniedz $8$, tad atrastos vertikāle un horizontāle, pa kurām neiet neviens maršruts; uz šo ielu krustpunktu nevarētu aizbraukt.
 
@@ -459,7 +459,7 @@ Vienādojumam $ax^2+bx+c=0$ ir tieši divas dažādas saknes. Cik sakņu var bū
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja ņemam vienādojumu $x^2+3x+2=0$, tad otrajam vienādojumam $2x^2+3x+1=0$ arī ir $2$ saknes.
 
@@ -491,7 +491,7 @@ d) $n=1993$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Jā, jo $16=2\cdot 8$ un $15!$ satur abus šos reizinātājus.
 
@@ -519,7 +519,7 @@ Pierādiet, ka ar $*$ apzīmēto laukumu summa vienāda ar tā apgabala laukumu,
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $15.$ zīmējumu.
 
@@ -553,7 +553,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim mums nepieciešamu vienādību
 
@@ -583,7 +583,7 @@ Kāds lielākais zaudējumu skaits varēja būt "Daugavai"?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja "Daugava" saņēma $x$ punktus, tad visas citas komandas – ne vairāk kā $(x-1)$ punktus. Tā kā kopējais turnīrā izcīnīto punktu skaits ir $90$, tad
 $$
@@ -605,7 +605,7 @@ Vai skaitlis $2^{123}+1$ ir pirmskaitlis?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, jo $2^{123}+1=\left(2^{41}\right)^3+1^3$ dalās ar $2^{41}+1$.
 
@@ -627,7 +627,7 @@ Pierādīt, ka $ABCD$ ir paralelograms.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 16. zīm.
 
@@ -659,7 +659,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No nevienādības par vidējo aritmētisko un vidējo ģeometrisko seko, ka
 $$
@@ -689,7 +689,7 @@ Pietiek ar vienu piemēru.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 17. zīm.
 
@@ -713,7 +713,7 @@ Kāds ir mazākais iespējamais draudzību skaits?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ir iespējams, ka ir $(n-1)$ draudzība. Piemēram, ja viens skolēns draudzējas ar visiem pārējiem, tad uzdevuma nosacījumi izpildās.
 
@@ -737,7 +737,7 @@ Pierādiet, ka $\angle BCA = \angle BDA$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $18$. zīm.
 
@@ -767,7 +767,7 @@ c) $n^2 + 1$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dots, ka $n=5k+3$. Tātad
 
@@ -793,7 +793,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstīsim nevienādību starp vidējo aritmētisko un vidējo ģeometrisko skaitļiem $1, 2, \ldots, n-1$:
 
@@ -825,7 +825,7 @@ Pierādiet, ka arī piektā diagonāle paralēla kādai malai.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $19.$ zīm.
 
@@ -863,7 +863,7 @@ Kāds ir mazākais iespējamais draudzību skaits?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Attēlosim skolēnus ar punktiem, bet draudzēšanos ar līnijām. Kā redzams $20.$ zīm., meklējamais skaits var būt $2n-4$.
 
@@ -891,7 +891,7 @@ $\sin 1993x = \sin 1993y$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $\sin x=\sin y=0$, tad $\sin nx=\sin ny=0$, un prasītais pierādīts.
 
@@ -919,7 +919,7 @@ Atrodiet visu tādu četrciparu skaitļu summu, kam pirmais cipars vienāds ar p
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šī summa ir vienāda ar
 
@@ -939,7 +939,7 @@ Trijstūra iekšpusē ņemts punkts. Pierādīt, ka tā attālumu summa līdz ma
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā punkta attālumus līdz trijstūra malām apzīmēsim ar $d_1,d_2,d_3$ un atbilstošās trijstūra malas ar $a_1,a_2,a_3$. Tad trijstūra laukumu var aprēķināt pēc šādām formulām:
 
@@ -979,7 +979,7 @@ Vai eksistē izliekts daudzskaldnis ar divdesmit piecām skaldnēm, kas visas ir
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā eksistē. Piemēram, saliekam ar pamatiem kopā divas vienādas regulāras $10$-stūra piramīdas un izveidojam mazus četrstūrveida šķēlumus pie katras otrās "pamatu gredzena" virsotnes.
 
@@ -997,7 +997,7 @@ Klasē ir $n$ ($n \ge 4$) skolēnu; daži no tiem draudzējas. Katriem diviem sk
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kā redzams $21$. zīm., draudzību skaits var būt $n-1+\left[\dfrac{n}{2}\right]$.
 

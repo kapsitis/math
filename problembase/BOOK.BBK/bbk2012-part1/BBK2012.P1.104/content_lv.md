@@ -9,7 +9,7 @@ Atrast skaitļu $a_{1989}$ un $a_{1990}$ lielāko kopīgo dalītāju.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atzīmēsim lielākā kopīgā dalītāja pamatīpašību:
 

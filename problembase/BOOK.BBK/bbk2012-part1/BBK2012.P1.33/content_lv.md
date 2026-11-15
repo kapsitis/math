@@ -6,7 +6,7 @@ $30$ gabali ar garumu $3$ cm katrs un $11$ gabali ar garumu $6$ cm katrs?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Visu daļu garumi dalās ar $3$, bet $50$ ar $3$ nedalās.
 

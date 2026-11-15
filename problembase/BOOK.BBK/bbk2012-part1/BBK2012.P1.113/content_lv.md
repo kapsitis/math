@@ -8,7 +8,7 @@ Pierādiet, ka $a+b$ ir naturāla skaiţ̦a kvadrāts.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidosim doto vienādību formā $a+b=\frac{a b}{c}$. Apzīmēsim $(a, b)=d$; tad $a=a_{1}d$, $b=b_{1}d$, 
 $\left(a_{1}, b_{1}\right)=1$. Iegūstam

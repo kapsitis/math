@@ -17,7 +17,7 @@ $B$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzdevuma nosacījumiem seko: pieskaitot skaitlim $8002$ skaitli $B$ divas 
 reizes, iegūst vismaz $10\ 000$. Tas ir iespējams tikai, ja $B=999$ (ja 
@@ -47,7 +47,7 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ Ar $5$ gājieniem.
 
@@ -86,7 +86,7 @@ griežot iegūtā trijstūra malu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 1.zīm.
 
@@ -119,7 +119,7 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ņemt, piemēram, $13$ kartiņas ar skaitļiem
 
@@ -153,7 +153,7 @@ krāsas amēba. Vai var gadīties, ka traukā paliek tikai viena amēba?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar katru pārvēršanos **katras** krāsas amēbu skaits mainās par $1$. Tāpēc pēc 
 $1.$ pārvēršanās **katras** krāsas amēbu daudzums būs nepāra skaitlis, pēc $2.$
@@ -180,7 +180,7 @@ kārtībā) tā, ka $AB=1,\ BC=3,\ CD=5,\ DE=7,\ EA=9$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar, Ejot no $A$ uz $B$, no $B$ uz $C$, no $C$ uz $D$, no $D$ uz $E$ un 
 no $E$ uz $A$, katru nostaigāto taisnes gabalu nostaigā pāra skaitu reižu (cik 
@@ -209,7 +209,7 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Eksistē divi cilvēki $x$ un $y$, kuri pazīst viens otru. Ja $u$ - patvaļīgs 
 cilvēks, tad eksistē tāds $z$, kas pazīst $x,\ y$ un $u$; tātad $x,\ y,\ z$ 
@@ -243,7 +243,7 @@ $n=11$, **(B)** $n=13$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē. Vienā kolonnā ar $4$ var atrasties tikai $5$, un vienā kolonā ar 
 $11$ arī var atrasties tikai $5$. Bet $5$ nevar reizē atrasties $2$ kolonnās.
@@ -275,7 +275,7 @@ viena santīma monētās?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Pēdējā maiņā būtu jāiegūst četras $1$ santīma monētas, samainot vienu $4$ 
 santīmu monētu; bet tādas vispār nav.
@@ -300,7 +300,7 @@ dalītājs. Kāds var būt šis mazākais skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $1;\ 3;\ 9$.
 
@@ -338,7 +338,7 @@ Plaknē atzīmēti $5$ punkti. Cik var būt trijstūru, kam visas virsotnes atro
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja visi $5$ punkti ir uz vienas taisnes, ir $0$ trijstūru.
 
@@ -379,7 +379,7 @@ no iespējām pastāv īstenībā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzliekam monētas uz kausiem pa $4$. Ja līdzsvara nav, ir divu dažādu masu 
 monētas. Ja līdzsvars ir, otrajā svēršanā uzliekam uz kausiem pa $2$ monētām no
@@ -411,7 +411,7 @@ skaitlis nebūtu divu citu izvēlēto skaitļu starpība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; piemēram, izvēlamies skaitļus no $100$ līdz $200$ ieskaitot.
 
@@ -443,7 +443,7 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklējamo skaitli apzīmēsim ar $n$. Tā **iespējami** pozitīvie dalītāji 
 (dilstošā secībā) ir $n; \frac{n}{2}; \frac{n}{3}; \frac{n}{4}; \ldots$
@@ -482,7 +482,7 @@ piezvanīja $B,\ B$ piezvanīja $C$ un $C$ piezvanīja $A$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katra pļāpa zvanījusi vismaz $1$ reizi un ne vairāk kā $(n-1)$ reizes; dažādu 
 iespējamu zvanīšanu daudzumu tātad ir $n-1$. Pļāpu ir $n$; ievērojam, ka 
@@ -516,7 +516,7 @@ operāciju palīdzību. Atrast $A$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $x^{4}+64=\left(x^{2}-4x+8\right)\left(x^{2}+4x+8\right)$.
 
@@ -547,7 +547,7 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a>b$, uzvar Jānis. Apzīmēsim $a=b+c,\ c>0$. Jānis sadala savu nogriezni 
 gabalos $b+\frac{2c}{3}, \frac{c}{6}, \frac{c}{6}$. Tad daļa ar garumu 
@@ -584,7 +584,7 @@ ar $4$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Apskatām $4$ pēc kārtas uzrakstītus skaitļus $a,\ b,\ c,\ d$. Tā kā $a+b+c$
 un $b+c+d$ abi dalās ar $4$, tad $a$ un $d$ jādod vienādi atlikumi, dalot ar 
@@ -622,7 +622,7 @@ Vai taisnstūri ar izmēriem **(A)** $8 \times 8$, **(B)** $12 \times 12$,
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, jo $64$ nedalās ar $3$
 
@@ -656,7 +656,7 @@ kartiņas ar skaitli $13$. Cik kartiņu ir Maijai?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To, ka kartiņa ar skaitli $x$ ir Juliatai resp. Maijai, pierakstīsim kā 
 $x \sim j$ resp. $x \sim m$. Pēc dotā $13 \sim j$. Apskatīsim jebkuru $x$, kur 
@@ -701,7 +701,7 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To, ka var būt $6$ cilvēki, skat. 3.zīm.
 
@@ -735,7 +735,7 @@ $ABCD$ - kvadrāts (protams, iegūto punktu skaits tad būs mazāks).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\Delta KDC$ un $\triangle KDB$ ir kopīgs pamats $KD$ un vienādi augstumi
  pret šo pamatu, tad $\mathbf{L}(\mathbf{KDC})=\mathbf{L}(\mathbf{KDB})$. 
@@ -782,7 +782,7 @@ $$\left\{\begin{array}{l}
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārrakstām sistēmu formā
 
@@ -821,7 +821,7 @@ Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzdevumā dotajām pēdējām $4$ prasībām seko, ka $2x-5$ dalās ar $5$; ar $7$; 
 ar $9$; ar $11$ (piemēram, $2x-5=2(x+1)-7$ dalās ar $7$ utml.). Tā kā 
@@ -856,7 +856,7 @@ spēlējot?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzvar Gunārs.
 
@@ -889,7 +889,7 @@ cipari veido pirmskaitli, un visi šie $11$ pirmskaitļi ir dažādi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visiem cipariem, izņemot pirmo, jābūt $1;\ 3;\ 7;\ 9$. No šiem cipariem var 
 sastādīt $10$ pirmskaitļus $11;\ 13;\ 17;\ 19;\ 31;\ 37;\ 71;\ 73;\ 79;\ 97$. 
@@ -945,7 +945,7 @@ Atbildiet uz šo jautājumu, ja **(A)** $n=5$; **(B)** $n=2006$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē. Skat., piem., 5.zīm.
 
@@ -975,7 +975,7 @@ $\frac{1}{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Varam pieņemt, ka $a$ ir mazākais no skaitļiem $a;\ b;\ c$. Tad 
 $\frac{a}{bc+1} \leq \frac{a}{a^{2}+1}$. Nevienādība 
@@ -998,7 +998,7 @@ $\triangle ABC$ augstumu krustpunkts.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $P$ ir $\triangle ABC$ augstumu krustpunkts, tad (6.zīm.)
 
@@ -1042,7 +1042,7 @@ noskaidrot, cik ir viltoto monētu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Salīdzinām divas monētas $A$ un $B$. Pastāv divas iespējas.
 
@@ -1075,7 +1075,7 @@ ar kuru dalās tieši viens no šiem skaitļiem.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim apskatāmos skaitļus ar $n;\ n+1;\ n+2;\ n+3;\ n+4;\ n+5$. Ja $n$ (un 
 tātad arī $n+5$) nedalās ar $5$, tad tieši viens no apskatāmajiem skaitļiem 
@@ -1105,7 +1105,7 @@ būtu apdraudētas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ vajag vismaz $k=\left\lceil\frac{2n-1}{3}\right\rceil$ 
 lēdijas, un ar šo daudzumu pietiek.
@@ -1143,7 +1143,7 @@ ir $S$. Pierādīt, ka $\sphericalangle MSK=\sphericalangle NSK$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam perpendikulu $KT$ pret $AB$. Tā kā 
 $\sphericalangle BTK=\sphericalangle BMK$, tad ap $BTMK$ var apvilkt riņķa 
@@ -1176,7 +1176,7 @@ funkcija $f(x)-x^{2}-x$ ir augoša
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** pieņemsim, ka $0 \leq x<y<1$. No dotā $f(y)-3 y>f(x)-3x$, tāpēc 
 $f(y)-f(x) \geq 3(y-x)$. Tā kā $0<x+y+1<3$, tad $f(y)-f(x) \geq(x+y+1)(y-x)$ 
@@ -1211,7 +1211,7 @@ Vai zēni nesarunājoties var noskaidrot, kādi skaitļi ir uz viņu pierēm?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā visi trīs skaitļi nav dažādi, apzīmēsim tos ar $x;\ x;\ y$ (varbūt 
 $x=y$). Reizinājums $x \cdot x \cdot y=x^{2}y$ ir vesela skaitļa kvadrāts tad 
@@ -1240,7 +1240,7 @@ ir $0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatāmo krustpunktu abscisas ir vienādojuma $x^{4}-2x^{2}+7=ax+b$ saknes (ja 
 $y=ax+b$ ir novilktās taisnes vienādojums; skaidrs, ka taisne **nav** 
@@ -1273,7 +1273,7 @@ nevienā komisijā nevienam deputātam nav aizspriedumu ne pret vienu citu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Var gadīties, ka ir $11$ deputāti, kuru "aizspriedumu struktūra" 
 attēlota 11.zīm. (zīmējumā no katra punkta iziet bultiņas uz $5$ tam sekojošiem
@@ -1314,7 +1314,7 @@ naturālu dalītāju?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārbaude parāda, ka der $p=2;\ 3;\ 5$ un neder $p=7;\ p=11$. Pieņemsim, ka 
 $p>11$. Ja $p=3k+1$, tad $p^{2}=9k^{2}+6k+1$; ja $p=3k+2$, tad 
@@ -1340,7 +1340,7 @@ punktos $Q$ un $S$. Pierādiet, ka $PS \perp QR$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.NOL.2006.12.4A.png)
 
@@ -1373,7 +1373,7 @@ Kurām $n$ vērtībām, beidzot šīs darbības, visas spuldzes būs ieslēgtas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n=2^{k},\ k=0;\ 1;\ 2;\ \ldots$.
 

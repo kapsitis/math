@@ -4,7 +4,7 @@ Dots, ka $a-b$ dalās ar $5$, un $a+b$ dalās ar $5$. Pierādiet, ka abi skaitļ
 $a$ un $b$ dalās ar $5$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $2a = (a-b)+(a+b)$ dalās ar $5$. Tā kā $(2,5)=1$, tad $a$ dalās ar $5$. 
 Līdzīgi pierāda, ka $b$ dalās ar $5$.

@@ -20,7 +20,7 @@ $\overline{xzy}<\overline{yaz}<\overline{yax}<\overline{zxa}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka šajā virknē katrs nākamais skaitlis ir lielāks nekā 
 iepriekšējais. Lielāks ir tas skaitlis, kuram lielāks ir vecākās šķiras cipars.
@@ -59,7 +59,7 @@ labajā pusē piezīmējot klāt vienu 2.att. doto figūru.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Ievērojam, ka, lai iegūtu nākamo figūru, iepriekšējai figūrai tiek 
        pievienoti $4$ kvadrāti. Pirmā figūrai sastāv no $5$ kvadrātiem un vēl 
@@ -113,7 +113,7 @@ Sagriez 5.att. doto figūru divpadsmit 6.att. figūrās!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 7.att.
 
@@ -140,7 +140,7 @@ $11$, **b)** $12$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Jā, prasītais ir iespējams, piemēram, skat. 8.att.
 
@@ -181,7 +181,7 @@ Atrodi tādu trīsciparu skaitli, kam vienlaicīgi izpildās tālāk dotie nosac
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja meklētajam skaitlim pieskaitīsim $1$, tad iegūtais skaitlis dalīsies ar 
 $2; 3; 4; 5; 6; 7; 8$ (bez atlikuma). Ievērojam, ka der skaitlis 
@@ -212,7 +212,7 @@ Aprēķini iegūtās figūras perimetru!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrātu malu garumi attiecīgi ir $1~\mathrm{m}$, $2~\mathrm{m}$ un 
 $3~\mathrm{m}$. Ievērojam, ka lauztās līnijas $ABCDE$ garums ir tāds pats kā 
@@ -239,7 +239,7 @@ Atrodi skaitļa $1^{3}+3^{3}+5^{3}+\cdots+101^{3}$ pēdējo ciparu!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai atrastu dotās summas pēdējo ciparu, sagrupējam saskaitāmos un nosakām 
 katras grupas summas pēdējo ciparu:
@@ -283,7 +283,7 @@ pagriezt.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 13.att.
 
@@ -310,7 +310,7 @@ $14$, **b)** $15$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Jā, prasītais ir iespējams, piemēram, skat. 14.att.
 
@@ -346,7 +346,7 @@ dalās ar $8$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis dalās ar $8$, ja tā pēdējo trīs ciparu veidotais skaitlis dalās ar 
 $8$. Pieņemsim, ka visi skaitļi $ESE,\ ERE,\ EGS$ un $EZE$ dalās ar $8$.
@@ -401,7 +401,7 @@ $(14; -2006)$ un krusto doto taisni punktā, kura abscisa ir $0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklētās taisnes vienādojums ir formā $=kx+b$, kur 
 $k \in \mathbb{R}, b \in \mathbb{R}$. Sākumā atrodam ordinātu punktam, kurā 
@@ -430,7 +430,7 @@ ka iegūtās izteiksmes vērtība ir **a)** $4$; **b)** $1$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Jā, iegūtās izteiksmes vērtība var būt $4$. Apskatām četrus pēc kārtas 
        esošus naturālus nepāra skaitļus $2n-1;\ 2n+1;\ 2n+3;\ 2n+5$. Ievērojam, ka
@@ -470,7 +470,7 @@ trīs 16.att. figūrām un divpadsmit 17.att. figūrām? Figūras drīkst pagrie
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Nē, nevar. Dotajā figūrā kopā ir $60$ rūtiņas, bet vienā figūrā ir $4$ 
        rūtiņas. Tātad, ja uzdevuma prasības varētu izpildīt, figūra būtu 
@@ -515,7 +515,7 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākā iespējamā $K$ vērtība ir $n-1$, atbilstošu tabulas aizpildījumu skat. 
 20.att., kur blakus rūtiņās (blakus rūtiņas ir rūtiņas, kurām ir kopīga mala) 
@@ -550,7 +550,7 @@ reizes mazāka nekā skaitļa $n$ ciparu summa!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der, piemēram, skaitlis $n=909091$ (ciparu summa ir $28$), jo $11n=10000001$ 
 (ciparu summa ir $2$) un $\frac{28}{2}=14>11$.
@@ -584,7 +584,7 @@ stundām vairāk nekā atpakaļceļā!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $x$ apzīmējam upes straumes ātrumu. Izmantojot uzdevumā doto, aizpildām 
 tabulu.
@@ -628,7 +628,7 @@ lielākais naturālais skaitlis, kuru nevar iegūt uz kalkulatora ekrāna?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka lielākais skaitlis, ko nevar iegūt uz ekrāna, ir $23$.
 
@@ -670,7 +670,7 @@ Aprēķini trijstūra $ABC$ leņķus!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūris $ABM$ ir vienādsānu, jo $AB=BM$ (pēc dotā), tāpēc apzīmējam 
 $\sphericalangle BAM=\sphericalangle BMA=2 \alpha$ un pēc bisektrises 
@@ -713,7 +713,7 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākā iespējamā $K$ vērtība ir $3n-1$.
 
@@ -755,7 +755,7 @@ no iespējām pastāv īstenībā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirmajā svēršanā uz katra svaru kausa uzliekam pa $3$ monētām. lespējami divi 
 gadījumi.
@@ -793,7 +793,7 @@ mazāks nekā $30~\mathrm{cm}$. Kāds var būt trijstūra sānu malas garums?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trijstūra sānu malas garumu apzīmējam ar $x$. Tad no dotā iegūstam, ka 
 jāizpildās nevienādībai
@@ -828,7 +828,7 @@ $\frac{1}{1 \cdot 3}+\frac{1}{3 \cdot 5}+\frac{1}{5 \cdot 7}+\ldots+\frac{1}{201
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka visiem naturāliem skaitļiem $n$ izpildās vienādība 
 $\frac{1}{(2n-1)(2n+1)}=\frac{1}{2}\left(\frac{1}{2n-1}-\frac{1}{2n+1}\right)$.
@@ -872,7 +872,7 @@ $\omega_{2}$ diametru garumu attiecību $\frac{AB}{AC}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Simetrijas dēļ $CD=CE$ un pēc dotā $BC=2CD$ (skat. 23.att.). Pēc krustisku 
 hordu īpašības iegūstam, ka $BC \cdot CA=CD^{2}$ jeb $2CD \cdot CA=CD^{2}$, no 
@@ -882,7 +882,7 @@ $\frac{AB}{AC}=\frac{\frac{5}{2} CD}{\frac{1}{2} CD}=5$.
 
 ![](LV.NOL.2020.9.3A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $O_{1}D=O_{1}A=R$ un $O_{2}A=O_{2}C=r$, kur $O_{1}$ un $O_{2}$ ir 
 attiecīgi riņķa līniju $\omega_{1}$ un $\omega_{2}$ centri (skat. 23.att.). 
@@ -935,7 +935,7 @@ atrastos tieši $k$ citas kartītes. Vai kartītes var salikt prasītajā veidā
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Jā, kartītes var salikt, piemēram, skat. 24.att.
 
@@ -985,7 +985,7 @@ tabulā ierakstīto skaitļu summa ir kāda naturāla skaitļa kubs!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkojam tādas divas rūtiņas, kas ir simetriskas attiecībā pret galveno 
 diagonāli, kas iet caur visām rūtiņām, uz kurām rakstīts skaitlis $N$. Ja viena
@@ -998,7 +998,7 @@ izdarot ar visiem simetriskajiem rūtiņu pāriem, iegūstam kvadrātu, kurā vi
 $N \cdot N=N^{2}$ rūtiņās ierakstīts skaitlis $N$, tātad visu kvadrātā 
 ierakstīto skaitļu summa ir $N^{2} \cdot N=N^{3}$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ievērojam, ka vismazākā ir pirmajā rindā ierakstīto skaitļu summa, bet katrā 
 nākamajā tā ir par $N$ lielāka nekā iepriekšējā rindā. Ja pirmās rindas skaitļu
@@ -1026,7 +1026,7 @@ $$\frac{1^{2}}{1 \cdot 3}+\frac{2^{2}}{3 \cdot 5}+\cdots+\frac{n^{2}}{(2n-1)(2n+
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātiskās indukcijas metodi.
 
@@ -1068,7 +1068,7 @@ kas veido ģeometrisko progresiju?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, eksistē, piemēram, trijstūris ar malu garumiem $4,\ 6$ un $9$ , jo šie 
 skaitļi apmierina trijstūra nevienādību: $4+6>9,\ 4+9>6$ un $6+9>4$ un tie veido
@@ -1092,7 +1092,7 @@ $\frac{AB}{AC}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Simetrijas dēļ $CD=CE$ (skat. 27.att.) un pēc dotā $BF=2CD$. Pēc 
 pieskares-sekantes īpašības iegūstam, ka $BF^{2}=BC \cdot AB$ jeb 
@@ -1102,7 +1102,7 @@ ka $\frac{AB}{AC}=4$.
 
 ![](LV.NOL.2020.10.3A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $O_{1}D=O_{1}A=R$ un $O_{2}A=O_{2}C=r$, kur $O_{1}$ un $O_{2}$ ir 
 attiecīgi riņķa līniju $\omega_{1}$ un $\omega_{2}$ centri (skat. 27.att.). 
@@ -1144,7 +1144,7 @@ ja **a)** $N=6$, **b)** $N=7$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Pieņemsim, ka ir izdevies salikt kartītes rindā tā, kā prasīts. 
 Sanumurēsim tās pēc kārtas ar naturāliem skaitļiem no $1$ līdz $12$ (skat. 
@@ -1186,7 +1186,7 @@ tabulā ierakstīto skaitļu summa ir kāda naturāla skaitļa kvadrāts!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkojam kādas divas rūtiņas, kas ir simetriskas attiecībā pret galveno 
 diagonāli, kas iet caur visām rūtiņām, uz kurām rakstīts skaitlis $2N-1$. Ja 
@@ -1204,7 +1204,7 @@ ierakstīto skaitļu summa ir naturāla skaitļa $\frac{k\left(k^{2}+1\right)}{2
 kvadrāts. Tā kā naturālu nepāra skaitļu ir bezgalīgi daudz, tad arī derīgu $N$ 
 vērtību ir bezgalīgi daudz.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ievērojam, ka vismazākā skaitļu summa ir pirmajā rindā, bet katrā nākamajā 
 rindā summa ir tieši par $2N$ lielāka. Ja pirmās rindas rūtiņās ierakstīto 
@@ -1241,7 +1241,7 @@ $17$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātiskās indukcijas metodi.
 
@@ -1264,7 +1264,7 @@ Tā kā katrs saskaitāmais dalās ar $17$, tad arī summa dalās ar $17$.
 ir patiess, ja $n=k$, izriet, ka apgalvojums ir patiess arī $n=k+1$, secinām, 
 ka apgalvojums ir patiess visām naturālām vērtībām.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apskatām doto izteiksmi pēc moduļa $17$:
 
@@ -1284,7 +1284,7 @@ piecinieki.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam aritmētiskās progresijas diferenci ar $d$ un izvēlēsimies tādu 
 naturālu skaitli $n$, kuram $d<10^{n}$. Aplūkojam $10^{n}$ pēc kārtas sekojošus
@@ -1313,7 +1313,7 @@ $\omega_{1}$ diametrs $AC$ un no punkta $C$ - pieskare $CD$ pret $\omega_{2}$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $O_{1}$ un $O_{2}$ apzīmējam attiecīgi riņķa līniju $\omega_{1}$ un 
 $\omega_{2}$ centrus, bet ar $K$ - riņķa līniju pieskaršanās punktu (skat. 
@@ -1332,7 +1332,7 @@ Tātad $AC^{2}=CD^{2}$ un līdz ar to $AC=CD$.
 
 ![](LV.NOL.2020.11.3A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam $O_{1}A=O_{1}C=r$ un $O_{2}B=O_{2}D=R$, kur $O_{1}$ un $O_{2}$ ir 
 attiecīgi riņķa līniju $\omega_{1}$ un $\omega_{2}$ centri (skat. 32.att.). 
@@ -1370,7 +1370,7 @@ vērtību var pieņemt lielākais no šiem desmit skaitļiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais no šiem skaitļiem var būt $13$, tad skaitļi var būt izvietoti, 
 piemēram, kā parādīts 33.att. Pierādīsim, ka lielākais skaitlis nevar būt 
@@ -1390,7 +1390,7 @@ Atrisināt veselos skaitļos vienādojumu $n^{3}=(n-1)^{3}+(n-2)^{3}+(n-3)^{3}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ekvivalenti pārveidojam doto vienādojumu:
 
@@ -1427,7 +1427,7 @@ $x_{n}=2^{n}+3^{n}-4^{n}$ visiem naturāliem $n$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantossim matemātiskās indukcijas metodi.
  
@@ -1471,7 +1471,7 @@ iespējas vairāk dažādi skaitļi!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **a)** Skat., piemēram, 35.att., kur figūras labajā pusē norādītas atbilstošajā
 rindā esošo skaitļu summas, visu figūrā ierakstīto skaitļu summa ir 
@@ -1505,7 +1505,7 @@ nogriežņi $AD$ punktā $G$. Pierādīt, ka $AG=BF$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka $\triangle ABF=\triangle EGA$ (skat. 37.att.).
 
@@ -1564,7 +1564,7 @@ stāvam un tur apstājas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms ar liftu vajag uzbraukt $100$ stāvus uz augšu līdz $101.$ stāvam, to 
 var izdarīt atkārtoti ievadot $n=100$ un spiežot <uz augšu>, vismaz vienā no 
@@ -1615,7 +1615,7 @@ skaitļiem $x^{4}, y^{4}, x^{4}+y^{4}+1$ dalās ar $13$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām, kādi atlikumi rodas, ja naturāla skaitļa kvadrātu dala ar $13$.
 

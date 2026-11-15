@@ -5,7 +5,7 @@ dalās ar $27$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka izpildās vienādība
 

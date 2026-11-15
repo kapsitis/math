@@ -4,7 +4,7 @@ How many integer triples $(x, y, z)$ satisfy the conditions
 $1 < x \le y \le z$ and $xyz = 2024$?
 
 
-## Solution 1
+## Solution-1
 
 *Answer:* 16.
 
@@ -28,7 +28,7 @@ Consider all possibilities in order of increasing $x$.
 
 Therefore, in total there are $8 + 5 + 2 + 1 = 16$ such triples.
 
-## Solution 2
+## Solution-2
 
 *Answer:* 16.
 
@@ -47,7 +47,7 @@ Let us consider all possibilities in order of increasing $x$.
 Therefore, in total there are $8 + 5 + 2 + 1 = 16$ such triples.
 
 
-## Solution 3
+## Solution-3
 
 *Answer:* 16.
 
@@ -81,7 +81,7 @@ Find all possible values for the perimeter of the square.
 ![](EE.LHT.2024S.9_10.2.png)
 
 
-## Solution 1
+## Solution-1
 
 **Answer:** $7.5~\mathrm{cm}$ and $12.8~\mathrm{cm}$.
 
@@ -108,7 +108,7 @@ Let the points where the small rectangles meet the bottom side of the square be 
 Hence, the bottom right rectangle has dimensions $\frac{8}{15}x$ and $\frac{5}{16}x$. If the first dimension is $1$ cm, then $x = \frac{15}{8}$ cm and the perimeter of the square in this case is $\frac{15}{2}$ cm, i.e., $7.5$ cm. If the second dimension is $1$ cm, then $x = \frac{16}{5}$ cm and the perimeter of the square in this case is $\frac{64}{5}$ cm, i.e., $12.8$ cm.
 
 
-## Solution 2
+## Solution-2
 
 Let the points where the small rectangles meet the bottom side of the square
 be $A, B, C, D, E$ and the points on the right side be $E, F, G, H$, in this order
@@ -141,7 +141,7 @@ Thus, the dimensions of the bottom right rectangle are $\frac{8}{15}x \times \fr
 We call a positive integer $n$ *interesting* if both the digit sum of $n$ and the digit sum of $n+1$ are perfect squares, and $n$ and $n+1$ have the same number of digits.
 Find all positive integers $k$ for which there exists an interesting $k$-digit number.
 
-## Solution 1
+## Solution-1
 
 *(Aleksei Ganyukov)*
 
@@ -177,7 +177,7 @@ In the following written addition, different letters correspond to different dig
 
 Gardener Andres has as many tomato seedlings as the largest possible sum in this addition; he wants to keep as many seedlings as the smallest possible sum. He plans to sell the rest of the plants and use the money to buy apple or pear trees, which are $10$ times more expensive than tomato seedlings. How many trees can Andres buy?
 
-## Solution 1
+## Solution-1
 
 *Answer:* 666.
 
@@ -205,7 +205,7 @@ Now the unused digits are $3, 4, 6, 7, 8, 9$. Suppose there is a carry from the 
 
 So Andres wants to sell $9340 - 2680 = 6660$ tomato plants, and for this he could buy $666$ apple or pear trees.
 
-## Solution 2
+## Solution-2
 
 The smallest sum can also be reached without using the unsupported argument that all digits are used. As shown in solution 1, $T=0$, $N=5$, $P=1$ and $O=2$. If there were a carry from the tens to the hundreds, we would form the system
 
@@ -228,7 +228,7 @@ has an even number at the beginning and an odd one at the end. This contradictio
 
 Given rectangle $ABCD$. The angle bisector of $\sphericalangle CAD$ cuts the side $CD$ at point $L$. Point $M$ is the midpoint of segment $AL$. Line $DM$ intersects lines $AC$ and $AB$ at points $E$ and $F$, respectively. It is known that the lengths of segments $AE$ and $AF$ are equal. Prove that $ABCD$ is a square.
 
-## Solution 1
+## Solution-1
 
 Let $\sphericalangle DAL = \sphericalangle LAC = \alpha$ (see Figure 2), then
 
@@ -252,13 +252,13 @@ Thus, $\alpha = \sphericalangle MDA = \frac{180^\circ - 135^\circ}{2} = 22.5^\ci
 
 Since the diagonal of rectangle $ABCD$ bisects the angle, $ABCD$ is a square.
 
-## Solution 2
+## Solution-2
 
 Let $\sphericalangle MAD = \sphericalangle MAE = \alpha$. The center of the circumcircle of the right triangle $ADL$ is at the midpoint $M$ of its hypotenuse, so $|MD| = |MA|$, i.e., triangle $MAD$ is isosceles with apex angle at $A$ (see Figure 4). Thus, also $\sphericalangle MDA = \alpha$. By the exterior angle property in triangle $MAD$, we have $\sphericalangle AME = \sphericalangle MAD + \sphericalangle MDA = 2\alpha$; in triangle $MAE$ the same property gives $\sphericalangle AEF = \sphericalangle MAE = 3\alpha$.
 
 Since $|AE| = |AF|$, triangle $AEF$ is isosceles with apex angle at $A$. Therefore, also $\sphericalangle AFE = 3\alpha$ and $\sphericalangle EAF = 180^\circ - 6\alpha$. We get the equation $2\alpha + (180^\circ - 6\alpha) = 90^\circ$, which gives $\alpha = 22.5^\circ$. Therefore, $\sphericalangle DAC = 45^\circ$, i.e., the diagonal of rectangle $ABCD$ bisects the angle, so $ABCD$ is a square.
 
-## Solution 3
+## Solution-3
 
 Since $|AE| = |AF|$, triangle $AEF$ is isosceles with apex angle at $A$ (see Figure 5). Let $\sphericalangle AEF = \sphericalangle AFE = \beta$. Note that triangles $MAF$ and $MLD$ are congruent by the SAS criterion. Indeed, $\sphericalangle FMA = \sphericalangle DML$ (vertical angles), $\sphericalangle MAF = \sphericalangle MLD$ (alternate interior angles), and by assumption $|MA| = |ML|$. Therefore $|AF| = |DL|$, and thus quadrilateral $ADLF$ is a rectangle. Since the diagonals of a rectangle are equal and bisect each other, $|MA| = |MF|$, so triangle $MAF$ is isosceles with apex at $M$. Thus $\sphericalangle MAF = \sphericalangle MFA = \beta$.
 
@@ -270,7 +270,7 @@ Since $\sphericalangle EAF = 180^\circ - 2\beta$, we have $\sphericalangle MAE =
 
 $\beta + (3\beta - 180^\circ) = 90^\circ$, from which $\beta = 67.5^\circ$. Therefore $\sphericalangle BAC = 180^\circ - 2 \cdot 67.5^\circ = 45^\circ$, i.e., the diagonal of rectangle $ABCD$ bisects the angle, so $ABCD$ is a square.
 
-## Solution 4
+## Solution-4
 
 Let $\sphericalangle DAL = \sphericalangle LAC = \alpha$. Then $\sphericalangle FAE = 90^\circ - 2\alpha$, and since
 
@@ -287,7 +287,7 @@ as $|AE| = |AF|$. On the other hand, since $M$ is the midpoint of the hypotenuse
 
 There are $n$ cities in a kingdom. At the start, there is no road network; there are no roads at all. The king wants to improve the situation. To this end, he makes $n-1$ moves according to the following rule: on the $i$-th move, he chooses two cities whose population difference is divisible by $i$, and has a two-way direct road built between these cities. Is it possible for the king to choose the cities in such a way that, regardless of the number of residents in each city, the built road network allows travel from any city to any other city? (We assume that the number of residents in the cities does not change.)
 
-## Solution 1
+## Solution-1
 
 *Answer:* Yes.
 
@@ -301,7 +301,7 @@ Let us verify that, at the end, all $n$ cities are connected. Note that at each 
 
 With the invariant always upheld, in the end, only one city remains, and every other (removed) city is reachable from it. Thus, every city is connected through this sole remaining city—i.e., the required road network is possible.
 
-## Solution 2
+## Solution-2
 
 We prove by induction on $n$ that it is always possible for the king to arrange the cities so that, after construction, it is possible to reach any city from any other. The claim is clear for $n=1$: no roads need to be built. Now consider $n > 1$ cities, assuming by induction that the claim holds for $n-1$ cities. Since there are $n$ cities but only $n-1$ possible remainders modulo $n-1$, by the pigeonhole principle there exist two cities whose populations give the same remainder modulo $n-1$. Let these be cities $a$ and $b$. Remove city $b$ from consideration. For the remaining $n-1$ cities, by induction, there is a way to build the required connected road network. Finally, connect $a$ and $b$ with a road. After this is done, one can reach every city from every other city: if the two cities do not include $b$, they were already connected; if one of them is $b$, then one can travel via $a$ (connected already in the previous step) and then to $b$ using the newly-built road. Thus, we can build the required road network for any $n$.
 
@@ -311,7 +311,7 @@ We prove by induction on $n$ that it is always possible for the king to arrange 
 
 Find all pairs of natural numbers $(m,n)$ such that $m-n=96$ and $\mathrm{LCM}(m,n)=2024$.
 
-## Solution 1
+## Solution-1
 
 *Answer:* (184, 88).
 
@@ -337,7 +337,7 @@ m'n' = 253
 
 We get from the first equation $m' = n' + 12$; plugging into the second gives the quadratic $(n')^2 + 12n' - 253 = 0$, so $n' = -6 \pm \sqrt{289} = -6 \pm 17$, i.e., $n' = -23$ or $n' = 11$. The negative solution is inadmissible; the positive solution gives $m' = 23$. So $m = 23 \cdot 8 = 184$, $n = 11 \cdot 8 = 88$.
 
-## Solution 2
+## Solution-2
 
 If $\mathrm{LCM}(m, n) = 2024$, then both $m$ and $n$ are divisors of $2024$.
 All divisors of $2024$ are
@@ -348,7 +348,7 @@ If $m-n=96$, then $m>96$, which leaves possible values $m=184$, $m=253$, $m=506$
 
 The number $157$ is not among the divisors of $2024$. The number $88$ is, and a check confirms that indeed $\mathrm{LCM}(184, 88)=\mathrm{LCM}(8 \cdot 23, 8 \cdot 11)=8 \cdot 23 \cdot 11=2024$.
 
-## Solution 3
+## Solution-3
 
 Since $\mathrm{LCM}(m, n)=2024=8\cdot253$ and $8=2^3$, at least one of $m$ or $n$ is divisible by 8. Since $m-n=96$, the other must also be divisible by 8. Both $m$ and $n$ must be divisors of $2024$. All divisors of $2024$ that are divisible by 8 are 8, 88, 184, and 2024. The only pair with difference 96 is 184 and 88.
 
@@ -361,7 +361,7 @@ Since $\mathrm{LCM}(m, n)=2024=8\cdot253$ and $8=2^3$, at least one of $m$ or $n
 
 According to a message received from extraterrestrial beings millions of years ahead of us in development, the heights above sea level of the two highest points on their planet are $h$ and that of the lowest point on land is $l$ (with $h \ge 0 > l$). The planet's radius (distance from sea level to the planet's center) is $r$. Express the greatest distance, according to this data, possible between two points on the planet such that one is visible from the other.
 
-## Solution 1
+## Solution-1
 
 *Answer:* $2\sqrt{(r+h)^2 - (r+l)^2}$ or $2\sqrt{(2r+h+l)(h-l)}$.
 
@@ -392,7 +392,7 @@ A positive integer $m$ is called **regular** if the square of each prime divisor
 **(A)** Prove that there exist infinitely many positive integers $n$ such that both $n$ and $n+1$ are regular.  
 **(B)** Does there exist a positive integer $n$ such that $n$, $n+1$, and $n+2$ are all regular?
 
-## Solution 1
+## Solution-1
 
 *Answer:* **(B)** yes.
 
@@ -402,7 +402,7 @@ Since there exist arbitrarily long intervals of consecutive composite numbers, w
 
 We further note that, for example, in the case $a=21$, we have $a^2+1=442=2\cdot13\cdot17$, and $2^2<13^2<17^2=289<442$. Therefore, $(440, 441, 442)$ is a triple of consecutive positive integers, all of which are regular, so $n=440$ is suitable.
 
-## Solution 2
+## Solution-2
 
 Let us consider the Pell equation $x^2-2y^2=1$. It has the trivial solution $(x_0, y_0) = (1,0)$, and whenever $(x_{k-1}, y_{k-1})$ is a solution, $(x_k, y_k) = (3x_{k-1}+4y_{k-1}, 2x_{k-1}+3y_{k-1})$ is also a solution. Indeed,
 
@@ -429,7 +429,7 @@ To solve part (B), it suffices to note that if $k=1$, then $n = 2 \cdot 70^2 = 9
 Find all functions $f$ defined on all real numbers and taking only real values, such that for all real numbers $x$ and $y$,
 $$f\left(y^{2}f(x)-f(xy)\right)=f\left(y^{2}\right)+2\left(x^{2}-f(x)\right)\left(f(y)-1\right)+1.$$
 
-## Solution 1
+## Solution-1
 
 *Answer:* $f(x) = x^2 + 1$.
 
@@ -449,7 +449,7 @@ $$(c^2-1)y^4 + 2c(1-c)y^2 + (3c^2-2c-1) = 0.$$
 
 This equation must hold for all real $y$. Therefore, all coefficients of the polynomial on the left must be zero. From the coefficient of $y^4$, we get $c^2-1 = 0$, hence $c=1$ or $c=-1$. From the coefficient of $y^2$, we get $2c(1-c)=0$, hence $c=0$ or $c=1$. Altogether, the only possibility is $c=1$. In this case, the constant term is also zero. Therefore, the only function that satisfies the equation is $f(x) = x^2 + 1$.
 
-## Solution 2
+## Solution-2
 
 Substituting $y=0$ into the given equation and simplifying, we get
 $$f(-f(0)) = f(0) + 2\left(x^2 - f(x)\right) (f(0) - 1) + 1$$
@@ -475,7 +475,7 @@ Therefore, $f(x) = x^2 + c$ for all real $x$, where $c$ is a constant. We contin
 
 The circumcenter of an acute triangle $ABC$ is $O$. Points $D$ and $E$ are chosen on side $BC$ such that $AD$ is the altitude of triangle $ABC$ and $AE$ is the angle bisector of angle $CAD$. The angle bisectors of triangle $AOB$ meet at point $J$. Prove that triangle $JBE$ is isosceles.
 
-## Solution 1
+## Solution-1
 
 Let $\sphericalangle BCA = \gamma$, and let $M$ be the intersection point of lines $OJ$ and $AB$. Since $OM$ is the angle bisector from $O$ in triangle $OAB$ and $|OA| = |OB|$, then $OM \perp AB$.
 
@@ -505,7 +505,7 @@ Therefore, in any case, $\sphericalangle JAE = \sphericalangle OAC$. Considering
 
 *Remark 1.* Once the similarity of triangles $AJO$ and $AEC$ is established, the similarity of triangles $AJE$ and $AOC$ can be proved more briefly by using properties of spiral similarity. Namely, from the first similarity it follows that there is a spiral similarity with center $A$ that maps segment $JO$ to $EC$. Therefore, there is a spiral similarity that maps segment $JE$ to $OC$, and thus triangles $AJE$ and $AOC$ are similar.
 
-## Solution 2
+## Solution-2
 
 Let $\sphericalangle CAB = \alpha$, $\sphericalangle ABC = \beta$, and $\sphericalangle BCA = \gamma$. Let us first prove equations (3) as in solution 1. Next, let $F$ be the intersection point of lines $OJ$ and $BC$, and $X$ be the intersection point of lines $AJ$ and $BC$ (Figures 9 and 10 depict different configurations for the order of points $E$ and $F$). We show that points $A, J, E, F$ are concyclic. From equations (3) we get
 
@@ -530,7 +530,7 @@ Thus $\sphericalangle JEA = \sphericalangle JFA = \sphericalangle JFB = \spheric
 
 ![Figure 10](EE.LHT.2024S.11_12.5D.png)
 
-## Solution 3
+## Solution-3
 
 We use the well-known fact that, in a triangle, the lines from the vertex to the orthocenter and to the circumcenter are symmetric with respect to the angle bisector at that vertex. Therefore, the altitude and the radius from the vertex cut off equal angles with the sides at that vertex.
 
@@ -542,7 +542,7 @@ Therefore, lines $AJ$ and $AD$ make equal angles with the sides of triangle $ABE
 
 *Remark 2:* The fact used in Solution 3 can be proved directly by angle chasing, and is essentially established at the beginning of Solution 1 for triangle $ABC$ and vertex $A$.
 
-## Solution 4
+## Solution-4
 
 Since $|OA| = |OB|$, the angle bisector from $O$ in triangle $OAB$ coincides with the perpendicular bisector of $AB$. Thus, point $J$ lies on the perpendicular bisector of $AB$, so points $A$ and $B$ lie on some circle $\omega$ with center $J$.
 
@@ -575,7 +575,7 @@ By the relation between central and inscribed angles, the point $E$ also lies on
 
 Gardener Andres wants to plant one currant bush in each unit square of his garden plot, which has dimensions $24 \times 2024$. He wants to plant as many blackcurrant bushes as possible, but with the condition that there must be at least one redcurrant and at least one whitecurrant bush somewhere on the plot. Additionally, he wants that, for every unit square with a blackcurrant bush, the adjacent unit squares (sharing a side) must contain an equal number of whitecurrant and redcurrant bushes (it may also be both $0$). Find the maximum number of blackcurrant bushes Andres can plant.
 
-## Solution 1
+## Solution-1
 
 *Answer:* $46632$.
 

@@ -11,7 +11,7 @@ skaitlis, kas dalās gan ar $x$, gan ar $y$, nav $x+y$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo. Tā kā $\frac{x+y}{x}=1+\frac{y}{x}$ un 
 $\frac{x+y}{y}=1+\frac{x}{y}$, tad $x$ dalās ar $y$ un $y$ dalās ar $x$; tāpēc 
@@ -34,7 +34,7 @@ $ab=\frac{c-a+1}{b}=\frac{c+1}{2}$. Pierādīt, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko $ab^{2}+a=c+1$ un $2ab=c+1$, tātad $ab^{2}+a=2ab$ un 
 $a(b-1)^{2}=0$. Tāpēc $b=1$. Tagad no vienādības $ab=\frac{c+1}{2}$ seko 
@@ -58,7 +58,7 @@ virsotnes ir baltas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim $r.l.$ ievilktu regulāru $12$-stūri: $A_{1}A_{2} \ldots A_{12}$. 
 Katrā no trijstūriem $A_{1}A_{5}A_{9},\ A_{2}A_{6}A_{10}$, 
@@ -83,7 +83,7 @@ $XY$ nav garāks par $\triangle ABC$ pusperimetru.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $M$ un $N$ malu $AB$ un $BC$ viduspunktus. Tad 
 $XM=\frac{1}{2} AB, \quad YN=\frac{1}{2} BC$ (mediāna pret hipotenūzu) un 
@@ -111,7 +111,7 @@ vidējais aritmētiskais ir $18$. Cik lodīšu var būt baltajā kastē?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim lodīšu daudzumu kastēs attiecīgi ar $b,s,m$. No nosacījuma par 
 sarkano kasti seko, ka $s \leq 5$ (pat sešu **vismazāko** numuru vidējais 
@@ -149,7 +149,7 @@ $(1+ab)(1+ac)(1+bc) \geq 8abc$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $VA$ - $VĢ$ nevienādības $1+ab \geq 2 \sqrt{ab}$; līdzīgi 
 $1+ac \geq 2 \sqrt{ac}$ un $1+bc \geq 2 \sqrt{bc}$. Sareizinot šīs 
@@ -169,7 +169,7 @@ ciparus, iegūst $\sqrt[3]{x}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $3$ pēdējo ciparu veidoto skaitli ar $y$, bet pēc nosvītrošanas 
 palikušo skaitli ar $a$. Tad $0 \leq y<1000$ un $a^{3}=1000a+y$. Tāpēc
@@ -198,7 +198,7 @@ $n=[x, y]+[y, z]+[z, x]$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** skaidrs, ka skaitli $1$ prasītajā veidā izteikt nevar, jo izteiksmes 
 vērtība nav mazāka par $3$.
@@ -243,7 +243,7 @@ atzīmēti $M$ un $N$ tā, ka $XM \parallel AB$ un $YN \parallel BC$ (skat.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle AYC=\sphericalangle AXC$, tad $A,\ Y,\ X,\ C$ ir uz 
 vienas riņķa līnijas. Tāpēc $\sphericalangle YAX=\sphericalangle YCX$ un 
@@ -274,7 +274,7 @@ nosacījumi joprojām izpildītos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ir pavisam $2^{12}=4096$ profesoru kopas; tās var apvienot pa $2048$ pāriem 
 $(A, Ā)$ (kopa un tās papildinājums). Tā kā $2048-1>2008$, tad eksistē tāda 
@@ -300,7 +300,7 @@ apakšējā stūra uz labo augšējo stūri?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kā redzams zīmējumā, pietiek ar $6$ gājieniem. Ar $5$ gājieniem tas nav 
 izdarāms, jo pēc $5.$ gājiena zirdziņš būs uz balta lauciņa; ar $\leq 4$ 
@@ -326,7 +326,7 @@ $$\bigg|\ldots \Big| \big| |x-1|-10 \big|-10^{2} \Big|-\ldots-10^{2007}\bigg|=10
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $a_{n}=|\ldots||| x-1|-10|-10^{2}\left|-\ldots-10^{n-1}\right|-10^{n}$.
 Tad $a_{2007}=\mp 10^{2008}$. No $a_{2007}=\left|a_{2006}\right|-10^{2007}$ 
@@ -352,7 +352,7 @@ $11$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kvadrāts nebeidzas ar " $2$ ", tātad $n^{2}$ beidzas ar " $1$ ". Ja 
 priekšpēdējais cipars būtu $1$, tad $n^{2}=\ldots 11=\ldots 00+11$ dotu 
@@ -389,7 +389,7 @@ Stars $t$ ir $\sphericalangle AOB$ bisektrise, $CA \perp OA$ un $DB \perp OB$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novelkam vēl perpendikulus $CE$ un $MF$. Tad $M$ ir taisnleņķa trapeces $DBEC$ 
 sānu malas $DC$ viduspunkts, tātad atrodas uz viduslīnijas; tāpēc $EF=FB$. 
@@ -414,7 +414,7 @@ vismaz $4$ krāsas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $i$-tā krāsa sastopama $x_{i}$ rindiņās un $y_{i}$ kolonnās. Tad 
 $x_{i} \cdot y_{i} \geq 10$. Tāpēc 
@@ -439,7 +439,7 @@ $a+b+c=\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=0$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka tādi skaitļi eksistē.
 
@@ -464,7 +464,7 @@ punktos. Pierādīt, ka šie $4$ punkti atrodas uz vienas riņķalīnijas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visu $4$ krustpunktu koordinātes $(x, y)$ apmierina **gan** nosacījumu 
 $x=y^{2}+y+b$, **gan** $y=x^{2}+x+a$, tātad arī nosacījumu 
@@ -487,7 +487,7 @@ $x^{2}+(x+1)^{2}=y^{2}$, ja $x \leq 200$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Risinām vienādojumu $x^{2}+(x+1)^{2}=(x+a)^{2},\ a \geq 2,\ a \in N$.
 
@@ -524,7 +524,7 @@ punktos $P$ un $Q$. Pierādīt, ka $PO=HQ$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Punkti $O$ un $H$ atrodas $\triangle ABC$ iekšpusē, jo tas ir šaurleņķu. Ja $N$
 ir $AB$ viduspunkts, tad $ON \perp AB$. Saskaņā ar doto 
@@ -560,7 +560,7 @@ Maija cenšas to nepieļaut?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, Andris to var panākt. Vispirms parādīsim kā Andris var panākt, lai figūriņa
 pārbīdītos par attālumu $\frac{1}{2^{12}}$ pa labi, sākot ar sākotnējo 

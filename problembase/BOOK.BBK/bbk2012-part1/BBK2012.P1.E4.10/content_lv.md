@@ -4,7 +4,7 @@ Skaitli $a$ dalot ar $18$, atlikumā iegūstam $12$. Kādu atlikumu iegūsim,
 skaitli $a$ dalot ar $3$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $a = 18q+12 = 3(6q+4)+0$. Skaitli $a$ dalot ar $3$, atlikumā iegūsim $0$.
 

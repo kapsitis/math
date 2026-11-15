@@ -4,7 +4,7 @@ Vai $6$ pēc kārtas ņemtu naturālu skaitļu reizinājums var būt $1111140960
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Sešu pēc kārtas ņemtu naturālu skaitļu reizinājums dalās ar $9$, 
 bet dotais skaitlis ar $9$ nedalās.

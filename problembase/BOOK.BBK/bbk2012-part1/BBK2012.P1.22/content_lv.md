@@ -5,7 +5,7 @@ ir ne mazāka kā $18$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $S_1$ dotā skaitļa ciparu summu, kas atrodas nepāra pozīcijās, 
 un ar $S_2$ dotā skaitļa ciparu summu, kas atrodas pāra pozīcijās. 

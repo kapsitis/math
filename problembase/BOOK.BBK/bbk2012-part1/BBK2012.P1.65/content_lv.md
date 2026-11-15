@@ -5,7 +5,7 @@ skaitļu pāris $(x, y)$, kuram izpildās vienādība $\frac{1}{x}-\frac{1}{y}=\
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka $\frac{1}{x}-\frac{1}{y}=\frac{1}{n}$. Tad $x<n$ un $n \neq 1$. Apzīmēsim 
 $x=n-i$ ($0<i<n$). Ievietojot dotajā vienādībā, iegūsim vienādību

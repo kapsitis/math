@@ -7,7 +7,7 @@ ir bezgalīgi daudz locekļu, kas ir savstarpēji pirmskaitļi ar skaitli $m$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim ar $A$ visu tādu skaitļa $m$ pirmreizinātāju reizinājumu, kuri ir arī skaitļa $a$ dalītāji.  
 Apzīmēsim ar $B$ visu tādu skaitļa $m$ pirmreizinātāju reizinājumu, kuri ir arī skaitļa $b$ dalītāji.  

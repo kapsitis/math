@@ -10,7 +10,7 @@ izpildās tad un tikai tad, kad $n$ ir pirmskaitlis.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka  
 $$\sum_{k=1}^{n}\left[\frac{n}{k}\right]=\left[\frac{n}{1}\right]+\sum_{k=2}^{n-1}\left[\frac{n}{k}\right]+\left[\frac{n}{n}\right]=n+1+\sum_{k=2}^{n-1}\left[\frac{n}{k}\right]$$  

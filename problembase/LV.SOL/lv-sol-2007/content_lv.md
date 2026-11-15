@@ -9,7 +9,7 @@ Kvadrāts sastāv no $4\cdot 4$ rūtiņām. Vai var dažas rūtiņas nokrāsot m
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat. 8. zīm.
 
@@ -29,7 +29,7 @@ Piecu veselu skaitļu summa ir $2006$. Vai to reizinājums var būt $20062006200
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Tā kā summa ir pāra skaitlis, tad vismaz viens no pieciem (nepāra daudzuma) saskaitāmajiem arī ir pāra skaitlis. Bet tad reizinājums ir pāra skaitlis.
 
@@ -54,7 +54,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, nevar.
 
@@ -72,7 +72,7 @@ Pilnīgi tumšā istabā uz galda atrodas $10$ monētas. Divas no tām ir ar cip
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Andris atdala $2$ monētas un apgriež tās otrādi. Mēs apgalvojam, ka tagad starp šīm divām monētām ir tikpat monētu ar ciparu uz augšu, cik starp pārējām. Pierādījumā apskata visas $3$ iespējas, cik sākumā starp tām bija monētu ar ciparu uz augšu.
 
@@ -93,7 +93,7 @@ Kādu lielāko daudzumu dažādu naturālu skaitļu var uzrakstīt, lai vienlaic
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** astoņus skaitļus.
 
@@ -127,7 +127,7 @@ Vai figūru, kas attēlota 1.zīm., var sagriezt trijās pēc formas un izmērie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat. 9. zīm.
 
@@ -147,7 +147,7 @@ Dots, ka $n$ - pāra skaitlis. Pierādiet, ka skaitļu $\frac{n}{2}$ un $5n$ cip
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $\frac{n}{2}$ ir vesels skaitlis. Pareizinot to ar $10$, iegūst skaitli ar tādu pašu ciparu summu. Bet
 
@@ -165,7 +165,7 @@ Taisnstūris sadalīts vienādās kvadrātiskās rūtiņās (tā platums ir $100
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Kad būs nokrāsoti $24$ pilni spirāles loki, nenokrāsotas būs palikušas tikai rūtiņas $25.$ un $26.$ rindā (skaitot no augšas), un kreisās no tām būs $25.$ kolonnā (skaitot no kreisās puses). Tāpēc kā pēdējo nokrāsos rūtiņu, kas atrodas $26.$ rindā no augšas un $25.$ kolonnā no kreisās puses.
 
@@ -181,7 +181,7 @@ Vai naturālos skaitļus no $1$ līdz $20$ ieskaitot var sadalīt $5$ grupās t�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** a) var; b) nevar.
 
@@ -205,7 +205,7 @@ b) pierādīt, ka var atrast divus skolēnus, kas abi kopā atrisinājuši visus
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Apzīmēsim skolēnu iesniegto atrisinājumu daudzumus ar $x_1$, $x_2...$ $x_8$. Saskaņā ar doto $x_1\le 5$; $x_2\le 5...$; $x_8\le 5$ un $x_1+x_2+\ldots+x_8=5\cdot 8=40$. Tāpēc $x_1=x_2=\ldots=x_8=5$ (ja kaut viens $x_i<5$, tad $x_1+\ldots+x_8<40$).
 
@@ -223,7 +223,7 @@ Nezinītis izgudrojis dalāmības pazīmi ar $27$: ja naturāla skaitļa ciparu 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Pretpiemērs:** $1989$ vai, piemēram, $135135126$.
 
@@ -239,7 +239,7 @@ Tabulā ar izmēriem $3 \cdot 3$ rūtiņas katrā rūtiņā ierakstīts pozitīv
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $adg\cdot beh=1\cdot 1=1$ un $degh=2$, tad $ab=\frac{1}{2}$. Līdzīgi $cf=ih=gd=\frac{1}{2}$. Visu $9$ skaitļu reizinājums ir $1$ (kā triju vieninieku reizinājums). Tāpēc $e=16$.
 
@@ -259,7 +259,7 @@ Kādam naturālam skaitlim $30$ reizes pieskaitīja naturālus skaitļus robež�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visu pieskaitīšanu rezultātā skaitlis palielinājās ne vairāk kā par $300$. Visu $31$ skaitļu virknē (sākotnējais un iegūtie) ir vai nu $\geq 16$ skaitļi, kas dalās ar $22$, vai $\geq 16$ skaitļi, kas dalās ar $25$. Pirmajā gadījumā katrs nākošais no šiem skaitļiem pārsniedz iepriekšējo par vismaz $22$, tāpēc starpība starp pirmo un pēdējo no tiem ir vismaz $15\cdot 22=330>300$ - pretruna. Otro gadījumu apskata līdzīgi.
 
@@ -275,7 +275,7 @@ Ievietojiet vienādībā $1:2:3:4:5:6:7:8:9:10=7$ iekavas tā, lai tā kļūtu p
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, $1:((2:3):((4:((5:6):(7:8))):(9:10)))$.
 
@@ -291,7 +291,7 @@ Kvadrāts sastāv no $5 \cdot 5$ rūtiņām. Katrā rūtiņā ierakstīts viens 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $9$.
 
@@ -319,7 +319,7 @@ Kvadrātvienādojuma $x^2+px+q=0$ saknes atšķiras viena no otras vismaz par $6
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $\sqrt{p^2-4q}\ge 6\Leftrightarrow p^2-4q\ge 36$. Starpība starp otrā kvadrātvienādojuma saknēm ir
 
@@ -337,7 +337,7 @@ Andrim un Maijai bija vienāds daudzums konfekšu. Andris apēda $8$ reizes maz�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka Andrim bija $a$ konfekšu un viņš apēda $x$ konfektes; tad Maija apēda $8\cdot x$ konfektes, un $a-x=9\cdot(a-8\cdot x)\Rightarrow 8\cdot a=71\cdot x$. Tātad $8\cdot a$ dalās ar $71$. Tā kā $\operatorname{LKD}(8,71)=1$, tad $a$ dalās ar $71$, kas bija jāpierāda.
 
@@ -353,7 +353,7 @@ Uz taisnleņķa trijstūra $ABC$ hipotenūzas $AC$ atlikts tāds punkts $D$, ka 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $15.$ zīm.
 
@@ -377,7 +377,7 @@ Kvadrāts sastāv no $3\cdot 3$ rūtiņām. Katra rūtiņa jānokrāso kādā kr
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $5$ krāsas.  
 **Risinājums.** Piemēru ar $5$ krāsām skat. $16.$ zīm. Ja krāsu būtu vismaz $6$, tad dažādu krāsu pāru būtu vismaz $15$, bet ir tikai $12$ rūtiņu malas, pa kurām rūtiņas var saskarties.
@@ -404,7 +404,7 @@ Tabula aizpildīta ar skaitļiem, kā parādīts $4.$ zīm. Ar vienu gājienu va
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2007.9.5A.png){ width=100px }
 
@@ -424,7 +424,7 @@ Dots, ka $a$, $b$ un $c$ apmierina sakarību $(a+b+c)(9a-3b+c)<0$, pie tam $a\ne
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $f(x)=a\cdot x^2+b\cdot x+c$. No dotā seko, ka $f(1)\cdot f(-3)<0$, tāpēc $f(x)$ maina zīmi intervālā $(-3;1)$, t.i., funkcijas grafiks krusto $Ox$ asi starp punktiem $(-3)$ un $1$. Tāpēc šai parabolai ir vēl otrs krustpunkts ar $Ox$ asi.
 
@@ -440,7 +440,7 @@ Vienu un to pašu naturālo skaitli dalīja ar atlikumu ar $3$, ar $24$ un ar $5
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitļi $24$ un $50$ abi ir pāra skaitļi. Tāpēc, dalot ar tiem, vai nu abi atlikumi ir pāra skaitļi, vai arī abi ir nepāra skaitļi. Tāpēc atlikums, dalot ar $3$, ir nepāra skaitlis. Tāpēc tas ir $1$.
 
@@ -456,7 +456,7 @@ Trijstūra augstumu garumi ir $24$, $30$ un $40$. Aprēķināt tā laukumu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja trijstūra laukums ir $L$, tad tā malu garumi ir $\frac{2\cdot L}{24}$, $\frac{2\cdot L}{30}$ un $\frac{2\cdot L}{40}$. Trijstūris, kura malu garumi ir $\frac{60}{L}$ reizes lielāki nekā pētāmajam, ir tam līdzīgs; bet tā malu garumi ir $5$, $4$ un $3$, tātad tas ir taisnleņķa. Tātad arī dotais trijstūris ir taisnleņķa; tāpēc tā divi garākie augstumi ir tā katetes, un tā laukums ir $\frac{1}{2}\cdot 30\cdot 40=600$.
 
@@ -472,7 +472,7 @@ Ja trijstūra laukums ir $L$, tad tā malu garumi ir $\frac{2\cdot L}{24}$, $\fr
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\angle BMD+\angle BND=90^{\circ}+90^{\circ}=180^{\circ}$, tad ap $BNDM$ var apvilkt riņķa līniju. Tāpēc $\angle BMN=\angle BDN$ (ievilkti leņķi, kas balstās uz vienu un to pašu loku). Bet $\angle NCD=90^{\circ}-\angle NDC=\angle BDN$, tātad $\angle NCD=\angle BMN$. Tāpēc
 
@@ -498,7 +498,7 @@ Vai šis apgalvojums paliek spēkā, ja vienādības kreisajā pusē $x$ aizstā
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārbaudīt, ka $x=\left(-\sqrt[3]{2\cdot x}\right)^3+\left(x-\frac{1}{\sqrt{6}}\right)^3+\left(x+\frac{1}{\sqrt{6}}\right)^3$.
 
@@ -516,7 +516,7 @@ Dots, ka $a$ un $b$ - pozitīvi skaitļi. Funkciju $f(x)=ax^2+6x+b$ un $g(x)=bx^
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Abām funkcijām diskriminanti ir vienādi. Tas nozīmē, ka abiem vienādojumiem $f(x)=0$ un $g(x)=0$ vai nu abiem ir pa divām saknēm, vai abiem – pa vienai saknei, vai abiem sakņu nav. Tāpēc vai nu abas minimālās vērtības ir pozitīvas, vai abas – negatīvas, vai abas – nulle. No šejienes seko vajadzīgais.
 
@@ -532,7 +532,7 @@ Naturāls skaitlis $n$ ir $20$ dažādu naturālu skaitļu reizinājums. Kāds i
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $191$.
 
@@ -574,7 +574,7 @@ Dots, ka $B$, $C$, $G$, $F$ atrodas uz vienas riņķa līnijas. Pierādīt, ka a
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Gan $B$, $C$, $G$, $F$, gan arī $A$, $D$, $H$, $E$ atrodas uz vienas riņķa līnijas tad un tikai tad, ja $\alpha+\beta=180^{\circ}$ (skat. 19. zīm.).
 
@@ -598,7 +598,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pie $x=1$ iegūstam $f(3)=(f(1))^2+2$; pie $x=3$ iegūstam $f(1)=(f(3))^2+2$. Ievietojot (un apzīmējot $f(1)=a$), iegūstam
 
@@ -628,7 +628,7 @@ Visās rūtiņās kopā kaut kā izvietotas $2^n$ monētas. Ar vienu gājienu va
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Lemma.** Ja tabulā ir $1$ rindiņa ar $n$ rūtiņām un tajā izvietotas $\ge 2^{n-1}$ monētas, tad var panākt, lai pēdējā rūtiņā atrastos kāda monēta.  
 Lemmu pierāda ar matemātisko indukciju. Bāze $n=1$ ir triviāla. Apskatām pāreju. Ja sākumā pēdējā rūtiņā jau ir kāda monēta, viss kārtībā. Pretējā gadījumā apskatām $1\cdot(n-1)$ tabulu, kurā ir **divi komplekti** monētu, katrā pa $\ge 2^{n-2}$ monētām; saskaņā ar induktīvo hipotēzi katrs no šiem komplektiem var „nogādāt” $(n-1)$-ā rūtiņā vismaz vienu monētu. Tās abas izmantojot, iegūst vajadzīgo tabulai $1\cdot n$. Lemma pierādīta.  
@@ -660,7 +660,7 @@ Kādu lielāko daudzumu komisiju var izveidot no $6$ cilvēkiem, ja katrā komis
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sešu elementu kopai ir $2^6=64$ apakškopas. Sadalām tās pāros tā, ka katra kopa ir pārī ar savu papildinājumu; pavisam ir $32$ pāri. Abas apakškopas no viena pāra nevar veidot komisijas, jo tām nav kopīga elementa; tātad komisiju nevar būt vairāk par $32$. Lai izveidotu $32$ komisijas, var rīkoties šādi:
 
@@ -685,7 +685,7 @@ Trijstūris $ABC$ ir regulārs. Tam apvilkta riņķa līnija. Uz loka $BC$, kas 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.SOL.2007.12.2A.png){ width=200px }
 
@@ -707,7 +707,7 @@ $$(1+2+3+\ldots+n)+2=k^2?$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādība pārveidojas par $\dfrac{n(n+1)}{2}+2=k^2$ un tālāk par $n(n+1)=2k^2-4$. Kreisā puse dod atlikumus $0; 2; 6; 3; 2; 3; 6; 2; 0$, dalot ar $9$; labā puse dod atlikumus $5; 7; 4; 5; 1; 1; 5; 4; 7$, dalot ar $9$. Tāpēc vienādība nav iespējama.
 
@@ -725,7 +725,7 @@ $$a^3+b^3+c^3+15 \cdot a \cdot b \cdot c \leq 2 \cdot (a+b+c) \cdot (a^2+b^2+c^2
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atverot iekavas, nevienādība pārveidojas par
 
@@ -753,7 +753,7 @@ b) kāds ir mazākais iespējamais ķieģeļu skaits šādā kubā?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) No diviem ķieģeļiem var salikt figūru, kāda parādīta $22.$ zīm., no divām tādām figūrām - taisnstūra paralēlskaldni ar izmēriem $2\mathrm{x}2\mathrm{x}5$, no $50$ tādiem paralēlskaldņiem - kubu ar izmēriem $10\mathrm{x}10\mathrm{x}10$.
 

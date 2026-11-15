@@ -11,7 +11,7 @@ $\frac{2015}{n^{4}-m^{4}}$ arī ir naturāls skaitlis!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $n^{4}-m^{4}=(n-m)(n+m)\left(n^{2}+m^{2}\right)$. Tā kā $n$ un 
 $m$ ir naturāli skaitļi, tad $\frac{2015}{(n-m)(n+m)\left(n^{2}+m^{2}\right)}$ 
@@ -67,7 +67,7 @@ pārklāties.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Visas septiņas dotās figūras kopā satur $28$ rūtiņas, tātad taisnstūra 
 laukumam arī jābūt $28$ rūtiņām. Vienīgie iespējamie taisnstūra izmēri ir 
@@ -111,7 +111,7 @@ atšķirīgi no $100$).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ir $25$ skaitļi, kas nepārsniedz $100$ un dalās ar $4$. Parādīsim, ka visi šie 
 skaitļi ir *patīkami*. Katrs no tiem pieder vienam no trim cikliem:
@@ -137,7 +137,7 @@ divus gadījums.
 
 Tātad pavisam ir $25$ *patīkami* skaitļi.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ir $25$ skaitļi, kas nepārsniedz $100$ un dalās ar $4$. Parādīsim, ka visi šie 
 skaitļi ir *patīkami*. Ja skaitlis $x$ dalās ar $4$, tad gan $2x$, gan $2x-100$ 
@@ -176,7 +176,7 @@ Pierādīt, ka $AB>BC$ !
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle LBC=\sphericalangle LBA$ pēc bisektrises definīcijas un 
 $\sphericalangle LBC=\sphericalangle AKB$ kā iekšējie šķērsleņķi pie paralēlām 
@@ -209,7 +209,7 @@ ja $a$ ir reāls skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotās izteiksmes mazākā iespējamā vērtība ir $1$, to iegūst, ja $a=0$. 
 Pamatosim, ka mazāku vērtību nevar iegūt.
@@ -219,7 +219,7 @@ $a^{20}+a^{4}+\frac{1}{a^{4}+1}=a^{20}+\frac{a^{8}+a^{4}+1}{a^{4}+1}=a^{20}+\fra
 
 Pirmie divi saskaitāmie ir nenegatīvi, tātad šīs izteiksmes vērtība ir vismaz $1$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Dotās izteiksmes mazākā iespējamā vērtība ir $1$, to iegūst, ja $a=0$. 
 Pamatosim, ka mazāku vētību nevar iegūt.
@@ -253,7 +253,7 @@ $a^{4}b+ab^{4}+3a^{3}b^{2}+3a^{2}b^{3}$ vērtība ir vesels skaitlis!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Vjeta teorēmas izriet, ka
 
@@ -289,7 +289,7 @@ Pierādīt, ka katram naturālam $n$ izteiksme $3n^{5}+5n^{4}-8n$ dalās ar $10$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātiskās indukcijas principu.
 
@@ -325,7 +325,7 @@ $3(k+1)^{5}+5(k+1)^{4}-8(k+1)$ dalās ar $10$.
 No matemātiskās indukcijas principa izriet, ka katram naturālam $n$ izteiksme 
 $3n^{5}+5n^{4}-8n$ dalās ar $10$, kas arī bija jāpierāda.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pārveidojam doto izteiksmi:
 
@@ -360,7 +360,7 @@ tātad tā dalās ar $10$.
 
 
 
-## Atrisinājums
+## Atrisinājums-3
 
 * Dalāmību ar $10$ pārbaudām, dalot ar $2$ un $5$
 * $3n^5 + 5n^4 - 8n$ vienmēr ir pāru skaitlis (aplūko, ja $n$ ir pāru/nepāru)
@@ -387,7 +387,7 @@ $(a+d)^{2}+(b+e)^{2} \leq(c+f)^{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā visi dotie skaitļi ir pozitīvi, varam tos uztvert kā nogriežņu garumus.
 
@@ -404,7 +404,7 @@ $\sqrt{(a+d)^{2}+(b+e)^{2}} \leq c+f$. Tā kā abas nevienādības puses ir
 pozitīvas, tad, kāpinot kvadrātā, iegūst $(a+d)^{2}+(b+e)^{2} \leq(c+f)^{2}$, 
 kas arī bija jāpierāda.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Aplūkojam vektorus $\vec{x}=(a; b)$ un $\vec{y}=(d; e)$, tad
 
@@ -430,7 +430,7 @@ rādiuss!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Regulāram desmitstūrim $A_{1}A_{2} \ldots A_{10}$ apvilktās riņķa līnijas 
 centru apzīmēsim ar $O$ (skat. A5.att.). Regulāra desmitstūra katra mala savelk
@@ -448,7 +448,7 @@ vienādsānu, jo leņķi pie pamata ir vienādi, līdz ar to $A_{1}A_{2}=A_{1}B$
 $BA_{4}=OA_{4}=R$. Tad $A_{1}A_{2}+R=A_{1}B+BA_{4}=A_{1}A_{4}$, kas arī bija 
 jāpierāda.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Regulāram desmitstūrim $A_{1}A_{2} \ldots A_{10}$ apvilktās riņķa līijas centru
 apzīmēsim ar $O$ (skat. A6.att.). Regulāra desmitstūra visas malas savelk 
@@ -487,7 +487,7 @@ apmest otrādi. Taisnstūrī nedrīkst būt caurumi, un figūras nedrīkst pārk
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Visas piecas dotās figūras kopā satur $20$ rūtiņas, tātad taisnstūra 
 laukumam arī jābūt $20$ rūtiņām. Vienīgie iespējamie taisnstūra izmēri ir 
@@ -541,7 +541,7 @@ vesels skaitlis!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No Vjeta teorēmas izriet, ka
 
@@ -575,7 +575,7 @@ un kura malas iet pa rūtiņu līnijām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, šādu daudzstūri var uzzīmēt (skat., piemēram, A10.att.).
 
@@ -607,7 +607,7 @@ pietiek, lai panāktu, ka visi papagaiļi atrodas savos sākotnējos krātiņos?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim papagaiļus ar numuriem no $1$ līdz $38$ un krātiņus ar numuriem no 
 $1$ līdz $39$ tā, ka sākotnēji papagaiļa numurs sakrīt ar krātiņa numuru. 
@@ -657,7 +657,7 @@ iespējamo $b$ vērtību!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā iespējamā $b$ vērtība ir $2549$. Pierādīsim, ka mazāku $b$ vērtību nav 
 iespējams atrast.
@@ -683,7 +683,7 @@ līnijas rādiuss!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Regulāram četrpadsmitstūrim $A_{1}A_{2} \ldots A_{14}$ apvilktās riņķa līijas 
 centru apzīmēsim ar $O$ (skat. A12.att.). Regulāra četrpadsmitstūra katras 
@@ -708,7 +708,7 @@ kas arī bija jāpierāda.
 
 ![](LV.VOL.2015.11.5A.png)
 
-## Atrisinājums
+## Atrisinājums-2
 
 Regulāram četrpadsmitstūrim $A_{1}A_{2} \ldots A_{14}$ apvilktās riņķa līnijas 
 centru apzīmēsim ar $O$ (skat. A13.att.). Regulāra četrpadsmitstūra visas malas
@@ -747,7 +747,7 @@ $\frac{\sin 3x}{\sin x}$ vērtību!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim starpību
 
@@ -755,7 +755,7 @@ $$\frac{\sin 3x}{\sin x}-\frac{\cos 3x}{\cos x}=\frac{\sin 3x \cos x-\cos 3x \si
 
 Tātad $\frac{\sin 3x}{\sin x}=2+\frac{1}{2015}=\frac{4031}{2015}$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pārveidojam doto sakarību:
 
@@ -786,7 +786,7 @@ $\sphericalangle PBC=\sphericalangle PDC$!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle PAB=\sphericalangle PCB=\alpha$. No virsotnes $D$ 
 velk nogriezni $DQ$, kas paralēls $AP$, bet no $C$ - nogriezni $CQ$, kas 
@@ -818,7 +818,7 @@ $2269^{n}+2151^{n}+1389^{n}-1779^{n}$ dalās ar $2015$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka $2015=5 \cdot 13 \cdot 31$. Tā kā visi pirmreizinātāji ir dažādi,
 nepieciešams pierādīt, ka dotā izteiksme vienlaikus dalās gan ar $5$, gan ar 
@@ -854,7 +854,7 @@ Apskatām dotās izteiksmes dalāmību ar katru pirmreizinātāju.
 Līdz ar to esam pierādījuši, ka dotā izteiksme vienlaikus dalās ar $5,\ 13$ un 
 $31$, tātad tā dalās ar $2015$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ievērojam, ka $2015=5 \cdot 13 \cdot 31$. Tā kā visi pirmreizinātāji ir dažādi,
 nepieciešams pierādīt, ka dotā izteiksme vienlaikus dalās gan ar $5$, gan ar 
@@ -885,7 +885,7 @@ kādām naturālām $d$ vērtībām šāds krāsojums ir iespējams!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šāds krāsojums iespējams tikai tad, ja $d$ - nepāra skaitlis. Tad der 
 krāsojums, kur punkti nokrāsoti pamīšus baltā un melnā krāsā (skat. A15.att.).
@@ -919,7 +919,7 @@ Vai votivapu valodā ir vārdi **(A)** $abbababab$; **(B)** $baabaabaa$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Vārdu "$abbababab$" var iegūt šādi:
 

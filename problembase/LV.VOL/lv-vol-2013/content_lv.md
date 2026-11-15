@@ -15,7 +15,7 @@ $y$ simti, $z$ desmiti un $t$ vieni.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pamanīt, ka $a=1$. Lai summas simtu cipars būtu $0$, tad $b=9$ vai $b=8$.
 $b=9$ neder, jo tad summā veidotos pārnesums no desmitu pozīcijas un simtu
@@ -42,7 +42,7 @@ Pierādīt, ka $\triangle ACE=\triangle BDF$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 $\sphericalangle BOC=\sphericalangle BOD+60^{\circ}=60^{\circ}+\sphericalangle AOC$
@@ -78,7 +78,7 @@ piemēram, $[3]=3,[4,6]=4,[0,2]=0$ u.tml.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkojam virknes pirmos locekļus:
 $a_{1}=1$, $a_{2}=1$, $a_{3}=\left[\frac{2 \cdot 1+1}{3}\right]+4=5$,
@@ -200,7 +200,7 @@ malām, 1.zīm. figūra var būt pagriezta vai apgriezta spoguļattēlā.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** **Atbilde:** $8$ , skat., piemēram, 2.zīm.
 
@@ -231,7 +231,7 @@ naturālos skaitļos.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidosim doto vienādojumu:
 
@@ -247,7 +247,7 @@ tāpēc vienādojumam atrisinājuma naturālos skaitļos nav.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Sākotnējie secinājumi par mainīgajiem
 
@@ -284,7 +284,7 @@ Pierādīt, ka $EF \perp CD$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\sphericalangle BAE=\alpha$, tad arī $\sphericalangle BDC=\alpha$
 (kā ievilkti leņķi, kas balstās uz vienu loku $BC$ ) (skat. 5.zīm.). Taisnleņķa
@@ -313,7 +313,7 @@ mazāko iespējamo $f(x)$ vērtību.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 $f(x)=\left(x^{2}-x\right)\left(x^{2}-x-110\right)=\left(\left(x^{2}-x-55\right)+55\right)\left(\left(x^{2}-x-55\right)-55\right)=\left(x^{2}-x-55\right)^{2}-3025$.
 
@@ -344,7 +344,7 @@ kvadrāti.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim Fibonači virknes locekļu atlikumus, dalot ar $3$. Tad iegūstam virkni
 $\underline{1,1,2,0,2,2,1,0,}1,1,2, \ldots$
@@ -364,7 +364,7 @@ ar $3$), kas nav naturāla skaitļa kvadrāts.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Atrodam Fibonači virknes atlikumus, dalot ar 3:
 
@@ -426,7 +426,7 @@ kad - otrais (spēli vienmēr sāk pirmais spēlētājs)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šķirosim divus gadījumus:
 
@@ -456,7 +456,7 @@ Pierādīt, ka nav tādas naturālas $n$ vērtības, ka $n^{2}+4n+16$ dalās ar 
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka šāda $n$ vērtība tomēr eksistē. Tad $n^{2}+4n+16=36k$ jeb
 $(n+2)^{2}+12=36k$. Tā kā vienādības labā puse dalās ar $12$ un $12$ dalās ar
@@ -482,7 +482,7 @@ punktā $D$. Pierādīt, ka $AD+BD=BC$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $ABC$ ir vienādsānu trijstūris, tad
 $\sphericalangle ACB=\sphericalangle ABC=40^{\circ}$ (skat. 8.zīm.). Tā kā $BD$
@@ -526,7 +526,7 @@ Aprēķināt šī paralēlskaldņa pilnas virsmas laukumu un tilpumu.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim taisnstūra paralēlskaldņa šķautņu garumus ar $a$, $b$, un $c$ (tās ir
 arī dotā vienādojuma saknes). Tad doto vienādojumu var pārrakstīt formā
@@ -555,7 +555,7 @@ $1250~\mathrm{cm}^{2}$, **(B)** $1300~\mathrm{cm}^{2}$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** **Atbilde:** jā, noteikti. Tā kā abiem kvadrātiem ir centrs sakrīt, tiem
 abiem ir kopīgs tajos ievilktais riņķis, kura rādiusa garums ir $20~ \mathrm{cm}$
@@ -614,7 +614,7 @@ skaitlis.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ar matemātisko indukciju pamatosim, ka ir vismaz divas pilsētas, no kurām
 no katras iziet tieši viens ceļš.
@@ -687,7 +687,7 @@ $AD \perp MN$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $NM$ krustpunktus ar malām $AB$ un $AC$ attiecīgi ar $K$ un $L$
 (skat. 10.zīm.).
@@ -726,7 +726,7 @@ $\left\{\begin{array}{l}\sin x+\cos y=\frac{3}{2} \mbox{tg}\ z \\ \sin y+\cos x=
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sareizinot abus vienādojumus, iegūstam
 $\sin x \sin y+\sin x \cos x+\cos y \sin y+\cos y \cos x=\frac{9}{4}$.
@@ -760,7 +760,7 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu nav.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka nevienam veselam $n \geq 0$ nevar būt, ka
 $f(n)=0$- pretējā gadījumā no vienādības $0=f(n) \cdot(f(n+1)-2)=4n^{2}-1$
@@ -851,7 +851,7 @@ visas iespējamās $n$ vērtības.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidosim doto vienādību formā
 $d_{3}^{2}+d_{4}^{2}=\left(\frac{n}{d_{3} d_{4}}\right)^{2}$. Tā kā
@@ -891,7 +891,7 @@ ir uzrakstīta virkne **(A)** $abba$; **(B)** $aabbcabaab$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** **Atbilde:** nevar.
 

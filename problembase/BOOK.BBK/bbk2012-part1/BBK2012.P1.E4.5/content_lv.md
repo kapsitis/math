@@ -7,7 +7,7 @@ Ar Eiklīda algoritmu aprēķināt $d=(a,b)$, un izteikt skaitli $d$ formā $ua 
 **(D)** $(200,40)$.
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)**
 

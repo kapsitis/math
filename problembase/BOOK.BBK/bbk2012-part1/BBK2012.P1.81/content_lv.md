@@ -5,7 +5,7 @@ skaițiem $1,2, \ldots, n$, ir pirmskaitlis.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pien̦emsim, ka skaitlim $N$ eksistē dalītājs $d$, kurš ir atšķirīgs no $1$ un $N$. tad skaitlis 
 $d$ ir savstarpējs pirmskaitlis ar skaitļiem $1,2, \ldots, n$ un ir mazāks par $N$. 

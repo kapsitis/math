@@ -6,7 +6,7 @@ Vai skaitlis $x$ noteikti ir racionāls, ja zināms, ka racionāli ir sekojoši 
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** No dotā seko, ka racionāls ir skaitlis $x^{98}: x^{55}=x^{34}$. Līdzīgi iegūstam, ka 
 racionāli ir skaitļi $x^{55}:x^{34}=x^{21}$, x^{34}:x^{21}=x^{13}$, $x^{21}:x^{13}=x^{8}$, 

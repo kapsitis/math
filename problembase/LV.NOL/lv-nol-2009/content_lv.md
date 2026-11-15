@@ -20,7 +20,7 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var. Skat., piem., 1.zīm.
 
@@ -52,7 +52,7 @@ pārklāties un saliktā kvadrāta iekšpusē nedrīkst palikt tukšumi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 2.zīm.
 
@@ -90,7 +90,7 @@ vienai reizei ciparus $0;\ 1;\ 2;\ 3;\ 4;\ 5$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē; izsvītrojot $5$, palikušais skaitlis nevar dalīties ar $5$.
 
@@ -120,7 +120,7 @@ būtu lielāks par visās savās kaimiņu rūtiņās ierakstītajiem?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Piemēram, izkrāsojam rūtiņas šaha galdiņa secībā, baltajās rūtiņās 
 ierakstām skaitļus no $1$ līdz $8$, bet melnajās - no $9$ līdz $16$.
@@ -148,7 +148,7 @@ sistēmā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Andra "kods" var būt divciparu, trīsciparu vai četrciparu. To atšifrējot, 
 problēmas var radīt tikai trīsciparu kodi, pie tam tikai tādi, kam pēdējais 
@@ -176,7 +176,7 @@ $3 \times 3$ rūtiņām sastāvošā kvadrātā būtu tieši viena melna rūtiņ
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 3.zīm.
 
@@ -206,7 +206,7 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē. $12$ figūriņām ir pats lielākais $12 \cdot 4=48<7 \cdot 7$ rūtiņas;
 
@@ -236,7 +236,7 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē. Ja kastu būtu $n$, tad rūķīšu piedalīšanos kopā būtu gan 
 $2 \cdot n$, gan $5 \cdot 3$. Bet naturālam $n$ nevar pastāvēt vienādība 
@@ -269,7 +269,7 @@ nepāra?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Spriežam no pretējā. Šķirojam divas iespējas:
 
@@ -309,7 +309,7 @@ mazākais iespējamais.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka pietiek ar $1$ svēršanu. Uzliekam uz kausiem pa $67$ monētām. Ja
 svari nav līdzsvarā, vajadzīgās monētu kaudzītes atrodas uz kausiem. Ja svari 
@@ -357,7 +357,7 @@ $x=a^{3}, y=b^{5}$, $a$ un $b$ naturāli skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visus: $n=\left(n^{7}\right)^{3}:\left(n^{4}\right)^{5}$.
 
@@ -397,7 +397,7 @@ skaitļu summu. Šādus gājienus atkārto, līdz rindā paliek tikai viens skai
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** ar katru gājienu skaitļu skaits samazinās par $1$. Tā kā tas dilst no 
 $2009$ līdz $1$, tad pavisam izdarīs $2009-1=2008$ gājienus.
@@ -431,7 +431,7 @@ skaitļa dalītājiem pieskaita gan viņu pašu, gan vieninieku.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** pieņemsim, ka $a$ dalītāji ir $1<a_{1}<a_{2}<a$, bet $b$ dalītāji ir 
 $1<b_{1}<b_{2}<b_{3}<b_{4}<b$. Tad 
@@ -442,7 +442,7 @@ dalītāji.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 **Apgalvojums:** Katram naturālam $n$ ir spēkā apgalvojums:  
 ja skaitļa $n$ sadalījums pirmreizinātājos ir $n = p_1^{a_1} \cdot p_2^{a_2} \cdot \ldots p_k^{a_k}$, 
@@ -486,7 +486,7 @@ virzieniem, nebūtu perpendikulāri viens otram?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** var nokrāsot $6$ punktus; skat., piem., 6.zīm.
 
@@ -541,7 +541,7 @@ Jūsu atrastajiem plāniem.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sprīdītis nosūta vienu rūķīti $A$ izlūkos pa vienu ceļu, divus citus rūķīšus 
 $B$ un $C$ izlūkos pa otru ceļu, bet pats dodas izlūkos pa trešo ceļu. Visiem 
@@ -588,7 +588,7 @@ ierakstīto skaitļu summa būs $64$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim divus iespējamos risinājumus.
 
@@ -651,7 +651,7 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No nevienādības $(a-b)^{2}+(b-c)^{2}+(c-a)^{2}>0$, atverot iekavas, seko 
 $a^{2}+b^{2}+c^{2}>ab+ac+bc$
@@ -676,7 +676,7 @@ Atrodiet skaitļa $113^{113}-19^{19}$ pēdējo ciparu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $113^{113}=\left(113^{4}\right)^{28} \cdot 113$ un $113^{4}$ 
 beidzas ar ciparu $1\left(3^{4}=81\right)$. Tāpēc $113^{113}$ beidzas ar 
@@ -714,7 +714,7 @@ iepriekšējās reizēs. Pierādiet, ka svari atkal nostāsies līdzsvarā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka trešajā svēršanā uz kreisā kausa akmeņu kopējā masa bija $x$, bet
 uz labā kausa - $y$. Pārējie akmeņi, kas pirmajā svēršanā bija uz kreisā kausa,
@@ -747,7 +747,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC>AB$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šķirojam $3$ gadījumus.
 
@@ -794,7 +794,7 @@ Kāds ir mazākais iespējamais $\triangle ABC$ laukums?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar teorēmu par slīpnes un perpendikula garumu $CA \geq_{c} \geq 13$. 
 Tāpēc $L(ABC)=\frac{1}{2} AC \cdot h_{b} \geq \frac{1}{2} \cdot 13 \cdot 12=78$.
@@ -825,7 +825,7 @@ naturālā skaitļa kvadrātu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam četrciparu skaitļa $n$ pirmo divu ciparu veidoto skaitli ar $a$, bet 
 pēdējo divu ciparu veidoto skaitli ar $b$. Tad $n=100a+b$, tāpēc iegūstam 
@@ -856,7 +856,7 @@ un tikai tad, ja $R^{2}+r^{2}=d^{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atceramies, ka
 
@@ -900,7 +900,7 @@ nevienādība $x^{2}+px+q \geq-1$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim saknes ar $x_{1}$ un $x_{2}$, kur $x_{1}<x_{2}$. Tad pie 
 $x \notin\left(x_{1}; x_{2}\right)$ 
@@ -942,7 +942,7 @@ pazīst $Y$, tad arī $Y$ pazīst $X$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pieņemsim pretējo, ka tādu divu cilvēku nav. Tā kā cilvēku ir tieši $n$
 un paziņu daudzums vienam cilvēkam var būt $0;\ 1;\ 2;\ \ldots;\ n-1$ (t.i., 
@@ -977,7 +977,7 @@ gan kā $13$ pēc kārtas ņemtu naturālu skaitļu summu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šādam skaitlim jādalās gan ar $11$ (jo 
 $(n+1)+(n+2)+\ldots+(n+10)+(n+11)=11(n+6)$ ), gan ar $13$, gan ar $6$ (jo 
@@ -1003,7 +1003,7 @@ pusēm arī trijstūra perimetru.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $L(MBN)=L(MIB)+L(NIB)=\frac{1}{2} r \cdot(MB+BN); \quad L(ABC)=\frac{1}{2} r \cdot(AB+BC+CA)$.
 Ja $L(MBN)=\frac{1}{2} L(ABC)$, tad no 
@@ -1026,7 +1026,7 @@ dalās ar $a \cdot b$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $a^{2}$ dalās ar $b$ un $a$ dalās ar $a$, tad $a^{3}=a^{2} \cdot a$ dalās
 ar $b \cdot a$. Līdzīgi pierāda, ka $b^{3}$ dalās ar $ab$. Tāpēc arī 
@@ -1046,7 +1046,7 @@ reālos skaitļos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam vienādojumu par $x+y+z=2 \sqrt{x-1}+4 \sqrt{y-4}+6 \sqrt{z-9}$ un 
 tālāk par $(\sqrt{x-1}-1)^{2}+(\sqrt{y-4}-2)^{2}+(\sqrt{z-9}-3)^{2}=0$. Tā kā 
@@ -1072,7 +1072,7 @@ panākt, lai tās vienlaicīgi visas būtu ieslēgtas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ ar $100$ pieskāršanās reizēm.
 
@@ -1118,7 +1118,7 @@ Vai var būt, ka **(A)** $n=8$, **(B)** $n=7$, **(C)** $n=10$, **(D)** $n=16$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, var; skat. 10.zīm.
 
@@ -1156,7 +1156,7 @@ Atrisināt veselos skaitļos vienādojumu $\frac{x^{2}}{2}+\frac{5}{y}=7$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $(x; y)$ ir atrisinājums, tad arī $(-x; y)$ ir atrisinājums. Tāpēc sākumā 
 apskatām tikai gadījumu $x \geq 0$. Vienādojumu var pārveidot par 
@@ -1178,7 +1178,7 @@ Atrisināt nevienādību $|||2-x|-x|-9| \leq 2009$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šķirojam divus gadījumus.
 
@@ -1206,7 +1206,7 @@ kā parādīts 2.zīm. Pierādīt, ka $AM+CL=AN+CK$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\triangle ABC$ malas garumu ar $a$. No teorēmas par sekanšu 
 nogriežņu reizinājumiem iegūstam
@@ -1234,7 +1234,7 @@ sarkanas).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ņemam vienu no punktiem $P$ un šķirojam divas iespējas.
 
@@ -1276,7 +1276,7 @@ $$\cos \left(x^{2}\right)+\cos \left(\mathrm{y}^{2}\right)-\cos (xy)<3$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $|\cos t| \leq 1$, tad 
 $\cos \left(x^{2}\right)+\cos \left(y^{2}\right)-\cos (xy) \leq 1+1-(-1)=3$. 
@@ -1300,7 +1300,7 @@ Kāda ir mazākā iespējamā $n$ ciparu summa? Kuriem $p$ tā tiek sasniegta?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $p=2,\ n=9$; ja $p=3,\ n=49$; ja $p=5,\ n=513$. Pieņemsim, ka $p>5$. Tad 
 $n=(p-2)(p-1)(p+1)(p+2)+9$ un $p-2;\ p-1;\ p;\ p+1;\ p+2$ ir $5$ pēc kārtas 
@@ -1326,7 +1326,7 @@ reālos skaitļos.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar ekvivalentiem pārveidojumiem iegūstam 
 $\frac{1}{x}(x-\sqrt{2x+1})^{2}+\frac{1}{y}(y-\sqrt{2y+1})^{2}=0$. Tā kā 
@@ -1349,7 +1349,7 @@ $AM+CL=AN+CK$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\triangle ABC$ malas garumu ar $a$. No teorēmas par hordu nogriežņu 
 reizinājumiem iegūstam
@@ -1374,7 +1374,7 @@ kam visi šie punkti ir virsotnes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $29$.
 

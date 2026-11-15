@@ -8,7 +8,7 @@ lielāko kopīgo dalītāju.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar indukciju pierādīsim, ka $\operatorname{LKD}\left(x_{k-1}, x_{k}\right)=19$.
 Ja $k=3, \operatorname{tad} \operatorname{LKD}\left(x_{k-1}, x_{k}\right)=\operatorname{LKD}(95,114)=19$.

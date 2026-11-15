@@ -6,7 +6,7 @@ $$x^{3}-y^{3}=z.$$
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No vienādības $(x-y) \cdot\left(x^{2}+x y+y^{2}\right)=z$
 seko, ka $x-y=1$, jo $z$ ir pirmskaitlis. Tā kā $x$ un $y$ arī ir pirmskaitļi 

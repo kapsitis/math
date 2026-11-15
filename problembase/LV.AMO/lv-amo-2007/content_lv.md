@@ -16,7 +16,7 @@ kļūst skaidrs, kurās kastēs ir āboli?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $5;\ 6;\ 7;\ 8;\ 9$.
 
@@ -49,7 +49,7 @@ apli".)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $0,\ 1$ vai $2$.
 
@@ -87,7 +87,7 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $2007$.
 
@@ -124,7 +124,7 @@ sviras svariem bez atsvariem atrast šo lodīti?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izdarām svēršanas, kā parādīts 3.zīm.
 
@@ -163,7 +163,7 @@ dažādiem, ja tos nevar novietot tā, lai tie pilnīgi sakristu viens ar otru.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $10$.
 
@@ -197,7 +197,7 @@ izteiksme $2a+3b+c$ dalās ar $7$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka 
 $\overline{abc}=100a+10b+c=(98a+7b)+(2a+3b+c)=7(14a+b)+(2a+3b+c)$.
@@ -225,7 +225,7 @@ divos gadījumos:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** $11$, **(B)** var būt jebkurš skaits, kas lielāks par $1$.
 
@@ -258,7 +258,7 @@ būtu vienādi, ja sākotnējais izvietojums ir tāds, kāds parādīts 1.zīm. 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** jā, **(B)** nē, **(C)** nē.
 
@@ -302,7 +302,7 @@ stūris ar kādu atzīmēto?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $9$ rūtiņas.
 
@@ -336,7 +336,7 @@ rūķītis varētu apciemot katru citu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $4$ dienas.
 
@@ -386,7 +386,7 @@ pierakstu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzot, nedrīkst rakstīt ne pāra ciparus, ne $5$. Atliek cipari 
 $1;\ 3;\ 7;\ 9$. Ja tos uzrakstītu visus, tad devītniekam vismaz vienā pusē 
@@ -398,7 +398,7 @@ jebkurā secībā.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Meklējam ciklu grafā: Iespējamie pāri $(1,3)$, $(1,7)$, $(3,7)$, 
 $(7,9)$. Četru ciparu cikla nav, jo ciparam $9$ ir tikai viens kaimiņš. 
@@ -426,7 +426,7 @@ Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā trijstūrī pret vienādiem leņķiem atrodas vienādas malas, tad $AE=AD$ un 
 $AC=AB$. Bez tam 
@@ -464,7 +464,7 @@ spēlēts pietiekoši ilgi).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā no sekojošiem **blakus esošu** skaitļu pāriem katrs skaitlis ir tāds, 
 kuru Maija var nodzēst:
@@ -496,7 +496,7 @@ citu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlēsimies divus pazīstamus cilvēkus $A$ un $B$. Katrs no tiem pazīst vēl 
 sešus citus. Tā kā $6+6>10$, tad starp pārējiem $10$ cilvēkiem atradīsies tāds,
@@ -524,7 +524,7 @@ starpība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $2$.
 
@@ -565,7 +565,7 @@ Pierādīt, ka $x_{1}+x_{2}=x_{3}+x_{4}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka vienādojumam $x^{2}+px+q=x^{2}+ax+b$ jeb $(p-a)x=b-q$ nav 
 atrisinājuma. Tātad $p=a$ (un $b \neq q$, bet mums tas nav svarīgi). No $p=a$ 
@@ -591,7 +591,7 @@ Aprēķināt **(A)** $\sphericalangle MCB$, **(B)** $\sphericalangle MBC$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $\sphericalangle CAB=\sphericalangle CBA=80^{\circ}$ un 
 $\sphericalangle CAM=\sphericalangle BAM=40^{\circ}$. Tā kā $AM=CM$ ($M$ uz 
@@ -638,7 +638,7 @@ $1716$. Kādu skaitli viņa iedomājās sākumā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $143$.
 
@@ -675,7 +675,7 @@ Dzintars savā starpā nesazinās un nespiego, ko dara skatītājs.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Triku var organizēt dažādi. Apskatīsim vienu iespēju.
 
@@ -714,7 +714,7 @@ figūriņas sākuma pozīciju.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $48$ gājieni.
 
@@ -757,7 +757,7 @@ gadīties, ka tieši $19$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē.
 
@@ -790,7 +790,7 @@ punktos $M,\ K$ un $N$. Pierādīt, ka $\sphericalangle BMN=\sphericalangle BMK$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No konstrukcijas seko, ka $PMBN$ ir trapece, pie tam vienādsānu (leņķi pie 
 pamata $PM$ abi ir $60^{\circ}$ ). Tāpēc 
@@ -833,7 +833,7 @@ $$(f(x))^{2}+(g(x))^{2}=\left(x^{2}+1\right)\left(x^{2}+4\right)\left(x^{2}+2x+2
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** 
 $\left(x^{2}+y^{2}\right)\left(z^{2}+t^{2}\right)=(xz+yt)^{2}+(xt-yz)^{2}$
@@ -863,7 +863,7 @@ ja **(A)** $n=8$, **(B)** $n=9$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** nē, **(B)** jā.
 
@@ -902,7 +902,7 @@ monētu daudzums var vienlaicīgi atrasties ar ģerboni uz augšu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $8$ monētas.
 
@@ -930,7 +930,7 @@ $1\ 000\ 001$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $n$ dalās gan ar $999\ 999$, gan ar $1\ 000\ 001$. Tā kā
 $LKD(999\ 999,\ 1\ 000\ 001)1$, tad $n$ dalās arī ar 
@@ -955,7 +955,7 @@ $\frac{1}{x}+\frac{1}{y}+\frac{1}{z}+\frac{1}{t} \leq 4$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** jā, **(B)** nē.
 
@@ -984,7 +984,7 @@ katrā) ar vienādām kopējām masām.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka siera gabalu masas ir 
 $m_{1} \leq m_{2} \leq m_{3} \leq m_{4} \leq m_{5} \leq m_{6} \leq m_{7}$.
@@ -1015,7 +1015,7 @@ līniju garumu summu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka rūtiņas malas garums ir $1$. Apskatīsim vertikālās rūtiņu 
 līnijas; tās sadala daudzstūri $2$ trijstūros un kaut kādā daudzumā trapeču/ 
@@ -1052,7 +1052,7 @@ divas nav paralēlas savā starpā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** apskatām dotās punktu sistēmas izliekto apvalku. Ņemam vienu tā 
 virsotni. Tās $n-1$ taisnes, kas iet caur šo virsotni un citiem $n-1$ punktiem,
@@ -1084,7 +1084,7 @@ Punkts $P$ atrodas regulāra trijstūra $ABC$ iekšpusē. Pierādīt, ka:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Lemma.** $PA<AB$.
 
@@ -1133,7 +1133,7 @@ $$\frac{1}{1^{4}+1^{2}+1}+\frac{2}{2^{4}+2^{2}+1}+\frac{3}{3^{4}+3^{2}+1}+\ldots
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka katram $n>0$ pastā vienādība
 
@@ -1162,7 +1162,7 @@ vienādas savā starpā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\sphericalangle ASB=\alpha$. Saskaņā ar teorēmu par pieskares garuma
 kvadrātu mums pietiek pierādīt, ka $SM \cdot SA=SN \cdot SD$.
@@ -1197,7 +1197,7 @@ Cik darbinieku strādā firmā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim to no patiesajiem darbiniekiem $(P)$, kas saņem vislielāko algu. Ir 
 vismaz $90$ meļu $(M)$, kas saņem lielāku algu, nekā viņš. Apskatīsim to no 
@@ -1238,7 +1238,7 @@ Vai var nokrāsot melnu visu kvadrātu, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** nevar, **(B)** var.
 
@@ -1272,7 +1272,7 @@ $A,\ B,\ M,\ N,\ K$ - punkti, kas atrodas kvadrātiska režģa virsotnēs (skat.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli pārliecināties, ka punkti $A,\ B,\ K,\ N,\ M$ atrodas vienādos attālumos
 no iekrāsotās rūtiņas centra, tātad atrodas uz vienas riņķa līnijas. Tātad 
@@ -1300,7 +1300,7 @@ laukumu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $f(x)=x^{3}-6x^{2}+7x-1$. Tā kā 
 $f(0)<0,\ f(1)>0,\ f(2)<0,\ f(1000)>0$, tad pa vienai saknei ir intervālos 
@@ -1327,7 +1327,7 @@ pa labi - balta?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, nevar.
 
@@ -1359,7 +1359,7 @@ vērtībai.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** nevar, **(B)** var.
 
@@ -1399,7 +1399,7 @@ vietās.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantosim matemātisko indukciju. Pie $n=1$ un $n=2$ apgalvojums acīmredzami 
 pareizs. Pieņemsim, ka tas pareizs pie $n<k$, un apskatīsim gadījumu, kad 

@@ -6,7 +6,7 @@ satur maksimālo iespējamo pirmskaitļu skaitu.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Eksistē tikai viens šāds skaitlis $k=1$.
 

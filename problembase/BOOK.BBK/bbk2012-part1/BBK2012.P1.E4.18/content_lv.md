@@ -3,7 +3,7 @@
 Cik daudz ir trīsciparu skaitļu, kas dalās ar $13$?
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Trīsciparu skaiţ̦i atrodas intervālā $[100; 999]$. Intervālā $[1; 999]$ atrodas 
 $[999 / 13] = 76$ skaitļi, kas dalās ar $13$. Intervālā $[1; 99]$ atrodas $[99 / 13] = 7$ skaitļi, 

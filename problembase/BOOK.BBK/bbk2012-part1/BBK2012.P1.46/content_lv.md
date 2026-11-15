@@ -5,7 +5,7 @@ Kādas var būt skaitļa $a$ vērtības?
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $a \mid(2077-100)=1977$. Skaitļa $1977$ sadalījums 
 pirmreizinātājos ir šāds: $1977=3 \cdot 659$. Tātad $a \in\{1,3,659,1977\}$.

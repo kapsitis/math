@@ -11,7 +11,7 @@ dalās ar $7$ ($11$ vai $13$).
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $1000^k \equiv (-1)^k \pmod {1001}$, tad 
 $$\overline{a_1a_2a_3\cdots{}a_{3m-2}a_{3m-1}a_{3m}} \equiv \overline{a_1a_2a_3} \cdot 10^{3m-3} + \cdots + \overline{a_{3m-2}a_{3m-1}a_{3m}} \equiv$$

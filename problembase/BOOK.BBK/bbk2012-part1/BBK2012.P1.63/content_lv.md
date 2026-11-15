@@ -6,7 +6,7 @@ dalās ar $m$, skaitlis $cx + dy$ arī dalās ar $m$.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstīsim sekojošu identitāti
 

@@ -18,7 +18,7 @@ Strēmelītes nedrīkst pārklāties.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var; skat., piem., 3.zīm.
 
@@ -51,7 +51,7 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ņemt, piemēram, $13$ kartiņas ar skaitļiem
 
@@ -85,7 +85,7 @@ melnas rūtiņas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var; skat., piem., 4.zīm.
 
@@ -116,7 +116,7 @@ pārī meitene garāka par zēnu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, nevar; neviena meitene nav garāka par visgarāko zēnu.
 
@@ -161,7 +161,7 @@ dalās ar $61$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ $10248$
 
@@ -192,7 +192,7 @@ meļu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\underline{Atbilde:}$ divi meļi.
 
@@ -229,7 +229,7 @@ $n=11$, **(B)** $n=13$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē. Vienā kolonnā ar $4$ var atrasties tikai $5$, un vienā kolonā ar 
 $11$ arī var atrasties tikai $5$. Bet $5$ nevar reizē atrasties $2$ kolonnās.
@@ -263,7 +263,7 @@ starpā nedrīkst pārklāties.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē; $12$ figūriņām ir pats lielākais $12 \cdot 4=48<7 \cdot 7$ rūtiņas;
 
@@ -291,7 +291,7 @@ septītniekus?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, neeksistē. Tāda skaitļa ciparu summa ir $45$, tātad tas dalās ar 
 $9=3 \cdot 3$; bet starp tā pirmreizinātājiem nav neviena trijnieka.
@@ -317,7 +317,7 @@ vismaz divi no bērniem nopirka vienu un to pašu nosaukumu sieriņus.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim vispirms, ka ir divi bērni, kam sakrīt vismaz divu nopirkto sieriņu 
 nosaukumi (šis fakts neizmantos to, ka visi samaksāja vienādus naudas 
@@ -356,7 +356,7 @@ $x=a^{5},\ y=b^{3}$, $a$ un $b$ - naturāli skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jebkuru: $n=n^{10}:n^{9}=\left(n^{2}\right)^{5}:\left(n^{3}\right)^{3}$
 
@@ -390,7 +390,7 @@ summa ir pozitīva. Katru $3$ pēc kārtas uzrakstīto skaitļu summa ir negatī
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $7;\ -4;\ -4;\ 7;\ -4;\ -4;\ 7;\ -4;\ -4;\ 7;\ -4;\ -4;\ 7$
 
@@ -424,7 +424,7 @@ katru soli šķērsojot kādu divu melnu rūtiņu kopējo malu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Skat., piem., 7.zīm.
 
@@ -450,7 +450,7 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Meklējamo skaitli apzīmēsim ar $n$. Tā iespējami pozitīvie dalītāji (dilstošā 
 secībā) ir $n; \frac{n}{2}; \frac{n}{3}; \frac{n}{4}; \ldots$
@@ -493,7 +493,7 @@ noskaidrot vismaz vienu viltoto monētu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var rīkoties, piemēram, šādi:
 
@@ -533,7 +533,7 @@ skolēni pareizi izpildīja sev doto uzdevumu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skolēni, kas uzrakstīja "gas", visi kļūdījās. Daži no $22$ skolniekiem, kam 
 bija jāraksta "galds", uzrakstīa "gals", pārējie - "gads". Tātad no $15+15=30$ 
@@ -561,7 +561,7 @@ $$x^{3}\left(x^{2}-7\right)^{2}-36x=0$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar ekvivalentiem pārveidojumiem vienādojums pārveidojas par 
 $x\left(x^{2}-1\right)\left(x^{2}-4\right)\left(x^{2}-9\right)=0$. Tāpēc 
@@ -587,7 +587,7 @@ un $\sphericalangle OCA=\sphericalangle OAC$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** nē, nevar.
 
@@ -619,7 +619,7 @@ kārtas ņemtiem naturāliem skaitļiem.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $12$ pēc kārtas ņemtiem naturāliem skaitļiem vismaz viens dalās ar $5$, 
 vismaz viens - ar $7$, vismaz viens - ar $8$, vismaz viens - ar $9$ un vismaz 
@@ -629,7 +629,7 @@ reizinājumu $5 \cdot 7 \cdot 8 \cdot 9 \cdot 11=27720$. Tātad $A \geq 27720$.
 Skaidrs, ka skaitlis $27720$ dalās ar $1;\ 2;\ 3;\ \ldots;\ 11;\ 12$. Tātad 
 meklējamais skaitlis ir $27720$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Apzīmējam ar $M$ mazāko skaitli, kas dalās ar $12$ pēc kārtas sekojošiem $\mathbb{N}$ 
 elementiem.
@@ -662,7 +662,7 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā griežot iegūtajā kvadrātā vienas krāsas rūtiņu ir par $1$ vairāk nekā 
 otras krāsas rūtiņu, un vairākums rūtiņu ir tajā krāsā, kurā ir centrālā 
@@ -689,7 +689,7 @@ $1;\ 2;\ 3;\ 4;\ 5;\ 6;\ 7;\ 9$, izmantojot katru no tiem tieši vienu reizi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šādi pirmskaitļi var būt, piemēram, $23;\ 41;\ 59;\ 67$. To summa ir $190$. Tā 
 nevar būt citāda, jo cipari $2;\ 4;\ 5;\ 6$ nevar būt saskaitāmo pirmskaitļu 
@@ -715,7 +715,7 @@ $2x^{2}+2y^{2} \leq 5xy$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādāmo nevienādību viegli pārveidot par $(x-2y)(2x-y) \leq 0$ un tālāk par 
 $\left(\frac{x}{y}-\frac{1}{2}\right)\left(\frac{x}{y}-2\right) \leq 0$, kas ir
@@ -742,7 +742,7 @@ $\triangle ABC$ leņķu lielumus.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mediāna pret hipotenūzu vienāda ar pusi no hipotenūzas, tāpēc $MA=MC$. Tā kā 
 $\triangle AMC \sim \triangle AYX$, tad $YA=YX$. Pieskaru vienādības dēļ 
@@ -775,7 +775,7 @@ $n$ reizes.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja visi iespējamie policistu trijnieki ir nodežurējuši pa vienai 
 reizei, tad katrs pāris ir dežurējis kopā ar pieciem citiem policistiem; tātad 
@@ -808,7 +808,7 @@ stūris, tad tajās ierakstīto skaitļu lielākais kopīgais dalītājs ir $1$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā $2 \times 2$ rūtiņu kvadrātā var būt ne vairāk kā viens pāra skaitlis. 
 Tātad nepāra skaitļi ierakstīti vismaz $25 \times 3=75$ reizes. Tā kā to 
@@ -840,7 +840,7 @@ noskaidrot, cik ir viltoto monētu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Salīdzinām divas monētas $A$ un $B$. Pastāv divas iespējas.
 
@@ -873,7 +873,7 @@ tām ir kopēja mala.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pie nepāra $n$ to var izdarīt, piemēram, šādi: $2; 4; 6; \ldots$ rindās visas 
 rūtiņas nokrāso melnas, bet pērējās rindās visas rūtiņas nokrāso šādi: $1.$ 
@@ -904,7 +904,7 @@ sadalīt divās daļās, kuru summas ir vienādas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** piemēram, $n=30$; dalītāju grupas ir $1+2+3+5+10+15=6+30$.
 
@@ -926,7 +926,7 @@ Pierādīt, ka $\sphericalangle CMS=\sphericalangle DMS$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka $\triangle BSC \sim \triangle DSA$ (atbilstošie leņķi vienādi kā 
 krustleņķi un kā iekšējie šķērsleņķi pie paralēlām taisnēm). Līdzīgos 
@@ -950,7 +950,7 @@ Dots, ka $f(x)=x^{2}+8x+12$. Atrisināt vienādojumu $f(f(f(x)))=0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $f(x)=(x+4)^{2}-4$. Tāpēc 
 $f(f(x))=\left((x+4)^{2}-4+4\right)^{2}-4=(x+4)^{4}-4$ un 
@@ -978,7 +978,7 @@ $$x^{2}+3x=2^{y}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam vienādojumu par $x(x+3)=2^{y}$. Ja $x$ - pāra skaitlis, tad $x+3$ -
 nepāra skaitlis, kas lielāks par $1$, tātad dalās ar kādu nepāra pirmskaitli; 
@@ -1005,7 +1005,7 @@ neizdodas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Pieņemsim, ka tāda pāra nav. Lūgsim katram zēnam uzrakstīt $y$ dažādas 
 kartītes - katru ar savu vārdu un kādu tās meitenes vārdu, kas viņam patīk. 
@@ -1038,7 +1038,7 @@ $a$, ka $f_{1}(a)<f_{2}(a)<f_{3}(a)$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, eksistē. Pietiek, ka to grafiki krustojas tā, kā parādīts 6.zīm. Šādā 
 risinājumā nepieciešams, lai vai nu tiktu uzrādīti konkrēti trinomi, vai arī 
@@ -1061,7 +1061,7 @@ Pierādīt, ka punkti $A;\ Y;\ Z;\ M$ atrodas uz vienas riņķa līnijas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle AYC=90^{\circ}=\sphericalangle AXC$, tad ap $AYXC$ var 
 apvilkt riņķa līniju; tāpēc $\sphericalangle ACY=\sphericalangle AXY$ kā 
@@ -1090,7 +1090,7 @@ Kādi skaitļi izrakstīti rindā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto vienādību varam ekvivalenti pārveidot par 
 $\frac{1}{y}=\frac{\frac{1}{x}+\frac{1}{z}}{2}$. Tātad dotajiem skaitļiem 
@@ -1115,7 +1115,7 @@ Vai var vienlaicīgi pastāvēt tikai divas no šīm vienādībām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a_{1}=1;\ a_{2}=2;\ a_{3}=4;\ a_{4}=8$ un $f(x)=x^{2}-x+2$, no minētajām 
 vienādībām pastāv tikai pirmās divas. Visas šīs vienādības nevar vienlaicīgi 
@@ -1144,7 +1144,7 @@ Kurām $n$ vērtībām, beidzot šīs darbības, visas spuldzes būs ieslēgtas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n=2^{k},\ k=0;\ 1;\ 2;\ \ldots$.
 
@@ -1176,7 +1176,7 @@ b. skaitļa $n$ visu naturālo dalītāju summa (ieskaitot $1$ un $n$)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tieša pārbaude parāda, ka neder $n=1;\ 2;\ 3;\ 4;\ 5$, tātad $n \geq 6$. Ja 
 $n$, dalot ar $3$, dod atlikumu $1$ resp. $2$, tad $n-1$ resp. $n+1$ nav 
@@ -1202,7 +1202,7 @@ secībā. Pierādiet, ka $AX=YZ$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $AX=BX$, mums pietiek pierādīt, ka $BX=YZ$. Tas būs pierādīts, ja 
 iegūsim, ka $\Delta CZY=\Delta ZBX$. Bet tā tas ir, jo (1) $CZ=ZB$ kā hordas, 
@@ -1238,7 +1238,7 @@ melnas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** ar $144$ gājieniem.
 

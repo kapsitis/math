@@ -10,7 +10,7 @@ $$|a|+|b|<6\ ?$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a=0$, tad $b$ var pieņemt $11$ vērtības $0$, $\pm 1$, $\pm 2$, $\pm 3$, $\pm 4$, $\pm 5$.
 
@@ -36,7 +36,7 @@ $1.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. 3. zīm.
 
@@ -56,7 +56,7 @@ Vai var atrast tādus trīs naturālus skaitļus $a$, $b$ un $c$, ka $(a+b)(b+c)
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, šādus skaitļus atrast nevar.
 
@@ -74,7 +74,7 @@ Dotas $8$ pēc ārējā izskata vienādas monētas. No tām $7$ ir ar vienādu m
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Novietojam uz katra svaru kausa pa divām monētām. Ja kausi nav līdzsvarā, tad atšķirīgā monēta ir starp šīm četrām. Ja ir līdzsvarā, tad starp atlikušajām četrām. Atrastas četras monētas, starp kurām ir atšķirīgā.
 
@@ -93,7 +93,7 @@ Konferencē piedalījās $17$ zinātnieki. Katrs no viņiem konstatēja, ka konf
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim divus zinātniekus $A$ un $B$. Pierādīsim, ka viņi ir radinieki. Pieņemsim pretējo, ka $A$ un $B$ nav radinieki. Tad atlikuši ir $15$ zinātnieki, starp kuriem ir $8$ $A$ radinieki un $8$ $B$ radinieki; tā kā kopā sanāk $16$ cilvēki, tad starp tiem ir kopīgs zinātnieks $C$ – viņš ir gan $A$ radinieks, gan $B$ radinieks. Bet tādā gadījumā arī $A$ un $B$ ir radinieki. Iegūta pretruna; tātad jebkuri divi zinātnieki konferencē ir radinieki.
 
@@ -109,7 +109,7 @@ Vai naturālos skaitļus no $1$ līdz $25$ ieskaitot var izrakstīt rindā katru
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var. Piemēram, šādi:  
 $1, 3, 5, 2, 4, 6, 8, 10, 7, 9, 11, 13, 15, 12, 14, 16, 18, 20, 17, 19, 21, 23, 25, 22, 24$.
@@ -130,7 +130,7 @@ Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat. 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā trijstūrī pret vienādiem leņķiem atrodas vienādas malas, tad $AE=AD$ un $AC=AB$ (skat. 4. zīm.). Bez tam $\angle EAC=60^{\circ}-\angle CAD=\angle DAB$. Tāpēc $\triangle EAC=\triangle DAB$ pēc pazīmes „mlm”, un no tā seko, ka $EC=DB$.
 
@@ -155,7 +155,7 @@ Par kurām funkcijām var noteikti pateikt, kurš no dotajiem ir tās grafiks?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim visas taisnes (skat. 5. zīm.).
 
@@ -179,7 +179,7 @@ Ar $\overline{xyz}$ apzīmēsim trīsciparu skaitli ar cipariem $x$ (simti), $y$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka
 $$
@@ -206,7 +206,7 @@ Pierādīt: vai nu ir divas kaudzītes, kurās ir vienāds sērkociņu skaits, v
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemam pretējo tam, kas jāpierāda. Tad no katra skaitļu pāra $(1; 12)$, $(2; 11)$, $(3; 10)$, $(4; 9)$, $(5; 8)$, $(6; 7)$ augstākais viens var būt sērkociņu skaits kādā kaudzītē. Tāpēc sērkociņu nav vairāk kā $7+8+9+10+11+12=57$ – pretruna.
 
@@ -225,7 +225,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visiem skaitļiem $n$ izpildās vienādība
 $$
@@ -256,7 +256,7 @@ Pārējās daļas saīsinās.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pierādīsim, ka $AE\perp BC$ (skat. $6.$ zīm.).
 
@@ -278,7 +278,7 @@ Dots, ka $a$ un $b$ ir naturāli skaitļi un $a+b=210$. Pierādīt, ka $ab$ neda
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka $a\cdot b$ dalās ar $210$.
 
@@ -298,7 +298,7 @@ Dots, ka $x$ un $y$ – naturāli skaitļi un $x+y$ ir nepāra skaitlis. Zināms
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo. Viens no skaitļiem $x$ un $y$ ir pāra, otrs – nepāra; pieņemsim, ka $x$ – pāra, $y$ – nepāra.
 
@@ -319,7 +319,7 @@ b) $n=100$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) Tas ir iespējams. Sākumā kaudzīšu ar nepāra skaitu konfekšu ir pāra skaits. Apvienojam tās pa pāriem un no lielākās kaudzītes pārliekam mazākajā kaudzītē atbilstošo konfekšu skaitu. Tagad visās kaudzītēs ir pāra skaits konfekšu. Uzskatīsim, ka mums tagad ir $32$ dubultkonfektes, kuras turpmāk neatdalīsim. Tagad mums ir pāra skaits kaudzīšu, kurās ir nepāra skaits dubultkonfekšu. Atkārtojot iepriekšējo operāciju, iegūstam kaudzītes, kurās kopā ir $16$ kvadrokonfektes. Atkārtojot iepriekšējo operāciju, iegūstam kaudzītes, kurās kopā ir $8$ oktāvkonfektes ($8$ apvienotas konfektes). Līdzīgi iegūstam $4$ $16$-konfektes, $2$ $32$-konfektes un vienu kaudzi ar $64$ konfektēm.
 
@@ -337,7 +337,7 @@ Atrisināt vienādojumu $x^2+y^2+4x-6y+13=0$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atdalām pilnos kvadrātus:
 
@@ -365,7 +365,7 @@ Tātad $x+2=0$ un $y-3=0$ jeb $x=-2$ un $y=3$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\angle BMD+\angle BND=90^{\circ}+90^{\circ}=180^{\circ}$, tad ap $BNDM$ var apvilkt riņķa līniju (skat. $7.$ zīm.). Tāpēc $\angle BMN=\angle BDN$ (ievilkti leņķi, kas balstās uz vienu un to pašu loku). Bet $\angle NCD=90^{\circ}-\angle NDC=\angle BDN$, tātad $\angle NCD=\angle BMN$.
 
@@ -387,7 +387,7 @@ Kāda ir lielākā iespējamā ciparu summa septiņciparu naturālam skaitlim, k
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Septiņciparu naturāls skaitlis dalās ar $8$ tad un tikai tad, ja tā pēdējo $3$ ciparu veidotais skaitlis dalās ar $8$ (jo $\ldots abc=\ldots 000+\overline{abc}=\ldots\cdot 10^3+\overline{abc}$).
 
@@ -418,7 +418,7 @@ Nekādas divas komisijas nesastāv no vieniem un tiem pašiem cilvēkiem. Komisi
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim cilvēkus ar $A$, $B$, $C$, $D$. Lai izpildītos uzdevuma nosacījumi, var izveidot $8$ komisijas:
 
@@ -441,7 +441,7 @@ Ja kaut kāds skaitlis $x$ jau ir uz tāfeles, tad ar kārtējo gājienu drīkst
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzvar Gunārs.
 
@@ -460,7 +460,7 @@ Atrisināt vienādojumu $x^2+5y^2+2xy+4y+1=0$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atdalām pilnos kvadrātus:
 
@@ -495,7 +495,7 @@ b) Vai var 6.zīm. parādītās tabulas rūtiņās ierakstīt naturālus skaitļ
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) jā, skat., piemēram, $8.$ zīm.
 
@@ -518,7 +518,7 @@ Pierādīt, ka punkti, kas ir simetriski trijstūra augstumu krustpunktam attiec
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā punkti $H$ un $D$ ir simetriski attiecībā pret taisni $BC$ (skat. $9.$ zīm.), tad $\angle CDA=\angle CHA_1$, bet $\angle CHA_1=\angle CBA$ kā leņķi ar savstarpēji perpendikulārām malām. Tātad $\angle CDA=\angle CBA$ un tāpēc punkts $D$ atrodas uz riņķa līnijas. Līdzīgi pierāda, ka arī pārējie punkti atrodas uz trijstūrim $ABC$ apvilktās riņķa līnijas.
 
@@ -538,7 +538,7 @@ Kvadrāts sastāv no $4 \cdot 4$ vienādām kvadrātiskām rūtiņām. Katrā r�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka rūtiņas uz kvadrāta vienas diagonāles var nokrāsot patvaļīgi. Pamatosim, ka šādā gadījumā tiek pilnībā noteikts citu rūtiņu krāsojums. Apskatīsim, kā jākrāso rūtiņas pēc tam, kad diagonāles rūtiņas jau ir nokrāsotas. Gadījumā, kad vēl nenokrāsotai rūtiņai ir divas kopīgas blakus malas ar jau nokrāsotām rūtiņām, ir noteikts, kādam jābūt nenokrāsotās rūtiņas krāsojumam. Jāapskata divi atšķirīgi gadījumi:
 
@@ -573,7 +573,7 @@ b) vai $5n+3$ var būt pirmskaitlis?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) piemēram, $n=40$.
 
@@ -595,7 +595,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visiem skaitļiem $n$ izpildās vienādība
 
@@ -627,7 +627,7 @@ Trijstūrī $ABC$ visas malas dažāda garuma un $\angle B = 60^{\circ}$. Uz sta
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $\triangle ABC$ ievilktās riņķa līnijas centru ar $I$ (skat. $13.$ zīm.). Tad $\angle AIC=180^{\circ}-\frac{1}{2}(\angle A+\angle C)=180^{\circ}-\frac{1}{2}(180^{\circ}-60^{\circ})=120^{\circ}$. Tā kā $\triangle ACI=\triangle YCI$ (pēc pazīmes „mlm”), tad arī $\angle CIY=120^{\circ}$. Līdzīgi pierāda, ka $\angle AIX=120^{\circ}$. Bet no tā seko, ka stari $IY$ un $IX$ sakrīt. No tā seko, ka $X$, $Y$ un $I$ atrodas uz vienas taisnes jeb $I$ atrodas uz taisnes $XY$, kas arī bija jāpierāda.
 
@@ -647,7 +647,7 @@ Vai eksistē tāds naturāls skaitlis $n$, ka $6^n - 1$ dalās ar $4^n - 1$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $6^n-1$ dalās ar $4^n-1$. Tad arī $(6^n-1)-(4^n-1)=6^n-4^n=2^n(3^n-2^n)$ dalās ar $4^n-1$. Tad $3^n-2^n$ jādalās ar $4^n-1$ (jo reizinātājs $2^n$ neiespaido dalīšanos ar nepāra skaitli $4^n-1$). Bet $3^n-2^n<3^n-1<4^n-1$ un tāpēc $3^n-2^n$ nevar dalīties ar $4^n-1$. Iegūta pretruna.
 
@@ -669,7 +669,7 @@ b) $x^2 + x$ un $x^2 - 2$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) nevar. Pie $x=2$ abu sākotnējo polinomu vērtības dalās ar $3$, tāpēc ar $3$ jādalās arī visu iegūstamo polinomu vērtībām. Bet polinoms $x$ nedalās ar $3$, ja $x=2$.
 
@@ -696,7 +696,7 @@ Cik dažādi skolēnu izvietojumi iespējami pēc pārkārtošanās?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim atbilstošu pārkārtojumu skaitu $n$ skolēnu gadījumā ar $a_n$. Acīmredzami, $a_1=1$ un $a_2=2$.
 

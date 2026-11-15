@@ -9,7 +9,7 @@ bet pārējos sadalīja savā starpā piecās vienādās daļās.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pievienosim sākotnējai riekstu kaudzei $4$ viltus riekstus. Tad šo kaudzi pirmais jūrnieks 
 var sadalīt $5$ vienādās daļās. Šo procesu var atkārtot $6$ reizes. Tātad 

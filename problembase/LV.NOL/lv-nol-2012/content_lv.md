@@ -20,7 +20,7 @@ Parādīt, kā no skaitļa $5$ var iegūt skaitli $21$, vairakkārt pielietojot 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, $5 \rightarrow 15 \rightarrow 1 \rightarrow 3 \rightarrow 9 \rightarrow 27 \rightarrow 81 \rightarrow 8 \rightarrow 24 \rightarrow 72 \rightarrow 7 \rightarrow 21$.
 
@@ -43,7 +43,7 @@ Cik rūtiņas liels ir kvadrāta $ABCD$ laukums (skat. 1.zīm.)?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai aprēķinātu kvadrāta $ABCD$ laukumu, no kvadrāta $KLMN$ laukuma jāatņem 
 trijstūru $ALB,\ BMC,\ CND,\ DKA$ laukumi (skat. 1.zīm.). Šie trijstūri kopā 
@@ -71,7 +71,7 @@ cipariem $1,\ 2,\ 3,\ 4,\ 5,\ 7,\ 8$ izmantots tieši vienu reizi.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** piemēram, $1428357$.
 
@@ -106,7 +106,7 @@ uzziedētu atšķirīgas krāsas tulpes un lai katrā rindā jebkuras trīs pēc
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, nevar gadīties. Tad katrā rindā kopējais ziedu skaits būtu trīs 
 nepāra saskaitāmo summa, t.i., nepāra skaitlis, bet katrā rindā jābūt $10$ 
@@ -146,7 +146,7 @@ $2$: $11,\ 12,\ 22,\ 21$.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Skat., piem., 3.zīm. **(B)** Skat., piem., 4.zīm.
 
@@ -170,7 +170,7 @@ summa dalās ar $5$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, $49999$ un $50000$.
 
@@ -194,7 +194,7 @@ skaitlis $53421$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pavisam šajā virknē ir $5 \cdot 4 \cdot 3 \cdot 2 \cdot 1=120$ skaitļi. 
 Interesējošais skaitlis ir pēdējais, kas sākas ar $53$, un pēc šī skaitļa 
@@ -224,7 +224,7 @@ un riņķa līniju, kas krusto uzzīmētā daudzstūra katru malu tieši vienā 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Skat., piem., 5.zīm.
 
@@ -258,7 +258,7 @@ jebkuru divu blakus stāvošu skaitļu summa būtu pirmskaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar. Ievērosim, ka divu dažādu naturālu skaitļu summa ir lielāka nekā 
 $2$, un visi pirmskaitļi, kas lielāki nekā $2$, ir nepāra skaitļi. Ja uzdevuma 
@@ -292,7 +292,7 @@ var uzdot tieši vienu jautājumu, uz kuru viņš var atbildēt tikai ar "jā" v
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzdevumam iespējami dažādi risinājumi.
 
@@ -341,7 +341,7 @@ vairākas reizes jebkādā secībā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, piemēram: 
 $9 \rightarrow 63 \rightarrow 441 \rightarrow 41 \rightarrow 287 \rightarrow 27$.
@@ -369,7 +369,7 @@ starp kuriem ir astoņstūris.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 6.zīm.
 
@@ -394,7 +394,7 @@ skaitļu reizinājumus. Cik no šiem septiņiem reizinājumiem ir pozitīvi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** tieši divi no tiem.
 
@@ -431,14 +431,14 @@ Pierādīt, ka $1004041$ nav pirmskaitlis.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka 
 $1004041=1014141-10100=101 \cdot 10000+101 \cdot 40+101 \cdot 1-101 \cdot 100=101 \cdot(10000+40+1-100)=101 \cdot 9941$,
 tātad tas nav pirmskaitlis.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Var pamanīt dalāmības pazīmi ar $101$ (pēc analoģijas ar dalāmības pazīmi ar $11$):  
 Ar $101$ dalās skaitļi, kam apaļajās un kvadrātiekavās likto ciparu grupu summas ir savstarpēji vienādas 
@@ -470,7 +470,7 @@ ar malas garumu $2$ un kuros ierakstīto skaitļu summa ir vismaz $18$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalīsim sākotnējo trijstūri četros vienādmalu trijstūros ar malas garumu $2$ 
 (skat. 7.zīm.). Tā kā ir četri šādi trijstūri (kas nepārklājas), un tajos 
@@ -498,7 +498,7 @@ reizinātājiem ir lielāks nekā $1$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojam kvadrātu starpības formulu. Ievērojam, ka 
 $3999991=4000000-9=2000^{2}-3^{2}=(2000-3) \cdot(2000+3)=1997 \cdot 2003$.
@@ -524,7 +524,7 @@ Pierādīt, ka punkts $F$ ir malas $BC$ viduspunkts.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 $\sphericalangle FCE=\sphericalangle CEF=\sphericalangle EFC=60^{\circ}$. Tad 
 $\sphericalangle BFE=180^{\circ}-60^{\circ}=120^{\circ}$ (blakusleņķi) un 
@@ -552,7 +552,7 @@ vieni.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka skaitlis $\overline{aabbcc}=11 \cdot \overline{a0b0c}$ dalās ar 
 $11$, taču neviens cipars nedalās ar $11$. Tātad $\overline{aabbcc}$ nevar būt 
@@ -576,7 +576,7 @@ uzzīmētie punkti atrastos tieši $1~\mathrm{cm}$ attālumā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 9.zīm.; katra novilktā nogriežņa garums ir $1~\mathrm{cm}$, bet 
 pārējie attālumi starp šiem punktiem ir lielāki vai mazāki nekā 
@@ -606,7 +606,7 @@ uzskatāmi par vienādiem.)
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., 10.zīm. attēloto figūru. Dalot to "stūrīšos", sākot no augšējās 
 rindas, iegūst trīs sadalījumus (skat. 10. a), b) un c) zīm.). Taču 10. b) un 
@@ -633,7 +633,7 @@ $a+b=2012$. Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x=1$, tad $y=a-2+b=2010$. Ja $x=-1$, tad $y=a+2+b=2014$. Tātad punkti 
 $(1; 2010)$ un $(-1; 2014)$ pieder visu minēto funkciju grafikiem.
@@ -657,7 +657,7 @@ izvēles.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim dotā regulārā trijstūra $ABC$ malas garumu ar $a$ un augstumu ar $h$ 
 (skat. 1.zīm.). Tad 
@@ -685,7 +685,7 @@ katrā grupā būtu tieši $5$, $6$ vai $7$ cilvēki?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n=5,6,7$ un $n \geq 10$.
 
@@ -725,7 +725,7 @@ divu iepriekšējo locekļu kvadrātu summas pēdējo ciparu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Apzīmējot virknes pāra locekļus ar $p$ un nepāra ar $n$, iegūsim virkni
 $n, n, p, n, n, p, n, \ldots$, viegli saprast, ka šī virkne ir periodiska ar 
@@ -761,7 +761,7 @@ ka šo skaitļu summa dalās ar $n$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim: ja skaitlis $x$ ir savstarpējs pirmskaitlis ar skaitli $n$, tad arī 
 skaitlis $n-x$ ir savstarpējs pirmskaitlis ar $n$. Tāpēc visus skaitļus no $1$ 
@@ -786,7 +786,7 @@ $n$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** $(a+b)^{2}=c^{2} \Rightarrow a^{2}+2ab+b^{2}=c^{2} \Rightarrow a^{2}+2ab-b^{2}=c^{2}-2 b^{2} \Rightarrow$ $2 a^{2}-(a-b)^{2}=c^{2}-2b^{2}$
 
@@ -814,7 +814,7 @@ taisnleņķa trijstūris.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim 2.zīmējumu. No trijstūru $BKC$ un $ABK$ līdzības seko, ka pastāv trīs
 iespējas.
@@ -845,7 +845,7 @@ pirmskaitli $p$, ka tieši viens no dotajiem skaitļiem dalās ar $p$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotos skaitļus apzīmēsim ar $a,\ a+1,\ a+2,\ a+3,\ a+4,\ a+5$, $a \geq 1$. 
 Viens no skaitļiem $a+2,\ a+3$ ir nepāra, pieņemsim, ka tas ir $a+3$. Tad abi 
@@ -873,7 +873,7 @@ uzrakstīti viens aiz otra. Cik cipari uzrakstīti?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $n$ ir skaitļa $2^{2012}$ ciparu skaits, $m$ - skaitļa $5^{2012}$
 ciparu skaits. Tad $10^{n-1}<2^{2012}<10^{n}$ un $10^{m-1}<5^{2012}<10^{m}$. 
@@ -905,7 +905,7 @@ attiecībā pret galveno diagonāli, skat. 1.zīm. iekrāsoto diagonāli).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka der $n=1$ (no vienas rūtiņas sastāvoša tabula vienmēr ir simetriska
 pret galveno diagonāli) un $n=2$ (tā kā $a+b=a+c$, tad $b=c$, skat. 3.zīm.).
@@ -932,7 +932,7 @@ simetrisku $8$-ciparu skaitli?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Simetrisks $8$-ciparu skaitlis $\overline{abcddcba}$ dalās ar $11$, jo tā 
 ciparu summa pāra pozīcijās $a+c+d+b$ ir vienāda ar ciparu summu nepāra 
@@ -958,7 +958,7 @@ $$\left\{\begin{array}{l}
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visiem vienādojumiem abām pusēm pieskaitot $4$, iegūstam
 
@@ -1007,7 +1007,7 @@ summa?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim regulārā trijstūra malu $AB$ un trīs sekojošas deviņstūra malas 
 $AK,\ KL$ un $LB$ (skat. 5.zīm.). Ievērosim, ka trijstūri $AKL$ un $ALB$ ir 
@@ -1035,7 +1035,7 @@ pakāpe jebkuram naturālam $k \geq 2$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Der, piemēram, aritmētiskā progresija $2,6,10, \ldots$, vispārīgā locekļa 
 formula $a_{n}=4n-2$, $n \geq 1$.
@@ -1067,7 +1067,7 @@ svēršanām atrast **vismaz** vienu monētu, kas sver $7$ gramus?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var rīkoties, piemēram, šādi.
 
@@ -1094,7 +1094,7 @@ $a>-\frac{1}{2}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $x<0$. Tad $x^{3}<0,\ x^{2}>0$ un $-2x^{2}<0,\ 3x<0$, tāpēc 
 $x^{3}-2x^{2}+3x-4<0$. Tātad vienādojuma $x^{3}-2x^{2}+3x-4=0$ sakne $a$ nevar 
@@ -1113,7 +1113,7 @@ skaldnei ir nepāra skaits virsotņu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katra šķautne ir mala tieši divām skaldnēm, tātad divkāršots daudzskaldņa 
 šķautņu skaits ir vienāds ar visu skaldņu malu skaitu summu, tāpēc šī summa ir 
@@ -1134,7 +1134,7 @@ $MN$ krustojas punktā $X$. Pierādīt, ka $\triangle NBX \sim \triangle PBC$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No bisektrises īpašības iegūstam $\frac{AB}{AP}=\frac{BC}{PC}$. Tā kā $AM=BC$ 
 un $AN=PC$, tad ir spēkā $\frac{AB}{AP}=\frac{AM}{AN}$. Tāpēc 
@@ -1163,7 +1163,7 @@ Kādiem pirmskaitļiem $p$ skaitlim $p^{2}+23$ ir tieši četri naturāli dalīt
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $p=2$.
 
@@ -1198,7 +1198,7 @@ $A_{l}$, $E$ būtu starp $A_{l}$ un $A_{i}$. Kādām $i, j, k, l$ vērtībām pu
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ar $b, c, d$ un $e$ apzīmējam virsotņu skaitu attiecīgi starp $A_{i}$ un 
 $A_{j}$, starp $A_{j}$ un $A_{k}$, starp $A_{k}$ un $A_{l}$ un starp $A_{l}$ un

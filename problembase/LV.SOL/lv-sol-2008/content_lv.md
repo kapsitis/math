@@ -13,7 +13,7 @@ $1.$ zīm.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $5.$zīm.
 
@@ -39,7 +39,7 @@ Cik zilu zīmuļu ir Katrīnai?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No a) seko: **krāsu nav vairāk kā $3$.**
 
@@ -63,7 +63,7 @@ Atrodiet iespējami daudzus veidus, kā to izdarīt. Pacentieties pamatot, kāp�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā iespējamā kreisās puses vērtība ir $2082+4817=6899$; lielākā iespējamā labās puses vērtība ir $2917+3982=6899$.
 
@@ -85,7 +85,7 @@ Ar kādu mazāko gājienu skaitu var panākt, lai viss krekls būtu vienā krās
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nokrāsojot melnu katru no sākotnējām baltajām joslām, viss krekls kļūst melns $24$ gājienos. Sākumā joslu ir $49$; beigās ir tikai viena „josla”. Ar katru gājienu joslu skaits samazinās ne vairāk kā par $2$. Tātad nepieciešami vismaz $(49-1):2=24$ gājieni.
 
@@ -103,7 +103,7 @@ Parādiet, kā Andris var $5$ dienās apēst visas konfektes.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, tā:
 
@@ -125,7 +125,7 @@ Rūtiņas malas garums ir $1$ cm (skat. 2. zīm.). Parādiet, kā var uzzīmēt 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $6.$zīm.
 
@@ -145,7 +145,7 @@ Ja $x$ – naturāls skaitlis, kas nedalās ar $10$, tad ar $x'$ apzīmēsim ska
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā; piemēram, $11112<11121<11211<12111<21111$.
 
@@ -163,7 +163,7 @@ Kādai daļai skolēnu patīk matemātika?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $7.$zīm.
 
@@ -185,7 +185,7 @@ Katri divi no $6$ profesoriem savā starpā sarakstās vai nu angliski, vai latv
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlēsimies vienu profesoru $A$. Viņš sarakstās ar $5$ citiem. Tā kā $5>2\cdot 2$, tad vai nu var atrast $3$ profesorus, ar kuriem viņš sarakstās angliski, vai arī var atrast $3$ profesorus, ar kuriem viņš sarakstās latviski. Apskatīsim abas iespējas atsevišķi.
 
@@ -209,7 +209,7 @@ Kuru rūtiņu virsotni jāizvēlas, lai attālumu summa no tās līdz atzīmēta
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicamie ceļi sastāv no horizontāliem un vertikāliem nogriežņiem. Minimizēsim horizontālo posmu garumu summu. Projicēsim visus dotos punktus uz taisnstūra apakšējās malas:
 
@@ -235,7 +235,7 @@ Dots, ka $a$, $b$ un $c$ ir dažādi naturāli skaitļi, $c$ dalās ar $a$ un $(
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $c:a$ seko, ka $c>a$; no nevienādības seko, ka $b$ ir starp $a$ un $c$. Tātad skaitļu secība ir $a<b<c$.
 
@@ -251,7 +251,7 @@ Plaknē novilktas $6$ taisnes. Vai var gadīties, ka ir tieši $16$ punkti (ne v
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) nē; taisnes nedrīkst sakrist, un $6$ dažādām taisnēm pa pāriem var būt augstākais $15$ krustpunkti ($ab$, $ac$, $ad$, $ae$, $af$, $bc$, $bd$, $be$, $bf$, $cd$, $ce$, $cf$, $de$, $df$, $ef$).
 
@@ -269,7 +269,7 @@ Tabula sastāv no $5\cdot 5$ vienādām kvadrātiskām rūtiņām. Vai var rūti
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piem., $9.$ zīm.
 
@@ -289,7 +289,7 @@ Apļveida šosejas garums ir $100$ km. Blakus tai atrodas $10$ ciemati. Katra ci
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim $1.$ $3.$ $5.$ $7.$ $9.$ ciematus un saskaitīsim tos attālumus, kurus izmērīja šo ciematu iedzīvotāji. Šie attālumi ir **nepārklājošos** šoseju posmu garumi, tāpēc to summa mazāka par $30$ km. Tāpēc piecu atlikušo šosejas posmu garumu summa ir lielāka par $100-30=70$ (km). Tāpēc vismaz viens no tiem ir garāks par $70:5=14$ (km).
 
@@ -309,7 +309,7 @@ b) tieši $6$ melnas rūtiņas?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Abos gadījumos atbilde ir „nē”.
 
@@ -339,7 +339,7 @@ b) pierādīt: ja $\frac{R}{n + 1}$ dalās ar $2$, tad tas dalās ar $128$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 a) vai nu $n$, vai $n+1$ ir pāra skaitlis;
 
@@ -357,7 +357,7 @@ Dots, ka $a$, $b$, $c$ – kāda trijstūra malu garumi. Pierādīt: vienādojum
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām funkciju $f(x)=ax^2+bx-c$. Tā kā $f(0)=-c<0$ un $f(1)=a+b-c>0$ (trijstūra nevienādība), tad starp $0$ un $1$ eksistē tāds $x_0$, ka $f(x_0)=0$; otra sakne ir negatīva, jo sakņu reizinājums ir $-\dfrac{c}{a}<0$.
 
@@ -373,7 +373,7 @@ Uz trijstūra ABC malām AB un BC ņemti attiecīgi punkti X un Y, kas nav trijs
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko $\mathrm{AX}:\mathrm{XB}=\mathrm{BY}:\mathrm{XB}$.
 
@@ -401,7 +401,7 @@ Kvadrāts sastāv no $101 \cdot 101$ vienādām kvadrātiskām rūtiņām. Tas s
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo: katra rindiņa krusto pāra skaitu dalījumu kvadrātu. Tā kā rindā ir nepāra skaits rūtiņu, tad tā krusto nepāra skaitu $3 \cdot 3$ kvadrātu, tātad arī nepāra skaitu $2 \cdot 2$ kvadrātu. Tātad rinda satur nepāra skaitu „domino kauliņu” $1 \cdot 2$. Tā kā tas attiecas uz katru rindu, tad kvadrātā kopā ir nepāra skaits šādu „domino kauliņu”. Bet tā nevar būt, jo no katra $2 \cdot 2$ kvadrāta rodas divi šādi „domino kauliņi”.
 
@@ -417,7 +417,7 @@ Uz šaha galdiņa novietotas vairākas figūriņas; katra no tām pilnībā aiz�
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim **pirmo** figūriņu $F$, kas atgriežas savā sākotnējā pozīcijā. **Vienu gājienu pirms brīža, kad tas notiek,**
 
@@ -439,7 +439,7 @@ Regulārā $10$-stūrī atzīmētas $5$ virsotnes. Pierādīt: ir tādas $3$ atz
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalīsim $10$-stūra virsotnes divos regulāru piecstūru virsotņu komplektos. Viens no šiem komplektiem satur vismaz trīs atzīmētas virsotnes. Bet **katras** $3$ regulāra piecstūra virsotnes veido vienādsānu trijstūri.
 
@@ -455,7 +455,7 @@ Pierādīt: ir bezgalīgi daudz tādu naturālu skaitļu, kas nav izsakāmi kā 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, tādi ir visi skaitļi formā $(3n+2)^2$, $n \in \mathbb{N}$. Tiešām, ja būtu $(3n+2)^2=x^2+p$, kur $x \geq 0$, $x \in \mathbb{Z}$, tad $(3n+2)^2-x^2=p$ un $(3n+2+x)(3n+2-x)=p$.
 
@@ -473,7 +473,7 @@ Trapeces $ABCD$ pamati ir $AD$ un $BC$. Uz malas $AB$ atzīmēts tāds punkts $E
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pagarināsim $CE$ līdz krustpunktam $M$ ar $AD$ pagarinājumu.
 
@@ -497,7 +497,7 @@ Apskatām kvadrātfunkciju $f(x)=ax^2-x+c$, $a \ne 0$. Ir dots, ka vienādojumam
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka vienādojumam $f(x)=x$ ir sakne $x_0$; tad $f(x_0)=x_0$ un arī $f(f(x_0))=f(x_0)=x_0$ – pretruna ar doto. Tātad vienādojumam $ax^2-x+c=x$ jeb $ax^2-2x+c=0$ nav sakņu; no tā seko vajadzīgais.
 
@@ -513,7 +513,7 @@ Dotās $20$ pēc ārējā izskata vienādas monētas; vairāk nekā puse no tām
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saliksim visas monētas vienā kaudzē. Mēs apskatīsim procesu, kura gaitā monētas varēs
 
@@ -558,7 +558,7 @@ Pierādīt: ja $n$ – naturāls skaitlis, tad $n^2+n+4$ nedalās ar $9$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $x^2+x+4=(x-1)\cdot(x+2)+6$. Ja $x^2+x+4$ dalās ar $9$, tad tas dalās arī ar $3$. Tāpēc $(x-1)\cdot(x+2)$ dalās ar $3$. Tāpēc vai nu $x-1$, vai $x+2$ dalās ar $3$; bet $(x+2)-(x-1)=3$, tāpēc abi reizinātāji $x-1$ un $x+2$ dalās ar $3$. Tāpēc $(x-1)\cdot(x+2)$ dalās ar $9$. Bet tad $(x-1)\cdot(x+2)+6$ ar $9$ nedalās – pretruna.
 
@@ -574,7 +574,7 @@ Dots, ka $ABCD$ – trijstūra piramīda, $\angle ABC=\angle ADC=90^{\circ}$ un 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $AC$ ir ap sfēru apvilktas lodes diametrs, t.i., visgarākā horda. No tā seko vajadzīgais.
 
@@ -590,7 +590,7 @@ Pierādīt, ka $a^6-6ab^5+5b^6\geq 0$ visiem reāliem $a$ un $b$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar nevienādību starp nenegatīvu skaitļu vidējo aritmētisko un vidējo ģeometrisko  
 $a^6+5b^6=a^6+b^6+b^6+b^6+b^6+b^6\ge 6\cdot\sqrt[6]{a^6\cdot b^6\cdot b^6\cdot b^6\cdot b^6\cdot b^6}=6\cdot a\cdot b^5$, k.b.j.
@@ -607,7 +607,7 @@ $a^6+5b^6=a^6+b^6+b^6+b^6+b^6+b^6\ge 6\cdot\sqrt[6]{a^6\cdot b^6\cdot b^6\cdot b
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\angle ABC=45^{\circ}$, tad $\triangle BA_1A$ ir vienādsānu un $A_1$ atrodas uz $AB$ vidusperpendikula. Līdzīgi $C_1$ atrodas uz $BC$ vidusperpendikula.
 
@@ -629,6 +629,6 @@ Regulārā $2007$-stūrī katrā virsotnē un katrā diagonāļu krustpunktā ie
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, jo „$+1$” skaits uz $2007$-stūra ar katru gājienu mainās par $2$ vai arī nemainās vispār.

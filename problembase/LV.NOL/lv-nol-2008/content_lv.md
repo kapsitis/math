@@ -20,7 +20,7 @@ $$\mathbf{123456789=19}$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 "-" zīmes var likt pirms $4$ un $9$; $5$ un $8$; $6$ un $7$. Starp citu, tās ir 
 vienīgās iespējas (tas bērniem nav jāpamato).
@@ -47,7 +47,7 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** var. Skat., piem., 4.zīm.
 
@@ -81,7 +81,7 @@ pārī meitene garāka par zēnu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Nē, nevar; neviena meitene nav garāka par visgarāko zēnu.
 
@@ -131,7 +131,7 @@ viena ar otru.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē. Rūtiņu kopskaits ir $17$. Vienīgais veids, kā $17$ sadalās naturālos 
 reizinātājios, ir $1 \cdot 17=17 \cdot 1$. Bet divas no dotajām figūrām nevar 
@@ -159,7 +159,7 @@ virsotnes, kura malas vērstas bultiņu virzienos?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To, ka ar $4$ punktiem pietiek, skat. 5.zīm.
 
@@ -189,7 +189,7 @@ bija guvušas abas komandas kopā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Acīmredzami, $62$.
 
@@ -217,7 +217,7 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē. $12$ figūriņām ir pats lielākais $12 \cdot 4=48<7 \cdot 7$ rūtiņas;
 
@@ -247,7 +247,7 @@ Vai eksistē tādi naturāli skaitļi $x$ un $y$, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** nē. Ja $x$ vai $y$ ir pāra skaitlis, tad $xy(x-y)$ ir pāra skaitlis; ja
 gan $x$, gan $y$ ir nepāra, tad $x-y$ ir pāra, un $xy(x-y)$ atkal ir pāra.
@@ -273,7 +273,7 @@ $1234567 \ldots$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ņemt, piemēram, $n=1111111$.
 
@@ -304,7 +304,7 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēru ar $n=5$ skat. 8.zīm.
 
@@ -337,7 +337,7 @@ $x=a^{3},\ y=b^{4},\ a$ un $b$ - naturāli skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jebkuru: $n=\left(n^{3}\right)^{3}:\left(n^{2}\right)^{4}$.
 
@@ -371,7 +371,7 @@ ka Maija noteikti ēd torti sev visizdevīgākajā veidā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Pieņemsim, ka $x=4;\ y=5;\ z=6;\ t=10$. Ja Maija ēd $y$ vai $z$, Andris 
 paspēj sākt ēst $t$, un $4+10>5+6$. Ja Maija ēd $t$, Andris pēc $x$ ēd $y$ un 
@@ -400,7 +400,7 @@ vidējais svars ir $71~\mathrm{kg}$. Pierādīt, ka cīkstoņu skaits dalās ar 
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja cīkstoņu ir $c$ un vingrotāju - $v$, tad cīkstoņu kopsvars ir $84c$ un 
 vingrotāju kopsvars - $54v$. Tāpēc $\frac{84c+54v}{c+v}=71$, no kurienes 
@@ -433,7 +433,7 @@ Vai eksistē
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā. Skat. 9.zīm.
 
@@ -460,7 +460,7 @@ no otra tieši par $1$. Kāda ir lielākā iespējamā $n$ vērtība?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $n=13$.
 
@@ -500,7 +500,7 @@ laimīgi. Pierādīt, ka viens no tiem dalās ar $10$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja mazākā laimīgā skaitļa pēdējais cipars nav $9$, tad abu skaitļu ciparu 
 summas ir viens otram sekojoši naturāli skaitļi; tāpēc viena no tām ir nepāra -
@@ -531,7 +531,7 @@ no $1$ rūtiņas, tad šo vienīgo rūtiņu uzskata par tā centrālo).
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā griežot iegūtajā kvadrātā vienas krāsas rūtiņu ir par $1$ vairāk nekā 
 otras krāsas rūtiņu, un vairākums rūtiņu ir tajā krāsā, kurā ir centrālā 
@@ -558,7 +558,7 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No nevienādības $(a-b)^{2}+(b-c)^{2}+(c-a)^{2}>0$, atverot iekavas, seko 
 $a^{2}+b^{2}+c^{2}>ab+ac+bc$.
@@ -586,7 +586,7 @@ cepuri viņa valkāja iepriekšējā dienā?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** zaļu.
 
@@ -617,7 +617,7 @@ $K$. Pierādīt, ka $K$ atrodas uz $\sphericalangle ABC$ bisektrises.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka 
 $\sphericalangle KAH=90^{\circ}-\sphericalangle B=\sphericalangle HCB$. Tāpēc 
@@ -647,7 +647,7 @@ $3^{32}-2^{32}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka 
 $3^{32}-2^{32}=\left(3^{16}+2^{16}\right)\left(3^{8}+2^{8}\right)\left(3^{4}+2^{4}\right)\left(3^{2}+2^{2}\right)(3+2)(3-2)$
@@ -681,7 +681,7 @@ Kāds ir mazākais iespējamais $\triangle ABC$ laukums?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar teorēmu par slīpnes un perpendikula garumu $CA \geq h_{c} \geq 5$. 
 Tāpēc $L(ABC)=\frac{1}{2} AC \cdot h_{b} \geq \frac{1}{2} \cdot 5 \cdot 4=10$. 
@@ -717,7 +717,7 @@ $n$ reizes.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Ja visi iespējamie policistu trijnieki ir nodežurējuši pa vienai 
 reizei, tad katrs pāris ir dežurējis kopā ar pieciem citiem policistiem; tātad 
@@ -748,7 +748,7 @@ sakņu kvadrātu summa vienāda ar otrā kvadrāttrinoma sakņu kvadrātu summu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādojumam $x^{2}+ax+b=x^{2}+cx+d$ ir sakne $x_{0}=\frac{d-b}{a-c}$ (tā 
 eksistē, jo $a \neq c$). Apzīmējot doto kvadrāttrinomu saknes attiecīgi ar 
@@ -782,7 +782,7 @@ ceļš, kura garums nav mazāks par $125 ~\mathrm{km}$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Iedomāsimies, ka no katras pilsētas pa katru ceļu nobrauc automašīna (kopā ir 
 $500$ automašīnu). Kopējais nobrauktais attālums ir 
@@ -806,7 +806,7 @@ kā $17$ pēc kārtas ņemtu naturālu skaitļu summu.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šādam skaitlim jādalās gan ar $15$ (jo 
 $(n+1)+(n+2)+\ldots+(n+8)+\ldots+(n+14)+(n+15)=15(n+8)$, gan ar $17$, gan ar 
@@ -828,7 +828,7 @@ Dots, ka $f(x)=x^{2}+8x+12$. Atrisināt vienādojumu $f(f(f(f(x))))=0$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka $f(x)=(x+4)^{2}-4$. Tāpēc 
 $f(f(x))=\left((x+4)^{2}-4+4\right)^{2}-4=(x+4)^{4}-4$, 
@@ -857,7 +857,7 @@ Zināms, ka $CH$ ir šī trijstūra augstums, $CM=2 \cdot HM$ un $KM \perp AB$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Saskaņā ar uzdevumā doto ap $AMKC$ var apvilkt riņķa līniju, jo 
 $\sphericalangle M+\sphericalangle C=90^{\circ}+90^{\circ}=180^{\circ}$. Bez 
@@ -878,7 +878,7 @@ $\left(1+x^{2}\right)\left(1+y^{2}\right) \geq x\left(1+y^{2}\right)+y\left(1+x^
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms reizināsim nevienādības abas puses ar $2$. Tālāk nevienādības 
 pareizība seko no identiskiem pārveidojumiem:
@@ -906,7 +906,7 @@ vienādā skaitā. Atrast mazāko iespējamo $n$ vērtību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja katra veida figūru ir $k$, tad kopējais rūtiņu skaits tajās ir $4k+3k=7k$; 
 tātad $n^{2}=7k$ un $n$ jādalās ar $7$. Mazākās iespējamās $n$ vērtības ir 
@@ -938,7 +938,7 @@ Pierādīt, ka punkti $A;\ Y;\ Z;\ M$ atrodas uz vienas riņķa līnijas.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\sphericalangle AYC=90^{\circ}=\sphericalangle AXC$, tad ap $AYXC$ var 
 apvilkt riņķa līniju; tāpēc $\sphericalangle ACY=\sphericalangle AXY$ kā 
@@ -968,7 +968,7 @@ tikpat, cik otra. Atrast mazāko iespējamo $n$ vērtību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim katra veida figūru skaitu ar $k$; tad tās kopā satur $4k+5k=9k$ 
 rūtiņas. Iegūstam vienādību $9k=n^{2}$, tātad $n$ dalās ar $3$. Mazākās 
@@ -992,7 +992,7 @@ dažādas saknes. Pierādīt, ka kvadrāttrinomam $g(x)$ sakņu nav.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No uzdevumā dotā seko, ka gan $2f(x)+g(x)$, gan $f(x)-g(x)$ ir vai nu 
 nenegatīva, vai nepozitīva funkcija. Ja tās abas būtu viena tipa, tad arī to 
@@ -1016,7 +1016,7 @@ daudzumu nuļļu var beigties skaitlis $f(n)$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Viegli aprēķināt, ka $f(1)=10,\ f(2)=30,\ f(3)=100$. Pierādīsim, ka pie $n>3$ 
 skaitlis $f(n)$ nedalās ar $1000$. Tad būs skaidrs, ka uzdevuma atbilde ir "ar 
@@ -1048,7 +1048,7 @@ Vai var būt, ka **(A)** $n=8$, **(B)** $n=7$, **(C)** $n=10$, **(D)** $n=16$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, var; skat. 9.zīm.
 
@@ -1097,7 +1097,7 @@ Cik ir labu virkņu? Atbilde jādod decimālā pierakstā.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Padomāsim kā šādu virkni uzrakstīt. Vispirms uzrakstīsim 
 $1;\ 2;\ 3;\ 4;\ 5;\ 6$; augošā secībā. Skaitļus $7;\ 8;\ 9;\ 10$ jāieraksta 
@@ -1123,7 +1123,7 @@ b. skaitļa $n$ visu naturālo dalītāju summa (ieskaitot $1$ un $n$) ir $2n$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tieša pārbaude parāda, ka neder $n=1; 2; 3; 4; 5$, tātad $n \geq 6$. Ja $n$, 
 dalot ar $3$, dod atlikumu $1$ resp. $2$, tad $n-1$ resp. $n+1$ nav 
@@ -1148,7 +1148,7 @@ $$\cos \left(x^{2}\right)+\cos \left(y^{2}\right)-\cos (xy)<3$$
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $|\cos t| \leq 1$, tad 
 $\cos \left(x^{2}\right)+\cos \left(y^{2}\right)-\cos (xy) \leq 1+1-(-1)=3$. 
@@ -1174,7 +1174,7 @@ nesakrīt ar $A$. Pierādīt, ka $AF \parallel BC$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pastāv $2$ gadījumi: **(A)** $F$ pieder lokam $AB$, **(B)** $F$ pieder lokam 
 $AC$.
@@ -1216,7 +1216,7 @@ izpildās šādas prasības:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaidrs, ka uz lapām jāraksta skolēnu kopas visas netukšās apakškopas, jo to ir
 tieši $2^{10}-1=1023$. Identificēsim skolēnus ar skaitļiem 

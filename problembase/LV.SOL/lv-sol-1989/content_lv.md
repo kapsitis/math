@@ -9,7 +9,7 @@ Plaknē novietotas $16$ taisnes. Kāds ir lielākais nogriežņu daudzums, kāds
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uz katras no dotajām taisnēm var atrasties ne vairāk kā $15$ krustpunkti ar citām no dotajām taisnēm (pa vienam ar katru taisni). Tie uz taisnes atzīmē $14$ nogriežņus. Tātad kopējais nogriežņu skaits nepārsniedz $16 \cdot 14 = 224$.
 
@@ -29,7 +29,7 @@ Cik tādu funkciju ir?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katrā no trim definīcijas apgabala punktiem funkcija var pieņemt jebkuru no divām vērtībām. Tātad pavisam iespējamas $2 \cdot 2 \cdot 2 = 8$ dažādas funkcijas.
 
@@ -61,7 +61,7 @@ atrisinājums ir negatīvs.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka visu doto vienādojumu atrisinājumi ir pozitīvi.
 
@@ -87,7 +87,7 @@ Vai $a+b$ var būt pirmskaitlis?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No dotā seko, ka $34(a + b) = 34a + 34b = 43b + 34b = 77b$. Tas nozīmē, ka skaitlis $34(a + b)$ dalās ar $77$.
 
@@ -107,7 +107,7 @@ Pierādīt, ka zēnu ir divas reizes vairāk nekā meiteņu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim zēnu skaitu klasē ar $z$, meiteņu skaitu – ar $m$, bet kopīgo draudzību skaitu (tās, protams, ir abpusējas) ar $d$.
 
@@ -133,7 +133,7 @@ vērtību, ja $x=37^2$, $a=19^2$, $b=17^2$, $c=13^2$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotā izteiksme ir polinoms no $x$, kura pakāpe nepārsniedz $2$.
 
@@ -171,7 +171,7 @@ nav vesels.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzdevuma pirmo daļu var pārformulēt šādi: kāds lielākais skaits naturālu skaitļu kvadrātu atrodas intervālā $[n,n+100]$.
 
@@ -218,7 +218,7 @@ Pierādīt, ka $MNKL$ ir paralelograms.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim $2.$ zīm.
 
@@ -246,7 +246,7 @@ Vai var būt pionieru pulciņš ar $10$ biedriem, kuriem draugu skaits šajā pu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, nevar būt.
 
@@ -268,7 +268,7 @@ Pierādīt, ka $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}\leq \frac{41}{42}$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Varam uzskatīt, ka $a \leq b \leq c$.
 
@@ -300,7 +300,7 @@ Uzrakstīt tās parabolas vienādojumu, kuru iegūst no parabolas $y=x^2$, pārb
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Šīs parabolas vienādojums ir
 
@@ -320,7 +320,7 @@ $$\frac{x}{1+y}+\frac{y}{1+x}\leq 1.$$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā nevienādības izteiksme ir simetriska attiecībā pret $x$ un $y$, tad varam uzskatīt, ka $x \leq y$. Iegūstam
 
@@ -346,7 +346,7 @@ Dots, ka $abc=1$ un $a+b+c=\frac{1}{a}+\frac{1}{b}+\frac{1}{c}$. Pierādīt, ka 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pakāpeniski iegūstam
 
@@ -380,7 +380,7 @@ kur $a$, $b$ ir katetes, bet $c$ – hipotenūza.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim $3.$ zīmējumu.
 
@@ -418,7 +418,7 @@ Uzrādīt kaut vienu $100$-ciparu skaitli, kas nesatur nevienu ciparu $0$ un dal
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 To var izdarīt, piemēram, šādi: uzrakstīt skaitli, kura ciparu summa ir $125$ un kurš dalās ar $125$. Dalāmība ar $125$ ir atkarīga tikai no skaitļa trim pēdējiem cipariem, jo $1000$ dalās ar $125$.
 
@@ -436,7 +436,7 @@ Konstruēt kuba $ABCDA_1B_1C_1D_1$ šķēlumu ar plakni, kas iet caur šķautņu
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $4.$ zīmējumu.
 
@@ -482,7 +482,7 @@ Dots, ka $\sin x=\sin y$ un $\cos x=\cos y$. Pierādīt, ka $\frac{x-y}{\pi}$ ir
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katram leņķim $x$ un $y$ atbilst punkts uz vienības riņķa līnijas. Tā kā sakrīt gan to abscisas (kosinusi), gan ordinātas (sinusi), tad šie leņķi atšķiras par pilna leņķa daudzkārtni, t.i. par $2\pi k$.
 
@@ -503,7 +503,7 @@ $$
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat. $5.$ zīm.
 
@@ -533,7 +533,7 @@ Dots, ka naturāli skaitļi $a$, $b$, $c$, $d$ katrs dalās ar skaitli $a\cdot b
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka
 
@@ -572,7 +572,7 @@ Pierādīt, ka skaitļa $2^n$ ciparu summa nevar būt $3$, ja $n$ naturāls skai
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā skaitļa $2^n$ pēdējais cipars var būt tikai $2$, $4$, $6$ vai $8$, tad skaitļa $2^n$ ciparu summa var būt $3$ tikai tad, ja $2^n=1\underbrace{00\ldots 00}_{k}2$.
 
@@ -596,7 +596,7 @@ atvasinājumu.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izmantojot atvasināšanas formulas, iegūstam
 
@@ -621,7 +621,7 @@ Atrast kosinusu leņķim starp kuba $ABCDA_1B_1C_1D_1$ skaldņu diagonālēm $CD
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim $6.$ zīmējumu.
 
@@ -643,7 +643,7 @@ Kādiem naturāliem skaitļiem $n$ skaitlis $n^3+3$ dalās ar $n^2-n+1$?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim, ka $n^3+3$ dalās ar $n^2-n+1$.
 
@@ -675,7 +675,7 @@ ir vismaz trīs dažādas saknes.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienādības kreisās puses izteiksmi apzīmēsim ar $f(x)$.
 
@@ -703,7 +703,7 @@ Katrā bezgalīgas rūtiņu lapas rūtiņā ierakstīts pa naturālam skaitlim, 
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim rūtiņu, kurā atrodas pats mazākais no ierakstītajiem skaitļiem $a$. Tad skaitlis $a$ ir astoņu tādu skaitļu vidējais aritmētiskais, kuri visi ir ne mazāki par $a$. Tātad
 
@@ -735,7 +735,7 @@ Atrast laukumu, ko ierobežo parabolas $y=(x-2)^2$ un $y=-4+6x-x^2$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Atrisinot vienādojumu $(x-2)^2=-4+6x-x^2$, iegūstam, ka dotās parabolas krustojas punktos, kuru abscisas ir $1$ un $4$. Šajā intervālā otrās parabolas grafiks atrodas virs pirmās parabolas grafika (skat. 7. zīm.).
 
@@ -769,7 +769,7 @@ Vai eksistē daudzskaldnis ar $6$, $1988$, $1989$ skaldnēm, kuram visas skaldne
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visos gadījumos šādi daudzskaldņi eksistē.
 
@@ -805,7 +805,7 @@ Vai šis apgalvojums paliek spēkā, ja ieraksta veselus skaitļus?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatīsim kubiņu, kurā atrodas pats mazākais no ierakstītajiem skaitļiem $a$.
 
@@ -845,7 +845,7 @@ Aprēķināt $\sin a_2$.
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $n=2$, tad $\sin a_2=-\frac{1}{2}$.
 
@@ -887,7 +887,7 @@ Vai zirdziņš var staigāt tā, lai rezultātā visas rūtiņas kļūtu baltas?
    
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, tas ir iespējams.
 

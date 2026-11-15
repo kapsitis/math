@@ -23,7 +23,7 @@ lai blakus trijstūros ierakstītie skaitļi neatšķiras vairāk kā par $3$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sk., piemēram, 2. att., kur pelēkā krāsā norādītas atbilstošās starpības.
 
@@ -55,7 +55,7 @@ cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(a)** Nē, nevar. Ja skaitļa pēdējais cipars ir $3$, $4$, $6$ vai $7$, tad septiņas reizes lielāka skaitļa
 pēdējais cipars ir attiecīgi $1$; $8$; $2$ vai $9$, bet pēc uzdevuma nosacījumiem nevienu no šiem cipariem
@@ -82,7 +82,7 @@ laukuma vērtība ir tāda pati kā malu skaits!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Piemēram, skat. 3. att., kur uzzīmēts $32$-stūris, kura laukuma un perimetra vērtība ir $32$.
 
@@ -117,7 +117,7 @@ rūtiņas var pārvietot uz kreiso augšējo rūtiņu, ja kvadrāta izmēri ir:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, skat., piemēram, 5. att., kur ar skaitļiem parādīti veiktie gājieni.
 
@@ -156,7 +156,7 @@ Kāds ir lielākais iespējamais viesu skaits, kas bija ieradušies uz Gunas dzi
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais iespējamais viesu skaits ir $21$. Guna varēja pacienāt 21 viesi šādi:
 
@@ -173,7 +173,7 @@ $8 + 14 + 20 = 42$. Ja būtu $22$ viesi vai vairāk, tad tiem vajadzētu vismaz 
 konfektes. Tātad vairāk par $21$ viesi nevar ierasties uz svinībām.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Lielākais iespējamais viesu skaits ir $21$. Guna varēja pacienāt $21$ viesi šādi:
 
@@ -215,7 +215,7 @@ lai blakus trijstūros ierakstīties skaitļi neatšķiras vairāk kā par $4$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, 8. att., kur pelēkā krāsā norādītas atbilstošās starpības.
 
@@ -242,7 +242,7 @@ iegūst, otro skaitli pareizinot pašu ar sevi. Vai var gadīties, ka abu skait�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(a)** Nē, prasītais nav iespējams. Ja skaitļa pēdējais cipars ir $2$, $3$, $7$ vai $8$, tad skaitļa, kuru
 iegūst, skaitli pareizinot pašu ar sevi, pēdējais cipars ir attiecīgi $4$, $9$, $9$ vai $4$, bet pēc uzdevuma
@@ -276,7 +276,7 @@ ar ko tai ir kopīga mala.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(a)** Skat., piemēram, 10. attēlu. **(b)** Skat., piemēram, 11. attēlu.
 
@@ -311,7 +311,7 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pie galda sēž $5$ zaļie un $5$ sarkanie bruņinieki. Pamatosim, ka tā ir vienīgā iespēja.
 Pieņemsim pretējo, ka pie galda sēž vairāk vai mazāk nekā pieci zaļie bruņinieki.
@@ -328,7 +328,7 @@ Pieņemsim pretējo, ka pie galda sēž vairāk vai mazāk nekā pieci zaļie br
 Iegūstam, ka ir tieši pieci zaļie bruņinieki. Ja pirmie pieci bruņinieki ir sarkanie un pēdējie pieci ir zaļie,
 tad uzdevuma nosacījumi izpildās.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pie galda sēž $5$ zaļie un $5$ sarkanie bruņinieki. Pamatosim, ka tā ir vienīgā iespēja.
 Apzīmēsim zaļo bruņinieku skaitu ar $x$ un sarkano bruņinieku skaitu ar $10-x$. No bruņinieku
@@ -363,7 +363,7 @@ komplektu viennozīmīgi nav iespējams noteikt?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā $M$ vērtība ir $3$, tai atbilst $S = 12$ un atšķirīgie monētu 
 komplekti var būt $5 + 5 + 2$ un $10 + 1 + 1$.
@@ -384,7 +384,7 @@ un visas iespējamās divu monētu vērtību summas:
 Kā redzams, visas iespējamās summas ir dažādas, tātad monētu komplektu, ja $M=2$, 
 iespējams noteikt viennozīmīgi.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Mazākā $M$ vērtība ir $3$, tai atbilst $S=12$ un atšķirīgie monētu komplekti var būt
 $5 + 5 + 2$ un $10 + 1 + 1$.
@@ -428,7 +428,7 @@ skaitļiem nebūtu vienādu ciparu?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Var, piemēram, šādā veidā:
 $$1; 2; 10; 3; 11; 4; 12; 5; 13; 22; 14; 7; 15; 8; 16; 20; 17; 9; 18; 23; 19; 6; 21.$$
@@ -476,7 +476,7 @@ kuram vienlaicīgi izpildās šādi nosacījumi:
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lielākais iespējamais septiņciparu skaitlis, kas atbilst uzdevuma nosacījumiem, 
 ir $4888884$. Pamatosim, ka tas ir lielākais iespējamais skaitlis.
@@ -526,7 +526,7 @@ rūtiņas uz blakus rūtiņu, ar ko tai ir kopīga mala.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skat., piemēram, **(a)** 13. att. un **(b)** 14. att.
 
@@ -562,7 +562,7 @@ komplektu viennozīmīgi nav iespējams noteikt?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Mazākā $S$ vērtība ir $8$, tai atbilst $M=4$ un atšķirīgie monētu 
 komplekti ir $5+1+1+1$ un $2+2+2+2$.
@@ -626,7 +626,7 @@ Cik bizbizmārīšu sēž uz palodzes?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uz palodzes sēž $6$ bizbizmārītes. Pamatosim, ka tā ir vienīgā iespēja.
 Aplūkosim pirmās trīs bizbizmārītes.
@@ -682,7 +682,7 @@ daļas būtu nesaīsināmas: $\frac{A}{B} + \frac{C}{D} = \frac{E}{F}$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, var, piemēram, $\frac{7}{3} + \frac{1}{6} = \frac{5}{2}$.
 
@@ -711,7 +711,7 @@ ciparus pretējā secībā. Kāds var būt skaitlis $x$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vienīgais derīgais skaitlis $x$ ir $453$. 
 Pamatosim, ka citu derīgu skaitļu nav. Apzīmējam
@@ -759,7 +759,7 @@ Izsaki leņķi $CGF$ ar $\alpha$ un $\beta$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā regulāra trijstūra visi leņķi ir $60^{\circ}$, tad 
 $\sphericalangle HDA = 180^{\circ} − \sphericalangle FDJ - \sphericalangle EDF = 
@@ -808,7 +808,7 @@ Dorotejai un Almai iedotajām naudas summām?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Lielākā iespējamā starpības starp naudas summām ir $16$ centi.  
 **(B)** Mazākā iespējamā starpība starp naudas summām ir $7$ centi.
@@ -867,7 +867,7 @@ Cik bizbizmārītes sēž uz palodzes?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uz palodzes sēž 6 bizbizmārītes. Pamatosim, ka tā ir vienīgā iespēja.
 Aplūkojam pirmās trīs bizbizmārītes.
@@ -925,7 +925,7 @@ un saucēju. Vai, atkārtojot
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, šādi:
 
@@ -959,7 +959,7 @@ Zināms, ka $12a + 9b$ dalās ar $13$. Kāds var būt skaitlis $\overline{cd}$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Skaitlis $\overline{cd}$ var būt $13$; $26$; $39$; $52$; $65$; $78$ vai $91$. 
 Apzīmējam iegūto četrciparu skaitli ar $\overline{abcd}$. 
@@ -996,7 +996,7 @@ virsotnes, ir divas reizes garāka nekā augstums no tās pašas virsotnes!
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam trijstūra virsotnes ar $A, B, C$ un pieņemsim, ka 
 $\sphericalangle B = \sphericalangle C + 120^{\circ}$ (skat.
@@ -1044,7 +1044,7 @@ kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nē, ne vienmēr. Aplūkosim $4 \times 9$ rūtiņas lielu tabulu.
 
@@ -1095,7 +1095,7 @@ Vai var gadīties, ka: **(A)** $S = 100$; **(B)** $S = 123$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Jā, var, piemēram, skat. 18. att., kur ar pelēkā krāsā ir blakus skaitļu starpība. Tādā
 gadījumā
@@ -1143,7 +1143,7 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pie galda sēž $5$ zaļie un $5$ sarkanie bruņinieki. Pamatosim, ka tā ir vienīgā iespēja.
 Pieņemsim pretējo, ka pie galda sēž vairāk vai mazāk nekā pieci zaļie bruņinieki.
@@ -1159,7 +1159,7 @@ Pieņemsim pretējo, ka pie galda sēž vairāk vai mazāk nekā pieci zaļie br
 Iegūstam, ka ir tieši pieci zaļie bruņinieki. Ja pirmie pieci bruņinieki ir sarkanie un pēdējie pieci ir zaļie,
 tad uzdevuma nosacījumi izpildās.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pie galda sēž $5$ zaļie un $5$ sarkanie bruņinieki. Pamatosim, ka tā ir vienīgā iespēja.
 Apzīmēsim zaļo bruņinieku skaitu ar $x$ un sarkano bruņinieku skaitu ar $10-x$. No bruņinieku
@@ -1181,7 +1181,7 @@ Pierādīt, ka $9x^2 + 5y^2 − 8xy − 4x + 2 > 0$ visām reālām $x$ un $y$ v
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -1214,7 +1214,7 @@ leņķa $ABC$ lielums četrstūra ārpusē ir $7\alpha$ (skat. 19. att.). Aprē�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Savienosim $B$ ar $D$ un novilksim augstumu $BE$ no $B$ pret $AD$ 
 un augstumu $CF$ no $C$
@@ -1245,7 +1245,7 @@ $$60^{\circ} + 90^{\circ} − \alpha + 7\alpha + 90^{\circ} − \alpha = 360^{\c
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Vispirms atliekam punktus $B'$ un $C'$, kas ir attiecīgi punktu 
 $B$ un $C$ simetriskie punkti
@@ -1305,7 +1305,7 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim $8 \times 9$ lielu rūtiņu tabulu:
 
@@ -1378,7 +1378,7 @@ aritmētiskais. Kāds varēja būt Marutas nodzēstais skaitlis?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Nodzēstais skaitlis varēja būt $1$ vai $100$. 
 Ja nodzēš skaitli $1$ vai $100$, tad nosacījums
@@ -1390,7 +1390,7 @@ Tagad arī redzams, kāpēc neder neviens cits skaitlis –
 tātad nebūs vesels skaitlis.
 
 
-## Atrisinājums 
+## Atrisinājums-2
 
 Ievērosim, ka pirmo $100$ skaitļu summa ir
 $$S = \frac{101 \cdot 100}{2} = 50 \cdot 101 = (51 − 1)(99 + 2) = 
@@ -1418,7 +1418,7 @@ Māra dzimšanas dienas svinībām?
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Lielākais iespējamais viesu skaits ir $37$. Māris varēja pacienāt $37$ viesus šādi:
 
@@ -1438,7 +1438,7 @@ $38 \cdot 2 = 76$ šo veidu konfektes. Tātad
 vairāk kā $37$ viesi nevarēja ierasties uz svinībām.
 
 
-## Atrisinājums 
+## Atrisinājums-2
 
 Lielākais iespējamais viesu skaits ir $37$. Māris varēja pacienāt $37$ viesus šādi:
 
@@ -1476,7 +1476,7 @@ visām pozitīvām reālām $a$, $b$ un $c$ vērtībām!
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Veicam ekvivalentus pārveidojumus:
 
@@ -1513,7 +1513,7 @@ Aprēķināt riņķa, ko ierobežo dotā riņķa līnija, laukumu!
 
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pagarinām nogriezni $BC$ līdz tas krusto riņķa līniju punktā 
 $E$ (skat. 22. att.). Tādā
@@ -1568,7 +1568,7 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Aplūkosim $8 \times 9$ lielu rūtiņu tabulu:
 
@@ -1632,7 +1632,7 @@ Atrisināt veselos skaitļos vienādojumu $17a^2 - 7b^2 + c^2 = 2023$.
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Pierādīsim, ka šim vienādojumam nav atrisinājuma. 
 Lai to pamatotu, aplūkojam abas
@@ -1668,7 +1668,7 @@ būtu patiesa?
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Jā, var, piemēram,
 $\frac{5}{4} + \frac{9}{3} + \frac{6}{8} + \frac{2}{1} = 1\frac{1}{4} + 3 + \frac{3}{4} + 2 = 7$.
@@ -1689,7 +1689,7 @@ skaitļi?
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Ekvivalenti pārveidojam doto izteiksmi:
 
@@ -1718,7 +1718,7 @@ Pierādīt, ka $S_{ABD} \leq S_{CEF}$.
 </small>
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 Apzīmēsim $AD = a$ un $AB = b$. 
 Tādā gadījumā $BD = \sqrt{a^2 + b^2}$, 
@@ -1764,7 +1764,7 @@ $2 \times 5$ rūtiņas nav patiess!
 
 </small>
 
-## Atrisinājums 
+## Atrisinājums-1
 
 
 **(A)** Mēģināsim panākt pretējo, tas ir, iekrāsot rūtiņas dotajā kvadrātā tā, 
@@ -1850,7 +1850,7 @@ atlikumu $1$, dalot ar $3$?
 
 
 
-## Atrisinājums 
+## Atrisinājums-1
 
 **(A)** Jā, ir, piemēram, skaitlis $27$. 
 Tam ir četri dalītāji: $1$, $3$, $9$ un $27$. 

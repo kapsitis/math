@@ -10,7 +10,7 @@ Dots, ka $x \neq y$ un $x^{2}-2007x=y^{2}-2007y$. Aprēķiniet $x+y$ vērtību.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Doto vienādību pārveido par $x^{2}-y^{2}=2007(x-y)$ un tālāk par 
 $(x-y)(x+y)=2007(x-y)$. Tā kā $x \neq y$, tad no šejienes seko $x+y=2007$.
@@ -32,7 +32,7 @@ $x^{2}+(p-1)x+(q-1)=0$ un $x^{2}+(p-2)x+(q-2)=0$ abas saknes ir veseli skaitļi?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Var ņemt $p=1,\ q=-2$. Patvaļīgam veselam skaitlim $a$ apskatām vienādojumu 
 $x^{2}+(a-1)x+(a-2)=0$. Tam ir saknes $x_{1}=-1$ un $x_{2}=2-a$.
@@ -52,7 +52,7 @@ ka $BC=2 \cdot AN$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $\triangle BNC$ ir taisnleņķa, tad tajā mediāna pret hipotenūzu vienāda 
 ar pusi no hipotenūzas, t.i., $NM=MC$. Tāpēc 
@@ -78,7 +78,7 @@ rūtiņu (varbūt neviena). Kāds var būt kopējais melno rūtiņu skaits?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** $0;\ 4;\ 6;\ 8;\ 10;\ \ldots;\ 38;\ 40;\ 42$.
 
@@ -126,7 +126,7 @@ no $1$ līdz $81$ (katrā rūtiņā - citu skaitli) tā, lai izpildītos tāda p
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā, skat., piem., 3.zīm.
 
@@ -157,7 +157,7 @@ vērtība ir
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; piemēram, $x=4$ un $y=2$.
 **(B)** nē; izteiksmi var pārveidot par $x(x-1)-y(y-1)$, no kurienes redzams, 
@@ -184,7 +184,7 @@ trauciņā būtu tieši viena monēta, ja **(A)** $n=7$, **(B)** $n=10$?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā. Skat., piem., 4.zīm.
 
@@ -213,7 +213,7 @@ $$\frac{1}{x(2) \cdot y(2)}+\frac{1}{x(3) \cdot y(3)}+\frac{1}{x(4) \cdot y(4)}+
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $a$ un $b$ ir viens otram sekojoši pirmskaitļi un $a \leq n<b$, tad $x(n)=a$
 un $y(n)=b$. Tāpēc katram šādam $n$ atbilstošais saskaitāmais summā ir 
@@ -246,7 +246,7 @@ laukums nav atkarīgs no $O$ izvēles.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $OX,\ OY,\ OZ$ pa pāriem veido $120^{\circ}$ lielus leņķus, tad to 
 vidusperpendikuli pa pāriem veido $60^{\circ}$ lielus leņķus, tāpēc to 
@@ -293,7 +293,7 @@ Pierādīt, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 No $n$ dažādiem skaitļiem var izveidot $\frac{n(n-1)}{2}$ summas $x+y$, kur 
 $x \neq y; n$ summas $x+x=2x$; bez tam $n$ veidos var ņemt vienu pašu skaitli 
@@ -327,7 +327,7 @@ Dots, ka $n$ - naturāls skaitlis.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; piemēram, var ņemt $n=9$.
 
@@ -350,7 +350,7 @@ bet nekādu divu kvadrāttrinomu summai sakņu nav?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Jā, eksistē. Piemēram, var ņemt trinomus $x^{2},\ (x-1)^{2}$ un $(x+1)^{2}$.
 
@@ -372,7 +372,7 @@ vienādi no abām pusēm.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sanumurēsim katrā lapas pusē esošos daudzstūrus ar skaitļiem $1;\ 2;\ 3$. Tās 
 daļas laukumu, pa kuru "pārklājas" daudzstūris ar numuru $i$ lapas pirmajā pusē
@@ -401,7 +401,7 @@ $AB \cdot KC=AC \cdot KB$.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlamies tādu punktu $S$, ka $BSCK$ ir paralelograms (skat. 7.zīm.); 
 $A,\ K,\ M,\ S$ atrodas uz vienas taisnes.
@@ -444,7 +444,7 @@ ja $k$ - patvaļīgs naturāls skaitlis.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Vispirms pierādīsim īpašību: katram naturālam 
 $na_{n}=0 \Leftrightarrow a_{n+3}=0$. Tiešām, ja $a_{n}=0$, tad no dotās 
@@ -508,7 +508,7 @@ $x^{2}+a^{2}x+b^{3}=0$ un $x^{2}+b^{2}x+a^{3}=0$ ir kopīga reāla sakne?
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $x$ - kopējā sakne, tad $x^{2}+a^{2}x+b^{3}=x^{2}+b^{2}x+a^{3}$, no kurienes
 $\left(a^{2}-b^{2}\right) \cdot x=a^{3}-b^{3}$. Ja $a \neq b$, tad 
@@ -541,7 +541,7 @@ Vai var būt, ka
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** jā; piemēram, divās pretējās kuba virsotnēs ieraksta " $-1$ ", bet 
 citās ieraksta " $+1$ ".
@@ -568,7 +568,7 @@ $$\left\{\begin{array}{l}
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja $(x; y)$ ir sistēmas atrisinājums, tad atrisinājumi ir arī 
 $(-x;y),\ (x;-y),\ (-x;-y)$; tāpēc meklēsim atrisinājumu pie 
@@ -616,7 +616,7 @@ Pierādīt, ka trijstūri $ACD,\ AEF$ un $AMN$ ir līdzīgi viens otram.
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 ![](LV.VOL.2007.12.4A.png)
 
@@ -673,7 +673,7 @@ Atbildēt uz šo jautājumu, ja
 
 </small>
 
-## Atrisinājums
+## Atrisinājums-1
 
 **Atbilde:** **(A)** jā, **(B)** nē.
 

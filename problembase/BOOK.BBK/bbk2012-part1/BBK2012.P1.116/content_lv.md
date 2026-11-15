@@ -7,7 +7,7 @@ vienāds ar skaiț̣a $n^{2}$ pozitīvo dalītāju skaitu.
 
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai pierādītu prasīto apgalvojumu, katram naturālu skaitlu pārim $(u ; v)$, kuram $[u, v]=1$, 
 viennozīmīgi piekārtosim skaitla $n^{2}$ naturālu dalītāju.

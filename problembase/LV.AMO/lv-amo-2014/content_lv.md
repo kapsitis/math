@@ -23,7 +23,7 @@ dzeltenas, bet pārējās- zilas. Aprēķini:
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $20 \%$ jeb $40$ olas bija sarkanas, tad Lieldienu zaķis bērniem atnesa
 $200$ olas.
@@ -53,7 +53,7 @@ gadīties, ka viens skaitlis ir tieši trīs reizes lielāks nekā otrs skaitlis
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja skaitļa pēdējais cipars ir $2, 3, 7$ vai $8$, tad trīs reizes lielāka
 skaitļa pēdējais cipars ir attiecīgi $6, 9, 1$ vai $4$, bet pēc uzdevuma
@@ -86,7 +86,7 @@ nekā otra mala.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka trijstūra $BAE$ laukums ir puse no taisnstūra $BAEF$ laukuma
 (skat. A1.zīm.). Tāpēc $BAEF$ laukums ir
@@ -131,7 +131,7 @@ būt pagrieztas jebkurā stāvoklī)?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $13 \cdot 5 = 65 > 64$, tad vairāk par $12$ norādītajām figūrām izgriezt
 nevar. Izgriezt $12$ figūras var, piemēram, tā, kā parādīts A2.zīm.
@@ -159,7 +159,7 @@ trīs, gan kā divu dažādu divciparu naturālu skaitļu reizinājumu?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 **(A)** Trīs dažādu divciparu skaitļu mazākais iespējamais reizinājums ir
 $10 \cdot 11 \cdot 12=1320$, tas iegūts sareizinot trīs mazākos divciparu
@@ -195,7 +195,7 @@ pašai palika $1$ metrs makšķerauklas. Cik gara bija makšķeraukla pašā sā
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pirms makšķerauklas atdošanas trešajai draudzenei Klementīnei bija palicis
 $3 \cdot 1=3 \mathrm{~m}$. Pirms atdošanas otrai draudzenei bija palicis
@@ -223,7 +223,7 @@ reizinājumi abās grupās ir vienādi?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Lai abu grupu skaitļu reizinājumi būtu vienādi, abās grupās kā skaitļu
 pirmreizinātājiem jābūt pārstāvētiem vieniem un tiem pašiem pirmskaitļiem
@@ -254,7 +254,7 @@ Atbildi pamatot!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Uzrakstām izteiksmi, kas izsaka kopējo pirkuma vērtību:
 
@@ -286,7 +286,7 @@ Aprēķināt iekšējā taisnstūra perimetru!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Katru izcelto nogriezni vēlreiz uzzīmējam uz katram nogrieznim pretējās kvadrāta
 malas (skat. A3.zīm.). Tad visu astoņu izcelto nogriežņu kopējais garums būs
@@ -319,7 +319,7 @@ iespējamais!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērosim, ka taisnstūrī $2 \times 5$ jāiekrāso vismaz divas rūtiņas. Tas
 nozīmē, ka kvadrātā $5 \times 5$ jāiekrāso vismaz četras rūtiņas. Tas, ka ar
@@ -350,7 +350,7 @@ garums, ja $ED=4~\mathrm{cm}$ un $DC=5~\mathrm{cm}$ ?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka trijstūra mediāna vienmēr atrodas trijstūra iekšpusē, bet
 augstums var atrasties arī ārpus trijstūra. Iespējami vairāki gadījumi, kā var
@@ -397,7 +397,7 @@ $$a \cdot(3a+5b) \cdot 7b=7654321$$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Reizinājums $a \cdot(3a+5b) \cdot 7b$ vienmēr ir pāra skaitlis:
 
@@ -414,7 +414,7 @@ izpildītos dotā vienādība.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Nepāra reizinājums $a \cdot(3a+5b) \cdot 7b$ nozīmē, ka $a,b$ ir nepāru. 
 Bet tad $3a+5b$ ir pāru, kas ir pretruna.
@@ -444,7 +444,7 @@ Visām skrūvēm svars ir vienāds, visām naglām arī.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim, ko no meiteņu apgalvojumiem varētu secināt $42$ skrūvju gadījumā:
 
@@ -499,7 +499,7 @@ Atrodiet visas iespējamās vērtības un pamatojiet, ka citu nav!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skaitli, kas atrodas vidējās kolonnas vidējā rūtiņā ar $x$, bet
 apakšējā -- ar $y$. Tad visu rindu, kolonnu un diagonāļu summas ir $24+x+y$.
@@ -510,7 +510,7 @@ Tālāk tabulas rūtiņas var aizpildīt šādi (skat. A7.zīm.):
 Tātad rūtiņā, kas bija apzīmēta ar jautājuma zīmi, ir ierakstīts skaitlis $2$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ja $a_{22}=x$, tad summas ir $3x$. Un $a_{13}=2x-13$,
 $a_{11}=x-11$, $a_{33}=x+11$, $a_{23}=2$.
@@ -541,7 +541,7 @@ līnijām.)
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Sadalām kvadrātu $6 \times 6$ četros kvadrātos $3 \times 3$ (skat. A8.zīm.) un
 ievērojam, ka katrā šādā kvadrātā jāizgriež vismaz divas rūtiņas. Tātad kopā
@@ -575,7 +575,7 @@ Kurš skaitlis lielāks -- sākotnējais vai iegūtais?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojot skaitli $\frac{1}{13}$ decimāldaļā (t.i., dalot $1$ ar $13$),
 iegūstam
@@ -595,7 +595,7 @@ skaitlis, kuram ir lielāks $2014.$ cipars aiz komata. Tā kā $9=2$, tad
 $\frac{1}{13}$ ir lielāka nekā iegūtais skaitlis.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 $1/13=0.(076923076923)$ (periods $12$ cipari). 
 $2014$-tais cipars ir tāds pats kā $10$-tais cipars ir $9$, 
@@ -625,7 +625,7 @@ to pirmo ciparu, samazinās $15$ reizes!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim meklējamo skaitli ar $a \cdot 10^{k}+B$, kur $a$ ir pirmais cipars
 (kas tiek nosvītrots), bet $B$ ir $k$ ciparu skaitlis, kas paliek pēc $a$
@@ -640,7 +640,7 @@ Pavisam ir pieci skaitļi, kas apmierina uzdevuma nosacījumus:
 $75, 750, 7500, 75000, 750000$.
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 $a$ - 1.cipars; $a \cdot 10^k + b = 15b$; $a \cdot 10^k = 14b$. 
 Tad $a = 7$, $b=5\cdot 10^{k-1}$.
@@ -669,7 +669,7 @@ ka, izvēloties jebkurus $5$ punktus, tie būs savienoti ar vismaz $3$ šķautn�
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām kuba augšējo un apakšējo skaldni. Izvēlēto punktu skaitu no augšējās
 skaldnes apzīmēsim ar $a$, bet no apakšējās- ar $b$. Tad $a+b=5$ un
@@ -713,7 +713,7 @@ $\sphericalangle ABC$ un $\sphericalangle CDE$ ir lielāks?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka trijstūris $BFC$ ir vienādsānu taisnleņķa trijstūris
 (skat. A10.zīm.), tāpēc $\sphericalangle ABC=45^{\circ}$.
@@ -811,7 +811,7 @@ kvadrāts (skat. 10.zīm.). Aprēķināt iekrāsoto daļu laukumu summu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievilktā riņķa rādiusa garums ir puse no kvadrāta $ABCD$ malas garuma, t.i.,
 $EO=FO=\frac{1}{2} AB=1$. Izmantojot Pitagora teorēmu trijstūrī $EOF$
@@ -851,7 +851,7 @@ var izveidot no šiem cipariem, summa ir $1276$. Atrast dotos četrus ciparus!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotos ciparus apzīmēsim ar $a, b, c, d$. No tiem var izveidot $16$ dažādus
 divciparu skaitļus. Katrs no šiem cipariem četros skaitļos ir desmitu cipars un
@@ -883,7 +883,7 @@ Zināms, ka $AC \| PQ$. Aprēķināt $\sphericalangle BAC$ vērtību!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\sphericalangle BAC=\alpha, \sphericalangle BCA=\beta$, tad
 $\alpha+\beta=90^{\circ}$ (skat. A15.zīm.). No $AC || PQ$ seko, ka
@@ -930,7 +930,7 @@ mazākais skaitlis, kas var būt ierakstīts tabulas centrālajā rūtiņā?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim skaitli, kas atrodas vidējās kolonnas vidējā rūtiņā ar $x$, bet
 apakšējā- ar $y$. Tad visu rindu, kolonnu un diagonāļu summas ir $6+x+y$. Tālāk
@@ -982,7 +982,7 @@ marsiešiem var būt $2014$?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Iedomāsimies, ka katram marsietim katrā rokā ir tik margrietiņu, cik viņam ir
 antenu. Tādā gadījumā margrietiņu kopējais skaits būs trīs reizes lielāks nekā
@@ -1010,7 +1010,7 @@ vai dilstoša!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Virkni sauc par augošu (dilstošu), ja katrs nākamais virknes loceklis ir
 lielāks (mazāks) nekā iepriekšējais.
@@ -1044,7 +1044,7 @@ ir kopīgs tikai galapunkts, tie nekrustojas.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Visus zaļos punktus sanumurējam no kreisās uz labo pusi ar skaitļiem no $1$
 līdz $14$ (skat. A19.zīm.). Līdzīgi sanumurējam visus sarkanos punktus. Tā kā
@@ -1069,7 +1069,7 @@ funkciju grafikiem ir kopīgs punkts!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim dotās funkcijas vērtību pie $x=\frac{1}{2}$ :
 
@@ -1097,7 +1097,7 @@ aprēķināja to summu. Kāds lielākais skaits no šīm summām var būt pirmsk
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ja starp dotajiem ir $k$ pāra skaitļi un $7-k$ nepāra skaitļi, tad starp summām
 ir $k(7-k)$ nepāra skaitļi, bet pārējie ir pāra skaitļi un nav pirmskaitļi
@@ -1113,7 +1113,7 @@ pirmskaitļi.
 
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 
 Ievērojam, ka vajadzīgs lielākais *skaits*, kas var būt 
@@ -1173,7 +1173,7 @@ $\sphericalangle PAB=\sphericalangle PCB$. Pierādīt, ka $ABCD$ ir kvadrāts!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pieņemsim pretējo, ka $ABCD$ nav kvadrāts. Attēlosim punktu $C$ simetriski pret
 taisni $BD$ punktā $C^{\prime}$ (skat. A20.zīm.). No pieņēmuma seko, ka $A$
@@ -1191,7 +1191,7 @@ Līdz ar to esam pierādījuši, ka $ABCD$ ir kvadrāts.
 ![](LV.AMO.2014.10.5A.png)
 
 
-## Atrisinājums
+## Atrisinājums-2
 
 Pieņemsim, ka šāds punkts $P$ tomēr eksistē arī taisnstūrim, kas nav kvadrāts
 ($AD < AB$ un $\sphericalangle PAB=\sphericalangle PCB=\alpha$ ). Viegli
@@ -1239,7 +1239,7 @@ viena virsotne ir sarkana, vai to, kam visas virsotnes ir baltas?
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Aplūkosim visus daudzstūrus, kam visas virsotnes ir baltas. Pievienojot katram
 no tiem sarkano virsotni, iegūsim daudzstūrus, kam viena virsotne ir sarkana,
@@ -1264,7 +1264,7 @@ $a_{1}=1000$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmējam $S_{n}=a_{1}+a_{2}+\ldots+a_{n}$. Tad
 $n^2 a_n=S_n$ , $(n+1)^{2}a_{n+1}=S_{n+1}$ un
@@ -1277,7 +1277,7 @@ a_{n+1}=\frac{n}{n+2} \cdot a_{n}=\frac{n}{n+2} \cdot \frac{n-1}{n+1} a_{n-1}=\f
 Esam ieguvuši, ka $a_{n}=\frac{2 a_{1}}{(n+1) n}$ un varam aprēķināt prasīto
 $a_{50}=\frac{2 \cdot 1000}{51 \cdot 50}=\frac{40}{51}$.
 
-## Atrisinājums
+## Atrisinājums-2
 
 Ievērojam, ka $a_{n}=\frac{a_{1}+a_{2}+\ldots+a_{n-1}}{n^{2}-1}$.
 
@@ -1318,7 +1318,7 @@ ievilktās riņķa līnijas centrs ir punktā $O$. Pierādīt, ka $OK \| AC$ !
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Tā kā $N$ un $M$ ir attiecīgo loku viduspunkti, tad leņķi, kas balstās uz
 vienādiem lokiem, ir vienādi:
@@ -1349,7 +1349,7 @@ skaitļa kvadrāts!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izvēlamies patvaļīgu pirmskaitli $p$, ar kuru dalās visu doto skaitļu
 reizinājums. No dotā seko, ka visi skaitļi ir savstarpēji pirmskaitļi. Tāpēc
@@ -1375,7 +1375,7 @@ Pierādīt, ka izliektu $2014$-stūri nevar sadalīt $167$ izliektos $14$-stūro
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Izliekta $2014$-stūra iekšējo leņķu summa ir $2012 \cdot 180^{\circ}$. Tos ir
 jānoklāj ar $167$ $14$-stūru leņķiem, kuru kopējais lielums ir
@@ -1395,7 +1395,7 @@ Atrisināt nevienādību $9^{x}-2 \cdot 3^{x}-3 \leq 0$.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Pārveidojam nevienādību formā $3^{2 x}-2 \cdot 3^{x}-3 \leq 0$ un, apzīmējot
 $3^{x}=t$, iegūstam kvadrātnevienādību $t^{2}-2t-3 \leq 0$. Kvadrāttrinoma
@@ -1429,7 +1429,7 @@ apvilkto riņķka līiju krustpunktu!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apzīmēsim $\triangle AMQ$ un $\triangle APN$ apvilkto riņķa līniju krustošanās
 punktu ar $X$ (skat. A24.zīm.). Lai pierādītu, ka $X$ atrodas uz nogriežņa
@@ -1461,7 +1461,7 @@ Atrast visus pirmskaiţuus $p$, kuriem $p^{4}-6$ arī ir pirmskaitlis!
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Apskatām dažas $p$ vērtības:
 
@@ -1510,7 +1510,7 @@ drīkst pārklāties, kā arī iziet ārpus dotā kvadrāta malām.
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Ievērojam, ka mazā sarkanā trijstūra (skat. A25.zīm.) katešu garumi attiecas kā
 $1:2$ un tie attiecīgi ir $\frac{1}{\sqrt{5}}$ un $\frac{2}{\sqrt{5}}$.
@@ -1540,7 +1540,7 @@ $$3f(a) \leq f(b)+f(c)+f(3a-b-c)?$$
 </small>
 
 
-## Atrisinājums
+## Atrisinājums-1
 
 Dotajā nevienādībā ņemam $a=\frac{x_{1}+x_{2}+x_{3}+x_{4}}{4}$ un
 $b=\frac{x_{1}+x_{2}}{2}$. Tad
