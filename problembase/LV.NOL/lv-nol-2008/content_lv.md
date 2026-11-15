@@ -330,7 +330,6 @@ $x=a^{3},\ y=b^{4},\ a$ un $b$ - naturāli skaitļi?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, PerfectCubes, PrimeFactorization
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: NumberConstruction, PrimeFactorization
 * _hasReasoningMistake: UnstatedNumberSetAssumption, FactoringWithoutIntegerCondition, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -393,7 +392,6 @@ vidējais svars ir $71~\mathrm{kg}$. Pierādīt, ka cīkstoņu skaits dalās ar 
 * domain:Alg
 * _hasSolutionConcept: ArithmeticMean, LinearEquation, DivisibilityRelation, GCD, CoprimeIntegers
 * _readingDifficulty: low
-* _domain: Alg,NT
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem
 * _mistakesFit: medium
@@ -493,7 +491,6 @@ laimīgi. Pierādīt, ka viens no tiem dalās ar $10$.
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DigitSum, EvenOddParity, DivisibilityRules, ProofByContradiction
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: ParityArgument, ProofByContradiction, LastDigitAnalysis
 * _hasReasoningMistake: 
 * _mistakesFit: low

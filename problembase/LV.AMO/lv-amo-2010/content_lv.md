@@ -84,7 +84,6 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 * domain:Alg
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -419,7 +418,6 @@ Atrodi visus šos skaitļus!
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, EvenOddParity, DigitRepresentation, EquationSystem
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, ParityArgument, PrimePropertiesAndUniqueness
 * _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -471,7 +469,6 @@ Vai var gadīties, ka $AB>AC$?
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleCongruence, TriangleInequality, ProofByContradiction
 * _readingDifficulty: medium
-* _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, ProofByContradiction, CaseAnalysis, IsoscelesTriangleProperties, TriangleInequality
 * _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
 * _mistakesFit: high
@@ -521,7 +518,6 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: MagicConfiguration, LatinSquareSudoku, PositiveIntegers
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
@@ -557,7 +553,6 @@ izmestas.)
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, Invariant
 * _readingDifficulty: high
-* _domain: NT
 * _hasReasoningMethod: InvariantMethod, PrimePropertiesAndUniqueness, NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
@@ -675,7 +670,6 @@ vismaz astoņi būs savā starpā atšķirīgi!
 * domain:Comb
 * _hasSolutionConcept: PositiveIntegers, FiniteSet, CartesianProduct, ExhaustiveCheck
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
@@ -908,10 +902,9 @@ iespējams izdarīt, ja
 
 * concepts:primes,sum
 * questionType:ProveDisprove,ProveDisprove
-* domain:NT
+* domain:Comb
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, SetPartition, ParityInvariant
 * _readingDifficulty: medium
-* _domain: NT,Comb
 * _hasReasoningMethod: BoundingArgument, CompleteEnumeration, NumberConstruction, SumOfArithmeticOrTriangularNumbers
 * _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -1017,7 +1010,6 @@ $d(n)$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, EvenOddParity, PrimeNumbers
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: NumberOfDivisors, NumberConstruction, BoundingArgument, PrimePropertiesAndUniqueness
 * _hasReasoningMistake: ExampleInsteadOfProof, PrimeOnePointConfusion
 * _mistakesFit: medium
@@ -1054,7 +1046,6 @@ Piemēram, skaitlis $19$ ierakstīts ceturtajā rindā, trešajā kolonnā.
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, NumberSequence, Invariant, OrderedPair
 * _readingDifficulty: high
-* _domain: Comb
 * _hasReasoningMethod: FixedInvariantNumeric
 * _hasReasoningMistake: ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium

@@ -357,10 +357,9 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 
 * sameAs:LV.NOL.2003.7.4
 * questionType:FindOptimal
-* domain:NT
+* domain:Comb
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, OptimumProofStructure, ExhaustiveCheck
 * _readingDifficulty: low
-* _domain: NT,Comb
 * _hasReasoningMethod: CompleteEnumeration, ParityArgument
 * _hasReasoningMistake: MissingBoundOrExample, PrimeOnePointConfusion, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -458,7 +457,6 @@ dalītāju summu.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet, EvenOddParity
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: NumberConstruction, ParityArgument, BoundingArgument
 * _hasReasoningMistake: ExampleInsteadOfProof, ConfusingDivisorAndMultiple
 * _mistakesFit: medium
@@ -545,7 +543,6 @@ decimālais pieraksts sākas ar ciparu $1$?
 * seeAlso:LV.NOL.2004.8.2
 * _hasSolutionConcept: DigitRepresentation, NumberSequence, CountingSumRule
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: BoundingArgument
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -621,7 +618,6 @@ Ar kādu mazāko jautājumu skaitu Juris var noteikti noskaidrot $n$?
 * subdomain:DOM_MakingMoves
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DecisionTree, OptimumProofStructure
 * _readingDifficulty: high
-* _domain: Comb,NT
 * _hasReasoningMethod: PrimePropertiesAndUniqueness, NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof, MissingBoundOrExample
 * _mistakesFit: medium
@@ -860,7 +856,6 @@ $1;\ 2;\ 3;\ 4$?
 * domain:NT
 * _hasSolutionConcept: RecurrentSequence, PeriodicSequence, LastDigit, EvenOddParity, PigeonholePrinciple
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: PeriodicSequence, ParityArgument, PigeonholeInNT, ProofByContradiction
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: medium

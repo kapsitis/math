@@ -10,7 +10,6 @@ kas dalās ar $3$. Kāda ir uzrakstīto skaitļu summa?
 * domain:NT
 * _hasSolutionConcept: MultiplesSet, DivisibilityRelation, PositiveIntegers
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: CompleteEnumeration
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -35,7 +34,6 @@ Kāda ir divu mazāko pirmskaitļu summa?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: DirectRecallOfDefinitions
 * _newReasoningMethodDescription: Using direct recall of basic definitions or facts
@@ -63,7 +61,6 @@ ja katrā kastē ir vismaz $10$ konfektes?
 * domain:Alg
 * _hasSolutionConcept: NumberSequence, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: NumericalEstimation
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
@@ -97,7 +94,6 @@ vienāds olu skaits?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PrimeFactorization
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: PrimeFactorization
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -128,7 +124,6 @@ attēlā redzama figūra, kas sastāv no četrām 5-rūtiņu figūrām.
 * domain:Geom
 * _hasSolutionConcept: Polygon, LatticeGrid, Invariant
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _newReasoningMethodLabel: PerimeterIncrement
 * _newReasoningMethodDescription: Track perimeter change when adding repeated pieces
@@ -166,7 +161,6 @@ pārtraukt, lai to turpinātu otra darbiniece. Kāds ir īsākais laiks
 * domain:Comb
 * _hasSolutionConcept: OptimumProofStructure, ArithmeticMean, PositiveIntegers
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
@@ -202,7 +196,6 @@ nopirka Mārtiņš?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, ExhaustiveCheck, LinearDiophantine
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: CompleteEnumeration
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -231,7 +224,6 @@ Cik krustpunktu ir trīs dotajām taisnēm (skat. att.)?
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, CountingProductRule
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
 * _hasReasoningMistake: RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
 * _mistakesFit: medium
@@ -262,7 +254,6 @@ centimetros!
 * domain:Geom
 * _hasSolutionConcept: Triangle, Polygon
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: PerimeterComputation
 * _newReasoningMethodDescription: Computing total boundary length and repeated traversal distance
@@ -289,7 +280,6 @@ Cik skaitļi intervālā no $1$ līdz $200$ dalās ar $7$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, BoundingArgument
 * _hasReasoningMistake: ConfusingDivisorAndMultiple
 * _mistakesFit: low
@@ -312,7 +302,6 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 * domain:NT
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules
 * _hasReasoningMistake: WrongDivisibilityRule
 * _mistakesFit: medium
@@ -340,7 +329,6 @@ figūra, ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, CountingSumRule
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
 * _newReasoningMethodLabel: LayerCounting3D
 * _newReasoningMethodDescription: Counting cubes by horizontal layers in a 3D stack
@@ -372,7 +360,6 @@ $$25~\mathrm{t}~50~\mathrm{kg} + 13~\mathrm{t}~950~\mathrm{kg} –
 * domain:Alg
 * _hasSolutionConcept: WholeIntegers
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem
 * _mistakesFit: medium
@@ -395,7 +382,6 @@ Vai skaitlis $2021$ dalās ar $5$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, LastDigit, DivisibilityRelation
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules
 * _hasReasoningMistake: WrongDivisibilityRule
 * _mistakesFit: medium
@@ -423,7 +409,6 @@ Cik trijstūri redzami dotajā zīmējumā?
 * domain:Geom
 * _hasSolutionConcept: Triangle, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: SymmetryStrategy
 * _newReasoningMethodLabel: SystematicSubfigureCounting
 * _newReasoningMethodDescription: Counting all subfigures by partitioning into repeated regions
@@ -460,7 +445,6 @@ Kāds ir flīzes perimetrs centimetros, ja pusriņķa rādiuss ir $4~\mathrm{cm}
 * domain:Geom
 * _hasSolutionConcept: CircleAndDisk, PointLineSegmentRay
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: PerimeterFromArcDiameterComposition
 * _newReasoningMethodDescription: Compute perimeter by composing sides from semicircle diameters
@@ -487,7 +471,6 @@ naturāli skaitļi. Kāds ir taisnstūra perimetrs centimetros?
 * domain:Geom
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, QuadrilateralFamilies
 * _readingDifficulty: low
-* _domain: Geom,NT
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: PrimeFactorizationOfArea
 * _newReasoningMethodDescription: Using prime factorization to determine integer side lengths
@@ -520,7 +503,6 @@ Kura no figūrām ir visvieglākā?
 * domain:Alg
 * _hasSolutionConcept: TotalOrder, Invariant, QuadrilateralFamilies, Triangle, CircleAndDisk
 * _readingDifficulty: medium
-* _domain: Geom
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -558,7 +540,6 @@ uz punktu $B$? Pa ceļiem var pārvietoties tikai bultiņu norādītajā virzien
 * domain:Comb
 * _hasSolutionConcept: DirectedGraph, WalkPathCycle, ExhaustiveCheck
 * _readingDifficulty: low
-* _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
@@ -591,7 +572,6 @@ atrodas grāmata, kas maksā 7 eiro?
 * domain:Comb
 * _hasSolutionConcept: SetDifference, FiniteSet, DivisibilityRules
 * _readingDifficulty: medium
-* _domain: NT,Geom
 * _hasReasoningMethod: EulerVennDiagramRegions
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
@@ -621,7 +601,6 @@ $20$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $5$?
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet
 * _readingDifficulty: low
-* _domain: NT,Geom
 * _hasReasoningMethod: EulerVennDiagramRegions
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -649,7 +628,6 @@ Telpā ir $3$ cilvēki. Cik dažādās secībās viņi var pamest šo telpu?
 * domain:Comb
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSequenceArrangement
 * _readingDifficulty: low
-* _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
 * _mistakesFit: medium
@@ -675,7 +653,6 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, ExhaustiveCheck
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: CompleteEnumeration
 * _hasReasoningMistake: PrimeOnePointConfusion
 * _mistakesFit: medium
@@ -711,7 +688,6 @@ D. vairāk nekā $1000000$
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, GeometricProgression, ArithmeticMean
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem
 * _mistakesFit: medium
@@ -758,7 +734,6 @@ figūra, kas sastāv no četrām šādi saliktām T-veida figūrām.
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSequenceArrangement
 * _readingDifficulty: medium
-* _domain: Geom
 * _hasReasoningMethod: CountingByDoubleCounting
 * _newReasoningMethodLabel: PerimeterIncrement
 * _newReasoningMethodDescription: Track perimeter change when attaching repeated pieces
@@ -792,7 +767,6 @@ garāks nekā iepriekšējais!
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, FiniteSequenceArrangement, CountingSumRule
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: ArithmeticProgressionSummation
 * _newReasoningMethodDescription: Summing terms of an arithmetic progression
@@ -819,7 +793,6 @@ Cik krustpunktu ir četrām dotajām taisnēm (skat. att.)?
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, CountingProductRule
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: CountingByDoubleCounting
 * _hasReasoningMistake: RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
 * _mistakesFit: medium
@@ -844,7 +817,6 @@ tad rezultātā iegūst skaitli $127$. Nosaki $A$ vērtību!
 * domain:Alg
 * _hasSolutionConcept: PerfectCubes, LastDigit
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _newReasoningMethodLabel: LastDigitAnalysis
 * _newReasoningMethodDescription: Inferring a number from the last digit of its power
@@ -878,7 +850,6 @@ veicot $369~\mathrm{cm}$. Nosaki trijstūra malas garumu centimetros!
 * domain:Geom
 * _hasSolutionConcept: Triangle, DivisionWithRemainder, PositiveIntegers
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: 
 * _newReasoningMethodLabel: PerimeterFromRepeatedTraversal
 * _newReasoningMethodDescription: Compute perimeter from repeated laps and divide by side count
@@ -913,7 +884,6 @@ minūtēs, kurā viņas var apkalpot visas septiņas klientes?
 * domain:Comb
 * _hasSolutionConcept: OptimumProofStructure, ArithmeticMean, PositiveIntegers
 * _readingDifficulty: medium
-* _domain: Alg
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, FixedInvariantNumeric
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
@@ -946,7 +916,6 @@ Cik skaitļu intervālā no $1$ līdz $600$ dalās ar $7$?
 * domain:NT
 * _hasSolutionConcept: MultiplesSet, DivisibilityRelation
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, BoundingArgument
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -971,7 +940,6 @@ olimpiādē?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, CountingSumRule
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem
 * _mistakesFit: medium
@@ -999,7 +967,6 @@ atrastos līdzsvarā?
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, LinearEquation, ExhaustiveCheck
 * _readingDifficulty: medium
-* _domain: Alg
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
 * _mistakesFit: medium
@@ -1033,7 +1000,6 @@ Kāds atlikums rodas, ja $10035$ dala ar $6$?
 * domain:NT
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRules, EvenOddParity, DigitSum
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
 * _hasReasoningMistake: WrongDivisibilityRule
 * _mistakesFit: medium
@@ -1062,7 +1028,6 @@ ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, FiniteSet, CountingSumRule
 * _readingDifficulty: medium
-* _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
 * _hasReasoningMistake: RelyingOnDiagramAppearance
 * _mistakesFit: medium
@@ -1091,7 +1056,6 @@ $$(2~\mathrm{h}~41~\mathrm{min} + 5~\mathrm{h}~59~\mathrm{min}) : 2 – 28~\math
 * domain:Alg
 * _hasSolutionConcept: ArithmeticMean, RationalNumbers
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem
 * _mistakesFit: medium
@@ -1117,7 +1081,6 @@ Vai skaitlis $20212021$ dalās ar $5$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules
 * _hasReasoningMistake: WrongDivisibilityRule
 * _mistakesFit: medium
@@ -1142,7 +1105,6 @@ Cik trijstūri redzami dotajā zīmējumā?
 * domain:Geom
 * _hasSolutionConcept: Triangle, QuadrilateralFamilies, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: SymmetryStrategy
 * _newReasoningMethodLabel: SystematicFigureCounting
 * _newReasoningMethodDescription: Partitioning a diagram into regions and summing repeated subfigure counts
@@ -1179,7 +1141,6 @@ Kāds ir taisnstūra perimetrs, ja riņķa līnijas rādiuss ir $4~\mathrm{cm}$?
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: ParallelogramProperties
 * _hasReasoningMistake: RelyingOnDiagramAppearance
 * _mistakesFit: low
@@ -1210,7 +1171,6 @@ rūtiņu pa labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļūt rūti
 * domain:Comb
 * _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
 * _readingDifficulty: low
-* _domain: Comb
 * _hasReasoningMethod: DynamicProgramming, RecursiveSequenceForCounting, RuleOfSumDisjointCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
 * _mistakesFit: medium
@@ -1244,7 +1204,6 @@ dalītos ar $90$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, LastDigit
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
 * _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility
 * _mistakesFit: medium
@@ -1272,7 +1231,6 @@ nenokrāsoti, ja kastes škautnes garums ir $7~\mathrm{cm}$?
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, RationalNumbers
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -1299,7 +1257,6 @@ Cik dažādās secībās $3$ skolēni var nostāties rindā pie kases?
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
-* _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
 * _mistakesFit: medium
@@ -1330,7 +1287,6 @@ grāmata, kas maksā $17$ eiro?
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, EvenOddParity, SetDifference, EulerVennDiagrams
 * _readingDifficulty: medium
-* _domain: NT,Geom
 * _hasReasoningMethod: EulerVennDiagramRegions, FixedInvariantNumeric
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
@@ -1359,7 +1315,6 @@ atrodas aplī. Kurā plaknes daļā atrodas skaitlis $10$?
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet, SetIntersection
 * _readingDifficulty: low
-* _domain: NT,Geom
 * _hasReasoningMethod: EulerVennDiagramRegions
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -1382,7 +1337,6 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 * domain:Comb
 * _hasSolutionConcept: CountingProductRule, FiniteSequenceArrangement
 * _readingDifficulty: low
-* _domain: Comb
 * _hasReasoningMethod: RuleOfProductIndependentChoices
 * _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections
 * _mistakesFit: medium
@@ -1411,7 +1365,6 @@ lai skaitļi pa apli būtu uzrakstīti pretējā secībā?
 * domain:Comb
 * _hasSolutionConcept: Permutation, Invariant, OptimumProofStructure
 * _readingDifficulty: low
-* _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
@@ -1436,10 +1389,9 @@ virsotnēm bija attēloti sākotnējā zīmējumā?
 
 * answer:5
 * questionType:ShortAnswer
-* domain:Geom
+* domain:Geom,Comb
 * _hasSolutionConcept: QuadrilateralFamilies, PointLineSegmentRay, ExhaustiveCheck
 * _readingDifficulty: low
-* _domain: Geom,Comb
 * _hasReasoningMethod: CaseAnalysis
 * _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, SkippingCaseAnalysis
 * _mistakesFit: medium
@@ -1464,10 +1416,9 @@ $$A(1;3.5) \quad B(8;6) \quad C(-12;-1) \quad D(-5;1)$$
 
 * answer:C
 * questionType:ShortAnswer
-* domain:Comb
+* domain:Geom
 * _hasSolutionConcept: CoordinatePlane, LinearFunction, PointLineSegmentRay, OrderedPair
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -1508,7 +1459,6 @@ Nosaki ceturtās virsotnes koordinātu summu!
 * domain:Geom
 * _hasSolutionConcept: CoordinatePlane, QuadrilateralFamilies, ParallelogramProperties, OrderedPair
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: ParallelogramProperties
 * _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance
 * _mistakesFit: medium
@@ -1536,7 +1486,6 @@ Cik mazos trijstūrīšus ieguva?
 * domain:Geom
 * _hasSolutionConcept: Triangle, DissectionIntoCongruent, CountingSumRule, NumberSequence
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
 * _hasReasoningMistake: WrongAreaProportionality, FromSpecialToGeneral
 * _mistakesFit: medium
@@ -1565,7 +1514,6 @@ viņai pietrūktu. Cik centu ir Dacei?
 * domain:Alg
 * _hasSolutionConcept: LinearEquation, EquationSystem, DirectProportion
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: NumericalEstimation
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
@@ -1601,7 +1549,6 @@ kur redzamas pirmās trīs figūras). No cik divu posmu leņķīšiem
 * domain:Geom
 * _hasSolutionConcept: LatticeGrid, Tiling, Invariant, CountingSumRule
 * _readingDifficulty: medium
-* _domain: Geom
 * _hasReasoningMethod: CountingByDoubleCounting
 * _newReasoningMethodLabel: RecursiveChangeCounting
 * _newReasoningMethodDescription: Track total count via fixed increment in each construction step
@@ -1634,7 +1581,6 @@ Cik krustpunktu ir trīs dotajām taisnēm un staram (skat.att.)
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, CountingSumRule
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
 * _hasReasoningMistake: RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
 * _mistakesFit: medium
@@ -1660,7 +1606,6 @@ Kāds ir galarezultāta pēdējais cipars?
 * domain:NT
 * _hasSolutionConcept: LastDigit, DigitRepresentation
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: LastDigitAnalysis
 * _hasReasoningMistake: CarelessModularComputation
 * _mistakesFit: medium
@@ -1694,7 +1639,6 @@ malas garums ir $4~\mathrm{cm}$?
 * domain:Geom
 * _hasSolutionConcept: DivisionWithRemainder, Triangle, MultiplesSet
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
 * _newReasoningMethodLabel: PeriodicMotionAlongPerimeter
 * _newReasoningMethodDescription: Using perimeter periodicity via division with remainder
@@ -1726,7 +1670,6 @@ olimpiādē. Cik procentu no skolas skolēniem piedalījās olimpiādē?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, ArithmeticMean
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem
 * _mistakesFit: medium
@@ -1754,7 +1697,6 @@ Kāda ir riņka un kvadrāta masa, ja trijstūra masa ir $5$ kg?
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, LinearEquation, Triangle, QuadrilateralFamilies
 * _readingDifficulty: medium
-* _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, SystemOfEquationsAdditionOrSubstitution
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
@@ -1792,7 +1734,6 @@ Kāds atlikums rodas, ja $2021$ dala ar $4$?
 * domain:NT
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -1819,7 +1760,6 @@ tagadējais klucǐšu izkārtojums redzams attēlā?
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: CaseAnalysis
 * _hasReasoningMistake: RelyingOnDiagramAppearance
 * _mistakesFit: medium
@@ -1848,7 +1788,6 @@ būtu patiesa?
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearEquation, LCM
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -1872,7 +1811,6 @@ dalītos ar $36$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, DivisibilityRelation
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
 * _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility
 * _mistakesFit: medium
@@ -1907,7 +1845,6 @@ Iekrāsotajās rūtiņās ir škēēslis, tajās varde neiet.
 * domain:Comb
 * _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
 * _readingDifficulty: low
-* _domain: Comb
 * _hasReasoningMethod: DynamicProgramming, RuleOfSumDisjointCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
 * _mistakesFit: medium
@@ -1946,7 +1883,6 @@ grāmata, kas maksā $27$ eiro?
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, EulerVennDiagrams
 * _readingDifficulty: medium
-* _domain: NT,Geom
 * _hasReasoningMethod: EulerVennDiagramRegions
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: low
@@ -1977,7 +1913,6 @@ $15$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $45$?
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, DivisorsSet, EulerVennDiagrams
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: EulerVennDiagramRegions
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
@@ -2005,7 +1940,6 @@ līniju centros un taisnstūra $LMNO$ perimetrs ir $112~\mathrm{cm}$?
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk, PointLineSegmentRay
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: ParallelogramProperties
 * _hasReasoningMistake: RelyingOnDiagramAppearance
 * _mistakesFit: medium
@@ -2033,7 +1967,6 @@ atrastos uz funkcijas $y = 3x − 71$ grafika?
 * domain:Alg
 * _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem
 * _mistakesFit: medium
@@ -2058,7 +1991,6 @@ $y=71x+2021$ grafikam un iet caur punktu $A(2;200)$. Nosaki $b$ vērtību!
 * domain:Alg
 * _hasSolutionConcept: LinearFunction, ParallelPerpendicular, CoordinatePlane
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: SlopesOnCoordinatePlane, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem
 * _mistakesFit: medium
@@ -3017,11 +2949,10 @@ lai no tām noteikti varētu izveidot divciparu skaitli, kurš dalās ar $7$
 <small>
 
 * questionType:FindOptimal
-* domain:NT
+* domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PigeonholePrinciple, DivisibilityRelation, DigitRepresentation, SetPartition, OptimumProofStructure
 * _readingDifficulty: medium
-* _domain: Comb,NT
 * _hasReasoningMethod: PigeonholeInNT, CompleteEnumeration, NumberConstruction
 * _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
 * _mistakesFit: medium

@@ -51,7 +51,6 @@ gadu skaits?
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PigeonholePrinciple, Counterexample, ExistenceVsUniversal, FiniteSet
 * _readingDifficulty: low
-* _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence, PigeonholePrincipleGeneralized, ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts
 * _mistakesFit: high

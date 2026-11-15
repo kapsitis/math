@@ -362,7 +362,6 @@ tikai tas, ka tie atrodas trijstūra $T$ iekšpusē.
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleInequality, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: CaseAnalysis, AuxiliaryLines, AngleChasing
 * _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
 * _mistakesFit: high
@@ -407,11 +406,10 @@ Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 * concepts:primes,sum,table,row,column,natural-numbers
 * subdomain:DOM_Divisibility
 * questionType:FindOptimal
-* domain:NT
+* domain:Comb
 * isHard:true
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, Permutation, OptimumProofStructure
 * _readingDifficulty: medium
-* _domain: NT,Comb
 * _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness, SumOfArithmeticOrTriangularNumbers
 * _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof, MissingBoundOrExample
 * _mistakesFit: medium
@@ -458,7 +456,6 @@ atrodas ārpus $\triangle ABC$. Pierādīt, ka $AN=CM$.
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleCongruence, Angle
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
 * _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
 * _mistakesFit: high
@@ -490,7 +487,6 @@ pavisam ir rūķīšu? (Dālderis ir vienīgā rūķīšiem pieejamā naudas vie
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, Invariant
 * _readingDifficulty: high
-* _domain: NT
 * _hasReasoningMethod: InvariantMethod, PrimePropertiesAndUniqueness, NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
@@ -613,7 +609,7 @@ vecumu reizinājums ir $2450$, bet summa - divas reizes lielāka nekā Jūsu
 vecums." Kolēģis atteica: "Es nezinu un nevaru noskaidrot, cik veci ir šie 
 ļaudis." Tad Cipariņš piebilda: "Es esmu vecāks par jebkuru citu šai eglītē." 
 Tagad kolēģis uzreiz pateica minēto $3$ viesu vecumus. Cik gadu tai laikā bija 
-Cipariņam un cik - viņa kolēgim? (Visus vecumus izsaka veselos gados.)
+Cipariņam un cik - viņa kolēģim? (Visus vecumus izsaka veselos gados.)
 
 <small>
 
@@ -623,10 +619,9 @@ Cipariņam un cik - viņa kolēgim? (Visus vecumus izsaka veselos gados.)
 * isHard:true
 * isUnverified:true
 * questionType:FindAll
-* domain:Comb
+* domain:NT
 * _hasSolutionConcept: PrimeFactorization, EquationSystem, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: high
-* _domain: NT
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
@@ -797,7 +792,6 @@ ar $d(n)$.
 * domain:NT
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PrimeNumbers, PrimeFactorization
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: NumberOfDivisors, NumberConstruction, BoundingArgument
 * _hasReasoningMistake: ConfusingDivisorAndMultiple, ExampleInsteadOfProof
 * _mistakesFit: medium

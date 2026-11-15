@@ -459,7 +459,6 @@ vai smagāka nekā pārējās? (Pašu monētu atrast nav nepieciešams.)
 * seeAlso:LV.NOL.2016.7.4
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: RuleOfSumDisjointCases, ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
@@ -566,7 +565,6 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b)=150015$ ?
 * domain:NT
 * _hasSolutionConcept: EvenOddParity, WholeIntegers, CaseAnalysis
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: ParityArgument, CompleteEnumeration
 * _hasReasoningMistake: UnstatedNumberSetAssumption
 * _mistakesFit: medium
@@ -600,7 +598,6 @@ uzvarēt?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, MultiplesSet, ExistenceVsUniversal
 * _readingDifficulty: medium
-* _domain: NT,Comb
 * _hasReasoningMethod: NumberConstruction, PositionalNotation
 * _hasReasoningMistake: ExampleInsteadOfProof, CarelessModularComputation, IncompleteResidueCases
 * _mistakesFit: medium
@@ -772,7 +769,6 @@ $\frac{4}{3},\ \frac{4}{5},\ \frac{5}{2}$?
 * domain:Alg
 * _hasSolutionConcept: Invariant, RationalNumbers, StateSpaceProcess
 * _readingDifficulty: medium
-* _domain: Alg
 * _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: 
 * _mistakesFit: low
@@ -807,7 +803,6 @@ izveidotais trīsciparu skaitlis $\overline{yxy}$ ?
 * concepts:divisibility
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, DivisibilityRelation, ExhaustiveCheck
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, CoprimeFactorsDivisibility, PositionalNotation, AlgebraicManipulationForInteger, BoundingArgument
 * _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -1087,7 +1082,6 @@ iegūtu skaitli, kas dalās ar $2019$?
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisionWithRemainder, OptimumProofStructure
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: BoundingArgument, PositionalNotation, NumberConstruction
 * _hasReasoningMistake: MissingBoundOrExample, CarelessModularComputation, ExampleInsteadOfProof
 * _mistakesFit: medium

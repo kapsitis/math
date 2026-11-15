@@ -349,7 +349,6 @@ $x=a^{5},\ y=b^{3}$, $a$ un $b$ - naturāli skaitļi?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, PrimeFactorization, PrimeNumbers
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: NumberConstruction
 * _hasReasoningMistake: UnstatedNumberSetAssumption, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -440,10 +439,9 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 * topic:IntegerFactorization
 * topic:NumTheoryInequalityLargeIntervals
 * questionType:FindAll
-* domain:Alg
+* domain: NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PositiveIntegers, NecessarySufficient
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: NumericalEstimation, IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother
 * _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap, WrongDirectionOfInequalityChain
 * _mistakesFit: medium
@@ -612,7 +610,6 @@ kārtas ņemtiem naturāliem skaitļiem.
 * domain:NT
 * _hasSolutionConcept: LCM, DivisibilityRelation, CoprimeIntegers, PositiveIntegers, OptimumProofStructure
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument
 * _hasReasoningMistake: NonCoprimeFactorDivisibility, ConfusingDivisorAndMultiple, MissingBoundOrExample
 * _mistakesFit: high
@@ -798,10 +795,9 @@ stūris, tad tajās ierakstīto skaitļu lielākais kopīgais dalītājs ir $1$.
 <small>
 
 * questionType:Prove,Prove
-* domain:NT
+* domain: Comb,NT
 * _hasSolutionConcept: GCD, CoprimeIntegers, EvenOddParity, PigeonholePrinciple, FiniteSet
 * _readingDifficulty: medium
-* _domain: NT,Comb
 * _hasReasoningMethod: PigeonholeInNT, ParityArgument, BoundingArgument
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low

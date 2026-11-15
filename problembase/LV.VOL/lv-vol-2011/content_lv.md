@@ -262,7 +262,6 @@ līnijām jāiet pa rūtiņu malām.)
 * questionType:ProveDisprove
 * domain:Geom
 * subdomain:DOM_GridColoring
-* _subdomain: DOM_GridColoring
 
 </small>
 

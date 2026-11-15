@@ -348,7 +348,6 @@ $x=a^{3}, y=b^{5}$, $a$ un $b$ naturāli skaitļi?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, CoprimeIntegers, GCD
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: NumberConstruction, AlgebraicManipulationForInteger
 * _newReasoningMethodLabel: BezoutIdentity
 * _newReasoningMethodDescription: Using Bezout coefficients to combine exponents
@@ -424,7 +423,6 @@ skaitļa dalītājiem pieskaita gan viņu pašu, gan vieninieku.)
 * domain:NT
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PrimeFactorization, PrimeNumbers, CaseAnalysis
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: NumberOfDivisors, PrimeFactorization, NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof, ConfusingDivisorAndMultiple
 * _mistakesFit: medium
@@ -581,7 +579,6 @@ ierakstīto skaitļu summa būs $64$.
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: Invariant, LatticeGrid, Permutation, ExhaustiveCheck
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays, BruteForceCheckOverFiniteSet
 * _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
 * _mistakesFit: medium
@@ -643,7 +640,6 @@ $a^{2}+b^{2}+c^{2} \neq ab+ac+bc$.
 * domain: Alg
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, LinearInequality
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseTrivialInequalitiesAndAddThem, UseStandardIdentities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
 * _mistakesFit: medium

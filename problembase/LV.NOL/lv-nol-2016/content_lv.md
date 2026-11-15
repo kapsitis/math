@@ -389,7 +389,6 @@ kas dalās ar $99$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, CoprimeIntegers
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility
 * _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility, WrongDigitSumRange
 * _mistakesFit: medium
@@ -457,7 +456,6 @@ pārējām? Pašu monētu atrast nav nepieciešams.
 * seeAlso:LV.SOL.2020.9.3
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
@@ -501,7 +499,6 @@ izpildās vienādības $a+b=cd$ un $ab=c+d$ ?
 * domain:Alg
 * _hasSolutionConcept: WholeIntegers, EquationSystem, ExistenceVsUniversal
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother
 * _hasReasoningMistake: UncheckedConsistencyOfFoundValues, ConcreteToGeneralLeap
 * _mistakesFit: medium
@@ -578,7 +575,6 @@ $104$. Pierādi, ka otrais skaitlis $BURBUĻUVANNA$ nedalās ar $56$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DivisibilityRelation, DigitRepresentation, ProofByContradiction
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules, PositionalNotation, ProofByContradiction, CompleteEnumeration
 * _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility
 * _mistakesFit: medium

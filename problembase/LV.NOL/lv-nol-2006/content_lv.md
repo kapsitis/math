@@ -10,7 +10,6 @@ $B$.
 * domain: Alg
 * _hasSolutionConcept: DigitRepresentation, LinearEquation, LinearInequality
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: NumericalEstimation, ExpressOneUnknownThroughAnother
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
@@ -40,7 +39,6 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 * domain: Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, StateSpaceProcess, Invariant, OptimumProofStructure
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, MonovariantStrictlyChangingQuantity
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
 * _mistakesFit: medium
@@ -79,7 +77,6 @@ griežot iegūtā trijstūra malu.
 * domain: Geom
 * _hasSolutionConcept: Triangle, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: AuxiliaryLines
 * _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, UnjustifiedAuxiliaryLineExists
 * _mistakesFit: medium
@@ -112,7 +109,6 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 * domain: Comb
 * _hasSolutionConcept: OptimumProofStructure, PositiveIntegers, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
@@ -146,7 +142,6 @@ krāsas amēba. Vai var gadīties, ka traukā paliek tikai viena amēba?
 * domain: Comb
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: FixedInvariantNumeric, ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: high
@@ -173,7 +168,6 @@ kārtībā) tā, ka $AB=1,\ BC=3,\ CD=5,\ DE=7,\ EA=9$?
 * domain: Geom
 * _hasSolutionConcept: EvenOddParity, Invariant, PointLineSegmentRay
 * _readingDifficulty: medium
-* _domain: Geom
 * _hasReasoningMethod: ParityInvariant, ProofByContradiction
 * _hasReasoningMistake: UnstatedDirectionAssumption, SkippingCaseAnalysis, RelyingOnDiagramAppearance
 * _mistakesFit: medium
@@ -202,7 +196,6 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 * domain: Comb
 * _hasSolutionConcept: GraphConcept, BinaryRelation, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: high
-* _domain: Comb
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
@@ -236,7 +229,6 @@ $n=11$, **(B)** $n=13$?
 * domain: Comb,NT
 * _hasSolutionConcept: PerfectSquares, Permutation, ProofByContradiction, ExhaustiveCheck
 * _readingDifficulty: medium
-* _domain: Comb,NT
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
@@ -268,7 +260,6 @@ viena santīma monētās?
 * domain: Comb
 * _hasSolutionConcept: StateSpaceProcess, Invariant, ProofByContradiction
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
@@ -293,7 +284,6 @@ dalītājs. Kāds var būt šis mazākais skaitlis?
 * domain: NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, EvenOddParity, DivisibilityRules, ExhaustiveCheck
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: CompleteEnumeration, ProofByContradiction, ParityArgument, NumberConstruction
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, MissingBoundOrExample
 * _mistakesFit: medium
@@ -367,7 +357,6 @@ no iespējām pastāv īstenībā?
 * domain: Comb
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
@@ -472,7 +461,6 @@ piezvanīja $B,\ B$ piezvanīja $C$ un $C$ piezvanīja $A$.
 * domain: Comb
 * _hasSolutionConcept: DirectedGraph, GraphConcept, VertexDegree, PigeonholePrinciple, WalkPathCycle
 * _readingDifficulty: high
-* _domain: Comb
 * _hasReasoningMethod: PigeonholePrincipleBasic
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
@@ -506,7 +494,6 @@ operāciju palīdzību. Atrast $A$.
 * domain: Alg
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, DiffOfSquaresFactoring
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination
 * _mistakesFit: medium
@@ -537,7 +524,6 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 * domain: Geom,Comb
 * _hasSolutionConcept: Triangle, TriangleInequality, GamePosition, WinningLosingPositions, CaseAnalysis
 * _readingDifficulty: medium
-* _domain: Geom,Comb
 * _hasReasoningMethod: TriangleInequality, CaseAnalysis
 * _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, ConcludingFromZeroOrEdgeCase
 * _mistakesFit: medium
@@ -688,7 +674,6 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 * domain: Comb
 * _hasSolutionConcept: GraphConcept, VertexDegree, OptimumProofStructure, BinaryRelation
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
@@ -722,7 +707,6 @@ $ABCD$ - kvadrāts (protams, iegūto punktu skaits tad būs mazāks).
 * domain: Geom
 * _hasSolutionConcept: ParallelogramProperties, Triangle, ParallelPerpendicular
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, ParallelogramProperties
 * _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim, AreaWithoutPosition
 * _mistakesFit: medium
@@ -807,7 +791,6 @@ Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
 * domain: NT
 * _hasSolutionConcept: DivisibilityRelation, CoprimeIntegers, LCM, PositiveIntegers
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument, AlgebraicManipulationForInteger
 * _hasReasoningMistake: NonCoprimeFactorDivisibility, CarelessModularComputation, UnstatedNumberSetAssumption
 * _mistakesFit: medium

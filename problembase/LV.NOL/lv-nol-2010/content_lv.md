@@ -326,7 +326,6 @@ gājienus atkārto, līdz rindā paliek tikai viens skaitlis.
 * method:MTH_FixedInvariant
 * _hasSolutionConcept: Invariant, FiniteSequenceArrangement
 * _readingDifficulty: low
-* _domain: Comb
 * _hasReasoningMethod: ParameterInvariantValue
 * _newReasoningMethodLabel: ConservationOfSumInvariant
 * _newReasoningMethodDescription: Using that an operation preserves the total sum
@@ -357,7 +356,6 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 * method:MTH_PolynomialTransformations
 * _hasSolutionConcept: EquationSystem, VariableExpression, PositiveAndNegative
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: UncheckedConsistencyOfFoundValues, RootLossByDivisionByExpression
 * _mistakesFit: medium
@@ -385,7 +383,6 @@ $(x+1)(x+2)(x+3)$ dalās ar $343$?
 * subdomain:DOM_PrimeFactors,Divisibility
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, PositiveIntegers, CountingProductRule
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: BoundingArgument, PrimeFactorization
 * _hasReasoningMistake: WrongDivisibilityDirection, NonCoprimeFactorDivisibility, IncompleteResidueCases
 * _mistakesFit: medium
@@ -416,12 +413,11 @@ rūtiņām nebūtu nokrāsotas visas malas?
 <small>
 
 * questionType:FindOptimal
-* domain:Geom
+* domain:Comb
 * subdomain:DOM_ObjectSystemsGeometry,IntegerLattices
 * method:MTH_MeanValuePrinciple
 * _hasSolutionConcept: LatticeGrid, Coloring, OptimumProofStructure, CountingSumRule
 * _readingDifficulty: low
-* _domain: Geom,Comb
 * _hasReasoningMethod: CountingByDoubleCounting
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: high
@@ -456,7 +452,6 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * method:MTH_InductiveAlgorithms
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, ExhaustiveCheck
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
@@ -497,7 +492,6 @@ $2$ un $3$.)
 * method:MTH_PolynomialTransformations
 * _hasSolutionConcept: PrimeFactorization, PrimeNumbers, DiffOfSquaresFactoring
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: FactoringAlgebraicExpressions, PrimeFactorization
 * _hasReasoningMistake: PrimeOnePointConfusion
 * _mistakesFit: low
@@ -530,7 +524,6 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC > AB$.
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
 * _readingDifficulty: low
-* _domain: Geom
 * _hasReasoningMethod: CaseAnalysis, TriangleInequality, EquilateralTriangleConstruction, IsoscelesTriangleProperties
 * _hasReasoningMistake: SkippingCaseAnalysis, UnjustifiedAuxiliaryLineExists, RelyingOnDiagramAppearance
 * _mistakesFit: high
@@ -579,7 +572,6 @@ starpība dalās ar $9$.
 * method:MTH_FixedInvariant
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DigitSum, DivisibilityRules
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules, PositionalNotation, TelescopingAndIdentity
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, WrongDigitSumRange
 * _mistakesFit: medium
@@ -613,7 +605,6 @@ ir identitāte?
 * subdomain:DOM_Equations
 * _hasSolutionConcept: VariableExpression, PolynomialAndRoots, LinearFunction, PositiveAndNegative, ExistenceVsUniversal
 * _readingDifficulty: medium
-* _domain: Alg
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, ProofByContradictionInAlgebra
 * _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
 * _mistakesFit: medium
@@ -641,7 +632,6 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 * method:MTH_ExtremeConstructions
 * _hasSolutionConcept: GraphConcept, Coloring, Triangle, PigeonholePrinciple
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: PigeonholePrincipleGeneralized, ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
@@ -670,7 +660,6 @@ Atrodiet kaut vienu kvadrātvienādojumu ar veseliem koeficientiem, kam viena no
 * domain:Alg
 * _hasSolutionConcept: QuadraticEquation, WholeIntegers, SquareOfSumIdentity, IrrationalAndReals, PolynomialAndRoots
 * _readingDifficulty: low
-* _domain: Alg
 * _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination, MissedSolutionsWhenSquareRootOfSquare, ExtraneousRootsAfterSquaring
 * _mistakesFit: medium
@@ -813,7 +802,6 @@ y^2 + x & = t^2
 * domain:NT
 * _hasSolutionConcept: PerfectSquares, PositiveIntegers, EquationSystem, TotalOrder
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: BoundingArgument, DiophantineEquations
 * _hasReasoningMistake: 
 * _mistakesFit: low

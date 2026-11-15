@@ -521,7 +521,6 @@ izmestas, vismaz viena iekrāsotā rūtiņa paliktu neizmesta?
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: Coloring, LatticeGrid, PigeonholePrinciple, OptimumProofStructure
 * _readingDifficulty: medium
-* _domain: Comb,Geom
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, PigeonholePrincipleBasic, RuleOfSumDisjointCases
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts
 * _mistakesFit: high

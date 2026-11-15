@@ -325,10 +325,9 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 * topic:PrimesDistribution
 * topic:InvariantParity
 * questionType:FindOptimal
-* domain:NT
+* domain:Comb
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, OptimumProofStructure, FiniteSet
 * _readingDifficulty: low
-* _domain: NT,Comb
 * _hasReasoningMethod: ParityArgument, BoundingArgument
 * _hasReasoningMistake: MissingBoundOrExample, PrimeOnePointConfusion, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -488,7 +487,6 @@ skaitļu reizinājums vienāds ar otras grupas visu skaitļu reizinājumu?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, DivisibilityRelation, EvenOddParity, OptimumProofStructure
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: PrimePropertiesAndUniqueness, NumberConstruction
 * _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof, WrongDivisibilityDirection
 * _mistakesFit: medium
@@ -535,7 +533,6 @@ decimālais pieraksts sākas ar ciparu $1$?
 * seeAlso:LV.NOL.2005.8.1
 * _hasSolutionConcept: DigitRepresentation, NumberSequence, FiniteSet, PigeonholePrinciple
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: BoundingArgument
 * _newReasoningMethodLabel: GroupingByDigitLength
 * _newReasoningMethodDescription: Partition powers by decimal digit length and count one per block
@@ -716,7 +713,6 @@ var vienlaicīgi būt pirmskaitļi?
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, LastDigit, CaseAnalysis
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: LastDigitAnalysis, CompleteEnumeration, ParityArgument
 * _hasReasoningMistake: PrimeOnePointConfusion, IncompleteResidueCases, MissingBoundOrExample
 * _mistakesFit: medium
@@ -775,7 +771,6 @@ uzrakstīti $2004$ skaitļi, kas visi vienādi ar $1$?
 * domain:Alg
 * _hasSolutionConcept: StateSpaceProcess, Invariant, WholeIntegers
 * _readingDifficulty: medium
-* _domain: Alg
 * _hasReasoningMethod: ConstructiveAlgorithm, EquivalentTransformationsOfEquationsAndInequalities
 * _newReasoningMethodLabel: ConstructiveAlgorithm
 * _newReasoningMethodDescription: Building the target configuration by explicit allowed moves

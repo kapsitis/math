@@ -433,7 +433,6 @@ var beigties šo skaitļu reizinājums?
 * seeAlso:LT.VILNIUS.2008.12.1
 * _hasSolutionConcept: PrimeFactorization, DivisibilityRelation, OptimumProofStructure
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: PrimeFactorization, BoundingArgument, NumberConstruction, LastDigitAnalysis, DivisibilityRules
 * _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -581,7 +580,6 @@ reizinājumu?
 * method:MTH_ExhaustiveAlgorithms
 * _hasSolutionConcept: PositiveIntegers, EquationSystem, CaseAnalysis, SetPartition
 * _readingDifficulty: medium
-* _domain: Comb
 * _hasReasoningMethod: NumericalEstimation, EquivalentTransformationsOfEquationsAndInequalities, IntroduceVariablesAndFormEquation, CaseAnalysisBySignOrInterval
 * _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
@@ -730,7 +728,6 @@ neizmanto nevienu no cipariem $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument
 * _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample
 * _mistakesFit: medium

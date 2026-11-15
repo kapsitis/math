@@ -528,7 +528,6 @@ $a_{1}+a_{2}+\ldots+a_{k}=n \cdot\left(\frac{1}{a_{1}}+\frac{1}{a_{2}}+\ldots+\f
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DivisorsSet
 * _readingDifficulty: low
-* _domain: NT,Alg
 * _hasReasoningMethod: NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof, ConfusingDivisorAndMultiple
 * _mistakesFit: medium
@@ -623,10 +622,9 @@ gadīties, ka tieši $23$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 <small>
 
 * questionType:ProveDisprove
-* domain:NT
+* domain:Comb
 * _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, DivisibilityRelation, ProofByContradiction
 * _readingDifficulty: high
-* _domain: NT,Comb
 * _hasReasoningMethod: ProofByContradiction, DivisibilityRules
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -717,10 +715,9 @@ grupai. Kāds ir mazākais iespējamais grupu skaits?
 
 * concepts:groups
 * questionType:FindOptimal
-* domain:NT
+* domain:NT,Comb
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PrimeFactorization, SetPartition, PigeonholePrinciple, Invariant
 * _readingDifficulty: high
-* _domain: NT,Comb
 * _hasReasoningMethod: PigeonholeInNT, PrimeFactorization, BoundingArgument
 * _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityDirection, ExampleInsteadOfProof
 * _mistakesFit: medium

@@ -376,10 +376,9 @@ pierakstu?
 * concepts:primes
 * questionType:FindOptimal
 * seeAlso:LV.AMO.2008.7.2
-* domain:NT
+* domain:Comb
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, GraphConcept, WalkPathCycle
 * _readingDifficulty: high
-* _domain: NT,Comb
 * _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, NumberConstruction
 * _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof, MissingBoundOrExample
 * _mistakesFit: medium
@@ -457,7 +456,6 @@ spēlēts pietiekoši ilgi).
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitSum, Invariant, GamePosition
 * _readingDifficulty: high
-* _domain: NT,Comb
 * _hasReasoningMethod: GameInvariantsInNT, DivisibilityRules
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -631,7 +629,6 @@ $1716$. Kādu skaitli viņa iedomājās sākumā?
 * domain:NT
 * _hasSolutionConcept: DigitProduct, DivisibilityRelation, PrimeNumbers, DigitRepresentation
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: PrimePropertiesAndUniqueness, CompleteEnumeration, PrimeFactorization
 * _hasReasoningMistake: ConfusingDivisorAndMultiple, WrongDivisibilityDirection, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -750,7 +747,6 @@ gadīties, ka tieši $19$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 * domain:NT
 * _hasSolutionConcept: DigitSum, DivisibilityRules, ProofByContradiction
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules, ProofByContradiction
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
 * _mistakesFit: medium
@@ -823,10 +819,9 @@ $$(f(x))^{2}+(g(x))^{2}=\left(x^{2}+1\right)\left(x^{2}+4\right)\left(x^{2}+2x+2
 
 * concepts:sum,square-Alg,equation
 * questionType:Prove,FindExample
-* domain:NT
+* domain:NT,Alg
 * _hasSolutionConcept: PerfectSquares, PolynomialAndRoots, SquareOfSumIdentity, VariableExpression
 * _readingDifficulty: medium
-* _domain: NT,Alg
 * _hasReasoningMethod: FactoringAlgebraicExpressions, NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof, UnstatedNumberSetAssumption
 * _mistakesFit: medium

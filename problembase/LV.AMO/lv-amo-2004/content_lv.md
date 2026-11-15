@@ -389,7 +389,6 @@ ir nesaīsināmas?
 * domain:NT
 * _hasSolutionConcept: RationalNumbers, GCD, CoprimeIntegers
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: PrimePropertiesAndUniqueness, AlgebraicManipulationForInteger
 * _hasReasoningMistake: MissingBoundOrExample, ConfusingDivisorAndMultiple
 * _mistakesFit: medium
@@ -561,7 +560,6 @@ $A=B$.
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, GCD, DigitRepresentation
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: PositionalNotation, BoundingArgument
 * _hasReasoningMistake: WrongDivisibilityDirection, NonCoprimeFactorDivisibility
 * _mistakesFit: medium
@@ -622,11 +620,10 @@ rīkojamies tāpat, utt., kamēr paliek neizsvītrots viens skaitlis. Kurš tas 
 * concepts:sequence
 * subdomain:DOM_MakingMoves
 * questionType:FindAll
-* domain:NT
+* domain:NT,Comb
 * method:MTH_InductiveAlgorithms
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, RecurrentSequence, Invariant
 * _readingDifficulty: high
-* _domain: Comb
 * _hasReasoningMethod: InvariantMethod, ParityArgument, BoundingArgument
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
@@ -807,10 +804,9 @@ Vai to var izdarīt, ja **(A)** $n=4$; **(B)** $n=5$?
 
 * concepts:sum
 * questionType:ProveDisprove,ProveDisprove
-* domain:NT
+* domain:Comb
 * _hasSolutionConcept: MagicConfiguration, PositiveAndNegative, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: high
-* _domain: Comb
 * _hasReasoningMethod: CompleteEnumeration, ParityArgument, ProofByContradiction, NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low

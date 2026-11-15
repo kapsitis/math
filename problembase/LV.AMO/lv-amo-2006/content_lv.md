@@ -342,7 +342,6 @@ dažādos vagonos, kas pie tam nav blakus viens otram. Cik vietu ir katrā vagon
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, DivisionWithRemainder, SetPartition, ProofByContradiction
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: NumericalEstimation, ProofByContradictionInAlgebra
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
@@ -589,7 +588,6 @@ naturāls skaitlis, kam vienlaicīgi izpildās īpašības $S(n)=10$ un $S(5n)=5
 * domain:NT
 * _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRules, EvenOddParity, ExistenceVsUniversal
 * _readingDifficulty: medium
-* _domain: NT
 * _hasReasoningMethod: NumberConstruction, LastDigitAnalysis, BoundingArgument
 * _hasReasoningMistake: ExampleInsteadOfProof, WrongDigitSumRange
 * _mistakesFit: medium
@@ -702,7 +700,6 @@ dalās ar $8$?
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: low
-* _domain: NT
 * _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, PositionalNotation, BoundingArgument, NumberConstruction
 * _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample, WrongDigitSumRange
 * _mistakesFit: medium
@@ -851,10 +848,9 @@ lielāks par $1$?
 
 * concepts:divisibility,gcd
 * questionType:FindOptimal
-* domain:NT
+* domain:NT,Comb
 * _hasSolutionConcept: DivisibilityRelation, GCD, ParityInvariant, OptimumProofStructure
 * _readingDifficulty: high
-* _domain: NT,Comb
 * _hasReasoningMethod: BoundingArgument, PigeonholeInNT, NumberConstruction, ProofByContradiction
 * _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
 * _mistakesFit: medium
