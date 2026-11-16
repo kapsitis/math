@@ -37,7 +37,8 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $8$; **(B)** $18$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, EvenOddParity, CoprimeIntegers
 * _readingDifficulty: low
@@ -201,7 +202,8 @@ Kāds ir mazākais iegūtais skaitlis, kas dalās ar **(A)** $9$; **(B)** $24$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, DivisibilityRelation, CoprimeIntegers
 * _readingDifficulty: low
@@ -349,7 +351,8 @@ nekā Bruno, Cildai ir vairāk naudas nekā Aivaram, Dainai - vairāk nekā Cild
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DivisionWithRemainder, TotalOrder, Counterexample
 * _readingDifficulty: low
@@ -385,7 +388,7 @@ kas dalās ar $99$.
 * topic:DivisibilityRulesFor3And9
 * topic:DivisibilityRuleFor11
 * topic:DivisibilityRulesOther
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, CoprimeIntegers
 * _readingDifficulty: low
@@ -450,7 +453,7 @@ pārējām? Pašu monētu atrast nav nepieciešams.
 
 <small>
 
-* questionType:Algorithm
+* questionType:QTY_ConstructProcedure
 * domain:Comb
 * seeAlso:LV.NOL.2019.7.2
 * seeAlso:LV.SOL.2020.9.3
@@ -495,7 +498,8 @@ izpildās vienādības $a+b=cd$ un $ab=c+d$ ?
 
 * topic:SymmetricAlgebraicExpressions
 * topic:NumTheoryExtremeElement
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: WholeIntegers, EquationSystem, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -571,7 +575,7 @@ $104$. Pierādi, ka otrais skaitlis $BURBUĻUVANNA$ nedalās ar $56$.
 <small>
 
 * topic:DivisibilityRulesFor2And4
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DivisibilityRelation, DigitRepresentation, ProofByContradiction
 * _readingDifficulty: medium
@@ -769,7 +773,8 @@ vairākus (vismaz divus), kuru summa dalās ar $4$.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: ModularArithmetic, DivisionWithRemainder, EvenOddParity, PigeonholePrinciple, CaseAnalysis
 * _readingDifficulty: low
@@ -944,7 +949,7 @@ $1 \cdot 4+2 \cdot 7+3 \cdot 10+\cdots+n \cdot(3n+1)=n(n+1)^{2}$.
 
 * topic:SequenceGaps
 * topic:NumTheoryMathInduction
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_InductionWithStepOne
 
@@ -1018,7 +1023,7 @@ tā, ka to summa vai starpība dalās ar $5$.
 * topic:ModularArithmetic
 * topic:ModularArithmetic
 * topic:NumTheoryPigeonhole
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1163,7 +1168,7 @@ divus tādus, ka to summa vai starpība dalās ar $13$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * method:MTH_PigeonholePrincipleBasic
 

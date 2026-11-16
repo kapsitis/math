@@ -5,7 +5,7 @@ $640000$ dalītāji.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Divisibility
 
@@ -186,7 +186,7 @@ $p+6,\ p+10,\ q+4,\ q+10$ un $p+q+1$ arī ir pirmskaitļi?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_NumericConstructions
 
@@ -284,7 +284,7 @@ var būt arī savā starpā vienādas)?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _subdomain: DOM_NumericSets
 
@@ -353,7 +353,7 @@ pieņemt $a_{2006}$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_RealSequences
 
@@ -375,7 +375,7 @@ Atrisināt naturālos skaitļos vienādojumu $(x+y)(xy+1)=2^{z}$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
 
@@ -487,7 +487,7 @@ $\left(1+\mbox{tg}\ 1^{\circ}\right)\left(1+\mbox{tg}\ 2^{\circ}\right)\left(1+\
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_AlgebraicOperations
 
@@ -517,7 +517,8 @@ kuras vērtībām ir tādas, kas atšķiras no $0$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_FunctionalEquationsReal
 
@@ -561,7 +562,8 @@ līnijai, krusto taisni $AB$ punktā $G$. Pierādīt, ka $GS \perp CI$.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles, DOM_Triangles
 
@@ -593,7 +595,7 @@ $n+3$. Kādas ir iespējamās $n$ vērtības?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Divisibility
 
@@ -655,7 +657,8 @@ skaldne, kuras kontūru var apiet, ejot pa malām bultiņu norādītajos virzien
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_Graphs
 

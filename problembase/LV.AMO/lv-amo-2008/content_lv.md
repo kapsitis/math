@@ -158,7 +158,8 @@ divos gadījumos:
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, PositiveAndNegative, ArithmeticMean
 * _readingDifficulty: medium
@@ -240,7 +241,7 @@ no šiem reizinājumiem ar $A$. Kāda ir mazākā iespējamā $A$ vērtība?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * _hasSolutionConcept: DigitProduct, FiniteSet, OptimumProofStructure, ProofByContradiction
 * _readingDifficulty: medium
@@ -311,7 +312,7 @@ pierakstu?
 
 * seeAlso:LV.AMO.2007.7.1
 * concepts:primes
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT,Comb
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRules, DigitRepresentation, CaseAnalysis
 * _readingDifficulty: medium
@@ -340,7 +341,7 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 * topic:DivisibilityRulesLastDigits
 * topic:StandardIdentities
 * concepts:decimal-notation
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, PrimeFactorization, DivisibilityRelation, LastDigit, DigitRepresentation
 * _readingDifficulty: low
@@ -524,7 +525,7 @@ $a_{1}+a_{2}+\ldots+a_{k}=n \cdot\left(\frac{1}{a_{1}}+\frac{1}{a_{2}}+\ldots+\f
 * topic:IntegerFactorization
 * topic:TelescopicSums
 * concepts:primes,series
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DivisorsSet
 * _readingDifficulty: low
@@ -621,7 +622,7 @@ gadīties, ka tieši $23$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, DigitSum, DivisibilityRules, DivisibilityRelation, ProofByContradiction
 * _readingDifficulty: high
@@ -714,7 +715,7 @@ grupai. Kāds ir mazākais iespējamais grupu skaits?
 <small>
 
 * concepts:groups
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT,Comb
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, PrimeFactorization, SetPartition, PigeonholePrinciple, Invariant
 * _readingDifficulty: high
@@ -756,7 +757,8 @@ mala pieder
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: LatticeGrid, ParityInvariant, ProofByContradiction, Invariant
 * _readingDifficulty: high
@@ -789,7 +791,7 @@ ar $10\ 000\ 001$?
 
 * seeAlso:LV.AMO.2007.10.1
 * concepts:divisibility
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -870,7 +872,7 @@ gājieniem.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 
 </small>
@@ -895,7 +897,8 @@ nokrāsotām rūtiņām nav kopīgu robežas punktu.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -959,7 +962,7 @@ Atrast visas tādas funkcijas $f$ un pierādīt, ka citu bez Jūsu atrastajām n
 <small>
 
 * concepts:function,equation
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1007,7 +1010,8 @@ dalītāji, ja $n$ - pāra skaitlis?
 <small>
 
 * concepts:divisors
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1159,7 +1163,7 @@ c. katras daļas visu skaitļu vidējais aritmētiskais arī piederētu šai da�
 <small>
 
 * concepts:arithmetic-mean
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1226,7 +1230,7 @@ pārējiem skaitļiem?
 <small>
 
 * concepts:divisibility,square-Alg
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>

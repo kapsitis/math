@@ -4,7 +4,7 @@ Izsaki skaitli $1$ kā piecu atšķirīgu daļu summu, kuru saucēji ir vienādi
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, NumberPartitions
 * _readingDifficulty: low
@@ -30,7 +30,7 @@ redzamo figūru un $28$ figūrām, kādas redzamas 2.att.? Figūras drīkst pagr
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant
 * _readingDifficulty: medium
@@ -61,7 +61,8 @@ bet **(A)** laukums ir pirmskaitlis; **(B)** perimetrs ir pirmskaitlis?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom,NT
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, EvenOddParity, DivisibilityRelation, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -92,7 +93,7 @@ Atrodi visus tādus skaitļus un pamato, ka citu nav!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitSum, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
@@ -138,7 +139,7 @@ atsvariem atrast abas viltotās monētas?
 
 <small>
 
-* questionType:Algorithm
+* questionType:QTY_ConstructProcedure
 * domain:Comb
 * _hasSolutionConcept: DecisionTree, CaseAnalysis, FiniteSet
 * _readingDifficulty: medium
@@ -198,7 +199,8 @@ bet pārējās - veseli skaitļi?
 
 <small>
 
-* questionType:Prove,ProveDisprove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, WholeIntegers, VariableExpression, CaseAnalysis
 * _readingDifficulty: medium
@@ -229,7 +231,7 @@ taisnstūriem, kuru izmēri ir $1 \times 2$ rūtiņas?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, ChessboardColoring, ParityInvariant, ProofByContradiction
@@ -265,7 +267,7 @@ gadīties, ka visi seši trijstūros ierakstītie skaitļi ir vienādi?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: MagicConfiguration, DivisibilityRelation, DigitSum, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -303,7 +305,7 @@ nullēm! (Skaitļa kvadrāts ir skaitļa reizinājums pašam ar sevi).
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: PerfectSquares, PrimeFactorization, DivisibilityRelation, DigitRepresentation
 * _readingDifficulty: medium
@@ -344,7 +346,8 @@ katram no pārējiem bērniem - samazinājās?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: Invariant, FiniteSequenceArrangement, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -376,7 +379,7 @@ vienādas cepures maksā vairāk nekā $11$ eiro. Cik maksā viena cepure?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_Inequalities
 * topic:RationalOperations
@@ -409,7 +412,7 @@ apgrieztas spoguļattēlā.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * subdomain:DOM_GridCut
 * method:MTH_FixedInvariant
@@ -450,7 +453,8 @@ divi cipari ir $11$ un kurš dalās ar $11$?
 * topic:DivisibilityRuleFor11
 * topic:DivisibilityRulesFor3And9
 * topic:MutualPrimes
-* questionType:FindExample,ProveDisprove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Decide
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * concepts:sum
@@ -508,7 +512,7 @@ Atrodi visus gadījumus un pamato, ka citu nav!
 <small>
 
 * concepts:isosceles-triangle
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_Triangles
 * method:MTH_ExhaustiveAlgorithms
@@ -574,7 +578,8 @@ atsvariem, kur katrā kausā drīkst ielikt tieši divas bumbiņas, iespējams
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialAlgorithms
 * method:MTH_ExhaustiveAlgorithms
@@ -624,7 +629,7 @@ racionāls skaitlis!
 
 * topic:StandardIdentities
 * topic:MethodOfInfiniteDescent
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * subdomain:DOM_NumberRepresentation
 * concepts:rational-numbers
@@ -660,7 +665,7 @@ apgrieztas spoguļattēlā.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * subdomain:DOM_GridCut
 * method:MTH_FixedInvariant
@@ -697,7 +702,7 @@ naturāla skaitļa kvadrāta un pirmskaitļa summu.
 
 * topic:StandardIdentities
 * topic:PrimesDistribution
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * subdomain:DOM_SpecialNumbers
 * concepts:primes,sum,square-Alg
@@ -737,7 +742,7 @@ paralēlskaldņa tilpums?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * subdomain:DOM_IntegerLattices
 * method:MTH_ExtremeElements
@@ -779,7 +784,7 @@ $ABC$ ir vienādmalu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:TriangleCongruence
@@ -835,7 +840,7 @@ reizinājums ir vismazākais!
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * subdomain:DOM_Extremes
 * topic:FindingExtremesWithFunctionProperties
@@ -870,7 +875,7 @@ ar izmēriem $1 \times 1 \times 3$ ?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * subdomain:DOM_GridOther
 * method:MTH_FixedInvariant
@@ -901,7 +906,7 @@ Pierādi, ka $x^{5}-5x^{3}+4x$ dalās ar $120$, ja $x$ ir vesels skaitlis!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * subdomain:DOM_Divisibility
 * topic:EquationFactorization
@@ -937,7 +942,7 @@ $G$. Nosaki $\sphericalangle CGD$ lielumu, ja $\sphericalangle CAD=\alpha$!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * topic:CircleInscribedAngles
@@ -976,7 +981,8 @@ skaitlis $1$ ir vidējais ($n$-tais), ja **(A)** $n=5$; **(B)** $n=1008$.
 
 <small>
 
-* questionType:FindExample,FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_ConstructExample
 * domain:Comb
 * subdomain:DOM_CombinatorialCounterexamples
 * topic:SequenceGaps
@@ -1026,7 +1032,8 @@ kopu!
 
 <small>
 
-* questionType:FindAll,FindAll
+* questionType:A: QTY_FindAll
+* questionType:B: QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1053,7 +1060,7 @@ malām.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_GridCut
 
@@ -1107,7 +1114,7 @@ viencipara skaitļa ciparu reizinājumu sauc tā vienīgo ciparu.)
 
 * strategies:TrialAndError
 * topic:InequalityProvingStronger
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * concepts:product
 
@@ -1151,7 +1158,7 @@ Pierādīt, ka $BD+BE > 2BC$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1176,7 +1183,8 @@ taisna prizma un gan biezpiena, gan glazūras daudzums visās daļās ir vienād
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 
 </small>
@@ -1214,7 +1222,7 @@ tādu, kas dalās ar $3$, bet nedalās ar $5$.
 <small>
 
 * concepts:divisibility
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1249,7 +1257,7 @@ taisnstūrus, vēl joprojām var pārklāt doto taisnstūri?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 
 </small>
@@ -1285,7 +1293,7 @@ bezgalīgi daudz tādu $n$, ka $M(n)$ dalās ar $n$.
 <small>
 
 * concepts:divisibility
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1313,7 +1321,7 @@ un $\omega_{2}$ krustpunktā, kas atšķirīgs no punkta $E$ !
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1378,7 +1386,7 @@ vērtību!
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 
 </small>
@@ -1415,7 +1423,7 @@ Uz funkcijas $y=|x-3|+2$ grafika atrast tādu punktu $P$, kura attālumu kvadrā
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg,Geom
 
 </small>
@@ -1451,7 +1459,7 @@ spoguļattēlā.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 
 </small>
@@ -1500,7 +1508,7 @@ ja $a, b, c, d$ ir pozitīvi skaitļi!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1527,7 +1535,7 @@ kvadrāts. Pierādīt, ka $AB \geq 3PS$. Kādā gadījumā $AB=3PS$ ?
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1580,7 +1588,7 @@ ar $b$.
 <small>
 
 * concepts:divisibility
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>

@@ -16,7 +16,7 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $2$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: LatinSquareSudoku, FiniteSequenceArrangement, Coloring
 * _readingDifficulty: medium
@@ -45,7 +45,9 @@ lai garantētu, ka viņam:
 
 <small>
 
-* questionType:FindOptimal
+* questionType:A: QTY_FindOptimal
+* questionType:B:
+* questionType:C:
 * domain:Comb
 * _hasSolutionConcept: FiniteSet, CountingSumRule, PigeonholePrinciple, OptimumProofStructure, CaseAnalysis
 * _readingDifficulty: medium
@@ -84,7 +86,7 @@ $7 \cdot(9-5)-3=25$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: low
@@ -119,7 +121,7 @@ pārklāties viena ar otru vai iziet ārpus taisnstūra.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, PlaneTransformation
 * _readingDifficulty: medium
@@ -155,7 +157,7 @@ Cik patiesībā bija pulkstenis? Atbildi pamato!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _hasSolutionConcept: ExhaustiveCheck, CaseAnalysis, FiniteSequenceArrangement
 * _readingDifficulty: medium
@@ -196,7 +198,7 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $4$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: LatinSquareSudoku, FiniteSet, Coloring, ArithmeticOperations
 * _readingDifficulty: medium
@@ -224,7 +226,9 @@ lai varētu apgalvot, ka kopumā Annai vismaz sešas no bumbiņām ir vienā kr�
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove,FindOptimal
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
+* questionType:C: QTY_FindOptimal
 * domain:Comb
 * _hasSolutionConcept: FiniteSet, PigeonholePrinciple, ExistenceVsUniversal, Counterexample, OptimumProofStructure
 * _readingDifficulty: medium
@@ -270,7 +274,7 @@ savu roku. Cik no šiem rūķiem vienmēr saka patiesību?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, FiniteSet
 * _readingDifficulty: medium
@@ -302,7 +306,7 @@ ka tās sakrīt.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: DissectionIntoCongruent, AxialSymmetry, LatticeGrid
@@ -331,7 +335,7 @@ viens - par trīs, viens - par pieci un viens - par deviņi.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSet, PositiveIntegers, AbsoluteValue
 * _readingDifficulty: medium
@@ -383,7 +387,7 @@ telpa bija gatava?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:FormingEquations
@@ -440,7 +444,7 @@ tādas balvas, kurām bija vienāds saturs.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * subdomain:DOM_CountingObjects
 * topic:CombinationsWithRepetition
@@ -479,7 +483,7 @@ $2$ vai $3$ (ja tas dalās bez atlikuma). Vai šīs skaitļu virknes
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT,Comb
 * subdomain:DOM_NumericGamesAndAlgorithms,DOM_MakingMoves
 * method:MTH_PeriodicInvariant
@@ -528,7 +532,7 @@ rūtiņu līnijām? Figūras drīkst būt pagrieztas.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
 * topic:SquareGridCutting
@@ -561,7 +565,7 @@ bet Sandra dziedāja 4 dziesmas (mazāk nekā jebkura cita meitene)?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * topic:DivisibilityProperties
@@ -609,7 +613,7 @@ Nosakiet šo trīs skaitḷu summu!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * topic:LinearSystems
@@ -659,7 +663,7 @@ secīgus skaitļus, kuru summa būs vismaz $17$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * topic:AddingOrMultiplyingInequalities
@@ -702,7 +706,8 @@ Vai burvji rituālā no skaitliem $3,8,9,2,4$ var iegūt
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_MakingMoves
 * topic:DirectedGraphs
@@ -781,7 +786,7 @@ $\sphericalangle BCO$ ar $\alpha$ un $\beta$!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_CirclesAndRelatedAngles
 * topic:TrianglesIsosceles
@@ -831,7 +836,7 @@ Dotas piecas smagas kastes un tās izkārtotas, kā tas redzams 12. att. Šīs k
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_CuttingCoversColoring
 * method:MTH_PeriodicInvariant
@@ -884,7 +889,7 @@ Kāda var būt izteiksmes $a^{4}+b^{4}$ vērtība, ja papildus zināms, ka $a+b 
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_MultivariableEquations
 * topic:VietaFormulas
@@ -930,7 +935,7 @@ vai arī vismaz $4$ skolēni ieguva atzīmi, kas ir augstāka nekā $7$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleGeneralized
@@ -986,7 +991,7 @@ skaitļi $20, 24, 25$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * subdomain:DOM_MakingMoves
 * method:MTH_FixedInvariant
@@ -1033,7 +1038,7 @@ krustpunkts ir $H$. Pamatot, ka $S_{AGHI} = S_{BEG}+S_{CEHF}+S_{DFI}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * topic:TriangleAreaFromBaseAltitude
@@ -1087,7 +1092,7 @@ Cik ir tādu deviņciparu tālruņa numuru, kas varētu būt Zanes tālruņa num
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * subdomain:DOM_CountingObjects
 * topic:RuleOfProduct
@@ -1148,7 +1153,7 @@ Atrast visus naturālos skaitļus $m$ un $n$, kuriem $m^{3} n+m+n = mn+2mn^{2}$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1179,7 +1184,7 @@ vai arī divus tādus, kuru ciparu summu summa ir vienāda ar $28$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1213,7 +1218,7 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 
 </small>
@@ -1244,7 +1249,7 @@ Pamatot, ka trijstūris $AED$ ir vienādmalu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1280,7 +1285,7 @@ meža formu, ne savu sākotnējo atrašanās vietu tajā).
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1310,7 +1315,7 @@ $$\frac{a^{2}+2bc}{b^{2}+c^{2}}+\frac{b^{2}+2ac}{a^{2}+c^{2}}+\frac{c^{2}+2ab}{a
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg,Geom
 
 </small>
@@ -1347,7 +1352,8 @@ Vai var droši apgalvot, ka festivāla beigās bija vismaz
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 
 </small>
@@ -1384,7 +1390,7 @@ divciparu skaitlis dalās ar $3$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1420,7 +1426,7 @@ Izliekta četrstūra diagonāles sadala to četros trijstūros ar vienādiem per
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1461,7 +1467,8 @@ krāsa sakritīs ar sākotnējo, ja pie galda sēž
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 
 </small>
@@ -1557,7 +1564,7 @@ $$a+b+c > \sqrt{2\left(a^{2}+b^{2}+c^{2}\right)}.$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg,Geom
 
 </small>
@@ -1602,7 +1609,8 @@ bija vismaz **(A)** $3$; **(B)** $4$ dalībnieki ar vienādu punktu skaitu?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 
 </small>
@@ -1651,7 +1659,8 @@ Vai var gadīties, ka šo skaitļu summa ir **(A)** $24$; **(B)** $26$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1686,7 +1695,7 @@ $\sphericalangle DHC = 90^{\circ}$. Pamatot, ka $BH \| CD$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1718,7 +1727,7 @@ ne meža formu, ne savu sākotnējo atrašanās vietu tajā).
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>

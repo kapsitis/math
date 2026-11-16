@@ -8,7 +8,7 @@ $y$ simti, $z$ desmiti un $t$ vieni.)
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_NumeralSystems
 
@@ -35,7 +35,7 @@ Pierādīt, ka $\triangle ACE=\triangle BDF$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Polygons
 
@@ -70,7 +70,7 @@ piemēram, $[3]=3,[4,6]=4,[0,2]=0$ u.tml.)
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * method:MTH_InductionWithCombinedStep
 * _subdomain: DOM_IntegerSequences
@@ -115,7 +115,7 @@ kopsummā ieguva $92$ punktus. Cik punktus ieguva otra komanda?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _subdomain: DOM_WordProblems
 
@@ -192,7 +192,8 @@ malām, 1.zīm. figūra var būt pagriezta vai apgriezta spoguļattēlā.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:A: QTY_FindOptimal
+* questionType:B:
 * domain:Geom
 * subdomain:DOM_GridCut
 
@@ -221,7 +222,7 @@ naturālos skaitļos.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * topic:CountingUsingSymmetry
 * topic:NumTheoryInequalityLargeIntervals
@@ -276,7 +277,7 @@ Pierādīt, ka $EF \perp CD$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles, DOM_AnglesParallelsSimilarity
 
@@ -305,7 +306,7 @@ mazāko iespējamo $f(x)$ vērtību.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_Extremes
 
@@ -332,7 +333,7 @@ kvadrāti.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * topic:FibonacciNumbers
 * topic:PeriodicRemainders
@@ -417,7 +418,7 @@ kad - otrais (spēli vienmēr sāk pirmais spēlētājs)?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_GridOther
 * _subdomain: DOM_CombinatorialGames
@@ -448,7 +449,7 @@ Pierādīt, ka nav tādas naturālas $n$ vērtības, ka $n^{2}+4n+16$ dalās ar 
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Divisibility
 
@@ -474,7 +475,7 @@ punktā $D$. Pierādīt, ka $AD+BD=BC$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Triangles
 
@@ -518,7 +519,7 @@ Aprēķināt šī paralēlskaldņa pilnas virsmas laukumu un tilpumu.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom,Alg
 * _subdomain: DOM_WordProblems
 
@@ -547,7 +548,8 @@ $1250~\mathrm{cm}^{2}$, **(B)** $1300~\mathrm{cm}^{2}$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 * _subdomain: DOM_MaxMinGeometry
 
@@ -605,7 +607,8 @@ skaitlis.
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:Comb
 * method:MTH_StrongInduction
 * _subdomain: DOM_Graphs
@@ -679,7 +682,7 @@ $AD \perp MN$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles, DOM_Triangles
 
@@ -718,7 +721,7 @@ $\left\{\begin{array}{l}\sin x+\cos y=\frac{3}{2} \mbox{tg}\ z \\ \sin y+\cos x=
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_EquationSystems
 
@@ -751,7 +754,7 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu nav.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_IntegerFunctionalEquations
@@ -843,7 +846,7 @@ visas iespējamās $n$ vērtības.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Divisibility
 
@@ -883,7 +886,8 @@ ir uzrakstīta virkne **(A)** $abba$; **(B)** $aabbcabaab$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_MakingMoves
 

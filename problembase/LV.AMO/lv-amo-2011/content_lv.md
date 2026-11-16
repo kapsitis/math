@@ -11,7 +11,7 @@ nav $0$. Atrodi visus iespējamos atrisinājumus!
 
 * topic:IntegerFactorization
 * method:MTH_ExhaustiveAlgorithms
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * subdomain:DOM_Cryptarithm
@@ -61,7 +61,7 @@ skaitļu summas būtu vienādas. Ir zināmi trīs rūtiņās ierakstītie skait�
 
 * topic:NumTheoryExprVariables
 * topic:AlgebraicTransformations
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * subdomain:DOM_MagicConfigurations
@@ -98,7 +98,7 @@ Parādi, kā kvadrātu var sadalīt vairākos platleņķa trijstūros!
 * topic:ConstructionsTriangulate
 * topic:ConstructionsSmallMovements
 * topic:CircleInscribedAngles
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_CuttingCoversColoring
 * concepts:square-Geo,triangle
@@ -130,7 +130,8 @@ starpība ir
 
 * topic:TreeTraversalBacktracking
 * topic:GraphProblems
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, EvenOddParity, CaseAnalysis
 * _readingDifficulty: medium
@@ -170,7 +171,8 @@ Parādi, kā to var izdarīt, ja
 
 * topic:CountingUsingSymmetry
 * topic:TreeTraversalBacktracking
-* questionType:FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B:
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, Rotation, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -196,7 +198,7 @@ $$a \cdot b \cdot(a+b)=20102011?$$
 <small>
 
 * topic:IntegerFactorization
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * concepts:equation
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
@@ -225,7 +227,7 @@ kungiem. Cik starp šiem pensionāriem ir kungu un cik - kundžu?
 <small>
 
 * topic:BipartiteGraphs
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _hasSolutionConcept: EquationSystem, DivisibilityRelation, FiniteSet
 * _readingDifficulty: medium
@@ -255,7 +257,7 @@ atrast nevienu pilnībā baltu taisnstūri ar izmēriem $1 \times 3$ rūtiņas
 <small>
 
 * topic:ExhaustionMethod
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
@@ -296,7 +298,7 @@ Vai, vairākkārt veicot šādus gājienus, var iegūt tabulu, kāda attēlota 4
 <small>
 
 * topic:InvariantRemainder
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: WholeIntegers, EvenOddParity, Invariant
 * _readingDifficulty: medium
@@ -327,7 +329,7 @@ vienāds konfekšu skaits. Cik konfekšu sākumā bija katrai no māsām?
 <small>
 
 * topic:AlgebraicTransformations
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, VariableExpression, LinearEquation
 * _readingDifficulty: medium
@@ -370,7 +372,7 @@ Atrodi visus šos skaitļus!
 <small>
 
 * topic:PrimesDistribution
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_Cryptarithm
 * concepts:primes
@@ -429,7 +431,8 @@ pilsētā $B$ ierasties vienlaicīgi ar to, ja sarkanās automašīnas ātrums b
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Alg
 * subdomain:DOM_WordProblems
 * _hasSolutionConcept: DirectProportion, LinearEquation, CaseAnalysis
@@ -468,7 +471,7 @@ dalot ar $2011$, atlikumā iegūst $3$.
 
 * topic:ArithmeticSeriesDivisibility
 * topic:ChineseRemainderTheorem
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * subdomain:DOM_Congruences
 * concepts:remainder
@@ -494,7 +497,7 @@ kā to var izdarīt!
 <small>
 
 * concepts:square-Geo,rectangle
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, PositiveIntegers, Rectangle, Square
@@ -520,7 +523,7 @@ vienas krāsas punktus, starp kuriem attālums centimetros ir vesels skaitlis.
 <small>
 
 * concepts:line,point,distance,integer-numbers
-* questionType:Prove
+* questionType:QTY_Prove
 * method:MTH_PigeonholePrincipleBasic
 * domain:Geom
 * subdomain:DOM_ObjectSystemsGeometry
@@ -553,7 +556,8 @@ nemainot to secību, ievieto aritmētisko darbību zīmes ("+", "-", " $\cdot$ "
 <small>
 
 * topic:AlgorithmsOnSyntaxTrees
-* questionType:FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B:
 * domain:Alg
 * seeAlso:LV.AMO.2010.8.1
 * subdomain:DOM_ExpressionBuilding
@@ -580,7 +584,7 @@ $MK,\ ML,\ MP$ un $MR$ viduspunkti, ir kvadrāts.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * _hasSolutionConcept: PointLineSegmentRay, QuadrilateralFamilies, CentralSymmetry, ParallelPerpendicular
@@ -612,7 +616,7 @@ vienādas. Nosaki visas iespējamās šo summu vērtības.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem
@@ -657,7 +661,8 @@ dalās ar **(A)** $17$; **(B)** $23$?
 
 * topic:NotationShift
 * topic:CanonicalFactorization
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:NT
 * subdomain:DOM_DigitManipulation
 * concepts:divisibility
@@ -707,7 +712,7 @@ spēlētājiem, pareizi spēlējot, uzvarēs? Apraksti, kā uzvarētājam jārī
 <small>
 
 * topic:GameInvariant
-* questionType:ProveDisprove,Algorithm
+* questionType:QTY_Decide,QTY_ConstructProcedure
 * domain:NT
 * subdomain:DOM_NumericGamesAndAlgorithms
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, GamePosition, Invariant
@@ -744,7 +749,7 @@ $$\frac{1}{x^{2}+24}+\frac{1}{y^{2}+24}=\frac{2}{xy+24}$$
 <small>
 
 * concepts:natural-numbers,pair
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_IntegerEquations
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, EquationSystem
@@ -792,7 +797,7 @@ $\sphericalangle BAC=\sphericalangle BMN$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle, ParallelPerpendicular
@@ -827,7 +832,7 @@ racionāla sakne?
 <small>
 
 * concepts:equation
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * subdomain:DOM_Equations
 * _hasSolutionConcept: QuadraticEquation, RationalNumbers, VariableExpression, ExistenceVsUniversal
@@ -857,7 +862,7 @@ ka katrs no tiem ir izsakāms kā divu naturālu skaitļu kvadrātu starpība?
 <small>
 
 * concepts:square-Geo,rectangle
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * subdomain:DOM_IntegerEquations
 * _hasSolutionConcept: PositiveIntegers, DiffOfSquaresFactoring, EvenOddParity, DivisibilityRelation
@@ -892,7 +897,7 @@ nevar, izpildot tikai atļautos gājienus?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom,Comb
 * subdomain:DOM_MakingMoves
 * _hasSolutionConcept: LatticeGrid, Coloring, Invariant
@@ -924,7 +929,7 @@ sekojošu naturālu skaitļu summu? Saskaitāmo secība nav svarīga.
 
 * seeAlso:LV.AMO.2010.10.4
 * concepts:sum,consecutive-numbers
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Alg
 
 </small>
@@ -954,7 +959,7 @@ laukumu!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 
 </small>
@@ -981,7 +986,7 @@ $$\left\{\begin{array}{l}
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1051,7 +1056,7 @@ riņķa līniju $19$ lokos. Pierādīt, ka ir loks, kurš nepārsniedz $2^{\circ
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1084,7 +1089,8 @@ Vai šo *torni* var salikt no
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 
 </small>
@@ -1121,7 +1127,8 @@ dotajām virknēm!
 
 * seeAlso:LV.AMO.2010.11.1
 * concepts:arithmetic-progression,sequence
-* questionType:FindOptimal,Prove
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_Prove
 * domain:NT
 
 </small>
@@ -1176,7 +1183,7 @@ Pierādīt, ka $QXOY$ ir taisnstūris.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1205,7 +1212,7 @@ rūtiņu malām, taisnstūri var būt novietoti gan horizontāli, gan vertikāli
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Geom,Comb
 * subdomain:DOM_GridCut
 
@@ -1243,7 +1250,7 @@ $$\begin{aligned}
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1278,7 +1285,7 @@ ir pirmskaitlis?
 <small>
 
 * concepts:circumference,primes
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1310,7 +1317,8 @@ katrā grupā aprēķināta tajā ietilpstošo skaitļu summa. Vai var būt, ka
 <small>
 
 * concepts:sum,primes
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1355,7 +1363,7 @@ Atrodi izteiksmes $\sin ^{38} x+\cos ^{38} x$ vislielāko un vismazāko vērtīb
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * method:MTH_InductionWithStepOne
 
@@ -1417,7 +1425,7 @@ $BM=CO$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1463,7 +1471,7 @@ trijstūra virsotnēs un nekādi pieci no tiem neatrastos vienā plaknē?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 
 </small>
@@ -1481,7 +1489,7 @@ $$x^{y}+y^{x}+x+y<1+\frac{1}{2011}$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>

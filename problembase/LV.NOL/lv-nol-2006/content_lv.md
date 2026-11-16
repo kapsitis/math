@@ -73,7 +73,8 @@ griežot iegūtā trijstūra malu.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain: Geom
 * _hasSolutionConcept: Triangle, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -225,7 +226,8 @@ $n=11$, **(B)** $n=13$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain: Comb,NT
 * _hasSolutionConcept: PerfectSquares, Permutation, ProofByContradiction, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -388,7 +390,8 @@ skaitlis nebūtu divu citu izvēlēto skaitļu starpība?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain: Comb
 * _hasSolutionConcept: FiniteSet, PositiveIntegers, PigeonholePrinciple, TotalOrder, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -419,7 +422,7 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 
 * topic:IntegerFactorization
 * topic:NumTheoryInequalityLargeIntervals
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain: NT
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PositiveIntegers, NecessarySufficient
 * _readingDifficulty: low
@@ -490,7 +493,7 @@ operāciju palīdzību. Atrast $A$.
 <small>
 
 * topic:CompletingSquare
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain: Alg
 * _hasSolutionConcept: VariableExpression, SquareOfSumIdentity, DiffOfSquaresFactoring
 * _readingDifficulty: low
@@ -556,7 +559,7 @@ ar $4$?
 
 * topic:PeriodicRemainders
 * topic:CongruenceClasses
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain: Comb
 * _hasSolutionConcept: ModularArithmetic, DivisibilityRelation, FiniteSequenceArrangement, PigeonholePrinciple
 * _readingDifficulty: low
@@ -591,7 +594,9 @@ Vai taisnstūri ar izmēriem **(A)** $8 \times 8$, **(B)** $12 \times 12$,
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
 * domain: Geom
 * _hasSolutionConcept: Tiling, DivisibilityRelation, QuadrilateralFamilies
 * _readingDifficulty: low
@@ -787,7 +792,7 @@ Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain: NT
 * _hasSolutionConcept: DivisibilityRelation, CoprimeIntegers, LCM, PositiveIntegers
 * _readingDifficulty: low
@@ -821,7 +826,7 @@ spēlējot?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain: Comb
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, FiniteSet, PositiveIntegers
 * _readingDifficulty: medium
@@ -859,7 +864,7 @@ cipari veido pirmskaitli, un visi šie $11$ pirmskaitļi ir dažādi.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -915,7 +920,8 @@ Atbildiet uz šo jautājumu, ja **(A)** $n=5$; **(B)** $n=2006$.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain: Comb,Geom
 
 </small>
@@ -1045,7 +1051,7 @@ ar kuru dalās tieši viens no šiem skaitļiem.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1146,7 +1152,8 @@ funkcija $f(x)-x^{2}-x$ ir augoša
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain: Alg
 
 </small>
@@ -1181,7 +1188,7 @@ Vai zēni nesarunājoties var noskaidrot, kādi skaitļi ir uz viņu pierēm?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1242,7 +1249,7 @@ nevienā komisijā nevienam deputātam nav aizspriedumu ne pret vienu citu?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * method:MTH_InductionWithStepOne
 
@@ -1284,7 +1291,7 @@ naturālu dalītāju?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1343,7 +1350,7 @@ Kurām $n$ vērtībām, beidzot šīs darbības, visas spuldzes būs ieslēgtas?
 <small>
 
 * seeAlso:LV.NOL.2007.12.2
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>

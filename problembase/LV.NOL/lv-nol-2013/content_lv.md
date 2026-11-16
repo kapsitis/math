@@ -5,7 +5,7 @@ ar to reizinājumu?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -29,7 +29,7 @@ Parādi, kā kvadrātu var sadalīt četros vienādos piecstūros.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, DissectionIntoCongruent
 * _readingDifficulty: low
@@ -54,7 +54,7 @@ $1, 2, 3, 4, 5, 8$ izmantots tieši vienu reizi.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
@@ -83,7 +83,7 @@ lielāks nekā $1$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: GCD, PrimeNumbers, CoprimeIntegers, PrimeFactorization, GraphConcept
 * _readingDifficulty: medium
@@ -119,7 +119,7 @@ tā, ka no katra punkta iziet tieši $3$ vai $5$ nogriežņi?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity, ProofByContradiction
 * _readingDifficulty: medium
@@ -146,7 +146,7 @@ $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}+\frac{1}{d}=1$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -176,7 +176,8 @@ jebkurus divus no tiem, nodzēš tos un rindas galā uzraksta šo skaitļu starp
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess, PositiveIntegers
 * _readingDifficulty: medium
@@ -215,7 +216,8 @@ un riņķa līniju, kas krusto uzzīmētā daudzstūra katru malu tieši vienā 
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Geom
 * _hasSolutionConcept: Polygon, CircleAndDisk, EvenOddParity, Invariant
 * _readingDifficulty: low
@@ -264,7 +266,9 @@ $y$ *simti,* $z$ *desmiti un* $t$ *vieni.*)
 
 <small>
 
-* questionType:FindExample,FindExample,FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_ConstructExample
+* questionType:C: QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisibilityRules
 * _readingDifficulty: low
@@ -300,7 +304,8 @@ Figūra var tikt novietota tikai tā, lai tās malas ietu pa rūtiņu līnijām.
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: Tiling, Coloring, LatticeGrid, Rotation
 * _readingDifficulty: medium
@@ -334,7 +339,7 @@ skaitļu summa ir naturāla skaitļa kvadrāts. Ar ko pārī apvienots skaitlis 
 
 * topic:NumTheoryInequalityMethod
 * topic:BipartiteGraphs
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PerfectSquares, ExhaustiveCheck, SetPartition
 * _readingDifficulty: low
@@ -402,7 +407,7 @@ skaitlis $x(x+1)(x+2)$ dalās ar $111$?
 * topic:DivisibilityRulesOther
 * topic:MultiplesInInterval
 * seeAlso:LV.NOL.2014.7.3
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, PositiveIntegers, CountingSumRule
 * _readingDifficulty: low
@@ -441,7 +446,8 @@ atrodas uz vienas taisnes?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: Polygon, PointLineSegmentRay, PigeonholePrinciple, ProofByContradiction, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -473,7 +479,7 @@ skaitļu starpība būtu $6, 10, 14$ vai $18$?
 <small>
 
 * topic:InvariantRemainder
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, Invariant, ModularArithmetic, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
@@ -515,7 +521,7 @@ malas garumu $2$ un kuros ierakstīto skaitļu summa ir vismaz $18$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: PigeonholePrinciple, Triangle, DissectionIntoCongruent, ArithmeticMean
 * _readingDifficulty: low
@@ -544,7 +550,7 @@ reizinātājiem ir lielāks nekā $1$.
 <small>
 
 * topic:StandardIdentities
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DiffOfSquaresFactoring, WholeIntegers
 * _readingDifficulty: low
@@ -578,7 +584,7 @@ leņķu lielumus!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, TriangleAngleSum, ParallelPerpendicular
 * _readingDifficulty: medium
@@ -617,7 +623,7 @@ Cik ir tādu četrciparu skaitļu, kuru pierakstā ir vismaz viens pāra cipars?
 
 * topic:RuleOfProduct
 * topic:CountingSetDifference
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, CountingProductRule, SetDifference
 * _readingDifficulty: low
@@ -655,7 +661,7 @@ skaitļu reizinājums būtu viens un tas pats.
 * topic:TreeTraversalBacktracking
 * topic:StandardIdentities
 * subdomain:DOM_MagicConfigurations
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, VariableExpression
 * _readingDifficulty: low
@@ -720,7 +726,8 @@ ka vispirms stāv $10$ zēni un pēc tam $10$ meitenes.
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, Invariant, PigeonholePrinciple, Counterexample
 * _readingDifficulty: medium
@@ -762,7 +769,7 @@ $987654321$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, LastDigit, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -786,7 +793,7 @@ izvēles.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, PointLineSegmentRay
 * _readingDifficulty: low
@@ -815,7 +822,7 @@ ar vienu un to pašu skaitli. Atrast visus šādus taisnstūrus.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, WholeIntegers, VariableExpression, ExhaustiveCheck
 * _readingDifficulty: low
@@ -847,7 +854,7 @@ $a_{1}+a_{2}+\ldots+a_{2013}$ vērtību.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, LinearInequality, OptimumProofStructure
 * _readingDifficulty: low
@@ -880,7 +887,7 @@ risinājumi netika iesniegti.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PigeonholePrinciple, SubsetConcept, FiniteSet
@@ -912,7 +919,7 @@ $a_{1}+a_{2}+\ldots+a_{10}$ vērtību.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 
 </small>
@@ -940,7 +947,7 @@ $ABC$ leņķus.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 
 </small>
@@ -986,7 +993,7 @@ un kurai nav vienāda garuma šķautņu?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 
 </small>
@@ -1016,7 +1023,7 @@ uzrakstīja vienu aiz otra. Cik cipari uzrakstīti?
 
 * topic:CountingObjects
 * topic:DigitsInOperationResult
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * sameAs:LV.NOL.2012.10.4
 
@@ -1041,7 +1048,7 @@ mazāko.)
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 
 </small>
@@ -1063,7 +1070,7 @@ Atrisināt veselos skaitļos vienādojumu $(x-y)(x+y)=x$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1101,7 +1108,7 @@ iekšējos punktos $P, Q, R$ un $S$. Pierādīt, ka $PQ \| RS$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1131,7 +1138,7 @@ svēršanām atrast vismaz vienu monētu, kas sver $9$ gramus?
 
 <small>
 
-* questionType:Algorithm
+* questionType:QTY_ConstructProcedure
 * domain:Comb
 * seeAlso: LV.NOL.2012.11.5
 * seeAlso: LV.NOL.2019.10.2
@@ -1165,7 +1172,7 @@ polinoms pieņem vērtību $2013$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1189,7 +1196,7 @@ nedrīkst krustoties.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1225,7 +1232,7 @@ $$\frac{a+b}{2}-\sqrt{ab} > \frac{1}{4(a+b)}.$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1251,7 +1258,7 @@ $MN$ krustojas punktā $X$. Pierādīt, ka $\triangle NBX \sim \triangle PBC$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1282,7 +1289,7 @@ $n^{2}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1316,7 +1323,7 @@ trijstūra laukums nepārsniedz $\frac{\sqrt{3}}{16}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * method:MTH_ContinuousPigeonholePrinciple
 
@@ -1362,7 +1369,7 @@ komisijas locekļiem nebūtu domstarpību savā starpā.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_InductionWithStepOne
 

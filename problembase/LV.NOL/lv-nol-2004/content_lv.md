@@ -10,7 +10,8 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, WalkPathCycle, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -42,7 +43,8 @@ var sadalīt grupās tā, lai katras grupas skaitļu summa dalītos ar $3$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, SetPartition, PositiveIntegers
 * _readingDifficulty: low
@@ -324,7 +326,7 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 * topic:BipartiteGraphs
 * topic:PrimesDistribution
 * topic:InvariantParity
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, OptimumProofStructure, FiniteSet
 * _readingDifficulty: low
@@ -357,7 +359,8 @@ $y=f(x)$ un $y=g(x)$ abas ir lineāras funkcijas.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: LinearFunction, FunctionConcept, Counterexample, VariableExpression
 * _readingDifficulty: low
@@ -483,7 +486,7 @@ skaitļu reizinājums vienāds ar otras grupas visu skaitļu reizinājumu?
 * topic:CanonicalFactorization
 * topic:EuclideanLemma
 * seeAlso:LV.NOL.2003.8.3
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, DivisibilityRelation, EvenOddParity, OptimumProofStructure
 * _readingDifficulty: low
@@ -528,7 +531,7 @@ decimālais pieraksts sākas ar ciparu $1$?
 
 * topic:DecimalNotationDigits
 * topic:DefiningRecurrentSequences
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * seeAlso:LV.NOL.2005.8.1
 * _hasSolutionConcept: DigitRepresentation, NumberSequence, FiniteSet, PigeonholePrinciple
@@ -709,7 +712,7 @@ var vienlaicīgi būt pirmskaitļi?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, LastDigit, CaseAnalysis
 * _readingDifficulty: low
@@ -767,7 +770,7 @@ uzrakstīti $2004$ skaitļi, kas visi vienādi ar $1$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: StateSpaceProcess, Invariant, WholeIntegers
 * _readingDifficulty: medium
@@ -856,7 +859,7 @@ blakus uzrakstītu palindromu starpība, ja zināms, ka tā ir pirmskaitlis?
 <small>
 
 * concepts:palindrome
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -932,7 +935,8 @@ Atbildiet uz šo jautājumu, ja **(A)** $n=5$; **(B)** $n=6$.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1014,7 +1018,7 @@ $x^{n}-x$ dalās ar $10$.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -1160,7 +1164,8 @@ vienāds ar abu iepriekšējo locekļu summu. Noskaidrot, vai ar $6$ dalās
 <small>
 
 * seeAlso:LV.NOL.2000.12.1
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1194,7 +1199,8 @@ $\sphericalangle BCD$ bisektrise,
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1236,7 +1242,8 @@ $a_{n} \neq 0$. Pierādīt:
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1311,7 +1318,7 @@ nevienā komisijā nevienam deputātam nav aizspriedumu ne pret vienu citu?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * method:MTH_InductionWithStepOne
 

@@ -95,7 +95,8 @@ Vai naturāla skaitļa kvadrāta ciparu summa var būt **(A)** $19$, **(B)** $20
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:NT
 * _subdomain: DOM_NumeralSystems
 
@@ -198,7 +199,7 @@ pirmskaitļa un salikta skaitļa summu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * topic:ModularParity
 * concepts:prime
@@ -291,7 +292,7 @@ vērtība nav naturāla skaitļa kvadrāts!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * topic:PeriodicRemainders
 * topic:DivisibilityRulesOther
@@ -420,7 +421,7 @@ ka ir tāda pilsēta, kurā ir vismaz $9$ biroji!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _subdomain: DOM_Graphs
@@ -486,7 +487,7 @@ $13^{n}+10^{n}+7^{n}+3^{n}$ vērtība nav naturāla skaitļa kvadrāts!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
 
@@ -822,7 +823,7 @@ vērtība nav naturāla skaitļa kvadrāts!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
 
@@ -881,7 +882,7 @@ ir iracionāli!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PigeonholePrincipleBasic
 * _subdomain: DOM_NumberRepresentation
@@ -925,7 +926,8 @@ nenegatīvi veseli skaitļi, ir $2019$.
 
 <small>
 
-* questionType:FindExample,FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_ConstructExample
 * domain:NT
 * _subdomain: DOM_NumericConstructions
 

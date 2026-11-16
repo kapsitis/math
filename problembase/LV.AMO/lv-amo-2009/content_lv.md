@@ -98,7 +98,8 @@ malas garums ir $1$.)
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:Geom
 * _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, ParityInvariant
 * _readingDifficulty: medium
@@ -220,7 +221,8 @@ reizinājumu var būt **(A)** $12$, **(B)** $18$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRelation, Invariant, CaseAnalysis
 * _readingDifficulty: medium
@@ -293,7 +295,8 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, EvenOddParity, DivisibilityRelation, Counterexample, Invariant
@@ -358,7 +361,8 @@ tikai tas, ka tie atrodas trijstūra $T$ iekšpusē.
 <small>
 
 * concepts:triangle
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleInequality, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -405,7 +409,7 @@ Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 * topic:ExhaustionMethod
 * concepts:primes,sum,table,row,column,natural-numbers
 * subdomain:DOM_Divisibility
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * isHard:true
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, Permutation, OptimumProofStructure
@@ -452,7 +456,7 @@ atrodas ārpus $\triangle ABC$. Pierādīt, ka $AN=CM$.
 <small>
 
 * concepts:triangle
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleCongruence, Angle
 * _readingDifficulty: low
@@ -483,7 +487,7 @@ pavisam ir rūķīšu? (Dālderis ir vienīgā rūķīšiem pieejamā naudas vie
 * topic:InvariantRemainder
 * concepts:divisibility
 * subdomain:DOM_MakingMoves
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, Invariant
 * _readingDifficulty: high
@@ -518,7 +522,8 @@ gadīties, ka
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, ExistenceVsUniversal, Counterexample
 * _readingDifficulty: low
@@ -618,7 +623,7 @@ Cipariņam un cik - viņa kolēģim? (Visus vecumus izsaka veselos gados.)
 * subdomain:DOM_WordProblems
 * isHard:true
 * isUnverified:true
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PrimeFactorization, EquationSystem, CaseAnalysis, ExhaustiveCheck
 * _readingDifficulty: high
@@ -661,7 +666,9 @@ vietā uz riņķa līnijas atrastos blakus (vienalga kādā secībā).
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, OrderedPair, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: high
@@ -788,7 +795,8 @@ ar $d(n)$.
 <small>
 
 * concepts:divisors
-* questionType:FindExample,Prove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Prove
 * domain:NT
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PrimeNumbers, PrimeFactorization
 * _readingDifficulty: medium
@@ -824,7 +832,8 @@ citādi), un mainīt krāsu uz pretējo visās šīs figūras rūtiņās. Vai, a
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Coloring, ChessboardColoring, LatticeGrid, Invariant
 * _readingDifficulty: medium
@@ -884,7 +893,7 @@ vienādi).
 <small>
 
 * concepts:primes
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -966,7 +975,8 @@ vienas malas, visas būtu savā starpā vienādas. Vai to var izdarīt, ja
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1022,7 +1032,7 @@ kāda mazākā dienu skaita var gadīties, ka visiem atkal ir pa $0$ punktiem?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 
 </small>
@@ -1056,7 +1066,7 @@ cipars ir $0$. Kāds ir skaitļa $S$ priekšpēdējais cipars?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1202,7 +1212,8 @@ $$R=n(n+1)(n+2)(n+3).$$
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1261,7 +1272,7 @@ tādu $n$, ka, pareizi spēlējot, otrais spēlētājs var uzvarēt.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 
 </small>

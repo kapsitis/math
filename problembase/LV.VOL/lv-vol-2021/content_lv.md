@@ -298,7 +298,7 @@ vesela sakne. Kurš spēlētājs - pirmais vai otrais - uzvarēs, pareizi spēl�
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_CombinatorialGames, DOM_Equations
 
@@ -424,7 +424,7 @@ daudz elegantu skaitļu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumericConstructions
 

@@ -8,7 +8,7 @@ ir veseli skaitļi?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_IntegerEquations
 
@@ -34,7 +34,7 @@ garumu. Aprēķināt hipotenūzas un īsākās katetes garumu attiecību!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_MetricRelations
 
@@ -82,7 +82,7 @@ izvēlēties $81$ trīsciparu skaitli tā, lai vienlaicīgi izpildītos šādas 
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_DigitManipulation
 * subdomain: DOM_CombinatorialCounterexamples
@@ -120,7 +120,8 @@ smagums.)
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_CombinatorialAlgorithms
 * seeAlso: LV.AMO.2015.7.5
@@ -162,7 +163,8 @@ summā ir **(A)** $48$, **(B)** $49$ punkti?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_WordProblems
 
@@ -193,7 +195,7 @@ $$|||x-2011|-2011|-2011|=|||x-1201|-1201|-1201|$$
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_Equations
 
@@ -228,7 +230,7 @@ ka $AO=OK$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
 
@@ -259,7 +261,8 @@ līnijām jāiet pa rūtiņu malām.)
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Geom
 * subdomain:DOM_GridColoring
 
@@ -289,7 +292,7 @@ $f(2011)=100$, bet $f(11)=1000$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * topic:PolynomialDifferenceDivisibility
 * topic:AdvancedIdentities
@@ -315,7 +318,7 @@ nesakrīt.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * _subdomain: DOM_ObjectSystemsGeometry
 
@@ -392,7 +395,7 @@ $-1 \leq am+bn+cp \leq 1$. $(a, b, c, m, n, p$ - reāli skaitļi).
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_ProvingInequalities
 
@@ -416,7 +419,7 @@ viduspunktā.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Quadrilaterals
 
@@ -445,7 +448,7 @@ pirmskaitlis.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
 
@@ -483,7 +486,7 @@ Kāda ir visu uzrakstīto skaitļu summa?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _subdomain: DOM_CountingObjects
 
@@ -522,7 +525,7 @@ atradīsies šī trijstūra iekšpusē vai uz tā malām.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_ObjectSystemsGeometry
 
@@ -554,7 +557,7 @@ $\sqrt[3]{6}+\sqrt[3]{12}-2 \sqrt[3]{2}$ ir lielāks?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_AlgebraicOperations
 
@@ -581,7 +584,7 @@ $Y$. Pierādīt, ka $AX=XY=YC$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_MetricRelations
 
@@ -609,7 +612,7 @@ vienādība $(2n)^{2n}-1=m^{3}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_IntegerEquations
 
@@ -635,7 +638,7 @@ $g(g(x))+g(x)=2x$
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_FunctionalEquationsReal
 
@@ -662,7 +665,7 @@ virkne satur vismaz $55$ ciparus.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * method:MTH_PigeonholePrincipleBasic
 * method:MTH_InductionWithStepOne

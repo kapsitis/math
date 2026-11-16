@@ -46,7 +46,10 @@ gadu skaits?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove,ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
+* questionType:C: QTY_Decide
+* questionType:D: QTY_Decide
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PigeonholePrinciple, Counterexample, ExistenceVsUniversal, FiniteSet
@@ -151,7 +154,8 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: GamePosition, WinningLosingPositions, DivisibilityRelation, Invariant
 * _readingDifficulty: low
@@ -1185,7 +1189,7 @@ trīs izveidoto skaitļu summa?
 * topic:DigitsInOperationResult
 * topic:CountingFromEncoding
 * method:MTH_ContradictionForExistence
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * subdomain:DOM_IntegerConditions
   
@@ -1638,7 +1642,8 @@ Doti naturāli skaitļi $a$ un $b$. Pierādīt
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>

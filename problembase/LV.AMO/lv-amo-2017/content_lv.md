@@ -9,7 +9,8 @@ $30~\mathrm{km}$?
 
 <small>
 
-* questionType:FindAll
+* questionType:A: QTY_FindAll
+* questionType:B:
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, DirectProportion, CaseAnalysis
 * _readingDifficulty: medium
@@ -64,7 +65,7 @@ summa uz katras trijstūra malas būtu viena un tā pati!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, MagicConfiguration, DivisibilityRelation
 * _readingDifficulty: low
@@ -99,7 +100,8 @@ citiem punktiem?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb,Geom
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, ParityInvariant
 * _readingDifficulty: medium
@@ -129,7 +131,7 @@ variantus un pamato, ka citu nav!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, DivisionWithRemainder
 * _readingDifficulty: medium
@@ -162,7 +164,8 @@ Ja mēneša $13.$ datums ir piektdiena, tad saka, ka tā ir melnā piektdiena.
 
 <small>
 
-* questionType:FindOptimal,ProveDisprove
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PeriodicSequence, ExhaustiveCheck, OptimumProofStructure, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -225,7 +228,7 @@ soļu ir starp draugu mājām?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: DivisibilityRelation, LinearEquation, EvenOddParity
 * _readingDifficulty: medium
@@ -253,7 +256,7 @@ summa visās rindās, visās kolonnās un abās diagonālēs būtu viena un tā 
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, MagicConfiguration, FiniteSet
 * _readingDifficulty: low
@@ -285,7 +288,7 @@ līnijām jāiet pa rūtiņu līnijām un stūrīši var būt pagriezti.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure, Invariant
@@ -329,7 +332,7 @@ meiteņu." Cik zēnu sēž pie apaļā galda?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _hasSolutionConcept: TruthTellersAndLiars, CaseAnalysis, ParityInvariant
 * _readingDifficulty: medium
@@ -371,7 +374,7 @@ dalās ar visiem skaitļiem no $1$ līdz $10$ bez atlikuma!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, LCM, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -401,7 +404,7 @@ ar nemainīgu ātrumu?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:LinearFunctions
@@ -445,7 +448,7 @@ summa visās joslās būtu viena un tā pati!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
 * topic:DoubleCounting
@@ -482,7 +485,7 @@ vienādmalu!
 <small>
 
 * concepts:equilateral-triangle
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:TrianglesIsosceles
@@ -526,7 +529,8 @@ un $2017$ melnas bumbiņas; **(B)** $2016$ baltas un $2018$ melnas bumbiņas?
 
 <small>
 
-* questionType:FindAll,FindAll
+* questionType:A: QTY_FindAll
+* questionType:B: QTY_FindAll
 * domain:Comb
 * subdomain:DOM_MakingMoves
 * method:MTH_FixedInvariant
@@ -565,7 +569,7 @@ divas reizes mazāks nekā pats skaitlis?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * concepts:product
 * subdomain:DOM_DigitManipulation
@@ -613,7 +617,8 @@ vienādas; **(B)** ordināta ir divas reizes lielāka nekā abscisa?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * topic:LinearSystems
@@ -647,7 +652,8 @@ skaitļu summa uz katras trijstūra malas būtu **(A)** $22$; **(B)** $23$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
 * topic:ExpressionRegrouping
@@ -694,7 +700,7 @@ malu garumi?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:TriangleCongruence
@@ -737,7 +743,8 @@ kauss ir smagāks nekā otrs.
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialAlgorithms
 * method:MTH_ExhaustiveAlgorithms
@@ -814,7 +821,7 @@ reizinājumu?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * concepts:product
 * subdomain:DOM_DigitManipulation
@@ -847,7 +854,8 @@ vienādas; **(B)** ordināta ir trīs reizes lielāka nekā abscisa?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * topic:SystemsSubstituteVariables
@@ -879,7 +887,7 @@ Pierādīt, ka $x^{6}+y^{6}+\frac{2}{x^{3}y^{3}}-4 \geq 0$, ja $x>0$, $y>0$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * subdomain:DOM_ProvingInequalities
 * topic:AmGmInequality
@@ -915,7 +923,7 @@ Aprēķināt trijstūra $ABC$ leņķus!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:VerticalAngles
@@ -991,7 +999,8 @@ varētu izvietot saskaņā ar uzdevuma nosacījumiem?
 
 <small>
 
-* questionType:Prove,FindOptimal
+* questionType:A: QTY_Prove
+* questionType:B: QTY_FindOptimal
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_ContradictionForExistence
@@ -1037,7 +1046,7 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}+(x+1)^{3}=(x+3)^{3}+1$.
 <small>
 
 * concepts:equation
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_IntegerEquations
 * topic:EquationFactorization
@@ -1102,7 +1111,7 @@ aritmētiskās progresijas trīs pēc kārtas ņemti locekļi!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1140,7 +1149,7 @@ $$\left(\frac{3a}{b}+1\right)\left(\frac{3b}{a}+1\right) \geq 16$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1189,7 +1198,7 @@ $AB \cdot AP+AD \cdot AR=AC \cdot AQ$ !
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1310,7 +1319,7 @@ augšu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 
 </small>
@@ -1344,7 +1353,7 @@ pirmskaitļi, tad trešais skaitlis dalās ar $6$.
 * topic:DivisibilityProperties
 * topic:ArithmeticSeriesAll
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 * concepts:primes
 
 </small>
@@ -1387,7 +1396,7 @@ Atrisināt nevienādību $2 \sin^{2} x - \sin x - 1 < 0$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1411,7 +1420,7 @@ $\left(a_{1}+a_{2}\right)\left(a_{3}+a_{4}\right)$ vērtība?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 
 </small>
@@ -1439,7 +1448,7 @@ atrodas uz vienas taisnes!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1476,7 +1485,7 @@ vissmagākais?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * seeAlso: LV.AMO.2015.7.5
 * seeAlso: LV.AMO.2017.8.4
@@ -1527,7 +1536,8 @@ elementiem.
 <small>
    
 * concepts:coprimes
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1553,7 +1563,7 @@ ir tieši $2017$ dažādas reālas saknes?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 
 </small>
@@ -1574,7 +1584,7 @@ $a,\ b,\ c$ ir pozitīvi skaitļi!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1604,7 +1614,7 @@ trijstūra augstuma (vai tā pagarinājuma), kas no $A$ vilkts pret malu $BC$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1662,7 +1672,7 @@ turnīrā paredzēto spēli!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 
 </small>
@@ -1779,7 +1789,8 @@ abās galvenajās diagonālēs ierakstīto skaitļu summa dalās ar $7$.
 
 <small>
 
-* questionType:FindExample,ProveDisprove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>

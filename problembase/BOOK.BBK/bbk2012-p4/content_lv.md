@@ -5,7 +5,7 @@ $x^2 + 8z = 2y^2 + 3$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs:LV.OTHER.TST.1978.9.3
 
@@ -22,7 +22,7 @@ Atrast $D$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs:LV.OTHER.TST.1982.10.1
 
@@ -37,7 +37,7 @@ $2^p + p^2$ arī ir pirmskaitlis?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs:LV.OTHER.TST.1986.9.3
 
@@ -58,7 +58,7 @@ Pierādīt, ka šajā virknē nav skaitļa $5$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.OTHER.TST.1986.10.1
 * concepts:recurrent-sequence,primes,divisibility
@@ -78,7 +78,7 @@ $x^2 + y^2 + 1$ dalās ar $p$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.OTHER.TST.1983.11.4
 
@@ -88,7 +88,7 @@ $x^2 + y^2 + 1$ dalās ar $p$.
 
 
 
-# <LO-REFFF/> BBK2012.P4.96
+# <lo-sample/> BBK2012.P4.96
 
 Atrisināt naturālos skaitļos vienādojumu
 $$p^x - y^p = 1,$$
@@ -96,7 +96,7 @@ ja $p$ ir pirmskaitlis.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs:LV.TST.1998.2
 
@@ -114,7 +114,7 @@ pieskaitot $1990$, iegūtu kaut kāda naturāla skaitļa kvadrātu?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * sameAs:LV.OTHER.TST.1990.9.5
 
@@ -132,7 +132,7 @@ var beigties naturāla skaitļa kvadrāts?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * sameAs:LV.OTHER.TST.1984.11.1
 
@@ -151,7 +151,7 @@ ka kopā ir $1961$ lapiņa. Pierādiet, ka zēns ir kļūdījies.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:recurrent-sequence
 
@@ -170,7 +170,7 @@ nav vienādu locekļu, kuri ir lielāki par $1$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:recurrent-sequence
 
@@ -189,7 +189,7 @@ Pierādiet, ka neviens naturāls skaitlis nepieder abām virknēm.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:recurrent-sequence
 
@@ -208,7 +208,7 @@ kur pēc kārtas ir uzrakstīti cipari $1, 2, 3, 4$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * concepts:recurrent-sequence
 
@@ -226,7 +226,7 @@ locekļu ar Fibonači virkni.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * concepts:fibonacci-sequence,arithmetic-progression
 
@@ -248,7 +248,7 @@ Apgalvojumu pamatot.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * concepts:recurrent-sequence
 
@@ -266,7 +266,7 @@ nav nekāda naturāla skaitļa kvadrāts.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:primes,full-square,power
 
@@ -282,7 +282,7 @@ nav naturāla skaitļa pakāpe ar kāpinātāju, lielāku par $1$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.OTHER.TST.1986.10.1
 * concepts:primes,full-power
@@ -300,7 +300,7 @@ ir bezgalīgi daudz saliktu skaitļu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -316,7 +316,7 @@ ir bezgalīgi daudz saliktu skaitļu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:power
 
@@ -337,7 +337,7 @@ ir salikti skaitļi.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:power
 
@@ -355,7 +355,7 @@ ir salikts skaitlis.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:power
 
@@ -371,7 +371,7 @@ $n \in \mathbb{N}$ ir bezgalīgi daudz saliktu skaitļu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:power
 
@@ -388,7 +388,7 @@ Pierādiet, ka šajā virknē ir bezgalīgi daudz saliktu skaitļu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:composite-numbers
 
@@ -413,7 +413,7 @@ ir savā starpā vienādi.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:arithmetic-mean
 
@@ -434,7 +434,7 @@ skaitļu virkni, kas sastāv tikai no nullēm.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:power,absolute-value
 

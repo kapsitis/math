@@ -5,7 +5,7 @@ naturālos skaitļos.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs:LV.OTHER.TST.1977.9.1
 
@@ -21,7 +21,7 @@ Atrisināt naturālos skaitļos vienādojumu $7^x - 3 \cdot 2^y = 1$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs:LV.TST.1990.10.2
 
@@ -39,7 +39,7 @@ kārtas ņemtu naturālu skaitļu summu.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs:LV.TST.1978.10.5
 
@@ -49,7 +49,7 @@ kārtas ņemtu naturālu skaitļu summu.
 
 
 
-# <LO-REFFF/> BBK2012.P5.56
+# <lo-sample/> BBK2012.P5.56
 
 Dots, ka $x$ un $y$ ir naturāli skaitļi un
 $$3x^2 + x = 4y^2 + y.$$
@@ -58,7 +58,7 @@ skaitļu kvadrāti.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.TST.1994.1
 
@@ -68,7 +68,7 @@ skaitļu kvadrāti.
 
 
 
-# <LO-REFFF/> BBK2012.P5.57
+# <lo-sample/> BBK2012.P5.57
 
 Atrast visus tādus pirmskaitļus $p$, ka 
 ${\displaystyle p\cdot \left(2^{p-1}-1\right)}$ 
@@ -77,7 +77,7 @@ augstāka par pirmo, un pierādīt, ka citu bez atrastajiem nav.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs:LV.TST.1996.3
 
@@ -96,7 +96,7 @@ pirmskaitlis, $n$ -- naturāls skaitlis.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs:LV.TST.1977.11.4
 
@@ -118,7 +118,7 @@ locekļi ir veseli skaitļi.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.TST.1983.10.3
 
@@ -142,7 +142,7 @@ locekļi ir naturāli skaitļi.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.TST.1988.10.5
 
@@ -161,7 +161,7 @@ ir $x = y = z = 0$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.TST.1989.11.3
 

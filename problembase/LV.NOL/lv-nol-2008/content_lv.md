@@ -36,7 +36,8 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
@@ -70,7 +71,8 @@ pārī meitene garāka par zēnu?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: TotalOrder, OrderedPair, Counterexample, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -206,7 +208,8 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Tiling, LatticeGrid, CountingProductRule
 * _readingDifficulty: low
@@ -236,7 +239,8 @@ Vai eksistē tādi naturāli skaitļi $x$ un $y$, ka
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: EvenOddParity, PositiveIntegers, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -293,7 +297,8 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Coloring, GraphConcept, OptimumProofStructure
 * _readingDifficulty: medium
@@ -326,7 +331,7 @@ $x=a^{3},\ y=b^{4},\ a$ un $b$ - naturāli skaitļi?
 * topic:BezoutIdentity
 * topic:CanonicalFactorization
 * topic:StandardIdentities
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, PerfectCubes, PrimeFactorization
 * _readingDifficulty: low
@@ -388,7 +393,7 @@ vidējais svars ir $71~\mathrm{kg}$. Pierādīt, ka cīkstoņu skaits dalās ar 
 * topic:BaricenterCoordinates
 * topic:NumTheoryInequalityMethod
 * topic:IntegerFactorization
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _hasSolutionConcept: ArithmeticMean, LinearEquation, DivisibilityRelation, GCD, CoprimeIntegers
 * _readingDifficulty: low
@@ -420,7 +425,8 @@ Vai eksistē
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Polygon, Triangle, QuadrilateralFamilies, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -487,7 +493,7 @@ laimīgi. Pierādīt, ka viens no tiem dalās ar $10$.
 
 * topic:SequenceGaps
 * topic:InvariantParity
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DigitSum, EvenOddParity, DivisibilityRules, ProofByContradiction
 * _readingDifficulty: low
@@ -703,7 +709,8 @@ $n$ reizes.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: UnorderedSelection, FiniteSet, Polygon, Triangle
 * _readingDifficulty: medium
@@ -798,7 +805,7 @@ kā $17$ pēc kārtas ņemtu naturālu skaitļu summu.
 
 * topic:GcdAndLcmProperties
 * topic:SeriesArithmeticSum
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -1008,7 +1015,7 @@ daudzumu nuļļu var beigties skaitlis $f(n)$?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -1040,7 +1047,10 @@ Vai var būt, ka **(A)** $n=8$, **(B)** $n=7$, **(C)** $n=10$, **(D)** $n=16$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
+* questionType:D:
 * domain:
 
 </small>
@@ -1089,7 +1099,9 @@ Cik ir labu virkņu? Atbilde jādod decimālā pierakstā.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
 * domain:
 
 </small>
@@ -1115,7 +1127,7 @@ b. skaitļa $n$ visu naturālo dalītāju summa (ieskaitot $1$ un $n$) ir $2n$?
 <small>
 
 * seeAlso:LV.NOL.2007.12.3
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1207,7 +1219,7 @@ izpildās šādas prasības:
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_InductionWithStepOne
 

@@ -516,7 +516,7 @@ izmestas, vismaz viena iekrāsotā rūtiņa paliktu neizmesta?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: Coloring, LatticeGrid, PigeonholePrinciple, OptimumProofStructure
@@ -965,7 +965,8 @@ nepārsniedz $2017$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: PigeonholePrinciple, EvenOddParity, Counterexample, FiniteSet
 * _readingDifficulty: low
@@ -1221,7 +1222,7 @@ sākotnējais desmitciparu skaitlis!
 * topic:DivisibilityRulesFor3And9
 * topic:DivisibilityRulesOther
 * topic:ExhaustionMethod
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1567,7 +1568,8 @@ $1089$, jo $9801:1089=9$.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>

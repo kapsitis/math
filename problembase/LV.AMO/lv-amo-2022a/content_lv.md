@@ -10,7 +10,7 @@ Daži skaitļi jau ir ierakstīti.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, FiniteSequenceArrangement
 * _readingDifficulty: low
@@ -38,7 +38,7 @@ atkārtoti izpildot šādas darbības, Karlsons var iegūt tieši $2022$ tortes 
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: ParityInvariant, Invariant
 * _readingDifficulty: medium
@@ -76,7 +76,7 @@ figūras var būt pagrieztas vai apgāztas otrādi.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid, CentralSymmetry
 * _readingDifficulty: medium
@@ -101,7 +101,7 @@ abi cipari arī ir pirmskaitļi. Kāda ir abu uzrakstīto skaitļu starpība?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
@@ -148,7 +148,7 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ tieši šād
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -204,7 +204,7 @@ kilometru ir no Laines mājām līdz skolai?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearEquation
 * _readingDifficulty: low
@@ -233,7 +233,7 @@ iespējams, ka kādā brīdī visos četros plauktos būs vienāds skaits eklēr
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: EvenOddParity, Invariant, PositiveIntegers
 * _readingDifficulty: medium
@@ -269,7 +269,7 @@ pagrieztas vai apgāztas otrādi.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, ChessboardColoring, LatticeGrid
 * _readingDifficulty: medium
@@ -295,7 +295,7 @@ Kāda ir abu uzrakstīto skaitļu summa?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: low
@@ -336,7 +336,7 @@ Cik vietās šajā rindā pēc kārtas uzrakstīti cipari $2,0,2,2$ (tieši šā
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, CaseAnalysis
 * _readingDifficulty: medium
@@ -403,7 +403,7 @@ izpildīja Raimonds?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:FormingEquations
@@ -438,7 +438,7 @@ Karlsons var iegūt tieši $2000$ tortes gabalus?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg,Comb
 * subdomain:DOM_MakingMoves
 * method:MTH_FixedInvariant
@@ -487,7 +487,7 @@ figūras nedrīkst pārklāties vai iziet ārpus taisnstūra.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * subdomain:DOM_GridCut
 * method:MTH_InductiveAlgorithms
@@ -520,7 +520,7 @@ ar $7$.
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * method:MTH_ExhaustiveAlgorithms
 * subdomain:DOM_Divisibility
@@ -568,7 +568,7 @@ monētas vērtība? Atrodi visus iespējamos variantus un pamato, ka citu nav!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * subdomain:DOM_NumberPartitionsCompositions
 * method:MTH_ExhaustiveAlgorithms
@@ -625,7 +625,7 @@ attiecīgi šo taišņu krustpunkti ar $y$ asi. Aprēķināt trijstūra $ABC$ la
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg,Geom
 * subdomain:DOM_Area
 * topic:TriangleAreaFromBaseAltitude
@@ -656,7 +656,7 @@ $2$ kūciņas. Vai iespējams, ka kādā brīdī uz galda bija tieši $2022$ kū
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * subdomain:DOM_AlgebraicOperations
 * method:MTH_FixedInvariant
@@ -700,7 +700,7 @@ $F$. Pierādīt, ka $EF=FB$!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * topic:TriangleCongruenceSAS
@@ -745,7 +745,7 @@ un pamato, ka citu nav!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_Divisibility
 * topic:DivisibilityProperties
@@ -781,7 +781,7 @@ Kāds ir $3321.$ skaitlis šajā virknē?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * subdomain:DOM_CountingStrings
 * topic:RuleOfProduct
@@ -825,7 +825,7 @@ sporta preču veikalā?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:LinearSystems
@@ -865,7 +865,7 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $212$
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * subdomain:DOM_DigitManipulation
 * method:MTH_FixedInvariant
@@ -908,7 +908,7 @@ $CD=AF$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Polygons
 * method:MTH_AugmentationWithNewElements
@@ -953,7 +953,7 @@ aritmētisko progresiju!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * subdomain:DOM_ArithmeticSeries
 * topic:ArithmeticAndGeometricSeries
@@ -992,7 +992,7 @@ rūtiņas ir neaizkrāsotas?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridColoring
 * method:MTH_PigeonholePrincipleBasic
@@ -1031,7 +1031,7 @@ pāra skaitļi!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1063,7 +1063,7 @@ Vai, atkārtojot vairākus šādus gājienus, ir iespējams iegūt skaitli $121$
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1098,7 +1098,7 @@ ja $S_{AMO}=S_{BKO}=8$ un $S_{KMO}=4$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 
 </small>
@@ -1132,7 +1132,7 @@ jebkuru trīs izvēlēto skaitļu summa būtu pirmskaitlis?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -1178,7 +1178,7 @@ vērtību (tā var būt atkarīga no $n$ vērtības).
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1215,7 +1215,7 @@ ir koordinātu asu krustpunkts!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 
 </small>
@@ -1247,7 +1247,7 @@ iespējams, ka tā būs melna?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 
 </small>
@@ -1278,7 +1278,7 @@ Pierādīt, ka taisne $BH$ krusto nogriezni $CD$ tā viduspunktā!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1311,7 +1311,7 @@ ekscentrisks, jo $19+78=97$. Cik pavisam ir ekscentrisku skaitļu?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 
 </small>
@@ -1357,7 +1357,7 @@ $ABC$ ir taisnleņķa trijstūris!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1406,7 +1406,7 @@ uzrakstītajiem skaitļiem. Cik dažādas plāksnītes var izveidot?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 
 </small>
@@ -1449,7 +1449,7 @@ iespējams, ka tā būs balta?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 
 </small>
@@ -1479,7 +1479,7 @@ garuma. Pierādīt, ka $S_{ACE}=S_{BDF}$!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1531,7 +1531,7 @@ ka $R$ un $S$ ir savstarpēji pirmskaitļi?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1584,7 +1584,7 @@ $$\frac{1}{a_{1}}+\frac{1}{a_{2}}+\cdots+\frac{1}{a_{n}}=1$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_InductionWithStepOne
 

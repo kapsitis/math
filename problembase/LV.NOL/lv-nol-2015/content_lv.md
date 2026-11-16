@@ -8,7 +8,7 @@ Braukšanas ātrums visā ceļa posmā bija viens un tas pats.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: DirectProportion, ArithmeticMean
 * _readingDifficulty: medium
@@ -38,7 +38,7 @@ palīgiem?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
@@ -77,7 +77,7 @@ grozīt, bet nedrīkst apmest otrādi.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, Tiling, Rotation, LatticeGrid
 * _readingDifficulty: low
@@ -108,7 +108,7 @@ citu nav!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, DivisibilityRules, PrimeFactorization
 * _readingDifficulty: low
@@ -153,7 +153,7 @@ nav iespējams precīzi noteikt tajā esošā ūdens daudzumu.
 
 <small>
 
-* questionType:Algorithm
+* questionType:QTY_ConstructProcedure
 * domain:Comb
 * _hasSolutionConcept: DivisionWithRemainder, MultiplesSet, CaseAnalysis
 * _readingDifficulty: medium
@@ -194,7 +194,7 @@ eiro un otrās - $21$ eiro! (Pakas cena veidojas, saskaitot tajā ielikto
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, LinearEquation, RationalNumbers
 * _readingDifficulty: low
@@ -222,7 +222,7 @@ darbības, var panākt, ka kādā brīdī visās lādēs būs vienāds skaits mo
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
@@ -256,7 +256,7 @@ Vai iespējams, ka neviena no šīm summām nav pirmskaitlis?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: low
@@ -286,7 +286,7 @@ rūtiņu malām.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, LatticeGrid, OptimumProofStructure
@@ -337,7 +337,7 @@ vērtības!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: low
@@ -367,7 +367,7 @@ Atrisini vienādojumu $\frac{8a-5}{5}-\frac{2a-7}{2}=-3$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: LinearEquation, RationalNumbers, VariableExpression
 * _readingDifficulty: low
@@ -404,7 +404,7 @@ tieši $2015$ mājlopus?
 
 * topic:InvariantRemainder
 * topic:InvariantParity
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
@@ -451,7 +451,7 @@ Vai iespējams, ka visas iegūtās summas ir pirmskaitļi?
 * topic:ModularParity
 * topic:PrimesDistribution
 * topic:ExhaustionMethod
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, ChessboardColoring, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -487,7 +487,7 @@ skaitlis?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, Tiling, PositiveIntegers, RationalNumbers, Counterexample
 * _readingDifficulty: low
@@ -521,7 +521,7 @@ atsvariem var noteikt katra veida monētu skaitu?
 
 <small>
 
-* questionType:Algorithm
+* questionType:QTY_ConstructProcedure
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, CaseAnalysis, DecisionTree
 * _readingDifficulty: medium
@@ -565,7 +565,8 @@ Pierādi, $ka$
 <small>
 
 * topic:CongruenceClasses
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, EvenOddParity, DivisibilityRules
 * _readingDifficulty: low
@@ -615,7 +616,7 @@ iespējams, ka "Šrotiņā" kāda mēneša $21.$ datumā būs tieši $2015$ maš
 <small>
 
 * topic:InvariantRemainder
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, Invariant, DivisibilityRules, DigitSum
 * _readingDifficulty: medium
@@ -662,7 +663,7 @@ vismazākais, ja zināms, ka $a>b>c>d>0$? Pamato atbildi!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: LinearInequality, VariableExpression, PositiveAndNegative, TotalOrder
 * _readingDifficulty: low
@@ -713,7 +714,7 @@ $\sphericalangle MAN+\sphericalangle MCN=60^{\circ}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: Triangle, Angle, TriangleCongruence, PointLineSegmentRay
 * _readingDifficulty: low
@@ -746,7 +747,7 @@ naturāls skaitlis. Vai kvadrāta $ABCD$ perimetrs noteikti ir naturāls skaitli
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, PositiveIntegers, CountingSumRule
 * _readingDifficulty: low
@@ -779,7 +780,7 @@ Atrisināt vienādojumu $\frac{5}{x^{2}-9}-\frac{1}{3-x}=\frac{1}{2}$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: QuadraticEquation, VariableExpression, FunctionDomainRange, DiffOfSquaresFactoring
 * _readingDifficulty: low
@@ -833,7 +834,7 @@ ierakstīts skaitlis $2014$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, Invariant, Polygon
 * _readingDifficulty: medium
@@ -866,7 +867,8 @@ līdzīgos trijstūros?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, TriangleSimilarity, ParallelPerpendicular, PositiveIntegers
 * _readingDifficulty: low
@@ -923,7 +925,8 @@ izdarīt!
 
 <small>
 
-* questionType:Prove,FindExample
+* questionType:A: QTY_Prove
+* questionType:B: QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: ArithmeticMean, DivisibilityRelation, DivisionWithRemainder, MagicConfiguration, PositiveIntegers
 * _readingDifficulty: medium
@@ -982,7 +985,7 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, CoordinatePlane, IrrationalAndReals
 * _readingDifficulty: low
@@ -1023,7 +1026,7 @@ $N(-3;-1)$. Noteikt koeficientus $a$, $b$ un $c$!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1082,7 +1085,7 @@ Vai, atkārtoti izpildot šīs darbības, no skaitļa $30$ var iegūt skaitli $2
 
 * topic:DivisibilityRulesFor3And9
 * topic:Invariant
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1121,7 +1124,7 @@ pieņemt mazākais no šiem saskaitāmajiem?
 * topic:SeriesMembersSumsClosedFormulas
 * topic:CanonicalFactorization
 * topic:ExhaustionMethod
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1205,7 +1208,8 @@ ir veselu skaitļu pakāpes ar naturālu kāpinātāju, kas lielāks nekā $1$
 * topic:PrimeFactorizationAndPowers
 * topic:ModularParity
 * method:MTH_ContradictionForExistence
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1268,7 +1272,7 @@ taisnleņķa!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1299,7 +1303,7 @@ Atrisināt nevienādūbu $|x-2|-6+\frac{5}{|x-2|}>0$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1350,7 +1354,7 @@ ierakstīts skaitlis $2015$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 
 </small>
@@ -1384,7 +1388,7 @@ $a+b$, $a+c$, $b+c$ ir naturālu skaitļu kvadrāti?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -1439,7 +1443,7 @@ $ACB$ un $ABX$ bisektrises krustojas punktā $D$. Pierādīt, ka $AD=AB$!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1491,7 +1495,9 @@ $4 \times 4$ rūtiņas?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
+* questionType:C: QTY_Decide
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 
@@ -1548,7 +1554,7 @@ $(x-2) \log _{\sqrt{6}}\left(x^{2}-5x\right)=2x-\log _{\sqrt{6}} 36$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1604,7 +1610,8 @@ Vai, atkārtoti izpildot šīs darbības, no skaitļa $139$ var iegūt skaitli
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1637,7 +1644,7 @@ kuriem neviens nav $0$ un neviens neatkārtojas vairāk kā divas reizes?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 
 </small>
@@ -1666,7 +1673,7 @@ Pierādīt, ka $S_{BFL}+S_{CMG}+S_{DNH}+S_{AKE}=S_{KLMN}$ !
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1709,7 +1716,8 @@ Vai eksistē tādi naturāli skaitļi $a,\ b$ un $c$, ka skaitļa $a^{2}+b^{2}+c
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>

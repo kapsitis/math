@@ -11,7 +11,8 @@ perimetrs?
 
 <small>
 
-* questionType:FindAll,FindAll
+* questionType:A: QTY_FindAll
+* questionType:B: QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, DirectProportion, RationalNumbers
 * _readingDifficulty: low
@@ -49,7 +50,7 @@ pirmais vai otrais - vienmēr var uzvarēt?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, Invariant, WinningLosingPositions
 * _readingDifficulty: medium
@@ -80,7 +81,7 @@ kopā būtu tieši $6$ krustpunkti?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb,Geom
 * _hasSolutionConcept: PointLineSegmentRay, FiniteSet, GraphConcept, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -105,7 +106,7 @@ Pamato, ka tas ir mazākais iespējamais skaits!
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
@@ -138,7 +139,7 @@ visi tādi skaitļi un citu vairs nav!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, DigitRepresentation, DivisibilityRelation, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -173,7 +174,7 @@ $$\frac{16}{17}; \frac{441}{439}; \frac{11}{12}; \frac{391}{389}; \frac{21}{23}$
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, TotalOrder
 * _readingDifficulty: low
@@ -226,7 +227,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions, Invariant
 * _readingDifficulty: medium
@@ -262,7 +263,8 @@ plkst. 14:00; **(B)** plkst. 13:40?
 
 <small>
 
-* questionType:FindAll,FindAll
+* questionType:A: QTY_FindAll
+* questionType:B: QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: Angle, Rotation
 * _readingDifficulty: low
@@ -300,7 +302,8 @@ apgāztas otrādi.
 
 <small>
 
-* questionType:FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B:
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, LatticeGrid
@@ -327,7 +330,7 @@ naturālie skaitļi no $1$ līdz $99$) dalās ar $9$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitSum, DigitRepresentation
 * _readingDifficulty: low
@@ -363,7 +366,7 @@ pozitīvs, negatīvs skaitlis vai nulle!
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * subdomain:DOM_RealFunctions
 * topic:LinearFunctions
@@ -393,7 +396,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
 * method:MTH_FixedInvariant
@@ -433,7 +436,7 @@ mazāki nekā $180^{\circ}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * method:MTH_AugmentationWithNewElements
@@ -469,7 +472,7 @@ no vienādiem regulāriem trijstūriem. Uzzīmē šādu piecstūri!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_GridReorder
 * topic:PolygonsInLattices
@@ -500,7 +503,7 @@ ciparu)?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * concepts:product
 * subdomain:DOM_NumeralSystems
@@ -564,7 +567,7 @@ malējiem stabiem. Cik bija stabu, ja viņš nostaigāja $840~\mathrm{m}$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:SeriesArithmeticSum
@@ -632,7 +635,7 @@ uzvarēt?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
 * method:MTH_FixedInvariant
@@ -666,7 +669,7 @@ $DE$ ir perpendikulārs $AF$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * topic:AlternateAngles
@@ -705,7 +708,7 @@ naturāla skaitļa kubs. Kādām $m$ vērtībām tas ir iespējams?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_InductiveAlgorithms
@@ -754,7 +757,7 @@ nesakrīt ar kāda cita skaitļa pēdējo ciparu)?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * concepts:product
 * subdomain:DOM_NumeralSystems
@@ -813,7 +816,7 @@ slīpas taisnes. Cik paralelogramu izveido šīs taisnes?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb,Geom
 * subdomain:DOM_Quadrilaterals,DOM_CountingObjects
 * topic:StandardCombinatorialNumbers
@@ -861,7 +864,7 @@ otrais - vienmēr var uzvarēt?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
 * method:MTH_FixedInvariant
@@ -901,7 +904,8 @@ $QNBC$ ir rombs!
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * method:MTH_AugmentationWithNewElements
@@ -960,7 +964,7 @@ būtu par $500290$ lielāks nekā sākotnējais. Atrast doto sešciparu skaitli!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_DigitManipulation
 * method:MTH_FixedInvariant
@@ -1016,7 +1020,7 @@ $$(\sqrt{2020}-2 \sqrt{2019}+\sqrt{2018})(\sqrt{2020}+\sqrt{2019})(\sqrt{2019}+\
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * concepts:quadratic-equation
 * subdomain:DOM_AlgebraicOperations
@@ -1061,7 +1065,7 @@ $$6+24+60+\cdots+n(n+1)(n+2)=\frac{n(n+1)(n+2)(n+3)}{4}$$
 <small>
 
 * topic:NumTheoryMathInduction
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * concepts:equation
 * method:MTH_InductionWithStepOne
@@ -1107,7 +1111,7 @@ spēlētājs - pirmais vai otrais - vienmēr var uzvarēt?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 
 </small>
@@ -1135,7 +1139,7 @@ novilkts augstums $EG$. Pierādīt, ka $\sphericalangle AGC=\sphericalangle AFC$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1163,7 +1167,7 @@ kvadrāts?
 <small>
 
 * topic:StandardIdentities
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * concepts:square-Alg
 
@@ -1211,7 +1215,7 @@ dimanti kopā. Cik dimantu ir karalienei?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1278,7 +1282,7 @@ $$\frac{(x-20)^{19} \cdot(x+4)}{\left(\sqrt{x^{2}+4}\right)\left(9-x^{2}\right)}
 <small>
 
 * concepts:inequality
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1320,7 +1324,7 @@ otrais - vienmēr var uzvarēt?
 * topic:GameInvariant
 * seeAlso:LV.AMO.2019.12.2
 * concepts:divisors
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1371,7 +1375,7 @@ $FH=GH$.
 <small>
 
 * concepts:triangle,circumscribed-circle
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1410,7 +1414,8 @@ ir lielākais iespējamais šo skaitļu reizinājums?
 
 * topic:InequalityProvingStronger
 * concepts:product
-* questionType:FindOptimal,FindOptimal
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_FindOptimal
 * domain:Alg
 
 </small>
@@ -1463,7 +1468,7 @@ skaitlis!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1507,7 +1512,7 @@ $$\cos 3x \cos 2x+\sin 2x \sin 3x=\left(\cos \frac{\pi}{10}-\sin \frac{\pi}{10}\
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1542,7 +1547,7 @@ otrais - vienmēr var uzvarēt?
 
 * seeAlso:LV.AMO.2019.11.2
 * concepts:divisors
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1604,7 +1609,7 @@ punktos $E$ un $F$ un nogriezni $BD$ punktā $G$. Pierādīt, ka $EG=FG$.
 <small>
 
 * concepts:rectangle
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1643,7 +1648,7 @@ svarīga). Ar kādu lielāko trijnieka pakāpi dalās $N$?
 
 * topic:RuleOfProduct
 * topic:ValuationProperties
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1715,7 +1720,7 @@ Cik biedru ir šajā klubā?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Alg
 
 </small>

@@ -338,7 +338,7 @@ dažādos vagonos, kas pie tam nav blakus viens otram. Cik vietu ir katrā vagon
 * topic:SequenceGaps
 * topic:ExhaustionMethod
 * concepts:sequence
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, DivisionWithRemainder, SetPartition, ProofByContradiction
 * _readingDifficulty: medium
@@ -584,7 +584,9 @@ naturāls skaitlis, kam vienlaicīgi izpildās īpašības $S(n)=10$ un $S(5n)=5
 * topic:DivisibilityRulesFor2And4
 * topic:NotationInsert
 * subdomain:DOM_DigitManipulation
-* questionType:FindExample,ProveDisprove,ProveDisprove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Decide
+* questionType:C: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DigitSum, DigitRepresentation, DivisibilityRules, EvenOddParity, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -696,7 +698,7 @@ dalās ar $8$?
 <small>
 
 * concepts:sum,divisibility
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: low
@@ -847,7 +849,7 @@ lielāks par $1$?
 <small>
 
 * concepts:divisibility,gcd
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT,Comb
 * _hasSolutionConcept: DivisibilityRelation, GCD, ParityInvariant, OptimumProofStructure
 * _readingDifficulty: high
@@ -888,7 +890,9 @@ $R$ ir kopīga mala.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
 * domain:
 
 </small>
@@ -936,7 +940,7 @@ Noskaidrojiet $x,\ y,\ z$ un $t$ vērtības.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1013,7 +1017,8 @@ $\frac{1}{x}+\frac{1}{y}+\frac{1}{z} \leq 3$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1039,7 +1044,8 @@ sadalīt divās grupās tā, ka katras grupas skaitļu summa ir pirmskaitlis, ja
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1063,7 +1069,7 @@ $\sqrt{d}-\sqrt{a} \leq 1$. Pierādīt, ka $a$ ir vesela skaitļa kvadrāts.
 <small>
 
 * concepts:square-Alg
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1092,7 +1098,8 @@ Punkts $P$ atrodas regulāra trijstūra $ABC$ iekšpusē. Pierādīt, ka:
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1182,7 +1189,7 @@ trīs dažādas valodas.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_InductionWithStepOne
 
@@ -1217,7 +1224,7 @@ dalītāju, kas dod atlikumu $2$, dalot ar $3$?
 <small>
 
 * concepts:divisibility,divisors,remainder
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>

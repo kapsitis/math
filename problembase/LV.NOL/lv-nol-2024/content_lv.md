@@ -7,7 +7,7 @@ visi pieci ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $2$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, LastDigit, ExhaustiveCheck
 * _readingDifficulty: low
@@ -33,7 +33,7 @@ Kāds mazākais skaits punktu jānodzēš, lai nekādi trīs no atlikušajiem pu
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PointLineSegmentRay, LatticeGrid, FiniteSet, OptimumProofStructure
@@ -70,7 +70,7 @@ sakrīt (figūras var pagriezt un apmest otrādi).
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
 * _readingDifficulty: low
@@ -98,7 +98,7 @@ $4 \cdot 1+23=27$). Kāds ir pēdējais uzrakstītais skaitlis?
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: PeriodicSequence, DigitProduct, NumberSequence, DivisionWithRemainder
 * _readingDifficulty: low
@@ -131,7 +131,8 @@ Vai iespējams, ka pēc atkārtotas automāta izmantošanas viṇai palika:
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Comb
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess
@@ -170,7 +171,7 @@ visi seši ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $3$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, ExhaustiveCheck, CountingProductRule
 * _readingDifficulty: low
@@ -196,7 +197,7 @@ ja jābūt izgrieztām arī tieši divām 6.att. figūrām?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * _hasSolutionConcept: Tiling, ChessboardColoring, Invariant, OptimumProofStructure
 * _readingDifficulty: medium
@@ -239,7 +240,7 @@ ka abas figūras sakrīt (figūras var pagriezt un apmest otrādi).
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
 * _readingDifficulty: low
@@ -266,7 +267,7 @@ Kāds ir pēdējais uzrakstītais skaitlis?
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: PeriodicSequence, DigitProduct, NumberSequence, DivisionWithRemainder
 * _readingDifficulty: low
@@ -301,7 +302,8 @@ ko sauc par posmiem. Lauztu līniju, kuras galapunkti sakrīt, sauc par slēgtu 
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Geom
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: Polygon, EvenOddParity, SetPartition, ExistenceVsUniversal
@@ -335,7 +337,7 @@ katru ciparu tieši vienu reizi! (Iekavas lietot nedrīkst un jāievēro darbīb
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -359,7 +361,7 @@ Kāda lielākā ciparu summa var būt desmitciparu skaitlim, kas dalās ar $18$?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, OptimumProofStructure
 * _readingDifficulty: low
@@ -391,7 +393,7 @@ Kāds var būt nogriežņa $AC$ garums, ja zināms, ka tas ir naturāls skaitlis
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: TriangleInequality, Triangle, PositiveIntegers, PointLineSegmentRay
 * _readingDifficulty: low
@@ -435,7 +437,7 @@ salikt taisnstūri, kurā 16. att. figūras nesaskaras ne ar malu, ne ar stūri!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: Tiling, Rotation, QuadrilateralFamilies
 * _readingDifficulty: low
@@ -463,7 +465,7 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * topic:LinearOptimization
 * method:MTH_ExtremeElements
@@ -501,7 +503,7 @@ Vai iespējams, sareizinot sešus dažādus pirmskaiț̣us, iegūt sešciparu sk
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, DivisibilityRelation, PrimeFactorization
 * _readingDifficulty: low
@@ -526,7 +528,7 @@ $D$ un $E$ tā, lai $AE=AD$ un $\sphericalangle BAD=30^{\circ}$. Aprēk̄ināt l
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
@@ -568,7 +570,7 @@ kolonnā vai diagonālē, bet arī, piemēram, punkti $A, B, C$ (skat. 20. att.)
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: LatticeGrid, PointLineSegmentRay, FiniteSet, OptimumProofStructure
@@ -599,7 +601,7 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_ExtremeElements
 * method:MTH_PigeonholePrincipleBasic
@@ -643,7 +645,8 @@ viens skaitlis un katrā rindā un katrā kolonnā skaitli pieaugtu bultiņas no
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Comb
 * method:MTH_ContradictionForExistence
 * _hasSolutionConcept: TotalOrder, DirectedGraph, ProofByContradiction, PositiveIntegers
@@ -677,7 +680,7 @@ un malu $K L$ un $M N$ vidusperpendikulu krustpunkts $X$ atrodas uz malas $K N$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: TriangleCongruence, Triangle, Angle, PointLineSegmentRay
 * _readingDifficulty: medium
@@ -711,7 +714,7 @@ Pierādīt, ka $\sqrt{17-12 \sqrt{2}}+\sqrt{3-2 \sqrt{2}}+\sqrt{3+2 \sqrt{2}}=3$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * _hasSolutionConcept: SquareOfSumIdentity, PositiveAndNegative, IrrationalAndReals
@@ -771,7 +774,7 @@ Uz kvadrāta $ABCD$ diagonāles $BD$ atlikts punkts $E$. Pierādīt, ka $ED \cdo
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 * _hasSolutionConcept: QuadrilateralFamilies, PythagoreanTheorem, ParallelPerpendicular, AxialSymmetry
@@ -814,7 +817,8 @@ Vai var gadīties, ka tagad visi kaķi atrodas tieši: **(A)** $8$ rūtiņās; *
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, Coloring, Invariant, GraphConcept
 * _readingDifficulty: medium
@@ -853,7 +857,7 @@ Pierādīt, ka $9$ reizes lielāka skaitļa ciparu summa ir $9$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DigitSum, PositiveIntegers
 * _readingDifficulty: low
@@ -886,7 +890,7 @@ Pierādīt, ka $AC$ ir paralēla ar $BD$!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -910,7 +914,7 @@ Doti reāli skaiții $x$ un $y$, kuriem $xy^{3}+1=x+y^{3}$. Pierādīt, ka $y x^
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
 
@@ -945,7 +949,7 @@ iekšējus punktus $P$ un $Q$, ka nogriežnu $AP, AQ, BP$ un $BQ$ garumi ir izsa
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 
@@ -989,7 +993,7 @@ Atrast visus tādus veselu skaitlu pārus $(a ; b)$, kuriem izpildās vienādīb
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * method:MTH_PolynomialTransformations
 
@@ -1046,7 +1050,8 @@ Vai var gadīties, ka tagad visas vardes atrodas tieši: **(A)** $24$ rūtiņās
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Comb
 
 </small>
@@ -1072,7 +1077,7 @@ $A$ un $E$ un $OB = OC$. Pierādīt, ka punkti $O$, $A$, $B$ un $C$ atrodas uz v
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1099,7 +1104,7 @@ Pierādīt, ka $\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}<
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
 
@@ -1144,7 +1149,7 @@ Aprēķināt $EC$ garumu!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 
@@ -1202,7 +1207,7 @@ $a+\operatorname{LKD}(a, b)=b+\operatorname{LKD}(b, c)=c+\operatorname{LKD}(c, a
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1239,7 +1244,8 @@ Vai iespējams, ka: **(A)** $n=2024$; **(B)** $n=2025$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Comb
 * method:MTH_ContradictionForExistence
 
@@ -1294,7 +1300,7 @@ Pierādīt, ka $DH$ ir leṇka $EDF$ bisektrise!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1321,7 +1327,7 @@ Pierādīt, ka $\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}>
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
 
@@ -1364,7 +1370,7 @@ $BD=1, DE=3$. Aprēķināt $EC$ garumu!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 
@@ -1399,7 +1405,8 @@ ja sākumā kastē ir: **(A)** $20$; **(B)** $2024$ konfektes?
 
 <small>
 
-* questionType:Algorithm,Algorithm
+* questionType:A: QTY_ConstructProcedure
+* questionType:B: QTY_ConstructProcedure
 * domain:NT
 * subdomain:DOM_FixedInvariant
 
@@ -1433,7 +1440,7 @@ Atrast visus pirmskaitlu pārus $(p;q)$, kuriem izpildās vienādība $p^{q}=q^{
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * method:MTH_InductionWithStepOne
 

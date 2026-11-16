@@ -12,7 +12,7 @@ lai blakus trijstūros ierakstītie skaitļi neatšķiras vairāk kā par $3$.
 * topic:ArithmeticOperations
 * concepts:difference,distance,triangle
 * seeAlso:LV.AMO.2023.6.1
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, MagicConfiguration, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -43,7 +43,8 @@ cipari. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari
 * topic:ModularArithmeticLastDigit
 * subdomain:DOM_NumeralSystems
 * method:MTH_ExhaustiveAlgorithms
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, LastDigit, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -70,7 +71,7 @@ laukuma vērtība ir tāda pati kā malu skaits!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * topic:SquareGridShapes
 * subdomain:DOM_IntegerLattices
 * domain:Geom
@@ -105,7 +106,9 @@ rūtiņas var pārvietot uz kreiso augšējo rūtiņu, ja kvadrāta izmēri ir:
 <small>
 
 * topic:GraphColoredVertices
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
+* questionType:C:
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_FixedInvariant
@@ -143,7 +146,7 @@ Kāds ir lielākais iespējamais viesu skaits, kas bija ieradušies uz Gunas dzi
 <small>
 
 * topic:PigeonholePrincipleForExtremes
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * method:MTH_ExtremeElements,ContradictionForExistence
 * domain:Comb
 * topic:LinearOptimization
@@ -204,7 +207,7 @@ lai blakus trijstūros ierakstīties skaitļi neatšķiras vairāk kā par $4$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, MagicConfiguration, PositiveIntegers, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -226,12 +229,13 @@ Skat., piemēram, 8. att., kur pelēkā krāsā norādītas atbilstošās starp�
 
 Doti divi skaitļi, katram no tiem ir vismaz divi cipari. Zināms, ka pirmais skaitlis ir vienāds ar skaitli, kuru
 iegūst, otro skaitli pareizinot pašu ar sevi. Vai var gadīties, ka abu skaitļu pierakstā izmantoti tikai cipari
-**(a)** $2$; $3$; $7$ un $8$; **(b)** $1$; $3$; $4$; $5$ un $6$?
+**(A)** $2$; $3$; $7$ un $8$; **(B)** $1$; $3$; $4$; $5$ un $6$?
 
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, LastDigit, PerfectSquares, CaseAnalysis
 * _readingDifficulty: medium
@@ -244,10 +248,10 @@ iegūst, otro skaitli pareizinot pašu ar sevi. Vai var gadīties, ka abu skait�
 
 ## Atrisinājums-1
 
-**(a)** Nē, prasītais nav iespējams. Ja skaitļa pēdējais cipars ir $2$, $3$, $7$ vai $8$, tad skaitļa, kuru
+**(A)** Nē, prasītais nav iespējams. Ja skaitļa pēdējais cipars ir $2$, $3$, $7$ vai $8$, tad skaitļa, kuru
 iegūst, skaitli pareizinot pašu ar sevi, pēdējais cipars ir attiecīgi $4$, $9$, $9$ vai $4$, bet pēc uzdevuma
 nosacījumiem nevienu no šiem cipariem nevar izmantot skaitļu pierakstā.  
-**(b)** Jā, piemēram, der skaitļi $34$ un $1156$, jo $34 \cdot 34 = 1156$.
+**(B)** Jā, piemēram, der skaitļi $34$ un $1156$, jo $34 \cdot 34 = 1156$.
 
 
 # <lo-sample/> LV.AMO.2023.6.3
@@ -265,7 +269,8 @@ ar ko tai ir kopīga mala.
 
 <small>
 
-* questionType:FindExample,FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: Tiling, AxialSymmetry, LatticeGrid, ConnectedGraph
 * _readingDifficulty: medium
@@ -299,7 +304,7 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * method:MTH_ContradictionForExistence
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, ProofByContradiction
@@ -351,7 +356,7 @@ komplektu viennozīmīgi nav iespējams noteikt?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * method:MTH_ExtremeElements
 * _hasSolutionConcept: NumberPartitions, ExhaustiveCheck, OptimumProofStructure
@@ -415,7 +420,8 @@ skaitļiem nebūtu vienādu ciparu?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
@@ -463,7 +469,7 @@ kuram vienlaicīgi izpildās šādi nosacījumi:
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * subdomain:DOM_SpecialNumbers
 * topic:DivisibilityRulesFor2And4
@@ -514,7 +520,8 @@ rūtiņas uz blakus rūtiņu, ar ko tai ir kopīga mala.
 
 <small>
 
-* questionType:FindExample,FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_GridCut
 * topic:AxisSymmetryConstructions
@@ -549,7 +556,7 @@ komplektu viennozīmīgi nav iespējams noteikt?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * subdomain:DOM_NumberPartitionsCompositions
 * method:MTH_ExhaustiveAlgorithms
@@ -612,7 +619,7 @@ Cik bizbizmārīšu sēž uz palodzes?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * method:MTH_ContradictionForExistence
 * subdomain:DOM_Logic
@@ -669,7 +676,7 @@ daļas būtu nesaīsināmas: $\frac{A}{B} + \frac{C}{D} = \frac{E}{F}$.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * subdomain:DOM_NumberRepresentation
 * topic:RationalNumbers
@@ -698,7 +705,7 @@ ciparus pretējā secībā. Kāds var būt skaitlis $x$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_DigitManipulation
 * topic:NotationPolynomial
@@ -746,7 +753,7 @@ Izsaki leņķi $CGF$ ar $\alpha$ un $\beta$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
 * topic:VerticalAngles
@@ -795,7 +802,8 @@ Dorotejai un Almai iedotajām naudas summām?
 
 <small>
 
-* questionType:FindOptimal,FindOptimal
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_FindOptimal
 * domain:Alg
 * subdomain:DOM_WordProblems
 * method:MTH_ExhaustiveAlgorithms
@@ -854,7 +862,7 @@ Cik bizbizmārītes sēž uz palodzes?
 <small>
 
 * seeAlso:LV.AMO.2023.7.5
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * subdomain:DOM_Logic
 * method:MTH_ContradictionForExistence
@@ -912,7 +920,8 @@ un saucēju. Vai, atkārtojot
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_MakingMoves
 * method:MTH_Monovariant
@@ -947,7 +956,7 @@ Zināms, ka $12a + 9b$ dalās ar $13$. Kāds var būt skaitlis $\overline{cd}$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_DigitManipulation
 * topic:NotationPolynomial
@@ -983,7 +992,7 @@ virsotnes, ir divas reizes garāka nekā augstums no tās pašas virsotnes!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:TrianglesRight
@@ -1031,7 +1040,7 @@ kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
@@ -1082,7 +1091,8 @@ Vai var gadīties, ka: **(A)** $S = 100$; **(B)** $S = 123$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_FixedInvariant
@@ -1137,7 +1147,7 @@ Cik zaļo un cik sarkano bruņinieku sēž pie galda?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * method:MTH_ContradictionForExistence
 
@@ -1175,7 +1185,7 @@ Pierādīt, ka $9x^2 + 5y^2 − 8xy − 4x + 2 > 0$ visām reālām $x$ un $y$ v
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
 
@@ -1207,7 +1217,7 @@ leņķa $ABC$ lielums četrstūra ārpusē ir $7\alpha$ (skat. 19. att.). Aprē�
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 
@@ -1298,7 +1308,8 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * method:MTH_PigeonholePrincipleBasic
@@ -1373,7 +1384,7 @@ aritmētiskais. Kāds varēja būt Marutas nodzēstais skaitlis?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1411,7 +1422,7 @@ Māra dzimšanas dienas svinībām?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * topic:LinearOptimization
 * method:MTH_ContradictionForExistence
@@ -1470,7 +1481,7 @@ visām pozitīvām reālām $a$, $b$ un $c$ vērtībām!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
 
@@ -1505,7 +1516,7 @@ Aprēķināt riņķa, ko ierobežo dotā riņķa līnija, laukumu!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 
@@ -1561,7 +1572,8 @@ ka visās grupās uz kartītēm uzrakstīto skaitļu summas ir vienādas?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * subdomain:DOM_CombinatorialStructures
@@ -1626,7 +1638,7 @@ Atrisināt veselos skaitļos vienādojumu $17a^2 - 7b^2 + c^2 = 2023$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * method:MTH_ContradictionForExistence
 
@@ -1662,7 +1674,7 @@ būtu patiesa?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * subdomain:DOM_Equations
 
@@ -1682,7 +1694,7 @@ skaitļi?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * method:MTH_PolynomialTransformations
 
@@ -1711,7 +1723,7 @@ Pierādīt, ka $S_{ABD} \leq S_{CEF}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 
@@ -1757,7 +1769,8 @@ $2 \times 5$ rūtiņas nav patiess!
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:Comb
 * method:MTH_ContradictionForExistence
 * subdomain:DOM_GridColoring
@@ -1843,7 +1856,8 @@ atlikumu $1$, dalot ar $3$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>

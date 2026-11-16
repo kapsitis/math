@@ -9,7 +9,8 @@ pirmais cipars par $2$ mazāks nekā visu citu ciparu summa.
 
 <small>
 
-* questionType:FindOptimal,FindOptimal
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_FindOptimal
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
@@ -82,7 +83,8 @@ dzīvoja blakus rūtiņās, arī kvadrātā dzīvotu blakus rūtiņās?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, GraphConcept, VertexDegree, Invariant
 * _readingDifficulty: high
@@ -168,7 +170,7 @@ tādas pašas grāmatas $22$ latus ar santīmiem. Cik maksā $1$ grāmata?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearEquation
 * _readingDifficulty: medium
@@ -194,7 +196,7 @@ izgriezt no 3.zīm. attēlotās figūras?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, ChessboardColoring, FiniteSet, OptimumProofStructure
@@ -385,7 +387,7 @@ ir nesaīsināmas?
 * topic:EuclideanAlgorithm
 * topic:PrimesDistribution
 * concepts:fractions,gcd
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _hasSolutionConcept: RationalNumbers, GCD, CoprimeIntegers
 * _readingDifficulty: medium
@@ -556,7 +558,7 @@ $A=B$.
 * topic:IntegerFactorization
 * concepts:decimal-notation,divisibility
 * subdomain:DOM_DigitManipulation
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, GCD, DigitRepresentation
 * _readingDifficulty: medium
@@ -619,7 +621,7 @@ rīkojamies tāpat, utt., kamēr paliek neizsvītrots viens skaitlis. Kurš tas 
 * topic:NonlinearRecurrences
 * concepts:sequence
 * subdomain:DOM_MakingMoves
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT,Comb
 * method:MTH_InductiveAlgorithms
 * _hasSolutionConcept: PositiveIntegers, FiniteSequenceArrangement, RecurrentSequence, Invariant
@@ -803,7 +805,8 @@ Vai to var izdarīt, ja **(A)** $n=4$; **(B)** $n=5$?
 <small>
 
 * concepts:sum
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: MagicConfiguration, PositiveAndNegative, EvenOddParity, ExhaustiveCheck
 * _readingDifficulty: high
@@ -917,7 +920,8 @@ Dots, ka $n$ - naturāls skaitlis.
 
 <small>
 
-* questionType:Prove,FindAll
+* questionType:A: QTY_Prove
+* questionType:B: QTY_FindAll
 * domain:NT
 
 </small>
@@ -973,7 +977,7 @@ skaitļus, kas visi dod dažādus atlikumus, dalot ar $16$?
 <small>
 
 * concepts:remainder,divisibility
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1001,7 +1005,7 @@ Vai eksistē tāds naturāls skaitlis $n$, ka $2004^{n}-1$ dalās ar $1500^{n}-1
 <small>
 
 * concepts:divisibility
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1143,7 +1147,7 @@ skaitļi?
 <small>
 
 * concepts:integer-polynomial
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1203,7 +1207,7 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu bez jūsu atrastajām 
 <small>
 
 * concepts:function,argument,value
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1230,7 +1234,7 @@ ja $(n-1)!$ nedalās ne ar $n$, ne ar $n+2$.
 <small>
 
 * concepts:primes,divisibility
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>

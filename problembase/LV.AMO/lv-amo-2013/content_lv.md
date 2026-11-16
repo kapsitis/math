@@ -5,7 +5,7 @@ un 24:00 ieskaitīt vienu reizi.) Atbildi pamatot!
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Alg
 * _hasSolutionConcept: PeriodicSequence, Invariant
 * _readingDifficulty: medium
@@ -38,7 +38,7 @@ zemāk par $1.$ stāvu.)
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _hasSolutionConcept: LinearDiophantine, GCD, Invariant
 * _readingDifficulty: high
@@ -73,7 +73,7 @@ būtu viena un tā pati.
 <small>
 
 * concepts:sum
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: MagicConfiguration, DigitRepresentation, FiniteSet
 * _readingDifficulty: medium
@@ -108,7 +108,7 @@ Figūras nedrīkst pārklāties un katra veida figūra jāizmanto vismaz vienu r
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, PlaneTransformation
 * _readingDifficulty: medium
@@ -134,7 +134,8 @@ krāsā. Atbildi pamatot!
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Comb
 * _hasSolutionConcept: Coloring, GraphConcept, BipartiteGraph, Counterexample
 * _readingDifficulty: high
@@ -172,7 +173,7 @@ iegūts viens un tas pats skaitlis. Kāds tas ir?
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
@@ -208,7 +209,8 @@ kuriem dalās ar $3$ un kuru
 <small>
 
 * concepts:divisibility,sum
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitSum, DigitProduct, DigitRepresentation, ProofByContradiction
 * _readingDifficulty: medium
@@ -239,7 +241,7 @@ būt pagrieztas vai apgrieztas otrādi).
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, PlaneTransformation
 * _readingDifficulty: low
@@ -263,7 +265,7 @@ reizinājumi abās grupās ir vienādi?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, SetPartition
 * _readingDifficulty: low
@@ -294,7 +296,7 @@ panākt savu uzvaru?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
 * _readingDifficulty: medium
@@ -326,7 +328,7 @@ skaitli ar tā ciparu reizinājumu, dalījums ir vismaz $\frac{11}{9}$.
 * topic:NumTheoryInequalityLargeIntervals
 * topic:NotationPolynomial
 * topic:NumTheoryExtremeElement
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * _hasSolutionConcept: DigitRepresentation, DigitProduct, OptimumProofStructure, RationalNumbers
@@ -366,7 +368,7 @@ izveidot trijstūri (katra trijstūra mala ir viens vesels nogrieznis)?
 
 * sameAs:LV.AMO.2012.7.2
 * concepts:triangle
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Geom
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, TriangleInequality, UnorderedSelection, FiniteSet
@@ -401,7 +403,7 @@ kvadrāts ir skaitļa reizinājums pašam ar sevi.)
 * topic:DivisibilityRulesForRemainders
 * topic:PrimeFactorizationAndPowers
 * topic:SeriesMembersSumsClosedFormulas
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * subdomain:DOM_DigitManipulation
 * _hasSolutionConcept: PerfectSquares, PrimeFactorization, DivisibilityRules, DigitSum, DivisibilityRelation, DigitRepresentation
@@ -454,7 +456,8 @@ figūru (tā var būt pagriezta vai apgāzta otrādi)?
 
 <small>
 
-* questionType:FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B:
 * domain:Geom
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Tiling, Coloring, Invariant, LatticeGrid
@@ -484,7 +487,7 @@ panākt savu uzvaru?
 <small>
 
 * seeAlso:LV.AMO.2013.6.5
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
 * _hasSolutionConcept: GamePosition, SymmetryStrategy, WinningLosingPositions
@@ -515,7 +518,7 @@ to pirmo ciparu, samazinās $36$ reizes.
 
 * topic:NumTheoryExpr
 * topic:NotationFragments
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_DigitManipulation
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DivisibilityRelation
@@ -560,7 +563,7 @@ perimetra.
 <small>
 
 * concepts:triangle,perimeter
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, TriangleInequality
@@ -588,7 +591,7 @@ ka $t \geq 4 a$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * subdomain:DOM_ParametrizedEquations
 * _hasSolutionConcept: IrrationalAndReals, QuadraticEquation, VariableExpression
@@ -614,7 +617,8 @@ daudzstūros?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 * subdomain:DOM_CuttingCoversColoring
 * _hasSolutionConcept: Polygon, DissectionIntoCongruent
@@ -648,7 +652,7 @@ $x_{1} \geq x_{2} \geq x_{3} \geq x_{4}$ ).
 <small>
 
 * concepts:monotonic-sequence
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * subdomain:DOM_Logic
 * _hasSolutionConcept: FiniteSequenceArrangement, CaseAnalysis, DecisionTree
@@ -686,7 +690,7 @@ sadalīt piecos vienlielos trijstūros.
 <small>
 
 * concepts:trapezoid,triangle
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * sameAs:LV.AMO.2012.9.5
 * subdomain:DOM_Quadrilaterals,DOM_CuttingCoversColoring
@@ -717,7 +721,7 @@ vienā krāsā un atrodas vienādsānu taisnleņķa trijstūra virsotnēs.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Coloring, LatticeGrid, Triangle, PigeonholePrinciple, CaseAnalysis
@@ -754,7 +758,7 @@ ciparus.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_NumeralSystems
 * _hasSolutionConcept: DigitRepresentation, DigitSum, CountingProductRule
@@ -787,7 +791,7 @@ $x_{n+1}=x_{n}+\frac{2}{x_{n}}$ visiem $n \geq 0$. Pierādīt, ka $x_{100}>20$.
 <small>
 
 * concepts:sequence
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * subdomain:DOM_RealSequences
 * _hasSolutionConcept: NumberSequence, RecurrentSequence, Invariant, PerfectSquares
@@ -821,7 +825,7 @@ malas. Pierādīt, ka šie riņķi pilnībā pārklāj doto četrstūri.
 <small>
 
 * concepts:square-Geo,circle
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk, Triangle, TriangleSpecialLines
@@ -857,7 +861,7 @@ $x_{2} \leq x_{3} \leq x_{1}$).
 <small>
 
 * concepts:equation,root
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -887,7 +891,7 @@ attiecīgi punktos $P$ un $Q$. Pierādīt, ka $AB \parallel PQ$.
 <small>
 
 * concepts:circumference
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -917,7 +921,7 @@ centrā)?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 
 </small>
@@ -945,7 +949,7 @@ no tiem var izvēlēties divus, no kuriem viens dalās ar otru.
 
 * topic:ArithmeticAndGeometricSeries
 * method:MTH_PigeonholePrincipleBasic
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:divisibility
 
@@ -998,7 +1002,7 @@ blakus esošu skaitļu attiecība būtu $2,\ 3,\ 12$ vai $18$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1025,7 +1029,7 @@ $169$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1045,7 +1049,7 @@ divu citu diagonāļu garumu summu?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 
 </small>
@@ -1076,7 +1080,7 @@ $$\frac{1}{a_{1}}+\frac{1}{a_{2}}+\frac{1}{a_{3}}+\cdots+\frac{1}{a_{n}}<2.$$
 <small>
 
 * concepts:primes,divisibility
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1125,7 +1129,7 @@ izvēlējies un kura ir sākotnējā pilsēta $Z$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 
 </small>
@@ -1159,7 +1163,7 @@ papīra gabaliņš būs piesprausts pie galda tieši ar vienu adatu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1184,7 +1188,7 @@ Atrisināt reālos skaitļos vienādojumu $\lg x \cdot \lg (4-x)=\frac{1}{4}$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1208,7 +1212,7 @@ riņķa līnijas krustojas vienā punktā.
 <small>
 
 * concepts:circumference
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1250,7 +1254,7 @@ $6^{x}+13^{y}=29^{z}$.
 <small>
 
 * concepts:equation
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1282,7 +1286,7 @@ $$S(n+3)=i \cdot j \cdot S(n+1)+i \cdot j^{2} \cdot S(n)$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 
 </small>
@@ -1318,7 +1322,7 @@ $\frac{1}{2013 \cdot \sqrt{P}}$, kur $P$ ir šī trijstūra perimetrs.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>

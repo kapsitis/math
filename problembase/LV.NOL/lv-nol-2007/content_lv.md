@@ -105,7 +105,8 @@ pārī meitene garāka par zēnu?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: TotalOrder, OrderedPair, Counterexample, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -218,7 +219,8 @@ $n=11$, **(B)** $n=13$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: PerfectSquares, Permutation, ProofByContradiction
 * _readingDifficulty: medium
@@ -252,7 +254,8 @@ starpā nedrīkst pārklāties.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: low
@@ -345,7 +348,7 @@ $x=a^{5},\ y=b^{3}$, $a$ un $b$ - naturāli skaitļi?
 * topic:BezoutIdentity
 * topic:CanonicalFactorization
 * topic:StandardIdentities
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, PrimeFactorization, PrimeNumbers
 * _readingDifficulty: low
@@ -376,7 +379,8 @@ summa ir pozitīva. Katru $3$ pēc kārtas uzrakstīto skaitļu summa ir negatī
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: WholeIntegers, PositiveAndNegative, FiniteSequenceArrangement, DivisionWithRemainder, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -412,7 +416,8 @@ katru soli šķērsojot kādu divu melnu rūtiņu kopējo malu?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Coloring, LatticeGrid, GraphConcept, ConnectedGraph
 * _readingDifficulty: low
@@ -438,7 +443,7 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 
 * topic:IntegerFactorization
 * topic:NumTheoryInequalityLargeIntervals
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain: NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PositiveIntegers, NecessarySufficient
 * _readingDifficulty: low
@@ -606,7 +611,7 @@ kārtas ņemtiem naturāliem skaitļiem.
 
 * topic:MultiplesInInterval
 * topic:GcdAndLcm
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _hasSolutionConcept: LCM, DivisibilityRelation, CoprimeIntegers, PositiveIntegers, OptimumProofStructure
 * _readingDifficulty: low
@@ -761,7 +766,8 @@ $n$ reizes.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: UnorderedSelection, FiniteSet, Polygon, Triangle
 * _readingDifficulty: medium
@@ -794,7 +800,8 @@ stūris, tad tajās ierakstīto skaitļu lielākais kopīgais dalītājs ir $1$.
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain: Comb,NT
 * _hasSolutionConcept: GCD, CoprimeIntegers, EvenOddParity, PigeonholePrinciple, FiniteSet
 * _readingDifficulty: medium
@@ -895,7 +902,8 @@ sadalīt divās daļās, kuru summas ir vienādas.
 
 <small>
 
-* questionType:FindExample,ProveDisprove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -969,7 +977,7 @@ $$x^{2}+3x=2^{y}$$
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -996,7 +1004,8 @@ neizdodas.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1167,7 +1176,7 @@ b. skaitļa $n$ visu naturālo dalītāju summa (ieskaitot $1$ un $n$)
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>

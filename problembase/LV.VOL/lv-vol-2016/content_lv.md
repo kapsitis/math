@@ -5,7 +5,7 @@ kubs. Pierādīt, ka arī $x^{2}y$ ir naturāla skaitļa kubs!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_PrimeFactors
 * subdomain: DOM_PerfectPower
@@ -66,7 +66,8 @@ kurām ir kopīga mala, ierakstīto skaitļu starpība būtu vismaz **(A)** $6$;
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_MagicConfigurations
 
@@ -116,7 +117,7 @@ Atrast skaitļa $\frac{2016^{2016}-3}{3}$ mazāko pirmreizinātāju!
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_PrimeFactors
 
@@ -171,7 +172,7 @@ Kādi ir četri nākamie skaitļi, kas virknē seko aiz skaitļa $2016$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerSequences
 
@@ -218,7 +219,7 @@ pakāpe!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_PrimeFactors
 
@@ -322,7 +323,8 @@ ir naturāli skaitļi.
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumericConstructions
 
@@ -408,7 +410,8 @@ baltajās virsotnēs?
 
 <small>
 
-* questionType:FindOptimal,FindOptimal
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_FindOptimal
 * domain:Geom
 * method:MTH_PigeonholePrincipleBasic
 * _subdomain: DOM_CuttingCoversColoring
@@ -456,7 +459,7 @@ pakāpe!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * topic:FactorizationAndProperties
 * topic:LinearSystemsTransforms
@@ -556,7 +559,7 @@ $$\frac{1}{n}=\frac{1}{x(x+1)}+\frac{1}{(x+1)(x+2)}+\cdots+\frac{1}{y(y+1)}$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * topic:StandardIdentities
 * topic:TelescopicSums
@@ -631,7 +634,8 @@ Vai šajā virknē ir skaitlis **(A)** $2001$, **(B)** $2006$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:NT
 * _subdomain: DOM_IntegerSequences
 
@@ -673,7 +677,8 @@ var sadalīt trīs daļās tā, ka katrai no daļām ir simetrijas ass!
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_CuttingCoversColoring
 
@@ -717,7 +722,7 @@ skaitļa septītā pakāpe!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_PrimeFactors
 
@@ -790,7 +795,7 @@ dalās ar savu ciparu summu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumeralSystems
 
@@ -815,7 +820,7 @@ iespējams atrast tādas naturālas $b$ un $c$ vērtības, ka $f(a)=g(b; c)$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_IntegerEquations
 

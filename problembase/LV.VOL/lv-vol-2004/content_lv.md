@@ -58,7 +58,8 @@ Vai tas ir iespējams, ja **(A)** $n=10$, **(B)** $n=11$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_Divisibility
 
@@ -209,7 +210,7 @@ Kāds vislielākais pirmskaitlis var būt uzrakstīts uz tāfeles?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_NumericSets
 
@@ -337,7 +338,7 @@ kvadrāts?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
 
@@ -431,7 +432,7 @@ Vai noteikti var panākt, ka visas konfektes atrodas uz viena šķīvja?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_MakingMoves
@@ -501,7 +502,8 @@ iedomāto skaitli ar $3$ jautājumiem, ja
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_NumberPartitionsCompositions, DOM_Logic
 
@@ -592,7 +594,7 @@ skaitļa kubs.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_IntegerSequences
 

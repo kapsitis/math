@@ -9,7 +9,7 @@ citu!)
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: Polygon, QuadrilateralFamilies, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: low
@@ -39,7 +39,7 @@ pamatot!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, EvenOddParity, FiniteSet
 * _readingDifficulty: medium
@@ -76,7 +76,7 @@ $B$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: DigitRepresentation, LinearEquation, LinearInequality
 * _readingDifficulty: low
@@ -104,7 +104,7 @@ kārtas. Cik lappušu numuros ir sastopams cipars $7$?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, CountingProductRule, CountingSumRule
 * _readingDifficulty: low
@@ -160,7 +160,7 @@ tā, ka no katra punkta iziet nepāra skaits nogriežņu?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
 * _readingDifficulty: medium
@@ -189,7 +189,7 @@ b. noapaļojot $2 \cdot a,\ 4 \cdot a,\ 6 \cdot a$ līdz veselam skaitlim,
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearInequality, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -213,7 +213,7 @@ laukums var būt mazāks par $10$ rūtiņām?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: LatticeGrid, FiniteSet, SetPartition, OptimumProofStructure
@@ -244,7 +244,8 @@ dažādi cipari.
 
 <small>
 
-* questionType:FindExample,FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, ExistenceVsUniversal, ExhaustiveCheck
 * _readingDifficulty: low
@@ -268,7 +269,7 @@ kārtas. Cik lappušu numuros ir sastopams vismaz viens no cipariem $3$ vai $7$?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, CountingProductRule, SetDifference
 * _readingDifficulty: low
@@ -334,7 +335,8 @@ jebkurus divus no tiem, nodzēš tos un rindas galā uzraksta šo skaitļu starp
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess, PositiveIntegers
 * _readingDifficulty: medium
@@ -383,7 +385,9 @@ tukšajā rūtiņā. Pierādīt, ka Ariadne var panākt jebkuru no trim situāci
 
 <small>
 
-* questionType:Prove,Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
+* questionType:C: QTY_Prove
 * domain:Alg
 * _hasSolutionConcept: LinearEquation, GamePosition, CaseAnalysis, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -422,7 +426,7 @@ Pierādīt, ka $OX=OY$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: Angle, ParallelPerpendicular, TriangleCongruence, TriangleSpecialLines
 * _readingDifficulty: low
@@ -465,7 +469,7 @@ skaitlis $x(x+1)(x+2)$ dalās ar $87$?
 
 * topic:DivisibilityRulesOther
 * topic:MultiplesInInterval
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, PrimeNumbers, MultiplesSet, CountingSumRule
 * _readingDifficulty: low
@@ -521,7 +525,7 @@ apmeklētājiem ir kļūdījies.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * _hasSolutionConcept: GraphConcept, VertexDegree, ProofByContradiction
 * _readingDifficulty: medium
@@ -551,7 +555,7 @@ maršruts drīkst saturēt augstākais vienu pagriezienu.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, GraphConcept, ConnectedGraph, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: medium
@@ -581,7 +585,7 @@ saknes (varbūt vienādas), un izteikt tās, neizmantojot kvadrātsaknes zīmi.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _hasSolutionConcept: QuadraticEquation, VietasFormulas, PolynomialAndRoots
 * _readingDifficulty: low
@@ -610,7 +614,7 @@ uz $EF$. Malas $BC$ viduspunkts ir $G$. Pierādīt, ka $AG=EG$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, ParallelPerpendicular, PointLineSegmentRay, TriangleSpecialLines
 * _readingDifficulty: low
@@ -647,7 +651,7 @@ Cik ir tādu piecciparu skaitļu, kuru pierakstā ir vismaz viens nepāra cipars
 
 * topic:RuleOfProduct
 * topic:CountingSetDifference
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, CountingProductRule, SetDifference
 * _readingDifficulty: low
@@ -697,7 +701,8 @@ uzrakstīti nepāra skaitļi, ja **(A)** $N=2014$, **(B)** $N=2401$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
 * _readingDifficulty: medium
@@ -726,7 +731,7 @@ rūtiņas centru.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: EvenOddParity, CoordinatePlane, LatticeGrid, Triangle, CaseAnalysis
 * _readingDifficulty: medium
@@ -773,7 +778,7 @@ $b$ ir dažādi skaitļi?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: QuadraticEquation, SquareOfSumIdentity, ProofByContradiction
 * _readingDifficulty: low
@@ -821,7 +826,7 @@ taisnstūra laukums. Atrast visus šādus taisnstūrus.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, WholeIntegers, DivisorsSet, ExhaustiveCheck
 * _readingDifficulty: low
@@ -856,7 +861,7 @@ Atrisināt naturālos skaitļos vienādojumu $3abc+3a+3b=7bc+7$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, VariableExpression, DivisibilityRelation, CaseAnalysis
 * _readingDifficulty: low
@@ -904,7 +909,7 @@ sienāzi (katru savā rūtiņā) tā, lai tie viens otru neapdraudētu?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * _hasSolutionConcept: FiniteSet, CountingSumRule, ExhaustiveCheck, LatticeGrid
 * _readingDifficulty: low
@@ -944,7 +949,7 @@ $AC$ un $BM$ krustojas punktā $S$. Aprēķināt trijstūra $ASM$ laukumu.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: TriangleSimilarity, QuadrilateralFamilies, PointLineSegmentRay, Triangle
 * _readingDifficulty: low
@@ -984,7 +989,8 @@ Dots, ka $x^{3}>2$. Pierādīt, ka
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:Alg
 
 </small>
@@ -1034,7 +1040,7 @@ skaitļiem var atrast divus skaitļus, kuru summa ir $302$.
 * topic:MultiplesInInterval
 * topic:SeriesMembersSumsClosedFormulas
 * topic:NumTheoryPigeonhole
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 
@@ -1073,7 +1079,7 @@ punktā $F$. Zināms, ka $BC=DF=DE$. Pierādīt, ka $AC=CE$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1107,7 +1113,7 @@ $a_{1}+a_{2}+\ldots+a_{10}$ vērtību.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1136,7 +1142,8 @@ grozu skaits?
 
 <small>
 
-* questionType:FindOptimal,FindOptimal
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_FindOptimal
 * domain:Comb
 
 </small>
@@ -1184,7 +1191,7 @@ pie kuras dotais polinoms pieņem vērtību $2014$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1209,7 +1216,7 @@ lielumu!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 
 </small>
@@ -1241,7 +1248,7 @@ dalītāju, izņemot $1$ un $n$, kvadrātu summa ir vienāda ar pašu skaitli $n
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1276,7 +1283,7 @@ ka pirmais izseko otro, otrais - trešo, $\ldots$, $(n-1)$-ais izseko $n$-to.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_InductionWithStepOne
 
@@ -1320,7 +1327,7 @@ $$\frac{1}{x^{2}}+\frac{1}{y^{2}}+\frac{1}{z^{2}} \geq 1$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1354,7 +1361,7 @@ vienādojuma $x^{3}-ax^{2}+bx-c=0$ sakne. Pierādīt, ka $x>-\frac{1}{2}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1376,7 +1383,7 @@ krustpunkts ir $G$. Pierādīt, ka $S_{EGFH}=S_{ADH}+S_{BCG}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1418,7 +1425,8 @@ katrs no cipariem $1$ līdz $9$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1450,7 +1458,7 @@ pagriežot pa apli (ap roku).
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 
 </small>
@@ -1485,7 +1493,7 @@ $$\frac{1}{a_{1}}+\frac{1}{a_{2}}+\ldots+\frac{1}{a_{2014}}=1?$$
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * method:MTH_InductionWithStepOne
 

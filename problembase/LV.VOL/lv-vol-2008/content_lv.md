@@ -5,7 +5,7 @@ skaitlis, kas dalās gan ar $x$, gan ar $y$, nav $x+y$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Divisibility
 
@@ -163,7 +163,7 @@ ciparus, iegūst $\sqrt[3]{x}$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_DigitManipulation
 
@@ -192,7 +192,7 @@ $n=[x, y]+[y, z]+[z, x]$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Divisibility
 
@@ -319,7 +319,7 @@ $$\bigg|\ldots \Big| \big| |x-1|-10 \big|-10^{2} \Big|-\ldots-10^{2007}\bigg|=10
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_Equations
@@ -346,7 +346,7 @@ $11$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Divisibility
 
@@ -481,7 +481,7 @@ $x^{2}+(x+1)^{2}=y^{2}$, ja $x \leq 200$
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
 

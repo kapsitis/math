@@ -65,7 +65,7 @@ vismaz divi dod vienādus atlikumus!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Congruences
 
@@ -322,7 +322,8 @@ lielāks nekā $10$.
 
 <small>
 
-* questionType:FindExample,Prove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Prove
 * domain:NT
 * topic:DivisibilityRulesFor2And4
 * topic:DivisibilityRulesFor3And9
@@ -384,7 +385,8 @@ vismaz viens *karaliskais neizšķirts*, **(B)** vismaz divi
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_Graphs
 
@@ -579,7 +581,8 @@ lielāks nekā $10$.
 
 <small>
 
-* questionType:FindExample,Prove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumericConstructions
 
@@ -665,7 +668,8 @@ jau atrodas. Vai, veicot šādus gājienus, iespējams iztukšot **(A)** vienu m
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_MakingMoves
 
@@ -768,7 +772,7 @@ Atrisināt veselos skaitļos vienādojumu $x^{6}+3x^{3}+1=y^{4}$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
 

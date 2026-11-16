@@ -320,7 +320,8 @@ gājienus atkārto, līdz rindā paliek tikai viens skaitlis.
 
 <small>
 
-* questionType:FindCount,FindAll
+* questionType:A: QTY_FindValue
+* questionType:B: QTY_FindAll
 * domain:Alg
 * subdomain:DOM_RealSequences
 * method:MTH_FixedInvariant
@@ -350,7 +351,7 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * method:MTH_PolynomialTransformations
@@ -378,7 +379,7 @@ $(x+1)(x+2)(x+3)$ dalās ar $343$?
 
 * topic:MultiplesInInterval
 * topic:FactorizationAndDivisibility
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * subdomain:DOM_PrimeFactors,Divisibility
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, PositiveIntegers, CountingProductRule
@@ -412,7 +413,7 @@ rūtiņām nebūtu nokrāsotas visas malas?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * subdomain:DOM_ObjectSystemsGeometry,IntegerLattices
 * method:MTH_MeanValuePrinciple
@@ -486,7 +487,7 @@ $2$ un $3$.)
 * topic:StandardIdentities
 * topic:PrimesDistribution
 * topic:TelescopicSums
-* questionType:ProveDisprove,FindCount
+* questionType:QTY_Decide,QTY_FindValue
 * domain:NT
 * subdomain:DOM_PrimeFactors
 * method:MTH_PolynomialTransformations
@@ -519,7 +520,7 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC > AB$.
 <small>
 
 * topic:TriangleInequality
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, Angle, TriangleInequality, CaseAnalysis
@@ -566,7 +567,7 @@ starpība dalās ar $9$.
 * topic:DivisibilityRulesForRemainders
 * topic:DivisibilityRulesFor3And9
 * topic:NotationManipulate
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * method:MTH_FixedInvariant
@@ -600,7 +601,7 @@ ir identitāte?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * subdomain:DOM_Equations
 * _hasSolutionConcept: VariableExpression, PolynomialAndRoots, LinearFunction, PositiveAndNegative, ExistenceVsUniversal
@@ -626,7 +627,7 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_ExtremeConstructions
@@ -656,7 +657,8 @@ Atrodiet kaut vienu kvadrātvienādojumu ar veseliem koeficientiem, kam viena no
 
 <small>
 
-* questionType:FindExample,FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: QuadraticEquation, WholeIntegers, SquareOfSumIdentity, IrrationalAndReals, PolynomialAndRoots
 * _readingDifficulty: low
@@ -798,7 +800,7 @@ y^2 + x & = t^2
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PerfectSquares, PositiveIntegers, EquationSystem, TotalOrder
 * _readingDifficulty: low
@@ -818,13 +820,13 @@ naturāla skaitļa kvadrāts. Tāpēc sistēmai atrisinājuma naturālos skaitļ
 
 # <lo-sample/> LV.NOL.2010.10.1
 
-(A) dots, ka $x+y=n$. Pierādīt, ka $x^{2}+y^{2} \geq \frac{n^{2}}{2}$.
-
-(B) dots, ka $x+y+z=n$. Pierādīt, ka $x^{2}+y^{2}+z^{2} \geq \frac{n^{2}}{3}$.
+**(A)** Dots, ka $x+y=n$. Pierādīt, ka $x^{2}+y^{2} \geq \frac{n^{2}}{2}$.  
+**(B)** Dots, ka $x+y+z=n$. Pierādīt, ka $x^{2}+y^{2}+z^{2} \geq \frac{n^{2}}{3}$.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -852,7 +854,7 @@ $a \cdot b$?
 * topic:AdvancedIdentities
 * topic:DivisibilityProperties
 * topic:DivisibilityProperties
-* questionType:Prove,ProveDisprove
+* questionType:QTY_Prove,QTY_Decide
 * domain:NT
 
 </small>
@@ -928,7 +930,7 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}=y!+2$.
 * topic:ValuationProperties
 * topic:ValuationProperties
 * topic:ModularArithmeticContradiction
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1011,7 +1013,9 @@ ir vesels skaitlis.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
 * domain:
 
 </small>
@@ -1041,7 +1045,7 @@ Atrisināt veselos skaitļos vienādojumu $\frac{x^{2}}{2}+\frac{5}{y}=7$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1147,7 +1151,7 @@ tiek sasniegta?
 
 <small>
 
-* questionType:FindOptimal,FindAll
+* questionType:QTY_FindOptimal,QTY_FindAll
 * domain:NT
 
 </small>
@@ -1248,12 +1252,13 @@ izvēlēties $2$ monētas un tās pārbīdīt: vienu uz blakus virsotni pulkste�
 kustības virzienā, otru uz blakus virsotni pretēji pulksteņa rādītāja kustības
 virzienam. Vai, atkārtojot šādus gājienus, var savākt visas monētas
 
-(A) $4$ kaudzēs pa $5$ monētām katrā,
-(B) $5$ kaudzēs pa $4$ monētām katrā?
+**(A)** $4$ kaudzēs pa $5$ monētām katrā,  
+**(B)** $5$ kaudzēs pa $4$ monētām katrā?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>

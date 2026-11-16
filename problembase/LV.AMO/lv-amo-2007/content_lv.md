@@ -77,7 +77,7 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _hasSolutionConcept: GraphConcept, DirectedGraph, OptimumProofStructure
 * _readingDifficulty: high
@@ -215,7 +215,8 @@ divos gadījumos:
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, RationalNumbers, PositiveAndNegative, FiniteSet
 * _readingDifficulty: medium
@@ -248,7 +249,9 @@ būtu vienādi, ja sākotnējais izvietojums ir tāds, kāds parādīts 1.zīm. 
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
 * domain:Alg
 * _hasSolutionConcept: Invariant, EvenOddParity, ChessboardColoring, LatticeGrid
 * _readingDifficulty: high
@@ -374,7 +377,7 @@ pierakstu?
 * topic:HamiltonCircuits
 * topic:PrimesDistribution
 * concepts:primes
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * seeAlso:LV.AMO.2008.7.2
 * domain:Comb
 * _hasSolutionConcept: PrimeNumbers, DigitRepresentation, GraphConcept, WalkPathCycle
@@ -452,7 +455,7 @@ spēlēts pietiekoši ilgi).
 * topic:InfiniteDescent
 * concepts:decimal-notation,divisibility,sum-of-digits
 * subdomain:DOM_NumericGamesAndAlgorithms
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitSum, Invariant, GamePosition
 * _readingDifficulty: high
@@ -578,7 +581,8 @@ Aprēķināt **(A)** $\sphericalangle MCB$, **(B)** $\sphericalangle MBC$.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Triangle, Angle, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: medium
@@ -625,7 +629,7 @@ $1716$. Kādu skaitli viņa iedomājās sākumā?
 * topic:NumTheoryInequalityMethod
 * concepts:decimal-notation
 * subdomain:DOM_DigitManipulation
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: DigitProduct, DivisibilityRelation, PrimeNumbers, DigitRepresentation
 * _readingDifficulty: medium
@@ -743,7 +747,7 @@ gadīties, ka tieši $19$ no šiem skaitļiem (ne vairāk un ne mazāk) dalās a
 <small>
 
 * concepts:divisibility
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DigitSum, DivisibilityRules, ProofByContradiction
 * _readingDifficulty: medium
@@ -818,7 +822,8 @@ $$(f(x))^{2}+(g(x))^{2}=\left(x^{2}+1\right)\left(x^{2}+4\right)\left(x^{2}+2x+2
 <small>
 
 * concepts:sum,square-Alg,equation
-* questionType:Prove,FindExample
+* questionType:A: QTY_Prove
+* questionType:B: QTY_ConstructExample
 * domain:NT,Alg
 * _hasSolutionConcept: PerfectSquares, PolynomialAndRoots, SquareOfSumIdentity, VariableExpression
 * _readingDifficulty: medium
@@ -847,7 +852,8 @@ ja **(A)** $n=8$, **(B)** $n=9$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: GraphConcept, VertexDegree, ParityInvariant, WalkPathCycle
 * _readingDifficulty: high
@@ -920,7 +926,7 @@ $1\ 000\ 001$?
 
 * seeAlso:LV.AMO.2008.10.1
 * concepts:divisibility
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -945,7 +951,8 @@ $\frac{1}{x}+\frac{1}{y}+\frac{1}{z}+\frac{1}{t} \leq 4$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1042,7 +1049,9 @@ divas nav paralēlas savā starpā.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
 * domain:
 
 </small>
@@ -1074,7 +1083,8 @@ Punkts $P$ atrodas regulāra trijstūra $ABC$ iekšpusē. Pierādīt, ka:
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1187,7 +1197,8 @@ Cik darbinieku strādā firmā?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1228,7 +1239,9 @@ Vai var nokrāsot melnu visu kvadrātu, ja
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
 * domain:
 
 </small>
@@ -1290,7 +1303,8 @@ laukumu.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1349,7 +1363,8 @@ vērtībai.)
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1388,7 +1403,7 @@ vietās.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_InductionWithCombinedStep
 

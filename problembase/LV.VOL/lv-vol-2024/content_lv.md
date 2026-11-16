@@ -6,7 +6,8 @@ lielāks nekā visu šo skaitļu lielākais kopīgais dalītājs?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Alg
 * method:MTH_ExtremeElements
 * _subdomain: DOM_Divisibility
@@ -37,7 +38,7 @@ $BOF$ laukums ir $4$, bet trijstūra $AOD$ laukums ir $63$. Aprēķināt četrst
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_Area
 
@@ -71,7 +72,7 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_ContradictionForExistence
 * _subdomain: DOM_Graphs
@@ -112,7 +113,7 @@ ka pēc $12$ gājieniem iegūtās izteiksmes vērtība dalās ar $9$.
 
 <small>
 
-* questionType:Algorithm
+* questionType:QTY_ConstructProcedure
 * domain:NT
 * _subdomain: DOM_NumeralSystems
 
@@ -146,7 +147,7 @@ var izdarīt?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumericConstructions
 
@@ -181,7 +182,8 @@ dalītāju?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:NT
 * _subdomain: DOM_NumericSets
 
@@ -206,7 +208,7 @@ $\sphericalangle EAF = \sphericalangle EDF$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_AnglesParallelsSimilarity
 
@@ -277,7 +279,7 @@ z + \frac{1}{z} = 2x^2 \\
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * _subdomain: DOM_EquationSystems
@@ -372,7 +374,7 @@ kopā piedalījās šajā olimpiādē?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Alg
 * _subdomain: DOM_WordProblems
 
@@ -436,7 +438,7 @@ iekrāsot visas tabulas rūtiņas?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _subdomain: DOM_CombinatorialStructures, DOM_MakingMoves
 
@@ -486,7 +488,7 @@ $$4a + 4b^2 + \sqrt{4a - 4b^2 - 1} \leq 1.$$
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_Inequalities
 
@@ -541,7 +543,7 @@ Aprēķināt četrstūra $OECG$ laukumu!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AlgebraicModel
 * _subdomain: DOM_Area
@@ -593,7 +595,7 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 <small>
 
 * seeAlso:LV.VOL.2024.9.3
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * _subdomain: DOM_Graphs
 
@@ -630,7 +632,7 @@ skaitļu summu?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * method:MTH_ExtremeElements
 * _subdomain: DOM_NumericSets
@@ -688,7 +690,7 @@ saskaitītas. Pierādīt, ka spēlētājs $B$ var panākt, lai iegūtā summa b�
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * subdomain:DOM_FixedInvariant
 * _subdomain: DOM_CombinatorialGames
@@ -725,7 +727,7 @@ z + \frac{1}{z} = x+y\\
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_EquationSystems
 
@@ -758,7 +760,7 @@ Pierādīt, ka $AT$ ir leņķa $BAC$ bisektrise!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Triangles
 
@@ -794,7 +796,8 @@ uzvarēs pareizi spēlējot, ja papildus zināms, ka katrs no viņiem var apēst
 
 <small>
 
-* questionType:Algorithm,Algorithm
+* questionType:A: QTY_ConstructProcedure
+* questionType:B: QTY_ConstructProcedure
 * domain:Comb
 * subdomain:DOM_FixedInvariant
 * _subdomain: DOM_CombinatorialGames
@@ -862,7 +865,7 @@ ka skaitlis $C-1$ ir pirmskaitlis?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
 
@@ -902,7 +905,7 @@ $3x^2 + y^2 + 1 \geq A(x^2 + xy + x)$ visiem reāliem skaitļiem $x$ un $y$.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_Extremes, DOM_Inequalities
 

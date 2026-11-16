@@ -5,7 +5,7 @@ $\frac{2015}{n^{4}-m^{4}}$ arī ir naturāls skaitlis!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
 
@@ -61,7 +61,8 @@ pārklāties.
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CuttingCoversColoring
 
@@ -105,7 +106,7 @@ atšķirīgi no $100$).
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Alg
 * _subdomain: DOM_IntegerSequences
 
@@ -170,7 +171,7 @@ Pierādīt, ka $AB>BC$ !
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Triangles
 
@@ -203,7 +204,7 @@ ja $a$ ir reāls skaitlis?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_Extremes
 
@@ -247,7 +248,7 @@ $a^{4}b+ab^{4}+3a^{3}b^{2}+3a^{2}b^{3}$ vērtība ir vesels skaitlis!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_AlgebraicOperations
 
@@ -279,7 +280,7 @@ Pierādīt, ka katram naturālam $n$ izteiksme $3n^{5}+5n^{4}-8n$ dalās ar $10$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * topic:DivisibilityProperties
 * topic:ModularParity
@@ -381,7 +382,7 @@ $(a+d)^{2}+(b+e)^{2} \leq(c+f)^{2}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_ProvingInequalities
 
@@ -424,7 +425,7 @@ rādiuss!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Polygons
 
@@ -481,7 +482,8 @@ apmest otrādi. Taisnstūrī nedrīkst būt caurumi, un figūras nedrīkst pārk
 
 <small>
 
-* questionType:Prove,ProveDisprove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Decide
 * domain:Geom
 * _subdomain: DOM_CuttingCoversColoring
 
@@ -535,7 +537,7 @@ vesels skaitlis!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_AlgebraicOperations
 
@@ -569,7 +571,7 @@ un kura malas iet pa rūtiņu līnijām?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * _subdomain: DOM_IntegerLattices
 
@@ -601,7 +603,7 @@ pietiek, lai panāktu, ka visi papagaiļi atrodas savos sākotnējos krātiņos?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _subdomain: DOM_MakingMoves
 
@@ -651,7 +653,7 @@ iespējamo $b$ vērtību!
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_Divisibility
 
@@ -677,7 +679,7 @@ līnijas rādiuss!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Polygons
 
@@ -741,7 +743,7 @@ $\frac{\sin 3x}{\sin x}$ vērtību!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_AlgebraicOperations
 
@@ -780,7 +782,7 @@ $\sphericalangle PBC=\sphericalangle PDC$!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_AnglesParallelsSimilarity
 
@@ -812,7 +814,7 @@ $2269^{n}+2151^{n}+1389^{n}-1779^{n}$ dalās ar $2015$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Congruences
 
@@ -879,7 +881,7 @@ kādām naturālām $d$ vērtībām šāds krāsojums ir iespējams!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_NumericSets
 
@@ -913,7 +915,8 @@ Vai votivapu valodā ir vārdi **(A)** $abbababab$; **(B)** $baabaabaa$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_MakingMoves
 

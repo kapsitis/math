@@ -10,7 +10,7 @@ Parādīt, kā no skaitļa $5$ var iegūt skaitli $21$, vairakkārt pielietojot 
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, StateSpaceProcess, PositiveIntegers
 * _readingDifficulty: low
@@ -33,7 +33,7 @@ Cik rūtiņas liels ir kvadrāta $ABCD$ laukums (skat. 1.zīm.)?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, Triangle, LatticeGrid
 * _readingDifficulty: low
@@ -61,7 +61,7 @@ cipariem $1,\ 2,\ 3,\ 4,\ 5,\ 7,\ 8$ izmantots tieši vienu reizi.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRelation, MultiplesSet
 * _readingDifficulty: low
@@ -96,7 +96,8 @@ uzziedētu atšķirīgas krāsas tulpes un lai katrā rindā jebkuras trīs pēc
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: Coloring, LatticeGrid, EvenOddParity, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -136,7 +137,8 @@ $2$: $11,\ 12,\ 22,\ 21$.)
 
 <small>
 
-* questionType:FindExample,ProveDisprove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement, ExhaustiveCheck, WalkPathCycle, EulerPath
 * _readingDifficulty: medium
@@ -160,7 +162,7 @@ summa dalās ar $5$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DigitSum, DivisibilityRelation, DigitRepresentation
 * _readingDifficulty: low
@@ -184,7 +186,7 @@ skaitlis $53421$?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, TotalOrder, CountingProductRule, FiniteSequenceArrangement
 * _readingDifficulty: low
@@ -214,7 +216,8 @@ un riņķa līniju, kas krusto uzzīmētā daudzstūra katru malu tieši vienā 
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: Polygon, CircleAndDisk, EvenOddParity, CaseAnalysis
 * _readingDifficulty: low
@@ -248,7 +251,7 @@ jebkuru divu blakus stāvošu skaitļu summa būtu pirmskaitlis?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: EvenOddParity, PrimeNumbers, Polygon, Invariant
 * _readingDifficulty: low
@@ -280,7 +283,7 @@ var uzdot tieši vienu jautājumu, uz kuru viņš var atbildēt tikai ar "jā" v
 
 <small>
 
-* questionType:Algorithm
+* questionType:QTY_ConstructProcedure
 * domain:Comb
 * _hasSolutionConcept: DecisionTree, ExhaustiveCheck, TotalOrder
 * _readingDifficulty: medium
@@ -331,7 +334,7 @@ vairākas reizes jebkādā secībā?
 <small>
 
 * topic:GraphAlgorithms
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, StateSpaceProcess, GraphConcept, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -359,7 +362,7 @@ starp kuriem ir astoņstūris.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: Polygon, PointLineSegmentRay, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -384,7 +387,7 @@ skaitļu reizinājumus. Cik no šiem septiņiem reizinājumiem ir pozitīvi?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _hasSolutionConcept: PositiveAndNegative, FiniteSequenceArrangement, CircleAndDisk, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: medium
@@ -421,7 +424,7 @@ Pierādīt, ka $1004041$ nav pirmskaitlis.
 <small>
 
 * topic:DivisibilityRulesOther
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DivisibilityRules, DigitRepresentation
 * _readingDifficulty: low
@@ -460,7 +463,7 @@ ar malas garumu $2$ un kuros ierakstīto skaitļu summa ir vismaz $18$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: Triangle, DissectionIntoCongruent, FiniteSet, PigeonholePrinciple
 * _readingDifficulty: low
@@ -488,7 +491,7 @@ reizinātājiem ir lielāks nekā $1$.
 <small>
 
 * topic:StandardIdentities
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DiffOfSquaresFactoring, WholeIntegers
 * _readingDifficulty: low
@@ -514,7 +517,7 @@ Pierādīt, ka punkts $F$ ir malas $BC$ viduspunkts.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, PointLineSegmentRay
 * _readingDifficulty: low
@@ -542,7 +545,7 @@ vieni.)
 
 * topic:DivisibilityRuleFor11
 * topic:EuclideanLemma
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitProduct, DigitRepresentation
 * _readingDifficulty: low
@@ -566,7 +569,7 @@ uzzīmētie punkti atrastos tieši $1~\mathrm{cm}$ attālumā.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, CoordinatePlane, GraphConcept, VertexDegree
 * _readingDifficulty: low
@@ -596,7 +599,7 @@ uzskatāmi par vienādiem.)
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, Rotation, AxialSymmetry
 * _readingDifficulty: medium
@@ -623,7 +626,7 @@ $a+b=2012$. Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, IrrationalAndReals, CoordinatePlane
 * _readingDifficulty: low
@@ -647,7 +650,7 @@ izvēles.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, PointLineSegmentRay
 * _readingDifficulty: low
@@ -675,7 +678,7 @@ katrā grupā būtu tieši $5$, $6$ vai $7$ cilvēki?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: NumberPartitions, DivisionWithRemainder, ExhaustiveCheck, PositiveIntegers
 * _readingDifficulty: low
@@ -715,7 +718,8 @@ divu iepriekšējo locekļu kvadrātu summas pēdējo ciparu.
 
 <small>
 
-* questionType:ProveDisprove,FindAll
+* questionType:A: QTY_Decide
+* questionType:B: QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: RecurrentSequence, PeriodicSequence, EvenOddParity, LastDigit
 * _readingDifficulty: low
@@ -751,7 +755,7 @@ ka šo skaitļu summa dalās ar $n$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: CoprimeIntegers, DivisibilityRelation, PositiveIntegers, EvenOddParity
 * _readingDifficulty: low
@@ -781,7 +785,8 @@ $n$.
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:Alg
 
 </small>
@@ -809,7 +814,7 @@ taisnleņķa trijstūris.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -838,7 +843,7 @@ pirmskaitli $p$, ka tieši viens no dotajiem skaitļiem dalās ar $p$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * topic:ArithmeticSeriesGaps
 * subdomain:DOM_IntegerConditions
@@ -867,7 +872,7 @@ uzrakstīti viens aiz otra. Cik cipari uzrakstīti?
 <small>
 
 * topic:DigitsInOperationResult
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * seeAlso:LV.NOL.2013.10.4
 
@@ -900,7 +905,7 @@ attiecībā pret galveno diagonāli, skat. 1.zīm. iekrāsoto diagonāli).
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 
 </small>
@@ -927,7 +932,7 @@ simetrisku $8$-ciparu skaitli?
 <small>
 
 * concepts:palindrome
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -953,7 +958,7 @@ $$\left\{\begin{array}{l}
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1002,7 +1007,7 @@ summa?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 
 </small>
@@ -1030,7 +1035,7 @@ pakāpe jebkuram naturālam $k \geq 2$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 
 </small>
@@ -1057,7 +1062,7 @@ svēršanām atrast **vismaz** vienu monētu, kas sver $7$ gramus?
 
 <small>
 
-* questionType:Algorithm
+* questionType:QTY_ConstructProcedure
 * domain:Comb
 * seeAlso: LV.NOL.2013.11.3
 * seeAlso: LV.NOL.2019.10.2
@@ -1089,7 +1094,7 @@ $a>-\frac{1}{2}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1108,7 +1113,7 @@ skaldnei ir nepāra skaits virsotņu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1129,7 +1134,7 @@ $MN$ krustojas punktā $X$. Pierādīt, ka $\triangle NBX \sim \triangle PBC$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1158,7 +1163,7 @@ Kādiem pirmskaitļiem $p$ skaitlim $p^{2}+23$ ir tieši četri naturāli dalīt
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1193,7 +1198,7 @@ $A_{l}$, $E$ būtu starp $A_{l}$ un $A_{i}$. Kādām $i, j, k, l$ vērtībām pu
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 
 </small>

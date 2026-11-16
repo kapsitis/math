@@ -9,7 +9,7 @@ Pierādīt, ka $n_1 = n_2 = \cdots = n_k = 1$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.OTHER.TST.1991.12.5
 

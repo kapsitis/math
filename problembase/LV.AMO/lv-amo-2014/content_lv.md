@@ -12,7 +12,9 @@ dzeltenas, bet pārējās- zilas. Aprēķini:
 <small>
 
 * topic:AlgebraicEquations
-* questionType:FindAll,FindAll,FindAll
+* questionType:A: QTY_FindAll
+* questionType:B: QTY_FindAll
+* questionType:C: QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, FiniteSet, Coloring, DirectProportion
 * _readingDifficulty: low
@@ -42,7 +44,7 @@ gadīties, ka viens skaitlis ir tieši trīs reizes lielāks nekā otrs skaitlis
 <small>
 
 * topic:IntegerCongruence
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit
 * _readingDifficulty: low
@@ -74,7 +76,7 @@ nekā otra mala.
 <small>
 
 * topic:Rectangles
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * concepts:rectangle,area,perimeter
 * _hasSolutionConcept: Rectangle, PositiveIntegers, LinearEquation, EquationSystem
@@ -119,7 +121,7 @@ būt pagrieztas jebkurā stāvoklī)?
 <small>
 
 * topic:SquareGridCutting
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure
@@ -147,7 +149,8 @@ trīs, gan kā divu dažādu divciparu naturālu skaitļu reizinājumu?
 <small>
 
 * topic:NumTheoryInequalityLargeIntervals
-* questionType:FindOptimal,FindOptimal
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_FindOptimal
 * domain:NT
 * concepts:product
 * _hasSolutionConcept: DivisibilityRelation, PositiveIntegers, ExhaustiveCheck, OptimumProofStructure
@@ -184,7 +187,7 @@ pašai palika $1$ metrs makšķerauklas. Cik gara bija makšķeraukla pašā sā
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearEquation
 * _readingDifficulty: low
@@ -212,7 +215,7 @@ reizinājumi abās grupās ir vienādi?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PrimeFactorization, SetPartition
 * _readingDifficulty: medium
@@ -243,7 +246,7 @@ Atbildi pamatot!
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: VariableExpression, LinearEquation, LinearInequality
 * _readingDifficulty: medium
@@ -275,7 +278,7 @@ Aprēķināt iekšējā taisnstūra perimetru!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, Polygon, QuadrilateralFamilies, Invariant
 * _readingDifficulty: medium
@@ -308,7 +311,7 @@ iespējamais!
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, OptimumProofStructure, CaseAnalysis
 * _readingDifficulty: medium
@@ -336,7 +339,7 @@ garums, ja $ED=4~\mathrm{cm}$ un $DC=5~\mathrm{cm}$ ?
 <small>
 
 * concepts:triangle,height,median
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_ExhaustiveAlgorithms
 * subdomain:DOM_Triangles
@@ -384,7 +387,7 @@ $$a \cdot(3a+5b) \cdot 7b=7654321$$?
 <small>
 
 * topic:ModularParity
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * subdomain:DOM_Divisibility
 * method:MTH_ContradictionForExistence
@@ -430,7 +433,9 @@ Visām skrūvēm svars ir vienāds, visām naglām arī.
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
+* questionType:C: QTY_Decide
 * domain:Alg
 * subdomain:DOM_Inequalities
 * topic:InequalitiesEquivalentTransformations
@@ -486,7 +491,7 @@ Atrodiet visas iespējamās vērtības un pamatojiet, ka citu nav!
 <small>
 
 * topic:NumTheoryExprVariables
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
 * topic:FormingEquations
@@ -526,7 +531,7 @@ līnijām.)
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
 * method:MTH_PigeonholePrincipleGeneralized
@@ -562,7 +567,7 @@ Kurš skaitlis lielāks -- sākotnējais vai iegūtais?
 
 * topic:PeriodicRemainders
 * topic:NumericAlgorithms
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * concepts:decimal-fractions
 * subdomain:DOM_DigitManipulation
@@ -613,7 +618,7 @@ to pirmo ciparu, samazinās $15$ reizes!
 * topic:NumTheoryExpr
 * topic:NotationFragments
 * topic:FormingEquations
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_SpecialNumbers
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, DivisibilityRelation, PrimeNumbers
@@ -655,7 +660,7 @@ ka, izvēloties jebkurus $5$ punktus, tie būs savienoti ar vismaz $3$ šķautn�
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * subdomain:DOM_Graphs
 * topic:Subgraphs
@@ -698,7 +703,7 @@ $\sphericalangle ABC$ un $\sphericalangle CDE$ ir lielāks?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
 * topics:SimilarShapes
@@ -745,7 +750,8 @@ ierakstīts skaitlis **(A)** $7$, **(B)** $17$?
 * topic:NumTheoryExprVariables
 * topic:TreeTraversalBacktracking
 * topic:FormingEquations
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: MagicConfiguration, PositiveIntegers, EquationSystem, ProofByContradiction
@@ -796,7 +802,7 @@ kvadrāts (skat. 10.zīm.). Aprēķināt iekrāsoto daļu laukumu summu!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_Area
 * topic:RotationByAnyAngle
@@ -836,7 +842,7 @@ var izveidot no šiem cipariem, summa ir $1276$. Atrast dotos četrus ciparus!
 <small>
 
 * concepts:sum
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_NumericSets
 * topic:StandardCombinatorialNumbers
@@ -872,7 +878,7 @@ Zināms, ka $AC \| PQ$. Aprēķināt $\sphericalangle BAC$ vērtību!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, Angle, CircleAndDisk, ParallelPerpendicular
 * _readingDifficulty: medium
@@ -917,7 +923,7 @@ mazākais skaitlis, kas var būt ierakstīts tabulas centrālajā rūtiņā?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
 * topic:FormingEquations
@@ -969,7 +975,7 @@ marsiešiem var būt $2014$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * subdomain:DOM_Graphs
 * topic:DoubleCounting
@@ -1004,7 +1010,7 @@ vai dilstoša!
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 
 </small>
@@ -1038,7 +1044,7 @@ ir kopīgs tikai galapunkts, tie nekrustojas.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom,Comb
 
 </small>
@@ -1063,7 +1069,7 @@ funkciju grafikiem ir kopīgs punkts!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1090,7 +1096,7 @@ aprēķināja to summu. Kāds lielākais skaits no šīm summām var būt pirmsk
 * topic:BipartiteGraphs
 * topic:ModularArithmetic
 * topic:TreeTraversalBacktracking
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * concepts:sum,primes
 
@@ -1167,7 +1173,7 @@ $\sphericalangle PAB=\sphericalangle PCB$. Pierādīt, ka $ABCD$ ir kvadrāts!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1233,7 +1239,8 @@ viena virsotne ir sarkana, vai to, kam visas virsotnes ir baltas?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 
 </small>
@@ -1257,7 +1264,7 @@ $a_{1}=1000$.
 <small>
 
 * concepts:sequence
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * method:MTH_InductionWithStepOne
 
@@ -1312,7 +1319,7 @@ ievilktās riņķa līnijas centrs ir punktā $O$. Pierādīt, ka $OK \| AC$ !
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1343,7 +1350,7 @@ skaitļa kvadrāts!
 <small>
 
 * concepts:product,square-Alg
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1369,7 +1376,7 @@ Pierādīt, ka izliektu $2014$-stūri nevar sadalīt $167$ izliektos $14$-stūro
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1389,7 +1396,7 @@ Atrisināt nevienādību $9^{x}-2 \cdot 3^{x}-3 \leq 0$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1423,7 +1430,7 @@ apvilkto riņķka līiju krustpunktu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1455,7 +1462,7 @@ Atrast visus pirmskaiţuus $p$, kuriem $p^{4}-6$ arī ir pirmskaitlis!
 
 
 * concepts:primes
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1504,7 +1511,7 @@ drīkst pārklāties, kā arī iziet ārpus dotā kvadrāta malām.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 
 </small>
@@ -1534,7 +1541,7 @@ $$3f(a) \leq f(b)+f(c)+f(3a-b-c)?$$
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 
 </small>

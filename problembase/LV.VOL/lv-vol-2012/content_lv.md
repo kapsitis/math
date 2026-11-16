@@ -8,7 +8,8 @@ skaitlis $20112012$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_IntegerEquations
 
@@ -31,7 +32,7 @@ $4~\mathrm{cm}$, $7~\mathrm{cm}$ un $10~\mathrm{cm}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_MetricRelations
 
@@ -56,7 +57,7 @@ $q_{1} \leq q_{2} \leq q_{3} \leq 0$. Kādas ir iespējamās $q_{2}$ vērtības?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_ParametrizedEquations
 
@@ -82,7 +83,7 @@ $AB^{2}-BE^{2}+EC^{2}=AC^{2}$. Pierādīt, ka $AE \perp BC$!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_AnglesParallelsSimilarity
 
@@ -121,7 +122,7 @@ figūras? Griezuma līnijām jāiet pa rūtiņu malām.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
 
@@ -153,7 +154,7 @@ ir atrisinājums reālos skaitļos?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_ParametrizedEquations, DOM_EquationSystems
 
@@ -181,7 +182,7 @@ Pierādīt, ka $S_{A_{1}B_{1}C_{1}}+S_{A_{2}B_{2}C_{2}}>S_{ABC}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_InequalitiesGeometry
 
@@ -217,7 +218,7 @@ ka skaitļa $N^{2}$ decimālajā pierakstā nav cipara $0$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * topic:SeriesMembersSumsClosedFormulas
 * topic:PeriodicDigitGroups
@@ -267,7 +268,7 @@ kauliņi $B$ un $C$ būtu samainīušies vietām?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _subdomain: DOM_MakingMoves
 
@@ -295,7 +296,8 @@ rūtiņas, skat. 4.zīm.)
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_CombinatorialGames
 
@@ -326,7 +328,7 @@ $n^{4}+a$ ir salikts skaitlis visiem naturāliem skaitļiem $n>1$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumericConstructions
 
@@ -349,7 +351,7 @@ rūtiņas tabulā var būt iekrāsotas?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _subdomain: DOM_MagicConfigurations
 
@@ -413,7 +415,7 @@ Kāda ir maksimālā šo daļu laukumu attiecība?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * _subdomain: DOM_MaxMinGeometry
 
@@ -458,7 +460,7 @@ spēkā sakarība $a_{n}-\sqrt{a_{n+1}}=2$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_IntegerSequences
 
@@ -500,7 +502,7 @@ Kurš no zēniem uzvarēs, pareizi spēlējot?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * _subdomain: DOM_CombinatorialGames
 
@@ -531,7 +533,7 @@ Atrast vienu šādu virkņu piemēru.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _subdomain: DOM_IntegerSequences
 
@@ -552,7 +554,7 @@ centrs atrodas uz trijstūrim $ABC$ apvilktās riņķa līnijas.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
 
@@ -595,7 +597,7 @@ $\lfloor 0.2 \rfloor =0$ utml.)
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
 
@@ -627,7 +629,8 @@ Rūtiņas sauc par kaimiņu rūtiņām, ja tām ir kopīga mala.
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 * _subdomain: DOM_MagicConfigurations
 
@@ -667,7 +670,7 @@ uzzīmētos riņķus.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CuttingCoversColoring
 

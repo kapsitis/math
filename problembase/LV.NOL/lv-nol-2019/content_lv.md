@@ -304,7 +304,8 @@ pagrieztas vai apgrieztas spoguļattēlā.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Tiling, Coloring, EvenOddParity, Invariant, Rotation, AxialSymmetry
 * _readingDifficulty: medium
@@ -453,7 +454,7 @@ vai smagāka nekā pārējās? (Pašu monētu atrast nav nepieciešams.)
 
 <small>
 
-* questionType:Algorithm
+* questionType:QTY_ConstructProcedure
 * domain:Comb
 * seeAlso:LV.SOL.2020.9.3
 * seeAlso:LV.NOL.2016.7.4
@@ -560,7 +561,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b)=150015$ ?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * subdomain:DOM_IntegerEquations
 * domain:NT
 * _hasSolutionConcept: EvenOddParity, WholeIntegers, CaseAnalysis
@@ -594,7 +595,7 @@ uzvarēt?
 
 * subdomain:DOM_NumericGamesAndAlgorithms
 * concepts:divisibility
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, MultiplesSet, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -765,7 +766,7 @@ $\frac{4}{3},\ \frac{4}{5},\ \frac{5}{2}$?
 
 * seeAlso:LV.NOL.2000.7.5
 * subdomain:DOM_MakingMoves
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: Invariant, RationalNumbers, StateSpaceProcess
 * _readingDifficulty: medium
@@ -798,7 +799,7 @@ izveidotais trīsciparu skaitlis $\overline{yxy}$ ?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * concepts:divisibility
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, DigitSum, DivisibilityRelation, ExhaustiveCheck
@@ -1076,7 +1077,7 @@ iegūtu skaitli, kas dalās ar $2019$?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * concepts:divisibility
 * subdomain:DOM_DigitManipulation
 * domain:NT
@@ -1316,7 +1317,7 @@ Atrast visus pirmskaitļu pārus $(m, n)$, kuriem $20m+18n=2018$.
 * topic:DivisibilityRulesFor2And4
 * topic:CanonicalFactorization
 * concepts:primes
-* questionType:FindAll
+* questionType:QTY_FindAll
 * subdomain:DOM_IntegerEquations
 
 </small>
@@ -1548,7 +1549,7 @@ Atrast visus pirmskaitļu pārus $(m, n)$, kuriem $20m+19n=2019$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * concepts:linear-expression,primes
 * subdomain:DOM_IntegerEquations
@@ -1813,7 +1814,7 @@ naturālos skaitļos!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * subdomain:DOM_IntegerEquations
 

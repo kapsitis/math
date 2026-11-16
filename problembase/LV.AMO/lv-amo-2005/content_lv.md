@@ -82,7 +82,8 @@ rindiņā - nepāra skaits zvaigznīšu?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:Comb
 * _hasSolutionConcept: FiniteSet, EvenOddParity, ParityInvariant, ProofByContradiction
 * _readingDifficulty: medium
@@ -220,7 +221,7 @@ svēršanām var noteikt katra atsvara masu?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: DecisionTree, EvenOddParity, CaseAnalysis
 * _readingDifficulty: medium
@@ -428,7 +429,7 @@ var beigties šo skaitļu reizinājums?
 * topic:DivisibilityRulesLastDigits
 * topic:ModularArithmetic
 * concepts:decimal-notation
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * seeAlso:LT.VILNIUS.2008.12.1
 * _hasSolutionConcept: PrimeFactorization, DivisibilityRelation, OptimumProofStructure
@@ -575,7 +576,7 @@ reizinājumu?
 * topic:TreeTraversalBacktracking
 * concepts:partition
 * subdomain:DOM_NumericSets
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * method:MTH_ExhaustiveAlgorithms
 * _hasSolutionConcept: PositiveIntegers, EquationSystem, CaseAnalysis, SetPartition
@@ -642,7 +643,8 @@ Aprēķināt
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Triangle, TriangleAngleSum, TriangleSpecialLines, TriangleCongruence
 * _readingDifficulty: low
@@ -724,7 +726,7 @@ neizmanto nevienu no cipariem $3;\ 4;\ 5;\ 6;\ 7;\ 8;\ 9$.
 <small>
 
 * concepts:divisibility,decimal-notation
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, DigitRepresentation, DigitSum, OptimumProofStructure
 * _readingDifficulty: medium
@@ -921,7 +923,8 @@ Vai noteikti $x+\frac{9}{x}>y+\frac{9}{y}$, ja
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -970,7 +973,7 @@ pirmskaitļi?
 <small>
 
 * concepts:primes
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -998,7 +1001,8 @@ visi skaitļi $|f(x)-x|,\ x=1;\ 2;\ \ldots;\ n$, ir dažādi, ja
 <small>
 
 * concepts:function
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1173,7 +1177,7 @@ $\sqrt{d}-\sqrt{a} \leq 1$. Pierādīt, ka $a$ ir vesela skaitļa kvadrāts.
 <small>
 
 * concepts:square-Alg
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1257,7 +1261,7 @@ dalītāju, kas dod atlikumu $2$, dalot ar $3$?
 
 * seeAlso:LV.AMO.2003.12.2
 * concepts:divisibility,remainder
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1399,7 +1403,7 @@ Kurš spēlētājs uzvar, pareizi spēlējot?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>

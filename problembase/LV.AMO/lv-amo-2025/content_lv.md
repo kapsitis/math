@@ -424,7 +424,7 @@ Parādi, kā skaitli $2025$ var izteikt ar $9$ vieniniekiem, pēc vajadzības li
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, ArithmeticOperations
 * _readingDifficulty: low
@@ -448,7 +448,7 @@ Uz vienādsānu trijstūra $ABC$ sānu malām $AB$ un $BC$ izvēlēti attiecīgi
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleCongruence, ParallelPerpendicular, TriangleAngleSum
 * _readingDifficulty: medium
@@ -478,7 +478,7 @@ Bezgalīgā naturālu skaitļu virknē katru locekli, sākot no otrā, iegūst, 
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: NumberSequence, ParityInvariant, DigitRepresentation
 * _readingDifficulty: medium
@@ -495,7 +495,7 @@ Ilmārs grib uznest augšā uz dzīvokli $150$ kg ķirbju. Zināms, ka katrs ķi
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _hasSolutionConcept: OptimumProofStructure, PositiveIntegers, LinearInequality, CaseAnalysis
 * _readingDifficulty: medium
@@ -518,7 +518,7 @@ LAPSA un SPALS ir divi piecciparu skaitļi, kuros cipari aizstāti ar burtiem, v
 
 <small>
 
-* questionType:Prove,FindAll
+* questionType:QTY_Prove,QTY_FindAll
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRules, DivisibilityRelation
 * _readingDifficulty: medium
@@ -969,7 +969,8 @@ himnu, ja tajā ir **(A)** $20$ **(B)** $21$ pantiņi?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1110,7 +1111,8 @@ kas kopā var nodziedāt šillišallu himnu, ja tajā ir **(A)** $34$ **(B)** $3
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>

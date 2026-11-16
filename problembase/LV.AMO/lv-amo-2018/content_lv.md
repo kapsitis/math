@@ -8,7 +8,7 @@ burkā, ja Artūrs apēdīs visus atlikušos gurķīšus? (Artūrs ēda tikai gu
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, DirectProportion
 * _readingDifficulty: low
@@ -42,7 +42,7 @@ Kāds ir $999.$ loceklis Raimonda virknē un kāds - Laines virknē?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: NumberSequence, PeriodicSequence, RecurrentSequence, DigitRepresentation, DigitSum
 * _readingDifficulty: medium
@@ -83,7 +83,7 @@ vertikāli) būtu vismaz viena iekrāsota rūtiņa?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
 * _readingDifficulty: medium
@@ -119,7 +119,8 @@ skaitlis?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, EvenOddParity, Invariant, ProofByContradiction
 * _readingDifficulty: high
@@ -163,7 +164,7 @@ naudaszīmju komplektu!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Comb
 * _hasSolutionConcept: FrobeniusType, FiniteSet, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -225,7 +226,7 @@ $25~\mathrm{cm^{2}}$.
 
 <small>
 
-* questionType:FindOptimal,FindAll
+* questionType:QTY_FindOptimal,QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: RationalNumbers, DirectProportion, PerfectSquares
 * _readingDifficulty: low
@@ -259,7 +260,7 @@ Kāds ir $1000.$ loceklis Viļņa virknē un kāds - Armanda virknē?
 
 <small>
 
-* questionType:FindAll,FindAll
+* questionType:QTY_FindAll,QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: NumberSequence, PeriodicSequence, RecurrentSequence, DigitSum
 * _readingDifficulty: medium
@@ -301,7 +302,7 @@ nevarētu izgriezt $2 \times 3$ rūtiņu taisnstūri, kam visas rūtiņas ir bal
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Coloring, Tiling, OptimumProofStructure
@@ -329,7 +330,7 @@ burti apzīmē vienādus ciparus, dažādi -- dažādus, turklāt $A$ nav $0$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -361,7 +362,8 @@ iegūt tieši tikpat dažādos veidos, kā metot divus parastus metamos kauliņu
 
 <small>
 
-* questionType:FindAll,FindExample
+* questionType:A: QTY_FindAll
+* questionType:B: QTY_ConstructExample
 * domain:Comb
 * _hasSolutionConcept: CountingProductRule, FiniteSet, Tuple, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -422,7 +424,7 @@ cipariem $2,\ 0,\ 1,\ 8$ ?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * subdomain:DOM_CountingStrings
 * topic:RuleOfProduct
@@ -463,7 +465,7 @@ locekļu summu!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_SequenceProperties
 * method:MTH_PeriodicInvariant
@@ -512,7 +514,7 @@ ka $CD>\frac{1}{2}(CA+CB-AB)$.
 <small>
 
 * concepts:triangle
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:TriangleInequality
@@ -546,7 +548,7 @@ $(n-2021)(n-2018)(n-2017)(n-2016)=2016$ būtu patiesa!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_IntegerEquations
 * topic:NumTheoryEqualityToConstant
@@ -578,7 +580,7 @@ spoguļattēlā.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * subdomain:DOM_GridCut
 * method:MTH_InductionConstructions
@@ -618,7 +620,7 @@ $\left(x^{2}-2 x+1\right)\left(x^{4}+1\right)^{2}\left(x^{2}+2x+1\right)\left(x^
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * subdomain:DOM_AlgebraicOperations
 * topic:StandardIdentities
@@ -648,7 +650,7 @@ Kāds ir šīs virknes $2018.$ loceklis?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * concepts:sequence,product
 * subdomain:DOM_SequenceProperties
@@ -686,7 +688,7 @@ zināms, ka $ABCD$ laukums ir $100$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * topic:ParallelogramArea
@@ -728,7 +730,8 @@ centrālajā rūtiņā ir ierakstīts skaitlis $\frac{n^{2}+1}{2}$, ja **(A)** $
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
 * topic:DoubleCounting
@@ -782,7 +785,8 @@ neiekrāsotas?
 
 <small>
 
-* questionType:FindOptimal,ProveDisprove
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_Decide
 * domain:Geom
 * subdomain:DOM_GridColoring
 * method:MTH_PigeonholePrincipleBasic
@@ -834,7 +838,8 @@ reālas saknes?
 
 <small>
 
-* questionType:FindAll,FindAll
+* questionType:A: QTY_FindAll
+* questionType:B: QTY_FindAll
 * domain:Alg
 * subdomain:DOM_ParametrizedEquations
 * topic:QuadraticEquationRootConditions
@@ -883,7 +888,7 @@ trīs dažādos veidos: $4=1+1+1+1=1+3=3+1$.
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * subdomain:DOM_NumberPartitionsCompositions
 * method:MTH_InductiveAlgorithms
@@ -948,7 +953,7 @@ ir līdzīgi!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:FourPointsOnCircle
@@ -984,7 +989,7 @@ un kuram neviens cipars nav $0$.
 <small>
 
 * concepts:divisibility,sum
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * topic:NotationFragments
@@ -1024,7 +1029,7 @@ $5 \times 8$ rūtiņas, lai katrā šī taisnstūra $2 \times 3$ rūtiņu taisns
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridColoring
 * method:MTH_PigeonholePrincipleBasic
@@ -1079,7 +1084,7 @@ laukums ir naturāls skaitlis!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1141,7 +1146,7 @@ atšķiras izdarīto lēcienu secība.)
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 
 </small>
@@ -1199,7 +1204,7 @@ $MN$ garums ir vienāds ar pusi no trijstūra $ABC$ perimetra!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1230,7 +1235,7 @@ Pierādīt, ja $x$ - naturāls skaitlis, tad $x^{8}-x^{2}$ dalās ar $252$.
 * topic:DivisibilityProperties
 * topic:ModularArithmetic
 * topic:PolynomialDifferenceDivisibility
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:divisibility
   
@@ -1342,7 +1347,7 @@ vienu šādu četru naudaszīmju komplektu!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Comb
 
 </small>
@@ -1398,7 +1403,7 @@ $1^{3}+2^{3}+3^{3}+\cdots+n^{3}=(1+2+3+\cdots+n)^{2}$.
 
 <small>
   
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_InductionWithStepOne
   
@@ -1451,7 +1456,7 @@ $1 \times 4$.
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Geom
 
 </small>
@@ -1509,7 +1514,7 @@ $\sphericalangle QAR=2 \sphericalangle XAY$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1539,7 +1544,7 @@ Vai eksistē tādi naturāli skaitļi $m$ un $n$, ka $m^{2}-n^{2}=2mn$ ?
 
 <small>
   
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
   
 </small>
@@ -1592,7 +1597,7 @@ Aprēķināt šī trijstūra laukumu!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 
 </small>
@@ -1644,7 +1649,7 @@ $$\log _{81} 96=\frac{14-\log _{48} 54}{16 \log _{48} 54-4}$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1680,7 +1685,7 @@ dažādi.)
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 
 </small>
@@ -1724,7 +1729,7 @@ $EBD^{\prime}$ ievilktās riņķa līnijas rādiusu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1762,7 +1767,7 @@ ciparus. Zināms, ka $A+B=10^{45}$. Pierādīt, ka gan $A$, gan $B$ dalās ar $5
 <small>
   
 * concepts:divisibility
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
   
 </small>
@@ -1820,7 +1825,8 @@ Trijstūri sauc par vienkrāsas, ja tam visas malas ir nokrāsotas vienā krās�
 
 <small>
 
-* questionType:Prove,ProveDisprove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Decide
 * domain:Geom
 * method:MTH_PigeonholePrincipleBasic
 

@@ -9,7 +9,7 @@ skaitļu reizinājuma dalītājs. Pierādiet, ka $x \leq \pi(n)$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -28,7 +28,8 @@ $a_p \neq a_q$. Vai iespējams, ka
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -47,7 +48,7 @@ $$> 1 + \frac{1}{2} + \frac{1}{3} +
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -56,7 +57,7 @@ $$> 1 + \frac{1}{2} + \frac{1}{3} +
 
 
 
-# <LO-REFFF/> BBK2012.P2.23
+# <lo-sample/> BBK2012.P2.23
 
 Skaitļu virkni $a_1,a_2,a_3,\ldots$ veido sekojoši: 
 $a_1 = 99$, $a_{n+1} = a_n + p(a_n)$, kur
@@ -65,7 +66,7 @@ Aprēķināt $a_{1999}$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs:LV.TST.1999.12.5
 
@@ -84,7 +85,7 @@ lai katrs naturāls skaitlis piederētu vismaz vienai no tām?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * sameAs:BBK2012.P1.52
 
@@ -169,7 +170,7 @@ augstāka par pirmo.
 
 
 
-# <LO-REFFF/> BBK2012.P2.87
+# <lo-sample/> BBK2012.P2.87
 
 Dots naturāls skaitlis $a > 2$. 
 Pierādīt, ka eksistē tikai galīgs skaits tādu naturālu

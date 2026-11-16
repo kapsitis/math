@@ -5,7 +5,7 @@ reizinājums būtu $119$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, NumberPartitions, PrimeFactorization
 * _readingDifficulty: low
@@ -29,7 +29,7 @@ Cik rūtiņas liels ir trijstūra $ABC$ laukums?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: Triangle, LatticeGrid, Polygon
 * _readingDifficulty: low
@@ -73,7 +73,7 @@ nevienā brīdī autobusā netika pārvadāts vairāk pasažieru kā autobusā i
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSequenceArrangement, CaseAnalysis, LinearInequality
 * _readingDifficulty: medium
@@ -120,7 +120,8 @@ $3 \times 3$ rūtiņu kvadrātā, kas ir lielā kvadrāta daļa, ir iekrāsotas 
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Geom
 * _hasSolutionConcept: Coloring, LatticeGrid, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -147,7 +148,7 @@ laiks, pēc kura visas raganas būs iemācījušās visas jaunās burvestības?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _hasSolutionConcept: GraphConcept, OptimumProofStructure, FiniteSet
 * _readingDifficulty: high
@@ -179,7 +180,7 @@ skaitlis ir vienāds ar pārējo skaitļu summu?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, SetPartition, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
@@ -206,7 +207,7 @@ $12345, 12354, 12435, \ldots$. Kurš pēc kārtas šajā virknē ir skaitlis $45
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, OrderedSelection, CountingProductRule, TotalOrder
 * _readingDifficulty: low
@@ -232,7 +233,8 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, WholeIntegers, LinearDiophantine, GCD
 * _readingDifficulty: low
@@ -259,7 +261,7 @@ vienādās daļās tā, lai katrā no tām būtu pa vienam melnam un pa vienam b
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, FiniteSet
 * _readingDifficulty: low
@@ -285,7 +287,7 @@ visas rūtiņas ir neizkrāsotas.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Coloring, LatticeGrid, ExhaustiveCheck
@@ -312,7 +314,7 @@ Atrodiet skaitļa $1^{2}+2^{2}+\cdots+99^{2}$ pēdējo ciparu.
 
 * topic:SequencePeriodicity
 * topic:CongruenceClasses
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_Congruences
 * _hasSolutionConcept: LastDigit, DigitRepresentation, PerfectSquares, ExhaustiveCheck
@@ -346,7 +348,7 @@ $(n+1)(n+2)(n+3)$ dalās ar $125$?
 
 * topic:MultiplesInInterval
 * topic:FactorizationAndDivisibility
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * subdomain:DOM_Divisibility
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, MultiplesSet, CountingProductRule
@@ -375,7 +377,7 @@ reizinājumus. Cik no tiem ir pozitīvi?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
 * topic:CountingUsingSymmetry
@@ -414,7 +416,8 @@ rūtiņām sauksim rūtiņas, kurām ir kopīgs vismaz viens punkts).
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 * subdomain:DOM_GridColoring
 * method:MTH_PigeonholePrincipleBasic
@@ -452,7 +455,7 @@ procenti pilsētas iedzīvotāju ir godīgie iedzīvotāji un cik blēži?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:FormingEquations
@@ -490,7 +493,7 @@ ciparus. Pierādīt, ka $B-A$ dalās ar $9$.
 * topic:NotationManipulate
 * topic:DivisibilityRulesForRemainders
 * topic:DivisibilityRulesFor3And9
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * subdomain:DOM_Divisibility
 * method:MTH_PolynomialTransformations
@@ -528,7 +531,7 @@ $p+q$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * topic:QuadraticEquationRootConditions
 * _hasSolutionConcept: QuadraticEquation, PolynomialAndRoots, VariableExpression
@@ -553,7 +556,7 @@ ir malas $BC$ viduspunkts.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
@@ -586,7 +589,7 @@ ir vienādi taisnstūri.)
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: QuadrilateralFamilies, LatticeGrid, OptimumProofStructure, ProofByContradiction, ExhaustiveCheck
@@ -630,7 +633,7 @@ partiju?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, LinearEquation, ArithmeticMean
 * _readingDifficulty: medium
@@ -662,7 +665,7 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _hasSolutionConcept: QuadraticFunction, FunctionConcept, IrrationalAndReals, CoordinatePlane
 * _readingDifficulty: low
@@ -689,7 +692,7 @@ $\sphericalangle ADE=2 \sphericalangle ABE$. Aprēķināt $\sphericalangle ABE$ 
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _hasSolutionConcept: Angle, QuadrilateralFamilies, CircleAndDisk, Triangle, TriangleCongruence
 * _readingDifficulty: low
@@ -726,7 +729,7 @@ mazākā iespējamā $k$ vērtība?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _hasSolutionConcept: EvenOddParity, DivisibilityRelation, CircleAndDisk, OptimumProofStructure
 * _readingDifficulty: medium
@@ -757,7 +760,7 @@ $7^{a}=7^{x}+7^{y}+7^{z}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, LinearInequality, ProofByContradiction
 * _readingDifficulty: low
@@ -789,7 +792,7 @@ t.i., iegūs $1.$ vietu?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _hasSolutionConcept: TotalOrder, FiniteSet, OptimumProofStructure, PigeonholePrinciple
 * _readingDifficulty: medium
@@ -824,7 +827,8 @@ nevarētu būt ieguvusi augstākais $5.$ vietu.
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:Alg
 
 </small>
@@ -848,7 +852,7 @@ $DC-DB > AC-AB$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -875,7 +879,7 @@ $$x \cdot \left\lfloor x \cdot \lfloor x \rfloor \right\rfloor = 41.$$
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -907,7 +911,7 @@ vienādmalu. Aprēķināt trijstūru $CEF$ un $ABC$ laukumu attiecību!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 
 </small>
@@ -937,7 +941,7 @@ atšķirīga. Kādu augstāko un kādu zemāko vietu kopvērtējumā varēja ieg
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 
 </small>
@@ -975,7 +979,7 @@ $$x^{2}+y^{2}+4 \geq 2x+2y+xy$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1001,7 +1005,7 @@ starpā vienādi!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1034,7 +1038,7 @@ z+zx+x=11
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1088,7 +1092,7 @@ mazākā iespējamā summas $a+b$ vērtība?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -1117,7 +1121,7 @@ visas iespējamās $n$ vērtības!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 
 </small>
@@ -1146,7 +1150,7 @@ $$\left(\frac{1}{2}-\sqrt{1-a^{2}}\right)^{2}+\left(\frac{1}{2}-\sqrt{1-b^{2}}\r
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1180,7 +1184,7 @@ summu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1208,7 +1212,7 @@ lielāki par $1$, nav *fantastiski*.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1251,7 +1255,7 @@ kopīga mala.)
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 
 </small>
@@ -1288,7 +1292,7 @@ skaldnei ir nepāra skaits virsotņu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>

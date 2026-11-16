@@ -5,7 +5,7 @@ skaitļi, saknes ir divu dažādu naturālu skaitļu kvadrāti?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_IntegerEquations
 
@@ -64,7 +64,7 @@ Kāds lielākais daudzums pēc kārtas sekojošu naturālu skaitļu visi var bū
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_NumericConstructions
 
@@ -185,7 +185,8 @@ rūtiņas ir vienā krāsā, ja
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_MakingMoves
 
@@ -546,7 +547,7 @@ virknes loceklis, kas dalās ar $n$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_IntegerSequences
 
@@ -595,7 +596,8 @@ ka no katras pilsētas ir iespējams aizbraukt uz katru citu, braucot tikai pa c
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_Graphs
 
@@ -678,7 +680,7 @@ Pierādīt, ka $p=q=1$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * method:MTH_StrongInduction
 * _subdomain: DOM_IntegerSequences
@@ -803,7 +805,8 @@ Vai ir iespējams, ka **(A)** $k=7$, **(B)** $k=8$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_Congruences
 
@@ -843,7 +846,8 @@ noskaidrot, kurā no visām kredītkartēm ir lielākā naudas summa.
 
 <small>
 
-* questionType:Prove
+* questionType:A: QTY_Prove
+* questionType:B:
 * domain:Comb
 * method:MTH_StrongInduction
 * _subdomain: DOM_CombinatorialAlgorithms

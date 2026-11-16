@@ -250,7 +250,7 @@ ar $13$ un kura ciparu summa ir $K$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumericConstructions
 
@@ -407,7 +407,7 @@ Vai eksistē tāds naturāls skaitlis, kuram vienlaikus izpildās šādas trīs 
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:
 * _subdomain: DOM_PrimeFactors, DOM_IntegerEquations
 
@@ -485,7 +485,7 @@ uzrakstītais skaitlis netiek nodzēsts)?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumericGamesAndAlgorithms
 

@@ -656,7 +656,7 @@ izvēlētajā rindā, vai izvēlētajā kolonnā (vai abās).
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _subdomain: DOM_CombinatorialStructures

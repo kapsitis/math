@@ -175,7 +175,7 @@ $19941995199620$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -192,7 +192,7 @@ Vai $6$ pēc kārtas ņemtu naturālu skaitļu reizinājums var būt $1111140960
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -212,7 +212,7 @@ Pierādīt, ka Andris kļūdījās.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -232,7 +232,7 @@ dalās ar $27$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -254,7 +254,7 @@ Pierādīt, ka skaitlis $\underbrace{111\ldots{}1}_{\mbox{81 vieninieki}}$ dalā
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -278,7 +278,7 @@ uzrakstīti viens aiz otra. Pierādiet, ka uzrakstītais skaitlis nav divnieka n
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -299,7 +299,7 @@ lielākais kopīgais dalītājs.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -324,7 +324,8 @@ No skaitļa 1985 atņēma tā ciparu summu, no rezultāta – tā ciparu summu, 
 
 <small>
 
-* questionType:Prove,FindAll
+* questionType:A: QTY_Prove
+* questionType:B: QTY_FindAll
 * domain:NT
 
 </small>
@@ -350,7 +351,7 @@ Kas tas par ciparu?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -377,7 +378,7 @@ Atrodiet, kāds cipars aizstāts ar zvaigznīti.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -399,7 +400,7 @@ lai iegūtais skaitlis dalītos ar $9$ un būtu maksimāli liels. Kuri cipari j�
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -426,7 +427,9 @@ skaitļu decimālie pieraksti. Vai var gadīties tā, ka
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
+* questionType:C: QTY_Decide
 * domain:NT
 
 </small>
@@ -454,7 +457,7 @@ ciparu summu apzīmēsim ar $c$. Ar ko ir vienāds skaitlis $c$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -476,7 +479,7 @@ kas satur visus ciparus (katru tieši vienu reizi).
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -500,7 +503,7 @@ tad $n$ ir vai nu trīs, vai deviņi.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -528,7 +531,7 @@ ka $a$ dalās ar $9$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -548,7 +551,7 @@ Pierādīt, ka $A$ dalās ar $9$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -575,7 +578,7 @@ Pierādīt, ka tam ir vismaz divi vienādi cipari.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -596,7 +599,7 @@ var būt pirmskaitlis?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -616,7 +619,7 @@ bet otrais ar trešo var būt pirmskaitlis?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -641,7 +644,7 @@ nav pareiza.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -660,7 +663,7 @@ ir ne mazāka kā $18$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -685,7 +688,7 @@ trīs ciparu summu, vai tādu, kuru numurs dalās ar $11$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -716,7 +719,7 @@ dalās ar $7$ ($11$ vai $13$).
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -743,7 +746,10 @@ Pamatojiet savu atbildi:
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove,ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
+* questionType:C: QTY_Decide
+* questionType:D: QTY_Decide
 * domain:NT
 
 </small>
@@ -767,7 +773,7 @@ ciparu un pēdējo trīs ciparu veidoto skaitļu starpība
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1393,7 +1399,7 @@ $$11 \cdot 12 \cdot 13 \cdot 14 \cdot 15 \cdot 16 \cdot 17 \cdot 18 \cdot 19 \cd
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1414,7 +1420,7 @@ reizinājums dalās ar $5$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1438,7 +1444,7 @@ skaitļu reizinājumu ar nākošo naturālo skaitli, atlikuma iegūst $2$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1456,7 +1462,7 @@ Pierādīt, ka $2^{1995} + 2^{1996} + 2^{1997} + 2^{1998}$ dalās ar $15$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1478,7 +1484,7 @@ Pierādīt, ka $ab$ nedalās ar $210$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1510,7 +1516,7 @@ Pamatojiet savu atbildi.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 
 </small>
@@ -1539,7 +1545,7 @@ $30$ gabali ar garumu $3$ cm katrs un $11$ gabali ar garumu $6$ cm katrs?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1558,7 +1564,9 @@ Nē. Visu daļu garumi dalās ar $3$, bet $50$ ar $3$ nedalās.
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
+* questionType:C: QTY_Decide
 * domain:NT
 
 </small>
@@ -1584,7 +1592,7 @@ Vai to var izdarīt?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1605,10 +1613,9 @@ Atrast lielāko iespējamo diferences vērtību, ja zināms, ka tā ir vesels sk
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * topic:GcdAndLcm
-* questionType:FindOptimal
 
 </small>
 
@@ -1634,7 +1641,7 @@ Pierādīt, ka $10a+b$ dalās ar $7$ tad un tikai tad, ja $a-2b$ dalās ar $7$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1655,7 +1662,7 @@ Pierādīt, ka gan $a$, gan $b$ dalās ar $7$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1678,7 +1685,7 @@ Dots, ka $a$ - naturāls skaitlis, $p$ - pirmskaitlis, pie tam $3 a+1$ un $a-8$ 
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1700,7 +1707,7 @@ Vai $a+b$ var būt pirmskaitlis?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1723,7 +1730,7 @@ $a+b, \quad a+c, \quad b+c$ var būt pirmskaitļi?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -1746,7 +1753,8 @@ Noskaidrojiet
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1768,7 +1776,8 @@ dalīties ar $101$. Tātad arī reizinājums nedalās ar $101$.
 
 <small>
 
-* questionType:Prove,ProveDisprove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -1793,7 +1802,8 @@ $499$, un, tātad, nedalās arī ar $1996$.
 
 <small>
 
-* questionType:FindExample,FindOptimal
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -1819,7 +1829,7 @@ Kāds lielākais pirmskaitlu daudzums var būt sastopams starp $12$ pēc kārtas
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -1842,7 +1852,7 @@ Kādas var būt skaitļa $a$ vērtības?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1860,7 +1870,7 @@ Dalot skaitli $1987$ ar $a$, atlikumā ieguva skaitli $9$. Kādas var būt skait
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1880,7 +1890,7 @@ Skaitli $1991$ dalot ar $a$, atlikumā iegūst $9$. Kāds var būt $a$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1898,7 +1908,7 @@ Vai dažādu pirmskaitļu apgriezto lielumu summa var būt vesels skaitlis?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1927,7 +1937,7 @@ dod atlikumā $13$. Kādu atlikumu dod $A$, dalot ar $14$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1948,7 +1958,7 @@ dalītāji, kas mazāki par pašu skaitli).
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1972,7 +1982,7 @@ piederētu vismaz vienai progresijai?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * topic:GeometricSeriesGaps
 
@@ -2007,7 +2017,8 @@ iegūst atlikumā atbilstoši $r, r+1, \ldots, r+m$.
 
 <small>
 
-* questionType:FindOptimal,FindOptimal
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -2035,7 +2046,7 @@ bet pārējos sadalīja savā starpā piecās vienādās daļās.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -2057,7 +2068,7 @@ var vienlaikus dalîties ar $3$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2081,7 +2092,7 @@ b. $n-1$ dalās ar katru no skaitļiem $2,3,4,5,6,7,8,9,10$.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 
 </small>
@@ -2108,7 +2119,7 @@ no kuriem nevienu nevar izsacìt kā divu (dažādu vai vienādu) divciparu skai
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -2137,7 +2148,7 @@ $\overline{ab}$ ir divciparu skaitlis.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -2161,7 +2172,7 @@ $\overline{bca}+\overline{cab}$ dalās ar $37$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -2191,7 +2202,7 @@ otrādā kārtībā, ir naturāla skaiţ̦a kvadrāts.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2219,7 +2230,7 @@ kuru iegūst mainot tā ciparus vietām, starpība ir kāda naturāla skaiţ̦a 
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2251,7 +2262,7 @@ $$x^{3}-y^{3}=z.$$
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2277,7 +2288,7 @@ dalās ar $m$, skaitlis $cx + dy$ arī dalās ar $m$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -2303,7 +2314,7 @@ Pierādiet, ka abi skaitlii $u$ un $v$ dalās ar $3$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -2329,7 +2340,7 @@ skaitļu pāris $(x, y)$, kuram izpildās vienādība $\frac{1}{x}-\frac{1}{y}=\
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -2363,7 +2374,7 @@ skaiţ̦a kubu. Atrast visus tādus skaiţlus, kuriem izpildās šāda īpašīb
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2386,7 +2397,7 @@ Pirmo $n$ naturālo skaitlu summa ir trīsciparu skaitlis, kuram visi cipari ir 
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2417,7 +2428,8 @@ Zināms, ka divu dotu racionālu skaitlu summa un reizinājums ir veseli skaitļ
 
 <small>
 
-* questionType:Prove,ProveDisprove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -2462,7 +2474,9 @@ Naturālu skaitli sauc par interesantu, ja tā ciparu summa dalās ar $5$.
 
 <small>
 
-* questionType:FindExample,FindCount,Prove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_FindValue
+* questionType:C: QTY_Prove
 * domain:NT
 
 </small>
@@ -2490,7 +2504,7 @@ Atrodiet divciparu skaitli, kurš ir vienāds ar otrā cipara kvadrāta un pirm�
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 
 </small>
@@ -2513,7 +2527,7 @@ kura pēdējie trīs cipari veido sākotnējo skaitli.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 
 </small>
@@ -2549,7 +2563,7 @@ b. visiem naturāliem $m$ un $n$ starpība $a_m - a_n$ dalās ar $m-n$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * concepts:square-root
 
@@ -2581,7 +2595,7 @@ kuriem $m+k^{2}$ ir pilns kvadrāts.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2625,7 +2639,7 @@ grupas skaitlu reizinājums būtu vienāds ar visu otrās grupas skaitḷu reizi
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -2650,7 +2664,7 @@ $$1! \cdot 3! \cdot 5! \cdot \cdots \cdot (2m-1)! = \left(\frac{m(m+1)}{2}\right
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2679,7 +2693,7 @@ ir kļūdījušies. Kuri no skolniekiem kḷūdījās?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2714,7 +2728,7 @@ $\frac{a}{b}+\frac{b}{c}$, $\frac{b}{c}+\frac{c}{a}, \frac{c}{a}+\frac{a}{b}$ ir
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2748,7 +2762,7 @@ Pierādīt, ka $p+q$ ir vismaz trīs naturālu skaitļu reizinājums, katrs no k
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -2830,7 +2844,10 @@ Vai $(n-1)!$ dalās ar $n$, ja
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove,ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
+* questionType:C: QTY_Decide
+* questionType:D: QTY_Decide
 * domain:NT
 
 </small>
@@ -2853,7 +2870,7 @@ kuriem nav neviena pirmskaitļa.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -2877,7 +2894,7 @@ skaițiem $1,2, \ldots, n$, ir pirmskaitlis.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -2900,7 +2917,7 @@ ka skaitlis $(n-1)!+1$ dalās ar $q$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -2922,7 +2939,7 @@ Kādiem naturāliem $n$ skaitlis $(n-1)!$ nedalās ar $n$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -2955,7 +2972,7 @@ kad $(n-1)!$ nedalās ne ar $n$, ne ar $n+2$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -2977,7 +2994,7 @@ Pierādiet, ka visiem $n \geq 4$ izpildās nevienādība $(n-1)? > n$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -3002,7 +3019,7 @@ $n$ izpildās nevienādība $p_{n}<2^{2^{n}}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * method:MTH_StrongInduction
 
@@ -3038,7 +3055,7 @@ $x^{2}+x+1 = py$ eksistē atrisinājums veselos skaitļos.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -3070,7 +3087,7 @@ Pierādiet, ka $\lim _{n \rightarrow \infty} \frac{q_{n}}{n}=0$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -3094,7 +3111,7 @@ $2x^2 + 2x + 1 = py$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs=LV.OTHER.TST.1979.9.1
 
@@ -3620,7 +3637,7 @@ ir $32$, bet to mazākais kopīgais dalāmais ir $1200$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -3640,7 +3657,7 @@ Pierādīt, ka skaiţu $19951995$ un $19952003$ lielākais kopīgais dalītājs 
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -3664,7 +3681,7 @@ ne ar kādu naturālu skaitli, kas lielāks par $1$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -3685,7 +3702,7 @@ un $7n+5$ ir savstarpēji pirmskaitļi.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.OTHER.TST.1976.9.3
 
@@ -3707,7 +3724,7 @@ Kāda var būt lielākā šīs progresijas diferences vērtība?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * topic:GcdAndLcm
 * seeAlso:BBK2012.P1.36
@@ -3762,7 +3779,7 @@ lielākais kopīgais dalītājs būtu $1$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -3838,7 +3855,7 @@ u + v = 32 \\
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -3887,7 +3904,7 @@ jo $123$ un $9$ abi dalās ar $3$.)
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * seeAlso:LV.NO.2001.7.4
 
@@ -3917,7 +3934,7 @@ rezultātā iegūstam vienādus atlikumus. Atrodiet skaitli $N$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -3945,7 +3962,7 @@ $\left[ a_{1}, a_{2}, \ldots, a_{n} \right] \geq n a_{1}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -3971,7 +3988,7 @@ $(a,b)$ dalās ar $b$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -3994,7 +4011,7 @@ Doti veseli skaitļi $a$ un $b$. Pierādiet, ka skaitļu $a+b$ un $a^{2}+b^{2}$ 
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -4018,7 +4035,7 @@ Atrast skaitļu $a_{1989}$ un $a_{1990}$ lielāko kopīgo dalītāju.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * topic:LinearRecurrencesConstant
 * topic:InvariantAlgebraic
@@ -4052,7 +4069,7 @@ ja to summa ir $1001$?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -4083,7 +4100,7 @@ lielākajam kopīgajam dalītājam?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -4116,7 +4133,7 @@ Kāda ir mazākā iespējamā šo skaitļu MKD vērtība?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -4147,7 +4164,7 @@ lielākais kopīgais dalītājs būtu $1$?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -4182,7 +4199,9 @@ ka tas ir savstarpējs pirmskaitlis ar katru no pārējiem.
 
 <small>
 
-* questionType:Prove,Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
+* questionType:C: QTY_Prove
 * domain:NT
 
 </small>
@@ -4212,7 +4231,7 @@ Pierādīt, ka $(a, b) \leq \sqrt{a+b}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -4240,7 +4259,7 @@ Pierādīt, ka $\left(a a^{\prime}, a b^{\prime}, b a^{\prime}, b b^{\prime}\rig
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -4266,7 +4285,8 @@ Vai skaitlis $x$ noteikti ir racionāls, ja zināms, ka racionāli ir sekojoši 
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 
 </small>
@@ -4294,7 +4314,7 @@ Pierādiet, ka $a+b$ ir naturāla skaiţ̦a kvadrāts.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -4325,7 +4345,7 @@ Skaitļu $x, y, z$ lielākais kopīgais dalītājs ir $h$. Pierādīt, ka skait�
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -4355,7 +4375,7 @@ kuriem skaitļi $ab$, $ac$ un $bc$ veido aritmētisko progresiju.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -4400,7 +4420,7 @@ vienāds ar skaiț̣a $n^{2}$ pozitīvo dalītāju skaitu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -4439,7 +4459,8 @@ $1\,000\,000$ skaitļi?
 
 <small>
 
-* questionType:Prove,ProveDisprove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Decide
 * domain:NT
 * sameAs:LV.OTHER.TST.1981.9.2
 
@@ -4478,7 +4499,7 @@ skaitļi kādreiz pārstās mainīties.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -4518,7 +4539,7 @@ ir bezgalīgi daudz locekļu, kas ir savstarpēji pirmskaitļi ar skaitli $m$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * topic:ArithmeticSeriesAll
 
@@ -4564,7 +4585,8 @@ skaiţ̦liem ir savstarpēji pirmskaitļi.
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:NT
 
 </small>
@@ -4620,7 +4642,7 @@ lielāko kopīgo dalītāju.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_IntegerSequences
 * topic:GcdAndLcmProperties
@@ -4675,7 +4697,7 @@ Cik daudz ir tādu naturālu skaitļu $n \leq 1983$, kuriem $3n+5$ dalās ar $7$
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * topic:ArithmeticSeriesDivisibility
 * topic:MultiplesInInterval
@@ -4702,7 +4724,7 @@ Cik daudz ir tādu naturālu skaitļu $n \leq 1000$, kuri nedalās ne ar $5$, ne
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * topic:GcdAndLcm
 * topic:ArithmeticSeriesDivisibility
@@ -4728,7 +4750,8 @@ vai nu ar $3$, vai ar $5$.
 
 <small>
 
-* questionType:FindAll,FindAll
+* questionType:A: QTY_FindAll
+* questionType:B: QTY_FindAll
 * domain:NT
 * topic:InclusionExclusionPrinciple
 * topic:SequencePeriodicity
@@ -4754,7 +4777,7 @@ un kuri dalās ar $3$?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * topic:ChineseRemainderTheorem
 * topic:SequencePeriodicity
@@ -4779,7 +4802,7 @@ Pietiek uzrādīt vienu šādu $1328$ skaitļu komplektu.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * topic:SequencePeriodicity
 * concepts:mutual-primes,gcd
@@ -4807,7 +4830,7 @@ $$\left\lfloor \frac{n}{k} \right\rfloor +
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -4842,7 +4865,7 @@ $$=\left\lfloor \frac{q}{p} \right\rfloor +
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -4867,7 +4890,7 @@ $$\left\lfloor \frac{n+1}{2} \right\rfloor +
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -4906,7 +4929,7 @@ izpildās tad un tikai tad, kad $n$ ir pirmskaitlis.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -4941,7 +4964,7 @@ satur maksimālo iespējamo pirmskaitļu skaitu.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -4977,7 +5000,7 @@ $$d(1)+d(2)+\ldots+d(n)= \left\lfloor \frac{n}{1} \right\rfloor +
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>

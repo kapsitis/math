@@ -37,7 +37,10 @@ $A$ galā skaitli $B$.
 
 <small>
 
-* questionType:FindExample,Prove,Prove,ProveDisprove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Prove
+* questionType:C: QTY_Prove
+* questionType:D: QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumeralSystems
 
@@ -94,7 +97,7 @@ Jūsu atrastajiem nav.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_MultivariableEquations
 
@@ -121,7 +124,7 @@ Atrast mazāko iespējamo $n$ vērtību.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_NumericSets
 
@@ -178,7 +181,8 @@ $x^{3}+y^{3}+z^{3}=1000^{3}$.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_EquationSystems
 
@@ -207,7 +211,7 @@ $x \cdot f(x)+y \cdot f(y)$ dalās ar $x+y$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerFunctionalEquations
 
@@ -283,7 +287,8 @@ lekcijas. Daži no viņiem klausās citu profesoru lekcijas. Ir zināms, ka
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_Graphs
 
@@ -330,7 +335,8 @@ $\left\{x^{2}\right\}+\{x\}=0,99$,
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_Equations
 
@@ -361,7 +367,8 @@ Pierādīt, ka
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_Triangles
 
@@ -423,7 +430,7 @@ dalās ar $p$" vai nu abi ir pareizi, vai abi - nepareizi.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Congruences
 
@@ -604,7 +611,8 @@ Par skaitļu virkni $x_{1}, x_{2}, x_{3}, \ldots$ zināms, ka
 
 <small>
 
-* questionType:Prove,FindAll
+* questionType:A: QTY_Prove
+* questionType:B: QTY_FindAll
 * domain:Alg
 * method:MTH_StrongInduction
 * _subdomain: DOM_SequenceProperties

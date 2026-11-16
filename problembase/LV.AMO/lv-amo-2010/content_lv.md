@@ -13,7 +13,8 @@ Kāds varēja būt **(A)** mazākais iegūtais skaitlis;
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, OptimumProofStructure, FiniteSequenceArrangement
 * _readingDifficulty: medium
@@ -130,7 +131,8 @@ komplektā ir tieši viens kauliņš.)
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, Tiling, ProofByContradiction
 * _readingDifficulty: high
@@ -290,7 +292,8 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: Tiling, DivisibilityRelation, DissectionIntoCongruent, Coloring, Counterexample, Invariant
@@ -413,7 +416,7 @@ Atrodi visus šos skaitļus!
 * topic:CanonicalFactorization
 * concepts:primes
 * subdomain:DOM_NumericSets
-* questionType:FindAll
+* questionType:QTY_FindAll
 * method:MTH_ExhaustiveAlgorithms
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, EvenOddParity, DigitRepresentation, EquationSystem
@@ -465,7 +468,7 @@ Vai var gadīties, ka $AB>AC$?
 <small>
 
 * concepts:equal-triangles
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleCongruence, TriangleInequality, ProofByContradiction
 * _readingDifficulty: medium
@@ -513,7 +516,7 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 
 * topic:LinearSystemsApplications
 * topic:TreeTraversalBacktracking
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: MagicConfiguration, LatinSquareSudoku, PositiveIntegers
@@ -549,7 +552,7 @@ izmestas.)
 
 * seeAlso:LV.AMO.2009.7.5
 * topic:InvariantRemainder
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, Invariant
 * _readingDifficulty: high
@@ -637,7 +640,8 @@ Vai to var izdarīt?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: RationalNumbers, FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
@@ -666,7 +670,7 @@ vismaz astoņi būs savā starpā atšķirīgi!
 
 * topic:NumTheoryExprForConcepts
 * topic:ExhaustionMethod
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * _hasSolutionConcept: PositiveIntegers, FiniteSet, CartesianProduct, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -803,7 +807,8 @@ pieejami tikai:
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DivisionWithRemainder, LinearEquation, CaseAnalysis, Invariant
 * _readingDifficulty: medium
@@ -901,7 +906,8 @@ iespējams izdarīt, ja
 <small>
 
 * concepts:primes,sum
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: PositiveIntegers, PrimeNumbers, SetPartition, ParityInvariant
 * _readingDifficulty: medium
@@ -1006,7 +1012,8 @@ $d(n)$.
 <small>
 
 * concepts:divisors
-* questionType:FindExample,Prove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Prove
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, EvenOddParity, PrimeNumbers
 * _readingDifficulty: medium
@@ -1042,7 +1049,8 @@ Piemēram, skaitlis $19$ ierakstīts ceturtajā rindā, trešajā kolonnā.
 
 <small>
 
-* questionType:FindAll,FindAll
+* questionType:A: QTY_FindAll
+* questionType:B: QTY_FindAll
 * domain:Comb
 * _hasSolutionConcept: LatticeGrid, NumberSequence, Invariant, OrderedPair
 * _readingDifficulty: high
@@ -1238,7 +1246,7 @@ sekojošu naturālu skaitļu summu? Saskaitāmo secība nav svarīga.
 * topic:SeriesMembersSumsClosedFormulas
 * topic:CanonicalFactorization
 * topic:ExhaustionMethod
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * concepts:sum,consecutive-numbers
 
@@ -1285,7 +1293,8 @@ no žoga formas!
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1335,7 +1344,8 @@ dotajām virknēm!
 <small>
 
 * concepts:arithmetic-progression,sequence
-* questionType:FindOptimal,Prove
+* questionType:A: QTY_FindOptimal
+* questionType:B: QTY_Prove
 * domain:NT
 
 </small>
@@ -1473,7 +1483,7 @@ tas, kurš izdara otro gājienu?
 <small>
 
 * concepts:divisors
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1651,7 +1661,7 @@ skaits.)
 <small>
 
 * concepts:arithmetic-progression,divisors
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1704,7 +1714,7 @@ tādu $n$, ka, pareizi spēlējot, otrais spēlētājs uzvar!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>

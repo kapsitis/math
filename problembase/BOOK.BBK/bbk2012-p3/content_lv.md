@@ -10,7 +10,7 @@ ar $5$ visiem naturāliem skaitļiem $n$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -26,7 +26,7 @@ Pierādiet, ka skaitlis $a_{1964}$ nedalās ar $4$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -41,7 +41,7 @@ virknes locekļiem tieši viens dalās ar $5$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -57,7 +57,7 @@ loceklis $u_{5k}$ dalās ar $5$ jebkurai naturālai $k$ vērtībai.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -72,7 +72,8 @@ Vai ar $5$ dalās šīs virknes
 <small>
 
 * domain:NT
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 
 </small>
 
@@ -87,7 +88,7 @@ Noskaidrot, vai $a_{1000}$ dalās ar $11$.
 <small>
 
 * domain:NT
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 
 </small>
 
@@ -102,7 +103,8 @@ Atrast visus naturālos skaitļus $n$, kuriem
 <small>
 
 * domain:NT
-* questionType:FindAll
+* questionType:A: QTY_FindAll
+* questionType:B:
 
 </small>
 
@@ -117,7 +119,7 @@ Vai šī virkne ir tīri periodiska?
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -131,7 +133,7 @@ Pierādīt, ka skaitlis $ab$ dalās ar $6$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -145,7 +147,7 @@ un, kuriem skaitlis $2^x - x^2$ dalās ar $7$?
 <small>
 
 * domain:NT
-* questionType:FindCount
+* questionType:QTY_FindValue
 
 </small>
 
@@ -158,7 +160,7 @@ Vai skaitļa $n^2 - 2^n$ pēdējais cipars var būt $5$?
 <small>
 
 * domain:NT
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 
 </small>
 
@@ -176,7 +178,7 @@ Vai šajā virknē ir sastopams cipars $7$?
 <small>
 
 * domain:NT
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 
 </small>
 
@@ -194,7 +196,8 @@ Pierādīt, ka šajā virknē
 <small>
 
 * domain:NT
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 
 </small>
 
@@ -209,7 +212,8 @@ Ar kādu ciparu beidzas visu naturālo skaitļu summa
 <small>
 
 * domain:NT
-* questionType:FindAll,FindAll
+* questionType:A: QTY_FindAll
+* questionType:B: QTY_FindAll
 
 </small>
 
@@ -225,7 +229,7 @@ Pirmais cipars ir $7$. Kāds ir pēdējais?
 <small>
 
 * domain:NT
-* questionType:FindAll
+* questionType:QTY_FindAll
 
 </small>
 
@@ -240,7 +244,8 @@ var iegūt summu, kuras pēdējais cipars ir
 <small>
 
 * domain:NT
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 
 </small>
 
@@ -256,7 +261,7 @@ atlikumu, dalot ar $8$.
 <small>
 
 * domain:NT
-* questionType:FindAll
+* questionType:QTY_FindAll
 
 </small>
 
@@ -280,7 +285,7 @@ ir dažādi.
 
 * sameAs:LV.OTHER.TST.1983.9.3
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -295,7 +300,7 @@ pēdējo ciparu. Pierādiet, ka virkne $(x_n)$ ir periodiska.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -309,7 +314,7 @@ un atrodiet tās perioda garumu. Vai šī virkne ir tīri periodiska?
 <small>
 
 * domain:NT
-* questionType:Prove,FindAll,ProveDisprove
+* questionType:QTY_Prove,QTY_FindAll,QTY_Decide
 
 </small>
 
@@ -323,7 +328,7 @@ lielāko kopīgo dalītāju.
 <small>
 
 * domain:NT
-* questionType:FindAll
+* questionType:QTY_FindAll
 
 </small>
 
@@ -339,7 +344,7 @@ bet virknē nav skaitļu, kas dalās ar $65$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -351,7 +356,7 @@ Pierādiet, ka skaitlis $20^{15}-1$ dalās ar $11 \cdot 31 \cdot 61$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -365,7 +370,7 @@ $a^{36}$ dalās ar $1976$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -379,7 +384,7 @@ $2pr+1$, $r \in \mathbb{Z}$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -393,7 +398,7 @@ izņemot skaitli $3$, ir uzrakstāmi formā $2pr+1$, $r \in \mathbb{Z}$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -406,7 +411,7 @@ $2^{n+1}r+1$, $r \in \mathbb{Z}$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -419,7 +424,7 @@ kuram $2^n-1$ dalās ar $n$.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 
@@ -433,7 +438,7 @@ savstarpēji pirmskaitļi.
 <small>
 
 * domain:NT
-* questionType:Prove
+* questionType:QTY_Prove
 
 </small>
 

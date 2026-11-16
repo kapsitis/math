@@ -9,7 +9,8 @@ reizi tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu:
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, ProofByContradiction
 * _readingDifficulty: low
@@ -61,25 +62,22 @@ Skat., piem., 2.zīm.
 
 # <lo-sample/> LV.NOL.2009.5.3
 
-Vai var uzrakstīt piecciparu skaitli, lietojot pa vienai reizei ciparus 
+**(A)** Vai var uzrakstīt piecciparu skaitli, lietojot pa vienai reizei ciparus 
 $1;\ 2;\ 3;\ 4;\ 5$, lai vienlaicīgi izpildītos šādas īpašības:
 
-(A) izsvītrojot ciparu $1$, atlikušais skaitlis dalītos ar $1$,
+a. izsvītrojot ciparu $1$, atlikušais skaitlis dalītos ar $1$,
+b. izsvītrojot ciparu $2$, atlikušais skaitlis dalītos ar $2$,
+c. izsvītrojot ciparu $3$, atlikušais skaitlis dalītos ar $3$,
+d. izsvītrojot ciparu $4$, atlikušais skaitlis dalītos ar $4$,
+e. izsvītrojot ciparu $5$, atlikušais skaitlis dalītos ar $5$?
 
-(B) izsvītrojot ciparu $2$, atlikušais skaitlis dalītos ar $2$,
-
-(C) izsvītrojot ciparu $3$, atlikušais skaitlis dalītos ar $3$,
-
-(D) izsvītrojot ciparu $4$, atlikušais skaitlis dalītos ar $4$,
-
-(E) izsvītrojot ciparu $5$, atlikušais skaitlis dalītos ar $5$?
-
-Vai var uzrakstīt sešciparu skaitli ar tādām pašām $5$ īpašībām, lietojot pa 
+**(B)** Vai var uzrakstīt sešciparu skaitli ar tādām pašām $5$ īpašībām, lietojot pa 
 vienai reizei ciparus $0;\ 1;\ 2;\ 3;\ 4;\ 5$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation, LastDigit, ExhaustiveCheck
 * _readingDifficulty: low
@@ -165,7 +163,8 @@ $3 \times 3$ rūtiņām sastāvošā kvadrātā būtu tieši viena melna rūtiņ
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Coloring, LatticeGrid, ExhaustiveCheck
 * _readingDifficulty: low
@@ -195,7 +194,8 @@ figūriņas; **(B)** $14$ figūriņas? Figūriņas nedrīkst pārklāties.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSet, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -344,7 +344,7 @@ $x=a^{3}, y=b^{5}$, $a$ un $b$ naturāli skaitļi?
 * topic:BezoutIdentity
 * topic:CanonicalFactorization
 * topic:StandardIdentities
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, RationalNumbers, CoprimeIntegers, GCD
 * _readingDifficulty: low
@@ -385,7 +385,8 @@ skaitļu summu. Šādus gājienus atkārto, līdz rindā paliek tikai viens skai
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Invariant, FiniteSequenceArrangement
 * _readingDifficulty: low
@@ -419,7 +420,8 @@ skaitļa dalītājiem pieskaita gan viņu pašu, gan vieninieku.)
 
 * topic:DivisorNumberAndSum
 * topic:ExhaustionMethod
-* questionType:Prove,ProveDisprove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DivisorsSet, DivisibilityRelation, PrimeFactorization, PrimeNumbers, CaseAnalysis
 * _readingDifficulty: low
@@ -574,7 +576,7 @@ ierakstīto skaitļu summa būs $64$.
 
 * topic:LinearSystemsApplications
 * topic:CongruenceClasses
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: Invariant, LatticeGrid, Permutation, ExhaustiveCheck
@@ -927,7 +929,8 @@ pazīst $Y$, tad arī $Y$ pazīst $X$.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: GraphConcept, VertexDegree, PigeonholePrinciple, EvenOddParity, Counterexample
 * _readingDifficulty: high
@@ -1109,7 +1112,10 @@ Vai var būt, ka **(A)** $n=8$, **(B)** $n=7$, **(C)** $n=10$, **(D)** $n=16$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
+* questionType:D:
 * domain:
 
 </small>

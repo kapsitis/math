@@ -5,7 +5,8 @@ $x^{2}-x-y^{2}+y$ vērtība ir **(A)** $10$, **(B)** $2023$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Alg
 * _subdomain: DOM_IntegerEquations
 
@@ -37,7 +38,7 @@ kausiem tā, lai izpildās abi nosacījumi:
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_CombinatorialGames
 * topic: WeighingBalanceEquations
@@ -68,7 +69,9 @@ vienādi, ja: **(A)** $n=72$; **(B)** $n=73$; **(C)** $n=74$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
+* questionType:C: QTY_Decide
 * domain:Comb
 * method:MTH_AugmentationWithNewElements
 * _subdomain: DOM_MakingMoves
@@ -128,7 +131,7 @@ Kādām reālām $m$ vērtībām trijstūris $ABC$ ir taisnleņka trijstūris?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_Triangles
 
@@ -189,7 +192,7 @@ būt uzrakstīts uz tāfeles?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * method:MTH_ExtremeElements
 * _subdomain: DOM_NumericConstructions
@@ -230,7 +233,7 @@ $$3\left(x^{2}+y^{2}+z^{2}+4\right) - 2(xy + yz + zx) - 4(x+y+z)=0$$
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * _subdomain: DOM_MultivariableEquations
@@ -264,7 +267,7 @@ kausiem tā, lai izpildās abi nosacījumi:
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _subdomain: DOM_CombinatorialGames
 * sameAs: LV.VOL.2023.9.2
@@ -297,7 +300,7 @@ pēdējā skaitļa vērtības!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_FixedInvariant
 * _subdomain: DOM_NumeralSystems
@@ -348,7 +351,7 @@ un $\sphericalangle ABC = 2 \sphericalangle ADC$. Aprēķināt $\sphericalangle 
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_MetricRelations
 
@@ -412,7 +415,7 @@ apli uzrakstītie skaitļi kļūst vienādi?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * method:MTH_AugmentationWithNewElements
 * _subdomain: DOM_MakingMoves
@@ -476,7 +479,7 @@ un atrast šo vērtību!
 
 <small>
 
-* questionType:Prove,FindAll
+* questionType:QTY_Prove,QTY_FindAll
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * _subdomain: DOM_AlgebraicOperations
@@ -528,7 +531,7 @@ jebkura cita, samainot vietām tā ciparus. Kāda ir mazākā iespējamā
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_DigitManipulation, DOM_IntegerSequences
 
@@ -616,7 +619,7 @@ atrodas uz vienas riṇka līnijas!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 * _subdomain: DOM_CirclesAndRelatedAngles
@@ -671,7 +674,7 @@ $$2^{a_{1}}-\left(b_{1}\right)^{2}=2^{a_{2}}-\left(b_{2}\right)^{2}>0$$
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_IntegerEquations
 
@@ -698,7 +701,7 @@ Kādas ir iespējamās naturālās šīs skaitļa vērtības?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_NumericGamesAndAlgorithms
 
@@ -776,7 +779,7 @@ un atrast šo vērtību!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * _subdomain: DOM_AlgebraicOperations
@@ -809,7 +812,7 @@ $BC$ punktā $Y$, kas nesakrīt ar $C$. Pierādīt, ka $DX=DY$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
 
@@ -850,7 +853,7 @@ ka viens no uzrakstītajiem skaitliem ir $73$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_AlgebraicOperations, DOM_Extremes
 
@@ -888,7 +891,7 @@ kuriem $p^{q-1}+q^{p-1}+1$ ir vesela skaitļa kvadrāts!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_PrimeFactors
 
@@ -936,7 +939,7 @@ citu pilsētu (varbūt arī caur vienu vai vairākām citām pilsētām)?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * _subdomain: DOM_Graphs
 

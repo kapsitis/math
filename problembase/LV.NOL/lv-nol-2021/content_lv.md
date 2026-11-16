@@ -6,7 +6,8 @@ kas dalās ar $3$. Kāda ir uzrakstīto skaitļu summa?
 <small>
 
 * answer:165
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: MultiplesSet, DivisibilityRelation, PositiveIntegers
 * _readingDifficulty: low
@@ -30,7 +31,8 @@ Kāda ir divu mazāko pirmskaitļu summa?
 <small>
 
 * answer:5
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers
 * _readingDifficulty: low
@@ -57,7 +59,8 @@ ja katrā kastē ir vismaz $10$ konfektes?
 <small>
 
 * answer:7
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: NumberSequence, ExhaustiveCheck, OptimumProofStructure
 * _readingDifficulty: low
@@ -90,7 +93,8 @@ vienāds olu skaits?
 <small>
 
 * answer:82
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, PrimeFactorization
 * _readingDifficulty: medium
@@ -120,7 +124,8 @@ attēlā redzama figūra, kas sastāv no četrām 5-rūtiņu figūrām.
 <small>
 
 * answer:408
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: Polygon, LatticeGrid, Invariant
 * _readingDifficulty: low
@@ -157,7 +162,8 @@ pārtraukt, lai to turpinātu otra darbiniece. Kāds ir īsākais laiks
 <small>
 
 * answer:50
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: OptimumProofStructure, ArithmeticMean, PositiveIntegers
 * _readingDifficulty: medium
@@ -192,7 +198,8 @@ nopirka Mārtiņš?
 <small>
 
 * answer:3
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, ExhaustiveCheck, LinearDiophantine
 * _readingDifficulty: low
@@ -220,7 +227,8 @@ Cik krustpunktu ir trīs dotajām taisnēm (skat. att.)?
 <small>
 
 * answer:3
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, CountingProductRule
 * _readingDifficulty: low
@@ -250,7 +258,8 @@ centimetros!
 <small>
 
 * answer:18189
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: Triangle, Polygon
 * _readingDifficulty: low
@@ -276,7 +285,8 @@ Cik skaitļi intervālā no $1$ līdz $200$ dalās ar $7$?
 <small>
 
 * answer:28
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet
 * _readingDifficulty: low
@@ -298,7 +308,8 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 <small>
 
 * answer:3
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
@@ -325,7 +336,8 @@ figūra, ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 <small>
 
 * answer:23
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, CountingSumRule
 * _readingDifficulty: low
@@ -356,7 +368,8 @@ $$25~\mathrm{t}~50~\mathrm{kg} + 13~\mathrm{t}~950~\mathrm{kg} –
 <small>
 
 * answer:32203
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: WholeIntegers
 * _readingDifficulty: low
@@ -378,7 +391,8 @@ Vai skaitlis $2021$ dalās ar $5$?
 <small>
 
 * answer:N
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, LastDigit, DivisibilityRelation
 * _readingDifficulty: low
@@ -405,7 +419,8 @@ Cik trijstūri redzami dotajā zīmējumā?
 <small>
 
 * answer:24
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: Triangle, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
@@ -441,7 +456,8 @@ Kāds ir flīzes perimetrs centimetros, ja pusriņķa rādiuss ir $4~\mathrm{cm}
 <small>
 
 * answer:64
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: CircleAndDisk, PointLineSegmentRay
 * _readingDifficulty: low
@@ -467,7 +483,8 @@ naturāli skaitļi. Kāds ir taisnstūra perimetrs centimetros?
 <small>
 
 * answer:144
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, QuadrilateralFamilies
 * _readingDifficulty: low
@@ -499,7 +516,8 @@ Kura no figūrām ir visvieglākā?
 <small>
 
 * answer:C
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: TotalOrder, Invariant, QuadrilateralFamilies, Triangle, CircleAndDisk
 * _readingDifficulty: medium
@@ -536,7 +554,8 @@ uz punktu $B$? Pa ceļiem var pārvietoties tikai bultiņu norādītajā virzien
 <small>
 
 * answer:4
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: DirectedGraph, WalkPathCycle, ExhaustiveCheck
 * _readingDifficulty: low
@@ -568,7 +587,8 @@ atrodas grāmata, kas maksā 7 eiro?
 <small>
 
 * answer:N
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: SetDifference, FiniteSet, DivisibilityRules
 * _readingDifficulty: medium
@@ -597,7 +617,8 @@ $20$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $5$?
 <small>
 
 * answer:M
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet
 * _readingDifficulty: low
@@ -624,7 +645,8 @@ Telpā ir $3$ cilvēki. Cik dažādās secībās viņi var pamest šo telpu?
 <small>
 
 * answer:6
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: ExhaustiveCheck, FiniteSequenceArrangement
 * _readingDifficulty: low
@@ -649,7 +671,8 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 <small>
 
 * answer:129
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, ExhaustiveCheck
 * _readingDifficulty: low
@@ -684,7 +707,8 @@ D. vairāk nekā $1000000$
 <small>
 
 * answer:B
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, GeometricProgression, ArithmeticMean
 * _readingDifficulty: low
@@ -730,7 +754,8 @@ figūra, kas sastāv no četrām šādi saliktām T-veida figūrām.
 <small>
 
 * answer:156
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: Tiling, LatticeGrid, FiniteSequenceArrangement
 * _readingDifficulty: medium
@@ -763,7 +788,8 @@ garāks nekā iepriekšējais!
 <small>
 
 * answer:60
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, FiniteSequenceArrangement, CountingSumRule
 * _readingDifficulty: low
@@ -789,7 +815,8 @@ Cik krustpunktu ir četrām dotajām taisnēm (skat. att.)?
 <small>
 
 * answer:6
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, ParallelPerpendicular, CountingProductRule
 * _readingDifficulty: low
@@ -813,7 +840,8 @@ tad rezultātā iegūst skaitli $127$. Nosaki $A$ vērtību!
 <small>
 
 * answer:5
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: PerfectCubes, LastDigit
 * _readingDifficulty: low
@@ -846,7 +874,8 @@ veicot $369~\mathrm{cm}$. Nosaki trijstūra malas garumu centimetros!
 <small>
 
 * answer:3
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: Triangle, DivisionWithRemainder, PositiveIntegers
 * _readingDifficulty: low
@@ -880,7 +909,8 @@ minūtēs, kurā viņas var apkalpot visas septiņas klientes?
 <small>
 
 * answer:50
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: OptimumProofStructure, ArithmeticMean, PositiveIntegers
 * _readingDifficulty: medium
@@ -912,7 +942,8 @@ Cik skaitļu intervālā no $1$ līdz $600$ dalās ar $7$?
 <small>
 
 * answer:85
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: MultiplesSet, DivisibilityRelation
 * _readingDifficulty: low
@@ -936,7 +967,8 @@ olimpiādē?
 <small>
 
 * answer:20
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, CountingSumRule
 * _readingDifficulty: low
@@ -963,7 +995,8 @@ atrastos līdzsvarā?
 <small>
 
 * answer:A
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, LinearEquation, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -996,7 +1029,8 @@ Kāds atlikums rodas, ja $10035$ dala ar $6$?
 <small>
 
 * answer:3
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRules, EvenOddParity, DigitSum
 * _readingDifficulty: low
@@ -1024,7 +1058,8 @@ ja zināms, ka no augšas tā izskatās, kā parādīts 2.att.?
 <small>
 
 * answer:28
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, FiniteSet, CountingSumRule
 * _readingDifficulty: medium
@@ -1052,7 +1087,8 @@ $$(2~\mathrm{h}~41~\mathrm{min} + 5~\mathrm{h}~59~\mathrm{min}) : 2 – 28~\math
 <small>
 
 * answer:232
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: ArithmeticMean, RationalNumbers
 * _readingDifficulty: low
@@ -1077,7 +1113,8 @@ Vai skaitlis $20212021$ dalās ar $5$?
 <small>
 
 * answer:N
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitRepresentation
 * _readingDifficulty: low
@@ -1101,7 +1138,8 @@ Cik trijstūri redzami dotajā zīmējumā?
 <small>
 
 * answer:24
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: Triangle, QuadrilateralFamilies, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
@@ -1137,7 +1175,8 @@ Kāds ir taisnstūra perimetrs, ja riņķa līnijas rādiuss ir $4~\mathrm{cm}$?
 <small>
 
 * answer:112
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk
 * _readingDifficulty: low
@@ -1167,7 +1206,8 @@ rūtiņu pa labi. Cik dažādos veidos varde no rūtiņas $A$ var nokļūt rūti
 <small>
 
 * answer:7
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
 * _readingDifficulty: low
@@ -1200,7 +1240,8 @@ dalītos ar $90$?
 <small>
 
 * answer:6
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, LastDigit
 * _readingDifficulty: low
@@ -1227,7 +1268,8 @@ nenokrāsoti, ja kastes škautnes garums ir $7~\mathrm{cm}$?
 <small>
 
 * answer:196
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, RationalNumbers
 * _readingDifficulty: low
@@ -1253,7 +1295,8 @@ Cik dažādās secībās $3$ skolēni var nostāties rindā pie kases?
 <small>
 
 * answer:6
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: FiniteSequenceArrangement, ExhaustiveCheck
 * _readingDifficulty: low
@@ -1283,7 +1326,8 @@ grāmata, kas maksā $17$ eiro?
 <small>
 
 * answer:N
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, EvenOddParity, SetDifference, EulerVennDiagrams
 * _readingDifficulty: medium
@@ -1311,7 +1355,8 @@ atrodas aplī. Kurā plaknes daļā atrodas skaitlis $10$?
 <small>
 
 * answer:L
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet, SetIntersection
 * _readingDifficulty: low
@@ -1333,7 +1378,8 @@ Cik dažādos veidos $5$ skolēni var nostāties rindā?
 <small>
 
 * answer:120
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: CountingProductRule, FiniteSequenceArrangement
 * _readingDifficulty: low
@@ -1361,7 +1407,8 @@ lai skaitļi pa apli būtu uzrakstīti pretējā secībā?
 <small>
 
 * answer:3
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: Permutation, Invariant, OptimumProofStructure
 * _readingDifficulty: low
@@ -1388,7 +1435,8 @@ virsotnēm bija attēloti sākotnējā zīmējumā?
 <small>
 
 * answer:5
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom,Comb
 * _hasSolutionConcept: QuadrilateralFamilies, PointLineSegmentRay, ExhaustiveCheck
 * _readingDifficulty: low
@@ -1415,7 +1463,8 @@ $$A(1;3.5) \quad B(8;6) \quad C(-12;-1) \quad D(-5;1)$$
 <small>
 
 * answer:C
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: CoordinatePlane, LinearFunction, PointLineSegmentRay, OrderedPair
 * _readingDifficulty: low
@@ -1455,7 +1504,8 @@ Nosaki ceturtās virsotnes koordinātu summu!
 <small>
 
 * answer:0
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: CoordinatePlane, QuadrilateralFamilies, ParallelogramProperties, OrderedPair
 * _readingDifficulty: low
@@ -1482,7 +1532,8 @@ Cik mazos trijstūrīšus ieguva?
 <small>
 
 * answer:49
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: Triangle, DissectionIntoCongruent, CountingSumRule, NumberSequence
 * _readingDifficulty: low
@@ -1510,7 +1561,8 @@ viņai pietrūktu. Cik centu ir Dacei?
 <small>
 
 * answer:380
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: LinearEquation, EquationSystem, DirectProportion
 * _readingDifficulty: low
@@ -1545,7 +1597,8 @@ kur redzamas pirmās trīs figūras). No cik divu posmu leņķīšiem
 <small>
 
 * answer:26
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: LatticeGrid, Tiling, Invariant, CountingSumRule
 * _readingDifficulty: medium
@@ -1577,7 +1630,8 @@ Cik krustpunktu ir trīs dotajām taisnēm un staram (skat.att.)
 <small>
 
 * answer:4
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: PointLineSegmentRay, CountingSumRule
 * _readingDifficulty: low
@@ -1602,7 +1656,8 @@ Kāds ir galarezultāta pēdējais cipars?
 <small>
 
 * answer:0
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: LastDigit, DigitRepresentation
 * _readingDifficulty: low
@@ -1635,7 +1690,8 @@ malas garums ir $4~\mathrm{cm}$?
 <small>
 
 * answer:BC
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: DivisionWithRemainder, Triangle, MultiplesSet
 * _readingDifficulty: low
@@ -1666,7 +1722,8 @@ olimpiādē. Cik procentu no skolas skolēniem piedalījās olimpiādē?
 <small>
 
 * answer:20
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, ArithmeticMean
 * _readingDifficulty: low
@@ -1693,7 +1750,8 @@ Kāda ir riņka un kvadrāta masa, ja trijstūra masa ir $5$ kg?
 <small>
 
 * answer:1;2
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: EquationSystem, LinearEquation, Triangle, QuadrilateralFamilies
 * _readingDifficulty: medium
@@ -1730,7 +1788,8 @@ Kāds atlikums rodas, ja $2021$ dala ar $4$?
 <small>
 
 * answer:1
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
@@ -1756,7 +1815,8 @@ tagadējais klucǐšu izkārtojums redzams attēlā?
 <small>
 
 * answer:36
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: BasicSolids, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
@@ -1784,7 +1844,8 @@ būtu patiesa?
 <small>
 
 * answer:12
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, LinearEquation, LCM
 * _readingDifficulty: low
@@ -1807,7 +1868,8 @@ dalītos ar $36$?
 <small>
 
 * answer:8
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:NT
 * _hasSolutionConcept: DivisibilityRules, DigitSum, DigitRepresentation, DivisibilityRelation
 * _readingDifficulty: low
@@ -1841,7 +1903,8 @@ Iekrāsotajās rūtiņās ir škēēslis, tajās varde neiet.
 <small>
 
 * answer:34
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: LatticePath, CountingSumRule, LatticeGrid
 * _readingDifficulty: low
@@ -1879,7 +1942,8 @@ grāmata, kas maksā $27$ eiro?
 <small>
 
 * answer:N
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, DivisibilityRules, EulerVennDiagrams
 * _readingDifficulty: medium
@@ -1909,7 +1973,8 @@ $15$ dalītāji atrodas aplī. Kurā plaknes dalā atrodas skaitlis $45$?
 <small>
 
 * answer:K
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Comb
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, DivisorsSet, EulerVennDiagrams
 * _readingDifficulty: low
@@ -1936,7 +2001,8 @@ līniju centros un taisnstūra $LMNO$ perimetrs ir $112~\mathrm{cm}$?
 <small>
 
 * answer:24
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Geom
 * _hasSolutionConcept: QuadrilateralFamilies, CircleAndDisk, PointLineSegmentRay
 * _readingDifficulty: low
@@ -1963,7 +2029,8 @@ atrastos uz funkcijas $y = 3x − 71$ grafika?
 <small>
 
 * answer:25
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane
 * _readingDifficulty: low
@@ -1987,7 +2054,8 @@ $y=71x+2021$ grafikam un iet caur punktu $A(2;200)$. Nosaki $b$ vērtību!
 <small>
 
 * answer:58
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:Alg
 * _hasSolutionConcept: LinearFunction, ParallelPerpendicular, CoordinatePlane
 * _readingDifficulty: low
@@ -2011,7 +2079,8 @@ Kāda ir pirmo $10$ pirmskaitļu summa?
 <small>
 
 * answer:129
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: PrimeNumbers
 * _readingDifficulty: low
@@ -2043,7 +2112,8 @@ bija Mārim trešajā naudas skaitīšanas reizē?
 <small>
 
 * answer:40
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: StateSpaceProcess, Invariant, FiniteSequenceArrangement
 * _readingDifficulty: medium
@@ -2077,7 +2147,8 @@ Cik dažādos veidos $6$ skolēni var nostāties rindā?
 <small>
 
 * answer:720
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: CountingProductRule, FiniteSequenceArrangement
 * _readingDifficulty: low
@@ -2104,7 +2175,8 @@ $1, 4, 3, 6, 5, 8, 7, 2$, skatoties pulksteņa rādītāja kustības virzienā?
 <small>
 
 * answer:3
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, Permutation, OptimumProofStructure
 * _readingDifficulty: low
@@ -2134,7 +2206,8 @@ tikai visas kvadrātu virsotnes. Cik kvadrāti ar dotajām virsotnēm bija attē
 <small>
 
 * answer:5
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: LatticeGrid, QuadrilateralFamilies, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -2161,7 +2234,8 @@ $$A(-1;3.5) \quad B $(-8;6) \quad C(12;-1) \quad D(5;1).$$
 <small>
 
 * answer:C
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: CoordinatePlane, PointLineSegmentRay, LinearFunction, EquationSystem
 * _readingDifficulty: low
@@ -2194,7 +2268,8 @@ trijstūrīšus ieguva?
 <small>
 
 * answer:225
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: Triangle, DissectionIntoCongruent, CountingSumRule, NumberSequence
 * _readingDifficulty: low
@@ -2229,7 +2304,8 @@ malas garums ir $1~\mathrm{cm}$.
 <small>
 
 * answer:24
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: Triangle, LatticeGrid, ExhaustiveCheck, CountingSumRule
 * _readingDifficulty: low
@@ -2261,7 +2337,8 @@ Cik centu ir Inese?
 <small>
 
 * answer:380
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: LinearEquation, VariableExpression, ArithmeticMean
 * _readingDifficulty: medium
@@ -2294,7 +2371,8 @@ kas sastāv no 50 rūtiņām?
 <small>
 
 * answer:24
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: LatticeGrid, Tiling, CountingSumRule, PositiveIntegers
 * _readingDifficulty: medium
@@ -2324,7 +2402,8 @@ iegūtajam rezultātam pieskaitīja $2$. Kāds ir galarezultāta desmitu
 <small>
 
 * answer:3
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: DigitRepresentation, DivisionWithRemainder, LastDigit
 * _readingDifficulty: low
@@ -2356,7 +2435,8 @@ malas robots apstājās, ja katras trijstūra malas garums ir $7~\mathrm{cm}$?
 <small>
 
 * answer:AC
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: DivisionWithRemainder, Triangle, PeriodicSequence
 * _readingDifficulty: medium
@@ -2387,7 +2467,8 @@ $2 \sqrt{50}+x>20$ būtu patiesa?
 <small>
 
 * answer:6
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: PositiveIntegers, LinearInequality, PerfectSquares
 * _readingDifficulty: low
@@ -2422,7 +2503,8 @@ $60~\mathrm{cm}$. Cik gara ir trijstūra pamata mala centimetros?
 <small>
 
 * answer:12
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: Triangle, TriangleInequality, DirectProportion, LinearEquation
 * _readingDifficulty: low
@@ -2453,7 +2535,8 @@ būtu patiesa?
 <small>
 
 * answer:2
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: VariableExpression, EquationSystem, PrimeFactorization
 * _readingDifficulty: low
@@ -2476,7 +2559,8 @@ Cik skaitli intervālā no $1$ līdz $1000$ dalās ar $7$?
 <small>
 
 * answer:142
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet
 * _readingDifficulty: low
@@ -2502,7 +2586,8 @@ vienā dienā izlasīja Rihards?
 <small>
 
 * answer:9
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: ArithmeticMean, CountingSumRule
 * _readingDifficulty: low
@@ -2528,7 +2613,8 @@ Nosaki leņķu $\alpha$ un $\beta$ summu (grādos)!
 <small>
 
 * answer:120
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: Angle, ParallelPerpendicular
 * _readingDifficulty: low
@@ -2556,7 +2642,8 @@ abu pamata pieleņu summa. Cik grādus liels ir virsotnes leņkis?
 <small>
 
 * answer:80
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum
 * _readingDifficulty: low
@@ -2583,7 +2670,8 @@ un ordinātas kvadrāta summa?
 <small>
 
 * answer:2
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: LinearFunction, LinearEquation, CoordinatePlane
 * _readingDifficulty: low
@@ -2608,7 +2696,8 @@ olimpiādē. Cik procentu no skolas skolēniem nepiedalījās olimpiādē?
 <small>
 
 * answer:80
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: RationalNumbers, CountingSumRule
 * _readingDifficulty: low
@@ -2639,7 +2728,8 @@ Kurā plaknes daļā atrodas grāmata, kas maksā $37$ eiro?
 <small>
 
 * answer:N
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, MultiplesSet, SetDifference, CircleAndDisk
 * _readingDifficulty: medium
@@ -2669,7 +2759,8 @@ dalītāji atrodas aplī. Kurā plaknes daļā atrodas skaitlis $8$?
 <small>
 
 * answer:L
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, SetIntersection
 * _readingDifficulty: low
@@ -2695,7 +2786,8 @@ Kāds atlikums rodas, ja $10003$ dala ar $4$?
 <small>
 
 * answer:3
-* questionType:ShortAnswer
+* questionType:
+* responseFormat:RSP_Answer
 * domain:
 * _hasSolutionConcept: DivisionWithRemainder, DivisibilityRelation
 * _readingDifficulty: low
@@ -2728,7 +2820,7 @@ Cik dalībniekiem patīk tikai matemātika?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:
 * _hasSolutionConcept: EulerVennDiagrams, FiniteSet, SetIntersection, CountingSumRule
 * _readingDifficulty: low
@@ -2782,7 +2874,8 @@ Vai ar 2.att. figūrām, kas sastāv no $4$ rūtiņām, var noklāt rūtiņu lau
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Tiling, DivisibilityRelation, LatticeGrid
 * _readingDifficulty: low
@@ -2825,7 +2918,8 @@ ja ceļš $CD$ ir slēgts (tas ir, pa ceļu $CD$ nedrīkst braukt)?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:
 * _hasSolutionConcept: GraphConcept, WalkPathCycle, EvenOddParity, Invariant
 * _readingDifficulty: medium
@@ -2868,7 +2962,7 @@ Zināms, ka katram no skolēniem patīk vismaz viens no šiem priekšmetiem. Cik
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:
 * _hasSolutionConcept: EulerVennDiagrams, FiniteSet, SetIntersection, SetUnion
 * _readingDifficulty: low
@@ -2915,7 +3009,7 @@ ja tām ir kopīga mala.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:
 * _hasSolutionConcept: LatticeGrid, Coloring, ExhaustiveCheck
 * _readingDifficulty: low
@@ -2948,7 +3042,7 @@ lai no tām noteikti varētu izveidot divciparu skaitli, kurš dalās ar $7$
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _hasSolutionConcept: PigeonholePrinciple, DivisibilityRelation, DigitRepresentation, SetPartition, OptimumProofStructure
@@ -2997,7 +3091,7 @@ $y=ax+b$, $y=bx-c$ un $y=cx+a$ grafiki (grafiki nav doti mērogā)?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:
 * _hasSolutionConcept: LinearFunction, PositiveAndNegative, CaseAnalysis, CoordinatePlane
 * _readingDifficulty: low
@@ -3039,7 +3133,9 @@ Naturālu skaitli sauc par īpašu, ja tas ir vienāds ar četru savu dažādu d
 
 <small>
 
-* questionType:FindExample,Prove,Prove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Prove
+* questionType:C: QTY_Prove
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, EvenOddParity, ProofByContradiction, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -3076,7 +3172,7 @@ spēlējot, un kā vinam jārīkojas?
 
 <small>
 
-* questionType:ProveDisprove,Algorithm
+* questionType:QTY_Decide,QTY_ConstructProcedure
 * domain:
 * _hasSolutionConcept: SymmetryStrategy, GamePosition, WinningLosingPositions, CentralSymmetry
 * _readingDifficulty: medium
@@ -3118,7 +3214,7 @@ funkciju grafiki krustojas vienā punktā!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 * _hasSolutionConcept: LinearFunction, CoordinatePlane, VariableExpression
 * _readingDifficulty: low
@@ -3154,7 +3250,7 @@ kur $n$ ir kāds vesels skaitlis?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:
 * _hasSolutionConcept: PrimeNumbers, PositiveAndNegative, WholeIntegers, CaseAnalysis, DivisibilityRelation
 * _readingDifficulty: low
@@ -3251,7 +3347,7 @@ ja zināms, ka $\Varangle BAC=120^{\circ}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 * _hasSolutionConcept: Triangle, TriangleSpecialLines, TriangleCongruence, Angle
 * _readingDifficulty: low
@@ -3301,7 +3397,7 @@ stāvošā ūdenī ir vienādi un upes straumes ātrums ir $5~\mathrm{km}/\mathr
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:
 * _hasSolutionConcept: LinearEquation, VariableExpression, RationalNumbers
 * _readingDifficulty: medium
@@ -3345,7 +3441,7 @@ $y=bx^{2}+cx+a$ grafiki? Funkciju grafiki nav zīmēti mērogā.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:
 * _hasSolutionConcept: QuadraticFunction, QuadraticEquation, VietasFormulas, PositiveAndNegative, ProofByContradiction
 * _readingDifficulty: low
@@ -3393,7 +3489,7 @@ Aprēḳināt $S_{CED}$, ja $AB=1$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:
 * _hasSolutionConcept: PythagoreanTheorem, QuadrilateralFamilies, Triangle, VariableExpression
 * _readingDifficulty: low
@@ -3431,7 +3527,7 @@ nevienam pirmskaitlim $p$ skaitlis $p+1$ nav naturāla skaitļa $k$-tā pakāpe.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:
 * _hasSolutionConcept: PrimeNumbers, PositiveIntegers, OptimumProofStructure, Counterexample, ProofByContradiction
 * _readingDifficulty: low
@@ -3469,7 +3565,7 @@ rindā augošā secībā, tad 22. un 99. skaitļa summa arī būtu lielāka nek�
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, TotalOrder, ProofByContradiction, PigeonholePrinciple
 * _readingDifficulty: low
@@ -3503,7 +3599,7 @@ atrisinājuma uzrakstīšanai nekā Marutai?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:
 
 </small>
@@ -3539,7 +3635,7 @@ kurus saista sakarība $a+18b=2021$. Pierādīt, ka visu šo funkciju grafikiem 
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 
 </small>
@@ -3569,7 +3665,7 @@ Aprēķināt četrstūra $DGHI$ laukumu.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:
 
 </small>
@@ -3648,7 +3744,8 @@ Pierādīt, ka nevienai naturālai $n$ vērtībai izteiksmes $n^{2}-n+36$ vērt�
 
 <small>
 
-* questionType:Prove
+* questionType:A: QTY_Prove
+* questionType:B:
 * domain:
 
 </small>
@@ -3728,7 +3825,7 @@ rindā augošā secībā, tad 146. un 376. skaitļu summa būtu lielāka nekā $
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 
 </small>
@@ -3761,7 +3858,7 @@ progresijas pirmo piecu locekļu summu.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:
 
 </small>
@@ -3848,7 +3945,7 @@ kas atrodas intervālā $[-1;1]$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 
 </small>
@@ -3880,7 +3977,7 @@ kuram var apvilkt riņķa līniju. Pierādīt, ka divi no četrstūra $PQRS$ le�
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 
 </small>
@@ -3910,7 +4007,7 @@ Pierādīt, ka jebkuru divu *tīri jauku* skaitļu summa arī ir *tīri jauks* s
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 
 </small>
@@ -3960,7 +4057,8 @@ Vai iespējams, ka turnīrā piedalījās **(A)** $15$ dalībnieki, **(B)** $16$
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:
 
 </small>
@@ -4000,7 +4098,7 @@ Ar kādu ātrumu brauc Māris un Mārtiņš?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:
 
 </small>
@@ -4049,7 +4147,7 @@ Dots, ka $8ac + 2bc + c^{2}<0$. Pierādīt, ka $b^{2}-8ac>0$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 
 </small>
@@ -4088,7 +4186,7 @@ Taisnstūris salikts no četriem vienības kvadrātiem. Aprēḳināt iekrāsot�
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:
 
 </small>
@@ -4158,7 +4256,7 @@ gan $b^{2}+a$ ir pirmskaitli. Pierādīt, ka $a+b$ un $a b+1$ ir savstarpēji pi
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 
 </small>
@@ -4209,7 +4307,7 @@ ir sakārtoti augošā secībā.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:
 
 </small>

@@ -10,7 +10,7 @@ vienu veidu, kā to var izdarīt.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: PeriodicSequence, FiniteSequenceArrangement, VariableExpression, ArithmeticMean
 * _readingDifficulty: medium
@@ -58,7 +58,8 @@ taciņas var krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity
@@ -95,7 +96,7 @@ ja tās var uzlikt vienu uz otras tā, ka abas figūras sakrīt
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation
@@ -121,7 +122,7 @@ summu tā, lai katru divu šo skaitļu summa dalītos ar trešo skaitli!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, NumberPartitions, PositiveIntegers
 * _readingDifficulty: low
@@ -153,7 +154,7 @@ sarkanās un zilās monētas, ja sākumā ir dota viena sarkana monēta?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: Invariant, EvenOddParity, StateSpaceProcess
@@ -187,7 +188,7 @@ būtu patiesa!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: ContinuedFractions, PositiveIntegers, RationalNumbers
 * _readingDifficulty: low
@@ -221,7 +222,8 @@ krustoties. Vai iespējams, ka no mājiņām iziet attiecīgi:
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Comb
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity
@@ -257,7 +259,7 @@ otras tā, ka abas figūras pilnīgi sakrīt (figūras var pagriezt un apmest ot
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: DissectionIntoCongruent, Rotation, AxialSymmetry, LatticeGrid
@@ -283,7 +285,8 @@ ar atlikušo skaitli?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, PrimeNumbers, NumberPartitions, PositiveIntegers
 * _readingDifficulty: low
@@ -322,7 +325,8 @@ Vai, vairākkārt izpildot šādus gājienus, no skaitļa $17$ var iegūt:
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: Invariant, DivisibilityRules, DigitRepresentation, DivisibilityRelation
@@ -367,7 +371,7 @@ būtu ierakstīti rūtiņās ar kopīgu malu?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: PositiveIntegers, LatticeGrid, GraphConcept, WalkPathCycle, HamiltonianPath
 * _readingDifficulty: medium
@@ -392,7 +396,8 @@ $5$ citām lampiņām?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, EvenOddParity, SetPartition
@@ -430,7 +435,7 @@ un $AD=3$. Pierādīt, ka $CD>2$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 * _hasSolutionConcept: TriangleInequality, Triangle, Angle, Polygon
@@ -463,7 +468,7 @@ ir tikpat ciparu, cik skaitlim $n^{3}$?
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * _hasSolutionConcept: DigitRepresentation, PositiveIntegers, PerfectSquares, PerfectCubes, ExhaustiveCheck
 * _readingDifficulty: low
@@ -507,7 +512,8 @@ ja sākumā kastē atrodas:
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: EvenOddParity, Invariant, StateSpaceProcess
@@ -549,7 +555,7 @@ Pietiek parādīt vienu veidu, kā to var izdarīt.
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, PeriodicSequence, LinearEquation, ExhaustiveCheck
 * _readingDifficulty: medium
@@ -601,7 +607,8 @@ nedraudzējas. Vai var gadīties, ka **(A)** $m=11$, **(B)** $m=10$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: GraphConcept, VertexDegree, HandshakeLemma, BipartiteGraph, ProofByContradiction
@@ -648,7 +655,7 @@ ka $AM = AK = AC$. Zināms, ka $AK \perp MC$. Aprēḳināt trijstūra $ABC$ le�
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 * _hasSolutionConcept: Triangle, Angle, TriangleAngleSum, TriangleSpecialLines, ParallelPerpendicular
@@ -691,7 +698,7 @@ pagriezt un apmest otrādi).
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_GridCut
 * _hasSolutionConcept: DissectionIntoCongruent, LatticeGrid, Rotation, AxialSymmetry
@@ -720,7 +727,7 @@ Cik bieži Mārtiņš satiek Sandri?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: DirectProportion, VariableExpression, LCM
 * _readingDifficulty: medium
@@ -783,7 +790,7 @@ $x$; $x+2$; $x+4$; $x+6$; $x+8$ vienlaicīgi var būt pirmskaitḷi?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, DivisibilityRules, LastDigit, OptimumProofStructure
 * _readingDifficulty: low
@@ -829,7 +836,7 @@ katram rūķim ir tieši $9$ draugi?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * subdomain:DOM_FixedInvariant
 * _hasSolutionConcept: HandshakeLemma, GraphConcept, VertexDegree, EvenOddParity, ProofByContradiction
@@ -857,7 +864,7 @@ Zināms, ka $CD \| BX$. Aprēķināt $AD$ garumu, ja $BX=3, BC=7$ un $CD=6$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 * _hasSolutionConcept: ParallelogramProperties, TriangleSimilarity, ParallelPerpendicular, PointLineSegmentRay
@@ -897,7 +904,7 @@ $$\left(x^{4}+1\right)\left(y^{4}+1\right)=4 x^{2} y^{2}$$
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * _hasSolutionConcept: IrrationalAndReals, OrderedPair, VariableExpression, SquareOfSumIdentity, NecessarySufficient
@@ -964,7 +971,7 @@ negaisa?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * _hasSolutionConcept: ArithmeticMean, PositiveIntegers, LinearEquation, OptimumProofStructure
 * _readingDifficulty: medium
@@ -1009,7 +1016,7 @@ ir racionāls vai iracionāls!
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 
 </small>
@@ -1048,7 +1055,7 @@ kas var būt atzīmēti uz papīra lapas?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 
 </small>
@@ -1082,7 +1089,7 @@ Aprēḳināt četrstūra $ABHC$ laukumu, ja $AH = BC = 8$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 
@@ -1126,7 +1133,7 @@ $p<N$ skaitlis $N+2p$ arī ir pirmskaitlis!
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 
 </small>
@@ -1160,7 +1167,7 @@ Kāds var būt komandu skaits, kas piedalījās šajā turnīrā?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 
 </small>
@@ -1217,7 +1224,7 @@ Pierādīt, ka $x^{2}+y^{2}+\frac{1}{2} \geq x+y$ visiem reāliem $x$ un $y$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
 
@@ -1261,7 +1268,8 @@ trīs rūḳus, kas visi savā starpā draudzējas, ja šajā zemē ir
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * method:MTH_ContradictionForExistence
 * method:MTH_PigeonholePrincipleBasic
@@ -1313,7 +1321,7 @@ ja $\frac{AE}{EB}=\frac{2}{5}$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 
@@ -1361,7 +1369,7 @@ nav izsakāms formā $36n+8$, kur $n$ ir naturāls skaitlis!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * method:MTH_ContradictionForExistence
 
@@ -1435,7 +1443,7 @@ naturālo skaitļu permutācijas!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 
 </small>
@@ -1485,7 +1493,7 @@ $$x^{2}+y^{2}+z^{2}+a \geq x + 2y + 3z$$
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * method:MTH_PolynomialTransformations
 
@@ -1524,7 +1532,8 @@ visas $3$ partijas, vai nevienu partiju, ja turnīrā piedalās
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 
@@ -1564,7 +1573,7 @@ un $E$. Pierādīt, ka $AD < 2AE$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1609,7 +1618,7 @@ formā $27n+11$, kur $n$ ir naturāls skaitlis.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * method:MTH_PolynomialTransformations
 
@@ -1686,7 +1695,7 @@ ka visas kastes ir tukšas?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * method:MTH_InductionWithStepOne
 

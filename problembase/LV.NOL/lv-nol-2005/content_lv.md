@@ -11,7 +11,8 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vismaz $10$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: FiniteSequenceArrangement, PositiveIntegers, Invariant, ProofByContradiction
 * _readingDifficulty: low
@@ -144,7 +145,8 @@ pilsētā $A$ un kura kopgarums ir tieši $863~\mathrm{km}$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: GraphConcept, WalkPathCycle, EvenOddParity, Invariant
 * _readingDifficulty: medium
@@ -211,7 +213,8 @@ Vai tas iespējams, ja **(A)** $n=2004$, **(B)** $n=2005$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: TruthTellersAndLiars, TruthValueAssignment, EvenOddParity, ProofByContradiction, CaseAnalysis
 * _readingDifficulty: medium
@@ -322,7 +325,8 @@ Pierādīt, ka
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DirectedGraph, BinaryRelation, WalkPathCycle, VertexDegree, ExistenceVsUniversal
 * _readingDifficulty: high
@@ -356,7 +360,7 @@ lai katru divu atlikušo summa būtu salikts skaitlis?
 <small>
 
 * sameAs:LV.NOL.2003.7.4
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, OptimumProofStructure, ExhaustiveCheck
 * _readingDifficulty: low
@@ -415,7 +419,8 @@ veselu malu.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: Tiling, Triangle, EvenOddParity, Invariant
 * _readingDifficulty: medium
@@ -453,7 +458,9 @@ dalītāju summu.
 * topic:IntegerFactorization
 * topic:NumTheoryExtremeElement
 * topic:ModularParity
-* questionType:FindExample,Prove,Prove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Prove
+* questionType:C: QTY_Prove
 * domain:NT
 * _hasSolutionConcept: DivisibilityRelation, DivisorsSet, MultiplesSet, EvenOddParity
 * _readingDifficulty: low
@@ -538,7 +545,7 @@ decimālais pieraksts sākas ar ciparu $1$?
 
 * topic:DecimalNotationDigits
 * topic:DefiningRecurrentSequences
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * seeAlso:LV.NOL.2004.8.2
 * _hasSolutionConcept: DigitRepresentation, NumberSequence, CountingSumRule
@@ -613,7 +620,7 @@ Ar kādu mazāko jautājumu skaitu Juris var noteikti noskaidrot $n$?
 * topic:GcdAndLcm
 * topic:PrimesInfinityProof
 * topic:CanonicalFactorization
-* questionType:FindOptimal,Algorithm
+* questionType:QTY_FindOptimal,QTY_ConstructProcedure
 * domain:NT
 * subdomain:DOM_MakingMoves
 * _hasSolutionConcept: PrimeNumbers, DivisibilityRelation, DecisionTree, OptimumProofStructure
@@ -776,7 +783,8 @@ $A$. Taisne $t$ pieskaras abām riņķa līnijām punktā $A$ un krusto to kopē
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: CircleAndDisk, ChordTangentSecant, PointLineSegmentRay, PythagoreanTheorem
 * _readingDifficulty: medium
@@ -852,7 +860,8 @@ $1;\ 2;\ 3;\ 4$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: RecurrentSequence, PeriodicSequence, LastDigit, EvenOddParity, PigeonholePrinciple
 * _readingDifficulty: medium
@@ -905,7 +914,7 @@ divi skaitļi; viens no tiem bija $8$. Kāds varēja būt otrs skaitlis?
 <small>
 
 * subdomain:DOM_MakingMoves
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 
 </small>
@@ -1017,7 +1026,7 @@ Kāds mazākais daudzums skaitļu var būt uzrakstīti uz lapas?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 
 </small>
@@ -1044,7 +1053,7 @@ Aprēķināt $\sqrt{2005 \cdot 2003 \cdot 1999 \cdot 1997+36}$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1103,7 +1112,8 @@ Naturālu skaitli $n$ sauksim par līdzsvarotu, ja tā visus naturālos dalītā
 
 <small>
 
-* questionType:FindExample,Prove
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_Prove
 * domain:NT
 
 </small>
@@ -1166,7 +1176,8 @@ neizdodas.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1228,7 +1239,8 @@ $a_{n} \neq 0$. Pierādīt:
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1264,7 +1276,7 @@ atradīsies vieninieks.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_InductionWithStepOne
 
@@ -1327,7 +1339,7 @@ skaitlis? (Malas mēra metros, laukumu - kvadrātmetros.)
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT,Geom
 
 </small>

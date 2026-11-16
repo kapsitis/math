@@ -6,7 +6,7 @@ $DLV; MMXVI; CMXCIV; XXXVII$
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: DigitRepresentation, FiniteSequenceArrangement
 * _readingDifficulty: low
@@ -31,7 +31,7 @@ $14 \cdot a+2 \cdot b+1=2016$ ?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
 * _readingDifficulty: low
@@ -60,7 +60,8 @@ iekavas tā, lai iegūtu patiesu vienādību!
 
 <small>
 
-* questionType:FindExample,FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B: QTY_ConstructExample
 * domain:Comb
 * _hasSolutionConcept: RationalNumbers, ExhaustiveCheck
 * _readingDifficulty: low
@@ -85,7 +86,7 @@ daļas nedrīkst pārklāties, daļas drīkst pagriezt, bet nedrīkst apgāzt ot
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: Tiling, DissectionIntoCongruent, Rotation
 * _readingDifficulty: low
@@ -111,7 +112,7 @@ viens otram!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * _hasSolutionConcept: PigeonholePrinciple, GraphConcept, FiniteSet
 * _readingDifficulty: medium
@@ -141,7 +142,7 @@ risinājumu!
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, EquationSystem
 * _readingDifficulty: low
@@ -167,7 +168,7 @@ $14 \cdot a+15=2016-6 \cdot b$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, EvenOddParity, ParityInvariant
 * _readingDifficulty: low
@@ -199,7 +200,7 @@ tantītes piedalījās sacensībās?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _hasSolutionConcept: RationalNumbers, FiniteSet, CaseAnalysis
 * _readingDifficulty: medium
@@ -242,7 +243,7 @@ taisnstūrī būtu vismaz viena iekrāsota rūtiņa?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Tiling, Coloring, OptimumProofStructure
@@ -273,7 +274,7 @@ laukuma) daļās! Gabali attiecībā viens pret otru drīkst būt gan pagriezti,
 
 <small>
 
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, PlaneTransformation
 * _readingDifficulty: low
@@ -301,7 +302,8 @@ funkcijas grafiku un iet caur punktu $(1; 43)$!
 
 <small>
 
-* questionType:FindAll
+* questionType:A: QTY_FindAll
+* questionType:B:
 * domain:Alg
 * subdomain:DOM_RealFunctions
 * topic:LinearFunctions
@@ -339,7 +341,7 @@ centu). Cik samaksāja Brālītis?
 * topic:NumTheoryExpr
 * topic:NumTheoryExprForConcepts
 * topic:NumTheoryInequalityMethod
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_IntegerSequences
 * _hasSolutionConcept: DivisibilityRelation, CoprimeIntegers, LinearEquation
@@ -378,7 +380,7 @@ Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
 * topic:TriangleCongruence
@@ -428,7 +430,7 @@ tūbiņu?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_WordProblems
 * topic:CongruenceEquationsLinear
@@ -465,7 +467,7 @@ Pierādīt, ka varde ir apēdusi vismaz $21$ mušu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * method:MTH_PeriodicInvariant
 * subdomain:DOM_MakingMoves
@@ -497,7 +499,7 @@ $$\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13}-128}$$
 <small>
 
 * topic:StandardIdentities
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * concepts:expression
 * subdomain:DOM_AlgebraicOperations
@@ -528,7 +530,7 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * subdomain:DOM_IntegerEquations
 * topic:ModularParity
@@ -569,7 +571,7 @@ lielākais ciparu skaits, kas var būt šajā skaitlī?
 * topic:DivisibilityRulesFor3And9
 * topic:DivisibilityRulesOther
 * topic:ExhaustionMethod
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * concepts:divisibility
 * subdomain:DOM_NumeralSystems
@@ -615,7 +617,7 @@ Pierādīt, ka $\triangle MNB=\triangle CKM$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Quadrilaterals
 * topic:TriangleCongruenceSSS
@@ -657,7 +659,8 @@ pareizi spēlējot, uzvar, ja **(A)** $N=7$, **(B)** $N=8$?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
 * method:MTH_InductiveAlgorithms
@@ -694,7 +697,7 @@ Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_Inequalities
 * topic:InequalitySolvingWithTransformations
@@ -724,7 +727,7 @@ $x, y$ un $z$, ka $x^{3}-2016xyz=10$ ?
 <small>
 
 * seeAlso:LV.AMO.2016.10.2
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * subdomain:DOM_IntegerEquations
 * topic:ModularArithmeticContradiction
@@ -762,7 +765,7 @@ $CDM$ ir vienādmalu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:SimilarTriangleSideRatio
@@ -808,7 +811,7 @@ reizinājumu. Kāds ir šīs virknes $2016.$ loceklis?
 <small>
 
 * concepts:sequence,product
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_IntegerSequences
 * method:MTH_PeriodicInvariant
@@ -866,7 +869,7 @@ pārbaudot ne vairāk kā četrus podus!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * subdomain:DOM_Logic
 * method:MTH_ExhaustiveAlgorithms
@@ -915,7 +918,7 @@ pirmā kabeļa katra metra masa. Kādi var būt kabeļu garumi?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -941,7 +944,7 @@ Vai var atrast tādus veselus skaitļus $x, y$ un $z$, ka $x^{3}-2016xyz=120$ ?
 * topic:DivisibilityRulesForRemainders
 * topic:ModularArithmetic
 * topic:ModularArithmeticContradiction 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * seeAlso:LV.AMO.2016.9.2
 
@@ -991,7 +994,7 @@ veselu skaitļu kvadrātu summu!
 * topic:SeriesMembersSumsClosedFormulas
 * topic:StandardIdentities
 * topic:CompletingSquare
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:arithmetic-progression,sum,square-Alg
 
@@ -1026,7 +1029,7 @@ $PD$ krusto nogriezni $BQ$ punktā $M$. Pierādīt, ka $PM=MD$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1054,7 +1057,7 @@ taisnstūri nepārklājas. Pierādīt, ka nenoklāta paliek laukuma centrālā r
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1081,7 +1084,7 @@ kuram ir vislielākais laukums!
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 
 </small>
@@ -1104,7 +1107,7 @@ $x^{2}+y^{2}+z^{2}=\underbrace{1111 \ldots 1}_{2016}$ ?
 
 <small>
 
-* questionType:ProveDisproveNT
+* questionType:QTY_Decide
 * domain:NT
 
 </small>
@@ -1146,7 +1149,7 @@ $$\frac{1}{\sqrt{1}+\sqrt{3}}+\frac{1}{\sqrt{2}+\sqrt{4}}+\frac{1}{\sqrt{3}+\sqr
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1175,7 +1178,7 @@ trijstūra $AFG$ laukums ir vienāds ar četrstūra $GHJK$ laukumu!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1219,7 +1222,8 @@ zaļi, $15$ zili un $16$ sarkani hameleoni?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 
 </small>
@@ -1243,7 +1247,7 @@ $4 \cdot\left(\frac{2}{3}\right)^{\sin x}+9 \cdot\left(\frac{3}{2}\right)^{\sin 
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1271,7 +1275,7 @@ skaitļos!
 <small>
 
 * concepts:equation
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1294,7 +1298,7 @@ $2x^{2}+xy+xz < 0$. Pierādīt, ka izpildās arī nevienādība $y^{2} > 8xz$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -1328,7 +1332,7 @@ $BCD$ augstumi. Pierādīt, ka nogrieznis $PQ$ krusto malu $AC$ tās viduspunkt�
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1368,7 +1372,7 @@ vienu īsto monētu?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * seeAlso: LV.AMO.2006.12.4
 * topic: WeighingToFindAuthenticObject

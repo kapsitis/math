@@ -6,7 +6,7 @@ gadīties, ka viens skaitlis ir tieši septiņas reizes lielāks nekā otrs skai
 <small>
 
 * topic:ExhaustionMethod
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PositiveIntegers, DigitRepresentation, LastDigit, DivisibilityRelation
 * _readingDifficulty: low
@@ -33,7 +33,7 @@ platleņķa trijstūri, ja tam ir viens plats leņķis un divi šauri leņķi.)
 * topic:ConstructionsTriangulate
 * topic:CircleInscribedAngles
 * sameAs:LV.AMO.2011.5.3
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * concepts:square-Geo,triangle
 * _hasSolutionConcept: Square, Triangle, Polygon
@@ -61,7 +61,7 @@ $2$ baltas, vai $3$ zaļas, vai $4$ sarkanas pogas.
 <small>
 
 * topic:NumTheoryPigeonholeNewSets
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: PigeonholePrinciple, FiniteSet, CaseAnalysis, OptimumProofStructure
 * _readingDifficulty: medium
@@ -89,7 +89,7 @@ mājā. (Lifts nevar uzbraukt augstāk par 24. stāvu un zemāk par 1. stāvu.)
 <small>
 
 * topic:NumTheoryMathInduction
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Comb
 * _hasSolutionConcept: LinearDiophantine, StateSpaceProcess, Invariant
 * _readingDifficulty: high
@@ -121,7 +121,7 @@ saucam par vienādām figūrām.)
 <small>
 
 * topic:SquareGridCutting
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, AxialSymmetry
 * _readingDifficulty: low
@@ -156,7 +156,7 @@ viens un tas pats skaitlis. Kāds tas ir?
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * _hasSolutionConcept: PositiveIntegers, Invariant, StateSpaceProcess
 * _readingDifficulty: medium
@@ -186,7 +186,8 @@ Sadali kvadrātu divos vienādos **(A)** sešstūros, **(B)** septiņstūros.
 
 <small>
 
-* questionType:FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B:
 * domain:Geom
 * _hasSolutionConcept: DissectionIntoCongruent, Polygon, SquareOfSumIdentity
 * _readingDifficulty: low
@@ -213,7 +214,7 @@ būtu vismaz viena zaļa rūtiņa?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom
 * _hasSolutionConcept: Coloring, LatticeGrid, OptimumProofStructure
 * _readingDifficulty: medium
@@ -247,7 +248,8 @@ pirmskaitļi būtu dažādi?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _hasSolutionConcept: PrimeNumbers, EvenOddParity, ParityInvariant, FiniteSequenceArrangement
 * _readingDifficulty: medium
@@ -282,7 +284,7 @@ palikt pāri)?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _hasSolutionConcept: FrobeniusType, DivisibilityRelation, MultiplesSet, DivisionWithRemainder
 * _readingDifficulty: medium
@@ -316,7 +318,7 @@ $ab(3a+5b)=1234567$?
 <small>
 
 * topic:ModularParity
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * concepts:equation
 * subdomain:DOM_IntegerEquations
@@ -347,7 +349,7 @@ ir viens vesels nogrieznis)?
 <small>
 
 * concepts:triangle,segment
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Geom
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, TriangleInequality, FiniteSet, UnorderedSelection
@@ -382,7 +384,8 @@ vienlaicīgi ar to, ja sarkanās automašīnas ātrums bija
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Alg
 * subdomain:DOM_WordProblems
 * _hasSolutionConcept: DirectProportion, LinearEquation, CaseAnalysis
@@ -419,7 +422,7 @@ atšķirīgi)?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Geom
 * subdomain:DOM_GridOther
 * _hasSolutionConcept: BasicSolids, DissectionIntoCongruent, ExistenceVsUniversal
@@ -450,7 +453,7 @@ iet.
 
 <small>
 
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Geom,Comb
 * subdomain:DOM_MakingMoves
 * _hasSolutionConcept: LatticePath, LatticeGrid, RecurrentSequence
@@ -485,7 +488,8 @@ būtu **(A)** $13$, **(B)** $14$.
 <small>
 
 * topic:AlgorithmsOnSyntaxTrees
-* questionType:FindExample
+* questionType:A: QTY_ConstructExample
+* questionType:B:
 * domain:Alg
 * subdomain:DOM_ExpressionBuilding
 * _hasSolutionConcept: WholeIntegers, FiniteSequenceArrangement, ExhaustiveCheck
@@ -511,7 +515,7 @@ $P$ līdz dotā trijstūra virsotnēm ir lielāka nekā puse no trijstūra perim
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * _hasSolutionConcept: Triangle, TriangleInequality
@@ -544,7 +548,7 @@ olimpiādē?
 
 * topic:BaricenterCoordinates
 * topic:NumTheoryInequalityMethod
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * _hasSolutionConcept: ArithmeticMean, EquationSystem, PositiveIntegers
@@ -580,7 +584,7 @@ dalās ar $5$. Pierādi, ka visi uzrakstītie skaitļi dalās ar $5$.
 <small>
 
 * topic:PeriodicRemainders
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * subdomain:DOM_Divisibility
 * concepts:sum,divisibility
@@ -651,7 +655,7 @@ pret šo diagonāli ierakstīti vienādi skaitļi.)
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * subdomain:DOM_MagicConfigurations
 * _hasSolutionConcept: LatinSquareSudoku, AxialSymmetry, Invariant, ParityInvariant
@@ -681,7 +685,7 @@ Atrodi vienu skaitli, kuram ir tieši $12$ veseli pozitīvi dalītāji.
 
 * topic:ModularArithmetic
 * topic:ModularArithmetic
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:NT
 * concepts:divisors
 * subdomain:DOM_Divisibility
@@ -709,7 +713,7 @@ $\sphericalangle BAC=\sphericalangle BMN$
 <small>
 
 * topic:TriangleCongruence
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_Triangles
 * concepts:triangle
@@ -743,7 +747,7 @@ pirmskaitļi. Aprēķini $a$ skaitlisko vērtību.
 
 * topic:ModularArithmetic
 * topic:ModularArithmetic
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT,Alg
 * subdomain:DOM_ParametrizedEquations
 * concepts:quadratic-equation,primes
@@ -775,7 +779,7 @@ ar $37$. Vai Pēteris vienmēr var uzvarēt?
 
 * topic:ModularArithmetic
 * topic:ModularArithmetic
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * subdomain:DOM_NumericGamesAndAlgorithms
 * _hasSolutionConcept: DivisibilityRelation, DigitRepresentation, SymmetryStrategy
@@ -810,7 +814,7 @@ piecos vienlielos trijstūros.
 
 * topic:TriangleAreaBaseHeight
 * topic:Trapezoids
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * sameAs:LV.AMO.2013.9.1
 * subdomain:DOM_Quadrilaterals,DOM_CuttingCoversColoring
@@ -842,7 +846,7 @@ Pierādi: ja $p$ un $14p^{2}+1$ ir pirmskaitļi, tad $14p^{2}-1$ ir naturāla sk
 
 * topic:ModularArithmetic
 * topic:ModularArithmetic
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * concepts:primes
 
@@ -874,7 +878,7 @@ Dots izliekts četrstūris $ABCD$, leņķi $DAB$ un $BCD$ ir plati. Pierādi, ka
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -896,7 +900,7 @@ $x_{2}$ (t.i., $x_{1} \leq x_{3} \leq x_{2}$ vai $x_{2} \leq x_{3} \leq x_{1}$).
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 
 </small>
@@ -925,7 +929,7 @@ $2^{\circ}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -955,7 +959,7 @@ kopīgs tikai galapunkts, tie nekrustojas.)
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom,Comb
 
 </small>
@@ -980,7 +984,7 @@ Pierādi, ka nav tāda naturāla skaitļa $n$, ka skaitlis $n^{2}-3n-1$ dalās a
 <small>
 
 * concepts:divisibility
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1001,7 +1005,7 @@ paralēls $B_{1}C$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1044,7 +1048,7 @@ $$\begin{aligned}
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1077,7 +1081,7 @@ Pierādi, ka izliektu $2012$-stūri nevar sadalīt $200$ izliektos $12$-stūros.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1105,7 +1109,7 @@ kuram visas virsotnes ir atzīmētie punkti?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Geom,Comb
 
 </small>
@@ -1144,7 +1148,7 @@ no $1$ līdz $7$. Pierādi, ka $A$ nedalās ar $B$.
 <small>
 
 * concepts:divisibility
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 
 </small>
@@ -1174,7 +1178,7 @@ ka $NQ$ iet caur trijstūriem $AMQ$ un $APN$ apvilkto riņķa līniju krustpunkt
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 
 </small>
@@ -1204,7 +1208,7 @@ Atrisini vienādojumu $\lg x \cdot \lg (4-x)=\frac{1}{4}$.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 
 </small>
@@ -1226,7 +1230,8 @@ plaknē?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Geom
 
 </small>
@@ -1249,7 +1254,7 @@ otrs nē?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 
 </small>

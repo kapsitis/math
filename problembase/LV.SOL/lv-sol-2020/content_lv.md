@@ -8,7 +8,8 @@ $4500$ rūtiņas un kura malas iet pa rūtiṇu līnijām?
 
 <small>
    
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
    
 </small>
@@ -60,7 +61,8 @@ trijstūrīšos ar kopīgu malu.
 
 <small>
    
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
    
 </small>
@@ -88,7 +90,8 @@ tikai $5$ nepāra skaitļi $(1,3,5,7,9)$.
 
 <small>
    
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
    
 </small>
@@ -162,7 +165,8 @@ $120$, $240$ un $360$, jo
 
 <small>
    
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
    
 </small>
@@ -333,7 +337,8 @@ $\frac{1}{a_{1}}+\frac{1}{a_{2}}+\cdots+\frac{1}{a_{10}}=1$?
 
 <small>
    
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
    
 </small>
@@ -404,7 +409,7 @@ ir vieglāka vai smagāka nekā pārējās?
 
 <small>
    
-* questionType:Algorithm
+* questionType:QTY_ConstructProcedure
 * domain:Comb
 * seeAlso:LV.NOL.2016.7.4
 * seeAlso:LV.NOL.2019.7.2
@@ -444,7 +449,7 @@ $$1^{2}+3^{2}+5^{2}+\cdots+(2 n-1)^{2}=\frac{n(2 n-1)(2 n+1)}{3}$$
 
 <small>
    
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * method:MTH_InductionWithStepOne
    
@@ -533,7 +538,7 @@ Pierādīt, ka $10^{n}-9n-1$ dalās ar $81$ visām naturālām $n$ vērtībām!
 
 <small>
    
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * method:MTH_InductionWithStepOne
    
@@ -626,7 +631,7 @@ kur $x_{1}=3$ un $x_{2}=6$. Pierādīt, ka virkni var definēt ar formulu $x_{n}
 
 <small>
    
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_InductionWithStepOne
    

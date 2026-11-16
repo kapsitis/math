@@ -643,7 +643,7 @@ Pierādīt, ka visām naturālām $n$ vērtībām $2^{2n-1} 3^{n-1}+5^{n}$ dalā
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_Divisibility
@@ -859,7 +859,8 @@ tāfeles uzrakstīt polinomu: **(A)** $x^{3}+2$; **(B)** $x^{4}+2$ ?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_AlgebraicOperations
 

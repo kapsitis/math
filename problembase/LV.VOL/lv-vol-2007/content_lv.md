@@ -26,7 +26,8 @@ $x^{2}+(p-1)x+(q-1)=0$ un $x^{2}+(p-2)x+(q-2)=0$ abas saknes ir veseli skaitļi?
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Alg
 * _subdomain: DOM_IntegerPolynomials
 
@@ -120,7 +121,8 @@ no $1$ līdz $81$ (katrā rūtiņā - citu skaitli) tā, lai izpildītos tāda p
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_MagicConfigurations
 
@@ -151,7 +153,8 @@ vērtība ir
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_IntegerEquations
 
@@ -178,7 +181,8 @@ trauciņā būtu tieši viena monēta, ja **(A)** $n=7$, **(B)** $n=10$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_MakingMoves
 
@@ -207,7 +211,7 @@ $$\frac{1}{x(2) \cdot y(2)}+\frac{1}{x(3) \cdot y(3)}+\frac{1}{x(4) \cdot y(4)}+
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_PrimeFactors
 
@@ -287,7 +291,8 @@ Pierādīt, ka
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:Comb
 * _subdomain: DOM_NumericSets
 
@@ -321,7 +326,8 @@ Dots, ka $n$ - naturāls skaitlis.
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumeralSystems
 
@@ -438,7 +444,9 @@ ja $k$ - patvaļīgs naturāls skaitlis.
 
 <small>
 
-* questionType:Prove,Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
+* questionType:C: QTY_Prove
 * domain:Alg
 * _subdomain: DOM_RealSequences, DOM_SequenceProperties
 
@@ -535,7 +543,8 @@ Vai var būt, ka
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
 
@@ -667,7 +676,8 @@ Atbildēt uz šo jautājumu, ja
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:NT
 * _subdomain: DOM_NumericSets
 

@@ -78,7 +78,8 @@ Alise mežā satika 5 rūķīšus. Katrs no viņiem vai nu vienmēr saka paties�
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -146,7 +147,8 @@ Figūras var būt arī pagrieztas vai apmestas otrādi, bet tās nevar pārklāt
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -204,7 +206,8 @@ Divi $n$-ciparu skaitļi katrs satur visus ciparus no $1$ līdz $n$ ieskaitot. V
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -245,7 +248,8 @@ $4 \times 4$ rūtiņu tabulā ierakstīti 16 veseli skaitļi (ne obligāti daž�
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -578,7 +582,8 @@ Atrast visus tādus naturālos skaitļus $n$, ka **(A)** $n! - 8$; **(B)** $n! -
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>

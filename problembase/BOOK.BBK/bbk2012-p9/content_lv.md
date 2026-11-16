@@ -5,7 +5,7 @@ ka $n^2 + 1$ dalās ar  $5^{1979}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.OTHER.TST.1979.10.2
 
@@ -26,7 +26,7 @@ locekļi būtu naturāli skaitļi.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * sameAs=LV.OTHER.TST.1989.10.3
 
@@ -48,7 +48,7 @@ $p$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.OTHER.TST.1990.11.5
 
@@ -66,7 +66,7 @@ skaitļos.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.OTHER.TST.1976.10.3
 
@@ -84,7 +84,7 @@ summa ir mazāka par $1976^{1976}$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * sameAs:LV.TST.1976.11.5
 
@@ -92,7 +92,7 @@ summa ir mazāka par $1976^{1976}$.
 
 
 
-# <LO-REFFF/> BBK2012.P9.73
+# <lo-sample/> BBK2012.P9.73
 
 Vai var atrast tādus $2^{1994}$
 dažādus naturālu skaitļu pārus
@@ -107,7 +107,7 @@ ka vienlaikus izpildās šādas prasības:
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * sameAs:LV.TST.1994.2
 

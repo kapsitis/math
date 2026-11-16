@@ -4,7 +4,7 @@ Kādu mazāko vērtību var pieņemt izteiksme $x+\frac{2014}{x}$, ja $x>0$?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_Extremes
 
@@ -42,7 +42,8 @@ pirmajiem **(A)** $100$, **(B)** $2014$ locekļiem ir tādi, kas dalās ar $5$?
 
 <small>
 
-* questionType:FindCount,FindCount
+* questionType:A: QTY_FindValue
+* questionType:B: QTY_FindValue
 * domain:NT
 * _subdomain: DOM_IntegerSequences
 
@@ -75,7 +76,7 @@ perpendikulārs $AY$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_AnglesParallelsSimilarity
 
@@ -113,7 +114,8 @@ iespējams panākt, ka pret savu plāksnīti atradīsies vairāk par vienu diplo
 
 <small>
 
-* questionType:Prove,Prove
+* questionType:A: QTY_Prove
+* questionType:B: QTY_Prove
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _subdomain: DOM_MakingMoves
@@ -153,7 +155,7 @@ sakņu kubu summu.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_Equations
 
@@ -199,7 +201,7 @@ kur $x$, $y$, $z$ - veseli nenegatīvi skaitļi.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
 
@@ -235,7 +237,7 @@ $\frac{n^{3}+3}{n+3}$, gan $\frac{n^{4}+4}{n+4}$ ir veseli skaitļi.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * topic:PolynomialLongDivision
 * topic:DivisorNumberAndSum
@@ -360,7 +362,7 @@ ir lielākā summa, kuru nav iespējams apmaksāt izmantojot tikai šīs pastmar
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * topic:ArithmeticSeriesAll
 * topic:NumTheoryInequalityLargeIntervals
@@ -439,7 +441,7 @@ vidusperpendikulu punktā $F$. Pierādīt, ka $BC=2AF$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
 
@@ -489,7 +491,7 @@ nē. Kāds ir lielākais iespējamais partiju skaits, kas gatavojas vēlēšanā
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _subdomain: DOM_CombinatorialStructures
 
@@ -530,7 +532,7 @@ naturālajam skaitlim, iegūtie skaitļi ir vienādi?
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_NumericConstructions
 
@@ -558,7 +560,7 @@ $a,\ a+14,\ a+22,\ a+32,\ a+46$ var būt pirmskaitļi.
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_PrimeFactors
 
@@ -597,7 +599,8 @@ ierakstīto četru skaitļu summa būtu vienāda ar $M$. Vai to var izdarīt, ja
 
 <small>
 
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_MagicConfigurations
 
@@ -639,7 +642,7 @@ $P,\ Q$ un $R$. Pierādīt, ka $A$ ir trijstūra $PQR$ bisektrišu krustpunkts.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
 
@@ -700,7 +703,7 @@ skaitļu kvadrātu summu.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumberRepresentation
 
@@ -738,7 +741,7 @@ lielākais "+" zīmju skaits var būt šajā izteiksmē?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * _subdomain: DOM_Extremes
 
@@ -772,7 +775,7 @@ spēkā sakarība $n+f(1)+f(2)+\ldots+f(n-1)=nf(n)$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_RealSequences
@@ -828,7 +831,7 @@ ir trijstūra $AEO$ augstums. Aprēķināt leņķa $AED$ lielumu grādos.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
 
@@ -884,7 +887,7 @@ iespējamais kopējais šaha partiju skaits, kas ir izspēlētas šajā festivā
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * method:MTH_StrongInduction
@@ -965,7 +968,7 @@ naturālo dalītāju, izņemot $1$ un $n$, kvadrātu summa vienāda ar $n^{2}$.
 
 <small>
 
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumericConstructions
 

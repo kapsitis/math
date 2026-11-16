@@ -27,7 +27,7 @@ naturālu skaitļu var visi būt vienkārši?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
 
@@ -117,7 +117,8 @@ ir čempions,
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
 
@@ -175,7 +176,7 @@ naturāls skaitlis). Kādas ir iespējamās $n$ vērtības?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerSequences
 
@@ -287,7 +288,7 @@ aritmētisku progresiju?
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_IntegerSequences
 
@@ -313,7 +314,7 @@ lielāko kopīgo dalītāju.
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Divisibility
 
@@ -470,7 +471,7 @@ summa ir $3434$. Kāds var būt skaitlis $n$?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_NumeralSystems
 
@@ -533,7 +534,9 @@ un $B$ un tālāk no $B$ uz $C$.)
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
+* questionType:C:
 * domain:
 * _subdomain: DOM_Graphs
 

@@ -7,7 +7,7 @@ cipari $0$ un $2$ un kurš dalās ar $15$?
 <small>
 
 * concepts:divisibility,digit
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * topic:DivisibilityRulesLastDigits
@@ -43,7 +43,7 @@ rūtiņu malu, kas pilnībā atrodas uz robežas, skaits.
 <small>
 
 * concepts:area,perimeter,grid,hexagon,square-side
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_Polygons
 * topic:SquareGridShapes
@@ -76,7 +76,7 @@ septītdaļa – pensionāri. Cik biļetes tika pārdotas?
 <small>
 
 * concepts:fractions,at-least
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_Divisibility
 * topic:MutualPrimes
@@ -109,7 +109,7 @@ līdzsvarā? Atbildi pamatot!
 <small>
 
 * concepts:equality,pentagon
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * topic:SystemsSubstituteVariables
@@ -155,7 +155,7 @@ Kāda krāsa patīk katrai meitenei? Atbildi pamatot!
 <small>
 
 * concepts:true-statement
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * subdomain:DOM_Logic
 * topic:PartitioningInPairsBijections
@@ -195,7 +195,7 @@ Cik ir tādu skaitļu, kas ir apvilkti ar vismaz divām dažādām krāsām?
 <small>
 
 * concepts:natural-numbers,divisibility
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * subdomain:DOM_Divisibility
 * topic:OtherCountingSetOperations
@@ -249,7 +249,7 @@ Figūras var būt arī pagrieztas.
 <small>
 
 * concepts:grid,shape,rotation
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_CuttingCoversColoring
 * topic:SquareGridCutting
@@ -283,7 +283,8 @@ Vai var gadīties, ka Māris ieguva summu, kuras pēdējais cipars ir
 <small>
 
 * concepts:natural-numbers,sum,last-digit
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * subdomain:DOM_Congruences
 * topic:PeriodicRemainders
@@ -359,7 +360,7 @@ līdzsvarā? Atbildi pamatot!
 <small>
 
 * concepts:equality
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_EquationSystems
 * topic:SystemsSubstituteVariables
@@ -405,7 +406,7 @@ sestdiena – $56$, svētdiena – $57$. Cik ciema iedzīvotāji visu laiku melo
 <small>
 
 * concepts:truth,falsehood,mapping
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * subdomain:DOM_Logic
 * topic:TrueAndFalseStatements
@@ -451,7 +452,7 @@ Cik dažādos veidos to var izdarīt?
 <small>
 
 * concepts:variable,digit,divisibility
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * topic:DivisibilityRulesLastDigits
@@ -499,7 +500,8 @@ Vai var atrast **(A)** $5$; **(B)** $15$ naturālus skaitļus
 <small>
 
 * concepts:sum,product
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Alg
 * subdomain:DOM_Equations
 * topic:EquationsAndMonotonicity
@@ -533,7 +535,7 @@ lai uz katras no taisnēm būtu atzīmēti tieši trīs punkti!
 <small>
 
 * concepts:plane,line,point
-* questionType:FindExample
+* questionType:QTY_ConstructExample
 * domain:Geom
 * subdomain:DOM_ObjectSystemsGeometry
 * topic:CountingPointsSegmentsAndOthers
@@ -569,7 +571,8 @@ ja sākumā kaudzē ir **(A)** $6$ konfektes;
 <small>
 
 * concepts:game,set,remove,to-win
-* questionType:Algorithm,Algorithm
+* questionType:A: QTY_ConstructProcedure
+* questionType:B: QTY_ConstructProcedure
 * domain:NT
 * subdomain:DOM_Divisibility,FixedInvariant
 * method:MTH_FixedInvariant
@@ -618,7 +621,7 @@ Cik ciema iedzīvotāju visu laiku melo?
 <small>
 
 * concepts:truth,falsehood,mapping
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * subdomain:DOM_Logic
 * topic:DoubleCounting
@@ -661,7 +664,7 @@ Cik dažādos veidos to var izdarīt?
 <small>
 
 * concepts:divisibility,variable,digit
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * topic:DivisibilityRulesFor2And4
@@ -712,7 +715,7 @@ ja kopā viņš ieguva $13$ punktus?
 <small>
 
 * concepts:add,subtract
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_IntegerEquations
 * topic:NumTheoryInequalitySideComparison
@@ -764,7 +767,7 @@ ka $AD = BD$ un $AB = DC = AC$. Aprēķināt trijstūra $ABC$ leņķus!
 <small>
 
 * concepts:triangle
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
 * topic:TriangleAngles,TrianglesIsosceles
@@ -819,7 +822,8 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 <small>
 
 * concepts:integer-numbers,distance
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
@@ -867,7 +871,7 @@ Cik draugu saka taisnību?
 <small>
 
 * concepts:truth,falsehood
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:Comb
 * subdomain:DOM_Logic
 * topic:TrueAndFalseStatements
@@ -902,7 +906,7 @@ var atbilst arī vienādi cipari.)
 <small>
 
 * concepts:divisibility,digit,variable
-* questionType:FindCount
+* questionType:QTY_FindValue
 * domain:NT
 * subdomain:DOM_NumeralSystems
 * topic:DivisibilityRuleFor11
@@ -945,7 +949,8 @@ Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(A)** $x > y > 0$, **(B)*
 <small>
 
 * concepts:inequality
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Alg
 * subdomain:DOM_Inequalities
 * method:MTH_PolynomialTransformations
@@ -993,7 +998,7 @@ Pierādīt, ka taisne $CH$ dala nogriezni $BK$ divās vienādās daļās!
 <small>
 
 * concepts:right-triangle,altitude,line,segment
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Geom
 * subdomain:DOM_AnglesParallelsSimilarity
 * topic:TrianglesIsosceles
@@ -1043,7 +1048,8 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 <small>
 
 * concepts:integer-numbers,distance
-* questionType:ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B:
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
@@ -1106,7 +1112,8 @@ Vai muzeja vadītājs var izveidot šādu maršrutu?
 <small>
 
 * concepts:grid,square-side,rectangle,path
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:Comb
 * method:MTH_ContradictionForExistence
 * subdomain:DOM_Graphs
@@ -1144,7 +1151,7 @@ Kāds ir skaitļa $2022^{2022}$ pēdējais cipars?
 <small>
 
 * concepts:power,last-digit
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_Congruences
 
@@ -1202,7 +1209,8 @@ grupas skaitļu summa ir pirmskaitlis, ja **(A)** $n = 8$,
 <small>
 
 * concepts:primes,natural-numbers,disjoint-sets,sum
-* questionType:ProveDisprove,ProveDisprove
+* questionType:A: QTY_Decide
+* questionType:B: QTY_Decide
 * domain:NT
 * subdomain:DOM_NumberRepresentation
 * method:MTH_FixedInvariant
@@ -1235,7 +1243,7 @@ abām katetēm. Aprēķināt trijstūra $ACB$ laukumu, ja $OB = 5$.
 <small>
 
 * concepts:right-triangle,area,legs-in-right-triangle,circle,tangent
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AnglesParallelsSimilarity,AugmentationWithNewElements
 
@@ -1276,7 +1284,7 @@ nav reālu sakņu!
 <small>
 
 * concepts:equation,real-numbers,root
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * subdomain:DOM_Equations
@@ -1314,7 +1322,7 @@ roku abiem saviem blakussēdētājiem!
 <small>
 
 * concepts:graph,vertex,edge
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
@@ -1399,7 +1407,7 @@ Vai skaitli 2022 var izteikt kā divu veselu skaitļu kubu summu?
 <small>
 
 * concepts:sum,cube-Alg,integer-numbers
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * subdomain:DOM_Congruences
 * method:MTH_ContradictionForExistence
@@ -1445,7 +1453,7 @@ Kādām reālām $p$ vērtībām vienādojuma $x^2 + x + p = 0$ sakņu kvadrātu
 <small>
 
 * concepts:equation,square-Alg,sum,value
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * method:MTH_
 * subdomain:DOM_Equations
@@ -1475,7 +1483,7 @@ garumu, ja trijstūra leņķa $B$ lielums ir $120^{\circ}$.
 <small>
 
 * concepts:triangle,inscribed-circle,angle,tangent
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_CirclesAndRelatedAngles
 * method:MTH_AugmentationWithNewElements
@@ -1515,7 +1523,7 @@ $$x^2 + y^2 + z^2 - xy - yz - xz \leq 1.$$
 <small>
 
 * concepts:inequality,natural-numbers,sum
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * method:MTH_PolynomialTransformations
 
@@ -1564,7 +1572,7 @@ Kādām $m$ un $n$ vērtībām muzeja vadītājs var izveidot šādu maršrutu?
 <small>
 
 * concepts:grid,square-side,rectangle,path
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
@@ -1629,7 +1637,7 @@ Vai skaitli $2023^2$ var izteikt kā trīs veselu skaitļu kubu summu?
 <small>
 
 * concepts:integer-numbers,cube-Alg,sum
-* questionType:ProveDisprove
+* questionType:QTY_Decide
 * domain:NT
 * subdomain:DOM_Congruences
 * method:MTH_ContradictionForExistence
@@ -1679,7 +1687,7 @@ Kādām reālām $p$ vērtībām vienādojuma $x^2 + x + p$ sakņu kubu summa ir
 <small>
 
 * concepts:real-numbers,cube-Alg,equation
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * subdomain:DOM_Equations
 * method:MTH_PolynomialTransformations
@@ -1712,7 +1720,7 @@ augstuma no virsotnes $B$ garums ir $\sqrt{3}$. Kāds var būt šī trijstūra l
 <small>
 
 * concepts:triangle,median,altitude,area
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Geom
 * subdomain:DOM_Triangles
 * method:MTH_AugmentationWithNewElements
@@ -1774,7 +1782,7 @@ Atrisināt reālos skaitļos vienādojumu $3 \sin x + 4 \cos x = 6$.
 <small>
 
 * concepts:equation,real-numbers,sine,cosine
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * subdomain:DOM_Equations
@@ -1882,7 +1890,8 @@ punktu. Kuram spēlētājam ir uzvaroša stratēģija, ja **(A)** $n = 2021$; **
 <small>
 
 * concepts:game,table,row,column,product,winning-strategy
-* questionType:ProveDisprove
+* questionType:A: QTY_DecideWinner
+* questionType:B: QTY_DecideWinner
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
 

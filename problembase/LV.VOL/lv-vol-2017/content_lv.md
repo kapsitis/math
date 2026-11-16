@@ -5,7 +5,7 @@ un pamatojiet, ka citu nav!
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_NumericSets
 
@@ -62,7 +62,7 @@ būt sākotnējais skaitlis?
 
 <small>
 
-* questionType:FindAll
+* questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Cryptarithm
 
@@ -187,7 +187,8 @@ $x_{1}^{2}+x_{2}^{2}+2017$; **(B)** $x_{1}^{3}+x_{2}^{3}$ ir naturāls skaitlis!
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_IntegerPolynomials
 
@@ -234,7 +235,7 @@ pirmskaitlis!
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * topic:DivisibilityRulesFor2And4
 * topic:NotationShift
@@ -541,7 +542,7 @@ tā, lai to summa dalītos ar $9$.
 
 <small>
 
-* questionType:Prove
+* questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Congruences
 
@@ -599,7 +600,8 @@ $N=15$?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _subdomain: DOM_CombinatorialGames
 
@@ -856,7 +858,7 @@ naturāla skaitļa kvadrāts!
 
 <small>
 
-* questionType:FindOptimal
+* questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
 

@@ -40,7 +40,8 @@ Vai naturāla skaitḷa ciparu reizinājums var būt **(A)** $2520$; **(B)** $54
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DigitProduct, PrimeFactorization, PrimeNumbers, DigitRepresentation
 * _readingDifficulty: low
@@ -287,7 +288,8 @@ drīkst iet arī vairāk nekā vienu reizi.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: EvenOddParity, Coloring, LatticeGrid, WalkPathCycle, Invariant
 * _readingDifficulty: medium
@@ -374,7 +376,8 @@ redzamo figūru, kurai visas rūtiṇas ir neiekrāsotas?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * subdomain:DOM_GridColoring
 * _hasSolutionConcept: Coloring, Tiling, LatticeGrid, ExhaustiveCheck
@@ -513,7 +516,8 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DigitRepresentation, PositiveIntegers, ArithmeticProgression, FiniteSet
 * _readingDifficulty: low
@@ -687,7 +691,8 @@ ka skaitlis $A$ ir **(A)** divciparu skaitlis; **(B)** viencipara skaitlis?
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DigitRepresentation, PositiveIntegers, ArithmeticProgression, ExistenceVsUniversal
 * _readingDifficulty: low
@@ -741,7 +746,8 @@ Atrast vismazāko naturālo skaitli $N$, kam reizinājums $1 \cdot 2 \cdot 3 \cd
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * _hasSolutionConcept: DivisibilityRelation, PrimeFactorization, PrimeNumbers, OptimumProofStructure
 * _readingDifficulty: low
@@ -1204,7 +1210,8 @@ arī dotā piecstūra virsotnes, ierakstīto skaitlu summa ir viena un tā pati!
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 
 </small>
@@ -1489,7 +1496,8 @@ skaitlu reizinājums dalās ar $5$.
 
 <small>
 
-* questionType:
+* questionType:A:
+* questionType:B:
 * domain:
 * subdomain:DOM_MagicConfigurations
 
