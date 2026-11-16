@@ -23,6 +23,9 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $2$.
 * _hasReasoningMethod: BruteForceCheckOverFiniteSet
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -54,6 +57,11 @@ lai garantētu, ka viņam:
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, PigeonholePrincipleBasic
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier, MissingConstructionPartInOptimalProblems
 * _mistakesFit: high
+* _questionType:A: QTY_FindOptimal
+* _questionType:B: QTY_FindOptimal
+* _questionType:C: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -93,6 +101,9 @@ $7 \cdot(9-5)-3=25$.
 * _hasReasoningMethod: BruteForceCheckOverFiniteSet
 * _hasReasoningMistake: CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -128,6 +139,9 @@ pārklāties viena ar otru vai iziet ārpus taisnstūra.
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -164,6 +178,9 @@ Cik patiesībā bija pulkstenis? Atbildi pamato!
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -205,6 +222,9 @@ ierakstīto skaitļu starpība (no lielākā atņemot mazāko) ir $4$.
 * _hasReasoningMethod: BruteForceCheckOverFiniteSet
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -235,6 +255,11 @@ lai varētu apgalvot, ka kopumā Annai vismaz sešas no bumbiņām ir vienā kr�
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, PigeonholePrincipleBasic, PigeonholePrincipleGeneralized
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: high
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionType:C: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -281,6 +306,9 @@ savu roku. Cik no šiem rūķiem vienmēr saka patiesību?
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric
 * _hasReasoningMistake: DoubleCountingTheSameObject, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -314,6 +342,9 @@ ka tās sakrīt.
 * _hasReasoningMethod: SymmetryStrategy
 * _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -342,6 +373,9 @@ viens - par trīs, viens - par pieci un viens - par deviņi.
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -397,6 +431,9 @@ telpa bija gatava?
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -454,6 +491,9 @@ tādas balvas, kurām bija vienāds saturs.
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, PigeonholePrincipleBasic
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, IncompleteCaseAnalysisInCombinatorialBranching, ImplicitAssumptionAboutObjectsBeingDistinct
 * _mistakesFit: high
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -494,6 +534,9 @@ $2$ vai $3$ (ja tas dalās bez atlikuma). Vai šīs skaitļu virknes
 * _hasReasoningMethod: PrimeFactorization, InvariantMethod, PeriodicSequence, ProofByContradiction
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -542,6 +585,9 @@ rūtiņu līnijām? Figūras drīkst būt pagrieztas.
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -575,6 +621,9 @@ bet Sandra dziedāja 4 dziesmas (mazāk nekā jebkura cita meitene)?
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -622,6 +671,9 @@ Nosakiet šo trīs skaitḷu summu!
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ExpressOneUnknownThroughAnother, UseStandardIdentities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UnjustifiedCancellationOrCombination
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -673,6 +725,9 @@ secīgus skaitļus, kuru summa būs vismaz $17$.
 * _hasReasoningMethod: ContradictionForImpossibility, DoubleCountingSameQuantityTwoWays
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -717,6 +772,10 @@ Vai burvji rituālā no skaitliem $3,8,9,2,4$ var iegūt
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: high
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -796,6 +855,9 @@ $\sphericalangle BCO$ ar $\alpha$ un $\beta$!
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
 * _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
 * _mistakesFit: high
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -847,6 +909,9 @@ Dotas piecas smagas kastes un tās izkārtotas, kā tas redzams 12. att. Šīs k
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant, ProofByContradiction
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -899,6 +964,9 @@ Kāda var būt izteiksmes $a^{4}+b^{4}$ vērtība, ja papildus zināms, ka $a+b 
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, VietasFormulas, ExpressOneUnknownThroughAnother
 * _hasReasoningMistake: RootLossByDivisionByExpression, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -945,6 +1013,9 @@ vai arī vismaz $4$ skolēni ieguva atzīmi, kas ir augstāka nekā $7$.
 * _hasReasoningMethod: PigeonholePrincipleGeneralized, RuleOfSumDisjointCases
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1001,6 +1072,9 @@ skaitļi $20, 24, 25$?
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching, ImplicitParityOrModularAssumption
 * _mistakesFit: high
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1048,6 +1122,9 @@ krustpunkts ir $H$. Pamatot, ka $S_{AGHI} = S_{BEG}+S_{CEHF}+S_{DFI}$.
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, AreaCounting, ParallelogramProperties
 * _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1103,6 +1180,9 @@ Cik ir tādu deviņciparu tālruņa numuru, kas varētu būt Zanes tālruņa num
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, FixedInvariantNumeric, RuleOfProductIndependentChoices
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: high
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1155,6 +1235,9 @@ Atrast visus naturālos skaitļus $m$ un $n$, kuriem $m^{3} n+m+n = mn+2mn^{2}$.
 
 * questionType:QTY_FindAll
 * domain:NT
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1186,6 +1269,9 @@ vai arī divus tādus, kuru ciparu summu summa ir vienāda ar $28$.
 
 * questionType:QTY_Prove
 * domain:NT
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1220,6 +1306,9 @@ Kāda ir mazākā iespējamā $n$ vērtība?
 
 * questionType:QTY_FindOptimal
 * domain:Comb
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1251,6 +1340,9 @@ Pamatot, ka trijstūris $AED$ ir vienādmalu.
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1287,6 +1379,9 @@ meža formu, ne savu sākotnējo atrašanās vietu tajā).
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1317,6 +1412,9 @@ $$\frac{a^{2}+2bc}{b^{2}+c^{2}}+\frac{b^{2}+2ac}{a^{2}+c^{2}}+\frac{c^{2}+2ab}{a
 
 * questionType:QTY_Prove
 * domain:Alg,Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1355,6 +1453,10 @@ Vai var droši apgalvot, ka festivāla beigās bija vismaz
 * questionType:A: QTY_Decide
 * questionType:B: QTY_Decide
 * domain:Comb
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1392,6 +1494,9 @@ divciparu skaitlis dalās ar $3$.
 
 * questionType:QTY_Prove
 * domain:NT
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1428,6 +1533,9 @@ Izliekta četrstūra diagonāles sadala to četros trijstūros ar vienādiem per
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1470,6 +1578,10 @@ krāsa sakritīs ar sākotnējo, ja pie galda sēž
 * questionType:A: QTY_Decide
 * questionType:B: QTY_Decide
 * domain:Comb
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1566,6 +1678,9 @@ $$a+b+c > \sqrt{2\left(a^{2}+b^{2}+c^{2}\right)}.$$
 
 * questionType:QTY_Prove
 * domain:Alg,Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1612,6 +1727,10 @@ bija vismaz **(A)** $3$; **(B)** $4$ dalībnieki ar vienādu punktu skaitu?
 * questionType:A: QTY_Decide
 * questionType:B: QTY_Decide
 * domain:Comb
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1662,6 +1781,10 @@ Vai var gadīties, ka šo skaitļu summa ir **(A)** $24$; **(B)** $26$?
 * questionType:A: QTY_Decide
 * questionType:B: QTY_Decide
 * domain:NT
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1697,6 +1820,9 @@ $\sphericalangle DHC = 90^{\circ}$. Pamatot, ka $BH \| CD$.
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1729,6 +1855,9 @@ ne meža formu, ne savu sākotnējo atrašanās vietu tajā).
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

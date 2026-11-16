@@ -10,6 +10,9 @@ $1.$zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -30,6 +33,9 @@ Kvadrāts sastāv no $3\cdot 3$ rūtiņām. Vai var katrā rūtiņā ierakstīt 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -50,6 +56,9 @@ Pa apli izrakstīti naturāli skaitļi no $11$ līdz $20$, katrs tieši vienu re
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -69,6 +78,9 @@ Kvadrāts sastāv no $7\cdot 7$ rūtiņām. No tām $11$ rūtiņas nokrāsotas. 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -101,6 +113,9 @@ $3.$zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -121,6 +136,9 @@ $4.$zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -141,6 +159,9 @@ Cik ir tādu desmitciparu naturālu skaitļu, kas dalās ar $9$ un kuru pierakst
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -157,6 +178,9 @@ Vai var kvadrātā, kas sastāv no $3 \times 3$ rūtiņām, katrā rūtiņā ier
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -177,6 +201,9 @@ Vai kāds naturāls skaitlis, kuram katrs nākošais cipars (izņemot pirmo) ir 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -198,6 +225,9 @@ Kvadrāts sastāv no $8 \times 8$ rūtiņām. Sprīdītis sāk ceļu vienā no t
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -220,6 +250,9 @@ Dots, ka $a$, $b$, $c$, $d$ – konstantes un funkcija $y=\max(ax+b;cx+d)$ ir li
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -236,6 +269,9 @@ Ir zināms, ka no apgalvojumiem „$x^3$ dalās ar $2$”; „$x^3$ dalās ar $4
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -252,6 +288,9 @@ Trijstūra $ABC$ iekšpusē atrodas tāds punkts $O$, ka $AO=BO=CO$. Pierādīt,
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -280,6 +319,9 @@ Dotas $2010$ pēc ārējā izskata vienādas monētas; to masas visas ir atšķi
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence,QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -298,6 +340,9 @@ Dots, ka $0<x<1$, $0<y<1$, $0<z<1$, $0<t<1$. Pierādīt, ka vismaz viens no skai
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -318,6 +363,9 @@ $$x^2 + y^2 + 1 \ge 2(xy - x + y).$$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -336,6 +384,9 @@ Kādas ir iespējamās $x$; $y$; $z$; $t$; $v$ vērtības?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -354,6 +405,9 @@ Pierādīt, ka $OM \perp BK$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -374,6 +428,9 @@ Uz galda atrodas $7$ kartītes; uz tām uzrakstīti cipari $0$; $1$; $2$; $3$; $
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -396,6 +453,9 @@ Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -412,6 +472,9 @@ Vai eksistē naturāls skaitlis $n$, kura visus naturālos dalītājus (ieskaito
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -428,6 +491,9 @@ Ja naturālam skaitlim ir $2\cdot n$ dalītāji (tāds ir, piemēram, jebkurš s
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -452,6 +518,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -468,6 +537,9 @@ Ir $100$ pēc ārējā izskata vienādas monētas. Dažas (vismaz viena) ir īst
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -491,6 +563,9 @@ $5.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -521,6 +596,9 @@ $$x^2+15x=2^y$$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -539,6 +617,9 @@ Atrast izteiksmes $\dfrac{y}{x}$ mazāko iespējamo vērtību.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -565,6 +646,9 @@ $6.$zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -589,6 +673,9 @@ Kādā klasē ir $n$ zēni un $n$ meitenes. Katrai meitenei patīk $x$ zēni. Ka
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -613,6 +700,9 @@ Kvadrāts ar izmēriem $1\cdot 1$ sadalīts dažos izliektos četrstūros. Pier�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -639,6 +729,9 @@ Kādu mazāko daudzumu rūtiņu jāatzīmē kvadrātā, kas sastāv no $5 \times
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -663,6 +756,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -695,6 +791,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -725,6 +824,9 @@ Pierādīt, ka $\sqrt{a+b+c} \ge \sqrt{a-1}+\sqrt{b-1}+\sqrt{c-1}$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -761,6 +863,9 @@ Izstrādāt paņēmienu, kā no patvaļīgiem reāliem skaitļiem $a$, $b$, $c$,
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

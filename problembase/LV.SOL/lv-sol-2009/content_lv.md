@@ -6,6 +6,9 @@ Vai var no cipariem $1$; $2$; $3$; $4$; $5$; $6$; $7$; $8$; $9$, lietojot katru 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -30,6 +33,9 @@ b) kubu ar izmēriem $5 \cdot 5 \cdot 5$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -53,6 +59,9 @@ Kāds ir mazākais rūtiņu daudzums, kādu var atzīmēt 2.zīm. attēlotajā f
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -77,6 +86,9 @@ Apzīmējiet katrā no 4.zīm. parādītajām figūrām punktus ar burtiem $A$; 
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -99,6 +111,9 @@ Kādu lielāko ūdens daudzumu var savākt vienā spainī, izpildot, ja vajadzī
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -120,6 +135,9 @@ Doti $11$ dažādi naturāli skaitļi. Pierādīt, ka no tiem var izvēlēties d
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -140,6 +158,9 @@ Kvadrāts sastāv no $8 \times 8$ rūtiņām. Sākotnēji tās visas ir baltas. 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -157,6 +178,9 @@ Uz galda atrodas trauks ar $10$ zilām, $10$ zaļām un $10$ sarkanām konfektē
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -173,6 +197,9 @@ Pie eglītes sapulcējušies $10$ rūķīši – votivapas un šillišallas. Vot
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -189,6 +216,9 @@ Katrā kuba skaldnē (t.i., katrā no $6$ kvadrātiem, kas to norobežo) novilkt
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -214,6 +244,9 @@ b) $5$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -235,6 +268,9 @@ b) desmitstūris?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -259,6 +295,9 @@ $6.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -283,6 +322,9 @@ b) $99$ gājienus?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -305,6 +347,9 @@ Vai kvadrātā, kas sastāv no $4\cdot 4$ rūtiņām, var ierakstīt naturālos 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -325,6 +370,9 @@ Kādu lielāko daudzumu no naturāliem skaitļiem $1; 2; 3; 4; 5; 6; 7; 8; 9; 10
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -349,6 +397,9 @@ Taisnes $m$, $n$ un $t$ ir attiecīgi četrstūra $ABCD$ malu $AB$, $BC$, $CD$ v
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -376,6 +427,9 @@ Uzzīmējiet kaut vienu piecstūri, kuram nekādas divas diagonāles nekrustojas
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -396,6 +450,9 @@ Vai kuba virsotnes un šķautnes var sanumurēt ar naturāliem skaitļiem no $1$
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -412,6 +469,9 @@ Sniegbaltītes pulkstenim ir stundu, minūšu un sekunžu rādītāji; pulksteni
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -428,6 +488,9 @@ Dots, ka $a<b<c<d<e$, $a+b=10$, $d+e=18$; visi skaitļi $a$; $b$; $c$; $d$; $e$ 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -444,6 +507,9 @@ Uz trijstūra $ABC$ malas $BC$ atzīmēts punkts $M$, bet uz malas $AC$ – punk
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -466,6 +532,9 @@ Skaitļa $n$ decimālais pieraksts sastāv no $11$ vieniniekiem, $11$ divniekiem
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -482,6 +551,9 @@ Profesoram Cipariņam uzdāvinātas $5$ pēc ārējā izskata vienādas zelta mo
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -498,6 +570,9 @@ Katrs vesels skaitlis nokrāsots vai nu balts, vai sarkans, pie tam skaitļi $5$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -547,6 +622,9 @@ Kādām $a$ vērtībām vienādojumam $x^3+ax-2(a+4)=0$ ir tieši $2$ dažādas 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -569,6 +647,9 @@ Izliektā četrstūrī $ABCD$ diagonāles $AC$ vidusperpendikuls krusto diagonā
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -589,6 +670,9 @@ Pierādīt, ka skaitļi $2n^3+4n$ un $n^3+5n$ dalās ar $3$ pie vienām un tām 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -605,6 +689,9 @@ Visa plakne sadalīta vienādos kvadrātiņos kā rūtiņu lapa. Divi spēlētā
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -625,6 +712,9 @@ Vai kubiskā kastē ar izmēriem $6 \cdot 6 \cdot 6$ var ievietot $53$ klucīšu
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -641,6 +731,9 @@ Dots, ka $a$ un $b$ – pozitīvi skaitļi. Pierādīt, ka $3a^8+5b^8 \ge 8a^3b^
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -665,6 +758,9 @@ Trijstūra $ABC$ virsotnes leņķa $A$ bisektrise krusto apvilkto riņķa līnij
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -689,6 +785,9 @@ Dots, ka $a$, $b$ un $c$ ir naturāli skaitļi, bet reizinājumi $ab$, $bc$ un $
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -711,6 +810,9 @@ Kvadrāts sastāv no $3 \cdot 3$ rūtiņām. Sākumā visās rūtiņās ierakst�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -727,6 +829,9 @@ Katrā kuba skaldnē novilkta viena diagonāle. Ja divām novilktajām diagonāl
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -756,6 +861,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -784,6 +892,9 @@ Tātad $x=\frac{1}{\sqrt[3]{3}}$ un no $2.$ vienādojuma $y=\sqrt[3]{9}$. Pārba
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -808,6 +919,9 @@ Dots, ka $n$ ir naturāls skaitlis un skaitļa $A=n^2+2008n$ pēdējais cipars i
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -824,6 +938,9 @@ Plakne sadalīta vienādos kvadrātiņos kā rūtiņu lapa. Tajā novietoti bezg
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -846,6 +963,9 @@ Klasē ir $z$ zēni un $m$ meitenes. Katriem diviem zēniem var atrast meiteni, 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

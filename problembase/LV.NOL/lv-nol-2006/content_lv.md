@@ -13,6 +13,9 @@ $B$.
 * _hasReasoningMethod: NumericalEstimation, ExpressOneUnknownThroughAnother
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -42,6 +45,9 @@ iegūt virkni $\mathbf{aaaaabbbbb}$?
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, MonovariantStrictlyChangingQuantity
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -81,6 +87,10 @@ griežot iegūtā trijstūra malu.
 * _hasReasoningMethod: AuxiliaryLines
 * _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, UnjustifiedAuxiliaryLineExists
 * _mistakesFit: medium
+* _questionType:A: QTY_ProveExistence
+* _questionType:B: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -113,6 +123,9 @@ Pierādiet, ka mazākā iespējamā $n$ vērtība ir $13$.
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -146,6 +159,9 @@ krāsas amēba. Vai var gadīties, ka traukā paliek tikai viena amēba?
 * _hasReasoningMethod: FixedInvariantNumeric, ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: high
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -172,6 +188,9 @@ kārtībā) tā, ka $AB=1,\ BC=3,\ CD=5,\ DE=7,\ EA=9$?
 * _hasReasoningMethod: ParityInvariant, ProofByContradiction
 * _hasReasoningMistake: UnstatedDirectionAssumption, SkippingCaseAnalysis, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -200,6 +219,9 @@ ir tāds cilvēks, kurš pazīst visus pārējos ap galdu sēdošos.
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -234,6 +256,10 @@ $n=11$, **(B)** $n=13$?
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -265,6 +291,9 @@ viena santīma monētās?
 * _hasReasoningMethod: ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -289,6 +318,9 @@ dalītājs. Kāds var būt šis mazākais skaitlis?
 * _hasReasoningMethod: CompleteEnumeration, ProofByContradiction, ParityArgument, NumberConstruction
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, MissingBoundOrExample
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -326,6 +358,9 @@ Plaknē atzīmēti $5$ punkti. Cik var būt trijstūru, kam visas virsotnes atro
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingOrderedVsUnorderedSelections, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -366,6 +401,9 @@ no iespējām pastāv īstenībā?
 * topic: WeighingComparisonsToCases
 * topic: WeighingAmongGroups
 * topic: WeighingReducedGoal
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -398,6 +436,10 @@ skaitlis nebūtu divu citu izvēlēto skaitļu starpība?
 * _hasReasoningMethod: PigeonholePrincipleBasic, ConstructiveExampleForExistence, ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: high
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -429,6 +471,9 @@ Kuri naturālie skaitļi ir vienādi ar trīs savu dažādu pozitīvu dalītāju
 * _hasReasoningMethod: NumericalEstimation, IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother
 * _hasReasoningMistake: CaseAnalysisIncomplete, WrongDirectionOfInequalityChain, ConcreteToGeneralLeap
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -467,6 +512,9 @@ piezvanīja $B,\ B$ piezvanīja $C$ un $C$ piezvanīja $A$.
 * _hasReasoningMethod: PigeonholePrincipleBasic
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -500,6 +548,9 @@ operāciju palīdzību. Atrast $A$.
 * _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -530,6 +581,9 @@ mērķi? (Atbilde **varbūt** ir atkarīga no $a$ un $b$ vērtībām.)
 * _hasReasoningMethod: TriangleInequality, CaseAnalysis
 * _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, ConcludingFromZeroOrEdgeCase
 * _mistakesFit: medium
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -566,6 +620,9 @@ ar $4$?
 * _hasReasoningMethod: ModularArithmetic, PigeonholeInNT
 * _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -605,6 +662,11 @@ Vai taisnstūri ar izmēriem **(A)** $8 \times 8$, **(B)** $12 \times 12$,
 * _newReasoningMethodDescription: Using total area divisibility for tiling feasibility
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionType:C: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -638,6 +700,9 @@ kartiņas ar skaitli $13$. Cik kartiņu ir Maijai?
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, MissingConstructionPartInOptimalProblems
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -682,6 +747,9 @@ draudzētos. Kāds ir mazākais iespējamais cilvēku skaits šajā kolektīvā?
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ExtremalElementArgument
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -715,6 +783,9 @@ $ABCD$ - kvadrāts (protams, iegūto punktu skaits tad būs mazāks).
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, ParallelogramProperties
 * _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim, AreaWithoutPosition
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -761,6 +832,9 @@ $$\left\{\begin{array}{l}
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: CaseAnalysisIncomplete, ConcreteToGeneralLeap
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -799,6 +873,9 @@ Kuri naturālie skaitļi $x$ apmierina vienlaicīgi visas sekojošās prasības:
 * _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument, AlgebraicManipulationForInteger
 * _hasReasoningMistake: NonCoprimeFactorDivisibility, CarelessModularComputation, UnstatedNumberSetAssumption
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -833,6 +910,9 @@ spēlējot?
 * _hasReasoningMethod: CompleteEnumeration, ProofByContradiction, GameInvariantsInNT
 * _hasReasoningMistake: ExampleInsteadOfProof, MissingBoundOrExample
 * _mistakesFit: low
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -866,6 +946,9 @@ cipari veido pirmskaitli, un visi šie $11$ pirmskaitļi ir dažādi.
 
 * questionType:QTY_FindOptimal
 * domain:NT
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -923,6 +1006,10 @@ Atbildiet uz šo jautājumu, ja **(A)** $n=5$; **(B)** $n=2006$.
 * questionType:A:
 * questionType:B:
 * domain: Comb,Geom
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -953,6 +1040,9 @@ $\frac{1}{2}$.
 
 * questionType:
 * domain: Alg
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -976,6 +1066,9 @@ $\triangle ABC$ augstumu krustpunkts.
 
 * questionType:
 * domain: Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1020,6 +1113,9 @@ noskaidrot, cik ir viltoto monētu?
 * topic: WeighingAmongGroups
 * topic: WeighingToFindAuthenticObject
 * topic: WeighingReducedGoal
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1053,6 +1149,9 @@ ar kuru dalās tieši viens no šiem skaitļiem.
 
 * questionType:QTY_Prove
 * domain:NT
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1083,6 +1182,9 @@ būtu apdraudētas?
 
 * questionType:
 * domain: Comb
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1121,6 +1223,9 @@ ir $S$. Pierādīt, ka $\sphericalangle MSK=\sphericalangle NSK$.
 
 * questionType:
 * domain: Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1155,6 +1260,10 @@ funkcija $f(x)-x^{2}-x$ ir augoša
 * questionType:A:
 * questionType:B:
 * domain: Alg
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1190,6 +1299,9 @@ Vai zēni nesarunājoties var noskaidrot, kādi skaitļi ir uz viņu pierēm?
 
 * questionType:QTY_Decide
 * domain:NT
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1219,6 +1331,9 @@ ir $0$.
 
 * questionType:
 * domain: Alg
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1252,6 +1367,9 @@ nevienā komisijā nevienam deputātam nav aizspriedumu ne pret vienu citu?
 * questionType:QTY_FindOptimal
 * domain:Comb
 * method:MTH_InductionWithStepOne
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1293,6 +1411,9 @@ naturālu dalītāju?
 
 * questionType:QTY_FindAll
 * domain:NT
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1319,6 +1440,9 @@ punktos $Q$ un $S$. Pierādiet, ka $PS \perp QR$.
 
 * questionType:
 * domain: Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1352,6 +1476,9 @@ Kurām $n$ vērtībām, beidzot šīs darbības, visas spuldzes būs ieslēgtas?
 * seeAlso:LV.NOL.2007.12.2
 * questionType:QTY_FindAll
 * domain:NT
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

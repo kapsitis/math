@@ -6,6 +6,9 @@ Vai var uzzīmēt $6$ nogriežņus tā, lai katrs no tiem krustotu tieši četru
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -26,6 +29,9 @@ Tabula sastāv no $3 \times 3$ rūtiņām. Katrā rūtiņā ierakstīts kāds sk
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -50,6 +56,9 @@ Divi no tiem skaitļiem, kas attēloti ar melniem aplīšiem, dalās ar $3$, bet
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -74,6 +83,9 @@ Sešas monētas sver pa $5$ g katra, bet divas — pa $6$ g katra. Doti svari ar
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -104,6 +116,9 @@ Pierādīt, ka var atrast divus tādus trijstūrīšus, kuros ierakstītie skait
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -126,6 +141,9 @@ Kā redzams no zīmējuma, no viena trijstūrīša uz otru var pāriet augstāka
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -142,6 +160,9 @@ Vai var uzzīmēt $8$ nogriežņus tā, lai katrs no tiem krustotos ar dažādu 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -162,6 +183,9 @@ Kas tas par ciparu?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -178,6 +202,9 @@ Vai piecstūra malas un diagonāles var tā sanumurēt ar skaitļiem no $1$ līd
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -200,6 +227,9 @@ Klases šaha turnīrā piedalās $10$ dalībnieki; katrs spēlē ar katru vienu 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -222,6 +252,9 @@ Vienādojumu $ax=b$, $bx=c$, $cx=a$ saknes ir vienādi pozitīvi skaitļi. Atras
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -246,6 +279,9 @@ Pierādīt, ka $ah=gb$ (burti apzīmē pozitīvus skaitļus).
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -270,6 +306,9 @@ Pierādīt, ka $ab$ nedalās ar $210$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -294,6 +333,9 @@ Vai var gadīties, ka starp apgabaliem, kuros šīs taisnes sadala plakni ir $9$
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -316,6 +358,9 @@ Pa apli izrakstīti $10$ skaitļi; daži no tiem ir pozitīvi, pārējie – neg
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -344,6 +389,9 @@ vienlaicīgi ir saīsināmas; turklāt $m \ne n$ .
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -364,6 +412,9 @@ Kā ar $10$ gājieniem iegūt uz tāfeles $2^{89}$ ?
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -386,6 +437,9 @@ Bet vai tas var tieši trīs reizes pārsniegt melno trijstūru skaitu?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -412,6 +466,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -441,6 +498,9 @@ Pierādīt, ka $AO+BO+CO<AB+AC+BC$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -476,6 +536,9 @@ Dots, ka skaitļi $a_1, a_2, \ldots, a_n$ veido aritmētisku progresiju un ka $f
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -498,6 +561,9 @@ Uzzīmēt $13$-stūri, kuru var sagriezt $5$ paralelogramos.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -520,6 +586,9 @@ Pierādīt, ka $x_1^2+x_2^2\ge 2(x_1+x_2)$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -549,6 +618,9 @@ Pierādīt, ka $RB=SB$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -580,6 +652,9 @@ ir bezgalīgi daudz atrisinājumu naturālos skaitļos.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -598,6 +673,9 @@ Pamatojiet savu atbildi.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -617,6 +695,9 @@ Vai četrciparu skaitlis, kura pirmais cipars vienāds ar pēdējo, bet otrais a
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -644,6 +725,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -679,6 +763,9 @@ mazāko iespējamo vērtību.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -709,6 +796,9 @@ Abas riņķa līnijas krustojas punktos $A$ un $B$. Punktā $B$ riņķa līnijai
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -735,6 +825,9 @@ Skaitli $1991$ dalot ar $a$, atlikumā iegūst $9$. Kāds var būt $a$ ?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -755,6 +848,9 @@ ir vismaz $3$ dažādas saknes.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -779,6 +875,9 @@ Par zebru sauksim figūru, kas ar vienu gājienu var pārvietoties par $2$ vai p
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -799,6 +898,9 @@ Viena trijstūra piramīda atrodas otras iekšpusē. Vai pirmās piramīdas šķ
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -818,6 +920,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -846,6 +951,9 @@ Dots, ka $\sin 4x<4\sin x$. Pierādīt, ka $\sin x>0$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -866,6 +974,9 @@ Divas riņķa līnijas ar centriem $A$ un $B$ katra pieskaras abām leņķa mal�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -882,6 +993,9 @@ Cik ir dažādu trijstūra piramīdu ar šķautņu garumiem $2$, $3$, $3$, $4$, 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -906,6 +1020,9 @@ Pierādīt, ka $a_{10}$ savā pierakstā satur vismaz $1000$ devītniekus.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -931,6 +1048,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

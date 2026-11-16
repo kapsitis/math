@@ -15,6 +15,9 @@ burkā, ja Artūrs apēdīs visus atlikušos gurķīšus? (Artūrs ēda tikai gu
 * _hasReasoningMethod: NumericalEstimation
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -49,6 +52,9 @@ Kāds ir $999.$ loceklis Raimonda virknē un kāds - Laines virknē?
 * _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -90,6 +96,9 @@ vertikāli) būtu vismaz viena iekrāsota rūtiņa?
 * _hasReasoningMethod:
 * _hasReasoningMistake: ProofByExampleForUniversalClaim
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -127,6 +136,10 @@ skaitlis?
 * _hasReasoningMethod: ParityArgument, ProofByContradiction, CompleteEnumeration, NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -171,6 +184,9 @@ naudaszīmju komplektu!
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -233,6 +249,9 @@ $25~\mathrm{cm^{2}}$.
 * _hasReasoningMethod: ParallelogramProperties,ScalingByLinearRatio
 * _hasReasoningMistake: WrongAreaProportionality
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -267,6 +286,9 @@ Kāds ir $1000.$ loceklis Viļņa virknē un kāds - Armanda virknē?
 * _hasReasoningMethod: PeriodicSequence, ParityArgument
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -310,6 +332,9 @@ nevarētu izgriezt $2 \times 3$ rūtiņu taisnstūri, kam visas rūtiņas ir bal
 * _hasReasoningMethod: ProofByContradiction,PackingDisjointShapes
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: high
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -337,6 +362,9 @@ burti apzīmē vienādus ciparus, dažādi -- dažādus, turklāt $A$ nav $0$.
 * _hasReasoningMethod: NumberConstruction
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -370,6 +398,10 @@ iegūt tieši tikpat dažādos veidos, kā metot divus parastus metamos kauliņu
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections, ImplicitAssumptionAboutObjectsBeingDistinct, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: high
+* _questionType:A: QTY_FindAll,QTY_FindValue
+* _questionType:B: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -434,6 +466,9 @@ cipariem $2,\ 0,\ 1,\ 8$ ?
 * _hasReasoningMethod: RuleOfProductIndependentChoices, RuleOfSumDisjointCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ImplicitAssumptionAboutObjectsBeingDistinct, ConfusingOrderedVsUnorderedSelections
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -475,6 +510,9 @@ locekļu summu!
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities,DetectPeriodInRecursiveSequence
 * _hasReasoningMistake: ConcreteToGeneralLeap, CircularReasoningOrAssumingTheConclusion
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -523,6 +561,9 @@ ka $CD>\frac{1}{2}(CA+CB-AB)$.
 * _hasReasoningMethod: TriangleInequality
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -557,6 +598,9 @@ $(n-2021)(n-2018)(n-2017)(n-2016)=2016$ būtu patiesa!
 * _hasReasoningMethod: NumberConstruction
 * _hasReasoningMistake: UnstatedNumberSetAssumption, FactoringWithoutIntegerCondition
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -590,6 +634,9 @@ spoguļattēlā.
 * _hasReasoningMethod: AreaCounting
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: high
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -629,6 +676,9 @@ $\left(x^{2}-2 x+1\right)\left(x^{4}+1\right)^{2}\left(x^{2}+2x+1\right)\left(x^
 * _hasReasoningMethod: UseStandardIdentities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -661,6 +711,9 @@ Kāds ir šīs virknes $2018.$ loceklis?
 * _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -698,6 +751,9 @@ zināms, ka $ABCD$ laukums ir $100$.
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, ParallelogramProperties, AuxiliaryLines
 * _hasReasoningMistake: FromSpecialToGeneral, AreaWithoutPosition, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -741,6 +797,10 @@ centrālajā rūtiņā ir ierakstīts skaitlis $\frac{n^{2}+1}{2}$, ja **(A)** $
 * _hasReasoningMethod: ConstructiveExampleForExistence, FixedInvariantNumeric
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -798,6 +858,10 @@ neiekrāsotas?
 * _hasReasoningMethod: ProofByContradiction,PackingDisjointShapes
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: high
+* _questionType:A: QTY_FindOptimal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -848,6 +912,10 @@ reālas saknes?
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: CaseAnalysisIncomplete, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType:A: QTY_FindAll
+* _questionType:B: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -898,6 +966,9 @@ trīs dažādos veidos: $4=1+1+1+1=1+3=3+1$.
 * _hasReasoningMethod: RecursiveSequenceForCounting, RuleOfSumDisjointCases, ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: ConfusingOrderedVsUnorderedSelections, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: high
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -964,6 +1035,9 @@ ir līdzīgi!
 * _hasReasoningMethod: AngleChasing, CyclicQuadrilateral, IsoscelesTriangleProperties, SimilarTriangles
 * _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, UnstatedDirectionAssumption
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -999,6 +1073,9 @@ un kuram neviens cipars nav $0$.
 * _hasReasoningMethod: BoundingArgument, CompleteEnumeration, NumberConstruction
 * _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityRule, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1039,6 +1116,9 @@ $5 \times 8$ rūtiņas, lai katrā šī taisnstūra $2 \times 3$ rūtiņu taisns
 * _hasReasoningMethod: ProofByContradiction, AreaInvarianceAndDecomposition
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1086,6 +1166,9 @@ laukums ir naturāls skaitlis!
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1148,6 +1231,9 @@ atšķiras izdarīto lēcienu secība.)
 
 * questionType:QTY_FindValue
 * domain:Comb
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1206,6 +1292,9 @@ $MN$ garums ir vienāds ar pusi no trijstūra $ABC$ perimetra!
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1238,6 +1327,9 @@ Pierādīt, ja $x$ - naturāls skaitlis, tad $x^{8}-x^{2}$ dalās ar $252$.
 * questionType:QTY_Prove
 * domain:NT
 * concepts:divisibility
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
   
 </small>
 
@@ -1349,6 +1441,9 @@ vienu šādu četru naudaszīmju komplektu!
 
 * questionType:QTY_ConstructExample
 * domain:Comb
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1406,6 +1501,9 @@ $1^{3}+2^{3}+3^{3}+\cdots+n^{3}=(1+2+3+\cdots+n)^{2}$.
 * questionType:QTY_Prove
 * domain:Alg
 * method:MTH_InductionWithStepOne
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
   
 </small>
 
@@ -1458,6 +1556,9 @@ $1 \times 4$.
 
 * questionType:QTY_FindValue
 * domain:Geom
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1516,6 +1617,9 @@ $\sphericalangle QAR=2 \sphericalangle XAY$.
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1546,6 +1650,9 @@ Vai eksistē tādi naturāli skaitļi $m$ un $n$, ka $m^{2}-n^{2}=2mn$ ?
   
 * questionType:QTY_Decide
 * domain:Alg
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
   
 </small>
 
@@ -1599,6 +1706,9 @@ Aprēķināt šī trijstūra laukumu!
 
 * questionType:QTY_FindAll
 * domain:Geom
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1651,6 +1761,9 @@ $$\log _{81} 96=\frac{14-\log _{48} 54}{16 \log _{48} 54-4}$$
 
 * questionType:QTY_Prove
 * domain:Alg
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1687,6 +1800,9 @@ dažādi.)
 
 * questionType:QTY_FindValue
 * domain:Comb
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1731,6 +1847,9 @@ $EBD^{\prime}$ ievilktās riņķa līnijas rādiusu!
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1769,6 +1888,9 @@ ciparus. Zināms, ka $A+B=10^{45}$. Pierādīt, ka gan $A$, gan $B$ dalās ar $5
 * concepts:divisibility
 * questionType:QTY_Prove
 * domain:NT
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
   
 </small>
 
@@ -1829,6 +1951,10 @@ Trijstūri sauc par vienkrāsas, ja tam visas malas ir nokrāsotas vienā krās�
 * questionType:B: QTY_Decide
 * domain:Geom
 * method:MTH_PigeonholePrincipleBasic
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

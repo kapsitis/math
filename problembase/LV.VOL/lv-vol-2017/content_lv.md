@@ -8,6 +8,9 @@ un pamatojiet, ka citu nav!
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_NumericSets
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -34,6 +37,9 @@ laukumu riņķim, kura diametrs ir $MN$.
 * questionType:
 * domain:
 * _subdomain: DOM_Area
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -65,6 +71,9 @@ būt sākotnējais skaitlis?
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Cryptarithm
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -120,6 +129,9 @@ Pierādīt, ka $x^{4}-x^{2}-3x+4>0$ visiem reāliem $x$.
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -151,6 +163,9 @@ dažādi skaitļi?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -191,6 +206,10 @@ $x_{1}^{2}+x_{2}^{2}+2017$; **(B)** $x_{1}^{3}+x_{2}^{3}$ ir naturāls skaitlis!
 * questionType:B:
 * domain:
 * _subdomain: DOM_IntegerPolynomials
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -243,6 +262,9 @@ pirmskaitlis!
 * topic:ExhaustionMethod
 * concepts:primes
 * _subdomain: DOM_DigitManipulation
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -364,6 +386,9 @@ $\sphericalangle ABD+\sphericalangle BDC=90^{\circ}$.
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -402,6 +427,9 @@ katrā komplektā būtu trīs kartītes, uz kurām uzrakstīto skaitļu summa ir
 * questionType:
 * domain:
 * _subdomain: DOM_NumberPartitionsCompositions
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -432,6 +460,9 @@ no šīm valstīm. Kāds ir mazākais iespējamais kopējais ceļojumu skaits?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -468,6 +499,9 @@ iepriekšējo?
 * questionType:
 * domain:
 * _subdomain: DOM_CountingObjects
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -489,6 +523,9 @@ lielāks?
 * questionType:
 * domain:
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -518,6 +555,9 @@ un $C$ atrodas uz vienas taisnes!
 * questionType:
 * domain:
 * _subdomain: DOM_Locus
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -545,6 +585,9 @@ tā, lai to summa dalītos ar $9$.
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Congruences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -604,6 +647,10 @@ $N=15$?
 * questionType:B:
 * domain:
 * _subdomain: DOM_CombinatorialGames
+* _questionType:A: QTY_DecideWinner
+* _questionType:B: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -725,6 +772,9 @@ krusto $x$ asi kādā intervāla $[-1 ; 1]$ punktā!
 * questionType:
 * domain:
 * _subdomain: DOM_RealFunctions
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -750,6 +800,9 @@ ir reāli pozitīvi skaitļi!
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -790,6 +843,9 @@ laukums!
 * questionType:
 * domain:
 * _subdomain: DOM_Area
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -861,6 +917,9 @@ naturāla skaitļa kvadrāts!
 * questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -916,6 +975,9 @@ darbu komisijās?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

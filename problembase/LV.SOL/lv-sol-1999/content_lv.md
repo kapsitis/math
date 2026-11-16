@@ -6,6 +6,9 @@ Uzrakstīt vienādību, kas satur $x$ un ir pareiza, ja $x$ vietā ievieto jebku
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -27,6 +30,9 @@ Sanumurēt $2.$ zīmējumā parādīto taišņu krustpunktus ar skaitļiem no $1
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -47,6 +53,9 @@ Kāds ir lielākais daudzums pēc kārtas ņemtu naturālu trīsciparu skaitļu,
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -67,6 +76,9 @@ Rūtiņas malas garums ir $1$. Kvadrāts, kas sastāv no $50 \times 50$ rūtiņ�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -83,6 +95,9 @@ Uz tāfeles uzrakstīti astoņi divnieki. Ar vienu gājienu atļauts nodzēst di
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -118,6 +133,9 @@ ja $a>0$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -183,6 +201,9 @@ Katrs lācis apēda pa spainim ogu; spainī bija gan avenes, gan lācenes (visi 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -213,6 +234,9 @@ Pierādīt, ka var atrast tādus tenisistus $A$, $B$, $C$, ka $A$ uzvarējis pre
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -229,6 +253,9 @@ Piecstūra visas malas vienādas un visi leņķi arī vienādi. Vai to var sagri
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -249,6 +276,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -287,6 +317,9 @@ dažādus racionālus skaitļus tā, ka neviens no tiem nav vesels, bet katru di
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -315,6 +348,9 @@ ir $3$ saknes $x=a$, $x=b$, $x=c$ (pārbaudi izdara, ievietojot $x$ vērtības v
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -335,6 +371,9 @@ Cikos Lutausis būs pusceļā starp Betu un Sprīdīti?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -353,6 +392,9 @@ Kāds ir lielākais iespējamais draudzību skaits?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -371,6 +413,9 @@ Vai noteikti $m^2$ dalās ar $n^3$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -387,6 +432,9 @@ Vai var atzīmēt plaknē $10$ punktus tā, lai katri trīs no tiem būtu platle
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -405,6 +453,9 @@ Cik pavisam bija rūķīšu?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -427,6 +478,9 @@ Kādas ir iespējamās $x$ vērtības?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -455,6 +509,9 @@ Atrast visus naturālos skaitļus, kas vienādi ar sava kvadrāta ciparu summu.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -471,6 +528,9 @@ Hokeja mačs starp "Gigantiem" un "Milžiem" beidzās ar rezultātu $9:7$ "Gigan
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -493,6 +553,9 @@ Pierādīt, ka ap četrstūri $ADHE$ var apvilkt riņķa līniju.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -535,6 +598,9 @@ nav atrisinājumu naturālos skaitļos.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -578,6 +644,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -616,6 +685,9 @@ Apspriedē piedalās $9$ dalībnieki. Neviens nepārvalda vairāk nekā trīs va
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -635,6 +707,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -660,6 +735,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -695,6 +773,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -741,6 +822,9 @@ Atrast $f(3600)$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -773,6 +857,9 @@ Spēlē piedalās divi spēlētāji, gājienus izdara pēc kārtas. Kas nevar iz
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

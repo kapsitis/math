@@ -6,6 +6,9 @@ Vai var pa apli uzrakstīt visus naturālos skaitļus no $1$ līdz $15$, katru t
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -26,6 +29,9 @@ Kvadrāts sastāv no $3 \cdot 3$ rūtiņām. Sākumā tās visas ir tukšas. Vai
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -49,6 +55,9 @@ Taisnstūris sastāv no $3 \cdot 4$ rūtiņām. Vai rūtiņās var ierakstīt na
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -70,6 +79,9 @@ Klasē ir $8$ zēni un $5$ meitenes. Katrs zēns draudzējas ar tieši $2$ meite
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -86,6 +98,9 @@ Kvadrāts sastāv no $3 \cdot 3$ rūtiņām. Andris rūtiņās ierakstījis natu
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -110,6 +125,9 @@ Aukla sākotnēji bija $10$ km gara. To sagrieza $2$m, $3$m un $5$m gabalos tā,
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -126,6 +144,9 @@ Par naturāla skaitļa $n$ faktoriālu sauc visu naturālo skaitļu reizinājumu
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -148,6 +169,9 @@ Klasē ir $31$ skolēns. Katrs no viņiem nosūtīja apsveikumu vai nu $2$ vai $
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -164,6 +188,9 @@ Seši laupītāji dala $23$ zelta monētas. To masas ir $79$g, $80$g, $81$g, ...
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -184,6 +211,9 @@ Andris, Dzintars, Juliata un Gunārs katrs sadalīja $1$. zīm. redzamo figūru 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -208,6 +238,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -230,6 +263,9 @@ Gatavojoties olimpiādei, Andris $5$ nedēļas risināja uzdevumus. Katru nāko�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -250,6 +286,9 @@ Andris, Dzintars un Gunārs katrs sadalīja vienu un to pašu riņķa līniju $2
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -270,6 +309,9 @@ Kādu lielāko daudzumu naturālo skaitļu no $1$ līdz $2004$ var izvēlēties 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -286,6 +328,9 @@ Futbola turnīrā piedalījās vismaz $5$ komandas; katra ar katru citu spēlēj
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -310,6 +355,9 @@ Vai divu lineāru funkciju $y=k_1\cdot x+a_1$ un $y=k_2\cdot x+a_2$ grafiki var 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -326,6 +374,9 @@ Vai visi skaitļi $x+y-z$, $2\cdot x-3\cdot y+z$ un $-8\cdot x+7\cdot y-z$ var v
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -342,6 +393,9 @@ Vai eksistē $2$ izliekti četrstūri, katram no kuriem katra mala atrodas uz k�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -371,6 +425,9 @@ Kāda var būt visu tabulā ierakstīto skaitļu summa?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -392,6 +449,9 @@ Cik vecs ir Dzintars, cik – Andris? (Vecumu mēra veselos gados.)
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -408,6 +468,9 @@ Atrisināt reālos skaitļos vienādojumu $(4x+3)^2(2x+1)(x+1)=9$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -450,6 +513,9 @@ No sākuma uz tāfeles uzrakstīts skaitlis $2$. Ar $1.$, $3.$, $5.$, ... gājie
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -470,6 +536,9 @@ Dots, ka $\angle AOD=90^{\circ}$, $AB=x$, $CD=y$, $M$-$BC$ viduspunkts, $N$-$AD$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -495,6 +564,9 @@ Cik klasē ir tādu bērnu, kam šajā pašā klasē mācās vai nu brālis, vai
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -520,6 +592,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -559,6 +634,9 @@ grafiks? (Ordinātu ass atrašanās vieta nav noteikta.)
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -577,6 +655,9 @@ $$10^x-3^y=7$$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -595,6 +676,9 @@ Trijstūrī $ABC$ punkts $M$ ir malas $AB$ viduspunkts, punkts $N$ ir malas $AC$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -615,6 +699,9 @@ Kādiem naturāliem $n$ kubu ar izmēriem $n\times n\times n$ var salikt no kluc
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -638,6 +725,9 @@ Profesors Cipariņš izdomājis jaunu barjerskriešanas disciplīnu. Sacensības
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -654,6 +744,9 @@ Dots, ka $\dfrac{x}{x^2+x+1}=a$. Izteikt $\dfrac{x^2}{x^4+x^2+1}$ ar $a$ palīdz
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -682,6 +775,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -708,6 +804,9 @@ dalās ar $3^{2004}$?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -736,6 +835,9 @@ Pierādīt, ka taisnes $AA_1$, $BB_1$, $CC_1$ krustojas vienā punktā.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -756,6 +858,9 @@ Katra no $n$-stūra prizmas virsotnēm jānokrāso balta, sarkana vai zaļa. Jā
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -780,6 +885,9 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu bez atrastajām nav.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -803,6 +911,9 @@ Kādam mazākajam naturālam $n$ skaitlis $9^n+2^n$ dalās ar $11^3$?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -839,6 +950,9 @@ Regulārā tetraedrā katras šķautnes garums ir $1$. Projicējam šo tetraedru
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -859,6 +973,9 @@ Cik dažādus summas vektorus var iegūt?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -881,6 +998,9 @@ Pierādīt, ka $|x_{2004}|\le 1$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

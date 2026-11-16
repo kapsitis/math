@@ -6,6 +6,9 @@ Rindā uzrakstīti visi naturālie skaitļi no $1$ līdz $1000$ ieskaitot, katrs
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -22,6 +25,9 @@ Naturālam trīsciparu skaitlim pirmo ciparu palielināja par $3$, otro - par $2
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -38,6 +44,9 @@ Naturālā desmitciparu skaitlī vienādus ciparus aizstāja ar vienādiem burti
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -61,6 +70,9 @@ $2$. zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -86,6 +98,9 @@ b) Vai tās var būt citādas?
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence,QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -108,6 +123,9 @@ Vai kvadrātu, kas sastāv no $7 \cdot 7$ rūtiņām, var sagriezt kvadrātos, k
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -124,6 +142,9 @@ Krūzē ir tīra kafija un piens vienādās daļās. Profesors Cipariņš nodzē
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -142,6 +163,9 @@ Kvadrāts sastāv no $4 \cdot 4$ rūtiņām. Tajās jāieraksta naturāli nepār
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -164,6 +188,9 @@ Cik klasē ir zēnu, un cik no viņiem ir meļi?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -180,6 +207,9 @@ Klasē ir $34$ skolēni. Visi sēž $17$ divvietīgos solos. Ir zināms, ka tie�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -196,6 +226,9 @@ Dots, ka $a$, $b$, $c$ - dažādi pozitīvi skaitļi. Vai var eksistēt tāds sk
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -215,6 +248,9 @@ b) Vai to var izdarīt tā, lai katrā rindiņā un katrā kolonnā ierakstīto 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -237,6 +273,9 @@ Andris uzrakstīja piecciparu skaitli, izsvītroja no tā vienu ciparu un iegūt
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -253,6 +292,9 @@ Kvadrāts sastāv no $9 \cdot 9$ rūtiņām. Tajā atzīmētas $9$ rūtiņas tā
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -269,6 +311,9 @@ Plaknē uzzīmēti $6$ nogriežņi. Nekādi divi no tiem neatrodas uz vienas tai
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -289,6 +334,9 @@ Uz sakarības $y=\frac{1}{x}$ grafika ņemti $2$ punkti $A$ un $B$ un no tiem no
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -305,6 +353,9 @@ Vai eksistē $100$ dažādi veseli skaitļi, kuru summa vienāda ar to reizināj
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -325,6 +376,9 @@ Trijstūra $MNK$ malas vienādas ar trijstūra $ABC$ mediānām (katra mala - ar
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -349,6 +403,9 @@ $$\operatorname{LKD}(x,y)=52;\ \operatorname{LKD}(x,z)=54;\ \operatorname{LKD}(y
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -371,6 +428,9 @@ Kvadrāts sastāv no $11\times 11$ rūtiņām. Tajā iezīmētas $28$ tādas fig
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -397,6 +457,9 @@ Uz koordinātu asīm nav uzrādīti mērogi. Vai var gadīties, ka 5.zīm. attē
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -413,6 +476,9 @@ Pierādīt: trijstūra $ABC$ tā ārējā leņķa bisektrise, kas atrodas pie vi
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -435,6 +501,9 @@ Dots, ka $p$ – pirmskaitlis. Pierādīt, ka $p^4-1$ dalās vai nu ar $15$, vai
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -453,6 +522,9 @@ Riņķa līnija ar rādiusu $R$ pieskaras $\triangle ABC$ malām $AB$ un $BC$, b
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -481,6 +553,9 @@ Kvadrātisks režģis sastāv no $5\cdot5$ vienādām kvadrātiskām rūtiņām 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -508,6 +583,9 @@ Dots, ka $a>0$ un $b>0$. Pierādīt: taisne, kuras vienādojums ir $\frac{x}{a}+
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -524,6 +602,9 @@ Vai eksistē tādi racionāli skaitļi $x$ un $y$, ka vienlaicīgi $x\ne0$, $y\n
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -542,6 +623,9 @@ $$R_{12}\cdot R_{34}=R_{13}\cdot R_{24}.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -562,6 +646,9 @@ Dots, ka $a$, $b$, $c$ – pozitīvi skaitļi un $abc=1$. Pierādīt, ka $a^2+b^
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -578,6 +665,9 @@ Klasē ir $6$ aktīvisti. Katri divi aktīvisti veido tieši vienu komisiju. Atr
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -603,6 +693,9 @@ Divas paralēlas taisnes krusto funkcijas $y=x^2$ grafiku: viena taisne - punkto
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -623,6 +716,9 @@ Klasē ir $5$ aktīvisti. Viņi izveidojuši vairākas komisijas. Katrā komisij
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -641,6 +737,9 @@ Riņķa līnijas $W_1$ un $W_2$ krustojas punktos $A$ un $B$. Riņķa līnijas $
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -665,6 +764,9 @@ $\sin(\alpha+\beta)\cdot \sin(\beta+\gamma)\cdot \sin(\gamma+\delta)\cdot \sin(\
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -693,6 +795,9 @@ ja $n$- patvaļīgs piecciparu naturāls skaitlis, tad $M$ ciparus var pārkārt
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -713,6 +818,9 @@ Dots, ka $a$, $b$, $c$ – reāli skaitļi un $|a-b|<c<a+b$. Vai noteikti $|a-c|
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -729,6 +837,9 @@ Vai eksistē tādi naturāli skaitļi $x$ un $y$, ka abi skaitļi $7^x \cdot 2^y
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -745,6 +856,9 @@ Dots, ka $ABCDE$ ir izliekts piecstūris, pie tam $AB\parallel CE$, $BC\parallel
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -765,6 +879,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -799,6 +916,9 @@ Futbola turnīrā piedalījās $28$ komandas, katra ar katru citu spēlēja tie�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

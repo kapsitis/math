@@ -6,6 +6,9 @@ Atrast $7$ saliktus trīsciparu skaitļus, katram no kuriem ciparu reizinājums 
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -22,6 +25,9 @@ Vai var uzzīmēt plaknē $7$ starus tā, lai katrs no tiem krustotu tieši divu
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -45,6 +51,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -63,6 +72,9 @@ Pierādīt, ka naturālos skaitļus no $1$ līdz $29$ ieskaitot var tā uzrakst�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -83,6 +95,9 @@ Uz tāfeles uzrakstīti skaitļi $2$; $4$; $6$. Ar vienu gājienu atļauts nodz�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -108,6 +123,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -131,6 +149,9 @@ Vai naturālos skaitļus no $1$ līdz $25$ ieskaitot var izrakstīt rindā katru
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -149,6 +170,9 @@ Uzzīmēt a) desmitstūri, b) piecpadsmitstūri ar īpašību: uz katras taisnes
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -175,6 +199,9 @@ Cik no iedomātajiem skaitļiem var būt dažādi?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -195,6 +222,9 @@ Naturālā skaitlī $x$ katrs nākošais cipars ir lielāks par iepriekšējo. P
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -227,6 +257,9 @@ $$(a-b)^3+(b-c)^3+(c-a)^3.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -250,6 +283,9 @@ Pierādīt: ja $n \ge 7$ un $n$ – nepāra skaitlis, tad skaitli $n^2$ var izsa
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -270,6 +306,9 @@ Trīs smagākās loma zivis kopā svēra $35\%$ no visa loma. Pēc to pārdošan
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -294,6 +333,9 @@ Pierādīt, ka trijstūros $AMK$, $BNM$, $CKN$ ievilkto riņķa līniju centri a
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -316,6 +358,9 @@ No $10$ cilvēkiem katrs ir ienaidā ar augstākais $4$ citiem. Pierādīt, ka c
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -341,6 +386,9 @@ Pierādīt, ka $x \cdot y<a \cdot b$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -362,6 +410,9 @@ Pierādīt, ka otrais trijstūris ir šaurleņķu.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -388,6 +439,9 @@ Kādi skaitļi bija uzrakstīti uz lapiņām?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -410,6 +464,9 @@ Pierādīt, ka ap trijstūriem $ABC$ un $ABH$ apvilkto riņķa līniju rādiusi 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -436,6 +493,9 @@ Taisnstūris sastāv no $5\cdot 15$ vienādām kvadrātiskām rūtiņām. Pierā
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -458,6 +518,9 @@ No $8$ policistiem jāizveido $4$ pāri nakts dežūrai. Cik dažādu sadalījum
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -478,6 +541,9 @@ Pierādīt, ka taisnes $AM$, $BN$ un $CK$ krustojas vienā punktā.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -510,6 +576,9 @@ Kādiem naturāliem skaitļiem $n$ piemīt īpašība: jebkuriem divu $n$ dalīt
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -538,6 +607,9 @@ $$x^2y^2\left(x^2+y^2-3\right)\ge -1.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -568,6 +640,9 @@ Pierādiet, ka otrais spēlētājs var panākt, lai pirmais neuzvarētu.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -594,6 +669,9 @@ b) Dots, ka $\sin x=\sin y$. Vai noteikti $\sin 4x=\sin 4y$?
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -624,6 +702,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -665,6 +746,9 @@ dalās ar $323$?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -715,6 +799,9 @@ Dots vienādsānu trijstūris $ABC$, kur $AB=AC$. Tā iekšpusē ņemts punkts $
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -745,6 +832,9 @@ Regulāra $2n$-stūra virsotnēs ierakstīti naturāli skaitļi no $1$ līdz $2n
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

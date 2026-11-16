@@ -6,6 +6,9 @@ Dots, ka $a$ un $b$ – reāli pozitīvi skaitļi. Pierādiet, ka $\frac{a}{a+1}
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -22,6 +25,9 @@ Trisstūrī $ABC$ malu $AB$, $BC$ un $AC$ viduspunkti ir attiecīgi punkti $D$, 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -42,6 +48,9 @@ Kādiem $n$ regulāru sešstūri ar malas garumu $n$ var sagriezt tādās figūr
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -64,6 +73,9 @@ b) pirmais cipars, ja pēdējais cipars ir $1$?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -88,6 +100,9 @@ Pie sienas ir lampiņas, kas pēc kārtas sanumurētas ar naturāliem skaitļiem
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -108,6 +123,9 @@ Dots, ka $a^2 + ab + ac < 0$. Pierādiet, ka $b^2 > 4ac$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -128,6 +146,9 @@ Vai var rindā uzrakstīt $2010$ dažādus skaitļus $a_1$, $a_2$, ..., $a_{2010
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -146,6 +167,9 @@ $$n = pqrs = 2p^{10} - 38 \quad (p, q, r, s \text{ – dažādi pirmskaitļi}).$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -166,6 +190,9 @@ Piramīdas pamats ir daudzstūris ar nepāra skaitu malu. Vai uz visām tās š�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -183,6 +210,9 @@ Ir deviņas lampiņas, kas pēc kārtas sanumurētas ar naturāliem skaitļiem n
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -203,6 +233,9 @@ $$7^x+8^y=13^z$$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -219,6 +252,9 @@ Riņķa līnijā $\omega_1$ ar centru punktā $O_1$ novilkta horda $AB$ un tai p
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -241,6 +277,9 @@ Dota virkne $x_0>1$, $x_{n+1}=x_n+\dfrac{1}{x_n^2}$ ($n=0, 1, 2 \ldots$). Pierā
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -257,6 +296,9 @@ Dota kvadrātveida tabula ar izmēriem $15 \times 15$ rūtiņas. Katra tās rūt
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -273,6 +315,9 @@ Plaknē doti $100$ zili un $100$ sarkani punkti, nekādi trīs no tiem neatrodas
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -291,6 +336,9 @@ Vai eksistē tāda $a$ vērtība, ka vienādojumam $\sin x=ax$ ir tieši $2010$ 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -309,6 +357,9 @@ Vai eksistē tāda trijstūra piramīda, kurā no katras sānu šķautnes vidusp
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -351,6 +402,9 @@ Aprēķiniet izteiksmes $\operatorname{arctg}1+\operatorname{arctg}2+\operatorna
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -373,6 +427,9 @@ Dots, ka naturāls skaitlis $n=2\cdot(10^k+5)$ dalās ar $67$ ($k$ – vesels sk
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -400,6 +457,9 @@ Vai ar šo kalkulatoru, lietojot to vairākkārt, no četrinieka $(3,4,2,1)$ var
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

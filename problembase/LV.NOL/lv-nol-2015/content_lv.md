@@ -15,6 +15,9 @@ Braukšanas ātrums visā ceļa posmā bija viens un tas pats.
 * _hasReasoningMethod: NumericalEstimation
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -45,6 +48,9 @@ palīgiem?
 * _hasReasoningMethod: FixedInvariantNumeric
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -84,6 +90,9 @@ grozīt, bet nedrīkst apmest otrādi.
 * _hasReasoningMethod:
 * _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -115,6 +124,9 @@ citu nav!
 * _hasReasoningMethod: PrimeFactorization, DivisibilityRules, ParityArgument, CompleteEnumeration
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, UnstatedNumberSetAssumption
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -160,6 +172,9 @@ nav iespējams precīzi noteikt tajā esošā ūdens daudzumu.
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -201,6 +216,9 @@ eiro un otrās - $21$ eiro! (Pakas cena veidojas, saskaitot tajā ielikto
 * _hasReasoningMethod: NumericalEstimation
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -229,6 +247,9 @@ darbības, var panākt, ka kādā brīdī visās lādēs būs vienāds skaits mo
 * _hasReasoningMethod: FixedInvariantNumeric
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -263,6 +284,9 @@ Vai iespējams, ka neviena no šīm summām nav pirmskaitlis?
 * _hasReasoningMethod: NumberConstruction
 * _hasReasoningMistake: PrimeOnePointConfusion
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -294,6 +318,9 @@ rūtiņu malām.
 * _hasReasoningMethod: ColoringInvariant, CaseAnalysis
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: high
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -344,6 +371,9 @@ vērtības!
 * _hasReasoningMethod: CompleteEnumeration, PrimeFactorization
 * _hasReasoningMistake: UnstatedNumberSetAssumption, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -374,6 +404,9 @@ Atrisini vienādojumu $\frac{8a-5}{5}-\frac{2a-7}{2}=-3$.
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -411,6 +444,9 @@ tieši $2015$ mājlopus?
 * _hasReasoningMethod: InvariantMethod, ParityArgument
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -458,6 +494,9 @@ Vai iespējams, ka visas iegūtās summas ir pirmskaitļi?
 * _hasReasoningMethod: NumberConstruction, ParityArgument, CompleteEnumeration
 * _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -494,6 +533,9 @@ skaitlis?
 * _hasReasoningMethod: CaseAnalysis
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -531,6 +573,9 @@ atsvariem var noteikt katra veida monētu skaitu?
 * topic: WeighingComparisonsToCases
 * topic: WeighingAmongGroups
 * topic: WeighingToFindAuthenticObject
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -573,6 +618,10 @@ Pierādi, $ka$
 * _hasReasoningMethod: FactoringAlgebraicExpressions
 * _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases
 * _mistakesFit: medium
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -623,6 +672,9 @@ iespējams, ka "Šrotiņā" kāda mēneša $21.$ datumā būs tieši $2015$ maš
 * _hasReasoningMethod: InvariantMethod, DivisibilityRules, ModularArithmetic
 * _hasReasoningMistake: CarelessModularComputation, WrongDivisibilityRule, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -670,6 +722,9 @@ vismazākais, ja zināms, ka $a>b>c>d>0$? Pamato atbildi!
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, ProvingByEquivalenceChain
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion, WrongDirectionOfInequalityChain
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -721,6 +776,9 @@ $\sphericalangle MAN+\sphericalangle MCN=60^{\circ}$.
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
 * _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -754,6 +812,9 @@ naturāls skaitlis. Vai kvadrāta $ABCD$ perimetrs noteikti ir naturāls skaitli
 * _hasReasoningMethod: ParallelogramProperties
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -787,6 +848,9 @@ Atrisināt vienādojumu $\frac{5}{x^{2}-9}-\frac{1}{3-x}=\frac{1}{2}$.
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
 * _hasReasoningMistake: UncheckedConsistencyOfFoundValues, UnjustifiedCancellationOrCombination, RootLossByDivisionByExpression
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -841,6 +905,9 @@ ierakstīts skaitlis $2014$?
 * _hasReasoningMethod: FixedInvariantNumeric
 * _hasReasoningMistake: ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -875,6 +942,10 @@ līdzīgos trijstūros?
 * _hasReasoningMethod: SimilarTriangles, AuxiliaryLines
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, WrongTriangleSimilarityOrCongruence
 * _mistakesFit: high
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -933,6 +1004,10 @@ izdarīt!
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, CountTheSameQuantityInTwoWays, ProofByContradictionInAlgebra, ParityOrModularArgumentForEquations, BruteForceCheckOverFiniteSet
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, ConcreteToGeneralLeap
 * _mistakesFit: medium
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -992,6 +1067,9 @@ Pierādīt, ka visu šādu funkciju grafikiem ir divi kopīgi punkti!
 * _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: ConcreteToGeneralLeap
 * _mistakesFit: low
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1028,6 +1106,9 @@ $N(-3;-1)$. Noteikt koeficientus $a$, $b$ un $c$!
 
 * questionType:QTY_FindAll
 * domain:Alg
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1087,6 +1168,9 @@ Vai, atkārtoti izpildot šīs darbības, no skaitļa $30$ var iegūt skaitli $2
 * topic:Invariant
 * questionType:QTY_Decide
 * domain:NT
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1126,6 +1210,9 @@ pieņemt mazākais no šiem saskaitāmajiem?
 * topic:ExhaustionMethod
 * questionType:QTY_FindAll
 * domain:Alg
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1211,6 +1298,10 @@ ir veselu skaitļu pakāpes ar naturālu kāpinātāju, kas lielāks nekā $1$
 * questionType:A: QTY_Decide
 * questionType:B: QTY_Decide
 * domain:NT
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1274,6 +1365,9 @@ taisnleņķa!
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1305,6 +1399,9 @@ Atrisināt nevienādūbu $|x-2|-6+\frac{5}{|x-2|}>0$.
 
 * questionType:QTY_FindAll
 * domain:Alg
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1356,6 +1453,9 @@ ierakstīts skaitlis $2015$?
 
 * questionType:QTY_Decide
 * domain:Comb
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1390,6 +1490,9 @@ $a+b$, $a+c$, $b+c$ ir naturālu skaitļu kvadrāti?
 
 * questionType:QTY_FindOptimal
 * domain:NT
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1445,6 +1548,9 @@ $ACB$ un $ABX$ bisektrises krustojas punktā $D$. Pierādīt, ka $AD=AB$!
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1500,6 +1606,11 @@ $4 \times 4$ rūtiņas?
 * questionType:C: QTY_Decide
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionType:C: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1556,6 +1667,9 @@ $(x-2) \log _{\sqrt{6}}\left(x^{2}-5x\right)=2x-\log _{\sqrt{6}} 36$.
 
 * questionType:QTY_FindAll
 * domain:Alg
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1613,6 +1727,10 @@ Vai, atkārtoti izpildot šīs darbības, no skaitļa $139$ var iegūt skaitli
 * questionType:A: QTY_Decide
 * questionType:B: QTY_Decide
 * domain:NT
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1646,6 +1764,9 @@ kuriem neviens nav $0$ un neviens neatkārtojas vairāk kā divas reizes?
 
 * questionType:QTY_FindValue
 * domain:Comb
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1675,6 +1796,9 @@ Pierādīt, ka $S_{BFL}+S_{CMG}+S_{DNH}+S_{AKE}=S_{KLMN}$ !
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1719,6 +1843,10 @@ Vai eksistē tādi naturāli skaitļi $a,\ b$ un $c$, ka skaitļa $a^{2}+b^{2}+c
 * questionType:A: QTY_Decide
 * questionType:B: QTY_Decide
 * domain:NT
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

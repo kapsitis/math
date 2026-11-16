@@ -6,6 +6,9 @@ Plaknē novietotas $16$ taisnes. Kāds ir lielākais nogriežņu daudzums, kāds
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -26,6 +29,9 @@ Cik tādu funkciju ir?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -58,6 +64,9 @@ atrisinājums ir negatīvs.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -84,6 +93,9 @@ Vai $a+b$ var būt pirmskaitlis?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -104,6 +116,9 @@ Pierādīt, ka zēnu ir divas reizes vairāk nekā meiteņu.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -130,6 +145,9 @@ vērtību, ja $x=37^2$, $a=19^2$, $b=17^2$, $c=13^2$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -168,6 +186,9 @@ nav vesels.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -215,6 +236,9 @@ Pierādīt, ka $MNKL$ ir paralelograms.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -243,6 +267,9 @@ Vai var būt pionieru pulciņš ar $10$ biedriem, kuriem draugu skaits šajā pu
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -265,6 +292,9 @@ Pierādīt, ka $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}\leq \frac{41}{42}$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -297,6 +327,9 @@ Uzrakstīt tās parabolas vienādojumu, kuru iegūst no parabolas $y=x^2$, pārb
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -317,6 +350,9 @@ $$\frac{x}{1+y}+\frac{y}{1+x}\leq 1.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -343,6 +379,9 @@ Dots, ka $abc=1$ un $a+b+c=\frac{1}{a}+\frac{1}{b}+\frac{1}{c}$. Pierādīt, ka 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -377,6 +416,9 @@ kur $a$, $b$ ir katetes, bet $c$ – hipotenūza.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -415,6 +457,9 @@ Uzrādīt kaut vienu $100$-ciparu skaitli, kas nesatur nevienu ciparu $0$ un dal
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -433,6 +478,9 @@ Konstruēt kuba $ABCDA_1B_1C_1D_1$ šķēlumu ar plakni, kas iet caur šķautņu
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -479,6 +527,9 @@ Dots, ka $\sin x=\sin y$ un $\cos x=\cos y$. Pierādīt, ka $\frac{x-y}{\pi}$ ir
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -500,6 +551,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -530,6 +584,9 @@ Dots, ka naturāli skaitļi $a$, $b$, $c$, $d$ katrs dalās ar skaitli $a\cdot b
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -569,6 +626,9 @@ Pierādīt, ka skaitļa $2^n$ ciparu summa nevar būt $3$, ja $n$ naturāls skai
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -593,6 +653,9 @@ atvasinājumu.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -618,6 +681,9 @@ Atrast kosinusu leņķim starp kuba $ABCDA_1B_1C_1D_1$ skaldņu diagonālēm $CD
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -640,6 +706,9 @@ Kādiem naturāliem skaitļiem $n$ skaitlis $n^3+3$ dalās ar $n^2-n+1$?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -672,6 +741,9 @@ ir vismaz trīs dažādas saknes.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -700,6 +772,9 @@ Katrā bezgalīgas rūtiņu lapas rūtiņā ierakstīts pa naturālam skaitlim, 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -732,6 +807,9 @@ Atrast laukumu, ko ierobežo parabolas $y=(x-2)^2$ un $y=-4+6x-x^2$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -766,6 +844,9 @@ Vai eksistē daudzskaldnis ar $6$, $1988$, $1989$ skaldnēm, kuram visas skaldne
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -802,6 +883,9 @@ Vai šis apgalvojums paliek spēkā, ja ieraksta veselus skaitļus?
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -842,6 +926,9 @@ Aprēķināt $\sin a_2$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -884,6 +971,9 @@ Vai zirdziņš var staigāt tā, lai rezultātā visas rūtiņas kļūtu baltas?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

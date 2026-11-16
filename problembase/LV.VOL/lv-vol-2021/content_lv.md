@@ -16,6 +16,9 @@ ir atrisinājums.
 * questionType:
 * domain:
 * _subdomain: DOM_Equations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -44,6 +47,9 @@ ir, iekrāsotās rūtiņas neatrodas blakus un nesaskaras pat ar stūriem).
 * questionType:
 * domain:
 * _subdomain: DOM_GridColoring
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -80,6 +86,9 @@ $m^{5}+5n^{4}=81m$.
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -115,6 +124,9 @@ $\sphericalangle KB_{1}A_{1}=90^{\circ}$.
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -160,6 +172,9 @@ spēlētājs - pirmais vai otrais - uzvarēs, pareizi spēlējot?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialGames
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -196,6 +211,9 @@ priekšpēdējais cipars ir $7$.
 * questionType:
 * domain:
 * _subdomain: DOM_NumeralSystems
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -225,6 +243,9 @@ fiksētu skaitli $q$, tas ir, $x_{2}=qx_{1}, x_{3}=qx_{2}$ utt.
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities, DOM_RealSequences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -262,6 +283,9 @@ Pierādīt, ka $BP=BC$ vai $BP=AD$, ja zināms, ka $AB=AD+BC$.
 * questionType:
 * domain:
 * _subdomain: DOM_Quadrilaterals
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -301,6 +325,9 @@ vesela sakne. Kurš spēlētājs - pirmais vai otrais - uzvarēs, pareizi spēl�
 * questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_CombinatorialGames, DOM_Equations
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -338,6 +365,9 @@ pirmajā rindā!
 * questionType:
 * domain:
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -364,6 +394,9 @@ Pierādìt, ka $\sqrt[3]{6 \sqrt{3}+10}-\sqrt[3]{6 \sqrt{3}-10}=2$.
 * questionType:
 * domain:
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -386,6 +419,9 @@ $y_{5}+y_{6}$ mazākā iespējamā vērtība?
 * questionType:
 * domain:
 * _subdomain: DOM_Extremes, DOM_RealSequences
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -427,6 +463,9 @@ daudz elegantu skaitļu!
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumericConstructions
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -457,6 +496,9 @@ $BC, AD, AC$ var salikt taisnleņķa trijstūri!
 * questionType:
 * domain:
 * _subdomain: DOM_Quadrilaterals
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -498,6 +540,9 @@ labā malējā kvadrāta labo augšējo virsotni!
 * questionType:
 * domain:
 * _subdomain: DOM_Locus
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -538,6 +583,9 @@ malas attiecība pret garāko ir $2-\sqrt{2}$.
 * questionType:
 * domain:
 * _subdomain: DOM_CuttingCoversColoring
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -561,6 +609,9 @@ $$\frac{x^{2}+y^{2}}{x+y}+\frac{y^{2}+z^{2}}{y+z}+\frac{z^{2}+x^{2}}{z+x} \geq x
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -590,6 +641,9 @@ Agitas iedomāto skaitli?
 * questionType:
 * domain:
 * _subdomain: DOM_NumericGamesAndAlgorithms
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -643,6 +697,9 @@ nogriežņi $BE$ un $CD$ ir perpendikulāri!
 * questionType:
 * domain:
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -682,6 +739,9 @@ ir kāda vesela skaitļa kvadrāts.
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

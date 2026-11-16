@@ -7,6 +7,9 @@ Kādu mazāko vērtību var pieņemt izteiksme $x+\frac{2014}{x}$, ja $x>0$?
 * questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_Extremes
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -46,6 +49,10 @@ pirmajiem **(A)** $100$, **(B)** $2014$ locekļiem ir tādi, kas dalās ar $5$?
 * questionType:B: QTY_FindValue
 * domain:NT
 * _subdomain: DOM_IntegerSequences
+* _questionType:A: QTY_FindValue
+* _questionType:B: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -79,6 +86,9 @@ perpendikulārs $AY$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -119,6 +129,10 @@ iespējams panākt, ka pret savu plāksnīti atradīsies vairāk par vienu diplo
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _subdomain: DOM_MakingMoves
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -158,6 +172,9 @@ sakņu kubu summu.
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_Equations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -204,6 +221,9 @@ kur $x$, $y$, $z$ - veseli nenegatīvi skaitļi.
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -243,6 +263,9 @@ $\frac{n^{3}+3}{n+3}$, gan $\frac{n^{4}+4}{n+4}$ ir veseli skaitļi.
 * topic:DivisorNumberAndSum
 * concepts:integer-polynomial
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -368,6 +391,9 @@ ir lielākā summa, kuru nav iespējams apmaksāt izmantojot tikai šīs pastmar
 * topic:NumTheoryInequalityLargeIntervals
 * concepts:linear-expression
 * _subdomain: DOM_IntegerConditions
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -444,6 +470,9 @@ vidusperpendikulu punktā $F$. Pierādīt, ka $BC=2AF$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -494,6 +523,9 @@ nē. Kāds ir lielākais iespējamais partiju skaits, kas gatavojas vēlēšanā
 * questionType:QTY_FindOptimal
 * domain:Comb
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -535,6 +567,9 @@ naturālajam skaitlim, iegūtie skaitļi ir vienādi?
 * questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_NumericConstructions
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -563,6 +598,9 @@ $a,\ a+14,\ a+22,\ a+32,\ a+46$ var būt pirmskaitļi.
 * questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_PrimeFactors
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -603,6 +641,10 @@ ierakstīto četru skaitļu summa būtu vienāda ar $M$. Vai to var izdarīt, ja
 * questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_MagicConfigurations
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -645,6 +687,9 @@ $P,\ Q$ un $R$. Pierādīt, ka $A$ ir trijstūra $PQR$ bisektrišu krustpunkts.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -706,6 +751,9 @@ skaitļu kvadrātu summu.
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumberRepresentation
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -744,6 +792,9 @@ lielākais "+" zīmju skaits var būt šajā izteiksmē?
 * questionType:QTY_FindOptimal
 * domain:Comb
 * _subdomain: DOM_Extremes
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -779,6 +830,9 @@ spēkā sakarība $n+f(1)+f(2)+\ldots+f(n-1)=nf(n)$.
 * domain:Alg
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_RealSequences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -834,6 +888,9 @@ ir trijstūra $AEO$ augstums. Aprēķināt leņķa $AED$ lielumu grādos.
 * questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -892,6 +949,9 @@ iespējamais kopējais šaha partiju skaits, kas ir izspēlētas šajā festivā
 * method:MTH_PigeonholePrincipleBasic
 * method:MTH_StrongInduction
 * _subdomain: DOM_Graphs
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -971,6 +1031,9 @@ naturālo dalītāju, izņemot $1$ un $n$, kvadrātu summa vienāda ar $n^{2}$.
 * questionType:QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumericConstructions
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

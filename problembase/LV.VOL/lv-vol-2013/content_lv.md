@@ -11,6 +11,9 @@ $y$ simti, $z$ desmiti un $t$ vieni.)
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_NumeralSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -38,6 +41,9 @@ Pierādīt, ka $\triangle ACE=\triangle BDF$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Polygons
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -74,6 +80,9 @@ piemēram, $[3]=3,[4,6]=4,[0,2]=0$ u.tml.)
 * domain:Alg
 * method:MTH_InductionWithCombinedStep
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -118,6 +127,9 @@ kopsummā ieguva $92$ punktus. Cik punktus ieguva otra komanda?
 * questionType:QTY_FindAll
 * domain:Comb
 * _subdomain: DOM_WordProblems
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -196,6 +208,10 @@ malām, 1.zīm. figūra var būt pagriezta vai apgriezta spoguļattēlā.
 * questionType:B:
 * domain:Geom
 * subdomain:DOM_GridCut
+* _questionType:A: QTY_FindOptimal
+* _questionType:B: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -227,6 +243,9 @@ naturālos skaitļos.
 * topic:CountingUsingSymmetry
 * topic:NumTheoryInequalityLargeIntervals
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -280,6 +299,9 @@ Pierādīt, ka $EF \perp CD$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles, DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -309,6 +331,9 @@ mazāko iespējamo $f(x)$ vērtību.
 * questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_Extremes
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -340,6 +365,9 @@ kvadrāti.
 * topic:ModularArithmetic
 * concepts:fibonacci-sequence,full-square
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -422,6 +450,9 @@ kad - otrais (spēli vienmēr sāk pirmais spēlētājs)?
 * domain:Geom
 * subdomain:DOM_GridOther
 * _subdomain: DOM_CombinatorialGames
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -452,6 +483,9 @@ Pierādīt, ka nav tādas naturālas $n$ vērtības, ka $n^{2}+4n+16$ dalās ar 
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -478,6 +512,9 @@ punktā $D$. Pierādīt, ka $AD+BD=BC$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -522,6 +559,9 @@ Aprēķināt šī paralēlskaldņa pilnas virsmas laukumu un tilpumu.
 * questionType:QTY_FindAll
 * domain:Geom,Alg
 * _subdomain: DOM_WordProblems
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -552,6 +592,10 @@ $1250~\mathrm{cm}^{2}$, **(B)** $1300~\mathrm{cm}^{2}$?
 * questionType:B: QTY_Decide
 * domain:Geom
 * _subdomain: DOM_MaxMinGeometry
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -612,6 +656,10 @@ skaitlis.
 * domain:Comb
 * method:MTH_StrongInduction
 * _subdomain: DOM_Graphs
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -685,6 +733,9 @@ $AD \perp MN$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles, DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -724,6 +775,9 @@ $\left\{\begin{array}{l}\sin x+\cos y=\frac{3}{2} \mbox{tg}\ z \\ \sin y+\cos x=
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -758,6 +812,9 @@ Atrast visas šādas funkcijas $f$ un pierādīt, ka citu nav.
 * domain:NT
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_IntegerFunctionalEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -849,6 +906,9 @@ visas iespējamās $n$ vērtības.
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -890,6 +950,10 @@ ir uzrakstīta virkne **(A)** $abba$; **(B)** $aabbcabaab$?
 * questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_MakingMoves
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

@@ -6,6 +6,9 @@ Atrast naturālu skaitli, kura ciparu summa dalās ar $27$, bet pats ar $27$ ned
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -22,6 +25,9 @@ Parādi vienu piemēru, kā rūtiņu burtnīcas lapā nokrāsot dažas rūtiņas
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -42,6 +48,9 @@ Zināms, ka katrs klases skolēns nodarbojas ar vismaz vienu no trim aktivitāt�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -72,6 +81,9 @@ Uzzīmē divpadsmitstūri, kura visas malas novietotas uz $6$ taisnēm! Piemēra
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -92,6 +104,9 @@ Sniedzei ir $54$ piparkūkas un $10$ dāvanu maisiņi. Vai viņa var salikt pipa
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -108,6 +123,9 @@ Vai naturāla skaitļa ciparu reizinājums var būt $6930$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -124,6 +142,9 @@ Skaitļa $n$ pierakstā izmantoti tikai cipari $1$ un $2$. Vieninieku ir $7$ rei
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -140,6 +161,9 @@ Ekskursijā piedalījās $15$ skolēni. Visiem kopā līdzi bija ne mazāk kā $
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -156,6 +180,9 @@ Vai var uzzīmēt sešas taisnes tā, lai tām būtu tieši a) $6$ krustpunkti, 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -176,6 +203,9 @@ Atrast mazāko naturālo skaitli, kura ciparu reizinājums ir $210$ un kas dalā
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -192,6 +222,9 @@ Ekskursijā piedalījās $15$ skolēni. Visiem kopā līdzi bija ne mazāk kā $
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -208,6 +241,9 @@ Trijstūrī $ABC$ no virsotnēm novilkti nogriežņi $AM$, $BN$ un $CK$, kas kru
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -265,6 +301,9 @@ a) Vai noteikti visiem reāliem skaitļiem $x$ izpildās $3x^2 - 0{,}25x + 0{,}0
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -295,6 +334,9 @@ Par kādu vismazāko skaitli, veicot tikai atļautās operācijas, var pārveido
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -318,6 +360,9 @@ Izliektā četrstūrī $ABCD$ punkts $M$ ir malas $BC$ viduspunkts un punkts $N$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -339,6 +384,9 @@ Pierādīt, ka $a^2 + b^2 + \frac{1}{2} \ge a + b$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -358,6 +406,9 @@ Trīs no aritmētiskās progresijas locekļiem ir $41$; $113$; $193$. Atrast lie
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -374,6 +425,9 @@ Taisnstūra $ABCD$ iekšpusē atlikts punkts $P$. Pierādīt, ka $PA^2 + PC^2 = 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -400,6 +454,9 @@ Pierādīt, ka $(a^2 + b^2)(a^4 + b^4) \ge (a^3 + b^3)^2$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -431,6 +488,9 @@ No sākuma uz papīra lapas uzrakstīts skaitlis $16$. Ja uz lapas uzrakstīts s
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -453,6 +513,9 @@ Izliektā četrstūrī $ABCD$ diagonāles ir savstarpēji perpendikulāras. Pier
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -473,6 +536,9 @@ Pierādīt, ka $\frac{a+b}{a^2+b^2} \ge \frac{a^2+b^2}{a^3+b^3}$, ja $a$ un $b$ 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -503,6 +569,9 @@ Kādu lielāko daudzumu skaitļu var izvēlēties no kopas $\{1; 2; 3; \ldots; 2
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -529,6 +598,9 @@ Dots izliekts četrstūris $ABCD$. Zināms, ka $AC \perp BD$ un $AB = 10$, $BC =
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

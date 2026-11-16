@@ -9,6 +9,9 @@ Pierādīt, ka $\frac{1}{a+c}+\frac{1}{b+c}=\frac{2}{a+b}$
 * questionType:
 * domain:
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -36,6 +39,9 @@ atrodas uz $\sphericalangle ASC$ bisektrises.
 * questionType:
 * domain:
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -62,6 +68,10 @@ Vai tas ir iespējams, ja **(A)** $n=10$, **(B)** $n=11$?
 * questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_Divisibility
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -98,6 +108,9 @@ Kādu lielāko torņu daudzumu Andrim var izdoties novietot?
 * domain:
 * _subdomain: DOM_MagicConfigurations
 * subdomain: DOM_MakingMoves
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -126,6 +139,9 @@ viens aiz otra uzrakstīti pa apli.
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -165,6 +181,9 @@ Pierādīt, ka $a+b+c-abc \leq 2$.
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -188,6 +207,9 @@ Aprēķināt $\sphericalangle AOE$.
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -213,6 +235,9 @@ Kāds vislielākais pirmskaitlis var būt uzrakstīts uz tāfeles?
 * questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_NumericSets
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -247,6 +272,9 @@ virsotnes, pie tam šī trijstūra katetes paralēlas kvadrāta malām?
 * questionType:
 * domain:
 * _subdomain: DOM_GridColoring
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -287,6 +315,9 @@ svaru kausa kaut kas tiek mainīts, tā jau skaitās cita svēršana)
 * topic: WeighingAmongGroups
 * topic: WeighingToFindAuthenticObject
 * topic: WeighingReducedGoal
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -322,6 +353,9 @@ $$(x+y)(1+xy) \geq 4xy$$
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -341,6 +375,9 @@ kvadrāts?
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -368,6 +405,9 @@ un $CF$ - augstumi. Pierādīt, ka $OA \perp EF$.
 * questionType:
 * domain:
 * _subdomain: DOM_AnglesParallelsSimilarity, DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -401,6 +441,9 @@ ir tieši viens atrisinājums reālos skaitļos $(x,\ y,\ z)$?
 * questionType:
 * domain:
 * _subdomain: DOM_ParametrizedEquations, DOM_EquationSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -436,6 +479,9 @@ Vai noteikti var panākt, ka visas konfektes atrodas uz viena šķīvja?
 * domain:Comb
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_MakingMoves
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -476,6 +522,9 @@ tikai no hordas $AB$ garuma, bet ne no tās novietojuma.
 * questionType:
 * domain:
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -506,6 +555,10 @@ iedomāto skaitli ar $3$ jautājumiem, ja
 * questionType:B:
 * domain:
 * _subdomain: DOM_NumberPartitionsCompositions, DOM_Logic
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -529,6 +582,9 @@ mazākais iespējamais $M$ virsotņu skaits?
 * questionType:
 * domain:
 * _subdomain: DOM_Polygons
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -556,6 +612,9 @@ ir lielākā iespējamā $n$ vērtība?
 * questionType:
 * domain:
 * _subdomain: DOM_RealSequences, DOM_Extremes
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -597,6 +656,9 @@ skaitļa kubs.
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

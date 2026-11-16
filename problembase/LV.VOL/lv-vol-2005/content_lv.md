@@ -11,6 +11,9 @@ vienāda ar daļas $4$ laukumu (skat. 1.zīm.).
 * questionType:
 * domain:
 * _subdomain: DOM_Area
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -43,6 +46,12 @@ $A$ galā skaitli $B$.
 * questionType:D: QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumeralSystems
+* _questionType:A: QTY_ConstructExample
+* _questionType:B: QTY_ProveUniversal
+* _questionType:C: QTY_ProveUniversal
+* _questionType:D: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -72,6 +81,9 @@ skaits konfekšu. Pierādīt, ka katram bērnam ir vismaz viena konfekte.
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerConditions
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -100,6 +112,9 @@ Jūsu atrastajiem nav.
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_MultivariableEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -127,6 +142,9 @@ Atrast mazāko iespējamo $n$ vērtību.
 * questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_NumericSets
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -158,6 +176,9 @@ vienādi un perpendikulāri.
 * questionType:
 * domain:
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -185,6 +206,10 @@ $x^{3}+y^{3}+z^{3}=1000^{3}$.
 * questionType:B:
 * domain:
 * _subdomain: DOM_EquationSystems
+* _questionType:A: QTY_ConstructExample
+* _questionType:B: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -214,6 +239,9 @@ $x \cdot f(x)+y \cdot f(y)$ dalās ar $x+y$?
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerFunctionalEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -244,6 +272,9 @@ Pierādiet, ka $DCB$ ir vienādsānu trijstūris.
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -291,6 +322,10 @@ lekcijas. Daži no viņiem klausās citu profesoru lekcijas. Ir zināms, ka
 * questionType:B:
 * domain:
 * _subdomain: DOM_Graphs
+* _questionType:A: QTY_ProveExistence
+* _questionType:B: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -339,6 +374,10 @@ $\left\{x^{2}\right\}+\{x\}=0,99$,
 * questionType:B:
 * domain:
 * _subdomain: DOM_Equations
+* _questionType:A: QTY_ConstructExample
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -371,6 +410,10 @@ Pierādīt, ka
 * questionType:B:
 * domain:
 * _subdomain: DOM_Triangles
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -405,6 +448,9 @@ ir viens vienīgs atrisinājums reālos skaitļos?
 * questionType:
 * domain:
 * _subdomain: DOM_ParametrizedEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -433,6 +479,9 @@ dalās ar $p$" vai nu abi ir pareizi, vai abi - nepareizi.
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Congruences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -472,6 +521,9 @@ kļūtu vienādi. Kuriem sākotnējiem vieninieku izvietojumiem to var izdarīt?
 * questionType:
 * domain:
 * _subdomain: DOM_MakingMoves
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -502,6 +554,9 @@ $5^{x}+7^{y}=11^{y}$. Pierādīt, ka $x<y$.
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -532,6 +587,9 @@ Pierādīt, ka $r_{1}+r_{3}+r_{5}=r_{2}+r_{4}+r_{6}$.
 * questionType:
 * domain:
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -561,6 +619,9 @@ vērtību.
 * questionType:
 * domain:
 * _subdomain: DOM_Extremes
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -616,6 +677,10 @@ Par skaitļu virkni $x_{1}, x_{2}, x_{3}, \ldots$ zināms, ka
 * domain:Alg
 * method:MTH_StrongInduction
 * _subdomain: DOM_SequenceProperties
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -662,6 +727,9 @@ dažādās krāsās, un pārkrāsot tās abas trešajā krāsā. Pierādiet, ka
 * questionType:
 * domain:
 * _subdomain: DOM_MakingMoves
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

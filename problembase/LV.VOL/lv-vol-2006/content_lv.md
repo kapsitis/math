@@ -8,6 +8,9 @@ $640000$ dalītāji.
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -34,6 +37,9 @@ $f(q) \leq 0$.
 * questionType:
 * domain:
 * _subdomain: DOM_Inequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -73,6 +79,9 @@ Pierādīt, ka $A_{1}A_{2}+B_{1}B_{2}+C_{1}C_{2}=AB+BC+CA$.
 * questionType:
 * domain:
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -98,6 +107,9 @@ lielākais iespējamais skolēnu skaits?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -128,6 +140,9 @@ traukā?
 * questionType:
 * domain:
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -167,6 +182,9 @@ ka ir tāda pilsēta, kurā ir vismaz $9$ biroji.
 * questionType:
 * domain:
 * _subdomain: DOM_Graphs
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -189,6 +207,9 @@ $p+6,\ p+10,\ q+4,\ q+10$ un $p+q+1$ arī ir pirmskaitļi?
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_NumericConstructions
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -216,6 +237,9 @@ $\sphericalangle AMB=\sphericalangle CMD$.
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -257,6 +281,9 @@ $\frac{1}{\sqrt{1}+\sqrt{2}}+\frac{1}{\sqrt{3}+\sqrt{4}}+\frac{1}{\sqrt{5}+\sqrt
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -287,6 +314,9 @@ var būt arī savā starpā vienādas)?
 * questionType:QTY_FindOptimal
 * domain:Comb
 * _subdomain: DOM_NumericSets
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -328,6 +358,9 @@ $$\frac{m}{b}=\frac{n(n-1)}{a(a-1)}$$
 * questionType:
 * domain:
 * _subdomain: DOM_CountingObjects
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -356,6 +389,9 @@ pieņemt $a_{2006}$?
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_RealSequences
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -378,6 +414,9 @@ Atrisināt naturālos skaitļos vienādojumu $(x+y)(xy+1)=2^{z}$.
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -421,6 +460,9 @@ diametrs.
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -464,6 +506,9 @@ būtu ierakstīti vienādi skaitļi?
 * questionType:
 * domain:
 * _subdomain: DOM_MakingMoves
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -490,6 +535,9 @@ $\left(1+\mbox{tg}\ 1^{\circ}\right)\left(1+\mbox{tg}\ 2^{\circ}\right)\left(1+\
 * questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -521,6 +569,10 @@ kuras vērtībām ir tādas, kas atšķiras no $0$?
 * questionType:B:
 * domain:
 * _subdomain: DOM_FunctionalEquationsReal
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -566,6 +618,10 @@ līnijai, krusto taisni $AB$ punktā $G$. Pierādīt, ka $GS \perp CI$.
 * questionType:B:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles, DOM_Triangles
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -598,6 +654,9 @@ $n+3$. Kādas ir iespējamās $n$ vērtības?
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -661,6 +720,10 @@ skaldne, kuras kontūru var apiet, ejot pa malām bultiņu norādītajos virzien
 * questionType:B:
 * domain:
 * _subdomain: DOM_Graphs
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

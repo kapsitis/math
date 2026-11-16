@@ -8,6 +8,9 @@ vesels skaitlis?
 * questionType:
 * domain:
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -37,6 +40,9 @@ vidējais aritmētiskais.
 * domain:
 * _subdomain: DOM_IntegerConditions
 * subdomain: DOM_SystemsOfInequalities
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -93,6 +99,9 @@ staru $OB$ punktā $T$. Pierādīt, ka $QT$ ir $\sphericalangle RQA$ bisektrise!
 * questionType:
 * domain:
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -130,6 +139,9 @@ $a, b, c, d$, ka vienlaicīgi izpildās šādi nosacījumi:
 * questionType:
 * domain:
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -168,6 +180,9 @@ kuru izmēri ir $1 \times 1 \times 8$ ?
 * questionType:
 * domain:
 * _subdomain: DOM_CuttingCoversColoring
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -195,6 +210,9 @@ pozitīvi dalītāji!
 * questionType:
 * domain:
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -226,6 +244,9 @@ Zināms, ka $x^{2}+y^{2}+xy=3$. Kāda var būt $x+y$ vērtība?
 * questionType:
 * domain:
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -294,6 +315,9 @@ $\sphericalangle AEC+\sphericalangle FBG=180^{\circ}$.
 * questionType:
 * domain:
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -328,6 +352,9 @@ Pierādīt, ka neviens šīs virknes loceklis nedalās ar $17$.
 * questionType:
 * domain:
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -389,6 +416,9 @@ kopējo masu?
 * topic: WeighingWithNumericReadout
 * topic: CaseAnalysis
 * topic: RemaindersInCombinatorics
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -422,6 +452,9 @@ $m$ vērtībām funkcija ir augoša intervālā $(1; 2)$ ?
 * questionType:
 * domain:
 * _subdomain: DOM_RealFunctions
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -482,6 +515,9 @@ nepārsniedz $x$. Piemēram, $[3,1]=3,[17]=17$, $[6,99]=6$.
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -534,6 +570,9 @@ $ABC, BCD, CDA, DAB$ ievilkto riņķa līniju centri ir taisnstūra virsotnes!
 * questionType:
 * domain:
 * _subdomain: DOM_Locus
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -584,6 +623,9 @@ saknes ir **a)** veseli skaitļi, **b)** racionāli skaitļi?
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerPolynomials
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -660,6 +702,9 @@ izvēlētajā rindā, vai izvēlētajā kolonnā (vai abās).
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -700,6 +745,9 @@ naturāls skaitlis?
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -725,6 +773,9 @@ vislielāko un vismazāko vērtību, ja $1 \leq x, y, z \leq 2020$.
 * questionType:
 * domain:
 * _subdomain: DOM_Extremes
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -784,6 +835,9 @@ $AB^{2}=2CD^{2}$.
 * questionType:
 * domain:
 * _subdomain: DOM_Quadrilaterals
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -824,6 +878,9 @@ ka visas šīs saknes ir **a)** veseli skaitļi, **b)** racionāli skaitļi?
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerPolynomials
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -908,6 +965,9 @@ pilsētām, katrā iegriežoties tieši vienu reizi!
 * questionType:
 * domain:
 * _subdomain: DOM_Graphs
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

@@ -6,6 +6,9 @@ Kvadrāts sastāv no $5\cdot 5$ rūtiņām. Vai var rūtiņās ierakstīt natur�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -28,6 +31,9 @@ b) $8$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -45,6 +51,9 @@ Kvadrāts sastāv no $8\cdot 8$ rūtiņām. Parādiet, ka katru rūtiņu var izk
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -65,6 +74,9 @@ Apskatām naturālos skaitļus no $1$ līdz $12$. Izsvītrojiet no tiem dažus s
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -85,6 +97,9 @@ Vai naturālos skaitļus no $1$ līdz $60$ var sadalīt $3$ grupās pa $20$ skai
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -101,6 +116,9 @@ Kvadrāts sastāv no $4 \cdot 4$ rūtiņām. Katrā rūtiņā ierakstīts natur�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -124,6 +142,9 @@ b) kāds ir mazākais iespējamais skaitļa $n$ ciparu skaits?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal,QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -150,6 +171,9 @@ Vai kvadrātiņus, kas attēloti $1$. zīm., var pārvietot tā, lai tie veidotu
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -170,6 +194,9 @@ Gan Jānis, gan Andris zina, ka astoņas pēc ārējā izskata vienādas monēta
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -190,6 +217,9 @@ Divu kvadrātu kontūrām krustojoties, tās sadalās taisnes nogriežņos (skat
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -216,6 +246,9 @@ Dots, ka $x$, $y$, $z$ - trīs dažādi skaitļi. Cik daudzi no skaitļiem $x(x-
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -234,6 +267,9 @@ Vai uz kuba skaldnēm var uzrakstīt naturālus skaitļus no $1$ līdz $6$ (uz k
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -250,6 +286,9 @@ Pa apli stāv $10$ cilvēki. Katru minūti tieši viens pāris blakus esošu cil
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -274,6 +313,9 @@ $4.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -303,6 +345,9 @@ $5.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -335,6 +380,9 @@ Dots, ka kvadrātvienādojumam $x^2+p\cdot x+q=0$ nav atrisinājuma reālos skai
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -351,6 +399,9 @@ Pierādīt, ka katram naturālam $n$ skaitlis $n\cdot(n+1)\cdot(2\cdot n+1)$ dal
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -371,6 +422,9 @@ Dots, ka eksistē tādi nenegatīvi veseli skaitļi $x$ un $y$, ka $S=x^2+y^2+x\
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -391,6 +445,9 @@ Viegli pārbaudīt, ka $x^2+y^2+xy=(x+y)^2+y^2-(x+y)\cdot y$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -413,6 +470,9 @@ Uz šaha galdiņa novietotas dažas figūras, katrā lauciņā ne vairāk par vi
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -431,6 +491,9 @@ b) $x^2-7x=y^2$ un $x$ - pirmskaitlis?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -451,6 +514,9 @@ sasniedz savu mazāko vērtību?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -476,6 +542,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -506,6 +575,9 @@ Kvadrāts ar diagonāles garumu $d$ sagriezts $n$ taisnstūros, kuru diagonāļu
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -534,6 +606,9 @@ $8$. zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -566,6 +641,9 @@ Naturālam skaitlim $A$ ir tieši $10$ dalītāju. Pierādīt, ka skaitlim $A^2$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -584,6 +662,9 @@ nav atrisinājumu reālos skaitļos.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -606,6 +687,9 @@ Taisne $l$ krusto nogriezni $AB$ punktā $C$. Kā ar cirkuli un lineālu konstru
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -630,6 +714,9 @@ Pierādīt, ka vienādojumam $\frac{1}{x}+\frac{1}{y}+\frac{1}{z}+\frac{1}{u}+\f
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -650,6 +737,9 @@ d) katram veselam $n$ ir spēkā $f(f(n+2)+2)=n$?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

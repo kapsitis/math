@@ -8,6 +8,9 @@ $x^{2}+5y^{2}+4xy-6y+9 \geq 0$.
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -39,6 +42,9 @@ $\sphericalangle ADE=12 \beta$. Aprēķināt $\beta$ lielumu!
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -70,6 +76,9 @@ ar $7$ un kura ciparu summa ir $K$.
 * questionType:
 * domain:
 * _subdomain: DOM_NumericConstructions
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -105,6 +114,9 @@ ka vienas rūtiņas mala ir vienu vienību gara?
 * questionType:
 * domain:
 * _subdomain: DOM_Graphs
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -131,6 +143,9 @@ Pierādīt, ka trijstūra augstumi nevar būt $19, 37$ un $41$ vienību gari!
 * questionType:
 * domain:
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -162,6 +177,9 @@ y^{2}=x+2
 * questionType:
 * domain:
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -210,6 +228,9 @@ $AB$ trīs vienāda garuma nogriežņos!
 * questionType:
 * domain:
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -253,6 +274,9 @@ ar $13$ un kura ciparu summa ir $K$.
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumericConstructions
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -281,6 +305,9 @@ izteikti centimetros. Aprēkināt šī trijstūra laukumu!
 * questionType:
 * domain:
 * _subdomain: DOM_Equations, DOM_Area
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -359,6 +386,9 @@ diētas vienlaicīgi?
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerConditions
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -410,6 +440,9 @@ Vai eksistē tāds naturāls skaitlis, kuram vienlaikus izpildās šādas trīs 
 * questionType:QTY_Decide
 * domain:
 * _subdomain: DOM_PrimeFactors, DOM_IntegerEquations
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -435,6 +468,9 @@ Pierādīt, ka $AB=CD$.
 * questionType:
 * domain:
 * _subdomain: DOM_Quadrilaterals
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -488,6 +524,9 @@ uzrakstītais skaitlis netiek nodzēsts)?
 * questionType:QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumericGamesAndAlgorithms
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -519,6 +558,9 @@ izteikti centimetros. Aprēķināt šī trijstūra laukumu!
 * questionType:
 * domain:
 * _subdomain: DOM_Equations, DOM_Area
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -597,6 +639,9 @@ naturālu skaitli reizinājums dalās ar $N^{2}$. Kuri skaitlļi nav amizanti?
 * questionType:
 * domain:
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -631,6 +676,9 @@ Atrisināt reālos skaitļos vienādojumu $x^{2}-\cos x+1=0$.
 * questionType:
 * domain:
 * _subdomain: DOM_Equations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -651,6 +699,9 @@ Pierādīt, ka $EF=\frac{|AD+BC-AB-CD|}{2}$.
 * questionType:
 * domain:
 * _subdomain: DOM_Quadrilaterals
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -725,6 +776,9 @@ pirmskaitlis!
 * questionType:
 * domain:
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -775,6 +829,9 @@ izteikti centimetros. Aprēķināt šī trijstūra laukumu!
 * questionType:
 * domain:
 * _subdomain: DOM_Area, DOM_Equations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -831,6 +888,9 @@ $3 \times 3$ rūtiņas!
 * questionType:
 * domain:
 * _subdomain: DOM_GridCut, DOM_GridColoring
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

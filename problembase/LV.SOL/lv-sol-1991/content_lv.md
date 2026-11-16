@@ -6,6 +6,9 @@ Doti $1990$ vienādi stienīši. Kādas figūras no tiem var salikt vairāk: tri
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -28,6 +31,9 @@ Kvadrātiska režģa veidā novietoti $8 \cdot 8$ punkti; katrā vertikālē un 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -50,6 +56,9 @@ Izveidoti $2$ četrciparu skaitļi; katrs no tiem pa reizei satur ciparus $1$, $
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -66,6 +75,9 @@ Kastītē atrodas vairāki zīmuļi. Starp tiem var atrast zīmuļus, kuri atš�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -86,6 +98,9 @@ Dotas $8$ pēc ārējā izskata vienādas monētas. No tām $7$ ir ar vienādu m
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -114,6 +129,9 @@ no šiem reizinājumiem ir negatīvi?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -134,6 +152,9 @@ Apskatām $10$ dažādus skaitļus un visas to starpības (no lielākā skaitļa
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -152,6 +173,9 @@ Vai tos visus var izrakstīt rindā tā, lai katrs nākošais pirmskaitlis sākt
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -168,6 +192,9 @@ Attēlot koordinātu plaknē visus tos punktus $(x,y)$, kas apmierina vienādīb
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -184,6 +211,9 @@ Dotas $6$ pēc ārējā izskata vienādas monētas. Četrām no tām masas savā
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -218,6 +248,9 @@ Par kurām taisnēm var droši pateikt, kas tas ir?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -242,6 +275,9 @@ Vienādojumam $ax=b$ nav neviena atrisinājuma ($a$ un $b$ – kaut kādi doti s
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -260,6 +296,9 @@ Rindā izrakstīti cipari $1234567890123\ldots890$ (ciparu grupa $1234567890$ at
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -276,6 +315,9 @@ Doti $6$ stieņi, katrs $50$ cm garš. Vai tos var sagriezt gabalos tā, lai ras
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -292,6 +334,9 @@ Kastītē atrodas vairāki zīmuļi. Ir zināms, ka starp tiem var atrast zīmu�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -316,6 +361,9 @@ Sadalīt reizinātājos izteiksmi $a^4-b^4$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -336,6 +384,9 @@ Cik ir tādu naturālu skaitļu $n$, ka $\left[\sqrt{n}\right]=25$?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -356,6 +407,9 @@ Vai trapeces diagonāļu krustpunkts var atrasties uz tās viduslīnijas?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -382,6 +436,9 @@ Sagriezt 2. zīm. parādīto figūru divās vienādās daļās. Griezumiem jāie
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -412,6 +469,9 @@ Katrā gadījumā pietiek uzrādīt vienu skaitļu komplektu.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -436,6 +496,9 @@ Atrast to mediānu garumu kvadrātu summu, kuras novilktas no šauro leņķu vir
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -474,6 +537,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -502,6 +568,9 @@ var atrast bezgalīgi daudzus locekļus, kuru ciparu summas savā starpā ir vie
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -526,6 +595,9 @@ Divas komisijas nesastāv no vieniem un tiem pašiem cilvēkiem
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -550,6 +622,9 @@ Vai atlikušo daļu var sagriezt $63$ vienādsānu trijstūros, kuru katetes ir 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -568,6 +643,9 @@ Atrast $a$ un $b$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -600,6 +678,9 @@ Kādu vislielāko kuba šķautņu skaitu to iekšējos punktos var šķelt viena
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -624,6 +705,9 @@ Atrast trijstūru $ANS$, $BST$, $CTM$ un $DMN$ laukumu summu.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -666,6 +750,9 @@ Zināms, ka divu pozitīvu skaitļu reizinājums lielāks par to summu. Pierād�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -690,6 +777,9 @@ Pierādīt, ka $a^2+b^2$ dalās ar $49$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -742,6 +832,9 @@ $$(h\cdot g)''=h''\cdot g+2h'\cdot g'+h\cdot g''.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -765,6 +858,9 @@ Kāds lielākais pirmskaitļu daudzums var būt sastopams starp $12$ pēc kārta
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -785,6 +881,9 @@ $$|\sin x|+|\sin \sqrt{2}x|=0.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -805,6 +904,9 @@ Trīs savstarpēji perpendikulāras plaknes krustojas punktā $O$ un sadala telp
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -825,6 +927,9 @@ Stacijā pie vienas sienas karājas divi pilnīgi vienādi absolūti precīzi pu
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -845,6 +950,9 @@ Dots, ka $x+y=1$. Pierādīt, ka $x^2+y^2\ge\dfrac{1}{2}$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -863,6 +971,9 @@ Kvadrāts sastāv no $5\times 5$ rūtiņām. Vai var visas rūtiņas pārsvītro
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -889,6 +1000,9 @@ Aprēķināt $F(5)-G(5)$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -911,6 +1025,9 @@ Pierādīt, ka trīskārt atstarotā stara virziens ir pretējs sākotnējā sta
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -929,6 +1046,9 @@ Vai var salikt taisnstūra paralēlskaldni ar izmēriem $11 \cdot 12 \cdot 13$ n
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

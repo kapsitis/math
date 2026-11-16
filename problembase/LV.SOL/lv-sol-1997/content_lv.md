@@ -10,6 +10,9 @@ katru ciparu izmainīt par $1$ tā, lai atkal iegūtu pareizu vienādību. Pieti
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -32,6 +35,9 @@ b) $116$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -58,6 +64,9 @@ Pēc kāda laika sienāži ieņēma tās pašas vietas, ko sākumā, tikai bija 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -78,6 +87,9 @@ Kādu lielāko daudzumu rūtiņu var iekrāsot kvadrātā ar izmēriem $5 \cdot 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -106,6 +118,9 @@ Vai dažas rūtiņas burtnīcas lapā var nokrāsot melnas tā, lai katrs taisns
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -126,6 +141,9 @@ Vai var izvēlēties $4$ skaitļus (starp tiem var būt arī vienādi) tā, ka k
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -148,6 +166,9 @@ ir vesels?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -177,6 +198,9 @@ Pierādīt, ka var atrast tādu rūtiņu, kurai ir kopīga mala ar vismaz divām
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -193,6 +217,9 @@ Naturālu skaitli katru minūti var vai nu reizināt, vai dalīt vai nu ar $2$, 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -209,6 +236,9 @@ Vai dažas rūtiņas burtnīcas lapā var nokrāsot melnas tā, lai katrs taisns
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -235,6 +265,9 @@ formā $ax+b$, kur $a$ un $b$ – veseli skaitļi.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -263,6 +296,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -281,6 +317,9 @@ Uzrādiet visas iespējas un pamatojiet, ka citu nav.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -329,6 +368,9 @@ Jānis un Juris nopirka $100$ litrus "Fanta"-s pudelēs pa $0{,}5\,\mathrm{l}$, 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -347,6 +389,9 @@ Vai kvadrātu ar izmēriem $7\times 7$ rūtiņas var sagriezt kvadrātos, kuru i
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -369,6 +414,9 @@ Saīsināt daļu $\dfrac{x^8-1}{x^2+1}$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -393,6 +441,9 @@ Vai šajā virknē ir sastopams cipars $7$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -419,6 +470,9 @@ Pierādīt, ka $CD>2$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -447,6 +501,9 @@ Pierādīt, ka no tiem var izvēlēties divus tādus, kuru reizinājums ir vesel
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -471,6 +528,9 @@ Istabas forma ir astoņstūris (varbūt ieliekts). Pierādīt, ka to var pilnīb
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -489,6 +549,9 @@ $$\frac{a}{b(a+b)}+\frac{b}{c(c+b)}+\frac{c}{a(a+c)}=\frac{b}{a(a+b)}+\frac{c}{b
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -521,6 +584,9 @@ Kvadrāts sastāv no $3\times 3$ rūtiņām. Vai var rūtiņās ierakstīt natur
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -545,6 +611,9 @@ ir pirmskaitļi?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -571,6 +640,9 @@ Dots, ka $MN=20$. Aprēķināt iesvītrotās daļas laukumu.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -597,6 +669,9 @@ Jānim ir $5$ lati piecu, desmit un divdesmit santīmu monētās; monētu pavisa
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -640,6 +715,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -678,6 +756,9 @@ Kvadrātā ievilkta riņķa līnija ar rādiusu $R$. Taisne, kas tai pieskaras, 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -718,6 +799,9 @@ Vai kvadrātu, kas sastāv no $15 \times 15$ rūtiņām, var pārklāt ar $225$ 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -734,6 +818,9 @@ Nē, nevar. Iekrāsosim doto kvadrātu šaha galdiņa kārtībā. Tad melno un b
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -768,6 +855,9 @@ Pierādīt, ka $a+b+c+d$ nav pirmskaitlis.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -800,6 +890,9 @@ nav mazāks par $3$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -838,6 +931,9 @@ Taisnleņķa trijstūra $ABC$ laukums ir $1$. Katrai $ABC$ virsotnei atrodam sim
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -883,6 +979,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -924,6 +1023,9 @@ c) nekādi divi sarkanie skaitļi nedalās viens ar otru.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -944,6 +1046,9 @@ Mēneša laikā katra klases skolēna draugu skaits mainījās tieši par $1$ (v
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -974,6 +1079,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -1003,6 +1111,9 @@ Vai tornis var apstaigāt šaha galdiņu tā, lai katru divu rūtiņu kopējo ma
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -1027,6 +1138,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -1047,6 +1161,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -1067,6 +1184,9 @@ Saskatiet Pitagora teorēmas pierādījumu 5. zīm. un pierakstiet to ar visiem 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

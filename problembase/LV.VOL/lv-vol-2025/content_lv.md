@@ -8,6 +8,9 @@ kopā ir nepāra skaits konfekšu. Pierādīt, ka katram bērnam ir vismaz viena
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerConditions
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -35,6 +38,9 @@ punktā $F$. Pierādīt, ka $BF=FE$.
 * questionType:
 * domain:
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -84,6 +90,9 @@ kuram divi pēdējie cipari ir vienādi!
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -140,6 +149,9 @@ atrast abas viltotās monētas?
 * topic: WeighingComparisonsToCases
 * topic: WeighingConclusionsByContradiction
 * topic: WeighingAmongGroups
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -186,6 +198,9 @@ pretējā gadījumā uzvar Kate. Kura meitene, pareizi spēlējot, noteikti var 
 * questionType:
 * domain:
 * _subdomain: DOM_NumericGamesAndAlgorithms
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -211,6 +226,9 @@ Vai eksistē tādi veseli skaitli $a, b, c, d$, ka $|a-b|+|b-c|+|c-d|+|d-a|=2025
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -242,6 +260,9 @@ Aprēḳināt $\sphericalangle AMC$ lielumu!
 * questionType:
 * domain:
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -290,6 +311,9 @@ kladē ir uzrakstīti vieni un tie paši skaitļi!
 * questionType:
 * domain:
 * _subdomain: DOM_Congruences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -325,6 +349,9 @@ Kāds skaitlis var būt rakstīts uz šīs rūtiņas?
 * domain:
 * subdomain:DOM_GridCut
 * _subdomain: DOM_MagicConfigurations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -395,6 +422,9 @@ skaitlis sākas ar vienu vai vairākām nullēm, tad liekās nulles tiek atmesta
 * questionType:
 * domain:
 * _subdomain: DOM_DigitManipulation
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -459,6 +489,9 @@ uz sviru svariem bez atsvariem atrast abas viltotās monētas?
 * topic: WeighingComparisonsToCases
 * topic: WeighingConclusionsByContradiction
 * topic: WeighingAmongGroups
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -506,6 +539,9 @@ $B,F,G,C$ atrodas uz vienas riṇḳa līnijas!
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -542,6 +578,9 @@ $$\frac{c_{1}^{2}-4 a_{1} b_{1}}{a_{1}+b_{1}+c_{1}}+\frac{c_{2}^{2}-4 a_{2} b_{2
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerConditions
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -574,6 +613,9 @@ Dots $7 \times 7$ rūtiṇu kvadrāts. No šī kvadrāta izgrieza 12 figūras, k
 * questionType:
 * domain:
 * _subdomain: DOM_GridCut
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -618,6 +660,9 @@ skaitļi **(A)** $20$ un $24$; **(A)** $20$ un $25$?
 * questionType:
 * domain:
 * _subdomain: DOM_NumericGamesAndAlgorithms
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -647,6 +692,9 @@ Pierādīt, ka visām naturālām $n$ vērtībām $2^{2n-1} 3^{n-1}+5^{n}$ dalā
 * domain:NT
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -698,6 +746,9 @@ uz četrstūra malas $AD$.
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -777,6 +828,9 @@ $$\frac{1}{x y-z+2}+\frac{1}{y z-x+2}+\frac{1}{x z-y+2} \geq \frac{27}{16}$$
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -813,6 +867,9 @@ Pirmskaitļi $p$ un $q$ ir tādi, ka $p^{2}+p q+q^{2}$ ir kāda naturāla skaitl
 * questionType:
 * domain:
 * _subdomain: DOM_PrimeFactors
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -863,6 +920,10 @@ tāfeles uzrakstīt polinomu: **(A)** $x^{3}+2$; **(B)** $x^{4}+2$ ?
 * questionType:B:
 * domain:
 * _subdomain: DOM_AlgebraicOperations
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

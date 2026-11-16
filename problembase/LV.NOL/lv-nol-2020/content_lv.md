@@ -17,6 +17,9 @@ $\overline{xzy}<\overline{yaz}<\overline{yax}<\overline{zxa}$?
 * _newReasoningMethodDescription: Comparing same-length numbers by leading differing digit
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -56,6 +59,9 @@ labajā pusē piezīmējot klāt vienu 2.att. doto figūru.
 * _newReasoningMethodDescription: Track constant growth in a figure sequence
 * _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_FindValue,QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -110,6 +116,9 @@ Sagriez 5.att. doto figūru divpadsmit 6.att. figūrās!
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -137,6 +146,9 @@ $11$, **b)** $12$?
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -178,6 +190,9 @@ Atrodi tādu trīsciparu skaitli, kam vienlaicīgi izpildās tālāk dotie nosac
 * _hasReasoningMethod: NumberConstruction, PrimeFactorization
 * _hasReasoningMistake: NonCoprimeFactorDivisibility, ConfusingDivisorAndMultiple
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -209,6 +224,9 @@ Aprēķini iegūtās figūras perimetru!
 * _newReasoningMethodDescription: Replacing stepped boundary by equal straight segments
 * _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -236,6 +254,9 @@ Atrodi skaitļa $1^{3}+3^{3}+5^{3}+\cdots+101^{3}$ pēdējo ciparu!
 * _hasReasoningMethod: LastDigitAnalysis
 * _hasReasoningMistake: CarelessModularComputation, IncompleteResidueCases
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -280,6 +301,9 @@ pagriezt.
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -307,6 +331,9 @@ $14$, **b)** $15$?
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -343,6 +370,9 @@ dalās ar $8$?
 * _hasReasoningMethod: CompleteEnumeration, DivisibilityRules, ParityArgument
 * _hasReasoningMistake: WrongDivisibilityRule, IncompleteResidueCases, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -398,6 +428,9 @@ $(14; -2006)$ un krusto doto taisni punktā, kura abscisa ir $0$.
 * _newReasoningMethodDescription: Finding a line equation from given points and intercept
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -427,6 +460,9 @@ ka iegūtās izteiksmes vērtība ir **a)** $4$; **b)** $1$?
 * _hasReasoningMethod: ParityArgument, NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -467,6 +503,9 @@ trīs 16.att. figūrām un divpadsmit 17.att. figūrām? Figūras drīkst pagrie
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -512,6 +551,9 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ExtremalElementArgument
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -547,6 +589,9 @@ reizes mazāka nekā skaitļa $n$ ciparu summa!
 * _hasReasoningMethod: NumberConstruction, DivisibilityRules
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -581,6 +626,9 @@ stundām vairāk nekā atpakaļceļā!
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -625,6 +673,9 @@ lielākais naturālais skaitlis, kuru nevar iegūt uz kalkulatora ekrāna?
 * _hasReasoningMethod: CompleteEnumeration, NumberConstruction
 * _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -667,6 +718,9 @@ Aprēķini trijstūra $ABC$ leņķus!
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
 * _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
 * _mistakesFit: high
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -710,6 +764,9 @@ $K$ ir naturāls skaitlis). Kādai lielākajai $K$ vērtībai tas ir iespējams
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -752,6 +809,9 @@ no iespējām pastāv īstenībā?
 * topic: WeighingConclusionsByContradiction
 * topic: WeighingAmongGroups
 * topic: WeighingReducedGoal
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -790,6 +850,9 @@ mazāks nekā $30~\mathrm{cm}$. Kāds var būt trijstūra sānu malas garums?
 * _hasReasoningMethod: TriangleInequality
 * _hasReasoningMistake: ConcludingFromZeroOrEdgeCase
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -825,6 +888,9 @@ $\frac{1}{1 \cdot 3}+\frac{1}{3 \cdot 5}+\frac{1}{5 \cdot 7}+\ldots+\frac{1}{201
 * _hasReasoningMethod: TelescopingSum, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -869,6 +935,9 @@ $\omega_{2}$ diametru garumu attiecību $\frac{AB}{AC}$.
 * _newReasoningMethodDescription: Using the power relation for intersecting chords
 * _hasReasoningMistake: RelyingOnDiagramAppearance, UnstatedDirectionAssumption, ConcludingFromZeroOrEdgeCase
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -932,6 +1001,9 @@ atrastos tieši $k$ citas kartītes. Vai kartītes var salikt prasītajā veidā
 * _hasReasoningMethod: ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
 * _mistakesFit: high
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -982,6 +1054,9 @@ tabulā ierakstīto skaitļu summa ir kāda naturāla skaitļa kubs!
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
 * _hasReasoningMistake: ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1023,6 +1098,9 @@ $$\frac{1^{2}}{1 \cdot 3}+\frac{2^{2}}{3 \cdot 5}+\cdots+\frac{n^{2}}{(2n-1)(2n+
 * questionType:QTY_Prove
 * domain:Alg
 * method:MTH_InductionWithStepOne
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1065,6 +1143,9 @@ kas veido ģeometrisko progresiju?
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1089,6 +1170,9 @@ $\frac{AB}{AC}$.
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1141,6 +1225,9 @@ ja **a)** $N=6$, **b)** $N=7$?
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1183,6 +1270,9 @@ tabulā ierakstīto skaitļu summa ir kāda naturāla skaitļa kvadrāts!
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1238,6 +1328,9 @@ $17$.
 * questionType:QTY_Prove
 * domain:NT
 * method:MTH_InductionWithStepOne
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1281,6 +1374,9 @@ piecinieki.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1310,6 +1406,9 @@ $\omega_{1}$ diametrs $AC$ un no punkta $C$ - pieskare $CD$ pret $\omega_{2}$
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1367,6 +1466,9 @@ vērtību var pieņemt lielākais no šiem desmit skaitļiem?
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1387,6 +1489,9 @@ Atrisināt veselos skaitļos vienādojumu $n^{3}=(n-1)^{3}+(n-2)^{3}+(n-3)^{3}$.
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1424,6 +1529,9 @@ $x_{n}=2^{n}+3^{n}-4^{n}$ visiem naturāliem $n$.
 * questionType:QTY_Prove
 * domain:Alg
 * method:MTH_InductionWithCombinedStep
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1468,6 +1576,9 @@ iespējas vairāk dažādi skaitļi!
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1502,6 +1613,9 @@ nogriežņi $AD$ punktā $G$. Pierādīt, ka $AG=BF$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1561,6 +1675,9 @@ stāvam un tur apstājas.
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1612,6 +1729,9 @@ skaitļiem $x^{4}, y^{4}, x^{4}+y^{4}+1$ dalās ar $13$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

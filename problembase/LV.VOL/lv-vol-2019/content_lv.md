@@ -8,6 +8,9 @@ var būt $\frac{4a^{2}+7b^{2}}{ab}$ vērtība?
 * questionType:
 * domain:
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -52,6 +55,9 @@ ja $S(AMP)=S(BNP)=8$ un $S(NMP)=4$.
 * questionType:
 * domain:
 * _subdomain: DOM_Area, DOM_Triangles
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -99,6 +105,10 @@ Vai naturāla skaitļa kvadrāta ciparu summa var būt **(A)** $19$, **(B)** $20
 * questionType:B:
 * domain:NT
 * _subdomain: DOM_NumeralSystems
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -129,6 +139,9 @@ tukšo rūtiņu skaits?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -167,6 +180,9 @@ $x_{1}^{2}+x_{2}^{2}+\ldots+x_{16}^{2}=y_{1}^{2}+y_{2}^{2}+\ldots+y_{16}^{2}$
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -204,6 +220,9 @@ pirmskaitļa un salikta skaitļa summu!
 * topic:ModularParity
 * concepts:prime
 * _subdomain: DOM_NumberRepresentation
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -246,6 +265,9 @@ Pierādīt, ka taisne $BH$ sadala nogriezni $CD$ uz pusēm!
 * questionType:
 * domain:
 * _subdomain: DOM_Quadrilaterals
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -298,6 +320,9 @@ vērtība nav naturāla skaitļa kvadrāts!
 * topic:DivisibilityRulesOther
 * concept:full-square
 * _subdomain: DOM_SpecialNumbers
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -333,6 +358,9 @@ locekļiem varētu atrast divus, kas savā starpā sarokojušies?
 * questionType:
 * domain:
 * _subdomain: DOM_Graphs
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -382,6 +410,9 @@ $\frac{a_{1}+a_{2}+\cdots+a_{n}}{n} \leq \frac{1}{1000}$
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -425,6 +456,9 @@ ka ir tāda pilsēta, kurā ir vismaz $9$ biroji!
 * domain:Comb
 * method:MTH_PigeonholePrincipleBasic
 * _subdomain: DOM_Graphs
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -453,6 +487,9 @@ kas apvilktas ap trijstūriem $AMD$ un $DNC$, pieskaras viena otrai!
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -490,6 +527,9 @@ $13^{n}+10^{n}+7^{n}+3^{n}$ vērtība nav naturāla skaitļa kvadrāts!
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -537,6 +577,9 @@ var būt vienāds ar $100a_{1}$?
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -581,6 +624,9 @@ virsotnēm šajos punktos mediānu krustpunkta koordinātas arī ir veseli skait
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerLattices
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -675,6 +721,9 @@ $x_{1}^{3}+x_{2}^{3}+x_{3}^{3}$ vērtība?
 * questionType:
 * domain:
 * _subdomain: DOM_ParametrizedEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -748,6 +797,9 @@ $OE^{2}=OB^{2}+2 \cdot OB \cdot BE$.
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -826,6 +878,9 @@ vērtība nav naturāla skaitļa kvadrāts!
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -886,6 +941,9 @@ ir iracionāli!
 * domain:Alg
 * method:MTH_PigeonholePrincipleBasic
 * _subdomain: DOM_NumberRepresentation
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -930,6 +988,10 @@ nenegatīvi veseli skaitļi, ir $2019$.
 * questionType:B: QTY_ConstructExample
 * domain:NT
 * _subdomain: DOM_NumericConstructions
+* _questionType:A: QTY_ConstructExample
+* _questionType:B: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

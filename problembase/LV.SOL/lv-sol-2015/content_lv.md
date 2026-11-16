@@ -6,6 +6,9 @@ Rindā uzrakstīti veselie skaitļi $1$, $2$, $3$, $\ldots$, $2014$, katrs vienu
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -24,6 +27,9 @@ Kvadrāts sastāv no $3 \cdot 3$ vienādām rūtiņām. Vai tās visas var pārs
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -48,6 +54,9 @@ $1.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -65,6 +74,9 @@ b) Vai var atrast tādu skaitli, kas dalot ar $4$, dod atlikumu $1$, bet, dalot 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -83,6 +95,9 @@ Vai var uzzīmēt plaknē $7$ starus tā, lai katrs no tiem krustotu tieši divu
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -107,6 +122,9 @@ $2.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -127,6 +145,9 @@ Apskatām $10$ dažādus skaitļus un visas to starpības (no lielākā skaitļa
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -146,6 +167,9 @@ Vai tā var uzzīmēt trīs patvaļīgas līnijas?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -172,6 +196,9 @@ Rūķīši uz grīdas ir uzzīmējuši spēļu laukumu un spēlējas ar dāvanā
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -198,6 +225,9 @@ Cik ir tādu funkciju, kurām definīcijas kopa sastāv no četriem elementiem: 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -218,6 +248,9 @@ Dots, ka $SA = SB = AN = BM = MN$ (skat. 4. zīm.). Aprēķināt $\angle ASB$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -254,6 +287,9 @@ b) Kāds mazākais skaits no šīm summām var būt pāra skaitļi?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence,QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -283,6 +319,9 @@ Turnīrā piedalās $10$ komandas, katrai ar katru jāizspēlē viena spēle. Va
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -299,6 +338,9 @@ Komandas izspēlēto spēļu skaits var būt tikai $0, 1, 2, \ldots, 9$ (desmit 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -323,6 +365,9 @@ Katrā mazajā trijstūrītī (skat. 6. zīm.) ierakstīts naturāls skaitlis no
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -351,6 +396,9 @@ $$3\cdot x(x+2\cdot y+1)(7\cdot y+1)?$$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -378,6 +426,9 @@ $$MA\cdot MC+MB\cdot MD=AB^2.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -422,6 +473,9 @@ Kvadrātos ir ierakstīti skaitļi $1$, $2$, $3$, $4$, $5$, $6$ (skat. 7. zīm.)
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -446,6 +500,9 @@ Turnīra beigās katrs spēlētājs bija saņēmis vienādu punktu skaitu.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -466,6 +523,9 @@ Izliektam četrstūrim novilktas visu astoņu ārējo leņķu bisektrises. Pier�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -502,6 +562,9 @@ Tabulas $3\times 3$ rūtiņās ierakstītas nulles. Vienā gājienā atļauts do
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -528,6 +591,9 @@ Deviņciparu naturāla skaitļa $n$ ciparu summa ir $3$. Kāda var būt $n^3$ ci
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -556,6 +622,9 @@ Trapeces diagonāles ir vienādas. Pierādīt, ka ap šo trapeci var apvilkt ri�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -580,6 +649,9 @@ b) labajā augšējā stūrī?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

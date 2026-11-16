@@ -10,6 +10,9 @@ $1.$ att.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -36,6 +39,9 @@ Vai $x$ un $y$ vietā var ierakstīt pa vienam ciparam tā, lai skaitlis **a)** 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -56,6 +62,9 @@ Kādos daudzstūros ar vienu taisnu griezienu var sagriezt trijstūri? *Atrodi v
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -86,6 +95,9 @@ $2.$ att.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -113,6 +125,9 @@ Skat., piemēram, 5. att.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll,QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -130,6 +145,9 @@ Uz taisnstūra $ABCD$ malas $AB$ atzīmēts punkts $M$ tā, ka nogrieznis $AM$ i
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue,QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -160,6 +178,9 @@ Ziemassvētku vecīša noliktavā ir skapis, kas sastāv no $6 \cdot 6$ kvadrāt
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -186,6 +207,9 @@ Kādus ciparus var ierakstīt $x$ un $y$ vietā, lai piecciparu skaitlis $\overl
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -206,6 +230,9 @@ Plaknē novilktas četras taisnes. Cik leņķus, kas mazāki nekā $180^{\circ}$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -236,6 +263,9 @@ Skolēni jau laicīgi gribēja radīt sev Ziemassvētku noskaņu. Katrs no $26$ 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -253,6 +283,9 @@ Jā, noteikti. Ja katrai dāvanai būtu bijusi cita cena, tad kopā būtu ne vai
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence,QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -271,6 +304,9 @@ Pierādīt, ka izliekta četrstūra diagonāļu garumu summa ir lielāka nekā j
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -299,6 +335,9 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka $xy(x+69y)=20182019201820
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -317,6 +356,9 @@ Doti astoņi dažādi naturāli skaitļi, kuri nepārsniedz $28$. Pierādīt, ka
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -335,6 +377,9 @@ Romba $ABCD$ iekšpusē izvēlēts patvaļīgs punkts $M$, bet $K$, $L$, $P$ un 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -365,6 +410,9 @@ Pierādīt, ka $9x^2 - 12xy + 20y^2 + 8y + 4 > 0$ visām reālām $x$ un $y$ vē
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -388,6 +436,9 @@ Ap apaļu galdu sēž zēni un meitenes, turklāt zēnu ir trīs reizes vairāk 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -412,6 +463,9 @@ $4$. att.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -444,6 +498,9 @@ Vai vienādojumam $6^x + 15^y = 7^z$ eksistē atrisinājums naturālos skaitļos
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -460,6 +517,9 @@ Klasē ir $30$ skolēni. Katrā decembra dienā daži (varbūt arī neviens, vie
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -485,6 +545,9 @@ $5$. att.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -517,6 +580,9 @@ Kāds atlikums rodas, $2018^{10} + 2019^5$ dalot ar $9$?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -542,6 +608,9 @@ Cik daudz ir piecciparu skaitļu, kas sastāv tieši no trīs dažādiem ciparie
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -564,6 +633,9 @@ Trijstūra $ABC$ leņķa $ACB$ bisektrise un leņķa $ABC$ blakusleņķa bisektr
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

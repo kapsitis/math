@@ -14,6 +14,9 @@ visi pieci ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $2$.
 * _hasReasoningMethod: NumberConstruction
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -41,6 +44,9 @@ Kāds mazākais skaits punktu jānodzēš, lai nekādi trīs no atlikušajiem pu
 * _hasReasoningMethod: PackingDisjointShapes
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -77,6 +83,9 @@ sakrīt (figūras var pagriezt un apmest otrādi).
 * _hasReasoningMethod: SymmetryStrategy
 * _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -105,6 +114,9 @@ $4 \cdot 1+23=27$). Kāds ir pēdējais uzrakstītais skaitlis?
 * _hasReasoningMethod: PeriodicSequence
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -140,6 +152,10 @@ Vai iespējams, ka pēc atkārtotas automāta izmantošanas viṇai palika:
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
 * _mistakesFit: high
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -178,6 +194,9 @@ visi seši ierakstītie cipari būtu dažādi un neviens no tiem nebūtu $3$.
 * _hasReasoningMethod: NumberConstruction
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -204,6 +223,9 @@ ja jābūt izgrieztām arī tieši divām 6.att. figūrām?
 * _hasReasoningMethod: ColoringInvariant
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: high
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -247,6 +269,9 @@ ka abas figūras sakrīt (figūras var pagriezt un apmest otrādi).
 * _hasReasoningMethod: SymmetryStrategy
 * _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -274,6 +299,9 @@ Kāds ir pēdējais uzrakstītais skaitlis?
 * _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -311,6 +339,10 @@ ko sauc par posmiem. Lauztu līniju, kuras galapunkti sakrīt, sauc par slēgtu 
 * _hasReasoningMethod: ParityInvariant
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, ConcludingFromZeroOrEdgeCase
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -344,6 +376,9 @@ katru ciparu tieši vienu reizi! (Iekavas lietot nedrīkst un jāievēro darbīb
 * _hasReasoningMethod: CompleteEnumeration, NumberConstruction
 * _hasReasoningMistake: UnstatedNumberSetAssumption, MissingBoundOrExample
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -368,6 +403,9 @@ Kāda lielākā ciparu summa var būt desmitciparu skaitlim, kas dalās ar $18$?
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument, NumberConstruction
 * _hasReasoningMistake: MissingBoundOrExample, WrongDigitSumRange, WrongDivisibilityRule
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -400,6 +438,9 @@ Kāds var būt nogriežņa $AC$ garums, ja zināms, ka tas ir naturāls skaitlis
 * _hasReasoningMethod: TriangleInequality
 * _hasReasoningMistake: ConcludingFromZeroOrEdgeCase, SkippingCaseAnalysis, UnstatedDirectionAssumption
 * _mistakesFit: high
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -444,6 +485,9 @@ salikt taisnstūri, kurā 16. att. figūras nesaskaras ne ar malu, ne ar stūri!
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -475,6 +519,9 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 * _hasReasoningMethod: ExtremalElementArgument, ContradictionForImpossibility, PigeonholePrincipleBasic
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -510,6 +557,9 @@ Vai iespējams, sareizinot sešus dažādus pirmskaiț̣us, iegūt sešciparu sk
 * _hasReasoningMethod: NumberConstruction, PrimeFactorization
 * _hasReasoningMistake: PrimeOnePointConfusion, WrongDivisibilityRule
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -535,6 +585,9 @@ $D$ un $E$ tā, lai $AE=AD$ un $\sphericalangle BAD=30^{\circ}$. Aprēk̄ināt l
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
 * _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
 * _mistakesFit: high
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -578,6 +631,9 @@ kolonnā vai diagonālē, bet arī, piemēram, punkti $A, B, C$ (skat. 20. att.)
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -610,6 +666,9 @@ Pierādīt, ka pēc gardēžu apmeklējuma vismaz viena torte vēl palika nenopi
 * _hasReasoningMethod: PigeonholePrincipleBasic, ContradictionForImpossibility, ExtremalElementArgument
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, MisusingPigeonholeWithWrongCounts
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -654,6 +713,10 @@ viens skaitlis un katrā rindā un katrā kolonnā skaitli pieaugtu bultiņas no
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -687,6 +750,9 @@ un malu $K L$ un $M N$ vidusperpendikulu krustpunkts $X$ atrodas uz malas $K N$.
 * _hasReasoningMethod: CongruentTriangles, PerpendicularBisector, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
 * _hasReasoningMistake: WrongAngleDecomposition, WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -722,6 +788,9 @@ Pierādīt, ka $\sqrt{17-12 \sqrt{2}}+\sqrt{3-2 \sqrt{2}}+\sqrt{3+2 \sqrt{2}}=3$
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, CaseAnalysisBySignOrInterval, NumericalEstimation
 * _hasReasoningMistake: MissedSolutionsWhenSquareRootOfSquare, ExtraneousRootsAfterSquaring, CircularReasoningOrAssumingTheConclusion
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -782,6 +851,9 @@ Uz kvadrāta $ABCD$ diagonāles $BD$ atlikts punkts $E$. Pierādīt, ka $ED \cdo
 * _hasReasoningMethod: PythagoreanTheorem, ParallelogramProperties
 * _hasReasoningMistake: UnstatedDirectionAssumption, SkippingCaseAnalysis, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -825,6 +897,10 @@ Vai var gadīties, ka tagad visi kaķi atrodas tieši: **(A)** $8$ rūtiņās; *
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -864,6 +940,9 @@ Pierādīt, ka $9$ reizes lielāka skaitļa ciparu summa ir $9$.
 * _hasReasoningMethod: AlgebraicManipulationForInteger, TelescopingAndIdentity, PositionalNotation
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -892,6 +971,9 @@ Pierādīt, ka $AC$ ir paralēla ar $BD$!
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -917,6 +999,9 @@ Doti reāli skaiții $x$ un $y$, kuriem $xy^{3}+1=x+y^{3}$. Pierādīt, ka $y x^
 * questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -952,6 +1037,9 @@ iekšējus punktus $P$ un $Q$, ka nogriežnu $AP, AQ, BP$ un $BQ$ garumi ir izsa
 * questionType:QTY_Prove
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -996,6 +1084,9 @@ Atrast visus tādus veselu skaitlu pārus $(a ; b)$, kuriem izpildās vienādīb
 * questionType:QTY_FindAll
 * domain:NT
 * method:MTH_PolynomialTransformations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1053,6 +1144,10 @@ Vai var gadīties, ka tagad visas vardes atrodas tieši: **(A)** $24$ rūtiņās
 * questionType:A: QTY_Decide
 * questionType:B:
 * domain:Comb
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1079,6 +1174,9 @@ $A$ un $E$ un $OB = OC$. Pierādīt, ka punkti $O$, $A$, $B$ un $C$ atrodas uz v
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1107,6 +1205,9 @@ Pierādīt, ka $\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}<
 * questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1152,6 +1253,9 @@ Aprēķināt $EC$ garumu!
 * questionType:QTY_ConstructExample
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1209,6 +1313,9 @@ $a+\operatorname{LKD}(a, b)=b+\operatorname{LKD}(b, c)=c+\operatorname{LKD}(c, a
 
 * questionType:QTY_Prove
 * domain:NT
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1248,6 +1355,10 @@ Vai iespējams, ka: **(A)** $n=2024$; **(B)** $n=2025$?
 * questionType:B:
 * domain:Comb
 * method:MTH_ContradictionForExistence
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1302,6 +1413,9 @@ Pierādīt, ka $DH$ ir leṇka $EDF$ bisektrise!
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1330,6 +1444,9 @@ Pierādīt, ka $\frac{x^{2}+y^{2}}{x^{2}-y^{2}}+\frac{x^{2}-y^{2}}{x^{2}+y^{2}}>
 * questionType:QTY_Prove
 * domain:Alg
 * method:MTH_PolynomialTransformations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1373,6 +1490,9 @@ $BD=1, DE=3$. Aprēķināt $EC$ garumu!
 * questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1409,6 +1529,10 @@ ja sākumā kastē ir: **(A)** $20$; **(B)** $2024$ konfektes?
 * questionType:B: QTY_ConstructProcedure
 * domain:NT
 * subdomain:DOM_FixedInvariant
+* _questionType:A: QTY_DecideWinner
+* _questionType:B: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1443,6 +1567,9 @@ Atrast visus pirmskaitlu pārus $(p;q)$, kuriem izpildās vienādība $p^{q}=q^{
 * questionType:QTY_FindAll
 * domain:NT
 * method:MTH_InductionWithStepOne
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

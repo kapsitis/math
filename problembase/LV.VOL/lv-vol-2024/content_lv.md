@@ -11,6 +11,10 @@ lielāks nekā visu šo skaitļu lielākais kopīgais dalītājs?
 * domain:Alg
 * method:MTH_ExtremeElements
 * _subdomain: DOM_Divisibility
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -41,6 +45,9 @@ $BOF$ laukums ir $4$, bet trijstūra $AOD$ laukums ir $63$. Aprēķināt četrst
 * questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_Area
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -76,6 +83,9 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 * domain:Comb
 * method:MTH_ContradictionForExistence
 * _subdomain: DOM_Graphs
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -116,6 +126,9 @@ ka pēc $12$ gājieniem iegūtās izteiksmes vērtība dalās ar $9$.
 * questionType:QTY_ConstructProcedure
 * domain:NT
 * _subdomain: DOM_NumeralSystems
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -150,6 +163,9 @@ var izdarīt?
 * questionType:QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumericConstructions
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -186,6 +202,10 @@ dalītāju?
 * questionType:B:
 * domain:NT
 * _subdomain: DOM_NumericSets
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -211,6 +231,9 @@ $\sphericalangle EAF = \sphericalangle EDF$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -283,6 +306,9 @@ z + \frac{1}{z} = 2x^2 \\
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -377,6 +403,9 @@ kopā piedalījās šajā olimpiādē?
 * questionType:QTY_FindValue
 * domain:Alg
 * _subdomain: DOM_WordProblems
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -441,6 +470,9 @@ iekrāsot visas tabulas rūtiņas?
 * questionType:QTY_FindOptimal
 * domain:Comb
 * _subdomain: DOM_CombinatorialStructures, DOM_MakingMoves
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -491,6 +523,9 @@ $$4a + 4b^2 + \sqrt{4a - 4b^2 - 1} \leq 1.$$
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_Inequalities
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -547,6 +582,9 @@ Aprēķināt četrstūra $OECG$ laukumu!
 * domain:Geom
 * method:MTH_AlgebraicModel
 * _subdomain: DOM_Area
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -598,6 +636,9 @@ var atrast divus datorus, kuri ir saņēmuši vienādu ziņojumu skaitu!
 * questionType:QTY_Prove
 * domain:Comb
 * _subdomain: DOM_Graphs
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -636,6 +677,9 @@ skaitļu summu?
 * domain:NT
 * method:MTH_ExtremeElements
 * _subdomain: DOM_NumericSets
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -694,6 +738,9 @@ saskaitītas. Pierādīt, ka spēlētājs $B$ var panākt, lai iegūtā summa b�
 * domain:Alg
 * subdomain:DOM_FixedInvariant
 * _subdomain: DOM_CombinatorialGames
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -730,6 +777,9 @@ z + \frac{1}{z} = x+y\\
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -763,6 +813,9 @@ Pierādīt, ka $AT$ ir leņķa $BAC$ bisektrise!
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -801,6 +854,10 @@ uzvarēs pareizi spēlējot, ja papildus zināms, ka katrs no viņiem var apēst
 * domain:Comb
 * subdomain:DOM_FixedInvariant
 * _subdomain: DOM_CombinatorialGames
+* _questionType:A: QTY_DecideWinner
+* _questionType:B: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -868,6 +925,9 @@ ka skaitlis $C-1$ ir pirmskaitlis?
 * questionType:QTY_Decide
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -908,6 +968,9 @@ $3x^2 + y^2 + 1 \geq A(x^2 + xy + x)$ visiem reāliem skaitļiem $x$ un $y$.
 * questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_Extremes, DOM_Inequalities
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

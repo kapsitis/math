@@ -13,6 +13,9 @@ sadalīts ne vairāk kā $3$ daļās?
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching, ImplicitAssumptionAboutObjectsBeingDistinct
 * _mistakesFit: medium
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
  
@@ -45,6 +48,9 @@ trīs citi cipari?
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -73,6 +79,9 @@ pretējās virsotnes.
 * _hasReasoningMethod: SimilarTriangles
 * _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -104,6 +113,9 @@ $x$ un $y$, ja zināms, ka skaitlis $4x7yx3y31x$ dalās ar $45$.
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration, BoundingArgument
 * _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange, NonCoprimeFactorDivisibility
 * _mistakesFit: high
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -148,6 +160,9 @@ klases biedri nav atsūtīujši vienādu skaitu jauno ziņu?
 * _hasReasoningMethod: ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -179,6 +194,9 @@ $$
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -214,6 +232,9 @@ citi cipari?
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -243,6 +264,9 @@ $Piezīme.$ Taisnstūra diagonāle ir nogrieznis, kas savieno taisnstūra pretē
 * _newReasoningMethodDescription: Decomposing a grid rectangle into repeated coprime subrectangles
 * _hasReasoningMistake: FromSpecialToGeneral, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -273,6 +297,9 @@ procentu atlaidi piešķīra, ja zināms, ka tā nepārsniedz $50 \%$?
 * _hasReasoningMethod: NumericalEstimation
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues, CaseAnalysisIncomplete
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -313,6 +340,9 @@ noskaidrot, kurā paraugā ir vīruss?
 * topic: OtherSearchProblems
 * topic: ProblemsWithHiddenInformation
 * topic: PowersRootsLogarithms
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -349,6 +379,9 @@ Aprēķināt laukumu četrstūrim, kuru ierobežo taisnes
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -381,6 +414,9 @@ Vai visi naturāli skaitļi, kuru ciparu summa dalās ar $27$ , arī paši dalā
 * _hasReasoningMethod: NumberConstruction, DivisibilityRules
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof
 * _mistakesFit: high
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -406,6 +442,9 @@ $MA+MB+MC > \frac{1}{2} P_{ABC}$.
 * _hasReasoningMethod: TriangleInequality
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -449,6 +488,9 @@ var nokļūt jebkurā citā stāvā bez pārkāpšanas citā liftā?
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -479,6 +521,9 @@ pavisam tika izspēlētas? Kas uzvarēja un kas zaudēja septītajā spēlē?
 * _hasReasoningMethod: MonovariantStrictlyChangingQuantity, ContradictionForImpossibility
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -510,6 +555,9 @@ lielāks?
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, NumericalEstimation
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination, ConcreteToGeneralLeap
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -544,6 +592,9 @@ Vai no taisnstūra ar izmēriem $6 \times 12$ rūtiņas var izgriezt astoņas
 * _hasReasoningMethod: PackingDisjointShapes
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -570,6 +621,9 @@ $\sphericalangle ABC=20^{\circ}$. Pierādīt, ka $3AC>AB$.
 * _hasReasoningMethod: CaseAnalysis, TriangleInequality, IsoscelesTriangleProperties, TriangleAngleSum
 * _hasReasoningMistake: SkippingCaseAnalysis, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -600,6 +654,9 @@ Vai piecu secīgu veselu skaitļu summa var būt **a)** $2022$, **b)** $2025$?
 * _hasReasoningMethod: AlgebraicManipulationForInteger, DivisibilityRules, NumberConstruction
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -635,6 +692,9 @@ vienmēr var uzvarēt!
 * _hasReasoningMethod: GameInvariantsInNT, InvariantMethod
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -668,6 +728,9 @@ vismaz viena vesela sakne?
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, CaseAnalysisBySignOrInterval, FactorAndUseZeroProductRule
 * _hasReasoningMistake: MissedSolutionsWhenSquareRootOfSquare, CaseAnalysisIncomplete
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -710,6 +773,9 @@ laukums ir $60$ ?
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -738,6 +804,9 @@ krustojas punktā $A$. Aprēķināt $\sphericalangle RAO$.
 * _hasReasoningMethod: AngleChasing, TriangleAngleSum
 * _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
 * _mistakesFit: high
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -773,6 +842,9 @@ dalās ar $12^{4}$.
 * _hasReasoningMethod: DivisibilityByConsecutive, PrimeFactorization, CoprimeFactorsDivisibility
 * _hasReasoningMistake: NonCoprimeFactorDivisibility, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -812,6 +884,9 @@ rūtiņās, kurām ir kopīga mala, ierakstīto skaitļu starpība nepārsniedz
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, ExtremalElementArgument
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -845,6 +920,9 @@ taisnei, kas iet caur punktu $C$ paralēli taisnei $AB$.
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -892,6 +970,9 @@ Atrisināt reālos skaitļos vienādojumu $x^{3}-4 x^{2}+8=0$.
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -930,6 +1011,9 @@ ir paralelograms.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -966,6 +1050,9 @@ $m$, ka izpildās $k^{2}=24m+1$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1010,6 +1097,9 @@ skaits attiecīgajā izteiksmē?
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence,QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1062,6 +1152,9 @@ $\overrightarrow{PA}+\overrightarrow{PC}=\overrightarrow{PB}+\overrightarrow{PD}
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1088,6 +1181,9 @@ Atrisināt reālos skaitļos vienādojumu $x^{4}-4=3\left(x^{3}+x^{2}+x\right)$.
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1138,6 +1234,9 @@ punktā $E$. Pierādīt, ka $S_{ABE} \cdot S_{ABCD}=S_{ABC}^{2}$ !
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1176,6 +1275,9 @@ $x^{5}+y^{5}$ dalās ar $25$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1207,6 +1309,9 @@ par $11$ .
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1245,6 +1350,9 @@ tests ir ieskaitīts. Kāda ir varbūtība, ka tests tiks ieskaitīts, atbildes 
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1283,6 +1391,9 @@ Atrisināt reālos skaitļos vienādojumu $4x^{4}-11x^{2}+9x-2=0$.
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1329,6 +1440,9 @@ krustpunkts atrodas uz trijstūrim $ADE$ apvilktās riņķa līnijas.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1364,6 +1478,9 @@ Pierādīt, ka $p^{4}-1$ dalās ar $240$ katram pirmskaitlim $p \geq 7$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1438,6 +1555,9 @@ izdarīt gājienu. Kurš spēlētājs - Karlsons vai Brālītis - vienmēr var u
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

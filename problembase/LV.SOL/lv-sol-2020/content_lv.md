@@ -11,6 +11,10 @@ $4500$ rūtiņas un kura malas iet pa rūtiṇu līnijām?
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -33,6 +37,9 @@ ka trim skaitļiem $A, B$ un $A+B$ ciparu summas visas savā starpā vienādas?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -64,6 +71,10 @@ trijstūrīšos ar kopīgu malu.
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -93,6 +104,10 @@ tikai $5$ nepāra skaitļi $(1,3,5,7,9)$.
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -120,6 +135,9 @@ visu komandu nav nevienas uzvaras. Cik spēlu izspēlēja turnīrā?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -141,6 +159,9 @@ skaitļu reizinājums dalās ar to summu?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -168,6 +189,10 @@ $120$, $240$ un $360$, jo
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -197,6 +222,9 @@ bet katrs atlikušais attālums nepārsniegtu $4 \mathrm{~cm}$ ?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -223,6 +251,9 @@ pēc kārtas uzrakstītu skaitļu summa būtu negatīva?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -251,6 +282,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -278,6 +312,9 @@ Pierādīt, ka $AN=CM$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -317,6 +354,9 @@ divi blakus uzrakstīti cipari veidotu pirmskaitli un visi šie pirmskaitļi bū
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -340,6 +380,10 @@ $\frac{1}{a_{1}}+\frac{1}{a_{2}}+\cdots+\frac{1}{a_{10}}=1$?
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -372,6 +416,9 @@ Vai šaurleṇku trijstūrī mediānas garums var būt vienāds ar viduslīnijas
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -418,6 +465,9 @@ ir vieglāka vai smagāka nekā pārējās?
 * topic: WeighingAmongGroups
 * topic: WeighingToFindAuthenticObject
 * topic: WeighingReducedGoal
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -452,6 +502,9 @@ $$1^{2}+3^{2}+5^{2}+\cdots+(2 n-1)^{2}=\frac{n(2 n-1)(2 n+1)}{3}$$
 * questionType:QTY_Prove
 * domain:NT
 * method:MTH_InductionWithStepOne
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -491,6 +544,9 @@ laukumi ir vienādi!
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -519,6 +575,9 @@ Pierādīt, ka uz melnajiem lauciṇiem kopā ir pāra skaits figūru!
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -541,6 +600,9 @@ Pierādīt, ka $10^{n}-9n-1$ dalās ar $81$ visām naturālām $n$ vērtībām!
 * questionType:QTY_Prove
 * domain:NT
 * method:MTH_InductionWithStepOne
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -581,6 +643,9 @@ starp taisnēm $AN$ un $CM$ ir $60^{\circ}$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -613,6 +678,9 @@ ar $b$ un $a+1$ dalās ar $b+1$. Pierādīt, ka $a>b^{2}$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -634,6 +702,9 @@ kur $x_{1}=3$ un $x_{2}=6$. Pierādīt, ka virkni var definēt ar formulu $x_{n}
 * questionType:QTY_Prove
 * domain:Alg
 * method:MTH_InductionWithStepOne
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -674,6 +745,9 @@ Pierādīt, ka $\frac{\operatorname{tg} \sphericalangle AXC}{\operatorname{tg} \
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -708,6 +782,9 @@ nevienādība $Z>U$ ?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

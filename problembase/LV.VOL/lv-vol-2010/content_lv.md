@@ -8,6 +8,9 @@ skaitļi, saknes ir divu dažādu naturālu skaitļu kvadrāti?
 * questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -35,6 +38,9 @@ un $N$ var novilkt riņķa līniju. Atrast $\sphericalangle BAC$ vērtību.
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -67,6 +73,9 @@ Kāds lielākais daudzums pēc kārtas sekojošu naturālu skaitļu visi var bū
 * questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_NumericConstructions
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -97,6 +106,9 @@ Cik no $8$ šo divu taisnstūru virsotnēm var vienlaicīgi piederēt arī otram
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerLattices
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -189,6 +201,10 @@ rūtiņas ir vienā krāsā, ja
 * questionType:B:
 * domain:
 * _subdomain: DOM_MakingMoves
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -226,6 +242,9 @@ $$\frac{a}{b+c-a}+\frac{b}{a+c-b}+\frac{c}{a+b-c} \geq 3$$
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -268,6 +287,9 @@ Pierādīt, ka $a_{1}=a_{2}=a_{3}=\ldots=a_{20}$.
 * questionType:
 * domain:
 * _subdomain: DOM_SequenceProperties
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -294,6 +316,9 @@ $\sphericalangle MDN \geq \sphericalangle BAC$.
 * questionType:
 * domain:
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -340,6 +365,9 @@ tāda diena, kurā viņi abi ir uzstājušies?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -389,6 +417,9 @@ $2 \times 3$ rūtiņas un vienā stūrītī ![](LV.VOL.2010.10.5.png)?
 * domain:
 * subdomain:DOM_GridCut
 * _subdomain: DOM_CuttingCoversColoring
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -421,6 +452,9 @@ Pierādīt, ka $ab+ac+ad+bc+bd+cd-a^{2}-b^{2}-c^{2}-d^{2} \leq 8$.
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -458,6 +492,9 @@ $$a_{1}^{3}+a_{2}^{3}+\ldots+a_{k}^{3}=\left(a_{1}+a_{2}+\ldots+a_{k}\right)^{2}
 * domain:
 * method:MTH_StrongInduction
 * _subdomain: DOM_RealSequences
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -496,6 +533,9 @@ $\omega$ pieskare un $AT=TB$. Pierādīt, ka $AB=AC$.
 * questionType:
 * domain:
 * _subdomain: DOM_Triangles, DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -550,6 +590,9 @@ virknes loceklis, kas dalās ar $n$.
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -600,6 +643,10 @@ ka no katras pilsētas ir iespējams aizbraukt uz katru citu, braucot tikai pa c
 * questionType:B:
 * domain:
 * _subdomain: DOM_Graphs
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -652,6 +699,9 @@ $$\left|x_{1}^{3}+x_{2}^{3}+\ldots+x_{n}^{3}\right| \leq 2 n$$
 * questionType:
 * domain:
 * _subdomain: DOM_Inequalities, DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -684,6 +734,9 @@ Pierādīt, ka $p=q=1$.
 * domain:NT
 * method:MTH_StrongInduction
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -738,6 +791,9 @@ Pierādīt, ka trijstūru $OHD$ un $OEJ$ laukumi ir vienādi.
 * questionType:
 * domain:
 * _subdomain: DOM_Area
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -809,6 +865,10 @@ Vai ir iespējams, ka **(A)** $k=7$, **(B)** $k=8$?
 * questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_Congruences
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -851,6 +911,10 @@ noskaidrot, kurā no visām kredītkartēm ir lielākā naudas summa.
 * domain:Comb
 * method:MTH_StrongInduction
 * _subdomain: DOM_CombinatorialAlgorithms
+* _questionType:A: QTY_ProveExistence
+* _questionType:B: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

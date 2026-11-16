@@ -9,6 +9,9 @@ Pierādīt, ka katrai no šīm kvadrātfunkcijām minimālā vērtība ir nulle!
 * questionType:
 * domain:
 * _subdomain: DOM_Extremes
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -68,6 +71,9 @@ vismaz divi dod vienādus atlikumus!
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Congruences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -110,6 +116,9 @@ būs kaimiņi arī jaunajā izvietojumā?
 * questionType:
 * domain:
 * _subdomain: DOM_GridReorder
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -153,6 +162,9 @@ $BMC$ laukumu!
 * questionType:
 * domain:
 * _subdomain: DOM_Area
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -204,6 +216,9 @@ kaudzītē?
 * questionType:
 * domain:
 * _subdomain: DOM_MakingMoves
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -233,6 +248,9 @@ x+2y<\frac{15}{2}
 * questionType:
 * domain:
 * _subdomain: DOM_IntegerConditions
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -270,6 +288,9 @@ Aprēķināt $AD$ garumu, ja $AK=6,\ AM=3$ un $\sphericalangle KAM=60^{\circ}$.
 * questionType:
 * domain:
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -330,6 +351,10 @@ lielāks nekā $10$.
 * topic:NotationInsert
 * concepts:sum-of-digits
 * _subdomain: DOM_NumeralSystems
+* _questionType:A: QTY_ConstructExample
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -389,6 +414,10 @@ vismaz viens *karaliskais neizšķirts*, **(B)** vismaz divi
 * questionType:B:
 * domain:
 * _subdomain: DOM_Graphs
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -424,6 +453,9 @@ mazākais).
 * questionType:
 * domain:
 * _subdomain: DOM_NumericSets
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -498,6 +530,9 @@ Atrisināt nevienādību $|||x-2|-3|-7|<5$.
 * questionType:
 * domain:
 * _subdomain: DOM_Inequalities
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -547,6 +582,9 @@ ka $AO \perp BE$ !
 * questionType:
 * domain:
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -585,6 +623,10 @@ lielāks nekā $10$.
 * questionType:B: QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumericConstructions
+* _questionType:A: QTY_ConstructExample
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -638,6 +680,9 @@ z^{3}+4z=5x
 * questionType:
 * domain:
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -672,6 +717,10 @@ jau atrodas. Vai, veicot šādus gājienus, iespējams iztukšot **(A)** vienu m
 * questionType:B:
 * domain:
 * _subdomain: DOM_MakingMoves
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -717,6 +766,9 @@ $\frac{a-b}{c}+\frac{b-c}{a}+\frac{c-a}{b}$ vērtību!
 * questionType:
 * domain:
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -742,6 +794,9 @@ punktos $P$ un $R$. Pierādīt, ka $DP=PR=RF$.
 * questionType:
 * domain:
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -775,6 +830,9 @@ Atrisināt veselos skaitļos vienādojumu $x^{6}+3x^{3}+1=y^{4}$.
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -810,6 +868,9 @@ dalās ar $6$.
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -855,6 +916,9 @@ Pierādīt, ka, veicot šādus gājienus, vienmēr iespējams iztukšot vienu no
 * questionType:
 * domain:
 * _subdomain: DOM_NumericGamesAndAlgorithms
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

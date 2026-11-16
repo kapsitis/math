@@ -6,6 +6,9 @@ Istabā sēž $8$ cilvēki. Pierādīt, ka starp tiem ir vismaz $2$, kuri dzimu�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -26,6 +29,9 @@ $1.$ att.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -46,6 +52,9 @@ Jānis, Juris, Andris, Pēteris un Kārlis katrs iedomājās pa skaitlim; tie vi
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -62,6 +71,9 @@ Istabā sēž $13$ cilvēki. Pierādīt, ka starp tiem ir vismaz $2$, kuri dzimu
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -78,6 +90,9 @@ Vai visus divciparu pirmskaitļus var uzrakstīt rindā tā, lai katrs nākamais
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -94,6 +109,9 @@ Vai uz lineāla var atzīmēt četrus punktus tā, lai seši attālumi starp tie
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -114,6 +132,9 @@ Tabulā $3 \times 3$ rūtiņas katrā rūtiņā ierakstīts viens no trim skait�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -142,6 +163,9 @@ Vienādojumam $ax=b$ nav neviena atrisinājuma ($a$ un $b$ – kaut kādi doti s
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -158,6 +182,9 @@ Koordinātu plaknē atzīmēti $10$ punkti. Caur katru no tiem novilktas $2$ tai
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -186,6 +213,9 @@ Kontroldarbu rakstīja $17$ skolēni. Vienam no viņiem bija $5$ kļūdas, pār�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -210,6 +240,9 @@ Rindā uzrakstīti cipari $12345678901234567890...1234567890$ (ciparu grupa $123
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -234,6 +267,9 @@ Kvadrāts sastāv no $8 \times 8$ rūtiņām. Vienu rūtiņu izgriež. Vai atlik
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -250,6 +286,9 @@ Kādā namā dzīvo $135$ cilvēki. Neviens no viņiem nav jaunāks par $10$ gad
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -274,6 +313,9 @@ Cik ir tādu naturālu skaitļu $n$, ka $\left[\sqrt{n}\right] = 25$? Ar $[x]$ a
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -290,6 +332,9 @@ Vai trapeces diagonāļu krustpunkts var atrasties uz tās viduslīnijas?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -310,6 +355,9 @@ Pierādīt, ka no jebkuriem $11$ naturāliem skaitļiem var izvēlēties divus t
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -328,6 +376,9 @@ Pierādīt, ka aritmētiskajā progresijā, kuras vispārīgais loceklis ir $a_n
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -344,6 +395,9 @@ Taisnleņķa trijstūrī hipotenūzas garums ir $10$. Aprēķināt to mediānu g
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -372,6 +426,9 @@ Pierādīt, ka no patvaļīgiem pieciem naturāliem skaitļiem var izvēlēties 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -395,6 +452,9 @@ $$|8 - x| + |4 - y| = 3.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -424,6 +484,9 @@ Trijstūrī $ABC$ novilkta mediāna $BM$. Vai var gadīties, ka trijstūrī $ABM
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -450,6 +513,9 @@ Pierādīt, ka no jebkuriem $15$ naturāliem skaitļiem var izvēlēties divus t
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -466,6 +532,9 @@ Dots, ka $a$ un $b$ – naturāli skaitļi un $a^2 + b^2$ dalās ar $7$. Pierād
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -494,6 +563,9 @@ Izliekta četrstūra $ABCD$ laukums ir $S$, bet malu viduspunkti ir $M, N, K, T$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

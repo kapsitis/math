@@ -10,6 +10,9 @@ Cik pavisam vārdu uzrakstīts?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -26,6 +29,9 @@ Kvadrāts sastāv no $4 \cdot 4$ rūtiņām. Vai var katrā rūtiņā ierakstīt
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -42,6 +48,9 @@ Pierādīt, ka trīssimt divnieku reizinājums nesatur vairāk par $100$ ciparie
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -68,6 +77,9 @@ $1.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -98,6 +110,9 @@ Aprēķināt vērtību $(a * b) \circ (c * d)$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -120,6 +135,9 @@ Izrakstīt neiekrāsotajās rūtiņās ($2.$ zīm.) skaitļus no $1$ līdz $24$ 
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -140,6 +158,9 @@ b) $7$ ?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -168,6 +189,9 @@ Nav pareiza.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -188,6 +212,9 @@ Vai trijstūra piramīdas (skat. $3.$ zīm.) šķautnes (trijstūru malas) var s
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -208,6 +235,9 @@ Salikt taisnstūri ar izmēriem $5\cdot 6$ rūtiņas no gabaliem ar izmēriem $1
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -232,6 +262,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -264,6 +297,9 @@ Vai var katram no tiem priekšā pierakstīt "$+$" vai "$-$" zīmi tā, lai ieg�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -290,6 +326,9 @@ Kādu mazāko skaitu rūtiņu jāiekrāso kvadrātā ar izmēriem $6\times 6$ r�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -312,6 +351,9 @@ Kvadrāts sastāv no $4\times 4$ rūtiņām. Tajās ierakstīti naturāli skait�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -334,6 +376,9 @@ Turnīrā piedalās $10$ komandas, katrai ar katru jāizspēlē viena spēle. Va
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -350,6 +395,9 @@ Slēgtā lauztā līnijā ir $10$ posmi. Cik posmi var krustoties vienā punktā
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -376,6 +424,9 @@ devītniekiem.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -402,6 +453,9 @@ Kvadrāts sastāv no $6\times 6$ rūtiņām. Kādu mazāko skaitu rūtiņu jāie
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -428,6 +482,9 @@ Vai var katram no tiem priekšā pierakstīt "$+$" vai "$-$" zīmi tā, lai ieg�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -446,6 +503,9 @@ Pierādīt, ka ar šādiem gājieniem var panākt, lai konfekšu skaits visos š
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -464,6 +524,9 @@ Aprēķināt trešās malas garumu.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -490,6 +553,9 @@ Dots, ka $\sqrt{x}+\sqrt{y}<x+y$. Pierādīt, ka $x+y>1$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -512,6 +578,9 @@ b) Vai noteikti visi šie skaitļi ir veseli?
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -532,6 +601,9 @@ Pierādīt, ka no skaitļiem $a,b,c,d$ var izvēlēties divus, kuru reizinājums
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -570,6 +642,9 @@ Figūra (skat. $5.$ zīm.) sastāv no $6$ vienādiem vienādmalu trijstūriem. K
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -590,6 +665,9 @@ Vai var uzzīmēt $5$ riņķa līnijas tā, ka katra no tām pieskaras tieši tr
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -606,6 +684,9 @@ Dots, ka $x^2+y^2=1$. Pierādīt, ka $x^4+y^4\ge 2x^3y^3$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -628,6 +709,9 @@ Dots, ka $n$ – naturāls skaitlis. Pierādīt, ka $3^n+2\cdot17^n$ nav nekāda
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -653,6 +737,9 @@ Diagonāles sadala izliektu četrstūri $4$ trijstūros. Šo trijstūru laukumie
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -675,6 +762,9 @@ Doti sviras svari. To pleci ir dažāda garuma un svaru kausiem ir dažādas mas
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -709,6 +799,9 @@ $$(a+1)(b+1)(c+1)=2+a+b+c+\frac{1}{a}+\frac{1}{b}+\frac{1}{c}.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -739,6 +832,9 @@ dalās ar $3$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -759,6 +855,9 @@ Izliekta sešstūra $ABCDEF$ visu malu garumi mazāki par $1$ cm. Pierādīt, ka
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -791,6 +890,9 @@ $$\frac{x_1^2}{x_1+x_2}+\frac{x_2^2}{x_2+x_3}+\cdots+\frac{x_n^2}{x_n+x_1}\ge \f
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -839,6 +941,9 @@ Pierādīt, ka $9$ sargi var noķert pilī ielavījušos zagli. (Zaglis skaitās
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -865,6 +970,9 @@ $$\cos x = 1 + x^2$$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -889,6 +997,9 @@ Tātad, ja $x \ne 0$, $\cos x < 1+x^2$. Atliek pārbaudīt vērtību $x=0$; tā 
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -921,6 +1032,9 @@ Uz trijstūra malas $AB$ ņemts tās iekšējs punkts $M$. Zināms, ka $\dfrac{A
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -945,6 +1059,9 @@ Katram no skaitļiem $m$ un $n$ aprēķināja tā visu pozitīvo dalītāju reiz
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -975,6 +1092,9 @@ Rūķīšu ziemassvētku ballē katri divi rūķīši sasveicinās, vai nu pamā
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

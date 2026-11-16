@@ -19,6 +19,10 @@ pirmais cipars par $1$ mazāks nekā visu citu ciparu summa.
 * _hasReasoningMethod: BoundingArgument, NumberConstruction
 * _hasReasoningMistake: MissingBoundOrExample, WrongDigitSumRange
 * _mistakesFit: medium
+* _questionType:A: QTY_FindOptimal
+* _questionType:B: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -59,6 +63,9 @@ un, ja tā ir, tad vai tā vieglāka vai smagāka par citām?
 * topic: WeighingToFindAuthenticObject
 * topic: WeighingReducedGoal
 * topic: WeighingInformationBound
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -96,6 +103,9 @@ mazākais iespējamais).
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -127,6 +137,9 @@ ne ar vienu citu naturālu skaitli kā $1$?
 * _hasReasoningMethod: NumberConstruction, ParityArgument
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -159,6 +172,10 @@ trešās krāsas lodīti. **(A)** Vai var panākt, lai kastē paliek tikai viena
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
 * _mistakesFit: high
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -192,6 +209,9 @@ pulkst. $12^{00}$ abi pulksteņi atkal rādīs pareizu laiku?
 * _hasReasoningMethod: NumericalEstimation
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -224,6 +244,10 @@ otrā. Vai to var izdarīt, ja **(A)** $n=5$, **(B)** $n=7$?
 * _hasReasoningMethod: ColoringInvariant, ProofByContradiction, ParityInvariant
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -259,6 +283,9 @@ pēdējo, būtu vienāds ar savu abu kaimiņu summu vai starpību?
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -289,6 +316,9 @@ un cik punktus viņi ieguva?
 * _hasReasoningMethod: ContradictionForImpossibility, AveragingArgumentForExistenceOfElement, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, MisusingPigeonholeWithWrongCounts
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -349,6 +379,9 @@ svēršanām var noteikt katra atsvara masu?
 * topic: WeighingWithNumericReadout
 * topic: CaseAnalysis
 * topic: RemaindersInCombinatorics
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -385,6 +418,9 @@ Dots, ka $|x+y|+|x-y|=10$. Kāda ir lielākā iespējamā $x$ vērtība?
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, ProofByContradictionInAlgebra, NumericalEstimation
 * _hasReasoningMistake: CaseAnalysisIncomplete, ExtraneousRootsAfterSquaring, ConcreteToGeneralLeap
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -417,6 +453,9 @@ kā minēts iepriekš?
 * _hasReasoningMethod: CountingByDoubleCounting, ProofByContradiction
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, ConcludingFromZeroOrEdgeCase
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -458,6 +497,9 @@ Parādiet, kā tas, kas izdara pirmo gājienu, var uzvarēt.
 * _hasReasoningMethod: GameInvariantsInNT, CompleteEnumeration
 * _hasReasoningMistake: ConfusingDivisorAndMultiple, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -492,6 +534,9 @@ Pierādiet, ka $EE_{1} \perp BC$.
 * _hasReasoningMethod: IsoscelesTriangleProperties
 * _hasReasoningMistake: ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -524,6 +569,10 @@ var būt $0$, ja **(A)** $n=8$, **(B)** $n=9$?
 * _hasReasoningMethod: FixedInvariantNumeric, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ImplicitParityOrModularAssumption, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: high
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -564,6 +613,9 @@ $x_{0},\ x_{1},\ x_{2}$ un $x_{3}$, nelietojot kvadrātsaknes zīmi.
 * _hasReasoningMethod: VietasFormulas, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -598,6 +650,9 @@ vajadzēja iegūt. Kādu sešciparu skaitli Andris uzrakstīja?
 * _hasReasoningMethod: PositionalNotation, DiophantineEquations, BoundingArgument, CompleteEnumeration
 * _hasReasoningMistake: WrongDivisibilityDirection, ConfusingDivisorAndMultiple, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -630,6 +685,9 @@ dalītājs būtu $1$?
 * _hasReasoningMethod: BoundingArgument, PrimePropertiesAndUniqueness, NumberConstruction
 * _hasReasoningMistake: MissingBoundOrExample, PrimeOnePointConfusion, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -665,6 +723,9 @@ kopgarumu. (Tika novilktas **tikai** līnijas, kas dala kvadrātus taisnstūros.
 * _hasReasoningMethod: CountingByDoubleCounting
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -699,6 +760,11 @@ Vai tas iespējams, ja **(A)** $n=3$, **(B)** $n=4$, **(C)** $n=2003$?
 * _hasReasoningMethod: NumberConstruction, AlgebraicManipulationForInteger
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionType:C: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -731,6 +797,9 @@ divas dažādas saknes.
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -759,6 +828,10 @@ $8$?
 * _hasReasoningMethod: NumericalEstimation, CountTheSameQuantityInTwoWays
 * _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -794,6 +867,9 @@ $\left(p_{1}-1\right)\left(p_{2}-1\right) \ldots \left(p_{n}-1\right)$.
 * _hasReasoningMethod: ParityArgument, CompleteEnumeration, AlgebraicManipulationForInteger, PrimePropertiesAndUniqueness
 * _hasReasoningMistake: PrimeOnePointConfusion, WrongDivisibilityDirection, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -832,6 +908,9 @@ $\sphericalangle BAC=2 \sphericalangle CBA$.
 * _hasReasoningMethod: PointOnSegmentConstruction, CongruentTriangles, IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
 * _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -872,6 +951,10 @@ Kurš uzvar, pareizi spēlējot, ja **(A)** $k=8$, **(B)** $k=64$?
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideWinner
+* _questionType:B: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -904,6 +987,10 @@ Vai noteikti $x+\frac{4}{x}>y+\frac{4}{y}$, ja
 * domain:Alg
 * subdomain:DOM_Inequalities
 * topic:InequalitiesEquivalentTransformations
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -929,6 +1016,9 @@ līdzīgi savā starpā.
 * domain:Geom
 * subdomain:DOM_Triangles
 * topic:CircleInscribedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -967,6 +1057,10 @@ skaitļu kvadrāti.
 * subdomain:DOM_PrimeFactors
 * method:MTH_ContradictionForExistence
 * topic:AlgebraicTransformations
+* _questionType:A: QTY_ConstructExample
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -995,6 +1089,9 @@ Cik dažādi skolēnu izvietojumi iespējami pēc pārkārtošanās?
 * domain:Comb
 * subdomain:DOM_CountingObjects
 * topic:LinearRecurrencesVariable
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1029,6 +1126,9 @@ $m+n \geq 3$).
 * questionType:QTY_FindAll
 * domain:Comb
 * subdomain:DOM_CombinatorialStructures
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1074,6 +1174,9 @@ Kāda ir lielākā iespējamā $z$ vērtība?
 * domain:Alg
 * subdomain:DOM_MultivariableEquations
 * topic:ModulusFunctionProperties
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1098,6 +1201,9 @@ Pierādiet, ka taisne $AZ$ dala nogriezni $XB$ uz pusēm.
 * domain:Geom
 * subdomain:DOM_CirclesAndRelatedAngles
 * topic:CircleInscribedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1125,6 +1231,9 @@ Vai eksistē tāds naturāls skaitlis $n$, ka $6^{n}-1$ dalās ar $4^{n}-1$?
 * domain:NT
 * subdomain:DOM_Divisibility
 * topic:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1151,6 +1260,9 @@ vienlaicīgi izpildītos divas prasības:
 * domain:Comb
 * subdomain:DOM_CombinatorialCounterexamples
 * method:MTH_GeometricInterpretation
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1187,6 +1299,9 @@ pārējām zaudējusi vismaz vienai no izvēlētajām $n$.
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_ExtremeElements
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1224,6 +1339,9 @@ ar veselu skaitu centimetru.
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1254,6 +1372,9 @@ dalītāju, kas dod atlikumu $2$, dalot ar $3$?
 
 * questionType:QTY_Decide
 * domain:NT
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1279,6 +1400,9 @@ viduspunkts. Pierādīt, ka $\sphericalangle MKN=90^{\circ}$.
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1311,6 +1435,9 @@ $y+z=u^{2},\ z+u=v^{2},\ u+v=x^{2},\ v+x=y^{2}$ pozitīvos skaitļos.
 
 * questionType:QTY_FindAll
 * domain:Alg
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1342,6 +1469,9 @@ Kādu lielāko summu $S$ var sasniegt spēlētājs $A$?
 
 * questionType:QTY_FindOptimal
 * domain:Comb
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

@@ -13,6 +13,9 @@ $DLV; MMXVI; CMXCIV; XXXVII$
 * _hasReasoningMethod: NumericalEstimation
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -38,6 +41,9 @@ $14 \cdot a+2 \cdot b+1=2016$ ?
 * _hasReasoningMethod: ParityOrModularArgumentForEquations
 * _hasReasoningMistake: ConcreteToGeneralLeap
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -68,6 +74,10 @@ iekavas tā, lai iegūtu patiesu vienādību!
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType:A: QTY_ConstructExample
+* _questionType:B: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -93,6 +103,9 @@ daļas nedrīkst pārklāties, daļas drīkst pagriezt, bet nedrīkst apgāzt ot
 * _hasReasoningMethod: AreaInvarianceAndDecomposition
 * _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -119,6 +132,9 @@ viens otram!
 * _hasReasoningMethod: PigeonholePrincipleBasic
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingOrderedVsUnorderedSelections
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -149,6 +165,9 @@ risinājumu!
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -175,6 +194,9 @@ $14 \cdot a+15=2016-6 \cdot b$?
 * _hasReasoningMethod: ParityArgument
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -207,6 +229,9 @@ tantītes piedalījās sacensībās?
 * _hasReasoningMethod: NumericalEstimation, CountTheSameQuantityInTwoWays
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, WrongDirectionOfInequalityChain, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -251,6 +276,9 @@ taisnstūrī būtu vismaz viena iekrāsota rūtiņa?
 * _hasReasoningMethod: CaseAnalysis
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -281,6 +309,9 @@ laukuma) daļās! Gabali attiecībā viens pret otru drīkst būt gan pagriezti,
 * _hasReasoningMethod: SymmetryStrategy
 * _hasReasoningMistake: RelyingOnDiagramAppearance, AreaWithoutPosition, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -312,6 +343,10 @@ funkcijas grafiku un iet caur punktu $(1; 43)$!
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseFunctionGraphForRootsAndComparisons
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType:A: QTY_FindValue
+* _questionType:B: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -349,6 +384,9 @@ centu). Cik samaksāja Brālītis?
 * _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument, AlgebraicManipulationForInteger
 * _hasReasoningMistake: UnstatedNumberSetAssumption, WrongDivisibilityDirection
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -391,6 +429,9 @@ Pierādīt, ka $\sphericalangle ANC=90^{\circ}$.
 * _hasReasoningMethod: CongruentTriangles, ParallelLinesAngleProperties, IsoscelesTriangleProperties, AngleChasing
 * _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, MisuseOfMidpointOrParallel, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -439,6 +480,9 @@ tūbiņu?
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities, BruteForceCheckOverFiniteSet
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -477,6 +521,9 @@ Pierādīt, ka varde ir apēdusi vismaz $21$ mušu!
 * _hasReasoningMethod: ColoringArgumentForCoverageOrUnreachability
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -508,6 +555,9 @@ $$\frac{2000016 \cdot 1999984}{5^{12} \cdot 2^{13}-128}$$
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -540,6 +590,9 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+43b)=434343$?
 * _hasReasoningMethod: ParityArgument, DiophantineEquations
 * _hasReasoningMistake: UnstatedNumberSetAssumption
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -580,6 +633,9 @@ lielākais ciparu skaits, kas var būt šajā skaitlī?
 * _hasReasoningMethod: NumberConstruction, DivisibilityRules, PrimeFactorization, BoundingArgument, SumOfArithmeticOrTriangularNumbers
 * _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityRule, ExampleInsteadOfProof
 * _mistakesFit: high
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -627,6 +683,9 @@ Pierādīt, ka $\triangle MNB=\triangle CKM$.
 * _hasReasoningMethod: CongruentTriangles, PerpendicularBisector
 * _hasReasoningMistake: MisuseOfMidpointOrParallel, RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -671,6 +730,10 @@ pareizi spēlējot, uzvar, ja **(A)** $N=7$, **(B)** $N=8$?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideWinner
+* _questionType:B: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -706,6 +769,9 @@ Atrisināt nevienādību $\frac{x-1}{x^{2}-4} \leq 0$.
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval
 * _hasReasoningMistake: CaseAnalysisIncomplete, SignFlipForgottenInInequality, UncheckedConsistencyOfFoundValues
 * _mistakesFit: high
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -736,6 +802,9 @@ $x, y$ un $z$, ka $x^{3}-2016xyz=10$ ?
 * _hasReasoningMethod: ModularArithmetic, CompleteEnumeration
 * _hasReasoningMistake: IncompleteResidueCases, CarelessModularComputation
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -776,6 +845,9 @@ $CDM$ ir vienādmalu!
 * _hasReasoningMethod: SimilarTriangles, CongruentTriangles, AngleAtCenterAndCircumference, ParallelogramProperties, TriangleAngleSum
 * _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, RelyingOnDiagramAppearance, WrongAngleDecomposition
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -821,6 +893,9 @@ reizinājumu. Kāds ir šīs virknes $2016.$ loceklis?
 * _hasReasoningMethod: PeriodicSequence, CompleteEnumeration
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -883,6 +958,9 @@ pārbaudot ne vairāk kā četrus podus!
 * topic: ProblemsWithHiddenInformation
 * topic: CaseAnalysis
 * topic: ArithmeticAndGeometricSeries
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -920,6 +998,9 @@ pirmā kabeļa katra metra masa. Kādi var būt kabeļu garumi?
 
 * questionType:QTY_FindAll
 * domain:Alg
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -947,6 +1028,9 @@ Vai var atrast tādus veselus skaitļus $x, y$ un $z$, ka $x^{3}-2016xyz=120$ ?
 * questionType:QTY_Decide
 * domain:NT
 * seeAlso:LV.AMO.2016.9.2
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -997,6 +1081,9 @@ veselu skaitļu kvadrātu summu!
 * questionType:QTY_Prove
 * domain:NT
 * concepts:arithmetic-progression,sum,square-Alg
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1031,6 +1118,9 @@ $PD$ krusto nogriezni $BQ$ punktā $M$. Pierādīt, ka $PM=MD$.
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1059,6 +1149,9 @@ taisnstūri nepārklājas. Pierādīt, ka nenoklāta paliek laukuma centrālā r
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1086,6 +1179,9 @@ kuram ir vislielākais laukums!
 
 * questionType:QTY_FindOptimal
 * domain:Geom
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1109,6 +1205,9 @@ $x^{2}+y^{2}+z^{2}=\underbrace{1111 \ldots 1}_{2016}$ ?
 
 * questionType:QTY_Decide
 * domain:NT
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1151,6 +1250,9 @@ $$\frac{1}{\sqrt{1}+\sqrt{3}}+\frac{1}{\sqrt{2}+\sqrt{4}}+\frac{1}{\sqrt{3}+\sqr
 
 * questionType:QTY_Prove
 * domain:Alg
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1180,6 +1282,9 @@ trijstūra $AFG$ laukums ir vienāds ar četrstūra $GHJK$ laukumu!
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1225,6 +1330,10 @@ zaļi, $15$ zili un $16$ sarkani hameleoni?
 * questionType:A: QTY_Decide
 * questionType:B: QTY_Decide
 * domain:Geom
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1249,6 +1358,9 @@ $4 \cdot\left(\frac{2}{3}\right)^{\sin x}+9 \cdot\left(\frac{3}{2}\right)^{\sin 
 
 * questionType:QTY_FindAll
 * domain:Alg
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1277,6 +1389,9 @@ skaitļos!
 * concepts:equation
 * questionType:QTY_Prove
 * domain:NT
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1300,6 +1415,9 @@ $2x^{2}+xy+xz < 0$. Pierādīt, ka izpildās arī nevienādība $y^{2} > 8xz$.
 
 * questionType:QTY_Prove
 * domain:Alg
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1334,6 +1452,9 @@ $BCD$ augstumi. Pierādīt, ka nogrieznis $PQ$ krusto malu $AC$ tās viduspunkt�
 
 * questionType:QTY_Prove
 * domain:Geom
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1378,6 +1499,9 @@ vienu īsto monētu?
 * topic: WeighingToFindAuthenticObject
 * topic: WeighingWithNumericReadout
 * topic: CaseAnalysis
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

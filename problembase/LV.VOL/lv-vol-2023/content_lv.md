@@ -9,6 +9,10 @@ $x^{2}-x-y^{2}+y$ vērtība ir **(A)** $10$, **(B)** $2023$?
 * questionType:B: QTY_Decide
 * domain:Alg
 * _subdomain: DOM_IntegerEquations
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -42,6 +46,9 @@ kausiem tā, lai izpildās abi nosacījumi:
 * domain:Alg
 * _subdomain: DOM_CombinatorialGames
 * topic: WeighingBalanceEquations
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -75,6 +82,11 @@ vienādi, ja: **(A)** $n=72$; **(B)** $n=73$; **(C)** $n=74$?
 * domain:Comb
 * method:MTH_AugmentationWithNewElements
 * _subdomain: DOM_MakingMoves
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionType:C: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -134,6 +146,9 @@ Kādām reālām $m$ vērtībām trijstūris $ABC$ ir taisnleņka trijstūris?
 * questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_Triangles
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -196,6 +211,9 @@ būt uzrakstīts uz tāfeles?
 * domain:NT
 * method:MTH_ExtremeElements
 * _subdomain: DOM_NumericConstructions
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -237,6 +255,9 @@ $$3\left(x^{2}+y^{2}+z^{2}+4\right) - 2(xy + yz + zx) - 4(x+y+z)=0$$
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * _subdomain: DOM_MultivariableEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -272,6 +293,9 @@ kausiem tā, lai izpildās abi nosacījumi:
 * _subdomain: DOM_CombinatorialGames
 * sameAs: LV.VOL.2023.9.2
 * topic: WeighingBalanceEquations
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -304,6 +328,9 @@ pēdējā skaitļa vērtības!
 * domain:NT
 * subdomain:DOM_FixedInvariant
 * _subdomain: DOM_NumeralSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -354,6 +381,9 @@ un $\sphericalangle ABC = 2 \sphericalangle ADC$. Aprēķināt $\sphericalangle 
 * questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -419,6 +449,9 @@ apli uzrakstītie skaitļi kļūst vienādi?
 * domain:Comb
 * method:MTH_AugmentationWithNewElements
 * _subdomain: DOM_MakingMoves
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -483,6 +516,9 @@ un atrast šo vērtību!
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -534,6 +570,9 @@ jebkura cita, samainot vietām tā ciparus. Kāda ir mazākā iespējamā
 * questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_DigitManipulation, DOM_IntegerSequences
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -623,6 +662,9 @@ atrodas uz vienas riṇka līnijas!
 * domain:Geom
 * method:MTH_AugmentationWithNewElements
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -677,6 +719,9 @@ $$2^{a_{1}}-\left(b_{1}\right)^{2}=2^{a_{2}}-\left(b_{2}\right)^{2}>0$$
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -704,6 +749,9 @@ Kādas ir iespējamās naturālās šīs skaitļa vērtības?
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_NumericGamesAndAlgorithms
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -783,6 +831,9 @@ un atrast šo vērtību!
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_FindValue,QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -815,6 +866,9 @@ $BC$ punktā $Y$, kas nesakrīt ar $C$. Pierādīt, ka $DX=DY$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -856,6 +910,9 @@ ka viens no uzrakstītajiem skaitliem ir $73$?
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_AlgebraicOperations, DOM_Extremes
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -894,6 +951,9 @@ kuriem $p^{q-1}+q^{p-1}+1$ ir vesela skaitļa kvadrāts!
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_PrimeFactors
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -942,6 +1002,9 @@ citu pilsētu (varbūt arī caur vienu vai vairākām citām pilsētām)?
 * questionType:QTY_FindAll
 * domain:Comb
 * _subdomain: DOM_Graphs
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

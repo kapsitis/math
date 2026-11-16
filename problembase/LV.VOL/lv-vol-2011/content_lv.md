@@ -11,6 +11,9 @@ ir veseli skaitļi?
 * questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -37,6 +40,9 @@ garumu. Aprēķināt hipotenūzas un īsākās katetes garumu attiecību!
 * questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -86,6 +92,9 @@ izvēlēties $81$ trīsciparu skaitli tā, lai vienlaicīgi izpildītos šādas 
 * domain:NT
 * _subdomain: DOM_DigitManipulation
 * subdomain: DOM_CombinatorialCounterexamples
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -127,6 +136,10 @@ smagums.)
 * seeAlso: LV.AMO.2015.7.5
 * topic: WeighingIndistinguishableStates
 * topic: SetTraversalOrganization
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -167,6 +180,10 @@ summā ir **(A)** $48$, **(B)** $49$ punkti?
 * questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_WordProblems
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -198,6 +215,9 @@ $$|||x-2011|-2011|-2011|=|||x-1201|-1201|-1201|$$
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_Equations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -233,6 +253,9 @@ ka $AO=OK$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -265,6 +288,10 @@ līnijām jāiet pa rūtiņu malām.)
 * questionType:B:
 * domain:Geom
 * subdomain:DOM_GridColoring
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -298,6 +325,9 @@ $f(2011)=100$, bet $f(11)=1000$?
 * topic:AdvancedIdentities
 * concepts:integer-polynomial
 * _subdomain: DOM_IntegerPolynomials
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -321,6 +351,9 @@ nesakrīt.
 * questionType:QTY_FindOptimal
 * domain:Geom
 * _subdomain: DOM_ObjectSystemsGeometry
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -398,6 +431,9 @@ $-1 \leq am+bn+cp \leq 1$. $(a, b, c, m, n, p$ - reāli skaitļi).
 * questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -422,6 +458,9 @@ viduspunktā.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Quadrilaterals
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -451,6 +490,9 @@ pirmskaitlis.
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -489,6 +531,9 @@ Kāda ir visu uzrakstīto skaitļu summa?
 * questionType:QTY_FindAll
 * domain:Comb
 * _subdomain: DOM_CountingObjects
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -528,6 +573,9 @@ atradīsies šī trijstūra iekšpusē vai uz tā malām.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_ObjectSystemsGeometry
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -560,6 +608,9 @@ $\sqrt[3]{6}+\sqrt[3]{12}-2 \sqrt[3]{2}$ ir lielāks?
 * questionType:QTY_Decide
 * domain:Alg
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -587,6 +638,9 @@ $Y$. Pierādīt, ka $AX=XY=YC$
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -615,6 +669,9 @@ vienādība $(2n)^{2n}-1=m^{3}$.
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -641,6 +698,9 @@ $g(g(x))+g(x)=2x$
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_FunctionalEquationsReal
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -670,6 +730,9 @@ virkne satur vismaz $55$ ciparus.
 * method:MTH_PigeonholePrincipleBasic
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

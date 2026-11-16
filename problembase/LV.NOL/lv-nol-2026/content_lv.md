@@ -6,6 +6,9 @@ Trīs meitenēm kopā bija 120 konfektes. No sākuma Jūlija iedeva Nellijai un 
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -28,6 +31,9 @@ Jānītis vēlas 1. att. redzamo figūru sadalīt 4 vienādos daudzstūros, grie
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -48,6 +54,9 @@ Uzrakstiet tādu deviņciparu skaitli, kuram visi cipari ir dažādi un katrs sk
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -81,6 +90,10 @@ Alise mežā satika 5 rūķīšus. Katrs no viņiem vai nu vienmēr saka paties�
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -102,6 +115,9 @@ Kādu mazāko skaitu mazo trijstūrīšu var nokrāsot melnus tā, lai katram ma
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -120,6 +136,9 @@ $4 \times 4$ rūtiņu tabulā ierakstīti 16 veseli skaitļi (ne obligāti daž�
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -150,6 +169,10 @@ Figūras var būt arī pagrieztas vai apmestas otrādi, bet tās nevar pārklāt
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -180,6 +203,9 @@ Pēc sacensībām izrādījās, ka neviens no ekspertiem nav kļūdījies. Kād�
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -209,6 +235,10 @@ Divi $n$-ciparu skaitļi katrs satur visus ciparus no $1$ līdz $n$ ieskaitot. V
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -228,6 +258,9 @@ Kādu taisnstūru ar veseliem malu garumiem ir vairāk: ar perimetru 2024 vai ar
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -251,6 +284,10 @@ $4 \times 4$ rūtiņu tabulā ierakstīti 16 veseli skaitļi (ne obligāti daž�
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -282,6 +319,9 @@ Vai iespējams noklāt 9. att. redzamās figūras ar 8. att. redzamajām figūr�
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -306,6 +346,9 @@ Piecās kastēs kopā ir 21 bumbiņa, bumbiņu skaits jebkurās divās kastēs i
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -330,6 +373,9 @@ $3 \times 3$ punktu režģī (skat. 12. att.) 5 no punktiem nokrāsoti sarkani. 
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -362,6 +408,9 @@ Kādu lielāko skaitu dažādu naturālu skaitļu var uzrakstīt uz tāfeles tā
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -388,6 +437,9 @@ Dots izliekts četrstūris $ABCD$, tā diagonāles krustojas punktā $O$, zinām
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -411,6 +463,9 @@ Vai iespējams noklāt 18. att. redzamās figūras ar 17. att. redzamajām figū
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -434,6 +489,9 @@ Doti naturāli skaitļi $a$ un $b$, kuriem ir spēkā $34a = 43b$. Pierādīt, k
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -453,6 +511,9 @@ Viens aiz otra uzrakstīti 9 veseli (ne noteikti dažādi) skaitļi. Zināms, ka
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -495,6 +556,9 @@ Sākumā uz tāfeles ir uzrakstīts skaitlis 1234. Pēteris un Lote spēlē spē
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -513,6 +577,9 @@ Uz paralelograma $ABCD$ malas $AB$ atlikts punkts $E$ tāds, ka $AE : EB = 1 : 2
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -532,6 +599,9 @@ Vai izteiksmi $(2 + 1)(2^2 + 1)(2^4 + 1)(2^8 + 1) ... (2^{128} + 1)$ var izteikt
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -561,6 +631,9 @@ Dots naturāls skaitlis $N$. Elza kartē uzzīmēja 99 pilsētas un savienoja t�
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -585,6 +658,10 @@ Atrast visus tādus naturālos skaitļus $n$, ka **(A)** $n! - 8$; **(B)** $n! -
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_FindAll
+* _questionType:B: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -641,6 +718,9 @@ Dots trijstūris $ABC$ ar $\angle A = 120^\circ$. Uz $\angle BAC$ bisektrises at
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -662,6 +742,9 @@ Dots taisnleņķa trijstūris $ABC$ ar leņķiem $\angle C = 90^\circ$ un $\angl
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -681,6 +764,9 @@ Māris izvēlējās trīs dažādus pozitīvus reālus skaitļus $a, b, c$ un uz
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -728,6 +814,9 @@ No 24 melniem un 25 baltiem kubiņiem ir izveidots “tornis”, saliekot kubiņ
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -748,6 +837,9 @@ Dots izliekts četrstūris $ABCD$, kuram $\angle CBD = 2 \angle CAD$ un $\angle 
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -778,6 +870,9 @@ Atrast visus naturālos skaitļus $n$, kuriem vienlaicīgi izpildās šādas div
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -801,6 +896,9 @@ Uz šaurleņķu trijstūra $ABC$ malas $AB$ atlikts punkts $D$, un uz malas $AC$
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -828,6 +926,9 @@ $$
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -849,6 +950,9 @@ Secinām, ka $x = 1$, no pirmā vienādojuma izriet, ka $y = 1$ un no otrā vien
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -871,6 +975,9 @@ Rūtiņu tabulā $2026 \times 2026$ atzīmētas 2026 rūtiņas tā, ka katrā ri
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -897,6 +1004,9 @@ Doti naturāli skaitļi $a$ un $b$ ar īpašību, ka $a + d(a) = b^2 + 2$, kur $
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -918,6 +1028,9 @@ Dots kvadrāts $ABCD$, kura malas garums ir 12. Uz malas $AB$ atlikts punkts $E$
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -945,6 +1058,9 @@ $$
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1002,6 +1118,9 @@ Atrast visus tādus naturālos skaitļus $n$, ka $n! - 144$ ir naturāla skaitļ
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1048,6 +1167,9 @@ Doti sviras svari un 30 atsvari, kuru svars ir 1 kg, 2 kg, 3 kg, ..., 30 kg. Alf
 * domain:
 * topic: WeighingBalanceEquations
 * topic: Games
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1067,6 +1189,9 @@ Tagad pierādīsim, ka Alfrēds var garantēt, ka $S$ nepārsniegs 45. Viņam j�
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

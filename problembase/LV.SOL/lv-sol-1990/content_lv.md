@@ -7,6 +7,9 @@ Par cik iedomātajiem skaitļiem bija lielāks Andra skaitlis.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -24,6 +27,9 @@ Visi attālumiem jābūt dažādiem.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -44,6 +50,9 @@ Dotas $6$ pēc ārējā izskata vienādas monētas. Trim no tām ir vienādas ma
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -60,6 +69,9 @@ Aizstāt vārdos VIENS, DIVI, TRĪS, ČETRI, PIECI burtus ar cipariem (vienādus
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -84,6 +96,9 @@ Paskaidrojums: saka, ka kuba virsotnes atrodas blakus, ja tās savienotas ar š�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -104,6 +119,9 @@ Izmantojot katru ciparu tieši vienu reizi, uzrakstīt vienu vai vairākus skait
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -122,6 +140,9 @@ Pierādīt, ka $|b-c|>|b+c|$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -142,6 +163,9 @@ Bet tikai $6$ dažādas taisnes?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -166,6 +190,9 @@ Pietiek uzzīmēt vienu piemēru.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -186,6 +213,9 @@ Plaknē uzzīmētas $4$ taisnes; nekādas divas no tām nav paralēlas un nekād
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -206,6 +236,9 @@ Vai $5$ taisnēm var būt $11$ dažādi krustpunkti?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -224,6 +257,9 @@ Vai vienādība $[x]+[x]=[2x]$ ir identitāte?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -240,6 +276,9 @@ Sadalīt skaitli $1989$ divos veselos pozitīvos saskaitāmajos, kas tieši prop
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -257,6 +296,9 @@ Dota kvadrātveida tabula $3\times 3$ rūtiņas. Vai var rūtiņās ierakstīt p
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -279,6 +321,9 @@ Ierakstīt katrā no tām veselu skaitli, kas nav $0$, tā, lai gan vienā, gan 
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -306,6 +351,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -322,6 +370,9 @@ Sadalīt skaitļus no $1$ līdz $15$ sešās grupās tā, lai visās grupās ska
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -344,6 +395,9 @@ $3$. zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -366,6 +420,9 @@ Daļas $\frac{a}{b}$ skaitītājs un saucējs ir veseli pozitīvi skaitļi. Pies
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -386,6 +443,9 @@ Vai to var izdarīt?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -406,6 +466,9 @@ Dota kvadrātveida tabula ar izmēriem $5\cdot 5$ rūtiņas. Atzīmēt tajā $5$
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -428,6 +491,9 @@ Cik ir dažādu taisnleņķu trijstūru, kam katra mala vienāda ar vienu no ši
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -448,6 +514,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -464,6 +533,9 @@ Dots naturāls skaitlis $n>5$. Pierādīt, ka $n$ var izsacīt kā pirmskaitļa 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -494,6 +566,9 @@ Dots, ka $x+y+z\geq xyz$. Pierādīt, ka $x^2+y^2+z^2\geq xyz$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -520,6 +595,9 @@ Vai kvadrātveida tabulā ar izmēriem $4\cdot 4$ rūtiņas var ierakstīt natur
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -536,6 +614,9 @@ Atrast skaitļa $\sin 1989$ zīmi. Dots, ka $\pi = 3{,}14159265$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -570,6 +651,9 @@ Vai plakne var šķelt piecas trijstūra piramīdas šķautnes to iekšējos pun
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -586,6 +670,9 @@ Trijstūrī $ABC$ novilkta mediāna $BM$. Vai var gadīties, ka trijstūrī $ABM
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -624,6 +711,9 @@ Pierādīt, ka $a^2+3b^2+5c^2 \le 1$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -648,6 +738,9 @@ Trijstūrī $ABC$ mediānu garumu summa vienāda ar augstumu garumu summu. Pier�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -676,6 +769,9 @@ Atrast kaut vienu otrās pakāpes polinomu $P(x)$, lai vienādība $(P'(x))^2=P(
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample,QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -694,6 +790,9 @@ Vai no regulāra $13$-stūra virsotnēm var izvēlēties $4$ virsotnes tā, lai 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -714,6 +813,9 @@ Dots, ka $n$ dalās ar $6$, $n$ – naturāls skaitlis. Pierādīt, ka $n$ var s
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -734,6 +836,9 @@ Pierādīt, ka $x=y$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -758,6 +863,9 @@ Vai trijstūri $ABC$, $BCD$, $CDA$, $DAB$ visi var būt vienādi?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -776,6 +884,9 @@ Kādas veselas vērtības var pieņemt izteiksme $\sin x+\sin 2x$?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -808,6 +919,9 @@ Zināms, ka divu dotu racionālu skaitļu summa un reizinājums ir veseli skait�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -842,6 +956,9 @@ Plauktā atrodas $6$ sējumu kopotie raksti. Sākumā sējumi atrodas pareizā k
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -870,6 +987,9 @@ Kuba šķautnes garums ir $1$. To projicē plaknē $Q$ un atrod projekcijas lauk
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

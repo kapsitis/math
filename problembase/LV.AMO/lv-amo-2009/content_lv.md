@@ -14,6 +14,9 @@ virzienā, piemēram, no latviešu valodas uz lietuviešu valodu, bet ne otrādi
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -47,6 +50,9 @@ izdarīt?
 * _hasReasoningMethod: NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -74,6 +80,9 @@ tieši $6$ balti kaimiņi?
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -106,6 +115,10 @@ malas garums ir $1$.)
 * _hasReasoningMethod: ParityInvariant
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -143,6 +156,9 @@ Kāda daļa no $B$ atbalstītājiem ir meļi?
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays, IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap, CaseAnalysisIncomplete
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -171,6 +187,9 @@ vai trīsciparu), kurā nav vienādu ciparu un kas dalās ar $3$.
 * _hasReasoningMethod: CompleteEnumeration, NumberConstruction, DivisibilityRules
 * _hasReasoningMistake: WrongDivisibilityRule, IncompleteResidueCases, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -201,6 +220,9 @@ skaitlisko vērtību. Kādu rezultātu viņa ieguva?
 * _hasReasoningMethod: PigeonholePrincipleBasic
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -229,6 +251,10 @@ reizinājumu var būt **(A)** $12$, **(B)** $18$?
 * _hasReasoningMethod: BoundingArgument, NumberConstruction
 * _hasReasoningMistake: MissingBoundOrExample, ExampleInsteadOfProof, UnstatedNumberSetAssumption
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -263,6 +289,9 @@ $6$ nedrīkst izmantot, lai attēlotu ciparu $9$, un otrādi.)
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, PigeonholePrincipleBasic
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: high
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -304,6 +333,10 @@ Figūras var būt arī pagrieztas vai apgrieztas "uz mutes".
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -338,6 +371,9 @@ būt, ka ne $x$, ne $y$ nesatur savā pierakstā nevienu ciparu $0$?
 * _hasReasoningMethod: PrimeFactorization, DivisibilityRules, CompleteEnumeration
 * _hasReasoningMistake: WrongDivisibilityDirection, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -369,6 +405,10 @@ tikai tas, ka tie atrodas trijstūra $T$ iekšpusē.
 * _hasReasoningMethod: CaseAnalysis, AuxiliaryLines, AngleChasing
 * _hasReasoningMistake: SkippingCaseAnalysis, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -417,6 +457,9 @@ Kāds lielākais daudzums šo summu var būt pirmskaitļi?
 * _hasReasoningMethod: CompleteEnumeration, PrimePropertiesAndUniqueness, SumOfArithmeticOrTriangularNumbers
 * _hasReasoningMistake: PrimeOnePointConfusion, ExampleInsteadOfProof, MissingBoundOrExample
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -463,6 +506,9 @@ atrodas ārpus $\triangle ABC$. Pierādīt, ka $AN=CM$.
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
 * _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -494,6 +540,9 @@ pavisam ir rūķīšu? (Dālderis ir vienīgā rūķīšiem pieejamā naudas vie
 * _hasReasoningMethod: InvariantMethod, PrimePropertiesAndUniqueness, NumberConstruction
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -531,6 +580,10 @@ gadīties, ka
 * _hasReasoningMethod: VietasFormulas
 * _hasReasoningMistake: ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -561,6 +614,9 @@ turnīra noslēgumā ir visvairāk punktu.)
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, AveragingArgumentForExistenceOfElement, ConstructiveExampleForExistence
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -592,6 +648,9 @@ bisektrise.
 * _hasReasoningMethod: CongruentTriangles, AuxiliaryLines, ParallelLinesAngleProperties, IsoscelesTriangleProperties
 * _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -630,6 +689,9 @@ Cipariņam un cik - viņa kolēģim? (Visus vecumus izsaka veselos gados.)
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, ContradictionForImpossibility
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -676,6 +738,11 @@ vietā uz riņķa līnijas atrastos blakus (vienalga kādā secībā).
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, DoubleCountingSameQuantityTwoWays
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, DoubleCountingTheSameObject
 * _mistakesFit: medium
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionType:C: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -711,6 +778,9 @@ grafiki?
 * _hasReasoningMethod: ParameterizedInvariantValue, UseFunctionGraphForRootsAndComparisons
 * _hasReasoningMistake: ConcreteToGeneralLeap
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -736,6 +806,9 @@ $a+b+c=0$.
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, UseStandardIdentities, UseTrivialInequalitiesAndAddThem
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -772,6 +845,9 @@ paralēls $t$ arī tad, ja tas atrodas uz $t$)
 * _hasReasoningMethod: AuxiliaryLines
 * _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim, ConcludingFromZeroOrEdgeCase
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -803,6 +879,10 @@ ar $d(n)$.
 * _hasReasoningMethod: NumberOfDivisors, NumberConstruction, BoundingArgument
 * _hasReasoningMistake: ConfusingDivisorAndMultiple, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType:A: QTY_ConstructExample
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -841,6 +921,10 @@ citādi), un mainīt krāsu uz pretējo visās šīs figūras rūtiņās. Vai, a
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -870,6 +954,9 @@ $y=cx^{2}+2ax+b$ grafiki?
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -895,6 +982,9 @@ vienādi).
 * concepts:primes
 * questionType:QTY_Prove
 * domain:NT
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -919,6 +1009,9 @@ riņķa līnijas.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -945,6 +1038,9 @@ $\frac{a+c}{a+b}+\frac{b+d}{b+c}+\frac{c+a}{c+d}+\frac{d+b}{d+a} \geq 4$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -978,6 +1074,10 @@ vienas malas, visas būtu savā starpā vienādas. Vai to var izdarīt, ja
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1004,6 +1104,9 @@ $\frac{1}{1^{4}+1^{2}+1}+\frac{2}{2^{4}+2^{2}+1}+\frac{3}{3^{4}+3^{2}+1}+\ldots+
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1034,6 +1137,9 @@ kāda mazākā dienu skaita var gadīties, ka visiem atkal ir pa $0$ punktiem?
 
 * questionType:QTY_FindOptimal
 * domain:Comb
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1068,6 +1174,9 @@ cipars ir $0$. Kāds ir skaitļa $S$ priekšpēdējais cipars?
 
 * questionType:QTY_FindAll
 * domain:NT
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1093,6 +1202,9 @@ $A_{1}D_{1},\ B_{1}E_{1}$ un $C_{1}F_{1}$ krustojas vienā punktā.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1129,6 +1241,9 @@ pozitīvos skaitļos.
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1164,6 +1279,9 @@ lielāks: visu aritmētiskās vai visu ģeometriskās progresijas locekļu summa
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1188,6 +1306,9 @@ $x+y+z>3$
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1215,6 +1336,10 @@ $$R=n(n+1)(n+2)(n+3).$$
 * questionType:A: QTY_Decide
 * questionType:B: QTY_Decide
 * domain:NT
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1245,6 +1370,9 @@ $\sphericalangle ABM=\sphericalangle DBC$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1274,6 +1402,9 @@ tādu $n$, ka, pareizi spēlējot, otrais spēlētājs var uzvarēt.
 
 * questionType:QTY_Prove
 * domain:Comb
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

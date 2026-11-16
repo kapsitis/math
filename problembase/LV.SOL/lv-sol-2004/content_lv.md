@@ -6,6 +6,9 @@ Kvadrāts sastāv no $3\cdot 3$ rūtiņām. Katrā rūtiņā ierakstīts kāds s
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -22,6 +25,9 @@ Andris uzrakstīja rindā citu aiz cita $6$ skaitļus. Pirmos divus viņš izvē
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -41,6 +47,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -57,6 +66,9 @@ Pierādīt, ka eksistē tāds četrciparu skaitlis, kas dod atlikumu $3$, dalot 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -79,6 +91,9 @@ Vai $1$.zīm. attēloto režģi var salikt no tādām figūrām, kāda parādīt
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -99,6 +114,9 @@ Vai a) $10$, b) $11$ pēc kārtas ņemtu veselu skaitļu summa var būt $0$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -120,6 +138,9 @@ $3.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -136,6 +157,9 @@ Doti $100$ zelta gabali, kuru masas ir $1\text{g}$, $2\text{g}$, $3\text{g}$, $4
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -153,6 +177,9 @@ Vai eksistē $10$ dažādi naturāli skaitļi ar īpašību: lai kā tos sadalī
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -172,6 +199,9 @@ Pierādīt: ir tādas trīs lampas, kas visas savienotas ar lentām cita ar citu
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -191,6 +221,9 @@ Cik dažādu funkciju grafiki, kas ir taisnes nogriežņi vai lauztas līnijas, 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -209,6 +242,9 @@ Vai noteikti uz taisnēm var izvēlēties virzienus tā, lai izpildītos īpaš�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -226,6 +262,9 @@ Vai noteikti uz taisnēm var izvēlēties virzienus tā, lai izpildītos īpaš�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -246,6 +285,9 @@ Kādā klasē ir $25$ skolēni. Sauksim skolēnu par noslēgtu, ja viņam klasē
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -262,6 +304,9 @@ Vai eksistē tādi naturāli skaitļi $a$, $b$, $c$, $d$, ka no $15$ skaitļiem:
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -281,6 +326,9 @@ Vai $\sqrt{3+\sqrt{8}}+\sqrt{7-\sqrt{40}}$ lielāks, mazāks vai vienāds ar $\s
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -297,6 +345,9 @@ Apaļa ezera krastā atrodas $4$ pilsētas $A$, $B$, $C$, $D$ (tieši šajā sec
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -319,6 +370,9 @@ Uz tāfeles uzrakstīti $2003$ vieninieki. Ar vienu gājienu atļauts izvēlēti
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -335,6 +389,9 @@ Izliektā $4$-stūrī $ABCD$ pastāv vienādība $\angle BAD=\angle CDA$. Malu $
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -355,6 +412,9 @@ Rindā uzrakstīti naturāli skaitļi no $1$ līdz $100$ ieskaitot, katrs tieši
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -382,6 +442,9 @@ Vai 5.zīm var būt attēloti funkciju $y=x^2+px+q$ un $y=qx+1$ grafiki?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -398,6 +461,9 @@ Dots, ka $p$ un $q$ – reāli skaitļi un vienādojumam $x^4+px+q=0$ ir reāla 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -414,6 +480,9 @@ Atrodiet mazāko pozitīvo veselo skaitli $x$ ar īpašību: $x^2-1$ dalās gan 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -432,6 +501,9 @@ Uz trijstūra ABC malas AB ņemts tāds punkts M, ka $AB=3\cdot AM$. Ir zināms,
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -452,6 +524,9 @@ Kvadrāts sastāv no $10\cdot 10$ rūtiņām. Desmit rūtiņas nokrāsotas melna
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -473,6 +548,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -501,6 +579,9 @@ Riņķī ar rādiusu $R$ ievilkts regulārs $14$-stūris $A_1A_2\ldots A_{14}$. 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -521,6 +602,9 @@ Naturālam skaitlim $n$ ir tādi divi dažādi naturāli dalītāji $a$ un $b$, 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -537,6 +621,9 @@ Aļģirds un Benedikts katrs uzrakstīja vairākus naturālus skaitļus. Katrs n
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -553,6 +640,9 @@ Funkcija $f(x,y)$ definēta veseliem pozitīviem $x$ un $y$, un tās vērtības 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

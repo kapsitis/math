@@ -8,6 +8,9 @@ Ieraksti 1. att. aplīšos skaitļus no $1$ līdz $12$, katrā aplītī citu ska
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -29,6 +32,9 @@ Ieraksti burtu un zvaigznīšu vietā ciparus tā, lai būtu pareizs reizināša
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -48,6 +54,9 @@ Kāda ir mazākā iespējamā ciparu summa sešciparu skaitlim, kas dalās ar $2
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -70,6 +79,9 @@ Parādi, kā $5 \times 7$ rūtiņu taisnstūri var sagriezt vienā $1 \times 3$ 
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -93,6 +105,9 @@ ir pirmskaitļi?
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -134,6 +149,9 @@ Pietiek parādīt vienu veidu, kā to izdarīt.
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -157,6 +175,9 @@ $1 \times 3$ rūtiņu taisnstūrī (11. att.) un $24$ ”T” veida figūrās
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -185,6 +206,9 @@ vienu veidu, kā to izdarīt. Atceries, ka skaitlis nevar sākties ar nulli!
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -208,6 +232,9 @@ otrs uzrakstītais skaitlis SOKRATS nedalās ar $54$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -233,6 +260,9 @@ gadā no tā tika nosūtīts ne vairāk kā $15000$ telegrammu?
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -268,6 +298,9 @@ ir vai nu tieši $20$, vai arī tieši $30$ kaimiņi?
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -314,6 +347,9 @@ pārbīdot vai ”apmetot otrādi”, tās nevar uzlikt vienu uz otras tā, ka t
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -332,6 +368,9 @@ Kāda ir mazākā iespējamā ciparu summa sešciparu skaitlim, kas dalās ar $9
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -369,6 +408,9 @@ Indriķis vai Oto, vienmēr var uzvarēt, pareizi spēlējot?
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -401,6 +443,9 @@ Zināms, ka $3546$. gadā no Saturna kosmiskās stacijas startēja tieši par $5
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -428,6 +473,9 @@ Parādi, kā skaitli $2025$ var izteikt ar $9$ vieniniekiem, pēc vajadzības li
 * domain:Alg
 * _hasSolutionConcept: DigitRepresentation, PerfectSquares, ArithmeticOperations
 * _readingDifficulty: low
+* _questionType: QTY_ConstructExample,QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -452,6 +500,9 @@ Uz vienādsānu trijstūra $ABC$ sānu malām $AB$ un $BC$ izvēlēti attiecīgi
 * domain:Geom
 * _hasSolutionConcept: Triangle, TriangleCongruence, ParallelPerpendicular, TriangleAngleSum
 * _readingDifficulty: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -482,6 +533,9 @@ Bezgalīgā naturālu skaitļu virknē katru locekli, sākot no otrā, iegūst, 
 * domain:NT
 * _hasSolutionConcept: NumberSequence, ParityInvariant, DigitRepresentation
 * _readingDifficulty: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -499,6 +553,9 @@ Ilmārs grib uznest augšā uz dzīvokli $150$ kg ķirbju. Zināms, ka katrs ķi
 * domain:Comb
 * _hasSolutionConcept: OptimumProofStructure, PositiveIntegers, LinearInequality, CaseAnalysis
 * _readingDifficulty: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -522,6 +579,9 @@ LAPSA un SPALS ir divi piecciparu skaitļi, kuros cipari aizstāti ar burtiem, v
 * domain:Comb
 * _hasSolutionConcept: DigitRepresentation, DivisibilityRules, DivisibilityRelation
 * _readingDifficulty: medium
+* _questionType: QTY_ProveUniversal,QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -547,6 +607,9 @@ $$
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -610,6 +673,9 @@ Uz trijstūra $ABC$ malas $AC$ izvēlēts tāds punkts $D$, ka trijstūra $ABD$ 
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -637,6 +703,9 @@ Vai eksistē pirmskaitlis $p$, kuram $p \times p$ rūtiņu kvadrātu, griežot p
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -656,6 +725,9 @@ Bezgalīgā veselu skaitļu virknē $1,2,3,6,1,\ldots$ katrs loceklis, sākot ar
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -677,6 +749,9 @@ Ilmārs grib uznest augšā uz dzīvokli $255$ kg ķirbju. Zināms, ka katrs ķi
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -706,6 +781,9 @@ $$
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -735,6 +813,9 @@ $EF$ viduspunkts. Kādā garumu attiecībā taisne $AC$ sadala nogriezni $MD$?
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -759,6 +840,9 @@ Aprēķināt šīs virknes $2025$. locekli.
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -787,6 +871,9 @@ Piezīme: ar $LKD(x,y)$ un $MKD(x,y)$ apzīmē attiecīgi skaitļu $x$ un $y$ li
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -834,6 +921,9 @@ Vai eksistē pirmskaitlis $p$, kuram $p \times p$ rūtiņu kvadrātu, griežot p
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -855,6 +945,9 @@ Piezīme: naturāla skaitļa $n$ faktoriāls $n!$ ir visu naturālo skaitļu no 
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -875,6 +968,9 @@ Regulāra $9$-stūra virsotnēs un malu viduspunktos ierakstīti naturālie skai
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -907,6 +1003,9 @@ Cik dažādos veidos skaitli $12$ var izteikt kā vieninieku, divnieku un četri
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -972,6 +1071,10 @@ himnu, ja tajā ir **(A)** $20$ **(B)** $21$ pantiņi?
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1004,6 +1107,9 @@ $$
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1024,6 +1130,9 @@ Cik ir tādu sešciparu skaitļu, kas nesatur nevienu no cipariem $5,6,7,8,9,0$ 
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1075,6 +1184,9 @@ $\angle ABE=\angle CBD=23^\circ$. Aprēķināt $\angle DBE$ lielumu grādos!
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1114,6 +1226,10 @@ kas kopā var nodziedāt šillišallu himnu, ja tajā ir **(A)** $34$ **(B)** $3
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1131,6 +1247,9 @@ Doti tādi naturāli skaitļi $x$ un $y$, ka $x+2y+1$ ir pirmskaitlis. Pierādī
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

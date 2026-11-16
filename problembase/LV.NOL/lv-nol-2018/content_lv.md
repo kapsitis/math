@@ -18,6 +18,9 @@ dažādi.
 * _hasReasoningMethod: NumberConstruction
 * _hasReasoningMistake: UnstatedNumberSetAssumption
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -57,6 +60,12 @@ gadu skaits?
 * _hasReasoningMethod: ConstructiveExampleForExistence, PigeonholePrincipleGeneralized, ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts
 * _mistakesFit: high
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideExistence
+* _questionType:C: QTY_DecideUniversal
+* _questionType:D: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -102,6 +111,9 @@ otras tā, ka abas figūras pilnīgi sakrīt.
 * _hasReasoningMethod: SymmetryStrategy
 * _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -129,6 +141,9 @@ $$7, a, b, c, d, e, f, 9$$
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, IntroduceVariablesAndFormEquation
 * _hasReasoningMistake: ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -163,6 +178,10 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 * _hasReasoningMethod: FixedInvariantNumeric
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConfusingExistenceVsUniversalityQuantifier
 * _mistakesFit: high
+* _questionType:A: QTY_DecideWinner
+* _questionType:B: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -205,6 +224,9 @@ $$\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=\frac{4}{5}$$
 * _hasReasoningMethod: NumberConstruction
 * _hasReasoningMistake: UnstatedNumberSetAssumption
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -242,6 +264,9 @@ dalībnieki?
 * _hasReasoningMethod: ConstructiveExampleForExistence, ContradictionForImpossibility, PigeonholePrincipleBasic
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: high
+* _questionType: QTY_DecideUniversal,QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -281,6 +306,9 @@ doto figūru un $22$ figūrām, kādas dotas 4.att.? Figūras drīkst pagriezt.
 * _hasReasoningMethod: ColoringInvariant, CaseAnalysis
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, FromSpecialToGeneral, SkippingCaseAnalysis
 * _mistakesFit: high
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -318,6 +346,9 @@ pamato, ka citu nav!
 * _hasReasoningMethod: PositionalNotation, LastDigitAnalysis, CompleteEnumeration, BoundingArgument
 * _hasReasoningMistake: ExampleInsteadOfProof, WrongDivisibilityRule
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -374,6 +405,9 @@ var uzvarēt (neatkarīgi no pretinieka gājieniem), ja sākumā konfekšu kaudz
 * _hasReasoningMethod: FixedInvariantNumeric
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: high
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -417,6 +451,9 @@ stāvu zemāk. Kāds mazākais logu skaits var būt šīs mājas ceturtajā stā
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, ParityOrModularArgumentForEquations
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -458,6 +495,9 @@ ka vismaz četras no tām ir vienā krāsā?
 * _hasReasoningMethod: PigeonholePrincipleGeneralized, ConstructiveExampleForExistence, ContradictionForImpossibility
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MisusingPigeonholeWithWrongCounts, MissingConstructionPartInOptimalProblems
 * _mistakesFit: high
+* _questionType: QTY_DecideUniversal,QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -495,6 +535,9 @@ un $\sphericalangle EFG=60^{\circ}$.
 * _hasReasoningMethod: ParallelLinesAngleProperties, AuxiliaryLines, AngleChasing
 * _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
 * _mistakesFit: high
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -533,6 +576,9 @@ ciparus!
 * _hasReasoningMethod: DivisibilityRules, PositionalNotation, AlgebraicManipulationForInteger
 * _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -611,6 +657,9 @@ Pierādit, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric
 * _hasReasoningMistake: DoubleCountingTheSameObject, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -648,6 +697,9 @@ $a^{2}+\frac{1}{a^{2}}+2$; **b)** $a^{4}+\frac{1}{a^{4}}$
 * _hasReasoningMethod: UseStandardIdentities, SubstitutionForSimplification
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -686,6 +738,9 @@ būtu trīs meitenes, kas izvēlējās vienu un to pašu lenšu krāsu komplektu
 * _hasReasoningMethod: PigeonholePrincipleGeneralized, ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier, MissingConstructionPartInOptimalProblems
 * _mistakesFit: high
+* _questionType: QTY_DecideUniversal,QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -738,6 +793,9 @@ nekā $PQ$ ?
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, PointOnSegmentConstruction, TriangleAngleSum
 * _hasReasoningMistake: UnjustifiedAuxiliaryLineExists, WrongAngleDecomposition, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -783,6 +841,9 @@ trīs skaitļu summa?
 * _hasReasoningMethod: PositionalNotation, DivisibilityRules, BoundingArgument, CompleteEnumeration, ProofByContradiction
 * _hasReasoningMistake: MissingBoundOrExample, WrongDivisibilityRule, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -837,6 +898,9 @@ Pierādīt, ka iekrāsotajās rūtiņās ierakstīto skaitļu summa ir $34$.
 * _hasReasoningMethod: CountTheSameQuantityInTwoWays, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination, CircularReasoningOrAssumingTheConclusion
 * _mistakesFit: low
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -878,6 +942,9 @@ bija maršruts?
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -911,6 +978,9 @@ vispār neko. Vai noteikti ir divi skolēni, kas pasūtīja vienu un to pašu?
 * _hasReasoningMethod: PigeonholePrincipleBasic, RuleOfProductIndependentChoices
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, ConfusingExistenceVsUniversalityQuantifier
 * _mistakesFit: medium
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -948,6 +1018,9 @@ Pierādīt, ka punkts $F$ ir $BC$ viduspunkts!
 * _hasReasoningMethod: CongruentTriangles, PointOnSegmentConstruction, PerpendicularBisector
 * _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, UnjustifiedAuxiliaryLineExists, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -980,6 +1053,9 @@ Vai var atrast tādus veselus skaitļus $x$ un $y$, ka $20x^{3}-17y^{2}+1=2018$?
 * _hasReasoningMethod: AlgebraicManipulationForInteger, DivisibilityRules, ParityArgument, CompleteEnumeration
 * _hasReasoningMistake: IncompleteResidueCases, CarelessModularComputation
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1053,6 +1129,9 @@ pieņemot, ka rūtiņas malas garums ir viena vienība!
 * _hasReasoningMethod: CaseAnalysis, CountingByDoubleCounting
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1090,6 +1169,9 @@ un cik - gliemezis!
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1122,6 +1204,9 @@ lielākais skaits skolēnu, kas noteikti pasūtīja vienu un to pašu?
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1156,6 +1241,9 @@ $\sphericalangle KLD=90^{\circ}$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1192,6 +1280,9 @@ trīs izveidoto skaitļu summa?
 * questionType:QTY_FindOptimal
 * domain:NT
 * subdomain:DOM_IntegerConditions
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
   
 </small>
 
@@ -1264,6 +1355,9 @@ pieņemot, ka rūtiņas malas garums ir viena vienība!
 * questionType:
 * domain:
 * subdomain:DOM_GridCut
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1308,6 +1402,9 @@ $23$ bildes, tad vismaz viena lapa paliktu tukša. Cik lapu ir fotoalbumā?
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1341,6 +1438,9 @@ $30$ gadi vai $4$ tādus, kuru gadu skaits ir vienāds!
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1378,6 +1478,9 @@ viduspunktā!
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1421,6 +1524,9 @@ kādu lielāko nuļļu skaitu var beigties trīs izveidoto skaitļu summa?
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1470,6 +1576,9 @@ visiem reāliem skaitļiem $a, b, c, d$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1516,6 +1625,9 @@ sniegu Sūnu ciemā notīrītu, ja strādātu tikai otrā sniega tīrāmā maš�
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1558,6 +1670,9 @@ skaitļus, kuru ciparu summas ir vienādas!
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1605,6 +1720,9 @@ vienas riņķa līnijas!
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1645,6 +1763,10 @@ Doti naturāli skaitļi $a$ un $b$. Pierādīt
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1668,6 +1790,9 @@ saknes!
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

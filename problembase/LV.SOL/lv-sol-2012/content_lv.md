@@ -6,6 +6,9 @@ Atrast mazāko naturālo skaitli, kura ciparu reizinājums ir lielāks vai vien�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -26,6 +29,9 @@ Mūzikas akadēmijas absolventi katrs māk spēlēt vismaz vienu mūzikas instru
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -55,6 +61,9 @@ $1.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -75,6 +84,9 @@ Vienā gadā bija tikpat trešdienu, cik piektdienu. Vai noteikti šajā gadā b
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -93,6 +105,9 @@ Aizmežu tirgū tirdzniecība notiek izmantojot $1$, $2$, $5$, $10$ un $20$ sant
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -111,6 +126,9 @@ Cik ir tādu naturālu skaitļu, kuru decimālā pieraksta ciparu reizinājums i
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -130,6 +148,9 @@ Visi septiņciparu *palindromi* sakārtoti augošā secībā. Noteikt, kurš *pa
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -151,6 +172,9 @@ Parādīt zīmējumā, kā to var izdarīt.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -171,6 +195,9 @@ Piecstūra un sešstūra malu garumi centimetros ir pēc kārtas sekojoši natur
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -192,6 +219,9 @@ Noteikt, kurā no lādītēm atrodas dimants, ja tikai viens no šiem apgalvojum
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -220,6 +250,9 @@ c) Cik starp šiem vienādojumiem ir tādu, kuriem nav sakņu?
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample,QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -242,6 +275,9 @@ b) $2011$ taisnes?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -262,6 +298,9 @@ Dota virkne $u_{1},u_{2},\ldots$, kur $u_{1}=u_{2}=1$ un katrs nākamais virknes
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -284,6 +323,9 @@ Vienādmalu trijstūra, kura malas garums ir $2$ cm, iekšpusē atzīmēti pieci
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -305,6 +347,9 @@ Pēteris uzvar, ja sešciparu skaitlis, kas izveidojas beigās, dalās ar $13$. 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -325,6 +370,9 @@ Koordinātu plaknē konstruēti funkciju $y=a\cdot x+k$ un $y=b\cdot x+m$ grafik
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -345,6 +393,9 @@ Divi vienādsānu trīsstūri $ABC$ ($AB=AC$) un $DEF$ ($DE=DF$) savstarpēji no
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -375,6 +426,9 @@ Skaitļi $a_1,a_2,\ldots,a_n$ ir visi naturālie skaitļi no $1$ līdz $n$ kaut 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -391,6 +445,9 @@ Augošas naturālu skaitļu virknes $1, 7, 11, 13,\ldots$ locekļi ir visi tie s
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -409,6 +466,9 @@ Draugu portālā ir reģistrējušies $N$ zēni un $M$ meitenes. Katrs zēns dra
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -441,6 +501,9 @@ Dots, ka $x$, $y$, $z$, $t$ ir pozitīvi skaitļi un $x^2<y$, $y^2<z$, $z^2<t$ u
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -457,6 +520,9 @@ Tā kā visu doto nevienādību abās puses ir pozitīvi skaitļi, varam visas �
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -481,6 +547,9 @@ Vienādojuma $x^2-27x+113=0$ saknes ir taisnleņķa trijstūra katešu garumi, i
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -505,6 +574,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -531,6 +603,9 @@ Atrast lielāko strēmeļu kopgarumu, kuru Svirpulnieks var paņemt, neatkarīgi
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -553,6 +628,9 @@ Doti tādi veseli skaitļi $a$ un $b$, ka $3a+5b$ dalās ar $11$. Pierādīt, ka
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -573,6 +651,9 @@ $7.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -599,6 +680,9 @@ Zināms, ka $a$ un $\frac{a^2+a-1}{2a+1}$ ir veseli skaitļi. Atrast visas iesp�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -630,6 +714,9 @@ Vai nevienādība $a_n>\frac{2^n}{3}$ ir patiesa, ja 1) $n=2011$; 2) $n=2012$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -650,6 +737,9 @@ Pukstiņš un Svirpulnieks spēlē šādu spēli: vispirms Pukstiņš sadala $9 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -676,6 +766,9 @@ ir vienāds sakņu skaits?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -704,6 +797,9 @@ Ja $a>1$, tad $D<0$ un $V_1$ sakņu nav. Vienādojuma $V_2$ sakņu nav, kad $\co
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -732,6 +828,9 @@ Zināms, ka $x$, $y$ un $z$ ir naturāli skaitļi, $7x^2-3y^2+4z^2=8$ un $16x^2-
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -783,6 +882,9 @@ Skudra atrodas punktā $\mathrm{A}$ (skat. $8.$ zīm.) un viņai jānonāk punkt
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -811,6 +913,9 @@ Laura un Dace no naturālu skaitļu kopas $A=\{1,\,2,\,3,\,4,\,6,\,8,\,12,\,16,\
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

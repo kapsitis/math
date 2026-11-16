@@ -17,6 +17,9 @@ Atrodiet visas iespējas un parādiet, kāpēc citu bez Jūsu atrastajām nav.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -48,6 +51,9 @@ Rindā uzrakstīti visi veselie skaitļi no $1$ līdz $1987$ ieskaitot, katrs vi
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -68,6 +74,9 @@ Vai var plaknē uzzīmēt $8$ punktus tā, ka nekādi $3$ no tiem neatrodas uz v
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -88,6 +97,9 @@ Parādīt, ka $4$ stari var sadalīt plakni $2$; $3$; $4$; $5$; $6$; $7$ daļās
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -122,6 +134,9 @@ $2$) Plauktā stāv septiņas grāmatas. Kā ar robota palīdzību pārlikt tās
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -146,6 +161,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -174,6 +192,9 @@ Piezīme. Rūtiņu malu punktus un virsotnes varam vienlaicīgi uzskatīt gan pa
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -194,6 +215,9 @@ Vai sienāzis var lēkāt tā, lai beigās atkal atrastos punktā $O$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -218,6 +242,9 @@ $1$. zīmējumā attēloto figūru sagriezt divās vienādās daļās (iekrāsot
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -238,6 +265,9 @@ Jānis iedomājies $5$ veselus skaitļus. Pierādiet, ka Andris no šiem skaitļ
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -271,6 +301,9 @@ Kā ērti ģeometriski aprakstīt labās un kreisās puses veidošanos?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -307,6 +340,9 @@ Piezīme. Dotajā laika periodā trijstūri $ABC$ un $BCA$ tika uzskatīti par d
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -329,6 +365,9 @@ Apskata vienādojumus $a\cdot x+b=c\cdot x+d$, kur $a$, $b$, $c$, $d$ katrs ir a
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample,QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -355,6 +394,9 @@ Cik no tiem skaitliskais reizinātājs būs pāra skaitlis?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -386,6 +428,9 @@ ja $x$ un $y$ – veseli pozitīvi skaitļi?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -409,6 +454,9 @@ būtu identitāte.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -436,6 +484,9 @@ Izliektā četrstūrī $ABCD$ dots, ka $AB=BC$ un $AD=DC$. Pierādīt, ka $AC\pe
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -464,6 +515,9 @@ Uzrakstīt to kā racionālu skaitli ar vienu daļsvītru.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -484,6 +538,9 @@ Ja katrs klases zēns nopirktu pīrādziņu, bet katra meitene – bulciņu, tad
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -506,6 +563,9 @@ Dotas $1000$ kartiņas. Daļa no tām nokrāsotas zilas, pārējās – sarkanas
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

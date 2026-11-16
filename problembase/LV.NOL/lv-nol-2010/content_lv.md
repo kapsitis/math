@@ -13,6 +13,9 @@ tā, lai katru divu blakus uzrakstītu skaitļu starpība būtu vai nu $1$, vai 
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConcreteToGeneralLeapInCombinatorialClaim, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -42,6 +45,9 @@ Cik ir tādu naturālu skaitļu, kas ir vairāk nekā viena datuma pieraksti And
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases, RuleOfSumDisjointCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, DoubleCountingTheSameObject
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -72,6 +78,9 @@ diviem iekrāsotiem trijstūrīšiem nebūtu ne kopīga mala, ne kopīgs stūris
 * _hasReasoningMethod: PackingDisjointShapes
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -101,6 +110,9 @@ būtu tāds, kāds redzams 2.zīm, bet pārējie četri būtu savā starpā vien
 * _hasReasoningMethod:
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -130,6 +142,9 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence, ContradictionForImpossibility
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -162,6 +177,9 @@ Vai tas varētu notikt, ja kastu nešanā piedalītos tieši četri rūķīši?
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -192,6 +210,9 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka
 * _hasReasoningMethod: NumberConstruction, DiophantineEquations, PrimeFactorization
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -223,6 +244,9 @@ naturālam skaitlim tā, lai vienlaicīgi
 * _hasReasoningMethod: ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -251,6 +275,9 @@ Kāds lielākais skolēnu skaits šajā turnīrā var iegūt lielmeistara nosauk
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ContradictionForImpossibility, FixedInvariantNumeric, ConstructiveExampleForExistence
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -289,6 +316,9 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, IncompleteCaseAnalysisInCombinatorialBranching, ConcreteToGeneralLeapInCombinatorialClaim
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -332,6 +362,10 @@ gājienus atkārto, līdz rindā paliek tikai viens skaitlis.
 * _newReasoningMethodDescription: Using that an operation preserves the total sum
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType:A: QTY_FindValue
+* _questionType:B: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -360,6 +394,9 @@ Dots, ka $x^{3}=y^{4}$ un $x^{11}=y^{15}$. Atrast $x$ un $y$, ja tie ir pozitīv
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: UncheckedConsistencyOfFoundValues, RootLossByDivisionByExpression
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -387,6 +424,9 @@ $(x+1)(x+2)(x+3)$ dalās ar $343$?
 * _hasReasoningMethod: BoundingArgument, PrimeFactorization
 * _hasReasoningMistake: WrongDivisibilityDirection, NonCoprimeFactorDivisibility, IncompleteResidueCases
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -422,6 +462,9 @@ rūtiņām nebūtu nokrāsotas visas malas?
 * _hasReasoningMethod: CountingByDoubleCounting
 * _hasReasoningMistake: UpperBoundWithoutExample, ProofByExampleForUniversalClaim, FromSpecialToGeneral
 * _mistakesFit: high
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -456,6 +499,9 @@ Kāds ir mazākais stundu skaits, kuru laikā visi rūķīši var uzzināt visus
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, ConstructiveExampleForExistence
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -496,6 +542,9 @@ $2$ un $3$.)
 * _hasReasoningMethod: FactoringAlgebraicExpressions, PrimeFactorization
 * _hasReasoningMistake: PrimeOnePointConfusion
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -528,6 +577,9 @@ $\sphericalangle ABC=20^{\circ}$. Pierādiet, ka $3 \cdot AC > AB$.
 * _hasReasoningMethod: CaseAnalysis, TriangleInequality, EquilateralTriangleConstruction, IsoscelesTriangleProperties
 * _hasReasoningMistake: SkippingCaseAnalysis, UnjustifiedAuxiliaryLineExists, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -576,6 +628,9 @@ starpība dalās ar $9$.
 * _hasReasoningMethod: DivisibilityRules, PositionalNotation, TelescopingAndIdentity
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, WrongDigitSumRange
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -609,6 +664,9 @@ ir identitāte?
 * _hasReasoningMethod: CaseAnalysisBySignOrInterval, ProofByContradictionInAlgebra
 * _hasReasoningMistake: ConcreteToGeneralLeap, CaseAnalysisIncomplete
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -636,6 +694,9 @@ tādas $3$ lampas, kuras visas savā starpā savienotas ar vienas krāsas vītn�
 * _hasReasoningMethod: PigeonholePrincipleGeneralized, ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: MisusingPigeonholeWithWrongCounts, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -665,6 +726,10 @@ Atrodiet kaut vienu kvadrātvienādojumu ar veseliem koeficientiem, kam viena no
 * _hasReasoningMethod: UseStandardIdentities, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: UnjustifiedCancellationOrCombination, MissedSolutionsWhenSquareRootOfSquare, ExtraneousRootsAfterSquaring
 * _mistakesFit: medium
+* _questionType:A: QTY_ConstructExample
+* _questionType:B: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -694,6 +759,9 @@ $R^{2}+r^{2}=d^{2}$
 * _hasReasoningMethod: PythagoreanTheorem, AuxiliaryLines
 * _hasReasoningMistake: ConflatingPropertyAndCriterion, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -735,6 +803,9 @@ $ABC$ malām nav garāka par $ABC$ lielāko augstumu.
 * _hasReasoningMethod: AreaCounting
 * _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -770,6 +841,9 @@ iespējamais bērnu skaits?
 * _hasReasoningMethod: BoundPlusMatchingConstructionForOptimum, DoubleCountingSameQuantityTwoWays, FixedInvariantNumeric, ConstructiveExampleForExistence
 * _hasReasoningMistake: MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -807,6 +881,9 @@ y^2 + x & = t^2
 * _hasReasoningMethod: BoundingArgument, DiophantineEquations
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -828,6 +905,10 @@ naturāla skaitļa kvadrāts. Tāpēc sistēmai atrisinājuma naturālos skaitļ
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -856,6 +937,9 @@ $a \cdot b$?
 * topic:DivisibilityProperties
 * questionType:QTY_Prove,QTY_Decide
 * domain:NT
+* _questionType: QTY_ProveUniversal,QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -901,6 +985,9 @@ $\triangle ABC$ un $\triangle O_{1}DO_{2}$ ir līdzīgi savā starpā.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -932,6 +1019,9 @@ Atrisināt naturālos skaitļos vienādojumu $x^{3}=y!+2$.
 * topic:ModularArithmeticContradiction
 * questionType:QTY_FindAll
 * domain:NT
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -982,6 +1072,9 @@ jebkurai citai?
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1017,6 +1110,11 @@ ir vesels skaitlis.
 * questionType:B:
 * questionType:C:
 * domain:
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionType:C: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1047,6 +1145,9 @@ Atrisināt veselos skaitļos vienādojumu $\frac{x^{2}}{2}+\frac{5}{y}=7$.
 
 * questionType:QTY_FindAll
 * domain:NT
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1072,6 +1173,9 @@ Kad pastāv vienādība?
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1094,6 +1198,9 @@ un $N$. Pierādīt, ka trijstūru $ABN$ un $CDM$ laukumi ir vienādi savā starp
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1124,6 +1231,9 @@ kurai (vienīgajai) komandai pēc turnīra noslēguma būs mazāk uzvaru nekā j
 
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1153,6 +1263,9 @@ tiek sasniegta?
 
 * questionType:QTY_FindOptimal,QTY_FindAll
 * domain:NT
+* _questionType: QTY_FindOptimal,QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1179,6 +1292,9 @@ izvietojumu var izveidot?
 
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1206,6 +1322,9 @@ Atrisināt vienādojumu $\sqrt{1-x^{2}}+\sqrt{1-y^{2}}=2-x^{2}-y^{2}$.
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1228,6 +1347,9 @@ iekļauto malu garumu reizinājumi ir vienādi savā starpā.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1260,6 +1382,10 @@ virzienam. Vai, atkārtojot šādus gājienus, var savākt visas monētas
 * questionType:A:
 * questionType:B:
 * domain:
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

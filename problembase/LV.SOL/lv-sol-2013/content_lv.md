@@ -7,6 +7,9 @@ Par katru grāmatu izmaksājamā honorāra lielums var atšķirties.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -27,6 +30,9 @@ Tirmantiņš ir izcepis dīvainas formas torti (skat. $1.$ zīm.) un vēlas to s
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -47,6 +53,9 @@ Kādu dienu Robinsons izrēķināja, ka nākamajās $1000$ dienās ceturtdienu b
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -63,6 +72,9 @@ Septiņciparu skaitļa $A$ ciparu summa ir divciparu skaitlis $B$, kura ciparu s
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -98,6 +110,9 @@ Noteikt, cik dažādos veidos no rūtiņas $A$ var nonākt rūtiņā $B$ (skat. 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -118,6 +133,9 @@ Ar kādu mazāko naturālo skaitli jāreizina skaitlis $315$, lai reizinājumā 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -138,6 +156,9 @@ Vinnijs Pūks un Sivēntiņš ir sadalījuši savā starpā torti. Pēc abu daļ
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -154,6 +175,9 @@ Taisnstūrveida zemes gabala katras malas garums izsakāms veselā skaitā metru
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -185,6 +209,9 @@ $3.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -205,6 +232,9 @@ Mazākais naturālais skaitlis, kuru var izteikt kā piecu dažādu naturālu sk
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -225,6 +255,9 @@ Daļskaitļa skaitītājs un saucējs ir naturāli skaitļi, kuru summa ir $2012
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -241,6 +274,9 @@ Uzzīmē slēgtu lauztu līniju, kurai ir a) $6$, b) $7$ posmi un kas pati sevi 
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -270,6 +306,9 @@ Rūtiņu lapā uzzīmēts taisnstūris, kura malas iet pa rūtiņu malām. Šī 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -292,6 +331,9 @@ Divos televīzijas kanālos vienlaicīgi sāka demonstrēt vienu un to pašu fil
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -309,6 +351,9 @@ Pieraksts $\overline{KLM}$ nozīmē, ka skaitlī ir $M$ vieni, $L$ desmiti un $K
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -327,6 +372,9 @@ Cik starp pirmajiem $2012$ naturālajiem skaitļiem ir tādi, kas nedalās ne ar
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -343,6 +391,9 @@ Uz tāfeles uzrakstīti $n$ ($n>1$) dažādi naturāli skaitļi. Lielākais no t
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -375,6 +426,9 @@ Kvadrātisku rūtiņu lapā atzīmētas piecas virsotnes $A$, $B$, $C$, $D$ un $
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -399,6 +453,9 @@ Tūrists pārgājienā pavadīja $4{,}5$ stundas. Katrā vienu stundu garā laik
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal,QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -422,6 +479,9 @@ Par blakus lauciņiem sauc lauciņus, kam ir kopīga mala.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -445,6 +505,9 @@ Pieci veseli skaitļi $a$, $b$, $c$, $d$ un $e$ ir pēc kārtas sekojoši aritm�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -501,6 +564,9 @@ Trijstūrī $ABC$ izvēlēts malas $AB$ iekšējs punkts $D$ un novilkts nogriez
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -521,6 +587,9 @@ Ar kādu lielāko skaitļa $2013$ pakāpi dalās skaitlis $1 \cdot 2 \cdot 3 \cd
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -537,6 +606,9 @@ Kvadrātveida tabulā ar izmēriem $5 \cdot 5$ rūtiņas katrā rūtiņā ir ier
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -560,6 +632,9 @@ Vai, zinot **tikai šo informāciju**, citplanētieši var viennozīmīgi noteik
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -578,6 +653,9 @@ Atrisināt veselos skaitļos vienādojumu $x^3+y^3-x^2y-xy^2+x^2-y^2-10=0$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -628,6 +706,9 @@ Taisnstūra $ABCD$ diagonāle $BD$ ir taisnstūra $BDEF$ mala. Punkts $C$ atroda
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -648,6 +729,9 @@ Pierādīt, ka izteiksmes $19\cdot 8^n+17$ vērtība nav pirmskaitlis nevienai v
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -680,6 +764,9 @@ Atrast visus naturālos skaitļus, kuros ir vairāk nekā četri cipari, kas bei
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -696,6 +783,9 @@ Tabulā ar izmēriem $4 \times 4$ rūtiņas katrā rūtiņā ir ierakstīts skai
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -716,6 +806,9 @@ Pierādīt, ka nav tādas ģeometriskās progresijas, kas satur visus trīs skai
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -736,6 +829,9 @@ Tātad nav tādas ģeometriskās progresijas, kas satur visus trīs skaitļus $1
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -756,6 +852,9 @@ Pierādīt, ka ir bezgalīgi daudz tādu naturālu skaitļu $k$, ka $11k-2$ ir s
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -777,6 +876,9 @@ Regulāra trijstūra režģa (skat. 7. zīm.) katra no desmit virsotnēm nokrās
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -799,6 +901,9 @@ Pierādīt, ka bezgalīgā rūtiņu lapā var novilkt riņķa līniju, kuras iek
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -829,6 +934,9 @@ Kāda ir izteiksmes $\frac{a}{b+1}+\frac{b}{a+1}$ mazākā iespējamā vērtība
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -851,6 +959,9 @@ $8.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -879,6 +990,9 @@ Naturālu skaitļu virknes pirmie trīs locekļi ir vienādi ar $1$, bet katrs n
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -899,6 +1013,9 @@ Lauka forma ir taisnstūris ar malu garumiem $4\ \mathrm{km}$ un $6\ \mathrm{km}
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -915,6 +1032,9 @@ Naturālu skaitli sauksim par *jokainu*, ja tā pieraksts sastāv tikai no cipar
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

@@ -18,6 +18,9 @@ cipari $0$ un $2$ un kurš dalās ar $15$?
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, BoundingArgument
 * _hasReasoningMistake: WrongDivisibilityRule, MissingBoundOrExample
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -54,6 +57,9 @@ rūtiņu malu, kas pilnībā atrodas uz robežas, skaits.
 * _hasReasoningMethod:
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -86,6 +92,9 @@ septītdaļa – pensionāri. Cik biļetes tika pārdotas?
 * _hasReasoningMethod: CoprimeFactorsDivisibility, BoundingArgument
 * _hasReasoningMistake: ConfusingDivisorAndMultiple, WrongDivisibilityDirection
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -118,6 +127,9 @@ līdzsvarā? Atbildi pamatot!
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -164,6 +176,9 @@ Kāda krāsa patīk katrai meitenei? Atbildi pamatot!
 * _hasReasoningMethod: ContradictionForImpossibility
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -205,6 +220,9 @@ Cik ir tādu skaitļu, kas ir apvilkti ar vismaz divām dažādām krāsām?
 * _hasReasoningMethod: CoprimeFactorsDivisibility,InclusionExclusionCounting
 * _hasReasoningMistake: ConfusingDivisorAndMultiple
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -260,6 +278,9 @@ Figūras var būt arī pagrieztas.
 * _hasReasoningMethod: AuxiliaryLines
 * _hasReasoningMistake: RelyingOnDiagramAppearance, FromSpecialToGeneral
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -294,6 +315,10 @@ Vai var gadīties, ka Māris ieguva summu, kuras pēdējais cipars ir
 * _hasReasoningMethod: LastDigitAnalysis, PeriodicSequence, NumberConstruction
 * _hasReasoningMistake: IncompleteResidueCases, ExampleInsteadOfProof, CarelessModularComputation
 * _mistakesFit: high
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -369,6 +394,9 @@ līdzsvarā? Atbildi pamatot!
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, ConcreteToGeneralLeap
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -416,6 +444,9 @@ sestdiena – $56$, svētdiena – $57$. Cik ciema iedzīvotāji visu laiku melo
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -462,6 +493,9 @@ Cik dažādos veidos to var izdarīt?
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
 * _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -510,6 +544,10 @@ Vai var atrast **(A)** $5$; **(B)** $15$ naturālus skaitļus
 * _hasReasoningMethod: NumericalEstimation
 * _hasReasoningMistake: ConcreteToGeneralLeap, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -544,6 +582,9 @@ lai uz katras no taisnēm būtu atzīmēti tieši trīs punkti!
 * _hasReasoningMethod: AuxiliaryLines
 * _hasReasoningMistake: RelyingOnDiagramAppearance, ProofByExampleForUniversalClaim
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -582,6 +623,10 @@ ja sākumā kaudzē ir **(A)** $6$ konfektes;
 * _hasReasoningMethod: GameInvariantsInNT, InvariantMethod
 * _hasReasoningMistake: ExampleInsteadOfProof
 * _mistakesFit: low
+* _questionType:A: QTY_DecideWinner
+* _questionType:B: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -630,6 +675,9 @@ Cik ciema iedzīvotāju visu laiku melo?
 * _hasReasoningMethod: DoubleCountingSameQuantityTwoWays
 * _hasReasoningMistake: ConfusingNecessaryWithSufficientCondition, IncompleteCaseAnalysisInCombinatorialBranching
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -674,6 +722,9 @@ Cik dažādos veidos to var izdarīt?
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
 * _hasReasoningMistake: WrongDivisibilityRule, NonCoprimeFactorDivisibility, WrongDigitSumRange
 * _mistakesFit: high
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -725,6 +776,9 @@ ja kopā viņš ieguva $13$ punktus?
 * _hasReasoningMethod: CompleteEnumeration, DiophantineEquations, ParityArgument, BoundingArgument
 * _hasReasoningMistake: UnstatedNumberSetAssumption
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -776,6 +830,9 @@ ka $AD = BD$ un $AB = DC = AC$. Aprēķināt trijstūra $ABC$ leņķus!
 * _hasReasoningMethod: IsoscelesTriangleProperties, AngleChasing, TriangleAngleSum
 * _hasReasoningMistake: WrongAngleDecomposition, UnstatedDirectionAssumption, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -833,6 +890,10 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -880,6 +941,9 @@ Cik draugu saka taisnību?
 * _hasReasoningMethod: ExhaustiveEnumerationOfCases
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -916,6 +980,9 @@ var atbilst arī vienādi cipari.)
 * _hasReasoningMethod: DivisibilityRules, CoprimeFactorsDivisibility, CompleteEnumeration
 * _hasReasoningMistake: WrongDivisibilityRule, ExampleInsteadOfProof, WrongDigitSumRange
 * _mistakesFit: high
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -960,6 +1027,10 @@ Vai noteikti $x + \frac{9}{x} > y + \frac{9}{y}$, ja **(A)** $x > y > 0$, **(B)*
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities, FactorAndUseZeroProductRule, CaseAnalysisBySignOrInterval
 * _hasReasoningMistake: ConcreteToGeneralLeap, WrongDirectionOfInequalityChain, CircularReasoningOrAssumingTheConclusion
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1007,6 +1078,9 @@ Pierādīt, ka taisne $CH$ dala nogriezni $BK$ divās vienādās daļās!
 * _hasReasoningMethod: AngleChasing, IsoscelesTriangleProperties, TriangleAngleSum
 * _hasReasoningMistake: WrongAngleDecomposition, RelyingOnDiagramAppearance, UnstatedDirectionAssumption
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1059,6 +1133,10 @@ tā, lai katri divi blakus esoši skaitļi atšķirtos par $3$; $4$ vai $5$?
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1123,6 +1201,10 @@ Vai muzeja vadītājs var izveidot šādu maršrutu?
 * _hasReasoningMethod: ContradictionForImpossibility, ColoringArgumentForCoverageOrUnreachability, ConstructiveExampleForExistence
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, ConfusingNecessaryWithSufficientCondition, ImplicitParityOrModularAssumption
 * _mistakesFit: high
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1154,6 +1236,9 @@ Kāds ir skaitļa $2022^{2022}$ pēdējais cipars?
 * questionType:QTY_FindAll
 * domain:NT
 * subdomain:DOM_Congruences
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1215,6 +1300,10 @@ grupas skaitļu summa ir pirmskaitlis, ja **(A)** $n = 8$,
 * subdomain:DOM_NumberRepresentation
 * method:MTH_FixedInvariant
 * topic:Divisibility
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1246,6 +1335,9 @@ abām katetēm. Aprēķināt trijstūra $ACB$ laukumu, ja $OB = 5$.
 * questionType:QTY_FindAll
 * domain:Geom
 * method:MTH_AnglesParallelsSimilarity,AugmentationWithNewElements
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1288,6 +1380,9 @@ nav reālu sakņu!
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * subdomain:DOM_Equations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1326,6 +1421,9 @@ roku abiem saviem blakussēdētājiem!
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1411,6 +1509,9 @@ Vai skaitli 2022 var izteikt kā divu veselu skaitļu kubu summu?
 * domain:NT
 * subdomain:DOM_Congruences
 * method:MTH_ContradictionForExistence
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1458,6 +1559,9 @@ Kādām reālām $p$ vērtībām vienādojuma $x^2 + x + p = 0$ sakņu kvadrātu
 * method:MTH_
 * subdomain:DOM_Equations
 * method:MTH_PolynomialTransformations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1487,6 +1591,9 @@ garumu, ja trijstūra leņķa $B$ lielums ir $120^{\circ}$.
 * domain:Geom
 * subdomain:DOM_CirclesAndRelatedAngles
 * method:MTH_AugmentationWithNewElements
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1526,6 +1633,9 @@ $$x^2 + y^2 + z^2 - xy - yz - xz \leq 1.$$
 * questionType:QTY_Prove
 * domain:NT
 * method:MTH_PolynomialTransformations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1576,6 +1686,9 @@ Kādām $m$ un $n$ vērtībām muzeja vadītājs var izveidot šādu maršrutu?
 * domain:Comb
 * subdomain:DOM_Graphs
 * method:MTH_ContradictionForExistence
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1641,6 +1754,9 @@ Vai skaitli $2023^2$ var izteikt kā trīs veselu skaitļu kubu summu?
 * domain:NT
 * subdomain:DOM_Congruences
 * method:MTH_ContradictionForExistence
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1691,6 +1807,9 @@ Kādām reālām $p$ vērtībām vienādojuma $x^2 + x + p$ sakņu kubu summa ir
 * domain:Alg
 * subdomain:DOM_Equations
 * method:MTH_PolynomialTransformations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1724,6 +1843,9 @@ augstuma no virsotnes $B$ garums ir $\sqrt{3}$. Kāds var būt šī trijstūra l
 * domain:Geom
 * subdomain:DOM_Triangles
 * method:MTH_AugmentationWithNewElements
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1786,6 +1908,9 @@ Atrisināt reālos skaitļos vienādojumu $3 \sin x + 4 \cos x = 6$.
 * domain:Alg
 * method:MTH_PolynomialTransformations
 * subdomain:DOM_Equations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1894,6 +2019,10 @@ punktu. Kuram spēlētājam ir uzvaroša stratēģija, ja **(A)** $n = 2021$; **
 * questionType:B: QTY_DecideWinner
 * domain:Comb
 * subdomain:DOM_CombinatorialGames
+* _questionType:A: QTY_DecideWinner
+* _questionType:B: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

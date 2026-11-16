@@ -7,6 +7,9 @@ $$|a|+|b|<6\ ?$$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -33,6 +36,9 @@ $1.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -53,6 +59,9 @@ Vai var atrast tādus trīs naturālus skaitļus $a$, $b$ un $c$, ka $(a+b)(b+c)
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -71,6 +80,9 @@ Dotas $8$ pēc ārējā izskata vienādas monētas. No tām $7$ ir ar vienādu m
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -90,6 +102,9 @@ Konferencē piedalījās $17$ zinātnieki. Katrs no viņiem konstatēja, ka konf
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -106,6 +121,9 @@ Vai naturālos skaitļus no $1$ līdz $25$ ieskaitot var izrakstīt rindā katru
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -127,6 +145,9 @@ Katram no trijstūriem $ABC$ un $ADE$ visi leņķi ir $60^{\circ}$ lieli (skat. 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -152,6 +173,9 @@ Par kurām funkcijām var noteikti pateikt, kurš no dotajiem ir tās grafiks?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -176,6 +200,9 @@ Ar $\overline{xyz}$ apzīmēsim trīsciparu skaitli ar cipariem $x$ (simti), $y$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -203,6 +230,9 @@ Pierādīt: vai nu ir divas kaudzītes, kurās ir vienāds sērkociņu skaits, v
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -222,6 +252,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -253,6 +286,9 @@ Pārējās daļas saīsinās.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -275,6 +311,9 @@ Dots, ka $a$ un $b$ ir naturāli skaitļi un $a+b=210$. Pierādīt, ka $ab$ neda
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -295,6 +334,9 @@ Dots, ka $x$ un $y$ – naturāli skaitļi un $x+y$ ir nepāra skaitlis. Zināms
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -316,6 +358,9 @@ b) $n=100$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -334,6 +379,9 @@ Atrisināt vienādojumu $x^2+y^2+4x-6y+13=0$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -362,6 +410,9 @@ Tātad $x+2=0$ un $y-3=0$ jeb $x=-2$ un $y=3$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -384,6 +435,9 @@ Kāda ir lielākā iespējamā ciparu summa septiņciparu naturālam skaitlim, k
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -415,6 +469,9 @@ Nekādas divas komisijas nesastāv no vieniem un tiem pašiem cilvēkiem. Komisi
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -438,6 +495,9 @@ Ja kaut kāds skaitlis $x$ jau ir uz tāfeles, tad ar kārtējo gājienu drīkst
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -457,6 +517,9 @@ Atrisināt vienādojumu $x^2+5y^2+2xy+4y+1=0$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -492,6 +555,9 @@ b) Vai var 6.zīm. parādītās tabulas rūtiņās ierakstīt naturālus skaitļ
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -515,6 +581,9 @@ Pierādīt, ka punkti, kas ir simetriski trijstūra augstumu krustpunktam attiec
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -535,6 +604,9 @@ Kvadrāts sastāv no $4 \cdot 4$ vienādām kvadrātiskām rūtiņām. Katrā r�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -570,6 +642,9 @@ b) vai $5n+3$ var būt pirmskaitlis?
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample,QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -592,6 +667,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -624,6 +702,9 @@ Trijstūrī $ABC$ visas malas dažāda garuma un $\angle B = 60^{\circ}$. Uz sta
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -644,6 +725,9 @@ Vai eksistē tāds naturāls skaitlis $n$, ka $6^n - 1$ dalās ar $4^n - 1$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -666,6 +750,9 @@ b) $x^2 + x$ un $x^2 - 2$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -693,6 +780,9 @@ Cik dažādi skolēnu izvietojumi iespējami pēc pārkārtošanās?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

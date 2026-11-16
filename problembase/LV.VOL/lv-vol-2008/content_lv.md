@@ -8,6 +8,9 @@ skaitlis, kas dalās gan ar $x$, gan ar $y$, nav $x+y$
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -31,6 +34,9 @@ $ab=\frac{c-a+1}{b}=\frac{c+1}{2}$. Pierādīt, ka
 * questionType:
 * domain:
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -55,6 +61,9 @@ virsotnes ir baltas.
 * questionType:
 * domain:
 * _subdomain: DOM_CuttingCoversColoring
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -80,6 +89,9 @@ $XY$ nav garāks par $\triangle ABC$ pusperimetru.
 * questionType:
 * domain:
 * _subdomain: DOM_InequalitiesGeometry
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -108,6 +120,9 @@ vidējais aritmētiskais ir $18$. Cik lodīšu var būt baltajā kastē?
 * questionType:
 * domain:
 * _subdomain: DOM_WordProblems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -146,6 +161,9 @@ $(1+ab)(1+ac)(1+bc) \geq 8abc$.
 * questionType:
 * domain:
 * _subdomain: DOM_Inequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -166,6 +184,9 @@ ciparus, iegūst $\sqrt[3]{x}$?
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_DigitManipulation
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -195,6 +216,9 @@ $n=[x, y]+[y, z]+[z, x]$?
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -240,6 +264,9 @@ atzīmēti $M$ un $N$ tā, ka $XM \parallel AB$ un $YN \parallel BC$ (skat.
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -271,6 +298,9 @@ nosacījumi joprojām izpildītos.
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -297,6 +327,9 @@ apakšējā stūra uz labo augšējo stūri?
 * questionType:
 * domain:
 * _subdomain: DOM_MakingMoves
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -323,6 +356,9 @@ $$\bigg|\ldots \Big| \big| |x-1|-10 \big|-10^{2} \Big|-\ldots-10^{2007}\bigg|=10
 * domain:Alg
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_Equations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -349,6 +385,9 @@ $11$.
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -386,6 +425,9 @@ Stars $t$ ir $\sphericalangle AOB$ bisektrise, $CA \perp OA$ un $DB \perp OB$
 * questionType:
 * domain:
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -411,6 +453,9 @@ vismaz $4$ krāsas.
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -436,6 +481,9 @@ $a+b+c=\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=0$?
 * questionType:
 * domain:
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -461,6 +509,9 @@ punktos. Pierādīt, ka šie $4$ punkti atrodas uz vienas riņķalīnijas.
 * questionType:
 * domain:
 * _subdomain: DOM_Locus
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -484,6 +535,9 @@ $x^{2}+(x+1)^{2}=y^{2}$, ja $x \leq 200$
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -521,6 +575,9 @@ punktos $P$ un $Q$. Pierādīt, ka $PO=HQ$.
 * questionType:
 * domain:
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -557,6 +614,9 @@ Maija cenšas to nepieļaut?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialGames
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

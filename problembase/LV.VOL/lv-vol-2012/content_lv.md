@@ -12,6 +12,10 @@ skaitlis $20112012$?
 * questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_IntegerEquations
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -35,6 +39,9 @@ $4~\mathrm{cm}$, $7~\mathrm{cm}$ un $10~\mathrm{cm}$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -60,6 +67,9 @@ $q_{1} \leq q_{2} \leq q_{3} \leq 0$. Kādas ir iespējamās $q_{2}$ vērtības?
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_ParametrizedEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -86,6 +96,9 @@ $AB^{2}-BE^{2}+EC^{2}=AC^{2}$. Pierādīt, ka $AE \perp BC$!
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -125,6 +138,9 @@ figūras? Griezuma līnijām jāiet pa rūtiņu malām.
 * questionType:QTY_FindOptimal
 * domain:Geom
 * subdomain:DOM_GridCut
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -157,6 +173,9 @@ ir atrisinājums reālos skaitļos?
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_ParametrizedEquations, DOM_EquationSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -185,6 +204,9 @@ Pierādīt, ka $S_{A_{1}B_{1}C_{1}}+S_{A_{2}B_{2}C_{2}}>S_{ABC}$.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_InequalitiesGeometry
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -224,6 +246,9 @@ ka skaitļa $N^{2}$ decimālajā pierakstā nav cipara $0$.
 * topic:PeriodicDigitGroups
 * concepts:full-square
 * _subdomain: DOM_NumeralSystems
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -271,6 +296,9 @@ kauliņi $B$ un $C$ būtu samainīušies vietām?
 * questionType:QTY_Decide
 * domain:Comb
 * _subdomain: DOM_MakingMoves
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -300,6 +328,10 @@ rūtiņas, skat. 4.zīm.)
 * questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_CombinatorialGames
+* _questionType:A: QTY_DecideWinner
+* _questionType:B: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -331,6 +363,9 @@ $n^{4}+a$ ir salikts skaitlis visiem naturāliem skaitļiem $n>1$.
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumericConstructions
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -354,6 +389,9 @@ rūtiņas tabulā var būt iekrāsotas?
 * questionType:QTY_FindAll
 * domain:Comb
 * _subdomain: DOM_MagicConfigurations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -418,6 +456,9 @@ Kāda ir maksimālā šo daļu laukumu attiecība?
 * questionType:QTY_FindOptimal
 * domain:Geom
 * _subdomain: DOM_MaxMinGeometry
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -463,6 +504,9 @@ spēkā sakarība $a_{n}-\sqrt{a_{n+1}}=2$.
 * questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -505,6 +549,9 @@ Kurš no zēniem uzvarēs, pareizi spēlējot?
 * questionType:QTY_Decide
 * domain:Geom
 * _subdomain: DOM_CombinatorialGames
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -536,6 +583,9 @@ Atrast vienu šādu virkņu piemēru.
 * questionType:QTY_ConstructExample
 * domain:Alg
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -557,6 +607,9 @@ centrs atrodas uz trijstūrim $ABC$ apvilktās riņķa līnijas.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -600,6 +653,9 @@ $\lfloor 0.2 \rfloor =0$ utml.)
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -633,6 +689,10 @@ Rūtiņas sauc par kaimiņu rūtiņām, ja tām ir kopīga mala.
 * questionType:B: QTY_Decide
 * domain:Geom
 * _subdomain: DOM_MagicConfigurations
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -673,6 +733,9 @@ uzzīmētos riņķus.
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CuttingCoversColoring
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

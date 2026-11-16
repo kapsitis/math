@@ -8,6 +8,9 @@ $$11 \cdot 12 \cdot 13 \cdot 14 \cdot 15 \cdot 16 \cdot 17 \cdot 18 \cdot 19 \cd
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -28,6 +31,9 @@ $$5\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ \ast\ 6$$
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -62,6 +68,9 @@ c)
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -90,6 +99,9 @@ Uz tāfeles uzrakstīti skaitļi $1, 2, 3, \ldots, 19, 20$. Ar vienu gājienu va
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -112,6 +124,9 @@ Pierādīt, ka daļās $A$ un $B$ ir vienāds skaits krustiņu. Vai tas var būt
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -140,6 +155,9 @@ Summā $12345+67890$ katrā saskaitāmajā ievietot decimālo komatu tā, lai ie
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -156,6 +174,9 @@ Parādīt, ka $8\cdot 8$ rūtiņu kvadrātu var sagriezt $12$ dažādos taisnst�
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -178,6 +199,9 @@ Pirmais cipars ir $7$. Kāds ir pēdējais?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -198,6 +222,9 @@ Uz tāfeles uzrakstīti skaitļi $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, $1
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -220,6 +247,9 @@ No rūtiņas $A$ vienlaicīgi iziet vairāki rūķīši un, virzoties tikai uz a
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -246,6 +276,9 @@ Parādīt, ka var izvēlēties $8$ skaitļus tā, lai no to summām pa divi tie�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -262,6 +295,9 @@ Dots, ka $a$ un $b$ ir divi naturāli skaitļi. Vai var būt, ka to lielākais k
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -284,6 +320,9 @@ Pierādīt, ka tos visus var pārsvītrot, novelkot slēgtu līniju, kas sastāv
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -304,6 +343,9 @@ Kvadrāts sastāv no $4 \cdot 4$ rūtiņām. Vai rūtiņās var ierakstīt natur
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -320,6 +362,9 @@ Rūtiņu burtnīcas lapā katra rūtiņa nokrāsota balta vai melna. Zināms, ka
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -338,6 +383,9 @@ Vai var uzzīmēt $6$ punktus, no kuriem nekādi trīs neatrodas uz vienas taisn
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -358,6 +406,9 @@ Naturāla skaitļa $x$ ciparu summa ir $y$; skaitļa $y$ ciparu summa ir $x$. Pi
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -378,6 +429,9 @@ Pierādīt, ka $3^{100} + 4$ nav pirmskaitlis.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -402,6 +456,9 @@ Pa apli izrakstīti $99$ skaitļi. Katru triju pēc kārtas uzrakstītu skaitļu
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -420,6 +477,9 @@ Uzzīmētas vairākas riņķa līnijas; nekādas divas no tām nekrustojas un ne
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -442,6 +502,9 @@ Dots, ka $a + b = 1$. Pierādīt, ka $a^3 + b^3 + 3ab = 1$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -464,6 +527,9 @@ Plaknē uzzīmētas $10$ riņķa līnijas. Pierādīt, ka starp tām var atrast 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -482,6 +548,9 @@ Vai eksistē $4$ dažādi naturāli skaitļi, kuru summa vienāda ar to reizinā
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -502,6 +571,9 @@ Katra no izliekta $4$-stūra diagonālēm sadala to divos trijstūros ar vienād
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -546,6 +618,9 @@ ir divnieka pakāpe ar naturālu kāpinātāju.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -580,6 +655,9 @@ eksistē atrisinājums. Vai noteikti $a=b$?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -606,6 +684,9 @@ ir naturāla skaitļa kvadrāts?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -630,6 +711,9 @@ Pierādīt, ka šo triju vienādo leņķu bisektrises krustojas vienā punktā.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -654,6 +738,9 @@ Kas lielāks: $a^3+b^3+c^3$ vai $a^4+b^4+c^4$? (Zināms, ka šie lielumi nav vie
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -686,6 +773,9 @@ Pierādīt, ka var atrast vienādsānu trijstūri, kura visas virsotnes ir balta
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -710,6 +800,9 @@ $$|x-1|+|x-3|+|x-5|=3.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -734,6 +827,9 @@ Dots, ka $a,b,c$ ir naturāli skaitļi un reizinājums $abc$ dalās ar $3$, bet 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -758,6 +854,9 @@ $$a^2+b^2+2>a+b+ab.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -782,6 +881,9 @@ Izliekta četrstūra abu diagonāļu garumi ir $20$. Pierādīt, ka vismaz viena
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -822,6 +924,9 @@ No regulāra $13$-stūra virsotnēm sešas nokrāsotas melnas. Pierādīt, ka va
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -838,6 +943,9 @@ Vai visi skaitļi $\log_a b$, $\log_b c$, $\log_c a$ var būt negatīvi?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -869,6 +977,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -904,6 +1015,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -930,6 +1044,9 @@ Pierādīt: ir iespējama situācija, ka turnīra beigās katrām divām komand�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -952,6 +1069,9 @@ Pierādīt, ka lentu platumu summa nav mazāka par riņķa diametru.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

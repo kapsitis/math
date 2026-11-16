@@ -8,6 +8,9 @@ $$64 \square 32 \square 16 \square 8 \square 4 \square 2 \square 1 = 81$$
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -28,6 +31,9 @@ Nosaki izmērus visiem tādiem taisnstūriem, kuru malas iet pa rūtiņu līnij�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -59,6 +65,9 @@ Atrodi lielāko piecciparu skaitli, kas dalās ar $3$ un kam visi cipari ir daž
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -75,6 +84,9 @@ Vai astoņstūra virsotnēs var ierakstīt naturālus skaitļus no $1$ līdz $8$
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -91,6 +103,9 @@ Kādā mēnesī trīs trešdienas bija pāra datumos. Kāda nedēļas diena bija
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -107,6 +122,9 @@ Atrodi tādu skaitli, kas dalot ar $11$, dod atlikumu $5$, bet, dalot ar $13$, d
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -123,6 +141,9 @@ Kādā valstī ir tikai $15$-solāru un $20$-solāru monētas. Makvīnam bija da
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -151,6 +172,9 @@ Uz rūtiņu lapas, rūtiņu virsotnēs atzīmēti $49$ punkti (skat. $2.$ att.).
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -177,6 +201,9 @@ Kāds ir lielākais iespējamais svētdienu skaits gadā?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -193,6 +220,9 @@ Vai kubu var sagriezt $20$ mazākos kubos?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -217,6 +247,9 @@ b) Cik starp šiem vienādojumiem ir tādu, kuriem nav sakņu?
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample,QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -235,6 +268,9 @@ Pierādi, ka blakusleņķu bisektrises ir perpendikulāras!
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -260,6 +296,9 @@ Atrodi visus tādus trīsciparu skaitļus, kuriem vienlaicīgi izpildās šādas
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -286,6 +325,9 @@ Vai kubu var sagriezt $148$ mazākos kubos?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -318,6 +360,9 @@ b) Vai to var izdarīt, izmantojot tikai $4$ gājienus?
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure,QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -340,6 +385,9 @@ Doti astoņi skaitļi: $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$. Sadali tos divās
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -356,6 +404,9 @@ Vienādojumam $ax=b$, kur $a$ un $b$ – kaut kādi doti skaitļi, $x$ – main�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -372,6 +423,9 @@ Cik virsotņu ir izliektam daudzstūrim, kuram diagonāļu ir $14$ reizes vairā
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -398,6 +452,9 @@ $5.$ att.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -420,6 +477,9 @@ Uz lapas uzrakstīti vairāki naturāli skaitļi, kas katrs dalās ar $3$. Visi 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -436,6 +496,9 @@ Kvadrātvienādojuma $3x^2+3ax+(x-1)b=0$ saknes ir $1$ un $2$. Noteikt skaitļus
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -454,6 +517,9 @@ Vai kvadrātu var sadalīt piecās daļās, no kurām viena ir trijstūris, otra
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -477,6 +543,9 @@ Atrast naturālu skaitli $n$, kam vienlaicīgi izpildās šādas divas īpašīb
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -505,6 +574,9 @@ Tātad der skaitlis $n=2521$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -531,6 +603,9 @@ Futbola turnīrā piedalījās piecas komandas: $A, B, C, D, E$. Katra ar katru 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -557,6 +632,9 @@ Tā kā $B$ ar $E$ spēlēja neizšķirti, tad, lai savāktu $6$ punktus, $B$ ar
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -573,6 +651,9 @@ Sacensībās piedalās sešas komandas. Katrai komandai ar katru citu komandu j�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -591,6 +672,9 @@ Izliekta četrstūra diagonāļu garumi ir $d_1$ un $d_2$, bet šaurais leņķis
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -623,6 +707,9 @@ Vai eksistē tāds naturāls skaitlis $n$, ka gan skaitļa $n$, gan skaitļa $n+
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -639,6 +726,9 @@ Pa apli stāv $24$ cilvēki; katrs no tiem vai nu vienmēr runā patiesību, vai
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -659,6 +749,9 @@ ir divas dažādas saknes!
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -683,6 +776,9 @@ Dots izliekts četrstūris $ABCD$. Zināms, ka $\angle BAD = \angle CDA$. Malu $
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -709,6 +805,9 @@ Cik dažādos veidos skaitli $40$ var izteikt kā trīs naturālu skaitļu summu
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -725,6 +824,9 @@ Uzrakstīti visi desmitciparu skaitļi, kas katrs satur visus ciparus. Kāds ir 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -747,6 +849,9 @@ $7.$ att.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -769,6 +874,9 @@ $$x^6y+xy^6 \geq x^5y^2+x^2y^5.$$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -802,6 +910,9 @@ Trijstūrī $ABC$ punkts $A_1$ ir malas $BC$ iekšējs punkts, $B_1$ ir malas $A
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -831,6 +942,9 @@ Pa apli stāv $100$ bērni: $50$ zēni un $50$ meitenes. Divi zēni stāv blakus
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -847,6 +961,9 @@ Dots naturāls skaitlis $n$. Pierādīt, ka abi skaitļi $2n+5$ un $3n+8$ vienla
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -863,6 +980,9 @@ Kvadrāts sadalīts $10 \times 10$ vienādās kvadrātiskās rūtiņās. Katrā 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

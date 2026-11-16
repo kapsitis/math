@@ -9,6 +9,9 @@ kubs. Pierādīt, ka arī $x^{2}y$ ir naturāla skaitļa kubs!
 * domain:NT
 * _subdomain: DOM_PrimeFactors
 * subdomain: DOM_PerfectPower
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -37,6 +40,9 @@ $CD$ krusto malu $AB$ punktā $E$. Pierādīt: ja $BD=BF$, tad $AE=DE$ !
 * questionType:
 * domain:
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -70,6 +76,10 @@ kurām ir kopīga mala, ierakstīto skaitļu starpība būtu vismaz **(A)** $6$;
 * questionType:B:
 * domain:
 * _subdomain: DOM_MagicConfigurations
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -120,6 +130,9 @@ Atrast skaitļa $\frac{2016^{2016}-3}{3}$ mazāko pirmreizinātāju!
 * questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_PrimeFactors
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -175,6 +188,9 @@ Kādi ir četri nākamie skaitļi, kas virknē seko aiz skaitļa $2016$?
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -222,6 +238,9 @@ pakāpe!
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_PrimeFactors
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -251,6 +270,9 @@ pašas krustojas punktā $I$. Pierādīt, ka $PQ \perp BI$!
 * questionType:
 * domain:
 * _subdomain: DOM_AnglesParallelsSimilarity, DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -288,6 +310,9 @@ $xy+xz+yz \leq 3$.
 * questionType:
 * domain:
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -327,6 +352,10 @@ ir naturāli skaitļi.
 * questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumericConstructions
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -415,6 +444,10 @@ baltajās virsotnēs?
 * domain:Geom
 * method:MTH_PigeonholePrincipleBasic
 * _subdomain: DOM_CuttingCoversColoring
+* _questionType:A: QTY_FindOptimal
+* _questionType:B: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -465,6 +498,9 @@ pakāpe!
 * topic:LinearSystemsTransforms
 * concepts:full-power
 * _subdomain: DOM_PrimeFactors
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -520,6 +556,9 @@ līdzīgi!
 * questionType:
 * domain:
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -564,6 +603,9 @@ $$\frac{1}{n}=\frac{1}{x(x+1)}+\frac{1}{(x+1)(x+2)}+\cdots+\frac{1}{y(y+1)}$$
 * topic:StandardIdentities
 * topic:TelescopicSums
 * _subdomain: DOM_NumberRepresentation
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -638,6 +680,10 @@ Vai šajā virknē ir skaitlis **(A)** $2001$, **(B)** $2006$?
 * questionType:B:
 * domain:NT
 * _subdomain: DOM_IntegerSequences
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -681,6 +727,10 @@ var sadalīt trīs daļās tā, ka katrai no daļām ir simetrijas ass!
 * questionType:B:
 * domain:
 * _subdomain: DOM_CuttingCoversColoring
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -725,6 +775,9 @@ skaitļa septītā pakāpe!
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_PrimeFactors
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -756,6 +809,9 @@ ka $PU=UV+VQ$ !
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -798,6 +854,9 @@ dalās ar savu ciparu summu!
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_NumeralSystems
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -823,6 +882,9 @@ iespējams atrast tādas naturālas $b$ un $c$ vērtības, ka $f(a)=g(b; c)$.
 * questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -861,6 +923,9 @@ novelk riņķa līniju. Pierādīt, ka visām šīm riņķa līnijām ir kopīgs
 * questionType:
 * domain:
 * _subdomain: DOM_Locus, DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

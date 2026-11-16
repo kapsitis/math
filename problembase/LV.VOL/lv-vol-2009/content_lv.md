@@ -10,6 +10,9 @@ $\left|x_{1}^{3}-x_{2}^{3}\right|=1$.
 * questionType:
 * domain:
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -30,6 +33,9 @@ naturālu skaitļu var visi būt vienkārši?
 * questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_SpecialNumbers
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -59,6 +65,9 @@ nokrāsotas dažādās krāsās. Kāda ir mazākā iespējamā $k$ vērtība?
 * domain:
 * _subdomain: DOM_MagicConfigurations
 * subdomain: DOM_GridColoring
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -87,6 +96,9 @@ $BH$ viduspunkti. Pierādīt, ka $\Delta MKA_{1}=\Delta B_{1}NM$.
 * questionType:
 * domain:
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -121,6 +133,10 @@ ir čempions,
 * questionType:B:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -153,6 +169,9 @@ $MNCB$ ir paralelograms.
 * questionType:
 * domain:
 * _subdomain: DOM_Quadrilaterals
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -179,6 +198,9 @@ naturāls skaitlis). Kādas ir iespējamās $n$ vērtības?
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -215,6 +237,9 @@ reizinājumu? Vai $17$ kartǐšu gadījumā Andrim pietiek ar $7$ jautājumiem?
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialAlgorithms
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure,QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -239,6 +264,9 @@ $x, y, z$ - no nulles atšķirīgi reāli skaitļi?
 * questionType:
 * domain:
 * _subdomain: DOM_Extremes
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -264,6 +292,9 @@ Pierādīt, ka $BO \perp MN$.
 * questionType:
 * domain:
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -291,6 +322,9 @@ aritmētisku progresiju?
 * questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -317,6 +351,9 @@ lielāko kopīgo dalītāju.
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -347,6 +384,9 @@ reālos skaitļos.
 * questionType:
 * domain:
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -375,6 +415,9 @@ abu pārējo Maijas izvēlēto skaitļu summu.
 * questionType:
 * domain:
 * _subdomain: DOM_NumericSets
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -415,6 +458,9 @@ $ABC,\ BCD,\ CDA,\ DAB$ ievilkto riņķa līniju centri ir taisnstūra virsotnes
 * questionType:
 * domain:
 * _subdomain: DOM_CirclesAndRelatedAngles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -449,6 +495,9 @@ $$x_{1}^{2}+x_{2}^{2}+\ldots+x_{12}^{2}=y_{1}^{2}+y_{2}^{2}+\ldots+y_{12}^{2}$$
 * questionType:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -474,6 +523,9 @@ summa ir $3434$. Kāds var būt skaitlis $n$?
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_NumeralSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -501,6 +553,9 @@ malu $BC$ punktā $F$. Pierādīt, ka $EF=AE+FC$.
 * questionType:
 * domain:
 * _subdomain: DOM_Quadrilaterals
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -539,6 +594,11 @@ un $B$ un tālāk no $B$ uz $C$.)
 * questionType:C:
 * domain:
 * _subdomain: DOM_Graphs
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionType:C: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -579,6 +639,9 @@ reālos skaitļos, kur $a$ - reāla konstante.
 * questionType:
 * domain:
 * _subdomain: DOM_ParametrizedEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

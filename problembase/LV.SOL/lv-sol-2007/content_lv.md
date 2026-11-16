@@ -6,6 +6,9 @@ Kvadrāts sastāv no $4\cdot 4$ rūtiņām. Vai var dažas rūtiņas nokrāsot m
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -26,6 +29,9 @@ Piecu veselu skaitļu summa ir $2006$. Vai to reizinājums var būt $20062006200
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -51,6 +57,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -69,6 +78,9 @@ Pilnīgi tumšā istabā uz galda atrodas $10$ monētas. Divas no tām ir ar cip
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -90,6 +102,9 @@ Kādu lielāko daudzumu dažādu naturālu skaitļu var uzrakstīt, lai vienlaic
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -124,6 +139,9 @@ Vai figūru, kas attēlota 1.zīm., var sagriezt trijās pēc formas un izmērie
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -144,6 +162,9 @@ Dots, ka $n$ - pāra skaitlis. Pierādiet, ka skaitļu $\frac{n}{2}$ un $5n$ cip
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -162,6 +183,9 @@ Taisnstūris sadalīts vienādās kvadrātiskās rūtiņās (tā platums ir $100
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -178,6 +202,9 @@ Vai naturālos skaitļus no $1$ līdz $20$ ieskaitot var sadalīt $5$ grupās t�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -202,6 +229,9 @@ b) pierādīt, ka var atrast divus skolēnus, kas abi kopā atrisinājuši visus
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -220,6 +250,9 @@ Nezinītis izgudrojis dalāmības pazīmi ar $27$: ja naturāla skaitļa ciparu 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -236,6 +269,9 @@ Tabulā ar izmēriem $3 \cdot 3$ rūtiņas katrā rūtiņā ierakstīts pozitīv
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -256,6 +292,9 @@ Kādam naturālam skaitlim $30$ reizes pieskaitīja naturālus skaitļus robež�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -272,6 +311,9 @@ Ievietojiet vienādībā $1:2:3:4:5:6:7:8:9:10=7$ iekavas tā, lai tā kļūtu p
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -288,6 +330,9 @@ Kvadrāts sastāv no $5 \cdot 5$ rūtiņām. Katrā rūtiņā ierakstīts viens 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -316,6 +361,9 @@ Kvadrātvienādojuma $x^2+px+q=0$ saknes atšķiras viena no otras vismaz par $6
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -334,6 +382,9 @@ Andrim un Maijai bija vienāds daudzums konfekšu. Andris apēda $8$ reizes maz�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -350,6 +401,9 @@ Uz taisnleņķa trijstūra $ABC$ hipotenūzas $AC$ atlikts tāds punkts $D$, ka 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -374,6 +428,9 @@ Kvadrāts sastāv no $3\cdot 3$ rūtiņām. Katra rūtiņa jānokrāso kādā kr
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -401,6 +458,9 @@ Tabula aizpildīta ar skaitļiem, kā parādīts $4.$ zīm. Ar vienu gājienu va
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -421,6 +481,9 @@ Dots, ka $a$, $b$ un $c$ apmierina sakarību $(a+b+c)(9a-3b+c)<0$, pie tam $a\ne
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -437,6 +500,9 @@ Vienu un to pašu naturālo skaitli dalīja ar atlikumu ar $3$, ar $24$ un ar $5
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -453,6 +519,9 @@ Trijstūra augstumu garumi ir $24$, $30$ un $40$. Aprēķināt tā laukumu.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -469,6 +538,9 @@ Ja trijstūra laukums ir $L$, tad tā malu garumi ir $\frac{2\cdot L}{24}$, $\fr
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -495,6 +567,9 @@ Vai šis apgalvojums paliek spēkā, ja vienādības kreisajā pusē $x$ aizstā
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -513,6 +588,9 @@ Dots, ka $a$ un $b$ - pozitīvi skaitļi. Funkciju $f(x)=ax^2+6x+b$ un $g(x)=bx^
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -529,6 +607,9 @@ Naturāls skaitlis $n$ ir $20$ dažādu naturālu skaitļu reizinājums. Kāds i
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -571,6 +652,9 @@ Dots, ka $B$, $C$, $G$, $F$ atrodas uz vienas riņķa līnijas. Pierādīt, ka a
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -595,6 +679,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -625,6 +712,9 @@ Visās rūtiņās kopā kaut kā izvietotas $2^n$ monētas. Ar vienu gājienu va
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -657,6 +747,9 @@ Kādu lielāko daudzumu komisiju var izveidot no $6$ cilvēkiem, ja katrā komis
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -682,6 +775,9 @@ Trijstūris $ABC$ ir regulārs. Tam apvilkta riņķa līnija. Uz loka $BC$, kas 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -704,6 +800,9 @@ $$(1+2+3+\ldots+n)+2=k^2?$$
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -722,6 +821,9 @@ $$a^3+b^3+c^3+15 \cdot a \cdot b \cdot c \leq 2 \cdot (a+b+c) \cdot (a^2+b^2+c^2
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -750,6 +852,9 @@ b) kāds ir mazākais iespējamais ķieģeļu skaits šādā kubā?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal,QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

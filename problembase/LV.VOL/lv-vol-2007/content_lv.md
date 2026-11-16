@@ -7,6 +7,9 @@ Dots, ka $x \neq y$ un $x^{2}-2007x=y^{2}-2007y$. Aprēķiniet $x+y$ vērtību.
 * questionType:
 * domain:
 * _subdomain: DOM_Equations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -30,6 +33,10 @@ $x^{2}+(p-1)x+(q-1)=0$ un $x^{2}+(p-2)x+(q-2)=0$ abas saknes ir veseli skaitļi?
 * questionType:B: QTY_Decide
 * domain:Alg
 * _subdomain: DOM_IntegerPolynomials
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -50,6 +57,9 @@ ka $BC=2 \cdot AN$.
 * questionType:
 * domain:
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -76,6 +86,9 @@ rūtiņu (varbūt neviena). Kāds var būt kopējais melno rūtiņu skaits?
 * domain:
 * _subdomain: DOM_MagicConfigurations
 * subdomain: DOM_GridColoring
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -125,6 +138,10 @@ no $1$ līdz $81$ (katrā rūtiņā - citu skaitli) tā, lai izpildītos tāda p
 * questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_MagicConfigurations
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -157,6 +174,10 @@ vērtība ir
 * questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_IntegerEquations
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -185,6 +206,10 @@ trauciņā būtu tieši viena monēta, ja **(A)** $n=7$, **(B)** $n=10$?
 * questionType:B:
 * domain:
 * _subdomain: DOM_MakingMoves
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -214,6 +239,9 @@ $$\frac{1}{x(2) \cdot y(2)}+\frac{1}{x(3) \cdot y(3)}+\frac{1}{x(4) \cdot y(4)}+
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_PrimeFactors
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -247,6 +275,9 @@ laukums nav atkarīgs no $O$ izvēles.
 * questionType:
 * domain:
 * _subdomain: DOM_MetricRelations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -295,6 +326,10 @@ Pierādīt, ka
 * questionType:B: QTY_Prove
 * domain:Comb
 * _subdomain: DOM_NumericSets
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -330,6 +365,10 @@ Dots, ka $n$ - naturāls skaitlis.
 * questionType:B: QTY_Decide
 * domain:NT
 * _subdomain: DOM_NumeralSystems
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -353,6 +392,9 @@ bet nekādu divu kvadrāttrinomu summai sakņu nav?
 * questionType:
 * domain:
 * _subdomain: DOM_Equations
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -375,6 +417,9 @@ vienādi no abām pusēm.
 * questionType:
 * domain:
 * _subdomain: DOM_CuttingCoversColoring
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -404,6 +449,9 @@ $AB \cdot KC=AC \cdot KB$.
 * questionType:
 * domain:
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -449,6 +497,11 @@ ja $k$ - patvaļīgs naturāls skaitlis.
 * questionType:C: QTY_Prove
 * domain:Alg
 * _subdomain: DOM_RealSequences, DOM_SequenceProperties
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveUniversal
+* _questionType:C: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -513,6 +566,9 @@ $x^{2}+a^{2}x+b^{3}=0$ un $x^{2}+b^{2}x+a^{3}=0$ ir kopīga reāla sakne?
 * questionType:
 * domain:
 * _subdomain: DOM_ParametrizedEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -547,6 +603,10 @@ Vai var būt, ka
 * questionType:B:
 * domain:
 * _subdomain: DOM_CombinatorialStructures
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -574,6 +634,9 @@ $$\left\{\begin{array}{l}
 * questionType:
 * domain:
 * _subdomain: DOM_EquationSystems
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -622,6 +685,9 @@ Pierādīt, ka trijstūri $ACD,\ AEF$ un $AMN$ ir līdzīgi viens otram.
 * questionType:
 * domain:
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -680,6 +746,10 @@ Atbildēt uz šo jautājumu, ja
 * questionType:B:
 * domain:NT
 * _subdomain: DOM_NumericSets
+* _questionType:A: QTY_DecideUniversal
+* _questionType:B: QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

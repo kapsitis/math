@@ -10,6 +10,9 @@ $1.$ zīm.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -36,6 +39,9 @@ Cik zilu zīmuļu ir Katrīnai?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -60,6 +66,9 @@ Atrodiet iespējami daudzus veidus, kā to izdarīt. Pacentieties pamatot, kāp�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -82,6 +91,9 @@ Ar kādu mazāko gājienu skaitu var panākt, lai viss krekls būtu vienā krās
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -100,6 +112,9 @@ Parādiet, kā Andris var $5$ dienās apēst visas konfektes.
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -122,6 +137,9 @@ Rūtiņas malas garums ir $1$ cm (skat. 2. zīm.). Parādiet, kā var uzzīmēt 
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -142,6 +160,9 @@ Ja $x$ – naturāls skaitlis, kas nedalās ar $10$, tad ar $x'$ apzīmēsim ska
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -160,6 +181,9 @@ Kādai daļai skolēnu patīk matemātika?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -182,6 +206,9 @@ Katri divi no $6$ profesoriem savā starpā sarakstās vai nu angliski, vai latv
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -206,6 +233,9 @@ Kuru rūtiņu virsotni jāizvēlas, lai attālumu summa no tās līdz atzīmēta
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -232,6 +262,9 @@ Dots, ka $a$, $b$ un $c$ ir dažādi naturāli skaitļi, $c$ dalās ar $a$ un $(
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -248,6 +281,9 @@ Plaknē novilktas $6$ taisnes. Vai var gadīties, ka ir tieši $16$ punkti (ne v
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -266,6 +302,9 @@ Tabula sastāv no $5\cdot 5$ vienādām kvadrātiskām rūtiņām. Vai var rūti
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -286,6 +325,9 @@ Apļveida šosejas garums ir $100$ km. Blakus tai atrodas $10$ ciemati. Katra ci
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -306,6 +348,9 @@ b) tieši $6$ melnas rūtiņas?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -336,6 +381,9 @@ b) pierādīt: ja $\frac{R}{n + 1}$ dalās ar $2$, tad tas dalās ar $128$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -354,6 +402,9 @@ Dots, ka $a$, $b$, $c$ – kāda trijstūra malu garumi. Pierādīt: vienādojum
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -370,6 +421,9 @@ Uz trijstūra ABC malām AB un BC ņemti attiecīgi punkti X un Y, kas nav trijs
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -398,6 +452,9 @@ Kvadrāts sastāv no $101 \cdot 101$ vienādām kvadrātiskām rūtiņām. Tas s
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -414,6 +471,9 @@ Uz šaha galdiņa novietotas vairākas figūriņas; katra no tām pilnībā aiz�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -436,6 +496,9 @@ Regulārā $10$-stūrī atzīmētas $5$ virsotnes. Pierādīt: ir tādas $3$ atz
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -452,6 +515,9 @@ Pierādīt: ir bezgalīgi daudz tādu naturālu skaitļu, kas nav izsakāmi kā 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -470,6 +536,9 @@ Trapeces $ABCD$ pamati ir $AD$ un $BC$. Uz malas $AB$ atzīmēts tāds punkts $E
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -494,6 +563,9 @@ Apskatām kvadrātfunkciju $f(x)=ax^2-x+c$, $a \ne 0$. Ir dots, ka vienādojumam
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -510,6 +582,9 @@ Dotās $20$ pēc ārējā izskata vienādas monētas; vairāk nekā puse no tām
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -555,6 +630,9 @@ Pierādīt: ja $n$ – naturāls skaitlis, tad $n^2+n+4$ nedalās ar $9$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -571,6 +649,9 @@ Dots, ka $ABCD$ – trijstūra piramīda, $\angle ABC=\angle ADC=90^{\circ}$ un 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -587,6 +668,9 @@ Pierādīt, ka $a^6-6ab^5+5b^6\geq 0$ visiem reāliem $a$ un $b$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -604,6 +688,9 @@ $a^6+5b^6=a^6+b^6+b^6+b^6+b^6+b^6\ge 6\cdot\sqrt[6]{a^6\cdot b^6\cdot b^6\cdot b
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -626,6 +713,9 @@ Regulārā $2007$-stūrī katrā virsotnē un katrā diagonāļu krustpunktā ie
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

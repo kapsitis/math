@@ -8,6 +8,9 @@ $\frac{2015}{n^{4}-m^{4}}$ arī ir naturāls skaitlis!
 * questionType:QTY_FindAll
 * domain:NT
 * _subdomain: DOM_IntegerEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -65,6 +68,10 @@ pārklāties.
 * questionType:B: QTY_Prove
 * domain:Geom
 * _subdomain: DOM_CuttingCoversColoring
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -109,6 +116,9 @@ atšķirīgi no $100$).
 * questionType:QTY_FindValue
 * domain:Alg
 * _subdomain: DOM_IntegerSequences
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -174,6 +184,9 @@ Pierādīt, ka $AB>BC$ !
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Triangles
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -207,6 +220,9 @@ ja $a$ ir reāls skaitlis?
 * questionType:QTY_FindOptimal
 * domain:Alg
 * _subdomain: DOM_Extremes
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -251,6 +267,9 @@ $a^{4}b+ab^{4}+3a^{3}b^{2}+3a^{2}b^{3}$ vērtība ir vesels skaitlis!
 * questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -287,6 +306,9 @@ Pierādīt, ka katram naturālam $n$ izteiksme $3n^{5}+5n^{4}-8n$ dalās ar $10$
 * topic:ModularArithmetic
 * method:MTH_InductionWithStepOne
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -385,6 +407,9 @@ $(a+d)^{2}+(b+e)^{2} \leq(c+f)^{2}$.
 * questionType:QTY_Prove
 * domain:Alg
 * _subdomain: DOM_ProvingInequalities
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -428,6 +453,9 @@ rādiuss!
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Polygons
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -486,6 +514,10 @@ apmest otrādi. Taisnstūrī nedrīkst būt caurumi, un figūras nedrīkst pārk
 * questionType:B: QTY_Decide
 * domain:Geom
 * _subdomain: DOM_CuttingCoversColoring
+* _questionType:A: QTY_ProveUniversal
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -540,6 +572,9 @@ vesels skaitlis!
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -574,6 +609,9 @@ un kura malas iet pa rūtiņu līnijām?
 * questionType:QTY_Decide
 * domain:Geom
 * _subdomain: DOM_IntegerLattices
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -606,6 +644,9 @@ pietiek, lai panāktu, ka visi papagaiļi atrodas savos sākotnējos krātiņos?
 * questionType:QTY_FindOptimal
 * domain:Comb
 * _subdomain: DOM_MakingMoves
+* _questionType: QTY_FindOptimal,QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -656,6 +697,9 @@ iespējamo $b$ vērtību!
 * questionType:QTY_FindOptimal
 * domain:NT
 * _subdomain: DOM_Divisibility
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -682,6 +726,9 @@ līnijas rādiuss!
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_Polygons
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -746,6 +793,9 @@ $\frac{\sin 3x}{\sin x}$ vērtību!
 * questionType:QTY_FindAll
 * domain:Alg
 * _subdomain: DOM_AlgebraicOperations
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -785,6 +835,9 @@ $\sphericalangle PBC=\sphericalangle PDC$!
 * questionType:QTY_Prove
 * domain:Geom
 * _subdomain: DOM_AnglesParallelsSimilarity
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -817,6 +870,9 @@ $2269^{n}+2151^{n}+1389^{n}-1779^{n}$ dalās ar $2015$.
 * questionType:QTY_Prove
 * domain:NT
 * _subdomain: DOM_Congruences
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -884,6 +940,9 @@ kādām naturālām $d$ vērtībām šāds krāsojums ir iespējams!
 * questionType:QTY_FindAll
 * domain:Geom
 * _subdomain: DOM_NumericSets
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -919,6 +978,10 @@ Vai votivapu valodā ir vārdi **(A)** $abbababab$; **(B)** $baabaabaa$?
 * questionType:B: QTY_Decide
 * domain:Comb
 * _subdomain: DOM_MakingMoves
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

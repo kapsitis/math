@@ -16,6 +16,9 @@ esošās degvielas. Cik litru degvielas tagad ir katrā tvertnē?
 * _hasReasoningMethod: NumericalEstimation
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -51,6 +54,9 @@ vieglāko, gan pašu smagāko monētu?
 * seeAlso: LV.NOL.2016.6.4
 * topic: WeighingProblems
 * topic: TournamentMinAndMax
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -124,6 +130,9 @@ nekā Jānītis? Figūra $stūrītis$ var būt arī pagriezta.
 * _hasReasoningMethod: CaseAnalysis
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, SkippingCaseAnalysis
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -156,6 +165,9 @@ Valentīns uzlīmes nesaņem un netērē.)
 * _hasReasoningMethod: ExpressOneUnknownThroughAnother, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -184,6 +196,9 @@ cipariem), bet vienādus - vienādi, turklāt izveidotais skaitlis ir pirmskaitl
 * _hasReasoningMethod: DivisibilityRules, SumOfArithmeticOrTriangularNumbers, PrimePropertiesAndUniqueness
 * _hasReasoningMistake: WrongDivisibilityRule, PrimeOnePointConfusion
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -217,6 +232,9 @@ cik jautājumiem Olafs nesniedza atbildi?
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -249,6 +267,9 @@ Kā ar $3$ svēršanām uz sviras svariem bez atsvariem atrast viltoto monētu?
 * topic: WeighingComparisonsToCases
 * topic: WeighingAmongGroups
 * topic: WeighingInformationBound
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -313,6 +334,10 @@ pagrieztas vai apgrieztas spoguļattēlā.
 * _hasReasoningMethod: ColoringInvariant, ParityInvariant, CaseAnalysis
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, SkippingCaseAnalysis
 * _mistakesFit: high
+* _questionType:A: QTY_DecideExistence
+* _questionType:B: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -350,6 +375,9 @@ parādīt vienu veidu, kā to izdarīt.)
 * _hasReasoningMethod: ConstructiveExampleForExistence, ExhaustiveEnumerationOfCases, ContradictionForImpossibility
 * _hasReasoningMistake: IncompleteCaseAnalysisInCombinatorialBranching, ConfusingNecessaryWithSufficientCondition, ImplicitAssumptionAboutObjectsBeingDistinct
 * _mistakesFit: medium
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -391,6 +419,9 @@ atšķirīgi).
 * _hasReasoningMethod: CompleteEnumeration, ParityArgument
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -430,6 +461,9 @@ $a, b, c$ nav $0$.
 * _hasReasoningMethod: EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: ConcreteToGeneralLeap, WrongDirectionOfInequalityChain, CaseAnalysisIncomplete
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence,QTY_DecideUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -468,6 +502,9 @@ vai smagāka nekā pārējās? (Pašu monētu atrast nav nepieciešams.)
 * topic: WeighingAmongGroups
 * topic: WeighingToFindAuthenticObject
 * topic: WeighingReducedGoal
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -544,6 +581,9 @@ nekā Jānītis? Figūra stūrītis var būt arī pagriezta.
 * _hasReasoningMethod: CaseAnalysis
 * _hasReasoningMistake: ProofByExampleForUniversalClaim, RelyingOnDiagramAppearance, SkippingCaseAnalysis
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -569,6 +609,9 @@ Vai var atrast tādus veselus skaitļus $a$ un $b$, ka $ab(a+5b)=150015$ ?
 * _hasReasoningMethod: ParityArgument, CompleteEnumeration
 * _hasReasoningMistake: UnstatedNumberSetAssumption
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -602,6 +645,9 @@ uzvarēt?
 * _hasReasoningMethod: NumberConstruction, PositionalNotation
 * _hasReasoningMistake: ExampleInsteadOfProof, CarelessModularComputation, IncompleteResidueCases
 * _mistakesFit: medium
+* _questionType: QTY_DecideWinner
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -649,6 +695,9 @@ malas garumu kvadrātam, kura laukums ir tikpat liels kā dotajam taisnstūrim
 * _newReasoningMethodDescription: Simplifying radicals, products, and area formulas numerically
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -688,6 +737,9 @@ atsvariem atrast viltoto monētu?
 * topic: WeighingAmongGroups
 * topic: WeighingInformationBound
 * topic: PowersRootsLogarithms
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -733,6 +785,9 @@ $EM=BC$.
 * _hasReasoningMethod: CongruentTriangles, IsoscelesTriangleProperties, AngleChasing
 * _hasReasoningMistake: WrongTriangleSimilarityOrCongruence, WrongAngleDecomposition, RelyingOnDiagramAppearance
 * _mistakesFit: high
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -773,6 +828,9 @@ $\frac{4}{3},\ \frac{4}{5},\ \frac{5}{2}$?
 * _hasReasoningMethod: ParameterizedInvariantValue, EquivalentTransformationsOfEquationsAndInequalities
 * _hasReasoningMistake: 
 * _mistakesFit: low
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -807,6 +865,9 @@ izveidotais trīsciparu skaitlis $\overline{yxy}$ ?
 * _hasReasoningMethod: DivisibilityRules, CompleteEnumeration, CoprimeFactorsDivisibility, PositionalNotation, AlgebraicManipulationForInteger, BoundingArgument
 * _hasReasoningMistake: WrongDivisibilityRule, WrongDigitSumRange, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -855,6 +916,9 @@ augoša vai dilstoša!
 * _hasReasoningMethod: IntroduceVariablesAndFormEquation, EquivalentTransformationsOfEquationsAndInequalities, UseFunctionGraphForRootsAndComparisons, CaseAnalysisBySignOrInterval
 * _hasReasoningMistake: IncorrectTranslationOfWordProblem, UncheckedConsistencyOfFoundValues
 * _mistakesFit: medium
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -892,6 +956,9 @@ lodīti?
 * topic: WeighingComparisonsToCases
 * topic: WeighingConclusionsByContradiction
 * topic: WeighingAmongGroups
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -972,6 +1039,9 @@ punkts $O$. Pierādīt, ka $S_{AEOH}+S_{FCGO}=S_{BFOE}+S_{DHOG}$.
 * _hasReasoningMethod: AreaInvarianceAndDecomposition, AuxiliaryLines, CongruentTriangles, TriangleAngleSum
 * _hasReasoningMistake: AreaWithoutPosition, RelyingOnDiagramAppearance, WrongTriangleSimilarityOrCongruence
 * _mistakesFit: medium
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1044,6 +1114,9 @@ no visu šajā kolonnā ierakstīto skaitļu reizinājuma. Vai tas ir iespējams
 * _hasReasoningMethod: ContradictionForImpossibility, ConstructiveExampleForExistence, FixedInvariantNumeric
 * _hasReasoningMistake: ConfusingExistenceVsUniversalityQuantifier, MissingConstructionPartInOptimalProblems, ConfusingNecessaryWithSufficientCondition
 * _mistakesFit: medium
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1086,6 +1159,9 @@ iegūtu skaitli, kas dalās ar $2019$?
 * _hasReasoningMethod: BoundingArgument, PositionalNotation, NumberConstruction
 * _hasReasoningMistake: MissingBoundOrExample, CarelessModularComputation, ExampleInsteadOfProof
 * _mistakesFit: medium
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1148,6 +1224,9 @@ krustpunktu ar $x$ asi!
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1180,6 +1259,9 @@ $51~\mathrm{g}$?
 * topic: WeighingComparisonsToCases
 * topic: WeighingAmongGroups
 * topic: WeighingReducedGoal
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1261,6 +1343,9 @@ $\omega_{2}$ punktā $B$ un krusto $t_{3}$ punktā $D$. Pierādīt, ka $AC=BD$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1289,6 +1374,9 @@ pozitīvi!
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1319,6 +1407,9 @@ Atrast visus pirmskaitļu pārus $(m, n)$, kuriem $20m+18n=2018$.
 * concepts:primes
 * questionType:QTY_FindAll
 * subdomain:DOM_IntegerEquations
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1372,6 +1463,9 @@ $y=bx+c$ grafiki? (Funkciju grafiki nav zīmēti mērogā.)
 
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1402,6 +1496,9 @@ pašu labāko, gan otru labāko šahistu šajā klubā?
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1453,6 +1550,9 @@ krusto $\omega_{1}$ punktā $B_{1}$, bet $\omega_{2}$ - punktā $C_{2}$ (skat.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1489,6 +1589,9 @@ reāliem pozitīviem skaitļiem $a$ un $b$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1554,6 +1657,9 @@ Atrast visus pirmskaitļu pārus $(m, n)$, kuriem $20m+19n=2019$.
 * concepts:linear-expression,primes
 * subdomain:DOM_IntegerEquations
 * seeAlso:LV.NOL.2019.10.5
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1605,6 +1711,9 @@ ar varbūtību, ka lodītes būs dažādās krāsās. Cik melno lodīšu atrodas
 
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1660,6 +1769,9 @@ sešus jautājumus, Indra noteikti var uzzināt Brigitas iedomāto skaitli?
 
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1721,6 +1833,9 @@ regulārs!
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1766,6 +1881,9 @@ $\left|\sqrt{a^{2}+b^{2}}-\sqrt{a^{2}+c^{2}}\right| \leq|b-c|$.
 
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 
@@ -1817,6 +1935,9 @@ naturālos skaitļos!
 * questionType:QTY_Prove
 * domain:NT
 * subdomain:DOM_IntegerEquations
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
 
 </small>
 

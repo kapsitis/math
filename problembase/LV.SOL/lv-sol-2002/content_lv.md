@@ -6,6 +6,9 @@ Vai eksistē tādi dažādi trīsciparu naturāli skaitļi $A$ un $B$, ka trim s
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -22,6 +25,9 @@ Kvadrāts sastāv no $8 \cdot 8$ vienādām kvadrātiskām rūtiņām. Vai to va
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -42,6 +48,9 @@ Gan Jānim, gan Andrim, sākot ar $4$ gadu sasniegšanu, katrā dzimšanas dien�
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -64,6 +73,9 @@ b) kāds mazākais daudzums no šīm summām var būt pāra skaitļi?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence,QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -93,6 +105,9 @@ Doti $6$ stieņi, katrs $1\ \mathrm{m}$ garš. Vai tos var sagriezt gabalos tā,
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -113,6 +128,9 @@ Vai $3.$ zīm. redzamajos trijstūrīšos var ierakstīt $9$ dažādus viencipar
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -133,6 +151,9 @@ Vai var plaknē atzīmēt $4$ punktus tā, lai trīs attālumi starp tiem būtu 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -149,6 +170,9 @@ Kvadrāts sastāv no $3 \cdot 3$ rūtiņām. Rūtiņās ierakstīti naturāli sk
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -169,6 +193,9 @@ Vai var izvēlēties četrus dažādus naturālus skaitļus tā, ka katru triju 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -185,6 +212,9 @@ Kādu lielāko daudzumu skaitļu var izrakstīt rindā tā, lai katru trīs pēc
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -201,6 +231,9 @@ Kādu lielāko daudzumu naturālu skaitļu, kas dalās ar $3$, var uzrakstīt, l
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -217,6 +250,9 @@ Punkti $A$, $B$ un $C$ atrodas uz vienas taisnes; $B$ atrodas starp $A$ un $C$. 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -233,6 +269,9 @@ Izveidojiet iespējami garu nenulles ciparu virkni tā, lai katri divi blakus uz
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -249,6 +288,9 @@ Uz tāfeles uzrakstīts skaitlis $6$. Ja uz tāfeles uzrakstīts skaitlis $n$ un
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -265,6 +307,9 @@ Dots, ka $x+y+z+t=0$. Apzīmējam $A=x\cdot y+y\cdot z+z\cdot t$ un $B=x\cdot z+
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -281,6 +326,9 @@ Pierādiet: katram veselam skaitlim $p$ var atrast bezgalīgi daudzus tādus ves
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -297,6 +345,9 @@ Ar kādu lielāko pirmskaitli var dalīties četrciparu naturāls skaitlis, kura
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -317,6 +368,9 @@ Vai šaurleņķu trijstūrī mediāna var būt vienāda ar viduslīniju?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -345,6 +399,9 @@ Dotas $25$ pēc ārējā izskata vienādas monētas. Zināms, ka $24$ monētu ma
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -363,6 +420,9 @@ Kvadrāts sastāv no $10\cdot 10$ rūtiņām. Dažas rūtiņas atzīmētas. Katr
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -381,6 +441,9 @@ Naturāli skaitļi $A$ un $B$ kopā satur visus $9$ nenulles ciparus, katru tie�
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -397,6 +460,9 @@ Uz $\angle MON$ malām $OM$ un $ON$ atlikti attiecīgi nogriežņi $OA=AB=BC$ un
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -415,6 +481,9 @@ Dots, ka skaitlis $x$ ir triju veselu nenulles skaitļu kvadrātu summa. Pierād
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -434,6 +503,9 @@ Pa apli izrakstīti $10$ vieninieki un $10$ divnieki. Nekādi $3$ pēc kārtas i
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -450,6 +522,9 @@ Trīs kaudzes ir attiecīgi $51$, $49$ un $5$ akmeņi. Ar vienu gājienu var apv
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 

@@ -12,6 +12,9 @@ Vai ar šādiem gājieniem, veicot tos pēc patikas ilgi jebkādā secībā var 
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -34,6 +37,9 @@ b) no $1$ līdz $99$ ieskaitot ?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -60,6 +66,9 @@ Deju ansamblī ir $5$ zēni un $5$ meitenes. Vai var būt, ka visām meitenēm i
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -82,6 +91,9 @@ Divi velosipēdisti, starp kuriem attālums bija $24$ km, devās viens otram pre
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -102,6 +114,9 @@ Kvadrāts sastāv no $4 \cdot 4$ rūtiņām. Vai tajā var $8$ rūtiņas nokrās
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -122,6 +137,9 @@ Saskaitot $6$ dažādus naturālus skaitļus, summā ieguva $24$. Kādi varēja 
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -146,6 +164,9 @@ Uzzīmēt trijstūri un četrstūri tā, lai to kopīgā daļa būtu daudzstūri
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructExample
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -166,6 +187,9 @@ No skaitļa $1230123012301230$ jāizsvītro vairāki cipari tā, lai iegūtais s
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -188,6 +212,9 @@ b) septiņstūra malas.
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -216,6 +243,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -246,6 +276,9 @@ Jāņa solis par $10$ procentiem īsāks par Pētera soli, bet stundā viņš ve
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -272,6 +305,9 @@ Kādā valstī ir tikai $5$ dilleru un $4$ dilleru naudas zīmes. Pierādīt, ka
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -307,6 +343,9 @@ Kādu lielāko daudzumu figūru, kāda parādīta $1.$ zīm., var izgriezt no ta
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -327,6 +366,9 @@ Pierādīt, ka skaitļu $19951995$ un $19952003$ lielākais kopīgais dalītājs
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -345,6 +387,9 @@ Pierādīt: lai kā arī būtu sapakota krava, to var aizvest ar $5$ platformām
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal,QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -369,6 +414,9 @@ dalās ar $15$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -397,6 +445,9 @@ Vai var gadīties, ka kopā ņemtu balto un melno skaitļu vidējais aritmētisk
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -433,6 +484,9 @@ Ar $\overline{xyz}$ apzīmēsim trīsciparu skaitli ar cipariem $x$, $y$, $z$. P
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -495,6 +549,9 @@ Kāds ir lielākais iespējamais paralēlo malu skaits $1995$-stūrī?
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -520,6 +577,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -560,6 +620,9 @@ Dotas divas baltas, divas sarkanas un divas zaļas lodītes. Divu krāsu lodīte
    
 * questionType:
 * domain:
+* _questionType: QTY_ConstructProcedure
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -580,6 +643,9 @@ Atrast visus naturālos divciparu skaitļus, kam piemīt īpašība: saskaitot s
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -607,6 +673,9 @@ Trijstūrī $ABC$ leņķa $A$ bisektrise krusto malu $BC$ punktā $D$. Uz malas 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -638,6 +707,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -664,6 +736,9 @@ Aplūkojam kvadrātfunkciju $f(x)=ax^2+bx+c$. Zināms, ka $f(-1)>-1$, $f(0)<0$ u
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -699,6 +774,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -723,6 +801,9 @@ Ar $\overline{xyz}$ saprotam trīsciparu skaitli ar cipariem $x$, $y$, $z$. Pier
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -759,6 +840,9 @@ Plaknē uzzīmēts kvadrāts ar izmēriem $3\times 3$. Tas jāpārklāj ar kvadr
    
 * questionType:
 * domain:
+* _questionType: QTY_FindOptimal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -783,6 +867,9 @@ Kādā klasē darbojas $5$ pulciņi. Katru pulciņu apmeklē vairāk nekā puse 
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -817,6 +904,9 @@ Dots, ka $x+y=a$ un $x^2+y^2=b$. Aprēķināt $x^3+y^3$.
    
 * questionType:
 * domain:
+* _questionType: QTY_FindValue
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -847,6 +937,9 @@ Vai eksistē $3$ viens otram sekojoši skaitļi, kuru reizinājums ir $199419951
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -866,6 +959,9 @@ $$
    
 * questionType:
 * domain:
+* _questionType: QTY_FindAll
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -896,6 +992,9 @@ Uz paralelograma $ABCD$ malām konstruēti kvadrāti ārpus tā (skat. $3$. zīm
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -940,6 +1039,9 @@ Pierādīt, ka ir tāda pilsēta, no kuras var aizbraukt uz visām citām
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -962,6 +1064,9 @@ $$(a-\beta)\cdot(b-\gamma)\cdot(c-\alpha)=(a-\gamma)\cdot(b-\alpha)\cdot(c-\beta
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -998,6 +1103,9 @@ Vai $19^{95}+95^{19}$ dalās ar $3$ ?
    
 * questionType:
 * domain:
+* _questionType: QTY_DecideExistence
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -1020,6 +1128,9 @@ Pierādīt, ka $|\cos \alpha|+|\cos \beta|+|\cos \gamma|\geq 1$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -1066,6 +1177,9 @@ Pierādīt, ka $RM=SM$.
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
@@ -1097,6 +1211,9 @@ Pierādīt, ka ar $n$ gājieniem pietiek, lai iegūtu jebkuru mums vēlamu kart�
    
 * questionType:
 * domain:
+* _questionType: QTY_ProveUniversal
+* _questionTypeSource: questionTypes2-v2/prompt-v1
+* _questionTypeModel: gpt-6.1-terra
    
 </small>
 
