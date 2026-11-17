@@ -1,0 +1,172 @@
+# hints.yaml: key ideas and hints, one entry per problem ID.
+#
+# ideas  - the key ideas of each solution, stated in full (teacher-facing; shown to a
+#          student only as the last step of a hint ladder).
+#          id:     <solution>/<idea>, e.g. sol-1/idea-1
+#          role:   crux | routine
+# hints  - short student-facing prompts.
+#          phase:  PhaseUnderstand | PhaseExplore | PhaseTransform | PhaseAttack | PhaseReview
+#          level:  Nudge (general question) | Point (names what to look at) |
+#                  Specify (says what to do, not why it works)
+#          target: problem | <solution> | <solution>/<idea>
+#          strategy / method: labels from strategyTags.csv / skos-methods_v2.csv
+#          text:   lv is the master text, en its translation; at most 160 characters each
+#
+# Display order:
+#   1. hints are offered in file order, which follows the phases;
+#   2. hints with the same target form a ladder (Nudge, Point, Specify); the idea text
+#      is the last step of the ladder;
+#   3. if a problem has several solutions, the Nudges of their first ideas are offered
+#      side by side: the student picks one and thereby chooses a solution path;
+#   4. PhaseReview hints are offered only after the problem is solved.
+
+LV.NOL.2017.6.2:
+
+  ideas:
+    - id: sol-1/idea-1
+      role: routine
+      text:
+        lv: 'Skaitlis dalās ar $9$ tad un tikai tad, ja tā ciparu summa dalās ar $9$. Dotā skaitļa ciparu summa ir $33$, tāpēc izsvītroto ciparu summai jābūt $6$, $15$ vai $24$.'
+        en: 'A number is divisible by $9$ exactly when its digit sum is. The digit sum of the given number is $33$, so the crossed-out digits must add up to $6$, $15$ or $24$.'
+    - id: sol-1/idea-2
+      role: crux
+      strategy: [Paraphrase]
+      text:
+        lv: 'Skaitlis ar vairāk cipariem ir lielāks, tāpēc jāizsvītro pēc iespējas mazāk ciparu, nevis jāpanāk pēc iespējas lielāka ciparu summa.'
+        en: 'A number with more digits is larger, so the aim is to cross out as few digits as possible, not to keep the digit sum as large as possible.'
+    - id: sol-1/idea-3
+      role: routine
+      strategy: [CaseAnalysis]
+      method: [MTH_ProcedureCaseSearch]
+      text:
+        lv: 'Ar vienu ciparu nepietiek, jo nav cipara $6$. Divi cipari der tikai vienā veidā: $7+8=15$. Paliek $2012012019$; izsvītrojot vairāk ciparu, skaitlis ir īsāks, tātad mazāks.'
+        en: 'One digit is not enough, since there is no digit $6$. Two digits work in one way only: $7+8=15$. This leaves $2012012019$; crossing out more digits gives a shorter, hence smaller, number.'
+
+  hints:
+    # --- reading the problem ---
+    - id: u1
+      phase: PhaseUnderstand
+      level: Point
+      target: problem
+      strategy: [ClarifyGoal]
+      text:
+        lv: 'Izsvītrojot ciparu, pārējie cipari saglabā secību un sabīdās kopā, tāpēc skaitlis kļūst īsāks. Kas iznāk, ja skaitlim $2017$ izsvītro $0$?'
+        en: 'When a digit is crossed out, the other digits keep their order and close up, so the number gets shorter. What do you get by crossing out $0$ in $2017$?'
+    - id: u2
+      phase: PhaseUnderstand
+      level: Nudge
+      target: problem
+      strategy: [AnswerType]
+      text:
+        lv: 'Jāatrod lielākais skaitlis. Atbildē vajag gan pašu skaitli, gan pamatojumu, ka lielāku iegūt nevar.'
+        en: 'The largest number is required. The answer needs both the number itself and a justification that no larger one can be obtained.'
+
+    # --- exploring ---
+    - id: e1
+      phase: PhaseExplore
+      level: Nudge
+      target: problem
+      strategy: [ConstructExample]
+      text:
+        lv: 'Atrodi divus dažādus veidus, kā izsvītrot ciparus, lai iegūtais skaitlis dalītos ar $9$. Kurš no abiem skaitļiem ir lielāks?'
+        en: 'Find two different ways of crossing out digits so that the result is divisible by $9$. Which of the two numbers is larger?'
+    - id: d1
+      phase: PhaseExplore
+      level: Point
+      target: sol-1/idea-1
+      text:
+        lv: 'Kā pēc cipariem, neveicot dalīšanu, noteikt, vai skaitlis dalās ar $9$? Vai dotais skaitlis dalās ar $9$?'
+        en: 'How can you tell from the digits, without dividing, whether a number is divisible by $9$? Is the given number divisible by $9$?'
+
+    # --- restating the goal (the crux) ---
+    - id: t1
+      phase: PhaseTransform
+      level: Nudge
+      target: sol-1/idea-2
+      strategy: [Paraphrase]
+      text:
+        lv: 'Mērķis ir «lielākais skaitlis». No kā vispirms atkarīgs, kurš no diviem skaitļiem ir lielāks?'
+        en: 'The goal is "the largest number". What decides first which of two numbers is larger?'
+    - id: t2
+      phase: PhaseTransform
+      level: Point
+      target: sol-1/idea-2
+      strategy: [Paraphrase]
+      text:
+        lv: 'Jebkurš $10$ ciparu skaitlis ir lielāks par jebkuru $9$ ciparu skaitli. Cik ciparu tad ir izdevīgi izsvītrot?'
+        en: 'Any $10$-digit number is larger than any $9$-digit number. So how many digits is it best to cross out?'
+
+    # --- carrying it out ---
+    - id: d2
+      phase: PhaseAttack
+      level: Specify
+      target: sol-1/idea-1
+      text:
+        lv: 'Dotā skaitļa ciparu summa ir $33$. Kāda var būt ciparu summa pēc izsvītrošanas, ja skaitlim jādalās ar $9$? Uzraksti visas iespējas.'
+        en: 'The digit sum of the given number is $33$. What can the digit sum be after crossing out, if the number must be divisible by $9$? List all options.'
+    - id: c1
+      phase: PhaseAttack
+      level: Nudge
+      target: sol-1/idea-3
+      strategy: [CaseAnalysis]
+      text:
+        lv: 'Šķiro iespējas pēc izsvītroto ciparu skaita: vispirms viens cipars, tad divi, tad trīs.'
+        en: 'Sort the options by the number of digits crossed out: first one digit, then two, then three.'
+    - id: c2
+      phase: PhaseAttack
+      level: Point
+      target: sol-1/idea-3
+      strategy: [CaseAnalysis]
+      text:
+        lv: 'Cik ciparu vismaz jāizsvītro, lai ciparu summa kļūtu $27$? Un cik, lai tā kļūtu $18$?'
+        en: 'How many digits at least must be crossed out for the digit sum to become $27$? And how many for it to become $18$?'
+    - id: c3
+      phase: PhaseAttack
+      level: Specify
+      target: sol-1/idea-3
+      method: [MTH_ProcedureCaseSearch]
+      text:
+        lv: 'Skaitlī ir cipari $0, 1, 2, 7, 8, 9$. Atrodi visus veidus, kā ar vienu vai diviem cipariem iegūt summu $6$, $15$ vai $24$.'
+        en: 'The number has the digits $0, 1, 2, 7, 8, 9$. Find all ways to get the sum $6$, $15$ or $24$ with one or two digits.'
+
+    # --- after solving ---
+    - id: r1
+      phase: PhaseReview
+      level: Nudge
+      target: sol-1
+      strategy: [CheckResult, ExampleAndBound]
+      text:
+        lv: 'Vai pamatoji abas daļas: ka tavu skaitli tiešām var iegūt un ka lielāku skaitli iegūt nevar?'
+        en: 'Have you justified both parts: that your number can really be obtained and that no larger number can?'
+    - id: r2
+      phase: PhaseReview
+      level: Point
+      target: sol-1
+      strategy: [CheckResult]
+      text:
+        lv: 'Vai lielākam skaitlim var būt mazāka ciparu summa? Salīdzini savu atbildi ar lielāko skaitli, kam ciparu summa ir $27$.'
+        en: 'Can a larger number have a smaller digit sum? Compare your answer with the largest number whose digit sum is $27$.'
+    - id: r3
+      phase: PhaseReview
+      level: Point
+      target: sol-1
+      strategy: [CheckResult]
+      text:
+        lv: 'Vai divus ciparus var izsvītrot vairākos veidos? Ja varētu, kā tu izvēlētos lielāko no iegūtajiem skaitļiem?'
+        en: 'Can two digits be crossed out in more than one way? If they could, how would you choose the largest of the resulting numbers?'
+    - id: r4
+      phase: PhaseReview
+      level: Point
+      target: sol-1
+      strategy: [CheckResult]
+      text:
+        lv: 'Kas notiek, ja izsvītro pirmo ciparu $2$? Ar kādu ciparu tad sākas pieraksts, un cik ciparu skaitlī patiesībā paliek?'
+        en: 'What happens if the first digit $2$ is crossed out? Which digit does the notation then start with, and how many digits does the number really have?'
+    - id: r5
+      phase: PhaseReview
+      level: Point
+      target: problem
+      strategy: [ExtendProblem]
+      text:
+        lv: 'Kāds ir lielākais skaitlis, ko var iegūt, ja tam jādalās nevis ar $9$, bet ar $3$? Šoreiz ir vairāki veidi, kas jāsalīdzina.'
+        en: 'What is the largest number obtainable if it must be divisible by $3$ instead of $9$? This time there are several ways to compare.'

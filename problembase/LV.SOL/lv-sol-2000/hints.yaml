@@ -1,0 +1,151 @@
+# hints.yaml: key ideas and hints, one entry per problem ID.
+#
+# ideas  - the key ideas of each solution, stated in full (teacher-facing; shown to a
+#          student only as the last step of a hint ladder).
+#          id:     <solution>/<idea>, e.g. sol-1/idea-1
+#          role:   crux | routine
+# hints  - short student-facing prompts.
+#          phase:  PhaseUnderstand | PhaseExplore | PhaseTransform | PhaseAttack | PhaseReview
+#          level:  Nudge (general question) | Point (names what to look at) |
+#                  Specify (says what to do, not why it works)
+#          target: problem | <solution> | <solution>/<idea>
+#          strategy / method: labels from strategyTags.csv / skos-methods_v2.csv
+#          text:   lv is the master text, en its translation; at most 160 characters each
+#
+# Display order:
+#   1. hints with target "problem" in PhaseUnderstand and PhaseExplore, in file order;
+#   2. then the Nudge of the first idea of every solution, offered side by side:
+#      the student picks one and thereby chooses a solution path;
+#   3. within the chosen target: Nudge, Point, Specify, and finally the idea text;
+#   4. PhaseReview hints only after the problem is solved.
+
+LV.SOL.2000.7.5:
+
+  ideas:
+    - id: sol-1/idea-1
+      role: crux
+      method: [MTH_InvariantFixed, MTH_ModularParity]
+      text:
+        lv: 'Pēc pirmā gājiena trijniekā vienmēr ir tieši viens nepāra skaitlis un divi pāra skaitļi: neviens gājiens to nemaina.'
+        en: 'After the first move the triple always contains exactly one odd and two even numbers: no move changes this.'
+    - id: sol-1/idea-2
+      role: routine
+      text:
+        lv: 'Trijniekā $(1997,1999,2001)$ ir trīs nepāra skaitļi, tāpēc to iegūt nevar.'
+        en: 'The triple $(1997,1999,2001)$ has three odd numbers, so it cannot be obtained.'
+    - id: sol-2/idea-1
+      role: crux
+      strategy: [WorkingBackwards]
+      text:
+        lv: 'Tūlīt pēc gājiena uzrakstītais skaitlis ir abu pārējo summa mīnus $1$. Trijniekā $(1997,1999,2001)$ tāda skaitļa nav, tāpēc tas nav neviena gājiena rezultāts.'
+        en: 'Right after a move, the number just written equals the sum of the other two minus $1$. The triple $(1997,1999,2001)$ has no such number, so it is not the result of any move.'
+
+  hints:
+    # --- shared by all solutions ---
+    - id: u1
+      phase: PhaseUnderstand
+      level: Point
+      target: problem
+      strategy: [ClarifyGoal]
+      text:
+        lv: 'Katrs gājiens vienu skaitļu trijnieku aizstāj ar citu; sākumā stāvoklis ir $(2,4,6)$.'
+        en: 'Every move replaces one triple of numbers by another, starting with $(2,4,6)$.'
+    - id: u2
+      phase: PhaseUnderstand
+      level: Nudge
+      target: problem
+      strategy: [AnswerType]
+      text:
+        lv: 'Jautājums ir "vai var?". Ja var - jāparāda gājieni; ja nevar - jāpamato, kāpēc neder neviena gājienu virkne.'
+        en: 'The question is "is it possible?". If yes, show the moves; if no, explain why no sequence of moves works.'
+    - id: e1
+      phase: PhaseExplore
+      level: Nudge
+      target: problem
+      strategy: [SmallCases]
+      text:
+        lv: 'Izdari no $(2,4,6)$ dažus gājienus dažādos veidos; pieraksti stāvokļus kā trijniekus.'
+        en: 'Make a few moves from $(2,4,6)$ in different ways; write down the triples you get.'
+    - id: e2
+      phase: PhaseExplore
+      level: Point
+      target: problem
+      strategy: [LookForPattern]
+      text:
+        lv: 'No katra trijnieka ir trīs gājieni; kuri no tiem maina stāvokli?'
+        en: 'Each triple allows three moves; which of them really change the triple?'
+
+    # --- path A: solution 1, parity invariant ---
+    - id: a1
+      phase: PhaseAttack
+      level: Nudge
+      target: sol-1/idea-1
+      method: [MTH_Invariant]
+      text:
+        lv: 'Skaitļi ar katru gājienu mainās. Kas stāvoklī paliek nemainīgs - neatkarīgi no gājiena?'
+        en: 'The numbers change with every move. What about the state stays the same, whichever move you choose?'
+    - id: a2
+      phase: PhaseAttack
+      level: Point
+      target: sol-1/idea-1
+      method: [MTH_ModularParity]
+      text:
+        lv: 'Seko nevis pašiem skaitļiem, bet "paritātei" - cik no trim skaitļiem ir pāra un cik - nepāra.'
+        en: 'Track not the numbers themselves but their "parity" - how many are even and how many are odd.'
+    - id: a3
+      phase: PhaseAttack
+      level: Specify
+      target: sol-1/idea-1
+      method: [MTH_InvariantFixed]
+      text:
+        lv: 'Pārbaudi visus 3 gājienus no stāvokļa (nepāra, pāra, pāra). Kādi stāvokļi var rasties?'
+        en: 'Check all 3 moves from a state (odd, even, even). What states arise in each case?'
+    - id: a4
+      phase: PhaseAttack
+      level: Point
+      target: sol-1/idea-2
+      text:
+        lv: 'Salīdzini atrasto īpašību ar trijnieku $(1997,1999,2001)$.'
+        en: 'Compare the property you found with the triple $(1997,1999,2001)$.'
+    - id: a5
+      phase: PhaseReview
+      level: Point
+      target: sol-1
+      strategy: [CheckResult]
+      text:
+        lv: 'Sākuma stāvoklis bija $(2,4,6)$. Vai tas atbilst (nepāra, pāra, pāra) īpašībai?'
+        en: 'The initial state was $(2,4,6)$. Does it satisfy the (odd, even, even) property?'
+
+    # --- path B: solution 2, the last move ---
+    - id: b1
+      phase: PhaseAttack
+      level: Nudge
+      target: sol-2/idea-1
+      strategy: [WorkingBackwards]
+      text:
+        lv: 'Iedomājies, ka stāvoklis $(1997,1999,2001)$ ir iegūts. Kāds varēja būt priekšpēdējais stāvoklis?'
+        en: 'Imagine the state $(1997,1999,2001)$ has been obtained. What could immediately precede it?'
+    - id: b2
+      phase: PhaseAttack
+      level: Point
+      target: sol-2/idea-1
+      strategy: [WorkingBackwards]
+      text:
+        lv: 'Gājienā uzrakstītais skaitlis ir abu pārējo summa mīnus $1$. Kurš no trim skaitļiem varēja būt uzrakstīts pēdējais?'
+        en: 'The number written in a move is the sum of the other two minus $1$. Which of the three numbers could have been written last?'
+    - id: b3
+      phase: PhaseAttack
+      level: Specify
+      target: sol-2/idea-1
+      strategy: [WorkingBackwards]
+      text:
+        lv: 'Pārbaudi katru skaitli: vai, piemēram, $2001 = 1997 + 1999 - 1$? Un pārējie divi?'
+        en: 'Check each number: for example, is $2001 = 1997 + 1999 - 1$? And the other two?'
+    - id: b4
+      phase: PhaseReview
+      level: Point
+      target: sol-2
+      strategy: [CheckResult]
+      text:
+        lv: 'Ja trijnieks nav neviena gājiena rezultāts, kā vēl tas varētu atrasties uz tāfeles? Izslēdz arī šo iespēju.'
+        en: 'If the triple is not the result of any move, how else could it be on the board? Rule out that possibility too.'
